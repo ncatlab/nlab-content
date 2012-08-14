@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 
 ## Definition 
@@ -22,11 +22,12 @@ For any [[prime number]] $p$, the [[ring]] of $p$-**adic integers** $\mathbb{Z}_
 $$\sum_{n \geq 0} a_n p^n$$ 
 where $0 \leq a_n \leq p-1$, added and multiplied with the usual method of carrying familiar from adding and multiplying ordinary integers. 
 
-1. More precisely, it is the [[metric space]] [[completion]] of the ring of [[integers]] $\mathbb{Z}$ with respect to the $p$-adic [[absolute value]]. Since addition and multiplication of integers are [[uniform space|uniformly continuous]] with respect to the $p$-adic [[absolute value]], they extend uniquely to a uniformly continuous addition and multiplication on $\mathbb{Z}_p$. Thus $\mathbb{Z}_p$ is a [[topological ring]]. 
+2. More precisely, it is the [[metric space]] [[completion]] of the ring of [[integers]] $\mathbb{Z}$ with respect to the $p$-adic [[absolute value]]. Since addition and multiplication of integers are [[uniform space|uniformly continuous]] with respect to the $p$-adic [[absolute value]], they extend uniquely to a uniformly continuous addition and multiplication on $\mathbb{Z}_p$. Thus $\mathbb{Z}_p$ is a [[topological ring]]. 
 
-1. Alternatively, it is the [[limit]], in the [[category]] of (unital) [[ring|rings]], of the [[diagram]] 
+3. Alternatively, it is the [[limit]], in the [[category]] of (unital) [[ring|rings]], of the [[diagram]] 
 $$\ldots \to \mathbb{Z}/(p^{n+1}) \to \mathbb{Z}/(p^n) \to \ldots \to \mathbb{Z}/(p)$$ 
 also considered as a topological ring if the limit is taken in the category of topological rings, and taking the rings in the diagram to have [[discrete space|discrete]] topologies. 
+
 
 ## Properties
 
@@ -36,10 +37,16 @@ The $p$-adic integers have the following properties:
 
 * As a [[topological group]] under addition, it is therefore an [[almost connected group]]. As an [[abelian group|abelian]]  [[compact group]], it is [[Pontryagin duality|Pontryagin dual]] to the [[Prüfer group|Prüfer]] $p$-group as [[discrete group]]. 
 
+
 ## Related notions 
 
 * $p$-[[p-adic number|adic number]], [[adele]].
 
 * [[Z-infinity-module]] 
 
+
+[[!redirects p-adic integer]]
 [[!redirects p-adic integers]]
+
+[[!redirects adic integer]]
+[[!redirects adic integers]]
