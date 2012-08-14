@@ -34,9 +34,9 @@
 
   * [[K-theory]]
 
-  * [[elliptic cohomology]]
+  * [[elliptic cohomology]], [[tmf]]
 
-  * [[tmf]]
+  * [[taf]]
 
 * [[abelian sheaf cohomology]]
 
