@@ -100,13 +100,13 @@ $$
 The resulting [[Cech nerve]] is a [[groupoid object in an (∞,1)-category]] given by
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect tmf \times Spec M U \times Spec M U \stackrel{\to}{\to} Spec tmf \times Spec M U
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec tmf \times Spec M U \times Spec M U \stackrel{\to}{\to} Spec tmf \times Spec M U
 $$
 
 which by formal duality is
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect (tmf \wedge M U \wedge M U) \stackrel{\to}{\to} Spec ( tmf \wedge M U)
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (tmf \wedge M U \wedge M U) \stackrel{\to}{\to} Spec ( tmf \wedge M U)
 $$
 
 where the [[smash product]] $\wedge$ of ring spectral over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
@@ -119,7 +119,7 @@ As a [[groupoid object in an (infinity,1)-category|groupoid object]] this is sti
 To simplify this we take a drastic step and apply a lot of [[decategorification]]: by applying the [[homotopy group]] [[(∞,1)-functor]] to all the $E_\infty$-rings involved these are sent to graded ordinary [[ring]]s $\pi_*(tmf)$, $\pi_*(M U)$ etc. The result is an ordinary [[simplicial object|simplicial]] [[scheme]]
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect (\pi_*(tmf \wedge M U \wedge  M U)) \stackrel{\to}{\to} Spec ( \pi_*(tmf \wedge M U))
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (\pi_*(tmf \wedge M U \wedge  M U)) \stackrel{\to}{\to} Spec ( \pi_*(tmf \wedge M U))
   \,,
 $$
 
@@ -133,7 +133,7 @@ This simplicial scheme, which is degreewise the formal dual of a graded ring of 
 In fact if in this construction one replaced $Spec tmf$ by the point, one obtains the simplicial scheme
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spect (\pi_*(M U \wedge M U)) \stackrel{\to}{\to} Spec ( \pi_*(M U))
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (\pi_*(M U \wedge M U)) \stackrel{\to}{\to} Spec ( \pi_*(M U))
 $$
 
 which one finds is the moduli stack $\mathcal{M}_{fg}$ of [[formal group law]]s.
@@ -173,7 +173,7 @@ A course that goes through the construction of tmf and the computation of its ho
    * [[Mike Hopkins]] (talk notes by Michael Hill), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
     {#Hopkins}
 
-   * [[André Henriques]], _The homotopy groups of tmf_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter17/TmfHomotopy.pdf))
+   * [[André Henriques]], _The homotopy groups of tmf_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter16/TmfHomotopy.pdf))
      {#Henriques}
 
    * [[André Henriques]], _The moduli stack of elliptic cirves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf))     {#HenriquesModuli}
