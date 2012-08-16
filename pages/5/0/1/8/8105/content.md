@@ -18,6 +18,7 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 | [[cohomology theory]]/[[spectrum]] $E = $ | [[topological K-theory|KO]] | [[TMF]] | [[TAF]] |
 | [[algebraic group]] | $GL_1$ | $GL_2$ | $U(1,n-1)$ |
 | geometric object | [[multiplicative group]] | [[elliptic curve]] | [[Shimura variety]] |
+| [[FQFT]] | [[(1,1)-dimensional Euclidean field theories and K-theory|superparticle]] |  [[(2,1)-dimensional Euclidean field theories and tmf|heterotic superstring]] | ?? |
 
 ## Related concepts
 
