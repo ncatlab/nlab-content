@@ -1,0 +1,60 @@
+
+# Tensor products of Banach spaces
+* table of contents
+{: toc}
+
+## Idea
+
+There are various [[norms]] that may be placed on the [[tensor product]] of the underlying [[vector spaces]] of two [[Banach spaces]]; the result is not usually [[complete space|complete]], but of course we may take its [[completion]].  One of these, the _projective tensor product_, makes [[Ban]] (the category of Banach spaces and [[short linear maps]]) into a [[closed monoidal category]], but any of them makes $Ban$ into a [[symmetric monoidal category]].  If we start with [[Hilbert spaces]], then a different choice of norm is needed to make the result into a Hilbert space; then [[Hilb]] also becomes a closed symmetric monoidal category.
+
+
+## Definitions
+
+### Projective tensor products
+
+...
+
+
+### Injective tensor products
+
+...
+
+
+### Tensor products of Hilbert spaces
+
+...
+
+
+### Other tensor products of Banach spaces
+
+...
+
+
+## References
+
+Here\'s Wikipedia:
+
+* [Topological tensor product](https://en.wikipedia.org/wiki/Topological_tensor_product) (which also discusses tensor products of [[locally convex spaces]]),
+* [Tensor product of Hilbert spaces](https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces).
+
+
+[[!redirects tensor product of a Banach space]]
+[[!redirects tensor products of a Banach space]]
+[[!redirects tensor product of Banach spaces]]
+[[!redirects tensor products of Banach spaces]]
+
+[[!redirects tensor product of a Hilbert space]]
+[[!redirects tensor products of a Hilbert space]]
+[[!redirects tensor product of Hilbert spaces]]
+[[!redirects tensor products of Hilbert spaces]]
+
+[[!redirects projective tensor product of a Banach space]]
+[[!redirects projective tensor products of a Banach space]]
+[[!redirects projective tensor product of Banach spaces]]
+[[!redirects projective tensor products of Banach spaces]]
+
+[[!redirects injective tensor product of a Banach space]]
+[[!redirects injective tensor products of a Banach space]]
+[[!redirects injective tensor product of Banach spaces]]
+[[!redirects injective tensor products of Banach spaces]]
+
