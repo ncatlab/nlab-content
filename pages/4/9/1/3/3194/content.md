@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 Throughout, we work in the category $Bant$ whose objects are Banach spaces and where the morphisms are continuous linear maps. References below to the unit ball suggest that it _might_ be premature to cast everything in terms of a certain subcategory of TVS.
 
@@ -38,9 +38,11 @@ To get things to run smoothly, we seem to need more than $\kappa_X$ being monic 
 
 The counit map $\veps_X: X^{***} \to X^*$ is sometimes known as the Dixmier projection from the third dual of a Banach space to (the canonical image of) its first dual; note that this map is weak-star-to-weak-star continuous. (It is a projection in the sense of vector spaces, by the triangle identity for the adjunction.)
 
+
 ## Definition
 
-A [[Banach space]] $X$ is **reflexive** if $\kappa_X$ is an [[isomorphism]] in $Bant$. If we furthermore grant ourselves Hahn-Banach, then $\kappa_X$ will even be an [[isomorphism]] in the category of Banach spaces and short linear maps.
+A [[Banach space]] $X$ is **reflexive** if $\kappa_X$ is an [[isomorphism]] in $Bant$. If we furthermore grant ourselves Hahn-Banach, then $\kappa_X$ will even be an [[isometric isomorphism]]: an isomorphism in the category of Banach spaces and [[short linear maps]].
+
 
 ## Properties
 
