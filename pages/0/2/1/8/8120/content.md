@@ -27,7 +27,7 @@ $$ {\|w\|} \coloneqq {\Big\| \sum_i {\|w_i\|} i \Big\|} .$$
 
 We may succinctly write the $V$-direct sum as follows:
 $$ \oplus^V_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; {\Big\| \sum_i {\|w_i\|} i \Big\|} \lt \infty \Big\} .$$
-Strictly speaking, the only condition on the right-hand side is that the sum exists in $V$; then of course its norm will be positive.  However, often some sense can be established for the sum outside of $V$ but then it will have no (finite) norm.
+Strictly speaking, the only condition on the right-hand side is that the sum exists in $V$; then of course its norm will be finite.  However, often some sense can be established for the sum outside of $V$ but then it will have no (finite) norm.
 
 In particular, if $V = l^p$ (or a finitary or uncountablary version of such) for $1 \leq p \lt \infty$, then
 $$ \oplus^p_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sqrt[p] {\sum_i {\|w_i\|^p}} \lt \infty \Big\} ;$$
@@ -41,7 +41,7 @@ $$ \oplus^1_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sum_i {\|w_i\|} \lt \infty
 
 If [[short map|short]] [[linear maps]] are taken as the [[morphisms]] in the category of Banach spaces, then the $l^1$-direct sum is the [[coproduct]], and the $l^\infty$-direct sum is the [[product]].
 
-We can also consider the abstract concepts of [[direct sum]] and [[weak direct product]]; here again the $l^1$-direct sum is the direct sum, and the $l^\infty$-direct sum is the weak direct product.  (It is quite common for coproduct and direct sum to be the same, but weak direct product usually diverges from the product for infinitely many object.  That they match up here cruicially depends on [[complete space|completeness]].)
+We can also consider the abstract concepts of [[direct sum]] and [[weak direct product]]; here again the $l^1$-direct sum is the direct sum, and the $l^\infty$-direct sum is the weak direct product.  (It is quite common for coproduct and direct sum to be the same, but weak direct product usually diverges from the product for infinitely many objects.  That they match up here cruicially depends on [[complete space|completeness]].)
 
 If every Banach space in a direct sum is a [[Hilbert space]], then their $l^2$-direct sum is also a Hilbert space.  This is the standard notion of __direct sum of Hilbert spaces__.  In [[Hilb]], this the abstract [[direct sum]], the [[weak direct product]], and the [[coproduct]].  Thus for finitely many objects, it is a [[biproduct]] (so $Hilb$ behaves rather like [[Vect]]).
 
