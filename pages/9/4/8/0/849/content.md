@@ -50,7 +50,7 @@ Note that $hom_{SVect}$ is indeed a super vector space, with the even elements b
 
 ### For Banach spaces
 
-A similar thing happens in the category $Ban$ of [[Banach spaces]] and [[short map|short]] [[linear operators]].  The external hom consists of only the *short* linear maps (those bounded by $1$):
+A similar thing happens in the category $Ban$ of [[Banach spaces]] and [[short linear operators]].  The external hom consists of only the *short* linear maps (those bounded by $1$):
 $$ Hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \leq 1 \} .$$
 This definition of morphism recovers the most specific notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
 
