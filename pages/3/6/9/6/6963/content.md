@@ -39,7 +39,7 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 
 *  Every $\dagger$-[[dagger-category|category]] is an $\mathcal{M}$-category in which the tight morphisms are the [[unitary isomorphisms]].  In particular, [[Hilbert spaces]] form an $\mathcal{M}$-category with [[unitary operators]] as tight morphisms.
 
-*  A more interesting way to make Hilbert spaces into an $\mathcal{M}$-category [[Hilb]] uses (as in the $\dagger$-category $Hilb$) all bounded [[linear operators]] as loose morphisms but only [[short map|short]] linear operators (those with norm at most $1$) as tight morphisms.  This gives the same tight isomorphisms as the $\dagger$-category $Hilb$ (but also has non-invertible tight morphisms).
+*  A more interesting way to make Hilbert spaces into an $\mathcal{M}$-category [[Hilb]] uses (as in the $\dagger$-category $Hilb$) all [[bounded linear operators]] as loose morphisms but only [[short linear operators]] (those with norm at most $1$) as tight morphisms.  This gives the same tight isomorphisms as the $\dagger$-category $Hilb$ (but also has non-invertible tight morphisms).
 
 *  Similarly, [[Ban]] (the category of [[Banach spaces]]) is an $\mathcal{M}$-category with all bounded linear operators as loose morphisms but only short linear operators as tight morphisms.  In [[functional analysis]], a loose isomorphism in $Ban$ is traditionally called an '[[norm isomorphism|isomorphism]]' while a tight isomorphism is called a '[[global isometry]]'.
 
