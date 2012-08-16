@@ -98,7 +98,7 @@ The clever reader will note that we have not yet defined $\mathbf{Ban}$ as a cat
 
 In [[functional analysis]], the usual notion of '[[isomorphism]]' for Banach spaces is a bounded bijective linear map $f\colon V \to W$ such that the [[inverse function]] $f^{-1}\colon W \to V$ (which is necessarily linear) is also bounded. In this case one can accept all bounded linear maps between Banach spaces as morphisms.  Analysts sometimes refer to this as the "isomorphic category".
 
-Another natural notion of isomorphism is a surjective linear isometry. In this case, we take a morphism to be a **short** linear map, or linear contraction: a linear map $f$ such that ${\|f\|} \leq 1$.  This category, which is what category theorists generally refer to as $\mathbf{Ban}$, is sometimes referred to as the "isometric category" by analysts. Note that this makes the 'underlying set' (in the sense of $\mathbf{Ban}$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
+Another natural notion of isomorphism is a surjective linear isometry. In this case, we take a morphism to be a **[[short map|short]]** [[linear map]], or [[short linear map|linear contraction]]: a linear map $f$ such that ${\|f\|} \leq 1$.  This category, which is what category theorists generally refer to as $\mathbf{Ban}$, is sometimes referred to as the "isometric category" by analysts. Note that this makes the 'underlying set' (in the sense of $\mathbf{Ban}$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
 $$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; {\|v\|} \leq 1 \} $$
 rather than the set of all vectors in $V$ (the underlying set of $V$ as a vector space).
 
@@ -158,7 +158,7 @@ consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounde
 $$ {\left\| \sum_{1 \leq i \leq n} a_i (x_i \otimes y_i) \right\|} = \sum_{1 \leq i \leq n} {|a_i|} {\|x_i\|} \cdot {\|y_i\|}.$$
 Let $\overline{F}(X \times Y)$ denote its completion with respect to this norm. Then take the cokernel of $\overline{F}(X \times Y)$ by the closure of the subspace spanned by the obvious bilinear relations. This quotient is $X \otimes_{Ban} Y$.
 
-In the literature on Banach spaces, tensor product above is usually called the __projective tensor product__ of Banach spaces; see other [[tensor product on Banach spaces]].  The product and coproduct are considered __direct sums__; see other [[direct sums of Banach spaces]].
+In the literature on Banach spaces, tensor product above is usually called the __projective tensor product__ of Banach spaces; see other [[tensor product of Banach spaces]].  The product and coproduct are considered __direct sums__; see other [[direct sums of Banach spaces]].
 
 To be described:
 *  duals ($p + q = p q$); 
