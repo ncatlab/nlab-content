@@ -75,7 +75,7 @@ $$
 
 =--
 
-Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups it corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
 
 ### For spherical fibrations
  {#ForSphereBundles}
@@ -395,7 +395,7 @@ Write [[Spec]] for the category of [[spectra]] and $Ho(Spec)$ for its standard [
 
 For $X$ any [[topological space]], we may regard it as an object in $Ho(Spec)$ by forming its [[suspension spectrum]] $\Sigma^\infty_+ X$. We may ask under which conditions on $X$ this is a [[dualizable object]] with respect to the smash-product monoidal structure.
 
-It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]]. In that case $Th(N X)$ -- the Thom spectrum of its [[normal bundle|stabe normal bundle]] is the corresponding [[dual object]]. This is called the [[Spanier-Whitehead dual]] of $\Sigma^\infty_+ X$.
+It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]]. In that case $Th(N X)$ -- the Thom spectrum of its [[normal bundle|stable normal bundle]] is the corresponding [[dual object]]. This is called the [[Spanier-Whitehead dual]] of $\Sigma^\infty_+ X$.
 
 Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ in $Ho(Spec)$ -- the categorical [[dimension]] of $\Sigma^\infty_+ X$ -- is the [[Euler characteristic]] of $X$.
 
@@ -435,7 +435,7 @@ The generalized notion of Thom spectra is discussed in
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
-The relation of Thom spectra to dualizable objects in the stable homotopy catregory is mentioned as example 3.7 in the expository
+The relation of Thom spectra to dualizable objects in the stable homotopy category is mentioned as example 3.7 in the expository
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
