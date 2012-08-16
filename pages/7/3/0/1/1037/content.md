@@ -509,11 +509,12 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 #### 6.1.5 Giraud's theorem for $\infty$-Topoi
 
-(...)
+* [[Giraud's theorem]]
 
 #### 6.1.6 $\infty$-Topoi and classifying objects
+ {#ClassifyingObjects}
 
-(...)
+* [[object classifier in an (infinity,1)-topos]]
 
 
 ### 6.2 Constructions of $(\infty,1)$-toposes ###
