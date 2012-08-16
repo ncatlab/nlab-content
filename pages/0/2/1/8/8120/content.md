@@ -43,7 +43,7 @@ If [[short map|short]] [[linear maps]] are taken as the [[morphisms]] in the cat
 
 We can also consider the abstract concepts of [[direct sum]] and [[weak direct product]]; here again the $l^1$-direct sum is the direct sum, and the $l^\infty$-direct sum is the weak direct product.  (It is quite common for coproduct and direct sum to be the same, but weak direct product usually diverges from the product for infinitely many object.  That they match up here cruicially depends on [[complete space|completeness]].)
 
-If every Banach space in a direct sum is a [[Hilbert space]], then their $l^2$-direct sum is also a Hilbert space.  This is the standard notion of __direct sum of Hilbert spaces__.
+If every Banach space in a direct sum is a [[Hilbert space]], then their $l^2$-direct sum is also a Hilbert space.  This is the standard notion of __direct sum of Hilbert spaces__.  In [[Hilb]], this the abstract [[direct sum]], the [[weak direct product]], and the [[coproduct]].  Thus for finitely many objects, it is a [[biproduct]] (so $Hilb$ behaves rather like [[Vect]]).
 
 Any Banach space $V$ with basis $B$ is the $V$-direct sum of ${|B|}$ copies of the line ($\mathbb{R}$ or $\mathbb{C}$).
 
