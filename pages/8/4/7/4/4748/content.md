@@ -649,6 +649,7 @@ In [[physics]] various [[action functional]]s for [[quantum field theories]] are
 
 
 ## References
+ {#References}
 
 For references on ordinary 1-dimensional parallel transport see [[parallel transport]].
 
