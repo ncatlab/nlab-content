@@ -146,7 +146,7 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
 ## Examples {#Examples}
 
-### Specific examples
+### Specific examples and key results
 
 * The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: it is the [[category of sheaves]] on the [[point]].
 
@@ -162,8 +162,9 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
   * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
 
-* For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]]
-  $E/X$ is again a topos. ([[Elephant]], A.2.3.2). 
+* For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]] or [[slice category]] $E/X$ is again a topos. ([[Elephant]], A.2.3.2). See also [[over-topos]]. 
+
+* If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double-negation topology]]. 
 
 * If $G$ is a [[topological group]], then the category $Cont(G)$ of sets with a *continuous* action of $G$ (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).  More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
 
@@ -181,16 +182,15 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
 * The [[Eilenberg-Moore category|category of coalgebras]] for any [[exact functor|lex]] [[comonad]] on a topos is again a topos: a [[topos of algebras over a monad|topos of coalgebras]], and if the comonad is [[accessible functor|accessible]], this construction preserves Grothendieck-ness.  
 
-  For instance the [[Artin gluing]] $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$.
+  For instance the [[Artin gluing]] $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$. 
 
-* [[Todd Trimble]] has a notion called a "modal operator" on a topos, from which one can construct a new topos of "$G$-structures": see [[toddtrimble:Three topos theorems in one]].  A possibly related idea is Toby Kenney's notion of lex distributive [[diad]], from which one can also construct a topos.
+* More generally, the category of coalgebras for any [[preserved limit|pullback-preserving]] comonad on a topos is again a topos. This covers both the preceding result and also the overcategory (slice category) result above, since $E/X$ is the category of coalgebras for the pullback-preserving comonad given by $X \times - \colon E \to E$. It also covers Artin gluing along a pullback-preserving functor. 
+
+* More generally still, [[Todd Trimble]] has a notion called a "modal operator" on a topos, from which one can construct a new topos of "$G$-structures": see [[toddtrimble:Three topos theorems in one]]. Special cases include the pullback-preserving comonad result just mentioned, and the result that the category of algebras for a lex [[idempotent monad]] is a topos. A related idea is Toby Kenney's notion of lex distributive [[diad]], from which one can also construct a topos.
 
 * From any [[partial combinatory algebra]] one can construct a [[realizability topos]], whose [[internal logic]] is "computable" or "effective" mathematics relative to that PCA.  In particular, for [[Kleene's first algebra]], one obtains the [[effective topos]], the most-studied of realizability toposes.  Realizability toposes are generally not Grothendieck toposes.
 
-* A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales.
-
-* For $\mathcal{T}$ any topos and $X \in \mathcal{T}$ any category, the [[over category]] $\mathcal{T}/X$ is itself a topos: the [[over-topos]].
-
+* A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales. 
 
 ### Classes of examples
 
