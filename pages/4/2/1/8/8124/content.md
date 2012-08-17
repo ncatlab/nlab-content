@@ -1,7 +1,14 @@
+
 If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internal]] [[Heyting algebra]]. The double or iterated negation operator
 
 $$\neg \neg \colon \Omega \to \Omega$$ 
 
-satisfies the properties of a [[Lawvere-Tierney topology]]. It is called the **double-negation topology**. (The proof of these properties reduces to the proof for ordinary Heyting algebras in $Set$, since they can be formulated in purely equational form and thus externalized and reflected by a Yoneda embedding. The results for ordinary Heyting algebras are given [here](http://ncatlab.org/nlab/show/Heyting+algebra#to_boolean_algebras_24).) 
+satisfies the properties of a [[Lawvere-Tierney topology]]. It is called the **[[double-negation]] topology**. (The proof of these properties reduces to the proof for ordinary Heyting algebras in $Set$, since they can be formulated in purely equational form and thus externalized and reflected by a Yoneda embedding. The results for ordinary Heyting algebras are given [here](http://ncatlab.org/nlab/show/Heyting+algebra#to_boolean_algebras_24).) 
 
 The category of sheaves for the double-negation topology on $E$ is a [[Boolean topos]], the topos of double-negation sheaves. It is the maximal Boolean [[subtopos]] contained in $E$. 
+
+
+[[!redirects double-negation topology]]
+[[!redirects double-negation topologies]]
+[[!redirects double negation topology]]
+[[!redirects double negation topologies]]
