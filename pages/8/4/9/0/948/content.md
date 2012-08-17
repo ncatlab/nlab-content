@@ -91,7 +91,7 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 ### Negative translation
 
-(Say something about how to interpret classical logic in constructive logic.)
+This allows one to translate classically valid theorems into intuitionistically valid theorems. See [[double negation translation]]. 
 
 
 ### Truth versus assertability
