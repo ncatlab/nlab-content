@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Double negation
 * table of contents
 {: toc}
@@ -41,6 +40,7 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 
 The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
+
 ### Definition
 
 +-- {: .num_def #DoubleNegationTopology}
@@ -55,8 +55,7 @@ $$
 
 constitutes a [[Lawvere-Tierney topology]] on $\mathcal{E}$.
 
-This is called the **double negation topology**.
-
+This is called the **[[double negation topology]]**.
 =--
 
 
@@ -73,7 +72,6 @@ $$
 $$
 
 is a [[Boolean topos]].
-
 =--
 
 This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk).
@@ -82,7 +80,6 @@ This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk).
 ###### Proposition
 
 For every [[prsheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
-
 --
 
 This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
@@ -97,7 +94,6 @@ $$
 $$
 
 satisfies the [[axiom of choice]].
-
 =--
 
 This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).
@@ -109,6 +105,7 @@ Section VI of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 {#MacLaneMoerdijk}
+
 
 [[!redirects double negation]]
 [[!redirects double negations]]
@@ -122,5 +119,3 @@ Section VI of
 [[!redirects double-negation sublocales]]
 [[!redirects double-negation nucleus]]
 [[!redirects double-negation nuclei]]
-
-[[!redirects double negation topology]]
