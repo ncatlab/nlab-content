@@ -456,6 +456,15 @@ Geometric quantization over BRST complexes is discussed in the following article
 
 * [[Ronald Fulp]], _BRST Extension of Geometric Quantization_, Foundations of Physics Volume 37, Number 1 (2007),  ([arXiv:math/0604270](http://arxiv.org/abs/math/0604270))
 
+### Supergeometric version
+ {#ReferencesSupergeometric}
+
+One can consider geometric quantization in [[supergeometry]].
+
+* S.-M. Fei, H. -Y. Guo und Y. Yu, _Symplectic geometry and geometric quantization on supermanifold with $U$ numbers_, Z. Phys, C - Particles and Fields 45, 339-344 (1989)
+
+* Gijs M. Tuynman, _Super Symplectic Geometry and Prequantization_ (2003) ([arXiv:math-ph/0306049](http://arxiv.org/abs/math-ph/0306049))
+
 
 ### Variants
 
