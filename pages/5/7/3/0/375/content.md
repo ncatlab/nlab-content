@@ -22,7 +22,17 @@
 
 A __cartesian closed category__ (sometimes: __ccc__) is a category with finite [[products]] which is [[closed monoidal category|closed]] with respect to its [[cartesian monoidal category|cartesian monoidal structure]].
 
-The [[internal hom]] $[S,X]$ in a cartesian closed category is often called [[exponentiation]] and is denoted $Y^S$.
+The [[internal hom]] $[S,X]$ in a cartesian closed category is often called [[exponentiation]] and is denoted $X^S$. 
+
+A _cartesian closed functor_ between cartesian closed categories $C$, $D$ is a functor $F \colon C \to D$ that is [[product-preserving functor|product-preserving]] and that is also _exponential-preserving_, meaning that the canonical map 
+
+$$F(a^b) \to F(a)^{F(b)},$$ 
+
+corresponding to the composite 
+
+$$F(a^b) \times F(b) \cong F(a^b \times b) \stackrel{F(eval_{a, b})}{\to} F(a),$$ 
+
+is an isomorphism. 
 
 ## Examples
 
@@ -122,6 +132,55 @@ $$
 Here the antepenultimate step uses the [[co-Yoneda lemma]].  This appears to involve colimits in $\mathcal{D}$ as well, but the existence of these colimits is not actually an extra assumption: the co-Yoneda lemma tells us that $\int^{x\in \mathcal{C}} \sum_{\mathcal{C}(x,y)} H(x)$ _exists and is isomorphic to_ $H(y)$.
 
 Similarly, the above argument can be interpreted to say that even if $\mathcal{D}$ is not complete, then the exponential $G^F$ in $\mathcal{D}^{\mathcal{C}}$ exists if and only if the particular limits above exist, and in that case they are isomorphic.
+
+### Functional completeness theorem 
+
++-- {: .un_thm}
+###### Theorem 1 
+Let $C$ be a cartesian closed category, and $c$ an object of $C$. Then the [[Kleisli category]] of the [[comonad]] $c \times - \colon C \to C$, denoted $C[c]$, is also a cartesian closed category. 
+=-- 
+
+**Remark:** The Kleisli category of the comonad $c \times -$ on $C$ is canonically equivalent to the Kleisli category of the [[monad]] $(-)^c$ on $C$. 
+
++-- {: .proof} 
+###### Proof of Theorem 1
+Let $a$ and $b$ be objects of $C[c]$. Claim: the product $a \times b$ in $C$, considered as an object of $C[c]$, is the product of $a$ and $b$ in $C[c]$, according to the following series of natural bijections: 
+
+$$\array{
+\underline{z \to a \qquad z \to b} & C[c] \\
+\underline{c \times z \to a, c \times x \to b} & C \\
+\underline{c \times z \to a \times b} & C \\
+z \to a \times b & C[c] 
+}$$ 
+
+Claim: the exponential $a^b$ in $C$, considered as an object of $C[c]$, is the exponential of $a$ and $b$ in $C[c]$, according to the following series of natural bijections: 
+
+$$\array{
+\underline{z \to a^b} & C[c] \\
+\underline{c \times z \to a^b} & C \\
+\underline{c \times z \times b \to a} & C \\
+z \times b \to a & C[c]
+}$$ 
+
+where in the last step, we used the prior claim that the product of objects in $C$, when viewed as an object of $C[c]$, gives the product in $C[c]$. 
+=-- 
+
+Observe that the object $c$ in $C[c]$ has an element $e \colon 1 \to c$, corresponding to the canonical isomorphism $c \times 1 \cong c$ in $C$. We call this element the "generic element" of $c$ in $C[c]$, according to the following theorem. This theorem can be viewed as saying that in the [[doctrine]] of cartesian closed categories, $C[c]$ is the result of freely adjoining an arrow $1\to c$ to $C$.  
+
++-- {: .un_thm} 
+###### Theorem (Functional completeness) 
+Let $C$ and $D$ be cartesian closed categories, and let $F \colon C \to D$ be a cartesian closed functor. Let $c$ be an object of $C$, and let $t: F(1) \to F(c)$ be an element in $D$. Then there exists an extension of $F$ to a cartesian closed functor $\tilde{F} \colon C[c] \to D$ that takes the generic element $e \colon 1 \to c$ in $C[c]$ to the element $t$, and this extension is unique up to isomorphism. 
+=-- 
+
++-- {: .proof} 
+###### Proof (sketch) 
+On objects, $\tilde{F}(a) = F(a)$. Let $f \colon a \to b$ be a map of $C[c]$, i.e., let $g \colon c \times a \to b$ be the corresponding map in $C$, and define $\tilde{F}(f)$ to be the composite 
+
+$$F(a) \cong 1 \times F(a) \stackrel{t \times 1}{\to} F(c) \times F(a) \cong F(c \times a) \stackrel{F(g)}{\to} F(b)$$
+
+It is straightforward to check that $\tilde{F}$ is a cartesian closed functor and is, up to isomorphism, the unique cartesian closed functor taking $e$ to $t$. 
+=-- 
+
 
 ## Related concepts
 
