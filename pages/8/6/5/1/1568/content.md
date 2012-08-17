@@ -1,8 +1,12 @@
-Ideals show up both in [[ring]] theory and in [[lattice]] theory.  Actually, both of these can be slightly generalised:
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
+
+## Summary
+
+Ideals show up both in [[ring]] theory and in [[lattice]] theory.  Actually, both of these can be slightly generalised:
+
 
 ## In rings and other rigs
 
@@ -57,7 +61,7 @@ A [[Boolean algebra]] is a rig in two different ways: as a distributive lattice 
 
 ## Kinds of ideals
 
-An ideal $I$ is __proper__ if there exists an element $x$ such that $x \notin I$.  In a rig, $I$ is proper iff $1 \notin I$; in a (bounded) lattice, $I$ is proper iff $\top \notin I$.
+An ideal $I$ is __proper__ if there exists an element $x$ such that $x \notin I$.  In a rig, $I$ is proper iff $1 \notin I$; in a (bounded) lattice, $I$ is proper iff $\top \notin I$.  If instead $x \in I$ for every $x$ (which follows if $1 \in I$ or $\top \in I$), we have the __[[improper ideal]]__.
 
 An ideal $I$ is __prime__ if it is proper and it satsfies a binary condition corresponding to the nullary condition that is properness:
 *  In a rig, $x \in I$ or $y \in I$ if $x y \in I$;
@@ -124,3 +128,5 @@ More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$,
 [[!redirects principal ideals]]
 [[!redirects generated ideal]]
 [[!redirects generated ideals]]
+[[!redirects ideal generated]]
+[[!redirects ideals generated]]
