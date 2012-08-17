@@ -1,10 +1,9 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
@@ -23,15 +22,15 @@ A _filter_ is [[duality|dual]] to an [[ideal]].
 
 A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
 1. If $A \leq B$ in $L$ and $A \in F$, then $B \in F$;
-1. for some $A$ in $L$, $A \in F$;
-1. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
+2. for some $A$ in $L$, $A \in F$;
+3. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
 
 Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of 'ideal' in [[monoid]] theory.)
 
 In a [[lattice]], one can use these alternative axioms:
 1. If $A \in F$ and $B$ in $L$, then $A \vee B \in F$;
-1. $\top \in F$;
-1. if $A \in F$ and $B \in F$, then $A \wedge B \in F$.
+2. $\top \in F$;
+3. if $A \in F$ and $B \in F$, then $A \wedge B \in F$.
 
 Here, (1) is equivalent to the previous version; the others, which here say that the lattice is closed under finite [[meets]], are equivalent given (1).  (These axioms look more like the axioms for an ideal of a ring.)
 
@@ -42,7 +41,7 @@ A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $
 
 ## Kinds of filters
 
-A filter $F$ is __proper__ if there exists an element $A$ of $L$ such that $A \notin F$.  A filter in a lattice is proper iff $\bot \notin F$; in particular, a filter of subsets of $S$ is proper iff $\empty \notin F$.  In [[constructive mathematics]], however, one usually wants a stronger (but classically equivalent) notion: a filter $F$ of subsets of $S$ is __proper__ if every element of $F$ is [[inhabited set|inhabited]].
+A filter $F$ is __proper__ if there exists an element $A$ of $L$ such that $A \notin F$.  A filter in a lattice is proper iff $\bot \notin F$; in particular, a filter of subsets of $S$ is proper iff $\empty \notin F$.  In [[constructive mathematics]], however, one usually wants a stronger (but classically equivalent) notion: a filter $F$ of subsets of $S$ is __proper__ if every element of $F$ is [[inhabited set|inhabited]].  If $A \in F$ for every $A$ (in particular if $\empty \in F$), then we have the __[[improper filter]]__.  Compare [[proper subset]] and [[improper subset]].
 
 Filters are often assumed to be proper by default in analysis and topology, where proper filters correspond to [[nets]].  However, we will try to remember to include the adjective 'proper'.
 
@@ -76,20 +75,24 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 ## References
 
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
-* [[Peter Johnstone]], _[[Stone Spaces]]_. Cambridge University Press. (1982) ISBN 0-521-23893-5.
+* [[Peter Johnstone]] (1982); _[[Stone Spaces]]_; Cambridge University Press. ISBN 0-521-23893-5.
 
 
+[[!redirects filter]]
 [[!redirects filters]]
+
 [[!redirects filter of subsets]]
 [[!redirects filters of subsets]]
+
 [[!redirects proper filter]]
-[[!redirects prime filter]]
-[[!redirects fixed filter]]
-[[!redirects free filter]]
 [[!redirects proper filters]]
+[[!redirects prime filter]]
 [[!redirects prime filters]]
+[[!redirects fixed filter]]
 [[!redirects fixed filters]]
+[[!redirects free filter]]
 [[!redirects free filters]]
+
 [[!redirects filterbase]]
 [[!redirects filterbases]]
 [[!redirects filter base]]
