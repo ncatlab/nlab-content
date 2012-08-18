@@ -15,7 +15,7 @@ Let $V$ and $W$ be [[Banach spaces]], and let $V \otimes W$ be their [[tensor pr
 +-- {: .num_defn}
 ###### Definition (projective tensor product)
 
-Every element of $V \otimes W$ may be written (in many different ways) as a formal [[linear combination]] of formal products of elements of $V$ and $W$:
+Every element of $V \otimes W$ may be written (in many different ways) as a formal [[linear combination]] of formal tensor products of elements of $V$ and $W$ (suppressing the symbol $\otimes$):
 $$ \sum_i \alpha_i v_i w_i .$$
 Let the __projective cross norm__ ${\|x\|_\pi}$ of an element $x$ of $V \otimes W$ be
 $$ {\|x\|_\pi} \coloneqq \inf \{ \sum_i {|\alpha_i|} {\|v_i\|_V} {\|w_i\|_W} \;|\; x = \sum_i \alpha_i v_i w_i \} .$$
