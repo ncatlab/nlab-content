@@ -13,6 +13,15 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 No sand in this box.
 =--
 
+Now there is. Consider formal linear combinations 
+
+\[ \sum_i \alpha_i v_i \otimes w_i \] 
+
+which we might also write as 
+
+\[ \sum_i \alpha_i (v_i \otimes w_i) \] 
+
+
 ***
 
 
