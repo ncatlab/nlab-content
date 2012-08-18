@@ -102,7 +102,7 @@ The differential cohomology $H_{diff}^n(X)$ of $X$ fits into [[short exact seque
 
 =--
 
-The first sequence (eq:CurvatureSequence) says in words: two circle $(n-1)$-bundles $n$ whose [[curvature]] coincides differ by a _flat_ [[circle n-bundle with connection|circle (n-2)]]-bundle.
+The first sequence (eq:CurvatureSequence) says in words: two circle $(n-1)$-bundles $n$ whose [[curvature]] coincides differ by a _flat_ circle (n-1)-bundle.
 
 The second sequence (eq:CharacteristicClassSequence) says in words: two connections on the same circle $(n-1)$-bundle differ by a globally defined connection $(n-1)$-form, well defined up to addition of a form with integral periods. 
 
