@@ -1,1 +1,1 @@
-[[!redirects double-negation topology]]
+&lt; [[double-negation topology]]
