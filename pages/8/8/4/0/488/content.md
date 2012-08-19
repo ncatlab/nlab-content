@@ -26,7 +26,7 @@ With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Bo
 
 The topos of [[canonical topology|canonical]] sheaves on a [[Boolean algebra]] is Boolean. 
 
-If $E$ is any topos, the category of [[sheaf|sheaves]] for the [[double-negation topology]] is a Boolean [[subtopos]] of $E$. 
+If $E$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $E$. 
 
 Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu; see [[excluded middle]] for a brief discussion. 
 
