@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[logic]], double negation is the operation from $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself.
+In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself.
 
 
 ## In logic
@@ -41,22 +41,27 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 
 The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
+If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internal]] [[Heyting algebra]].  
 
 ### Definition
 
 +-- {: .num_def #DoubleNegationTopology}
 ###### Definition/Proposition
 
-For $\mathcal{E}$ any [[sheaf topos]] and $\Omega \in \mathcal{E}$ its
-[[subobject classifier]], the double negation morphism
+The double negation morphism
 
 $$
-  \not \not \Omega \to \Omega
+  \not \not \colon \Omega \to \Omega
 $$
 
 constitutes a [[Lawvere-Tierney topology]] on $\mathcal{E}$.
 
-This is called the **[[double negation topology]]**.
+This is called the **double negation topology**.
+=--
+
++-- {: .proof}
+###### Proof 
+The topology axioms can be formulated in purely equational form, i.e., as equations between operations of the form $\Omega^n \to \Omega$. By the Yoneda lemma, it suffices to verify the corresponding equations between transformations $Hom(-, \Omega)^n \to Hom(-, \Omega)$, which boils the problem down to checking the equations for ordinary Heyting algebras in $Set$. For ordinary Heyting algebras, proofs may be found [here](http://ncatlab.org/nlab/show/Heyting+algebra#to_boolean_algebras_24).
 =--
 
 
@@ -75,13 +80,13 @@ $$
 is a [[Boolean topos]].
 =--
 
-This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk).
+This appears as [MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk). The topos of double-negation sheaves is in fact the maximal Boolean [[subtopos]] contained in $E$. 
 
 +-- {: .num_prop}
 ###### Proposition
 
-For every [[prsheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
---
+For every [[presheaf topos]] $[C^{op}, Set]$ the double negation topology coincides with the [[dense topology]].
+=--
 
 This appears as [MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk).
 
@@ -112,6 +117,12 @@ Section VI of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 {#MacLaneMoerdijk}
 
+
+
+[[!redirects double-negation topology]]
+[[!redirects double-negation topologies]]
+[[!redirects double negation topology]]
+[[!redirects double negation topologies]]
 
 [[!redirects double negation]]
 [[!redirects double negations]]
