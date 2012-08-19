@@ -50,7 +50,7 @@ By effectively undoing this implicit transgression in the ordinary [[Hamiltonian
 In this section we describe multisymplectic geometry in its application
 as a description of [[classical field theory]].
 
-Recall that that on ordinary [[phase space]] of a physical system is a [[symplectic manifold]] whose points correspond to the _states_ of the system. The **extended phase space** of an $n$-dimensional quantum field theory is a multisymplectic space whose points correspond to pairs consisting of
+Recall that that an ordinary [[phase space]] of a [[physical system]] is a [[symplectic manifold]] whose points correspond to the _[[states]]_ of the system. The **extended phase space** of an $n$-dimensional quantum field theory is a multisymplectic space whose points correspond to pairs consisting of
 
 * a point in the field theorie's parameter space -- an "event";
 
