@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
 =--
 =--
 
@@ -47,7 +51,7 @@ There are further refinements along these lines. In particular
 
 * [[Grothendieck category]]: an (AB5) category with a [[generator]].
 
-#Further refinements#
+## Further refinements
 
 Various further axiom structures are considered for additive (sometimes abelian) categories.
 
@@ -61,14 +65,18 @@ Various further axiom structures are considered for additive (sometimes abelian)
 
 * Gabriel's [[property sup]]
 
-# Generalizations #
+## Generalizations 
 
 * Abelian groups are to general [[group]]s as [[abelian category|abelian categories]] are to [[semi-abelian category|semi-abelian categories]].
 
 
-#Examples#
+## Examples
 
 Various generic classes of examples of additive and abelian categories are of relevance:
+
+## Related concepts
+
+* [[stable (infinity,1)-category]]
 
 * [[category of chain complexes]]
 * [[derived category]]
