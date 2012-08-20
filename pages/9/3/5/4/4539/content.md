@@ -70,9 +70,17 @@ and
 
 * [[spectral sequence]]
 
+  * [[spectral sequence of a filtered complex]]
+
+    * [[spectral sequence of a double complex]]
+
   * [[Grothendieck spectral sequence]]
 
-  * [[Leray spectral sequence]]
+    * [[Leray spectral sequence]]
+
+    * [[Serre spectral sequence]]
+
+    * [[Hochschild-Serre spectral sequence]]
 
 ## Lemmas
 
