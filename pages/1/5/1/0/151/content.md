@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
 # Duality
 * table of contents
 {: toc}
 
 ## Idea
 
-From a fundamental category theoretic perspective, there are two fundamental kinds of dualities:
+From the point of view of [[category theory]], there are two fundamental kinds of dualities:
 
 * _abstract duality_: formally nothing but the reversal of arrows in a category $C$, i.e. the passage from $C$ to the [[opposite category]] $C^{op}$;
 
