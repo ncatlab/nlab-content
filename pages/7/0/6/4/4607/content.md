@@ -1,3 +1,4 @@
+
 The term 'family' is often used as a synonym for '[[collection]]' (especially in the sense of [[subset]]).  However, if we use it more precisely, then a __family__ of things consists of an __index set__ $I$ (whose [[elements]] are the __indices__ of the family) and, for each index $k$, a thing $x_k$.  One can also speak of an __$I$-indexed family__ of things.  An __[[ordered pair]]__ is a $2$-indexed family; an __[[infinite sequence]]__ is an $\mathbb{N}$-indexed family.
 
 As a whole, this family may be denoted $(x_k \;|\; k\colon I)$, $(x_k)_{k\colon I}$, $(x_k)_k$, or simply $x$.  Sometimes one sees braces used instead of parentheses, giving the same notation for a family as for a [[collection]], although this is falling out of fashion; the parentheses ultimately come from notation for [[ordered pairs]].  One can also use notation for [[functions]], such as $\lambda\, k\colon I.\; x_k$ or $(k \mapsto x_k)$.  Finally, instead of $k\colon I$, one can see the [[type]] of $k$ indicated using any other method, especially $k \in I$ (which ultimately derives from [[material set theory]]).
@@ -13,6 +14,7 @@ In [[foundations]] without [[proper classes]], it may be tricky to specify exact
 [[!redirects families]]
 [[!redirects indexed family]]
 [[!redirects indexed families]]
+
 [[!redirects index set]]
 [[!redirects index sets]]
 [[!redirects index preset]]
@@ -25,3 +27,6 @@ In [[foundations]] without [[proper classes]], it may be tricky to specify exact
 [[!redirects families of objects]]
 [[!redirects family of morphisms]]
 [[!redirects families of morphisms]]
+
+[[!redirects family of subsets]]
+[[!redirects families of subsets]]
