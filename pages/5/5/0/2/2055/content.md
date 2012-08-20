@@ -197,6 +197,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom writes on Cohomology, homotopy theory, and arithmetic geometry)
 
+* [Musings Mathematical and Otherwise](http://edwardfhughes.wordpress.com) (Edward Hughes - Algebraic Geometry and String Theory)
+
 * [My research in geometry](http://alekskleyn.blogspot.com/) (Aleks Kleyn)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information -- last update July 2011)
