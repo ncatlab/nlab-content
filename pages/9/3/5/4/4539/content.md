@@ -9,14 +9,21 @@ and
 
 * [[additive and abelian categories]]
 
+  * [[Ab-enriched category]]
+
+  * [[pre-additive category]]
+
   * [[additive category]]
+
+  * [[pre-abelian category]]
 
   * [[abelian category]]
 
-  * [[semi-abelian category]]
+  * [[Grothendieck category]]
+
+* [[semi-abelian category]]
 
 ## Basic definitions
-
 
 * [[kernel]], [[cokernel]]
 
@@ -31,9 +38,13 @@ and
     * [[category of chain complexes]]
     * [[chain homology and cohomology]], 
 
-* [[exact sequence]], [[split exact sequence]]
+* [[exact sequence]], 
+
+   * [[short exact sequence]], [[long exact sequence]], [[split exact sequence]]
 
 * [[injective object]], [[projective object]]
+
+  * [[injective resolution]], [[projective resolution]]
 
 ## Higher category notions
 
@@ -53,16 +64,27 @@ and
 
 ## Constructions
 
-* [[Koszul-Tate resolution]]
+* [[double complex]]
 
-* [[BRST-BV complex]]
+* [[Koszul-Tate resolution]], [[BRST-BV complex]]
+
+* [[spectral sequence]]
+
+  * [[Grothendieck spectral sequence]]
+
+  * [[Leray spectral sequence]]
 
 ## Lemmas
+
+* [[3x3 lemma]]
 
 * [[five lemma]]
 
 * [[snake lemma]]
 
+* [[hoerseshoe lemma]]
+
+* [[Baer's criterion]]
 
 ## Theorems
 
@@ -75,6 +97,8 @@ and
   * [[cochain on a simplicial set]]
 
 * [[universal coefficient theorem]]
+
+* [[Künneth theorem]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/homological+algebra+-+contents)</div>
