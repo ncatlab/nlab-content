@@ -30,9 +30,13 @@ You can interpret intuitionistic negation as 'denial' and paraconsistent negatio
 
 Accordingly, negation mediates [[de Morgan duality]] in classical and linear logic but not in intuitionistic or paraconsistent logic.
 
-## Categorical semantics
+## In type theory syntax
 
-The [[categorical semantics]] of negation is the [[internal hom]] into the [[initial object]]: $\not = [-, \emptyset]$.
+In usual [[type theory]] [[syntax]] negation is obtained as the [[function type]] into the [[empty type]]: $\not a = a \to \emptyset$.
+
+## In categorical semantics
+
+The [[categorical semantics]] of negation is the [[internal hom]] into the [[initial object]]: $\not = [-, \emptyset]$. 
 
 In a [[topos]], the __negation__ of an object $A$ (a [[proposition]] under the [[propositions as types]]-interpretation) is the [[internal hom]] object $0^A$, where $0 = \emptyset$ denotes the [[initial object]]. 
 
