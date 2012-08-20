@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include Langlands correspondence -- contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
@@ -86,3 +90,5 @@ The construction of the correspondence in the abelian case, where it is given by
 An interpretation of the quantum Langlands correspondence in terms of the [[B-model]] is given in
 
 * [[Anton Kapustin]], _A Note on Quantum Geometric Langlands Duality, Gauge Theory, and Quantization of the Moduli Space of Flat Connections_ ([arXiv:0811.3264](http://arxiv.org/abs/0811.3264))
+
+[[!redirects quantum geometric Langlands duality]]
