@@ -1,6 +1,116 @@
-A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equality]]  satisfying an additional property which is sufficient (but, at least in the original definition by Andrew Pitts, more than necessary) to allow it to interpret impredicative higher-order logic as well (in particular, every tripos gives rise to a corresponding [[topos]]). The additional property is particularly easy to state for hyperdoctrines whose category of terms $C_T$ is [[cartesian closed]]: such a hyperdoctrine is a tripos just in case it possesses a suitably generic predicate, in the sense that there is a natural transformation from a representable functor $Hom_{C_T}(-, X)$ to $|P(-)|$ (the "set of predicates on -" functor), all of whose components are surjections (this is of course equivalent, by the [[Yoneda lemma]], to the existence of an element of $|P(X)|$ for some object $X$ with suitable properties). Note that this notion of "suitably generic predicate" doesn't require $|P(-)|$ to actually be representable, but, rather, merely a "[[quotient object|quotient]]"  of a representable functor.
+## Idea 
 
-By reconstructing from a tripos all the [[subquotient]]s it can "see" of its given sorts and all the functions it can "see" between them (i.e., moving to its [[category of partial equivalence relations]]), one obtains an elementary topos.
+A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equality]]  satisfying an additional property that allows it to interpret impredicative higher-order logic as well. In particular, every tripos gives rise to a corresponding [[topos]]). 
+
+The notion of tripos, due to Andrew Pitts, is useful for giving a unified account of two very different classes of toposes: [[localic topos|localic toposes]] and [[realizability topos|realizability toposes]]. 
+
+
+which is sufficient (but, at least in the original definition by Andrew Pitts, more than necessary)
+
+## Definition 
+
+Recall that the data of a first-order hyperdoctrine $T$ consists of a category of terms $C_T$, assumed to have finite products, and a functor 
+
+$$Pred_T: C_{T}^{op} \to HeytAlg$$ 
+
+to the category of Heyting algebras, satisfying suitable properties (including quantifiers, i.e., left and right adjoints to "pullback maps" $Pred_T(f)$). If $H$ is a Heyting algebra, we let ${|H|}$ denote the underlying set. 
+
++-- {: .num_def}
+###### Definition 
+A **tripos** is a first-order hyperdoctrine $T$ together with, for every object $c$ of $C_T$, an object $P c$ and an element $in_c \in Pred_T(c \times P c)$ such that for any object $b$ and element $p \in Pred_T(c \times b)$, there exists a map $\chi \colon b \to P c$ with $Pred_T(1_c \times \chi)(in_c) = p$. 
+=-- 
+
+Notice that such $\chi$ need not be unique. Another way of phrasing the definition is that to each object $c$ of $C_T$ there is an assigned object $P(c)$ and an assigned _[[epimorphism]]_ $\hom(-, P c) \to {|Pred_T|}(c \times -)$ of set-valued functors; the predicate $in_c$ is the value of $id_c$ under the assigned epimorphism $\hom(P c, P c) \to {|Pred_T(c \times P c)|}$ (a la the [[Yoneda lemma]]). 
+
+The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in = in_1 \in Pred_T(P)$, with corresponding epimorphism $\hom(-, P) \to {|Pred_T|}$. If $C_T$ is cartesian closed, we then have epis 
+
+$$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = Pred_T(c \times -)$$ 
+
+and in this way the single generic predicate $(P, in)$ can be used to generate an entire tripos structure, where the generic predicate over $c$ is $(P^c, Pred_T(eval)(in))$, i.e., the generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval \colon c \times P^c \to P$. (This need not reproduce the original tripos structure, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the triposes pulling back to each other along these maps).  
+
+Note that in practice, the category $C_T$ will in fact often be cartesian closed (frequently taking $C_T = Set$ in fact), and triposes are frequently formed just this way, starting with a generic predicate over $1$ and pulling it back along evaluation maps. 
+
+## Examples 
+
+1. Every topos $E$ gives rise to a tripos in an obvious way, using $C_T = E$ and 
+$$Pred_T = Sub \colon E^{op} \to HeytAlg,$$ 
+taking an object $e$ to the Heyting algebra of subobjects $Sub(e)$. Here of course we have not just an epimorphism but an isomorphism 
+$$\hom(-, \Omega^c) \to Pred_T(c \times -),$$ 
+obtained by pulling back the generic predicate $t \colon 1 \to \Omega$ over $1$ along $eval \colon c \times \Omega^c \to \Omega$. 
+
+1. If $H$ is a complete Heyting algebra, we can take $C_T = Set$, and put 
+$$Pred_T = \hom(-, H) \colon Set^{op} \to HeytAlg.$$ 
+Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$, the Heyting algebra map $Pred_T(f) \colon H^Y \to H^X$ has a left and right adjoint. The identity map $\hom(-, H) \to Pred_T$ is the epimorphism we use to generate the tripos structure, taking of course $(H, 1_H \in H^H)$ as the generic predicate over $1$. 
+
+1. If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, define a _[[preorder]]_ structure on the power $P(A)^X$ ($P(A)$ the power set of $A$), where for two functions $f, g \colon X \to A$ we have $f \leq g$ if there is some $a \in A$ so that the subset $f(x)$ is included in the domain of the partial function $a \cdot -$ for every $x \in X$ (so $f(x) \leq \dom(a \cdot -)$), and the image $a \cdot f(x)$ is included in $g(x)$ for every $x \in X$. This relation is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
+$$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
+preserves the preorder structure. Now define $Pred_T(X)$ to be the poset obtained from the preorder $P(A)^X$ by posetal reflection. With the help of functional completeness, it may be shown that $Pred_T(X)$ is in fact a Heyting algebra, and we get in this way a hyperdoctrine. Notice in this case we have, by construction, an epimorphism between set-valued functors  
+$$\hom_{Set}(-, P(A)) \to {|Pred_T|}$$ 
+and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$. 
+
+## From triposes to toposes 
+
+Every first-order hyperdoctrine $T = (C_T, Pred_T)$ gives rise to a [[bicategory of relations]], whose objects are the objects of $C_T$ and where 1-cells from $X$ to $Y$ are triples $(X, Y, r \in Pred_T(X \times Y))$, thus thinking of such "predicates" $r$ as "relations" $r \colon X \to Y$. Thus $\hom(X, Y) = Pred_T(X \times Y)$, where we define hom-composition in the usual manner we define relational composition, in effect formalizing the intuitive formula $(r \circ s)(x, z) = \exists_y r(x, y) \wedge s(y, z)$: 
+
+$$\array{
+Pred_T(X \times Y) \times Pred_T(Y \times Z) & \to & Pred_T(X \times Y \times Y \times Z) \times Pred_T(X \times Y \times Y \times Z) \\ 
+& \to & Pred_T(X \times Y \times Y \times Z) \\
+& \to & Pred_T(X \times Y \times Z) \\
+& \to & Pred_T(X \times Z). 
+}$$ 
+
+This gives in fact a [[dagger-category]] enriched in [[poset|posets]], where $(-)^\dagger: \hom(X, Y) \to \hom(Y, X)$ is the evident isomorphism $Pred_T(X \times Y) \to Pred_T(Y \times X)$. The _opposite_ of a relation $r \colon X \to Y$ is $r^\dagger \colon Y \to X$, and a relation $r \colon X \to X$ is _symmetric_ if $r^\dagger = r$. In summary, we get an [[allegory]] (bicategories of relations being essentially equivalent to unitary pretabular allegories). 
+
+In this context, a _partial equivalence relation_, or PER, may be defined as a symmetric idempotent map $r \colon X \to X$. (In slightly more detail, a partial equivalence relation means we drop reflexivity from the notion of equivalence relation, so we mean transitivity $r r \leq r$ plus symmetry $r^\dagger = r$. However, for any $r \colon X \to X$, it is a consequence of Freyd's modular law for allegories that $r \leq r r^\dagger r$, so that transitivity and symmetry combined yield 
+$$r \leq r r^\dagger r = r r r \leq r r$$ 
+in addition to $r r \leq r$, meaning that $r$ is in fact idempotent.) 
+
+We will be interested in splitting not all idempotents (as in $Set$-based or $Pos$-based [[Cauchy completion]]), but just the symmetric idempotents = PERs, in view of the following theorem. 
+
++-- {: .num_thm}
+###### Theorem 
+Let $T$ be a tripos, and let $Rel_T$ be the bicategory of relations obtained from $T$. Let $Split_{per}(Rel_T)$ be the bicategory obtained by splitting the PERs. Then the locally discrete bicategory of maps (whose 1-cells are left adjoints or total functional relations) in $Split_{per}(Rel_T)$ is a topos. 
+=-- 
+
+Before we look at a more conceptual analysis of this theorem, it might be good to recall one case, due to [[Denis Higgs|Higgs]] in his treatment of Boolean-valued and Heyting-valued set theory a la Scott and Solovay. This is given in the next section. 
+
+### Relation to $H$-valued sets
+
+Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ (example 2 above), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
+
+* An object in the PER-splitting completion in this case is a set $X$ together with a function $e \colon X \times X \to H$ which is symmetric and transitive in the sense described above. This boils down to having 
+$$\forall_{x, y \in X} e(x, y) = e(y, x)$$ 
+$$\forall_{x, y, z} e(x, y) \wedge e(y, z) \leq e(x, z)$$ 
+This is also known as an _$H$-valued set_. (We do not assume reflexivity, where $\top \leq e(x, x)$ for all $x$.) 
+
+* A morphism from $(X, e_X)$ to $(Y, e_Y)$ is a relation $r \colon X \to Y$, or a function $r \colon X \times Y \to H$, such that $r \circ e_X = r = e_Y \circ r$. (Cf. [[Karoubi envelope]].) The conditions $r \circ e_X \leq r$, $e_Y \circ r \leq r$ mean we have a two-sided "action": 
+$$e_X(x', x) \wedge r(x, y) \leq r(x', y), \qquad r(x, y) \wedge e_Y(y, y') \leq r(x, y').$$ 
+The condition $r \leq r \circ e_X$ means 
+$$r(x, y) \leq \bigvee_{x' \in X} e_X(x, x') \wedge r(x', y)$$ 
+but since $e_X$ is symmetric and transitive, we have 
+$$\bigvee_{x' in X} e_X(x, x') \wedge r(x', y) = \bigvee_{x'} e_X(x, x') \wedge e_X(x, x') \wedge e_X(x', x) \wedge r(x', y) \leq \bigvee_{x'} e_X(x, x') \wedge e(x', x) \leq e(x, x)$$ 
+so that in fact we have $r(x, y) \leq e_X(x, x)$. Similarly we have $r(x, y) \leq e(y, y)$, and these two conditions conversely imply $r \leq r \circ e_X$, $r \leq e_Y \circ r$, as may be easily checked. 
+
+Such morphisms $r$ also called _relations between $H$-valued sets_. Such relations in $Split_{per}(Rel_T)$ may be composed just as they are in $Rel_T$, and if $r$ is an $H$-valued relation, so is $r^\dagger$. On the other hand, as described at [[Karoubi envelope]], the identity from $(X, e)$ to itself is given by the relation $e$ (clearly the identity $1_X$ doesn't work!). The result $Split_{per}(Rel_T)$ is also a bicategory of relations (although, as we will eventually see, much more is true). 
+
+A relation $r \colon (X, e_X) \to (Y, e_Y)$ between PERs is _functional_ if 
+
+* $e_X = 1_{(X, e_X)} \leq r^\dagger \circ r$ ("totality"); 
+
+* $r \circ r^\dagger \leq 1_{(Y, e_Y)} = e_Y$ ("well-definedness"). 
+
+The second of these conditions means 
+
+$$r^\dagger(y, x) \wedge r(x, y') = r(x, y) \wedge r(x, y') \leq e_Y(y, y')$$ 
+
+The first condition means 
+
+$$e_X(x, x') \leq \bigvee_{y \in Y} r(x, y) \wedge r^\dagger(y, x')$$ 
+
+which certainly implies $e_X(x, x) \leq \bigvee_y r(x, y)$. Conversely, we have 
+
+
+
 
 The surjective natural transformation defining the suitably generic predicate in a tripos of course induces a [[preorder]] (but not necessarily [[poset]]al) structure on each $Hom_{C_T}(Y, X)$, the [[poset]]al reflection of which gives the Heyting algebra $P(Y)$. Accordingly, we can specify a tripos with category of terms $C_T$ by specifying an object $X \in Ob(C_T)$ and putting [[Heyting prealgebra]] structure on $Hom_{C_T}(-, X)$ in such a way as to yield all the first-order hyperdoctrine structure, with the identity morphism on $X$ playing the role of the suitably generic predicate.
 
