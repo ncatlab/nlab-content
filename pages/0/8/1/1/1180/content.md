@@ -1,3 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A [[functor]] $F: C \to D$ between [[additive category|additive categories]] is itself __additive__ if it preserves finite [[biproduct]]s.
 
 That is, $F$ maps a [[zero object]] to a zero object; and, given objects $x$ and $y$ of $C$, not only is $F(x \oplus y) \cong F(x) \oplus F(y)$, but $F$ even preserves the inclusion and projection maps:
