@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$. The __Pontrjagin dual group__ $\widehat{A}$ is the commutative group of all characters of $G$ with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the topology of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
+Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$ to the [[circle group]]. The __Pontrjagin dual group__ $\widehat{A}$ is the commutative group of all characters of $G$ with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the topology of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
 
 For example, the Pontrjagin dual of the additive group of [[integer]]s $\mathbb{Z}$ is the circle group $S^1$, and conversely, $\mathbb{Z}$ is the Pontrjagin dual of $S^1$. This pairing of dual topological groups, given by $(n,z) \mapsto z^n$, is related to the subject of [[Fourier series]]. In general, the dual of a [[discrete space|discrete]] group is a [[compact space|compact]] group and conversely. The group $\hat{\mathbb{R}}$ is isomorphic again to $\mathbb{R}$ (the additive group of [[real numbers]]), with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$; similarly, $\hat{\mathbb{R}^n}$ is isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.
 
@@ -87,7 +99,7 @@ where $d\mu$ is a suitable choice of [[Haar measure]] on $A$, and $d\hat{\mu}$ i
 
 There is a recent categorification of the Pontrjagin duality theorem, motivated by applications to topological [[T-duality]]:
 
-* Ulrich Bunke, Thomas Schick, Markus Spitzweck and Andreas Thom, Duality for topological abelian group stacks and T-duality.  ([arXiv](http://arxiv.org/abs/math/0701428))
+* [[Ulrich Bunke]], [[Thomas Schick]], Markus Spitzweck and [[Andreas Thom]], Duality for topological abelian group stacks and T-duality.  ([arXiv](http://arxiv.org/abs/math/0701428))
 
 
 
