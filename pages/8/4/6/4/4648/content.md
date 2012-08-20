@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include Langlands correspondence -- contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
