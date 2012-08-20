@@ -44,3 +44,5 @@ $$
 and hence computes the cohomology of $X$ with coefficients in $A$ in terms of the cohomology of $Y$ with coefficients in the push-forward of $A$.
 
 =--
+
+[[!redirects Leray-Serre spectral sequence]]
