@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
