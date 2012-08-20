@@ -20,6 +20,8 @@ A basic [[lemma]] in [[homological algebra]].
 
 * [[snake lemma]], [[5-lemma]]
 
+* [[horseshoe lemma]]
+
 ## References
 
 The $3 \times 3$-appears for instance as exercise 1.3.2 in 
