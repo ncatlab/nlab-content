@@ -1,7 +1,5 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -12,6 +10,10 @@
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
+=--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
 =--
 =--
 =--
