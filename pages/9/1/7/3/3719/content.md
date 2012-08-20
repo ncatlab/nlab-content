@@ -1,25 +1,160 @@
 
-this entry is about the textbook
+This entry provides a hyperlinked index for the textbook
 
-* [[Charles Weibel]], _An Introduction to Homological Algebra_
+* [[Charles Weibel]], 
+
+  _An Introduction to Homological Algebra_
+
+  Cambridge University Press (1994)
 
 on [[homological algebra]].
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## 1 Chain complexes
 
+### 1.1 Complexes of $R$-modules
+
+* [[abelian group]], [[commutative ring]], [[module]] 
+
 * [[chain complex]]
+
+### 1.2 Operations on chain complexes
+
+* [[additive and abelian categories]]
+
+  * [[Ab-enriched category]]
+
+  * [[pre-additive category]]
+
+  * [[additive category]], 
+
+  * (AB1) [[pre-abelian category]] 
+
+  * (AB2) [[abelian category]]
+
+  * (AB5) [[Grothendieck category]]
+
+* [[additive functor]]
+
+* [[kernel]], [[cokernel]]
+
+* [[quotient]]
+
+* [[double complex]]
+
+* [[total complex]]
+
+### 1.3 Long exact sequences
+
+* [[short exact sequence]]
+
+* [[connecting homomorphism]]
+
+* [[fiber sequence]]
+
+* [[long exact sequence]]
+
+* [[3x3 lemma]], [[snake lemma]], [[5 lemma]]
+
+
+### 1.4 Chain homotopies
+
+* [[chain homotopy]], [[null homotopy]]
+
+### 1.5 Mapping cones and cyclinders
+
+* [[mapping cone]], [[mapping cylinder]]
+
+### 1.6 More on abelian categories
+
+* [[Freyd-Mitchell embedding theorem]]
+
+* [[presheaf]], [[sheaf]]
+
+* [[Yoneda embedding]]
+
 
 ## 2 Derived functors
 
-* [[derived functor]]
+### 2.1 $\delta$-Functor
+
+* [[delta-functor]]
+
+### 2.2 Projective resolutions
+
+* [[projective object]]
+
+* [[resolution]]
+
+* [[projective resolution]]
+
+* [[horseshoe lemma]]
+
+### 2.3 Injective resolutions
+
+* [[injective object]]
+
+* [[injective resolution]]
+
+* [[Baer's criterion]]
+
+
+### 2.4 Left derived functors
+
+* [[left derived functor]]
+
+* [[Tor]]
+
+### 2.5 Right derived functors
+
+* [[right derived functor]]
+
+* [[Ext]]
+
+### 2.6 Adjoint functors and left/right exactness
+
+* [[adjoint functor]]
+
+* [[limit]], [[colimit]]
+
+* [[filtered category]], [[filtered colimit]]
+
+### 2.7 Balancing $Tor$ and $Ext$
+
+* [[tensor product of chain complexes]]
 
 ## 3 Tor and Ext
 
 [[Tor]] and [[Ext]]
+
+### 3.1 $Tor$ for abelian groups
+
+### 3.2 $Tor$ and flatness
+
+* [[flat module]]
+
+* [[Pontrjagin duality]]
+
+* [[flat resolution lemma]]
+
+### 3.3 $Ext$ for nice rings
+
+### 3.4 $Ext$ and extensions
+
+* [[group extension]]
+
+### 3.5 Derived functors of the inverse limit
+
+* [[Mittag-Leffler condition]]
+
+### 3.6 Universal coefficient theorem
+
+* [[universal coefficient theorem]]
+
+* [[Künneth formula]]
 
 ## 4 Homological dimension
 
