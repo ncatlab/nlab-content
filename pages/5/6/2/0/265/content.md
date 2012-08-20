@@ -268,3 +268,8 @@ Section 5.2.4 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects derived functors]]
+
+[[!redirects left derived functor]]
+[[!redirects right derived functor]]
+[[!redirects left derived functors]]
+[[!redirects right derived functors]]
