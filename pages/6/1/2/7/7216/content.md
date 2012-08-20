@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+
+
 # Contents
 * table of contents
 {: toc}
@@ -23,6 +40,9 @@ For $V$ of finite ($F$-[[F-finite|finite]]) [[dimension]], $V^*$ is its [[dual o
 
 More generally, even for infinite-dimensional $V$ we have a [[natural transformation]] $V \to V^{**}$, which is an isomorphism when $V$ has finite dimension.
 
+## Related concepts
+
+* [[dual space]]
 
 [[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
