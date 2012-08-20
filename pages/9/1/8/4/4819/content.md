@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 #### Langlands correspondence
 +--{: .hide}
 [[!include Langlands correspondence -- contents]]
