@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+
 # Grothendieck duality
 * table of contents
 {: toc}
