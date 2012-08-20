@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
