@@ -6,19 +6,22 @@
 +--{: .hide}
 [[!include enriched category theory contents]]
 =--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
 =--
 =--
 
 
-# Ringoids ($Ab$-enriched categories)
+
+# $Ab$-enriched categories
 * tic
 {: toc}
 
 ## Idea
 
-A ringoid is a [[category enriched]] over the [[monoidal category]] [[Ab]] of [[abelian groups]] with its usual [[tensor product]].
-
-Naturally, these are also (and more widely) known as $Ab$-enriched categories.
+An _$Ab$-enriched category_  (or _ringoid_) is a [[category enriched]] over the [[monoidal category]] [[Ab]] of [[abelian groups]] with its usual [[tensor product]].
 
 Sometimes they are called [[pre-additive category|pre-additive categories]], but sometimes that term also implies the existence of a [[zero object]].
 
