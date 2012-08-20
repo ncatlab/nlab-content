@@ -15,8 +15,13 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
 =--
 =--
+=--
+
 
 
 
