@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include enriched category theory contents]]
 =--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
@@ -15,8 +19,9 @@
 
 
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
