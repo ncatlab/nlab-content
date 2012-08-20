@@ -172,7 +172,13 @@ A detailed discussion of how the property of a functor being exact is related to
 
 [[!redirects left exact]]
 [[!redirects left exact functor]]
+[[!redirects left exact functors]]
+
 [[!redirects lex functor]]
+[[!redirects lex functors]]
+
 [[!redirects right exact functor]]
-[[!redirects right exact functor]]
+[[!redirects right exact functors]]
 [[!redirects rex functor]]
+[[!redirects rex functors]]
+
