@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
 =--
 =--
+=--
+
+
 
 
 
