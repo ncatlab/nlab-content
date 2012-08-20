@@ -158,9 +158,61 @@ on [[homological algebra]].
 
 ## 4 Homological dimension
 
+### 4.1 Dimensions
+
+* [[dimension]]
+
+* [[global dimension theorem]]
+
+* [[homological dimension]]
+
+### 4.2 Rings of Small Dimension
+
+### 4.3 Change of Rings Theorem
+
+### 4.4 Local rings
+
+* [[local ring]]
+
+### 4.5 Koszul Complexes
+
+* [[Koszul complex]]
+
+### 4.6 Local Cohomology
+
 ## 5 Spectral sequences
 
+### 5.1 Introduction
+
+### 5.2 Terminology
+
 * [[spectral sequence]]
+
+### 5.3 Leray-Serre Spectral Sequence
+
+* [[Leray-Serre spectral sequence]]
+
+### 5.4 Spectral sequence of a filtration
+
+* [[spectral sequence of a filtration]]
+
+### 5.5 Convergence
+
+### 5.6 Spectral sequence of a double complex
+
+* [[spectral sequence of a double complex]]
+
+### 5.7 Hypercohomology
+
+* [[hypercohomology]]
+
+### 5.8 Grothendieck spectral sequence
+
+* [[Grothendieck spectral sequence]]
+
+### 5.9 Exact couples
+
+* [[Bockstein spectral sequence]]
 
 ## 6 Group homology and cohomology
 
