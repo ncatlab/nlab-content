@@ -65,6 +65,10 @@ There are further generalizations like unbounded resolutions etc.
 
 (...)
 
+## Related concepts
+
+* [[fibrant object]]
+
 [[!redirects fibrant resolution]]
 [[!redirects cofibrant resolution]]
 
