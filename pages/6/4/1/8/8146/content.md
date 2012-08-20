@@ -1,0 +1,28 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A basic [[lemma]] in [[homological algebra]].
+
+## Related concepts
+
+* [[snake lemma]], [[5-lemma]]
+
+## References
+
+The $3 \times 3$-appears for instance as exercise 1.3.2 in 
+
+* [[Charles Weibel]], _[[An introduction to homological algebra]]_
+
