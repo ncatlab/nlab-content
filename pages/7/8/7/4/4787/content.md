@@ -7,7 +7,7 @@
 
 A notion of _dimension_ is a notion of "size" of [[object]]s. There are various variations of what exactly this means, applicaple in various contexts, that tend to agree when they jointly apply.
 
-## Of spaces
+### Of spaces
 
 There are many notions of _dimension_ of [[space]]s.  What they all have in common is that the [[cartesian space]] $\mathbb{R}^n$ has dimension $n$.
 
@@ -21,7 +21,7 @@ There are many notions of _dimension_ of [[space]]s.  What they all have in comm
 
 *  A [[metric space]] has a __[[Hausdorff dimension]]__ which may be any non-negative real number.
 
-## Of objects in a symmetric monoidal category: Euler characteristic
+### Of objects in a symmetric monoidal category: Euler characteristic
 
 The dimension of a (finite dimensional) [[vector space]] $V$ over a [[field]] $k$ is equivalently the [[trace]] of the [[identity]] [[morphism]] in the [[symmetric monoidal category]] [[Vect]] (which is a linear map $k \to k$, canonically identified with an element in $k$)
 
@@ -34,7 +34,7 @@ Therefore it makes sense for any [[symmetric monoidal category]] $C$ and every [
 
 This definition subsumes standard notions of _[[Euler characteristic]]_ and hence may also be thought of as generalizing that notion.
 
-## Of objects in an $(\infty,1)$-topos
+### Of objects in an $(\infty,1)$-topos
 
 The following notions of dimension capture aspects of the concept for objects in a [[topos]] or more generally an [[(∞,1)-topos]]:
 
@@ -46,6 +46,9 @@ The following notions of dimension capture aspects of the concept for objects in
 
 * [[Heyting dimension]]
 
+## Properties
+
+* [[global dimension theorem]]
 
 ## References
 
