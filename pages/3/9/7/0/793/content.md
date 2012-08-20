@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
