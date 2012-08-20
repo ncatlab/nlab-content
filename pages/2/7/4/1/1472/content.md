@@ -432,6 +432,10 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 We list various references related to higher category  theory and fundamental physics.
 
+A discussion of an axiomatization of basic concepts of [[gauge theory|gauge]] [[quantum field theory]] in [[cohesive homotopy type theory]] is in
+
+* [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_
+
 For general (formal) accounts of physics see also the references at [[books and reviews in mathematical physics]], such as 
 
 * [[Frédéric Paugam]], _[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf)_
