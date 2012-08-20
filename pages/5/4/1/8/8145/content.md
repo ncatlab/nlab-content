@@ -29,7 +29,14 @@
 
 * left/right [[exact functor]]
 
+## Derived categories
+
+* [[derived category]]
+
 * [[derived functor]]
 
+* [[homotopy category]]
+
+* [[triangulated category]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/additive+and+abelian+categories+-+contents)</div>
