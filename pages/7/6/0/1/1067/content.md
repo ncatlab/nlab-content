@@ -11,10 +11,22 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Meaning in higher category theory
+## Idea
+
+### Basic
+
+A _chain complex_ $V_\bullet$ is a sequence $\{V_n\}_{n \in \mathbb{N}}$ of [[abelian groups]] or [[modules]] (for instance [[vector spaces]]) or similar equipped with linear maps $\{d_n : V_{n+1} \to V_n\}$ such that $d^2 = 0$, i.e. the composite of two consecutive such maps is the [[zero morphism]] $d_n \circ d_{n+1} = 0$.
+
+A basic example is the [[singular chain complex]] of a [[topological space]], or the [[de Rahm complex]] of a [[smooth manifold]].
+
+Chain complexes crucially come with their _[[chain homology]]_ [[groups]]. When regarding [[chain maps]] between them that induce [[isomorphisms]] on these groups ([[quasi-isomorphisms]]) as [[weak equivalences]], chain complexes form a useful presentation for aspects of [[stable homotopy theory]]. More on this aspect [below](#MeaningInHomotopyTheory).
+
+
+### Meaning in homotopy theory
+ {#MeaningInHomotopyTheory}
 
 By the [[Dold-Kan correspondence]] there is an equivalence between the category of *connective chain complexes of abelian groups* and the category of *abelian [[simplicial group|simplicial groups]]*. The functor
 
@@ -68,10 +80,21 @@ See [[model structure on chain complexes]].
 
 ## Related concepts
 
+* [[category of chain complexes]]
+
+  * **chain complex**
+
+  * [[chain map]], [[quasi-isomorphism]]
+
+  * [[chain homotopy]]
+
 * [[cochain complex]]
 
 * [[bounded chain complex]]
 
+* [[filtered chain complex]]
+
 * [[perfect chain complex]]
+
 
 [[!redirects chain complexes]]
