@@ -93,11 +93,19 @@ For completeness of finite-dimensional Hilbert spaces:
 
 
 [[!redirects dagger compact category]]
-[[!redirects dagger-compact category]]
-[[!redirects † compact category]]
-[[!redirects †-compact category]]
-
 [[!redirects dagger compact categories]]
+[[!redirects dagger-compact category]]
 [[!redirects dagger-compact categories]]
+[[!redirects † compact category]]
 [[!redirects † compact categories]]
+[[!redirects †-compact category]]
 [[!redirects †-compact categories]]
+
+[[!redirects dagger compact closed category]]
+[[!redirects dagger compact closed categories]]
+[[!redirects dagger-compact closed category]]
+[[!redirects dagger-compact closed categories]]
+[[!redirects † compact closed category]]
+[[!redirects † compact closed categories]]
+[[!redirects †-compact closed category]]
+[[!redirects †-compact closed categories]]
