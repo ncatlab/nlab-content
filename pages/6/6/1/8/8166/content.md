@@ -1,0 +1,38 @@
+[[!redirects model (in particle phyiscs)]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In ([[particle]]) physics [[phenomenology]] a _model_ is the specification of a [[quantum field theory]] that reproduces aspects of the fundamental physics observed in [[particle accelerators]].
+
+The _[[standard model of particle physics]]_ is, by default, the currently best model available, given the available experimental data. 
+
+Despite the success of this model, it is conceptually unsatisfactory in many ways and it is clear that it can be a roughly accurate description of reality not high above the currently experimentally available [[energy]]-scales. Therefore [[phenomenology|phenomenologists]] still "build" plenty of other models that refine the standard model in one way or other, being compatible with the present data, but making various other predictions for what should be observed at higher energies.
+
+## Examples
+
+* [[standard model of particle physics]]
+
+* [[Grand Unified Theory]]
+
+* [[MSSM]]
+
+  * [[G2-MSSM]]
+
+## Related concepts
+
+* [[landscape of string theory vacua]]
+
