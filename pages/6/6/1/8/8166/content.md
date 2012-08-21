@@ -1,4 +1,3 @@
-[[!redirects model (in particle phyiscs)]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +15,7 @@
 
 ## Idea
 
-In ([[particle]]) physics [[phenomenology]] a _model_ is the specification of a [[quantum field theory]] that reproduces aspects of the fundamental physics observed in [[particle accelerators]].
+In [[particle physics]] [[phenomenology]] a _model_ is the specification of a [[quantum field theory]] that reproduces aspects of the fundamental physics observed in [[particle accelerators]].
 
 The _[[standard model of particle physics]]_ is, by default, the currently best model available, given the available experimental data. 
 
@@ -36,3 +35,4 @@ Despite the success of this model, it is conceptually unsatisfactory in many way
 
 * [[landscape of string theory vacua]]
 
+[[!redirects model (in particle phyiscs)]]
