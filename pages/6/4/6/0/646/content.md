@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea 
@@ -37,7 +38,7 @@ I didn\'t mean to *remove* anything about simplicial groups, just to generalise.
 [[Mike Shulman|Mike]]: I moved the discussion on nice spaces to [[nice topological space]], and merged the two sections "Idea" and "Motivation" since I was confused about the distinction between them.
 =--
 
-# Definition #
+## Definition 
 
 A continuous map $X \to Y$ is a **homotopy $n$-equivalence** if it induces isomorphisms on $\pi_i$ for $0 \leq i \leq n$ at each basepoint.  Two spaces share the same **homotopy $n$-type** if they are linked by a zig-zag chain of homotopy $n$-equivalences.
 
@@ -48,7 +49,7 @@ For any space $X$, you can kill its homotopy groups in higher dimensions by atta
 One can also construct [[model category|model structures]] on $\Top$ whose homotopy categories are the categories $\Ho_n(\Top)$.  This is one of the original examples of [[Bousfield localization]].  From this perspective, the above replacement of a space by one having trivial $\pi_k$ for $k\gt n$ is an example of _fibrant replacement_.
 
 
-# Algebraic models #
+## Algebraic models 
 
 We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.  So in the definition above, 'space' means a simplicial group(oid) and 'continuous map' means a homomorphism of simplicial group(oid)s.
 
@@ -75,6 +76,19 @@ Crossed complexes capture operations of the fundamental groupoid, but not quadra
 
 This has the possibility of leading to computations, by applying [[van Kampen theorem]]s to specific levels.
 
+## Examples and special cases
+
+* [[(-2)-type]]
+
+* [[(-1)-type]]
+
+* [[0-type]]
+
+* [[1-type]]
+
+* [[2-type]]
+
+* [[3-type]]
 
 [[!redirects n-type]]
 [[!redirects homotopy n-types]]
