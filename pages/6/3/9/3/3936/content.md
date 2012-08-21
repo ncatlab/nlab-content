@@ -1,6 +1,15 @@
 
+This page is about the notion of _model_ in [[logic]]. For other notions see 
+
+* [[model (in particle phyiscs)]]
+
+* ...
+
+***
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
