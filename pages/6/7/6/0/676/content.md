@@ -142,13 +142,11 @@
 
     * [[geometric ∞-function theory]]
 
-  * Models
+  * [[model (in particle phyiscs)|models]]
 
     * [[standard model of particle physics]]
 
-    * [[GUT|Grand Unified Theories]]
-
-    * [[integrable systems]]
+    * [[GUT|Grand Unified Theories]], [[MSSM]]
 
   * Phenomena
 
@@ -164,6 +162,7 @@
 
     * [[Kaluza-Klein mechanism]]
 
+    * [[integrable systems]]
 
 
   * Types of quantum field thories
