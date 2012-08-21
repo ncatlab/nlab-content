@@ -151,7 +151,7 @@ Put a preorder structure on $P(A)^X$ as follows: given $f, g \in P(A)^X$, let $H
 
 +-- {: .num_thm} 
 ###### Theorem 
-The preorder $P(A)^X$ has finite products, finite coproducts, and is cartesian closed. 
+The preorder $P(A)^X$ has finite products, finite coproducts, and is cartesian closed. In other words, the preorder $P(A)^X$ is a [[Heyting prealgebra]]. 
 =-- 
 
 +-- {: .proof} 
@@ -162,7 +162,7 @@ Take $f, g \colon X \to P(A)$. For binary products, define
 
 $$(f \wedge g)(x) = \{p a a' | a \in f(x) \wedge a' \in g(x)\}$$ 
 
-Notice that $l$ realizes $f \wedge g \leq f$ (since $l p a a' = a$), and similarly $r$ realizes $f \wedge g \leq g$. Furthermore, suppose given $h \colon X \to P(A)$, and that $t \in A$ realizes $h \leq f$ and $u \in A$ realizes $h \leq g$. Then 
+Notice that $l$ realizes $f \wedge g \leq f$ (since $l (p a a') = a$), and similarly $r$ realizes $f \wedge g \leq g$. Furthermore, suppose given $h \colon X \to P(A)$, and that $t \in A$ realizes $h \leq f$ and $u \in A$ realizes $h \leq g$. Then 
 
 $$v = \lambda b. p (t b)(u b)$$ 
 
@@ -197,7 +197,7 @@ For any function $f \colon X \to Y$, it is immediate that
 
 $$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
 
-is a functor preorder map that preserves bicartesian closed structure. 
+is a functor preorder map that preserves Heyting prealgebra structure. 
 
 ## References 
 
