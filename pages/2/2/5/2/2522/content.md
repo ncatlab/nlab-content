@@ -153,6 +153,8 @@ Around the same time Golfand and Likhtman in Russia wrote down the [[super Poinc
 
 * [[supermanifold]], [[supergravity]], [[superstring theory]]
 
+* [[MSSM]]
+
 ## References
 
 
