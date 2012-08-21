@@ -121,7 +121,83 @@ for some chosen retraction $r$. In other words, models of the untyped [[lambda c
 
 ## Realizability toposes 
 
-From any PCA, a corresponding "realizability tripos" can be constructed, from which, in turn, a corresponding "realizability topos" can be constructed, as outlined in the article on [[tripos|triposes]].
+From any PCA, a corresponding "realizability tripos" can be constructed, from which, in turn, a corresponding "realizability topos" can be constructed, as outlined in the article on [[tripos|triposes]]. 
+
+A preliminary technical task is to encode pairing and unpairing functions by elements of $A$. By this we mean functions $p \colon A \times A \to A$, $l \colon A \to A$, $r \colon A \to A$ such that for all $(a, a') \in A \times A$, we have $(a, a') = (l(p(a, a')), r(p(a, a')))$. One way of doing this is to put 
+
+* $p = \lambda x. \lambda y. \lambda z. z x y$
+
+* $l = \lambda p. p(\lambda x. \lambda y. x)$ 
+
+* $r = \lambda p. p(\lambda x. \lambda y. y)$ 
+
+whereupon we may calculate 
+
+$$\array{
+p a a' & = & \lambda z. z a a' \\
+l(p a a') & = & (\lambda z. z a a')(\lambda x. \lambda y. x) \\
+ & = & (\lambda x. \lambda y. x) a a' \\
+ & = & (\lambda y. a) a' = a
+}$$ 
+
+$$\array{
+r(p a a') & = & (\lambda z. z a a')(\lambda x. \lambda y. y) \\
+ & = & (\lambda x. \lambda y. y) a a' \\
+ & = & (\lambda y. y) a' = a'
+}$$ 
+
+That out of the way, let $P(A)$ be the power set of $A$ and let $X$ be a set. 
+Put a preorder structure on $P(A)^X$ as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $a'$ in $f(x)$, $a$ applied to $a'$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. 
+
++-- {: .num_thm} 
+###### Theorem 
+The preorder $P(A)^X$ has finite products, finite coproducts, and is cartesian closed. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+An initial object is given by the constant function taking each $x$ to the empty subset $\emptyset \subseteq A$, and a terminal object is given by the constant function taking each $x$ to the full subset $A \subseteq A$. 
+
+Take $f, g \colon X \to P(A)$. For binary products, define 
+
+$$(f \wedge g)(x) = \{p a a' | a \in f(x) \wedge a' \in g(x)\}$$ 
+
+Notice that $l$ realizes $f \wedge g \leq f$ (since $l p a a' = a$), and similarly $r$ realizes $f \wedge g \leq g$. Furthermore, suppose given $h \colon X \to P(A)$, and that $t \in A$ realizes $h \leq f$ and $u \in A$ realizes $h \leq g$. Then 
+
+$$v = \lambda b. p (t b)(u b)$$ 
+
+realizes $h \leq f \wedge g$. Thus $f \wedge g$ is a product in the preorder. 
+
+For binary coproducts, define 
+
+$$(f \vee g)(x) = \{p l a | a \in f(x)\} \cup \{p r a' | a' \in g(x)\}$$ 
+
+Then $p l$ realizes $f \leq f \vee g$ and $p r$ realizes $g \leq f \vee g$. Furthermore, suppose $t$ realizes $f \leq h$ and $u$ realizes $g \leq h$. Then 
+
+$$v = \lambda b. l(b)(p(t(r b))(u(r b)))$$ 
+
+realizes $f \vee g \leq h$. Indeed, we have 
+
+$$\array{
+v(p l a) & = & l(p l a)(p(t(r(p l a)))(u(r(p l a)))) \\ 
+ & = & l(p(t a)(u a)) \\
+ & = & t a
+}$$ 
+
+and similarly $v(p r a') = u a'$. In either case, we see $v(b)$ lives in $h(x)$ for any $b \in (f \vee g)(x)$. 
+
+For cartesian closure, define 
+
+$$(f \Rightarrow g)(x) = \{a' | \forall a \in f(x) a' a \downarrow \wedge a' a \in g(x)\}$$ 
+
+where $a' a \downarrow$ is standard shorthand for "$a' a$ is defined". Then for any $f$ and $g$, the combinator $\lambda b. l(b)r(b)$ realizes $(f \Rightarrow g) \wedge f \leq g$, and the combinator $\lambda b. \lambda a. p a b$ realizes $g \leq f \Rightarrow (f \wedge g)$. 
+=-- 
+
+For any function $f \colon X \to Y$, it is immediate that 
+
+$$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
+
+is a functor preorder map that preserves bicartesian closed structure. 
 
 ## References 
 
