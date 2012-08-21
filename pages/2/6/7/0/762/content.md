@@ -15,11 +15,11 @@
 
 ## Definition
 
-A **filtered topological space** $X_*$ is
+A **filtered topological space** $X_*$ is a [[filtered object]] in [[Top]], hence
 
 1. a [[topological space]] $X=X_\infty$ 
 
-1. a [[sequence]] of subspaces 
+1. equipped with a [[sequence]] of [[subspaces]] 
 
    $$X_*:= \quad X_0 \subseteq X_1 \subseteq \cdots \subseteq X_n \subseteq \cdots \subseteq X_\infty. $$
 
