@@ -78,6 +78,12 @@ Here is a review on this topic:
 
 * [[vacuum]], [[false vacuum]]
 
+* [[model (in particle physics)]]
+
+  * [[standard model of particle physics]]
+
+  * [[Grand Unified Theory]], [[MSSM]]
+
 ## References
 
 Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in 
