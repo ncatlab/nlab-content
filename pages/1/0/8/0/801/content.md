@@ -80,6 +80,18 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 [[!include notions of type]]
 
 
+* [[homotopy n-type]]
+
+  * [[(-2)-type]]
+
+  * [[(-1)-type]]
+
+  * [[0-type]]
+
+  * [[1-type]]
+
+  * [[2-type]]
+
 ## References
 
 Concerning homotopy types of topological spaces:
