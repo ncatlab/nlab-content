@@ -1,5 +1,42 @@
-A **quasi-isomorphism** is a morphism between [[chain complex|chain complexes]] which induces an isomorphism on [[homology]].  Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms** or **$H_*$-isomorphisms**.  They are the weak equivalences in the most common [[model category|model structures]] on chain complexes.
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **quasi-isomorphism** is a [[chain map]] between [[chain complexes]] which induces an isomorphism on [[chain homology]].  
+
+Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms** or **$H_*$-isomorphisms**.  
+
+## In homotopy theory
+
+Quasi-isomorphisms are the [[weak equivalences]] in the most common [[model category|model category structures]] on the [[category of chain complexes]]. See at _[[model structure on chain complexes]]_.
+
+## Related concepts
+
+* [[weak homotopy equivalence]]
+
+* [[injective resolution]], [[projective resolution]]
+
+* [[category of chain complexes]]
+
+  * [[chain complex]]
+
+  * [[chain map]]
+
+  * [[chain homotopy]]
 
 [[!redirects quasi-isomorphisms]]
 [[!redirects quasiisomorphism]]
