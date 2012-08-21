@@ -43,7 +43,7 @@
 
   * [[U-duality]]
 
-* [[11-dimensional supergravity]]
+* [[11-dimensional supergravity]], [[M-theory]]
 
   * [[Hořava-Witten theory]]
 
@@ -93,6 +93,23 @@
   * [[A-model]], [[B-model]]
 
 * [[topological M-theory]]
+
+## Backgrounds
+
+* [[target space]], [[background gauge field]]
+
+* [[twisted smooth cohomology in string theory]]
+
+* [[landscape of string theory vacua]]
+
+
+## Phenomenology
+
+* [[string phenomenology]]
+
+  * [[moduli stabilization]]
+
+  * [[G2-MSSM]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/string+theory+-+contents)</div>
 
