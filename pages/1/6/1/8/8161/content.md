@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Generally, in a [[category]] $\mathcal{C}$ a _filtered object_ is an [[object]] $X$ equipped with a _filtration_: a sequence of [[monomorphisms]]
+
+$$
+  \emptyset \hookrightarrow \cdots \hookrightarrow X_{(2)}  
+  \hookrightarrow X_{(1)}
+  \hookrightarrow X_{(0)} =: X
+  \,.
+$$
+
+## Examples
+
+* [[filtered topological space]]
+
+* [[filtered chain complex]]
+
+## Related concepts
+
+* [[associated graded object]]
+
+[[!redirects filtered objects]]
+
+[[!redirects filtration]]
+[[!redirects filtrations]]
