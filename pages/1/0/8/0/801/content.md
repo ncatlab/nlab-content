@@ -23,7 +23,7 @@
 
 ## Idea
 
-Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[Top]] of which the former is the [[decategorification]]. As such, topological spaces regarded as homotopy types are equivalently _[[∞-groupoids]]_ (see at _[[homotopy hypothesis]]_ for more on this). 
+Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], (although this may sometimes be reffered to as its _weak homotopy type_, (see below). Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[Top]] of which the former is the [[decategorification]]. As such, topological spaces regarded as homotopy types are equivalently _[[∞-groupoids]]_ (see at _[[homotopy hypothesis]]_ for more on this). 
 
 More generally, then, we may think of every object in any [[(∞,1)-category]] or at least every [[(∞,1)-topos]] $\mathcal{C}$ as being a _homotopy type_ in the context $\mathcal{C}$. For instance if $\mathcal{C}$ is an [[(∞,1)-category of (∞,1)-sheaves]]/of [[∞-stacks]] over some [[(∞,1)-site]] $C$, then an object of $\mathcal{C}$ may be thought of as a _homotopy type over $C$_.
 
@@ -45,7 +45,7 @@ A homotopy type that is an [[n-truncated object in an (∞,1)-category]] (see th
 
 ### In topological spaces
 
-In traditional [[homotopy theory]] of [[topological spaces]] one sometimes distinguishes the notion of _strong homotopy types_ from that of _weak homotopy types_, depending on wher one regards topological spaces up to _[[homotopy equivalence]]_ or up to _[[weak homotopy equivalence]]_.
+In traditional [[homotopy theory]] of [[topological spaces]] one sometimes distinguishes the notion of _strong homotopy types_ from that of _weak homotopy types_, depending on whether one regards topological spaces up to _[[homotopy equivalence]]_ or up to _[[weak homotopy equivalence]]_.
 
 The two notions agree on good [[cofibrant object|cofibrant spaces]], namely on the [[CW-complexes]] (see [[model structure on topological spaces]]) and for homotopy theory proper it is the _weak_ homotopy equivalences that matter.
 
