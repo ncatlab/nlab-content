@@ -1,0 +1,58 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _chain map_ is a [[homomorphism]] of [[chain complexes]]. 
+
+Chain complexes with chain maps between them form the [[category of chain complexes]].
+
+## Definition
+
+For $V_\bullet$ and $W_\bullet$ to [[chain complexes]] in some ambient [[abelian category]] $\mathcal{A}$, a chain map $f : V_\bullet \to W_\bullet$ is a collection of morphism $\{f_n : V_n \to W_n\}_{n \in \mathbb{Z}}$ in $\mathcal{A}$ such that for all the [[diagrams]]
+
+$$
+  \array{
+    V_{n+1} &\stackrel{d^V_n}{\to}& V_n
+    \\
+    \downarrow^{\mathrlap{f_{n+1}}} 
+    &&
+    \downarrow^{\mathrlap{f_{n}}} 
+    \\
+    W_{n+1} &\stackrel{d^W_n}{\to} & W_n
+  }
+$$ 
+
+[[commuting diagram|commute]], hence such that all the equations
+
+$$
+  f_n \circ d^V_n = d^V_{n+1} \circ f_{n+1}
+$$
+
+hold.
+
+## Related concepts
+
+* [[category of chain complexes]]
+
+  * [[chain complex]]
+
+  * **chain map**, [[quasi-isomorphism]]
+
+  * [[chain homotopy]]
+
+[[!redirects chain map]]
+
