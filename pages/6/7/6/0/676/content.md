@@ -142,11 +142,15 @@
 
     * [[geometric ∞-function theory]]
 
-  * [[model (in particle phyiscs)|models]]
+  * [[particle physics]]
 
-    * [[standard model of particle physics]]
+    * [[phenomenology]]
 
-    * [[GUT|Grand Unified Theories]], [[MSSM]]
+    * [[model (in particle phyiscs)|models]]
+
+      * [[standard model of particle physics]]
+
+      * [[GUT|Grand Unified Theories]], [[MSSM]]
 
   * Phenomena
 
