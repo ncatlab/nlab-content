@@ -27,3 +27,6 @@ A _filtered chain complex_ is a [[filtered object]] in a [[category of chain com
 
 [[!redirects filtered cochain complex]]
 [[!redirects filtered cochain complexes]]
+
+[[!redirects filtered complex]]
+[[!redirects filtered complexes]]
