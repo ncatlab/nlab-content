@@ -27,11 +27,13 @@ Given a pair of [[adjoint functors]] $F: C \to D :U$, $F \dashv U$, with [[unit 
 
 Consider the [[Eilenberg–Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical __comparison functor__ $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ given on objects by $K(M)=(U M, U (\epsilon_M))$.  We then say that we have a [[monadic adjunction]].
 
-A [[functor]] $U: D \to C$ is **monadic** if it has a [[left adjoint]] $F: C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]].  In other words, up to equivalence, monadic functors are precisely the [[forgetful functor]]s defined on Eilenberg--Moore categories for monads. A __category__ $D$ is __monadic__ over a category $C$ if there is a functor $U: D \to C$ which is monadic. 
+A [[functor]] $U: D \to C$ is **monadic** (resp. **strictly monadic**) if it has a [[left adjoint]] $F: C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an isomorphism of categories).  In other words, up to equivalence, monadic functors are precisely the [[forgetful functor]]s defined on Eilenberg--Moore categories for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. A __category__ $D$ is __monadic__ over a category $C$ if there is a functor $U: D \to C$ which is monadic. 
 
 ## Properties
 
-Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some schools: tripleability theorem) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also  dual, [[comonadic functor|comonadic versions]].
+Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some schools: tripleability theorem) give sufficient, and sometimes necessary, conditions for a given functor to be monadic. There are also dual, [[comonadic functor|comonadic versions]].
+
+A monadic functor is strictly monadic if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]]: clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories.
 
 
 ## Related concepts
