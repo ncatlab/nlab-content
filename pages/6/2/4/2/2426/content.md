@@ -39,5 +39,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * For [[infinite-dimensional manifold]]s see also [[orthogonal structure]].
 
+* The analog in [[complex geometry]] is the notion of [[Kähler manifold]].
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
