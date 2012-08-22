@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_2-Plectic geometry_ is the higher generalization of [[symplectic geometry]], the special case of [[n-plectic geometry]] ([[multisymplectic geometry]]) for $n = 2$.
+
+As symplectic geometry naturally describes [[classical mechanics]] and, via [[geometric quantization]], [[quantum mechanics]], hence 1-dimensional [[quantum field theory]], so 2-plectic geometry naturally describes 2-dimensional [[classical field theory]] and, via its [[higher geometric quantization]], 2-dimensional [[QFT]].
+
+## Related concepts
+
+[[!include geometric quantization extensions - table]]
+
+
+## References
+
+### General
+
+Over [[smooth manifolds]], the general setup is discussed in 
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+
+### Application to the string $\sigma$-model
+ {#ReferencesStringSigmaModel}
+
+Applications to the 2-dimensional [[string]] [[sigma-model]] are discussed in
+
+* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+
+* [[John Baez]], [[Alexander Hoffnung]], [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
+
+A survey of some (potential) applications of 2-plectic geometry in [[string theory]] and [[M2-brane]] models is in section 2 of
+
+* [[Christian Saemann]], [[Richard Szabo]], _Groupoid quantization of loop spaces_ ([arXiv:1203.5921](http://arxiv.org/abs/1203.5921))
+
+and in 
+
+* [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
+
+
+[[!redirects 2-plectic manifold]]
+[[!redirects 2-plectic manifolds]]
