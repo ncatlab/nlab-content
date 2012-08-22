@@ -9,7 +9,7 @@ A __Mal'cev operation__ on a [[set]] $X$ is a ternary operation, a [[function]]
 $$ t:X\times X\times X\to X,\,\,\,(x,y,z)\mapsto t(x,y,z) ,$$
 
 which satisfies the identities $t(x,x,z)=z$ and $t(x,z,z)=x$.
-An important motivating example is the operation $t$ of a [[heap]]. 
+An important motivating example is the operation $t$ of a [[heap]], for example the operation on a [[group]] defined by $t(x, y, z) = x y^{-1} z$. 
 
 An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev operation. An algebraic theory is Mal'cev iff one of the following equivalent statements is true:
 
