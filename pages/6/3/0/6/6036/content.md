@@ -1,4 +1,3 @@
-[[!redirects strings]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -39,6 +38,26 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
 * [[string theory]]
 
+## References
+
+(... many references to go here, see at [[string theory]] for more ...)
+
+### Symplectic geometry and geometric quantization
+ {#ReferencesSymplecticGeometryAndGeometricQuantization}
+
+The ordinary [[symplectic geometry]] and ordinary [[geometric quantization]] of the bosonic string [[sigma-model]] is discussed in
+
+* [[Sergei Merkulov]], _On the geometric quantization of bosonic string_,  Class. Quantum Grav. 9 2267 ([IOP](http://iopscience.iop.org/0264-9381/9/10/010))
+
+* A. D. Popov, _Geometric quantization of strings and reparametrization invariance_, Theoretical and Mathematical Physics, Volume 83, Number 3 (1990)
+
+The [[2-plectic geometry]] is discussed in 
+
+* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+
+* [[John Baez]], [[Alexander Hoffnung]], [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
+
+
 [[!redirects strings]]
 [[!redirects F1-brane]]
 
@@ -49,3 +68,5 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 [[!redirects open strings]]
 [[!redirects closed string]]
 [[!redirects closed strings]]
+
+[[!redirects strings]]
