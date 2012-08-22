@@ -25,6 +25,8 @@ A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equ
 
 The notion of tripos, due to [[Andrew Pitts]], is useful for giving a unified account of two very different classes of toposes: [[localic topos|localic toposes]] and [[realizability topos|realizability toposes]]. 
 
+The name 'tripos' is to be credited to [[Peter Johnstone]], who was the thesis advisor of Pitts. It can be read as an acronym for "Topos Representing Indexed Partially Ordered Set", but it is memorable also as a pun, referring to a famous examination at Cambridge University where Johnstone and [[Martin Hyland|Hyland]] work. 
+
 ## Definition 
 
 Recall that the data of a first-order hyperdoctrine $T$ consists of a [[syntactic category|category of terms]] $C_T$, assumed to have [[finite products]], and a [[functor]] 
@@ -46,7 +48,7 @@ of set-valued functors; the [[predicate]] $in_c$ is the value of $id_c$ under th
 
 The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in = in_1 \in Pred_T(P)$, with corresponding epimorphism $\hom(-, P) \to {|Pred_T|}$. If $C_T$ is [[cartesian closed category|cartesian closed]], we then have [[epimorphism|epis]]
 
-$$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = Pred_T(c \times -)$$ 
+$$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = {|Pred_T|}(c \times -)$$ 
 
 and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., a generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps).  
 
@@ -59,21 +61,27 @@ The surjective natural transformation defining the suitably generic predicate in
 
 ## Examples 
 
-1. Every [[topos]] $E$ gives rise to a tripos in an obvious way, using $C_T = E$ and 
+### Coming from toposes{#Topos} 
+
+Every [[topos]] $E$ gives rise to a tripos in an obvious way, using $C_T = E$ and 
 $$Pred_T = Sub \colon E^{op} \to HeytAlg,$$ 
 taking an object $e$ to the Heyting algebra of [[subobjects]] $Sub(e)$. Here of course we have not just an epimorphism but an [[isomorphism]] 
 $$\hom(-, \Omega^c) \to Pred_T(c \times -),$$ 
 obtained by pulling back the generic predicate $t \colon 1 \to \Omega$ over $1$ along $eval \colon c \times \Omega^c \to \Omega$. 
 
-1. If $H$ is a [[complete Heyting algebra]], we can take $C_T = Set$, and put 
-$$Pred_T = \hom(-, H) \colon Set^{op} \to HeytAlg.$$ 
-Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$, the Heyting algebra map $Pred_T(f) \colon H^Y \to H^X$ has a left and right adjoint. The identity map $\hom(-, H) \to Pred_T$ is the epimorphism we use to generate the tripos structure, taking of course $(H, 1_H \in H^H)$ as the generic predicate over $1$.{#Heyt}
+### Coming from complete Heyting algebras{#Heyt}
 
-1. If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, one can put a [[pre-ordering]] on $P(A)^X$ \[here, the $P(A)$ refers to the actual powerset of $A$ in $Set$\] as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $b$ in $f(x)$, $a$ applied to $b$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. The relation $\leq$ is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
+If $H$ is a [[complete Heyting algebra]], we can take $C_T = Set$, and put 
+$$Pred_T = \hom(-, H) \colon Set^{op} \to HeytAlg.$$ 
+Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$, the Heyting algebra map $Pred_T(f) \colon H^Y \to H^X$ has a left and right adjoint. The identity map $\hom(-, H) \to Pred_T$ is the epimorphism we use to generate the tripos structure, taking of course $(H, 1_H \in H^H)$ as the generic predicate over $1$.
+
+### Coming from partial combinatory algebras{#PCA} 
+
+If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, one can put a [[pre-ordering]] on $P(A)^X$ \[here, the $P(A)$ refers to the actual powerset of $A$ in $Set$\] as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $b$ in $f(x)$, $a$ applied to $b$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. The relation $\leq$ is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
 $$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
 preserves the [[preorder]] structure. Now define $Pred_T(X)$ to be the poset obtained from the preorder $P(A)^X$ by posetal reflection. With the help of functional completeness, it may be shown that $Pred_T(X)$ is in fact a Heyting algebra, and we get in this way a hyperdoctrine; see [here](http://ncatlab.org/nlab/show/partial+combinatory+algebra#realizability_toposes_11) for details. Notice in this case we have, by construction, an epimorphism between set-valued functors  
 $$\hom_{Set}(-, P(A)) \to {|Pred_T|}$$ 
-and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$.{#PCA}
+and thus we obtain a tripos, called the _realizability tripos_ associated with the PCA $A$.
 
 
 ## From triposes to toposes 
@@ -99,6 +107,8 @@ We will be interested in [[split idempotent|splitting]] not all [[idempotents]] 
 ###### Theorem 
 Let $T$ be a tripos, and let $Rel_T$ be the bicategory of relations obtained from $T$. Let $Split_{per}(Rel_T)$ be the bicategory obtained by splitting the PERs. Then the locally discrete bicategory of maps (whose 1-cells are left adjoints or total functional relations) in $Split_{per}(Rel_T)$ is a topos. 
 =-- 
+
+In the case of a [tripos induced from a topos $T$](#Topos), this construction yields back $T$, since every partial equivalence relation (as a morphism of $Rel_T$) factors through a suitable subquotient object in $T$. 
 
 In the case of a [realizability tripos](#PCA) associated with a PCA $A$, this construction yields the realizability topos of $A$. In the particular case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
 
