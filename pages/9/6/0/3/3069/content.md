@@ -236,6 +236,7 @@ A textbook reference is for instance section IV.9 (page 205) of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+[[!redirects Beck-Chevalley conditions]]
 
 [[!redirects Beck-Chevalley_Condition]]
 [[!redirects Beck-Chevalley Condition]]
