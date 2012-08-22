@@ -1,3 +1,4 @@
+
 #Contents#
 * tic
 {:toc}
@@ -58,7 +59,7 @@ $$
 
 Symbols of order $- \infty$ are often called **smoothing** and their operators **smoothing operators**. The reason for this is that their pseudodifferential operators map distribution spaces into spaces of smooth functions, for example:
 
-* smoothing theorem: The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the dual space of $C^{\infty}$, into $\mathcal{S}$, the Schwartz space of rapidly decreasing smooth functions.
+* smoothing theorem: The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the [[dual vector space|dual space]] of $C^{\infty}$, into $\mathcal{S}$, the Schwartz space of rapidly decreasing smooth functions.
 
 #References
 
