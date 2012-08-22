@@ -181,4 +181,8 @@ _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinki
 
 
 [[!redirects predicative mathematics]]
+[[!redirects predicative logic]]
 [[!redirects predicativism]]
+
+[[!redirects impredicative mathematics]]
+[[!redirects impredicative logic]]
