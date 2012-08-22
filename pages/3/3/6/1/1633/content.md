@@ -17,7 +17,9 @@
 
 A locally compact space is a space such that every point has a neighborhood base consisting of [[compact space|compact]] sets. It may be considered as an example of a [[nice topological space]]. 
 
-Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples. 
+Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples.
+
+A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _local compactum_; compare [[compactum]].
 
 
 ## Examples ## 
@@ -81,3 +83,9 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 [[!redirects locally compact Hausdorff topological space]]
 [[!redirects locally compact Hausdorff topological spaces]]
 [[!redirects locally compact Hausdorff]]
+[[!redirects local compactum]]
+[[!redirects local compactums]]
+[[!redirects local compacta]]
+[[!redirects locally compactum]]
+[[!redirects locally compactums]]
+[[!redirects locally compacta]]
