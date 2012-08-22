@@ -94,6 +94,5 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 [[!redirects spectral sequence of a filtration]]
 
-[[!redirects Serre spectral sequence]]
 
 [[!redirects spectral sequence of a double complex]] 
