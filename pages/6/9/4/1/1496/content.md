@@ -23,7 +23,7 @@ $$ {\|(x_1,\ldots,x_n)\|_p} \coloneqq \root p {\sum_{i = 1}^n {|x_i|^p}} $$
 
 where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$, but taking the limit as $p \to \infty$ we arrive at the formula ${\|(x_1,\ldots,x_n)\|_\infty} \coloneqq \max_i {|x_i|}$).
 
-However, the theory of these spaces is not much more complicated than that of finite dimensional vector spaces because they all have the same underlying topology.   When we look at infinite-dimensional examples, however, things become trickier.  Common examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
+However, the theory of these spaces is not much more complicated than that of finite dimensional vector spaces because they all have the same underlying topology.   When we look at infinite-dimensional examples, however, things become trickier.  Common examples are [[Lebesgue spaces]], [[Hilbert spaces]], and [[sequence spaces]].
 
 
 ## Definitions
@@ -121,18 +121,22 @@ From a category-theorist\'s perspective, the isomorphic category is really the [
 
 Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \infty$.  (Sometimes one can also try $0 \leq p \lt 1$, but these generally don\'t give Banach spaces.)
 
-*  $\mathbb{R}^n$ is a Banach space with
+*  The [[Cartesian space]] $\mathbb{R}^n$ is a Banach space with
    $$ {\|(x_1,\ldots,x_n)\|_p} = \root p {\sum_i {|x_i|^p}} .$$
    (We can allow $p = \infty$ by taking a limit; the result is that ${\|x\|_\infty} = \max_i {|x_i|}$.)  Every finite-dimensional Banach space is isomorphic to this for some $n$ and $p$; in fact, once you fix $n$, the value of $p$ is irrelevant up to isomorphism.
-*  Let $l^p$ be the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
+
+*  The [[sequence space]] $l^p$ is the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
    $$ {\|(x_1,x_2,\ldots)\|_p} = \root p {\sum_i {|x_i|^p}} $$
    exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that ${\|x\|_\infty} = \sup_i {|x_i|}$.)  Then $l^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.
+
 *  More generally, let $A$ be any [[set]] and let $l^p(A)$ be the set of [[function]]s $f$ from $A$ to $\mathbb{R}$ such that
    $$ {\|f\|_p} = \root p {\sum_{x: A} {|f(x)|^p}} $$
    exists as a finite real number.  (Again, ${\|f\|_\infty} = \sup_{x\colon A} {|f(x)|}$.)  Then $l^p(A)$ is a Banach space.  (This example includes the previous examples, for $A$ a countable set.)
-*  On any [[measure space]] $X$, let $\mathcal{L}^p(X)$ be the set of measurable almost-everywhere-defined real-valued functions on $X$ such that
+
+*  On any [[measure space]] $X$, the [[Lebesgue space]] $\mathcal{L}^p(X)$ is the set of measurable almost-everywhere-defined real-valued functions on $X$ such that
    $$ {\|f\|_p} = \root p {\int {|f|^p}} $$
    exists as a finite real number.  (Again, the only question is whether the integral converges.  And again $p = \infty$ is a limit, with the result that ${\|f\|_\infty}$ is the [[essential supremum]] of ${|f|}$.)  As such, $\mathcal{L}^p(X)$ is a complete pseudonormed vector space; but we identify functions that are equal almost everywhere to make it into a Banach space.  (This example includes the previous examples, for $X$ a set with counting measure.)
+
 *  Any [[Hilbert space]] is Banach space; this includes all of the above examples for $p = 2$.
 
 
