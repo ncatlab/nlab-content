@@ -64,7 +64,7 @@ For completeness, we give both the modern abstract and historical concrete defin
 
 We build on the concepts of [[Banach space]] and (abstract) $C^*$-[[C-star-algebra|algebra]].  In this definition, a Banach space is a [[complex number|complex]] Banach space and a [[morphism]] of Banach spaces is a [[short linear map]] (a complex-linear map of norm at most $1$); a $C^*$-algebra is a complex unital $C^*$-algebra, and a morphism of $C^*$-algebras is a unital $*$-homomorphism (which is necessarily also a short linear map).  Note in particular that an [[isomorphism]] of either must be an [[isometry]].
 
-Given a Banach space $A$, a __[[predual]]__ of $A$ is a Banach space $V$ whose dual Banach space $V^*$ is isomorphic to $A$:
+Given a Banach space $A$, a __[[predual]]__ of $A$ is a Banach space $V$ whose [[dual Banach space]] $V^*$ is isomorphic to $A$:
 $$ V^* \overset{i}\to A .$$
 Similarly, given a morphism $f\colon A \to B$, a __predual__ of $f$ is a morphism $t\colon W \to V$ whose dual is isomorphic to $f$:
 $$ \array {
@@ -126,7 +126,7 @@ In particular, morphisms of von Neumann algebras are precisely
 those morphisms of C\*-algebras that are continuous
 in the ultraweak topology.
 
-Consider the dual space $V$ of a von Neumann algebra $A$ equipped
+Consider the [[dual vector space|dual space]] $V$ of a von Neumann algebra $A$ equipped
 with the ultraweak topology.
 The [[topological vector space]] $V$ canonically embeds
 into the dual of $A$ as a Banach space, the embedding map being
