@@ -15,10 +15,11 @@
 
 ## Idea
 
-A kind of [[spectral sequence]].
+A kind of [[spectral sequence]] related to the [[Bockstein homomorphism]].
 
 ## References
 
 * Jerrold Siegel, _On the Construction of the Bockstein Spectral Sequence_, Transactions of the American Mathematical Society
 Vol. 210, (Sep., 1975), pp. 203-224 ([JSTOR](http://www.jstor.org/stable/1997132))
 
+* J. Palmieri, _A User's guide to the Bockstein spectral sequence_ ([pdf](http://www.math.washington.edu/~palmieri/Papers/bss.pdf))
