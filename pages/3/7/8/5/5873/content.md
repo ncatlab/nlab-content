@@ -103,6 +103,9 @@ nontrivial $P(X)$, but a syntactically presented one".
 * $T$ = [[Cat]] the category of small categories, $P(B) = Set^B$
 * $T$ = [[Grpd]] the category of small groupoids, $P(B) = Set^B$
 
+## Related notions
+
+* [[tripos]]
 
 ## References
 
