@@ -57,6 +57,11 @@
 
     * [[contact manifold]], [[contactomorphism]]
 
-    * [[quantomorphism group]]
+  * [[quantomorphism group]]
+
+    * [[Poisson bracket]], [[Poisson algebra]]
+
+    * [[Heisenberg Lie algebra]], [[Heisenberg Lie n-algebra]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/symplectic+geometry+-+contents)</div>
