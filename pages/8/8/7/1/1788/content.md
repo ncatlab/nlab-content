@@ -1,5 +1,3 @@
-[[!redirects test]]
-[[!redirects Sandbox]]
 
 +-- {: .standout}
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
@@ -7,20 +5,10 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-## Header ##
-+-- {: .query}
-
-No sand in this box.
++-- {: .num_defn}
+###### Definition ($l^1$)
+xxx
 =--
-
-Now there is. Consider formal linear combinations 
-
-\[ \sum_i \alpha_i v_i \otimes w_i \] 
-
-which we might also write as 
-
-\[ \sum_i \alpha_i (v_i \otimes w_i) \] 
-
 
 ***
 
@@ -47,3 +35,4 @@ category: meta
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
 [[!redirects שנה טובה]]
+[[!redirects Featured math : Quora]]
