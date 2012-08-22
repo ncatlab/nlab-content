@@ -26,7 +26,50 @@ A locally regular category has finite products if and only if its tabular allego
 
 Finally, a **unit** in an allegory is an object $U$ such that $1_U$ is the greatest morphism $U\to U$, and every object $X$ admits a morphism $\phi\colon X\to U$ such that $1_X\le \phi^o\phi$.  A locally regular category has a terminal object (hence is regular) if and only if its tabular allegory of relations has a unit.
 
-Thus, regular categories are equivalent to unital tabular allegories.
+Thus, regular categories are equivalent to unital (or unitary) tabular allegories.
+
+
+
+## Division allegories and power allegories 
+
+A **division allegory** is an allegory in which every hom-poset is a [[lattice]] (not just a meet-semilattice), and for which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r \colon A \to B$ and $s \colon A \to C$, there exists $r/s \colon B \to C$ such that 
+
+$$t \leq s/r \in \hom(B, C) \Leftrightarrow t \circ r \leq s \in \hom(A, C)$$ 
+
+(so that $- \circ r$ has right adjoint $-/r$: an example of a right [[Kan extension]]). Composition on the other side, $r \circ -$, has a right adjoint (an example of a right Kan lift) given by 
+
+$$r\backslash u \coloneqq (u^o/r^o)^o.$$ 
+
+In the bicategory of sets and relations, with notation as above, we have 
+
+$$(s/r)(b, c) \dashv \vdash \forall_{a \colon A} r(a, b) \Rightarrow s(a, c)$$
+
+where $r(a, b)$ is shorthand for "$(a, b)$ belongs to $r$". 
+
+The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[logos]], and conversely the bicategory of relations in a logos is a unitary tabular division allegory. ([[Categories, Allegories]], 2.32, page 227.) 
+
+A **power allegory** is an allegory $\mathcal{A}$ such that the inclusion functor $Map(A) \to A$ has a right adjoint $P$. The counit at an object $B$ may be written 
+
+$$\ni_B \colon P(B) \to B$$ 
+
+and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
+
+In other language, a power allegory is a division algebra which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
+
+* $1_A \leq (r \backslash \ni_B) \circ (\ni_B \backslash r)$ 
+
+which expresses the truth of the formula $\forall_{a \colon A} \exists_{S: P(B)} \forall_{b \colon B} S \ni_B b \Leftrightarrow r(a, b)$, and 
+
+* $(\ni_B \backslash \ni_B) \wedge (\ni_B \backslash \ni_B)^o \leq 1_{P(B)}$ 
+
+which internalizes an axiom of extensionality, which reads $\forall_{b \colon B} (S \ni_B b) \Leftrightarrow (T \ni_B b) \vdash S = T$. Given those axioms, and given $r \colon A \to B$, one may define
+
+$$\chi_r \coloneqq (\ni_B \backslash r) \wedge (r\backslash \ni_B)^o,$$ 
+
+which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \ni_B b \Leftrightarrow r(a, b)$, and then show $\chi_r$ is a map. (See Categories, Allegories, pp. 235-236.) 
+
+The bicategory of relations in a [[topos]] is a power allegory; conversely, the category of maps in a unitary tabular power allegory is a topos. 
+
 
 ## See also
 
