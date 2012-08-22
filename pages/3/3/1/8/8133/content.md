@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -89,7 +89,7 @@ Note that $[B,A]$ (or even $B^*$) is *not*, in general, a Banach coalgebra.  (Th
 
 ## Examples
 
-It's well known that the [[sequence space]] $l^1$ of absolutely summable [[infinite sequences]], thought of as $l^1(\mathbb{Z})$ (where $\mathbb{Z}$ is the [[abelian group]] of [[integers]] under addition), is a [[Banach algebra]] under [[convolution]]; however, it is also a Banach coalgebra, and these structures together make it a Banach bialgebra.  Since $l^1$ is a Banach coalgebra, its [[dual space]] $l^\infty$ (the sequence space of absolutely bounded sequences) is a Banach algebra (which is also well known); and although there is no guarantee that it should work, in this case $l^\infty$ is also a Banach coalgebra, and indeed a Banach bialgebra too.
+It's well known that the [[sequence space]] $l^1$ of absolutely summable [[infinite sequences]], thought of as $l^1(\mathbb{Z})$ (where $\mathbb{Z}$ is the [[abelian group]] of [[integers]] under addition), is a [[Banach algebra]] under [[convolution]]; however, it is also a Banach coalgebra, and these structures together make it a Banach bialgebra.  Since $l^1$ is a Banach coalgebra, its [[dual vector space|dual space]] $l^\infty$ (the sequence space of absolutely bounded sequences) is a Banach algebra (which is also well known); and although there is no guarantee that it should work, in this case $l^\infty$ is also a Banach coalgebra, and indeed a Banach bialgebra too.
 
 Explicitly:  The projective tensor square $l^1 {\displaystyle\hat{\otimes}_\pi} l^1$ is the space of absolutely summable infinite [[matrix|matrices]]; convolution takes the matrix $(a_{i,j})_{i,j}$ to the sequence
 $$ (\sum_{i + j = k} a_{i,j})_k $$
