@@ -5,10 +5,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-+-- {: .num_defn}
-###### Definition ($l^1$)
-xxx
-=--
+$V \displaystyle\hat{\otimes} W$ vs $V {\displaystyle\hat{\otimes}} W$
 
 ***
 
