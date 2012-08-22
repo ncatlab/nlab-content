@@ -478,9 +478,11 @@ In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc.
 
 * [21] D. J. Saunders, _The Geometry of Jet Bundles_ Lond. Math. Soc. Lect. Notes Ser. 142, Cambr. Univ. Pr., Cambridge, 1989.
 
-A [[higher category theory|higher categorial]] interpretation of [[n-plectic geometry|2-plectic geometry]] is given in
+A [[higher category theory|higher categorial]] interpretation of [[2-plectic geometry]] is given in
 
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+
+* [[John Baez]], Alexander E. Hoffnung, [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
 
