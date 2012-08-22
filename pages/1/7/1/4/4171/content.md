@@ -285,7 +285,7 @@ $$
 
 ### 2-plectic geometry and Courant algebroids
 
-We consder now [[geometric quantization|prequantization]] of 2-plectic manifolds.
+We consder now [[geometric quantization|prequantization]] of [[2-plectic manifolds]].
 
 Let $(X,\omega)$ be a 2-plectic manifold such that the [[de Rham cohomology]] class $[\omega]/2 \pi i$ is in the image of [[integral cohomology]] (Has integral periods.)
 
@@ -385,6 +385,8 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 
 ## Related concepts
+
+* [[2-plectic geometry]]
 
 * [[symplectic infinity-groupoid]]
 
