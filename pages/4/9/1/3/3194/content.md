@@ -16,7 +16,7 @@
 Throughout, we work in the category $Bant$ whose objects are Banach spaces and where the morphisms are continuous linear maps. References below to the unit ball suggest that it _might_ be premature to cast everything in terms of a certain subcategory of TVS.
 
 ## Duality
-Following the lead of Mac Lane (2nd ed.) Section IV.2, which does this for vector spaces) but with slight changes in notation: let $\overline{D}:Bant\to Bant$ be the contravariant functor which takes a Banach space to its dual space, and sends a continuous linear map to its adjoint/dual map.
+Following the lead of Mac Lane (2nd ed.) Section IV.2, which does this for vector spaces) but with slight changes in notation: let $\overline{D}:Bant\to Bant$ be the contravariant functor which takes a Banach space to its [[dual vector space|dual space]], and sends a continuous linear map to its adjoint/dual map.
 
 This gives rise, in a straightforward way, to two functors $D_L: Bant \to Bant^{op}$
  and $D_R: Bant^{op}\to Bant$. $D_L$ is the left adjoint of $D_R$, that is
