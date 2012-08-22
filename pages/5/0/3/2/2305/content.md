@@ -56,6 +56,8 @@ For [[analytic space]]s
 
 * [[absolute de Rham cohomology]]
 
+* [[Hidge-de Rham spectral sequence]]
+
 ## References
 
 ### In differential geometry
