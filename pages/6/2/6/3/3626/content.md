@@ -1,3 +1,4 @@
+
 # Frobenius algebra
 * table of contents
 {: toc}
@@ -29,7 +30,7 @@ A **Frobenius algebra** is a unital, [[associative algebra]] $(A, \mu, \eta)$ eq
 
 \[  u \mapsto \epsilon\mu(1 \otimes u) \]
 
-is an [[isomorphism]] of $V$ with its dual space $V^*$. In such a case, $\epsilon$ is called a **Frobenius form**.
+is an [[isomorphism]] of $V$ with its [[dual vector space|dual space]] $V^*$. In such a case, $\epsilon$ is called a **Frobenius form**.
 
 =--
 
