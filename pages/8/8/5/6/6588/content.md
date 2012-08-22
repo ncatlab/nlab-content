@@ -46,7 +46,8 @@ In this case the Heisenberg algebra is a sub-Lie algebra of the Lie algebra unde
 ### Heisenberg Lie $n$-algebras in $n$-plectic geometry
  {#InnplecticGeometry}
 
-We discuss a generalization of the notion of Heisenberg Lie algebra from ordinary [[symplectic geometry]] to a notion of _Heisenberg [[Lie n-algebra]]_  in [[higher geometric quantization]] of [[n-plectic geometry]]. 
+We discuss a generalization of the notion of Heisenberg Lie algebra from ordinary [[symplectic geometry]] to a notion of _Heisenberg [[Lie n-algebra]]_  in [[higher geometric quantization]] of [[n-plectic geometry]]. See
+at _[[Heisenberg Lie n-algebra]]_ for more.
 
 The following definition is naturally motivated from the fact that:
 
@@ -291,6 +292,3 @@ An $n$-fold categorification of the Lie algebra underlying the [[Poisson algebra
 [[!redirects Heisenberg algebra]]
 [[!redirects Heisenberg algebras]]
 
-
-[[!redirects Heisenberg Lie n-algebra]]
-[[!redirects Heisenberg Lie n-algebras]]
