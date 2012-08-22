@@ -305,7 +305,9 @@ The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topolo
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
 
-* [[Bodo Pareigis]], _Categories and functors_. 
+* [[Bodo Pareigis]], _Categories and functors_
+
+* [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
 
 #### Topos theory
