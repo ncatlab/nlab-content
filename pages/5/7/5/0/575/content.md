@@ -9,22 +9,20 @@
 =--
 =--
 
-
 # Galois connections
 * table of contents
 {: toc}
 
+## Definition
 
-## Definition #
+In order theory the term *Galois connection* can mean both: "[[adjunction]] between posets" and "[[dual adjunction]] between [[posets]]"; the former notion is sometimes called "monotone Galois connection" and the latter "antitone Galois connection". In this article the term "Galois connection" shall mean "[[dual adjunction]] between [[posets]]".
 
-In order theory the term *Galois connection* can mean both: ''[[adjunction]] between posets'' and ''[[dual adjunction]] between [[posets]]''; the former notion is sometimes called ''monotone Galois connection'' and the latter ''antitone Galois connection''. In this article the term ''Galois connection'' shall mean ''[[dual adjunction]] between [[posets]]''.
-
-More explicitly, given posets $A$ and $B$, a Galois connection between $A$ and $B$ is a pair of order-reversing maps $f:A\to B$ and $g:B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
+More explicitly, given posets $A$ and $B$, a __Galois connection__ between $A$ and $B$ is a pair of order-reversing maps $f:A\to B$ and $g:B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
 
 A **Galois correspondence** is a Galois connection which is an [[adjoint equivalence]] (so $a = g(f(a))$ and $b = f(g(b))$ for all $a \in A$, $b \in B$). 
 
 
-## Examples #
+## Examples
 
 * Frequently Galois connections between collections of [[subset]]s arise where $f(a)$ is "the set of all $y$ standing in some relation to every $x\in a$" and dually $g(b)$ is "the set of all $x$ standing in some relation to every $y\in b$."  See [[orthogonality]] for one example. 
 
@@ -59,4 +57,8 @@ $$S \subseteq g(T) := \{x: \forall_{y \in T} r(x, y)\}$$
 
 which means we have a Galois connection between $f$ and $g$ under this definition; since $g$ is uniquely determined by the presence of a Galois connection with $f$, we conclude that all Galois connections between power sets arise in this way, via a relation $r$ between $X$ and $Y$. 
 
+
+[[!redirects Galois connection]]
 [[!redirects Galois connections]]
+[[!redirects Galois correspondence]]
+[[!redirects Galois correspondences]]
