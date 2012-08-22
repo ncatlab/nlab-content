@@ -534,11 +534,23 @@ A pedagogical introduction is in
 * [[Timothy Chow]], _You could have invented spectral sequences_, Notices of the AMS (2006) ([pdf](http://www.ams.org/notices/200601/fea-chow.pdf))
  {#Chow}
 
+Standard textbook references are 
 
-A standard textbook reference is chapter 5 of 
+* [[John McCleary]], _A User's Guide to Spectral Sequences_, Cambridge University Press 
+
+chapter 5 of 
 
 * [[Charles Weibel]], _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
 {#Weibel}
+
+and section 14 of
+
+* [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
+
+A textbook with a focus on applications in [[algebraic topology]] is
+
+* [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
+ {#Hatcher}
 
 Reviews of standard definitions and facts about spectral sequences include
 
@@ -551,6 +563,10 @@ Reviews of standard definitions and facts about spectral sequences include
 
   **Abstract** In this note we give a minimal presentation of spectral sequences following EGA. We cover essentially only that part of the theory needed in algebraic geometry. In Section 2 we start with a filtration of a complex, and show how the various pieces of a spectral sequence arise. Applying
 these observations in Section 3 to two natural filtrations of the total complex of a bicomplex, we deduce two spectral sequences and discover that their first three pages are not mysterious at all: they consist of very natural invariants of the bicomplex, arranged in the obvious way. With this background we can study the Grothendieck spectral sequence in Section 4.
+
+See also 
+
+* A. Romero, J. Rubio, F. Sergeraert, _Computing spectral sequences_ ([pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Ana-JSC.pdf))
 
 ### Nonabelian / unstable theory {#ReferencesNonabelian}
 
