@@ -1,0 +1,26 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A class of [[spectral sequences]].
+
+## References
+
+* Bertrand Guillou, _The Bousfield-Kan spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/BKss.pdf))
+
