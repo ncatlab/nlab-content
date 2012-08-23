@@ -32,6 +32,7 @@ An pair of _adjoint 2-functors_ is a [[2-adjunction]] in [[2Cat]].
 
 * [[adjoint (infinity,1)-functor]]
 
+* [[(∞,n)-category with adjoints]]
 
 [[!redirects 2-adjointness]]
 [[!redirects 2-adjunctions]]
