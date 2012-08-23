@@ -31,10 +31,10 @@ $$
 $$
 
 This definition unwinds to what traditionally would be called 
-_[[equivariant cohomology|equivariant]] [[non-abelian cohomology|non-abelian]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[sheaf cohomology|sheaf]] [[hypercohomology]] over a [[simplicial site]]_.
+_[[equivariant cohomology|equivariant]] [[twisted cohomology|twisted]] [[non-abelian cohomology|non-abelian]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]]/[[hypercohomology|hyper]] [[sheaf cohomology]] over a [[simplicial site]]_ in all degrees in which this makes sense for the given coefficient (if $A$ is $n$-fold [[delooping|deloopable]], then $A$-cohomology exists in the first $n$ degrees).
 
-This notion accurately captures the general classification and extension problems as expected:
-For $A = \mathbf{B}G$ a [[pointed object|pointed]] [[connected object in an (∞,1)-topos|connected object]], hence the [[delooping]] of an [[∞-group]] $G$ the cohomology $H^1(X,G) := H(X, \mathbf{B}G)$ classifies $G$-[[principal ∞-bundles]] in $\mathbf{H}$ over $X$. If $X = \mathbf{B}H$ itself then this classifies [[group extensions]], being a non-abelian generalization of the [[Ext]]-functor in [[abelian sheaf cohomology]]. If $G = \mathbf{Aut}(V)$ is the [[automorphism ∞-group]] of some object $V$, then this classifies equivalently $V$-[[fiber ∞-bundles]]. Moreover, the full [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X, \mathbf{B}G)$ is [[natural equivalence|naturally]] [[equivalence in an (∞,1)-category|equivalent]] to the $\infty$-groupoid $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$. 
+This notion accurately captures the general classification and extension problems as expected ([NSS](#NSS)):
+For $A = \mathbf{B}G$ a [[pointed object|pointed]] [[connected object in an (∞,1)-topos|connected object]], hence the [[delooping]] of an [[∞-group]] $G$ the cohomology $H^1(X,G) := H(X, \mathbf{B}G)$ classifies $G$-[[principal ∞-bundles]] in $\mathbf{H}$ over $X$. If $X = \mathbf{B}H$ itself then this classifies [[group extensions]], being a non-abelian generalization of the [[Ext]]-functor in [[abelian sheaf cohomology]]. If $G = \mathbf{Aut}(V)$ is the [[automorphism ∞-group]] of some object $V$, then this classifies equivalently $V$-[[fiber ∞-bundles]]. Moreover, the full [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X, \mathbf{B}G)$ is [[natural equivalence|naturally]] [[equivalence in an (∞,1)-category|equivalent]] to the $\infty$-groupoid $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$. The corresponding statements for [[twisted ∞-bundles]] are obtained simply by passing to a [[slice (∞,1)-topos]] of $\mathbf{H}$.
 
 A non-technical introduction to some concepts in cohomology from this perspective is at 
 
@@ -841,6 +841,7 @@ $$
 A comprehensive account of the full non-abelian case and its classification of $G$-[[principal ∞-bundles]], $G$-[[∞-gerbes]] and the corresponding [[twisted cohomology]] is in 
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ (2012)
+  {#NSS}
 
 Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
 
