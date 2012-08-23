@@ -48,13 +48,13 @@ where $r(a, b)$ is shorthand for "$(a, b)$ belongs to $r$".
 
 The category of maps (functional relations) of a unitary/unital tabular division allegory is a [[logos]], and conversely the bicategory of relations in a logos is a unitary tabular division allegory. ([[Categories, Allegories]], 2.32, page 227.) 
 
-A **power allegory** is an allegory $\mathcal{A}$ such that the inclusion functor $Map(A) \to A$ has a right adjoint $P$. The counit at an object $B$ may be written 
+A **power allegory** is an allegory $\mathcal{A}$ such that the inclusion functor $Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. The counit at an object $B$ may be written 
 
 $$\ni_B \colon P(B) \to B$$ 
 
 and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
 
-In other language, a power allegory is a division algebra which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
+In other language, a power allegory is a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
 
 * $1_A \leq (r \backslash \ni_B) \circ (\ni_B \backslash r)$ 
 
