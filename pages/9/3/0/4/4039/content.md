@@ -38,11 +38,22 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 
 (...)
 
+## Related concepts
+
+* [[Euler-Lagrange equations]]
+
+* [[de Donder-Weyl formalism]]
+
+* [[phase space]]
+
+* [[variational bicomplex]]
+
+* [[Lagrange multiplier]]
+
 
 ## References 
 
 
-* $n$Lab: [[phase space]], [[variational bicomplex]], [[Lagrange multiplier]]
 
 Fundamental texts of variational calculus include
 
