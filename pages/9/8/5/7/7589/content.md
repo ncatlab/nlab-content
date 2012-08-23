@@ -2,3 +2,6 @@
 * [wikipedia entry](http://en.wikipedia.org/wiki/William_Thurston)
 
 category: people
+[[!redirects Bill Thurston]]
+[[!redirects Thurston]]
+[[!redirects William P. Thurston]]
