@@ -66,6 +66,8 @@
 
 * [[differential equation]], [[variational calculus]]
 
+  * [[Euler-Lagrange equation]], [[de Donder-Weyl formalism]], [[variational bicomplex]], [[phase space]]
+
 * [[connection on a bundle]], [[connection on an ∞-bundle]]
 
 * [[Riemannian manifold]]
