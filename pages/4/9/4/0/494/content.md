@@ -619,6 +619,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 * [[adjoint (infinity,1)-functor]]
 
+* [[(∞,n)-category with adjoints]]
+
 
 ## References
 
