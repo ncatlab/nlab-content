@@ -179,7 +179,15 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
   * The category of [[diffeological space|diffeological spaces]]. 
 
-  * As a super-large example, the category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the category of compact Hausdorff spaces with the finite covering topology. 
+  * The category of sets equipped with a reflexive [[relation]]. 
+
+  * The category of sets equipped with a symmetric relation. 
+
+  * The category of sets equipped with a reflexive symmetric relation. 
+
+* The category of [[bornological set|bornological sets]]. 
+
+* As a super-large example, the category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the category of compact Hausdorff spaces with the finite covering topology. 
 
 ## Related concept
 
