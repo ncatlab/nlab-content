@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __antisymmetric__ if any two elements that are related in both orders are [[equality|equal]]:
 $$\forall (x, y: A),\; x \sim y \;\wedge\; y \sim x \;\Rightarrow\; x = y$$
 
