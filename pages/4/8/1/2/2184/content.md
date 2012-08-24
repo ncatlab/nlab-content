@@ -40,7 +40,7 @@ In all four of the above, edges are interpreted as *unordered* pairs.  If we ins
 *  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
 *  a __[[directed pseudograph]]__ consists of $V$, $E$, and a function $d: E \to V^2$.
 
-Directed psuedographs are commonly used in [[category theory]], where they are often called 'directed graphs', 'digraphs', or (less ambiguously) '[[quivers]]'.
+Directed pseudographs are commonly used in [[category theory]], where they are often called 'directed graphs', 'digraphs', or (less ambiguously) '[[quivers]]'.
 
 
 The same terminological ambiguities as above apply here as well, and they can be resolved in the same way, including using 'simple directed graph' for a directed graph if necessary.  One can also use 'undirected' in place of 'directed' to emphasise that the previous definitions apply instead of these.
@@ -81,6 +81,8 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 =--
 
+Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
+
 
 ## References
 
@@ -107,28 +109,7 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 * [[hypergraph]]
 
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
+
 [[!redirects graph]]
 [[!redirects graphs]]
 [[!redirects undirected graph]]
