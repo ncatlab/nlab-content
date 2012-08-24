@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
+
+
 
 # Congruences
 * table of contents
