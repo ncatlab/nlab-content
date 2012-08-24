@@ -2,7 +2,7 @@ An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an [[equi
 
 Notice that subtlety in the equivalence relation.
 
-Elements in an abelian category can be used for [[diagram chasing]].
+Elements in an abelian category can be used for [[diagram chasing]], see the exercises at the end of chapter II.5 of the following reference:
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.
 {# Gelfand-Manin}
