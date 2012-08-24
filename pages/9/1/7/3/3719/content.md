@@ -194,15 +194,24 @@ $R$[[Mod]]
 
 ### 3.1 $Tor$ for abelian groups
 
+**Proposition 3.1.2-3.1.3** [relation to torsion subgroups](Tor#RelationToTorsionGroups)
+
+
+
 ### 3.2 $Tor$ and flatness
 
-* [[flat module]]
+**Definition 3.2.1** [[flat module]]
 
-* [[Pontrjagin duality]]
+**Definition 3.2.3** [[Pontrjagin duality]]
 
-* [[flat resolution lemma]]
+**Flat resolution lemma 3.2.8** [[flat resolution lemma]]
+
+**Corollary 3.2.13** [Localization for Tor](Tor#Localization)
 
 ### 3.3 $Ext$ for nice rings
+
+**Corollary 3.3.11** [Localization for Ext](Ext#Localization)
+
 
 ### 3.4 $Ext$ and extensions
 
