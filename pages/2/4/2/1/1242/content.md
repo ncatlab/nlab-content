@@ -51,6 +51,10 @@ The above works in any [[abelian category]], and possible more generally.  See a
 
 * [[long exact sequence of homotopy groups]]
 
+* [[long exact sequence in cohomology]]
+
+* [[long exact sequence in homology]]
+
 ## References
 
 Section 1.1 of
