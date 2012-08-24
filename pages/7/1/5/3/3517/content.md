@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -52,7 +52,7 @@ The proof of 1) is by contradiction. Suppose $f_3$ is not epi, hence there is $b
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
 b$. We would like that $f_3(a_3)$ be equal to $b$ but this is not so, we just see that $d (b-f_3(a_3)) = 0$ and hence by exactness  of the lower row there is $b'\in B_2$ such that $d b' = b-f_3(a_3)$. Since $f_2$ is also epi, there is $a_2\in A_2$ such that $f_2(a_2) = b'$. Now $d a_2+a_3\in A_3$ is such that 
 
-$$f_3 (d a_2 + a_3) = df_2(a_2)+f_3(a_3) = db'+f_3(a_3) = b - f_3(a_3)+f_3(a_3) = b$$ 
+$$f_3 (d a_2 + a_3) = d f_2(a_2) + f_3(a_3) = d b' + f_3(a_3) = b - f_3(a_3) + f_3(a_3) = b$$ 
 
 with contradiction. 
 
@@ -91,6 +91,8 @@ The 5-lemma appears for instance as exercise 1.3.3 in
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+
+[[!redirects five-lemma]]
+[[!redirects five lemma]]
 [[!redirects 5-lemma]]
 [[!redirects 5 lemma]]
-[[!redirects five-lemma]]
