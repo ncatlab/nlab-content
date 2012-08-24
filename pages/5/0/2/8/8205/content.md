@@ -61,7 +61,7 @@ talks at
 * [[Montonen-Olive duality]] of ([[super Yang-Mills theory|super]])  [[Yang-Mills theory]] derives from conformal invariance of the [[6d (2,0)-supersymmetric QFT]] (see there) [[Kaluza-Klein mechanism|compactified]] on a [[torus]].
 
 
-#### Application to QCD
+#### To QCD and experimental particle physics
 
 The realization of [[Yang-Mills theory]] that describes [[quarks]] and their interaction by the [[strong nuclear force]] carried by [[gluons]] is _[[quantum chromodynamics]]_ ([[QCD]]).
 
@@ -98,6 +98,10 @@ Properties of [[quark-gluon plasma]] from [[AdS/CFT|AdS/CFT-dual]] [[type II str
 * Makoto Natsuume, _String theory and quark-gluon plasma_ ([arXiv:hep-ph/0701201](http://arxiv.org/abs/hep-ph/0701201))
 
 * [[Steven Gubser]], _Using string theory to study the quark-gluon plasma: progress and perils_ ([arXiv:0907.4808](http://arxiv.org/abs/0907.4808))
+
+#### To super Yang-Mills theory
+
+[[Seiberg duality]] in [[super Yang-Mills theory]] is conceptually explained by [[type II string theory]] on certain [[D-brane]] configurations (...)
 
 ### Applications to gravity
  {#ApplicationsToGravity}
