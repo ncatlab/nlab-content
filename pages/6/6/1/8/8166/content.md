@@ -1,3 +1,4 @@
+[[!redirects model (in particle physics)]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,6 +16,8 @@
 
 ## Idea
 
+### In particle physics
+
 In [[particle physics]] [[phenomenology]] a _model_ is the specification of a [[quantum field theory]] that reproduces aspects of the fundamental physics observed in [[particle accelerators]].
 
 The _[[standard model of particle physics]]_ is, by default, the currently best model available, given the available experimental data. 
@@ -23,6 +26,8 @@ Despite the success of this model, it is conceptually unsatisfactory in many way
 
 ## Examples
 
+### In particle physics
+
 * [[standard model of particle physics]]
 
 * [[Grand Unified Theory]]
@@ -30,6 +35,12 @@ Despite the success of this model, it is conceptually unsatisfactory in many way
 * [[MSSM]]
 
   * [[G2-MSSM]]
+
+### In cosmology
+
+[[cosmology]]
+
+* [[standard model of cosmology]]
 
 ## Related concepts
 
