@@ -31,9 +31,9 @@ Every closed category may be seen as a category [[enriched category|enriched]] o
 
 ## Examples
 
-### In a sheaf topos
+### For chain complexes
 
-(...) see [[closed monoidal structure on presheaves]] (...)
+* [[internal hom of chain complexes]]
 
 ### For super vector spaces
 
@@ -57,6 +57,10 @@ This definition of morphism recovers the most specific notion of [[isomorphism]]
 But the internal hom is the Banach space of *all* bounded linear maps:
 $$ hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \lt \infty \} .$$
 This is a Banach space and makes $Ban$ into a [[closed category]].
+
+### In a sheaf topos
+
+see _[[closed monoidal structure on presheaves]]_
 
 
 ### For smooth spaces
