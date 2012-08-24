@@ -98,6 +98,10 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
   * [[T-duality]], [[S-duality]], [[U-duality]]
 
+  * [[open/closed string duality]]
+
+     * [[KLT relations]]
+
 [[!include table of branes]]
 
 ## References
