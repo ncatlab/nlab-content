@@ -47,6 +47,12 @@
 
 * [[Galatius-Tillmann-Madsen-Weiss theorem]]
 
+* [[geometrization conjecture]], 
+
+  * [[Poincaré conjecture]]
+
+  * [[elliptization conjecture]]
+
 * [[cobordism hypothesis]]-theorem
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/manifolds+and+cobordisms+-+contents)</div>
