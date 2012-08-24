@@ -1,0 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Beyond the speculative hypothetized role of string theory as a theory behind observed [[particle physics]], the theory has shed light on many aspects of [[quantum field theory]], both on the conceptual structure of quantum field theory as such as well as on concrete theories and their concrete properties. Some of these string theory results enter crucially in computations that are used to interpret particle physics experiments such as the [[LHC]].
+
+## Examples
+
+### Application to Yang-Mills theory
+
+* [[Montonen-Olive duality]] of [[Yang-Mills theory]] derived from conformal invariance of the [[6d (2,0)-supersymmetric QFT]] [[Kaluza-Klein mechanism|compactified]] on [[torus]]
+
+
+### Application to QCD
+
+* [[twistor string theory]] explains some Yang-Mills [[scattering amplitudes]]
+
+* Precision scattering amplitudes in [[QCD]] use [[twistor string theory]] on-shell methods:
+
+  * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
+
+
+
+
+### Application to gravity
+
+(...)
+
