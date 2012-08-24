@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
 # Relations
 * table of contents
 {: toc}
@@ -53,8 +63,10 @@ Binary relations are especially widely used.
 ### Kinds of binary relations
 
 Special kinds of relations from $A$ to $B$ include:
-* [[functional relation]]s;
-* [[entire relation]]s.
+
+* [[functional relations]],
+* [[entire relations]],
+* [[equivalence relations]].
 
 A [[function]] can be seen as a binary relation that is both functional and entire.
 
@@ -86,7 +98,9 @@ As a [[function]] may be seen as a functional, entire relation, so the category 
 
 ## Generalisation
 
-Most of the preceding makes sense in any [[category]] with enough [[product]]s; giving rise to [[internal relation|internal relations]]. Probably the trickiest bit is the definition of composition of binary relations, so not every category with finite products has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
+Most of the preceding makes sense in any [[category]] with enough [[products]]; giving rise to [[internal relation|internal relations]], for instance _[[congruences]]_ in the case of internal equivalence relations. 
+
+Probably the trickiest bit is the definition of [[composition]] of binary relations, so not every category with [[finite products]] has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
 
 
 [[!redirects relation]]
