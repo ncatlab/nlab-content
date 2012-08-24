@@ -278,6 +278,9 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 ([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley)).  
 
 
+## Examples
+
+* [[(∞,1)-category of chain complexes]]
 
 
 ## Related concepts
@@ -289,6 +292,8 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 * [[stable model category]]
 
 * [[spectral category]]
+
+
 
 ## References
 
