@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Enriched category theory
-+--{: .hide}
-[[!include enriched category theory - contents]]
-=--
 #### Additive and abelian categories
 +--{: .hide}
 [[!include additive and abelian categories - contents]]
@@ -25,11 +21,11 @@
 
 ## Idea
 
-_Grothendieck categories_ are those [[abelian category|abelian categories]] $C$
+_Grothendieck categories_ are those [[abelian category|abelian categories]] $\mathcal{A}$
 
-* such that for [[presheaf|presheaves]] on a [[site]] with values in $C$ there is an existence theorem for the  [[sheafification]] functor;
+* such that for [[presheaf|presheaves]] on a [[site]] with values in $\mathcal{A}$ there is an existence theorem for the  [[sheafification]] functor;
 
-* such that all [[complexes]] in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
+* such that all [[complexes]] in $\mathcal{A}$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
 
 
 ## Definition
@@ -42,9 +38,9 @@ This means that a **Grothendieck category** is an [[abelian category|abelian]] [
 
 * that admits a [[generator]];
 
-* that admits small [[colimit]]s;
+* that admits small [[colimits]];
 
-* such that small [[filtered category|filtered]] [[colimit]]s are _exact_ in the following sense:
+* such that small [[filtered category|filtered]] [[colimits]] are _exact_ in the following sense:
 
   * for $I$ a [[direction|directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_i C_i \to 0$ is also an [[exact sequence]].
 
@@ -56,11 +52,11 @@ with a [[cogenerator]]. The category of abelian groups is not a co-Grothendieck 
 
 A Grothendieck category $C$ satisfies the following properties.
 
-* it admits small [[limit]]s;
+* it admits small [[limits]];
 
-* if a functor $F : C^{op} \to Set$ commutes with small [[limit]]s, the $F$ is [[representable functor|representable]];
+* if a functor $F : C^{op} \to Set$ commutes with small [[limits]], the $F$ is [[representable functor|representable]];
 
-* if a functor $F : C^{op} \to Set$  commutes with small [[colimit]]s, then $F$ has a [[adjoint functor|right adjoint]].
+* if a functor $F : C^{op} \to Set$  commutes with small [[colimits]], then $F$ has a [[adjoint functor|right adjoint]].
 
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
@@ -70,17 +66,24 @@ Much of the localization theory of rings generalize to general Grothendieck cate
 
 ## Examples
 
-* For $R$ a ring, $Mod(R)$ is a Grothendieck category.
+* For $R$ a [[ring]], $R$[[Mod]] is a [[Grothendieck category]].
 
-* For $C$ a [[small category|small]] [[abelian category]], the category $Ind(C)$ of [[ind-object]]s in $C$ is a Grothendieck category.
+* For $C$ a [[small category|small]] [[abelian category]], the category $Ind(C)$ of [[ind-objects]] in $C$ is a Grothendieck category.
 
 * for $C$ a Grothendieck category, the category $C_c$ of [[complex]]es in $C$ is again a Grothendieck category.
+
+## Related concepts
+
+* [[sheaf of abelian groups]]
+
+* [[abelian sheaf cohomology]]
+
 
 ## References
 
 Grothendieck categories are mentioned at the end of section 8.3 in
 
-* Kashiwara--Schapira, _[[Categories and Sheaves]]_
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
 The relation to complexes is in section 14.1.
 
