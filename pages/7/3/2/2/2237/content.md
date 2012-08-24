@@ -192,4 +192,8 @@ Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
 * Kai Behrend, Ping Xu, Bin Zhang, _Equivariant gerbes over compact simple Lie groups_ ([arXiv](http://arxiv.org/abs/math/0306183v1))
 
 
+[[!redirects Borel cohomology]]
+[[!redirects equivariant spectrum]]
+[[!redirects naive G-spectrum]]
+[[!redirects genuine G-spectrum]]
 
