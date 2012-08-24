@@ -1,16 +1,33 @@
-Given a [[function]] $f: X \to Y$ and a [[subset]] $S$ of $Y$, the __preimage__ (or __inverse image__) of $T$ under $f$ is a subset of $S$, consisting of those arguments whose values belong to $S$.  That is,
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
+Given a [[function]] $f: X \to Y$ and a [[subset]] $S$ of $Y$, the __preimage__ (sometimes also called the __[[inverse image]]__, though that may mean something different) of $T$ under $f$ is a [[subset]] of $S$, consisting of those arguments whose values belong to $S$.  
+
+That is,
 $$ f^*(S) = \{ a: X \;|\; f(a) \in S \} .$$
 The traditional notation for $f^*$ is $f^{-1}$, but this can conflict the notation for an [[inverse function]] of $f$ (which indeed might not even exist).  This then suggests $f_*$ for the [[image]] of $f$.
 
-We borrow $f^*$ from a notation for [[pullback]]s, and indeed a preimage is an example of a pullback:
+We borrow $f^*$ from a notation for [[pullbacks]], and indeed a preimage is an example of a pullback:
 $$ \array {
 f^*(S)     & \hookrightarrow & X \\
 \downarrow &                 & \downarrow f \\
 S          & \hookrightarrow & Y
 } $$
 
+## Related concepts
+
+* [[image]], [[coimage]]
+
 For a generalisation to [[sheaf|sheaves]], see [[inverse image]].
+
 
 
 [[!redirects preimage]]
 [[!redirects preimages]]
+[[!redirects pre-image]]
+[[!redirects pre-images]]
