@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $S$ a [[simplicial set]] and $A$ an [[abelian group]], the _simplicial [[homology]]_ of $S$ is the [[chain homology]] of the [[chain complex]] corresponding under the [[Dold-Kan correspondence]] to the [[simplicial abelian group]] $S \otimes A$ of _chains_ on $S$.
+
+## Related concepts
+
+* [[cochain on a simplicial set]]
+
+* [[singular homology]]
+
+## References
+
+Around Application 1.1.3 of 
+
+* [[Charles Weibel]]. _[[An Introduction to Homological Algebra]]_
+
+[[!redirects chain on a simplicial set]]
+[[!redirects chains on a simplicial set]]
