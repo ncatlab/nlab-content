@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+_Cosmology_ is the study of the [[observable universe]] on its largest [[scales]].
+
+## Related entries
+
+* [[gravity]], [[standard model of particle physics]]
+
+* [[standard model of cosmology]]
+
+* [[cosmological constant]]
+
+## References
+
+* Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
+
