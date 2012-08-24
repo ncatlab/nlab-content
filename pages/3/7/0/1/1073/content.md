@@ -1,4 +1,27 @@
-#Idea#
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+> see also _[[sheaf of abelian groups]]_
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 An **abelian sheaf** is a [[sheaf]] with values in an [[abelian category]] which usually is itself, or is taken to be embedded in, a category of [[complex]]es in an [[abelian category]].
 
@@ -7,8 +30,14 @@ In light of the [[Dold-Kan correspondence]] this means that abelian sheaves can 
 For instance [[Deligne cohomology]], which classifies higher abelian [[gerbe]]s (certain [[infinity-stack]]s) with [[connection]]), is the [[sheaf cohomology]] of a certain class of sheaves with values in abelian complexes. This is understood conceptually by realizing that after embedding complexes of abelian sheaves -- via [[Dold-Kan correspondence|Dold-Kan]] -- into  general [[simplicial presheaf|simplicial sheaves]], a complex of abelian sheaves becomes an abelian $\infty$-prestack and the computation of its [[sheaf cohomology]] corresponds to passing to its [[infinity-stackification]].
 
 
-#References#
+## References
 
-Abelian sheaves are the topic of section 18 of
+A basic textbook introduction begins for instance around Definition 1.5.6 of 
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+A detailed textbook discussion is in section 18 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+
+[[!redirects abelian sheaves]]
