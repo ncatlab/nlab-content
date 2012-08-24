@@ -199,3 +199,5 @@ $$
 
 [[!redirects loop space object]]
 [[!redirects loop space objects]]
+[[!redirects loop object]]
+[[!redirects loop objects]]
