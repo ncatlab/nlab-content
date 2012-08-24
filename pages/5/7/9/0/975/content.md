@@ -10,16 +10,25 @@
 +-- {: .hide}
 [[!include mathematicscontents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
 =--
 =--
+=--
 
 
 
-This entry provides a keyword list on concepts related to **categories and sheaves** following the book
+This entry provides a hyperlinked index for the book
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], 
+ 
+  _Categories and Sheaves_, 
+  
+  Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
-#Summary#
+
+**Summary**
 
 The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in [[homological algebra]] and with an outlook on [[stack]]s.
 
@@ -31,20 +40,22 @@ The last part merges these two threads in a discussion of [[sheaf|sheaves]] in g
 
 The organization and emphasis of the book (for instance of the [[category of sheaves]] as a [[localization]] of the category of [[presheaf|presheaves]]) makes it a suitable 1-categorical preparation for the [[infinity-category|infinity-categorical]] discussion of sheaves in
 
-* J. Lurie, [[Higher Topos Theory]]
+* J. Lurie, _[[Higher Topos Theory]]_
 
 and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infinity-categories]], in 
 
-* J. Lurie, [[Stable Infinity-Categories]]
+* J. Lurie, _[[Stable Infinity-Categories]]_
 
 On the other hand, [[topos]]-theoretic aspects of the [[category of sheaves]] are not emphasized, here 
 
-* Moerdijk-MacLane, [[Sheaves in Geometry and Logic]]
+* Moerdijk-MacLane, _[[Sheaves in Geometry and Logic]]_
 
 is the natural complementary reading. In particular sections V and VII there are directly useful for supplementing the concept of [[geometric morphism]] and its relation to [[localization]]. 
 
 
-#Content#
+#Contents#
+* table of contents
+{:toc}
 
 The following lists chapterwise linked lists of keywords to relevant and related existing entries, as far as they already exist. 
 
@@ -53,7 +64,7 @@ For a pedagogical motivation of the general topic under consideration here see
 * [[motivation for sheaves, cohomology and higher stacks]]
 
 
-#1 The language of categories#
+## 1 The language of categories
 
 * [[foundations]]
 
@@ -192,7 +203,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
   * [[presheaf on open subsets]]
 
-#2 Limits#
+## 2 Limits
 
 * [[limit]]
 
@@ -232,16 +243,18 @@ For a pedagogical motivation of the general topic under consideration here see
 
 * [[cofinally small category]]
 
-#3 Filtrant Limits#
+## 3 Filtrant Limits
 
 * [[filtered category]]
+
+* [[filtered limit]]
 
 * [[exact functor]]
 
   * [[flat functor]]
 
 
-#4 Tensor Categories#
+## 4 Tensor Categories
 
 * [[monoidal category]]
 
@@ -254,7 +267,7 @@ For a pedagogical motivation of the general topic under consideration here see
   * [[enriched category]]
 
 
-#5 Generators and Representability#
+## 5 Generators and Representability
 
 * [[image]]
 
@@ -270,7 +283,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
 * [[generator]]
 
-#6 Indization of Categories#
+## 6 Indization of Categories
 
 * [[ind-object]]
 
@@ -282,7 +295,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
 
 
-#7 Localization#
+## 7 Localization
 
 * [[homotopical category]]
 
@@ -310,7 +323,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
 
 
-#8 Additive and Abelian Categories#
+## 8 Additive and Abelian Categories
 
 * [[group object]]
 
@@ -347,10 +360,10 @@ For a pedagogical motivation of the general topic under consideration here see
   * [[homology]]
 
 
-#9 $\pi$-accesible Objects and $F$-injective Objects#
+## 9 $\pi$-accesible Objects and $F$-injective Objects
 
 
-#10 Triangulated Categories#
+## 10 Triangulated Categories
 
 * [[stable (infinity,1)-category]]
 
@@ -361,7 +374,7 @@ For a pedagogical motivation of the general topic under consideration here see
 * [[null system]]
 
 
-#11 Complexes in Additive Categories#
+## 11 Complexes in Additive Categories
 
 * [[homological algebra]]
 
@@ -379,7 +392,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
 
 
-#12 Complexes in Abelian Categories#
+## 12 Complexes in Abelian Categories
 
 * [[snake lemma]]
 
@@ -387,24 +400,24 @@ For a pedagogical motivation of the general topic under consideration here see
 
 
 
-#13 Derived Categories#
+## 13 Derived Categories
 
 * [[derived category]]
 
 * [[derived functor on a derived category]]
 
 
-#14 Unbounded Derived Categories#
+## 14 Unbounded Derived Categories
 
 * [[injective object]]
 
 * [[projective object]]
 
 
-#15 Indization and Derivation of Abelian Categories#
+## 15 Indization and Derivation of Abelian Categories
 
 
-#16 Grothendieck Topologies#
+## 16 Grothendieck Topologies
 
 * [[coverage]]
 
@@ -423,7 +436,7 @@ For a pedagogical motivation of the general topic under consideration here see
 * [[site]]
 
 
-#17 Sheaves on Grothendieck Topologies#
+## 17 Sheaves on Grothendieck Topologies
 
 * [[category of sheaves]]
 
@@ -445,7 +458,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[restriction and extension of sheaves]]
 
-#18 Abelian Sheaves#
+## 18 Abelian Sheaves
 
 * hindsight motivation
 
@@ -464,7 +477,7 @@ For a pedagogical motivation of the general topic under consideration here see
   * [[Deligne cohomology]]
 
 
-#19 Stacks and Twisted Sheaves#
+## 19 Stacks and Twisted Sheaves
 
 * [[higher category theory]]
 
