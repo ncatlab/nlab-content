@@ -3,7 +3,7 @@ __Combinatorial group theory__ is an approach to the theory of discrete [[groups
 
 While sometimes the presentation method is used in the theory of finite groups, most often not very deep facts are used; instead finite group theory is rather dominated with interaction with [[representation theory]], [[ring]] theory, [[group cohomology]] and so on. Typical groups for which combinatorial methods give deep results are infinite discrete groups which are close in some sense to [[free group]]s, e.g. groups with a presentation having only one relation. Such groups often appear as [[fundamental groups]] of [[topological spaces]]. 
 
-Nowadays combinatorial group theory uses fruitful connections to [[topology]] and [[graph]] theory: for example, the consequences if some group can be realized say as a fundamental group of a space or [[action|acts]] on a topological space are widely explored, to invite topological methods. In fact there is a hybrid field, _geometric group theory_ ([English Wikipedia](http://en.wikipedia.org/wiki/Geometric_group_theory)).
+Nowadays combinatorial group theory uses fruitful connections to [[topology]] and [[graph]] theory: for example, the consequences if some group can be realized say as a fundamental group of a space or [[action|acts]] on a topological space are widely explored. They are apt  to invite topological /  geometric methods. In fact there is a hybrid field, [[geometric group theory]]  (see also [English Wikipedia](http://en.wikipedia.org/wiki/Geometric_group_theory)).
 
 ##Related entries
 
