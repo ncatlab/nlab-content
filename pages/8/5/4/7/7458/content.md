@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
