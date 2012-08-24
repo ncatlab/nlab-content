@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -25,6 +24,7 @@ In more detail, begin with a [[commutative ring]] $K$ equipped with an [[involut
 
 The claim that the anti-involution is $K$-antilinear means that $(r x)^* = \overline{r} x^*$ for all $r$ in $K$ and all $x$ in $A$.
 
+
 ## Banach star-algebras
 
 When $K$ is $\mathbb{C}$ (or the field $\mathbb{R}$ of [[real numbers]]), we can additionally ask that the $*$-algebra be a [[Banach algebra]]; then it is a __Banach $*$-algebra__.  Special cases of this are 
@@ -32,6 +32,8 @@ When $K$ is $\mathbb{C}$ (or the field $\mathbb{R}$ of [[real numbers]]), we can
 * $C^*$-[[C-star-algebra|algebras]] 
 
 * and $W^*$-[[W-star-algebra|algebras]].
+
+Arguably, one should require that the map $*$ be an [[isometry]] (which follows already if it is required to be [[short map|short]]); some authors require this and some don\'t.  However, this is automatic in the case of $C^*$-algebras (and hence also $W^*$-algebras).
 
 
 [[!redirects star-algebra]]
