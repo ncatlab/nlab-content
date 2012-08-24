@@ -129,6 +129,14 @@ $$
 
 For more see [[generalized homology]].
 
+## Examples
+
+* [[chain and cochain homology]]
+
+* [[simplicial homology]]
+
+* [[singular homology]]
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
