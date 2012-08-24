@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
 This entry provides a hyperlinked index for the textbook
 
 * [[Charles Weibel]], 
@@ -19,45 +30,66 @@ on [[homological algebra]].
 
 * [[abelian group]], [[commutative ring]], [[module]] 
 
-* [[chain complex]]
+* [[exact sequence]]
+
+**Definition 1.1.1** [[chain complex]]
+
+* [[chain map]], [[chain homotopy]]
+
+* [[category of chain complexes]]
+
+**Exercise 1.1.4** [[internal hom of chain complexes]]
+
+**Definition 1.1.2** [[quasi-isomorphism]]
+
+
+[[cochain complex]], [[bounded chain complex]]
+
+**Application 1.1.3** [[chain on a simplicial set]], [[simplicial homology]]
+
+**Application 1.1.4** [[singular homology]]
+
+
 
 ### 1.2 Operations on chain complexes
 
 * [[additive and abelian categories]]
 
-  * [[Ab-enriched category]]
+* [[Ab-enriched category]]
 
   * [[pre-additive category]]
 
   * [[additive category]], 
 
-  * (AB1) [[pre-abelian category]] 
+    * [[additive functor]]
 
-  * (AB2) [[abelian category]]
-
-  * (AB5) [[Grothendieck category]]
-
-* [[additive functor]]
-
-* [[kernel]], [[cokernel]]
+**Definition 1.2.1** [[kernel]], [[cokernel]]
 
 * [[quotient]]
 
 * [[double complex]]
 
-* [[total complex]]
+**Definition 1.2.2** [[abelian category]], [[abelian subcategory]]
+
+$R$[[Mod]]
+
+**Example 1.2.4** [[double complex]]
+
+**1.2.6** [[total complex]]
+
+**1.2.7** [[truncation of a chain complex]]
 
 ### 1.3 Long exact sequences
 
-* [[short exact sequence]]
+**Theorem 1.3.1** [[connecting homomorphism]], [[long exact sequences in homology]]
 
-* [[connecting homomorphism]]
+**Exercise 1.3.1** [[3x3 lemma]], 
 
-* [[fiber sequence]]
+**Snake lemma 1.3.2** [[snake lemma]]
 
-* [[long exact sequence]]
+**Exercise 1.3.3** [[5 lemma]]
 
-* [[3x3 lemma]], [[snake lemma]], [[5 lemma]]
+**Remark 1.3.5** [[exact triangle]]
 
 
 ### 1.4 Chain homotopies
