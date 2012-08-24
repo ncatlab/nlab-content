@@ -50,6 +50,8 @@ Seiberg duality follows from phenomena in [[string theory]], where gauge theorie
 
 * S. Elitzur, A. Giveon, D. Kutasov, E. Rabinovici and A. Schwimmer, _Brane dynamics and $N = 1$ supersymmetric gauge theory, Nucl. Phys. B 505 (1997) 202 ([hep-th/9704104]())
 
+See also _[[string theory results applied elsewhere]]_.
+
 ### Formalization by derived quiver categories
 
 Seiberg duality is formalized by [[equivalence of categories|equivalences]] of [[derived categories]] of [[quiver]] representations.
