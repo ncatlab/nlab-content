@@ -9,6 +9,17 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+
+## Related entries
+
+* [[cosmology]]
+
+* [[standard model of cosmology]]
+
 ## References
 
 A visualization of the big observable structures in the universe, drawn to scale, is in 
