@@ -21,6 +21,8 @@ and
 
   * [[Grothendieck category]]
 
+* [[abelian sheaves]]
+
 * [[semi-abelian category]]
 
 ## Basic definitions
@@ -55,13 +57,15 @@ and
 
   * [[injective resolution]], [[projective resolution]]
 
-## Higher category notions
-
-* [[derived category]]
-
 * [[derived functor]]
 
   * [[Tor]], [[Ext]]
+
+* [[abelian sheaf cohomology]]
+
+## Higher category notions
+
+* [[derived category]]
 
 * [[triangulated category]]
 
