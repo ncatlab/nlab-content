@@ -59,6 +59,8 @@ See also [[examples in topology]].
 * [[manifold]], [[smooth manifold]], [[generalized smooth space]], [[diffeological space]], [[smooth space]], [[Froelicher space]]
 * [[differential topology]], [[microbundle]], [[cobordism]], [[derived smooth manifold]]
 
+* [[low-dimensional topology]]
+
 ### Algebraic topology and homotopy theory in general
 
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
