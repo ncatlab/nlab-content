@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
 # Equivalence relations
 * table of contents
 {: toc}
