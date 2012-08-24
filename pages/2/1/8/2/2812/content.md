@@ -136,9 +136,16 @@ The statement for the Eilenberg--Zilber operad goes back to [HinSch87](HinSch87)
 
 * For $X$ a [[topological space]] and $\Delta_{Top} : \Delta \to Top$ the canonical topological simplices, the simplicial set $X^{\Delta^\bullet_{Top}}$ is the [[singular simplicial complex]] of $X$. It cochain dg-algebra is the one that computes the [[singular cohomology]] of $X$. 
 
+## Related concepts
+
+* [[chain homology]]
 
 
 ## References {#References}
+
+Basics are for instance in _Application 1.1.3_ of
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
 An explicit description of the cochains that express the homotopy symmetry of the cup product is given from page 30 on of the old
 
@@ -167,3 +174,4 @@ An action of instead the [[Barratt-Eccles operad]] is described in
 
 
 [[!redirects cochains on simplicial sets]]
+
