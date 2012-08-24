@@ -29,6 +29,8 @@ In the context of [[string theory]] BH entropy is explained by a version of the 
 
 Detailed computations exist in particular for [[D1-brane]]/[[D5-brane]] systems. This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)).
 
+See also _[[string theory results applied elsewhere]]_.
+
 
 
 ## Related concepts
@@ -48,9 +50,7 @@ Detailed computations exist in particular for [[D1-brane]]/[[D5-brane]] systems.
 
 * MO question [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
 
-### Entropy
-
-## References
+### Interpretation in string theory
 
 Chapter 5 of 
 
