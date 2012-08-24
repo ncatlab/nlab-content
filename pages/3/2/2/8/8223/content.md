@@ -12,7 +12,7 @@ This article is a modest bridge, indicating that the _[[category]] of [[graphs]]
 
 ## Simple graphs as relations 
 
-By a **simple [[graph]]**, we mean a [[set]] $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. [[homomorphism|Morphisms]] between simple graphs are [[functions]] which respect the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
+By a **simple [[graph]]**, we mean a [[set]] $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. [[homomorphism|Morphisms]] between simple graphs are [[functions]] which preserve the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
 
 When drawing graphs, we put an edge between vertices $x$, $y$ iff $x \neq y$ and $E(x, y)$. In particular, we will not bother drawing an edge between $x$ and itself; we can think of it as tacitly there if we like. Perhaps better yet, that tacit edge can be thought of as a path of length $0$ from $x$ to itself (and who bothers drawing a path of length $0$?). In any case, it is clear that there is a natural bijection between 
 
@@ -92,7 +92,7 @@ and at the edge level by taking the image of the composite $E_H \hookrightarrow 
 
 $$Q(x, y) \Leftrightarrow \exists_{u, v} H(u, v) \wedge q(u) = x \wedge q(v) = y.$$ 
 
-Thus, $q$ is a regular mono if it is surjective at both the vertex and edge levels. 
+Thus, $q$ is a [[regular epimorphism]] if it is surjective at both the vertex and edge levels. 
 
 
 ### Ternary factorization 
@@ -103,7 +103,7 @@ $$G \stackrel{q}{\to} G' \stackrel{a}{\to} H' \stackrel{i}{\to} H$$
 
 where 
 
-* $q$ is a collection of edge contractions induced by a surjection between vertex-sets, and is a [[regular epi]]; 
+* $q$ is a surjection between vertex-sets and at the edge level, i.e., is a [[regular epi]]; 
 
 * $a$ induces an identity between vertex-sets (hence is [[bimorphism|jointly monic and epic]]), but without necessarily being full at the edge level; 
 
