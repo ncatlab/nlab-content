@@ -214,6 +214,8 @@ $$
 
 ## Related concepts 
 
+* [[exact triangle]]
+
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
 
 * [[Bridgeland stability condition]]
