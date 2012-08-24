@@ -38,7 +38,9 @@ _Mike_: I just remembered another reason I dislike "bimorphism."  One context wh
 
 _Toby_:  O yeah, I agree with you there!  The best that I can say for 'bimorphism' is that it\'s got some sense to it; but as the right way to follow that sense would be 'bimonomorphism', there\'s still something wrong with it.
 
-_Zoran_ I am used to say "reflective and coreflective", never bireflective. Looks esoteric term. I never likes bimorphism either.
+_Zoran_ I am used to say "reflective and coreflective", never bireflective. Looks esoteric term. I never likes bimorphism either. 
+
+_Todd_: Late to this discussion, but I agree with Mike and Zoran that 'bimorphism' is terrible. There is no indication of "monicity" or "epicity". 
 =--
 
 [[!redirects bimorphisms]]
