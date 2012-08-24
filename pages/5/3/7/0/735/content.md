@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A binary [[relation]] from a [[set]] $X$ to a set $Y$ is called **entire** if every element of $X$ is related to at least one element of $Y$.  This includes most examples of what the pre-Bourbaki literature calls a (total) [[multi-valued function]] (although that term usually implied some continuity or analyticity properties as well).  An entire relation is sometimes called **total**, although that has another meaning in the theory of [[partial order]]s; see [[total relation]].
 
 A [[function]] is precisely a relation that is both entire and [[functional relation|functional]].
