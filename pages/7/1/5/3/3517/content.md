@@ -60,7 +60,7 @@ with contradiction.
 
 +-- {: .num_remark}
 ###### Remark 
-The five lemma also holds in the category of groups, by essentially the same diagram-chasing proof. 
+The five lemma also holds in the category [[Grp]] of [[groups]], by essentially the same diagram-chasing proof. 
 =-- 
 
 ## Short split five lemma
@@ -84,7 +84,7 @@ where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]
 
 +-- {: .num_remark}
 ###### Remark 
-The short five lemma holds in the category of topological abelian groups, even though that category is not semi-abelian. For a proof, see this [paper](#BorClem) by Borceux and Clementino. 
+The short five lemma holds in the category of [[abelian group|abelian]] [[topological groups]], even though that category is not semi-abelian. For a proof, see this [paper](#BorClem) by Borceux and Clementino. 
 =--
 
 ## Related concepts
