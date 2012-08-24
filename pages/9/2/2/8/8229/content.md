@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of [[3-manifolds]] and [[4-manifolds]].
+
+## Related entries
+
+* [[geometrization conjecture]] 
+
+## References
+
+* Wikipedia, _[Low-dimensional topology](http://en.wikipedia.org/wiki/Low-dimensional_topology)_
