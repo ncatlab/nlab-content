@@ -1,4 +1,5 @@
-#Contents#
+
+# Contents
 * table of contents 
 {: toc}
 
@@ -7,6 +8,7 @@
 Both category theory and graph theory study patterns based on diagrams consisting of nodes and edges. Despite this surface impression, there is in fact very little interaction between the scientific communities of category theorists and of graph theorists. 
 
 This article is a modest bridge, indicating that the category of graphs (in the usual graph-theorist's sense -- see for example [Diestel](#Diestel)) has some very nice properties. 
+
 
 ## Simple graphs as relations 
 
@@ -20,9 +22,13 @@ When drawing graphs, we put an edge between vertices $x$, $y$ iff $x \neq y$ and
 
 thus we are within our rights to identify these two concepts. 
 
-This maneuver allows a notion of morphism between simple graphs which includes natural operations like edge contractions as quotients. Namely, if $f \colon G \to H$ is a morphism as defined above, and if we have $G(x, y)$ and $f(x) = f(y) = v$, we still have $H(f(x), f(y))$ by default, so we can think of $f$ as contracting the edge between $x$ and $y$ in $G$ down to an edge of length $0$ between $v$ and itself in $H$. 
+This maneuver allows a simple definition of [[morphism]] as a [[function]] (between the sets of vertices) that preserves the edge relation:
+$$ (x,y) \in E_G \;\Rightarrow\; (f(x),f(y)) \in E_H .$$
+
+This then includes natural operations like edge contractions as quotients. Namely, if $f \colon G \to H$ is a morphism as defined above, and if we have $G(x, y)$ and $f(x) = f(y) = v$, we still have $H(f(x), f(y))$ by default, so we can think of $f$ as contracting the edge between $x$ and $y$ in $G$ down to an edge of length $0$ between $v$ and itself in $H$. 
 
 The category of simple graphs is denoted by $SimpGph$. 
+
 
 ## Properties of $SimpGph$ 
 
@@ -67,6 +73,7 @@ G' & \to & H'
 Since $Vert$ preserves both pushouts and monos, and since the pushout of a mono in $Set$ is a mono, we have that $Vert(k)$ is monic in $Set$. Since $Vert$ reflects monos, this means $k$ is monic in $SimpGph$. 
 =-- 
 
+
 ### Equalizers and coequalizers
 
 If $f, g \colon G \stackrel{\to}{\to} H$ are maps in $SimpGph$, then their [[equalizer]] $Eq(f, g) = i \colon K \to G$ is given at the vertex level by 
@@ -87,6 +94,7 @@ $$Q(x, y) \Leftrightarrow \exists_{u, v} H(u, v) \wedge q(u) = x \wedge q(v) = y
 
 Thus, $q$ is a regular mono if it is surjective at both the vertex and edge levels. 
 
+
 ### Ternary factorization 
 
 The category of simple graphs has a [[ternary factorization system]] as follows: each morphism $f \colon G \to H$ factors as 
@@ -95,11 +103,11 @@ $$G \stackrel{q}{\to} G' \stackrel{a}{\to} H' \stackrel{i}{\to} H$$
 
 where 
 
-* $q$ is a collection of edge contractions induced by a surjection between vertex-sets, and is a regular epi; 
+* $q$ is a collection of edge contractions induced by a surjection between vertex-sets, and is a [[regular epi]]; 
 
-* $a$ induces an identity between vertex-sets (hence is jointly monic and epic), but without necessarily being full at the edge level; 
+* $a$ induces an identity between vertex-sets (hence is [[bimorphism|jointly monic and epic]]), but without necessarily being full at the edge level; 
 
-* $i$ is given by an injection between vertex-sets and is full at the edge level, and (thus) is a regular mono. 
+* $i$ is given by an injection between vertex-sets and is full at the edge level, and (thus) is a [[regular mono]]. 
 
 The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
 the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
@@ -132,6 +140,7 @@ $SimpGph$ is co-regular, i.e., $SimpGph^{op}$ is regular.
 This is obvious from the first definition of "regular" given [here](http://ncatlab.org/nlab/show/regular+category#definition_10). 
 =-- 
 
+
 ## References 
 
 * Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
@@ -139,3 +148,10 @@ This is obvious from the first definition of "regular" given [here](http://ncatl
 
 * J. Adamek and H. Herrlich, Cartesian closed categories, quasitopoi, and topological universes. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
+
+
+category: category
+
+[[!redirects category of simple graphs]]
+[[!redirects Simp Gph]]
+[[!redirects SimpGph]]
