@@ -1,0 +1,36 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Related entries
+
+* [[string theory results applied elsewhere]]
+
+## References
+
+* [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun.Math.Phys.252:189-258,2004 ([arXiv:hep-th/0312171](http://de.arxiv.org/abs/hep-th/0312171))
+
