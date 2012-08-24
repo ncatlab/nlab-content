@@ -1,4 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A binary [[relation]] from a [[set]] $X$ to a set $Y$ is called **functional** if every element of $X$ is related to at most one element of $Y$.  Notice that this is the same thing as a [[partial function]], seen from a different point of view.  A (total) [[function]] is precisely a relation that is both functional and [[entire relation|entire]].
+
+## Properties
 
 Like any relation, a functional relation $r$ can be viewed as a [[span]]
 $$ \array {
@@ -15,3 +36,6 @@ $$r \circ s \leq 1_Y; \qquad 1_X \leq s \circ r$$
 in which case it may be proven that $s = r^{op}$. A relation is functional if and only if $r \circ r^{op} \leq 1_Y$, and is entire if and only if $1_X \leq r^{op} \circ r$. 
 
 Further to this: surjectivity of a function $r: X \to Y$ can be expressed as the condition $1_Y \leq r \circ r^{op}$, and injectivity as $r^{op} \circ r \leq 1_X$. 
+
+
+[[!redirects functional relations]]
