@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __left euclidean__ if in any two elements both related to a third are also related to each other:
 $$\forall (x, y, z: A),\; x \sim z \;\wedge\; y \sim z \;\Rightarrow\; x \sim y$$
 A relation $\sim$ is __right euclidean__ if this works in the other order:
