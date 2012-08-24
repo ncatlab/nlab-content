@@ -41,6 +41,10 @@ $$
 
 In this context those solutions to the [[Euler-Lagrange equation]]s are of interest in which $\lambda(\phi)$ happens to be exactly or approximately constant. Many such models of not-really-constant-but-effectively-constant terms proportional to the volume are being proposed and considered in attempts to explain observed or speculated dynamics of the cosmos.
 
+## Related concepts
+
+* [[cosmology]]
+
 
 ## References
 
