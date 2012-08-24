@@ -255,6 +255,10 @@ This is how derived functors are traditionally introduced in homological algebra
 
 * In the context of a [[model structure on chain complexes]] of [[module]]s the left and right derived functors of the [[tensor product]] functor and the [[hom-functor]] are called [[Tor]]-functor and [[Ext-functor]], respectively.
 
+## Related concepts
+
+* [[delta-functor]]
+
 ## References
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
