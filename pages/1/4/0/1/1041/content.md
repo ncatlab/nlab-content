@@ -37,7 +37,9 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 1. Every [[monomorphism|monic]] is a [[kernel]] and every [[epimorphism|epic]] is a [[cokernel]].
 
 
-##Remarks#
+## Properties
+
+### General
 
 * The two conditions are equivalent as follows. Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
 
@@ -51,18 +53,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * The exactness properties of abelian categories have many features in common with exactness properties of [[topos|toposes]] or of [[pretopos|pretoposes]]. In a fascinating post to the categories mailing list, Peter Freyd gave a sharp description of the properties shared by these categories, introducing a new concept called [[AT categories]] (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
 
-## Examples
-
-* Of course, [[Ab]] is abelian, as is the category of [[modules]] over any [[ring]].
-
-* Therefore in particular the category [[Vect]] of vector spaces is an abelian category.
-
-* The category of [[sheaves]] of abelian groups on any [[site]] is abelian.
-
-* The category of torsion-free abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
-
-
-## Categories of $R$-modules 
+### Embedding theorems
 
 There are some interesting results about the extent to which we can pretend any abelian category is a category of left $R$-[[module]]s for some [[ring]] $R$.  Let us write $R Mod$ for such a category of modules.  
 
@@ -70,7 +61,7 @@ First of all, it's easy to see that not every abelian category is equivalent to 
 
 However, we have
 
-+-- {: .un_thm}
++-- {: .num_thm}
 ###### Mitchell's Embedding Theorem
 Every small abelian category admits a [[full functor|full]], [[faithful functor|faithful]] and [[exact functor|exact]] functor to the category $R Mod$ for some ring $R$.
 =--
@@ -84,7 +75,7 @@ See also [[Freyd-Mitchell embedding theorem]].
 
 We can also characterize which abelian categories _are_ equivalent to a category of $R$-modules:
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem
 Let $C$ be an abelian category.  If $C$ has all [[small category|small]] [[coproducts]] and has a [[compact object|compact]] [[projective object|projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
 =--
@@ -110,6 +101,24 @@ into the strict 2-category of
 * natural transformations.
 
 For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/08/questions_about_modules.html).
+
+## Examples
+
+* Of course, [[Ab]] is abelian, as is the category of [[modules]] over any [[ring]].
+
+* Therefore in particular the category [[Vect]] of vector spaces is an abelian category.
+
+* The category of [[sheaves]] of abelian groups on any [[site]] is abelian.
+
+* The category of torsion-free abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
+
+
+## Related concepts
+
+* [[additive and abelian categories]]
+
+* [[abelian subcategory]]
+
 
 ##References
 
