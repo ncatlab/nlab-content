@@ -131,7 +131,13 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[U-duality]]
 
-* [[11-dimensional supergravity]]
+  * [[open/closed string duality]]
+
+    * [[AdS/CFT]], [[holographic principle]]
+
+    * [[KLT relations]]
+
+* [[11-dimensional supergravity]], [[M-theory]]
 
   * [[Hořava-Witten theory]]
 
