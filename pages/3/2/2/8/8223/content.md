@@ -5,14 +5,14 @@
 
 ## Introduction 
 
-Both category theory and graph theory study patterns based on diagrams consisting of nodes and edges. Despite this surface impression, there is in fact very little interaction between the scientific communities of category theorists and of graph theorists. 
+Both [[category theory]] and [[graph theory]] study patterns based on [[diagrams]] consisting of nodes and edges. Despite this surface impression, there is in fact very little interaction between the scientific communities of category theorists and of graph theorists. 
 
-This article is a modest bridge, indicating that the category of graphs (in the usual graph-theorist's sense -- see for example [Diestel](#Diestel)) has some very nice properties. 
+This article is a modest bridge, indicating that the _[[category]] of [[graphs]]_ (in the usual graph-theorist's sense -- see for example [Diestel](#Diestel)) has some very nice properties. 
 
 
 ## Simple graphs as relations 
 
-By a **simple [[graph]]**, we mean a set $V$ equipped with a symmetric reflexive relation $E$. Morphisms between simple graphs are functions which respect the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
+By a **simple [[graph]]**, we mean a [[set]] $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. [[homomorphism|Morphisms]] between simple graphs are [[functions]] which respect the given relations. Elements of $V$ are called _vertices_. Write $E(x, y)$ to say $(x, y) \in E$. 
 
 When drawing graphs, we put an edge between vertices $x$, $y$ iff $x \neq y$ and $E(x, y)$. In particular, we will not bother drawing an edge between $x$ and itself; we can think of it as tacitly there if we like. Perhaps better yet, that tacit edge can be thought of as a path of length $0$ from $x$ to itself (and who bothers drawing a path of length $0$?). In any case, it is clear that there is a natural bijection between 
 
@@ -27,7 +27,7 @@ $$ (x,y) \in E_G \;\Rightarrow\; (f(x),f(y)) \in E_H .$$
 
 This then includes natural operations like edge contractions as quotients. Namely, if $f \colon G \to H$ is a morphism as defined above, and if we have $G(x, y)$ and $f(x) = f(y) = v$, we still have $H(f(x), f(y))$ by default, so we can think of $f$ as contracting the edge between $x$ and $y$ in $G$ down to an edge of length $0$ between $v$ and itself in $H$. 
 
-The category of simple graphs is denoted by $SimpGph$. 
+The [[category]] of simple graphs is denoted by $SimpGph$. 
 
 
 ## Properties of $SimpGph$ 
@@ -41,23 +41,23 @@ $SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular cat
 
 See for example [Adamek and Herrlich](#AdamHerr). 
 
-It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $Vert \colon SimpGph \to Set$ be the underlying vertex-set functor. We have two easy results:  
+It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $Vert \colon SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. We have two easy results:  
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Vert$ reflects monos and epis (because $Vert$ is faithful). 
+$Vert$ [[reflected limit|reflects]] monos and epis (because $Vert$ is faithful). 
 =-- 
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Vert$ preserves limits and colimits (because it has a left adjoint $Disc$ and a right adjoint $Codisc$). 
+$Vert$ [[preserved limit|preserves]] [[limits]] and [[colimits]] (because it has a [[left adjoint]] $Disc$ and a [[right adjoint]] $Codisc$). 
 =-- 
 
 It follows that $Vert \colon SimpGph \to Set$ both preserves and reflects monos and epis. As a result, we can prove various simple exactness results in $SimpGph$. For instance: 
 
-+-- {: .num_lem}
++-- {: .num_lemma}
 ###### Lemma 
-In $SimpGph$, the pushout of any mono is a mono. 
+In $SimpGph$, the [[pushout]] of any mono is a mono. 
 =-- 
 
 +-- {: .proof} 
@@ -84,7 +84,7 @@ and at the edge level by $K(x, y) \Leftrightarrow G(i(x), i(y))$; in other words
 
 Thus, $i$ is a regular mono in $SimpGph$ iff both $Vert(i)$ is monic in $Set$ and $i$ is full at the edge level. 
 
-The coequalizer of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
+The [[coequalizer]] of $f$ and $g$, say $Coeq(f, g) = q \colon H \to Q$, is given at the vertex level by 
 
 $$Vert(q) = Coeq(Vert(f), Vert(g))$$ 
 
@@ -112,9 +112,9 @@ where
 The factorization of $f$ into $q$ followed by $i \circ a$ is the (regular epi)-mono factorization, while the factorization of $f$ into $a \circ q$ followed by $i$ is the epi-(regular mono) factorization. To round out
 the discussion, we prove that regular monos are stable under pushout (which ensures that the epi-(regular mono) factorization is an [[orthogonal factorization system]]). 
 
-+-- {: .num_lem} 
++-- {: .num_lemma} 
 ###### Lemma 
-In $SimpGph$, the pushout of any regular mono along any map is a regular mono. 
+In $SimpGph$, the pushout of any [[regular monomorphism]] along any map is a regular mono. 
 =-- 
 
 +-- {: .proof} 
@@ -146,7 +146,7 @@ This is obvious from the first definition of "regular" given [here](http://ncatl
 * Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
 {#Diestel}
 
-* J. Adamek and H. Herrlich, Cartesian closed categories, quasitopoi, and topological universes. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
+* [[Jiri Adamek]] and H. Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
 
 
