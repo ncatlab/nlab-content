@@ -70,7 +70,7 @@ One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works
 
 ## Short split five lemma
 
-The special case of five lemma is a short five lemma where $A_1,B_1,A_5,B_5$ are all [[zero object]]s. It may hold in more general setups, sometimes with additional assumptions. 
+A special case of the five lemma is the _short five lemma_ where the objects $A_1,B_1,A_5,B_5$ above are all [[zero objects]]. It may hold in more general setups, sometimes with additional assumptions. 
 
 The **short split five lemma** is a statement usually stated in the setup of [[semiabelian categories]]:
 
