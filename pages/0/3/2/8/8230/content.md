@@ -124,6 +124,8 @@ which proves the modular law.
 $$\{0\} \cup \{1\} \cup \{points\} \cup \{lines\}$$ 
 where $0$ is taken as bottom, $1$ as top, the points are atoms, and the lines are coatoms, ordered by the incidence relation. The projective plane need not be Desarguesian. 
 
+* [[Young–Fibonacci lattice]]
+
 ## See also 
 
 * [[allegory]]
