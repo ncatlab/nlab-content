@@ -55,7 +55,9 @@ For Coq-projects in [[homotopy type theory]] see
 
 ## Related entries
 
-* [[Agda]]
+Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
+
+A software similar to Coq is _[[Agda]]_.
 
 ## References
 
