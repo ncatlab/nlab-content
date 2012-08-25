@@ -1,6 +1,7 @@
+[[!redirects children's drawings]]
 [[!redirects children's drawing]]
-[[!redirects children's drawing]]
-##subtitle: Dessins d'enfants
+[[!redirects children's drawings]]
+##subtitle: Dessin d'enfant
 (Both terms are used.)
 
 # Contents
