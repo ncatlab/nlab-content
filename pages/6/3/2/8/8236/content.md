@@ -11,11 +11,19 @@
 
 A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|discrete]] [[subgroup]] of the underlying [[abelian group]] which [[spans]] the whole space.
 
+## Examples
+
+* [[Leech lattice]], [[E8 lattice]]
+
 ## Related concepts
 
 * [[integral lattice]]
 
 * [[modular integral lattice]]
+
+* [[unimodular integral lattice]]
+
+
 
 ## References
 
