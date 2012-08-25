@@ -47,7 +47,7 @@ by this definition, modular forms are not really functions on the upper half pla
 * Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School
 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
 
-* [[Nora Ganter]], _[Topological modular forms literature list](http://www.math.uiuc.edu/~ganter/talbot/index.html)_
+* [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
 
 
 * wikipedia: [modular form](http://en.wikipedia.org/wiki/Modular_form)
