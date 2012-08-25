@@ -32,6 +32,8 @@ If the coefficients is not a [[field]] but an arbitrary [[abelian group]], then 
 ## Statement
 
 ### For ordinary cohomology
+ {#InCohomology}
+ {#InHomology}
 
 Let $C_\bullet$ be a [[chain complex]] of [[free construction|free]] [[abelian group]]s. Let $A$ be an arbitrary [[abelian group]]. 
 
@@ -82,6 +84,12 @@ $$
 
 =--
 
+### In topology
+ {#InTopology}
+
+(...)
+
+
 +-- {: .num_section #sectiona }
 =--
 
@@ -126,6 +134,7 @@ There are two statements that one would like to hold. These are not themselves t
 
 +-- {: .num_uct #ucta .thremark }
 ###### UCT1
+
 There is a [[spectral sequence]]
 $$
 \Tor_{p,*}^{E_{*}} (E_{*}(X), F_{*}) \xRightarrow[p]{}    F_{*}(X)
@@ -138,7 +147,8 @@ $$
 
 +-- {: .num_uct #uctb .thremark }
 ###### UCT2
-There is a spectral sequence
+
+There is a [[spectral sequence]]
 $$
 \Ext_{E_{*}}^{p,*} (E_{*}(X), F^{*}) \xRightarrow[p]{}    F^{*}(X)
 $$
@@ -154,6 +164,7 @@ For a finite CW-complex $X$, we can apply [UCT1](#ucta) and [UCT2](#uctb) to $D 
 
 +-- {: .num_uct #uctc .thremark }
 ###### UCT3
+
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Tor_{p,*}^{E^{*}}(E^{*}(X), F^{*}) \xRightarrow[p]{}    F^{*}(X)
