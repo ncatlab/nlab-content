@@ -116,7 +116,7 @@ just by the laws of a lattice. By the modular identity (again switching $b$ and 
 $$(a \vee z) \wedge b = (a \wedge b) \vee (z \wedge b) = a \vee (z \wedge b)$$ 
 which proves the modular law. 
 
-* For any [[Mal'cev variety]] or Mal'cev [[algebraic theory]], the lattice of internal [[equivalence relations]] of an algebra is a modular lattice. The equivalence classes often arise as cosets of kernels; for example, for a [[vector space]] $V$, equivalence relations correspond to subspaces of $V$, and form a modular lattice. Other examples include the lattice of normal subgroups of a [[group]], the lattice of two-sided [[ideals]] of a [[ring]], etc. 
+* For any [[Mal'cev variety]] or Mal'cev [[algebraic theory]], the lattice of internal [[equivalence relations]] of an algebra is a modular lattice. The equivalence classes often arise as cosets of kernels; for example, for a [[vector space]] $V$, equivalence relations correspond to subspaces of $V$, and form a modular lattice. Other examples include the lattice of [[normal subgroups]] of a [[group]], the lattice of two-sided [[ideals]] of a [[ring]], etc. 
 
 * In fact, any lattice of commuting equivalence relations on a [[set]] is a modular lattice (being a suballegory of the [[allegory]] of sets, one in which composition provides the join). 
 
