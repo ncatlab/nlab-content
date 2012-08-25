@@ -1,7 +1,9 @@
 
-_Categories, Allegories_ (sometimes whimsically referred to as "Cats, Alligators" or "Cats and Alligators") is a highly original work on categorical algebra by [[Peter Freyd]] and Andre Scedrov. 
+_Categories, Allegories_  is a highly original work on [[category theory|categorical algebra]] by [[Peter Freyd]] and Andre Scedrov. 
 
 * [[Peter Freyd]] and Andre Scedrov, _Categories, Allegories_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
+
+(sometimes whimsically referred to as "Cats, Alligators" or "Cats and Alligators").
 
 On the [[category|Categories]] side, the book centers on that part of categorical algebra that studies [[exactness property|exactness properties]], or other properties enjoyed by nice or convenient categories such as [[topos|toposes]], and their relationship to [[logic]] (for example, [[geometric logic]]). A major theme throughout is the possibility of representation theorems (aka completeness theorems or embedding theorems) for various categorical structures, spanning back now about five decades (as of this writing) to the original embedding theorems for abelian categories, such as the [[Freyd-Mitchell embedding theorem]]. 
 
