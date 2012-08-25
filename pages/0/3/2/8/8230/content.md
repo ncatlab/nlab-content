@@ -1,19 +1,3 @@
-
-> This entry is about a notion in _[[order theory]]/[[logic]]_.  For the notion of the same name in [[bilinear form]]-theory see at _[[modular integral lattice]]_.
-
-***
-
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### $(0,1)$-Category theory
-+--{: .hide}
-[[!include (0,1)-category theory - contents]]
-=--
-=--
-=--
-
-
 # Contents 
 * table of contents
 {: toc}
@@ -24,40 +8,98 @@ A _modular lattice_ is a lattice where "opposite sides" of a "diamond" formed by
 
 ## Definition 
 
-A modular lattice is a [[lattice]] which satisfies the modular identity, which we introduce after a few preliminaries. 
+A modular lattice is a [[lattice]] which satisfies a modular law, which we introduce after a few preliminaries. 
 
-In any lattice $L$, given two elements $a, b \in L$ with $a \leq b$, let $[a, b]$ denote the [[interval]] $\{z \colon a \leq z \leq b\}$. Then, given any two elements $x, y \in L$, there is an [[adjunction|adjoint pair]]  
+In any lattice $L$, given two elements $x, y \in L$ with $x \leq y$, let $[x, y]$ denote the [[interval]] $\{z \colon x \leq z \leq y\}$. Then, given any two elements $a, b \in L$, there is an [[adjunction|adjoint pair]]  
 
-$$x \vee (-) \colon [x \wedge y, y] \stackrel{\leftarrow}{\to} [x, x \vee y] \colon (-) \wedge y$$ 
+$$a \vee (-) \colon [a \wedge b, b] \stackrel{\leftarrow}{\to} [a, a \vee b] \colon (-) \wedge b$$ 
 
-where $x \vee (-)$ is left adjoint to $(-) \wedge y$. Indeed, for any $w \in [x \wedge y, y]$, we have a [[adjunction|unit]] 
+where $a \vee (-)$ is left adjoint to $(-) \wedge b$. Indeed, for any $w \in [a \wedge b, b]$, we have a [[adjunction|unit]] 
 
-$$w \leq (x \vee w) \wedge y,$$ 
+$$w \leq (a \vee w) \wedge b,$$ 
 
-whereas for any $z \in [x, x \vee y]$, we have dually a [[adjunction|counit]]  
+whereas for any $z \in [a, a \vee b]$, we have dually a [[adjunction|counit]] 
 
-$$x \vee (z \wedge y) \leq z.$$ 
+$$a \vee (z \wedge b) \leq z.$$ 
 
 +-- {: .num_defn}
 ###### Definition 
-A lattice $L$ is **modular** if for any $x, y \in L$, the adjoint pair 
+A lattice $L$ is **modular** if for any $a, b \in L$, the adjoint pair 
 
-$$x \vee (-) \dashv (-) \wedge y \colon [x, x \vee y] \to [x \wedge y, y]$$ 
+$$a \vee (-) \dashv (-) \wedge b \colon [a, a \vee b] \to [a \wedge b, b]$$ 
 
 is an [[adjoint equivalence]]. 
 =-- 
 
-The definition is usually stated in other ways, viz.: 
+This is perhaps the most memorable definition for a category theorist: it is a precise expression of the slogan given in the Idea section. 
 
-* The **modular law** is the [[Horn theory|Horn sentence]] $a \leq b \vdash (a \vee z) \wedge b = a \vee (z \wedge b)$, or 
+It is immediate that the concept of modular lattice is **[[duality|self-dual]]**, i.e., if $L$ is modular, then so is $L^{op}$. 
 
-* The modular law is the inequality $(r \vee s) \wedge t \leq (r \wedge (t \vee s)) \vee s$ 
+## Alternative formulations 
 
-where the latter can obviously be re-expressed in equational form. 
+In the lattice-theoretic literature, modularity is usually formulated somewhat differently. Here are three alternative conditions on a lattice, all equivalent to that of Definition 1. 
+
+1. The **modular law** is the universal [[Horn theory|Horn sentence]] 
+$$a \leq b \vdash (a \vee z) \wedge b = a \vee (z \wedge b).$$
+
+1. The **modular identity** is the universal equation 
+$$(a \vee z) \wedge (a \vee b) = a \vee (z \wedge (a \vee b))$$ 
+
+1. "**Freyd's modular law**" (for lack of  better term; see [[allegory]]) is the universal inequality 
+$$(a \vee z) \wedge b \leq a \vee (z \wedge (a \vee b)).$$ 
+
+### Proofs of equivalence 
+
+#### Derivation of modular identity 
+
+To see that the modular identity follows from Definition 1, observe that for any $z \in L$ we have 
+
+$$a \leq (a \vee z) \wedge (a \vee b) \leq a \vee b$$ 
+
+Let $w = (a \vee z) \wedge (a \vee b)$. Under $(-) \wedge b \colon [a, a \vee b] \to [a \wedge b, b]$, this element $w$ is sent to 
+
+$$(a \vee z) \wedge (a \vee b) \wedge b = (a \vee z) \wedge b.$$ 
+
+Under Definition 1, this last element is sent back to $w$ by $a \vee (-)$. Therefore we have  
+
+$$(a \vee z) \wedge (a \vee b) = w = a \vee ((a \vee z) \wedge b)$$
+
+and since this is true for all $a, b, z$, we can interchange $z$ and $b$ and rearrange by commutativity to get 
+
+$$(a \vee z) \wedge (a \wedge b) = a \vee (z \wedge (a \vee b))$$ 
+
+which is the modular identity. 
+
+#### Modular law $\Leftrightarrow$ modular identity 
+
+To get the modular law from the modular identity, just use the fact that the hypothesis $a \leq b$ is equivalent to $a \vee b = b$, and use this to substitute $b$ for $a \vee b$ in the modular identity. Conversely, from the tautology $a \leq a \vee b$, we can instantiate the modular law to derive the modular identity. 
+
+#### Freyd's modular law $\Leftrightarrow$ modular identity 
+
+From the tautology $(a \vee z) \wedge b \leq (a \vee z) \wedge (a \vee b)$, it is clear that Freyd's modular law follows from the modular identity. Conversely, by substituting $a \vee b$ for $b$ in Freyd's modular law, we derive the special case 
+
+$$(a \vee z) \wedge (a \vee b) \leq a \vee (z \wedge (a \vee b))$$ 
+
+whereas the opposite inequality 
+
+$$a \vee (z \wedge (a \vee b)) \leq (a \vee z) \wedge (a \vee b)$$ 
+
+holds in any lattice, so the modular identity follows from Freyd's modular law. 
+
+#### Modular identity $\Rightarrow$ definition 1 
+
+Finally, we derive the adjoint equivalence of Definition 1 from the modular identity. One half of the adjoint equivalence states that if $a \leq z \leq a \vee b$, then $z = a \vee (z \wedge b)$; if this holds, then the other half follows because it is the dual statement. If $a \leq z \leq a \vee b$, then 
+
+$$z = (a \vee b) \wedge z = (a \vee b) \wedge (a \vee z)$$ 
+
+just by the laws of a lattice. By the modular identity (again switching $b$ and $z$), the right side equals $a \vee (b \wedge (a \vee z))$. But since $a \vee z = z$, this equals $a \vee (b \wedge z) = a \vee (z \wedge b)$, as was to be shown. 
+
 
 ## Examples 
 
-* Every [[distributive lattice]], e.g., a [[Heyting algebra]], is modular. 
+* Every [[distributive lattice]], e.g., a [[Heyting algebra]], is modular. Indeed, if $a \leq b$ in a distributive lattice, we have 
+$$(a \vee z) \wedge b = (a \wedge b) \vee (z \wedge b) = a \vee (z \wedge b)$$ 
+which proves the modular law. 
 
 * For any [[Mal'cev variety]] or Mal'cev [[algebraic theory]], the lattice of internal [[equivalence relations]] of an algebra is a modular lattice. The equivalence classes often arise as cosets of kernels; for example, for a [[vector space]] $V$, equivalence relations correspond to subspaces of $V$, and form a modular lattice. Other examples include the lattice of normal subgroups of a [[group]], the lattice of two-sided [[ideals]] of a [[ring]], etc. 
 
