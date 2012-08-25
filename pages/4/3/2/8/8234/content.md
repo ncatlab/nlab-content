@@ -11,6 +11,10 @@
 
 A _modular integral lattice_ is an [[integral lattice]] which is similar to its dual.
 
+## Related concepts
+
+* [[unimodular integral lattice]]
+
 ## References
 
 * Gabriele Nebe, _[Modular lattices](http://www2.research.att.com/~njas/lattices/modular.html)_
