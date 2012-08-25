@@ -131,6 +131,7 @@ $R$[[Mod]]
 
 **Yoneda lemma 1.6.11** [[Yoneda lemma]]
 
+[proof of the Freyd-Mitchell embedding theorem](http://ncatlab.org/nlab/show/Freyd-Mitchell+embedding+theorem#Proof)
 
 ## 2 Derived functors
 
@@ -163,8 +164,6 @@ $R$[[Mod]]
 ### 2.5 Right derived functors
 
 [[right derived functor]]
-
-* [[Ext]]
 
 **Application 2.5.4** [[global section functor]], [[abelian sheaf cohomology]]
 
@@ -215,17 +214,39 @@ $R$[[Mod]]
 
 ### 3.4 $Ext$ and extensions
 
-* [[group extension]]
+[[extension]]
+
+[[group extension]]
+
+**Vista 3.4.6** [[Yoneda extension group]]
 
 ### 3.5 Derived functors of the inverse limit
 
-* [[Mittag-Leffler condition]]
+[[tower]]
+
+[[additive and abelian categories|(AB4)-category]]
+
+[[directed limit]]
+
+**Definition 3.5.6** [[Mittag-Leffler condition]]
+
+**Exercise 3.5.5** [[pullback]]
 
 ### 3.6 Universal coefficient theorem
 
-* [[universal coefficient theorem]]
+**Theorem 2.6.1** [[Künneth formula]]
 
-* [[Künneth formula]]
+**Universal cofficient theorem for homology 3.6.2** [universal coefficient theorem in homology](universal coefficient theorem#InHomology)
+
+**Theorem 3.6.3** [[Künneth formula for complexes]]
+
+**Application 3.6.4** [universal coefficient theorem in topology](universal coefficient theorem#InTopology)
+
+**Universal coefficient theorem in cohomology 3.6.5** [universal coefficient theorem in cohomology](universal coefficient theorem#InCohomology)
+
+[[Eilenberg-Zilber theorem]]
+
+**Exercise 3.6.2** [[hereditary ring]]
 
 ## 4 Homological dimension
 
