@@ -18,9 +18,9 @@ This entry provides a hyperlinked index for the textbook
 
   Cambridge University Press (1994)
 
-on [[homological algebra]].
+which gives a first exposition to central concepts in _[[homological algebra]]_.
 
-See also chapers 8 and 12-18 of 
+For a more comprehensive account of the theory see also chapters 8 and 12-18 of 
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
@@ -134,6 +134,8 @@ $R$[[Mod]]
 [proof of the Freyd-Mitchell embedding theorem](http://ncatlab.org/nlab/show/Freyd-Mitchell+embedding+theorem#Proof)
 
 ## 2 Derived functors
+
+[[derived functor in homological algebra]]
 
 ### 2.1 $\delta$-Functor
 
