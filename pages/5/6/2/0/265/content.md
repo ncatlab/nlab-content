@@ -15,18 +15,25 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A [[category with weak equivalences]] $C$ serves as a presentation for an [[(∞,1)-category]] $\mathbf{C}$. Accordingly, a [[functor]] $F : C \to D$ should induce an [[(∞,1)-functor]] between the corresponding [[(∞,1)-categories]] $\mathbf{C} \to \mathbf{D}$. From the [[nPOV]], this is a **derived functor**.
+A _derived functor_ is a [[functor]] in [[homotopy theory]] induced from, "derived from" or _[[presentable (infinity,1)-category|presented by]]_ an ordinary [[functor]] on a [[category with weak equivalences]].
 
-If $F$ is a [[homotopical functor]] in that it respects the weak equivalences in $C$ and $D$, then by the universal property of [[simplicial localization]] it extends to a functor of [[(∞,1)-category|(∞,1)-categories]] and this is the corresponding _derived functor_ .
+Historically the concept first arose in the special context of [[homological algebra]] on [[categories of chain complexes]] and is often still understood by default in this special sense. The relation to the general case is discussed below in the section _[In homological algebra](#InHomologicalAlgebra)_. For a dedicated discussion of this case see the entry _[[derived functor in homological algebra]]_.
 
-However, typically functors of interest do not respect weak equivalences and hence do not uniquely or even naturally give rise to an [[(∞,1)-functor]]. In general, they contain too little information to accomplish this. Notably, to objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-equivalence class of objects the functor $F$ is applied. 
 
-Remembering that by Dwyer-Kan [[simplicial localization]] the morphisms in $\mathbf{C}$ and $\mathbf{D}$ are zig-zags of morphisms in $C$ and $D$, a very general notion of derived functor therefore takes a derived functor of $F$ to be a functor $\mathbb{D}F : \mathbf{C} \to \mathbf{D}$ induced from the universal property of the localization by a functor of the form $F \circ Q : C \to D$, where $Q : C \to C$ is an endofunctor which is naturally connected to the identity by a zig-zag of weak equivalences. 
+### General idea
+
+A [[category with weak equivalences]] $C$ serves as a presentation for an [[(∞,1)-category]] $\mathbf{C}$ by [[simplicial localization]]. Accordingly, a [[functor]] $F : C \to D$ should induce an [[(∞,1)-functor]] between the corresponding [[(∞,1)-categories]] $\mathbf{C} \to \mathbf{D}$. From the [[nPOV]], this is a **derived functor**.
+
+If $F$ is a [[homotopical functor]] in that it respects the weak equivalences in $C$ and $D$, then by the [[universal property]] of [[simplicial localization]] it extends to a functor of [[(∞,1)-category|(∞,1)-categories]] and this is the corresponding _derived functor_ .
+
+However, typically functors of interest do not respect weak equivalences and hence do not uniquely or even naturally give rise to an [[(∞,1)-functor]]. In general, they contain too little information to accomplish this. Notably, to objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-[[equivalence class]] of objects the functor $F$ is applied. 
+
+Remembering that by Dwyer-Kan [[simplicial localization]] the morphisms in $\mathbf{C}$ and $\mathbf{D}$ are [[zig-zags]] of morphisms in $C$ and $D$, a very general notion of derived functor therefore takes a derived functor of $F$ to be a functor $\mathbb{D}F : \mathbf{C} \to \mathbf{D}$ induced from the [[universal property]] of the localization by a functor of the form $F \circ Q : C \to D$, where $Q : C \to C$ is an [[endofunctor]] which is naturally connected to the identity by a [[zig-zag]] of [[weak equivalences]]: 
 
 $$
   X \stackrel{\simeq}{\leftarrow}
@@ -41,10 +48,11 @@ $$
 
 Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consistis of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
 
-In highly structured situation where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
+### In the presence of model category structure
 
+In highly structured situations where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
 
-the **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a left Quillen functor $F : C \to D$ is obtained by applying $F$ to _cofibrant_ objects of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a right Quillen functor $G : D \to C$ is obtained by applying $G$ to _fibrant_ objects. 
+the **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a [[left Quillen functor]] $F : C \to D$ is obtained by applying $F$ to _[[cofibrant objects]]_ of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a [[right Quillen functor]] $G : D \to C$ is obtained by applying $G$ to _[[fibrant objects]]_. 
 
 Recalling that the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] $C$ may be identified with the full [[sSet]]-[[subcategory]] $C^\circ$ of fibrant-cofibrant objects, this may be understood as ensuring that the derived functor indeed respects the $(\infty,1)$-categorical structure. More precisely, for
 
@@ -70,9 +78,11 @@ $$
   R G
 $$
 
-on [[homotopy category|homotopy categories]], and often its is these functors that are called (total) **derived functor**s in the literature
+on [[homotopy category|homotopy categories]], and often its is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature
 
 More generally, derived functors in this sense may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
+
+### On homotopy categories
 
 If one forgets the [[nPOV]] and that a [[category with weak equivalences]] should be regarded as presentation for an [[(∞,1)-category]], then it might seem as if all one wants when deriving a [[homotopical functor]] $f : C \to D$ is to extend it to a diagram
 
@@ -91,7 +101,7 @@ where $Q_C : C \to Ho(C)$ is the universal morphism characterizing the [[homotop
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
-This is often in the literature given as the _definition_ of, respectively , total left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
+This is often in the literature given as the _definition_ of, respectively , [[total derived functor|total]] left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
 
 
 ## Definition
@@ -104,10 +114,15 @@ and then the [[(∞,1)-category]]-version in
 
 * [As functors on (∞,1)-categories](#OnInftyCats).
 
+The special case of derived functors in the context of [[homological algebra]] is discussed from this general perspective in 
+
+* [In homological algebra](#InHomologicalAlgebra).
+
+A dedicated discussion of this case is at [[derived functors in homological algebra]].
 
 
-### As functors on homotopy categories {#OnHomotopyCat}
-
+### As functors on homotopy categories 
+ {#OnHomotopyCat}
 
 
 For $Core(C) \hookrightarrow W \hookrightarrow C$ a [[category with weak equivalences]], then for $F : C \to D$ any functor, the __left derived functor__ $L F$ of $F$ is the _right_ [[Kan extension]] of $F$ along the projection $p : C \to Ho_C$ to the [[homotopy category]]
@@ -129,52 +144,67 @@ More generally, if $D$ is itself a category with weak equivalences, then by deri
 $$ C \stackrel{F}{\to} D \to Ho_D $$
 
 
-#### Remarks
++-- {: .num_remark}
+###### Remark
 
-* By the universal property of $Ho_C$, functors $Ho_C \to D$ are equivalent to functors $C\to D$ which take weak equivalences to isomorphisms.  If $F$ itself takes weak equivalences to isomorphisms, then its left and right derived functors are both (isomorphic to) its unique extension along $p$.  In general, however, $L F$ and $R F$ are not extensions of $F$ even up to isomorphism.
+By the universal property of $Ho_C$, functors $Ho_C \to D$ are equivalent to functors $C\to D$ which take weak equivalences to isomorphisms.  If $F$ itself takes weak equivalences to isomorphisms, then its left and right derived functors are both (isomorphic to) its unique extension along $p$.  In general, however, $L F$ and $R F$ are not extensions of $F$ even up to isomorphism.
 
-* In practice, derived functors are usually computed using fibrant and cofibrant [[resolution]] replacements (see the entries on [[homotopy theory]] and [[model category]]) or, more generally, [[deformation retract of a homotopical category|deformation retracts]].
+=--
 
-* Recall that if the codomain admits sufficiently many limits and colimits, a Kan extension can be computed in terms of those, and that such Kan extensions are called *pointwise*.  Homotopy categories generally do not admit even small limits and colimits, and moreover the domains of the functors in question are generally large, so such a *construction* of a derived functor is not possible.
++-- {: .num_remark}
+###### Remark
+
+In practice, derived functors are usually computed using fibrant and cofibrant [[resolution]] replacements (see the entries on [[homotopy theory]] and [[model category]]) or, more generally, [[deformation retract of a homotopical category|deformation retracts]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If the codomain admits sufficiently many [[limits]] and [[colimits]], a [[Kan extension]] can be computed in terms of those, and that such Kan extensions are called *[pointwise](Kan%20extension#Pointwise)*.  Homotopy categories generally do not admit even small limits and colimits, and moreover the domains of the functors in question are generally large, so such a *construction* of a derived functor is not possible.
 
   However, when derived functors are constructed using fibrant and cofibrant replacements, as above, it turns out *a posteriori* that they are actually pointwise: they are preserved by all representable functors, and hence their individual object values have the universal property of the (generally large) limits that would have been used to compute them, even though not all limits exist in the homotopy category.  In fact, derived functors constructed in this way are actually [[absolute colimit|absolute]] Kan extensions: preserved by any functor whatsoever.
 
+=--
 
+### As functors on $(\infty,1)$-categories 
+  {#OnInftyCats}
 
-### As functors on $(\infty,1)$-categories {#OnInftyCats}
-
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ and $D$ by [[simplicial model category|simplicial model categories]] and let
 
 $$
-  (F \dashv G) : C \stackrel{\overset{G}{\leftarrow}}{\overset{F}{\to}} D
+  (F \dashv G) : C \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}} D
 $$
 
 be an [[sSet]]-[[enriched functor|enriched]] [[Quillen adjunction]]. Then there is an [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
 
 $$
-  (\mathbb{L}F \dashv \mathbb{R}G) : N(C^\circ) \stackrel{\overset{\mathbb{R} G}{\leftarrow}}{\overset{\mathbb{L}F}{\to}} N(D^\circ)
+  (\mathbb{L}F \dashv \mathbb{R}G) : 
+   N(C^\circ) 
+    \stackrel{\overset{\mathbb{R} G}{\leftarrow}}{\underset{\mathbb{L}F}{\to}}  
+    N(D^\circ)
 $$
 
 between [[quasi-categories]] $N(C^\circ)$ and $N(D^\circ)$ otained as the [[homotopy coherent nerve]]s of the full [[sSet]]-[[subcategories]] of fibrant-cofibrant objects. Their image on the [[homotopy category|homotopy categories]] produces the notion of total derived functor between homotopy categories discussed above
 
 $$
-  (L F \dashv R G) : Ho(C) \stackrel{\overset{R G}{\leftarrow}}{\overset{L F}{\to}} Ho(D)
+  (L F \dashv R G) : 
+  Ho(C) 
+   \stackrel{\overset{R G}{\leftarrow}}{\underset{L F}{\to}} 
+  Ho(D)
   \,.
 $$
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is prop. 5.2.4.6 and remark 5.2.4.7 in ([Lurie](#Lurie)).
 
-This is prop. 5.2.4.6 and remark 5.2.4.7 in [[Higher Topos Theory|HTT]].
 
-=--
-
-### In homological algebra {#InHomologicalAlgebra}
+### In homological algebra 
+ {#InHomologicalAlgebra}
 
 Often and traditionally, the concept of derived functors is considered in [[homological algebra]] exclusively in the context of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ in an [[abelian category]] $\mathcal{A}$.
 
@@ -214,7 +244,7 @@ $$
      \,,
    $$
 
-   where $P$ denotes a fibrant resolution functor in the injective [[model structure on chain complexes]].  Applied to an Eilenberg-MacLane object, this amounts to the usual [[injective]] resolutions seen in the homological algebra literature.
+   where $P$ denotes a fibrant resolution functor in the injective [[model structure on chain complexes]].  Applied to an Eilenberg-MacLane object, this amounts to the usual [[injective resolutions]] seen in the homological algebra literature.
 
 1. The last morphism computes the [[cochain cohomology]] of the resulting cochain complex in degree 0.
 
@@ -222,7 +252,7 @@ Of course, it is equivalent to instead regard $A$ as concentrated in degree $0$,
 
 The first and the last steps are traditionally included, but are not really necessary:
 
-1. Instead of applying the first step and restricting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes (and then, if desired, take homology groups). In homological algebra one then speaks of [[hyper-derived functor]]s.
+1. Instead of applying the first step and restricting attention to arguments that are chain complexes concentrated in a single degree, one can evaluate $\mathbb{R} Ch_\bullet(F)$ on all chain complexes (and then, if desired, take homology groups). In homological algebra one then speaks of [[hyper-derived functors]].
 
 1. The last step of taking cohomology groups serves to extract invariant and computable information. It also destroys the simple composition law of functors, though. But there is a computational tool that can be used to recover the derived functor -- in this homological sense -- of the composite of two functors from their individual derivations: this is the [[spectral sequence]] called the  <a href="http://ncatlab.org/nlab/show/spectral+sequence#GrothendieckSpectralSequence">Grothendieck spectral sequence</a>.
 
@@ -257,9 +287,21 @@ This is how derived functors are traditionally introduced in homological algebra
 
 ## Related concepts
 
+* [[hyper-derived functor]], [[total derived functor]]
+
 * [[delta-functor]]
 
+* [[adjoint  (∞,1)-functor]]
+
+* [[homotopy limit]], [[homotopy colimit]], [[homotopy Kan extension]]
+
 ## References
+
+A standard textbook reference on derived funcotrs in [[homological algebra]] is chapter 2 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+More general discussion in [[homotopy theory]] is for instance in 
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
@@ -267,9 +309,10 @@ and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monograph
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
 
-Section 5.2.4 of 
+Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects derived functors]]
 
