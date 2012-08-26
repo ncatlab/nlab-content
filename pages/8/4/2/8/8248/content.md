@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+_Exact couples_ are a tool for constructing [[spectral sequences]].
+
+## Definition
+
+### Exact couples
+
+An **[[exact couple]]** is an [[exact sequence]] of three [[morphisms]] among two [[objects]]
+
+$$ E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to}. $$
+
+
+### Spectral sequences from exact couples
+
+These construct [[spectral sequences]] by a two-step process:
+
+*  first, the composite $d=kj:E\to E$ is nilpotent: $d^2=0$
+*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general nonsense
+$$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
+is again an exact couple.
+
+The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction.
+
++-- {: .num_remark}
+###### Remark
+
+The exact couple recipe for spectral sequences is notable in that it doesn't mention any grading on the objects $D,E$; trivially, an exact couple can be specified by a short exact sequence $\coker \varphi\to E\to \ker\varphi$, although this obscures the focus usually given to $E$.  In applications, a bi-grading is usually induced by the context, which also specifies bidegrees for the initial maps $j,k,\varphi$, leading to the conventions mentioned earlier.
+
+=--
+
+## Examples
+
+Examples of exact couples can be constructed in a number of ways.  Importantly, any short exact sequence involving two distinct chain complexes provides an exact couple among their total homology complexes, via the 
+[[Mayer-Vietoris long exact sequence]]; in particular, applying this procedure to the relative homology of a filtered complex gives precisely the [[spectral sequence of a filtered complex]].  
+
+For another example, choosing a chain complex of flat modules $(C^\dot,d)$, tensoring with the short exact sequence
+$$ \mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/p^2\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z} $$
+gives the exact couple
+
+$$ 
+  H^\bullet(d,\mathbb{Z}/p^2\mathbb{Z})
+    \overset{[\cdot]}{\to} 
+  H^\bullet(d,\mathbb{Z}/p\mathbb{Z})
+   \overset{\beta}{\to}
+  H^\bullet(d,\mathbb{Z}/p\mathbb{Z})
+   \overset{p}{\to}H^\bullet(d,\mathbb{Z}/p^2\mathbb{Z})\cdots
+$$
+
+in which $\beta$ is the _mod-$p$ Bockstein_ homomorphism.
+
+## References
+
+Section 5.9 of
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+
+[[!redirects exact couples]]
