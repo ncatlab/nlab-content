@@ -1,0 +1,62 @@
+
+
+This entry discusses the general notion of _[[derived functor]]_ in the context of [[homological algebra]], hence for functors between [[categories of chain complexes]].
+In the literature this is often understood to be the default case of derived functors. For a discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
+
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The general concept of [[derived functor]] is in homological algebra usualy called the _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first.
+
+### Left derived functor 
+
+(...)
+
+
+### Right derived functor
+
+(...)
+
+
+### Left hyper-derived functor
+
+(...)
+
+
+### Right hyper-derived functor
+
+(...)
+
+
+### Total and hyper-derived functor
+
+(...)
+
+## Examples
+
+(...)
+
+
+## References
+
+A standard textbook reference is chapter 2 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
+
+[[!redirects derived functors in homological algebra]]
+
