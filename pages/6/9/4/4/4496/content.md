@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide .toc}
 ##Context##
 +-- {: .dropDown}
@@ -11,12 +12,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Ordinary [[abelian sheaf cohomology]] is often  considered exclusively with coefficients being [[Eilenberg-MacLane object]]s $\mathbf{B}^n A$ given by [[chain complex]]es concentrated in degree $n$. If more generally any chain complex is allowed as a coefficient object, one speaks for emphasis of **hyper-cohomology**.
+Ordinary [[abelian sheaf cohomology]] is often  considered exclusively with coefficients being [[Eilenberg-MacLane objects]] $\mathbf{B}^n A$ given by [[chain complex]]es concentrated in degree $n$. If more generally any chain complex is allowed as a coefficient object, one speaks for emphasis of **hyper-cohomology**.
 
 If abelian sheaf cohomology is thought of given by the [[derived functor]] of the [[global section]]s functor, then hypercohomology is given by the corresponding [[hyper-derived functor]].
 
@@ -84,3 +85,6 @@ For a bit more on this see also the discussion at [[abelian sheaf cohomology]].
 
 * In the context of algebraic geometry, "de Rham cohomology" refers to the hypercohomology of the [[de Rham complex]] $\Omega^\bullet$. At least for nice varieties, say [[smooth morphism|smooth]] and [[proper morphism|proper]], this "de Rham cohomology" agrees with the classical de Rham cohomology of the [[GAGA|analytification]]. See [this discussion](http://mathoverflow.net/questions/17937/algebraic-de-rham-cohomology-vs-analytic-de-rham-cohomology) on MathOverflow. Note that, in the algebraic category, the cohomology of the constant sheaf $\underline{\mathbb{C}}$ is not the right thing to consider, for constant sheaves on [[irreducible space]]s are [[flasque]], hence [[acyclic]].
 
+## Related concepts
+
+* [[hyper-derived functor]]
