@@ -23,7 +23,7 @@ This entry is about the text
 
   ([pdf](http://www.math.jussieu.fr/~maltsin/ps/bkgmdef.pdf))
 
-on [[derived functor]]s and [[homotopy Kan extension]]s.
+on [[derived functor]]s and [[homotopy Kan extensions]].
 
 
 
