@@ -62,6 +62,7 @@ The [[GNS construction]] shows that every abstract $C^*$-algebra as a concrete $
 
 [[Gelfand duality]] says that every (unital) _commutative_ $C^*$-algebra is that of [[continuous functions]] on some [[compact topological space|compact]] [[topological space]]: there is an [[equivalence of categories]] $C^* Alg_{com} \simeq $ [[Top]]${}_{cpt}$.
 
+
 ### General
  {#General}
 
@@ -100,11 +101,10 @@ sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
 There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative generalization of that of [[Top]]. See for instance ([Uuye 12](#Uuye)).
 
 
-
-
 ## Variants
 
 $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] of the algebra are called _[[C-star-systems]]_ .
+
 
 ## Examples
 
@@ -114,6 +114,7 @@ $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] 
 
 * [[von Neumann algebra]]
 
+
 ## Related concepts
 
 * [[state on an operator algebra]]
@@ -122,8 +123,8 @@ $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] 
 
 * [[AQFT]]
 
-## References
 
+## References
 
 A standard textbook reference is chapter 4 in volume 1 of 
 
@@ -146,19 +147,20 @@ Homotopy theory of $C^*$-algebras (a [[category of fibrant objects]]-structure o
 * Otgonbayar Uuye, _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926v3](http://arxiv.org/abs/1011.2926v3))
  {#Uuye}
 
+
 [[!redirects C-star algebra]]
-[[!redirects C-star-algebra]]
-[[!redirects C* algebra]]
-[[!redirects C*-algebra]]
 [[!redirects C-star algebras]]
+[[!redirects C-star-algebra]]
 [[!redirects C-star-algebras]]
+[[!redirects C* algebra]]
 [[!redirects C* algebras]]
+[[!redirects C*-algebra]]
 [[!redirects C*-algebras]]
 [[!redirects B-star algebra]]
-[[!redirects B-star-algebra]]
-[[!redirects B* algebra]]
-[[!redirects B*-algebra]]
 [[!redirects B-star algebras]]
+[[!redirects B-star-algebra]]
 [[!redirects B-star-algebras]]
+[[!redirects B* algebra]]
 [[!redirects B* algebras]]
+[[!redirects B*-algebra]]
 [[!redirects B*-algebras]]
