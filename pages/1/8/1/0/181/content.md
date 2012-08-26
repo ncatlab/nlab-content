@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Coalgebra
 * table of contents
 {: toc}
@@ -41,11 +52,17 @@ More generally:
 
 ## Examples
 
+### Special cases
+
 * For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R Mod \to R Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associative monoids in $R Mod^{op}$. (See [[Tom Leinster]]'s comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
 
 * $L_\infty$-[[L-infinity-algebra|algebra]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
 
-* See also [[measure coalgebra]].
+### Classes with extra properties and structure
+
+* [[Banach coalgebra]], [[C-star coalgebra]]
+
+* [[measure coalgebra]]
 
 
 ## Differential graded coalgebras
