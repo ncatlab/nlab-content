@@ -1,0 +1,5 @@
+
+
+An [[equivalence class]] under [[homotopy]].
+
+[[!redirects homotopy classes]].
