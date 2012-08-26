@@ -21,6 +21,31 @@
 
 A natural [[tensor product]] of [[chain complexes]] that makes the [[category of chain complexes]] into a [[closed monoidal category]].
 
+## Definition
+
+Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] of [[modules]] over $R$. Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] of $R$-modules. 
+
+
++-- {: .num_defn }
+###### Definition
+
+For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $X \otimes Y \in Ch_\bullet(\mathcal{A})$ for the chain complex whose component in degree $n$ is given by the [[direct sum]]
+
+$$
+  (X \otimes Y)_n := \oplus_{i + j = n} X_i \otimes_R Y_j
+$$
+
+over all tensor products of components whose degrees sum to $n$,
+and whose [[differential]] is given on elements $(x,y)$ of homogeneous degree by
+
+$$
+  d (x, y) = (d_X x, y) + (-1)^{deg(y)} (x, d_Y y)
+  \,.
+$$
+
+=--
+
+
 ## Applications
 
 * A [[monoid]] with respect to the tensor product of chain complexes is a [[differential graded algebra]].
