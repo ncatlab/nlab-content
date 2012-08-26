@@ -15,33 +15,31 @@
 =--
 
 #Contents#
-* automatic table of contents goes here 
+* table of contents
 {:toc}
 
 ## Idea
 
 The concept of _colimit_ is that [[duality|dual]] to a [[limit]]:
 
-a colimit of a [[diagram]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram. 
+a colimit of a [[diagram]] in a [[category]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram. 
 
 The intuitive general idea of a colimit is that it defines an object obtained by sewing together the objects of the diagram, according to the instructions given by the morphisms of the diagram.  
 
 We have
 
-* the notion of _colimit_ generalizes the notion of (direct) _sum_;
+* the notion of _colimit_ generalizes the notion of [[direct sum]];
 
-* the notion of _weighted colimit_ generalizes the notion of _weighted (direct) sum_.
+* the notion of _[[weighted colimit]]_ generalizes the notion of _weighted (direct) sum_.
 
-(There are more remarks on this listed at [[nInsights]]).
-
-Sometimes colimits (or some colimits) are called _inductive limits_ or _direct limits_; see the discussion of terminology at [[limit]].
+Sometimes colimits (or some colimits) are called _[[inductive limits]]_ or _[[direct limits]]_; see the discussion of terminology at [[limit]].
 
 
 ## Definition
 
-A [[colimit]] in a category $C$ is the same as a [[limit]] in the [[opposite category]], $C^{op}$.
+A [[colimit]] in a [[category]] $C$ is the same as a [[limit]] in the [[opposite category]], $C^{op}$.
 
-More precisely, for $F : D^{op} \to C^{op}$ a functor, its [[limit]] $\lim F$ is the colimit of 
+More in detail, for $F : D^{op} \to C^{op}$ a functor, its [[limit]] $\lim F$ is the colimit of 
 $F^{op} : D \to C$.
 
 
@@ -124,5 +122,20 @@ $$
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniqueness of representing objects implies that $R (lim F) \simeq lim (R \circ F)$.
 =--
 
+## Related concepts
+
+* [[filtered colimit]]
+
+  * [[directed colimit]]
+
+    * [[sequential colimit]]
+
+* [[sifted colimit]]
+
+* [[direct sum]]
+
+* [[homotopy colimit]], [[(∞,1)-colimit]]
+
+* [[lax colimit]]
 
 [[!redirects colimits]]
