@@ -10,6 +10,7 @@
 
 category: people
 
-[[!redirects D.C. Isaksen]]
+[[!redirects D. C. Isaksen]]
 [[!redirects Dan Isaksen]]
 [[!redirects Daniel Isaksen]]
+[[!redirects D. Isaksen]]
