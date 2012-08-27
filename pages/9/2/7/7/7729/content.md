@@ -18,7 +18,7 @@ The underlying set $M$ of the structure is referred to as (universal) __domain__
 Interpretation for an $L$-structure inductively defines an interpretation for well-formed formulas in $L$. We say that a sentence $\phi\in L$ is true in $M$ if $\phi^M$ is true. Given a [[theory]] $(L,T)$, which is a language $L$ 
 together with a given set $T$ of sentences in $L$, the interpretation in a structure $M$ makes those sentences true or false; if all the sentences in $T$ are true in $M$ we say that $M$ is a [[model]] of $(L,T)$. 
 
-In [[model theory]], given a language $L$, a structure for $L$ is the same as a [[model]] of $L$ as a [[theory]] with an empty set of axioms. Convervsely, a _model_ of a theory is a _structure_ of its underlying language that satisfies the axioms demanded by that theory.
+In [[model theory]], given a language $L$, a structure for $L$ is the same as a [[model]] of $L$ as a [[theory]] with an empty set of axioms. Conversely, a _model_ of a theory is a _structure_ of its underlying language that satisfies the axioms demanded by that theory.
 
 There is a generalization of structure for languages/theories with multiple domains or sorts, called multi-sorted languages/theories. 
 
