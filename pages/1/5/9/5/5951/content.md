@@ -17,13 +17,18 @@ This page is about a series of three lectures
 
   Como (Italy), January 10, 2008
 
-  [website](http://dscpi.uninsubria.it/staff/Walters/Como_Category_Seminar/Meeting_in_honour_of_Bill_Lawvere)
+on [[cohesive toposes]]. 
+
+Available material includes:
+
+* [website](http://dscpi.uninsubria.it/staff/Walters/Como_Category_Seminar/Meeting_in_honour_of_Bill_Lawvere)
 
   [video recording](http://dscpi.uninsubria.it/staff/Walters/Como_Category_Seminar/Meeting_in_honour_of_Bill_Lawvere/Records_of_the_Meeting.html) of the first few minutes of the first lecture
 
-on [[cohesive topos]]es. 
+  [pdf notes](http://comocategoryarchive.com/People/Lawvere/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf), made available on [[Bob Walters]]'s _[Como Category Theory Archive](http://comocategoryarchive.com/)_.
 
-> (This might be the first public occurence of the precise term "cohesive topos". In the 2007 article _[Axiomatic cohesion](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html)_ it still said "category of cohesion" and in a series of articles preceding that one, other terms are used. In fact, at the same place but 18 years earlier, at the [[Como|Como conference on Category Theory]], Lawvere used the term "category of Being", instead, in his [[Some Thoughts on the Future of Category Theory]].)
+
+(This might be the first public occurence of the precise term "cohesive topos". In the 2007 article _[Axiomatic cohesion](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html)_ it still said "category of cohesion" and in a series of articles preceding that one (see [cohesive topos - References](cohesive%20topos#References)), other terms are used. In fact, at the same place but 18 years earlier, at the _[[Como|Como conference on Category Theory]]_, Lawvere used the term "category of Being", instead, in his _[[Some Thoughts on the Future of Category Theory]]_.)
 
 category: reference
 
