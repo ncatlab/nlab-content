@@ -101,5 +101,5 @@ An exposition of this is in
 
 A purely [[category theory|category-theoretic proof]] is in section 2 of 
 
-* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/))
+* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
 
