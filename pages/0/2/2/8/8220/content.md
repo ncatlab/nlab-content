@@ -21,7 +21,9 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[standard model of cosmology]]
 
-* [[cosmological constant]]
+* [[cosmological constant]],
+
+* [[cosmic inflation]]
 
 ## References
 
