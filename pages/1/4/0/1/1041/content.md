@@ -22,7 +22,7 @@
 {:toc}
 
 
-##Idea#
+##Idea
 
 The notion of _abelian category_ is an abstraction of basic properties of the category [[Ab]] of [[abelian groups]], more generally of the category $R$[[Mod]] of [[modules]] over some [[ring]], and still more generally of categories of [[sheaves]] of abelian groups and of modules. It is such that much of the [[homological algebra]] of [[chain complexes]] can be developed inside every abelian category.
 
@@ -30,9 +30,25 @@ The concept of abelian categories is one in a sequence of notions of [[additive 
 
 While additive categories differ significantly from [[toposes]], there is an intimate relation between abelian categories and toposes. See _[[AT category]]_ for more on that.
 
-##Definition#
+##Definition
 
-+-- {: .num_defn}
+Recall the following fact about [[pre-abelian categories]] from , [this proposition](pre-abelian+category#DecompositionOfMorphisms), discussed there:
+
++-- {: .num_prop #DecompositionOfMorphisms}
+###### Proposition
+
+Every [[morphism]] $f:A\to B$ in a [[pre-abelian category]] has a canonical decomposition
+
+$$
+  A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
+$$
+
+where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kernel]], and hence [[monomorphism|monic]].
+
+=--
+
+
++-- {: .num_defn #AbelianCategory}
 ###### Definition
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
@@ -59,21 +75,66 @@ The converse can be found in, among other places, Chapter VIII of ([MacLane](#Ma
 
 =--
 
+
 ## Properties
 
 ### General
+ {#PropertiesGeneral}
 
-* The notion of abelian category is self-dual: [[opposite category|opposite]] of any abelian category is abelian. 
++-- {: .num_remark}
+###### Remark
 
-* In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]].  Some references claim that this property characterizes abelian categories among pre-abelian ones, but it is not clear to the authors of this page why this should be so, although we do not currently have a counterexample; see [this discussion](http://nforum.mathforge.org/discussion/4094/?Focus=33415#Comment_33415).
+The notion of abelian category is self-dual: [[opposite category|opposite]] of any abelian category is abelian. 
 
-* Again since every monic is regular, every abelian category is [[balanced category|balanced]].
+=--
 
-* The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.  (A similar statement is true for [[additive categories]], although the most natural result in that case gives only enrichment over abelian [[monoids]]; see [[semiadditive category]].)
++-- {: .num_remark #RegularEpisAndMonos}
+###### Remark
 
-* The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=5) of [[Jacob Lurie]]'s [[Stable Infinity-Categories]].
+By the second formulation of the definition \ref{AbelianCategory},  in an abelian category
 
-* The exactness properties of abelian categories have many features in common with exactness properties of [[topos|toposes]] or of [[pretopos|pretoposes]]. In a fascinating post to the categories mailing list, Peter Freyd gave a sharp description of the properties shared by these categories, introducing a new concept called [[AT categories]] (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
+* every [[monomorphism]] is a [[regular monomorphism]];
+
+* every [[epimorphism]] is a [[regular epimorphism]].
+
+It follows that every abelian category is a _[[balanced category]]_.
+
+
+=--
+
+
+
+
+### Factorization of morphisms
+ {#FactorizationOfMorphisms}
+
++-- {: .num_prop}
+###### Proposition
+
+In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via prop \ref{DecompositionOfMorphisms} combined with def. \ref{AbelianCategory}.  
+
+Since by remark \ref{RegularEpisAndMonos} every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]] in an abelian category.  
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Some references claim that this property characterizes abelian categories among pre-abelian ones, but it is not clear to the authors of this page why this should be so, although we do not currently have a counterexample; see [this discussion](http://nforum.mathforge.org/discussion/4094/?Focus=33415#Comment_33415).
+
+=--
+
+### Canonical $Ab$-enrichment
+ {#CanonicalAbEnrichment}
+
+The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.  (A similar statement is true for [[additive categories]], although the most natural result in that case gives only enrichment over abelian [[monoids]]; see [[semiadditive category]].)
+
+The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=5) of [[Jacob Lurie]]'s [[Stable Infinity-Categories]].
+
+### Relation to exactness properties of toposes
+ {#RelationToToposes}
+
+The [[exactness properties]] of abelian categories have many features in common with exactness properties of [[toposes]] or of [[pretoposes]]. In a fascinating post to the categories mailing list, [[Peter Freyd]] gave a sharp description of the properties shared by these categories, introducing a new concept called _[[AT categories]]_ (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
 
 ### Embedding theorems
 
