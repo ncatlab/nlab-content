@@ -1,0 +1,10 @@
+
+* [webpage](http://web.mit.edu/physics/people/faculty/guth_alan.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alan_Guth)
+
+## Related entries
+
+* [[cosmic inflation]]
+
+category: people
