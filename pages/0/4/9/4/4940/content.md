@@ -31,6 +31,9 @@ In a [[manifold with boundary]] of [[dimension]] $d$ the boundary is the collect
 
 * [[boundary of a simplex]]
 
+[[!include chains and cochains - table]]
+
+
 [[!redirects boundary]]
 [[!redirects boundaries]]
 
