@@ -17,8 +17,9 @@
 
 The **five lemma** is one of the basic lemmas of [[homological algebra]], useful for example in the construction of the [[connecting homomorphism]] in the  [[homology long exact sequence]]. 
 
+## Statement
 
-## Five lemma
+### Ordinary five lemma
 
 Consider a [[commutative diagram]] in a fixed [[abelian category]] of the form 
 
@@ -66,7 +67,7 @@ One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works
 =--
 
 
-## Short split five lemma
+### Short split five lemma
 
 A special case of the five lemma is the _short five lemma_ where the objects $A_1,B_1,A_5,B_5$ above are all [[zero objects]]. It may hold in more general setups, sometimes with additional assumptions. 
 
@@ -92,6 +93,8 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 
 * [[connecting homomorphism]]
 
+* [[salamander lemma]]
+
 * [[3x3 lemma]], [[snake lemma]]
 
 * [[horseshoe lemma]]
@@ -99,9 +102,16 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 
 ## References
 
-The 5-lemma appears for instance as exercise 1.3.3 in 
+An early appearance of the 5-lemma is lemma (5.9) in
+
+* D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
+
+In
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
+
+is is exercise 1.3.3.
+
 
 The short 5-lemma also appears in various topological algebra contexts; see for example 
 
