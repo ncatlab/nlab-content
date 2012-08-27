@@ -1,4 +1,7 @@
-Given a first-order language $L$, which consists of symbols (variable symbols, constant symbols, function symbols and relation symbols including $\epsilon$) and quantifiers; a __structure__ for $L$, or $L$-structure is a set $M$ with an __interpretation__ for symbols: 
+
+## Idea
+
+Given a [[first-order language]] $L$, which consists of symbols ([[variable|variable symbols]], constant symbols, [[function symbols]] and relation symbols including $\epsilon$) and [[quantifiers]]; a __structure__ for $L$, or $L$-structure is a [[set]] $M$ with an __interpretation__ for symbols: 
 
 * if $R\in L$ is an $n$-ary relation symbol, then its interpretation $R^M\subset M^n$
 
@@ -11,8 +14,9 @@ The underlying set $M$ of the structure is referred to as (universal) __domain__
 Interpretation for an $L$-structure inductively defines an interpretation for well-formed formulas in $L$. We say that a sentence $\phi\in L$ is true in $M$ if $\phi^M$ is true. Given a [[theory]] $(L,T)$, which is a language $L$ 
 together with a given set $T$ of sentences in $L$, the interpretation in a structure $M$ makes those sentences true or false; if all the sentences in $T$ are true in $M$ we say that $M$ is a [[model]] of $(L,T)$. 
 
-In [[model theory]], given a language $L$, the structure for $L$ is the same as [[model]] of $L$ as a [[theory]] with an empty set of axioms. 
+In [[model theory]], given a language $L$, a structure for $L$ is the same as a [[model]] of $L$ as a [[theory]] with an empty set of axioms. 
 
 There is a generalization of structure for languages/theories with multiple domains, called multi-sorted languages/theories.
+
 
 [[!redirects structures in model theory]]
