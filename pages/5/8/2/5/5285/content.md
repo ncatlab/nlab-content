@@ -19,21 +19,78 @@
 
 ## Idea
 
-The ordinary [[homology]] of a [[topological space]] expressed in terms of the [[chain on a simplicial set|chains on]] its [[singular simplicial complex]].
+The _singular homology_ of a [[topological space]] $X$ is its ordinary [[homology]] expressed in terms of the [[chain on a simplicial set|chains on]] its [[singular simplicial complex]]:
+
+a **singular $n$-[[chain]]** in the singular homology of $X$ is a formal linear combination of [[continuous maps]] $\Delta^n \to X$ (an element in the [[free abelian group]] spanned by these maps) from the topological $n$-simplex, and an $n$-[[cycle]] in the singular homology is such a chain such that its oriented [[boundary]] vanishes. Two singular chains are **homologous** if they differ by a boudary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo modulo those that are boundaries.
 
 ## Definition
 
++-- {: .num_defn }
+###### Definition
+
 For $X$ a [[topological space]], $Sing X \in $ [[sSet]] its [[singular simplicial complex]] write $\mathbb{Z}[Sing X] \in Ab^{\Delta^{op}}$ for the [[free functor|free]] abelian [[simplicial group]] on $X$. 
 
-Its [[Moore complex]] $N_\bullet(\mathbb{Z}[Sing X]) \in Ch_\bullet^+$ is the **singular complex** of $X$. Its chain [[homology]] is the **singular homology** of $X$.
+Its [[Moore complex]] $N_\bullet(\mathbb{Z}[Sing X]) \in Ch_\bullet^+$ is the **singular complex** of $X$. Its chain [[homology]] is the ordinary **singular homology** of $X$.
+
+=--
+
+One usually write $H_n(X, \mathbb{Z})$ or just $H_n(X)$ for the singular homology of $X$ in degree $n$.
+
+More generally, for $R$ any unital [[ring]] one can form the degreewise [[free module]] $R[Sing X]$ over $R$. The corresponding homology is the _singular homology with coefficients in $R$, denoted $H_n(X,R)$.
+
+Singular homologogy extends to a [[functor]]
+
+$$
+  H_n(-,R) : Top \to Ab
+$$
+
+from the category [[Top]] of topological spaces to the category [[Ab]] of [[abelian groups]]. 
 
 ## Properties
+
+### Homotopy invariance
+
+Singular homology is _homotopy invariant_:
+
++-- {: .num_prop }
+###### Proposition
+
+If $f : X \to Y$ is a [[continuous map]] between [[topological spaces]] which is a [[homotopy equivalence]], then the induced morphism on singular homology groups
+
+$$
+  H_n(f) : H_n(X) \to H_n(Y)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+
+### Relation to generalized homology
+
+Singular homology computes the [[generalized homology]] with coefficients in the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}$ or $H R$.
+
+## Related concepts
 
 The [[duality|dual]] notion is that of _[[singular cohomology]]_.
 
 ## References
 
-Basics are around Application 1.1.4 of 
+Lecture notes include
+
+* Rob Thompson, Len Evens , _[Topology notes](http://math.hunter.cuny.edu/~rthompso/topology_notes/)_ _Chapter 6, Singular homology_ ([pdf](http://math.hunter.cuny.edu/~rthompso/topology_notes/chapter%20six.pdf))
+
+Textbook discussion in the context of [[homological algebra]] is around Application 1.1.4 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+and in the context of [[algebraic topology]] in chapter 2.1 of 
+
+* [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+See also 
+
+* Wikipedia, _[Singular homology](http://en.wikipedia.org/wiki/Singular_homology)_
+
+[[!redirects singular chain]] 
+[[!redirects singular chains]] 
