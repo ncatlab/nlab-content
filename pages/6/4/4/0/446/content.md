@@ -1,18 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea ##
 
-An _allegory_ is a category with properties meant to reflect the properties one expects of a category of [[Rel|relations]]. The notion was first introduced (as far as we know) in the book [[Categories, Allegories]] by [[Peter Freyd|Freyd]] and Scedrov. 
+In [[category theory]], an _allegory_ is a [[category]] with properties meant to reflect the properties one expects of a category [[Rel]] of [[relations]]. The notion was first introduced (as far as we know) in the book _[[Categories, Allegories]]_ ([Freyd-Scedrov](#FreydScedrov)).
 
 ## Definition
 
 An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the identity on objects, such that
 
-* each hom-poset $A(x,y)$ has binary [[intersections]], and
-* the *modular law* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
+* each [[hom-object|hom-poset]] $A(x,y)$ has binary [[intersections]], and
+* the *[[modular lattice|modular law]]* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
 
 ## Examples 
 
@@ -79,7 +91,7 @@ which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \n
 The bicategory of relations in a [[topos]] is a power allegory; conversely, the category of maps in a unitary tabular power allegory is a topos. 
 
 
-## See also
+## Related entries
 
 Other attempted axiomatizations of the same idea "something that acts like the category of relations in a regular category" include:
 
@@ -87,15 +99,31 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 * [[1-category equipped with relations]]
 
+Discussion of the relation between pretabular unitary allegories and bicategories of relations, and also between tabular unitary allegories and regular categories is in 
+
+* [[toddtrimble:Theory of units and tabulations in allegories]]
+
 ## References
 
-* [[Categories, Allegories]]
+The standard monograph is 
 
-* The [[Elephant]], chapter A3.
+* [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
+ {#FreydScedrov}
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Allegory_%28category_theory%29).
+The notion is discussed also in chapter A3 of
 
-* [blog post](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) showing that any bicategory of relations is an [[allegory]].
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+In
+
+* [[Bob Walters]], _Categorical algebras of relations_ ([blog post](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) )
+
+it is shown that any [[bicategory of relations]] is an allegory.
+
+See also
+
+* Wikipedia, _[Allegory](http://en.wikipedia.org/wiki/Allegory_%28category_theory%29)_
+
 
 [[!redirects tabular allegory]]
 [[!redirects union allegory]]
