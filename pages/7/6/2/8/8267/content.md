@@ -21,43 +21,98 @@ The _salamander lemma_ is a fundamental lemma in [[homological algebra]]. Other 
 
 The salamander lemma can remedy this situation.
 
-## Statement
+## The Salamander lemma
 
+
+### Preliminaries
+
+The Salamander lemma will be a statement about the exactness of a sequence naturally associated with any morphism in a double complex. Here we first introduce that sequence itself.
 
 +-- {: .num_defn}
 ###### Definition
 
-For $X_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] and $A = X_{k l}$ an [[object]], being the source and target of the following [[morphisms]] of the double complex
+For $X_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] and $A = X_{k l}$ any [[object]] in the double complex (at some position $k,l$, which does not matter in the following), this is the source and target of [[morphisms]] to be denoted as follows:
 
 $$
   \array{
-     \searrow^{\mathrlap{\partial_{diag}^{in}}} 
-     & \downarrow^{\mathrlap{\partial_{vert}^{in}}}
+     \searrow^{\mathrlap{\partial_{in}^{diag}}} 
+     & \downarrow^{\mathrlap{\partial_{in}^{vert}}}
      \\
-     \stackrel{\partial_{hor}^{in}}{\to} & A &
-     \stackrel{\partial_{hor}^{out}}{\to} 
+     \stackrel{\partial_{in}^{hor}}{\to} & A &
+     \stackrel{\partial_{out}^{hor}}{\to} 
      \\
-     & \downarrow^{\mathrlap{\partial_{vert}^{out}}}
+     & \downarrow^{\mathrlap{\partial_{out}^{vert}}}
      &
-     \searrow^{\mathrlap{\partial_{diag}^{out}}}
+     \searrow^{\mathrlap{\partial_{out}^{diag}}}
   }
+  \,.
 $$
 
-define
+Define
 
-* $X_{hor} \coloneqq ker (\partial_{hor}^{out}) / im (\partial_{hor}^{in})$ -- the horizontal [[chain homology]] at $X$;
+* $X^{hor} \coloneqq ker (\partial^{hor}_{out}) / im (\partial^{hor}_{in})$ -- the horizontal [[chain homology]] at $X$;
 
-* $X_{vert} \coloneqq ker (\partial_{vert}^{out}) / im (\partial_{vert}^{in})$ -- the vertical [[chain homology]] at $X$;
+* $X^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in})$ -- the vertical [[chain homology]] at $X$;
 
-* ${}^{\Box}X \coloneqq \frac{ker (\partial_{hor}^{out}) \cap ker(\partial_{vert}^{out})}{im(\partial_{diag}^{in})}$ -- the "receptor" at $X$;
+* ${}^{\Box}X \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})}$ -- the "receptor" at $X$;
 
-* $X_{\Box}\coloneqq \frac{ker (\partial_{diag}^{out}) }{ im(\partial_{hor}^{in}) \oplus im(\partial_{vert}^{in})}$ -- the "donor".
+* $X_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor".
 
 =--
 
++-- {: .num_lemma #Intramural}
+###### Lemma
+
+The [[identity]] morphism on $X$ as above induces a [[commuting diagram]]
+
+$$
+  \array{
+    && {}^\Box X
+    \\
+    & \swarrow && \searrow
+    \\
+    X^{vert} &&&& X^{hor}
+    \\
+    & \searrow && \swarrow
+    \\
+    && X_\Box
+    \,,
+  }
+$$
+
+whose morphisms are to be called the **intramural maps** of $X$.
+
+=--
+
++-- {: .num_lemma #Extramural}
+###### Lemma
+
+For $f : X \to Y$ any horizontal morphism in the double complex, there is a canonically induced morphism
+
+$$
+  X_\Box \to {}^\Box Y
+$$
+
+to be called the **extramural map associated with $f$**. 
+
+=--
 
 +-- {: .num_lemma}
 ###### Lemma
+
+For $f : X \to Y$ any horizontal morphism in the double complex, the canonically induced morphism $X^{vert} \to Y^{vert}$ on vertical homology is the composite of the above intramural and extramural maps:
+
+$$
+  X^{vert} \to X_{\Box} \to {}^\Box Y \to Y^{vert}
+  \,.
+$$
+
+=--
+
+### Statement 
+
++-- {: .num_prop #SalamanderLemma}
+###### Proposition
 **(Salamander lemma)**
 
 If a [[diagram]]
@@ -76,12 +131,44 @@ $$
   }
 $$
 
-is part of a [[double complex]] in an [[abelian category]], then there is a [[long exact sequence]] of the form
+is part of a [[double complex]] in an [[abelian category]], then there is a 6-term [[long exact sequence]] running horizontally in
 
 $$
-  C_\box \to A_{hor} \to A_{\Box} \to {}^{\Box} B \to B_{hor} \to {}^{\Box}D 
-  \,.
+  \array{
+    && && && && && && Y_{\Box}
+    \\
+    && && && && && & \nearrow && \searrow
+    \\
+    C_\box &&\to&& A^{hor} &\to& A_{\Box} &\to& {}^{\Box} B &\to& B^{hor} 
+   &&\to&& {}^{\Box}D 
+   \\
+   & \searrow && \nearrow
+   \\
+   && 
+   {}^\Box X
+  }
+  \,,
 $$
+
+where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural}.
+
+
+=--
+
+This is ([BErgman, lemma 1.7](#Bergman)).
+
+We record some immediate consequences
+
++-- {: .num_cor}
+###### Corollary
+
+If the row of the double complex is exact at $A$ and $B$, hence if $A^{hor} = 0$ and $B^{hor} = $, then the extramural map
+
+$$
+  A_{\Box} \to {}^\Box B
+$$ 
+
+is an [[isomorphism]].
 
 =--
 
