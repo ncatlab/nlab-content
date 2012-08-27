@@ -18,34 +18,54 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ##Idea#
 
-An abelian category is a natural abstraction and slight generalization of the category of abelian groups. It includes $R Mod$ where $R$ is a ring and the category of sheaves of abelian groups as the other principal motivating examples. In abelian categories, like in categories of modules over rings much of linear algebra and [[homological algebra]] makes sense.  Abelian category is one concept in a sequence of [[additive and abelian categories]].  
+The notion of _abelian category_ is an abstraction of basic properties of the category [[Ab]] of [[abelian groups]], more generally of the category $R$[[Mod]] of [[modules]] over some [[ring]], and still more generally of categories of [[sheaves]] of abelian groups and of modules. It is such that much of the [[homological algebra]] of [[chain complexes]] can be developed inside every abelian category.
 
-While significantly different from [[topos]]es, there is an intimate relation between abelian categories and toposes. See [[AT category]] for more on that.
+The concept of abelian categories is one in a sequence of notions of [[additive and abelian categories]].  
+
+While additive categories differ significantly from [[toposes]], there is an intimate relation between abelian categories and toposes. See _[[AT category]]_ for more on that.
 
 ##Definition#
+
++-- {: .num_defn}
+###### Definition
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
 1. For every [[morphism]] $f$, the canonical morphism $\bar{f} : coker(ker(f)) \to ker(coker(f))$ (described at [[pre-abelian category]]) is an [[isomorphism]].
 
-1. Every [[monomorphism|monic]] is a [[kernel]] and every [[epimorphism|epic]] is a [[cokernel]].
+1. Every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
 
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+These two conditions are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first condition implies that if $f$ is a [[monomorphism]] then $f\cong \ker(\coker(f))$ so $f$ is a kernel. Dually if $f$ is an [[epimorphism]] it follows that $f \conq coker(ker(f))$. So (1) implies (2).
+
+The converse can be found in, among other places, Chapter VIII of ([MacLane](#MacLane)).
+
+=--
 
 ## Properties
 
 ### General
 
-* The two conditions are equivalent as follows. Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
-
 * The notion of abelian category is self-dual: [[opposite category|opposite]] of any abelian category is abelian. 
 
-* In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that (epi, mono) is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
+* In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
 
 * The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.  (A similar statement is true for [[additive categories]], although the most natural result in that case gives only enrichment over abelian [[monoids]]; see [[semiadditive category]].)
 
@@ -71,7 +91,7 @@ Every small abelian category admits a [[full functor|full]], [[faithful functor|
 This result can be found as Theorem 7.34 on page 150 of Peter Freyd's book [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3.pdf#page=176).  His terminology is a bit outdated, in that he calls an abelian category "fully abelian" if admits a full and faithful exact functor to a category of $R$-modules.  See also the [Wikipedia article](http://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem) for the idea of the proof.
 =--
 
-See also [[Freyd-Mitchell embedding theorem]].
+For more see at _[[Freyd-Mitchell embedding theorem]]_.
 
 We can also characterize which abelian categories _are_ equivalent to a category of $R$-modules:
 
@@ -141,7 +161,9 @@ See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/
 
 * N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 
+Textbook discussion is also in chapter VIII of
 
+* [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
 A discussion about to which extent abelian categories are a general context for [[homological algebra]] is archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2052&Focus=17680#Comment_17680).
 
