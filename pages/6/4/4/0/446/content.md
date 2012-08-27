@@ -46,8 +46,7 @@ A locally regular category has finite products if and only if its tabular allego
 
 Finally, a **unit** in an allegory is an object $U$ such that $1_U$ is the greatest morphism $U\to U$, and every object $X$ admits a morphism $\phi\colon X\to U$ such that $1_X\le \phi^o\phi$.  A locally regular category has a terminal object (hence is regular) if and only if its tabular allegory of relations has a unit.
 
-Thus, regular categories are equivalent to unital (or unitary) tabular allegories.
-
+Thus, regular categories are equivalent to unital (or unitary) tabular allegories.  For more details, see [[Categories, Allegories]], the [[Elephant]], or [[toddtrimble:Theory of units and tabulations in allegories]].
 
 
 ## Division allegories and power allegories 
