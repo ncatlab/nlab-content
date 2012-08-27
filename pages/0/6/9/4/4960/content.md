@@ -1333,7 +1333,7 @@ The precise term _cohesive topos_ apparently first appeared publically in the le
 
 * [[Bill Lawvere]], _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ Como (2008)
 
-(with first remarks on [[cohesive topos|cohesion]])
+Notes for these lectures are in [this pdf](http://comocategoryarchive.com/People/Lawvere/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf), made available on [[Bob Walters]]'s _[Como Category Theory Archive](http://comocategoryarchive.com/)_.
 
 The notion of "cohesion" was explored earlier in
 
