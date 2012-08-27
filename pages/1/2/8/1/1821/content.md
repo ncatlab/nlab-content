@@ -30,7 +30,7 @@ Chain homology and cochain cohomology constitute the basic invariants of (co)cha
 
 ## Definition
 
-Let $\mathcal{A}$ be an [[abelian category]] such as that of $R$-[[modules]] over a [[commutative ring]] $R$. For $R = \mathb{Z}$ the [[integers]] this is the category [[Ab]] of [[abelian groups]]. For $R = k$ a [[field]], this is the category [[Vect]] of [[vector spaces]] over $k$.
+Let $\mathcal{A}$ be an [[abelian category]] such as that of $R$-[[modules]] over a [[commutative ring]] $R$. For $R = \mathbb{Z}$ the [[integers]] this is the category [[Ab]] of [[abelian groups]]. For $R = k$ a [[field]], this is the category [[Vect]] of [[vector spaces]] over $k$.
 
 Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mathcal{A}$. Write $Ch^\bullet(\mathcal{A})$ for the [[category of cochain complexes]] in $\mathcal{A}$. 
 
