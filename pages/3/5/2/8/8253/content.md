@@ -1,5 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 An [[equivalence class]] under [[homotopy]].
 
-[[!redirects homotopy classes]].
+## Related concepts
+
+* [[cohomology]]
+
+[[!redirects homotopy classes]]
