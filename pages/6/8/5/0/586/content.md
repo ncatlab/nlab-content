@@ -175,3 +175,5 @@ See also
 
 [[!redirects Kuratowski finite object]]
 [[!redirects Kuratowski finite objects]]
+
+[[!redirects Kuratowski finiteness]]
