@@ -16,6 +16,7 @@ Very abstractly, we may define a __structured set__ as an [[object]] of any [[co
 
 
 ### Concrete
+{#Concrete}
 
 More concretely, we may define a __type of structure on sets__ as an operation $T$ that, to any set $A$, assigns a set $T(A)$ of __$T$-structures__ on $A$.  At minimum, we should have $T(A) \cong T(B)$ whenever $A \cong B$ (where $\cong$ is [[isomorphism]] in $Set$), so that the concept is [[structural set theory|structural]].  But for good behaviour, we actually want something more coherent; we want an additional operation that, to any [[bijection]] $f\colon A \to B$, assigns a bijection $T(f)\colon T(A) \to T(B)$, such that:
 
