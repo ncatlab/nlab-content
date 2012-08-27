@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Niels_Henrik_Abel)
+
+## Related entries
+
+* [[abelian group]]
+
+category: people
