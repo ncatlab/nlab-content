@@ -139,7 +139,13 @@ For more see [[generalized homology]].
 
 ## Related concepts
 
+The relation between homology, cohomology and homotopy:
+
 [[!include homotopy-homology-cohomology]]
+
+The ingredients of homology and cohomology:
+
+[[!include chains and cochains - table]]
 
 
 * [[generalized homology]]
