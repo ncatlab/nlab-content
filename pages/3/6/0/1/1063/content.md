@@ -64,7 +64,7 @@ In particular, $f:b\to c$ is a [[kernel]] iff $f = ker(coker(f))$ and dually.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #DecompositionOfMorphisms}
 ###### Proposition
 
 Every [[morphism]] $f:A\to B$ in a pre-abelian category has a canonical decomposition
@@ -73,7 +73,7 @@ $$
   A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
 $$
 
-where $p$ is a cokernel, hence [[epimorphism|epi]], and $i$ is a kernel, and hence [[monomorphism|monic]].
+where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kernel]], and hence [[monomorphism|monic]].
 
 =--
 
