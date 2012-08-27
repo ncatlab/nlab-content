@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -30,3 +40,5 @@ This is the _free abelian group functor_.
 
 [[!redirects formal linear combination]]
 [[!redirects formal linear combinations]]
+
+[[!redirects free abelian groups]]
