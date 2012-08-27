@@ -41,3 +41,8 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 [[!redirects first-order logic]]
 [[!redirects 1st order logic]]
 [[!redirects first order logic]]
+
+[[!redirects first-order language]]
+[[!redirects first order language]]
+[[!redirects first-order languages]]
+[[!redirects first order languages]]
