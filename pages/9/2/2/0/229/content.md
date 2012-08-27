@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-An _abelian group_ is a [[group]] $A$ where the multiplication satisfies the commutative law: for all elements $x, y\in A$ we have
+An _abelian group_ (named after [[Nils Abel]]) is a [[group]] $A$ where the multiplication satisfies the commutative law: for all elements $x, y\in A$ we have
 
 $$
   x y = y x
@@ -14,8 +25,9 @@ $$
 
 The [[category]] with abelian groups as [[object|objects]] and group homomorphisms as [[morphism|morphisms]] is called [[Ab]]. 
 
+## Properties
 
-## From the $n$POV
+### In homtopy theory
 
 From the [[nPOV]], just as a [[group]] $G$ may be thought of as a ([[pointed object|pointed]]) [[groupoid]] $\mathbf{B}G$ with a single object -- as discussed at [[delooping]] -- an abelian group $A$ may be understood as a (pointed) [[2-groupoid]] $\mathbf{B}^2 A$ with a single object and a single morphism: the delooping of the delooping of $A$.
 
@@ -40,7 +52,7 @@ The [[exchange law]] for the composition of [[2-morphisms]] in a [[2-category]] 
 
 So the identitfication of abelian groups with one-object, one-morphism 2-groupoids may also be thought of as an identification with 2-[[truncated]] and 2-[[connected]] [[homotopy types]].
 
-## Relation to other concepts
+### Relation to other concepts
 
 A [[monoid]] in [[Ab]] with its standard [[monoidal category]] structure, equivalently a ([[pointed object|pointed]]) [[Ab]]-[[enriched category]] with a single object, is a [[ring]].
 
@@ -53,6 +65,17 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 * notably abelian [[simplicial groups]]
 
 * and [[spectrum|spectra]].
+
+## Related entries
+
+* [[free abelian group]]
+
+* [[module]], [[ring]]
+
+* [[Ab]]
+
+* [[Ab-enriched category]], [[abelian category]]
+
 
 
 [[!redirects abelian groups]]
