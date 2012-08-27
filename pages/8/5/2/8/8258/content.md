@@ -3,6 +3,8 @@
 
 * [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html)
 
+* [Como Category Theory Archive](http://comocategoryarchive.com/)
+
 ## Related entries: 
 
 * [[allegory]]
