@@ -6,11 +6,15 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -20,7 +24,10 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 
 ## Definition
 
-A __concrete category__ is a category $C$
++-- {: .num_defn}
+###### Definition
+
+A __concrete category__ is a [[category]] $C$
 
 * equipped with a [[faithful functor]]
   
@@ -30,14 +37,25 @@ A __concrete category__ is a category $C$
 
   to the category [[Set]];
 
-* such that $U$ is [[representable functor|representable]] by some object $c_0 \in C$, in that $U \simeq C(c_0,-)$
+* such that $U$ is [[representable functor|representable]] by some [[object]] $c_0 \in C$, in that $U \simeq C(c_0,-)$
+
+=--
 
 The object $c_0$ is called a [[generator]] of the category.
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
-Often the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
+
+Often the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunctions]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) categories concrete over $X$ form a [[2-category]] $Cat(X)$.
+
 =--
 
 
@@ -53,27 +71,32 @@ This abstract nonsense indicates the usual collection of examples of concrete ca
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]].
 
+## Properties
 
-## Characterization
+### Characterization
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
+
 A [[finitely complete category]] is concrete, in the sense that it admits a [[faithful functor]] to [[Set]], if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
 
 =--
+
 +-- {: .proof}
 ###### Proof
+
 "Only if" was proven in ([Isbell](#Isbell)).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
 
 (Actually, Isbell proved a more general condition which applies to categories that may lack finite limits.)
 
 "If" was proven in ([Freyd](#Freyd)).  The argument is rather more involved, passing through [[additive categories]], and is not reproduced here.
+
 =--
 
+## Related concepts
 
-## Generalisations
+* [[concrete object]]
 
-One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) concrete categories over $X$ form a [[2-category]] $Cat(X)$.
 
 
 ## References
