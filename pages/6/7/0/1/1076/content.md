@@ -224,7 +224,9 @@ $$
 
 
 * [[derived category]], [[suspended category]], [[n-angulated category]]
-* [[Bousfield lattice]], [[thick subcategory]], [[additive category]], [[well-generated triangulated category]]
+* [[Bousfield lattice]], [[thick subcategory]], [[additive category]], 
+
+* [[well-generated triangulated category]], [[compactly generated triangulated category]]
 
 
 
