@@ -24,8 +24,8 @@ The set of topogenous relations on $X$, ordered by containment, is a [[complete 
 
 * Its least element is the *discrete topogenous relation*, defined by $A\;\delta\;B$ if and only if $A\cap B$ is inhabited.
 * Its greatest element is the *codiscrete topogenous relation*, defined by $A\;\delta\;B$ if and only if both $A$ and $B$ are inhabited.
-* The union of any inhabited set of topogenous relations is topogenous, hence is a [[join]].
-* The [[meet]] of a set $\mathcal{D}$ of topogenous relations is not their set-theoretic intersection, but it can be described explicitly: we have $A \;(\bigwedge\mathcal{D})\;B$ if and only if whenever $A = \bigcup_{i=1}^n A_i$ and $B = \bigcup_{j=1}^m B_j$, there exist $i$ and $j$ such that $A_i \;\delta\; B_j$ for all $\delta\in\mathcal{D}$.
+* The union of any inhabited set of topogenous relations is topogenous, hence is a [[join]].  The same is true for *directed* intersections.
+* The [[meet]] of a non-directed set $\mathcal{D}$ of topogenous relations is not their set-theoretic intersection, but it can be described explicitly: we have $A \;(\bigwedge\mathcal{D})\;B$ if and only if whenever $A = \bigcup_{i=1}^n A_i$ and $B = \bigcup_{j=1}^m B_j$, there exist $i$ and $j$ such that $A_i \;\delta\; B_j$ for all $\delta\in\mathcal{D}$.
 
 The [[opposite relation]] of a topogenous relation is again topogenous.  A topogenous relation is called **symmetric** if it is equal to its opposite, i.e. if $A\;\delta\;B$ if and only if $B\;\delta\; A$.
 
@@ -40,18 +40,18 @@ A **syntopogeny** (or **syntopogenous structure**) on a set $X$ is a [[filter]] 
 
 A **basis** for a syntopogeny on $X$ is a [[filterbase]] in the complete lattice of topogenous structures, such that the filter it generates is a syntopogeny.  When $X$ is equipped with a syntopogeny, it is called a **syntopogenous space**.
 
-A syntopogeny is called **symmetric**, **perfect**, or **biperfect** if it admits a basis consisting of symmetric, perfect, or biperfect topogenous relations, respectively.  It is called **simple** if it is a [[principal filter]], i.e. admits a singleton basis.
+A syntopogeny is called **symmetric**, **perfect**, or **biperfect** if it admits a basis consisting of symmetric, perfect, or biperfect topogenous relations, respectively.  It is called **simple** if it admits a basis that is a [[singleton]].
 
 
 ### Syntopogenous functions
 
-If $(X_1,\mathcal{O}_1)$ and $(X_2,\mathcal{O}_2)$ are syntopogenous spaces, a function $f:X_1\to X_2$ is called **syntopogenous**, or **syntopologically continuous**, if for any $\delta\in\mathcal{O}_2$, its [[inverse image]] $(f\times f)^{-1}(\delta)$ lies in $\mathcal{O}_1$.
+If $\delta$ is a topogenous relation on $Y$ and $f:X\to Y$ is a function, then we have a topogenous relation $f^*\delta$ on $X$ defined by $A\;(f^*\delta)\;B$ iff $f(A) \;\delta\; f(B)$.  That is, $f^*\Delta = (\exists_f \times \exists_f)^{-1}(\delta)$, where $\exists_f : P(X) \to P(Y)$ is the [[quantifier|left adjoint]] of $f^{-1}:P(Y) \to P(X)$.
 
-This defines the [[category]] $STpg$, which is a [[topological concrete category]] over [[Set]] as follows.  For any function $f:X\to Y$ and any topogenous relation $\delta$ on $Y$, there is a topogenous relation $f^*\delta$ on $X$ defined by
-$$ A \;(f^*\delta)\; B \quad\Leftrightarrow\quad f(A) \;\delta\; f(B). $$
-If $(Y,\mathcal{O})$ is a syntopogenous space, then the collection $\{ f^*\delta | \delta\in\mathcal{O}\}$ is a basis for a syntopogeny on $X$, which is the [[initial structure]] induced on $X$ by $f$.
+Now if $(X_1,\mathcal{O}_1)$ and $(X_2,\mathcal{O}_2)$ are syntopogenous spaces, a function $f:X_1\to X_2$ is called **syntopogenous**, or **syntopologically continuous**, if for any $\delta\in\mathcal{O}_2$, we have $f^*\delta\in\mathcal{O}_1$.  This defines the [[category]] $STpg$.
 
-...
+If $(Y,\mathcal{O})$ is a syntopogenous space, then the collection $\{ f^*\delta | \delta\in\mathcal{O}\}$ is a basis for a syntopogeny on $X$, which is the [[initial structure]] induced on $X$ by $f$.  The operation of taking initial structures, as a map from syntopogenies on $Y$ to syntopogenies on $X$, preserves opposites, simplicity, meets, symmetry, and perfectness.
+
+More generally, if $(Y_i,\mathcal{O}_i)$ is a family of syntopogenous spaces and $f_i:X\to Y_i$ are functions, then the meet of the initial structures induced by all the $f_i$ is the initial structure induced by them jointly.  Thus, $STpg\to Set$ is a [[topological concrete category]].
 
 
 ## Relation to other topological structures
@@ -69,6 +69,8 @@ These constructions define an [[equivalence of categories]] between [[Top]] and 
 
 A simple symmetric syntopogeny is easily seen to be precisely a [[proximity]].  In this way we have an equivalence of categories between $Prox$ and the full subcategory of $STpg$ on the simple, symmetric, syntopogenous spaces.
 
+More generally, an arbitrary simple syntopogeny can be identified with a "quasi-proximity": a non-symmetric relation satisfying all the other axioms of a proximity (suitably rephrased for the non-symmetric case).
+
 
 ### Uniform spaces
 
@@ -84,11 +86,45 @@ A syntopogeny which is both simple and biperfect is determined uniquely by a sin
 Of course, it follows that a simple, symmetric, (bi)perfect syntopogeny is determined uniquely by a relation on $X$ that is reflexive, transitive, and also symmetric -- i.e. an [[equivalence relation]].  Thus, the intersections $Top \cap Unif$, $Top \cap Prox$, and $Prox\cap (Q)Unif$ inside $STpg$ are all equivalent to the category $Setoid$ of [[setoids]] (sets equipped with an equivalence relation).
 
 
-## Reflections and coreflections
+## Some coreflections
 
-We first note that for any function $f:X\to Y$, the preimage function mapping syntopogenies on $Y$ to syntopogenies on $X$ preserves joins, meets, simplicity, perfectness, and symmetry.
+In the preorder of topogenous relations on any set $X$, the following sub-preorders are coreflective:
 
-...
+* The symmetric elements.  The symmetric coreflection of $\delta$ is the meet $\delta^s \coloneqq \delta \wedge \delta^{op}$.
+* The perfect elements.  The perfect coreflection of $\delta$ is defined by $A\;\delta^p\;B$ iff there exists $x\in A$ with $\{x\}\;\delta\;B$.
+* The biperfect elements.  The byperfect coreflection of $\delta$ is defined by $A\;\delta^b\;B$ iff there exist $x\in A$ and $y\in B$ with $\{x\}\;\delta\;\{y\}$.
+
+It follows that in the preorder of syntopogenous structures on $X$, the symmetric, perfect, and biperfect elements are also reflective; the coreflections are obtained by applying the above one to each topogenous relation in turn.  Moreover, the simple syntopogenous structures on $X$ are also coreflective; the coreflection just takes the intersection of all relations belonging to the filter (this is a directed intersection, hence automatically again a topogenous relation).
+
+Finally, for any function $f:X\to Y$, the preimage function $f^*$, mapping syntopogenous structures on $Y$ to those on $X$, preserves all of these coreflections.  Therefore, the full subcategories of
+
+* simple,
+* symmetric,
+* perfect, and
+* biperfect
+
+syntopogenous spaces are all coreflective in $STpg$, with coreflections written $(-)^t$, $(-)^s$, $(-)^p$, and $(-)^b$ respectively.
+
+In general, of course, coreflections into distinct subcategories do not commute or even preserve each other's subcategories.  However, by construction, we see that the coreflections $(-)^s$, $(-)^p$, and $(-)^b$ all preserve simplicity.  Therefore, the full subcategories of
+
+* simple symmetric (i.e. proximity),
+* simple perfect (i.e. topological), and
+* simple biperfect (i.e. preorders)
+
+syntopogenous spaces are all coreflective in $STpg$, with coreflections $(-)^{t s}$, $(-)^{t p}$, and $(-)^{t b}$ respectively.  Finally, it is evident by construction that $(-)^b$ preserves symmetry, so the full subcategories of
+
+* symmetric biperfect, and
+* simple symmetric biperfect (i.e. setoids)
+
+syntopogenous spaces are also both coreflective in $STpg$, with coreflections $(-)^{s b}$ and $(-)^{t s b}$ respectively.
+
+It is straightforward to verify the following.
+
+1. When applied to a (quasi-)proximity space or a (quasi-)uniform space, the coreflection $(-)^{t p}$ into topological spaces computes the underlying topology of these structures, as usually defined.
+
+1. When applied to a uniform space, the coreflection $(-)^{t s}$ computes its underlying proximity, as usually defined.  The same is true in the non-symmetric case for quasi-uniformities and quasi-proximities.
+
+1. When applied to any syntopogenous space, the coreflection $(-)^{t b}$ computes the [[specialization order]] of its underlying topology (i.e. its image under $(-)^{t p}$).  In particular, this is the case for topological spaces, proximity spaces, and uniform spaces.
 
 
 ## References
