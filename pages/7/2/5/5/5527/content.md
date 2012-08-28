@@ -459,5 +459,3 @@ for instance section 5 of
 
 [[!redirects spectral sequence of a filtration]]
 
-
-[[!redirects spectral sequence of a double complex]] 
