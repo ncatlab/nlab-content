@@ -106,6 +106,8 @@ One feature of uniform space theory which is not available for general topologic
 
 * A uniform space $X$ is **[[Hausdorff space|Hausdorff]]** or **separated** if every convergent net/filter converges to a unique point.  (This is a purely topological concept.)
 
+With these definitions, every uniform space becomes a [[Cauchy space]].
+
 
 Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., there is a uniformly continuous map $X \to \overline{X}$ (an [[embedding]] if $X$ is Hausdorff, [[dense map|dense]] in any case), characterized by the following universal property:
 
@@ -114,6 +116,10 @@ Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., ther
 In short, the category of complete Hausdorff uniform spaces is a [[reflective subcategory]] of $Unif$.
 
 One can also define a (not necessarily Hausdorff) completion of $X$ by replacing the image of $X$ in $\overline{X}$ by $X$ itself, but this does not have as nice properties; in particular, complete uniform spaces do not form a reflective subcategory of $Unif$.
+
+Every uniform space also has an underlying [[proximity]] (defined there), and the resulting functor $Unif \to Prox$ has a fully faithful right adjoint which identifies proximity spaces with uniform spaces that are [[totally bounded space|totally bounded]].
+
+Uniform spaces can also be identified with [[syntopogenous spaces]] that are both *perfect* and *symmetric*; see [[syntopogenous space]].
 
 
 ## Examples
