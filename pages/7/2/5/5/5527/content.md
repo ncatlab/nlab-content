@@ -23,19 +23,64 @@ $$
   \cdots \subset C_\bullet^{(2)}\subset C_\bullet^{(1)}\subset C_\bullet
 $$
 
-is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the (in general simpler) (co)chain homologies of the [[associated graded object]] $C_\bullet^{(n)}/C_\bullet^{(n+1)}$.
+is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the (in general simpler) (co)chain homologies of the [[associated graded objects]] $C_\bullet^{(n)}/C_\bullet^{(n+1)}$.
 
 So it is a tool for organizing data derivable from the families of [[long exact sequence|long exact]] [[fiber sequence]] in [[chain homology]]
 
 $$ 
   \cdots\to H_p (C^{(q+1)}_\bullet) \to H_p (C^{(q)}_\bullet) 
   \to 
-  H_p(C^{(q)}_\bullet/C^{(q+1)}_\bullet) \to H^{p+1}(C_\bullet^{(q+1}))
+  H_p(C^{(q)}_\bullet/C^{(q+1)}_\bullet) \to H_{p+1}(C_\bullet^{(q+1)})
  \to
  \cdots 
  \,.
 $$
 
+## Special case: 2-term filtering
+
+The special case where the filtering has just length one  is that where we simply have a sub-complex $C^{(1)}_\bullet \hookrightarrow C_\bullet$ and want to compute the homology of $C_\bullet$ from that of $C^{(1)}_\bullet$ and $C_\bullet/C^{(1)}_\bullet$.
+
+This case is easily solved by elementary means and it serves as an instructive blueprint for the general case.
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[subobject|sub]]-[[chain complex]] $C^{(1)}_\bullet \hookrightarrow C_\bullet$, consider the following constructions
+
+1. Consider the [[short exact sequence]]
+
+   $$
+     0 \to C^{(1)}_\bullet \to C_\bullet \to C_\bullet/C^{(1)}_\bullet \to 0
+   $$
+
+1. Its [[long exact sequence in homology]] contains the [[connecting homomorphism]] 
+
+   $$
+     \delta 
+      : 
+     H_\bullet(C_\bullet/C^{(1)}_\bullet)
+      \to
+     H_{\bullet-1}(C^{(1)}_\bullet)
+     \,.
+   $$
+
+   Define
+
+   * $G_1 H_\bullet \coloneqq ker \delta$
+
+   * $G_2 H_\bullet \coloneqq coker \delta$.
+
+Then $H_\bullet(C_\bullet)$ is sits in the short exact sequence
+
+$$
+  0 \to G_0 H_\bullet \to H_\bullet(C_\bullet) \to G_1 H_\bullet \to 0
+  \,.
+$$
+
+
+=--
+
+(...)
 
 ## Definition
 
