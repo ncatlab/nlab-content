@@ -79,6 +79,11 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 ...
 
+## Related concepts
+
+* [[locale]], [[topos]]
+
+* [[proximity space]], [[uniform space]], [[syntopogenous space]]
 
 [[!redirects topological space]]
 [[!redirects topological spaces]]
