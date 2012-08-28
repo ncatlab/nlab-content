@@ -222,13 +222,13 @@ Importantly, this model structure is Quillen equivalent to several alternative m
 
 ### Comparison
 
-Every weak categorical equivalences is a weak homotopy equivalence. Since both model structures have the same cofibrations, it follows that the classical model structure is a [[Bousfield localization]] of Joyal's model structure.
+Every weak categorical equivalence is a weak homotopy equivalence. Since both model structures have the same cofibrations, it follows that the classical model structure is a [[Bousfield localization]] of Joyal's model structure.
 
 The Quillen model structure is the left [[Bousfield localization of model categories|Bousfield localization]] of $sSet_{Joyal}$ at the outer [[horn]] inclusions.
 
 ## Fibrant replacement 
 
-Fibrant replacemennt in $sSet_{Quillen}$ models the process of _$\inftty$-groupoidification_ , of freely inverting all [[k-morphism]]s in a simplicial set. Techniques for fibrant replacements $sSet_{Quillen}$ are discussed at
+Fibrant replacement in $sSet_{Quillen}$ models the process of _$\infty$-groupoidification_, of freely inverting all [[k-morphism]]s in a simplicial set. Techniques for fibrant replacements $sSet_{Quillen}$ are discussed at
 
 * [[Kan fibrant replacement]].
 
