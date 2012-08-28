@@ -793,7 +793,10 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 
 ## Related concepts
 
+* [[stable model category]]
+
 * [[(∞,1)-category of chain complexes]]
+
 
 ## History and references {#References}
 
@@ -883,3 +886,7 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 
 [[!redirects model structure on cochain complexes]]
 [[!redirects model structures on cochain complexes]]
+
+[[!redirects model structure on unbounded chain complexes]]
+[[!redirects model structures on unbounded chain complexes]]
+
