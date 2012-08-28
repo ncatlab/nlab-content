@@ -17,7 +17,7 @@
 ## Idea
 
 
-The [[spectral sequence]] of a [[filtered object|filtered]] (co)[[chain complex]] 
+The [[spectral sequence]] of a [[filtered object|filtered]] [[chain complex]] 
 
 $$
   \cdots 
@@ -31,16 +31,21 @@ $$
   C_\bullet
 $$
 
-is a tool for computing the (co)[[chain homology]] of $C_\bullet$ from the  (co)chain homologies of the [[associated graded objects]] 
+is a tool for computing the [[chain homology]] of $C_\bullet$ from the chain homologies of the [[associated graded objects]] 
 
 $$
   G_p C \coloneqq F_p C_\bullet/F_{p-1}C_\bullet
   \,;
 $$
 
-which is in general simpler.
+which is in general simpler. 
 
-Equivalently, it is a tool for organizing data derivable from the families of [[long exact sequence in homology]]
+The sequence asymptotes to the homology of $C$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an $r$-approximate cycle is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-approximate boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The correspoding $r$-approximate homology of $C$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
+
+Clearly, if the filtering is bounded then $\infty$-approximate homology is the correct homology, and so the spectral sequence converges to the correct homology. But the point is that typically it collapses at some low finite degree $r$, and so allows one to obtain the genuine homology from some finite $r$-approximate homology.
+
+
+One may also regard the spectral sequence of a filtered complex as a tool for organizing data derivable from the families of [[long exact sequence in homology]]
 
 $$ 
   \cdots 
@@ -449,6 +454,12 @@ A decent account is given in
 
 * [[Michael Hutchings]], _Introduction to spectral sequences_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
  {#Hutchings}
+
+Another careful introduction is in section 3 of 
+
+* Brandon Williams, _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
+
+(though some subsections there remain unfinished).
 
 For further references see those listed at _[[spectral sequence]]_, 
 for instance section 5 of 
