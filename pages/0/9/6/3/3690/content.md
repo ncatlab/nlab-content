@@ -9,11 +9,9 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Overview
 
@@ -53,9 +51,6 @@ Discussion of this point can be found in ([CTList](#CTList)). There [[Colin McLa
 > It was relatively easy to give Bourbaki's theory of structures -- because it never really worked at all even for Bourbaki's purposes (as Corry documents in detail).  Naturally it is easier to give an unusable theory of structures than to work out the ways categories and functors would actually be used. ([McLarty, Category Theory List 2012](http://permalink.gmane.org/gmane.science.mathematics.categories/7298))
 
 
-
-
-
 ## References
 
 * [website](http://www.bourbaki.ens.fr) of the group
@@ -71,6 +66,8 @@ Accounts of the history of the Bourbaki project include the following
 * [[Armand Borel]]: _[25 years with Bourbaki](http://www.ega-math.narod.ru/Bbaki/Bourb3.htm)_
 
 * Amir D. Aczel, _The artist and the mathematician_: the story of Nicolas Bourbaki, the genius mathematician who never existed, Thunder's Mouth Press, New York, 2006, viii+239 pp. [MR2008h:01020](http://www.ams.org/mathscinet-getitem?mr=2339913), [SIAM review](http://www.siam.org/news/news.php?id=1078)
+
+* The [Bourbaki archives](http://mathdoc.emath.fr/archives-bourbaki/) contain many draughts (and discussions thereof) of Bourbaki's texts
 
 Discussion of Bourbaki's notion of _[[structure]]_ and the relation (or not) to [[category theory]] includes the following:
 
