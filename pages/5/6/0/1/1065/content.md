@@ -22,7 +22,7 @@ An archetypical motivating example for homological algebra is the [[chain comple
 
 ### As a toolbox in stable homotopy theory
 
-With homological algebra thus being a topic in stabilized [[homotopy theory]], it is really the study of [[stable (∞,1)-categories]] of chain complexes (and thus, by the stable [Dold-Kan correspondence](module%20spectrum#StableDoldKanCorrespondence), of Eilenberg-MacLane [[module spectra]]).
+With homological algebra thus being a topic in stabilized [[homotopy theory]], it is really the study of [[stable (∞,1)-categories]] [[(∞,1)-category of chain complexes|of chain complexes]] (and thus, by the stable [Dold-Kan correspondence](module%20spectrum#StableDoldKanCorrespondence), of Eilenberg-MacLane [[module spectra]]).
 
 Historically this modern perspective has developed only in stages out of more "concrete" (more [[category theory|1-categorical]]) notions, which now form the body of homological algebra, in the form of a box of tools for computing linearized problems in homotopy theory.
 
@@ -32,9 +32,9 @@ Historically this modern perspective has developed only in stages out of more "c
 
 1. Notably, [[functors]] between categories of chain complexes may extend to functors on these derived categories by evaluating them on suitable resolutions -- accordingly called _[[derived functors]]_.  (In homological algebra, the phrase "derived functor" is traditionally applied to the *homology groups* of what abstract homotopy theory calls the "derived functor", these being the invariants that one can compute.)  Much of the theory revolves around computing and characterizing derived functors, for instance in the definition of [[abelian sheaf cohomology]] and hence there are powerful tools for these computations, notably [[spectral sequences]].
 
-1. However, the [[derived category]] $D(\mathcal{A})$ is still a rather coarse approximation to the full [[stable (∞,1)-category]] of chain complexes in $\mathcal{A}$. There is a series of extra property and structures added to it which gives better approximations, and large parts of modern homological algebra study these: 
+1. However, the [[derived category]] $D(\mathcal{A})$ is still a rather coarse approximation to the full [[stable (∞,1)-category]] [[(∞,1)-category of chain complexes|of chain complexes]] in $\mathcal{A}$. There is a series of extra property and structures added to it which gives better approximations, and large parts of modern homological algebra study these: 
 
-   First of all the derived category is automatically a [[triangulated category]], which is a means of remembering the operation of _[[suspension]]_ and _de-suspension_ ([[looping]]) of chain complexes. Further structure added to these goes by names such as _[[enhanced triangulated category]]_.  A [[stable derivator]] is a strong enhancement which encodes basically all the requisite structure for internal computations.  Finally, the further promotion of these to [[pretriangulated dg-categories]]/[[A-∞ categories]] of chain complexes makes them capture the full information present in the [[stable (∞,1)-category]].
+   First of all the derived category is automatically a [[triangulated category]], which is a means of remembering the operation of _[[suspension]]_ and _de-suspension_ ([[looping]]) of chain complexes. Further structure added to these goes by names such as _[[enhanced triangulated category]]_.  A [[stable derivator]] is a strong enhancement which encodes basically all the requisite structure for internal computations.  Finally, the further promotion of these to _[[stable model categories]]_ or _[[pretriangulated dg-categories]]/linear [[A-∞ categories]]_ of chain complexes makes them capture the full information present in the [[stable (∞,1)-category]].
 
 
 ### Non-abelian variants
