@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Proximity spaces
 * table of contents
 {: toc}
@@ -83,6 +94,9 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 1. If $A\;\delta\;C$ for all $C\in\sigma$, then $A\in\sigma$.
 1. If $(A\cup B)\in\sigma$, then $A\in\sigma$ or $B\in\sigma$.
 
+## Related concepts
+
+* [[uniform space]], [[syntopogenous space]]
 
 ## References
 
