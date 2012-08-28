@@ -23,7 +23,11 @@
 
 It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, \times)$ is a [[set]] $G$ equipped with a binary operation $\times : G \times G \to G$, etc.
 
-One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[faithful functor]] $D \to C$. 
+One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[faithful functor]] $D \to C$.
+
+One may also formalize the notion of structure in [[logic]] and [[type theory]].  In this case one defines a "language" or [[theory]] that describes the operations and properties with which we want to equip sets, and then sets equipped with those operations and properties are called [[structure in model theory|structures (in model theory)]] for that language or theory.
+
+(Note that the actual word "structure" refers to different things in the two cases: in category theory, the "structure" is the operations and properties with which we want to equip sets, considered abstractly.  But in model theory, these data are called the "language" or the "theory", and a "structure" refers to a *particular* set (or family of sets) that is equipped with those operations and properties.  Thus the category theorist would refer to "the structure of a group" as consisting of a multiplication, a unit, etc., while the model theorist would say that each particular group (like $\mathbb{Z}$) is a "structure (or model) for the language (or theory) of groups."
 
 
 ## Examples
@@ -33,8 +37,6 @@ There are gazillions of examples of objects equipped with extra structure. The m
 * [[algebraic structure]].
 
 Generally the [[forgetful functor]] form a category of algebras over an [[algebraic theory]] down to the base category exhibits the equipment with the corresponding algebraic structure.
-
-Or for instance in [[model theory]] given a [[first order language]] $L$ one can consider an [[structure in model theory|L-structure (in model theory)]] on a set. 
 
 
 ## Related entries
