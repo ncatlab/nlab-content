@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
