@@ -143,7 +143,7 @@ Not every [[abelian category]] is a [[concrete category]] such as [[Ab]] or $R$[
 
 The following _embedding theorems_, however, show that under good conditions an abelian category can be _embedded_ into [[Ab]] as a [[full subcategory]] by an [[exact functor]], and generally can be embedded this way into $R Mod$, for some ring $R$. This is the celebrated _[[Freyd-Mitchell embedding theorem]]_  discussed [below](#FreydMitchellEmbedding).
 
-This implies for instance that proofs about [[exact sequence|exactness of sequences]] in an abelian category can always be obtained by a naive argument on elements -- called a "diagram chase" -- because that does hold true after such an embedding, and the exactness of the embedding means that the notion of exact sequences is preserved by it.
+This implies for instance that proofs about [[exact sequence|exactness of sequences]] in an abelian category can always be obtained by a naive argument on elements -- called a "[[diagram chasing|diagram chase]]" -- because that does hold true after such an embedding, and the exactness of the embedding means that the notion of exact sequences is preserved by it.
 
 Alternatively, one can reason with [[generalized elements]] in an abelian category, without explicitly embedding it into a larger concrete category, see at _[[element in an abelian category]]_. But under suitable conditions this comes down to working subject to an embedding into $Ab$, see the discussion at _[Embedding into Ab](#EmbeddingIntoAb)_ below.
 
