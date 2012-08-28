@@ -1,0 +1,13 @@
+There are several different (sometimes related) mathematical objects called ''spectrum'' or whose name has ''spectral'' as prefix:
+
+* [[spectrum]] in [[stable homotopy theory]].
+
+Most other meanings are instances of [[spectral theory]] including
+
+* _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ of a triangulated category etc.
+
+There is also a notion of 
+
+* [[spectral sequence]]
+
+which has no particular relation to other notions of _spectrum_ .
