@@ -45,7 +45,7 @@ where the top and bottom rows are [[exact sequences]]. For simplicity we denote 
 ###### Proof
 
 By the [[Freyd-Mitchell embedding theorem]]
-we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
+we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the [[diagram chasing]] using elements in that setup. We prove only 1) as 2) is dual. 
 
 Suppose $b\in B_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
