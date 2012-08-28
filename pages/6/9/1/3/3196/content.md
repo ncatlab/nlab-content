@@ -17,7 +17,7 @@ Founders of Morse theory were [[Marston Morse]], [[Raoul Bott]] and [[Albert Sch
 
 ## Definitions
 
-A on a smooth manifold $M$, [[smooth map|smooth]] function $\varphi: M \to \mathbb{R} $ is said to be *Morse* (or *a Morse function*) if
+On a smooth manifold $M$, a [[smooth map|smooth]] function $\varphi: M \to \mathbb{R} $ is said to be *Morse* (or *a Morse function*) if
 
 * the zero set of $ d \varphi $ consists of isolated points, and
 * the [[Hessian]] of $\varphi$ at these points is nondegenerate.
