@@ -24,13 +24,15 @@ A __proximity structure__ (or set--set __nearness structure__) on a [[set]] $X$,
 
 5. if for every $C,D\subset X$ such that $C\cup D=X$, either $A\;\delta\;C$ or $B\;\delta\;D$, then $A\;\delta\;B$.
 
-Often one requires the converse of (4):
+Another axiom one may require is the converse of (4):
 
 *  _separation_:  $x=y$ if $\{x\}\;\delta\;\{y\}$
 
-We say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delta\;B$, and __apart__ otherwise.  We also write $A \ll B$ if $(X \setminus A)\;\delta\;B$.
+In general, we say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delta\;B$, and __apart__ otherwise.  We also write $A \ll B$ if $(X \setminus A)\;\delta\;B$.
 
 A __proximity space__ (or set--set __nearness space__) is a set $X$ equipped with a proximity structure $\delta$.  The proximity structure or proximity space is __separated__ if it satisfies the separation axiom (the converse of 4); note that many authors require this by default.
+
+### Variations
 
 There are many variations possible in the list of axioms; one important consequence of the above (sometimes listed separately, allowing additivity to be weakened) is this:
 
@@ -38,24 +40,42 @@ There are many variations possible in the list of axioms; one important conseque
 
 It is also possible to write the definition in terms of the apartness relation or the relation $\ll$.  In particular, a (set--set) __apartness space__ is a set $X$ equipped with a binary relation $\bowtie$ on $P(X)$ such that the [[negation]] of $\bowtie$ is a proximity relation.  This is the preferred formulation in [[constructive mathematics]] (although you\'ll want to rephrase the definition axiom by axiom to remove spurious [[double negations]]).
 
+## The category $Prox$
+
+If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **proximally continuous** if $A\;\delta\;B$ implies $f(A)\;\delta\;f(B)$.  In this way we obtain a [[category]] $Prox$, whose evident forgetful functor $Prox \to Set$ makes it into a [[topological concrete category]].
+
 
 ## Relation to other topological structures
 
-### Proximities and topologies
+### Topological spaces
 
-Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A\subset X$ iff $\{x\}\;\delta\;A$.  This topology is always completely regular, and Hausdorff (hence Tychonoff) iff the proximity space is separated; see [[separation axiom]].
+Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A\subset X$ iff $\{x\}\;\delta\;A$.  This topology is always [[completely regular space|completely regular]], and [[Hausdorff space|Hausdorff]] (hence [[Tychonoff space|Tychonoff]]) iff the proximity space is separated; see [[separation axiom]].  Proximally continuous functions are continuous for the induced topologies, so we have a functor $Prox \to Top$ over $Set$.
 
-Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A,B\subset X$ let $A\;\delta\;B$ iff $A\neq \emptyset\neq B$ and there is no continuous function $f:X\to I=[0,1]$ such that $f(x)=0$ on $A$ and $f(x)=1$ on $B$. This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdroff (hence Tychonoff) topology.
+Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A,B\subset X$ let $A\;\delta\;B$ iff $A\neq \emptyset\neq B$ and there is no continuous function $f:X\to I=[0,1]$ such that $f(x)=0$ on $A$ and $f(x)=1$ on $B$. This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdorff (hence Tychonoff) topology.
 
-### Proximities and uniformities
+In general, a completely regular topology may be induced by more than one proximity.  However, if it is moreover [[compact topological space|compact]], then it has a unique compatible proximity.
 
-If $U$ is a uniformity on $Y$ (making it into a [[uniform space]]), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every [[entourage]] (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$. The topology induced by the uniformity and the topology induced by the proximity structure are the same.
+
+### Uniform spaces
+
+If $U$ is a [[uniformity]] on $Y$ (making it into a [[uniform space]]), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every [[entourage]] (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$.
+
+Uniformly continuous functions are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
 Conversely, if $X$ is a proximity space, consider the family of sets of the form
 $$ \bigcup_{k=1}^n A_k \times A_k$$
-where $(A_k)$ is a finite family of sets such that there exists a finite family of sets $(B_k)$ with $B_k \ll A_k$ and $X = \bigcup_{k=1}^n B_k$.  These sets form a base for a [[totally bounded uniformity]] on $X$, which induces the given proximity.  In fact, this is the *unique* totally bounded uniformity which induces the given proximity: every proximity-class of uniformities contains a unique totally bounded member, and so proximities can be identified with totally bounded uniformities.
+where $(A_k)$ is a finite family of sets such that there exists a finite family of sets $(B_k)$ with $B_k \ll A_k$ and $X = \bigcup_{k=1}^n B_k$.  These sets form a base for a [[totally bounded uniformity]] on $X$, which induces the given proximity.
 
-### Proximities and compactifications
+In fact, this is the *unique* totally bounded uniformity which induces the given proximity: every proximity-class of uniformities contains a unique totally bounded member.  Moreover, a proximally continuous function between uniform spaces with totally bounded [[codomain]] is automatically uniformly continuous.  Therefore, the forgetful functor $Unif \to Prox$ is a left adjoint, whose right adjoint also lives over $Set$, is [[fully faithful functor|fully faithful]], and has its [[essential image]] given by the totally bounded uniform spaces.
+
+In general, proximally continuous functions need not be uniformly continuous, but in addition to total boundedness of the codomain, a different sufficient condition is that the domain be a [[metric space]].
+
+### Syntopogenous spaces
+
+A proximity space can be identified with a [[syntopogenous space]] which is both *simple* and *symmetric*; see [[syntopogenous space]].
+
+
+### Compactifications
 
 The (separated) proximities inducing a given (Hausdorff) completely regular topology can be identified with (Hausdorff) compactifications of that topology.  The compactification corresponding to a proximity on $X$ is called its *Smirnov compactification*.  The points of this compactification can be taken to be *clusters* in $X$, which are defined to be collections $\sigma$ of subsets of $X$ such that
 
@@ -64,19 +84,14 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 1. If $(A\cup B)\in\sigma$, then $A\in\sigma$ or $B\in\sigma$.
 
 
-## Proximal continuity
-
-If $X$ and $Y$ are proximity spaces, then a function $f:X\to Y$ is said to be **proximally continuous** if $A\;\delta\;B$ implies $f(A)\;\delta\;f(B)$.  A proximally continuous function is clearly continuous for the induced topologies, but the converse is generally not true.
-
-Similarly, a uniformly continuous function between uniform spaces is proximally continuous for the induced proximities, but the converse is generally not true.  It is true, however, if the codomain is totally bounded or if the domain is a [[metric space]].
-
-
 ## References
 
 *  R. Engelking, _General topology_, chapter 8.
 *  [[Douglas Bridges]] et al, _Apartness, topology, and uniformity: a constructive view_, [pdf](http://www.math.canterbury.ac.nz/mathlsv/dagstuhl01.pdf)
 *  S. A. Naimpally and B. D. Warrack, _Proximity spaces_, Cambridge University Press 1970
 
+[[!redirects proximity]]
+[[!redirects proximities]]
 [[!redirects proximity spaces]]
 [[!redirects proximity structure]]
 [[!redirects proximity relation]]
