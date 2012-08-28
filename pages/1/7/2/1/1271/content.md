@@ -31,7 +31,7 @@ An __(generalized) element__ of an object $W$ in a fixed [[abelian category]] $A
 
 Notice that subtlety in the equivalence relation.
 
-Elements in an abelian category can be used for [[diagram chasing]], see the exercises at the end of chapter II.5 of ([Gelfand-Manin](#Gelfand-Manin)).
+Elements in an abelian category can be used for [[diagram chasing]], see section VIII.4 of ([Mac Lane](#MacLane)) or the exercises at the end of chapter II.5 of ([Gelfand-Manin](#Gelfand-Manin)).
 
 ## References
 
@@ -39,6 +39,8 @@ Equivalence classes of generalized elements are considered for instance in
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.
 {#Gelfand-Manin}
+
+* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd edition, Springer 1998. {#MacLane}
 
 Genuine generalized elements are considered in
 
