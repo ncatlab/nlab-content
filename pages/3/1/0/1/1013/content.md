@@ -1,15 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-# Stuff, structure, properties
+# Stuff, structure, and properties
 * table of contents
 {: toc}
 
@@ -213,9 +213,14 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 
 For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the subobject classifier is the  [[universal fibration of (∞,1)-categories]] $Z|_{\infty Grpd} \to \infty Grpd$. See also section 6.1.6 _$\infty$-Topoi and Classifying objects_ of [[Higher Topos Theory|HTT]].
 
+
 ## Related entries
 
-There is also a dedicated entry for _[[structure]]_.
+*  [[predicate]]
+
+*  [[structure]], [[structure type]]
+
+*  [[stuff type]]
 
 
 ## References
@@ -225,15 +230,28 @@ There is also a dedicated entry for _[[structure]]_.
 * [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
 
 
+[[!redirects stuff, structure, property]]
+[[!redirects stuff, structure, properties]]
+[[!redirects stuff, structures, properties]]
+[[!redirects stuff, structure and property]]
+[[!redirects stuff, structure and properties]]
+[[!redirects stuff, structures and properties]]
+[[!redirects stuff, structure, and property]]
+[[!redirects stuff, structure, and properties]]
+[[!redirects stuff, structures, and properties]]
+[[!redirects property, structure, stuff]]
+
 [[!redirects property]]
 [[!redirects properties]]
 [[!redirects extra property]]
 [[!redirects extra properties]]
+
 [[!redirects extra structure]]
 [[!redirects extra structures]]
+
+[[!redirects property-like structure]]
+
 [[!redirects stuff]]
 [[!redirects extra stuff]]
 [[!redirects n-stuff]]
 [[!redirects extra n-stuff]]
-[[!redirects property-like structure]]
-[[!redirects property, structure, stuff]]
