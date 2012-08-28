@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
@@ -27,33 +31,33 @@ A _stable model category_ is a 1-[[category]] structure used to present a [[stab
 
 A **stable model category** $C$ is
 
-* a [[pointed category|pointed]]
+* a [[pointed category|pointed]] [[model category]]
 
-* [[model category]]
+* such that the [[loop space object]] functor $\Omega$ and the [[suspension object]] functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category]] $Ho(C)$:
 
-* such that the [[loop space object]] functor $\Omega$ and the suspension functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category]] $Ho(C)$:
-
-  $$ \Omega : Ho(C) \stackrel{\leftarrow^\simeq}{\to^\simeq} : 
+  $$ 
+    \Omega : Ho(C) \stackrel{\overset{\sime}{\leftarrow}}{\underset{\simeq}{\to}} : 
    Ho(C) : \Sigma
+   \,.
   $$
 
 ## Properties
 
+### Characterization
 
-**Proposition**
++-- {: .num_prop}
+###### Proposition
 
 Let $C$ be a _stable model category_ that is in addition
 
 * a [[simplicial model category]];
 
 * a [[cofibrantly generated model category]];
-
 * a [[proper model category]];
 
 * with a [[set]] $S$ of [[compact object|compact]] generators;
 
-then there is a chain of [[SSet]] [[Quillen equivalence]]s 
-linking $C$ to the the [[spectrum]]-[[enriched functor category]] 
+then there is a chain of [[simplicial Quillen adjunction|sSet-enriched]] [[Quillen equivalences]]  linking $C$ to the the [[spectrum]]-[[enriched functor category]] 
 
 $$
   C \simeq Sp Cat(\mathcal{E}(S), Sp)
@@ -61,15 +65,28 @@ $$
 
 equipped with the [[global model structure on functors]],
 where $\mathcal{E}(S)$ is the $Sp$-[[enriched category]] given by...
+
+=--
   
-This is theorem 3.3.3 in [ClassStabMod](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf).
+This is theorem 3.3.3 in ([Schwede-Shipley](#SchwedeShipley))
 
 
-**Remark** Notice the similarity (but superficial difference: $SSet$/$Sp$-enrichment localization/no-localization) to the **stable Giraud theorem** discussed at [[stable (∞,1)-category]].
++-- {: .num_remark}
+###### Remark
+
+Notice the similarity (but superficial difference: $sSet$/$Sp$-enrichment localization/no-localization) to the **[stable Giraud theorem](stable%20%28infinity,1%29-category#StabGiraud)** discussed at _[[stable (∞,1)-category]]_.
+
+=--
+
+Moreover, by [Schwede-Shipley 03](#SchwedeShipley03) theorems, 3.1.1, 3.3.3, 3.8.2 stable model categories equivalent (by [[zig-zags]] of [[Quillen equivalences]]) to categories of [[module spectra]] over some [[ring spectrum]]. If that is an [[Eilenberg-MacLane spectrum]], then this identifies the corresponding stable model categories with the [[model structure on unbounded chain complexes]].
 
 
 ## References
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
+ {#SchwedeShipley}
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003) 103-153
+ {#SchwedeShipley03}
 
 [[!redirects stable model categories]]
