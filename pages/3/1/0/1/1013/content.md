@@ -10,7 +10,7 @@
 =--
 
 # Stuff, structure, properties
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -218,6 +218,10 @@ If $C$ is a mere $1$-[[1-category|category]], then any $P: C_iso \to 2 Grpd_iso$
 Lest we forget, to be even more simple than an extra property, the groupoid of $(-2)$-[[(-2)-groupoid|groupoid]]s is the [[point]] $pt$, and there is exactly one functor $P$ from any $C_iso$ to $pt$, corresponding to the unique (up to equivalence) category equivalent to $C$.
 
 For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the subobject classifier is the  [[universal fibration of (∞,1)-categories]] $Z|_{\infty Grpd} \to \infty Grpd$. See also section 6.1.6 _$\infty$-Topoi and Classifying objects_ of [[Higher Topos Theory|HTT]].
+
+## Related entries
+
+There is also a dedicated entry for _[[structure]]_.
 
 
 ## References
