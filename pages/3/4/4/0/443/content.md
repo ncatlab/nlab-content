@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
@@ -21,7 +25,7 @@ Roughly, $Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[mo
 
 ## Definition
 
-$Rel$ is a [[2-poset]] (a [[enriched category|category enriched]] in the category of [[posets]]), whose objects or $0$-cells are sets, whose morphisms or $1$-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
+$Rel$ is a [[2-poset]] (a [[enriched category|category enriched]] in the category of [[posets]]), whose [[objects]] or $0$-cells are [[sets]], whose [[morphisms]] or $1$-cells $X \to Y$ are [[relations]] $R \subseteq X \times Y$, and whose [[2-morphisms]] or  $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
 $$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z$$ 
 and the _identity_ $1_X: X \to X$ is the [[equality relation]], in other words the usual diagonal embedding 
 $$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
