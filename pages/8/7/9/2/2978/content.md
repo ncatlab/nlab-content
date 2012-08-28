@@ -75,6 +75,11 @@ It is immediate that a Cauchy space is compact if and only if it is both complet
 Every precompact uniform space is totally bounded; using Definition \ref{slick}, this may be proved by checking that any uniform cover of $X$ generates a uniform cover of $\overline{X}$.  The converse, that every totally bounded space is precompact, is equivalent to the [[ultrafilter principle]].  Of course, many totally bounded spaces may be proved precompact on weaker assumptions; in particular, that a bounded subset of a cartesian space is precompact is equivalent to the [[fan theorem]] (and so also follows from the principle of [[excluded middle]]), a fact related to the [[Heine–Borel theorem]].
 
 
+## Proximity spaces
+
+The category of totally bounded uniform spaces and uniformly continuous functions is equivalent to the category of [[proximity spaces]] and proximally continuous functions.  Thus, proximity spaces can be considered yet another axiomatization of "totally bounded space" that doesn't rely on a pre-existing kind of "space".
+
+
 ## References
 
 *  _[[HAF]]_, Sections 19.14--20
