@@ -17,7 +17,7 @@
 
 The _salamander lemma_ is a fundamental lemma in [[homological algebra]]. Other fundamental lemmas of homological algebra are direct consequence of this lemma, such as the [[3x3 lemma]], the [[snake lemma]] and the [[long exact sequence in cohomology]] deriving from a [[short exact sequence]].
 
-> Diagram-chasing arguments frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
+> [[diagram chasing|Diagram-chasing arguments]] frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
 
 The salamander lemma can remedy this situation.
 
