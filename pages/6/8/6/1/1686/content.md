@@ -567,12 +567,17 @@ and section 14 of
 
 * [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
+and
+
+* [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf)) .
+
+
 A textbook with a focus on applications in [[algebraic topology]] is
 
 * [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
  {#Hatcher}
 
-Reviews of and lecture notes on standard definitions and facts about spectral sequences include
+Reviews of and lecture notes on standard definitions and facts about spectral sequences include 
 
 * Matthew Greenberg, _Spectral sequences_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/specseq.pdf))
 
@@ -580,8 +585,11 @@ Reviews of and lecture notes on standard definitions and facts about spectral se
 
 * Daniel Murfet, _Spectral sequences_ ([pdf](http://therisingsea.org/notes/SpectralSequences.pdf))
 
-* [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf))
+* [[Neil Strickland]], _Spectral sequences_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/bestiary/ss.pdf))
 
+* Ravi Vakil, _Spectral Sequences: Friend or Foe?_ ([pdf](http://math.stanford.edu/~vakil/0708-216/216ss.pdf)) 
+
+* Brandon Williams, _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
 
 See also 
 
