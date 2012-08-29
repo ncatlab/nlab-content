@@ -88,15 +88,46 @@ Moreover, this sequence [[split exact sequence|splits]] (non-canonically).
 
 We reproduce the direct proof given for instance in ([Boardman](#Boardman)).
 
-+-- {: .num_lemma }
++-- {: .num_lemma #LemmaForUCTInOrdinaryCohomology}
 ###### Lemma
 
-Given homomorphism $A_1 \stackrel{f}{\to} A_2 \stackrel{g}{\to} A_3$ of [[abelian groups]] together with a [[section]] $s : A_3 \to A_2$ of $g$, there is a [[split exact sequence|split]] [[short exact sequence]] of [[cokernels]]
+Given homomorphism $A_1 \stackrel{f}{\to} A_2 \stackrel{g}{\to} A_3$ of [[abelian groups]] together with a [[retract]] $s : A_3 \to A_2$ of $g$, there is a [[short exact sequence]] of [[cokernels]]
 
 $$
   0 \to coker f \stackrel{g'}{\to} coker(g \circ f) \to coker(g) \to 0
   \,.
 $$ 
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Since we work in [[Ab]], all the [[cokernels]] appearing here (as discussed there) may be expressed as [[quotients]], e.g $coker(f) \simeq A_2/im(f)$.
+
+The sequence of inclusions $im(g \circ f) \hookrightarrow im(g) \hookrightarrow A_3$ induces the canonical [[short exact sequence]]
+
+$$
+  0
+   \to
+  \frac{im(g)}{im(g \circ f)}
+    \to
+  \frac{A_3}{im(g \circ f)}
+    \to
+  \frac{A_3}{im(g)}
+   \to
+  0
+$$
+
+and we claim that this is already isomorphic to the one stated in the lemma. This is manifestly true for the two terms on the right. For the term on the left observe that $g$ induces a morphism $g' : A_2 / im(f) \to A_3 / im(g \circ f)$. By the existence of the retract $s$ this has itself a retract. Moreover it factors as
+
+$$
+  g' : A_1/im(f) \to im(g)/im(g \circ f) \hookrightarrow A_3/ im(g \circ f)
+  \,.
+$$
+
+Therefore the first morphism here on the left has to be an isomorphism, too.
+
 
 =--
 
@@ -111,16 +142,18 @@ $$
 
 for the [[short exact sequence]] of [[boundaries]], [[cycles]], and [[homology groups]] of $C_\bullet$ in degree $n$. Since $C_n$ is assumed to be a [[free abelian group]] and since $B_n$ and $Z_n$ are [[subgroups]], it follows that these are also free abelian. Therefore this sequence exhibits a [[projective resolution]] of the group $H_n$. It follows that the [[Ext]]-group $Ext^1(H_n,A)$ is characterized by the short exact sequence
 
-$$
+\[
+  \label{ExtES}
   Hom(Z_n, A) \to Hom(B_n,A) \to Ext^1(H_n,A) \to 0
   \,.
-$$
+\]
 
 Notice also that the short exact sequence
 
-$$
+\[
+  \label{ChainCycleBoundarySES}
   0 \to Z_n \to C_n \stackrel{\partial}{\to} B_{n-1} \to 0
-$$
+\]
 
 is split because, as before, $B_{n-1}$ is free abelian. Using these two exact sequences on the left and right of the short exact sequence
 
@@ -130,17 +163,13 @@ $$
 
 shows that this is equivalent to
 
-$$
+\[
+  \label{HomologyBoundariesSES}
   0 \to H_n \to C_n/B_n \stackrel{\partial}{\to} B_{n-1}
   \,.
-$$
+\]
 
-Again this splits as $B_{n-1}$ is free abelian. Choose a splitting 
-
-$$
-  s : B_{n-1} \to C_n / B_n
-  \,.
-$$
+Again this splits as $B_{n-1}$ is free abelian. 
 
 In addition to these exact sequence consider the decomposition
 
@@ -173,7 +202,7 @@ $$
     && && \uparrow
     \\
     Hom(B_n,A) &\leftarrow& Hom(C_n,A)
-    &\leftarrow&
+    &\stackrel{i}{\leftarrow}&
     Hom(C_n/B_n,A)
     &\leftarrow&
     0
@@ -187,13 +216,52 @@ $$
     && \leftarrow &&
     Hom(Z_{n-1},A)
     \\
-    && && \uparrow && && \uparrow
+    && && \uparrow && \nwarrow && \uparrow
     \\
-    && && 0 && Hom(C_{n-1},A)
+    && && 0 && && Hom(C_{n-1},A)
   }
 $$
 
-Now (...)
+Here the right vertical sequence is exact, because (eq:ChainCycleBoundarySES) splits, and the left vertical sequence is exact because (eq:HomologyBoundariesSES) splits.  The upper horizontal sequence is exact because the [[hom functor]] takes [[cokernels]] to [[kernels]] and finally the lower horizontal sequence is the exact sequence (eq:ExtES).
+
+Since therefore $i$ and $Hom(\bar \partial,A)$ are monomorphisms, it follows that the degree $n$-[[cocycles]] are
+
+$$
+  Z^{n-1} \coloneqq ker( Hom(C_{n-1},A) \to Hom(C_n,a) )
+  \simeq
+  ker( Hom(C_{n-1},A) \to Hom(B_{n-1}, A) )
+  \,.
+$$
+
+Using this for $n-1$ replaced by $n$ shows by the upper horizontal exact sequence that
+
+$$
+  Z^n = Hom( C_n/B_n, A)
+  \,.
+$$
+
+Similarly the [[coboundaries]] are seen to be
+
+$$
+  B^n \coloneqq im Hom(\partial,A) \simeq
+  im ( Hom(Z_{n-1}, A) \to Hom(C_n/B_n), A )
+  \,.
+$$
+
+Together this gives the cochain cohomology as
+
+$$
+  H^n(C,A) \coloneqq Z^n / B^n 
+  \simeq
+  coker ( Hom(Z_n, A) \to Hom( C_n/B_n, A ) )
+  \,.
+$$
+
+Now the universal coefficient theorem follows by 
+going iunto lemma \ref{LemmaForUCTInOrdinaryCohomology} 
+with the identifications
+$A_1 = Hom(Z_{n-1}, A)$, $A_2 = Hom(B_{n-1}, A)$, $A_3 = Hom(C_n/B_n,A)$.
+
 
 =--
 
