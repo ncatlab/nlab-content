@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -20,8 +19,7 @@
 
 The basic idea is that a _module_ $V$ is an object equipped with an [[action]] by a [[monoid]] $A$. This is closely related to the concept of a [[representation]] of a [[group]].
 
-A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups. But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[ring]] $R$. The analog of a vector space for fields replaced by rings is that of a module over the ring $R$.
-
+A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups. But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even [[rig]]) $R$, and we can generalise to arbitrary [[rings]] (or rigs) by choosing the left or right side. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
 
 
 ### More general perspectives
@@ -35,6 +33,7 @@ Apart from this direct generalization, there are two distinct and separately imp
 
 * modules may usefully be thought of in terms of [[abelian category|abelianization]]/[[stabilization]] of [[overcategory|overcategories]].
 
+
 #### Modules for monoids in 2-categories: modules over monads {#MonadAlgs}
 
 The notion of [[monoid]] generalizes straightforwardly from
@@ -45,6 +44,7 @@ for the [[2-category]] [[Cat]], and more generally for arbitrary
 A [[module over a monad]] (see there for more details) is defined essentially exactly as that 
 of module over a monoid. For historical reasons, a module over
 a monad in [[Cat]] is called an _algebra over a monad_, because the algebras in the sense of [[universal algebra]] can be obtained as algebras/modules over a [[finitary monad]] in $Set$: the modules for a free algebra monad (for certain kind of algebras) on [[Set]], which are the composition of the free alegbra functor and its [[right adjoint]] forgetful functor are exactly algebras of that type. Modules over a fixed monad (in $Cat$) are the objects of the [[Eilenberg-Moore category]] of the monad; in arbitrary bicategory, this category generalized to Eilenberg-Moore objects which may or may not exist. 
+
 
 #### Enriched presheaves
 
@@ -92,6 +92,7 @@ We spell out details of the definition of module for
 
 * the generalized case of modules as objects in stabilized overcategories.
 
+
 ### Ordinary concept
 
 A (right) module over a [[monoid]] $A$ [[internalization|internal to]] a [[monoidal category]] $(V, \otimes, I)$ is an object $N$ of $V$ equipped with a morphism
@@ -101,6 +102,7 @@ $$
 $$
 
 in $C$ which satisfies the usual axioms of an [[action]].  
+
 
 #### Example: Modules over rings {#Rings}
 
@@ -191,8 +193,6 @@ $\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] o
 
 Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
  
-
-
 
 ### In enriched category theory
 
@@ -311,13 +311,12 @@ $$
 from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of the [[overcategory]] of $sAlg$. But in general this functor is neither [[essentially surjective functor|essentially surjective]] nor [[full functor|full]]. If however $k$ has characteristic 0, then this is an equivalence.
 
 
-
-
 ## Related concepts
 
 ### Modules over higher and generalized algebras
 
 There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at [[module over an algebra over an operad]].
+
 
 ### Vector bundles and sheaves of modules
 
@@ -347,7 +346,10 @@ $$
 
 By the above discussion, this procedure yieelds the expected notions of modules in particular for the choice $C = (sAlg_k)^{op}$ of simplicial algebras over a ground ring of characteristic 0. The theory of quasicoherent sheaves of modules in this case is discussed in great detail at [[geometric ∞-function theory]]. Some more general remarks along these lines are at [[schreiber:∞-vector bundle]].
 
+
 ### More related concepts
+
+* [[linear combination]]
 
 * [[projective module]], [[injective module]]
 
@@ -376,8 +378,5 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
 
-
-
-
-
+[[!redirects module]]
 [[!redirects modules]]
