@@ -347,7 +347,11 @@ $$
 
 By the above discussion, this procedure yieelds the expected notions of modules in particular for the choice $C = (sAlg_k)^{op}$ of simplicial algebras over a ground ring of characteristic 0. The theory of quasicoherent sheaves of modules in this case is discussed in great detail at [[geometric ∞-function theory]]. Some more general remarks along these lines are at [[schreiber:∞-vector bundle]].
 
+### More related concepts
 
+* [[projective module]], [[injective module]]
+
+* [[projective resolution]], [[injective resolution]]
 
 
 ## References
@@ -372,21 +376,8 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
 
-##Discussion##
 
-+-- {: .query}
 
-> An earlier version of this entry led to the following discussion.
-
-[[Eric Forgy|Eric]]: The wikipedia page distinguishes left $R$-modules as covariant functors and right $R$-modules as contravariant functors. Is that distinction important?
-
-[[John Baez|John]]: Yes, very --- but I didn't have the energy to get into that yet.  For any ring $R$ there's a ring $R^{op}$ in which $x y$ is redefined to be $y x$.   I defined a left $R$-module above; a right $R$-module is the same as a left $R^{op}$-module.  Eventually we'll have to discuss all this stuff, which becomes vastly more important when we start talking about bimodules.  If we want to show off, we'll do it all not just for rings, which are [[monoid|monoids]] in [[Ab]], but more generally for monoids in any [[symmetric monoidal category]].  For any monoid $M$ in a symmetric monoidal category we can define a new monoid $M^{op}$, and we can define left and right $M$-modules, and a right $M$-module is the same as a left $M^{op}$-module.
-
-[[Sridhar Ramesh|Sridhar]]: Given that left modules on rings are the covariant functors while right modules on rings are the contravariant functors, why does the above definition of a module on a monoid make the left modules the contravariant functors and the right modules the covariant functors? Is this actually the conflicting convention?
-
-_Toby_:  One problem is that this mixes with the conventions that one adopts for [[composition]].  What one person thinks is left multiplication, another will think is right multiplication.  I would rather talk about left/right modules for monoids or rings, then talk about covariant/contravariant functors from categories or additive categories.
-
-=--
 
 
 [[!redirects modules]]
