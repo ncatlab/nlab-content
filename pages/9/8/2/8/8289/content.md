@@ -9,13 +9,18 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
+## Disambiguation
+
+The term 'bifunctor' might be used for a [[functor]] between [[bicategories]], but the usual term for that is _'[[pseudo functor]]'_.
+
 
 ## Definition
 
-The term **bifunctor** or **functor of two variables** is another word for a _[[functor]]_ whose [[domain]] is the [[product]] of two [[categories]].
+A **bifunctor** (short for __binary functor__, that is $2$-ary) or **functor of two variables** is simply a _[[functor]]_ whose [[domain]] is the [[product]] of two [[categories]].
 
 For for $C_1$, $C_2$ and $D$ [[categories]], a functor
 
@@ -49,9 +54,23 @@ Famous bifunctors are
     \otimes : C \times C \to C
   $$
 
+
 ## Related concepts
 
-* [[Quillen bifunctor]]
+* [[binary function]], [[bilinear map]]
 
+* [[binary morphism]]
+
+* **bifunctor**, [[Quillen bifunctor]]
+
+
+[[!redirects bifunctor]]
 [[!redirects bifunctors]]
-
+[[!redirects binary functor]]
+[[!redirects binary functors]]
+[[!redirects 2-ary functor]]
+[[!redirects 2-ary functors]]
+[[!redirects functor of two variables]]
+[[!redirects functors of two variables]]
+[[!redirects functor of 2 variables]]
+[[!redirects functors of 2 variables]]
