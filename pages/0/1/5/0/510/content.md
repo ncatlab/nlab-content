@@ -143,6 +143,9 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[symmetric monoidal smash product of spectra]]
 
+### Closed structure
+
+* [[mapping spectrum]]
 
 ### Model category structure
 
