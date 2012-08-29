@@ -80,3 +80,6 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
     
 [[!redirects duality]]
 [[!redirects dualities]]
+
+[[!redirects dualization]]
+
