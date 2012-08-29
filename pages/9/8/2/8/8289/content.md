@@ -1,4 +1,8 @@
 
+> This page is about [[functors]] of two variables in [[category theory]]. For a different notion of the same name in [[2-category theory]] see at _[[2-functor]]_ and _[[pseudo-functor]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,9 +17,7 @@
 * table of contents
 {: toc}
 
-## Disambiguation
 
-The term 'bifunctor' might be used for a [[functor]] between [[bicategories]], but the usual term for that is _'[[pseudo functor]]'_.
 
 
 ## Definition
@@ -48,7 +50,7 @@ Famous bifunctors are
     \,.
   $$
 
-* on every [[monoidal category]] $(C, \otimes)$ then [[tensor product]] functor
+* on every [[monoidal category]] $(C, \otimes)$ the [[tensor product]] functor
 
   $$
     \otimes : C \times C \to C
