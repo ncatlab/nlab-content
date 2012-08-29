@@ -96,16 +96,7 @@ This definition is independent, up to [[natural isomorphism]], of the choice of 
 
 ## Properties
 
-### General
-
-+-- {: .num_theorem}
-###### Theorem
-
-A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]].
-
-=--
-
-### Relation to model category theory
+### Derived adjoint functors
 
 +-- {: .num_note}
 ###### Observation
@@ -127,6 +118,20 @@ is a pair of [[additive functor|additive]] [[adjoint functors]], then
 =--
 
 
+(...)
+
+
+### General
+
++-- {: .num_theorem}
+###### Theorem
+
+A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]].
+
+=--
+
+### Relation to derived categories 
+
 ## Examples
 
 (...)
@@ -134,10 +139,19 @@ is a pair of [[additive functor|additive]] [[adjoint functors]], then
 
 ## References
 
-A standard textbook reference is chapter 2 of 
+A standard textbook introduction is chapter 2 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
  {#Weibel}
+
+A systematic discussion from the point of view of [[homotopy theory]] and [[derived categories]] is in chapter 7 of
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
+
+and section 13 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 [[!redirects derived functors in homological algebra]]
 
