@@ -65,6 +65,10 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 ...
 
+## Related concepts
+
+* [[mapping spectrum]]
+
 ## References
 
 ### Original sources
