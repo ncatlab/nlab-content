@@ -12,7 +12,7 @@ Linear combinations are the most general operations in the [[operads]] for [[mod
 
 Let $R$ be a rig, and let $V$ be a (left) $R$-module.  By 'scalar', we mean an element of $R$; by 'vector', we mean an element of $V$.  Given any [[natural number]] $n$ and any $n$-[[tuple]] $(a_1,\ldots,a_n)$ of scalars (so in short, given a [[finite list]] of scalars), we have an $n$-ary operation on $V$ that maps $(x_1,\ldots,x_n)$ to
 $$ a_1 x_1 + \cdots + a_n x_n .$$
-The result of this operation is the __linear combination__ of the vectors $x_1$ through $x_n$ with respective __coefficients__ $a_1$ through $a_n$.
+The result of this operation is the __linear combination__ of the vectors $x_1$ through $x_n$ with respective __[[coefficients]]__ $a_1$ through $a_n$.
 
 
 ## Examples
