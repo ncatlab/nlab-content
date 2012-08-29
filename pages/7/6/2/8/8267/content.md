@@ -139,7 +139,7 @@ $$
     \\
     && && && && && & \nearrow && \searrow
     \\
-    C_\box &&\to&& A^{hor} &\to& A_{\Box} &\to& {}^{\Box} B &\to& B^{hor} 
+    C_\Box &&\to&& A^{hor} &\to& A_{\Box} &\to& {}^{\Box} B &\to& B^{hor} 
    &&\to&& {}^{\Box}D 
    \\
    & \searrow && \nearrow
@@ -155,14 +155,14 @@ where all the elementary morphisms are the unique intramural maps from lemma \re
 
 =--
 
-This is ([BErgman, lemma 1.7](#Bergman)).
+This is ([Bergman, lemma 1.7](#Bergman)).
 
 We record some immediate consequences
 
 +-- {: .num_cor}
 ###### Corollary
 
-If the row of the double complex is exact at $A$ and $B$, hence if $A^{hor} = 0$ and $B^{hor} = $, then the extramural map
+If the row of the double complex is exact at $A$ and $B$, hence if $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map
 
 $$
   A_{\Box} \to {}^\Box B
