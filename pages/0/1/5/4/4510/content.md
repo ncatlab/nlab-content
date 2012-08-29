@@ -15,31 +15,63 @@
 
 ## Idea
 
-In the context of [[homological algebra]] the right [[derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom $Ext(A,K)$ between [[abelian group]]s classifies [[group extension]]s of $A$ by $K$. 
-
-(This is really a special case of the general discussion at [[cohomology]] and [[group cohomology]].)
+In the context of [[homological algebra]] the [[right derived functor]] of the [[hom-functor]] is called the _$Ext$-functor_ . It derives its name from the fact that the derived hom between [[abelian groups]] classifies [[group extensions]] of $A$ by $K$. (This is a special case of the general classificaton of [[principal ∞-bundles]]/[[∞-group extensions]] by general [[cohomology]]/[[group cohomology]].)
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
 ## Definition
-Given an [[abelian category]] $A$ we may consider the [[hom-functor]] $Hom_A : A^{op}\times A\to Ab$ either as a functor in first or in second variable, and compute the corresponding right [[derived functor]]s. If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an injective [[resolution]] of the first contravariant argument and projective resolution of the second covariant argument. The last construction is called the balanced $Ext$.
 
-Alternatively, one can consider the [[derived category]] $D(A)$ and define 
+Given an [[abelian category]] $\mathcal{A}$ we may consider the [[hom-functor]] $Hom_{\mathcal{A} : \mathcal{A}^{op}\times \mathcal{A}\to $[[Ab]] either as a functor in first or in second argument, and compute the corresponding [[right derived functors]]. 
+
+If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an  [[injective resolution]] of the first contravariant argument and [[projective resolution]] of the second covariant argument. The last construction is called the _balanced $Ext$._
+
+Alternatively, one can consider the [[derived category]] $D(\mathcal{A})$ and define 
 
 $$
-Ext^i(M,N) := Hom_{D(A)}(M,N[i])
+  Ext^p(X,A) \coloneqq Hom_{D(A)}(X,A[p])
 $$
 
-or define $Ext^i$-groups as groups of extensions of length $i$. 
+or define $Ext^i$-groups as groups of extensions of length $i$, discussed below at _[Relation to group extensions](#RelationToGroupExtensions)_.
 
 ## Properties
 
 ### Relation to group extensions
+ {#RelationToGroupExtensions}
 
 (...)
 
 ### Localization
  {#Locatization}
+
+(...)
+
+## Application in cohomoloy
+
+The _[[universal coefficient theorem]]_ identifies, under suitable conditions, [[cohomology]] to the [[duality|dual]] of [[homology]] up to $Ext^1$-groups.
+
+Various notions of [[cohomology groups]] in the context of [[algebra]] can be expressed as $Ext$-groups, for instance
+
+* For $G$ a [[discrete group]] with $\mathbb{Z}[G]$ its [[group ring]], over the [[integers]], and for $N$ a linear $G$-[[representation]], hence a $\mathbb{Z}[G]$-[[module]], the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
+  
+  $$
+    Ext^\bullet_{\mathbb{Z}[G]Mod}(\mathbb{Z}[G], N)
+    \,.
+  $$
+
+* For $A$ an [[associative algebra]] over some [[field]] $k$ and $N$ an $A$-[[bimodule]], hence an $A \otimes A^{op}$-[[module]], 
+
+  $$
+    Ext^\bullet_{(A \otimes A^{op})Mod}(A, N) 
+  $$
+
+  is the [[Hochschild cohomology]] of $A$ with [[coefficients]] in $N$.
+
+* For $\mathfrak{g}$ a [[Lie algebra]] with [[universal enveloping algebra]] $\mathcal{U}(\mathcal{g})$ and $N$ a Lie algebra module, hence an $\mathcal{U}(\mathfrak{g})$-module, the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $N$ is
+
+  $$
+    Ext^\bullet_{\mathcal{U}(\mathfrak{g}) Mod}(\mathcal{U}(\mathfrak{g}), N)
+    \,.
+  $$
 
 ## Related concepts
 
@@ -47,7 +79,7 @@ or define $Ext^i$-groups as groups of extensions of length $i$.
 
 ## References
 
-Standard texbook account include
+Standard texbook accounts include (see also most references at _[[homological algebra]]_)
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
  {#Weibel}
@@ -57,6 +89,10 @@ Standard texbook account include
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
 
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
+
+See also
+
+* Wikipedia, _[Ext functor](http://en.wikipedia.org/wiki/Ext_functor)_
 
 [[!redirects Ext group]]
 [[!redirects Ext-group]]
