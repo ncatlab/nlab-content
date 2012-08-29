@@ -24,7 +24,7 @@ Together with the [[Ext-functor]] it constitutes one of the central operations o
 
 Given a [[ring]] $R$ the [[bifunctor]] $\otimes_R : Mod_{R}\times _{R}Mod\to Ab$
 from two copies of $R$-[[Mod]] to [[Ab]] is a [[right exact functor]]. Its 
-[[leftderived functors]] are the **Tor-functors
+[[left derived functors]] are the **Tor-functors
 
 $$
   Tor(-,B)
@@ -51,7 +51,65 @@ $$
 
 ### Existence and balancing
 
-If there are sufficiently many [[projective objects]] in both $Mod_{R}$ and $_{R}Mod$, both are equal to balancing $Tor$, which is the bifunctor obtained by taking the homology of [[total complex]] of a [[double complex]] of $Hom$-s in which $A\otimes B$ is resolved by taking a projective resolution in each argument. 
+Given a right $R$-module
+
+$$
+  A \in Mod_R
+$$
+
+and a left $R$-module
+
+$$
+  B \in {}_R Mod
+$$
+
+there are in principle three different ways to compute their derived tensor product $Tor_\bullet(A,B)$:
+
+1. keeping $B$ fixed and deriving the functor
+
+   $$
+     (-) \otimes_R B : Mod_R \to Ab 
+   $$
+
+1. keeping $A$ fixed and deriving the functor
+
+   $$
+     A \otimes_R (-) : {}_R Mod \to Ab
+   $$
+
+1. deriving the functor 
+
+   $$
+     (-) \otimes_R (-) : Mor_R \times {}_R Mod \to Ab
+   $$
+
+   in both arguments
+
++-- {: .num_theorem}
+###### Theorem
+
+If both $Mod_{R}$ and $_{R}Mod$ have [[projective object|enough projectives]], then all these three derived functors exist and all give the same result (up to [[isomorphism]] on chain homology:
+
+for $P \to A$ and $Q \to A$ [[projective resolutions]], there are [[quasi-isomorphisms]]
+
+$$
+  A \otimes Q 
+  = 
+  Tot (A \otimes Q)
+  \stackrel{\simeq}{\leftarrow}
+  Tot(P \otimes Q)
+  \stackrel{\simeq}{\to}
+  Tot(P \otimes B)
+  = 
+  P \otimes B
+  \,.
+$$
+
+=--
+
+(...)
+
+For instance ([Weibel, theorem 2.7.2](#Weibel)).
 
 ### Relation to torsion groups
  {#RelationToTorsionGroups}
@@ -68,7 +126,7 @@ Let $A$ and $B$ be [[abelian groups]]. Write $Tor^\mathbb{Z}$ for the left deriv
 
 1. $Tor^{\mathbb{Z}}_1^(\mathbb{Q}/\mathbb{Z}, A)$ is the [[torsion subgroup]] of $A$.
 
-1 $A$ is a [[torsiofree group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
+1 $A$ is a [[torsion subgroup|torsion free group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
 
 =--
 
