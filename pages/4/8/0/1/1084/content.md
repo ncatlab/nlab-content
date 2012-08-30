@@ -30,6 +30,7 @@ The dual notion is that of [[mapping cocone]].
 
 
 ## Definition
+ {#Definition}
 
 In an [[(∞,1)-category]] $\mathcal{C}$ the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
 
@@ -47,13 +48,13 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplical localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
+If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
 
 $$
   \array{
     && X &\stackrel{f}{\to}& Y
     \\
-    && \downarrow^{i_1} && \downarrow
+    && \downarrow^{\mathrlap{i_1}} && \downarrow
     \\
     X &\stackrel{i_0}{\to}& cyl(X)
     \\
@@ -70,6 +71,9 @@ in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
 This is discussed at [[factorization lemma]] and at [[homotopy pullback]].
 
 
++-- {: .num_prop }
+###### Proposition
+
 This colimit, in turn, may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
 
 $$
@@ -78,25 +82,29 @@ $$
     \\
     && \downarrow^{i_1} && \downarrow
     \\
-    X &\stackrel{i_0}{\to}& cyl(X) && cyl(f)
+    X &\stackrel{i_0}{\to}& cyl(X) &\to & cyl(f)
     \\
-    \downarrow && \downarrow 
+    \downarrow && \downarrow && \downarrow
     \\
-    {*} &\to& cone(X) &\to& coker(f) 
+    {*} &\to& cone(X) &\to& cone(f) 
   }
   \,.
 $$
 
 Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectengular pasting composite).
 
-+-- {: .num_defn }
+=--
+
+This now is a basic fact in ordinary [[category theory]]. The pushouts appearing here go by the following names:
+
++-- {: .num_defn #CylindersAndCones}
 ###### Definition
 
 The pushout
 
 $$
   \array{
-     X &\stackrel{i_0}{\to}& Cyl(X)
+     X &\stackrel{i_0}{\to}& cyl(X)
      \\
      \downarrow && \downarrow
      \\
@@ -104,7 +112,7 @@ $$
   }
 $$
 
-defines the **cone** $cone(X)$ over $X$ (with respect to the chosen [[cylinder object]]): the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
+defines the **[[cone]]** $cone(X)$ over $X$ (with respect to the chosen [[cylinder object]]): the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
 
 The pushout 
 
@@ -118,7 +126,7 @@ $$
   }
 $$
 
-defines the **mapping cylinder** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
+defines the **[[mapping cylinder]]** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
 
 The pushout 
 
@@ -132,7 +140,7 @@ $$
   }
 $$
 
-defi es the **mapping cone** $cone(f)$ of $f$: the result of forming the cyclinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+defines es the **mapping cone** $cone(f)$ of $f$: the result of forming the cyclinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
 
 =--
 
@@ -148,7 +156,7 @@ Some of these examples are regarded in parts of the literature as the default ex
 
 The mapping cone of the morphism $X \to {*}$ to the [[terminal object]] is the [[suspension object]] $\Sigma X$ of an object $X$. The dual notion of the [[loop space object]] of $X$.
 
-### For topoligical space
+### For topological spaces
  {#ForTopologicalSpaces}
 
 The construction is geometrically most obvious in the category [[Top]] of [[topological spaces]].
@@ -196,11 +204,14 @@ $$
 
 Notice the minus sign here, coming from the definition of a [[differential object|shifted differential object]].
 
+
 ### For chain complexes
  {#InChainComplexes}
 
 
-Let $Ch_\bullet$ be the [[category of chain complexes]] in non-negative degree.
+Let $Ch_\bullet = Ch_\bullet(R Mod)$ be the [[category of chain complexes]] in $R$[[Mod]] for some [[ring]] $R$. If $R = \mathbb{Z}$ the [[integers]], then this is $Ch_\bullet(Ab)$, chain complexes of [[abelian groups]]. More generally $R Mod$ can be replaced by any [[abelian category]] in the following, with the evident changes in  the presentation here and there.
+
+We discuss the standard construction of the mapping cone $cone(f)$ of a [[chain map]] $f$. 
 
 +-- {: .num_defn }
 ###### Definition
@@ -210,16 +221,30 @@ Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
 $$
   I_\bullet
   = 
-  (\cdots 0 \to 0 \to \mathbb{Z} \stackrel{(id,-id)}{\to} \mathbb{Z} \oplus \mathbb{Z})
+  (\cdots 0 \to 0 \to R \stackrel{(id,-id)}{\to} R \oplus R)
   \,.
 $$
 
 =--
 
+
++-- {: .num_remark }
+###### Remark
+
 This is an [[interval object]] in $\mathcal{A}$.
 
-+-- {: .num_defn }
-###### Definition
+It in in fact the [[normalized chain complex]] of [[chains on a simplicial set]] for the canonical simplicial interval, the 1-[[simplex]]:
+
+$$
+  I_\bullet = C_\bullet(\Delta[1])
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
 
 For $X_\bullet \in Ch_\bullet$ the
 [[tensor product of chain complexes]] 
@@ -230,33 +255,34 @@ $$
   Ch_\bullet
 $$
 
-is the [[cylinder object]] of $X_\bullet$.
+is a [[cylinder object]] of $X_\bullet$
+for the structure of a [[category of cofibrant objects]] on $Ch_\bullet$
+whose cofibrations are the [[monomorphisms]] and whose weak equivalences are the [[quasi-isomorphisms]].
 
 =--
 
-+-- {: .num_remark }
-###### Remark
++-- {: .num_prop }
+###### Proposition
 
-The complex $X_\bullet \otimes I_\bullet$ is 
-in components given by
+The complex $X_\bullet \otimes I_\bullet$ has components
 
 $$
   (X \otimes I)_n
   = 
   X_n \oplus X_n \oplus X_{n-1}
-$$
-
-$$
-  \cdots
-   \to
-  (X_2 \oplus X_2 \oplus X_1
-    \to
-  (X_1 \oplus X_1) \oplus X_0
-   \stackrel{}{\to}
-  (X_0 \oplus X_0)
+  \,.
 $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By the formula discussed at [[tensor product of chain complexes]].
+
+=--
+
+One part of definition \ref{CylindersAndCones} now reads:
 
 +-- {: .num_defn }
 ###### Definition
@@ -266,7 +292,7 @@ the [[mapping cylinder]] $Cyl(f)$ is the [[pushout]]
 
 $$
   \array{
-    Cyl(f) &\leftarrow& Y
+    cyl(f) &\leftarrow& Y
     \\
     \uparrow && \uparrow
     \\
@@ -280,27 +306,38 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
+The components of $cyl(f)$ are
+
 $$
-  Cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
+  cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
 $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Limits and colimits in a category of chain complexes $Ch_\bullet(\mathcal{A})$ are computed degreewise in $\mathcal{A}$. Here the statement is evident.
+
+=--
+
+Another part of definition \ref{CylindersAndCones} now reads:
 
 +-- {: .num_defn }
 ###### Definition
 
 For $f_\bullet : X_\bullet \to Y_\bullet $ a [[chain map]],
-the **mapping cone** $Cone(f)$ is the [[pushout]]
+the **mapping cone** $cone(f)$ is the [[pushout]]
 
 $$
   \array{
-    Cone(f) &\leftarrow& Cyl(f)
+    cone(f) &\leftarrow& cyl(f)
     \\
     \uparrow && \uparrow
     \\
-    && X \otimes I
+    cone(X) &\leftarrow& X \otimes I
     \\
-    \uparrow && \uparrow^{i_1}
+    \uparrow && \uparrow^{\mathrlap{i_1}}
     \\
     0 &\leftarrow& X
   }
@@ -312,10 +349,19 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
+The components of $cone(f)$ are
 
 $$
-  Cone(f)_n = Y_n \oplus X_{n-1}
+  cone(f)_n = Y_n \oplus X_{n-1}
+  \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As before the pushout is computed degreewise.
 
 =--
 
