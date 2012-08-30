@@ -1,5 +1,5 @@
 
-> This page is about [[functors]] of two variables in [[category theory]]. For a different notion of the same name in [[2-category theory]] see at _[[2-functor]]_ and _[[pseudo-functor]]_.
+> This page is about [[functors]] of two variables in [[category theory]]. For a different notion of the same name in [[2-category theory]] see at _[[2-functor]]_.
 
 ***
 
