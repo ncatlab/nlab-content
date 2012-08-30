@@ -156,7 +156,7 @@ For instance ([Weibel, cor. 3.2.13](#Weibel)).
 
 ## References
 
-Standard textbook account include the following:
+Standard textbook accounts include the following:
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
  {#Weibel}
@@ -166,6 +166,14 @@ Standard textbook account include the following:
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
 
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
+
+Lecture notes include
+
+section 3 of 
+
+* [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
+ {#May}
+
 
 
 
