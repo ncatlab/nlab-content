@@ -19,8 +19,6 @@ In the context of [[homological algebra]] the [[right derived functor]] of the [
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
-## Definition
-
 Given an [[abelian category]] $\mathcal{A}$ we may consider the [[hom-functor]] $Hom_{\mathcal{A}} : \mathcal{A}^{op}\times \mathcal{A}\to $[[Ab]] either as a functor in first or in second argument, and compute the corresponding [[right derived functors]]. 
 
 If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an  [[injective resolution]] of the first contravariant argument and [[projective resolution]] of the second covariant argument. The last construction is called the _balanced $Ext$._
@@ -32,6 +30,195 @@ $$
 $$
 
 or define $Ext^i$-groups as groups of extensions of length $i$, discussed below at _[Relation to group extensions](#RelationToGroupExtensions)_.
+
+
+## Definition
+
+We give the definition following the discussion at _[[derived functors in homological algebra]]_.
+
+### Contravariant $Ext$ on an ordinary object
+ {#ContravariantExtOnObject}
+
+Let $\mathcal{A}$ be an [[abelian category]] with 
+[[projective object|enough projectives]]. And let $A \in \mathcal{A}$ be any object. Consider the [[contravariant functor|contravariant]] [[hom-functor]]
+
+$$
+  Hom_{\mathcal{A}}(-, A) : \mathcal{A}^{op} \to Ab
+  \,.
+$$
+
++-- {: .num_remark}
+###### Remark
+
+This is a [[left exact functor]]. 
+
+Therefore to derive it by [[resolutions]] we need to consider
+[[injective resolutions]] in the [[opposite category]] $\mathcal{A}^{op}$.
+But these are [[projective resolutions]] in $\mathcal{A}$ itself.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in \mathcal{A}$ any object and $((Q X) \to X) \in Ch_{\bullet \geq 0}(\mathcal{A})$ a [[projective resolution]], and for $n \in \mathbb{N}$, the **$n$th $Ext$-group** of $X$ with [[coefficients]] in $A$ is the degree-$n$ [[cochain cohomology]]
+
+$$
+  Ext^n(X,A) 
+   \coloneqq 
+  H^\bullet ( Hom_{\mathcal{A}}((Q X)_\bullet, A))
+$$
+
+of the [[cochain complex]] $Hom((Q X)_\bullet, A)$. 
+
+=--
+
+The following proposition expands a bit on the meaning of this definition. Write 
+
+$$
+  [-,-] : Ch_{\bullet}(\mathcal{A})^{op} \times Ch_\bullet(\mathcal{A})
+  \to 
+  Ch_\bullet(Ab)
+$$ 
+
+for the [[internal hom of chain complexes|enriched hom of chain complexes]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+The $n$th Ext-group is canonically identified with the 0-th [[homology]] of this enriched hom from the resolution $Q X$ of $X$ to the $n$-fold [[delooping]]/[[suspension]] chain complex of $A$
+$\mathbf{B}^n A = A[n]$ (concentrated on $A$ in degree $n$):
+
+$$
+  Ext^n(X,A)
+  \simeq
+  H_0 [(Q X), A[n] ]
+  \,;
+$$ 
+
+or equivalently, if we think of degree [[chain homology]] as the 0th [[homotopy group]] (under [[Dold-Kan correspondence]]) and write the $n$-fold [[suspension]]/[[delooping]] of $A$ as $\mathbf{B}^n A$:
+
+$$
+  Ext^n(X,A)
+  \simeq
+  \pi_0 [(Q X), \mathbf{B}^n A ]
+  \,.
+$$ 
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a special case of the general discussion at [[cochain cohomology]].
+
+By the discussion at _[[internal hom of chain complexes]]_, the 0-[[cycles]] of $[(Q X), \mathbf{B}^n A ]$ are [[chain maps]] of the form
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    \downarrow && \downarrow
+    \\
+    (Q X)_{n+1} &\stackrel{f_{n+1}}{\to}& 0
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_{n-1}}} && \downarrow
+    \\
+    (Q X)_{n} &\stackrel{f_{n}}{\to}&  A
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_{n-1}}} && \downarrow
+    \\
+    (Q X)_{n-1} &\stackrel{f_{n-1}}{\to}& 0
+    \\
+    \downarrow && \downarrow
+    \\
+    \vdots && \vdots
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_1}} && \downarrow
+    \\
+    (Q X)_1 &\stackrel{f_1}{\to}& 0    
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_0}} && \downarrow
+    \\
+    (Q X)_0 &\stackrel{f_0}{\to}& 0
+  }
+  \,.
+$$ 
+
+By the definition of chain maps this are precisely those morphisms
+$f_n : (Q X)_n \to A$ such that 
+
+$$
+  d^n f_n \coloneqq f_n \circ \partial^{Q X}_n = 0
+$$
+
+which exhibits $f_n$ as a degree-$n$ [[cochain]] in the [[cochain complex]] $Hom((Q X)_\bullet, A)$.
+
+Similarly, the $0$-[[boundaries]] in $[(Q X), \mathbf{B}^n A]$ come from [[chain homotopies]] $\lambda : 0 \Rightarrow f$:
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    \downarrow && \downarrow
+    \\
+    (Q X)_{n+1} &\stackrel{f_{n+1}}{\to}& 0
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_{n-1}}} 
+     &\nearrow_{\mathrlap{\lambda_{n+1}}}& \downarrow
+    \\
+    (Q X)_{n} &\stackrel{f_{n}}{\to}&  A
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_{n-1}}} 
+    &\nearrow_{\mathrlap{\lambda_{n}}}& \downarrow
+    \\
+    (Q X)_{n-1} &\stackrel{f_{n-1}}{\to}& 0
+    \\
+    \downarrow && \downarrow
+    \\
+    \vdots && \vdots
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_1}} 
+    &\nearrow_{\mathrlap{\lambda_{2}}}& \downarrow
+    \\
+    (Q X)_1 &\stackrel{f_1}{\to}& 0    
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_0}} 
+    &\nearrow_{\mathrlap{\lambda_{1}}}& \downarrow
+    \\
+    (Q X)_0 &\stackrel{f_0}{\to}& 0
+  }
+  \,.
+$$ 
+
+in that 
+
+$$
+  f_n = \lambda_n \circ \partial^{Q X}_{n-1}
+  \,.
+$$
+
+This are precisely the degree-$n$ [[coboundaries]] in 
+$Hom((Q X)_\bullet, A)$.  
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This perspective on the $Ext^n$-group as being the [[homotopy classes]] of maps out of (a resolution of) $X$ to $\mathbf{B}^n A$ is made more manifest in the discussion [in terms of derived categories](#InTermsOfDerivedCategories) below. It connects $Ext$-groups and their [relation to group extensions](#RelationToGroupExtensions) to the general context of _[[cohomology]]_ and _[[∞-group extensions]]_. See at _[[abelian sheaf cohomology]]_ for more on this.
+ 
+=--
+
+### In terms of derived categories
+ {#InTermsOfDerivedCategories}
+
+(...)
+
+([Kashiwara-Shapira](#KashiwaraShapira))
+
+(...)
 
 ## Properties
 
@@ -45,11 +232,15 @@ or define $Ext^i$-groups as groups of extensions of length $i$, discussed below 
 
 (...)
 
-## Application in cohomoloy
+## Applications in cohomoloy
+
+### Universal coefficient theorem
 
 The _[[universal coefficient theorem]]_ identifies, under suitable conditions, [[cohomology]] to the [[duality|dual]] of [[homology]] up to $Ext^1$-groups.
 
-Various notions of [[cohomology groups]] in the context of [[algebra]] can be expressed as $Ext$-groups, for instance
+### Various notions of cohomology expressed by $Ext$
+
+Various notions of [[cohomology groups]] in the context of [[algebra]] can be expressed as $Ext$-groups, for instance:
 
 * For $G$ a [[discrete group]] with $\mathbb{Z}[G]$ its [[group ring]], over the [[integers]], and for $N$ a linear $G$-[[representation]], hence a $\mathbb{Z}[G]$-[[module]], the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
   
@@ -86,9 +277,19 @@ Standard texbook accounts include (see also most references at _[[homological al
 
 * [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press 1956.
 
-* M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
+* S. I . Gelfand, [[Yuri Manin]], _Methods of homological algebra_
 
-* S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
+A systematic discussion from the point of view of [[derived categories]] is in 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer (2000)
+ {#KashiwaraShapira}
+
+Lecture notes include
+
+* Kiyoshi Igusa, _25 The Ext Functor_ ([pdf](http://people.brandeis.edu/~igusa/Math101b/Ext.pdf))
+
+* Patrick Morandi, _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+
 
 See also
 
