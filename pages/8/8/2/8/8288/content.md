@@ -30,9 +30,13 @@ Dually, for non-negatively graded chain complexes of abelian groups there is a m
 
 ## Related concepts
 
-* [[projective object]], [[projective module]]
+* [[projective object]], [[projective presentation]], **projective resolution**
 
-* [[injective object]], [[injective module]]
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective resolution]]
+
+  * [[injective module]]
 
 
 [[!redirects projective resolution]]
