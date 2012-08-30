@@ -198,6 +198,8 @@ On the other hand, there is no particular harm either in having such structure a
 
 * **subobject**
 
+* [[pure subobject]]
+
 * [[subobject in an (∞,1)-category]]
 
 * [[property sup]]
