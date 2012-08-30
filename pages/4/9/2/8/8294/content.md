@@ -1,0 +1,10 @@
+
+## Idea
+
+An _equation_ is a [[proposition]] of [[equality]].
+
+## Related concepts
+
+* [[differential equation]]
+
+[[!redirects equations]]
