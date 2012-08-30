@@ -1,0 +1,4 @@
+
+
+A _category of cofibrant objects_ is the [[opposite category]] of a [[category of fibrant objects]].
+
