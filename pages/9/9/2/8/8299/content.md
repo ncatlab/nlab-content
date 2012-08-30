@@ -1,0 +1,19 @@
+
+
+## Idea
+
+The [[duality|dual]] notion of _[[projective presentation]]_.
+
+## Related concepts
+
+* [[projective object]], [[projective presentation]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], **injective presentation**, [[injective resolution]]
+
+  * [[injective module]]
+
+
+
+[[!redirects injective presentations]]
