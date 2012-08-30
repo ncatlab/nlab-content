@@ -988,6 +988,7 @@ This follows along the above lines. The statement appears for instance as
 ([Behrend, lemma 1.19](#Behrend)).
 
 #### Relation to $H \mathbb{Z}$-algebra spectra
+ {#RelationToAInfinityAlgebras}
 
 For every [[ring spectrum]] $R$ there is the notion of [[algebra spectra]] over $R$. Let $R := H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integer]]s. Then unbounded dg-algebras (over $\mathbb{Z}$) are one model for $H \mathbb{Z}$-algebra spectra.
 
@@ -1001,7 +1002,8 @@ There is a [[Quillen equivalence]] between the standard [[model category]] struc
 
 See [[algebra spectrum]] for details.
 
-## Relation to $\mathbb{E}_\infty$-algebras
+#### Relation to $\mathbb{E}_\infty$-algebras
+ {#RelationToEInfinityAlgebras}
 
 Commutative dg-algebras 
 over a field $k$ of characteristic 0 constitute a presentation of 
