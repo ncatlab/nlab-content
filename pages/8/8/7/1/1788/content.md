@@ -7,16 +7,19 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 $V \displaystyle\hat{\otimes} W$ vs $V {\displaystyle\hat{\otimes}} W$
 
-see also the interesting footnote below[^footnotelable]
+see also the interesting footnote below[^footnote1]
 
 bla bla bla bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla 
 
 
-[^footnotelable]: This footnote is not actually interesting.
+[^footnote1]: This footnote is not actually interesting.
 
 
 blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla
 
+and this footnote, too[^footnote2]
+
+[^footnote2]: Neither this footnote is very interesting.
 
 ***
 
