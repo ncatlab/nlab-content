@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _mapping cone_ of a [[morphism]] $f : X \to Y$ in some [[homotopical caetgory]] (precisely: a [[categor of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy fiber|homotopy cofiber]] of $f$. 
+The _mapping cone_ of a [[morphism]] $f : X \to Y$ in some [[homotopical category]] (precisely: a [[category of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy fiber|homotopy cofiber]] of $f$. 
 
 It is also called the _homotopy [[cokernel]]_ of $f$ or the _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
 
@@ -31,7 +31,7 @@ The dual notion is that of [[mapping cocone]].
 
 ## Definition
 
-In an [[(∞,1)-category]] the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
+In an [[(∞,1)-category]] $\mathcal{C}$ the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
 
 $$
   \array{
@@ -44,7 +44,10 @@ $$
   \,.
 $$
 
-When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[category of fibrant objects|category of cofibrant objects]] (for instance a  [[model category]] with only cofibrant objects) then this may be computed by the ordinary [[colimit]] 
++-- {: .num_prop }
+###### Proposition
+
+If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplical localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
 
 $$
   \array{
@@ -52,7 +55,7 @@ $$
     \\
     && \downarrow^{i_1} && \downarrow
     \\
-    X &\stackrel{i_0}{\to}& Cyl(X)
+    X &\stackrel{i_0}{\to}& cyl(X)
     \\
     \downarrow && &\searrow & \downarrow
     \\
@@ -60,7 +63,14 @@ $$
   }
 $$
 
-using a [[cylinder object]] $Cyl(X)$ for $X$, that models the [[left homotopy]] filling the original homotopy pushout diagram. This colimit, in turn, may be computed in two stages by two consecutive [[pushout]]s as
+in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
+
+=--
+
+This is discussed at [[factorization lemma]] and at [[homotopy pullback]].
+
+
+This colimit, in turn, may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
 
 $$
   \array{
@@ -68,7 +78,7 @@ $$
     \\
     && \downarrow^{i_1} && \downarrow
     \\
-    X &\stackrel{i_0}{\to}& Cyl(X)
+    X &\stackrel{i_0}{\to}& cyl(X) && cyl(f)
     \\
     \downarrow && \downarrow 
     \\
@@ -77,7 +87,12 @@ $$
   \,.
 $$
 
-The first [[pushout]] here 
+Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectengular pasting composite).
+
++-- {: .num_defn }
+###### Definition
+
+The pushout
 
 $$
   \array{
@@ -89,9 +104,9 @@ $$
   }
 $$
 
-is  the **cone** over $X$: the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
+defines the **cone** $cone(X)$ over $X$ (with respect to the chosen [[cylinder object]]): the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
 
-The remaining [[pushout]]
+The pushout 
 
 $$
   \array{
@@ -99,24 +114,42 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    cone(X) &\to& coker(f) & =: cone(f)
+    cyl(X) &\to& cyl(f)
   }
 $$
 
-is the **mapping cone** of $f$:
+defines the **mapping cylinder** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
 
-this is the result of taking that _other_ remaining end of the cyclinder and gluing that to $Y$, using the identification given by $f$.
+The pushout 
 
-The geometric intuition behind this is best seen in the archetypical example of the [[model category]] [[Top]]. See the examples below.
+$$
+  \array{
+    cyl(x) &\to& cyl(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    cone(X) &\to& cone(f)
+  }
+$$
+
+defi es the **mapping cone** $cone(f)$ of $f$: the result of forming the cyclinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+
+=--
+
+The geometric intuition behind this is best seen in the archetypical example of the [[model category]] [[Top]]. See the example _[For topological spaces](#ForTopologicalSpaces)_ below. The example _[For chain complexes](InChainComplexes)_ can be understood similarly geometrically by thinking of all chain complexes as [[singular chain complex|singular chains]] on topological spaces.
 
 
 ## Examples
+
+We discuss realizations of the general construction in various contexts.
+Some of these examples are regarded in parts of the literature as the default examples, notably that [for topological spaces](#ForTopologicalSpaces) and that [for chain complexes](#InChainComplexes).
 
 ### Suspension 
 
 The mapping cone of the morphism $X \to {*}$ to the [[terminal object]] is the [[suspension object]] $\Sigma X$ of an object $X$. The dual notion of the [[loop space object]] of $X$.
 
 ### For topoligical space
+ {#ForTopologicalSpaces}
 
 The construction is geometrically most obvious in the category [[Top]] of [[topological spaces]].
 
@@ -163,13 +196,131 @@ $$
 
 Notice the minus sign here, coming from the definition of a [[differential object|shifted differential object]].
 
-### In chain complexes
+### For chain complexes
  {#InChainComplexes}
 
 
-(...)
+Let $Ch_\bullet$ be the [[category of chain complexes]] in non-negative degree.
 
-### In cochain complexes
++-- {: .num_defn }
+###### Definition
+
+Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
+
+$$
+  I_\bullet
+  = 
+  (\cdots 0 \to 0 \to \mathbb{Z} \stackrel{(id,-id)}{\to} \mathbb{Z} \oplus \mathbb{Z})
+  \,.
+$$
+
+=--
+
+This is an [[interval object]] in $\mathcal{A}$.
+
++-- {: .num_defn }
+###### Definition
+
+For $X_\bullet \in Ch_\bullet$ the
+[[tensor product of chain complexes]] 
+
+$$
+  X_\bullet \otimes I_\bullet
+  \in
+  Ch_\bullet
+$$
+
+is the [[cylinder object]] of $X_\bullet$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The complex $X_\bullet \otimes I_\bullet$ is 
+in components given by
+
+$$
+  (X \otimes I)_n
+  = 
+  X_n \oplus X_n \oplus X_{n-1}
+$$
+
+$$
+  \cdots
+   \to
+  (X_2 \oplus X_2 \oplus X_1
+    \to
+  (X_1 \oplus X_1) \oplus X_0
+   \stackrel{}{\to}
+  (X_0 \oplus X_0)
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet : X_\bullet \to Y_\bullet $ a [[chain map]],
+the [[mapping cylinder]] $Cyl(f)$ is the [[pushout]]
+
+$$
+  \array{
+    Cyl(f) &\leftarrow& Y
+    \\
+    \uparrow && \uparrow
+    \\
+    X \otimes I &\stackrel{i_0}{\leftarrow}& X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+$$
+  Cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet : X_\bullet \to Y_\bullet $ a [[chain map]],
+the **mapping cone** $Cone(f)$ is the [[pushout]]
+
+$$
+  \array{
+    Cone(f) &\leftarrow& Cyl(f)
+    \\
+    \uparrow && \uparrow
+    \\
+    && X \otimes I
+    \\
+    \uparrow && \uparrow^{i_1}
+    \\
+    0 &\leftarrow& X
+  }
+$$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+
+$$
+  Cone(f)_n = Y_n \oplus X_{n-1}
+$$
+
+=--
+
+
+### For cochain complexes
  {#InCochainComplexes}
 
 We spell out the situation in more detail in a [[category of cochain complexes]].
