@@ -29,7 +29,7 @@ $$
   Ext^p(X,A) \coloneqq Hom_{D(A)}(X,A[p])
 $$
 
-or define $Ext^i$-groups as groups of extensions of length $i$, discussed below at _[Relation to group extensions](#RelationToGroupExtensions)_.
+or define $Ext^i$-groups as groups of extensions of length $i$, discussed below at _[Relation to extensions](#RelationToGroupExtensions)_.
 
 
 ## Definition
@@ -58,7 +58,7 @@ But these are [[projective resolutions]] in $\mathcal{A}$ itself.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #OfSingleObjByProjResolution}
 ###### Definition
 
 For $X \in \mathcal{A}$ any object and $((Q X) \to X) \in Ch_{\bullet \geq 0}(\mathcal{A})$ a [[projective resolution]], and for $n \in \mathbb{N}$, the **$n$th $Ext$-group** of $X$ with [[coefficients]] in $A$ is the degree-$n$ [[cochain cohomology]]
@@ -207,7 +207,7 @@ $Hom((Q X)_\bullet, A)$.
 +-- {: .num_remark}
 ###### Remark
 
-This perspective on the $Ext^n$-group as being the [[homotopy classes]] of maps out of (a resolution of) $X$ to $\mathbf{B}^n A$ is made more manifest in the discussion [in terms of derived categories](#InTermsOfDerivedCategories) below. It connects $Ext$-groups and their [relation to group extensions](#RelationToGroupExtensions) to the general context of _[[cohomology]]_ and _[[∞-group extensions]]_. See at _[[abelian sheaf cohomology]]_ for more on this.
+This perspective on the $Ext^n$-group as being the [[homotopy classes]] of maps out of (a resolution of) $X$ to $\mathbf{B}^n A$ is made more manifest in the discussion [in terms of derived categories](#InTermsOfDerivedCategories) below. It connects $Ext$-groups and their [relation to extensions](#RelationToGroupExtensions) to the general context of _[[cohomology]]_ and _[[∞-group extensions]]_. See at _[[abelian sheaf cohomology]]_ for more on this.
  
 =--
 
@@ -222,17 +222,127 @@ This perspective on the $Ext^n$-group as being the [[homotopy classes]] of maps 
 
 ## Properties
 
-### Relation to group extensions
+### Relation to extensions
  {#RelationToGroupExtensions}
 
-(...)
+We discuss how the group $Ext^n(X,A)$ is identified with the group of [[extensions]] of $X$ by $\mathbf{B}^{n-1} A = A[n-1]$. In particular for $n = 1$ and $\mathcal{A} = $ [[Ab]] this means that $Ext^1(X,A)$ classified ordinary [[group extensions]] of $X$ by $A$. 
+
+This is the relation that the name "$Ext$" derives from. At _[[infinity-group extension]]_ is discussed how this relation is a special case of the more general relation that identifies [[derived hom-spaces]] $\mathbf{H}(X,\mathbf{B}^{n+1} A)$ with $\mathbf{B}^n A$-[[principal ∞-bundles]] over $X$.
+
++-- {: .num_defn}
+###### Definition
+
+For $X,A \in \mathcal{A}$ two objects, an **[[extension]]** of $X$ by $A$ is a [[short exact sequence]]
+
+$$
+  0 \to A \to P \to X \to 0
+  \,.
+$$
+
+An [[homomorphism]] of two such extensions $P_1$ and $P_2$ is a [[morphism]] $P_1 \to P_2$ in $\mathcal{A}$ fitting into a [[commuting diagram]] of the form
+
+$$
+  \array{
+     && P_1
+     \\
+     & \nearrow & & \searrow
+     \\
+     A && \downarrow && X
+     \\
+     & \searrow & & \nearrow
+     \\
+     && P_2
+  }
+  \,.
+$$
+
+Write $Extensions(X,A)$ for the set of [[isomorphism classes]] of such extensions.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Under [[Baer sum]] $Extensions(X,A)$ becomes an [[abelian group]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[natural isomorphism]] of abelian groups
+
+$$
+  Ext^1(X,A) \simeq Extensions(X,A)
+  \,.
+$$
+
+=--
+
+
 
 ### Localization
  {#Locatization}
 
 (...)
 
-## Applications in cohomoloy
+### Techniques for constructing $Ext^n$
+
+We discuss some facts helpful for the construction of $Ext^n$-groups in certain situations.
+
++-- {: .num_prop}
+###### Proposition
+
+If $X \in \mathcal{A}$ is a [[projective object]], then 
+
+$$
+  Ext^n(X, -)  = 0
+$$
+
+is the [[zero object|zero]]-[[functor]] for all $n \geq 1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The covariant [[hom-functor]] $Hom(X,-)$ is generally a [[left exact functor]]. By the construction of $Ext^n$ via [[projective resolutions]], def. \ref{OfSingleObjByProjResolution}, it is sufficient to show that it is also a [[right exact functor]] if $P$ is projective. In fact, this is one of the equivalent characterizations of _[[projective objects]]_ (ee the section [projective object -- in abelian categories -- equivalent characterizations](projective+object#EquivalentCharacterizationInAbelianCats) for details).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X, A \in \mathcal{A}$ two objects, and 
+
+$$
+  0 \to N \stackrel{i}{\hookrightarrow} P \stackrel{p}{\to} X \to 0
+$$ 
+
+a [[short exact sequence]] with $P$ a [[projective object]], hence exhibiting a [[projective presentation]] $X \simeq coker(N \hookrightarrow P)$ of $X$, there is an [[exact sequence]]
+
+$$
+  0 
+   \to 
+  Hom(X,A)
+    \stackrel{Hom(p,A)}{\to}
+  Hom(P, A)
+    \stackrel{Hom(i,A)}{\to}
+  Hom(N,A)
+    \to
+  Ext^1(X,A)
+    \to 
+  0
+$$
+
+exhibiting $Ext^1(X,A)$ as the [[cokernel]] of $Hom(i,A)$.
+
+=--
+
+
+## Applications in cohomology
+
+[[derived hom-space|Derived hom-functors]]such as the $Ext$ on chain compelxes compute general notions of _[[cohomology]]_ (see the discussion there). Here we list some specific incarnations of the $Ext$-construction in the context of cohomology.
 
 ### Universal coefficient theorem
 
@@ -287,6 +397,11 @@ A systematic discussion from the point of view of [[derived categories]] is in
 Lecture notes include
 
 * Kiyoshi Igusa, _25 The Ext Functor_ ([pdf](http://people.brandeis.edu/~igusa/Math101b/Ext.pdf))
+
+section 4 of
+
+* [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
+ {#May}
 
 * Patrick Morandi, _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
 
