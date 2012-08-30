@@ -23,7 +23,7 @@ A pure subobject is a [[monomorphism]] $A \rightarrowtail B$ -- hence a [[subobj
 
 ## Definition
 
-Let $\kappa$ be a regular [[cardinal]]. A **$\kappa$-pure morphism** in a [[category]] $\mathcal{C}$ is a morphism $f : A \to B$ with the following extension property:
+Let $\kappa$ be a regular [[cardinal]]. A **$\kappa$-[[pure morphism]]** in a [[category]] $\mathcal{C}$ is a morphism $f : A \to B$ with the following extension property:
 
 * Given any morphisms $f' : A' \to B'$, $a : A' \to A$,  $b : B' \to B$ in $\mathcal{C}$, if both $A'$ and $B'$ are $\kappa$-[[compact object|compact]] and $f \circ a = b \circ f'$, 
 
