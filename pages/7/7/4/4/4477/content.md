@@ -124,9 +124,13 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 
 ## Related concepts
 
-* [[projective object]]
+* [[projective object]], [[projective presentation]], [[projective resolution]]
 
-* [[injective object]], [[injective module]]
+  * **projective module**
+
+* [[injective object]], [[injective presentation]], [[injective resolution]]
+
+  * [[injective module]]
 
 ## References
 
