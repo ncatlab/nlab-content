@@ -506,8 +506,9 @@ in $\mathbf{C}^F_B$.
 =--
 
 
+## Properties
 
-## Simple consequences of the definition 
+### Simple consequences of the definition 
 
 Before looking at more sophisticated constructions, we record the following direct consequences of the definition
 of a category of fibrant objects.
@@ -590,7 +591,7 @@ is also a weak equivalence.
 =--
 
 
-## Generalized universal bundles and the factorization lemma
+### Generalized universal bundles and the factorization lemma
 
 A central lemma in the theory of categories of fibrant objects is the following [[factorization lemma]].
 
@@ -887,7 +888,7 @@ $$
 
 =--
 
-## More sophisticated consequences of the definition
+### More sophisticated consequences of the definition
 
 Using the factorization lemma, one obtaines the following
 further useful statements about categories of fibrant
@@ -1207,7 +1208,7 @@ in the closely related work
 
 
 
-## Homotopy fiber product 
+### Homotopy fiber product 
 
 Using the existence of [[path object|path space objects]] one can construct specific [[homotopy pullback]]s
 called  _homotopy fiber products_ .
@@ -1346,7 +1347,8 @@ $A \times_C C^I \times_C B  \to A$ is.
 =--
 
 
-## Homotopies  {#Homotopies}
+### Homotopies  
+ {#Homotopies}
 
 
 +-- {: .un_defn}
@@ -1949,7 +1951,8 @@ lemma on homotopy-commutative completions of diagrams.
 
 
 
-## The homotopy category  {#HomotopyCategory}
+### The homotopy category  
+ {#HomotopyCategory}
 
 We discuss now 
 that the structure of a category of fibrant objects on a 
@@ -2134,11 +2137,11 @@ now follows from the general formula for
 [[calculus of fractions|left multiplicative system]]
 of weak equivalences.
 
-## Pointed category of fibrant objects 
+### Pointed category of fibrant objects 
 
 If the category $C$ of fibrant objects has an initial object which _coincides_ with the terminal object $e$, i.e. a [[zero object]], then $C$ is a [[pointed category]]. In this case we have the following additional concepts and structures.
 
-## Fibers ##
+### Fibers
 
  For $p : Y \to X$ a fibration, the pullback $F$ in
 
@@ -2156,7 +2159,7 @@ is the **fibre** of $p$ and $i$ is the _fibre inclusion_.
 (This is the _kernel_ of the morphism $f$ of [[pointed object]]s)
 
 
-## Fibration Sequences ##
+### Fibration Sequences 
 
 (See also [[fibration sequence]])
 
@@ -2179,12 +2182,20 @@ When the catgegory of fibrant objects is that of locally Kan simplicial sheaves,
 
 At [[abelian sheaf cohomology]] is a detailed discussion of how the ordinary notion of sheaf cohomology arises as a special case of that.
 
+## Related concept
+
+* [[category of cofibrant objects]]
+
+* [[Waldhausen category]]
+
+* [[model category]]
+
 
 ## References
 
 The notion of _category of fibrant objects_ was introduced and the above results obtained in
 
-* Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([[BrownAHT]]).
+* [[Kenneth Brown]], _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([[BrownAHT]]).
 
 for application to [[homotopical cohomology theory]].
 
