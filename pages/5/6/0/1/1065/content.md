@@ -16,15 +16,19 @@
 
 ## Idea
 
-Homological algebra in its 'classical' form is the study of algebra (in particular properties of modules over rings of various types) by the use of methods adapted from topological homology theory.  It thus studies [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name). It can also be given a modern and more global perspective as it is a simple fragment of, and serves as a computational tool for, [[stable homotopy theory]] in many of its modern forms, and hence (by extension) also unstable [[homotopy theory]].
+Homological algebra in its traditional form is the study of properties of [[modules]] over [[rings]] of various types by the use of methods adapted from [[topology|topological]] [[homology theory]].  It thus studies [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name). 
+
+From a modern more global perspective it is a simple fragment of and a computational tool for [[stable homotopy theory]] and hence (by extension) also of unstable [[homotopy theory]], see _[As a toolbox in stable homotopy theory](#ToolboxInStableHomotopyTheory)_ below.
 
 An archetypical motivating example for homological algebra is thus the [[chain complex]] $C_\bullet(X)$ of [[singular chains]] in a [[topological space]] $X$: [[formal linear combinations]] of [[simplices]] in $X$. The [[chain homology]] of $C_\bullet(X)$, called the _[[singular homology]]_ $H_\bullet(X)$ of $X$, is a linear approximation to the [[homotopy groups]] of $X$.  Accordingly, the chain complex $C_\bullet(X)$ itself serves as a linearized approximation to the [[homotopy type]] of $X$. 
 
+
 ### As a toolbox in stable homotopy theory
+ {#ToolboxInStableHomotopyTheory}
 
-With homological algebra thus being a topic in stabilized [[homotopy theory]], it is really the study of [[stable (∞,1)-categories]] [[(∞,1)-category of chain complexes|of chain complexes]] (and thus, by the stable [Dold-Kan correspondence](module%20spectrum#StableDoldKanCorrespondence), of Eilenberg-MacLane [[module spectra]]).
+With homological algebra being a topic in stabilized [[homotopy theory]], it is really the study of [[stable (∞,1)-categories]] [[(∞,1)-category of chain complexes|of chain complexes]] -- and thus, by the stable [Dold-Kan correspondence](module%20spectrum#StableDoldKanCorrespondence), of Eilenberg-MacLane [[module spectra]].
 
-Historically this modern perspective has developed only in stages out of more "concrete" (more [[category theory|1-categorical]]) notions, which now form the body of homological algebra, in the form of a box of tools for computing linearized problems in homotopy theory.
+Historically this modern perspective has developed only in stages out of more "concrete" (more [[category theory|1-categorical]]) notions, which now form the body of homological algebra, in the form of a box of tools for computing linearized problems in homotopy theory. The following list indicates how these traditional notions serve to present constructions in stable homotopy theory.
 
 1. The notion of _[[quasi-isomorphism]]_ between chain complexes -- [[chain maps]] which induce [[isomorphisms]] on [[homology groups]] -- is the stable version of [[weak homotopy equivalences]] of topological spaces. The _[[derived category]]_ of chain complexes $D(\mathcal{A})$ obtained by [[localization|localizing]] $Ch_\bullet(\mathcal{A})$ at these [[weak equivalences]] is the corresponding _[[homotopy category]]_, the context where all [[chain maps]] are identified up to [[chain homotopy]] between good representatives of these objects.  (On the other hand, in more general situations this correspondence is less immediate, and the notion of quasi-isomorphism may not be the best choice; see at _[[Whitehead theorem]]_.)
 
@@ -104,6 +108,9 @@ A discussion in the context of [[constructive mathematics]] is in
  {#Collins}
 
 * [[Rick Jardine]], _Homological algebra_, course notes, 2009  ([index](http://www.math.uwo.ca/~jardine/papers/HomAlg/index.shtml))
+
+* [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
+ {#May}
 
 * [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
 
