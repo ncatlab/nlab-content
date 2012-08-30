@@ -16,9 +16,9 @@
 
 ## Idea
 
-Homological algebra studies [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name). It is a simple fragment of and serves as a computational tool for [[stable homotopy theory]], and hence (by extension) also unstable [[homotopy theory]].
+Homological algebra in its 'classical' form is the study of algebra (in particular properties of modules over rings of various types) by the use of methods adapted from topological homology theory.  It thus studies [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name). It can also be given a modern and more global perspective as it is a simple fragment of, and serves as a computational tool for, [[stable homotopy theory]] in many of its modern forms, and hence (by extension) also unstable [[homotopy theory]].
 
-An archetypical motivating example for homological algebra is the [[chain complex]] $C_\bullet(X)$ of [[singular chains]] in a [[topological space]] $X$: [[formal linear combinations]] of [[simplices]] in $X$. The [[chain homology]] of $C_\bullet(X)$, called the _[[singular homology]]_ $H_\bullet(X)$ of $X$, is a linear approximation to the [[homotopy groups]] of $X$.  Accordingly, the chain complex $C_\bullet(X)$ itself serves as a linearized approximation to the [[homotopy type]] of $X$. 
+An archetypical motivating example for homological algebra is thus the [[chain complex]] $C_\bullet(X)$ of [[singular chains]] in a [[topological space]] $X$: [[formal linear combinations]] of [[simplices]] in $X$. The [[chain homology]] of $C_\bullet(X)$, called the _[[singular homology]]_ $H_\bullet(X)$ of $X$, is a linear approximation to the [[homotopy groups]] of $X$.  Accordingly, the chain complex $C_\bullet(X)$ itself serves as a linearized approximation to the [[homotopy type]] of $X$. 
 
 ### As a toolbox in stable homotopy theory
 
