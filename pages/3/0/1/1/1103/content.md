@@ -260,3 +260,6 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 [[!redirects cochain algebra]]
 [[!redirects dg-algebra]]
 [[!redirects dg-algebras]]
+
+[[!redirects commutatiev dg-algebra]]
+[[!redirects commutative dg-algebras]]
