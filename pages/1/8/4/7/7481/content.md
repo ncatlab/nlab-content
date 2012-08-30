@@ -63,7 +63,7 @@ $$
   \bar \mathbb{C} : \mathcal{S}^{op} \to Cat
 $$
 
-that is [[representable functor|represented]] by $\mathbb{C}$ . More explicitly, this the [[pseudofunctor]] which to an [[object]] $X \in \mathcal{T}$ assigns
+that is [[representable functor|represented]] by $\mathbb{C}$. More explicitly, this is the [[pseudofunctor]] which to an [[object]] $X \in \mathcal{S}$ assigns
 
 $$
   \bar \mathbb{C} : X 
@@ -146,6 +146,7 @@ Let $(\mathbb{C},J)$ be an [[internal site]] in $\mathcal{S}$, i.e. an [[interna
 ###### Definition
 
 1. An **internal presheaf** on $\mathbb{C}$ is an internal diagram $F \in \mathcal{S}^{\mathbb{C}^{op}}$.
+
 1. An **internal sheaf** on $\mathbb{C}$ (with respect to $J$) is an internal presheaf on $\mathbb{C}$ satisfying one of the following equivalent conditions:
     1. $F$ satisfies the [usual sheaf condition](/nlab/show/sheaf#GeneralComponentwiseDefinition) interpreted in the [[internal language]] of $\mathcal{S}$.
     1. $F$ is a $j$-sheaf for the [[Lawvere-Tierney topology]] on $\mathcal{S}^{\mathbb{C}^{op}}$ induced by $J$.
