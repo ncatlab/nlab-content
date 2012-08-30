@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -229,6 +231,8 @@ We discuss how the group $Ext^n(X,A)$ is identified with the group of [[extensio
 
 This is the relation that the name "$Ext$" derives from. At _[[infinity-group extension]]_ is discussed how this relation is a special case of the more general relation that identifies [[derived hom-spaces]] $\mathbf{H}(X,\mathbf{B}^{n+1} A)$ with $\mathbf{B}^n A$-[[principal ∞-bundles]] over $X$.
 
+#### 1-Extensions over single objects
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -256,9 +260,23 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+All these homomophisms are necessarily [[isomorphisms]]. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+
 Write $Extensions(X,A)$ for the set of [[isomorphism classes]] of such extensions.
 
 =--
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -267,19 +285,89 @@ Under [[Baer sum]] $Extensions(X,A)$ becomes an [[abelian group]].
 
 =--
 
++-- {: .num_defn #ExtractCocycleFromExtension}
+###### Definition
+
+Define a morphism
+
+$$
+  ExtractCocycle : Extensions(X,A) \to Ext^1(X,A)
+$$
+
+by the following construction:
+
+choose a [[projective presentation]] $N \hookrightarrow Q \to X$ of $X$. Then 
+for $A \to P \to X$ an extension consider the diagram
+
+$$
+  \array{
+    N &\to& Q &\to& X
+    \\
+    \downarrow^{\mathrlap{\sigma|_N}} && \downarrow^{\mathrlap{\sigma}} && \downarrow^{\mathrlap{=}}
+    \\
+    A &\to& P &\to& X
+  }
+  \,,
+$$
+
+where
+
+* $\sigma$ is any choice of lifts of $Q \to A$ through $P \to A$, which exists by definition since $P$ is a [[projective object]], 
+
+* $\sigma|_N$ is the induces morphism on the fibers, which exists by the exactness of the two sequences.
+
+By prop. \ref{Ext1FromProjectivePresentation} $\sigma|_N$ represents an element in $ [\sigma|_N] \in Ext^1(X,A)$. Let this be the image of the map to be defined:
+
+$$
+  ExtractCocycle : (A \to P \to X) \mapsto [\sigma|_N]
+  \,.
+$$
+
+This definition is independent of the choice of $P$ and $\sigma$ involved.
+
+=--
+
+
+
 +-- {: .num_prop}
 ###### Proposition
 
-There is a [[natural isomorphism]] of abelian groups
+The map from def. \ref{ExtractCocycleFromExtension} 
+is a [[natural isomorphism]] of abelian groups
 
 $$
-  Ext^1(X,A) \simeq Extensions(X,A)
+  Extensions(X,A) \stackrel{\simeq}{\to} Ext^1(X,A) 
   \,.
 $$
 
 =--
 
 
+#### Higher extensions over general chain complexes
+
+(...)
+
+Given $[g] \in \mathbb{R}Hom(X, A[n])$.
+
+Let $Q \to X$ be a [[projective resolution]].
+Let $g : Q \to A[n]$ be a representative of $[g]$.  
+Consider the [[pullback]]
+
+$$
+  \array{
+    P &\to& cone(0 \to A[n])
+    \\
+    \downarrow && \downarrow
+    \\
+    Q &\stackrel{g}{\to}& A[n]
+    \\
+    \downarrow
+    \\
+    X
+  }
+$$
+
+(...)
 
 ### Localization
  {#Locatization}
@@ -310,7 +398,7 @@ The covariant [[hom-functor]] $Hom(X,-)$ is generally a [[left exact functor]]. 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #Ext1FromProjectivePresentation}
 ###### Proposition
 
 For $X, A \in \mathcal{A}$ two objects, and 
