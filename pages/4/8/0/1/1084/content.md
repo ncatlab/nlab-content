@@ -17,19 +17,21 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
 
-The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a particular [[model category]] representative of the [[homotopy fiber|homotopy cofiber]] of $f$, also called the homotopy cokernel of $f$ or _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
+The _mapping cone_ of a [[morphism]] $f : X \to Y$ in some [[homotopical caetgory]] (precisely: a [[categor of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy fiber|homotopy cofiber]] of $f$. 
+
+It is also called the _homotopy [[cokernel]]_ of $f$ or the _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
 
 The dual notion is that of [[mapping cocone]].
 
 
 ## Definition
 
-In an [[(∞,1)-category]] the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the homotopy pushout
+In an [[(∞,1)-category]] the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
 
 $$
   \array{
@@ -114,9 +116,9 @@ The geometric intuition behind this is best seen in the archetypical example of 
 
 The mapping cone of the morphism $X \to {*}$ to the [[terminal object]] is the [[suspension object]] $\Sigma X$ of an object $X$. The dual notion of the [[loop space object]] of $X$.
 
-### In Top
+### For topoligical space
 
-The construction is geometrically most obvious in the category [[Top]] of [[topological space]]s.
+The construction is geometrically most obvious in the category [[Top]] of [[topological spaces]].
 
 Here for $I = [0,1]$ the standard [[interval object]] we may take the [[cylinder object]] to be $Cyl(X) = X \times I$, literally the cylinder over $X$. 
 
@@ -161,6 +163,11 @@ $$
 
 Notice the minus sign here, coming from the definition of a [[differential object|shifted differential object]].
 
+### In chain complexes
+ {#InChainComplexes}
+
+
+(...)
 
 ### In cochain complexes
  {#InCochainComplexes}
@@ -178,10 +185,10 @@ a morphism, the mapping cone is the complex
 $$
   \begin{aligned}
    Cone(f) 
-    &= 
+    & \coloneqq
   (\cdots \to Cone(f)^{k-1} \stackrel{d_{Cone(f)}}{\to} Cone(f)^k) \to \cdots)
    \\
-   & = 
+   & \coloneqq
   \left(
     \array{
       \cdots \to & V^k &\stackrel{- d_V}{\to}& V^{k+1} & \to \cdots
@@ -257,7 +264,7 @@ $$
   \,,
 $$
 
-where we used the above defnition of $d_{Cone(f)}$ and the fact that $f$ is a chain homomorphism and hence intertwines the differentials.
+where we used the above definition of $d_{Cone(f)}$ and the fact that $f$ is a chain homomorphism and hence intertwines the differentials.
 
 This cochain homotopy is universal in that 
 for any other cochain homotopy
@@ -382,3 +389,9 @@ $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
 for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly induced by $u$. 
 
+
+## References
+
+In the context of [[chain complexes]] the construction is discussed for instance in section 1.5 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
