@@ -31,6 +31,17 @@ Therefore, regarding $\hat Sh_2(\mathcal{S}, can)$ as the [[2-category]] of [[in
 
 ## Definition
 
+While it is straightforward to define an [[internal site]], hence the [[domain]] of an internal (pre)sheaf, the definition of the codomain is slightly more subtle, for that needs to be an copy of the ambient [[universe]] internalized into itself. One way to naturally say this is by passing to the _external_ [[2-sheaves]] [[2-topos]]. This version of the definition we state in 
+
+* _[In terms of external 2-sheaves](#InTermsOf2Sheaves)_.
+
+But the resulting notion can of course be expressed entirely in terms of data in the ambient topos. This we spell out in 
+
+* _[Explicit definition](#ExplicitDefinition)_.
+
+### In terms of external 2-sheaves
+ {#InTermsOf2Sheaves}
+
 Let  $\mathcal{S}$ be a [[topos]] and let $\mathbb{C}$ be an [[internal category]] in $\mathcal{S}$:
 
 $$
@@ -124,6 +135,24 @@ of internal sheaves.
 
 =--
 
+### Explicit definition
+ {#ExplicitDefinition}
+
+We unwind what the above amounts to more explicitly.
+
+Let $(\mathbb{C},J)$ be an [[internal site]] in $\mathcal{S}$, i.e. an [[internal category]] $\mathbb{C}$ equipped with an internal [[coverage]] $J$. Let $\mathcal{S}^{\mathbb{C}^{op}}$ be the topos of [[internal diagram|internal diagrams]] on $\mathbb{C}^{op}$.
+
++-- {: .num_defn }
+###### Definition
+
+1. An **internal presheaf** on $\mathbb{C}$ is an internal diagram $F \in \mathcal{S}^{\mathbb{C}^{op}}$.
+1. An **internal sheaf** on $\mathbb{C}$ (with respect to $J$) is an internal presheaf on $\mathbb{C}$ satisfying one of the following equivalent conditions:
+    1. $F$ satisfies the [usual sheaf condition](/nlab/show/sheaf#GeneralComponentwiseDefinition) interpreted in the [[internal language]] of $\mathcal{S}$.
+    1. $F$ is a $j$-sheaf for the [[Lawvere-Tierney topology]] on $\mathcal{S}^{\mathbb{C}^{op}}$ induced by $J$.
+(The equivalence is because the usual proof for $\mathcal{S} = $[[Set]] is constructive and can thus be internalized in an arbitrary topos.)
+
+=--
+
 ## Properties
 
 Let $\mathcal{S}$ and $\mathbb{C}$ be as above.
@@ -162,20 +191,8 @@ $$
 
 This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
 
-## Pedestrian definition
 
-There is also a more pedestrian definition of an internal sheaf: Let $(\mathbb{C},J)$ be an [[internal site]] in $\mathcal{S}$, i.e. an [[internal category]] $\mathbb{C}$ equipped with an internal [[coverage]] $J$. Let $\mathcal{S}^{\mathbb{C}^{op}}$ be the topos of [[internal diagram|internal diagrams]] on $\mathbb{C}^{op}$.
 
-+-- {: .num_defn }
-###### Definition
-
-1. An **internal presheaf** on $\mathbb{C}$ is an internal diagram $F \in \mathcal{S}^{\mathbb{C}^{op}}$.
-1. An **internal sheaf** on $\mathbb{C}$ (with respect to $J$) is an internal presheaf on $\mathbb{C}$ satisfying one of the following equivalent conditions:
-    1. $F$ satisfies the [usual sheaf condition](/nlab/show/sheaf#GeneralComponentwiseDefinition) interpreted in the [[internal language]] of $\mathcal{S}$.
-    1. $F$ is a $j$-sheaf for the [[Lawvere-Tierney topology]] on $\mathcal{S}^{\mathbb{C}^{op}}$ induced by $J$.
-(The equivalence is because the usual proof for $\mathcal{S} = $[[Set]] is constructive and can thus be internalized in an arbitrary topos.)
-
-=--
 
 ## Related concepts
 
@@ -192,7 +209,7 @@ and in section B2.3 of
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
 
-In these references internal presheaves are introduced in components. The equivalence to the abstract reformulation in terms of morphisms between 2-sheaves follows for instance with ([Johnstone, lemma 2.3.13](#Johnstone)).
+In these references internal presheaves are introduced in components as in the [explicit definition](#ExplicitDefinition) above. The equivalence to the [abstract formulation](#InTermsOf2Sheaves) above, in terms of morphisms between 2-sheaves, follows for instance with ([Johnstone, lemma 2.3.13](#Johnstone)).
 
 [[!redirects internal sheaves]]
 
