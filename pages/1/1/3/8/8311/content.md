@@ -1,0 +1,83 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[tensor product]] of [[modules]].
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Let $R$ be a [[commutative ring]] and consider the multicategory $R$[[Mod]] of $R$-[[modules]] and $R$-[[multilinear maps]].  In this case the 
+[[tensor product of modules]] $A\otimes_R B$ of $R$-[[modules]] $A$ and $B$ can be constructed as the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the [[action]] of $R$; that is,
+$$ A\otimes_R B = A\otimes B / (a,r\cdot b) \sim (a\cdot r,b). $$
+
+=--
+
+More [[category theory|category-theoretically]]:
+
++-- {: .num_defn}
+###### Definition
+
+The tensor product $A \otimes_R B$
+is the [[coequalizer]] of the two maps
+$$ A\otimes R \otimes B \;\rightrightarrows\; A\otimes B $$
+given by the action of $R$ on $A$ and on $B$.  
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+
+If $R$ is a [[field]], then $R$-modules are [[vector spaces]]; this gives probably the most familiar case of a [[tensor product]] spaces, which is also probably the situation where the concept was first conceived.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+This tensor product can be generalized to the case when $R$ is not commutative, as long as $A$ is a right $R$-module and $B$ is a left $R$-module.  More generally yet, if $R$ is a [[monoid]] in any [[monoidal category]] (a ring being a monoid in [[Ab]] with its tensor product), we can define the tensor product of a left and a right $R$-module in an analogous way.  If $R$ is a commutative monoid in a [[symmetric monoidal category]], so that left and right $R$-modules coincide, then $A\otimes_R B$ is again an $R$-module, while if $R$ is not commutative then $A\otimes_R B$ will no longer be an $R$-module of any sort.
+
+=--
+
+## Properties
+
+The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ becomes a [[monoidal category]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+A [[monoid]] in $(R Mod, \otimes)$ is equivalently an $R$-[[associative algebra|algebra]].
+
+
+=--
+
+## Related concepts
+
+* [[tensor product of abelian groups]]
+
+* [[tensor product of chain complexes]]
+
+## References
+
+An exposition is in 
+
+* Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+
+[[!redirects tensor products of modules]]
