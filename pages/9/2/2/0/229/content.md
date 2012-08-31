@@ -68,6 +68,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 ## Related entries
 
+* [[tensor product of abelian groups]]
+
 * [[free abelian group]]
 
 * [[abelianization]]
