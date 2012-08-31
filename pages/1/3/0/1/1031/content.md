@@ -29,7 +29,7 @@ There are various definitions of the notion of kernel, depending on the properti
 
 ### As a pullback 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -53,7 +53,7 @@ $$
 
 ### As an equalizer
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -97,7 +97,7 @@ In [[universal algebra]], this may be handled in the framework of [[Malcev varie
 
 ## Properties {#Properties}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Property
 
 Let $C$ be a category with [[pullback]]s and [[zero object]].
@@ -126,14 +126,14 @@ is a pullback. Since $0 \to c$ is a [[monomorphism]] and the pullback of a monom
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This statement crucially fails to be true in [[higher category theory]]. There, the kernel of a kernel is the based [[loop space object]] of $d$. For this reason where one has [[short exact sequence]]s in 1-category theory, there are instead long [[fiber sequence]]s in higher category theory.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 In a category $C$ with [[pullback]]s and [[pushout]]s and [[zero object]], kernel and [[cokernel]] form a pair of [[adjoint functor]]s on the [[arrow category|arrow categories]]
