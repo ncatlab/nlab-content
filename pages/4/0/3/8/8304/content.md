@@ -1,0 +1,14 @@
+
+
+## Definition for groups
+
+For $G$ a [[group]], its **abelianization** is the [[quotient]] of $G$ by its [[commutator subgroup]]:
+
+$$
+  G^{ab} \coloneqq G/[G,G]
+  \,,
+$$
+
+This is an [[abelian group]].
+
+[[!redirects abelianizations]]
