@@ -241,6 +241,16 @@ Other classic references, now available online, include:
 
 * [[Peter Freyd]], _[Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html)_, originally published by Harper and Row, New York, 1964.
 
+Textbook discussion is also in 
+
+* [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
+
+* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+
+Reviews include
+
+* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www.math.columbia.edu/~lauda/teaching/rankeya.pdf))
+
 Embedding of abelian categories into [[Ab]] is discussed in
 
 * [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
@@ -248,15 +258,15 @@ Embedding of abelian categories into [[Ab]] is discussed in
 
 For more discussion of the _[[Freyd-Mitchell embedding theorem]]_ see there.
 
-See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) on comparison between abelian categories and topoi ([[AT categories]]).
+The proof that $R Mod$ is an abelian category is spelled out for instance in 
 
-* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
 
-Textbook discussion is also in chapter VIII of
-
-* [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
 A discussion about to which extent abelian categories are a general context for [[homological algebra]] is archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2052&Focus=17680#Comment_17680).
 
+See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) on comparison between abelian categories and topoi ([[AT categories]]).
+
 
 [[!redirects abelian categories]]
+
