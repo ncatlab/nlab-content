@@ -1,4 +1,8 @@
 
+> This page is about homotopy as a transformation.  For homotopy sets in [[homotopy categories]], see [[homotopy (as an operation)]].
+
+***
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,9 +14,6 @@
 =--
 =--
 
-* This page is about homotopy as a transformation.  For homotopy sets in [[homotopy categories]], see [[homotopy (as an operation)]].
-
-***
 
 #Contents#
 * table of contents 
