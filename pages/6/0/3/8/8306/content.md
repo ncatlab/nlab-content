@@ -1,0 +1,53 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
++-- {: .num_defn}
+###### Definition
+
+For $A$, $B$ and $C$ [[abelian groups]] and $A \times B$ the [[cartesian product]] group, a **bilinear map** 
+
+$$
+  f : A \times B \to C
+$$
+
+is a [[function]] of the underlying [[sets]] which is linear -- hence is a [[group homomorphism]] -- in each argument separately. 
+
+Equivalently this is a map that factors through the [[tensor product of abelian groups]] $A \otimes B$ as
+
+$$
+  f : A \times B \to A \otimes B \to C
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The analogous defintion for more than two arguments yields _[[multilinear maps]]_. There is a [[multicategory]] of abelian groups and multilinear maps between them. 
+
+=--
+
+## Related concepts
+
+* [[binary function]], **bilinear map**, [[multilinear map]]
+
+* [[binary morphism]]
+
+* [[bifunctor]], [[Quillen bifunctor]]
+
+[[!redirects bilinear maps]]
+
+[[!redirects multilinear map]]
+[[!redirects multilinear maps]]
+
+[[!redirects bilinear function]]
+[[!redirects bilinear functions]]
+
+[[!redirects multilinear function]]
+[[!redirects multilinear functions]]
