@@ -11,26 +11,27 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definitions
 
-An **associative unital algebra** over a given [[field]] (or even commutative [[ring]]) $k$ can be defined as (equivalently)
+For $R$ a [[commutative ring]], an **associative unital $R$-algebra** 
+is equivalently 
 
-* a [[monoid]] [[internalization|internal to]] [[Vect]];
+* a [[monoid]] [[internalization|internal to]] $R$[[Mod]] equipped with the [[tensor product of modules]] $\otimes$;
 
-* a one-object category [[enriched category|enriched over]] ([[Vect]],$\otimes$);
+* a [[pointed object|pointed]] one-object category [[enriched category|enriched over]] $(R Mod, \otimes)$;
 
-* an [[algebroid]] with one object;
+* a pointed $R$-[[algebroid]] with one object;
 
-* a [[vector space]] $V$ equipped with linear maps $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associative and unit laws;
+* an  $R$-[[module]] $V$ equipped with [[linear maps]] $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associative and unit laws;
 
-* a [[ring]] [[under category|under]] the [[ground field]] $k$.
+* a [[ring]] $A$ [[under category|under]] $R$.
 
 If there is no danger for confusion, one often says simply 'associative algebra', or even only '[[algebra]]'.
 
-More generally, a (merely) **associative algebra** need not have $i: k \to V$; that is, it is a [[semigroup]] instead of a monoid.
+More generally, a (merely) **associative algebra** need not have $i: R \to V$; that is, it is a [[semigroup]] instead of a monoid.
 
 Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[abelian monoid]] in $Vect$.
 
@@ -45,6 +46,12 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
   This may be understood as a special case of an [[algebra over a Lawvere theory]], here the [[Lawvere theory]] [[CartSp]].
 
+
+## Related concepts
+
+* [[dg-algebra]]
+
+* [[A-infinity algebra]]
 
 
 
