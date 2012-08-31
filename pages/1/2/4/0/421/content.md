@@ -49,6 +49,16 @@ equipped with the [[subspace topology]] of the canonincal topology on the [[Cart
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $n = 0$ this is the [[point]], $\Delta^0 = *$.
+
+For $n = 1$ this is the standard [[interval]] $\Delta^1 = [0,1]$.
+
+=--
+
+
 ### Singular simplex
  {#SingularSimplex}
 
