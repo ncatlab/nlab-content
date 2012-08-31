@@ -88,6 +88,8 @@ See also the examples at _[[operad]]_.
 
 ## Related concepts
 
+* [[multimorphism]]
+
 * [[fibration of multicategories]]
 
 * [[symmetric multicategory]]
