@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $G$ a [[group]] its _commutator subgroup_ $[G,G] \hookrightarrow G$ is the smalles [[subgroup]] containing all the [[group commutator]]
+elements $[g,h] \coloneqq g^{-1} h^{-1} g h$.
+
+## Properties
+
+* The commutator subgroup is a [[normal subgroup]]. Therefore the [[quotient group]] $G^{ab} \coloneqq G/[G,G]$ exists. This is an [[abelian group]], called the [[abelianization]] of $G$. 
+
+[[!redirects commutator subgroups]]
