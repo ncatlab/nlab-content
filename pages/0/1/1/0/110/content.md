@@ -38,7 +38,7 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
 * [[object]]
 
-* **morphism**
+* **morphism**, [[mutlimorphism]]
 
 * [[2-morphism]]
 
