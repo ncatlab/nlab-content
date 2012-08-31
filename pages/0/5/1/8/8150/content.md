@@ -54,6 +54,12 @@ $$
 
 * [[internal hom of chain complexes]]
 
+* [[tensor product]]
+
+  * [[tensor product of abelian groups]]
+
+  * [[tensor product of modules]]
+
 ## References
 
 For instance section 2.7 of 
