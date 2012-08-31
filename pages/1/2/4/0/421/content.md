@@ -90,6 +90,7 @@ The [[orientals]] related simplices to [[globes]].
 
 [[!redirects simplices]]
 
+
 [[!redirects simplicial simplex]]
 [[!redirects cellular simplex]]
 [[!redirects topological simplex]]
@@ -97,3 +98,7 @@ The [[orientals]] related simplices to [[globes]].
 [[!redirects simplicial simplices]]
 [[!redirects cellular simplices]]
 [[!redirects topological simplices]]
+
+[[!redirects singular simplex]]
+[[!redirects singular simplices]]
+
