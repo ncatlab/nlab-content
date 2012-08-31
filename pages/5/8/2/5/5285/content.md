@@ -103,6 +103,16 @@ is an [[isomorphism]].
 
 =--
 
+### Relation to homotopy groups
+ {#RelationToHomotopyGroups}
+
+The singular [[homology groups]] of a topologial space serve to some extent as an approximation to the [[homotopy groups]] of that space.
+
+(...)
+
+* [[Hurewicz homomorphism]]
+
+* [[Hurewicz theorem]]
 
 ### Relation to generalized homology
 
@@ -125,6 +135,11 @@ Textbook discussion in the context of [[homological algebra]] is around Applicat
 and in the context of [[algebraic topology]] in chapter 2.1 of 
 
 * [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+Discussion in the context of computing [[homotopy groups]] is in 
+
+* [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
+ {#Hutchings}
 
 See also 
 
