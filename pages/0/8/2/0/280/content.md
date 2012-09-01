@@ -1,5 +1,7 @@
 > this entry is about the notion of _action_ in algebra (of one algebraic object on another object). For the notion of _[[action functional]]_ in [[physics]] see there.
 
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -87,17 +89,6 @@ The advantage of this is that it does not require the category $C$ to have inter
 As an example, within the category of [[profinite group]]s, not all objects have automorphism groups for which the natural topology is profinite, because of that profinite group actions are sometimes given in this form or are restricted to actions on objects for which the automorphism group is naturally profinite. 
 
 
-+--{.query}
-I am wondering if we will need the notion of action which works in categories with product, i.e. $G\times X\to X$ and so on. There is also an action of one Lie algebra on another (for instance in some definitions of crossed module of Lie algebra, where $Aut$ is replaced by the Lie algebra of derivations. (a similar situation would seem to exist in various other categories where action is needed in a slightly wider context. I think most would be covered by an enriched setting but I am not sure.) Thoughts please.[[Tim Porter|Tim]]
-
-Yes, I think certainly all those types of action should eventually be described somewhere, possibly on this page.  -Mike
-
-
-[[Tim Porter|Tim]]: I have added some of this above.  There should be mention of actions of a monoid in a monoidal category on other objects, perhaps.
-
-Mac Lane, VII.4, only requires a monoidal category to define actions.  -- Uday
-=--
-
 ## Examples
 
 * A [[representation]] is a "linear action".
@@ -111,6 +102,8 @@ Mac Lane, VII.4, only requires a monoidal category to define actions.  -- Uday
 * **action**, [[∞-action]],
 
 * [[representation]], [[∞-representation]]
+
+* [[module]], [[∞-module]]
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
