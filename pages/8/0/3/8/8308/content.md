@@ -1,18 +1,21 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc} 
+{: toc} 
 
 ## Idea
 
 A [[morphism]] $A_1, \cdots, A_n \to B$ in a [[multicategory]].
 
+
 ## Related concepts
 
-* [[morphism]]
+* [[binary function]], [[bilinear map]], [[multilinear map]]
 
-* [[2-morphisms]]
+* [[binary morphism]], **multimorphism**
 
-* [[k-morphism]]
+* [[bifunctor]]
 
+
+[[!redirects multimorphism]]
 [[!redirects multimorphisms]]
