@@ -85,11 +85,21 @@ where $d_k : S_n \to S_{n-1}$ are the [[face maps]] of $S$.
 
 * [[singular homology]]
 
+## Terminology and a bit of history
+
+The term simplicial homology is also used in the literature for the homology of polyhedral spaces, based on the theory of [[simplicial complex]]es.  That homology is defined by first looking at a chain complex of simplicial chains on, say, a triangulation of a space, and then passing to the corresponding homology.  The theory then proceeds by proving that the end result is independent of the triangulation used.  The resulting homology theory is isomorphic to singular homology, but historically was the earlier theory.
+
 ## References
 
 A basic discussion is for instance around application 1.1.3 of 
 
 * [[Charles Weibel]]. _[[An Introduction to Homological Algebra]]_
+
+Homology for spaces  is discussed in chapter 2 of 
+
+*  [[Alan Hatcher]], [Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/AT.pdf), Cambridge Univ. Press 2002, starting p. 106
+
+and this includes a discussion of the homology of simplicial complexes.
 
 [[!redirects chain on a simplicial set]]
 [[!redirects chains on a simplicial set]]
