@@ -24,6 +24,7 @@ Note that some type theorists use "intensional type theory" to refer to type the
 ## Properties
 
 ### Decidibility
+ {#Decidibility}
 
 Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] is [[decidable]]. ([Martin-L&#246;f](#MartinLoef), [Hofmann](#Hofmann)).
 
@@ -40,7 +41,7 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
   {#MartinLoef}
 
 * [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of
-Edinburgh, (1995)
+Edinburgh, (1995) ([web](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
   {#Hofmann}
 
 [[!redirects intensional type theories]]
