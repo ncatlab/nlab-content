@@ -2,25 +2,34 @@
 
 **[[cohomology]]**
 
-* [[cocycle]], [[coboundary]]
+* [[cocycle]], [[coboundary]], [[coefficient]]
+
+* [[homology]]
+
+  * [[chain]],  [[cycle]], [[boundary]] 
 
 * [[characteristic class]]
+
+  * [[universal characteristic class]]
 
   * [[secondary characteristic class]]
 
   * [[differential characteristic class]]
 
-* [[fiber sequence]]/long sequence in cohomology
+* [[fiber sequence]]/[[long exact sequence in cohomology]]
 
-  * [[principal ∞-bundle]], [[associated ∞-bundle]]
+* [[fiber ∞-bundle]], [[principal ∞-bundle]], [[associated ∞-bundle]],
+  [[twisted ∞-bundle]]
+
+* [[∞-group extension]]
 
 * [[obstruction]]
 
 ### Special and general types ###
 
-* [[chain homology and cohomology|cochain cohomology]]
+* [[cochain cohomology]]
 
-* [[singular cohomology]]
+* [[ordinary cohomology]], [[singular cohomology]]
 
 * [[group cohomology]], [[nonabelian group cohomology]], [[Lie group cohomology]]
 
