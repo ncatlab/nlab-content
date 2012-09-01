@@ -57,6 +57,10 @@ Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mat
 *  locatedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies ((a,x) \in L \vee (a,y) \in U))$,
 *  separation: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in L \wedge (a,y) \in U) \implies x \lt y)$.
 
++--{.query}
+[[Sridhar Ramesh]]: Is the above complete? It seems to me to be missing an openness condition on L and U (to rule out, for example, the cut which would represent a positive infinitesimal)
+=--
+
 An ordered field object $R$ in $\mathcal{E}$ is _Dedekind complete_ if, given any object $\Gamma$ of $\mathcal{E}$ and any Dedekind cut $(L,U)$ in $R$ parametrised by $\Gamma$, there exists a morphism $x\colon \Gamma \to R$ such that
 $$ L = \{ (a,b)\colon \Gamma \times R \;|\; b \lt x(a) \} ,$$
 $$ U = \{ (a,b)\colon \Gamma \times R \;|\; x(a) \lt b \} .$$
