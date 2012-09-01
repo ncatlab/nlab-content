@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
@@ -9,13 +9,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The _free abelian group_ $\mathbb{Z}[S]$ on a [[set]] $S$ is the [[abelian group]] whose elements are _formal linear combinations_ of elements of $S$.
+The _free abelian group_ $\mathbb{Z}[S]$ on a [[set]] $S$ is the [[abelian group]] whose elements are _formal $\mathbb{Z}$-[[linear combinations]]_ of elements of $S$.
+
 
 ## Definition
  {#Definition}
@@ -46,31 +47,34 @@ This means explicitly the following.
 +-- {: .num_defn}
 ###### Definition
 
-For $S \in $ [[nLab:Set]], the [[nLab:free abelian group]] $\mathbb{Z}[S]$ is the group of formal linear combinations of elements of $S$:
+For $S \in $ [[Set]], the __free abelian group__ $\mathbb{Z}[S]$ is the group of formal linear combinations of elements of $S$:
 
 $$
   \mathbb{Z}[S]
   =
-  "\{
+  \{
      \sum_{i \in I} n_1 s_{i_1}
      |
      I \in FinSet, s_{i_j} \in S 
-  \}"
+  \}
   \,.
 $$
 
-
 =--
+
 
 ## Examples
 
 * The free abelian group on the [[singular simplicial complex]] of a [[topological space]] $X$ consists of the [[singular chains]] on $X$.
 
+
 ## Related concepts
 
 * [[free group]]
 
+
+[[!redirects free abelian group]]
+[[!redirects free abelian groups]]
+
 [[!redirects formal linear combination]]
 [[!redirects formal linear combinations]]
-
-[[!redirects free abelian groups]]
