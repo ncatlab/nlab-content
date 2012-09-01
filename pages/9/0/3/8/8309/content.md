@@ -1,21 +1,30 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-A _binary function_ is a [[function]] out of a [[product]].
+A __binary function__, or __function of two variables__, is a [[function]] out of a [[product]].
+
 
 ## Related concepts
 
 * **binary function**, [[bilinear map]], [[multilinear map]]
 
-* [[binary morphism]]
+* [[binary morphism]], [[multimorphism]]
 
 * [[bifunctor]], [[Quillen bifunctor]]
 
+
+[[!redirects binary function]]
+[[!redirects binary functions]]
 [[!redirects binary functons]]
+
+[[!redirects binary function of two variables]]
+[[!redirects binary functions of two variables]]
 
 [[!redirects binary map]]
 [[!redirects binary maps]]
+[[!redirects binary mapping]]
+[[!redirects binary mappings]]
