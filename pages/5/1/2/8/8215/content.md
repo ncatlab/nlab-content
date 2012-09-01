@@ -16,7 +16,68 @@
 
 ## Idea
 
-For $S$ a [[simplicial set]] and $A$ an [[abelian group]], the _simplicial [[homology]]_ of $S$ is the [[chain homology]] of the [[chain complex]] corresponding under the [[Dold-Kan correspondence]] to the [[simplicial abelian group]] $S \otimes A$ of _chains_ on $S$.
+For $S$ a [[simplicial set]] and $A$ an [[abelian group]], the _simplicial [[homology]]_ of $S$ is the [[chain homology]] of the [[chain complex]] corresponding under the [[Dold-Kan correspondence]] to the [[simplicial abelian group]] $S \cdot A$ of $A$-[[chains]] on $S$: [[formal linear combinations]] of [[simplices]] in $S$ with [[coefficients]] in $A$.
+
+## Definition
+
+Let $S$ be a [[simplicial set]] and $A$ an [[abelian group]].
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$ write 
+
+$$
+  S_n \cdot A \coloneqq \mathbb{Z}[S_n] \otimes A
+$$
+
+for the [[free abelian group]] on the set $S_n$  of $n$-[[simplices]] [[tensor product of abelian groups|tensored]] with $A$: the group of [[formal linear combinations]] of $n$-simplices with [[coefficients]] in $A$.
+
+These abelian groups arrange to a [[simplicial abelian group]]
+
+$$
+  X \cdot A \in Ab^{\Delta^{op}}
+  \,.
+$$
+
+The [[alternating face map complex]] of this groups is called the **complex of simplicial chains** on $S$
+
+$$
+  C_\bullet(S \cdot A) = C_\bullet(S,A)
+  \,.
+$$
+
+The **simplicial homology** of $S$ is the [[chain homology]] of the complex of simplicial chains:
+
+$$
+  H_\bullet(S, A)
+  \coloneqq
+  H_\bullet(C_\bullet(S,A))
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This means that the [[differentials]] in $C_\bullet(S,A)$ are given on [[basis]] elements $\sigma \in S_n$ by the [[formal linear combination]]
+
+$$
+  \partial \sigma
+    = 
+  \sum_{k = 0}^{n} (-1)^k d_k \sigma
+  \,,
+$$
+
+where $d_k : S_n \to S_{n-1}$ are the [[face maps]] of $S$.
+
+=--
+
+## Examples
+
+* For $X$ a [[topological space]] and $S = Sing X$ the [[singular simplicial complex]] of $X$, the simplicial homology of $Sing X$ is called the _[[singular homology]]_ of $X$, denoted $H_\bullet(X,A)$.
+
 
 ## Related concepts
 
@@ -26,7 +87,7 @@ For $S$ a [[simplicial set]] and $A$ an [[abelian group]], the _simplicial [[hom
 
 ## References
 
-Around Application 1.1.3 of 
+A basic discussion is for instance around application 1.1.3 of 
 
 * [[Charles Weibel]]. _[[An Introduction to Homological Algebra]]_
 
