@@ -52,14 +52,12 @@ A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equip
 Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ (parametrised by $\Gamma$) if the following axioms hold:
 *  lower bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
 *  upper bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
-*  downward closedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
-*  upward closedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in U \wedge x \lt y) \implies (a,y) \in U)$,
+*  downward roundedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
+*  upward roundedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in U \wedge x \lt y) \implies (a,y) \in U)$,
+*  upward openness: $\forall a\colon \Gamma.\, \forall x\colon R.\, ((a,x) \in L \implies \exists b\colon \Gamma.\, \exists y\colon R.\, ((b,y) \in L \wedge x \lt y))$,
+*  downward openness: $\forall a\colon \Gamma.\, \forall x\colon R.\, ((a,x) \in U \implies \exists b\colon \Gamma.\, \exists y\colon R.\, ((b,y) \in U \wedge y \lt x))$,
 *  locatedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies ((a,x) \in L \vee (a,y) \in U))$,
 *  separation: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, (((a,x) \in L \wedge (a,y) \in U) \implies x \lt y)$.
-
-+--{.query}
-[[Sridhar Ramesh]]: Is the above complete? It seems to me to be missing an openness condition on L and U (to rule out, for example, the cut which would represent a positive infinitesimal)
-=--
 
 An ordered field object $R$ in $\mathcal{E}$ is _Dedekind complete_ if, given any object $\Gamma$ of $\mathcal{E}$ and any Dedekind cut $(L,U)$ in $R$ parametrised by $\Gamma$, there exists a morphism $x\colon \Gamma \to R$ such that
 $$ L = \{ (a,b)\colon \Gamma \times R \;|\; b \lt x(a) \} ,$$
