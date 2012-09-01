@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #F-un#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 # Overview
@@ -52,3 +62,4 @@ An approach in terms of [[Lambda-ring]]s is
 [[!redirects Fun]]
 [[!redirects absolute geometry]]
 [[!redirects absolute algebraic geometry]]
+[[!redirects F1]]
