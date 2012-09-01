@@ -49,7 +49,7 @@ where the inclusion $X_n - D^n \hookrightarrow X_n$ corresponds to the attaching
 
 +-- {: .num_theorem} 
 ###### Theorem 
-The homology of the CW complex $X$ is isomorphic to the homology of the cellular chain complex at the component $H_n(X_n, X_{n-1})$. 
+The homology group $H_n(X)$ of the CW complex $X$ is isomorphic to the homology of the cellular chain complex at the component $H_n(X_n, X_{n-1})$. 
 =-- 
 
 ##References
