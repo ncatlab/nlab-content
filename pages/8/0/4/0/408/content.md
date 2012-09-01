@@ -16,7 +16,7 @@ $$
  (\otimes, hom_l, hom_r) : C \times D \to E
 $$
 
-consists of functors
+consists of [[bifunctors]]
 
 $$
 \begin{aligned}
