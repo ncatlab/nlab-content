@@ -1,8 +1,56 @@
 
+# Contents 
+* Table of contents 
+{: toc}
+
 ##Idea
 
-Cellular homology is a very efficient tool for computing the homology groups of 
-CW complexes, based on degree calculations. It uses the combinatorial structure of a CW-complex to define, first a complex of celluar chains and then the corresponding [[homology]]. (There is a related cellular cohomology.)  The cellular homology of a CW-complex is isomorphic to its [[singular homology]].
+Cellular homology is a very efficient tool for computing the ordinary [[homology groups]] of [[CW complexes]], based on degree calculations. It uses the combinatorial structure of a CW-complex to define, first a complex of celluar chains and then the corresponding [[homology]]. (There is a related cellular cohomology.)  The cellular homology of a CW-complex is isomorphic to its [[singular homology]].
+
+## Definition 
+
+Recall that a CW complex is a [[topological space]] $X$ presented inductively by taking the [[colimit]] in [[Top]] of a sequence of inclusions 
+
+$$X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow \ldots$$ 
+
+where each $X_n$ is obtained from $X_{n-1}$ by attaching $n$-disks. 
+
+In ordinary homology with $\mathbb{Z}$ [[coefficients]] (which can easily be relativized to include other coefficient groups), form a chain complex, the **cellular chain complex**, whose terms are relative homology groups $H_n(X_n, X_{n-1})$, and where the differential 
+
+\[ d_n \colon H_{n+1}(X_{n+1}, X_n) \to H_n(X_n, X_{n-1})\]
+
+is the composition 
+
+$$H_{n+1}(X_{n+1}, X_n) \stackrel{\partial_n}{\to} H_n(X_n) \stackrel{i_n}{\to} H_n(X_n, X_{n-1})$$ 
+
+where $\partial_n$ is a boundary map and $i_n$ is induced from the inclusion of pairs $(X_n, \emptyset) \to (X_n, X_{n-1})$. 
+
+Using the [[Eilenberg-Steenrod axioms]], one can easily prove the following results. 
+
++-- {: .num_prop} 
+###### Proposition 
+The composition $d_{n-1} \circ d_n$ of two differentials as defined above is zero. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+$H_n(X_n, X_{n-1})$ is a free abelian group whose set of generators is the set of $n$-disks attached to $X_{n-1}$ to yield $X_n$. 
+=-- 
+
+Thus, each differential $d_n$ can be described as a matrix $M$ with integer entries $M_{i j}$. Here an index $j$ refers to the attaching map $f_j \colon S^n \to X_n$ for the $j^{th}$ disk $D^{n+1}$. The integer entry $M_{i j}$ corresponds to a map 
+
+$$\mathbb{Z} \cong H_{n+1}(D^{n+1}, S^n) \to H_n(S^n) \to H_n(D^n, S^{n-1}) \cong H_n(S^n) \cong \mathbb{Z}$$ 
+
+and is computed as the degree of a map 
+
+$$S^n \stackrel{f_j}{\to} X_n \to X_n/(X_n - D^n) \cong D^n/S^{n-1} \cong S^n$$ 
+
+where the inclusion $X_n - D^n \hookrightarrow X_n$ corresponds to the attaching map for the $i^{th}$ disk $D^n$. 
+
++-- {: .num_theorem} 
+###### Theorem 
+The homology of the CW complex $X$ is isomorphic to the homology of the cellular chain complex at the component $H_n(X_n, X_{n-1})$. 
+=-- 
 
 ##References
 
