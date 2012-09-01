@@ -1,2 +1,4 @@
 
-For the moment see at _[[chain on a simplicial set]]_.
+
+
+See at _[[simplicial homology]]_.
