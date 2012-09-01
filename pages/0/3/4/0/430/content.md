@@ -5,7 +5,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -18,29 +18,72 @@
 {: toc}
 
 
-## Definition
+## Definitions
 
-In [[classical mathematics]], a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative [[inverse]] and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). 
+Classically:
++-- {: .num_defn #classical}
+###### Definition
 
-Fields are studied in *field theory* which is a branch of commutative algebra. 
+A **field** is a [[commutative ring]] in which every nonzero element has a multiplicative [[inverse]] and $0 \neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).
+=--
 
-Not assuming the commutativity axiom, then the result is a [[skewfield]] (also in some contexts simply called a "field"). 
+Fields are studied in *field theory* which is a branch of [[commutative algebra]]. 
 
-For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+Not assuming the commutativity axiom, then the result is a [[skewfield]] (also in some contexts simply called a "field"). For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+
+
+### Constructive notions
+{#constructive}
+
+Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don\'t form an [[algebraic category]] (see [discussion below](#category)).  For this reason, it should be unsurprising that in [[constructive mathematics]] (including the [[internal logic]] of a [[topos]]) there are different inequivalent ways to define a field.  In this case the classical definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
+
++-- {: .num_defn #discrete}
+###### Definition
+
+If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.
+=--
+
+Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
+
++-- {: .num_defn #heyting}
+###### Definition
+
+If we interpret 'nonzero' in Definition \ref{classical} as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have [[extra structure]], the apartness relation is a [[extra property|property]] definable from the algebra: $x # y$ iff $x - y$ is invertible.)
+=--
+
+This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field'.  An advantage is that the (located Dedekind) [[real numbers]] form a Heyting field, although (for example) the (less located) [[MacNeille real number]]s need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
+
++-- {: .num_defn}
+###### Definition
+
+If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is noninvertible iff it is zero" (which is equivalent in [[classical logic]] but incomparable in [[constructive logic]]), we obtain the notion of **residue field** (which is not quite the same as the [[residue fields]] of [[algebraic geometry]]).
+=--
+
+An advantage is that even more versions of the [[real numbers]] (including the [[MacNeille real number]]s) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an [[apartness relation]] (in particular, the MacNeille reals have no apartness).
+
+Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting or residue field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
+
+A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a [[residue field]] (hence that name).  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.
+
+Counterexamples were remarked above, but to be explicit: The (located Dedekind) [[real numbers]] form a Heyting field which need not be discrete. The [[MacNeille real number]]s form a residue field which need not be Heyting; see section D4.7 of _[[Elephant|Sketches of an Elephant]]_.
+
 
 ## Properties
 
 ### Category of fields
+{#category}
 
-Fields are not as well-behaved [[category theory|categorically]] as most other common algebraic structures ([[groups]], [[rings]], [[modules]], etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
+Fields are not as well-behaved [[category theory|categorically]] as most other common algebraic structures ([[groups]], [[rings]], [[modules]], etc.).  In particular, the [[category]] of fields and field homomorphisms (a [[full subcategory]] of the category of [[rings]]) is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
+
+In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
 
 
+### Accessibility and sketchability
+{#AccSketch}
 
-### Accessibility and sketchability {#AccSketch}
+The [[category]] of fields is [[accessible category|accessible]], even *finitely* accessible, and therefore can be presented as the category of models (in [[Set]]) of a mixed limit-colimit [[sketch]].  It is moreover straightforward to write down such a sketch.
 
-The [[category]] of fields and field homomorphisms (a full subcategory of the category of [[rings]]) is not complete or cocomplete.  In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
-
-It is, however, [[accessible category|accessible]], even *finitely* accessible, and therefore can be presented as the category of models (in [[Set]]) of a mixed limit-colimit [[sketch]].  It is moreover straightforward to write down such a sketch.  We suppose as given to start with a limit sketch whose models are commutative rings, with $F$ denoting the ring.  We can construct via limit constructions a subobject $I\hookrightarrow F$ consisting of the invertible elements, as the equalizer of the two maps
+We suppose as given to start with a [[limit sketch]] whose models are [[commutative rings]], with $F$ denoting the ring.  We can construct via limit constructions a subobject $I\hookrightarrow F$ consisting of the invertible elements, as the equalizer of the two maps
 $$ F \times F \;\rightrightarrows\; F,$$
 the first being given by multiplication and the second by the composite $F\times F \to * \overset{1}{\to} F$, where $*$ is terminal and the map labeled "1" picks out the element $1\in F$.  We now assert that if we take the pullback
 $$\array{P & \overset{}{\to} & * \\
@@ -48,34 +91,25 @@ $$\array{P & \overset{}{\to} & * \\
   I& \hookrightarrow & F,}$$
 where the map labeled "0" picks out the element $0\in F$, then the object $P$ is initial (i.e. $0$ is not invertible, or equivalently not equal to $1$), and moreover the pullback is also a pushout (i.e. every element of $F$ is either $0$ or invertible).  Of course, in making these last two assertions we use the fact that we are allowing ourselves a limit-colimit sketch instead of just a limit sketch.
 
-Note that this gives us the notion of *discrete* field (see the next section).
+Note that this gives us the notion of *discrete* field (see the [constructive definitions](#constructive) above).  The other constructive notions of field can also be described as models for different limit-colimit sketches.
 
-
-### Constructive notions 
-
-For the same reason, in [[constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
-
-* If we replace "an element is invertible iff it is nonzero" by "an element is invertible xor (exclusive or) it equals zero" (which is classically equivalent but constructively stronger), we obtain the notion of **discrete field**. Such a field $F$ is discrete in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of real numbers (however defined), although it is satisfied by the ring of rational (or even algebraic) numbers and by the finite fields as usual.
-
-  The internal discrete fields in any [[coherent category]] can also be identified with the models in that category of the limit-colimit sketch described above.  The other constructive notions of field below can also be described as models for different limit-colimit sketches.
-
-* If, alternatively, we interpret 'nonzero' in this clause as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have extra structure, the apartness relation is definable from the algebra: $x # y$ iff $x - y$ is invertible.) This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field.'  An advantage is that the real numbers (in the located Dedekind sense) form a Heyting field, although (for example) the MacNeille real numbers (a less located version of the Dedekind reals) need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
-
-* If, finally, we replace this clause by "an element is noninvertible iff it is zero" (which is classically equivalent but constructively incomparable), we obtain the notion of **residue field** (please distinguish from the [[residue field]] in algebraic geometry). An advantage is that even more versions of the real numbers (including the MacNeille real numbers) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an apartness relation (in particular, the MacNeille reals have no apartness).
-
-Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting or residue field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
-
-A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a residue field (hence that name).  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.
-
-Counterexamples were remarked above, but to be explicit: The (Dedekind) real numbers form a Heyting field which need not be discrete. The MacNeille real numbers form a residue field which need not be Heyting; see section D4.7 of _Sketches of an Elephant_.
 
 ## Examples
 
-* [[rational numbers]]
+The fields of:
 
-* [[real numbers]]
+* [[rational numbers]],
 
-* [[p-adic numbers]]
+* [[algebraic numbers]],
+
+* [[real numbers]],
+
+* [[complex numbers]],
+
+* [[p-adic numbers]] (for $p$ a [[prime number]]).
+
+* Also the various [[finite field]]s.
+
 
 ## Related concepts
 
@@ -89,6 +123,7 @@ Counterexamples were remarked above, but to be explicit: The (Dedekind) real num
 
 [[!redirects discrete field]]
 [[!redirects discrete fields]]
+
 [[!redirects Heyting field]]
 [[!redirects Heyting fields]]
 [[!redirects heyting field]]
