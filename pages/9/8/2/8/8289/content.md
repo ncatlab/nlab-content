@@ -62,7 +62,7 @@ Famous bifunctors are
 
 * [[binary morphism]]
 
-* **bifunctor**, [[Quillen bifunctor]]
+* **bifunctor**, [[two-variable adjunction]], [[Quillen bifunctor]]
 
 
 [[!redirects bifunctor]]
