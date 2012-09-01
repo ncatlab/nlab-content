@@ -1,8 +1,4 @@
 
-> This page is about [[functors]] of two variables in [[category theory]]. For a different notion of the same name in [[2-category theory]] see at _[[2-functor]]_.
-
-***
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,6 +14,9 @@
 {: toc}
 
 
+## Disambiguation
+
+This article is about functors of two variables.  The term 'bifunctor' might be used for a [[functor]] between [[bicategories]], but the usual term for that is _'[[pseudo functor]]'_.
 
 
 ## Definition
