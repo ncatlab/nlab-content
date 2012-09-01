@@ -1,4 +1,9 @@
 
+>This entry is about a generalized notion of [[topology]]. For the notion of _formal space_ in the sense of [[rational homotopy theory]], see [[formal dg-algebra]].
+
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,9 +15,6 @@
 =--
 
 # Formal topology
-
->This entry is about a generalized notion of [[topology]]. For the notion of _formal space_ in the sense of [[rational homotopy theory]], see [[formal dg-algebra]].
-
 * table of contents
 {: toc}
 
