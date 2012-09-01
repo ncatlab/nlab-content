@@ -10,9 +10,8 @@
 =--
 
 
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -33,9 +32,19 @@ is the [[zero morphism]].
 
 ## Examples
 
-* A complex in the category $Gr(A)$ of [[graded object]]s in an additive category $C$ is called a [[chain complex]].
+* A complex in the category $Gr(A)$ of [[graded object]]s in an [[additive category]] $C$ is called a [[chain complex]].
 
 * For $d_X : X \to T X$ a complex, the shifted [[differential object]] $ d_{T X} : T X \stackrel{-T(d_X)}{\to}  T T X$ is again a complex.
+
+## Related concepts
+
+* [[chain complex]]
+
+## References
+
+For instance section 11 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_,
 
 
 [[!redirects complexes]]
