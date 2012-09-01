@@ -284,9 +284,17 @@ A blog serving as a base for the HoTT community is at
 * _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
  {#HoTTSite}
 
-Reports from a workshop on homotopy type theory are in 
+Reports from the original Oberwolfach workshop on homotopy type theory are in 
 
 * _Homotopy type theory_ , Oberwolfach Reports 11-2011, ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)).
+
+Material concerning the 
+
+* _[Univalent foundations program 2012/2013](http://www.math.ias.edu/sp/univalent)_, Institute of Advanced Study, Princeton
+
+is in the wikie
+
+* _[UF-IAS-2012](http://uf-ias-2012.wikispaces.com/)_ .
 
 
 ### Models
