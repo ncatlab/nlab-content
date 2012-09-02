@@ -102,6 +102,8 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
   * **suspension**, [[reduced suspension]]
 
+  * [[suspension of a chain complex]]
+
 
 ## References
 
