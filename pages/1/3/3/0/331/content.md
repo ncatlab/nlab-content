@@ -108,6 +108,11 @@ See also:
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
 
+## References
+
+* [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
+
+
 [[!redirects logic]]
 [[!redirects logics]]
 
