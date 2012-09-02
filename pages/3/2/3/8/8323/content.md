@@ -16,6 +16,9 @@ The _structural rules_ of a [[logic]] are those rules which make no reference to
 * the [[identity rule]],
 * the [[cut rule]].
 
+## Related pages
+
+* [[substructural logic]] is logic in which one or more structural rules are omitted.
 
 [[!redirects structural rule]]
 [[!redirects structural rules]]
