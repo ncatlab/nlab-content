@@ -1,0 +1,21 @@
+
+# The exchange rule
+* table of contents
+{: toc}
+
+## Idea
+
+In [[logic]], the _exchange rule_ or _permutation rule_ states that the order of the [[premise]]s is irrelevant to the validity of a [[deduction]].  Along with the [[weakening rule]] and the [[contraction rule]], it is one of the most commonly adopted [[structural rules]].
+
+
+## Statements
+
+Exactly how this looks depends on the [[logic]] used.
+
+...
+
+
+[[!redirects exchange rule]]
+[[!redirects exchange rules]]
+[[!redirects permutation rule]]
+[[!redirects permutation rules]]
