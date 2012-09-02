@@ -84,17 +84,31 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 
 **Exercise 1.2.2** [in an abelian category kernels/cokernels are the monos/epis](Mod#RModIsAbelian)
 
-* [[double complex]]
+**Exercise 1.2.3** [(co)kernels of chain maps are degreewise (co)kernels](category+of+chain+complexes#KernelsOfChainComplexes)
 
 **Definition 1.2.2** [[abelian category]], [[abelian subcategory]]
+
+**Theorem 1.2.3** [a category of chain complexes is itself abelian](category+of+chain+complexes#IsAbelian)
+
+**Exercise 1.2.4** [exact sequence of chain complexes is degreewise exact](category+of+chain+complexes#ShortExactSequencesDegreewise)
 
 $R$[[Mod]]
 
 **Example 1.2.4** [[double complex]]
 
-**1.2.6** [[total complex]]
+**Sing trick 1.2.5** [double complex with commuting/anti-commuting differentials](double+complex#EquivalenceOfTheTwoDefinitions)
 
-**1.2.7** [[truncation of a chain complex]]
+**Total complex 1.2.6** [[total complex]]
+
+**Exercise 1.2.5** [total complex of a bounded degreewise exact double complex is itself exact](total+complex#TotOfBoundedDegreewiseExactIsExact)
+
+**Example 1.2.4** [[double complex]]
+
+**Truncations 1.2.7** [[truncation of a chain complex]]
+
+**Translation 1.2.8** [[suspension of a chain complex]]
+
+**Exercise 1.2.8** [[mapping cone]]
 
 ### 1.3 Long exact sequences
 
@@ -115,9 +129,17 @@ $R$[[Mod]]
 
 **Definition 1.4.1** [[split exact sequence]]
 
+**Exercise 1.4.1** [splitness of exact sequences of free modules](split+exact+sequence#OfVectorSpaces)
+
 **Definition 1.4.3** [[null homotopy]]
 
+**Exercise 1.4.3** [split exact means identity is null homotopic](split+exact+sequence#RelationToChainHomotopy)
+
 **Definition 1.4.4** [[chain homotopy]]
+
+**Lemma 1.4.5** [chain homotopy respects homology](chain%20map#OnHomology)
+
+**Exercise 1.4.5** [[homotopy category of chain complexes]]
 
 ### 1.5 Mapping cones and cyclinders
 
@@ -200,6 +222,8 @@ $R$[[Mod]]
 ### 2.7 Balancing $Tor$ and $Ext$
 
 **Tensor product of complexes 2.7.1** [[tensor product of chain complexes]]
+
+**Lemma 2.7.3** [[acyclic assembly lemma]]
 
 ## 3 Tor and Ext
 
