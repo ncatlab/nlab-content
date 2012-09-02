@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given an [[abelian category]] $\mathcal{A}$, write $Ch_\bullet(\mathcal{A})$ for its [[category of chain complexes]]. The [[relation]] of [[chain homotopy]] is an [[equivalence relation]] on the [[hom sets]] of this category. 
+
+The resulting category with the same objects and chain homotopy equivalence classes as morphisms
+
+$$
+  \mathcal{K}(\mathcal{A}) \coloneqq Ch_\bullet(\mathcal{A})_{/\sim}
+$$
+
+is often call the "homotopy category of chain complexes". 
+
+On the other hand the [[homotopy category]] $Ho(Ch_\bullet(\mathcal{A}))$ in the sense of the result of [[localization]] at the [[quasi-isomorphisms]] is traditionally called the [[derived category]] $\mathcal{D}(\mathcal{A})$ of $\mathcal{A}$:
+
+$$
+  \mathcal{D}(\mathcal{A}) \coloneqq Ho(Ch_\bullet(\mathcal{A}))
+  \,.
+$$
+
