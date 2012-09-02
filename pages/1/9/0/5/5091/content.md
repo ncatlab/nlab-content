@@ -20,7 +20,9 @@
 
 * [[universe]]
 
-## Common axioms
+## Foundational axioms
+
+[[foundational axiom]]
 
 * [[large cardinal]]
 
