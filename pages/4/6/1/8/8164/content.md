@@ -61,6 +61,7 @@ A chain map $f$ induces for each $n \in \mathbb{Z}$ a morphism $H_n(f)$ on [[hom
 ## Properties
 
 ### On homology
+ {#OnHomology}
 
 +-- {: .num_prop #OnHomology}
 ###### Proposition
@@ -93,10 +94,10 @@ $$
 Conversely this means that taking [[chain homology]] is a [[functor]]
 
 $$
-  H_n(-) : Ch_\bullet(\mathcal{A}) \to Ab
+  H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
 $$
 
-from the [[category of chain complexes]] in $\mathcal{A}$ to [[Ab]].
+from the [[category of chain complexes]] in $\mathcal{A}$ to $\mathcal{A}$ itself.
 
 =--
 
