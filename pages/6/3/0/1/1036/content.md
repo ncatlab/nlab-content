@@ -30,9 +30,9 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * On the other hand, the category of [[compact Hausdorff spaces]] is perfectly nice for some purposes. While neither cartesian closed nor locally presentable, it is on the other hand a [[pretopos]]. In this way it is both a category of [[nice topological spaces]] and a nice category of topological spaces, thus an exception proving the "rule" described at [[dichotomy between nice objects and nice categories]]. 
 
-* The category of [[locales]] and the full subcategory of [[sober spaces]] can be considered nice for certain purposes. The category of locales is extensive and is opposite to the category of [[frames]] (which is monadic over $Set$ and thus [[exact category|exact]]). The category of locales is however neither cartesian closed nor locally presentable, although there is a nice description of [[exponential object|exponentiable locales]]. 
+* The category of [[locales]] and the full subcategory of [[sober spaces]] can be considered nice for certain purposes. The category of locales is extensive and is opposite to the category of [[frames]] (which is monadic over $Set$ and thus [[exact category|exact]]). The category of locales is however neither cartesian closed nor locally presentable, although there is a nice description of [[exponential object|exponentiable locales]]. Johnstone's Stone Spaces gives an account of topology via locale theory. 
 
-
+* John Milnor proposed the category of spaces having the homotopy type of a CW complex as a nice category of spaces. If $X$ and $Y$ are objects and $X$ is compact, then there is an exponential object $Y^X$ in this category. This by the way is also a category of [[nice topological spaces]]. 
 
 ## References
 
@@ -46,7 +46,11 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * O. Wyler, _Lecture notes on topoi and quasitopoi_ (for pseudotopological spaces)
 
-* [[Peter Johnstone]], _On a [[topological topos]]_
+* [[Peter Johnstone]], _On a [[topological topos]]_ 
+
+* [[Peter Johnstone]], [[Stone Spaces]]
+
+* J. Milnor, On spaces having the homotopy type of a CW-complex, Trans. Amer. Math. Soc. 90, no. 2 (1959), 272-280. 
 
 
 [[!redirects nice categories of spaces]]
