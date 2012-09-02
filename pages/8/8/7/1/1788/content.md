@@ -5,7 +5,15 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-$V \displaystyle\hat{\otimes} W$ vs $V {\displaystyle\hat{\otimes}} W$
+$\sin$, *$\sin$*, $sin$, *$sin$*
+
+$$\sin, sin$$
+
++-- {: .num_prop #fonttest}
+$\sin$, *$\sin$*, $sin$, *$sin$*
+
+$$\sin, sin$$
+=--
 
 see also the interesting footnote below[^footnote1]
 
