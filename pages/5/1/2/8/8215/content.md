@@ -76,6 +76,42 @@ where $d_k : S_n \to S_{n-1}$ are the [[face maps]] of $S$.
 
 ## Examples
 
+### Explicit
+
++-- {: .num_example #OfTetrahedon}
+###### Example
+
+Let $S = \partial \Delta^3$ be the [[boundary of a simplex|boundary]] of the simplicial  3-[[simplex]], the (hollow) simplicial [[tetrahedron]].
+
+Since this has 
+
+* 4 non-degenerate vertices
+
+* 6 non-degenerate edges
+
+* 6 non-degenerate faces
+
+the [[normalized chain complex]] of $\mathbb{Z}$ is of the form
+
+$$
+  \cdots \to 0 \to 0 \to \mathbb{Z}^4 \to \mathbb{Z}^6 \to \mathbb{Z}^4 \to 0
+  \,.
+$$
+
+By writing out the two non-trivial differentials, one can deduce explicitly that 
+
+* $H_0(\partial \Delta^3) = \mathbb{Z}$ (reflecting the fact that the tetrahedron is [[connected topological space|connected]]);
+
+* $H_1(\partial \Delta^3) = 0$ (reflectind the fact that it is [[simply-connected topological space|simply-connected]]);
+
+* $H_2(\partial \Delta^3) = \mathbb{Z}$ (reflectind the fact, by the [[Hurewicz theorem]], that the second [[homotopy group]] of the 2-sphere is $\mathbb{Z}$ );
+
+
+=--
+
+
+### General
+
 * For $X$ a [[topological space]] and $S = Sing X$ the [[singular simplicial complex]] of $X$, the simplicial homology of $Sing X$ is called the _[[singular homology]]_ of $X$, denoted $H_\bullet(X,A)$.
 
 
