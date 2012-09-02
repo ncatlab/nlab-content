@@ -177,6 +177,7 @@ $$
 
 
 ### Equivalence of the two definitions
+ {#EquivalenceOfTheTwoDefinitions}
 
 Which definition is 'better'? 'Commuting squares', i.e., the first version, is convenient if you want to define a double complex as a chain complex in the category of chain complexes. On the other hand, 'anticommuting squares' and version 2 is sometimes convenient for defining the total complex (for computing total homology). Does it matter which you use? The following says they are just two views of the same situation.
 
@@ -186,7 +187,7 @@ One makes a double complex $X$ with commutative squares into a double complex wi
 
 ## Total complex of a double complex
 
-The **total complex** of a double complex (under the convention that squares commute) is
+The **[[total complex]]** of a double complex (under the convention that squares commute) is
 
 $$
   tot_{\oplus}^k = \bigoplus_{m+n=k} X_{n,m}
@@ -216,6 +217,3 @@ Note that these two coincide when the set of non-zero objects $X_{n,m}$ such tha
 [[!redirects bi-complex]]
 [[!redirects bi-complexes]]
 
-
-[[!redirects total complex]]
-[[!redirects total complexes]]
