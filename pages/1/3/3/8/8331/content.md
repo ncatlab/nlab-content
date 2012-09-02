@@ -1,0 +1,78 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $C_{\bullet, \bullet}$ a [[double complex]] (in some [[abelian category]] $\mathcal{A}$), its _total complex_ $Tot(C)_\bullet$ is an ordinary complex which in degree $k$ is the [[direct sum]] of all components of total degree $k$.
+ 
+
+## Definition
+
+The **total complex** of a double complex (under the convention that squares commute) is
+
+$$
+  tot_{\oplus}^k = \bigoplus_{m+n=k} X_{n,m}
+$$
+
+$$
+  d^k_{tot_\oplus}|_{X_{n,m}} = 
+  d^v_X + (-1)^\bullet d_X^h 
+$$
+
+bla bla
+
+$$
+  tot_{\prod}^k = \prod_{m+n=k} X_{n,m}
+$$
+$$
+  d^k_{tot_\prod}|_{X_{n,m}} = 
+  d^v_X + (-1)^\bullet d_X^h 
+$$
+
+Note that these two coincide when the set of non-zero objects $X_{n,m}$ such that $n + m = k$ is finite, for example, when $X$ is a first quadrant double complex.
+
+
+## Properties
+
+### Exactness
+
++-- {: .num_prop #TotOfBoundedDegreewiseExactIsExact}
+###### Proposition
+
+If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or coloumns then also $Tot(C)_\bullet$ is exact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the [[acyclic assembly lemma]].
+
+=--
+
+### Relation to total simplicial sets
+
+The total chain complex is under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the called the _total simplicial set_ of a bisimplicial set.
+
+## References
+
+For instance secton 1.2 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+
+[[!redirects total complexes]]
+[[!redirects total chain complex]]
+[[!redirects total chain complexes]]
