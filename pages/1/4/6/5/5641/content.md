@@ -144,6 +144,8 @@ $$
   * [[chain map]], [[quasi-isomorphism]]
 
   * **chain homotopy**
+
+* [[homotopy category of chain complexes]]
   
 ## References
 
