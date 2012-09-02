@@ -48,6 +48,7 @@ This concept is dual to that of [[loop space object]].
 
 * In [[Top]], this is the [[reduced suspension]] of a space.
 
+* In a [[category of chain complexes]] the [[suspension of a chain complex]] is given by shifting the degrees of the chain complex up by one.
 
 ## Related concepts
 
