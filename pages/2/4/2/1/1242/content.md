@@ -19,27 +19,78 @@
 
 ## Definition
 
-### General
 
-An **exact sequence** is a [[chain complex]] with vanishing [[chain homology]].
+Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]]).
 
-### Long and short exact sequences
++-- {: .num_defn #ExactSequence}
+###### Definition
 
-A general exact sequence is sometimes called a **long exact sequence**, to distinguish from the special case of a **short exact sequence** which is an exact sequence of the form
-$$ 0 \to A \to B \to C \to 0 .$$
-Of course, by adding $0$ to either end (or both!), one turns a short exact sequence into a chain complex and in particular into a long exact sequence.
+An **exact sequence** in $\mathcal{A}$ is a [[chain complex]] $C_\bullet$ in $\mathcal{A}$ with vanishing [[chain homology]] in each degree:
 
-A short exact sequence may also be defined in more elementary terms as a sequence
-$$ A \stackrel{i}\to B \stackrel{p}\to C $$
-such that $i$ is a [[monomorphism]], $p$ is an [[epimorphism]], and the [[image]] of $i$ equals the [[kernel]] of $p$ (equivalently, the [[coimage]] of $p$ equals the [[cokernel]] of $i$).
+$$
+  \forall n \in \mathbb{N} . H_n(C) = 0 
+  \,.
+$$
 
-A **split exact sequence** is a short exact sequence in which $i$ is a [[split monomorphism]], or (equivalently) in which $p$ is a [[split epimorphism]].  In this case, $B$ may be decomposed as the [[biproduct]] $A \oplus C$ (with $i$ and $p$ the usual biproduct inclusion and projection); this sense in which $B$ is 'split' into $A$ and $C$ is the origin of the general terms 'split (mono/epi)morphism'.
+=--
 
-The above works in any [[abelian category]], and possible more generally.  See also [[exact sequence of Hopf algebras]].
++-- {: .num_defn #ShortExactSequence}
+###### Definition
+
+A **short exact sequence** is an exact sequence, def. \ref{ExactSequence} of the form
+
+$$
+  \cdots \to 0 \to 0 \to A \to B \to C \to 0 \to 0 \to \cdots
+  \,.
+$$
+
+One usually writes this just "$0 \to A \to B \to C \to 0$" or even just "$A \to B \to C$".
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A general exact sequence is sometimes called a **long exact sequence**, to distinguish from the special case of a short exact sequence.
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+Explicitly, a sequence of morphisms 
+
+$$ 
+  A \stackrel{i}\to B \stackrel{p}\to C 
+$$
+
+is short exact, def. \ref{ShortExactSequence}, precisely if
+
+1. $i$ is a [[monomorphism]],
+
+1. $p$ is an [[epimorphism]], 
+
+1. and the [[image]] of $i$ equals the [[kernel]] of $p$  (equivalently, the [[coimage]] of $p$ equals the [[cokernel]] of $i$).
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+A **[[split exact sequence]]** is a short exact sequence as above in which $i$ is a [[split monomorphism]], or (equivalently) in which $p$ is a [[split epimorphism]].  
+
+=--
+
+In this case, $B$ may be decomposed as the [[biproduct]] $A \oplus C$ (with $i$ and $p$ the usual biproduct inclusion and projection); this sense in which $B$ is 'split' into $A$ and $C$ is the origin of the general terms 'split (mono/epi)morphism'.
 
 ## Properties
 
 ### Exactness and quasi-isomorphisms
+ {#ExactnessAndQuasiIsomorphisms}
+
++-- {: .num_prop }
+###### Proposition
 
 A chain complex $C_\bullet$ is exact (is a long exact sequence), precisely if the unique [[chain map]] from the [[initial object]], the 0-complex
 
@@ -47,7 +98,9 @@ A chain complex $C_\bullet$ is exact (is a long exact sequence), precisely if th
     0 \to C_\bullet
   $$
 
-  is a [[quasi-isomorphism]].
+is a [[quasi-isomorphism]].
+
+=--
 
 ### Short exact sequences and quotients
  {#SESAndQuotients}
@@ -122,6 +175,11 @@ is exact.
 * [[long exact sequence in cohomology]]
 
 * [[long exact sequence in homology]]
+
+## Related concepts
+
+* [[exact sequence of Hopf algebras]]
+
 
 ## References
 
