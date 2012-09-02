@@ -43,6 +43,8 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 
 * [[category of chain complexes]]
 
+**Exercise 1.1.2** [homology is functorial](http://ncatlab.org/nlab/show/chain+map#OnHomology)
+
 **Exercise 1.1.4** [[internal hom of chain complexes]]
 
 **Definition 1.1.2** [[quasi-isomorphism]]
