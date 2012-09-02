@@ -5,33 +5,78 @@
 
 ## Idea
 
-While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]]. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
+While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]], although it really works best for [[dense order|dense]] and unbounded (without [[top]] or [[bottom]]) linear orders. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
 
 
 ## Definitions
 
-+-- {: .un_defn}
-###### Definition
-Let $(S,\lt)$ be a set with a [[linear order]]. $S$ is **Dedekind complete** if every pair of subsets $D, U \subset S$ that satisfies the axioms for a [[Dedekind cut|cut]] is of the form
-$$D = \{d|d\lt a\},U = \{u|u \lt a\}$$
-for some unique $a\in S$.
+Let $S$ be a [[set]] with a [[dense order|dense]] [[linear order]] $\lt$ without [[top]] or [[bottom]] elements.
 
-We call any linear order $S_D$ which is Dedekind complete equipped with a universal arrow $S \to S_D$ [[the]] **Dedekind completion** of $S$.
++-- {: .num_defn}
+###### Definition
+
+A __cut__ in $S$ is a pair of [[subsets]] $L, U \subset S$ of $S$ that satisfy the following eight properties:
+
+1.  $L$ is [[inhabited subset|inhabited]];
+2.  Dually, $U$ is inhabited;
+3.  If $x \lt y \in L$, then $x \in L$;
+4.  Dually, if $x \gt y \in U$, then $x \in U$;
+5.  If $x \in L$, then $x \lt y \in L$ for some $y$;
+6.  Dually, $x \in U$, then $x \gt y \in U$ for some $y$;
+7.  If $x \lt y$, then $x \in L$ or $y \in U$;
+8.  If $x \in L$ and $y \in U$, then $x \lt y$.
 =--
 
-The set of Dedekind cuts of [[rational numbers]] -- the real numbers -- is Dedekind complete. In fact starting with any unbounded, [[dense order|dense]] linearly ordered set $S$, the set of Dedekind cuts is isomorphic to the reals as long as $S$ is a [[countably infinite set]]. 
++-- {: .num_defn}
+###### Definition
 
-Since the operation of forming the set of Dedekind cuts is idempotent, the Dedekind completion can be constructed as the set of Dedekind cuts.  More precisely, the Dedekind-complete linear orders form a [[reflective subcategory]] of the category of linear orders, so that Dedekind completion is a kind of [[completion]] in the abstract categorial sense.
+The linearly ordered set $S$ is **Dedekind complete** if every cut $(L,U)$ is of the form
+$$ L = \{x \;| \;x \lt a\},\; U = \{x \;|\; x \gt a\}$$
+for some unique $a \in S$.
+=--
+
++-- {: .num_defn}
+###### Definition
+
+If $T$ is also an unbounded dense linear order, $S$ is Dedekind complete, and we have a [[universal arrow]] $u\colon T \to S$ in the [[category]] of linear orders, then $S$ (equipped with $u$) is [[the]] **Dedekind completion** of $T$.
+=--
+
+The set of Dedekind cuts of [[rational numbers]] --the set of [[real numbers]]-- is Dedekind complete. In fact, starting with any unbounded dense linearly ordered set $S$, the set of Dedekind cuts is isomorphic to the reals as long as $S$ is a [[countably infinite set]]. 
+
+The operation of forming the set of Dedekind cuts is idempotent, so the Dedekind completion can be constructed as the set of Dedekind cuts.  More precisely, the Dedekind-complete linear orders form a [[reflective subcategory]] of the category of dense unbounded linear orders, so that Dedekind completion is a kind of [[completion]] in the abstract categorial sense.
 
 
-## Generalisation
+## Generalisations
 
-At least in [[classical mathematics]], one can generalise Dedekind completion from [[total orders]] (classically equivalent to linear orders) to [[partial orders]]; see Sections 4.31--39 of _[[HAF]]_.
+One can generalise Dedekind completion from [[linear orders]] to [[quasiorders]].
+
+A [[quasiordered set]] $S$ is __dense__ if, given finite (here always meaning [[Kuratowski-finite]]) subsets $F$ and $G$ such that $x \lt z$ whenever $x \in F$ and $z \in G$, we have some $y$ such that $x \lt y \lt z$ whenever $x \in F$ and $z \in G$.  Also, $S$ is __unbounded__ if, given any element $y$, there exist $x$ and $z$ such that $x \lt y \lt z$; that is, there are no [[maximal element|maximal]] or [[minimal element|minimal]] elements.
+
++-- {: .num_defn}
+###### Definition
+
+Given an unbounded dense quasiordered set $S$, a __cut__ is a pair $(L,U)$ of [[subsets]] such that:
+
+1.  $L$ is [[inhabited subset|inhabited]];
+2.  Dually, $U$ is inhabited;
+3.  If $x \lt y \in L$, then $x \in L$;
+4.  Dually, if $x \gt y \in U$, then $x \in U$;
+5.  If $F$ is a finite subset of $L$, then for some $x \in L$, every $y \in F$ satisfies $y \lt x$;
+6.  Dually, if $F$ is a finite subset of $U$, then for some $x \in U$, every $y \in F$ satisfies $y \gt x$;
+7.  If ...;
+8.  If $x \in L$ and $y \in U$, then $x \lt y$.
+=--
+
+We then define Dedekind-complete quasiorders and Dedekind completions of quasiorders the same as for linear orders, using this notion of cut.
+
+Sections 4.31--39 of _[[HAF]]_ do things in even more generality, but I don\'t really understand it.
 
 
 ## References
 
 *  [[Paul Taylor]]\'s [page on Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
+
+*  Page 249 of [this Google book](http://books.google.com/books?id=xPF9Hb7DPLgC) gave me the ideas needed for the generalisation to quasiorders.
 
 
 [[!redirects Dedekind completion]]
