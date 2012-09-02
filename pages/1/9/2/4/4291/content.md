@@ -57,6 +57,15 @@ The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[equiv
 =--
 
 
+### In a semi-abelian category
+
+There is a nnabelian analog of split exact sequences in [[semiabelian categories]]. See there.
+
+## Properties
+
+### Relation to chain homotopy
+ {#RelationToChainHomotopy}
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -64,19 +73,28 @@ A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak h
 
 =--
 
-### In a semi-abelian category
 
-There is a nnabelian analog of split exact sequences in [[semiabelian categories]]. See there.
-
-## Properties
-
-### Of vector spaces
+### Of free modules and vector spaces
  {#OfVectorSpaces}
-
-Let $k$ be a [[field]] and denote by $\mathcal{A} \coloneqq k$[[Vect]] the [[category]] of [[vector spaces]] over $k$.
 
 +-- {: .num_prop}
 ###### Proposition
+
+Every exact sequence of finitely generated [[free abelian groups]] is split.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every exact sequence of [[free modules]] which is bounded below is split.
+
+=--
+
+Let $k$ be a [[field]] and denote by $\mathcal{A} \coloneqq k$[[Vect]] the [[category]] of [[vector spaces]] over $k$.
+
++-- {: .num_cor}
+###### Corollary
 
 Every [[short exact sequence]] of vector spaces is split.
 
