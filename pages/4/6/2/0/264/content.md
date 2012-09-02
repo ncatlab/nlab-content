@@ -88,16 +88,14 @@ $$\array{& \to \\ W & \Downarrow & C\\ & \to}$$
 where $W$ is the category whose objects are morphisms in $W$ and whose morphisms are commutative squares in $C$.
 
 
-## Derived category
-
-What is called a [[derived category]] is the special case of the homotopy category of a [[category of chain complexes]] in an [[abelian category]]. See [[derived category]] for more details.
-
 
 ## Examples
 
 * In classical [[homotopy theory]], _the_ homotopy category refers to the homotopy category [[Ho(Top)]] of [[Top]] with weak equivalences taken to be [[weak homotopy equivalences]].
 
 * [[Ho(Top)]] is often restricted to the [[full subcategory]] of spaces of the [[homotopy type]] of a [[CW-complex]] (the full subcategory of CW-complexes in $Ho(Top)$). This is equivalent to $Ho(sSet_{Quillen})$, the homotopy category of the standard Quillen-[[model structure on simplicial sets]]. This equivalence is one aspect of the [[homotopy hypothesis]].
+
+* In [[homological algebra]] the localization of the [[category of chain complexes]] at the [[quasi-isomorphisms]] is called the _[[derived category]]_. But see also at _[[homotopy category of chain complexes]]_.
 
 * In [[stable homotopy theory]] one considers the homotopy category of [[spectra]].
 
