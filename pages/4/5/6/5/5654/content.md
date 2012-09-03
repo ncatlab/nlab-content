@@ -14,7 +14,7 @@
 
 ## Definition
 
-Let $C$ be a [[stable (∞,1)-category]] (or [[(∞,1)]-topos]]) and $A \in C$ a stable coefficient object. For $X \in C$ and $n \in \mathbb{Z}$ or ($n \in \mathbb{N}$) write
+Let $C$ be a [[stable (∞,1)-category]] (or [[(∞,1)-topos]]) and $A \in C$ a stable coefficient object. For $X \in C$ and $n \in \mathbb{Z}$ or ($n \in \mathbb{N}$) write
 
 $$
   H^n(X,A) := \pi_0 C(X, \mathbf{B}^n A)
@@ -29,6 +29,10 @@ Then the $A$-**cohomology localization** of $C$ is -- if it exists -- the [[loca
 ## Examples
 
 * At [[function algebras on ∞-stacks]] is discussed a class  of examples of cohomology localizations of [[(∞,1)-sheaf (∞,1)-toposes]] over [[site]]s of [[algebra over a Lawvere theory|algebras over]] an abelian [[Lawvere theory]] at cohomology with coefficients in the canonical [[line object]] $\mathbb{A}^1$.
+
+## Related concepts
+
+* [[homology localization]]
 
 ## References
 
