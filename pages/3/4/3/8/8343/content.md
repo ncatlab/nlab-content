@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _pseudocircle_ is a [[finite topological space]] which is [[weak homotopy equivalence|weakly homotopy equivalent]] to the standard [[circle]].
+
+## References
+
+* Michael McCord, _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. Volume 33, Number 3 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525))
+ {#McCord}
+
+* Wikipedia, _[Pseudocircle](http://en.wikipedia.org/wiki/Pseudocircle)_
