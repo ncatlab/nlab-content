@@ -1,4 +1,8 @@
 
+> This entry is about the notion in [[physics]]. For a different (but at least roughly analogous) notion in [[mathematics]]/[[logic]] see at _[[universe]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -20,9 +24,9 @@
 
 ## Related entries
 
-* [[cosmology]], [[standard model of cosmology]]
+* [[cosmology]], [[standard model of cosmology]], [[quantum cosmology]]
 
-* [[particle physics]], [[standard model of particle phyiscs]]
+* [[particle physics]], [[standard model of particle physics]]
 
 ## References
 
