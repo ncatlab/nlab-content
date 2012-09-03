@@ -20,31 +20,50 @@ For $C_{\bullet, \bullet}$ a [[double complex]] (in some [[abelian category]] $\
 
 ## Definition
 
-The **total complex** of a double complex (under the convention that squares commute) is
+Let $\mathcal{A}$ be an [[abelian category]] with arbitrary [[direct sums]].
+
+Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mathcal{A}$ and $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ for the category of [[double complexes]]. (Hence we use the convention that in a double complex the vertical and horizontal [[differential]] commute with each other.)
+
++-- {: .num_defn}
+###### Defintition
+
+For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], it **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]]
 
 $$
-  tot_{\oplus}^k = \bigoplus_{m+n=k} X_{n,m}
+  Tot(C)_n = \bigoplus_{k+l = n} C_{k,l}
 $$
 
-$$
-  d^k_{tot_\oplus}|_{X_{n,m}} = 
-  d^v_X + (-1)^\bullet d_X^h 
-$$
-
-bla bla
+and whose [[differentials]] are give by the [[linear combination]]
 
 $$
-  tot_{\prod}^k = \prod_{m+n=k} X_{n,m}
-$$
-$$
-  d^k_{tot_\prod}|_{X_{n,m}} = 
-  d^v_X + (-1)^\bullet d_X^h 
+  \partial^{Tot}
+  \coloneqq
+  \partial^C_{vert} + (-1)^{vertical\;degree} \partial^C_{hor}  
+  \,. 
 $$
 
-Note that these two coincide when the set of non-zero objects $X_{n,m}$ such that $n + m = k$ is finite, for example, when $X$ is a first quadrant double complex.
-
+=--
 
 ## Properties
+ {#Properties}
+
+### Total homology and spectral sequences
+ {#TotalHomology}
+
++-- {: .num_remark #TotalHomology}
+###### Remark
+
+The [[chain homology]] of the total complex $Tot(C)_\bullet$ is sometimes called the **total homology** of the [[double complex]] $C_{\bullet, \bullet}$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A tool for computing the homology of a total complex, hence for computing total homology of a double complex, is the _[[spectral sequence of a double complex]]_.
+See there for more details.
+
+=--
 
 ### Exactness
 
@@ -62,7 +81,7 @@ Use the [[acyclic assembly lemma]].
 
 =--
 
-### Relation to total simplicial sets
+### Relation to total simplicial sets and homotopy colimits
 
 The total chain complex is under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the called the _total simplicial set_ of a bisimplicial set.
 
