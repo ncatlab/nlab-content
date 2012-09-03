@@ -1,0 +1,52 @@
+
+**[[foundational axiom]]**
+
+* [[large cardinal axioms]]:
+  * [[axiom of infinity]]
+  * [[axiom of universes]]
+  * [[regular extension axiom]]
+  * [[inaccessible cardinal]]
+  * [[measurable cardinal]] 
+  * [[elementary embedding]]
+  * [[supercompact cardinal]]
+  * [[Vopěnka's principle]]
+
+* strong axioms
+  * [[axiom of separation]]
+  * [[axiom of replacement]]
+
+
+* basic constructions:
+  * [[axiom of cartesian products]]
+  * [[axiom of disjoint unions]]
+  * [[axiom of the empty set]]
+  * [[axiom of fullness]]
+  * [[axiom of function sets]]
+  * [[axiom of power sets]]
+  * [[axiom of quotient sets]]
+
+* [[material set theory|material axioms]]:
+  * [[axiom of extensionality]]
+  * [[axiom of foundation]]
+  * [[Mostowski's axiom]]
+  * [[axiom of pairing]]
+  * [[axiom of transitive closure]]
+  * [[axiom of union]]
+
+
+* [[axioms of choice]]:
+  * [[axiom of countable choice]]
+  * [[axiom of dependent choice]]
+  * [[axiom of excluded middle]]
+  * [[axiom of existence]]
+  * [[axiom of multiple choice]]
+  * [[Markov's axiom]]
+  * [[presentation axiom]]
+  * [[small cardinality selection axiom]]
+  * [[axiom of small violations of choice]]
+  * [[axiom of weakly initial sets of covers]]
+
+  * [[COSHEP]]
+  * [[small violations of choice]]
+  * [[WISC]]
+  * [[excluded middle]]
