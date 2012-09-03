@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
-In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|Category Of Sets]] Has [[projective object|Enough Projectives]]; in short: **COSHEP** (pronounced /ko:-shep/).  This is also known as the **presentation axiom** "PAx."   It is a weak form of the [[axiom of choice]].
+In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|Category Of Sets]] Has [[projective object|Enough Projectives]]; in short: **COSHEP** (pronounced /ko:-shep/).  This is more commonly known as the **presentation axiom**: PAx.   It is a weak form of the [[axiom of choice]].
 
 In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with [[algebra]] (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of [[constructive mathematics|constructivism]], we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
@@ -31,9 +30,9 @@ takes [[epimorphism|epis]] to epis. This is the same as saying: given an epi $p:
 
 As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of [[module]]s have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
 
-+-- {: .un_prop}
-######Proposition
-In the presence of COSHEP (and the base assumption that $Set$ forms a [[W-pretopos]]), the following three axioms on [[Set]] are equivalent: 
++-- {: .num_prop}
+###### Proposition
+The following three conditions on a [[W-pretopos]] with enough projectives are equivalent: 
 
 1. The axiom of [[dependent choice]] (DC), 
 
@@ -42,10 +41,10 @@ In the presence of COSHEP (and the base assumption that $Set$ forms a [[W-pretop
 3. Projectivity of the [[singleton]] (the [[terminal object]]) $1$. 
 =-- 
 
-Note that we normally assume (3), which is always true *[[internalization|internally]]* in any pretopos, so one normally says that DC and CC simply follow from COSHEP.  (Equivalently, internal DC and internal CC follow from internal COSHEP.)
+Note that we normally assume (3) for [[the category of sets]], which is always true *[[internalization|internally]]* in any pretopos, so one normally says that DC and CC simply follow from the existence of enough projectives (COSHEP).  Equivalently, internal DC and internal CC follow from internal COSHEP.
 
 +-- {: .proof}
-######Proof 
+###### Proof 
 Condition 1 easily implies 2. Condition 2 says precisely that the [[natural numbers object]] $\mathbb{N}$ is externally projective, and since $1$ is a retract of $\mathbb{N}$, it is projective under condition 2, so 2 implies 3. It remains to show 3 implies 1. 
 
 Let $X$ be inhabited, so there exists an [[entire relation]] given by a jointly monic span 
@@ -77,7 +76,7 @@ X & \underset{\pi_1}{\leftarrow} & R & \underset{\pi_2}{\to} & X
 Clearly $\langle p h, p h s \rangle : \mathbb{N} \to X \times X$ factors through $\langle \pi_1, \pi_2 \rangle : R \to X \times X$, i.e., $\forall_{n: \mathbb{N}} (p h(n), p h(n+1)) \in R$, thus proving that dependent choice holds under COSHEP. 
 =-- 
 
-(An example of a topos in which COSHEP holds but $1$ is not projective is $Set^C$, where $C$ is the category with three objects and exactly two non-identity arrows $a \to b \leftarrow c$. For if $U: C \to Set$ is a functor with $U(a) = \{a_0\}$, $U(b) = \{b_0, b_1\}$, and $U(c) = \{c_0\}$, with $U(a \to b)(a_0) = b_0$ and $U(c \to b)(c_0) = b_1$, then the map $U \to 1$ is epi but has no section, so $1$ is not projective. On the other hand, as noted below, every presheaf topos satisfies COSHEP.) 
+(An example of a topos in which COSHEP holds but $1$ is not projective is $Set^C$, where $C$ is the category with three objects and exactly two non-identity arrows $a \to b \leftarrow c$. For if $U: C \to Set$ is a functor with $U(a) = \{a_0\}$, $U(b) = \{b_0, b_1\}$, and $U(c) = \{c_0\}$, with $U(a \to b)(a_0) = b_0$ and $U(c \to b)(c_0) = b_1$, then the map $U \to 1$ is epi but has no section, so $1$ is not projective. On the other hand, as noted below, every presheaf topos satisfies COSHEP, assuming that $Set$ itself does.) 
 
 COSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[WISC]].  In [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
 
@@ -105,9 +104,10 @@ An interesting example of a topos that has enough projectives and thus does sati
 
 * Since COSHEP implies [[WISC]], and WISC implies a [[proper class]] of [[regular cardinals]] in [[ZF]], COSHEP as a choice principle added to ZF implies the same.
 
+
 ## References
 
-When [[Peter Aczel]] was developing $\mathbf{CZF}$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected in favour of its weaker consequence, [[dependent choice]].
+When [[Peter Aczel]] was developing $\mathbf{CZF}$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected.
 
 * Peter Aczel. _The type theoretic interpretation of constructive set theory_. Logic Colloquium '77 (Proc. Conf., Wroclaw, 1977), pp. 55--66, Stud. Logic Foundations Math., 96, North-Holland, Amsterdam-New York, 1978.  Cited in Palmgren, below.
 
@@ -120,7 +120,8 @@ Its relationship to some other weak axioms of choice is studied in
 * Michael Rathjen.  _Choice principles in constructive and classical set theories_.
 
 
+category: foundational axiom
+
 [[!redirects presentation axiom]]
 [[!redirects PAx]]
-
-category: foundational axiom
+[[!redirects COSHEP]]
