@@ -170,3 +170,6 @@ category: foundational axiom
 
 [[!redirects Grothendieck universe]]
 [[!redirects Grothendieck universes]]
+
+[[!redirects axiom of Grothendieck universes]]
+[[!redirects axiom of universes]]
