@@ -15,7 +15,7 @@
 
 ## Idea
 
-An [[axiom]] is called a _foundational axiom_ if ... [[foundations]] ... (?)
+A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
 
 ## Examples
 
