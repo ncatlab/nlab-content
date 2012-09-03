@@ -43,5 +43,45 @@ A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
   * [[axiom of replacement]]
 
 
+* basic constructions:
+  * [[axiom of cartesian products]]
+  * [[axiom of disjoint unions]]
+  * [[axiom of the empty set]]
+  * [[axiom of fullness]]
+  * [[axiom of function sets]]
+  * [[axiom of power sets]]
+  * [[axiom of quotient sets]]
+
+* material axioms:
+  * [[axiom of extensionality]]
+  * [[axiom of foundation]]
+  * [[Mostowski's axiom]]
+  * [[axiom of pairing]]
+  * [[axiom of transitive closure]]
+  * [[axiom of union]]
+
+* [[large cardinal axioms]]:
+  * [[axiom of infinity]]
+  * [[regular extension axiom]]
+  * [[axiom of universes]]
+  * [[Vopěnka's axiom]]
+
+* [[axioms of choice]]:
+  * [[axiom of countable choice]]
+  * [[axiom of dependent choice]]
+  * [[axiom of excluded middle]]
+  * [[axiom of existence]]
+  * [[axiom of multiple choice]]
+  * [[Markov's axiom]]
+  * [[presentation axiom]]
+  * [[small cardinality selection axiom]]
+  * [[axiom of small violations of choice]]
+  * [[axiom of weakly initial sets of covers]]
+
+* strong axioms:
+  * [[axiom of separation]]
+  * [[axiom of replacement]]
+
+
 [[!redirects foundational axiom]]
 [[!redirects foundational axioms]]
