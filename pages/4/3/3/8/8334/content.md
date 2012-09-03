@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Despite of what one might expect, much of [[cosmology]] is based on [[classical physics]]. Certainly the [[standard model of particle physics]] is constructed from _classical [[gravity]]_, namely an [[FRW model]] solution to [[Einstein's equations]], which serves as a fixed "background" over which one considers in a [[semiclassical approximation]] [[quantum fields]], say to model the [[cosmic microwave background radiation]].
+
+On the one hand it is remarkable how well the [[standard model of cosmology]] built this way compares to available experimental data. On the other hand it is clear that a more precise model will need to take [[quantum field theory]] into acount more properly. In particular non-classical effects of [[quantum gravity]] will play a role at least close to the initial singularity, if not also for the explanation of the [[cosmological constant]] and other aspects of the [[standard model of cosmology]] which currently don't have a conceptual explanation in the model.
+
+Such a more comprehensively quantum mechanical discussion of [[cosmology]] goes by the term **quantum cosmology**. 
+
+However, despite the existence of this term, quantum cosmology is to a large extent only a hypothetical field of research. This is due to two major open conceptual problems of present day fundamental [[physics]]:
+
+1. the nature of [[quantum gravity]] remains largely unsettled;
+
+1. the very formulations of [[quantum mechanics]]/[[quantum field theory]] available all require, more or less explicitly and to lesser or greater extent, an _external classical observer_ to make sense of the predictions of the theory. This makes sense, in principle, for every subsysten of the [[observable universe]]. But a comprehensive theory of "quantum cosmology" would seem to need a notion of [[observables]] of quantum phenomena by "quantum observers" _internal_ to the quantum system which they observe, instead of by "classical observers" external to that quantum system.
+
+Despite various attempts and proposals for how to proceed with these problems the issue remains essentially unsolved and mysterious.
+
+## References
+
+* J.J.Halliwell, _Introductory Lectures on Quantum Cosmology (1990)_ ([arXiv:0909.2566](http://arxiv.org/abs/0909.2566))
+
+* Calcagni, G.; Papantonopoulos, L.; Siopsis, G.; Tsamis, N. (Eds.), _Quantum Gravity and Quantum Cosmology
+_ Lecture Notes in Physics, Vol. 863
+
