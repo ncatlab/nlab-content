@@ -42,7 +42,7 @@ More explicitly this means the following.
 
 A **simplicial set** $S \in sSet$ is 
 
-* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$;
+* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
 
 * for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
 
