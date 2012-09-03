@@ -139,3 +139,7 @@ and this includes a discussion of the homology of simplicial complexes.
 
 [[!redirects chain on a simplicial set]]
 [[!redirects chains on a simplicial set]]
+
+[[!redirects simplicial chain]]
+[[!redirects simplicial chains]]
+
