@@ -45,7 +45,7 @@ $$
   \hookrightarrow \mathbb{R}^n 
 $$
 
-equipped with the [[subspace topology]] of the canonincal topology on the [[Cartesian space]] $\mathbb{R}^n$.
+equipped with the [[subspace topology]] of the standard topology on the [[Cartesian space]] $\mathbb{R}^n$.
 
 =--
 
@@ -54,7 +54,7 @@ equipped with the [[subspace topology]] of the canonincal topology on the [[Cart
 
 For $n = 0$ this is the [[point]], $\Delta^0 = *$.
 
-For $n = 1$ this is the standard [[interval]] $\Delta^1 = [0,1]$.
+For $n = 1$ this is the standard [[interval object]] $\Delta^1 = [0,1]$.
 
 =--
 
