@@ -1,5 +1,42 @@
-In material [[set theory]], the __axiom of extensionality__ says that the global membership relation $\in$ is an [[extensional relation]] on the class of all [[pure set]]s.
 
-If you model pure sets in structural [[set theory]], then this axiom is true, essentially by definition.
+# The axiom of extensionality
+* table of contents
+{: toc}
+
+## Idea
+
+In material [[set theory]], the _axiom of extensionality_ says that the global membership relation $\in$ is an [[extensional relation]] on the class of all [[pure sets]].
+
+Since any relation becomes extensional on its [[extensional quotient]], one can interpret this axiom as a definition of [[equality]].  However, because the extensional quotient map need not reflect the relation, there is still content to the axiom: if two sets would be identified in the extensional quotient, then they must be members of the same sets and have the same sets as members.
+
+If one models [[pure sets]] in structural [[set theory]], then this property may be made to hold by construction.
+
+
+## Statements
+
+In the context of the [[axiom of foundation]], we may use [[weak extensionality]], simplifying the statement.
+
+Taking [[equality]] as a primitive:
+
++-- {: .num_axiom}
+###### Axiom
+
+If two sets have the same members, then they are equal.
+=--
+
+Or taking equality as defined:
+
++-- {: .num_axiom}
+###### Axiom
+
+If two sets have the same members, then they are members of the same sets.
+=--
+
+Here we define two sets to be equal if they have the same members.
+
+Note that we may prove, using the [[axiom of separation]] (bounded separation is enough) that two sets must be equal if they are members of the same sets.
+
 
 category: foundational axiom
+
+[[!redirects axiom of extensionality]]
