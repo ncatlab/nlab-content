@@ -136,3 +136,7 @@ Texts on supersymmetric QFT include
 
 [[!redirects QFT]]
 [[!redirects quantum field theories]]
+
+[[!redirects quantum field]]
+[[!redirects quantum fields]]
+
