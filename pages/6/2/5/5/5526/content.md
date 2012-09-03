@@ -11,6 +11,8 @@
 
 * [[higher geometry]]
 
+* [[motivation for cohesive toposes]]
+
 ## Definition
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
