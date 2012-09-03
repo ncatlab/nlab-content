@@ -44,3 +44,6 @@ Together with its [[adjoint functor|adjoint]] -- [[geometric realization]] $|-| 
 * [[singular homology]]
 
 [[!redirects singular complex]]
+
+[[!redirects singular simplicial complexes]]
+
