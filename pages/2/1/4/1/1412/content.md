@@ -120,6 +120,7 @@ We say [[presheaf]] instead of just [[functor]], even though taken at face value
    
 * in symbols, the collection of pairs in $\{ $matching maps from $V_1$ and $V_2$ to $X \} \hookrightarrow X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
   $$X(V_1) \times X(V_2) \stackrel{\stackrel{restrict first element}{\to}}{\stackrel{restrict second element}{\to}} X(V_1 \cap V_2)$$
+
   should be exactly all the possible maps in $X(U)$: $\{ $matching probes of $X$ on $V_1$ and $V_2 \} \simeq X(U)$.
 
 * one says that the set $\{ $matching probes of $X$ on $V_1$ and $V_2 \}$ is the [[equalizer]] of the two [[parallel morphisms]]
@@ -222,7 +223,7 @@ With this understanding of maps between generalized spaces in hand, we should go
 
   * if  these two notions of maps don't coincide, then the whole picture of generalized spaces so far runs into inconsistencies!
 
-  * luckily it doesn't, as one can check. Both notions of maps, while defined differently, happen to be perfectly equivalent. This statement is a simple exercise to prove, and still is the fundamental fact which makes the important idea of generalized spaces works -- this fact is called the [[Yoneda lemma]]: it says that
+  * luckily it doesn't, as one can check. Both notions of maps, while defined differently, happen to be perfectly equivalent. This statement is a simple exercise to prove, and still is the fundamental fact which makes the important idea of generalized spaces work -- this fact is called the [[Yoneda lemma]]: it says that
   $$
   \begin{aligned}
     Top(U,X) &=: X(U)
@@ -247,9 +248,7 @@ This point is so important that it is worthwhile to build it into our very notat
 
 ## And more: a topos of generalized spaces
 
-It turns out that we can keep going this way. There is not just a natural notion of maps between generalized spaces given by  [[sheaf|sheaves]], but every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
-to study generalized [[homotopy theory]], 
-more general than the place of [[topological space]]s, but where still all the crucial constructions familiar from topological spaces makes sense.
+It turns out that we can keep going this way. There is not just a natural notion of maps between generalized spaces given by  [[sheaf|sheaves]], but every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go to study generalized [[homotopy theory]], more general than the place of [[topological space]]s, but where still all the crucial constructions familiar from topological spaces make sense.
 
 
 ## Higher sheaves: $\infty$-stacks
@@ -297,7 +296,7 @@ an awkward realization of the sheaf $Z$. It may be that we have to _straighten o
 
 The sheaves with this niceness property are called [[infinity-stack]]s or [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the fancy terminology, these things are nothing but consistent rules for something that may be probed with test spaces $U$, $V$, ...
 
-* in applications this means that before we compute the space of maps $[X,A]$ between generalized spaces, we first have two ensure that at least one of them is sufficiently _straightened out_. Once says one picks a _resolution_. More on that below.
+* in applications this means that before we compute the space of maps $[X,A]$ between generalized spaces, we first have two ensure that at least one of them is sufficiently _straightened out_. One says one picks a _resolution_. More on that below.
 
 
 ## Generalized cohomology
@@ -346,7 +345,7 @@ Here is what "abelian part of general cohomology" means:
   in the collection of data given by
   (non-positively graded) chain complexes in abelian groups.
 
-* {abelian chain complexes} $\simeq$ {simplicial abelian groups} $\subset$ {Kan complexes} $\simeq$ {nice topological spaces}
+* \{abelian chain complexes} $\simeq$ {simplicial abelian groups} $\subset$ {Kan complexes} $\simeq$ {nice topological spaces}
   
 By an [[abelian sheaf]] one means a sheaf $U \mapsto X(U)$ which
 takes values in [[chain complex]]es of abelian groups
