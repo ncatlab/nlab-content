@@ -55,7 +55,7 @@ More precisely, the necessary set-theoretic axioms for the above proofs are the 
 
 * The "only if" direction of Lemma \ref{MembershipMinimal} requires only excluded middle.
 
-* The "if" direction of Lemma \ref{MembershipMinimal} requires excluded middle, also that every set is contained in a transitive one (which requires some form of the [[axiom of replacement]]), as well as the [[axiom of separation]] in the form "the intersection of any class with a set is a set."
+* The "if" direction of Lemma \ref{MembershipMinimal} requires excluded middle, also that every set is contained in a transitive one (the [[axiom of transitive closure]], which follows from [[axiom of replacement|replacement]]), as well as the [[axiom of separation]] in the form "the intersection of any class with a set is a set."
 
 Another version of the axiom of foundation which *is* intuitionistically acceptable, but makes no reference to proper classes is:
 
@@ -74,7 +74,7 @@ In this case:
 
 * The "only if" direction requires no notable axioms at all, while
 
-* The "if" direction requires every set to be contained in a transitive one, as in Lemma \ref{MembershipMinimal}, and also the axiom of separation.
+* The "if" direction requires [[transitive closure]], as in Lemma \ref{MembershipMinimal}, and also the axiom of separation.
 
 Finally, another commonly cited version of foundation, equivalent to it at least over the other axioms of [[ZF]], is:
 
@@ -83,7 +83,7 @@ Finally, another commonly cited version of foundation, equivalent to it at least
 The axiom of foundation holds if and only if every pure set is an element of $V_\alpha$ for some [[ordinal]] $\alpha$.
 =--
 
-Here the $V_\alpha$ are the [[cumulative hierarchy]] defined by transfinite recursion as $V_\alpha = P(\bigcup_{\beta\lt \alpha} V_\beta$.
+Here the $V_\alpha$ are the [[cumulative hierarchy]] defined by [[transfinite recursion]] as $V_\alpha = P(\bigcup_{\beta\lt \alpha} V_\beta)$.
 
 
 ## Anti-foundation
@@ -92,13 +92,17 @@ Most of set theory works without the axiom of foundation, but not the deep study
 
 Alternatively, one can adopt the __axiom of anti-foundation__, which says:
 
-* Given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ and surjection $f : S \to U$ such that $f(s_1) \in f(s_2)$ if and only if $s_1 \in s_2$, for $s_1, s_2$ in $S$. (That is, $f$ is almost an isomorphism between $(S, \prec)$ and $(U, \in)$, but needn't be injective)
+* Given any [[extensional relation|extensional]] [[binary relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] (necessarily uniquely) to $(S,\prec)$.
+
+Since any relation has an [[extensional quotient]], we may also phrase the axiom thus:
+
+* Given any binary relation $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ and [[surjection]] $f : S \to U$ such that $f(s_1) \in f(s_2)$ if and only if $s_1 \in s_2$, for $s_1, s_2$ in $S$.  (That is, $f$ is almost an isomorphism between $(S, \prec)$ and $(U, \in)$, but needn't be [[injection|injective]].)
 
 Just as there are several versions of an [[extensional relation]], there are several versions of this axiom.  Note that the existence part of the statement is a set-formation axiom, while the uniqueness part is a strong version of the [[axiom of extensionality]] (which is equivalent to the usual one for well-founded sets).
 
-If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem (Mostowski's collapsing lemma), while the converse is the axiom of foundation.
+If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem ([[Mostowski's collapsing lemma]]), while the converse is the axiom of foundation.
 
-If you adopt the axiom of anti-foundation (with the strongest notion of extensive relation) instead of foundation, then the universe of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
+If you adopt the axiom of anti-foundation (with the strongest notion of extensional relation) instead of foundation, then the universe of [[pure sets]] becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
 
 ## Structural meaning
@@ -113,4 +117,6 @@ category: foundational axiom
 [[!redirects axiom of foundation]]
 
 [[!redirects axiom of anti-foundation]]
+[[!redirects axiom of antifoundation]]
 [[!redirects anti-foundation]]
+[[!redirects antifoundation]]
