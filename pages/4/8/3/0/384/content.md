@@ -21,19 +21,19 @@ A **CW-complex** is a [[nice topological space]] which can be built up inductive
 
 ## Definition
 
-A CW-complex is a topological space $X$ which can be presented as the colimit (in [[Top]], or else in the category of [[compactly generated space]]s or many another [[nice category of spaces]]) of spaces $X_n$ (called $n$-skeleta of the presentation) 
+A CW-complex is a topological spaces $X$ equipped with a sequence of spaces and continuous maps
 
-\[\label{CW1}X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
+\[\label{CW1}\varnothing = X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
 \]
 
-where each space $X_n$ is the result of attaching copies of the $n$-disk $D^n = \{x \in \mathbb{R}^n: ||x|| \leq 1\}$ along their boundaries $S^{n-1} = \partial D^n$ to $X_{n-1}$. Specifically, $X_0$ (the 0-skeleton) is a discrete space, and each $X_n$ is a pushout in [[Top]] of a diagram of the form 
+and a [[cocone]] making $X$ into its [[colimit]] (in [[Top]], or else in the category of [[compactly generated space]]s or many another [[nice category of spaces]]) where each space $X_n$ (called the $n$-skeleton of $X$) is the result of attaching copies of the $n$-disk $D^n = \{x \in \mathbb{R}^n: ||x|| \leq 1\}$ along their boundaries $S^{n-1} = \partial D^n$ to $X_{n-1}$. Specifically, $X_0$ (the 0-skeleton) is a discrete space, and each $X_n$ is a pushout in [[Top]] of a diagram of the form 
 
 $$X_{n-1} \stackrel{(f_i)}{\leftarrow} \coprod_{i \in I} S_{i}^{n-1} \stackrel{\coprod_i j_i}{\to} \coprod_{i \in I} D_{i}^n$$ 
 
 where $I$ is some index set, each $j_i: S_{i}^{n-1} \to D_{i}^n$ is the boundary inclusion of a copy of $D^n$, and 
 $f_i: S_{i}^{n-1} \to X_{n-1}$ is a continuous map, often called an _attaching map_. The coprojections $X_{n-1} \to X_n$ of these pushouts give the arrows on which diagram (eq:CW1) is based. 
 
-A "relative" CW-complex $(X, A)$ is similar, except $X_0$ is the disjoint union of $A$ with a discrete space. 
+A relative CW-complex $(X, A)$ is defined as above, except $X_{-1} = A$ is allowed to be any space.
 
 A _finite CW-complex_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
 
