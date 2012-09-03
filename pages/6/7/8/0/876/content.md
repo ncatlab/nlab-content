@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
@@ -26,7 +26,7 @@ The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[sets]].
 
 Given any family $(A_i)_{i:I}$ of sets, the (external) __disjoint union__ $\biguplus_i A_i$ (also written $\sum_i A_i$, $\coprod_i A_i$, etc) of the family is the set of all (ordered) pairs $(i,a)$ with $i$ in the index set $I$ and $a$ in $A_i$.
 
-As stated, the second element of such a pair depends on the first element, which is natural in dependent type theory and certainly feasible in material set theory; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].  If you\'re trying to be [[predicative mathematics|predicative]] too, consider adopting the existence of disjoint unions as an axiom in your [[foundations]].
+As stated, the second element of such a pair depends on the first element, which is natural in dependent type theory and certainly feasible in material set theory; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].  If you\'re trying to be [[predicative mathematics|predicative]] too, consider adopting the existence of disjoint unions as an axiom (the __axiom of disjoint unions__) in your [[foundations]].
 
 There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and its common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$.  So if no confusion can result (in particular, when the notation for an elements of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
 
@@ -52,10 +52,21 @@ If a family $(A_i)_{i: I}$ of [[subsets]] of a given set $X$ are all pairwise di
 
 Accordingly, a union of pairwise disjoint subsets may be called an __internal disjoint union__.  (Compare the internal vs external notions of [[direct sum]].)
 
+
 ## Related concepts
 
 * [[union]]
 
+
 category: foundational axiom
 
+[[!redirects disjoint union]]
 [[!redirects disjoint unions]]
+
+[[!redirects external disjoint union]]
+[[!redirects external disjoint unions]]
+
+[[!redirects internal disjoint union]]
+[[!redirects internal disjoint unions]]
+
+[[!redirects axiom of disjoint unions]]
