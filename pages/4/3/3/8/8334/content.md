@@ -25,7 +25,7 @@ However, despite the existence of this term, quantum cosmology is to a large ext
 
 1. the nature of [[quantum gravity]] remains largely unsettled;
 
-1. the very formulations of [[quantum mechanics]]/[[quantum field theory]] available all require, more or less explicitly and to lesser or greater extent, an _external classical observer_ to make sense of the predictions of the theory. This makes sense, in principle, for every subsysten of the [[observable universe]]. But a comprehensive theory of "quantum cosmology" would seem to need a notion of [[observables]] of quantum phenomena by "quantum observers" _internal_ to the quantum system which they observe, instead of by "classical observers" external to that quantum system.
+1. the very formulations of [[quantum mechanics]]/[[quantum field theory]] available all require, more or less explicitly and to lesser or greater extent, an _external classical observer_ to make sense of the predictions of the theory. This makes sense, in principle, for every subsystem of the [[observable universe]]. But a comprehensive theory of "quantum cosmology" would seem to need a notion of [[observables]] of quantum phenomena by "quantum observers" _internal_ to the quantum system which they observe, instead of by "classical observers" external to that quantum system.
 
 Despite various attempts and proposals for how to proceed with these problems the issue remains essentially unsolved and mysterious.
 
