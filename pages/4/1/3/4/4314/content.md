@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
-
 
 # Vop&#283;nka\'s principle
 * table of contents
@@ -132,7 +131,7 @@ By the facts discussed at [[locally presentable (∞,1)-category]] and [[combina
 
 As usually stated, Vop&#283;nka's principle is not formalizable in first-order [[ZF]] set theory, because it involves a "second-order" [[quantifier|quantification]] over [[proper classes]] ("...there does not exist a large discrete subcategory...").  It can, however, be formalized in this way in a class-set theory such as [[NBG]].
 
-On the other hand, it can be formalized in ZF as a first-order axiom schema consisting of one axiom for each class-defining formula $\phi$, stating that "$\phi$ does not define a class which is a large discrete subcategory..."  We might call this axiom schema the **Vop&#283;nka scheme**.  As in most situations of this sort, the first-order Vop&#283;nka scheme is appreciably weaker than the second-order Vop&#283;nka principle.  See, for instance, [this MO question](http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably) and answer.
+On the other hand, it can be formalized in ZF as a first-order axiom schema consisting of one axiom for each class-defining formula $\phi$, stating that "$\phi$ does not define a class which is a large discrete subcategory..."  We might call this axiom schema the **Vop&#283;nka axiom scheme**.  As in most situations of this sort, the first-order Vop&#283;nka scheme is appreciably weaker than the second-order Vop&#283;nka principle.  See, for instance, [this MO question](http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably) and answer.
 
 
 ### Vop&#283;nka cardinals
@@ -178,6 +177,28 @@ category: foundational axiom
 [[!redirects Vopenka's principle]]
 [[!redirects Vop?nka's principle]]
 [[!redirects Vopenka's principle]]
+[[!redirects Vop?nka s principle]]
+[[!redirects Vopenka s principle]]
+
+[[!redirects Vop?nka's axiom]]
+[[!redirects Vopenka's axiom]]
+[[!redirects Vop?nka's axiom]]
+[[!redirects Vopenka's axiom]]
+[[!redirects Vop?nka s axiom]]
+[[!redirects Vopenka s axiom]]
+[[!redirects Vop?nka's axiom scheme]]
+[[!redirects Vopenka's axiom scheme]]
+[[!redirects Vop?nka's axiom scheme]]
+[[!redirects Vopenka's axiom scheme]]
+[[!redirects Vop?nka s axiom scheme]]
+[[!redirects Vopenka s axiom scheme]]
+[[!redirects Vop?nka's axiom schema]]
+[[!redirects Vopenka's axiom schema]]
+[[!redirects Vop?nka's axiom schema]]
+[[!redirects Vopenka's axiom schema]]
+[[!redirects Vop?nka s axiom schema]]
+[[!redirects Vopenka s axiom schema]]
+
 [[!redirects Vop?nka cardinal]]
 [[!redirects Vop?nka cardinals]]
 [[!redirects Vopenka cardinal]]
