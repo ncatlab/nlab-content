@@ -20,7 +20,7 @@ Clearly, the more extra properties one imposes, the less likely it is that these
 
 * not all [[fiber products]] $Y \times_X Y$ of surjections $Y \to X$ of manifolds are again manifolds (this is a limit that fails to exist).
 
-* it is seldom the case that coproducts of fields (in the category of commutative rings) is again a field. 
+* it is seldom true that the [[coproduct]] of fields (in the category of commutative rings) is again a field. 
 
 ## Some nPOV rules of thumb 
 
