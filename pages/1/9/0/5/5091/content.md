@@ -3,6 +3,8 @@
 
 ## The basis of it all
 
+* [[type theory]], [[homotopy type theory]]
+
 * [[first-order logic]]
 
 * [[set theory]]
@@ -16,37 +18,12 @@
     * [[ETCS]]
     * [[SEAR]]
 
-* [[type theory]]
-
 * [[universe]]
 
 ## Foundational axioms
 
-[[foundational axiom]]
 
-* [[large cardinal]]
-
-  * [[axiom of infinity]]
-  * [[Grothendieck universe]]
-  * [[universe in a topos]]
-  * [[inaccessible cardinal]]
-  * [[measurable cardinal]] 
-  * [[elementary embedding]]
-  * [[supercompact cardinal]]
-  * [[Vopěnka's principle]]
-
-* [[axiom of choice]]
-
-  * [[countable choice]]
-  * [[dependent choice]]
-  * [[COSHEP]]
-  * [[small violations of choice]]
-  * [[WISC]]
-  * [[excluded middle]]
-
-* strong axioms
-  * [[axiom of separation]]
-  * [[axiom of replacement]]
+[[!include foundational axiom - contents]]
 
 ## Removing axioms
 
