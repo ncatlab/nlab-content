@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 # Extensional relations
 * table of contents
 {: toc}
@@ -75,9 +73,9 @@ In particuar, strong extensionality implies Scott extensionality, and the conver
 
 *  A [[well-order]] is precisely a well-founded, [[transitive relation|transitive]], extensional relation.  Removing well-foundedness here gives a theory of ill-founded [[ordinal number]]s.
 
-*  On the set $\mathbf{2} = \{0,1\}$, let $0 \prec 1$ and $1 \prec 0$ (but $0 \nprec 0$ and $1 \nprec 1$).  This relation is weakly extensional but not Finsler-extensional, since $\mathbf{2} \downarrow^* 0 \cong \mathbf{2} \downarrow^* 1$.  Yet $0$ and $1$ can hardly be distinguished by $\prec$ when there is an [[automorphism]] of $(\mathbf{2},\prec)$ that swaps them; this and the other examples below motivate the stronger notions of extensionality.
+*  On the set $\mathbf{2} = \{0,1\}$, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$; this shows the necessity of defining Finsler extensionality as we do.
 
-*  On the set $\mathbf{2}$ again, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$.
+*  On the set $\mathbf{2}$ again, let $0 \prec 1$ and $1 \prec 0$ (but $0 \nprec 0$ and $1 \nprec 1$).  This relation is weakly extensional but not Finsler-extensional, since $\mathbf{2} \downarrow^* 0 \cong \mathbf{2} \downarrow^* 1$.  Yet $0$ and $1$ can hardly be distinguished by $\prec$ when there is an [[automorphism]] of $(\mathbf{2},\prec)$ that swaps them; this and the other examples below motivate the stronger notions of extensionality.
 
 *  On the set $\mathbf{3} = \{0,1,2\}$, let $2 \nprec 0$ and $i \nprec i$ but all other relationships hold.  Then this relation is Finsler-extensional but not Scott-extensional, since $T_2 \cong T_1$.
 
@@ -116,3 +114,8 @@ Thus, we have a (large) [[poset]] of sets equipped with extensional relations, a
 
 [[!redirects extensional quotient]]
 [[!redirects extensional quotients]]
+
+[[!redirects weak extensionality]]
+[[!redirects Finsler extensionality]]
+[[!redirects Scott extensionality]]
+[[!redirects strong extensionality]]
