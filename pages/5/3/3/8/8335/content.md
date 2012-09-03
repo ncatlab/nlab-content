@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Related concepts
+
+* [[cosmology]]
+
+
+## References
+
+* Wikipedia, _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
