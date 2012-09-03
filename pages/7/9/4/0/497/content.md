@@ -10,14 +10,14 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either true or false. (This is sometimes called the 'axiom' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
+In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either true or false. (This is sometimes called the '[[axiom]]' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
 
-The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians; those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in categories other than [[Set|the category of sets]], there is no doubt that excluded middle often fails internally. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
+The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians; those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in categories other than [[Set|the category of sets]], there is no doubt, though, that excluded middle often fails [[internal logic|internally]]. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
 
 Although the term 'excluded middle' (sometimes even _excluded third_) suggests that the principle does not apply in many-valued logics, that is not the point; many-valued logics are many-valued *externally* but may still be two-valued *internally*.  In the language of [[categorial logic]], whether a category has exactly two [[subterminal objects]] is in general independent of whether it is Boolean; instead, the category is Boolean iff the statement that it has exactly two subterminal objects holds in its [[internal logic]] (which is in general independent of whether that statement is true).
 
