@@ -1,7 +1,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -36,6 +36,13 @@ Given a set $A$, the cartesian product of the unary family $(A)$ may be identifi
 The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __[[empty list]]__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
 
 
+## Foundational status
+
+In [[material set theory]], the existence of binary cartesian products follows from the [[axiom of pairing]] and the axiom of [[weak replacement]] (which is very weak).  In [[structural set theory]], their existence generally must be stated as an axiom: the __axiom of products__.  See [[ordered pair]] for more details.
+
+
+category: foundational axiom
+
 [[!redirects cartesian product]]
 [[!redirects cartesian products]]
 [[!redirects Cartesian product]]
@@ -44,3 +51,7 @@ The cartesian product of the empty family $()$ is the [[point]], a set whose onl
 [[!redirects product sets]]
 [[!redirects product of sets]]
 [[!redirects products of sets]]
+
+[[!redirects axiom of cartesian products]]
+[[!redirects axiom of Cartesian products]]
+[[!redirects axiom of products]]
