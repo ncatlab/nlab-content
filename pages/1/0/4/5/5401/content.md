@@ -1,13 +1,26 @@
 
-See (or write):
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+See:
+
+* [[motivation for cohesion]],
 
 * [[cohesive topos]],
 
 * [[cohesive homotopy type theory]],
 
-* [[cohesive (∞,1)-topos]],
+* [[cohesive (∞,1)-topos]].
 
-* [[cohesion]].
 
 
 category: adjective
+
+[[!redirects cohesion]]
