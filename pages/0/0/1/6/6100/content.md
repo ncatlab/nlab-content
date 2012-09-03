@@ -212,4 +212,4 @@ The geometric realization of Grothendieck constructions has been analyzed in
 [[!redirects geometric realization of a category]]
 
 [[!redirects Quillen's theorem A]]
-[[!redirects Quillen's theorem A]]
+[[!redirects Quillen's theorem B]]
