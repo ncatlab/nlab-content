@@ -6,6 +6,10 @@ This page means to provide non-technical motivation for the notion of _[[cohesio
 * _[[cohesive (∞,1)-topos]]_, _[[cohesive homotopy type theory]]_ .
 
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Motivation
 
 A notion of _[[cohesion]]_ on a collection $\mathbf{H}$ of [[spaces]] is supposed to be a means to specify how [[points]] in any space $X \in \mathbf{H}$ "hang together" or "cohere", analogous to how water molecules in a droplet of water are held together by [cohesion (in the sense of chemistry)](http://en.wikipedia.org/wiki/Cohesion_%28chemistry%29). 
@@ -31,6 +35,20 @@ That intuition should be evident enough. The question is which formal axioms cap
 That's essentially it, already. It sounds very simple (hopefully) and indeed it is very simple. Once one knows the notion of an [[adjoint functor]] it is pretty straightforward to formalize the above text in terms of that notion, to arrive at the concept of _[[cohesive topos]]_. 
 
 The interesting observation is that simple as this idea is, it has very powerful consequences ... once it is formalized not just with adjoint functors but with [[adjoint (∞,1)-functors]]. This is conceptually a very simple step. Moreover, in the [[foundations]] provided by [[homotopy type theory]] this is actually the simpler and more natural step. It leads to _[[cohesive (∞,1)-toposes]]_ and _[[cohesive homotopy type theory]]_.
+
+## Special aspects
+
+### Local contractibility / local $\infty$-connectedness
+ {#LocalContractibility}
+
+While cohesive spaces subsume several familiar notions of [[geometry]], there are some constraints.
+
+In particular, a cohesive space is always _locally contractible_ or rather _locally $\infty$-connected_ in some sense. The local contractions are those of the "basic cohesive droplets", in spirit of the above discussion. (In the [[(∞,1)-topos theory|(∞,1)-topos theoretic]] formalization this is reflected in the fact that every [[cohesive (∞,1)-topos]] is in particular a _[[locally ∞-connected (∞,1)-topos]]_)
+
+For instance [[locally contractible topological ∞-groupoids]] are cohesive, as are [[Euclidean-topological ∞-groupoid]].
+
+But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[Top]] that contains [[locally contractible topological space|locally non-contractible topological spaces]] will in general not be cohesive. In particular for instance general [[topological stacks]] do not live in a cohesive $(\infty,1)$-topos. But for instance [[differentiable stacks]] do, and generally [[smooth ∞-groupoids]], because every [[manifold]] and hence in particular every [[smooth manifold]] is locally contractible.
+
 
 ## Related entries
 
