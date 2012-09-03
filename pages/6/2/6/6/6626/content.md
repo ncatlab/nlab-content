@@ -36,7 +36,7 @@ From weaker to stronger:
 Set theory is usually given in [[material set theory|material]] form, with a language based on a global membership relation $\in$, and we have implicitly followed this above.  However, separation makes sense also in [[structural set theory]] (although full comprehension does not, except in a structural class theory with a [[class of all sets]], where it again leads to paradox).  The conclusion of the axiom is the existence of a set
 $$ \{ X | P \} = \{ a\colon X \;|\; P(a) \} $$
 and an [[injection]] $i_P\colon \{X|P\} \to X$ such that
-$$ \forsome b\colon S,\; a = i_P(b) \;\leftrightarrow\; P(a) .$$
+$$ \exists b\colon S,\; a = i_P(b) \;\leftrightarrow\; P(a) .$$
 Note that $\{X|P\}$, equipped with $i_P$, is a [[subset]] of $X$ in the structural sense.
 
 The structural axioms can of course be stated even in a material set theory, where they are actually weaker than the corresponding material axioms; however, the material axioms follow (as usual) from the structural axioms using [[axiom of replacement|restricted replacement]], which is quite weak (and also follows from the material form of bounded separation).
