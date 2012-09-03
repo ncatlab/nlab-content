@@ -19,13 +19,13 @@
 
 ## Idea
 
-An [[(infinity,1)-category]] presented by a [[model structure on chain complexes]]. 
+An [[(∞,1)-category]] presented by a [[model structure on chain complexes]]. 
 
-Its [[homotopy category of an (infinity,1)-category]] is the [[derived category]] of the underlying [[abelian category]].
+Its [[homotopy category of an (∞,1)-category]] is the [[derived category]] of the underlying [[abelian category]].
 
 ## Related concepts
 
-* [[stable (infinity,1)-category]]
+* [[stable (∞,1)-category]]
 
 * [[truncation of a chain complex]]
 
