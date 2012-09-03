@@ -5,7 +5,7 @@
 
 ## Definition
 
-In material [[set theory]], a [[pure set]] $S$ is called __transitive__ if $a\in b\in S$ implies that $a\in S$.  Note that this does *not* mean that $\in$ is a [[transitive relation|transitive]] binary relation on $S$ itself.  (In fact, assuming the [[axiom of foundation]], $\in$ is a transitive relation on $S$ precisely when $S$ is a von Neumann [[ordinal number]].)
+In [[material set theory]], a [[pure set]] $S$ is called __transitive__ if $a\in b\in S$ implies that $a\in S$.  Note that this does *not* mean that $\in$ is a [[transitive relation|transitive]] binary relation on $S$ itself.  (In fact, assuming the [[axiom of foundation]], $\in$ is a transitive relation on $S$ precisely when $S$ is a von Neumann [[ordinal number]].)
 
 Transitive sets are a natural place to look for [[inner model]]s of a material set theory: that is, sets $S$ such that $S$ together with the restriction of $\in$ to $S$ satisfies some or all of the axioms of the set theory.  This is especially so because of [[Mostowski's collapsing lemma]] that any [[extensional relation|extensional]] [[well-founded relation]] is isomorphic to a transitive set.
 
