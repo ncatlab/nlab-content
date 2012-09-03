@@ -1,4 +1,8 @@
 
+> This entry is about the notion in [[order theory]]. For a related but different notion in [[homotopy theory]] see at _[[interval object]]_. 
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
