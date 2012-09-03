@@ -230,7 +230,7 @@ In the context of [[proper homotopy theory]] there are two related fundamental g
 +-- {: .num_example}
 ###### Example
 
-The fundamental group of the [[point]] is trivial: $\pi_1(S^1) = *$. 
+The fundamental group of the [[point]] is trivial: $\pi_1(\{*\}) = *$. 
 
 =--
 
