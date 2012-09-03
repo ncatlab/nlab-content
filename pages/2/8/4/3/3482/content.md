@@ -13,7 +13,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
 The assumption that every [[set]] has a **Weakly Initial Set of Covers**, or $WISC$, is a weak form of the [[axiom of choice]].  Like the [[axiom of multiple choice]] and the axiom of [[small violations of choice]] (which both imply it), it says intuitively that "$AC$ fails to hold only in a small way" (i.e. not in a [[proper class|proper-class]] way).
+
 
 ## Statement (for Sets)
 
@@ -81,9 +84,11 @@ More generally, for a non-singleton pretopology on $C$, we can reformulate WISC 
 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
 
+
 ## In other categories - internal version
 
 To consider an _internal_ version of WISC, which doesn't refer to an external notion of set, one needs to assume that the ambient category $C$ has a strong enough [[internal logic]], such as a pretopos (this is the context in which van den Berg and Moerdijk work). Then the ordinary statement of WISC in set can be written in the internal logic, using the [[stack semantics]], as a statement about the objects and arrows of $C$. It is in this form that WISC is useful as a replacement choice principle in intuitionistic, constructive or predicative set theory, as these are modelled on various topos-like categories (or in the case of van den Berg and Moerdijk, a [[algebraic set theory|category of classes]], although this is not necessary for the approach).
+
 
 ## References
 
@@ -97,8 +102,13 @@ To consider an _internal_ version of WISC, which doesn't refer to an external no
 [PDF](http://www.staff.science.uu.nl/~berg0002/papers/predicativetopos.pdf)
 In this paper WISC is called the "axiom of multiple choice".
 
+
 category: foundational axiom
 
 [[!redirects WISC]]
+[[!redirects WISCs]]
 [[!redirects weakly initial set of covers]]
+[[!redirects weakly initial sets of covers]]
+[[!redirects axiom of weakly initial sets of covers]]
+
 [[!redirects SOSHWIS]]
