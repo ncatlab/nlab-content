@@ -11,12 +11,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The [[Dold-Kan correspondence]] relates [[simplicial group]]s to [[chain complex]]es. The Eilenberg-Zilber theorem says how in this context [[double complex]]es and their [[total complex]]es relate to [[bisimplicial group]]s and their [[diagonal of a bisimplicial set|diagonals]].
+The [[Dold-Kan correspondence]] relates [[simplicial groups]] to [[chain complexes]]. The _Eilenberg-Zilber theorem_ says how in this context [[double complexes]] and their [[total complexes]] relate to [[bisimplicial sets|bisimplicial groups]] and their [[diagonal of a bisimplicial set|diagonals]]/[[total simplicial sets]].
 
 Analogously there is also a version of the theorem for bi-cosimplicial abelian groups.
 
