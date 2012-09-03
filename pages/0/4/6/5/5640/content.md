@@ -69,3 +69,6 @@ Proof. By the analogous arguments as at [[ETop∞Grpd]] we may present $\Pi$ by 
 
 [[!redirects locally contractible topological ∞-groupoid]]
 [[!redirects LCTop∞Grpd]]
+
+[[!redirects locally contractible topological infinity-groupoids]]
+[[!redirects locally contractible topological ∞-groupoids]]
