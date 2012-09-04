@@ -498,11 +498,18 @@ The following particular type theories are important enough to (potentially) hav
 
 * **type theory**, [[logic]]
 
+  * [[dependent type theory]], [[Martin-Löf dependent type theory]]
+
+  * [[intensional type theory]], [[extensional type theory]]
+
+  * [[canonical form]], [[normal form]], [[beta-reduction]]
+
 * [[2-type theory]], [[2-logic]]
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
-* [[canonical form]], [[normal form]], [[beta-reduction]]
+  * [[homotopy type theory]]
+
 
 [[!include notions of type]]
 
