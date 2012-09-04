@@ -30,7 +30,7 @@ Recall (see [[limit]]) that a [[cone]] over $J$ in $C$ may be defined as an [[ob
 
 The functor $F$ __preserves__ the limit $(x,\eta)$ if $(F(x),F\cdot\eta)$ is a limit of the functor $F \circ J$ in $D$.  (Here, $F\cdot\eta\colon \const^I_{F(x)} \to F \circ J$ is a [[whiskering]].)
 
-Dually, $F$ __preserves__ a [[colimit]] of $J$ if $F^\op\colon C^\op \to D^\op$ preserves it as a limit of $J^\op\colon I\op \to C^\op$.
+Dually, $F$ __preserves__ a [[colimit]] of $J$ if $F^\op\colon C^\op \to D^\op$ preserves it as a limit of $J^\op\colon I^\op \to C^\op$.
 
 If $F$ preserves all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ preserves that sort of limit (e.g. $F$ preserves products, $F$ preserves equalizers, etc.).
 
