@@ -14,7 +14,7 @@
 
 ## Idea
 
-The computer software _Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
+The computer software _Coq_ "runs" the formal [[foundations]]-lanuguage _[[type theory]]_ and serves in particular as a formal [[proof]] management system. It provides a formal language to write mathematical [[definitions]], executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
 
 Coq is named after [[Thierry Coquand]], and follows a tradition of naming languages after animals (compare OCaml).
 
@@ -22,15 +22,9 @@ Coq is named after [[Thierry Coquand]], and follows a tradition of naming langua
 
 Computer systems such as Coq and [[Agda]] have been used to give machine-assisted and machine-verified proofs of extraordinary length, such as of the [[four-colour theorem]] and the [[Kepler conjecture]]. 
 
-More generally, they are being used to formalise and machine-verify large parts of mathematics as such, see the section
+More generally, they are being used to formalise and machine-verify large parts of mathematics as such, see the section _[Formalization of set-based mathematics](#FormalizationOfSetBasedMathematics)_ below. 
 
-* [Formalization of set-based mathematics](#FormalizationOfSetBasedMathematics)
-
-below. 
-
-One striking insight by [[Vladimir Voevodsky]] was that Coq naturally lends itself also to a formalization of higher mathematics that is founded not on sets, but on [[higher category theory]] and [[homotopy theory]]. For this see below the section
-
-* [Homotopy type theory](#HomotopyTypeTheory).
+One striking insight by [[Vladimir Voevodsky]] was that Coq naturally lends itself also to a formalization of higher mathematics that is founded not on sets, but on [[higher category theory]] and [[homotopy theory]]. For this see below the section _[Homotopy type theory](#HomotopyTypeTheory)_.
 
 
 
