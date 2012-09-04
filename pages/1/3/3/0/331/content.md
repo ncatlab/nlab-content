@@ -110,6 +110,12 @@ See also:
 
 ## References
 
+* [[Lambek]], J.; [[Philip Scott|Scott]], P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+* [[Bart Jacobs]] (1999), _Categorical Logic and Type Theory_, Elsevier.
+  
+
+Historically, 'logic' was understood in a broader sense:
+
 * [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
 
