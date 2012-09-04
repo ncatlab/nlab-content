@@ -62,7 +62,7 @@ Then using these [[formal linear combinations]] we can sum up all the $(n+1)$ fa
 +-- {: .num_defn #TheAlternatingFaceMapDifferential}
 ###### Definition
 
-The **altenating face map differential** in degree $n$ of the simplicial set $S$ 
+The **alternating face map differential** in degree $n$ of the simplicial set $S$ 
 is the linear map 
 
 $$
