@@ -109,7 +109,7 @@ The following form of the [[axiom of choice]] is _derivable_ in
 
 If $\Gamma, x : A, y : B(x) \vdash C(x, y) : \mathrm{Type}$,
 
-$$\Gamma \vdash (\forall x : A) (\exists y : B(x)) C(x, y) \to (\exists f : (\Pi x : A)B(x) )(\forall x : A) C(x, \mathrm{apply}(f, x)) : \mathrm{true}$$
+$$\Gamma \vdash (\forall x : A) (\exists y : B(x)) C(x, y) \to (\exists f : (\Pi x : A)B(x) )(\forall x : A) C(x, \mathrm{apply}(f, x)) \; \mathrm{true}$$
 
 =--
 
