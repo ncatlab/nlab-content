@@ -1,4 +1,8 @@
 
+> See also _[[free construction]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,7 +22,7 @@
 
 Let $U: C\to D$ be a [[forgetful functor]] and $x\in D$ an [[object]] of the [[category]] $D$.  
 
-A **free $C$-object** on $x$ with respect to $U$ is an [[object]] of $C$ that satisfies the [[universal property]] that $F(x)$ would have, if $F$ were a [[left adjoint]] to $U$ (the corresponding [[free functor]]).  
+A **free $C$-object** on $x$ with respect to $U$ is an [[object]] of $C$ that satisfies the [[universal property]] that $F(x)$ would have, if $F$ were a [[left adjoint]] to $U$ (the corresponding [[free functor]]) (the _[[free construction]]_ on $x$).  
 
 If $U$ actually has a [[left adjoint]], then $F(x)$ is a free $C$-object on $x$ for every $x$, and conversely if there exists a free $C$-object on every $x\in D$ then $U$ has a left adjoint.  But individual free objects can exist without the whole left adjoint functor existing.  In general, we have a "partially defined adjoint", or $J$-[[relative adjoint]] where $J$ is the inclusion of a [[full subcategory]] (on those objects admitting free objects).
 
@@ -28,10 +32,37 @@ In other words, it is an [[initial object]] of the [[comma category]] $(x/U)$.  
 
 Similarly, a __cofree object__ (or __fascist object__) is given by a [[cofree functor]].
 
+## Examples
+
+* [[free abelian group]]
+
+* [[free module]]
+
+For more examples see at _[[free construction]]_.
 
 ## Related concepts
 
 * [[free functor]], [[relative adjoint]], [[universal property]]
+
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
+
+  * [[injective module]]
+
+* **free object**, [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+
+
+
 
 [[!redirects free object]]
 [[!redirects free objects]]
