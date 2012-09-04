@@ -116,7 +116,8 @@ For every object $X$, the hom-functor $Hom(X,-)$ is a [[left exact functor]]. So
 =--
 
 +-- {: .proof}
-###### Proof of prop. \ref{EquivalenceOfDefinitionsInAbelian}
+###### Proof 
+**of prop. \ref{EquivalenceOfDefinitionsInAbelian}**
 
 Let 
 
@@ -196,16 +197,25 @@ If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjec
 
 ## Related concepts
 
-* **projective object**, [[projective presentation]], [[projective resolution]]. 
+* [[COSHEP]]
+
+* **projective object**, [[projective presentation]], [[projective cover]], [[projective resolution]]
 
   * [[projective module]]
 
-* [[injective object]], [[injective presentation]], [[injective resolution]]
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
 [[!redirects projective set]]
 [[!redirects projective sets]]
-,
