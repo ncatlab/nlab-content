@@ -21,7 +21,7 @@
 
 In the context of [[homological algebra]] a _projective/injective_ [[resolution]] of an [[object]] or [[chain complex]] in an [[abelian category]] is a [[resolution]] by a [[quasi-isomorphism|quasi-isomorphic]] chain complex that consists of [[projective objects]] or [[injective objects]], respectively.
 
-Under suitable conditions these are precisely the [[cofibrant resolution]] or [[fibrant resolution]] of a suitable [[model structure on chain complexes]].
+Under suitable conditions these are precisely the [[cofibrant resolution]] or [[fibrant resolution]] with respect to a standard [[model structure on chain complexes]].
 
 For instance for non-negatively graded chain complexes of abelian groups there is a model structure with [[weak equivalences]] are the quasi-isomorphisms and the [[fibrations]] are the positive-degreewise surjections. Here every object is a [[fibrant object]] and hence no [[fibrant resolution]] is necessary; while the [[cofibrant resolutions]] are precisely the projective resolutions.
 
