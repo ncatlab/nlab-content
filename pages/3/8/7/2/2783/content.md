@@ -3,15 +3,15 @@
 
 # Idea
 
-The forgetful 2-functors 
+The [[forgetful functor|forgetful]] [[2-functors]] 
 
 * from [[regular categories]] to [[lex categories]],
 * from [[exact categories]] to [[lex categories]], and
 * from [[exact categories]] to [[regular categories]]
 
-have left adjoints, and in fact are [[monadic adjunction|(2-)monadic]].  Their left adjoints are called (free) regular or exact completions.
+have [[left adjoints]], and in fact are [[monadic adjunction|(2-)monadic]].  Their left adjoints are called ([[free construction|free]]) regular or exact completions.
 
-In the third case the 2-monad is [[idempotent monad|idempotent]], so the left adjoint can properly be called a [[completion]], while in the first two cases, the 2-monad is only [[lax-idempotent monad|lax-idempotent]], so the left adjoint should technically be called a [[free completion]].  However, the phrases *regular completion* and *exact completion* are also commonly used for the first two cases.  To disambiguate the second and third cases the phrases *ex/lex completion* and *ex/reg completion* are also used, and so by analogy the first case is called *reg/lex completion*.
+In the third case the [[2-monad]] is [[idempotent monad|idempotent]], so the left adjoint can properly be called a [[completion]], while in the first two cases, the 2-monad is only [[lax-idempotent monad|lax-idempotent]], so the left adjoint should technically be called a [[free completion]].  However, the phrases *regular completion* and *exact completion* are also commonly used for the first two cases.  To disambiguate the second and third cases the phrases *ex/lex completion* and *ex/reg completion* are also used, and so by analogy the first case is called *reg/lex completion*.
 
 In fact, the reg/lex and ex/lex completion can be applied to a category that merely has [[weak finite limits]], although in this case the sense in which the construction is "free" is more complicated. 
 
