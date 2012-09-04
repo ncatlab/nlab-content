@@ -182,6 +182,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
 
+* [Mathematical Mischief](http://mathematicalmischief.com) Josh attempts to cover a broad range of high school topics, developing free resources and funny insights into how maths is involved in our everyday world.
+
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
 
