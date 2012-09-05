@@ -38,3 +38,6 @@ A formalization in terms of [[homotopy type theory]], using a unary notation, is
 [[!redirects integer]]
 [[!redirects integers]]
 [[!redirects ring of integers]]
+
+[[!redirects interger number]]
+[[!redirects interger numbers]]
