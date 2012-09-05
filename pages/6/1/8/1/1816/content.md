@@ -30,7 +30,7 @@ The effective topos is the category obtained from the category of sets by first 
 
 *   J.M.E. [[Martin Hyland|Hyland]], _The effective topos_ in  A. S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
 
-In the context of [[troposes]]:
+In the context of [[triposes]]:
 
 * Andy Pitts, _The theory of triposes_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
 
