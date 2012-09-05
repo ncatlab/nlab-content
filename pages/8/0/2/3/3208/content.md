@@ -164,6 +164,8 @@ A still pretty simple but very nontrivial theory is
 
 * [[elementary function arithmetic]]
 
+* [[second order arithmetic]]
+
 The theories 
 
 * $Th(Cat)$ of [[categories]]
