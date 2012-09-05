@@ -24,11 +24,11 @@ The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]
 
 ## Related concepts
 
+* **free module** $\Rightarrow$ [[projective module]] $\Rightarrow$ [[flat module]] $\Rightarrow$ [[torsion-free module]]
+
 * [[basis of a free module]]
 
 * [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
-
-  * [[projective module]]
 
 * [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
@@ -36,13 +36,8 @@ The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]
 
 * [[free object]], [[free resolution]]
  
-  * **free module**
 
 * flat object, [[flat resolution]]
-
-  * [[flat module]]
-
-
 
 
 
