@@ -15,7 +15,9 @@
 
 ## Definition
 
-+-- {: .num_defn}
+### For abelian groups
+
++-- {: .num_defn #BilinearOnAbelianGroups}
 ###### Definition
 
 For $A$, $B$ and $C$ [[abelian groups]] and $A \times B$ the [[cartesian product]] group, a **bilinear map** 
@@ -79,7 +81,7 @@ which is (in general) different from the behaviour of a bilinear map.
 
 =--
 
-The definition of [[tensor product of abelian]] groups is such that the following is an equivalent definition of bilinear map
+The definition of [[tensor product of abelian groups]] is precisely such that the following is an equivalent definition of bilinear map:
 
 +-- {: .num_defn}
 ###### Definition
@@ -98,8 +100,47 @@ $$
 ###### Remark
 
 The analogous defintion for more than two arguments yields _multilinear maps_. There is a [[multicategory]] of abelian groups and multilinear maps between them. 
+
 =--
 
+### For modules
+
+More generally :
+
++-- {: .num_defn}
+###### Definition
+
+For $R$ a [[ring]] and $A, B, C \in R$[[Mod]] being [[modules]] over that ring, a **bilinear map** on $A$ and $B$ is a function of the underlying sets
+
+$$
+  f : A \times B \to C
+$$
+
+which is a bilinear map of the underlying [[abelian groups]] as in def. \ref{BilinearOnAbelianGroups} and in addition such that for all $r \in R$ we have
+
+$$
+  f(r a, b) = r f(a,b)
+$$
+
+and
+
+$$
+  f(a, r b) = f f(a,b)
+  \,.
+$$
+
+=--
+
+As before, this is equivalent to $f$ factoring through the [[tensor product of modules]]
+
+$$
+ f : A \times B \to A \otimes_R B \to C
+  \,.
+$$
+
+## Examples
+
+* For $R = k$ a [[field]], an $R$-[[module]] is a $k$-[[vector space]] and a $R$-bilinear map is a bilinear map out of two vector spaces.
 
 ## Related concepts
 
