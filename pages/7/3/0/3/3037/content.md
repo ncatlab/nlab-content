@@ -34,7 +34,7 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 
 * [[higher order logic]]
 
-
+[[!redirects Predicate logic]]
 [[!redirects predicate logic]]
 [[!redirects predicate calculus]]
 [[!redirects 1st-order logic]]
