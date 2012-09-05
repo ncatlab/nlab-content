@@ -26,12 +26,14 @@ For $A$ an [[abelian group]], its torsion subgroup is identified with the degree
 
 * In [[rational homotopy theory]] one considers the [[homotopy group]]s $\pi_n(X)$ of [[topological space]]s $X$ tensored over $\mathbb{Q}$: the resulting groups $\pi_n(X) \otimes_{\mathbb{Z}} \mathbb{Q}$ are then necessarily torsion-free -- in this sense [[rational homotopy theory]] studies spaces "up to torsion".
 
+## Related concepts
 
+* [[torsion-free module]]
 
 
 ## References
 
-* S. E. Dickson: Torsion theories for abelian categories,
+* S. E. Dickson, _Torsion theories for abelian categories_,
 Thesis, New Mexico State University (1963).
  {#Dickson}
 
