@@ -15,7 +15,7 @@ The Polyakov action is classically equivalent to the [[Nambu-Goto action]].
 
 The Polyakov action was introduced in 
 
-* A. M. Polyakov, 
+* [[Alexander Polyakov]], 
 
   _Quantum geometry of bosonic strings_ , Phys. Lett. B103 (1981) 207;
 
