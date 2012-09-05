@@ -1,17 +1,24 @@
 
-**[[propositions as types]]** 
+**[[propositions as types]]**+**[[relation between type theory and category theory|relation type theory/category theory]]**
+ 
 
- [[logic]]                      |   [[type theory]]
---------------------------------|------------------------------
- [[proposition]]                |   [[h-level 1]] / [[hProp]] 
- [[true]]                       |   [[unit type]] / [[h-level 0]] 
- [[false]]                      |   [[empty type]]
- [[conjunction]]                |   [[product type]]
- [[disjunction]]                |   [[sum type]] ([[bracket type]] of)
- [[implication]]                |   [[function type]]
- [[negation]]                   |   [[function type]] into [[empty type]]
- [[universal quantification]]   |   [[dependent product type]]      
- [[existential quantification]] |   [[dependent sum type]] ([[bracket type]] of)
- [[equivalence]]                |   [[identity type]]
- [[quotient]]                   |   [[quotient type]]
- [[Set]]                        |   [[hSet]] / [[h-level 2]]
+ [[logic]]                      |   [[category theory]]                     |  [[type theory]]
+--------------------------------|-------------------------------------------|--------------------------------
+ [[proposition]]                |   [[truncated object|(-1)-truncated object]] |  [[h-level 1]] / [[hProp]] 
+ [[true]]                       |   [[terminal object]]                     |  [[unit type]] / [[h-level 0]] 
+ [[false]]                      |   [[initial object]]                      |  [[empty type]]
+ [[conjunction]]                |   [[product]]                   |  [[product type]]
+ [[disjunction]]                |   [[coproduct]] ([[truncated object|(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
+ [[implication]]                |   [[internal hom]]                        |  [[function type]]
+ [[negation]]                   |   [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]]
+ [[universal quantification]]   |   [[dependent product]]                   |[[dependent product type]]      
+ [[existential quantification]] |   [[dependent sum]] ([[truncated object|(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of)
+ [[equivalence]]                |   [[path space object]]                   | [[identity type]]
+ [[equivalence class]]   |  [[quotient]]                   |   [[quotient type]]
+ [[induction]]                  |   [[colimit]]                | [[inductive type]], [[W-type]], [[M-type]]
+ higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
+      [[set]]  | [[Set]]    |   [[hSet]] / [[h-level 2]]
+ [[universe]] | [[object classifier]] | [[type of types]]
+
+
+
