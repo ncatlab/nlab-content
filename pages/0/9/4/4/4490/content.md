@@ -21,9 +21,11 @@ Therefore the phenomenology is not concerned with being fundamental, though it m
 
 For example, while so-called [[standard model of particle physics]] has inconsistencies if extended to very high energies (failure of the unitarity of [[S-matrix]], problems with the [[cosmological constant]]), the model is considered to agree to large extent with a low-energy limit of a true theory. Phenomenological models have to be in accordance with basic principles of physics, like thermodynamical laws, but do not need to pretend to go to the fundamental or microscopic description. For example, the Landau-Ginzburg equations for the description of superconductors do not describe the microscopic origin of supersymmetry, but are rather phenomenological, good enough desciption for certain range of mesoscopic phenomena.
 
-## Related concepts
+## Related entries
 
 * [[model (in particle physics)]]
+
+* [[LHC]]
 
 * [[string phenomenology]]
 
