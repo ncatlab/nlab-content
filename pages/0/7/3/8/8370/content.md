@@ -32,11 +32,11 @@ Under the identifications
 
 the following notions are equivalent:
 
-1. The [[proof]] of a [[proposition]]. (In [[logic]].)
+1. A [[proof]] of a [[proposition]]. (In [[logic]].)
 
 1. A [[program]] with output some [[type]]. (In [[type theory]].)
 
-1. A [[morphism]] between [[objects]]. (In [[category theory]].)
+1. A [[generalized element]] of an [[object]]. (In [[category theory]].)
 
 This is referred to as "computational trinitarianism" in ([Harper](#Harper)), where also an exposition is given.
 
@@ -53,7 +53,7 @@ A concise exposition of the relation between the three concepts is
 * [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  {#Harper}
 
-An exposition that also draws some connections to [[physics]] is in
+An exposition that also suggests some connections to [[physics]] is in
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_, Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-174 ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
