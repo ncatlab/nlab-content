@@ -461,15 +461,105 @@ $$
 from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of the [[overcategory]] of $sAlg$. But in general this functor is neither [[essentially surjective functor|essentially surjective]] nor [[full functor|full]]. If however $k$ has characteristic 0, then this is an equivalence.
 
 
-## Related concepts
-
-### Modules over higher and generalized algebras
+### Modules over an algebra over an operad 
  {#OverHigherAndGeneralizedAlgebras}
 
-There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at [[module over an algebra over an operad]].
+There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at _[[module over an algebra over an operad]]_.
 
 
-### Vector bundles and sheaves of modules
+
+## Examples
+
+### Of modules over a ring
+ {#ExamplesOfModulesOverARing}
+
+Let $R$ be a [[commutative ring]].
+
++-- {: .num_example}
+###### Example
+
+The ring $R$ is naturally a module over itself, by regarding its multiplication map $R \otimes R \to R$ as a module action $R \otimes N \to N$ with $n \coloneqq R$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+More generally, for $n \in \mathbb{N}$ the $n$-fold [[direct sum]] of the [[abelian group]] underlying $R$ is naturally a module over $R$
+
+$$
+  R^n \coloneqq R^{\oplus_n} \coloneqq \underbrace{R \oplus R \oplus \cdots \oplus R}_{n\;summands}
+  \,.
+$$
+
+The module action is componentwise:
+
+$$
+  r \cdot (r_1, r_2, \cdots, r_n) = (r \cdot r_1, r\cdot r_2, \cdot r \cdot r_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Even more generally, for $I \in $ [[Set]] any [[set]], the direct sum
+$\oplus_{i \in I} R$ is an $R$-module.
+
+This is the **[[free module]]** (over $R$) on the set $S$.
+
+The set $I$ serves as the [[basis of a free module]]: a general element $v \in \oplus_i R$ is a [[formal linear combination]] of elements of $I$ with [[coefficients]] in $R$.
+
+=--
+
+For special cases of the ring $R$, the notion of $R$-module is equivalent to other notions:
+
+
++-- {: .num_example}
+###### Example
+
+For $R = \mathbb{Z}$ the [[integers]], an $R$-module is equivalently just an [[abelian group]].
+
+A $\mathbb{Z}$-modle, hence an abelian group, is not a free module if it has a non-trivial [[torsion subgroup]].
+
+=--
+
++-- {: .num_example #VectorSpacesArekModules}
+###### Example
+
+For $R = k$ a [[field]], an $R$-module is equivalently a [[vector space]] over $k$.
+
+Every finitely-generated free $k$-module is a [[free module]], hence everey finite dimensional vector space has a [[basis of a free module|basis]]. For infinit-dimension this is true if the [[axiom of choice]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $X$ be a [[topological space]] and let 
+
+$$
+  R \coloneqq  C(X,\mathbb{C})
+$$
+
+be the ring of [[continuous functions]] on $X$ with values in the 
+[[complex numbers]]. 
+
+Given a complex [[vector bundle]] $E \to X$ on $X$, write $\Gamma(E)$
+for its set of continuous sections. Since for each point $x \in X$ the [[fiber]] $E_x$ of $E$ over $x$ is a $\mathbb{C}$-module (by example \ref{VectorSpacesArekModules}), $\Gamma(X)$ is a $C(X,\mathbb{C})$-module.
+
+By the [[Serre-Swan theorem]]
+if $X$ is [[Hausdorff topological space|Hausdorff]] and [[compact topological space|compact]], then $\Gamma(X)$ is a [[projective module|projective]] $C(X,\mathbb{C})$-module and indeed there is an equivalence between projective $C(X,\mathbb{C})$-modules and complex vector bundles over $X$.
+
+More on this below in 
+_[Vector bundle and modules](#VectorBundlesAndModules)_.
+
+
+=--
+
+### Vector bundles and modules
+ {#VectorBundlesAndModules}
 
 A [[vector space]] is a [[vector bundle]] over the [[point]]. For every [[vector bundle]] $E \to X$ over a [[space]] $X$, its collection $\Gamma(E)$ of [[section]]s is a module over the monoid/ring of functions on $X$. When $X$ is a [[ringed space]], $\Gamma(X)$ is usefully thought of as a [[sheaf]] of modules over the [[structure sheaf]] of $X$:
 
@@ -495,16 +585,18 @@ $$
   \,.
 $$
 
-By the above discussion, this procedure yieelds the expected notions of modules in particular for the choice $C = (sAlg_k)^{op}$ of simplicial algebras over a ground ring of characteristic 0. The theory of quasicoherent sheaves of modules in this case is discussed in great detail at [[geometric ∞-function theory]]. Some more general remarks along these lines are at [[schreiber:∞-vector bundle]].
 
+## Related concepts
 
-### More related concepts
+* [[action]], [[representation]]
+
+* [[infinity-action]], [[infinity-representation]]
 
 * [[linear combination]]
 
-* [[projective module]], [[injective module]]
+* [[projective module]], [[injective module]], [[free module]], [[flat module]]
 
-* [[projective resolution]], [[injective resolution]]
+
 
 
 ## References
