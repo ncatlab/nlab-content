@@ -4,20 +4,20 @@
 
  [[logic]]                      |   [[category theory]]                     |  [[type theory]]
 --------------------------------|-------------------------------------------|--------------------------------
- [[proposition]]                |   [[truncated object|(-1)-truncated object]] |  [[h-level 1]] / [[hProp]] 
- [[true]]                       |   [[terminal object]]                     |  [[unit type]] / [[h-level 0]] 
+ [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]] / [[hProp]] 
+ [[true]]                       |   [[terminal object]] / [[(-2)-truncated object]]  |  [[unit type]] / [[h-level 0]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
- [[disjunction]]                |   [[coproduct]] ([[truncated object|(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
+ [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[internal hom]]                        |  [[function type]]
  [[negation]]                   |   [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]]
  [[universal quantification]]   |   [[dependent product]]                   |[[dependent product type]]      
- [[existential quantification]] |   [[dependent sum]] ([[truncated object|(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of)
+ [[existential quantification]] |   [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of)
  [[equivalence]]                |   [[path space object]]                   | [[identity type]]
  [[equivalence class]]   |  [[quotient]]                   |   [[quotient type]]
  [[induction]]                  |   [[colimit]]                | [[inductive type]], [[W-type]], [[M-type]]
  higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
-      [[set]]  | [[Set]]    |   [[hSet]] / [[h-level 2]]
+      [[set]]  | [[discrete object]] / [[0-truncated object]]    |   [[hSet]] / [[h-level 2]]
  [[universe]] | [[object classifier]] | [[type of types]]
 
 
