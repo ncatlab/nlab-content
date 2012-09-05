@@ -1,0 +1,48 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Under the identifications
+
+1. [[propositions as types]]
+
+1. [[programs as proofs]]
+
+1. [[relation between type theory and category theory]]
+
+the following notions are equivalent:
+
+1. The [[proof]] of a [[proposition]]. (In [[logic]].)
+
+1. A [[program]] with output some [[type]]. 
+
+1. A [[morphism]] between [[objects]]. (In [[category theory]].)
+
+This is referred to as "computational trinitarianism" in ([Harper](#Harper)), where also an exposition is given.
+
+[[!include types and logic - table]]
+
+## References
+
+* [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
+ {#Harper}
