@@ -3,7 +3,7 @@
 
 * [blog](http://existentialtype.wordpress.com/)
 
-## Wrtings
+## Writings
 
 An introduction to programming languages in terms of [[type theory]]:
 
