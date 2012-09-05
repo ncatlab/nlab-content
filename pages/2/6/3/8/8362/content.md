@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Logic
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Mathematical logic_ or _symbolic logic_ is the study of [[logic]] and [[foundations]] of mathematcis as, or via, formal systems -- _[[theories]]_ --  such as [[first-order logic]] or [[type theory]].
+
+## Subfields
+
+The classical subfields are
+
+* [[set theory]]
+
+* [[model theory]],
+
+* [[recursion theory]]
+
+* [[proof theory]]
+
+
+[[!redirects symbolic logic]] 
+
