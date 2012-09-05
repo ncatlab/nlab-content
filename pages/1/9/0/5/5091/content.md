@@ -3,9 +3,11 @@
 
 ## The basis of it all
 
-* [[type theory]], [[homotopy type theory]]
+* [[mathematical logic]]
 
 * [[first-order logic]]
+
+* [[type theory]], [[homotopy type theory]]
 
 * [[set theory]]
 
