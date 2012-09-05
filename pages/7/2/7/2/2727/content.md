@@ -53,6 +53,7 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ## Related concepts
 
+* [[computational trinitarianism]]
 
 * [[theory]]
 
