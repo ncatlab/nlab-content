@@ -41,6 +41,10 @@ classical logic can be just as 'constructive' as
 intuitionistic logic as far as proving the totality of
 functions $\mathbb{N} \to \mathbb{N}$ is concerned.
 
+## Related concepts
+
+* [[BHK interpretation]]
+
 ## References
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
