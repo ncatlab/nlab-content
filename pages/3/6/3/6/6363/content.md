@@ -202,6 +202,8 @@ Gelfand duality makes sense in [[constructive mathematics]] hence [[internalizat
 
     * [[constructive Gelfand duality theorem]]
 
+    * [[Serre-Swan theorem]]
+
 
 ## References
 
