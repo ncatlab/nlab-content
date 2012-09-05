@@ -1,6 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -12,6 +27,10 @@ There are two different theorems of the same intuitive spirit so they are common
 2) **Swan's theorem**: Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the category of finitely generated projective $C(X)$-modules is equivalent to the category of (finite-dimensional) [[vector bundle]]s on $X$. 
 
 These theorems are important as they help extending the [[topological K-theory]] as a special cases of [[algebraic K-theory]], as well as to motivate an approach to vector bundles in [[noncommutative geometry]].
+
+## Related concepts
+
+* [[Gelfand duality]]
 
 ## References
 
