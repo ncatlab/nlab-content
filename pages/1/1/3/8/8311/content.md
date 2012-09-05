@@ -76,8 +76,12 @@ A [[monoid]] in $(R Mod, \otimes)$ is equivalently an $R$-[[associative algebra|
 
 ## References
 
-An exposition is in 
+An general exposition is in 
 
 * Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+
+Detailed discussion specifically for tensor products of modules is in
+
+* Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
 
 [[!redirects tensor products of modules]]
