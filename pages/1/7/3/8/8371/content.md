@@ -1,0 +1,9 @@
+A **syllogism** is a pattern of deductive argument of a certain limited range of form. The study of syllogisms was originated by Aristotle and later developed by his followers as well as by the Stoics. Syllogisms were central objects of study for medieval logicians.
+
+Syllogisms involve two premises and a conclusion, each expressing a statement of the form that either all, none or some members of a class do or do not have a certain property. For example,
+
+* No fish is a mammal.
+* Some sea creatures are fish.
+* Therefore, some sea creatures are not mammals.
+
+In the nineteenth century, syllogism became seen to be insufficiently expressive as more complicated relations and quantification were encountered. [[Predicate logic]] came to take its place.
