@@ -1,4 +1,11 @@
-The Brouwer-Heyting-Kolmogorov interpretation of [[intuitionistic logic]] is a description of proofs of formulas in intuitionistic logic as functions, often computable functions, where it is also called the realizability interpretation. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Brouwer-Heyting-Kolmogorov_ interpretation of [[intuitionistic logic]] is a description of [[proofs]] of [[formulas]] in [[intuitionistic logic]] as [[functions]], often [[computable functions]], where it is also called the _realizability interpretation_. 
 
 ## References 
 
