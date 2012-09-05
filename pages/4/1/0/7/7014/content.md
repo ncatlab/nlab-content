@@ -17,6 +17,17 @@
 
 In [[type theory]], regarding [[propositions as types]], a [[proof]] of a [[proposition]] is given by [[constructive mathematics|constructing]] a [[term]] of the corresponding [[type]]. This can hence be regarded as a [[program]] to compute a specific term (output). 
 
+## Related concepts
+
+* [[theory]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/[[proof]]/[[program]] (**proofs as programs**)
+
+* [[theorem]], [[axiom]]
+
+
 ## References
 
 That [[Martin-Löf dependent type theory]] can be regarded also as a [[functional programming language]] by identifying proofs as programs was stressed in
