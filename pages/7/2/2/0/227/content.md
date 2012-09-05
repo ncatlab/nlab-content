@@ -15,18 +15,71 @@
 
 ## Definition
 
-[The usual definition of (unital) ring](http://en.wikipedia.org/wiki/Ring_mathematics#Definition) is equivalent to all of the following:
+
++-- {: .num_defn}
+###### Definition
+
+A [[ring]] (unital and not-necessarily commutative) 
+is an [[abelian group]] $R$ equipped with 
+
+an element $1 \in R$ and a [[bilinear function|bilinear operation]], hence a [[group homomorphism]]
+
+$$
+  \cdot : R \otimes R \to R
+$$
+
+out of the [[tensor product of abelian groups]], which is [[associativity law|associative]] and [[unit law|unital]] with respect to 1.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The fact that the product is a [[bilinear map]] is the 
+**[[distributivity law]]**: for all $r, r_1, r_2 \in R$ we have
+
+$$
+  r \cdot (r_1 + r_2) = r \cdot r_1 + r \cdot r_2
+$$
+
+and
+
+$$
+  (r_1 + r_2) \cdot r = (r_1 + r_2) \cdot r
+  \,.
+$$
+
+
+=--
+
+The archetypical example which historically gave the notion its name ("ring of numbers") are the canonical ring structures on the [[cyclic groups]].
+
++-- {: .num_example}
+###### Example
+
+The [[integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. For each  $n$, this induces a ring structure on the [[cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
 
 A (unital, non-commutative) **ring** is (equivalently)
 
 * a [[monoid]] [[internalization|internal to]] [[Ab]] regarded as a [[monoidal category]] equipped with the [[tensor product of abelian groups]];  
-* a [[enriched category|category enriched over]] [[Ab]] with a single [[object]].
+* a [[pointed object|pointed]] [[enriched category|category enriched over]] [[Ab]] with a single [[object]].
 * a [[ringoid]] with a single [[object]].
 
-A **commutative** (unital) ring is an [[abelian monoid]] object in $(Ab, \otimes)$.
+A **commutative** (unital) ring is an [[commutative monoid]] object in $(Ab, \otimes)$.
 
-In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroup]]s with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
+=--
 
++-- {: .num_remark}
+###### Remark
+
+In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroups]] with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
+
+=--
 
 ## Generalizations
 
