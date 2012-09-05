@@ -14,7 +14,9 @@ The _Brouwer-Heyting-Kolmogorov_ interpretation of [[intuitionistic logic]] is a
 
 * J.-Y. Girard, Proofs and Types 
 
-* A. Troelstra, History of Constructivism in the Twentieth Century (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf))
+* A. Troelstra, History of Constructivism in the Twentieth Century (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
+
+Links to many papers on realizability and related topics may be found [here](http://www.staff.science.uu.nl/~ooste110/realizability.html).
 
 
 [[!redirects Brouwer Heyting Kolmogorov interpretation]] 
