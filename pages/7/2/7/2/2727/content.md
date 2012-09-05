@@ -53,9 +53,14 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ## Related concepts
 
-* [[bracket types]]
 
-* [[proofs as programs]]
+* [[theory]]
+
+* [[proposition]]/[[type]] (**propositions as types**) 
+
+* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]], [[axiom]]
 
 
 ## References
