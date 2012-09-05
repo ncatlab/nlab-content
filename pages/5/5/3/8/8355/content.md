@@ -1,5 +1,6 @@
 
-A [[theory]].
+A [[theory]], one of the weakest fragments of [[second-order arithmetic]] strong enough to do nontrivial mathematics.
+
 
 ## References
 
