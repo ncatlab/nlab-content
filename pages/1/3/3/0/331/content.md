@@ -24,7 +24,7 @@
 
 ## Idea
 
-Traditionally, as a discipline, __logic__ is the study of correct methods of reasoning.  Logicians principally studied [[deduction]], the process of passing from premises to conclusion in such a way that the truth of the former necessitates the truth of the latter. In other words, deductive logic studies what it is for an argument to be _valid_. A second branch of logic studies [[inductive reasoning|induction]], reasoning about how to assess the plausibility of general propositions from observations of their instances. This has often been done in terms of a _Bayesian_, or probabilistic, calculus.
+Traditionally, as a discipline, __logic__ is the study of correct methods of reasoning.  Logicians have principally studied [[deduction]], the process of passing from premises to conclusion in such a way that the truth of the former necessitates the truth of the latter. In other words, deductive logic studies what it is for an argument to be _valid_. A second branch of logic studies [[inductive reasoning|induction]], reasoning about how to assess the plausibility of general propositions from observations of their instances. This has often been done in terms of a _Bayesian_, or probabilistic, calculus.
 
 Some philosophers, notably [[Charles Peirce]], considered there to be third variety of reasoning for logic to study, namely, [[abduction]]. This is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as _inference to the best explanation_.
 
