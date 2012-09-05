@@ -173,7 +173,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This means precisely that $Q N \to N$ is an [[injective resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
+This means precisely that $Q N \to N$ is an [[cofibrant resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
 
 =--
 
