@@ -1,11 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[proof theory|proof-theoretically]] weak [[theory]] based on [[elementary function arithmetic]] which is strong enough derive "almost all of undergrauate mathematics".
+A [[proof theory|proof-theoretically]] weak [[theory]] based on [[elementary function arithmetic]] which is strong enough derive "almost all of undergraduate mathematics".
 
 ## Related concepts
 
@@ -15,3 +29,5 @@ A [[proof theory|proof-theoretically]] weak [[theory]] based on [[elementary fun
 
 * Wikipedia _[Second order arithmetic](http://www.math.osu.edu/~friedman.8/)_
 
+
+[[!redirects SOA]]
