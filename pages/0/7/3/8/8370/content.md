@@ -48,9 +48,13 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 ## References
 
-An exposition is given in
+A concise exposition of the relation between the three concepts is 
 
 * [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  {#Harper}
+
+An exposition that also draws some connections to [[physics]] is in
+
+* [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_, Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-174 ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
 For further references see at _[[programs as proofs]]_, _[[propositions as types]]_, and _[[relation between category theory and type theory]]_.
