@@ -179,7 +179,9 @@ which however contains some additional axioms not used anymore. The set of axiom
 
 * [[Emmy Noether]], _Ideal Theory in Rings_, Mathematische Annalen **83** (1921)
 
-See also
+For historical accounts see
+
+* I. Kleiner, _From numbers to rings: the early history of ring theory_, Elemente der Mathematik 53 (1998) 18-35. ([web](http://dx.doi.org/10.5169/seals-3627))
 
 * _The development of ring theory_ ([pdf](http://www-history.mcs.st-and.ac.uk/HistTopics/Ring_theory.html))
 [[!redirects rings]]
