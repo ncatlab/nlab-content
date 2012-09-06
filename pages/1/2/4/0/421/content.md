@@ -30,7 +30,145 @@ Likewise, there is a standard toplogical $n$-simplex, which is (more or less by 
 ### Topological simplex
  {#TopologicalSimplex}
 
-+-- {: .num_defn}
+The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _triangle_ in the plane, from [[dimension]] 2 to arbitrary. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
+
+The topological $n$-simplex is naturally defined as a subspace of a
+[[Cartesian space]] given by some relation on its canonical 
+[[coordinates]]. There are two standard choices for such coordinate
+presentation, which of course define [[homeomorphism|homeomorphic]]
+$n$-simplices:
+
+* [Barycentric coordinates](#BarycentricCoordinates)
+
+* [Cartesian coordinates](#CartesianCoordinates)
+
+Each of these has its advantages and disadvantages, depending on aplication. But of course there is a simple coordinate transformation that exhibits an explicit [[homeomorphism]] between the two:
+
+* [Transformation between Barycentric and Cartesian coordinates](#CoordinateTransformation).
+
+
+#### Barycentric coordinates
+ {#BarycentricCoordinates}
+
+
+In the following, for $n \in \mathbb{N}$ we regard the [[Cartesian space]] $\mathbb{R}^n$ as equipped with the canonical [[coordinates]] labeled $x_0, x_1, \cdots, x_{n-1}$.
+
++-- {: .num_defn #TopologicalInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$, the **topological $n$-simplex** is, 
+up to [[homeomorphism]], the [[topological space]] whose underlying set is
+the subset
+
+$$
+  \Delta^n \coloneqq 
+  \{
+    \vec x \in \mathbb{R}^{n+1}
+    |
+    \sum_{i = 0 }^n x_i = 1 \; and \;
+    \forall i . x_i \geq 0 
+  \}
+  \subset \mathbb{R}^{n+1}
+$$
+
+of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+
+=--
+
++-- {: .num_defn #FaceInclusionInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the 
+**$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex is the subspace inclusion
+
+$$
+  \delta_k : \Delta^{n-1} \hookrightarrow \Delta^n
+$$
+
+induced under the barycentric coordinates of def. \ref{TopologicalInBarycentricCoords},
+by the inclusion 
+
+$$
+  \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
+$$
+
+which omits the $k+1$st canonical coordinate
+
+$$
+  (x_1, \cdots , x_n) \mapsto (x_1, \cdots, x_{k-1} , 0 , x_k, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The inclusion 
+
+$$
+  \delta_0 : \Delta^0 \to \Delta^1
+$$ 
+
+is the inclusion
+
+$$
+  \{1\} \hookrightarrow [0,1]
+$$ 
+
+of the "right" end of the standard interval. The other inclusion 
+
+$$
+  \delta_1 : \Delta^0 \to \Delta^1
+$$ 
+
+is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
+
+=--
+
++-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$ and $0 \leq k \leq n$ the **$k$th degenerate $n$-simplex (projection)** is the surjective map
+
+$$
+  \sigma_k : \Delta^{n} \to \Delta^{n-1}
+$$
+
+induced under the barycentric coordinates of def. \ref{TopologicalInBarycentricCoords} under the surjection
+
+$$
+  \mathbb{R}^{n+1} \to \mathbb{R}^n
+$$
+
+which sends
+
+$$
+  (x_0, \cdots, x_n) \mapsto (x_0, \cdots, x_{k} + x_{k+1}, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The collection of face inclusions, def. \ref{FaceInclusionInBarycentricCoords}
+and degenracy projections, def. \ref{DegeneracyProjectionsInBarycentricCoords}
+satisfy the (dual) [[simplicial identities]]. Equivalently, they constitute the components of a [[functor]]
+
+$$
+  \Delta^\bullet : \Delta \to Top
+$$
+
+from the [[simplex category]] $\Delta$ to the category [[Top]] of [[topological spaces]]. This is, up to [[isomorphism]], the canonical [[cosimplicial object]] in $Top$.
+
+=--
+
+#### Cartesian coordinates
+ {#CartesianCoordinates}
+
++-- {: .num_defn #TopologicalInCartesianCoordinates}
 ###### Definition
 
 The standard **topological $n$-simplex** is, up to [[homeomorphism]], 
@@ -52,12 +190,96 @@ equipped with the [[subspace topology]] of the standard topology on the [[Cartes
 +-- {: .num_example}
 ###### Example
 
-For $n = 0$ this is the [[point]], $\Delta^0 = *$.
+* For $n = 0$ this is the [[point]], $\Delta^0 = *$.
 
-For $n = 1$ this is the standard [[interval object]] $\Delta^1 = [0,1]$.
+* For $n = 1$ this is the standard [[interval object]] $\Delta^1 = [0,1]$.
+
+* For $n = 2$ this is a triangle sitting in the plane like this:
+
+  $$
+    \left\{
+      (x_0,x_1) | 0 \leq x_0 \leq x_1 \leq 1
+    \right\}
+    = 
+    \left\{
+    \array{
+       && && (1,1)
+       \\
+       && & \nearrow & \downarrow
+       \\
+       && (\tfrac{1}{2}, \tfrac{1}{2}) && (\tfrac{1}{2},1)
+       \\
+       & \nearrow & && \downarrow
+       \\
+       (0,0) &\stackrel{}{\to}& (0,\tfrac{1}{2}) & \to & (0,1)
+    }
+    \right\}
+  $$
+
 
 =--
 
+
+#### Transformation between Barycentric and Cartesian coordinates
+ {#CoordinateTransformation}
+
+For $n \in \mathbb{N}$,  write now explicitly 
+
+$$
+ \Delta^n_{bar} \hookrightarrow \mathbb{R}^{n+1}
+$$
+
+for the topological $n$-simplex in barycentric coordinate presentation, def. \ref{TopologicalInBarycentricCoords}, and 
+
+$$
+ \Delta^n_{cart} \hookrightarrow \mathbb{R}^{n}
+$$
+
+for the topological $n$-simplex in Cartesian coordinate presentation, def. \ref{TopologicalInCartesianCoordinates}.  
+
+Write
+
+$$
+  S_n : \mathbb{R}^{n+1} \to \mathbb{R}^n
+$$
+
+for the [[continuous function]] given in the standard coordinates by
+
+$$
+  (x_0, \cdots, x_{n})
+  \mapsto
+  (x_0, x_0 + x_1, \cdots, \sum_{i = 0}^k x_i, \cdots, \sum_{i = 0}^n x_i)
+  \,.
+$$
+
+By restriction, this induces a continuous function on the topological $n$-simplices
+
+$$
+  \array{
+     \Delta^n_{bar} &\hookrightarrow& \mathbb{R}^{n+1}
+     \\
+     \downarrow^{\mathrlap{S_n|_{\Delta^n_{bar}}}} && \downarrow^{p_n}
+     \\
+     \Delta^n_{cart} &\hookrightarrow& \mathbb{R}^n
+  }
+  \,.
+$$
+
++-- {: .num_prop}
+###### Proposition
+
+For every $n \in \mathbb{N}$ the function $S_n$ is a [[homeomorphism]]
+and respects the face and degenracy maps.
+
+Equivalently, $S_\bullet$ is a [[natural isomorphism]] of [[functors]] 
+$\Delta^n \to Top$, hence an [[isomorphism]] of [[cosimplicial objects]]
+
+$$
+  S_\bullet : \Delta^\bullet_{bar} \stackrel{\simeq}{\to} \Delta^\bullet_{cart}
+  \,.
+$$
+
+=--
 
 ### Singular simplex
  {#SingularSimplex}
