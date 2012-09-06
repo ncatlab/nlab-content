@@ -31,40 +31,8 @@ Deductive logic is the best developed of the branches. For centuries, treatments
 
 As we said above, logic is traditionally concerned with *correct* methods of reasoning, and philosophers (and others) have had much to say *prescriptively* about logic.  However, one can also study logic *descriptively*, taking it to be the study of methods of reasoning, without attempting to determine whether these methods are correct.
 
-A __logic__ is a specific method of reasoning.  There are several ways to formalise this as a [[mathematics|mathematical]] object; see at _[[mathematical logic]]_ and see the survey [below](#MathematicalLogic).
+A __logic__ is a specific method of reasoning.  There are several ways to formalise this as a [[mathematics|mathematical]] object; see at _[[mathematical logic]]_.
 
-
-## Mathematical logic
- {#MathematicalLogic}
-
-By a convergence and unification of concepts that has been named _[[computational trinitarianism]]_, [[mathematical logic]] is equivalently incarnated in 
-
-1. [[type theory]]
-
-1. [[category theory]]
-
-1. [[programming theory]]
-
-The logical theory that is specifified by and specifies a given [[category]] $\mathcal{C}$ -- called its _[[internal logic]]_, see there for more details and also see [[internal language]], [[syntactic category]].
--- is the one 
-
-* whose [[types]] are the [[objects]] $A$ of $\mathcal{C}$;
-
-* whose [[contexts]] are the [[slice categories]] $\mathcal{C}_{/A}$;
-
-* whose [[propositions]] in context are the [[(-1)-truncated objects]] $\phi$ of $\mathcal{C}_{/A}$;
-
-* whose [[proofs]] $A \vdash PhiIsTrue : \phi $ are the [[generalized elements]] of $\phi$.
-
-Hence pure mathematical logic in the sense of the study of [[propositions]] is identified with [[(0,1)-category theory]]: where one concentrates only on [[(-1)-truncated objects]]. Genuine [[category theory]], which is about [[0-truncated objects]], is the home for logic and [[set theory]], or rather [[type theory]], the 0-truncated objects being the [[sets]]/[[types]]/[[hSet|h-sets]]. 
-
-For instance, 
-
-* [[limits]] and [[colimits]], [[exponentials]], and [[object classifiers]] belong to the [[type theory]];
-
-* while their (-1)-truncation, in this order: [[intersections]]/([[and]]), [[unions]]([[or]]), [[implications]], and [[subobject classifiers]], belong to the logic.
-
-Generally, [[(∞,1)-category theory]], which is about untruncated objects, is the home for logic and types with a [[constructive mathematics|constructuve]] notion of [[equality]], the [[identity types]] in [[homotopy type theory]].
 
 
 ## Entries on logic
