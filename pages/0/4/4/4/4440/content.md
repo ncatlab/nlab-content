@@ -116,7 +116,7 @@ Over a 1-site, the [[Grothendieck construction]] says that [[2-functors]] on the
 
 Also, over a 1-site a 2-sheaf is essentially a _[[indexed category]]_. Therefore stacks over 1-sites can also be discussed in this language, see notably the work ([Bunge-Pare](#BungePare)).
 
-In particular, if the 2-site $C$ is a [[topos]], then every topos _over_ $C$ as its [[base topos]] (a $C$-topos) induces an [[indexed category]]. 
+In particular, if the 1-site $C$ is a [[topos]], then every topos _over_ $C$ as its [[base topos]] (a $C$-topos) induces an [[indexed category]]. 
 
 +-- {: .num_prop }
 ###### Proposition
