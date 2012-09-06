@@ -22,3 +22,4 @@ Computer scientist and applied category theorist, 28th June 1941 &ndash; 3rd Jul
 [ _In memoriam_ ]( http://homepage.mac.com/fiadeiroj/jose/IFIP-WG1.3/goguen.html ). By the [ IFIP Working Group WG1.3 on Foundations of System Specification ]( http://homepage.mac.com/fiadeiroj/jose/IFIP-WG1.3/index.html ).
 
 category: people
+[[!redirects Joseph A. Goguen]]
