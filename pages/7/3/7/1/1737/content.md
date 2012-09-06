@@ -50,5 +50,9 @@ An old discussion on the n-cat caf&#233; can be found [here](http://golem.ph.ute
 
 *  [[Joseph Goguen]], _A categorical manifesto_,  Mathematical Structures in Computer Science 1 (1991), 49-67.
 
+for which also see [[A Categorical Manifesto]].
+
+
+
 
 category: computer science
