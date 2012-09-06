@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
@@ -26,7 +26,7 @@ $$
   f : A \times B \to C
 $$
 
-is a [[function]] of the underlying [[sets]] which is linear -- hence is a [[group homomorphism]] -- in each argument separately. 
+from $A$ and $B$ to $C$ is a [[function]] of the underlying [[sets]] (that is, a [[binary function]] from $A$ and $B$ to $C$) which is a [[linear map]] -- that is a [[group homomorphism]] -- in each argument separately. 
 
 =--
 
@@ -47,7 +47,7 @@ $$
   \,.
 $$
 
-Notice that this is _not_ a group homomorphism out of the product group.
+Notice that this is _not_ a group homomorphism out of the [[direct product]] group.
 The product group $A \times B$ is the group whose elements are pairs $(a,b)$ with $a \in A$ and $b \in B$, and whose group operation is 
 
 $$
@@ -87,7 +87,7 @@ The definition of [[tensor product of abelian groups]] is precisely such that th
 ###### Definition
 
 For $A, B, C \in Ab$ a function of sets $f : A \times B \to C$ 
-is a **bilinear map** precisely if it factors through the [[tensor product of abelian groups]] $A \otimes B$ as
+is a **bilinear map** from $A$ and $B$ to $C$ precisely if it factors through the [[tensor product of abelian groups]] $A \otimes B$ as
 
 $$
   f : A \times B \to A \otimes B \to C
@@ -99,9 +99,10 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The analogous defintion for more than two arguments yields _multilinear maps_. There is a [[multicategory]] of abelian groups and multilinear maps between them. 
+The analogous defintion for more than two arguments yields __multilinear maps__. There is a [[multicategory]] of abelian groups and multilinear maps between them; the bilinear maps are the [[binary morphisms]], and the multilinear maps are the [[multimorphisms]]. 
 
 =--
+
 
 ### For modules
 
@@ -110,7 +111,7 @@ More generally :
 +-- {: .num_defn}
 ###### Definition
 
-For $R$ a [[ring]] and $A, B, C \in R$[[Mod]] being [[modules]] over that ring, a **bilinear map** on $A$ and $B$ is a function of the underlying sets
+For $R$ a [[ring]] (or [[rig]]) and $A, B, C \in R$[[Mod]] being [[modules]] (say on the left, but on the right works similarly) over $R$, a **bilinear map** from $A$ and $B$ to $C$ is a function of the underlying sets
 
 $$
   f : A \times B \to C
@@ -138,9 +139,13 @@ $$
   \,.
 $$
 
+__Multilinear maps__ are again a generalisation.
+
+
 ## Examples
 
 * For $R = k$ a [[field]], an $R$-[[module]] is a $k$-[[vector space]] and a $R$-bilinear map is a bilinear map out of two vector spaces.
+
 
 ## Related concepts
 
