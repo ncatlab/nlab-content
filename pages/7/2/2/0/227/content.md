@@ -16,11 +16,11 @@
 ## Idea
  {#Idea}
 
-A _ring_ (also: _number ring_) is a basic structure in [[algebra]]: a [[set]] equipped with two binary operations called _addition_ and _multiplication_, such that the operation of addition forms an [[abelian group]] and the operation of multiplication a [[monoid]] structure which [[distributivity law|distributes]] over addition.
+A _ring_ (also: _number ring_) is a basic structure in [[algebra]]: a [[set]] equipped with two [[binary operation]]s called _addition_ and _multiplication_, such that the operation of addition forms an [[abelian group]] and the operation of multiplication a [[monoid]] structure which [[distributivity law|distributes]] over addition.
 
 All the familiar number systems such as the [[integer numbers]], [[rational numbers]], [[real numbers]], [[complex]] numbers are rings under the standard operations of addition and multiplication. Except for the first in this list they are indeed [[fields]], which are rings in which also the multiplication operation has an inverse for every element except 0 (the additive neutral element).
 
-Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under their mod-n operations inherited from the integers; the [[polynomial rings]], etc.
+Other basic examples of rings are the [[cyclic groups]] $\mathbb{Z}_n$ under their mod-$n$ operations inherited from the integers; the [[polynomial rings]], etc.
 
 More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[abelian groups]] (with their [[tensor product of abelian groups]]), and this prespective helps to explain the central relevance of the concept, owing to the fundamental nature of the notion of _[[monoid objects]]_. Accordingly monoids internal to other [[abelian categories]] and more generally [[stable infinity-categories]] constitute generalizations of the notion of _ring_ that are of interest. Notably when abelian groups are generalized to their analogs in [[stable homotopy theory]], namely to [[spectra]], the corresponding internal monoids are [[E-infinity rings]], a basic structure in [[higher algebra]].
 
@@ -33,7 +33,7 @@ More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[ab
 A [[ring]] (unital and not-necessarily commutative) 
 is an [[abelian group]] $R$ equipped with 
 
-an element $1 \in R$ and a [[bilinear function|bilinear operation]], hence a [[group homomorphism]]
+an element $1 \in R$ and a [[bilinear operation]], hence a [[group homomorphism]]
 
 $$
   \cdot : R \otimes R \to R
