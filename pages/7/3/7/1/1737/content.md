@@ -9,6 +9,9 @@ Computer science studies [[programs]] and languages to express them.
 
 Together with its [[type theory]] and [[category theory]], computer science is part of the [[computational trinitarianism]].
 
+## Related pages
+
+* [[polymorphism]]
 
 ## References
 
