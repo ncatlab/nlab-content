@@ -548,6 +548,10 @@ Discussion in the context of computing [[homotopy groups]] is in
 * [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
  {#Hutchings}
 
+Lecture notes include
+
+* [[Marco Gualtieri]], _Homology_ ([pdf](http://www.math.toronto.edu/mgualt/MAT1300/Week%206-9%20Term%202.pdf))
+
 See also 
 
 * Wikipedia, _[Singular homology](http://en.wikipedia.org/wiki/Singular_homology)_
