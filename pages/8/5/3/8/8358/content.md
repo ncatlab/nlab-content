@@ -54,3 +54,11 @@ Mat&#237;as Menni, Exact completions and toposes. Ph.D. Thesis, University of Ed
 [[!redirects realisability topos]]
 [[!redirects realisability topoi]]
 [[!redirects realisability toposes]]
+
+[[!redirects Realizability topos]]
+[[!redirects Realizability topoi]]
+[[!redirects Realizability toposes]]
+[[!redirects Realisability topos]]
+[[!redirects Realisability topoi]]
+[[!redirects Realisability toposes]]
+
