@@ -81,7 +81,7 @@ One uses the following  terminology for the components of a chain complex, all d
 +-- {: .num_defn}
 ###### Definition
 
-For $V_\bullet$ a chain complex
+For $C_\bullet$ a chain complex
 
 * the morphisms $\partial_n$ are called the **[[differentials]]** or **[[boundary]] maps**;
 
