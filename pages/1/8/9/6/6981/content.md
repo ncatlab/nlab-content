@@ -23,7 +23,7 @@
  higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
       [[set]]  | [[discrete object]] / [[0-truncated object]]    |   [[hSet]] / [[h-level 2]]
  [[universe]] | [[object classifier]] | [[type of types]] 
- [[monad]] | [[monad]] | [[monad (in programming theory)]]
+ [[monad]] | [[monad]] | [[monad (in computer science)]]
 
 
 
