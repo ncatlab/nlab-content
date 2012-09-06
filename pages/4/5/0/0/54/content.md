@@ -21,7 +21,7 @@ My research has to a large extent been motivated by thinking about mathematical 
 
 This is the kind of stuff that I am thinking about.
 
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is
+A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is[:](http://conquer-online-private-servers.blogspot.com/)
 
 * [[schreiber:HomePage|my personal web within the nLab]]
 
