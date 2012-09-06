@@ -1,0 +1,5 @@
+
+
+A [[natural isomorphism]] of [[sets]].
+
+[[!redirects natural bijections]]
