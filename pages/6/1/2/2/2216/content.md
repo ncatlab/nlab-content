@@ -1,5 +1,13 @@
-Charles Sanders Peirce is one of the founders of symbolic [[logic]].
+Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce devised a graphical notation, known as **existential graphs**, to represent logical calculi. There were three systems of such graphs: the _alpha_ system, to represent [[propositional logic]], the _beta_ system, to represent [[predicate logic]], and the _gamma_ system, to represent [[modal logic]].
 
+[[Geraldine Brady]] and [[Todd Trimble]] have given a category theoretic interpretation of the alpha and beta systems. The latter, a form of [[string diagram|string diagrammatic]] notation, was [developed](#PontoShul) into a diagrammatic notation for [[indexed monoidal categories]].
+
+
+##References
+* G. Brady, T. Trimble (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239
+* G. Brady, T. Trimble (2000b). A String Diagram Calculus for Predicate Logic and C. S. Peirce's System Beta. Preprint. ([ps](http://people.cs.uchicago.edu/~brady/beta98.ps))
+* K. Ponto and M. Shulman, Duality and traces in indexed monoidal categories, ([web](http://www.math.ucsd.edu/~mshulman/papers/indexed-color.pdf))
+{#PontoShul}
 
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
