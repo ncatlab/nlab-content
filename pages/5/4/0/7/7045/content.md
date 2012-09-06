@@ -27,6 +27,8 @@ Therefore the type of types is a refinement of the [[type of propositions]] whic
 
 * [[object classifier]]
 
+* [[parametric polymorphism]]
+
 ## References
 
 * [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
