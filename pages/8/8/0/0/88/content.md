@@ -16,6 +16,6 @@ Chapter 10 of my book [Towards a Philosophy of Real Mathematics](http://www.amaz
 
 On my old blog I began a discussion on [[Klein 2-geometry]], which I continued at the $n$-Category Caf&eacute;.
 
-My [personal area](http://ncatlab.org/davidcorfield/show/HomePage) on nLab[.](http://conquer-online-private-servers.blogspot.com/)
+My [personal area](http://ncatlab.org/davidcorfield/show/HomePage) on nLab.
 
 category: people
