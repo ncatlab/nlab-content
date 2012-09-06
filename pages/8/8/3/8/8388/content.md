@@ -1,0 +1,5 @@
+* [Homepage](http://www.cs.cmu.edu/~scott/)
+
+* [Wikipedia page](http://en.wikipedia.org/wiki/Dana_Scott)
+
+category: people
