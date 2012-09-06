@@ -13,104 +13,120 @@
 * table of contents
 {: toc}
 
-## Definitions
+## Disambiguation
 
-We first discuss the classical case of bases 
-
-* [for topological spaces](#ForTopologicalSpaces)
-
-and then the more general case of bases 
-
-* [for sites / Grothendieck topologies](#ForSites).
+We discuss here the classical case of bases for [[topological spaces]].  For bases on [[sites]], that is for [[Grothendieck topologies]], see _[[Grothendieck pretopology]]_.
 
 
-### For topological spaces
- {#ForTopologicalSpaces}
+## Idea
+
+A base or subbase for a [[topological space]] is a way of generating its topology from something simpler.  This is the appliction to topology of the general concept of [[base]].
+
+
+## Definition {#ForTopologicalSpaces}
+
+Let $X$ be a [[topological space]], and let $\tau$ be its collection of [[open subsets]] (its 'topology').
 
 +-- {: .num_defn}
 ###### Definition
 
-For $X = (X,\tau)$ a [[topological space]], a __[[base]]__ or __basis__ for (or "of") the topology of $X$ is a collection $\mathcal{U}\subset \tau$ of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
-
-A __subbase__ of the topology of $X$ is a collection $S\subset \tau$ of open subsets such that all finite intersections of sets belong to $S$ is a base of topology of $(X,\tau)$.
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-
-If one thinks of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
-
-This connects to the more general definition \ref{BasisForGrothendieckTopology} below.
-
+A __base__ or __basis__ for (or "of") $X$ (or $\tau$) is a [[subset|collection]] $B \subset \tau$ -- whose members are called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
- Let $(X,\tau)$ be a [[topological space]] and $x\in X$ a point. A __base of neighborhoods__ of $x$ in $(X,\tau)$ or a __fundamental system of neighborhoods__ of $X$ is a family $B\subset \tau$ of neighborhoods of $x$ such that for any neighborhood $U\ni x$ there is a neighborhood $b\ni x$ such that $b\in B$ and $b\subset U$. Some also say (local base of topology at $x$). The minimal cardinality of a base of neighborhoods at $x$ is called a character of $(X,\tau)$ at $x$, and the supremum of characters at all point is a character of $(X,\tau)$. If it is countable we say that the topological space satisfies the first axiom of separability. 
-
+A __subbase__ for (or "of") $X$ (or $\tau$) is a subcollection $S \subset \tau$ -- whose members are called __subbasic open subsets__ -- such that every open subset is a union of [[finitary intersections]] of subbasic ones.
 =--
 
+If only the [[underlying set]] of $X$ is given, then a __base__ or __subbase__ on this [[set]] is any collection of [[subsets]] of $X$ that is a base or subbase for *some* topology on $X$.  See [below](#generation) for a characterisation of which collections these can be.
 
-### For sites / Grothendieck topologies
- {#ForSites}
+Now fix a [[point]] $a$ in $X$.
 
-+-- {: .num_defn #BasisForGrothendieckTopology}
++-- {: .num_defn}
 ###### Definition
 
-For $C$ a [[category]] with [[pullbacks]] and equipped with a [[Grothendieck topology]], a [[basis for the Grothendieck topology]] is a [[coverage]] that generates this Grothendieck topology and which is stable under pullback and is transitive.
-
+A __local base__ or __base of neighborhoods__ or __fundamental system of neighborhoods__ for (or "of") $X$ (or $\tau$) at $a$ is a subcollection $B \subset \tau$ -- whose members are called __basic neighborhoods__ or __generating neighborhoods__ of $a$ -- such that every basic neighborhood of $a$ is a [[neighborhood]] and every neighborhood of $a$ is a [[superset]] of some basic neighborhood.
 =--
 
-+-- {: .num_remark}
-###### Warning
+We may also allow basic neighborhoods to be non-open, but this really doesn\'t make any difference; any local base may be refined to a local base of open neighborhoods, and most local bases in practices already come that way.
 
-Unfortunately the established terminology "basis" in [[topology]] and [[topos theory]]  is not quite consistent with the inclusion of topological spaces into topos theory:
+There is no notion of local subbase.
 
-because the collection of basic open subsets of a base for a topological space $X$ is in general not closed under [[intersection]] with open subsets, this [[coverage]] on $Op(X)$ is in general _not_ a [[basis for a Grothendieck topology]] (a [[Grothendieck pretopology]]) on $Op(X)$.
++-- {.num_defn}
+###### Definition
 
-So "basis" in topology corresponds to _[[coverage]]_ in topos theory, not to "basis" in topos theory.
-
-On the other hand, some authors avoid the term [[basis for a Grothendieck topology]] and say [[Grothendieck pretopology]] instead.
-
+The minimum [[cardinality]] of a base of $X$ is the __weight__ of $X$.  The minimum cardinality of a base of neighborhoods at $a$ is the __character__ of $X$ at $a$.  The [[supremum]] of the characters at all points of $X$ is the __character__ of $X$.
 =--
+
+We have assumed the [[axiom of choice]] to simplify the description of this concept; but in general one must speak of classes of cardinalities rather than individual cardinalities.
+
+If the character of $X$ is [[countable set|countable]], we say that $X$ satisfies the [[first-countable space|first axiom of countability]]; if the weight is countable, we say that $X$ satisfies the [[second-countable space|second axiom of countability]].
 
 
 ## Examples
 
-We list examples for bases of topological spaces. For examples of bases of Grothendieck topologies see _[[basis for a Grothendieck topology]]_ instead.
-
 +-- {: .num_example}
 ###### Example
 
-For the [[discrete topology]] on a set $X$, the collection of all [[singleton]] subsets is a base.
-
+For the [[discrete topology]] on a set $X$, the collection of all [[singleton]] subsets is a base, and the singleton $\{x\}$ is a local base at $x$.  Thus every discrete space is first-countable, but only [[countable set|countable]] discrete spaces are second-countable.
 =--
 
 +-- {: .num_example}
 ###### Example
 
-For every [[metric space]], in particular every [[paracompact space|paracompact]] [[manifold]], the collection of [[open subsets]] that are [[open balls]] forms a base for the topology.
-
-
+For every [[metric space]], in particular every [[paracompact space|paracompact]] [[Riemannian manifold]], the collection of [[open subsets]] that are [[open balls]] forms a base for the topology.  (For instance, a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$.)  Similarly, the collection of open balls containing a given point is a local basis at that point.
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
 This means that [[covering]] families consisting of such _basic_ open subsets are [[good open covers]].
-
 =--
-
 
 +-- {: .num_example}
 ###### Example
 
-For instance a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$.
-
+Refining the previous example, every [[metric space]] has a basis consisting of the [[open balls]] with *[[rational number|rational]]* radius.  (For instance, a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$ where $b - a$ is rational.)  Similarly, the collection of open balls with rational radius containing a given point is a local base at that point.  Therefore, every metric space is first-countable.
 =--
+
++-- {: .num_example}
+###### Example
+
+Now consider a [[separable space|separable]] metric space; that is, we have a [[dense subset]] $D$ which is [[countable set|countable]].  Now the space has a basis consisting of the [[open balls]] with [[rational number|rational]] radius and centres in $D$.  (For instance, a base for the topology on the [[real line]] is given by the collection of open intervals $(a,b) \subset \mathbb{R}$ where $a$ and $b$ are rational.)  Therefore, every separable metric space is second-countable.
+=--
+
+
+## Generating topologies {#generation}
+
+Let $X$ be simply a [[set]].
+
++-- {: .num_prop}
+###### Proposition
+
+A collection $B$ of [[subsets]] of $X$ is a base for *some* topology on $X$ iff these conditions are met:
+
+*  $B$ is [[inhabited set|inhabited]];
+*  if $U, V \in B$, then $U \cap V$ contains some element of $B$.
+=--
+
+This is a sort of lax closure under [[finitary intersections]].
+
++-- {: .num_prop}
+###### Proposition
+
+*Every* collection $S$ of subsets of $X$ is a subbase for some topology on $X$.
+=--
+
+A subbase naturally generates a base (for the same topology) by closing it under finitary intersections.
+
+
+## Relation to Grothendieck topologies and coverages
+ {#ForSites}
+
+If one thinks of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a base for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
+
+This coverage is *not* in general a [[basis for the Grothendieck topology]], because a base for a topological space is in general not closed under [[intersection]] with arbitrary [[open subsets]]; a coverage is only a basis if is stable under [[pullback]] (here, closed under these intersections) and transitive.  Unfortunately the established terminology "basis" in [[topology]] and [[topos theory]] is not quite consistent with the inclusion of topological spaces into topos theory: "basis" in topology corresponds to "coverage" in topos theory, not to "basis" in topos theory.
 
 
 [[!redirects base for a topology]]
