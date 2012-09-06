@@ -39,15 +39,19 @@ The [[theory|language]] of EFA is one-sorted with
 
 The [[axioms]] of EFA are 
 
-1. Those of [Robinson arithmetic](http://ncatlab.org/nlab/show/second+order+arithmetic#firstorder_axioms_10) (where $s$ is translated as $1 + (-)$, i.e., as $+(1, -)$); 
+* Those of [Robinson arithmetic](http://ncatlab.org/nlab/show/second+order+arithmetic#firstorder_axioms_10) (where $s$ is translated as $1 + (-)$, i.e., as $+(1, -)$); 
 
-1. Exponentiation axioms, viz. $x^0 = 1$ and $x^y \cdot x = x^{y+1}$; 
+* Exponentiation axioms, viz. $x^0 = 1$ and $x^y \cdot x = x^{y+1}$; 
 
-1. The [induction axiom](http://ncatlab.org/nlab/show/second+order+arithmetic#secondorder_axioms_11) for formulas all of whose quantifiers are bounded. 
+* The [induction axiom](http://ncatlab.org/nlab/show/second+order+arithmetic#secondorder_axioms_11) for formulas all of whose quantifiers are bounded. 
+
 
 ## Related concepts
 
-* [[second order arithmetic]]
+* [[Peano arithmetic]]
+
+* [[second-order arithmetic]]
+
 
 ## References
 
@@ -59,7 +63,7 @@ The [[axioms]] of EFA are
 
 A MathOverflow discussion on Friedman's grand conjecture about EFA may be found here, 
 
-* [Charles](mathoverflow.net/users/6043), _Status of Harvey Friedman's grand conjecture?_, [http://mathoverflow.net/questions/39452](http://mathoverflow.net/questions/39452) (version: 2011-03-24), ([link](http://mathoverflow.net/questions/39452/status-of-harvey-friedmans-grand-conjecture)) 
+* [Charles](http://mathoverflow.net/users/6043), _Status of Harvey Friedman's grand conjecture?_, [http://mathoverflow.net/questions/39452](http://mathoverflow.net/questions/39452) (version: 2011-03-24), ([link](http://mathoverflow.net/questions/39452/status-of-harvey-friedmans-grand-conjecture)) 
 
 
 [[!redirects elementary function arithmetic]] 
