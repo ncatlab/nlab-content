@@ -155,6 +155,10 @@ A standard textbook reference is
 
 * Edwin Spanier, _Algebraic Topology_ , McGraw-Hill, 1966. 
 
+An exposition is in 
+
+* Kenny Erleben, _Simplicial complexes_ (2010) ([pdf slides](http://image.diku.dk/kenny/download/vriphys10_course/simplicial_complexes.pdf))
+
 That simplicial complexes form a [[quasitopos]] of [[concrete sheaves]] is discussed in 
 
 * [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_ [(arXiv)](http://arxiv4.library.cornell.edu/PS_cache/arxiv/pdf/0807/0807.1704v4.pdf)
