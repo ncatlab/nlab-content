@@ -1,0 +1,8 @@
+
+
+## Related entries
+
+* [[program]]
+
+* [[computational trinitarianism]]
+
