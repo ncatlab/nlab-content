@@ -28,6 +28,10 @@ Note that some type theorists use "intensional type theory" to refer to type the
 
 Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] is [[decidable]]. ([Martin-L&#246;f](#MartinLoef), [Hofmann](#Hofmann)).
 
+## Examples
+
+* [[CiC]]
+
 ## Related concepts
 
 * [[homotopy type theory]]
