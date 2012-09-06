@@ -18,3 +18,14 @@
 : These beans are white.
 : All beans in that bag are white.
 : Therefore, these beans are from that bag.
+
+It is not completely clear what Peirce meant by abduction. Clearly the inference cannot be to just any explanation, e.g., there might have been many other bags full of white beans. But before we decide what constitutes the **best** explanation, we had been inquire into the nature of explanation itself.
+
+There is an extensive literature about explanation in the Philosophy of Science, for example, ([FourDecades](#FourDecades)). Obviously it is not just a matter of devising a statement which has the thing to be explained (explicandum) as a consequence. You want it to 'give the reason for' the observation. This is notoriously difficult to do. Note also that there is a growing literature now on the concept of 'explanatory proofs' in mathematics.
+
+For some, Peirce is talking about the process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of rival hypotheses as explanations, it may be possible to employ Bayesian reasoning, generally taken to be a form of [[inductive reasoning]]. Even here, however, what to do when you don't think you have an exhaustive set of rival hypotheses is not so obvious. When astronomers in the nineteenth century tried to account for the anomalies in the position of Mercury's perihelion, they tried out all manner of explanations: maybe there was a planet inside Mercury's orbit, maybe there was a cloud of dust surrounding the sun, maybe the power in the inverse square law was (2 - $\epsilon$),... Assigning priors and changing these as evidence comes in is one thing, but it would have been wise to have reserved some of the prior for 'none of the above'.
+
+##References
+
+Wesley Salmon, Four Decades of Scientific Explanation.
+{#FourDecades}
