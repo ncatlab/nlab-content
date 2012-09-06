@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # $\kappa$-ary sites
 
 * table of contents
