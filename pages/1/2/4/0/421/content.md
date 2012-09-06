@@ -15,13 +15,13 @@
 
 ## Idea
 
-The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. 
+The _simplex_ is one of the basic [[geometric shapes for higher structures]]. 
 
 ## Definition
  {#Definition}
 
-### Cellular (simplicial) simplex
- {#CellularSimplex}
+### Standard simplicial simplex
+ {#SimplicialSimplex}
 
 For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
 
