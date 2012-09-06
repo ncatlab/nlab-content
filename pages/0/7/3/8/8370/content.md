@@ -34,7 +34,7 @@ the following notions are equivalent:
 
 1. A [[proof]] of a [[proposition]]. (In [[logic]].)
 
-1. A [[program]] with output some [[type]]. (In [[type theory]].)
+1. A [[program]] with output some [[type]]. (In [[type theory]] and [[computer science]].)
 
 1. A [[generalized element]] of an [[object]]. (In [[category theory]].)
 
