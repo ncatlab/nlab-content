@@ -496,6 +496,10 @@ He proves that there is an object $\Omega_{T}$ in $[\mathcal{C}^{op},\text{Set}]
 
 (3) morphisms $j\colon\Omega_{\mathbf{T}}\rightarrow\Omega_{T}$ satisfying the Lawvere-Tierney axioms for a topology 
 
+## Related concepts
+
+* [[monad (in programming theory)]]
+
 ## References
 
 Lawvere--Tierney topologies are discussed in section V.1 of
