@@ -23,6 +23,7 @@ and then the more general case of bases
 
 * [for sites / Grothendieck topologies](#ForSites).
 
+
 ### For topological spaces
  {#ForTopologicalSpaces}
 
@@ -52,6 +53,7 @@ This connects to the more general definition \ref{BasisForGrothendieckTopology} 
 
 =--
 
+
 ### For sites / Grothendieck topologies
  {#ForSites}
 
@@ -63,8 +65,7 @@ For $C$ a [[category]] with [[pullbacks]] and equipped with a [[Grothendieck top
 =--
 
 +-- {: .num_remark}
-###### Remark
-**(Warning)**
+###### Warning
 
 Unfortunately the established terminology "basis" in [[topology]] and [[topos theory]]  is not quite consistent with the inclusion of topological spaces into topos theory:
 
@@ -113,20 +114,45 @@ For instance a base for the topology on the [[real line]] is given by the collec
 
 
 [[!redirects base for a topology]]
-[[!redirects subbase of a topology]]
-[[!redirects subbase for a topology]]
 [[!redirects basis for a topology]]
 [[!redirects bases for a topology]]
-[[!redirects subbasis for a topology]]
-[[!redirects subbases for a topology]]
+[[!redirects bases for topologies]]
+[[!redirects base of a topology]]
+[[!redirects basis of a topology]]
+[[!redirects bases of a topology]]
+[[!redirects bases of topologies]]
+[[!redirects base for a topological space]]
+[[!redirects basis for a topological space]]
+[[!redirects bases for a topological space]]
+[[!redirects bases for topological spaces]]
+[[!redirects base of a topological space]]
+[[!redirects basis of a topological space]]
+[[!redirects bases of a topological space]]
+[[!redirects bases of topological spaces]]
+[[!redirects topological base]]
+[[!redirects topological bases]]
 [[!redirects base for the topology]]
 [[!redirects basis for the topology]]
 [[!redirects bases for the topology]]
+
+[[!redirects subbase for a topology]]
+[[!redirects subbasis for a topology]]
+[[!redirects subbases for a topology]]
+[[!redirects subbases for topologies]]
+[[!redirects subbase of a topology]]
+[[!redirects subbasis of a topology]]
+[[!redirects subbases of a topology]]
+[[!redirects subbases of topologies]]
+[[!redirects subbase for a topological space]]
+[[!redirects subbasis for a topological space]]
+[[!redirects subbases for a topological space]]
+[[!redirects subbases for topological spaces]]
+[[!redirects subbase of a topological space]]
+[[!redirects subbasis of a topological space]]
+[[!redirects subbases of a topological space]]
+[[!redirects subbases of topological spaces]]
+[[!redirects topological subbase]]
+[[!redirects topological subbases]]
 [[!redirects subbase for the topology]]
 [[!redirects subbasis for the topology]]
 [[!redirects subbases for the topology]]
-
-[[!redirects topological base]]
-[[!redirects topological bases]]
-[[!redirects topological subbase]]
-[[!redirects topological subbases]]
