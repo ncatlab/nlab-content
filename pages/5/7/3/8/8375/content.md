@@ -12,7 +12,7 @@ An *arity class* is a class of [[cardinalities]] which is suitable to be the col
 
 An **arity class** is a [[class]] $\kappa$ of [[small set|small]] [[cardinalities]] such that
 
-1. $1\in\kappa$
+1. $1\in\kappa$.
 
 2. $\kappa$ is closed under indexed sums: if $\lambda\in\kappa$ and     $\alpha: \lambda \to\kappa$, then $\sum_{i\in \lambda} \alpha(i)$ is also in $\kappa$.
 
@@ -20,6 +20,19 @@ An **arity class** is a [[class]] $\kappa$ of [[small set|small]] [[cardinalitie
 
 A [[set]] or [[family]] is called **$\kappa$-small** if its cardinality belongs to $\kappa$.  A [[theory]] or other object with a collection of "operations" whose inputs are all $\kappa$-small is called **$\kappa$-ary**.
 
++-- {: .un_remark}
+###### Remark
+By [[induction]], the second condition implies closure under iterated indexed sums, in the sense that for any $n\ge 2$, we have
+$$\sum_{i_1\in\lambda_1} \; \sum_{i_2\in\lambda_2(i_1)} \cdots
+  \sum_{i_{n-1} \in\lambda_{n-1}(i_1,\dots,i_{n-2})} \lambda_n(i_1,\dots,i_{n-1})
+$$
+is in $\kappa$ if all the $\lambda$'s are.  The first condition may be regarded as the case $n=0$ of this (the case $n=1$ being just "$\lambda\in\kappa$ iff $\lambda\in\kappa$").
+=--
+
++-- {: .un_remark}
+###### Remark
+An alternative, more category-theoretic, way to state the second and third conditions is that for any [[function]] $f:I\to J$, if ${|J|}\in\kappa$, then ${|I|}\in\kappa$ if and only if all fibers of $f$ are in $\kappa$.
+=--
 
 ## Examples
 
