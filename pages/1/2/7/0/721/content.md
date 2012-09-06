@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -9,11 +9,11 @@
 =--
 =--
 
-> This entry is about the notion of [[site]]. For a similarly-named generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
+> This entry is about pretopologies on [[sites]]. For a similarly-named generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
 
 ***
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -23,12 +23,10 @@ A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a col
 
 Every Grothendieck pretopology generates a Grothendieck topology. Different pretopologies may give rise to the same topology.
 
-An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck topology, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
+An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck topology, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.  (Note that it is coverages, not pretopologies, that most directly corresponds to [[bases of topological spaces]].
 
 
-
-
-##Definition
+## Definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -37,9 +35,9 @@ Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or 
 
 1. _isomorphisms cover_ -- every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
 
-1. _stability axiom_ -- the collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ is a covering family;
+2. _stability axiom_ -- the collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ is a covering family;
 
-1. _transitivity axiom_ -- if $\{U_i \to U\}_{i \in I}$ is a covering family and for each $i$ also $\{U_{i,j} \to U_i\}_{j \in J_i}$ is a covering family, then also the family of composites $\{U_{i,j} \to U_i \to U\}_{i\in I, j \in J_i}$ is a covering family.
+3. _transitivity axiom_ -- if $\{U_i \to U\}_{i \in I}$ is a covering family and for each $i$ also $\{U_{i,j} \to U_i\}_{j \in J_i}$ is a covering family, then also the family of composites $\{U_{i,j} \to U_i \to U\}_{i\in I, j \in J_i}$ is a covering family.
 
 =--
 
@@ -54,10 +52,10 @@ The [[Grothendieck topology]] on $C$ _generated_ from a basis of covering famili
 
 =--
 
+
 ## Properties
 
 Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which generates it: this has as covering families precisely thoses families of morphisms that generate a covering sieve under completion under precomposition.
-
 
 
 ## Examples 
@@ -85,19 +83,20 @@ The definition appears for instance as definition 2 on page 111 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
 * MO questions: [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition), [colimits-of-covers](http://mathoverflow.net/questions/44893/colimits-of-covers)
 
-[[!redirects Grothendieck pretopologies]]
 
 [[!redirects pretopology]]
 [[!redirects pretopologies]]
 
+[[!redirects Grothendieck pretopology]]
+[[!redirects Grothendieck pretopologies]]
 
+[[!redirects base for a Grothendieck topology]]
 [[!redirects basis for a Grothendieck topology]]
 [[!redirects bases for a Grothendieck topology]]
-
+[[!redirects bases for Grothendieck topologies]]
 [[!redirects basis for the Grothendieck topology]]
 [[!redirects bases for the Grothendieck topology]]
-
-[[!redirects basis for a Grothendieck topology]]
-[[!redirects bases for a Grothendieck topology]]
-
-[[!redirects bases for Grothendieck topologies]]
+[[!redirects base of a Grothendieck topology]]
+[[!redirects basis of a Grothendieck topology]]
+[[!redirects bases of a Grothendieck topology]]
+[[!redirects bases of Grothendieck topologies]]
