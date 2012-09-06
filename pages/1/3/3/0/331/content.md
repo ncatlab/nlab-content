@@ -48,7 +48,7 @@ For instance,
 
 * [[limit]]s and [[colimit]]s, [[exponential]]s, and [[object classifier]]s belong to the [[type theory]], 
 
-* while [[image]]s, dual images, [[intersection]]s, [[union]]s, and [[subobject classifiers]] belong to the logic[.](http://conquer-online-private-servers.blogspot.com/)
+* while [[image]]s, dual images, [[intersection]]s, [[union]]s, and [[subobject classifiers]] belong to the logic.
 
 See also:
 
