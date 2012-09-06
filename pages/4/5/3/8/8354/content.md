@@ -16,7 +16,9 @@
 
 ## In type theory
 
-In [[type theory]] a _program_ is the same as a  [[proof]] (see _[[proofs as programs]]_): since here proof means, _[[constructive mathematics|constructive]] proof_ this consists of explicitly [[definition|defining]] a [[term]] of a certain [[type]] (by _[[propositions as types]]_).  
+In [[computer science]] a _program_ is a construction of a [[term]] of a certain [[type]] (the output of the program). 
+
+Under [[computational trinitarianism]] this is essentially the same as a [[proof]] in [[type theory]]  of the [[proposition]] presented by the type (see at _[[propositions as types]]_ and  _[[proofs as programs]]_).
 
 ## Related concepts
 
@@ -30,4 +32,4 @@ In [[type theory]] a _program_ is the same as a  [[proof]] (see _[[proofs as pro
 
 
 
-[[!redirects propgrams]]
+[[!redirects programs]]
