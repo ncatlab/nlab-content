@@ -5,20 +5,25 @@
 
 ## Idea
 
-Computer science studies [[programs]] and languages to express them.
+Computer science studies [[programs]] and languages to express them. From the [[nPOV]], it studies, amongst lots of other things,  the operation, application and design of computers. This includes aspects relating to [[models for concurrency|concurrency]], [[semantics]] of programming languages, and aspects of [[mathematical logic]]. 
 
 Together with its [[type theory]] and [[category theory]], computer science is part of the [[computational trinitarianism]].
 
 
 ## Related pages
 
+
 * [[denotational semantics]]
 
 * [[domain theory]]
 
-* [[equilogical space]]
+* [[equilogical space]];
 
-* [[linear logic]]
+* [[event structures]];
+
+* [[linear logic]];
+
+* [[models for concurrency]];
 
 * [[monad (in computer science)]]
 
@@ -27,6 +32,8 @@ Together with its [[type theory]] and [[category theory]], computer science is p
 * [[Petri net]]
 
 * [[polymorphism]]
+
+* [[transition systems]]
 
 
 
@@ -38,6 +45,8 @@ Together with its [[type theory]] and [[category theory]], computer science is p
 * [[Andrej Bauer]];
 
 * [[Lars Birkedal]];
+
+* [[Eric Goubault]];
 
 * [[Joseph Goguen]];
 
