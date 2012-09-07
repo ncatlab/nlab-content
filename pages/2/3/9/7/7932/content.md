@@ -26,7 +26,10 @@ If the action is suitably linear in some sense, this is also referred to as _[[�
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$.
 
-Then every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V//G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
++-- {: .num_prop}
+###### Proposition
+
+Every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V//G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
 
 $$
   \array{
@@ -34,11 +37,199 @@ $$
     \\
     \downarrow
     \\
-    V//G &\stackrel{\mathbf{c}}{\to}& \mathbf{B}G
+    V//G &\stackrel{\overline{\rho}}{\to}& \mathbf{B}G
   }
 $$
 
-such that $\rho$ is the $G$-action on $V$ regarded as the corresponding $G$-[[principal ∞-bundle]] modulated by $\mathbf{c}_{\rho}$.
+such that $\rho$ is the $G$-action on $V$ regarded as the corresponding $G$-[[principal ∞-bundle]] modulated by $\overline{\rho}$.
+
+=--
+
+This allows to characterize $\infty$-actions in the following convenient way.
+See ([NSS](#NSS)) for a detailed discussion.
+
+
++-- {: .num_defn #GActionByFiberSequence}
+###### Definition
+
+For $V \in \mathbf{H}$ an object, a $G$-$\infty$-action $\rho$ on $V$ is a 
+[[fiber sequence]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    V &\to& V \sslash G
+    \\
+    && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+The [[(∞,1)-category]] of $G$-actions in $\mathbf{H}$ is
+
+$$
+  Act_{\mathbf{H}}(G) \coloneqq \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+An $\rho \in Act_{\mathbf{H}}(G)$ corresponds to a morphism denoted
+$\overline{\rho} : V\sslash G \to \mathbf{B}G$ in $\mathbf{H}$ hence to an object $\overline{\rho} \in \mathbf{H}_{/\mathbf{B}G}$.
+
+A morphism $\phi : \rho_1 \to \rho_2  $ in $Act_{\mathbf{H}}(G)$
+corresponds to a diagram
+
+$$
+  \array{
+     V_1 \sslash G &&\stackrel{}{\to}&& V_2 \sslash G
+     \\
+     & {}_{\mathllap{\overline{\rho_1}}}\searrow && \swarrow_{\mathrlap{\overline{\rho_2}}}
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+in $\mathbf{H}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The bundle $\overline{\rho}$ in def. \ref{GActionByFiberSequence} is the
+universal $\rho$-[[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundle]].
+
+=--
+
+### Cartesian closed monoidal structure on $\infty$-actions
+
++-- {: .num_remark}
+###### Remark
+
+By def. \ref{GActionByFiberSequence}, and basic facts disussed at _[[slice (∞,1)-topos]]_,
+the [[(∞,1)-category]] $Act_{\mathbf{H}}(G)$
+is an [[(∞,1)-topos]] and in particular is 
+a [[cartesian closed (∞,1)-category]].
+
+=--
+
+We describe here aspects of the [[cartesian product]] and [[internal hom]] of $\infty$-actions given this way. The following statements are essentially immediate consequences of basic [[homotopy type theory]].
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $(V_1, \rho_1), (V_2, \rho_2) \in Act(G)$ their [[cartesian product]]
+is a $G$-action on the product of $V_1$ with $V_2$ in $\mathbf{H}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  \array{
+    V_i &\to& V\sslash G
+    \\
+    && \downarrow^{\bar \rho_i}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+be the [[principal ∞-bundles]] exhibiting the two actions.
+
+Along the lines of the discussion at [[locally cartesian closed category]] we find that $(V_1, \rho_1) \times (V_2, \rho_2) \in Act(G)$ is given in $\mathbf{H}$ by the [[(∞,1)-pullback]] 
+
+$$
+  \sum_{\mathbf{B}G}
+    \bar \rho_1 \times 
+    \bar \rho_2
+  \simeq
+   V_1\sslash G \times_{\mathbf{B}G} V_2 \sslash G
+  \,,
+$$
+
+with the product action being exhibited by the [[principal ∞-bundle]]
+
+$$
+  \array{
+    V_1 \times V_2 &\to& \sum_{\mathbf{B}G}V_1\sslash G \times_{\mathbf{B}G} V_2 \sslash G
+    \\
+    && \downarrow^{\mathrlap{\overline{ \rho_1 \times \rho_2 }}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+Here the [[homotopy fiber]] on the left is identified as $V_1 \times V_2$ by using that [[(∞,1)-limits]] commute over each other.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $\rho_1, \rho_2 \in Act(G)$ their [[internal hom]] $[\rho_1, \rho_2] \in Act_{\mathbf{H}}(G)$ is a $G$-action on the [[internal hom]] $[V_1, V_2] \in \mathbf{H}$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Taking fibers 
+
+$$
+  pt_{\mathbf{B}G}^* : \mathbf{H}_{/\mathbf{B}G} \to \mathbf{H}
+$$
+
+is the [[inverse image]] of a [[etale geometric morphism]], hence is a [[cartesian closed functor]] (see e.g. at [[logical functor]]).
+Therefore it preserves [[exponential objects]]:
+
+$$
+  \begin{aligned}
+    pt_{\mathbf{B}G}^* [\bar \rho_1, \bar \rho_2]
+    & \simeq
+    pt_{\mathbf{B}G}^* [V_1 \sslash G , V_2 \sslash G]_{\mathbf{B}G}
+    &
+    \simeq
+    [pt_{\mathbf{B}G}^* V_1 \sslash G, * pt_{\mathbf{B}G}^* V_2 \sslash G]
+    \\
+    & \simeq [V_1, V_2]
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The above internal-hom action 
+
+$$
+  \array{
+    [V_1,V_2] &\to& V_1 \sslash G \times_{\mathbf{B}G} V_2 \sslash G
+    \\
+    && \downarrow^{\mathrlap{\overline{[\rho_1,\rho_2]}}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+enocdes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-composition of [[functions]] $V_1 \to V_2$ with the $G$-action on $V_1$ and on $V_2$, respectively.
+
+(...)
+
+=--
+
+
 
 ## Examples
 
@@ -123,6 +314,7 @@ Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] ar
 Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[associated ∞-bundles]] are discussed in section I 4.1 of 
 
 * _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+ {#NSS}
 
 [[!redirects ∞-action]]
 
