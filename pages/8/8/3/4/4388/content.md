@@ -35,11 +35,19 @@ A morphism $f$ : ($Q$, $\delta$, $q_{0}$, $F$) $\to$ ($Q\prime$, $\delta\prime$,
 
 There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequential Moore automata and whose [[morphism|morphisms]] are simulations.
 
+##Variants
+
+
+There are several variant forms of automaton.  The above just gives a basic one. 
+
 
 ## References
 
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
+* [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press.
+
+category:computer science
 
 [[!redirects automaton]]
 [[!redirects automata]]
