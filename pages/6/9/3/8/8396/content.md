@@ -1,0 +1,8 @@
+Mark Lawson is senior lecturer at Heriot-Watt University, Edinburgh.  He has published extensively on inverse semigroups and their interaction with other parts of mathematics and computer science.
+
+
+
+* [homepage](http://www.ma.hw.ac.uk/~markl/)
+
+category:people
+[[!redirects M. V. Lawson]]
