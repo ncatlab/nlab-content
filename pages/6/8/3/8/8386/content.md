@@ -9,12 +9,14 @@
 =--
 =--
 
-
-# Polymorphism#
+# Polymorphism
 * table of contents
-{:toc}
+{: toc}
 
-In [[computer science]], **polymorphism** refers to the ability to define more than one [[function]] with the same name.  One usually distinguishes two types of polymorphism: *ad hoc polymorphism* and *parametric polymorphism*.
+## Idea
+
+In [[computer science]], *polymorphism* is the definition of more than one [[function]] with the same name.  One usually distinguishes two types of polymorphism: *ad hoc polymorphism* and *parametric polymorphism*.
+
 
 ## Ad hoc polymorphism
 
@@ -23,9 +25,18 @@ In **ad hoc polymorphism**, one simply defines multiple functions with the same 
 $$ add : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$$
 $$ add : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$$
 
-and then when $add(3,2)$ is invoked, the compiler knows to call the first function since $3$ and $2$ are natural numbers, whereas when $add(4.2,\pi)$ is invoked it calls the second function since $4.2$ and $\pi$ are real numbers.
+and then when $add(3,2)$ is invoked, the compiler knows to call the first function since $3$ and $2$ are [[natural numbers]], whereas when $add(4.2,\pi)$ is invoked it calls the second function since $4.2$ and $\pi$ are [[real numbers]].
 
 Note that there is nothing which stipulates that the *behavior* of a class of ad-hocly polymorphic functions with the same name should be at all similar.  Nothing prevents us from defining $ add : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ to add its arguments but $ add : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ to subtract its arguments.  Of course, it is good programming practice to make overloaded functions similar in their behavior.
+
+In the example above, there might even be a [[coercion]] function $c : \mathbb{N} \to \mathbb{R}$, to be invoked whenever a natural number appears where the compiler expects a real number, giving a [[commutative diagram]]
+$$ \array {
+   \mathbb{N} \times \mathbb{N}     & \overset{add}\to  & \mathbb{N} \\
+   \mathllap{c \times c} \downarrow &                   & \downarrow \mathrlap{c} \\
+   \mathbb{R} \times \mathbb{R}     & \underset{add}\to & \mathbb{R}
+} $$
+But thing don\'t always work out this way.
+
 
 ## Parametric polymorphism
 
@@ -50,5 +61,7 @@ $$ first : \prod_{A:Type} A\times A \to A$$
 
 However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[ML]].
 
+
+[[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
 [[!redirects parametric polymorphism]]
