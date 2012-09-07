@@ -36,7 +36,7 @@ Let $\mathbf{T}=(T,\mu,\eta)$ be a [[monad]] in [[Cat]], where $T:C\to C$ is an 
 +-- {: .num_defn}
 ###### Definition
 
-A __free $\mathbf{T}$-[[algebra|algebra over a monad|]]__ (or free $\mathbf{T}$-module) is a $\mathbf{T}$-algebra (module) of the form $(T(M),\mu_M)$, where the [[action]] is the component of multiplication transformation $\mu_M : T(T(M))\to T(M)$. 
+A __free $\mathbf{T}$-[[algebra|algebra over a monad]]__ (or free $\mathbf{T}$-module) is a $\mathbf{T}$-algebra (module) of the form $(T(M),\mu_M)$, where the [[action]] is the component of multiplication transformation $\mu_M : T(T(M))\to T(M)$. 
 
 =--
 
