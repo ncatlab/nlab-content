@@ -1,6 +1,7 @@
+
 **Abduction** is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as **inference to the best explanation**.
 
-[[Charles Peirce]], the originator of the term, illustrated the differences between [[deduction]], [[inductive reasoning|induction]], and abduction by the following example.
+[[Charles Peirce]], the originator of the term, illustrated the differences between [[deductive reasoning|deduction]], [[inductive reasoning|induction]], and abduction by the following example.
 
 * **Deduction**
 : All beans in that bag are white.
@@ -25,7 +26,14 @@ There is an extensive literature about explanation in the Philosophy of Science,
 
 For some, Peirce is talking about the process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of rival hypotheses as explanations, it may be possible to employ Bayesian reasoning, generally taken to be a form of [[inductive reasoning]]. Even here, however, what to do when you don't think you have an exhaustive set of rival hypotheses is not so obvious. When astronomers in the nineteenth century tried to account for the anomalies in the position of Mercury's perihelion, they tried out all manner of explanations: maybe there was a planet inside Mercury's orbit, maybe there was a cloud of dust surrounding the sun, maybe the power in the inverse square law was (2 - $\epsilon$),... Assigning priors and changing these as evidence comes in is one thing, but it would have been wise to have reserved some of the prior for 'none of the above'.
 
-##References
+
+## References
 
 Wesley Salmon, Four Decades of Scientific Explanation.
 {#FourDecades}
+
+
+[[!redirects abduction]]
+[[!redirects abductive reasoning]]
+[[!redirects abductive inference]]
+[[!redirects abductive logic]]
