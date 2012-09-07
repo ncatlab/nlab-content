@@ -20,9 +20,13 @@ Semantics is the interpretation of the [[syntax]] of a [[theory]] in a [[model]]
 
 ## Related concepts
 
-* [[categorical semantics]]
+* [[categorical semantics]];
 
-* [[denotational semantics]]
+* [[denotational semantics]];
+
+* [[geometric models for modal logics]];
+
+category:logic
 
 
 [[!redirects semantics]]
