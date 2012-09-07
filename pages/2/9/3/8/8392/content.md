@@ -1,0 +1,7 @@
+* [Publications](http://homepages.inf.ed.ac.uk/gdp/publications/)
+
+* [Scottish Wikipedia page](http://en.wikipedia.org/wiki/Gordon_Plotkin)
+
+category: people
+
+category: computer science
