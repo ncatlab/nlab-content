@@ -50,6 +50,8 @@ If we identify $A$ with the additive group $\mathbb{Z}/n$ and pick (the equivale
 
 In this way, a cyclic group equipped with the [[extra structure]] of a generator is the same thing (in the sense that their [[groupoids]] are [[equivalence of categories|equivalent]]) as a ring with the [[extra property]] that the underlying additive group is cyclic.
 
+For $n \gt 0$, the number of ring structures on the cyclic group $\mathbb{Z}/n$, which is the same as the number of generators, is $\phi(n)$, the [[totient function|Euler totient]] of $n$; the generators are those $i$ that are [[relatively prime numbers|relatively prime]] to $n$.  While $\phi(1) = 1$, otherwise $\phi(n) \gt 1$ (another way to see that we have a structure and not just a property).  For $\mathbb{Z}$ itself, there are two ring structures, since $1$ and $-1$ are the generators (and these are relatively prime to $0$).
+
 
 [[!redirects cyclic group]]
 [[!redirects cyclic groups]]
