@@ -29,7 +29,7 @@ Monads provide one way to "embed [[imperative programming]] in
 [[functional programming]]", and are used that way notably in the 
 [[programming language]] [[Haskell]]. (But monads, as well as [[comonads]] and related structures) exist much more generally in programming languages, an exposition is in ([Harper](#Harper))). 
 
-For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$, then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$. If the software is designed such that all values written to $Q$ appear on the user's sceen, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
+For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$ that carries the structure of a [[monoid]], then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$.  The Kleisli composition of two functions $f \colon X \to Y \times Q$ and $g \colon Y \to Z \times Q$ then not only evaluates the two programs in sequence but also combines their output using the monoid operation of $Q$; so if $f x = (y,q)$ and $g y = (z,q')$ then the final result of $bind(f,g)(x)$ will be $(z, q q')$.  For example, $Q$ might be the set of strings of characters, and the monoid operation that of concatenation of strings (i.e. $Q$ is the [[free monoid]] on the type of characters).  If the software is designed such that values of type $Q$ computed in this way appear on the user's sceen, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
 
 But monads have plenty of further uses. They are as ubiquituous (sometimes in disguise) in [[computer science]] as [[monad|monads in the sense of category theory]] are (sometimes in disguise) in [[category theory]]. This is no coincidence, see _[Relation to monads in category theory](#RelationToMonadsInCategoryTheory)_ below.
 
@@ -56,7 +56,7 @@ on the [[syntactic category]]. This [[functor]]
 
 1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a compnent morphism [[morphism]] $return_X : X \to T(X)$;
 
-1. the _composition_ [[natural transformation]] $\mu : T \circ T \Rightarro T$ of the monad provides for each object $X$ a morpjhism $\mu_X : T(T(X)) \Rightarrow X$ whic induces the [[Kleisli composition]] by the standard formula 
+1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow X$ whic induces the [[Kleisli composition]] by the standard formula 
 
   $$
     \begin{aligned}
@@ -76,7 +76,7 @@ on the [[syntactic category]]. This [[functor]]
 Here the morphism $T(g)$ in the middle of the last line makes use of the fact that $T(-)$ is indeed a [[functor]] and hence may also be applied to morphisms / functions between types. The last morphism $\mu(Z)$ is the one that implements the "$T$-computation".
 
 
-The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad being a _[[strong monad]]_.
+The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being a _[[strong monad]]_.
 
 
 
@@ -93,6 +93,10 @@ The monads arising this way in computer science are usually required also to int
 The technical definition can be found in...
 
 > ...where? There are many, many references of and expositions of monads in computer science. Somebody who knows a _good_ reference, please add it here. We may assume that the reader knows monads, and knows type systems. We need a reference that gives a crisp precise definition: "A monad in a typed functional programming language is ..."
+
+The original reference for monads as 'notions of computation' is
+
+* Eugenio Moggi, Notions of computation and monads. Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
 Expositions are in
 
