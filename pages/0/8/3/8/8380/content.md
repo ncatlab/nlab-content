@@ -15,29 +15,68 @@
 
 ## Idea
 
-In [[computer science]], a programming language may be formalised or studied by means of a _[[syntactic category]]_, whose [[objects]] are the [[types]] of the language, and in which a [[morphism]] $A \to B$ is a [[term]] or [[program]] (or an [[equivalence class]] of such) that takes a value of type $A$ as input and returns a value of type $B$.  This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional languages]].
+In [[computer science]], a _monad_  is a map that 
+
+* sends every [[type]] $X$ of some [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
+
+* equipped with a rule for composing two [[functions]] of the form $f : X \to T(Y)$ (called _[[Kleisli functions]]_) and $g : Y \to T(Z)$ to a function $bind(f,g) : X \to T (Z)$ (their [[Kleisli composition]]);
+
+* in a way that is [[associativity law|associative]] in the evident sense and [[unit law|unital]] with respect to a given unit function called $return_X : X \to T(X)$, to be thought of as taking a value to the trivial computation that simply returns that value.
+
+### For imperative programs in functional programming
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
-[[programming language]] [[Haskell]]. But monads (as well as [[comonads]] and related structures) exist much more generally in programming languages. ([Harper](#Harper))
+[[programming language]] [[Haskell]]. (But monads, as well as [[comonads]] and related structures) exist much more generally in programming languages, an exposition is in ([Harper](#Harper))). 
 
-Specifically, a _monad_ $T$ is an operation that
+For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$, then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$. If the software is designed such that all values written to $Q$ appear on the user's sceen, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
 
-1. sends each [[type]] $A$, thought of as the collection of _values_ of type $A$, to some new type $T(A)$, that of _computations_ of type $A$;
+But monads have plenty of further uses. They are as ubiquituous (sometimes in disguise) in [[computer science]] as [[monad|monads in the sense of category theory]] are (sometimes in disguise) in [[category theory]]. This is no coincidence, see _[Relation to monads in category theory](#RelationToMonadsInCategoryTheory)_ below.
 
-1. provides for each type $A$ a [[term]] of [[function type]] $return_A : A \to T(A)$, which takes a value to the trivial computation that simply returns that value;
+### Relation to monads in category theory
+ {#RelationToMonadsInCategoryTheory}
 
-1. provides a _composition rule_ that creates from a [[term]] $t : T(A)$ and a function $f : A \to T(B)$ a term $bind t \,\, f : T(B)$, which runs or evaluates the computation $t$ and passes the result to $f$;
+In [[computer science]], a programming language may be formalised or studied by means of a [[category]], called the _[[syntactic category]]_ $\mathcal{C}$, whose 
 
-all these being required to satisfy the [[monad|usual axioms]].
+* [[objects]] $X \in \mathcal{C}$ are the [[types]] of the language, 
 
-A monad in this sense is usually required also to interact nicely with the structure of the language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category derived from it will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being [[strong monad|strong]].
+* [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $Y$ as input and returns a value of type $Y$.  
 
-Under the identification of a programming language with a category $\mathcal{C}$, a monad as above is then a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms:
+This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional programming languages]].
 
-* the $return$-term is the _unit_ of the monad;
+Under this [[relation between type theory and category theory]] monads on the type system in the sense of computer science are [[monad|monads in the sense of category theory]], being certain [[endofunctors]] 
 
-* the $bind$-operation is [[Kleisli composition]], from which the usual _multiplication_ of the monad can be recovered.
+$$
+  T : \mathcal{C} \to \mathcal{C}
+$$
+
+on the [[syntactic category]]. This [[functor]]
+
+1. sends each [[type]], hence [[object]] $X \in \mathcal{C}$ to another object $T(X)$;
+
+1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a compnent morphism [[morphism]] $return_X : X \to T(X)$;
+
+1. the _composition_ [[natural transformation]] $\mu : T \circ T \Rightarro T$ of the monad provides for each object $X$ a morpjhism $\mu_X : T(T(X)) \Rightarrow X$ whic induces the [[Kleisli composition]] by the standard formula 
+
+  $$
+    \begin{aligned}
+    bind(f,g)
+    &\coloneqq
+    (Y \stackrel{g}{\to} T(Y)) \circ_{Kleisli} (X \stackrel{f}{\to} T(Y))
+    \\
+    & \coloneqq
+    X \stackrel{f}{\to} T(Y)
+    \stackrel{T(g)}{\to} T(T(Z))
+    \stackrel{\mu(Z)}{\to}
+    T Z
+    \end{aligned}
+    \,,
+  $$
+
+Here the morphism $T(g)$ in the middle of the last line makes use of the fact that $T(-)$ is indeed a [[functor]] and hence may also be applied to morphisms / funcitons between types. The last morphism $\mu(Z)$ is the one that implements the "$T$-computation".
+
+
+The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad being a _[[strong monad]]_.
 
 
 
