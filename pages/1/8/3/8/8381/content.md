@@ -1,1 +1,8 @@
-**Deduction** is the process of passing from premises to conclusion in such a way that the truth of the former necessitates the truth of the latter. In other words, deductive logic studies what it is for an argument to be **valid**. 
+[[!redirects deduction]]
+
+**Deduction** is the process of passing from premises to conclusion in such a way that the truth of the former necessitates the truth of the latter. In other words, deductive logic studies what it is for an argument to be **valid**.
+
+
+[[!redirects deductive reasoning]]
+[[!redirects deductive inference]]
+[[!redirects deductive logic]]
