@@ -63,7 +63,7 @@ As another way of looking at this, we can keep the same objects as in $C$ but re
 +-- {: .num_defn}
 ###### Definition
 
-The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$ and morphisms $M\to N$ are the elements of $C(M,T(N))$
+The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$ and [[morphisms]] $M\to N$ are the elements of the [[hom-set]] $C(M,T(N))$, hence are [[morphisms]] of the form $M \to T(N)$ in $C$, called **Kleisli morphisms**.
 
 Composition is given by the **Kleisli composition** rule $g\circ_{Kleisli} f = \mu_P\circ T(g)\circ f$
 (as in the [[Grothendieck construction]] (here $M\stackrel{f}\to N\stackrel{g}\to P$).
@@ -101,4 +101,10 @@ In more general 2-categories the universal properties of [[Kleisli objects]] are
 [[!redirects Kleisli category]]
 [[!redirects Kleisli categories]]
 
+[[!redirects Kleisli morphism]]
+[[!redirects Kleisli function]]
+[[!redirects Kleisli morphisms]]
+[[!redirects Kleisli functions]]
+
 [[!redirects Kleisli composition]]
+
