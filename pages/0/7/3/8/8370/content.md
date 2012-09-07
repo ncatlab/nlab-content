@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,11 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -34,9 +31,9 @@ the following notions are equivalent:
 
 1. A [[proof]] of a [[proposition]]. (In [[logic]].)
 
-1. A [[program]] with output some [[type]]. (In [[type theory]] and [[computer science]].)
+2. A [[program]] with output some [[type]]. (In [[type theory]] and [[computer science]].)
 
-1. A [[generalized element]] of an [[object]]. (In [[category theory]].)
+3. A [[generalized element]] of an [[object]]. (In [[category theory]].)
 
 This is referred to as "computational trinitarianism" in ([Harper](#Harper)), where also an exposition is given.
 
@@ -45,6 +42,7 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 >Computational trinitarianism entails that any concept arising in one aspect should have meaning from the perspective of the other two.  If you arrive at an insight that has importance for logic, languages, and categories, then you may feel sure that you have elucidated an essential concept of computation--you have made an enduring scientific discovery. ([Harper](#Harper)) 
 
 [[!include types and logic - table]]
+
 
 ## References
 
@@ -58,3 +56,7 @@ An exposition that also suggests some connections to [[physics]] is in
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_, Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-174 ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
 For further references see at _[[programs as proofs]]_, _[[propositions as types]]_, and _[[relation between category theory and type theory]]_.
+
+
+[[!redirects computational trinitarianism]]
+[[!redirects computational trinity]]
