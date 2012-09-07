@@ -5,16 +5,16 @@
 
 ## Idea
 
-Inductive reasoning concerns assessments of how likely a statement is to be true, given observations of its consequences.
+Inductive reasoning concerns assessments of how likely a statement is to be true, given observations of its consequences. Unlike with [[deductive reasoning]], where once I derive $Q$ from $P$ and $P \Rightarrow Q$, my learning new facts does not affect the derivation, when I reason inductively, changes to background knowledge frequently cause me to alter my inferences. For example, from observations of ten fish caught randomly from a pond being trout, I may assess the probability that all fish in the pond are trout as $p$. But learning about the number of fish species present in other ponds nearby, may cause me to alter this assessment. It is clear that many factors may have a bearing on our assessment of a degree of belief.
 
-Not everybody holds that such reasoning occurs. [[Karl Popper]] famously claimed that "Induction, i.e. inference based on many observations, is a myth. It is neither a psychological fact, nor a fact of ordinary life, nor one of scientific procedure." (Conjectures and Refutations, p. 53).
+Not everybody holds that inductive reasoning occurs. [[Karl Popper]] famously claimed that "Induction, i.e. inference based on many observations, is a myth. It is neither a psychological fact, nor a fact of ordinary life, nor one of scientific procedure." (Conjectures and Refutations, p. 53). This claim was made primarily about the process of coming to believe in a universal law from the observation of a finite number of instances.
 
-Not to be confused with [[induction|mathematical induction]].
+Induction here is not to be confused with [[induction|mathematical induction]].
 
 
 ## As Bayesian probability
 
-A common approach to formulate an _inductive_ logic is to couch inductive reasoning in terms of [[probability theory]]. It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in such a way that they satisfy the axioms of probability theory. For example, if one's degree of belief that the next toss of a coin will show heads is $p$, then one should believe it will show tails to degree $(1 - p)$, otherwise it will be possible for someone to take betting positions making a loss certain whatever the outcome.
+A common approach to formulate an _inductive_ logic is to couch inductive reasoning in terms of [[probability theory]]. It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in such a way that they satisfy the axioms of probability theory. For example, if your degree of belief that the next toss of a coin will show heads is $p$, then you should believe it will show tails to degree $(1 - p)$, otherwise it will be possible for someone to take betting positions against you making a loss certain whatever the outcome.
 
 Using Bayes' Rule, degrees of belief can be updated on receipt of new evidence.
 
@@ -24,12 +24,22 @@ $$
 
 where $h$ is a hypothesis and $e$ is evidence.
 
-The idea here is that when $e$ is observed, one's degree of belief in $h$ should be changed from $P(h)$ to $P(h|e)$. This is known as **conditionalizing**. If $P(h|e) \gt P(h)$, we say that $e$ has provided **confirmation** for $h$.
+The idea here is that when $e$ is observed, your degree of belief in $h$ should be changed from $P(h)$ to $P(h|e)$. This is known as **conditionalizing**. If $P(h|e) \gt P(h)$, we say that $e$ has provided **confirmation** for $h$.
 
-Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning', where examples from mathematics are widely used. This surprises many, it being thought that mathematicians rely solely on [[deductive reasoning|deduction]].
+Typically, situations will involve a range of possible hypotheses, $h_1, h_2, \ldots$, and applying Bayes' Rule will allow us to compare how these fare as new observations are made. For example, comparing the fate of two hypotheses,
+
+$$
+\frac{P(h_1|e)}{P(h_2|e)} = \frac{P(e|h_1)}{P(e|h_2)}\cdot \frac{P(h_1)}{P(h_2)}.
+$$
+
+How to assign prior probalities to hypotheses when you don't think you have an exhaustive set of rivals is not obvious. When astronomers in the nineteenth century tried to account for the anomalies in the position of Mercury's perihelion, they tried out all manner of explanations: maybe there was a planet inside Mercury's orbit, maybe there was a cloud of dust surrounding the sun, maybe the power in the inverse square law ought to be (2 - $\epsilon$),... Assigning priors and changing these as evidence comes in is one thing, but it would have been wise to have reserved some of the prior for 'none of the above'.
+
+Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning', where examples from mathematics are widely used. The idea of a Bayesian account of plausible reasoning in mathematics surprises many, it being assumed that mathematicians rely solely on [[deductive reasoning|deduction]].
 
 
 ## References
+
+[[Edwin Jaynes]], 2003, _Probability Theory: The Logic of Science_, Cambridge University Press, ([web](http://omega.albany.edu:8008/JaynesBook.html)).
 
 [[George Polya]], 1954, _Mathematics and Plausible Reasoning, Volume 2:
 Patterns of Plausible Inference_, Princeton University Press.
