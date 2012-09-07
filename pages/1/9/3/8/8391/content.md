@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[logic]] and [[type theory]], _decidability_ is the property of the [[theory]] of admitting for each [[term]] a terminating procuedure for determining its [[type]].
+
+Adding certain [[axioms]] may make decidable theories undecidable. For instance [[intensional type theory]] is decidable, but adding the axiom of [[extensional equality]] (turning it into [[extensional type theory]]) makes type-checking undecidable.
+
+## References
+
+* Wikipedia, _[Decidablility (logic)](http://en.wikipedia.org/wiki/Decidability_%28logic%29)_
+
