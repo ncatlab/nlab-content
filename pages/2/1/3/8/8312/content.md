@@ -1,4 +1,12 @@
+Robert Ghrist is a mathematician who applies methods from algebraic topology to problems arising in other areas of study, for instance  in the short paper on sensor networks (below) and his [publication list](http://www.math.upenn.edu/~ghrist/preprints.html).
+
 
 * [webpage](http://www.math.upenn.edu/~ghrist/)
+
+###Publications
+
+include 
+
+* Robert Grist, Abubakr Muhammad, _Coverage and Hole-detection in sensor networks via homology_, in Proc. Information Processing in Sensor Networks, 2005.
 
 category: people
