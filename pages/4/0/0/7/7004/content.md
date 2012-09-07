@@ -22,5 +22,7 @@ Semantics is the interpretation of the [[syntax]] of a [[theory]] in a [[model]]
 
 * [[categorical semantics]]
 
+* [[denotational semantics]]
+
 
 [[!redirects semantics]]
