@@ -27,7 +27,7 @@ However, despite the existence of this term, quantum cosmology is to a large ext
 
 1. the very formulations of [[quantum mechanics]]/[[quantum field theory]] available all require, more or less explicitly and to lesser or greater extent, an _external classical observer_ to make sense of the predictions of the theory. This makes sense, in principle, for every subsystem of the [[observable universe]]. But a comprehensive theory of "quantum cosmology" would seem to need a notion of [[observables]] of quantum phenomena by "quantum observers" _internal_ to the quantum system which they observe, instead of by "classical observers" external to that quantum system.
 
-It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the second of the conceptual problems above  might have a natural solution in terms of the [[internal logic]] of a [[topos]]-incarnation of the [[space of states]] of a quantum mechanical system. One proposed formalization of this is the notion of a _[[nLab:Bohr topos]]_. While these constructions may have something to them, implications, if any, for actual quantum cosmology are not clear yet.
+It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the second of the conceptual problems above might have a natural solution in terms of the [[internal logic]] of a [[topos]]-incarnation of the [[space of states]] of a quantum mechanical system. One proposed formalization of this is the notion of a _[[nLab:Bohr topos]]_. While these constructions may have something to them, implications, if any, for actual quantum cosmology are not clear yet.
 
 ## References
 
@@ -48,7 +48,7 @@ A survey of conceptual problems in quantum cosmology, or issues regarded as such
 
 * Claus Kiefer, _Conceptual issues in quantum cosmology_ ([arXiv:gr-qc/9906100](http://arxiv.org/abs/gr-qc/9906100))
 
-Discussion of the problem of internal quantum observes with an eye towards the [[internal logic]] of a [[topos]] is in the introduction of 
+Discussion of the problem of internal quantum observers with an eye towards the [[internal logic]] of a [[topos]] is in the introduction of 
 
 * Andreas Doering, [[Chris Isham]], _A Topos Foundation for Theories of Physics: I. Formal Languages for Physics_, J.Math.Phys.49:053515,2008 ([arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060))
  {#DoeringIsham}
