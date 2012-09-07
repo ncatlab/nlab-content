@@ -25,7 +25,11 @@ In [[computer science]] a _monad_ $T$ is an operation on the [[types]] that
 
 such that this satisfies the evident coherence axioms.
 
-Under the identification of computer science with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms.
+Under the identification of computer science with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms:
+
+* the $return$-term is the _unit_ of the monad;
+
+* the $bind$-operation is [[Kleisli composition]].
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
@@ -44,12 +48,16 @@ Monads provide one way to "embed [[imperative programming]] in
 
 The technical definition can be found in...
 
-> ...where? There are many, many references of and expositions of monads in computer science. Somebody who knows a _good_ reference, please add it here. We may assume that the readers knows monads, and knows type systems. We need a reference that gives a crisp precise definition: "A monad in a typed functional programming language is ..."
+> ...where? There are many, many references of and expositions of monads in computer science. Somebody who knows a _good_ reference, please add it here. We may assume that the reader knows monads, and knows type systems. We need a reference that gives a crisp precise definition: "A monad in a typed functional programming language is ..."
 
 Expositions are in
 
 * [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
  {#Harper}
+
+The specification of monads in [[Haskell]] is at
+
+* [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
 
 [[!redirects monads (in computer science)]]
 
