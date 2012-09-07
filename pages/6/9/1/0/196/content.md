@@ -1,18 +1,40 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-A **function** is a [[homomorphism]] of [[set]]s.  A function from a set $A$ to a set $B$ is determined by giving, for each element of $A$, a specified element of $B$.  The process of passing from elements of $A$ to elements of $B$ is called [[function application]].  The set $A$ is called the [[domain]] of $f$, and $B$ is called its [[codomain]].
+In a strict sense of the term, a **function** is a [[homomorphism]] $f : S \to T$ of [[sets]].  
+
+A function from a [[set]] $A$ to a set $B$ is determined by giving, for each element of $A$, a specified element of $B$.  The process of passing from elements of $A$ to elements of $B$ is called [[function application]].  The set $A$ is called the [[domain]] of $f$, and $B$ is called its [[codomain]].
 
 A function is sometimes called a __total function__ to distinguish it from a [[partial function]].
 
 
-## Categorical perspective
+More generally, every [[morphism]] between [[objects]] in a [[category]] may be thought of as a function in a generalized sense. This generalized use of the word is wide spread (and justified) in [[type theory]], where for $S$ and $T$ two [[types]], there is a [[function type]] denoted $S \to T$ and then the expression $f : S \to T$ means that $f$ is a [[term]] of [[function type]], hence is a function. 
 
-Functions are the [[morphisms]] in the [[category]] [[Set]].  Since Set is [[cartesian closed category|cartesian closed]], they can also be regarded as elements of the [[exponential object]], which in this case is a [[function set]].
+In this generalized sense, functions between sets are the [[morphisms]] in the [[category]] [[Set]].  This is [[cartesian closed category|cartesian closed]], and the [[function type]] $S \to T$ is then the [[function set]].
+
+For more on this more general use of "function" see at _[[function type]]_.
+
+
+
 
 
 ## Foundations
