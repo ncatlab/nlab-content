@@ -17,7 +17,7 @@
 
 In [[computer science]], a _monad_  is a map that 
 
-* sends every [[type]] $X$ of some [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
+* sends every [[type]] $X$ of some given [[programming language]] to a new type $T(X)$ (called the "type of $T$-computations with values in $X$");
 
 * equipped with a rule for composing two [[functions]] of the form $f : X \to T(Y)$ (called _[[Kleisli functions]]_) and $g : Y \to T(Z)$ to a function $bind(f,g) : X \to T (Z)$ (their [[Kleisli composition]]);
 
@@ -27,9 +27,9 @@ In [[computer science]], a _monad_  is a map that
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
-[[programming language]] [[Haskell]]. (But monads, as well as [[comonads]] and related structures) exist much more generally in programming languages, an exposition is in ([Harper](#Harper))). 
+[[programming language]] [[Haskell]]. (But monads, as well as [[comonads]] and related structures, exist much more generally in programming languages; an exposition is in ([Harper](#Harper))). 
 
-For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$ that carries the structure of a [[monoid]], then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$.  The Kleisli composition of two functions $f \colon X \to Y \times Q$ and $g \colon Y \to Z \times Q$ then not only evaluates the two programs in sequence but also combines their output using the monoid operation of $Q$; so if $f x = (y,q)$ and $g y = (z,q')$ then the final result of $bind(f,g)(x)$ will be $(z, q q')$.  For example, $Q$ might be the set of strings of characters, and the monoid operation that of concatenation of strings (i.e. $Q$ is the [[free monoid]] on the type of characters).  If the software is designed such that values of type $Q$ computed in this way appear on the user's sceen, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
+For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$ that carries the structure of a [[monoid]], then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$.  The Kleisli composition of two functions $f \colon X \to Y \times Q$ and $g \colon Y \to Z \times Q$ then not only evaluates the two programs in sequence but also combines their $Q$-output using the monoid operation of $Q$; so if $f x = (y,q)$ and $g y = (z,q')$ then the final result of $bind(f,g)(x)$ will be $(z, q q')$.  For example, $Q$ might be the set of strings of characters, and the monoid operation that of concatenation of strings (i.e. $Q$ is the [[free monoid]] on the type of characters).  If the software is designed such that values of type $Q$ computed in this way appear on the user's scteen or are written to memory, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
 
 But monads have plenty of further uses. They are as ubiquituous (sometimes in disguise) in [[computer science]] as [[monad|monads in the sense of category theory]] are (sometimes in disguise) in [[category theory]]. This is no coincidence, see _[Relation to monads in category theory](#RelationToMonadsInCategoryTheory)_ below.
 
@@ -56,7 +56,7 @@ on the [[syntactic category]]. This [[functor]]
 
 1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a compnent morphism [[morphism]] $return_X : X \to T(X)$;
 
-1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow X$ whic induces the [[Kleisli composition]] by the standard formula 
+1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow X$ which induces the [[Kleisli composition]] by the formula
 
   $$
     \begin{aligned}
