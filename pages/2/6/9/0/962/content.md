@@ -165,7 +165,7 @@ Other references are
 
   * A. Douady and R. Douady, (1977) Alg&#233;bre et Th&#233;ories Galoisiennes, Cedic / F. Nathan. 
 
-*  For the link with [[locale] theory
+*  For the link with [[locale]] theory
 
    * [[Andre Joyal]] and M. Tierney, (1984), An extension of the Galois theory of Grothendieck, Mem. Amer. Math. Soc. 309.
 
