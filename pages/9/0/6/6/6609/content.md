@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,17 +23,40 @@ This is about tensor quantities like used in physics and geometry. For the notio
 
 ## Definition
 
+### General
+
 Generally, a _tensor_ is an element of a [[tensor product]].
 
-Traditionally this is considered for the following case:
+### In differential geometry
 
-for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[section]]s and $C(X)$ the [[algebra]] of [[function]]s on $X$, a **[[rank]]-$(p,q)$ tensor** on $X$ is an element of the tensor product over $C(X)$
+Traditionally this is considered in [[differential geometry]] for the following case:
+
+for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[sections]] and $C(X)$ the [[associative algebra]] of [[functions]] on $X$, a **[[rank]]-$(p,q)$ tensor** on $X$ is an element of the [[tensor product of modules]] over $C(X)$
 
 $$
-  t \in \Gamma(T X)^{\otimes_{C(X)}^p} \otimes_{C(X)} \Gamma(T^* X)^{\otimes^q}
+  t \in \Gamma(T X)^{\otimes_{C(X)}^p} \otimes_{C(X)} \Gamma(T^* X)^{\otimes^q_{C(X)}}
   \,.
 $$
+
+A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-tensor a **contravariant tensor**. 
+
+## Examples
+
+### General
+
+### In differential geometry
+
+* A [[Riemannian metric]] is a symmetric rank $(2,0)$-tensor.
+
+* A [[differential form]] of  degree $n$ is a skew-symmetric rank $(0,n)$-tensor.
+
 
 ## Related concepts
 
 * [[decomposable tensor]]
+
+[[!redirects tensor]]
+[[!redirects covariant tensor]]
+[[!redirects contravariant tensor]]
+[[!redirects covariant tensors]]
+[[!redirects contravariant tensors]]
