@@ -156,7 +156,7 @@
 
       * [[on-shell recursion]], [[KLT relations]]
 
-  * Phenomena
+  * Structural phenomena
 
     * [[universality class]]
 
@@ -171,6 +171,8 @@
     * [[Kaluza-Klein mechanism]]
 
     * [[integrable systems]]
+
+    * [[holonomic quantum fields]]
 
 
   * Types of quantum field thories
@@ -221,12 +223,11 @@
         * [[Kalb-Ramond field]]
         * [[supergravity C-field]]
         * [[RR field]]
-        * [[D'Auria-Fre formulation of supergravity]]
-        * [[BF-theory]]
-
+        * [[first-order formulation of gravity]]
+          * [[general covariance]]
+          * [[supergravity]]
+            * [[D'Auria-Fre formulation of supergravity]]
           * [[gravity as a BF-theory]]
-
-    * [[holonomic quantum fields]]
 
     * [[sigma-model]]
 
@@ -240,7 +241,7 @@
 
 * [[string theory|String Theory]]
 
-  * [[string theory methods applied elsewhere]]
+  * [[string theory results applied elsewhere]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
