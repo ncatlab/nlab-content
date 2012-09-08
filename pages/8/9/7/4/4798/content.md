@@ -67,6 +67,20 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[∞-groupoid of ∞-Lie-algebra valued forms]].
 
+## Examples
+
+### In electromagnetism
+
+(...)
+
+### In Yang-Mills theory
+
+(...)
+
+### In gravity and topological field theories
+
+* [[general covariance]]
+
 ## Related concepts
 
 * [[gauge group]], [[gauge fixing]]
