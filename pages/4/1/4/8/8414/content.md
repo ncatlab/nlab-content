@@ -1,0 +1,24 @@
+# Contents 
+* table of contents 
+{: toc}
+
+## Idea 
+
+The lexicographic order is a generalization of the order in which words are listed in a dictionary, according to the order of letters where the spelling of two words first differs. 
+
+## Definition 
+
++-- {: .num_defn} 
+###### Definition 
+Let $\{L_i\}_{i \in I}$ be a [[well-ordered set|well-ordered]] family of [[linear order|linearly ordered sets]]. The **lexicographic order** on the [[product]] of sets $L = \prod_{i \in I} L_i$ is the linear order defined as follows: if $x, y \in L$ and $x \neq y$, then $x \lt y$ iff $x_i \lt y_i$ where $i$ is the least element in the set $\{j \in I: x_j \neq y_j\}$. 
+=-- 
+
+Often this notion is extended to subsets of $\prod_{i \in I} L_i$ as well. For instance, the [[free monoid]] $S^\ast$ on a linearly ordered set $S$ can be embedded in a countable power 
+
+$$i \colon S^\ast \hookrightarrow (1 + S)^\mathbb{N} = \prod_{n \in \mathbb{N}} (1 + S)$$ 
+
+where $1 + S$ is the result of freely adjoining a bottom element $e$ to $S$, and for each finite list $(s_1, \ldots, s_k)$ we have 
+
+$$i(s_1, \ldots, s_k) = (s_1, s_2, \ldots, s_k, e, e, e, \ldots).$$ 
+
+Then the lexicographic order on $S^\ast$ is the one inherited from its embedding into the lexicographically ordered set $(1 + S)^\mathbb{N}$. 
