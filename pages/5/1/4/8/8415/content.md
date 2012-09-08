@@ -1,0 +1,17 @@
+## Idea 
+
+Traditionally, a compactification of a [[topological space]] $X$ is a [[compact space]] $C$ together with an [[embedding]] $i \colon X \to C$ as a [[dense subspace]]. In some cases, the terminology 'compactification' is applied to certain cases where $i$ is not an embedding (does not map [[homeomorphism|homeomorphically]] to its image equipped with the subspace topology), particularly in the case of [[Stone-Cech compactification]] of general topological spaces. 
+
+## Examples 
+
+* One-point compactification 
+
+* Stone-Cech compactification 
+
+* Compactification by [[topological end|ends]] 
+
+* Bohr compactification 
+
+... 
+
+
