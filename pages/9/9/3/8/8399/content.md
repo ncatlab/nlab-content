@@ -1,7 +1,25 @@
 
 
+## Idea
 
-A principle in [[gravity]]/[[general relativity]] and also [[topological quantum field theory]], etc. (...)
+In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] indicating its [[configruation space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] the [[worldvolume]] of the system.
+
+The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in this idea, and Einstein-gravity is the archtypical example of a generally covariant physical system:
+
+here, the [[configuration space]] of fields over a [[smooth manifold]] $X$ is not quite the space of [[Riemannian metrics]] on $X$, but is the [[quotient]] of this space by the action of the [[diffeomorphism group]] $Diff(X)$: two riemannian metrics $g_1$ and $g_2$ on $X$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
+
+More precisely, such a diffeomorphism is regarded as a [[gauge transformation]] between the two field configurations. The configuration space is not the naive quotient of fields by diffeomorphisms, but the [[homotopy quotient]], or _[[action groupoid]]_. The corresponding [[Lie algebroid]] is dually a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
+
+As with all [[gauge transformations]], they relate physical configurations which may be nominally different, but [[equivalence|equivalent]],.
+Thereofore _general covariance_ is simply an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
+
+A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded to model an absolute physical system (such as the [[obserbable universe]] in gravity), but a subsystem that is equipped with ambient information. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhavited by a particle accelerator.
+
+There are many other [[models (in theoretical physics)]] which 
+
+(...)
+
+## Formalization on homotopy type theory
 
 ## References
 
