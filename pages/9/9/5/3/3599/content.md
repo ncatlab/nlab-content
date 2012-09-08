@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[type theory]], a **dependent type** is a family of [[types]] which vary over the elements ([[terms]]) of some other type.  It can be regarded as a formalization of the notion of "indexed family," providing a [[structural set theory|structural]] account of families (in contrast to the [[material set theory|material]] approach which requires sets to be able to contain other sets as elements).
+In [[type theory]], a **dependent type** or **[[type]] in [[context]]** is a family or [[bundle]] of [[types]] which vary over the elements ([[terms]]) of some other type.  It can be regarded as a formalization of the notion of "indexed family," providing a [[structural set theory|structural]] account of families (in contrast to the [[material set theory|material]] approach which requires sets to be able to contain other sets as elements).
 
 Type theory with the notion of dependent types is called _[[dependent type theory]]_.
 
@@ -48,3 +48,7 @@ In [[Coq]]:
 
 
 [[!redirects dependent types]]
+
+[[!redirects type in context]]
+[[!redirects types in context]]
+[[!redirects types in contexts]]
