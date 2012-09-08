@@ -21,6 +21,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 ## Related concepts
 
+* [[Einstein-Maxwell theory]]
+
 * [[quantum field theory]]
 
   * [[gauge theory]]
