@@ -26,32 +26,65 @@ Or rather, such a diffeomorphism is a [[gauge transformation]] between the two f
 As with all [[gauge transformations]], they relate physical configurations which may be nominally different, but [[equivalence|equivalent]],.
 Thereofore _general covariance_ is an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
 
-A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded as modelling an absolute physical system (such as the [[observable universe]] in gravity), but a [[subsystem]] that is equipped with ambient [[structure]] that [[spontneous symmetry breaking|breaks]] the diffeomorphism symmetry. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhabited by a particle accelerator. This ambient structure on the spacetime $X$ breaks its general diffeomorphism invariance and hence the effective resulting theory on this background is not generally covariant (a special case of the general phenomenon of [[spontaneous symmetry breaking]]). 
+A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded as modelling an absolute physical system (such as the [[observable universe]] in gravity), but a [[subsystem]] that is equipped with ambient [[structure]] that [[spontaneous symmetry breaking|breaks]] the diffeomorphism symmetry. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhabited by a particle accelerator. This ambient structure on the spacetime $X$ breaks its general diffeomorphism invariance and hence the effective resulting theory on this background is not generally covariant (a special case of the general phenomenon of [[spontaneous symmetry breaking]]). 
 
-On the other hand, such a model consisting of background (e.g. the particle accelerator) and quantum fields propagating in it is ultimately to be understood as an approximation to a more encompassing model in which also the background is dynamical, and which is again generally covariant. Specifically for electromagnetism and Yang-Mills theory this refined generally covariant model is known as _[[Einstein-Maxwell theory]]_ or more generally _[[Einstein-Yang-Mills theory]]_.
+On the other hand, such a model consisting of background (e.g. the particle accelerator) and quantum fields propagating in it is ultimately to be understood as an approximation to a more encompassing model in which also the background is dynamical, and which is again generally covariant. Specific for electromagnetism and Yang-Mills theory this refined generally covariant model is known as _[[Einstein-Maxwell theory]]_ or more generally _[[Einstein-Yang-Mills theory]]_.
 
 The idea of general covariance has a long and convoluted history and the literature witnesses plenty of disagreement about how to interpret and formalize it in technical detail ([Norton](#Norton)). Already early arguments by [[Einstein]] himself (e.g. the "hole paradox") show that the discussion has suffered in parts from not being suitably informed by the basic [[category theory|category theoretic]] concept  of [[isomorphism]]  in the [[category]] [[Diff]] of [[smooth manifolds]]. Below in _[Formalization in homotopy type theory](#InHomotopyTypeTheory)_ we indicate a formalization of general covariance that is general, fundamental, and accurately reflects the role of the term in theoretical physics.
 
-## Formalization on homotopy type theory
+## Formalization in homotopy type theory
  {#InHomotopyTypeTheory}
 
-Let $\mathbf{H}$ be the ambient [[homotopy type theory]]/[[(∞,1)-topos]].
-(For standard applications in [[physics]] we have $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SmoothSuper∞Grpd]] or similar.)
+We discuss how to formalize the notion of general covariance in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
-For an [[object]] $\Sigma \in \mathbf{H}$ 
-supposed to represent the [[space]] underlying [[spacetime]] or the [[worldvolume]] of a [[model (in theoretical physics)]], write $\mathbf{Aut}(\Sigma) \in Grp(\mathbf{H})$ for its [[automorphism ∞-group]]. 
+### The ambient theory
+
+Write $\mathbf{H}$ for the ambient [[homotopy type theory]], or rather an [[categorical semantics|interpretation]] given by an [[(∞,1)-topos]].
+For standard applications in [[physics]] we have $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SmoothSuper∞Grpd]] or similar, but none of the following general discussion depends on a concrete choice for $\mathbf{H}$.
+
+Pick once and for all an [[object]] 
+
+$$
+  \Sigma \in \mathbf{H}
+$$
+ 
+supposed to represent the [[space]] underlying [[spacetime]] or the [[worldvolume]] of a [[model (in theoretical physics)]], 
+
+### The diffeomorphism group
+
+Write 
+
+$$
+  \mathbf{Aut}(\Sigma) \in Grp(\mathbf{H})
+$$ 
+
+for the [[automorphism ∞-group]] of $\Sigma$. As discussed there, this is the [[loop space object]] of the  [[homotopy image]]-factorization of
+
+$$
+  * \stackrel{\vdash \Sigma}{\to} Type
+  \,,
+$$
+
+hence the factorization by an  [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] followed by a [[monomorphism in an (infinity,1)-category|monomorphism]]:
+
+$$
+  * \stackrel{}{\to} \mathbf{B}\mathbf{Aut}(\Sigma) \hookrightarrow Type
+  \,.
+$$
 
 In the standard [[categorical semantics|interpretation]] of the homotopy type theory in $\mathbf{H} = $ [[Smooth∞Grpd]] $\Sigma$ could be an ordinary [[smooth manifold]] or [[orbifold]], in particular, and then $\mathbf{Aut}(\Sigma) = \mathbf{\Diff}(\Sigma)$ is the [[diffeomorphism group]] of $\Sigma$, regarded as a [[diffeological space|diffeological]] [[group object]]. In view of this archetypical example we will in the following often say _[[diffeomorphism]]_ for short instead of _auto-equivalence in $\mathbf{H}$_ and similarly refer to $\mathbf{Aut}(\Sigma)$ loosely as the _diffeomorphism group_ of $\Sigma$. But even in the specifical model $\mathbf{H} = $ [[Smooth∞Grpd]]/[[SmoothSuper∞Grpd]], $\Sigma$ can be much more general than a [[smooth manifold]] or [[supermanifold]] or [[orbifold]]. 
+
+### The context of general covariance
 
 Write then $\mathbf{B} \mathbf{Aut}(\Sigma) \in \mathbf{H}$ for the [[delooping]] of the diffeomorphism group.
 By the discussion at _[[∞-action]]_, the [[context]] of this type
 
 $$
-  \mathbf{B} \mathbf{Aut}(\Sigma) \vdash \cdots
+  \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma) \vdash \cdots
   \,,
 $$
 
-hence the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ is the context of objects in $\mathbf{H}$ equipped with $G$-[[∞-actions]] and with $G$-[[equivariance|equivariant]] [[morphisms]] between them
+hence the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ is the context of objects in $\mathbf{H}$ equipped with $G$-[[∞-actions]] and with $G$-[[equivariance|equivariant]] [[morphisms]] between them:
 
 $$
   \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}
@@ -60,7 +93,7 @@ $$
   \,.
 $$
 
-Hence a [[type in context]] $\mathbf{B}\mathbf{Aut}(\Sigma)$ is a "generally covariant type" with respect to $\Sigma$ in the sense that it transforms consistently by equivalences under diffeomorphisms of $\Sigma$. Hence $\mathbf{B}\mathbf{Aut}(\Sigma)$ _is the [[context]] of general covariance_ with respect to $\Sigma$.
+Hence a [[type in context]] $\mathbf{B}\mathbf{Aut}(\Sigma)$ is a "generally covariant type" with respect to $\Sigma$ in the sense that it transforms [[covariant functor|covariantly]] by equivalences under diffeomorphisms of $\Sigma$. Hence $\mathbf{B}\mathbf{Aut}(\Sigma)$ _is the [[context]] of general covariance_ with respect to $\Sigma$ -- in the precise formal sense.
 
 In particular, $\Sigma$ itself is canonically equipped with the defining action of $\mathbf{Aut}(\Sigma)$ on it, exhibited by the universal  [[associated ∞-bundle|associated]] $\Sigma$-[[fiber ∞-bundle]]
 
@@ -75,15 +108,168 @@ $$
   \,,
 $$
 
-where the total space $\Sigma \sslash \mathbf{Aut}(\Sigma) = \sum_{\mathbf{B}G} \rho_\Sigma$ is the [[homotopy quotient]] or [[action groupoid]]. Of $\Sigma$ by $\mathbf{Aut}(\Sigma)$. This is the type characterized by the fact that a [[function]] $f : U \to \Sigma \sslash \mathbf{Aut}(\Sigma)$ is a function to $\Sigma$ which is regarded as ([[gauge equivalence|gauge]]) [[equivalence|equivalent]] to another function to $\Sigma$ if both differ by a diffeomorphism of $\Sigma$.
+guven by the [[pullback]] of the [[universe]] $\widetilde Type \to Type$ along the [[monomorphism in an (infinity,1)-category|inclusion]] $\mathbf{B}\mathbf{Aut} \hookrightarrow Type$.
+
+Here the total space $\Sigma \sslash \mathbf{Aut}(\Sigma) = \sum_{\mathbf{B}G} \rho_\Sigma$ is the [[homotopy quotient]] or [[action groupoid]] of $\Sigma$ by $\mathbf{Aut}(\Sigma)$. This is the type characterized by the fact that a [[function]] $f : U \to \Sigma \sslash \mathbf{Aut}(\Sigma)$ is a function to $\Sigma$ which is regarded as ([[gauge equivalence|gauge]]) [[equivalence|equivalent]] to another function to $\Sigma$ if both differ by postcomposition with a diffeomorphism of $\Sigma$.
+
+
+### Generally covariant field configuration spaces
+
+Let 
+
+$$
+  \mathbf{Fields} \in \mathbf{H}
+$$ 
+
+be an object that represent the [[moduli ∞-stack]] of field configuration on $\Sigma$ for the given [[model (in theoretical physics)]]. For instance for $G \in Grp(\mathbf{H})$ an [[∞-group]] and $\mathbf{H}$ a [[cohesive homotopy type theory]], we could have $\mathbf{Fields} = \mathbf{B}G_{conn}$ the moduli for a choice of $G$-[[connection on an ∞-bundle|principel ∞-connection]], being the moduli for $G$-([[higher gauge theory|higher]])[[gauge fields]]. For general $\mathbf{Fields} = X \in \mathbf{H}$ we may always regard $X$ as the [[target space]] of a [[sigma-model]].
+
+Then the [[internal hom]] 
+
+$$
+  [\Sigma, \mathbf{Fields}] \in \mathbf{H}
+$$ 
+
+hence the [[function type]]
+
+$$
+  \vdash \Sigma \to \mathbf{Fields} : Type
+$$
+
+is the _naive_ [[configuration space]] of the model. This is not generally covariant, precisely so by the above definition: it is not in the generally covariant context $\mathbf{H}_{/\mathbf{B} \mathbf{Aut}(\Sigma)}$.
+
+But by the [[inverse image]] of the $\mathbf{B}\mathbf{Aut}(\Sigma)$-[[dependent product]] [[étale geometric morphism]]
+
+$$
+  \mathbf{H}_{/\mathbf{B}G}
+  \stackrel{\overset{\sum_{\mathbf{B}\mathbf{Aut}(\Sigma)}}{\to}}{
+  \stackrel{\overset{}{\leftarrow}}{\underset{\prod_{\mathbf{B}\mathbf{Aut}(\Sigma)}}{\to}}}
+  \mathbf{H}
+$$
+ 
+the moduli type $\mathbf{Fields}$ is freely moved to the general covariant context, where it is regaded as equipped with the [trivial ∞-action](infinity-action#TrivialAction). Accordingly we will write just $\mathbf{Fields} \in \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$, with that action understood.
+
+We may then form the _configuration space of fields in the generally covariant context_ precisely by forming the internal space of fields
+
+$$
+  \phi : \Sigma \sslash \mathbf{Aut}(\Sigma) \to \mathbf{Fields}
+$$
+
+in the general covariant context by
+
+$$
+  \mathbf{Conf} 
+    \coloneqq
+  [\Sigma \sslash \mathbf{Aut}(\Sigma), \mathbf{Fields}]
+  \in
+  \mathbf{H}_{/\mathbf{Aut}(\Sigma)}
+  \,,
+$$
+
+hence by forming the [[type in context]]
+
+$$
+  \Sigma : \mathbf{B} \mathbf{Aut}(\Sigma)
+  \vdash
+  \Sigma \sslassh \mathbf{Aut}(\Sigma) \to X
+  : Type
+  \,.
+$$
 
 
 
+The central observation now is (discussed at [infinity-action -- Examples -- General covariance](infinity-action#GeneralCovariance)) that:
+
+$$
+  \mathbf{Conf} \simeq [\Sigma,\mathbf{Fields}] \sslash \mathbf{Aut}(\Sigma)
+$$
+
+is the [[homotopy quotient]] of the naive fields $\in \mathbf{Fields}(\Sigma)$ by the action of the [[diffeomorphism group]], exhibiting a [[gauge equivalence]] between any two field configurations that differ after pullback along a diffeomorphism.
+
+
+
+### Generally covariant field of gravity
+
+Specifically for pure [[gravity]], $\mathbf{H} = $ [[Smooth∞Grpd]] and  the fields are [[orthogonal structures]] ([[Riemannian metrics]]) on a [[smooth manifold]] $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow \mathbf{H}$ of [[dimension]] $n$. As discussed at _[[orthogonal structure]]_ and _[[vielbein]]_, we are to regard $\Sigma$ in the [[context]] of the [[delooping]] of the [[general linear group]] $GL(n) \in Grp(\mathbf{H})$ via its [[tangent bundle]]
+
+$$
+  (\Sigma \stackrel{T \Sigma}{\to} \mathbf{B} GL(n))
+  \in
+  \mathbf{H}_{/\mathbf{B} GL(n)}
+  \,.
+$$
+
+(A detailed exposition of this and the following, with further pointers, is in ([Schreiber, ESI lectures](#SchreiberLectures)).)
+
+Write
+
+$$
+  (\mathbf{B} O(n) \stackrel{\mathbf{orth}}{\to} \mathbf{B} GL(n)) 
+  \in 
+  \mathbf{H}_{/\mathbf{B}GL(n)}
+$$
+
+for the delooping of the inclusion of the [[maximal compact subgroup]], the [[orthogonal group]] $O(n)$. Then the [[moduli stack]] of [[vielbein]] fields /  [[Riemannian metrics]] on $\Sigma$ is
+
+$$
+  [T \Sigma, \mathbf{orth}] \in \mathbf{H}_{/\mathbf{B}GL(n)}
+  \,.
+$$
+
+This is still the naive space of fields, not generally covariant. So we next pass again to the general covariant $\mathbf{B}\mathbf{Aut}(\Sigma)$-[[context]] and form the correct generally covariant space of fields, being the [[type in context]] $\mathbf{B} \mathbf{Aut}(T \Sigma)$ given by
+
+$$
+  T \Sigma : \mathbf{B} \mathbf{Aut}(T \Sigma)
+  \vdash 
+  T \Sigma \sslash \mathbf{Aut}(T \Sigma)
+  \to 
+  \mathbf{orth} : Type
+  \,.
+$$
+
+By the above general fact this yields the configuration space
+
+$$
+  \mathbf{Conf}
+  \coloneqq
+  \sum_{\mathbf{B}\mathbf{Aut}(T \Sigma)} [T \Sigma \sslash \mathbf{Aut}(T \Sigma), \mathbf{orth}]_{\mathbf{B} Aut(T \Sigma)}
+  \simeq
+  [T \Sigma, \mathbf{orth}] \sslash \mathbf{Aut}(T \Sigma)
+  \in \mathbf{H}
+  \,,
+$$
+
+which is the integrated BRST complex of Einstein gravity field configurations modulo diffeomorphism ghosts: the [[smooth infinity-groupoid|smooth groupoid]] whose 
+
+* [[objects]] are [[vielbein]] fields $e$ on $X$;
+
+* [[morphisms]] are
+
+  1. orthogonal frame transformations of the fibers of the tangent bundle;
+
+  1. general diffeomorphisms of the base $\Sigma$.
 
 
 
 ## References
 
+### General
+
+An attempt at a fairly comprehensive review of the history of the idea of general covariance is in
+
 * J. D. Norton, _General covariance and the foundations of general relativity: eight decades of dispute_, Rep. Prog. Phys **56** (1993), ([original pdf](http://www.pitt.edu/~jdnorton/papers/decades.pdf), [reprint pdf](http://www.pitt.edu/~jdnorton/papers/decades_re-set.pdf))
  {#Norton}
+
+For actual technical traditional discussion see the references at _[[gravity]]_ and _[[general relativity]]_.
+
+### In homotopy type theory
+
+Background and context for the above formalization of [[classical field theory|classical]]/[[quantum field theory]] in [[homotopy type theory]] see
+
+* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures at _[ESI program on K-theory and quantum fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
+ {#SchreiberLectures}
+
+* [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_ (2012)
+ {#SchreiberShulman}
+
+See also _[[higher category theory and physics]]_.
 
