@@ -25,6 +25,8 @@ The _lexicographic order_ is a generalization of the order in which words are li
 Let $\{L_i\}_{i \in I}$ be a [[well-ordered set|well-ordered]] family of [[linear order|linearly ordered sets]]. The **lexicographic order** on the [[product]] of sets $L = \prod_{i \in I} L_i$ is the [[linear order]] defined as follows: if $x, y \in L$ and $x \neq y$, then $x \lt y$ iff $x_i \lt y_i$ where $i$ is the least element in the set $\{j \in I: x_j \neq y_j\}$. 
 =-- 
 
+While this notion is most often seen for linear orders, it can be applied also toward more general [[relations]]. For example, one might apply the construction to sets equipped with a transitive relation $\lt$, dropping the [[linear order|trichotomy assumption]]. 
+
 Often this notion is extended to subsets of $\prod_{i \in I} L_i$ as well. For instance, the [[free monoid]] $S^\ast$ on a linearly ordered set $S$ can be embedded in a countable power 
 
 $$i \colon S^\ast \hookrightarrow (1 + S)^\mathbb{N} = \prod_{n \in \mathbb{N}} (1 + S)$$ 
