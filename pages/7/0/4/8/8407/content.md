@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[model (in theoretical physics)]] for [[gravity]] coupled to [[Yang-Mills theory]].
+
+## Related concepts
+
+* [[Einstein-Maxwell theory]]
+
+
