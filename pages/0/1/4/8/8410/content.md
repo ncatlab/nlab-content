@@ -1,0 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+## Idea
+
+Before [[mathematics]] was found to be the language of [[physics]] the study of natural [[phenomenology]] was pursued by more informal means, and went by the name _natural [[philosophy]]_.
+
+
+
