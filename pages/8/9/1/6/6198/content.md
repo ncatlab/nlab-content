@@ -9,6 +9,14 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] there is the notion of a _physical system_, the totality of all the entities and processes -- its _mechanics_ -- regarded as being part of the physics under discussion. 
+
 
 ## Types of mechanical systems
 
