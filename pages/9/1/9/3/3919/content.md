@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -25,6 +25,9 @@ The first point deserves some elaboration: The curved manifolds under considerat
 Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
 While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
 
+## Related concepts
+
+* [[general covariance]]
 
 ## References
 
