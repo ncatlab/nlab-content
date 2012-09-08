@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Albert_Einstein)
+
+category: people
+
+[[!redirects Einstein]]
