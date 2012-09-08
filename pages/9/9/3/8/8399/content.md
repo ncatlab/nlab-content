@@ -1,27 +1,44 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] indicating its [[configruation space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] the [[worldvolume]] of the system.
+In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] indicating its [[configuration space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] the [[worldvolume]] of the system.
 
-The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in this idea, and Einstein-gravity is the archtypical example of a generally covariant physical system:
+The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in this or related ideas, and Einstein-gravity is the archtypical example of a generally covariant physical system:
 
-here, the [[configuration space]] of fields over a [[smooth manifold]] $X$ is not quite the space of [[Riemannian metrics]] on $X$, but is the [[quotient]] of this space by the action of the [[diffeomorphism group]] $Diff(X)$: two riemannian metrics $g_1$ and $g_2$ on $X$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
+here, the [[configuration space]] of fields over a [[smooth manifold]] $X$ is not quite the space of [[Riemannian metrics]] on $X$ itself,, but is the [[quotient]] of this space by the [[action]] of the [[diffeomorphism group]] $Diff(X)$: two Riemannian metrics $g_1$ and $g_2$ on $X$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
 
-More precisely, such a diffeomorphism is regarded as a [[gauge transformation]] between the two field configurations. The configuration space is not the naive quotient of fields by diffeomorphisms, but the [[homotopy quotient]], or _[[action groupoid]]_. The corresponding [[Lie algebroid]] is dually a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
+Or rather, such a diffeomorphism is a [[gauge transformation]] between the two field configurations. The configuration space is not the naive [[quotient]] of fields by diffeomorphisms, but is the [[homotopy quotient]], or _[[action groupoid]]_. In the physics literature this action groupoid is most familiar in its [[infinitesimal cohesion|infinitesimal approximation]], the corresponding [[Lie algebroid]], whose formal dual is a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
 
 As with all [[gauge transformations]], they relate physical configurations which may be nominally different, but [[equivalence|equivalent]],.
-Thereofore _general covariance_ is simply an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
+Thereofore _general covariance_ is an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
 
-A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded to model an absolute physical system (such as the [[obserbable universe]] in gravity), but a subsystem that is equipped with ambient information. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhavited by a particle accelerator.
+A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded to model an absolute physical system (such as the [[obserbable universe]] in gravity), but a subsystem that is equipped with ambient [[structure]] that [[symmetry breaking|breaks]] the diffeomorphism symmetry. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhabited by a particle accelerator. This ambient structure on the spacetime $X$ breaks its general diffeomorphism invariance and hence the effective resulting theory on this background is not generally covariant (a special case of the general phenomenon of [[spontaneous symmetry breaking]]). 
 
-There are many other [[models (in theoretical physics)]] which 
+On the other hand, such a model of background (e.g. particle accelerator) and quantum field propagating in it is ultimately to be understood as an approximation to a more encompassing model in which also the background is dynamical, and which is again generally covariant. Specifically for electromagnetism and Yang-Mills theory this refined generally covariant model is known as _[[Einstein-Maxwell theory]]_ or more generally _[[Einstein Yang-Mills theory]]_.
 
-(...)
+The idea of general covariance has a long and convoluted history and the literature witnesses plenty of disagreement about how to interpret and formalize it in technical detail ([Norton](#Norton)). Already early arguments by [[Einstein]] himself (e.g. the "hole paradox") show that the discussion has suffered in parts from not being suitably informed by the basic [[category theory|category theoretic]] concept  of [[isomorphism]]  in the [[category]] [[Diff]] of [[smooth manifolds]]. Below in _[Formalization in homotopy type theory](#InHomotopyTypeTheory)_ we indicate a formalization of general covariance that is general, fundamental, and accurately reflects the role of the term in theoretical physics.
 
 ## Formalization on homotopy type theory
+ {#InHomotopyTypeTheory}
+
+(...)
 
 ## References
 
 * J. D. Norton, _General covariance and the foundations of general relativity: eight decades of dispute_, Rep. Prog. Phys **56** (1993), ([original pdf](http://www.pitt.edu/~jdnorton/papers/decades.pdf), [reprint pdf](http://www.pitt.edu/~jdnorton/papers/decades_re-set.pdf))
+ {#Norton}
 
