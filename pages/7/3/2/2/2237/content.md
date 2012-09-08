@@ -168,7 +168,9 @@ instead of just looking at $\Omega^n = Map(S^n, -)$, we look at $\Omega^V = Map(
 $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-graded theory.  For instance, the torsion that popped up in odd places before can now be seen as arising by "shifting" of something in the cohomology of a point in an "off-integer dimension," which was invisible to the integer-graded theory.  Also there is a [[Poincare duality]] for $G$-manifolds: if $M$ is a $G$-manifold, then we can embed it in a representation $V$ (generally not a trivial one!) and by [[Thom space]] arguments, obtain a Poincare duality theorem involving a dimension shift of $\alpha$, where $\alpha$ is generally not an integer (and, apparently, not even uniquely determined by $M$!).  Unfortunately, however, $RO(G)$-graded Bredon cohomology is kind of hard to compute.
 
 
+## Related concepts
 
+* [[equivariance]]
 
 ## References
 
