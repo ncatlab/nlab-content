@@ -58,3 +58,5 @@ It is generally understood that models are approximations to reality. The prover
 [[!redirects model (in particle phyiscs)]]
 
 [[!redirects model (in particle physics)]]
+
+[[!redirects models (in theoretical physics)]]
