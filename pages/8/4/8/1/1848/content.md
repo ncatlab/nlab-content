@@ -1,19 +1,71 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
 
-A [[topological space]] is __second-countable__ if there exists a [[countable set|countable]] [[basis for the topology|basis for its topology]].
+# Second-countable spaces
+* table of contents
+{: toc}
 
-Similarly, a [[locale]] is __second-countable__ if there is a countable set $B$ of opens such that every open $G$ is a [[join]] of some [[subset]] of $B$.  In that case, we have
+## Idea
+
+A [[space]] (such as a [[topological space]]) is _second-countable_ if, in a certain sense, there is only a [[countable set|countable]] amount of information globally in its topology.  (Change 'globally' to 'locally' to get a [[first-countable space]].)
+
+
+## Definitions
+
++-- {: .num_defn}
+###### Definition
+
+A [[topological space]] is __second-countable__ if it has a [[countable set|countable]] [[topological basis|basis]] $B$.
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A [[locale]] is __second-countable__ if there is a [[countable set]] $B$ of [[open subspaces]] (elements of the [[frame of opens]]) such that every open $G$ is a [[join]] of some [[subset]] of $B$.  That is, we have
 $$ G = \bigvee \{ U\colon B \;|\; U \subseteq G \} .$$
+=--
+
+
+## Generalisations
+
+The __weight__ of a space is the [[minimum]] of the [[cardinalities]] of the possible bases $B$.  We are implicitly using the [[axiom of choice]] here, to suppose that this set of cardinalities (which really is a [[small set]] because bounded above by the number of open subspaces, and [[inhabited set|inhabited]] by this number as well) has a minimum.  But without Choice, we can still consider this collection of cardinalities.
+
+Then a second-countable space is simply one with a countable weight.
+
+
+## Examples
+
+Any [[separable space|space]] [[first-countable space|first-countable]] space must be second-countable.  (Conversely, any second-countable space must be first-countable.)  In particular, separable [[metric spaces]] are second-countable.
+
+A [[topological manifold]] is second-countable iff it is [[paracompact space|paracompact]] and has countably many [[connected components]].
+
+
+## Related concepts
+
+* [[first-countable space]]
+* **second-countable space**
+* [[separable space]]
 
 
 [[!redirects second-countable space]]
 [[!redirects second-countable spaces]]
 [[!redirects second countable space]]
 [[!redirects second countable spaces]]
+
 [[!redirects second-countable topological space]]
 [[!redirects second-countable topological spaces]]
 [[!redirects second countable topological space]]
 [[!redirects second countable topological spaces]]
+
+[[!redirects second-countable locale]]
+[[!redirects second-countable locales]]
+[[!redirects second countable locale]]
+[[!redirects second countable locales]]
