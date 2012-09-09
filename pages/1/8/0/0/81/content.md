@@ -1,21 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Physics#
+# Physics
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 _Physics_ studies the constituting mechanisms of the [[observable universe]]. 
+
 Since [[Newton]] laid the foundations of physics proper, distinguishing it from the earlier _[[natural philosophy]]_, physics is specifically concerned with modelling observed [[phenomenology]] by "physical laws" formulated in the language of [[mathematics]]. The relation to mathematics is typically the stronger the more one turns to _fundamental physics_ (e.g. [[fundamental particles]]) and away from [[complex systems]] or else the more one coarse-grains irregular complex behaviour and studies [[statistical physics|statistical]] aspects in [[statistical physics]].
 
 The present most fundamental understanding of the physics of the observable universe is summarized in [[models (in theoretical physics)]] called
@@ -32,9 +33,10 @@ which are formulated in the two fundamental [[theories]] called
 
 which in turn are both instances of the general framework of [[classical field theory|classical]]/[[quantum field theory]].
 
-Theoretical physics also studies lots of approximate, hyothetical "toy"- and test-case [[models (in theoretical physics)]], exploring the "space of physical theories", and parts of [[mathematical physics]] overlaps with pure [[mathematics]], the relation to physics only serving as a motivation that may or may not eventually lead back to statements about [[phenomenology]]. 
+Theoretical physics also studies lots of approximate, hypothetical "toy"- and test-case [[models (in theoretical physics)]], exploring the "space of physical theories", and parts of [[mathematical physics]] overlaps with pure [[mathematics]], the relation to physics only serving as a motivation that may or may not eventually lead back to statements about [[phenomenology]]. 
 
-## Avaialble entries
+
+## Avaialable entries
 
 [[!include physicscontents]]
 
@@ -43,4 +45,3 @@ Theoretical physics also studies lots of approximate, hyothetical "toy"- and tes
 [[!redirects physics]]
 
 [[!redirects fundamental physics]]
-
