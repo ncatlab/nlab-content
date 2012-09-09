@@ -185,7 +185,9 @@ Which definition is 'better'? 'Commuting squares', i.e., the first version, is c
 
 One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can, of course, be used to make a double complex with anticommutative squares into a double complex with commutative squares.
 
-## Total complex of a double complex
+## Properties
+
+### Total complex of a double complex
 
 The **[[total complex]]** of a double complex (under the convention that squares commute) is
 
@@ -209,6 +211,24 @@ $$
 $$
 
 Note that these two coincide when the set of non-zero objects $X_{n,m}$ such that $n + m = k$ is finite, for example, when $X$ is a first quadrant double complex.
+
+### Fundamental lemmas
+
+There is series of basic [[lemmas]] in [[homological algebra]] 
+which determine the horizontal/vertical [[homology groups]] of a double complex in some row or column from exactness information in other columns.
+The most fundamental of these is maybe the 
+
+* [[salamander lemma]]
+
+from which a series of others follow:
+
+* [[snake lemma]] (see also [[connecting homomorphism]] and [[long exact sequence in homology]])
+
+* [[3x3 lemma]]
+
+* [[5-lemma]]
+
+* [[horseshoe lemma]] .
 
 [[!redirects double complexes]]
 
