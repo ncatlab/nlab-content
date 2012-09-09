@@ -1,6 +1,14 @@
+_(This article is on 'compactification' as used in topology, adding points to a space to make it compact. For the sense of 'compactification' as used by physicists, see [[Kaluza-Klein mechanism]].)_ 
+
+# Contents 
+* table of contents 
+{: toc}
+
 ## Idea 
 
 Traditionally, a compactification of a [[topological space]] $X$ is a [[compact space]] $C$ together with an [[embedding]] $i \colon X \to C$ as a [[dense subspace]]. In some cases, the terminology 'compactification' is applied to certain cases where $i$ is not an embedding (does not map [[homeomorphism|homeomorphically]] to its image equipped with the subspace topology), particularly in the case of [[Stone-Cech compactification]] of general topological spaces. 
+
+A useful intuition throughout is that a 'compactification' is a process of adding "ideal points at infinity" in some way to "complete" a space. (Compact [[separation axioms|regular]] spaces $X$ themselves being "complete" in a technical sense: there is a unique [[uniform space|uniform structure]] whose uniform topology is the topology on $X$, and $X$ is complete with respect to this uniformity.) 
 
 ## Examples 
 
