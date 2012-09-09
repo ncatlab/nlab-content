@@ -15,11 +15,11 @@
 
 ## Idea
 
-The _salamander lemma_ is a fundamental lemma in [[homological algebra]]. Other fundamental lemmas of homological algebra are direct consequence of this lemma, such as the [[3x3 lemma]], the [[snake lemma]] and the [[long exact sequence in cohomology]] deriving from a [[short exact sequence]].
+The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the [[homology groups]] of a [[double complex]]. Other fundamental lemmas of homological algebra are direct consequence of this lemma, such as the [[3x3 lemma]], the [[snake lemma]] and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
+
+These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent:
 
 > [[diagram chasing|Diagram-chasing arguments]] frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
-
-The salamander lemma can remedy this situation.
 
 ## The Salamander lemma
 
@@ -31,7 +31,33 @@ The Salamander lemma will be a statement about the exactness of a sequence natur
 +-- {: .num_defn}
 ###### Definition
 
-For $X_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] and $A = X_{k l}$ any [[object]] in the double complex (at some position $k,l$, which does not matter in the following), this is the source and target of [[morphisms]] to be denoted as follows:
+Let  $A_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] $\mathcal{A}$, hence a [[chain complex]] of chain complexes $A_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$, hence a [[diagram]] of the form
+
+$$
+  \array{
+   && \vdots && \vdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^{vert}}} && \downarrow^{\mathrlap{\partial^{vert}}}
+   \\
+    \cdots &\to & 
+    A_{n,m} &\stackrel{\partial^{hor}}{\to}& A_{n-1,m}
+    & \to & \cdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^{vert}}} && \downarrow^{\mathrlap{\partial^{vert}}}
+   \\
+    \cdots &\to & 
+    A_{n,m-1} &\stackrel{\partial^{hor}}{\to}& A_{n-1,m-1}
+    & \to & \cdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^{vert}}} && \downarrow^{\mathrlap{\partial^{vert}}}
+   \\
+   && \vdots && \vdots
+  }
+$$
+
+where $\partial^{hor} \circ \partial^{hor} = 0$, where $\partial^{vert} \circ \partial^{vert} = 0$ and where all squares commute, $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$.
+
+Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any fixed position $k,l$. This is the source and target of horizontal, vertical and digonal (composite of horizontal and vertical) [[morphisms]] to be denoted as follows:
 
 $$
   \array{
@@ -50,64 +76,84 @@ $$
 
 Define
 
-* $X^{hor} \coloneqq ker (\partial^{hor}_{out}) / im (\partial^{hor}_{in})$ -- the horizontal [[chain homology]] at $X$;
+* $A^{hor} \coloneqq ker (\partial^{hor}_{out}) / im (\partial^{hor}_{in})$ -- the horizontal [[chain homology]] at $X$;
 
-* $X^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in})$ -- the vertical [[chain homology]] at $X$;
+* $A^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in})$ -- the vertical [[chain homology]] at $X$;
 
 * ${}^{\Box}X \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})}$ -- the "receptor" at $X$;
 
-* $X_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor".
+* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor".
 
 =--
 
 +-- {: .num_lemma #Intramural}
 ###### Lemma
 
-The [[identity]] morphism on $X$ as above induces a [[commuting diagram]]
+The [[identity]] morphism on $A$ induces a [[commuting diagram]]
 
 $$
   \array{
-    && {}^\Box X
+    && {}^\Box A
     \\
     & \swarrow && \searrow
     \\
-    X^{vert} &&&& X^{hor}
+    A^{vert} &&&& A^{hor}
     \\
     & \searrow && \swarrow
     \\
-    && X_\Box
+    && A_\Box
     \,,
   }
 $$
 
-whose morphisms are to be called the **intramural maps** of $X$.
+whose morphisms are to be called the **intramural maps** of $A$.
 
 =--
 
 +-- {: .num_lemma #Extramural}
 ###### Lemma
 
-For $f : X \to Y$ any horizontal morphism in the double complex, there is a canonically induced morphism
+For $\partial^{hor} : A \to B$ any horizontal morphism in the double complex, there is a canonically induced morphism
 
 $$
-  X_\Box \to {}^\Box Y
+  A_\Box \to {}^\Box B
 $$
 
 to be called the **extramural map associated with $f$**. 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+An $[a] \in A_{\Box}$ is represented by an $a \in A$ for which $\partial^{vert}\partial^{hor} a = 0$. The claim is that $\partial^{hor} a$ then represents an element in ${}^{\Box}B$ which is independent of the choice of representative:
+
+* We have $\partial^{vert} (\partial^{hor} a) = 0$ by assumption on $a$ and $\partial^{hor} (\partial^{hor} a) = 0$ by the chain complex property. Hence $\partial^{hor} a$ represents an element in ${}^{\Box} B$.
+
+* If $a = \partial^{hor} c$ then $\partial^{hor} a = 0$ and if $a = \partial^{vert} c$ then $\partial^{hor} a = \partial^{hor} \partial^{vert}c \in im(\partial^{diag})$ hence is 0 in ${}^{\Box} B$.
+
+=--
+
+
 +-- {: .num_lemma}
 ###### Lemma
 
-For $f : X \to Y$ any horizontal morphism in the double complex, the canonically induced morphism $X^{vert} \to Y^{vert}$ on vertical homology is the composite of the above intramural and extramural maps:
+For $\partial^{hor} : A \to B$ any horizontal morphism in the double complex, the canonically induced morphism $A^{vert} \to B^{vert}$ on vertical homology is the composite of the above intramural and extramural maps:
 
 $$
-  X^{vert} \to X_{\Box} \to {}^\Box Y \to Y^{vert}
+  A^{vert} \to A_{\Box} \to {}^\Box B \to B^{vert}
   \,.
 $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By the above, on representatives the first map is the identity, the second is $\partial^{hor}$ and the third again the identity. Hence the total map is given on representative by $\partial^{hor}$. 
+
+=--
+
 
 ### Statement 
 
@@ -171,6 +217,18 @@ $$
 is an [[isomorphism]].
 
 =--
+
+## Related concepts
+
+The salamander lemma implies a series of related lemmas that are fundamental in [[homological algebra]].
+
+* [[snake lemma]] (see also [[connecting homomorphism]] and [[long exact sequence in homology]])
+
+* [[3x3 lemma]]
+
+* [[5-lemma]]
+
+* [[horseshoe lemma]]  
 
 
 ## References
