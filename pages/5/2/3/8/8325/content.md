@@ -1,6 +1,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
 
+## Related entries
+
+* _[[Science of Logic]]_
+
+
 category: people
 
 [[!redirects Georg Wilhelm Friedrich Hegel]]
