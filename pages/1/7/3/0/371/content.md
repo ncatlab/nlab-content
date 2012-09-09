@@ -19,7 +19,7 @@
 
 A **zero object**, or **null object**, is an [[object]] of a [[category]] that is both an [[initial object]] and a [[terminal object]].  Equivalently, a category has a zero object iff it has an initial object $\bot$ and a terminal object $\top$ and the unique morphism $\bot\to\top$ is an [[isomorphism]].  A category with a zero object is sometimes called a [[pointed category]].
 
-
+There is also a notion of **zero object** in algebra which does not always coincide with the category-theoretic terminology. For example the zero ring $\{0\}$ is not initial object in the category of uitary rings (this is $\mathbb{Z}$); but it is terminal.
 ## Examples
 
 +-- {: .un_prop}
