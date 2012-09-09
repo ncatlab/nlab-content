@@ -66,3 +66,5 @@ A comprehensive definition of [[categorical semantics]] of contexts in [[homotop
 
 [[!redirects context]]
 [[!redirects contexts]]
+
+[[!redirects context enlargement]]
