@@ -89,18 +89,20 @@ Note that any simulation of $S$ in $T$ must be unique.  Thus, well-ordered sets 
 
 ## Successor
 
-A well-ordered set $S$ comes equipped with a **[[successor]]** map
+A well-ordered set $S$ comes equipped with a **[[successor]]**, which is a [[partial function|partial map]] 
 $
   succ\colon S \to S  
-  \,.
+  \,
 $
-this sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$.
+that sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$. 
 
-+-- {: .query}
-This need not exist; in particular, $S_a$ may be empty.  What do we really want to say here?  (We could talk about the successor *of* a well-ordered set.)  ---Toby
++-- {: .num_defn} 
+###### Definition 
+A **limit** well-order is a well-order $S$ whose successor map is a [[total function]]. 
+=-- 
 
-[[Mike Shulman|Mike]]: Yeah, or we could say that successor is a partial function.  One definition of a limit ordinal is one on which successor is totally defined.
-=--
+Similarly, one may define a successor [[functor]] on the [[category]] of well-ordered sets, taking $S$ to the well-order obtained by freely adjoining a (new) top element to $S$. 
+
 
 
 [[!redirects well order]]
