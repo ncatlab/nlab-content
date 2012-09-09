@@ -73,10 +73,20 @@ One can now show that concatenation is associative with the empty list as identi
 
 ### By general abstract nonsense
 
-In the course of proving that the category [[Mon]] of monoids is a [[complete category]], one normally shows that the [[forgetful functor]] $U$ (from $Mon$ to the category [[Set]] of sets) preserves all [[limits]].  Thus, the [[adjoint functor theorem]] defines a [[left adjoint]] to $U$ if a size condition is met; this adjoint is the functor $*$ that takes a set to its free monoid $S^*$.
+To prove that the category [[Mon]] of monoids is a [[complete category]], one normally shows that the [[forgetful functor]] $U$ (from $Mon$ to the category [[Set]] of sets) preserves all [[limits]].  Then, the [[adjoint functor theorem]] defines a [[left adjoint]] to $U$ if a size condition is met; this adjoint is the functor $*$ that takes a set to its free monoid $S^*$.
 
-To be sure, meeting the solution set condition basically requires starting the constructions in one of the other definitions above; but the proofs may all be thrown onto the adjoint functor theorem.
+To be sure, meeting the solution set condition basically requires starting the constructions in one of the other definitions above; but the proofs may all be thrown onto the adjoint functor theorem. 
 
+An easier approach is given in the following general theorem, which applies to more general [monoids in a monoidal category](http://ncatlab.org/nlab/show/monoid#in_a_monoidal_category_18): 
+
++-- {: .num_theorem}
+###### Theorem 
+Suppose $C$ is a monoidal category with countable coproducts for which the tensor product distributes over countable coproducts (for example, a [[cocomplete category|cocomplete]] [[monoidal biclosed category]]). Then a left adjoint to the forgetful functor $Mon(C) \to C$ exists, taking an object $c$ to 
+$$\sum_{n \geq 0} c^{\otimes n},$$ 
+which thereby becomes the free monoid on $C$. 
+=-- 
+
+This applies immediately to $C = Set$, as this is a cocomplete [[cartesian closed category]]. 
 
 ## Examples
 
