@@ -148,7 +148,7 @@ $$
   }
 $$
 
-for $0$ the [[zero object]]. By the <a href="http://ncatlab.org/nlab/show/pullback#Pasting">pasting law</a> for pullbacks we find that also the left square in 
+for $0$ the (algebraic) [[zero object]]. By the <a href="http://ncatlab.org/nlab/show/pullback#Pasting">pasting law</a> for pullbacks we find that also the left square in 
 
 $$
   \array{
