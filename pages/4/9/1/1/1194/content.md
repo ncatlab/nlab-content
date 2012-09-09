@@ -307,7 +307,7 @@ By the way, it should be noted that there are various technical difficulties in 
 
 It's hard to give a universal definition of "a type theory," but the following very general setup covers most cases.  
 
-Generally, a type theory is formulated by the rules called _[[natural deduction]]_, which decalre the nature of each kind of type by a 4-step rule:
+Generally, a type theory is formulated by the rules called _[[natural deduction]]_, which declare the nature of each kind of type by a 4-step rule:
 
 1. **type-formation rules**, which say on which basis a new [[type]] can be introduced
 
