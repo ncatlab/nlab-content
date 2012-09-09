@@ -302,9 +302,22 @@ Thus, if $T$ is a type theory and $C$ a category with corresponding structure, i
 By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to either make type theories into a 2-category as well, or consider strict categorical structures that form a 1-category.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*; see [[categorical model of dependent types]].
 
 
-## Syntax of type theory {#Syntax}
+## Syntax of type theory 
+ {#Syntax}
 
-It's hard to give a universal definition of "a type theory," but the following very general setup covers most cases.  Note that in general, the following definitions are mutually [[recursion|recursive]].
+It's hard to give a universal definition of "a type theory," but the following very general setup covers most cases.  
+
+Generally, a type theory is formulated by the rules called _[[natural deduction]]_, which decalre the nature of each kind of type by a 4-step rule:
+
+1. **type-formation rules**, which say on which basis a new [[type]] can be introduced
+
+1. **term-introduction rules**, which say how that new type can be inhabited by [[terms]]
+
+1. **term-elimination rules**, which say how from a term of the new type one gets terms of other types
+
+1. **computation rules** which constrain the result of combining term introduction with term elimination.
+
+Note that in general, the following definitions are mutually [[recursion|recursive]].
 
 * A **typing declaration** is something of the form $t:A$.  We say that $t$ is a **term** (of type $A$) and that $A$ is the **type**.  In some type theories, there is a fixed collection of allowable types, while in others the types are themselves terms belonging to some other type (often called $Type$).
 
@@ -516,10 +529,6 @@ The following particular type theories are important enough to (potentially) hav
 
 ## References
  {#References}
-
-An introductory lecture is
-
-* [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
 
 Surveys include
 
