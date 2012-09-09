@@ -2,6 +2,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The determinant is the (essentially unique) universal alternating multilinear map.
+
 ## Definition
 
 We define the determinant after a few preliminaries 
