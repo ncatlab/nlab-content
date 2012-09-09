@@ -24,7 +24,7 @@ In analogy to how a [[Kan complex]] is a model in terms of [[simplicial set]]s o
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ satisfying the following equivalent conditions
@@ -44,10 +44,10 @@ A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ sat
 
 The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
-The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices. This is the [[coherence law]] on compositon.
+The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices. This is the [[coherence law]] on composition.
 
 =--
 
