@@ -107,6 +107,7 @@ universal $\rho$-[[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundl
 =--
 
 ### Cartesian closed monoidal structure on $\infty$-actions
+ {#CartesianClosedMonoidalStructure}
 
 +-- {: .num_remark}
 ###### Remark
