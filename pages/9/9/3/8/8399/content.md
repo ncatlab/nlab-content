@@ -14,6 +14,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 In [[physics]], the term _general covariance_ is meant to indicate the property of a [[physical system]] or [[model (in theoretical physics)]] whose [[configuration space|configurations]], [[action functional]] and [[equations of motion]] are all [[equivariance|equivariant]] under the [[action]] of the [[diffeomorphism group]] on the [[smooth manifold]] underlying the [[spacetime]] or the [[worldvolume]] of the system. Here "covariance" is as in "[[covariant tensor]]" another term for behaviour under diffeomorphisms.
 
@@ -47,7 +48,7 @@ The idea of general covariance has a long and convoluted history and the literat
 ## Formalization in homotopy type theory
  {#InHomotopyTypeTheory}
 
-We discuss how to formalize the notion of general covariance in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
+We discuss here that general covariance in field theory has a natural formalization in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
 ### Introduction 
 
@@ -57,7 +58,7 @@ $$
   x : \Gamma \vdash A(x) : Type
 $$
 
-is that of a $\Gamma$-parameterized family or _[[bundle]]_ of types, whose fiber over $x \in \Gamma$ is $A(X)$.
+is that of a $\Gamma$-parameterized family or _[[bundle]]_ of types, whose [[fiber]] over $x \in \Gamma$ is $A(x)$.
 
 But in [[homotopy type theory]], types are [[homotopy types]] and, hence so are the contexts. A [[type in context]] is now in general something more refined than just a family of types. It is really a family of types equipped with _[[equivariance]]_ structure with respect to the [[homotopy groups]] of the context type.
 
@@ -65,9 +66,9 @@ Hence in homotopy theory [[types in context]] generically satisfy an [[equivaria
 
 Specifically, if the context type is [[n-connected object in an (infinity,1)-topos|connected]] and [[pointed object|pointed]], then it is equivalent to the [[delooping]] $\Gamma \simeq \mathbf{B}G$ of an [[∞-group]] $G$. One finds -- this is discussed at _[[∞-action]]_ -- that the [[context]] defined by the type $\mathbf{B}G$ is that of $G$-[[equivariance]]: every type in the context is a type in the original context, but now equipped with a $G$-[[∞-action]]. In a precise sense, the homotopy type theory of $G$-$\infty$-actions is equivalent to plain homotopy type theory _in [[context]]_ $\mathbf{B}G$.
 
-In the following we discuss this for the case that $G$ is an [[automorphism ∞-group]] of a type $\Sigma$ which is regarded as representing [[spacetime]] or a [[worldvolume]]. We show that in this context the rules of homotopy type theory automatically induce the principle of general covariance and naturally produce configurations spaces of generally covariant field theories. When [[categorical semantics|interpreted]] in [[smooth infinity-groupoid|smooth models]] these configuration types are [[Lie integration|Lie integrations]] of [[BRST complexes]] whose higher-degree elements are the _diffeomorphism ghosts_. 
+In the following we discuss this for the case that $G$ is an [[automorphism ∞-group]] of a type $\Sigma$ which is regarded as representing [[spacetime]] or a [[worldvolume]]. We show that in this context the rules of homotopy type theory automatically induce the principle of general covariance and naturally produce configurations spaces of generally covariant field theories: for $\mathbf{Fields}$ a moduli object for the given fields, so that a field configuration is a function $\phi : \Sigma \to \mathbf{Fields}$, the configuration space of _covariant_ fields is the [[function type]] $(\Sigma \to \mathbf{Fields})$ but formed in the "general covariance context" $\mathbf{B}\mathbf{Aut}(\Sigma)$. When [[categorical semantics|interpreted]] in [[smooth infinity-groupoid|smooth models]], $\mathbf{Conf}$ is the smooth groupoid of field configurations and diffeomorphism gauge transformations acting on them, the [[Lie integration|Lie integrations]] of the [[BRST complex]] whose degree-1 elements are the _diffeomorphism ghosts_. 
 
-More precisely we show the following.
+More precisely, we show the following.
 
 +-- {: .num_defn}
 ###### Definition
@@ -79,7 +80,7 @@ $$
   \vdash \mathbf{B}\mathbf{Aut}(\Sigma) : Type
 $$
 
-be the image of name of $\Sigma$, with essentially unique term
+be the image of the name of $\Sigma$, with essentially unique term
 
 $$
   \vdash \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
