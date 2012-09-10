@@ -25,8 +25,16 @@ These lemmas are old and classical, but their traditional proofs are, while elem
 
 
 ### Preliminaries
+ {#Preliminaries}
 
 The Salamander lemma will be a statement about the exactness of a sequence naturally associated with any morphism in a double complex. Here we first introduce that sequence itself.
+
++-- {: .num_remark}
+###### Remark
+
+As always in [[homological algebra]], when we consider elements of objects in the [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[Embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)_ has been used to embed it into such, by a faithful and exact functor.
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
@@ -177,11 +185,11 @@ $$
   }
 $$
 
-is part of a [[double complex]] in an [[abelian category]], then there is a 6-term [[long exact sequence]] running horizontally in
+is part of a [[double complex]] in an [[abelian category]], then there is a **6-term [[long exact sequence]]** running horizontally in
 
 $$
   \array{
-    && && && && && && Y_{\Box}
+    && && && && && && B_{\Box}
     \\
     && && && && && & \nearrow && \searrow
     \\
@@ -191,17 +199,30 @@ $$
    & \searrow && \nearrow
    \\
    && 
-   {}^\Box X
+   {}^\Box A
   }
   \,,
 $$
 
 where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural}.
 
-
 =--
 
 This is ([Bergman, lemma 1.7](#Bergman)).
+
++-- {: .proof}
+###### Proof
+
+By the lemmas in the preliminaries, all the maps are given on representatives either by identities or by the structure maps of the double complex.
+
+Therefore
+
+* the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manifestly the image of $C \to {}^\Box A \to A$;
+
+* and so forth...
+
+=--
+
 
 We record some immediate consequences
 
