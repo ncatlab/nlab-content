@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
+
