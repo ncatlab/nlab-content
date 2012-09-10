@@ -21,9 +21,21 @@ A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a s
 
 ([May, def. VI 3.3](#May)) ([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell))
 
+## Properties
+
+### Relation to bimonoidal categories
+
+Every [[symmetric monoidal category|symmetric]] [[bimonoidal category]] is equivalent to a bipermutative category ([May, prop. VI 3.5]). 
+
+## Examples
+
+* [[Ab]], $R$[[Mod]], [[Vect]] are bipermutative categories under [[direct sum]] and [[tensor product of abelian groups]]/[[tensor product of modules]].
+
 ## Related concepts
 
 * [[K-theory of a bipermutative category]]
+
+* [[BDR 2-vector bundle]]
 
 ## References
 
