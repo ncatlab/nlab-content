@@ -676,7 +676,9 @@ hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]).
 
 * **$n$-truncated morphism** / [[n-connected]] morphism
 
-* [[homotopy level]]
+[[!include homotopy n-types - table]]
+
+
 
 ## References
 
