@@ -65,6 +65,10 @@ Regarding smallness, HoTT is usually formulated in [[Martin-Löf type theory]] w
 
 Finally, skeletality is mostly meaningless in HoTT because paths are the only notion of (propositional) [[equality]] which we have to reason with.  (There is also the notion of "definitional" equality, but as we cannot assert or prove statements of the form "$x$ and $y$ are definitionally equal" inside the theory, this is mostly not relevant for the purposes of setness.)
 
+## Related concepts
+
+[[!include homotopy n-types - table]]
+
 
 [[!redirects set]]
 [[!redirects sets]]
