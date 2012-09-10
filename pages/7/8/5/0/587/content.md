@@ -49,7 +49,7 @@ Even if one is completely uninterested in [[internalization]] or weak logics, a 
 
 The [[category of contexts]] in a [[theory]] forms its [[syntactic category]], which is a [[split model of type theory]] and is important in the [[relation between type theory and category theory]]. See _[Categorical semantics](#CategoricalSemantics)_ below.
 
-### Categorical semantic
+### Categorical semantics
  {#CategoricalSemantics}
 
 The [[categorical semantics]] of a context $\Gamma$ in [[type theory]]
