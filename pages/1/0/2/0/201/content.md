@@ -3,11 +3,112 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
-_Ab_ is the [[category]] of [[abelian group|abelian groups]]: it has abelian groups as [[object|objects]] and [[group homomorphisms]] between these as [[morphism|morphisms]].
+_$Ab$_ denotes the [[category]] of [[abelian group|abelian groups]]: it has abelian groups as [[object|objects]] and [[group homomorphisms]] between these as [[morphism|morphisms]].
+
+The archetypical example of an abelian group is the group $\mathbb{Z}$ of integers, and for many purposes it is useful to think of $Ab$ equivalently as the [[category of modules]] over $\mathbb{Z}$
+
+$$
+  Ab \simeq \mathbb{Z} Mod
+ \,.
+$$
+
+The category $Ab$ serves as the basic [[enriched category theory|enriching]] category in [[homological algebra]]. There [[Ab-enriched categories]] play much the same role as [[Set]]-enriched categories ([[locally small categories]]) play in general. 
+
+In this vein, the analog of $Ab$  in [[homotopy theory]] -- or rather in _[[stable homotopy theory]] -- is the category of [[spectra]], either regarded as the [[stable homotopy category]] or rather refined to the [[(infinity,1)-category of spectra]]. A spectrum is much like an abelian group up to [[coherence law|coherent]] [[homotopy]] and the role of the archetypical abelian group $\mathbb{Z}$ is the played by the [[sphere spectrum]] $\mathbb{S}$
+
 
 ## Properties
+
+### Free abelian groups
+
++-- {: .num_remark #FreeForgetful}
+###### Remark
+
+The category $Ab$ is a [[concrete category]], the [[forgetful functor]]
+
+$$
+  U : Ab \to Set
+$$
+
+to [[Set]] sends a group, regarded as a [[set]] $A$ equipped with the [[structure]] $(+,0)$ of a chose element $0 \in A$ and a binary, associative and 0-unital operation $+$ to its underlying set
+
+$$
+  (A, +, 0) \mapsto A
+  \,.
+$$
+
+This functor has a [[left adjoint]] $F : Set \to Ab$ which sends a set $S$ to the [[free abelian group]] $\mathbb{Z}[S]$ on this set: the group of [[formal linear combinations]] of elements in $S$ with [[coefficients]] in $\mathbb{Z}$.
+
+=--
+
+### Direct sum, direct product and tensor product
+
++-- {: .num_prop }
+###### Proposition
+
+For $A, B \in Ab$ two [[abelian groups]], their
+[[direct product]] $A \times B$ is the abelian group whose elements are pairs $(a, b)$ with $a \in A$ and $b \in B$, whose 0-element is $(0,0)$ and whose addition operation is the componentwise addition
+
+$$
+  (a_1, b_1) + (a_2, b_2) = (a_1 + a_2, b_1 + b_2)
+  \,.
+$$
+
+This is at the same time [[generalized the|the]] [[direct sum]] $A \oplus B$.
+
+Similarly for $I \in $[[FinSet]]$\hookrightarrow$ [[Set]] a [[finite set]], we have
+
+$$
+  \oplus_{i \in I} A_i \simeq \prod_i A_{i}
+  \,.
+$$
+
+But for $I \in Set$ a set which is not finite, there is a difference: the [[direct sum]] $\oplus_{i \in I} A_i$ of an $I$-indexed family ${A_i}_{i \in I}$ of abelian groups is the sub-group of the direct product on those elements for which only finitely many components are non-0
+
+$$
+  \oplus_{i \in I} A_i \hookrightarrow \prod_i A_i
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+In view of remark \ref{FreeForgetful} this means that the direct sum of ${\vert I \vert}$ copies of the additive group of [[integers]] with themselves is equivalently the [[free abelian group]] on $I$:
+
+$$
+  \oplus_{i \in I} \mathbb{Z} \simeq \mathbb{Z}[I]
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn }
+###### Definition
+
+For $A$ and $B$ two [[abelian groups]], their [[tensor product of abelian groups]] is the group $A \otimes B$ with the property that a group homomorphism $A \otimes B \to C$ is equivalently a [[bilinear map]] out of the _set_ $A \times B$.
+
+=--
+
+See at _[[tensor product of abelian groups]]_ for details.
+
++-- {: .num_example }
+###### Example
+
+For $I \in Set$ and $A \in Ab$, the [[direct sum]] of ${\vert I\vert}$ copies of $A$ with itself is equivalently the [[tensor product of abelian groups]] of the [[free abelian group]] on $I$ with $A$:
+
+$$
+  \oplus_{i \in I} A \simeq (\oplus_{i \in I} \mathbb{Z}) \otimes A
+  \simeq (\mathbb{Z}[I]) \otimes A
+  \,.
+$$ 
+
+=--
+
 
 ### Monoidal structure
 
@@ -19,8 +120,5 @@ A [[monoid]] [[internalization|internal to]] $(Ab, \otimes)$ is a [[ring]], whil
 
 Categories enriched over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]]. See at _[[additive and abelian categories]]_.
 
-## Related entries
-
-* The analog of $Ab$  in [[homotopy theory]] is the category of [[spectra]].
 
 category: category
