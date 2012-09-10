@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Quantum Hall effect](http://en.wikipedia.org/wiki/Quantum_Hall_effect)_
+
