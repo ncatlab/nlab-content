@@ -435,6 +435,7 @@ We list various references related to higher category  theory and fundamental ph
 A discussion of an axiomatization of basic concepts of [[gauge theory|gauge]] [[quantum field theory]] in [[cohesive homotopy type theory]] is in
 
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_
+ {#SchreiberShulman}
 
 For general (formal) accounts of physics see also the references at [[books and reviews in mathematical physics]], such as 
 
@@ -659,6 +660,23 @@ A refinement of this from [[quantum mechanics]] to [[AQFT]]-[[quantum field theo
 * [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Boohrification of local nets of observables]]_ .
 
 See _[[Bohr topos]]_ for more.
+
+### In phenomenology and experimental physics
+ {#InPhenomenology}
+
+In the context of [[phenomenology]], [[higher category theory]] is currently applied mostly for [[2-categories]] in the context of 2-dimensional [[TQFT]] (modelling phenomena in [[solid state physics]]) and [[CFT]] (modelling critical surface phenomena in [[statistical physics]]).
+
+Specifically 2d [[extended quantum field theory]] has been applied to the solid state physics modeled by the [[Levin-Wen model]], see
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories ([pdf])_
+
+For more discussion of 2d [[CFT]] in terms of higher category theory see the references there and at [[FRS formalism]].
+
+In $d = 3$ the [[quantum hall effect]] and related effects are described to some extent by [[Chern-Simons theory]], and Chern-Simons theory comes with a rich higher categorical framework. Notably there is now a fully [[extended TQFT]] description of Chern-Simons theory down to the point, hence in terms of [[(infinity,n)-functors|(infinity,3)-funcots]], see [here](Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended).
+
+Closely related to this, several approaches at realizing [[quantum computing]] rely on [[TQFT]] methods and are treated with methods from higher category theory. For instance the notion of a [[blob n-category]] orginates in investigations of quantum computing.
+
+Indeed, if one counts computing as "experimental" or "phenomenology" -- at least as related to the tangible world -- then category theory is ubiquituous, see at _[[computational trinitarianism]]_ for the general idea and further pointers. For instance the _[[relation between type theory and category theory]]_ (see there) which underlies the formal understanding of modern [[computer science]], is an [[equivalence of 2-categories]] in  [[2-category theory]]. More recently, computing in the guise of _[[homotopy type theory]]_ is closely related to [[(infinity,1)-category theory]]. This carries in it the prospect of serving as the very [[foundations]] of [[mathematics]] and [[computer science]]. And hence, in effect, also of theoretical physics (see [Schreiber-Shulman 2012](#SchreiberShulman) above).
 
 [[!redirects n-categorical physics]]
 
