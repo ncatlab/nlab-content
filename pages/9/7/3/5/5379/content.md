@@ -1,7 +1,9 @@
 ##Homotopy Types
 
 
-This 72 page article is to be found in the [[Handbook of Algebraic Topology]]. It starts from a basic position and attacks three main topics:
+
+
+This 72 page article, by [[Hans Baues]], is to be found in the [[Handbook of Algebraic Topology]]. It starts from a basic position and attacks three main topics:
 
 * Homotopy types with non-trivial fundamental group (Sections 2 - 5);
 
@@ -45,7 +47,4 @@ This 72 page article is to be found in the [[Handbook of Algebraic Topology]]. I
 
 *  [[Handbook of Algebraic Topology]], ed. I. M.James, Elsevier Science, 1995.
 
- #Contents#
-
-* automatic table of contents goes here
 category:reference
