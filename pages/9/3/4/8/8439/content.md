@@ -27,5 +27,7 @@ A _logical framework_ is a formal meta-language for deductive systems, such as [
 
 * [[Frank Pfenning]], _[Logical frameworks](http://www.cs.cmu.edu/~fp/lfs.html)_
 
+* _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
+
 [[!redirects logical frameworks]]
 
