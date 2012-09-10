@@ -215,7 +215,7 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 ## Related concepts
 
-* [[(-2)-groupoid]], [[true]], [[h-level|hlevel 0]]
+[[!include homotopy n-types - table]]
 
 * [[isEquiv]]
 
