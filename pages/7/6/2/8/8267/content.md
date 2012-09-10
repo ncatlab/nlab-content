@@ -175,11 +175,11 @@ $$
   \array{
     C 
     \\
-    \downarrow
+    \downarrow^{\mathrlap{\partial^{vert}}}
     \\
-    A &\to& B
+    A &\stackrel{\partial^{hor}}{\to}& B
     \\
-    && \downarrow
+    && \downarrow^{\mathrlap{\partial^{vert}}}
     \\
     && D
   }
@@ -215,21 +215,21 @@ This is ([Bergman, lemma 1.7](#Bergman)).
 
 By the lemmas in the preliminaries, all the maps are given on representatives either by identities or by the structure maps of the double complex.
 
-Therefore
+Using this one, directly checks that for instance 
+the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manifestly the image of $C \to {}^\Box A \to A$. Exactness at the other positions is directly checked accordingly.
 
-* the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manifestly the image of $C \to {}^\Box A \to A$;
-
-* and so forth...
 
 =--
 
 
-We record some immediate consequences
+## Implications
 
-+-- {: .num_cor}
+### Direct consequences
+
++-- {: .num_cor #ExtramuralIso}
 ###### Corollary
 
-If the row of the double complex is exact at $A$ and $B$, hence if $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map
+If the rows of a double complex are exact at the domain and codomain of a horizontal morphism $\partial^{hor} : A \to B$, hence if  $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map of lemma \ref{Extramural}
 
 $$
   A_{\Box} \to {}^\Box B
@@ -238,6 +238,101 @@ $$
 is an [[isomorphism]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+In this case the exact sequence of prop. \ref{SalamanderLemma} gives the exact sequence
+
+$$
+  0 \to A_{\Box} \to {}^\Box B \to 0
+  \,.
+$$
+
+This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] and is hence an isomorphism.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ is [[exact sequence|exact]] at $B$, then the two intramural maps, lemma \ref{Intramural}, shown above the diagram are [[ismorphisms]]:
+
+$$
+  \array{
+    0 &\to& A &\to& \cdots
+    \\
+    && \downarrow^{\mathrlap{\partial}} && 
+    \\
+    0 &\hookrightarrow& B &\stackrel{ker = 0}{\to}& \cdots
+  }
+  \;\;\;
+  \Rightarrow
+  \array{
+    {}^\Box A &\stackrel{\simeq}{\to}& A^{hor}
+    \\
+    A^{vert} & \stackrel{\simeq}{\to}&  A_{\Box}
+  }
+$$
+
+(...)
+
+=--
+
+This appears as ([Bergman, cor. 2.2](#Bergman)).
+
++-- {: .proof}
+###### Proof
+
+Applying cor. \ref{ExtramuralIso} to $0 \to B$ yields ${}^\Box B \imeq 0_\Box = 0$. Therefore the exact sequence of the Salamander lemma \ref{SalamanderLemma} corresponding to 
+
+$$
+  \array{
+    0 
+    \\
+    \downarrow
+    \\
+    0 &\to& A 
+    \\
+    && \downarrow
+    \\
+    && B
+  }
+$$
+
+ends with 
+
+$$
+  \cdots \to 0 \to {}^\Box  A\to A^{hor} \to 0
+  \,,
+$$
+
+which implies the first isomorphism. Analogously, the Salamander exact sequence associated with 
+
+$$
+  \array{
+    0 &\to& A
+    \\
+    && \downarrow
+    \\
+    && B &\to& 0
+  }
+$$
+
+begins as
+
+$$
+  0 \to A^{vert} \to A_{\Box} \to 0 \to \cdots
+  \,.
+$$
+
+which gives the second isomorphism.
+
+=--
+
+### The snake lemma
+
+(...)
 
 ## Related concepts
 
