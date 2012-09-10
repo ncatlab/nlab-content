@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Around every point of a [[Riemannian manifold]] there is a [[coordinate system]] such that the [[Levi-Civita connection]] of the metric pulled back to these coordinates vanishes _at that point_. (Notice that the [[Riemann curvature]] will not in general vanish even at that point).
+
+## Related concepts
+
+* [[general covariance]]
+
+## References
+
+* Wikipedia, _[Normal coordinates](http://en.wikipedia.org/wiki/Normal_coordinates)_
+
+[[!redirects normal coordinates]]
