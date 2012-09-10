@@ -90,6 +90,9 @@ in global context, which has a global element precisely when $isProp(A)\to B$ ha
 
 * **isProp**
 
+[[!include homotopy n-types - table]]
+
+
 ## References
 
 [[Coq]]-code for h-propositions is in 
