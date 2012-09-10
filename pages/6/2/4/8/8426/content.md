@@ -1,0 +1,19 @@
+In 1928, [[J. W. Alexander]] published a paper _ "Topological Invariants of Knots and Links"_ in which he defined a polynomial invariant of knots and developed new insights including the braid relations.  There are several ways to look at these invariants, some of these use the [[knot group]] previously defined by [[Max Dehn]], but there are also various combinatorial methods derived from Alexander's original one. One of the best known methods is via [[Fox derivatives]] and is described in the classical text by [[Richard Crowell]] and [[Ralph Fox]].
+
+
+
+
+##References
+
+* [Alexander's original paper](http://homepages.math.uic.edu/~kauffman/Alex.pdf)
+
+*   [[R. H. Crowell]] and [[R. H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+
+
+Various approaches to the Alexander polynomial are described in introductory texts such as 
+
+* [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+
+
+
+category:knot theory
