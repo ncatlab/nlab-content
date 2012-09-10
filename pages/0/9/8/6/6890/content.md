@@ -51,6 +51,8 @@ For Coq-projects in [[homotopy type theory]] see
 
 Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
 
+It uses a version of the [[calculus of constructions]] to implement [[natural deduction]].
+
 A software similar to Coq is _[[Agda]]_.
 
 ## References
