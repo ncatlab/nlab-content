@@ -1,0 +1,20 @@
+
+Lou Kauffman is an American topologist working in [[knot theory]] and its relationships with statistical mechanics, quantum theory, algebra, combinatorics and foundations.
+
+He is based at the University of Illinois at Chicago.
+
+
+* [homepage](http://homepages.math.uic.edu/~kauffman/)
+
+##References
+
+* [[Louis H. Kauffman]], Knots and Physics, World Scientific, 1991.
+
+
+[[!redirects L. H. Kauffman]]
+
+[[!redirects Louis H. Kauffman]]
+
+category:people
+
+category:knot theory
