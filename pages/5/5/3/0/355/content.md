@@ -48,15 +48,7 @@ Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], 
 
 ## Related entries
 
-* [[groupoid]]
-
-* [[2-groupoid]]
-
-* [[3-groupoid]]
-
-* **n-groupoid**
-
-* [[∞-groupoid]]
+[[!include homotopy n-types - table]]
 
 
 
