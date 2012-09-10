@@ -41,13 +41,7 @@ An entirely strict algebraic model for 3-groupoids (which no longer models all [
 
 ## Related concepts
 
-* [[groupoid]]
-
-* [[2-groupoid]]
-
-* **3-groupoid** 
-
-* [[∞-groupoid]]
+[[!include homotopy n-types - table]]
 
 
 ## References ##
