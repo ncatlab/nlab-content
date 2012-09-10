@@ -46,7 +46,7 @@ Sometimes it is convenient to proceed otherwise, however, and to give a specific
 
 ## Discussion
 
-*  '*Relations' and 'relators'*: In the discussion of $S_3$ above we had a **relation** $b a = a^2b$. so we are relating two words of $F(X)$. It is often the case that instead of relations we use **relators**, in other words a relation of form $r = 1$, where $r$ is a word in the generators. In the example $ b a = a^2b$ can be easily shown to imply and be implied by $ a b a b = 1$.
+*  *'Relations' and 'relators'*: In the discussion of $S_3$ above we had a **relation** $b a = a^2b$. so we are relating two words of $F(X)$. It is often the case that instead of relations we use **relators**, in other words a relation of form $r = 1$, where $r$ is a word in the generators. In the example $ b a = a^2b$ can be easily shown to imply and be implied by $ a b a b = 1$.
 
 
 *  Given a group presentation as above, we have a 
@@ -98,7 +98,7 @@ which have some very useful material in them.
 
 For a deeper treatment of the area, more specialised sources are needed:
 
-* R. C. Lyndon and P. E. Schupp, Combinatorial group theory, Springer, 1977; [toc](http://elib.tu-darmstadt.de/tocs/94684782.pdf).
+* [[Roger C. Lyndon]] and [[Paul E. Schupp]], _Combinatorial group theory_, Springer, 1977; [toc](http://elib.tu-darmstadt.de/tocs/94684782.pdf).
 
 
 category: group theory
