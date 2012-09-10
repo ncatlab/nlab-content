@@ -29,7 +29,9 @@ An [[atlas]] is the collection of coordinate charts defining a manifold structur
 
 ## Related concepts
 
-* [[coordinate transformation]]
+* [[coordinate transformation]], [[diffeomorphism]]
+
+* [[Riemann normal coordinates]]
 
 
 [[!redirects coordinate system]]
