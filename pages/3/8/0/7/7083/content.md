@@ -69,10 +69,10 @@ It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ 
 Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
 =--
 
+## Related concepts
 
-## Remarks
+[[!include homotopy n-types - table]]
 
-* h-sets are also called **[[h-level]] $2$** types.
 
 
 ## References
