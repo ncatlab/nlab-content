@@ -20,14 +20,14 @@ In [[physics]], the term _general covariance_ is meant to indicate the property 
 
 The term _[[general relativity]]_ for [[Einstein]]-[[gravity]] originates in at least closely related ideas (see _[History and original formulation](HistoryAndOriginalFormulation)_ below), and Einstein-gravity is the archtypical example of a generally covariant physical system: 
 
-here, the [[configuration space]] $[\Sigma,\mathbf{Fields}]$ of physical fields over a [[smooth manifold]] $\Sigma$ is not quite the space of [[Riemannian metrics]] on $X$ itself, but is the [[quotient]] $[\Sigma,\mathbf{Fields}]/\mathbf{Diff}(\Sigma)$ of this space by the [[action]] of the [[diffeomorphism group]] $\mathbf{Diff}(\Sigma)$: two Riemannian metrics $g_1$ and $g_2$ on $\Sigma$ represent the same field of [[gravity]] on $X$ if there is a [[diffeomorphism]] $f : X \stackrel{\simeq}{\to} X$ such that $g_2 = f^* g_1$.
+here, the [[configuration space]] $[\Sigma,\mathbf{Fields}]$ of physical fields over a [[smooth manifold]] $\Sigma$ is not quite the space of [[Riemannian metrics]] on $\Sigma$ itself, but is the [[quotient]] $[\Sigma,\mathbf{Fields}]/\mathbf{Diff}(\Sigma)$ of this space by the [[action]] of the [[diffeomorphism group]] $\mathbf{Diff}(\Sigma)$: two Riemannian metrics $g_1$ and $g_2$ on $\Sigma$ represent the same field of [[gravity]] on $\Sigma$ if there is a [[diffeomorphism]] $f : \Sigma \stackrel{\simeq}{\to} \Sigma$ such that $g_2 = f^* g_1$.
 
 Or rather, such a diffeomorphism is a [[gauge transformation]] between the two field configurations. The configuration space is not the naive [[quotient]] of fields by diffeomorphisms as above, but is the [[homotopy quotient]], or _[[action groupoid]]_, denotes $[\Sigma,\mathbf{Fields}]\sslash \mathbf{Diff}(\Sigma)$. In the physics literature this action groupoid is most familiar in its [[infinitesimal cohesion|infinitesimal approximation]], the corresponding [[Lie algebroid]], whose formal dual is a [[BRST complex]] whose degree-1 elements are accordingly called the _diffeomorphism ghosts_ (see there).
 
 As with all [[gauge transformations]], they relate physical configurations which may be nominally different, but [[equivalence|equivalent]],.
 Thereofore _general covariance_ is an instance of the general _[[principle of equivalence]]_ in mathematics which says that sensible statements about [[objects]] must respect the [[isomorphisms]] and more general [[equivalences]] between these objects. 
 
-A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded as modelling an absolute physical system (such as the [[observable universe]] in gravity), but a [[subsystem]] that is equipped with ambient [[structure]] that [[spontaneous symmetry breaking|breaks]] the diffeomorphism symmetry. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhabited by a particle accelerator. This ambient structure on the spacetime $X$ breaks its general diffeomorphism invariance and hence the effective resulting theory on this background is not generally covariant (a special case of the general phenomenon of [[spontaneous symmetry breaking]]). 
+A physical system which is not generally covariant in this sense is hence one where the [[smooth manifold]] $X$ as abover, underlying [[spacetime]]/[[worldvolume]] is not regarded as modelling an absolute physical system (such as the [[observable universe]] in gravity), but a [[subsystem]] that is equipped with ambient [[structure]] that [[spontaneous symmetry breaking|breaks]] the diffeomorphism symmetry. Notably systems like [[electromagnetism]] or [[Yang-Mills theory]] have traditionally been written in a non-generally covariant form describing gauge fields on a fixed gravitational background, as for instance the space inhabited by a particle accelerator. This ambient structure on the spacetime $\Sigma$ breaks its general diffeomorphism invariance and hence the effective resulting theory on this background is not generally covariant (a special case of the general phenomenon of [[spontaneous symmetry breaking]]). 
 
 On the other hand, such a model consisting of background (e.g. the particle accelerator) and quantum fields propagating in it is ultimately to be understood as an approximation to a more encompassing model in which also the background is dynamical, and which is again generally covariant. Specific for electromagnetism and Yang-Mills theory this refined generally covariant model is known as _[[Einstein-Maxwell theory]]_ or more generally _[[Einstein-Yang-Mills theory]]_.
 
@@ -44,6 +44,52 @@ The idea of general covariance has a long and convoluted history and the literat
 > The hole argument was dismissed by the reasoning that it is not the [[spacetime]] [[Riemannian metric|metric]] that has to be fixed uniquely by the [[equations of motion|field equations]], but only the physical phenomena that occur in spacetime need to be given a unique expression with reference to any description of spacetime. All physical statements are given in terms of spacetime coincidences; [[measurement|measurements]] result in statements on meetings of material points of the measuring rods with other material points or in coincidences between watch hands and points on the clockface. The introduction of a reference system merely serves the easy description of the totality of all these coincidences (point-coincidence argument) ([Einstein 1916 p. 776f](#Einstein1916)).
 
 > from ([Brunetti-Pormann-Ruzzi](#BrunettiPorrmannRuzzi))
+
+## Modern formulation in differential geometry
+ {#ModernFormulationInDifferentialGeometry}
+
+We discuss the modern formulation of general covariance in [[differential geometry]].
+
+### In gravity
+
+Let $\Sigma \in $ [[SmoothMfd]] be a [[smooth manifold]]. Write $Riem(\Sigma)$ for the space of ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metrics]] on $\Sigma$. For $f : \Sigma \to \Sigma$ a [[diffeomorphism]], there is a [[function]] $f^* : Riem(\Sigma) \to Riem(\Sigma)$ which sends a Riemannian metric to its pullback:
+
+$$
+  (f^*g)(v,w) \coloneqq g(f_* v, f_* w)
+  \,, 
+$$ 
+
+where $f_* : T\Sigma \to T\Sigma$ is the canonical map induced on the [[tangent bundle]] (see at _[[derivative]]_).
+
+Say that two metrics $g_1, g_2$ are [[gauge transformation|gauge equivalent]] if there is a diffeomorphism $f$ such that $g_2 = f^* g_1$. This is an [[equivalence relation]]. Write $Riem(\Sigma)/Diff(\Sigma)$ for the corresponding set of [[equivalence classes]]. 
+
+The statement of _general covariance_ is that the distinct configurations of the gravitational field form the set $Riem(\Sigma)/Diff(\Sigma)$. In particular, if $\Sigma$ is [[compact topological space|compact]], then the [[Einstein-Hilbert action]] functional which a-prior is defined on $Riem(\Sigma)$ descends to $Riem(\Sigma)/Diff(\Sigma)$
+
+$$
+  S_{EH} : Riem(\Sigma)/Diff(\Sigma) \to \mathbb{R}
+  \,.
+$$
+
+While this captures the idea of general covariance accurately, for further development of the theory of [[gravity]], however, the set $Riem(\Sigma)/Diff(\Sigma)$ needs to be refined. It is really equipped with the structure of a [[smooth space]] $\mathbf{Riem}(\Sigma)/\mathbf{Diff}(\Sigma)$ (in order to perform [[variational calculus]] and hence derive the [[equations of motion]] of the theory), and second it is to be refined to a [[smooth infinity-groupoid|smooth groupoid]] $\mathbf{Riem}(\Sigma)\sslash\mathbf{Diff}(\Sigma)$.
+
+Finally, for setups that admit to introduce [[fermions]]/[[spinors]] into the model one needs to refine Riemannian metrics to [[vielbein]] fields/[[orthogonal structures]]. The fully refined generally covariance smooth configuration groupoid is then $[\Sigma, \mathbf{orth}]\sslash \mathbf{Diff}(\Sigma)$, discussed in more detail [below](#GravityInHoTT).
+
+
+### Relation to the "principle of equivalence" in gravity
+ {#RelationToPrincipleOfEquivalenceInGravity}
+
+The _principle of equivalence_ in [[general relativity]] is formally the statement that around every point in a ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold]] one can find a [[coordinate system]] such that the [[Levi-Civita connection]] vanishes ("[[Riemann normal coordinates]]"), which means that to **first [[infinitesimal space|infinitesimal]] order** around that point particle dynamics subject to the force of gravity is equivalent to dynamics in [[Minkowski spacetime]] with vanishing field of grvity.
+
+By the above this is a special case of the principle of general covariance: for every field configuration $g$ and every given point there is a gauge equivalent field configuration $f^* g$ such that the "force of gravity" (the Levi-Civita connection) vanishes at that point.
+
+It is via this relation that the physical "principle of equivalence" relates to the mathematical _[[principle of equivalence]]_: this says that formulations need to respect the given notion of [[equivalence]]/[[gauge transformation]], and so
+
+[[principle of equivalence]] in mathematics $\Rightarrow$ principle of general covariance $\Rightarrow$ principle of equivalence in physics .
+
+
+### In other topological field theories
+
+
 
 ## Formalization in homotopy type theory
  {#InHomotopyTypeTheory}
@@ -350,6 +396,7 @@ $$
 
 
 ### Generally covariant field of gravity
+ {#GravityInHoTT}
 
 We now spell out the example of ordinary [[Einstein]]-[[gravity]] in this language. Plenty of further examples work analogously.
 
