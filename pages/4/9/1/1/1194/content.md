@@ -511,6 +511,8 @@ The following particular type theories are important enough to (potentially) hav
 
 * **type theory**, [[logic]]
 
+  * [[natural deduction]], [[calculus of constructions]]
+
   * [[dependent type theory]], [[Martin-Löf dependent type theory]]
 
   * [[intensional type theory]], [[extensional type theory]]
