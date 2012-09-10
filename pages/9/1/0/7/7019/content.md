@@ -6,18 +6,29 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
-**Homotopy level** is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their internal language of [[homotopy type theory]]) in which the numbering is offset by 2.  This enables it to "start" at 0 rather than (-2), which is convenient when defining it by induction over the natural numbers in type theory.  Thus, the correspondence between the various terminologies is indicated in the following table.
+#Contents#
+* table of contents
+{:toc}
 
- Homotopy level | Truncation       |   Groupoids                       | Homotopy type theory
-----------------|------------------|-----------------------------------|----------------------
-  h-level 0     |   (-2)-truncated | [[(-2)-groupoid]]/[[point]]       | [[contractible type]]
-  h-level 1     |   (-1)-truncated | [[(-1)-groupoid]]/[[truth value]] | [[h-proposition]]
-  h-level 2     |   0-truncated    | [[0-groupoid]]/[[set]]            | [[h-set]]
-  h-level 3     |   1-truncated    | [[1-groupoid]]/[[groupoid]]       | h-groupoid
-  h-level 4     |   2-truncated    | [[2-groupoid]]                    | h-2-groupoid
+## Idea
+
+**Homotopy level** is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their 
+[[internal logic|internal language]] of [[homotopy type theory]]) in which the numbering is offset by 2:
+
+a [[homotopy n-type]] is a [[type]] of homotopy level $n+2$.  
+
+This offset in counting enables it to "start" at 0 rather than (-2), which is convenient when defining it by induction over the natural numbers in type theory.  Thus, the correspondence between the various terminologies is indicated in the following table.
+
+## Related concepts
+
+[[!include homotopy n-types - table]]
 
 [[!redirects homotopy level]]
 [[!redirects homotopy levels]]
