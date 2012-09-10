@@ -31,9 +31,11 @@ A [[knot diagram]] is _$3$-colourable_ if we can assign colours to its arcs such
 
 * The [[figure-8 knot]] diagram
 
-[[!include figure 8 knot - SVG]]
+  +-- {: style="text align:center"}
+  [[!include figure 8 knot - SVG]]
+  =--
 
-is not $3$-colourable. (Try it!)
+  is not $3$-colourable. (Try it!)
 
 =--
 
