@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Induction
@@ -12,7 +12,6 @@
 =--
 =--
 =--
-
 
 # Finite lists and free monoids
 * table of contents
@@ -77,7 +76,7 @@ To prove that the category [[Mon]] of monoids is a [[complete category]], one no
 
 To be sure, meeting the solution set condition basically requires starting the constructions in one of the other definitions above; but the proofs may all be thrown onto the adjoint functor theorem. 
 
-An easier approach is given in the following general theorem, which applies to more general [monoids in a monoidal category](http://ncatlab.org/nlab/show/monoid#in_a_monoidal_category_18): 
+Another abstract approach is given in the following general theorem, which applies to more general [monoids in a monoidal category](http://ncatlab.org/nlab/show/monoid#in_a_monoidal_category_18): 
 
 +-- {: .num_theorem}
 ###### Theorem 
@@ -87,6 +86,7 @@ which thereby becomes the free monoid on $c$.
 =-- 
 
 This applies immediately to $C = Set$, as this is a cocomplete [[cartesian closed category]]. 
+
 
 ## Examples
 
@@ -125,6 +125,7 @@ Queues are a little more complicated.  An object of __queues__ on $A$ is an obje
 +-- {: .query}
 What are the diagrams for this?  I seem to recall that we need a [[distributive category]]; in particular, we need a [[cartesian monoidal category]], so that $\otimes$ is $\times$.  But perhaps a [[2-rig]] will be sufficient?
 =--
+
 
 ## Related concepts
 
