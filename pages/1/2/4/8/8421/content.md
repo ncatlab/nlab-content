@@ -216,14 +216,17 @@ A good account is at
 [[!redirects natural deduction]]
 [[!redirects natural deductions]]
 
+[[!redirects type formation]]
 [[!redirects type formation rule]]
 [[!redirects type formation rules]]
 
+[[!redirects term introduction]]
 [[!redirects term introduction rule]]
 [[!redirects term introduction rules]]
 [[!redirects introduction rule]]
 [[!redirects introduction rules]]
 
+[[!redirects term elimination]]
 [[!redirects term elimination rule]]
 [[!redirects term elimination rules]]
 [[!redirects elimination rule]]
