@@ -160,6 +160,7 @@ $$
 
 
 ## Descent in terms of coring comodules
+ {#DescentIntermsOfCoringModules}
 
 Given a morphism $f : R \to S$ with corresponding Sweedler coring $(C = S \otimes_R S,\Delta,\epsilon)$ as above, the category of [[descent]] data $\mathrm{Desc}(S/R)$ for the categories of right modules along $k$-algebra extension $R\to S$  is precisely the category of right $C$-[[comodule]]s.
 
