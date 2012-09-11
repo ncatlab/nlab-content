@@ -33,13 +33,17 @@ More abstractly, a [[ring]] is a [[monoid]] [[internalization|internal to]] [[ab
 A [[ring]] (unital and not-necessarily commutative) 
 is an [[abelian group]] $R$ equipped with 
 
-an element $1 \in R$ and a [[bilinear operation]], hence a [[group homomorphism]]
+1. an element $1 \in R$ 
 
-$$
-  \cdot : R \otimes R \to R
-$$
+1. a [[bilinear map]], hence a [[group homomorphism]]
 
-out of the [[tensor product of abelian groups]], which is [[associativity law|associative]] and [[unit law|unital]] with respect to 1.
+   $$
+     \cdot : R \otimes R \to R
+   $$
+
+   out of the [[tensor product of abelian groups]], 
+
+such that $\cdot$ is [[associativity law|associative]] and [[unit law|unital]] with respect to 1.
 
 =--
 
@@ -174,7 +178,7 @@ is a ring under elementwise addition and [[matrix multiplication]].
 
 For $X$ a [[topological space]], the set of [[continuous functions]]
 $C(X,\mathbb{R})$ or $C(X,\mathbb{C})$ with values in the 
-[[real numbers]] or [[complex numbers]] is a ring uper pointwise 
+[[real numbers]] or [[complex numbers]] is a ring under pointwise 
 (points in $X$) addition and multiplication.
 
 =--
