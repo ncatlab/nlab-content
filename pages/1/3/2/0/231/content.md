@@ -71,7 +71,7 @@ $$
 
 ### Other coherence conditions 
 
-The original list of coherence axioms for monoidal categories given by Mac Lane in 1963 was longer; Max Kelly showed they could be whittled down to just the pentagon and triangle identities. We reproduce his arguments here. 
+The original list of [[coherence law|coherence axioms]] for monoidal categories given by Mac Lane in 1963 was longer; Max Kelly showed they could be whittled down to just the pentagon and triangle identities. We reproduce his arguments here. 
 
 In the proofs below, monoidal product symbols $\otimes$ will be suppressed, to save space. 
 
