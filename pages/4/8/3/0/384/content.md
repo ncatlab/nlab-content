@@ -39,7 +39,7 @@ A _finite CW-complex_ is one which admits a presentation in which there are only
 
 Formally this means that (relative) CW-complexes are (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[model structure on topological spaces]].
 
-Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant space]]s, is a convenient category of spaces for algebraic topology.
+Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for algebraic topology.
 
 
 ## Properties
