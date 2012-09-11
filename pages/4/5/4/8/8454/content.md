@@ -1,0 +1,16 @@
+
+
+A [[logical framework]].
+
+## Related concepts
+
+* [[Automath]]
+
+* [[Twelf]]
+
+## References
+
+* [Elf Homepage](http://www.cs.cmu.edu/~fp/elf.html)
+
+* [[Frank Pfenning]], _Logic Programming in the LF Logical Framework_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.3910))
+
