@@ -599,6 +599,8 @@ $$
 
 * [[linear combination]]
 
+* [[submodule]], [[quotient module]]
+
 * [[projective module]], [[injective module]], [[free module]], [[flat module]]
 
 
@@ -606,10 +608,15 @@ $$
 
 ## References
 
+### General 
+
+Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]] are in
+
+* [[Daniel Murfet]], _Modules over a ringed space_ ([pdf](http://therisingsea.org/notes/RingedSpaceModules.pdf))
+
 ### On modules as enriched presheaves
 
 See also the references at [[enriched category theory]] and at [[profunctor]].
-
 
 ### On modules as stabilized overcategories
 
