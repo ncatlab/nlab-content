@@ -59,7 +59,7 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[tropical geometry]]
 
-* A kind of [[categorification]] of the notion of rig is the notion of [[bimonoidal category]] (at least if that is also an [[abelian category]] or similar).
+* A [[categorification]] of the notion of rig is the notion of [[bimonoidal category]].
 
 ## References
 
