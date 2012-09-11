@@ -1,3 +1,5 @@
+[[!redirects sequence calculus]]
+[[!redirects sequence calculus]]
 #Contents#
 * table of contents
 {:toc}
@@ -8,7 +10,9 @@ In [[logic]], *sequent calculus* refers to a style of logical or type-theoretica
 
 Most sequent calculi furthermore enjoy [[cut elimination]]: every sequent provable with cut is provable without. Together with the subformula property this establishes consistency of the system.
 
-## Example of sequent calculi
+## The subformula property
+
+## Examples of sequent calculi
 
 ### LK: Gentzen's system for classical logic
 
