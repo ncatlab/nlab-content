@@ -55,9 +55,14 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * The [[ideals]] of a [[commutative ring]] form a rig under ideal addition and multiplication, where the unit and zero ideals are the unit and zero elements of the rig, respectively.  They also form a [[distributive lattice]] and therefore a rig in another way; note that the addition operation is the same in both rigs but the multiplication operation is different (being intersection in the lattice).
 
+## Related concepts
+
+* [[tropical geometry]]
+
+* A kind of [[categorification]] of the notion of rig is the notion of [[bimonoidal category]] (at least if that is also an [[abelian category]] or similar).
+
 ## References
 
-* $n$Lab: [[tropical geometry]]
 * Jonathan S. Golan,_Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
 1108.2874](http://arxiv.org/abs/1108.2874)
