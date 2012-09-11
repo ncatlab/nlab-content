@@ -510,7 +510,7 @@ Let $R$ be a [[commutative ring]].
 +-- {: .num_example}
 ###### Example
 
-The ring $R$ is naturally a module over itself, by regarding its multiplication map $R \otimes R \to R$ as a module action $R \otimes N \to N$ with $n \coloneqq R$.
+The ring $R$ is naturally a module over itself, by regarding its multiplication map $R \otimes R \to R$ as a module action $R \otimes N \to N$ with $N \coloneqq R$.
 
 =--
 
