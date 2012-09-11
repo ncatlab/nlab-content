@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
@@ -179,7 +183,7 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 
 ## References 
 
-* Thomas Streicher, "[Universes in Toposes](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz)."  In _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_.
+* [[Thomas Streicher]], _Universes in Toposes_, In: _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_ ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz))
 
 
 [[!redirects universe in a topos]]
