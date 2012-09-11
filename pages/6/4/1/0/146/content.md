@@ -148,7 +148,7 @@ Since this holds for all $B$, the claim follows, again using the [[Yoneda lemma|
 
 ## Special cases
 
-* [[representable functor|represenatble presheaf]]
+* [[representable functor|representable presheaf]]
 
 * [[concrete presheaf]]
 
