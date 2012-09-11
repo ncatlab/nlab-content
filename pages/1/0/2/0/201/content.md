@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,7 +30,7 @@ $$
 
 The category $Ab$ serves as the basic [[enriched category theory|enriching]] category in [[homological algebra]]. There [[Ab-enriched categories]] play much the same role as [[Set]]-enriched categories ([[locally small categories]]) play in general. 
 
-In this vein, the analog of $Ab$  in [[homotopy theory]] -- or rather in _[[stable homotopy theory]] -- is the category of [[spectra]], either regarded as the [[stable homotopy category]] or rather refined to the [[(infinity,1)-category of spectra]]. A spectrum is much like an abelian group up to [[coherence law|coherent]] [[homotopy]] and the role of the archetypical abelian group $\mathbb{Z}$ is the played by the [[sphere spectrum]] $\mathbb{S}$
+In this vein, the analog of $Ab$  in [[homotopy theory]] -- or rather in _[[stable homotopy theory]] -- is the category of [[spectra]], either regarded as the [[stable homotopy category]] or rather refined to the [[stable (infinity,1)-category of spectra]]. A spectrum is much like an abelian group up to [[coherence law|coherent]] [[homotopy]] and the role of the archetypical abelian group $\mathbb{Z}$ is the played by the [[sphere spectrum]] $\mathbb{S}$
 
 
 ## Properties
@@ -44,6 +58,9 @@ This functor has a [[left adjoint]] $F : Set \to Ab$ which sends a set $S$ to th
 =--
 
 ### Direct sum, direct product and tensor product
+ {#DirectSumEtc}
+
+We discuss basic properties of binary operations on the category of abelian groups: [[direct product]], [[direct sum]] and [[tensor product]]. Below in _[Monoidal and bimonoidal structure](#MonoidalAndBipermutativeStructure)_ we put these structures into a more abstract context.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -77,6 +94,18 @@ $$
 +-- {: .num_example }
 ###### Example
 
+The [[trivial group]] $0 \in Ab$ (the group with a single element) is a [[unit]] for the direct sum: for every abelian group we have
+
+$$
+  A \oplus 0 \simeq 0 \oplus A \simeq A
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
 In view of remark \ref{FreeForgetful} this means that the direct sum of ${\vert I \vert}$ copies of the additive group of [[integers]] with themselves is equivalently the [[free abelian group]] on $I$:
 
 $$
@@ -99,6 +128,31 @@ See at _[[tensor product of abelian groups]]_ for details.
 +-- {: .num_example }
 ###### Example
 
+The [[unit]] for the tensor produc of abelian groups is the additive group of [[integers]]: 
+
+$$
+  A \otimes \mathbb{Z} \simeq \mathbb{Z} \otimes A \simeq A
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[tensor product of abelian groups]] [[distributivity law|distributes]] over arbitrary [[direct sums]]: 
+
+$$
+  A \otimes (\oplus_{i \in I} B_i) \simeq \oplus_{i \in I} A \otimes B_o
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
 For $I \in Set$ and $A \in Ab$, the [[direct sum]] of ${\vert I\vert}$ copies of $A$ with itself is equivalently the [[tensor product of abelian groups]] of the [[free abelian group]] on $I$ with $A$:
 
 $$
@@ -110,15 +164,45 @@ $$
 =--
 
 
-### Monoidal structure
+### Monoidal and bimonoidal structure
+ {#MonoidalAndBipermutativeStructure}
 
-$Ab$ can be made into a [[monoidal category]] in several ways, the most notable involving [[direct sum]] $\oplus$ and [[tensor product of abelian groups]] $\otimes$.  
+With the definitions and properties discussed above in _[Direct sum, etc.](#DirectSumEtc)_ we have the following
 
-A [[monoid]] [[internalization|internal to]] $(Ab, \otimes)$ is a [[ring]], while a monoid in $(Ab, \oplus)$ is just an abelian group (since $\oplus$ is the [[coproduct]] in $Ab$, so every object has a unique monoid structure with respect to it).
++-- {: .num_prop }
+###### Proposition
+
+The category $Ab$ becomes a [[monoidal category]]
+
+1. under [[direct sum]] $(Ab, \oplus, 0)$;
+
+1. under [[tensor product of abelian groups]] $(Ab, \otimes, \mathbb{Z})$.
+
+Indeed with both structures combined we have
+
+* $(Ab, \oplus, \otimes, 0, \mathbb{Z})$ 
+
+is a [[bimonoidal category]] (and can be made a [[bipermutative category]]).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A [[monoid]] [[internalization|internal to]] $(Ab, \otimes, \mathbb{Z})$ is equivalrntly a [[ring]]. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A [[monoid]] in $(Ab, \oplus, 0)$ is equivalently just an abelian group again (since $\oplus$ is the [[coproduct]] in $Ab$, so every object has a unique monoid structure with respect to it).
+=--
+=--
 
 ### Enrichment over $Ab$
 
-Categories enriched over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]]. See at _[[additive and abelian categories]]_.
+Categories [[enriched category|enriched]] over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]]. See at _[[additive and abelian categories]]_.
 
 
 category: category
