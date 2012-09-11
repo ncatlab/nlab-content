@@ -24,7 +24,7 @@ It is not completely clear what Peirce meant by abduction. Clearly the inference
 
 There is an extensive literature about explanation in the Philosophy of Science, for example, ([FourDecades](#FourDecades)). Obviously it is not just a matter of devising a statement which has the thing to be explained (explicandum) as a consequence. You want it to 'give the reason for' the observation. A thorough account of what constitutes the 'reason' for something is notoriously difficult to formulate. For some, it's a matter of subsuming the observation under a general covering law, while for others, it's a matter of giving a causal or mechanistic story with the observation as the outcome. Note also that there is a growing literature now on the concept of 'explanatory proofs' in mathematics, it being felt that one may have proved a mathematical fact without understanding 'why' it is true.
 
-For some, abduction for Peirce is the process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of existing rival hypotheses as explanations, it may be possible to employ Bayesian reasoning, generally taken to be a form of [[inductive reasoning]].
+For some, abduction for Peirce is the process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of existing rival hypotheses as explanations, it may be possible to employ [[Bayesian reasoning]], generally taken to be a form of [[inductive reasoning]].
 
 
 ## References
