@@ -75,7 +75,7 @@ The original list of coherence axioms for monoidal categories given by Mac Lane 
 
 In the proofs below, monoidal product symbols $\otimes$ will be suppressed, to save space. 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #kel1} 
 ###### Lemma ([Kelly](#Kelly)) 
 In a monoidal category, the equation $\lambda_x y = \lambda_{x y} \circ \alpha_{1, x, y}$ holds, i.e., the diagram 
 
@@ -90,7 +90,7 @@ commutes. Similarly, the following equation holds: $\rho_{x y} = (x \rho_y) \cir
 
 +-- {: .proof} 
 ###### Proof 
-We prove only the first equation; the proof of the second is entirely analogous. Since the functor $1 \otimes -$ is an equivalence, it suffices to show that the triangle marked by a question mark in the diagram below commutes: 
+We prove only the first equation; the proof of the second is entirely analogous. Since the functor $1 \otimes -$ is an equivalence (being isomorphic to the identity functor), it suffices to show that the triangle marked by a question mark in the diagram below commutes: 
 
 $$\array{
 ((1 1)x y) & \stackrel{\alpha_{1, 1, x}y}{\to} & (1(1 x)y) & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) & \stackrel{1\alpha_{1, x, y}}{\to} & 1(1(x y)) \\ 
@@ -110,6 +110,25 @@ $$\array{
 
 which uses the pentagon coherence condition, naturality of $\alpha$, and a unit coherence condition. 
 =-- 
+
++-- {: .num_lemma} 
+###### Lemma (Kelly) 
+The equation $\lambda_1 = \rho_1$ holds in a monoidal category. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+Since $1 \otimes -$ is an equivalence, it suffices to show $1 \otimes \lambda_1 = 1 \otimes \rho_1$. But we have the equations 
+
+$$(1 \lambda_1) \circ \alpha_{1, 1, 1} = \lambda_1 1$$ 
+
+$$\,$$ 
+
+$$(1 \rho_1) \circ \alpha_{1, 1, 1} = \lambda_1 1$$ 
+
+where the first equation follows from Lemma \ref{kel1} and the second from a unit coherence triangle. One concludes by composing each side of the equations above by $\alpha_{1, 1, 1}^{-1}$. 
+=-- 
+
 
 ### Strict monoidal categories 
 
