@@ -520,7 +520,13 @@ For special cases of the ring $R$, the notion of $R$-module is equivalent to oth
 
 For $R = \mathbb{Z}$ the [[integers]], an $R$-module is equivalently just an [[abelian group]].
 
-A $\mathbb{Z}$-modle, hence an abelian group, is not a free module if it has a non-trivial [[torsion subgroup]].
+=--
+
++-- {: .num_example}
+###### Example
+
+
+A $\mathbb{Z}$-module, hence an abelian group, is not a free module if it has a non-trivial [[torsion subgroup]].
 
 =--
 
