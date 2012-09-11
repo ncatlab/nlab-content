@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 =--
 =--
 
@@ -114,7 +118,7 @@ Later, Mac Lane pointed out that often, it suffices to assume the existence of *
 
 ## Large cardinals
 
-If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]].  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]] of pure sets.  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
+If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]] ([Williams](#Williams)).  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]] of pure sets.  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
 
 It is worth noting, for those with foundational worries, that the axiom of universes is much, much weaker than many large cardinal axioms which are routinely used, and believed to be consistent, by modern set theorists.  Of course, one cannot _prove_ the consistency of any large cardinal axiom (if it really is consistent) except by invoking a stronger one.
 
@@ -165,6 +169,13 @@ Now let $C$ be a $U$-moderate category (and not small).  Then the category of $U
 
 * A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].  Don't get your hopes up too high, though; even if it works, it isn't quite the category theory you're used to.
 
+## References
+ {#References}
+
+The proof that a Grothendieck universe is equivalently a set of $\kappa$-small sets for $\kappa$ an [[inaccessible cardinal]] is in 
+
+* N. H. Williams, _On Grothendieck universes_, Compositio Mathematica, tome 21 no 1 (1969) ([numdam]( http://www.numdam.org/item?id=CM_1969__21_1_1_0))
+ {#Williams}
 
 category: foundational axiom
 
