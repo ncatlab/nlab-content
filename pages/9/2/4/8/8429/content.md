@@ -5,6 +5,6 @@
 
 * [[natural deduction]]
 
-* [[sequent]]
+* [[sequent calculus]]
 
 category: people
