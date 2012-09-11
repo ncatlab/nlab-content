@@ -2,14 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
