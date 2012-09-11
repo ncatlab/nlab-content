@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
