@@ -19,7 +19,40 @@
 
 The basic idea is that a _module_ $V$ is an object equipped with an [[action]] by a [[monoid]] $A$. This is closely related to the concept of a [[representation]] of a [[group]].
 
-A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups. But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even [[rig]]) $R$, and we can generalise to arbitrary [[rings]] (or rigs) by choosing the left or right side. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
+A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups: every element in $k$ acts on the vector space by multiplication of vectors, and this action respects the addition of vectors.
+
+But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even a general [[rig]]) $R$. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
+
+This is the traditional and maybe most common notion of modules. But the basic notion is easily much more general.
+
+### Motivation for and role of of modules: generalized vector bundles
+ {#RelationToVectorBundlesInIntroduction}
+
+The theory or monoids or rings and their modules, its "meaning" and usage, is naturally understood via the [[Isbell duality|duality]] between [[algebra]] and [[geometry]]:
+
+1. a [[ring]] $R$ is to be thought of as the ring of [[functions]] on some [[space]],
+
+1. an $R$-[[module]] is to be thought of as the space of [[sections]] of a [[vector bundle]] on that space.
+
+A classical situation where this correspondence holds precisely is [[topology]], where
+
+1. the [[Gelfand duality]] theorem says that sending a [[compact topological space]] $X$ to its [[C-star algebra]] $C(X,\mathbb{C})$ of [[continuous functions]] with values in the [[complex numbers]] constitutes an [[equivalence of categories]] between compact topological spaces and the [[opposite category]] of commutative $C^\ast$-alegebras;
+
+1. the [[Serre-Swan theorem]] says that sending a [[Hausdorff topological space|Hausdorff]] topological complex [[vector bundle]] $E \to X$ over a compact topological space to the $C(X,\mathbb{C})$-module of its continuoues [[sections]] establishes an equivalence of categories between that of topological complex vector bundles over $X$ and that of finitely [[generators and relations|generated]] [[projective modules]] over $C(X,\mathbb{R})$.
+
+In fact, as this example already shows, modules faithfully subsume vector bundles, but are in fact more general. In many contexts one regard modules as the canonical generalization of the notion of vector bundles, with better formal properties.
+
+This identification of vector bundles with $R$-modules being the spaces of sections of a vector bundle on the space whose ring of functions is $R$ is can then taken as the very _definition_: notably in [[algebraic geometry]] Gelfand duality is taken to "hold by definition" in that an [[algebraic variety]] is essentially by defintion the formal dual of a given ring, and the Serre-Swan theore similarly becomes the statement that the space of section of a vector bundle over a variety is equivalently given by a module over that ring. (See also at [[quasicoherent module]] for more on this).
+
+This [[Isbell duality|duality]] between geometry and algebra allows to re-interpret many statement about modules in terms of vector bundles. For instance 
+
+* the [[direct sum]] of modules corresponds to fiberwise direct sum of vector bundles;
+
+* the [[extension of scalars]] of a module along a ring homomorphism corresponds to [[pullback]] of vector bundles along the dual map of spaces;
+
+* etc.
+
+Using this disctionary for instance the notion of [[descent]] of vector bundles can be expressed in terms of [[monadic descent]], see at _[[Sweedler coring]]_ for discussion of this point.
 
 
 ### More general perspectives
@@ -609,6 +642,10 @@ $$
 ## References
 
 ### General 
+
+A standard textbook is
+
+* F.W. Anderson, K.R. Fuller, _Rings and Categories of Modules_, Graduate Texts in Mathematics, Vol. 13, Springer-Verlag, New York, (1992)
 
 Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]] are in
 
