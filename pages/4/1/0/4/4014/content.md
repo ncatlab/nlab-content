@@ -60,7 +60,7 @@ When one applies frequentism to statistical inference, one finds oneself making 
 
 On the frequentist view, one must not assign probability 1/3, or any number, to the proposition that there was life on Mars a billion years ago, because one cannot say that that happened in 1/3 of all cases.
 
-An alternative view is called Bayesianism, after the 18th-century English Presbyterian minister and mathematician Thomas Bayes.  On the Bayesian view, probabilities are degrees of belief in uncertain propositions, not relative frequencies or proportions.
+An alternative view is called [[Bayesianism]], after the 18th-century English Presbyterian minister and mathematician Thomas Bayes.  On the Bayesian view, probabilities are degrees of belief in uncertain propositions, not relative frequencies or proportions.
 
 When one applies Bayesianism to statistical inference, one faces the problem of what probability distribution to assign to the vector $(p_1,\dots,p_6)$.  It is often asserted by both Bayesians and frequentists that that is subjective.
 
