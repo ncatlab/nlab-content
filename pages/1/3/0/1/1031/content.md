@@ -29,11 +29,11 @@ There are various definitions of the notion of kernel, depending on the properti
 
 ### As a pullback 
 
+
 +-- {: .num_defn}
 ###### Definition
 
-
-In a [[category]] with an [[initial object]] $0$ and [[pullback]]s, the __kernel__ $ker(f)$ of a [[morphism]] $f:c\to d$ is the [[pullback]] $ker(f) \to c$ along $f$ of the unique morphism $0 \to d$
+In a [[category]] with an [[initial object]] $0$ and [[pullbacks]], the __kernel__ $ker(f)$ of a [[morphism]] $f: A \to B$ is the [[pullback]] $ker(f) \to A$ along $f$ of the unique morphism $0 \to B$
 
 $$
   \array{
@@ -41,12 +41,21 @@ $$
     &\to&
     0
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{p}}\downarrow && \downarrow
     \\
-    c &\stackrel{f}{\to}& d
+    A &\stackrel{f}{\to}& B
   }
   \,.
 $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+More explicitly, this characterizes the object $ker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
+
+for every object $C$ and every morphism $h : C \to A$ such that $f\circ h = 0$ is the [[zero morphism]], there is a unique morphism $\phi : C \to ker(f)$ such that $h = p\circ \phi$.
 
 =--
 
@@ -205,9 +214,28 @@ $$
 
 (This also follows from the general theory of [[generalized kernels]].)
 
+## Examples
+
++-- {: .num_example}
+###### Example
+
+In the [[category]] [[Ab]] of abelian groups, the kernel of a [[group homomorphism]] $f : A \to B$ is the [[subgroup]] of $A$ on the set $f^{-1}(0)$ of elements of $A$ that are sent to the zero-element of $B$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+
+More generally, for $R$ any [[ring]], this is true in $R$[[Mod]]: the kernel of a morphism of modules is the [[preimage]] of the zero-element at the level of the underlying sets, equipped with the unique sub-module structure on that set.
+
+=--
+
 ## Related concepts
 
 * **kernel**, [[generalized kernel]]
+
+* [[homotopy fiber]]
 
 * [[cokernel]]
 
