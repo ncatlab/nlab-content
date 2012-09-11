@@ -123,16 +123,17 @@ and section D1.3 for sequent calculus.
 
 Sequent calculus was introduced by Gerhard Gentzen in his 1933 thesis 
 
-* [[Gerhard Gentzen,]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353>.
+* [[Gerhard Gentzen]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353>.
  {#Gentzen}
 
 as a formal system for studying the properties of proof systems presented in the style of [[natural deduction]] (also introduced by Gentzen).  It has since been widely adopted over natural deduction in proof theory and automated theorem proving.
 
 
+The articel
 
+* Wikipedia, _[Sequent calculus](http://en.wikipedia.org/wiki/Sequent_calculus)_
 
-
-* The [Wikipedia article](http://en.wikipedia.org/wiki/Sequent_calculus) provides a good summary.
+provides a good summary.
 
 
 [[!redirects sequent calculus]]
