@@ -14,3 +14,5 @@ The just defined Galois group is the one occurring in the classical [[Galois the
 The Galois group $Gal(K\hookrightarrow K_s)$ of the separable closure of $K$ is called *[[absolute Galois group]]* of $K$. In this case we have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$. In particular the notion of [[fundamental group of a topos|fundamental group (of a point of) a topos]] generalizes that of Galois group. This observation is the starting point and motivating example of [[Grothendieck's Galois theory]] and more generally of that of [[homotopy groups in an (infinity,1)-topos]].
 
 If the scheme moreover is a [[group scheme]] (i.e. endowed with a group structure) modules over the Galois group which are called [[Galois module|Galois modules]] play an important role in [[algebraic number theory]].
+
+category: Galois theory
