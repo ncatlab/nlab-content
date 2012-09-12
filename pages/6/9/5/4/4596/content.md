@@ -39,9 +39,10 @@ $$
 of the long [[homotopy fiber sequence]] of chain complexes induced by the short exact sequence. Hence the connecting homomorphism is the image under $H_\bullet(-)$ of a [[mapping cocone]] inclusion on chain complexes.
 
 
-## Description for long homology exact sequences 
+## For long (co)homology exact sequences 
 
-The construction of the connecting homomorphism is easily described in terms of elements in the case that $\mathcal{A} \simeq R$[[Mod]] for some [[ring]] $R$, see [In terms of elements](#OnHomologyInTermsOfElements) below. By the [embedding theorems](abelian%20category#EmbeddingTheorems) the general case can be reduced to this case. But there is also an abstract construction without recourse to elements, see the [General abstract construction](#OnHomologyGeneralAbstract) below.
+In the case that $\mathcal{A} \simeq R$[[Mod]] for some [[ring]] $R$,
+the construction of the connecting homomorphism for [[homology long exact sequences]] is easily described in terms of elements and checking its properties is elementary, see _[In terms of elements](#OnHomologyInTermsOfElements)_ below. By the [embedding theorems](abelian%20category#EmbeddingTheorems) the general case can be reduced to this case. But there is also a general abstract description without recourse to elements, which we discuss further below in _[General abstract construction](#OnHomologyGeneralAbstract)_ .
 
 ### In terms of elements
  {#OnHomologyInTermsOfElements}
@@ -59,7 +60,7 @@ be a [[short exact sequence]] in $Ch_\bullet(\mathcal{A})$.
 +-- {: .num_defn #ConnectingForHomologyInComponents}
 ###### Definition
 
-For $n \in \mathbb{Z}$, define a map
+For $n \in \mathbb{Z}$, define a group homomorphism
 
 $$
   \delta_n : H_n(C) \to H_{n-1}(A)
@@ -68,7 +69,7 @@ $$
 by sending
 
 $$
-  \delta_n : [c] \mapsto \widehat{[\partial^B \hat c]}
+  \delta_n : [c] \mapsto [\partial^B \hat c]_A
   \,,
 $$
 
@@ -78,32 +79,99 @@ where
 
 1. $\hat c \in C_n(B)$ is any lift of that cycle to an element in $B_n$, which exists because $p$ is a [[surjection]] (but which no longer needs to be a cycle itself);
 
-1. $\widehat{[\partial^B \hat c]}$ is any lift of $\partial^B \hat c$ to $C_{n-1}(A)$, which exists uniquely by exactness (since $p(\partial^B \hat c) = \partial^C p(\hat c) = \partial^C c = 0$) and which is indeed in $Z_{n-1}(A)$ since $\partial^A \widehat{[\partial^B \hat c]} = \partial^B \partial^B \hat c = 0$.
+1. $[\partial^B \hat c]_A$ is the $A$-homology class of $\partial^B \hat c$  which is indeed in $A_{n-1} \hookrightarrow B_{n-1}$ by exactness (since $p(\partial^B \hat c) = \partial^C p(\hat c) = \partial^C c = 0$) and indeed in $Z_{n-1}(A) \hookrightarrow A_{n-1}$ since $\partial^A \partial^B \hat c = \partial^B \partial^B \hat c = 0$.
+
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Def. \ref{ConnectingForHomologyInComponents} is indeed well in that 
-the given map is independent of the choices involved.
+Def. \ref{ConnectingForHomologyInComponents} is indeed well defined in that 
+the given map is independent of the choice of lift $\hat c$ involved and in that the group structure is respected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the constructon is well-defined, let $\tilde c \in B_{n}$ be another lift. Then $p(\hat c - \tilde c) = 0$ and hence 
+$\hat c - \tilde c \in A_n \hookrightarrow B_n$.
+This exhibits a homology-equivalence $[\partial^B\hat c]_A \simeq [\partial^B \tidle c]_A$ since
+$
+  \partial^A(\hat c - \tilde c) 
+  = 
+  \partial^B \hat c - \partial^B \tilde c$.
+
+
+To see that $\delta_n$ is a group homomorphism, let $[c] = [c_1] + [c_2]$ be a sum. Then $\hat c \coloneqq \hat c_1 + \hat c_2$ is a lift and by linearity of $\partial$ we have $[\partial^B \hat c]_A = [\partial^B \hat c_1] + [\partial^B \hat c_2]$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Under [[chain homology]] $H_\bullet(-)$ the morphisms in the short exact sequence together with the connecting homomorphisms yield the [[homology long exact sequence]]
+
+$$
+  \cdots
+   \to
+  H_n(A) \to H_n(B) \to H_n(C) 
+   \stackrel{\delta_n}{\to}
+  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)   
+   \to
+  \cdots
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider first the exactness of $H_n(A) \stackrel{H_n(i)}{\to} H_n(B) 
+\stackrel{H_n(p)}{\to} H_n(C)$.
+
+It is clear that if $a \in Z_n(A) \hookrightarrow Z_n(B)$ then the image of $[a] \in H_n(B)$ is $[p(a)] = 0 \in H_n(C)$.
+Conversely, an element $[b] \in H_n(B)$ is in the kernel of $H_n(p)$ if there is $c \in C_{n+1}$ with $\partial^C c = p(b)$. Since $p$ is surjective let $\hat c \in B_{n+1}$ be any lift, then $[b] =  [b - \partial^B \hat c]$ but $p(b - \partial^B c) = 0$ hence by exactness $b - \partial^B \hat c \in Z_n(A) \hookrightarrow Z_n(B)$ and so $[b]$ is in the image of $H_n(A) \to H_n(B)$. 
+
+
+It remains to see that
+
+1. the [[image]] of $H_n(B) \to H_n(C)$ is the [[kernel]] of $\delta_n$;
+
+1. the [[kernel]] of $H_{n-1}(A) \to H_{n-1}(B)$ is the [[image]] of $\delta_n$.
+
+This follows by inspection of the formula in def. \ref{ConnectingForHomologyInComponents}. We spell out the first one:
+
+If $[c]$ is in the image of $H_n(B) \to H_n(C)$ we have a lift $\hat c$ with $\partial^B \hat c = 0$ and so $\delta_n[c] = [\partial^B \hat c]_A  = 0$. Conversely, if for a given lift $\hat c$ we have that $[\partial^B \hat c]_A = 0$ this means there is $a \in A_n$ such that $\partial^A a \coloneqq \partial^B a = \partial^B \hat c$. But then $\tilde c \coloneqq \hat c - a$ is another possible lift of $c$ for which $\partial^B \tilde c = 0$ and so $[c]$ is in the image of $H_n(B) \to H_n(C)$.
+ 
 
 =--
 
 
-Similarly in cohomology:
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_remark}
+###### Remark
 
-For $[c]_C \in H^n(C)$ the class of a closed element $c$, by surjectivity of $B \to C$ there is an element $\hat c \in B$ mapping to it. This need not be closed anymore, but of course $d_B \hat c$ is. By the fact that $B \to C$ is a chain map we have that the image of $d_B \hat c$ in $C$ vanishes. Therefore by the exactness of the sequence the element $d_B \hat c$ may be regarded as a closed element of $A$. The cohomology class $[d_B \hat c]_A$ of this is what the connecting homomorphism assigns to $[c]_C$:
+Of course the situation for [[cochain cohomology]] is formally dual to this situation. For convenience we repeat the statement for dual chains:
+
+Let $A^\bullet \to B^\bullet \to C^\bullet$ be a short exact sequence of cochain complexes.
+
+For $[c]_C \in H^n(C)$ the class of a closed element $c$, by surjectivity of $B \to C$ there is an element $\hat c \in B$ mapping to it. This need not be closed anymore, but of course $d_B \hat c$ is. By the fact that $B \to C$ is a chain map we have that the image of $d_B \hat c$ in $C$ vanishes. Therefore by the exactness of the sequence the element $d_B \hat c$ may be regarded as a closed element of $A$. The cohomology class $[d_B \hat c]_A$ of this is what the connecting homomorphism 
+
+$$
+  \delta^n : H^n(C) \to H^{n+1}(A)
+$$
+
+assigns to $[c]_C$:
 
 $$
   \delta : [c]_C \mapsto [d_B\hat c]_A
   \,.
 $$
 
-This is indeed well defined, in that it is independent of the choice of $\hat c$: for $\hat c'$ another choice, we have that the difference $\hat c - \hat c'$ is in the kernel of $B \to C$ hence is in $A$. Then $d_B \hat c' = d_B \hat C + d_A(\hat c - \hat c')$. Hence $[d_B \hat c]_A = [d_B \hat c']_A$.
+This is indeed well defined, in that it is independent of the choice of $\hat c$: for $\hat c'$ another choice, we have that the difference $\hat c - \hat c'$ is in the kernel of $B \to C$ hence is in $A$. Then $d_B \hat c' = d_B \hat c + d_A(\hat c - \hat c')$. Hence $[d_B \hat c]_A = [d_B \hat c']_A$.
 
 =--
 
@@ -137,8 +205,6 @@ in [[chain homology]].
 
 +-- {: .proof}
 ###### Proof
-
-A proof not using the [[Freyd-Mitchell embedding theorem]] can proceed as follows.
 
 Applying the [[snake lemma]] to the [[commuting diagram]]
 
