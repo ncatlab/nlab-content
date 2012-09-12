@@ -44,6 +44,9 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 * The generalization of this to [[(∞,1)-category theory]] is that of _[[groupoid object in an (∞,1)-category]]_.
 
 
+## Related concepts
+
+* [[Bishop set]]
 
 
 [[!redirects equivalence relation]]
