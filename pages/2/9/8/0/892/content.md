@@ -55,3 +55,4 @@ category: foundational axiom
 [[!redirects axiom of power set]]
 [[!redirects axiom of power sets]]
 [[!redirects power set axiom]]
+[[!redirects powerset axiom]]
