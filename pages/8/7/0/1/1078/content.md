@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
-
 
 # Direct sums and weak direct products
 * table of contents
@@ -16,13 +15,12 @@
 
 ## Idea
 
-
-
 The notion of __direct sum__, or __weak direct product__, is a concept from [[algebra]] that actually makes sense in any [[category]] $C$ with [[zero morphisms]] (that is, any category [[enriched category|enriched]] over the [[closed monoidal category]] of [[pointed sets]]), as long as the needed ([[colimit|co]])[[limits]] exist.  
 
 As basic and familiar example is the direct sum $V_1 \oplus V_2$  of two [[vector spaces]] $V_1$ and $V_2$ over some [[field]], or, more generally of two [[modules]] over some [[ring]]. Generally, for $I$ a set an $\{V_i\}_{i \in I}$ an $I$-indexed family of vector space or modules, their direct sum $\oplus_{i \in I} V_i$ is the collection of [[formal linear combinations]] of elements in each of the $V_i$. This may in part motivate the terminology: _an element in a direct sum is a sum of elements_, at least in these cases.
 
-In many cases, direct sums and weak [[direct products]] coincide, but not always.  Also in many cases, direct sums will be the same as [[coproducts]].  In any case, finitary weak direct products are the same as [[products]] but the infinitary versions are (almost always) different.
+This generalises in two distinct ways, which we call _direct sums_ and _weak direct products_.  In many cases (as in the example above), these coincide, but not always.  Also in many cases, direct sums will be the same as [[coproducts]].  In any case, finitary weak direct products are the same as [[products]] but the infinitary versions are (almost always) different.
+
 
 ## Terminology
 
@@ -35,12 +33,14 @@ In the classical examples of $C$, the direct sum and weak direct product are the
 
 ## Definitions
 
+Let $\mathcal{C}$ be a [[category]] with [[products]] and [[coproducts]], as well as [[zero morphisms]].  Let $I$ be a [[set]], and let $(A_i)_{i \in I}$ be an $I$-indexed [[family]] of of [[objects]] in $\mathcal{C}$, hence a [[function]] $A : I \to Obj(\mathcal{C})$.
+
+We now define both the direct sum and weak direct product of this family.  The $A_i$ will be called the __direct summands__ or (weak) __direct factors__.
+
 
 ### Direct sum
 
-Let $\mathcal{C}$ be a [[category]] with all [[products]] and [[coproducts]], with [[zero morphisms]]. Assume moreover that $\mathcal{C}$ is a [[regular category]] or otherwise has a good concept of [[image]]. 
-
-Let $I \in$ [[Set]] be a set. Let $\{A_i\}_{i \in I}$ be an $I$-indexed family of of [[objects]] in $\mathcal{C}$, hence a [[function]] $A : I \to Obj(\mathcal{C})$.
+Here we must assume moreover that $\mathcal{C}$ is a [[regular category]] (or otherwise has a good concept of [[image]]). 
 
 +-- {: .num_defn}
 ###### Definition
@@ -83,16 +83,20 @@ In [[constructive mathematics]], the definition of $r$ requires that the index s
 
 ### Weak direct product
 
-... then consider the finitary [[products]]
+Here we consider the finitary [[products]]
 $$ \prod_{i \in F} A_i $$
-as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In [[constructive mathematics]], use the 'finitely indexed' or '[[Kuratowski finiteness]]' here ... although if $I$ has [[decidable equality]], as is the case in the usual examples, then every finitely indexed subset of $I$ is actually finite in the strictest sense.)
+as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In [[constructive mathematics]], use 'finitely indexed' or '[[Kuratowski finite]]' here ... although if $I$ has [[decidable equality]], as is the case in the usual examples, then every finitely indexed subset of $I$ is actually finite in the strictest sense.)
 
 These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
 $$ \prod_{i \in F} A_i \to \prod_{i \in G} A_i ,$$
 where $F \subseteq G$, given by
 $$ \prod_{i \in F} A_i \cong \prod_{i \in F} A_i \times \prod_{i \in G \setminus F} 1 \stackrel{(id, 0)}{\to} \prod_{i \in F} A_i \times \prod_{i \in G \setminus F} A_i \cong \prod_{i \in G} A_i .$$
 
-Then if it exists, the __weak direct product__ $\prod^wk_i A_i$ is defined to be the [[directed limit|directed colimit]] of this direct system.
++-- {: .num_defn}
+###### Definition
+
+If it exists, the __weak direct product__ $\prod^wk_i A_i$ is defined to be the [[directed limit|directed colimit]] of this direct system.
+=--
 
 
 ## Examples
@@ -185,12 +189,12 @@ In the category of [[Banach spaces]] (with [[short linear maps]]), the direct su
 
 =--
 
+
 [[!redirects direct sum]]
 [[!redirects direct sums]]
-
-[[!redirects weak direct product]]
-[[!redirects weak direct products]]
 
 [[!redirects direct summand]]
 [[!redirects direct summands]]
 
+[[!redirects weak direct product]]
+[[!redirects weak direct products]]
