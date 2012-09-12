@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -165,10 +166,10 @@ We accomplish (1) with a [[redirect]]; we accomplish (2) with a [[page move]].  
 7.  Delete everything else (consisting of the material that you already merged into 'A').
 8.  Submit.
 
-The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').
+The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').  But if they\'re really at 'B' on purpose to check the edit history, then that history is there for them.
 
 
-## Naming conventions ##
+## Naming conventions
 {#naming}
 
 These are not set in stone, but we\'re following them for now. Changing page titles results in unnecessary work for the [[lab elves]], so you should try to follow these if possible (or dispute them if not).  It is most important to follow these in links to pages that don\'t yet exist, so that the pages will be created at the correct title (and only once).
@@ -606,22 +607,6 @@ Here are some useful specifics:
 ## survey of available math typesetting commands ##
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
+
+
 category: meta
