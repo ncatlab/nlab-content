@@ -1,0 +1,6 @@
+
+
+## References
+
+* Donatella Iacono, Marco Manetti, _An algebraic proof of Bogomolov-Tian-Todorov theorem_ ([arXiv:0902.0732](http://arxiv.org/abs/0902.0732))
+
