@@ -198,7 +198,7 @@ For a more detailed discussion of these matters see at _[[relation between type 
 ### Axiom of choice
  {#AxiomOfChoice}
 
-In dependent type theory we can verify the follow "logical form of the [[axiom of choice]]" ([Bell](#Bell), [Tait](#Tait)) :
+In dependent type theory we can verify the follow "logical form of the [[axiom of choice]]" ([Bell](#Bell), [Tait](#Tait)), see also ([Rijke, section 2.5.1](#Rijke)).
 
 +-- {: .num_theorem }
 ###### Theorem 
@@ -243,7 +243,7 @@ If we use instead a different logic over the same type theory, such as [[bracket
 
 ##References
 
-Since also the references at _[[type theory]]_.
+See also the references at _[[type theory]]_.
 
 The original reference is
 
@@ -253,6 +253,11 @@ An introduction and survey (with an eye towards [[homotopy type theory]]) is in 
 
 * [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  {#Warren}
+
+as well as
+
+* Egbert Rijke, _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
+ {#Rijke}
 
 A discussion of ML dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
