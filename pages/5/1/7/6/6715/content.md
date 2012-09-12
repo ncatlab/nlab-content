@@ -6,12 +6,33 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+A _Bockstein homomorphism_ is a [[connecting homomorphism]] induced from a [[short exact sequence]] whose injective map is given by multiplication with an [[integer]].
+
+The archetypical examples are the Bockstein homomorphisms induced this way from the short exact sequence
+
+$$
+  \mathbb{Z} 
+    \stackrel{\cdot 2}{\to} 
+  \mathbb{Z}
+    \stackrel{}{\to}
+  \mathbb{Z}/2\mathbb{Z}
+  \,.
+$$
+
+These relate notably degree-$n$ [[cohomology]]  with [[coefficients]] in $\mathbb{Z}_2$ (such as [[Stiefel-Whitney classes]]) to cohomology with integral coefficients in degree $n+1$ (such as [[integral Stiefel-Whitney classes]]).
 
 ## Definition
 
