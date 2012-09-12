@@ -1,25 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Additive and abelian categories
-+--{: .hide}
++-- {: .hide}
 [[!include additive and abelian categories - contents]]
 =--
 =--
 =--
 
-
-
-
 # Zero objects
 * table of contents
 {: toc}
-
 
 ## Definition
 
@@ -45,7 +41,7 @@ This means that $0 \in \mathcal{C}$ is a zero object precisely if for every othe
 ###### Remark
 
 There is also a notion of **zero object** in [[algebra]] which does not always coincide with the category-theoretic terminology. For example the zero [[ring]] $\{0\}$ is not an [[initial object]] in the category of unital rings (this is instead the [[integers]] $\mathbb{Z}$); but it is the 
-[[terminal object]].
+[[terminal object]].  However, the zero ring *is* the zero object in the category of [[nonunital ring]]s (although it happens to be unital).
 
 =--
 
@@ -145,7 +141,7 @@ Thus, such a category becomes [[enriched category|enriched]] over the [[category
 [[!redirects zero objects]]
 [[!redirects 0 object]]
 [[!redirects 0 objects]]
+[[!redirects 0-object]]
+
 [[!redirects null object]]
 [[!redirects null objects]]
-
-[[!redirects 0-object]]
