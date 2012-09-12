@@ -1,4 +1,19 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+# Two-variable and $n$-variable adjunctions
+* table of contents
+{: toc}
+
+## Idea
 
 An _adjunction of two variables_ is a straightforward generalization of both:
 
@@ -8,7 +23,7 @@ An _adjunction of two variables_ is a straightforward generalization of both:
 
 by extracting the central pattern.
 
-#Definition#
+## Definition
 
 Let $C$, $D$ and $E$ be [[category|categories]]. An **adjunction of two variables** or **two-variable adjunction**
 
@@ -39,8 +54,34 @@ $$
   \,.
 $$
 
-#References#
+## Cyclicity
 
-This is in chapter 4 of
+If $(\otimes, hom_l, hom_r) : C \times D \to E$ is a two-variable adjunction, then so are
+$$
+ (hom_l^{op}, \otimes^{op}, hom_r) : E^{op} \times C \to D^{op}
+$$
+and
+$$
+ (hom_r^{op}, hom_l, \otimes^{op}) : D\times E^{op} \to C^{op}.
+$$
+giving an action of the [[cyclic group]] of order 3.  This can be made to look more symmetrical by regarding the original two-variable adjunction as a "two-variable left adjunction" $C\times D \to E^{op}$; see [Cheng-Gurski-Riehl](#CGR).
 
-* Mark Hovey. Model Categories, volume 63 of Mathematical Surveys and Monographs. American Mathematical Society, 1999.
+## Adjunctions of $n$ variables
+
+There is a straightforward generalization to an adjunction of $n$ variables, which involves $n+1$ categories and $n+1$ functors.  Adjunctions of $n$ variables assemble into a 2-[[multicategory]].  They also have a corresponding notion of [[mates]]; see [Cheng-Gurski-Riehl](#CGR).
+
+## References
+
+* [[Mark Hovey]]. *Model Categories*, volume 63 of Mathematical Surveys and Monographs. American Mathematical Society, 1999.  See Chapter 4.
+
+* [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+{#CGR}
+
+[[!redirects two-variable adjunction]]
+[[!redirects two-variable adjunctions]]
+[[!redirects adjunction of two variables]]
+[[!redirects adjunctions of two variables]]
+[[!redirects n-variable adjunction]]
+[[!redirects n-variable adjunctions]]
+[[!redirects adjunction of n variables]]
+[[!redirects adjunctions of n variables]]
