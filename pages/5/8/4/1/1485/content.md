@@ -180,6 +180,8 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 
 * [[low-dimensional topology]]
 
+* [[projective manifold]]
+
 ## References
 
 * John Loftin, _The real definition of a smooth manifold_ ([pdf](http://andromeda.rutgers.edu/~loftin/difffal03/manifold.pdf))
