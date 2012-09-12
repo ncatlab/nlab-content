@@ -13,6 +13,9 @@ The archetypical example is [[projective space]] itself. In direct generalizatio
 
 This generalizes to [[quiver representations]]. Every Grassmannian of a Quiver representation is a projective variety. In fact, every projective variety arises this way ([Reineke, '12](#Reineke)). 
 
+## Related concepts
+
+* [[projective manifold]]
 
 ## References
 
