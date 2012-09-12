@@ -16,3 +16,5 @@ In [[algebraic geometry]], there is a __[[Hodge to de Rham spectral sequence]]__
 [[!redirects degeneration of Hodge-to-de-Rham spectral sequence]] [[!redirects degeneration conjecture]]
 
 [[!redirects degeneration conjecture]]
+
+[[!redirects degeneration of the Hodge-to-de Rham spectral sequence]]
