@@ -47,7 +47,23 @@ The [[morphisms]] most commonly considered between algebraic lattices are the [[
 
 The resulting category __AlgLat__ is [[cartesian closed]] and is dually equivalent to the category whose objects are [[meet semilattices]] (construed as categories with [[finite limits]] [[enriched category|enriched]] over [[truth values]]) and whose morphisms are meet-preserving [[profunctors]] between them (using the convention that a $V$-enriched profunctor from $C$ to $D$ is a functor $D^{op} \times C \rightarrow V$; of course, with an opposite convention, one could similarly state a covariant equivalence). 
 
-The category of [[topological spaces]] is the [[stuff, structure, property|2-image]] of the projection from the [[comma category]] $(Set / Forgetful)$ to $Set$, where $Forgetful : AlgLat \rightarrow Set$ is the obvious forgetful functor. This connection is explored in more depth with the category of [[equilogical spaces]], equivalent to both a category of [[equivalence relation|partial equivalence relations]] over $AlgLat$, and of total [[equivalence relations]] on $T_0$ topological spaces.
+There is a functor 
+
+$$i \colon AlgLat \to Top_0$$ 
+
+to the category of $T_0$-spaces, mapping an algebraic lattice $L$ to the space whose points are elements of $L$, and whose open sets $U$ are defined by the property that their characteristic maps 
+
+$$\chi_U: L \to \mathbf{2}$$ 
+
+($\chi_U(a) = 1$ if $a \in U$, else $\chi_U(a) = 0$) are poset maps that preserve directed colimits. The [[specialization order]] of $i(L)$ is $L$ again. 
+
+Every $T_0$-space $X$ occurs as a subspace of some space $i(L)$ associated with an algebraic lattice. Explicitly, let $L(X)$ be the power set of the underlying set of the topology, $P{|\mathcal{O}(X)|}$, and define 
+
+$$X \to (i\circ L)(X)$$ 
+
+to take $x$ to $N(x) \coloneqq \{U \in \mathcal{O}(X): x \in U\}$. This gives a topological embedding of $X$ in $i(L(X))$. 
+
+This connection is explored in more depth with the category of [[equilogical spaces]], which can be seen either as a category of (set-theoretic) [[equivalence relation|partial equivalence relations]] over $AlgLat$, or equivalently of (set-theoretic) total [[equivalence relations]] on $T_0$ topological spaces.
 
 
 
