@@ -36,7 +36,7 @@ $$
   H_0(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
 $$
 
-of the long [[homotopy fiber sequence]] of chain complexes induced by the short exact sequence. Hence the connecting homomorphism is the image under $H_\bullet(-)$ of a [[mapping cocone]] inclusion on chain complexes.
+of the long [[homotopy fiber sequence]] of chain complexes induced by the short exact sequence. Hence the connecting homomorphism is the image under $H_\bullet(-)$ of a [[mapping cone]] inclusion on chain complexes.
 
 
 ## For long (co)homology exact sequences 
@@ -60,12 +60,14 @@ be a [[short exact sequence]] in $Ch_\bullet(\mathcal{A})$.
 +-- {: .num_defn #ConnectingForHomologyInComponents}
 ###### Definition
 
-For $n \in \mathbb{Z}$, define a group homomorphism
+For $n \in \mathbb{Z}$, define a [[group homomorphism]]
 
 $$
   \delta_n : H_n(C) \to H_{n-1}(A)
+  \,,
 $$
 
+called the **$n$th connecting homomorphism** of the short exact sequence,
 by sending
 
 $$
@@ -97,7 +99,7 @@ the given map is independent of the choice of lift $\hat c$ involved and in that
 
 To see that the constructon is well-defined, let $\tilde c \in B_{n}$ be another lift. Then $p(\hat c - \tilde c) = 0$ and hence 
 $\hat c - \tilde c \in A_n \hookrightarrow B_n$.
-This exhibits a homology-equivalence $[\partial^B\hat c]_A \simeq [\partial^B \tidle c]_A$ since
+This exhibits a homology-equivalence $[\partial^B\hat c]_A \simeq [\partial^B \tilde c]_A$ since
 $
   \partial^A(\hat c - \tilde c) 
   = 
@@ -250,6 +252,22 @@ $$
 are [[exact sequences]]. Therefore applying the [[snake lemma]] to this, once more, yields the desired long exact sequence.
 
 =--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The [[nLab:connecting homomorphism]] of the [[nLab:long exact sequence in homology]] induced from short exact sequences of the form 
+
+$$
+  A/A_{n tor} \stackrel{(-)\cdot n}{\to} A \to A/(n A)
+$$
+
+is called a _[[nLab:Bockstein homomorphism]]_.
+
+=--
+
 
 ## References
 
