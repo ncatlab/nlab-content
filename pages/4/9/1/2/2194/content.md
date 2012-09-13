@@ -49,7 +49,7 @@ The [[Fourier transform]] on locally compact abelian groups is formulated in ter
 
 Also see:
 
-* Michael Barr, On duality of topological abelian groups. ([PDF](ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/abgp.pdf))
+* Michael Barr, On duality of topological abelian groups. ([PDF](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf))
 
 which provides a perhaps better context for Pontryagin duality than the category of locally compact Hausdorff abelian groups (also known as 'LCA groups').  Barr explains:
 
