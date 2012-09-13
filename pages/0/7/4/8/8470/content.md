@@ -32,12 +32,25 @@ A **predicative topos** is a [[ΠW-pretopos]] satisfying the [[axiom of multiple
 
 This is ([van den Berg, def. 6.1](#vdBerg)).
 
+
 +-- {: .num_remark }
 ###### Remark
 
 The [[axiom of multiple choice]] appears in different strengths in the literature. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom
 
 =--
+
+## Properties
+
++-- {: .num_theorem }
+###### Theorem
+
+A [[category]] of [[internal sheaves]] over an [[internal site]] in a predicative topos is again a predicative topos.
+
+=--
+
+This is ([van den Berg, therem 7.5](#vdBerg)), using [vdBerg-Moerdijk, theorem 4.21](#vdBergMoerdijk)
+
 
 ## Examples
 
@@ -48,7 +61,7 @@ The [[category]] of [[Bishop sets]] in [[Martin-Löf dependent type theory]] is 
 
 =--
 
-This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren 99, section 7](#MoerdijkPalmgren99)).
+This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren 99, section 7](#MoerdijkPalmgren99)) and ([Moerdijk-Palmgren 00, section 10](#MoerdijkPalmgren00)).
 
 
 
@@ -62,6 +75,9 @@ The goal of formulating a notion of _predicative topos_ was stated and pursued i
 * [[Ieke Moerdijk]], [[Erik Palmgren]], _Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.8934))
  {#MoerdijkPalmgren00}
  
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _Aspects of predicative algebraic set theory III: Sheaves. Proceedings of the London Mathematical Society., (2012) ([arXiv:arXiv:0912.1242]())
+ {#vdBergMoerdijk}
+
 The definition then appears in
 
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
