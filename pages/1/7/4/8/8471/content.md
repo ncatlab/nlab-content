@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Let $X$ be a smooth [[complex manifold]] with trivial [[canonical bundle]], and let $A^{0,*}(T_X)$ be the [[differential graded Lie algebra]] of smooth [[differential form]]s of type $(0,*)$ with coefficients in the [[tangent sheaf]] of $X$. The Goldman-Millson quasi-abelianity theorem [GM90](#citegoldman-millson) states that the [[differential graded Lie algebra|dgla]] $A^{0,*}(T_X)$ is quasi-abelian, i.e., it is [[quasi-isomorphism|quasi-isomorphic]] to an [[abelian differential graded Lie algebra|abelian dgla]].
 
 Since the dgla $A^{0,*}(T_X)$ is a [[model]] for the [[derived functor|derived]] [[global section]]s $R\Gamma\mathcal{T}_X$ of the tangent sheaf $\mathcal{T}_X$ of $X$, the Goldman-Millson quasi-abelianity theorem can be stated by saying that if $X$ be a smooth complex manifold with trivial canonical bundle, then $R\Gamma\mathcal{T}_X$ is quasi-abelian. In this form the Goldman-Millson theorem can be generalized to smooth [[projective manifold]]s over an arbitrary [[characteristic]] zero [[algebraically closed
