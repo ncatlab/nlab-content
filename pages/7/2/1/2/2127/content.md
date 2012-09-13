@@ -12,8 +12,8 @@
 
 
 
-#Contents#
-* automatic table of contents goes here
+#Small objects#
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -80,3 +80,9 @@ Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$.  Then any 
 * By definition, in a [[locally presentable category]] every object is a [[colimit]] over small objects.
 
 * Smallness of objects plays a crucial role in the [[small object argument]].
+
+## Related concepts
+
+* [[object classifier]]
+
+[[!redirects small objects]]
