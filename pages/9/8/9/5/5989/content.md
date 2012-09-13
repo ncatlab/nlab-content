@@ -6,7 +6,7 @@ Myles began his career as an [[algebraic topology|algebraic topologist]], moved 
 
 He had six Ph.D. students: Ira Wolf (1971), Carol Ann Keller (1983), Norman Adams (1984), Terence Lindgren (1984), [[Todd Trimble]] (1994), and Luca Mauri (1998). Myles retired as of January 1, 2003 and was honored by the Department at a retirement party on December 10, 2002. 
 
-> (Taken from [Career Say](http://www.careersay.com))
+> (Taken from [this website](http://www.math.rutgers.edu/newsletter/newsletter2003.html))
 
 
 [[!redirects M. Tierney]]
