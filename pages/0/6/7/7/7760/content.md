@@ -1,3 +1,8 @@
-* [[M. Makkai]], _A survey of basic stability theory, with particular emphasis on orthogonality and regular types_, Israel J. Math. __49__, n.1-3 (1984), 181-238, [doi](http://dx.doi.org/10.1007/BF027606491984)
+
+## References
+
+* [[M. Makkai]], _A survey of basic stability theory, with particular emphasis on orthogonality and regular types_, Israel J. Math. __49__, n.1-3 (1984), 181-238, [doi](http://dx.doi.org/10.1007/BF02760649)
+
 * John T. Baldwin, _Fundamentals of stability theory_, Perspectives in Math. Logic, Springer 1988
+
 * [[geometric stability theory]]
