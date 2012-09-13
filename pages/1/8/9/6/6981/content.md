@@ -7,10 +7,10 @@
 
  [[logic]]                      |   [[category theory]]                     |  [[type theory]]
 --------------------------------|-------------------------------------------|--------------------------------
- [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]] [[type]] / [[hProp]] 
- [[proof]]                      |  [[generalized element]]                  | [[program]]
- [[true]]                       |   [[terminal object]] / [[(-2)-truncated object]]  |  [[unit type]] / [[h-level 0]] 
+ [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[unit type]]/[[h-level 0]]-[[type]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
+ [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
+ [[proof]]                      |  [[generalized element]]                  | [[program]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
  [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[internal hom]]                        |  [[function type]]
