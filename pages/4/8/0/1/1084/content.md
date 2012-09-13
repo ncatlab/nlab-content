@@ -35,7 +35,7 @@ The dual notion is that of [[mapping cocone]].
 The mapping cone construction is a means to _present_ in a [[category with weak equivalences]] the following canonical
 construction in [[homotopy theory]]/[[(∞,1)-category theory]].
 
-+-- {: .num_defn }
++-- {: .num_defn #InfinityCokernel}
 ###### Definition
 
 In an [[(∞,1)-category]] $\mathcal{C}$ with [[terminal object]] and [[(∞,1)-pushout]], the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
@@ -59,7 +59,7 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #HomotopyCofiberByFactorizationLemma}
 ###### Proposition
 
 If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
@@ -68,7 +68,7 @@ $$
   \array{
     && X &\stackrel{f}{\to}& Y
     \\
-    && \downarrow^{\mathrlap{i_1}} && \downarrow
+    && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
     \\
     X &\stackrel{i_0}{\to}& cyl(X)
     \\
@@ -82,13 +82,38 @@ in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
 
 =--
 
-This is discussed at [[factorization lemma]] and at [[homotopy pullback]].
+This is discussed in detail at [[factorization lemma]] and at [[homotopy pullback]].
+
++-- {: .num_remark }
+###### Remark
+
+A morphism $\eta : cyl(X) \to Y$ out of a [[cylinder object]] is a [[left homotopy]] $\eta : g \Rightarrow h$ between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cyclinder boundaries
+
+$$
+  \array{
+     X
+     \\
+     \downarrow^{\mathrlap{i_0}} & \searrow^{\mathrlap{g}}
+     \\
+     cyl(X) &\stackrel{\eta}{\to}& Y
+     \\
+     \uparrow^{\mathrlap{i_1}} & \nearrow_{\mathrlap{h}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
+the cokernel is the the [[universal property|universal]] object with a morphism $i$ from $Y$ and a [[left homotopy]] from $i \circ f$ to the [[zero morphism]]. This is of course also precisely what def. \ref{InfinityCokernel} is saying.
+
+=--
 
 
 +-- {: .num_prop }
 ###### Proposition
 
-This colimit, in turn, may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
+The colimit in prop. \ref{HomotopyCofiberByFactorizationLemma} may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
 
 $$
   \array{
@@ -216,8 +241,29 @@ Let $Ch_\bullet = Ch_\bullet(R Mod)$ be the [[category of chain complexes]] in $
 We derive an explicit presentation of the mapping cone $cone(f)$ of a [[chain map]] $f$, according to the general definition \ref{CylindersAndCones}. The end result is prop. \ref{ComponentsOfMappingConeInChainComplexes} below,
 reproducing the classical formula for the mapping cone.
 
-
 +-- {: .num_defn }
+###### Definition
+
+Write $*_\bullet \in Ch_\bullet(\mathcal{A})$ for the chain complex
+concentrated on $R$ in degree 0
+
+$$
+  *_\bullet 0 
+   = 
+  [\cdots \to 0 \to 0 \to R]
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This may be understood as the [[normalized chain complex]] of [[simplicial homology|chains of simplices]] on the terminal [[simplicial set]] $\Delta^0$, the 0-[[simplex]].
+
+=--
+
++-- {: .num_defn #BoundaryInclusionIntoChainComplexIntervalObject}
 ###### Definition
 
 Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
@@ -228,6 +274,20 @@ $$
   (\cdots 0 \to 0 \to R \stackrel{(-id,id)}{\to} R \oplus R)
   \,.
 $$
+
+Denote by
+
+$$
+  i_0 : *_\bullet \to I_\bullet
+$$
+
+the [[chain map]] which in degree 0 is the canonical inclusion into the second summand of a [[direct sum]] and by
+
+$$
+  i_1 : *_\bullet \to I_\bullet
+$$
+
+correspondingly the canonical inclusion into the first summand.
 
 =--
 
@@ -244,7 +304,7 @@ $$
   \,.
 $$
 
-The [[differential]] $\partial^I = (id, -id)$ here expresses the [[alternating face map complex]] [[boundary]] operator, which in terms of the three non-degenerate [[basis]] elements is given by
+The [[differential]] $\partial^I = (-id, id)$ here expresses the [[alternating face map complex]] [[boundary]] operator, which in terms of the three non-degenerate [[basis]] elements is given by
 
 $$
   \partial ( 0 \to 1 ) = (1) - (0)
@@ -309,7 +369,7 @@ $$
     \array{
       \partial^X \oplus \partial^X & (-id, id)
       \\
-      & -\partial^X
+      0 & -\partial^X
     }
   \right)
   : 
@@ -358,6 +418,39 @@ $$
     \\
     & = -((0), x) + ((1), x) -  ( (0 \to 1), \partial^X x )
   \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #InclusionOfChainComplexIntoItsCylinder}
+###### Remark
+
+The two boundary inclusions of $X_\bullet$ into the cylinder
+are given in terms of def. \ref{BoundaryInclusionIntoChainComplexIntervalObject} by
+
+$$
+  i^X_0 
+   : 
+  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+   \stackrel{i_0 \otimes id_X}{\to} (I\otimes X)_\bullet
+$$
+
+and
+
+$$
+  i^X_1 
+   : 
+  X_\bullet \simeq *_\bullet \otimes X_\bullet 
+   \stackrel{i_1 \otimes id_X}{\to} (I\otimes X)_\bullet
+$$
+
+which in components is the inclusion of the second or first 
+direct summand,
+respectively
+
+$$
+  X_n \hookrightarrow X_n \oplus X_n \oplus X_{n-1}
   \,.
 $$
 
@@ -519,6 +612,32 @@ $$
 
 As before the pushout is computed degreewise.
 This identifies the remaining unshifted copy of $X$ with 0. 
+
+=--
+
++-- {: .num_prop #InclusionIntoChainComplexCone}
+###### Proposition
+
+For $f : X_\bullet \to Y_\bullet$ a [[chain map]], 
+the canonical inclusion $i : Y_\bullet \to cone(f)_\bullet$ 
+of $Y_\bullet$ into the  mapping cone of $f$ is given in 
+components
+
+$$
+ i_n : Y_n \to cone(f)_n = Y_n \oplus X_{n-1}
+$$
+
+by the canonical inclusion of a summand into a [[direct sum]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by starting with 
+remark \ref{InclusionOfChainComplexIntoItsCylinder} and then 
+following these inclusions through the formation of the two colimits
+as discussed above.
 
 =--
 
@@ -743,10 +862,200 @@ Notice the minus sign here, coming from the definition of a [[differential objec
 ## Properties
 
 ### Homology exact sequences and fiber sequences
+ {#HomologyExactSequencesAndFiberSequences}
 
-(...)
-see at [[homology exact sequence]]
-(...)
+We discuss the relation between mapping cones 
+in [[categories of chain complexes]], as [above](#InChainComplexes) 
+to  [[long exact sequences in homology]]. For an exposition of the following see there the section _[Relation to homotopy fiber sequences](long+exact+sequence+in+homology#RelationToHomotopyFiberSequences)_.
+
+Let $f : X_\bullet \top Y_\bullet$ be a [[chain map]]
+and write $cone(f) \in Ch_\bullet(\mathcal{A})$
+for its mapping cone
+as explicitly given in prop. \ref{ComponentsOfMappingConeInChainComplexes}.
+
+
++-- {: .num_defn #ProjectionOutOfChainComplexMappingCone}
+###### Definition
+
+Write $X[1]_\bullet \in Ch_\bullet(\mathcal{A})$
+for the [[suspension of a chain complex]] of $X$. Write
+
+$$
+  p : cone(f) \to X[1]_\bullet
+$$
+
+for the [[chain map]] which in components 
+
+$$
+  p_n : cone(f)_n \to X[1]_n
+$$
+
+is given, via prop. \ref{ComponentsOfMappingConeInChainComplexes}, 
+by the canonical projection out of a direct sum
+
+$$
+  p_n : Y_\n \oplus X_{n-1} \to X_{n-1}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The chain map $p : cone(f)_\bullet \to X[1]_\bullet$
+represents the [[homotopy cofiber]] of the 
+canonical map 
+$i : Y_\bullet \to cone(f)_\bullet$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{InclusionIntoChainComplexCone} and 
+def. \ref{ProjectionOutOfChainComplexMappingCone} the sequence
+
+$$
+  Y_\bullet 
+    \stackrel{i}{\to}
+  cone(f)_\bullet
+    \stackrel{p}{\to}
+  X[1]_\bullet
+$$
+
+is a [[short exact sequence]] of chain complexes (since it is so degreewise, in fact degreewise it is even a [[split exact sequence]]). In particular we have a [[cofiber]] [[pushout]] diagram
+
+$$
+  \array{
+     Y_\bullet &\stackrel{i}{\hookrightarrow}& cone(f)_\bullet
+     \\
+     \downarrow && \downarrow
+     \\
+     0 &\to& X[1]_\bullet
+  }
+  \,.
+$$
+
+Now, in the [[injective model structure on chain complexes]] all chain complxes are [[cofibrant objects]] and an inclusion such as $i : Y_\bullet \hookrightarrow cone(f)_\bullet$ is a [[cofibration]]. By the detailed discussion at [[homotopy limit]] this means that the ordinary colimit here is in fact a [[homotopy colimit]], hence exhibits $p$ as the [[homotopy cofiber]] of $i$.
+
+=--
+
++-- {: .num_cor #HomotopyCofiberSequenceOfChainMap}
+###### Corollary
+
+For $f_\bullet : X_\bullet \to Y_\bullet$ a [[chain map]], 
+there is a **[[homotopy cofiber sequence]]** of the form
+
+$$
+  X_\bullet 
+    \stackrel{f_\bullet}{\to}
+  Y_\bullet
+    \stackrel{i_\bullet}{\to}
+  cone(f)_\bullet
+    \stackrel{p_\bullet}{\to}
+  X[1]_\bullet
+    \stackrel{f[1]_\bullet}{\to}
+  Y_\bullet
+    \stackrel{i[1]_\bullet}{\to}
+  cone(f)_\bullet
+    \stackrel{p[1]_\bullet}{\to}
+  X[2]_\bullet
+    \to 
+  \cdots
+$$
+
+=--
+
++-- {: .num_theorem }
+###### Theorem
+
+Let 
+$$
+  X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \to Z_\bullet
+$$
+
+be a [[short exact sequence]] of [[chain complexes]]. 
+
+Then the  [[chain homology]] functor
+
+$$
+  H_n(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+$$
+
+sends the homotopy cofiber sequence of $f$, cor. \ref{HomotopyCofiberSequenceOfChainMap}, 
+[[long exact sequence in homology]] induced by the short
+exact sequence
+
+$$
+  H_n(X_\bullet)
+  \to
+  H_n(Y_\bullet)
+   \to 
+  H_n(Z_\bullet)
+   \stackrel{\delta}{\to}
+  H_{n-1}(X_\bullet)
+   \to 
+  H_{n-1}(Y_\bullet)
+   \to 
+  H_{n-1}(Z_\bullet)
+   \stackrel{\delta}{\to}
+  H_{n-2}(X_\bullet)
+   \to \cdots
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that 
+
+$$
+  H_n( X[k]_\bullet) \simeq H_{n-k}(X_\bullet)
+  \,.
+$$
+
+One checks then that the canonical morphism
+
+$$
+  h_\bullet : cone(f)_\bullet \to Z_\bullet
+$$
+
+given in components by
+
+$$
+  h_n : Y_n \oplus X_{n-1} \to Y_n \stackrel{}{\to} Z_n
+$$
+
+is a [[quasi-isomorphism]]. This allows to write the 
+homotopy fiber sequence as the [[zigzag]]
+
+$$
+  \array{
+     && && && && && cone(f)[1]_\bullet &\to& \cdots
+     \\
+     && && && && \downarrow^{\mathrlap{h[1]_\bullet}}_{\mathrlap{\simeq}}
+     \\
+     && && cone(f)_\bullet &\to& X[1]_\bullet &\stackrel{f[1]_\bullet}{\to}& Y[1]_\bullet &\to& Z[1]_\bullet
+     \\
+     && && \downarrow^{\mathrlap{h_\bullet}}_{\mathrlap{\simeq}}
+     \\
+     X_\bullet 
+       &\stackrel{f_\bullet}{\to}&
+     Y_\bullet
+       &\stackrel{}{\to}&
+     Z_\bullet
+  }
+  \,.
+$$
+
+One checks that applying $H_n(-)$ to the zig-s 
+reproduces the [[connecting homomorphism]].
+
+
+=--
 
 
 ### Distinguished triangles from mapping cones 
