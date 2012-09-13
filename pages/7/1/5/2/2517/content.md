@@ -91,7 +91,7 @@ But you are right certainly about the ring/field thing. I have corrected that no
 =--
 an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
-of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal inite dimensional over $R$.
+of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal finite dimensional over $R$.
 
 Then the general version of the Kock--Lawvere axiom for all Weil algebras says that
 
