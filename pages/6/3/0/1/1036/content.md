@@ -34,6 +34,8 @@ In particular, a [[convenient category of topological spaces]] is, in the techni
 
 * John Milnor proposed the category of spaces having the homotopy type of a CW complex as a nice category of spaces. If $X$ and $Y$ are objects and $X$ is compact, then there is an exponential object $Y^X$ in this category. This by the way is also a category of [[nice topological spaces]]. 
 
+* The category of [[algebraic lattices]], considered as a full subcategory of $T_0$-[[separation axioms|spaces]], is a nice cartesian closed category of spaces in which to do [[domain theory]]. Related to this is the category of [[equilogical spaces]], which is locally cartesian closed (and thus also regular) and arises as the [[exact completion|reg/ex completion]] of the category of $T_0$ spaces. 
+
 ## References
 
 * [[Peter May]], _[[A Concise Course in Algebraic Topology]]_ (Chapter 5, for compactly generated spaces)
