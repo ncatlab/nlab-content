@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 # The axiom of multiple choice
 * table of contents
 {: toc}
@@ -39,16 +50,21 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
 
+* A [[ΠW-pretopos]] satisfying the axiom of multiple choice if a _[[predicative topos]]_.
 
 ## References
 
-* Moerdijk and Palmgren, "Type theories, toposes and constructive set theory: predicative aspects of AST"
+* [[Ieke Moerdijk]], [[Erik Palmgren]], _Type theories, toposes and constructive set theory: predicative aspects of AST_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.8934))
 
 * Rathjen, "Choice principles in constructive and classical set theories"
 
-* [[Benno van den Berg]], *Predicative toposes*,
-[PDF](http://www.staff.science.uu.nl/~berg0002/papers/predicativetopos.pdf)
-In this paper WISC is called the "axiom of multiple choice".
+In 
+
+* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
+ {#vdBerg}
+
+WISC is called the "axiom of multiple choice".
+
 
 category: foundational axiom
 
