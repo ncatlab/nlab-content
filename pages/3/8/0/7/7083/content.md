@@ -75,6 +75,7 @@ It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ 
 Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
 =--
 
+
 ### Relation to internal sets
  {#RelationToInternalSets}
 
@@ -87,14 +88,9 @@ the structure of an internal $\infty$-groupoid on $X$ is the choice of a _type o
 
 Accordingly then an internal set in homotopy type theory is rather such an internal $\infty$-groupoid which is 0-truncated: hence an h-set $X$ _equipped with an equivalence relation_ given by an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $X_0 \to X$.
 
-This subtle difference is well known in traditional [[type theory]]. There the genuine internal sets are the _[[Bishop sets]]_, often called _[[setoids]]_, whereas the types themselves are sometimes called _[[presets]]_.
-
-
-
-
+This subtle difference is well known in traditional [[type theory]]. There the genuine internal sets are the _[[Bishop set|sets in the sense of Bishop]]_, often called _[[setoids]]_, whereas the types themselves are sometimes called _[[presets]]_.
 
 =--
-
 
 
 ## Related concepts
