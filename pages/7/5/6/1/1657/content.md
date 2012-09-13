@@ -139,7 +139,7 @@ Each measurable subset $S \subseteq X$ induces a measurable [[characteristic fun
 $$ \int_S f \,\mu = \int_X \chi_S f \,\mu ,$$
 so from now on we will assume that we are integrating over all of $X$ (and drop the subscript).
 
-A __simple function__ is a finite $\mathbb{R}_+$-linear combination of measurable characteristic functions; the first form of integral that we define is
+A __[[simple function]]__ is a finite $\mathbb{R}_+$-linear combination of measurable characteristic functions; the first form of integral that we define is
 $$ \int \sum_{1 \leq i \leq n} a_i \chi_{S_i} \,\mu = \sum_{1 \leq i \leq n} a_i \mu(S_i) .$$ 
 
 The integral is extended to all measurable functions $f\colon X \to [0, \infty]$ by the rule 
@@ -247,8 +247,6 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 [[!redirects integral with respect to a measure]]
 [[!redirects integrals with respect to a measure]]
 [[!redirects integrals with respect to measures]]
-[[!redirects simple function]]
-[[!redirects simple functions]]
 [[!redirects integrable function]]
 [[!redirects integrable functions]]
 [[!redirects absolutely integrable function]]
