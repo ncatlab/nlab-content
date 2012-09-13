@@ -21,10 +21,7 @@
  [[equivalence class]]   |  [[quotient]]                   |   [[quotient type]]
  [[induction]]                  |   [[colimit]]                | [[inductive type]], [[W-type]], [[M-type]]
  higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
-   [[set]]  | [[discrete object]]/[[0-truncated object]]    |  [[preset]]/[[h-set]]/[[h-level 2]]
+   [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[preset]]/[[h-set]]/[[h-level 2]]
    [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
  [[universe]] | [[object classifier]] | [[type of types]] 
  [[monad]] | [[monad]] | [[monad (in computer science)]]
-
-
-
