@@ -41,6 +41,10 @@ _[long exact sequence in cohomology](fiber%20sequence#LongSequCoh)_ there.
 ### Relation to homotopy fiber sequences
  {#RelationToHomotopyFiberSequences}
 
+We discuss the relation of homology long exact sequences to [[homotopy cofiber sequences]] of chain complexes. Technical details corresponding to the following survey are at _[[mapping cone]]_ in the section _[Mapping cone -- Homology exact sequences and fiber sequences](http://ncatlab.org/nlab/show/mapping+cone#HomologyExactSequencesAndFiberSequences)_.
+
+$\,$
+
 While the notion of a [[short exact sequence]] of [[chain complexes]] is very useful for computations, it does not have invariant meaning if one considers chain complexes as objects in (abelian) [[homotopy theory]], where one takes into account [[chain homotopies]] between [[chain maps]] and takes [[equivalence]] of chain complexes not to be given by [[isomorphism]], but by [[quasi-isomorphism]].
 
 For if a [[chain map]] $A_\bullet \to B_\bullet$ is the degreewise [[kernel]] of a chain map $B_\bullet \to C_\bullet$, then if $\hat A_\bullet \stackrel{\simeq}{\to} A_\bullet$ is a [[quasi-isomorphism]] (for instance a [[projective resolution]] of $A_\bullet$) then of course the composite chain map $\hat A_\bullet \to B_\bullet$ is in general far from being the degreewise kernel of $C_\bullet$. Hence the notion of degreewise kernels of chain maps and hence that of short exact sequences is not meaningful in the homotopy theory of chain complexes in $\mathcal{A}$ (for instance: not in the [[derived category]] of $\mathcal{A}$).
