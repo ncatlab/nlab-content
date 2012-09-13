@@ -7,7 +7,7 @@
 
  [[logic]]                      |   [[category theory]]                     |  [[type theory]]
 --------------------------------|-------------------------------------------|--------------------------------
- [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[unit type]]/[[h-level 0]]-[[type]] 
+ [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[h-level 0]]-[[type]]/[[unit type]] 
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
  [[proof]]                      |  [[generalized element]]                  | [[program]]
@@ -21,7 +21,7 @@
  [[equivalence class]]   |  [[quotient]]                   |   [[quotient type]]
  [[induction]]                  |   [[colimit]]                | [[inductive type]], [[W-type]], [[M-type]]
  higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
-   [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[preset]]/[[h-set]]/[[h-level 2]]
+   [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[h-level 2]]-[[type]]/[[preset]]/[[h-set]]
    [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
  [[universe]] | [[object classifier]] | [[type of types]] 
  [[monad]] | [[monad]] | [[monad (in computer science)]]
