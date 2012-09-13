@@ -521,6 +521,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
+  * [[Bishop set]], [[predicative topos]]
+ 
 * [[2-type theory]], [[2-logic]]
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
