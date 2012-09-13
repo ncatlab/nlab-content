@@ -118,3 +118,6 @@ Discussion of generalization to non-abelian categories is in
 [[!redirects nine lemma]]
 [[!redirects 9 lemma]]
 [[!redirects 3x3-lemma]]
+
+[[!redirects sharp 3x3 lemma]]
+
