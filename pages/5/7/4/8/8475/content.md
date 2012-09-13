@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,14 +9,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
 A **$\Pi$-pretopos** is a [[pretopos]] that is also a [[locally cartesian closed category]].
+
 
 ## Related concepts
 
@@ -25,12 +24,12 @@ A **$\Pi$-pretopos** is a [[pretopos]] that is also a [[locally cartesian closed
 
 * A [[predicative topos]] is $\Pi W$-pretopos with [[axiom of multiple choice]].
 
+
 ## References
 
 See at _[[predicative topos]]_.
 
 
-[[!redirects Π-pretoposes]]
 [[!redirects Pi-pretopos]]
 [[!redirects Pi-pretoposes]]
 [[!redirects Pi-pretopoi]]
