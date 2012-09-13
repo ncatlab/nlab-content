@@ -61,6 +61,9 @@ This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren, se
 
 * [[ETCS]]
 
+[[!include types and logic - table]]
+
+
 
 ## References
 
