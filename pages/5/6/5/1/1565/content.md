@@ -19,7 +19,7 @@ A __rig__ is a [[ring]] 'without negatives' (hence the missing 'n' in the name, 
 
 ## Definition
 
-A _rig_ it a [[set]] $R$ with operations of addition and multiplication, such that
+A _rig_ is a [[set]] $R$ with operations of addition and multiplication, such that
 *  $R$ is a [[monoid]] under multiplication;
 *  $R$ is an [[abelian monoid]] (for a rig) or an abelian [[semigroup]] (for a semiring) under addition;
 *  multiplication distributes over addition.
