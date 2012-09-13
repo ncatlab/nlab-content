@@ -35,10 +35,10 @@ and vice versa.  In [[constructive mathematics]], however, they are not equivale
 
 ## Examples
 
-*  The power set of $X$ is both a $\sigma$-ideal and a $\delta$-filter on $X$; it is the _improper $\sigma$-ideal_ on $X$.
+*  The power set of $X$ is both a $\sigma$-ideal and a $\delta$-filter on $X$; it is the _improper $\sigma$-ideal_ on $X$.  (Compare [[proper ideal]].)
 *  The [[null sets]] in a [[measure space]] $X$ form a $\sigma$-ideal on $X$, while the [[full sets]] form the corresponding $\delta$-filter.
-*  The meagre sets in a [[topological space]] $X$ form a $\sigma$-ideal on $X$.
-*  The [[pure sets]] form a $\sigma$-ideal on the class of all pure sets; actually, this collection is closed under arbitrary unions rather than merely countablary unions, so we may call it a _complete ideal_.
+*  The [[meager subspace|meagre sets]] in a [[topological space]] $X$ form a $\sigma$-ideal on $X$, while the comeagre sets form the corresponding $\delta$-filter.
+*  The [[pure sets]] form a $\sigma$-ideal on (or, equivalently in this case, in) the class of all pure sets; actually, this collection is closed under arbitrary unions rather than merely countablary unions, so we may call it a _complete ideal_.
 
 
 ## Properties
