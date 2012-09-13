@@ -29,6 +29,8 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 * WISC is also implied by the [[axiom of multiple choice]] (which is in turn implied by COSHEP).  For if $X$ is in some collection family $\{D_c\}_{c\in C}$, then the family of all surjections of the form $D_c \twoheadrightarrow X$ is weakly initial in $(Set/X)_{surj}$.
 
+* A [[ΠW-pretopos]] satisfying WISC is a _[[predicative topos]]_.
+
 * Since Rathjen proves that [[SVC]] implies [[AMC]] (at least in [[ZF]]), SVC therefore also implies WISC.
 
 * WISC also follows from the assertion that the [[free exact completion]] of $Set$ is [[well-powered category|well-powered]], which in turn follows from assertion that $Set$ has a [[generic proof]] (so that $Set_{ex/lex}$ is a [[topos]]).  Both of these can also be regarded as saying that choice is only violated "in a small way."
@@ -44,7 +46,7 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 [[David Roberts]]: Some of the terms may need to be considered in terms of the bicategory of small categories and anafunctors, rather than the 2-category of small categories and functors, for example 'essential smallness'.
 =--
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition
 WISC implies the local essential smallness of $Cat_ana$.
 =-- 
@@ -75,7 +77,7 @@ Let $(C,J)$ be a [[site]] with a singleton [[Grothendieck pretopology]] $J$. It 
 
 This definition is called _external_ because it refers to an external category of sets. This is to be contrasted with the _internal_ version of WISC, discussed below.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 Assuming AC for $Set$, the category $Top$ with any of its usual pretopologies satisfies \'internal WISC\'.  Consider, for instance, the pretopology in which the covers are the maps admitting local sections, i.e. those $p\colon Y\to X$ such that for any $x\in X$ there exist an open set $U\ni x$ such that $p^{-1}(U)\to U$ is split epic.  If $Set$ satisfies AC, then a weakly initial set in $Top/_{cov}X$ is given by the set of all maps $\coprod_{U\in \mathcal{U}} U \to X$ where $\mathcal{U}\subset \mathcal{P}(X)$ is an open cover of $X$.  For if $p\colon Y\to X$ admits local sections, then for each $x\in X$ we can choose an $U_x \ni x$ over which $p$ has a section, resulting in an open cover $\mathcal{U} = \{U_x \mid x\in X\}$ of $X$ for which $\coprod_{U\in \mathcal{U}} U \to X$ factors through $p$.  (If $Set$ merely satisfies WISC itself, then a more involved argument is required.)
 =--
@@ -98,10 +100,12 @@ To consider an _internal_ version of WISC, which doesn't refer to an external no
 
 * [[Benno van den Berg]], *WISC is independent from ZF*, [PDF](http://www.staff.science.uu.nl/~berg0002/papers/WISC.pdf)
 
-* [[Benno van den Berg]], *Predicative toposes*,
-[PDF](http://www.staff.science.uu.nl/~berg0002/papers/predicativetopos.pdf)
-In this paper WISC is called the "axiom of multiple choice".
+In 
 
+* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
+ {#vdBerg}
+
+WISC is called the "axiom of multiple choice".
 
 category: foundational axiom
 
