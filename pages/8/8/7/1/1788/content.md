@@ -6,6 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
+
 $\mathbf{H}$ an [[(∞,1)-topos|∞-topos]] 
 
 $$
@@ -14,7 +15,9 @@ $$
 
 [[(∞,1)-category of (∞,1)-sheaves]]/[[∞-stacks]]
 
-write $Type \in \mathbf{H}$ for the internal [[universe]] of small objects, the [[object classifier]]: defined as the representing object
+For instance $C = $ [[CartSp]]$_{synth}$ then $\mathbf{H} = $ [[SynthDiff∞Grpd]]. 
+
+Write $Type \in \mathbf{H}$ for the internal [[universe]] of small objects, the [[object classifier]]: defined as the representing object
 for the core of the small [[codomain fibration]]:
 
 $$
@@ -50,7 +53,7 @@ $$
   x : X \vdash E(x) : Type
 $$
 
-Notation:
+Notation "[[morphism|arrows]] to [[sequents]]":
 
 | [[(∞,1)-topos theory|∞-topos theory]] | [[homotopy type theory]] |
 |--|--|
@@ -63,8 +66,18 @@ $$
 
 **Definition: $GrpType : Type$
 
+$$  
+  X : Type \vdash isConnected(X) : Type
 $$
-  GrpdType =  \sum_{A : Type} isConnected(X) \times isInhabited(X)
+
+$$
+  X : Type \vdash isInhabited(X) : Type
+$$
+
+$$
+  \vdash 
+  GrpdType =  \sum_{A : Type} (isConnected(X) \times isInhabited(X)) 
+  : Type
 $$
 
 For instance for $\vdash \Sigma : Type$
@@ -97,6 +110,27 @@ $$
 
 
 Invariants =  $\vdash \prod_{* : \mathbf{B}G} V : Type$
+
+
+[[locally cartesian closed (∞,1)-category]]
+
+[[internal hom]] in $\mathbf{H}_{/\Gamma}$ is, by definition, again in the slice
+
+$(E \stackrel{e}{\to} X)$, $(F \stackrel{f}{\to} X)$
+
+$$
+  \array{
+    [e,f] &\to& \widehat{Type}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Gamma &\underset{\vdash E(x) \to F(x)}{\to}& Type
+  }
+$$
+
+$$
+  x : \Gamma \vdash E(x) \to F(x) : Type
+$$
 
 Conjugation action on $[V_1,V_2]$ is
 
@@ -171,6 +205,63 @@ $$
 is moduli stack of $\mathbf{DD}$-twisted $U(n)$-[[twisted bundles]]
 
 
+cohesion in $\mathbf{H}$:
+
+$$
+  X : Type \vdash \sharp X : Type
+$$
+
+$$
+  X : Type : ResolveCohesion : X \to \sharp X 
+$$
+
+$$
+  X : Type : \Pi X : Type
+$$
+
+$$
+  X : Type : IncludeConstantPaths : X \to \Pi X
+$$
+
+(...)
+
+
+prequantum $n$-bundle
+
+$$
+  \nabla : \mathbf{B}^n \mathbb{G}_{conn}
+  \vdash
+  X(\nabla) : Type
+$$
+
+quantomorphism $n$-group
+
+$$
+  \mathbf{QuantMorph}_{X(\nabla)}
+  \coloneqq
+  \;\;\;
+  \vdash 
+  \prod_{\nabla : \mathbf{B}^n \mathbb{G}_n}
+  (X, \nabla) 
+     \stackrel{\simeq}{\to}
+  (X,\nabla)
+  : Type
+$$
+
+Lie differentiation
+
+$$
+  i_{inf} :  FormalPoints \hoookrightarrow CartSp_{synth}
+$$
+
+$$
+  i_{inf}^* 
+  :
+  Sh_{\infty}(CartSp_{synth})^{*}_{\geq 1}
+  Sh_\infty(FormalPoints)^{*}_{\geq 1}
+  \simeq
+  L_\infty
+$$
 
 
 ***
