@@ -1,8 +1,17 @@
+## Idea 
+
+Stability theory, also referred to a classification theory, is a means to determine whether the isomorphism types of a given sort of structure can be classified by means of intelligible invariants of the structure. It was largely created by Saharon Shelah. 
+
+The basic idea is that for quite general classes of algebraic objects, one can prove what Shelah calls a "structure/nonstructure theorem": either the isomorphism types are classifiable by a smallish number of invariants, or they are hopelessly wild in some sense, e.g., an arbitrary structure can be encoded set-theoretically in some isomorphism type of the class. An example of the "structure" case is the theory of [[algebraically closed fields]], whose isomorphism types can be classified according to characteristic and transcendence degree. An example of the "nonstructure" case is the family of linear orderings, where a proliferation of complicated linear orders can be constructed by various set-theoretic means. 
+
+In very rough outline, stability theory analyzes good (or "stable") notions of "free amalgams" $M_3 = M_1 \cup_{M_0} M_2$ where $M_0 \subset M_1$, $M_0 \subset M_2$ are substructures. In the "good" (structure) case, it is possible to analyze models by a series of free amalgams of small models, with the series indexed by a well-founded tree. Otherwise, if the class of algebraic objects does not admit a suitably good notion of free amalgam, we have a "bad" (nonstructure) case which permits arbitrarily wild models to be constructed. 
 
 ## References
 
 * [[M. Makkai]], _A survey of basic stability theory, with particular emphasis on orthogonality and regular types_, Israel J. Math. __49__, n.1-3 (1984), 181-238, [doi](http://dx.doi.org/10.1007/BF02760649)
 
 * John T. Baldwin, _Fundamentals of stability theory_, Perspectives in Math. Logic, Springer 1988
+
+* Gregory L. Cherlin, Review of _Fundamentals of stability theory_, Bull. AMS, Vol. 20 No. 2 (April 1989), 185-190. 
 
 * [[geometric stability theory]]
