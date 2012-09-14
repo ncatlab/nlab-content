@@ -21,7 +21,7 @@ The idea of a Fermat theory seems to have been invented by [[Anders Kock]].  But
 
 $$f (x+y) = f(x) + y \tilde{f}(x,y) $$
 
-for a unique smooth function $\tilde{f} : \mathbb{R}^2 \to \mathbb{R}$.  Clearly
+for a unique smooth function $\tilde{f} \colon \mathbb{R}^2 \to \mathbb{R}$.  Clearly
 
 $$ \tilde{f}(x,y) = \frac{f(x+y) - f(x)}{y} $$
 
@@ -64,7 +64,7 @@ where $\vec{z}$ is a list of $n$ variables which act as parameters.  Here we are
 There is a [[Lawvere theory]] called **the theory of $C^\infty$-rings**, whose $n$-ary operations are the smooth maps $f: \mathbb{R}^n \to \mathbb{R}$, 
 
 $$
-  T(n) := C^\infty(\mathbb{R}^n, \mathbb{R})
+  T(n) \coloneqq C^\infty(\mathbb{R}^n, \mathbb{R})
   \,,
 $$
 
@@ -83,20 +83,19 @@ that sends each object $\mathbb{R}^n \in CartSp$ to the [[hom-set]] in the [[fun
 
 ## Partial derivatives {#PartialDerivative}
 
-If $T$ is a Fermat theory and $f$ is any $(n+1)$-ary operation, we may define an operation $\partial_1 f$
+Let $T$ be a Fermat theory and let $f$ be an $(n+1)$-ary operation, then we may define an operation $\partial_1 f$
 
 by
 
 $$\partial_1(x, \vec{z})  = \tilde{f}(x,0,\vec{z})$$
 
-This acts like the partial derivative of $f$ with respect to its first argument. With a bit of more work we get a list of $n$-ary operations $\partial_i f$.   So, if $T(n)$ denotes the set of $n$-ary operations in our algebraic theory $T$, we get maps
+This acts like the partial derivative of $f$ with respect to its first argument. With a bit of more work we get a list of $n$-ary operations $\partial_i f$.   So, if $T(n)$ denotes the set of $n$-ary operations in the algebraic theory $T$, we get maps
 
 $$\partial_i : T(n) \to T(n) $$
 
 for $1 \le i \le n$.  
 
-For any Lawvere theory, $T(n)$ is an algebra of that theory --- the free $T$-algebra on $n$ generators.  So, when $T$ is a Fermat theory, $T(n)$ is
-automatically a commutative ring.  One can check that each map
+Now $T(n)$ is automatically an algebra of $T$ (this is true for any Lawvere theory: it is the free algebra on $n$ generators), whence $T(n)$ is a commutative ring.  One can check that each map
 
 $$\partial_i : T(n) \to T(n) $$
 
