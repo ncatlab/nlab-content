@@ -76,3 +76,5 @@ The [[homotopy theory]] of $\infty$-groups that are [[n-connected]] and [[n-trun
 [[!redirects ∞-group]]
 [[!redirects ∞-groups]]
 [[!redirects infinity-groups]]
+
+category:∞-groupoid
