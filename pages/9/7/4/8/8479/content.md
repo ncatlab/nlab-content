@@ -10,9 +10,9 @@ Simple functions are (almost) the most basic notion of [[measurable function]] i
 
 ## Definitions
 
-Let $X$ be a [[measurable space]].  We may want $X$ to be equipped with some more data; if $X$ is a [[measure space]], then this is plenty of data.  However, for the most basic definitions, it\'s enough if $X$ is simply a measurable space in the usual sense.
+Let $X$ be a [[measurable space]].  We may want $X$ to be equipped with some more data; if $X$ is a [[measure space]], then this is plenty of data.  However, for the most basic definitions, it\'s enough if $X$ is simply a measurable space.  This is the [[domain]] of our simple functions.
 
-Let $K$ be a [[local field]], usually the field of [[real numbers]] or the field of [[complex numbers]].  We take $K$ to be a measurable space using its [[Borel sets]].  (We really could use something more general for $K$.)
+Another necessary datum is the simple functions\' [[target]] $K$, which is typically $\mathbb{R}$ (the field of [[real numbers]]) or $\mathbb{C}$ (the field of [[complex numbers]]).  But really, $K$ could be any real or complex [[Banach space]]; for some purposes, we will also want $K$ to be [[ordered Banach space|ordered]] (as $\mathbb{R}$ and $\mathbb{C}$ are).  In any case, we take $K$ to be a measurable space using its [[Borel sets]].
 
 +-- {: .num_defn #trad}
 ###### Definition
@@ -59,18 +59,16 @@ A __bounded simple function__ is a simple function in the sense of Definition \r
 In some approaches to [[measure theory]], one *starts* with a $\delta$-[[delta-ring|ring]] of measurable sets, which may be reinterpreted as the bounded sets in the generated $\sigma$-[[sigma-algebra|algebra]] of [[relatively measurable sets]], and then the simple functions will automatically be bounded.
 
 +-- {: .query}
-I'm not sure of the right terminology here; this conflicts with the usual meaning of [[bounded function]].
+I\'m not sure of the right terminology here; this conflicts with the usual meaning of [[bounded function]].
 =--
 
-Finally, there is one more useful restriction on simple functions:
+Finally, there is one more useful restriction (and slight generalisation) of simple functions, applicable when $K$ is ordered:
 
 +-- {: .num_defn #positive}
 ###### Definition
 
-A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range consists entirely of nonnegative [[real numbers]], or equivalently (in the sense of Definition \ref{lincomb}) a formal ${[0,\infty[}$-linear combination of measurable sets.
+A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range is contained in the [[positive cone]] $K^+$ of $K$, or equivalently (in the sense of Definition \ref{lincomb}) a formal $K^+$-linear combination of measurable sets.  An __extended positive simple function__ (note the [[red herring principle]]) takes values in the [[extended positive cone]] $\bar{K}^+$, or equivalently is a $\bar{K}^+$-linear combination.
 =--
-
-Sometimes one allows a positive simple function to take the value $\infty$ (so to be a $[0,\infty]$-linear combination).  We will call this an __extended positive simple function__.
 
 
 ## Integration
