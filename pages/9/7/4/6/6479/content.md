@@ -1,7 +1,35 @@
 
 ## Idea
 
-__Geometric stability theory__ is the principal part of so called __[[geometric model theory]]__ which came about in works of [[Boris Zilber]], Cherlin, [[Ehud Hrushovski]], Anand Pillay.
+__Geometric stability theory__ is the principal part of so called __[[geometric model theory]]__ which came about in works of [[Boris Zilber]], Cherlin, [[Ehud Hrushovski]], and Anand Pillay.
+
+## Basic concepts 
+
++-- {: .un_defn} 
+###### Definition 
+Let $X$ be a set. A **pregeometry** on $X$ is a [[closure operator]] (i.e., a [[monad]] $cl \colon P X \to P X$ on the [[power set]]), satisfying the following two conditions: 
+
+* The monad $cl$ is [[finitary functor|finitary]], i.e., $A \in X$ and $a \in cl(A)$, then there is a finite $A_0 \subseteq A$ such that $a \in cl(A_0)$. 
+
+* (Exchange condition) If $A \in P X$, $a,b \in X$, and $a \in cl(A\cup\{b\})$, then $a \in cl(A)$ or $b \in cl(A \cup \{\a\})$. (Cf. [[matroid]]) 
+
+A **geometry** is a pregeometry such that $cl(\emptyset) = \emptyset$ and $cl(\{x\}) = \{x\}$ for all $x \in X$. 
+=-- 
+
++-- {: .un_example} 
+###### Examples 
+
+* Let $X$ be a vector space, and let $cl$ be the monad on $P X$ whose algebras are vector subspaces of $X$. Clearly $cl$ is finitary (any subspace is the set-theoretic union of finite-dimensional subspaces), and the exchange condition is a classical fact about vector spaces related to the notion of independence. Thus $cl$ is a pregeometry. 
+
+* Similarly, let $X$ be a projective space $\mathbb{P}V$, and let $cl$ be the monad on $P X$ whose algebras are projective subspaces. Then $cl$ is a geometry (the closure of a point is a point). Any pregeometry $cl$ gives rise to a geometry in a similar way, in the sense that a pregeometry $cl$ induces a geometry on the image of the function $X \to P X$, $x \mapsto cl(\{x\})$. 
+
+* Let $X$ be an algebraically closed field; let $cl$ be the monad on $P X$ whose algebras are algebraically closed subfields. Then $cl$ is a pregeometry. That the exchange condition is satisfied is a result due to Steinitz. 
+=-- 
+
++-- {: .un_defn}
+###### Definition 
+Given a pregeometry $(X, cl)$, a subset $A \in P X$ is **independent** if for all $a \in A$, $a \notin cl(A - \{a\})$. An independent set $A$ said to be a **basis** for $Y \in P X$ if $Y \subseteq cl(A)$. All bases of $Y$ have the same cardinality (?), called the **dimension** of $Y$. 
+=-- 
 
 ## Related concepts
 
