@@ -80,9 +80,9 @@ Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the se
  {#RelationToInternalSets}
 
 
-When using [[homotopy type theory]] as the ambient [[foundations]] it is not quite the h-sets themselves that support the [[set theory]] in the type theory. There is instead a subtle difference:
+When using [[homotopy type theory]] as the ambient [[foundations]] it may depend whether one regards the h-sets themselves as the sets of the internal [[set theory]] in the type theory, or requires some extra structure on them to count as genuine sets. 
 
-The actual internal sets are of course the _the [[groupoid object in an (∞,1)-category|internal ∞-groupoids]]_ which are 0-truncated. But a general type $X : Type$ in [[homotopy type theory]] -- a [[homotopy type]] -- is itself _not_ quite an [[groupoid object in an (∞,1)-category|internal ∞-groupoid]]. It is rather a "internal pre-$\infty$-groupoid" in the sense of "[[preset]]": 
+One possibility is to declare that the internal sets are the _[[groupoid object in an (∞,1)-category|internal ∞-groupoids]]_ which are 0-truncated. But a general type $X : Type$ in [[homotopy type theory]] -- a [[homotopy type]] -- is itself _not_ quite an [[groupoid object in an (∞,1)-category|internal ∞-groupoid]]. It is rather a "internal pre-$\infty$-groupoid" in the sense of "[[preset]]": 
 
 the structure of an internal $\infty$-groupoid on $X$ is the choice of a _type of elements_ $X_0$ equipped with a homotopy-theoretic version of an [[equivalence relation]] on $X_0$, namley an extension of $X_0$ to a [[simplicial object]] $\cdots X_1 \stackrel{\to}{\to} X_0$ such that this satisfies the groupoidal [[Segal conditions]]. These encode the [[homotopy theory|homotopy-theoretic]] analog of [[transitive relation|transitivity]] (associative composition of morphisms in the interna $\infty$-groupoid), [[reflexive relation|reflexivity]] (existence of inverse morphisms) and [[symmetric relation|symmetry]] (existence of identity morphisms). 
 
