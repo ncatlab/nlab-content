@@ -107,11 +107,20 @@ so that the *finite extensions* of $Th(V_\omega,\in)$ by suborders of $X$ are al
 
 By a similar argument, (if ZFC is consistent) there are models $M'$ of classical set theory satisfying the (higher-order) property that the natural numbers object $\omega_{M'}$ of $M'$ includes your favourite total order $(X,\lt)$ *as a suborder* --- of course, $M'$ isn't allowed to *know* this --- notably, there is **no object** $\xi$ in $M$ such that $\{y\mid y\epsilon \xi\} = \{c_x \mid x\in X\}$.
 
-## Literature and related entries
+## Related entries
 
-* related entries: [[type (in model theory)]], [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[geometric stability theory]], [[o-minimal structure]]
-* wikipedia [model theory](http://en.wikipedia.org/wiki/Model_theory)
+* [[type (in model theory)]]
+
+* [[stability in model theory]], [[geometric stability theory]]
+
+* [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[o-minimal structure]]
+
+
 * entries on researchers in model theory: [[Alfred Tarski]], [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
+
+
+## Literature 
+
 * Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
 * Wilfrid Hodges, _Model Theory_, Cambridge University Press 1993; _A shorter model theory_, Cambridge UP 1997
 * [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
@@ -125,3 +134,6 @@ London Mathematical Society Lecture Note Series __383__, __384__
 * John T. Baldwin, _Fundamentals of stability theory_ 
 * H. Keisler. _Model theory for infinitary logic_, North-Holland, Amsterdam, 1971.
 * Gerald E Sacks, _Saturated model theory_, Benjamin 1972	
+
+* wikipedia [model theory](http://en.wikipedia.org/wiki/Model_theory)
+
