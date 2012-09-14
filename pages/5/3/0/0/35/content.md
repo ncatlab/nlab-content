@@ -126,6 +126,8 @@ See
 
 ## Related concepts
 
+* [[bisection of a Lie groupoid]]
+
 * [[orbifold]]
 
 * [[effective Lie groupoid]], [[proper Lie groupoid]], [[etale groupoid]]
