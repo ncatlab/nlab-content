@@ -23,16 +23,18 @@ A **bornological set** is a set $X$ equipped with a bornology. The elements of $
 If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to be **bounded** if $f(B)$ is bounded in $Y$ for every bounded $B$ in $X$. One obtains a category of bornological sets and bounded maps. 
 
 
-
 ## Examples
 
 * If $X$ is any [[topological space]], there is a bornology consisting of all [[precompact subset]]s of $X$ (subsets whose closure is compact).  Any [[continuous map]] is bounded with respect to this choice of bornology. 
 
 * If $X$ is any [[metric space]], there is a bornology where a set is bounded if it is contained in some open [[ball]]. Any [[Lipschitz map]] is bounded with respect to this choice of bornology.  A metric space is __bounded__ if it\'s a bounded subspace of itself.
 
+* If $X$ is a [[measure space]], then the subsets of the sets of finite measure form a bornology .
+
 * For [[linear operators]] between [[bornological spaces]], a map is continuous if and only if it is bounded. 
 
-## Results 
+
+## Properties
 
 +-- {: .num_theorem}
 ###### Theorem 
