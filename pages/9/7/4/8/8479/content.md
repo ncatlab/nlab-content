@@ -58,12 +58,16 @@ A __bounded simple function__ is a simple function in the sense of Definition \r
 
 In some approaches to [[measure theory]], one *starts* with a $\delta$-[[delta-ring|ring]] of measurable sets, which may be reinterpreted as the bounded sets in the generated $\sigma$-[[sigma-algebra|algebra]] of [[relatively measurable sets]], and then the simple functions will automatically be bounded.
 
++-- {: .query}
+I'm not sure of the right terminology here; this conflicts with the usual meaning of [[bounded function]].
+=--
+
 Finally, there is one more useful restriction on simple functions:
 
 +-- {: .num_defn #positive}
 ###### Definition
 
-A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range consist entirely of nonnegative [[real numbers]], or equivalently (in the sense of Definition \ref{lincomb}) a formal ${[0,\infty[}$-linear combination of measurable sets.
+A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range consists entirely of nonnegative [[real numbers]], or equivalently (in the sense of Definition \ref{lincomb}) a formal ${[0,\infty[}$-linear combination of measurable sets.
 =--
 
 Sometimes one allows a positive simple function to take the value $\infty$ (so to be a $[0,\infty]$-linear combination).  We will call this an __extended positive simple function__.
@@ -73,15 +77,15 @@ Sometimes one allows a positive simple function to take the value $\infty$ (so t
 
 Let $X$ be equipped with a [[measure]] $\mu$, so $(X,\mu)$ is a [[measure space]].  (In particular, $X$ has the structure necessary for all of the definitions above, including both Definitions \ref{almostequal} and \ref{bounded}.)
 
-If $f$ is a simple function from $X$ to $K$, then we wish to define the [[integral]] of $f$.  In general, this is a little tricky, but it easy if $f$ is either [bounded](#bounded) or [positive](#positive).  It is easiest to write down the definition if we think of simple functions using Definition \ref{lincomb}.  Then we have:
+If $f$ is a simple function from $X$ to $K$, then we wish to define the [[integral]] of $f$.  In general, this is a little tricky, but it\'s easy if $f$ is either [bounded](#bounded) or [positive](#positive).  It is easiest to write down the definition if we think of simple functions using Definition \ref{lincomb}.  Then we have:
 
-+-- {: .num_defn}
++-- {: .num_defn #integral}
 ###### Definition
 
 The __integral__ of the simple function $f$, represented by the linear combination $\sum_i c_i A_i$, is $\sum_i c_i \mu(A_i)$.
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #extended}
 ###### Proposition
 
 The integral of a positive simple function always exists.  It is finite if $\mu$ is a [[finite measure]], and it is positive (possibly $0$ or $\infty$) if $\mu$ is a [[positive measure]].
@@ -89,7 +93,7 @@ The integral of a positive simple function always exists.  It is finite if $\mu$
 
 If $\mu$ is a positive measure, then the definition and proposition above generalise to extended positive simple functions.  (But the integral of an extended positive simple function with respect to a finite positive measure need not be finite.)
 
-+-- {: .num_prop}
++-- {: .num_prop #finite}
 ###### Proposition
 
 The integral of a bounded simple function always exists and is finite (being a finite linear combination of finite numbers).
@@ -101,7 +105,7 @@ The integral of a bounded simple function always exists and is finite (being a f
 Two (bounded or positive) simple functions $f$ and $g$ are almost equal (with respect to $\mu$) if and only if the integral of $f - g$ is zero.
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #norm}
 ###### Definition
 
 The __$L^1$-norm__ of a simple function is the integral of its [[absolute value]] (which is positive) with respect to the absolute value of the measure $\mu$ (which is a positive measure):
@@ -110,7 +114,7 @@ $$ {\|f\|}_1 \coloneqq \int {|f|} {|\mu|} .$$
 
 In this context, we usually start with a positive measure $\mu$; in that case, of course, there is no need to bother taking the absolute value of $\mu$.
 
-+-- {: .num_prop}
++-- {: .num_prop #NVS}
 ###### Proposition
 
 The bounded simple functions form a [[normed vector space]] $BSF$ under the $L^1$-norm, if we consider them up to [almost equality](#almostequal).
@@ -118,13 +122,13 @@ The bounded simple functions form a [[normed vector space]] $BSF$ under the $L^1
 
 If we don\'t use almost equality, then we get in general only a [[seminorm]], but if we pass to a [[quotient space]] with a norm, then Proposition \ref{separation} tells us that we are now using almost equality.
 
-+-- {: .num_defn}
++-- {: .num_defn #L1}
 ###### Definition
 
 The [[complete space|completion]] of the normed vector space $BSF$ is the [[Banach space]] $L^1$ of __[[absolutely integrable functions]]__.
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #integration}
 ###### Proposition
 
 Taking the integral of a bounded simple function is a [[continuous linear functional]] on $BSF$, so it extends to all of $L^1$.
