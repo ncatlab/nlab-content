@@ -132,6 +132,10 @@ Taking the integral of a bounded simple function is a [[continuous linear functi
 
 In this way, we may define the integral of any absolutely integrable function.
 
++-- {: .query}
+There might be some technical requirements for this to be true.  I\'ll try to check on that.
+=--
+
 
 [[!redirects simple function]]
 [[!redirects simple functions]]
