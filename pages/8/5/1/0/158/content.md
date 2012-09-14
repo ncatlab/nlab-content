@@ -84,3 +84,4 @@ These are presented by [[simplicial group]]s. Notably abelian simplicial groups 
 [[!redirects infinity groupoid]]
 [[!redirects ∞-groupoid]]
 [[!redirects $\infty$-groupoid]]
+category:∞-groupoid
