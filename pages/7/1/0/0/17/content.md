@@ -206,7 +206,7 @@ as indicated in the
 
 * [[Template page]].
 
-Every page starts out tiny and may not seem to need a structure by subsections. But it will grow and eventually the information it provides may be hard to _recognize_ without some global structure guiding the reader's attention. After all, the $n$Lab is not a novel, but more like an encyclopedia.  Moreover, even with little material there in the beginning, a structure by subsections helps the collaborative process, as it makes it easer to decide for new authors where to add what.
+Every page starts out tiny and may not seem to need a structure by subsections. But it will grow and eventually the information it provides may be hard to _recognize_ without some global structure guiding the reader's attention. After all, the natural evolution of articles makes the $n$Lab function more like an encyclopedia than a novel.  Moreover, even with little material there in the beginning, a structure by subsections helps the collaborative process, as it makes it easer to decide for new authors where to add what.
 
 ## Definition-, Theorem-, Proof environments
  {#DefinitionTheoremProofEnvironments}
