@@ -91,6 +91,8 @@ provided the Hamiltonian is time-independent.
 
 * [[Hamiltonian action]]
 
+* [[Hamiltonian form]]
+
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
 [[!redirects Hamiltonians]]
