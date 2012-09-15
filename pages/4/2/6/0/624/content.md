@@ -47,7 +47,7 @@ If $C$ is [[braided monoidal category|braided]] then left and right adjoints in 
 +-- {: .un_remark}
 ###### Remark
 
-Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  But if we define right duals to be the same as right adjoints in $\mathbf{B}C$, then a right dual of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
+Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  But if we define right duals to be the same as right adjoints in $\mathbf{B}C$ (where $\otimes$ is interpreted as composition, with the traditional Leibnizian order of composition as opposed to diagrammatic order), then a right dual of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
 $$i: I \to A^* \otimes A $$
 and **counit** (or *evaluation*)
 $$e : A \otimes A^* \to I $$
