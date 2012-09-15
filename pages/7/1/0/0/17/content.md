@@ -283,6 +283,18 @@ and neither ".def" not ".definition" will be recognized by the software. Also it
 
 and ".corollary" won't be recognized.
 
+## Cross-links
+ {#CrossLinks}
+
+
+A central point of the $n$Lab is that information is _linked_. Little value is added to the world when information is added to an $n$Lab page if it is not interlinked there with other $n$Lab entries such as to make sure that useres who might look for it will actually eventually find it by following some links.
+
+Therefore you should hyperlink the central keywords in what you write, by enclosing them in square brackets. Ideally, each and every keyword would be hyperlinked, certainly when it occurs first. Don't assume that the reader has the same background as you have. If you explain something by invoking other technical terms, at least provide links to $n$Lab entries where these other terms are defined.
+
+Analogously, when you create a new page, make sure that it is _linked to_ from at least one relevant other page. An entry on a new kind of _manifold_ deserves to be linked to from a list of "related entries" at _[[manifold]]_, for instance.
+
+Apart from guiding useres to your entry this way, notably this will also help search engines to index the $n$Lab and make your new entry appear listed when people google for something related.
+
 ## Mathematical conventions
  {#MathematicalConventions}
 
@@ -290,7 +302,7 @@ There is really no such thing as a "global convention on the $n$Lab" for ambiguo
 
 Therefore the general rule is: whatever you write in some entry, try to make sure that you provide enough context that the relevant conventions are clear. If you find yourself using some notation for the first time on a page and are worrying if readers will read it as intended, be sure to add a parenthetical remark (where we use here the convention that...) or similar. 
 
-If you feel that you need to refer to a specific convnetion repeatedly over several $n$Lab pages, just create another page that states the convention, and then simply point to that page.
+If you feel that you need to refer to a specific convention repeatedly over several $n$Lab pages, just create another page that states the convention, and then simply point to that page.
 
 One example of this that we have is the _[[implicit infinity-category theory convention]]_-page.
 
@@ -298,25 +310,7 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 # Special Typesetting Features #
 
-##How to leave comments and questions## {#query}
 
-If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__ as shown in this example:
-
-    +-- {: .query}
-    How do I ask a question?
-    =--
-
-which produces
-
-+-- {: .query}
-How do I ask a question?
-=--
-
-Note that a query block should be less permanent than the rest of the page; once your comment is addressed or your question is answered, you can probably remove your query block.
-
-If you want to ask a question of a specific person, then you can place a query block on their user page (which is just a page whose title is their name). You should be able to find all user pages [here](http://ncatlab.org/nlab/list/people).
-
-If your comment or question is more general than a specific page or person, then try the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
 
 ##How to make a standout box##
 
