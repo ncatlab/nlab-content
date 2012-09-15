@@ -1,0 +1,32 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[nLab:symplectic geometry]] to [[n-plectic geometry]].
+
+The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n-plectic+geometry#PoissonLInfinityAlgebras) at _[[n-plectic geometry]]_.
+
+
+## References
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ {#Rogers}
+
+
+[[!redirects Poisson bracket Lie n-algebra]]
+[[!redirects Poisson Lie n-algebra]]
+[[!redirects Poisson Lie n-algebras]]
