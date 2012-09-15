@@ -82,7 +82,7 @@ As Jacques Distler said,
 > See [more about definition/theorem/proof-environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems).
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(uvw)**
 
@@ -99,7 +99,7 @@ A uvw is just what it looks like.
 
 ## Properties
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 Every uvw contains at least one letter.
@@ -112,7 +112,7 @@ By inspection.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every uvw contains strictly more than one letter.
@@ -130,7 +130,7 @@ Use the above lemma and continue counting:
 =--
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Every uvw contains exactly three letters.
@@ -167,7 +167,7 @@ commutes.
 =--
 
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 No uvw contains more than three letters.
@@ -207,7 +207,7 @@ For ease of reference, we will number the examples.
 
 The original definition appeared in section 3 of
 
-* FirstName LastName (year), _Title_, Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)).
+* FirstName LastName, _Title_, Journal (year)  ([arXiv](http://put.url/here), [pdf](http://another.url/)).
 
 
 [[!redirects uvw]]
