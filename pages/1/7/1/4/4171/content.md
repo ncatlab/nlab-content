@@ -150,7 +150,7 @@ $$
 
 This makes $v_\alpha$ uniquely defined.
 
-Denote the collection of Hamiltonian forms by $\Omega^{n-1}_{Hamilt}(X)$.
+Denote the collection of [[Hamiltonian forms]] by $\Omega^{n-1}_{Hamilt}(X)$.
 
 
 
