@@ -1,0 +1,9 @@
+
+See
+
+* [[logic]], [[theory]]
+
+* [[logical framework]]
+
+* [[type theory]].
+
