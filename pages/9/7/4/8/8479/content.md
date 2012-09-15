@@ -12,7 +12,7 @@ Simple functions are (almost) the most basic notion of [[measurable function]] i
 
 Let $X$ be a [[measurable space]].  We may want $X$ to be equipped with some more data; if $X$ is a [[measure space]], then this is plenty of data.  However, for the most basic definitions, it\'s enough if $X$ is simply a measurable space.  This is the [[domain]] of our simple functions.
 
-Another necessary datum is the simple functions\' [[target]] $K$, which is typically $\mathbb{R}$ (the field of [[real numbers]]) or $\mathbb{C}$ (the field of [[complex numbers]]).  But really, $K$ could be any real or complex [[Banach space]]; for some purposes, we will also want $K$ to be [[ordered Banach space|ordered]] (as $\mathbb{R}$ and $\mathbb{C}$ are).  In any case, we take $K$ to be a measurable space using its [[Borel sets]].
+Another necessary datum is the simple functions\' [[target]] $K$, which is typically $\mathbb{R}$ (the field of [[real numbers]]) or $\mathbb{C}$ (the field of [[complex numbers]]).  But really, $K$ could be any real or complex [[Banach space]]; for some purposes, we will also want $K$ to be [[ordered vector space|ordered]] (as $\mathbb{R}$ and $\mathbb{C}$ are).  In any case, we take $K$ to be a measurable space using its [[Borel sets]].
 
 +-- {: .num_defn #trad}
 ###### Definition
@@ -53,21 +53,17 @@ Sometimes, we wish to restrict attention to those simple functions which we expe
 +-- {: .num_defn #bounded}
 ###### Definition
 
-A __bounded simple function__ is a simple function in the sense of Definition \ref{trad} such that the fibre over every non-zero number is bounded, or equivalently (in the sense of Definition \ref{lincomb}) a formal linear combination of bounded measurable sets.
+A __simple function of bounded support__ is a simple function in the sense of Definition \ref{trad} such that the fibre over every non-zero number is bounded, or equivalently (in the sense of Definition \ref{lincomb}) a formal linear combination of bounded measurable sets.
 =--
 
-In some approaches to [[measure theory]], one *starts* with a $\delta$-[[delta-ring|ring]] of measurable sets, which may be reinterpreted as the bounded sets in the generated $\sigma$-[[sigma-algebra|algebra]] of [[relatively measurable sets]], and then the simple functions will automatically be bounded.
-
-+-- {: .query}
-I\'m not sure of the right terminology here; this conflicts with the usual meaning of [[bounded function]].
-=--
+In some approaches to [[measure theory]], one *starts* with a $\delta$-[[delta-ring|ring]] of measurable sets, which may be reinterpreted as the bounded sets in the generated $\sigma$-[[sigma-algebra|algebra]] of [[relatively measurable sets]], and then the simple functions will automatically have bounded support.
 
 Finally, there is one more useful restriction (and slight generalisation) of simple functions, applicable when $K$ is ordered:
 
 +-- {: .num_defn #positive}
 ###### Definition
 
-A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range is contained in the [[positive cone]] $K^+$ of $K$, or equivalently (in the sense of Definition \ref{lincomb}) a formal $K^+$-linear combination of measurable sets.  An __extended positive simple function__ (note the [[red herring principle]]) takes values in the [[extended positive cone]] $\bar{K}^+$, or equivalently is a $\bar{K}^+$-linear combination.
+A __positive simple function__ is a simple function in the sense of Definition \ref{trad} whose range is contained in the [[positive cone]] $K^+$ of $K$, or equivalently (in the sense of Definition \ref{lincomb}) a formal $K^+$-linear combination of measurable sets.  An __extended positive simple function__ (note the [[red herring]]) takes values in the [[extended positive cone]] $\bar{K}^+$, or equivalently is a $\bar{K}^+$-linear combination.
 =--
 
 
@@ -75,7 +71,7 @@ A __positive simple function__ is a simple function in the sense of Definition \
 
 Let $X$ be equipped with a [[measure]] $\mu$, so $(X,\mu)$ is a [[measure space]].  (In particular, $X$ has the structure necessary for all of the definitions above, including both Definitions \ref{almostequal} and \ref{bounded}.)
 
-If $f$ is a simple function from $X$ to $K$, then we wish to define the [[integral]] of $f$.  In general, this is a little tricky, but it\'s easy if $f$ is either [bounded](#bounded) or [positive](#positive).  It is easiest to write down the definition if we think of simple functions using Definition \ref{lincomb}.  Then we have:
+If $f$ is a simple function from $X$ to $K$, then we wish to define the [[integral]] of $f$.  In general, this is a little tricky, but it\'s easy if $f$ either is [positive](#positive) or has [bounded support](#bounded).  It is easiest to write down the definition if we think of simple functions using Definition \ref{lincomb}.  Then we have:
 
 +-- {: .num_defn #integral}
 ###### Definition
@@ -83,24 +79,24 @@ If $f$ is a simple function from $X$ to $K$, then we wish to define the [[integr
 The __integral__ of the simple function $f$, represented by the linear combination $\sum_i c_i A_i$, is $\sum_i c_i \mu(A_i)$.
 =--
 
-+-- {: .num_prop #extended}
++-- {: .num_prop #intpositive}
 ###### Proposition
 
-The integral of a positive simple function always exists.  It is finite if $\mu$ is a [[finite measure]], and it is positive (possibly $0$ or $\infty$) if $\mu$ is a [[positive measure]].
+The integral of a positive simple function always exists.  It is finite if $\mu$ is a [[finite measure]], and it is positive (possibly $0$ or $\infty$) if $\mu$ is a [[positive measure]].  Also, if $\mu$ is positive, then the integral of an extended positive simple function always exists.
 =--
 
-If $\mu$ is a positive measure, then the definition and proposition above generalise to extended positive simple functions.  (But the integral of an extended positive simple function with respect to a finite positive measure need not be finite.)
+However, the integral of an extended positive simple function with respect to a finite positive measure need not be finite.)
 
-+-- {: .num_prop #finite}
++-- {: .num_prop #intbounded}
 ###### Proposition
 
-The integral of a bounded simple function always exists and is finite (being a finite linear combination of finite numbers).
+The integral of a simple function with bounded support always exists and is finite (being a finite linear combination of finite numbers).
 =--
 
-+-- {: .num_prop #separation}
++-- {: .num_prop #intequal}
 ###### Proposition
 
-Two (bounded or positive) simple functions $f$ and $g$ are almost equal (with respect to $\mu$) if and only if the integral of $f - g$ is zero.
+Two (positive or with bounded support) simple functions $f$ and $g$ are almost equal (with respect to $\mu$) if and only if the integral of $f - g$ is zero.
 =--
 
 +-- {: .num_defn #norm}
@@ -115,21 +111,21 @@ In this context, we usually start with a positive measure $\mu$; in that case, o
 +-- {: .num_prop #NVS}
 ###### Proposition
 
-The bounded simple functions form a [[normed vector space]] $BSF$ under the $L^1$-norm, if we consider them up to [almost equality](#almostequal).
+The simple functions of bounded support form a [[normed vector space]] $Simp_c$ under the $L^1$-norm, if we consider them up to [almost equality](#almostequal).
 =--
 
-If we don\'t use almost equality, then we get in general only a [[seminorm]], but if we pass to a [[quotient space]] with a norm, then Proposition \ref{separation} tells us that we are now using almost equality.
+If we don\'t use almost equality, then we get in general only a [[seminorm]], but if we pass to a [[quotient space]] with a norm, then Proposition \ref{intequal} tells us that we are now using almost equality (and shows that Definition \ref{integral} is well defined when applied to Definition \ref{trad}).
 
 +-- {: .num_defn #L1}
 ###### Definition
 
-The [[complete space|completion]] of the normed vector space $BSF$ is the [[Banach space]] $L^1$ of __[[absolutely integrable functions]]__.
+The [[complete space|completion]] of the normed vector space $Simp_c$ (under the $L^1$-norm) is the [[Banach space]] $L^1$ of __[[absolutely integrable functions]]__ (an example of a [[Lebesgue space]]).
 =--
 
 +-- {: .num_prop #integration}
 ###### Proposition
 
-Taking the integral of a bounded simple function is a [[continuous linear functional]] on $BSF$, so it extends to all of $L^1$.
+Taking the integral of a simple function of bounded support is a [[continuous linear functional]] on $Simp_c$, so it extends to all of $L^1$.
 =--
 
 In this way, we may define the integral of any absolutely integrable function.
