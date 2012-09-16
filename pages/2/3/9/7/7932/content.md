@@ -15,18 +15,87 @@
 
 ## Idea
 
-The generalization of the notion of _[[action]]_ from [[algebra]] to [[higher algebra]]. 
+The notion of _$\infty$-action_ is the notion of _[[action]]_ ([[module]]/[[representation]]) in [[homotopy theory]]/[[(∞,1)-category theory]], from [[algebra]] to [[higher algebra]]. 
 
-If the action is suitably linear in some sense, this is also referred to as _[[∞-representation]]_.
+Notably a [[monoid object in an (∞,1)-category]] $A$ may _act_ on another object $N$ by a [[morphism]] $A \otimes N \to N$ which satisfies an action property up to [[coherence law|coherent]] higher [[homotopy]].
 
-## Properties
+If the $\infty$-action is suitably linear in some sense, this is also referred to as _[[∞-representation]]_.
 
-### For $\infty$-groups in an $\infty$-topos 
- {#PropertiesOfGroupActionsInTopos}
+## Definition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$.
+We discuss the actions of [[∞-groups]] in an [[(∞,1)-topos]].
 
-+-- {: .num_prop}
+Let $\mathbf{H}$ be an [[(∞,1)-topos]].
+
+Let $G \in Grp(\mathbf{H})$ be an [[group object in an (∞,1)-category]] in $\mathbf{H}$, hence a homotopy-[[simplicial object]] on $\mathbf{H}$ of the form
+
+$$
+  \left(
+  \cdots 
+  \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+  G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *
+  \right)
+$$
+
+satisfying the groupoidal [[Segal conditions]].
+
+hence an _[[∞-group]]_.
+
+
++-- {: .num_defn}
+###### Definition
+
+An **action** (or _$\infty$-action_, for emphasis) of $G$ on an object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category]]  which is equivalent to one of the form
+
+$$
+  \left(
+  \cdots 
+  \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+  V \times G \times G \stackrel{\to}{\stackrel{\to}{\to}} V \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}} V  
+  \right)
+$$
+
+such that the projection maps
+
+$$
+  \array{
+    \cdots 
+    &\stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}&
+    V \times G \times G 
+    &\stackrel{\to}{\stackrel{\to}{\to}}& 
+    V \times G 
+    &\stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}& 
+    V  
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    \cdots 
+    &\stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}&
+    G \times G 
+    &\stackrel{\to}{\stackrel{\to}{\to}}& 
+    G 
+    &\stackrel{\overset{}{\to}}{\underset{}{\to}}& 
+    *  
+  }
+$$
+
+constitute a morphism of groupoid objects $V\sslash G \to *\sslash G$.
+
+The [[(∞,1)-category]] of such actions is the slice of groupoid objects
+over $*\sslash G$ on these objects.
+
+=--
+
+There is an equivalent formulation which does not invoke the notion of [[groupoid object in an (∞,1)-category]] explicitly. This is based on the fundamental fact, discussed at _[[∞-group]]_, that [[delooping]] constitutes an [[equivalence of (∞,1)-categories]]
+
+$$
+  \mathbf{B} : Grp(\mathbf{H}) \to \mathbf{H}^{*/}_{\geq 1}
+  \,.
+$$
+
+form [[group objects in an (∞,1)-category]] to the [[(∞,1)-category]] of [[connected object in an (∞,1)-topos|connected]] [[pointed objects]] in $\mathbf{H}$.
+
++-- {: .num_prop }
 ###### Proposition
 
 Every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V//G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
@@ -66,7 +135,7 @@ $$
   \,.
 $$
 
-The [[(∞,1)-category]] of $G$-actions in $\mathbf{H}$ is
+The [[(∞,1)-category]] of $G$-actions in $\mathbf{H}$ is the [[slice (∞,1)-topos]] of $\mathbf{H}$ over $\mathbf{B}G$:
 
 $$
   Act_{\mathbf{H}}(G) \coloneqq \mathbf{H}_{/\mathbf{B}G}
@@ -78,7 +147,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-An $\rho \in Act_{\mathbf{H}}(G)$ corresponds to a morphism denoted
+A $\rho \in Act_{\mathbf{H}}(G)$ corresponds to a morphism denoted
 $\overline{\rho} : V\sslash G \to \mathbf{B}G$ in $\mathbf{H}$ hence to an object $\overline{\rho} \in \mathbf{H}_{/\mathbf{B}G}$.
 
 A morphism $\phi : \rho_1 \to \rho_2  $ in $Act_{\mathbf{H}}(G)$
@@ -106,15 +175,77 @@ universal $\rho$-[[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundl
 
 =--
 
++-- {: .num_remark #DefinitionInTypeTheory}
+###### Remark
+
+In the form of def. \ref{GActionByFiberSequence} 
+$\infty$-actions have a simple formulation in the [[internal language]] of [[homotopy type theory]]: a $G$-action on $V$ is simply a [[dependent type]] over $\mathbf{B}G$ with fiber $V$:
+
+$$
+  * : \mathbf{B}G \vdash V(*) : Type
+ \,.
+$$
+
+=--
+
+## Notions in higher representation theory
+ {#NotionsInHigherRepresentationTheory}
+
+
+We discuss some basic [[representation theory|representation theoretic]] notions of $\infty$-actions.
+
+In summary, for $\mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type$ an action of $G$ on $V$, we have
+
+* the [[dependent sum]]
+
+  $$
+    \vdash \sum_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
+  $$
+
+  is the [[quotient]] $V\sslash G$ of $V$ by $G$;
+
+* the [[dependent product]]
+
+  $$
+    \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
+  $$
+
+  is the collection of [[invariants]] of the actions.
+
+And for $V_1, V_2$ two actions we have
+
+* the [[dependent product]] over the [[dependent type|dependent]] [[function type]]
+
+  $$
+    \vdash : \prod_{\mathbf{c} : \mathbf{B}G}
+    (V_1(\mathbf{c}) \to V_2(\mathbf{c})) : Type
+  $$
+
+  is the collection of $G$-[[homomorphisms]] ($G$-[[equivariance|equivariant]] maps);
+
+* the [[dependent sum]] over the [[dependent type|dependent]] [[function type]]
+
+  $$
+    \vdash : \sum_{\mathbf{c} : \mathbf{B}G}
+    (V_1(\mathbf{c}) \to V_2(\mathbf{c})) : Type
+  $$
+
+  is the [[quotient]] of _all_ functions $V_1 \to V_2$ by the [[conjugation action]] of $G$.
+
 ### Invariants
  {#Invariants}
 
-The [[invariants]] of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$:
++-- {: .num_defn #TypeOfInvariants}
+###### Definition
+
+The [[invariants]] of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$,
 
 $$
-  Invariants(V) = \prod_{\mathbf{B}G} (V \sslash G \to \mathbf{B}G)
-  \,.
+  Invariants(V) = \prod_{\mathbf{B}G \to *} (V \sslash G \to \mathbf{B}G)
+  \,,
 $$
+
+where $\prod_{\mathbf{B}G \to *} : \mathbf{H}_{/\mathbf{B}G} \to \mathbf{H}$ is the [[direct image]] of the [[base change geometric morphism]].
 
 In [[homotopy type theory]] [[syntax]]: for
 
@@ -122,14 +253,41 @@ $$
   \mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type
 $$
 
-an action, its type of invariants is
+an action as in remark \ref{DefinitionInTypeTheory}, its type of [[invariants]] is the [[dependent product]]
 
 $$
-  \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c})
+  \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
   \,.
 $$
 
-### Cartesian closed monoidal structure on $\infty$-actions
+=--
+
+### Quotients
+ {#Quotients}
+
+From def. \ref{GActionByFiberSequence} we read off:
+
++-- {: .num_defn }
+###### Definition
+
+The [[quotient]] of a $G$-action 
+
+$$
+  \mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type
+$$
+
+is the [[dependent sum]]
+
+$$
+  \vdash \sum_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
+  \,.
+$$
+
+=--
+
+
+
+### Conjugation actions
  {#CartesianClosedMonoidalStructure}
 
 +-- {: .num_remark}
@@ -252,6 +410,43 @@ See also at _[Conjugation actions](#ConjugationActions)_ below.
 
 =--
 
+### Internal object of homomorphisms
+
++-- {: .num_remark}
+###### Remark
+
+The [[invariant]], def. \ref{TypeOfInvariants}
+of the conjugation action, prop. \ref{InternalHomAction} are the action [[homomorphisms]]. (See also at [Examples - Conjugation actions](#ConjugationActions)).
+
+=--
+
+Therefore 
+
++-- {: .num_defn}
+###### Definition
+
+For $\bar \rho_i : V_i \sslash G \to \mathbf{B}G$ two $G$-actions, the **object of homomorphisms** is 
+
+$$
+  \prod_{\mathbf{B}G \to *}[\bar \rho_1, \bar \rho_2]
+  \in \mathbf{H}
+  \,.
+$$
+
+In the [[syntax]] of [[homotopy type theory]]
+
+$$
+  \vdash \prod_{\mathbf{c} : \mathbf{B}G}
+  V_1(\mathbf{c}) \to V_2(\mathbf{c})
+  : Type
+  \,.
+$$
+
+=--
+
+### Stabilizer subgroups
+
+See at _[[stabilizer subgroup]]_.
 
 
 ## Examples
