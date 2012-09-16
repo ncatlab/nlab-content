@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-_Invariant theory_ studies algebraic entities -- for instance elements in a [[ring]] -- invariant under some [[group]] [[action]]. 
+_Invariant theory_ studies _[[invariants]]_: algebraic entities -- for instance elements in a [[ring]] -- invariant under some [[group]] [[action]]. 
 
 In _[[geometric invariant theory]]_ one regards the algebraic objects as [[Isbell duality|formally dual]] to a geometric space and interprets the invariants as functions on a [[quotient]] space.
 
