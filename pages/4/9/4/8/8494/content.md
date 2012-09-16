@@ -1,3 +1,4 @@
+[[!redirects W. Magnus]]
 Wilhelm Magnus was a German mathematician who worked in combinatorial group theory.
 
 * [Wikipedia page](http://en.wikipedia.org/wiki/Wilhelm_Magnus)
