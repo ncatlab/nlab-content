@@ -23,4 +23,4 @@ Physics, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Provid
 
 [[!redirects inertia stack]]
 [[!redirects inertia groupoid]]
-category:orbifold
+category: Lie theory
