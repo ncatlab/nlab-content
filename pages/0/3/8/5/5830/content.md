@@ -264,7 +264,9 @@ Introductions to the idea of homotopy type theory include
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
 
-A master fairly comprehensive exposition is 
+Thesis writeups on the topic include
+
+* [[Nicolai Kraus]], _Homotopy type theory -- An overview_ ([pdf](http://www.cs.nott.ac.uk/~ngk/homotopy_type_theory.pdf))
 
 * Egbert Rijke, _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
 
