@@ -584,3 +584,4 @@ Application to the problem of Lie integrating ordinary but infinite-dimensional 
 
 * [[Christoph Wockel]], [[Chenchang Zhu]], _Integrating central extensions of Lie algebras via Lie 2-groups_ ([arXiv:1204.5583](http://arxiv.org/abs/1204.5583))
 
+category: Lie theory
