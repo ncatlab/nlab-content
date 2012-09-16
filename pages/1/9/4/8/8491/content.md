@@ -20,6 +20,10 @@ The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[nLab:sympl
 
 The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n-plectic+geometry#PoissonLInfinityAlgebras) at _[[n-plectic geometry]]_.
 
+## Related concepts
+
+* [[Heisenberg Lie n-algebra]]
+
 
 ## References
 
@@ -27,6 +31,11 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
  {#Rogers}
 
 
-[[!redirects Poisson bracket Lie n-algebra]]
+[[!redirects Poisson bracket Lie n-algebras]]
+
+[[!redirects Poisson-bracket Lie n-algebra]]
+[[!redirects Poisson-bracket Lie n-algebras]]
+
+
 [[!redirects Poisson Lie n-algebra]]
 [[!redirects Poisson Lie n-algebras]]
