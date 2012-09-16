@@ -38,4 +38,4 @@ Note that this condition---called the **internal horn-filler condition**---coinc
 [[!redirects Kan object]]
 [[!redirects Kan objects]]
 
-category: groupoid, ∞-groupoid, simplicial object
+category: ∞-groupoid, simplicial object
