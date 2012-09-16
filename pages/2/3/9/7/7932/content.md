@@ -106,6 +106,29 @@ universal $\rho$-[[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundl
 
 =--
 
+### Invariants
+ {#Invariants}
+
+The [[invariants]] of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$:
+
+$$
+  Invariants(V) = \prod_{\mathbf{B}G} (V \sslash G \to \mathbf{B}G)
+  \,.
+$$
+
+In [[homotopy type theory]] [[syntax]]: for
+
+$$
+  \mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type
+$$
+
+an action, its type of invariants is
+
+$$
+  \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c})
+  \,.
+$$
+
 ### Cartesian closed monoidal structure on $\infty$-actions
  {#CartesianClosedMonoidalStructure}
 
