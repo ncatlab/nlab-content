@@ -356,9 +356,11 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 * [[inner derivation Lie 2-algebra]]
 
-* [[endomorphism ∞-Lie algebra]]
+* [[automorphism ∞-Lie algebra]]
 
 * For every $\infty$-Lie algebra $\mathfrak{g}$ there is its [[automorphism ∞-Lie algebra]]. In terms of [[rational homotopy theory]] this models the rational automorphism group of the [[rational space]] corresponding to $\mathfrak{g}$.
+
+* [[Poisson-bracket Lie n-algebra]]
 
 * [[Heisenberg Lie n-algebra]] of an [[n-plectic manifold]] or more generally of an [[n-plectic smooth infinity-groupoid]]
 
