@@ -104,7 +104,8 @@ Properness implies stability.
 
 [^H. Hofer]: H. Hofer, polyfolds and a general Fredholm theory
 
-category: orbifold
+category: Lie theory
+
 
 [[!redirects orbifold groupoids]]
 [[!redirects orbifold groupoid]]
