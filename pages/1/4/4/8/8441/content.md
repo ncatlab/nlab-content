@@ -5,3 +5,5 @@ Roger Lyndon was an American mathematician mostly known for his work in combinat
 * [St. Andrews history article](http://www-history.mcs.st-and.ac.uk/Biographies/Lyndon.html)
 
 category:people
+[[!redirects R.C.Lyndon]]
+[[!redirects R. Lyndon]]
