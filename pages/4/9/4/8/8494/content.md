@@ -1,0 +1,8 @@
+Wilhelm Magnus was a German mathematician who worked in combinatorial group theory.
+
+* [Wikipedia page](http://en.wikipedia.org/wiki/Wilhelm_Magnus)
+
+* [St. Andrews history page](http://www-history.mcs.st-andrews.ac.uk/Biographies/Magnus.html)
+
+[[!redirects W. Magnus]]
+category:people
