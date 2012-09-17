@@ -2,16 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Homotopy theory
+#### Equality and Equivalence
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include equality and equivalence - contents]]
 =--
 #### Category theory
-+-- {: .hide}
++--{: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
+
+
 
 # Equivalence
 * table of contents
