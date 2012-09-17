@@ -1,14 +1,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
-=--
-#### Higher category theory
-+-- {: .hide}
-[[!include higher category theory - contents]]
+###Context###
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
 =--
