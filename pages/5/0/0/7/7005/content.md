@@ -6,16 +6,22 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Homotopy theory
-+-- {: .hide}
-[[!include homotopy - contents]]
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 #### Universes
 +-- {: .hide}
 [[!include universe - contents]]
 =--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
