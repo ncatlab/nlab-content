@@ -85,7 +85,7 @@ This is theorem 5.1 in
 +-- {: .un_prop}
 ###### Proposition
 
-The real interval $[0, 1]$ may be characterized, as a [[topological space]], as the terminal coalgebra for the functor on bi[[pointed object|pointed]] topological spaces which takes a space $X$ to the space $X \vee X$. Here, $X \vee Y$, for $(X, x_-, x_+)$ and $(Y, y_-, y_+)$, is the disjoint union of $X$ and $Y$ with $x_+$ and $y_-$ identified, and $x_-$ and $y_+$ as the two base points.
+The real interval $[0, 1]$ may be characterized, as a [[topological space]], as the terminal coalgebra for the functor on two-[[pointed object|pointed]] topological spaces which takes a space $X$ to the space $X \vee X$. Here, $X \vee Y$, for $(X, x_-, x_+)$ and $(Y, y_-, y_+)$, is the disjoint union of $X$ and $Y$ with $x_+$ and $y_-$ identified, and $x_-$ and $y_+$ as the two base points.
 =--
 
 +-- {: .proof}
@@ -94,6 +94,8 @@ The real interval $[0, 1]$ may be characterized, as a [[topological space]], as 
 This is discussed in 
 
 * [[Peter Freyd]], [cat list](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg)
+
+More information may be found at [[coalgebra of the real interval]]. 
 =--
 
 
