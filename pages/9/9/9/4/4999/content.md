@@ -159,6 +159,12 @@ and more particularly on epistemic logics and their applications,
 
 * J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995. 
 
+A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
+
+* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of model logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+ {#Pfenning-Davies}
+
+
 The Stanford Encyclopedia of Philosophy entry on [modal logic](http://plato.stanford.edu/entries/logic-modal/) is also very useful.
 
 
