@@ -3,7 +3,7 @@ and a member of the [Courant Research Centre on Higher Order Structures in Mathe
 
 My Ph.D thesis was on [[higher symplectic geometry]], and was supervised by [[John Baez]]. 
 
-More information (current research interests, publications, etc.) can be found [here](http://www.crcg.de/wiki/Chris_Rogers).
+More information (current research interests, publications, etc.) can be found [here](http://www.uni-math.gwdg.de/crogers/).
 
 
 category: people
