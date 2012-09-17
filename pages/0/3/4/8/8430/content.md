@@ -1,7 +1,9 @@
 
 **[[deductive reasoning]]**
 
-* [[natural deduction]]
+* [[deduction]]
+
+  * [[natural deduction]], [[sequent]]
 
 **[[inductive reasoning]]**
 
