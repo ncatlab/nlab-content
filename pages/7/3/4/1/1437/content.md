@@ -141,7 +141,7 @@ as real numbers. In this way, we produce a unique well-defined interval map $X \
 
 +-- {: .un_remark}
 ###### Remarks 
-(More material can be found at [[real coalgebra]].) 
+(More material can be found at [[coalgebra of the real interval]].) 
 
 1. The same proof shows that we could have considered instead the category of [[poset|posets]] with separate top and bottom, or even the category of sets with separate top and bottom, with an analogous endofunctor. The reason we chose the category of intervals is (besides the availability of the succinct term 'interval') to indicate that choice of interval $[0, 1]$, 
 as the model which classifies the [[geometric realization]] functor, can be justified on the grounds of a universal property, as shown by this theorem. 
