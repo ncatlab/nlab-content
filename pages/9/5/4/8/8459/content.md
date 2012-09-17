@@ -143,7 +143,7 @@ here
 
 * $A[1]$ etc. is the [[suspension of a chain complex]] of $A$, hence the same chain complex but pushed up in degree by one.
 
-This is discussed in detailed at _[[mapping cone]]_, see the section _[mapping cone - for chain complexes](mapping%20cone#InChainComplexes)_.
+This is discussed in detail at _[[mapping cone]]_, see the section _[mapping cone - for chain complexes](mapping%20cone#InChainComplexes)_.
 
 In conclusion we get from every morphim of chain complexes a 
 long **[[homotopy cofiber sequence]]**
