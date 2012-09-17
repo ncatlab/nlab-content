@@ -1,3 +1,4 @@
+[[!redirects real coalgebra]]
 # Contents 
 * table of contents 
 {: toc} 
@@ -62,4 +63,7 @@ which works is
 * $\xi(x, y) = i_0({x \uparrow}, {y \uparrow})$ if ${x \downarrow} = 0$ or ${y \downarrow} = 0$; 
 
 * $\xi(x, y) = i_1({x \downarrow}, {y \downarrow})$ if ${x \uparrow} = 1 = {y \uparrow}$. 
+
+
+[[!redirects real coalgebra]]
 
