@@ -224,7 +224,10 @@ the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manife
 
 ## Implications
 
-### Direct consequences
+### Intramural and extramural isomorphisms
+
+The following two statements are direct concequenes of the 
+salamander lemma.
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
@@ -258,27 +261,108 @@ This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] a
 ###### Corollary
 **(intramural isomorphisms)**
 
-In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ is [[exact sequence|exact]] at $B$, then the two intramural maps, lemma \ref{Intramural}, shown above the diagram are [[isomorphisms]]:
+In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ or $\partial : B \to A$ is [[exact sequence|exact]] at $B$, then the two intramural maps shown on the right, lemma \ref{Intramural}, [[isomorphisms]]:
 
-$$
-  \array{
-    0 &\to& A &\to& \cdots
-    \\
-    && \downarrow^{\mathrlap{\partial}} && 
-    \\
-    0 &\hookrightarrow& B &\stackrel{ker = 0}{\to}& \cdots
-  }
-  \;\;\;\;\;\;\;\;\;\;\;\;
-  \Rightarrow
-  \;\;\;\;\;\;\;\;\;\;\;\;
-  \array{
-    {}^\Box A &\stackrel{\simeq}{\to}& A^{hor}
-    \\
-    A^{vert} & \stackrel{\simeq}{\to}&  A_{\Box}
-  }
-$$
+1. $$
+     \array{
+       && \vdots && \vdots
+       \\
+       && \downarrow && \downarrow
+       \\
+       0 &\to& A &\to& &\to& \cdots
+       \\
+       && \downarrow^{\mathrlap{\partial}} && \downarrow
+       \\
+       0 &\hookrightarrow& B &\stackrel{ker = 0}{\to}& &\to& \cdots
+       \\
+       && \downarrow && \downarrow
+       \\
+       && \vdots && \vdots
+     }
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \array{
+       {}^\Box A &\stackrel{\simeq}{\to}& A^{hor}
+       \\
+       A^{vert} & \stackrel{\simeq}{\to}&  A_{\Box}
+     }
+   $$
 
-(...)
+1. $$
+     \array{
+       && 0 && 0
+       \\
+       && \downarrow && \downarrow
+       \\
+       \cdots &\to& A &\to& B &\to& \cdots
+       \\
+       && \downarrow && \downarrow^{\mathrlap{ker = 0}}
+       \\
+       \cdots &\to& &\to& &\to& \cdots
+       \\
+       && \vdots && \vdots
+     }
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \array{
+       {}^\Box A &\stackrel{\simeq}{\to}& A^{vert}
+       \\
+       A^{hor} & \stackrel{\simeq}{\to}&  A_{\Box}
+     }  
+   $$
+
+1. $$
+     \array{
+       && \vdots && \vdots
+       \\
+       && \downarrow && \downarrow
+       \\
+       \cdots &\to& &\stackrel{im = B}{\to}& B &\to& 0
+       \\
+       && \downarrow && \downarrow
+       \\
+       \cdots &\to& &\to& A &\to& 0
+       \\
+       && \downarrow && \downarrow
+       \\
+       && \vdots && \vdots
+     }
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \array{
+        A^{hor} &\stackrel{\simeq}{\to}& A_{\Box}
+        \\
+        {}^\Box A &\stackrel{\simeq}{\to}& A^{vert}
+     }
+   $$
+
+1. $$
+     \array{
+       && \vdots && \vdots
+       \\
+       \cdots &\to& &\to& &\to& \cdots
+       \\
+       && \downarrow^{\mathrlap{im = B}} && \downarrow
+       \\
+       \cdots &\to& B &\to& A &\to& \cdots
+       \\
+       && \downarrow && \downarrow
+       \\
+       && 0 && 0
+     }
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;\;\;\;\;\;
+     \array{
+       A^{vert} &\stackrel{\simeq}{\to}& A_{\Box}
+       \\
+       {}^\Box A &\stackrel{\simeq}{\to}& A^{vert}
+     }
+   $$
+
 
 =--
 
@@ -286,6 +370,9 @@ This appears as ([Bergman, cor. 2.2](#Bergman)).
 
 +-- {: .proof}
 ###### Proof
+
+We spell out the proof of the first item. The others work
+analogously.
 
 Applying cor. \ref{ExtramuralIso} to $0 \to B$ yields ${}^\Box B \simeq 0_\Box = 0$. Therefore the exact sequence of the Salamander lemma \ref{SalamanderLemma} corresponding to 
 
@@ -342,12 +429,12 @@ Corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} are also readily checke
 
 ### The sharp $3 \times 3$-lemma
 
-We discuss an elegant proof of the [[sharp 3x3 lemma]] from the Salamander lemma.
+We derive the [[sharp 3x3 lemma]] from the salamander lemma.
 
-+-- {: .num_prop}
++-- {: .num_prop #ShortSharp3x3}
 ###### Proposition
 
-In in a [[diagram]] of the form
+If in a [[diagram]] of the form
 
 $$
   \array{
@@ -379,7 +466,27 @@ The following proof is that given in ([Bergman, lemma 2.3](#Bergman)).
 
 First of all one notices that the diagram is a [[double complex]]: by column-exactness the first row includes as [[subobjects]] into the second, so the horizontal maps of the first row are restrictions of the [[differentials]] of the second and so at least the first row is a [[chain complex]].
 
-Then with the exactness assumptions, corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} yield isomorphisms
+Then with the exactness assumptions, corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} applied to the diagonal mural maps
+
+$$
+  \array{
+    &&&& B'
+    \\
+    &&&&& \Box
+    \\
+    &&&& \nearrow
+    \\
+    &&& \Box
+    \\
+    A && \nearrow && B
+    \\
+    & \Box
+  }
+$$
+
+
+
+yield isomorphisms
 
 $$
   {A'}^{hor} \simeq A'_{\Box} \simeq A'^{vert} \simeq 0
@@ -388,18 +495,59 @@ $$
 and
 
 $$
-  {B'}^{hor} \simeq {B'}_{\Box}\simeq {}^{\Box}B \simeq A_{\Box} \simeq A^{vert} \simeq 0
-$$
-
-and
-
-$$
-  {C'}^\hor \simeq \cdots.
+  {B'}^{hor} \simeq {B'}_{\Box}\simeq {}^{\Box}B \simeq A_{\Box} \simeq A^{vert} \simeq 0\,.
 $$
 
 The vanishing of the terms on the left in these three expressions is the exactness of the first row, to be shown
 
 =--
+
++-- {: .num_prop #Sharp3x3}
+###### Proposition
+
+If in a [[diagram]] of the form
+
+$$
+  \array{
+    && 0 && 0 && 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A' &\to& B' &\to& C' &\to& 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A &\to& B &\to& C &\to& 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A'' &\to& B'' &\to& C'' 
+    \\
+    && \downarrow
+    \\
+    && 0
+  }
+$$
+
+all columns and the second and third row are [[exact sequence|exact]], 
+then also the first row is exact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Exactness in $A$ and $B$ is prop. \ref{ShortSharp3x3}.
+For exactness in $C$ use...
+
+$$
+  {C'}^\hor \simeq \cdots.
+$$
+
+(...)
+
+=--
+
 
 
 ### The snake lemma
@@ -443,3 +591,5 @@ A purely [[category theory|category-theoretic proof]] is in section 2 of
 
 * [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
 
+
+[[!redirects Salamander lemma]]
