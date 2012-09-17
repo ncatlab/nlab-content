@@ -1,3 +1,4 @@
+[[!redirects equivalence in a quasi-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -6,8 +7,14 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
