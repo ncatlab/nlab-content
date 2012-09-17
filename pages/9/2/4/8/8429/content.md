@@ -8,3 +8,5 @@
 * [[sequent calculus]]
 
 category: people
+
+[[!redirects Gentzen]]
