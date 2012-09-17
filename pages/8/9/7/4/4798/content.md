@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 #### $\infty$-Chern-Weil theory
 +--{: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
