@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
