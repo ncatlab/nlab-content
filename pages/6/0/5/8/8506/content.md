@@ -1,13 +1,17 @@
 
 **[[equivalence]]**
 
-* [[equality]], [[identity type]]
+* [[equality]] ([[definitional equality|definitional]], [[propositional equality|propositional]], [[computational equality|computational]], [[judgemental equality|judgemental]], [[extensional equality|extensional]], [[intensional equality|intensional]], [[decidable equality|decidable]])
 
-* [[isomorphism]]
+* [[identity type]]
 
-* [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]], [[equivalence in an (∞,1)-category]]
+* [[isomorphism]], [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]], [[equivalence in an (∞,1)-category]]
 
 * [[gauge equivalence]]
+
+* **Examples.** 
+
+  * [[equivalence of categories]], [[adjoint equivalence]], [[weak equivalence of internal categories]], [[Morita equivalence]], [[equivalence of 2-categories]], [[equivalence of (∞,1)-categories]]
 
 **[[principle of equivalence]]**
 
@@ -19,12 +23,12 @@
 
 * [[homotopy pullback]]
 
-Examples
+* **Examples.**
 
-* [[linear equation]], [[differential equation]], [[ordinary differential equation]], [[critical locus]]
+  * [[linear equation]], [[differential equation]], [[ordinary differential equation]], [[critical locus]]
 
-* [[Euler-Lagrange equation]], [[Einstein equation]], [[wave equation]]
+  * [[Euler-Lagrange equation]], [[Einstein equation]], [[wave equation]]
 
-* [[Schrödinger equation]], [[Knizhnik-Zamolodchikov equation]], [[Maurer-Cartan equation]], [[quantum master equation]], [[Euler-Arnold equation]], [[Fuchsian equation]], [[Fokker-Planck equation]], [[Lax equation]]
+  * [[Schrödinger equation]], [[Knizhnik-Zamolodchikov equation]], [[Maurer-Cartan equation]], [[quantum master equation]], [[Euler-Arnold equation]], [[Fuchsian equation]], [[Fokker-Planck equation]], [[Lax equation]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/equalits+and+equivalence+-+contents)</div>
