@@ -1,6 +1,19 @@
 Anabelian geometry is envisioned by Grothendieck in his [[Esquisse d'un programme]]. Currently one of the main promoters seems to be [[Shinichi Mochizuki]]. 
 
 
+##Related entries
+
+* [[child's drawing]]/ Dessins d'enfant.  
+
+* [[profinite completion]]
+
+* [[algebraic fundamental group]] also called the 'geometric fundamental 
+group' by Grothendieck.
+
+* [[The Grothendieck Teichmuller group]] (cf. [[Leila Schneps]]). 
+
+
+
 ##References
 
 
