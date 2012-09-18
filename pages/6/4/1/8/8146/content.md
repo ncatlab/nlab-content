@@ -1,14 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Diagram chasing lemmas
++-- {: .hide}
+[[!include diagram chasing lemmas - contents]]
+=--
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
-
 #Contents#
 * table of contents
 {:toc}
