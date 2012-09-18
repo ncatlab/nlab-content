@@ -1,0 +1,67 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Diagram chasing lemmas
++-- {: .hide}
+[[!include diagram chasing lemmas - contents]]
+=--
+#### Homological algebra
++-- {: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One of the [[diagram chasing]] lemmas in [[homological algebra]].
+Follows directly from the [[salamander lemma]]. Directly implies the [[snake lemma]].
+
+## Statement
+
+Let $\mathcal{A}$ be an [[abelian category]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+Consider a [[commuting diagram]] in $\mathcal{A}$ of the form
+
+$$
+  \array{
+    &\to& &\to& &\to&
+    \\
+    \downarrow^{\mathrlap{\tau}}
+    &&
+    \downarrow^{\mathrlap{f}}
+    &&
+    \downarrow^{\mathrlap{g}}
+    &&
+    \downarrow^{\mathrlap{\nu}}
+    \\
+    &\to& &\to& &\to&
+  }
+$$
+
+where 
+
+1. the rows are [[exact sequences]],
+
+1. $\tau$ is an [[epimorphism]],
+
+1. $\nu$ is a [[monomorphism]].
+
+Then
+
+1. if $g$ is an [[epimorphism]] then so is $f$;
+
+1. if $f$ is a [[monomorphism]] then so is $g$.
+
+=--
+
+[[!redirects 4 lemma]]
