@@ -1,2 +1,29 @@
 
-A [[judgement]] on the left of a [[sequent]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[judgement]] on the left of the "$\vdash$"-symbol of a [[sequent]]/[[hypothetical judgement]].
+
+A _hypothesis_ or [[context]].
+
+## Related concepts
+
+**antecedents** $\vdash$ [[succedents]]
+
+**antecedents** $\vdash$ [[consequent]]
+
+[[!redirects antecedents]]
