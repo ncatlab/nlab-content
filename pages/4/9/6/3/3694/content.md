@@ -1,1 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+
 An **ordinary differential equation** is a [[differential equation]] involving derivatives of a function with respect to one argument only. The same for systems: there can be several functions, but all the derivatives are with respect to the same argument (in all equations).  In other words, we are looking at maps on a [[manifold]] of only $1$ [[dimension]].
+
+[[!redirects ordinary differential equations]]
