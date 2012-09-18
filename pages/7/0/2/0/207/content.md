@@ -28,10 +28,10 @@ There is a lot of interesting stuff to be said about _equality_ in [[logic]], [[
 
 Here is a list of distinctions between different notions of _equality_, in different contexts, where possibly all the following pairs of notions are, in turn, "the same", just expressed in terms of different terminologies:
 
-*  the difference between axiomatic and defined equality;
+*  the difference between [[axiom|axiomatic]] and [[definition|defined]] equality;
 *  the difference between identity and equality,
 *  the difference between intensional and extensional equality,
-*  the difference between equality judgements and equality propositions,
+*  the difference between equality [[judgements]] and equality [[propositions]],
 *  the difference between equality and [[isomorphism]],
 *  the difference between equality and [[equivalence]],
 *  the possibility of operations that might not preserve equality.
@@ -141,8 +141,15 @@ a distinction between definitional equality and "book" equality.
 [[!redirects definitional identities]]
 [[!redirects definitional equality]]
 [[!redirects definitional equalities]]
+
 [[!redirects propositional equality]]
 [[!redirects propositional equalities]]
+
+[[!redirects computational identity]]
+[[!redirects computational identities]]
+[[!redirects computational equality]]
+[[!redirects computational equalities]]
+
 
 [[!redirects intensional identity]]
 [[!redirects intensional identities]]
