@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,6 +65,7 @@ and the $R$-linear map $R^r\to R$ is given by the row vector $(x_1,\ldots,x_r)$.
 
 * [[Koszul-Tate resolution]]
 
+* [[syzygy]]
 
 ## References
 
