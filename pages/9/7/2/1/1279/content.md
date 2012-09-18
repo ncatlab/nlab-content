@@ -143,3 +143,6 @@ is discussion of a sequent calculus for [[type theory]].
 
 
 [[!redirects sequent calculus]]
+
+[[!redirects sequent calculi]]
+
