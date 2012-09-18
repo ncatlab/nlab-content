@@ -42,7 +42,11 @@ There are several different incarnations of the superstring.
 
   * [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
-  * [[string]], [[spinning string]], **superstring**
+  * [[string]], [[spinning string]], 
+
+  * **superstring**
+   
+    * [[super Riemann surface]]
 
   * [[membrane]]
 
