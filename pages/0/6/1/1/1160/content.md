@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 # Decidable and stable equality
 * table of contents
 {: toc}
 
 ## Definitions
 
-In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any two elements of $X$ are either [[equality|equal]] or [[negation|not]] equal.  Equivalently, $X$ has decidable equality if its [[equality]] relation is a [[decidable subset]] of $X \times X$.  Sometimes one says that such a set $X$ is _discrete_, although of course this term has many meanings.  Of course, in [[classical mathematics]], every set has decidable equality.  But the concept generalises in [[sheaf and topos theory|topos theory]] to the notion of [[decidable object]].
+In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any two elements of $X$ are either [[equality|equal]] or [[negation|not]] equal.  Equivalently, $X$ has decidable equality if its [[equality]] [[relation]] is a [[decidable subset]] of $X \times X$.  Sometimes one says that such a set $X$ is _discrete_, although of course this term has many meanings.  Of course, in [[classical mathematics]], every set has decidable equality.  But the concept generalises in [[sheaf and topos theory|topos theory]] to the notion of [[decidable object]].
 
 More generally, $X$ has __stable equality__ if any two elements of $X$ are equal if (hence iff) they are [[double negation|not not]] equal.  Every set with decidable equality must also have stable equality, but not conversely.
 
