@@ -86,9 +86,11 @@ $$
 hence the [[cokernel]] of the map, fitting in the [[exact sequence]]
 
 $$
-  A^{n_1} \stackrel{(-)\cdots K}{\to} A^{n_1} \to A^{n_1}/(A^{n_1}\cdot K)
+  A^{n_1} \stackrel{(-)\cdots K}{\to} A^{n_0} \to A^{n_1}/(A^{n_1}\cdot K)
   \to 0
 $$
+
+Here the morphism on the left is also called the inclusion of the [[sysygies]] of the module on the right.
 
 Applying the [[left exact functor|left exact]] [[hom functor]] $Hom_{A Mod}(-,N)$ to this yields [[exact sequence]]
 
@@ -112,5 +114,13 @@ This identifies $Hom_{A Mod}(A^{n_1}/(A^{n_0}\cdot K), N)$ as the space of solut
 * [[matrix calculus]]
 
 * [[determinant]]
+
+## References
+
+Discussion in the context of [[syzygies]] of modules is for instance in section 4.5 of 
+
+* [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+
+
 
 [[!redirects linear equations]]
