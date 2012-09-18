@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### $(\infty,1)$-Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 #### Homotopy theory
 +-- {: .hide}
 [[!include homotopy - contents]]
@@ -10,12 +18,11 @@
 +-- {: .hide}
 [[!include model category theory - contents]]
 =--
-#### $(\infty,1)$-Limits and colimits
-+-- {: .hide}
-[[!include infinity-limits - contents]]
 =--
 =--
-=--
+
+
+
 
 # Contents
 * table of contents
