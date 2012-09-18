@@ -185,6 +185,8 @@ The 4-step rules of natural deduction are close to being specifications of [[uni
 
 * [[logical framework]]
 
+* [[deduction calculus]]
+
 * [[type theory]]
 
 * [[sequent calculus]]
