@@ -1,13 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Additive and abelian categories
-+--{: .hide}
-[[!include additive and abelian categories - contents]]
+### Context
+#### Diagram chasing lemmas
++-- {: .hide}
+[[!include diagram chasing lemmas - contents]]
+=--
+#### Homological algebra
++-- {: .hide}
+[[!include homological algebra - contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
@@ -45,4 +51,10 @@ There are at least five approaches to performing diagram chases in general abeli
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
 
-* Daniel Murfet, _Diagram Chasing in Abelian Categories_ (2006) ([pdf](http://therisingsea.org/notes/DiagramChasingInAbelianCategories.pdf))
+* [[Daniel Murfet]], _Diagram Chasing in Abelian Categories_ (2006) ([pdf](http://therisingsea.org/notes/DiagramChasingInAbelianCategories.pdf))
+
+* [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
+ {#Bergman}
+
+
+[[!redirects diagram chasing lemmas]]
