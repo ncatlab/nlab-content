@@ -1,3 +1,21 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+
 UNDER CONSTRUCTION
 
 ## Idea
