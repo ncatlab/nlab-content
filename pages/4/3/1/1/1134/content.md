@@ -224,6 +224,8 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 * [[super vector bundle]] 
 
+* [[super Riemann surface]]
+
 * [[superconnection]]
 
 * [[superdifferential form]]
@@ -232,6 +234,10 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 
 ## References
+
+### General 
+
+* [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
 
 ### As locally ringed spaces
 
