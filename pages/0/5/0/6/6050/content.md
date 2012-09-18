@@ -1,7 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+
+
 For $(X,g)$ a [[Riemannian manifold]] and $\Delta : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
 
 $$
   \Delta f = 0
   \,.
 $$
+
+[[!redirects wave equations]]
+
