@@ -24,4 +24,4 @@ According to ([Mazur](#Matzur)):
 
 * abc conjecture [homepage](http://www.math.unicaen.fr/~nitaj/abc.html)
 * wikipedia [abc conjecture](http://en.wikipedia.org/wiki/Abc_conjecture)
-
+* Noam Elkies, _ABC conjecture implies Mordell_, Int. Math. Research Notices 7 (1991) 99-109
