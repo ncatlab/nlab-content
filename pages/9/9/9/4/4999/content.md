@@ -139,6 +139,12 @@ A discussion of the history can be found in  ([BlackburnDeRijkeVenema, page 42](
 
 (As there is another sense to [[frame]] as the dual of a [[locale]], we need to consider the terminology here and where necessary will use [[frame (modal logic)]] as the entry name.) A more detailed discussion of [[frame (modal logic)|frames]], models and the whole question of the semantics of modal logics is to be found at that entry. 
 
+
+###Algebraic semantics
+{#AlgebraicSemantics}
+
+The usual algebraic semantics of modal logic is in terms of Boolean algebras with operators and is described in the entry [[algebraic models for modal logic]].
+
 ### Categorical semantics
  {#CategoricalSemantics}
 
