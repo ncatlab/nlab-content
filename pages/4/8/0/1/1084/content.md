@@ -970,19 +970,30 @@ $$
 +-- {: .num_lemma #ConeInjectionEquivalentToZigzag}
 ###### Lemma
 
-The [[chain map]]
-
-$$
-  h_\bullet : cone(f)_\bullet \to Z_\bullet
-$$
-
-given in components by
+The collection of linear maps
 
 $$
   h_n : Y_n \oplus X_{n-1} \to Y_n \stackrel{}{\to} Z_n
 $$
 
-is a [[quasi-isomorphism]] and the morphism $i_\bullet : Y_\bullet \to cone(f)_\bullet$ is eqivalent to the [[zigzag]]
+constitutes a [[chain map]]
+
+$$
+  h_\bullet : cone(f)_\bullet \to Z_\bullet
+  \,.
+$$
+
+
+This is a [[quasi-isomorphism]]. The inverse of $H_n(h_\bullet)$ is given by sending a representing [[cycle]] $z \in Z_n$ to 
+
+$$
+  (\hat z_n, \partial^Y \hat z_n) \in Y_n \oplus X_{n+1}
+  \,,
+$$
+
+where $\hat z_n$ is any choice of lift through $p_n$ and where $\partial^Y \hat z_n$ is the formula expressing the [[connecting homomorphism]] in terms of elements, as discussed at [Connecting homomorphism -- In terms of elements](connecting%20homomorphism#OnHomologyInTermsOfElements).
+ 
+Finally, the morphism $i_\bullet : Y_\bullet \to cone(f)_\bullet$ is eqivalent in the [[homotopy category]] (the [[derived category]]) to the [[zigzag]]
 
 $$
   \array{
@@ -1000,7 +1011,35 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that we have a [[commuting diagram]]
+To see that $h_\bullet$ defines a chain map recall the differential $\partial^{cone(f)}$ from prop. \ref{ComponentsOfMappingConeInChainComplexes}, which acts by
+
+$$
+  \partial^{cone(f)} (x_{n-1}, \hat z_n)
+  = 
+  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+$$
+
+and use that $x_{n-1}$ is in the [[kernel]] of $p_n$ by exactness, hence
+
+$$
+  \begin{aligned}
+    h_{n-1}\partial^{cone(f)}(x_{n-1}, \hat z_n)
+    &= 
+    h_{n-1}( \partial^X, x_{n-1} \partial^Y \hat z_n + x_{n-1}  )
+    \\
+    & = p_{n-1}( \partial^Y \hat z_n + x_{n-1})
+    \\
+    & = p_{n-1}( \partial^Y \hat z_n )
+    \\
+    & = \partial^Z p_n \hat z_n
+    \\
+    & = \partial^Z h_n(x_{n-1}, \hat z_n)
+  \end{aligned}
+  \,.
+$$
+
+It is immediate to see that we have a [[commuting diagram]] of the form
+
 $$
   \array{
     && cone(f)_\bullet 
@@ -1011,7 +1050,54 @@ $$
   }
 $$
 
-since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$. This diagram gives a morphism of [[cocones]] under the diagram defining $cone(f)$ in prop. \ref{HomotopyCofiberByFactorizationLemma}. Since by the above both of these cocones are homotopy-colimiting, this is a quasi-isomorphism. 
+since the composite morphism is the inclusion of $Y$ followed by the bottom morphism on $Y$. 
+
+Abstractly, this already implies that $cone(f)_\bullet \to Z_\bullet$ is a [[quasi-isomorphism]], 
+for this diagram gives a morphism of [[cocones]] under the diagram defining $cone(f)$ in prop. \ref{HomotopyCofiberByFactorizationLemma} and by the above both of these cocones are [[homotopy colimit|homotopy-colimiting]].
+
+But in checking the claimed inverse of the induced map on homology groups, we verify this also explicity:
+
+We first determine those cycles $(x_{n-1}, y_n) \in cone(f)_n$ which lift a cycle $z_n$. By lemma \ref{HomotopyCofiberByFactorizationLemma}
+a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
+By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on it by
+
+$$
+  \partial^{cone(f)} (x_{n-1}, \hat z_n)
+  = 
+  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+$$
+
+and so the condition is that $x_{n-1} \coloneqq \partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = \partial^X \partial^Y \hat z_n = \partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
+
+This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumoption that we have a [[short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
+
+To see that it is also injective we need to show that for any other lift $\tilde z_n$ the cycles $(\partial^Y \hat z_n, z_n)$ and $(\partial^Y \tilde z_n, z_n)$ are homologous in $cone(f)_\bullet$. Again by prop. \ref{ComponentsOfMappingConeInChainComplexes} this means that we need to find $(x_{n}, y_{n+1}) \in X_{n-1} \oplus Y_n$ such that
+
+$$
+  \begin{aligned}
+    (\partial^Y (\hat z_n - \tilde z_n), \hat z_n - \tilde z_n)
+    & = 
+    \partial^{cone(f)}(x_{n}, y_{n+1})
+    \\
+    & = ( \partial^X x_{n} , \partial^Y y_n + x_{n})
+  \end{aligned}
+  \,.
+$$
+
+Here we observe that since $p_n(\hat z_n - \tilde z_n) = 0$, by exactness $(\hat z_n - \tilde z_n) \in X_n \hookrightarrow Y_n$ and hence we can take
+
+$$
+  x_n \coloneqq \hat z_n - \tilde z_n
+  \,.
+$$
+
+Since moreover by exactness $\partial^X = \partial^Y|_{X}$ this means that with
+
+$$
+  y_{n+1} = 0
+$$
+
+this solves the condition.
 
 =--
 
@@ -1106,31 +1192,20 @@ $$
   \;\;
    : 
   \;\;
-  H_n(Z_\bullet) \to H_{n-1}(X_\bullet)
+  H_n(Z_\bullet) \to H_n(cone(f)_\bullet) \to H_{n-1}(X_\bullet)
 $$
 
 equals the [[connecting homomorphism]] $\delta_n$ induced by the short exact sequence.
 
-This map sends a homology element $[z_n] \in H_n(Z_\bullet)$ represented by a [[cycle]] $z_n \in Z_n$ first to a cycle $(x_{n-1}, y_n) \in cone(f)_n$ lifting it (and since the vertical morphism is a quasi-isomorphism we are in particular guaranteed that such exists) and then sends this along the horizontal map. By prop. \ref{ProjectionOutOfChainComplexMappingConeIsHoCofiber} the horizontal map is just the projection, and hence the assignment is of the form
+By prop. \ref{ConeInjectionEquivalentToZigzag} the inverse of the vertical map is given by choosing lifts and forming the corresponding element given by the connecting homomorphism.
+By prop. \ref{ProjectionOutOfChainComplexMappingConeIsHoCofiber} the horizontal map is just the projection, and hence the assignment is of the form
 
 $$
   [z_n] \mapsto [x_{n-1}, y_n] \mapsto [x_{n-1}]
   \,.
 $$
 
-It remains therfore to determine those cycles $(x_{n-1}, y_n) \in cone(f)_n$ which lift a cycle $z_n$. By lemma \ref{HomotopyCofiberByFactorizationLemma}
-a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
-By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on it by
-
-$$
-  \partial^{cone(f)} (x_{n-1}, \hat z_n)
-  = 
-  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
-$$
-
-and so the condition is that $x_{n-1} \coloneqq \partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = \partial^X \partial^Y \hat z_n = \partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
-
-In summary this means that the image of the zig-zag under homology sends
+So in total the image of the zig-zag under homology sends
 
 $$
   [z_n]_Z \mapsto -[\partial^Y \hat z_n]_X
@@ -1143,33 +1218,78 @@ By the discussion [there](connecting%20homomorphism#OnHomologyInTermsOfElements)
 
 
 ### Distinguished triangles from mapping cones 
+ {#DistinguishedTriangles}
 
-A [[homotopy category]] of the [[category of chain complexes]] (with respect to chain [[homotopy equivalence]]s) has a natural structure of a [[triangulated category]] where the distinguished triangles are the triangles isomorphic to **mapping cone triangle**s
+In summary, the [above](#HomologyExactSequencesAndFiberSequences) says that for every [[chain map]] $f_\bullet : X_\bullet \to Y_\bullet$ we obtain maps
 
 $$
-  A \stackrel{f}{\to}
-  B
+  X_\bullet \stackrel{f}{\to}
+  Y_\bullet
   \stackrel{
     \left(
       \array{
           0 
           \\
-          Id_B
+          id_{Y_\bullet}
       }
     \right)
   }{\to}
-   Cone(f)
+   cone(f)_\bullet
   \stackrel{
     \left(
       \array{
-         Id_{A[1]} & 0
+         id_{X[1]_\bullet} & 0
       }
     \right)
   }{\to}
-  A[1]
-  \,.
+  X[1]_\bullet
 $$
 
+which form a [[homotopy fiber sequence]] and such that this sequence continues by forming [[suspension of a chain complex|suspensions]], hence for all $n \in \mathbb{Z}$ we have
+
+$$
+  X[n]_\bullet \stackrel{f}{\to}
+  Y[n]_\bullet
+  \stackrel{
+    \left(
+      \array{
+          0 
+          \\
+          id_{Y[n]_\bullet}
+      }
+    \right)
+  }{\to}
+   cone(f)[n]_\bullet
+  \stackrel{
+    \left(
+      \array{
+         id_{X[n+11]_\bullet} & 0
+      }
+    \right)
+  }{\to}
+  X[n+1]_\bullet
+$$
+
+To amplify this quasi-cyclic behaviour one sometimes depicts the situation as follows:
+
+$$
+  \array{
+     X_\bullet &&\stackrel{f}{\to}&& Y_\bullet
+     \\
+     & {}_{\mathllap{[1]}}\nwarrow && \swarrow
+     \\
+     && cone(f)_\bullet
+  }
+$$
+
+and hence speaks of a "triangle", or **distinguished triangle** or **mapping cone triangle** of $f$. 
+
+* distinguished triangle = period of [[homotopy fiber sequence]] .
+
+Due to these "triangles" one calls the [[homotopy category]] of chain complexes [[localization|localized]] at the [[quasi-isomorphisms]], hence the  [[derived category]], a **[[triangulated category]]**.
+
+Notice that equivalently we can express the triangles via the 
+[[mapping cylinder]].
 For every map of [[chain complex]]es $f:A\to B$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B$, and moreover in the [[homotopy category]] of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
 
 $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
