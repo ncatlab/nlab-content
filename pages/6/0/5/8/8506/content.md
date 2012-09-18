@@ -1,0 +1,30 @@
+
+**[[equivalence]]**
+
+* [[equality]], [[identity type]]
+
+* [[isomorphism]]
+
+* [[weak equivalence]], [[homotopy equivalence]], [[weak homotopy equivalence]], [[equivalence in an (∞,1)-category]]
+
+* [[gauge equivalence]]
+
+**[[principle of equivalence]]**
+
+* [[univalence]]
+
+**[[equation]]**
+
+* [[fiber product]], [[pullback]]
+
+* [[homotopy pullback]]
+
+Examples
+
+* [[linear equation]], [[differential equation]], [[ordinary differential equation]], [[critical locus]]
+
+* [[Euler-Lagrange equation]], [[Einstein equation]], [[wave equation]]
+
+* [[Schrödinger equation]], [[Knizhnik-Zamolodchikov equation]], [[Maurer-Cartan equation]], [[quantum master equation]], [[Euler-Arnold equation]], [[Fuchsian equation]], [[Fokker-Planck equation]], [[Lax equation]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/equalits+and+equivalence+-+contents)</div>
