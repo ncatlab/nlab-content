@@ -27,7 +27,378 @@ For instance for non-negatively graded chain complexes of abelian groups there i
 
 Dually, for non-negatively graded chain complexes of abelian groups there is a model structure with [[weak equivalences]] are the quasi-isomorphisms and the [[cofibrations]] the positive-degreewise injections. Here every object is a [[cofibrant object]] and hence no [[cofibrant resolution]] is necessary; while the [[fibrant resolutions]] are precisely the projective resolutions.
 
+## Definition
+
+We first discuss, as is traditional, projective/injective resolutions of single objects, and then the general cases of projective/injective resolutions of chain complexes. This subsumes the previous case by regarding an object as a chain complex concentrated in degree 0.
+
+### Resolution of an object
+ {#ResolutionOfObject}
+
+Let $\mathcal{A}$ be an [[abelian category]].
+
++-- {: .num_defn #InjectiveResolution}
+###### Definition
+
+For $X \in \mathcal{A}$ an [[object]], an **injective resolution** of $X$ is a [[cochain complex]] $J^\bullet \in Ch^\bullet(\mathcal{A})$ (in non-negative degree) equipped with a [[quasi-isomorphism]]
+
+$$
+  i : X \stackrel{\sim}{\to} J^\bullet
+$$
+
+such that $J^n \in \mathcal{A}$ is an [[injective object]] for all $n \in \mathbb{N}$.
+
+=--
+
++-- {: .num_remark #InjectiveResolutionInComponents}
+###### Remark
+
+In components the quasi-isomorphism of def. \ref{InjectiveResolution}
+is a [[chain map]] of the form
+
+$$
+  \array{
+    X &\to& 0 &\to& \cdots &\to& 0 &\to& \cdots
+    \\
+    \downarrow^{\mathrlap{i^0}} && \downarrow && && \downarrow
+    \\
+    J^0 &\stackrel{d^0}{\to}& J^1 &\stackrel{d^1}{\to}& \cdots &\to&
+    J^n &\stackrel{d^n}{\to}&\cdots 
+  }
+  \,.
+$$
+
+Since the top complex is concentrated in degree 0, this being a [[quasi-isomorphism]] happens to be equivalent to the sequence
+
+$$
+  0 \to X \stackrel{i^0}{\to} J^0 \stackrel{d^0}{\to} J^1 \stackrel{d^1}{\to}
+  J^2 \stackrel{d^2}{\to}
+  \cdots
+$$
+
+being an [[exact sequence]]. In this form one often finds the definition of injective resolution in the literature.
+
+=--
+
++-- {: .num_defn #ProjectiveResolution}
+###### Definition
+
+For $X \in \mathcal{A}$ an [[object]], a **projective resolution** of $X$ is a [[chain complex]] $J_\bullet \in Ch_\bullet(\mathcal{A})$ (in non-negative degree) equipped with a [[quasi-isomorphism]]
+
+$$
+  p : J_\bullet \stackrel{\sim}{\to} X
+$$
+
+such that $J_n \in \mathcal{A}$ is a [[projective object]] for all $n \in \mathbb{N}$.
+
+=--
+
++-- {: .num_remark #ProjectiveResolutionInComponents}
+###### Remark
+
+In components the quasi-isomorphism of def. \ref{#ProjectiveResolution}
+is a [[chain map]] of the form
+
+$$
+  \array{
+    \cdots &\stackrel{\partial_n}{\to}& J_n &\stackrel{\partial_{n-1}}{\to}&
+    \cdots &\to& J_1 &\stackrel{\partial_0}{\to}& J_0
+    \\
+    && \downarrow && && \downarrow && \downarrow^{\mathrlap{p_0}}
+    \\
+    \cdots &\to& 0 &\to& \cdots &\to& 0 &\to& X
+  }
+  \,.
+$$
+
+Since the bottom complex is concentrated in degree 0, this being a [[quasi-isomorphism]] happens to be equivalent to the sequence
+
+$$
+  \cdots J_2 \stackrel{\partial_1}{\to} J_1 \stackrel{\partial_0}{\to} J_0 \stackrel{p_0}{\to}
+  X \to 0
+$$
+
+being an [[exact sequence]]. In this form one often finds the definition of projective resolution in the literature.
+
+=--
+
+
+### Resolution of a complex
+
+(...)
+
 ## Properties
+
+### Existence and construction
+ {#ExistenceAndConstruction}
+
+We first discuss the existence of injective/projective resolutions, and then the [[functor|functoriality]] of their constructions.
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{A}$ be an [[abelian category]] with [[injective object|enough injectives]] (such as $R$[[Mod]] for some [[ring]] $R$).
+
+Then every object $X \in \mathcal{A}$ has an [[injective resolution]], 
+def. \ref{InjectiveResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \in \mathcal{A}$ be the given object. 
+By remark \ref{InjectiveResolutionInComponents} we need to 
+construct an [[exact sequence]] of the form
+
+$$
+  0 \to X \to J^0 \stackrel{d^0}{\to} J^1 \stackrel{d^1}{\to}
+  J^2 \stackrel{d^2}{\to} \cdots \to J^n \to \cdots 
+$$
+
+such that all the $J^\cdot$ are [[injective objects]].
+
+This we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+
+In the first step, by the assumption of enough enjectives we find an injective object $J^0$ and a [[monomorphism]]
+
+$$
+  X \hookrightarrow J^0
+$$
+
+hence an [[exact sequence]]
+
+$$
+  0 \to X \to J^0
+  \,.
+$$
+
+Assume then by induction hypothesis that for $n \in \mathbb{N}$ an [[exact sequence]]
+
+$$
+  X \to J^0 \stackrel{d^0}{\to} \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n
+$$
+
+has been constructed, where all the $J^\cdot$ are injective objects. Froming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
+
+$$
+  0 \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{p}{\to} J^n/J^{n-1} \to 0
+  \,.
+$$
+
+By the assumption that there are enough injectives in $\mathcal{A}$ we may now again find a monomorphism $J^n/J^{n-1} \stackrel{i}{\hookrightarrow} J^{n+1}$ into an injective object $J^{n+1}$. This being a monomorphism means that 
+
+$$
+  J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{d^n \coloneqq i \circ p}{\longrightarrow} J^{n+1}
+$$
+
+is [[exact sequence|exact]] in the middle term. Therefore we now have an [[exact sequence]]
+
+$$
+  0 \to X \to J^0 \to \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{d^{n}}{\to} J^{n+1}
+$$
+
+which completes the [[induction]] step.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{A}$ be an [[abelian category]] with [[projective object|enough projectives]] (such as $R$[[Mod]] for some [[ring]] $R$).
+
+Then every object $X \in \mathcal{A}$ has an [[projective resolution]], 
+def. \ref{ProjectiveResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \in \mathcal{A}$ be the given object. 
+By remark \ref{ProjectiveResolutionInComponents} we need to 
+construct an [[exact sequence]] of the form
+
+$$
+  \cdots \stackrel{\partial_2}{\to}
+  J_2 \stackrel{\partial_1}{\to}
+  J_1 \stackrel{\partial_0}{\to}
+  J_0 \to X \to 0
+$$
+
+such that all the $J_\cdot$ are [[projective objects]]. 
+
+This we we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+
+In the first step, by the assumption of enough projectives we find a projective object $J_0$ and an [[epimorphism]]
+
+$$
+  J_0 \to X
+$$
+
+hence an [[exact sequence]]
+
+$$
+  J_0 \to X \to 0
+  \,.
+$$
+
+Assume then by induction hypothesis that for $n \in \mathbb{N}$ an [[exact sequence]]
+
+$$
+  J_n \stackrel{\partial_{n-1}}{\to}
+  J_{n-1}
+  \to 
+  \cdots
+  \stackrel{\partial_0}{\to}
+  J_0
+  \to 
+  X
+  \to 
+  0
+$$
+
+has been constructed, where all the $J_\cdot$ are projective objects. Froming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
+
+$$
+  0 \to ker(\partial_{n-1})
+  \stackrel{i}{\to}
+   J_n \stackrel{\partial_{n-1}}{\to}
+  J_{n-1}
+  \to 
+  0
+  \,.
+$$
+
+By the assumption that there are enough projectives in $\mathcal{A}$ we may now again find an epimorphism 
+$ p : J_{n+1} \to ker(\partial_{n-1})$ out of a projective object $J_{n+1}$. This being an epimorphism means that 
+
+$$
+  J_{n+1} \stackrel{\partial_{n} \coloneqq i\circ p}{\to}
+  J_n \stackrel{\partial_{n-1}}{\to}
+$$
+
+is [[exact sequence|exact]] in the middle term. Therefore we now have an [[exact sequence]]
+
+$$
+  J_{n+1} 
+    \stackrel{\partial_n}{\to}
+  J_n
+    \stackrel{\partial_{n-1}}{\to}
+  \cdots
+   \stackrel{\partial_0}{\to}
+  J_0
+  \to 
+  X
+  \to 
+  0
+  \,,
+$$
+
+which completes the [[induction]] step.
+
+=--
+
++-- {: .num_prop #InjectiveResolutionOfCodomainRespectsMorphisms}
+###### Proposition
+
+Let $f : X \to Y$ be a morphism in $\mathcal{A}$. Let
+
+$$
+  i_Y : Y \stackrel{\sim}{\to} Y^\bullet
+$$
+
+be an injective resolution of $Y$ and 
+
+$$
+  i_X : X \stackrel{\sim}{\to} X^\bullet
+$$
+
+any [[monomorphism|monomorphism]] that is a [[quasi-isomorphism]] (possibly but not necessarily an injective resolution). Then there is a [[chain map]] $f^\bullet : X^\bullet \to Y^\bullet$ giving a [[commuting diagram]]
+
+$$
+  \array{
+    X &\stackrel{\sim}{\to}& X^\bullet
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f^\bullet}}
+    \\
+    Y &\stackrel{\sim}{\to}& Y^\bullet
+  }
+  \,.
+$$
+
+Moreover, this $f^\bullet$ is unique up to [[chain homotopy]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[chain map]] we need to construct
+[[morphisms]] $(f^n : X^0 \to Y^0)_{n \in \mathbb{N}}$ such that 
+for all $n \in \mathbb{N}$ the [[diagrams]]
+
+$$
+  \array{
+    X^{n} &\stackrel{d^n_X}{\to}& X^{n+1}
+    \\
+    \downarrow^{\mathrlap{f^n}} && \downarrow^{\mathrlap{f^{n+1}}}
+    \\
+    Y^{n} &\stackrel{d^n_Y}{\to}& Y^{n+1}
+  }
+$$
+
+[[commuting diagram|commute]] (the defining condition on a [[chain map]]) and such that the diagram
+
+$$
+  \array{
+    X &\stackrel{i_X}{\to}& X^0
+    \\
+    \downarrow^{f} && \downarrow^{\mathrlap{f^0}}
+    \\
+    Y &\stackrel{i_Y}{\to}& Y^0
+  }
+$$
+
+commutes in $\mathcal{A}$ (which makes the full diagram in $Ch^\bullet(\mathcal{A})$ commute).
+
+We construct these $f^\bullet = (f^n)_{n \in \mathbb{N}}$ by [[induction]].
+
+
+To start the induction, the morphism $f^0$ in the first diagram above can be found by the defining [[right lifting property]] of the [[injective object]] $Y^0$ against the [[monomorphism]] $i_X$.
+
+Assume then that for some $n \in \mathbb{N}$ component maps $f^{\bullet \leq n}$ have been obtained such that $d^k_Y\circ f^k = f^{k+1}\circ d^k_X$ for all $0 \leq k \lt n$ . In order to construct $f^{n+1}$ consider the following diagram, which we will describe/construct stepwise from left to right:
+
+$$
+  \array{
+    X^n &\stackrel{}{\to}& X^n/im(d^{n-1}_X) &\stackrel{d^n_X}{\hookrightarrow}& X^{n+1}
+    \\
+    {}^{\mathllap{f^n}}\downarrow & \searrow^{\mathrlap{g^n}}
+    & \downarrow^{\mathrlap{h^n}} & \swarrow_{\mathrlap{f^{n+1}}}
+    \\
+    Y^n &\underset{d^n_Y}{\to}& Y^{n+1}
+  }
+  \,.
+$$
+
+Here the morphism $f^n$ on the left is given by induction assumption and we define the diagonal morphism to be the composite
+
+$$
+ g^n \coloneqq d^n_Y \circ f^n
+ \,.
+$$
+
+Observe then that by the chain map property of the $f^{\bullet \leq n}$ we have
+
+$$
+  d^n_Y \circ f^n \circ d^{n-1}_X = d^n_Y \circ d^{n-1}_Y \circ f^{n-1} = 0
+$$
+
+and therefore $g^n$ factors through $X^n/im(d^{n-1}_X)$ via some $h^n$ as indicated in the middle of the above diagram. Finally the morphism on the top right is a monomorphism by the fact that $X^{\bullet}$ is [[exact sequence|exact]] in positive degrees (being [[quasi-isomorphism|quasi-isomorphic]] to a complex concentrated in degree 0) and so a lift $f^{n+1}$ as shown on the far right of the diagram exists by the defining lifting property of the injective object $Y^{n+1}$. 
+
+The total outer diagram now commutes, being built from commuting sub-diagrams, and this is the required chain map property of $f^{\bullet \leq n+1}$ This completes the induction step. 
+
+
+=--
 
 ### Relation to syzygies
 
