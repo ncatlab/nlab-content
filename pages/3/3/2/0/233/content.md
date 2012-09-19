@@ -656,9 +656,11 @@ $$
 
 ## Related concepts
 
-* [[action]], [[representation]]
+* [[action]], [[∞-action]]
 
-* [[infinity-action]], [[infinity-representation]]
+* **module**, [[∞-module]]
+
+* [[representation]], [[∞-representation]]
 
 * [[linear combination]]
 
