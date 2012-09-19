@@ -48,5 +48,7 @@ Here $K$ is _a subgroup of $G$_.
 
 * [[Klein geometry]], [[Cartan geometry]]
 
+* [[index of a subgroup]]
+
 [[!redirects subgroup]]
 [[!redirects subgroups]]
