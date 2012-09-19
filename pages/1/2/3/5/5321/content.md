@@ -17,7 +17,7 @@
 
 Let $\mathbf{U}$ and $\mathbf{V}$ be set-theoretic [[universes]] (such as [[Grothendieck universes]] or [[universe in a topos|universes in an ambient topos]]) with $\mathbf{V}$ "bigger than" $\mathbf{U}$, and let $C$ be a [[category]] "in the world of $\mathbf{U}$," i.e. whose objects are $\mathbf{U}$-[[small category|small]] and which itself is $\mathbf{U}$-[[large category|large]].  Its **universe enlargement** is supposed to be a category "in the world of $\mathbf{V}$" which is "the same" or at least similar to $C$, and perhaps better behaved.
 
-### Notation
+## Notation
 
 An enlargement of a specific category, such as [[Set]], [[Cat]], [[Grp]], or [[Top]], is often denoted by writing its name in all capitals: SET, CAT, GRP, TOP.
 
@@ -32,11 +32,11 @@ Henceforth we fix two universes $\mathbf{U}$ and $\mathbf{V}$ with $\mathbf{U}\i
 
 ### Models of a theory
 
-If $C$ is the category of small models of some [[theory]], then we can take $\Uparrow C$ to be the category of large models of the same theory.  For instance:
+If $C$ is the category of [[small set|small]] [[models]] of some [[theory]], then we can take $\Uparrow C$ to be the category of large [[models]] of the same theory.  For instance:
 
-* the large category $Set$ of small sets is the category of small models of the theory with one sort and no operations or relations.  The category of large models of this theory is just the very large category $SET$ of large sets.
+* the [[large category]] [[Set]] of [[small sets]] is the category of small models of the theory with one sort and no operations or relations.  The category of large models of this theory is just the very large category $SET$ of [[large set|large sets]].
 
-* Similarly, from categories such as $Grp$, $Cat$, and $Top$ of small groups, categories, and spaces, we obtain the categories $GRP$, $CAT$, and $TOP$ of large groups, categories, and spaces.
+* Similarly, from categories such as [[Grp]], [[Cat]], and [[Top]] of small [[groups]], [[categories]], and [[topological spaces]], we obtain the categories $GRP$, $CAT$, and $TOP$ of large groups, categories, and topological spaces.
 
 Note that the theory could be [[algebraic theory|algebraic]], as for $Grp$, or [[essentially algebraic theory|essentially algebraic]], as for $Cat$, or even [[higher-order logic|higher-order]], as for $Top$.  We will refer to this as the **logical enlargement**.  In practice, this enlargement usually suffices, but for theoretical reasons it would be nice to have a construction which works on *any* large category.
 
@@ -78,10 +78,13 @@ Note that if $C$ has all small limits, then its accessible and locally-presentab
 
 Thus, when $C$ is "poorly behaved," its accessible enlargement is "closer to it" (in particular, identical to its logical enlargement if $C$ is accessible) and thus equally poorly behaved, whereas its locally-presentable enlargement is further from it, but better behaved (complete and cocomplete).  For some purposes one may want one of these behaviors; for other purposes one may want the other.
 
-## Monoidal enlargements
+### Monoidal enlargements
 
 One may further ask for an enlargement which inherits whatever additional structure $C$ has, such as [[monoidal category|monoidal structure]].  The logical enlargement will usually inherit such structure trivially, while the [[Day convolution]] theorem implies that when $C$ is monoidal, so is its locally-presentable enlargement---and moreover, the latter is [[closed monoidal category|closed]] even if $C$ is not!
 
+## Examples
+
+* [[inter-universal Teichmüller theory]]
 
 ## References
 
@@ -92,3 +95,5 @@ One may further ask for an enlargement which inherits whatever additional struct
 [[!redirects universe enlargements]]
 [[!redirects change of universe]]
 [[!redirects changes of universe]]
+
+[[!redirects universe extension]]
