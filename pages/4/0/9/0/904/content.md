@@ -261,6 +261,14 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 =--
 
+## Related concept
+
+* [[algebraic fundamental group]]
+
+* [[anabelian geometry]]
+
+* [[etale homotopy]]
+
 ## References
 
 Discussion from the point of view of [[Galois theory]] is in 
