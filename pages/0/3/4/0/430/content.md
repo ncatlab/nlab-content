@@ -115,6 +115,8 @@ The fields of:
 
 * [[ring]]
 
+* [[finite field]]
+
 * [[field with one element]]
 
 
