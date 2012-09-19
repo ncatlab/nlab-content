@@ -63,21 +63,23 @@ A virtual corollary of this theorem is the [[Cantor-Schroeder-Bernstein theorem]
 
 ### Pataraia's theorem 
 
-The following significantly strengthens the Knaster-Tarski theorem. 
+The following significantly strengthens the Knaster-Tarski theorem, and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of directed subsets. 
 
 +-- {: .un_theorem}
 ###### Theorem (Pataraia) 
-Let $L$ be a poset with a bottom element $\bot$ and which admits directed joins. Then every monotone map $f \colon L \to L$ has a (least) fixed point. 
+If $L$ is an ipo, then every monotone map $f \colon L \to L$ has a (least) fixed point. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-Consider the smallest subset $S$ of $L$ which contains $\bot$, and is closed under $f$ and under directed joins in $L$. Then the restriction $f \colon S \to S$ satisfies $1_S \leq f$, i.e., $f$ is _inflationary_. (For the set of all elements $x \in L$ such that $x \leq f(x)$ contains $\bot$, is closed under directed joins, and is closed under $f$, so $S$ is contained in this set.) Thus it suffices to show that every inflationary map on a poset $S$ with a bottom element and directed joins has a fixed point. 
+Consider the smallest $S$ among subsets of $L$ which contain $\bot$, are closed under $f$, and closed under directed joins in $L$. Then the restriction $f \colon S \to S$ satisfies $1_S \leq f$, i.e., $f$ is _inflationary_. (For the set of all elements $x \in L$ such that $x \leq f(x)$ is another such subset, so $S$ is contained in it.) Thus it suffices to show that every inflationary map on a poset $S$ with a bottom element and directed joins has a fixed point. 
 
-The collection of inflationary endomaps on $S$ has a bottom element (namely, $1_S$) and is closed under directed joins. Observe also that this collection is itself directed, because if $f$ and $g$ are inflationary, then they are both bounded above by $f \circ g$. Thus the directed join of the collection exists, and it is the maximal element $t$ among all inflationary maps. Observe that $f \circ t \leq t$ and $t \leq f \circ t$. So $f \circ t = t$, and it follows in particular that $t(\bot) \in S$ is a fixed point of $f$. 
+The collection $I$ of inflationary monotone maps on $S$ is an ipo: its bottom element is $1_S$, and directed joins are computed pointwise. Moreover, $I$ is itself directed: if $f, g \in I$, then $f \circ g \in I$ dominates them both. Thus the directed join $t$ of the collection exists; it is the maximal element $t$ of $I$. It follows that that $f \circ t \leq t$, but also $t \leq f \circ t$ since $f$ is inflationary. So $f \circ t = t$, and in particular $t(\bot) \in S$ is a fixed point of $f$. 
 
-This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed point, the downward-closed set $L \downarrow x$ contains $\bot$, is closed under $f$, and is closed under directed unions, and therefore $S \subseteq L \downarrow x$. Hence $t(\bot)$, which belongs to $S$, satisfies $t(\bot) \leq x$. 
+This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed point, the downward-closed set $L \downarrow x$ contains $\bot$, is closed under $f$, and is closed under directed unions, and therefore $S \subseteq L \downarrow x$. Hence $t(\bot) \in S$ satisfies $t(\bot) \leq x$. 
 =-- 
+
+One may mimic the last part of he proof of the Knaster-Tarski theorem to show that if $L$ is an ipo and $f$ is monotone, then $fix(f)$ (with the order inherited from $L$) is also an ipo. 
 
 ### Galois connections 
 
@@ -91,7 +93,31 @@ This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed p
 
 ### Initial algebras and final coalgebras 
 
-Various classical fixed-point theorems for monotone functions on posets can be "categorified" to give appropriate fixed-point theorems for endofunctors on categories. An example is that Kleene's fixed-point theorem generalizes to Adamek's fixed-point theorem. Here is another example, a categorification of the Knaster-Tarski theorem. 
+Various classical fixed-point theorems for monotone functions on posets can be "categorified" to give appropriate fixed-point theorems for endofunctors on categories. An example is that Kleene's fixed-point theorem generalizes to Adamek's fixed-point theorem: 
+
++-- {: .un_theorem} 
+###### Theorem 
+Let $C$ be a category with an initial object $0$ and colimits of $\kappa$-directed diagrams for some regular cardinal $\kapa$, and suppose $F \colon C \to C$ preserves $\kappa$-directed colimits. Then $F$ has an initial algebra (which by Lambek's theorem is a fixed point of $F$). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Regarding $\kappa$ as an ordinal $\{\alpha \lt \kappa\}$ (hence a poset, hence a category), define a functor $G \colon \kappa \to C$ recursively: on objects, put $G(\emptyset) = 0$, $G(\alpha + 1) = F(G(\alpha))$, and $G(\beta) = colim_{\alpha \lt \beta} G(\alpha)$ for $\beta$ a limit ordinal. On morphisms $\alpha \lt \beta$, 
+
+* $G(\emptyset \lt \beta)$ is the unique map $0 \to G(\beta)$; 
+
+* For $\beta$ a limit ordinal, $G(\alpha \lt \beta)$ is a component of the cocone diagram that defines $G(\beta)$ as a colimit; 
+
+* G(\alpha + 1 \lt \beta + 1) = F(G(\alpha \lt \beta))$; 
+
+* For $\alpha$ a limit ordinal, $G(\alpha \lt \beta + 1)$ is the unique map $colim_{\gamma \lt \alpha} G(\gamma) \to G(\beta +1$ corresponding to the cocone from the diagram $G| \colon \alpha \to C$ to $G(\beta+1)$. 
+
+By assumption, $colim G$ exists in $C$, and this colimit is preserved by $F$. (To be continued.) 
+=-- 
+
+A typical application is where $C$ is a $\kappa$-accessible category and $F \colon C \to C$ is a $\kappa$-accessible functor. A concise statement is that accessible endofunctors on accessible categories with an initial object possess categorical fixed points (in fact, the fixed points form another accessible category with an initial object). 
+
+An arguably more elegant viewpoint on this is given in the following theorem and proof. 
 
 +-- {: .un_theorem} 
 ###### Theorem 
@@ -104,6 +130,10 @@ $Alg_F$ is an [[inserter]] construction, i.e., the data consisting of the eviden
 
 Similarly, the category of fixed points $i \colon Fix(F) \to C$ is formed as an iso-inserter construction and is therefore accessible. If $D \colon J \to Fix(F)$ is a diagram of fixed points and $c \in Ob(C)$ is the colimit of $i \circ D$, then $F$ induces a functor (which we give the same name) $F\colon c \downarrow C \to c \downarrow C$, because for any object $c \to d$ in $c \downarrow C$, we have a [[cocone]] $i \circ D \cong F \circ i \circ D \to F(d)$, factoring uniquely through an arrow $c \to F(d)$. Since $c \downarrow C$ is a locally presentable category, the accessible functor $F$ acting on it has an initial algebra $(c \to c', (c \to F(c')) \to (c \to c'))$, as we argued before. This is the colimit of $D$ in $Fix(F)$, as is easily checked. Therefore $Fix(F)$ is cocomplete and accessible. 
 =-- 
+
+Boundedness conditions, such as those given as hypotheses in the previous two theorems, are generally required to establish existence of categorical fixed points. The example of the covariant power-set functor on $Set$ shows that a naive generalization of the Knaster-Tarski theorem from complete lattices to complete/cocomplete categories is hopelessly false. 
+
+Paul Taylor has built an elegant theory of locating certain initial algebras inside final coalgebras, via his notion of well-founded coalgebras. This too can be "categorified" (to be continued). 
 
 ### Fixed points of left exact idempotent endofunctors 
 
