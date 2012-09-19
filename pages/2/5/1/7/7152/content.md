@@ -39,9 +39,11 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 
 * [[algebraic fundamental group]]
 
+* [[anabelian geometry]]
+
 ## References
 
-[[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
+* [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
   {#ArtinMazur}
 
 
