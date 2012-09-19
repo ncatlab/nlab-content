@@ -22,6 +22,8 @@
 
 ## Related concepts
 
+* [[∞-module]]
+
 * [[(∞,1)-operad]], [[model structure on operads]]
 
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
