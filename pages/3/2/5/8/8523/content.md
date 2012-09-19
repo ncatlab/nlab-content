@@ -1,0 +1,5 @@
+
+
+A [[field]] with finitely many elements. $\mathbb{F}_p$.
+
+[[!redirects finite fields]]
