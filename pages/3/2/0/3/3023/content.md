@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -87,8 +88,12 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 ## Related concepts
 
+* [[Teichmüller space]]
+
 * [[super Riemann surface]]
 
-## Literature
+## References
 
-* Hermann Weyl, _The concept of a Riemann surface_
+* [[Hermann Weyl]], _The concept of a Riemann surface_
+
+[[!redirects Riemann surfaces]]
