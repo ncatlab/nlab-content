@@ -56,7 +56,7 @@ A comprehensive introduction is in
 
 Examples are discussed in
 
-* Yasutaka Ihara, Hiroaki Nakamura, _Some illustrative examples for anabelian geometry in high dimensions_, in [[Leila Schneps]], P. Loschak (eds) _Geometric Galois Actions I_, London Math. Soc. Lect. Note Series 242 ([pdf](http://www.math.okayama-u.ac.jp/~h-naka/zoo/lion/INanabel.pdf))
+* Yasutaka Ihara, Hiroaki Nakamura, _Some illustrative examples for anabelian geometry in high dimensions_, in [[Leila Schneps]], P. Lochak (eds) _Geometric Galois Actions I_, London Math. Soc. Lect. Note Series 242 ([pdf](http://www.math.okayama-u.ac.jp/~h-naka/zoo/lion/INanabel.pdf))
 
 The classification of anabelian varieties for number fields was shown in 
 
