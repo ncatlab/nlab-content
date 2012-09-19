@@ -688,6 +688,8 @@ is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomor
 
 * [[action]], **$\infty$-action**
 
+* [[module]], [[∞-module]]
+
 * [[representation]], [[∞-representation]]
 
 * [[associated bundle]], [[associated ∞-bundle]]
