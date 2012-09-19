@@ -30,6 +30,8 @@
 
 * [[representation]], [[∞-representation]]
 
+* [[module]], [[∞-module]]
+
 * [[associated bundle]], [[associated ∞-bundle]]
 
 ## Higher algebras
