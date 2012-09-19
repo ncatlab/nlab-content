@@ -51,3 +51,7 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 [[!redirects etale homotopy]]
 [[!redirects etale homotopy theory]]
 
+[[!redirects etale homotopy group]]
+[[!redirects étale homotopy group]]
+[[!redirects etale homotopy groups]]
+[[!redirects étale homotopy groups]]
