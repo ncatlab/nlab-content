@@ -276,7 +276,11 @@ In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$
 
 * [[action]], [[∞-action]]
 
-* [[representation]], [[2-representation]], **$\infty$-representation**
+* [[module]], [[∞-module]]
+
+* [[representation]], **$\infty$-representation**
+
+  * [[2-representation]],
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
