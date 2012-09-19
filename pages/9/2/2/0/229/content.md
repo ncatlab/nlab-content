@@ -74,6 +74,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * [[abelianization]]
 
+* [[anabelian group]]
+
 * [[module]], [[ring]]
 
 * [[Ab]]
