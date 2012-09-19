@@ -78,11 +78,15 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 ## Related concepts
 
-* **representation**
+* [[action]], [[∞-action]]
 
-* [[2-representation]]
+* [[module]], [[∞-module]]
 
-* [[infinity-representation]]
+* **representation**, [[∞-representation]]
+  
+  * [[2-representation]]
+
+
 
 [[!redirects representation]]
 [[!redirects representations]]
