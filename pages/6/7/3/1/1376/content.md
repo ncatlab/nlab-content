@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -48,6 +48,8 @@ $$
 * An algebra object in the [[stable (infinity,1)-category of spectra]] is an [[A-infinity ring|A-∞ ring]]. If it is a commutative monoid, it is an [[E-infinity ring|E-∞ ring]].
 
 ## Related concepts
+
+* [[infinity-module]]
 
 * [[monoid]]
 
