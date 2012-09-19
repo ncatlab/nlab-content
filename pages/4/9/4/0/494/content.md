@@ -493,7 +493,7 @@ $$
   L c \simeq \lim_{c\to R d} d
 $$
 
-over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$) of the projection functor
+over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor
 
 $$
   L c = \lim_{\leftarrow} (c/R \to D )
@@ -589,6 +589,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
     $$
       |F|_Q := \int^{k \in K} Q(k)\cdot F(k)
+
       \,,
     $$
 
