@@ -1,0 +1,85 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $H  \hookrightarrow G$ a [[subgroup]], its _index_ is the number 
+${\vert G: H\vert}$ of $H$-[[cosets]] in $G$.
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+For $H  \hookrightarrow G$ a [[subgroup]], its **index** is the [[cardinality]] 
+
+$$
+  {\vert G : H\vert} \coloneqq {\vert G/H\vert}
+$$
+
+of the [[coset]] $G/H$.
+
+=--
+
+## Properties
+
+### Multiplicativity
+
++-- {: .num_prop}
+###### Proposition
+
+If $H \hookrightarrow K \hookrightarrow G$ is a sequence of [[subgroups]], then there is a (non-canonical) [[bijection]] of ([[products]] of ) cosets
+
+$$
+  G/K \,\times \, K/H \stackrel{\simeq}{\to} G/H
+$$
+
+and accordingly the indices satisfy
+
+$$
+  {\vert G : K\vert} \dot {\vert K : H\vert}
+  = 
+  {\vert G : H\vert}
+  \,.
+$$
+
+=--
+
+### Finite groups
+
++-- {: .num_theorem}
+###### Theorem
+**(Lagrange's theorem)**
+
+If$G$ is a [[finite group]], then the index of any subgroup is the quotient
+
+$$
+  {\vert G : H\vert} = \frac{{\vert G\vert}}{\vert H\vert}
+$$
+
+of the [[order]] ([[cardinality]] = number of elements) of $G$ by that of $H$.
+
+=--
+
+## Examples
+
+* For $n \in \mathbb{N}$ with $n \geq 1$ and $\mathbb{Z} \stackrel{\cdot n}{\hookrightarrow} \mathbb{Z}$ the subgroup of the [[integers]] given by those that are multiples of $n$, the index is $n$.
+
+[[!redirects finite index subgroup]]
+
+[[!redirects indices of subgroups]]
+
+[[!redirects Lagrange's theorem]]
