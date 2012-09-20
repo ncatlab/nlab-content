@@ -92,11 +92,16 @@ $$
 
 In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$.
 
+## Application in logic
+
+In [[logic]], functions types express [[implication]]. More precisely, for $\phi, \psi$ two [[propositions]], under [[propositions as types]] the [[implication]] $\phi \Rightarrow \psi$ is the function type $\phi \to \psi$ (or rather the [[bracket type]] of that if one wishes to force this to be of type $Prop$ again ).
+
 ## Related concepts
 
 * [[function application]]
 * [[dependent product type]]
 * [[lambda calculus]]
+* [[implication]]
 
 ## References
 
