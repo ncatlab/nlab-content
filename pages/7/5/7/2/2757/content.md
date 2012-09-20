@@ -51,6 +51,8 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 * [[inductive type]]
 
+* [[inductive definition]]
+
 ## References
 
 * [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
