@@ -14,7 +14,7 @@ The __Hartog\'s number__ of $S$ is this well-ordered set, the set of all order t
 
 ## Properties
 
-There is no [[injection]] to $S$ from the Hartog\'s number of $S$; this theorem is to [[Cantor's theorem]] as Burali-Forti\'s paradox is to Russell\'s paradox.  That is, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
+There is no [[injection]] to $S$ from the Hartog\'s number of $S$; this theorem is to [[Cantor's theorem]] as [[Burali-Forti's paradox]] is to [[Russell's paradox]].  That is, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
 
 Even without choice, however, we can say this:  If $\alpha$ is an ordinal number such that $|\alpha| \nleq \kappa$, then $\kappa^+ \leq \alpha$.  (Notice that we\'ve shifted our thinking of the Hartog\'s number from a cardinal to an ordinal.)  That is, $\kappa^+$ is the smallest ordinal number whose cardinal number is not at most $\kappa$.  This doesn\'t use any form of choice except for [[excluded middle]]; we only need choice to conclude that $|\kappa^+| \gt \kappa$.
 
