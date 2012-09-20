@@ -38,3 +38,5 @@ Take $add\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to 1 + \bar{\mathbb{N}
 * Davide Sangiorgi, Jan Rutten (eds.), _Advanced Topics in Bisimulation and Coinduction_, Cambridge Universtity Press (2012) ([web](http://www.cs.unibo.it/~sangio/AdvancedBook.html))
 
 [[!redirects coinductions]]
+
+[[!redirects coinductive definition]]
