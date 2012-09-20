@@ -17,12 +17,19 @@
 
 An _implication_ may be either an _entailment_ or a _conditional_ statement; these are closely related but not quite the same thing.
 
-__Entailment__ is a [[preorder]] on [[propositions]] within a given [[context]] in a given [[logic]].  We say that $p$ entails $q$ _syntactically_, written $p \vdash q$, if $q$ can be [[proof|proved]] from the assumption $p$.  We say that $p$ entails $q$ _semantically_, written $p \vDash q$, if $q$ holds in every [[model]] in which $p$ holds.  (These relations are often equivalent, by various [[soundness theorem|soundness]] and [[completeness theorem|completeness]] theorems.)  Notice that while $p$ and $q$ are statements in some _object language_ (the language that we are talking about), $p \vdash q$ and $p \vDash q$ are statements in the _metalanguage_ (the language that we are using to talk about the object language).
+1. __Entailment__ is a [[preorder]] on [[propositions]] within a given [[context]] in a given [[logic]].  
 
-A __conditional__ statement is the result of a [[binary operation]] on [[propositions]] within a given [[context]] in a given [[logic]].  If $p$ and $q$ are propositions in some context, then so is the conditional statement $p \to q$, at least if the logic has a notion of conditional.  Notice that $p$, $q$, and $p \to q$ are all statements in the _object_ language.
+   We say that $p$ entails $q$ _[[syntax|syntactically]]_, written as a [[sequent]] $p \vdash q$, if $q$ can be [[proof|proved]] from the assumption $p$.  
 
+   We say that $p$ entails $q$ _[[semantics|semantically]]_, written $p \vDash q$, if $q$ holds in every [[model]] in which $p$ holds.  
 
-## Relation of these
+   (These relations are often equivalent, by various [[soundness theorem|soundness]] and [[completeness theorem|completeness]] theorems.) 
+
+1. A __conditional__ statement is the result of a [[binary operation]] on [[propositions]] within a given [[context]] in a given [[logic]].  If $p$ and $q$ are propositions in some context, then so is the conditional statement $p \to q$, at least if the logic has a notion of conditional.  
+
+Notice that $p$, $q$, and $p \to q$ are all statements in the _object_ language (the language that we are talking about), whereas the [[hypothetical judgements]] $p \vdash q$ and $p \vDash q$ are statements in the _[[metalanguage]]_ (the language that we are using to talk about the [[object language]]).
+
+### Relations between the definitions
 
 Depending on what logic one is using, $p \to q$ might be anything, but it\'s probably not fair to consider it a conditional statement unless it is related to entailment as follows:
 +-- {: .standout}
@@ -42,11 +49,25 @@ Most kinds of logic used in practice have a notion of entailment from a [[list]]
 
 Just as we may identify the internal and external hom in [[Set]], so we may identify the entailment and conditional of [[truth values]].  In the $n$Lab, we tend to write this as $\Rightarrow$, a symbol that is variously used by other authors in place of $\vdash$, $\vDash$, and $\rightarrow$.
 
+## In various formalizations
 
-## Heyting algebras
+### In Heyting algebras
 
 Although [[Heyting algebras]] were first developed as a way to discuss [[intuitionistic logic]], they appear in other contexts; but their characterstic feature is that they have an operation analogous to the conditional operation in logic, usually called __Heyting implication__ and denoted $\rightarrow$ or $\Rightarrow$.  If you use $\to$ and replace $\vdash$ above with the Heyting algebra\'s partial order $\leq$, then everything above applies.
 
+### In type theory
+
+In [[type theory]] 
+
+* a _conditional statement_ is, under [[propositions-as-types]] a [[function type]] $p \to q$ (or the [[bracket type]] thereof).
+
+* an _entailment_ is a [[hypothetical judgement]]/[[sequent]].
+
+## Related concepts
+
+* [[function type]]
+
+* [[hypothetical judgement]]
 
 [[!redirects implication]]
 [[!redirects implications]]
