@@ -35,3 +35,5 @@ A system of [[formal logic]] that proves a contradiction is called [[inconsisten
 
 * [[Russell's paradox]]
 
+* [[Burali-Forti's paradox]]
+
