@@ -34,9 +34,13 @@ There are many variations of the paradox, depending for instance on what precise
 
 ## In type theory: Girard's paradox
 
-As formulated in [[type theory]] by [[Jean-Yves Girard]], the Burali-Forti paradox shows that the original version of [[Per Martin-Lof]]'s type theory, which allowed $Type:Type$, is inconsistent, in the precise sense that it contains (non-normalizing) proofs of false.
+As formulated in [[type theory]] by [[Jean-Yves Girard]], the Burali-Forti paradox shows that the original version of [[Per Martin-Löf]]'s type theory, which allowed $Type:Type$, is [[inconsistency|inconsistent]], in the precise sense that it contains (non-normalizing) [[proofs]] of [[false]].
 
-Moreover, by an adaptation of the proof, one can construct a [[looping combinator]] in this type theory, which implies the undecidability of type-checking.
+Moreover, by an adaptation of the proof, one can construct a [[looping combinator]] in this type theory, which implies the [[decidability|undecidability]] of type-checking.
+
+## Related entries
+
+* [[Russell's paradox]]
 
 [[!redirects Burali-Forti paradox]]
 [[!redirects Burali-Forti's paradox]]
