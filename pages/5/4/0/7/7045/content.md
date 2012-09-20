@@ -21,13 +21,31 @@
 
 ## Idea
 
-In [[type theory]], a _type of (small) types_ is a [[universe]] of (small) [[types]]. 
+In [[type theory]], a _type of (small) types_ -- usually written $Type$ -- is a [[universe]] of (small) [[types]]. 
 
-In [[homotopy type theory]] a type of (small) types is what [[semantics|semantically]] becomes a (small)[[object classifier]].
+In [[homotopy type theory]] a type of (small) types is what [[semantics|semantically]] becomes a (small) [[object classifier]].
 
 Therefore the type of types is a refinement of the [[type of propositions]] which only contains the [[(-1)-truncated]]/[[h-level]]-1 types.
 
+In the presence of a type of types a [[judgement]] of the form
+
+$$
+  \vdash A : Type
+$$
+
+says that $A$ is a [[term]] of [[type]] $Type$, hence is a (small) [[type]] itself. More generally, a [[hypothetical judgement]] of the form
+
+$$
+  x : X \vdash A(x) : Type
+$$
+
+says that $A$ is an $X$-[[dependent type]].
+
+In [[homotopy type theory]] the type of types $Type$ satisfies the [[univalence]] axiom. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (infinity,1)-category]] in the ambient [[(infinity,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
+
 ## Related concepts
+
+* [[univalence]]
 
 * [[type of propositions]], [[subobject classifier]]
 
