@@ -21,7 +21,7 @@
 
 ## Idea
 
-A system in [[formal logic]] is called _inconsistent_ if it admits a [[proof]] of a _[[contradiction]]_ (that is, usually, a proof of [[false]], or an inhabitant of the [[empty type]]).
+A system in [[formal logic]] is called _inconsistent_ if it admits a [[proof]] of a _[[contradiction]]_ (that is, usually, a proof of [[false]], or an [[inhabitant]] of the [[empty type]]).
 
 Accordingly an [[axiom]] is called _inconsistent_ or to _lead to an inconsistency_ if adding it to an (implicitly understood) ambient logical system makes that system inconsistent.
 
