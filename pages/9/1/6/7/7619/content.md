@@ -1,5 +1,7 @@
 
-**[[inductive type]]**, **[[higher inductive type]]**
+* **[[inductive type]]**
+* **[[higher inductive type]]**
+* **[[coinductive type]]**
 
 ## Rules
 
