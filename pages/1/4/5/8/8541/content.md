@@ -15,7 +15,11 @@
 
 ## Idea
 
-A [[definition]] by [[induction]]/[[recursion]].
+An _inductive definition_ is a [[definition]] by [[induction]]/[[recursion]].
+
+## Definition
+
+See at _[[inductive type]]_.
 
 ## Related concepts
 
