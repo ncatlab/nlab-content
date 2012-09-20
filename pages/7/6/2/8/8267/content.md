@@ -18,9 +18,9 @@
 
 ## Idea
 
-The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the [[homology groups]] of a [[double complex]]. All the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]],  the [[snake lemma]] and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
+The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the relation of the [[homology groups]] in a [[double complex]]. By a simple consequence illustrated in remark \ref{ExtramuralMapsAsDiagonals} below, all the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]],  the [[snake lemma]], the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
 
-These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent:
+These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent and also make evident a host of further lemmas of this kind not traditionally considered, such as the and also many more that are not traditionally considered, such as an [nxn lemma](#nxnLemma) for all $n \in \mathbb{N}$:
 
 > [[diagram chasing|Diagram-chasing arguments]] frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
 
@@ -178,6 +178,7 @@ By definition \ref{DonorReceptor}, an $[a] \in A_{\Box}$ is represented by an $a
 
 +-- {: .num_remark #ExtramuralMapsAsDiagonals}
 ###### Remark
+**(central idea on diagram chasing)**
 
 It is useful in computations as those shown below in _[Implications - The diagram chasing lemmas](#Implications)_ to draw the extramural morphisms of lemma \ref{Extramural} as follows.
 
@@ -210,7 +211,7 @@ It is useful in computations as those shown below in _[Implications - The diagra
      }
    $$
 
-This notation makes it manifest that in every [[double complex]] $X_{\bullet, \bullet}$ the extramural maps form long diagonal [[zigzags]]
+This notation makes it manifest that in every [[double complex]] $X_{\bullet, \bullet}$ the extramural maps form long diagonal [[zigzags]] between donors and receptors
 
 $$   
   \array{   
@@ -239,7 +240,43 @@ $$
   \,.
 $$
 
-Below in _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ we discuss [[exact sequence|exactness]] conditions on $X_{\bullet, \bullet}$ that make these [[zigzags]] consist entirely of _[[isomorphisms]]_, so that they give "long diagonal identifications" in a double complex. These long diagonal identifications are what the basic diagram chasing lemmas all follow from, discussed below in  _[Implications](#Implications)_.
+But moreover, the intramural maps relate the donors and receptors in particular at the far end of these zigzags back to the actual homology groups of interest:
+
+$$   
+  \array{   
+     && && && &&&&&&&& & \Box
+     \\
+     && && && &&&&&            &&           & \udots && B
+     \\
+     && && && &&&&& X_{k+1, l} && \nearrow  &        &&    & \searrow
+     \\
+     && && && &&&&&            & \Box      &&        &&    & & B^{hor}
+     \\
+     && & & && &&&&& \swarrow
+     \\
+     && & & && &&&& \Box
+     \\
+     && & & && &X_{k,l+1} && \nearrow & & X_{k,l}
+     \\
+     && & & && && \Box
+     \\
+     && & & && &\swarrow
+     \\
+     A^{hor} && & & && \Box
+     \\
+     &\searrow & & & & \nearrow & & X_{k-1, l+1}
+     \\
+     && A & & \udots
+     \\
+     && & \Box
+  }
+  \,.
+$$
+
+This means that in order to get "far diagonal identifications" of homology groups in a double complex, all one needs is sufficient conditions that all the intramural and extramural maps in a "long salamander" like this are all [[isomorphisms]].
+
+These turn out to be certain exactness conditions to be checked/imposed locally at each of the positions involved in a long salamander like this discussed in  _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ below. 
+All the long diagonal identifications of the standard [[diagram chasing lemmas]] follows by piecing together such long salamanders. This is discussed in the  _[Implications](#Implications)_ below.
 
 
 =--
