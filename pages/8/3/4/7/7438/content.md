@@ -1,16 +1,1 @@
-author: AnonymousCoward
-company: 
-title: dimensionalysis
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-dimensionalysis
-==============
-
-My First Slide
------------------
-
+[[!redirects dimensionalysis]]
