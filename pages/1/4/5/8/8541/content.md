@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[definition]] by [[induction]]/[[recursion]].
+
+## Related concepts
+
+* [[coinductive definition]]
+
+[[!redirects inductive definitions]]
