@@ -18,11 +18,12 @@
 
 ## Idea
 
-The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the relation of the [[homology groups]] in a [[double complex]]. By a simple consequence illustrated in remark \ref{ExtramuralMapsAsDiagonals} below, all the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]],  the [[snake lemma]], the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
+The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the relation between [[homology groups]] at different positions in a [[double complex]]. 
 
-These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent and also make evident a host of further lemmas of this kind not traditionally considered, such as the and also many more that are not traditionally considered, such as an [nxn lemma](#nxnLemma) for all $n \in \mathbb{N}$:
+By a simple consequence illustrated in remark \ref{ExtramuralMapsAsDiagonals} below, all the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]], hence the [[five lemma]],   the [[snake lemma]], and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
 
-> [[diagram chasing|Diagram-chasing arguments]] frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
+These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent and also make evident a host of further lemmas of this kind not traditionally considered, such as an [nxn lemma](#nxnLemma) for all $n \in \mathbb{N}$.
+
 
 ## The Salamander lemma
  {#TheSalamanderLemma}
