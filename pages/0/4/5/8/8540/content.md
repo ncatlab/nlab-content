@@ -15,7 +15,11 @@
 
 ## Idea
 
-A [[definition]] by [[coinduction]].
+A _coinductive definition_ is a [[definition]] by [[coinduction]].
+
+## Definition
+
+See at _[[coinductive type]]_.
 
 ## Related concepts
 
