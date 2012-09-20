@@ -28,6 +28,11 @@ As such definitions are no different from [[proofs]] of [[theorems]] (due [[prop
 
 * **definition**/[[proof]]/[[program]] ([[proofs as programs]])
 
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
+
 * [[theorem]], [[axiom]]
 
 
