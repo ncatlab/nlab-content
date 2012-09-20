@@ -19,13 +19,15 @@
 
 ## Idea
 
-A [[proposition]] $\phi$ is a _contradiction_ if assuming it there is a [[proof]] of [[false]], hence if the [[hypothetical judgement]]
+Most of the time, a [[proposition]] $\phi$ is a _contradiction_ if assuming it there is a [[proof]] of [[false]], hence if the [[hypothetical judgement]]
 
 $$
  \phi \vdash \bot
 $$
 
 is valid.
+
+In [[paraconsistent logic]], however, one sometimes reserves the term "contradiction" for the situation when both a proposition and its negation hold.  This is often a contradiction in the above sense, but not always.
 
 A system of [[formal logic]] that proves a contradiction is called [[inconsistency|inconsistent]].
 
