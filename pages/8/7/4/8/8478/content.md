@@ -71,7 +71,7 @@ in which case on the left a [[conjunction]] of the [[antecedents]] and on the ri
 
 "If $Antec_1$ and $Antec_2$... are given then one of $Succ_1, \cdots, Succ_l$ is a consequence".
 
-An **[[intuitionistic logic|intuitionistic]] sequent** has at most one succedent, which is then called the **[[consequent]]**.
+An **[[intuitionistic logic|intuitionistic]] sequent** has at most one succedent, which is then called the **[[consequent]]**.  Often "intuitionistic sequent" is used to mean one with *exactly* one succedent, although technically it would make more sense to call those [[minimal logic|minimal]] sequents.
 
 Another variant is that in some frameworks the [[antecedent]] and [[succedent]] displayed are required to be [[propositions]] and the [[context]] [[free variables]] are instead displayed beneath the turnstile as in 
 
