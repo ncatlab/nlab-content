@@ -1,17 +1,5 @@
 
-**[[natural deduction]]**
-
-* [[type formation rule]]
-* [[term introduction rule]]
-* [[term elimination rule]]
-* [[computation rule]]
-
-**[[type theory]]** 
-([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
-
-**[[syntax]]**
-
-* [[theory]], [[signature (in logic)|signature]]
+**[[natural deduction]]** [[metalanguage]]
 
 * [[judgement]]
 
@@ -19,11 +7,23 @@
 
   * [[antecedents]] $\vdash$ [[consequent]], [[succedents]]
 
-* [[axiom]], [[theorem]]
+1. [[type formation rule]]
+1. [[term introduction rule]]
+1. [[term elimination rule]]
+1. [[computation rule]]
+
+**[[type theory]]** 
+([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
+
+**[[syntax]]** [[object language]]
+
+* [[theory]], [[axiom]]
 
 * [[proposition]]/[[type]] ([[propositions as types]]) 
 
 * [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
 
 [[!include types and logic - table]]
 
