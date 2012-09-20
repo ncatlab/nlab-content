@@ -102,7 +102,7 @@ $$
   \,.
 $$
 
-But, as mentioned above, we kown what the category $I \times C$ is like: its morphisms are pairs of morphisms in $I$ and $C$, subject to the obvious composition law, which says in particular that for $f : c_1 \to c_2$ any morphism in $C$ we have
+But, as mentioned above, we know what the category $I \times C$ is like: its morphisms are pairs of morphisms in $I$ and $C$, subject to the obvious composition law, which says in particular that for $f : c_1 \to c_2$ any morphism in $C$ we have
 
 $$
   \begin{aligned}
