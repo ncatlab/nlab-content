@@ -18,11 +18,9 @@
 
 ## Idea
 
-The _$3 \times 3$-lemma_ or _nine lemma_ is a basic [[lemma]] in [[homological algebra]].
+The _$3 \times 3$-lemma_ or _nine lemma_ is one of the basic [[diagram chasing lemmas]] in [[homological algebra]].
 
 ## Statement
-
-### Ordinary $3 \times 3$-lemma
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -76,7 +74,7 @@ be a [[commuting diagram]] in some [[abelian category]] such that each of the th
 
 =--
 
-### Sharp $3 \times 3$-lemma
+A proof by way of the [[salamander lemma]] is spelled out in detail at _[Salamander lemma - Implications - 3x3 lemma](http://ncatlab.org/nlab/show/salamander+lemma#3x3Lemmas)_.
 
 ## Related concepts
 
