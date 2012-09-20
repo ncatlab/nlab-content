@@ -1,16 +1,1 @@
-author: AnonymousCoward
-company: 
-title: delta measure
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-delta measure
-==============
-
-My First Slide
------------------
-
+[[!redirects delta measure]]
