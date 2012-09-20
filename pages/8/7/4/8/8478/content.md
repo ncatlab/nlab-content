@@ -24,7 +24,7 @@
 
 ## Idea
 
-In formal [[logic]] a _sequent_ ([Gentzen 35](#Gentzen), [Martin-L&#246;f 83](#Martin-L&#246;f)) or _hypothetical judgement_ ([Pfenning, Davies 00](Pfenning-Davies)) is an expression in the metalanguage 
+In formal [[logic]] a _sequent_ ([Gentzen 35](#Gentzen), [Martin-L&#246;f 83](#Martin-L&#246;f)) or _hypothetical judgement_ ([Pfenning, Davies 00](Pfenning-Davies)) is an expression in the [[metalanguage]] 
 which is a string of symbols of the form
 
 $$
