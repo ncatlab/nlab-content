@@ -92,7 +92,5 @@ Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive stru
 [[!redirects recursive]]
 [[!redirects recursive definition]]
 [[!redirects recursive definitions]]
-[[!redirects inductive definition]]
-[[!redirects inductive definitions]]
 
 [[!redirects recursion principle]]
