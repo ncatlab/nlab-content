@@ -108,6 +108,10 @@ In many forms of (multi-) *typed* $\lambda$-calculus (and more general type theo
 
 However, it is possible to add a fixed-point combinator to typed $\lambda$-calculus by fiat, obtaining a typed system which includes general recursion and hence nontermination.  This is appropriate for some forms of [[domain semantics]], and for modeling some real-world programming languages ([[Haskell]] is a notable example).
 
+## Related pages
+
+* [[looping combinator]]
+
 
 [[!redirects fixed-point combinator]]
 [[!redirects fixed-point combinators]]
