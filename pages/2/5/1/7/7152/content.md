@@ -46,6 +46,11 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 * [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
   {#ArtinMazur}
 
+*  E. M. Friedlander, _Fibrations in &#233;tale homotopy theory [(numdam)](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1973__42_/PMIHES_1973__42__5_0/PMIHES_1973__42__5_0.pdf)_, Publ. Math. 
+Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
+
+category: people
+
 
 
 [[!redirects étale homotopy theory]]
