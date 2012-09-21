@@ -105,7 +105,7 @@ A map $Q: \Omega_1\times \mathfrak{A}_2$ satisfying
 
 (2) $Q(\omega,-):\mathfrak{A}_2\to [0,1]$ is a probability measure on $(\Omega_2,\mathfrak{A}_2)$, $\forall \omega_1\in \Omega_1$
 
-is called a *stochastic kernel* or * transition kernel* (or *Markov kernel* - which we avoid since it is confusing) *from $(\Omega_1,\mathfrak{A}_1)$ to $(\Omega_2,\mathfrak{A}_2)$.
+is called a *stochastic kernel* or *transition kernel* (or *Markov kernel* - which we avoid since it is confusing) *from $(\Omega_1,\mathfrak{A}_1)$ to $(\Omega_2,\mathfrak{A}_2)$.
 
 Then $Q$ induces a function between the classes of measures on $\Omega_1, \mathfrak{A}_1$ and on $\Omega_2, \mathfrak{A}_2$
 
