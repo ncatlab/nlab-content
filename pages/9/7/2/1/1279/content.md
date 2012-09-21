@@ -177,7 +177,7 @@ The __[[exchange rule]]__ is
   $$
 where $\Phi$ is any [[permutation]] of $\phi$ and $\Psi$ is any permutation of $\psi$.  It is enough to state the exchange rule for two special cases: a [[transposition]] of the antecedent $\phi$ and a transposition of the succedent $\psi$; the general case follows because any permutation is a [[composite]] of transpositions.
 
-The __[[weakening rules]] are
+The __[[weakening rules]]__ are
   $$
     \frac{
       \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
@@ -196,7 +196,7 @@ and
   $$
 in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to be placed anywhere in the antecedent or succedent).
 
-The __[[contraction rules]] are
+The __[[contraction rules]]__ are
   $$
     \frac{
       \vec{\phi}, \chi, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
@@ -242,6 +242,8 @@ The **[[universal quantification]] rules** are ...
 The **[[existential quantification]] rules** are ...
 =--
 
+We have written the rules _multiplicatively_, which works best when using (dual)-intuitionistic or (dual)-minimal sequents, but it is also possible to write them in a slightly different _additive_ manner.  This makes a difference if some of the [[structural rules]] are abandoned; [[linear logic]] uses both rules but for different connectives.
+
 Gentzen originally did not include $\top$ or $\bot$, but if $\top$ is defined as $\phi \to \phi$ for any atomic $\phi$ and $\bot$ is defined as $\neg{\top}$, then their rules can be proved.  Similarly, he did not use $\setminus$; we may define $\phi \setminus \psi$ to mean $\phi \wedge \neg{\psi}$.  It would also be possible to leave out $\to$, defining $\phi \to \psi$ as $\neg{\phi} \vee \psi$.  With or without these optional operations and rules, the resulting logic is [[classical logic|classical]].
 
 If we use only those rules that can be stated using intuitionistic sequents, then the result is [[intuitionistic logic]]; this is again true with or without $\top$, $\bot$, or $\setminus$.  However, if we leave out $\to$, then we cannot reconstruct it; the definition of $\to$ using $\neg$ and $\vee$ is not valid intuitionistically.  On the other hand, if we include $\bot$ (and optionally $\top$) but leave out $\neg$ and $\setminus$, then we get intuitionistic logic using all (classical) sequents.  On the other other hand, we could get classical logic using only intuitionistic sequents and adding the law of [[excluded middle]] as an axiom.
@@ -249,7 +251,8 @@ If we use only those rules that can be stated using intuitionistic sequents, the
 If we use only those rules that can be stated using minimal sequents, then the result is still intuitionistic logic; but if we also leave out $\bot$, then the result is [[minimal logic]].
 
 
-## Cut elimination
+## Cut-free proofs
+{#subformulaprop}
 
 The cut rule expresses the composition of proofs.  Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any derivation that uses the cut rule can be transformed into one that doesn't.  This yields a [[normalization]] algorithm for proofs, which provided much of the inspiration behind [[Lambek]]'s approach to categorical logic.  Similarly, any derivation that uses the identity rule can be transformed into one that uses it only for atomic propositions (those provided by the signature $\Sigma$ and equality).
 
