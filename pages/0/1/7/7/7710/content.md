@@ -60,6 +60,13 @@ If we extend the language by the constants from $A$ we get a new language $L_A$.
 
 One can also study [[ind-object]]s and [[pro-object]]s in the category of definable sets and definable functions. 
 
+## Related concepts
+
+* [[constructible set]]
+
+* [[definable groupoid]]
+
+
 ## References
 
 * Moshe Kamensky, _Ind- and Pro- definable sets_, [math.LO/0608163](http://arxiv.org/abs/math/0608163)
