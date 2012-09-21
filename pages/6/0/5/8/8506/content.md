@@ -31,4 +31,4 @@
 
   * [[Schrödinger equation]], [[Knizhnik-Zamolodchikov equation]], [[Maurer-Cartan equation]], [[quantum master equation]], [[Euler-Arnold equation]], [[Fuchsian equation]], [[Fokker-Planck equation]], [[Lax equation]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/equalits+and+equivalence+-+contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/equality+and+equivalence+-+contents)</div>
