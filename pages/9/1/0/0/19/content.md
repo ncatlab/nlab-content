@@ -299,7 +299,7 @@ The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topolo
 
 * [[Benjamin Pierce]], _Basic category theory for computer scientists_.
 
-* [[Michael Barr]] and [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf)
+* [[Michael Barr]] and [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
 
 * [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
 
