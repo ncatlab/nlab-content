@@ -19,7 +19,7 @@
 ## Idea
 
 __Symplectic field theory__ is a mathematical approach to 
-[[Gromov-Witten invariants]] (and invariants in [[contact geometry]] and the relative invariants of [[Legendrean submanifolds]] (relative contact homology)) in the spirit of [[topological field theory]]. It has inspired to some extend later Hofer's generalized Fredholm theory on [[polyfolds]]. 
+[[Gromov-Witten invariants]] (and invariants in [[contact geometry]] and the relative invariants of [[Legendrean submanifolds]] (relative contact homology)) in the spirit of [[topological field theory]]. It has inspired to some extent Hofer's generalized Fredholm theory on [[polyfolds]]. 
 
 ## References
 
