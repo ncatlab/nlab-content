@@ -17,7 +17,7 @@
 
 #related entries#
 
-* [[representation]]
+* [[representation]], [[action]], [[module]]
 
   * [[group]], [[group algebra]], [[groupoid]], [[algebraic group]], [[Lie algebra]]
 
