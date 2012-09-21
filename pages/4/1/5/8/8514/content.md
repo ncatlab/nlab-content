@@ -107,6 +107,7 @@ The abc conjecture implies the [[Mordell conjecture]] ([Elkies](#Elkies)).
 
 It is equivalent to the general form of [[Szpiro's conjecture]].
 
+* [[Vojta's conjecture]]
 
 ## References
 
