@@ -119,7 +119,7 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 ## Related entries
 
-* [[definable set]]
+* [[definable set]], [[definable groupoid]]
 
 * [[type (in model theory)]]
 
