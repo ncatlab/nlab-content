@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {:toc}
@@ -12,7 +22,7 @@ A model theory for a particular [[logic]] typically works within a given [[unive
 The two main problems of model theory are
 
 * classification of a given theory $\mathcal{T}$ in a language $L$
-* study the family of all definable sets of a structure $M$ of a language $L$
+* study the family of all [[definable sets]] of a [[structure (in model theory)|structure]] $M$ of a [[language(in model theory|)language]] $L$
 
 In all memorable examples, the collection of structures for a language will form an interesting [[category]], and the subcollection of those structures verifying a given collection $Th$ of [[propositions]] in the language are an interesting [[subcategory]] again.
 
@@ -108,6 +118,8 @@ so that the *finite extensions* of $Th(V_\omega,\in)$ by suborders of $X$ are al
 By a similar argument, (if ZFC is consistent) there are models $M'$ of classical set theory satisfying the (higher-order) property that the natural numbers object $\omega_{M'}$ of $M'$ includes your favourite total order $(X,\lt)$ *as a suborder* --- of course, $M'$ isn't allowed to *know* this --- notably, there is **no object** $\xi$ in $M$ such that $\{y\mid y\epsilon \xi\} = \{c_x \mid x\in X\}$.
 
 ## Related entries
+
+* [[definable set]]
 
 * [[type (in model theory)]]
 
