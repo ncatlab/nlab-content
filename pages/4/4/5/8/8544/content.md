@@ -10,5 +10,5 @@
 
 * [[stability in model theory]], [[geometric stability theory]]
 
-* [[definable set]]
+* [[definable set]], [[definable groupoid]]
 
