@@ -150,11 +150,11 @@ or
     \frac{
       \vec{\phi} \vdash_{\Gamma} \vec{\psi}
     }{
-      a^*\vec{\phi} \vdash_{\Delta} a^*\psi
+      a^*\vec{\phi} \vdash_{\Delta} a^*\vec{\psi}
     }
     \,,
   $$
-  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi_i$, or $\phi_i[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
+  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi_i$, or $\phi_i[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{\psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
 
 The **[[cut rule]]** is
   $$
@@ -164,7 +164,7 @@ The **[[cut rule]]** is
       \vec{\phi}, \vec{\chi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \vec{\omega}
    }\,;
   $$
-the proposition $\chi$ has been 'cut'.
+the proposition $\alpha$ has been 'cut'.
 
 The __[[exchange rule]]__ is
   $$
@@ -194,7 +194,7 @@ and
     }
     \,;
   $$
-in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to place anywhere in the antecedent or succedent).
+in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to be placed anywhere in the antecedent or succedent).
 
 The __[[contraction rules]] are
   $$
