@@ -95,7 +95,7 @@ such that $J_n \in \mathcal{A}$ is a [[projective object]] for all $n \in \mathb
 +-- {: .num_remark #ProjectiveResolutionInComponents}
 ###### Remark
 
-In components the quasi-isomorphism of def. \ref{#ProjectiveResolution}
+In components the quasi-isomorphism of def. \ref{ProjectiveResolution}
 is a [[chain map]] of the form
 
 $$
