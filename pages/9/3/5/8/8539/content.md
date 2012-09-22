@@ -31,9 +31,18 @@ In [[paraconsistent logic]], however, one sometimes reserves the term "contradic
 
 A system of [[formal logic]] that proves a contradiction is called [[inconsistency|inconsistent]].
 
-## Related concepts
+## Examples
 
 * [[Russell's paradox]]
 
 * [[Burali-Forti's paradox]]
 
+* [[Cantor's paradox]]
+
+## Related concepts
+
+* [[paradox]]
+
+* [[inconsistency]]
+
+[[!redirects contradictions]]
