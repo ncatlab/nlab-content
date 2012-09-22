@@ -45,6 +45,8 @@ Moreover, by an adaptation of the proof, one can construct a [[looping combinato
 
 * [[Russell's paradox]]
 
+* [[Cantor's paradox]]
+
 
 category: paradox
 
