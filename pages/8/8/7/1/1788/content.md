@@ -12,7 +12,11 @@ $\curvearrowleft$ $\curvearrowbotright$
 
 $\leftsquigarrow$
 
-$\righttoleftarrow$ $\lefttorightarrow$
+$\righttoleftarrow$ $\lefttorightarrow$ 
+
+How do you pronounce it, chech or something
+
+$\check{b}$
 
 ***
 
