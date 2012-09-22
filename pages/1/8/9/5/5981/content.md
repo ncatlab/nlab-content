@@ -22,7 +22,7 @@ Logicians have developed several ways to precisely specify what variables are an
 
 ## Free and bound variables
 
-If we keep track of [[context]], every introduction of a variable changes the context.  Thus, whatever [[terms]] of [[type]] $T$ there may (or may not) be in a given context $\Gamma$, in the context $(\Gamma, x\colon T)$ ---which is $\Gamma$ extended by a __free variable__ $x$ of type $T$--- there is (at least) one more term of type $T$, and that term is $x$ itself.
+If we keep track of [[context]], every [[context extension|introduction of a variable]] changes the context.  Thus, whatever [[terms]] of [[type]] $T$ there may (or may not) be in a given context $\Gamma$, in the context $(\Gamma, x\colon T)$ ---which is $\Gamma$ extended by a __free variable__ $x$ of type $T$--- there is (at least) one more term of type $T$, and that term is $x$ itself.
 
 Conversely, we may be able to take a term $a$ in the context $(\Gamma, x\colon T)$ and apply some operation $f$ to it to create a term $f(a)$ (possibly of a different type) in the context $\Gamma$; then any appearances of the variable $x$ in the term $a$ have become __bound variables__ in the term $f(a)$.  That is, the appearances of $x$ are bound by the operator $f$, and $x$ has no meaning outside of its scope.
 
@@ -88,6 +88,8 @@ $$
 ## Related concepts
 
 * [[quantification]]
+
+* [[context extension]]
 
 * [[proposition]]
 
