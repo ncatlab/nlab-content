@@ -151,3 +151,7 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 [[!redirects queue]]
 [[!redirects queues]]
+
+[[!redirects list object]]
+[[!redirects list objects]]
+
