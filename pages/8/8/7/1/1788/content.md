@@ -16,7 +16,9 @@ $\righttoleftarrow$ $\lefttorightarrow$
 
 How do you pronounce it, chech or something
 
-$\check{b}$
+$\check{b}$ 
+
+
 
 ***
 
