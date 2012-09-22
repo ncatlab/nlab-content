@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
 
-A **number field** is a finite extension [[field]] of the field of [[rational number]]s, $\mathbb{Q}$, In other words, a field $k$ of characteristic zero such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a finite-dimensional [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
+A **number field** is a finite [[field extension]] of the [[field]] of [[rational numbers]], $\mathbb{Q}$, In other words, a field $k$ of characteristic zero such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a finite-dimensional [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
 
 $$\mathbb{Q} \otimes k \stackrel{i \otimes 1}{\to} k \otimes k \stackrel{mult}{\to} k$$
 
@@ -19,5 +30,8 @@ Number fields are the basic objects of study in [[algebraic number theory]]. For
 
 Number fields $k$ are examples of [[global field]]s, in fact they are the global fields of characteristic zero. They are often studied in terms of how they embed in their rings of [[adele ring|adeles]] $\mathbb{A}_k$, which are built from the [[local field|local completions]] of $k$. 
 
+## Related concepts
+
+* [[algebraic curve]]
 
 [[!redirects number fields]]
