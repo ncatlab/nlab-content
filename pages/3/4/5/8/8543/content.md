@@ -124,7 +124,7 @@ If $\mu$ is a probability measure, then so is $\overline{Q}(\mu)$. The symbol $Q
 
 The stochastic kernel is hence in particular an integral kernel.
 
-In a discrete stochastic process the transition function is a stochastic kernel (more precisely it is the function $\overline{Q}$ induced by a kernel $Q$).
+In a discrete stochastic process (see below) the transition function is a stochastic kernel (more precisely it is the function $\overline{Q}$ induced by a kernel $Q$).
 
 #### Coupling (Koppelung)
 
