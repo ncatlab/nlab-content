@@ -152,6 +152,20 @@ and $Q$ is (a version of) the conditional distribution of $X$ provided $Y$, i.e.
 $$Q(y,-)=P^X(-|Y=y)$$
 =-- 
 
+This theorem says that that $Q$ (more precisely $y\mapsto Q(y,-)$) fits in the diagram
+
+$$\array{
+(\Omega_1,\mathfrak{A}_1,P)&
+\stackrel{Y}{\to}&
+(\Omega_2,\mathfrak{A}_2, P^Y)
+\\
+\downarrow^X&&
+\swarrow^{Q}
+\\
+(\mathbb{R},\mathcal{B}(\mathbb{R}),\lambda)
+}$$
+
+and $E[X|Y]=Q$.
 #### Discrete case
 
 In the discrete case, i.e. if $\Omega_1$ and $\Omega_2$ are finite- or enumerable sets, it is possible to reconstruct $Q$ by just considering one-element sets in $\mathfrak{A}_2$ and the related probabilities
