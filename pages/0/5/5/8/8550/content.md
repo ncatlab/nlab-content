@@ -1,0 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+In [[dependent type theory]], _context extension_ is the special case of [[substitution]] along a [[projection]] morphism. It freely introduces now [[free variables]] into the context.
+
+
+[[!redirects context extension]]
+
