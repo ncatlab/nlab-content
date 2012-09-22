@@ -7,7 +7,7 @@
 
 A [[reconstruction theorem]], a version of [[Tannaka duality]]. 
 
-Named after [[Sergio Doplicher]] and [[John Roberts]]. Serves in [[AQFT]] as an intrinsic characterization of the [[superselection sector]]s of an [[quantum field theory]]. See [[DHR superselection theory]].
+Named after [[Sergio Doplicher]] and [[John Roberts]]. Serves in [[AQFT]] as an intrinsic characterization of the [[superselection sector]]s of a [[quantum field theory]]. See [[DHR superselection theory]].
 
 
 ## References
