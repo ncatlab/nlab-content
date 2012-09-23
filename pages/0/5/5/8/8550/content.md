@@ -9,9 +9,14 @@
 =--
 =--
 
+In [[dependent type theory]], _context extension_ is the special case of [[substitution]] along a [[projection]] morphism. It freely introduces new [[free variables]] into a [[context]].
 
-In [[dependent type theory]], _context extension_ is the special case of [[substitution]] along a [[projection]] morphism. It freely introduces now [[free variables]] into the context.
+Explicitly, if $T$ is a [[type]] in the context $\Gamma$, then the __extension__ of $\Gamma$ by (a free variable of type) $T$ is the context
+$$ \Gamma, x\colon T $$
+(where $x$ is a new variable).  We have said 'the' extension of $\Gamma$ by $T$ using the [[generalised the]]; but it may literally be unique using certain conventions for handling [[alpha equivalence]].
+
+Generally speaking, a [[morphism]] $\Delta \to \Gamma$ in the [[category of contexts]] (an [[interpretation]] of $\Gamma$ in $\Delta$) is a [[display morphism]] iff there is an [[isomorphism]] $\Delta \leftrightarrow \Theta$ where $\Theta$ is an extension of $\Gamma$.  (This might not actually be true in all type theories, or maybe it should be taken as the *definition* of 'display morphism'; I\'m not sure.)
 
 
 [[!redirects context extension]]
-
+[[!redirects context extensions]]
