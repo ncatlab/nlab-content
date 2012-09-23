@@ -35,7 +35,7 @@ Given a [[type theory]] $T$, its **syntactic category** or **category of context
 
 * Its [[objects]] are the [[contexts]] in the type theory;
 
-* Its [[morphisms]] between contexts are **substitutions**, or **interpretations** of [[variables]]. 
+* Its [[morphisms]] between contexts are **[[substitutions]]**, or **interpretations** of [[variables]]. 
 
 A morphism from the context $\Gamma$ to the context $\Delta$ consists of a way of fulfilling the assumptions required by $\Delta$ by appropriately interpreting those provided by $\Gamma$, generally by substituting terms available in $\Gamma$ for variables needed in $\Delta$ and proving whatever is necessary from the assumptions at hand.
 
