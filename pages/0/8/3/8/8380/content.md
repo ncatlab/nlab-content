@@ -42,7 +42,7 @@ In [[computer science]], a programming language may be formalised or studied by 
 
 * [[objects]] $X \in \mathcal{C}$ are the [[types]] of the language, 
 
-* [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $Y$ as input and returns a value of type $Y$.  
+* [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $X$ as input and returns a value of type $Y$.  
 
 This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional programming|functional programming languages]].
 
@@ -56,7 +56,7 @@ on the [[syntactic category]]. This [[functor]]
 
 1. sends each [[type]], hence [[object]] $X \in \mathcal{C}$ to another object $T(X)$;
 
-1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a compnent morphism [[morphism]] $return_X : X \to T(X)$;
+1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a component [[morphism]] $return_X : X \to T(X)$;
 
 1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \Rightarrow X$ which induces the [[Kleisli composition]] by the formula
 
