@@ -254,6 +254,7 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 ## Properties
 
 ### Existence of enough injectives
+ {#ExistenceOfEnoughInjectives}
 
 We discuss a list of classes of categories that have _enough injective_
 according to def. \ref{EnoughInjectives}.
