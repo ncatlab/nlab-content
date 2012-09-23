@@ -514,6 +514,12 @@ The idea of proof is that the underlying object of an abelian group $A$ in $E$ a
 
   * [[flat module]]
 
+## References
+
+For instance section 4.5 of 
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+
 [[!redirects projective resolution]]
 [[!redirects projective resolutions]]
 
