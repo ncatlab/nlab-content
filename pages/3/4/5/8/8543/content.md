@@ -191,6 +191,7 @@ $$\array{
 }$$
 
 and $E[X|Y]=Q$.
+
 #### Discrete case
 
 In the discrete case, i.e. if $\Omega_1$ and $\Omega_2$ are finite- or enumerable sets, it is possible to reconstruct $Q$ by just considering one-element sets in $\mathfrak{A}_2$ and the related probabilities
@@ -205,9 +206,11 @@ $$pM=(\sum_{i\in \Omega} p_i p_{ij})_{j\in \Omega_2}$$
 
 is a counting density on $\Omega_2$.
 
+The conditional expectation plays a defining role in the theory of *martingales* which are *stochastic processes* such that the conditional expectation of the next value (provided the previous values) equals the present realized value.
+
 ### Stochastic processes
 
-Let $I$ be a total order (i.e. transitive, antisymmetric, and total).
+Let $I$ be a [[total order]] (i.e. transitive, antisymmetric, and total).
 
 A *stochastic process* is a diagram $X_I: I\to \mathcal{R}$ where $\mathcal{R}$ is the class of random variables such that $X_I(i)=:X_i:(\Omega_i, \mathfrak{F}_i, P_i)\to (S_i, \mathfrak{S}_i)$ is a random variable. Often one considers the case where all $(S_i, \mathfrak{S}_i)=(S, \mathfrak{S})$ are equal; in this case $S$ is called *state space of the process $X_I$*.
 
