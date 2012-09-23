@@ -10,8 +10,8 @@
 =--
 
 # Paradoxes
-*table of contents
-{:toc}
+* table of contents
+{: toc}
 
 ## Idea
 
