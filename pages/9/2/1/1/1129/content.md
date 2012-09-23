@@ -255,18 +255,85 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 ### Existence of enough injectives
 
-We discuss a list of class of categories that have _enough injective_
+We discuss a list of classes of categories that have _enough injective_
 according to def. \ref{EnoughInjectives}.
 
-* Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
++-- {: .num_prop}
+###### Proposition
 
-* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.
+Every [[topos]] has enough injectives.  
 
-* As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  To see this, observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+=--
 
-* The category of [[abelian sheaves]] on any small [[site]] also has enough injectives.  (This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.)  A proof of this can be found in [[Peter Johnstone]]'s book *Topos Theory*, p261.
++-- {: .proof}
+###### Proof
 
-* Combining the last fact with the penultimate one (which relativizes to any topos), we find that the category of modules over any [[sheaf of rings]] on any small site also has enough injectives.  This slick proof of this important fact was pointed out by Colin McLarty in an email to the categories list dated 10 Oct 2010.
+Every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  
+
+=--
+
+Full AC is much more than required, however; [[small violations of choice]] suffices.
+
+
++-- {: .num_prop #AbHasEnoughInjectives}
+###### Proposition
+
+As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[forgetful functor]] $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $R = k$ a [[field]], hence $R$[[Mod]] = $k$[[Vect]], ever object is both injective as well as [[projective object|projective]].
+
+=--
+
++-- {: .num_prop #AbelianSheavesHaveEnoughProjectives}
+###### Proposition
+
+The category of [[abelian sheaves]] $Ab(Sh(C))$ on any [[small site]] $C$, hence the category of abelian groups in the [[sheaf topos]] over $C$, has enough injectives.
+
+=--
+
+A proof of can be found in [[Peter Johnstone]]'s book *Topos Theory*, p261.
+
++-- {: .num_remark}
+###### Remark
+
+This is in stark contrast to the situation for [[projective objects]], which generally do not exist in categories of sheaves.  
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+The category of sheaves of modules over any [[sheaf of rings]] on any [[small site]] also enough injectives.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Combining prop. \ref{AbelianSheavesHaveEnoughProjectives} with prop. \ref{AbHasEnoughInjectives} (which relativizes to any topos).  
+
+=--
+
+This slick proof of this important fact was pointed out by [[Colin McLarty]] in an email to the categories list dated 10 Oct 2010.
 
 
 ### Injective resolutions
