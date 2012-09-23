@@ -222,9 +222,35 @@ and all $X_l$ are $\mathfrak{F}_l$ measurable, the process is called *adapted pr
 
 For example the *natural filtration* where $\mathfrak{F}_i=\sigma(\{X^{-1}_l(A), l\le i, A\in \mathfrak{S}\})$ gives an adapted process.
 
-(...)
+In terms of a diagram we have for $i\le j$
+
+$$\array{
+(\Omega_j,\mathfrak{A}_j,P_j)&
+\stackrel{f}{\to}&
+(\Omega_i,\mathfrak{A}_i,P_i)
+\\
+\downarrow^{X_j}&&
+\swarrow^{\omega_i\mapsto Q(\omega_i,-)}
+\\
+(\mathbb{R},\mathcal{B}(\mathbb{R}),\lambda)
+}$$
+
+and $\overline{Q}:(\Omega_i,\mathfrak{A}_i,P_i)\to(\Omega_j,\mathfrak{A}_j,P_j)$ where $Q:\Omega_i\times\mathfrak{A}_j\to [0,1]$ is the transition probability for the passage from state $i$ to state $j$.
+
 ## Martingale
 
+An adapted stochastic process with the natural filtration in discrete time is called a *martingale* if all $E[X_i]\lt \infty$ and $\forall i\le j, E[X_j|\mathfrak{A}_i]=X_i$.
+
+$$\array{
+(\Omega_j,\mathfrak{A}_j,P_j)&
+\stackrel{f}{\to}&
+(\Omega_i,\mathfrak{A}_i,P_i)
+\\
+\downarrow^{X_j}&&
+\swarrow^{E[X_j|\mathfrak{A}_i]=X_i}
+\\
+(\mathbb{R},\mathcal{B}(\mathbb{R}),\lambda)
+}$$
 [[martingale]]
 
 (...)
