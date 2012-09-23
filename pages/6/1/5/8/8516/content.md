@@ -9,9 +9,15 @@ The _Mordell conjecture_ or _Falting's theorem_ is a statement about the [[finit
 
 Its statement motivated the introduction of [[anabelian geometry]] ([Grothendieck](#Grothendieck)).
 
+The Mordell conjecture completed a classification of the behavior of rational points on curves over $\mathbb{Q}$. For genus 0 one has no points, or something isomorphic to $\mathbb{P}^1$ and hence infinitely many. For genus 1, the [[Mordell-Weil theorem]] tells us it is either empty or a finitely generated [[abelian group]] (sometimes finite, sometimes infinite). To finish off this type of classification the Mordell conjecture shows that only the finite case can occur for higher genus.
+
+This result also implies many non-trivial results. For example, fix a finite set of primes $S$, a dimension $n$, and a [[polarization degree]] $d$. There are only finitely many [[abelian varieties]] of dimension $n$ and polarization degree $d$ with [[bad reduction]] inside $S$. This result is so interesting that a whole industry popped up asking what other varieties this type of behavior occurs for. It seems to work for [[K3]]s.
+
 ## Relation to other statements
 
 The Mordell conjecture is implied by the [[abc conjecture]]. (See there.)
+
+The Mordell conjecture implies [[Tate's isogeny theorem]].
 
 See also [[Vojta's conjecture]].
 
