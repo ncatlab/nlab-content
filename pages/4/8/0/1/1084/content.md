@@ -579,6 +579,7 @@ $$
 
 =--
 
+In the literature this appears for instance as ([Schapira, def. 3.2.2](#Schapira)).
 
 +-- {: .num_prop #ComponentsOfMappingConeInChainComplexes}
 ###### Proposition
@@ -1050,6 +1051,8 @@ $$
 
 =--
 
+In the literature this appears for instance as ([Schapira, cor. 7.2.2](#Schapira)).
+
 +-- {: .proof}
 ###### Proof
 
@@ -1341,7 +1344,14 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 ## References
 
-In the context of [[chain complexes]] the construction is discussed for instance in section 1.5 of 
+In the context of [[chain complexes]] the construction is discussed for instance in
+
+section 3.2 and section 7 of
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
+
+in section 1.5 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
 
