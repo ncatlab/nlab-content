@@ -204,6 +204,11 @@ Model categories have successfully been used to compare many different notions o
 * [[Segal categories]]
 * [[complete Segal spaces]]
 
+There are related model structures for enriched higher categories:
+
+* [[model structure on enriched categories]]
+* [[model structure on dg-categories]]
+
 Other "higher categorical structures" can also  be expected to form model categories, such as the 
 
 * [[model structure on dendroidal sets]]
