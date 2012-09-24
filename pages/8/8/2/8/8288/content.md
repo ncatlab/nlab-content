@@ -474,6 +474,50 @@ The total outer diagram now commutes, being built from commuting sub-diagrams, a
 
 =--
 
+### Relation to homotopy equivalences
+
+$$
+  f_\bullet : C_\bullet \to D_\bullet
+$$
+
+a [[quasi-isomorphism]] with $D_\bullet$ projective.
+
+Define
+
+$$
+  h_0 : D_0 \to C_0
+$$
+
+$$
+  \array{   
+     && C_0
+     \\
+     &{}^{\mathllap{h_0}} \nearrow& \downarrow^{ f}
+     \\
+     D_0 &\to& D_0/im(\partial^D_0) 
+  }
+$$
+
+$$
+  \array{
+    && C_{n+1} &&\stackrel{\partial^C_n}{\to}&& C_n
+    \\
+    &{}^{\mathllap{h_{n+1}}}\nearrow& \downarrow && & {}^{\mathllap{h_n}}\nearrow
+    \\
+    D_{n+1} 
+     &\stackrel{}{\to}& 
+    D_{n+1} /im(\partial_{n+1}) 
+     &\stackrel{\partial^D_n}{\to}& 
+    D_n
+  }
+$$
+
+
+
+
+
+
+
 ### Relation to syzygies
 
 (...) [[syzygy]] (...)
