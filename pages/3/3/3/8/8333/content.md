@@ -40,7 +40,7 @@ $$
 for the [[category]] whose [[objects]] are [[chain complexes]], and whose [[morphisms]] between objects $C_\bullet, D_\bullet$ are chain homotopy-equivalence classes
 
 $$
-  K(\mathcal{A})(C_\bullet, D_\bullet)
+  \mathcal{K}(\mathcal{A})(C_\bullet, D_\bullet)
   \coloneqq
   Ch_\bullet(\mathcal{A})(C_\bullet, D_\bullet)_{\sim_{ch}}
   \,.
@@ -54,7 +54,7 @@ $$
 Analogous to the variants discussed at _[[category of chain complexes]]_ one considers also the [[full subcategories]]
 
 $$
-  K^{+,-,b}(\mathcal{A}) \hookrightarrow K(\mathcal{A})
+  K^{+,-,b}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
 $$
 
 on the chain complexes which are bounded above or bounded below or bounded, respectively.
@@ -64,7 +64,7 @@ on the chain complexes which are bounded above or bounded below or bounded, resp
 +-- {: .num_remark}
 ###### Remark
 
-The category $K(\mathcal{A})$ is sometimes called the "homotopy category of chain complexes". But beware that there is another category that also and more properly deserves to be called by this name:
+The category $\mathcal{K}(\mathcal{A})$ is sometimes called the "homotopy category of chain complexes". But beware that there is another category that also and more properly deserves to be called by this name:
 
 the _[[homotopy category]]_ $Ho(Ch_\bullet(\mathcal{A}))$ in the sense of the result of [[localization]] at the [[chain maps]] that are [[quasi-isomorphisms]] is traditionally called the _[[derived category]]_ $\mathcal{D}(\mathcal{A})$ of $\mathcal{A}$:
 
@@ -81,7 +81,7 @@ $$
 By construction there is a canonical [[functor]]
 
 $$
-  Ch_\bullet(\mathcal{A}) \to K(\mathcal{A})
+  Ch_\bullet(\mathcal{A}) \to \mathcal{K}(\mathcal{A})
 $$
 
 which is the [[identity]] on objects and the [[quotient]] [[projection]] on [[hom-sets]].
@@ -95,7 +95,7 @@ which is the [[identity]] on objects and the [[quotient]] [[projection]] on [[ho
 +-- {: .num_prop}
 ###### Proposition
 
-Under componentwise addition of [[chain maps]], $K(\mathcal{A})$ is an [[additive category]].
+Under componentwise addition of [[chain maps]], $\mathcal{K}(\mathcal{A})$ is an [[additive category]].
 
 =--
 
@@ -121,12 +121,12 @@ be the [[abelian group|abelian]] [[subgroup]] on those [[chain maps]] which are 
 For $C_\bullet, D_\bullet \in Ch_\bullet(\mathcal{A})$, there is an [[natural isomorphism]] of [[abelian groups]]
 
 $$
-  K(\mathcal{A})(C_\bullet, D_\bullet)
+  \mathcal{K}(\mathcal{A})(C_\bullet, D_\bullet)
   \simeq
   Ch_\bullet(\mathcal{A})/NHt(C_\bullet, D_\bullet)
 $$
 
-of the [[hom-objects]] in $K(\mathcal{A})$ with the [[quotient group]] of all chain maps by those whose are null homotopic. 
+of the [[hom-objects]] in $\mathcal{K}(\mathcal{A})$ with the [[quotient group]] of all chain maps by those whose are null homotopic. 
 =--
 
 ### Triangulated category structure
@@ -134,7 +134,7 @@ of the [[hom-objects]] in $K(\mathcal{A})$ with the [[quotient group]] of all ch
 +-- {: .num_defn #DistinguishedTriangles}
 ###### Definition
 
-A **[[distinguished triangle]]** in $K(\mathcal{A})$ is a sequence of [[morphisms]] of the form
+A **[[distinguished triangle]]** in $\mathcal{K}(\mathcal{A})$ is a sequence of [[morphisms]] of the form
 
 $$
   Y_\bullet \to (X\sslash Y)_\bullet \to X[1]_\bullet \stackrel{}{\to} Y[1]_\bullet
@@ -164,13 +164,100 @@ With
 
 * [[distinguished triangles]] as in def. \ref{DistinguishedTriangles}
 
-the category $K(\mathcal{A})$ is a [[triangulated category]].
+the category $\mathcal{K}(\mathcal{A})$ is a [[triangulated category]].
 
 =--
 
 ### Relation to the derived category
+ {#RelationToDerivedCategory}
 
 See at _[[derived category]]_ in the section [derived category - Properties](derived+category#Properties).
+
+## Examples
+
+### Chain homotopies that ought to exist but do not
+ {#ChainHomotopiesThatOughtToExistButDoNot}
+
+We discuss some basic examples of [[chain maps]]
+that ought to be identified in [[homotopy theory]], but which are not yet identified in $\mathcal{K}(\mathcal{A})$, but only in the [[derived category]] $\mathcal{D}(\mathcal{A})$.
+
++-- {: .num_example}
+###### Example
+
+In $Ch_\bullet(\mathcal{A})$ for $\mathcal{A} = $ [[Ab]] consider the [[chain map]]
+
+$$
+  \array{
+    \cdots &\to& 0 &\to& 0 &\to& 0 &\to& \mathbb{Z}_2
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{id}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+The [[codomain]] of this map is an [[exact sequence]], hence is [[quasi-isomorphism|quasi-isomorphic]] to the 0-chain complex. Thereofore in [[homotopy theory]] it should behave entirely as the 0-complex. In particular, every chain map to 0 should be [[chain homotopy|chain homotopic]] to the [[zero morphism]].
+
+But the above chain map is chain homotopic precisely only to itself. This is because the degree-0 component of any chain homotopy out of this has to be a homomorphism of abelian groups $\mathbb{Z}_2 \to \mathbb{Z}$, and this must be the 0-morphism, because $\mathbb{Z}$ is a [[free group]], but $\mathbb{Z}_2$ is not.
+
+This points to the problem: the components of the domain chain complex are not _free enough_ to admit sufficiently many maps out of it. 
+
+Consider therefore a [[free resolution]] of the above domain complex by the [[quasi-isomorphism]]
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& 0 &\to& 0 &\to& \mathbb{Z}_2
+  }
+  \,,
+$$
+
+where now the domain complex consists entirely of [[free groups]]. 
+The composite of this with the original chain map is now
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+    && \downarrow && \downarrow && \downarrow^{0} && \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+This is the corresponding [[resolution]] of the original chain map. And _this_ indeed has a [[null homotopy]]: 
+
+$$
+  \array{
+     \cdots 
+    &\to& 0 &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z}
+    \\
+      && 
+    \downarrow 
+     &\swarrow& 
+    \downarrow 
+      &\swarrow_{-id}& 
+    \downarrow^{0} 
+      &\swarrow_{\mathrlap{id}}& 
+    \downarrow^{\mathrlap{mod\,2}}
+    \\
+    \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\stackrel{mod\,2}{\to}& \mathbb{Z}_2
+  }
+  \,.
+$$
+
+Indeed, for this to happen it is sufficient that the [[resolution]] is by a degreewise [[projective object|projective]] complex. This is the statement of _[this lemma](projective+resolution#MapsProjectiveIntoExactAreNullHomotopic)_ at _[[projective resolution]]_.
+
+
+=--
+
 
 ## References
 
