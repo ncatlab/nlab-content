@@ -20,6 +20,10 @@
 
 In the context of [[homological algebra]], a _null homotopy_ is a [[chain homotopy]] from (or to) the [[zero map]].
 
+## Related concepts
+
+* [[homotopy category of chain complexes]]
+
 ## References
 
 Section 1.4 of 
