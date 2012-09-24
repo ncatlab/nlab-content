@@ -1,4 +1,6 @@
-I am a postdoc at the [University of California, San Diego](http://www.math.ucsd.edu).  Here is my [web page](http://www.math.ucsd.edu/~mshulman/).  I am interested in (higher) category theory and its applications to the rest of mathematics, particularly homotopy theory.  I also tend to be a partisan of higher-categorical structures other than $n$-categories (such as [[double categories]], [[multicategories]], [[proarrow equipments]], [[F-categories]], and so on), which sometimes seem to get neglected.
+I am currently a member of the [Institute for Advanced Study](http://www.math.ias.edu), participating in the special year on [univalent foundations](http://www.math.ias.edu/sp/univalent) and [[homotopy type theory]].  Starting in Fall 2013, I will be an Assistant Professor at the [University of San Diego](http://www.sandiego.edu).  Here is my [web page](http://www.math.ias.edu/~mshulman/).
+
+Research-wise, I am interested in (higher) category theory and its applications to the rest of mathematics, particularly homotopy theory.  I also tend to be a partisan of higher-categorical structures other than $n$-categories (such as [[double categories]], [[multicategories]], [[proarrow equipments]], [[F-categories]], and so on), which sometimes seem to get neglected.
 
 [Personal area](http://ncatlab.org/michaelshulman/show/HomePage)
 
