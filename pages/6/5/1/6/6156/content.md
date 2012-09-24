@@ -2,7 +2,7 @@ Barr proved an embedding theorem for [[regular categories]] and a strengthening 
 
 Barr's embedding theorem for [[regular categories]] says that every small regular category can be embedded into a category of small presheaves. It has been proved
 
-* [[M. Barr]], _Exact categories_, Lecture Notes in Math. __236__, (Springer, Berlin, 1971), 1-119.
+* [[Michael Barr|M. Barr]], _Exact categories_, Lecture Notes in Math. __236__, (Springer, Berlin, 1971), 1-119.
 
 and, in a different way, in 
 
