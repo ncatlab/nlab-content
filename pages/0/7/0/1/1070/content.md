@@ -69,7 +69,7 @@ $K(C)$ with respect to these weak equivalences.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is a special case of the construction of a [[homotopy category]] of a [[triangulated category]] with respect to a [[null system]].
@@ -86,6 +86,20 @@ with the [[mapping cone]] $cone(f) \in N(C)$.
 The derived category is still naturally a [[triangulated category]] itself. 
 
 =--
+
+## Properties
+
+### In terms of injective and projective resolutions
+
+In the case that the underlying [[abelian category]] $\mathcal{A}$ has [enough injectives](injective%20object#EnoughInjectives) or [enough projectives](projective%20object#EnoughInjectives), the [[hom sets]] in the derived category may equivalently be obtained as [[homotopy]]-classes of [[chain maps]] from [[projective resolutions]] to [[injective resolutions]] of chain complexes. 
+
+In view of the existence of the injective and projective [[model structure on chain complexes]] this is a special case of the general fact that [[homotopy categories]] of [[model categories]] may be obtained by forming homotopy classes of maps in the model category from  [[cofibrant resolutions]] to [[fibrant resolutions]]. But here we spell out an direct discussion of this fact for chain complexes.
+
+(...)
+
+For instance ([Schapira prop. 7.3.1](#Schapira)).
+
+(...)
 
 ## Related concepts
 
