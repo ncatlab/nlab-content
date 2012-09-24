@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
@@ -123,7 +123,9 @@ $$Fin_+ \to Set$$
 
 We call a product-preserving functor $Fin_+ \to Set$ an **unbiased Boolean algebra**. The idea here is that the usual concrete way of viewing Boolean algebras is inherently biased towards sets of cardinality $2^n$. Passing to the Cauchy completion removes that bias. 
 
+
 ## $k$-valued Post algebras 
+{#PostAlg}
 
 Alternatively, we could apply the previous proposition in reverse and view Boolean algebras as a concrete category in an entirely different way. For example, the Lawvere theory given by the category of finite sets of cardinality $3^n$ has the same Cauchy completion $Fin_+$. Therefore, the category of product-preserving functors 
 
@@ -142,11 +144,13 @@ $$BoolAlg \simeq PostAlg_k \to M_k\text{-}Set$$
 For each $k \geq 3$, the forgetful functor from $BoolAlg \to$ $M_k$-$Set$ realizes $BoolAlg$ as a _full_ subcategory of $M_k$-Set. 
 =-- 
 
+
 [[!redirects Boolean algebra]]
 [[!redirects Boolean algebras]]
-[[!redirects Boolean lattice]]
-[[!redirects Boolean lattices]]
 [[!redirects boolean algebra]]
 [[!redirects boolean algebras]]
+
+[[!redirects Boolean lattice]]
+[[!redirects Boolean lattices]]
 [[!redirects boolean lattice]]
 [[!redirects boolean lattices]]
