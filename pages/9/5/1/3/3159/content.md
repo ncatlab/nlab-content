@@ -16,11 +16,56 @@
 
 ## Definition
 
+### General
+
 Let $C$ be a [[monoidal category]], and $Alg(C)$ the [[category]] of [[monoids]] in $C$ and for $A \in Alg(C)$ let $A$[[Mod]]$(C)$ be the category of $A$-[[modules]] in $C$.
 
 There is the evident [[forgetful functor]] $U : A Mod(C) \to C$ that sends each module $(N,\rho)$ to its underlying object $N \in C$. 
 
-The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]. The modules in the image of this functor are _free modules_ . 
++-- {: .num_defn }
+###### Definition
+
+The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]. The modules in the image of this functor are _free modules_.
+
+=-- 
+
+### Over rings
+
+Let $R$ be a ring. We discuss free [[modules]] over $R$.
+
++-- {: .num_prop }
+###### Proposition
+
+For $R \in $ [[Ring]] a [[ring]] and $S \in $ [[Set]], the free $R$-module on $S$ is isomorphic to the ${\vert S\vert}$-fold [[direct sum]] of $R$ with itself
+
+$$
+  R^{(S)}\simeq \oplus_{s \in S} R
+  \,.
+$$
+
+=--
+
+## Properties
+
+### Submodules of free modules
+
+Let $R$ be a [[ring]].
+
++-- {: .num_prop }
+###### Proposition
+
+Assuming the [[axiom of choice]], the following are equivalent
+
+1. every [[submodule]] of a free $R$-module is itself free;
+
+1. every [[ideal]] in $R$ is a free $R$-module;
+
+1. $R$ is a [[principal ideal domain]].
+
+=--
+
+A proof is in ([Rotman, pages 650-651](#Rotman)).
+
 
 ## Related concepts
 
@@ -40,6 +85,11 @@ The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]
 * flat object, [[flat resolution]]
 
 
+## References
+
+* Rotman _Advanced Modern Algebra_, pp. 650--651
+ {#Rotman}
 
 
 [[!redirects free modules]]
+
