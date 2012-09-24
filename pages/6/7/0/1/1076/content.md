@@ -21,11 +21,35 @@
 
 ## Idea
 
-A _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way, and in fact often from [[stable model categories]].
+A _triangulated category_ is a [[category]] equipped with a notion of [[suspension objects]]/[[loop space objects]] for all of its objects such that in terms of these every [[morphism]] fits into a sequence that behaves like a [[homotopy fiber sequence]].
 
-Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow of the corresponding properties of [[stable (infinity,1)-category|stable (infinity,1)-categories]], which are more natural and correct.  Triangulated categories are sometimes sufficient, and can be easier to work with since they are only 1-categorical rather than higher-categorical, but often one needs more information than is present in the triangulated category, usually relating to homotopy limits and colimits.  An intermediate notion, which contains a good deal of this information, is a [[stable derivator]] [[derivator]].
+More precisely, a _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (∞,1)-category|homotopy category]] of a [[stable (∞,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way, and in fact often from [[stable model categories]]. Notice that the definition of _[[stable (∞,1)-category]]_ is very simple and much simpler than the definition of triangulated category, def. \ref{TriangulatedCategory} below.
+
+Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow (the _[[decategorification]]_) of the corresponding properties of [[stable (∞,1)-categories]].  
+
+A central class of examples of triangulated categories are the [[derived categories]] $D(\mathcal{A})$ of [[abelian categories]] $\mathcal{A}$. These are the [[homotopy category of an (∞,1)-category|homotopy categories]] of the [[(∞,1)-categories of chain complexes]] in $\mathcal{A}$.
+
+Triangulated categories are sufficient for some purposes, and can be easier to work with than the [[stable (∞,1)-categories]] that they come from, but -- as with every [[quotient]] construction -- often one needs more information than is present in the triangulated category, especially  concernign the computatin of [[homotopy limits]] and [[homotopy colimits]]: the ordinary [[limits]] and [[colimits]] and other [[universal constructions]] in a triangulated category generally have no useful interpretation.
+
+Accordingly, there is a series on notions that refine that of a triangulated category, approximating more and more of the full structure of a [[stable (∞,1)-category]]:
+
+* triangulated category
+
+* [[pretriangulated dg-category]]
+
+* [[enhanced triangulated category]]
+
+* [[stable derivator]]
+
+* [[stable (∞,1)-category]]
+
 
 ## Definition
+
+The traditional definition of _triangulated category_ is the following. But see remark \ref{RedundancyInDefinition} below.
+
++-- {: .num_defn #TriangulatedCategory}
+###### Definition
 
 A __triangulated category__ is 
 
@@ -33,7 +57,7 @@ A __triangulated category__ is
 
 * [[category with translation|with (additive) translation]];
 
-* equipped with a collection of [[category with translation|triangles]] called __distinguished triangles__ (dts) 
+* equipped with a collection of [[category with translation|triangles]] called __[[distinguished triangles]]__ (dts) 
 
 * such that the following axioms hold
 
@@ -184,29 +208,43 @@ $$
   }
 $$
 
-+--{: .query}
-[[Mike Shulman|Mike]]: This classical definition is actually redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See J.P. May, _The additivity of traces in triangulated categories_, [pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf).
+=--
+
++-- {: .num_remark #RedundancyInDefinition}
+###### Remark
+
+This classical definition is actually redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See ([May](#May)).
+
 =--
 
 
-## Remarks
 
-* In the context of triangulated categories the translation functor $T : C \to C$ is often called the **suspension functor** and denoted $(-)[1] : X \mapsto X[1]$ (in an algebraic context) or $S$ or $\Sigma$ (in a topological context).  However unlike "translation functor", suspension functor is also the term used when the invertibility is not assumed, cf. [[suspended category]].
++-- {: .num_remark}
+###### Remark
 
-* If $(f,g,h)$ is a distinguished triangle, then $(f,g,-h)$ is not generally distinguished, although it is "exact" (induces [[long exact sequences]] in [[homology]] and [[cohomology]]).  However, $(f,-g,-h)$ *is* always distinguished, since it is isomorphic to $(f,g,h)$:
+In the context of triangulated categories the translation functor $T : C \to C$ is often called the **suspension functor** and denoted $(-)[1] : X \mapsto X[1]$ (in an algebraic context) or $S$ or $\Sigma$ (in a topological context).  However unlike "translation functor", suspension functor is also the term used when the invertibility is not assumed, cf. [[suspended category]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally distinguished, although it is "exact" (induces [[long exact sequences]] in [[homology]] and [[cohomology]]).  However, $(f,-g,-h)$ *is* always distinguished, since it is isomorphic to $(f,g,h)$:
   $$ \array{ X & \xrightarrow{f} & Y & \xrightarrow{g} & Z & \xrightarrow{h} & T X\\
     ^{id}\downarrow && ^{id} \downarrow && ^{-1} \downarrow && \downarrow^{id}\\
     X & \xrightarrow{f} & Y & \xrightarrow{-g} & Z & \xrightarrow{-h} & T X}$$
 
+=--
+
 ## Examples
 
-* The [[homotopy category]] of [[chain complexes]] in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complexes]] and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
+* The [[homotopy category of chain complexes]] $K(\mathcal{A})$ in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the [[suspension of chain complexes]] and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$ in $Ch_\bullet(\mathcal{A})$.
 
-* The [[stable homotopy category]] (the homotopy category of [[spectrum|spectra]]) is a triangulated category.  This is also true for parametrized, equivariant, etc. spectra.
+* The [[stable homotopy category]] (the [[homotopy category of an (∞,1)-category|homotopy category]] of the [[stable (∞,1)-category of spectra]]) is a triangulated category.  This is also true for [[parameterized spectra|parametrized]], [[equivariant spectra|equivariant]], etc. spectra.
 
 * The stable category of a [[Quillen exact category]] is [[suspended category]] as exhibited by [[Bernhard Keller]]. If the exact category is Frobenius, i.e. has enough injectives and enough projective and these two classes coincide, then the suspension of the stable category is in fact invertible, hence the stable category is triangulated. A triangulated category equivalent to a triangulated categories is said to be an [[algebraic triangulated category]]. 
 
-* As mentioned before, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]] is a triangulated category.  Slightly more generally, this applies also to a [[stable derivator]], and slightly less generally, it applies to a [[stable model category]].  This includes both the preceeding examples.
+* As mentioned before, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (∞,1)-category]] is a triangulated category.  Slightly more generally, this applies also to a [[stable derivator]], and slightly less generally, it applies to a [[stable model category]].  This includes both the preceding examples.
 
 * The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization using the [[calculus of fractions]] given by the morphisms $f : X \to Y$ such that there exists distinguished triangles $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the distinguished triangles being the triangles isomorphic to an image of a distinguished triangle under $Q : C \to C/N$.
 
@@ -214,9 +252,9 @@ $$
 
 ## Related concepts 
 
-* [[exact triangle]]
+* [[exact triangle]], [[distinguished triangle]]
 
-* [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
+* [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (∞,1)-category]]
 
 * [[t-structure]]
 
@@ -232,21 +270,32 @@ $$
 
 ## References
 
-* [[Amnon Neeman]], 2001, _Triangulated Categories_ , Princeton University Press.
+Surveys include
 
-* [[M. Kashiwara]], P. Schapira, _[[Categories and Sheaves]]_, section 10.
+* [[Amnon Neeman]], _Triangulated Categories_ , Princeton University Press (2001)
 
-* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_, section 3.
+section 10 of 
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, 
+
+section 3 of
+
+* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_,
 
 * [[Behrang Noohi]], _Lectures on derived and triangulated categories_ ([arXiv](http://arxiv.org/abs/0704.1009)).
 
-* [[Fernando Muro]]'s complementary slides surveying triangulated categories: [htag.pdf](http://personal.us.es/fmuro/htag.pdf).
+* [[Fernando Muro]] ([pdf](http://personal.us.es/fmuro/htag.pdf))
+
+A survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (∞,1)-category]] is in
 
 * [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143)) 
 
-is a survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (infinity,1)-category]].
+Discussion of the redundancy in the traditional definition of triangulated category is in 
 
-* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category)
+* [[Peter May]], _The additivity of traces in triangulated categories_, ([pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf))
+ {#May}
+
+There was also some discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category).
 
 
 [[!redirects triangulated categories]]
