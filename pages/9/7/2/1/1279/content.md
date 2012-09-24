@@ -119,7 +119,7 @@ $$
 
 where $\vec{\sigma}$ is a (possibly empty) [[list]] of sequents and $\tau$ is a single sequent, to indicate that from the validity of the sequents in $\vec{\sigma}$ that of $\tau$ may be inferred, or that $\vec{\sigma}$ may be _rewritten_ to $\tau$.
 
-A **[[derivation]]** or **proof tree** is a compound of rewrite rules, such as
+A **[[deduction|derivation]]** or **proof tree** is a compound of rewrite rules, such as
 
 $$
   \frac{\frac{\sigma_1 \;\; \sigma_2}{\sigma_3} \;\; \sigma_4 }{\sigma_5}
@@ -133,7 +133,7 @@ We will give the rules in several classes.
 
 The **[[identity rule]]** is
   $$
-    \frac{}{\phi \vdash_{\vec{x}\colon \vec{T}} \phi}
+    \frac{}{\alpha \vdash_{\vec{x}\colon \vec{T}} \alpha}
      \,,
   $$
 stating that, in any context $\Gamma$, any proposition in $\Gamma$ follows from itself, always.
@@ -168,54 +168,64 @@ The **[[cut rule]]** is
   $$
 the proposition $\alpha$ has been 'cut'.
 
-The __[[exchange rule]]__ is
+The __[[exchange rules]]__ are
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \alpha, \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \vec{\omega}
     }{
-      \vec{\Phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\Psi}
+      \vec{\phi}, \beta, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \vec{\omega}
     }
-    \,,
+    \,
   $$
-where $\Phi$ is any [[permutation]] of $\phi$ and $\Psi$ is any permutation of $\psi$.  It is enough to state the exchange rule for two special cases: a [[transposition]] of the antecedent $\phi$ and a transposition of the succedent $\psi$; the general case follows because any permutation is a [[composite]] of transpositions.
+and
+  $$
+    \frac{
+      \vec{\phi}, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \alpha, \beta, \vec{\omega}
+    }{
+      \vec{\phi}, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \beta, \alpha, \vec{\omega}
+    }
+    \,;
+  $$
+more generally, we may apply any [[permutation]] of the antecedent and succedent (because every permutation is a [[composite]] of [[transposition]]s).
 
 The __[[weakening rules]]__ are
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
+    \,
   $$
 and
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \vec{\chi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha, \vec{\chi}
     }
     \,;
   $$
-in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to be placed anywhere in the antecedent or succedent).
+more generally, we may insert any sequence of propositions anywhere in the antecedent and succedent.
 
 The __[[contraction rules]]__ are
   $$
     \frac{
-      \vec{\phi}, \chi, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \alpha, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
   $$
 and
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi, \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha, \alpha, \vec{\chi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha, \vec{\chi}
     }
     \,;
   $$
-again, in the absence of the exchange rule, these must be stated in greater generality (with the doubled proposition $\chi$ allowed anywhere in the antecedent or succedent).  However, we do *not* (in the absence of the exchange rule) state the contraction rule in the yet greater generality where the two instances of $\chi$ might not be adjacent.
+in the absence of the exchange rule, it is important that we can remove duplications only one proposition at a time (as shown here) and only if they are adjacent (as shown here).
 =--
 
 Some or all of these rules may be dropped in a [[substructural logic]].  However, even so, the first three rules can generally be proved (except for the identity rule for atomic propositions); see [[cut elimination]].
@@ -227,7 +237,7 @@ The **[[truth]] rule** is
   $$
     \frac{
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \top
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \top, \vec{\chi}
     }
     \,;
   $$
@@ -237,7 +247,7 @@ that is, any sequent is valid if the necessarily true statement is in the succed
   $$
     \frac{
     }{
-      \vec{\phi}, \bot \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \bot, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,;
   $$
@@ -246,29 +256,29 @@ that is, any sequent is valid if the necessarily false statement is in the antec
 The **binary [[conjunction]] rules** are
   $$
     \frac{
-      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \psi \wedge \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \alpha \wedge \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,
   $$
 and
   $$
     \frac{
-      \vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \psi \wedge \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \alpha \wedge \beta \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,
   $$
 on the left and
   $$
     \frac{
-      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi)
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha, \vec{\chi})
         \;\;\;
-      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \omega)
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \beta, \vec{\chi})
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \wedge \omega
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha \wedge \beta, \vec{\chi}
     }
     \,
   $$
@@ -277,29 +287,29 @@ on the right.
 Dually, the **binary [[disjunction]] rules** are
   $$
     \frac{
-      (\vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+      (\vec{\phi}, \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi})
         \;\;\;
-      (\vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+      (\vec{\phi}, \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi})
     }{
-      \vec{\phi}, \psi \vee \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \alpha \vee \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,
   $$
 on the left and
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha, \vec{\chi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \vee \omega
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha \vee \beta, \vec{\chi}
     }
     \,
   $$
 and
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \omega
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \beta, \vec{\chi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \vee \omega
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha \vee \beta, \vec{\chi}
     }
     \,
   $$
@@ -308,18 +318,18 @@ on the right.
 The **[[negation]] rules** are
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha, \vec{\psi}
     }{
-      \vec{\phi}, \neg{\chi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+      \vec{\phi}, \neg{\alpha} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }
     \,
   $$
 and
   $$
     \frac{
-      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \alpha \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \neg{\psi}
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \neg{\alpha}, \vec{\psi}
     }
     \,;
   $$
@@ -328,20 +338,20 @@ in other words, a proposition may be moved to the other side if it is replaced b
 The **[[conditional]] rules** are
   $$
     \frac{
-      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \psi)
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha)
         \;\;\;
-      (\chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+      (\beta \vdash_{\vec{x}\colon \vec{T}} \vec{\psi})
     }{
-      \vec{\phi}, \psi \to \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+      \vec{\phi}, \alpha \to \beta \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }
     \,
   $$
 and
   $$
     \frac{
-      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \omega
+      \vec{\phi}, \alpha \vdash_{\vec{x}\colon \vec{T}} \beta, \vec{\psi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \psi \to \omega
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha \to \beta, \vec{\psi}
     }
     \,.
   $$
@@ -349,20 +359,20 @@ and
 Dually, the **[[relative complement]] rules** are
   $$
     \frac{
-      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \omega
+      \vec{\phi}, \alpha \vdash_{\vec{x}\colon \vec{T}} \beta, \vec{\psi}
     }{
-      \vec{\phi}, \psi \setminus \omega \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \alpha \setminus \beta \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }
     \,
   $$
 and
   $$
     \frac{
-      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \psi)
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha)
         \;\;\;
-      (\chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+      (\beta \vdash_{\vec{x}\colon \vec{T}} \vec{\psi})
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}, \psi \setminus \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha \setminus \beta, \vec{\psi}
     }
     \,.
   $$
@@ -370,9 +380,9 @@ and
 The **[[equality]] rules** are
   $$
     \frac{
-      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \chi[s/y])
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \alpha[s/y])
         \;\;\;
-      (\chi[t/y] \vdash_{\vec{x}\colon \vec{T}} \vec{\psi})
+      (\alpha[t/y] \vdash_{\vec{x}\colon \vec{T}} \vec{\psi})
     }{
       \vec{\phi}, (s = t) \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }
@@ -393,18 +403,18 @@ One could (but rarely does) introduce dual [[apartness]] rules.
 The **[[universal quantification]] rules** are
   $$
     \frac{
-      \vec{\phi}, \psi[s/y] \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \alpha[s/y], \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \forall(y\colon U) \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \forall(y\colon U) \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,,
   $$
-where $s$ is a term of type $U$ in the context $\vec{x}\colon \vec{T}$ and $\psi$ is a proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$, and
+where $s$ is a term of type $U$ in the context $\vec{x}\colon \vec{T}$ and $\alpha$ is a proposition in the [[extended context]] $(\vec{x}\colon \vec{T}, y\colon U)$, and
   $$
     \frac{
-      \vec{\phi}[\hat{y}] \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\psi}[\hat{y}], \chi
+      \vec{\phi}[\hat{y}] \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\psi}[\hat{y}], \alpha, \vec{\chi}[\hat{y}]
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \forall(y\colon U) \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \forall(y\colon U) \alpha, \vec{\chi}
     }
     \,,
   $$
@@ -413,26 +423,26 @@ where $\phi[\hat{y}]$ is the proposition in the context $(\vec{x}\colon \vec{T},
 Dually, the **[[existential quantification]] rules** are
   $$
     \frac{
-      \vec{\phi}[\hat{y}], \psi \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\chi}[\hat{y}]
+      \vec{\phi}[\hat{y}], \alpha, \vec{\psi}[\hat{y}] \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\chi}[\hat{y}]
     }{
-      \vec{\phi}, \exists(y\colon U) \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \exists(y\colon U) \alpha, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,
   $$
 and
   $$
     \frac{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi[s/y]
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \alpha[s/y], \vec{\chi}
     }{
-      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \exists(y\colon U) \chi
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \exists(y\colon U) \alpha, \vec{\chi}
     }
     \,.
   $$
 =--
 
-We have written the rules _additively_, which works best when using (dual)-intuitionistic or (dual)-minimal sequents, but it is also possible to write them in a slightly different _multiplicative_ manner.  This makes a difference if some of the [[structural rules]] are abandoned; [[linear logic]] uses both rules but for different connectives.
+We have written the rules _additively_, which works best when using (dual)-intuitionistic or (dual)-minimal sequents, but it is also possible to write them in a slightly different _multiplicative_ manner.  This makes a difference if some of the [[weakening rule]] and [[contraction rule]] are abandoned; [[linear logic]] uses both rules but for different connectives.  Similarly, we have written the rules to apply as much as possible without the [[exchange rule]], but the remaining asymmetries (in the rules for $\neg$, $\to$, $\setminus$, and $=$) mean that these diverge into left and right operations in [[noncommutative logic]].  (Compare the difference between [[left duals]] and [[right duals]] in a non-[[symmetric monoidal category|symmetric]] [[monoidal category]].)
 
-Gentzen originally did not include $\top$ or $\bot$, but if $\top$ is defined as $\phi \to \phi$ for any atomic $\phi$ and $\bot$ is defined as $\neg{\top}$, then their rules can be proved.  Similarly, he did not use $\setminus$; we may define $\phi \setminus \psi$ to mean $\phi \wedge \neg{\psi}$.  It would also be possible to leave out $\to$, defining $\phi \to \psi$ as $\neg{\phi} \vee \psi$.  With or without these optional operations and rules, the resulting logic is [[classical logic|classical]].
+Gentzen originally did not include $\top$ or $\bot$, but if $\top$ is defined as $\alpha \to \alpha$ for any atomic $\alpha$ and $\bot$ is defined as $\neg{\top}$, then their rules can be proved.  Similarly, he did not use $\setminus$; we may define $\alpha \setminus \beta$ to mean $\alpha \wedge \neg{\beta}$.  It would also be possible to leave out $\to$, defining $\alpha \to \beta$ as $\neg{\alpha} \vee \beta$.  With or without these optional operations and rules, the resulting logic is [[classical logic|classical]].
 
 If we use only those rules that can be stated using intuitionistic sequents, then the result is [[intuitionistic logic]]; this is again true with or without $\top$, $\bot$, or $\setminus$.  However, if we leave out $\to$, then we cannot reconstruct it; the definition of $\to$ using $\neg$ and $\vee$ is not valid intuitionistically.  On the other hand, if we include $\bot$ (and optionally $\top$) but leave out $\neg$ and $\setminus$, then we get intuitionistic logic using all (classical) sequents.  (Conversely, we could get classical logic using only intuitionistic sequents and adding the law of [[excluded middle]] as an axiom.)
 
