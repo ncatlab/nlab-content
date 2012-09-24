@@ -7,8 +7,9 @@
 
 A quantifier is an operation in [[logic]] that moves a statement from one [[context]] to a related context.
 
+## Definitions
 
-## Quantification in first-order logic
+### Quantification in first-order logic
 
 In [[first-order logic]], we have two basic quantifiers, each of which moves a [[predicate]] on one type to a [[proposition]] (a predicate on no types), or more generally moves a predicate on $n + 1$ types to a predicate on $n$ types.
 
@@ -24,7 +25,7 @@ Here, $\Gamma$ is an arbitrary context, and $\Gamma, x\colon T$ is that context 
 From this definition, one can derive rules for the quantifiers in [[sequent calculus]] and [[natural deduction]].
 
 
-## Quantification in first-order logic with equality
+### Quantification in first-order logic with equality
 
 If all of our types have an [[equality predicate]], then we can construct some fancier quantifiers.
 
@@ -39,7 +40,7 @@ We can similarly write down quantifiers to say that $P$ holds for exactly two el
 With these examples, one can see quite readily that quantification is about saying how often a statement is true, that is *quantifying* it.
 
 
-## Lawvere quantifiers: Quantification as adjunction
+### Lawvere quantifiers: Quantification as adjunction
 
 Given two contexts $\Gamma$ and $\Delta$ and an interpretation $f\colon \Gamma \to \Delta$, we obtain an operation $f^*\colon Prop_\Delta \to Prop_\Gamma$ from the propositions in $\Delta$ to the propositions in $\Gamma$.  If this operation has a [[right adjoint]], then this right adjoint is the __[[universal quantifier]]__ along $f$; if it has a [[left adjoint]], then this is the __[[existential quantifier]]__ along $f$.  The ordinary quantifiers in first-order logic are simply special cases of this where $f$ is given by weakening.
 
@@ -54,7 +55,7 @@ When $f$ is the unique function from a set $X$ to the terminal set, $\mathcal{P}
 * $\exists x \in X$ such that $Q(x)$;
 * $\forall x \in X, Q(x).$
 
-## Guarded quantification: quantifying over subtypes
+### Guarded quantification: quantifying over subtypes
 
 Recall that, given a type $T$ and a predicate $Q$ on $T$, the __[[subtype]]__ of $T$ defined by $Q$ is a type $S$ whose elements $x$ are thought of as elements of $T$ such that $Q(x)$ holds.  Many type theories do not include subtypes.  However, we can mimic quantification over subtypes by using so-called 'guarded' quantifiers.
 
@@ -68,9 +69,9 @@ We have already had an example of these on this page, in the discussion of the L
 When the notation for $Q$ makes the type $T$ obvious, and especially when the variable appears only at beginning in this notation, it is quite common to suppress mention of $T$ and write $\forall Q(x), P(x)$ and $\exists Q(x), P(x)$.  This is particularly common in untyped theories where $T$ would be suppressed anyway; for example, this is almost always how one writes guarded quantifiers in [[material set theory]].
 
 
-## Bounded quantification: size issues and predicativity
+### Bounded quantification: size issues and predicativity
 
-When [[type theory]] is used as a [[foundation of mathematics]], we have a freely generated universe of types and can also consider quantification over these.  Similarly, when [[set theory]] is used as a foundation, we have a type of all sets and can consider quantification over this type.  Such quantification is called __unbounded__ and often forbidden in the [[axiom of separation]] (if it can be stated in the language at all), especially in [[predicative mathematics]] but also in some impredicative foundations, such as [[ETCS]].  Even if we allow unbounded quantification, if we wish to refer to large objects using the language of [[proper classes]], this introduces the possibility of quantification over all classes, and this is forbidden even in [[ZFC]] and [[SEAR]] (although it is allowed in Morse--Kelley class theory).
+When [[type theory]] is used as a [[foundation of mathematics]], we have a freely generated [[universe]] of types (see also at _[[type of types]]_) and can also consider quantification over these.  Similarly, when [[set theory]] is used as a foundation, we have a type of all sets and can consider quantification over this type.  Such quantification is called __unbounded__ and often forbidden in the [[axiom of separation]] (if it can be stated in the language at all), especially in [[predicative mathematics]] but also in some impredicative foundations, such as [[ETCS]].  Even if we allow unbounded quantification, if we wish to refer to large objects using the language of [[proper classes]], this introduces the possibility of quantification over all classes, and this is forbidden even in [[ZFC]] and [[SEAR]] (although it is allowed in Morse--Kelley class theory).
 
 In contrast, quantification over variables from *small* types (for a suitable notion of smallness) is called __bounded quantification__.
 
@@ -79,15 +80,25 @@ In the usual formulations of [[material set theory]], there is only one type (th
 In classical mathematics, at least, formulas with unbounded quantifiers can be classified into the [[Lévy hierarchy]], whose bottom level $\Delta_0$ consists of the formulas with only bounded quantifiers.
 
 
-## Internalised quantifiers
+### Internalised quantifiers
 
 ... [[Heyting category]] ...
 
 
-## Categorified quantifiers
+### Categorified quantifiers
 
 ... [[dependent product]] ... [[dependent sum]] ...
 
+
+## Examples
+
+* [[existential quantifier]], [[dependent sum]]
+
+* [[universal quantifier]], [[dependent product]]
+
+## Related concepts
+
+* [[Lévy hierarchy]]
 
 [[!redirects quantifier]]
 [[!redirects quantifiers]]
