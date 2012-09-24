@@ -1,0 +1,70 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Let $R$ be a [[commutative ring]]. The [[category]] of [[associative algebras]] over $R$ is the category
+
+$$
+  Alg_R = Ring^{R/}
+$$
+
+of [[rings]] [[undercategory|under]] $R$. 
+
+The _tensor product of $R$-algebras_ is the [[coproduct]] in $Alg_R$,
+
+$$
+  A \otimes_R B \simeq A \coprod B \in Alg_R
+$$
+
+hence the [[pushout]] in [[Ring]]
+
+$$
+  \array{
+     && R
+     \\
+     & \swarrow && \searrow
+     \\
+     A &&&& B
+     \\
+     & \searrow && \swarrow
+     \\
+     && A \otimes_R B
+  }
+  \,.
+$$
+
+
+Explicitly, the $R$-[[module]] underlying $A \otimes_R B$ is just the [[tensor product of modules]] of the underlying modules. On homogeneous elements $(a,b) \in A \times B \stackrel{\otimes}{\to} A \otimes_R B$ the algebra structure is given by
+
+$$
+  (a_1, b_1) \cdot (a_2, b_2) = (a_1 \cdot a_2, b_1 \cdot b_2)
+  \,.
+$$
+
+## Related concepts
+
+* [[tensor product]]
+
+* [[Hochschild cohomology]]
+
+
+
+[[!redirects tensor products of algebras]]
+
+[[!redirects tensor product of commutative algebras]]
+[[!redirects tensor products of commutative algebras]]
+
