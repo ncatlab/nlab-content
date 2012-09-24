@@ -46,13 +46,13 @@ $$
 the [[quasi-isomorphisms]] of [[chain complexes]] become true [[isomorphisms]]
 and that $D(\mathcal{A})$ is [[universal property|universal]] with respect to this property.
 
-This the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, wich is a way of remembering the [[suspension]] and de-suspension operations on its objects, hence its "[[stable (infinity,1)-category|stability]]".
+Hence the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, wich is a way of remembering the [[suspension]] and de-suspension operations on its objects -- the [[suspension of chain complexes]] -- hence its "[[stable (infinity,1)-category|stability]]".
 
 
 ## Definition 
 
-Let $C$ be an [[abelian category]] and $K(C)$ its 
-[[category of chain complexes]] modulo [[chain homotopy]]. 
+Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ its 
+[[category of chain complexes]] modulo [[chain homotopy]] (the "[[homotopy category of chain complexes]]"). 
 
 Equip $K(C)$ with the structure of a [[homotopical category]]
 by declaring the [[weak equivalences]] to be the
@@ -64,33 +64,86 @@ $H(f) : H(V) \stackrel{\simeq}{\to} H(W)$.
 +-- {: .num_defn}
 ###### Definition
 
-The **derived category** $D(C)$ is the [[homotopy category]] of
-$K(C)$ with respect to these weak equivalences.
+The **derived category** $D(\mathcal{A})$ is the [[homotopy category]] of
+$K(\mathcal{A})$ with respect to these weak equivalences.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
+Analogously, for $K^{+,-,b}(\mathcal{A})$ denoting the [[full subcategory]] on the chain complexes bounded above, bounded below, or bounded, respectively (see at _[[category of chain complexes]]_), one writes
 
-This is a special case of the construction of a [[homotopy category]] of a [[triangulated category]] with respect to a [[null system]].
+$$
+  D^{+,-,b}(\mathcal{A}) \hookrightarrow D(\mathcal{A})
+$$
 
-Let $N(C) \subset K(C)$ be the 
-full subcategory of $K(C)$ on those [[chain complexes]] $V$ whose 
-[[homology]] vanishes, $H(V) = 0$. Then $f : V \to W$ is a
-quasi-isomorphism iff there exists a distinguished triangle
+for the correspponding full subcategory of the derived category.
+
+
+## Equivalent characterizations and constructions
+ {#Properties}
+
+There are various ways to construct or express the derived category more explicitly in terms of various special objects or morphisms in the [[category of chain complexes]].
+
+* _[In terms of localization at a null system](#AsLOcalizationAtNullSystem)_
+
+* _[In terms of resolutions](#InTermsOfResolutions)_.
+
+### In terms of localization at a null system
+ {#AsLOcalizationAtNullSystem}
+
+
+The "[[homotopy category of chain complexes]]" $K(\mathcal{A})$ is already a [[triangulated category]].  The derived category can be obtained as the construction of a [[homotopy category]] of a [[triangulated category]] with respect to a [[null system]].
+
++-- {: .num_defn}
+###### Definition
+
+Let 
+
+$$
+  N(\mathcal{A}) \subset K(\mathcal{A})
+$$ 
+
+and analogously
+
+$$
+  N^{+,-n,b}(\mathcal{A}) \subset K^{+,-,b}(\mathcal{A})
+$$ 
+
+
+be the [[full subcategory]] of $K(C)$ or on $K^{+,-,b}$, respectively, on those [[chain complexes]] $V$ whose  [[chain homology]] vanishes in every degreey, $H_\bullet(V) = 0$. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+
+A [[chain map]] $f_\bullet : V_\bullet \to W_\bullet$ is a 
+[[quasi-isomorphism]] precisely there exists a [[distinguished triangle]] in $K(\mathcal{A})$ of the form
+
 $$
   V \stackrel{f}{\to} W \to cone(f)
 $$
-with the [[mapping cone]] $cone(f) \in N(C)$.
 
-The derived category is still naturally a [[triangulated category]] itself. 
+with the [[mapping cone]] $cone(f) \in N(\mathcal{C})$.
 
 =--
 
-## Properties
- {#Properties}
++-- {: .num_prop}
+###### Proposition
+
+The derived category is equivalently the localization of $K(\mathcal{A})$ at the [[null system]] $N(\mathcal{A})$.
+
+$$
+  D(\mathcal{A}) \simeq K(\mathcal{A})/N(\mathcal{A})
+  \,.
+$$
+
+=--
+
+This perspective is discussed in ([Kashiwara-Schapira, section 13](#KashiwaraSchapira)) and ([Schapira, section 6.2, 72](#Schapira)).
 
 ### In terms of injective and projective resolutions
+ {#InTermsOfResolutions}
 
 In the case that the underlying [[abelian category]] $\mathcal{A}$ has [enough injectives](injective%20object#EnoughInjectives) or [enough projectives](projective%20object#EnoughInjectives), the [[hom sets]] in the derived category may equivalently be obtained as [[homotopy]]-classes of [[chain maps]] from [[projective resolutions]] to [[injective resolutions]] of chain complexes. 
 
@@ -112,6 +165,7 @@ For instance ([Schapira prop. 7.3.1](#Schapira)).
 A systematic discussion from the point of view of [[localization]] and [[homotopy theory]] is in section 13 of 
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+ {#KashiwaraSchapira}
 
 and, similarly, in section 7 of 
 
