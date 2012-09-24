@@ -303,7 +303,7 @@ which completes the [[induction]] step.
 +-- {: .num_lemma #MapsOutOfExactIntoInjectiveAreNullHomotopic}
 ###### Lemma
 
-Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] of cochain complexes in non-negative degree, out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[chain homotopy]] 
+Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] of cochain complexes in non-negative degree, out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[null homotopy]] 
 
 $$
   \eta : 0 \Rightarrow f^\bullet
@@ -372,7 +372,34 @@ Observing that the [[commuting diagram|commutativity]] of this diagram is the ch
 
 =--
 
-The following proposition says that when injectively resolving objects the morphisms between these objects lift to the resolutions, uniquely up to chain homotopy.
++-- {: .num_remark }
+###### Remark
+
+Without the assumption above that $J^\bullet$ is injective, such a null-homotopy indeed need not exist. Basic counterexamples are discussed in the section [Chain homotopies that ought to exist but do not](homotopy+category+of+chain+complexes#ChainHomotopiesThatOughtToExistButDoNot) at _[[homotopy category of chain complexes]]_.
+
+=--
+
+The formally dual statement of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} is the following.
+
++-- {: .num_lemma #MapsProjectiveIntoExactAreNullHomotopic}
+###### Lemma
+
+Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[chain map]] of [[chain complexes]] in non-negative degree, into an [[exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[projective object|projective]] complex $X^\bullet$. Then there is a [[null homotopy]] 
+
+$$
+  \eta : 0 \Rightarrow f_\bullet
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is formally dual to the proof of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}.
+
+=--
+
+The following proposition says that, when injectively resolving objects, the morphisms between these objects lift to the resolutions, uniquely up to chain homotopy.
 
 +-- {: .num_prop #InjectiveResolutionOfCodomainRespectsMorphisms}
 ###### Proposition
