@@ -119,6 +119,15 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 [[!redirects dual object]]
 [[!redirects dual objects]]
 
+[[!redirects left dual object]]
+[[!redirects left dual objects]]
+[[!redirects left dual]]
+[[!redirects left duals]]
+[[!redirects right dual object]]
+[[!redirects right dual objects]]
+[[!redirects right dual]]
+[[!redirects right duals]]
+
 [[!redirects dualizable object]]
 [[!redirects dualizable objects]]
 [[!redirects dualisable object]]
