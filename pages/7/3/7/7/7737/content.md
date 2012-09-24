@@ -30,6 +30,8 @@ Among them are
 
 Maybe one can assign a [[fundamental category]] to a stratified space.
 
+* [[stratification]]
+
 ## References
 
 A notion of purely topologically stratified sets was introduced in
