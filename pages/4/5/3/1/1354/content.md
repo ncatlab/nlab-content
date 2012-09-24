@@ -1,12 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
 
-[[triangulated category|Triangulated categories]] are a bit rough sort of a [[localization]], and lack some naturally expected properties, for example the functoriality of the cones. Therefore, it has been a wish since the 1960s to replace or repair them with a more coherent structure. 
+The notion of an _enhanced triangulated category_ is a refinement of that of _[[triangulated category]]_ which remembers more of the full structure of a [[stable (∞,1)-category]].
 
-Good candidates at present are $A_\infty$-[[A-infinity-category|categories]], $dg$-[[dg-category|categories]] and [[stable (∞,1)-categories]]. In practice, triangulated categories are still used to an extent, so one likes to have both the full structure and the underlying truncation which exists as a triangulated category in all three cases. 
+[[triangulated category|Triangulated categories]] are a somewhat rough sort of a [[localization]], and lack some naturally expected properties, for example the functoriality of the [[mapping cones]]. Therefore, it has been a wish since the 1960s to replace or repair them with a more coherent structure. 
+
+Good candidates at present are $A_\infty$-[[A-infinity-category|categories]], [[dg-categories]] and [[stable (∞,1)-categories]]. In practice, triangulated categories are still used to an extent, so one likes to have both the full structure and the underlying truncation which exists as a triangulated category in all three cases. 
 
 It is known that all 3 approaches give the same result over a field of characteristic zero. The $dg$-enhancement is most documented and studied in genuine applications so far and is the first to be historically understood. 
 
@@ -15,8 +33,17 @@ Triangulated categories may arise as [[homotopy category of an (infinity,1)-cate
 An _enhancement_ of a triangulated category to a
 ([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] may be, in characteristic zero, considered as a way to retain the information in the [[stable (∞,1)-category]]. Therefore in that case, the enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(∞,1)-categories]].
 
+## Related concepts
 
-## Details
+* [[triangulated category]]
+
+* [[pretriangulated dg-category]], **enhanced triangulated category**
+
+* [[stable derivator]]
+
+* [[stable (∞,1)-category]] 
+
+## References
 
 It is well-known that the concept of a [[triangulated category]] is suffering many deficiencies for the purposes of [[homological algebra]], geometry and topology; and even categorical properties like the non-functoriality of the cones.  For that reason, Bondal and Kapranov in
 
