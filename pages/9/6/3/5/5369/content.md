@@ -43,7 +43,7 @@ This is due to ([Tabuada](#Tabuada)).
 +-- {: .un_remark}
 ###### Remark
 
-The definition is entirely analogous to the [[model structure on sSet-categories]]. 
+The definition is entirely analogous to the [[model structure on sSet-categories]].   Both are special cases of the [[model structure on enriched categories]].
 
 =--
 
