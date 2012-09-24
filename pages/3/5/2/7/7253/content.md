@@ -27,6 +27,87 @@ See ([NSS, section 4.3](#NSS)).
 
 =--
 
+## Definition
+
+We spell out three equivalent definitions.
+
+Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]], let $G,K \in Grp(\mathbf{H}$ be two [[∞-groups]] and let $\phi : G \to K$ be a homomorphism, hence $\mathbf{B}\phi : \mathbf{B}G \to \mathbf{B}K$ the morphism in $\mathbf{H}$ between their [[deloopings]]. Write
+
+$$
+  \array{
+    K\sslash G &\to& \mathbf{B}G
+    \\
+    && \downarrow^{\mathrlap{\mathbf{B}\phi}}
+    \\
+    && \mathbf{B}K
+  }
+$$
+
+for the corresponding [[fiber sequence]], with $K \sslash G$ the [[homotopy fiber]] of the given morphism. By the discussion at _[[∞-action]]_ this exhibits the canonical $K$-[[∞-action]] on the [[coset]] object $K\sslash G$.
+
+Let furthermore $P \to X$ be a $K$-[[principal ∞-bundle]] in $\mathbf{H}$. By the discussion there this is modulated essentially uniquely by a [[cocycle]] morphism $k : X \to \mathbf{B}K$ such that there is a [[fiber sequence]]
+
+$$
+  \array{
+    P &\to& X
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}K
+  }
+  \,.
+$$
+
+
+### Reduction of the cocycle
+
+The reduction of the structure of the cocycle $k$ is a diagram
+
+$$
+  \array{
+     X &&\stackrel{\sigma}{\to}&& \mathbf{B}G
+     \\
+     & {}_{\mathllap{k}}\searrow &\swArrow_{\tilde\sigma}& \swarrow
+     \\
+     && \mathbf{B}K
+  }
+$$
+
+in $\mathbf{H}$, hence a morphism 
+
+$$
+  \sigma : k \to \mathbf{B}\phi
+$$
+
+in the [[slice (∞,1)-topos]] $\mathbf{B}_{/\mathbf{B}K}$.
+
+### Section of the associated coset-bundle
+
+By the discussion at [[associated ∞-bundle]] such a diagram is equivalently a section
+
+$$
+  \sigma \in \Gamma_X(P \times_{K} K\sslash G)
+$$
+
+of the [[associated ∞-bundle|associated]] $K \sslash G$ [[fiber ∞-bundle]].
+
+
+### Equivariant map to the coset
+
+The above is the [[categorical semantics]] of what in the [[homotopy type theory]] [[internal language]] of $\mathbf{H}$ is given by the [[syntax]]
+
+$$
+  \vdash (\prod_{x : \mathbf{B}K} P \to K\sslash G) : Type
+  \,.
+$$
+
+See the discussion at _[[∞-action]]_.
+
+This expresses the fact that the reduction of the structure group along $\phi$ is equivalently a $K$-equivariant map $P \to K\sslash G$.
+
+
+
+
 ## Examples
  {#Examples}
 
