@@ -149,11 +149,42 @@ In the case that the underlying [[abelian category]] $\mathcal{A}$ has [enough i
 
 In view of the existence of the injective and projective [[model structure on chain complexes]] this is a special case of the general fact that [[homotopy categories]] of [[model categories]] may be obtained by forming homotopy classes of maps in the model category from  [[cofibrant resolutions]] to [[fibrant resolutions]]. But here we spell out an direct discussion of this fact for chain complexes.
 
-(...)
 
-For instance ([Schapira prop. 7.3.1](#Schapira)).
++-- {: .num_defn}
+###### Definition
 
-(...)
+Write $K^+(\mathcal{I}_{\mathcal{A}}) \hookrightarrow K^+(\mathcal{A})$
+for the [[full subcategory]] of the [[homotopy category of chain complexes]] bounded above on those that are degreewise [[injective objects]].
+
+Dually, let $K^-(\mathcal{P}_{\mathcal{A}}) \hookrightarrow K^-(\mathcal{A})$
+for the [[full subcategory]] of the [[homotopy category of chain complexes]] bounded below on those that are degreewise [[projective objects]].
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+If $\mathcal{A}$ has [enough injectives](http://ncatlab.org/nlab/show/injective%20object#EnoughInjectives) then the canonical functor
+
+$$
+  K^+(\mathcal{I}_{\mathcal{A}}) \to D^+(\mathcal{A})
+$$
+
+is an [[equivalence of categories]].
+
+Dually, if $\mathcal{A}$ has [enough projectives](http://ncatlab.org/nlab/show/projective%20object#EnoughProjectives) then the canonical functor
+
+$$
+  K^-(\mathcal{P}_{\mathcal{A}}) \to D^-(\mathcal{A})
+$$
+
+is an [[equivalence of categories]].
+
+=--
+
+For instance ([Schapira, cor. 7.3.2](#Schapira)).
+
+
 
 ## Related concepts
 
