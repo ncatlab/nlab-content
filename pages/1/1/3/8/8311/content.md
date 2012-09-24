@@ -72,6 +72,8 @@ A [[monoid]] in $(R Mod, \otimes)$ is equivalently an $R$-[[associative algebra|
 
 * [[tensor product of abelian groups]]
 
+* [[tensor product of algebras]]
+
 * [[tensor product of chain complexes]]
 
 ## References
