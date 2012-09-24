@@ -27,13 +27,9 @@ The correctness of this definition (in the sense of matching [[Bourbaki]]\'s def
 
 ### Abstract
 
-If $S$ is a [[set]], let $\beta{S}$ be the set of [[ultrafilters]] on $S$.  This operation $\beta$ extends to a [[functor]] on [[Set]] and even on [[Rel]] as follows:
+If $S$ is a [[set]], let $\beta{S}$ be the set of [[ultrafilters]] on $S$.  This operation $\beta$ extends to a [[functor]] on [[Set]] and even on [[Rel]] as follows:  Given a [[binary relation]] $R\colon X \to Y$ and ultrafilters $\mathcal{U}$ on $X$ and $\mathcal{V}$ on $Y$, we have $\mathcal{U}$ related to $\mathcal{V}$ via $\beta(R)$ iff ...
 
-...
-
-This functor $\beta$ becomes a [[monad]] on $Rel$ and even on $Set$ as follows:
-
-...
+This functor $\beta$ becomes a [[monad]] on $Rel$ and even on $Set$ as follows:  ...
 
 Then a __relational $\beta$-module__ is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$.
 
