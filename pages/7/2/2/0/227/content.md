@@ -190,7 +190,13 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 =--
 
+## Types of rings
 
+* [[integral domain]]
+
+* [[principal ideal domain]]
+
+* many more...
 ## Related concepts
 
 * [[monoid]], [[monoid object]]
