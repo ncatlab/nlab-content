@@ -259,7 +259,7 @@ We can always use the [[model structure on homotopy T-algebras]] to satisfy the 
 
 Notice that in this model category even if $\mathcal{O}(X)$ is fibrant (which it is if $\mathcal{O}X$ is an ordinary algebra), then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathcal{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]). 
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor products of algebras]], and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]). 
 
 This is the case for the tensoring of [[dg-algebra]]s over simplicial sets and leads to [[Teimuraz Pirashvili]]'s formulation of higher order Hochschild homology for ordinary algebras ([Pirashvili](#Pirashvili)). 
 
@@ -1320,7 +1320,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First observe that the [[coproduct]] in $CAlg_k$ is the [[tensor product]] of commutative algebras over $k$
+First observe that the [[coproduct]] in $CAlg_k$ is the 
+[[tensor product of commutative algebras]]  over $k$
 
 $$
   A \coprod B = A \otimes_k B
