@@ -1,6 +1,15 @@
+
+
+This entry is about the text
+
+* [[Alexander Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ ([numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short))
+
+
+
 #Contents#
 * table of contents
 {:toc}
+
 
 
 ##The name
