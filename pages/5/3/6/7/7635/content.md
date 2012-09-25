@@ -1,3 +1,4 @@
+[[!redirects R. A. G. Seely]]
 
 
 * [webpage](http://www.math.mcgill.ca/rags/)
