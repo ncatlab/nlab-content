@@ -35,6 +35,10 @@ Often this is considered (only) for $n = 3$, which is the case pertaining to rig
 
 ## References
 
+A general introduction is in section 1.1d of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics]]_
+
 A discussion from the more general perspective of [[Hamiltonian dynamics on Lie groups]] is in section 4.4 of 
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ 
@@ -54,3 +58,6 @@ References from the point of view of [[Geometric Algebra]] include
 * [[David Hestenes]], _Rotational dynamics with geometric algebra_ ([web](http://adsabs.harvard.edu/full/1983CeMec..30..133H))
 
 * Terje Vold, _An introduction to geometric algebra with an application to rigid body mechanics_ ([pdf](http://www.helsinki.fi/kemia/fysikaalinen/opetus/matnum/Lectures/2009/Vold_1.pdf))
+
+[[!redirects rigid body]] 
+[[!redirects rigid bodies]] 
