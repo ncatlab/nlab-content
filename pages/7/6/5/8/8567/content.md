@@ -36,4 +36,11 @@ In general the set of geometric points of a scheme is different from the set of 
 
 * [[generalized element]]
 
+
+##References
+
+* [[EGA]]
+
+* [[SGA]]
+
 [[!redirects geometric points]]
