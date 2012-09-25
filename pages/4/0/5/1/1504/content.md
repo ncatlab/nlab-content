@@ -380,13 +380,32 @@ For the moment see _[[WZW-type superstring field theory]]_ .
 
 ## References
 
+### General
+
+* Leonardo Rastelli, _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
+
+A textbook-like account is in
+
+* W. Siegel, _Introduction to string field theory_ ([arXiv:hep-th/0107094](http://arxiv.org/abs/hep-th/0107094))
+
+
 ### Bosonic string field theory
+ {#ReferencesBosonicSFT}
+
+
+#### Open SFT
+ {#ReferencesBosonocOSFT}
 
 Original articles are
 
 * [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986)
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
+
+#### Closed SFT
+ {#ReferencesBosonicCSFT}
+
+The fundamental work of Zwiebach on closed SFT is summed up in
 
 * [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
   {#Zwiebach}
@@ -395,15 +414,21 @@ Brief reviews include
 
 * [[Barton Zwiebach]], _Closed String Field Theory: An Introduction_ ([arXiv:hep-th/9305026](http://arxiv.org/abs/hep-th/9305026))
 
-* Leonardo Rastelli, _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
 
-A textbook-like account is in
+Discussion of the expected closed string tachyon [[vacuum]] is in 
 
-* W. Siegel, _Introduction to string field theory_ ([arXiv:hep-th/0107094](http://arxiv.org/abs/hep-th/0107094))
+* Haitang Yang, [[Barton Zwiebach]], _A Closed String Tachyon Vacuum ?_, JHEP 0509:054,2005 ([arXiv:hep-th/0506077](http://arxiv.org/abs/hep-th/0506077))
 
-Further developments are in
+* [[Nicolas Moeller]], Haitang Yang, _The nonperturbative closed string tachyon vacuum to high level_ ([arXiv:hep-th/0609208](http://arxiv.org/abs/hep-th/0609208))
 
-* [[Ashoke Sen]], [[Barton Zwiebach]], _Quantum Background Independence of Closed String Field Theory_ ([arXiv:hep-th/9311009](http://arxiv.org/abs/hep-th/9311009))
+* [[Nicolas Moeller]], _A tachyon lump in closed string field theory_ ([arXiv:0804.0697](http://arxiv.org/abs/0804.0697))
+
+and further detailed analysis is in 
+
+* [[Nicolas Moeller]], _Closed Bosonic String Field Theory at Quintic Order: Five-Tachyon Contact Term and Dilaton Theorem_, JHEP 0703:043,2007 ([arXiv:hep-th/0609209](http://arxiv.org/abs/hep-th/0609209))
+
+* [[Nicolas Moeller]], _Closed Bosonic String Field Theory at Quintic Order II: Marginal Deformations and Effective Potential_, JHEP 0709:118,2007 ([arXiv:0705.2102](http://arxiv.org/abs/0705.2102))
+
 
 ### Superstring field theory
 
@@ -491,6 +516,7 @@ References discussing independence of string field theories on the [[CFT]] ([[si
  {#ReferencesBackgroundIndependenceForClosed}
 
 * [[Ashoke Sen]], [[Barton Zwiebach]], _Quantum Background Independence of Closed String Field Theory_ ([arXiv:hep-th/9311009](http://arxiv.org/abs/hep-th/9311009))
+
 
 * [[Ashoke Sen]], [[Barton Zwiebach]], _Background Independent Algebraic Structures in Closed String Field Theory_ ([arXiv:hep-th/9408053](http://arxiv.org/abs/hep-th/9408053))
 
