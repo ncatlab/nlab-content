@@ -1,0 +1,12 @@
+
+
+## Idea
+
+The _Yang-Mills equations_ are the [[equations of motion]]/[[Euler-Lagrange equations]] of [[Yang-Mills theory]]. They generalize [[Maxwell's equations]].
+
+## Related concepts
+
+* [[Yang-Mills instanton]]
+
+[[!redirects Yang-Mills equations]]
+
