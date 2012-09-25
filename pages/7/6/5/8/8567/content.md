@@ -30,17 +30,20 @@ In general the set of geometric points of a scheme is different from the set of 
 
 ## Related concepts
 
-* [[geometric fiber]]
+
 
 * [[étale fundamental group]]
 
 * [[generalized element]]
 
+* [[geometric fiber]]
+
+* [[section conjecture]]
 
 ##References
 
 * [[EGA]]
 
-* [[SGA]]
+* [[SGA1]]
 
 [[!redirects geometric points]]
