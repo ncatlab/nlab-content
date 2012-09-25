@@ -176,7 +176,7 @@ This means precisely that $Q N \to N$ is an [[cofibrant resolution]] with respec
 +-- {: .num_prop #EnoughIsEnough}
 ###### Proposition
 
-If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjectives}, then every object has a projective resolution.
+If $\mathcal{A}$ has _enough projectives_ in the sense of def. \ref{EnoughProjectives}, then every object has a projective resolution.
 
 =--
 
@@ -207,7 +207,7 @@ See also _[[internally projective object]]_ and _[[COSHEP]]_.
 ### Existence of enough projectives
  {#ExistenceOfEnoughProjectives}
 
-We list examples of classes of categories that have enough projective, according to prop. \ref{EnoughProjectives}.
+We list examples of classes of categories that have enough projective, according to def. \ref{EnoughProjectives}.
 
 +-- {: .num_prop #ModHasEnoughProjectives}
 ###### Proposition
@@ -283,6 +283,24 @@ which sends the unit element $1 \in R_{n}$ of the $n$-labeled copy of $R$ to the
 This is clearly a [[surjection]] and by lemma \ref{FreeModulesAreProjective} it is a surjection out of a projective object. 
 
 =--
+
+
+A slightly subtle point is that there is no guarantee that the free module $F U(M)$ is actually projective, unless one assumes some form of the [[axiom of choice]]. Since the axiom of choice is not available in all [[toposes]], one cannot use this procedure in general to construct, say, projective resolutions of [[abelian sheaves]], hence in the abelian category $Ab(E)$ of abelian [[group objects]] in a general [[Grothendieck topos]] $E$ (even though one can construct 
+[[free resolutions]]), such as needed in general in [[abelian sheaf cohomology]]. 
+
+There are however weak forms of the axiom of choice that hold in many toposes, such as the [[presentation axiom]], aka _[[COSHEP]]_. We have the following result: 
+
++-- {: .num_prop} 
+###### Proposition 
+
+Let $E$ be a [[W-pretopos]] that satisfies [[COSHEP]]. 
+Then $Ab(E)$ has enough projectives.
+
+=-- 
+
+The idea of proof is that the underlying object of an abelian group $A$ in $E$ admits an [[epimorphism]] from a projective object $X \to U(A)$ in $E$, and then the corresponding $F(X) \to A$ is an epimorphism out of a projective in $Ab(E)$. 
+
+
 
 ## Related concepts
 
