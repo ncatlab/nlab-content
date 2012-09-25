@@ -30,6 +30,173 @@ naturally.  The rightward map here is often called __[[currying]]__, especially 
 Every closed category may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is a special case of a [[hom-object]].
 
 ## Examples
+ {#Examples}
+
+### In a sheaf topos or $(\infty,1)$-sheaf $(\infty,1)$-topos
+ {#InASheafTopos}
+
+
+Let $C$ be a [[site]]. Let $\mathbf{H} = Sh(C)$ be the [[sheaf topos]]
+over $C$ or in fact the [[(∞,1)-sheaf (∞,1)-topos]].
+
++-- {: .num_prop}
+###### Proposition
+
+The sheaf topos $\mathbf{H}$ is a [[cartesian closed category]] / [[cartesian closed (∞,1)-category]]. In fact it is a [[locally cartesian closed category]] / [[locally cartesian closed (∞,1)-category]].
+
+=--
+
+Hence the internal hom exist.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X, Y \in \mathbf{H}$ two [[objects]], the internal hom-object
+
+$$
+  [X,Y] \in \mathbf{H}
+$$
+
+is the [[sheaf]]/[[(∞,1)-sheaf]] given by the assignsment
+
+$$
+  [X,Y] : U \mapsto \mathbf{H}(U \times X, Y)
+  \,,
+$$
+
+for all objects $U \in C$ which on the right we regard under the [[Yoneda embedding]]/[[(∞,1)-Yoneda lemma|∞-Yoneda embedding]] $U \in C \stackrel{Yoneda}{\hookrightarrow} \mathbf{H}$.
+
+Here
+
+* $U \times X \in \mathbf{H}$ is the [[cartesian product]] if $U$ with $X$
+
+* $\mathbf{H}(-,-)$ is the [[hom set]]-[[functor]] / [[derived hom-space|hom space]]-[[(∞,1)-functor]] of $\mathbf{H}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the moment see at _[[closed monoidal structure on presheaves]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the ([[homotopy type theory|homotopy]]-)[[type theory]] [[syntax]] of the [[internal language]] of $\mathbf{H}$ the internal hom $[X, Y] \in \mathbf{H}$ is the [[categorical semantics]] of the [[function type]]
+
+$$
+  \vdash (X \to Y) : Type
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CompositionOfInternalFunctionsInSheafTopos}
+###### Proposition
+
+For $X, Y, Z \in \mathbf{H}$ three [[objects]] of $\mathbf{H}$, the canonical [[composition]] [[morphism]]
+
+$$
+  \circ_{X,Y,Z} : 
+  [X, Y] \times [Y, Z] \to [X, Z]
+$$
+
+is given by the morphism of [[presheaves]]/[[(∞,1)-presheaves]] whose component over $U \in C$ is the morphism of [[sets]]/[[∞-groupoids]]
+
+$$
+  \circ_{X,Y,Z}(U)
+  : 
+  \mathbf{H}(U \times X, Y)
+  \times
+  \mathbf{H}(U \times Y, Z)
+  \to 
+  \mathbf{H}(U \times X, Z)
+$$
+
+which sends a pair $(f : U \times X \to Y, g : U \times Y \to Z)$ to the composite
+
+$$
+  \circ_{X,Y,Z}(U)(f,g)
+  = 
+  U \times X 
+  \stackrel{(\Delta_U, id_X)}{\to}
+  U \times U \times X
+  \stackrel{(id_U, f)}{\to}
+  U \times Y 
+  \stackrel{g}{\to}
+  Z
+  \,,
+$$
+
+where $\Delta_U : U \to U \times U$ is the [[diagonal]] morphism on $U$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Intuitively this says that the composite of a $U$-parameterized family of maps $\{f(u) :  X \to Y| u \in U\}$ with a $U$-parameterized family of maps ${g(u) : Y \to Z| u \in U}$ is the $U$-family given by the parameter-wise composite $\{g(u)\circ f(u) | u \in U\}$.
+
+=--
+
++-- {: .num_example #InternalAutomorphismGroup}
+###### Example
+
+The internal [[automorphism group]]/[[automorphism ∞-group]] of an [[object]] $X \in \mathbf{H}$ is the [[subobject]]
+
+$$
+  \mathbf{Aut}(X) \hookrightarrow [X,X]
+$$
+
+of the internal hom which is maximal subject to the property that the composition of prop. \ref{CompositionOfInternalFunctionsInSheafTopos} becomes invertible.
+
+The ([[homotopy type theory|homotopy]]-)[[type theory]] [[syntax]] for this is given by the [[type]] of [[equivalences in homotopy type theory]]
+
+$$
+  \vdash (X \stackrel{\simeq}{\to} X) : Type
+  \,.
+$$
+
+=--
+
+
+
+### For smooth spaces and smooth $\infty$-groupoids
+
+Consider the [[site]] $C = $ [[SmthMfd]] of [[smooth manifolds]] (and the [[open cover]] [[coverage]]) or equivalently over the [[dense subsite]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between these.
+
+
+The [[sheaf topos]]/[[(∞,1)-sheaf (∞,1)-topos]] $\mathbf{H} = Sh(C)$ is that of [[smooth spaces]]/[[smooth ∞-groupoids]]. So the discussion of internal homs here is a special case of the above discussion _[In a sheaf topos](#InASheafTopos)_.
+
+
++-- {: .num_example}
+###### Example
+
+For $X , Y \in SmthMfd \hookrightarrow \mathbf{H}$ two [[smooth manifolds]], the [[internal hom]] $[X,Y] \in \mathbf{H}$ is the [[mapping space]] between them regarded as a [[diffeological space]].
+
+See at _[[manifold structure of mapping spaces]]_ for when this internal hom is [[representable functor|representable]] again by a [[smooth manifold]].
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For $X \in SmthMfd \hookrightarrow \mathbf{H}$ the internal automorphism group, example \ref{InternalAutomorphismGroup}, of $X$ is the [[diffeomorphism group]] of $X$, regarded as a [[diffeological space|diffeological]] group
+
+$$
+  \mathbf{Aut}(X) = \mathbf{Diff}(X)
+  \,.
+$$
+
+=--
+
+
+
 
 ### For chain complexes
 
@@ -57,18 +224,6 @@ This definition of morphism recovers the most specific notion of [[isomorphism]]
 But the internal hom is the Banach space of *all* bounded linear maps:
 $$ hom_Ban(V,W) = \{ f\colon Lin(V,W) \;|\; {\|f\|} \lt \infty \} .$$
 This is a Banach space and makes $Ban$ into a [[closed category]].
-
-### In a sheaf topos
-
-see _[[closed monoidal structure on presheaves]]_
-
-
-### For smooth spaces
-
-See
-
-* [[manifold structure of mapping spaces]].
-
 
 ## Related concepts
 
