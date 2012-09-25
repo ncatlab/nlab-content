@@ -13,7 +13,7 @@ $$D(E)(R):=\{x\in X(R)|f\in E, \text{the} f(x) \text{generate the unit ideal of}
 
 (The ''unit ideal of $R$'' is just $R$ itself.) For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
 
-$$u^{-1}(Z)(U):=\{y\in Y(R)|u(Y)\in Z(R)\}$$
+$$u^{-1}(Z)(R):=\{y\in Y(R)|u(y)\in Z(R)\}$$
 
 A subfunctor $Y\subseteq X$ is called _open subfunctor_ resp. _closed subfunctor_ if for every transformation $u:T\to X$ we have $u^{-1}(Y)$ is of the form $V(E)$ resp. $D(E)$.
 
