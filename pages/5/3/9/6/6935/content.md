@@ -63,7 +63,7 @@ The categorical interpretation of [[induction]], hence of the _dependent elimina
 
 Let $\mathcal{C}$ be the ambient [[category]].
 
-1. **introduction rule** 
+1. **[[term introduction rule]]** 
 
    The interpretation of inductive term introduction is by an [[endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ and an [[algebra over an endofunctor]], exhibited by a [[morphism]] in $\mathcal{C}$ of the form
 
@@ -73,7 +73,7 @@ Let $\mathcal{C}$ be the ambient [[category]].
    $$
 
 
-1. **elimination rule** 
+1. **[[term elimination rule]]** 
 
    The interpretation of the dependent elimination rule says that given a [[display map]] $B \to W$, where $B$ is given an $F$-[[algebra over an endofunctor|algebra structure]] and the display map is an $F$-algebra [[homomorphism]], the dependent eliminator is interpreted as a specified [[section]] $\sigma : W \to B \in \mathcal{C}_{/W}$, hence as a [[diagram]]
 
@@ -89,7 +89,7 @@ Let $\mathcal{C}$ be the ambient [[category]].
 
    in $\mathcal{C}$.
 
-1. **computation rule** 
+1. **[[computation rule]]** 
 
    The interpretation of the dependent computation rules is that the section $\sigma$ from above is required to be an [[algebra for an endofunctor|algebra]] [[homomorphism]].
 
@@ -100,7 +100,7 @@ Let $\mathcal{C}$ be the ambient [[category]].
 
 The categorical interpretation of [[recursion]], hence of the absolute elimination rules from [above](#RecursionRules) in a suitable [[category]] $\mathcal{C}$ is the following
 
-1. **introduction rule** 
+1. **[[term introduction rule]]** 
 
    The interpretation of inductive term introduction is by an [[endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ and an [[algebra over an endofunctor]], exhibited by a [[morphism]] in $\mathcal{C}$ of the form
 
@@ -109,11 +109,11 @@ The categorical interpretation of [[recursion]], hence of the absolute eliminati
      \,.
    $$
 
-1. **elimination rule**
+1. **[[term elimination rule]]**
 
    The interpretation of the absolute elimination rule is that for $A$ any other $F$-[[algebra of an endofunctor|algebra]], there is a morphism $W \to A$ in $\mathcal{C}$.
 
-1. **computation rule**
+1. **[[computation rule]]**
 
    The interpretation of the absolute computation rule says that the morphism $W \to A$ from above is an algebra [[homomorphism]] and is unique as such.
 
@@ -193,7 +193,7 @@ of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is
 
 The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as follows.
 
-1. **introduction rule**
+1. **[[term introduction rule]]**
 
    $$
      \frac{}{0 \in \mathbb{N}}
@@ -201,7 +201,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as fo
      \frac{n \in \mathbb{N}}{s(n) \in \mathbb{N}}
    $$
 
-1. **elimination rule**
+1. **[[term elimination rule]]**
 
    $$
      \frac{
@@ -221,7 +221,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as fo
 
    (check, this probably still has syntax errors...)
    
-1. **computation rule**
+1. **[[computation rule]]**
 
    (...)
 
