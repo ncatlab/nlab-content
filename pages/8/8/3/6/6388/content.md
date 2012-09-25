@@ -30,6 +30,10 @@ What are called _Einstein's equations_ are the [[equations of motion]] of gravit
 
 ## References
 
+A general discssion is for instance in section 11 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
 A discussion of the vacuum Einstein equations (only gravity, no other fields) in terms of [[synthetic differential geometry]] is in
 
 * [[Gonzalo Reyes]], _A derivation of Einstein's vacuum field equations_ ([pdf](http://marieetgonzalo.files.wordpress.com/2009/12/a-derivation-of-einsteins-vacuum-field-equations1.pdf))
