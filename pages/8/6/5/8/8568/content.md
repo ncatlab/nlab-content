@@ -30,7 +30,7 @@ Let $X$ be a [[scheme]] over some base field $k$.  Fix an [[algebraic closure]] 
 +-- {: .num_defn }
 ###### Definition
 
-For a finite [[étale cover]], $E\to X$,  the **geometric fibre** over the [[geometric point]] $x$ is the [[pullback]] 
+For a morphism, $p: E\to X$,  the **geometric fibre** over the [[geometric point]] $x$ is the [[pullback]] 
 
 $$
   E_x \coloneqq E \times_X Spec (\overline{k})
@@ -38,6 +38,22 @@ $$
 $$
 
 =--
+
+##Example and application
+
+
+
+An important case is where $p$ is a finite [[étale cover]], and then the fibre is just a finite set.
+
+##Remark
+
+In EGA, the case is also considered in which the field is replaced by a local ring, (see EGA p. 112), in which case the word 'geometric' is dropped. (This needs checking.)
+
+##References
+
+* [EGA](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1960__4_/PMIHES_1960__4__5_0/PMIHES_1960__4__5_0.pdf) I 3.4.5, p. 112.
+
+
 
 [[!redirects geometric fibrs]]
 [[!redirects geometric fiber]]
