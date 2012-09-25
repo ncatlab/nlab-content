@@ -109,6 +109,8 @@ Much else to be discussed...
 * [[principal bundle]], [[associated bundle]]
 
 * **vector bundle**, [[holomorphic vector bundle]]
+ 
+  * [[connection on a vector bundle]]
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
@@ -119,15 +121,24 @@ Much else to be discussed...
 
 * &#1040;. &#1057;. &#1052;&#1080;&#1097;&#1077;&#1085;&#1082;&#1086;, _&#1042;&#1077;&#1082;&#1090;&#1086;&#1088;&#1085;&#1099;&#1077; &#1088;&#1072;&#1089;&#1089;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103; &#1080; &#1080;&#1093; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103;_ (Russian;  A. S. Mishchenko, Vector bundles and their applications) Nauka, Moscow, 1984. 208 pp.
 
-* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
-
-* [[Raoul Bott]], Loring W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
-
-* Allen Hatcher, _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
-
 * Howard Osborn, _Vector bundles. Vol. 1. Foundations and Stiefel-Whitney classes_, Pure and Appl. Math. __101__, Academic Press 1982. xii+371 pp. [MR85e:55001](http://www.ams.org/mathscinet-getitem?mr=85e:55001)
 
 * Dale Husemoller, _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer GTM 1975 (327 p.), 1994 (353 p.). 
+
+
+
+An exposition with an eye towards [[gauge theory]] is in section 16.1 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+* [[Raoul Bott]], Loring W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
+
+Discussion with an eye towards [[K-theory]] is in
+
+* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
+
+
+* [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 [[!redirects vector bundle]]
