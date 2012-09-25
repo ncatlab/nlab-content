@@ -55,6 +55,9 @@ Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. Ch. IV.&#167;8
 IV4. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Quatri&#232;me partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 32 (1967), 5&#8211;361. Ch.IV.&#167;16&#8211;21. 
 
+EGA is unfinished. The listed volumes I-IV are just a part of the original plan. AG outlines what should be in ch. V,VI,VII, at least and some handwritten notes existed for small part of those. See e.g. these _pre-notes_ for some parts of [EGA V](http://www.jmilne.org/math/Documents/EGA-V.pdf).
+
+[Wikipedia](http://en.wikipedia.org/wiki/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique) lists titles of planned chapters I-XIII.
 
 ##The other series:
 
