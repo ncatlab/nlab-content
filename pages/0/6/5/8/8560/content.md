@@ -1,5 +1,4 @@
-[[!redirects Grothendieck's section conjecture]]
-[[!redirects anabelian section conjecture]]
+
 ##Idea
 
 Let $k$ be a field of characteristic zero with algebraic closure  $\overline{k}$ and absolute Galois group 
@@ -39,3 +38,5 @@ This predicts that the converse statement is true whenever $X$ is a proper hyper
 
 * [[Minhyong Kim]], _[Galois Theory and Diophantine geometry](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf)_
 
+[[!redirects Grothendieck's section conjecture]]
+[[!redirects anabelian section conjecture]]
