@@ -52,7 +52,7 @@ Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 
 
-* [[E. M. Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
+* [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
 
 [[!redirects étale homotopy theory]]
