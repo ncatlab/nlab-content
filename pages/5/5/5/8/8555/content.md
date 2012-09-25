@@ -39,7 +39,7 @@ A class is given one of these labels if it can be defined by a formula which has
 +-- {: .num_remark}
 ###### Remark
 
-The notation "$\sum_\cdot$" here refers to the fact that the [[existential quantifier]] is interpreted as a [[dependent sum]]. Similarly the notation "$\prod_\cdot$" here refers to the fact that the [[universal quantifier]] is interpreted as the [[dependent product]].
+The notation "$\Sigma$" and "$\Pi$" can be explained by the fact that the [[existential quantifier]] is related to a [[dependent sum]], while the [[universal quantifier]] is related to the [[dependent product]].
 
 =--
 
