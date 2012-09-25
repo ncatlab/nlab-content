@@ -48,6 +48,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[Einstein-Maxwell theory]]
 
+* [[Yang-Mills equation]]
+
 * [[standard model of particle physics]]
 
   * [[electromagnetism]]
