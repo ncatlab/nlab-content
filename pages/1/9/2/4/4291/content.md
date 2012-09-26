@@ -59,7 +59,7 @@ The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[equiv
 
 ### In a semi-abelian category
 
-There is a nnabelian analog of split exact sequences in [[semiabelian categories]]. See there.
+There is a nonabelian analog of split exact sequences in [[semiabelian categories]]. See there.
 
 ## Properties
 
@@ -99,6 +99,43 @@ Let $k$ be a [[field]] and denote by $\mathcal{A} \coloneqq k$[[Vect]] the [[cat
 Every [[short exact sequence]] of vector spaces is split.
 
 =--
+
+### Involving injective/projective objects
+ {#InvolvingInjectiveObjects}
+
+
++-- {: .num_lemma }
+###### Lemma
+
+If in a [[short exact sequence]] $0 \to A \to B \to C \to 0$ 
+in an [[abelian category]] the first object $A$ is an [[injective object]] or the last object is a [[projective object]] then it is split.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the first case. The other is formally dual.
+
+By the properties of a [[short exact sequence]] the morphism $A \to B$ here is a [[monomorphism]].
+By definition of [[injective object]], if $A$ is injective then it has the [[right lifting property]] against [[monomorphisms]] and so there is a morphism $q : B \to A$ that makes the following [[diagram]] [[commuting diagram|commute]]:
+
+$$
+  \array{
+     A &\stackrel{id_A}{\to}& A
+     \\
+     \downarrow & \nearrow_{q}
+     \\
+     B
+  }
+  \,.
+$$
+
+Hence $q$ is a [[retract]] as in def. \ref{SplitnessInAbelianCategory}.
+
+
+=--
+
 
 
 ## References
