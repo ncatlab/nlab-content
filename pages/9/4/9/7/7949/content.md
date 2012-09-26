@@ -81,7 +81,7 @@ $$
   }.
 $$
 
-Here all objects now denote [[fibrant object]] representatives of the given objects in $\mathbf{M}$, and the right-hand morphism is the [[fibration]] out of a [[path space object]] for $B$. By the [[factorization lemma]] the composite $\tilde A \to A \times B \to B$ here is a [[fibration]] [[resolution]] of the original $A \stackrel{f}{\to} B$ and $\tilde A \to A \times B$ is a fibration resolution of $A \stackrel{(id_A,f)}{\to} A \times B$. Regarded in the [[slice category]] $\mathbf{M}/(A \times B)$, this now interprets the syntax $(b = f(a))$ as an $(A \times B)$-[[dependent type]].
+Here all objects now denote [[fibrant object]] representatives of the given objects in $\mathbf{H}$, and the right-hand morphism is the [[fibration]] out of a [[path space object]] for $B$. By the [[factorization lemma]] the composite $\tilde A \to A \times B \to B$ here is a [[fibration]] [[resolution]] of the original $A \stackrel{f}{\to} B$ and $\tilde A \to A \times B$ is a fibration resolution of $A \stackrel{(id_A,f)}{\to} A \times B$. Regarded in the [[slice category]] $\mathbf{M}/(A \times B)$, this now interprets the syntax $(b = f(a))$ as an $(A \times B)$-[[dependent type]].
 
 Now the interpretation of the sum $\sum_{a:A}$ is simply that we forget the map to $A$ (or equivalently compose with the projection $A\times B\to B$), regarding $\tilde A$ as an object of $\mathbf{M}/B$.  Of course, this is just a fibration resolution of $f$ itself.
 
