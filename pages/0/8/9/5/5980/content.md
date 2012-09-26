@@ -47,6 +47,14 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* [[element]], [[generalized element]]
+
+* [[dependent term]]
+
+* [[term introduction rule]], [[term elimination rule]]
+
 [[!redirects terms]]
 [[!redirects inhabitant]]
 [[!redirects inhabitants]]
