@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 # Differential forms
 * tic
 {: toc}
@@ -259,6 +270,12 @@ As smooth differential forms are the cochains in de Rham cohomolgy, the theory o
 $$ \int_{\partial{R}} \omega = \int_R \mathrm{d}\omega ,$$
 where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is also called the __codifferential__ as it is dual to $\mathrm{d}$.
 
+
+## Related concepts
+
+* [[integration of differential forms]]
+
+* [[de Rham cohomology]]
 
 ## References
 
