@@ -92,6 +92,8 @@ We discuss the [[categorical semantics]] of equivalences in homotopy type theory
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.) For instance $\mathcal{C}$ could be a [[type-theoretic model category]].
 
+### Of $isEquiv(-)$
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -103,9 +105,16 @@ a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homoto
 +-- {: .proof}
 ###### Proof
 
-Note that for $f\colon A\to B$, the dependent type
-$$b\colon B \vdash hfiber(f,b)\colon Type$$
-is precisely the [[mapping path space]] construction $P f$
+For $f\colon A\to B$, the [[categorical semantics]] of the [[dependent type]]
+
+$$
+  b\colon B 
+   \;\vdash\; 
+  hfiber(f,b)\colon Type
+$$ 
+
+is by the rules for the [[categorical semantics|interpretation]] of [[identity types]] and [[substitution]]
+the [[mapping path space]] construction $P f$, given by the [[pullback]]
 
 $$
   \array{
@@ -142,6 +151,68 @@ But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equiv
 
 
 =--
+
++-- {: .num_remark #InterpretationIfIsEquivAsDependentType}
+###### Remark
+
+In the above we fixed one function $f : A \to X$. But the type $isEquiv$ is actually a [[dependent type]]
+
+$$
+  f : A \to B \vdash isEquiv(f)
+$$
+
+on the [[function type|type of all functions]]. To obtain the [[categorical semantics]] of this general dependent $isEquiv$-construction, first notice that the interpretation of
+
+$f : A \to B,\; a : A,\; b : B \;\vdash\; (f(a) = b)  \colon Type$
+
+is by the rules for interpretation of [[identity types]], [[evaluation]] and [[substitution]] the left vertical morphism in the [[pullback]] [[diagram]]
+
+$$
+  \array{  
+    Q &\to&  B^I
+    \\
+    \downarrow && \downarrow
+    \\
+    [A,B] \times A \times B &\stackrel{(eval, id_B)}{\to}& B \times B
+  }
+  \,,
+$$
+
+where $eval : [A, B] \times A \to B$ is the [[evaluation map]] for the [[internal hom]].
+This means that the interpretation of further [[dependent sum]] yielding $hfib$
+
+$$
+  f : A \to B,\; b : B 
+   \; \vdash \;  
+  \left(
+    \sum_{a : A } (f(a) = b) 
+  \right)
+  \colon Type
+$$
+
+is the composite left vertical morphism in
+
+$$
+  \array{  
+    Q &\to& B^I
+    \\
+    \downarrow && \downarrow
+    \\
+    [A,B] \times A \times B &\stackrel{(eval, id_B)}{\to}& B \times B
+    \\
+    \downarrow^{\mathrlap{p_{1,3}}}
+    \\
+    [A,B] \times B
+  }
+$$
+
+=--
+
+### Of $Equiv(-)$
+
+
+(...)
+
 
 ## Related concepts
 
