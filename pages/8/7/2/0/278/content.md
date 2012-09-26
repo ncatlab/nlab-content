@@ -69,20 +69,31 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 ### Traditional
 
-A comprehensive standard textbook is
+Textbooks include
 
 * Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of differential geometry_ , Wiley Classics Library
-* Michael Spivak, _A comprehensive introduction to differential geometry_ (5 Volumes) 
+
+* [[Michael Spivak]], _A comprehensive introduction to differential geometry_ (5 Volumes) 
+
 * [[M M Postnikov]], _Lectures on geometry_ (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
+
 * R. Sharpe, _Differential geometry -- Cartan's generalization of Klein's Erlagen program_, Springer (1997)
+
 * [[Shlomo Sternberg]], _Lectures on differential geometry_
+
+An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]] is in 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]] is in 
 
 * [[Andreas Kriegl]], [[Peter Michor]], _A convenient setting of global analysis_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages, [pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf)
 
-Online: 
+See also
 
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
-* wikipedia: [differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)
+
+* Wikipedia, _[differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)_
 
 ### Derived
 
