@@ -43,7 +43,7 @@ $$
 
 natural in all arguments.
 
-The object $[b,c]$ is called the **internal hom** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then often underlined).
+The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is commonly also denoted by lower case $hom(b,c)$ (and then often underlined).
 
 If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]], then $C$ is called **cartesian closed**.  In this case the internal hom is often called an **exponential** and written $c^b$.
 
