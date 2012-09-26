@@ -37,8 +37,21 @@ is the **evaluation morphism** for the [[internal hom]] $[X,Y]$.
 ## Properties
 
 ### Syntax and semantics
+ {#SyntaxAndSemantics}
 
-The evaluation map is the [[semantics|semantical side]] of [[function application]] from a [[categorical semantics|categorical perspective]].
+In a [[cartesian closed category]] the evaluation map 
+
+$$
+  [X,Y]\times X \stackrel{eval}{\to} Y
+$$
+
+is the [[categorical semantics]] of what in the [[type theory]] [[internal language]] is the [[dependent type]] whose [[syntax]] is
+
+$$
+  f : X \to Y,\; x : X \; \vdash \; f(x) : Y
+$$
+
+expressing  _[[function application]]_.
 
 [[!redirects evaluation]]
 [[!redirects evaluation maps]]
