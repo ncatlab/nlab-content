@@ -8,7 +8,7 @@
 
 ## Idea
 
-A _semisimple category_ is a category in which each object is a [[direct sum]] of finitely many [[simple objects]].
+A _semisimple category_ is a category in which each object is a [[direct sum]] of finitely many [[simple objects]], and all such direct sums exist.
 
 ## Definition
 
