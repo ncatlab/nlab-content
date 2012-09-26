@@ -298,7 +298,11 @@ Then $Ab(E)$ has enough projectives.
 
 =-- 
 
-The idea of proof is that the underlying object of an abelian group $A$ in $E$ admits an [[epimorphism]] from a projective object $X \to U(A)$ in $E$, and then the corresponding $F(X) \to A$ is an epimorphism out of a projective in $Ab(E)$. 
+The idea of proof is that under COSHEP, the underlying object of an abelian group $A$ in $E$ admits an [[epimorphism]] from a projective object $p \colon X \to U(A)$ in $E$. Then the corresponding $F(X) \to A$ is an epimorphism out of a projective in $Ab(E)$, for this map is a composite of epimorphisms 
+
+$$F(X) \stackrel{F(p)}{\to} F U(A) \stackrel{\varepsilon_A}{\to} A$$ 
+
+(the first is epic because left adjoints preserve epis, whereas the second map, the component of the counit $\varepsilon \colon F U \to id$ at $A$, is epic because $U$ is faithful). 
 
 
 
