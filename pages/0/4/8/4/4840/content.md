@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Stokes theorem_ asserts that the [[integral]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
+The _Stokes theorem_ asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
 
 ## Statement
 
