@@ -90,7 +90,7 @@ $$
 
 where on the right we have [[dependent sum]] over one argument of the [[bracket type]]/[[inhabited type|(-1)-truncation]] $[X = Y] = isInhab(X = Y)$ of the [[identity type]] $(X = Y)$.
 
-The equivalence of this definition to the previous one is the statement of [[univalence]]. 
+The equivalence of this definition to the previous one is essentially equivalent to the [[univalence axiom]].
 
 
 ## Examples
