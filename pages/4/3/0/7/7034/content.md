@@ -41,7 +41,7 @@ $$
 
 $$
   x \colon A \;,\; y \colon A
-  \;\dash \;
+  \;\vdash \;
   inpath(x,y) \colon (x = y)
  \,,
 $$
