@@ -1,9 +1,11 @@
 
 **[[deductive reasoning]]**
 
-* [[deduction]]
+* [[deduction]], [[natural deduction]]
 
-  * [[natural deduction]], [[sequent]]
+* [[sequent]]
+
+  [[hypothesis]]/[[context]] $\vdash$ [[conclusion]]/[[consequence]]
 
 **[[inductive reasoning]]**
 
