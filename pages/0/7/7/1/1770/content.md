@@ -19,11 +19,12 @@
 
 ## Idea
 
-Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
+A _smooth space_ as discussed here, is a joint generalization of [[smooth manifolds]] and [[diffeological spaces]]: it is a space that can be _probed_ by smooth [[Cartesian spaces]] (in the sense discussed in the exposition at _[[motivation for sheaves, cohomology and higher stacks]]_).
 
+Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
 See [[generalized smooth space]] for more on the general idea and for examples and variations.
 
-Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth open balls $D^n_{int} \subset \mathbb{R}^n$, one may just as well consider just smooth balls as test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
+Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth [[open balls]] $D^n_{int} \subset \mathbb{R}^n$ or equivalently [[Cartesian spaces]] $\mathbb{R}^n$, one may just as well consider Cartesian spaces test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
 
 
 ## Definition
