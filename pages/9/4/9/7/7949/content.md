@@ -39,6 +39,37 @@ $$
 
 we may call $im(f) \hookrightarrow Y$ the **$\infty$-image** of $f$.
 
+## Properties
+
+### Syntax in homotopy type theory
+ {#SyntaxInHomotopyTypeTheory}
+
+Let the ambient [[(∞,1)-category]] be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]].
+We discuss the [[syntax]] of $\infty$-images in this theory.
+
+If 
+
+$$
+  a\colon A \;\vdash \; b(a) \colon B(a)
+$$
+
+is a [[dependent type]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$, then the $\infty$-image of that morphism is the categorical semantics of the type
+
+$$
+  \sum_{a \colon A} \sum_{b' \colon B} [b' = b(a)]
+$$
+
+given by the [[dependent sum]] over a [[substitution]] into the [[bracket type]] of an [[identity type]].
+
+If we allow ourselves to write the [[dependent sum]] either as the [[existential quantifier]] $\exists$ or as the extension formula $\{b \in B | \phi(b)\}$ then this reads
+
+$$
+  \left\{
+    b' \in B | \exists a \in A . b' = b(a)
+  \right\}
+$$
+
+which is manifestly the naive definition of [[image]].
 ## Examples
 
 ### Automorphisms
