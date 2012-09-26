@@ -1,0 +1,470 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+This page is going to contain an introduction to aspects of [[differential geometry]] and their application in fundamental [[physics]]: the [[gauge theory]] appearing in the [[standard model of particle physics]] and the [[Riemannian geometry]] appearing in the [[standard model of cosmology]], as well as the [[symplectic geometry]] appearing in the [[quantization]] of both.
+
+The intended topic scope and readership of the first part of this page is much like that of the book ([Frankel](#Frankel)), with a similar title as this page, only that here we make use of a more modern and more transparent conceptual toolbox. For instance where traditionally expositions of [[differential geometry]] proceed by generalizing the [[geometry]] of "[[Cartesian spaces]]" $\mathbb{R}^n$ ([[coordinate|coordinate systems]]) to _[[smooth manifolds]]_, here we instead begin by generalizing them right away to _[[smooth spaces]]_, which happens to be both more expressive as well as actually much easier. Smooth manifolds are then introduced later as an intermediate notion, together with that of _[[diffeological spaces]]_. (Many of the constructions in [[differential geometry]] applied in [[physics]] do not actually need the notion of a smooth manifold, and, more importantly, for many notions in modern theoretical physics smooth manifolds are not actually sufficiently general.) But we will of course discuss plain manifolds, too.
+
+
+## Coordinate systems
+
+* [[coordinate system]] = [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{N}$;
+
+[[homomorphism]] of coordinate systems = [[smooth function]]
+$\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+
+coordinate systems form a [[category]] called [[CartSp]]
+
+* [[objects]] are coordinate systems
+
+* [[morphisms]] are [[coordinate transformations]] = smooth functions
+
+the [[opposite category]] is [[CartSp]]${}^{op}$
+
+a [[functor]]  $X : CartSp^{op} \to Set$ (a "[[presheaf]]") is
+
+1. for each coordinate system $U$ a [[set]] $X(U)$
+
+1. for each [[coordinate transformation]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[function]] $X(f) : X(\mathbb{R}^{n_2}) \to X(\mathbb{R}^{n_2})$
+
+such that 
+
+1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
+
+1. composition is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
+
+## Smooth spaces
+
+* [[smooth space]] = [[type|thing]] into which we can throw [[coordinate systems]] ([[motivation for sheaves, cohomology and higher stacks|conceptual exposition]])
+
+  [[functor]] $X : CartSp^{op} \to Set$ such that coordinate patches glue
+
+* [[smooth manifold]] = [[smooth space]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]]
+
+* [[diffeological space]] = [[smooth space]] such that every coordinate labels a [[point]] in the space (which need not be in a general smooth space)
+
+$\{$[[coordinate systems]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth manifolds]]$\}$ 
+ $\hookrightarrow$
+$\{$[[diffeological spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth spaces]]$\}$ 
+ $\hookrightarrow$
+$\{$[[smooth groupoids]]$\}$ 
+ $\hookrightarrow \cdots $
+
+[[mapping spaces]]: for $\Sigma, X$ [[smooth spaces]], the [[mapping space]] $[\Sigma,X]$ is defined as the [[smooth space]] whose $U$-[[coordinate charts]] are $\mathbf{H}(\Sigma \times U ,X)$.
+
+
+Example: [[smooth loop space]] $L X = [S^1, X]$ (on the horizon: [[path integral]])
+
+## Differential forms
+
+* [[smooth function]] on [[coordinate system]] = [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$
+
+* [[smooth function]] on [[smooth space]] $X$ = one smooth function $f|_U$ on each [[coordinate chart]] $U \to X$ such that they fit together under [[coordinate transformation|change of coordinates]]
+
+then
+
+* [[differential form|differential 1-form]] on [[coordinate system]] $\mathbb{R}^n$ = $n$ smooth functions $\{f_i\}_{i = 1}^n$, written $\omega = f_1 \mathbf{d}x^1 + f_2 \mathbf{d}x^2 + \cdots + f_n \mathbf{d}x^n$
+
+  ([[infinitesimal space|infinitsimal]] [[measure]] of [[length]])
+
+* [[differential form|differential 1-form]] on [[smooth space]] $X$ = one $\omega|_U$ for each [[coordinate chart]] $U \to X$ such that these fit together under [[coordinate transformation|change of coordinates]]. 
+
+then
+
+* [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]]...
+
+the smooth space of differential $n$-forms is $\Omega^n(-)$
+
+
+the [[Yoneda lemma]]: $\Omega^n(\mathbb{R}^n) = \{\mathbb{R}^n \to \Omega^n(-)\}$
+
+observe: $\Omega^0(-) = \mathbb{R}$
+
+
+## Differentiation
+
+* [[derivative]]
+
+* [[de Rham differential]]: map of smooth spaces $\mathbf{d} : \Omega^n(-) \to \Omega^{n+1}(-)$
+
+for instance [[electromagnetic potential]]
+
+$$
+  A = \phi \mathbf{d}t + A_1 \mathbf{d}x^1 + A_2 \mathbf{d}x^2 + A_3 \mathbf{d}x^3
+$$
+
+then [[field strength]] is
+
+$$
+  F 
+    \coloneqq
+  \mathbf{d}A 
+    = 
+   E_1 \mathbf{d}t \wedge \mathbf{d}x^1 
+    + 
+   E_2 \mathbf{d}t \wedge \mathbf{d}x^2 
+    + 
+   E_3 \mathbf{d}t \wedge \mathbf{d}x^3
+    + 
+    B_1 \mathbf{d}x^2 \wedge \mathbf{d}x^3 
+    + 
+    B_2 \mathbf{d}x^3 \wedge \mathbf{d}x^1 
+    + 
+    B_3 \mathbf{d}x^1 \wedge \mathbf{d}x^2 
+$$
+
+with 
+
+$$
+  E_i = \frac{\partial \phi}{\partial x^i}
+$$
+
+and
+
+$$
+  B_1 = \frac{\partial A_2}{\partial x^3} - \frac{\partial A_3}{\partial x^2}
+$$
+
+...
+
+first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
+
+(the other 2 below in Riemannian geometry)
+
+for instance [[variational calculus]]
+
+[[action functional]] for [[particle]] on [[spacetime]] $X$ ("[[sigma-model]]")
+
+$$
+  S : [S^1, X] \to \mathbb{R}
+$$
+
+variation is
+
+$$
+  \mathbf{d}S : [S^1, X] \stackrel{S}{\to} \mathbb{R}
+  \stackrel{\mathbf{d}}{\to}
+  \Omega^1
+$$
+
+
+## Integration 
+
+$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
+
+[[integration of differential forms]] is map of smooth spaces
+
+$$
+  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
+$$
+
+over a [[coordinate chart]] $U$ this sends
+
+$$
+  \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
+  \,.
+$$
+
+## Transgression
+
+[[transgression]] to [[mapping space]] is the composite
+
+$$
+  \int_\Sigma [\Sigma,-]
+  : 
+  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
+$$
+
+$$
+  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
+$$
+
+to
+
+$$
+  \int_{\Sigma} [\Sigma,\omega]
+   :
+  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \to \Omega^{n-k}(-)
+$$
+
+for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
+
+$$
+  \int_{S^1} [S^1, A]
+  : 
+  [S^1, X]
+    \stackrel{[S^1, A]}{\to}
+  [S^1 , \Omega^1]
+    \stackrel{\int_{S^1}}{\to}
+  \Omega^0(-)
+  = 
+  \mathbb{R}
+$$
+
+
+* [[Stokes theorem]]
+
+
+## Smooth groupoids
+
+$$
+  X_1 \stackrel{\overset{d_1}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_0}{\to}}}
+  X_0
+$$
+
+$$
+  \array{
+    && X^{\Delta^2}
+    \\
+    &{}^{\mathllap{\exists}}\nearrow & \downarrow
+    \\
+    U &\stackrel{}{\to}& X^{\Lambda^2_i}
+  }
+$$
+
+## Principal bundles
+
+any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
+  
+$$
+  \mathbf{B}G
+  = 
+  \left(
+     G \stackrel{\to}{\to} * 
+  \right)
+  \,.
+$$
+
+also
+
+$$
+  \mathbf{E}G
+  = 
+  \left(
+     G\times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
+  \right)
+  \,.
+$$
+
+canonical map
+
+$$
+  \array{
+    \mathbf{E}G
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+$$
+
+[[universal principal bundle]]
+
+for $X$ a [[smooth space]] a $G$-[[principal bundle]] over $X$ is a smooth space $P$ with map $P \to X$ such that there is a diagram 
+
+$$
+  \array{ 
+     P &\stackrel{\simeq}{\leftarrow}& \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     X &\stackrel{\simeq}{\leftarrow}& \tilde X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+where the left horizontal morphisms are [[weak equivalences]]
+and the right square is a [[pullback]]
+## Smooth manifolds
+
+
+A [[smooth manifold]] of [[dimension]] $n$ 
+
+a [[smooth space]] with an [[atlas]] 
+
+$$
+  \{ \mathbb{R}^n \underoverset{\simeq}{\phi_i^{-1}}{\to} U_i \hookrightarrow X\}
+$$ 
+
+of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two charts, the [[partial derivatives]] of the corresponding [[coordinate transformations]]
+
+$$
+  \phi_j\circ \phi_i^{-1}
+  : 
+  U_i \cap U_j \subset \mathbb{R}^n \to \mathbb{R}^n
+$$
+
+form the [[Jacobian matrix]] of [[smooth functions]]
+
+$$
+  ((\lambda_{i j})^{\mu}{}_{\mu})
+  \coloneqq
+  \left[\frac{d}{d x^\nu} \phi_j \circ \phi_i^{-1} (x^\mu)
+  \right]
+  :
+  U_i \cap U_j 
+  \to 
+  GL_n
+$$
+
+with values in invertible [[matrices]], hence in the
+[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matrix product]] equations
+
+$$
+  (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
+  = 
+  (\lambda_{i k})^\mu{}_{\nu}
+  \,,
+$$
+
+(here and in the following sums over an index appearing upstairs and downstairs are explicit)
+
+hence the equation
+
+$$
+  \lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}
+$$
+
+in the [[group]] $C^\infty(U_i \cap U_j \cap U_k, GL(n))$ of smooth $GL(n)$-valued functions on the chart overlaps.
+
+This is the _[[cocycle]] condition_ for a smooth [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$ (precisely: with coefficients in the [[sheaf]] of [[smooth functions]] with values in $GL(n)$ ). We write
+
+$$
+  [(\lambda_{i j})] \in H^1_{smooth}(X, GL_n)
+  \,.
+$$
+
+Formulated as [[smooth groupoids]]
+
+* $X$ itself is a [[Lie groupoid]] $(X \stackrel{\to}{\to} X)$ with trivial morphism structure;
+
+* from the atlas $\{U_i \to X\}$ we get the corresponding [[Cech groupoid]] 
+  $$
+    C(\{U_i\}) = 
+    (\coprod_{i, j} U_i \cap U_j \stackrel{\to}{\to} \coprod_i U_i)
+    = 
+    \left\{
+      \array{
+         && (x,j)
+         \\
+         & \nearrow &=& \searrow
+         \\
+        (x,i) &&\to&& (x,k)
+      }
+      \;\;\;
+      for\, x \in U_i \cap U_j \cap U_k
+    \right\}
+    \,,
+  $$
+
+  whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
+
+
+
+## Tangent bundle
+
+
+The above situation is neatly encoded in the existence of a [[diagram]] of Lie groupoids of the form
+
+$$
+  \array{
+     C(\{U_i\}) &\stackrel{\lambda}{\to}& \mathbf{B} GL(n).
+     \\
+     {}^{\mathllap{\simeq}}\downarrow
+     \\
+     X
+  }
+  \,,
+$$
+
+where
+
+* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
+
+* the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
+
+
+A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
+
+## $G$-Structure
+
+$$
+  \mathbf{B}G \to \mathbf{B}K
+$$
+
+given a $K$-[[principal bundle]]
+
+$$
+  \array{
+    \tilde X &\to &\mathbf{B}K
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+a [[reduction of the structure group]] along $G \to K$ is
+
+$$
+  \array{
+    \tilde X &&\to&& \mathbf{B}G
+    \\
+    & \searrow &\swArrow_{e}& \swarrow
+    \\
+    && \mathbf{B}K
+  }
+$$
+
+
+
+
+## Riemannian geometry
+
+[[reduction of the structure group]] along
+
+$\mathbf{B}O(n) \to \mathbf{B}GL(n)$
+
+$$
+  \array{
+    \tilde X &&\to&& \mathbf{B}O(n)
+    \\
+    & {}_{\mathllap{\vdash T \Sigma}}\searrow &\swArrow_{e}& \swarrow
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+$e$ is [[vielbein]]: definition of an [[orthonormal frame]]
+at each point
+
+
+## References
+
+Textbooks with basic introductions to [[differential geometry]] and [[physics]] include
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+ {#Frankel}
+
