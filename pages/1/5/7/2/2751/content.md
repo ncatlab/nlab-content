@@ -316,3 +316,6 @@ A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms 
 * [[Gonzalo Reyes]], _Covariant derivation_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/covariant-derivation.pdf))
 
 [[!redirects covariant derivative]]
+[[!redirects covariant derivatives]]
+
+[[!redirects covariant differentiation]]
