@@ -134,3 +134,6 @@ Notice that before the $(-1)$-truncation the operation remembers not just _that_
 [[!redirects particular quantifiers]]
 [[!redirects particular quantification]]
 [[!redirects particular quantifications]]
+
+[[!redirects existence]]
+
