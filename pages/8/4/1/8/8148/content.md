@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Baer's criterion_ is a criterion for detecting [[injective objects]] in a [[category]] of [[modules]].
+_Baer's criterion_ is a criterion for detecting [[injective objects]] in a [[category]] of [[modules]]: [[injective modules]].
 
 ## Statemen
 
