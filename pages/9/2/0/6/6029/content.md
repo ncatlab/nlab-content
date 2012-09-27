@@ -41,6 +41,8 @@ discusses how to extract notions of particles from a [[local net of observables]
 
 * [[standard model of particle physics]]
 
+* [[matter]], [[force]]
+
 * [[brane]]
 
 
