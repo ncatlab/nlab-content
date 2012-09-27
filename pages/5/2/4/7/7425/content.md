@@ -27,3 +27,4 @@ It is known that in the [[Bousfield lattice]] of the [[stable homotopy category]
 
 * D. Ravenel, _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies 128, Princeton University Press (1992).
 
+[[!redirects Morava K-theories]]
