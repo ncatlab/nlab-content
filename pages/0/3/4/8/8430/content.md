@@ -5,7 +5,7 @@
 
 * [[sequent]]
 
-  [[hypothesis]]/[[context]] $\vdash$ [[conclusion]]/[[consequence]]
+  [[hypothesis]]/[[context]]/[[antecedent]] $\vdash$ [[conclusion]]/[[consequence]]/[[succedent]]
 
 **[[inductive reasoning]]**
 
