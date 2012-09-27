@@ -20,9 +20,11 @@
 {:toc}
 
 
-## Idea
+## About this page
 
 This page is going to contain an introduction to aspects of [[differential geometry]] and their application in fundamental [[physics]]: the [[gauge theory]] appearing in the [[standard model of particle physics]] and the [[Riemannian geometry]] appearing in the [[standard model of cosmology]], as well as the [[symplectic geometry]] appearing in the [[quantization]] of both.
+
+### Scope and perspective
 
 The intended topic scope and readership of this page is much like that of the book ([Frankel](#Frankel)), only that here we make use of a more modern and more transparent conceptual toolbox. 
 
@@ -30,7 +32,24 @@ For instance where traditionally expositions of [[differential geometry]] procee
 
 In fact we introduce smooth manifolds only after we introduce _[[smooth groupoids]]_, which are differential geometric structures that are _still_ simpler than smooth manifolds, and of course even more expressive than smooth spaces. In fact, smooth groupoids are the very heart of the geometry of physics. Modern fundamental physics is all based on the "[[gauge symmetry|gauge principle]]" and mathematically this is essentially nothing but the theory of smooth groupoids. 
 
+### Layers of exposition
+ {#Layers}
 
+We discuss each topic below in three stages, in three _layers_. 
+
+The first one, called **Layer Mod**, deals with concrete explicit constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while _Layer Mod_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
+
+The second one, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underly the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from.
+
+The third one, called **Layer Syn** finally makes explict the expression of these phenomena in the formal [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- _[[homotopy type theory]]_. This is meant for readers who enjoy seeing fundamental physics rooted in genuinely fundamental mathematics. Everybody else can safely ignore this.
+ 
+**The three layers**
+
+* **Layer Mod** -- [[concrete particular]]: [[models]]
+
+* **Layer Sem** -- [[concrete general]]: [[categorical semantics]] in [[(infinity,1)-topos theory|higher]] [[topos theory]]
+
+* **Layer Syn** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
 
 ## Coordinate systems
 
@@ -276,9 +295,9 @@ $$
   \array{ 
      P &\stackrel{\simeq}{\leftarrow}& \tilde P &\to& \mathbf{E}G
      \\
-     \downarrow && \downarrow && \downarrow
+     \downarrow && \downarrow &pb& \downarrow
      \\
-     X &\stackrel{\simeq}{\leftarrow}& \tilde X &\stackrel{g}{\to}& \mathbf{B}G
+     X &\stackrel{\simeq}{\leftarrow}& \tilde X &\underset{g}{\to}& \mathbf{B}G
   }
 $$
 
@@ -546,7 +565,7 @@ $$
     \\
     \downarrow &pb& \downarrow
     \\
-    \mathbf{B}U(1)_{diff} &\to& \Omega^{1 \leq 2}_{cl}
+    \mathbf{B}U(1)_{diff} &\to& \Omega^{1 \leq \bullet \leq 2}_{cl}
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -601,7 +620,7 @@ $$
     \\
     \mathbf{B}\mathbb{Z} 
       &\to&  
-    \mathbb{B}\mathbb{R} 
+    \mathbf{B}\mathbb{R} 
       &\to&  
     \mathbf{B}U(1)
   }
