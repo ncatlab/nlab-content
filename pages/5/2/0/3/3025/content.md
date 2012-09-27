@@ -1,4 +1,4 @@
-A $2$-Hilbert space is a [[categorification]] of a [[Hilbert space]].
+A $2$-Hilbert space is a [[categorification]] of a [[Hilbert space]]. It is a Kapranov-Voevoedsky [[2-vector space]] with extra structure, although often defined in a very different way.
 
 See
 
