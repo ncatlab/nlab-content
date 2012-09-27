@@ -17,7 +17,13 @@
 
 A __fermion__ is a [[particle]]/[[quantum field]] that obeys [[Fermi-Dirac statistics]].  By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is half an [[integer]] but not itself an integer.  
 
+In the [[standard model of particle physics]] and the [[standard model of cosmology]] fermions are the [[matter]] constituents of the [[observable universe]], as opposed to [[bosons]], which are the [[quanta]] of [[force]] [[gauge fields]].
+
+The formalization of fermions is in [[supergeometry]]: fermion fields are [[sections]] of [[spinor bundles]] with odd-degree fibers in [[supergeometry]]. This is exhibited by what is called _[[Fermi-Dirac statistics]]_ and the [[Pauli exclusion principle]].
+
 ## Related entries
+
+* [[particle]], [[matter]]
 
 * [[boson]], **fermion, **anyon**
 
