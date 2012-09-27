@@ -39,9 +39,11 @@ We discuss each topic below in three stages, in three _layers_.
 
 The first one, called **Layer Mod**, deals with concrete explicit constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while _Layer Mod_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
 
-The second one, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underly the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from.
+The second one, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underly the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from. For instance this layer gives a systematic rule for generalizing everything at the beginning in _Layer Mod_ from ordinary [[differential geometry]] to what is called  _[[supergeometry]]_, which is the context in which [[fermion|fermionic]] [[particles]] are formalized: the [[matter]] constituents of the [[observable universe]].
 
-The third one, called **Layer Syn** finally makes explict the expression of these phenomena in the formal [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- _[[homotopy type theory]]_. This is meant for readers who enjoy seeing fundamental physics rooted in genuinely fundamental mathematics. Everybody else can safely ignore this.
+The third one, called **Layer Syn**, makes explict the expression of these phenomena in the [[logical framework|formal]] [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- which is _[[homotopy type theory]]_. This makes more transparent various constructions in ([[(infinity,1)-topos theory|higher]]) [[topos theory]] used in _Layer Sem_, and in fact it provides 
+a [[categorical semantics|natural construction principle]] for objects in a (higher) topos that model some intended _meaning_, which is precisely what [[mathematical physics]] is about.
+This is meant for readers who enjoy seeing fundamental physics _naturally_ rooted in genuinely fundamental mathematics, in _[[natural deduction]]_, as it were. Everybody else can safely ignore this.
  
 **The three layers**
 
@@ -53,10 +55,22 @@ The third one, called **Layer Syn** finally makes explict the expression of thes
 
 ## Coordinate systems
 
+### Layer Mod
+
 * [[coordinate system]] = [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{N}$;
 
 [[homomorphism]] of coordinate systems = [[smooth function]]
 $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+
+basic facts about [[smooth functions]]
+
+* [[Hadamard lemma]]
+
+* [[Borel's theorem]]
+
+* existence of [[bump functions]] and [[partitions of unity]]
+
+### Layer Sem
 
 coordinate systems form a [[category]] called [[CartSp]]
 
@@ -77,6 +91,55 @@ such that
 1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
 
 1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
+
+### Layer Syn
+
+We discuss a bit the [[internal language]] of a [[category]] such as [[CartSp]] above, which is a flavor of [[type theory]].
+
+An [[object]] $X \in \mathcal{C}$ in a [[category]] $\mathcal{C}$ we will also denote by the [[sequent]]
+
+$$
+  \vdash \; X \colon Type
+$$
+
+and say that it is a _[[type]]_. 
+
+For $* \in \mathcal{C}$ the [[terminal object]], an [[element]] of $X$, hence a [[morphism]] $x : * \to X$ we denote by the [[sequent]]
+
+$$
+  \vdash \; x \colon X
+  \,.
+$$
+
+Notice that any $X \in \mathcal{C}$ becomes the [[terminal object]] in the [[slice category]] $\mathcal{C}_{/X}$.
+
+Let $A \to X$ be any morphism in $\mathcal{C}$, regarded as an object $A \in \mathcal{C}_{/X}$. The [[syntax]] for this is
+
+$$
+  x \colon X \;\vdash \;  A \colon Type
+$$
+
+and this is called a _[[dependent type]]_.
+
+An element of $A$ in $\mathcal{C}_{/X}$ is a [[generalized element]] of $A$ in $\mathcal{C}$, namely a morphism $X \to A$ which fits into a [[commuting diagram]]
+
+$$
+  \array{
+    X &&\to&& A
+    \\
+    & {}_{\mathllap{id_X}}\earrow && \swarrow_{}
+    \\
+    && X
+  }
+$$
+
+The [[syntax]] for this is 
+
+$$
+  x\colon X \;\vdash\; a : A
+$$
+
+and this is called a [[dependent term|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
 
 ## Smooth spaces
 
