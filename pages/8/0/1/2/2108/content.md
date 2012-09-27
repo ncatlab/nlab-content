@@ -378,6 +378,12 @@ Paris (1975) 187&#8212;210
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric Asymptotics_, Math. Surveys no. 14, Amer. Math. Soc. (1977) ([web](http://www.ams.org/online%5Fbks/surv14/))
 
+A decent set of lecture notes is
+
+* [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
+ {#Blau}
+
+
 A careful discussion of the polarization-step from prequantization to quantization is in 
 
 * J. &#346;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
