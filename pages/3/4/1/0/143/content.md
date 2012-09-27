@@ -27,6 +27,21 @@ See also
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
+### Quick definition
+
+The following definition of a sheaf (mentioned in Peter LeFanu Lumsdaine's comment [here](http://mathoverflow.net/questions/23268/geometric-intuition-for-limits/23276#23276)) is not the most general possible, but it's concise.
+
++-- {: .un_def}
+###### Definition
+
+Suppose $Op$ is the [[category of open subsets]] of some topological space, and $\mathcal{F}$ is a [[contravariant functor]] from $Op$ to some [[concrete category]] (that is, a [[presheaf]] on $Op$). The functor $\mathcal{F}$ is called a **sheaf** if
+$$
+\mathcal{F}(colim \mathcal{U}) = lim \mathcal{F}(\mathcal{U})
+$$
+for every [[complete category|complete]] [[subcategory|full subcategory]] $\mathcal{U}$ of $Op$.
+
+=--
+
 ## Definition
 
 There are several equivalent ways to think about sheaves. We start with the explicit componentwise definition and then discuss more [[category theory|general abstract]] reformulations.
@@ -44,6 +59,12 @@ A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ if
 * for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
 
 * and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))$ such that for all morphisms $U_i \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_j$ such that $A(f)(s_i) = A(g)(s_j)$ for all $i,j \in I$
+
++-- {: .query}
+I feel like there's either a missing clause or an extra "such that" in here. Unfortunately, I don't understand the definition well enough to know what's wrong (if anything).
+
+---[[Aaron F]]
+=--
 
 * there is a _unique_ element $s \in A(U)$ such that $A(p_i)(s) = s_i$ for all $i \in I$.
 
