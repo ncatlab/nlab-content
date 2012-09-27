@@ -32,7 +32,7 @@ _Cartesian logic_ or _finite limit logic_ is the [[internal logic]] of [[finitel
 
 ## References
 
-Around def. 1.3.4 of 
+Around def. D1.3.4 (p. 833) of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
