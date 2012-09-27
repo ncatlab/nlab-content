@@ -32,6 +32,7 @@ $$ 1 \cdot x = x = x \cdot 1 .$$
 
 
 ### In a monoidal category
+{#inamonoidalcategory}
 
 More generally, we can define a monoid (sometimes called **monoid object**) in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
 
