@@ -17,7 +17,7 @@
 
 In the context of _[[geometric quantization]]_ the _prequantum space of states_ is a space of [[sections]] of the [[prequantum line bundle]].
 
-The actual space of [[states]] is a subspace of this, obtained after a choice of [[polarization]].
+The actual space of [[states]] is, after a choice of [[polarization]], hence of "[[canonical coordinates]]" and "[[canonical momenta]]", the subspace of "wave functions that only depend on the canonical coordinates", hence of sections of the prequantum line bundle which are [[covariant derivative|covariantly constant]] along the [[leaves]] of the polarization (the leaves are the "momentum spaces").
 
 ## Related concepts
 
