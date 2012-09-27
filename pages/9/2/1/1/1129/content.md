@@ -34,9 +34,8 @@ This is notably the case for  $C$ is a [[category of chain complexes]] equipped 
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #InjectiveObjects}
 ###### Definition
-
 
 An object $I$ in $C$ is **$J$-injective** if all diagrams of the form
 
@@ -204,6 +203,8 @@ See [[homotopically injective object]] for a relevant generalization to categori
 
 Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[modules]]. We discuss [[injective modules]] over $R$ (see there for more).
 
+The following criterion says that for identifying [[injective modules]] it is sufficient to test the [[right lifting property]] which characterizes injective objects by def. \ref{InjectiveObjects}, only on those [[monomorphisms]] which include an [[ideal]] into the base ring $R$.
+
 +-- {: .num_theorem #BaerTheorem}
 ###### Proposition 
 **([[Baer's criterion]])**
@@ -259,16 +260,21 @@ This is due to Bass and Papp. See ([Lam, Theorem 3.46](#Lam)).
 
 ### Injective abelian groups
 
-Let $C = \mathbb{Z} Mod \simeq $ [[Ab]]  be the abelian category of abelian groups. 
+Let $C = \mathbb{Z} Mod \simeq $ [[Ab]]  be the [[abelian category]] of [[abelian groups]]. 
 
 +-- {: .num_prop #InjectiveAbelianGroupIsDivisibleGroup}
 ###### Proposition
 
-An [[abelian group]] $A$ is injective precisely if it is a [[divisible group]], in that for all [[integers]] $n \in \mathbb{N}$ we have $n G = G$.
+If the [[axiom of choice]] holds, 
+then an [[abelian group]] $A$ is an injective object in [[Ab]] precisely if it is a [[divisible group]], in that for all [[integers]] $n \in \mathbb{N}$ we have $n G = G$.
 
 =--
 
-Using Baer's criterion, prop. \ref{BaerTheorem}.
+This follows for instance using [[Baer's criterion]], prop. \ref{BaerTheorem}.
+
+An explit proof is spelled out at 
+[Planet math -- abelian group is divisible if and only if it is an injective object](http://planetmath.org/AbelianGroupIsDivisibleIfAndOnlyIfItIsAnInjectiveObject.html)
+
 
 +-- {: .num_example}
 ###### Example
