@@ -31,6 +31,32 @@ A **limit-sketch** is a sketch with just limits and no colimits specified.
 
 The categories of models of limit-sketches are the [[locally presentable category|locally presentable categories]].
 
+* an *accessible* category is equivalently:
+  * a full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
+  * the category of models of a sketch
+
+* a *locally presentable* category is equivalently:
+  * a *reflective* full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
+  * the category of models of a *limit* sketch
+  * an accessible category with all small limits
+  * an accessible category with all small colimits
+
+we can "break in half" the difference between the two and define
+
+* a *locally multipresentable category* to be equivalently:
+  * a *multireflective* full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
+  * the category of models of a *limit and coproduct* sketch
+  * an accessible category with all small *connected* limits
+  * an accessible category with all small multicolimits
+
+and
+
+* a *weakly locally presentable category* to be equivalently:
+  * a *weakly reflective* full subcategory of a presheaf category that's closed under $\kappa$-filtered colimits for some $\kappa$
+  * the category of models of a *limit and epi* sketch
+  * an accessible category with all small products
+  * an accessible category with all small weak colimits
+
 ## References
 
 An overview of the theory is given in
