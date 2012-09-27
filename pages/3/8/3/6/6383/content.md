@@ -117,9 +117,20 @@ Hence:
 +-- {: .num_example }
 ###### Example
 
-The underlying abelian group of any $\mathbb{Q}$-[[vector space]] isdivisible.
+The underlying abelian group of any $\mathbb{Q}$-[[vector space]] is divisible.
 
 =--
+
+Also, by the result on quotients, 
+
++-- {: .num_example }
+###### Example
+
+The abelian group $\mathbb{Q}/\mathbb{Z}$ is divisible.
+
+=--
+
+What is additionally interesting about this last example is that it provides an injective [[cogenerator]] for the category of abelian groups. Similarly, $\mathbb{R}/\mathbb{Z}$ is an injective cogenerator. 
 
 +-- {: .num_example }
 ###### Counter-Example
