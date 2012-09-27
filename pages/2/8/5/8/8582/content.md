@@ -7,7 +7,7 @@ In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **f
    $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
    If $n=0$, a step is often called an [[axiom]].
 
-For a formal system to be reasonable, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.
+Moreover, to be considered a formal system, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.  Deductive systems containing undecidable steps (e.g., most notably the $\omega$-rule) are sometimes known as **semi-formal systems**.
 
 Usually, one generates the steps by using *rules of inference*, which are schematic ways of describing collections of steps, generally involving metavariables.
 
