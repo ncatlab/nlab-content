@@ -88,21 +88,20 @@ This is due to Bass and Papp. See ([Lam, Theorem 3.46](#Lam)).
 +-- {: .num_prop #AbHasEnoughInjectives}
 ###### Proposition
 
-The [[category]] $\mathbb{Z}$[[Mod]] $\simeq$ [[Ab]] has [[injective object|enough injective]].
+Assuming the [[axiom of choice]],
+the [[category]] $\mathbb{Z}$[[Mod]] $\simeq$ [[Ab]] has [[injective object|enough injectives]].
 
 =--
 
 +-- {: .proof} 
 ###### Proof 
 
-We first show this for $R = \mathbb{Z}$ the ring of [[integers]] in which case $R$[[Mod]] = [[Ab]].
-
 By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[abelian group]]
 is an injective $\mathbb{Z}$-module precisely if it is a [[divisible group]]. So we need to show that every [[abelian group]] is a [[subgroup]] of a [[divisible group]].
 
-To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible and hence that canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
+To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible and hence the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
 
-Now by the discussion at _[[projective module]]_ every [[abelian group]] $A$ receives an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, hence is the [[quotient group]] of a direct sum of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
+Now by the discussion at _[[projective module]]_ every [[abelian group]] $A$ receives an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, hence is the [[quotient group]] of a [[direct sum]] of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
 
 $$
   \array{
@@ -118,21 +117,89 @@ $$
   }
 $$
 
-Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. 
-
+Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. So this exhibits an embedding of any $A$ into a divisible abelian group, hence into an injective $\mathbb{Z}$-module.
 
 
 =--
 
-+-- {: .num_prop #AbHasEnoughInjectives}
++-- {: .num_prop #ModEnoughInjectives}
 ###### Proposition
 
-For $R$ a [[ring]], the category $R$[[Mod]] has [[injective object|enough injectives]].
+Assuming the [[axiom of choice]],
+for $R$ a [[ring]], the category $R$[[Mod]] has [[injective object|enough injectives]].
 
 =--
 
-An proof on elemenets appears for instance as ([May, lemma 4.4](#May)).
++-- {: .proof} 
+###### Proof 
 
+Write $U\colon R Mod \to Ab$ for the [[forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group. 
+
+An [[category theory|abstract]] argument proceeds as follows:
+
+Observe that the [[forgetful functor]] $U$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+
+More concretely:
+
+Let $N \in R Mod$. We need to find a monomorphism $N \to \tilde N$ such that $\tilde N$ is an injective $R$-module.
+
+We need two constructions.
+
+1. By prop. \ref{AbHasEnoughInjectives} the exists a monomorphism
+
+   $$
+     i \colon U(N) \hookrightarrow D
+   $$
+
+   of the underlying abelian group into an injective abelian group $D$.
+
+1. Regard the [[abelian group]] $Hom_{Ab}(U(R), U(N))$ as an $R$-module by letting $r' \in R$ act on a [[linear map]] $f : U(R) \to U(N)$ by $f \mapsto r' f$ with
+
+   $$
+     r' f : r \mapsto  f(r r') 
+     \,.
+   $$
+
+   With this the linear map
+
+   $$
+     j : N \to Hom_{Ab}(U(R), U(N))
+   $$
+
+   given on $n \in N$ by
+
+   $$
+     j(n) : r \mapsto r n
+   $$
+
+   is fact an $R$-module homomorphism. And it is a [[monomorphism]].
+
+Now
+
+$$
+  N \stackrel{j}{\to} Hom_{Ab}(U(R), U(N)) \stackrel{Hom_{Ab}(U(R),i)}{\to}
+  Hom_{Ab}(U(R),U(D))
+$$
+
+is a monomorphism. Therefore it is now sufficient to see that $Hom_{Ab}(U(R), U(D))$ is an injective $R$-module.
+
+This follows from the existence of an [[isomorphism]] 
+
+$$
+  Hom_{Ab}(U(K),U(D))
+  \simeq
+  Hom_{R Mod}(K, Hom_{Ab}(U(R), U(D)))
+$$
+
+[[natural isomorphism|natural]] in $K \in R Mod$ and from the injectivity of $D \in Ab$. This expresses the fact that [[coextension of scalars]] is the [[right adjoint]]
+
+$$
+  R_*(A) = Hom_{Ab}(U(R), A) \in R Mod
+$$
+
+to the [[forgetful functor]] $U$.
+
+=--
 
 ## Examples
 
