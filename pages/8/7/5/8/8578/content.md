@@ -1,25 +1,31 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The [[integration]] of degree-$n$ [[differential forms]] over [[orientation|oriented]] [[smooth manifolds]] of [[dimension]] $n$.
+Here we discuss the [[integration]] of a [[differential form]] (possibly twisted in some way) on a [[topological manifold]] (possibly with additional structure) over an appropriately structured [[submanifold]] (or [[formal linear combination]] thereof).
+
 
 ## Description
 
-Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on $X$.  Suppose that $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate smooth [[partition of unity]] and a smooth coordinate chart on each patch.  Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
+See [[differential form]] for basic definitions.
+
+
+### Integration of top-dimension pseudoforms (pseudoforms to measures)
+
+Let $X$ be an $n$-dimensional [[topological manifold]], and let $\omega$ be a [[continuous map|continuous]] $n$-pseudoform on $X$.  Suppose that $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate [[partition of unity]] and a continuous coordinate chart on each patch.  (When $X$ is [[differentiable manifold|differentiable]], or even [[smooth manifold|smooth]], then these may also be chosen to be differentiable or smooth, which may be convenient but is not necessary.)  Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
 
 *  On each coordinate patch $U$, fix the orientation given by the coordinates to turn $\omega$ into an untwisted $n$-form $\hat{\omega}$; then write $\hat{\omega}$ in coordinates as
    $$ \hat{\omega} = \omega_U \wedge \mathrm{d}x^1 \wedge \cdots \wedge \mathrm{d}x^n .$$
@@ -50,6 +56,8 @@ When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is indepen
 Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
 
 
+### Measures to pseudoforms
+
 It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] (see [Wikipedia](https://en.wikipedia.org/wiki/absolute_continuity) until we get our own article) [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
 
 *  Given a point $a$, choose one of the two local orientations at $a$.
@@ -62,6 +70,8 @@ It may also be enlightening to consider how to go back from a measure to an $n$-
 Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors); or if that\'s not true, then we messed up and need to add further restrictions to the absolutely continuous Radon measure $\omega$.  The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).
 
 
+### Integration of more general forms
+
 One can integrate forms other than $n$-pseudoforms, of course, but only over certain structures within the manifold $X$.  Specifically, if $R$ is a $p$-dimensional [[submanifold]] of $X$ (that is a $p$-dimensional manifold $U$ equipped with a map $R\colon U \to X$), then we would like to integrate $p$-forms or $p$-pseudoforms (defined on $X$) over $R$.  Here is how we do this:
 
 *  We may integrate a $p$-form $\eta$ over $R$ if $R$ is _oriented_, that is if $U$ is oriented.  We pull back $\eta$ from $X$ to $U$, then use the orientation on $U$ to turn $\eta$ into a $p$-pseudoform, which we can then integrate on the $p$-dimensional manifold $U$.
@@ -72,11 +82,15 @@ Thus, while integration of $n$-pseudoforms is the most basic, integration of gen
 
 Note that, if $X$ is thought of a submanifold of itself, then it has a natural pseudoorientation that takes each local orientation to itself, and so we recover the original definition of integration of $n$-pseudoforms on $X$.  Also, if $X$ is an oriented manifold, then it may be viewed as an oriented submanifold of itself, giving a definition of integration of $n$-forms on $X$.
 
+To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]].
+
+
+### Integration on more general domains
 
 One often sees the definition of integration given for *parametrised* submanifolds, that is submanifolds where $U$ is an open subset of $\mathbf{R}^p$.  This amounts to a combination of the concepts above, with the two uses of $U$ (as a coordinate patch in $X$ or as the source of a submanifold of $X$) identified.  The theorem that the integral of an $n$-pseudoform on $X$ is independent of the coordinates chosen now becomes a theorem that the integral of a parametrised submanifold is independent of the parametrisation (up to some details about orientation), which in the end returns the result that one can integrate forms over arbitrary submanifolds (given an orientation or pseudoorientation as above).
 
-
-To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]] (at least once we figure out what those are).
+We can also integrate on a [[formal linear combination]] of submanifolds, which is handy since these are the [[chains]] of [[de Rham homology]].  This is straightforward:
+$$ \int_{\sum_i \alpha_i U_i} \omega \coloneqq \sum_i \alpha_i \int_{U_i} \omega .$$
 
 
 ## Properties
@@ -88,9 +102,9 @@ To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute
 
 * [[Lie integration]]
 
+
 ## References
 
 An exposition with an eye towards applications in [[physics]] is section 3 of 
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
-
