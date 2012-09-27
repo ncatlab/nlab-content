@@ -19,7 +19,7 @@ The mathematics of 2-vector spaces is often referred to as _[higher linear algeb
 While the underlying mathematics of 2-vector spaces is elegant and natural, the combinatorics of these basic operations can make calculations difficult to perform by hand. _TwoVect_ implements the basic operations of higher linear algebra, and can make calculations a lot easier.
 
 Here are some example uses for the package.
-* You've worked out the associator and unitors for a semisimple [[monoidal category]], and you want to check the pentagon and triangle equations.
+* You've worked out the associator and unitors for a [semisimple](semisimple+category) [[monoidal category]], and you want to check the pentagon and triangle equations.
 * You've worked out other structure, like a [braiding](braided+monoidal+category), [symmetry](symmetric+monoidal+category) or [ribbon](ribbon+category) structure, and you want to check the defining equations are satisfied.
 * You want to use Mathematica's built-in solvers to help find these structures.
 * You want to calculate the value of a [[string diagram]] in a semisimple monoidal category.
