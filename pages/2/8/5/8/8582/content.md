@@ -1,0 +1,44 @@
+## Definition
+
+In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **formal system** is specified by
+
+1. A collection of [[judgments]], which are strings of symbols in some language, and
+1. A collection of *steps*, each of which has a finite list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
+   $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
+   If $n=0$, a step is often called an [[axiom]].
+
+For a formal system to be reasonable, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.
+
+Usually, one generates the steps by using *rules of inference*, which are schematic ways of describing collections of steps, generally involving metavariables.
+
++-- {: .un_example}
+###### Example
+In the concrete [[algebraic theory]] of [[groups]], the judgments are formal [[equations]] between [[terms]] built out of variables and the symbols $e$, $\cdot$, and $(-)^{-1}$.  Thus, for instance, $x\cdot e = x$ and $x = y \cdot x^{-1}$ are judgments.
+
+The rules of inference express, among other things, that equality is a [[congruence]] relative to the "operations".  For instance, there is a rule
+$$ \frac{a=a' \quad b=b'}{a\cdot a' = b\cdot b'} $$
+where $a$, $b$, etc. are [[metavariables]].  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
+=--
+
+## Proof trees and theorems
+
+A **proof tree** in a formal system is a rooted tree whose edges are labeled by judgments and whose nodes are labeled by steps.  We usually draw these like so:
+$$ \frac{\frac{J_1 \quad J_2}{J_3} \quad \frac{J_4}{J_5}}{J_6} $$
+
+If there is a proof tree with root $J$ and no leaves (which means that every branch must terminate in an axiom), we say that $J$ is a [[theorem]] and write
+$$\vdash J.$$
+More generally, if there is a proof tree with root $J$ and leaves $J_1,\dots, J_n$, we write
+$$ J_1, \dots, J_n \;\vdash\; J. $$
+
++--{: .un_remark}
+###### Remark
+This use of $\vdash$ to express a statement *about* the formal system should be distinguished from its use in particular formal systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
+=--
+
+## Examples and special cases
+
+* [[natural deduction]]
+* [[type theory]]
+* [[sequent calculus]]
+
+[[!redirects formal systems]]
