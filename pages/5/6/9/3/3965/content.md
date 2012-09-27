@@ -578,6 +578,8 @@ This gives the "[[Dirac equation]]" one usually finds in a textbook.
 
 * [[fermionic path integral]]
 
+* [[minimal coupling]]
+
 ## References
 
 Useful literature on this topic is:
