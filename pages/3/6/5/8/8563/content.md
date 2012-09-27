@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -22,15 +21,26 @@ $$
   Alg_R = Ring^{R/}
 $$
 
-of [[rings]] [[undercategory|under]] $R$. 
+of [[rings]] [[undercategory|under]] $R$. If $R$ is a commutative [[rig]], we can do the same with
 
-The _tensor product of $R$-algebras_ is the [[coproduct]] in $Alg_R$,
+$$ Alg_R = Rig^{R/} .$$
+
+The _tensor product of $R$-algebras_ has as [[underlying]] $R$-[[module]] just the [[tensor product of modules]] of the underlying modules, $A \otimes_R B$. On homogeneous elements $(a,b) \in A \times B \stackrel{\otimes}{\to} A \otimes_R B$ the algebra structure is given by
 
 $$
-  A \otimes_R B \simeq A \coprod B \in Alg_R
+  (a_1, b_1) \cdot (a_2, b_2) = (a_1 \cdot a_2, b_1 \cdot b_2)
+  \,.
 $$
 
-hence the [[pushout]] in [[Ring]]
+We write also $A \otimes_R B$ for the tensor product of algebras.
+
+For [[commutative algebra|commutative]] $R$-algebras, the tensor product is the [[coproduct]] in $Comm Alg_R$:
+
+$$
+  A \otimes_R B \simeq A \coprod B \in Comm Alg_R = Comm Rig^{R/}
+;$$
+
+hence the [[pushout]] in [[Comm Ring]] (or [[Comm Rig]])
 
 $$
   \array{
@@ -48,13 +58,6 @@ $$
 $$
 
 
-Explicitly, the $R$-[[module]] underlying $A \otimes_R B$ is just the [[tensor product of modules]] of the underlying modules. On homogeneous elements $(a,b) \in A \times B \stackrel{\otimes}{\to} A \otimes_R B$ the algebra structure is given by
-
-$$
-  (a_1, b_1) \cdot (a_2, b_2) = (a_1 \cdot a_2, b_1 \cdot b_2)
-  \,.
-$$
-
 ## Related concepts
 
 * [[tensor product]]
@@ -62,9 +65,8 @@ $$
 * [[Hochschild cohomology]]
 
 
-
+[[!redirects tensor product of algebras]]
 [[!redirects tensor products of algebras]]
 
 [[!redirects tensor product of commutative algebras]]
 [[!redirects tensor products of commutative algebras]]
-
