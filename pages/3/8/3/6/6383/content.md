@@ -1,32 +1,139 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Definition
 
-A [[group]] $G$ (written additively, often assumed [[abelian group|abelian]]) is called **divisible** if for every [[integer]] $n$ we have that for every element $g \in G$ there is an element $h \in G$ such that
+Let $G$ be a [[group]]. For the following this is often assumed to be (though is not necessarily) an [[abelian group]]. Hence we write here the group operation with a plus-sign
 
 $$
-  g = n \times h \coloneqq (h + h + \cdots + h)
-  \,,
+  + : G \times G \to G
+  \,.
 $$
 
-where on the right we have $n$ summands. In other words, for every $n$ the 'multiply by $n$' map $G \stackrel{n}{\to} G$ is surjective.
+For $\mathbb{N}$ the [[natural numbers]], there is a [[function]]
 
-For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula holds for all $n$ of the form $p^k$ for $k \in \mathbb{N}$.  (There is also an abstract notion of $p$-[[p-divisible group|divisible group]] in terms of [[group schemes]].)
+$$
+  (-)\cdot (-) : \mathbb{N} \times G \to G
+$$
 
-### For abelian groups
+which takes a group element $g$ to 
 
-If $G$ is an abelian group, $G$ is divisible if and only if it is an [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] if and only if the [[hom functor]] $Hom(-,G)$ is [[exact functor|exact]].
+$$
+  n \cdot g \coloneqq \underbrace{g + g + \cdots + g}_{n \; summands}
+  \,.
+$$
 
-This characterization of the notion divisible group is discussed in [Tsit-YuenMoRi,Proposition 3.19] (#Tsit-YuenMoRi).
 
++-- {: .num_defn }
+###### Definition
+
+A [[group]] $G$ is called **divisible** if for every [[natural number]] $n$ (hence for every [[integer]]) we have that for every element $g \in G$ there is an element $h \in G$ such that 
+
+$$
+  g = n \cdot h
+  \,.
+$$
+
+=--
+
+In other words, if for every $n$ the 'multiply by $n$' map $G \stackrel{n}{\to} G$ is a [[surjection]].
+
++-- {: .num_defn }
+###### Definition
+
+For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula holds for all $n$ of the form $p^k$ for $k \in \mathbb{N}$. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+There is also an abstract notion of $p$-[[p-divisible group|divisible group]] in terms of [[group schemes]].
+
+=--
+
+## Properties
+
+### Equivalent characterization
+
++-- {: .num_prop }
+###### Proposition
+
+Let $A$ be an [[abelian group]].
+
+Assuming the [[axiom of choice]], the following are equivalent:
+
+1.  $A$ is divisible
+
+1.  $A$ is [[injective object]] in the the [[category]] [[Ab]] of [[abelian groups]] 
+
+1. the [[hom functor]] $Hom_{Ab}(-,A) : Ab^{op} \to Ab$ is [[exact functor|exact]].
+
+=--
+
+This is for instance in ([Tsit-YuenMoRi,Proposition 3.19] (#Tsit-YuenMoRi)). It follows for instance from using [[Baer's criterion]].
+
+### Stability under various operations
+
++-- {: .num_prop }
+###### Proposition
+
+The [[direct sum]] of divisible groups is itself divisible.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[quotient group]] of a divisible group is itself divisible.
+
+=--
 
 ## Examples
 
-* The rationals $\mathbb{Q}$ and (more generally) the underlying abelian group of any $\mathbb{Q}$-[[vector space]] are divisible.
++-- {: .num_example }
+###### Example
+
+The additive group of [[rational number]] $\mathbb{Q}$ is divisible.
+Hence also that underlying the [[real numbers]] $\mathbb{R}$ and the [[complex numbers]].
+
+=--
+
+Hence:
+
++-- {: .num_example }
+###### Example
+
+The underlying abelian group of any $\mathbb{Q}$-[[vector space]] isdivisible.
+
+=--
+
++-- {: .num_example }
+###### Counter-Example
+
+The following groups are **not** divisible:
+
+* the additive group of [[integers]] $\mathbb{Z}$.
+
+* the [[cyclic group]] $\mathbb{Z}_n$ for $n \geq 1 \in \mathbb{N}$.
+
+=--
+
 
 ## References
 
-* {#Tsit-YuenMoRi} Lam, Tsit-Yuen (1999), Lectures on modules and rings, Graduate Texts in Mathematics No. 189, Berlin, New York
+* Tsit-Yuen Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics No. 189, Berlin, New York (1999)
+  {#Tsit-YuenMoRi} 
