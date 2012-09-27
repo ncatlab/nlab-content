@@ -122,6 +122,8 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
   * [[sporadic finite simple groups]]
 
+* [[divisible group]]
+
 * [[progroup]]
 
 * [[topological group]]
