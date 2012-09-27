@@ -15,7 +15,7 @@
 
 ## Idea
 
-A sequent calculus is a [[proof system]] for [[predicate logic]] (or something similar) in which the basic concept is a [[sequent]]
+A sequent calculus is a [[formal system]] for [[predicate logic]] (or something similar) in which the basic [[judgment]] is a [[sequent]]
 $$ \phi_1, \phi_2, \ldots \vdash \psi_1, \psi_2, \ldots ,$$
 expressing the idea that some statement $\psi_i$ must be true if every statement $\phi_i$ is true.  The original sequent calculi were developed by [[Gerhard Gentzen]] in 1933.
 
