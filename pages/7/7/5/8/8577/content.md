@@ -1,16 +1,21 @@
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[sequent calculus]] and [[natural deduction]]
-a **hypothesis** or **premise** is the [[antecedent]] of a [[sequent]].
+In [[logic]] (such as [[sequent calculus]] or [[natural deduction]])
+a **hypothesis** or **premise** is the [[antecedent]] of a [[sequent]] (or part of one).
+
 
 ## Related concepts
 
 * [[consequence]]
 
+
+[[!redirects hypothesis]]
 [[!redirects hypotheses]]
+
+[[!redirects premise]]
 [[!redirects premises]]
