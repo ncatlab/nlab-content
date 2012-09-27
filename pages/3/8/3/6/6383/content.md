@@ -95,7 +95,7 @@ The [[direct sum]] of divisible groups is itself divisible.
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #QuotientOfDivisibleIsDivisible}
 ###### Proposition
 
 Every [[quotient group]] of a divisible group is itself divisible.
@@ -121,16 +121,21 @@ The underlying abelian group of any $\mathbb{Q}$-[[vector space]] is divisible.
 
 =--
 
-Also, by the result on quotients, 
+Also, by prop. \ref{QuotientOfDivisibleIsDivisible}, 
 
-+-- {: .num_example }
++-- {: .num_example #CircleGroupExample}
 ###### Example
 
-The abelian group $\mathbb{Q}/\mathbb{Z}$ is divisible.
+The [[quotient groups]] $\mathbb{Q}/\mathbb{Z}$ and $\mathbb{R}/\mathbb{Z}$ are divisible (the latter is also written $U(1)$ (for _[[unitary group]]_) or $S^1$ (for _[[circle group]]_)).
 
 =--
 
-What is additionally interesting about this last example is that it provides an injective [[cogenerator]] for the category of abelian groups. Similarly, $\mathbb{R}/\mathbb{Z}$ is an injective cogenerator. 
++-- {: .num_remark }
+###### Remark
+
+What is additionally interesting about example \ref{CircleGroupExample} is that it provides an [[injective object|injective]] [[cogenerator]] for the [[category]] [[Ab]] of abelian groups. Similarly, $\mathbb{R}/\mathbb{Z}$  is an injective cogenerator. 
+
+=--
 
 +-- {: .num_example }
 ###### Counter-Example
