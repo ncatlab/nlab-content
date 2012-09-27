@@ -6,3 +6,6 @@ A [[n-truncated object in an (infinity,1)-topos|1-truncated]] [[smooth infinity-
 
 [[!redirects smooth groupoids]]
 
+[[!redirects smooth group]]
+[[!redirects smooth groups]]
+
