@@ -28,6 +28,8 @@ Ring objects can be defined in more general [[symmetric monoidal categories]] as
 
 ## Examples
 
+* A ring object in [[Top]] is a [[topological ring]].
+
 * A [[topos]] equipped with a ring object is called a [[ringed topos]], see there for more details.
 
 
