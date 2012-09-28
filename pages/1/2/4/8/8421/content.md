@@ -47,7 +47,7 @@ while its elimination rules might be
 $$ \frac{A\wedge B\; true}{A\;true} \qquad \frac{A\wedge B\;true}{B\;true}.$$
 The introduction and elimination rules must fit together in an appropriate way, sometimes referred to as "harmony".
 
-Similarly, in a system of [[type theory]], the relevant judgments are typing judgments of the form $a:A$, meaning that the [[term]] $a$ belongs to the type $A$.  In this case, an analogous constructor might be the cartesian product type, whose rules are analogous, but keeping track of the specific terms involved (see [[propositions as types]]):
+Similarly, in a system of [[type theory]], the relevant judgments are typing judgments of the form $a:A$, meaning that the [[term]] $a$ belongs to the [[type]] $A$.  In this case, an analogous constructor might be the cartesian [[product type]], whose rules are analogous, but keeping track of the specific terms involved (see [[propositions as types]]):
 $$ \frac{a:A \qquad b:B}{(a,b):A\times B}$$
 and
 $$ \frac{p:A\times B}{\pi_1(p):A} \qquad \frac{p:A\times B}{\pi_2(p)B}.$$
@@ -78,7 +78,7 @@ On the other hand, in type theories that have a [[type of types]], there may be 
 
 ### Hypothetical reasoning
 
-Natural deduction also generally involves *hypothetical judgments* or *reasoning from assumptions*.  For instance, the introduction rule for implication in a system of propositional logic says that if, *assuming* "$A$", we can derive "$B$", then we can derive "$A\Rightarrow B$".  This is sometimes written as
+Natural deduction also generally involves *hypothetical judgments* or *[[deductive reasoning|reasoning]] from [[assumptions]]*.  For instance, the introduction rule for [[implication]] in a system of [[propositional logic]] says that if, *assuming* "$A$", we can derive "$B$", then we can derive "$A\Rightarrow B$".  This is sometimes written as
 \[ \frac{\array{[A]\\ \vdots \\ B}}{A\Rightarrow B} \label{impintro} \]
 (We now follow the common practice of writing the judgment "$A\;true$" as simply "$A$".)
 Here the $\vdots$ indicate an arbitrary derivation tree, while the brackets around $A$ indicate that this assumption has been "discharged" and is no longer an assumption in the conclusion $A\Rightarrow B$.  To be precise, we should annotate each bracket somehow to indicate which rule discharged that assumption.
@@ -118,93 +118,11 @@ In a type theory with a [[type of types]], this judgment could be written as $(x
 
 +-- {: .un_remark}
 ###### Remark
-So far, we have been considering hypothetical judgments such as $A\vdash B$ and generic judgments such as $(x:A)\vdash (b(x):B)$ to be "atomic" judgments in a particular [[deductive system]].  In particular, the turnstyle symbol $\vdash$ has been simply another symbol that we use to build judgments according to a particular syntax, analogous to the colon $:$.  As remarked at [[deductive system]], this usage of $\vdash$ is *a priori* completely unrelated to its use to indicate provability of theorems in a particular deductive system (such as a system of natural deduction), and therefore perhaps ought to be denoted by a different symbol.
+So far, we have been considering hypothetical judgments such as $A\vdash B$ and generic judgments such as $(x:A)\vdash (b(x):B)$ to be "atomic" judgments in a particular [[deductive system]].  In particular, the turnstile symbol $\vdash$ has been simply another symbol that we use to build judgments according to a particular syntax, analogous to the colon $:$.  As remarked at [[deductive system]], this usage of $\vdash$ is *a priori* completely unrelated to its use to indicate provability of theorems in a particular deductive system (such as a system of natural deduction), and therefore perhaps ought to be denoted by a different symbol.
 
 However, it is also possible to incorporate some "knowledge" about the meaning of hypothetical and generic judgments into the deductive system, and thereby bring the two meanings of $\vdash$ back into alignment.  See [[logical framework]] for a development of this idea.
 =--
 
-
-## Examples of type formation/introduction/elemination/computation rules
-
-### Conjunction and product types
-
-The notion of [[product type]] formalizes the [[logic]] of [[conjunction]] (logical "and") and the formation of [[cartesian products]] in [[category theory]]
-
-1. **Type formation**
-
-   $$
-     \frac{\vdash A : Type, \;\;\;\; B : Type}{\vdash A \times B : Type}
-   $$
-   
-   "Given two types $A$ and $B$, there is a new type $A \times B$."
-
-   "Given two propositions $A$ and $B$, there is a new proposition $A and B$,"
-
-2. **Term introduction**
-
-   $$
-     \frac{
-         \vdash A : Type, \;\;\; B : Type
-      }{ 
-          a : A,\; b : B \vdash (a,b) : A \times B
-      }
-   $$
-
-   "Given two types $A$ and $B$ and whenever we are in a context where terms $a \in A$ and $b \in B$ are given, there is a term called $(a,b)$ of $A \times B$".
-
-   "Given a proof $a$ of proposition $A$ and a proof $b$ of proposition $B$, there is a proof $(a,b)$ of proposition $A and B$."
-
-3. **Term elimination**
-  
-   $$
-     \frac{ 
-        \vdash A : Type, \;\;\; B : Type
-     }{ 
-        q  : A \times B  \vdash p_1(q) : A 
-     }
-   $$
-
-   $$
-     \frac{ 
-        \vdash A : Type, \;\;\; B : Type
-     }{ 
-        q  : A \times B \vdash  p_2(q) : A 
-     }
-   $$
-
-   "Given types $A$ and $B$ and whenever we are in a context with a term $q$ of $A \times B$ given, there is a term $p_1(q)$ of type $A$ and a term $p_2(q)$ of type $B$."
-
-   "Given a proof $q$ of $A and B$ there is a proof $p_1(q)$ of $A$ and a proof $p_2(q)$ of $B$."
-
-4. **Computation**
-
-   $p_1(a,b) = a$
-
-   $p_2(a,b) = b$
-
-   "If we use the term introduction rule to first build the term called $(a,b) \in A \times B$ from terms $a \in A$ and $b \in B$ and then use the term elimination rule to produce from that terms $p_1(a,b) \in A$ and $p_2(a,b) \in B$, then the result has to be equal to the original two terms. "
-
-   "If $(a,b)$ is the proof of $A and B$ obtained from a proof $a$ of $A$ and a proof $b$ of $B$, then $p_1(a,b)$ and $p_2(a,b)$ are these original two proofs. "
-
-
-### Disjunction and sum types
-
-(...)
-
-
-### Implication and function types
-
-(...)
-
-
-### Existential quantification and dependent sum types
-
-(...)
-
-
-### Existential quantification and dependent product types
-
-(...)
 
 
 ## Properties
