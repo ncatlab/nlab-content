@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _Friedmann&#8211;Lema&#238;tre&#8211;Robertson&#8211;Walker model_ is a solution to [[Einstein's equations]] describing an homogeneous and isotropic expanding or contracting [[spacetime]]. Hence these are solutions used as [[model (in theoretical physics)|models]] in [[cosmology]]. Indeed, an FRW-model is part of the [[standard model of cosmology]].
+A _Friedmann&#8211;[[Georges Lemaître|Lemaître]]&#8211;Robertson&#8211;Walker model_ is a solution to [[Einstein's equations]] describing an homogeneous and isotropic expanding or contracting [[spacetime]]. Hence these are solutions used as [[model (in theoretical physics)|models]] in [[cosmology]]. Indeed, an FRW-model is part of the [[standard model of cosmology]].
 
 ## Details
  {#Details}
@@ -86,3 +86,9 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 [[!redirects FRW spacetime]]
 [[!redirects FRW spacetimes]]
+
+[[!redirects FLRW model]]
+[[!redirects FLRW models]]
+[[!redirects FLRW spacetime]]
+[[!redirects FLRW spacetimes]]
+
