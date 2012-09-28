@@ -1,11 +1,38 @@
 [[!redirects left invariant differential form]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
 A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the left [[action]] of $G$ on itself
 
 $g^* \omega = \omega$.
 
 Analogously a form is **right invariant** if it is invariant under right multiplication.
 
+## Related concepts
+
+* [[Maurer-Cartan form]]
+
+
+## References
+
+page 89 (20 of 49) at
+
+* MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
 
 [[!redirects left invariant]]
 
