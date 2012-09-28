@@ -82,11 +82,13 @@ Ours is the age to figure this out.
 
 ## Related concepts
 
-* [[[scattering amplitude]]
+* [[scattering amplitude]]
 
 * [[renormalization]]
 
 * [[AQFT]], [[FQFT]]
+
+* [[QFT on non-commutative spacetime]]
 
 ## References
 
