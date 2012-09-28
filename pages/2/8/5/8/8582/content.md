@@ -23,16 +23,19 @@
 
 ## Definition
 
-In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **deductive system** (or, sometimes, **formal system**) is specified by
+In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **deductive system** (or, sometimes, **inference system**) is specified by
 
-1. A collection of [[judgments]], which are strings of symbols in some language, and
-2. A collection of *steps*, each of which has a finite list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
+1. A collection of [[judgments]], and
+2. A collection of *steps*, each of which has a (typically finite) list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
    $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
    If $n=0$, a step is often called an [[axiom]].
 
-Moreover, to be considered a deductive system, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.  Deductive systems containing undecidable steps (e.g., most notably the $\omega$-rule) are sometimes known as **semi-deductive systems**.
-
 Usually, one generates the steps by using *rules of inference*, which are schematic ways of describing collections of steps, generally involving metavariables.
+
++-- {: .un_remark}
+###### Remark
+This use of the terminology "deductive system" is not completely standard, but it is not uncommon, and we need *some* name by which to refer to this general notion.
+=--
 
 +-- {: .un_example}
 ###### Example
@@ -43,10 +46,6 @@ $$ \frac{a=a' \quad b=b'}{a\cdot a' = b\cdot b'} $$
 where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
 =--
 
-+-- {: .un_remark}
-###### Remark
-This use of the terminology "deductive system" is not completely standard, but it is not uncommon, and we need *some* name by which to refer to this general notion.
-=--
 
 ## Proof trees and theorems
 
@@ -64,6 +63,9 @@ This is equivalent to saying that $J$ is a theorem in the extended deductive sys
 This use of $\vdash$ to express a statement *about* the deductive system should be distinguished from its use in particular deductive systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
 =--
 
+## Formal systems
+
+The term **formal system** is used to further identify those deductive systems in which judgments are represented by some concrete [[datatype]] (e.g., strings of symbols), and in which it is decidable whether a given element of this datatype represents a judgment, whether two such elements represent the same judgment, and whether a given step matches a given inference rule.  Formal systems have an obvious appeal from a foundationalist standpoint, but more general deductive systems are considered in logic and type theory, typically because they give a simpler account of computational phenomena such as [[cut-elimination]].  A well-known example of such a so-called "semi-formal system" is [[first-order arithmetic]] with the [[$\omega$-rule]].
 
 ## Examples and special cases
 
