@@ -15,6 +15,13 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[Haskell]], [[Coq]], [[Agda]], [[NuPRL]], ....
 
+## Related concepts
+
+* [[computation]]
+
+* [[computational trinitarianism]]
+
+
 [[!redirects programming languages]] 
 
 
