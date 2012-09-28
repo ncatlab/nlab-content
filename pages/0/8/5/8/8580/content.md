@@ -314,6 +314,7 @@ In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _a
 1. a _[[site]]_.
 
 #### The algebraic theory of smooth algebras
+ {#TheAlgebraicTheoryOfSmoothAlgebras}
 
 +-- {: .num_prop}
 ###### Propositions
@@ -358,6 +359,7 @@ is a _[[smooth algebra]]_.
 (...)
 
 #### The coverage of differentially good open covers
+ {#CoverageOfDifferentiallyGoodOpenCovers}
 
 +-- {: .num_defn}
 ###### Definition
@@ -452,7 +454,7 @@ $$
 
 We say that these symbols express the _[[judgement]]_ that $X$ is a _[[type]]_. We also say that $\vdash \; X \colon Type$ is the _[[syntax]]_ of which $X \in \mathcal{C}$ is the _[[categorical semantics]]_.
 
-For instance the [[terminal object]] $* \in \mathcal{C}$ we call the [[categorical semantix]] of the _[[unit type]]_ and write [[syntaxt|syntactically]] as
+For instance the [[terminal object]] $* \in \mathcal{C}$ we call the [[categorical semantics]] of the _[[unit type]]_ and write [[syntax|syntactically]] as
 
 $$
   \vdash \; Unit \colon Type
@@ -555,18 +557,49 @@ being the [[judgment]] which expresses that $y(x)$ is a [[term in context]] of a
 #### Natural deduction rules for product types
  {#NaturalDeductionRulesForProductTypes}
 
-For $A$ and $B$ two objects, their [[product]] $A \times B$ we call a [[product type]]. 
+With the [above symbolic notation](#Judgments) for making [[judgments]] about the presence of [[objects]] and [[morphisms]] in a [[category]] $\mathcal{C}$, we now consider a system of rule of [[deduction]]  that tells us how we may _process_ these symbols (how to do _[[computations]]_) such that the new symbols we obtain in turn express new objects and new morphisms in $\mathcal{C}$ that we can build out of the given ones by _[[universal constructions]]_ in the sense of [[category theory]]. 
 
-The [[type formation rule]] which says that we have the product type as soon as we have $A$ and $B$ we write
+This way of _deducing_ new expressions from given ones is very basic as well as very natural and hence goes by the technical term _[[natural deduction]]_. For every kind of [[type]] (every [[universal construction]] in [[category theory]]) there is, in [[natural deduction]], one set of rules for how to [[deductive reasoning|deductively reason]] about it. This set of rules, in turn, always consists of four kinds of rules, called the
+
+1. [[type formation rule]]
+
+1. [[term introduction rule]]
+
+1. [[term elimination rule]]
+
+1. [[computation rule]].
+
+These are going to be the [[syntax]] in _[[type theory]]_ of which [[universal constructions]] in [[category theory]] is the [[categorical semantics]].
+
+In our running example where $\mathcal{C} = $ [[CartSp]], the only [[universal construction]] available is that of forming [[products]]. We therefore introduce now the [[natural deduction]] rules by way of example of the special case of [[product types]].
+
+**1. [[type formation rule]]** Let 
 
 $$
-  \frac{A \colon Type \;\;\; B \colon Type}{ A \times B \colon Type}
+  A , B \in \mathcal{C}
+$$ 
+
+be two [[objects]] in a [[category]] with [[products]]. Then there exists [[generalized the|the]] [[product]] [[object]]
+
+$$
+  A \times B \in \mathcal{C}
   \,.
 $$
 
-The [[universal property]] of the [[product]] $A \times B$ we express as follows. 
+We now declare that the [[syntax]] of which this state of affairs is the [[categorical semantics]] is the collection of symbols of the form
 
-**[[term elimination rule]]**. The fact that $A \times B$ is equipped with two [[projection]] [[morphisms]] 
+$$
+  \frac{A \colon Type \;\;\;\;\; B \colon Type}{ A \times B \colon Type}
+  \,.
+$$
+
+Here on top of the horizontal line we have the two [[judgments]] which express that, [[syntax|syntactically]], $A$ is a [[type]] and $B$ is a [[type]], and [[semantics|semantically]]  that $A \in \mathcal{C}$ and $B \in \mathcal{C}$. Below the horizontal line is, in turn, the [[judgment]] which expresses that there is, syntactically,  a [[product type]], which semantically is the [[product]] $A \times B \in \mathcal{C}$. The horizontal line itself is to indicate that if we are given the (symbols of) the collection of judgments on top, then we are entitled to also obtain the judgment on the bottom.
+
+**Remark (Computation)** All this may seem, on first sight, like being a lot of fuss about something of grandiose banality. To see what is gradually being accomplished here despite of this appearance, as we proceed in this discussion, the reader can and should think of this as the first steps in the definition of a [[programming language]]: the notiuon of judgment is a syntactic rules for strings of symbols that a computer is to read in, and a [[natural deduction]]-step as the [[type formation rule]] above is an operation that this computer validates as being an allowed step of transforming a memory state with a given collection of such strings into a new memory state to which the string below the horizontal line is added. As we add the remaining rules below, what looks like a grandiose banality so far will remain grandiose, but no longer be a banality. The reader feeling in need of more motativational remarks along these lines might want to take a break here and have a look at the entry _[[computational trinitarianism]]_ first, that provides more pointers to the grandiose picture which we are approaching here.
+
+Next, the second [[natural deduction]] rule for [[product types]] is the
+
+**2. [[term elimination rule]]**. The fact that $A \times B \in \mathcal{C}$ is equipped with two [[projection]] [[morphisms]] 
 
 $$
   \array{
@@ -574,26 +607,61 @@ $$
   }
 $$ 
 
-means that from every [[term]] $t$ of $A \times B$ we may deduce the existence of terms $p_1(t)$ and $p_2(t)$ of $A$ and $B$, respectively, which is written
+means that from every [[element]] $t$ of $A \times B$ we may deduce the existence of [[elements]] $p_1(t)$ and $p_2(t)$ of $A$ and $B$, respectively. We declare now that this is the [[categorical semantics]] of which the [[natural deduction]] [[syntax]] is:
 
 $$
   \frac{\vdash \; t \colon A \times B}{\vdash \; p_1(t) \colon A}
-  \;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;
   \frac{\vdash \; t \colon A \times B}{\vdash \; p_2(t) \colon B}
+  \,.
 $$
 
-**[[term introduction rule]]**. The fact that for every other object $Q$ with morphisms $A \stackrel{a}{\leftarrow} Q \stackrel{b}{\to} B$ we obtain a morphism $Q \to A \times B$ is expressed by
+As before, this is to say that if syntactically we are given strings of symbols expressing [[judgments]] as on the top of these horizontal lines, then we may "[[natural deduction|naturally deduce]]" also the judgment of the string of symbols on the bottom of this line.
+
+**3. [[term introduction rule]]**. The first part of the [[universal property]] of the [[product]] in [[category theory]] is that for  $Q \in \mathcal{C}$ any other [[object]] equipped with morphisms 
+
+$$
+  \array{
+    && Q
+    \\
+    & {}^{\mathllap{a}}\swarrow && \searrow^{\mathrlap{b}}
+    \\
+    A  && &&  B
+  }
+$$ 
+
+in $\mathcal{C}$, we obtain a canonical morphism 
+
+$$
+  Q \to A \times B
+$$ 
+
+in $\mathcal{C}$. This is now declared to be the [[categorical semantics]] of which the [[natural deduction]] [[syntax]] is
 
 $$
   \frac{
-    \vdash\; a \colon A \;\;\;\; \vdash\; b \colon B
+    \vdash\; a \colon A \;\;\;\;\;\; \vdash\; b \colon B
   }{
    \vdash (a,b) \colon A \times B
   }
   \,.
 $$
 
-**[[computation rule]]**. The fact that the resulting [[diagram]] [[commuting diagram|commutes]]
+With the [[elements]] that are the [[semantics]] of the terms appearing here made explicit, this is the syntax for a [[diagram]]
+
+$$
+  \array{
+     && Q
+     \\
+     & {}^{\mathllap{a}}\swarrow &\downarrow^{\mathrlap{(a,b)}}& \searrow^{\mathrlap{b}}
+     \\
+     A && A \times B && B
+  }
+  \,.
+$$
+
+
+**4. [[computation rule]]**. The next part of the [[universal property]] of the [[product]] in [[category theory]] is that the resulting [[diagram]]
 
 $$
   \array{
@@ -601,18 +669,18 @@ $$
     \\ 
     & {}^{\mathllap{a}}\swarrow &\downarrow& \searrow^{\mathrlap{b}}
     \\
-    A \stackrel{p_1}{\leftarrow} A \times B  \stackrel{p_2}{\to} B
+    A &\stackrel{p_1}{\leftarrow}& A \times B & \stackrel{p_2}{\to} & B
   }
 $$
 
-is expressed by writing
+is in fact a _[[commuting diagram]]_. Syntactically this is, clearly, the rule that the following identifications of strings of symbols are to be enforced
 
 $$
-  \frac{  
-    
-  }{
-  }
+  p_1(a,b) = a \;\;\;\;\;\; p_2(a,b) = b
+  \,. 
 $$
+
+This concluces the description of the [[natural deduction]] about [[objects]], [[morphisms]] and [[products]] in a [[category]] using its [[type theory]] [[syntax]]. In the [next section](#SmoothSpaces) we promote our running example category $\mathcal{C}$, which admits only very few [[universal constructions]] (just [[products]]), to a richer category, the [[sheaf topos]] over it. That richer category then accordingly comes with a richer [[syntax]] of [[natural deduction]] inside it, namely with full [[dependent type theory]]. This we discuss in the [Syn Layer below](#SmoothSpacesLayerSyn).
 
 
 ## Smooth spaces
@@ -651,13 +719,14 @@ Example: [[smooth loop space]] $L X = [S^1, X]$ (on the horizon: [[path integral
 
 [[slice topos]]
 
-[[object classifier]]
+[[subobject classifier]]
 
 ### Layer Syn
+ {#SmoothSpacesLayerSyn}
 
-[[dependent type theory]]
+[[dependent type theory]] $\leftrightarrow$ [[locally cartesian closed category]]
 
-[[type of propositions]]
+[[type of propositions]] $\leftrightarrow$ [[subobject classifier]]
 
 ## Differential forms
 
