@@ -24,7 +24,7 @@ A _Friedmann&#8211;[[Georges Lemaître|Lemaître]]&#8211;Robertson&#8211;Walker 
 ## Details
  {#Details}
 
-The plain FRW model parameterizes a homogenous and isotropic [[spacetime]] after [[diffeomorphism]] [[gauge fixing]] with a single parameter $t \mapsto a(t)$, the _scale factor of the univers_ depending on coordinate time $t$ (fixed by some gauge condition).
+The plain FRW model parameterizes a homogenous and isotropic [[spacetime]] after [[diffeomorphism]] [[gauge fixing]] with a single parameter $t \mapsto a(t)$, the _scale factor of the universe_ depending on coordinate time $t$ (fixed by some gauge condition).
 
 The [[equations of motion]] of the FRW model are then
 
