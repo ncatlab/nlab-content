@@ -1,3 +1,36 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A [[program]]. A construction of a [[term]] of some [[type]].
+
+## Related concepts
+
+* [[programs as proofs]]
+
+* [[computational trinitarianism]]
+
+* [[programming language]]
+
+[[!redirects computations]]
