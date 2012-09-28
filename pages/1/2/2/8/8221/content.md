@@ -25,5 +25,9 @@ an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological const
 
 ## References
 
+
+* Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
+
+
 * Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
 
