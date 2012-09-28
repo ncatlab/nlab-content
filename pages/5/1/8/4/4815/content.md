@@ -16,7 +16,7 @@
 
 ## Definition
 
-In an [[action functional]] on a space of [[pseudo-Riemannian manifold]]s -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]]
+In an [[action functional]] on a space of [[pseudo-Riemannian manifolds]] -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]]
 
 $$
   S_{cos} :  (X,g) \mapsto \lambda \int_X dvol_g
@@ -41,10 +41,17 @@ $$
 
 In this context those solutions to the [[Euler-Lagrange equation]]s are of interest in which $\lambda(\phi)$ happens to be exactly or approximately constant. Many such models of not-really-constant-but-effectively-constant terms proportional to the volume are being proposed and considered in attempts to explain observed or speculated dynamics of the cosmos.
 
+See in particular at [[FRW model]] for the role of the cosmologicsl constant in homogeneous and isotropic models as in the [[standard model of cosmology]].
+
 ## Related concepts
+
+* [[FRW model]]
 
 * [[cosmology]]
 
+* [[energy]]
+
+  * [[matter]], [[radiation]], **cosmological constant**
 
 ## References
 
