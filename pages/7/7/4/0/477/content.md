@@ -26,6 +26,8 @@ More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete ca
 
 ## Properties
 
+### General
+
 * When they exist, products are unique up to unique canonical isomorphism, so we often say "[[generalized the|the]] product."
 
 * One can define in a similar way a product of any family of objects.  A product of the [[empty set|empty]] family is a [[terminal object]].
@@ -34,6 +36,9 @@ More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete ca
 
 * A product in $C$ is the same as a [[coproduct]] in its [[opposite category]] $C^{op}$.
 
+### Relation to type theory
+
+[[!include product natural deduction - table]]
 
 ## Examples
 
