@@ -55,5 +55,7 @@ This use of $\vdash$ to express a statement *about* the deductive system should 
 
 [[!redirects deductive system]]
 [[!redirects deductive systems]]
+[[!redirects deduction system]]
+[[!redirects deduction systems]]
 [[!redirects formal system]]
 [[!redirects formal systems]]
