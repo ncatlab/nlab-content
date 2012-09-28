@@ -40,6 +40,8 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
 
   * [[∞-Lie groupoid]]
 
+  * [[Kriegl and Michor's cartesian closed category of manifolds]]
+
 * [[CartSp]]-[[structured (∞,1)-topos|Structured (∞,1)-topos]]
 
   * [[differential module|Differential modules]]
