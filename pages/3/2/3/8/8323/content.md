@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _structural rules_ of a [[logic]] are those rules which make no reference to logical operators but only to the unstructured [[premise]]s of a [[deduction]].
+The _structural rules_ of a [[logic]] or [[deductive system]] are those rules which make no reference to logical operators but only to the unstructured [[premise]]s of a [[deduction]].
 
 
 ## Examples
