@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -115,6 +115,27 @@ For some purposes it is useful or necessary to vary the way the ordinary definit
 * [[type-theoretic definition of category]] -- a variant of the second definition, interpreted explicitly in [[dependent type theory]].
 
 The first definition, with a single collection $C_1$ of morphisms, generalises to the notion of [[internal category]]; essentially, we define a category internal to (some other category) $D$ as above, with 'collection' interpreted as an object of $D$ and 'function' interpreted as a morphism of $D$.  In particular, a category internal to [[Set]] is the same thing as a small category.
+
+### Equivalent definitions
+ {#EquivalenceDefinitions}
+ {#EquivalentDefinitions}
+
+
+A [[category]] is equivalently 
+
+* a [[monad]] in the [[2-category]] of [[spans]] of [[sets]];
+
+* a [[monoid]] in the [[monoidal category]] of endospans on the set of objects;
+
+* a [[simplicial set]] which satisfies the [[Segal conditions]];
+
+* a [[simplicial set]] which satisfies the [[weak Kan complex]] conditions strictly:
+
+* hence a [[directed homotopy type theory|directed homotopy type]] which is "1-truncated";
+
+
+* 
+
 
 ### Generalizations
 
