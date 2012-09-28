@@ -1,9 +1,14 @@
+
+# Formal systems
+* table of contents
+{: toc}
+
 ## Definition
 
 In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **formal system** is specified by
 
 1. A collection of [[judgments]], which are strings of symbols in some language, and
-1. A collection of *steps*, each of which has a finite list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
+2. A collection of *steps*, each of which has a finite list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
    $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
    If $n=0$, a step is often called an [[axiom]].
 
@@ -17,8 +22,9 @@ In the concrete [[algebraic theory]] of [[groups]], the judgments are formal [[e
 
 The rules of inference express, among other things, that equality is a [[congruence]] relative to the "operations".  For instance, there is a rule
 $$ \frac{a=a' \quad b=b'}{a\cdot a' = b\cdot b'} $$
-where $a$, $b$, etc. are [[metavariables]].  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
+where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
 =--
+
 
 ## Proof trees and theorems
 
@@ -30,10 +36,11 @@ $$\vdash J.$$
 More generally, if there is a proof tree with root $J$ and leaves $J_1,\dots, J_n$, we write
 $$ J_1, \dots, J_n \;\vdash\; J. $$
 
-+--{: .un_remark}
++-- {: .un_remark}
 ###### Remark
 This use of $\vdash$ to express a statement *about* the formal system should be distinguished from its use in particular formal systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
 =--
+
 
 ## Examples and special cases
 
@@ -41,4 +48,6 @@ This use of $\vdash$ to express a statement *about* the formal system should be 
 * [[type theory]]
 * [[sequent calculus]]
 
+
+[[!redirects formal system]]
 [[!redirects formal systems]]
