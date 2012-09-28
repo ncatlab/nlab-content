@@ -65,7 +65,7 @@ Here we discuss the central aspects of the nature of such abstract coordinate sy
 ### Layer Mod
  {#CoordinateSystemsLayerMod}
 
-In this [Mod Layer ](#LayerMod) we discuss the [[concrete particulars]] of _[[coordinate systems]]_: the [[continuum real line]] $\mathbb{R}$, the [[Cartesian spaces]] $\mathbb{R}^n$ formed from it and the [[smooth functions]] between these.
+In this [Mod Layer ](#LayerMod) we discuss the [[concrete particulars]] of _[[coordinate systems]]_: the [[continuum]] [[real line]] $\mathbb{R}$, the [[Cartesian spaces]] $\mathbb{R}^n$ formed from it and the [[smooth functions]] between these.
 
 #### The continuum real (world-)line
  {#TheContinuumRealWorldLine}
@@ -128,13 +128,13 @@ for $a \lt b \in \mathbb{R}$.
 
 A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
 
-* a **[[continuous function]]** if for all $a \lt b \in \mathbb{R}$ the [[preimage]] $f^{-1}(a,b) \coloneqq \{x \in \mathbb{R} | a \lt f(x) \lt b\}$ is a [[disjoint union]] of open intervals;
+* a **[[continuous function]]** if for all $a \lt b \in \mathbb{R}$ the [[preimage]] $f^{-1}(a,b) \coloneqq \{x \in \mathbb{R} | a \lt f(x) \lt b\}$ is a [[union]] of [[open intervals]];
 
-* a **[[smooth function]]** if for every $n \in \mathbb{N}$ the $n$th [[derivative]] $f^{(n)} : \mathbb{R} \to \mathbb{R}$ exists and is a [[continuous function]].
+* a **[[smooth function]]** if, [[corecursion|corecursively]], it is a [[continuous function]] and such that the [[derivative]] $\frac{d f}{d x} : \mathbb{R} \to \mathbb{R}$ exists and is again a smooth function.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CartesianSpaceAndHomomorphism}
 ###### Definition
 
 For $n \in \mathbb{N}$, the **[[Cartesian space]]** $\mathbb{R}^n$ is the set
@@ -168,12 +168,90 @@ hence a [[function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ such that all [
 
 =--
 
-* [[coordinate system]] = [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{N}$;
++-- {: .num_example}
+###### Example
 
-[[homomorphism]] of coordinate systems = [[smooth function]]
-$\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+Regarding $\mathbb{R}^n$ as an $\mathbb{R}$-[[vector space]], 
+every [[linear function]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+is in particular a [[smooth function]].
 
-#### Properties of smooth functions
+=--
+
++-- {: .num_remark}
+###### Remark
+
+But a homomorphism of Cartesian spaces in def. \ref{CartesianSpaceAndHomomorphism} is *not* required to be a [[linear map]]. We do *not* regard the Cartesian spaces here as [[vector spaces]]. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A [[smooth function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is called a **[[diffeomorphism]]** if there exists another smooth function 
+$\mathbb{R}^{n_2} \to \mathbb{R}^{n_1}$ such that the underlying functions of sets are [[inverse]] to each other
+
+$$
+  f \circ g = id
+$$
+
+and
+
+$$
+  g \circ f = id
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If there is a [[diffeomorphism]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ then $n_1 = n_2$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+We will also say equivalently that
+
+1. a [[Cartesian space]] $\mathbb{R}^n$ is an **[[coordinate system|abstract coordinate system]]**;
+
+1. a [[smooth function]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is an **[[coordinate transformation|abstract coordinate transformation]]**;
+
+1. the [[function]] $p^k : \mathbb{R}^{n} \to \mathbb{R}$ is the $k$th **[[coordinate]]** of the coordinate system $\mathbb{R}^n$. We will also write this function as $\mathbb{R}^{n} \to \mathbb{R}$.
+
+1. for $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[smooth function]], and $1 \leq k \leq n_2$ we write
+
+   $f^k \coloneqq p^k\circ f$
+
+   and
+
+   $(f^1, \cdots, f^n) \coloneqq f$.
+
+=--
+
+It follows that
+
+$$
+  id_{\mathbb{R}^n} = (x^1, \cdots, x^n)
+  \,.
+$$
+
+In this notation an abstract coordinate transformation 
+
+$$ 
+  f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+$$
+
+$$
+  f^k(x^1, \cdots, x^n)
+$$
+
+(...)
+
+
+#### The fundamental theorems about smooth functions
  {#PropertiesOfSmoothFunctions}
 
 basic facts about [[smooth functions]]
@@ -993,9 +1071,26 @@ $$
 ## Supergeometric coordinate systems
  {#SupergeometricCoordinateSystems}
 
+### Layer Mod
+
+The premise in [The continuum real world line](#TheContinuumRealWorldLine) is now refined to
+
+**Premise.** The abstract worldline of a [[fermionic particle]] is a $\mathbb{Z}_2$-[[odd line|graded]] [[formal manifold|formal neighbourhood]] $\mathbb{R}^{1|n}$ of the [[real line]], for some $n \in \mathbb{N}$.
+
+For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
+
+
 * [[fermion]]
 
 * [[supermanifold]]
+
+### Layer Sem
+
+* [[super infinity-groupoid]]
+
+* [[smooth super infinity-groupoid]]
+
+### Layer Syn
 
 ## References
 
