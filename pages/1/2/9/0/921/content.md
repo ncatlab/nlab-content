@@ -5,9 +5,12 @@
 
 ## Idea 
 
-A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the completion of the [[field]] $\mathbb{Q}$ of rational numbers.  To be precise, we may use the [[absolute value]] [[metric space|metric]] on rational numbers and form a [[complete space|uniform completion]] of $\mathbb{Q}$ as a [[topological field]], or alternatively (and equivalently) use their unique [[order|ordering]] as an [[ordered field]] and form the [[Dedekind completion]].
+A _real number_ is something that may be [[Dedekind completion|approximated]] by [[rational numbers]].  Equipped with the operations of addition and multiplication induced from the rational numbers, real numbers form a _[[number field]]_, denoted $\mathbb{R}$. The underlying set is the _[[Dedekind completion|completion]]_ of the [[ordered field]] $\mathbb{Q}$ of rational numbers: the result of adjoining to $\mathbb{Q}$ [[suprema]] for every [[inhabited set|inhabited]] [[bounded set|bounded subset]] with respect to the natural [[order|ordering]] of rational numbers.
 
-Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of _continuous space_.  The notion of (especially [[smooth manifold|smooth]]) [[manifold]] is modeled on this notion.  These provide some of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
+The [[set]] of real numbers also carries naturally the structure of a [[topological space]] and as such $\mathbb{R}$ is called the  _[[real line]]_ also known as _[[continuum|the continuum]]_. Equipped with both the topology and the field structure, $\mathbb{R}$ is a [[topological field]] and as such is the [[complete space|uniform completion]] of $\mathbb{Q}$ equipped with the [[absolute value]] [[metric space|metric]].
+
+Together with its [[cartesian products]] -- the [[Cartesian spaces]] $\mathbb{R}^n$ for [[natural numbers]] $n \in \mathbb{N}$ -- the real line $\mathbb{R}$ is a standard formalization of the idea of _continuous space_.  The more general concept of ([[smooth manifold|smooth]]) _[[manifold]]_ is modeled on these Cartesian spaces. These, in turn are standard models for the notion of [[space]] in particular in [[physics]] (see _[[spacetime]]_), or at least in [[classical physics]]. See at _[[geometry of physics]]_ for more on this.
+
 
 
 ## History
