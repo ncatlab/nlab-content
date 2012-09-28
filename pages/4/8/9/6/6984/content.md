@@ -21,6 +21,9 @@ In a [[model]] of the type theory in [[categorical semantics]], this is a [[prod
 
 Note that a [[dependent product type]] is something different (a generalization of a [[function type]]).
 
+## Overview
+
+[[!include product natural deduction - table]]
 
 ## Definition
 
