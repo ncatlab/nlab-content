@@ -24,25 +24,28 @@ Note that a [[dependent product type]] is something different (a generalization 
 
 ## Definition
 
-Like any type constructor in type theory, a product type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators.
+Like any type constructor in [[type theory]] (see at [[natural deduction]]), a product type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators.
 
-There are actually two ways to present product types, as a [[negative type]] or as a [[positive type]].  In both cases the rule for building product types is the same:
+There are actually two ways to present product types, as a [[negative type]] or as a [[positive type]].  In both cases the [[type formation rule]]
+is the following:
 
-$$ \frac{A\colon Type \qquad B\colon Type}{A\times B\colon Type} $$
+$$
+  \frac{A\colon Type \qquad B\colon Type}{A\times B\colon Type} 
+$$
 
 but the constructors and eliminators may be different.
 
 ### As a negative type
 
-When presented negatively, primacy is given to the eliminators.  We specify that there are two ways to eliminate a term of type $A\times B$: by projecting out the first component, or by projecting out the second.
+When presented negatively, primacy is given to the [[term elimination rule|eliminators]].  We specify that there are two ways to eliminate a term of type $A\times B$: by projecting out the first component, or by projecting out the second.
 
 $$ \frac{p \colon A\times B}{\pi_1 p\colon A} \qquad \frac{p\colon A\times B}{\pi_2 p\colon B}$$
 
-This then determines the form of the constructors: in order to construct a term of type $A\times B$, we have to specify what value that term should yield when all the eliminators are applied to it.  In other words, we have to specify a pair of elements, one of $A$ (to be the value of $\pi_1 p$) and one of $B$ (to be the value of $\pi_2 p$).
+This then determines the form of the [[term introduction rule|constructors]]: in order to construct a term of type $A\times B$, we have to specify what value that term should yield when all the eliminators are applied to it.  In other words, we have to specify a pair of elements, one of $A$ (to be the value of $\pi_1 p$) and one of $B$ (to be the value of $\pi_2 p$).
 
 $$ \frac{a\colon A \qquad b\colon B}{(a,b)\colon A\times B} $$
 
-Finally, we have computation rules which say that the relationship between the constructors and the eliminators is as we hoped.  We always have [[beta reduction]] rules
+Finally, we have [[computation rules]] which say that the relationship between the constructors and the eliminators is as we hoped.  We always have [[beta reduction]] rules
 
 $$ \pi_1(a,b) \to_\beta a \qquad \pi_2(a,b) \to_\beta b $$
 
