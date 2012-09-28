@@ -20,9 +20,9 @@ An _axiom_ is a [[proposition]] in [[logic]] that a given [[theory]] requires to
 
 ## Definition
 
-Given a [[language]] $L$ (perhaps specified by a [[signature (in logic)|signature]]: a collection of [[types]], [[function symbols]] and [[relation symbols]]), a [[theory]] is the collection of assertions which are derivable (using the rules of [[deduction]] of the ambient [[logic]]) from a given set of assertions, called **axioms** of the theory. In other words, a theory is generated from a set of axioms, by starting with those axioms and applying [[rule of inference|rules of deduction]], much as terms in an algebraic system may be generated from a set of basic terms by applying operations. Axioms should therefore be considered as _presenting_ a theory; different axiom sets may well give the same theory. 
+Given a [[language]] $L$ (perhaps specified by a [[signature (in logic)|signature]]: a collection of [[types]], [[function symbols]] and [[relation symbols]]), a [[theory]] is the collection of assertions which are derivable (using the rules of [[deduction]] of the ambient [[logic]] or [[deductive system]]) from a given set of assertions, called **axioms** of the theory.  In other words, a theory is generated from a set of axioms, by starting with those axioms and applying [[rule of inference|rules of deduction]], much as terms in an algebraic system may be generated from a set of basic terms by applying operations. Axioms should therefore be considered as _presenting_ a theory; different axiom sets may well give the same theory. 
 
-A formal description depends on the details of the [[logical framework]] used; it could be [[natural deduction]], [[sequent calculus]], a [[Hilbert system]], etc. But if we take sequent calculus, then any collection of [[sequents]] written in the given language $L$
+In terms of a [[deductive system]], axioms can be regarded as "rules with zero hypotheses".  The form of such axioms depends on the details of the deductive system used: it could be [[natural deduction]], [[sequent calculus]], a [[Hilbert system]], etc.  If we take sequent calculus, for instance, then any collection of [[sequents]] written in the given language $L$
 
 $$
   \vec{\phi} \vdash_{\vec x} \vec{\psi}
