@@ -3,17 +3,20 @@
 * table of contents
 {: toc}
 
-+-- {: .standout}
-Any paragraph containing the string 'duiq' is original research (although lower duiqs at least are known in [[domain theory]]).
-=--
-
 
 ## Idea
+
+The _Dedekind completion_ of a [[linear order]] is a new linear order that contains [[suprema]] for all [[inhabited set|inhabited]] [[bounded subsets]].
 
 While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]], although it really works best for [[dense order|dense]] and unbounded (without [[top]] or [[bottom]]) linear orders. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
 
 
 ## Definitions
+
++-- {: .standout}
+Any paragraph containing the string 'duiq' is original research (although lower duiqs at least are known in [[domain theory]]).
+=--
+
 
 Let $S$ be a [[set]] with a [[dense order|dense]] [[linear order]] $\lt$ without [[top]] or [[bottom]] elements.
 
