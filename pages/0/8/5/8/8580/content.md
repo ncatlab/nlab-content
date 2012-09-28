@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -37,13 +36,16 @@ In fact we introduce smooth manifolds only after we introduce _[[smooth groupoid
 
 We discuss each topic below in three stages, in three _layers_. 
 
-The first one, called **Layer Mod**, deals with concrete explicit constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while _Layer Mod_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
+1. The first layer, called **Layer Mod**, deals with concrete explicit  constructions as familiar from traditional textbooks on differential geometry and physics. This layer is supposed to be readable and useful all in itself and the reader who feels that this is all he or she wants to see can stick to this and ignore the other layers. In particular, while _Layer Mod_ does invoke the basic notion of a _[[category]]_ and of a _[[functor]]_ -- which are as simple as the notions of [[group]] or [[associative algebra|algebra]] --, it does not use any actual _[[category theory]]_. 
+ {#LayerMod}
 
-The second one, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underly the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from. For instance this layer gives a systematic rule for generalizing everything at the beginning in _Layer Mod_ from ordinary [[differential geometry]] to what is called  _[[supergeometry]]_, which is the context in which [[fermion|fermionic]] [[particles]] are formalized: the [[matter]] constituents of the [[observable universe]].
+1. The second layer, called **Layer Sem**, makes explicit the ([[(infinity,1)-category theory|higher]]) [[category theory]] and ([[(infinity,1)-topos theory|higher]]) [[topos theory]] at work in the background. This puts the concrete constructions of _Layer Mod_ into a more general context and helps to see certain organizational patterns that underly the seemingly different phenomena. It provides some powerful theorems which _Layer Mod_ is secretly benefitting from. For instance this layer gives a systematic rule for generalizing everything at the beginning in _Layer Mod_ from ordinary [[differential geometry]] to what is called  _[[supergeometry]]_, which is the context in which [[fermion|fermionic]] [[particles]] are formalized: the [[matter]] constituents of the [[observable universe]].
+ {#LayerSem}
 
-The third one, called **Layer Syn**, makes explict the expression of these phenomena in the [[logical framework|formal]] [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- which is _[[homotopy type theory]]_. This makes more transparent various constructions in ([[(infinity,1)-topos theory|higher]]) [[topos theory]] used in _Layer Sem_, and in fact it provides 
+1. The third layer, called **Layer Syn**, makes explict the expression of these phenomena in the [[logical framework|formal]] [[internal language]] of the [[topos]] of [[smooth spaces]] -- which is _[[dependent type theory|dependent]] [[type theory]]_ -- and of the [[(infinity,1)-topos|higher topos]] of [[smooth infinity-groupoid|smooth higher groupoids]] -- which is _[[homotopy type theory]]_. This makes more transparent various constructions in ([[(infinity,1)-topos theory|higher]]) [[topos theory]] used in _Layer Sem_, and in fact it provides 
 a [[categorical semantics|natural construction principle]] for objects in a (higher) topos that model some intended _meaning_, which is precisely what [[mathematical physics]] is about.
-This is meant for readers who enjoy seeing fundamental physics _naturally_ rooted in genuinely fundamental mathematics, in _[[natural deduction]]_, as it were. Everybody else can safely ignore this.
+This is meant for readers who enjoy seeing fundamental physics _naturally_ rooted in genuinely fundamental mathematics, in _[[natural deduction]]_, as it were. Everybody else should ignore this.
+ {#LayerSyn}
  
 **The three layers**
 
@@ -54,13 +56,125 @@ This is meant for readers who enjoy seeing fundamental physics _naturally_ roote
 * **Layer Syn** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
 
 ## Coordinate systems
+ {#CoordinateSystems}
+
+Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archtypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n-1}$, hence smooth (and possiby degenerate) [[coordinate transformations]].
+
+Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point there are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
 
 ### Layer Mod
+ {#CoordinateSystemsLayerMod}
+
+In this [Mod Layer ](#LayerMod) we discuss the [[concrete particulars]] of _[[coordinate systems]]_: the [[continuum real line]] $\mathbb{R}$, the [[Cartesian spaces]] $\mathbb{R}^n$ formed from it and the [[smooth functions]] between these.
+
+#### The continuum real (world-)line
+ {#TheContinuumRealWorldLine}
+
+The fundamental premise of [[differential geometry]] as a model of [[geometry]] in [[physics]] is the following.
+
+**Premise.** _The abstract [[worldline]] of any [[particle]] is modeled by the [[continuum]] [[real line]] $\mathbb{R}$._
+
+This comes down to the following sequence of premises.
+
+1. There is a [[linear ordering]] of the [[points]] on a [[worldline]]: in particular if we pick points at some intervals on the worldline we may label these in an order-preserving way by [[integers]]
+
+   $\mathbb{Z}$.
+
+1. These intervals may each be subdivided into $n$ smaller intervals, for each natural number $n$. Hence we may label points on the [[worldline]] in an order-preserving way by the [[rational numbers]]
+
+   $\mathbb{Q}$.
+
+1. This labeling is dense: every point on the worldline is the [[supremum]] of an [[inhabited set|inhabited]] [[bounded subset]] of such labels. This means that a [[worldline]] [[equivalence|is]] the _[[real line]]_, the [[continuum]] of [[real numbers]]
+
+   $\mathbb{R}$.
+  
+The adjective "real" in "[[real number]]" is a historical shadow of the old idea that real numbers are related to _observed reality_, hence to [[physics]] in this way. The experimental success of this assumption shows that it is valid at least to very good approximation. 
+
+Speculations are common that in a fully exact theory of [[quantum gravity]], currently unavailable, this assumption needs to be refined. 
+For instance in _[[p-adic physics]]_ one explores the hypothesis that the relevant [[complete field|completion]] of the rational numbers as above is not the reals, but [[p-adic numbers]] $\mathbb{Q}_p$ for some [[prime number]] $p \in \mathbb{N}$. Or for example in the study of [[QFT on non-commutative spacetime]] one explore the idea that at small scales the smooth [[continuum]] is to be replaced by an object in [[noncommutative geometry]]. Combining these two ideas leads to the notion of [[non-commutative analytic space]] as a potential model for _[[space]]_ in [[physics]]. And so forth.
+
+For the time being all this remains speculation and differential geometry based on the [[continuum]] [[real line]] remains the context of all fundamental [[model (in theoretical physics)|model building]] in physics related to observed [[phenomenology]]. Often it is argued that these speculations are necessitated by the very nature of [[quantum theory]] applied to [[gravity]]. But, at least so far, such statements are not actually supported by the standard theory of [[quantization]]:
+we discuss below in _[Geometric quantization](GeometricQuantization)_ how not just [[classical physics]] but also [[quantum theory]], in the best modern version available, is entirely rooted in differential geometry based on the [[continuum]] [[real line]].
+
+This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Layer Sem](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]."
+
+
+#### Cartesian spaces
+ {#CartesianSpaces}
+
+***
+
+Only keyword lists beyond this line, for the moment. Come back a little later for further material.
+
+***
+
++-- {: .num_defn}
+###### Definition
+
+An **[[open interval]]** in the [[set]] $\mathbb{R}$ of [[real numbers]]
+is a [[subset]] of the form
+
+$$
+  (a,b) \coloneqq \{x \in \mathbb{R} | a \lt x \lt b\} \subset \mathbb{R}
+$$
+
+for $a \lt b \in \mathbb{R}$.
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
+
+* a **[[continuous function]]** if for all $a \lt b \in \mathbb{R}$ the [[preimage]] $f^{-1}(a,b) \coloneqq \{x \in \mathbb{R} | a \lt f(x) \lt b\}$ is a [[disjoint union]] of open intervals;
+
+* a **[[smooth function]]** if for every $n \in \mathbb{N}$ the $n$th [[derivative]] $f^{(n)} : \mathbb{R} \to \mathbb{R}$ exists and is a [[continuous function]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$, the **[[Cartesian space]]** $\mathbb{R}^n$ is the set
+
+$$
+  \mathbb{R}^n = \{ (x^1 , \cdots, x^{n}) | x^i \in \mathbb{R} \}
+$$
+
+of $n$-[[tuples]] of [[real numbers]]. For $1 \leq k \leq n$ write
+
+$$
+  i^k : \mathbb{R} \to \mathbb{R}^n
+$$
+
+for the [[function]] such that $i^k(x) = (0, \cdots, 0,x,0,\cdots,0)$ is the [[tuple]] whose $k$th entry is $x$ and all whose other entries are $0 \in \mathbb{R}$; and write
+
+$$
+  \mathbb{p}^k : \mathbb{R}^n \to \mathbb{R}
+$$
+
+for the function such that $p^k(x^1, \cdots, x^n) = x^k$.
+
+A **[[homomorphism]]** of Cartesian spaces is a [[smooth function]]
+
+$$
+  f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+  \,,
+$$
+
+hence a [[function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ such that all [[partial derivatives]] exist and are [[continuous map|continuous]] (...).
+
+=--
 
 * [[coordinate system]] = [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{N}$;
 
 [[homomorphism]] of coordinate systems = [[smooth function]]
 $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+
+#### Properties of smooth functions
+ {#PropertiesOfSmoothFunctions}
 
 basic facts about [[smooth functions]]
 
@@ -142,6 +256,9 @@ $$
 and this is called a [[dependent term|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
 
 ## Smooth spaces
+ {#SmoothSpaces}
+
+### Layer Mod
 
 * [[smooth space]] = [[type|thing]] into which we can throw [[coordinate systems]] ([[motivation for sheaves, cohomology and higher stacks|conceptual exposition]])
 
@@ -166,6 +283,21 @@ $\{$[[smooth groupoids]]$\}$
 
 
 Example: [[smooth loop space]] $L X = [S^1, X]$ (on the horizon: [[path integral]])
+
+### Layer Sem
+ {#SmoothSpacesLayerSem}
+
+[[sheaf topos]]
+
+[[slice topos]]
+
+[[object classifier]]
+
+### Layer Syn
+
+[[dependent type theory]]
+
+[[type of propositions]]
 
 ## Differential forms
 
@@ -854,10 +986,16 @@ $$
 * [[symplectic geometry]]
 
 ## Geometric quantization
+ {#GeometricQuantization}
 
 * [[geometric quantization]]
 
+## Supergeometric coordinate systems
+ {#SupergeometricCoordinateSystems}
 
+* [[fermion]]
+
+* [[supermanifold]]
 
 ## References
 
