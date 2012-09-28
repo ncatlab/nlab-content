@@ -1,0 +1,1 @@
+__Mitsuhiro Takeuchi__ is a Japanese algebraist. Much of his work is dedicated to bialgebras, Hopf algebras and generalizations. [[Takeuchi product]] is named after him. 
