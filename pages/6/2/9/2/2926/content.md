@@ -168,6 +168,9 @@ $$
 
 in this diagram is the $\infty$-Maurer-Cartan form on $G$. For $G$ an ordinary Lie group, this reduces to the above definition. This statement and its proof is spelled out <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#CanonicalFormOnLieGroup">here</a>.
 
+## Related concepts
+
+* [[invariant differential form]]
 
 ## References
 
