@@ -58,7 +58,7 @@ Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the defini
 
 ### Measures to pseudoforms
 
-It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] (see [Wikipedia](https://en.wikipedia.org/wiki/absolute_continuity) until we get our own article) [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
+It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
 
 *  Given a point $a$, choose one of the two local orientations at $a$.
 *  Given $n$ linearly independent vectors $(v_1,\ldots,v_n)$ at $a$, develop them into a coordinate system on a neighbourhood $U$ of $a$.
