@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre)
+
+## Related entries
+
+* [[FLRW model]]
+
+category: people
