@@ -37,7 +37,7 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory, there
 
 * [[Martin-Löf dependent type theory]]
 
-* [[dependent term]]
+* [[term in context]]
 
 * [[dependent sum]], [[dependent product]]
 
