@@ -1,5 +1,6 @@
 Alex Heller was professor of mathematics at the Graduate School and University Center, CUNY in New York. He was a PhD student of [[Sammy Eilenberg]] and made some very important contributions to [[homotopy theory]] and to [[category theory]].
 
+* [mathematics genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=4773)
 
 ##References
 
