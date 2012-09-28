@@ -68,8 +68,14 @@ $$ \frac{\phi \;\vdash\; \psi}{\vdash\; \phi\Rightarrow\psi}$$
 with a hypothetical judgment as its hypothesis.  See [[natural deduction]] for a more extensive discussion.
 
 In a [[type theory]], we may also conside the case where the hypotheses $J_1$ are typing judgments of the form $x:A$, where $x$ is a [[variable]], and in which the conclusion judgment $J$ involves these variables as [[free variables]].  For instance, $J$ could be $\phi\;prop$, where $\phi$ is a valid (well-formed) proposition only when $x$ belongs of a specific [[type]] $X$.  In this case we have a _[[generic judgement]]_, written
-$$ (x : X) \;\vdash\; (\phi \; prop). $$
-which expresses that _assuming the hypothesis or [[antecedent]] judgement_ that $x$ is of type $X$, as a consequence we have the [[succedent]] judgement that $\phi$ is a proposition.
+$$ (x \colon X) \;\vdash\; (\phi \; prop). $$
+which expresses that _assuming the hypothesis or [[antecedent]] judgement_ that $x$ is of type $X$, as a consequence we have the [[succedent]] judgement that $\phi$ is a proposition. If on the right here we have a typing judgment 
+
+$$
+  (x \colon X) \;\vdash\; (t \colon A)
+$$
+
+we have a _[[term in context]]_.
 
 For more about the precise relationship between the various meanings of $\vdash$ here, see [[natural deduction]] and [[logical framework]].
 
