@@ -241,7 +241,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CartSpCategory}
 ###### Propositions
 
 Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunctions} form a _[[category]]_ 
@@ -431,59 +431,129 @@ Hence [[CartSp]] equipped with that coverage is a [[site]].
 In this [Syn Layer](#LayerSyn) we discuss the [[abstract generals]] of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the [[internal language]] of a category with [[products]], which is _[[type theory]]_ with _[[product types]]_.
 
 #### Judgments about types and terms
+ {#Judgments}
 
-An [[object]] $X \in \mathcal{C}$ in a [[category]] $\mathcal{C}$ we will also denote by the [[sequent]]
+We now introduce a different _notation_ for [[objects]] and [[morphisms]] in a [[category]] (such as the category [[CartSp]] of def. \ref{CartSpCategory}). This notation is designed to, eventually, make more transparent what exactly it is that happens when we [[deductive reasoning|reason deductively]] about [[objects]] and [[morphisms]] of a [[category]]. 
+
+But before we begin to make any actual [[deductions]] about [[objects]] and [[morphisms]] in a category [below](#NaturalDeductionRulesForProductTypes), in this section here we express the given objects and morphsims at hand in the first place. Such basic statements of the form "There is an object called $A$." are to be called _[[judgments]]_, in order not to confuse these with genuined _[[propositions]]_ that we eventually formalize _within_ this [[metalanguage]].
+
+To express that there is an [[object]] 
+
+$$
+  X \in \mathcal{C}
+$$ 
+
+in a [[category]] $\mathcal{C}$, we write now equivalently the string of symbols (called a _[[sequent]]_)
 
 $$
   \vdash \; X \colon Type
-$$
-
-and say that it is a _[[type]]_. 
-
-The [[terminal object]] we call the _[[unit type]]_ and write
-
-$$
-  \vdash \; Unit \colon Type
-$$
-
-For $* \in \mathcal{C}$ the [[terminal object]], an [[element]] of $X$, hence a [[morphism]] $x : * \to X$ we denote by the [[sequent]]
-
-$$
-  \vdash \; x \colon X
   \,.
 $$
 
-Notice that any $X \in \mathcal{C}$ becomes the [[terminal object]] in the [[slice category]] $\mathcal{C}_{/X}$.
+We say that these symbols express the _[[judgement]]_ that $X$ is a _[[type]]_. We also say that $\vdash \; X \colon Type$ is the _[[syntax]]_ of which $X \in \mathcal{C}$ is the _[[categorical semantics]]_.
 
-Let $A \to X$ be any morphism in $\mathcal{C}$, regarded as an object $A \in \mathcal{C}_{/X}$. The [[syntax]] for this is
+For instance the [[terminal object]] $* \in \mathcal{C}$ we call the [[categorical semantix]] of the _[[unit type]]_ and write [[syntaxt|syntactically]] as
 
 $$
-  x \colon X \;\vdash \;  A \colon Type
+  \vdash \; Unit \colon Type
+  \,.
 $$
 
-and this is called a _[[dependent type]]_.
+If we want to express that we do assume that a terminal object indeed exists, hence that we want to be able to _[[deduction|deduce]]_ the existence of a terminal object from no hypothesis, then we write this [[judgment]] below a horizontal line
 
-An element of $A$ in $\mathcal{C}_{/X}$ is a [[generalized element]] of $A$ in $\mathcal{C}$, namely a morphism $X \to A$ which fits into a [[commuting diagram]]
+$$
+  \frac{}{\vdash \; Unit \colon Type}
+  \,.
+$$
+
+We will see more interesting such horizontal-line statements [below](#NaturalDeductionRulesForProductTypes).
+
+Next, to express an [[element]] of the object $X$ in $\mathcal{C}$, hence a [[morphism]] 
+
+$$
+  * \stackrel{x}{\to} X
+$$ 
+
+in $\mathcal{C}$ we write equivalenly the [[sequent]]
+
+$$
+  \vdash \; x \colon X
+$$
+
+and call this the [[judgment]] that $x$ is a _[[term]]_ of [[type]] $X$.
+
+Notice that every object $X \in \mathcal{C}$ becomes the [[terminal object]] in the _[[slice category]]_ $\mathcal{C}_{/X}$.
+Let $A \to X$ be any morphism in $\mathcal{C}$, regarded as an object in the [[slice category]]
+
+$$
+  A \in \mathcal{C}_{/X}
+  \,.
+$$
+
+We declare that the [[syntax]] of which this is the [[categorical semantics]] is given by the [[sequent]]
+
+$$
+  x \colon X \;\vdash \;  A(x) \colon Type
+  \,.
+$$
+
+We say that this expresses the [[judgement]] that $A$ is an  _$X$-[[dependent type]]_; or a type in the _[[context]] of a [[free variable]]_ $x$ of [[type]] $X$.
+
+Notice that an [[element]] of $A \in \mathcal{C}_{/X}$ is a [[generalized element]] of $A$ in $\mathcal{C}$, namely a morphism $X \to A$ which fits into a [[commuting diagram]]
 
 $$
   \array{
-    X &&\to&& A
+    X &&\stackrel{a}{\to}&& A
     \\
-    & {}_{\mathllap{id_X}}\earrow && \swarrow_{}
+    & {}_{\mathllap{id_X}}\searrow && \swarrow_{}
     \\
     && X
   }
 $$
 
-The [[syntax]] for this is 
+in $\mathcal{C}$.
+
+We declare that the [[syntax]] of which such
 
 $$
-  x\colon X \;\vdash\; a : A
+  a \in A  \;\;\;\; (in \mathcal{C}_{/X})
 $$
 
-and this is called a [[term in context|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
+is this the [[categorical semantics]] is the [[sequent]]
+
+$$
+  x\colon X \;\vdash\; a(x) : A(x)
+  \,.
+$$
+
+We say that this expresses the [[judgment]] that $a(x)$ is a [[term in context|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
+
+This completes the list of _[[judgment]]_ [[syntax]] to be considered. Notice that if the category $\mathcal{C}$ has [[products]] then, even though it does not explicitly appear above, this is sufficient to express any morphism $X \stackrel{f}{\to} Y$ in $\mathcal{C}$ as the [[semantics]] of a [[term]]: we regard this morphism naturally as being the corresponding morphism in the [[slice category]] $\mathcal{C}_{/X}$ which as a [[commuting diagram]] in $\mathcal{C}$ itself is
+
+$$
+  \array{
+     X && \stackrel{(f,id_X)}{\to} &&  Y\times X
+     \\
+     & {}_{\mathllap{id_X}}\searrow && \swarrow_{\mathrlap{p_2}}
+     \\
+     && X
+  }
+  \,.
+$$ 
+
+This is the [[categorical semantics]] for which the [[syntax]] is simply
+
+$$
+  x \colon X \;\vdash\; y(x) \colon Y
+  \,,
+$$
+
+being the [[judgment]] which expresses that $y(x)$ is a [[term in context]] of an $X$-[[dependent type]] $Y$ in the special degenerate case that $Y$ does not actually vary with $x \colon X$.
+
+
 
 #### Natural deduction rules for product types
+ {#NaturalDeductionRulesForProductTypes}
 
 For $A$ and $B$ two objects, their [[product]] $A \times B$ we call a [[product type]]. 
 
