@@ -19,7 +19,7 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[gravity]], [[standard model of particle physics]]
 
-* [[standard model of cosmology]]
+* [[FRW model]], [[standard model of cosmology]]
 
 * [[cosmological constant]],
 
@@ -30,6 +30,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 * [[quantum cosmology]], [[quantum gravity]]
 
 ## References
+
+* Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
