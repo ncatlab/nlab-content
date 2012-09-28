@@ -6,7 +6,7 @@
 
 ## Idea
 
-The _Dedekind completion_ of a [[linear order]] is a new linear order that contains [[suprema]] for all [[inhabited set|inhabited]] [[bounded subsets]].
+The _Dedekind completion_ of a [[linear order]] $L$ is a new linear order $\widebar{L}$ that contains [[suprema]] for all [[inhabited set|inhabited]] [[bounded subsets]], and such that a supremum in $L$ is still a supremum in $\widebar{L}$. 
 
 While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]], although it really works best for [[dense order|dense]] and unbounded (without [[top]] or [[bottom]]) linear orders. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
 
