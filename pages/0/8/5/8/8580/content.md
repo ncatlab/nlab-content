@@ -706,6 +706,12 @@ Below in [Smooth spaces - Layer Syn](#SmoothSpacesLayerSyn) we complete this dic
 ## Smooth spaces
  {#SmoothSpaces}
 
+*** 
+
+Only keyword lists beyond this line. Come back a little later to find more material here.
+
+***
+
 ### Layer Mod
 
 * [[smooth space]] = [[type|thing]] into which we can throw [[coordinate systems]] ([[motivation for sheaves, cohomology and higher stacks|conceptual exposition]])
