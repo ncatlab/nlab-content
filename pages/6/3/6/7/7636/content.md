@@ -100,7 +100,7 @@ $$
 
 =--
 
-This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)); see [[categorical model of dependent types]] for the latter.  However, the full equivalence of categories was not recovered until ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]].
+This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)); see _[[categorical model of dependent types]]_ for the latter.  However, the full equivalence of categories was not recovered until ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]].
 
 We now indicate some of the details.
 
@@ -320,6 +320,8 @@ Given a [[locally cartesian closed category]] $C$, define the corresponding [[de
 (...)
 
 ## Related concepts
+
+* [[categorical model of dependent types]]
 
 * [[computational trinitarianism]]
 
