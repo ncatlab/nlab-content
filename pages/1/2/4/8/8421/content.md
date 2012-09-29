@@ -56,9 +56,9 @@ $$ \frac{p:A\times B}{\pi_1(p):A} \qquad \frac{p:A\times B}{\pi_2(p)B}.$$
 
 In natural deduction systems for type theory, there are usually two other classes of rules:
 
-* **Formation rules**, which declare on which basis a new [[type]] can be introduced; and
+* **[[type formation|Formation rules]]**, which declare on which basis a new [[type]] can be introduced; and
 
-* **Computation rules** or **conversion rules**, which constrain the result of combining term introduction with term elimination.
+* **[[computation rule|Computation rules]]** or **conversion rules**, which constrain the result of combining term introduction with term elimination.
 
 These two rules refer to different classes of judgments than the introduction and elimination rules: judgments that a certain thing is a type for the formation rules, and judgments that one term reduces to, or converts with, another, for the computation rules.
 
@@ -179,9 +179,6 @@ The standard rules for type-formation, term introduction/elimination and computa
 [[!redirects natural deduction]]
 [[!redirects natural deductions]]
 
-[[!redirects type formation]]
-[[!redirects type formation rule]]
-[[!redirects type formation rules]]
 
 [[!redirects term introduction]]
 [[!redirects term introduction rule]]
