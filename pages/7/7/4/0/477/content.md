@@ -38,6 +38,8 @@ More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete ca
 
 ### Relation to type theory
 
+Under the [[relation between category theory and type theory]] products in a category corespond to [[product types]] in [[type theory]].
+
 [[!include product natural deduction - table]]
 
 ## Examples
