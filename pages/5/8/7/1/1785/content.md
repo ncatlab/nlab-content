@@ -27,3 +27,4 @@ category: people
 [[!redirects Vladimir Voevodskij]]
 [[!redirects Vladimir Voevodskiĭ]]
 [[!redirects V. Voevodsky]]
+[[!redirects Voevodsky]]
