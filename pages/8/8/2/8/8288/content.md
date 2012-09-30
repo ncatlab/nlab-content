@@ -203,7 +203,7 @@ which completes the [[induction]] step.
 
 The following proposition is  [[duality|formally dual]] to prop. \ref{ExistenceOfInjectiveResolutions}. 
 
-+-- {: .num_prop }
++-- {: .num_prop #ExistenceOfInjectiveResolutions}
 ###### Proposition
 
 Let $\mathcal{A}$ be an [[abelian category]] with [[projective object|enough projectives]] (such as $R$[[Mod]] for some [[ring]] $R$).
@@ -1173,6 +1173,94 @@ and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself p
 
 
 For further discussion along these lines see at _[[derived functor in homological algebra]]_.
+
+### Derived Hom-functor / $Ext$-functor
+
++-- {: .num_defn #Extensions}
+###### Definition
+
+Given $A, G \in \mathcal{A}$, an **[[extension]]** of $G$ by $A$
+is a [[short exact sequence]] of the form
+
+$$ 
+  0 \to A \to \hat G \to G \to 0
+  \,.
+$$
+
+Two extensions $\hat G_1$ and $\hat G_2$ are called _equivalent_ if there is a morphism $f : \hat G_1 \to \hat G_2$ in $\mathcal{A}$ such that we have a [[commuting diagram]]
+
+$$
+  \array{
+     && \hat G_1
+     \\
+     & \nearrow && \searrow
+    \\
+    A &&\downarrow^{\mathrlap{f}}&& G
+    \\
+    & \searrow && \nearrow
+    \\
+    && \hat G_2
+  }
+  \,.
+$$
+
+Write $Ext(G,A)$ for the set of [[equivalence classes]] of extensions of $G$ by $A$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+By the [[short five lemma]] a morphism $f$ as above is necessarily an [[isomorphism]] and hence we indeed have an [[equivalence relation]].
+
+=--
+
+
++-- {: .num_defn }
+###### Definition
+
+If $\mathcal{A}$ has [[projective object|enough projectives]], define a function
+
+$$
+  Ext(G,A) \to Ext^1(G,A)
+$$
+
+from the group of extensions, def. \ref{Extensions}, to the first [[Ext functor]] group as follows. Choose a projective resolution $Y_\bullet \stackrel{\simeq_{qi}}{\to} G$, which exists by prop. \ref{ExistenceOfInjectiveResolutions}. Regard then $A \to \hat G \to G\to 0$ as a resolution
+
+$$
+  \array{
+     \cdots &\to& 0 &\to& 0 &\to& A &\to& \hat G
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots &\to& 0 &\to& 0 &\to& 0 &\to& G    
+  }
+$$
+
+of $G$, by remark \ref{ProjectiveResolutionInComponents}. By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} there exists then a [[commuting diagram]] of the form
+
+$$
+  \array{
+     Y_2 &\to& 0 
+     \\
+     \downarrow^{\mathrlap{\partial_1^{Y}}} && \downarrow
+     \\
+     Y_1 &\stackrel{c}{\to}& A
+     \\
+     \downarrow^{\mathrlap{\partial_0^Y}} && \downarrow
+     \\
+     Y_0 &\to& \hat G
+     \\
+     \downarrow && \downarrow
+     \\
+     G &\to& G
+  }
+  \,.
+$$
+
+By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into such a commuting diagram is related by a [[chain homotopy]] to $c$, and hence, hence differs by a [[coboundary]] in $Hom(Y_\bullet,N)$. Therefore the above map is well defined.
+
+=--
 
 
 ### Relation to syzygies
