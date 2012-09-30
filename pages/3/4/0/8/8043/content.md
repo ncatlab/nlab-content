@@ -13,14 +13,13 @@
 =--
 =--
 
-
 # Judgments
 * table of contents
 {: toc}
 
 ## Idea
 
-In [[formal logic]], a __judgment__ (or __judgement__) is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]].
+In [[formal logic]], a __judgment__ or __judgement__ is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]].
 
 More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.
 
