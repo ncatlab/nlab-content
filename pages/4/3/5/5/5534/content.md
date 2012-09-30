@@ -20,23 +20,26 @@
 A _continuum_ is in general something opposite to a [[discrete object|discrete]]. 
 There are several notions of continuum in mathematics:
 
-* often _the continuum_ is taken to be the [[real line]]; consequently the *cardinality of the continuum* is the cardinality of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]]. 
+* often **the continuum** is taken to refer to the [[real line]]; consequently the *cardinality of the continuum* referse to the [[cardinality]] of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]]. 
 
 * a **metric continuum** is any [[compact space|compact]] [[connected space|connected]] [[metric space]]
 
-In [[physics]], by a continuum one usually means a medium which spreads the physical quantities spatially with some finite density, unlike the physics of a system of [[particles]], where an infinite (delta/function like) density is attached to a discrete system of points. 
+In [[physics]] one may also mean by _a continuum_ a medium which spreads the physical quantities spatially with some finite density, unlike the physics of a system of [[particles]], where an infinite ([[delta-distribution]]-like) density is attached to a discrete system of points. See at _[[geometry of physics]]_ for more on the relation of the continuum in form of the real line to physics.
 
 ## In cohesive homotopy type theory
  {#InCohesiveHomotopyTypeTheory}
 
-One can try to [[axiom|axiomatize]] the notion of continuum in [[cohesive homotopy type theory]]. There the idea of an [[object]] $\mathbb{A}^1$ all whose [[generalized element|points]] are, while different, connectable by _[[continuous function|continuous]]_ [[path groupoid|paths]] is encoded by asking that after applying the [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid functor]] $\mathbf{\Pi}$ to it, the result is something [[(-1)-connected|contractible]]
+One can [[axiom|axiomatize]] aspects of the notion of _continuum_ in [[cohesive homotopy type theory]]. There the idea of an [[object]] $\mathbb{A}^1$ all whose [[generalized element|points]] are, while different, connectable by _[[continuous function|continuous]]_ [[path groupoid|paths]] (and uniquely so, up to suitable [[homotopy]]) is encoded in asking that after applying the [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid functor]] $\mathbf{\Pi}$ to it, the result is something [[(-1)-connected|contractible]]
 
 $$
   \mathbf{\Pi}(\mathbb{A}^1) \simeq *
   \,.
 $$
 
-For instance in the [[model]] of [[cohesive (∞,1)-topos|homotopy cohesion]] called [[Smooth∞Grpd]] we have a [[full and faithful functor|full and faithful]] embedding of [[smooth manifolds]]. Therefore we can embed the [[integers]] $\mathbb{Z}$, the [[rational numbers]] $\mathbb{R}$ as well as the [[real numbers]] $\mathbb{R}$, all equipped with their canonical [[smooth manifold]] structure. This is [[discrete object|discrete]] for the first two, but not for the last one, and homotopy cohesion can detect this:
++-- {: .num_example}
+###### Example
+
+In the [[model]] of [[cohesive homotopy type theory]] called [[Smooth∞Grpd]] we have a [[full and faithful functor|full and faithful]] embedding of [[smooth manifolds]]. Therefore we can embed the [[integers]] $\mathbb{Z}$, the [[rational numbers]] $\mathbb{R}$ as well as the [[real numbers]] $\mathbb{R}$, all equipped with their canonical [[smooth manifold]] structure. This is [[discrete object|discrete]] for the first two, but not for the last one, and homotopy cohesion can detect this:
 
 $$
   \mathbf{\Pi}(\mathbb{Z}) \simeq \mathbb{Z}
@@ -57,11 +60,68 @@ $$
 
 This reflects the fact that the points of $\mathbb{R}$ form a continuum, but those of $\mathbb{Z}$ and $\mathbb{Q}$ do not.
 
-Also the [[complex numbers]] $\mathbb{C}$ with their canonical manifold structure of course form a continuum
+Also the [[complex numbers]] $\mathbb{C}$ with their canonical manifold structure of course form a continuum in this sense
 
 $$
   \mathbf{\Pi}(\mathbb{C}) \simeq *
   \,.
 $$
+
+=--
+
++-- {: .num_remark #ContractibilityOfAFromThatOfI}
+###### Remark
+
+For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that a [[subobject]] $i \colon I \hookrightarrow \mathbb{A}^1$ containing both the additive unit 0 as well as the multiplicative unit 1 is geometrically contractible, $\Pi(I) \simeq *$.
+
+Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected then $\mathbb{A}^1$ is already contractible, hence is a continuum."
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the given assumptions we obtain a [[commuting diagram]] of the form
+
+$$
+  \array{
+    \mathbb{A}
+    \\
+    \downarrow & \searrow^{\mathrlap{ 0}}
+    \\
+    I \times \mathbb{A}^1 &\stackrel{ mult\circ (i,id)}{\to}& \mathbb{A}^1
+    \\
+    \uparrow & \nearrow_{\mathrlap{id}}
+    \\
+    \mathbb{A}^1
+  }
+  \,.
+$$
+
+Since $\Pi$ preserves products, it sends this to a diagram of the form
+
+$$
+  \array{
+      & \nearrow \searrow^{\mathrlap{0}}
+     \\
+    \Pi(\mathbb{A}^1) &\Downarrow_{\simeq}& \Pi(\mathbb{A}^1)
+    \\
+    & \searrow \nearrow_{\mathrlap{id}}
+  }
+  \,,
+$$
+
+which exhibits a contracting [[homotopy]] of $\Pi(\mathbb{A}^1)$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The standard unit intervals $[0,1] \hookrightarrow \mathbb{R} \in $ [[TopMfd]] $\hookrightarrow$ [[ETop∞Grpd]] and $[0,1] \hookrightarrow \mathbb{R} \in $ [[SmthMfd]] $\hookrightarrow$ [[Smooth∞Grpd]]
+satisfy the assumptions of remark \ref{ContractibilityOfAFromThatOfI}.
+
+=--
+
 
 [[!redirects continua]]
