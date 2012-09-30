@@ -29,7 +29,7 @@ In [[physics]] one may also mean by _a continuum_ a medium which spreads the phy
 ## In cohesive homotopy type theory
  {#InCohesiveHomotopyTypeTheory}
 
-One can [[axiom|axiomatize]] aspects of the notion of _continuum_ in [[cohesive homotopy type theory]]. There the idea of an [[object]] $\mathbb{A}^1$ all whose [[generalized element|points]] are, while different, connectable by _[[continuous function|continuous]]_ [[path groupoid|paths]] (and uniquely so, up to suitable [[homotopy]]) is encoded in asking that after applying the [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid functor]] $\mathbf{\Pi}$ to it, the result is something [[(-1)-connected|contractible]]
+One can [[axiom|axiomatize]] aspects of the notion of _line continuum_ in [[cohesive homotopy type theory]]. There the idea of an [[object]] $\mathbb{A}^1$ all whose [[generalized element|points]] are, while different, connectable by _[[continuous function|continuous]]_ [[path groupoid|paths]] (and uniquely so, up to suitable [[homotopy]]) is encoded in asking that after applying the [[fundamental infinity-groupoid in a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid functor]] $\mathbf{\Pi}$ to it, the result is something [[(-1)-connected|contractible]]
 
 $$
   \mathbf{\Pi}(\mathbb{A}^1) \simeq *
@@ -72,9 +72,7 @@ $$
 +-- {: .num_remark #ContractibilityOfAFromThatOfI}
 ###### Remark
 
-For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that a [[subobject]] $i \colon I \hookrightarrow \mathbb{A}^1$ containing both the additive unit 0 as well as the multiplicative unit 1 is geometrically contractible, $\Pi(I) \simeq *$.
-
-Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected then $\mathbb{A}^1$ is already contractible, hence is a continuum."
+For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that there be a map $i$ from an [[interval type]] $(left, right, I)$ to the bipointed type $(0, 1, \mathbb{A}^1)$. Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected, then $\mathbb{A}^1$ is already contractible, hence is a line continuum."
 
 =--
 
