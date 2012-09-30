@@ -599,6 +599,213 @@ with $\eta^{-1} = 0$ and $\eta^{0 } = 0$, which works because $f^{-1} = 0$. The 
 
 Sometimes one needs to construct resolutions of sequences of morphisms in a more controled way, for instance such that some degreewise exactness is preserved:
 
++-- {: .num_lemma #ProjectiveResolutionOfExactSequenceByExactSequence}
+###### Lemma
+
+For $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ a [[short exact sequence]]
+in an [[abelian category]] with [[projective object|enough projectives]], 
+there exists a [[commuting diagram]] of [[chain complexes]]
+
+$$
+  \array{
+    0 &\to& A_\bullet &\to& B_\bullet &\to& C_\bullet &\to& 0
+    \\
+      && 
+    \downarrow^{\mathrlap{f_\bullet}}
+      && 
+    \downarrow^{\mathrlap{g_\bullet}}
+      && 
+    \downarrow^{\mathrlap{h_\bullet}}
+    \\
+    0 &\to& A &\stackrel{i}{\to}& B &\stackrel{p}{\to}& C &\to& 0
+  }
+$$
+
+where 
+
+* each vertical morphism is a projective resolution;
+
+and in addition
+
+* the top row is again a short exact sequence of chain complexes.
+
+=--
+
+This appears for instance in ([May, lemma 3.4](#May)) or ([Murfet, cor. 33](#Murfet)).
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} we can choose $f_\bullet$ and $h_\bullet$. The task is now to construct the third resolution $g_\bullet$ such as to obtain a short exact sequence of chain complexes, hence degreewise a short exact sequence, in the two row.
+
+To construct this, let for each $n \in \mathbb{N}$
+
+$$
+  B_n \coloneqq A_n \oplus C:n
+$$
+
+be the [[direct sum]] and let the top horizontal morphisms be the canonical inclusion and projection maps of the direct sum.
+
+Let then furthermore (in [[matrix calculus]] notation)
+
+$$
+  g_0 = 
+   \left(
+     \array{
+        (j_0)_A  
+        & 
+        (j_0)_B
+      }
+  \right)
+ : A_0 \oplus C_0 \to B
+$$
+
+be given in the first component by the given composite
+
+$$
+ (g_0)_A : A_0 \oplus C_0 \stackrel{}{\to} A_0 \stackrel{f_0}{\to} A \stackrel{i}{\hookrightarrow} B
+$$
+
+and in the second component we take
+
+$$
+  (j_0)_C : A_0 \oplus C_0 \to C_0 \stackrel{\zeta}{\to} B
+$$
+
+to be given by a lift in
+
+$$
+  \array{
+    && B
+    \\
+    & {}^{\mathllap{\zeta}}\nearrow & \downarrow^{\mathrlap{p}}
+    \\
+    C_0 &\stackrel{h_0}{\to}& C
+  }
+  \,,
+$$
+
+which exists by the [[left lifting property]] of the [[projective object]]
+$C_0$ (since $C_\bullet$ is a projective resolution) against the [[epimorphism]] $p : B \to C$ of the [[short exact sequence]].
+
+In total this gives in degree 0
+
+$$
+  \array{
+    A_0 &\hookrightarrow& A_0 \oplus C_0 &\to& C_0
+    \\
+    \downarrow^{\mathrlap{f_0}} && {}^{\mathllap{((g_0)_A, (g_0)_C)}}\downarrow &\swarrow_{\zeta}& \downarrow^{\mathrlap{h_0}}
+    \\
+    A &\stackrel{i}{\hookrightarrow}& B &\stackrel{p}{\to}& C
+  }
+  \,.
+$$
+
+Let then the [[differentials]] of $B_\bullet$ be given by
+
+$$
+  d_k^{B_\bullet} 
+    = 
+  \left(
+    \array{
+      d_k^{A_\bullet} & (-1)^k e_k
+      \\
+      0 & d_k^{C_\bullet}
+    }
+  \right)
+  : 
+  A_{k+1} \oplus C_{k+1}
+  \to
+  A_k \oplus C_k
+  \,,
+$$
+
+where the $\{e_k\}$ are constructed by [[induction]] as follows. Let $e_0$ be a lift in 
+
+$$
+  \array{   
+    & && A_0
+    \\
+    & & {}^{\mathllap{e_0}}\nearrow & \downarrow^{\mathrlap{f_0}}
+    \\
+    \zeta \circ d^{C_\bullet}_0 \colon & C_1 &\stackrel{}{\to}& A &\hookrightarrow B&
+  }
+$$
+
+which exists since $C_1$ is a [[projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that by exactness the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and  the chain complex property of $C_\bullet$ gives 
+
+$$
+  \begin{aligned}
+    p \circ \zeta \circ d^{C_\bullet}_0 
+    &= 
+    h_0 \circ d^{C_\bullet}_0
+    \\
+    & = 0 \circ h_1
+    \\
+    & = 0 
+  \end{aligned}
+  \,.
+$$ 
+
+Now in the induction step, assuming that $e_{n-1}$ has been been found satisfying the chain complex property, let $e_n$ be a lift in
+
+$$
+  \array{
+    & && A_n
+    \\
+    & & {}^{\mathllap{e_{n}}}\nearrow & \downarrow^{\mathrlap{d^{A_\bullet}_{n-1}}}
+    \\
+    e_{n-1}\circ d_n^{C_\bullet} \colon & C_{n+1} &\stackrel{}{\hookrightarrow}& ker(d^{A_\bullet}_{n-1}) = im(d^{A_\bullet}_{n-1})) &\to& A_{n-1}
+  }
+  \,,
+$$
+
+
+which again exists since $C_{n+1}$ is projective. That the bottom morphism factors as indicated is the chain complex property of $e_{n-1}$ inside $d^{B_\bullet}_{n-1}$.
+
+To see that the $d^{B_\bullet}$ defines this way indeed squares to 0 notice that
+
+$$
+  d^{B_\bullet}_{n}
+  \circ
+  d^{B_\bullet}_{n+1}
+  = 
+  \left(
+    \array{
+       0 &  (-1)^{n}\left(e_{n} \circ d^{C_\bullet}_{n+1} - d^{A_\bullet}_n \circ e_{n+1} \right) 
+       \\
+       0 & 0
+     }
+  \right)
+  \,.
+$$
+
+This vanishes by the very commutativity of the above diagram.
+
+
+This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence, in fact a [[split exact sequence]], by construction. 
+
+To see that $g_\bullet$ is indeed a quasi-isomorphism, consider the [[homology long exact sequence]] associated to the short exact sequence of cochain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$. In positive degrees it implies that the chain homology of $B_\bullet$ indeed vanishes. In degree 0 it gives the short sequence $0 \to A \to H_0(B_\bullet) \to B\to 0$ sitting in a commuting diagram
+
+$$
+  \array{
+    0 &\to& A &\hookrightarrow& H_0(B_\bullet) &\to& C &\to& 0
+    \\
+    \downarrow && \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}} && \downarrow
+    \\
+    0 &\to& A &\hookrightarrow& B &\to& C &\to& 0 
+    \,,
+  }
+$$
+
+where both rows are exact. That the middle vertical morphism is an [[isomorphism]] then follows by the [[five lemma]].
+
+=--
+
+
+
+The formally dual statement to lemma \ref{ProjectiveResolutionOfExactSequenceByExactSequence} is the following.
+
 +-- {: .num_lemma #InjectiveResolutionOfExactSequenceByExactSequence}
 ###### Lemma
 
@@ -617,7 +824,7 @@ $$
       && 
     \downarrow^{\mathrlap{}}
     \\
-    0 &\to& A^\bullet &\to& B^\bullet &\to& C_\bullet &\to& 0
+    0 &\to& A^\bullet &\to& B^\bullet &\to& C^\bullet &\to& 0
   }
 $$
 
@@ -630,8 +837,6 @@ and in addition
 * the bottom row is again a short exact sequence of cochain complexes.
 
 =--
-
-This appears for instance in ([May, lemma 3.4](#May)) or ([Murfet, cor. 33](#Murfet)).
 
 +-- {: .proof}
 ###### Proof
