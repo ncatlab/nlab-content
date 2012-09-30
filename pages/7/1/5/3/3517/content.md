@@ -202,3 +202,14 @@ The short 5-lemma also appears in various topological algebra contexts; see for 
 [[!redirects five lemma]]
 [[!redirects 5-lemma]]
 [[!redirects 5 lemma]]
+
+[[!redirects short five-lemma]]
+[[!redirects short five lemma]]
+[[!redirects short 5-lemma]]
+[[!redirects short 5 lemma]]
+
+[[!redirects split short five-lemma]]
+[[!redirects split short five lemma]]
+[[!redirects split short 5-lemma]]
+[[!redirects split short 5 lemma]]
+
