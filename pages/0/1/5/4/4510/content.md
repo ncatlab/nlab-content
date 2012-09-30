@@ -21,7 +21,7 @@ In the context of [[homological algebra]] the [[right derived functor]] of the [
 
 Together with the [[Tor]]-functor it is one of the central objects of interest in homological algebra.
 
-Given an [[abelian category]] $\mathcal{A}$ we may consider the [[hom-functor]] $Hom_{\mathcal{A}} : \mathcal{A}^{op}\times \mathcal{A}\to $[[Ab]] either as a functor in first or in second argument, and compute the corresponding [[right derived functors]]. 
+Given a [[abelian category]] $\mathcal{A}$ we may consider the [[hom-functor]] $Hom_{\mathcal{A}} : \mathcal{A}^{op}\times \mathcal{A}\to $[[Ab]] either as a functor in first or in second argument, and compute the corresponding [[right derived functors]]. 
 
 If they exist, the classical right derived functors of either functor agree and also agree with the [[homology]] of the mixed [[double complex]] obtained by taking simultaneously an  [[injective resolution]] of the first contravariant argument and [[projective resolution]] of the second covariant argument. The last construction is called the _balanced $Ext$._
 
@@ -265,7 +265,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-All these homomophisms are necessarily [[isomorphisms]]. 
+All these homomophisms are necessarily [[isomorphisms]], by the [[short five lemma]].
 
 =--
 
