@@ -1158,6 +1158,20 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} implies that one way to interpret $R^1 F(A)$ is as a "measure for how a [[left exact functor]] $F$ fails to be an [[exact functor]]". For, with $A \to B \to C$ any [[short exact sequence]], this proposition gives the exact sequence
+
+$$
+  0 \to F(A) \to F(B) \to F(C) \to R^1 F(A)
+$$
+
+and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
+
+=--
+
+
 For further discussion along these lines see at _[[derived functor in homological algebra]]_.
 
 
