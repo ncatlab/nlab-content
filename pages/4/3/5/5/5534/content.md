@@ -69,10 +69,12 @@ $$
 
 =--
 
-+-- {: .num_remark #ContractibilityOfAFromThatOfI}
-###### Remark
++-- {: .num_prop #ContractibilityOfAFromThatOfI}
+###### Proposition
 
-For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that there be a map $i$ from an [[interval type]] $(left, right, I)$ to the bipointed type $(0, 1, \mathbb{A}^1)$. Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected, then $\mathbb{A}^1$ is already contractible, hence is a line continuum."
+For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that there be a map $i$ from a [[pointed object|bipointed]] type $(left, right, I)$ to the bipointed type $(0, 1, \mathbb{A}^1)$ such that $I$ is geometrically contractible. 
+
+Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected, then $\mathbb{A}^1$ is already contractible, hence is a line continuum."
 
 =--
 
@@ -117,9 +119,15 @@ which exhibits a contracting [[homotopy]] of $\Pi(\mathbb{A}^1)$.
 ###### Example
 
 The standard unit intervals $[0,1] \hookrightarrow \mathbb{R} \in $ [[TopMfd]] $\hookrightarrow$ [[ETop∞Grpd]] and $[0,1] \hookrightarrow \mathbb{R} \in $ [[SmthMfd]] $\hookrightarrow$ [[Smooth∞Grpd]]
-satisfy the assumptions of remark \ref{ContractibilityOfAFromThatOfI}.
+satisfy the assumptions of prop. \ref{ContractibilityOfAFromThatOfI}.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The $I$ of prop. \ref{ContractibilityOfAFromThatOfI} is in general not an [[interval type]], but only its image $\Pi(I)$ is. See the discussion _[Geometric spaces and their cohesive homotopy types](cohesive%20homotopy%20type%20theory#GeometricSpacesAndTheirHomotopyTypes)_ at _[[cohesive homotopy type theory]]_ for more on this.
+
+=--
 
 [[!redirects continua]]
