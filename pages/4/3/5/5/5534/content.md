@@ -39,7 +39,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-In the [[model]] of [[cohesive homotopy type theory]] called [[Smooth∞Grpd]] we have a [[full and faithful functor|full and faithful]] embedding of [[smooth manifolds]]. Therefore we can embed the [[integers]] $\mathbb{Z}$, the [[rational numbers]] $\mathbb{R}$ as well as the [[real numbers]] $\mathbb{R}$, all equipped with their canonical [[smooth manifold]] structure. This is [[discrete object|discrete]] for the first two, but not for the last one, and homotopy cohesion can detect this:
+In the [[model]] of [[cohesive homotopy type theory]] called [[Smooth∞Grpd]] we have a [[full and faithful functor|full and faithful]] embedding of [[smooth manifolds]]. Therefore we can embed the [[integers]] $\mathbb{Z}$, the [[rational numbers]] $\mathbb{Q}$ as well as the [[real numbers]] $\mathbb{R}$, all equipped with their canonical [[smooth manifold]] structure. This is [[discrete object|discrete]] for the first two, but not for the last one, and homotopy cohesion can detect this:
 
 $$
   \mathbf{\Pi}(\mathbb{Z}) \simeq \mathbb{Z}
