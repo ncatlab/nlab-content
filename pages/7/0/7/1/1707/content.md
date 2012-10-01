@@ -451,6 +451,8 @@ The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
 
 * [[group extension]]
 
+  * [[Baer sum]]
+
 * [[Lie group cohomology]] 
 
   * [[∞-Lie groupoid cohomology]]
