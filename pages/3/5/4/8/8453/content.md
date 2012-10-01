@@ -1,3 +1,1 @@
-[[!redirects Edinburgh Logical Framework]]
-
-See _[[Elf]]_
+&lt; [[Edinburgh Logical Framework]]
