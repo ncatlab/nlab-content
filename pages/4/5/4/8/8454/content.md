@@ -1,6 +1,6 @@
 
-
 A [[logical framework]], the _Edinburgh logical framework_.
+
 
 ## Related concepts
 
@@ -8,11 +8,13 @@ A [[logical framework]], the _Edinburgh logical framework_.
 
 * [[Twelf]]
 
+
 ## References
 
 * [Elf Homepage](http://www.cs.cmu.edu/~fp/elf.html)
 
 * [[Frank Pfenning]], _Logic Programming in the LF Logical Framework_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.3910))
+
 
 [[!redirects Edinburgh Logical Framework]]
 [[!redirects Edinburgh logical framework]]
