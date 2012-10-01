@@ -1177,6 +1177,19 @@ For further discussion along these lines see at _[[derived functor in homologica
 ### Derived Hom-functor / $Ext$-functor
  {#DerivedHomFunctor}
 
++-- {: .num_defn #ExtFunctorAsRightDerivedContravariantHom}
+###### Definition
+
+For $A \in \mathcal{A}$, write
+
+$$
+  Ext^n(-,A) \coloneqq R^n Hom(-,A)
+$$
+
+for the [[right derived functor]], def. \ref{RightDerivedFunctorOfLeftExactFunctor}.
+
+=--
+
 We discuss the use of projective resolutions in the computation of [[Ext]]-functors and [[group extensions]].
 
 +-- {: .num_defn #Extensions}
@@ -1305,6 +1318,130 @@ If now $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resoluti
 ### Relation to syzygies
 
 (...) [[syzygy]] (...)
+
+
+## Examples
+
+### Projective resolutions adapted to group cocycles
+ {#ProjectiveResolutionsForGroupCocycles}
+
+We discuss projective resolutions that are well-adapted to computation in [[group cohomology]].
+
++-- {: .num_defn #ProjectiveResolutionThatGivesGroupCocycles}
+###### Definition
+
+For $A \in \mathbb{Z} Mod \simeq$ [[Ab]] and $n \in \mathbb{N}$ define
+
+$$
+  F_n \coloneqq F(U(G)^{n+1})
+$$
+
+to be the [[free abelian group]] on $(n+1)$-[[tuples]] of the [[underlying set]] $U(G) \in Set$ of $G$; and define linear maps
+
+$$
+  \partial^F_n : F_{n+1} \to F_n
+$$
+
+on [[basis]] elements by
+
+$$
+  \partial^{F}_n 
+  \colon
+  (g_0, \cdots, g_{n})
+  \mapsto
+  (g_1, \cdots, g_n)
+  + 
+  \sum_{i = 1}^n (-1)^i (g_0, \cdots, g_{i-1} + g_{i}, \cdots, g_n)
+  -
+  (-1)^n
+  (g_0, \cdots, g_{n-1})
+  \,.
+$$
+
+=--
+
+
+This defines a [[chain complex]] of [[free abelian groups]] and hence in particular of  [[projective modules]] over $\mathbb{Z}$. 
+
++-- {: .num_prop }
+###### Proposition
+
+The [[chain homology]] of $F_\bullet$ in degree 0 reproduces $G$:
+
+$$
+  H_0(F_\bullet) \simeq G
+$$
+
+Hence there is a projective resolution of $G$ that starts out as
+$[\cdots \to F_1 \to F_0]$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The image of the [[differential]] $\partia_0^F$ are those elements of $F(U(G))$ of the form 
+
+$$
+  g_0 + g_1 - (g_0 +_G g_1)
+  \,,
+$$
+
+where on the left we have the free abelian addition and on the right we have the addition in $G$. These are precisely the [[generators and relations|relations]] in $G$ and hence
+
+$$
+  G \simeq F(U(G))/im(\partial^F_0)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+There is a [[natural isomorphism]]
+
+$$
+  Ext^1(G,A) \simeq H^2(G,A)
+$$
+
+between the first [[Ext]]-group of $G$ with [[coefficients]] in $A$ and the degree-2 [[group cohomology]] group of $G$ with coefficients in $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $F_\bullet \stackrel{\simeq_{qi}}{\to} G$ be a projective resolution
+that starts out as in def. \ref{ProjectiveResolutionThatGivesGroupCocycles}. 
+By construction of the [[derived functor]] $Ext^1(-,A) \coloneqq R^1 Hom(-,A)$ by def. ref{ExtFunctorAsRightDerivedContravariantHom} we have
+
+$$
+  Ext^1(G,A) \simeq H^1(Hom(F_\bullet, A))
+  \,.
+$$
+
+By construction of $F_\bullet$ a 1-[[cocycle]] in $Hom(F_\bullet,A)$ is a function $c : U(A) \times U(A) \to N$ such that for all $(a_0,a_1, a_2) \in U(A)^3$ we have
+
+$$
+  c(a_1,a_2)  - c(a_0 + a_1, a_2) + c(a_0, a_1 + a_2) - c(a_0,a_1) = 0
+  \,.
+$$
+
+This is precisely the condition on a [[group cohomology|group 2-cocycle]] on $G$ with coefficients in $A$.
+
+Moreover, a [[coboundary]] of $Hom(F_\bullet, A)$ in degree 2 is precisely a cocycle of the form
+$$
+ c(a_0, a_1) = h(a_0) - h(a_1)
+$$
+
+and this is precisely a group coboundary.
+
+=--
+
+
+
 
 
 ## Related concepts
