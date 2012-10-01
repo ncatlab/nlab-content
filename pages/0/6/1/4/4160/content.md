@@ -57,3 +57,12 @@ For a very intuitive and readable derivation, see:
 
 [[!redirects Lebesgue measure]]
 [[!redirects Lebesgue measures]]
+
+[[!redirects Lebesgue-measurable set]]
+[[!redirects Lebesgue-measurable sets]]
+[[!redirects Lebesgue measurable set]]
+[[!redirects Lebesgue measurable sets]]
+[[!redirects Lebesgue-measurable subset]]
+[[!redirects Lebesgue-measurable subsets]]
+[[!redirects Lebesgue measurable subset]]
+[[!redirects Lebesgue measurable subsets]]
