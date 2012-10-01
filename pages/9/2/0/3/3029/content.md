@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -754,6 +754,8 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 
 * **group extension**, [[Ext-group]]
 
+  * [[Baer sum]]
+
   * [[ring extension]]
 
 * [[Lie group cohomology]] 
@@ -805,4 +807,7 @@ A bit of discussion of some occurences of central extensions of groups in [[phys
 
 [[!redirects group extension]]
 [[!redirects group extensions]]
+
+[[!redirects abelian group extension]]
+[[!redirects abelian group extensions]]
 
