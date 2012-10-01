@@ -1325,12 +1325,14 @@ If now $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resoluti
 ### Projective resolutions adapted to group cocycles
  {#ProjectiveResolutionsForGroupCocycles}
 
-We discuss projective resolutions that are well-adapted to computation in [[group cohomology]].
+Let $G \in \mathbb{Z} Mod \simeq$ [[Ab]] be an [[abelian group]].
+
+We discuss projective resolutions of $G$ that are well-adapted to computation of the [[group cohomology]] of $G$ and hence of the [[group extensions]] of $G$.
 
 +-- {: .num_defn #ProjectiveResolutionThatGivesGroupCocycles}
 ###### Definition
 
-For $A \in \mathbb{Z} Mod \simeq$ [[Ab]] and $n \in \mathbb{N}$ define
+For $n \in \mathbb{N}$ define
 
 $$
   F_n \coloneqq F(U(G)^{n+1})
@@ -1351,36 +1353,58 @@ $$
   \mapsto
   (g_1, \cdots, g_n)
   + 
-  \sum_{i = 1}^n (-1)^i (g_0, \cdots, g_{i-1} + g_{i}, \cdots, g_n)
+  \sum_{i = 1}^n (-1)^i (g_0, \cdots, g_{i-1} +_G g_{i}, \cdots, g_n)
   -
   (-1)^n
   (g_0, \cdots, g_{n-1})
+  \,,
+$$
+
+where now $+_G : G \times G \to G$ denotes the addition (group operation) in the abelian group $G$, which the sum $\sum$ on the right forms [[formal linear combinations]], hence is the group operation in the [[free abelian grou]] $F(U(A)^n)$.
+
+=--
+
+This defines a [[chain complex]] of [[free abelian groups]] and hence in particular of  [[projective modules]] over $\mathbb{Z}$. 
+
+More abstractly we have equivalently
+
++-- {: .num_defn #ProjectiveResolutionThatGivesGroupCocyclesByDoldKan}
+###### Definition
+
+Write $\overline{W}G$ for the [[simplicial set]] which models the [[delooping]] [[groupoid]] $\mathbf{B}G$ (see at _[[simplicial principal bundle]]_ for details.) Since $G$ is abelian, this is itself a [[simplicial group]]. Write
+
+$$
+  N(C(\overline{W}G))_\bullet \in Ch_\bullet
+$$
+
+for the coresponding [[alternating face map complex]]. The above complex is the image of the [[loop space object]] of this under the [[free abelian group]] functor $\mathbb{Z}[-] : Set \to Ab$
+
+$$
+  F_\bullet 
+   = 
+  [ \cdots \to \mathbb{Z}[U(G)^2] \to \mathbb{Z}[U(G)] ]
   \,.
 $$
 
 =--
 
 
-This defines a [[chain complex]] of [[free abelian groups]] and hence in particular of  [[projective modules]] over $\mathbb{Z}$. 
-
 +-- {: .num_prop }
 ###### Proposition
 
-The [[chain homology]] of $F_\bullet$ in degree 0 reproduces $G$:
+The [[chain homology]] in degree 0 of the chain complex $F_\bullet$ of def. \ref{ProjectiveResolutionThatGivesGroupCocycles} reproduces $G$:
 
 $$
   H_0(F_\bullet) \simeq G
+  \,.
 $$
-
-Hence there is a projective resolution of $G$ that starts out as
-$[\cdots \to F_1 \to F_0]$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The image of the [[differential]] $\partia_0^F$ are those elements of $F(U(G))$ of the form 
+The image of the [[differential]] $\partial_0^F$ are those elements of $F(U(G))$ of the form 
 
 $$
   g_0 + g_1 - (g_0 +_G g_1)
@@ -1396,6 +1420,31 @@ $$
 
 =--
 
+Hence there is a projective resolution of $G$ that starts out as
+$[\cdots \to F_1 \to F_0]$. In fact:
+
++-- {: .num_prop }
+###### Proposition
+
+The canonical [[chain map]] 
+
+$$
+  F_\bullet \stackrel{}{\to} G
+$$
+
+is a projective resolution, def. \ref{ProjectiveResolution}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{ProjectiveResolutionThatGivesGroupCocyclesByDoldKan} the [[differentials]] of $F_\bullet$ are images of [[functions]] between sets under the [[free abelia group]] functor. Hence the [[image]] of $\partial^F_{n+1}$ coincides with the [[kernel]] of $\partial^F_n$ precisely if this is the case for the underlying functions of sets.  
+
+But with def. \ref{ProjectiveResolutionThatGivesGroupCocyclesByDoldKan} 
+there this follows by the [[Dold-Kan correspondence]], which itentifies the [[homology groups]] of $C(\overline{W}G)_\bullet$ with the [[simplicial homotopy groups]] of $\Omega\overline{W}G$, which are trivial in positive degree and coincide with $G$ in degree 0.
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
