@@ -1,10 +1,3 @@
+[[!redirects Edinburgh Logical Framework]]
 
-A [[logical framework]].
-
-## Related concepts
-
-* [[Elf]]
-
-* [[Twelf]]
-
-[[!redirects ELF]]
+See _[[Elf]]_
