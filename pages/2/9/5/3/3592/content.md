@@ -88,6 +88,26 @@ where the rightmost vertical arrow is Scott-continuous (and the horizontal compo
 This connection is explored in more depth with the category of [[equilogical spaces]], which can be seen either as a category of (set-theoretic) [[equivalence relation|partial equivalence relations]] over $AlgLat$, or equivalently of (set-theoretic) total [[equivalence relations]] on $T_0$ topological spaces.
 =-- 
 
+### Relation to locally finitely presentable categories 
+
+One of our definitions of algebraic lattice is: a poset $L$ which is locally finitely presentable when viewed as a category. The completeness of $L$ means that right adjoints $L \to Set$ are representable, given by $L(p, -) \colon L \to Set$, and we are particularly interested in those representable functors that preserve [[filtered colimits]]. These correspond precisely to finitely presentable objects $p$, which in lattice theory are usually called compact elements. These compact elements are closed under finite joins. 
+
+By Gabriel-Ulmer duality, $L$ is determined from the join-semilattice of compact elements $K$ by $L \cong Lex(K^{op}, Set)$. Since the elements of $K^{op}$ are subterminal, we can also write $L \cong Lex(K^{op}, 2)$ where $2 = Sub(1)$. 
+
+
+
++-- {: .num_theorem}
+###### Theorem (Porst) 
+If $C$ is a [[locally finitely presentable category]] and $X$ is an object of $C$, then 
+
+* The lattice of subobjects $Sub(X)$, 
+
+* The lattice of quotient objects (equivalence classes of epis sourced at $X$) $Quot(X)$, 
+
+* The lattice of congruences (internal equivalence relations) on $X$ 
+
+are all algebraic lattices. 
+=-- 
 
 ### Completely distributive lattices
 
