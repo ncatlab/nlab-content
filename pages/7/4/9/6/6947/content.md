@@ -22,16 +22,18 @@ $$
   \,,
 $$
 
-which is intended to be [[true]] if and only if $\phi a$ is true for at least one element $a$ of $T$.
+which is intended to be [[true]] if and only if $\phi a$ is true for at least one [[term]] $a$ of $T$.
 
-Note that it is quite possible that $\exists\, x\colon T, \phi x$ may be provable (in a given [[context]]) yet $\phi a$ cannot be proved for any [[term]] $a$ of type $T$ that can actually be constructed in that context.  Therefore, we cannot define the quantifier by taking the idea literally and applying it to terms.
+Note that it is quite possible that $\exists\, x\colon T, \phi x$ may be [[proof|provable]] (in a given [[context]]) yet $\phi a$ cannot be proved for any [[term]] $a$ of type $T$ that can actually be constructed in that context.  Therefore, we cannot define the quantifier by taking the idea literally and applying it to terms.
 
 
 ## Definition
 
+### In logic
+
 We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
 
-Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __existential quantification__ of $P$ is any proposition $\exists\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[context extension|weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __existential quantification__ of $P$ is any proposition $\exists\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
 
 *  $\exists\, x\colon T, P \vdash_{\Gamma} Q$ if and only if $P \vdash_{\Gamma, x\colon T} Q[\hat{x}]$.
 
@@ -42,14 +44,22 @@ Often one makes the appearance of the free variable in $P$ explicit by thinking 
 *  $\exists\, x\colon T, P(x) \vdash_{\Gamma} Q$ if and only if $P(x) \vdash_{\Gamma, x\colon T} Q$.
 
 
-In terms of [[semantics]] (as for example topos-theoretic semantics; see the next section), the weakening from $Q$ to $Q[\hat{x}]$ corresponds to [[pullback|pulling back]] along a [[product]] projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a [[subobject]] of $A$, then the statement $Q$ read in context $\Delta = \Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
+### In type theory
 
-As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
+In [[type theory]] under the identification of [[propositions as types]], the existential quantifier is given by the [[bracket type]] of the [[dependent sum type]].
+
+## Properties
+
+### Categorical semantics
+
+The [[categorical semantics]] of existential quantification is given by the [[n-truncated object of an (infinity,1)-category|(-1)-truncation]] of the [[dependent sum]]-construction along the [[projection]] morphism that projects out the [[free variable]] over which the existental quantifier quantifies. 
+
+Notice that the [[categorical semantics]] of the [[context extension]] from $Q$ to $Q[\hat{x}]$ corresponds to [[base change]]/[[pullback]] along the [[product]] [[projection]] $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a [[subobject]] of $A$, then the statement $Q$ read in context $\Delta = \Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
+
+(Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
 
-## In topos theory / in terms of adjunctions
-
-In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$, 
+Therefore in terms of the [[internal logic]] of a suitable category $\mathcal{E}$ (with sufficient pullbacks) 
 
 * a [[type]] $X$ is given by an [[object]] $X \in \mathcal{E}$, 
 
