@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 #Contemts#
 * table of contents
 {:toc}
@@ -85,6 +97,10 @@ The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational funct
 =--
 
 ## Related concepts
+
+* [[power series]]
+
+* [[monic polynomial]]
 
 * [[tensor algebra]]
 
