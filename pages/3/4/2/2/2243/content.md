@@ -33,6 +33,8 @@
 
 * [[group cohomology]], [[nonabelian group cohomology]], [[Lie group cohomology]]
 
+* [[Galois cohomology]]
+
 * [[groupoid cohomology]], [[nonabelian groupoid cohomology]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
