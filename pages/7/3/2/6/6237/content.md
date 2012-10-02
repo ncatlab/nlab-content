@@ -28,3 +28,6 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 [[!redirects character]]
 [[!redirects characters]]
+
+[[!redirects group character]]
+[[!redirects group characters]]
