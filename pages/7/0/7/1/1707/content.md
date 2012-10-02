@@ -11,12 +11,16 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-As described at [[cohomology]], a notion of [[cohomology]] exists for every [[(infinity,1)-topos]] $\mathbf{H}$: for $X$ and $A$ two objects of $\mathbf{H}$, 
+The _group cohomology_  of a [[group]] $G$ is the [[cohomology]] of its [[delooping]] $\mathbf{B}G$.
+
+The group cohomology of $G$ in particular classifies [[group extensions]] of $G$.
+
+More in details: as described at _[[cohomology]]_, a notion of [[cohomology]] exists for every [[(∞,1)-topos]] $\mathbf{H}$: for $X$ and $A$ two objects of $\mathbf{H}$, 
 
 * an $A$-valued [[cocycle]] on $X$ is an object in the [[∞-groupoid]] $\mathbf{H}(X,A)$;
 
@@ -87,6 +91,95 @@ The various notions of **group cohomology** are special cases of this:
   $$
 
   This is an example of [[twisted cohomology]], as explained there.
+
+## Definition
+
+### In terms of homotopy type theory
+ {#InHomotopyTypeTheory}
+
+We give the general abstract definition in the language of [[(∞,1)-topos theory]] / [[homotopy type theory]].
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Let $G \in Grp(\mathbf{H})$ be a [[group object in an (∞,1)-category|group object]],  an [[∞-group]], in $\mathbf{H}$. Write $\mathbf{B}G \in \mathbf{H}$ for its [[delooping]].
+
+An [[∞-action]] $\rho : V \times G \to V$ of $G$ on a $V \in \mathbf{H}$ is equivalently, as discussed there, exhibited by a [[fiber sequence]]
+
+$$
+  \array{
+    V &\to& V \sslash G
+    \\
+    && \downarrow^{\mathrlap{\bar \rho}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+Regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ this is the [[categorical semantics]] of what in the [[syntax]] of [[homotopy type theory]] this is the [[dependent type]]
+
+$$
+  x \colon \mathbf{B}G \;\vdash \; V(x) \colon Type
+  \,.
+$$
+
+Also, $\bar \rho$ is the _[[local coefficient bundle]]_ for $G$-group cohomology with [[coefficients]] in $V$ equipped with this $G$-[[∞-action]]. this means that the 
+ _group cohomology_ of $G$ with coefficients in $V$ is the hom in the [[slice (∞,1)-topos]] over $\mathbf{H}$ as [[base (∞,1)-topos]]
+
+$$
+  H^1_{Grp}(G,V) 
+  \coloneqq
+  \mathbf{H}_{/\mathbf{B}G}(\mathbf{B}G, V)
+  \,,
+$$
+
+where we denote on the right by $\mathbf{B}G$ the [[terminal object]] in the slice $\mathbf{H}_{/\mathbf{B}G}$. Notice that in $\mathbf{H}$ this is the trivial [[fiber sequence]]
+
+$$
+  \array{
+     * &\to& \mathbf{B}G
+     \\
+     && \downarrow^{\mathrlap{id}}
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+This is the [[categorical semantics]] of what in the [[syntax]] of [[homotopy type theory]] this is 
+
+$$
+  \vdash \; \left(\prod_{x \colon \mathbf{B}G} \left(* \to V \right)\right) \colon Type
+  \,.
+$$
+
+In the special case that the $G$-[[∞-action]] on $V$ is trivial, this reduces to $\mathbf{H}(\mathbf{B}G, V)$...
+
+
+
+### In terms of homological algebra
+ {#InTermsOfHomologicalAlgebra}
+
+Let $G$ be a [[discrete group]]. Write 
+$\mathbb{Z}G$ for the [[group algebra]] of $G$ over the [[integers]].
+Write $\mathcal{A} \coloneqq \mathbb{Z}[G]$[[Mod]] for the category of [[modules]] over $\mathbb{Z}G$.
+
+Then the above general abstract definition is equivalent to the following.
+
+Notice that a [[module]] $A \in \mathbb{Z}G Mod$ is equivalently an [[abelian group]] equipped with a $G$-[[action]].
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ an abelian group equipped with a $G$-action, the degree-$n$ _group cohomology_ of $G$ with [[coefficients]] in $A$ is the $n$-[[Ext]]-group
+
+$$
+ H^n_{Grp}(G,A) \coloneqq Ext^n_{\mathbb{Z}G}(\mathbb{Z}, A)
+  \,,
+$$
+
+where on the right $\mathbb{Z} \in \mathbb{Z}G Mod$ is regarded as equipped with the trivial $G$-action.
+
+=--
+
+For the time being see at _[[projective resolution]]_ for a little bit more.
 
 ## Examples
 
