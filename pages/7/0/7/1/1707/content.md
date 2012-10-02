@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -478,11 +482,13 @@ If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B
 
 ## Examples
 
-### Simple examples
+### Specific examples
+
+#### Simple examples
 
 * [[carrying]]
 
-### Cohomology of $U(n)$, $O(n)$, etc.
+#### Cohomology of $U(n)$, $O(n)$, etc.
 
 We consider for $G$ a [[topological group]] such as
 
@@ -508,7 +514,7 @@ $$
 
 where $c_i\in H^{2i}$ and $p_i\in H^{4i}$.  
 
-### Heisenberg cocycle
+#### Heisenberg cocycle
 
 The additive group on the [[Cartesian space]] $\mathbb{R}^2$ with group operation
 
@@ -533,7 +539,15 @@ $$
 
 The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
 
+### Classes of examples
 
+#### Galois cohomology
+
+The group cohomology of [[Galois groups]] is called _[[Galois cohomology]]_. See there for more details.
+
+#### Lie group cohomology
+
+See at _[[Lie group cohomology]]_.
 
 
 ## Related concepts
