@@ -154,6 +154,8 @@ are isomorphic to the direct pullback along the composite on the right.
 
 ## Related concepts
 
+* [[strong functor]]
+
 * [[cartesian closed category]], [[locally cartesian closed category]]
 
 * **cartesian closed functor**, [[locally cartesian closed functor]]
