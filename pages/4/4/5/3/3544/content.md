@@ -17,5 +17,6 @@
 
 [[!redirects Dan Quillen]]
 [[!redirects D. Quillen]]
-
+[[!redirects Daniel G. Quillen]]
+[[!redirects D. G. Quillen]]
 category: people
