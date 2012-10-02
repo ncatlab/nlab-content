@@ -21,6 +21,9 @@ In a [[model]] of the type theory in [[categorical semantics]], this is a [[depe
 
 It includes [[function types]] as the special case when $B$ is not dependent on $A$.  Note that a binary [[product type]] is rather different, being actually a special case of a [[dependent sum type]].
 
+## Overview
+
+[[!include dependent product natural deduction - table]]
 
 ## Definition
 
