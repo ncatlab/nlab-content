@@ -113,7 +113,7 @@ If $M$ is a [[monoidal category]], then we can speak of [[monoid objects]] in $M
 Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian group]]s) and [[dg-ring]]s, as well as the $A$-rings below.
 
 
-### Rings over a ring
+### Rings over a ring ($A$-rings)
 
 If $K$ is a commutative ring (or especially a [[field]]), then an [[associative algebra]] over $K$ is a monoid object in $K$-[[Mod]]; this is a special case of the previous section.
 
