@@ -12,22 +12,24 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The _tangent bundle_ $T X \to X$ of a [[space]] $X$ is a bundle whose fiber over a point $x \in X$ is a collection of [[infinitesimal space|infinitesimal]] curves emanating at $x$: the linear approximation of $X$ at $x$.
+The _tangent bundle_ $T X \to X$ of a [[space]] $X$ is a [[bundle]] over $X$ whose [[fiber]] over a [[point]] $x \in X$ is a collection of [[infinitesimal space|infinitesimal]] curves in $X$ emanating at $x$: the linear approximation of $X$ at $x$.
 
-For nice enough [[space]]s such as [[manifold]] or more generally [[microlinear space]]s, the _tangent bundle_ $T X \coloneq T_*(X)$ of $X$ is a [[vector bundle]] over $X$.  
+For nice enough [[spaces]] such as [[differentiable manifolds]] or more generally [[microlinear spaces]], the tangent bundle of $X$ is a [[vector bundle]] over $X$.  
 
-A _tangent vector_ on $X$ at $x \in X$ is an element of $T_x X$.  
+With a notion of tangent bundle comes the following terminology
 
-The _tangent space_ of $X$ at a point $x$ is the [[fiber]] $T_x(X)$ of $T_*(X)$ over $x$;.  
+* A _tangent vector_ on $X$ at $x \in X$ is an element of $T_x X$.  
 
-A _tangent vector field_ on $X$ is a [[section]] of $T X$.
+* The _tangent space_ of $X$ at a point $x$ is the [[fiber]] $T_x(X)$ of $T_*(X)$ over $x$;.  
 
-The precise definition of tangent bundle depends on the nature of the ambient category of [[space]]s. Below we give first the traditional definitions in ordinary [[differential geometry]]. Then we discuss the construction in more general context of [[smooth topos]]es in [[synthetic differential geometry]] and other categories of [[generalized smooth space]]s.
+* A _tangent vector field_ on $X$ is a [[section]] of $T X$.
+
+The precise definition of tangent bundle depends on the nature of the ambient category of [[space]]s. Below we give first the traditional definitions in ordinary [[differential geometry]]. Then we discuss the construction in more general context of [[smooth toposes]] in [[synthetic differential geometry]] and other categories of [[generalized smooth spaces]].
 
 ## Definitions in ordinary differential geometry
 
@@ -67,7 +69,11 @@ where $'$ indicates the usual derivative on the real line, so that $\dot{c}(t)$ 
 ### Geometric definition
 
 
-One can also *define* vectors at $a$ to be curves $c$ such that $c(0) = a$, modulo the [[equivalence relation]] that $\dot{c}(0) = \dot{d}(0)$ if $c = d$ on some neighbourhood of $0$.  (Of course, $0$ could be replaced by any argument $t$ in this definition.)  A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
+One can also *define* [[tangent vectors]] at $a \in X$ to be [[equivalence classes]] of smooth curves $c : \mathbb{R} \to X$ such that $c(0) = a$, where two curves are taken to be equivalent if their first [[derivative]] coincides at $0$.
+
+ (Of course, $0$ could be replaced by any argument $t$ in this definition.)  
+
+A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
 $$ v = \sum_i v^i\, \partial_i .$$
 This fact can also be turned into a definition of tanget vector.
 
