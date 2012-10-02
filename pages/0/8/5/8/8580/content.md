@@ -696,25 +696,31 @@ The dictionary between [[dependent type theory|dependent]] [[type theory]] with 
 
 [[!include judgements for types and terms - table]]
 
+$\,$
+
 [[!include product natural deduction - table]]
+
+$\,$
+
 
 [[!include dependent sum natural deduction - table]]
 
 
 Below in [Smooth spaces - Layer Syn](#SmoothSpacesLayerSyn) we complete this dictionary to one between [[dependent type theory]] with [[dependent products]] and [[toposes]].
 
+
 ## Smooth spaces
  {#SmoothSpaces}
 
-*** 
-
-Only keyword lists beyond this line. Come back a little later to find more material here.
-
-***
+In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth spaces]]_ that differential geometry can deal with. We also discuss basic properties of these smooth spaces. 
 
 ### Layer Mod
+ {#SmoothSpacesLayerMod}
+
+In this [Layer Mod](#LayerMod) we discuss concretely the definition of [[smooth spaces]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
 
 #### Plots of smooth spaces and their gluing
+ {#PlotsOfSmoothSpacesAndTheirGluing}
 
 The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in def. \ref{CartesianSpacesAndSmoothFunctions} inside it. At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answers to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
 
@@ -765,7 +771,6 @@ But there is one more consistency condition for a collection of plots to really 
 ###### Definition
 
 Let $X$ be a smooth pre-space, def. \ref{SmoothPreSpace}.
-
 For $\{U_i \to \mathbb{R}^n\}_{i \in I}$ a differentially [[good open cover]], def. \ref{DifferentiallyGoodOpenCover}, let 
 
 $$
@@ -792,11 +797,13 @@ $$
 
 $$
   GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
-  \coloneqq
+  \;\;\coloneqq\;\;
   \left\{
+    \;
     \left(p_i \in X(U_i)\right)_{i \in I}
-    |
-    \forall_{i,j \in I} : X(\iota_i)(p_i) = X(\iota_j)(p_j)
+    \;|\;\;
+    \forall_{i,j \in I} \;:\; X(\iota_i)(p_i) = X(\iota_j)(p_j)
+    \;
   \right\}
   \,.
 $$
@@ -812,9 +819,9 @@ $$
   X(\iota_i)(p_i) = X(\iota_j)(p_j)
 $$
 
-says in words that 
+says in words:
 
-> The plot $p_i$ of $X$ by the coordinate system $U_i$ inside the bigger coordinate system $\mathbb{R}^n$ coindices with the plot $p_j$ of $X$ by the other coordinate system $U_j$ inside $X$ when both are restricted to the [[intersection]] of $U_i$ and $U_j$ inside $\mathbb{R}^n$.
+> The plot $p_i$ of $X$ by the coordinate system $U_i$ inside the bigger coordinate system $\mathbb{R}^n$ coindices with the plot $p_j$ of $X$ by the other coordinate system $U_j$ inside $X$ when both are restricted to the [[intersection]] $U_i \cap U_j$ of $U_i$ with $U_j$ inside $\mathbb{R}^n$.
 
 =--
 
@@ -827,7 +834,7 @@ $$
   X(\mathbb{R}^n) \to GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
 $$
 
-from the set of $\mathbb{R}^n$-plots of $X$ to the set of tuples of glued plots, which sends a plot $p \in X(\mathb{R}^n)$ to its restriction to all the $\phi_i U_i \hookrightarrow \mathbb{R}^n$:
+from the set of $\mathbb{R}^n$-plots of $X$ to the set of tuples of glued plots, which sends a plot $p \in X(\mathbb{R}^n)$ to its restriction to all the $\phi_i \colon U_i \hookrightarrow \mathbb{R}^n$:
 
 $$
   p \mapsto (X(\phi_i)(p))_{i \in I}
@@ -838,7 +845,7 @@ $$
 
 If $X$ is supposed to be consistently probable by coordinate systems, then it most be true that the set of ways of laying out a coordinate system $\mathbb{R}^n$ inside it coincides with the set of ways of laying out tuples of glued coordinate systems inside it, for each good cover $\{U_i \to \mathbb{R}^n\}$ as above. Therefore:
 
-+-- {: .num_defn}
++-- {: .num_defn #SmoothSpace}
 ###### Definition
 
 A smooth pre-space $X$, def. \ref{SmoothPreSpace} is a **[[smooth space]]** if for all differentially good open covers $\{U_i \to \mathbb{R}^n\}$, def. \ref{DifferentiallyGoodOpenCover}, the canonical function of remark \ref{NaiveDescentMorphism} from plots to glued plots is a [[bijection]]
@@ -850,7 +857,209 @@ $$
 
 =--
 
-This is the definition that essentially all of the following is based on. We do discuss now constructions that produce new [[smooth spaces]] from given ones, but it will not until a few sections later that we consider those examples of smooth spaces which traditionally are put at the beginning of the discussion: [[smooth manifold]]. But just to orient the reader, here is a little outlook:
+We will eventually consider many example. The most basic one is the following.
+
++-- {: .num_example #CartesianSpaceAsSmoothSpace}
+###### Example
+
+For $n \in \mathbb{R}^n$, there is a [[smooth space]], def. \ref{SmoothSpace}, whose set of plots over the abstract coordinate systens $\mathbb{R}^k$ is the set
+
+$$
+  CartSp(\mathbb{R}^k, \mathbb{R}^n) \in Set
+$$ 
+
+of [[smooth functions]] from $\mathbb{R}^k$ to $\mathbb{R}^n$.
+
+=--
+
+Clearly this is the rule for plots that characterize $\mathbb{R}^n$ itself as a smooth space, and so we will just denote this smooth space by the same symbols "$\mathbb{R}^n$". In a moment we find a formal justification for this slight abuse of notation.
+
+More examples of smooth spaces can be built notably by [[intersection|intersecing]] [[images]] of two smooth spaces inside a bigger one. In order to say this we first need a formalization of [[homomorphism]] of smooth spaces. This we turn to now.
+
+
+#### Homomorphisms of smooth spaces
+ {#HomomorphismsOfSmoothSpaces}
+
+The idea of the following definition is to say that whatever a [[homomorphism]] $f : X \to Y$ between two smooth spaces is, it has to takes the plots of $X$ by $\mathbb{R}^n$ to a corresponding plot of $Y$, such that this respects coordinate transformations.
+
++-- {: .num_defn #HomomorphismOfSmoothSpaces}
+###### Definition
+
+Let $X$ and $Y$ be two smooth spaces, def. \ref{SmoothSpace}. Then a [[homomorphism]] $f \colon X \to Y$ is
+
+* for each abstract coordinate system $\mathbb{R}^n$ (hence for each $n \in \mathbb{N}$) a [[function]]
+
+  $f_{\mathbb{R}^n} : X(\mathbb{R}^n) \to Y(\mathbb{R}^n)$
+
+  that sends $\mathbb{R}^n$-plots of $X$ to $\mathbb{R}^n$-plots of $Y$ 
+
+such that 
+
+* for each [[smooth function]] $\phi : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ we have
+
+  $$
+    Y(\phi) \circ f_{\mathbb{R}^{n_1}} = f_{\mathbb{R}^{n_2}} \circ X(\phi)
+  $$   
+
+  hence a [[commuting diagram]]
+
+  $$
+    \array{
+      X(\mathbb{R}^{n_1}) &\stackrel{f_{\mathbb{R}^{n_1}}}{\to}& Y(\mathbb{R}^{n_1})
+      \\
+      \downarrow^{\mathrlap{X(\phi)}} && \downarrow^{\mathrlap{Y(\phi)}}
+      \\
+      X(\mathbb{R}^{n_2}) &\stackrel{f_{\mathbb{R}^{n_2}}}{\to}& Y(\mathbb{R}^{n_1})
+    }
+    \,.
+  $$
+
+For $f_1 : X \to Y$ and $f_2 : X \to Y$ to homomorphism of smooth spaces, their [[composition]] $f_2 \circ f_1 \colon X \to Y$ is defined to be the homomorphism whose component over $\mathbb{R}^n$ is the composite of functions of the components of $f_1$ and $f_2$:
+
+$$
+  (f_2\circ f_1)_{\mathbb{R}^n} \coloneqq {f_2}_{\mathbb{R}^n} \circ {f_1}_{\mathbb{R}^n}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $Smooth0Type$ for the [[category]] whose [[objects]] are [[smooth spaces]], def. \ref{SmoothSpace}, and whose [[morphisms]] are homomorphisms of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}.
+
+=--
+
+At this point it may seem that we have now _two different_ notions for how to lay out a coordinate system in a smooth space $X$: on the hand, $X$ comes by definition with a rule for what the set $X(\mathbb{R}^n)$ of its $\mathbb{R}^n$-plots is. On the other hand, we can now regard the abstract coordinate system $\mathbb{R}^n$ itself as a smooth space, by example \ref{CartesianSpaceAsSmoothSpace}, and then say that an  $\mathbb{R}^n$-plot of $X$ should be a homomorphism of smooth spaces of the form $\mathbb{R}^n \to X$.
+
+The following proposition says that these two superficially different notions actually naturally coincide. 
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be any [[smooth space]], def. \ref{SmoothSpace}, and regard the abstract coordinate system $\mathbb{R}^n$ as a smooth space, by example \ref{CartesianSpaceAsSmoothSpace}. There is a [[natural bijection]]
+
+$$
+  X(\mathbb{R}^n) \simeq Hom_{Smooth0Type}{\mathbb{R}^n, X}
+$$
+
+between the _postulated_ $\mathbb{R}^n$-plots of $X$ and the _actual_ $\mathbb{R}^n$-plots given by homomorphism of smooth spaces $\mathbb{R}^n \to X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a special case of the _[[Yoneda lemma]]_, as will be made more explicit below in _[The topos of smooth spaces](#ToposOfSmoothSpaces)_. 
+
+The reader unfamiliar with this should write out the simple proof explicitly: use the defining [[commuting diagrams]] in def. \ref{HomomorphismOfSmoothSpaces} to deduce that a homomorphism $f : \mathbb{R}^n \to X$ is uniquely fixed by the image of the [[identity]] element in  $\mathbb{R}^n(\mathbb{R}^n) \coloneqq CartSp(\mathbb{R}^n, \mathbb{R}^n)$ under the component function $f_{\mathbb{R}^n} : \mathbb{R}^n(\mathbb{R}^n) \to X(\mathbb{R}^n)$.
+
+=--
+
+
+
+#### Products and fiber products of smooth spaces
+ {#ProductsAndFiberProductsOfSmoothSpaces}
+
++-- {: .num_defn #ProductOfSmoothSpaces}
+###### Definition
+
+Let $X, Y \in Smooth0Type$ by two smooth spaces. Their **[[product]]** is the smooth space $X \times Y \in Smooth0Type$ whose plots are pairs of plots of $X$ and $Y$:
+
+$$
+  X\times Y (\mathbb{R}^n) \coloneqq X(\mathbb{R}^n) \times Y(\mathbb{R}^n)
+  \;\;
+  \in Set
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $f \colon X \to Z$ and $g \colon Y \to Z$ be two [[homomorphisms]] of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}. There is then a new smooth space to be denoted 
+
+$$
+  X \times_Z Y \in Smooth0Type
+$$ 
+
+(with $f$ and $g$ understood), called the [[fiber product]] of $X$ and $Y$ along $f$ and $g$, and defined as follows:
+
+the set of $\mathbb{R}^n$-plots of $X \times_Z Y$ is the set of pairs of plots of $X$ and $Y$ which become the same plot of $Z$ under $f$ and $g$, respectively:
+
+$$
+  (X \times_Z Y)(\mathbb{R}^n)
+  =
+  \left\{
+    (p_X \in X(\mathbb{R}^n), p_Y \in Y(\mathbb{R}^n))
+    \; |\;
+    X(f)(p_X) = Y(g)(p_Y)
+  \right\}
+  \,.
+$$
+
+=--
+
+
+
+#### Smooth mapping spaces
+ {#SmoothMappingSpaces}
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $\Sigma, X \in Smooth0Type$ be two [[smooth spaces]], def. \ref{#SmoothSpace}. Then the **[[mapping space]]** 
+
+$$
+  [\Sigma,X] \in Smooth0Type
+$$ 
+
+is the [[smooth space]] defined by saying that its set of $\mathbb{R}^n$-plots is
+
+$$
+  [\Sigma, X](\mathbb{R}^n)
+   \coloneqq
+  Hom(\Sigma \times \mathbb{R}^n, X)
+  \,.
+$$
+
+=--
+
+Here in $\Sigma \times \mathbb{R}^n$ we first regard the abstract coordinate system $\mathbb{R}^n$ as a smooth space by example \ref{CartesianSpaceAsSmoothSpace} and then we form the [[product]] smooth space by def. \ref{ProductOfSmoothSpaces}.
+
++-- {: .num_remark}
+###### Remark
+
+This means in words that a $\mathbb{R}^n$-plot of the [[mapping space]] $[\Sigma,X]$ is a smooth $\mathbb{R}^n$-parameterized _family_ of homomorphisms $\Sigma \to X$.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[natural bijection]]
+
+$$
+  Hom(K, [\Sigma, X])
+  \simeq
+  Hom(K \times \Sigma, X)  
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+[[path space]] $\mathbf{P}X \coloneqq [\mathbb{R}^1, X]$ (on the horizon: [[path integral]])
+
+=--
+
+
+#### Outlook
 
 +-- {: .num_remark}
 ###### Remark
@@ -877,33 +1086,389 @@ $\{$[[smooth groupoids]]$\}$
 
 =--
 
-#### Smooth mapping spaces
- {#SmoothMappingSpaces}
-
-[[mapping spaces]]: for $\Sigma, X$ [[smooth spaces]], the [[mapping space]] $[\Sigma,X]$ is defined as the [[smooth space]] whose $U$-[[coordinate charts]] are $\mathbf{H}(\Sigma \times U ,X)$.
-
-
-Example: [[smooth loop space]] $L X = [S^1, X]$ (on the horizon: [[path integral]])
-
 
 
 ### Layer Sem
  {#SmoothSpacesLayerSem}
 
-[[sheaf topos]]
+In this [Layer Sem]{#LayerSem} we mention some basic definitions of [[topos theory]] and discuss the [[topos]] formed by the [[smooth spaces]] defined in [Smooth Spaces - Mayer Mod](#SmoothSpacesLayerMod).
+
+
+#### The topos of smooth spaces
+ {#ToposOfSmoothSpaces}
+
+
++-- {: .num_remark}
+###### Remark
+
+* A _smooth pre-space_, def. \ref{SmoothPreSpace} is equivalently a [[presheaf]] on [[CartSp]], hence a [[functor]] $X : CartSp^{op} \to Set$;
+
+* a _[[smooth space]]_, def. \ref{SmoothSpace}, is equivalently a presheaf on [[CartSp]] which is a [[sheaf]] with respect to the differentially [[good open cover]]-[[coverage]]:
+
+  * the set of "glued plots", def. \ref{MatchingFamiliesOfPlots} is the [[descent object]];
+
+  * the canonical morphism of remark \ref{NaiveDescentMorphism} is the [[desencent morphism]];
+
+  * the condition that it be an isomorphism (for each differentially good open cover) is the [[desencent]]- or [[sheaf condition]].
+
+=--
+
+
++-- {: .num_defn #SheafToposAsSubtopos}
+###### Definition
+
+A [[sheaf topos]] is [[subtopos]] of [[presheaf topos]]
+
+$$
+  Sh(C) 
+    \stackrel{\overset{\overline{(-)}}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Here the [[left adjoint]] $\overline{(-)}$, which is equivalently
+
+* the [[inverse image]] of the [[geometric embedding]] [[geometric morphism]]
+
+* the [[sheafification]] functor
+
+is precisely such that for every [[covering]] $\{U_i \to U\}_{i \in I}$ in the [[site]] $C$ the [[sieve]] inclusion 
+
+$$
+  S(\{U_i\}) \hookrightarrow U \;\;\;\; \in PSh(C)
+$$
+
+(a [[dense monomorphism]]) is sent to an [[isomorphism]].
+
+Hence the sheaf topos is the left exact [[localization]] at the covering sieve inclusions.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[presheaf topos]] $PSh(C)$ is the [[free cocompletion]] of the [[category]] $C$, hence the category obtained from $C$ by [[free construction|freely]] forming [[colimits]] of its objects.
+
+In contrast, the [[localization]] $Sh(C) \hookrightarrow PSh(C)$ enforces _relations_ between these free colimits.
+
+Therefore in total we may think of $Sh(C)$ as obtained by [[generators and relations]] from the [[site]] $C$: 
+
+* the objects of $C$ are the generators;
+
+* the [[coverings]] of $C$ are the relations.
+
+=--
+
+Def. \ref{SheafToposAsSubtopos} is the "external" characterization of sheaf toposes. More intrinsically we have _[[Giraud's theorem]]_:
+
++-- {: .num_theorem}
+###### Theorem
+
+A [[sheaf topos]] is equivalently a [[presentable category]] with
+
+1. [[universal colimits]]
+
+1. [[effective quotients]]
+
+1. [[disjoint coproducts]]
+
+=--
+
+This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-shaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]]. 
+
+For other general considerations we need rather that every [[sheaf topos]] is in particular an _[[elementary topos]]_
+
++-- {: .num_defn}
+###### Definition
+
+An [[elementary topos]] is 
+
+* a [[locally cartesian closed category]] 
+
+* with a [[subobject classifier]].
+
+=--
+
+The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that its has a [[type of propositions]]. This we turn to in [Smooth Spaces - Layer Syn](#SmoothSpacesLayerSyn) below.
+
+The sheaf topos of [[smooth spaces]] has a few more crucial properties: it is
+
+* a [[locally connected topos|locally connected]] and [[connected topos]]
+
+* a [[local topos]]
+
+* a [[cohesive topos]]. This we discuss in the remainder of this [Layer Sem](#LayerSem).
+
+
+#### Connectedness of the topos of smooth spaces
+ {#ConnectedSmooth0Type}
+
+The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
+
+$$
+  Sh(CartSp)
+  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  Set
+$$
+
+The extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The following argument works for every [[site]] $C$ which is such that constant presheaves on $C$ are already sheaves.
+
+Notice that this is the case for $C = CartSp$ because every Cartesian space is connected: for $S \in Set$ a compatible family of elements of $Const S$ on a cover $\{U_i \to \mathbb{R}^n\}$ of some $\mathbb{R}^n$ is an element of $S$ on each patch, such that their restriction maps to intersections of patches coincide. But the restriction maps are all identities, so this says that all these elements coincide. Therefore the set of compatible families is just the set $S$ itself, hence the presheaf $Const S$ is a sheaf.
+
+So with $L : PSh(C) \to Sh(C)$ the [[sheafification]] functor we have that $L Const S \simeq Const S$.
+
+Whenever this is the case the [[left adjoint]] to the constant presheaf functor, which always exists for presheaves and is given by the [[colimit]] functor, is also left adjoint on the level of sheaves, because for each $X \in Sh(C)$ and $S \in Set$ we have natural bijections
+
+$$
+  \begin{aligned}
+    Hom_{Sh(C)}(X, L Const S)
+    & =
+    Hom_{PSh(C)}(X, L Const S)
+    \\
+    & \simeq
+    Hom_{PSh(C)}(X, Const S)
+    \\
+    & \simeq
+    Hom_{Set}(\lim_\to X, S)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
+for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel{L}{\to} Sh(C)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[co-Yoneda lemma]] we may write 
+
+$$
+  X = {\lim_\to}_{(U \to X) \in y/X} U
+$$
+
+and since $\Pi_0$ commutes with colimits we have
+
+$$
+  \Pi_0(X) \simeq 
+  \Pi_0 {\lim_\to}_{(U \to X)} U
+  \simeq
+  {\lim_\to}_{(U \to X)} \Pi_0(U)
+  \,.
+$$
+
+But also by the co-Yoneda lemma we have that the [[colimit]] over any [[representable functor|representable]] is the singleton set, hence our expression
+
+$$
+  \cdots \simeq 
+  {\lim_\to}_{(U \to X)} *
+$$
+
+is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
+
+The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
+
+
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is actually a [[connected topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $CartSp$ is a [[connected category]] it is immediate that $Const \colon Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
+
+By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$. 
+
+=--
+
+#### Locality of the topos of smooth spaces
+ {#LocalSmooth0Type}
+
+
++-- {: .num_prop}
+###### Proposition
+
+
+The [[sheaf topos]] $Sh(CartSp)$ is also a [[local topos]]
+
+$$
+  (L Const \dashv \Gamma \dashv CoDisc)
+  :
+  Sh(CartSp) \stackrel{\overset{L Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}} 
+  Set
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The [[site]] [[CartSp]] is a [[local site]]: it has a [[terminal object]] and the only [[covering]] [[sieve]] of this object is the trivial one. This implies the claim, by the discussion at [[local site]].
+
+Concretely, the extra [[right adjoint]] $CoDisc$ takes a [[set]] $S$ to the presheaf given by the assigmnent
+
+$$
+  CoDisc(S) : U \mapsto Hom_{Set}(CartSp(*,U), S)
+  \,,
+$$
+
+that takes a Cartesian space $U$ to the set of [[function]]s from its underlying set of points to $S$. This is clearly a sheaf (a function of sets from $U$ to $S$ is clearly fixed by all its restrictions to a collections of  subsets of $U$ whose unition is $U$.)
+
+=--
+
+Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [[codiscrete space|codiscrete]] (indiscrte) smooth structure.
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
+
+$$
+  Set \stackrel{\leftarrow}{\underset{CoDisc}{\hookrightarrow}}
+  DiffologicalSp \stackrel{\leftarrow}{\hookrightarrow}
+  Sh(CartSp)
+$$
+
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+
+
+The [[concrete sheaves]] for the [[local topos]] $Sh(CartSp)$ are by definition those objects $X$ for which the 
+$(\Gamma \dashv CoDisc)$-[[unit of an adjunction|unit]]
+
+$$
+  X \to CoDisc \Gamma X
+$$
+
+is a [[monomorphism]]. Monomorphisms of sheaves are tested objectwise, so that means equivalently that for every $U \in CartSp$ we have that 
+
+$$
+  X(U) \simeq Hom_{Sh}(U,X) \to Hom_{Sh}(U, Codisc \Gamma X)
+  \simeq Hom_{Set}(\Gamma U, \Gamma X)
+$$
+
+is a monomorphism. This is precisely the condition on a sheaf to be a diffeological space.
+
+=--
+
+
+
+#### Cohesion of the topos of smooth spaces
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _pieces have points_ holds.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[site]] [[CartSp]] is a [[cohesive site]] (see there for detail). This implies the statement.
+
+=--
+
+This implies that $Sh(CartSp)$ is a [[locally connected topos]], [[connected topos]], [[local topos]]. It means in addition that it is also a [[strongly connected topos]].
+
+This means that there is a _homotopy category_ or _concordance category_ of [[smooth spaces]], with the same objects as $Sh(CartSp)$, but with hom-sets given by
+
+$$
+  Conc(X,Y) := \Pi_0 [X,Y]_{Sh(CartSp)}
+ \,,
+$$
+
+where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
+
+
+#### Slice toposes
 
 [[slice topos]]
 
 [[subobject classifier]]
 
+
+
 ### Layer Syn
  {#SmoothSpacesLayerSyn}
+
+In this [Layer Syn](#LayerSyn) we discuss the two further aspects that the [[internal language]] of a [[topos]] adds to the internal language of a just a category with [[finite products]] (which is the [[dependent type theory|dependent]] [[type theory]] with [[unit type]] and [[product type]] discussed in _[Coordinate systems - Layer Syn](#CoordinateSystemsLayerSyn)): [[dependent product types]] and a [[type of propositions]].
 
 [[dependent type theory]] $\leftrightarrow$ [[locally cartesian closed category]]
 
 [[type of propositions]] $\leftrightarrow$ [[subobject classifier]]
 
+(...)
+
+#### Natural deduction rules for dependent product types
+
+* [[dependent product type]]
+
+#### The type of propositions
+
+* [[propositions as types]]
+
+* [[programs as proofs]]
+
+* [[computational trinitarianism]]
+
+* [[type of propositions]]
+
+
 ## Differential forms
+
+*** 
+
+Only keyword lists beyond this line. Come back a little later to find more material here.
+
+***
+
 
 * [[smooth function]] on [[coordinate system]] = [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$
 
