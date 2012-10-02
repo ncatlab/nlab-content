@@ -55,7 +55,7 @@ This is meant for readers who enjoy seeing fundamental physics _naturally_ roote
 
 * **Layer Syn** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
 
-## Coordinate systems
+## **Coordinate systems**
  {#CoordinateSystems}
 
 Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archtypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_1}$, hence smooth (and possiby degenerate) [[coordinate transformations]].
@@ -688,13 +688,17 @@ In the [next section](#SmoothSpaces) we promote our running example category $\m
 
 
 
-#### Dictionary type theory / category theory
+#### Dictionary: type theory / category theory
  {#DictionaryTypeTheoryCategoryTheory}
 
 
 The dictionary between [[dependent type theory|dependent]] [[type theory]] with [[product types]] and [[category theory]] of categories with [[products]].
 
 [[!include judgements for types and terms - table]]
+
+$\,$
+
+[[!include substitution natural deduction - table]]
 
 $\,$
 
@@ -709,7 +713,7 @@ $\,$
 Below in [Smooth spaces - Layer Syn](#SmoothSpacesLayerSyn) we complete this dictionary to one between [[dependent type theory]] with [[dependent products]] and [[toposes]].
 
 
-## Smooth spaces
+## **Smooth spaces**
  {#SmoothSpaces}
 
 In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth spaces]]_ that differential geometry can deal with. We also discuss basic properties of these smooth spaces. 
@@ -934,7 +938,7 @@ At this point it may seem that we have now _two different_ notions for how to la
 
 The following proposition says that these two superficially different notions actually naturally coincide. 
 
-+-- {: .num_prop}
++-- {: .num_prop #YonedaForSmoothSpaces}
 ###### Proposition
 
 Let $X$ be any [[smooth space]], def. \ref{SmoothSpace}, and regard the abstract coordinate system $\mathbb{R}^n$ as a smooth space, by example \ref{CartesianSpaceAsSmoothSpace}. There is a [[natural bijection]]
@@ -1448,7 +1452,17 @@ In this [Layer Syn](#LayerSyn) we discuss the two further aspects that the [[int
 
 #### Natural deduction rules for dependent product types
 
-* [[dependent product type]]
+[[!include dependent product natural deduction - table]]
+
+In the special case that $A$ does not actually deopend on $X$:
+
+[[!include function type natural deduction - table]]
+
+#### Internal logic of a topos
+
+What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (infinity,1)-category|(-1)-truncated objects]] in [[slice categories]], hence of [[monomorphisms]] regarded as objects of slice categories.
+
+(...)
 
 #### The type of propositions
 
@@ -1461,7 +1475,7 @@ In this [Layer Syn](#LayerSyn) we discuss the two further aspects that the [[int
 * [[type of propositions]]
 
 
-## Differential forms
+## **Differential forms**
 
 *** 
 
@@ -1469,6 +1483,9 @@ Only keyword lists beyond this line. Come back a little later to find more mater
 
 ***
 
+### Layer Mod
+
+#### Differential forms on Cartesian spaces
 
 * [[smooth function]] on [[coordinate system]] = [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$
 
@@ -1486,15 +1503,119 @@ then
 
 * [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]]...
 
-the smooth space of differential $n$-forms is $\Omega^n(-)$
+#### The smooth spaces of differential forms
+
++-- {: .num_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ the assignment
+
+$$
+  \mathbb{R}^k \mapsto \Omega^n(\mathbb{R}^n)
+$$
+
+defines a [[smooth space]]. We denote this 
+
+$$
+  \Omega^n(-) \in Smooth0Type
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in Smooth0Type$, a **[[differential n-form]]** on $X$ is a [[homomorphism]] of [[smooth spaces]] of the form
+
+$$
+  \omega \colon X \to \Omega^n(-)
+  \,.
+$$
+
+Accordingly we write
+
+$$
+  \Omega^n(X) \coloneqq Smooth0Type(X,\Omega^n(-))
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By prop \ref{YonedaForSmoothSpaces} (the [[Yoneda lemma]])
+we have that $\Omega^n(\mathbb{R}^k)$ is unambiguous.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+$\Omega^0(-) = \mathbb{R}$
+
+=--
+
+### Layer Sem
+
+#### Concrete objects
+
+* [[concrete object]], [[concrete sheaf]]
+
+$$
+  Conc \colon Sh(C) \to ConcSh(C) \hookrightarrow Sh(C)
+$$
+
+$$
+  Conc(X) = im(X \to \sharp X)
+$$
+
+$$
+  toSharp \colon X \to Conc(X) \hookrightarrow \sharp X
+$$
+
+#### Smooth moduli space of differential forms on a smooth space
+
+$$
+  \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n(-)])
+$$
+
+### Layer Syn
+
+#### Images in type theory
+
+* [[infinity-image]]
 
 
-the [[Yoneda lemma]]: $\Omega^n(\mathbb{R}^n) = \{\mathbb{R}^n \to \Omega^n(-)\}$
+$$
+  \omega \colon [X, \Omega^n(-)] 
+  \;
+  \vdash 
+  \;
+  toSharp(\omega) \colon \sharp [X, \Omega^n(-)]
+$$
 
-observe: $\Omega^0(-) = \mathbb{R}$
+smooth moduli space of differential $n$-forms:
+
+$$
+  \omega \colon \sharp [X, \Omega^n(-)]
+  \;
+   \vdash
+  \;
+  \left(
+   \left[
+     \sum_{\lambda \colon [X, \Omega^n(-)]}
+     (\omega = toSharp(\lambda))
+   \right]
+  \right)
+  \colon Type
+$$
 
 
-## Differentiation
+## **Differentiation**
+
+### Layer Mod
 
 * [[derivative]]
 
@@ -1560,7 +1681,20 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 (the other 2 below in Riemannian geometry)
 
-## Variational calculus
+### Layer Sem
+
+* [[equation]]
+
+* [[differential equation]]
+
+
+### Layer Syn
+
+(...)
+
+## **Variational calculus**
+
+### Layer Mod
 
 for instance [[variational calculus]]
 
@@ -1580,7 +1714,25 @@ $$
 
 * [[Euler-Lagrange equations]]
 
-## Smooth groupoids
+### Layer Sem
+
+* [[critical locus]]
+
+### Layer Syn
+
+$$
+  \vdash 
+    \;
+  \sum_{x \colon X} \left( \mathbf{d}S(x) = 0 \right)
+$$
+
+
+
+## **Smooth $n$-groupoids**
+
+### Layer Mod
+
+* [[Lie groupoid]]
 
 $$
   X_1 \stackrel{\overset{d_1}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_0}{\to}}}
@@ -1611,7 +1763,31 @@ $$
   \right)
 $$
 
-## Principal bundles
+### Layer Sem
+
+#### The $\infty$-topos of smooth $\infty$-groupoids
+
+* [[differentiable stack]]
+
+* [[(2,1)-topos]]
+
+* [[(∞,1)-topos]]
+
+* [[smooth ∞-groupoid]]
+
+### Layer Syn
+
+* [[identity type]]
+
+* [[h-level]]
+
+* [[homotopy type theory]]
+
+
+
+## **Principal bundles**
+
+### Layer Mod
 
 any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
   
@@ -1668,8 +1844,72 @@ $$
 where the left horizontal morphisms are [[weak equivalences]]
 and the right square is a [[pullback]]
 
-## Smooth manifolds
+### Layer Sem
 
+* [[homotopy fiber]]
+
+* [[homotopy colimit]]
+
+### Layer Syn
+
+* [[connected type]]
+
+
+## **Associated bundles**
+
+### Layer Mod
+
+* [[action]], [[∞-action]]
+
+  $$
+    \array{
+      V &\to& V\sslash G
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B}G
+    }
+  $$
+
+* [[associated bundle]]
+
+$$
+  \array{
+    E &\to& V\sslash G
+    \\
+    \downarrow &pb& \downarrow
+    \\
+    \tilde X &\to& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+* [[section]]
+
+$$
+  \array{
+    X &&\stackrel{\sigma}{\to}&& V \sslash G
+    \\
+    & \searrow &\swArrow_{\simeq}& \swarrow
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **Smooth manifolds**
+
+### Layer Mod
 
 A [[smooth manifold]] of [[dimension]] $n$ 
 
@@ -1752,9 +1992,14 @@ Formulated as [[smooth groupoids]]
 
   whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
 
+### Layer Sem
+
+(...)
+
+### Layer Syn
 
 
-## Tangent bundle
+## **Tangent bundle**
 
 
 The above situation is neatly encoded in the existence of a [[diagram]] of Lie groupoids of the form
@@ -1779,7 +2024,17 @@ where
 
 A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
 
-## $G$-Structure
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **$G$-Structure**
+
+### Layer Mod
 
 $$
   \mathbf{B}G \to \mathbf{B}K
@@ -1809,8 +2064,16 @@ $$
   }
 $$
 
+### Layer Sem
 
-## Riemannian geometry
+(...)
+
+### Layer Syn
+
+
+## **Riemannian geometry**
+
+### Layer Mod
 
 [[reduction of the structure group]] along
 
@@ -1833,7 +2096,17 @@ example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 
 [[Einstein-Maxwell theory]]
 
-## Integration 
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **Integration**
+
+### Layer Mod
 
 $\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
 
@@ -1850,7 +2123,17 @@ $$
   \,.
 $$
 
-## Transgression
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **Transgression**
+
+### Layer Mod
 
 [[transgression]] of [[differential forms]] to [[mapping space]] is the composite
 
@@ -1892,9 +2175,18 @@ variation gives [[Lorentz force]]
 * [[Stokes theorem]]
 
 
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
 
 
-## Circle-principal connections
+## **Circle-principal connections**
+
+### Layer Mod
 
 [[Dirac charge quantization]] says that the
 [[electromagnetic field]] is only locally in general a map
@@ -1962,17 +2254,19 @@ $$
   A' = A + \mathbf{d} log \lambda
 $$
 
-## Smooth $n$-groupoids
+### Layer Sem
 
-* [[groupoid]]
+(...)
 
-[[smooth infinity-groupoid|smooth n-groupoid]]
+### Layer Syn
 
-* [[Dold-Kan correspondence]]
+(...)
 
 
-## First Chern class
+## **First Chern class**
 
+
+### Layer Mod
 * [[magnetic charge]], [[first Chern class]]
 
 $$
@@ -2000,7 +2294,16 @@ $$
   H^2(X, \mathbb{Z})
 $$
 
-## Circle-principal $n$-connection
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+
+## **Circle-principal $n$-connection**
+
+### Layer Mod
 
 * [[Deligne complex]]
 
@@ -2016,7 +2319,17 @@ $$
     \mathbf{B}^{n-k}U(1)_{conn}
   $$
 
-## Abelian Chern-Simons theory
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **Abelian Chern-Simons theory**
+
+### Layer Mod
 
 * [[higher dimensional Chern-Simons theory]]
 
@@ -2040,59 +2353,40 @@ $$
   U(1)
 $$
 
-## Principal connections
+
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
+## **Principal connections**
+
+### Layer Mod
 
 * [[connection on a bundle]] $\mathbf{B}G_{conn}$
 
 * [[Yang-Mills theory]]
 
-## Associated bundle
+### Layer Sem
 
-* [[action]]
+(...)
 
-  $$
-    \array{
-      V &\to& V\sslash G
-      \\
-      && \downarrow
-      \\
-      && \mathbf{B}G
-    }
-  $$
+### Layer Syn
 
-* [[associated bundle]]
+(...)
 
-$$
-  \array{
-    E &\to& V\sslash G
-    \\
-    \downarrow &pb& \downarrow
-    \\
-    \tilde X &\to& \mathbf{B}G
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    X
-  }
-$$
 
-* [[section]]
 
-$$
-  \array{
-    X &&\stackrel{\sigma}{\to}&& V \sslash G
-    \\
-    & \searrow &\swArrow_{\simeq}& \swarrow
-    \\
-    && \mathbf{B}G
-  }
-$$
-
-## Spin geometry
+## **Spin geometry**
 
 * [[spin group]]
 
 * [[spin representation]]
+
+
 
 $$
   \array{
@@ -2118,7 +2412,8 @@ $$
   }
 $$
 
-## Covariant derivative
+
+## **Covariant derivative**
 
 * [[covariant derivative]]
 
@@ -2142,7 +2437,8 @@ $$
   }
 $$
 
-## Einstein-Yang-Mills theory
+
+## **Einstein-Yang-Mills theory**
 
 * [[Einstein-Yang-Mills theory]]
 
@@ -2150,16 +2446,19 @@ $$
 
 * [[standard model of cosmology]]
 
-## Symplectic geometry
+
+## **Symplectic geometry**
 
 * [[symplectic geometry]]
 
-## Geometric quantization
+
+## **Geometric quantization**
  {#GeometricQuantization}
 
 * [[geometric quantization]]
 
-## Supergeometric coordinate systems
+
+## **Supergeometric coordinate systems**
  {#SupergeometricCoordinateSystems}
 
 ### Layer Mod
@@ -2182,6 +2481,8 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 * [[smooth super infinity-groupoid]]
 
 ### Layer Syn
+
+(...)
 
 ## References
 
