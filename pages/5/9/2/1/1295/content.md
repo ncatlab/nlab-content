@@ -13,11 +13,15 @@
 =--
 =--
 
-# Dependent products and sums
+# Dependent products
 * table of contents
 {: toc}
 
 ## Idea
+
+The _dependent product_ is a [[universal construction]] in [[category theory]]. It generalizes the [[internal hom]], and hence indexed [[products]], to the situation where the codomain may _depend_ on the domain, hence it forms _[[sections]]_ of a [[bundle]]. 
+
+The [[duality|dual]] concept is that of _[[dependent sum]]_.
 
 The concept of [[cartesian product]] makes sense for any [[family of sets]], while the category-theoretic [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
 
@@ -29,7 +33,6 @@ equals the usual product projection; in other words, $ev$ is a morphism in the [
 
 In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $Set/I$.
 
-We also consider dependent *sums*, which are actually simpler.
 
 
 ## Definitions
@@ -38,7 +41,6 @@ For $C$ a [[category]], the **dependent product** of the morphism $g\colon B \to
 
 In [[type theory]], the operation of dependent product is typically taken as a primitive; see [[dependent product type]].  When employing the [[Curry–Howard correspondence]], one sometimes (such as in [[Coq]]) writes $\Pi_{x \in X} P_x$ as written $\forall x\colon X, P x$, because dependent products correspond to [[universal quantification]].
 
-The *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).  In the Curry--Howard correspondence, this corresponds to the [[particular quantification]] $\exists x\colon X, P x$.  See [[dependent sum type]].
 
 Note that the binary [[cartesian product]] is a special case of the direct *sum*: when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C \times A \to A$ from a binary [[product]], then its dependent sum is just the ordinary cartesian product $C \times A$.  In this context, the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.  (For this reason, one occasionally finds the dependent *sum* called the "dependent product".)  This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
 
@@ -118,9 +120,7 @@ See there for more details.
 
 ### Relation to type theory
 
-Under the [[relation between category theory and type theory]] dependent sum and dependent product are the [[categorical semantics]] of [[dependent sum types]] and [[dependent product types]].
-
-[[!include dependent sum natural deduction - table]]
+Under the [[relation between category theory and type theory]] the dependent product is the [[categorical semantics]] of [[dependent product types]].
 
 ## Examples
 
@@ -163,7 +163,3 @@ and section IV of
 
 [[!redirects dependent product]]
 [[!redirects dependent products]]
-[[!redirects dependent sum]]
-[[!redirects dependent sums]]
-[[!redirects dependent coproduct]]
-[[!redirects dependent coproducts]]
