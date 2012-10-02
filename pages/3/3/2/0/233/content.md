@@ -660,6 +660,8 @@ $$
 
 * **module**, [[∞-module]]
 
+  * [[linear independence]]
+
 * [[representation]], [[∞-representation]]
 
 * [[linear combination]]
