@@ -542,6 +542,8 @@ The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
 
   * [[nonabelian group cohomology]], [[groupoid cohomology]]
 
+  * [[Galois cohomology]]
+
 * [[group extension]]
 
   * [[Baer sum]]
