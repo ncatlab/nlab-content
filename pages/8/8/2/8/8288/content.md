@@ -349,7 +349,14 @@ $$
   \,.
 $$
 
-This means that the [[image]] of $g^n$ is $X^n / im(d^{n-1}_X) \hookrightarrow J^n$. 
+This means that $g^n$ factors as 
+
+$$
+  X^n \to X^n / im(d^{n-1}_X) \stackrel{g^n}{\to} J^n
+  \,,
+$$ 
+
+where the first map is the [[projection]] to the [[quotient]].
 
 Observe then that by exactness of $X^\bullet$ the morphism
 $X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[monomorphism]]. Together this gives us a diagram of the form
@@ -435,7 +442,7 @@ $$
 ###### Proof
 
 By definition of [[chain map]] we need to construct
-[[morphisms]] $(f^n : X^0 \to Y^0)_{n \in \mathbb{N}}$ such that 
+[[morphisms]] $(f^n : X^n \to Y^n)_{n \in \mathbb{N}}$ such that 
 for all $n \in \mathbb{N}$ the [[diagrams]]
 
 $$
@@ -911,7 +918,7 @@ We discuss how the injective/projective resolutions constructed in _[Existence a
 Write 
 
 $$
-  \mathcal{K}^{+,n}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
+  \mathcal{K}^{+}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
 $$ 
 
 for the [[full subcategory]] of the [[homotopy category of chain complexes]] on the one bounded above or bounded below, respectively.
