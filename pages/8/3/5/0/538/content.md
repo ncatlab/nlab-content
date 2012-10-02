@@ -130,4 +130,11 @@ such that this is [[universal property|universal]] among all objects with maps f
 
 * [[sum type]]
 
+* [[base change]]
+
+  * [[dependent sum]], [[dependent product]]
+
+  * [[dependent sum type]], [[dependent product type]]
+
+
 [[!redirects coproducts]]
