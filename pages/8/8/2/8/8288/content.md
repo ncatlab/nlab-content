@@ -1568,7 +1568,7 @@ A well-known calculation in the cohomology of cyclic groups is **Hilbert's Theor
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose $K$ be a finite [[Galois extension]] of a [[field]] $k$, with a cyclic [[Galois group]] $G = \langle g \rangle$. Regard the [[multiplicative group]] $K^\ast$ as a $G$-module. Then $H^1(G, K^\ast) = 0$. 
+Suppose $K$ be a finite [[Galois extension]] of a [[field]] $k$, with a cyclic [[Galois group]] $G = \langle g \rangle$ of order $n$. Regard the [[multiplicative group]] $K^\ast$ as a $G$-module. Then $H^1(G, K^\ast) = 0$. 
 
 =-- 
 
@@ -1580,15 +1580,15 @@ Let $\sigma \in \mathbb{Z}G$, and denote the action of $\sigma$ on an element $\
 $$\beta^N = \beta^{1 + g + \ldots + g^{n-1}} = \beta \cdot \beta^g \cdot \ldots \beta^{g^{n-1}}$$ 
 
 which is precisely the _norm_ $N(\beta)$. We are to show that if $N(\beta) = 1$, then there exists $\alpha \in K$ such that $\beta = \alpha/g(\alpha)$. 
-By the lemma that follows, the homomorphisms $1, g, \ldots, g^{n-1}: K\ast \to K\ast$ are, considered as functions valued in $K$, $K$-linearly independent. It follows in particular that 
+By the lemma that follows, the homomorphisms $1, g, \ldots, g^{n-1}: K^\ast \to K^\ast$ are, when considered as elements in a vector space of $K$-valued functions, $K$-linearly independent. It follows in particular that 
 
-$$1 + \beta g + \beta^{1+g}g^2 + \ldots + \beta{1 + g + \ldots + g^{n-2}}g^{n-1}$$ 
+$$1 + \beta g + \beta^{1+g}g^2 + \ldots + \beta^{1 + g + \ldots + g^{n-2}}g^{n-1}$$ 
 
-is not identically zero, and therefore there exists $\theta \in K$ such that the element 
+is not identically zero, and therefore there exists $\theta \in K^\ast$ such that the element 
 
 $$\alpha = \theta + \beta \theta^g + \beta^{1+g}\theta^{g^2} + \ldots + \beta^{1 + g + \ldots + g^{n-2}}\theta^{g^{n-1}}$$ 
 
-is non-zero. Using the fact that $N(\beta) = 1$, one may calculate that $\beta \alpha^g = \alpha$, as was to be shown. 
+is non-zero. Using the fact that $N(\beta) = 1$, one may easily calculate that $\beta \alpha^g = \alpha$, as was to be shown. 
 =-- 
 
 The next result may be thought of as establishing "independence of characters" (where "[[group character|characters]]" are valued in the [[multiplicative group]] of a field): 
@@ -1608,7 +1608,7 @@ A single $\chi \colon G \to K^\ast$ obviously forms a linearly independent set. 
 
 where $a_i \in K$, and assume $n$ is as small as possible. In particular, no $a_i$ is equal to $0$, and $n \geq 2$. Choose $g \in G$ such that $\chi_1(g) \neq \chi_2(g)$. Then for all $h \in G$ we have 
 
-$$a_1 \chi_1(h g) + \ldots + a_n \chi_n(h g) = 0$$ 
+$$a_1 \chi_1(g h) + \ldots + a_n \chi_n(g h) = 0$$ 
 
 so that 
 
