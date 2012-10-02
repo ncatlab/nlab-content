@@ -398,6 +398,8 @@ Classes of special cases of cohomologies with their own entries include
 
   * [[nonabelian group cohomology]]
 
+  * [[Galois cohomology]]
+
   * [[cohomology of a category]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
