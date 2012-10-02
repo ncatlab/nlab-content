@@ -19,7 +19,7 @@
 
 The _tangent bundle_ $T X \to X$ of a [[space]] $X$ is a bundle whose fiber over a point $x \in X$ is a collection of [[infinitesimal space|infinitesimal]] curves emanating at $x$: the linear approximation of $X$ at $x$.
 
-For nice enough [[space]]s such as [[manifold]] or more generally [[microlinear space]]s, the _tangent bundle_ $T X := T_*(X)$ of $X$ is a [[vector bundle]] over $X$.  
+For nice enough [[space]]s such as [[manifold]] or more generally [[microlinear space]]s, the _tangent bundle_ $T X \coloneq T_*(X)$ of $X$ is a [[vector bundle]] over $X$.  
 
 A _tangent vector_ on $X$ at $x \in X$ is an element of $T_x X$.  
 
@@ -101,7 +101,7 @@ $$
 
 with
 
-* $T X := X^D$ the [[internal hom]] of $D$ into $X$;
+* $T X \coloneq X^D$ the [[internal hom]] of $D$ into $X$;
 
 * $p = ev_0$ the evaluation map at the origin of $D$
 
@@ -117,7 +117,7 @@ This definition captures elegantly and usefully the notion of tangent vectors as
 
 A [[smooth topos]] $\mathcal{T}$ is called a _well-adapted model_ for [[synthetic differential geometry]] if there is a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$ of the cageory of [[manifold]]s into $\mathcal{T}$.
 
-_Typically_ , for well adapted models_ under this embedding 
+Typically, for well adapted models, under this embedding 
 
 * manifolds are [[microlinear space]]s
 
