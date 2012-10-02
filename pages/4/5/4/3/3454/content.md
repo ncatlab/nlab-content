@@ -1,4 +1,11 @@
-Categorical Galois theory refers to variants of [[Grothendieck's Galois theory]] as generalised by [[George Janelidze]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The flavor of _[[Galois theory]]_ called _categorical Galois theory_ is a variant of [[Grothendieck's Galois theory]] as generalised by [[George Janelidze]].
 
 
 ##References
