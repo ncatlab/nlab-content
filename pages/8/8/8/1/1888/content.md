@@ -1,9 +1,24 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 In the simplest case, the notion of _tensorial strength_ is a way to talk about when an [[endofunctor]] $T : V \to V$ of a [[closed monoidal category]] is a $V$-[[enriched functor]] when $V$ is regarded as being a $V$-[[enriched category]].  But in fact the concept makes sense even when $V$ is not closed.
 
 
-# Definition #
+## Definition 
 
 Given a monoidal category $V$, a **tensorial strength** for a functor 
 
@@ -56,7 +71,7 @@ $$V-Act \to Cat $$
 and a **tensorial strength** for a functor $F: V \to V$ is a way of lifting it to a morphism $\tilde{F}: \tilde{V} \to \tilde{V}$ in $V-Act$, where $\tilde{V}$ is $V$ equipped with its canonical left action on itself.
 
 
-# Description #
+## Description 
 
 
 The first thing to notice about (covariant) **tensorial strengths** is that they attach to a [[functor]] from a [[monoidal category]] to itself, say $T: V \to V$. (The concept doesn't make much immediate sense if $T$ is a functor between different monoidal categories.) 
@@ -97,7 +112,11 @@ in the theory, such as $T = p \wedge (-)$, or $T = p \Rightarrow (-)$, etc. The 
 
 (Peirce went a little further, and incorporated notions of contravariant strength as well.) 
 
-# References #
+## Related concepts
+
+* [[cartesian closed functor]]
+
+## References 
 
 The tentative 'more conceptual' definition of tensorial strength, as well as the 'description' above, arose in this discusssion:
 
@@ -105,7 +124,7 @@ The tentative 'more conceptual' definition of tensorial strength, as well as the
 
 The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.  An original reference is
 
-* A. Kock, *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
 
 [[!redirects tensorial strengths]]
 [[!redirects strong functor]]
