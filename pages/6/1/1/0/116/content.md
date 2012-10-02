@@ -226,6 +226,10 @@ For more see [[counterexamples in algebra]].
 
   * [[group character]]
 
+  * [[group cohomology]]
+
+  * [[group extension]]
+
 * [[ring]], [[ring object]]
 
 * [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
