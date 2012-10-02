@@ -1073,7 +1073,7 @@ $$
 
 where
 
-* $Q$ is the injective resolution functor of theorem \ref{ProjectiveResolutionFunctors};
+* $Q$ is the projective resolution functor of theorem \ref{ProjectiveResolutionFunctors};
 
 * $\mathcal{K}(F)$ is the evident prolongation of $F$ to $\mathcal{K}^+(\mathcal{A})$;
 
