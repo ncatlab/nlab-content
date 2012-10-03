@@ -72,7 +72,11 @@ All the essential ingredients are listed in
 
 * [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
 
-On [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.
+In [part I](http://www.math.unipa.it/~ngambino/Research/Lectures/lecture1.pdf) there the standard [[type formation]], [[term introduction]]/[[term elimination]] and [[computation rules]] of dependent type theory are listed.
+
+An introduction with parallel details on [[Coq]]-programming is in 
+
+* [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
 
 See also
 
@@ -84,5 +88,6 @@ A discussion of dependent type theory as the [[internal language]] of [[locally 
 * [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
   {#Seely}
 
+For more see the references at _[[Martin-Löf dependent type theory]]_.
 
 [[!redirects dependent type theories]]
