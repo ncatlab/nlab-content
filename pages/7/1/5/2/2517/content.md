@@ -1,12 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-</div>
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 
-# Kock--Lawvere axiom
-
-* automatic table of contents goes here
+#Kock--Lawvere axiom#
+* table of contents
 {:toc}
 
 
@@ -52,6 +61,7 @@ is an [[isomorphism]].
 
 
 ### KL axiom for spectra of internal Weil algebras
+ {#ForWeilAlgebras}
 
 We  can consider the [[internalization|internal]] $R$-algebra object
 $R \oplus \epsilon R := (R \times R, \cdot, +)$ in $T$, whose underlying object is
@@ -79,16 +89,8 @@ $$
 
 is an [[isomorphism]].
 
-Notice that $(R \oplus \epsilon R)$ is a [[Weil algebra]]:
-+--{.query}
-Zoran: Who calls this Weil algebra ? Why ? Besides, $R$ is just a ring, not a field, hence word finite-dimensional is not appropriate (finite rank is OK). 
+Notice that $(R \oplus \epsilon R)$ is a [[Weil algebra]]/[[Artin algebra]]:
 
-[[Urs Schreiber]]: this is what all the synthetic diff geometry literature says. Also  [[Models for Smooth Infinitesimal Analysis|Moerdijk-Reyes]].
-
-I am not sure how general this terminology is. See also the new entry [[smooth topos]].
-
-But you are right certainly about the ring/field thing. I have corrected that now above by saying that $R$ is an algebra over a ring object $k$.
-=--
 an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
 of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal finite dimensional over $R$.
