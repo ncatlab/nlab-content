@@ -1667,23 +1667,80 @@ By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]
 
 
 
-#### Differential forms on Cartesian spaces
+#### Differential forms on abstract coordinate systems
 
-* [[smooth function]] on [[coordinate system]] = [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$
++-- {: .num_defn #Differential1FormsOnCartesianSpaces}
+###### Definition
 
-* [[smooth function]] on [[smooth space]] $X$ = one smooth function $f|_U$ on each [[coordinate chart]] $U \to X$ such that they fit together under [[coordinate transformation|change of coordinates]]
+For $n \in \mathbb{N}$ a **[[smooth differential 1-form]]** $\omega$ on a [[Cartesian space]] $\mathbb{R}^n$ is an $n$-[[tuple]] 
 
-then
+$$
+  (\omega_i \in CartSp(\mathbb{R}^n,\mathbb{R}))_{i = 1}^n
+$$
 
-* [[differential form|differential 1-form]] on [[coordinate system]] $\mathbb{R}^n$ = $n$ smooth functions $\{f_i\}_{i = 1}^n$, written $\omega = f_1 \mathbf{d}x^1 + f_2 \mathbf{d}x^2 + \cdots + f_n \mathbf{d}x^n$
+of [[smooth functions]], which we think of equivalently as the [[coefficients]] of a [[formal linear combination]]
 
-  ([[infinitesimal space|infinitsimal]] [[measure]] of [[length]])
+$$
+  \omega = \sum_{i = 1}^n f_i \mathbf{d}x^i
+$$
 
-* [[differential form|differential 1-form]] on [[smooth space]] $X$ = one $\omega|_U$ for each [[coordinate chart]] $U \to X$ such that these fit together under [[coordinate transformation|change of coordinates]]. 
+on a [[set]] $\{\mathbf{d}x^1, \mathbf{d}x^2, \cdots, \mathbf{d}x^n\}$ of [[cardinality]] $n$.
 
-then
+Write 
 
-* [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]]...
+$$
+  \Omega^1(\mathbb{R}^k) \simeq CartSp(\mathbb{R}^k, \mathbb{R})^{\times k}\in Set
+$$
+
+for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$.
+
+For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the [[pullback of differential forms|pullback of differential 1-forms]] along $f$ is the [[function]]
+
+$$
+  f^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
+$$
+
+defined on [[basis]]-elements by
+
+$$
+  f^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
+$$
+
+and then extended linearly, hence
+
+$$
+  f^* \omega = f^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
+  \coloneqq
+  \sum_{i = 1}^k \left(f^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The assignment of differential 1-forms
+
+$$
+  \Omega^1(-) \colon \mathbb{R}^k \mapsto \Omega^1(\mathbb{R}^k)
+$$
+
+of def. \ref{Differential1FormsOnCartesianSpaces} defines a [[smooth space]], def. \ref{SmoothSpace}
+
+$$
+  \Omega^1(-) \in Smooth0Type
+  \,.
+$$
+
+=--
+
+We call this the **universal smooth [[moduli space]]** of differential 1-forms.
+
+
+
+**Definition** [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]] of $\Omega^1(\mathbb{R}^n)$ over $C^\infty(\mathbb{R}^n)$
+
 
 #### The smooth universal moduli space of differential forms
 
