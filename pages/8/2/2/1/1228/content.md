@@ -10,19 +10,25 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 =--
 =--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
-The _co-Yoneda lemma_ is a statement which is related by [[duality]] to the [[Yoneda lemma]]. 
+What is sometimes called the _co-Yoneda lemma_ is a basic fact about [[presheaves]] (a basic fact of [[topos theory]]): it says that every [[presheaf]] is a [[colimit]] of [[representable functor|representables]] and more precisely that it is the "colimit over itself of all the representables contained in it".
 
-# Definition #
+One might think of this as related by [[duality]] to the [[Yoneda lemma]], hence the name.
+
+## Every presheaf is a colimit of representables
 
 Recall that the [[Yoneda lemma]] says that for $C$ a $V$-[[enriched category]], $F : C^{op} \to V$ a $V$-valued [[presheaf]] on $C$ and $c \in C$ an [[object]] of $C$, there is a natural [[isomorphism]] in $V$
 
@@ -71,18 +77,11 @@ $$
   \,.
 $$
 
-+-- {: .query}
 
-[[Urs Schreiber|Urs]]: what is, generally, a good elegant way to see the relation between the expression of [[Kan extension]] in terms of (co)ends and in terms of (co)limits over comma categories. Currently at [[Kan extension]] only the latter formula is discussed.
-
-[[Mike Shulman|Mike]]: With tongue in cheek, I would say that there isn't any elegant way to see it, because it's not an elegant statement: it doesn't have any enriched analogue.  But it is an instance of the general fact that $W$-[[weighted limit|weighted]] colimits for any $Set$-weight $W:D\to Set$ can be computed as 'unweighted' colimits over the [[category of elements]] of $W$ (see section 3.4 of Kelly's book).
-
-=--
-
-# Proof of co-Yoneda lemma # 
 
 +-- {: .proof}
 ######Proof
+
 To show that a presheaf $F: C^{op} \to Set$ is canonically presented as a colimit of representables, we exhibit a natural isomorphism 
 
 $$\int^{c: C} F(c) \times \hom_C(-, c) \cong F$$
@@ -108,32 +107,33 @@ $$\hom_C(d, c) \to \hom(F(c), F(d))$$
 
 associated with the structure of the functor $F: C^{op} \to Set$. 
 
-# MacLane's co-Yoneda lemma#
+## MacLane's co-Yoneda lemma
 
-In a brief uncommented exercise on p. 62 of 
-
-* MacLane, [[Categories Work|Categories for the Working Mathematician]],
-
+In a brief uncommented exercise on [MacLane, p. 62](#MacLane)  
 the following statement, which is atrributed to Kan, is called the **co-Yoneda lemma**.
 
 
 For $D$ a [[category]], [[Set]] the [[category]] of [[set]]s, $K : D \to Set$ a [[functor]], let $(* \darr K)$ be the [[comma category]] of elements $x \in K d$, let $\Pi: (* \darr K) \to D$ be the projection $(x \in K d) \mapsto d$ and let for each $a \in D$  the functor $\Delta_a: (* \darr K) \to D$ be the diagonal functor sending everything to the constant value $a$. 
 
-The **co-Yoneda lemma in the sense of Kan/MacLane** is the statement that there is a natural isomorphism of [[functor category|functor categories]]
+The **co-Yoneda lemma in the sense of Kan/MacLane** is the statement that there is a [[natural isomorphism]] of [[functor category|functor categories]]
 
 $$
 [D,Set](K, D(a, -)) \cong [(*\darr K), D](\Delta_a, \Pi).
 $$
 
-#Proof of the MacLane version of co-Yoneda#
+Here is an outline of an explicit proof:
 
-## outline of an explicit proof ##
++-- {: .proof}
+######Proof
 
 A natural transformation $\phi: K \to D(a, -)$ assigns to each element $x \in K c$ an element $\phi_c(x) \in D(a, c)$, i.e., an arrow $\phi_c(x): a \to c$. We define a corresponding transformation $\psi: \Delta_a \to \Pi$ which assigns to each object $(c, x \in K c)$ in $(*\darr K)$ the morphism $\phi_c(x): a \to c = \Pi(c, x)$. It is easy to check that the naturality condition on $\phi$ corresponds to the naturality condition on $\psi$, and that the correspondence is bijective.   
 
+=--
 
-## a conceptual proof in terms of comma categories ##
+Here is a more conceptual proof in terms of [[comma categories]]:
 
++-- {: .proof}
+######Proof
 
 [[Set]] classifies discrete fibrations, in the sense that a functor $G : D \to Set$ classifies the discrete [[fibration]]
 
@@ -180,12 +180,14 @@ $$
 
 This yields the co-Yoneda lemma in the sense of MacLane's exercise.
 
+=--
 
-#References#
+## References
 
 The coYoneda lemma appears as a brief uncommented exercise on p. 63 of 
 
-* MacLane, [[Categories Work|Categories for the Working Mathematician]],
+* [[Saunders MacLane]], _[[Categories Work|Categories for the Working Mathematician]]_,
+ {#MacLane}
 
 where it is atributed to Kan.
 
