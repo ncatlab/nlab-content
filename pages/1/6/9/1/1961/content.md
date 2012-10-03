@@ -165,6 +165,13 @@ See [[Frölicher space]] for the definition in that context.
 
 * [[G-structure]]
 
+## References
+
+A formalization/axiomatization with an eye towards [[synthetic differential geometry]] is in 
+
+*  J. Cockett, G. Cruttwell, _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://geoff.reluctantm.com/publications/sman2.pdf))
+ {#CockettCruttwell}
+
 [[!redirects tangent vector]]
 [[!redirects tangent space]]
 [[!redirects tangent vector space]]
