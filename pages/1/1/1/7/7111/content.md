@@ -86,7 +86,7 @@ See [Berkovich 98, paragraph 2](#BerkovichReview).
 ### Local contractibility
  {#LocalContractibility}
 
-A [[complex analytic space]] is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes, under mild conditions, that general analytic spaces are nevertheless locally contractible.
+A [[complex analytic manifold]] and a _smooth_ [[complex analytic space]] is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes, under mild conditions, that general analytic spaces are nevertheless locally contractible.
 
 
 
