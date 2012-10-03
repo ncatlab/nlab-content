@@ -300,8 +300,8 @@ which completes the [[induction]] step.
 
 =--
 
-+-- {: .num_lemma #MapsOutOfExactIntoInjectiveAreNullHomotopic}
-###### Lemma
++-- {: .num_prop #MapsOutOfExactIntoInjectiveAreNullHomotopic}
+###### Proposition
 
 Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] of cochain complexes in non-negative degree, out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[null homotopy]] 
 
@@ -386,9 +386,9 @@ Without the assumption above that $J^\bullet$ is injective, such a null-homotopy
 
 =--
 
-The formally dual statement of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} is the following.
+The formally dual statement of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} is the following.
 
-+-- {: .num_lemma #MapsProjectiveIntoExactAreNullHomotopic}
++-- {: .num_prop #MapsProjectiveIntoExactAreNullHomotopic}
 ###### Lemma
 
 Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[chain map]] of [[chain complexes]] in non-negative degree, into an [[exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[projective object|projective]] complex $X^\bullet$. Then there is a [[null homotopy]] 
@@ -402,7 +402,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is formally dual to the proof of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}.
+This is formally dual to the proof of prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}.
 
 =--
 
@@ -533,7 +533,7 @@ $$
 with the left vertical morphism being the [[zero morphism]]
 (and the bottom an injective resolution). Hence we have to show that in such a diagram $f^\bullet$ is null-homotopic.
 
-This we may reduce to the statement of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}
+This we may reduce to the statement of prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}
 by considering instead of $f^\bullet$ the induced chain map of augmented complexes
 
 
@@ -572,8 +572,8 @@ $$
 
 where the second square from the left commutes due to the commutativity of the original square of chain complexes in degree 0.
 
-Since $h^\bullet$ is a [[quasi-isomorphism]], the top chain complex is [[exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Hence 
-lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} implies the existence of a [[null homotopy]]
+Since $h^\bullet$ is a [[quasi-isomorphism]], the top chain complex is [[exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Morover the bottom complex consists of [[injective objects]] from the second degree on (the former degree 0). Hence 
+the induction in the proof of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} implies the existence of a [[null homotopy]]
 
 
 $$
@@ -600,7 +600,7 @@ $$
   }
 $$
 
-with $\eta^{-1} = 0$ and $\eta^{0 } = 0$, which works because $f^{-1} = 0$. The de-augmentation $\{f^{\bullet \geq 0}\}$ of this is the desired [[null homotopy]] of $f^\bullet$.
+starting with $\eta^{-1} = 0$ and $\eta^{0 } = 0$ (notice that the proof prop. \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} was formulated exactly this way), which works because $f^{-1} = 0$. The de-augmentation $\{f^{\bullet \geq 0}\}$ of this is the desired [[null homotopy]] of $f^\bullet$.
 
 =--
 
@@ -1008,6 +1008,65 @@ $$
 
 =--
 
+This is sufficient for the definition and construction of (non-total) [[derived functors]] in the next definition \ref{RightDerivedFunctorOfLeftExactFunctor}. But since that definition is but a model and just for a special case of derived functors, the reader might want to keep the following definition and remark in mind, for conceptual orientation.
+
++-- {: .num_defn }
+###### Definition
+
+Given an [[additive functor]] $F : \mathcal{A} \to \mathcal{A}'$, it canonically induces a functor 
+
+$$
+  Ch_\bullet(F) \colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{A}')
+$$
+
+between [[categories of chain complexes]] (its "prolongation") by applying it to each [[chain complex]] and to all the diagrams in the definition of a [[chain map]]. Similarly it preserves [[chain homotopies]] and hence it passes to the quotient given by the strong [[homotopy category of chain complexes]]
+
+$$
+  \mathcal{K}(F) \colon \mathcal{K}(\mathcal{A}) \to \mathcal{K}(\mathcal{A}')
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If $\mathcal{A}$ and $\mathcal{A}'$ have [[projective object|enough projectives]], then their [[derived categories]] are
+
+$$
+  \mathcal{D}_\bullet(\mathcal{A}) 
+   \simeq 
+  \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}})
+$$
+
+and 
+
+$$
+  \mathcal{D}^\bullet(\mathcal{A}) \simeq \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
+$$
+
+etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A})$ between these derived categories. It is immediate to achive this on the domain category, there we can simply precompose and form
+
+$$
+  \mathcal{A}  
+    \to 
+  \mathcal{D}_\bullet(\mathcal{A})
+   \simeq
+  \mathcal{K}(\mathcal{P}_{\mathcal{A}}) 
+   \hookrightarrow
+  \mathcal{K}(\mathcal{A})
+   \stackrel{\mathcal{K}(F)}{\to}
+  \mathcal{K}(\mathcal{A}')
+  \,.
+$$
+But the resulting composite lands in $\mathcal{K}(\mathcal{A}')$ and in general does not factor through the inclusion $\mathcal{D}_\bullet(\mathcal{A}') = \mathcal{K}(\mathcal{P}_{\mathcal{A}'}) \hookrightarrow \mathcal{K}(\mathcal{A}')$.
+
+By applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by definition of [[resolution]], the resulting chain complex is [[quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite. 
+
+This means that if one is only interested in the "weak chain homology type" of the chain complex in the image of a [[derived functor]], then forming [[chain homology]] groups of the chain complexes in the images of the above composite gives the desired information. This is what def. \ref{RightDerivedFunctorOfLeftExactFunctor} and def. \ref{LeftDerivedFunctorOfRightExactFunctor} below do.
+
+=--
+
 +-- {: .num_defn #RightDerivedFunctorOfLeftExactFunctor}
 ###### Definition
 
@@ -1048,7 +1107,7 @@ $$
 
 Dually:
 
-+-- {: .num_defn }
++-- {: .num_defn #LeftDerivedFunctorOfRightExactFunctor}
 ###### Definition
 
 Let 
