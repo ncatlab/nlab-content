@@ -639,6 +639,10 @@ A very basic introduction to the concept, with an eye towards explaining [[ident
 
 * [[Mike Shulman]], _Induction on equality_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/induction.pdf))
 
+Discussion of inductive types in the context of [[Coq]]-programming is in chapter 3 of 
+
+* [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
+
 See also
 
 * Michael Abbott, [[Thorsten Altenkirch]], [[Neil Ghani]], _Inductive Types for Free -- Representing nested inductive types using W-types_ ([pdf](http://www.cs.nott.ac.uk/~txa/talks/icalp-slides.pdf))
