@@ -54,6 +54,7 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 
 * **theorem**, [[axiom]]
 
+* [[folklore]]
 
 
 ## References
