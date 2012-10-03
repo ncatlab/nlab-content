@@ -726,7 +726,9 @@ In this [Layer Mod](#LayerMod) we discuss concretely the definition of [[smooth 
 #### Plots of smooth spaces and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
 
-The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in def. \ref{CartesianSpacesAndSmoothFunctions} inside it. At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answers to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
+The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in def. \ref{CartesianSpacesAndSmoothFunctions} inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together. 
+
+At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answers to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
 
 For bevity we will refer "a way to lay out a coordinate system in $X$" as a _plot_ of $X$. The first set of consistency conditions on plots of a space is that they respect _coordinate transformations_. This is what the following definition formalizes.
 
@@ -861,7 +863,19 @@ $$
 
 =--
 
-We will eventually consider many example. The most basic one is the following.
++-- {: .num_remark #OnTheNotionOfSmoothSpaces}
+###### Remark
+
+We may think of a [[smooth space]] as being a kind of [[space]] whose _local models_ (in the general sense discussed at _[[geometry]]_) are [[Cartesian spaces]]: 
+
+while definition \ref{SmoothSpace} explicitly says that a smooth space is something that is _consistently probeable_ by such local models; by a [[category theory|general abstract]] fact -- which we discuss in more detail below in _[Smooth Spaces - Layer Sem](#SmoothSpacesLayerSem)_  -- that is sometimes called the [[co-Yoneda lemma]] it follows in fact that smooth spaces are precisely the objects that are obtained by 
+_gluing coordinate systems_ together.
+
+For instance we will see that two open 2-balls $\mathbb{R}^2 \simeq D^2$ along a common rim yields the smooth space version of the [[sphere]] $S^2$, a basic example of a [[smooth manifold]]. But before we examine such explicit constructions, we discuss here for the moment more general properties of smooth spaces. The reader instead wishing to see more of these concrete examples at this point should jump ahead to _[Smooth Spaces - Outlook](#SmoothSpacesOutlook)_.
+
+=--
+
+But the most basic example we consider right now:
 
 +-- {: .num_example #CartesianSpaceAsSmoothSpace}
 ###### Example
@@ -1210,15 +1224,27 @@ In [[physics]], if $X$ is a model for [[spacetime]], then $P X$ may notably be i
 
 
 #### Outlook
+ {#SmoothSpacesOutlook}
+
+(...)
 
 +-- {: .num_remark}
 ###### Remark
 
-Later we define/see that
+Later we define/see the following:
 
-* a _[[smooth manifold]]_  is a [[smooth space]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]];
+* A _[[smooth manifold]]_  is a [[smooth space]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]];
 
-* a _[[diffeological space]]_ is a [[smooth space]] such that every coordinate labels a [[point]] in the space (which need not be in a general smooth space).
+* A _[[diffeological space]]_ is a [[smooth space]] such that every coordinate labels a [[point]] in the space. In other words, a diffeological space is a smooth space that has an underlying set $X_s \in Set$ of points such that the set of $\mathbb{R}^n$-plots is a subset of the set of all functions:
+
+  $$
+    X(\mathbb{R}^n) \hookrightarrow Functions(\mathbb{R}^n, S_s)
+    \,.
+  $$
+
+  (This need not be the case in a general smooth space, important counterexamples are the _universal smooth moduli spaces of differential forms_ in [Smooth moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)).
+
+  
 
 We will establish a long sequence of [[faithful functor|faithful]] inclusions 
 
@@ -1246,7 +1272,6 @@ In this [Layer Sem]{#LayerSem} we mention some basic definitions of [[topos theo
 
 #### The topos of smooth spaces
  {#ToposOfSmoothSpaces}
-
 
 +-- {: .num_remark}
 ###### Remark
@@ -1743,6 +1768,7 @@ We call this the **universal smooth [[moduli space]]** of differential 1-forms.
 
 
 #### The smooth universal moduli space of differential forms
+ {#SmoothUniversalModuliSpaceOfDifferentialForms}
 
 +-- {: .num_prop}
 ###### Proposition
