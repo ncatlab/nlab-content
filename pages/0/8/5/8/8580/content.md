@@ -874,9 +874,19 @@ $$
 
 of [[smooth functions]] from $\mathbb{R}^k$ to $\mathbb{R}^n$.
 
+Clearly this is the rule for plots that characterize $\mathbb{R}^n$ itself as a smooth space, and so we will just denote this smooth space by the same symbols "$\mathbb{R}^n$":
+
+$$
+  \mathbb{R}^n \colon \mathbb{R}^k \mapsto CartSp(\mathbb{R}^k, \mathbb{R}^n)
+  \,.
+$$
+
+In particular the [[real line]] $\mathbb{R}$ is this way itself a [[smooth space]].
+
 =--
 
-Clearly this is the rule for plots that characterize $\mathbb{R}^n$ itself as a smooth space, and so we will just denote this smooth space by the same symbols "$\mathbb{R}^n$". In a moment we find a formal justification for this slight abuse of notation.
+
+In a moment we find a formal justification for this slight abuse of notation.
 
 More examples of smooth spaces can be built notably by [[intersection|intersecing]] [[images]] of two smooth spaces inside a bigger one. In order to say this we first need a formalization of [[homomorphism]] of smooth spaces. This we turn to now.
 
@@ -884,7 +894,9 @@ More examples of smooth spaces can be built notably by [[intersection|intersecin
 #### Homomorphisms of smooth spaces
  {#HomomorphismsOfSmoothSpaces}
 
-The idea of the following definition is to say that whatever a [[homomorphism]] $f : X \to Y$ between two smooth spaces is, it has to takes the plots of $X$ by $\mathbb{R}^n$ to a corresponding plot of $Y$, such that this respects coordinate transformations.
+We discuss "functions" or "maps" between [[smooth spaces]], def. \ref{SmoothSpace}, which preserve the smooth space [[structure]] in a suitable sense. As with any notion of function that preserves structure, we refer to them as _[[homomorphisms]]_.
+
+The idea of the following definition is to say that whatever a [[homomorphism]] $f : X \to Y$ between two smooth spaces is, it has to take the plots of $X$ by $\mathbb{R}^n$ to a corresponding plot of $Y$, such that this respects coordinate transformations.
 
 +-- {: .num_defn #HomomorphismOfSmoothSpaces}
 ###### Definition
@@ -944,7 +956,7 @@ The following proposition says that these two superficially different notions ac
 Let $X$ be any [[smooth space]], def. \ref{SmoothSpace}, and regard the abstract coordinate system $\mathbb{R}^n$ as a smooth space, by example \ref{CartesianSpaceAsSmoothSpace}. There is a [[natural bijection]]
 
 $$
-  X(\mathbb{R}^n) \simeq Hom_{Smooth0Type}{\mathbb{R}^n, X}
+  X(\mathbb{R}^n) \simeq Hom_{Smooth0Type}(\mathbb{R}^n, X)
 $$
 
 between the _postulated_ $\mathbb{R}^n$-plots of $X$ and the _actual_ $\mathbb{R}^n$-plots given by homomorphism of smooth spaces $\mathbb{R}^n \to X$.
@@ -955,11 +967,54 @@ between the _postulated_ $\mathbb{R}^n$-plots of $X$ and the _actual_ $\mathbb{R
 ###### Proof
 
 This is a special case of the _[[Yoneda lemma]]_, as will be made more explicit below in _[The topos of smooth spaces](#ToposOfSmoothSpaces)_. 
-
 The reader unfamiliar with this should write out the simple proof explicitly: use the defining [[commuting diagrams]] in def. \ref{HomomorphismOfSmoothSpaces} to deduce that a homomorphism $f : \mathbb{R}^n \to X$ is uniquely fixed by the image of the [[identity]] element in  $\mathbb{R}^n(\mathbb{R}^n) \coloneqq CartSp(\mathbb{R}^n, \mathbb{R}^n)$ under the component function $f_{\mathbb{R}^n} : \mathbb{R}^n(\mathbb{R}^n) \to X(\mathbb{R}^n)$.
 
 =--
 
++-- {: .num_example #SmoothFunctionOnSmoothSpace}
+###### Example
+
+Let $\mathbb{R} \in Smooth0Type$ denote the [[real line]], regarded as a [[smooth space]] by def. \ref{CartesianSpaceAsSmoothSpace}. Then for $X \in Smooth0Type$ any smooth space, a homomorphism of smooth spaces
+
+$$
+  f \colon X \to \mathbb{R}
+$$
+
+is a _[[smooth function]] on $X$_. Prop. \ref{YonedaForSmoothSpaces} says here that when $X$ happens to be an abstract coordinate system regarded as a smooth space by def. \ref{CartesianSpaceAsSmoothSpace}, then this general notion of smooth functions between smooth spaces reproduces the basic notion of def, \ref{CartesianSpaceAndHomomorphism}.
+
+=--
+
++-- {: .num_defn #PointsOfASmoothSpace}
+###### Definition
+
+The 0-[[dimension|dimensional]] abstract coordinate system $\mathbb{R}^0$ we also call the **[[point]]** and regarded as a smooth space we will often write it as
+
+$$
+  * \in Smooth0Type
+  \,.
+$$
+
+For any $X \in Smooth0Type$, we say that a homomorphism
+
+$$
+  x \colon * \to X
+$$ 
+
+is a **point of $X$**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By prop. \ref{YonedaForSmoothSpaces} the points of a smooth space $X$ are naturally identified with its 0-dimensional plots, hence with the "ways of laying out a 0-dimensional coordinate system" in $X$:
+
+$$
+  Hom(*, X) \simeq X(\mathbb{R}^0)
+  \,.
+$$
+
+=--
 
 
 #### Products and fiber products of smooth spaces
@@ -976,6 +1031,39 @@ $$
   \in Set
   \,.
 $$
+
+The **projection on the first factor** is the homomorphism
+
+$$
+   p_1 \colon X \times Y \to X
+$$
+
+which sends $\mathbb{R}^n$-plots of $X \times Y$ to those of $X$ by forming the projection of the [[cartesian product]] of sets:
+
+$$
+  {p_1}_{\mathbb{R}^n} \colon X(\mathbb{R}^n) \times Y(\mathbb{R}^n) \stackrel{p_1}{\to} X(\mathbb{R}^n)
+  \,.
+$$
+
+Analogously for the **projection to the second factor**
+
+$$
+  p_2 \colon : X \times Y \to Y
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ProductOfSmoothSpaceWithThePoint}
+###### Proposition
+
+Let $* = \mathbb{R}^0$ be the [[point]], regarded as a smooth space, def. \ref{PointsOfASmoothSpace}. Then for $X \in Smooth0Type$ any smooth space the canonical projection homomorphism
+
+$$
+  X \times * \to X
+$$
+
+is an [[isomorphism]].
 
 =--
 
@@ -1007,14 +1095,14 @@ $$
 
 
 
-#### Smooth mapping spaces
+#### Smooth mapping spaces and smooth moduli spaces
  {#SmoothMappingSpaces}
 
 
-+-- {: .num_defn}
++-- {: .num_defn #SmoothFunctionSpace}
 ###### Definition
 
-Let $\Sigma, X \in Smooth0Type$ be two [[smooth spaces]], def. \ref{#SmoothSpace}. Then the **[[mapping space]]** 
+Let $\Sigma, X \in Smooth0Type$ be two [[smooth spaces]], def. \ref{#SmoothSpace}. Then the **smooth [[mapping space]]** 
 
 $$
   [\Sigma,X] \in Smooth0Type
@@ -1033,7 +1121,7 @@ $$
 
 Here in $\Sigma \times \mathbb{R}^n$ we first regard the abstract coordinate system $\mathbb{R}^n$ as a smooth space by example \ref{CartesianSpaceAsSmoothSpace} and then we form the [[product]] smooth space by def. \ref{ProductOfSmoothSpaces}.
 
-+-- {: .num_remark}
++-- {: .num_remark #NatureOfPlotsOfMappingSpace}
 ###### Remark
 
 This means in words that a $\mathbb{R}^n$-plot of the [[mapping space]] $[\Sigma,X]$ is a smooth $\mathbb{R}^n$-parameterized _family_ of homomorphisms $\Sigma \to X$.
@@ -1041,7 +1129,7 @@ This means in words that a $\mathbb{R}^n$-plot of the [[mapping space]] $[\Sigma
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #UniversalPropertyOfMappingSpace}
 ###### Proposition
 
 There is a [[natural bijection]]
@@ -1050,17 +1138,75 @@ $$
   Hom(K, [\Sigma, X])
   \simeq
   Hom(K \times \Sigma, X)  
+$$
+
+for every smooth space $K$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With a bit of work this is straightforward to check explicitly by unwinding the definitions. It follows howver from [[category theory|general abstract]] results once we realize that $[-,-]$ is of course the _[[internal hom]]_ of smooth spaces. This we come to below in _[Smooth spaces - Layer Sem](#SmoothSpacesLayerSem)_.
+
+=--
+
+
++-- {: .num_remark #MappingSpaceAsModuliSpace}
+###### Remark
+
+This says in words that a smooth function from any $K$ into the mapping space $[\Sigma,X]$ is equivalently a smooth function from $K \times \Sigma$ to $X$. The latter we may regard as a _$K$-parameterized smooth family_ of smooth functions $\Sigma \to X$. Therefore in view of the previous remark \ref{NatureOfPlotsOfMappingSpace} this says that smooth mapping spaces have a [[universal property]] not just over abstract coordinate systems, but over all smooth spaces.
+
+We will therefore also say that $[\Sigma,X]$ is the **smooth [[moduli space]]** of smooth functions from $\Sigma \to X$, because it is such that smooth maps $K \to [\Sigma,X]$ into it _modulate_, as we move around on $K$, a family of smooth functions $\Sigma\to X$, depending on $K$.
+
+=--
+
+First interesting examples of such smooth moduli spaces are discussed in _[Differential forms -- Layer Mod](#DifferentialFormsLayerMod)_ below. Many more interesting examples follow once we pass from smooth 0-types to smooth $n$-types below in _[Smooth n-groupoids](#SmoothnGroupoids)_
+
+We will see many more examples of smooth moduli spaces, starting below in _[Differential forms - Layer Mod](#DifferentialFormsLayerMod)_.
+
++-- {: .num_prop #UnderlyingSetOfSmoothMappingSpace}
+###### Proposition
+
+The set of points, def. \ref{PointsOfASmoothSpace}, of a smooth mapping space $[\Sigma,X]$ is the bare set of homomorphism $\Sigma \to X$: there is a [[natural isomorphism]]
+
+$$
+  Hom(*, [\Sigma, X]) \simeq Hom(\Sigma, X)
   \,.
 $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Combinine prop. \ref{UniversalPropertyOfMappingSpace} with prop. \ref{ProductOfSmoothSpaceWithThePoint}.
+
+=--
+
+
 +-- {: .num_example}
 ###### Example
 
-[[path space]] $\mathbf{P}X \coloneqq [\mathbb{R}^1, X]$ (on the horizon: [[path integral]])
+Given a [[smooth space]] $X \in Smooth0Type$, its smooth **[[path space]]** is the smooth mapping space
+
+$$
+  \mathbf{P}X \coloneqq [\mathbb{R}^1, X]
+  \,.
+$$ 
+
+By prop. \ref{UnderlyingSetOfSmoothMappingSpace} the points of $P X$ are indeed precisely the smooth trajectories $\mathbb{R}^1 \to X$. But $P X$ also knows how to _smoothly vary_ such smooth trajectories. 
+
+This is central for [[variational calculus]] which determines [[equations of motion]] in [[physics]]. This we turn to below in _[Variational calculus](#VariationalCalculus)_.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+In [[physics]], if $X$ is a model for [[spacetime]], then $P X$ may notably be interpreted as the smooth space of [[worldlines]] _in_ $X$, hence the smooth space of paths or _trajectories_ of a [[particle]] in $X$. 
+
+=-- 
 
 
 #### Outlook
@@ -1476,6 +1622,7 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 
 
 ## **Differential forms**
+ {#DifferentialForms}
 
 *** 
 
@@ -1484,6 +1631,41 @@ Only keyword lists beyond this line. Come back a little later to find more mater
 ***
 
 ### Layer Mod
+ {#DifferentialFormsLayerMod}
+
+#### The smooth moduli space of smooth functions
+
+In example \ref{SmoothFunctionOnSmoothSpace} we saw that a smooth function on a general [[smooth space]] $X$ is a homomorphism of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}
+
+$$
+  f \colon X \to \mathbb{R}
+  \,.
+$$
+
+The collection of these forms the [[hom-set]] $Hom_{Smooth0Type}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth spaces themselves.
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in Smooth0Type$ a [[smooth space]], we says that the **moduli space of smooth functions** on $X$ is the smooth mapping space def. \ref{SmoothFunctionSpace}
+
+$$
+  [X, \mathbb{R}] \in Smooth0Type
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We call this a _[[moduli space]]_ because by prop. \ref{UniversalPropertyOfMappingSpace} above and in the sense of remark \ref{MappingSpaceAsModuliSpace} it is such that smooth functions into it _modulate_ smooth functions $X \to \mathbb{R}$.
+
+By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]$ of the moduli space is equivalently a smooth function $X \to \mathbb{R}^1$.
+
+=--
+
+
 
 #### Differential forms on Cartesian spaces
 
@@ -1503,7 +1685,7 @@ then
 
 * [[differential form]] on [[coordinate system]] $\mathbb{R}^n$ = element of [[exterior algebra]]...
 
-#### The smooth spaces of differential forms
+#### The smooth universal moduli space of differential forms
 
 +-- {: .num_prop}
 ###### Proposition
@@ -1692,7 +1874,8 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 (...)
 
-## **Variational calculus**
+## **Variational calculus** 
+ {#VariationalCalculus}
 
 ### Layer Mod
 
@@ -1729,6 +1912,7 @@ $$
 
 
 ## **Smooth $n$-groupoids**
+ {#SmoothnGroupoids}
 
 ### Layer Mod
 
