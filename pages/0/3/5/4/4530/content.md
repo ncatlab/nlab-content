@@ -1,7 +1,32 @@
-Complex geometry refers to the theory of [[complex manifolds]].
 
-References.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
 
-Huybrechts, Complex Geometry.
+#Contents#
+* table of contents
+{:toc}
 
-Griffiths and Harris, Principles of Algebraic Geometry.
+## Idea
+
+In **complex geometry** one staudies _[[complex manifolds]]_ as a special case of how in general [[differential geometry]] one studies more generally [[smooth manifolds]].
+
+In _complex [[analytic geometry]]_ one studies, more generally, [[complex analytic spaces]].
+
+## References
+
+* [[Daniel Huybrechts]], _Complex Geometry_
+
+* Griffiths and Harris, _Principles of Algebraic Geometry_
+
+[[!redirects complex geometries]]
