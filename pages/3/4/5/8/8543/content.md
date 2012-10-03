@@ -93,7 +93,7 @@ $A\in \mathfrak{A}$ is defined a measure $Q$ on $(\Omega,\mathfrak{A},P)$. Let $
 
 $$Q\lt\lt P|_{\mathfrak{S}}$$
 
-meaning: $P|_{\mathfrak{S}}(M)=0\Rightarrow Q(M)=0$ for all $M\in\mathfrak{S}$. This is the condition of the [[theorem of Radon-Nikodym]] (the other condition of the theorem that $P|_{\mathfrak{S}}$ is $\sigma$-finite is satisfied since $P$ is a probability measure). The theorem implies that $Q$ has a density w.r.t $P|_{\mathfrak{S}}$ which is $E[X|\mathfrak{S}]$.
+meaning: $P|_{\mathfrak{S}}(M)=0\Rightarrow Q(M)=0$ for all $M\in\mathfrak{S}$. This is the condition of the [[Radon-Nikodym derivative|theorem of Radon-Nikodym]] (the other condition of the theorem that $P|_{\mathfrak{S}}$ is $\sigma$-finite is satisfied since $P$ is a probability measure). The theorem implies that $Q$ has a density w.r.t $P|_{\mathfrak{S}}$ which is $E[X|\mathfrak{S}]$.
 
 Uniqueness: If $g$ and $g^\prime$ are candidates, by linearity the integral over their difference is zero.
 =--
@@ -210,6 +210,8 @@ The conditional expectation plays a defining role in the theory of *martingales*
 
 ### Stochastic processes
 
+The terminology of *stochastic processes* is a special interpretation of some aspects of [[infinitary combinatorics]] in terms of [[probability theory]].
+
 Let $I$ be a [[total order]] (i.e. transitive, antisymmetric, and total).
 
 A *stochastic process* is a diagram $X_I: I\to \mathcal{R}$ where $\mathcal{R}$ is the class of random variables such that $X_I(i)=:X_i:(\Omega_i, \mathfrak{F}_i, P_i)\to (S_i, \mathfrak{S}_i)$ is a random variable. Often one considers the case where all $(S_i, \mathfrak{S}_i)=(S, \mathfrak{S})$ are equal; in this case $S$ is called *state space of the process $X_I$*.
@@ -255,6 +257,14 @@ $$\array{
 
 (...)
 
+### Markow Process
+
+An adapted stochastic process satisfying
+
+$$P(X_t|\mathfrak{A}_s)=P(X_t|X_s)\;;\forall s\le t$$
+
+is called a *Markow process*.
+
 ## Chapman-Kolmogorow Equation
 
-For a Markow process the Chapman-Kolmogorow equation encodes the statement that the transition probabilities of the process form a semi-group.
+For a Markow process the Chapman-Kolmogorow equation encodes the statement that the transition probabilities of the process form a [[semigroup]].
