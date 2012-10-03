@@ -57,7 +57,7 @@ Related books are
 
 * [[Whitney embedding theorem]]
 
-#### 1.1d A Nontrivial Examples: The Configuration Space of a Rigid Body
+#### 1.1d A Nontrivial Example: The Configuration Space of a Rigid Body
 
 * [[rigid body]]
 
