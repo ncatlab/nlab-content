@@ -93,7 +93,7 @@ When working in the [[internal logic]] of a [[topos]], the "internal" meaning of
 
 For example, any [[presheaf]] topos has enough projectives, since any coproduct of representables is projective, and therefore it validates internal COSHEP.  In contrast, any topos that violates countable choice, of which there are plenty, must also violate internal COSHEP.  (Note that the terminal object of any topos is *internally* projective, so the proof above that COSHEP implies CC goes through.)
 
-An interesting example of a topos that has enough projectives and thus does satisfy internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]].  The reason for this is quite similar to the intuitive justification for COSHEP given above.
+An interesting example of a topos that has enough projectives and thus does satisfy internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]].  The reason for this is quite similar to the intuitive justification for COSHEP given above.
 
 
 ## Remarks 
