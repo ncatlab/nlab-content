@@ -296,6 +296,9 @@ Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the und
 
 Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
 
+### Exact functors between categories of modules
+
+The _[[Eilenberg-Watts theorem]]_ says that sufficiently [[exact functors]] between categories of modules are necessarily given by forming [[tensor products of modules]].
 
 ## References
 
