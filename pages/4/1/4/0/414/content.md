@@ -78,7 +78,9 @@ The [[duality|dual]] notion is that of _[[injective objects]]_.
 +-- {: .num_defn #EnoughProjectives}
 ###### Definition
 
-A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where $P$ is projective.
+A category $C$ has **enough projectives** if for every object $X$ there is an [[epimorphism]] $P\to X$ where $P$ is projective.
+
+Equivalently: if every object admits a _[[projective presentation]]_.
 
 =--
 
@@ -290,7 +292,7 @@ A slightly subtle point is that there is no guarantee that the free module $F U(
 
 There are however weak forms of the axiom of choice that hold in many toposes, such as the [[presentation axiom]], aka _[[COSHEP]]_. We have the following result: 
 
-+-- {: .num_prop} 
++-- {: .num_prop #EnoughWithCOSHEP} 
 ###### Proposition 
 
 Let $E$ be a [[W-pretopos]] that satisfies [[COSHEP]]. 
@@ -298,7 +300,7 @@ Then $Ab(E)$ has enough projectives.
 
 =-- 
 
-The idea of proof is that under COSHEP, the underlying object of an abelian group $A$ in $E$ admits an [[epimorphism]] from a projective object $p \colon X \to U(A)$ in $E$. Then the corresponding $F(X) \to A$ is an epimorphism out of a projective in $Ab(E)$, for this map is a composite of epimorphisms 
+The idea of the proof is that under COSHEP, the underlying object of an abelian group $A$ in $E$ admits an [[epimorphism]] from a projective object $p \colon X \to U(A)$ in $E$. Then the corresponding $F(X) \to A$ is an epimorphism out of a projective in $Ab(E)$, for this map is a composite of epimorphisms 
 
 $$F(X) \stackrel{F(p)}{\to} F U(A) \stackrel{\varepsilon_A}{\to} A$$ 
 
