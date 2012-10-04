@@ -197,6 +197,7 @@ A detailed discussion of how the property of a functor being exact is related to
 
 * [[Michael Barr]], _Preserving homology_ , Theory and Applications of Categories,  Vol. 16, 2006, No. 7, pp 132-143. ([TAC](http://www.tac.mta.ca/tac/volumes/16/7/16-07abs.html))
 
+[[!redirects exact functors]]
 
 [[!redirects left exact]]
 [[!redirects left exact functor]]
@@ -209,4 +210,5 @@ A detailed discussion of how the property of a functor being exact is related to
 [[!redirects right exact functors]]
 [[!redirects rex functor]]
 [[!redirects rex functors]]
+
 
