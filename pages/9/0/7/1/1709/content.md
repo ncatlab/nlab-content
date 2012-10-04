@@ -42,7 +42,7 @@ For
 the $(f,[c])$-**twisted cohomology** of $X$ is the set of equivalence classes
 
 $$
-  H_{[c]}(X,f) := \pi_0\mathbf{H}{[c]}(X,f)
+  H_{[c]}(X,f) := \pi_0\mathbf{H}_{[c]}(X,f)
 $$
 
 of the [[homotopy fiber]] $\mathbf{H}_{[c]}(X,f)$  of the morphism $f:\hat B \to B$ over the [[generalized element]] $c$ of $B$. 
