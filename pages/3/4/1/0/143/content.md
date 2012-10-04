@@ -27,29 +27,18 @@ See also
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
-### Quick definition
 
-The following definition of a sheaf (mentioned in Peter LeFanu Lumsdaine's comment [here](http://mathoverflow.net/questions/23268/geometric-intuition-for-limits/23276#23276)) is not the most general possible, but it's concise.
-
-+-- {: .un_def}
-###### Definition
-
-Suppose $Op$ is the [[category of open subsets]] of some topological space, and $\mathcal{F}$ is a [[contravariant functor]] from $Op$ to some [[concrete category]] (that is, a [[presheaf]] on $Op$). The functor $\mathcal{F}$ is called a **sheaf** if
-$$
-\mathcal{F}(colim \mathcal{U}) = lim \mathcal{F}(\mathcal{U})
-$$
-for every [[complete category|complete]] [[subcategory|full subcategory]] $\mathcal{U}$ of $Op$.
-
-=--
 
 ## Definition
 
-There are several equivalent ways to think about sheaves. We start with the explicit componentwise definition and then discuss more [[category theory|general abstract]] reformulations.
+There are several equivalent ways to characterize sheaves. We start with the general but explicit componentwise definition and then discuss more [[category theory|general abstract]] equivalent reformulations. Finally we give special discussion applicable in various common special cases.
 
+### General definition in components
+ {#GeneralDefinitionInComponents}
 
 The following is an explicit component-wise definition of sheaves that is fully general (for instance not assuming that the [[site]] has [[pullback]]s).
 
-+-- {: .un_def #GeneralComponentwiseDefinition}
++-- {: .num_defn #GeneralComponentwiseDefinition}
 ###### Definition
 
 Let $(C,J)$ be a [[site]] in the form of a [[small category]] $C$ equipped with a [[coverage]] $J$.
@@ -58,28 +47,27 @@ A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ if
 
 * for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
 
-* and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))$ such that for all morphisms $U_i \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_j$ such that $A(f)(s_i) = A(g)(s_j)$ for all $i,j \in I$
+* and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))_{i \in I}$ such that for all [[morphisms]] $U_i \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_j$ in $C$ we have $A(f)(s_i) = A(g)(s_j)$ for all $i,j \in I$
 
-+-- {: .query}
-I feel like there's either a missing clause or an extra "such that" in here. Unfortunately, I don't understand the definition well enough to know what's wrong (if anything).
-
----[[Aaron F]]
-=--
+then
 
 * there is a _unique_ element $s \in A(U)$ such that $A(p_i)(s) = s_i$ for all $i \in I$.
 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If in the above definition there is _at most_ one such $s$, we say that $A$ is a [[separated presheaf]] with respect to $J$.
 
 =--
 
-In this form the definition appears in [Johnstone, def. C2.1.2](#Johnstone)
+In this form the definition appears for instance in  ([Johnstone, def. C2.1.2](#Johnstone)).-
 
+
+### General definition abstractly
+ {#GeneralDefinitionAbstractly}
 
 We now reformulate the [above component-wise definition](#GeneralComponentwiseDefinition) in [[category theory|general abstract]] terms.
 
@@ -91,10 +79,10 @@ $$
 
 for the [[Yoneda embedding]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
-Given a [[covering]] family $\{f_i : U_i \to U\}$ in $J$, say its **[[sieve]]** is the presheaf $S(\{U_i\})$ defined as the [[coequalizer]]
+Given a [[covering]] family $\{f_i : U_i \to U\}$ in $J$, its **[[sieve]]** is the presheaf $S(\{U_i\})$ defined as the [[coequalizer]]
 
 $$
    \coprod_{i,j} j(U_i) \times_{j(u)} j(U_j) 
@@ -106,7 +94,7 @@ in $PSh(C)$.
 
 =--
 
-Here the [[coproduct]] on the left is over the [[pullback]]s
+Here the [[coproduct]] on the left is over the [[pullbacks]]
 
 $$
   \array{
@@ -120,29 +108,30 @@ $$
 
 in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two porjections $p_i, p_j$ in this pullback diagram.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
-Using that [[limit]]s and [[colimit]]s in a [[category of presheaves]] are computed objectwise, we find that the [[sieve]] $S(\{U_i\})$ defined this way is the presheaf that sends any $K \in C$ to the set of [[morphisms]] $K \to U$ in $C$ that factor through one of the $f_i$
+Using that [[limits]] and [[colimits]] in a [[category of presheaves]] are computed objectwise, we find that the [[sieve]] $S(\{U_i\})$ defined this way is the presheaf that sends any $K \in C$ to the set of [[morphisms]] $K \to U$ in $C$ that factor through one of the $f_i$
 
 =--
 
-+-- {: .un_ovservation}
-###### Observation
++-- {: .num_remark}
+###### Remark
 
-For every covering family there is a canonical morphism
+For every [[covering]] family there is a canonical morphism
 
 $$
   i_{\{U_i\}} :  S(\{U_i\}) \to j(U)
 $$
 
-that is induced by the universal property of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_i) \times_{j(U)} j(U_j) \to J(U)$.
+that is induced by the [[universal property]] of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_i) \times_{j(U)} j(U_j) \to J(U)$.
+
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
-A **sheaf** on $(C,J)$ is a [[presheaf]] $A \in PSh(C)$ that is a [[local object]] with respect to  all $i_{\{U_i\}}$: an object such that for all [[covering]] families $\{f_i : U_i \to U\}$ in $J$ we have that the [[hom-functor]] $PSh_C(-,A)$ sends the canonical morphisms $i_{\{U_i\}} : S(\{U_i\}) \to j(U)$ to [[isomorphism]]s.
+A **sheaf** on $(C,J)$ is a [[presheaf]] $A \in PSh(C)$ that is a [[local object]] with respect to  all $i_{\{U_i\}}$: an object such that for all [[covering]] families $\{f_i : U_i \to U\}$ in $J$ we have that the [[hom-functor]] $PSh_C(-,A)$ sends the canonical morphisms $i_{\{U_i\}} : S(\{U_i\}) \to j(U)$ to [[isomorphisms]].
 
 $$
   PSh_C(i_{\{U_i\}}, A) : 
@@ -152,7 +141,7 @@ $$
 
 =--
 
-Equivalently, using the [[Yoneda lemma]] and the fact that the [[hom-functor]] $PSh_C(-,A)$ sends [[colimit]]s to [[limit]]s, this say that the diagram
+Equivalently, using the [[Yoneda lemma]] and the fact that the [[hom-functor]] $PSh_C(-,A)$ sends [[colimits]] to [[limits]], this say that the diagram
 
 $$
   A(U) 
@@ -166,7 +155,7 @@ is an [[equalizer]] diagram for each covering family.
 
 This is also called the **[[descent]] condition** for descent along the covering family.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_i) \times_{j(U)} \times j(U_j)$ are themselves again representable, hence that the [[pullback]] $U_i \times_U U_j$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
@@ -194,10 +183,10 @@ are [[equalizer]] [[diagram]]s.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-The condition that $PSh_C(S(\{U_i\}), A)$ is an [[isomorphism]] is equivlent to the condition that the set $A(U)$ is isomorphic to the set of compatible families $(s_i \in A(U_i))$ as it appears in the [above component-wise definition](#GeneralComponentwiseDefinition).
+The condition that $PSh_C(S(\{U_i\}), A)$ is an [[isomorphism]] is equivalent to the condition that the set $A(U)$ is isomorphic to the set of [[matching families]] $(s_i \in A(U_i))$ as it appears in the [above component-wise definition](#GeneralComponentwiseDefinition).
 
 =--
 
@@ -232,7 +221,7 @@ as a [[subset]] of the product set on the left manifestly yields the componenwis
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A **morphism of sheaves** is just a morphism of the underlying presheaves.
@@ -243,6 +232,63 @@ $$
 $$
 
 =--
+
+### Characterizations over special sites
+
+We discuss equivalent characterizations of sheaves that are applicable if the underlying [[site]] enjoys certain special properties.
+
+#### Characterizations over sites of opens
+ {#CharacterizationsOverSitesOfOpens}
+
+An important special case of sheaves is those over a [[(0,1)-site]] such as a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$. 
+We consider some equivalent ways of characterizing sheaves among presheaves in such a situation.
+
+(The following was mentioned in Peter LeFanu Lumsdaine's comment [here](http://mathoverflow.net/questions/23268/geometric-intuition-for-limits/23276#23276)).
+
++-- {: .num_prop #AsContinuousFunctorOverOpenSubsets}
+###### Proposition
+
+Suppose $Op = Op(X)$ is the [[category of open subsets]] of some [[topological space]] regarded as a [[site]] with the canonical [[coverage]] where $\{U_i \hookrightarrow U\}$ is [[covering]] if the [[union]] $\cup_i U_i \simeq U$ in $Op$.
+
+Then a [[presheaf]] $\mathcal{F}$ on $Op$  is a **sheaf** precisely if for every [[complete category|complete]] [[subcategory|full subcategory]] $\mathcal{U} \hookrightarrow Op$, $\mathcal{F}$ takes the [[colimit]] in $Op$ over $\mathcal{U} \hookrightarrow Op$ to a [[limit]]:
+
+
+$$
+  \mathcal{F}(\underset{\to}{lim} \mathcal{U}) \simeq \underset{\leftarrow}{lim} \mathcal{F}(\mathcal{U})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A complete full subcategory $\mathcal{U} \hookrigtharrow Op$ is a collection $\{U_i \hookrightarrow X\}$ of [[open subsets]] that is closed under forming [[intersections]] of subsets. The [[colimit]] 
+
+$$
+  \underset{\to}{\lim} (\mathcal{U} \hookrightarrow Op) 
+  \simeq
+  \cup_{i \in I} U_i
+$$
+
+is the [[union]] $U \coloneqq \cup_{i \in I} U_i$ of all these open subsets. Notice that by construction the component maps $\{U_i \hookrightarrow U\}$ of the colimit are a [[covering]] family of $U$.
+
+Inspection then shows that the [[limit]] $\underset{\leftarrow}{\lim}_{i \in I} \mathcal{F}(U_i)$ is the corresponding set of [[matching families]] (use the description of [limits in terms of products and equalizers](http://ncatlab.org/nlab/show/limit#ConstructionFromProductsAndEqualizers) ). Hence the statement follows with def. \ref{GeneralComponentwiseDefinition}.
+
+=--
+
+#### Characterization over canonical topologies
+ {#CharacterizationOverCanonicalTopologies}
+
+The above prop. \ref{AsContinuousFunctorOverOpenSubsets} shows that often sheaves are characterized as contravariant functors that take some [[colimits]] to [[limits]]. This is true in full generality for the following case
+
++-- {: .num_prop #AsContinuousFunctorsOnCanonicalTopology}
+###### Proposition
+
+Let $\mathcal{T}$ be be a [[topos]], regarded as a [[large site]] when equipped with the [[canonical topology]]. Then a [[presheaf]] on $\mathcal{T}$ is a sheaf precisely if it sends all [[colimits]] to [[limits]].
+
+=--
+
 
 
 ## Sheaves and localization
@@ -659,7 +705,9 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 ## Related concepts
 
-* [[presheaf]] /  **sheaf** / [[cosheaf]]
+* [[presheaf]] / [[separated presheaf]] /  **sheaf** / [[cosheaf]]
+
+  * [[sheafification]]
 
   * [[sheaf of abelian groups]]
 
@@ -710,7 +758,7 @@ The book by Kashiwara and Shapira discusses sheaves with motivation from [[homol
 
 A quick pedagogical introduction with an eye towards the generalization to [[(∞,1)-sheaves]] is in 
 
-* [[Dan Dugger]], Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Dan Dugger]], _Sheaves and Homotopy Theory_ ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 [[!redirects sheaves]]
 
