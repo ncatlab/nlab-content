@@ -314,6 +314,8 @@ $$F(X) \stackrel{F(p)}{\to} F U(A) \stackrel{\varepsilon_A}{\to} A$$
 
   * [[projective module]]
 
+  * [[internally projective object]]
+
 * [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
