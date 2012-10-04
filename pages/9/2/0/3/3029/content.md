@@ -284,10 +284,10 @@ We prove this below as prop. \ref{ExtractionAndReconstructionConsituteEquivalenc
 ###### Definition
 **(central extension associated to group 2-cocycle)**
 
-For $c \in H^2_{Grp}(G,A)$ define a group 
+For $[c] \in H^2_{Grp}(G,A)$ a [[group cohomology]] class represented by a [[cocycle]] $c \colon G \times G \to A$, define a group 
 
 $$
-  G \times_c A \in Grpd
+  G \times_c A \in Grp
 $$
 
 as follows. The underlying set is the [[cartesian product]] $U(G) \times U(A)$ of the underlying sets of $G$ and $A$. The group operation on this is given by
@@ -305,7 +305,7 @@ $$
 ###### Proposition
 
 This defines indeed a group: the [[cocycle]] condition on $c$ gives precisely the  [[associativity]] of the product on $G \times_c A$.
-Moreover, the construction extends to a [[homomorphism]]
+Moreover, the construction extends to a [[homomorphism]] of groups
 
 $$
   Rec : H^2_{Grp}(G,A) \to Ext(G,A)
@@ -365,6 +365,42 @@ $$
 $$
 
 where $d c$ denotes the group cohomology differential of $c$. Hence this vanishes precisely if $c$ is a group 2-cocycle.
+
+To see that the construction is independent of the choice of coycle $c$ representing $[c]$, let $\tilde c$ be another representative which differs by a [[coboundary]] $h \colon G \to A$ with
+
+$$
+  \tilde c (g_1,g_2) \coloneqq c(g_1,g_2) - h(g_1) - h(g_2) + h(g_1 g_2)
+  \,.
+$$
+
+We claim that then we have a homomorphism of central extensions (hence an isomorphism) of the form
+
+$$  
+  \array{
+     A &\to& G \times_c A &\to& G
+     \\
+     \downarrow^{\mathrlap{id}} && \downarrow^{(id_G, p_2 -h \circ p_1)} && \downarrow^{\mathrlap{=}}
+     \\
+     A &\to& G \times_{\tilde c} A &\to& G
+  }
+  \,.
+$$
+
+To see this we check for all elements that
+
+$$
+  \begin{aligned}
+   (g_1, a_1 - h(g_1)) \cdot (g_2, a_2 - h(g_2))
+   & = 
+   (g_1 g_2, a_1 + a_2 - h(g_1) - h(g_2) + c(g_1, g_2))
+   \\
+   & = 
+  (g_1 g_2, a_1 + a_2 + \tilde c(g_1, g_2) - h(g_1 g_2) )
+  \end{aligned}
+  \,.
+$$
+
+Hence the construction of $G \times_c A$ indeed defines a function $H^2_{Grp}(G,A) \to CentrExt(G,A)$. 
 
 =--
 
@@ -1308,9 +1344,13 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 
 * [[group cohomology]]
 
+  * [[Galois cohomology]]
+
   * [[nonabelian group cohomology]], [[groupoid cohomology]]
 
-* **group extension**, [[Ext-group]]
+* **group extension**, [[∞-group extension]]
+
+   [[Ext-group]]
 
   * [[Baer sum]]
 
@@ -1320,12 +1360,13 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 
   * [[∞-Lie groupoid cohomology]]
 
-* [[∞-group extension]]
 
 
 ## References
 
 ### General
+
+Textbooks include
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel.  Ann. of Math. (2)  48,  (1947). 326--341 [jstor](http://www.jstor.org/pss/1969174)
 
@@ -1338,9 +1379,17 @@ homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761.
 
 * Kenneth S. Brown, Cohomology of groups, Graduate Texts in Mathematics, __87__, Springer-Verlag, New York-Berlin, 1982. 
 
-* J-P. Serre, Cohomologie galoisienne, Lecture Notes in Mathematics, 5 (Fifth ed. 1994), Springer-Verlag, MR1324577
 
-* [[Manuel Bullejos]], [[Antonio M. Cegarra]],,  A 3-dimensional non-abelian cohomology of groups with applications to homotopy classification of continuous maps Canad. J. Math., vol. 43, (2), 1991, p. 1-32.
+Lecture notes include
+
+* [[Patrick Morandi]], _Group extensions and $H^3$_ ([pdf](http://sierra.nmsu.edu/morandi/notes/GroupExtensions.pdf))
+
+  _Nobabelian cohomology_ ([pdf](http://sierra.nmsu.edu/morandi/notes/nonabeliancohomology.pdf))
+
+See also
+
+
+* [[Manuel Bullejos]], [[Antonio M. Cegarra]],  A 3-dimensional non-abelian cohomology of groups with applications to homotopy classification of continuous maps Canad. J. Math., vol. 43, (2), 1991, p. 1-32.
 
 * [[Antonio M. Cegarra]], [[Antonio R. Garzón]], A long exact sequence in non-abelian cohomology, Proc. Int. Conf. Como 1990., Lec. Notes in Math. 1488, Springer 1991.
 
