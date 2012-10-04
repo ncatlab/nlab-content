@@ -63,6 +63,10 @@ Detailed discussion of the type of types in [[Coq]] is in
 
 * [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ -- _[Library Universes](http://adam.chlipala.net/cpdt/html/Universes.html)_ 
 
+See also around slide 8 of the survey
+
+* Frade, _Calculus of inductive constructions_ (2008/2009) ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
+
 [[!redirects types of types]]
 [[!redirects universe of types]]
 [[!redirects universes of types]]
