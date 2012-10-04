@@ -58,6 +58,8 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 
 ## Properties
 
+### Monoidal category structure
+
 The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ becomes a [[monoidal category]]. 
 
 +-- {: .num_prop}
@@ -65,8 +67,11 @@ The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ 
 
 A [[monoid]] in $(R Mod, \otimes)$ is equivalently an $R$-[[associative algebra|algebra]].
 
-
 =--
+
+### Characterization by exact additive functors
+
+See _[[Eilenberg-Watts theorem]]_.
 
 ## Related concepts
 
