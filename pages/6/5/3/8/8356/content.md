@@ -18,11 +18,15 @@
 
 The _Brouwer-Heyting-Kolmogorov_ interpretation of [[intuitionistic logic]] is a description of [[proofs]] of [[propositions]] in [[intuitionistic logic]] as [[functions]], often [[computable functions]], where it is also called the _realizability interpretation_. 
 
-See also at _[[propositions as types]]_.
+This is otherwise known as _[[propositions as types]]_ and _[[proofs as programs]]_
+
+## Related concepts
+
+* [[computational trinitarianism]]
 
 ## References 
 
-* [Wikipedia article](http://en.wikipedia.org/wiki/BHK_interpretation) 
+* Wikipedia, _[BHK interpretation](http://en.wikipedia.org/wiki/BHK_interpretation)_
 
 * J.-Y. Girard, _Proofs and Types_ 
 
