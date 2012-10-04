@@ -39,6 +39,8 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 
 The [[logic]] and [[type theory]]-approaches were later combined in the [[Elf]] language. This gave rise to [[Twelf]].
 
+
+
 ## References
 
 * [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
