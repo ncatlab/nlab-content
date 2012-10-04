@@ -395,7 +395,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     \right)
   $$
 
-* 2-morphisms (though of as 2-[[simplex]]es) take two 
+* 2-morphisms (thought of as 2-[[simplex]]es) take two 
   such triangles $(k_1, g_1)$ and $(k_2, g_2)$ to the pair $(k', g_1, g_2)$, where $k'$ is given by the pasting diagram
 
   $$
