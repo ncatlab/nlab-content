@@ -402,7 +402,8 @@ Here are some important examples of limits, classified by the shape of the [[dia
 
 ## Properties
 
-### Existence
+### Existence: construction from products and equalizers
+ {#ConstructionFromProductsAndEqualizers}
 
 Frequently some limits can be computed in terms of other limits.  This makes things easier since we only have to assume that categories have, or functors preserve, some easier-to-verify class of limits in order to obtain results about a larger one.
 
