@@ -1,0 +1,32 @@
+
+> The following is an attempt to organize the [[foundations]] by starting with the most foundational foundation and successively adding [[axioms]]. This is under construction and tentative; let's discuss it [here](http://nforum.mathforge.org/discussion/4347/layers-of-foundations/#Item_1).
+
+***
+
+* **[[natural deduction]]** [[logical framework]] for [[dependent types]] and including a [[predicative mathematics|predicative]] [[type of types]] hierarchy (at this stage or later)
+
+  * add [[dependent product type]] [[type formation|formation rule]] $\to$ **[[pure type system]]**
+
+    * add [[natural deduction|rules]] for introducing [[inductive types]] $\to$ **[[calculus of inductive constructions]]**
+
+      * specify the [[nLab:natural deduction|rules]] for the specific [[inductive types]]: _[[empty type]]_, _[[dependent sum type]]_, _[[identity type]]_ $\to$ **[[intensional type theory|intensional]] [[dependent type theory]]**
+     
+        * add uniqueness of [[equality]]-[[axiom]] $\to$ **[[extensional type theory|extensional]] [[dependent type theory]]**
+
+          * consider [[setoid]] [[types]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[predicative mathematics|predicative]] [[structural set theory]]**
+
+            * add [[excluded middle]]-[[axiom]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory]]**
+
+              * add [[axiom of choice]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory]] with Choice**
+
+                * add [[large cardinal axioms]] $\to$ **traditional [[foundation]]**
+ 
+        * add [[univalence]]-[[axiom]] and [[natural deduction|rules]] for introducing [[higher inductive types]] $\to$ **[[homotopy type theory]]**
+
+          * add [[cohesive homotopy type theory|cohesion]]-[[axiom]] $\to$ **[[cohesive homotopy type theory]]**
+  
+            1. consider [[higher geometric quantization]] $\to$ **[[quantum theory]]** 
+
+            1. add [[interval]]-[[axiom]] $\to$ **[[directed homotopy type theory]]**
+
+            1)+2) $\to$ **[[FQFT]]** ??
