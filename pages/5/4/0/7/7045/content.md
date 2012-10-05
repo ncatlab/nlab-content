@@ -47,7 +47,9 @@ In [[homotopy type theory]] the type of types $Type$ is often assumed to satisfy
 
 * [[univalence]]
 
-* [[type of propositions]], [[subobject classifier]]
+* [[Prop]], the [[type of propositions]], 
+
+  * [[subobject classifier]]
 
 * [[object classifier]]
 
