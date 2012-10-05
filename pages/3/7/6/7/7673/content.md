@@ -379,7 +379,7 @@ Categories with attributes are discussed in
 
 Categories with families are defined in
 
-* Peter Dybjer, *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci., vol. 1158, Springer, Berlin, 1996, pp. 120--134
+* Peter Dybjer, *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci., vol. 1158, Springer, Berlin, 1996, pp. 120--134, [PDF](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
 
 and shown to be equivalent to categories with attributes in
 
