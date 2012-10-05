@@ -44,26 +44,47 @@ In other words a _pure type system_ is
 A _pure type system_ is defined by
 * a set $S$ of _sorts_, all of which are constants,
 * a set $A$ of _axioms_ of the form $c : s$ with $c$ a constant and $s$ a sort,
-* a set $R$ of _relations_: triples $(s_{1}, s_{2}, s_{3})$ of sorts.
+* a set $R \hookrightarrow S \times S \times S$ of _[[relations]]_: triples $(s_{1}, s_{2}, s_{3}) $ of sorts.
   Relations $(s_{1}, s_{2}, s_{2})$ are abbreviated as $(s_{1}, s_{2})$.
 
-The _terms_ of a pure type system are the following (recursive definition):
-* variables and constants
-* $(\lambda x : A . B)$ (abstraction)
-* $(\prod x : A . B)$ (product)
-* $A B$ (application)
++-- {: .num_remark }
+###### Remark
 
-Here $x$ is a variable and $A$, $B$ are terms.
-The operators $\lambda$ and $\prod$ bind the variable $x$.
+These relations will appear in the [[type formation]] rule for [[dependent product types]] below. They will say that for a type of sort $s_2$ [[dependent type|depending]] on a type of sort $s_2$ its dependent product is a type of sort $s_3$.
 
-The typing of terms is inductively defined by the following rules.
-A typing is of the form
-$$x_{1} : A_{1}, \dots, x_{n} : A_{n} \vdash A : B$$
-meaning that the types of the variables declared on the left
-induces the term $A$ has type $B$.
-Note that types are also terms.
-The order of variable  declarations is significant:
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In fact _all_ such triples appearing in the following have $s_2 = s_3$. So we can just as well regard genuine relations $R \hookrightarrow S\times S$.
+
+=--
+
+From the above input data we derive the following 
+
+1. The **terms** of a pure type system are the following (recursive definition):
+   * variables and constants
+   * $(\lambda x : A . B)$ (abstraction)
+   * $(\prod x : A . B)$ (product)
+   * $A B$ (application)
+
+   Here $x$ is a variable and $A$, $B$ are terms. The operators $\lambda$ and $\prod$ bind the variable $x$.
+
+1. The **typing of terms** is inductively defined by the following rules.
+
+   A typing is of the form 
+
+   $$
+     x_{1} : A_{1}, \dots, x_{n} : A_{n} \vdash A : B
+   $$ 
+ 
+   meaning that the types of the variables declared on the left induces the term $A$ has type $B$. Note that types are also terms.
+
+   The order of variable  declarations is significant:
 the declaration $x_{i} : A_{i}$ may depend on declarations to its left.
+
+The [[natural deduction]] rules are defined to be the following, for all $s \in S$ and where $x$ ranges over the set of variables.
 
 name          | rule                                                                                                                      | condition                         |
 --------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -75,7 +96,6 @@ name          | rule                                                            
 (abstraction) | $\frac{\Gamma, x:A \vdash b : B; \quad \Gamma \vdash (\prod x:A . B) : s}{\Gamma \vdash (\lambda x:A:b) : (\prod x:A:B)}$ |                                   |
 (conversion)  | $\frac{\Gamma \vdash A : B; \quad \Gamma B' : s; B =_{\beta} B'}{\Gamma \vdash A : B'}$                                   |                                   |
 
-In the above $s$ ranges over sorts and $x$ ranges over variables.
 
 ## Examples ##
 
@@ -86,13 +106,15 @@ In the above $s$ ranges over sorts and $x$ ranges over variables.
 #### Lambda cube #### 
 
 The lambda cube consists of eight systems arranged in a cube.
-The most expressive is
+The most expressive is given by the following choice of sorts, axioms and relations:
 
 | symbol | actual value
 |--------|-------------
-| S      | $\ast$, $\square$
-| A      | $\ast : \square$
-| R      | $(\ast, \ast)$, $(\ast, \square)$, $(\square, \ast)$, $(\square, \square)$ 
+| $S = $ | $\{\ast, \square\}$
+| $A =$  | $\{(\ast : \square)\}$
+| $R =$  | $\{(\ast, \ast), (\ast, \square), (\square, \ast), (\square, \square)\}$ 
+
+(Here $\{\ast, \Box\}$ denotes the 2-element set.)
 
 The other systems omit some of the last three relations.
 Some specific systems:
@@ -110,17 +132,17 @@ The most permissive pure type system:
 
 | symbol | actual value
 |--------|-------------
-| S      | $\ast$
-| A      | $\ast : \ast$
-| R      | $(\ast, \ast)$
+| $S = $ | $\{\ast\}$
+| $A = $ | $\{(\ast : \ast)\}$
+| $R = $ | $\{(\ast, \ast)\}$
 
 But there is an example with even non-circular system of axioms:
 
 | symbol | actual value
 |--------|-------------
-| S      | $\ast$, $\square$, $\triangle$
-| A      | $\ast : \square$, $\square : \triangle$
-| R      | $(\ast, \ast)$, $(\square, \ast)$, $(\square, \square)$, $(\triangle, \square)$
+| $S =$  | $\{ \ast, \square, \triangle\}$
+| $A =$  | $\{(\ast : \square), (\square : \triangle)\}$
+| $R = $ | $\{(\ast, \ast), (\square, \ast), (\square, \square), (\triangle, \square)\}$
 
 ## Related concepts
 
