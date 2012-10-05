@@ -124,13 +124,7 @@ But there is an example with even non-circular system of axioms:
 
 ## Related concepts
 
-Adding to a pure type sytstem
-
-1. rules for introduing [[inductive types]];
-
-1. possibly a [[type of types]] hierarchy
-
-makes it a _[[calculus of inductive constructions]]_.
+The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introduing [[inductive types]].
 
 ## References ##
 
