@@ -50,14 +50,14 @@ A _pure type system_ is defined by
 +-- {: .num_remark }
 ###### Remark
 
-These relations will appear in the [[type formation]] rule for [[dependent product types]] below. They will say that for a type of sort $s_2$ [[dependent type|depending]] on a type of sort $s_2$ its dependent product is a type of sort $s_3$.
+These relations will appear in the [[type formation]] rule for [[dependent product types]] below. They will say that for a type of sort $s_2$ [[dependent type|depending]] on a type of sort $s_1$ its dependent product is a type of sort $s_3$.
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-In fact _all_ such triples appearing in the following have $s_2 = s_3$. So we can just as well regard genuine relations $R \hookrightarrow S\times S$.
+In fact _all_ such triples appearing in the following have $s_2 = s_3$. So we can just as well regard them as binary relations $R \hookrightarrow S\times S$ (rather than ternary ones).
 
 =--
 
