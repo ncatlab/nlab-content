@@ -3,46 +3,36 @@
 * table of contents
 {:toc}
 
-## Motivation
+## Idea
 
-In the philosophy of Grothendieck school, one starts with some category $C$ of "local models" of spaces, equips it with a subcanonical Grothendieck topology, $\tau$, and enlarges $C$ to some category of sheaves of sets on the site $(C,\tau)$ playing the role of *spaces*. There are further generalizations to stacks and so on.
+In the philosophy of the [[Grothendieck]] school, one starts with some category $C$ of "local models" of spaces, equips it with a subcanonical Grothendieck topology, $\tau$, and enlarges $C$ to some category of sheaves of sets on the site $(C,\tau)$ playing the role of *spaces*. There are further generalizations to stacks and so on.
 
 The main role of properties of spaces have to be done in a relative setup, that is, the emphasis is on __properties of morphisms__. Thus one of the main steps in the construction of the theory is to extend good classes of morphisms of local models to the category of spaces. Grothendieck axiomatizes the situation, actually for general presheaves.
+
+Representable morphisms are also important in [[algebraic set theory]] and appear implicitly in the notion of [[category with families]].
 
 
 ## Definition
 
-Let $\mathcal{P}$ be some class of morphisms in a category $C$ satisfying the following
+Let $\mathcal{P}$ be a class of [[morphisms]] in a [[category]] $C$ which is closed under isomorphisms, i.e. it is [[replete subcategory|replete]] when regarded as a [[full subcategory]] of the [[arrow category]] of $C$.
 
-1) $\mathcal{P}$ is closed under precomposition and postcomposition with isomorphisms
++-- {: .un_defn}
+###### Definition
+A morphism $\alpha : F\to G$ of [[presheaves]] of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf $h_X\to G$, the projection from the pullback $F\times_G h_X\to h_X$ is (the image under the [[Yoneda embedding]] of) a morphism in $\mathcal{P}$.
 
-2) if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the
-pullback $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is a morphism in $\mathcal{P}$.
+When $\mathcal{P}$ is the class of all morphisms in $C$, we simply say that $\alpha$ is __representable__.
+=--
 
-A morphism $\alpha : F\to G$ of [[presheaves]] of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
-$h_X\to G$, the projection $F\times_G h_X\to h_X$ is in $\mathcal{P}$. 
+In geometrical contexts, we usually assume that $\mathcal{P}$ is itself closed under pullbacks in $C$, i.e. if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the [[pullback]] $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is in $\mathcal{P}$.  If $C$ has all pullbacks, then the class of *all* morphisms in $C$ satisfies this property.
 
-In particular, a morphism $h_X\to h_Y$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h_w$ with $x\stackrel{w}\longrightarrow y\in \mathcal{P}$.
+If $\mathcal{P}$ is closed under pullback, then a morphism $h_X\to h_Y$ between representable presheaves is representable by a morphism in $\mathcal{P}$ if and only if it is itself (the image under the Yoneda embedding of) a morphism in $\mathcal{P}$.  In this way, the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\hat{\mathcal{P}}$ of morphisms in the category of presheaves of sets $\hat{C} = Set^{C^{op}}$.
 
-This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\mathcal{P}\check{}$ of morphisms in the category of presheaves of sets $C\check{} = Set^{C^{op}}$.
 
 ## Examples
 
-* [[representable morphism of stacks]]
+* [[representable morphism of stacks]] (extends this notion from presheaves to stacks)
 
-+--{: .query}
-Stephan:To me it is not clear how the projection in the presheaf category can be in $\mathcal{P}$. I would rather rephrase the definition to something like:
-Let $h:C\hookrightarrow \mathbf{Psh} C$ be the contravariant Yoneda embedding from some category $C$ into the category of pre sheaves on $C$ and $\mathcal{P}$ some class of morphisms in $C$ satisfying the following
+[[!redirects representable morphisms]]
+[[!redirects representable morphism of presheaves]]
+[[!redirects representable morphisms of presheaves]]
 
-1) $\mathcal{P}$ is closed under precomposition and postcomposition with isomorphisms
-
-2) if $f: X\to Y$ is in $\mathcal{P}$ and $g : V\to Y$ a morphism in $C$, then the
-pullback $X\times_Y V$ exists and the projection $X\times_Y V\to V$ is a morphism in $\mathcal{P}$.
-
-A morphism $\alpha : F\to G$ of [[presheaves]] of sets on $C$ is said to be __representable by a morphism in__ $\mathcal{P}$ if for every morphism from a representable presheaf
-$h(X)\to G$, for the projection $p_{h(X)}:F\times_G h_X\to h(X)$ there is a $p\in\mathcal{P}$ such that $h(p)=p_{h(X)}$. 
-
-In particular, a morphism $h(X)\to h(Y)$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h(w)$ with $(w: y\to x)\in \mathcal{P}$.
-
-This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\mathcal{P}\check{}$ of morphisms in the category of presheaves of sets $C\check{} = Set^{C^{op}}$.
-=--
