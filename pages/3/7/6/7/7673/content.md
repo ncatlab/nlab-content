@@ -185,7 +185,7 @@ A **category with families** is a category $C$ together with
   $$
   \begin{aligned}
     (C/\Gamma)^{op} & \to Set\\
-    (\Delta \xrightarrow{f} \Gamma) & \to Tm(f^*(A))
+    (\Delta \xrightarrow{f} \Gamma) & \mapsto Tm(f^*(A))
   \end{aligned}
   $$
 =--
@@ -201,6 +201,16 @@ Categories with attributes, def. \ref{CategoryWithAttributes} are equivalent to 
 +-- {: .proof}
 ###### Proof
 If we forget the terms in a category with families and let $E\to C$ be the [[Grothendieck construction]] of the functor $Ty:C^{op}\to Set$, it is easy to show that we obtain a category with attributes.  Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
+=--
+
+The following alternative characterization was observed by [[Steve Awodey]].
+
++-- {: .num_theorem}
+###### Theorem
+If we modify Def. \ref{CategoryWithFamilies} by requiring only that the functors $(\Delta \xrightarrow{f} \Gamma) \mapsto Tm(f^*(A))$ be representable (rather than equipped with representing objects), then it is equivalent to giving
+
+1. a category $C$, together with
+1. a morphism $Tm \to Ty$ in the category of [[presheaves]] on $C$ which is a [[representable morphism]].
 =--
 
 
