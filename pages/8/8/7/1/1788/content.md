@@ -49,6 +49,30 @@ $$
 \end{matrix}
 $$
 
+$$
+\begin{matrix}
+\mathbf{B}^n \mathbb{G}_{conn}  &
+\stackrel{F_{(-)}}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}&
+\Omega^{n+1}_{cl} \\
+& \begin{svg}
+<div style="height:0px;overflow:visible">
+[[!include SVG pullback]]
+</div>
+\end{svg}
+& \\
+\begin{svg}[[!include SVG downarrow]]\end{svg} &
+&
+\begin{svg}[[!include SVG downarrow]]\end{svg} \\
+\mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G}
+\end{matrix}
+$$
+
+
+<div style="height: 0px; width: 0px;">
+hello
+</div>
+
+
 
 ***
 
