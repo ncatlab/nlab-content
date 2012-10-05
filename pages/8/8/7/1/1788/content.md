@@ -42,7 +42,7 @@ $$
 \stackrel{F_{(-)}}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}&
 \Omega^{n+1}_{cl} \\
 \begin{svg}[[!include SVG downarrow]]\end{svg} &
-\mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} \\ \space{30}{10}{1}}}
+\mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \seArrow}}
 &
 \begin{svg}[[!include SVG downarrow]]\end{svg} \\
 \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G}
