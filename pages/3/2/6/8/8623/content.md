@@ -13,15 +13,25 @@
      
         * add uniqueness of [[equality]]-[[axiom]] $\to$ **[[extensional type theory|extensional]] [[dependent type theory]]**
 
+          * restrict attention to [[propositions as some types|types that are propositions]] $\to$ **[[intuitionistic logic|intuitionistic]] [[first-order logic]]**
+
+            * add the [[axiom of excluded middle]] $\to$ **[[classical logic|classical]] [[first order logic]]**
+
           * consider [[setoid]] [[types]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[predicative mathematics|predicative]] [[structural set theory]]**
 
-            * add [[excluded middle]]-[[axiom]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory]]**
+            * add [[excluded middle]]-[[axiom]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory|set theory]]**
 
-              * add [[axiom of choice]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory]] with Choice**
+              * add [[axiom of choice]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory|set theory]] with Choice**
 
-                * add [[large cardinal axioms]] $\to$ **traditional [[foundation]]**
+                * add [[large cardinal axioms]] 
  
         * add [[univalence]]-[[axiom]] and [[natural deduction|rules]] for introducing [[higher inductive types]] $\to$ **[[homotopy type theory]]**
+
+          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-sets]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[set theory]]**
+
+          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-level]] 3 $\to$ **[[groupoid]] theory**
+
+          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-level]] $n+2$ $\to$ **[[n-groupoid]] theory**
 
           * add [[cohesive homotopy type theory|cohesion]]-[[axiom]] $\to$ **[[cohesive homotopy type theory]]**
   
