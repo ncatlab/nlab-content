@@ -1821,17 +1821,37 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 
 #### Cohesive modality I: Sharp types
 
++-- {: .num_defn #SharpModalityOfLocalTopos}
+###### Definition
+
+Let $\mathbf{H}$ be a [[local topos]]
 
 $$
-  (\Pi \dashv \flat \dashv \sharp)
+  \mathbf{H}
+   \stackrel{\stackrel{Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoConst}{\leftarrow}}}
+  \,.
+$$
+
+Write
+
+$$
+  (\flat \dashv \sharp)
   \;
   \colon
   \;
   \mathbf{H}
-  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
   \mathbf{H}
-  \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
+  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coConst}{\to}}
 $$
+
+for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $\flat$. We 
+
+* call $\sharp$ the **sharp modality**;
+
+* call $\flat$ the **flat modality**.
+
+=--
 
 * [[modal logic]]
 
@@ -2079,7 +2099,8 @@ $$
 
 ### Layer Sem
 
-#### Concrete objects
+#### Concrete smooth spaces
+ {#ConcreteObjects}
 
 The smooth universal moduli space of differential forms $\Omega^n(-)$
 from def. \ref{TheUniversalSmoothModuliSpaceOfDifferentialForms}
@@ -2089,7 +2110,7 @@ other smooth spaces: while evidently being "large" (the space of all differentia
 $$
   Hom(\mathbb{R}^k, \Omega^n(-))
   \simeq
-  \Omega^n(\mathb{R}^k)
+  \Omega^n(\mathbb{R}^k)
   = 
   \{0\}
   \,.
@@ -2102,35 +2123,63 @@ We now formalize this. The formal notion of an smooth space which _is_ supported
 +-- {: .num_defn}
 ###### Definition
 
-Let $\mathbf{H}$ be a local topos. Write $\sharp \colon \mathbf{H} \to \mathbf{H}$ for the corresponding sharp modality. Then an object $X \in \mathbf{H}$ is concrete if
+Let $\mathbf{H}$ be a [[local topos]]. Write $\sharp \colon \mathbf{H} \to \mathbf{H}$ for the corresponding sharp modality, def. \ref{SharpModalityOfLocalTopos}. Then. 
+
+1. An object $X \in \mathbf{H}$ is called a **[[concrete object]]** if
+
+   $$
+     DeCohese_X \colon X \to \sharp X
+   $$
+
+   is a [[monomorphism]].
+
+1. For $X \in \mathbf{H}$ any object, its  **concretification** $Conc(X) \in \mathbf{H}$ is the [[image]] factorization of $DeCohese_X$
+
+   $$
+     DeCohese : X \to Conc(X) \hookrightarrow \sharp X
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Hence the concretification $Conc(X)$ of an object $X$ is itself a [[concrete object]] and it is [[universal property|universal]] with this property. (...)
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $C$ be a [[site]] of definition for the [[local topos]]
+$\mathbf{H}$, with [[terminal object]] $*$. Then for 
+$X \colon C^{op} \to Set$ a sheaf, $DeCohese_X$
+is given over $U \in C$ by
 
 $$
-  DeCohese \colon X \to \sharp X
-$$
-
-is a [[monomorphism]].
-
-The _concretification_ of $X$ is the [[image]] factorization
-
-$$
-  DeCohese : X \to Conc(X) \hookrightarrow \sharp X
+  X(U)
+  \underoverset{Yoneda}{\simeq}{\to}
+  \mathbf{H}(U, X)
+  \stackrel{\Gamma_{U,X}}{\to}
+  Set(\Gamma(U),\Gamma(X))
+  \,.
 $$
 
 =--
 
-* [[concrete object]], [[concrete sheaf]]
+
++-- {: .num_prop}
+###### Proposition
+
+For $n \geq 1$ we have 
 
 $$
-  Conc \colon Sh(C) \to ConcSh(C) \hookrightarrow Sh(C)
+  Conc(\Omega^n) \simeq *
+  \,.
 $$
 
-$$
-  Conc(X) = im(X \to \sharp X)
-$$
-
-$$
-  toSharp \colon X \to Conc(X) \hookrightarrow \sharp X
-$$
+=--
 
 #### Smooth moduli space of differential forms on a smooth space
 
