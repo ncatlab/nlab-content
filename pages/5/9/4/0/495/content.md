@@ -30,7 +30,7 @@ preserves [[epimorphisms]].
 
 ## Properties
 
-Any [[projective object]] is internally projective.  
+If the terminal object in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. Conversely, if $\mathcal{T}$ has [[projective object|enough projectives]] and projectives are closed under binary products, then every projective object is internally projective. In particular, if all objects of $\mathcal{T}$ are projective then all objects are internally projective.
 
 The _internal axiom of choice_ (that is, the [[axiom of choice]] interpreted in the [[internal logic]] of the topos) is equivalent to the statement that every object is internally projective.  This is strictly weaker than the "external" axiom of choice that every [[epimorphism]] in the topos is [[split epimorphism|split]].
 
