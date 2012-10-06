@@ -39,7 +39,7 @@ Let $K$ and $D$ be [[2-categories]], and $J\colon D\to Cat$ and $F\colon D\to K$
 $$ K(X,L) \simeq [D,Cat](J,K(X,F-)). $$
 where $[D,Cat]$ denotes the 2-category of [[2-functors]] $D\to Cat$, [[pseudonatural transformations]] between them, and [[modifications]] between those.
 
-A 2-limit in $K^{op}$ is called a **2-colimit** in $K$.  Everything below applies dually to 2-colimits, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
+A 2-limit in the [[opposite 2-category]] $K^{op}$ is called a **2-colimit** in $K$.  Everything below applies dually to 2-colimits, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
 
 
 ### Strictness and terminology 
@@ -102,7 +102,13 @@ Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]])
 ### Lax limits
 {#lax}
 
-A **lax limit** can be defined like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  In other words, in place of the 2-category $[D,Cat]$ we use the 2-category $[D,Cat]_l$ whose morphisms are [[lax natural transformations]].  This may look like a different concept, but in fact, for any weight $J$ there is another weight $Q_l(J)$ such that lax $J$-weighted limits are the same as $Q_l(J)$-weighted 2-limits.  Here $Q_l$ is the [[lax morphism classifier]] for 2-functors.  Therefore, lax limits are really a special case of 2-limits.
+A **lax limit** can be defined like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  In other words, in place of the 2-category $[D,Cat]$ we use the 2-category $[D,Cat]_l$ whose morphisms are [[lax natural transformations]]; thus the lax limit $L$ of a diagram $F$ weighted by $J$ is equipped with a universal lax natural transformation $J\to K(L,F-)$.
+
+This may look like a different concept, but in fact, for any weight $J$ there is another weight $Q_l(J)$ such that lax $J$-weighted limits are the same as $Q_l(J)$-weighted 2-limits.  Here $Q_l$ is the [[lax morphism classifier]] for 2-functors.  Therefore, lax limits are really a special case of 2-limits.  Similarly, **oplax limits**, in which we use oplax natural transformations, are also a special case of 2-limits.
+
+There is a further simplification of lax limits in the case of "conical" lax limits where the weight $J=\Delta 1$ is constant at the [[terminal category]].  In this case, it is easy to check that a lax natural transformation $\Delta 1 \to K(X,F-)$ is the same as a lax natural transformation $\Delta X \to F$.  Thus, a conical lax limit of $F$ is a representing object for such lax transformations.
+
+Here are some examples.
 
 * Lax terminal objects and lax products are the same as ordinary ones, since there are no commutativity conditions on the cones.
 
@@ -112,11 +118,23 @@ A **lax limit** can be defined like a 2-limit, except that the triangles in the 
 
 Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
+A **lax colimit** in $K$ is, of course, a lax limit in $K^{op}$.  Thus, it is a representing object for lax natural transformations $J \to K(F-,L)$.  There is a subtlety here, however, because in the case $J=\Delta 1$, a lax natural transformation $\Delta 1 \to K(F-,L)$ is the same as an *oplax* natural transformation $F \to \Delta L$.  Thus, it is easy to mistakenly say "lax colimit" when one really means "oplax colimit" and vice versa.
+
+Here are some examples of lax and oplax colimits:
+
+* A [[Kleisli object]] is a lax colimit of a [[monad]], regarded as a diagram in a 2-category.
+
+* The [[collage]] of a [[profunctor]] is its lax colimit, regarded as a diagram in the 2-category [[Prof]].
+
+* When $C$ is a category, the [[Grothendieck construction]] of a functor $C\to Cat$ is the same as its *oplax* colimit; see [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit).
+
 
 ### 2-Colimits in $Cat$
  {#2ColimitsInCat}
 
-Recall from [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit) that if $C$ is an ordinary category and $F \colon C \to Cat$ is a [[pseudofunctor]], then the [[lax colimit]] of $F$ is given by the [[Grothendieck construction]] $\int F$, and its [[pseudo-colimit]] is given by [[localization|formally inverting]] the [[cartesian morphism|opcartesian]] morphisms in $\int F$.
+As shown [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit), if $C$ is an ordinary category and $F \colon C \to Cat$ is a [[pseudofunctor]], then the [[oplax colimit]] of $F$ is given by the [[Grothendieck construction]] $\int F$.
+
+, and its [[pseudo-colimit]] is given by [[localization|formally inverting]] the [[cartesian morphism|opcartesian]] morphisms in $\int F$.
 
 A similar result holds if $C$ is a [[bicategory]].  In that case $\int F$ is also a bicategory: a 2-cell from $(m \colon c \to d, f \colon m_*x \to y)$ to $(n \colon c \to d, g \colon n_*x \to y)$ is given by a 2-cell $\mu \colon m \Rightarrow n$ in $C$ such that $\mu_* x$ is a morphism $f \to g$ over $y$.
 
@@ -149,6 +167,7 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
   * [[homotopy limit]]
 
+* [[coherence for bicategories with finite limits]]
 
 ## References 
 
