@@ -54,6 +54,7 @@ I think it would be nice to have pages about all the different coherence theorem
 * [coherence theorem for bicategories](/nlab/show/bicategory#Coherence)
 * [coherence theorem for tricategories](/nlab/show/tricategory#Coherence)
 * [[coherence theorem for bicategories with finite limits]]
+* [[Lack's coherence theorem]] (not a true coherence theorem)
 
 
 ## General frameworks for coherence theorems
