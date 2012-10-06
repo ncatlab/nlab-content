@@ -35,7 +35,8 @@ Examples abound:
 
 * [[geometric realization]] of simplicial sets
 * [[subdivision]] of simplicial sets
-* ...
+* the left adjoint to the [[nerve]] functor $N:Cat \to SSet$
+* the category of simplices itself, as a functor $SSet \to Cat$; see [here](/nlab/show/category+of+elements#ColimitPreserving).
 
 ## Categories of nondegenerate simplices
 
