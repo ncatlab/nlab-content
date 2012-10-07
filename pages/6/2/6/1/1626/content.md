@@ -46,8 +46,20 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
 
-1. If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
+1. If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. 
 
+## Exotic examples 
+
+The basic results above give a plethora of ways to construct connected spaces. More exotic examples are sometimes useful, especially for constructing counterexamples. 
+
++-- {: .num_example} 
+###### Example 
+The following, due to Bing, is a countable connected [[Hausdorff space]]. Let $Q = \{(x, y) \in \mathbb{Q} \times \mathbb{Q}: y \geq 0\}$, topologized by defining a basis of neighborhoods $N_{\epsilon, a, b}$ for each point $(a, b) \in Q$ and $\epsilon \gt 0$: 
+
+$$N_{a, b} \coloneqq \{(a, b)\} \cup \{(s, 0) \in Q: {|a + b/\theta - s|} \lt \epsilon\} \cup \{(s, 0) \in Q: {|a - b/\theta - s|} \lt \epsilon\}$$ 
+
+where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see this space is Hausdorff (using the fact that $\theta$ is irrational). However, the _closure_ of $N_{\epsilon, a, b}$ consists of points $(x, y)$ of $Q \times Q$ with either $\theta(x - \epsilon) \leq y \leq \theta(x + \epsilon)$ or $-\theta(x + \epsilon) \leq y \leq -theta(x - \epsilon)$, in other words, the union of two infinitely long strips of width $2\epsilon$ and slopes $\theta$, $-\theta$. Clearly any two such closures intersect, and therefore the space is connected. 
+=-- 
 
 ## Connected components
 
@@ -64,6 +76,13 @@ For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[sub
 $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
 
 In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
+
+For a topological space $X$, let $QConn(X)$ denote the set of quasi-components of $X$. This defines a functor $QConn \colon Top \to Set$. 
+
++-- {: .un_prop} 
+###### Proposition 
+$QConn \colon Top \to Set$ is left adjoint to the [[discrete space]] functor $\Delta \colon Set \to Top$. 
+=-- 
 
 
 ## Locally connected space
@@ -85,20 +104,20 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
 
-The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") may be equivalently defined to be the coequalizer in 
+The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") is thus the [[coequalizer]] in 
 $$ \hom([0, 1], X) \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} \hom(1, X) \to \pi_0(X) .$$ 
 
 (We can even topologize $\pi_0(X)$ by taking the coequalizer in $Top$ of 
 
 $$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X,$$ 
 
-taking advantage of the fact that the locally compact Hausdorff space $[0, 1]$ is [exponentiable](http://ncatlab.org/nlab/show/exponential+law+for+spaces). The resulting quotient space will be discrete if $X$ is locally path-connected.)   
+taking advantage of the fact that the locally compact Hausdorff space $[0, 1]$ is [exponentiable](http://ncatlab.org/nlab/show/exponential+law+for+spaces). The resulting quotient space will be [[discrete space|discrete]] if $X$ is [[locally path-connected space|locally path-connected]].)   
 
 We say $X$ is **path-connected** if it has exactly one path component.
 
 It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$). The **topologist's sine curve**
 $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
-provides a classic example of this happenstance. However, the path components and connected components coincide if $X$ is **locally path-connected** (meaning each point has an open neighborhood which is path-connected).
+provides a classic example of this happenstance. However, the path components and connected components coincide if $X$ is locally path-connected.
 
 The basic categorical results 1., 2., and 3. above carry over upon replacing "connected" by "path-connected". (As of course does 4., trivially.)
 
@@ -122,7 +141,7 @@ $$\pi_0(\prod_i X_i) \to \prod_i \pi_0(X_i)$$
 is invertible. Define a relation $R$ from $\prod_i \pi_0(X_i)$ to $\pi_0(\prod_i X_i)$ where $R((c_i), [(x_i)])$ if $x_i \in c_i$ for all $i$. This is well-defined, because if $x_i \in c_i$ and $y_i \in c_i$ for all $i$, then for each $i$ we can choose a path $\alpha_i \colon I \to X_i$ connecting $x_i$ to $y_i$, and $\langle \alpha_i \rangle \colon I \to \prod_i X_i$ then connects $(x_i)$ to $(y_i)$. (This of course uses the [[axiom of choice]].) It is also total, again by the axiom of choice. It is straightforward that this functional relation is inverse to the comparison map above. 
 =-- 
 
-+-- {: .un.prop} 
++-- {: .un_prop} 
 ###### Proposition 
 The functor $\pi_0 \colon Top \to Set$ preserves arbitrary coproducts. 
 =-- 
