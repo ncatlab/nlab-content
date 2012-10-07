@@ -36,7 +36,7 @@ This is what it looks like for $X$ the 2-simplex.
 
 
 
-The simplicial complex which is the 3-simplex has as its poset of simplices the set of non-empty subsets of $\{0,1,2\}$.  The subdivided simplex therefore is the flags of that poset. The diagram shows that nerve of the corresponding category, as this is the simplicial set that one gets from this. The central vertex is the whole set $\{0,1,2\}$, the vertices on the long edges are the 2-element subsets and the three extremal vertices are the singletons.
+The simplicial complex which is the 2-simplex has as its poset of simplices the partially ordered set of non-empty subsets of $\{0,1,2\}$.  The subdivided simplex therefore is the flags of that poset. The diagram shows that nerve of the corresponding category, (or rather its dual), as this is the simplicial set that one gets from this. The central vertex is the whole set $\{0,1,2\}$, the vertices on the long edges are the 2-element subsets and the three extremal vertices are the singletons.
 
 ### For simplicial sets
 
