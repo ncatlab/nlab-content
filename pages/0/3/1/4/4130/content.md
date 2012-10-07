@@ -5,15 +5,19 @@
 
 ## Idea
 
-**Subdivision** is a (usually) functorial process which takes as input some combinatorial notion of space (for example, a [[simplicial complex]] or [[simplicial set]]) and produces as output a more finely meshed space. It is related to the notion of [[classical triangulation|classical subdivision]].
+**Subdivision** is an (often) functorial process which takes as input some combinatorial notion of space (for example, a [[simplicial complex]] or [[simplicial set]]) and produces as output a more finely meshed space. It is related to the notion of [[classical triangulation|classical subdivision]].
 
-There are various standard forms of subdivision, the most common of which is **barycentric subdivision**.
+There is a more general use of the term in which one simplicial set or complex is a subdivision of another, although the relation may not be functorially generated.  We will briefly look at one such example later.
+
+
+
+There are various standard forms of functorial subdivision, the most common of which is **barycentric subdivision**.
 
 ## Definition and Properties of Barycentric Subdivision.
 
 ### For simplicial complexes
 
-Barycentric ubdivision is easiest to define for [[simplicial complexes]].  We have a pair of [[functors]]
+Barycentric subdivision is easiest to define for [[simplicial complexes]].  We have a pair of [[functors]]
 
 $$SimpComplex \stackrel{\overset{U}{\to}}{\underset{Flag}{\leftarrow}} Pos$$ 
 
@@ -25,8 +29,15 @@ where
 
 The composite $Flag \circ U$ is called the **subdivision** $Sd$; it is an endofunctor of $SimpComplex$.  Note that the vertices of $Sd(X)$ are the simplices of $X$.  We also have ${|Sd(X)|} \cong {|X|}$, where $|-|$ is the usual [[geometric realization]] of simplicial complexes.
 
-For what is looks like, see below.
+This is what it looks like for $X$ the 2-simplex.
  
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26%26%26\\%26%26%26%26\\%26\ar[ruu]\ar[ldd]%26%26\ar[luu]\ar[rdd]%26\\%26%26\ar[lu]\ar[ru]\ar[lld]\ar[rrd]\ar[uuu]\ar[d]%26%26\\%26%26\ar[ll]\ar[rr]%26%26}" />
+
+
+
+The simplicial complex which is the 3-simplex has as its poset of simplices the set of non-empty subsets of $\{0,1,2\}$.  The subdivided simplex therefore is the flags of that poset. The diagram shows that nerve of the corresponding category, as this is the simplicial set that one gets from this. The central vertex is the whole set $\{0,1,2\}$, the vertices on the long edges are the 2-element subsets and the three extremal vertices are the singletons.
+
 ### For simplicial sets
 
 We can now define the barycentric subdivision of a [[simplicial set]] as follows.  [Recall](/nlab/show/simplicial+complex#vsSSet) that we can make any simplicial complex into a simplicial set.  If we do this for the standard $n$-simplex, which as a simplicial complex is the set $([n],P([n])$ for $[n] = \{0,1,\dots,n\}$, then we get the standard $n$-simplex simplicial set $\Delta^n$.  We can then define the subdivision of $\Delta^n$, as a simplicial set, to be the simplicial set corresponding to its simplicial-complex subdivision.  Finally, we can make this functorial on maps between standard simplices, and left [[Kan extension|Kan extend]] to a [[cocontinuous functor|cocontinuous]] endofunctor of $SSet$.
