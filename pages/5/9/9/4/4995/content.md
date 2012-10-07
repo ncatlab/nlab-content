@@ -30,7 +30,7 @@ $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd
 $$ 
 
-with $Disc$ and $coFisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
+with $Disc$ and $coDisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
 
 1. the existence of $coDisc$ induces a sub-[[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _[[concrete (∞,1)-sheaf|concrete objects]]_ that behave like [[∞-groupoid]]s _equipped with extra cohesive structure_ , such as with [[topology|continuous structure]], [[smooth structure]], etc.
 
