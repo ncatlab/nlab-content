@@ -54,6 +54,12 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[monoidal (∞,1)-category]]
 
+## Coherence theorems
+
+* [[coherence theorem for monoidal bicategories]]
+* [[coherence theorem for braided monoidal bicategories]]
+* [[coherence theorem for symmetric monoidal bicategories]]
+
 
 ## References
 
