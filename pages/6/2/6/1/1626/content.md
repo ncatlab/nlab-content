@@ -107,6 +107,8 @@ An important variation on the theme of connectedness is path-connectedness. If $
 The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") is thus the [[coequalizer]] in 
 $$ \hom([0, 1], X) \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} \hom(1, X) \to \pi_0(X) .$$ 
 
+Observe that this is a [[reflexive coequalizer]], as witnessed by the mutual right inverse $\hom(!, X): \hom(1, X) \to \hom([0, 1], X)$. 
+
 (We can even topologize $\pi_0(X)$ by taking the coequalizer in $Top$ of 
 
 $$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X,$$ 
@@ -140,6 +142,8 @@ $$\pi_0(\prod_i X_i) \to \prod_i \pi_0(X_i)$$
 
 is invertible. Define a relation $R$ from $\prod_i \pi_0(X_i)$ to $\pi_0(\prod_i X_i)$ where $R((c_i), [(x_i)])$ if $x_i \in c_i$ for all $i$. This is well-defined, because if $x_i \in c_i$ and $y_i \in c_i$ for all $i$, then for each $i$ we can choose a path $\alpha_i \colon I \to X_i$ connecting $x_i$ to $y_i$, and $\langle \alpha_i \rangle \colon I \to \prod_i X_i$ then connects $(x_i)$ to $(y_i)$. (This of course uses the [[axiom of choice]].) It is also total, again by the axiom of choice. It is straightforward that this functional relation is inverse to the comparison map above. 
 =-- 
+
+An elegant proof of the previous proposition but for preservation of _finite_ products is as follows: both $\hom(I, -)$ and $\hom(1, -)$ preserve products, and a [[reflexive coequalizer]] of product-preserving functors $C \to Set$, being a [[sifted colimit]], is also product-preserving. 
 
 +-- {: .un_prop} 
 ###### Proposition 
