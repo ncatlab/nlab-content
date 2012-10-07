@@ -77,13 +77,13 @@ $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
 
 In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
 
-For a topological space $X$, let $QConn(X)$ denote the set of quasi-components of $X$. This defines a functor $QConn \colon Top \to Set$. 
+For a topological space $X$, let $QConn(X)$ denote the set of quasi-components of $X$. This defines a functor $QConn \colon Top \to Set$. The following result recapitulates the manner in which $\sim_q$ was introduced above in terms of mappings to discrete spaces: 
 
 +-- {: .un_prop} 
 ###### Proposition 
 $QConn \colon Top \to Set$ is left adjoint to the [[discrete space]] functor $\Delta \colon Set \to Top$. 
 =-- 
-
+ 
 
 ## Locally connected space
 
