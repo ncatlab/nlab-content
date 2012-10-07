@@ -38,12 +38,12 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 ## Basic results {#basic}
 
-+-- {: .num_remark} 
++-- {: .num_remark #1} 
 ###### Result
 The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 =-- 
 
-+-- {: .num_remark} 
++-- {: .num_remark #2} 
 ###### Result
 [[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected. 
 =--
@@ -53,12 +53,12 @@ The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is co
 An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected object](http://ncatlab.org/nlab/show/connected+object#properties_14).)
 =--
 
-+-- {: .num_remark} 
++-- {: .num_remark #4} 
 ###### Result
 The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
 =--
 
-+-- {: .num_remark} 
++-- {: .num_remark #5} 
 ###### Result
 If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
 =--
@@ -134,7 +134,7 @@ $$\Pi_0 \dashv \Delta \dashv \Gamma \dashv \nabla \colon Set \to LocConn$$
 and moreover, the functor $\Pi_0$ preserves finite products. 
 =-- 
 
-The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0$ is essentially equivalent to the defining property of being locally connected. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
+The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0 X$ is essentially equivalent to the defining property of being locally connected. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
 
 $$X = \sum_i C_i; \qquad Y = \sum_j D_j;$$ 
 
@@ -172,11 +172,16 @@ taking advantage of the fact that the locally compact Hausdorff space $[0, 1]$ i
 
 We say $X$ is **path-connected** if it has exactly one path component.
 
-It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$). The **topologist's sine curve**
-$$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
-provides a classic example of this happenstance. However, the path components and connected components coincide if $X$ is locally path-connected.
+It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$); see the following example. The path components and connected components do coincide if $X$ is locally path-connected. 
 
-The basic categorical results 1., 2., and 3. above carry over upon replacing "connected" by "path-connected". (As of course does 4., trivially.)
++-- {: .num_example}
+###### Example 
+The **topologist's sine curve**
+$$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
+provides a classic example where the path component of a point need not be closed. (Specifically, consider a point on the locus of $y = \sin(1/x)$.) 
+=-- 
+
+The basic categorical Results \ref{1}, \ref{2}, and \ref{3} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{4}, trivially.)
 
 As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete! 
 
@@ -232,7 +237,7 @@ Examples of countable connected Hausdorff spaces were give in
 (1953), 474.
 {#Bing} 
 
-* Solomon W. Golomb, Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
+* Solomon W. Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
 {#Golomb}
 
 
