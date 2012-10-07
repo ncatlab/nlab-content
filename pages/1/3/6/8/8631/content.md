@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _coherence theorem for [[symmetric monoidal bicategories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
+
+1. Every diagram of constraint 2-cells in a free [[symmetric monoidal bicategory]] commutes.
+
+1. Every symmetric monoidal bicategory is equivalent to a strict symmetric monoidal bicategory.
+
+## References
+
+* [[Nick Gurski]] and [[Angelica Osorno]], "Infinite loop spaces, and 
+coherence for symmetric monoidal bicategories", [arXiv](http://arxiv.org/abs/1210.1174)
