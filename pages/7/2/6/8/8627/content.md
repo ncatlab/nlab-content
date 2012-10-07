@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _coherence theorem for [[symmetric monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
+
+1. Every diagram in a free [[symmetric monoidal category]] made up of [[associators]] and [[unitors]] and symmetries, and in which both sides have the same underlying [[permutation]], commutes.
+
+1. The free symmetric monoidal category on some given data is equivalent to the free [[symmetric strict monoidal category]] on the same data.
+
+1. Every symmetric monoidal category is symmetric-monoidally equivalent to a symmetric strict monoidal category.
+
+1. Every symmetric monoidal category is equivalent to an [[unbiased symmetric monoidal category]].
+
+1. The forgetful 2-functor $SymMonCat \to SymStrMonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $SymMonCat$.
+
+Note that in a symmetric strict monoidal category, the associators and unitors are identities, but the symmetry is not in general.
+
+
+## References
+
+* [[Saunders Mac Lane]], "Natural associativity and commutativity"
+
+* [[Andre Joyal]] and [[Ross Street]].  "Braided tensor categories".  *Adv. Math* 1993
