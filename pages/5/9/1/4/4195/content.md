@@ -19,9 +19,21 @@
 
 ## Idea
 
-The _coherence theorem for monoidal categories_ is the [[coherence theorem]] that asserts that the [[associativity]] [[coherence law]] is indeed satisfied in a  [[monoidal category]].
+The _coherence theorem for [[monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
 
-See
+1. Every diagram in a [[monoidal category]] made up of [[associators]] and [[unitors]] which is "formal" commutes.
+
+1. Every diagram in a *free* monoidal category made up of associators and unitors commutes.
+
+1. The free monoidal category on some given data is equivalent to the free [[strict monoidal category]] on the same data.
+
+1. Every monoidal category is monoidally equivalent to a strict monoidal category.
+
+1. Every monoidal category is equivalent to an [[unbiased monoidal category]].
+
+1. The forgetful 2-functor $MonCat \to StrMonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $MonCat$.
+
+## Proofs
 
 * [[Mac Lane's proof of the coherence theorem for monoidal categories]]
 
@@ -38,3 +50,9 @@ Formally, a *clique* in a category $C$ consists of a contractible groupoid $G$ a
 In any case, because $M$ is *embedded* in $M^{st}$, any diagram we are trying to prove commutative in $M$ is *physically there* in $M^{st}$, but any associativities and units in the diagram get absorbed into cliques, or rather: any such associativity is one of the components $F(g) \to F'(g')$ of, and uniquely determines, an identity morphism of cliques. Therefore any such associativity in $M$ is reinterpreted as an identity in $M^{st}$, and the diagram we are trying to prove commutative in $M$ uniquely generates a corresponding "larger" diagram of cliques in the strict monoidal category $M^{st}$. So it is enough to prove the diagram commutes when interpreted in a strict monoidal category: we can then interpret the result in $M^{st}$, and the original diagram in $M$, which is embedded in the clique diagram, is then automatically commutative as well. 
 
 One may have to practice visualizing this before it all sinks in, but it's a tremendously potent principle.
+
+## References
+
+* [[Saunders Mac Lane]], "Natural associativity and commutativity"
+
+* [[Andre Joyal]] and [[Ross Street]].  "Braided tensor categories".  *Adv. Math* 1993
