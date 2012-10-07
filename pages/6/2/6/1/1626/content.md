@@ -58,7 +58,7 @@ The following, due to Bing, is a countable connected [[Hausdorff space]]. Let $Q
 
 $$N_{a, b} \coloneqq \{(a, b)\} \cup \{(s, 0) \in Q: {|a + b/\theta - s|} \lt \epsilon\} \cup \{(s, 0) \in Q: {|a - b/\theta - s|} \lt \epsilon\}$$ 
 
-where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see this space is Hausdorff (using the fact that $\theta$ is irrational). However, the _closure_ of $N_{\epsilon, a, b}$ consists of points $(x, y)$ of $Q \times Q$ with either $\theta(x - \epsilon) \leq y \leq \theta(x + \epsilon)$ or $-\theta(x + \epsilon) \leq y \leq -theta(x - \epsilon)$, in other words, the union of two infinitely long strips of width $2\epsilon$ and slopes $\theta$, $-\theta$. Clearly any two such closures intersect, and therefore the space is connected. 
+where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see this space is Hausdorff (using the fact that $\theta$ is irrational). However, the _closure_ of $N_{\epsilon, a, b}$ consists of points $(x, y)$ of $Q \times Q$ with either $x - \epsilon \leq y/\theta \leq x + \epsilon$ or $x - \epsilon \leq -y/\theta \leq x + \epsilon)$, in other words, the union of two infinitely long strips of width $2\epsilon$ and slopes $\theta$, $-\theta$. Clearly any two such closures intersect, and therefore the space is connected. 
 =-- 
 
 ## Connected components
@@ -77,13 +77,6 @@ $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
 
 In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
 
-For a topological space $X$, let $QConn(X)$ denote the set of quasi-components of $X$. This defines a functor $QConn \colon Top \to Set$. The following result recapitulates the manner in which $\sim_q$ was introduced above in terms of mappings to discrete spaces: 
-
-+-- {: .un_prop} 
-###### Proposition 
-$QConn \colon Top \to Set$ is left adjoint to the [[discrete space]] functor $\Delta \colon Set \to Top$. 
-=-- 
- 
 
 ## Locally connected space
 
