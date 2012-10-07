@@ -1755,7 +1755,7 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 +-- {: .num_prop}
 ###### Proposition
 
-The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _pieces have points_ holds.
+The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _[pieces have points](/nlab/show/cohesive+topos#PiecesHavePoints)_ holds.
 
 =--
 
