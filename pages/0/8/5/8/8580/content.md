@@ -1828,7 +1828,7 @@ Let $\mathbf{H}$ be a [[local topos]]
 
 $$
   \mathbf{H}
-   \stackrel{\stackrel{Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoConst}{\leftarrow}}}
+   \stackrel{\stackrel{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}}
   \,.
 $$
 
@@ -1842,7 +1842,7 @@ $$
   \mathbf{H}
   \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
   \mathbf{H}
-  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coConst}{\to}}
+  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}
 $$
 
 for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $\flat$. We 
@@ -1853,19 +1853,36 @@ for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $
 
 =--
 
-* [[modal logic]]
+The term _modality_ refers to _[[modal logic]]_. (...)
 
-**sharp type** $\sharp A$ 
++-- {: .num_remark}
+###### Remark
 
-maps $X \to \sharp A$ can be arbitrarily kinky ("sharp")
+We refer to $\sharp A$ as the **sharp type** of $A$. 
+This may be thought of as referrin to the fact tha by [[adjunction]] a homomorphism
+$X \to \sharp A$ is equivalently a function
+$\Gamma X \to \Gamma A$ of the underlying sets. This means that smooth maps $X \to \sharp A$ are like maps into $A$ that do _not_ have to respect the cohesive structure on $A$, but instead 
+can be arbitrarily "kinky" ("sharp").
+
+=--
+
+This motivates the following terminology.
+
++-- {: .num_defn #Decohese}
+###### Definition
+
+We write
 
 $$
   DeCohese_X \colon X \to \sharp X
 $$
 
+For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adunction]].
+
+=--
 
 
-
+(...)
 
 
 
@@ -2130,7 +2147,7 @@ the **universal smooth [[moduli space]]** of differential $n$-forms.
 
 =--
 
-The reason for this term is that homomorphisms of smooth spaces into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]]):
+The reason for this terminology is that homomorphisms of smooth spaces into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]]):
 
 +-- {: .num_example}
 ###### Example
@@ -2288,9 +2305,14 @@ This statement is of course in a way a big tautology. Nevertheless it is a very 
  {#ConcreteObjects}
 
 The smooth universal moduli space of differential forms $\Omega^n(-)$
-from def. \ref{TheUniversalSmoothModuliSpaceOfDifferentialForms}
+from def. \ref{SmoothModuliSpaceOfnForms}
 is noteworthy in that it has a property not shared by 
-other smooth spaces: while evidently being "large" (the space of all differential forms!) it has "very few points" and "very few $k$-dimensional subspaces" for low $k$.  In fact for $k \lt n$ there is only a unique such
+many smooth spaces that one might think of more naively: while evidently being "large" (the space of all differential forms!) it has "very few points" and "very few $k$-dimensional subspaces" for low $k$.  In fact 
+
++-- {: .num_prop}
+###### Proposition
+
+For $k \lt n$ the smooth space $\Omega^n$ admits only a unique probe by $\mathbb{R}^k$:
 
 $$
   Hom(\mathbb{R}^k, \Omega^n(-))
@@ -2301,11 +2323,20 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Yoneda lemma]] a smooth morphism $\mathbb{R}^k \to \Omega^n$ is a [[differential n-form]] $\omega \in \Omega^n(\mathbb{R}^k)$. But for $n \gt k$ there is only the 0 element.
+
+=--
+
 So while $\Omega^n()$ is a large smooth space, it is "not supported on probes" in low dimensions in as much as one might expect, from more naive notions of smooth spaces.
 
 We now formalize this. The formal notion of an smooth space which _is_ supported on its probes is that of a _[[concrete object]]_. There is a univeral map that sends any smooth space to its _concretification_. The universal moduli spaces of differential forms turn out to be _non-concrete_ in that their concetrification is the point.
 
-+-- {: .num_defn}
++-- {: .num_defn #ConcreteObjectsAndConcretification}
 ###### Definition
 
 Let $\mathbf{H}$ be a [[local topos]]. Write $\sharp \colon \mathbf{H} \to \mathbf{H}$ for the corresponding sharp modality, def. \ref{SharpModalityOfLocalTopos}. Then. 
@@ -2318,7 +2349,7 @@ Let $\mathbf{H}$ be a [[local topos]]. Write $\sharp \colon \mathbf{H} \to \math
 
    is a [[monomorphism]].
 
-1. For $X \in \mathbf{H}$ any object, its  **concretification** $Conc(X) \in \mathbf{H}$ is the [[image]] factorization of $DeCohese_X$
+1. For $X \in \mathbf{H}$ any object, its  **concretification** $Conc(X) \in \mathbf{H}$ is the [[image]] factorization of $DeCohese_X$, hence the factorization into an [[epimorphism]] followed by a [[monomorphism]]
 
    $$
      DeCohese : X \to Conc(X) \hookrightarrow \sharp X
@@ -2334,7 +2365,7 @@ Hence the concretification $Conc(X)$ of an object $X$ is itself a [[concrete obj
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #DecohesOverASiteWithTerminalObject}
 ###### Proposition
 
 Let $C$ be a [[site]] of definition for the [[local topos]]
@@ -2366,68 +2397,113 @@ $$
 
 =--
 
-#### Smooth moduli space of differential forms on a smooth space
+In this sense the smooth moduli space of differential $n$-forms is _maximally non-concrete_.
+
+#### Smooth space of differential forms on a smooth space
+
+We discuss the smooth space of differential forms _on a fixed smooth space_ $X$. 
+
++-- {: .num_remark}
+###### Remark
+
+For $X$ a [[smooth space]], the smooth mapping space $[X, \Omega^n] \in Smooth0Type$ is the smooth space whose $\mathbb{R}^k$-plots are differential $n$-forms on the [[product]] $X \times \mathbb{R}^k$
 
 $$
-  \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n(-)])
+  [X, \Omega^n] \colon \mathbb{R}^k \mapsto \Omega^n(X \times \mathbb{R}^k)
+  \,.
 $$
+
+This is not _quite_ what one usually wants to regard as an $\mathbb{R}^k$-parameterized of differential forms on $X$. That is instead usually meant to be a differential form $\omega$ on $X \times \mathbb{R}^k$ which has "no leg along $\mathbb{R}^k$". Another way to say this is that the family of forms on $X$ that is represented by some $\omega$ on $X \times \mathbb{R}^k$ is that which over a point $v \colon * \to \mathbb{RR}^k$ has the value $(id_X,v)^* \omega$. Under this [[pullback of differential forms]] any components of $\omega$ with "legs along $\mathbb{R}^k$" are identified with the 0 differential form 
+
+=--
+
+This is captured by the following definition.
+
++-- {: .num_defn #SmoothSpaceOfFormsOnSmoothSpace}
+###### Definition
+
+For $X \in Smooth0Type$ and $n \in \mathbb{N}$, the **smooth space of differential $n$-forms** $\mathbf{\Omega}^n(X)$ on $X$ is the concretification, def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
+
+$$
+  \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n])
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The $\mathbb{R}^k$-plots of $\mathbf{\Omega}^n(\mathbb{R}^k)$
+are indeed smooth differential $n$-forms on $X \times \mathbb{R}^k$ which are such that their evaluation on vector fields tangent to $\mathbb{R}^k$ vanish.
+
+=--
+
++-- {: .proof}
+###### Proof (sketch)
+
+By def. \ref{Decohese}, def. \ref{ConcreteObjectsAndConcretification} and 
+prop. \ref{DecohesOverASiteWithTerminalObject} the set of plots of $\mathbf{\Omega}^n(X)$ over $\mathbb{R}^k$ is the [[image]] of the [[function]]
+
+$$
+  \Omega^n(X \times \mathbb{R}^k)
+  \simeq
+   Hom_{Smooth0Type}(\mathbb{R}^k, [X,\Omega^n])
+   \stackrel{\Gamma_{ \mathbb{R}^k, [X,\Omega^n] }}{\to}
+   Hom_{Set}(\Gamma(\mathbb{R}^k), \Gamma [X, \Omega^n])
+   \simeq
+   Hom_{Set}(\mathbb{R}^k_s, \Omega^n(X))
+  \,,
+$$
+
+where on the right $\mathbb{R}^k_s$ denotes, just for emphasis, the underlying set of $\mathbb{R}^k_s$. This function manifestly sends a smooth differential form $\omega \in \Omega^n(X \times \mathbb{R}^k)$ to the function from points $v$ of $\mathbb{R}^k$ to differential forms on $X$ given by
+
+$$
+  \omega \mapsto \left(v \mapsto  (id_X, v)^* \omega \right)
+  \,.
+$$
+
+Under this function all components of differential forms with a "leg along" $\mathbb{R}^k$ are sent to the 0-form. Hence the image of this function is the collection of smooth forms on $X \times \mathbb{R}^k$ with "no leg along $\mathbb{R}^k$".
+
+=--
 
 ### Layer Syn
  {#DifferentialFormsLayerSyn}
 
 #### Images
 
-* [[infinity-image]]
++-- {: .num_prop}
+###### Proposition
+
+Let a morphism $f \colon X \to Y$ in $\mathbf{H}$ be the [[categorical semantics]] of the [[syntax]]
+
+$$
+  x \colon X \; \vdash \; f(x) \colon Y
+  \,.
+$$
+
+Then the syntax for the [[infinity-image|image]] $i_f \colon im(f) \hookrightarrow Y$ is
+
+$$
+  \vdash i_f \colon \sum_{y \colon Y} \exists_{x \colon X} (f(x) = y)
+  \,,
+$$
+
+=--
+
+Here $\exists_{\cdots} \cdots =_{def} \left[ \sum_{\cdots} \cdot\right]$ is the [[bracket type]] of the [[dependent sum]].
+
+Accordingly the syntax for the smooth moduli space of differential $n$-forms, def. \ref{SmoothSpaceOfFormsOnSmoothSpace},
+on a smooth space $X$, 
 
 
 $$
-  \omega \colon [X, \Omega^n(-)] 
-  \;
-  \vdash 
-  \;
-  toSharp(\omega) \colon \sharp [X, \Omega^n(-)]
+  \sum_{\omega \colon \sharp [X, \Omega^n]}
+  \exists_{\lambda \colon [X,\Omega^n]}
+  (\omega = DeCohese(\lambda)) 
+  \,.
 $$
 
-smooth moduli space of differential $n$-forms:
-
-$$
-  \omega \colon \sharp [X, \Omega^n(-)]
-  \;
-   \vdash
-  \;
-  \left(
-   \left[
-     \sum_{\lambda \colon [X, \Omega^n(-)]}
-     (\omega = toSharp(\lambda))
-   \right]
-  \right)
-  \colon Type
-$$
-
-#### Concretification
-
-$$
-  \begin{aligned}
-    Conc \left( X \colon Type \right) \colon &  Type
-    \\
-    \coloneqq & \sum_{x \colon X} 
-  \end{aligned}
-$$
-
-
-$$
-  \begin{aligned}
-    Conc\;(X \colon Type) \colon & Type
-    \\
-    \coloneqq & 
-    \tilde x \colon \sharp X 
-    \;\vdash\;
-    \left(
-     \left[\sum_{x \colon X} (\tilde x = decohesed(x)) \right]
-    \colon Type
-    \right)
-  \end{aligned}
-$$
+(...)
 
 ## **Differentiation**
 
