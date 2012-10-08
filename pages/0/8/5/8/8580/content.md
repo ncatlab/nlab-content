@@ -1847,8 +1847,9 @@ $$
   \;
   \mathbf{H}
   \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
-  \mathbf{H}
+  \, .
   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}
+  \, .
 $$
 
 for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $\flat$. We 
@@ -1865,7 +1866,7 @@ The term _modality_ refers to _[[modal logic]]_. (...)
 ###### Remark
 
 We refer to $\sharp A$ as the **sharp type** of $A$. 
-This may be thought of as referrin to the fact tha by [[adjunction]] a homomorphism
+This may be thought of as referring to the fact that by [[adjunction]] a homomorphism
 $X \to \sharp A$ is equivalently a function
 $\Gamma X \to \Gamma A$ of the underlying sets. This means that smooth maps $X \to \sharp A$ are like maps into $A$ that do _not_ have to respect the cohesive structure on $A$, but instead 
 can be arbitrarily "kinky" ("sharp").
@@ -1919,7 +1920,7 @@ where $I \hookrightarrow \mathbb{R}$ is the standard unit [[interval]].
 
 Such [[action functionals]] we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
 
-Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a rajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is assitive
+Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a rajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is additive
 
 $$
   S(\gamma) = S(\gamma_1) + S(\gamma_2)
