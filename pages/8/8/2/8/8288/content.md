@@ -1453,13 +1453,13 @@ If now $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resoluti
 
 ## Examples
 
-### Length-1 resolutions of abelian groups
+### Length-1 resolutions
  {#Lenght1ResolutionsOfAbelianGroups}
 
 +-- {: .num_prop }
 ###### Proposition
 
-Assuming the [[axiom of choice,]],
+Assuming the [[axiom of choice]],
 over $R = \mathbb{Z}$ hence in $R Mod = $ [[Ab]] every object $A$ has a [[projective resolution]], even a  [[free resolution]], of length 1, hence a [[short exact sequence]]
 
 $$
@@ -1476,6 +1476,8 @@ with $F_1$ and $F_0$ being [[free abelian groups]].
 By the discussion at [free modules - submodules of free modules](free+module#SubmodulesOfFreeModules) a [[subgroup]] of a [[free abelian group]] is again free. Therefore for $p \colon F_0 \to A$ the surjection out of the free group $F_0 \coloneqq F(U(A))$ on the underlying set of $A$, setting $F_1 \coloneqq ker(p)$ yields the desired short exact sequence.
 
 =--
+
+The same argument holds true for $R$ any [[principal ideal domain]].
 
 ### Projective resolutions adapted to group cocycles
  {#ProjectiveResolutionsForGroupCocycles}
