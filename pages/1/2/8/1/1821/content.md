@@ -97,6 +97,15 @@ Similarly for [[direct sum]].
 
 =--
 
+### Respect for direct sums and filtered colimits
+ {#RespectForDirectSum}
+
++-- {: .num_prop }
+###### Proposition
+
+The chain homology functor preserves [[direct sums]].
+
+=--
 
 ## Examples
 
