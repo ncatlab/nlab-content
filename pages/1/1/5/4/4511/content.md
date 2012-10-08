@@ -116,7 +116,7 @@ For instance ([Weibel, theorem 2.7.2](#Weibel)).
 
 An [[abelian group]] is called _[[torsion]]_ if its elements are "nilpotent", hence if all its elements have finite [[order]].
 
-+-- {: .num_prop}
++-- {: .num_defn}
 ###### Definition
 
 For $A \in $ [[Ab]] and $p \in \mathbb{N}$, write
