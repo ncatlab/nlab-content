@@ -150,6 +150,56 @@ This definition is independent, up to [[natural isomorphism]], of the choice of 
 ## Properties
  {#Properties}
 
+### In degree 0
+
++-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
+###### Proposition
+
+Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[left exact functor]] in the presence of [[injective object|enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[natural isomorphism]]
+
+$$
+  R^0F(X) \simeq F(X)
+  \,.
+$$
+
+Dually, of $F$ is a [[right exact functor]] in the presence of [[projective object|enough projectives]], then 
+
+$$
+  L_0 F(X) \simeq F(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first statement, the second is formally dual. 
+
+By the discussion there, an [[injective resolution]] $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[exact sequence]] of the form
+
+$$
+  0 \to X \hookrightarrow X^0 \to X^1 \to \cdots
+  \,.
+$$
+
+If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+
+$$
+  0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
+$$
+
+is an exact sequence. But this means that 
+
+$$
+  R^0 F(X) \coloneqq ker(F(X^0) \to F(X^1)) \simeq F(X)
+  \,.
+$$
+
+=--
+
+
+
 ### Derived adjoint functors
 
 +-- {: .num_note}
@@ -185,6 +235,7 @@ A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]
 =--
 
 ### Long exact sequence of a derived functor
+ {#LongExactSequence}
 
 +-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 ###### Proposition
