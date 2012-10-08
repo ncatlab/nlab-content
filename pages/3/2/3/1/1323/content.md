@@ -1,6 +1,26 @@
-# Definition #
 
-A [[category]] $C$  with finite [[product]]s and [[coproduct]]s is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical morphism
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition 
+
+A [[category]] $C$  with finite [[products]] and [[coproducts]] is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
 $$ X\times Y + X\times Z \to X\times (Y+Z)$$
 is an isomorphism.  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.  
 
@@ -12,7 +32,13 @@ A category $C$ with finite products and all small coproducts is **infinitary dis
 
 Any [[extensive category]] is distributive, but the converse is not true.
 
-# References #
+## Related concepts
+
+* [[distributive law]]
+
+* [[bipermutative category]]
+
+## References 
 
 * Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2
 
