@@ -79,7 +79,7 @@ Other related texts include
 
 * W. Magnus, A. Karras, D. Solitar, _Combinatorial group theory_
 
-* R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
+* R. Lyndon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
 The groupoid version and a lot of related results are given in 
 
