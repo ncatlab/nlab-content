@@ -100,9 +100,9 @@ and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] 
 ###### Example
 For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
 
-$$X = \{(0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1] \bigcup [0, 1] \times \{0\}$$ 
+$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
 
-In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = X$. The space $X$ is called the **deleted comb space**. 
+In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0, 1)\}$.  
 =-- 
 
 
@@ -121,7 +121,7 @@ It is not generally true that a space is the coproduct (in $Top$) of its connect
 A space $X$ is **locally connected** if every open set, as a topological space, is the coproduct (in $Top$) of its connected components. Equivalently, a space is locally connected if every point has a neighborhood basis of connected open sets. 
 =-- 
 
-In a locally connected space, every connected component $S$ is clopen; in particular, connected components and quasi-components coincide. We warn that connected spaces need not be locally connected; for example, the deleted comb space of Example \ref{comb} is connected but not locally connected. 
+In a locally connected space, every connected component $S$ is clopen; in particular, connected components and quasi-components coincide. We warn that connected spaces need not be locally connected; for example, the topologist's sine curve of Example \ref{sine} is connected but not locally connected. 
 
 Examples of locally connected spaces include [[manifold|topological manifolds]]. 
 
@@ -183,7 +183,7 @@ We say $X$ is **path-connected** if it has exactly one path component.
 
 It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$); see the following example. The path components and connected components do coincide if $X$ is locally path-connected. 
 
-+-- {: .num_example}
++-- {: .num_example #sine}
 ###### Example 
 The **topologist's sine curve**
 $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
