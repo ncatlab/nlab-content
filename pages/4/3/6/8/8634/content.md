@@ -1,0 +1,58 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _localization_ of a [[ring]] $R$ at a [[set]] $S$ of its [[elements]] is a new ring $R[S]^{-1}$ in which the elements of $S$ become invertible ([[unit|units]]) and which is [[universal property|universal]] with this property.
+
+When interpreting a ring under [[Isbell duality]] as the ring of functions on some [[space]] $X$, then localizing it at $S$ corresponds to restricting to the subspace $Y \hookrightarrow X$ on which the elements in $S$ vanish.
+
+## Definition
+
+Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[subset]] of the underlying set.
+
++-- {: .num_defn }
+###### Definition
+
+The **localization** $L_S \colon R \to R[S^{-1}]$ is a homomorphism to another commutative ring $R[S^{-1}]$ such that 
+
+1. for all elements $s \in S \hookrightarrow R$ the image $L_S(s) \in R[S^{-1}]$ is invertible (is a [[unit]]);
+
+1. for every other homomorphism $R \to \tilde R$ with this property, there is a unique [[homomorphism]] $R[S^{-1}] \to \tilde R$ such that we have a [[commuting diagram]]
+
+   $$
+     \array{
+       R &\stackrel{L_S}{\to}& R[S^{-1}]
+       \\
+       & \searrow & \downarrow
+       \\
+       && \tilde R
+     }
+     \,.
+   $$
+
+=--
+
+## Related concepts
+
+* [[localization of a module]]
+
+* [[localization of a category]]
+
+
+[[!redirects localizations of a commutative ring]]
+[[!redirects localization of a ring]]
+[[!redirects localizations of a ring]]
