@@ -150,23 +150,30 @@ Suppose that $1$ is (externally) projective in $E$. Then $E$ satisfies PAx whene
 ###### Remark 
 It seems internal PAx does not follows from external PAx (counterexample?). However, if _every_ object is projective (AC), then every object is internally projective (IAC). 
 
-A stronger version of PAx may be worth considering. Say that an object is **stably projective** if its pullback to any slice category is projective. Then stably projective objects are internally projective. Similarly, if we say that a topos $E$ satisfies stable PAx if every object is covered by a stably projective object, then a topos satisfies internal PAx if it satisfies stable PAx. 
+A stronger version of PAx may be worth considering. Say that an object is **stably projective** if its pullback to any slice category is projective. Then stably projective objects are internally projective (proof?). Similarly, if we say that a topos $E$ satisfies stable PAx if every object is covered by a stably projective object, then a topos satisfies internal PAx if it satisfies stable PAx. 
 =--
 
 
 +-- {: .num_example}
 ###### Example
 
-Every [[presheaf topos]] has enough projectives, since any coproduct of representables is projective, and therefore it validates internal COSHEP.  
+Every [[presheaf topos]] $Set^{C^{op}}$ has enough projectives, since any coproduct of representables is projective. If in addition $C$ has binary products, then representables are also internally projective, and so are arbitrary coproducts of representables (at least assuming $Set$ satisfies the [[axiom of choice]], since this implies that an arbitrary cartesian product of epimorphisms in $Set^{C^{op}}$ is again an epimorphism). In that case, $Set^{C^{op}}$ validates internal PAx.  
 
 =--
 
-In contrast, any topos that violates countable choice, of which there are plenty, must also violate internal COSHEP.  (Note that the terminal object of any topos is *internally* projective, so the proof above that COSHEP implies CC goes through.)
++-- {: .num_example}
+###### Example 
+In contrast, any topos that violates countable choice, of which there are plenty, must also violate internal PAx.  (Note that the terminal object of any topos is *internally* projective, so the proof above that PAx implies CC goes through.) 
+=-- 
+
++-- {: .num_example} 
+###### Example 
+Also in contrast, not every presheaf topos validates internal PAx, even though every presheaf topos validates external PAx. As an example, let $C$ be the category where $Ob(C)$ is the disjoint sum $\mathbb{N} \cup \{a, b\}$, and preordered by taking the reflexive transitive closure of relations $n \leq n+1$, $n \leq a$, $n \leq b$. The claim is that neither $C(-, a)$, nor any presheaf $P$ that maps epimorphically onto $C(-, a)$, can be internally projective. Indeed, consider the presheaf $F$ defined by $F(a) = F(b) = \emptyset$ and $F(n) = (-\infty, -n]$, with $F(n+1 \to n)$ the evident inclusion. Let $G$ be the support of $F$, so that we have an epi $e \colon F \to G$. Then it may be shown that for any $P$ covering $C(-, a)$, the set $F^P(b)$ is empty and the set $G^P(b)$ is nonempty, so that the map $e^P \colon F^P \to G^P$ cannot be epic. 
+=-- 
 
 +-- {: .num_example}
 ###### Example
-
-An interesting example of a topos that has enough projectives and thus does satisfy internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]].  
+(To be checked.) An interesting example of a topos that has enough projectives and (allegedly) satisfies internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]].  
 
 =--
 
