@@ -254,10 +254,12 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
   * [[injective module]]
 
 * [[free object]], [[free resolution]]
- 
+
+  * [[free module]], [[locally free module]]
 
 * flat object, [[flat resolution]]
 
+  * [[flat module]]
 
 * [[free module]] $\Rightarrow$ **projective module** $\Rightarrow$ [[flat module]] $\Rightarrow$ [[torsion-free module]]
 
