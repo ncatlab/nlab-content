@@ -33,6 +33,8 @@ Every [[symmetric monoidal category|symmetric]] [[bimonoidal category]] is equiv
 
 ## Related concepts
 
+* [[distributive category]]
+
 * [[K-theory of a bipermutative category]]
 
 * [[BDR 2-vector bundle]]
