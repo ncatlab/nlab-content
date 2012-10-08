@@ -44,6 +44,10 @@ Here $K$ is _a subgroup of $G$_.
 
 * [[generalized Fitting subgroup]]
 
+## Properties
+
+Every subgroup of a [[free group]] is itself free. This is the statement of the _[[Nielsen-Schreier theorem]]_.
+
 ## Related concepts
 
 * [[Klein geometry]], [[Cartan geometry]]
