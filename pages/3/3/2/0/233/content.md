@@ -25,7 +25,7 @@ But nothing in the definition of [[vector space]] really depends on the fact tha
 
 This is the traditional and maybe most common notion of modules. But the basic notion is easily much more general.
 
-### Motivation for and role of of modules: generalized vector bundles
+### Motivation for and role of modules: generalized vector bundles
  {#RelationToVectorBundlesInIntroduction}
 
 The theory or monoids or rings and their modules, its "meaning" and usage, is naturally understood via the [[Isbell duality|duality]] between [[algebra]] and [[geometry]]:
