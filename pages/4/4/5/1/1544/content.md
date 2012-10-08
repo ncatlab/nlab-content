@@ -87,7 +87,7 @@ from the [[path groupoid]] of $X$ to the [[Atiyah Lie groupoid]] of $P$ that is 
 
 The functor $tra$ is called the **[[parallel transport]]** of the connection. This terminology comes from looking at the orbits of all points in $P$ under $tra$ (i.e. from looking at the [[category of elements]] of $tra$): these trace out paths in $P$ sitting over paths in $X$ and one thinks of the image of a point $p \in P_x$ under $tra(\gamma)$ as the result of propagating $p$ parallel to these curves in $P$. 
 
-**Flat connctions**
+**Flat connections**
 
 It may happen that the assignment $tra : \gamma \mapsto tra(\gamma)$ only depends on the [[homotopy]] class of the path $\gamma$ relative to its endpoints $x, y$. In other words: that $tra$ factors through the functor $P_1(X) \to \Pi_1(X)$ from the [[path groupoid]] to the [[fundamental groupoid]] of $X$. In that case the connection is called a **flat connection**.
 
