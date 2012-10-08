@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[module]] over a [[ring]] $R$ is called _flat_ if its satisfies one of many equivalent conditions, the simplest to state of which is maybe: forming the [[tensor product of modules]] with $N$ preserves [[submodules]].
+
+Under the dual geometric interpretation of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the ring of functions, flatness of a module is essentially the _local triviality_ of these bundles, hence in particular the fact that the [[fibers]] of these bundles do not change, up to isomorphism. See prop. \ref{ForFinitelyGeneratedFlatIsLocallyFree} below for the precise statement. On the other hand there is **no** relation to "flat" as in [[flat connection]] on such a bundle.
+
 ## Definition
 
 ### In terms of exact functors
@@ -198,7 +204,26 @@ This observation (Wraith, Blass) can be put into the more general context of mod
 
 ### Equivalent characterizations
 
++-- {: .num_prop}
+###### Proposition
+
 A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
+
+=--
+
++-- {: .num_defn #LocallyFreeModule}
+###### Definition
+
+An $R$-module $N$ over a [[Noetherian ring]] $R$ is called a **locally free module** if for every [[maximal ideal]] $I \hookrightarrow R$ the [[localization of a module|localization]] $N_I$ is a [[free module]] over the [[localization of a ring|localization]] $R_I$. 
+
+=--
+
++-- {: .num_prop #ForFinitelyGeneratedFlatIsLocallyFree}
+###### Proposition
+
+For $R$ a [[Noetherian ring]] and $N$ a [[finitely generated module]] over $R$, $N$ is flat precisely if it is [[locally free module]], def. \ref{LocallyFreeModule}.
+
+=--
 
 
 ## Related concepts
