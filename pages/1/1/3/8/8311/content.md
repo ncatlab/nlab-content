@@ -59,6 +59,7 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 ## Properties
 
 ### Monoidal category structure
+ {#MonoidalCategoryStructure}
 
 The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ becomes a [[monoidal category]]. 
 
