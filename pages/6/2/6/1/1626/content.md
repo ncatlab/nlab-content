@@ -18,7 +18,7 @@ A [[space]] is __connected__ if it can\'t be split up into two independent parts
 
 Every topological space can be decomposed into disjoint maximal connected subspaces, called its __connected components__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
 
-One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (see _locally connected spaces_ below).
+One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _locally connected spaces_; see below). 
 
 
 ## Definitions 
@@ -88,7 +88,7 @@ This example is due to [Golomb](#Golomb). Topologize the set of natural numbers 
 
 ## Connected components
 
-Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from the basic results above that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by one of the basic results above. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
+Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from Result \ref{2} that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by Result \ref{5}. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
 There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that 
 
@@ -96,11 +96,14 @@ $$Conn(x) \subseteq QConn(x)$$
 
 and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]). 
 
++-- {: .num_example #comb} 
+###### Example
 For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
 
-$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
+$$X = \{(0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1] \bigcup [0, 1] \times \{0\}$$ 
 
-In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
+In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = X$. The space $X$ is called the **deleted comb space**. 
+=-- 
 
 
 ## Locally connected spaces
@@ -115,19 +118,21 @@ It is not generally true that a space is the coproduct (in $Top$) of its connect
 
 +-- {: .un_defn}
 ###### Definition 
-A space $X$ is **locally connected** if it is the coproduct (in $Top$) of its connected components. Equivalently, a space is locally connected if every point has a connected neighborhood. 
+A space $X$ is **locally connected** if every open set, as a topological space, is the coproduct (in $Top$) of its connected components. Equivalently, a space is locally connected if every point has a neighborhood basis of connected open sets. 
 =-- 
 
-For example, a space with only finitely many connected components is locally connected (because then each connected component will be both closed and open). [[manifold|Topological manifolds]] are also locally connected. Notice that for locally connected spaces, connected components and quasi-components coincide. 
+In a locally connected space, every connected component $S$ is clopen; in particular, connected components and quasi-components coincide. We warn that connected spaces need not be locally connected; for example, the deleted comb space of Example \ref{comb} is connected but not locally connected. 
+
+Examples of locally connected spaces include [[manifold|topological manifolds]]. 
 
 Let $i \colon LocConn \hookrightarrow Top$ be the full inclusion of locally connected spaces. The following result is straightforward but useful. 
 
 +-- {: .num_theorem #coref} 
 ###### Theorem 
-$LocConn$ is a coreflective subcategory of $Top$, i.e., the inclusion $i$ has a right adjoint $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$, topologized as the coproduct (in $Top$) of the connected components of $X$. 
+$LocConn$ is a coreflective subcategory of $Top$, i.e., the inclusion $i$ has a right adjoint $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$, topologized by letting connected components of open subspaces of $X$ generate a topology. 
 =-- 
 
-Being a coreflective category of a complete and cocomplete category, the category $LocConn$ is also complete and cocomplete. Of course, limits and particularly _infinite_ products in $LocConn$ are not calculated as they are in $Top$; rather one takes the limit in $Top$ and _then_ retopologizes it according to \ref{coref}. (For _finite_ products of locally connected spaces, we can just take the product in $Top$ -- the result will be again locally connected.) 
+Being a coreflective category of a complete and cocomplete category, the category $LocConn$ is also complete and cocomplete. Of course, limits and particularly _infinite_ products in $LocConn$ are not calculated as they are in $Top$; rather one takes the limit in $Top$ and _then_ retopologizes it according to Theorem \ref{coref}. (For _finite_ products of locally connected spaces, we can just take the product in $Top$ -- the result will be again locally connected.) 
 
 Let $\Gamma \colon LocConn \to Set$ be the underlying set functor, and let $\nabla, \Delta \colon Set \to LocConn$ be the functors which assign to a set the same set equipped with the codiscrete and discrete topologies, respectively. Let $\Pi_0 \colon LocConn \to Set$ be the functor which assigns to a locally connected space the set of its connected components. 
 
@@ -138,7 +143,7 @@ $$\Pi_0 \dashv \Delta \dashv \Gamma \dashv \nabla \colon Set \to LocConn$$
 and moreover, the functor $\Pi_0$ preserves finite products. 
 =-- 
 
-The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0 X$ is essentially equivalent to the defining property of being locally connected. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
+The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0 X$ is immediate from a locally connected space's being the coproduct of its connected components. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
 
 $$X = \sum_i C_i; \qquad Y = \sum_j D_j;$$ 
 
@@ -148,7 +153,7 @@ $$X \times Y \cong \sum_{i, j} C_i \times D_j$$
 
 where each summand $C_i \times D_j$ is connected by Result \ref{3}. From this it is immediate that $\Pi_0$ preserves finite products. 
 
-For related discussions, see [[locally connected topos]], and also [[cohesive topos]]. 
+The category of [[sheaf topos|sheaves]] on a locally connected space is a [[locally connected topos]]. For related discussions, see also [[cohesive topos]]. 
 
 Finally, 
 
