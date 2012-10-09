@@ -73,6 +73,7 @@ See [[adjoint monad]] for more.
 In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoints and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad.
 
 ### Fully faithful adjoint triples
+ {#FullyFaithFulAdjointTriples}
 
 +-- {: .num_prop #FullyFaithful}
 ###### Proposition
