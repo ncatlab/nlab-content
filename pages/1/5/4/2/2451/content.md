@@ -1,8 +1,69 @@
 
-Given a [[quiver]]/[[graph]] $D$, that is, a collection of vertices and of labeled arrows between them, the **free groupoid $G(D)$ on $D$** is the [[category]] -- in fact the [[groupoid]] -- that has the vertices of $D$ as [[object]]s, and whose [[morphism]]s are constructed recursively by formal composition (i.e., juxtaposition) from identity maps, the arrows of $D$ and formal [[inverse]]s for the arrows of $D$. The only relations between morphisms of $G(D)$ are the necessary ones defining the [[identity]] of each object, the [[inverse]] of each arrow in $D$ and the associativity of composition. This is clearly a groupoid, which comes with an evident morphism $D \to G(D)$ of quivers. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _free groupoid_ on a [[directed graph]] is the [[groupoid]] whose [[objects]] are the vertices of the graph and whose morphisms are finite concatenations of the edges in the graph and formal inverses to them. 
+
+This construction is the [[left adjoint]] [[free construction]] to the [[forgetful functor]] that sends a groupoid to its underlying [[directed graph]].
+
+## Definition
+
+Given a [[graph]] $D$, that is, a collection of vertices and of labeled arrows between them, the **free groupoid $G(D)$ on $D$** is the [[groupoid]] that has the vertices of $D$ as [[objects]], and whose [[morphisms]] are constructed recursively by formal composition (i.e., juxtaposition) from identity maps, the arrows of $D$ and formal [[inverses]] for the arrows of $D$. 
+
+The only relations between morphisms of $G(D)$ are the necessary ones defining the [[identity]] of each object, the [[inverse]] of each arrow in $D$ and the associativity of composition. This is clearly a groupoid, which comes with an evident morphism $D \to G(D)$ of quivers. 
 
 The above sketched construction could be made more precise, but what really matters is the [[universal property]] it enjoys: the free groupoid $G(D)$ is the universal ([[initial object|initial]]) [[groupoid]] mapping out of $D$. By varying $D$, the free groupoid yields a [[functor]] $G$ from [[directed graph]]s to [[groupoid]]s, [[left adjoint]] to the forgetful functor. 
 
 This last conceptual characterization is best taken as the definition. Similarly, it is possible to construct the left adjoint to the forgetful functor from groupoids to categories, that is the **free groupoid over a category**.
 
-See also the [[free category]] on a quiver.
+## Properties
+
+### Fundamental group
+ {#FundamentalGroup}
+
++-- {: .num_prop}
+###### Proposition
+
+The [[fundamental group]] of a free groupoid on a [[countable set|countable]] [[directed graph]] (for any basepoint) is a [[free group]].
+
+=--
+
+For instance ([Cote, theorem 2.3](#Cote)).
+
++-- {: .num_example}
+###### Example
+
+The [[fundamental group]] of the free groupoid of a graph with a single vertect is the [[free group]] on the set of edges of the graph.
+
+=--
+
+## Related concepts
+
+* [[free category]]
+
+* [[Nielsen-Schreier theorem]]
+
+## References
+
+* Lauren Cote, _Free groups and graphs: the Hanna Neumann theorem_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Cote.pdf))
+ {#Cote}
+
+[[!redirects free groupoids]]
