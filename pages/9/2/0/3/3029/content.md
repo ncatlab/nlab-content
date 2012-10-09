@@ -20,7 +20,9 @@
 
 ## Idea
 
-A _group extension_ of a [[group]] $G$ by a group $A$ is third group $\hat G$ that sits in an [[fiber sequence]] $A \to \hat G \to G$.
+A _group extension_ of a [[group]] $G$ by a group $A$ is third group $\hat G$ that sits in an [[fiber sequence]] $A \to \hat G \to G$ where $A \to \hat G$ is [[normal subgroup|normal]] and $\hat G \to G$ exhibits the [[quotient]] $G \simeq \hat G \sslash A$.
+
+This means that $\hat G$ is a group which is an $A$-[[fiber bundle]] over $G$. In def. \ref{GroupExtension} below we say this again precisely for ordinary groups, for which there are various equivalent characterizations, some of them more traditional than the above. The above however immediately generalizes to _[[∞-group extensions]]_. 
 
 
 ## Definition
@@ -84,7 +86,7 @@ For $A \hookrightarrow \hat G \to G$ a group extension, the inclusion $A \hookri
 +-- {: .proof}
 ###### Proof
 
-We need to check that for all $a \in A \hookrightarrow G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $\hat G$ is again in $A \stackrel{i}{\hookrightarrow} \hat G$. 
+We need to check that for all $a \in A \hookrightarrow \hat G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $\hat G$ is again in $A \stackrel{i}{\hookrightarrow} \hat G$. 
 
 Since $p : \hat G \to G$ is a group homomorphism we have that 
 
