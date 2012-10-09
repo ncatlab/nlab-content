@@ -150,5 +150,8 @@ For instance section 1.4 of
 [[!redirects split exact sequences]]
 [[!redirects split sequences]]
 
+[[!redirects split short exact sequence]]
+[[!redirects split short exact sequences]]
+
 [[!redirects splitting lemma]]
 
