@@ -1,0 +1,5 @@
+Manuel Bullejos is a Spanish mathematician based in Granada.
+
+* [Home page](http://www.ugr.es/~bullejos/)
+
+category:people
