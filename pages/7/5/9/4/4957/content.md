@@ -18,6 +18,8 @@
 
 ## Definition
 
+### Local geometric morphism and relative local topos
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -59,7 +61,26 @@ $$
 
 to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]]/[[discrete object]] and $Codisc$ the [[codiscrete space]]/[[codiscrete object]] on an object in $S$.
 
-This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed.
+This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed. Hence in that case we the following simpler definition
+
+### Local topos
+ {#LocalTopos}
+
++-- {: .num_defn}
+###### Definition
+
+A [[sheaf topos]] $\mathcal{T}$ is a **local topos** if the [[global section]] [[geometric morphism]] $\mathcal{T} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}} Set$ has a further [[right adjoint]] functor $(LConst \vdash \Gamma \vdash CoDisc)$
+
+$$
+  CoDisc \colon Set \hookrightarrow \mathcal{T}
+$$ 
+
+which is furthermore a [[full and faithful functor]].
+
+=--
+
+
+
 
 
 ## Properties
@@ -305,7 +326,7 @@ $$
 
 is an [[isomorphism]].
 
-Composing this morphism with $coDisc$ of the $(Disc \dashv\Gamma)$-unit on $\Gamma X$ (which is an [[isomorphism]] since $Disc$ is a [[full and faithful functor]] by the discussion at [[adjoint triple]]) and using the $(Disc \dashv \Gamma)$ [[triangle identity]] we have 
+Composing this morphism with $CoDisc$ of the $(Disc \dashv\Gamma)$-unit on $\Gamma X$ (which is an [[isomorphism]] since $Disc$ is a [[full and faithful functor]] by the discussion at _[fully faithful adjoint triples](adjoint+triple#FullyFaithFulAdjointTriples)_) and using the $(Disc \dashv \Gamma)$ [[triangle identity]] we have 
 
 $$
   coDisc(
@@ -399,10 +420,106 @@ This is ([Awodey-Birkedal, theorem 3.1](#AwodeyBirkedal)) together with the disc
 ## Examples
 
 ### Easy examples
+ {#EasyExamples}
 
-* If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]], i.e. a point whose only [[neighborhood]] is the whole space.
++-- {: .num_example #PresheafToposOverSiteWithTerminal}
+###### Example
 
-* If $C$ is a small category with a [[terminal object]], then the [[presheaf topos]] $[C^{op},Set]$ is local.  The converse is true if $C$ is [[Cauchy complete category|Cauchy complete]].
+If $C$ is a [[small category]] with a [[terminal object]] $* \in C$, then the [[presheaf topos]] $[C^{op},Set]$ is a local topos.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that $Set \simeq [*,Set]$ is the presheaf topos over the point category, the category with a single object and a single morphism. Therefore the constant presheaf functor
+
+$$
+  Const : Set \to [C^{op}, Set]
+$$
+
+can be thought of as sending a set $S \in Set$, hence a functor $S : * \to Set$ to the composite functor 
+
+$$
+  Const(S) \colon C \to * \stackrel{S}{\to} Set
+  \,.
+$$
+
+Notice that in the presence of a terminal object in $C$, $Const$ is a [[full and faithful functor]]: a [[natural transformation]] $Const(S_1) \to Const(S_2)$ has components
+
+$$
+  \array{
+    S_1 = & Const(S_1)(*) &\stackrel{f}{\to}& Const(S_2)(*) & = S_2
+    \\
+    & \downarrow^{\mathrm{id}} && \downarrow^{\mathrm{id}}
+    \\
+    & Const(S_1)(U) &\to& Const(S_2)(U)
+  }
+$$
+
+where the vertical morphisms are $Const(U \to *)$, the point being that they exist for every $U \in C$ given the presence of the terminal object. It follows that such a natural transformation is given by any and one and the same [[function]] $f \colon S_1 \to S_2$.
+
+Notice next that a [[right adjoint]] to $\Gamma \colon [C^{op}, Set]\to Set$ certainly exists. We can compute it by the  [[Yoneda lemma]] and using the defining Hom-isomorphism of adjoints to be the functor $CoDisc \colon Set \to [C^{op}, Set]$ such that for $S \in Set$ the presheaf $CoDisc(S)$ is given over $U \in C$ by
+
+$$
+  \begin{aligned}
+   CoDisc(S)(U) & \underoverset{Yoneda}{\simeq}{\to} Hom_{[C^{op}, Set]}(U,CoDisc(S))
+    \\
+    & \underoverset{adjunction}{\simeq}{\to} Hom_{Set}(\Gamma(U), S)
+    \,.
+  \end{aligned}
+$$
+
+So we have an [[adjoint triple]] $(Const \vdash \Gamma \vdash CoDisc)$ where $Const$ is a [[full and faithful functor]]. By the discussion at _[fully faithful adjoint triples](adjoint+triple#FullyFaithFulAdjointTriples)_ it follows then that also $CoDisc$ is full and faithful.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It is worthwhile to expand on the basic structure of the local presheaf topos $[C^{op}, Set]$ above a bit more. 
+
+Notice that the functor $Const$ has a [[left adjoint]] and a [[right adjoint]], and these are -- essentially by definition -- the [[colimit]] and the [[limit]] operations
+
+$$
+  (\underset{\leftarrow}{\lim} \vdash Const \vdash \underset{\to}{\lim})
+$$
+
+which send a presheaf/functor $F \colon C^{op} \to Set$ to its [[colimit]] $\underset{\leftarrow}{\lim} F \in Set$ or [[limit]] $\underset{\to}{\lim} F \in Set$, respectively. 
+
+Since adjoints are essentially unique, it follows that the [[global section]] functor $\Gamma \colon [C^{op}, Set]$ is given by taking the limit, $\Gamma \simeq \underset{\to}{\lim}$. 
+
+Notice then that the [[terminal object]] $* \in C$ is the [[initial object]] in the [[opposite category]] $C^{op}$. But the limit over a [[diagram]] with initial object is given simply by evaluation at that object, and so we have for any $F \in [C^{op}, Set]$ that
+
+$$
+  \begin{aligned}
+    \Gamma(F) & \simeq \underset{\to}{\lim} F
+    \\
+    & \simeq F(*) \in Set
+  \end{aligned}
+$$
+
+hence that the global section functor is simply given by evaluating a presheaf on the terminal object of $C$. 
+ 
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+The converse to prop. \ref{PresheafToposOverSiteWithTerminal} is true if $C$ is [[Cauchy complete category|Cauchy complete]].
+
+=--
+
+
+
++-- {: .num_example}
+###### Example
+
+If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]], i.e. a point whose only [[neighborhood]] is the whole space.
+
+=--
 
 ### Sheaves on a local site
 
