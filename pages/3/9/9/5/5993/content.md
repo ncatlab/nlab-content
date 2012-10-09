@@ -83,10 +83,10 @@ where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$
 
 * [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
-## Related entries
+## Literature and related entries
 
-* [[determinant]]
+* [[determinant]], [[Pfaffian line bundle]], [[hafnian]]
 
-* [[Pfaffian line bundle]]
+* J.-G. Luque, J.-Y. Thibon, _Pfaffian and hafnian identities in shuffle algebras_, [math.CO/0204026](http://arxiv.org/abs/math.CO/0204026)
 
 [[!redirects Pfaffians]]
