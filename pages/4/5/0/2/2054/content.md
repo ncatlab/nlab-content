@@ -23,7 +23,11 @@ Every [[subgroup]] of a free group is itself a free group. This is the _[[Nielse
 
 ## Related concepts
 
-* [[free abelian group]]
+* [[free abelian group]], [[free groupoid]]
+
+* [[Fox derivative]]
 
 
 [[!redirects free groups]]
+
+
