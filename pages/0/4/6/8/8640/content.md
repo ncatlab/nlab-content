@@ -2,7 +2,7 @@ The [[HomePage|nLab]] comprises over 7000 pages.  Generating a list of all of th
 
 There are various categories of pages on the nLab and the lists of pages for these can still be obtained.  A list is given below (note that this list is not automatically updated, though it was automatically generated and so there may be some false entries - please remove any you find to be empty).
 
-* [Galois theory](/nlab/list/Galois theory)
+* [Galois theory](http://ncatlab.org/nlab/list/Galois+theory)
 * [adjective](/nlab/list/adjective)
 * [algebra, algebraic geometry](/nlab/list/algebra, algebraic geometry)
 * [calculus](/nlab/list/calculus)
