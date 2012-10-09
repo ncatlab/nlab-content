@@ -491,7 +491,10 @@ section 4 of
 * [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
  {#May}
 
+as well as
+
 * Patrick Morandi, _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+
 
 
 See also
