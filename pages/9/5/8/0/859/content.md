@@ -94,6 +94,12 @@ elements $(1_x,g)$. Details are in the book reference below (but the
 conventions are not quite the same).
 
 
+## Properties
+
+### As split group extensions
+
+Semidirect product groups $A \rtimes_\rho G$ are precisely the split [[group extensions]] of $G$ by $A$. See at [group extension -- split extensions and semidirect product groups](group+extension#SplitExtensionsAndSemidirectProductGroups).
+
 ## References
 
 A general survey is in 
@@ -118,3 +124,5 @@ Relevant textbooks include
 [[!redirects semidirect products]]
 [[!redirects semi-direct product]]
 [[!redirects semi-direct products]]
+
+[[!redirects semidirect product groups]]
