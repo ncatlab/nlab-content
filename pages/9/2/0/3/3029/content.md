@@ -249,18 +249,41 @@ It is important here that $\sigma$ is itself required to be a group homomorphism
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #SplitExtensionsAreSemidirectProducts}
 ###### Proposition
 
-Split extensions of $G$ by $A$, def. \ref{SplitExtension}, are equivalently [[semidirect product groups]] 
+Split extensions $\hat G$ of $G$ by $A$, def. \ref{SplitExtension}, are equivalently [[semidirect product groups]] 
 
 $$
-  \hat G \simeq A \rtimes_\rho G
+  A \hookrightarrow \hat G \simeq A \rtimes_\rho G \to G
 $$
 
-for some [[action]] $\rho \colon A \times G \to A$ of $G$ on $A$.
+for some [[action]] $\rho \colon G \times A  \to A$ of $G$ on $A$. 
 
 =--
+
+This means that the underlying set is $U(A \rtimes_\rho G) = U(A) \times U(G)$ and the group operation in $A \rtimes_\rho G$ is 
+
+$$
+  (a_1, g_1) \cdot (a_2, g_2)
+  = 
+  (a_1 \cdot \rho(g_1)(a_2) , g_1 \cdot g_2)
+  \,.
+$$
+
+The inclusion of $A$ is by
+
+$$
+  a \mapsto (a,e)
+$$
+
+and the projection to $G$ is by
+
+$$
+  (a,g) \mapsto g
+  \,.
+$$
+
 
 +-- {: .proof}
 ###### Proof
@@ -278,7 +301,7 @@ $$
 $$
 
 $$
-  (a,g) \mapsto \sigma(g)^{-1} a \sigma(g)
+  (a,g) \mapsto \sigma(g)^{-1} \cdot a \cdot \sigma(g)
   \,.
 $$
 
@@ -286,15 +309,46 @@ Then (...)
 
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_prop}
+###### Proposition
 
-This means in particular that if all groups involved are [[abelian groups]] then a split extension is necessarily a product group $A \to G$. These are equivalently the [[direct sums]] $A \otimes G$ of abelian groups. In this way the notion of split group extension reduces to that of [[split short exact sequences]] of abelian groups.
+A split extension $A \to \hat G \to G$ is a [[central extension]] precisely if the [[action]] $\rho$ induced from it as in prop. \ref{SplitExtensionsAreSemidirectProducts} is trivial.
 
 =--
 
-If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian vaues. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocylces of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
++-- {: .proof}
+###### Proof
 
+For it to be a central extension the inclusion $A \to A \rtimes_\rho G$ has to land in the [[center]] of $A \rtimes_\rho G$, hence all elements $a \in A$ have to commute as elements $(a,e) \in A \rtimes_\rho G$ with all elements of $A \rtimes_\rho G$. But consider elements of the form $(e,g) \in A \rtimes_\rho G$ for all $g \in G$. Then
+
+$$
+  (a,e) \cdot (e,g) = (a, g)
+$$
+
+but
+
+$$
+  (e,g) \cdot (a,e) = (\rho(g)(a), g)
+  \,.
+$$
+
+For these to be equal for all $a \in A$, $\rho(g)$ has to be the identity. Since this is to be true for all $g \in G$, the action has to be trivial. 
+
+=--
+
++-- {: .num_prop}
+###### Remark
+
+This means in particular that split central extensions are product groups $A \to G$. If all groups involved are [[abelian groups]], then these are equivalently the [[direct sums]] $A \otimes G$ of abelian groups. In this way the notion of split group extension reduces to that of [[split short exact sequences]] of abelian groups.
+
+=--
+
++-- {: .num_prop}
+###### Remark
+
+If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian values. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocylces of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
+
+=--
 ### Central group extensions
  {#PropertiesCentralGroupExtensions}
 
@@ -1454,7 +1508,7 @@ But examples of fundamental importance include for instance
 * the [[real numbers]] as an extension of the [[circle group]]
 
   $$
-    \mathbb{Z} &\to& \mathbb{R} \to U(1)
+    \mathbb{Z} \to \mathbb{R} \to U(1)
     \,.
   $$
 
