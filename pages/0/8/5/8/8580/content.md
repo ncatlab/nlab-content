@@ -1983,29 +1983,42 @@ $$
 
 for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$.
 
-For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $f$ is the [[function]]
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in [Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors).
+
+=--
+
+
++-- {: .num_defn #PullbackOfDifferential1FormsOnCartesianSpaces}
+###### Definition
+
+For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $\phi$ is the [[function]]
 
 $$
-  f^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
+  \phi^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
 $$
 
-defined on [[basis]]-elements by
+between sets of differential 1-forms, def. \ref{Differential1FormsOnCartesianSpaces}, which is defined on [[basis]]-elements by
 
 $$
-  f^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
+  \phi^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
 $$
 
-and then extended linearly, hence
+and then extended linearly by
 
 $$
   \begin{aligned}
-    f^* \omega & = f^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
+    \phi^* \omega & = \phi^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
     \\
     & \coloneqq
-     \sum_{i = 1}^k \left(f^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+     \sum_{i = 1}^k \left(\phi^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
     \\
     & = 
-     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} \left(f^* \omega\right)_i \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} (\omega_i \circ \phi) \cdot \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
   \end{aligned}
   \,.
 $$
@@ -2015,7 +2028,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in [Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors).
+The term "pullback" in _[[pullback of differential forms]]_ is not really related, certainly not historically, to the term _[[pullback]]_ in [[category theory]]. One can relate the pullback of differential forms to categorical pullbacks, but this is not really essential here. The most immediate property that both concepts share is that they take a [[morphism]] going in one direction to a map between structures over domain and codomain of that morphism which goes in the other direction, and in this sense one is "pulling back structure along a morphism" in both cases.
 
 =--
 
@@ -2521,9 +2534,126 @@ $$
 
 ### Layer Mod
 
-* [[derivative]]
+#### Differentiation on coordinate patches
+
+By definition to [[smooth function]] $f \colon \mathbb{R} \to \mathbb{R}$ is associated its [[derivative]], a smooth function $f' \colon \mathbb{R} \to \mathbb{R}$. And more generally to a smooth function $f \colon \mathbb{R}^n \to \mathbb{R}$ are associated its [[partial derivatives]], smooth functions
+
+$$
+  \frac{\partial f}{\partial x^i} \colon \mathbb{R}^n \to \mathbb{R}
+$$
+
+for $1 \leq i \leq n $.
+
+The [[de Rham differential]] collects all partial derivatives of a function into a single [[differential 1-form]]
+
++-- {: .num_defn #DeRhamDifferentialOn1Forms}
+###### Definition
+
+For $n \in \mathbb{N}$,  The **[[de Rham differential]]** on [[smooth functions]] in $C^\infty(\mathbb{R}^n)$ is the [[function]]
+
+$$
+  \mathbf{d} \colon C^\infty(\mathbb{R}^n) \to \Omega^1(\mathbb{R}^n)
+$$
+
+which takes $f \in C^\infty(\mathbb{R}^n)$ to
+
+$$
+  \mathbf{d}f \coloneqq \sum_{i = 1}^n \frac{\partial f}{\partial x^i} \mathbf{d} x^i
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The de Rham differentials $\mathbf{d} \colon C^\infty(\mathbb{R}^n) \to \Omega^1(\mathbb{R}^n)$ for all $n \in \mathbb{N}$ are compatible with [[pullback of differential 1-forms]], def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces}, in that for each coordinate transformation $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^{k}$ the [[diagram]]
+
+$$
+  \array{
+     C^\infty(\mathbb{R}^k) &\stackrel{\mathbf{d}}{\to}& \Omega^1(\mathbb{R}^k)
+     \\
+     \downarrow^{\mathrlap{\phi^*}} && \downarrow^{\mathrlap{\phi^*}}
+     \\
+     C^\infty(\mathbb{R}^{\tilde}) &\stackrel{\mathbf{d}}{\to}& \Omega^1(\mathbb{R}^{\tilde})    
+  }
+$$
+
+[[commuting diagram|commutes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is equivalently the statement of the _[[chain rule]]_ of [[differentiation]]: For any $f \in C^\infty(\mathbb{R}^k)$ we have on the one hand, by def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces} and def. \ref{DeRhamDifferentialOn1Forms}
+
+$$
+  \begin{array}
+    \mathbf{d} \phi^* f
+    & = 
+    \mathbf{d} (f \circ \phi)
+    \\
+    & =
+    \sum_{j = 1}^{\tilde k} \frac{f \circ \phi}{\partial x^j}
+  \end{array}
+$$
+
+and on the other hand, applying the definition in the other order,
+
+$$
+  \begin{aligned}
+    \phi^* \mathbf{d}f
+    & = 
+    \phi^* \sum_{i = 1}^k \frac{\partial f}{\partial x^i} \mathbf{d}x^i
+    \\
+    & = \sum_{i = 1}^k \sum_{j = 1}^{\tilde k} 
+     \left(\frac{\partial f}{\partial x^i}\circ \phi \right)
+    \cdot 
+    \left(\frac{\partial \phi^i}{\partial x^j}\right) \mathbf{d}x^j
+  \end{aligned}
+  \,.
+$$
+
+Both expressions agree precisely if for all $j$ we have
+
+$$
+  \frac{\partial (f \circ \phi)}{\partial x^j}
+   =
+  \sum_{i = 1}^k \left(\frac{\partial f}{\partial x^i}\circ \phi\right) \cdot \left(\frac{\partial \phi^i}{\partial x^j}\right)
+  \;\;\;
+  \in 
+  C^\infty(\mathbb{R}^{\tilde k})
+  \,.
+$$
+
+This is precisely the statement of the _[[chain rule]]_ for [[differentiation]].
+
+=--
+
 
 * [[de Rham differential]]: map of smooth spaces $\mathbf{d} : \Omega^n(-) \to \Omega^{n+1}(-)$
+
+In particular
+
+$$
+  \mathbf{d} \colon \mathbb{R} \to \Omega^1
+$$
+
+#### Differentiation on smooth spaces
+
+For $X$ a smooth space.
+
+For $f \colon X \to \mathbb{R}$ a smooth function, its [[derivatives]]/[[de Rham differential]] is
+
+$$
+  \mathbf{d}f \colon X \stackrel{f}{\to} \mathbb{R} \stackrel{\mathbf{d}}{\to} \Omega^1_{cl}
+  \,.
+$$
+
+#### The electromagnetic field strength
+
+
 
 for instance [[electromagnetic potential]]
 
@@ -2601,7 +2731,26 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 ### Layer Mod
 
-for instance [[variational calculus]]
+[[variational calculus]]
+
+
+#### Variation is differentiation on smooth spaces
+
+
+[[functional]] is smooth function on [[mapping space]]
+
+$$
+  S \colon [ I, X] \to \mathbb{R}
+$$
+
+variation is 
+
+$$
+  \mathbf{d}S \colon [I,X] \stackrel{S}{\to} \mathbb{R} \stackrel{\mathbf{d}}{\to} \Omega^1_{cl}
+$$
+
+
+#### Euler-Lagrange equations
 
 [[action functional]] for [[particle]] on [[spacetime]] $X$ ("[[sigma-model]]")
 
@@ -3236,12 +3385,66 @@ $$
 
 ### Layer Mod
 
+#### Lie-algebra valued differential 1-forms
+
+For $G$ a [[Lie group]]
+
+$$
+  \Omega^1(U,\mathfrak{g}) = \Omega^1(U) \otimes_{\mathbb{R}} \mathfrak{g}
+$$
+
+$$
+  \Omega^1_{flat}(U, \mathfrak{g}) = 
+  \left\{
+    \omega \in \Omega^1(U,\mathfrak{g}) |
+    F_\omega = \mathbf{d} \omega + [\omega, \omega] = 0
+  \right\}
+  \,.
+$$
+
+This is a [[smooth space]]
+
+$$
+  \Omega^1_{flat}(-,\mathfrak{g}) \in Smooth 0 Type
+$$
+
+For $\mathfrak{g} = Lie(\mathbb{R})$ we have
+
+$$
+  \Omega^1(-,Lie(\mathbb{R})) = \Omega^1
+$$
+
+and we write
+
+$$
+  \Omega^1_{flat}(-,Lie(\mathbb{R})) = \Omega^1_{cl}
+$$
+
+
+Below we see
+
+$$
+  \flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})
+$$
+
+#### The de Rham complex
+
 * [[de Rham complex]]
 
 * [[de Rham cohomology]]
 
 * [[de Rham theorem]]
 
+Below we see that 
+
+$$
+  \flat_{dR}\mathbf{B}^n \mathbb{R} 
+    \simeq
+  \flat_{dR}\mathbf{B}^n U(1)
+   \simeq
+  DK[ \Omega^1(-) \stackrel{\mathbf{d}}{\to} \Omega^2(-) \stackrel{\mathbf{d}}{\to}\cdots \stackrel{\mathbf{d}}{\to} \Omega^n_{cl}(-)]
+ \,.
+$$
 
 ### Layer Sem
 
@@ -3278,9 +3481,35 @@ $$
 
 ### Layer Mod
 
-(...)
+#### Maurer-Cartan form on a Lie group
+
+* [[Maurer-Cartan form]]
+
+$$
+  \theta_G \colon G \to \Omega^1_{flat}(-,\mathfrak{g})
+$$
+
+#### Differentiation and the MC form on $\mathbb{R}$
+
+Consider
+
+$$
+  \flat_{dR} \mathbf{B}\mathbb{R}  = \Omega^1_{cl}
+$$
+
+the Maurer-Cartan form on $\mathbb{R}$ is the [[de Rham differential]]
+
+$$
+  \theta_{\mathbb{R}} = \mathbf{d} \colon \mathbb{R} \to \Omega^1_{cl} \hookrightarrow \Omega^1
+  \,.
+$$
+
+
+
 
 ### Layer Sem
+
+#### Maurer-Cartan form on a cohesive $\infty$-group
 
 Let $G \in Grp(\mathbf{H})$. 
 
@@ -3306,6 +3535,16 @@ This is the [[Maurer-Cartan form]] on $G$
 $$
   \theta \colon G \to \flat_{dR} \mathbf{B}G
 $$
+
+#### Universal curvature characteristic forms
+
+For $G = \mathbf{B}^n U(1)$
+
+$$
+  curv \colon \mathbf{B}^n U(1) \to \flat_{dR} \mathbf{B}^{n+1}U(1)
+$$
+
+sends a circle $n$-bundle to the curvature of a pseudo-connection on it.
 
 ### Layer Syn
 
