@@ -12,7 +12,7 @@ It may also be called the [[globular category]], although that term has other in
 ## Definition
 
 The **globe category** $G$ is
-the category whose objects are the integers and
+the category whose objects are the non-negative integers and
 whose morphisms are generated from
 $$
   \sigma_n : [n] \to [n+1]
