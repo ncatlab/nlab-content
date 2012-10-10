@@ -38,7 +38,7 @@ This is due to [McCord](#McCord).
 
 +-- {: .proof}
 ###### Proof (sketch) 
-If $\mathbf{2}$ is [[Sierpinski space]] (two points $0$, $1$ and three opens $\emptyset$, $\{1\}$, and $\{0, 1\}$), then the continuous map $I = [0, 1] \to \mathbf{2}$ taking $0$ to $0$ and $t \gt 0$ to $1$ is a weak homotopy equivalence. 
+If $\mathbf{2}$ is [[Sierpinski space]] (two points $0$, $1$ and three opens $\emptyset$, $\{1\}$, and $\{0, 1\}$), then the continuous map $I = [0, 1] \to \mathbf{2}$ taking $0$ to $0$ and $t \gt 0$ to $1$ is a weak homotopy equivalence[^fine]. 
 
 For any finite topological space $X$ with specialization order $\mathcal{O}(X)$, the topological [[interval]] map $I \to \mathbf{2}$ induces a weak homotopy equivalence $B\mathcal{O}(X) \to X$: 
 
@@ -65,7 +65,10 @@ The original results by McCord are in
 * M.C. McCord. _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708.
 {#McCord}
 
-* M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525))
+* M.C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
+
+[^fine]: Any topological meet-semilattice $L$ with a bottom element $\bot$, for which there exists a continuous path $\alpha \colon I \to L$ connecting $\bot$ to the top element $\top$, is in fact contractible. The contracting homotopy is given by the composite $I \times L \stackrel{\alpha \times 1}{\to} L \times L \stackrel{\wedge}{\to} L$. 
+ 
 
 
 [[!redirects finite topological space]]
