@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[QCD]] [[instanton]] configurations of the [[gauge field]] control the experimentally observed [[vacuum]] structure of the theory.
+
+## Related concepts
+
+* [[Yang-Mills instanton]]
+
+  * [[BPTS-instanton]]
+
+## References
+
+* Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+[[!redirects instantons in QCD]]
+[[!redirects instanton in quantum chromodynamics]]
+[[!redirects instantons in quantum chromodynamics]]
