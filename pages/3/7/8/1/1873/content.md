@@ -147,3 +147,5 @@ See also [[∞-Chern-Weil theory introduction]]
 [[!redirects Lie algebra valued differential form]]
 [[!redirects Lie algebra valued forms]]
 [[!redirects Lie algebra valued differential forms]]
+
+[[!redirects Lie algebra valued differential 1-forms]]
