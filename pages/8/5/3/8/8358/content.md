@@ -37,9 +37,9 @@ $Pass_A$ is [[extensive category|lextensive]].
 The [[exact completion|ex/lex completion]] of $Pass_A$ is a [[topos]], called the **realizability topos** of $A$. 
 =-- 
 
-+-- {: .num_remark}
++-- {: .num_remark #pax}
 ###### Remark 
-A general result about the ex/lex completion $C_{ex/lex}$ of a left exact category $C$ is that it has enough regular [[projective object|projectives]], meaning objects $P$ such that $\hom(P, -) \colon C_{ex/lex} \to Set$ preserves regular epis. In fact, the regular projective objects coincide with the objects of $C$ (as a subcategory of $C_{ex/lex}$). Of course, when $C_{ex/lex}$ is a topos, where every epi is regular, this means $C_{ex/lex}$ has enough projectives, or satisfies (external) [[COSHEP]]. 
+A general result about the ex/lex completion $C_{ex/lex}$ of a left exact category $C$ is that it has enough regular [[projective object|projectives]], meaning objects $P$ such that $\hom(P, -) \colon C_{ex/lex} \to Set$ preserves regular epis. In fact, the regular projective objects coincide with the objects of $C$ (as a subcategory of $C_{ex/lex}$). Of course, when $C_{ex/lex}$ is a topos, where every epi is regular, this means $C_{ex/lex}$ has enough projectives, or satisfies (external) [[COSHEP]]. It also satisfies internal [[COSHEP]], since binary products of projectives, i.e., products of objects of $C$, are again objects of $C$ (see [this result](/nlab/show/internally+projective+object#enough)). 
 =-- 
 
 
