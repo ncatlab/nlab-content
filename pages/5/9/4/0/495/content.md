@@ -30,7 +30,7 @@ preserves [[epimorphisms]].
 
 ## Properties
 
-If the terminal object in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. Conversely, 
+If the terminal object in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. In the converse direction, 
 
 +-- {: .num_prop #enough} 
 ###### Proposition 
@@ -50,7 +50,15 @@ P' \times P & \underset{\phi \times 1}{\to} & B^P \times P & \underset{eval}{\to
 this, by [[currying]], provides a lift of $\phi \colon P' \to B^P$ through $e^P$. Since $\phi$ is epic, this immediately implies $e^P$ is epic, as desired. 
 =-- 
 
++-- {: .num_remark} 
+###### Remark 
+Proposition \ref{enough} may fail without the assumption that projective objects are closed under binary products. An example is given [here](/nlab/show/presentation+axiom#counter). 
+=--  
+
++-- {: .num_remark}
+###### Remark 
 The _internal axiom of choice_ (that is, the [[axiom of choice]] interpreted in the [[internal logic]] of the topos) is equivalent to the statement that every object is internally projective.  This is strictly weaker than the "external" axiom of choice that every [[epimorphism]] in the topos is [[split epimorphism|split]]. 
+=-- 
 
 +-- {: .num_cor #presheaf} 
 ###### Corollary 
