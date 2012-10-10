@@ -1474,7 +1474,8 @@ The inclusion $U(1)_{const}[n] \to U(1)[n]$ is not yet a fibration. But by a bas
  
 =--
 
-#### With coefficients in $\mathbf{B}G$ for $G$ a Lie group 
+#### Flat coefficients of $\mathbf{B}G$ for $G$ a Lie group 
+ {#FlatCoefficientsForDeloopedLieGroup}
 
 Let $G$ be a [[Lie group]] regarded as a [[0-truncated]] [[∞-group]]
 in $Smooth \infty Grpd$. Write $\mathfrak{g}$ for its [[Lie algebra]].
@@ -2629,7 +2630,8 @@ $$
 The proof of this is spelled out at _[[Lie integration]]_ in the section <a href="http://nlab.mathforge.org/nlab/show/Lie+integration#IntegrationToLineNGroup">Integration to line n-groups</a>.
 
 
-#### flat coefficients {#FlatCoeffsForExponentiated}
+#### Flat coefficients 
+ {#FlatCoeffsForExponentiated}
 
 We consider now the [flat coefficient objects](#StrucFlat) 
 $\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
