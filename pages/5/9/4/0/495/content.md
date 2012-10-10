@@ -32,18 +32,35 @@ preserves [[epimorphisms]].
 
 If the terminal object in $\mathcal{T}$ is [[projective object|projective]], then every internally projective object is projective. Conversely, 
 
-+-- {: .un_prop} 
++-- {: .num_prop #enough} 
 ###### Proposition 
 If $\mathcal{T}$ has [[projective object|enough projectives]] and projectives are closed under binary products, then every projective object is internally projective. (In particular, if all objects of $\mathcal{T}$ are projective then all objects are internally projective.) 
 =-- 
 
 +-- {: .proof}
-##### Proof 
-(...) 
+###### Proof 
+Let $P$ be a projective object. To show that $e^P \colon E^P \to B^P$ is epic whenever $e \colon E \to B$ is epic, choose an epi $\phi \colon P' \to B^P$ where $P'$ is projective (using the assumption of enough projectives). Since $P \times P'$ is projective, there exists a lift through $e$ of the horizontal composite as shown: 
+
+$$\array{
+ & & & & E \\
+ & & & & \downarrow ^\mathrlap{e} \\ 
+P' \times P & \underset{\phi \times 1}{\to} & B^P \times P & \underset{eval}{\to} & B; 
+}$$ 
+
+this, by [[currying]], provides a lift of $\phi \colon P' \to B^P$ through $e^P$. Since $\phi$ is epic, this immediately implies $e^P$ is epic, as desired. 
 =-- 
 
+The _internal axiom of choice_ (that is, the [[axiom of choice]] interpreted in the [[internal logic]] of the topos) is equivalent to the statement that every object is internally projective.  This is strictly weaker than the "external" axiom of choice that every [[epimorphism]] in the topos is [[split epimorphism|split]]. 
 
-The _internal axiom of choice_ (that is, the [[axiom of choice]] interpreted in the [[internal logic]] of the topos) is equivalent to the statement that every object is internally projective.  This is strictly weaker than the "external" axiom of choice that every [[epimorphism]] in the topos is [[split epimorphism|split]].
++-- {: .num_cor #presheaf} 
+###### Corollary 
+In a presheaf topos $Set^{C^{op}}$, if $C$ has binary products, then every projective presheaf is internally projective. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Representables, and arbitrary coproducts of representables, are projective, and every presheaf is covered by some coproduct of representables. This implies that projective presheaves are precisely retracts of coproducts of representables. Under the assumption that $C$ has binary products, coproducts of representables, and also their retracts, are also closed under binary products. Thus projective presheaves are closed under binary products. Now apply Proposition \ref{enough}. 
+=-- 
 
 ## Related concepts
 
