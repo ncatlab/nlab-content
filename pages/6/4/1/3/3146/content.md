@@ -78,7 +78,7 @@ After the conception of [[gauge theory]], the term _curvature_ was firmly establ
    Its curvature is the Lie-algebra valued 2-form
 
    $$
-     F_A = d A + [A \wedge A]
+     F_A = \mathbf{d} A + [A \wedge A]
      \,,
    $$
 
