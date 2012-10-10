@@ -1622,9 +1622,10 @@ Lecture notes and similar include
 
 * [[Patrick Morandi]], _Group extensions and $H^3$_ ([pdf](http://sierra.nmsu.edu/morandi/notes/GroupExtensions.pdf))
 
+  _Nobabelian cohomology_ ([pdf](http://sierra.nmsu.edu/morandi/notes/nonabeliancohomology.pdf))
+
 * Raphael Ho, _Classifications of group extensions and $H^2$_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Ho.pdf))
 
-  _Nobabelian cohomology_ ([pdf](http://sierra.nmsu.edu/morandi/notes/nonabeliancohomology.pdf))
 
 See also
 
