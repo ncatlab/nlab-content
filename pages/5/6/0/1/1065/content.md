@@ -16,7 +16,7 @@
 
 ## Idea
 
-Homological algebra is, roughly speaking, the [[homotopy theory]] of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (generally in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (therefore the name).  It can be regarded as any of the following:
+Homological algebra is, roughly speaking, the [[homotopy theory]] of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ (generally in [[abelian categories]] $\mathcal{A}$) using _[[chain homology]]_ as the basic invariant (hence the name).  It can be regarded as any of the following:
 
 * The study of a particularly simple sort of [[stable (∞,1)-categories]], namely those derived from categories of chain complexes.  See _[As a toolbox in stable homotopy theory](#ToolboxInStableHomotopyTheory)_ below and the discussion at [[cosmic cube]].
 
