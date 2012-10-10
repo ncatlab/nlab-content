@@ -359,6 +359,10 @@ This section is at
 
   * [[synthetic differential ∞-groupoid]]
 
+Smooth $\infty$-groupoids and related cohesive structures play a central role in the discussion at 
+
+* [[geometry of physics]].
+
 ## References
 
 For standard references on [[differential geometry]] and [[Lie groupoid]]s see there. 
