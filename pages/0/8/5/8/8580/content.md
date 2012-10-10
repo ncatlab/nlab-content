@@ -1091,7 +1091,7 @@ such that
     \,.
   $$
 
-For $f_1 : X \to Y$ and $f_2 : X \to Y$ to homomorphism of smooth spaces, their [[composition]] $f_2 \circ f_1 \colon X \to Y$ is defined to be the homomorphism whose component over $\mathbb{R}^n$ is the composite of functions of the components of $f_1$ and $f_2$:
+For $f_1 : X \to Y$ and $f_2 : X \to Y$ two homomorphisms of smooth spaces, their [[composition]] $f_2 \circ f_1 \colon X \to Y$ is defined to be the homomorphism whose component over $\mathbb{R}^n$ is the composite of functions of the components of $f_1$ and $f_2$:
 
 $$
   (f_2\circ f_1)_{\mathbb{R}^n} \coloneqq {f_2}_{\mathbb{R}^n} \circ {f_1}_{\mathbb{R}^n}
@@ -1988,10 +1988,11 @@ for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$.
 +-- {: .num_remark}
 ###### Remark
 
-We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in [Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors).
+We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in _[Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors)_.
 
 =--
 
+If we have a measure of infintesimal displacement on some $\mathbb{R}^n$ and a smooth function $f \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$, then this induces a measure for infinitesimal displacement on $\mathbb{R}^{\tilde n}$ by sending whatever happens there first with  $f$ to $\mathbb{R}^n$ and then applying the given measure there. This is captured by the following definition.
 
 +-- {: .num_defn #PullbackOfDifferential1FormsOnCartesianSpaces}
 ###### Definition
@@ -2208,7 +2209,7 @@ We may unwind this definition to a very explicit description of differential for
 
 Notice that differential 0-forms are equivalently smooth $\mathbb{R}$-valued functions.
 
-+-- {: .num_prop}
++-- {: .num_prop #SpaceOf0FormsIsRealLine}
 ###### Proposition
 
 $\Omega^0 = \mathbb{R}$
@@ -2531,10 +2532,14 @@ $$
 (...)
 
 ## **Differentiation**
+ {#}
+
 
 ### Layer Mod
+ {#DifferentiationLayerMod}
 
 #### Differentiation on coordinate patches
+ {#DifferentiationOnCoordinatePatches}
 
 By definition to [[smooth function]] $f \colon \mathbb{R} \to \mathbb{R}$ is associated its [[derivative]], a smooth function $f' \colon \mathbb{R} \to \mathbb{R}$. And more generally to a smooth function $f \colon \mathbb{R}^n \to \mathbb{R}$ are associated its [[partial derivatives]], smooth functions
 
@@ -2564,18 +2569,41 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $x^i \colon \mathbb{R}^n \to \mathbb{R}$ one of the [[coordinate]] functions, the de Rham differential $\mathbf{d} x^i$ indeed coincides with the basis element of the same name according to def. \ref{Differential1FormsOnCartesianSpaces}, using that 
+
+$$
+  \frac{\partial x^i}{\partial x^{j}} = 
+  \left\{
+    \array{
+      1 & | i = j
+      \\
+      0 & | otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
-The de Rham differentials $\mathbf{d} \colon C^\infty(\mathbb{R}^n) \to \Omega^1(\mathbb{R}^n)$ for all $n \in \mathbb{N}$ are compatible with [[pullback of differential 1-forms]], def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces}, in that for each coordinate transformation $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^{k}$ the [[diagram]]
+The de Rham differentials $\mathbf{d} \colon C^\infty(\mathbb{R}^n) \to \Omega^1(\mathbb{R}^n)$ for all $n \in \mathbb{N}$ are compatible with [[pullback of differential forms|pullback of differential 1-forms]], def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces}, in that for each coordinate transformation $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^{k}$ the [[diagram]]
 
 $$
   \array{
-     C^\infty(\mathbb{R}^k) &\stackrel{\mathbf{d}}{\to}& \Omega^1(\mathbb{R}^k)
+     C^\infty(\mathbb{R}^k) 
+      &\stackrel{\mathbf{d}}{\to}& 
+    \Omega^1(\mathbb{R}^k)
      \\
-     \downarrow^{\mathrlap{\phi^*}} && \downarrow^{\mathrlap{\phi^*}}
+     \downarrow^{\mathrlap{\phi^\ast}} && \downarrow^{\mathrlap{\phi^\ast}}
      \\
-     C^\infty(\mathbb{R}^{\tilde}) &\stackrel{\mathbf{d}}{\to}& \Omega^1(\mathbb{R}^{\tilde})    
+     C^\infty(\mathbb{R}^{\tilde k}) 
+       &\stackrel{\mathbf{d}}{\to}&   
+     \Omega^1(\mathbb{R}^{\tilde k})    
   }
 $$
 
@@ -2589,14 +2617,14 @@ $$
 This is equivalently the statement of the _[[chain rule]]_ of [[differentiation]]: For any $f \in C^\infty(\mathbb{R}^k)$ we have on the one hand, by def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces} and def. \ref{DeRhamDifferentialOn1Forms}
 
 $$
-  \begin{array}
-    \mathbf{d} \phi^* f
+  \begin{aligned}
+    \mathbf{d} \phi^\ast f
     & = 
     \mathbf{d} (f \circ \phi)
     \\
     & =
     \sum_{j = 1}^{\tilde k} \frac{f \circ \phi}{\partial x^j}
-  \end{array}
+  \end{aligned}
 $$
 
 and on the other hand, applying the definition in the other order,
@@ -2631,28 +2659,103 @@ This is precisely the statement of the _[[chain rule]]_ for [[differentiation]].
 
 =--
 
+Notice that as smooth spaces $\mathbb{R} = \Omega^0 = C^\infty(-)$, by prop.  \ref{SpaceOf0FormsIsRealLine}. Therefore the above says that
 
-* [[de Rham differential]]: map of smooth spaces $\mathbf{d} : \Omega^n(-) \to \Omega^{n+1}(-)$
++-- {: .num_prop}
+###### Proposition
 
-In particular
+The [[de Rham differential]], def. \ref{DeRhamDifferentialOn1Forms}, constitutes a homomorphism of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}
 
 $$
   \mathbf{d} \colon \mathbb{R} \to \Omega^1
 $$
 
-#### Differentiation on smooth spaces
+from the [[real line]] to the universal smooth moduli space of differential 1-forms, def. \ref{SmoothModuliSpaceOfnForms}.
 
-For $X$ a smooth space.
+=--
 
-For $f \colon X \to \mathbb{R}$ a smooth function, its [[derivatives]]/[[de Rham differential]] is
++-- {: .num_remark}
+###### Remark
+
+Below in _[Maurer-Cartan form on a Lie group](#MaurerCartanFormOnLieGroup)_ we discuss a more general abstract origin of $\mathbf{d} \colon \mathbb{R} \to \Omega^1_{cl}$.
+
+=--
+
+We now extend the de Rham differential to differential forms of higher degree.
+
++-- {: .num_defn #DeRhamDifferentialInGeneralDegreeOverCartesianSpaces}
+###### Definition
+
+For all $n \in \mathbb{N}$ let 
 
 $$
-  \mathbf{d}f \colon X \stackrel{f}{\to} \mathbb{R} \stackrel{\mathbf{d}}{\to} \Omega^1_{cl}
+  \mathbf{d} 
+    \colon 
+  \Omega^\bullet(\mathbb{R}^n)
+   \to 
+  \Omega^\bullet(\mathbb{R}^n)
+$$
+
+be the unique extension of $\mathbf{d} \colon C^\infty(-) \to \Omega^1(-)$ to a degree-1 [[derivation]] with 
+
+$$
+  \mathbf{d}\mathbf{d}x^i = 0
   \,.
 $$
 
-#### The electromagnetic field strength
 
+=--
+
+(...)
+
++-- {: .num_prop #DeRhamDifferentialAsMorphismOfSmoothSpacesInEachDegree}
+###### Proposition
+
+For each $n \in \mathbb{N}$ the de Rham differential of def. \ref{DeRhamDifferentialInGeneralDegreeOverCartesianSpaces} constitutes a homomorphism of smooth spaces
+
+$$
+  \mathbf{d} \colon \Omega^n \to \Omega^{n+1}
+$$
+
+form the universal smooth moduli space of differental $n$-forms to that of differential $n+1$-forms.
+
+=--
+
+#### Differentiation on smooth spaces
+ {#DifferentiationOnSmoothSpaces}
+
+We now extend the notion of [[derivatives]] and [[de Rham differentials]] from [[smooth functions]] on [[Cartesian spaces]] to smooth functions on general [[smooth spaces]].
+
+Recall from def. \ref{DifferentialnFormOnSmoothSpace} that the set of differential $n$-forms on a [[smooth space]] $X$ is $\Omega^n(X) \coloneqq Hom(X, \Omega^n)$. 
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in Smooth0Type$ a smooth space and $n \in \mathbb{N}$, the **[[de Rham differential]]** on $n$-forms over $X$ is the [[function]]
+
+$$
+  \mathbf{d} \colon \Omega^n(X) \to \Omega^{n+1}(X)
+$$
+
+which is the postcomposition with the homomorphism of smooth spaces of prop. \ref{DeRhamDifferentialAsMorphismOfSmoothSpacesInEachDegree}:
+ 
+$$
+  Hom(X,\mathbf{d}) \colon Hom(X,\Omega^n) \to Hom(X,\Omega^{n+1})
+  \,.
+$$
+
+=--
+
+In particular the [[derivative]] of a smooth function $f \colon X \to \mathbb{R}$ is the [[composition|composite]]
+
+$$
+  \mathbf{d}f \colon X \stackrel{f}{\to} \mathbb{R} \stackrel{\mathbf{d}}{\to} \Omega^1_{cl} \hookrightarrow \Omega^1
+  \,.
+$$
+
+Below in _[Variation is differentiation on smooth spaces](#VariationIsDifferentiationOnSmoothSpaces)_ we find that this notion of differentiation of smooth functions on smooth spaces subsumes what traditionally is called _[[variational calculus]]_ of [[functionals]] on [[mapping spaces]].
+
+#### Example: The electromagnetic field strength
 
 
 for instance [[electromagnetic potential]]
@@ -2715,12 +2818,14 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 (the other 2 below in Riemannian geometry)
 
+
 ### Layer Sem
 
 * [[equation]]
 
 * [[differential equation]]
 
+* [[composition]]
 
 ### Layer Syn
 
@@ -2735,6 +2840,7 @@ first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 
 #### Variation is differentiation on smooth spaces
+ {#VariationIsDifferentiationOnSmoothSpaces}
 
 
 [[functional]] is smooth function on [[mapping space]]
@@ -3482,6 +3588,7 @@ $$
 ### Layer Mod
 
 #### Maurer-Cartan form on a Lie group
+ {#MaurerCartanFormOnLieGroup}
 
 * [[Maurer-Cartan form]]
 
@@ -3489,7 +3596,6 @@ $$
   \theta_G \colon G \to \Omega^1_{flat}(-,\mathfrak{g})
 $$
 
-#### Differentiation and the MC form on $\mathbb{R}$
 
 Consider
 
