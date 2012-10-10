@@ -77,8 +77,9 @@ $$
 
 (As just stated, it is automatic in the case over $Set$ that this is furthermore a [[full and faithful functor]].) 
 
-=--
+=-- 
 
+Another way of stating this is that a Grothendieck topos is local if and only if the terminal object $1$ is [[connected object|connected]] and [[projective object|projective]] (since this means precisely that $\Gamma = \hom(1, -)$ preserves colimits, and is therefore has a right adjoint by applying an [[adjoint functor theorem]]). Another term for this: we say $1$ is _[[tiny object|tiny]]_. 
 
 ## Properties
 
@@ -568,7 +569,7 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 +-- {: .un_prop }
 ###### Proposition
 
-For $\mathcal{E}$ a [[topos]] and $X \in \mathcal{E}$ an object, the [[over topos]] $\mathcal{E}/X$ is local if $X$ is a [[tiny object]]. 
+For $\mathcal{E}$ a [[Grothendieck topos]] and $X \in \mathcal{E}$ an object, the [[over topos]] $\mathcal{E}/X$ is local if $X$ is a [[tiny object]]. 
 
 =--
 
