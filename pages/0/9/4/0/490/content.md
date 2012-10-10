@@ -173,11 +173,8 @@ Any topos that violates countable choice, of which there are plenty, must also v
 
 +-- {: .num_example}
 ###### Example
-(To be checked.) An interesting example of a topos that has enough projectives and (allegedly) satisfies internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]].  
-
+An interesting example of a topos that has enough projectives and satisfies internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]]. The reason for this is quite similar to the intuitive justification for COSHEP given above. Technically, it results from the fact that realizability toposes are [[exact completions]]; an explanation is given in [this remark](/nlab/show/realizability+topos#pax). 
 =--
-
-The reason for this is quite similar to the intuitive justification for COSHEP given above.
 
 
 ## Further properties
