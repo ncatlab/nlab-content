@@ -6,14 +6,33 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-**Structures expressible in [[homotopy type theory]]**:
-
+**Expressions in [[type theory]]**
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | **[[general abstract]]** | **[[general concrete]]** | **[[concrete particular]]** | |
-| A group $G$ is the collection of equivalences of a thing $X$. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
-| The delooping of $G$ is the space of things equivalent to $X$. | $\mathbf{B}G \coloneqq  \sum_{Y \colon Type} \left[X \simeq Y\right] $ | $\array{G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{}} \\ * &\underset{}{\to}& \mathbf{B}G}$ | [[moduli stack]] of $G$-[[principal ∞-bundle]] | _[Principal n-bundles](#PrincipalNBundles)_ |
+| There is. | $\vdash$ | A [[(∞,1)-topos|higher]] [[topos]] $\mathbf{H}$ | $\mathbf{H} = $ [[Smooth∞Grpd]] |  |
+| There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[moduli stack]]. | |
+| There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | $* \stackrel{\vdash X}{\to} Obj$ | A point in the [[object classifier]], the [[moduli stack]] of all [[small object|small]] moduli stacks. |   |
+| Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. |  |
+|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ | | |
+| There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |
+| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | $* \stackrel{f}{\to} [X,A]_X$  | | |   
+| There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | $* \stackrel{p}{\to}\tau_{-1}(X)$ |  |  |
+| There is a proof $p$ that it is true that there is an $a(x)$ for some $x$. | $\vdash\; p \colon \left(\exists_{x \colon X} A\left(x\right) \right) \coloneqq \left[ \sum_{x \colon X} A\left(x\right)\right]$ | | |  |
+| There is an equivalence $e$ between $x$ and $x'$. | $\array{\vdash \; e \colon (x \simeq x') \\ or \\ \vdash \; e \colon (x \rightsquigarrow x') }$ | | |  |
+| Given $x,x'$, there is the collection of between $x$ and $x'$ equivalent. | $x,x' \colon X \;\vdash \; \left(x \simeq x'\right) \colon Type$. | |  | |
+| Given $x,x'$, there is the collection of proofs that it is true that $x$ and $x'$ are equivalent. | $x,x' \colon X \;\vdash \; [x \simeq x'] \colon Type$. | | | |
+
+
+
+**Structures expressible in [[homotopy type theory]]**:
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | **[[general abstract]]** | **[[general concrete]]** | **[[concrete particular]]** | |
+| Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
+| There is the _delooping_ of $G$, which is the type of things equipped with equivalences to $X$. | $\vdash \; \mathbf{B}G \coloneqq  \sum_{Y \colon Type} \left[X \simeq Y\right] $ | $\array{G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{}} \\ * &\underset{}{\to}& \mathbf{B}G}$ | [[moduli stack]] of $G$-[[principal ∞-bundle]] | _[Principal n-bundles](#PrincipalNBundles)_ |
 | A $G$-representation is a thing $V$ on which group elements act. | $\array{* \colon \mathbf{B}G \;\vdash\; V(*) \colon Type \\  or\;with\;more;emphasis: \\  (*,*',g) \colon \sum_{*,*' \colon \mathbf{B}G} (*\rightsquigarrow *') \;\vdash\; V(* \stackrel{g}{\rightsquigarrow} *') \colon Type }$  | $\array{V &\to& V\sslash G \\&& \downarrow^{\overline{\rho}} \\ && \mathbf{B}G }$  | [[∞-action]] and its universal $\rho$-[[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] | [Higher actions](#HigherActions) |
 | The $G$-principal bundle $P$ classified by $g \colon X \to \mathbf{B}G$ is over each point $x$ of $X$ the collection of identifications of the fiber $g(x)$ with $G$| $* \colon \mathbf{B}G \;\vdash\; P \coloneqq  \sum_{x \colon X} (g(x) \simeq *) $ | $\array{P &\to& X \\ \downarrow &\swArrow& \downarrow \\ * &\to& \mathbf{B}G}$ |  [[principal ∞-bundle]] | _[Principal ∞-bundles](#PrincipalNBundles)_ |
 | A section $\sigma$ of an associated bundle is an equivariant map from the principal bundle to the representation space. | $\sigma \colon \prod_{* \colon \mathbf{B}G} \left(P \to V\right)  $ | $\array{ X &&\stackrel{\sigma}{\to}&& V \\ & \searrow &\swArrow& \swarrow \\ && \mathbf{B}G}$  |  [[sections]] of [[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundles]] | | 
@@ -29,31 +48,9 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 | A general connection $\nabla$ is the equivalence between the curvature $curv(\mathbf{c})$ of a bundle $\mathbf{c}$ and a closed differential form $\omega$. | $\nabla \colon \underset{{\mathbf{c} \colon \mathbf{B}^n \mathbb{G}} \atop { \omega \colon \Omega^{n+1}_{cl} }}\sum \left( curv\left(\mathbf{c}\right) = \omega\right) $ | $ \begin{matrix} \mathbf{B}^n \mathbb{G}_{conn}  & \stackrel{F_{(-)}}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \Omega^{n+1}_{cl} \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg} \\ \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G} \end{matrix} $  | [[circle n-bundle with connection]] | _[Circle principal n-connections](CirclePrincipalConnections)_ |
 | A pre-quantum state $\psi$ is a section of the associated prequantum bundle. | $\vdash \; \psi \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to V\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\psi}{\to}&&  V\sslash \mathbb{G}_{conn} \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\overline{\rho}} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | [[space of states (in geometric quantization)|prequantum state]] | _[Geometric quantization](#GeometricQuantization)_ | 
 | An exponentiated pre-quantum operator $\exp(\hat O)$ is  | $\vdash \; \exp(\hat O)  \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to P\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\exp(\hat O)}{\to}&&  X \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\nabla} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | element of [[quantomorphism group]]/[[Heisenberg group]] | _[Geometric quantization](#GeometricQuantization)_ | 
+(...)
 
-$$
-\begin{matrix}
-f^{-1} B &  \begin{svg}[[!include SVG rightarrow]]\end{svg} & B \\
-\begin{svg}[[!include SVG hookdownarrow]]\end{svg}
-\mathrlap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg}\\ \space{30}{10}{1}}} && \begin{svg}[[!include SVG hookdownarrow]]\end{svg} \\
-X & \underset{\scriptsize f}{\begin{svg}[[!include SVG rightarrow]]\end{svg}} & Y
-\end{matrix}
-$$
-
-$$
-\begin{matrix}
-A  &
-\stackrel{f}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}&
-B \\
-\begin{svg}[[!include SVG downarrow]]\end{svg}
-\mathrlap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} \\ \space{30}{10}{1}}} &&
-\begin{svg}[[!include SVG downarrow]]\end{svg} \\
-C &\stackrel{g}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}&  D
-\end{matrix}
-$$
-
-$$
-\begin{matrix} A & \stackrel{th}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& B \\ \begin{svg}[[!include SVG downarrow]]\end{svg}{}^{\mathrlap{lv}} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg}{}^{\mathrlap{rv}} \\ C &\stackrel{bh}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& D \end{matrix} 
-$$
+Structures expressible in [[cohesive homotopy type theory]] equipped with a [[continuum]] [[line object]] $\mathbb{A}^1$
 
 ***
 
