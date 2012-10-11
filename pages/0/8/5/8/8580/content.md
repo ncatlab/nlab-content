@@ -84,7 +84,7 @@ To be predictive, a [[metalanguage|language]] for physics is moreover to be a la
 
 The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judgements]]_ about existence of _[[terms]]_ of some _[[type]]_ is called _[[type theory]]_. The following table indicates the central elements of this [[metalanguage|language]].
 
-**Expressions in [[type theory]]**
+**Expressions in [[type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
@@ -111,6 +111,8 @@ And the language needs to be able to make [[natural deduction|natural deductions
 
 A [[metalanguage|formal language]] based on the [[type theory]] we have so far that contains these statements is _type theory with [[propositional equality]]_. In this language we have [[judgements]] such as the following.
 
+**Expressions involving [[propositional equality]]**:
+
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
@@ -130,6 +132,8 @@ Since therefore a [[type]] $X$ in intensional type theory may contain [[homotopi
 
 In particlar, in [[intensional type theory]] we find the [[gauge group]] of a homotopy type:
 
+**Expressions in [[intensional type theory]]**:
+
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
@@ -140,12 +144,10 @@ Suppose then that we have such a map between collections of gauge fields $\phi \
 
 For consistency we should demand that the notion of equivalence is such that the space of direct equivalences 
 $[X, \mathbf{B}G_{conn}] \simeq [Y, \mathbf{B}H_{conn}]$ is itself equivalent to the space of such  weak homotopy equivalences ("dualities") $[X, \mathbf{B}G_{conn}] \stackrel{\simeq}{\to} [Y, \mathbf{B}H_{conn}]$. 
-
 This requirement is called the _[[univalence]] [[axiom]]_. 
 The [[intensional type theory]]-language considered so far equipped with this axiom is called _[[homotopy type theory]]_.
 
-We indicate now some central judgements that are expressible in homotopy type theory. This involves [[group theory]] and [[representation theory]], two of the pillars of modern [[quantum theory]]/[[quantum field theory]].
-
+We indicate now some central judgements that are expressible in homotopy type theory. This involves fundamental judgements in _[[group theory]]_ and in _[[representation theory]]_, two of the pillars of modern [[quantum theory]]/[[quantum field theory]].
 
 **Structures expressible in [[homotopy type theory]]**:
 
@@ -153,21 +155,20 @@ We indicate now some central judgements that are expressible in homotopy type th
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
 | Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
-| There is the _delooping_ of $G$, which is the type of things equipped with equivalences to $X$. | $\vdash \; \mathbf{B}G \coloneqq  \sum_{Y \colon Type} \left[X \simeq Y\right] $ | $\array{G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{}} \\ * &\underset{}{\to}& \mathbf{B}G}$ | [[moduli stack]] of $G$-[[principal ∞-bundle]] | _[Principal n-bundles](#PrincipalNBundles)_ |
-| A $G$-representation is a thing $V$ on which group elements act. | $\array{* \colon \mathbf{B}G \;\vdash\; V(*) \colon Type \\  or\;with\;more;emphasis: \\  (*,*',g) \colon \sum_{*,*' \colon \mathbf{B}G} (*\rightsquigarrow *') \;\vdash\; V(* \stackrel{g}{\rightsquigarrow} *') \colon Type }$  | $\array{V &\to& V\sslash G \\&& \downarrow^{\overline{\rho}} \\ && \mathbf{B}G }$  | [[∞-action]] and its universal $\rho$-[[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] | [Higher actions](#HigherActions) |
-| The $G$-principal bundle $P$ classified by $g \colon X \to \mathbf{B}G$ is over each point $x$ of $X$ the collection of identifications of the fiber $g(x)$ with $G$| $* \colon \mathbf{B}G \;\vdash\; P \coloneqq  \sum_{x \colon X} (g(x) \simeq *) $ | $\array{P &\to& X \\ \downarrow &\swArrow& \downarrow \\ * &\to& \mathbf{B}G}$ |  [[principal ∞-bundle]] | _[Principal ∞-bundles](#PrincipalNBundles)_ |
+| Given a type $X$, there is the _delooping_ of $G$, which is the collection of things equipped with equivalences to $X$. | $X \colon Type \; \vdash \; \mathbf{B}G \coloneqq  \sum_{Y \colon Type} \left[X \simeq Y\right] $ | $\array{G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{}} \\ * &\underset{}{\to}& \mathbf{B}G}$ | [[moduli stack]] of $G$-[[principal ∞-bundle]] | _[Principal n-bundles](#PrincipalNBundles)_ |
+| A $G$-representation is a thing $V$ on which group elements act. | $\array{* \colon \mathbf{B}G \;\vdash\; V(*) \colon Type \\  or\;with\;more\;emphasis: \\  (*,*',g) \colon \sum_{*,*' \colon \mathbf{B}G} (*\rightsquigarrow *') \;\vdash\; V(* \stackrel{g}{\rightsquigarrow} *') \colon Type }$  | $\array{V &\to& V\sslash G \\&& \downarrow^{\overline{\rho}} \\ && \mathbf{B}G }$  | [[∞-action]] and its universal $\rho$-[[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] | [Higher actions](#HigherActions) |
+| Given a function $g$ classifying a $G$-principal bundle and given a point in the delooping, there is the $G$-principal bundle $P$ itself, being the collection of identifications of the fiber $g(x)$ with $X$| $\left(g \colon X \to \mathbf{B}G\right), \left(* \colon \mathbf{B}G\right) \;\vdash\; P \coloneqq  \sum_{x \colon X} (g(x) \simeq *) $ | $\array{P &\to& X \\ \downarrow &\swArrow& \downarrow \\ * &\to& \mathbf{B}G}$ |  [[principal ∞-bundle]] | _[Principal ∞-bundles](#PrincipalNBundles)_ |
 | A section $\sigma$ of an associated bundle is an equivariant map from the principal bundle to the representation space. | $\sigma \colon \prod_{* \colon \mathbf{B}G} \left(P \to V\right)  $ | $\array{ X &&\stackrel{\sigma}{\to}&& V \\ & \searrow &\swArrow& \swarrow \\ && \mathbf{B}G}$  |  [[sections]] of [[associated infinity-bundle|associated]] $V$-[[fiber ∞-bundles]] | | 
 
-One may notice that so far this describes the _[[kinematics|kinematical]]_ aspects of [[gauge theory]], that which determines the ingredients of a [[physical system]] such as its [[particle]] content (encoded in the choice of [[representation]] of the [[gauge group]]) but not yet the [[dynamics]]. 
+In [[gauge theory]] physics a [[representation]] $V$ of the [[gauge group]] $G$ encodes the [[particle]]-content of the [[model (in theoretical physics)]]. Therefore all the ingredients so far encode the _[[kinematics]]_ of gauge theory, its setup before an actual _[[dynamics]]_ is specified.
 
-Dynamics in physics says how things _move_, hence how they trace out [[trajectories]] in a given [[spacetime]]. This means we need to add to our language a way to connect points continuously and smoothly to each other by paths. One says we need a notion of how points [[cohesion|cohese]] together. 
+Dynamics in physics says how things _move_, hence how they trace out [[trajectories]] in a given [[spacetime]]. Our [[metalanguage|language]] for reasoning about physics should be able to express this. For $X$ a homotopy type the models [[spacetime]] (the collection of all points of spacetime) there should be a homotopy type $\Pi(X)$ whose [[homotopies]] and higher homotopies are the _smooth paths_ and higher paths in $X$. In order to analyse the notion of _smoothness_ here -- we will say: the way that points [[cohesive topos|cohes]] -- there should be an expression $\flat X$ for the the [[discrete space|discrete]] collection of points underlying $X$, such that therefore all smooth paths in $\flat X$ are constant,  $\Pi \flat X \simeq \flat X$. Finally there should be an expression $\sharp X$ which dually forms the [[codiscrete object|codiscrete]] smooth structure.
 
-(...)
+There are some natural simple [[axioms]] on these three _[[modal logic|modalities]]_ $(\Pi \vdash \flat \vdash \sharp)$ which ensure that they do encode this meaning. In particular $\Pi$ and $\flat$ are a _[[monads]]_ and _[[comonad]]_ on the type system, _[[monad (in computer science)|in the sense of computer science]]_ and $\sharp$ is even an internal monad in a certain sense. 
 
-We add  _[[monad]]_ $\sharp$ (see also [[monad (in computer science)]]) and a _[[comonad]]_ $\flat$
+Equipping [[homotopy type theory]] with these [[modal logic|modalities]] makes it become _[[cohesive homotopy type theory]]_. 
 
-(...)
-
+**Expressions in [[cohesive homotopy type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
@@ -177,31 +178,42 @@ We add  _[[monad]]_ $\sharp$ (see also [[monad (in computer science)]]) and a _[
 | |  $A \colon \sharp Type \;\vdash\; \flat A \colon \sharp Type$ |  | [[moduli stack]] for [[connection on an infinity-bundle|flat ∞-connections]] | |
 | Given $A$, there is a map from flat $A$-connections to the underlying $A$-bundles  | $A \colon \sharp Type \;\vdash\; UnderlyingBundle_A \colon \flat A \to A $  | | | |
 
-adding the [[modal logic|modalities]] $(\flat \vdash \sharp)$ to [[homotopy type theory]] yields _[[cohesive homotopy type theory]]_.
+Adding the [[modal logic|modalities]] $(\Pi \vdash \flat \vdash \sharp)$ to the above language of [[homotopy type theory]] yields a language that we call_[[cohesive homotopy type theory]]_.
+Fundamental [[judgements]] in [[cohesive homotopy type theory]] include those indicated in the following table, which capture central concepts of [[gauge theory]] and its [[geometric quantization]].
 
-(...)
-
-**Structures expressible in [[cohesive homotopy type theory]]**, 
+**Structures expressible in [[cohesive homotopy type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
-|  | **[[general abstract]]** | **[[general concrete]]** | **[[concrete particular]]** | |
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
 | A flat connection $\nabla$ on $X$ is a rule for sending paths $(x \stackrel{\gamma}{\to} y) \in \Pi X$ to group elements, respecting composition. 
 | $transport(\nabla) \colon \underset{x,y \colon \Pi X}{\sum} \left( x \rightsquigarrow y \right) \to \underset{*,*' \colon \mathbf{B}G}{\sum} (* \rightsquigarrow *')  $  |  $\frac{\Pi(X) \stackrel{transport(\nabla)}{\to} \mathbf{B}G}{X \stackrel{\nabla}{\to} \flat \mathbf{B}G}$.| [[higher parallel transport]] for [[flat connection]] | _[Flat connections](#FlatConnections)_ | 
 | A closed differential form $\omega$ is a flat connection $\nabla$ whose underlying bundle is trivial. |  $\begin{aligned} & \flat_{dR} \mathbf{B} G  \coloneqq  \\ & \sum_{\nabla \colon \flat \mathbf{B}G} (UnderlyingBundle(\nabla) = *) \end{aligned}$ | $\begin{matrix} \flat_{dR}\mathbf{B}G  & \stackrel{UnderlyingConnection}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \flat \mathbf{B}G \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg}{}^{\mathrlap{Underlying \atop Bundle}} \\ * &\stackrel{}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \mathbf{B}G \end{matrix}$  | [[coefficients]] for [[de Rham cohomology|de Rham]] [[hypercohomology]] | _[de Rham coefficients](#deRhamCoefficients)_ |
 | A general connection $\nabla$ is the equivalence between the curvature $curv(\mathbf{c})$ of a bundle $\mathbf{c}$ and a closed differential form $\omega$. | $\nabla \colon \underset{{\mathbf{c} \colon \mathbf{B}^n \mathbb{G}} \atop { \omega \colon \Omega^{n+1}_{cl} }}\sum \left( curv\left(\mathbf{c}\right) = \omega\right) $ | $ \begin{matrix} \mathbf{B}^n \mathbb{G}_{conn}  & \stackrel{F_{(-)}}{\begin{svg} [[!include SVG rightarrow]]\end{svg}}& \Omega^{n+1}_{cl} \\ \begin{svg}[[!include SVG downarrow]]\end{svg} & \mathclap{\array{\arrayopts{\align{bottom}}\;\begin{svg}[[!include SVG pullback]]\end{svg} & \space{10}{0}{30} \\ \space{10}{30}{1} & \swArrow}} & \begin{svg}[[!include SVG downarrow]]\end{svg} \\ \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\begin{svg}[[!include SVG rightarrow]]\end{svg}}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G} \end{matrix} $  | [[circle n-bundle with connection]] | _[Circle principal n-connections](CirclePrincipalConnections)_ |
+| There is a cohesive function from $G$-gauge fields to higher $\mathbb{G}$-gauge fields. | $\vdash \; \exp(i S) \colon \mathbf{B}G_{conn} \to \mathbf{B}^n \mathbb{G}_{conn}$ | [[differential cohomology]] [[universal characteristic class]] | extended [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons-type]] [[gauge theory]] [[action functional]] / [[prequantum circle n-bundle|prequantum n-bundle]]  |  |
 | A pre-quantum state $\psi$ is a section of the associated prequantum bundle. | $\vdash \; \psi \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to V\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\psi}{\to}&&  V\sslash \mathbb{G}_{conn} \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\overline{\rho}} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | [[space of states (in geometric quantization)|prequantum state]] | _[Geometric quantization](#GeometricQuantization)_ | 
 | An exponentiated pre-quantum operator $\exp(\hat O)$ is  | $\vdash \; \exp(\hat O)  \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to P\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\exp(\hat O)}{\to}&&  X \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\nabla} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | element of [[quantomorphism group]]/[[Heisenberg group]] | _[Geometric quantization](#GeometricQuantization)_ | 
 
-(...)
+Finally, in order to be able to concretely speak about not any abstract gauge field, but the concrete gauige fields in the [[observable universe]], out language should be able to express the existence of the [[continuum]] [[real line]]. 
 
-Structures expressible in [[cohesive homotopy type theory]] equipped with a [[continuum]] [[line object]] $\mathbb{A}^1$
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| There is the continuum line. | $\vdash\; \mathbb{R} \colon Type,\;\; i \colon \mathbb{Z} \to \mathbb{R},\;\; cont \colon (\Pi(\mathbb{R}) \simeq Point) $ | [[line object]] | [[real line]]  | _[The continuum real worldline](#TheContinuumRealWorldLine)_ |
 
-(...)
+This then induces the existence of the [[circle group]] $U(1) = \mathbb{R}/\mathbb{Z}$. The [[electromagnetic field]] is a [[gauge field]] for [[gauge group]] $U(1)$. Therefore in the language of cohesive homotopy type theory we can say
+
+> Let there be light.
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| There is light. | $ \vdash \; \nabla_{em} \colon [X,\mathbf{B}U(1)_{conn}]$ |  [[cocycle]] in [[ordinary differential cohomology]] in degree-2 | [[electromagnetic field]] on [[spacetime]] $X$ | _[Circle principal connection](#CirclePrincipalConnections)_ |
+
 
 $\,$
 
-This concludes the introduction and survey. We now begin with the genuine text on the _geometry of physics_.
+This concludes the introduction and survey. We now begin the text on the _geometry of physics_.
 
 ## **Coordinate systems**
  {#CoordinateSystems}
