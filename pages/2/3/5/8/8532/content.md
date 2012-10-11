@@ -1,20 +1,41 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+
 # _TwoVect_: a Mathematica Package for 2-Vector Spaces #
+* table of contents
+{:toc}
 
-### What is _TwoVect_? ###
 
-_TwoVect_ is a Mathematica package for working with finite-dimensional complex [semisimple](semisimple+category) [[2-vector spaces]]. It implements all the basic operations of a skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional 2-vector spaces.
+## What is _TwoVect_? ##
 
-2-vector space are categories with many of the same properties as ordinary vector spaces. There are two main types of 2-vector spaces; the sort we are concerned with here are [[Kapranov-Voevodsky 2-vector spaces]], closely related to the [2-Hilbert spaces](2-Hilbert+space) of [Baez](John+Baez). They have a range of applications in [quantum algebra](quantum+group), [[representation theory]], [[topological quantum field theory]] and [[quantum information]]. This package can help with calculations in these areas.
+_TwoVect_ is a [[Mathematica]] package for working with finite-dimensional [[complex numbers|complex]] [semisimple](semisimple+category) [[2-vector spaces]]. It implements all the basic operations of a skeletal version of **2Vect**, the [[symmetric monoidal bicategory]] of finite-dimensional 2-vector spaces.
+
+2-vector space are categories with many of the same properties as ordinary [[vector spaces]]. There are two main types of 2-vector spaces; the sort we are concerned with here are [[Kapranov-Voevodsky 2-vector spaces]], closely related to the [2-Hilbert spaces](2-Hilbert+space) of [Baez](John+Baez). They have a range of applications in [quantum algebra](quantum+group), [[representation theory]], [[topological quantum field theory]] and [[quantum information]]. This package can help with calculations in these areas.
 
 _TwoVect_ was developed by [Dan Roberts](http://ctpweb.lns.mit.edu/personnel.html) in 2011 as an MSc project, at the [Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/) in the [Department of Computer Science](http://www.cs.ox.ac.uk/) of the [University of Oxford](http://www.cs.ox.ac.uk/), supervised by [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary). If you've got any questions, please get in touch.
 
-### How can I get it? ###
+## How can I get it? ##
 
 Here are download links for the [packages](http://www.cs.ox.ac.uk/people/jamie.vicary/twovect/twovect.zip) and the [user guide](http://www.cs.ox.ac.uk/people/jamie.vicary/twovect/guide.pdf).
 
-### What's it for? ###
+## What's it for? ##
 
-The mathematics of 2-vector spaces is often referred to as _[higher linear algebra](higher+algebra)_, and extends the ordinary linear algebra required for calculations involving traditional vector spaces. This higher linear algebra can be difficult to work with by hand: whereas ordinary linear algebra involves matrices of complex numbers, higher linear algebra involves matrices of _matrices_ of complex numbers. And whereas ordinary matrices can be composed in two different ways, ordinary composition and tensor product, the theory of 2-vector spaces involves three types of composition: tensor product, horizontal composition and vertical composition.
+The mathematics of 2-vector spaces is often referred to as _[higher linear algebra](higher+algebra)_, and extends the ordinary [[linear algebra]] required for calculations involving traditional vector spaces. This higher linear algebra can be difficult to work with by hand: whereas ordinary linear algebra involves [[matrices]] of [[complex numbers]], higher linear algebra involves matrices of _matrices_ of complex numbers. And whereas ordinary matrices can be composed in two different ways, ordinary composition and [[tensor product]], the theory of 2-vector spaces involves three types of composition: tensor product, [[horizontal composition]] and [[vertical composition]].
 
 While the underlying mathematics of 2-vector spaces is elegant and natural, the combinatorics of these basic operations can make calculations difficult to perform by hand. _TwoVect_ implements the basic operations of higher linear algebra, and can make calculations a lot easier.
 
@@ -28,7 +49,7 @@ Here are some example uses for the package.
 * You have chosen higher linear maps to associate to the generators of some [higher algebraic structure](higher+algebra), and want to check the relations are satisfied.
 * You want to verify correctness of a quantum protocol, described in terms of the [2-categorical approach to quantum information](http://arxiv.org/abs/1207.4563).
 
-### How does it work? ###
+## How does it work? ##
 
 The basic package _TwoVect_ implements a completely skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional semisimple complex 2-vector spaces, in the following way:
 * **2-vector spaces** are represented by natural numbers.
@@ -49,7 +70,7 @@ There are also two add-on packages:
 * _MTCategories_ provides implementations of the equations for symmetric or braided semisimple monoidal categories.
 * _MTCategory_ provides a simplified syntax for working 'inside' a particular choice of monoidal category. Once this is defined, the value of string diagrams can be computed by typing them in using ordinary string diagram syntax.
 
-### How could this be developed? ###
+## How could this be developed? ##
 
 There are several exciting ways this could evolve. If you want to help out, get in touch! Lots of things on this list would involve original research, and could form a part of a Masters or PhD dissertation.
 * A graphical front end would be a powerful addition. Compare to [Quantomatic](https://sites.google.com/site/quantomatic/), a GUI for _ordinary_ linear algebra.
