@@ -22,21 +22,29 @@
 
 Every [[subgroup]] of a [[discrete group|discrete]] [[free group]] is itself a [[free group]].
 
-=--
+=-- 
 
+This has a number of different proofs. 
+
++-- {: .proof} 
+###### Topological Proof (sketch) 
+A free group $G = F(S)$ is, by the [[van Kampen theorem]], a [[fundamental group]] of a bouquet[^fine] of $S$ many circles, which is in particular a [[connected space|connected]] 1-dimensional [[CW-complex]] $X$ (in simpler language, a connected graph). By general [[covering space]] theory, given a (pointed) connected space $X$ with $\pi_1(X, x) = G$, subgroups $H \subseteq G$ are in bijective correspondence with isomorphism classes of connected covering spaces $p: (E, e) \to (X, x)$, with $\pi_1(E, e) \cong H$. Now, a covering space $E$ of a connected graph $X$ is also a connected graph. But any connected graph is [[homotopy equivalence|homotopy equivalent]] to a bouquet of circles, whose fundamental group is a free group. Thus $\pi_1(E, e)$ is a free group, and we are done. 
+=-- 
+
+This topological proof can be reformulated in more algebraic language, using a little groupoid theory (groupoids being [[homotopy n-type|homotopy 1-types]]). A key construction here is the [[action groupoid]] $X \sslash G$ formed from a $G$-set $X$, also called a homotopy quotient or homotopy orbit space. 
 
 +-- {: .proof}
-###### Proof
+###### Groupoidal Proof
 
-By the discussion at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_, we may think of the [[free group]] $F(S)$ as the [[fundamental group]] of a [[homotopy n-type|homotopy 1-type]] which is freely built from a single vertex and one loop from that vertex to itself for each element in $S$. This is the _[[free groupoid]]_ $*\sslash F(S)$ on this [[directed graph]] (sometimes called a "bouquet of circles"). It is a classical fact (see at _[[universal principal bundle]]_) that the [[universal cover]] of this is the [[contractible]] groupoid $\mathbf{E}(F(S))$, the [[action groupoid]] $F(S)\sslash F(S)$ of $F(S)$ acting on itself from the right and that its [[quotient]] by the $F(S)$-action from the left recovers the original groupoid with fundamental group $F(S)$. The idea of the following proof is to instead quotient only by the given subgroup $H \hookrightarrow F(S)$ and hence obtain a groupoid with fundamental group $H$. It is then sufficient to observe that this quotient is still a [[free groupoid]] on a directed graph to conclude that $H$ is a free group.
+By the discussion at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_, we may think of the [[free group]] $F(S)$ as the [[fundamental group]] of a homotopy 1-type which is freely built from a single vertex and one loop from that vertex to itself for each element in $S$. This is the _[[free groupoid]]_ $*\sslash F(S)$ on this [[directed graph]] (a bouquet of circles). It is a classical fact (see at _[[universal principal bundle]]_) that the [[universal cover]] of this is the [[contractible]] groupoid $\mathbf{E}(F(S))$, the [[action groupoid]] $F(S)\sslash F(S)$ of $F(S)$ acting on itself from the right and that its [[quotient]] by the $F(S)$-action from the left recovers the original groupoid with fundamental group $F(S)$. The idea of the following proof is to instead quotient only by the given subgroup $H \hookrightarrow F(S)$ and hence obtain a groupoid with fundamental group $H$. It is then sufficient to observe that this quotient is still a [[free groupoid]] on a directed graph to conclude that $H$ is a free group.
 
-So let  $\mathbf{E} F(S) \coloneqq  F(S)\sslash F(S)$ be the [[action groupoid]] of $F(S)$ acting on itself (see also at [[universal principal bundle]]). This is [[contractible]], $\mathbf{E}F(S) \simeq *$, and comes with a canonical $F(S)$-[[action]] (from the other side). Hence it comes with an induced $H$-action and the [[quotient]] $H \backslash \backslash\mathbf{E}F(S) \simeq H \backslash \backslash *$ is [[generalized the|the]] connected groupoid whose [[fundamental group]] is $\pi_1 = H$. By the properties of [[free groupoids]] discussed at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_ it is sufficient to show that $H \backslash \backslash\mathbf{E}F(S)$ is isomorphic to the [[free groupoid]] on a connected [[directed graph]]. But $\mathbf{E}F(S)$ itself is the free groupoid on a directed graph, namely on the _action graph_ $F(S)\sslash S$. So 
+So let $\mathbf{E} F(S) \coloneqq  F(S)\sslash F(S)$ be the action groupoid of $F(S)$ acting on itself (see also at [[universal principal bundle]]). This is [[contractible]], $\mathbf{E}F(S) \simeq *$, and comes with a canonical $F(S)$-[[action]] (from the other side). Hence it comes with an induced $H$-action and the [[quotient]] $H \backslash \backslash\mathbf{E}F(S) \simeq H \backslash \backslash *$ is [[generalized the|the]] connected groupoid whose [[fundamental group]] is $\pi_1 = H$. By the properties of [[free groupoids]] discussed at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_ it is sufficient to show that $H \backslash \backslash\mathbf{E}F(S)$ is isomorphic to the [[free groupoid]] on a connected [[directed graph]]. But $\mathbf{E}F(S)$ itself is the free groupoid on a directed graph, namely on the _action graph_ $F(S)\sslash S$ (which the reader can picture as an infinite $S$-ary tree), and we may consider the homotopy quotient graph $H \backslash \backslash (F(S) \sslash S)$. The free groupoid functor $F$ preserves this homotopy quotient. Thus we have  
 
 $$
   H \backslash \backslash \mathbf{E}F\left(S\right) = H  \backslash F\left( F\left(S\right)\sslash S \right) =  F \left(\left(H \backslash F\left(S\right)\right)\sslash S\right)
   \,.
 $$
-
+as desired. 
 =--
 
 +-- {: .num_remark}
@@ -93,6 +101,8 @@ Reinhold, London; MR0327946) with a new preface by the author.
 Similar material can also be found in 
 
 * [[R. Brown]], _Topology and groupoids_, Booksurge, 2006. 
+
+[^fine]: A bouquet of circles is the [[coproduct]] of a collection of circles, each with a basepoint, in the category of [[pointed spaces]]. In other words, a [[pushout|wide pushout]] in [[Top]] of inclusions of a 1-point space into circles, with the evident pointing. 
 
 
 [[!redirects Nielsen's theorem]]
