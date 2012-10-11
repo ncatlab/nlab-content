@@ -45,3 +45,7 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 [[!redirects world line]]
 [[!redirects world volume]]
 [[!redirects world sheet]]
+
+[[!redirects trajectory]]
+[[!redirects trajectories]]
+
