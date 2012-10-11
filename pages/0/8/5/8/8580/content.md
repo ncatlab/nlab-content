@@ -82,18 +82,18 @@ To be predictive, a [[metalanguage|language]] for physics is moreover to be a la
 
 (We explain what this particular judgement means physically below in the section _[Yang-Mills theory](#Yang-MillsTheory)_.)
 
-The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judgements]]_ about existence of _[[terms]]_ of some _[[type]]_ is called _[[type theory]]_. The following table indicates the central elements of this [[metalanguage|language]].
+The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judgements]]_ about there being _[[terms]]_ of some _[[type]]_ is called _[[type theory]]_. The following table indicates central expressions available in this [[metalanguage|language]].
 
 **Expressions in [[type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
-| There is... | $\vdash \ldots$ | We speak in the context of a ([[(∞,1)-topos|higher]]) [[topos]] $\mathbf{H}$, a _place where things may be_. | $\mathbf{H} = $ [[Smooth∞Grpd]], [[SynthDiff∞Grpd]], [[SmoothSuper∞Grpd]], ... | _[Smooth spaces](#SmoothSpaces)_ and _[Smooth homotopy types](#SmoothnGroupoids)_  |
+| There is... | $\vdash \ldots$ | We speak in the context of a ([[(∞,1)-topos|higher]]) [[topos]] $\mathbf{H}$, a _place where things may be_. | $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SynthDiff∞Grpd]] or [[SmoothSuper∞Grpd]] or ... | _[Smooth spaces](#SmoothSpaces)_ and _[Smooth homotopy types](#SmoothnGroupoids)_  |
 | There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | an [[element]] $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[moduli stack]]. | _[Judgements about types and terms](#Judgments)_ |
 | There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | an [[element]] $(* \stackrel{\vdash X}{\to} Obj) \in Mor(\mathbf{H})$ in the [[small object|small]]-[[object classifier]] $Obj$  | A point in the [[moduli stack]] of all [[small object|small]] moduli stacks. | _[Judgements about types and terms](#Judgments)_  |
 | Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | an [[element]] in the [[slice (infinity,1)-topos|slice topos]] $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. | _[Slice categories](#SliceCategories)_ and _[Slice toposes](#SliceToposes)_ and _[Slice ∞-Toposes](#SlicedInfinityToposes)_ |
-|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ |  | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
+|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ | total space of a [[bundle]] | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
 | There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |  
 | There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[element]] in the [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | [[point]] in the smooth relative [[mapping space]] of smooth [[sections]]  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
 | There is the collection of assignments of an $a(x)$ to each $x$. | $\vdash\; \left( \prod_{x \colon X} A\left(x\right) \right) \colon Type$ | [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$ | smooth relative [[mapping space]] of smooth [[sections]] |  |
@@ -101,15 +101,15 @@ The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judg
 | There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | [[element]] of the [[truncated object of an (infinity,1)-topos|(-1)-truncation]] $* \stackrel{p}{\to}\tau_{-1}(X)$ |  | _[Subobjects](#Subobjects)_ |
 | There is a proof $p$ that it is true that there is an $a(x)$ for some $x$. | $\vdash\; p \colon \left(\exists_{x \colon X} A\left(x\right) \right) \coloneqq \left[ \sum_{x \colon X} A\left(x\right)\right]$ | | |  |
 
-In order to describe a structured reality our language needs to be able to speak about _comparison_ of things. Since fundamental physics rests on the _[[gauge theory|gauge principle]]_ we should not use a language that can say that two things are _[[equality|equal]]_, for in physics this is impossible or else meaningless: instead two things, such as the [[gauge field]] $\nabla$ from above, can be _gauge [[equivalence|equivalent]]_ as exhibited by a _[[gauge transformation]]_ between them. So our language needs to express [[judgements]]
+In order to describe a structured reality our language needs to be able to speak about _comparison_ of things. Fundamental physics rests on the _[[gauge theory|gauge principle]]_ and there we should not use a language that can say that two things are _[[equality|equal]]_, for in physics this is impossible or else meaningless: instead two things, such as the [[gauge field]] $\nabla$ from above, can be _gauge [[equivalence|equivalent]]_ as exhibited by a _[[gauge transformation]]_ between them. So our language needs to express [[judgements]] of the form:
 
-> There is an [[equivalence]] between $\nabla_1$ and $\nabla_2$ in the [[standard model of particle physics|standard model]] $[X,\mathbf{B}\left(U\left(1\right)\times SU\left(2\right)\times SU\left(3\right)\right)_{conn}]$ of [[gauge fields]] over [[spacetime]] $X$.
+> There is a gauge [[equivalence]] between $\nabla_1$ and $\nabla_2$ in the [[standard model of particle physics|standard model]] $[X,\mathbf{B}\left(U\left(1\right)\times SU\left(2\right)\times SU\left(3\right)\right)_{conn}]$ of [[gauge fields]] over [[spacetime]] $X$.
 
-And the language needs to be able to make [[natural deduction|natural deductions]] from such statements such as
+And the language needs to be able to make [[natural deduction|natural deductions]] from such statements such as:
 
 > Given an [[equivalence]] between gauge fields $\nabla_1$ and $\nabla_2$ there is an equivalence between the underlying [[Yang-Mills instanton|instanton]] sectors.
 
-A [[metalanguage|formal language]] based on the [[type theory]] we have so far that contains these statements is _type theory with [[propositional equality]]_. In this language we have [[judgements]] such as the following.
+The [[metalanguage|formal language]] based on the [[type theory]] which we have so far that contains these statements is _type theory with [[propositional equality]]_. In this language we have [[judgements]] such as the following.
 
 **Expressions involving [[propositional equality]]**:
 
@@ -120,7 +120,7 @@ A [[metalanguage|formal language]] based on the [[type theory]] we have so far t
 | Given $x,x'$, there is the collection of equivalences between $x$ and $x'$ equivalent. | $x,x' \colon X \;\vdash \; \left(x \simeq x'\right) \colon Type$. | |  | |
 | Given $x,x'$, there is the collection of proofs that it is true that $x$ and $x'$ are equivalent. | $x,x' \colon X \;\vdash \; [x \simeq x'] \colon Type$. | | | |
 
-But the _[[gauge theory|gauge principle]]_ reaches deeper: [[gauge transformations]] themselves are in subject to the gauge principle themselves. In general it is meaningless to ask if two gauge transformations are equal, but we may ask if there is a _[[higher gauge theory|higher gauge transformation]]_ that transforms one gauge transformation into the other. In the physics literature such _gauge-of-gauge transformations_ are best known in their incarnation as _ghosts-of-ghost fields_ in what is called the _[[BRST complex]]_ of the given [[gauge theory]]. Careful analysis for instance of [[magnetic charge]] shows that already quite mundane physical phenomena exhibit such higher order gauge transformations. But more famously they are known to arise in various guises in [[string theory]], which is a hypthetical refinement of the [[standard model of particle physics]] and [[gravity]].
+But the _[[gauge theory|gauge principle]]_ reaches deeper: [[gauge transformations]] themselves are subject to the gauge principle themselves. In general it is meaningless to ask if two gauge transformations are equal, but we may ask if there is a _[[higher gauge theory|higher gauge transformation]]_ that transforms one gauge transformation into the other. In the physics literature such _gauge-of-gauge transformations_ are best known in their incarnation as _ghost-of-ghost fields_ in what is called the _[[BRST complex]]_ of the given [[gauge theory]]. Careful analysis for instance of the _[[Dirac charge quantization]]_ of _[[magnetic charge]]_ shows that already quite mundane physical phenomena exhibit such higher order gauge transformations. But more famously they are known to arise in various guises in _[[string theory]]_, which is a hypthetical refinement of the [[standard model of particle physics]] and [[gravity]].
 
 In either case, our [[metalanguage|formal language]] should not allow the [[natural deduction|deduction]] that gauge [[equivalences]] are themselves either [[equality|equal]] or not, but may only allow [[judgements]] of the following form:
 
@@ -130,7 +130,7 @@ The flavor of _[[type theory]] with [[propositional equality]]_ for which this i
 
 Since therefore a [[type]] $X$ in intensional type theory may contain [[homotopies]] between its [[terms]] of arbitrary order, we call it a _[[homotopy type]]_. The homotopy-type nature of the type of gauge connections $[X,\mathbf{B}G_{conn}]$ is most familiar in the physics literature in its [[infinity-Lie theory|infinitesimal approximation]], which is the (off-shell) [[BRST complex]] of the gauge theory: the $n$-fold ghost-of-ghost-fields in the BRST complex correspond to the $n$-fold [[homotopies]] in $[X, \mathbf{B}G_{conn}]$.
 
-In particlar, in [[intensional type theory]] we find the [[gauge group]] of a homotopy type:
+In particlar, in [[intensional type theory]] we find the [[gauge group]] of a homotopy type, as indicated in the following table.
 
 **Expressions in [[intensional type theory]]**:
 
@@ -162,9 +162,9 @@ We indicate now some central judgements that are expressible in homotopy type th
 
 In [[gauge theory]] physics a [[representation]] $V$ of the [[gauge group]] $G$ encodes the [[particle]]-content of the [[model (in theoretical physics)]]. Therefore all the ingredients so far encode the _[[kinematics]]_ of gauge theory, its setup before an actual _[[dynamics]]_ is specified.
 
-Dynamics in physics says how things _move_, hence how they trace out [[trajectories]] in a given [[spacetime]]. Our [[metalanguage|language]] for reasoning about physics should be able to express this. For $X$ a homotopy type the models [[spacetime]] (the collection of all points of spacetime) there should be a homotopy type $\Pi(X)$ whose [[homotopies]] and higher homotopies are the _smooth paths_ and higher paths in $X$. In order to analyse the notion of _smoothness_ here -- we will say: the way that points [[cohesive topos|cohes]] -- there should be an expression $\flat X$ for the the [[discrete space|discrete]] collection of points underlying $X$, such that therefore all smooth paths in $\flat X$ are constant,  $\Pi \flat X \simeq \flat X$. Finally there should be an expression $\sharp X$ which dually forms the [[codiscrete object|codiscrete]] smooth structure.
+Dynamics in physics says how things _move_, hence how they trace out [[trajectories]] in a given [[spacetime]]. Our [[metalanguage|language]] for reasoning about physics should be able to express this. For $X$ a homotopy type that models [[spacetime]] (the collection of all points of spacetime) there should be a homotopy type $\Pi(X)$ whose [[homotopies]] and higher homotopies are the _smooth trajectories_, the _smooth paths_ and higher paths in $X$. In order to analyse the notion of _smoothness_ here -- we will say: the way that points [[cohesive topos|cohese]] -- there should be an expression $\flat X$ for the the [[discrete space|discrete]] collection of points underlying $X$, such that therefore all smooth paths in $\flat X$ are constant,  $\Pi \flat X \simeq \flat X$. Finally there should be an expression $\sharp X$ which dually forms the [[codiscrete object|codiscrete]] smooth structure.
 
-There are some natural simple [[axioms]] on these three _[[modal logic|modalities]]_ $(\Pi \vdash \flat \vdash \sharp)$ which ensure that they do encode this meaning. In particular $\Pi$ and $\flat$ are a _[[monads]]_ and _[[comonad]]_ on the type system, _[[monad (in computer science)|in the sense of computer science]]_ and $\sharp$ is even an internal monad in a certain sense. 
+There are some natural simple [[axioms]] on these three _[[modal logic|modalities]]_ $(\Pi \dashv \flat \dashv \sharp)$ which ensure that they do encode this meaning. In particular $\Pi$ and $\flat$ are a _[[monads]]_ and _[[comonad]]_ on the type system, _[[monad (in computer science)|in the sense of computer science]]_ and $\sharp$ is even an internal monad in a certain sense. 
 
 Equipping [[homotopy type theory]] with these [[modal logic|modalities]] makes it become _[[cohesive homotopy type theory]]_. 
 
@@ -175,10 +175,11 @@ Equipping [[homotopy type theory]] with these [[modal logic|modalities]] makes i
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
 | Given a cohesive homotopy type $X$, there is the the _decohesed_ homotopy type $\sharp X$ in which all separate points are collected to one cohesive blob. | $x\colon X \;\vdash\; \sharp X \colon Type$ | |  |  |
 | Given a cohesive homotopy type, there is the map that forgets the cohesion. | $x \colon X \;\vdash\;  DeCohese \colon X \to \sharp X$ | | | |
+| Given $X$ there is the collection $\Pi(X)$ of points in $X$ and smooth trajectories between points in $X$. | $\left(X \colon \sharp Type\right) \;\vdash\; \Pi(X) \colon \sharp Type$ | [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] | [[fundamental ∞-groupoid]] |  |
 | |  $A \colon \sharp Type \;\vdash\; \flat A \colon \sharp Type$ |  | [[moduli stack]] for [[connection on an infinity-bundle|flat ∞-connections]] | |
 | Given $A$, there is a map from flat $A$-connections to the underlying $A$-bundles  | $A \colon \sharp Type \;\vdash\; UnderlyingBundle_A \colon \flat A \to A $  | | | |
 
-Adding the [[modal logic|modalities]] $(\Pi \vdash \flat \vdash \sharp)$ to the above language of [[homotopy type theory]] yields a language that we call_[[cohesive homotopy type theory]]_.
+Adding the [[modal logic|modalities]] $(\Pi \dashv \flat \dashv \sharp)$ to the above language of [[homotopy type theory]] yields a language that we call _[[cohesive homotopy type theory]]_.
 Fundamental [[judgements]] in [[cohesive homotopy type theory]] include those indicated in the following table, which capture central concepts of [[gauge theory]] and its [[geometric quantization]].
 
 **Structures expressible in [[cohesive homotopy type theory]]**:
@@ -194,7 +195,7 @@ Fundamental [[judgements]] in [[cohesive homotopy type theory]] include those in
 | A pre-quantum state $\psi$ is a section of the associated prequantum bundle. | $\vdash \; \psi \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to V\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\psi}{\to}&&  V\sslash \mathbb{G}_{conn} \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\overline{\rho}} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | [[space of states (in geometric quantization)|prequantum state]] | _[Geometric quantization](#GeometricQuantization)_ | 
 | An exponentiated pre-quantum operator $\exp(\hat O)$ is  | $\vdash \; \exp(\hat O)  \colon \underset{\nabla \colon \mathbf{B}\mathbb{G}_{conn}}{\prod} \left( P\left(\nabla\right) \to P\left(\nabla\right) \right)$  |  $\array{ X &&\stackrel{\exp(\hat O)}{\to}&&  X \\ & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\nabla} \\ && \mathbf{B} \mathbb{G}_{conn}}$ | element of [[quantomorphism group]]/[[Heisenberg group]] | _[Geometric quantization](#GeometricQuantization)_ | 
 
-Finally, in order to be able to concretely speak about not any abstract gauge field, but the concrete gauige fields in the [[observable universe]], out language should be able to express the existence of the [[continuum]] [[real line]]. 
+Finally, in order to be able to concretely speak about not any abstract gauge field, but the concrete gauge fields in the [[observable universe]], out language should be able to express the existence of the [[continuum]] [[real line]]. 
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
@@ -213,7 +214,9 @@ This then induces the existence of the [[circle group]] $U(1) = \mathbb{R}/\math
 
 $\,$
 
-This concludes the introduction and survey. We now begin the text on the _geometry of physics_.
+There are of course may more constructions that are naturally expressibe in [[cohesive homotopy type theory]], but this should give an idea and highlight cornerstones of the following discussion. 
+
+We now end this introduction and overview and begin the text on _geometry of physics_.
 
 ## **Coordinate systems**
  {#CoordinateSystems}
