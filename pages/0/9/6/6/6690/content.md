@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $C$ a [[test category]] the canonical structure of a [[category with weak equivalences]] on the [[category of presheaves]] over $C$ lifts of the structure of a [[model category]]. All of these are models for the standard [[homotopy theory]] (the [[homotopy category]] of [[∞Grpd]]).
+For $C$ a [[test category]], the canonical structure of a [[category with weak equivalences]] on the [[category of presheaves]] over $C$ lifts to the structure of a [[model category]]. All of these are models for the standard [[homotopy theory]] (the [[homotopy category]] of [[∞Grpd]]).
 
 ## Examples
 
