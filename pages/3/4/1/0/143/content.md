@@ -263,7 +263,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-A complete full subcategory $\mathcal{U} \hookrigtharrow Op$ is a collection $\{U_i \hookrightarrow X\}$ of [[open subsets]] that is closed under forming [[intersections]] of subsets. The [[colimit]] 
+A complete full subcategory $\mathcal{U} \hookrightarrow Op$ is a collection $\{U_i \hookrightarrow X\}$ of [[open subsets]] that is closed under forming [[intersections]] of subsets. The [[colimit]] 
 
 $$
   \underset{\to}{\lim} (\mathcal{U} \hookrightarrow Op) 
