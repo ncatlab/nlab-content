@@ -77,11 +77,15 @@ See [[pure state]].
 
 * **state**
 
-  * [[classical state]], [[quantum state]]
+  * [[classical state]], 
 
-  * [[space of states (in geometric quantization)]]
+  * [[quantum state]]
+   
+    * [[superposition]]
 
-  * [[state in AQFT and operator algebra]]
+    * [[space of states (in geometric quantization)]]
+
+    * [[state in AQFT and operator algebra]]
 
 * [[observable]]
 
