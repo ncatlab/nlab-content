@@ -132,11 +132,9 @@ Here are some examples of lax and oplax colimits:
 ### 2-Colimits in $Cat$
  {#2ColimitsInCat}
 
-As shown [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit), if $C$ is an ordinary category and $F \colon C \to Cat$ is a [[pseudofunctor]], then the [[oplax colimit]] of $F$ is given by the [[Grothendieck construction]] $\int F$.
+As shown [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit), if $C$ is an ordinary category and $F \colon C \to Cat$ is a [[pseudofunctor]], then the [[oplax colimit]] of $F$ is given by the [[Grothendieck construction]] $\int F$ --- and its [[pseudo-colimit]] is given by [[localization|formally inverting]] the [[cartesian morphism|opcartesian]] morphisms in $\int F$.  This yields a construction of certain pseudo 2-colimits in $Cat$.
 
-, and its [[pseudo-colimit]] is given by [[localization|formally inverting]] the [[cartesian morphism|opcartesian]] morphisms in $\int F$.
-
-A similar result holds if $C$ is a [[bicategory]].  In that case $\int F$ is also a bicategory: a 2-cell from $(m \colon c \to d, f \colon m_*x \to y)$ to $(n \colon c \to d, g \colon n_*x \to y)$ is given by a 2-cell $\mu \colon m \Rightarrow n$ in $C$ such that $\mu_* x$ is a morphism $f \to g$ over $y$.
+Moreover, a similar result holds more generally when $C$ is a [[bicategory]].  In this case, $\int F$ is also a bicategory: a 2-cell from $(m \colon c \to d, f \colon m_*x \to y)$ to $(n \colon c \to d, g \colon n_*x \to y)$ is given by a 2-cell $\mu \colon m \Rightarrow n$ in $C$ such that $\mu_* x$ is a morphism $f \to g$ over $y$.
 
 Let $\pi_*$ denote the functor that sends a bicategory $K$ to the category whose objects are those of $K$ and whose hom-sets are the [[connected category|connected components]] of the hom-categories of $K$; let also $d_*$ denote the functor that sends a category $X$ to the corresponding locally discrete bicategory.  Then there is an equivalence of categories
 
