@@ -36,7 +36,7 @@ For $S \in Set$
 
 * $Disc(S)$ is the [[topological space]] on $S$ in which every subset is an [[open set]]
 
-  this is caled the **discrete topology** on $S$, $Disc(S)$ is called a [[discrete space]];
+  this is called the **discrete topology** on $S$, $Disc(S)$ is called a [[discrete space]];
 
 * $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself
 
