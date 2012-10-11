@@ -1,0 +1,18 @@
+[[!redirects femtometres]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **femtometer** (abbreviated $fm$) is the [[length]] of one $10^{15}$th of a [[meter]].
+
+## References
+
+* Wikiedia, _[Femtometre](http://en.wikipedia.org/wiki/Femtometre)_
+
+[[!redirects femtometer]]
+[[!redirects femtometers]]
+[[!redirects femtometres]]
+[[!redirects fm]]
