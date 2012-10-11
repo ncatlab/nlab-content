@@ -146,16 +146,16 @@ In this case,
 
 ## Properties
 
-### As a lax colimit
+### As an oplax colimit
  {#AsALaxColimit}
 
-The Grothendieck construction on $F : C \to Cat$ is equivalently the [[lax colimit]] of $F$.  That means that for each category $X$ there is an [[equivalence|equivalence of categories]]
+The Grothendieck construction on $F : C \to Cat$ is equivalently the [[oplax colimit]] of $F$.  That means that for each category $X$ there is an [[equivalence|equivalence of categories]]
 
 $$
   Lax(F, \Delta X) \simeq [{\textstyle \int} F, X]
 $$
 
-that is natural in $X$, where $\Delta X$ is the constant functor with value $X$.
+that is natural in $X$, where $\Delta X$ is the constant functor with value $X$.  (See [[oplax colimit]] for an explanation of why *lax* natural transformations appear in the definition of an *oplax* colimit.)
 
 A [[lax natural transformation]] $\alpha$ from $F$ to $\Delta X$ is given by
 
