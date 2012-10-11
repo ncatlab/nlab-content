@@ -15,6 +15,8 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[Haskell]], [[Coq]], [[Agda]], [[NuPRL]], ....
 
+* [[Mathematica]]
+
 ## Related concepts
 
 * [[computation]]
