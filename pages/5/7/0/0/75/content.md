@@ -29,7 +29,7 @@ There are two different attitudes to what a desirable or interesting foundation 
 
    The archetypical such system is [[ZFC]] [[set theory]]. Other formal systems of interest here are [[elementary function arithmetic]] and [[second order arithmetic]], because they are [[proof theory|proof-theoretically]] weak, and still can derive "almost all of undergraduate mathematics" ([Harrington](#Harrington)).
 
-1. In **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
+1. In **[[practical foundations]]** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
 
    Formal systems of interest here are [[ETCS]] or flavors of [[type theory]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
@@ -121,7 +121,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 * [[Bill Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
  {#Lawvere}
 
-Practical foundations in terms of [[type theory]] language are laid out in
+[[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
 * [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 {#Taylor}
