@@ -1,0 +1,60 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# The adjoint triangle theorem
+* automatic table of contents
+{: toc}
+
+
+## Statement ##
+
++-- {: .num_theorem #ATT}
+###### Theorem
+Suppose that $U:B\to C$ is a [[functor]] which has a [[left adjoint]] $F:C\to B$ with the property that the diagram
+$$ F U F U \;\underoverset{\epsilon F U}{F U \epsilon}{\rightrightarrows}\; F U \xrightarrow{\epsilon} 1_B $$
+is a [[coequalizer]].  Suppose that $A$ is a category with coequalizers of reflexive pairs; then a functor $R:A\to B$ has a left adjoint if and only if the composite $U R$ does.
+=--
++-- {: .proof}
+###### Proof
+The direction "only if" is obvious since adjunctions compose.  For "if", let $F'$ be a left adjoint of $U R$, and define $L:B\to A$ to be the pointwise coequalizer of
+$$ F' U F U \xrightarrow{F' U \epsilon} F' U $$
+and
+$$
+  F' U F U \xrightarrow{F' U \theta U}
+  F' U R F' U \xrightarrow{\epsilon' F' U}
+  F' U
+$$
+where $\theta:F \to R F'$ is the [[mate]] of the equality $U R = U R$ under the adjunctions $F\dashv U$ and $F'\dashv U R$.  One then verifies that this works.
+=--
+
++-- {: .num_remark #Monadic}
+###### Remark
+The hypotheses on $U$ are satisfied whenever it is [[monadic functor|monadic]].
+=--
+
++-- {: .num_remark #RegMono}
+###### Remark
+In fact, it suffices to assume that each counit $\epsilon : F U b \to b$ is a [[regular epimorphism]], rather than it is the coequalizer of a specific given pair of maps.  See [(Street-Verity), Lemma 2.1](#StreetVerity).
+=--
+
+## Applications
+
+The [[adjoint lifting theorem]] is a corollary.
+
+## References ##
+
+* [[Eduardo Dubuc]], "Adjoint triangles", *Lecture Notes in Mathematics* 61
+
+* [[Ross Street]] and [[Dominic Verity]], "The comprehensive factorization and torsors", 2010 [TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html).
+{#StreetVerity}
+
+[[!redirects adjoint triangle]]
+[[!redirects adjoint triangles]]
