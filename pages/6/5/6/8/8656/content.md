@@ -1,0 +1,4 @@
+
+See at _[[Langlands duality]]_.
+
+[[!redirects Langlands dual groups]]
