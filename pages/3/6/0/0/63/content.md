@@ -255,13 +255,15 @@ In conclusion this shows that the observables in the BRST complex are precisely 
 
 The BRST complex described a homotopical [[quotient]] of a space by an infinitesimal [[action]]. Combined with a homotopical intersection, it is part of the [[BRST-BV complex]].
 
+* [[gauge transformation]], [[higher gauge transformation]]
+
 ## References
 
 The idea of "ghost" fields was introduced in 
 
 * [[Richard Feynman]], _Quantum theory of gravitation_ In: Acta physica polonica. vol 24, 1963, S. 697 
 
-And expanded on in
+and expanded on in
 
 * Wheeler-Festschrift, Klauder (ed.): _Magic without Magic_ . (1972)
 
