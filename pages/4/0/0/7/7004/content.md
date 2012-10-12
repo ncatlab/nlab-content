@@ -17,6 +17,19 @@
 
 Semantics is the interpretation of the [[syntax]] of a [[theory]] in a [[model]].
 
+## Examples
+
+### Categorical semantics of dependent type theory
+
+Notably the [[semantics]] of [[type theories]] is given by [[categories]]. For instance 
+
+* [[dependent type theory]] is precisely the formal language for which [[locally cartesian closed categories]] are the semantics, 
+
+* [[intensional type theory]]is the formal language for which [[locally cartesian closed (infinity,1)-categories]] are the semantics;
+
+* [[homotopy type theory]] is the formal language for which [[elementary (infinity,1)-toposes]] are the semantics.
+
+For more on this see at _[[categorical semantics]]_ and at _[[relation between type theory and category theory]]_. 
 
 ## Related concepts
 
