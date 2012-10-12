@@ -129,6 +129,12 @@ $$
 
 Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation]]s.
 
+## Related pages
+
+* [[jet space]]
+
+* [[metric jet]]
+
 ## References
 
 The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
