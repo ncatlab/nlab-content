@@ -135,7 +135,9 @@ Similarly, the above argument can be interpreted to say that even if $\mathcal{D
 
 A more abstract argument using [[comonadic functor|comonadicity]] and the [[adjoint triangle theorem]], which also applies to [[locally cartesian closed categories]], can be found in Theorem 2.12 of
 
-* Street and Verity, *The comprehensive factorization and torsors*, [TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html).
+* Street and Verity, *The comprehensive factorization and torsors*, [TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)
+
+and is reproduced in the setting of closed monoidal categories at [[closed monoidal category]].
 
 
 ### Functional completeness theorem 
