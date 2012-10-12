@@ -76,7 +76,7 @@ We can consider
 2. $ L(q,\dot{q}) = \int_{S} \mathcal{L}(q,\dot{q}) \,\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z $, where now $q$ is a configuration of fields on $S$, which is a region of space.  We fix boundary conditions on the boundary of $S$ (typically that $q$ and $\dot{q}$ go to zero if $S$ is all of space).
 3. $ S(q) = \int_{R} \mathcal{L}(q,\dot{q}) \,\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z\,\mathrm{d}t $, where now $q$ is a configuration of fields on $R$, which a region of spacetime, with time derivative $\dot{q} = \partial{q}/\partial{t}$.  We fix boundary conditions on the boundary of $R$.
 
-The formulation of (3) above is still not manifestly coordinate indepdendent.  However, $\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z\,\mathrm{d}t$ is simply the [[volume form]] on spacetime and $\dot{q}$ is merely one choice of coordinate on [[configuration space|state space]] and could just as easily be replaced by a derivative with respect to any timelike coordinate on spacetime (or drop coordinates altogether).
+The formulation of (3) above is still not manifestly coordinate independent.  However, $\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z\,\mathrm{d}t$ is simply the [[volume form]] on spacetime and $\dot{q}$ is merely one choice of coordinate on [[configuration space|state space]] and could just as easily be replaced by a derivative with respect to any timelike coordinate on spacetime (or drop coordinates altogether).
 
 
 ## Examples
