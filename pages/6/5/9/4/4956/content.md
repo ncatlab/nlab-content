@@ -322,6 +322,10 @@ $$
 
 * [[pullback of differential forms]]
 
+* [[tangent space]], [[tangent bundle]]
+
+* [[jet space]], [[jet bundle]], [[metric jet]]
+
 [[!redirects derivative]] 
 [[!redirects derivatives]] 
 
