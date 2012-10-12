@@ -258,6 +258,10 @@ implies that $\mathcal{A}$ is $\mathcal{J}$-cocomplete. In particular,
 if $\mathcal{A}$ has coequalizers of reflexive pairs and $\mathcal{C}$
 is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 
+## Related pages
+
+* The adjoint lifting theorem is a corollary of the [[adjoint triangle theorem]].
+
 ## References ##
 Section 4.5 of volume 2 of 
 
