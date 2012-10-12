@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In fundamental physics, notably in [[quantum field theory]] and [[string theory]] one often says that a non-trivial [[equivalence]] between two [[models (in theoretical physics)]] is a [[duality]]. 
+
+## Examples
+
+* [[Seiberg duality]]
+
+* [[Montonen-Olive duality]]
+
+* [[S-duality]]
+
+* [[T-duality]]
+
+* [[U-duality]]
+
+* [[AdS/CFT|AdS/CFT duality]]
+
+## Relation to mathematical duality
+
+In some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. In [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains.
+
+## Related concepts
+
+There is also a duality in the _description_ of physics:
+
+[[!include Isbell duality - table]]
+
+[[!redirects dualities in physics]]
