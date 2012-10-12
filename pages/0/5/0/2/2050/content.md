@@ -82,7 +82,7 @@ and another one due to [[Jean-Pierre Serre]].
 
 Versions of the topological proof are given in many places. One is 
 
-* J.P. May, _A Concise Course in Algebraic Topology_, Chicago Lectures in Mathematics, U. Chicago Press (1999), pp. 34-35. Revised version available online ([pdf](www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)), chapter 4. 
+* [[Peter May]], _A Concise Course in Algebraic Topology_, Chicago Lectures in Mathematics, U. Chicago Press (1999), pp. 34-35. Revised version available online ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)), chapter 4. 
 {#Maybook}
 
 Another can be found reviewed towards the end of 
