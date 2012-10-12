@@ -68,6 +68,9 @@ Of particular interest are concrete dualities between [[concrete categories]] $C
 $$ f : C \to Set$, $\hat f : D \to Set $$
 to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the same underlying set $f(a) = \hat f(\hat a)$. Such objects are known as [[dualizing object]]s. 
 
+## Related concepts
+
+* [[duality in physics]]
 
 ## References
 
