@@ -15,7 +15,7 @@ Let $M$ and $M'$ be [[metric spaces]], $f,g:M\to M'$ two maps, and $a\in M$.
 We say that $f$ and $g$ are **tangent at $a$** if $f(a)=g(a)$ and the function $C:M\to \mathbb{R}_+$ defined by
 $$
 C(a) = 0 \qquad
-C(x) = frac{d(f(x),g(x))}{d(x,a)} \forall x\neq a
+C(x) = \frac{d(f(x),g(x))}{d(x,a)} \forall x\neq a
 $$
 is continuous at $a$.
 =--
