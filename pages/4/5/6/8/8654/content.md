@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[gauge theory]] the configuration space/[[phase space]] is not in general a [[smooth space]], but a [[smooth groupoid]]: the [[gauge transformations]] between [[gauge fields]] are the [[morphisms]] of this groupoid.
+
+The [[infinity-Lie theory|infinitesimal approximation]] to this smooth groupoid is a [[Lie algebroid]]. The [[dg-algebra]] of functions on this is called the _[[BRST complex]]_ of the gauge theory. It contains in degree-0 the (duals to) the [[gauge fields]] and in degree-1 the [[cotangent space|cotangents]] to the [[gauge transformations]]. These degree-1 elements that appear here alongside the physical fields in degree 0 are called **ghost fields** in the physics literature.
+
+If there are [[higher gauge transformations]] "[[gauge-of-gauge transformations]]" then the [[BRST complex]] has generators in higher degree, too, the cotangents to these higher gauge transformations. These are then called **ghost-of-ghost fields**.
+
+For more details and further pointers see at _[[BRST complex]]_ and in particular at _[[BV-BRST formalism]]_.
+
+[[!redirects ghost fields]]
+[[!redirects ghost]]
+[[!redirects ghosts]]
+[[!redirects ghost-of-ghost field]]
+[[!redirects ghost-of-ghost fields]]
+
