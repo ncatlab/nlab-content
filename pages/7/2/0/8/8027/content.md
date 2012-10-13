@@ -7,6 +7,9 @@
 
 The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$, (from which the SYM is obtained by compactifying the [[M5-brane]] on i.
 
+## Related concepts
+
+* [[duality in physics]]
 
 ## References
 
