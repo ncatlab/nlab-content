@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $R$ a [[ring]], an [[associative algebra]] over $R$ is a [[ring]] $A$ equipped with a ring inclusion $R \hookrightarrow A$. If $A$ is also equipped with a ring homomorphism the other way round, 
+
+$$
+  \epsilon \colon A \to R
+$$
+
+then it is called an _augmented algebra_.
+
+The [[kernel]] of $\epsilon$ is called the corresponding [[augmentation ideal]] in $A$.
+
+## Examples
+
+Every [[group algebra]] $R[G]$ is canonically augmented, the augmentation map being the operation that forms the sum of [[coefficients]] of the canonical basis elements.
+
+## Related concepts
+
+* [[augmentation]]
+
+[[!redirects augmented algebras]]
