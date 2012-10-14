@@ -1484,6 +1484,126 @@ The same argument holds true for $R$ any [[principal ideal domain]].
 
 (...)
 
+### Projective resolutions adapted to general group cohomology {#ProjectiveResolutionsForGroupCohomology}
+
+Let $G$ be a [[discrete group]]. Write $\mathbb{Z}[G]$ for the [[group ring]] over $G$. Notice from _[module -- Abelian groups with G-action as modules over the group ring](module#AbelianGroupsWithGAction)_ that linear $G$-[[actions]] on [[abelian groups]] $A$ are equivalently $\mathbb{Z}[G]$-[[module]] structures in $A$.
+
+We discuss how [[cocycles]] in the [[group cohomology]] of $G$ with [[coefficients]] in such a [[module]] $A$ are naturally encoded in morphisms out of projective resolutions of the trivial $\mathbb{Z}[G]$-module.
+
++-- {: .num_defn #AugmentationMap}
+###### Definition
+
+Write
+
+$$
+  \epsilon \colon \mathbb{Z}[G] \to \mathbb{Z}
+$$
+
+for the [[homomorphism]] of [[abelian groups]] which forms the sum of $R$-[[coefficients]] of the [[formal linear combinations]] that constitute the group ring
+
+$$
+  \epsilon \colon r \mapsto \sum_{g \in G} r_g
+  \,. 
+$$
+
+This is called the [[augmentation]] map.
+
+=--
+
++-- {: .num_defn #ProjectiveResolutionForZAsZGModule}
+###### Definition
+
+For $n \in \mathbb{N}$ let 
+
+$$
+  Q^u_n \coloneqq F(U(G)^{\times^{n}})
+$$ 
+
+be the [[free module]] over the [[group ring]] $\mathbb{Z}[G]$ on $n$-[[tuples]] of elements of $G$ (hence $Q^u_0 \simeq \mathbb{Z}[G]$ is the free module on a single generator).
+
+Let $\partial_{n-1} \colon Q^u_n \to Q^u_{n-1}$ be given on [[basis]] elements by
+
+$$
+  \partial_{n-1} (g_1, \cdots, g_n)
+  \coloneqq = 
+  g_1 (g_2, \cdots, g_n)
+  + 
+  \sum_{i = 1}^{n-1} (-1)^i (g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n)
+  + 
+  (-1)^n (g_1, \cdots, g_{n-1})
+  \,,
+$$
+
+where in the first summand we have the action of $g_1 \in G \hookrightarrow \mathbb{Z}[G]$ on the basis element $(g_2, \cdots, g_n)$ in $F(U(G)^{n-1})$. 
+
+Write furthermore $Q_n$ for the [[quotient]] module $Q^u_n \to Q^n$ which is the [[cokernel]] of the inclusion of those elements for which one of the $g_i$ is the unit element.
+
+
+=--
+
++-- {: .num_prop }
+###### Propoition
+
+The construction in def. \ref{ProjectiveResolutionForZAsZGModule} defines [[chain complexes]] $Q^u_\bullet$ and $Q_\bullet$ of $\mathbb{Z}[G]$-modules. 
+Moreover, with the augmentation map of def. \ref{AugmentationMap} these are projective resolutions
+
+$$
+  \epsilon \colon Q^u_\bullet \stackrel{\simeq_{qi}}{\to} \mathbb{Z}
+$$
+
+$$
+  \epsilon \colon Q_\bullet \stackrel{\simeq_{qi}}{\to} \mathbb{Z}
+$$
+
+of $\mathbb{Z}$ equipped with the trivial $\mathbb{Z}[G]$-module structure in $\mathbb{Z}[G]$[[Mod]].
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+(...)
+
+=--
+
++-- {: .num_prop }
+###### Propoition
+
+For $A$ an [[abelian group]] equipped with a linear $G$-[[action]] and for $n \in \mathbb{N}$, the degree-$n$ [[group cohomology]] $H^n_{grp}(G, A)$ of $G$ with [[coefficients]] in $A$ is equivalently given by
+
+$$
+  \begin{aligned}
+    H^n_{Grp}(G,A) & \simeq Ext^n_{\mathbb{Z}[G]}(\mathbb{Z}, A)
+    \\
+    & \simeq H^n(Hom_{\mathbb{Z}[G]}(Q^u_n, A))
+    \\
+    & \simeq H^n(Hom_{\mathbb{Z}[G]}(Q_n, A))
+    \,.
+  \end{aligned}
+  \,,
+$$
+
+where on the right we canonically regard $A \in \mathbb{Z}[G]$[[Mod]].
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+By the [[free functor]] [[adjunction]] we have that 
+
+$$
+  Hom_{\mathbb{Z}[G]}(F^u_n, A)  
+  \simeq
+  Hom_{Set}(U(G)^{\times n}, U(A))
+$$
+
+is the set of [[functions]] from $n$-tuples of elements of $G$ to elements of $A$. It is immediate to check that these are in the [[kernel]] of $Hom_{\mathbb{Z}[G]}(\partial_{n}, A)$ precisely if they are [[cocycles]] in the [[group cohomology]] (by comparison with the explicit formulas there) and that they are gorup cohomology [[coboundaries]] precisely if they are in the [[image]] of $Hom_{\mathbb{Z}[G]}(\partial_{n-1}, A)$. This establishes the first equivalences.
+
+Similarly one finds that $H^n(Hom(F_n, A)))$ is the sub-group of _normalized_ cocycles. By the discussion at _[[group cohomology]]_ these already support the entire group cohomology (every cocycle is comologous to a normalized one).
+
+=--
+
 ### Cohomology of cyclic groups 
  {#CohomologyOfCyclicGroups}
 
