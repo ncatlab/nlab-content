@@ -1450,7 +1450,99 @@ If moreover $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective res
 
 =--
 
++-- {: .num_prop #ExtensionFromAnElementOfExt1}
+###### Definition
+
+Define a function $Ext^1(G,A) \to Ext(G,A)$ as follows. For $Y_\bullet \to G$ a projective resolution of $G$ and $[c] \in Ext^1(G,A) \simeq H^1(Hom_{\mathcal{a}}(F_\bullet,A))$ an element of the $Ext$-group, let
+
+$$
+  \array{
+    Y_2 &\to& 0
+    \\
+    \downarrow && \downarrow
+    \\
+    Y_1 &\stackrel{c}{\to}& A
+    \\
+    \downarrow
+    \\
+    Y_0
+    \\
+    \downarrow
+    \\
+    G
+  }
+$$
+
+be a representative. By the commutativity of the top square this restricts to a morphism
+
+$$
+  \array{
+     Y_1/Y_2 &\stackrel{c}{\to}& A
+     \\
+     \downarrow 
+     \\
+     Y_0
+     \\
+     \downarrow
+     \\
+     G
+  }
+  \,,
+$$
+
+where now the left column is itself an extension of $G$ by the [[cokernel]] $Y_1/Y_2$ (because by exactness the kernel of $Y_1 \to Y_0$ is the image of $Y_2$ so that the kernel of $Y_1/Y_2 \to Y_0$ is zero). Form then the [[pushout]] of the horizontal map along the two vertical maps. This yields
+
+$$
+  \array{
+    Y_1/Y_2 &\stackrel{c}{\to}& A
+    \\
+    \downarrow && \downarrow
+    \\
+    Y_0 &\to& Y_0 \coprod_{Y_1/Y_2} A
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{id}{\to}& G
+  }
+  \,.
+$$
+
+Here the top right is indeed $G$, by the [[pasting law]] for pushouts and using that the left vertical composite is the [[zero-morphism]]. Moreover, the tor right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[injection]]. Similarly the top right morphism is an epimorphism. 
+
+Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which we assign to $c$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The construction of def. \ref{ExtensionFromAnElementOfExt1} is indeed well defined in that it is independent of the choice of projective resolution as well as of the choice of representative of the $Ext$-element.
+=--
+
++-- {: .proof}
+###### Proof
+
+For a different representative $\tilde c$ of $[c]$ there is by construction a
+
+$$
+  \array{
+     Y_1 &\stackrel{\tilde c - c}{\to}& A
+     \\
+     {}^{\mathllap{\partial_0}}\downarrow & \nearrow_{\lambda}
+     \\
+     Y_0
+  }
+$$
+
+$$
+  A \coprod^c_{Y_1/Y_2} Y_0 
+   \to 
+  A \coprod^{\tilde c}_{Y_1/Y_2} Y_0 
+$$
+
 (...)
+
+=--
 
 
 ### Relation to syzygies
