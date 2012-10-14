@@ -1521,20 +1521,28 @@ $$
 
 be the [[free module]] over the [[group ring]] $\mathbb{Z}[G]$ on $n$-[[tuples]] of elements of $G$ (hence $Q^u_0 \simeq \mathbb{Z}[G]$ is the free module on a single generator).
 
-Let $\partial_{n-1} \colon Q^u_n \to Q^u_{n-1}$ be given on [[basis]] elements by
+For $n \geq 1$ let $\partial_{n-1} \colon Q^u_n \to Q^u_{n-1}$ be given on [[basis]] elements by
 
 $$
   \partial_{n-1} (g_1, \cdots, g_n)
-  \coloneqq = 
-  g_1 (g_2, \cdots, g_n)
+  \coloneqq 
+  g_1 [g_2, \cdots, g_n]
   + 
-  \sum_{i = 1}^{n-1} (-1)^i (g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n)
+  \sum_{i = 1}^{n-1} (-1)^i [g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n]
   + 
-  (-1)^n (g_1, \cdots, g_{n-1})
+  (-1)^n [g_1, \cdots, g_{n-1}]
   \,,
 $$
 
-where in the first summand we have the action of $g_1 \in G \hookrightarrow \mathbb{Z}[G]$ on the basis element $(g_2, \cdots, g_n)$ in $F(U(G)^{n-1})$. 
+where in the first summand we have the coefficient $g_1 \in G \hookrightarrow \mathbb{Z}[G]$ times the basis element $[g_2, \cdots, g_n]$ in $F(U(G)^{n-1})$.
+
+In particular
+
+$$
+  \partial_0 \colon [g] \mapsto g[*] - [*] =  g-e \in \mathbb{Z}[G]
+  \,.
+  \,.
+$$
 
 Write furthermore $Q_n$ for the [[quotient]] module $Q^u_n \to Q^n$ which is the [[cokernel]] of the inclusion of those elements for which one of the $g_i$ is the unit element.
 
@@ -1542,7 +1550,7 @@ Write furthermore $Q_n$ for the [[quotient]] module $Q^u_n \to Q^n$ which is the
 =--
 
 +-- {: .num_prop }
-###### Propoition
+###### Proposition
 
 The construction in def. \ref{ProjectiveResolutionForZAsZGModule} defines [[chain complexes]] $Q^u_\bullet$ and $Q_\bullet$ of $\mathbb{Z}[G]$-modules. 
 Moreover, with the augmentation map of def. \ref{AugmentationMap} these are projective resolutions
@@ -1562,7 +1570,98 @@ of $\mathbb{Z}$ equipped with the trivial $\mathbb{Z}[G]$-module structure in $\
 +-- {: .proof} 
 ###### Proof 
 
-(...)
+The proof that we have indeed a chain complex is much like the proof of the existence of the [[alternating face map complex]] of a [[simplicial group]], because writing
+
+$$
+  \partial^0_n [g_1, \cdots, g_n] \coloneqq g_1 [g_2, \cdots, g_n]
+$$
+
+$$
+  \partial^i_n [g_1, \cdots, g_n] \coloneqq [g_1, \cdots, g_i g_{i+1}, g_{i+2}, \cdots, g_n]
+  \;\;
+  for 1 \leq i \leq n-1
+$$
+
+$$
+  \partial_n [g_1, \cdots, g_n] \coloneqq [g_1, \cdots, g_{n-1}]
+$$
+
+one finds that these satisfy the [[simplicial identities]] and that $\partial_n = \sum_{i = 0}^n (-1)^i \partial^i_n$.
+
+That the augmentation map is a [[quasi-isomorphism]] is equivalent, by remark \ref{ProjectiveResolutionInComponents}, to the [[augmentation]]
+
+$$
+  \cdots 
+  \stackrel{\partial_2}{\to} \mathbb{Z}[G]^2 
+  \stackrel{\partial_1}{\to}  
+  \mathbb{Z}[G] \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
+$$
+
+being an [[exact sequence]]. In fact we show that it is a [[split exact sequence]] by constructing for the canonical chain map to the 0-complex a [[null homotopy]] $s_\bullet$.
+To that end, let 
+
+$$
+  s_{-1} \colon \mathbb{Z} \to Q^u_0
+$$
+
+be given by sending $1 \in \mathbb{Z}$ to the single basis element in $Q^u_0 \coloneqq \mathbb{Z}[G][*] \simeq \mathbb{Z}[G]$, and let for $n \in \mathbb{N}$
+
+$$
+  s_n \colon Q^u_n \to Q^u_{n+1}
+$$
+
+be given on basis elements by 
+
+$$
+  s_n(g[g_1, \cdots, g_n]) \coloneqq [g, g_1, \cdots, g_n]
+  \,.
+$$
+
+In the lowest degrees we have
+
+$$
+  \epsilon \circ s_{-1} = id_{\mathbb{Z}}
+$$
+
+because 
+
+$$
+  \epsilon(s_{-1}(1)) = \epsilon([*]) = \epsilon(e) = 1
+$$
+
+and
+
+$$
+  \partial_0 \circ s_0 + s_{-1}\circ \epsilon = id_{Q^u_0}
+$$
+
+because for all $g \in G$ we have
+
+$$
+  \begin{aligned}
+    \partial_0 (s_0(g[*])) + s_{-1}(\epsilon(g[*]))
+    & = 
+    \partial_0( [g] ) + s_{-1}(1)
+    \\
+    & = g[*] - [*] + [*]
+    \\
+    & = 
+    g[*]
+  \end{aligned}
+  \,.
+$$
+
+For all remaining $n \geq 1$ we find
+
+$$
+  \partial_n \circ  s_n + s_{n-1} \circ \partial_{n-1}
+  = 
+  id_{Q^u_n}
+$$
+
+by a lengthy but straightforward computation. This shows that every cycle is a boundary, hence that we have a resolution.
+
+Finally, since the chain complex $Q^u_\nbullet$ consists by construction degreewise of [[free modules]] hence in particular of a [[projective module]], it is a projective resolution.
 
 =--
 
