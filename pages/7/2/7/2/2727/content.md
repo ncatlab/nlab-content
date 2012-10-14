@@ -66,7 +66,6 @@ We would not say homotopy type theory has propositions as types in the same way 
 
 ## References
 
-The idea was originally developed in
 
 * [[Per Martin-Löf]], _Intuitionistic Type Theory_, Notes by Giovanni Sambin of a series of lectures given in Padua, June 1980. Bibliopolis, Napoli, 1984.
 
