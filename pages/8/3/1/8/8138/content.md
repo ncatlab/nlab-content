@@ -42,15 +42,21 @@
 
 ## In QFT and String theory
 
-* [[T-duality]]
+**[[duality in physics]]**, **[[duality in string theory]]**
 
-  * [[mirror symmetry]]
+* [[Seiberg duality]], [[AGT conjecture]]
 
 * [[S-duality]]
 
-  * [[electro-magnetic duality]], [[geometric Langlands duality]]
+  * [[electro-magnetic duality]], [[Montonen-Olive duality]], [[geometric Langlands duality]]
+
+* [[T-duality]]
+  
+  * [[mirror symmetry]]
 
 * [[U-duality]]
+
+* [[AdS/CFT|AdS/CFT duality]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/duality+-+contents)</div>
