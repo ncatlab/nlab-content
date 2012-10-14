@@ -1,5 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic toc goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -319,3 +335,7 @@ While we're nitpicking: do we really want the product $f\cdot g$ of morphisms $f
 _[[Mike Shulman|Mike]]_: Here's another argument I just thought of, although it's still along the lines of "logically precise" so given what you just said, I guess it's unlikely to convince you.  What we are discussing is, in general, a functor from [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] to $(k-1)$-tuply monoidal $(n+1)$-categories.  The delooping hypothesis says that it's an equivalence onto its image (at least as long as "0-tuply monoidal" means "pointed"), so from that point of view it's natural to want to leave it nameless and think of its domain as a subcategory of its codomain.
 
 However, there is also another functor from $k$-tuply monoidal $n$-categories to $(k-1)$-tuply monoidal $(n+1)$-categories which adds identity $(n+1)$-cells and forgets one level of monoidal structure.  This one is not in general an equivalence onto its image.  But in the particular case $k=n=\omega$, in which case the domain and codomain of these functors are _both_ the category of stably monoidal $\omega$-categories, it is the _second_ functor that is the identity functor, not the first one.
+
+[[!redirects category algebras]]
+[[!redirects groupoid algebra]]
+[[!redirects groupoid algebras]]
