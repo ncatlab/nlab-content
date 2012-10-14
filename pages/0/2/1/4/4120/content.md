@@ -18,3 +18,6 @@ Note that the plurals of 'basis' and 'base' are both spelt 'bases' (although the
 [[!redirects basis]]
 [[!redirects bases]]
 [[!redirects basises]]
+[[!redirects basis element]]
+[[!redirects basis elements]]
+
