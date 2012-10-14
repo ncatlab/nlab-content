@@ -27,6 +27,8 @@ The geometric Langlands program is the analogue of the [[Langlands program]] wit
 
 * [[Hitchin fibration]]
 
+[[duality in physics]], [[duality in string theory]]
+
 * [[S-duality]]
 
   * [[electro-magnetic duality]]
