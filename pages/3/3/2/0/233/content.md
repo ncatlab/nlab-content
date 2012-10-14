@@ -210,7 +210,7 @@ accordin to def. \ref{ModuleInMonoidalCategory}.
 We unwind what this means in terms of [[abelian groups]] 
 regarded as [[sets]] with extra [[structure]]:
 
-+-- {: .num_defn }
++-- {: .num_defn #ModuleOverARing}
 ###### Definition
 
 A **module** $N$ over a ring $R$ is
@@ -310,17 +310,110 @@ yet another way of defining $R$-modules. This we turn to
  {#GSets}
 
 Simpler than the traditionally default notion of a module in 
-$(An,\otimes)$, as [above](#Rings) is that of a module in 
+$(Ab,\otimes)$, as [above](#Rings) is that of a module in 
 [[Set]], equipped with its [[cartesian monoidal category|cartesian monoidal structure]].
 (These days one may want to think of this as a notion of modules 
 over [[F1]].)
 
 A [[monoid object]] in $(Set,\times)$ is just a [[monoid]], for 
 instance a [[discrete group]] $G$. A $G$-module in $(Set,\times)$
-is simpy an [[action]], say a [[group action]].
+is simpy an _[[action]]_, say a [[group action]].
+
++-- {: .num_defn #ActionOfDiscreteGroupOnSet}
+###### Definition
+
+For $S \in $ [[Set]] and $G$ a [[discrete group]], a **$G$-[[action]]** of $G$ on $S$ is a [[function]]
+
+$$
+  \rho \colon G \times S \to S
+$$ 
+
+such that
+
+1. the neutral element acts trivially
+
+   $$
+     \array{
+        * \times S &&\stackrel{\simeq}{\to}&& S
+        \\  
+        & {}_{(e,id_S)}\searrow && \nearrow_{\mathrlap{\rho}}
+        \\
+        && G \times S
+     }
+   $$
+
+1. the action property holds: for all $g_1, g_2 \in G$ and $s \in S$ we have $\rho(g_1,\rho(g_2, s)) = \rho(g_1 \cdot g_2, s)$.
+
+=--
 
 More on this [below](#GSetsAsPrequeaves).
  
+#### Abelian groups with $G$-action as modules over the group ring
+ {#AbelianGroupsWithGAction}
+
+If a [[discrete group]] acts, as in def. \ref{ActionOfDiscreteGroupOnSet},
+on the set underlying an [[abelian group]] and acts by [[linear maps]] (abelian group [[homomorphisms]]), then this action is equivalently a module over the [[group ring]]  $\mathbb{Z}[G]$ as in def. \ref{ModuleOverARing}.
+
++-- {: .num_defn }
+###### Definition
+
+For $G$ a [[discrete group]], write $\mathbb{Z}[G] \in $ [[Ring]] for the [[ring]] 
+
+1. whose underlying [[abelian group]] is the [[free abelian group]] on the set underlying $G$;
+
+1. whose multiplication is given on [[basis]] elements by the group operation in $G$. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For $G$ a [[finite group]] an element $r$r of $\mathbb{Z}[G]$ is for the form
+
+$$
+  r = \sum_{g \in G} r_g g
+$$
+
+with $r_g \in \mathbb{Z}$. Addition is given by addition of the [[coefficients]] $r_g$ and multiplication is given by the formula
+
+$$
+  \begin{aligned}
+    r \cdot \tilde r 
+    & = 
+    \sum_{g \in G} \sum_{\tilde g \in G} (r_g \tilde r_{\tilde g}) g \cdot \tilde g
+    \\
+    & = 
+    \sum_{q \in G}
+    \left(
+      \sum_{g \tilde g = q} r_g \tilde r_{\tilde g}
+    \right)
+    q
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $A \in $ [[Ab]] an [[abelian group]] with underlying set $U(A)$, $G$-[[actions]] $\rho \colon G \times U(A) \to U(A)$ such that for each element $g \in G$ the function $\rho(g,-) \colon U(A) \to U(A)$ is an abelian group homomorphism are equivalently $\mathbb{Z}[G]$-[[module]] structures on $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the underlying abelian group of $\mathbb{Z}[G]$ is a [[free abelian group|free]] by definition, a [[bilinear map]] $\mathbb{Z}[G] \times A \to A$ is equivalently for each [[basis]] element $g \in G$ a [[linear map]] $A \to A$. Similarly the module property is determined on basis elements, where it reduces manifestly to the action property of $G$ on $U(A)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This reformulation of linear $G$-[[actions]] in terms of [[modules]] allows to treat $G$-actions in terms of [[homological algebra]]. See at _[Ext -- Relation to group cohomology](Ext#RelationToGroupCohomology)_.
+
+=--
 
 ### Presheaves in enriched category theory
  {#InEnrichedCategory}
