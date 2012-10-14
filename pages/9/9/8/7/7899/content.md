@@ -1,22 +1,2 @@
-__AGT conjecture__ is raised in 
 
-* L.Alday, D.Gaiotto, Y.Tachikawa, _Liouville correlation functions from four-dimensional gauge theories_, [arXiv:0906.3219](http://arxiv.org/abs/0906.3219)
-
-It is about a __AGT correspondence__/[[duality in physics|duality]] between the partition functions of two quite a priori different kinds of models. Its basic form is between (partition functions of) certain 4d N=2 gauge theory and 2d Liouville theory on $\mathcal{C}_{g,n}$.
-
-See also 
-
-* A. A. Belavin, M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_, [http://arxiv.org/abs/1111.2803](arxiv/1111.2803)
-* Volker Schomerus, Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
-* A.Mironov, A.Morozov, _The power of Nekrasov functions_, [arxiv/0908.2190](http://arxiv.org/abs/0908.2190)
-* D. Galakhov, A. Mironov, A. Morozov, _S-duality as a beta-deformed Fourier transform_, [arxiv/1205.4998](http://arxiv.org/abs/1205.4998)
-* A. Mironov, _Spectral duality in integrable systems from AGT conjecture_, [arxiv/1204.0913](http://arxiv.org/abs/1204.0913)
-* A. Belavin, V. Belavin, _AGT conjecture and integrable structure of conformal field theory for $c=1$_, Nucl.Phys.B850:199-213 (2011) [arxiv/1102.0343](http://arxiv.org/abs/1102.0343)
-* A. Belavin, V. Belavin, M. Bershtein, _Instantons and 2d Superconformal field theory_, [arxiv/1106.4001](http://arxiv.org/abs/1106.4001)
-* Kazunobu Maruyoshi, _Quantum integrable systems, matrix models, and AGT correspondence_, seminar [slides](http://db.ipmu.jp/seminar/sysimg/seminar/428.pdf)
-* Giulio Bonelli, Alessandro Tanzini, _Hitchin systems, N=2 gauge theories and W-gravity_, [arxiv/0909.4031](http://arxiv.org/abs/0909.4031)
-* Giulio Bonelli, Kazunobu Maruyoshi, Alessandro Tanzini, _Quantum Hitchin systems via beta-deformed matrix models_, [arxiv/1104.4016](http://arxiv.org/abs/1104.4016)
-
-See also [[Nekrasov function]].
-
-[[!redirects AGT correspondence]]
+see _[[AGT correspondence]]_. 
