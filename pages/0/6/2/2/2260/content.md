@@ -158,7 +158,7 @@ Mal'cev categories, J. Pure Appl. Alg. __69__ (1990) 271-284
 38. A. Carboni, M. C. Pedicchio, N. Pirovano, Internal graphs and
 internal groupolds in Mal'cev categories, CMS Conference proceedings, Category Theory 1991 __13__ (1992) 97-109
 
-39. Y. Diers, Categories of commautative algebras, Oxford University Press
+39. Y. Diers, Categories of commutative algebras, Oxford University Press
 (1992)
 
 40. B. Eckmann, P.J. Hilton, Group-like structures in general categories
