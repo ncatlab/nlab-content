@@ -65,6 +65,8 @@ In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dim
 
 ## Related concepts
 
+[[duality in physics]], [[duality in string theory]]
+
 * [[S-duality]]
 
   * **electro-magnetic duality**
