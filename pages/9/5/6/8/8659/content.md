@@ -1,0 +1,87 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $R \hookrightarrow A$ an [[associative algebra]] over a [[ring]] $R$ equipped with the structure of an [[augmented algebra]] $\epsilon \colon A \to R$, the _augmentation ideal_ is the [[kernel]] of $\epsilon$.
+
+Specifically for $G$ a [[group]], and $R[G]$ its [[group algebra]] over a [[ring]] $R$, the _augmentation ideal_ is the [[ideal]] in $R[G]$ which consists of those [[formal linear combinations]] over $R$ of elements in $G$ whose sum of [[coefficients]] vanishes in $R$.
+
+## Examples
+
+### For group algebras
+
+Let $G$ be a [[discrete group]] and $R$ a [[ring]]. Write $R[G]$ for the [[group algebra]] of $G$ over $R$.
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \epsilon \colon \mathbb{Z}[G] \to \mathbb{Z}
+$$
+
+for the [[homomorphism]] of [[abelian groups]] which forms the sum of $R$-[[coefficients]] of the [[formal linear combinations]] that constitute the group ring
+
+$$
+  \epsilon \colon r \mapsto \sum_{g \in G} r_g
+  \,. 
+$$
+
+This is called the [[augmentation]] map. Its [[kernel]]
+
+$$
+  ker(\epsilon) \hookrightarrow \mathbb{Z}[G]
+$$
+
+is the **augmentation ideal** of $\mathbb{Z}[G]$.
+
+=--
+
+
+## Properties
+
+### General 
+
++-- {: .num_prop }
+###### Proposition
+
+The augmentation ideal is indeed a left and right [[ideal]] in $R[G]$.
+
+=--
+
+### For group algebras
+
++-- {: .num_prop }
+###### Proposition
+
+The $R$-[[module]] underlying the augmentation ideal of a [[group algebra]] is a [[free module]], free on the set of elements
+
+$$
+  \{
+    g - e | g \in G,\; g \neq e
+  \}
+$$
+
+in $R[R]$.
+
+=--
+
+[[!redirects augmentation ideals]]
