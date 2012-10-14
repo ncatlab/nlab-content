@@ -182,6 +182,8 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 * [[groupoid algebra]], [[category algebra]]
 
+* [[augmentation ideal]]
+
 ## References
 
 Lecture notes include
