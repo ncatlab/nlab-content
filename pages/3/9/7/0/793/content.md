@@ -232,6 +232,8 @@ One special cases of T-duality is [[mirror symmetry]].
 
 ## Related concepts
 
+[[duality in physics]], [[duality in string theory]]
+
 * **T-duality**
 
   * [[topological T-duality]]
