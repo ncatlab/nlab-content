@@ -1616,7 +1616,7 @@ Textbooks include
 
 Lecture notes and similar include
 
-* [[Brian Conrad]], _Group cohomology and group extensions_ ([pdf](249BPage/handouts/gpext.pdf))
+* [[Brian Conrad]], _Group cohomology and group extensions_ ([pdf](http://math.stanford.edu/~conrad/249BPage/handouts/gpext.pdf))
 
 * [[Terry Tao]], _Some notes on group extensions_ ([blog](http://terrytao.wordpress.com/2010/01/23/some-notes-on-group-extensions/))
 
