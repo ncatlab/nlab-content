@@ -24,20 +24,25 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 ## Examples
 
-* [[Seiberg duality]]
-
-* [[AGT conjecture]]
-
-* [[Montonen-Olive duality]]
+* [[Seiberg duality]], [[AGT conjecture]]
 
 * [[S-duality]]
 
+  * [[electro-magnetic duality]], [[Montonen-Olive duality]], [[geometric Langlands duality]]
+
 * [[T-duality]]
+  
+  * [[mirror symmetry]]
 
 * [[U-duality]]
 
 * [[AdS/CFT|AdS/CFT duality]]
 
+While most of these dualities refer to equivalences between [[quantum field theories]], they find their conceptual explanation in [[string theory]]. See at 
+
+* [[duality in string theory]] 
+
+for more.
 
 ## Relation to mathematical duality
 
