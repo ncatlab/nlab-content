@@ -1292,7 +1292,7 @@ and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself p
 
 For further discussion along these lines see at _[[derived functor in homological algebra]]_.
 
-### Derived Hom-functor / $Ext$-functor
+### Derived Hom-functor/$Ext$-functor and extensions
  {#DerivedHomFunctor}
 
 Consider the [[derived functor]] of the [[hom functor]].
@@ -1346,7 +1346,7 @@ Write $Ext(G,A)$ for the set of [[equivalence classes]] of extensions of $G$ by 
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #MorphismOfExtensionIsIsomorphism}
 ###### Remark
 
 By the [[short five lemma]] a morphism $f$ as above is necessarily an [[isomorphism]] and hence we indeed have an [[equivalence relation]].
@@ -1360,7 +1360,7 @@ By the [[short five lemma]] a morphism $f$ as above is necessarily an [[isomorph
 If $\mathcal{A}$ has [[projective object|enough projectives]], define a function
 
 $$
-  Ext(G,A) \to Ext^1(G,A)
+  Extr \colon Ext(G,A) \to Ext^1(G,A)
 $$
 
 from the group of extensions, def. \ref{Extensions}, to the first [[Ext functor]] group as follows. Choose any projective resolution $Y_\bullet \stackrel{\simeq_{qi}}{\to} G$, which exists by prop. \ref{ExistenceOfInjectiveResolutions}. Regard then $A \to \hat G \to G\to 0$ as a resolution
@@ -1453,7 +1453,13 @@ If moreover $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective res
 +-- {: .num_prop #ExtensionFromAnElementOfExt1}
 ###### Definition
 
-Define a function $Ext^1(G,A) \to Ext(G,A)$ as follows. For $Y_\bullet \to G$ a projective resolution of $G$ and $[c] \in Ext^1(G,A) \simeq H^1(Hom_{\mathcal{a}}(F_\bullet,A))$ an element of the $Ext$-group, let
+Define a function 
+
+$$
+  Rec \colon Ext^1(G,A) \to Ext(G,A)
+$$ 
+
+as follows. For $Y_\bullet \to G$ a projective resolution of $G$ and $[c] \in Ext^1(G,A) \simeq H^1(Hom_{\mathcal{A}}(F_\bullet,A))$ an element of the $Ext$-group, let
 
 $$
   \array{
@@ -1507,7 +1513,7 @@ $$
   \,.
 $$
 
-Here the top right is indeed $G$, by the [[pasting law]] for pushouts and using that the left vertical composite is the [[zero-morphism]]. Moreover, the tor right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[injection]]. Similarly the top right morphism is an epimorphism. 
+Here the top right is indeed $G$, by the [[pasting law]] for pushouts and using that the left vertical composite is the [[zero morphism]]. Moreover, the top right morphism is indeed a monomorphism as it is the pushout of a map of modules along an [[injection]]. Similarly the top right morphism is an epimorphism. 
 
 Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which we assign to $c$.
 
@@ -1517,10 +1523,18 @@ Hence $A \to Y_0 \coprod_{Y_1/Y_2} Y_0 \to G$ is an element in $Ext(G,A)$ which 
 ###### Proposition
 
 The construction of def. \ref{ExtensionFromAnElementOfExt1} is indeed well defined in that it is independent of the choice of projective resolution as well as of the choice of representative of the $Ext$-element.
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
+The coproduct $Y_0 \coprod_{Y_1/Y_2} A$ is equivalently 
+
+$$
+  coker(Y_1/Y_2 \stackrel{(incl,-c)}{\to} Y_0 \oplus A)
+  \,.
+$$
 
 For a different representative $\tilde c$ of $[c]$ there is by construction a
 
@@ -1532,15 +1546,68 @@ $$
      \\
      Y_0
   }
+  \,.
 $$
 
+Define from this a map between the two cokernels induced by the [[commuting diagram]]
+
 $$
-  A \coprod^c_{Y_1/Y_2} Y_0 
-   \to 
-  A \coprod^{\tilde c}_{Y_1/Y_2} Y_0 
+  \array{
+    Y_1/Y_2 &\stackrel{id}{\to}& Y_1/Y_2
+    \\
+    \downarrow^{\mathrlap{(id,-c)}} && \downarrow^{\mathrlap{(id,-\tilde c)}}
+    \\
+    Y_0 \oplus A 
+      &\stackrel{\left(\array{ id & 0 \\ \lambda & id }\right)}{\to}& 
+    Y_0 \oplus A
+  }
+  \,.
 $$
 
-(...)
+By construction this respects the inclusion of 
+$A \stackrel{(0,id)}{\hookrightarrow} Y_0 \oplus A \to Y_0 \coprod_{Y_1/Y_2} A$. It also manifestly respects the projection to $G$. Therefore this defines a morphism and hence by remark \ref{MorphismOfExtensionIsIsomorphism} even an isomorphism of extensions.
+
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The functions
+
+$$
+  Extr \colon Ext(G,A) \leftrightarrow Ext^1(G,A) \colon Rec
+$$
+
+from def. \ref{MapFromExtensionsToExtGroup} to def. \ref{ExtensionFromAnElementOfExt1} are [[inverses]] of each other and hence exhibit a [[bijection]] between extensions of $G$ by $A$ and $Ext^1(G,A)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By straightforward unwinding of the definitions.
+
+In one direction, starting with a $c \in Ext^1(G,A)$ and constructing the extension by pushout, the resulting pushout diagram
+
+$$
+  \array{
+     Y_1 &\stackrel{c}{\to}& A
+     \\
+     \downarrow && \downarrow
+     \\
+     Y_0 &\to& Y_0 \coprod^c_{Y_1/Y_2} A
+     \\
+     \downarrow && \downarrow
+     \\
+     G &\stackrel{id}{\to}& G
+  }
+$$
+
+at the same time exhibits $c$ as the cocycle extracted from the extension $A \to Y_0 \coprod^c_{Y_1/Y_2} A \to G$. 
+
+Conversely, when starting with an extension $A \to \hat G \to G$ then extracting a $c$ by a choice of projective resolution and constructing from that another extension by pushout, the [[universal property]] of the pushout yields a morphism of exensions, which by remark \ref{MorphismOfExtensionIsIsomorphism} is an isomorphism of extensions, hence an equality in $Ext(G,A)$.
 
 =--
 
