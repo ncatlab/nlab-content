@@ -1,58 +1,196 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc} 
+
+## Idea
+
+The _group algebra_ of a [[group]] $G$ over a [[ring]] $R$ is the [[associative algebra]] whose elements are [[formal linear combinations]] over $R$ of the elements of $G$ and whose mutliplication is given on these [[basis]] elements by the group operation in $G$. 
+
+
+
 ## Definition
 
-For a $k$-algebra $A$ and an (abelian) group $G$, the space of group morphisms with finite support
 
-$$A[G]:=hom_{fin\,supp}(G,A)$$
 
-(i.e. space containing just those morphisms which send only finitely many elements of $G$ not to $0$) equipped with the multiplication defined by convolution of functions is called *group algebra of $A$ over $G$*. With pointwise addition $K[G]$ is an associative $A$-algebra. 
+### For discrete groups
+ {#ForDiscreteGroups}
 
-Equivalently one can think of the multiplication inthe following way
+Let $G$ be a [[discrete group]]. Let $R$ be a [[commutative ring]]. 
 
-Take the elements of a group, $G$, as labelling a module basis and define the multiplication of two elements by $x_g \cdot x_h:=x_{gh}$.
++-- {: .num_defn }
+###### Definition
 
-If $A$ is a ring one calls this construction also a *group ring*.
+The **group $R$-algebra** $R[G]$ is the [[associative algebra]] over $R$ 
 
-The notion of group algebra is a special case of that of a [[category algebra]].
+1. whose underlying $R$-[[module]] is the the [[free module]] over $R$ on the underlying set of $G$;
 
-Any group algebra is in particular a [[Hopf algebra]] and a [[graded algebra]].
+1. whose multiplication is given on [[basis]] elements by the group operation.
 
-### The convolution product
+=--
 
-If we denote by $e_g$, the generator corresponding to $g\in G$, then an arbitrary element of $k[G]$ can be written as $\sum_{g\in G}n_ge_g$ where the $n_g$ are elements of $k$, and only finitely many of them are non-zero. 
++-- {: .num_remark }
+###### Remark
 
-The multiplication is then by what is sometimes called a 'convolution' product, that is,
+By the discussion at [[free module]] an element $r$ in $R[G]$ is a [[formal linear combination]] of [[basis]] elements in $G$ with [[coefficients]] in $R$, hence a formal sum
 
-$$\Big(\sum_{g\in G}n_ge_g\Big)\Big(\sum_{g\in G}m_ge_g\Big) = \sum_{g\in G}\Big(\sum_{g_1\in G}n_{g_1}m_{g_1^{-1}g}e_g\Big).$$
+$$
+  r = \sum_{g \in G} r_g \cdot g
+$$
+
+with $\forall_{g \in G} (r_g \in R)$ and only finitely many of the coefficients different from $0 \in R$.
+
+The addition of algebra elements is given by the componentwise addition of coefficients
+
+$$
+  r + \tilde r = 
+  \sum_{g \in G} (r_g + \tilde r_g) g
+$$
+
+and the multiplication is given by
+
+$$
+  \begin{aligned}
+    r \tilde r 
+    & =
+    \sum_{g \in G} 
+      \sum_{\tilde g \in G} (r_g \tilde r_{\tilde g}) g \cdot \tilde g
+    \\
+    & =
+    \sum_{q \in G} 
+    \left(
+      \sum_{k \in G}  (r_{q\cdot k^{-1}} r_k) 
+    \right) q
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The [[formal linear combinations]] over $R$ of element in $G$ may equivalently be thought of as [[functions]]
+
+$$
+  r_{(-)} \colon U(G) \to U(R)
+$$
+
+from the underlying set of $G$ to the underlying set of $R$ which have _finite support_. Accordingly,  oftn the underlying set of the group $R$-algebra is written as
+
+$$
+  U(R[G]) = Hom_{Set}^{fin\;supp}(U(G), U(R))
+$$
+
+and for the [[basis elements]] one writes
+
+$$
+  \chi_g \colon U(G) \to U(R)
+  \,,
+$$
+
+the **characteristic function** of an element $g \in G$, defined by
+
+$$
+  \chi_g \colon \tilde g \mapsto
+  \left\{
+    \array{
+      1 & | g = \tilde g
+      \\
+      0 & | otherwise
+    }
+  \right.
+  \,.
+$$
+
+In terms of this the product in the group algebra is called the **[[convolution product]]** on functions. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The notion of group algebra is a special case of that of a [[groupoid algebra]], hence of [[category algebra]].
+
+=--
+
+### For topological groups
+ {#ForTopologicalGroups}
+
+(...)
 
 ## Properties
 
+
++-- {: .num_prop }
+###### Proposition
+
+A group algebra is in particular a [[Hopf algebra]] and a $G$-[[graded algebra]].
+
+=--
+
+The following states a [[universal property]] of the construction of the group algebra.
+
 +-- {: .num_remark}
 ###### Remark
-(The universal property of a group ring)
+
 There is an [[adjunction]]
 
-$$(R[-]\dashv (-)^\times):Alg_R \stackrel{(-)^\times}{\to}Grp$$
+$$
+  (R[-]\dashv (-)^\times)
+  \colon 
+  Alg_R \stackrel{\overset{R[-]}{\leftarrow}}{\underset{(-)^\times}{\to}} Grp
+$$
 
-where $R[-]$ forms group rings and $(-)^\times$ assigns to an $R$-algebra its [[group of units]].
+between the [[category]] of [[associative algebras]] over $R$ and that of [[groups]], where $R[-]$ forms group rings and $(-)^\times$ assigns to an $R$-algebra its [[group of units]].
+
 =--
 
 +-- {: .num_remark}
 ###### Remark
-Let $V$ be an abelian group. A morphism of rings $K[G]\to End(V)$ of the group ring to the endomorphism ring of $V$ is a $K[G]$-module. And any morphism of groups $p:G\to End(V)$ can by extended to a morphism of rings  $P:K[G]\to End (V)$ by $p(g)\mapsto P(e_g)$. This observation is used extensively in the theory of [[group representation|group representations]].
+
+Let $V$ be an [[abelian group]]. A [[homomorphism]] of rings $R[G]\to End(V)$ of the group ring to the [[endomorphism ring]] of $V$ is equivalently a $R[G]$-[[module]] structure on $V$. And any [[homomorphism]] of groups $p:G\to Aut(V)$ to the [[automorphism group]] of $V$ extends to to a morphism of rings. This observation is used extensively in the theory of [[group representation|group representations]]. See also at _[module -- Abelian groups with G-action as modules over a ring ](http://ncatlab.org/nlab/show/module#AbelianGroupsWithGAction)_.
+
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_theorem}
+###### Theorem
 ([[Maschke's theorem]])
-Let $G$ be a finite group, let $K$ be a field.
 
-Then $K[G]$ is a [[semi-simple algebra]] iff the order of $G$ is not divisible by the [[characteristic]] of K.
+Let $G$ be a [[finite group]], let $R = k$ be a field.
+
+Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is not divisible by the [[characteristic]] of k.
+
 =--
+
+## Related concepts
+
+* [[groupoid algebra]], [[category algebra]]
 
 ## References
 
-* Kiyoshi Igusa,algebra II, part D: representaions of groups, [pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf)   
+Lecture notes include
+
+* Kiyoshi Igusa, _algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
 
 [[!redirects group ring]]
 [[!redirects group algebras]]
+
+[[!redirects convolution product]]
+[[!redirects convolution]]
