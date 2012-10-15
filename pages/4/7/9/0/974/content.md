@@ -28,13 +28,20 @@ This says equivalently that a presentable category $\mathcal{C}$ is a [[reflecti
 
 There are many equivalent characterizations of _locally presentable categories_.  The following is one of the most intuitive, equivalent characterizations are discussed [below](#EquivalentCharacterizations).
 
+
 +-- {: .num_defn #PresentableCategory}
 ###### Definition 
 **(locally presentable category)**
 
 A [[category]] $\mathcal{C}$ is called **locally presentable** if
 
-1. $\mathcal{C}$ is [[locally small category]];
+1. it is an [[accessible category]];
+
+1. it has all small [[colimits]]. 
+
+This means
+
+1. $\mathcal{C}$ is a [[locally small category]];
 
 1. $\mathcal{C}$ has all small [[colimits]];
 
