@@ -398,6 +398,9 @@ should be.
 
 * [[(∞,2)-topos]]
 
+[[!include locally presentable categories - table]]
+
+
 ## References
 
 ### General
