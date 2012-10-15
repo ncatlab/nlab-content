@@ -25,25 +25,61 @@ An _accessible_ $(\infty,1)$-category is one which may be [[large category|large
 
 ## Definition 
 
+Let $\kappa$ be a [[regular cardinal]]. spring
+ 
 +-- {: .num_defn}
 ###### Definition
 
-A [[quasi-category]] $C$ is **accessible** if it satisfies the following equivalent conditions
+A [[(∞,1)-category]] $\mathcal{C}$ is **$\kappa$-accessible** if it satisfies the following equivalent conditions:
 
-* for some [[regular cardinal]] $\kappa$ $C$ is equivalent to the quasi-category  $Ind_\kappa(C^0)$ of [[ind-object in an (infinity,1)-category|ind-objects]] for a small $(\infty,1)$-category $C^0$;
+1. There is a [[small (∞,1)-category]] $\mathcal{C}^0$ and an [[equivalence of (∞,1)-categories]] 
 
-* it is [[locally small (∞,1)-category|locally small]] and for some [[regular cardinal]] $\kappa$ it admits $\kappa$-[[filtered colimit]]s and is generated under such from the full [[sub-quasi-category]] of $\kappa$-[[compact object]]s, which is itself an [[essentially small (∞,1)-category]];
+   $$
+     \mathcal{C} \simeq Ind_\kappa(C^0)
+   $$ 
+  
+   of $\mathcal{C}$ with the  [[(∞,1)-category of ind-objects]], relative $\kappa$, in $\mathcal{C}^0$.
 
-* for some [[regular cardinal]] $\kappa$,  $C$ admits small $\kappa$-[[filtered colimits]] and contains an [[essentially small (∞,1)-category|essentially small]] [[sub-quasi-category|full subcategory]] which consists of $\kappa$-[[compact object in an (infinity,1)-category|compact]] objects and generates $C$ under small $\kappa$-[[filtered colimit]]s;
+1. The $(\infty,1)$-category $\mathcal{C}$ 
 
-* it is an [[idempotent-complete quasi-category]].
+   1. is [[locally small (∞,1)-category|locally small]] 
+
+   1. has all $\kappa$-[[filtered colimits]]
+
+   1. the full [[sub-(∞,1)-category]] $\mathcal{C}^\kappa \hookrightarrow \mathcal{C}$ of $\kappa$-[[compact objects]] is an [[essentially small (∞,1)-category]];
+
+   1. $\mathcal{C}^\kappa \hookrightarrow \mathcal{C}$ generates $\mathcal{C}$ under $\kappa$-[[filtered (∞,1)-colimits]].
+
+
+1. The $(\infty,1)$-category $\mathcal{C}$ 
+
+   1. is [[locally small (∞,1)-category|locally small]] 
+
+   1. has all $\kappa$-[[filtered colimits]]
+
+   1. there is _some_ [[essentially small (∞,1)-category|essentially small]][[sub-(∞,1)-category]] $\mathcal{C}' \hookrightarrow \mathcal{C}$ of $\kappa$-[[compact objects]] which generates $\mathcal{C}$ under $\kappa$-[[filtered (∞,1)-colimits]].
+
+1. $\mathcal{C}$ is an [[idempotent-complete (∞,1)-category]].
+
+Generally, $\mathcal{C}$ is called an **accessible $(\infty,1)$-category** if it is $\kappa$-accessible for some regular cardinal $\kappa$.
 
 =--
 
-The equivalence of these conditions is discussed below.
++-- {: .num_prop}
+###### Proposition
+
+These conditions are indeed equivalent.
+
+=--
+
+For the first few this is [[Higher Topos Theory|HTT, prop. 5.4.2.2]]. The last one is in [[HTT|HTT, section 5.4.3]].
+
++-- {: .num_defn}
+###### Definition
 
 An [[(∞,1)-functor]] between accessible $(\infty,1)$-categories that preserves $\kappa$-filtered colimits is called an **[[accessible (∞,1)-functor]]** .
 
+=--
 
 +-- {: .num_defn}
 ###### Definition
@@ -61,37 +97,12 @@ So morphisms are the [[accessible (∞,1)-functor]]s that also preserves [[compa
 
 This is [[Higher Topos Theory|HTT, def. 5.4.2.16]].
 
-+-- {: .num_prop}
-###### Proposition
-
-The full [[sub-quasi-category]] $Acc(\infty,1)Cat \hookrightarrow (\infty,1)Cat$ is a [[reflective sub-(∞,1)-category]]
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, section 5.4.2.18]].
-
-=--
-
 
 
 
 ## Properties
 
 
-### Equivalent characterizations
-
-+-- {: .num_theorem}
-###### Theorem
-
-The characterizations of accessible $(\infty,1)$-categories are indeed all equivalent.
-
-=--
-
-
-For the first few this is [[Higher Topos Theory|HTT, prop. 5.4.2.2]]. For the last one this is in section 5.4.3.
 
 
 ### Stability under various operations 
@@ -135,11 +146,12 @@ $$
   (\infty,1)AccCAT \hookrightarrow (\infty,1)CAT
 $$
 
-presrves these.
+preserves these.
 
 =--
 
 This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
+
 
 ## Related concepts
 
