@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -26,7 +26,7 @@ We describe $\kappa$-ind-objects for $\kappa$ a [[regular cardinal]].
 
 ## Definition
 
-The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(∞,1)-categories]].
+The different equivalent definitions of ordinary [[ind-objects]] have their analog for [[(∞,1)-categories]].
 
 Let in the following $C$ be a small [[(∞,1)-category]]. 
 
@@ -103,6 +103,8 @@ This is [[Higher Topos Theory|HTT, prop. 5.3.5.5]].
 
 * [[pro-object]] / [[pro-object in an (∞,1)-category]]
 
+* [[accessible (∞,1)-category]]
+
 ## References 
 
 Section 5.3 and in particular 5.3.3 of
@@ -115,3 +117,8 @@ Section 5.3 and in particular 5.3.3 of
 [[!redirects ind-object (∞,1)-category]]
 [[!redirects ind-object (∞,1)-categories]]
 [[!redirects ind-object in an (∞,1)-category]]
+
+[[!redirects (∞,1)-category of ind-objects]]
+[[!redirects (infinity,1)-category of ind-objects]]
+[[!redirects (∞,1)-categories of ind-objects]]
+[[!redirects (infinity,1)-categories of ind-objects]]
