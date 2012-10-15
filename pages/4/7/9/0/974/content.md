@@ -23,6 +23,7 @@ A _locally presentable category_ is a [[category]] which contains a [[small set]
 
 This says equivalently that a presentable category $\mathcal{C}$ is a [[reflective localization]] $\mathcal{C} \hookrightarrow PSh(S)$ of a [[category of presheaves]] over $S$. Since here $PSh(S)$ is the [[free colimit completion]] of $S$ and the localization imposes _relations_, this is a presentation of $\mathcal{C}$ by _[[generators and relations]]_, hence the name _(locally) presentable category_.
 
+See also at _[[locally presentable categories - introduction]]_.
 
 ## Definition
 
