@@ -9,7 +9,7 @@
 =--
 =--
 
-# Coontents#
+# Contents#
 * table of contents
 {: toc}
 
@@ -141,6 +141,9 @@ presrves these.
 
 This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
 
+## Related concepts
+
+[[!include locally presentable categories - table]]
 
 
 
