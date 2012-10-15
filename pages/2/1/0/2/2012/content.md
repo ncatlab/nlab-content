@@ -29,15 +29,9 @@ Much of the knowledge about the algebras of differential operators on curves has
 Often classically integrable systems after quantization may be also exactly solved, or show some other form of integrability, but there are no general rules when this is possible. Quantum integrability usually means that we can find a complete system of commuting operators whose common eigenstates will form a basis of the [[Hilbert space]] of the model. Many examples are found making manipulations with algebras of operators; as a consequence generalizations of existing models often involve combinatorial data with algebaric meaning; say for example generalized Calogero models related to the root systems. Quantum R-matrices and [[quantum group]]s
 were invented with a view toward quantum integrable systems systematizing analogues of a classical quantum integrability trick called the Bethe Ansatz.  
 
-## Related concepts
-
-* [[Yangian]]
-
-* [[Bethe ansatz]]
-
 ##Literature##
 
-See also references at [[Calogero model]]. Related entries include [[quasitriangular bialgebra]], [[Dunkl operator]]
+Related entries include [[quasitriangular bialgebra]], [[Dunkl operator]], [[Yangian]], [[Bethe ansatz]], [[Calogero model]], [[Lax equation]]. See also references there. 
 
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
