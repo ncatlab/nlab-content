@@ -115,7 +115,7 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 
 ### Properties 
 
-* It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu^+}$.
+* It is traditional to write [[ℵ]]${}_0$ for the first infinite cardinal (the cardinality of the [[natural numbers]]), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu^+}$.
 
 * For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called [[Cantor's theorem]]).  The question of whether $2^{\aleph_n} = \aleph_{n+1}$ is the [[continuum hypothesis]].
 
