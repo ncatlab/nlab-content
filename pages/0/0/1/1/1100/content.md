@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -393,6 +393,8 @@ should be.
 * [[2-topos]]
 
 * **$(\infty,1)$-topos**, [[elementary (∞,1)-topos]]
+
+  * [[model topos]]
 
 * [[(∞,2)-topos]]
 
