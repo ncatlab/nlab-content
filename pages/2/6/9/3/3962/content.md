@@ -11,7 +11,13 @@ Note that for a topological field, the [[closed subspace|topological closure]] o
 
 ## Properties
 
-Any local field is one of the following types: 
+A local field $K$ carries a valuation ${\|-\|}: K \to \mathbb{R}_{\geq 0}$ defined by 
+
+$${\|a\|} = \frac{\mu(a X)}{\mu(X)}$$ 
+
+where $\mu$ is any [[Haar measure]] defined on the underlying locally compact Hausdorff additive group of $K$, and $X$ is any set such that $0 \lt \mu(X) \lt \infty$. 
+
+By analyzing the possibilities for the valuation, any local field is one of the following types: 
 
 * Characteristic zero. In this case local fields $F$ are [[complete space|completions]] of [[number field]]s with respect to metrics induced by [[valuation]]s. The valuations may be 
 
