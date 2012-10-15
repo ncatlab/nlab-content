@@ -1291,6 +1291,8 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 * [[model structure for (2,1)-sheaves]]
 
 
+[[!include locally presentable categories - table]]
+
 
 ## References
 
