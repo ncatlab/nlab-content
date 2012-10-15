@@ -37,7 +37,7 @@ On the other hand, there is also the notion of _[[finite object]]_ (in a [[topos
 +-- {: .num_defn }
 ###### Definition
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **finitely presentable** or **of finite presentation**), if the [[corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **[[finitely presentable object|finitely presentable]]** or **of finite presentation**), if the [[corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
