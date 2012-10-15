@@ -1280,6 +1280,8 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 * [[local fibration]]
 
+[[model topos]]
+
 * **model structure on simplicial presheaves**
 
 * [[model structure on simplicial sheaves]]
