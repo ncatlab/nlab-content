@@ -11,7 +11,7 @@
 
 
 # Contents 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -51,28 +51,33 @@ The relevance of combinatorial model categories is given more abstractly by the 
 
 A [[model category]] $C$ is **combinatorial** if it is
 
-* [[locally presentable category|locally presentable]]
+* [[locally presentable category|locally presentable]] as a [[category]]
 
 and
 
-* [[cofibrantly generated model category|cofibrantly generated]].
+* [[cofibrantly generated model category|cofibrantly generated]] as a model category.
 
 =--
 
-Recall from the discussion at [[cofibrantly generated model category]] that this means that $C$ has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set $J$ of generating trivial cofibrations in that
++-- {: .num_remark}
+###### Remark
 
-  $$ 
-    cof = llp(rlp(I))
-  $$
+Recall from the discussion at [[cofibrantly generated model category]] that this means that $C$ has a [[set]] (not a proper [[class]]) $I$ of generating [[cofibrations]] and and a set $J$ of generating trivial cofibrations in that
+
+$$ 
+  cof = llp(rlp(I))
+$$
   
-  $$
-    fib = llp(rlp(J))
-    \,.
-  $$
+$$
+  fib = llp(rlp(J))
+  \,.
+$$
 
 Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. 
 
-Jeff Smith's theorem, below, gives an equivalent characterization that is usually easier to handle.
+=--
+
+Jeff Smith's theorem, [below](#SmithTheorem), gives an equivalent characterization that is usually easier to handle.
 
 
 ## Characterization theorems 
@@ -84,7 +89,8 @@ There are two powerful theorems that characterize combinatorial model categories
 * [[Dan Dugger]]'s theorem shows that [[combinatorial simplicial model category|combinatorial simplicial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of global [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
 
 
-### Smith's theorem {#SmithTheorem}
+### Smith's theorem 
+ {#SmithTheorem}
 
 A central theorem about combinatorial model categories is **[[Jeff Smith]]'s theorem** which establishes the existence of combinatorial model category structures from a small amount of input data.
 
@@ -523,6 +529,9 @@ Basic examples are
 
 * the categories of $(n,r)$-[[Theta space]]s.
 
+### Cisinski model structures
+
+More generally, every _[[Cisinski model structure]]_ is combinatorial.
 
 ### Derived examples 
 
