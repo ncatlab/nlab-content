@@ -13,6 +13,8 @@
 * table of contents
 {:toc}
 
+For Jacobian in the sense of [[Jacobian variety]] (of an algebraic curve), see there (also more general _intermediate Jacobians_).
+
 ## Definition
 
 If $f : \mathbb{R}^n \to \mathbb{R}^m$ is a $C^1$-[[differentiable map]], between [[Cartesian space]]s, its **Jacobian matrix** is the $(m \times n)$ [[matrix]]
