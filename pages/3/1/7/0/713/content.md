@@ -405,3 +405,5 @@ Then on p. 9 the universal morphism that we are looking for here is identified a
 
 (This text, by the way, contains various other gems. A pity that it is left unfinished.)
 
+
+[[!redirects free colimit completion]]
