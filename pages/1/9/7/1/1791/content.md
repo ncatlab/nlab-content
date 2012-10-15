@@ -20,7 +20,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -30,13 +30,13 @@ The [[model category|model structure]] $sPSh(C)$ on [[sSet]]-[[enriched functor 
 
 It generalizes the [[model structure on simplicial presheaves]] which is the special case obtained when $C$ happens to be just an ordinary [[category]].
 
-This means that in as far as the [[model structure on simplicial presheaves]] models [[∞-stack]]s, the model structure on [[sSet]]-[[enriched category|enriched categories]] model [[derived stack]]s.
+This means that in as far as the [[model structure on simplicial presheaves]] models [[∞-stacks]], the model structure on [[sSet]]-[[enriched category|enriched categories]] model [[derived stack]]s.
 
 ## Definition 
 
 The construction of the model structure on [[sSet]]-[[enriched category|enriched categories]] closely follows the discussion of the [[model structure on simplicial presheaves]], only that everything now takes place in [[enriched category theory]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Notation and conventions
 
 Regard the [[closed monoidal  category]]  [[sSet]] as a [[simplicially enriched category]] in the canonical way.
@@ -50,7 +50,7 @@ Write $[C^{op}, sSet]$ for the [[enriched functor category]].
 Hence the ordinary category $sk_1 [C^{op}, sSet]$ has as objects [[enriched functor]]s $C^{op} \to sSet$ and a morphism $f : A \to B$ in $sk_1 [C^{op}, sSet]$ is a [[natural transformation]]  given by a collection of morphisms $f_c : A(c) \to B(c)$ in [[sSet]], for each object $c \in C$.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(global model structure)**
 
@@ -62,14 +62,14 @@ The **global projective model structure** $sk_1[C^{op},sSet]_{proj}$ on $sk_1[C^
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The global projective model structure on $sk_1 [C^{op}, sSet]$ makes the $sSet$-category $[C^{op}, sSet]$ a [[combinatorial simplicial model category]].
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ an [[sSet-site]], the **local projective model structure** on $sk_1 [C^{op}, sSet]$ is the [[Bousfield localization of model categories|left Bousfield localization]] of $sk_1 [C^{op}, sSet]_{proj}$ at...
@@ -89,7 +89,7 @@ It seems that the claim is that, indeed, in the special case that $C$ happens to
 ### Presentation of $(\infty,1)$-toposes
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For an [[sSet-site]] $C$ regarded as an [[(∞,1)-site]], the local model structure on $[C^{op}, sSet]$ is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]] on $C$, in that there is an [[equivalence of (∞,1)-categories]]
@@ -114,6 +114,8 @@ Therefore the model structure on $sSet$-presheaves serves to model contexts of d
 (...)
 
 ## Related concepts
+
+* [[model topos]]
 
 * [[enriched Reedy category]]
 
