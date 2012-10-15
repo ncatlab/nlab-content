@@ -216,13 +216,15 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 * [[(∞,1)-topos]] 
 
+  * [[model topos]]
+
   * [[(∞,1)-category of (∞,1)-sheaves]]
 
   * [[elementary (∞,1)-topos]] 
 
 * [[2-topos]], [[(∞,2)-topos]], [[(∞,2)-sheaf]]
 
-
+[[!include locally presentable categories - table]]
 
 
 
