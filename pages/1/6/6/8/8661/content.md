@@ -4,4 +4,5 @@ The symbols "$\aleph_\mu$" are usually used to denote infinite [[cardinal number
 
 * $\aleph_0$ denotes the [[cardinality]] of the first infinite cardinal, the cardinality of the [[natural numbers]]
 
+[[!redirects aleph]]
 
