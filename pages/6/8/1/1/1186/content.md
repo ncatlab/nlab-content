@@ -332,3 +332,5 @@ The statement of [Dugger's theorem](combinatorial+model+category#DuggerTheorem) 
 [[!redirects locally presentable (∞,1)-categories]]
 
 [[!redirects presentable (infinity,1)-category]]
+
+[[!redirects locally presentable infinity-category]]
