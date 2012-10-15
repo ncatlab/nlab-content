@@ -320,6 +320,10 @@ A [[reflective (∞,1)-subcategory]] of an $(\infty,1)$-category of $(\infty,1)$
 
 If that [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the embedding of the [[reflective (∞,1)-subcategory]] furthermore preserves finite [[limit]]s, then the subcategory is an [[(∞,1)-category of (∞,1)-sheaves]]: an [[(∞,1)-topos]]
 
+## Related concepts
+
+[[!include locally presentable categories - table]]
+
 
 ## References ##
 
