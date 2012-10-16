@@ -1827,7 +1827,7 @@ $$
 
 by a lengthy but straightforward computation. This shows that every cycle is a boundary, hence that we have a resolution.
 
-Finally, since the chain complex $Q^u_\nbullet$ consists by construction degreewise of [[free modules]] hence in particular of a [[projective module]], it is a projective resolution.
+Finally, since the chain complex $Q^u_\bullet$ consists by construction degreewise of [[free modules]] hence in particular of a [[projective module]], it is a projective resolution.
 
 =--
 
