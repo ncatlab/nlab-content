@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -45,7 +45,7 @@ Using the [[(∞,1)-Grothendieck construction]] the notion of cograph of a funct
 
 ### In terms of hom-equivalences
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(in terms of hom equivalence induced by unit map)**
 
@@ -57,7 +57,7 @@ $$
 $$
 
 is an adjunction, if there exists a _unit transformation_ 
-$\epsilon : Id_C \to R \circ L$ -- a morphism in the [[(∞,1)-category of (∞,1)-functors]] $Func(C,C)$ -- such that for all $c \in C$ and $d \in D$ the induced morphism
+$\epsilon : Id_C \to R \circ L$ -- a morphism in the [[(∞,1)-category of (∞,1)-functors]] $Func(C,D)$ -- such that for all $c \in C$ and $d \in D$ the induced morphism
 
 $$
   Hom_C(L(c),d)
@@ -67,7 +67,7 @@ $$
   Hom_D(c,R(d))
 $$
 
-is an equivalence of [[∞-groupoids]].
+is an [[equivalence of ∞-groupoids]].
 
 =--
 
@@ -79,7 +79,7 @@ In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]
 
 We make use here of the explicit realization of the [[(∞,1)-Grothendieck construction]] in its incarnation for [[quasi-categories]]: here an [[(∞,1)-functors]] $L : D \to C$ may be regarded as a map $\Delta[1]^{op} \to $ [[(∞,1)Cat]], which corresponds under the Grothendieck construction to a [[Cartesian fibration]] of [[simplicial sets]] $coGraph(L) \to \Delta[1]$. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(in terms of Cartesian/coCartesian fibrations)**
 
@@ -102,7 +102,7 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 The two different definition above are indeed equivalent:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ and $D$ [[quasi-categories]], the two definitions of adjunction, in terms of Hom-equivalence induced by unit maps and in terms of Cartesian/coCartesian fibrations are equivalent.
@@ -191,7 +191,7 @@ given by $F''|_{c} : \Delta[2] \to K$, by ...
 
 The adjoint of a functor is, if it exists, essentially unique:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If the $(\infty,1)$-functor between quasi-categoris $L : D \to C$ admits a right adjoint $R : C \to D$, then this is unique up to homotopy.
@@ -251,7 +251,7 @@ Now to see this in $(\infty,1)$-category theory...
 ### Adjunctions on homotopy categories {#OnHomotopyCat}
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $(L \dashv R) : C \stackrel{\leftarrow}{\to} D$ an $(\infty,1)$-adjunction, its image under decategorifying to [[homotopy category of an (infinity,1)-category|homotopy categories]] is a pair of ordinary [[adjoint functor]]s 
@@ -273,7 +273,7 @@ This follows from that fact that for $\epsilon : Id_C \to R \circ L$ a unit of t
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The converse statement is in general false. 
@@ -300,7 +300,7 @@ As for ordinary [[adjoint functor]]s we have that given an $(\infty,1)$-adjuncti
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let
@@ -343,12 +343,12 @@ This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
 
 A large class of examples of $(\infty,1)$-adjunctions arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
 
-We want to produce Cartesian/coCartesian fibration $K \to Delta[1]$ froma given [[sSet]]-[[enriched category theory|enriched]] adjunction. For that first consider the following characterization
+We want to produce Cartesian/coCartesian fibration $K \to \Delta[1]$ from a given [[sSet]]-[[enriched category theory|enriched]] adjunction. For that first consider the following characterization
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
-Let $K$ be a [[simplicially enriched category]] whose [[hom-object]]s are all [[Kan complex]]es, regard the [[interval category]] $\Delta[1] := \{0 \to 1\}$ as an $sSet$-category in the obvious way using the embedding $const : Set \hookrightarrow sSet$ and consider an $sSet$-enriched functor $K \to \Delta[1]$. Let $C := K_0$ and $D := K_1$ be the $sSet$-enriched categories that are the fibers of this. Then under the [[homotopy coherent nerve]] $N : sSet Cat \to sSet$ the morphism
+Let $K$ be a [[simplicially enriched category]] whose [[hom-objects]] are all [[Kan complexes]], regard the [[interval category]] $\Delta[1] := \{0 \to 1\}$ as an $sSet$-category in the obvious way using the embedding $const : Set \hookrightarrow sSet$ and consider an $sSet$-enriched functor $K \to \Delta[1]$. Let $C := K_0$ and $D := K_1$ be the $sSet$-enriched categories that are the fibers of this. Then under the [[homotopy coherent nerve]] $N : sSet Cat \to sSet$ the morphism
 
 $$
   N(p) : N(K) \to \Delta[1]
@@ -357,17 +357,18 @@ $$
 is a [[Cartesian fibration]] precisely if for all objects $d \in D$ there exists a morphism $f : c \to d$ in $K$ such that postcomposition with this morphism
 
 $$
-  C(c',f ) :  C(c',cc) = K(c',c) \to K(c',d)
+  C(c',f ) :  C(c',c) = K(c',c) \to K(c',d)
 $$
 
 is a [[homotopy equivalence]] of [[Kan complex]]es for all objects $c' \in C'$.
 
 =--
 
+This appears as [[Higher Topos Theory|HTT, prop.  5.2.2.4]]. 
+
 +-- {: .proof}
 ###### Proof
 
-[[Higher Topos Theory|HTT, prop.  5.2.2.4]]. 
 
 The statement follows from the characterization of [[Cartesian morphism]]s under homotopy coherent nerves ([[Higher Topos Theory|HTT, prop.  2.4.1.10]]), which says that for an $sSet$-enriched functor $p : C \to D$ between Kan-complex enriched categories that is [[hom-object]]-wise a [[Kan fibration]], a morphim $f : c' \to c''$ in $C$ is an $N(p)$-[[Cartesian morphism]] if for all objects $c \in C$ the diagram
 
@@ -406,7 +407,7 @@ This is clearly a homotopy pullback precisely if the top morphism is an equivale
 
 Using this, we get the following.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ and $D$ [[sSet]]-[[enriched categories]] whose hom-objects are all [[Kan complexes]], the image 
