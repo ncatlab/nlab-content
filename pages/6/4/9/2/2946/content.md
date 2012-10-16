@@ -53,7 +53,7 @@ A [[functor]] that preserves all finitely filtered colimits is called a _[[finit
 ## Properties 
  {#Properties}
 
-### General
+### Commutation with $\kappa$-small limits
 
 The following is the crucial property of filtered colimits: that they commute with [[finite limits]].
 
@@ -117,7 +117,7 @@ Notice that in general $\lambda$ is _not_ an [[isomorphism]].
 +-- {: .num_defn}
 ###### Definition
 
-We say the [[limit]] ${\lim_\leftarrow}_D F(-,-)$ **[[commuting limit|commutes]]** with the colimit ${\lim_\to}_C F(-,-)$ is the morphism $\lambda$ above is an [[isomorphism]]
+We say the [[limit]] ${\lim_\leftarrow}_D F(-,-)$ **commutes** with the colimit ${\lim_\to}_C F(-,-)$ if the morphism $\lambda$ above is an [[isomorphism]]
 
 $$
   {\lim_\to}_C {\lim_\leftarrow}_D F
