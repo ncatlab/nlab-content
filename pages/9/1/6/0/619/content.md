@@ -20,7 +20,10 @@
 
 ## Definition
 
-A [[full subcategory]] $i : C \hookrightarrow D $ is **reflective** if the inclusion [[functor]] $i$ has a [[adjoint functor|left adjoint]] $T$:
++-- {: .num_defn }
+###### Definition
+
+A [[full subcategory]] $i : C \hookrightarrow D $ is **reflective** if the inclusion [[functor]] $i$ has a [[left adjoint]] $T$:
 
 $$
   (T \dashv i) :  C \stackrel{\stackrel{T}{\leftarrow}}{\hookrightarrow}
@@ -28,9 +31,23 @@ $$
   \,.
 $$
 
+=--
+
 The left adjoint is sometimes called the __reflector__, and a functor which is a reflector (or has a fully faithful right adjoint, which is the same up to equivalence) is called a __reflection__.  Of course, there are dual notions of __coreflective__, __coreflector__, and __coreflection__.
 
-The components of the unit 
+
++-- {: .num_remark }
+###### Remark
+
+A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[principle of equivalence|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+The components of the [[unit of an adjunction|unit]]
 
 $$
   \array{
@@ -47,15 +64,22 @@ $$
   \,.
 $$
 
+=--
+
 This reflection is sometimes called a [[localization]], although sometimes this term is reserved for the case when the functor $T$ is [[exact functor|left exact]].
 
-If the reflector $T$ is [[faithful functor|faithful]], the reflection is called a [[completion]].
++-- {: .num_defn }
+###### Definition
+
+If the reflector $T$ is [[faithful functor|faithful]], the reflection is called a **[[completion]]**.
+
+=--
 
 
 ## Characterizations
 
 
-+-- {: .un_prop #CharacterizationByLocalization}
++-- {: .num_prop #CharacterizationByLocalization}
 ###### Proposition
 
 Given any pair of [[adjoint functor]]s 
@@ -126,6 +150,32 @@ When the unit of the reflector is a [[monomorphism]], a reflective category is o
 
 In the last case, note that if the unit is an *iso*morphism, then the inclusion functor is an [[equivalence of categories]], so nontrivial bireflective subcategories can occur only in non-[[balanced categories]].  Also note that 'bireflective' does *not* mean reflective and [[coreflective subcategory|coreflective]].  One sees this term often in discussions of [[concrete categories]] (such as [[topological categories]]) where really something stronger holds: that the reflector lies over the [[identity functor]] on [[Set]].  In this case, one can say that we have a subcategory that is __reflective over $Set$__.
 
+### Accessible reflective subcategories
+ {#AccessibleReflectiveSubcategories}
+
++-- {: .num_defn #AccessibleReflection}
+###### Definition
+
+A reflection 
+
+$$
+  \mathcal{C}
+  \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
+  \mathcal{D}
+$$
+
+is called **accessible** if $\mathcal{D}$ is an [[accessible category]] and  the reflector $R\circ L \colon \mathcal{D} \to \mathcal{D}$ is an [[accessible functor]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A reflective subcategory $\mathcal{C} \hookrightarrow \mathcal{D}$ of an [[accessible category]] is accessible, def. \ref{AccessibleReflection}, precisely if $\mathcal{C}$ is an [[accessible category]].
+
+=--
+
+([Lurie, prop. 5.5.1.2](#Lurie)).
 
 
 ## Properties
@@ -136,12 +186,12 @@ A morphism in a reflective subcategory is monic iff it is monic in the ambient c
 
 ### Reflective subcategories of locally presentable categories
 
-Both the weak and strong versions of [[Vopěnka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
+Both the weak and strong versions of [[Vop?nka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
 
 +-- {: .num_theorem}
 ###### Theorem
 
-The weak [[Vopěnka's principle]] is equivalent to the statement:
+The weak [[Vop?nka's principle]] is equivalent to the statement:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory.
 
@@ -151,7 +201,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 +-- {: .num_theorem}
 ###### Theorem
-The strong [[Vopěnka's principle]] is equivalent to:
+The strong [[Vop?nka's principle]] is equivalent to:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable
 =--
@@ -184,25 +234,26 @@ This is shown in ([BashirVelebil](#BashirVelebil)).
 
 * The unital [[ring]]s form a mono-reflective subcategory of possibly nonunital rings; the reflector formally adjoins an [[identity element]].
 
-* The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the category of presheaves on $S$; the reflector is called _[[sheafification]]_. In fact, categories of sheaves are precisely those reflective subcategories of presheaf categories for which the reflector is left [[exact functor|exact]]. This makes the inclusion functor precisely a [[geometric morphism]] of [[topos|topoi]].
+* The [[category of sheaves]] on a [[site]] $S$ is a reflective subcategory of the category of presheaves on $S$; the reflector is called _[[sheafification]]_. In fact, categories of sheaves are precisely those accessible reflective subcategories, def. \ref{AccessibleReflection},  of presheaf categories for which the reflector is left [[exact functor|exact]]. This makes the inclusion functor precisely a [[geometric inclusion]] of [[toposes]].
 
 * A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [[concrete site]] is a reflective subcategory.
 
-## Property vs structure
+### Property vs structure
 
 Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are objects of $D$ with some extra [[property, structure, stuff|property]].  But if $C$ is reflective in $D$, then we can turn this around and (by thinking of the left adjoint as a [[forgetful functor]]) think of objects of $D$ as objects of $C$ with (if we\'re lucky) some [[extra structure]] or (in any case) some [[extra stuff]].
 
 This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
 
 
-## A terminological remark
+## Related concepts
 
-A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[evil|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
+* [[localization]], [[locally presentable category]]
 
+* [[reflective sub-(infinity,1)-category]]
 
 ## References
 
-* [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
@@ -218,6 +269,10 @@ Reflective and coreflective subcategories of presheaf categories are discussed i
 
 * R. Bashir, J. Velebil, _Simultaneously reflective and coreflective subcategories of presheaves_, Theory and  Applicaitons of Physics, Vol 10. No. 16. (2002) ([pdf](http://www.emis.de/journals/TAC/volumes/10/16/10-16.pdf)).
 
+Related discussion of [[reflective sub-(∞,1)-categories]] is in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects reflector]]
 [[!redirects reflectors]]
