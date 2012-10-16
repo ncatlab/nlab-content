@@ -25,7 +25,7 @@ The notion of $(\infty,1)$-category of $(\infty,1)$-sheaves is the generalizatio
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **$(\infty,1)$-category of $(\infty,1)$-sheaves** is a [[reflective sub-(∞,1)-category]] 
