@@ -25,6 +25,7 @@ There is a wealth of equivalent ways to make precise what this means, which are 
 
 1. The locally presentable $(\infty,1)$-categories $\mathcal{C}$ are precisely the [[accessible (∞,1)-functor|accessibly embedded]] [[localization of an (∞,1)-category|localizations]]/[[reflective sub-(∞,1)-category|reflections]] $\mathcal{C} \stackrel{\overset{}{\leftarrow}}{\hookrightarrow} PSh_\infty(K)$ of an [[(∞,1)-category of (∞,1)-presheaves]]. In particular, if the reflector of this reflection is a [[left exact (∞,1)-functor]], then $\mathcal{C}$ is an [[(∞,1)-topos]].
 
+See also at _[[locally presentable categories - introduction]]_.
 
 **Warning on terminology.** In [Lurie](#Lurie) the term _presentable $(\infty,1)$-category_ is used for what we call a _locally presentable $(\infty,1)$-category_ here, in order to be in line with the established terminology of _[[locally presentable category]]_ in ordinary [[category theory]]. 
 
@@ -67,7 +68,7 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 1. There exists a [[combinatorial simplicial model category]] $A$ and and [[equivalence of (infinity,1)-categories]] $\mathcal{C} \simeq L_W A$ with the [[simplicial localization]] of $A$.
  
-  More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on [[fibrant object|fibrant]] and [[cofibrant objects]].
+   More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on [[fibrant object|fibrant]] and [[cofibrant objects]].
 
 1. $\mathcal{C}$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the [[full sub-(∞,1)-category]] $\mathcal{C}^\kappa \hookrightarrow \mathcal{C}$ on the $\kappa$ [[compact object in an (∞,1)-category|compact objects]] admits $\kappa$-small [[(∞,1)-colimits]].
 
