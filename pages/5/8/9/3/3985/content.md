@@ -27,7 +27,7 @@ The notion of  _reflective $(\infty,1)$-subcategory_ is the generalization of th
 
 ### Reflective sub-$(\infty,1)$-category
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 **(local objects, local equivalences)**
 
@@ -65,7 +65,7 @@ may be understood as exhibiting a [[localization of an (∞,1)-category|localiza
 One finds, as discussed [below](#Properties), that reflective subcategories may be entirely characterized by the class of morphisms that the localization functor $Loc : C \to C$ sends to weak equivalences.
 
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 **(local objects, local equivalences)**
 
@@ -92,7 +92,7 @@ Let $S \subset Mor(C)$ be a class of morphisms.
 
 Notice that the class of $S$-equivalences always contains $S$ itself. Hence passing from a collection $S$ to its class $\bar S$ of $S$-equivalences is a kind of saturation procedure. This is formalized by the following definition, whose justification is given by the propositions [below](#Properties).
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 **(strongly saturated class of morphisms)**
 
@@ -315,43 +315,6 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 
 =--
 
-### Accessible reflective subcategories
- {#AccessibleReflectiveSubcategory}
-
-The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
-
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $C$ be an [[accessible (∞,1)-category]] and 
-
-$$
-  D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
-  C
-$$
-
-a reflective subcategory.  Then the following conditions are equivalent:
-
-1. $D$ is itself accessible;
-
-1. The localization $Loc : R\circ L : C \to C$ is an [[accessible (∞,1)-functor]].
-
-1. There exists a [[small set]] $S_0 \subset S := L^{-1}(equiv.)$ such that every $S$-[[local object]] is also $S$-local.
-
-=--
-
-
-This is ([Lurie, prop. 5.5.1.2 and prop. 5.5.4.2, part 3](#Lurie)).
-
-+-- {: .proof}
-###### Proof
-
-This is work...
-
-=--
-
-
 ### Reflective localization at a set of morphisms
 
 Above is discussed that every reflective subcategory is the localization at the collection local morphisms, those which the left adjoint functor inverts.
@@ -561,11 +524,67 @@ Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}
 
 =--
 
-### Exact localizations {#ExactLocalizations}
+## Extra conditions
+ {#ExtraConditions}
 
-Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[limit in a quasi-category|limits]].
+Extra conditions on a reflective sub-$(\infty,1)$-category of relevance are
+
+* _[Accessible reflective subcategories](#AccessibleReflectiveSubcategory)_
+
+* _[Exact reflective subcategories](#ExactLocalizations)_
+
+### Accessible reflective subcategories
+ {#AccessibleReflectiveSubcategory}
+
+The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $C$ be an [[accessible (∞,1)-category]] and 
+
+$$
+  D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
+  C
+$$
+
+a reflective subcategory.  Then the following conditions are equivalent:
+
+1. $D$ is itself accessible;
+
+1. The localization $Loc : R\circ L : C \to C$ is an [[accessible (∞,1)-functor]].
+
+1. There exists a [[small set]] $S_0 \subset S := L^{-1}(equiv.)$ such that every $S$-[[local object]] is also $S$-local.
+
+=--
+
+
+This is ([Lurie, prop. 5.5.1.2 and prop. 5.5.4.2, part 3](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+This is work...
+
+=--
+
+
+### Exact localizations 
+ {#ExactLocalizations}
+
+Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[limit in a quasi-category|limits]]. Accordinly we say:
+
++-- {: .num_defn}
+###### Definition
+
+An **exact reflective sub-$(\infty,1)$-category** is a reflective sub-$(\infty,1)$-category whose reflector is a [[left exact (∞,1)-functor]], hence preserves [[finite limit|finite]] [[(∞,1)-limits]].
+
+=--
 
 Recall also that by the above results, a reflective subcategory is characterized by the collection $S = L^{-1}(equiv) \subset Mor(C)$ of those morphisms, that $L$ sends to equivalences in $D$.
+
+
 
 The following propositions say how the property that $L$ preserves finite limits is characterized by pullback-stability properties of $S$.
 
