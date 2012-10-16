@@ -1,3 +1,6 @@
++-- {: .standout} 
+This page was originally created by an anonymous user. As the original post by Vesselin Dimitrov at MathOverflow is periodically revised, and this entry was created apparently without his knowledge, the contents of this entry should be treated with discretion and caution until the situation has been clarified. -- Todd Trimble 
+=-- 
 
 This was originally an answer by Vesselin Dimitrov at the Mathoverflow question:
 
