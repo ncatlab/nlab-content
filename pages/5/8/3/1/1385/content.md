@@ -183,7 +183,5 @@ see proposition 6.14 and remark 6.18.
 [[!redirects symmetric monoidal (infinity,1)-category of presentable (inf]]
 [[!redirects Pr(∞,1)Cat]]
 
-[[!redirects presentable (infinity,1)-category]]
-
 
 category: category
