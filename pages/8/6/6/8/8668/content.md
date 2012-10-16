@@ -219,7 +219,7 @@ Using this we can now say:
 +-- {: .num_defn #LocallyPresentableCategory}
 ###### Definition
 
-A [[locally small category]] $\mathcal{C}$ is a _[[locally presentable category]]_ if there is a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of [[small objects]] such that this generates $\mathcal{C}$, by def. \ref{GenerationOfCategoryFromSubcategoryUnderColimits}.
+A [[locally small category]] $\mathcal{C}$ is a _[[locally presentable category]]_ if it has all small [[colimits]] and there is a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of [[small objects]] such that this generates $\mathcal{C}$, by def. \ref{GenerationOfCategoryFromSubcategoryUnderColimits}.
 
 =--
 
@@ -297,7 +297,7 @@ A [[functor]] $L \colon PSh(\mathcal{C}^0) \to \mathcal{C}$ from the [[category 
 
   1. $R$ is [[right adjoint]] to $L$;
 
-  1. $R\circ L$ preserves $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
+  1. $R\circ L$ preserves $\kappa$-[[filtered colimits]].
 
 =--
 
@@ -452,7 +452,7 @@ $$
   Func(\mathcal{D}^{op}, \infty Grpd)
 $$
 
-out of the [[opposite (∞,1)-category]] of $\mathcal{D}$ into the [[(∞,1)-category of ∞-groupoids]].
+out of the [[opposite (∞,1)-category]] of $\mathcal{D}$ into the [[∞Grpd|(∞,1)-category of ∞-groupoids]].
 
 =--
 
