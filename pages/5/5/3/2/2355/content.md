@@ -284,17 +284,24 @@ One way to find  that an ordinary adjunction of homotopy categories lifts to an 
 
 
 ### Full and faithful adjoints
+ {#FullAndFaithfulAdjoints}
 
-As for ordinary [[adjoint functor]]s we have that given an $(\infty,1)$-adjunction $(L \dashv R) : C \to  D$
+As for ordinary [[adjoint functors]] we have the following relations between full and faithful adjoints and idempotent monads.
 
-* $R$ is a [[full and faithful (∞,1)-functor]] precisely is the counit $L R \stackrel{}{\to} Id$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]s;
++-- {: .num_prop}
+###### Proposition
+
+Given an $(\infty,1)$-adjunction $(L \dashv R) : C \to  D$
+
+* $R$ is a [[full and faithful (∞,1)-functor]] precisely is the counit $L R \stackrel{}{\to} Id$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]
 
   In this case $C$ is a [[reflective (∞,1)-subcategory]] of $D$.
 
-* $L$ is a [[full and faithful (∞,1)-functor]] precisely is the unit $Id \to L R$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]s;
+* $L$ is a [[full and faithful (∞,1)-functor]] precisely is the unit $Id \to L R$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functors]].
 
+=--
 
-(see also [[Higher Topos Theory|HTT, p. 308]]).
+[Lurie, prop. 5.2.7.4](#Lurie), See also top of p. 308.
 
 ### On over-$(\infty,1)$-categories {#OnSlices}
 
@@ -497,7 +504,8 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 
 Section 5.2 in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ {#Lurie}
 
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
