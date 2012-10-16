@@ -42,6 +42,7 @@ The relevance of combinatorial model categories is given more abstractly by the 
 
 =--
 
+For more see at _[[locally presentable categories - introduction]]_.
 
 ## Definition 
 
