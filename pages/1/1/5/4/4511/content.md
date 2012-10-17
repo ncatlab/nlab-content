@@ -114,6 +114,7 @@ For instance ([Weibel, theorem 2.7.2](#Weibel)).
 
 
 ### Respect for direct sums and filtered colimits
+ {#RespectForDirectSumsAndFilteredColimits}
 
 +-- {: .num_prop #Tor1RespectsDirectSum}
 ###### Proposition
@@ -158,6 +159,46 @@ $$
 ###### Proposition
 
 Each $Tor_n^R(-,N)$ respects [[filtered colimits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss this for $R = \mathbb{Z}$, hence in $\mathbb{Z}$[[Mod]] $\simeq$ [[Ab]].
+
+Let hence $A \colon I \to Ab$ be a [[filtered category|filtered]] [[diagram]] of abelian groups. For each $A_i$, $i \in I$ we may find a [[projective resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that 
+
+$$
+  (\underset{\to_i}{\lim} Y_i)_\bullet \to A
+$$
+
+is still a [[quasi-isomorphism]]. Moreover, by [[Lazard's criterion]] the degreewise filtered colimits of [[projective modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[flat resolution]] of $A$. By the very definition or else by the basic properties of [[flat modules]], this means that it is a $(-)\otimes N$-[[acyclic resolution]]. By the discussion there it follows that 
+
+$$
+  Tor_n^\mathbb{Z}(A,N)
+  \simeq
+  H_n( (\underset{\to_i}{\lim} Y_i) \otimes N )
+  \,.
+$$
+
+Now the [[tensor product of modules]] is a [[left adjoint]] [[functor]] (the [[right adjoint]] being the [[internal hom]] of modules) and so it commutes over the filtered colimit to yield, using again that [[chain homology]] commutes with filtered colimits,
+
+$$
+  \begin{aligned}
+  \cdots 
+    & 
+    \simeq 
+    H_n( \underset{\to_i}{\lim} (Y_i \otimes N) )
+    \\
+    & \simeq
+   \underset{\to_i}{\lim} H_n( Y_i \otimes N )   
+    \\
+    & \simeq
+    \underset{\to_i}{\lim} Tor_n( A_i, N)
+ \end{aligned}
+  \,.
+$$
 
 =--
 
