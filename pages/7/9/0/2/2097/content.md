@@ -8,3 +8,4 @@ Andrew Ranicki is professor for mathematics at Edinburgh University. He works on
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Andrew_Ranicki)
 
 category: people
+[[!redirects A. Ranicki]]
