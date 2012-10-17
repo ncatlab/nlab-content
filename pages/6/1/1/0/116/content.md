@@ -218,7 +218,13 @@ For more see [[counterexamples in algebra]].
 
 * **group**, [[group object]]
 
-  * [[finite group]], [[discrete group]], [[abelian group]], [[anabelian group]], [[profinite group]],
+  * [[discrete group]]
+
+    * [[order of a group]]
+
+    * [[finite group]], [[profinite group]]
+
+  * [[abelian group]], [[anabelian group]], 
 
   * [[topological group]], [[Lie group]], [[loop group]], 
 
