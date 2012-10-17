@@ -709,7 +709,7 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
   * [[sheafification]]
 
-  * [[sheaf of abelian groups]]
+  * [[abelian sheaf]], [[sheaf of abelian groups]], [[sheaf of modules]], [[quasicoherent sheaf]], [[sheaf of meromorphic functions]]
 
 * [[2-sheaf]] / [[stack]]
 
