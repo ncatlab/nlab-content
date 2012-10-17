@@ -576,6 +576,15 @@ and in section 3.3 of
 
 * [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, in Andersen, Boden, Hahn, Himpel (eds.)_Chern-Simons gauge theory: 20 years after_, AMS (2011) ([arXiv:1003.4808](http://arxiv.org/abs/1003.4808))
 
+Discussion that relates the geometric quantization of $G$-Chern-Simons theory to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
+
+* [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](arxiv.org/abs/1206.2785))
+ {#Andersen}
+
+and references cited there.
+
+
+
 The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3, was constructed in 
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]] [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
