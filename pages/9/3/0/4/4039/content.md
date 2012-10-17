@@ -34,9 +34,216 @@ This applies to, and is largely motivated from, the study of [[action functional
 There are strong [[cohomology|cohomological]] tools for studying variational calculus, such as the [[variational bicomplex]] and [[BV-BRST formalism]].
 
 
-## Definition
+## In terms of smooth spaces
+ {#InTermsOfSmoothSpaces}
 
-(...)
+We discuss some basics of variational calculus in terms of [[smooth spaces]] and in particular in terms of [[diffeological spaces]].
+
+### Smooth functionals
+
+Let $X$ be a [[smooth manifold]].
+Let $\Sigma$ be a [[smooth manifold|smooth]] [[manifold with boundary]] $\partial \Sigma$. 
+
+Write 
+
+$$
+  [\Sigma, X] \in Smooth0Type
+$$
+
+for the [[smooth space]] (a [[diffeological space]]) which is the [[mapping space]] from $\Sigma$ to $X$, hence such that for each $U \in $ [[CartSp]] we have
+
+$$
+  [\Sigma, X](U) = C^\infty(U \times \Sigma, X)
+  \,.
+$$
+
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  [\Sigma, X]_{\partial \Sigma} \hookrightarrow [\Sigma,X]
+$$
+
+for the [[subobject]] on those plots $\phi \colon U \times \Sigma \to X$ for which there is an [[open neighbourhood]] $B \subset \Sigma$ of $\partial \Sigma$ in $\Sigma$ such that for all $s \in B$,  $\phi(-,s) \colon U \to X$ is constant.
+
+=--
+
+
++-- {: .num_defn #SmoothFunctional}
+###### Definition
+
+A **functional** on the mapping space $[\Sigma, X]$ is a [[homomorphism]] of smooth spaces
+
+$$
+  S \colon [\Sigma, X]_{\partial \Sigma} \to \mathbb{R}
+  \,.
+$$
+
+=--
+
+### Functional derivative
+
+Write
+
+$$
+  \mathbf{d} \colon \mathbb{R} \to \Omega^1
+$$
+
+for the [[de Rham differential]] incarnated as a [[homomorphism]] of [[smooth spaces]] from the [[real line]] to the smooth [[moduli space]] of [[differential 1-forms]].
+
+
++-- {: .num_defn}
+###### Definition
+
+The **functional derivative** 
+
+$$
+  \mathbf{d}S
+  \in 
+  \Omega^1([\Sigma,X]_{\partial \Sigma})
+$$ 
+
+of a functional $S$, def. \ref{SmoothFunctional}, is simply its [[de Rham differential]] as a homomorphism of smooth spaces, hence the composite
+
+$$
+  \mathbf{d} S \colon [
+  \Sigma, X]_{\partial \Sigma} 
+     \stackrel{S}{\to} 
+  \mathbb{R}   
+    \stackrel{\mathbf{d}}{\to}
+  \Omega^1
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+This means that for each smooth parameter space $U \in $ [[CartSp]] and for each smooth $U$-parameterized collection 
+
+$$
+  \phi \colon U \times \Sigma \to X
+$$
+
+of smooth functions $\Sigma \to X$, constant in the parameter $U$ in some neighbourhood of the boundary of $\Sigma$, 
+
+$$
+  S_\phi \colon [\Sigma,X]_{\partial \Sigma}(U) \to C^\infty(U,\mathbb{R})
+$$
+
+is the function that sends each such $U$-collection of configurations to the $U$-collection of their values under $S$. Then
+
+$$
+  (\mathbf{d}S)_\phi \in \Omega^1(U)
+$$
+
+is the smooth [[differential 1-form]]
+
+$$
+  (\mathbf{d}S)_\phi = \mathbf{d}(S(\phi))
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $\Sigma = [0,1] \hookrightarrow \mathbb{R}$ be the standard [[interval]]. Let 
+
+$$
+  L(-,-) \mathbf{d}t \in \Omega^1([0,1], C^\infty(\mathbb{R}^2))
+$$ 
+
+and consider the functional
+
+$$
+  S
+  \colon
+  ([0,1] \stackrel{\gamma}{\to} X)
+  \mapsto
+  \int_{0}^1 L(\gamma(t), \dot \gamma(t)) d t
+  \,.
+$$
+
+Then for $U = \mathbb{R}$ and any smooth $U$-parameterized collection $\{\gamma_{u} \colon \Sigma \to X\}_{u \in I}$ the functional derivative takes the value
+
+$$
+  \begin{aligned}
+   \mathbf{d}S_{\gamma_{(-)}}
+   & =
+   \left(
+     \frac{d}{d u} \int_0^1 L(\gamma_u(t), \dot \gamma_u(t)) dt
+   \right)
+   \mathbf{d}u
+   \\
+    & = 
+     \int_{0}^1 
+     \left(
+       \frac{\partial L}{\partial \gamma}(\gamma_u(t), \dot \gamma_u(t))
+       \frac{d \gamma_u(t)}{d u}
+      + 
+       \frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
+       \frac{\partial \dot \gamma_u(t)}{\partial u}
+     \right)
+     \mathbf{d} u
+     \\
+     & =
+     \int_{0}^1 
+     \left(
+       \frac{\partial L}{\partial \gamma}(\gamma_u(t), \dot \gamma_u(t))
+       \frac{d \gamma_u(t)}{d u}
+      + 
+       \frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
+       \frac{\partial }{\partial t}\frac{\partial \gamma_u(t)}{\partial u}
+     \right)
+     \mathbf{d} u
+     \\
+     & =
+     \int_{0}^1
+     \left(
+       \frac{\partial L}{\partial \gamma}(\gamma_u(t), \dot \gamma_u(t))
+      - 
+       \frac{\partial}{\partial t}\frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
+     \right)
+     \frac{\partial \gamma_u(s)}{\partial u}
+     \mathbf{d}u
+  \end{aligned}
+  \,.
+$$
+
+Here we used [[integration by parts]] and used that the boundary term vanishes
+
+$$
+  \begin{aligned}
+    \int_{0}^1 \frac{\partial}{\partial t} 
+    \left(
+      \frac{\partial}{\partial \dot\gamma} L(\gamma_u(s), \dot \gamma_u(s))
+      \frac{\partial \gamma_u(s)}{\partial u}
+    \right)
+    d s
+    & = 
+    \left(
+      \frac{\partial}{\partial \dot\gamma} L(\gamma_u(1), \dot \gamma_u(1))
+      \frac{\partial \gamma_u(1)}{\partial u}
+    \right)
+    - 
+    \left(
+      \frac{\partial}{\partial \dot\gamma} L(\gamma_u(0), \dot \gamma_u(0))
+      \frac{\partial \gamma_u(0)}{\partial u}
+    \right)
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+since by definition the plots $\gamma_u(-)$ are such that $\gamma_{(-)}(1)$ and $\gamma_{(-)}(0)$ are constant.
+
+=--
 
 ## Related concepts
 
