@@ -335,6 +335,19 @@ and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself p
 
 (...) [[derived category]] (...)
 
+### Preservation of limits and colimits
+
++-- {: .num_prop }
+###### Proposition
+
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[additive functor|additive]] [[right exact functor]] with codomain an [[additive and abelian categories|AB5-category]]. 
+
+Then the [[left derived functors]] $L_n F$ preserves [[filtered colimits]] precisely if filtered colimits of [[projective objects]] in $\mathcal{A}$ are $F$-[[acyclic objects]]. 
+
+=--
+
+See [here](http://mathoverflow.net/questions/97658/left-derived-functors-commute-with-filtered-colimits).
+
 ## Examples
 
 (...)
