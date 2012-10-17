@@ -52,7 +52,7 @@ The **localization** $L_S \colon R \to R[S^{-1}]$ is a homomorphism to another c
 
 * [[localization of a module]]
 
-* [[localization of a category]]
+* [[localization of a ring]], [[localization of a category]]
 
 
 [[!redirects localizations of a commutative ring]]
