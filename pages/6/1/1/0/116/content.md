@@ -232,6 +232,10 @@ For more see [[counterexamples in algebra]].
 
   * [[group commutator]], [[commutator subgroup]]
 
+  * [[subgroup]]
+
+    * [[torsion subgroup]]
+
   * [[group character]]
 
   * [[group cohomology]]
