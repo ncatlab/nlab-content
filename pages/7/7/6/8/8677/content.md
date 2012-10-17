@@ -22,7 +22,13 @@ We can typically invert elements in a left or right Ore subset $S\subset R$ or m
 
 ## Related concepts
 
-* [[localization]], [[localization of a commutative ring]], [[Cohn localization]], [[Ore localization]].
+* [[localization]], 
+
+* [[localization of a commutative ring]]
+
+* [[localization of a module]]
+
+* [[Cohn localization]], [[Ore localization]].
 
 
 ## References
