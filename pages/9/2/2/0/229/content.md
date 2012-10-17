@@ -68,9 +68,9 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 ## Related entries
 
-* [[tensor product of abelian groups]]
+* [[tensor product of abelian groups]], [[direct sum of abelian groups]]
 
-* [[free abelian group]]
+* [[free abelian group]], [[finite abelian group]]
 
 * [[abelianization]]
 
@@ -79,6 +79,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 * [[module]], [[ring]]
 
 * [[Ab]]
+
+* [[sheaf of abelian groups]]
 
 * [[Ab-enriched category]], [[abelian category]]
 
