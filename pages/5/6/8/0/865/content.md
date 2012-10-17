@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## In the sense of order theory
+
 An **order** on a set $S$ is (usually) a binary [[relation]] that is, at the very least, [[transitive relation|transitive]].
 
 Actually, there are several different notions of order that are each useful in their own ways:
@@ -13,6 +29,8 @@ Actually, there are several different notions of order that are each useful in t
 The closely related notion of a [[cyclic order]] is not actually a binary relation but a ternary relation.
 
 The study of orders is [[order theory]].
+
+## Other meanings
 
 A mostly unrelated notion from [[group theory]] is the [[cardinality]] of the [[underlying set]] of a [[group]], especially when this is [[finite set|finite]].  Sometimes one thinks of an [[infinite set|infinite]] group as having order [[zero]].  The orders then have the natural order relation of [[divisibility]].
 
