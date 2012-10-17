@@ -1,17 +1,38 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Definition
 
-There is, up to [[isomorphism]], a unique simple [[group]] of [[order]] 2:
+There is, up to [[isomorphism]], a unique simple [[group]] of [[order of a group|order]] 2:
 
 it has two elements $(1,\sigma)$, where $\sigm \cdot \sigma = 1$.
 
 
-This is usually denoted $\mathbb{Z}_2$ or $\mathbb{Z}/2\mathbb{Z}$, becuase it is the [[quotient]] of the map
+This is usually denoted $\mathbb{Z}_2$ or $\mathbb{Z}/2\mathbb{Z}$, because it is the [[cokernel]] (the [[quotient]] by the [[image]] of) the  homomorphism
 
 $$
   \cdot 2 : \mathbb{Z} \to \mathbb{Z}
 $$
 
-on the additive group of [[integer]]s.
+on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special case of a [[cyclic group]] $\mathbb{Z}_p$ for $p = 2$.
+
+## Related concepts
+
+* [[Bockstein homomorphism]]
+
+* [[Stiefel-Whitney class]]
 
