@@ -1,5 +1,39 @@
-Given a ring $R$ and a family $S$ of morphisms in the category of (say left) finitely generated projective $R$-modules, we say that a morphism of rings $f:R\to T$ is $S$-inverting if the extension of scalars from $R$ to $T$ sends all morphisms from $S$ into invertible morphisms in the category of left $T$-modules. P. M. Cohn has shown that there is a universal object $R\to Q_S R$ in the category of $S$-inverting morphisms. Ring $Q_S R$ (and more precisely the universal morphism itself) are called the universal or Cohn localization of ring $R$ at $S$.   
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[ring]] $R$ and a family $S$ of morphisms in the [[category]] $R$[[Mod]] of (say left) [[finitely generated module|finitely generated]] [[projective module|projective]] $R$-[[modules]], we say that a morphism of rings $f:R\to T$ is **$S$-inverting** if the [[extension of scalars]] from $R$ to $T$ along $f$
+
+$$
+  T \otimes_R (-) \colon R Mod \to T Mod
+$$
+
+sends all morphisms of $S$ into [[isomorphism]] in the category of left $T$-modules. 
+
+P. M. Cohn has shown that there is a universal object $R\to Q_S R$ in the category of $S$-inverting morphisms. The ring $Q_S R$ (and more precisely the universal morphism itself) are called the **universal localization** or **Cohn localization** of the ring $R$ at $S$.   
+
+
+## Properties
+
+
 Cohn localization induces a hereditary torsion theory, but it lacks good flatness properties at the level of full module category. However for the category of finite-dimensional projectives has all good properties -- it is not any worse than [[Ore localization]]. 
+
+## Related concepts
+
+* [[localization of a ring]]
 
 [[!redirects Cohn localization]]
 [[!redirects Cohn universal localization]]
