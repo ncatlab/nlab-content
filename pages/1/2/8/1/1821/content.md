@@ -103,9 +103,35 @@ Similarly for [[direct sum]].
 +-- {: .num_prop }
 ###### Proposition
 
-The chain homology functor preserves [[direct sums]].
+The chain homology functor preserves [[direct sums]]:
+
+for $A,B \in Ch_\bullet$ and $n \in \mathbb{Z}$, the canonical morphism
+
+$$
+  H_n(A \oplus B) \to H_n(A) \oplus H_n(B)
+$$
+
+is an [[isomorphism]].
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+
+The chain homology functor preserves [[filtered colimits]]:
+
+for $A \colon I \to Ch_\bullet$ a [[filtered category|filtered]] [[diagram]] and $n \in \mathbb{Z}$, the canonical morphism
+
+$$
+  H_n(\underset{\to_i}{\lim} A_i) \to \underset{\to_i}{\lim} H_n(A_i)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This is spelled out for instance as ([Hopkins-Mathew , prop. 23.1](#HopkinsMathew)).
+
 
 ## Examples
 
@@ -406,6 +432,8 @@ Basics are for instance in section 1.1 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
+ {#HopkinsMathew}
 
 [[!redirects chain homology]]
 [[!redirects cochain homology]]
