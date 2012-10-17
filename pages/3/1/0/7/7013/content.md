@@ -53,7 +53,7 @@ Since [[left adjoints]] preserve colimits, the first condition implies the secon
 
 Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]]; thus the fourth condition implies the third.  Since left Quillen functors preserve homotopy colimits, the third condition implies the second.
 
-Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].
+Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].  An alternative proof can be found in [(Gepner-Kock)](#GepnerKock).
 
 =--
 
@@ -86,6 +86,12 @@ Discussion in the context of [[homotopy type theory]] is in
 
 * [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
  {#Joyal}
+
+A discussion of object classifiers, univalent families, and model category presentations is in
+
+* [[David Gepner]], [[Joachim Kock]], "Univalence in locally cartesian closed ∞-categories", [arXiv](http://arxiv.org/abs/1208.1749)
+ {#GepnerKock}
+
 
 [[!redirects locally cartesian closed (∞,1)-category]]
 [[!redirects locally cartesian closed (infinity,1)-categories]]
