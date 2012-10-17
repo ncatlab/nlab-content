@@ -32,5 +32,5 @@ $$
 
 Sometimes the term ''order'' refers to the [[height of a group scheme|height]] of a ([[group scheme|group]]) [[scheme]] $X$ over a [[field]] (of [[characteristic]] $p$) which is defined to be the dimension of the associated ring of functions $O(X)$ as a $k$-[[vector space]]. Another term for this notion is ''rank''. If this group scheme is moreover [[p-divisible group|p-divisible]] - which means that is is in fact a codirected diagram of [[group scheme|group schemes]] of order $p^{v h}$; in this case $h$ is called the order or height of $X$.
 
-
+[[!redirects order of an element]]
 
