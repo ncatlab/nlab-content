@@ -11,7 +11,7 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -20,8 +20,28 @@ A **finite group** is a [[group]] whose underlying [[set]] is [[finite set|finit
 
 This is equivalently a [[group object]] in [[FinSet]].
 
+## Properties
 
-## Classification
+### Cauchy's theorem
+
+Let $G$ be a finite group with [[order of a group|order]] ${\vert G\vert} \in \mathbb{N}$. 
+
++-- {: .num_theorem}
+###### Theorem
+**(Cauchy)**
+
+If a [[prime number]] $p$ divides ${\vert G\vert}$, then equivalently
+
+* $G$ has an element of [[order of an element|order]] $p$;
+
+* $G$ has a [[subgroup]] of [[order of a group]] $p$.
+
+=--
+
+See at _[[Cauchy's theorem]]_ for more.
+
+
+### Classification
 
 The structure of finite groups is a very hard problem; the classification of finite [[simple group]]s alone is one of the largest theorems ever proved (certainly if measured by number of journal pages needed for a complete proof).  
 
@@ -40,15 +60,21 @@ For more on this see
 
 ## Examples
 
-* For every [[natural number]] $n \in \mathbb{N}$, the group
+* For every [[natural number]] $n \in \mathbb{N}$, the [[cyclic group]]
   
   $$
     \mathbb{Z}_n := \mathbb{Z}/n \mathbb{Z}
   $$
 
-  which is the quotient of the additive group of [[integer]]s by its action on itself my multiplication with multiples of $n$ is a finite group.
+  is finite.
 
 * The largest finite group that is also a [[sporadic simple group]], i.e., does not belong(up to isomorphism) to the infinite family of the alternating groups or to the infinite family of finite groups of Lie type, is the [[Monster group]].
+
+* For more see also at _[[finite abelian group]]_.
+
+## Related concepts
+
+* [[finite abelian group]]
 
 
 [[!redirects finite group]]
