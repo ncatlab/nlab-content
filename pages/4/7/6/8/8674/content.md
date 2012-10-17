@@ -1,3 +1,4 @@
+[[!redirects Cauchy's theorem]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
