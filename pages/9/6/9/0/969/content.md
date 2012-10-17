@@ -161,7 +161,9 @@ See also [[localization of a simplicial model category]].
 
 * [[localization of a simplicial model category]]
 
-* [[localization of a ring]]
+* [[localization of a ring]], [[localization of a commutative ring]]
+
+  * [[localization of a module]]
 
 ## References
 
