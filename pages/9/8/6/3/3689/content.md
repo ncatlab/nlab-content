@@ -361,6 +361,20 @@ This exhibits the [[internal hom]]-[[adjunction]] $(-) \otimes_R N_2 \vdash [N_2
 
 The _[[Eilenberg-Watts theorem]]_ says that sufficiently [[exact functors]] between categories of modules are necessarily given by forming [[tensor products of modules]].
 
+### Limits and colimits
+ {#LimitsAndColimits}
+
+Let $R$ be a [[ring]].
+
++-- {: .num_prop #ModuleIsFilteredColimitOverFinitelyGeneratedSubmodules}
+###### Proposition
+
+Every $R$-module is the [[filtered colimit]] over is [[finitely generated module|finite generated]] [[submodules]].
+
+=--
+
+See for instance ([Kiersz, prop. 3](#Kiersz)).
+
 ## References
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
@@ -370,6 +384,11 @@ Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for in
 A summary of the discussion in [Mod as a bifibration](#ModAsBifibration) and [Tangents and deformation theory](#TangentsAndDeformationTheory) together with their embedding into the bigger picture of [[tangent (∞,1)-category|tangent (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
+
+Discussion of limits and colimits in $R Mod$ is in 
+
+* Andy Kiersz, _Colimits and homological algebra_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
+ {#Kiersz}
 
 
 category: category
