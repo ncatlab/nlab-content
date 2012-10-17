@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,7 +29,25 @@ Notice that there are other, completely independent, concepts reffered to as _[[
 
 ### Relation to the $Tor$-functor
 
-For $A$ an [[abelian group]], its torsion subgroup is identified with the degree-1 value of the [[Tor functor]] $Tor^\mathbb{Z}_1(\mathbb{Q}/\mathbb{Z}, A)$. See there for more.
++-- {: .num_prop}
+###### Proposition
+
+For $A$ an [[abelian group]], its torsion subgroup is isomorphic to the value of the degree-1 [[Tor functor]] $Tor^\mathbb{Z}_1(\mathbb{Q}/\mathbb{Z}, A)$. 
+
+=--
+
+See at _[Tor - relation to torsion subgroups](Tor#RelationToTorsionGroups)_ for more.
+
+### Relation to flatness
+
++-- {: .num_prop}
+###### Proposition
+
+An [[abelian group]] is torsion-free precisely if regarded as a $\mathbb{Z}$-[[module]] it is a [[flat module]].
+
+=--
+
+See at _[flat module - Examples](flat+module#Examles)_ for more.
 
 
 ## Examples and applications 
