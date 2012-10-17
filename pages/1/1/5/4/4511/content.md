@@ -157,7 +157,7 @@ $$
 +-- {: .num_prop #TorPreservesFilteredColimits}
 ###### Proposition
 
-Each $Tor_n^R(-,N)$ resepects [[filtered colimits]].
+Each $Tor_n^R(-,N)$ respects [[filtered colimits]].
 
 =--
 
@@ -175,11 +175,11 @@ $$
   {}_p A \coloneqq \{ a \in A | p \cdot a = 0 \}
 $$ 
 
-for the **$p$-torsion subgroup** consisting of all those elements whose $p$-fold sum with themselves gives 0.
+for the **$p$-[[torsion subgroup]]** consisting of all those elements whose $p$-fold sum with themselves gives 0.
 
 =--
 
-For $n \in \mathbb{N}$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual
+For $n \in \mathbb{N}$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual.
 
 +-- {: .num_prop #TorOutOfCyclicGroup}
 ###### Proposition
@@ -244,6 +244,7 @@ $$
 
 Let $A$ be a [[finite abelian group]] and $B$ any abelian group. Then
 $Tor_1(A,B)$ is a [[torsion group]].
+Specifically, $Tor_1(A,B)$ is a [[direct sum]] of [[torsion subgroups]] of $A$.
 
 =--
 
@@ -269,7 +270,7 @@ More generally we have:
 
 Let $A$ and $B$ be [[abelian groups]]. Write $Tor^\mathbb{Z}$ for the [[left derived functor]] of tensoring over $R = \mathbb{Z}$.  Then
 
-1. $Tor^\mathbb{Z}_1(A,B)$ is a [[torsion group]].
+1. $Tor^\mathbb{Z}_1(A,B)$ is a [[torsion group]]. Specifically it is a [[filtered colimit]] of torsion subgroups of $B$.
 
 1. $Tor^{\mathbb{Z}}_1(\mathbb{Q}/\mathbb{Z}, A)$ is the [[torsion subgroup]] of $A$.
 
@@ -302,6 +303,14 @@ Analogous results fail, in general, for $\mathbb{Z}$ replaced by another ring $R
 
 =--
 
++-- {: .num_cor}
+###### Corollary
+
+An [[abelian group]] is [[torsion subgroup|torsion free]] precisely if regarded as a $\mathbb{Z}$-[[module]] it is a [[flat module]].
+
+=--
+
+See at _[flat module - Examples](flat+module#Examles)_ for more.
 
 ### Symmetry in the two arguments
  {#SymmetryInTheTwoArguments}
