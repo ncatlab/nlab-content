@@ -22,7 +22,7 @@ When $R$ is a [[commutative ring]] of functions, and under the [interpretation o
 
 ## Definition
 
-For $R$ a a (possibly noncommutative) unital ring, let $\mathcal{A} = R$[[Mod]] be the [[category]] $R$-[[modules]]. Here $R$ may be the [[structure sheaf]] of some [[ringed topos]] and accordingly the modules may be [[sheaves of modules]].
+For $R$ a (possibly noncommutative) unital ring, let $\mathcal{A} = R$[[Mod]] be the [[category]] $R$-[[modules]]. Here $R$ may be the [[structure sheaf]] of some [[ringed topos]] and accordingly the modules may be [[sheaves of modules]].
 
 Consider a [[reflective localization]] functor 
 
