@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -94,6 +94,9 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
   * [[∞-Lie algebroid]]
 
+## Properties
+
+* [[PBW theorem]]
 
 ## Examples
 
@@ -114,9 +117,13 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 ## Related concepts
 
-* **Lie algebra**,  [[Lie group]]
+* **Lie algebra**
 
-  [[Kac-Moody algebra]]
+  * [[universal enveloping algebra]]
+ 
+  * [[Kac-Moody algebra]]
+
+  * [[Lie group]]
 
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
