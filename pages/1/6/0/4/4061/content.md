@@ -49,6 +49,8 @@ On [[quantum mechanics]]:
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Symplectic techniques in physics*, Cambridge University Press (1990)
 
+* [[Michael Spivak]], *Physics for Mathematicians, Mechanics I*, xvi + 733 pages, Publish or Perish 2010 [contents](http://olivier.thill.perso.neuf.fr/books/bospphma.htm), [amazon](http://www.amazon.com/Physics-Mathematicians-Mechanics-Michael-Spivak/dp/0914098322)
+
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge Univ. Press
 
 * [[Klaas Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp.
