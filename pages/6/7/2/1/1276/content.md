@@ -26,14 +26,21 @@ A [[module]] over a [[ring]] $R$ is called _flat_ if its satisfies one of many e
 Under the dual geometric interpretation of [modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) over the space on which $R$ is the ring of functions, flatness of a module is essentially the _local triviality_ of these bundles, hence in particular the fact that the [[fibers]] of these bundles do not change, up to isomorphism. See prop. \ref{ForFinitelyGeneratedFlatIsLocallyFree} below for the precise statement. On the other hand there is **no** relation to "flat" as in [[flat connection]] on such a bundle.
 
 ## Definition
+ {#Definition}
+
+We first state the definition and its equivalent reformulations over a [[commutative ring]] abstractly in _[In terms of exact functors and Tor-functors](#InTermsOfExactFunctorsAndTorFunctors)_. Then we give an explicit element-wise characterization in _[Explicitly in terms of identities](#InTermsOfIdentities)_. 
+
+Much of this discussion also works in the more general case where the ring is not-necessarily taken to be commutative and not necessarily required to be equipped with a unit, this we indicate in _[For more general rings](#spring)_.
 
 ### In terms of exact functors and Tor-functors
+ {#InTermsOfExactFunctorsAndTorFunctors}
+
+Let $R$ be a [[commutative ring]]. 
 
 +-- {: .num_defn #FlatModule}
 ###### Definition
 
-Given a [[commutative ring]] (or $k$-[[associative algebra|algebra]]) $R$, a left $R$-[[module]], say $N$, is __flat__ if [[tensor product of modules|tensoring]] with $N$ over $R$ as a [[functor]] from left $R$-modules to left $k$-modules 
-
+An $R$-[[module]] $N$ is __flat__ if [[tensor product of modules|tensoring]] with $N$ over $R$ as a [[functor]] from $R$[[Mod]] to itself
 $$
   (-)\otimes_R N : R Mod \to R Mod
 $$
@@ -45,29 +52,36 @@ is an [[exact functor]] (sends [[short exact sequences]] to short exact sequence
 +-- {: .num_remark #ImmediateReformulationOfFlatness}
 ###### Remark
 
-Tensoring with $N$ is automatically a [[right exact functor]], so the above is equivalent to require that tensoring with $N$ is furthermore a [[left exact functor]].  And this additional condition in turn is equivalent to $(-)\otimes_R N$ preserving [[monomorphisms]], hence [[injections]].
+The condition in def. \ref{FlatModule} has the following immediate equivalent reformulations:
 
-Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $N$ be a [[flat functor]].
+1. $N$ is flat precisely if $(-)\otimes_R N$ is a [[left exact functor]],
+
+   because tensoring with any module is generally already a [[right exact functor]];
+
+1. $N$ is flat precisely if $(-)\otimes_R N$ sends [[monomorphisms]] ([[injections]]) to monomorphisms,
+
+   because for a right exact functor to also be left exact the only remaining condition is that it preserves the monomorphisms on the left of a [[short exact sequence]];
+
+1. $N$ is flat precisely if $(-)\otimes_R N$ is a [[flat functor]],
+
+   because [[Mod]] is [[finitely complete category|finitely complete]];
+
+1. $N$ is flat precisely if the degree-1 [[Tor]]-[[functor]] $Tor_1^{R Mod}(-,N)$ is zero,
+
+   because by the general properties of [[derived functors in homological algebra]], $L_1 F$ is the obstruction to a [[right exact functor]] $F$ being left exact;
+
+1. $N$ is flat precisely if all higher [[Tor]] functors $Tor_{\geq 1}(R Mod)(-,N)$ are zero,
+
+    because the higher [[derived functor in homological algebra|derived functors]] of an [[exact functor]] vanish.
 
 =--
 
-* On an [[abelian category]], the notions of _[[exact functor]]_ and _[[flat functor]]_ coincide.
-
-* The ring may be taken non-unital without any change.
-
-=--
-
-By the general properties of [[derived functors in homological algebra]], the [[obstruction]] to $(-)\otimes_R N$ being left exact is given by the first [[Tor]]-groups. Therefore the above definition is equivalent to the following.
-
-+-- {: .num_defn}
-###### Definition
-
-A module $N$ is flat precisely if the [[Tor]]-[[functor]] $Tor_1^{R Mod}(-,N)$ is zero.
-
-=--
+The condition in def. \ref{FlatModule} also has a number of not so immediate equivalent reformulations. These we discuss in detail below in _[Equivalent characterizations](#EquivalentCharacterizations)_. One of them gives an explicit characterization of flat modules in terms of relations beween their elements.  An exposition of this we give now in _[In terms of identities](#InTermsOfIdentities)_.
 
 
-### In terms of identities
+
+### Explicitly in terms of identities
+ {#InTermsOfIdentities}
 
 There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)". We indicate now what this means. Below in prop. \ref{RelationsFromCharacterizationonIdealInclusion} it is shown how this is equivalent to def. \ref{FlatModule} above.
 
@@ -220,6 +234,19 @@ Hence a module is flat if and only if it is a [[filtered colimit]] of [[free mod
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
+### For more general rings
+
+Even if the [[ring]] $R$ is not necessarily commutative and not necessarily unital, we can say: 
+
+A left $R$-[[module]] is flat precisely if the [[tensor product of modules|tensoring]] functor
+
+$$
+  (-)\otimes_R \colon Mod_R \to Ab
+$$
+
+from _right_ $R$ modules to [[abelian groups]] is an [[exact functor]].
+
+
 ## Properties
 
 ### Equivalent characterizations
@@ -256,10 +283,10 @@ $$
   n_i = \sum_j b_{i j} \tilde n_j \;\;\in  N
 $$
 
-with $\{b_{i j} \in R\}_{i,j}$ such that for all $i$ we have
+with $\{b_{i j} \in R\}_{i,j}$ such that for all $j$ we have
 
 $$
-  \sum_j r_i b_{i j}  = 0\;\;\; \in R
+  \sum_i r_i b_{i j}  = 0\;\;\; \in R
   \,.
 $$
 
