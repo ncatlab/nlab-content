@@ -281,7 +281,7 @@ $$
   X \to J^0 \stackrel{d^0}{\to} \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n
 $$
 
-has been constructed, where all the $J^\cdot$ are injective objects. Froming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J^\cdot$ are injective objects. Forming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{p}{\to} J^n/J^{n-1} \to 0
