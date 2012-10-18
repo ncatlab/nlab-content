@@ -1248,6 +1248,8 @@ $$
 
 =--
 
+We discuss now the basic general properties of such derived functors.
+
 +-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
 ###### Proposition
 
@@ -1293,6 +1295,7 @@ $$
 $$
 
 =--
+
 
 +-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 ###### Proposition
@@ -1389,6 +1392,32 @@ $$
 $$
 
 and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
+
+=--
+
+In fact we even have the following.
+
++-- {: .num_prop }
+
+Let $F$ be an [[additive functor]] which is an [[exact functor]]. Then 
+
+$$
+  R^{\geq 1} F = 0 
+$$
+
+and
+
+$$  
+  L_{\geq 1} F = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because an [[exact functor]] preserves all [[exact sequences]]. If $Y_\bullet \to A$ is a projective resolution then also $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
 
 =--
 
