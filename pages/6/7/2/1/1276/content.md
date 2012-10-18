@@ -69,7 +69,7 @@ A module $N$ is flat precisely if the [[Tor]]-[[functor]] $Tor_1^{R Mod}(-,N)$ i
 
 ### In terms of identities
 
-There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)".
+There is a characterisation of flatness that says that a left $A$-module $M$ is flat if and only if "everything (that happens in $M$) happens for a reason (in $A$)". We indicate now what this means. Below in prop. \ref{RelationsFromCharacterizationonIdealInclusion} it is shown how this is equivalent to def. \ref{FlatModule} above.
 
 The meaning of this is akin to the existence of [[basis of a vector space|bases in vector spaces]].  In a [[vector space]], say $V$, if we have an identity of the form $\sum_i \alpha_i v_i = 0$ then we cannot necessarily assume that the $\alpha_i$ are all zero.  However, if we choose a basis then we can write each $v_i$ in terms of the basis elements, say $v_i = \sum_j \beta_{i j} u_j$, and substitute in to get $\sum_{i j} \alpha_i \beta_{i j} u_j = 0$.  Now as $\{u_j\}$ forms a basis, we can deduce from this that for each $j$, $\sum_i \alpha_i \beta_{i j} = 0$.  These last identities happen in the coefficient field, which is standing in place of $A$ in the analogy.
 
@@ -223,11 +223,12 @@ This observation (Wraith, Blass) can be put into the more general context of mod
 ## Properties
 
 ### Equivalent characterizations
+ {#EquivalentCharacterizations}
 
 By def. \ref{FlatModule}, or its immediate consequence, remark \ref{ImmediateReformulationOfFlatness}. $N \in R Mod$ is flat if for every injection $i \colon A \hookrightarrow$ also $i \otimes_R N \colon A \otimes_R N \to B \otimes_R N$ is an injection. The following proposition says that this may already be checked on just a very small subclass of injections.
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_theorem #CharacterizationOnIdealInclusions}
+###### Theorem
 
 An $R$-module $N$ is flat already if for all inclusions $I \hookrightarrow R$ of a [[finitely generated module|finitely generated]] [[ideal]] into $R$, regarded as a module over itself, the induced morphism
 
@@ -238,6 +239,45 @@ $$
 is an injection.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
++-- {: .num_prop #RelationsFromCharacterizationonIdealInclusion}
+###### Proposition
+
+A module $N$ is flat precisely if for every finite linear combination of zero, $\sum_i r_i n_i  = 0\in N$ with $\{r_i \in R\}_i$,  $\{n_i \in N\}$ there are elements $\{\tilde n_j \in N\}_j$ and linear combinations
+
+$$
+  n_i = \sum_j b_{i j} \tilde n_j \;\;\in  N
+$$
+
+with $\{b_{i j} \in R\}_{i,j}$ such that for all $i$ we have
+
+$$
+  \sum_j r_i b_{i j}  = 0\;\;\; \in R
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A finite set $\{r_i \in R\}_i$ corresponds to the inclusion of a finitely generated ideal $I \hookrightarrow R$. 
+
+By theorem \ref{CharacterizationOnIdealInclusions} $N$ is flat precisely if $I \otimes_R N \to N$ is an injecton. This in turn is the case precisely if the only element of the tensor product $I \otimes_R R$ that is 0 in $R \otimes_R N = N$ is already 0 on $I \otimes_R N$.
+
+Now by definition of [[tensor product of modules]] an element of $I \otimes_R N$ is of the form $\sum_i (r_i ,n_i)$ for some $\{n_i \in N\}$. Under the inclusion $I \otimes_R N \to N$ this maps to the actual linear combination $\sum_i r_i n_i$. This map is injective if whenever this linear combination is 0, already $\sum_i (r_i, n_i)$ is 0.
+
+But the latter is the case precisely if this is equal to a combination $\sum_j (\tilde r_j  , \tilde n_j)$ where all the $\tilde r_j$ are 0. This implies the claim.
+
+=--
+
 
 
 ### Relation to projective modules
