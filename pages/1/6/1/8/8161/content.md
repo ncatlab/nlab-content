@@ -17,13 +17,12 @@ $$
 ## Examples
 
 * [[filtered topological space]]
-
 * [[filtered chain complex]]
+* [[filtered ring]]
 
 ## Related concepts
 
 * [[associated graded object]]
-
 * [[stratification]]
 
 [[!redirects filtered objects]]
