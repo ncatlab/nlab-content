@@ -119,7 +119,7 @@ For instance ([Weibel, theorem 2.7.2](#Weibel)).
 +-- {: .num_prop #Tor1RespectsDirectSum}
 ###### Proposition
 
-Each $Tor_n^R(-,N)$ resepects [[direct sums]].
+Each $Tor_n^R(-,N)$ respects [[direct sums]].
 
 
 =--
