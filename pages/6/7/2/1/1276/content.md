@@ -72,7 +72,11 @@ The condition in def. \ref{FlatModule} has the following immediate equivalent re
 
 1. $N$ is flat precisely if all higher [[Tor]] functors $Tor_{\geq 1}(R Mod)(-,N)$ are zero,
 
-    because the higher [[derived functor in homological algebra|derived functors]] of an [[exact functor]] vanish.
+    because the higher [[derived functor in homological algebra|derived functors]] of an [[exact functor]] vanish;
+
+1. $N$ is flat precisely if $N$ is an [[acyclic object]] with respect to the tensor product functor;
+
+   because the [[Tor]] functor is symmetric in both argumentsand an object is called tensor-[[acyclic object]] if all its positive-degree $Tor$-groups vanish.
 
 =--
 
