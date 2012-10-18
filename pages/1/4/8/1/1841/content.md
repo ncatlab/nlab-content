@@ -368,9 +368,15 @@ Dirac's quantization argument appeared in
 
 * [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
+Discussions of the basic geometry behind Maxwell equations can be found in 
+
+* Hong-Mo Chan, Sheung Tsun Tsou, _Some elementary gauge theory concepts_, [gBooks](http://books.google.hr/books?id=BdB3SqCq33wC)
+* Gregory L. Naber, _Topology, geometry, and gauge fields: interactions_
 * [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
+For undergraduate lectures including experimental material see
 
+* Walter Lewin, Electricity and magnetism, 2002, [MIT opencourseware](http://ocw.mit.edu/courses/physics/8-02-electricity-and-magnetism-spring-2002) -- videos, lectures, exercises, exams
 
 [[!redirects electromagnetic field]]
 [[!redirects electromagnetic fields]]
