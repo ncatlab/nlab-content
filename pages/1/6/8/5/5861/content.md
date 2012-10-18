@@ -430,9 +430,8 @@ This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the termin
 This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
 
 It remains to see that $i_!$ is full and faithful.
-
 For that notice the general fact that left 
-[[Kan extension]] (see the propeties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
+[[Kan extension]] (see the properties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
 
 =--
 
