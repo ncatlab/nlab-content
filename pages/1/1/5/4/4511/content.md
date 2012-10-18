@@ -165,15 +165,13 @@ Each $Tor_n^R(-,N)$ respects [[filtered colimits]].
 +-- {: .proof}
 ###### Proof
 
-We discuss this for $R = \mathbb{Z}$, hence in $\mathbb{Z}$[[Mod]] $\simeq$ [[Ab]].
-
-Let hence $A \colon I \to Ab$ be a [[filtered category|filtered]] [[diagram]] of abelian groups. For each $A_i$, $i \in I$ we may find a [[projective resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that 
+Let hence $A \colon I \to R Mod$ be a [[filtered category|filtered]] [[diagram]] of modules. For each $A_i$, $i \in I$ we may find a [[nLab:projective resolution]] and in fact a [[nLab:free resolution]] $(Y_i)_\bullet \stackrel{\simeq_{qi}}{\to} A$. Since [[chain homology]] commutes with filtered colimits (this is discussed at _[chain homology - respect for filtered colimits](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)_), this means that 
 
 $$
   (\underset{\to_i}{\lim} Y_i)_\bullet \to A
 $$
 
-is still a [[quasi-isomorphism]]. Moreover, by [[Lazard's criterion]] the degreewise filtered colimits of [[projective modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[flat resolution]] of $A$. By the very definition or else by the basic properties of [[flat modules]], this means that it is a $(-)\otimes N$-[[acyclic resolution]]. By the discussion there it follows that 
+is still a [[quasi-isomorphism]]. Moreover, by [[Lazard's criterion]] the degreewise filtered colimits of [[free modules]] $\underset{\to_i}{\lim} (Y_i)_n$ for each $n \in \mathbb{N}$ are [[flat modules]]. This means that $\underset{\to_i}{\lim} (Y_i)_\bullet \to A$ is [[flat resolution]] of $A$. By the very definition or else by the basic properties of [[flat modules]], this means that it is a $(-)\otimes N$-[[acyclic resolution]]. By the discussion there it follows that 
 
 $$
   Tor_n^\mathbb{Z}(A,N)
@@ -220,12 +218,12 @@ for the **$p$-[[torsion subgroup]]** consisting of all those elements whose $p$-
 
 =--
 
-For $n \in \mathbb{N}$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual.
+For $n \in \mathbb{N}$ with $n \geq 1$, write $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order]] $n$, as usual.
 
 +-- {: .num_prop #TorOutOfCyclicGroup}
 ###### Proposition
 
-For $p \in \mathbb{N}$ and $A \in $ [[Ab]] $\simeq \mathbb{Z}$[[Mod]] any [[abelian group]], we have an [[isomorphism]]
+For $p \in \mathbb{N}$, $p \geq 1$, and $A \in $ [[Ab]] $\simeq \mathbb{Z}$[[Mod]] any [[abelian group]], we have an [[isomorphism]]
 
 $$
   Tor_1^\mathbb{Z}(\mathbb{Z}_p, A)
@@ -235,12 +233,19 @@ $$
 
 of the $Tor_1$-group with the $p$-[[torsion subgroup]] of $A$.
 
+For $p = 0$ we have
+
+$$
+  Tor_1^{\mathbb{Z}}(\mathbb{Z}, A) \simeq 0
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The [[short exact sequence]]
+For the first statement, the [[short exact sequence]]
 
 $$
   0 \to \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{mod\, p}{\to}
@@ -277,6 +282,7 @@ $$
   \,.
 $$
 
+For the second statement, $\mathbb{Z}$ is already free hence $[\cdots \to 0 \to 0 \to \mathbb{Z}]$ is already a projective resolution and hence $Tor_1(\mathbb{Z}, A) \simeq H_1(0) \simeq 0$.
 
 =--
 
@@ -332,7 +338,7 @@ $$
 
 of finitely generated [[subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[direct sum]] of [[cyclic groups]]. 
 
-By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits.  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of directs sums of torsion groups. This is itself a torsion group.
+By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits. By prop. \ref{TorOutOfCyclicGroup} every cyclic group is sent to a torsion group (of either $A$ or $B).  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of direct sums of torsion groups. This is itself a torsion group.
 
 =--
 
