@@ -183,3 +183,5 @@ in [[(∞,1)-category theory]] the corresponding notion is that of [[(∞,1)-sit
 * [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ , especially section C2.1.
 
 * [[Anders Kock]], _[Postulated colimits and left exactness of Kan-extensions](http://home.imf.au.dk/kock/postulated.pdf)_
+
+[[!redirects coverages]]
