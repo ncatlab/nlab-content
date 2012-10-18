@@ -299,7 +299,7 @@ The modern reformulation of their notion of hypercover in terms of simplicial pr
 
 * [[Rick Jardine]], _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
-A disucssion of hypercovers of topological spaces is in 
+A discussion of hypercovers of topological spaces is in 
 
 * [[Dan Dugger]] and [[Daniel Isaksen]], _Hypercovers in topology_ ([pdf](http://www.math.uiuc.edu/K-theory/0528/hypercover.pdf))
 
