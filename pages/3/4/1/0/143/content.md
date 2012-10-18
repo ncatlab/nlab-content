@@ -106,7 +106,7 @@ $$
   }
 $$
 
-in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two porjections $p_i, p_j$ in this pullback diagram.
+in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two projections $p_i, p_j$ in this pullback diagram.
 
 +-- {: .num_remark}
 ###### Remark
