@@ -23,7 +23,7 @@ There are actually two versions of Hilbert's theorem 90, one multiplicative and 
 
 +-- {: .num_theorem #mult90} 
 ###### Theorem 
-
+**(Hilbert)** 
 Suppose $K$ be a [[finite set|finite]] [[Galois extension]] of a [[field]] $k$, with a [[cyclic group|cyclic]] [[Galois group]] $G = \langle g \rangle$ of [[order]] $n$. Regard the [[multiplicative group]] $K^\ast$ as a $G$-[[module]]. Then the [[group cohomology]] of $G$ with [[coefficients]] in $K^\ast$ -- the [[Galois cohomology]] -- satisfies 
 
 $$
