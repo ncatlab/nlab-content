@@ -218,6 +218,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[localization of a ring]]
 
+  * [[filtered ring]], [[associated graded ring]]
 
 * [[affine scheme]]
 
