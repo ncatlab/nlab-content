@@ -37,7 +37,11 @@ Either sentence alone seems perfectly reasonable, and could meaningfully be said
 
 ### From natural science
 
+In [[physics]]:
+
 * [[hole paradox]]
+
+* [[EPR paradox]]
 
 
 [[!redirects paradox]]
