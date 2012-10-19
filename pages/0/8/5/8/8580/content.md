@@ -312,7 +312,7 @@ Equipping the above _[[homotopy type theory]]_ with these [[modal logic|modaliti
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
-| Given a cohesive homotopy type $X$, there is the the _dissolved_ homotopy type $\sharp X$ in which all separate points are collected to one cohesive blob. | $X \colon Type \;\vdash\; \sharp X \colon Type$ | The [[codiscrete object]]-[[monad]] on a ([[local (infinity,1)-topos|higher]]) [[local topos]]. | The [[codiscrete object|codiscrete]] smooth structure on the points of $X$.  | _[Locality of the topos of smooth spaces](##LocalSmooth0Type)_ |
+| Given a cohesive homotopy type $X$, there is the _dissolved_ homotopy type $\sharp X$ in which all separate points are collected to one cohesive blob. | $X \colon Type \;\vdash\; \sharp X \colon Type$ | The [[codiscrete object]]-[[monad]] on a ([[local (infinity,1)-topos|higher]]) [[local topos]]. | The [[codiscrete object|codiscrete]] smooth structure on the points of $X$.  | _[Locality of the topos of smooth spaces](##LocalSmooth0Type)_ |
 | Given a cohesive homotopy type, there is the map that dissolves the cohesion of the points. | $X \colon Type \;\vdash\;  DeCoh_X \colon X \to \sharp X$ | The [[unit of an adjunction|unit]] of the [[codiscrete object]] [[monad]]. | The function that sends smooth families in a smooth [[moduli stack]] to families of points. | |
 | Given $X$ there is the collection $\Pi(X)$ of points in $X$ and smooth trajectories between points in $X$. | $\left(X \colon \sharp Type\right) \;\vdash\; \Pi(X) \colon \sharp Type$ | The construction of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. | The smooth [[fundamental ∞-groupoid|path ∞-groupoid]] of $X$. | _[The local ∞-connectedness of the (∞,1)-topos of smooth ∞-groupoids](#InfinityConnectednessOfSmoothInfinityGrpd)_ |
 | Given $X$, there is a canonical map to $\Pi(X)$. | $\left(X \colon \sharp Type\right) \;\vdash\; ConstantPathInclusion_X \colon X \to \Pi(X)$. | The [[unit of an adjunction|unit]] of the $\Pi$-[[monad]] on a [[locally ∞-connected (∞,1)-topos]]. | The inclusion of $X$ into its smooth [[fundamental ∞-groupoid|path ∞-groupoid]] as the constant paths. | |
@@ -777,7 +777,7 @@ We discuss a standard structure of a _[[site]]_ on the category [[CartSp]]. Foll
 +-- {: .num_defn}
 ###### Definition
 
-For $n \in \mathbb{N}$ the standard [[open ball|open n-ball]] is the the subset
+For $n \in \mathbb{N}$ the standard [[open ball|open n-ball]] is the subset
 
 $$
   D^n = \{ (x_i)_{i =1}^n \in \mathbb{R}^n | \sum_{i = 1}^n (x_i)^2 \lt 1 \}  \hookrightarrow \mathbb{R}^n
@@ -3050,7 +3050,7 @@ We discuss
 
   * and then _[on general smooth spaces](#DifferentiationOnSmoothSpaces)_.
 
-By considering [[fiber products]] of smooth [[mapping spaces]] with [[discrete spaces]] of boundary configurations, we obtain from this the the differentiation theory called 
+By considering [[fiber products]] of smooth [[mapping spaces]] with [[discrete spaces]] of boundary configurations, we obtain from this the differentiation theory called 
 
 * _[Variational calculus](#VariationalCalculus)_
 
@@ -3442,7 +3442,7 @@ where
 
 * the bottom morphism is the restriction $[\partial \Sigma \hookrightarrow \Sigma, X]$ of configurations to the boundary;
 
-* the right vertical morphism is the the homomorphism from def. \ref{MapFromDiscretizationOfSmooth0Type}.
+* the right vertical morphism is the homomorphism from def. \ref{MapFromDiscretizationOfSmooth0Type}.
 =--
 
 +-- {: .num_prop #PlotsOfMappingSpaceWithNonVaryingBoundary}
@@ -3838,7 +3838,7 @@ $$
 #### Differential cohesion of the topos of smooth spaces
  {#DifferentialCohesionOfToposOfSmoothSpaces}
 
-Recall the the sites 
+Recall the sites 
 
 * [[CartSp]], def. \ref{TheDifferentiallyGoodOpenCoverCoverage};
 
@@ -4730,7 +4730,22 @@ A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Right
 
 ### Semantic Layer
 
-(...)
+#### Manifolds modeled on an object $V$
+
++-- {: .num_defn }
+###### Definition
+
+Let $V \in \mathbf{H}$. We say that a **$V$-[[atlas]]** for an object $X \in \mathbf{H}$ is an [[effective epimorphism]]
+
+$$
+  a \colon \coprod_{i \in I} V \to X
+$$
+
+out of a [[coproduct]] of copies of $V$, such the [[fiber product]] of $a$ with itself is again a coproduct of $V$s and such that the two [[projections]] out of it are both [[monomorphism in an (∞,1)-category|monomorphisms]].
+
+An object $X$ that admits a $V$-atlas we call a **$V$-[[manifold]]**.
+
+=--
 
 ### Syntactic Layer
 
