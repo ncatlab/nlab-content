@@ -7,71 +7,89 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-Write
 
-1. $CartSp$ for the [[site]] of [[Cartesian spaces]] and [[smooth functions]] between them;
++-- {: .num_defn #DifferentialCohesiveTopos}
+###### Definition
 
-1. $InfPoint$ for the [[site]] of [[infinitesimally thickened points]];
-
-1. $CartSp_{th} \hookrightarrow SmoothLocus$ for the [[full subcategory]] of that of [[smooth loci]] on those of the form $\mathbf{U} = U \times D$ with $U \in CartSp$ and $D \in InfPoint$.
+Given a [[cohesive topos]] $\mathbf{H} = Cohesive0Type$ over a [[base topos]] [[Disc∞Grpd|Discrete0Type]], a structure of **[[differential cohesion]]** on $\mathbf{H}$ is an [[essential geometric morphism|essential]] [[geometric embedding]] into a [[cohesive topos]] $\mathbf{H}_{th} = InfThickenedCohesive0Type$:
 
 $$
-  CartSp
-   \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}}
-  CartSp_{th}
-   \stackrel{\iota}{\leftarrow}
-  InfPoint
+  \array{
+  Cohesive0Type
+   &&\stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\hookrightarrow}}}&&
+   InfThickenedCohesive0Type
+   \\
+   & {}_{\mathllap{\Gamma}}\searrow \nwarrow^{\mathrlap{Disc}} && {}^{\mathllap{\Gamma_{th}}}\swarrow \nearrow_{\mathrlap{Disc_{th}}}
+   \\
+   && Discrete0Type
+  }
 $$
-
-where 
-
-* $i \colon U \mapsto U \times *$;
-
-* $p \colon U \times D \mapsto U$
-
-* $\iota \colon D \mapsto * \times D$
-
-
-$$
-  Sh(CartSp)
-   \stackrel{}{\stackrel{\overset{Lan_i}{\hookrightarrow}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\hookrightarrow}}{\underset{Ran_p}{\leftarrow}}}}}
-  Sh(CartSp_{th})
-   \stackrel{\overset{Lan_\iota}{\leftarrow}}{\underset{(-)\circ \iota}{\to}}
-  Sh(InfPoint)
-$$
-
-
-+-- {: .num_prop }
-###### Proposition
-
-The sequence of [[geometric morphisms]]
-
-$$
-  Sh(CartSp) \stackrel{p^*}{\to} Sh(CartSp_{th}) \stackrel{\iota^*}{\to} Sh(InfPoint)
-$$
-
-exhibit a [[homotopy cofiber sequence]] in [[(∞,1)Topos]].
 
 =--
 
-+-- {: .proof}
-###### Proof
++-- {: .num_defn }
+###### Definition
 
-By the discussion at _[(∞,1)Topos -- Existence of limits and colimits](%28infinity%2C1%29Topos#ExistenceOfLimitsAndColimits)_ the statement is equivalently that the [[inverse image]] functors
+Given [[differential cohesion]], def. \ref{DifferentialCohesiveTopos}, define the [[monad]]/[[comonad]] [[adjunction]]
 
 $$
-  Sh(CartSp) 
-    \stackrel{Lan_p}{\leftarrow}
-  Sh(CartSp_{th})
-    \stackrel{Lan_\iota}{\leftarrow}
-  Sh(InfPoint)
+  (Red \dashv \Pi_{inf})
+  \colon
+  \mathbf{H}_{th}
+  \stackrel{\overset{i_*}{\leftarrow}}{\underset{i^*}{\to}}
+  \mathbf{H}
+  \stackrel{\overset{i_!}{\leftarrow}}{\underset{i_*}{\to}}
+  \mathbf{H}
+  \,.
 $$
 
-form a [[homotopy fiber sequence]] in [[(∞,1)Cat]]. Computing this is the [[model structure for quasi-categories]] after passing to [[nerves]], the morphism $N(Lan_p)$ is clearly an [[inner Kan fibration]] because of the [[subcategory]] inclusion $Sh(CartSp) \hookrightarrow Sh(CartSp_{th})$, and so by the general discussion at [[homotopy pullback]] the homotopy fiber is given by the 1-categorical fiber of $N(Lan_p)$ in [[sSset]]. By the discussion at _[Left Kan extension - on representables](http://ncatlab.org/nlab/show/Kan+extension#LeftKanOnRepresentables)_ $Lan_p$ acts as $p$ on [[representable functor|representables]]. The 1-categorical fiber of $N(p) \colon N(CartSp_{th}) \to N(CartSp)$ is evidently $N(InfPoint)$.
+We call $Red(X)$ the **reduced type** of $X$ and $\Pi_{inf}(X)$ the [[infinitesimal path ∞-groupoid]] of $X$.
+
+
+For the $(i_* \dashv i^*)$-[[unit of an adjunction|unit]] we write
+
+$$
+  InfinitesimalPathInclusion_X \colon X \to \Pi_{inf}(X)
+$$
+
+and call it the **constant infinitesimal path inclusion** on $X$.
 
 =--
 
 
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[geometric embedding]] of [[(∞,1)-topos∞-toposes]] 
+
+$$
+  CohesiveType \stackrel{i}{\hookrightarrow} InfThickenedCohesiveType
+$$
+
+exhibiting [[differential cohesion]], write 
+
+$$
+  CohesiveType 
+    \stackrel{i}{\hookrightarrow} 
+  InfThickenedCohesiveType
+   \to 
+  InfinitesimalType
+$$
+
+for the corresponding [[homotopy cofiber sequence]] in [[(∞,1)-topos]]. The [[full sub-(∞,1)-category]] that is the [[kernel]] of the [[global section geometric morphism]] of $InfininitesimalType$ we call the [[(∞,1)-category]] of **synthetic [[∞-Lie algebras]]**
+
+$$
+  L_\infty Algebra \coloneqq ker(\Gamma) \hookrightarrow InfinitesimalType \stackrerl{\Gamma}{\to} DiscreteType
+  \,.
+$$
+
+
+=--
+
+
+
+***
 category: meta
 
 [[!redirects Sandbox]]
