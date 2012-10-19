@@ -484,7 +484,7 @@ $$
 
 For $X\in \mathbf{H}_{th}$ we say that
 
-* $\mathbf{\Pi}_{inf}(X)$ is the **infinitesimal path $\infty$-groupoid** 
+* $\mathbf{\Pi}_{inf}(X)$ is the **[[infinitesimal path ∞-groupoid]]** 
   of $X$;
 
   The $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] 
@@ -495,7 +495,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 
   we call the **constant infinitesimal path inclusion**.
 
-* $\mathbf{Red}(X)$ is the **reduced cohesive $\infty$-groupoid** underlying
+* $\mathbf{Red}(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
   $X$.
 
   The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
@@ -1229,3 +1229,11 @@ A commented list of related references is at
 
 [[!redirects  cohesive (∞,1)-topos -- infinitesimal cohesion]]
 [[!redirects infinitesimal cohesion]]
+
+[[!redirects differential cohesion]]
+[[!redirects differential cohesive (∞,1)-topos]]
+[[!redirects differential cohesive ∞-topos]]
+[[!redirects differential cohesive (∞,1)-toposes]]
+[[!redirects differential cohesive ∞-toposes]]
+
+
