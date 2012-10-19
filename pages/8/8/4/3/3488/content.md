@@ -418,3 +418,6 @@ For related references see
 [[!redirects ((infinity,1)-topos of locally constant shape)]]
 [[!redirects ((∞,1)-toposes of locally constant shape)]]
 [[!redirects ((infinity,1)-toposes of locally constant shape)]]
+
+[[!redirects locally ∞-connected geometric morphism]]
+[[!redirects locally ∞-connected geometric morphisms]]
