@@ -166,6 +166,8 @@ Related books are
 
 ### 5 The Poincar&#233; Lemma and Potentials
 
+* [[electromagnetic potential]]
+
 ### 6 Holonomic and Nonholonomic Constraints
 
 ## II Geometry and Topology
