@@ -87,6 +87,10 @@ The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoh
 
 Accordingly, quasicoherent $\infty$-stacks on the full $\Pi^{inf}(X)$ encode a higher categorical version of this, as discussed at [[schreiber:∞-vector bundle]].
 
+### Infinitesimal path $\infty$-groupoids
+
+* [[infinitesimal path ∞-groupoid]]
+
 ## References
 
 The term _de Rham space_ or _de Rham stack_ apparently goes back to
