@@ -30,6 +30,12 @@ See
 
 * [[derived critical locus]]
 
+## Related concepts
+
+* [[synthetic differential geometry]]
+
+* [[D-geometry]]
+
 ## References
 
 * _[[schreiber:Seminar on derived differential geometry]]_
