@@ -172,7 +172,7 @@ The first equation with the [[Poincare lemma]] implies that one may find
      \,.
   $$
 
-The forms $\{A_i\}$ are called a **vector potential** for the electromagnetic field. 
+The forms $\{A_i\}$ are called a **vector potential** or the **[[electromagnetic potential]]** for the electromagnetic field. 
 
 Notice that it follows that on triple overlaps $U_i \cap U_j \cap U_k$ we have
 
