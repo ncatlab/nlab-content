@@ -1210,6 +1210,9 @@ Exposition is at
 [[!redirects cohesive (∞,1)-topoi]]
 [[!redirects cohesive (infinity,1)-topoi]]
 
+[[!redirects cohesive ∞-topos]]
+[[!redirects cohesive ∞-toposes]]
+
 
 
 [[!redirects cohesive ∞-groupoid]]
