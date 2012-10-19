@@ -1,4 +1,24 @@
-This is a redirection page using the semi-standard term **D-geometry** for the geometry of [[D-modules]] (and closely related perverse sheaves), D-schemes, differential operators and related structures. As equations of mathematical physics are often given by differential equations and the [[quantization]] depends much on the fine aspects of the [[symplectic geometry]] and D-geometry it may be useful to have some focusing point(s) in $n$lab on our effort to keep notes on this field. For now the material is rather scarce and most of the related entries are stubs:
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term _$\mathcal{D}$-geometry_ refers to a [[synthetic differential geometry|synthetic]] formulation of [[differential geometry]] with a focus on the geometry of [[de Rham spaces]]. A [[quasicoherent sheaf of modules]] over a de Rham space is called a _[[D-module]]_, short for _[[module]] over the algebra of [[differential operators]]_, which is where the term "D-geometry" derives from.
+
+## Related entries
 
 * [[regular differential operator]], [[ordinary differential equation]]
 
@@ -12,7 +32,7 @@ This is a redirection page using the semi-standard term **D-geometry** for the g
 
 * [[Kähler differential]], [[tangent category]], [[tangent (∞,1)-category]], [[cotangent complex]], [[deformation theory]], [[formally smooth morphism]], [[jet space]]
 
-* [[semiclassical approximation]], [[Maslov index]], [[Stokes phenomenon]], [[wall crossing]]
+* [[Stokes phenomenon]], [[wall crossing]]
 
 * [[microlocal analysis]], [[algebraic microlocalization]]
 
@@ -24,8 +44,11 @@ This is a redirection page using the semi-standard term **D-geometry** for the g
 
 * [[holonomic quantum field]], [[Hodge theory]], [[algebraic analysis]]
 
+## References
 
+* [[Alexander Beilinson]] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
 
+* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
 
 
