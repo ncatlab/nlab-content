@@ -52,6 +52,9 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 * [[synthetic differential geometry]]
 
 * [[derived differential geometry]]
+
+* [[D-geometry]]
+
 * [[Lie theory]]
 
 * some modern subfields of differential geometry include:
