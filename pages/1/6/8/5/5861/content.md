@@ -38,6 +38,7 @@ as infinitesimal cohesive neighbourhoods of objects in
 $\mathbf{H}$.
 
 ### Definition
+ {#Definition}
 
 
 +-- {: .num_defn #InfinitesimalCohesiveInfTopos}
