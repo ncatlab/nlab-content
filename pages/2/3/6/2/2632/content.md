@@ -270,9 +270,12 @@ For more on this see
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[EPR paradox]]
+
   * [[Born-Oppenheimer approximation]]
 
   * [[supersymmetric quantum mechanics]]
+
 
 * [[quantum field theory]]
 
