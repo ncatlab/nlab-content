@@ -107,3 +107,11 @@ category: meta
 [[!redirects homepage]]
 [[!redirects home page]]
 [[!redirects nLab]]
+
+
+<div class="content-text"><font style="overflow: auto; position: absolute; height: 0pt; width: 0pt">
+
+<a href="http://www.rencontre-cougars.net" target="_blank">r</a><a href="http://www.chat-video.biz" target="_blank">i</a><a href="http://www.cam-to-cam.biz" target="_blank">k</a><a href="http://www.cam-live.biz" target="_blank">o</a> <a href="http://www.chatgratuit.me" target="_blank">a</a><a href="http://www.tchat-ados.fr" target="_blank">n</a><a href="http://www.tchatcheur.biz" target="_blank">d</a> <a href="http://www.chatroulette-x.fr" target="_blank">i</a> <a href="http://www.chatroulettefrancais.biz" target="_blank">a</a><a href="http://www.chat-chatroulette.fr" target="_blank">m</a> <a href="http://www.chatroulette-chat.net" target="_blank">s</a><a href="http://www.tchat-roulette.net" target="_blank">e</a><a href="http://tchatche-webcam.net" target="_blank">o</a>
+<a href="http://www.cam4cam.fr" target="_blank">H</a>
+
+</div>
