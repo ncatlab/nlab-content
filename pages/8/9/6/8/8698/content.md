@@ -3,7 +3,7 @@
 Formal geometry is a highly overloaded term in mathematics, used in number of conceptually similar ways, usually meaning that we work in setup in which some crucial details of geometry or analysis are not present or satisfied, e.g.
 
 * we work with functions on "manifolds" but the functions do not necessarily converge,
-we work with geometry based on on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]]
+we work with geometry based on on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]] (or more general ind-schemes)
 
 * Gelfand's formal geometry: study infinitedimensional manifolds of [[jet space]]s and related objects coming from usual differential geometry, geometry of formal differential operators, study of related objects from homological algebra, including 
 Gelfand's [[formal manifold]] (homological vector field)
@@ -13,9 +13,13 @@ Gelfand's [[formal manifold]] (homological vector field)
 ### Gelfand's formal geometry
 
 
-See MathOverflow: [formal-geometry](http://mathoverflow.net/questions/6057/formal-geometry)
+See MathOverflow: [formal-geometry](http://mathoverflow.net/questions/6057/formal-geometry), [how-do-i-describe-the-gl-n-torsor-attached-to-a-smooth-morphism-of-relative-dimen](http://mathoverflow.net/questions/27531/how-do-i-describe-the-gl-n-torsor-attached-to-a-smooth-morphism-of-relative-dimen), []()
 
-* [[Israel Gelfand]], [[David Kazhdan]], _Certain questions of differential geometry and the computation of the cohomologies of the Lie algebras of vector fields_
+* [[Israel Gelfand]], [[David Kazhdan]], _Certain questions of differential geometry and the computation of the cohomologies of the Lie algebras of vector fields_, Soviet Math. Doklady __12__, 1367-1370 (1971)
+
+For characteristic $p\gt 0$ case see
+
+* Fedosov quantization in positive characteristics [arXiv](http://front.math.ucdavis.edu/0501.5247)
 
 ### Formal noncommutative symplectic geometry of Kontsevich
 
