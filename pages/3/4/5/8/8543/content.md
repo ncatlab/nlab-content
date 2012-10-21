@@ -142,7 +142,7 @@ M(\Omega_2, \mathfrak{A}_2)
 \\
 \mu&
 \mapsto&
-(A\mapsto \int_{\Omega_1} Q(\omega, A)\mu(d\omega))
+(A\mapsto \int_{\Omega_1} Q(-, A) d\mu)
 \end{cases}$$
 
 If $\mu$ is a probability measure, then so is $\overline{Q}(\mu)$. The symbol $Q(\omega, A)$ is sometimes written as $Q(A|\omega)$ in optical proximity to a conditional probability.
