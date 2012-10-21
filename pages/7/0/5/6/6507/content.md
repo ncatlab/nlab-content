@@ -61,8 +61,11 @@ An object in there is some [[group]]: a concrete particular.
 
 ## References
 
-* [[Bill Lawvere]], various lectures, see for instance [here](http://conceptualmathematics.wordpress.com/2012/06/09/general-concepts-and-reality-prof-f-william-lawvere/)
- {#Lawvere}
+* [[Bill Lawvere]], _Categorical refinement of a Hegelian principle_, section 1 of [[Bill Lawvere]], _Tools for the advancement of objective Logic: Closed categories and toposes_, in John Macnamara, [[Gonzalo Reyes]], _the logical foundations of cognition_, Oxford University Press (1994)
+  {#Lawvere}
+
+
+See also an email comment recorded [here](http://conceptualmathematics.wordpress.com/2012/06/09/general-concepts-and-reality-prof-f-william-lawvere/).
 
 
 [[!redirects abstract general]]
