@@ -41,7 +41,7 @@ $$\int_{Y^{-1}(B)}X(\omega)d P(\omega)=\int_{Y^{-1}(B)}(g\circ Y)(\omega)d P (\o
 
 (The equivalence of the last two formulas is given since we always have $\int_B g(u)d P^Y (u)=\int_{Y^{-1}(B)} (g\circ Y)(\omega)d P (\omega)$ by the substitution rule.)
 
-Note that it does *not* follow from the preceding definition that the conditional expectation exists. This is a consequence of the Radon-Nikodym theorem as will be shown in the following section. (Note that the argument of the theorem applies to the definition of the conditional expectation by random variables if we consider the pushforward measure as given by a sub-$\sigma$-algebra of the original one.)
+Note that it does *not* follow from the preceding definition that the conditional expectation exists. This is a consequence of the Radon-Nikodym theorem as will be shown in the following section. (Note that the argument of the theorem applies to the definition of the conditional expectation by random variables if we consider the pushforward measure as given by a sub-$\sigma$-algebra of the original one. In this sense $E[X|Y]$ is a ''coarsened version'' of $X$ factored by the information (i.e. the $\sigma$-algebra) given by $Y$.)
 
 ## Conditional expectation relative to a sub-$\sigma$-algebra
 
@@ -89,7 +89,7 @@ Existence: By
 
 $$Q(A):=\int_A X(\omega)P(d\omega)$$
 
-$A\in \mathfrak{A}$ is defined a measure $Q$ on $(\Omega,\mathfrak{A},P)$. Let $P|_{\mathfrak{S}}$ be the restriction of $P$ to $\mathfrak{S}$. Then
+$A\in \mathfrak{A}$ is defined a measure $Q$ on $(\Omega,\mathfrak{A},P)$ (if $X\ge 0$; if not consider the positive part $X^+$ and the negative part $X^-$ of $X=X^+ -X^-$ separate and use linearity of the integral). Let $P|_{\mathfrak{S}}$ be the restriction of $P$ to $\mathfrak{S}$. Then
 
 $$Q\lt\lt P|_{\mathfrak{S}}$$
 
