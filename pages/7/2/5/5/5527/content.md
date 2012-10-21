@@ -122,40 +122,22 @@ We use element-notation in the following as if $\mathcal{A}$ were a category of 
  {#InterpretationOfTerms}
 
 
-+-- {: .num_defn}
++-- {: .num_defn #ApproximateChainsCyclesBoundaries}
 ###### Definition
 
-Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above, write for all $r,p,q \in \mathbb{Z}$
+Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above we say for all $r, p, q \in \mathbb{Z}$ that
 
-$$
-  \begin{aligned}
-   Z^r_{p,q} 
-   & \coloneqq
-   \left\{
-     c \in G_p C_{p+q}
-     |
-     \partial c = 0 \, mod F_{p-r} C_{\bullet}
-   \right\}
-   \\
-   & = 
-  \left\{
-   c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1}
-  \right\}/ F_{p-1}C_{p+q}
- \end{aligned}
-$$
+1. $F_p C_{p+q}$ is the space of **$(p,q)$-chains** or of **$(p+q)$-chains in filtering degree $p$**;
 
-These are the $(p+q)$-chains in filtering degree $p$ whose differential vanishes modulo terms of filtering degree $p-r$: **the $r$-approximate $(p,q)$-[[chains]]**.
 
-Write similarly
+1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
 
-$$
-  B^{r}_{p,q}
-  \coloneqq
-  \partial(F_{p+r-1} C_{p+q+1})
-  \,,
-$$
+   is the space of **the $r$-approximate $(p,q)$-[[cycles]]**: the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$: 
 
-for $(p+q)$-chains which are [[boundaries]] of chains at most in filtering degree $p+r-1$: the **$r$-approximate $(p,q)$-[[boundaries]]**.
+
+1. $B^{r}_{p,q} \coloneqq \partial(F_{p+r-1} C_{p+q+1}) \,,$
+
+   the **$r$-approximate $(p,q)$-[[boundaries]]**.
 
 =--
 
