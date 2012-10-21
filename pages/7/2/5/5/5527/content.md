@@ -115,6 +115,7 @@ In more detail this means that
      \,.
    $$
 
+We use element-notation in the following as if $\mathcal{A}$ were a category of [[modules]]. 
 
 
 #### $r$-Approximate cycles and boundaries
@@ -124,7 +125,7 @@ In more detail this means that
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above, write for all $r,p,q \in \mathbb[Z}$
+Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above, write for all $r,p,q \in \mathbb{Z}$
 
 $$
   \begin{aligned}
@@ -133,7 +134,7 @@ $$
    \left\{
      c \in G_p C_{p+q}
      |
-     \partial c = 0 \, mod G_{p-r} C_{\bullet}
+     \partial c = 0 \, mod F_{p-r} C_{\bullet}
    \right\}
    \\
    & = 
@@ -150,25 +151,51 @@ Write similarly
 $$
   B^{r}_{p,q}
   \coloneqq
-  \partial(
-    F_{p+r-1} C_{p+q+1}
-  ) / F_{p-1}C_{p+q}
+  \partial(F_{p+r-1} C_{p+q+1})
   \,,
 $$
 
-the group of $r$-approximate $(p,q)$-[[boundaries]].
+for $(p+q)$-chains which are [[boundaries]] of chains at most in filtering degree $p+r-1$: the **$r$-approximate $(p,q)$-[[boundaries]]**.
 
 =--
 
+From this definition we immediately have that the differentials $\partial \colon C_{p+q} \to C_{p+q-1}$ restrict to the $r$-approximate cycles as follows:
 
++-- {: .num_prop #DifferentialsOnApproximateChains}
+###### Proposition
+
+The [[differentials]] of $C$ restrict on $r$-approximate cycles to morphisms of the form
+
+$$
+  \partial 
+   \colon
+  Z^r_{p,q}
+  \to
+  Z^r_{p-r, q+r-1}
+  \,.
+$$
+
+These are still [[differentials]]: $\partial^2 = 0$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the very definition of $Z^r_{p,q}$ it consists of elements in filtering degree $p$ on which $\partial$ decreases the filtering degree to $p-r$. Also by definition of differential on a chain complex, $\partial$ decreases the actual degree $p+q$ by one. This explains that $\partial$ restricted to $Z^r_{p,q}$ lands in $Z^\bullet_{p-r,q+r-1}$. 
+
+Now the image constists indeed of actual boundaries, not just $r$-relative boundaries. But since actual boundaries are in particular $r$-relative boundaries, we make take the codomain to be $Z^r_{p-r,q+r-1}$.
+
+=--
 
 #### $r$-Approximate homology groups: the spectral sequence
 
+Let $F_\bullet C_\bullet$ be a [[filtered chain complex]] as above.
 
 +-- {: .num_defn #ExplicitForm}
 ###### Definition
 
-For $r,p,q \in \mathbb{Z}$ define objects
+For $r, p, q \in \mathbb{Z}$ define the **$r$-relative $(p,q)$-[[chain homology]]** of the filtered complex to be the quotient or the $r$-relative $(p,q)$-cycles by the $r$-relative $(p,q)$-boundaries, def. \ref{InterpretationOfTerms}:
 
 $$
   \begin{aligned}
@@ -185,17 +212,17 @@ $$
   {
     \partial( F_{p+r-1} C_{p+q+1} ) \oplus F_{p-1} C_{p+q} 
   }
+  \end{aligned}
 $$
 
-and morphisms
+=--
+
+By prop. \ref{DifferentialsOnApproximateChains} the differentials of $C_\bullet$ restric to the $r$-approximate homology groups to maps
 
 $$
   \partial_r : E^r_{p,q} \to E^r_{p-q, q+r - 1}
 $$
 
-given by $\partial^C$. 
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
