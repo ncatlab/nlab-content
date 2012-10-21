@@ -127,17 +127,19 @@ We use element-notation in the following as if $\mathcal{A}$ were a category of 
 
 Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above we say for all $r, p, q \in \mathbb{Z}$ that
 
-1. $F_p C_{p+q}$ is the space of **$(p,q)$-chains** or of **$(p+q)$-chains in filtering degree $p$**;
+1. $G_p C_{p+q}$ is the object of **$(p,q)$-[[chains]]** or of **$(p+q)$-chains in filtering degree $p$**;
 
 
 1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
 
-   is the space of **the $r$-approximate $(p,q)$-[[cycles]]**: the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$: 
+   is the object of **the $r$-approximate $(p,q)$-[[cycles]]**: 
+
+   the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$: 
 
 
 1. $B^{r}_{p,q} \coloneqq \partial(F_{p+r-1} C_{p+q+1}) \,,$
 
-   the **$r$-approximate $(p,q)$-[[boundaries]]**.
+   is the object of **$r$-approximate $(p,q)$-[[boundaries]]**.
 
 =--
 
@@ -146,10 +148,10 @@ From this definition we immediately have that the differentials $\partial \colon
 +-- {: .num_prop #DifferentialsOnApproximateChains}
 ###### Proposition
 
-The [[differentials]] of $C$ restrict on $r$-approximate cycles to morphisms of the form
+The [[differentials]] of $C_\bullet$ restrict on $r$-approximate cycles to morphisms of the form
 
 $$
-  \partial 
+  \partial^r 
    \colon
   Z^r_{p,q}
   \to
@@ -166,9 +168,38 @@ These are still [[differentials]]: $\partial^2 = 0$.
 
 By the very definition of $Z^r_{p,q}$ it consists of elements in filtering degree $p$ on which $\partial$ decreases the filtering degree to $p-r$. Also by definition of differential on a chain complex, $\partial$ decreases the actual degree $p+q$ by one. This explains that $\partial$ restricted to $Z^r_{p,q}$ lands in $Z^\bullet_{p-r,q+r-1}$. 
 
-Now the image constists indeed of actual boundaries, not just $r$-relative boundaries. But since actual boundaries are in particular $r$-relative boundaries, we make take the codomain to be $Z^r_{p-r,q+r-1}$.
+Now the image constists indeed of actual boundaries, not just $r$-approximate boundaries. But since actual boundaries are in particular $r$-approximate boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
 
 =--
+
++-- {: .num_prop #KernelsInsideApproximateCycles}
+###### Proposition
+
+The $(r+1)$-approximate cycles are the $\partial^r$-kernel inside the $r$-approximate cycles:
+
+$$
+  Z^{r+1}_{p,q}
+  = 
+  ker( Z^r_{p,q} \stackrel{\partial^r}{\to} Z^r_{p-r, q+r-1} )
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+An element $c \in F_p C_{p+q}$ represents 
+
+1. an element in $Z^r_{p,q}$ if $\partial c \in F_{p-r} C_{p+q-1}$
+
+1. an element in $Z^{r+1}_{p,q}$ if even $\partial c \in F_{p-r-1} C_{p+q-1} \hookrightarrow F_{p-r} C_{p+q-1}$.
+
+The second condition is equivalent to $\partial c$ representing the 0-element in the quotient $F_{p-r}C_{p+q-1}/ F_{p-r-1}C_{p+q-1}$. But this is in turn equivalent to $\partial c$ being 0 in $Z^r_{p-r,q+r-1} \subset F_{p-r} C_{p+q-1} / F_{p-r-1} C_{p+q-1}$.
+
+=--
+
 
 #### $r$-Approximate homology groups: the spectral sequence
 
@@ -177,7 +208,7 @@ Let $F_\bullet C_\bullet$ be a [[filtered chain complex]] as above.
 +-- {: .num_defn #ExplicitForm}
 ###### Definition
 
-For $r, p, q \in \mathbb{Z}$ define the **$r$-relative $(p,q)$-[[chain homology]]** of the filtered complex to be the quotient or the $r$-relative $(p,q)$-cycles by the $r$-relative $(p,q)$-boundaries, def. \ref{InterpretationOfTerms}:
+For $r, p, q \in \mathbb{Z}$ define the **$r$-approximate $(p,q)$-[[chain homology]]** of the filtered complex to be the [[quotient]] of the $r$-approximate $(p,q)$-cycles by the $r$-approximate $(p,q)$-boundaries, def. \ref{ApproximateChainsCyclesBoundaries}:
 
 $$
   \begin{aligned}
@@ -197,30 +228,27 @@ $$
   \end{aligned}
 $$
 
-=--
-
-By prop. \ref{DifferentialsOnApproximateChains} the differentials of $C_\bullet$ restric to the $r$-approximate homology groups to maps
+By prop. \ref{DifferentialsOnApproximateChains} the differentials of $C_\bullet$ restrict on the $r$-approximate homology groups to maps
 
 $$
   \partial_r : E^r_{p,q} \to E^r_{p-q, q+r - 1}
+  \,.
 $$
 
 
-+-- {: .num_remark}
-###### Remark
-
-The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly quotiented out only in order $r$. 
-
 =--
+
+
+
 
 +-- {: .num_prop #ExplicitDefIsIndeedSpectralSequ}
 ###### Proposition
 
 Definition \ref{ExplicitForm} indeed gives a [[spectral sequence]] in that
-the $\partial_r$ are well defined and for all $r$ we have that $E^{r+1}_{\bullet, \bullet}$ is indeed the chain homology of $E^r_{\bullet, \bullet}$, i.e.
+$E^{r+1}_{\bullet, \bullet}$ is indeed the $\partial_r$-[[chain homology]] of $E^r_{\bullet, \bullet}$, i.e.
 
 $$
-  E^r_{p,q} 
+  E^{r+1}_{p,q} 
   = 
  \frac{
     ker(\partial_r : E^r_{p,q} \to E^r_{p-r, q+r-1})
@@ -232,24 +260,10 @@ $$
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .proof}
+###### Proof
 
-If the filtration of $C_\bullet$ is bounded in each degree, then 
-the spectral sequence of prop. \ref{ExplicitDefIsIndeedSpectralSequ}
-indeed converges to the chain homology of $C_\bullet$
-
-$$
-  E^r_{p,q} \Rightarrow H_{p+q}(C)
-  \,,
-$$
-
-i.e. for sufficiently large $r$ we have
-
-$$
-  E^r_{p,q} = G_p H_{p+q}(C)
-  \,.
-$$
+By prop. \ref{KernelsInsideApproximateCycles}.
 
 =--
 
@@ -277,22 +291,39 @@ At every stage we have a new family of long exact sequences
 
 ### In low-degree pages
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_prop}
+###### Proposition
 
-For $r = 0$ def. \ref{ExplicitForm} says that
+We have
+
+* $E^0_{p,q} = G_p C_{p+q}$ 
+
+  is the [[associated graded|associated p-graded]] piece of $C_{p+q}$;
+
+* $E^1_{p,q} = H_{p+q}(G_p C_\bullet)$
+
+  is the chain homology of $C_\bullet$ in filtering degree $p$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $r = 0$ def. \ref{ExplicitForm} restricts to
 
 $$
-  E^0_{p,q} = G_p C_{p+q}
+  E^0_{p,q} = \frac{ F_p C_{p+q}}{F_{p-1} C_{p+q}} = G_p C_{p+q}
 $$
 
-is the [[associated graded|associated p-graded]] piece of $C_{p+q}$. Accordingly for $r = 1$ we have that
+because for $c \in F_p C_{p+q}$ we automatically also have $\partial c \in F_p C_{p+q}$ since the differential respects the filtering degree by assumption. 
+
+For $r = 1$ def. \ref{ExplicitForm} gives 
 
 $$
-  E^1_{p,q} = H_{p+q}(G_p C_\bullet)
+  E^1_{p,q} = \frac{\{c \in G_p C_{p+q} | \partial c = 0 \in G_p C_{p+q}\} }{\partial(F_p C_{p+q})} = H_{p+q} (G_p C_\bullet)
+  \,.
 $$
 
-is the homology of the degree-$p$ piece.
 
 =--
 
@@ -300,7 +331,32 @@ is the homology of the degree-$p$ piece.
 
 ### Convergence
 
-#### Convergence, ideally
+#### General
+
++-- {: .num_prop}
+###### Proposition
+
+If the filtration of $C_\bullet$ is bounded in each degree, then 
+the spectral sequence of prop. \ref{ExplicitDefIsIndeedSpectralSequ}
+indeed converges to the chain homology of $C_\bullet$
+
+$$
+  E^r_{p,q} \Rightarrow H_{p+q}(C)
+  \,,
+$$
+
+i.e. for sufficiently large $r$ we have
+
+$$
+  E^r_{p,q} = G_p H_{p+q}(C)
+  \,.
+$$
+
+=--
+
+
+
+#### Via exact couples
 
 It is instructive to note that in the $n$th derived [[exact couple]] $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
 $$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
@@ -457,7 +513,71 @@ The [[total complex]] of a [[double complex]] is naturally
 
 ### Singular homology of a CW-complex
 
-(...)
+Let $X \in Top$ be a [[CW-complex]] equipped with an explicit structure of a [[filtered topological space]] $X^0 \hookrightarrow \cdots \hookrightarrow X^n \hookrightarrow \cdots X$.
+This induces on the [[singular homology]] complex $C_\bullet(X)$ the structure of a [[filtered chain complex]] by 
+
+$$
+  F_q C_\bullet(X) \coloneqq C_\bullet(X^p)
+  \,.
+$$
+
+The [[associated graded object]] is
+
+$$
+  G_p C_{p+q}(X) = E^0_{p,q} = C_{p+q}(X^p)/C_{p+q}(X^{p-1})
+  \,.
+$$
+
+The chain homology of the associated graded chain complex is therefore the [[relative homology]]
+
+$$
+  E^1_{p,q} = H_{p+q}(X^p, X^{p-1})
+  \,.
+$$
+
+Now by assumption that $X^\bullet$ is the cell decomposition of a [[cell complex]] we have
+
+$$
+  H_{p+q}(X^p, X^{p+1}) 
+  \simeq
+  \left\{
+    \array{
+      \mathbb{Z}[pCells(X)] & q = 0
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+The chain homology of
+
+$$
+  \partial \colon 
+   H_p(X^p, X^{p-1})
+  \to 
+  H_{p-1}(X^{p-1}, X^{p-2})
+$$
+
+is the cellular chain homology $H^{cell}_p(X)$. 
+One finds that
+
+$$
+  E^2_{p,q} = 
+  \left\{
+    \array{
+      H_p^{cell}(X) & q = 0
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Since this is concentrated in the $q = 0 $-row all higher-$r$ differentials vanish. 
+
+Hence $H_p(X) \simeq H^{cell}_p(X)$
+
 
 
 ### Serre's spectral sequence of a fibration
