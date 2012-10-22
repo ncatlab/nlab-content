@@ -122,7 +122,7 @@ $$
   \,. 
 $$
 
-On the [[decategorification|decategorified]] level of the [[homotopy category|homotopoy categories]] these are the total left and right [[derived functors]], respectively, of $L$ and $R$.
+On the [[decategorification|decategorified]] level of the [[homotopy category|homotopy categories]] these are the total left and right [[derived functors]], respectively, of $L$ and $R$.
 
 =--
 
