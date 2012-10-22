@@ -24,12 +24,11 @@ Let $\mathcal{A}$ be an [[abelian category]].
 +-- {: .num_defn #SplitnessInAbelianCategory}
 ###### Definition
 
-A [[short exact sequence]] $0\to A\to B\to C\to 0$ in $\mathcal{A}$ 
-is called **split** if either of the following equivalent conditions hold
+A [[short exact sequence]] $0\to A \stackrel{i}{\to} B \stackrel{p}{\to} C\to 0$ in $\mathcal{A}$  is called **split** if either of the following equivalent conditions hold
 
-1. There exists a [[section]] of $B\to C$ 
+1. There exists a [[section]] of $s \colon B\to C$ 
 
-1. There exists a [[retract]] $B\to A$.
+1. There exists a [[retract]] $r \colon B\to A$.
 
 1. There exists an [[isomorphism]] of sequences with the sequence 
 
@@ -37,7 +36,7 @@ is called **split** if either of the following equivalent conditions hold
      0\to A\to A\oplus C\to C\to 0
    $$
 
-   given by the [[direct sum]] and its canonical morphisms.
+   given by the [[direct sum]] and its canonical injection/projection morphisms.
 
 =--
 
@@ -52,7 +51,13 @@ The three conditions in def. \ref{SplitnessInAbelianCategory} are indeed [[equiv
 +-- {: .proof}
 ###### Proof
 
-(...) e.g. [here](http://en.wikipedia.org/wiki/Splitting_lemma#Proof) (...)
+It is clear that the third condition implies the first two: take the section/retract to be given by the canonical injection/projection maps that come with a [[direct sum]].
+
+Conversely, suppose we have a retract $r \colon B \to A$ of $i \colon A \to B$. Write $P \colon B \stackrel{r}{\to} A \stackrel{i}{\to} B$ for the coresponding [[idempotent]]. 
+
+Then every element $b \in B$ can be decomposed as $b = (b - P(b)) + P(b)$ hence with $b - P(b) \in ker(r)$ and $P(b) \in im(i)$. Moreover this decomposition is unique since if $b = i(a)$ while at the same time $r(b) = 0$ then $0 = r(i(a)) = a$. This shows that $B \simeq im(i) \oplus ker(r)$ is a [[direct sum]] and that $i \colon A \to B$ is the canonical inclusion of $im(i)$. By exactness it then follows that $ker(r) \simeq ker(p)$ and hence that $B \simeq A \oplus C$ with the canonical inclusion and projection.
+
+The implication that the second condition also implies the third is formally dual to this argument. 
 
 =--
 
