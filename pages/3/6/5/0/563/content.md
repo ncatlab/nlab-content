@@ -13,16 +13,6 @@
 =--
 =--
 
-* [[functor]]
-
-* [[2-functor]] / **pseudofunctor**
-
-* [[n-functor]]
-
-* [[(∞,1)-functor]]
-
-***
-
 # Pseudofunctors
 * table of contents
 {: toc}
@@ -32,7 +22,7 @@
 A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a functor which preserves composition and identities only up to [[coherent]] specified [[isomorphism]].
 
 
-In general, there is not much reason to say "pseudofunctor" instead of "functor," since the only relevant type of functor between arbitrary bicategories is weak.  However, if the domain and codomain are known to be [[strict 2-category|strict 2-categories]] (including ordinary $1$-[[1-category|categories]]), it can be helpful to say "pseudofunctor" or "weak functor" to emphasize that it is not a [[strict 2-functor]].  Note that if the codomain is a $1$-category, then there is no difference.
+In general, there is not much reason to say "pseudofunctor" instead of "functor," since by far the most important type of functor between arbitrary bicategories is weak.  However, if the domain and codomain are known to be [[strict 2-category|strict 2-categories]] (including ordinary $1$-[[1-category|categories]]), it can be helpful to say "pseudofunctor" or "weak functor" to emphasize that it is not a [[strict 2-functor]].  Note that if the codomain is a $1$-category, then there is no difference.
 
 Pseudo or weak functors are also to be distinguished from [[lax functor]]s and [[lax functor|oplax functor]]s, which preserve identities and composition only up to a  transformation in one direction or the other, which may be non-invertible.
 
@@ -74,31 +64,19 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
    } $$
    commutes.
 
+## Pseudofunctors versus lax functors
 
-## Lax functors
+If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  Thus, a pseudofunctor may be defined as a lax functor whose comparison constraints are invertible.
 
-If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  If we reverse the direction of these as well, then we have an __[[oplax functor]]__.
+If in the definition of lax functor we reverse the direction of the constraints, then we have an __[[oplax functor]]__.  Thus, if we consider the *inverses* of the constraints of a pseudofunctor, we obtain an oplax functor.  Because there is little difference between specifying an invertible morphism and specifying its invertible inverse, one could equally well define a pseudofunctor to be an oplax functor whose constraints are invertible (i.e. reverse the direction of the isomorphisms $P_{\id_x}$ and $P_{x,y,z}(f,g)$ above), and in the literature one sometimes finds this definition instead.
+
+Of course, in particular applications, one direction or the other may be slightly more "natural".  For instance, when a [[Grothendieck fibration]] $E\to B$ gives rise to a pseudofunctor $B^{op} \to Cat$, the natural comparison maps (induced by the universal property of [[cartesian arrows]]) go in the "lax direction".  Dually, when a Grothendieck opfibration $E\to B$ gives rise to a pseudofunctor $B\to Cat$, the natural comparison maps go in the "oplax direction".
 
 
 ## History
 
 Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weakened, around 1957, the concept of a [[contravariant functor]] from a [[1-category]] to [[Cat]], by effectively replacing the $1$-category Cat by the [[2-category]] $Cat$ and allowing (contravariant) functoriality up to coherent $2$-cells. This was recorded in his [[Bourbaki]] seminar on [[descent]] via pseudofunctors. Later in [[SGA1]] Grothendieck (with the assistance of [[Pierre Gabriel]]) replaced pseudofunctors in the treatment of descent by more invariant [[fibered categories]]. [[Benabou]], in his 1967 treatise introducing [[bicategories]], generalized the pseudofunctors of Grothendieck to pseudofunctors between arbitrary bicategories but under the name 'homomorphism of bicategories'.
 
-
-## Discussion
-
-+--{: .query}
-[[Tim]]: in specifying a pseudo functor $F$ you have to decide whether the isomorphism goes from $F(g f)$ to $F(g) F(f)$ or in the other direction. Of course they are equivalent as each will be inverse to the other. You might say that one is lax and pseudo the other op-lax and pseudo. When specifying the Grothendieck construction for such a functor, which is to be preferred? 
-
-Both are about equally represented in the literature that I have seen which gets confusing. (In other words, I'm confused!)
-
-_Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'t make a difference.  But it might be nice to settle a convention in case we need it.
-
-
-[[Tim]]: I have been using (for the Menagerie) the idea that there are pseudofunctors presented in two equivalent flavours lax pseudofunctor and oplax ones. 
-
-[[Mike Shulman|Mike]]: Well, the natural comparison maps that you get in a [[Grothendieck fibration]] go in the "lax" direction $F(g) F(f) \to F(g f)$, since they are induced by the universal property of cartesian arrows.  In particular, if you have a functor with "weakly cartesian" liftings that don't compose, then it is a lax functor.  Not a very strong argument, but if we just want _some_ convention it might be a reason to pick lax.  I think that making too big a deal out of the difference would be misleading, though.
-=--
 
 
 [[!redirects pseudofunctor]]
