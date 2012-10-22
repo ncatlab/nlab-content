@@ -191,6 +191,17 @@ of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F 
 
 =--
 
+In some cases this can be further strenghened:
+
++-- {: .num_prop}
+###### Proposition
+
+If the [[ring]] $R$ is a [[principal ideal domain]] (in particular $R = \mathbb{Z}$ the [[integers]]), then every projective $R$-module is free.
+
+=--
+
+The details are discussed at _[pid - Structure theory of modules](http://ncatlab.org/nlab/show/principal+ideal+domain#StructureTheoryOfModules)_.
+
 
 ### Relation to projective resolutions of chain complexes
  {#RelationToProjectiveResolution}
