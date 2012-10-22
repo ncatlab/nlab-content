@@ -131,11 +131,19 @@ For more see [[generalized homology]].
 
 ## Examples
 
-* [[chain and cochain homology]]
+* [[chain homology]]
+
+  * [[relative homology]]
 
 * [[simplicial homology]]
 
 * [[singular homology]]
+
+  * [[cellular homology]]
+
+* [[generalized homology]]
+
+* [[factorization homology]]
 
 ## Related concepts
 
@@ -147,10 +155,6 @@ The ingredients of homology and cohomology:
 
 [[!include chains and cochains - table]]
 
-
-* [[generalized homology]]
-
-* [[factorization homology]]
 
 [[!redirects homology group]]
 [[!redirects homology groups]]
