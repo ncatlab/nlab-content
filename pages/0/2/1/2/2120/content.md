@@ -61,6 +61,11 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 * [[Lipschitz map]]
 * [[short map]]
 
+## Related concepts
+
+* [[degree of a continuous function]]
+
+* [[differentiable function]], [[smooth function]]
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
