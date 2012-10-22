@@ -49,9 +49,11 @@ Finally, a **unit** in an allegory is an object $U$ such that $1_U$ is the great
 Thus, regular categories are equivalent to unital (or unitary) tabular allegories.  For more details, see [[Categories, Allegories]], the [[Elephant]], or [[toddtrimble:Theory of units and tabulations in allegories]].
 
 
-## Division allegories and power allegories 
+## Division allegories and power allegories
 
-A **division allegory** is an allegory in which every hom-poset is a [[lattice]] (not just a meet-semilattice), and for which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r \colon A \to B$ and $s \colon A \to C$, there exists $r/s \colon B \to C$ such that 
+A **distributive allegory** is an allegory whose hom-posets have finite joins that are preserved by composition.  Thus a distributive allegory is locally a [[lattice]].
+
+A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r \colon A \to B$ and $s \colon A \to C$, there exists $r/s \colon B \to C$ such that
 
 $$t \leq s/r \in \hom(B, C) \Leftrightarrow t \circ r \leq s \in \hom(A, C)$$ 
 
@@ -109,6 +111,80 @@ which internalizes the formula-definition $\chi_r(a, S) \coloneqq \forall_b S \n
 
 The bicategory of relations in a [[topos]] is a power allegory; conversely, the category of maps in a unitary tabular power allegory is a topos. 
 
+
+## Syntactic allegories
+
+Let $T$ be a [[regular theory]].  There is then an allegory $\mathcal{A}_T$ given as follows:
+
+* the objects are finite strings of [[sorts]] of $T$;
+* a morphism $\vec X \to \vec Y$ is a predicate $P(\vec x, \vec y)$ of sort $\vec X, \vec Y$ (or rather a provable-equivalence class of such predicates);
+* the identity $\vec X \to \vec X$ is (named by) $x_1 = x_1 \wedge x_2 = x_2 \wedge \cdots \wedge x_n = x_n$;
+* the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \land S(\vec y \vec z)$.
+
+That $\mathcal{A}_T$ is an allegory is B.311 in [Freyd--Scedrov](#FreydScedrov); that it is in fact unitary and pre-tabular is B.312.
+
+Further structure on $T$ gives rise to further structure on $\mathcal{A}_T$ (B.313): if $T$ is a [[coherent theory|coherent]], [[first-order theory|first-order]] or [[higher-order logic|higher-order]] theory, then $\mathcal{A}_T$ will be a distributive, division or power allegory respectively.
+
+Every pre-tabular allegory has a tabular completion, given by splitting its coreflexive morphisms (i.e. those endomorphisms $R$ such that $R \subset id$).  The coreflexive splitting of $\mathcal{A}_T$ is precisely the [[syntactic category]] of $T$.
+
+### The existential quantifier
+
+There are two possible ways to interpret a regular formula of the form $\exists y. R(x,y) \wedge S(y,z)$ in a unitary pre-tabular allegory, if $R$ and $S$ are interpreted as $r \colon X \to Y$ and $s \colon Y \to Z$ respectively:  as the composite $s \cdot r$, or more 'literally' by:
+* pulling $r$ and $s^o$ back to the same hom set and taking their intersection: $(p_1^o r p_1) \cap (p_2^o s^o p_2) \colon X \times Z \to Y \times Y$;
+* then forcing the two $Y$s to be equal by post-composing with $\Delta_Y^o \colon Y \times Y \to Y$, applying the existential quantifier by post-composing with the unique map $!_Y$ to the unit, and post-composing with $!_Z^o$ to get a morphism into $Z$;
+* then forcing the $Z$ in the domain to be equal to the $Z$ in the codomain by taking the meet with $p_2 \colon X \times Z \to Z$;
+* and finally pulling back along (precomposing with the right adjoint of) $p_1 \colon X \times Z \to X$ to get a morphism $X \to Z$.
+
+We would like to know that these morphisms are equal, so that an existential formula will have a unique interpretation:
+
++-- {: .num_prop}
+###### Proposition
+$$ s r = (p_2 \cap !_Z^o !_Y \Delta_Y^o ((p_1^o r p_1) \cap (p_2^o s^o p_2))) p_1^o  $$
+=--
+
++-- {: .proof}
+###### Proof
+We show inclusion in each direction.
+
+Firstly, $s r = s r \cap p_2 p_1^o$, because the product projections tabulate the top morphism.  Notice also that the RHS above is equal to
+$$ (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o  $$
+where $\top_{Y Z}$ is the top morphism $Y \to Z$.
+
+Now we can calculate:
+$$
+\begin{aligned}
+  s r \cap p_2 p_1^o
+  & = (s r p_1 \cap p_2) p_1^o & \text{modular law} \\
+  & = (s r p_1 \cap p_2 \cap p_2) p_1^o \\
+  & \leq (s(r p_1 \cap s^o p_2) \cap p_2) p_1^o & \text{mod.} \\
+  & \leq (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
+\end{aligned}
+$$
+
+In the other direction, we have
+$$
+\begin{aligned}
+  (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
+  & \leq (\top_{Y Z} s^o (s r p_1 \cap p_2) \cap p_2) p_1^o &   \text{mod.} \\
+  & \leq (\top_{Y Y} (s r p_1 \cap p_2) \cap p_2) p_1^o \\
+  & = (p_2 (p_1^o s r p_1 \cap p_1^o p_2) \cap p_2) p_1^o \\
+  & = p_2 (p_1^o s r p_1 \cap p_1^o p_2 \cap p_2^o p_2) p_1^o \\
+  & = p_2 (p_1^o s r p_1 \cap (p_1^o \cap p_2^o) p_2) p_1^o \\
+  & = p_2 (p_1^o s r p_1 \cap \Delta p_2) p_1^o & \text{see below} \\
+  & = p_2 \Delta (\Delta^o p_1^o s r p_1 \cap p_2) p_1^o \\
+  & = (s r p_1 \cap p_2) p_1^o \\
+  & = s r \cap p_2 p_1^o
+\end{aligned}
+$$
+and we are back to where we started.  In the fourth-last step we used the fact that if $p_1, p_2 \colon Z \times Z \to Z$ are the projections, then $p_1 \cap p_2 = \Delta^o$.  It suffices to show that $\Delta \dashv p_1 \cap p_2$; the unit inequality is actually an equality (since $\Delta$ is always monic):
+$$ (p_1 \cap p_2) \Delta = p_1\Delta \cap p_2\Delta = id \cap id = id $$
+while
+$$ \Delta (p_1 \cap p_2) = \Delta p_1 \cap \Delta p_2$$
+since $\Delta^o \Delta \leq 1$.  By the modular law we have
+$$ \Delta p_1 \cap \Delta p_2 \leq p_1(\Delta \cap \Delta p_2 p_1^o)  $$
+But $p_2 p_1^o = \top_{Z,Z}$, and $\Delta \top_{Z,Z} \leq \top_{Z,Z\times Z}$, so we get
+$$ p_1(\Delta \cap \Delta p_2 p_1^o) \leq p_1(\Delta \cap \top_{Z,Z\times Z}) = p_1 \Delta = id $$
+=--
 
 ## Related entries
 
