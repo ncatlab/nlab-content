@@ -1,5 +1,86 @@
 
+#Contents#
+* table of contents
+{:toc}
 
-## Related
+## Definition
+
+### In singular homology
+
+Let $X$ be a [[topological space]] and $A \hookrightarrow X$ a [[subspace]]. Write $C_\bullet(X)$ for the [[chain complex]] of [[singular homology]] on $X$ and $C_\bullet(A) \hookrightarrow C_\bullet(X)$ for the [[chain map]] induced by the subspace inclusion. 
+
++-- {: .num_defn}
+###### Definition
+
+The [[cokernel]] of this inclusion $C_\bullet(X)/C_\bullet(A)$, hence the [[quotient]] by the [[image]] of the inclusion, is the **chain complex of $A$-relative chains**. Its [[chain homology]] is the **$A$-relative singular homology of $X$**
+
+$$
+  H_n(X | A)\coloneqq H_n(C_\bullet(X)/C_\bullet(A))
+  \,.
+$$
+
+=--
+
+## Properties
+
+### Relation to quotient topological spaces
+
++-- {: .num_prop #HomologyOfQuotientSpace}
+###### Proposition
+
+If $A \hookrightarrow X$ is an inclusion of [[topological spaces]] such that $A$ has a [[neighbourhood]] which is a [[deformation retract]] in $X$, then the $A$-relative singular homology of $X$ coincides with the homology of the [[quotient space]] $X/A$: 
+
+$$
+  H_n(X/A)
+  \simeq
+  H_n(X| A)
+ \,.
+$$
+
+=--
+
+### Long exact sequence
+
++-- {: .num_prop #RelativeHomologyLongExactSequence}
+###### Proposition
+
+Relative homology sits in a [[long exact sequence]]
+
+$$
+  \cdots
+  \to 
+  H_n(A)
+  \to 
+  H_n(X)
+  \to 
+  H_n(X|A)
+  \to
+  H_{n-1}(A)
+  \to 
+  H_{n-1}(X)
+  \to 
+  H_{n-1}(X|A)
+  \to 
+  \cdots
+  \,.
+$$
+
+=--
+
+By definition and using the [[homology long exact sequence]] induced by a [[short exact sequence]] of chain complexes.
+
+## Examples
+
++-- {: .num_example }
+###### Example
+
+The singular homology of the $n$-[[sphere]] $S^{n} \simeq D^n / S^{n-1}$  equals the $S^{n-1}$-relative homology of the $n$-[[disk]].
+
+=--
+
+## Related concepts
 
 * [[relative cohomology]]
+
+## References
+
