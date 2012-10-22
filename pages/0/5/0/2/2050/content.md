@@ -23,14 +23,6 @@ Every [[subgroup]] $H$ of a [[discrete group|discrete]] [[free group]] $G$ is it
 
 =-- 
 
-+-- {: .num_theorem #DedekindTheorem}
-###### Theorem
-**(Dedekind's theorem)**
-
-Every subgroup of a [[free abelian group]] is itself a free abelian group.
-
-=--
-
 
 This has a number of different proofs. The first proof, perhaps nowadays the most familiar proof, is based on covering space theory (in particular, covering spaces of topological graphs). The second proof is quite similar in spirit but is based on groupoids (another way of viewing homotopy 1-types), and has the advantage that it circumvents the point-set topology considerations inherent to covering space theory. 
 
@@ -76,6 +68,16 @@ The above simple [[homotopy theory|homotopy-theoretic]] proof was indicated in (
 ## Related concepts
 
 * [submodules of a free module](free+module#SubmodulesOfFreeModules)
+
++-- {: .num_theorem #DedekindTheorem}
+###### Theorem
+**(Dedekind's theorem)**
+
+Every subgroup of a [[free abelian group]] is itself a free abelian group.
+
+=--
+
+See at _[pid - Structure theory of modules](http://ncatlab.org/nlab/show/principal+ideal+domain#StructureTheoryOfModules)_ for details.
 
 ## References
 
