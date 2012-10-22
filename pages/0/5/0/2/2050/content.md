@@ -23,10 +23,21 @@ Every [[subgroup]] $H$ of a [[discrete group|discrete]] [[free group]] $G$ is it
 
 =-- 
 
++-- {: .num_cor #DedekindTheorem}
+###### Corollary
+**(Dedekind's theorem)**
+
+Every subgroup of a [[free abelian group]] is itself a free abelian group.
+
+=--
+
+
 This has a number of different proofs. The first proof, perhaps nowadays the most familiar proof, is based on covering space theory (in particular, covering spaces of topological graphs). The second proof is quite similar in spirit but is based on groupoids (another way of viewing homotopy 1-types), and has the advantage that it circumvents the point-set topology considerations inherent to covering space theory. 
 
 +-- {: .proof} 
 ###### Topological Proof (sketch) 
+**of theorem \ref{NielsenSchreierTheorem}**
+
 A free group $G = F(S)$ is, by the [[van Kampen theorem]], a [[fundamental group]] of a bouquet[^fine] of $S$ many circles, which is in particular a [[connected space|connected]] 1-dimensional [[CW-complex]] $X$ (in simpler language, a connected graph). By general [[covering space]] theory, given a (pointed) connected space $X$ with $\pi_1(X, x) = G$, subgroups $H \subseteq G$ are in bijective correspondence with isomorphism classes of connected covering spaces $p: (E, e) \to (X, x)$, with $\pi_1(E, e) \cong H$. Now, a covering space $E$ of a connected graph $X$ is also a connected graph. But any connected graph is [[homotopy equivalence|homotopy equivalent]] to a bouquet of circles, whose fundamental group is a free group. Thus $\pi_1(E, e)$ is a free group. 
 
 The second statement is proved by observing that the Euler characteristic of $X$ is $\chi(X) = 1 - \rho(G)$, where $\rho(G)$ is the number of generators of the free group $G$, and $\chi(E) = n\chi(X)$ if $p \colon E \to X$ is a covering space with $n$ points in each fiber. 
@@ -37,7 +48,8 @@ Full details may be found in [May](#Maybook). Key technical ingredients include:
 This topological proof can be reformulated in more algebraic language, using a little groupoid theory (groupoids being [[homotopy n-type|homotopy 1-types]]). A key construction here is the [[action groupoid]] $X \sslash G$ formed from a $G$-set $X$, also called a homotopy quotient or homotopy orbit space. 
 
 +-- {: .proof}
-###### Groupoidal Proof
+###### Groupoidal Proof 
+**of theorem \ref{NielsenSchreierTheorem}**
 
 By the discussion at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_, we may think of the [[free group]] $F(S)$ as the [[fundamental group]] of a homotopy 1-type which is freely built from a single vertex and one loop from that vertex to itself for each element in $S$. This is the _[[free groupoid]]_ $*\sslash F(S)$ on this [[directed graph]] (a bouquet of circles). It is a classical fact (see at _[[universal principal bundle]]_) that the [[universal cover]] of this is the [[contractible]] groupoid $\mathbf{E}(F(S))$, the [[action groupoid]] $F(S)\sslash F(S)$ of $F(S)$ acting on itself from the right and that its [[quotient]] by the $F(S)$-action from the left recovers the original groupoid with fundamental group $F(S)$. If we instead quotient only by the given subgroup $H \hookrightarrow F(S)$, we obtain a connected groupoid with fundamental group $H$ (meaning simply that at any point or object $x$ of the groupoid, the group $\hom(x, x)$ is isomorphic to $H$). 
 
@@ -59,6 +71,30 @@ The above simple [[homotopy theory|homotopy-theoretic]] proof was indicated in (
 
 =--
 
++-- {: .proof}
+###### Proof 
+**of corollary \ref{DedekindTheorem}**
+
+A [[free abelian group]] $F_{Ab}(S)$ on a set $S$ is the [[abelianization]] 
+
+$$
+  F_{Ab}(S) \simeq F(S)/[F(S),F(S)]
+$$ 
+
+of the [[free group]] on $S$. Therefore a subgroup $H \hookrightarrow F_{Ab}(S)$ corresponds to a subgroup $p^{-1}(H) \hookrightarrow F(S)$, the [[preimage]] under the [[quotient]] [[projection]] $F(S) \to F(S)/[F(S),F(S)]$. By theorem \ref{NielsenSchreierTheorem} $p^{-1}(H)$ is a [[free group]] and hence by construction $H$ is the [[abelianization]] of a free group and hence is a free abelian group.
+
+$$
+  \array{
+    p^{-1}(H) &\hookrightarrow& F(S)
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{p}}
+    \\
+    H &\hookrightarrow& F(S)/[F(S),F(S)]
+  }
+  \,.
+$$
+
+=--
 
 
 ## Related concepts
