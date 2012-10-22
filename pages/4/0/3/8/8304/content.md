@@ -17,6 +17,8 @@
 * table of contents
 {:toc}
 
+There are several notions of abelianizations for various algebraic structures. There is also the [[Verdier's abelianization functor]] from triangulated to an abelian category with some universal property; this is treated in a separate entry.  
+
 ## Definition
 
 +-- {: .num_defn }
