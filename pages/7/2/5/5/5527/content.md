@@ -334,18 +334,20 @@ At every stage we have a new family of long exact sequences
 
 ### In low-degree pages
 
+We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{ExplicitForm} for low values of $r$ and, below in prop. \ref{ConvergingToGenuineHomology}, for $r \to \infty$.
+
 +-- {: .num_prop}
 ###### Proposition
 
 We have
 
-* $E^0_{p,q} = G_p C_{p+q}$ 
+* $E^0_{p,q} = G_p C_{p+q} = F_p C_{p+q} / F_{p-1} C_{p+q}$ 
 
   is the [[associated graded|associated p-graded]] piece of $C_{p+q}$;
 
 * $E^1_{p,q} = H_{p+q}(G_p C_\bullet)$
 
-  is the chain homology of $C_\bullet$ in filtering degree $p$.
+  is the [[chain homology]] of the [[associated graded|associated p-graded]] complex $G_p C_\bullet$.
 
 =--
 
@@ -373,7 +375,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-There is, in general, a decicive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree. See prop. \ref{ConvergingToGenuineHomology} below.
+There is, in general, a decisive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree, but in the latter they are requird to vanish genuinely. The latter expression is instead the value of the spectral sequence for $r \to \infty$, see prop. \ref{ConvergingToGenuineHomology} below.
 
 =--
 
@@ -604,13 +606,16 @@ The [[total complex]] of a [[double complex]] is naturally
 
 ### Singular homology of a CW-complex
 
-Let $X \in Top$ be a [[CW-complex]] equipped with an explicit structure of a [[filtered topological space]] $X^0 \hookrightarrow \cdots \hookrightarrow X^n \hookrightarrow \cdots X$.
+Let $X \in Top$ be a [[CW-complex]] equipped explicitly with the structure of a [[filtered topological space]] $X^0 \hookrightarrow \cdots \hookrightarrow X^n \hookrightarrow \cdots X$.
 This induces on the [[singular homology]] complex $C_\bullet(X)$ the structure of a [[filtered chain complex]] by 
 
 $$
   F_q C_\bullet(X) \coloneqq C_\bullet(X^p)
   \,.
 $$
+
+We discuss how the corresponding spectral sequence shows that the [[singular homology]] of $X$ coincides with the [[cellular homology]] of the filtering.
+
 
 The [[associated graded object]] is
 
@@ -619,17 +624,23 @@ $$
   \,.
 $$
 
-The chain homology of the associated graded chain complex is therefore the [[relative homology]]
++-- {: .num_prop}
+###### Proposition
+
+
+The chain homology of the associated graded chain complex is the [[relative homology]]
 
 $$
-  E^1_{p,q} = H_{p+q}(X^p, X^{p-1})
+  E^1_{p,q} = H_{p+q}(X^p | X^{p-1})
   \,.
 $$
+
+=--
 
 Now by assumption that $X^\bullet$ is the cell decomposition of a [[cell complex]] we have
 
 $$
-  H_{p+q}(X^p, X^{p+1}) 
+  H_{p+q}(X^p | X^{p+1}) 
   \simeq
   \left\{
     \array{
@@ -667,8 +678,14 @@ $$
 
 Since this is concentrated in the $q = 0 $-row all higher-$r$ differentials vanish. 
 
-Hence $H_p(X) \simeq H^{cell}_p(X)$
+Hence $H_p(X) \simeq H^{cell}_p(X)$.
 
++-- {: .num_remark}
+###### Remark
+
+The generalization of this argument from [[ordinary homology]] to [[generalized homology]] is given by the [[Atiyah–Hirzebruch spectral sequence]].
+
+=--
 
 
 ### Serre's spectral sequence of a fibration
