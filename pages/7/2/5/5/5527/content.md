@@ -40,9 +40,9 @@ $$
 
 which is in general simpler. 
 
-The sequence asymptotes to the homology of $C_\bullet$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an _$r$-approximate cycle_ is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-approximate boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The corresponding $r$-approximate homology of $C_\bullet$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
+The sequence asymptotes to the homology of $C_\bullet$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an _$r$-almost cycle_ is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-almost boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The corresponding $r$-almost homology of $C_\bullet$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
 
-Clearly, if the filtering is bounded then $\infty$-approximate homology is the correct homology, and so the spectral sequence converges to the correct homology. But the point is that typically it reaches the correct value already at some low finite degree $r$ (it "collapses"), and so allows one to obtain the genuine homology from some finite $r$-approximate homology.
+If the filtering is bounded then $r$-almost homology for sufficiently large $r$ ("$\infty$-almost homology") is the clearly the genuine homology, and so the spectral sequence converges to the correct homology. But the point is that typically it reaches the correct value already at some low finite degree $r$ (it "collapses"), and so allows one to obtain the genuine homology from some finite $r$-almost homology.
 
 
 One may also regard the spectral sequence of a filtered complex as a tool for organizing data derivable from the families of [[long exact sequence in homology]]
@@ -83,7 +83,7 @@ and
 ### Via relative homology
  {#ExplicitDefinition}
 
-Let $\mathcal{A}$ be an [[abelian category]], such as $\mathcal{A} = R$[[Mod]] for some [[ring]] $R$.
+Let $R$ be a [[ring]] and write $\mathcal{A} = R$[[Mod]] for its [[category]] of [[modules]].
 
 Let 
 
@@ -98,57 +98,75 @@ $$
 
 be a [[filtered chain complex]] in $\mathcal{A}$, with [[associated graded]] complex denoted $G_\bullet C_\bullet$.
 
++-- {: .num_remark}
+###### Remark
+
 In more detail this means that
 
 1. $[\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to}] C_{n-1} \to \cdots]$ is a [[chain complex]], hence $\{C_n\}$ are [[objects]] in $\mathcal{A}$ ($R$-[[modules]]) and $\{\partial_n\}$ are [[morphisms]] (module [[homomorphisms]]) with $\partial_n \circ \partial_{n+1} = 0$;
 
-1. For each $n \in \mathbb{Z}$ there is a [[filtered object|filtering]] $F_\bullet C_n$ on $C_n$ and all these filterings are compatible with the [[diffreentials]] in that 
+1. For each $n \in \mathbb{Z}$ there is a [[filtered object|filtering]] $F_\bullet C_n$ on $C_n$ and all these filterings are compatible with the [[differentials]] in that 
 
    $$
      \partial(F_p C_n) \subset F_p C_{n-1}
    $$
 
-1. The grading associated to the filtreing is suhh that the $p$-graded element in $C_n$ are those in the [[quotient]]
+1. The grading associated to the filtering is such that the $p$-graded elements are those in the [[quotient]]
 
    $$
      G_p C_n \coloneqq \frac{F_p C_n}{ F_{p-1} C_n}
      \,.
    $$
 
+   Since the differentials respect the grading we have chain complexes $G_p C_\bullet$ in each filtering degree $p$.
+
 We use element-notation in the following as if $\mathcal{A}$ were a category of [[modules]]. 
 
+=--
 
-#### $r$-Approximate cycles and boundaries
+
+#### $r$-Almost cycles and boundaries
  {#InterpretationOfTerms}
 
 
-+-- {: .num_defn #ApproximateChainsCyclesBoundaries}
++-- {: .num_defn #AlmostChainsCyclesBoundaries}
 ###### Definition
 
 Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above we say for all $r, p, q \in \mathbb{Z}$ that
 
-1. $G_p C_{p+q}$ is the object of **$(p,q)$-[[chains]]** or of **$(p+q)$-chains in filtering degree $p$**;
+1. $G_p C_{p+q}$ is the module of ***$(p,q)$-[[chains]]*** or of ***$(p+q)$-chains in filtering degree $p$***;
 
 
 1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
 
-   is the object of **the $r$-approximate $(p,q)$-[[cycles]]**: 
-
-   the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$: 
+   is the module of ***$r$-almost $(p,q)$-[[cycles]]*** (the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$);
 
 
 1. $B^{r}_{p,q} \coloneqq \partial(F_{p+r-1} C_{p+q+1}) \,,$
 
-   is the object of **$r$-approximate $(p,q)$-[[boundaries]]**.
+   is the module of **$r$-almost $(p,q)$-[[boundaries]]**.
 
 =--
 
-From this definition we immediately have that the differentials $\partial \colon C_{p+q} \to C_{p+q-1}$ restrict to the $r$-approximate cycles as follows:
+Similarly we set
 
-+-- {: .num_prop #DifferentialsOnApproximateChains}
+$$
+  Z^\infty_{p,q} \coloneqq \{c \in F_p C_{p + q} | \partial c = 0 \}/F_{p-1}C_{p+q}
+  = 
+  Z(G_p C_{p+q})
+$$
+
+$$
+  B^\infty_{p,q} = \partial( F_p C_{p+q+1} )
+  \,.
+$$
+
+From this definition we immediately have that the differentials $\partial \colon C_{p+q} \to C_{p+q-1}$ restrict to the $r$-almost cycles as follows:
+
++-- {: .num_prop #DifferentialsOnAlmostChains}
 ###### Proposition
 
-The [[differentials]] of $C_\bullet$ restrict on $r$-approximate cycles to morphisms of the form
+The [[differentials]] of $C_\bullet$ restrict on $r$-almost cycles to morphisms of the form
 
 $$
   \partial^r 
@@ -168,14 +186,39 @@ These are still [[differentials]]: $\partial^2 = 0$.
 
 By the very definition of $Z^r_{p,q}$ it consists of elements in filtering degree $p$ on which $\partial$ decreases the filtering degree to $p-r$. Also by definition of differential on a chain complex, $\partial$ decreases the actual degree $p+q$ by one. This explains that $\partial$ restricted to $Z^r_{p,q}$ lands in $Z^\bullet_{p-r,q+r-1}$. 
 
-Now the image constists indeed of actual boundaries, not just $r$-approximate boundaries. But since actual boundaries are in particular $r$-approximate boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
+Now the image constists indeed of actual boundaries, not just $r$-almost boundaries. But since actual boundaries are in particular $r$-almost boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
 
 =--
 
-+-- {: .num_prop #KernelsInsideApproximateCycles}
++-- {: .num_prop }
 ###### Proposition
 
-The $(r+1)$-approximate cycles are the $\partial^r$-kernel inside the $r$-approximate cycles:
+We have a sequence of canonical inclusions
+
+$$
+  B^0_{p,q}
+  \hookrightarrow
+  B^1_{p,q}
+  \hookrightarrow
+  \cdots
+  B^\infty_{p,q}
+  \hookrightarrow
+  Z^\infty_{p,q}
+  \hookrightarrow
+  \cdots 
+  \hookrightarrow
+  Z^1_{p,q}
+  \hookrightarrow
+  Z^0_{p,q}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #KernelsInsideAlmostCycles}
+###### Proposition
+
+The $(r+1)$-almost cycles are the $\partial^r$-kernel inside the $r$-almost cycles:
 
 $$
   Z^{r+1}_{p,q}
@@ -201,14 +244,14 @@ The second condition is equivalent to $\partial c$ representing the 0-element in
 =--
 
 
-#### $r$-Approximate homology groups: the spectral sequence
+#### $r$-Almost homology groups: the spectral sequence
 
 Let $F_\bullet C_\bullet$ be a [[filtered chain complex]] as above.
 
 +-- {: .num_defn #ExplicitForm}
 ###### Definition
 
-For $r, p, q \in \mathbb{Z}$ define the **$r$-approximate $(p,q)$-[[chain homology]]** of the filtered complex to be the [[quotient]] of the $r$-approximate $(p,q)$-cycles by the $r$-approximate $(p,q)$-boundaries, def. \ref{ApproximateChainsCyclesBoundaries}:
+For $r, p, q \in \mathbb{Z}$ define the **$r$-almost $(p,q)$-[[chain homology]]** of the filtered complex to be the [[quotient]] of the $r$-almost $(p,q)$-cycles by the $r$-almost $(p,q)$-boundaries, def. \ref{AlmostChainsCyclesBoundaries}:
 
 $$
   \begin{aligned}
@@ -228,7 +271,7 @@ $$
   \end{aligned}
 $$
 
-By prop. \ref{DifferentialsOnApproximateChains} the differentials of $C_\bullet$ restrict on the $r$-approximate homology groups to maps
+By prop. \ref{DifferentialsOnAlmostChains} the differentials of $C_\bullet$ restrict on the $r$-almost homology groups to maps
 
 $$
   \partial_r : E^r_{p,q} \to E^r_{p-q, q+r - 1}
@@ -245,7 +288,7 @@ $$
 ###### Proposition
 
 Definition \ref{ExplicitForm} indeed gives a [[spectral sequence]] in that
-$E^{r+1}_{\bullet, \bullet}$ is indeed the $\partial_r$-[[chain homology]] of $E^r_{\bullet, \bullet}$, i.e.
+$E^{r+1}_{\bullet, \bullet}$ is indeed the $\partial^r$-[[chain homology]] of $E^r_{\bullet, \bullet}$, i.e.
 
 $$
   E^{r+1}_{p,q} 
@@ -263,7 +306,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{KernelsInsideApproximateCycles}.
+By prop. \ref{KernelsInsideAlmostCycles}.
 
 =--
 
@@ -327,13 +370,19 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+There is, in general, a decicive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree. See prop. \ref{ConvergingToGenuineHomology} below.
+
+=--
 
 
 ### Convergence
 
 #### General
 
-+-- {: .num_prop}
++-- {: .num_prop #ConvergingToGenuineHomology}
 ###### Proposition
 
 If the filtration of $C_\bullet$ is bounded in each degree, then 
@@ -341,16 +390,58 @@ the spectral sequence of prop. \ref{ExplicitDefIsIndeedSpectralSequ}
 indeed converges to the chain homology of $C_\bullet$
 
 $$
-  E^r_{p,q} \Rightarrow H_{p+q}(C)
+  E^r_{p,q} \Rightarrow H_{p+q}(C_\bullet)
   \,,
 $$
 
 i.e. for sufficiently large $r$ we have
 
 $$
-  E^r_{p,q} = G_p H_{p+q}(C)
+  E^r_{p,q} = G_p H_{p+q}(C_\bullet)
   \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If the filtration is bounded then for $r$ sufficiently large we have for all $p$
+
+$$
+  F_{p-r} C_\bullet = 0
+$$
+
+and
+
+$$
+  F_{p+r}C_\bullet = C_\bullet
+  \,.
+$$
+
+Therefore for such $r$ the $r$-almost cycles are ordinary cycles in the associated grading
+
+$$
+  Z^r_{p.q} = Z(F_p C_{p+q})/F_{p-1}C_{p+q}
+$$
+
+and the $r$-almost boundaries are just the ordinary boundaries
+
+$$
+  B^r_{p,q} = B(F_p C_{p+q})
+  \,.
+$$
+
+Therefore for such sufficiently large $r$ 
+
+$$
+  E^r_{p,q} = \frac{Z^r_{p,q}}{B^r_{p,q}} = \frac{F_p H_{p+q}(C_\bullet)}{F_{p-1} C_\bullet} = \frac{F_p H_{p+q}(C_\bullet)}{F_{p-1} H_{p+q}(C_\bullet)}
+  =
+  G_p H_{p+q}(C_\bullet)
+  \,.
+$$
+
+
 
 =--
 
