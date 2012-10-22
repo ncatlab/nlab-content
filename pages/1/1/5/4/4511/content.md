@@ -434,6 +434,8 @@ For instance ([Weibel, cor. 3.2.13](#Weibel)).
 
 * [[flat resolution lemma]]
 
+* [[universal coefficient theorem]]
+
 ## References
 
 Standard textbook accounts include the following:
