@@ -226,21 +226,22 @@ For more see [[counterexamples in algebra]].
 
     * [[finite group]], [[profinite group]]
 
-  * [[abelian group]], [[anabelian group]], 
-
-  * [[topological group]], [[Lie group]], [[loop group]], 
-
-  * [[group commutator]], [[commutator subgroup]]
-
   * [[subgroup]]
 
     * [[torsion subgroup]]
+
+  * [[abelian group]], [[anabelian group]], 
+
+  * [[group commutator]], [[commutator subgroup]], [[abelianization]]
 
   * [[group character]]
 
   * [[group cohomology]]
 
   * [[group extension]]
+
+
+  * [[topological group]], [[Lie group]], [[loop group]], 
 
 * [[ring]], [[ring object]]
 
