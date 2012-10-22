@@ -152,3 +152,5 @@ Similar material can also be found in
 [[!redirects Nielsen theorem]]
 [[!redirects Nielsen–Schreier theorem]]
 [[!redirects Nielsen--Schreier theorem]]
+
+[[!redirects Dedekind-Nielsen-Schreier theorem]]
