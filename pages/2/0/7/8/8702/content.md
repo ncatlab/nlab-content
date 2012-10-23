@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[product]] of two [[topological spaces]] in the [[category]] [[Top]].
+
+## Related concepts
+
+* [[Eilenberg-Zilber theorem]]
+
+[[!redirects product topological spaces]]
