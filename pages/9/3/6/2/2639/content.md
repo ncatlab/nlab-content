@@ -83,7 +83,7 @@ $$
 
 This is the original motivating application.
 
-Let $X$ and $Y$ be two [[topological space]]s. Their [[chain homology]] complexes $C_\bullet(X)$ and $C_\bullet(Y)$ are the [[Moore complex]]es of the simplicial abelian groups $\mathbb{Z}[Sing X]$ and $\mathbb{Z}[Sing Y]$. So from the Dold-Puppe [[quasi-isomorphism]] $R$ from above we have a [[quasi-isomorphism]]
+Let $X$ and $Y$ be two [[topological spaces]]. Their [[chain homology]] complexes $C_\bullet(X)$ and $C_\bullet(Y)$ are the [[Moore complex]]es of the simplicial abelian groups $\mathbb{Z}[Sing X]$ and $\mathbb{Z}[Sing Y]$. So from the Dold-Puppe [[quasi-isomorphism]] $R$ from above we have a [[quasi-isomorphism]] from the [[singular cohomology]] of their [[product topological space]]
 
 $$
   \begin{aligned}
@@ -119,7 +119,7 @@ A weak version of the simplicial statement is in theorem 8.1.5 in
 
 The stronger version as stated above is in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
-* [[Paul Goerss|Goerss]]-Jardine, _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 The cosimplicial version of the theorem appears as theorem A.3 in
 
