@@ -145,6 +145,10 @@ A discussion of the history can be found in  ([BlackburnDeRijkeVenema, page 42](
 
 The usual algebraic semantics of modal logic is in terms of Boolean algebras with operators and is described in the entry [[algebraic models for modal logic]].
 
+### Relation to (co)monads
+
+Much of modal logic has been formalized in terms of [[monads (in computer science)]]. See at _[[modal type theory]]_ for more on this.
+
 ### Categorical semantics
  {#CategoricalSemantics}
 
