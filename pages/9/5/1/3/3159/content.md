@@ -100,6 +100,10 @@ Assuming the [[axiom of choice]], over a ring $R$ which is a [[principal ideal d
 
 See at [projective resolution -- Resolutions of length 1](projective+resolution#Lenght1ResolutionsOfAbelianGroups) for more.
 
+### Over a field: vector spaces
+
+Assuming the [[axiom of choice]], if $R = k$ is a [[field]] then every $R$-[[module]] is free: it is $k$-[[vector space]] and every such has a [[basis of a vector space|basis]]. 
+
 ## Related concepts
 
 * [[locally free module]]
