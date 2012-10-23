@@ -10,7 +10,7 @@ Entries on combinatorics and on various combinatorial objects in $n$Lab include:
 
 * [[graph]], [[quiver]]
 * [[matroid]], [[oriented matroid]]
-* [[permutation]], [baju anak murah](http://goo.gl/m9uNV)
+* [[permutation]]
 * [[symmetric function]], [[Schur functor]], [[Schur function]]
 * (combinatorial) [[species]]
 * [[game theory]]
