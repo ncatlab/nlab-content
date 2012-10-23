@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -10,7 +20,7 @@ For $k$ a [[field]] and $V$ a $k$-[[vector space]], a __basis__ for $V$ is a [[b
 
 ## Properties
 
-The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector space admits a basis.
+The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector space admits a basis, hence that every [[module]] over a [[field]] is a [[free module]].
 
 
 ## Related concepts
