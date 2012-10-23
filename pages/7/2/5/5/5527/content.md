@@ -727,7 +727,7 @@ A decent account is given in
 
 Another careful introduction is in section 3 of 
 
-* Brandon Williams, _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
+* [[Brandon Williams]], _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
 
 (though some subsections there remain unfinished).
 
