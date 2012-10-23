@@ -183,6 +183,8 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 * [[proximity space]], [[uniform space]], [[syntopogenous space]]
 
+* [[subspace topology]], [[product topological space]]
+
 ## References
 
 See at _[[topology]]_.
