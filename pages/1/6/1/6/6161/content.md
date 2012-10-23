@@ -290,7 +290,7 @@ This identifies the term on the right of the exact sequence to be shown.
 #### Over general rings
  {#OverGeneralRings}
 
-For $R$ any ring, there is the [[Künneth spectral sequence]] 
+For $R$ any ring, there is a [[spectral sequence]] converging to the homology of the tensor product, whose second page involves all the [[Tor]]-modules: the _[[Künneth spectral sequence]]_ 
 
 $$
   E_{p,q}^2 
