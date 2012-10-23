@@ -53,3 +53,5 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 [[!redirects contractible]]
 
 [[!redirects contractible topological space]]
+[[!redirects contractible topological spaces]]
+
