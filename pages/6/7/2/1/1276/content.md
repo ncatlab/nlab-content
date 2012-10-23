@@ -234,7 +234,12 @@ Saying that $M$ is flat says that this lift always occurs.
 
 Taking this a step further, we consider the [[filtered category|filtered family]] of all finite [[subsets]] of $M$.  This generates a filtered family of [[finitely generated module|finitely generated]] [[free modules]] with compatible morphisms to $M$.  So there is a morphism from the [[colimit]] of this family to $M$.  This morphism is [[surjection|surjective]] by construction.  To show that it is [[injection|injective]], we need to show that any element in one of the terms in the family that dies by the time it reaches $M$ has actually died on the way.  This is precisely what the above characterisation of flatness is saying: the element corresponding to $\sum_i a_i m_i$ that dies in $M$ is already dead by the time it reaches $E$.
 
-Hence a module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
+We have thus arrived at the following result: 
+
++-- {: .num_theorem #filtfree} 
+###### Theorem 
+A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
+=-- 
 
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
