@@ -19,7 +19,6 @@
   * [[Contributors]]
   * [[inbound citations|Inbound Citations]]
   * [Uploaded Files](http://ncatlab.org/nlab/file_list)
-  * [baju anak branded](http://goo.gl/m9uNV)
   * [[Sandbox|Sandbox]]
   * [All Webs](http://ncatlab.org/web_list)
 
