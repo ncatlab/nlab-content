@@ -25,10 +25,9 @@ of the map $E(X) \to E({*})$ induced from the point inclusion ${*} \to X$.
 
 ## Related entries
 
-See
+* [[reduced homology]]
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
 
-for a bit of context.
 
 [[!redirects reduced cohomology theory]]
