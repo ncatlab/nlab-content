@@ -152,6 +152,10 @@ Every [[category]] comes with its [[internal logic]]. Modal operators in this in
 
 Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for more details.
 
+## Related concepts
+
+* [[modal type theory]]
+
 ## References
 
 General books on modal logics include
@@ -167,7 +171,7 @@ and more particularly on epistemic logics and their applications,
 
 A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[type formation rules]] is in 
 
-* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of model logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  {#Pfenning-Davies}
 
 
