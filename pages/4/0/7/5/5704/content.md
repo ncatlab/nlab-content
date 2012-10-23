@@ -70,3 +70,6 @@ A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
 
 [[!redirects quotient locale]]
 [[!redirects quotient locales]]
+
+[[!redirects quotient topological space]]
+[[!redirects quotient topological spaces]]
