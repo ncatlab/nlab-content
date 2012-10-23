@@ -50,6 +50,44 @@ $$
 
 (...)
 
+## Examples
+
+### For singular homology
+
+For $X$ a [[topological space]], write $H_n(X)$ for its [[singular homology]] with integer coefficients.
+
+
++-- {: .num_example #ReducedHomologyOfPoints}
+###### Example
+
+If $X$ is a [[contractible topological space]], then for all $n \in \mathbb{N}$
+
+$$
+  \tilde H_n(X) \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .num_example #ReducedHomologyOf0Sphere}
+###### Example
+
+The reduced singular homology of the 0-[[sphere]] $S^0 \simeq {*} \coprod {*}$ is
+
+$$
+  \tilde H_n(S^0) \simeq 
+  \left\{
+    \array{
+       \mathbb{Z} & if \; n = 0
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$ 
+
+=--
+
 ## Related concepts
 
 * [[reduced cohomology]]
@@ -62,4 +100,5 @@ Reduced singular homology is discussed for instance around p. 119 of
 * [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
 
+[[!redirects reduced singular homology]]
 
