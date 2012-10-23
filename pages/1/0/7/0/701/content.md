@@ -54,3 +54,6 @@ The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] g
 [[!redirects idempotent operators]]
 [[!redirects idempotent morphism]]
 [[!redirects idempotent morphisms]]
+
+[[!redirects projector]]
+[[!redirects projectors]]
