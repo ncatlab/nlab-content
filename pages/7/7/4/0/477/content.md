@@ -48,6 +48,8 @@ Under the [[relation between category theory and type theory]] products in a cat
 
 * [[product of simplices]]
 
+* [[product topological space]]
+
 ## Related concepts
 
 * [[product type]]
