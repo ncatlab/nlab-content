@@ -1,6 +1,6 @@
 A **bijection** is an [[isomorphism]] in [[Set]].  
 
-Since [[Set]] is a [[balanced category]], [baju anak murah](http://goo.gl/m9uNV) bijections can also be characterized as functions which are both [[injection|injective]] ([[monomorphism|monic]]) and [[surjection|surjective]] ([[epimorphism|epic]]).
+Since [[Set]] is a [[balanced category]], bijections can also be characterized as functions which are both [[injection|injective]] ([[monomorphism|monic]]) and [[surjection|surjective]] ([[epimorphism|epic]]).
 
 
 [[!redirects bijective function]]
