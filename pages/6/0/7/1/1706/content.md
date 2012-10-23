@@ -351,6 +351,10 @@ Lecture notes on the topic of the cobordisms hypothesis include
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+Another review is in 
+
+* [[Dan Freed]], _The cobordism hypothesis_ ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
+
 Cobordisms with geometric structure are discussed in
 
 * [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
