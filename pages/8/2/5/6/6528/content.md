@@ -259,7 +259,7 @@ Methods of algebraic geometry were introduced in
 
 * M. F. Atiyah, R. S. Ward, _Instantons and algebraic geometry_, Comm. Math. Phys. __55__, n. 2 (1977), 117-124, [MR0494098](http://www.ams.org/mathscinet-getitem?mr=0494098), [euclid](http://projecteuclid.org/euclid.cmp/1103900980)
 
-The more general ADHM method in terms of linear algebra of vector bundles on projective varieties is proposed in 
+The more general [[ADHM construction]] in terms of linear algebra of vector bundles on projective varieties is proposed in 
 
 * M.F. Atiyah, N.J. Hitchin, V.G. Drinfeld, Yu.I. Manin, _Construction of instantons_, Physics Letters 65 A, 3, 185--187 (1978) [pdf](http://www.new.ox.ac.uk/system/files/ADHM.pdf)
 
