@@ -29,3 +29,10 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 [[!redirects subspace topology]]
 [[!redirects subspace topologies]]
+
+[[!redirects topological subspace]]
+[[!redirects topological subspaces]]
+
+[[!redirects subspace of a topological space]]
+[[!redirects subspaces of a topological space]]
+
