@@ -88,4 +88,10 @@ The corresponding [[spectral sequence of a filtered complex]] converges to the c
 
 ## References
 
-*  [[Alan Hatcher]], [Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/AT.pdf), Cambridge Univ. Press 2002, starting p. 139
+A standard textbook account is from p. 139 on in 
+
+*  [[Alan Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press 2002, 
+
+Lecture notes include
+
+* Lisa Jeffrey, _Homology of CW-complexes and Cellular homology_ ([pdf](http://www.math.toronto.edu/~mat1300/oldnotes/cellular-homology.pdf))
