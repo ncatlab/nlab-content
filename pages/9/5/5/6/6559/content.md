@@ -41,6 +41,6 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
   * [[BPTS instanton]]
 
-  * [[instanton in QCD]]
+  * [[instanton in QCD]], [[QCD vacuum]]
 
 [[!redirects vacua]]
