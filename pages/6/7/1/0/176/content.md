@@ -430,7 +430,7 @@ as [[FQFT]] -- representations of [[cobordism categories]] for cobordisms equipp
 
 See also
 
-* Richard Blute, Prakash Panangaden, [[Dorette Pronk]], _Conformal field theory as a nuclear functor_ GDP Festschrift ([pdf](http://aix1.uottawa.ca/~rblute/conf.pdf))
+* [[Richard Blute]], [[Prakash Panangaden]], [[Dorette Pronk]], _Conformal field theory as a nuclear functor_ GDP Festschrift ([pdf](http://aix1.uottawa.ca/~rblute/conf.pdf))
 
 Tentative ideas about a refinement of this to _extended_ ([[2-functor|2-functorial]] CFT) have famously been sketched in 
 
