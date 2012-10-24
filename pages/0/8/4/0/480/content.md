@@ -104,3 +104,10 @@ Section A1.4 of
 
 [[!redirects coherent categories]]
 
+[[!redirects pre-logos]]
+[[!redirects pre-logoses]]
+[[!redirects pre-logoi]]
+
+[[!redirects prelogos]]
+[[!redirects prelogoses]]
+[[!redirects prelogoi]]
