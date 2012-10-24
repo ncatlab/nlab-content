@@ -4,3 +4,4 @@
 * [webpage](http://www.math.mcgill.ca/rags/)
 
 category: people
+[[!redirects R.A.G.Seely]]
