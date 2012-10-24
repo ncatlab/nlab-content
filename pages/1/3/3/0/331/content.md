@@ -70,6 +70,7 @@ A __logic__ is a specific method of reasoning.  There are several ways to formal
       * [[the logic S5(m)]]
    * [[frame (modal logic)]]
    * [[geometric models for modal logics]]
+   * [[modal type theory]]
    * [[temporal logic]]     
 * [[negation]]
 * [[Peirce's law]]
