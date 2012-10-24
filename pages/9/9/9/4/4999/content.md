@@ -159,6 +159,18 @@ that is the formula $(\psi_0\to (\psi_1\to (\ldots \to (\psi_m\to \phi)\ldots)$ 
 
 As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions for a logic and any intersection of logics is itself also a logic, we have that given a set of formulae decreed to be 'axioms' for a logic, there is a smallest modal logic containing them.
  
+## Examples
+ {#Examples}
+
+* [[epistemic logic]]
+
+  * [[the logic K(m)|K(m)]];
+
+  * [[the logic T(m)|T(m)]];
+
+  * [[the logic S4(m)|S4(m)]];
+
+  * [[the logic S5(m)|S5(m)]].
  
 
 ## Semantics
