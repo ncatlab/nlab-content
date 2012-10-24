@@ -172,6 +172,15 @@ As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions f
 
   * [[the logic S5(m)|S5(m)]].
  
+* [[temporal logic]];
+
+
+
+*  [[dynamic logic]];
+
+*  [[arrow structures|arrow logic]];
+
+*  [[provability logics]]
 
 ## Semantics
 
