@@ -507,7 +507,7 @@ The ordinary case of modules over rings is phrased
 in terms of stabilized overcategories by the following
 observation, wich apparently goes back to [[Daniel Quillen]].
 
-+-- {: .num_prop }
++-- {: .num_prop #Square0ExtensionsOfRingsAreAbelianSliceObjectsAreModules}
 ###### Proposition
 
 Let $R \in CRing$ be a commutative [[ring]]. Then there is a canonical [[equivalence of categories|equivalence]] between the [[category]] $R Mod$ of $R$-modules and the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] of $CRing$ over $R$
@@ -538,7 +538,7 @@ $$
   \,.
 $$
 
-This diagram identifies $K$ with a ring of the form $R \oplus ker(p)$ in which for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
+This diagram identifies $K$ with a ring whose underlying [[abelian group]] is the [[direct sum]] $R \oplus ker(p)$ of some ring $R$ with the [[kernel]] of $p$ such that for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
 
 The [[product]] of $R \oplus N \to R$ with itself in the [[overcategory]] is the [[fiber product]] over $R$ in the original category, hence is $R \oplus N \oplus N$.
 
@@ -555,7 +555,7 @@ $$
   \,.
 $$
 
-With the above unit, the unit axiom on this operation says that this morphism is 
+With the above unit, the unit axiom on this operation together with the fact that the top morphism is a ring homomorohisms says that this morphism is 
 
 $$
     R \oplus N \oplus N \stackrel{Id \oplus (Id + Id)}{\to}
@@ -571,6 +571,52 @@ This says that $R \oplus N$ is a square-0 extension of $R$. Conversely, for ever
 
 For instance the square-0-extension of a ring $R$ corresponding to the canonical $R$-module structure on $R$ itself is the [[ring of dual numbers]] for $R$. 
 
+#### Modules over a group
+ {#ModulesOverAGroupInTermsOfStabilizedOvercategories}
+
+Let $G$ be a [[group]]. Taking together the above desriptions
+
+1. of [Modules over a group as modules over the group ring](#AbelianGroupsWithGAction)
+
+1. of [Modules over a ring as stabilized overcategories](#ModulesOverARingInTermsOfStabilizedSlices) 
+
+one finds:
+
++-- {: .num_prop }
+###### Proposition
+
+The [[category]] of $G$-modules is [[equivalence of categories|equivalent]] to the category of [[abelian group objects]] in the [[slice]] of [[Ring]] over the [[group ring]]
+
+$$
+  G Mod \simeq Ab(Ring_{/\mathbb{Z}[G]})
+  \,.
+$$
+
+=--
+
+But there is also a more direct characterization along these lines, not involving the auxiliary construction of group rings.
+
++-- {: .num_prop }
+###### Proposition
+
+The [[category]] of $G$-modules is equivalent to the category of [[abelian group objects]] in the [[slice category]] of [[groups]] over $G$
+
+$$
+  G Mod \simeq Ab(Grp_{/G})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is analogous to that of prop. \ref{Square0ExtensionsOfRingsAreAbelianSliceObjectsAreModules}. 
+One checks that a group homomorphism $\hat G \to G$ with the structure of an abelian group object over $G$ is a [[central extension]] of $G$ by some [[abelian group]] $A$ which more over is a split extension (the is the neutral element of the abelian group object) and hence is a [[semidirect product group]] $\hat G \simeq G \ltimes A$. By the discussion there these are equivalently given by [[actions]] of $G$ on $A$ by group [[automorphisms]]. This is precisely what it means for $A$ to carry a $G$-module structure.
+
+=--
+
+This construction generalizes to [[∞-groups]]. See at _[[∞-action]]_ the section _[∞-action -- G-modules](infinity-action#GModules)_.
 
 #### Modules over a simplicial ring 
  {#SimpRings}
