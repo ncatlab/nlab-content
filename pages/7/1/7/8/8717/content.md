@@ -1,0 +1,7 @@
+[[!redirects J.R.B. Cockett]]
+Robin Cockett is a computer scientist based in Calgary.
+
+
+* [home page](http://pages.cpsc.ucalgary.ca/~robin/)
+
+category:people
