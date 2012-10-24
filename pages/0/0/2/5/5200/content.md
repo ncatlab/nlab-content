@@ -66,3 +66,4 @@ General books on modal logics which treat  these logics thoroughly in the genera
 
 [[!redirects the logic S4(m)]]
 [[!redirects S4(m)]]
+[[!redirects S4 modal logic]]
