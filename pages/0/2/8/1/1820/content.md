@@ -245,7 +245,7 @@ which shows that $f$ is a retract of an element in $cell(J) \subset cof(J)$, hen
 
 And the converse statement is immediate: by definition $J \subset cof(I) \cap W$ and $cof(J)$ is the saturation of $J$ under the operation of forming retracts of transfinite compositions of pushouts of elements of $J$, under which $cof(I) \cap W$ is assumed to be closed.
 
-In total we have indeed $cof(J) = cof(I) \cap W$ which shows that the $I$ and $W$ given to determine a combinatorial model category.
+In total we have indeed $cof(J) = cof(I) \cap W$ which shows that the $I$ and $W$ given determine a combinatorial model category.
 
 To see the converse, that every combinatorial model structure arises this way, it is sufficient to show that for every combinatorial model category the category $Arr_W(C) \subset Arr(C)$ is an [[accessible category]]. 
 
@@ -302,7 +302,7 @@ By general properties of [[accessible categories]] (see there) the full inverse 
 ### Dugger's theorem 
  {#DuggerTheorem} 
 
-The followign theorem is precisely the model-category theory version of the statement that every [[locally presentable (∞,1)-category]] arises as the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]].
+The following theorem is precisely the model-category theory version of the statement that every [[locally presentable (∞,1)-category]] arises as the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]].
 
 +-- {: .num_theorem }
 ###### Theorem 
@@ -446,9 +446,9 @@ $$
   \,.
 $$
 
-It remains to show that the second morphism is a weak equivalence. But by our factroization and by [[category with weak equivalences|2-out-of-3]] applied to our comoponentwise weak equivalences, we have that all its components $H(j) \to G(j)$ are acyclic fibrations .
+It remains to show that the second morphism is a weak equivalence. But by our factorization and by [[category with weak equivalences|2-out-of-3]] applied to our componentwise weak equivalences, we have that all its components $H(j) \to G(j)$ are acyclic fibrations.
 
-At [[small object]] is is described in detail how $\kappa$-smallness of an object $X$ implies that morphisms from $X$ into a $\kappa$-filtered colimit lift to some component of the colimit
+At [[small object]] it is described in detail how $\kappa$-smallness of an object $X$ implies that morphisms from $X$ into a $\kappa$-filtered colimit lift to some component of the colimit
 
 $$
   \array{
@@ -522,11 +522,11 @@ Basic examples are
 
 * [[sSet]] with the Joyal-[[model structure for quasi-categories]];
 
-  notice that this is not directy a [[simplicial model category]], but is enriched over itself. A Quillen equivalent combinatorial simplicial model category is
+  notice that this is not directly a [[simplicial model category]], but is enriched over itself. A Quillen equivalent combinatorial simplicial model category is
 
   * the [[model structure for Cartesian fibrations]] over the point.
 
-* the category of [[dendroidal set]]s with its [[model structure on dendroidal sets]]
+* the category of [[dendroidal set]]s with its [[model structure on dendroidal sets]].
 
 * the categories of $(n,r)$-[[Theta space]]s.
 
@@ -540,7 +540,7 @@ Further classes of examples are obtained from such basic examples by localizing 
 
 * For $V$ a combinatorial model category and $C$ a [[small category]] the injective and projective [[model structure on functors]] $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ are again combinatorial model categories. See there for details.
 
-* If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all left Bousfield localizations $L_S Funt(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
+* If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all left Bousfield localizations $L_S Funct(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
 
 
 ### From cofibrantly generated model categories 
