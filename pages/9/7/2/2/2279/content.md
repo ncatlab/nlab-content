@@ -50,3 +50,6 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 * [[Michael Shulman]], _[[michaelshulman:n-topos for large n]]_ .
 
+[[!redirects higher topos]]
+[[!redirects higher toposes]]
+[[!redirects higher topoi]]
