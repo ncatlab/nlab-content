@@ -29,3 +29,7 @@ Any [[topos]], and in fact any [[well-powered category|well-powered]] [[infinita
 [[!redirects Heyting functor]]
 [[!redirects Heyting categories]]
 [[!redirects Heyting functors]]
+
+[[!redirects logos]]
+[[!redirects logoses]]
+[[!redirects logoi]]
