@@ -172,7 +172,7 @@ The [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp_{top}$ is discussed at _[[ETop�
 
 In secton 2 of 
 
-* R. Blute, J. Cocket, [[Robert Seely]], _Cartesian dofferential categories_, Theory and Applications of Categories, Vol. 22, 2009, No. 23, pp 622-672. ([journal](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf))
+* [[R. Blute]], [[J.R.B. Cockett]], [[Robert Seely]], _Cartesian differential categories_, Theory and Applications of Categories, Vol. 22, 2009, No. 23, pp 622-672. ([journal](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf))
 
 $CartSp$ is discussed as an example of a "cartesian differential category".
 
