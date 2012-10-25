@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Regular and Exact categories
++-- {: .hide}
+[[!include regular and exact categories - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # Arity classes
 * table of contents
 {: toc}
