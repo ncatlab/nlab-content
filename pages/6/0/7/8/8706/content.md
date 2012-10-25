@@ -90,10 +90,11 @@ $$
 ## Properties
 
 ### Relation to ordinary homology
+ {#RelationToOrdinaryHomology}
 
 Let $X$ be a [[topological space]], $H_\bullet(X)$ its [[singular homology]] and $\tilde H_\bullet(X)$ its reduced singular homology, def. \ref{ReducedSingularChainComplex}.
 
-+-- {: .num_prop}
++-- {: .num_prop #RelationBetweenReducedSingularAndSingular}
 ###### Proposition
 
 For $n \in \mathbb{N}$ there is an [[isomorphism]]
@@ -141,7 +142,7 @@ is [[split exact sequence|split]] (as discussed there) and hence $H_0(X) \simeq 
 For $X = *$ the [[point]], the morphism
 
 $$
-  H_0(\epsilon) H_0(X) \to \mathbb{Z}
+  H_0(\epsilon) \colon H_0(X) \to \mathbb{Z}
 $$
 
 is an [[isomorphism]]. Accordingly the reduced homology of the point vanishes in every degree:
@@ -176,10 +177,120 @@ Moreover, it is clear that $\epsilon \colon C_0(*) \to \mathbb{Z}$ is the [[iden
 
 
 ### Relation to relative homology
+ {#RelationToRelativeHomology}
 
-For "good" inclusions $A \hookrightarrow X$ of topological space, the reduced singular homology of the quotient $X/A$ is isomorphic to the $A$-[[relative singular homology]] of $X$. 
++-- {: .num_prop}
+###### Proposition
+
+For $X$ an [[inhabited set|inhabited]] [[topological space]], its reduced singular homology, def. \ref{ReducedSingularChainComplex}, coincides with its [[relative singular homology]] relative to any base point $x \colon * \to X$:
+
+$$
+  \tilde H_\bullet(X)
+  \simeq
+   H_\bullet(X,*)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the sequence of [[topological subspace]] inclusions
+
+$$
+  \emptyset \hookrightarrow * \stackrel{x}{\hookrightarrow} X
+  \,.
+$$
+
+By the discussion at _[Relative homology - long exact sequences](relative%20homology#LongExactSequences)_ this idunces a [[long exact sequence]] of the form
+
+$$
+  \cdots
+  \to
+  H_{n+1}(*) \to H_{n+1}(X) \to H_{n+1}(X,*)
+  \to
+  H_n(*) \to H_n(X) \to H_n(X,*)
+  \to 
+  \cdots
+  \to 
+  H_1(X) \to H_1(X,*) \to  H_0(*) \stackrel{H_0(x)}{\to}  H_0(X) \to H_n(X,*)
+  \to 0
+  \,.
+$$
+
+Here in positive degrees we have $H_n(*) \simeq 0$ and therefore [[exact sequence|exactness]] gives [[isomorphisms]]
+
+$$
+  H_n(X) \stackrel{\simeq}{\to} H_n(X,*)\;\; \forall_{n \geq 1}
+$$
+
+and hence with prop. \ref{RelationBetweenReducedSingularAndSingular} isomorphisms
+
+$$
+  \tilde H_n(X) \stackrel{\simeq}{\to} H_n(X,*)\;\; \forall_{n \geq 1}  
+  \,.
+$$
+
+It remains to deal with the case in degree 0. To that end, observe that $H_0(x) \colon H_0(*) \to H_0(X)$ is a [[monomorphism]]: for this notice that we have a [[commuting diagram]]
+
+$$
+  \array{
+     H_0(*) &\stackrel{id}{\to}& H_0(*)
+     \\
+     {}^{\mathllap{H_0(x)}}\downarrow &{}^{\mathllap{H_0(f)}}\nearrow& \downarrow^{\mathrlap{H_0(\epsilon)}}_\simeq
+     \\
+     H_0(X) &\stackrel{H_0(\epsilon)}{\to}& \mathbb{Z}
+  }
+  \,,
+$$
+
+where $f \colon X \to *$ is the terminal map. 
+That the outer square commutes means that $H_0(\epsilon) \circ H_0(x) = H_0(\epsilon)$ and hence the composite on the left is an [[isomorphism]]. This implies that $H_0(x)$ is an injection.
+
+Therefore we have a [[short exact sequence]] as shown in the top of this diagram
+
+$$
+  \array{
+    0 &\to& H_0(*) &\stackrel{H_0(i)}{\hookrightarrow}&
+    H_0(X) &\stackrel{}{\to}& H_0(X,*)
+    &\to&
+    0
+    \\
+    && & {}_{\mathllap{\simeq}}\searrow & \downarrow^{\mathrlap{H_0(\epsilon)}} & 
+   \\
+   && && \mathbb{Z}
+  }
+  \,.
+$$
+
+Using this we finally compute
+
+$$
+  \begin{aligned}
+    \tilde H_0(X)
+    & \coloneqq 
+    ker H_0(\epsilon)
+    \\
+    & \simeq coker( H_0(x) )
+    \\
+    & \simeq H_0(X,*)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+Moreover, for "good" inclusions $A \hookrightarrow X$ of topological space, the reduced singular homology of the quotient $X/A$ is isomorphic to the $A$-[[relative singular homology]] of $X$. 
 
 See at _[Relative homology - Relation to reduced homology of quotient topological spaces](relative+homology#RelationToQuotientTopologicalSpaces)_.
+
+=--
 
 ### Relation to wedge sums
  {#RelationToWedgeSums}
