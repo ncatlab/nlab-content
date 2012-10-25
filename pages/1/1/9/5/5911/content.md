@@ -17,9 +17,9 @@
 
 An **infinitary [[coherent category]]** or **geometric category** is a [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].
 
-More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-geometric category_ is a [[regular category]] with unions for $\kappa$-small families of [[subobjects]], stable under pullback. (For $\kappa = \omega$ this reduces to the notion of _[[coherent category]]_.)
+More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-geometric category_, or _$\kappa$-coherent category_, is a [[regular category]] with unions for $\kappa$-small families of [[subobjects]], stable under pullback. (For $\kappa = \omega$ this reduces to the notion of _[[coherent category]]_, called a _pre-logos_ by Freyd--Scedrov.)
 
-[Makkai-Reyes](#MakkaiReyes) called this a _$\kappa$-[[logical category]]_ and Freyd-Scedrov called it a _[[pre-logos]]_. See also ([Butz-Johnstone, p. 12](#ButzJohnstone)).
+[Makkai-Reyes](#MakkaiReyes) call this a _$\kappa$-[[logical category]]_, while [Shulman](#Shulman) calls it a _$\kappa$-[[k-ary regular category|ary regular category]]_.  See also ([Butz-Johnstone, p. 12](#ButzJohnstone)).
 
 ## Properties
 
@@ -51,11 +51,14 @@ Around lemma A1.4.18 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-* [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_, Lecture Notes in Math. 611 (Springer{Verlag, 1977).
+* [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_, Lecture Notes in Math. 611 (Springer-Verlag, 1977).
  {#MakkaiReyes}
 
 * Casten Butz, [[Peter Johnstone]], _Classifying toposes for first order theories_, BRICS Report Series RS-97-20
  {#ButzJohnstone}
+
+* [[Mike Shulman]], _Exact completions and small sheaves_, TAC 27(7), 2012 ([link](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)).
+  {#Shulman}
 
 [[!redirects geometric category]]
 [[!redirects geometric categories]]
