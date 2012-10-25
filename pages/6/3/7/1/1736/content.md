@@ -32,9 +32,9 @@ $$
 
 be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
 
-Write $h C$ and $h D$ for the corresponding [[homotopy category|homotopy categories]].
+Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category|homotopy categories]].
 
-Notice that $h C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then inverting weak equivalences, and $F$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor $\mathbb{L} : h C \to h D$ between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : h D \to h C$.
+Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then inverting weak equivalences, and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor $\mathbb{L} : Ho C \to Ho D$ between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
 
 The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
 
