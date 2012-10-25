@@ -73,3 +73,6 @@ One can even extend this into the realm not just of provability, but furthermore
 * [[tripos]]
 
 [[!redirects first-order hyperdoctrines]]
+
+[[!redirects first-order hyperdoctrine with equality]]
+[[!redirects first-order hyperdoctrines with equality]]
