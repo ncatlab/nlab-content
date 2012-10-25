@@ -314,7 +314,7 @@ and the possibility of an analogue of covering spaces in
 
 [[Philippe Gaucher]] ([[PPS]], Paris) has introduced an interesting related model, namely that of 'flows'.  These are, approximately, topological categories without identity arrows.  They are intended as another model of processes. One of his papers on this idea is at [Arxiv](http://arxiv.org/abs/math/0308054v1), published as 
 
-*  Philippe Gaucher, A model category for the homotopy theory of concurrency, Homology Homotopy and Applications, vol. 5 (1):p.549-599, 2003.
+*  [[Philippe Gaucher]], A model category for the homotopy theory of concurrency, Homology Homotopy and Applications, vol. 5 (1):p.549-599, 2003.
 
 
 
