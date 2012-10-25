@@ -35,7 +35,7 @@ I am also very interested in directed homotopy theory and the application of ide
 
 See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 10 chapters of the Menagerie.
 
-Other goodies there include parts of a draft monograph on [[profinite homotopical algebra]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are links to notes for the Lisbon school and workshop on Higher Gauge Theory etc.,  (Feb. 2011). There are also some lecture notes from lectures in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
+Other goodies there include parts of a draft monograph on [[profinite algebraic homotopy]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are links to notes for the Lisbon school and workshop on Higher Gauge Theory etc.,  (Feb. 2011). There are also some lecture notes from lectures in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
 
 I have also put the start of a brief discussion of the relationships between the Cech and Vietoris methods and the newly developed methods of Topological Data Analysis.
 
@@ -52,7 +52,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 * _$\mathcal{S}$-categories, $\mathcal{S}$-groupoids, Segal categories and quasicategories_ The notes were prepared for a series of talks that I gave in Hagen in late June and early July 2003, and, with some changes, in the University of La Laguna, the Canary Islands, in September, 2003.
 
-*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  This is likely to be published, so this is an incomplete version. (At present count the full version will have more than 500 pages.)
+*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  Hopefully, this is likely to be published, so this is an incomplete version. (At present count the full version will probably have more than 700 pages.)
 
 category: people
 
