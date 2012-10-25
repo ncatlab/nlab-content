@@ -180,9 +180,21 @@ A [[topological subspace]] inclusion $A \hookrightarrow X$ is called a **good pa
 
 1. $A$ is [[closed subset|closed]] inside $X$;
 
-1. $A$ has a [[neighbourhood]] in $X$ which is a [[deformation retract]] of $X$.
+1. $A$ has an [[neighbourhood]] in $X$ which is a [[deformation retract]] of $A$.
 
 =--
+
++-- {: .num_example }
+###### Example
+
+For $X$ a [[CW complex]], the inclusion of any subcomplex $X' \hookrightarrow X$ is a good pair.
+
+=--
+
+This is discussed at  _[CW complex -- Subcomplexes](CW+complex#Subcomplexes)_.
+
+
+
 
 +-- {: .num_prop #HomologyOfQuotientSpace}
 ###### Proposition
