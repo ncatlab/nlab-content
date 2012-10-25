@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,6 +26,8 @@ These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+
 ## Related entries
 
 * [[string theory results applied elsewhere]]
+
+* [[duality in physics]]
 
 ## References
 
