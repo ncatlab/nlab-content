@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
@@ -13,7 +17,7 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 ### For pointed sets
 
@@ -21,4 +25,38 @@ The __wedge sum__ $A \vee B$ of two [[pointed set]]s $A$ and $B$ is the [[quotie
 
 ### For general pointed objects
 
-The wedge sum can be defined for [[pointed object]]s in any category $C$ with [[pushout]]s, and is the [[coproduct]] in the category of pointed objects in $C$.  A very commonly used case is when $C=$[[Top]] is a category of [[topological space]]s.  The wedge sum also makes sense for any family of pointed objects, not just for two of them.
+The wedge sum can be defined for [[pointed object]]s in any category $C$ with [[pushouts]], and is the [[coproduct]] in the category of pointed objects in $C$.  A very commonly used case is when $C=$[[Top]] is a category of [[topological spaces]].  The wedge sum also makes sense for any family of pointed objects, not just for two of them.
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] with [[colimits]], their _wedge sum_ $\vee_i X_i$ is the [[pushout]]
+
+$$
+  \vee_i X_i \coloneqq (\coprod_i X_i) \coprod_{\coprod_{i} *} *
+$$
+
+in 
+
+$$
+  \array{
+     \coprod_{i} * &\stackrel{(x_i)}{\to}& \coprod_i X_i
+     \\
+     \downarrow && \downarrow
+     \\
+     * &\to& \vee_i X_i
+  }
+$$
+
+=--
+
+## Examples
+
+* A wedge sum of pointed [[circles]] is also called a **bouquet** of circles. See for instance at _[[Nielsen-Schreier theorem]]_.
+
+* For $X$ a [[CW complex]] with [[filtered topological space]] structure $X_0 \hookrightarrow \cdots \hookrightarrow \X_k \hookrightarrow X_{k+1} \hookrightarrow \cdots \hookrightarrow X$ the quotient topological spaces $X_{k+1}/X_k$ are wedge sums of $(k+1)$-spheres.
+
+
+[[!redirects wedge sums]]
