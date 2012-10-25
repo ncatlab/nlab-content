@@ -143,6 +143,7 @@ If $(E_r)$ collapses at $r$, then it converges to $H^\bullet$ with $H^n$ being t
 (...)
 
 ## Examples
+ {#Examples}
 
 The basic class of examples are
 
@@ -162,7 +163,9 @@ From this in turn one obtains as a special case the class of
 
 which compute the [[derived functor]] $\mathbb{R}^\bullet(G \circ F (-))$ of the composite of two functors from the spectral sequence of the double complex $\mathbb{R}^\bullet (F (\mathbb{R}^\bullet G (-)))$.
 
-Many special cases of this for various choices of $F$ and $G$ go by special names, see at _[List of examples](#ListOfExamples)_.
+Many special cases of this for various choices of $F$ and $G$ go by special names, this we tabulate at
+
+* _[List of examples](#ListOfExamples)_.
 
 
 
