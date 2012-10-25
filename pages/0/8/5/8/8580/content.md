@@ -35,13 +35,9 @@
 
 1. [Principal bundles](#PrincipalBundles)
 
-1. [Actions, Representations, and Associated bundles](#AssociatedNBundle)
+1. [Representations and Associated bundles](#AssociatedNBundle)
 
 1. [Manifolds](#Manifolds)
-
-1. [G-Structure](#GStructure)
-
-1. [Riemannian geometry](#RiemannianGeometry)
 
 1. [Integration](#Integration)
 
@@ -51,7 +47,20 @@
 
 1. [Maurer-Cartan forms](#MaurerCartanForms)
 
-1. (...)
+1. [Circle-principal connections](#CirclePrincipalConnections)
+
+1. [Integration](#Integration)
+
+1. [Characteristic classes](#CharacteristicClasses)
+
+1. [Principal connections](#PrincipalConnections)
+
+1. [Chern-Simons-type gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+
+1. [Geometric quantization](#GeometricQuantization)
+
+1. [Super-geometry and Fermions](#SupergeometricCoordinateSystems)
+
 
 #Contents#
 * table of contents
@@ -2266,7 +2275,10 @@ In this [Syntactic Layer](#LayerSyn) we discuss the two further aspects that the
 
 (...)
 
-#### Natural deduction rules for dependent product types
+
+#### Type theory of a topos
+
+##### Natural deduction rules for dependent product types
  {#NaturalDeductionForDependentProduct}
 
 [[!include dependent product natural deduction - table]]
@@ -2275,13 +2287,11 @@ In the special case that $A$ does not actually deopend on $X$:
 
 [[!include function type natural deduction - table]]
 
-#### Internal logic of a topos
+##### Internal logic of a topos
 
 What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (infinity,1)-category|(-1)-truncated objects]] in [[slice categories]], hence of [[monomorphisms]] regarded as objects of slice categories.
 
 (...)
-
-#### The type of propositions
 
 * [[propositions as types]], [[programs as proofs]]
 
@@ -2289,7 +2299,15 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 
 * [[type of propositions]]
 
-#### Cohesive modality I: Sharp types
+#### Modal type theory
+
+##### Modalities
+
+* [[modal logic]], [[modal type theory]]
+
+* [[monad (in computer science)]]
+
+##### Sharp modality and Codiscrete types
 
 +-- {: .num_defn #SharpModalityOfLocalTopos}
 ###### Definition
@@ -4515,6 +4533,108 @@ and the right square is a [[pullback]]
 
 * [[simplicial principal bundle]]
 
+#### Reduction of structure group
+
+$$
+  \mathbf{B}G \to \mathbf{B}K
+$$
+
+given a $K$-[[principal bundle]]
+
+$$
+  \array{
+    \tilde X &\to &\mathbf{B}K
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+a [[reduction of the structure group]] along $G \to K$ is
+
+$$
+  \array{
+    \tilde X &&\to&& \mathbf{B}G
+    \\
+    & \searrow &\swArrow_{e}& \swarrow
+    \\
+    && \mathbf{B}K
+  }
+$$
+
+##### Vielbein, orthogonal structure, Riemannian geometry
+ {#RiemannianGeometry}
+
+* [[vielbein]], [[orthogonal structure]]
+
+[[reduction of the structure group]] along
+
+$\mathbf{B}O(n) \to \mathbf{B}GL(n)$
+
+$$
+  \array{
+    \tilde X &&\to&& \mathbf{B}O(n)
+    \\
+    & {}_{\mathllap{\vdash T \Sigma}}\searrow &\swArrow_{e}& \swarrow
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+$e$ is [[vielbein]]: definition of an [[orthonormal frame]]
+at each point
+
+###### Electromagnetism in gravitational background
+
+example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
+
+[[Einstein-Maxwell theory]]
+
+##### Almost complex structure
+
+* [[almost complex structure]]
+
+##### Almost Hermitean structure
+
+* [[almost Hermitean structure]]
+
+##### Almost symplectic structure
+
+* [[almost symplectic structure]]
+
+##### Metaplectic structure
+
+* [[metaplectic structure]]
+
+##### Metalinear structure
+
+* [[metalinear structure]]
+
+#### Generalized complex geometry
+
+* [[generalized complex geometry]]
+
+#### Type II geometry
+
+* [[type II geometry]]
+
+#### Generalized Calabi-Yau structure
+
+* [[generalized Calabi-Yau manifold]]
+
+##### Exceptional generalized geometry
+
+* [[exceptional generalized geometry]]
+
+##### Spin structure, String structure, Fivebrane structure
+
+* [[spin structure]]
+
+* [[string structure]]
+
+* [[fivebrane structure]]
+
 
 ### Semantic Layer
 
@@ -4532,7 +4652,7 @@ and the right square is a [[pullback]]
 
 
 
-## **Actions, representations and associated bundles**
+## **Representations and Associated bundles**
  {#AssociatedNBundle}
 
 ### Model Layer
@@ -4540,6 +4660,39 @@ and the right square is a [[pullback]]
 #### Actions
 
 * [[action]]
+
+
+#### Spin geometry
+
+* [[spin group]]
+
+* [[spin representation]]
+
+
+
+$$
+  \array{
+    V &\to& V \sslash Spin
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}Spin
+  }
+$$
+
+* [[spinor bundle]]
+
+* [[spinor]]
+
+$$
+  \array{
+    X &&\stackrel{\psi}{\to}&& V \sslash Spin
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}Spin
+  }
+$$
 
 #### Associated bundle
 
@@ -4754,230 +4907,6 @@ An object $X$ that admits a $V$-atlas we call a **$V$-[[manifold]]**.
 
 ### Syntactic Layer
 
-
-
-
-
-## **$G$-Structure**
- {#GStructure}
-
-### Model Layer
-
-#### Reduction of structure group
-
-$$
-  \mathbf{B}G \to \mathbf{B}K
-$$
-
-given a $K$-[[principal bundle]]
-
-$$
-  \array{
-    \tilde X &\to &\mathbf{B}K
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    X
-  }
-$$
-
-a [[reduction of the structure group]] along $G \to K$ is
-
-$$
-  \array{
-    \tilde X &&\to&& \mathbf{B}G
-    \\
-    & \searrow &\swArrow_{e}& \swarrow
-    \\
-    && \mathbf{B}K
-  }
-$$
-
-#### Vielbein, orthogonal structure
-
-* [[vielbein]], [[orthogonal structure]]
-
-#### Almost complex structure
-
-* [[almost complex structure]]
-
-#### Almost Hermitean structure
-
-* [[almost Hermitean structure]]
-
-#### Almost symplectic structure
-
-* [[almost symplectic structure]]
-
-#### Metaplectic structure
-
-* [[metaplectic structure]]
-
-#### Metalinear structure
-
-* [[metalinear structure]]
-
-#### Generalized complex geometry
-
-* [[generalized complex geometry]]
-
-#### Type II geometry
-
-* [[type II geometry]]
-
-#### Generalized Calabi-Yau structure
-
-* [[generalized Calabi-Yau manifold]]
-
-#### Exceptional generalized geometry
-
-* [[exceptional generalized geometry]]
-
-#### Spin structure, String structure, Fivebrane structure
-
-* [[spin structure]]
-
-* [[string structure]]
-
-* [[fivebrane structure]]
-
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
-
-
-## **Riemannian geometry**
- {#RiemannianGeometry}
-
-### Model Layer
-
-
-[[reduction of the structure group]] along
-
-$\mathbf{B}O(n) \to \mathbf{B}GL(n)$
-
-$$
-  \array{
-    \tilde X &&\to&& \mathbf{B}O(n)
-    \\
-    & {}_{\mathllap{\vdash T \Sigma}}\searrow &\swArrow_{e}& \swarrow
-    \\
-    && \mathbf{B}GL(n)
-  }
-$$
-
-$e$ is [[vielbein]]: definition of an [[orthonormal frame]]
-at each point
-
-example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
-
-[[Einstein-Maxwell theory]]
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
-
-## **Integration**
- {#Integration}
-
-### Model Layer
-
-#### Integration
-
-##### Integration of differential forms
-
-$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
-
-[[integration of differential forms]] is map of smooth spaces
-
-$$
-  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
-$$
-
-over a [[coordinate chart]] $U$ this sends
-
-$$
-  \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
-  \,.
-$$
-
-##### Integration in ordinary differential cohomology
-
-* [[fiber integration in ordinary differential cohomology]]
-
-##### Lie integration
-
-* [[Lie integration]]
-
-#### Transgression
-
-##### Transgression of differential forms
-
-[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
-
-$$
-  \int_\Sigma [\Sigma,-]
-  : 
-  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
-$$
-
-$$
-  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
-$$
-
-to
-
-$$
-  \int_{\Sigma} [\Sigma,\omega]
-   :
-  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
-$$
-
-for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
-
-$$
-  \int_{S^1} [S^1, A]
-  : 
-  [S^1, X]
-    \stackrel{[S^1, A]}{\to}
-  [S^1 , \Omega^1]
-    \stackrel{\int_{S^1}}{\to}
-  \Omega^0(-)
-  = 
-  \mathbb{R}
-$$
-
-variation gives [[Lorentz force]]
-
-
-* [[Stokes theorem]]
-
-##### Transgression of circle $n$-bundles with connection
-
-(...)
-
-* [[fiber integration in ordinary differential cohomology]]
-
-##### Action functionals from transgression
-
-(...)
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
 
 
 
@@ -5383,6 +5312,7 @@ sends a circle $n$-bundle to the curvature of a pseudo-connection on it.
 
 ## **Circle-principal connections**
  {#CirclePrincipalConnections}
+ {#CirclePrincipalNConnections}
 
 ### Model Layer
 
@@ -5549,7 +5479,106 @@ $$
   \end{aligned}
 $$
 
+
+## **Integration**
+ {#Integration}
+
+### Model Layer
+
+#### Integration
+
+##### Integration of differential forms
+
+$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
+
+[[integration of differential forms]] is map of smooth spaces
+
+$$
+  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
+$$
+
+over a [[coordinate chart]] $U$ this sends
+
+$$
+  \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
+  \,.
+$$
+
+##### Integration in ordinary differential cohomology
+
+* [[fiber integration in ordinary differential cohomology]]
+
+##### Lie integration
+
+* [[Lie integration]]
+
+#### Transgression
+
+##### Transgression of differential forms
+
+[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
+
+$$
+  \int_\Sigma [\Sigma,-]
+  : 
+  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
+$$
+
+$$
+  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
+$$
+
+to
+
+$$
+  \int_{\Sigma} [\Sigma,\omega]
+   :
+  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
+$$
+
+for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
+
+$$
+  \int_{S^1} [S^1, A]
+  : 
+  [S^1, X]
+    \stackrel{[S^1, A]}{\to}
+  [S^1 , \Omega^1]
+    \stackrel{\int_{S^1}}{\to}
+  \Omega^0(-)
+  = 
+  \mathbb{R}
+$$
+
+variation gives [[Lorentz force]]
+
+
+* [[Stokes theorem]]
+
+##### Transgression of circle $n$-bundles with connection
+
+(...)
+
+* [[fiber integration in ordinary differential cohomology]]
+
+##### Action functionals from transgression
+
+(...)
+
+### Semantic Layer
+
+(...)
+
+### Syntactic Layer
+
+(...)
+
+
+
+
+
 ## **Characteristic classes**
+ {#CharacteristicClasses}
 
 
 ### Model Layer
@@ -5586,156 +5615,22 @@ $$
 
 ### Syntactic Layer
 
-
-## **Circle-principal $n$-connection**
- {#CirclePrincipalNConnections}
-
-### Model Layer
-
-* [[Deligne complex]]
-
-* [[circle n-bundle with connection]] $\mathbf{B}^n U(1)_{conn}$
-
-* [[fiber integration in ordinary differential cohomology]]
-
-  $$
-    \exp(2 \pi i \int_\Sigma(-)) 
-     :
-    [\Sigma, \mathbf{B}^n U(1)_{conn}]
-    \to 
-    \mathbf{B}^{n-k}U(1)_{conn}
-  $$
-
-### Semantic Layer
-
 (...)
 
-### Syntactic Layer
-
-(...)
-
-## **Action functionals for Chern-Simons-type gauge theories**
- {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
-
-### Model Layer
-
-(...)
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
-
-## **Abelian Chern-Simons theory**
- {#AbelianChernSimonsTheory}
-
-### Model Layer
-
-* [[higher dimensional Chern-Simons theory]]
-
-* [[cup-product in ordinary differential cohomology]]
-
-$$
-  \cup_{conn}
-  :
-  \mathbf{B}U(1)_{conn}
-  \to 
-  \mathbf{B}^3 U(1)_{conn}
-$$
-
-$$
-  \exp(2 \pi i \int_{\Sigma}[\Sigma, \cup_\conn])
-   : 
-  [\Sigma, \mathbf{B}U(1)_{conn}]
-   \stackrel{[\Sigma, \cup_{conn}]}{\to}
-  [\Sigma, \mathbf{B}^3 U(1)_{conn}]
-   \stackrel{\exp(2 \pi i \int_\Sigma (-))}{\to}
-  U(1)
-$$
 
 
-### Semantic Layer
 
-(...)
-
-### Syntactic Layer
-
-(...)
 
 ## **Principal connections**
+ {#PrincipalConnections}
 
 ### Model Layer
+
+#### Principal 1-connections
 
 * [[connection on a bundle]] $\mathbf{B}G_{conn}$
 
-#### Yang-Mills theory
- {#Yang-MillsTheory}
-
-* [[Yang-Mills theory]]
-
-* [[Yang-Mills instanton]] number = [[second Chern class]]
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
-
-## Associated bundles
- {#AssociatedBundles}
-
-### Model Layer
-
-#### Associated vector bundle
-
-
-
-#### Spin geometry
-
-* [[spin group]]
-
-* [[spin representation]]
-
-
-
-$$
-  \array{
-    V &\to& V \sslash Spin
-    \\
-    && \downarrow
-    \\
-    && \mathbf{B}Spin
-  }
-$$
-
-* [[spinor bundle]]
-
-* [[spinor]]
-
-$$
-  \array{
-    X &&\stackrel{\psi}{\to}&& V \sslash Spin
-    \\
-    & \searrow &\swArrow& \swarrow
-    \\
-    && \mathbf{B}Spin
-  }
-$$
-
-### Semantic Layer
-
-
-* [[associated infinity-bundle]]
-
-### Syntactic Layer
-
-
-## **Covariant derivative**
+#### Covariant derivatives
 
 * [[covariant derivative]]
 
@@ -5760,7 +5655,76 @@ $$
 $$
 
 
-## **Einstein-Yang-Mills theory**
+#### Yang-Mills theory
+ {#Yang-MillsTheory}
+
+* [[Yang-Mills theory]]
+
+* [[Yang-Mills instanton]] number = [[second Chern class]]
+
+#### Principal $\infty$-connections
+
+* [[connection on a principal infinity-bundle]]
+
+
+### Semantic Layer
+
+(...)
+
+### Syntactic Layer
+
+(...)
+
+
+
+## **Chern-Simons-type gauge theories**
+ {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
+
+### Model Layer
+
+#### Higher dimensional abelian Chern-Simons theory
+ {#AbelianChernSimonsTheory}
+
+* [[higher dimensional Chern-Simons theory]]
+
+* [[cup-product in ordinary differential cohomology]]
+
+$$
+  \cup_{conn}
+  :
+  \mathbf{B}U(1)_{conn}
+  \to 
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+$$
+  \exp(2 \pi i \int_{\Sigma}[\Sigma, \cup_\conn])
+   : 
+  [\Sigma, \mathbf{B}U(1)_{conn}]
+   \stackrel{[\Sigma, \cup_{conn}]}{\to}
+  [\Sigma, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{\exp(2 \pi i \int_\Sigma (-))}{\to}
+  U(1)
+$$
+
+#### Self-dual higher gauge theory
+
+* [[self-dual higher gauge theory]]
+
+
+#### Closed string field theory
+
+* [[closed string field theory]]
+
+##### Einstein gravity
+
+* [[gravity]]
+
+##### Kaluza-Klein mechanism
+
+* [[Kaluza-Klein mechanism]]
+
+##### Einstein-Yang-Mills theory
 
 * [[Einstein-Yang-Mills theory]]
 
@@ -5769,20 +5733,42 @@ $$
 * [[standard model of cosmology]]
 
 
-## **Symplectic geometry**
+### Semantic Layer
 
-* [[symplectic geometry]]
+(...)
+
+### Syntactic Layer
+
+(...)
+
+
 
 
 ## **Geometric quantization**
  {#GeometricQuantization}
 
+### Model Layer
+
+#### 1-Geometric quantization
+
 * [[geometric quantization]]
+
+#### Higher geometric quantization
 
 * [[higher geometric quantization]]
 
 
-## **Supergeometric coordinate systems**
+### Semantics Layer
+
+* [[n-plectic smooth infinity-groupoid]]
+
+
+### Syntactic Layer
+
+(...)
+
+
+## **Super-geometry and Fermions**
  {#SupergeometricCoordinateSystems}
 
 ### Model Layer
@@ -5794,11 +5780,16 @@ The premise in [The continuum real world line](#TheContinuumRealWorldLine) is no
 For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 
-* [[fermion]]
-
 * [[supermanifold]]
 
+#### Fermion
+
+* [[fermion]]
+
+
 ### Semantic Layer
+
+#### Super cohesion
 
 * [[super infinity-groupoid]]
 
@@ -5807,6 +5798,7 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 ### Syntactic Layer
 
 (...)
+
 
 ## **References**
 
