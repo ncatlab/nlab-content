@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
 =--
 =--
 
@@ -19,16 +23,22 @@
 
 In [[category theory]], an _allegory_ is a [[category]] with properties meant to reflect properties that hold in a category [[Rel]] of [[relations]]. The notion was first introduced (as far as we know) and certainly first made famous in the book _[[Categories, Allegories]]_ ([Freyd-Scedrov](#FreydScedrov)). 
 
-Freyd and Scedrov argue that a categorical calculus of relations is an alternative and often more amenable framework for developing concepts traditionally couched in "functional" language (i.e., concepts which apply to sets and functions); for instance, a principal _raison d'etre_ for [[regular categories]] is precisely that one can do relational calculus in them (as had been long known, e.g., Mac Lane showed how to calculate with relations to do diagram chases in [[abelian categories]]). Allegories, and correlative notions such as [[bicategory of relations|bicategories of relations]], also offer a smooth approach to [[regular and exact completion|regular and exact completions]], as used for example in the construction of [[realizability topos|realizability toposes]]. 
+Freyd and Scedrov argue that a categorical calculus of relations is an alternative and often more amenable framework for developing concepts traditionally couched in "functional" language (i.e., concepts which apply to [[sets]] and [[functions]]); for instance, a principal _raison d'etre_ for [[regular categories]] is precisely that one can do [[relational calculus]] in them (as had been long known, e.g., [[Saunders MacLane]] showed how to calculate with relations to do [[diagram chasing|diagram chases]] in [[abelian categories]]). Allegories, and correlative notions such as [[bicategory of relations|bicategories of relations]], also offer a smooth approach to [[regular and exact completion|regular and exact completions]], as used for example in the construction of [[realizability topos|realizability toposes]]. 
 
-A signal feature of allegories is emphasis on the modular law (see below), which generalizes the [[modular lattice|modular law]] in lattices to more general relations, and which generalizes also so-called [[Frobenius reciprocity]] in categorical logic. 
+A signal feature of allegories is emphasis on the _modular law_ (see def. \ref{Allegory} below), which generalizes the [[modular lattice|modular law]] in lattices to more general relations, and which generalizes also so-called [[Frobenius reciprocity]] in [[categorical logic]]. 
 
 ## Definition
 
-An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the identity on objects, such that
 
-* each [[hom-object|hom-poset]] $A(x,y)$ has binary [[intersections]], and
-* the *[[modular lattice|modular law]]* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
++-- {: .num_defn #Allegory}
+###### Definition
+
+An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the [[identity]] on [[objects]], such that
+
+1. each [[hom-object|hom-poset]] $A(x,y)$ has binary [[intersections]], and
+1. the *[[modular lattice|modular law]]* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
+
+=--
 
 ## Examples 
 
