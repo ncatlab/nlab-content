@@ -414,6 +414,10 @@ Brief reviews include
 
 * [[Barton Zwiebach]], _Closed String Field Theory: An Introduction_ ([arXiv:hep-th/9305026](http://arxiv.org/abs/hep-th/9305026))
 
+The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] in the lowest orders of the CSFT action is discussed in 
+
+* Bang-Gui Liu, _General coordinate transformation and gravitational action from closed bosonic string field theory_, Class. Quantum Grav. 6 (1989)
+
 
 Discussion of the expected closed string tachyon [[vacuum]] is in 
 
