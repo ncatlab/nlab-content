@@ -1,7 +1,7 @@
 
 **[[relation]]**, [[internal relation]]
 
-**[[Rel]]**, [[allegory]]
+**[[Rel]]**, [[bicategory of relations]], [[allegory]]
 
 ## Types of Binary relation
 
