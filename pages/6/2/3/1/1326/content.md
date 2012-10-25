@@ -14,7 +14,7 @@ $$
 
 * The dual (in some suitable sense) of a [[chain complex]] $(V_\bullet, \partial_k : V_k \to V_{k-1})$ is canonically a cochain complex with $V^k := (V_k)^*$ and $d_k := (\partial_k)^*$.
 
-* A [[monoid]] in chain compexes as well as cochain complexes is a [[differential graded algebra]].
+* A [[monoid]] in chain complexes as well as cochain complexes is a [[differential graded algebra]].
 
   * In their dual formulation [[L-infinity-algebra]]s and more generall [[Lie infinity-algebroid]]s are encoded by such monoids in cochain complexes.
 
