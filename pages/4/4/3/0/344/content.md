@@ -1,16 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Category theory
-+--{: .hide}
+### Context
+#### Regular and Exact categories
++-- {: .hide}
+[[!include regular and exact categories - contents]]
+=--
+#### Category Theory
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
+
 # Extensive categories
-* tic
+* table of contents
 {: toc}
 
 ## Idea
