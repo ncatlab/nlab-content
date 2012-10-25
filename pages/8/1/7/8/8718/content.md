@@ -1,1 +1,4 @@
-[http://andrewmacfie.com](http://andrewmacfie.com)
+[[!redirects amacfie]]
+[Home page](http://andrewmacfie.com)
+
+category:people
