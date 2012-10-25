@@ -17,6 +17,9 @@
 
 An **infinitary [[coherent category]]** or **geometric category** is a [[regular category]] in which the [[subobject]] [[poset]]s $Sub(X)$ have all _small_ [[union]]s which are [[pullback stability|stable under pullback]].
 
+More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-geometric category_ is a [[regular category]] with unions for $\kappa$-small families of [[subobjects]], stable under pullback. (For $\kappa = \omega$ this reduces to the notion of _[[coherent category]]_.)
+
+[Makkai-Reyes](#MakkaiReyes) called this a _$\kappa$-[[logical category]]_ and Freyd-Scedrov called it a _[[pre-logos]]_. See also ([Butz-Johnstone, p. 12](#ButzJohnstone)).
 
 ## Properties
 
@@ -48,6 +51,11 @@ Around lemma A1.4.18 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+* [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_, Lecture Notes in Math. 611 (Springer{Verlag, 1977).
+ {#MakkaiReyes}
+
+* Casten Butz, [[Peter Johnstone]], _Classifying toposes for first order theories_, BRICS Report Series RS-97-20
+ {#ButzJohnstone}
 
 [[!redirects geometric category]]
 [[!redirects geometric categories]]
@@ -55,3 +63,6 @@ Around lemma A1.4.18 in
 [[!redirects infinitary coherent categories]]
 [[!redirects infinitary-coherent category]]
 [[!redirects infinitary-coherent categories]]
+
+[[!redirects logical category]]
+[[!redirects logical categories]]
