@@ -26,7 +26,7 @@ In short, Quillen equivalence is the right notion of [[equivalence]] for [[model
 Let $C$ and $D$ be [[model category|model categories]] and let
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
    D
 $$
 
