@@ -85,7 +85,7 @@ $$
 $$
 is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it can be viewed as a right adjoint to $L$ _relative to_ the inclusion of the full subcategory determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
 
-This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the defintions
+This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the definitions
 
 * [[limit]] / [[homotopy limit]]
 
