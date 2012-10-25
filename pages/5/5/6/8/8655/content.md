@@ -36,7 +36,11 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 * [[U-duality]]
 
-* [[AdS/CFT|AdS/CFT duality]]
+* [[open/closed string duality]]
+
+  * [[AdS/CFT|AdS/CFT duality]]
+
+  * [[KLT relations]]
 
 While most of these dualities refer to equivalences between [[quantum field theories]], they find their conceptual explanation in [[string theory]]. See at 
 
