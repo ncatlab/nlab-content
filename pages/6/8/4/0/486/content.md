@@ -6,12 +6,17 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Regular and Exact categories
++-- {: .hide}
+[[!include regular and exact categories - contents]]
+=--
 #### Category Theory
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
+
 
 # Pretoposes
 * table of contents
