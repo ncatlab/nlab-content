@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _nonabelian Stokes theorem_ is a generalization of the [[Stokes theorem]] for [[Lie algebra valued differential 1-forms]] and with [[integration of differential forms]] refined to [[parallel transport]].
+
+## Statement
+
+If $\hat A \in \Omega^1(D^2, \mathfrak{g})$ is a [[Lie algebra valued 1-form]] on the 2-[[disk]] then the [[parallel transport]] $\mathcal{P} \exp(\int_{S^1} A)$ of its restriction $A \in \Omega^1(S^1, \mathfrak{g})$ to the [[boundary]] [[circle]], hence its [[holonomy]] (for a fixed choice of base point) is equal to a certain kind of adjusted 2-dimensional integral of its [[curvature]] 2-form $F_A$ over $D^2$.
+
+In particular if $F_{\hat A} = 0$ then the [[holonomy]] of $A$ is trivial.
+
+## Properties
+
+### Relation to higher parallel transport
+
+In terms of the notion of [[connection on a 2-bundle]] the nonabelian Stokes theorem says that if $A \in \Omega^1(X, \mathfrak{g})$ is a [[Lie algebra valued 1-form]], then $(F_A, A)$ is a [[Lie 2-algebra valued 2-form]] with values in the [[inner derivation Lie 2-algebra]] $inn(\mathfrak{g})$ of $\mathfrak{g}$ whose [[curvature]] 3-form $H = \mathbf{d}_A F_A$ vanishes (which is the [[Bianchi identity]] for $F_A$) and its [[higher parallel transport]] exists. The [[2-functor|2-functorial]] source-target matching condition in this higher parallel transport is the statement of the nonabelian Stokes theorem.
+
+### Relation to Lie integration
+
+For $F_A = 0$ the nonabelian Stokes theorem may be regarded as proving that the [[Lie integration]] of $\mathfrak{g}$ by "the path method" (see at [[Lie integration]]) is indeed the [[simply connected topological space|simply connected]] [[Lie group]] corresponding to $\mathfrak{g}$ by [[Lie theory]].
+ 
