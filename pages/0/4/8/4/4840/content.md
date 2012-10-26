@@ -95,13 +95,15 @@ $$
 
 * **Stokes theorem**
 
+  * [[nonabelian Stokes theorem]]
+
 * [[de Rham theorem]]
 
 * a special case is [[Cauchy's integral theorem]]
 
 ## References
 
-* Reyer Sjamaar, manifolds and differential forms, [pdf](http://www.math.cornell.edu/~sjamaar/papers/manifold.pdf)
+* Reyer Sjamaar, _manifolds and differential forms_, [pdf](http://www.math.cornell.edu/~sjamaar/papers/manifold.pdf)
 
 [[!redirects Stokes' theorem]]
 [[!redirects Stokes's theorem]]
