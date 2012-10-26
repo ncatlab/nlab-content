@@ -23,7 +23,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A _symmetric 2-group_ is a [[2-group]] eqipped with the following equivalent structure:
+A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent structure:
 
 1. Regarded as a [[monoidal category]], $G$ is a [[symmetric monoidal category]].
 
@@ -44,5 +44,7 @@ A _symmetric 2-group_ is a [[2-group]] eqipped with the following equivalent str
 ## Related concepts
 
 * [[k-tuply groupal n-groupoid]]
+
+* [[braided 2-group]]
 
 [[!redirects symmetric 2-groups]]
