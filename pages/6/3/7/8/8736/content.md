@@ -5,7 +5,7 @@
 
 ## Idea
 
-* In an [[abelian group]] $A$, the group operation is called a _sum_ and written $a,b \in A \;\vdash\; (a + b) \in A$. A suitable limiting notion is that of [[integral]].
+* In an [[abelian group]] $A$, the group operation is often called a _sum_ (or descriptively _additive operation_) and written "additively" $a,b \in A \;\vdash\; (a + b) \in A$; in fact it is a convention to call it a sum in those cases when it is denoted additively. In the case of numbers or vectors (and generalizations) a suitable notion when passing to the limit of an "infinite sum" is [[integral]]. There are however also noncommutative integrals when the order of summation/multiplication of noncommuting quantities is taken into account. 
 
 * In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]].
 
@@ -18,4 +18,4 @@
 * [[product]]
 
 [[!redirects sums]]
-
+[[!redirects additive operation]]
