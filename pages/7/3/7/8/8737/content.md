@@ -38,3 +38,11 @@ In terms of the notion of [[connection on a 2-bundle]] the nonabelian Stokes the
 
 For $F_A = 0$ the nonabelian Stokes theorem may be regarded as proving that the [[Lie integration]] of $\mathfrak{g}$ by "the path method" (see at [[Lie integration]]) is indeed the [[simply connected topological space|simply connected]] [[Lie group]] corresponding to $\mathfrak{g}$ by [[Lie theory]].
  
+
+## References
+
+For instance in 
+
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors vs. Differential Forms_ ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+
+
