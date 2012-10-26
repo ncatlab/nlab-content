@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _sylleptic monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E2-algebra]] structure.
+
+## Related concepts
+
+* [[sylleptic 3-group]]
+
+* [[k-tuply monoidal (n,r)-category]]
+
+[[!redirects sylleptic monoidal 2-categories]]
+
+[[!redirects sylleptic monoidal bicategory]]
+[[!redirects sylleptic monoidal bicategories]]
+
