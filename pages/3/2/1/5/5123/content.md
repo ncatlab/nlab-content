@@ -163,6 +163,8 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 
 * **Eilenberg-Zilber map**
 
+* [[Eilenberg-Zilber theorem]]
+
 In the context of  filtered spaces $X_*, Y_*$ and their associated [[FundamentalCrossedComplex|fundamental crossed complex]]es $\Pi X_*, \Pi Y_*$ there is a natural  Eilenberg-Zilber morphism  
 $$\eta: \Pi X_* \otimes \Pi Y_* \to \Pi (X_* \otimes Y_*)$$
 which is difficult to define directly because of the complications of the tensor product of crossed complexes,  but has a direct definition in terms of the associated cubical homotopy $\omega$--groupoids. This morphism is an isomorphism of free crossed complexes if $X_*, Y_*$ are the skeletal filtrations of CW-complexes. For more on all  this, see the book [[Nonabelian Algebraic Topology]] p. 533. 
