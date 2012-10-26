@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### $(\infty,1)$-topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -214,6 +218,8 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 ## Related concepts
 
 * [[monoidal category]], **monoidal $(\infty,1)$-category**
+
+* [[braided monoidal category]], [[braided monoidal (∞,1)-category]]
 
 * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
 
