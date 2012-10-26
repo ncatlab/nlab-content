@@ -566,6 +566,8 @@ higher versions
 
 * [[monoidal (∞,1)-category]]
 
+  * [[braided monoidal (∞,1)-category]]
+
   * [[symmetric monoidal (∞,1)-category]]
 
   * [[closed monoidal (∞,1)-category]]
