@@ -44,3 +44,6 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 [[!redirects QCD vacuum]]
 [[!redirects QCD vacua]]
 
+[[!redirects QCD instanton]]
+[[!redirects QCD instantons]]
+
