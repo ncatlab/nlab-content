@@ -43,11 +43,11 @@ For details see [[groupoid object in an (∞,1)-category]].
 
 * [[group]]
 
-* [[2-group]]
+* [[2-group]], [[braided 2-group]]
 
 * [[n-group]], [[k-tuply groupal n-groupoid]]
 
-* **$\infty$-group**
+* **$\infty$-group**, [[braided ∞-group]]
 
   * [[looping and delooping]]
 
