@@ -22,7 +22,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[2-group]] $G$ is _braided_ if the following equivalent conditions hold:
+A [[2-group]] $G$ is _braided_ if it is equipped with the following equivalent [[structure]]:
 
 1. Regarded as a [[monoidal category]], $G$ is a [[braided monoidal category]].
 
@@ -36,10 +36,19 @@ A [[2-group]] $G$ is _braided_ if the following equivalent conditions hold:
 
 1. $G$ is a groupal [[k-tuply monoidal (n,r)-category|doubly monoidal (1,0)-category]].
   
-
 =--
 
+## Related concepts
+
+* [[k-tuply groupal n-groupoid]]
+
+* [[symmetric 2-group]]
+
+* [[braided ∞-group]]
+
 ## References
+
+A discussion of [[∞-group extensions]] by braided 2-groups is in 
 
 * Evan Jenkins, _Extensions of groups by braided 2-groups_ ([arXiv:1106.0772](http://arxiv.org/abs/1106.0772))
 
