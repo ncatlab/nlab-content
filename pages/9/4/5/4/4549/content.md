@@ -72,6 +72,8 @@ Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles wi
   * [[special holonomy]]
 
   * [[Wilson loop]]
+
+  * [[nonabelian Stokes theorem]]
   
 * [[fiber integration in differential cohomology]]
 
