@@ -2,3 +2,4 @@ Antonio Garz&#243;n is a Spanish mathematician, who is in the [Departamento de &
 
 
 category:people
+[[!redirects A.R. Garzón]]
