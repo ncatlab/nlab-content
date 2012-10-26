@@ -292,6 +292,8 @@ where $P_2(C(\{\U_i\}) \in 2LieGrpd$ is a resolution of the [[path 2-groupoid]] 
 
 * **2-groupoid of Lie 2-algebra valued forms**
 
+  * [[nonabelian Stokes theorem]]
+
 * [[3-groupoid of Lie 3-algebra valued forms]]
 
 * [[∞-groupoid of ∞-Lie-algebra valued forms]]
@@ -309,6 +311,8 @@ There are many possible conventions. The one reproduced above is supposed to des
 See also
 
 <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#ConnectionOn2Bundle">differential cohomology in an (∞,1)-topos -- survey - connections on 2-bundles</a>.
+
+[[!redirects Lie 2-algebra valued 2-form]]
 
 [[!redirects Lie 2-algebra valued forms]]
 [[!redirects Lie 2-algebra valued differential forms]]
