@@ -131,6 +131,7 @@ Related books are
 
 ### 3 Integration of Differential Forms
 
+* [[integration]]
 
 * [[integration of differential forms]]
 
