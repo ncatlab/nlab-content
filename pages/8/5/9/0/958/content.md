@@ -1,41 +1,40 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-### For pointed sets
+The __wedge sum__ $A \vee B$ of two [[pointed sets]] $A$ and $B$ is the [[quotient set]] of the [[disjoint union]] $A \uplus B$ where both copies of the basepoint (the one in $A$ and the one in $B$) are identified.  The wedge sum $A \vee B$ can be identified with a [[subset]] of the [[cartesian product]] $A \times B$; if this subset is collapsed to a point, then the result is the [[smash product]] $A \wedge B$.
 
-The __wedge sum__ $A \vee B$ of two [[pointed set]]s $A$ and $B$ is the [[quotient set]] of the [[disjoint union]] $A \uplus B$ where both copies of the basepoint (the one in $A$ and the one in $B$) are identified.  The wedge sum $A \vee B$ can be identified with a [[subset]] of the [[cartesian product]] $A \times B$; if this subset is collapsed to a point, then the result is the [[smash product]] $A \wedge B$.
+The wedge sum can be generalised to [[pointed objects]] in any category $C$ with [[pushouts]], and is the [[coproduct]] in the category of pointed objects in $C$ (which is the [[coslice category]] $*/C$).  A very commonly used case is when $C=$[[Top]] is a category of [[topological spaces]].  
 
-### For general pointed objects
+Also, the wedge sum also makes sense for any [[family]] of pointed objects, not just for two of them, as long as $C$ has pushouts of that size.
 
-The wedge sum can be defined for [[pointed object]]s in any category $C$ with [[pushouts]], and is the [[coproduct]] in the category of pointed objects in $C$.  A very commonly used case is when $C=$[[Top]] is a category of [[topological spaces]].  The wedge sum also makes sense for any family of pointed objects, not just for two of them.
 
 ## Definition
 
 +-- {: .num_defn }
 ###### Definition
 
-For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] with [[colimits]], their _wedge sum_ $\vee_i X_i$ is the [[pushout]]
+For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] with [[colimits]], their _wedge sum_ $\bigvee_i X_i$ is the [[pushout]]
 
 $$
-  \vee_i X_i \coloneqq (\coprod_i X_i) \coprod_{\coprod_{i} *} *
+  \bigvee_i X_i \coloneqq (\coprod_i X_i) \coprod_{\coprod_{i} *} *
 $$
 
 in 
@@ -46,11 +45,11 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     * &\to& \vee_i X_i
+     * &\to& \bigvee_i X_i
   }
 $$
-
 =--
+
 
 ## Examples
 
@@ -59,4 +58,5 @@ $$
 * For $X$ a [[CW complex]] with [[filtered topological space]] structure $X_0 \hookrightarrow \cdots \hookrightarrow \X_k \hookrightarrow X_{k+1} \hookrightarrow \cdots \hookrightarrow X$ the quotient topological spaces $X_{k+1}/X_k$ are wedge sums of $(k+1)$-spheres.
 
 
+[[!redirects wedge sum]]
 [[!redirects wedge sums]]
