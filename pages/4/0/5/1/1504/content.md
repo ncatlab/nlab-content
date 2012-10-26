@@ -539,3 +539,5 @@ A review of the history of some related developments is given in
 [[!redirects String field theory]]
 
 [[!redirects closed string field theory]]
+
+[[!redirects closed bosonic string field theory]]
