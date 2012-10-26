@@ -414,14 +414,17 @@ Brief reviews include
 
 * [[Barton Zwiebach]], _Closed String Field Theory: An Introduction_ ([arXiv:hep-th/9305026](http://arxiv.org/abs/hep-th/9305026))
 
-The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] in the lowest orders of the CSFT action is discussed in 
+The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] coupled to the action for the [[B-field]] and the [[dilaton]] in the lowest orders of the CSFT action is discussed for instance in [Yang-Zwieback, section 3.1](#YangZwiebach) and in
 
 * Bang-Gui Liu, _General coordinate transformation and gravitational action from closed bosonic string field theory_, Class. Quantum Grav. 6 (1989)
+
+* Masako Asano, Mitsuhiro Kato, _Closed string field theory in a-gauge_ ([arXiv:1206.3901](http://arxiv.org/abs/1206.3901))
 
 
 Discussion of the expected closed string tachyon [[vacuum]] is in 
 
 * Haitang Yang, [[Barton Zwiebach]], _A Closed String Tachyon Vacuum ?_, JHEP 0509:054,2005 ([arXiv:hep-th/0506077](http://arxiv.org/abs/hep-th/0506077))
+ {#YangZwiebach}
 
 * [[Nicolas Moeller]], Haitang Yang, _The nonperturbative closed string tachyon vacuum to high level_ ([arXiv:hep-th/0609208](http://arxiv.org/abs/hep-th/0609208))
 
