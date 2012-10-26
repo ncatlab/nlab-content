@@ -130,9 +130,14 @@ In particular they are classified by the intrinsic $n+1$st $A$-[[cohomology]] of
 
 ## References
 
-Section 4.3 of 
+The general concept is discussed in section 4.3 of 
 
 * [[Thomas Nikolaus]], [[Danny Stevenson]], [[Urs Schreiber]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+
+Extensions by [[braided 2-groups]] are discussed in 
+
+* Evan Jenkins, _Extensions of groups by braided 2-groups_ ([arXiv:1106.0772](http://arxiv.org/abs/1106.0772))
+
 
 [[!redirects ∞-group extension]]
 [[!redirects infinity-group extensions]]
