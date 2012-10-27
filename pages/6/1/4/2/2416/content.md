@@ -1,5 +1,7 @@
 
-* [website](http://math.berkeley.edu/~teichner/)
+* [website Berkeley](http://math.berkeley.edu/people/faculty/peter-teichner)
+
+* [webpage MPIM](http://people.mpim-bonn.mpg.de/teichner/Math/Home.html)
 
 #related $n$Lab entries#
 
