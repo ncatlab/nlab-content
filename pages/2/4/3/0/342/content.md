@@ -181,6 +181,7 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * The [[Charles Rezk]]-model structure for [[Theta space]]s models general $(n,r)$-categories.
 [[!redirects (n,r)-categories]]
+[[!redirects (n,r) category]]
 
 
 ## Related concepts
@@ -209,6 +210,5 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 * [[(∞,n)-category]]
 
 * **(n,r)-category**
-
 
 
