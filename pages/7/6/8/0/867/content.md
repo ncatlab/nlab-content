@@ -38,7 +38,7 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 A __poset__ is a set equipped with a partial order.
 
 
-### As a preorder with antisymmetriy
+### As a preorder with antisymmetry
 
 A poset is precisely a [[proset]] satisfying the extra condition that 
 $x \leq y \leq x$ implies that $x = y$. 
