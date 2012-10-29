@@ -321,9 +321,134 @@ $$
 
 between the [[singular chain complex]] of the [[product topological space]] and the tensor product of chain complexes of the separate singular chain complexes.
 
-### Filtering
+### Filtering and spectral sequences
 
 As for any [[total complex]] of a double complex, the tensor product of chain complexes is naturally a [[filtered chain complex]], either by the degree of the first of by that of the second chain complex factor.
+
++-- {: .num_prop }
+###### Proposition
+
+Let $R$ be a [[commutative ring]]. For $A, B \in R$[[Mod]], the two ways of computing the [[Tor]] [[left derived functor]] coicincide
+
+$$
+  (L_n (-)\otimes_R B)(A) \simeq (L_n A \otimes_R (-))(B)
+$$
+
+and hence we can consistently write $Tor_n(A,B)$ for either.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding [[tensor product of chain complexes]] $Tot (Q^A_\bullet)\otimes Q^B_\bullet$, hence the [[total complex]] of the degreewise [[tensor product of modules]] [[double complex]] carries the row [[filtered chain complex|filtration]] and the column filtration.
+
+Accordingly there are the correspondong two  [[spectral sequences of a double complex]] $\{{}^{A}E^r_{p,q}\}_{r,p,q}$ and $\{{}^{B}E^r_{p,q}\}_{r,p,q}$, both converging to the same value.
+
+By definition the 0-th page of both os
+
+$$
+  {}^A E^0_{p,q} = {}^B E^0_{p,q} \coloneqq Q^A_p \otimes Q^B_q
+$$
+
+Using the [[universal coefficient theorem]] and the fact that $Q^A_\bullet$ and $Q^B_\bullet$ consists of [[projective objects]] in positive degree by construction, hence of tensor [[acyclic objects]], one has for the first page
+
+$$
+  \begin{aligned}
+     {}^A E^1_{p,q} & \simeq H_q( Q^A_p \otimes Q^B_\bullet )
+     \\
+     & \simeq Q^A_p \otimes H_q(Q^B_\bullet)
+     \\
+     & \simeq \left\{
+       \array{
+           Q^A_p \otimes B & if\; q = 0
+           \\
+           0 & otherwise
+       }
+     \right.
+  \end{aligned}
+$$
+
+and similarly
+
+$$
+  \begin{aligned}
+     {}^B E^1_{p,q} & \simeq H_p( Q^A_\bullet \otimes Q^B_q )
+     \\
+     & \simeq H_p(Q^A_\bullet) \otimes_R Q^B_q
+     \\
+     & \simeq \left\{
+       \array{
+           A \otimes Q^B_q & if\; p = 0
+           \\
+           0 & otherwise
+       }
+     \right.
+  \end{aligned}
+  \,.
+$$
+
+It follows for the second pages that
+
+$$
+  \begin{aligned}
+    {}^A E^2_{p,q} 
+    & \simeq
+    H_p(H_q(Q^A_\bullet \otimes Q^B_\bullet))
+    \\
+   & \simeq
+   H_p( Q^B_\bullet \otimes_R B )
+   \\
+   & \simeq 
+   \left\{
+     \array{
+     (L_p( (-)\otimes_R B ))(A) & if \; q = 0
+     \\
+     0 & otherwise    
+     }
+  \right.
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    {}^B E^2_{p,q} & \simeq
+    H_q(H_p(Q^A_\bullet \otimes Q^B_\bullet))
+    \\
+   & \simeq
+   H_q( A \otimes_R Q^B_\bullet )
+   \\
+   & \simeq 
+   \left\{
+     \array{
+       (L_p ( A \otimes_R (-) ))(B) & if \; p = 0
+       \\
+       0 \; otherwise
+     }
+   \right.
+  \end{aligned}
+  \,.
+$$
+
+Now since both of these second pages are concentrated in a single row, it follows that both have their final value here, and hence
+
+$$
+  L_p((-)\otimes_R B)(A)
+  \simeq
+  {}^A E^2_{p,0}
+  \simeq
+  {}^A E^\infty_{p,0}
+  \simeq
+  {}^B E^2_{p,0}
+  \simeq
+  L_p(A \otimes_R (-))(B)
+  \,.
+$$
+
+
+=--
 
 ## Applications
 
