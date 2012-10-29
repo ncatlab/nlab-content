@@ -569,7 +569,6 @@ and we have
 ## References
 
 
-
 ### Abelian/stable theory
 
 An elementary pedagogical introduction is in 
@@ -599,6 +598,10 @@ A textbook with a focus on applications in [[algebraic topology]] is
 
 * [[Alan Hatcher]], _Spectral sequences in algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html))
  {#Hatcher}
+
+A review Master thesis is
+
+* Jennifer Orlich, _Spectral sequences and an application_ ([pdf](http://www.math.osu.edu/~flicker.1/orlich.pdf))
 
 Reviews of and lecture notes on standard definitions and facts about spectral sequences include 
 
