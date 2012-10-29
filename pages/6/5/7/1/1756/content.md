@@ -24,7 +24,7 @@ Quillen adjunctions are one convenient notion of morphism between [[model catego
 For $C$ and $D$ two [[model category|model categories]], a pair $(L,R)$
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}}
   D
 $$
 
@@ -33,11 +33,11 @@ of [[adjoint functors]] (with $L$ [[left adjoint]]) is a **Quillen adjunction** 
 
 * $L$ preserves cofibrations and acyclic cofibrations;
 
-* $R$ preserves fibrations and trivial fibrations;
+* $R$ preserves fibrations and acyclic fibrations;
 
 * $L$ preserves cofibrations and $R$ preserves fibrations;
 
-* $L$ preserves trivial cofibrations and $R$ preserves trivial fibrations.
+* $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations.
 
 Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalences]].
 
@@ -85,13 +85,13 @@ For $L$ we apply the formally dual argument.
 If 
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}} D
 $$ 
 
 is a Quillen adjunction, $S \subset Mor(D)$ is a set of morphisms such that the [[Bousfield localization of model categories|left Bousfield localization]] of $D$ at $S$ exists, and such that the [[derived functor|derived]] image $\mathbb{L}L(S)$ of $S$ lands in the weak equivalences of $C$, then the Quillen adjunction descends to the localization $D_S$
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D_S
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}} D_S
   \,.
 $$ 
 
@@ -112,7 +112,7 @@ These present [[adjoint (∞,1)-functors]], as the first proposition below asser
 Let $C$ and $D$ be [[simplicial model categories]] and let 
 
 $$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D 
+  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}} D 
 $$
 
 be an [[sSet]]-[[enriched category theory|enriched]] [[adjunction]] whose underlying ordinary adjunction is a Quillen adjunction. Let $C^\circ$ and $D^\circ$ be the [[(∞,1)-categories]] presented by $C$ and $D$ (the [[Kan complex]]-enriched full [[sSet]]-subcategories on fibrant-cofibrant objects). Then the Quillen adjunction lifts to a pair of [[adjoint (∞,1)-functors]] 
