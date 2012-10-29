@@ -50,6 +50,7 @@ $$
 ## Properties
 
 ### Existence and balancing
+ {#ExistenceAndBalancing}
 
 Given a right $R$-module
 
@@ -88,29 +89,141 @@ there are in principle three different ways to compute their derived tensor prod
 +-- {: .num_theorem}
 ###### Theorem
 
-If both $Mod_{R}$ and $_{R}Mod$ have [[projective object|enough projectives]], then all these three derived functors exist and all give the same result (up to [[isomorphism]] on chain homology:
+If both $Mod_{R}$ and $_{R}Mod$ have [[projective object|enough projectives]], then all these three derived functors exist and all give the same result.
+=--
 
-for $P \to A$ and $Q \to A$ [[projective resolutions]], there are [[quasi-isomorphisms]]
+
++-- {: .proof}
+###### Proof
+
+Existence is clear from the very definition of [[derived functor in homological algebra]]. So we show that deriving in the left argument gives the same result as deriving in the right argument.
+
+Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding tensor product of chain complexes]] 
+$Tot (Q^A_\bullet\otimes Q^B_\bullet)$, hence by prop. \ref{AsTotalComplex} the [[total complex]] of the degreewise [[tensor product of modules]] [[double complex]] carries the [[filtered chain complex|filtration]] by horizontal degree as well as that by vertical degree.
+
+Accordingly there are the corresponding two [[spectral sequences of a double complex]], to be denoted here $\{{}^{A}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $A$-degree) and $\{{}^{B}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $B$-degree). By the discussion there, both converge to the chain homology of the total complex. 
+
+We find the value of both spectral sequences on low degree pages according to the general discussion at _[spectral sequence of a double complex - low degree pages](spectral+sequence+of+a+double%20complex#LowDegreePages)_. 
+
+The 0th page for both is
 
 $$
-  A \otimes Q 
-  = 
-  Tot (A \otimes Q)
-  \stackrel{\simeq}{\leftarrow}
-  Tot(P \otimes Q)
-  \stackrel{\simeq}{\to}
-  Tot(P \otimes B)
-  = 
-  P \otimes B
+  {}^A E^0_{p,q} = {}^B E^0_{p,q} \coloneqq Q^A_p \otimes_R Q^B_q  
+  \,.
+$$
+
+For the first page we have
+
+$$  
+  \begin{aligned}
+    {}^A E^1_{p,q} 
+    & \simeq H_q(C_{p,\bullet}) 
+    \\
+    & \simeq  H_q( Q^A_p \otimes Q^B_\bullet )
+  \end{aligned}
+$$
+
+and
+
+$$  
+  \begin{aligned}
+    {}^B E^1_{p,q} 
+    & \simeq H_q(C_{\bullet,p}) 
+    \\
+    & \simeq  H_q( Q^A_\bullet \otimes Q^B_p )
+  \end{aligned}
+  \,.
+$$
+
+Now using the [[universal coefficient theorem]] [in homology](universal%20coefficient%20theorem#InHomology) and the fact that $Q^A_\bullet$ and $Q^B_\bullet$ is a [[resolution]] by [[projective objects]], by construction, hence of tensor [[acyclic objects]] for which all [[Tor]]-modules vanish, this simplifies to
+
+$$
+  \begin{aligned}
+     {}^A E^1_{p,q} 
+     & \simeq Q^A_p \otimes H_q(Q^B_\bullet)
+     \\
+     & \simeq \left\{
+       \array{
+           Q^A_p \otimes_R B & if\; q = 0
+           \\
+           0 & otherwise
+       }
+     \right.
+  \end{aligned}
+$$
+
+and similarly
+
+$$
+  \begin{aligned}
+     {}^B E^1_{p,q} 
+     & \simeq H_q(Q^A_\bullet) \otimes_R Q^B_p
+     \\
+     & \simeq \left\{
+       \array{
+           A \otimes_R Q^B_p & if\; q = 0
+           \\
+           0 & otherwise
+       }
+     \right.
+  \end{aligned}
+  \,.
+$$
+
+It follows for the second pages that
+
+$$
+  \begin{aligned}
+    {}^A E^2_{p,q} 
+    & \simeq
+    H_p(H^{vert}_q(Q^A_\bullet \otimes Q^B_\bullet))
+    \\
+   & \simeq 
+   \left\{
+     \array{
+     (L_p( (-)\otimes_R B ))(A) & if \; q = 0
+     \\
+     0 & otherwise    
+     }
+  \right.
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    {}^B E^2_{p,q} & \simeq
+    H_p(H^{hor}_q(Q^A_\bullet \otimes Q^B_\bullet))
+    \\
+   & \simeq 
+   \left\{
+     \array{
+       (L_p ( A \otimes_R (-) ))(B) & if \; q = 0
+       \\
+       0 \; otherwise
+     }
+   \right.
+  \end{aligned}
+  \,.
+$$
+
+Now both of these second pages are concentrated in a single row and hence have converged on that page already. Therefore, since they both converge to the same value:
+
+$$
+  L_p((-)\otimes_R B)(A)
+  \simeq
+  {}^A E^2_{p,0}
+  \simeq
+  {}^A E^\infty_{p,0}
+  \simeq
+  {}^B E^2_{p,0}
+  \simeq
+  L_p(A \otimes_R (-))(B)
   \,.
 $$
 
 =--
-
-(...)
-
-For instance ([Weibel, theorem 2.7.2](#Weibel)).
-
 
 
 ### Respect for direct sums and filtered colimits
