@@ -358,3 +358,6 @@ A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushout
 
 [[!redirects homotopy pushout]]
 [[!redirects homotopy pushouts]]
+
+[[!redirects homotopy fiber product]]
+[[!redirects homotopy fiber products]]
