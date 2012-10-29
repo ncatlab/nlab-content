@@ -15,7 +15,9 @@
 
 ## Idea
 
-A _Grothendieck spectral sequence_ is a [[spectral sequence]] that computes the [[cochain cohomology]] of the composite of two [[derived functors]] on [[categories of chain complexes]].
+A _Grothendieck spectral sequence_ is a [[spectral sequence]] that computes the [[cochain cohomology]] of the [[composition|composite]] of two [[derived functors]] on [[categories of chain complexes]].
+
+## Examples
 
 Many other type of spectral sequences are special cases of this one, for instance
 
@@ -39,3 +41,10 @@ $$
 E^{p,q}_2 = R^p G \circ R^q F
 $$ 
 and which is converging to $R^n(G\circ F)$. These statements should be understood as applied to any object $a$ in $A$ and the spectral sequence is functorial in $a$. 
+
+## References
+
+Leture notes include
+
+* Jinhyun Park, _Personal notes on Grothendieck spectral sequence_ ([pdf](http://mathsci.kaist.ac.kr/~jinhyun/note/g_s_sequence/sequence.pdf))
+
