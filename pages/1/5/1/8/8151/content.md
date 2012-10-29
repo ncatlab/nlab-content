@@ -15,14 +15,14 @@
 
 ## Definition
 
-The _[[Leray spectral sequence]]_ is the special case of the Grothendieck spectral sequence for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+The _Leray spectral sequence_ is the special case of the [[Grothendieck spectral sequence]] for the case where the two [[functors]] being composed are a [[direct image|push-forward]] of [[sheaves of abelian groups]] along a [[continuous map]] $f : X \to Y$ between [[topological spaces]], followed by the push-forward $Y \to *$ to the [[point]] -- the [[global section]] functor. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
 
 ## Properties
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $X, Y$ be suitable [[sites]] and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+Let $X, Y$ be suitable [[sites]] let and $f : X \to Y$ be a [[morphism of sites]].  Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\buller(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
 
 $$
   \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
@@ -45,4 +45,7 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 =--
 
-[[!redirects Leray-Serre spectral sequence]]
+## Related concepts
+
+* [[Leray-Serre spectral sequence]]
+
