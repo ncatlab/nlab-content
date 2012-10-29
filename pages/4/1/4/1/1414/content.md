@@ -216,7 +216,7 @@ $$
     \\
     && \Uparrow
     \\
-    & \searrow && \nearrow_{\mathrlap{\{0,2\}}}
+    & \searrow && \nearrow_{\mathrlap{\{0,3\}}}
   }
   \;\;\;\;\;
   \;\;\;\;\;
@@ -234,7 +234,7 @@ $$
     \\
     && \Uparrow
     \\
-    & \searrow && \nearrow_{\mathrlap{\{0,2\}}}
+    & \searrow && \nearrow_{\mathrlap{\{0,3\}}}
   }
   \,.
 $$
