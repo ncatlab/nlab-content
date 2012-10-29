@@ -15,7 +15,8 @@
 
 ## Idea
 
-A [[spectral sequence]] for computation of [[singular homology]] in a [[fiber sequence]] of [[topological spaces]].
+The _Serre spectral sequence_ or _Leray-Serre spectral sequence_
+is a [[spectral sequence]] for computation of [[singular homology]] of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
 
 ## References
 
@@ -29,3 +30,5 @@ A textbook account is for instance in
 
 [[!redirects Serre spectral sequences]]
 
+[[!redirects Leray-Serre spectral sequence]]
+[[!redirects Leray-Serre spectral sequences]]
