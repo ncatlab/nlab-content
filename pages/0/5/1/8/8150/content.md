@@ -66,7 +66,7 @@ whose horizontal differential is $\partial^{hor} \coloneqq \partial^X \otimes id
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #AsTotalComplex}
 ###### Proposition
 
 The tensor product of chain complexes, def. \ref{TheTensorProdComplex} is isomorphic to the [[total complex]] of the [[double complex]] of def. \ref{DoubleComplexTensor}:
@@ -328,10 +328,10 @@ As for any [[total complex]] of a double complex, the tensor product of chain co
 +-- {: .num_prop }
 ###### Proposition
 
-Let $R$ be a [[commutative ring]]. For $A, B \in R$[[Mod]], the two ways of computing the [[Tor]] [[left derived functor]] coicincide
+Let $R$ be a [[commutative ring]]. For $A, B \in R$[[Mod]], the two ways of computing the [[Tor]] [[left derived functor]] coincide
 
 $$
-  (L_n (-)\otimes_R B)(A) \simeq (L_n A \otimes_R (-))(B)
+  (L_n ((-)\otimes_R B))(A) \simeq (L_n (A \otimes_R (-)))(B)
 $$
 
 and hence we can consistently write $Tor_n(A,B)$ for either.
@@ -341,27 +341,53 @@ and hence we can consistently write $Tor_n(A,B)$ for either.
 +-- {: .proof}
 ###### Proof
 
-Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding [[tensor product of chain complexes]] $Tot (Q^A_\bullet)\otimes Q^B_\bullet$, hence the [[total complex]] of the degreewise [[tensor product of modules]] [[double complex]] carries the row [[filtered chain complex|filtration]] and the column filtration.
+Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding tensor product of chain complexes]] 
+$Tot (Q^A_\bullet\otimes Q^B_\bullet)$, hence by prop. \ref{AsTotalComplex} the [[total complex]] of the degreewise [[tensor product of modules]] [[double complex]] carries the [[filtered chain complex|filtration]] by horizontal degree as well as that by vertical degree.
 
-Accordingly there are the correspondong two  [[spectral sequences of a double complex]] $\{{}^{A}E^r_{p,q}\}_{r,p,q}$ and $\{{}^{B}E^r_{p,q}\}_{r,p,q}$, both converging to the same value.
+Accordingly there are the corresponding two [[spectral sequences of a double complex]], to be denoted here $\{{}^{A}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $A$-degree) and $\{{}^{B}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $B$-degree). By the discussion there, both converge to the chain homology of the total complex. 
 
-By definition the 0-th page of both os
+We find the value of both spectral sequences on low degree pages according to the general discussion at _[spectral sequence of a double complex - low degree pages](spectral+sequence+of+a+double%20complex#LowDegreePages)_. 
+
+The 0th page for both is
 
 $$
-  {}^A E^0_{p,q} = {}^B E^0_{p,q} \coloneqq Q^A_p \otimes Q^B_q
+  {}^A E^0_{p,q} = {}^B E^0_{p,q} \coloneqq Q^A_p \otimes_R Q^B_q  
+  \,.
 $$
 
-Using the [[universal coefficient theorem]] and the fact that $Q^A_\bullet$ and $Q^B_\bullet$ consists of [[projective objects]] in positive degree by construction, hence of tensor [[acyclic objects]], one has for the first page
+For the first page we have
+
+$$  
+  \begin{aligned}
+    {}^A E^1_{p,q} 
+    & \simeq H_q(C_{p,\bullet}) 
+    \\
+    & \simeq  H_q( Q^A_p \otimes Q^B_\bullet )
+  \end{aligned}
+$$
+
+and
+
+$$  
+  \begin{aligned}
+    {}^B E^1_{p,q} 
+    & \simeq H_q(C_{\bullet,p}) 
+    \\
+    & \simeq  H_q( Q^A_\bullet \otimes Q^B_p )
+  \end{aligned}
+  \,.
+$$
+
+Now using the [[universal coefficient theorem]] [in homology](universal%20coefficient%20theorem#InHomology) and the fact that $Q^A_\bullet$ and $Q^B_\bullet$ is a [[resolution]] by [[projective objects]], by construction, hence of tensor [[acyclic objects]] for which all [[Tor]]-modules vanish, this simplifies to
 
 $$
   \begin{aligned}
-     {}^A E^1_{p,q} & \simeq H_q( Q^A_p \otimes Q^B_\bullet )
-     \\
+     {}^A E^1_{p,q} 
      & \simeq Q^A_p \otimes H_q(Q^B_\bullet)
      \\
      & \simeq \left\{
        \array{
-           Q^A_p \otimes B & if\; q = 0
+           Q^A_p \otimes_R B & if\; q = 0
            \\
            0 & otherwise
        }
@@ -373,13 +399,12 @@ and similarly
 
 $$
   \begin{aligned}
-     {}^B E^1_{p,q} & \simeq H_p( Q^A_\bullet \otimes Q^B_q )
-     \\
-     & \simeq H_p(Q^A_\bullet) \otimes_R Q^B_q
+     {}^B E^1_{p,q} 
+     & \simeq H_q(Q^A_\bullet) \otimes_R Q^B_p
      \\
      & \simeq \left\{
        \array{
-           A \otimes Q^B_q & if\; p = 0
+           A \otimes_R Q^B_p & if\; q = 0
            \\
            0 & otherwise
        }
@@ -394,11 +419,8 @@ $$
   \begin{aligned}
     {}^A E^2_{p,q} 
     & \simeq
-    H_p(H_q(Q^A_\bullet \otimes Q^B_\bullet))
+    H_p(H^{vert}_q(Q^A_\bullet \otimes Q^B_\bullet))
     \\
-   & \simeq
-   H_p( Q^B_\bullet \otimes_R B )
-   \\
    & \simeq 
    \left\{
      \array{
@@ -415,15 +437,12 @@ and
 $$
   \begin{aligned}
     {}^B E^2_{p,q} & \simeq
-    H_q(H_p(Q^A_\bullet \otimes Q^B_\bullet))
+    H_p(H^{hor}_q(Q^A_\bullet \otimes Q^B_\bullet))
     \\
-   & \simeq
-   H_q( A \otimes_R Q^B_\bullet )
-   \\
    & \simeq 
    \left\{
      \array{
-       (L_p ( A \otimes_R (-) ))(B) & if \; p = 0
+       (L_p ( A \otimes_R (-) ))(B) & if \; q = 0
        \\
        0 \; otherwise
      }
@@ -432,7 +451,7 @@ $$
   \,.
 $$
 
-Now since both of these second pages are concentrated in a single row, it follows that both have their final value here, and hence
+Now both of these second pages are concentrated in a single row and hence have converged on that page already. Therefore, since they both converge to the same value:
 
 $$
   L_p((-)\otimes_R B)(A)
@@ -446,7 +465,6 @@ $$
   L_p(A \otimes_R (-))(B)
   \,.
 $$
-
 
 =--
 
