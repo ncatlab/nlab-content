@@ -89,5 +89,9 @@ Dedicated discussion of the case of spectral sequences of double complexes is fo
 
 * Ravi Vakil, _Spectral Sequences: Friend or Foe?_ ([pdf](http://math.stanford.edu/~vakil/0708-216/216ss.pdf)) 
 
+or in section 25, lecture 9 of 
+
+* [[Rick Jardine]], _Lectures on Homotopy Theory_ ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture009.pdf))
+
 Details are usually discussed for the more general case of a _[[spectral sequence of a filtered complex]]_.
 
