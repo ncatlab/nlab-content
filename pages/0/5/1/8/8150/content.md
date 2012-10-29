@@ -341,7 +341,7 @@ and hence we can consistently write $Tor_n(A,B)$ for either.
 +-- {: .proof}
 ###### Proof
 
-Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding tensor product of chain complexes]] 
+Let $Q^A_\bullet \stackrel{\simeq_{qi}}{\to} A$ and $Q^B_\bullet \stackrel{\simeq_{qi}}{\to} B$ be [[projective resolutions]] of $A$ and $B$, respectively. The corresponding [[tensor product of chain complexes]] 
 $Tot (Q^A_\bullet\otimes Q^B_\bullet)$, hence by prop. \ref{AsTotalComplex} the [[total complex]] of the degreewise [[tensor product of modules]] [[double complex]] carries the [[filtered chain complex|filtration]] by horizontal degree as well as that by vertical degree.
 
 Accordingly there are the corresponding two [[spectral sequences of a double complex]], to be denoted here $\{{}^{A}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $A$-degree) and $\{{}^{B}E^r_{p,q}\}_{r,p,q}$ (for the filtering by $B$-degree). By the discussion there, both converge to the chain homology of the total complex. 
