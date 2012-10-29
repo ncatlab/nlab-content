@@ -95,3 +95,6 @@ or in section 25, lecture 9 of
 
 Details are usually discussed for the more general case of a _[[spectral sequence of a filtered complex]]_.
 
+
+[[!redirects spectral sequences of a double complex]]
+[[!redirects spectral sequences of double complexes]]
