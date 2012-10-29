@@ -3,7 +3,7 @@ Alex Heller, (born on July 9, 1925, died January 31,
 
 * [mathematics genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=4773)
 
-* [Obituary] prepared by Noson Yanofsky.
+* [[Alex-Heller.pdf|Obituary:file]]  prepared by [[Noson Yanofsky]].
 
 ##References
 
