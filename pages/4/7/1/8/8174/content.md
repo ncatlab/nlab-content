@@ -24,3 +24,5 @@ A class of [[spectral sequences]].
 
 * Bertrand Guillou, _The Bousfield-Kan spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/BKss.pdf))
 
+
+[[!redirects Bousfield-Kan spectral sequence]]
