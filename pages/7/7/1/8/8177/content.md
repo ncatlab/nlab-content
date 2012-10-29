@@ -36,3 +36,5 @@ Textbook accounts include
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _III: The Eilenberg-Moore spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch3.pdf))
 
 [[!redirects Künneth spectral sequence]]
+
+[[!redirects Eilenberg-Moore spectral sequence]]
