@@ -3,6 +3,8 @@ Alex Heller, (born on July 9, 1925, died January 31,
 
 * [mathematics genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=4773)
 
+* [Obituary] prepared by Noson Yanofsky.
+
 ##References
 
 * Alex Heller, _Homotopy resolutions of semi-simplicial complexes_,Trans. Amer. Math. Soc. 80 (1955), 299-344, (available [here](http://www.ams.org/journals/tran/1955-080-02/S0002-9947-1955-0075588-0/).
