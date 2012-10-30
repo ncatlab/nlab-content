@@ -130,9 +130,17 @@ $$
   (k \gt dim X) \Rightarrow (H_k(X) \simeq 0).
 $$
 
+Moreover, for $k \lt n$ the inclusion
+
+$$
+  H_k(X_n) \stackrel{\simeq}{\to} H_k(X)
+$$
+
+is an [[isomorphism]].
+
 =--
 
-For instance ([Hatcher, lemma 2.34 b)](#Hatcher)).
+For instance ([Hatcher, lemma 2.34 b),c)](#Hatcher)).
 
 +-- {: .proof}
 ###### Proof
