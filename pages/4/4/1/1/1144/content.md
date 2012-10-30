@@ -216,7 +216,7 @@ $$
 $$
  
 
-and throws away all the simplices except the basepoint in degrees $0$ and $1$.  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaing an honest [[simplicial group]]
+and throws away all the simplices except the basepoint in degrees $0$ and $1$.  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaining an honest [[simplicial group]]
 
 $$
   G S(X).
@@ -234,7 +234,7 @@ $$
   \hat \mathbb{Q}[G S(X)], 
 $$
 
-which happens to be cocommutative, since the group ring is cocommutative. Taking degreewise [[primitive element|primitives]]s, one then gets a reduced simplicial Lie algebra
+which happens to be cocommutative, since the group ring is cocommutative. Taking degreewise [[primitive element|primitives]], one then gets a reduced simplicial Lie algebra
 
 $$
   Prim(\hat \mathbb{Q}[G  S(X)]).
