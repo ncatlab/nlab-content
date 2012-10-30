@@ -1,3 +1,12 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### [[categories of categories - contents|categories of categories]]
++-- {: .hide}
+[[!include categories of categories - contents]]
+=--
+=--
+=--
 **$\infty Grpd$** is the [[(∞,1)-category]] of [[∞-groupoid]]s, i.e. of [[(∞,0)-categories]].
 
 It is the full [[sub-quasi-category|subcategory]] of [[(∞,1)Cat]] on those [[(∞,1)-categories]] that are [[∞-groupoid]]s.
