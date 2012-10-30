@@ -98,8 +98,11 @@ A __logic__ is a specific method of reasoning.  There are several ways to formal
 ## References
 
 * [[Lambek]], J.; [[Philip Scott|Scott]], P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
-* [[Bart Jacobs]] (1999), _Categorical Logic and Type Theory_, Elsevier.
-  
+
+* [[Bart Jacobs]], _Categorical Logic and Type Theory_, (1999) Elsevier 
+
+* [[John Bell]], _The development of categorical logic_ ([pdf](http://publish.uwo.ca/~jbell/catlogprime.pdf))
+
 
 Historically, in some philosophical circles 'logic' was understood in a broader sense:
 
