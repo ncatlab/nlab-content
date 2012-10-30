@@ -1,0 +1,24 @@
+
+**$(n+1,r+1)$-categories of [[(n,r)-categories]]**
+
+* [[Pos]]
+
+* [[Set]]
+
+  * [[Rel]], [[Prof]]
+
+* [[Grpd]], [[∞Grpd]]
+
+* [[Cat]]
+
+  * [[VCat]]
+
+  * [[Operad]]
+
+* [[2Cat]]
+
+* [[(∞,1)Cat]]
+
+  * [[(∞,1)Operad]]
+
+* [[(∞,n)Cat]]
