@@ -389,7 +389,7 @@ There is, in general, a decisive difference between the homology of the associat
 
 We discuss the convergence of the spectral sequence of a filtered complex, below in prop. \ref{ConvergingToGenuineHomology}. First we recall the relevant definitions.
 
-+-- {: .num_defn }
++-- {: .num_defn #LimitTerm}
 ###### Definition
 
 Let $\{E^r_{p,q}\}_{r,p,q}$ be a [[spectral sequence]] such that for each $p,q$ there is $r(p,q)$ such that for all $r \geq r(p,q)$ we have
@@ -401,24 +401,66 @@ $$
 
 Then one says that
 
-* the [[bigraded object]]
+1. the [[bigraded object]]
 
-  $$
-    E^\infty 
-     \coloneqq 
-    \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{r(p,q)}_{p,q} \}
-  $$
+   $$
+     E^\infty 
+      \coloneqq 
+     \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{r(p,q)}_{p,q} \}_{p,q}
+   $$
 
-  is the **limit term** of the spectral sequence;
+   is the **limit term** of the spectral sequence;
 
-* the spectral sequence **abuts** to $E^\infty$.
+*  the spectral sequence **abuts** to $E^\infty$.
 
 =--
 
-+-- {: .num_defn #LimitTerm}
++-- {: .num_example #Degeneration}
+###### Example
+
+If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is limit term for the spectral sequence. One says in this cases that the spectral sequence **collapses** at $r_s$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the defining relation
+
+$$
+  E^{r+1}_{p,q} \simeq ker(\partial^r_{p-r,q+r-1})/im(\partial^r_{p,q}) = E^r_{pq}
+$$
+
+the spectral sequence becomes constant in $r$ from $r_s$ on if all the differentials vanish, so that $ker(\partial^r_{p,q}) = E^r_{p,q}$ for all $p,q$.
+
+=--
+
+
++-- {: .num_example #Collaps}
+###### Example
+
+If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the the spectral sequence degenerates on this pages, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $r \geq 2$ the [[differentials]] of the spectral sequence
+
+$$
+  \partial^r \colon E^r_{p,q} \to E^r_{p-r, q+r-1}
+$$ 
+
+have [[domain]] and [[codomain]] necessarily in different rows an columns (while for $r = 1$ both are in the same row and for $r = 0$ both coincide). Therefore if all but one row or column vanish, then all these differentials vanish.
+
+=--
+
+
++-- {: .num_defn #Convergence}
 ###### Definition
 
-A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ is said to **converge** to a [[chain complex]] $H_\bullet$ with [[filtered chain complex|filtering]] $F_\bullet H_\bullet$, traditionally denoted
+A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ is said to **converge** to a [[graded object]] $H_\bullet$ with [[filtered chain complex|filtering]] $F_\bullet H_\bullet$, traditionally denoted
 
 $$
   E^r_{p,q} \Rightarrow H_\bullet
@@ -431,6 +473,19 @@ $$
   E^\infty_{p,q} \simeq G_p H_{p+q} \;\;\;\;\;\;\; \forall_{p,q}
   \,.
 $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, oftne the second page. Then one often uses notation such as
+
+$$
+  E^2_{p,q} \Rightarrow H_\bullet
+$$
+
+to be read as "There is a spectral sequence whose second page is as shown on the left and which converges to a filtered object as shown on the right."
 
 =--
 
@@ -450,6 +505,8 @@ A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
 
 * a third quadrant spectral sequence** if all terms except possibly for $p,q \leq 0$ vanish.
 
+Such spectral sequences are bounded, def. \ref{BoundedSpectralSequence}.
+
 =--
 
 +-- {: .num_prop #BoundedSpectralSequenceHasLimitTerm}
@@ -459,8 +516,42 @@ A bounded spectral sequence, def. \ref{BoundedSpectralSequence}, has a limit ter
 
 =--
 
-See for instance ([Orlich 2.2.1](#Orlich)).
++-- {: .proof}
+###### Proof
 
+First notice that if a spectral sequence has at most $N$ non-vanishing terms of total degree $n$ on page $r$, then all the following pages have at most at these positions non-vanishing terms, too, since these are the homologies of the previous terms.
+
+Therefore for a bounded spectral sequence for each $n$ there is $L(n) \in \mathbb{Z}$ such that $E^r_{p,n-p} = 0$ for all $p \leq L(n)$ and all $r$. Similarly there is $T(n) \in \mathbb{Z}$ such $E^r_{n-q,q} = 0$ for all $q \leq T(n)$ and all $r$.
+
+We claim then that the limit term of the bounded spectral sequence is in position $(p,q)$ given by the value $E^r_{p,q}$ for 
+
+$$
+  r \gt max(  p-L(p+q-1), q + 1 - L(p+q+1) )
+  \,.
+$$
+
+This is because for such $r$ we have
+
+1. $E^r_{p-r, q+r-1} = 0$ because $p-r \lt L(p+q-1)$, and hence the [[kernel]] $ker(\partial^r_{p-r,q+r-1}) = 0$ vanishes;
+
+1. $E^r_{p+r, q-r+1} = 0$ because $q-r + 1 \lt T(p+q+1)$, and hence the [[image]] $im(\partial^r_{p,q}) = 0$ vanishes.
+
+Therefore
+
+$$
+  \begin{aligned}
+    E^{r+1}_{p,q} 
+    &= 
+    ker(\partial^r_{p-r,q+r-1})/im(\partial^r_{p,q})
+    \\
+    & \simeq E^r_{p,q}/0
+    \\
+    & \simeq E^r_{p,q}
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop #ConvergingToGenuineHomology}
 ###### Proposition
@@ -800,7 +891,7 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 A detailed account is in 
 
-* Jennifer Orlich, _Spectral sequences and an application_ ([pdf](www.math.osu.edu/~flicker.1/orlich.pdf))
+* Jennifer Orlich, _Spectral sequences and an application_ ([pdf](http://www.math.osu.edu/~flicker.1/orlich.pdf))
  {#Orlich}
 
 Lecture notes include
