@@ -56,7 +56,9 @@ While the subject is still young, visible at the horizon is its role in [[higher
 
 Here are some introductory words for readers unfamiliar with the general idea. Other readers should skip [ahead](#Definition).
 
+* _[Introduction for 1-category theorists](#1CatIntro)_
 
+* _[Introduction for homotopy theorists](#HomotopyIntro)_
 
 ### For 1-category theorists
  {#1CatIntro}
@@ -69,7 +71,7 @@ Ordinary [[category theory]] provides various powerful tools for generating high
 
 1. [[internalization]].
 
-Here we are interested in higher order _[[categories]]_, so weconsider [[Cat]] itself as a 1-categorical context for either of these procedures. Since [[Cat]] naturally a [[cartesian monoidal category]] 
+Here we are interested in higher order _[[categories]]_, so we consider [[Cat]] itself as a 1-categorical context for either of these procedures. Since [[Cat]] naturally a [[cartesian monoidal category]] 
 
 $$
   (\mathcal{V}, \otimes) \coloneqq (Cat, \times)
