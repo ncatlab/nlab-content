@@ -1,7 +1,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### [[categories of categories - contents|categories of categories]]
+#### Categories of categories
 +-- {: .hide}
 [[!include categories of categories - contents]]
 =--
