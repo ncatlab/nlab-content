@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[geometric theory]] $T$ is **of presheaf type** if its [[classifying topos]] is [[equivalence of categories|equivalent]] to a [[presheaf topos]].
+
+## References
+
+* [[Tibor Beke]], _Theories of presheaf type_ ([pdf](http://faculty.uml.edu/tbeke/jsl.pdf))
+
+[[!redirects theories of presheaf type]]
