@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -50,6 +50,7 @@ More generally, one may think of a monoidal category as a [[bicategory]] with a 
 
 * [Enrichment in a bicategory](#InBicat)
 
+Enriched categories and [[enriched functors]] between them form themselves a category, the _[[category of V-enriched categories]]_.
 
 ### Enrichment in a monoidal category {#InMonoidCat}
 
