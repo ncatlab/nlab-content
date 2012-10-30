@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 
 
 # &#268;ech nerve
@@ -54,10 +64,11 @@ This example is more or less the way that [[Eduard ?ech]] gave the original form
 
 ##Related entries
 
-* [[Cech groupoid]]
+* [[?ech groupoid]]
 
 * [[effective epimorphism]]
 
+* [[nerve theorem]]
 
 [[!redirects Cech nerve]]
 [[!redirects Cech-nerve]]
@@ -66,3 +77,6 @@ This example is more or less the way that [[Eduard ?ech]] gave the original form
 [[!redirects ?ech nerve]]
 [[!redirects ?ech-nerve]]
 [[!redirects Cech complex]]
+
+[[!redirects ?ech nerves]]
+[[!redirects Cech nerves]]
