@@ -32,7 +32,30 @@ Note that as defined here, $Prof$ is a weak $2$-[[2-category|category]] or [[bic
 
 Note that every functor $f\colon A\to B$ gives two [[representable functor|representable]] profunctors $B(f-,-)$ and $B(-,f-)$.  This defines two [[2-functors]] $Cat \to Prof$ that are  the identity on objects.  The relationship between [[Cat]] and $Prof$ encoded in this way makes them into an [[equipment]].
 
-There are also [[enriched category|enriched]] and [[internal category|internal]] versions of $Prof$.
+There are also [[enriched category|enriched]] and [[internal category|internal]] versions of $Prof$. These accordingly refine [[categories of enriched categories]].
 
+## Related concepts
+
+* [[Pos]]
+
+* [[Set]]
+
+  * [[Rel]], **Prof**
+
+* [[Grpd]], [[∞Grpd]]
+
+* [[Cat]], 
+
+  * [[Operad]]
+
+  * [[VCat]]
+
+* [[2Cat]]
+
+* [[(∞,1)Cat]]
+
+  * [[(∞,1)Operad]]
+
+* [[(∞,n)Cat]]
 
 category: category
