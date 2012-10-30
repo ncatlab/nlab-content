@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
-#### [[categories of categories - contents|categories of categories]]
+#### Categories of categories
 +-- {: .hide}
 [[!include categories of categories - contents]]
 =--
