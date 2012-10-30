@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -199,7 +200,13 @@ We say a functor $\mathcal{T}_1 \to \mathcal{T}_2$ of toposes (for instance a [[
 
 For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] since, being a [[right adjoint]], it preserves [[limit]]s, hence finite products.
 
-## Links and literature
+## Related concepts
+
+* [[type theory]]
+
+* [[theory of presheaf type]]
+
+## References
 
 * H. Jerome Keisler, _Fundamentals of model theory_, A2 in JOhn Barwise, Handbook of mathematical logic (pp.47-103), North Holland 1977
 
