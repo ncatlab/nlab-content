@@ -88,7 +88,7 @@ $$
 for its [[filtered topological space]]-structure with $X_{n+1}$ the topological space obtained from $X_n$ by gluing on $(n+1)$-cells. For $n \in \mathbb{N}$ write $nCells \in Set$ for the set of $n$-cells of $X$.
 
 
-+-- {: .num_prop }
++-- {: .num_prop #SkeletalRelativeSingularHomologyOfCW}
 ###### Proposition
 
 The [[relative singular homology]] of the filtering degrees is
@@ -136,11 +136,16 @@ $$
   H_k(X_n) \stackrel{\simeq}{\to} H_k(X)
 $$
 
-is an [[isomorphism]].
+is an [[isomorphism]] and for $k = n$ we have an isomorphism
+
+$$
+  image(H_n(X_n) \to H_n(X)) \simeq H_n(X)
+  \,.
+$$
 
 =--
 
-For instance ([Hatcher, lemma 2.34 b),c)](#Hatcher)).
+This is mostly for instance in ([Hatcher, lemma 2.34 b),c)](#Hatcher)).
 
 +-- {: .proof}
 ###### Proof
@@ -158,7 +163,7 @@ $$
   \,.
 $$
 
-Now by prop. \ref{RelativeHomologyOfFilterStep} the leftmost and rightmost homology groups here vanish when $k \neq n$ and $k \neq n-1$ and hence exactness implies that
+Now by prop. \ref{SkeletalRelativeSingularHomologyOfCW} the leftmost and rightmost homology groups here vanish when $k \neq n$ and $k \neq n-1$ and hence exactness implies that
 
 $$
   H_k(X_{n-1})
@@ -166,7 +171,22 @@ $$
   H_k(X_n)
 $$
 
-is an [[isomorphism]] for $k \neq n,n-1$. This implies the claim by [[induction]] on $n$.
+is an [[isomorphism]] for $k \neq n,n-1$. This implies the first claims by [[induction]] on $n$.
+
+Finally for the last claim use that the above exact sequence gives
+
+$$
+  H_{n-1+1}(X_n , X_{n-1})
+  \to 
+  H_{n-1}(X_{n-1})
+  \to 
+  H_{n-1}(X_n)
+  \to 
+  0
+$$
+
+and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surjective.
+
 
 =--
 
