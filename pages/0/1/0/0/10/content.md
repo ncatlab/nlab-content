@@ -43,9 +43,9 @@ Hence one can think of classifying topoi as a grand generalization of the notion
 
 ## Definition
 
-In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows one to usefully interpret these categories as _categories of certain structures in $E$_ :
+In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphisms]] $E \to F$ into it. The concept of [[geometric theory]] allows one to usefully interpret these categories as _categories of certain structures in $E$_ :
 
-as decribed in [Geometric theories -- In terms of sheaf topoi](http://ncatlab.org/nlab/show/geometric+theory#InTermsOfSheafTopoi), every [[sheaf topos]] $F$ is a completion $S[T]$ of the [[syntactic category]] $C_T$ of _some_ [[geometric theory]] $T$
+as decribed in _[Geometric theories -- In terms of sheaf topoi](geometric+theory#InTermsOfSheafTopoi)_, every [[sheaf topos]] $F$ is a completion $S[T]$ of the [[syntactic category]] $C_T$ of _some_ [[geometric theory]] $T$
 
 $$
   F \simeq S[T]  
@@ -81,6 +81,7 @@ More specifically, for any [[cartesian theory]], [[regular theory]] or [[coheren
 
 Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
 
+If the classifying topos of a geometric theory $T$ is a [[presheaf topos]], one called $T$ a _[[theory of presheaf type]]_.
 
 ## Background on the theory of theories
 
