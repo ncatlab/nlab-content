@@ -250,7 +250,7 @@ We identify various of the pages of this spectral sequences with structures in s
 
 * $r = 1$ -- $E^1_{p,q}(X) \simeq H_{p+q}(X_p, X_{p-1})$ is the $X_{p-1}$-[[relative singular homology]] of $X_p$;
 
-* $r = 2$ -- $E^2_{p,q}(X) \simeq \left\{ \array{ H_q^{CW}(X) & for\; q = 0 \\ 0 & otherwise }  \right.$
+* $r = 2$ -- $E^2_{p,q}(X) \simeq \left\{ \array{ H_p^{CW}(X) & for\; q = 0 \\ 0 & otherwise }  \right.$
 
 * $r = \infty$ -- $E^\infty_{p,q}(X) \simeq F_p H_{p+q}(X) / F_{p-1} H_{p+q}(X) $.
 
