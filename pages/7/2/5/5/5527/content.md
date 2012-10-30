@@ -598,6 +598,24 @@ on its [[singular chain complex]] $C_\bullet(X)$ yields a first-quadrant spectra
 
 =--
 
+Before saying what that the spectral sequence of a filtered complex converges to the homology of that complex, we need to be careful about what the filtering is on that homology:
+
++-- {: .num_defn #FilteringOnHomology}
+###### Definition
+
+For $F_\bullet C_\bullet$ a [[filtered complex]], write for $p \in \mathbb{Z}$
+
+$$
+  F_p H_\bullet(C) 
+   \coloneqq
+  image( H_\bullet(F_p C_\bullet) \to H_\bullet(C_\bullet) )
+  \,.
+$$
+
+This defines a filtering $F_\bullet H_\bullet(C)$ of the homology, regarded as a graded object.
+
+=--
+
 
 +-- {: .num_prop #AbuttingFiltrationConvergesToHomology}
 ###### Proposition
@@ -612,9 +630,12 @@ $$
 Hence for each $p,q$ there is $r(p,q)$ such that
 
 $$
-  E^{r \geq r(p,q)}_{p,q} \simeq F_p H_{p+q}(C)
-  \,.
+  E^{r \geq r(p,q)}_{p,q} \simeq G_p H_{p+q}(C)
+  \,,
 $$
+
+with the filtering on the right as in def. \ref{FilteringOnHomology}.
+
 
 =--
 
