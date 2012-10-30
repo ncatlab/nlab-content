@@ -18,7 +18,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -91,7 +91,7 @@ The following definition follows in style the definition of a [[complete Segal s
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ an [[(∞,1)-category]], a **groupoid object** in $C$ is a [[simplicial object|simplicial]] [[diagram]]
+For $C$ an [[(∞,1)-category]], a **groupoid object** in $C$ is a [[simplicial object in an (∞,1)-category]]
 
 $$
   A : \Delta^{op} \to C
