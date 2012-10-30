@@ -203,6 +203,7 @@ $$
 This appears for instance as ([Hatcher, theorem 2.35](#Hatcher)). A proof is below as the proof of cor. \ref{CelluarEquivalentToSingularFromSpectralSequence}.
 
 ### Relation to the spectral sequence of the filtered singular complex
+ {#RelationToSpectralSequenceOfFilteredSingularComplex}
 
 The structure of a [[CW-complex]] on a [[topological space]] $X$, def. \ref{CWComplex} naturally induces on its [[singular simplicial complex]] $C_\bullet(X)$ the structure of a [[filtered chain complex]]:
 
@@ -290,7 +291,7 @@ $$
   \,.
 $$
 
-Finally observe that $G_p H_p(X) \simeq H_p(X)$.
+Finally observe that $G_p H_p(X) \simeq H_p(X)$ by the definition of the filtering on the homology as $F_p H_p(X) \coloneq image(H_p(X_p) \to H_p(X))$ and by standard properties of singular homology of [[CW complexes]] discusses at _[CW complex -- singular homology](CW+complex#SingularHomology)_.
 
 
 =--
