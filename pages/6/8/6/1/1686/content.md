@@ -75,72 +75,195 @@ Analogously a **homology spectral sequence** is collection of objects $(E_{p,q}^
 
 
 ### Convergence
+ {#ConvergenceOfSpectralSequences}
 
-+-- {: .num_defn}
++-- {: .num_defn #LimitTerm}
 ###### Definition
-**(convergence)**
 
-A component of a spectral sequence $(E_r)$ **converges** at $(p,q)$ if there exists finite $r$ such that $E_r^{p,q} \simeq E_{r+1}^{p,q} \cdots =: E_\infty^{p,q} $. One writes this as
+Let $\{E^r_{p,q}\}_{r,p,q}$ be a [[spectral sequence]] such that for each $p,q$ there is $r(p,q)$ such that for all $r \geq r(p,q)$ we have
 
 $$
-  E^{p,q}_r \Rightarrow E^{p,q}_\infty
+  E^{r \geq r(p,q)}_{p,q} \simeq E^{r(p,q)}_{p,q}
   \,.
 $$
 
-A spectral sequence is said to **degenerate** in the $E_r$-term if $d^{p,q}_{r'} = 0$ for all $r'\geq r$. Then clearly it converges degreewise.
+Then one says that
 
-A spectral sequence is called **bounded** if for each $r$ and $n$ there are only finitely many non-vanishing terms of the form $E_r^{p,n-p}$. Also a bounded spectral sequence converges degreewise.
+1. the [[bigraded object]]
 
-A spectral sequence $(E_r)$ **converges** if it converges degreewise to a graded filtration: if there is a graded object $(H^n)_{n \in \mathbb{Z}}$ equipped in each degree with a _finite_ filtration
+   $$
+     E^\infty 
+      \coloneqq 
+     \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{r(p,q)}_{p,q} \}_{p,q}
+   $$
+
+   is the **limit term** of the spectral sequence;
+
+*  the spectral sequence **abuts** to $E^\infty$.
+
+=--
+
++-- {: .num_example #Degeneration}
+###### Example
+
+If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is limit term for the spectral sequence. One says in this cases that the spectral sequence **collapses** at $r_s$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the defining relation
 
 $$
-  0 \subset \cdots \subset F^{p} H^n \subset F^{p-1}H^n  \subset \cdots \subset F^0 H^n := H^n
+  E^{r+1}_{p,q} \simeq ker(\partial^r_{p-r,q+r-1})/im(\partial^r_{p,q}) = E^r_{pq}
 $$
 
-such that
+the spectral sequence becomes constant in $r$ from $r_s$ on if all the differentials vanish, so that $ker(\partial^r_{p,q}) = E^r_{p,q}$ for all $p,q$.
+
+=--
+
+
++-- {: .num_example #Collaps}
+###### Example
+
+If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the the spectral sequence degenerates on this pages, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $r \geq 2$ the [[differentials]] of the spectral sequence
 
 $$
-  E_\infty^{p,q}  \simeq F^p H^{p+q} / F^{p+1}H^{p+q}
+  \partial^r \colon E^r_{p,q} \to E^r_{p-r, q+r-1}
+$$ 
+
+have [[domain]] and [[codomain]] necessarily in different rows an columns (while for $r = 1$ both are in the same row and for $r = 0$ both coincide). Therefore if all but one row or column vanish, then all these differentials vanish.
+
+=--
+
+
++-- {: .num_defn #Convergence}
+###### Definition
+
+A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ is said to **converge** to a [[graded object]] $H_\bullet$ with [[filtered chain complex|filtering]] $F_\bullet H_\bullet$, traditionally denoted
+
+$$
+  E^r_{p,q} \Rightarrow H_\bullet
+  \,,
+$$
+
+if the [[associated graded]] complex $\{G_p H_{p+q}\}_{p,q} \coloneqq \{F_p H_{p+q} / F_{p-1} H_{p+q}\}$ of $H$ is the limit term of $E$, def. \ref{LimitTerm}:
+
+$$
+  E^\infty_{p,q} \simeq G_p H_{p+q} \;\;\;\;\;\;\; \forall_{p,q}
   \,.
 $$
 
-The notation for this is
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, oftne the second page. Then one often uses notation such as
 
 $$
-  E_r^{p,q} \Rightarrow H^{p+q}
-  \,.
+  E^2_{p,q} \Rightarrow H_\bullet
 $$
+
+to be read as "There is a spectral sequence whose second page is as shown on the left and which converges to a filtered object as shown on the right."
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In applications one is interested in computing the $H^n$ and uses spectral sequences converging to this as tools for approximating $H^n$ in terms of the given filtration.
+In applications one is interested in computing the $H_n$ and uses spectral sequences converging to this as tools for approximating $H_n$ in terms of the given filtration.
 
 Therefore usually spectral sequences are required to converge in each degree, or even that for each pair $(p,q)$ there exists an $r_0$ such that for all $r\geq r_0$, $d_r^{p-r,q+r-1} = 0$.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_remark}
+###### Remark
+
+
+If $(E^r)$ collapses at $r$, then it converges to $H_\bullet$ with $H_n$ being the unique entry $E_{p,q}^r$ on the non-vanishing row/column with $p+q = n$.
+
+=--
+
+
+### Boundedness
+ {#Boundedness}
+
+
++-- {: .num_defn #BoundedSpectralSequence}
 ###### Definition
-**(Collapse)**
 
-A spectral sequence **collapses** at $r$ if in $E_r^{p,q}$ only a single row or a single column in non-vanishing.
-
-=--
-
-+-- {: .num_lemma}
-###### Observation
-
-
-If $(E_r)$ collapses at $r$, then it converges to $H^\bullet$ with $H^n$ being the unique entry $E^{p,q}_r$ on the non-vanishing row/column with $p+q = n$.
+A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if for all $n,r \in \mathbb{Z}$ the number of non-vanishing terms of the form $E^r_{k,n-k}$ is finite.
 
 =--
 
-### Graphical presentation
++-- {: .num_defn #QuadrantSpectralSequence}
+###### Example
 
-(...)
+A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
+
+* a **first quadrant spectral sequence** if all terms except possibly for $p,q \geq 0$ vanish;
+
+* a **third quadrant spectral sequence** if all terms except possibly for $p,q \leq 0$ vanish.
+
+Such spectral sequences are bounded, def. \ref{BoundedSpectralSequence}.
+
+=--
+
++-- {: .num_prop #BoundedSpectralSequenceHasLimitTerm}
+###### Proposition
+
+A bounded spectral sequence, def. \ref{BoundedSpectralSequence}, has a limit term, def. \ref{LimitTerm}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice that if a spectral sequence has at most $N$ non-vanishing terms of total degree $n$ on page $r$, then all the following pages have at most at these positions non-vanishing terms, too, since these are the homologies of the previous terms.
+
+Therefore for a bounded spectral sequence for each $n$ there is $L(n) \in \mathbb{Z}$ such that $E^r_{p,n-p} = 0$ for all $p \leq L(n)$ and all $r$. Similarly there is $T(n) \in \mathbb{Z}$ such $E^r_{n-q,q} = 0$ for all $q \leq T(n)$ and all $r$.
+
+We claim then that the limit term of the bounded spectral sequence is in position $(p,q)$ given by the value $E^r_{p,q}$ for 
+
+$$
+  r \gt max(  p-L(p+q-1), q + 1 - L(p+q+1) )
+  \,.
+$$
+
+This is because for such $r$ we have
+
+1. $E^r_{p-r, q+r-1} = 0$ because $p-r \lt L(p+q-1)$, and hence the [[kernel]] $ker(\partial^r_{p-r,q+r-1}) = 0$ vanishes;
+
+1. $E^r_{p+r, q-r+1} = 0$ because $q-r + 1 \lt T(p+q+1)$, and hence the [[image]] $im(\partial^r_{p,q}) = 0$ vanishes.
+
+Therefore
+
+$$
+  \begin{aligned}
+    E^{r+1}_{p,q} 
+    &= 
+    ker(\partial^r_{p-r,q+r-1})/im(\partial^r_{p,q})
+    \\
+    & \simeq E^r_{p,q}/0
+    \\
+    & \simeq E^r_{p,q}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 ## Examples
  {#Examples}
