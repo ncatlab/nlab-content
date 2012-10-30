@@ -387,6 +387,51 @@ There is, in general, a decisive difference between the homology of the associat
 #### General
  {#ConvergenceGeneral}
 
+We discuss the convergence of the spectral sequence of a filtered complex, below in prop. \ref{ConvergingToGenuineHomology}. First we recall the relevant definitions.
+
++-- {: .num_defn }
+###### Definition
+
+Let $\{E^r_{p,q}\}_{r,p,q}$ be a [[spectral sequence]] such that there is $\tilde r$ such that for all $r \geq \tilde r$ we have
+
+$$
+  E^{r \geq \tilde r}_{p,q} \simeq E^{\tilde r}_{p,q}
+$$
+
+for all $p,q$. Then one says that
+
+* the [[bigraded object]]
+
+  $$
+    E^\infty \coloneqq \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{\tilde}_{p,q} \}
+  $$
+
+  is the **limit term** of the spectral sequence;
+
+* the spectral sequence **abuts** to $E^\infty$.
+
+=--
+
++-- {: .num_defn #LimitTerm}
+###### Definition
+
+A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ is said to **converge** to a [[chain complex]] $H_\bullet$ with [[filtered chain complex|filtering]] $F_\bullet H_\bullet$, traditionally denoted
+
+$$
+  E^r_{p,q} \Rightarrow H_\bullet
+  \,,
+$$
+
+if the [[associated graded]] complex $\{G_p H_{p+q}\}_{p,q} \coloneqq \{F_p H_{p+q} / F_{p-1} H_{p+q}\}$ is a limit term, def. \ref{LimitTerm}:
+
+$$
+  E^\infty_{p,q} \simeq G_p H_{p+q} \;\;\;\;\;\;\; \forall_{p,q}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop #ConvergingToGenuineHomology}
 ###### Proposition
 
