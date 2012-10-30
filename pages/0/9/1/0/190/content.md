@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Categories of categories
++--{: .hide}
+[[!include categories of categories - contents]]
+=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -73,13 +77,21 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 * [[Set]]
 
+  * [[Rel]], [[Prof]]
+
 * [[Grpd]], [[∞Grpd]]
 
-* **$Cat$**, [[Operad]]
+* **$Cat$**, 
+
+  * [[Operad]]
+
+  * [[VCat]]
 
 * [[2Cat]]
 
-* [[(∞,1)Cat]], [[(∞,1)Operad]]
+* [[(∞,1)Cat]]
+
+  * [[(∞,1)Operad]]
 
 * [[(∞,n)Cat]]
 
@@ -87,7 +99,7 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## References
 
-See also the references at [[category]] and [[category theory]].
+See also the references at _[[category]]_ and _[[category theory]]_.
 
 Discussion of (certain) [[pushout]]s in $Cat$ is in 
 
