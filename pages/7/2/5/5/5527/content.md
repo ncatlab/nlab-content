@@ -403,7 +403,9 @@ for all $p,q$. Then one says that
 * the [[bigraded object]]
 
   $$
-    E^\infty \coloneqq \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{\tilde}_{p,q} \}
+    E^\infty 
+     \coloneqq 
+    \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{\tilde t}_{p,q} \}
   $$
 
   is the **limit term** of the spectral sequence;
@@ -430,6 +432,33 @@ $$
 $$
 
 =--
+
++-- {: .num_defn #BoundedSpectralSequence}
+###### Definition
+
+A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if for all $n,r \in \mathbb{Z}$ the number non-vanishing terms of the form $E^r_{k,n-k}$ is finite.
+
+=--
+
++-- {: .num_defn #QuadrantSpectralSequence}
+###### Example
+
+A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
+
+* a **first quadrant spectral sequence** if all terms except possibly for $p,q \geq 0$ vanish;
+
+* a third quadrant spectral sequence** if all terms except possibly for $p,q \leq 0$ vanish.
+
+=--
+
++-- {: .num_prop #BoundedSpectralSequenceHasLimitTerm}
+###### Proposition
+
+A bounded spectral sequence, def. \ref{BoundedSpectralSequence}, has a limit term, def. \ref{LimitTerm}.
+
+=--
+
+See for instance ([Orlich 2.2.1](#Orlich)).
 
 
 +-- {: .num_prop #ConvergingToGenuineHomology}
@@ -768,16 +797,20 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 ## References
 
-A decent account is given in 
+A detailed account is in 
+
+* Jennifer Orlich, _Spectral sequences and an application_ ([pdf](www.math.osu.edu/~flicker.1/orlich.pdf))
+ {#Orlich}
+
+Lecture notes include
 
 * [[Michael Hutchings]], _Introduction to spectral sequences_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
  {#Hutchings}
 
-Another careful introduction is in section 3 of 
+and section 3 of 
 
 * [[Brandon Williams]], _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
 
-(though some subsections there remain unfinished).
 
 For further references see those listed at _[[spectral sequence]]_, 
 for instance section 5 of 
