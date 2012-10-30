@@ -1,10 +1,17 @@
-#Idea#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The special case of [[localization of model categories]] for [[simplicial model categories]].
 
 A [[simplicial model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category]]. 
 
 The [[localization]] of a [[simplicial model category]] accordingly models the [[localization of an (infinity,1)-category|localization of the corresponding (infinity,1)-category]], i.e. the passage to the a [[reflective (infinity,1)-subcategory]]). 
 
-# Examples #
+## Examples 
 
 
 * A famous example of localizations of simplicial model categories appears in the study of [[model structure on simplicial presheaves|model structures on simplicial presheaves]], where it yields a [[presentable (infinity,1)-category|presentation]] of [[(infinity,1)-sheafification]] completely analogous to how ordinary [[localization]] described ordinary [[sheafification]]:
@@ -14,12 +21,12 @@ The [[localization]] of a [[simplicial model category]] accordingly models the [
   * the [[Bousfield localization]] of these global model structures at morphisms which are local (stalkwise) weak equivalences yields the _local_ projective/injective model structure on simplicial presheaves on $S$, which then [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category of (infinity,1)-sheaves]] on $S$.
 
 
-#Remarks#
+## Related concepts
 
-* see also [[Bousfield localization]]
+* [[Bousfield localization of model categories]]
 
 
-#References#
+## References
 
 chapter 9.4 in
 
@@ -28,3 +35,7 @@ chapter 9.4 in
 section A.3.7 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects localizations of a simplicial model category]]
+
+[[!redirects localization of simplicial model categories]]
