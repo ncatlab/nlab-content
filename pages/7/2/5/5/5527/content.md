@@ -384,10 +384,8 @@ There is, in general, a decisive difference between the homology of the associat
 ### Convergence
  {#Convergence}
 
-#### General
- {#ConvergenceGeneral}
+#### General definitions
 
-We discuss the convergence of the spectral sequence of a filtered complex, below in prop. \ref{ConvergingToGenuineHomology}. First we recall the relevant definitions.
 
 +-- {: .num_defn #LimitTerm}
 ###### Definition
@@ -496,7 +494,7 @@ A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if
 
 =--
 
-+-- {: .num_defn #QuadrantSpectralSequence}
++-- {: .num_example #QuadrantSpectralSequence}
 ###### Example
 
 A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
@@ -553,22 +551,68 @@ $$
 
 =--
 
-+-- {: .num_prop #ConvergingToGenuineHomology}
+#### Convergence of bounded filtrations
+ {#ConvergenceGeneral}
+
+
++-- {: .num_defn #BoundedFiltration}
+###### Definition
+
+A [[filtered chain complex|filtration]] $F_\bullet C_\bullet$ on a [[chain complex]] $C_\bullet$ is called a **bounded filtration** if for all $n \in \mathbb{Z}$ there is $L(n), T(n) \in \mathbb{Z}$ such that
+
+$$
+  F_{p \lt S(n)}C_n = 0
+  \;\;\;\;\;
+  F_{p \gt T(n)}C_n \simeq C_n
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_prop }
 ###### Proposition
 
-If the filtration of $C_\bullet$ is bounded in each degree, then 
-the spectral sequence of prop. \ref{ExplicitDefIsIndeedSpectralSequ}
-indeed converges to the chain homology of $C_\bullet$
+The spectral sequence of a filtered complex, def. \ref{BoundedFiltration}, has a limit term, def. \ref{LimitTerm}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The spectral sequence of a filtered complex $F_\bullet C_\bullet$ is by def. \ref{ExplicitForm} at $E^r_{p,q}$ a [[quotient]] of a [[subobject]] of $F_p C_{p+q}$. By def. \ref{BoundedFiltration} therefore there are for each $n,r \in \mathbb{Z}$ finitely many non-vanishing terms of the form $E^r_{p,n-p}$. Therefore the spectral sequence is bounded, def. \ref{BoundedSpectralSequence} and hence has a limit term by prop. \ref{BoundedSpectralSequenceHasLimitTerm}.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+If $X \in$ [[Top]] is a [[CW complex]] with cell filtration $X_0 \hookrightarrow X_1 \hookrightarrow \cdots \hookrightarrow X$, then the induced filtering 
 
 $$
-  E^r_{p,q} \Rightarrow H_{p+q}(C_\bullet)
-  \,,
+  F_p C_\bullet(X) \coloneqq C_\bullet(X_n)
 $$
 
-i.e. for sufficiently large $r$ we have
+on its [[singular chain complex]] $C_\bullet(X)$ yields a first-quadrant spectral sequence, example \ref{QuadrantSpectralSequence}. Therefore it has a limit term.
+
+=--
+
+
++-- {: .num_prop #AbuttingFiltrationConvergesToHomology}
+###### Proposition
+
+If the spectral sequence of a filtered complex $F_\bullet C_\bullet$, def. \ref{BoundedFiltration} has a limit term, def. \ref{LimitTerm}, then it converges, def. \ref{Convergence}, to the [[chain homology]] of this complex:
 
 $$
-  E^r_{p,q} = G_p H_{p+q}(C_\bullet)
+  E^r_{p,q} \Rightarrow H_\bullet(C)
+  \,.
+$$
+
+Hence for each $p,q$ there is $r(p,q)$ such that
+
+$$
+  E^{r \geq r(p,q)}_{p,q} \simeq F_p H_{p+q}(C)
   \,.
 $$
 
@@ -577,48 +621,13 @@ $$
 +-- {: .proof}
 ###### Proof
 
-If the filtration is bounded then for $r$ sufficiently large we have for all $p$
-
-$$
-  F_{p-r} C_\bullet = 0
-$$
-
-and
-
-$$
-  F_{p+r}C_\bullet = C_\bullet
-  \,.
-$$
-
-Therefore for such $r$ the $r$-almost cycles are ordinary cycles in the associated grading
-
-$$
-  Z^r_{p.q} = Z(F_p C_{p+q})/F_{p-1}C_{p+q}
-$$
-
-and the $r$-almost boundaries are just the ordinary boundaries
-
-$$
-  B^r_{p,q} = B(F_p C_{p+q})
-  \,.
-$$
-
-Therefore for such sufficiently large $r$ 
-
-$$
-  E^r_{p,q} = \frac{Z^r_{p,q}}{B^r_{p,q}} = \frac{F_p H_{p+q}(C_\bullet)}{F_{p-1} C_\bullet} = \frac{F_p H_{p+q}(C_\bullet)}{F_{p-1} H_{p+q}(C_\bullet)}
-  =
-  G_p H_{p+q}(C_\bullet)
-  \,.
-$$
-
-
+By assumption, there is for each $p,q$ an $r(p,q)$ such that for all $r \geq r(p,q)$ the $r$-almost cycles and $r$-almost boundaries, def. \ref{AlmostChainsCyclesBoundaries}, in $F_p C_{p+q}$ are the ordinary [[cycles]] and [[boundaries]]. Therefore for $r \geq r(p,q)$ def. \ref{ExplicitForm} gives $E^r_{p,q} \simeq G_p H_{p+q}(C)$.
 
 =--
 
 
-
 #### Via exact couples
+
 
 It is instructive to note that in the $n$th derived [[exact couple]] $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
 $$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
@@ -912,4 +921,6 @@ for instance section 5 of
 
 
 [[!redirects spectral sequence of a filtration]]
+
+[[!redirects spectral sequence of a filtered chain complex]]
 
