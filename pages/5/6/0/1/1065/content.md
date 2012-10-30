@@ -124,6 +124,8 @@ See also
 
 * [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
 
+* [[Urs Schreiber]], _[[schreiber:HAI|Homological Algebra - An Introduction]]_
+
 ### In constructive mathematics
 
 Discussion of homological algebra in [[constructive mathematics]] is in 
