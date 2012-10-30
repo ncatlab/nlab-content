@@ -1,4 +1,1 @@
-
-So far we just have an entry on
-
-* [[localization of a simplicial model category]]
+[[!redirects localization of a model category]]
