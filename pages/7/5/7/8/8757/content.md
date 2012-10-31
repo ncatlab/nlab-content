@@ -1,0 +1,44 @@
+
+> This is a sub-entry of _[[geometry of physics]]_.
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## **Quantum mechanics**
+ {#QuantumMechanics}
+
+### Model Layer
+
+#### Worldvolumes and cobordisms
+
+* [[cobordism]]
+
+#### Spectral triple
+
+* [[spectral triple]]
+
+### Semantic Layer
+
+#### Internal categories in an $\infty$-topos
+
+##### Simplicial objects in an $\infty$-topos
+
+* [[simplicial object in an (∞,1)-category]]
+
+##### Category objects in an $\infty$-topos
+
+* [[Segal condition]]
+
+* [[internal category in an (∞,1)-category]] 
+
+### Syntactic Layer
+
+#### Directed homotopy type theory
+
+
+
+* [[directed homotopy type theory]]
+
