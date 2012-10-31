@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[graph]] is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$.
+
+## Related concepts
+
+* [[reflexive relation]]
+
+[[!redirects reflexive graphs]]
+
