@@ -17,6 +17,10 @@
 
 A [[geometric theory]] $T$ is **of presheaf type** if its [[classifying topos]] is [[equivalence of categories|equivalent]] to a [[presheaf topos]].
 
+## Remarks
+
+* A theory is of presheaf type if and only if its category of models in [[Set]] is a finitely [[accessible category]], and if and only if it is [[sketch|sketchable]].
+
 ## References
 
 * [[Tibor Beke]], _Theories of presheaf type_ ([pdf](http://faculty.uml.edu/tbeke/jsl.pdf))
