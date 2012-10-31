@@ -436,3 +436,6 @@ Many of the later developments can already be seen there in 'embryonic' form.
 [[!redirects nerves]]
 [[!redirects simplicial nerve]]
 [[!redirects simplicial nerves]]
+
+[[!redirects nerve of a category]]
+[[!redirects nerves of a categories]]
