@@ -1,0 +1,22 @@
+
+**[[graph theory]]**
+
+[[graph]]
+
+* [[vertex]], [[edge]]
+
+* [[omega-graph]], [[hypergraph]]
+
+* [[quiver]], [[n-quiver]]
+
+### Extra properties
+
+* [[reflexive graph|reflexive]], [[directed graph|directed]]
+
+* [[relation]]
+
+### Extra structure
+
+* [[reflexive graph|reflexive]] [[directed graph]] + [[unit law|unital]] [[associative]] [[composition]] = [[category]]
+
+* [[ribbon graph]]
