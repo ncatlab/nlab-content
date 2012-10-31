@@ -1,59 +1,45 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Enriched category theory
-+--{: .hide}
++-- {: .hide}
 [[!include enriched category theory contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] (notbaly: for $\mathcal{V}$ a [[cosmos]]) there is a [[category]] $\mathcal{V} Cat$ whose
+For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] (notbaly: for $\mathcal{V}$ a [[cosmos]]) there is a $2$-[[2-category|category]] $\mathcal{V} Cat$ whose
 
 * [[objects]] are $V$-[[enriched categories]];
 
-* [[morphisms]] are $V$-[[enriched functors]].
+* [[morphisms]] are $V$-[[enriched functors]]; and
+
+* $2$-[[2-morphism|morphisms]] are $V$-[[enriched natural transformations]].
+
+Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by dropping the $2$-morphisms (and using enriched [[strict categories]]).
 
 
 ## Examples
 
-* For $\mathcal{V} = ($[[Set]]$, \times)$, $\mathcal{V}Cat \simeq$ [[Cat]], the category of [[locally small categories]].
+* For $\mathcal{V} = ($[[Set]]$, \times)$, $\mathcal{V}Cat \simeq$ [[Cat]], the $2$-category of [[locally small categories]].
 
-* For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the category of [[strict 2-categories]].
+* For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the $2$-category of [[strict 2-categories]].
+
 
 ## Related concepts
 
-* [[Pos]]
-
-* [[Set]]
-
-  * [[Rel]], [[Prof]]
-
-* [[Grpd]], [[∞Grpd]]
-
-* [[Cat]], 
-
-  * [[Operad]]
-
-  * **VCat**
-
-* [[2Cat]]
-
-* [[(∞,1)Cat]]
-
-  * [[(∞,1)Operad]]
-
-* [[(∞,n)Cat]]
+[[!include categories of categories - contents]]
 
 
 [[!redirects VCat]]
+[[!redirects V Cat]]
 
 [[!redirects category of V-enriched categories]]
 [[!redirects categories of V-enriched categories]]
@@ -63,5 +49,3 @@ For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] 
 
 
 category: category
-
-
