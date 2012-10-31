@@ -135,13 +135,13 @@ Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then every object of $\mathcal{C}$ ma
 +-- {: .num_defn #PreCategoryObject}
 ###### Definition
 
-An **internal precategory** $X$ in $\mathcal{C}$ is a [[simplicial object]]
+An **internal precategory** $X$ in $\mathcal{C}$ is a [[simplicial object in an (∞,1)-category]]
 
 $$
   X : \Delta^{op} \to \mathcal{C}
 $$
 
-such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+such that it satifies the _[[Segal condition]]_, hence such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
 
 $$
   X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
