@@ -408,7 +408,8 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
  {#Rogers}
 
 
-* [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ ,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
+* [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
+Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
 
 * [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_ ,  [arXiv:1009.2975](http://arxiv.org/abs/1009.2975).
 
