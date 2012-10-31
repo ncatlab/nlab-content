@@ -74,7 +74,7 @@ sends [[(∞,1)-limits]] to [[(∞,1)-limits]].
 The $(\infty,1)$-category $(\infty,1)Topos$ has [[filtered (infinity,1)-category|filtered]] [[(∞,1)-limit]]s and the inclusion
 
 $$
-  (\infty,1)Topos \hookrightarrow (\infty,1)Cat
+  (\infty,1)Topos \to (\infty,1)Cat
 $$
 
 preserves these.
