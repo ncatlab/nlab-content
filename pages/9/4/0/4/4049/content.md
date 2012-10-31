@@ -1,11 +1,12 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
+# Contents
+* automatic table of contents goes here
+{: toc}
 
 ## Idea 
 
 An _enriched natural transformation_ is the appropriate notion of morphism between functors enriched in a monoidal category $V$. 
+
 
 ## Definition 
 
@@ -23,6 +24,11 @@ I \otimes C(c, d) & \underset{\eta d \otimes F_{c, d}}{\to} & D(F d, G d) \otime
 
 (Should expand to include other notions of enriched category.) 
 
+
 ## Reference 
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
+
+
+[[!redirects enriched natural transformation]]
+[[!redirects enriched natural transformations]]
