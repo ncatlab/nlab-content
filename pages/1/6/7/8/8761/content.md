@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a [[graph]] an **edge** is an element that goes from one [[vertex]] to another.
+
+If the [[graph]] underlies a [[category]] then an edge is a morphism.
+
+If the [[graph]] underlies a [[simplicial set]] then an edge is a 1-[[dimension|dimensional]] [[simplex]].
+
+
+## Related concepts
+
+* [[vertex]], [[simplex]], [[dendrex]]
+
+[[!redirects edges]]
