@@ -1,13 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ##  Idea
 
-A __graph__ is a collection of _vertices_ and _edges_; each edge links a pair of vertices.  There are several variations on the idea, described below.
+A __graph__ is a collection of _[[vertices]]_ and _[[edges]]_; each [[edge]] links a pair of [[vertices]].  There are several variations on the idea, described below.
 
-This is the sense of graph in combinatorics; the sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is unrelated; see [[graph of a function]] for more on this.
+This is the sense of graph in [[combinatorics]]; the other sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is unrelated; see _[[graph of a function]]_ for more on this.
 
 
 ##  Definitions
@@ -83,6 +94,29 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
+## Flavors of graphs
+
+* [[reflexive graph]]
+
+* [[directed graph]]
+
+## Related concepts
+
+* **graph**
+
+  * [[omega-graph]]
+
+* [[ribbon graph]]
+
+* [[hypergraph]]
+
+* [[quiver]]
+
+  * [[n-quiver]]
+
+* [[relation]]
+
+* [[category]], [[free category]]
 
 ## References
 
@@ -97,17 +131,7 @@ Under the second notion of morphism (where simple graphs are identified with set
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
 
 
-## Related concepts
 
-* **graph**
-
-* [[quiver]]
-
-  * [[n-quiver]]
-
-* [[ribbon graph]]
-
-* [[hypergraph]]
 
 
 [[!redirects graph]]
