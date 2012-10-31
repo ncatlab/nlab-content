@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 # Globular sets
 * table of contents
 {: toc}
@@ -10,9 +25,9 @@ Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
 ## Definition
 
-A _globular set_, also called an _$\omega$-graph_ or _$\omega$-[[quiver]]_, is a [[presheaf]] on the _globe category_ (described below), one of the [[geometric shapes for higher structures]].
+A _globular set_, also called an _$\omega$-[[graph]]_ is a [[presheaf]] on the _[[globe category]]_ (described below), one of the [[geometric shapes for higher structures]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 The presheaf definition can understood from the point of view of [[space and quantity]]: a _globular set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard globes into it: the set $S_n$ assigned by a globular set to the standard $n$-globe $[n]$ is the set of $n$-globes in this space, hence the way of mapping a standard $n$-globe into this spaces.
 =--
