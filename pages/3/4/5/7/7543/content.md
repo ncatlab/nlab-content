@@ -6,17 +6,161 @@
 
 ## Definition
 
-A [[simplicial object]] $X : \Delta^{op} \to C$ is said to satisfy the _Segal conditions_ if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if 
+Let $\mathcal{C}$ be a [[category]] with [[pullbacks]].
+
++-- {: .num_defn}
+###### Definition
+
+A [[simplicial object]] 
 
 $$
-  X_n \simeq X_1 \times_{X_0} \cdots \times_{X_0} X_1
+  X : \Delta^{op} \to \mathcal{C}$ 
+$$
+
+is said to satisfy the **Segal conditions** if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if 
+
+$$
+  X_n 
+   \simeq 
+  X_1 \times_{X_0} \cdots \times_{X_0} X_1
 $$
 
 for all $n \in \mathbb{N}$.
 
+=--
+
+More in detail:
+
++-- {: .num_defn #SegalCones}
+###### Definition
+
+For all $n \in \mathbb{N}$, consider $\Delta[n]$ as a [[cocone]] in the [[simplex category]] under the [[diagram]]
+
+$$
+  \array{
+     \Delta[0] && && \Delta[0] && && \Delta[0] &&& \cdots
+      \\
+      & {}_{\mathllap{d_1}}\searrow_{\mathrlap{d_0}} && {}_{\mathllap{d_0}}\swarrow && \searrow_{\mathrlap{d_0}} && \swarrow && \cdots
+      \\
+      && \Delta[1] &&&& \Delta[1] && \cdots 
+  }
+$$
+
+with $n$ copies of $\Delta[1]$ at the bottom. 
+
+A [[simplicial object]] $X \colon \Delta^{op} \to \mathcal{C}$ satisfies the Segal conditions if it sends these cocones to [[limit]] [[cones]] in $\mathcal{C}$.
+
+=--
+
+
 ## Properties
 
-A [[simplicial set]] is the [[nerve]] of a [[category]] precisely if it satsfies the Segal conditions.
+### Characterization of nerves of categories
+
++-- {: .num_theorem #NerveTheorem}
+###### Theorem
+**(nerve theorem)**
+
+A [[simplicial set]] is the [[nerve]] of a [[small category]] precisely if it satsfies the Segal conditions.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+There is an entirely unrelated theorem in [[homotopy theory]] also often called "the" _[[nerve theorem]]_. See there for more. Not to be confused with the discussion here.
+
+=--
+
+### In terms of sheaf conditions
+
++-- {: .num_remark}
+###### Remark
+
+The condition in def. \ref{SegalCones} superficially looks like a [[sheaf]] condition for [[coverings]] of $\Delta[n]$ by $n$ subsequent copies of $\Delta[1]$. However, these coverings do not form a [[coverage]] on the [[simplex category]] $\Delta$: the refinement-of-covers-axiom is not satisfied:
+
+For instance for $d_1 \colon \Delta[1] \to \Delta[2]$ the map that sends the single edge of $\Delta[1]$ to the composite edge in $\Delta[2]$ there is no way to "pull back" the cover $\{\Delta[1] \coprod \Delta[1] \to \Delta[2]\}$ along this morphism, not even in the weak sense of _[[coverage]]_.
+
+However, as this example also makes clear, the problem is precisely only with the morphisms in $\Delta$ that are no injective on generating edges.
+
+=--
+
+Therefore consider instead the following:
+
++-- {: .num_defn}
+###### Definition
+
+Let $\Delta_0 \hookrightarrow Graph$ be the [[full subcategory]] of that of [[directed graphs]] on the linear graphs $\{0 \to 1 \to \cdots \to n\}$ for $n \in \mathbb{N}$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Morphisms in $\Delta_0$ have to send elementary edges to elementary edges. For instance there are precisely $n$ morphisms $\Delta_0[1] \to \Delta_0[n]$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Taking the cocones of def. \ref{SegalCones} as [[coverings]] constitutes a [[coverage]] on $\Delta_0$. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A [[presheaf]] $X \colon \Delta_0^{op} \to \mathcal{C}$ is a [[sheaf]] with respect to this coverage precisely if it is in the essential image of the moprhism
+
+$$
+  Graph(\mathcal{C})
+  \coloneqq
+  \mathcal{C}^{(1 \stackrel{\to}{\to} 0)} \to \mathcal{C}^{\Delta_0^{op}}
+$$
+
+which sends a [[directed graph]] $E \stackrel{\overset{t}{\to}}{\underset{s}{\to} }V$ to the [[presheaf]] which sends $\Delta[2]$ to $E {}_t\times{}_s E$, etc.
+
+Hence we have an [[equivalence of categories]]
+
+$$
+  Graph(\mathcal{C})
+  \simeq
+  Sh(\Delta_0)
+  \,.
+$$
+
+=--
+
+In terms of this theorem \ref{NerveTheorem} says the following:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[commuting diagram]] of [[1-categories]]
+
+$$
+  \array{
+    Cat &\stackrel{N}{\to}& PSh(\Delta)
+    \\
+    \downarrow && \downarrow
+    \\
+    Graph \simeq Sh(\Delta_0) &\hookrightarrow& PSh(\Delta_0)
+  }
+  \,,
+$$
+
+where
+
+* the top horizontal morphism forms the [[nerve of a category]];
+
+* the left vertical morphism sends a category to its underlying graph, [[forgetful functor|forgetting]] [[composition]] and [[identity]]-assignments;
+
+* the right veritcal morphism analogously forgets [[inner Kan complex|inner horn]] fillers etc. and degeneracies
+
+is a [[pullback]].
+
+=--
 
 ## Related concepts
 
@@ -34,9 +178,9 @@ where they are attributed to [[Alexander Grothendieck]].
 
 The interpretation of the Segal condition as a [[sheaf]] condition is reviewed for instance in section 2 of 
 
-* [[Joachim Kock]], _Polynomial functors and trees_ ([pdf](http://mat.uab.es/~kock/cat/poly-trees.pdf)).
+* [[Joachim Kock]], _Polynomial functors and trees_ ([pdf](http://mat.uab.es/~kock/cat/poly-trees.pdf))
 
-A generalization of this fact to [[higher category theory]] is discussed in 
+and discussed for [[strict infinity-categories]] in 
 
 * [[Clemens Berger]], _A cellular nerve for higher categories_, Advances in Mathematics 169, 118-175 (2002) ([pdf](http://math1.unice.fr/~cberger/nerve.pdf))
 
