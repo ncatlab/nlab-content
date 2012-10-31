@@ -212,29 +212,39 @@ In particular in light of their generalization to nerves of higher categories, d
   In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
 
-#### Properties of the nerve of a category {#PropNerveCat}
+#### Properties of the nerve of a category 
+ {#PropNerveCat}
 
 The following lists some characteristic properties of simplicial sets that are nerves of categories.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] is the nerve of a category precisely if all _inner_ [[horn]]s have _unique_ fillers.
+A simplicial set is the nerve of a category precisely if it satisfies the [[Segal condition]].
+
+=--
+
+See at _[[Segal condition]]_ for more on this.
+
++-- {: .num_prop}
+###### Proposition
+
+A [[simplicial set]] is the nerve of a [[small category]] precisely if all _inner_ [[horns]] have _unique_ fillers.
 
 =--
 
 See [[inner fibration]] for details on this.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] is the nerve of a groupoid precisely if all [[horn]]s have _unique_ fillers.
+A [[simplicial set]] is the nerve of a [[groupoid]] precisely if _all_ [[horns]] have _unique_ fillers.
 
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]].
@@ -245,11 +255,11 @@ Hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have uniq
 
 Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-The nerve $N(C)$ of a locally small category 
-is a [[Kan complex]] if and only if $C$ is a [[groupoid]].
+The nerve $N(C)$ of a [[small category]] 
+is a [[Kan complex]] precisely if $C$ is a [[groupoid]].
 
 =--
 
@@ -308,7 +318,7 @@ It is in this sense that a simplicial set that is a [[Kan complex]] but which do
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The nerve functor
@@ -326,7 +336,7 @@ So  [[functors]] between [[locally small category|locally small categories]] are
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[simplicial set]] $S$ is the nerve of a locally small category $C$ precisely if it satisfies the [[Segal conditions]]:  precisely if all the commuting squares
@@ -356,7 +366,7 @@ This characterization of categories in terms of nerves directly leads to the mod
 For [[2-categories]] modeled as [[bicategories]] the nerve operation is calledd the [[Duskin nerve]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A simplicial set is the [[Duskin nerve]] of a [[bigroupoid]] precisely if it is a 2-[[hypergroupoid]]: a [[Kan complex]] such that the horn fillers in dimension $\geq 3$ are _unique_ .  
