@@ -135,8 +135,9 @@ There is an entirely unrelated theorem in [[homotopy theory]] also often called 
 =--
 
 ### In terms of sheaf conditions
+ {#InTermsOfSheafConditions}
 
-We discuss an equivalent formulation of the Segal condition in terms of notion in [[topos theory]]/[[(∞,1)-topos theory]]. This perspective lends itself more to a formulation of Segal conditions in terms of the [[internal logic]] of toposes.
+We discuss an equivalent formulation of the Segal condition in terms of notions in [[topos theory]]/[[(∞,1)-topos theory]]. This perspective for instance lends itself more to a formulation of Segal conditions in terms of the [[internal language]] of toposes.
 
 +-- {: .num_remark}
 ###### Remark
@@ -157,52 +158,218 @@ However, as this example also makes clear, the problem is precisely only with th
 
 Therefore consider instead the following:
 
-+-- {: .num_defn}
++-- {: .num_defn #FiniteLinearGraphsInAllGraphs}
 ###### Definition
 
-Let $\Delta_0 \hookrightarrow Graph$ be the [[full subcategory]] of that of [[directed graphs]] on the linear graphs $\{0 \to 1 \to \cdots \to n\}$ for $n \in \mathbb{N}$. 
+Let 
+
+$$
+  j \colon \Delta_0 \hookrightarrow Graph
+$$ 
+
+be the [[full subcategory]] of that of [[directed graphs]] on the linear graphs $\{0 \to 1 \to \cdots \to n\}$ for $n \in \mathbb{N}$. 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Morphisms in $\Delta_0$ have to send elementary edges to elementary edges. For instance there are precisely $n$ morphisms $\Delta_0[1] \to \Delta_0[n]$.
+Morphisms in $\Delta_0$ have to send elementary edges to elementary edges. So there are
+
+* precisely $n$ morphisms $\Delta_0[1] \to \Delta_0[n]$
+
+* precisely $n$ morphisms $\Delta_0[2] \to \Delta_0[n+1]$
+
+* precisely $n$ morphisms $\Delta_0[3] \to \Delta_0[n+2]$
+
+* etc. 
 
 =--
+
+
++-- {: .num_defn #ParallelMorphismCategory}
+###### Definition
+
+Write  
+
+$$
+  i 
+    \colon 
+  (1 \stackrel{\leftarrow}{\leftarrow} 0) \hookrightarrow \Delta_0
+$$ 
+
+for the [[full subcategory]] on the linear graphs with no edge and with one edge. 
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
 
-Taking the cocones of def. \ref{SegalCones} as [[coverings]] constitutes a [[coverage]] on $\Delta_0$. 
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-A [[presheaf]] $X \colon \Delta_0^{op} \to \mathcal{C}$ is a [[sheaf]] with respect to this coverage precisely if it is in the essential image of the moprhism
+The [[category]] of [[directed graphs]] is [[equivalence of categories|equivalently]] the [[category of presheaves]] over $(1 \stackrel{\leftarrow}{\leftarrow} 0)$, def. \ref{ParallelMorphismCategory}:
 
 $$
-  Graph(\mathcal{C})
-  \coloneqq
-  \mathcal{C}^{(1 \stackrel{\to}{\to} 0)} \to \mathcal{C}^{\Delta_0^{op}}
-$$
-
-which sends a [[directed graph]] $E \stackrel{\overset{t}{\to}}{\underset{s}{\to} }V$ to the [[presheaf]] which sends $\Delta[2]$ to $E {}_t\times{}_s E$, etc.
-
-Hence we have an [[equivalence of categories]]
-
-$$
-  Graph(\mathcal{C})
-  \simeq
-  Sh(\Delta_0)
+  Graph(\mathcal{C}) \simeq PSh((1 \Leftarrow 0), \mathcal{C})
+  =
+  \mathcal{C}^{(1 \Rightarrow 0)}
   \,.
 $$
 
 =--
 
-In terms of this theorem \ref{NerveTheorem} says the following:
++-- {: .num_prop #AdjointTripleFromGraphs}
+###### Definition
+
+Write
+
+$$
+  (i_! \dashv i^* \dashv i_*)
+  \colon
+  \mathcal{C}^{1 \Rightarrow 0}
+  \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
+  \mathcal{C}^{\Delta_0^{op}}
+$$
+
+for the [[adjoint triple]] induced on [[categories of presheaves]] by the inclusion $i$ of def. \ref{ParallelMorphismCategory}: $i^*$ is given by precomposition with $i$, $i_!$ is left and $i_*$ is right [[Kan extension]] along $i$.
+
+=--
+
++-- {: .num_prop #NerveOfGraph} 
+###### Proposition
+
+The functor $i_* \colon Graph(\mathcal{C}) \to \mathcal{C}^{\Delta_0^{op}}$
+of def. \ref{AdjointTripleFromGraphs} sends a graph $X_1 \stackrel{\overset{\partial_1}{\to}}{\underset{\partial_0}{\to}} X_0$ to the presheaf $i_*(X)$ which on $n \in \mathbb{N}$ is given by th iterated [[pullback]]
+
+$$
+  i_*(X) \colon n \mapsto \underbrace{X_1 \times_{X_0} \times \cdots \times_{X_0} X_1}_{n \; factors}
+$$
+
+and which sends an inclusion $\Delta[k] \simeq (j, \cdots, j+k) \hookrightarrow (0,\cdots, n)\simeq \Delta[n] $ to the corresponding [[projection]] map out of the pullback.
+
+We may call $i_*(X)$ the **nerve of the graph** $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the [[Yoneda lemma]] and the defining [[hom functor|hom]]-[[isomorphisms]] of the [[adjunction]] as well as the fact that the [[hom functor]] sends [[colimits]] in the first argument to [[limits]], we have
+
+$$
+  \begin{aligned}
+    i_*(X)(n) & \simeq Hom(\Delta[n], i_*(X))
+    \\
+    & \simeq Hom(i^* \Delta[n], X)
+    \\
+    & \simeq Hom( \underbrace{\Delta[1] \coprod_{\Delta[0]} \cdots \coprod_{\Delta[0]} \Delta[1]}, X )
+   \\
+   & \simeq 
+   \underbrace{
+     Hom(\Delta[1], X)   
+       \underset{Hom(\Delta[0], X)}{\times}   
+       \cdots
+       \underset{Hom(\Delta[0], X)}{\times}   
+     Hom(\Delta[1], X)       
+   }_{n\;factors}
+   \\
+   & \simeq 
+   \underbrace{
+     X \times_{X_0} \cdots \times_{X_0} X_1
+   }_{n\; factors}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CoverageOnDelta0}
+###### Proposition
+
+For $n \in \mathbb{N}$ declare a unique [[covering]] family of $\Delta[n] \in \Delta_0$ to be
+
+$$
+  \left\{ 
+    \Delta\left[1\right] \simeq \left(k,k+1\right) 
+    \hookrightarrow \Delta\left[n\right] \right\}_{k = 0}^{n-1}
+  \,.
+$$
+
+Then this is a [[coverage]] on $\Delta_0$. 
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+A [[presheaf]] $X \colon \Delta_0^{op} \to \mathcal{C}$ is a [[sheaf]] with respect to the coverage of def. \ref{CoverageOnDelta0} precisely if it is in the [[essential image]] of the graph-nerve functor
+
+$$
+  i_*
+  \colon
+  Graph(\mathcal{C})
+   \simeq
+  \mathcal{C}^{(1 \stackrel{\to}{\to} 0)} 
+    \stackrel{}{\to}
+  \mathcal{C}^{\Delta_0^{op}}
+$$
+
+of prop. \ref{NerveOfGraph}. This yields an [[equivalence of categories]]
+
+$$
+  Graph(\mathcal{C})
+  \simeq
+  Sh(\Delta_0)
+$$
+
+with the [[category of sheaves]] on $\Delta_0$. The graph-nerve functor is a [[full and faithful functor]]
+
+$$
+  i_* \colon Graph \simeq Sh(\Delta_0)
+  \hookrightarrow
+  PSh(\Delta_0)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #AdjointTripleFromSimplicialSets}
+###### Definition
+
+Write
+
+$$
+  (j_! \dashv j^* \dashv j_*)
+  \colon
+  \mathcal{C}^{\Delta_0^{op}}
+  \stackrel{\overset{j_!}{\to}}{\stackrel{\overset{j^*}{\leftarrow}}{\underset{j_*}{\to}}}
+  \mathcal{C}^{\Delta^{op}}
+$$
+
+for the [[adjoint triple]] induced on [[categories of presheaves]] by the inclusion $j$ of def. \ref{FiniteLinearGraphsInAllGraphs}: $j^*$ is given by precomposition with $j$, $j_!$ is left and $j_*$ is right [[Kan extension]] along $j$.
+
+=--
+
++-- {: .num_prop #GeometricMorphismFromSimplicialSets}
+###### Proposition
+
+The adjoint pair $(i_! \dashv i^*)$ in def. \ref{AdjointTripleFromSimplicialSets} is a [[geometric morphism]] of [[presheaf toposes]]
+
+$$
+  (j_! \dashv j^*) \colon PSh(\Delta) \to PSh(\Delta_0)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[morphism of sites]] one has to check that $j \colon \Delta_0 \to \Delta$ is a [[covering-flat functor]]. By the discussion there for the trivial topologies involved here this is equivalent to it being a [[representably flat functor]]. This in turn means that for each $n \in \mathbb{N}$ the [[slice category]] $\Delta[n]/j$ is a [[cofiltered category]]. This is readily checked, observing that the morphisms in $\Delta_0$ are fixed already by what they do to a single vertex.
+
+=--
+
+In terms of all this the nerve theorem \ref{NerveTheorem} says the following:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -211,22 +378,20 @@ The [[commuting diagram]] of [[1-categories]]
 
 $$
   \array{
-    Cat &\stackrel{N}{\to}& PSh(\Delta)
+    Cat &\stackrel{N}{\hookrightarrow}& PSh(\Delta) 
     \\
-    \downarrow && \downarrow
+    \downarrow^{\mathrlap{U}} && \downarrow^{\mathrlap{j^*}}
     \\
-    Graph \simeq Sh(\Delta_0) &\hookrightarrow& PSh(\Delta_0)
+    Graph \simeq Sh(\Delta_0) &\stackrel{i_*}{\hookrightarrow}& PSh(\Delta_0)
   }
   \,,
 $$
 
 where
 
-* the top horizontal morphism forms the [[nerve of a category]];
+* $N$ forms the [[nerve of a category]];
 
-* the left vertical morphism sends a category to its underlying graph, [[forgetful functor|forgetting]] [[composition]] and [[identity]]-assignments;
-
-* the right vertical morphism analogously forgets [[inner Kan complex|inner horn]] fillers etc. and degeneracies
+* $U$ is the [[forgetful functor]] that sends a category to its underlying graph
 
 is a [[pullback]].
 
