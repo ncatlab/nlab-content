@@ -1,21 +1,29 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-* In an [[abelian group]] $A$, the group operation is often called a _sum_ (or descriptively _additive operation_) and written "additively" $a,b \in A \;\vdash\; (a + b) \in A$; in fact it is a convention to call it a sum in those cases when it is denoted additively. In the case of numbers or vectors (and generalizations) a suitable notion when passing to the limit of an "infinite sum" is [[integral]]. There are however also noncommutative integrals when the order of summation/multiplication of noncommuting quantities is taken into account. 
+A _sum_ is a result of an operation called _addition_ and denoted $+$ (binary), $0$ (nullary), or $\sum$ (arbitrary).
 
-* In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]].
+* A [[group]] (or similar algebraic structure) $A$ is _written additively_ if its operation is a sum: $a,b \in A \;\vdash\; (a + b) \in A$.  Examples include addition of [[natural numbers]] (an abelian [[monoid]]) and the generalisation to other kinds of [[number]]s (most of which form abelian groups or at least abelian monoids, although the [[ordinal numbers]] form a nonabelian monoid).
 
-* In a [[poset]] this becomes the notion of [[join]] and [[union]].
+* In the case of numbers or more generally any [[topological abelian group]] or [[topological vector space]] (and generalizations), we can consider sums of [[infinite series]], and more generally [[integrals]]. (There are however also noncommutative integrals when the order of summation/multiplication of noncommuting quantities is taken into account.)
 
-* A more general notion of sum in [[category theory]] is that of _[[dependent sum]]_ of a family of objects.
+* In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]]; in particular, the sum of two [[abstract sets]] is their [[disjoint union]].
+
+* In a [[poset]] this becomes the notion of [[join]]; in particular, the [[union]] of two [[concrete sets]] ([[material set theory|material sets]] or [[subsets]] of a fixed set $U$) was once often called their _sum_.
+
+* A more general notion of sum in [[category theory]] and [[type theory]] is that of the _[[dependent sum]]_ of a family of objects.
+
 
 ## Related concepts
 
 * [[product]]
 
+
+[[!redirects sum]]
 [[!redirects sums]]
 [[!redirects additive operation]]
+[[!redirects addition]]
