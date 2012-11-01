@@ -156,7 +156,7 @@ There is an entirely unrelated theorem in [[homotopy theory]] also often called 
 
 #### Of cellular nerves of $\omega$-categories
 
-Similarly, a [[cellular set]] is the cellular nerve of a [[strict omega category]] precisely if it satisfies the cellular Segal condition. ([Berger](#Berger)).
+Similarly, a [[cellular set]] is the cellular nerve of a [[strict omega-category]] precisely if it satisfies the cellular Segal condition. ([Berger](#Berger)).
 
 ### In terms of sheaf conditions
  {#InTermsOfSheafConditions}
