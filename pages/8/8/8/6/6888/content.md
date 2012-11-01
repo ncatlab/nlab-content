@@ -8,5 +8,6 @@ in homotopy theory.
 His publications include:
 
 *  _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer, 2008
+* (with [[Gonzalo Reyes]]) _A History of Categorical Logic, 1963-1977_, ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf))
 
 category: people
