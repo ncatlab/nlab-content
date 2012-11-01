@@ -31,7 +31,57 @@ Deductive logic is the best developed of the branches. For centuries, treatments
 
 As we said above, logic is traditionally concerned with *correct* methods of reasoning, and philosophers (and others) have had much to say *prescriptively* about logic.  However, one can also study logic *descriptively*, taking it to be the study of methods of reasoning, without attempting to determine whether these methods are correct. One may study [[constructive logic]], or a [[substructural logic]], without saying that it should be adopted. Also psychologists study how people actually reason rapidly in situations without full information, such as by the [fast and frugal](http://fastandfrugal.com/) approach.
 
-A __logic__ is a specific method of reasoning.  There are several ways to formalise a logic as a [[mathematics|mathematical]] object; see at _[[mathematical logic]]_.
+A __logic__ is a specific method of reasoning.  There are several ways to _formalise_ a logic as a [[mathematics|mathematical]] object; see at _[Mathematical Logic](#MathematicalLogic)_ below.
+
+
+## Mathematical logic
+ {#MathematicalLogic}
+
+_Mathematical logic_ or _symbolic logic_ is the study of logic and [[foundations]] of mathematics as, or via, formal systems -- _[[theories]]_ --  such as [[first-order logic]] or [[type theory]].
+
+
+### Classical subfields
+
+The classical subfields of mathematical logic are
+
+* [[set theory]]
+
+* [[model theory]],
+
+* [[recursion theory]]
+
+* [[proof theory]]
+
+### Categorical logic
+
+By a convergence and unification of concepts that has been named _[[computational trinitarianism]]_, mathematical logic is equivalently incarnated in 
+
+1. [[type theory]]
+
+1. [[category theory]]
+
+1. [[programming theory]]
+
+The logical theory that is specified by and specifies a given [[category]] $\mathcal{C}$ -- called its _[[internal logic]]_, see there for more details and also see [[internal language]], [[syntactic category]].
+-- is the one 
+
+* whose [[types]] are the [[objects]] $A$ of $\mathcal{C}$;
+
+* whose [[contexts]] are the [[slice categories]] $\mathcal{C}_{/A}$;
+
+* whose [[propositions]] in context are the [[(-1)-truncated objects]] $\phi$ of $\mathcal{C}_{/A}$;
+
+* whose [[proofs]] $A \vdash PhiIsTrue : \phi $ are the [[generalized elements]] of $\phi$.
+
+Hence pure mathematical logic in the sense of the study of [[propositions]] is identified with [[(0,1)-category theory]]: where one concentrates only on [[(-1)-truncated objects]]. Genuine [[category theory]], which is about [[0-truncated objects]], is the home for logic and [[set theory]], or rather [[type theory]], the 0-truncated objects being the [[sets]]/[[types]]/[[hSet|h-sets]]. 
+
+For instance, 
+
+* [[limits]] and [[colimits]], [[exponentials]], and [[object classifiers]] belong to the [[type theory]];
+
+* while their (-1)-truncation, in this order: [[intersections]]/([[and]]), [[unions]]([[or]]), [[implications]], and [[subobject classifiers]], belong to the logic.
+
+Generally, [[(∞,1)-category theory]], which is about untruncated objects, is the home for logic and types with a [[constructive mathematics|constructive]] notion of [[equality]], the [[identity types]] in [[homotopy type theory]].
 
 
 
@@ -97,6 +147,16 @@ A __logic__ is a specific method of reasoning.  There are several ways to formal
 
 ## References
 
+### General
+
+Historically, in some philosophical circles 'logic' was understood in a broader sense:
+
+* [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
+
+
+
+### On categorical logic
+
 * [[Lambek]], J.; [[Philip Scott|Scott]], P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_, (1999) Elsevier 
@@ -105,10 +165,6 @@ A __logic__ is a specific method of reasoning.  There are several ways to formal
 
 * [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) _The History of Categorical Logic 1963-1977 ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf))
 
-
-Historically, in some philosophical circles 'logic' was understood in a broader sense:
-
-* [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
 
 [[!redirects logic]]
