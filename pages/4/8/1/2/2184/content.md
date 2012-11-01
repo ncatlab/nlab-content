@@ -130,6 +130,8 @@ Under the second notion of morphism (where simple graphs are identified with set
 
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
 
+* E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
+
 
 
 
