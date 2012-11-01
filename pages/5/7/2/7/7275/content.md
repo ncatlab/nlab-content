@@ -1,4 +1,3 @@
-[[!redirects abelian ∞-group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,6 +22,14 @@
 
 An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]] there is an infinite tower of notions ranging from completely non-abelian to completely abelian. An _abelian ∞-group_ is one which is maximally abelian. This is equivalently a [[connective spectrum object]].
 
+## Examples
+
+* A [[0-truncated]] abelian $\infty$-group is equivalently an [[abelian group]].
+
+* A [[1-truncated]] abelian $\infty$-group is equivalently a [[symmetric 2-group]].
+
+* A [[2-truncated]] abelian $\infty$-group is equivalently a [[symmetric 3-group]].
+
 ## Related concepts
 
 [[!include k-monoidal table]]
@@ -36,3 +43,6 @@ Section 5 of
 
 
 [[!redirects k-monoidal ∞-group]]
+
+[[!redirects abelian ∞-group]]
+
