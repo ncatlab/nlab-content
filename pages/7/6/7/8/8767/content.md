@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Continuum mechanics_ refers to the [[physics]]/[[mechanics]] of continuous bodies such as notably [[fluids]]. As opposed to the mechanics of point [[particles]] (to which it is of course related by various limiting processes).
+
+## Related concepts
+
+* [[classical mechanics]], [[quantum mechanics]]
+
+  * [[kinematics]], [[dynamics]]
+
+  * [[rigid body dynamics]]
+
+* [[Hamiltonian mechanics]], [[Lagrangian mechanics]]
+
+
+[[!redirects continuum physics]]
