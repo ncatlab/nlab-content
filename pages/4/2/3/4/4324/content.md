@@ -64,4 +64,9 @@ $$
 
 So it is the homologically nontrivial parts of the chain complexes in negative degree that corresponds to the non-connectiveness of a spectrum.
 
+## Related concepts
+
+[[!include k-monoidal table]]
+
+
 [[!redirects connective spectra]]
