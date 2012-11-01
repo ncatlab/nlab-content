@@ -85,9 +85,11 @@ An object $X \in C$ is called **fully dualizable** if it is in the essential [[i
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
-* [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]], **symmetric monoidal $(\infty,n)$-category** 
+  * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]], **symmetric monoidal $(\infty,n)$-category** 
 
-* [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
+  * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
+
+* [[symmetric monoidal 2-category]]
 
 ## References
 
