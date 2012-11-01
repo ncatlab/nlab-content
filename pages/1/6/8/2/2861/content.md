@@ -140,7 +140,7 @@ As mentioned above regard $\Theta_k Sp_n$ as a category enriched over itself. Th
      C(a_{m-1},a_m)(\theta_m)
   $
 
-This object satisfies the Segal conditions (its descent conditions) in all degrees except degree 0. A suitable localization operation ca-n fix this. The resulting object should be the "$(n+1,k+1)$-$\Theta$-space of $(n,k)$-$\Theta$-spaces".
+This object satisfies the [[Segal conditions]] (its descent conditions) in all degrees except degree 0. A suitable localization operation ca-n fix this. The resulting object should be the "$(n+1,k+1)$-$\Theta$-space of $(n,k)$-$\Theta$-spaces".
 
 ### Homotopy hypothesis 
 
@@ -156,6 +156,13 @@ For low values of $n,k$ this reproduces the following cases:
 
 * for $n=1$ objects in $\Theta_1 Sp_\infty^{fib} $ are [[complete Segal spaces]], hence [[(∞,1)-category|(∞,1)-categories]].
 
+## Related concepts
+
+* [[cellular set]]
+
+* [[omega-category]]
+
+* [[globular operad]], [[globular theory]], 
 
 ## References 
 
