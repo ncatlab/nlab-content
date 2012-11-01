@@ -224,7 +224,7 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 * [[bisimplicial set]]
 
-* [[dendroidal set]]
+* [[globular set]], [[cubical set]], [[cellular set]], [[dendroidal set]]
 
 * [[semi-simplicial set]]
 
