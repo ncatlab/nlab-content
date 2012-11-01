@@ -48,5 +48,8 @@ we obtain the **reflexive globe category**.
 
 * The globe category is used to define [[globular set|globular sets]].
 
+## Related concepts
+
+* [[simplex category]], [[cube category]], [[cell category]]
 
 category: category
