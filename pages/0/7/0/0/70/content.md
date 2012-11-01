@@ -25,9 +25,14 @@ The general concept is that of
 
 * [[weak ∞-categories]].
 
-## Related concept
+## Related concepts
 
 * [[∞-groupoid]]
+
+* [[globular set]], [[globular operad]], [[globular theory]]
+
+* [[cellular set]]
+
 
 [[!redirects ∞-category]]
 [[!redirects ∞-categories]]
