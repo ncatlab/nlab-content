@@ -27,6 +27,8 @@ A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent st
 
 1. Regarded as a [[monoidal category]], $G$ is a [[symmetric monoidal category]].
 
+1. Regarded as a [[truncated object in an (infinity,1)-category|1-truncated]] [[∞-group]] it has the structure of an [[abelian ∞-group]].
+
 1. The [[delooping]] [[2-groupoid]] $\mathbf{B}G$ is a [[braided 3-group]].
 
 1. The double [[delooping]] [[3-groupoid]] $\mathbf{B}^2 G$ is a [[4-group]].
