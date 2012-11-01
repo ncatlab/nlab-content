@@ -254,6 +254,9 @@ which gives a monoidal closed structure on cubical $\omega$-categories with conn
 Cubical methods are a key feature in using higher homotopy groupoids to prove homotopy classification results.  
 
 
+## Related concepts
+
+* [[simplicial set]], [[globular set]], [[cellular set]], [[dendroidal set]]
 
 
 ## References
