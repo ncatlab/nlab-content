@@ -1,0 +1,324 @@
+
+> This is a sub-entry of _[[geometry of physics]]_.
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## **Principal connections**
+ {#PrincipalConnections}
+
+### Model Layer
+
+#### Circle-principal connections
+ {#CirclePrincipalConnections}
+
+[[Dirac charge quantization]] says that the
+[[electromagnetic field]] is only locally in general a map
+
+$$
+  \array{
+    && \Omega^1(-)
+    \\
+    & {}^{\mathllap{A}}\nearrow & \downarrow^{\mathrlap{\mathbf{d}}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2_{cl}
+  }
+$$
+
+globally it is instead a map
+
+$$
+  \array{
+    && \mathbf{B}U(1)_{conn}
+    \\
+    & {}^{\nabla}\nearrow & \downarrow^{F_{(-)}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2_{cl}
+  }
+$$
+
+where
+
+$$
+  \array{  
+    \mathbf{B}U(1)_{conn} &\stackrel{F_{(-)}}{\to}& \Omega^2_{cl}
+    \\
+    \downarrow &pb& \downarrow
+    \\
+    \mathbf{B}U(1)_{diff} &\to& \Omega^{1 \leq \bullet \leq 2}_{cl}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}U(1)
+  }
+$$
+
+[[circle bundle with connection]]
+
+the [[smooth groupoid]] is
+
+$$
+  \mathbf{B}U(1)_{conn}
+  =
+  \Omega^1(-) \sslash U(1)
+$$
+
+quotient of $\Omega^1(-)$ by $U(1)$-[[gauge transformations]]
+
+for
+
+$$
+  A,A' : X \to \Omega^1(-)
+$$
+
+a [[gauge transformation]] $A \to A'$
+is $\lambda : X \to U(1)$ with
+
+$$
+  A' = A + \mathbf{d} log \lambda
+$$
+
+#### Dirac charge quantization and the electromagnetic field
+
+* [[Dirac charge quantization]]
+
+* [[electromagnetic field]]
+
+#### Principal 1-connection
+
+* [[principal connection]]
+
+#### Covariant derivatives
+
+* [[covariant derivative]]
+
+$$
+  \array{
+     (V\sslash G)_{conn}
+     \\
+     \downarrow
+     \\
+     \mathbf{B}G_{conn}
+  }
+$$
+
+$$
+  \array{
+    \tilde X &&\stackrel{(\sigma, \nabla \sigma)}{\to}&& (V \sslash G)_{conn}
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}G_{conn}
+  }
+$$
+
+
+
+
+#### Deligne cohomology and Cheeger-Simons differential characters
+
+* [[Deligne cohomology]]
+
+* [[Cheeger-Simons differential character]]
+
+* [[Beilinson-Deligne cup product]]
+
+* [[fiber integration in ordinary differential cohomology]]
+
+#### Circle-principal 2-connection
+
+* [[circle n-group|circle 2-group]] [[principal 2-bundle]]
+
+* [[circle n-bundle with connection|circle 2-bundle with connection]]
+
+#### Magnetic charge and the B-field
+
+* [[magnetic charge]], [[B-field]]
+
+#### Circle-principal 3-connection
+
+* [[circle n-group|circle 3-group]] [[principal 3-bundle]]
+
+* [[circle n-bundle with connection|circle 3-bundle with connection]]
+
+#### The 3d Chern-Simons action functional and the C-field
+
+* [[supergravity C-field]]
+
+#### Circle-principal $n$-connection
+  {#CirclePrincipalNConnections}
+
+* [[ordinary differential cohomology]]
+
+* [[circle n-bundle with connection]]
+
+### Semantic Layer
+
+#### Differential cohomology
+ {#SmoothDifferentialCohomology}
+
+Let $G \in Grp(\mathbf{H})$ be a [[braided ∞-group]]. Equivalently, let its [[delooping]] $\mathbf{B}G \in \mathbf{H}$ be itself equipped with the structure of an [[∞-group]]. Write
+
+$$
+  \mathbf{B}^2 G \in \mathbf{H}
+$$
+
+for the corresponding double [[delooping]].
+
++-- {: .num_defn #UniversalCurvatureCharacteristic}
+###### Definition
+
+Write 
+
+$$
+  curv_{G} 
+   \coloneqq 
+  \theta_{\mathbf{B}\mathbb{G}}
+  \colon
+  \mathbf{B}G
+  \to
+  \flat_{dR} \mathbf{B}^2 G
+$$
+
+for the [[Maurer-Cartan form]] on the [[∞-group]] $\mathbf{B}G$, def. \ref{GeneralAbstractMaurerCartanForm}. We call this the **universal curvature characteristic** of $G$.
+
+=--
+
++-- {: .num_defn #GeneralConcreteDifferentialCohomology}
+###### Definition
+
+The **[[differential cohomology]]** with [[coefficients]] in $\mathbf{B}G$ is [[cohomology]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\flat_{dR} \mathbf{B}^2 G}$ with [[coefficients]] in $curv_G$
+
+$$
+  \mathbf{H}_{/\flat_{dR}\mathbf{B}^2 G}(-, curv_G)
+  \,.
+$$
+
+=--
+
+#### Differential-form curvatures
+
+
+$$
+  \array{
+     \mathbf{B}^n \mathbb{G} &\to& \Omega^{n+1}_{cl}(-)
+     \\
+     \downarrow &pb& \downarrow^{\mathrlap{}}
+     \\
+     \mathbf{B}\mathbb{G} 
+       &\stackrel{curv}{\to}&
+     \flat_{dR} \mathbf{B}^2 \mathbb{G}
+  }
+$$
+
+presented by [[ordinary differential cohomology]]
+
+
+#### Higher holonomy
+ {#Holonomy}
+
+* [[higher holonomy]]
+
+$$
+  \exp(2 \pi i \int_{\Sigma}(-))
+  \colon
+  [\Sigma,\mathbf{B}^n U(1)_{conn}]
+  \stackrel{conc \circ \tau_0}{\to}
+  U(1)
+$$
+
+### Syntactic Layer
+
+#### The dependent curvature type
+
+
+The universal curvature characteristic, def. \ref{UniversalCurvatureCharacteristic}, has the [[syntax]]
+
+$$
+  \vdash curv_{G} \colon \mathbf{B}G \to \flat_{dR} \mathbf{B}^2 G
+  \,.
+$$
+
+Regarded as a [[dependent type]] in the de Rham coefficient [[context]] this is
+
+$$
+    \omega \colon \flat_{dR}\mathbf{B}^2 G
+    \;
+    \vdash 
+    \;
+    \underset{\mathbf{c} \colon \mathbf{B}G}{\sum} 
+    \left(
+      curv_G\left(\mathbf{c}\right)
+      \simeq \omega
+    \right)
+  \colon
+  Type
+$$
+
+Therefore the [[syntax]] for a domain object $F \colon X \to \flat_{dR} \mathbf{B}^2 G$ in this [[context]] is
+
+$$
+  \omega \colon \flat_{dR} \mathbf{B}^2 G
+  \;\vdash\;
+  \underset{x \colon X}{\sum} 
+  \left(
+    F_x \simeq \omega
+  \right)
+  \colon Type
+$$
+
+and the [[syntax]] for a [[cocycle]] 
+
+$$
+  \array{
+    X &&\stackrel{\bar P}{\to}&& \mathbf{B}G
+    \\
+    & {}_{\mathllap{F}}\searrow &\swArrow_{\nabla}& \swarrow_{\mathrlap{curv_G}}
+    \\
+    && \flat_{dR} \mathbf{B}^2 G
+  }
+$$
+
+in [[differential cohomology]], def. \ref{GeneralConcreteDifferentialCohomology}, on $(X,F)$ is hence
+
+$$
+  \vdash \;
+  (\bar P,\nabla)
+  \colon
+  \underset{\omega \colon \flat_{dR} \mathbf{B}^2 G}{\prod}
+  \left(
+    \left(
+    \underset{x \colon X}{\sum}
+    \left(
+      F_x \simeq \omega
+    \right)
+    \right)
+    \to 
+    \left(
+    \underset{\mathbf{c} \colon \mathbf{B}G}{\sum}
+    \left(
+      curv_G(\mathbf{c}) \simeq \omega
+    \right)
+    \right)
+  \right)
+$$
+
+#### Fixed curvature twists
+
+$$
+  \begin{aligned}
+    (\mathbf{B}^n \mathbb{G} \colon Type)_{conn} \colon & Type
+    \\
+     \coloneqq &  
+     \sum_{\mathbf{c} \colon \mathbf{B}\mathbb{G}}
+     \sum_{\omega \colon \Omega^{n+1}_{cl}}
+     \left(
+       curv(\mathbf{c}) = \omega
+     \right)
+  \end{aligned}
+$$
+
+
