@@ -86,6 +86,7 @@ Given a [[category]] $\mathcal{C}$ one may ask for the [[universal construction|
 
 * [[idempotent complete (infinity,1)-category]]
 
+* [[idempotent semiring]]
 
 [[!redirects idempotent]]
 [[!redirects idempotents]]
