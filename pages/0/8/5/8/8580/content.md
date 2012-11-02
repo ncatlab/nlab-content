@@ -5480,6 +5480,7 @@ $$
 $$
 
 #### Dirac charge quantization and the electromagnetic field
+ {#DiracChargeQuantizationAndElectromagneticField}
 
 * [[Dirac charge quantization]]
 
@@ -5909,22 +5910,35 @@ $$
   \,. 
 $$
 
-##### Integration of differential over a manifold
+##### Integration of differential forms over a manifold
+ {#IntegrationOfDifferentialFormsOverASmoothManifold}
 
-$\Sigma$ [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
+Let $\Sigma$ be a [[closed manifold|closed]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $k$
 
-[[integration of differential forms]] is map of smooth spaces
++-- {: .num_defn #IntegrationOfDifferentialFormsInTermsOfSmoothModuli}
+###### Definition
+
+For $n \in \mathbb{N}$, $n \geq k$, define the 
+morphism of [[smooth spaces]]
 
 $$
-  \int_{\Sigma} : [\Sigma, \Omega^n(-)] \to \Omega^{n-k}(-)
+  \int_{\Sigma} \colon [\Sigma, \Omega^n] \to \Omega^{n-k}
 $$
 
-over a [[coordinate chart]] $U$ this sends
+by declaring that over a [[coordinate chart]] $U \in$ [[CartSp]] 
+it is the ordinary [[integration of differential forms]] over smooth manifolds
 
 $$
   \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
   \,.
 $$
+
+=--
+
+##### Integration in ordinary differential cohomology
+
+* [[fiber integration in ordinary differential cohomology]]
+
 
 #### Holonomy
 
@@ -6030,20 +6044,24 @@ $$
 is an equivalence.
 
 
-##### Integration in ordinary differential cohomology
-
-* [[fiber integration in ordinary differential cohomology]]
-
-##### Lie integration
- {#LieIntegration}
-
-* [[Lie integration]]
-
 #### Transgression
+ {#Transgression}
+
+What is called _[[transgression]]_ is the combination of 
+
+1. passing a [[cocycle]] on some space $X$ with [[coefficients]] in some $A$ to a [[cocycle]] on a [[mapping space]] $[\Sigma,X]$ with coefficients in $[\Sigma,A]$ and 
+
+1. [[integration|integrating]] the resulting coefficient over $\Sigma$ to obtain a $B$-valued cocycle on the mapping space, where $B$ is some recipient of an integration map of $A$-cocycles over $\Sigma$.
 
 ##### Transgression of differential forms
+ {#TransgressionOfDifferentialForms}
 
-[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
+Let $\Sigma_k$ be a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $k$.
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in \mathbf{H}$, the **[[transgression]] of [[differential forms]]** on $X$ to the [[mapping space]] $[\Sigma,X]$ is the morphism
 
 $$
   \int_\Sigma [\Sigma,-]
@@ -6051,36 +6069,176 @@ $$
   \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
 $$
 
+given on a differential form
+
 $$
-  (X \stackrel{\omega}{\to} \Omega^n(-)) \in \Omega^n(X)
+  (X \stackrel{\omega}{\to} \Omega^n) \in \Omega^n(X)
 $$
 
-to
+as the [[composition]] of the [[mapping space]] operation with the [[integration of differential forms]], def. \ref{IntegrationOfDifferentialFormsInTermsOfSmoothModuli}:
 
 $$
   \int_{\Sigma} [\Sigma,\omega]
-   :
-  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
+   \;\colon\;
+  [\Sigma, X] 
+    \stackrel{[\Sigma, \omega]}{\to}  
+  [\Sigma, \Omega^n]
+    \stackrel{\int_{\Sigma}}{\to}
+  \Omega^{n-k}
+  \,.
 $$
 
-for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
+=--
+
+We discuss some examples and applications:
+
+* [Gauge coupling action functional of charged particle](#GaugeCouplingActionFunctionalOfChargedParticle)
+
+* [Transgression of Killing form to symplectic form of Chern-Simons theory](#TransgressionOfKillingFormToSymplecticFormOfChernSimons)
+
+###### Gauge coupling action functional of charged particle
+ {#GaugeCouplingActionFunctionalOfChargedParticle}
+
+Let $X \in \mathbf{H}$ and consider a [[circle group]]-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ over $X$. By the discussion in _[Dirac charge quantization and the electromagnetic field](#DiracChargeQuantizationAndElectromagneticField)_ above this encodes an [[elecrtromagnetic field]] on $X$. Assume for simplicity here that the underlying [[circle principal bundle]] is trivialized, so that then the connection is equivalently given by a differential 1-form
+
+$$
+  \nabla = A \colon X \to \Omega^1
+  \,,
+$$
+
+the [[electromagnetic potential]].
+
+Let then $\Sigma = S^1$ be the [[circle]].  The [[transgression]] of the electromagnetic potential to the [[loop space]] of $X$ 
 
 $$
   \int_{S^1} [S^1, A]
-  : 
+   \;\colon\;
   [S^1, X]
     \stackrel{[S^1, A]}{\to}
   [S^1 , \Omega^1]
     \stackrel{\int_{S^1}}{\to}
-  \Omega^0(-)
-  = 
+  \Omega^0
+  \simeq
   \mathbb{R}
 $$
 
-variation gives [[Lorentz force]]
+is the [[action functional]] for an [[electron]] or other electrically charged [[particle]] in the [[background gauge field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$.
+
+The [[variational calculus|variation]] of this contribution in addition to that of the [[kinetic action]]  of the electron gives the _[[Lorentz force]]_ law describing the [[force]] exerted by the [[background gauge field]] on the electron.
+
+###### Transgression of Killing form to symplectic form of Chern-Simons theory
+ {#TransgressionOfKillingFormToSymplecticFormOfChernSimons}
+
+Let $\mathfrak{g}$ be a [[Lie algebra]] with 
+binary [[invariant polynomial]] 
+$\langle -,-\rangle \colon \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}$.
+
+For instance $\mathfrak{g}$ could be a [[semisimple Lie algebra]] and $\langle -,-\rangle$ its [[Killing form]]. In particular if $\mathfrak{g} = \mathfrak{su}(n)$ is a [[matrix Lie algebra]] such as the [[special unitary Lie algebra]], then the Killing form is given by the [[trace]] of the product of two matrices.
+
+This pairing $\langle -,-\rangle$ defines a differential 4-form on the [[smooth space]] of [[Lie algebra valued 1-forms]]
+
+$$
+  \langle F_{(-)} \wedge F_{(-)} \rangle
+  \colon
+  \Omega^1(-,\mathfrak{g})
+   \stackrel{F_{(-)}}{\to}
+  \Omega^2(-, \mathfrak{g})
+   \stackrel{(-)\wedge (-)}{\to}
+  \Omega^4(-, \mathfrak{g}\otimes \mathfrak{g})
+   \stackrel{\langle-,-\rangle}{\to}
+  \Omega^4
+$$
+
+Over a [[coordinate patch]] $U \in $ [[CartSp]] this sends a differential 1-form $A \in \Omega^1(U)$ to the differential 4-form
+
+$$
+  \langle F_A \wedge F_A \rangle \in \Omega^4(U)
+  \,.
+$$
+
+The fact that $\langle -, - \rangle$ is indeed an _[[invariant polynomial]]_ means that this indeed extends to a 4-form on the smooth [[groupoid of Lie algebra valued forms]]
+
+$$
+  \langle F_{(-)} \wedge F_{(-)}\rangle
+  \colon
+  \mathbf{B}G_{conn}
+  \to 
+  \Omega^4
+  \,.
+$$
+
+Now let $\Sigma$ be an [[orientation|oriented]] [[closed manifold|closed]] [[smooth manifold]].  The [[transgression]] of the above 4-form to the [[mapping space]] out of $\Sigma$ yields the 2-form
+
+$$
+  \omega
+    \coloneqq
+  \int_{\Sigma} \langle F_{(-)}\wedge F_{(-)}\rangle
+   \colon
+  \mathbf{\Omega}^1(\Sigma,\mathfrak{g})
+   \hookrightarrow
+  [\Sigma, \mathbf{B}G_{conn}]
+    \stackrel{[\Sigma, \langle F_{(-)}\wedge F_{(-)}\rangle]}{\to}
+  [\Sigma, \Omega^4]
+    \stackrel{\int_{\Sigma}}{\to}
+  \Omega^2
+$$
+
+to the [[moduli stack]] of [[Lie algebra valued 1-forms]] on $\Sigma$.
+
+Over a [[coordinate chart]] $U = \mathbb{R}^n \in $ [[CartSp]] an element $A \in \mathbf{\Omega}^1(\Sigma,\mathfrak{g})(\mathbb{R}^n)$ is a $\mathfrak{g}$-valued 1-form $A$ on $\Sigma \times U$ with no leg along $U$. Its [[curvature]] 2-form therefore decomposes as
+
+$$
+  F_A = F_A^{\Sigma} + \delta A
+  \,,
+$$
+
+where $F_A^{\Sigma} $ is the curvature component with all legs along $\Sigma$ and where
+
+$$
+  \delta A
+  \coloneqq 
+  - \sum_{i = 1}^n \frac{\partial}{\partial x^i} A \wedge \mathbf{d}x^i
+$$
+
+is the [[variational calculus|variational]] derivative of $A$.
+
+This means that in the 4-form
+
+$$
+  \langle F_A \wedge F_A\rangle
+  = 
+  \langle F_A^\Sigma \wedge F_A^\Sigma \rangle
+  + 
+  2 \langle F_A^\Sigma \wedge \delta A\rangle 
+  + 
+  \langle \delta A \wedge \delta A\rangle 
+  \in
+  \Omega^4(\Sigma \times U)
+$$
+
+only the last term gives a 2-form contribution on $U$. Hence we find that the transgressed 2-form is
+
+$$
+  \omega = \int_\Sigma \langle \delta A \wedge \delta A\rangle
+   \colon
+  \mathbf{\Omega}^1(\Sigma, \mathfrak{g})
+   \to
+  \Omega^2
+  \,.
+$$
+
+When restricted further to flat forms
+
+$$
+  \mathbf{\Omega^1}_{flat}(\Sigma,\mathfrak{g})
+  \hookrightarrow
+  \mathbf{\Omega^1}(\Sigma,\mathfrak{g})  
+$$
+
+which is the [[phase space]] of $\mathfrak{g}$-[[Chern-Simons theory]], then this is the corresponding [[symplectic form]] (by the discussion at _[Chern-Simons theory -- covariant phase space](Chern-Simons theory#CovariantPhaseSpace)_).
 
 
-* [[Stokes theorem]]
+
 
 ##### Transgression of circle $n$-bundles with connection
 
@@ -6090,6 +6248,12 @@ variation gives [[Lorentz force]]
 ##### Action functionals from transgression
 
 (...)
+
+#### Lie integration
+ {#LieIntegration}
+
+* [[Lie integration]]
+
 
 ### Semantic Layer
  {#IntegrationSemanticLayer}
