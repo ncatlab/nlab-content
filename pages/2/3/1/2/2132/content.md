@@ -34,9 +34,13 @@ There is a unique up to a scalar hermitian metric on a complex projective space 
 
 * [[symplectic manifold]]
 
+* [[Kähler polarization]]
+
 ## References
 
 K&#228;hler manifolds were first introduced and studied by P. A. Shirokov (cf. [a historical article](http://dx.doi.org/10.1070/RM1995v050n02ABEH002098)) and later independently by K&#228;hler. 
+
+Lecture notes include
 
 * Andrei Moroianu, _Lectures on K&#228;hler Geometry_ ([pdf](http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf))
 
