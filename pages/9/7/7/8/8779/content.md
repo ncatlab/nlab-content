@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[circle group]]-[[principal bundle]].
+
+## Properties
+
+### Relation to complex line bundles
+
+Under the standard [[representation]] of $U(1)$ on the [[complex numbers]] the [[associated bundle]] to a $U(1)$-principal bundle is a [[complex line bundle]].
+
+[[!redirects circle principal bundles]]
+
