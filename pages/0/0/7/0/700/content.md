@@ -1,10 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
+=--
+#### Idempotents
++-- {: .hide}
+[[!include idempotents - contents]]
 =--
 =--
 =--
