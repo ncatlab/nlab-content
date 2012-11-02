@@ -17,6 +17,11 @@ The __tropical semiring__ is a [[semiring]] $(\mathbb{R},\oplus,\otimes)$ with a
 
 The tropical rig is also called the [[min-plus algebra]]. There is a related rig called the [[max-plus algebra]]. (Some authors use the term 'tropical algebra' for the max-plus rather than the min-plus algebra.  The theories, of course, run in parallel, as each is the negative of the other.)
 
+## Elementary properties
+
+The tropical semiring is an example of an [[idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
+
+
 
 ## Applications
 
