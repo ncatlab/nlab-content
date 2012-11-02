@@ -33,6 +33,19 @@ The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]
 
   * [[KLT relations]]
 
+* [[11-dimensional supergravity]] 
+
+* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
+
+* [[7-dimensional supergravity]]
+
+* [[5-dimensional supergravity]]
+
+* **4-dimensional supergravity**
+
+* [[3-dimensional supergravity]]
+
+
 ## References
 
 ### On $N=8$ $d=4$ supergravity
