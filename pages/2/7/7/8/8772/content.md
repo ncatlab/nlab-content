@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Idempotents
++-- {: .hide}
+[[!include idempotents - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[linear algebra]] a _projector_ is a [[linear map]] $e \colon V \to V$ that "squares to itself" in that its [[composition]] with itself is again itself: $e \circ e = e$. 
+
+A projector $e$ leads to a decomposition of the [[vector space]] $V$ that it acts on into a [[direct sum]] of its [[kernel]] and its [[image]]:
+
+$$
+  V \simeq ker(e) \oplus im(e)
+  \,.
+$$
+
+The notion of projector is the special case of that of [[idempotent]] [[morphism]].
+
+
+## Related concepts
+
+* [[projection]]
