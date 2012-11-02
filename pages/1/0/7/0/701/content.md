@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-Accordingly, given any idempotent $e \colon X \to X$ it is of interest to ask what [[subobject]] $A \stackrel{i}{\hookrightarrow} X$ of $X$ it is the projection onto, in that there is a projection $X \stackrel{p}{\to} A$ such that the idempotent is the composite of this projection followed by including $A$ back into $X$:
+Accordingly, given any idempotent $e \colon X \to X$ it is of interest to ask what [[subobject]] $A \stackrel{i}{\hookrightarrow} X$ of $X$ it is the projector onto, in that there is a [[projection]] $X \stackrel{p}{\to} A$ such that the idempotent is the composite of this projection followed by including $A$ back into $X$:
 
 $$
   e \colon X \stackrel{p}{\to} A \stackrel{i}{\hookrightarrow} X
