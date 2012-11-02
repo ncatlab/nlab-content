@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents 
 {: toc}
@@ -38,7 +37,8 @@ While the definition above follows how a well-founded relation is generally *use
 
 In [[classical mathematics]], both of these conditions are equivalent to being well-founded.  Constructively, we may prove that a well-founded relation has no infinite descent, but not the converse; and we may prove that a classically well-founded relation is well-founded, but not the converse.  (In fact, if there exists an [[inhabited subset|inhabited]] relation that is classically well-founded, then [[excluded middle]] follows.)  In [[predicative mathematics]], however, the definition of well-founded may be impossible to even state, and so either of these alternative definitions would be preferable (if classical logic is used).
 
-Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]].  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler.
+Even in constructive predicative mathematics, (1) is strong enough to establish the [[Burali-Forti paradox]] (when applied to [[linear orders]]).  In [[material set theory]], (2) is traditionally used to state the [[axiom of foundation]], although the impredicative definition could also be used as an axiom scheme (and must be in constructive versions).  In any case, either (1) or (2) is usually preferred by classical mathematicians as simpler.
+
 
 ### Coalgebraic formulation 
 
@@ -75,6 +75,7 @@ X & \stackrel{\theta_X}{\to} & P X \\
 Y & \underset{\theta_Y}{\to} & P Y.
 }$$ 
 
+
 ## Properties
 
 Every well-founded relation is [[irreflexive relation|irreflexive]]; that is, $x \nprec x$.  Sometimes one wants a reflexive version $\preceq$ of a well-founded relation; let $x \preceq y$ if and only $x \prec y$ or $x = y$.  Then the requirement that $x$ be a minimal element of a subset $A$ states that $t \preceq x$ only if $t = x$.  But infinite descent or direct proof by induction still require $\prec$ rather than $\preceq$.
@@ -99,14 +100,6 @@ More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper clas
 Similarly, let $S$ be a set of [[pure sets]] (or even the proper class of all pure sets), and let $x \prec y$ if $x \in y$.  That this relation is well-founded is the _[[axiom of foundation]]_.
 
 Let $S$ be the set of [[integers]], and let $x \prec y$ mean that $x$ properly divides $y$: $y/x$ is an integer other than $\pm{1}$.  This relation is also well-founded, so one can prove properties of integers by induction on their proper divisors.
-
-
-
-
-
-
-
-
 
 
 [[!redirects well-founded relation]]
