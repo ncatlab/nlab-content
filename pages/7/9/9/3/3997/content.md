@@ -18,7 +18,7 @@
 
 ## Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ when the composite $F\circ J$ has a limit, if $J$ has a limit and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that in addition to $J$ having a limit, a [[cone]] over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ if $J$ has a limit whenever the composite $F\circ J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that, in addition to $J$ having a limit whenever $F \circ J$ does, a [[cone]] over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
 
 Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the corresponding limit.
 
