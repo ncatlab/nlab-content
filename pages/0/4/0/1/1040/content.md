@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Idempotents
++-- {: .hide}
+[[!include idempotents - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -12,7 +16,6 @@
 =--
 =--
 =--
-
 
 # Idempotent monads
 * table of contents
