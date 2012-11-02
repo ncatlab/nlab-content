@@ -32,6 +32,21 @@
 The [[AdS/CFT|AdS7/CFT6-correspondence]] relates
 7-dimensional supergravity on asymptocially 7d [[anti de Sitter spacetimes]] to the [[6d (2,0)-superconformal QFT]].
 
+## Related concepts
+
+* [[11-dimensional supergravity]] 
+
+* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
+
+* **7-dimensional supergravity**
+
+* [[5-dimensional supergravity]]
+
+* [[4-dimensional supergravity]]
+
+* [[3-dimensional supergravity]]
+
+
 ## References
 
 ### General
