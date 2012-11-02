@@ -1,0 +1,29 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[supergravity]] in [[dimension]] 5
+
+## Related concepts
+
+* [[5-dimensional Chern-Simons theory]]
+
+* [[11-dimensional supergravity]] 
+
+* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
+
+* [[7-dimensional supergravity]]
+
+* **5-dimensional supergravity**
+
+* [[4-dimensional supergravity]]
+
+* [[3-dimensional supergravity]]
+
+## References
+
+* Eric Bergshoeff, Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, Antoine Van Proeyen, _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
+
