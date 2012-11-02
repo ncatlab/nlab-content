@@ -6,6 +6,9 @@ Moduli space of algebraic curves/Riemann surfaces is sort of space of parameters
 see [[moduli space]] for a more
 abstract philosophy. Deligne and Mumford have found a nontrivial [[compactification]] of a moduli space of Riemann surfaces of fixed genus which is a [[Deligne-Mumford stack]].
 
+There is also a decorated version of curves with marked points, and
+of the corresponding compactified moduli space of stable curves of genus $g$ with $n$ marked points $\mathcal{M}_{g,n}$ which plays important role in the mathematical study of [[Gromov-Witten invariant]]s and of [[conformal blocks]].
+
 ### Related entries and bibliography
 
 Related $n$Lab entries: [[moduli space]], [[moduli stack]], [[mapping class group]], [[enumerative geometry]], [[Mumford class]], [[Deligne-Mumford stack]]
