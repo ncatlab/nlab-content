@@ -185,6 +185,8 @@ is the highest dimensional possible. All lower dimensional theories in this clas
 
 * [[7-dimensional supergravity]]
 
+* [[5-dimensional supergravity]]
+
 * [[4-dimensional supergravity]]
 
 * [[3-dimensional supergravity]]
