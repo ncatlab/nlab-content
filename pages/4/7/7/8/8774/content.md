@@ -1,0 +1,107 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A variant of [[Yang-Mills theory]] in which the [[field strength]]/[[curvature]] 2-form of the [[Yang-Mills field]] is constrained to be self-dual.
+
+## Definition
+
+Let $(X, g)$ be a ([[pseudo-Riemannian manifold|psudo]]) [[Riemannian manifold]] of [[dimension]] 4. Write $\star \colon \Omega^2(X) \to \Omega^2(X)$ for the corresponding [[Hodge star operator]]. Its square is $\star^2 = -1$ for Euclidean [[signature of a quadratic form|signature]] and $\star^2 = +1$ for Lorentzian signature. Decompose (possibly after [[complexification]])
+
+$$
+  \Omega^2(X) \simeq \Omega^2(X)_+ \oplus \Omega^2(X)_-
+$$
+
+into the [[direct sum]] of [[eigenspaces]] of $\star$, the _self-dual_ and the _anti-self-dual forms_. 
+
+Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for the corresponding [[Lie algebra]]. Let $\langle -,-\rangle$ be a binary [[invariant polynomial]] on the Lie algebra.
+
+Accordingly we have
+
+$$
+  \Omega^2(X, \mathfrak{g}) \simeq \Omega^2(X, \mathfrak{g})_+ \oplus \Omega^2(X, \mathfrak{g})_-
+  \,.
+$$
+
+The configuration space of self-dual Yang-Mills theory on $(X,g)$ is that of pairs $(\nabla, \mathcal{G})$ with 
+
+* $\nabla \in \mathbf{H}^1_{conn}(X,G)$ is a $G$-[[principal connection]] over $X$;
+
+* $\mathcal{G} \in \Omega^2(X, \mathfrak{g})_-$ is an anti-self-dual 2-form. 
+
+The [[action functional]] of the theory is
+
+$$
+  (\nabla, \mathcal{G})
+  \mapsto
+  \int_X
+  \langle 
+    (F_\nabla)_- \wedge \mathcal{G}
+  \rangle
+  dvol_g
+  \,.
+$$
+
+## Properties
+
+If one changes the action functional of self-dual Yang-Mills theory by adding a term
+
+$$
+ \cdots +  \epsilon \int_X \langle \mathcal{G} \wedge \mathcal{G}\rangle
+$$
+
+
+for some non-vanishing $\epsilon \in \mathbb{R}$, then it becomes equivalent to that of ordinary [[Yang-Mills theory]] in the form
+
+$$
+  \nabla \mapsto \frac{1}{\epsilon}
+  \int_X
+  \left(
+    \langle F_\nabla \wedge \star F_\nabla \rangle
+    -
+    \langle F_\nabla \wedge F_\nabla \rangle
+  \right)
+  dvol_g
+  \,.
+$$
+
+## Related concepts
+
+* [[self-dual higher gauge theory]]
+
+## References
+
+The action functional is due to 
+
+* Gordon Chalmers and Warren Siegel, _T-Dual Formulation of Yang-Mills Theory_, (1997) ([arXiv:hep-th/9712191](http://arxiv.org/abs/hep-th/9712191))
+
+briefly reviewed at the beginning of
+
+* M.V. Movshev, _A Note on Self-Dual Yang-Mills Theory_ ([arXiv:0812.0224](http://arxiv.org/abs/0812.0224))
+
+For self-dual [[super Yang-Mills theory]] a discusion is in 
+
+* E. Sokatchev, _An action for $N=4$ supersymmetric self-dual Yang-Mills theory_ ([arXiv:hep-th/9509099](http://arxiv.org/abs/hep-th/9509099))
+
+See also
+
+* H. J. de Vega, _Nonlinear multiplane wave solutions of self-dual Yang-Mills theory_ ([EUCLID](http://projecteuclid.org/euclid.cmp/1104161520))
+
+
