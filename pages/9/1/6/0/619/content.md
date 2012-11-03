@@ -265,9 +265,7 @@ A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [
 
 +-- {: .num_example #NonUnitalRings}
 ###### (Counter)Example
-
-Unital [[rings]] [[Ring]] form a non-full (see remark \ref{NonFullReflections}) mono-reflective subcategory  of possibly nonunital rings (and homomorphisms not respecting any unit) $Ring'$; the reflector $L \colon Ring' \to Ring$ formally adjoins an [[identity element]].
-
+The non-full inclusion of unital [[rings]] into non-unital rings has a left adjoint (with monic units), whose reflector formally adjoins an [[identity element]].  However, we do not call it a reflective subcategory, because the "inclusion" is not full; see remark \ref{NonFullReflections}.
 =--
 
 +-- {: .num_remark #RemarkOnNonUnitalRings}
