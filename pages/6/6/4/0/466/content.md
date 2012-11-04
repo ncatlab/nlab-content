@@ -196,6 +196,8 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * In [[functional programming]], the Yoneda embedding is the [[continuation passing style]] transform.
 
+* Formulation of the lemma in [[dependent type theory]]: [A type theoretical Yoneda lemma](http://homotopytypetheory.org/2012/05/02/a-type-theoretical-yoneda-lemma/) at [homotopytypetheory.org](http://homotopytypetheory.org)
+
 ## Related constructions
 
 * [[Yoneda reduction]]
