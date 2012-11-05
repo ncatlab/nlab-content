@@ -74,37 +74,6 @@ is a [[fiber sequence]] in the [[(2,1)-category]] [[Grpd]].
 
 This says that group extensions are special cases of the general notion discussed at _[[∞-group extension]]_. See there for more details.
 
-+-- {: .num_prop }
-###### Proposition
-
-For $A \hookrightarrow \hat G \to G$ a group extension, the inclusion $A \hookrightarrow \hat G$ is a [[normal subgroup]] inclusion.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We need to check that for all $a \in A \hookrightarrow G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $\hat G$ is again in $A \stackrel{i}{\hookrightarrow} \hat G$. 
-
-Since $p : \hat G \to G$ is a group homomorphism we have that 
-
-$$
-  \begin{aligned}
-    p(g a g^{-1}) & = p(q) p(a) p(g^{-1})
-    \\
-    & = p(g) p(a) p(g)^{-1}
-    \\
-    & = p(g) p(g)^{-1}
-    \\
-    & = 1
-  \end{aligned}
-$$
-
-and hence $g a g^{-1}$ is in the [[kernel]] of $p$. By the defining exactness property therefore it is in the [[image]] of $i$. 
-
-=--
-
-
 +-- {: .num_defn #MorphismOfGroupExtensions}
 ###### Definition
 
@@ -172,6 +141,39 @@ We discuss properties of group extensions in stages,
 
 ### General 
  {#PropertiesGeneral}
+
+
+#### Fibers of extensions are normal subgroups
+
++-- {: .num_prop }
+###### Proposition
+
+For $A \hookrightarrow \hat G \to G$ a group extension, the inclusion $A \hookrightarrow \hat G$ is a [[normal subgroup]] inclusion.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that for all $a \in A \hookrightarrow G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $\hat G$ is again in $A \stackrel{i}{\hookrightarrow} \hat G$. 
+
+Since $p : \hat G \to G$ is a group homomorphism we have that 
+
+$$
+  \begin{aligned}
+    p(g a g^{-1}) & = p(q) p(a) p(g^{-1})
+    \\
+    & = p(g) p(a) p(g)^{-1}
+    \\
+    & = p(g) p(g)^{-1}
+    \\
+    & = 1
+  \end{aligned}
+$$
+
+and hence $g a g^{-1}$ is in the [[kernel]] of $p$. By the defining exactness property therefore it is in the [[image]] of $i$. 
+
+=--
 
 
 
