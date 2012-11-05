@@ -29,9 +29,9 @@ On a [[complex manifold]] $X$ the [[de Rham complex]] $\Omega^\bullet(X)$ refine
 
 ### In terms of sheaf cohomology
 
-Let $CartSp_{compl}$ be the [[category]] of complex [[Cartesian spaces]] $\mathbb{C}^n$ and [[holomorphic functions]] between them.
+Let $Disk_{compl}$ be the [[category]] of complex unit [[disks]] in $\mathbb{C}^n$ and [[holomorphic functions]] between them.
 
-For $p \in \mathbb{N}$ write $\Omega^p \colon CartSp_{complex}^{op} \to Set$ for the [[sheaf]] of holomorphic [[differential n-form|differential p-forms]].
+For $p \in \mathbb{N}$ write $\Omega^p \colon Disk_{complex}^{op} \to Set$ for the [[sheaf]] of holomorphic [[differential n-form|differential p-forms]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -39,7 +39,7 @@ For $p \in \mathbb{N}$ write $\Omega^p \colon CartSp_{complex}^{op} \to Set$ for
 For $X$ a [[complex manifold]], let $\{U_i \to X\}$ be a holomorphic good open cover. Then the [[Cech cohomology]] of this cover with [[coefficients]] in $\Omega^p$ in degree $q$ is the Dolbeault cohomology in bidegree $(p,q)$
 
 $$
-  H^{p,q}(X) \simeq \pi_0 sPSh(CartSp_{comp})(C(\{U_i\}, \Omega^p[q]))
+  H^{p,q}(X) \simeq \pi_0 sPSh(Disk_{comp})(C(\{U_i\}, \Omega^p[q]))
   \,.
 $$
 
