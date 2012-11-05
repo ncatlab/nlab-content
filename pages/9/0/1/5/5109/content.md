@@ -5,9 +5,16 @@
 
 ## Idea
 
-A kind of [[modal logic]]. (...)
+The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
-(Similarly to the use on the related pages on $K$, $S4$ and $S5$, the notation $T$ is used to be synonymous with $T_{(1)}$.  It is thus the single agent case and was the original case studied. We continue to use the notation from the page on [[epistemic logic]].)
+1. $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
+
+1. $\Box T \colon \Box p \to p$ (T modal logic)
+
+Often one considers adding one more axiom:
+
+* $\Box 4 \colon \Box p \to \Box \Box p$. ([[S4 modal logic]]).
+
 
 The [[the logic K(m)|basic epistemic logics]], $K$ and $K_{(m)}$, do not reflect much of our intuition of 'knowledge'.  The $K$-axiom merely says that, if an agent knows $\phi$ and also that agent knows $\phi\to \psi$, then the agent knows $\psi$.  There are a series of additional axioms proposed as being appropriate for knowledge, (although, it seems, each has their supporters and detractors!)  These are called $T$, $(4)$, and $B$ (and please don't ask why, ... each has its own history).
 
@@ -55,3 +62,5 @@ We need a state with this property and we only know about one namely $w$, so tha
 [[!redirects the logic T(m)]]
 [[!redirects The logic T(m)]]
 [[!redirects T(m)]]
+
+[[!redirects T modal logic]]
