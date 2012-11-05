@@ -350,6 +350,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
   * **geometric quantization**, [[higher geometric quantization]]
 
     * [[geometric quantization of symplectic groupoids]] 
+ 
+    * [[spin-c quantization]]
 
   * [[path integral]]
 
@@ -420,6 +422,11 @@ Some useful talk notes include
 
 * Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
 
+### $Spin^{\mathbb{C}}$-Quantization
+
+The flavor of [[spin-c quantization]] is explicitly discussed in 
+
+* [[Fabian Meier]], _Geometric quantization -- An introduction to $Spin^{\mathbb{C}}$-quantization and related topics_ ([pdf](http://www.math.uni-bonn.de/people/fmeier/GeomQuan.pdf))
 
 ### Examples
 
