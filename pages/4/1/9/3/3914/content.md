@@ -261,7 +261,7 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 * [[differential Thom class]]
 
-* [[differential orientation]]
+* [[differential orientation]], [[fiber integration in differential cohomology]]
 
 * [[(infinity,1)-vector bundle]]
 
