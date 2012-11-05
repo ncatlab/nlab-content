@@ -237,6 +237,7 @@ In parallel to the existence of [higher spin structures](spin+structure#Higher) 
 
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
+* [[spin^c quantization]]
 
 ## References
 
