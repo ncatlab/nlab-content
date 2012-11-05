@@ -1,6 +1,6 @@
 ## Idea
 
-*Concurrency* is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along an irreversible [[directed object]].
+*Concurrency* (or maybe rather _parallelism_ ([Harper](#Harper))) is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along an irreversible [[directed object]].
 
 ## Related entries
 
@@ -14,6 +14,11 @@
 
   * [[motivation for directed homotopy]]
 
+## References
+
+* [[Bob Harper]], _[Parallelism is not concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)_
+ {#Harper} 
 
 category:computer science
+
 [[!redirects concurrency]]
