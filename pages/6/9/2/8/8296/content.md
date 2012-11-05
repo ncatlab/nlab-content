@@ -35,19 +35,25 @@ An **extension** $\hat G$ of $G$ by $A$ is a [[fiber sequence]] of the form
 
 $$
   \mathbf{B}A \stackrel{i}{\to} \mathbf{B}\hat G \stackrel{p}{\to} \mathbf{B}G
+  \,.
 $$
-
-such that the this exhibits $\Omega i \colon A \hookrightarrow \hat G$ as a [normal morphism](normal+subgroup#NormalMorphismOfInfinityGroups), hence such that $G \simeq \hat G \sslash G$.
 
 =-- 
 
-In the case that $A$ is at least [[En-algebra|E2]], hence in the case that the double [[delooping]] $\mathbf{B}^2 A$ exists, this is equivalent to the 
++-- {: .num_remark}
+###### Remark
+
+Equivalently this says that $A \to \hat G$ is a [normal morphism of ∞-groups](normal%20subgroup#NormalMorphismOfInfinityGroups) and that $G \simeq \hat G \to G$ is its quotient.
+
+=--
+
+Let moreover $A$ be a [[braided ∞-group]], with second [[delooping]] $\mathbf{B}^2 A \in \mathbf{H}$. 
+
 
 +-- {: .num_defn #E2Extensions}
 ###### Definition
 
-
-For $A$ an [[En-algebra|E-2]] [[∞-group]], an extension $\hat G$ of $G$ by $A$ is a [[fiber sequence]] in $\mathbf{H}$ of the form
+A **central extension** $\hat G$ of $G$ by $A$ is a [[fiber sequence]] in $\mathbf{H}$ of the form
 
 $$
   \array{
