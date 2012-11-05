@@ -5,12 +5,22 @@
 
 ## Idea
 
-These are the basic [[epistemic logics]].  They are 'basic' with not much structure relating to any ideas of how 'knowledge' behaves.
+The flavor of _[[modal logic]]_ called $K$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
-($K$ is the usual notation for $K_{(1)}$.)
+* $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
+
+Often one adds to this the following further axioms
+
+* $\Box T \colon \Box p \to p$ ([[T modal logic]])
+
+* $\Box 4 \colon \Box p \to \Box \Box p$. ([[S4 modal logic]]).
+
+$K$ is the basic [[epistemic logic]].  
 
 
-## Axiomatisation
+## Properties
+
+### Axiomatisation
 
 * (Taut)  All (instances of ) propositional tautologies.
 
@@ -19,7 +29,7 @@ These are the basic [[epistemic logics]].  They are 'basic' with not much struct
 $$(K_i\phi \wedge K_i(\phi \to \psi))\to K_i\psi.$$
 
 
-## Derivation rules
+### Derivation rules
 
 * (MP) 
 
@@ -33,7 +43,7 @@ $$\frac{\phi}{K_i\phi}.$$
 
 The second deduction rule corresponds to the idea that _if a statement has been proved, then it is known to all 'agents'_.
 
-## $K$
+### Normality
 
 This logic is the smallest [[normal modal logic]].
 
@@ -50,3 +60,5 @@ The semantics of $K_{(m)}$ is just the Kripke semantics of this context, so a [[
 [[!redirects The logic K(m)]]
 [[!redirects The logic $K_{(m)}$]]
 [[!redirects K(m)]]
+
+[[!redirects K modal logic]]
