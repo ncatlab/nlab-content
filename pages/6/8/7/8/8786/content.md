@@ -1,0 +1,17 @@
+## Idea
+
+*Concurrency* is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along a irreversible [[directed object]].
+
+## Related entries
+
+* [[models for concurrency]]
+
+* [[Some geometric perspectives in concurrency theory]]
+
+* in a wider sense also articles related to [[directed homotopy theory]], e.g.
+
+  * [[Directed Algebraic Topology]]
+
+  * [[motivation for directed homotopy]]
+
+[[!redirects concurrency]]
