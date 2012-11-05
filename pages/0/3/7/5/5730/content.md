@@ -29,6 +29,19 @@ A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex 
 
 * equivalently: a [[smooth manifold]] equipped with an integrable [[almost complex structure]] 
 
+## Properties
+
+### Covers
+
++-- {: .num_prop}
+###### Proposition
+
+Every complex manifold admits a [[good open cover]] in $Disk_{cmpl}$.
+
+=--
+
+For instance ([Maddock, lemma 3.2.8](#Maddock)).
+
 ## Related concepts
 
 * [[complex analytic space]]
@@ -41,5 +54,8 @@ For instance
 
 * Stefan Vandoren, _Lectures on Riemannian Geometry, Part II:
 Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
+
+* Zachary Maddock, _Dobeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+ {#Maddock}
 
 [[!redirects complex manifolds]]
