@@ -3184,7 +3184,7 @@ $$
     \mathbf{d} (f \circ \phi)
     \\
     & =
-    \sum_{j = 1}^{\tilde k} \frac{f \circ \phi}{\partial x^j}
+    \sum_{j = 1}^{\tilde k} \frac{\partial (f \circ \phi)}{\partial x^j}\mathbf{d} x^j
   \end{aligned}
 $$
 
