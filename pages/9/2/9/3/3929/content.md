@@ -11,4 +11,4 @@ category: people
 [[!redirects G. M. Kelly]]
 [[!redirects George Max Kelly]]
 [[!redirects George Maxwell Kelly]]
-
+[[!redirects G.M. Kelly]]
