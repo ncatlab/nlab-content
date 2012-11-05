@@ -1,3 +1,4 @@
+
 # Specker sequences
 * table of contents
 {: toc}
@@ -11,9 +12,9 @@ A __Specker sequence__ is a [[bounded function|bounded]] [[computable function|c
 
 Since there is a sequence of all [[Turing machine|Turing machines]], define a sequence $(S_n)_n$ as
 $$ S_n = \sum_{i + j = n} 2^{-i} \{i\}_j ,$$
-where $\{i\}_j$ is the [[bit]] giving whether the $i$th Turing machine halts before $j$ steps.  The theoretical limit of this sequence is
+where $\{i\}_j$ is the [[bit]] ($0$ or $1$) giving whether the $i$th Turing machine halts before $j$ steps.  The theoretical limit of this sequence is
 $$ \sum_i 2^{-i} \{i\} ,$$
-where $\{i\}$ is the bit giving whether the $i$th Turing machine halts at all, but this is uncomputable (by the [[halting problem]]).
+where $\{i\}$ is the bit giving whether the $i$th Turing machine halts at all, but this is uncomputable (on pain of solving the [[halting problem]]).
 
 
 ## In constructive mathematics
