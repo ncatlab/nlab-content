@@ -17,7 +17,7 @@
 
 A _complex [[line]]_ is a [[vector space]]/[[module]] over the [[complex numbers]] $\mathbb{C}$ of [[dimension]] 1 (complex dimension that is, as a $\mathbb{C}$-vector space, meaning that as a vector space over the [[real numbers]] it is a [[plane]]).
 
-Accordingly $\mathbb{C}$ itself may be referred to as _[[generalized the|the]]_ complex line.
+Accordingly the [[complex plane]] $\mathbb{C}$ itself may be referred to as _[[generalized the|the]]_ complex line.
 
 ## Related concepts
 
