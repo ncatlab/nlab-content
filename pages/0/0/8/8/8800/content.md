@@ -1,0 +1,28 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+The notion of [[n-category]] formulated [[internalization|internal]] to an ambient [[(∞,1)-category]] is supposed to externally be a kind of [[(∞,n)-category]]. 
+
+For $n =1$ this is a [[category object in an (∞,1)-category]]. 
+
+A model along these lines for general with the [[simplex category]] generalized to the [[Theta category|Theta_n category]] and the ambient $(\infty,1)$-category being [[∞Grpd]] are _[[Theta_n spaces]]_.
+
+
+
+[[!redirects n-category object in an (∞,1)-category]]
