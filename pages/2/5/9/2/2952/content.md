@@ -1,3 +1,1 @@
-category: spam
-[[!redirects spam: ferrim]]
-[[!redirects ferrim]]
+category: empty
