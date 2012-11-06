@@ -23,7 +23,7 @@
 
 ## Idea
 
-A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex $n$-dimensional complex line):
+A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex $n$-dimensional [[complex line]]):
 
 * a [[smooth manifold]] locally isomorphic to $\mathbb{C}^n$ whose transition functions are [[holomorphic function]]s.
 
@@ -41,6 +41,16 @@ Every complex manifold admits a [[good open cover]] in $Disk_{cmpl}$.
 =--
 
 For instance ([Maddock, lemma 3.2.8](#Maddock)).
+
+## Examples
+
+### Complex 1-dimensional: Riemann surfaces
+
+A complex manifold of complex [[dimension]] 1 is called a  _[[Riemann surface]]_.
+
+### Calabi-Yau manifold
+
+A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Yau manifold]]_. In complex dimension 2 this is a _[[K3 surface]]_.
 
 ## Related concepts
 
