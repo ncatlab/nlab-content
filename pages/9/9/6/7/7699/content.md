@@ -1,2 +1,1 @@
-[[!redirects II.11, p-divisible formal group]]
-[[!redirects II.11, p-divisible formal group]]
+category: empty
