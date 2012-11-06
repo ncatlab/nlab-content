@@ -41,3 +41,6 @@ page 89 (20 of 49) at
 
 [[!redirects left invariant form]]
 [[!redirects right invariant form]]
+
+[[!redirects invariant vector field]]
+[[!redirects invariant vector fields]]
