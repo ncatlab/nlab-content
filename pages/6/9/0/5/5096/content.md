@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Epistemic logic is the branch of [[modal logic]] concerning notions of knowledge and belief.  In its applied form it has found considerable use in Computer Science and Artificial Intelligence.
+Epistemic logic is the branch of [[modal logic]] concerning notions of knowledge and belief.  In its applied form it has found considerable use in [[computer science]] and Artificial Intelligence.
 
 
 ## Epistemic formulae
@@ -59,6 +59,7 @@ General books on modal logics include
 
 and these have discussions about epistemic logics and their place within the wider framework of modal logic.
 
+* Johan van Benthem, _Dynamic logic for belief revision_ ([pdf](http://www.illc.uva.nl/Research/Reports/PP-2006-11.text.pdf))
 
 [[!redirects epistemic logic]]
 [[!redirects epistemic logics]]
