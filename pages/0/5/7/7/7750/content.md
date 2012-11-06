@@ -2,6 +2,24 @@
 
 > under construction
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In analogy to how the [[Lie group]] [[spin^c]] is obtained by twisting the lift through the second stage of the [[Whitehead tower]] of $\mathbf{B}O$ by the [[first Chern class]]
@@ -29,12 +47,57 @@ $$
   \,.
 $$
 
+Accordingly a [[reduction and lift of structure groups|lift of the structure group]] to $String^c$ is a **$String^c$-structure**.
+
 For the moment see at _[[twisted smooth cohomology in string theory]]_ for more.
 
 ## Related concepts
 
 * [[string 2-group]]
 
+* [[twisted differential string structure]]
+
+
+* [[twisted differential c-structures|(twisted, differential) c-structures]]
+
+  * [[orientation]]
+
+  * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
+
+    [[spin^c structure]], [[twisted spin^c structure]],
+
+  * [[string structure]], [[twisted differential string structure]],
+
+  * **$string^c$ structure**
+
+  * [[fivebrane structure]], [[twisted differential fivebrane structure]]
+
+## References
+
+
+Topological $string^c$-structures were introduced in 
+
+* Qingtao Chen, Fei Han, Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+
+and discussed in the context of [[string theory]] in 
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]] II: Twisted $String$ and $String^c$ structures_, J. Australian Math. Soc. 90 (2011), 93-108 ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
+
+Their smooth refinement and their [[smooth infinity-groupoid|smooth moduli 2-stacks]] were introduced in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_
+
+A general discussion is in section 5.2 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+
+
+
 [[!redirects string^c 2-group]]
 
 [[!redirects String^c 2-group]]
+
+[[!redirects string^c structure]]
+[[!redirects string^c structures]]
+
