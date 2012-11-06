@@ -1,11 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Supergeometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 There are two different things that one might mean by a "complex supermanifold", and the term is in fact used for two different notions in the literature (the terminology is a mess!):
 
@@ -17,7 +35,7 @@ However, considering ordinary smooth manifolds as ringed spaces with either thei
 
 1. In the second sense, a complex supermanifold is a super(complex manifold), a super-version of [[complex manifold]].
 
-# complex {super manifold} #
+## complex {super manifold} 
 
 A **complex supermanifold** is a [[ringed space]] $X = (|X|, O_X)$ such that
 
@@ -106,7 +124,9 @@ $$
 $$
 
 
-#super {complex manifold}#
+## Related concepts
+
+* [[super Riemann surface]]
 
 
-...
+[[!redirects complex supermanifolds]]
