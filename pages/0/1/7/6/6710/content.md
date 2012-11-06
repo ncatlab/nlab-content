@@ -235,9 +235,12 @@ In parallel to the existence of [higher spin structures](spin+structure#Higher) 
 
   * [[string structure]], [[twisted differential string structure]],
 
+  * [[string^c 2-group]], [[string^c structure]]
+
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
 * [[spin^c quantization]]
+
 
 ## References
 
