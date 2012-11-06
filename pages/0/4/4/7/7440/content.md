@@ -486,9 +486,13 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 ## Related concepts
 
+* [[n-category object in an (infinity,1)-category]]
+
 * [[internal category]], [[internal functor]]
 
 * [[2-congruence]], [[(n,r)-congruence]]
+
+
 
 ## References
 
