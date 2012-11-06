@@ -221,6 +221,13 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 * [[geometric model for modal logic]]
 
+* [[coalgebraic model for modal logic]]
+
+* [[coalgebra for an endofunctor]]
+
+
+  
+
 ## References
  {#References}
 
