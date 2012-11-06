@@ -139,7 +139,16 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 
 ## Definition
 
-### Prequantum line bundle
+Geometric quantization involves two steps
+
+1. [Geometric prequantization](#GeometricPrequantization)
+
+1. [Geometric quantization proper](#GeometricQuantizationProper).
+
+### Geometric prequantization
+ {#GeometricPrequantization}
+
+##### Prequantum line bundle
 
 Given the [[symplectic form]] $\omega$, a 
 [[prequantum circle bundle]] for it is a 
@@ -150,11 +159,13 @@ In other words, prequantization is a lift of $\omega$ through the curvature-[[ex
 The multiple of the [[Chern class]] of this line bundle is identified with the inverse _[[Planck constant]]_.
 
 
-### Quantum states
+#### Prequantum states
 
 (...)
 
-### Quantum operators
+A _prequantum state_ is a [[section]] of the [[prequantum bundle]].
+
+#### Prequantum operators
 
 Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
 [[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _[[prequantum space of states]]_.
@@ -187,20 +198,44 @@ corresponding to $f$;
 
 =--
 
-### Polarizations
+### Geometric quantization
+ {#GeometricQuantizationProper}
+
+Given a [[prequantum bundle]] as above, the remaining step of genuine _geometric quantization_ consists of forming _half_ its space of sections in a certain sense. See at _[[polarization]]_ for the physical intuition behind this
+
+A traditional way to formalize this is as a 3-step process
+
+1. choose a [Polarization](#Polarizations)
+
+1. choose a [Metaplectic correction](#MetaplecticCorrection)
+
+1. form the induced [Space of states](#QuantumSpaceOfStates) as the space of polarized sections sensored a certain half-form bundle.
+
+Another way which works more generally and coincides with this prescription under mild conditions is to 
+
+1. choose a [[spin^c structure]] compatible with the given prequantum bundle
+
+1. form the [[fiber integration in differential K-theory]] of the prequantum bundle.
+
+This _[[spin^c quantization]]_ is discussed further at _[[geometric quantization by push-forward]]_.
+
+#### Polarizations 
  {#Polarizations}
 
 For $(X, \omega)$ a [[symplectic manifold]], a **[[polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
 
 After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
 
-### Metaplectic correction
+#### Metaplectic correction
+ {#MetaplecticCorrection}
 
 For the moment see at _[[metaplectic correction (in geometric quantization)]]_.
 
 
+#### $Spin^c$-structure
 
-### Quantum state space
+#### Quantum state space
+ {#QuantumSpaceOfStates}
 
 
 (space of sections of the prequantum line bundle whose [[covariant derivative]] along the polarizaiton leaves vanishes...)
