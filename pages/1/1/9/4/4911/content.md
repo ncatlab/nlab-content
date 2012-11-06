@@ -1,4 +1,13 @@
 
-* [website](http://homepages.mcs.vuw.ac.nz/~rob/)
+Robert Goldblatt is a logician based at Victoria University, Wellington, New Zealand.
+
+* [Home page](http://homepages.mcs.vuw.ac.nz/~rob/)
+
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Goldblatt)
+
+
 
 category: people
+[[!redirects R. Goldblatt]]
