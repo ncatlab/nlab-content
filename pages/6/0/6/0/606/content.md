@@ -34,7 +34,7 @@ Let $S \in $ [[sSet]] with
 
 The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
 
-1. $ d_i \circ d_j  = d_{j-1} \circ d_i$ if $i \lt j$,
+1. $ d_i \circ d_j  = d_{j+1} \circ d_i$ if $i \lt j$,
 
 1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
 
