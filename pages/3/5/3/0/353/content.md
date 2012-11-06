@@ -120,6 +120,8 @@ Please add any other comparisons you are aware of!
 
 * [[category]]
 
+  * [[category object in an (∞,1)-category]]
+
 * [[2-category]], [[bicategory]]
 
 * [[3-category]], [[tricategory]]
@@ -127,6 +129,8 @@ Please add any other comparisons you are aware of!
 * [[4-category]], [[tetracategory]]
 
 * **$n$-category**
+
+  * [[n-category object in an (∞,1)-category]]
 
 * [[(n,1)-category]]
 
