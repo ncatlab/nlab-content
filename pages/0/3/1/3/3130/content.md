@@ -111,8 +111,7 @@ This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cac
 
 ### Push-forward
 
-The behaviour of the Chern-character under push-forward
-along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
+The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
 
 ## References
 
