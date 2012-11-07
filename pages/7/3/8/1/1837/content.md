@@ -216,6 +216,9 @@ Some Modern Developments_ Rev. Mod. Phys. 72, 1-23 (2000).
 
 [[!redirects gauge theories]]
 
+[[!redirects gauge field theory]]
+[[!redirects gauge field theories]]
+
 [[!redirects higher gauge theory]]
 [[!redirects higher gauge theories]]
 
