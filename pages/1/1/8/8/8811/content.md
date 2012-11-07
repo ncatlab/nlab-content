@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A generalization of the notion of [[elliptic operator]].
+
+## Definition
+
+For $X$ a [[smooth manifold]] and $\{E_k\}_{k \in \mathbb{Z}}$ a collection of [[vector bundles]] over $X$, a [[chain complex]] of [[differential operators]] between the spaces of [[sections]] of these bundles
+
+$$
+  \cdots \to \Gamma(E_{k+1}) \stackrel{P_k}{\to} \Gamma(E_k) \to \cdots 
+$$
+
+is called an **elliptic chain complex** if the corresponding sequence of [[symbol of a differential operator|symbols]]
+
+$$
+  \cdots \to \pi^* E_{k+1} \stackrel{\sigma(P_k)}{\to} \pi^* E_k \to \cdots
+$$
+
+(where $\pi \colon T^* X \to X$ is the [[cotangent bundle]]) is an [[exact sequence]].
+
+For a single differetial operator $P$ this says that $0 \to \pi^* E_1 \stackrel{\sigma(P)}{\to} \pi^* E_0 \to 0$ is exact, which means that $\sigma(P)$ is an [[isomorphism]], hence that $P$ is an [[elliptic operator]].
+
+[[!redirects elliptic chain complexes]]
+[[!redirects elliptic complex]]
+[[!redirects elliptic complexes]]
+
