@@ -22,7 +22,7 @@
 
 The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
 
-There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_ . As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
+There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_. As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
 
 >_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
 
@@ -30,7 +30,7 @@ Hence there is a good bit of flexibility in the notion _modal logic_, as shown b
 
 The classic example of a modal logic is a system, called _[[S4 modal logic]]_, that aims to model the idea of propositions being "possibly true" or "necessarily true". 
 
-We list and discuss examples of modal logic in more detial below in _[Examples](#Examples)_. 
+We list and discuss examples of modal logic in more detail below in _[Examples](#Examples)_. 
 
 Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[Kripke frames]]_ in the context of modal logic.  For instance, [[temporal logic|temporal logics]] have [[posets]] as [[models]].
 
@@ -41,7 +41,7 @@ Modal logics have [[semantics]] in terms of sets with [[relations]], called _[[K
 ### Modal Languages
 {#modal+language}
 
-Modal logics are built on **modal languages**, that is the usual propositional language plus those extra modalities. The way the modalities work has to be laid down in an axiom system for the logic in question, for instance, for the temporal logic we might require an axiom saying
+Modal logics are built on **modal languages**, that is the usual propositional language plus those extra modalities. (Note that modalities may also be added to predicate logic, see [[first-order modal logic]].) The way the modalities work has to be laid down in an axiom system for the logic in question, for instance, for the temporal logic we might require an axiom saying
 'If $F F\phi$ is true, then $F\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in 'provability logic'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
 
 
