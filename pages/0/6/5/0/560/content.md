@@ -22,7 +22,7 @@ of the endomorphisms of the given [[interval object]] $I$ regarded as a cospan $
 Then let an **$I$-directed object** of $C$ be an object $X$ of $C$ equipped with a [[subset]] $d$ or $d_X$ of the [[hom-set]] $I \to C$; elements of $d$ are called **directed paths** in $(X, d)$.  The directed paths must satisfy these conditions (following Grandis):
 1. (constant paths) every map $I \to \pt \to X$ is directed;
 2. (reparametrisation) For $\gamma \in d_X \subset hom(I,X)$  and every $\phi \in d_I \subset hom(I,I)$, also $\gamma \circ \phi$  is in $d_X$;
-3. (concatenation) if $a, b: I \to X$ are consecutive in the sense that $\pt \to^{\tau} I \to^{a} X$ equals $\pt \to^{\sigma} I \to^{b} X$, then their concatenate $I \to X$ (which exists by the pushout properties of an interval object) is a directed path.
+3. (concatenation) Let $a,b:I\to X$ be *consecutive wrt. $I$* (i.e. $\pt \to^{\tau} I \to^{a} X$ equals $\pt \to^{\sigma} I \to^{b} X$), let $I^{v2}$ denote the pushout of $\sigma$ and $\tau$, then by the universal property of the pushout there is a map $\phi:I^{v2}\to X$. By definition of the [[interval object]] (described there in the section "Intervals for Trimble $\omega$-categories") there is a unique morphism $\psi:I\to I^{v2}$. Then the *composition of $a$ and $b$* is defined by $a\bullet b:=\phi\circ \psi$. Then $d_X$ shall be closed under composition of consecutive paths.
 
 A morphism of such directed objects is a morphism of their underlying objects that preserves directed paths.  This defines a category $d_I{C}$ of which the original $C$ is a subcategory.
 
@@ -43,5 +43,4 @@ Applications of categories regarded as models for directed spaces are discussed 
 
 * Tim Porter, _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
-
 
