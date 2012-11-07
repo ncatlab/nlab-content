@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+=--
+=--
+
 # Integrals and integration
 * table of contents
 {: toc}
@@ -75,6 +85,9 @@ vector fields and flows)
 ## Related concepts
 
 * [[integration of differential forms]]
+
+* [[fiber integration]], [[fiber integration in differential cohomology]]
+
 
 ## References
 
