@@ -37,3 +37,5 @@ Section 4.10 in
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
+[[!redirects integration in differential cohomology]]
+
