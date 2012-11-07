@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
