@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Entries
 
 * index theory
 
@@ -7,6 +23,8 @@
   * [[analytical index]]
 
   * [[Atiyah-Singer index theorem]]
+
+## References
 
 * David Edwards, _Lectures on index theory I_, [pdf](http://www.math.uga.edu/~davide/Lectures_on_Index_Theory__Lecture_I_Operator_Theory_and_Topology.pdf), 
 _Lectures on index theory II_, [pdf](http://www.math.uga.edu/~davide/Lectures_on_Index_Theory__Lecture_II_Index_Theory_for_Toeplitz_Operators.pdf), _The Index Program for K-Theory with Local Coefficients_, [pdf](http://www.math.uga.edu/~davide/The_Index_Program_for_K-Theory_with_Local_Coefficients.pdf)
