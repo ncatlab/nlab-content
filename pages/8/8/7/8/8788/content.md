@@ -30,6 +30,8 @@ _Geometric quantization via push-forward_  or _$Spin^{\mathbb{C}}$-quantization_
 
 ## References
 
+
+
 The idea originates around
 
 * [[David Metzler]], _A K-Theoretic Note on Geometric Quantization_ ([arXiv:math/9809031](http://arxiv.org/abs/math/9809031))
@@ -48,6 +50,10 @@ and is highlighted in the general context of [[geometric quantization]] in
 and the last section of 
 
 * _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
+
+Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
 
 Further developments are in
 
