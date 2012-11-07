@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 #### Locality and descent
 +--{: .hide}
 [[!include descent and locality - contents]]
@@ -11,14 +15,13 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The term _stack_, is a traditional synonym for _[[2-sheaf]]_ (see there for more details).
+The term _stack_, is a traditional synonym for _[[2-sheaf]]_ or often just _[[(2,1)-sheaf]]_ (see there for more details).
 
 It is also often used more restrictively as a synonym for _[[(2,1)-sheaf]].
 
@@ -107,13 +110,15 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
 * [[2-sheaf]] / [[(2,1)-sheaf]] /  **stack** / [[model structure for (2,1)-sheaves]]
 
+  * [[representable morphism of stacks]]
+
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
 Special kinds of stacks include
 
-* [[geometric stack]]s;
+* [[geometric stacks]];
 
-* [[gerbe]]s.
+* [[gerbes]].
 
 ## References
 
