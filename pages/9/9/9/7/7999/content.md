@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
