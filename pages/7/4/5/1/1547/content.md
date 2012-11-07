@@ -26,6 +26,8 @@ A **vector bundle** is a [[vector space]] which "continuously varies" over a [[t
 
 ## Definition
 
+### General
+
 A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally isomorphic to a product with a [[vector space]] $V$ as fiber.  More precisely, the data is an object $\pi: E \to X$ in $Top/X$ equipped with a vector space structure [[internalization|internal]] to $Top/X$, consisting of maps 
 
 $$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
@@ -76,7 +78,7 @@ via the action of the transition functions:
 $$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rangle) \times V}{\to} U_\beta \times GL(V) \times V \overset{action}{\to} U_\beta \times V \hookrightarrow \sum_{\beta} U_\beta \times V$$
 
 
-## Remarks
+**Remarks**
 
 * In most applications, the [[ground field]] of scalars is assumed to be $\mathbb{R}$ or $\mathbb{C}$, although sometimes other fields are allowed, as in the study of algebraic vector bundles. 
 
@@ -85,7 +87,7 @@ $$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rang
 * In the context of differential topology or differential geometry, one also assumes that $\pi$ is smooth and that the local bundle isomorphisms $\phi_{\alpha}$ are diffeomorphisms.
 
 
-## Sheaf-theoretic version
+### Sheaf-theoretic version
 
 Vector bundles can also be defined via [[sheaf and topos theory|sheaf theory]], which permits easy transport to general [[Grothendieck topos]]es. Let $Sh(X)$ be the category of (set-valued) [[sheaf|sheaves]] on $X$. The sheaf of continuous local sections of the product projection 
 
@@ -96,12 +98,13 @@ forms a [[local ring]] object $R$; when interpreted in the [[internal logic]] of
 * A theorem of Kaplansky states "every projective module over a local ring is free". When interpreted in [[sheaf semantics]] ([[Kripke-Joyal semantics]]), the [[existential quantifier]] implicit in "free" is interpreted _locally_, so we can consider a vector bundle as a locally free module over the Dedekind reals. 
 
 
-## Virtual vector bundles
+### Virtual vector bundles
 
 In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) cohomology]] theory -- cocycles are represented by $\mathbb{Z}_2$-graded vector bundles (pairs of vector bundles, essentially) modulo a certain equivalence relation. In that context it is sometimes useful to consider a certain variant of infinite-dimensional $\mathbb{Z}_2$-graded vector bundles called [[vectorial bundle]]s.
 
 
 Much else to be discussed...
+
 
 
 ## Related concepts
@@ -111,6 +114,8 @@ Much else to be discussed...
 * **vector bundle**, [[holomorphic vector bundle]]
  
   * [[connection on a vector bundle]]
+
+  * [[complex vector bundle]]
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
