@@ -859,7 +859,7 @@ Standard textbook references on group cohomology include
 
 * [[Kenneth Brown]],  _Cohomology of Groups_ , Graduate Texts in Mathematics, 87 (1972)
 
-An introduction to group cohmology of a group $G$ as the cohomology of the [[classifying space]] $B G$ is for instance in 
+An introduction to group cohomology of a group $G$ as the cohomology of the [[classifying space]] $B G$ is for instance in 
 
 * Joshua Roberts, _Group cohomology: a classifying space perspective_ ([pdf](http://www.piedmont.edu/math/jroberts/notes/qualifyingtalk.pdf))
 
@@ -930,6 +930,8 @@ Cohomology of the [[classifying space]] $B G$ for $G$ the [[topological group]] 
  {#MilnorStasheff}
 
 * Mark Feshbach, _Some General Theorems on the Cohomology of Classifying Spaces of Compact Lie Groups_ Transactions of the American Mathematical Society Vol. 264, No. 1 (Mar., 1981), pp. 49-58 ([JSTOR](http://www.jstor.org/stable/1998409))
+
+* [[Donald Yau]], _Cohomology of unitary and symplectic groups_ ([pdf](http://www.mathnet.ru/links/c8897bc54ec0a1a49d03ca681d53db7b/ljm147.pdf))
 
 * D. Benson, [[John Greenlees]], _Commutative algebra for cohomology rings of classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Benson-Greenlees/Liegroupca.pdf))
 
