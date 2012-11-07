@@ -1,4 +1,18 @@
-[[!redirects elliptic operator]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A [[differential operator|differential]] or [[pseudodifferential operator]] is **elliptic** if its [[principal symbol]] is invertible. 
 
+## Related concepts
+
+* [[elliptic chain complex]]
+
+## References
+
 * [eom](http://eom.springer.de/e/e035500.htm)
+
+[[!redirects elliptic operator]]
