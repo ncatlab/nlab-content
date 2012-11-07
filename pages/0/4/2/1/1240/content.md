@@ -1,32 +1,47 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Given a [[group]] $G$ with subgroup $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
+Given a [[group]] $G$ with [[subgroup]] $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
 
 
 ## Explanation
 
-We start with a Lie group $G$ acting smoothly and transitively on a smooth [[manifold]] $M$.  The stabilizer of your favorite point $x \in M$ will be a Lie subgroup $H \subseteq G$, and we have
+We start with a [[Lie group]] $G$ acting smoothly and transitively on a [[smooth manifold]] $M$.  The [[stabilizer subgroup]] of a given point $x \in M$ is then a Lie subgroup $H \subseteq G$, and we have
 
-$$ M \cong G/H $$
+$$ 
+  M \cong G/H
+  \,, 
+$$
 
-Starting from this, there's a process that takes any representation $s$ of $H$ on a vector space $V$ and turns it into a vector bundle $E$ over $M$ --- the so-called 'induced bundle'.  Even better, the group $G$ acts on this bundle, and the projection 
+the [[coset]] space.
+
+Starting from this, there's a process that takes any [[representation]] $s$ of $H$ on a [[vector space]] $V$ and turns it into a [[vector bundle]] $E$ over $M$ --- called the _induced bundle_.  Moreover, the group $G$ [[action|acts]] on this [[bundle]], and the [[projection]] 
 
 $$ \pi : E \to M $$
 
-gets along with the action of $G$:
+is compatible with the [[action]] of $G$:
 
 $$ \pi(g e) = g \pi(e) .$$
 
-So, we say that $E$ is a **$G$-equivariant** vector bundle over $M$.
+Hence $E$ is a **$G$-equivariant** vector bundle over $M$.
 
-The 'process' described is actually a [[functor]].  
+The 'process' described is actually a [[functor]], the **induction functor**.
 
-There's a category 
+There's a [[category]]
 
 $$Rep(H)$$
 
@@ -115,6 +130,7 @@ We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections o
 
 $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
+## Properties
 
 ### Unitarity
 
@@ -157,9 +173,9 @@ But where do we get a $G$-invariant measure on $G/H$?
 =--
 
 
-## Adjoint of induced bundle construction
+### Adjoint of induced bundle construction
 
-The induced bundle construction described above is a functor that takes representations of the stabilizer subgroup $H$ to $G$-equivariant vector bundles over $M$:
+The induced bundle construction described above is a [[functor]] that takes representations of the [[stabilizer subgroup]] $H$ to $G$-equivariant vector bundles over $M$:
 
 $$L: Rep(H) \to Vect(M,G) $$
 
@@ -167,7 +183,9 @@ There is a related functor going the other way:
 
 $$R: Vect(M,G) \to Rep(H) $$
 
-which restricts the action of $G$ on the whole bundle to the action of the stabilizer subgroup $H$ on the fiber over the chosen point $x$.  We now wish to show that $L$ and $R$ are adjoint functors.
+which [[restriction|restricts]] the action of $G$ on the whole bundle to the action of the stabilizer subgroup $H$ on the fiber over the chosen point $x$.  The existence of this [[adjunction]] is known as **[[Frobenius reciprocity]]**.
+
+We now wish to show that $L$ and $R$ are adjoint functors.
 
 [[!include induced representation > adjoint]]
 
@@ -251,9 +269,9 @@ $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 ## Related issues
 
-[[Bill Lawvere]] noted a structural similarity between induced representations and [[quantification]]. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
+* [[Bill Lawvere]] noted a structural similarity between induced representations and [[quantification]]. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
 
-If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
+* If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
 
 
 ## References
@@ -271,3 +289,7 @@ The above text is taken from these comments
 
 [[!redirects induced representation]]
 [[!redirects induced representations]]
+
+[[!redirects induction functor]]
+[[!redirects induction functors]]
+
