@@ -23,7 +23,13 @@ A _complex structure_ on a [[smooth manifold]] $X$ is the structure of a [[compl
 
 ## Properties
 
+### Characterizations of integrability
+
 The _Newlander-Nierenberg theorem_ states that an almost complex structure $J$ on a smooth manifold is integrable precisely if its [[Nijenhuis tensor]] vanishes, $N_J = 0$.
+
+### Relation to $Spin^c$-structures
+
+Every alomost complex structure canonically induces a [[spin^c-structure]]. See there for more.
 
 ## References
 
