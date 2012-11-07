@@ -1,7 +1,11 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
