@@ -91,12 +91,22 @@ $$
   \,.
 $$
 
+### Higher $spin^c$-structures
+ {#Higher}
+
+In parallel to the existence of [higher spin structures](spin+structure#Higher) there are higher analogs of $Spin^c$-structures, related to [[quantum anomaly]] cancellation of theories of higher dimensional [[branes]].
+
+* [[string^c structure]]
+
+
+
 ## Properties
 
 ### Of $Spin^c$
  {#PropertiesOfSpinC}
 
-**Definition**
++-- {: .num_defn}
+###### Definition
 
 The group $Spin^c$ is
 
@@ -112,7 +122,10 @@ $$
 where in the second line the action is the diagonal action induced from the two canonical embeddings of subgroups $\mathbb{Z}_2 \hookrightarrow \mathbb{Z}$
 and $\mathbb{Z}_2 \hookrightarrow U(1)$.
 
-**Claim** 
+=--
+
++-- {: .num_prop}
+###### Proposition
 
 We have a [[homotopy pullback]] diagram
 
@@ -128,7 +141,10 @@ $$
   \,.
 $$
 
-**Proof**
+=--
+
++-- {: .proof}
+###### Proof
 
 We present this as usual by [[simplicial presheaves]] and [[∞-anafunctors]].
 
@@ -214,12 +230,13 @@ $$
 
 which is the original definition.
 
-## Higher $spin^c$-structures
- {#Higher}
+=--
 
-In parallel to the existence of [higher spin structures](spin+structure#Higher) there are higher analogs of $Spin^c$-structures, related to [[quantum anomaly]] cancellation of theories of higher dimensional [[branes]].
+## Examples
 
-* [[string^c structure]]
+### From almost complex structures
+
+An [[almost complex structure]] canonically induces a $Spin^c$-structure (...)
 
 ## Related concepts
 
@@ -250,6 +267,11 @@ A canonical textbook reference is
 
 * H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
 
+Other accounts include
+
+* Blake Mellor, _$Spin^c$-manifolds_ ([[BlakeSpinC.pdf:file]])
+
+* _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
 
 ### As anomaly cancellation in type II string theory
 
