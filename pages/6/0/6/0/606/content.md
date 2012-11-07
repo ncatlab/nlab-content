@@ -24,7 +24,7 @@ The **simplicial identities** are the duals to the _simplicial relations_  of co
 
 Let $S \in $ [[sSet]] with
 
-* face maps  $d_i : S_n \to S_{n-1}$ obtained by omitting the $i$th vertex;
+* face maps  $\partial_i : S_n \to S_{n-1}$ obtained by omitting the $i$th vertex;
 
 * degeneracy maps $s_i : S_n \to S_{n+1}$ obtained by repeating the $i$th vertex.
 
@@ -34,11 +34,11 @@ Let $S \in $ [[sSet]] with
 
 The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
 
-1. $ d_i \circ d_j  = d_{j+1} \circ d_i$ if $i \lt j$,
+1. $ \partial_i \circ \partial_j  = \partial_{j-1} \circ \partial_i$ if $i \lt j$,
 
 1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
 
-1. $d_i \circ s_j =  \left\{ \array{ s_{j-1} \circ d_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ d_{i-1} &  if i \gt j+1 } \right. $
+1. $\partial_i \circ s_j =  \left\{ \array{ s_{j-1} \circ \partial_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ \partial_{i-1} &  if i \gt j+1 } \right. $
 
 =--
 
@@ -57,7 +57,7 @@ satisfied by [[differentials]] in [[chain complexes]] (in [[homological algebra]
 
 Write $\mathbb{Z}[S]$ be the [[simplicial abelian group]] obtained form $S$ by forming degreewise the [[free abelian group]] on the set of $n$-simplices, as discussed at _[[chains on a simplicial set]]_.
 
-Then using these [[formal linear combinations]] we can sum up all the $(n+1)$ face maps $d_i : S_n \to S_{n-1}$ into a single map:
+Then using these [[formal linear combinations]] we can sum up all the $(n+1)$ face maps $\partial_i : S_n \to S_{n-1}$ into a single map:
 
 +-- {: .num_defn #TheAlternatingFaceMapDifferential}
 ###### Definition
@@ -73,7 +73,7 @@ defined on [[basis]] elements $\sigma \in S_n$ to be the alternating sum of the 
 
 \[
   \label{AlternatingFaceMapDifferential}
-  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_k \sigma
+  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k \partial_k \sigma
   \,.
 \]
 
@@ -98,27 +98,27 @@ $$
     \partial \partial \sigma
     & = 
     \partial \left(
-      \sum_{j = 0}^n (-1)^j d_j \sigma
+      \sum_{j = 0}^n (-1)^j \partial_j \sigma
     \right)
     \\
     & =
-    \sum_{j=0}^n \sum_{i = 0}^{n-1} (-1)^{i+j} d_i d_j \sigma
+    \sum_{j=0}^n \sum_{i = 0}^{n-1} (-1)^{i+j} \partial_i \partial_j \sigma
     \\
      & =
-     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_i d_j \sigma
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} \partial_i \partial_j \sigma
      + 
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} \partial_i \partial_j \sigma
      \\
      & = 
-     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_{j-1} d_i \sigma
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} \partial_{j-1} \partial_i \sigma
      + 
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} \partial_i \partial_j \sigma
      \\
      & = 
      - 
-     \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} d_{j} d_i \sigma
+     \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} \partial_{j} \partial_i \sigma
      + 
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} \partial_i \partial_j \sigma
      \\
      & = 0
   \end{aligned}
@@ -141,6 +141,10 @@ Here
 
 =--
 
+## References
 
+For instance definition 1.1 in 
+
+* [[Peter May]], _Simplicial objects in algebraic topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
 [[!redirects simplicial identity]]
