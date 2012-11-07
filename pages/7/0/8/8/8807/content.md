@@ -1,0 +1,16 @@
+Under construction
+
+##Idea##
+
+As well as considering modalities applied to propositions in _propositional_ [[modal logic]], logicians have also studied modalities applied to predicate logic, or *first-order modal logic*. Here we can represent statements such as 
+: $\Box \exists x P(x)$, Necessarily there exists something which is $P$.
+: $\exists x \Box P(x)$, There exists something which is necessarily $P$.
+
+##Semantics##
+
+Awodey and Kishida showed that S4 first-order modal logic is complete with respect to a [[sheaf]]-theoretic semantics. Other approaches involve metaframes, counterpart frames, coherence frames (Kracht&Kutz, Shehtman/Skvortsov, Shirasu) and [[ionads]].
+
+
+##References##
+
+[[Steve Awodey]] and [[Kohei Kishida]], _Topology and Modality: The Topological Interpretation of First-Order Modal Logic_, ([pdf](http://www.fmf.uni-lj.si/storage/10064/Awodey_Kishida.pdf?access=4e412100ed9d47ac9186902397fc455d))
