@@ -1,6 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
 
-Nothing here yet. But we have:
+#Contents#
+* table of contents
+{:toc}
+
+## Entries
 
 * [[elliptic differential operator]]
 
