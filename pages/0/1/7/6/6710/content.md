@@ -286,6 +286,8 @@ is the corresponding $Spin^c$-structure.
 
     **$spin^c$ structure**, [[twisted spin^c structure]],
 
+    [[Spin^c Dirac operator]]
+
   * [[string structure]], [[twisted differential string structure]],
 
   * [[string^c 2-group]], [[string^c structure]]
