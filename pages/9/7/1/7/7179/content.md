@@ -9,6 +9,10 @@ _Geometric invariant theory_ studies the construction of [[moduli spaces]] / [[m
 
 This is the geometric aspect ([[Isbell duality|Isbell dual]] aspect) of [[invariant theory]].
 
+## Related concepts
+
+* [[stability]], [[stable vector bundle]]
+
 ## References
 
 * David J. Swinarski, _Geometric Invariant Theory
