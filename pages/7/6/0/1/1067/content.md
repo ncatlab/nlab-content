@@ -203,6 +203,8 @@ See [[model structure on chain complexes]].
 
   * [[chain homotopy]]
 
+  * [[elliptic chain complex]]
+
 * [[cochain complex]]
 
 * [[bounded chain complex]]
