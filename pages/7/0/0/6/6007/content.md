@@ -8,8 +8,13 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -321,3 +326,5 @@ See also
 
 
 [[!redirects differential Thom class]]
+
+[[!redirects integration in ordinary differential cohomology]]
