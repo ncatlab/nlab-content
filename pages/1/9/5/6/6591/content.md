@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include index theory - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
