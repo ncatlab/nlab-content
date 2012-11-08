@@ -52,6 +52,9 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### A1.4 Coherent categories
 
 * [[coherent category]]
+
+* [[disjoint coproduct]]
+
 * [[extensive category]]
 * [[pretopos]]
 * [[Heyting category]]
