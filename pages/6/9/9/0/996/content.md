@@ -1,3 +1,4 @@
+[[!redirects generator]]
 
 > This page is about a certain notion of _generators_ in a [[category]]. There are many other notions of generators, notably there is the notion of _[[generators and relations]]_.
 
