@@ -17,3 +17,4 @@
 
 * [[(∞,n)-category with adjoints]]
 
+[[!redirects adjoints]]
