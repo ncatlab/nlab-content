@@ -26,6 +26,8 @@ More generally, a *connected geometric morphism* $p\colon E\to F$ is a "relativi
 
 ## Definition
 
+### Connected geometric morphism
+
 A [[geometric morphism]] $p\colon E\to F$ is **connected** if its [[inverse image]] part $p^*$ is [[fully faithful functor|full and faithful]].
 
 A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $E \to Set = Sh(*)$ is connected.  If $E$ is the [[topos of sheaves]] on a [[topological space]] $X$ (or more generally a [[locale]]), then this is equivalent to the usual definition of connectedness for $X$ (see C1.5.7 in the [[Elephant]]).
@@ -33,11 +35,11 @@ A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $
 Equivalently, a topos is connected if its [[global section]] geometric morphism exhibits [[discrete objects]].
 
 
-## Connected locally connected morphisms
+### Connected locally connected morphisms
 
 For geometric morphisms which are also [[locally connected geometric morphism|locally connected]], connectedness can be phrased in an especially nice form.
 
-+-- {: .un_prop #PreservationOfTerminalObject}
++-- {: .num_prop #PreservationOfTerminalObject}
 ###### Proposition
 If $p\colon E\to F$ is locally connected, then it is connected if and only if the left adjoint $p_!$ of the inverse image functor (which exists, since $p$ is locally connected) preserves the terminal object.
 =--
@@ -61,9 +63,9 @@ Strengthenings of this condition include
 * a [[totally connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite limits.
 
 
-## Connected locally connected sites
+### Connected locally connected sites
 
-+--{: .un_prop}
++--{: .num_prop}
 ###### Proposition
 If $C$ is a [[locally connected site]] with a [[terminal object]], then the [[topos of sheaves]] $Sh(C)$ on $C$ is (not just locally connected) but connected.
 =--
@@ -79,9 +81,11 @@ $$
 But if $C$ has a terminal object, then that terminal object represents the terminal presheaf, which is also the terminal presheaf.  Hence under these conditions, $\Pi_0$ preserves the terminal object, so $Sh(C)$ is connected.
 =--
 
-## Orthogonality
+## Properties
 
-+--{: .un_prop}
+### Orthogonality
+
++--{: .num_prop}
 ###### Proposition
 Connected geometric morphisms are left [[orthogonal]] to [[etale geometric morphisms]] in the [[2-category]] [[Topos]].
 =--
@@ -103,7 +107,7 @@ of geometric morphisms in which $p$ is connected and $q$ is etale, there exists 
 However, if $X\in D$ is such that $B \cong D/X$ (such exists by definition of $q$ being etale), then for any topos $E$ equipped with a geometric morphism $k\colon E\to D$, lifts of $k$ along $q$ are equivalent to morphisms $* \to k^*(X)$ in $C$.  In particular, $f$ is determined by a map $*\to f^*(q^*(X)) \cong p^*(g^*(X))$, and since $* \cong p^*(p_*(*))$ and $p^*$ is fully faithful, this map comes from a map $*\to g^*(X)$ in $C$, which in turn determines a geometric morphism $h\colon C\to B$ which is the desired filler.
 =--
 
-+--{: .un_prop}
++--{: .num_prop}
 ###### Proposition
 Any locally connected geometric morphism factors as a connected and locally connected geometric morphism followed by an etale one.
 =--
@@ -122,7 +126,7 @@ These results all have generalizations to [[∞-connected (∞,1)-toposes]].
 
 ## Examples
 
-+--{: .un_prop}
++--{: .num_prop}
 ###### Proposition
 
 
@@ -131,7 +135,7 @@ The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[Cart
 =--
 
 
-+--{: .un_prop}
++--{: .num_prop}
 ###### Proposition
 
 
