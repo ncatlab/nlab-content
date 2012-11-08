@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _$n$-fold complete Segal space_ is a model for an $n$-fold [[category object in an (infinity,1)-category|category object internal to]] [[∞Grpd]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an _[[(∞,n)-category]]_.
+An _$n$-fold complete Segal space_ is a [[homotopy theory]]-version of an [[n-fold category]]: an $n$-fold [[category object in an (infinity,1)-category|category object internal to]] [[∞Grpd]] hence an [[n-category object in an (∞,1)-category]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an _[[(∞,n)-category]]_.
 
 
 A [[complete Segal space]] is to be thought of as the [[nerve]] of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an $(\infty,1)$-[[(infinity,1)-category|category]]. 
