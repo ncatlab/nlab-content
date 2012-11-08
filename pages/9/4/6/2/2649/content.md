@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -32,11 +32,16 @@ By this definition, the [[initial object]] of $C$ is *not* connected (except for
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 is always a [[bijection]]. See the following section.) 
 
-### Reduction to binary coproducts 
+## Properties
 
-+-- {: .un_thm}
+### Characterization in terms of coproducts
+
+Let $C$ be an infinitary [[extensive category]].
+
++-- {: .num_theorem}
 ###### Theorem 
-Let $C$ be infinitary extensive. Then an object $X$ of $C$ is connected if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+
+ Then an [[object]] $X$ of $C$ is connected if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
 =-- 
 
 +-- {: .proof}
@@ -66,8 +71,10 @@ Note that the proof is not [[constructive mathematics|constructive]], as we have
 From the proof above, we extract a result useful in its own right, giving an alternative definition of connected object. 
 
 +-- {: .num_theorem #Scholium}
-###### Scholium 
-An object $X$ in an extensive category is connected if and only if in any coproduct decomposition $X = U + V$, exactly one of $U$, $V$ is noninitial. 
+###### Theorem 
+
+An object $X$ in an extensive category is connected if and only if in any [[coproduct]] decomposition $X = U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
+
 =-- 
 
 +-- {: .proof}
@@ -77,16 +84,7 @@ If $X$ is connected and $X = U + V$ is a coproduct decomposition, then the arrow
 Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and put $U = f^\ast(i_Y)$, $V = f^\ast(i_Z)$. By extensivity, we have a coproduct decomposition $X = U + V$. One of $U$, $V$ is initial, say $V$, and then we have $X = U$, meaning that $f$ factors through $Y$, and uniquely so since $i_Y$ is monic. Hence $f$ belongs to (exactly) one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$, $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
 =--  
 
-## Examples
-
-* Connected objects in [[Top]] are precisely [[connected topological space|connected topological spaces]]. 
-
-* For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) transitive $G$-sets. 
-
-* Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
-
-
-## Properties 
+### General
 
 * A colimit of a connected diagram of connected objects is connected. This is due to the fact that coproducts in $Set$ commute with _limits_ of connected diagrams. 
 
@@ -94,13 +92,16 @@ Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and pu
 
 It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. (For more on this topic, see also [[cohesive topos]].) We do have the following partial result, generalizing the case of $Top$. 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ######Theorem 
+
 Suppose $C$ is a cocomplete $\infty$-extensive category with finite products. Assume that the terminal object is a separator, and that functors of the form $X \times -$ preserve epis. Then a product of finitely many connected objects is connected. 
+
 =-- 
 
 +-- {: .proof} 
 ######Proof 
+
 In the first place, $1$ is connected. For suppose $1 = U + V$ where $U$ is not initial. The two coproduct inclusions $U \to U + U$ are distinct by disjointness of sums. Since $1$ is a separator, there must be a map $1 \to U$ separating these inclusions. We then conclude $U \cong 1$, and then $V \cong 0$ by disjointness of sums. 
 
 Now let $X$ and $Y$ be connected. The two inclusions $i_1, i_2: X \to X + X$ are distinct, so there exists a point $a \colon 1 \to X$ separating them. For each $y \colon 1 \to Y$, the +-shaped object $T_y = (X \times y) \cup (a \times Y)$ is connected (we define $T_y$ to be a sum of connected objects $X \times y$, $a \times Y$ amalgamated over the connected object $a \times y = 1 \times 1 = 1$, i.e., to be a connected colimit of connected objects). We have a map 
@@ -114,7 +115,25 @@ $$\sum_{y \colon 1 \to Y} X \times y \cong X \times \sum_{y \colon 1 \to Y} 1 \t
 is epic (by the assumptions that $1$ is a separator and $X \times -$ preserves epis), and this map factors through $\phi$. It follows that the codomain $X \times Y$ of $\phi$ is also connected. 
 =-- 
 
+
+
+## Examples
+
+* Connected objects in [[Top]] are precisely [[connected topological space|connected topological spaces]]. 
+
+* For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) transitive $G$-sets. 
+
+* Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
+
+
+
+
+
 ## Related concepts
+
+* [[connected topos]], [[locally connected topos]]
+
+* [[disjoint coproduct]]
 
 * [[coproduct-preserving representable]]
 
