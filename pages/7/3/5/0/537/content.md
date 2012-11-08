@@ -13,7 +13,15 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of _disjoint coproduct_ is a generalization to arbitrary [[categories]] of that of _[[disjoint union]]_ of sets.
+
+One says that a [[coproduct]] $X + Y$ of two [[objects]] $X, Y$ in a [[category]] $\mathcal{C}$ is _disjoint_ if the [[intersection]] of $X$ with $Y$ in $X \coprod Y$ is [[initial object|empty]]. In this case one writes $X \coprod Y \coloneqq X + Y$ for the coproduct and speaks of the _[[disjoint union]]_ of $X$ with $Y$.
+
 ## Definition
+
+### In a category
 
 A [[coproduct]] $a+b$ in a [[category]] is **disjoint** if
 
@@ -37,13 +45,95 @@ $$
 
 An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to \coprod_i a_i$ is monic and the intersection of any two is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
 
-Having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]].  Having all small disjoint coproducts is one of the conditions in Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]].
+### In a bicategory
+
+## Properties
+
+### Characterization of extensivity and of sheaf toposes
+
+A category having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]].  
+
+Having all small disjoint coproducts is one of the conditions in [[Giraud's theorem]] characterizing [[sheaf toposes]].
+
+### In coherent categories
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[coherent category]]. If $X, Y \hookrightarrow Z$ are two [[subobjects]] of some [[object]] $Z \in \mathcal{C}$ and are disjoint, in that their [[intersection]] in $Z$ is [[initial object|empty]], $X \cap Y \simeq\emptyset$, then their [[union]] $X \cup Y$ is their (disjoint) [[coproduct]].
+
+=--
+
+This apears as ([Johnstone, cor. A1.4.4](#Johnstone)).
+
++-- {: .num_defn #PositiveCategory}
+###### Definition
+
+A coherent category in which all coproducts are disjoint is also called a **[[positive category|positive coherent category]]**.
+
+=--
+
+([Johnstone, p. 34](#Johnstone))
+
++-- {: .num_example}
+###### Example
+
+Every [[extensive category]] is in particular positive, by definition.
+
+=--
+
+In a positive coherent category, every morphism into a coproduct factors through the coproduct coprojections:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a postive coherent category, def. \ref{PositiveCategory}, and let $f \colon A \to X \coprod Y$ be a [[morphism]]. Then the two [[subobjects]] $f^*(X) \hookrightarrow A$ and $f^*(Y) \hookrightarrow Y$ of $A$, being the [[pullbacks]] in 
+
+$$
+  \array{
+    f^* (X) &\to& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{i_X}}
+    \\
+    A &\stackrel{f}{\to}& X \coprod Y
+  }
+  \;\;\;\;
+  \array{
+    f^* (Y) &\to& Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{i_Y}}
+    \\
+    A &\stackrel{f}{\to}& X \coprod Y
+  }
+$$
+
+are disjoint in $A$ and $A$ is their disjoint coproduct
+
+$$
+  A \simeq f^*(X) \coprod f^*(Y)
+  \,.
+$$
+
+=--
+
+This appears in ([Johnstone, p. 34](#Johnstone)).
+
++-- {: .num_remark}
+###### Remark
+
+This means that if $A \in \mathcal{C}$ itself is indecomposable in that it is not a coproduct of two objects in a non-trivial way, for instance if $\mathcal{C}$ is an [[extensive category]] and $A \in \mathcal{C}$ is a [[connected object]], then every morphism $A \to X \coprod Y$ into a disjoint coproduct factors through one of the two canonical inclusions.
+
+=--
 
 
-## Generalizations
+## References
 
-A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
+For instance page 34 in section A1.4.4 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
 [[!redirects disjoint coproduct]]
 [[!redirects disjoint coproducts]]
+
+
