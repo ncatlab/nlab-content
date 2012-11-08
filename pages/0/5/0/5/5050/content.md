@@ -29,3 +29,4 @@ For details see [[manifold]].
 * [[closed manifold]]
 
 [[!redirects manifold with corners]]
+[[!redirects manifolds with corners]]
