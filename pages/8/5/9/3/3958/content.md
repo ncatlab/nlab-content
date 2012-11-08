@@ -35,7 +35,7 @@ Traditionally, a _smooth manifold_ is defined as follows.
 
 #### As special topological manifolds
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$. 
@@ -50,7 +50,7 @@ A [[homomorphism]] of smooth manifolds is a [[smooth function]]s. Smooth manifol
 #### As special locally ringed spaces
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X)$ which is locally isomorphic to the ringed space $(\mathbb{R}^n, C^\infty(-) )$.
@@ -118,7 +118,7 @@ given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (�
 
 #### Smooth manifolds as locally representable objects of $Sh(CartSp)$ {#smoothManifoldsAsLocallyRepresentableObjects}
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Say a [[concrete sheaf|concrete object]] $X$ in the [[sheaf topos]] $Sh(CartSp)$ -- a [[diffeological space]] -- is _locally representable_ if there exists a family of open embeddings $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism out of the [[coproduct]]
@@ -133,7 +133,7 @@ Let $LocRep(CartSp) \hookrightarrow Sh(CartSp)$ be the full [[subcategory]] on l
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is an [[equivalence of categories]]
@@ -201,7 +201,7 @@ We may switch from regarding smooth manifolds as objects in the [[big topos]] $X
 
 For every choice of [[geometry (for structured (∞,1)-toposes)]]   there is a notion of $\mathcal{G}$-[[locally representable structured (∞,1)-topos]] ([StrSp](#StrSp)). 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Claim
 
 Smooth manifolds are equivalently the [[n-localic (infinity,1)-topos|0-localic]] [[CartSp]]-[[generalized scheme]]s of locally finite presentation.
@@ -244,6 +244,9 @@ A textbook reference is
 
 * John Lee, _[Introduction to Smooth Manifolds](http://www.math.washington.edu/~lee/Books/smooth.html)_, Springer Graduate Texts in Mathematics 218 ([pdf of chapter 1](http://www.math.washington.edu/~lee/Books/Smooth/c01.pdf))
 
+Discussion of smooth manifolds as colimits of the Cech nerves of their good open covers is also at 
+
+* MathOverflow, _[Gluing of manifolds and the Hausdorff condition](http://mathoverflow.net/questions/65684/gluing-of-manifolds-and-the-hausdorff-condition)_
 
 The general abstract framework of [[higher geometry]] referred to above is discussed in 
 
