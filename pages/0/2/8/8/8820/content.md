@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ cohomology of a space $X$ with the degree-$(n+1)$ cohomology of its [[suspension]].
+
+## References
+
+For instance p. 19 in 
+
+* _Generalized cohomology_ ([pdf](http://www.ams.org/bookstore/pspdf/mmono-230-prev.pdf))
+
+[[!redirects suspension isomorphisms]]
