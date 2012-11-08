@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -104,3 +108,6 @@ A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial gro
 Porter (1993) gave a simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible in
 
 * [[Tim Porter|T. Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
+
+[[!redirects cat-n-groups]]
+
