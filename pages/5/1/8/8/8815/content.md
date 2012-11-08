@@ -10,6 +10,8 @@
 
 * [[Riemann integration]], [[Lebesgue integration]]
 
+* [[line integral]]/[[contour integration]]
+
 * [[integration of differential forms]]
 
 * [[integration over supermanifolds]], [[Berezin integral]], [[fermionic path integral]]
