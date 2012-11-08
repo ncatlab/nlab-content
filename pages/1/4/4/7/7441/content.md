@@ -13,6 +13,8 @@
 
 * [[internal diagram]], [[internal presheaf]]
 
+* [[n-fold category]], [[cat-n-group]]
+
 ## In a [[(2,1)-category]]
 
 * [[2-congruence]]
