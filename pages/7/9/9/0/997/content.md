@@ -35,10 +35,16 @@ In [[Set]], the set of [[truth value]]s is a cogenerator.  More generally, in an
 
 The existence of a small (co)generating family is one of the conditions in one version of the [[adjoint functor theorem]].
 
+##Terminology
+
+The concept of _cogenerator_ is dual to that of [[separator]], so it can alsobe refereed to as a _coseparator_.
+
 
 ## Related concepts
 
 * [[generator]]
+
+* [[separator]]
 
 * **cogenerator**
 
@@ -46,3 +52,4 @@ The existence of a small (co)generating family is one of the conditions in one v
 [[!redirects cogenerators]]
 
 [[!redirects cogenerating set]]
+[[!redirects coseparator]]
