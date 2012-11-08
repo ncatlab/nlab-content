@@ -233,7 +233,10 @@ $$
 =--
 
 
-## Properties {#LocInfConnProperties}
+## Properties 
+ {#LocInfConnProperties}
+
+### Relation to slicing
 
 +-- {: .num_prop}
 ###### Proposition
@@ -242,13 +245,50 @@ Let $\mathcal{X}$ be an $(\infty,1)$-topos and $\{U_i\}_i$ a collection of [[obj
 
 * the canonical morphism $\coprod_i U_i \to *$ out of their [[coproduct]] to the [[terminal object]] is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]];
 
-* all the [[over-(∞,1)-toposes]] $\mathcal{X}_{/U_i}$ are locally $\infty$-connected.
+* all the [[slice-(∞,1)-toposes]] $\mathcal{X}_{/U_i}$ are locally $\infty$-connected.
 
 Then also $\mathcal{X}$ itself is locally $\infty$-connected.
 
 =--
 
 This appears as ([Lurie, corollary A.1.7](#Lurie)).
+
+### Relation to locally connected toposes
+ {#RelationToLocallyConnectedToposes}
+
++-- {: .num_prop}
+###### Proposition
+
+For $(\Pi \dashv \Delta \dashv \Gamma) :  \mathbf{H} \to \infty Grpd$ a locally $\infty$-connected $(\infty,1)$-topos, its underlying [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 0} \mathbf{H}$ is a [[locally connected topos]]. Moreover, if $\mathbf{H}$ is strongly connected (the extra left adjoint preserves finite products), then so is $\tau_{\leq 0} \mathbf{H}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[global sections]] [[geometric morphism]]  $\Gamma \simeq \mathbf{H}(*,-)$ is given by homming out of the terminal object and hence preserves [[n-truncated object in an (infinity,1)-category|0-truncated]] objects by definition. Also, by the $(\Pi \dahsv \Delta)$-[[adjunction]] so does $\Delta$: for every $S \in Set \simeq \tau_{\leq }\infty Grpd \hookrightarrow \infty Grpd$ and every $X \in \mathbf{H}$ we have
+
+$$
+  \mathbf{H}(X, \Delta(S))
+  \simeq
+  \infty Grpd(\Pi(X), S)
+  \simeq
+  Set(\tau_{\leq 0} \Pi(X), S)
+  \in 
+  Set \hookrightarrow \infty Grpd
+  \,.
+$$
+
+Therefore by essential uniqueness of [[adjoints]] the restriction $\Delta|_{\leq 0} \colon Set \hookrightarrow \infty Grpd \stackrel{\Delta}{\to} \mathbf{H}$ has a [[left adjoint]] given by 
+
+$$
+  \Pi_0 \coloneqq \tau_{\leq 0} \circ \Delta
+  \,.
+$$
+
+Finally, by the discussion [here](n-truncated+object+of+an+%28infinity%2C1%29-category#PropertiesGeneral), $\tau_{\leq 0}$ preserves finite limits. Hence $\Pi_0$ does so if $\Pi$ does.
+
+=--
 
 ## Further structures
 
