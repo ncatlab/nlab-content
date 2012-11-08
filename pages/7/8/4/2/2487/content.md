@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
 
@@ -21,13 +26,21 @@ One can in fact consider the set of invertible matrices over an arbitrary unital
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
 
-##Stable and unstable versions:
+## Stable and unstable versions:
 
 The above is sometimes referred to as the unstable general linear group, whilst the result if one lets $n$ go to infinity is called the [[stable general linear group]] of $R$, and is then written $GL(R)$ with no suffix.
 
-## References and links 
+## Related concepts
 
-Related entries: [[Gauss decomposition]], [[special linear group]], [[orthogonal group]], [[unitary group]], [[Borel subgroup]], [[flag variety]]. 
+* [[Gauss decomposition]], 
+
+* [[special linear group]], [[orthogonal group]], [[unitary group]], 
+
+* [[Borel subgroup]], [[flag variety]]. 
+
+* [[group of units]]
+
+## References 
 
 * O.T. O'Meara, _Lectures on Linear Groups_, Amer. Math. Soc., Providence, RI, 1974.
 
