@@ -39,15 +39,15 @@ $$
   Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) \simeq \Sigma^n Th(V)
 $$
 
-of the [[Thom space]] (see there for details) of the [[direct sum]] with the trivial [[vector bundle]] of rank $n$ and the $n$-fold [[suspension]] of $V$.
+between, on the one hand, the [[Thom space]] of the [[direct sum]] of $V$ with the trivial [[vector bundle]] of rank $n$ and, on the other, the $n$-fold [[suspension]] of the [[Thom space]] of $V$.
 
 +-- {: .num_defn}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[Omega spectrum]]
+For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[Omega spectrum]] $E_\bullet$ with
 
 $$
-  E_n := (X^V)_n = Th(\mathbb{R}^n \oplus V)
+  E_n \coloneqq (X^V)_n \coloneqq Th(\mathbb{R}^n \oplus V)
   \,.
 $$ 
 
@@ -165,15 +165,15 @@ is that for the corresponding [[associated ∞-bundle]].
 We write capital letters for the underlying spaces of these spectra:
 
 $$
-  P := \Sigma^\infty \Omega^\infty p
+  P \coloneqq \Sigma^\infty \Omega^\infty p
 $$
 
 $$
-  B := \Sigma^\infty \Omega^\infty b
+  B \coloneqq \Sigma^\infty \Omega^\infty b
 $$
 
 $$
-  GL_1(R) := \Sigma^\infty \Omega^\infty gl_1(R)
+  GL_1(R) \coloneqq \Sigma^\infty \Omega^\infty gl_1(R)
 $$
 
 
@@ -257,9 +257,9 @@ This is in ([ABGHR, section 8](#ABGHR)).
 
 ## Properties
 
-### Relation to cobordism ring
+### Relation to the cobordism ring
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[cobordism ring|cobordism group]] of un[[oriented]] $n$-[[dimension]]al [[manifold]]s is [[natural isomorphism|naturally isomorphic]] to the $n$th [[homotopy group]] of the Thom spectrum $M O$. That is, there is a natural isomorphism
@@ -273,14 +273,14 @@ $$
 
 =--
 
-This is a seminal result due to ([Thom](#Thom)), whose proof proceeds by the [[Pontryagin-Thom construction]].
+This is a seminal result due to ([Thom](#Thom)), whose proof proceeds by the [[Pontryagin-Thom construction]]. The presentation of the following proof follows ([Francis, lecture 3](#Francis3)).
 
 +-- {: .proof}
 ###### Proof
 
-We first construct a map $\Theta : \Omega_n^{un} \to \pi_n M O$. (The presentation follows [Francis, lecture 3](#Francis3)).
+We first construct a map $\Theta : \Omega_n^{un} \to \pi_n M O$. 
 
-Given a class $[X] \in \Omega_n^{un}$ we can choose a representative $X \in $ [[Diff]] and a [[closed embedding]] $\nu$ of $X$ into the [[Cartesian space]] $\mathbb{R}^{n+k}$ of sufficiently large [[dimension]]. By the [[tubular neighbourhood theorem]] $\nu$ factors as the embedding of the [[zero section]] into the [[normal bundle]] $N_\nu$ followed by an [[open embedding]] of $N_\nu$ into $\mathbb{R}^{n+k}$
+Given a class $[X] \in \Omega_n^{un}$ we can choose a representative $X \in $ [[SmthMfd]] and a [[closed embedding]] $\nu$ of $X$ into the [[Cartesian space]] $\mathbb{R}^{n+k}$ of sufficiently large [[dimension]]. By the [[tubular neighbourhood theorem]] $\nu$ factors as the embedding of the [[zero section]] into the [[normal bundle]] $N_\nu$ followed by an [[open embedding]] of $N_\nu$ into $\mathbb{R}^{n+k}$
 
 $$
   \array{
@@ -352,17 +352,17 @@ We show now that this element does not depend on the choice of embedding $\nu : 
 
 Finally, to show that $\Theta$ is an [[isomorphism]] by constructing an inverse.
 
-For that,, observe that the [[sphere]] $S^{n+k}$ is a [[compact topological space]] and hence a [[compact object]] in [[Top]]. This implies that any map from $S^{n+k}$ into the [[filtered colimit]] 
+For that, observe that the [[sphere]] $S^{n+k}$ is a [[compact topological space]] and in fact a [[compact object]] in [[Top]]. This implies that every map $f$ from $S^{n+k}$ into the [[filtered colimit]] 
 
 $$
   Th(\gamma^k)  \simeq {\lim_\to}_s Th(\gamma^k_s)
   \,,
 $$
 
-where $\gamma^k_s \to Gr_k(\mathbb{R}^s)$ factors through one of the terms
+factors through one of the terms as
 
 $$
-  f : S^{n+k} \to Th(\gamma^k_s)
+  f : S^{n+k} \to Th(\gamma^k_s) \hookrightarrow Th(\gamma^k)
   \,.
 $$
 
@@ -372,7 +372,7 @@ $$
   \array{
     X &\to& Gr_k(\mathbb{R}^s)
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{j}}
     \\
     S^{n+k} &\stackrel{f}{\to}& Th(\gamma^k_s)
   }
@@ -385,8 +385,12 @@ We check that this construction provides an inverse to $\Theta$.
 
 =--
 
-The [[homotopy equivalence]] $\Omega^\infty M O \simeq \vert Cob_\infty \vert$ is the content of [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
++-- {: .num_remark }
+###### Remark
 
+The [[homotopy equivalence]] $\Omega^\infty M O \simeq \vert Cob_\infty \vert$ is the content of the [[Galatius-Madsen-Tillmann-Weiss theorem]], and is now seen as a part of the [[cobordism hypothesis]] theorem.
+
+=--
 
 ### As a dual in the stable homotopy category
  {#AsDualObject}
