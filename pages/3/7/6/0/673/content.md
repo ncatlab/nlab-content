@@ -8,7 +8,7 @@ If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu
 
 ## Papers ##
 
-* _$Con(ZF+\neg WISC)$, [[notWISC.pdf:file]], (2012).
+* _$Con(ZF+\neg WISC)$, [[notWISC2.pdf:file]], (2012).
 * _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
 * _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[Danny Stevenson]]. Submitted for publication.
 * _On the existence of bibundles_, to appear Proceedings of the London Mathematical Society, (available at [arXiv:math1102.4388/](http://arxiv.org/abs/1102.4388)), joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
