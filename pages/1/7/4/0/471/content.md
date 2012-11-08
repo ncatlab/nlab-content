@@ -283,19 +283,13 @@ $$
 
 ### Fundamental geometric $\infty$-categories {#FundGeomInftCat}
 
-Let $C$ be a category 
+Let $C$ be a category with finite [[limit]]s and an interval object $ {*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$ 
 
-* with finite [[limit]]s
-
-* equipped with an interval object simply in the sense of a diagram
-
-  $$
-    {*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}
-  $$ 
-
-  in $C$, where ${*}$ denotes the [[terminal object]].
+ in $C$, where ${*}$ denotes the [[terminal object]].
 
 This may or may not come with further structures and properties as discussed in the definitions above. For the following however no more than that is neceesray.
+
+Recall that the **cube category** is the initial strict [[monoidal category]] $(M, \otimes, I)$ equipped with an object $int$ together with two maps $i_0, i_1: I \to int$ and a map $p: int \to I$ such that $p i_0 = 1_I = p i_1$. 
 
 In a tautological way, $I$ induces a [[cocubical object]] in $C$, a [[functor]] 
 
