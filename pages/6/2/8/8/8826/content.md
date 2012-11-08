@@ -1,0 +1,28 @@
+[[!redirects knowledge in a multiagent system]]
+To quote from a book on the subject:
+
+''Multiagent systems are a new paradigm for understanding and building distributed systems, where it is assumed that the computational components are autonomous: able to control their own behaviour in the furtherance of their own goals.''
+
+
+The area is a very wide one and this entry only deals with the question of 'knowledge' in multiagent systems and the models of that that involve the use of [[modal logic]].
+
+
+
+##References
+
+###Wikipedia 
+
+* [Wikipedia article](http://en.wikipedia.org/wiki/Multi-agent_system)
+
+###Books
+
+* [[Michael Wooldridge]] _An Introduction to MultiAgent Systems_ Wiley, 2009
+
+
+###Articles
+
+ * [[A. Lomuscio]] and [[M. D. Ryan]], _An algorithmic approach to knowledge evolution_, Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Vol. 13, No. 2 (Special issue on Temporal Logic in Engineering), 23pp, 1999. 
+
+
+* [[A. Lomuscio]], R. van der Meyden, and [[M. D. Ryan]], _Knowledge in Multi-Agent 
+Systems: Initial Configurations and Broadcast_, ACM Transactions on Computational Logic (TOCL), Volume 1, Issue 2, pp. 247- 284. ACM Press. October 2000. 
