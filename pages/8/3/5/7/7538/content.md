@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+=--
+=--
+
 # Line integrals
 * table of contents
 {: toc}
