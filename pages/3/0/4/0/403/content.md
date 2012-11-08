@@ -218,7 +218,7 @@ Further examples:
 ### Cartesian closure
  {#CartesianClosure}
 
-If the ambient category $\mathcal{C}$ is a [[cartesian closed category]], then the category $Cat(\mathcal{C})$ of categories internal to $\mathcal{C}$ is also cartesian closed. ([Johnstonet, remark after B2.3.15](#Johnstone))
+If the ambient category $\mathcal{C}$ is a [[cartesian closed category]], then the category $Cat(\mathcal{C})$ of categories internal to $\mathcal{C}$ is also cartesian closed. (proved by [Ehresmann] using generalised sketches, but see [Johnstone, remark after B2.3.15](#Johnstone))
 
 ## Related concepts
 
@@ -240,7 +240,7 @@ Discussion in terms of [[monads]] in [[spans]] is in
 
 A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
 
-* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) [pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf)
+* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) [pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf), [arXiv version](http://arxiv.org/abs/1101.2363)
 
 Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
 
