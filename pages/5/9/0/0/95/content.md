@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _homotopy cardinality_ or _$\infty$-groupoid cardinality_ or of a (sufficiently "finite") [[space]] or [[∞-groupoid]] $X$ is an invariant of $X$ (a value assigned to its [[equivalence class]]) that generalizes the [[cardinality]] of a [[set]] (a [[0-truncated]] $\infty$-groupoid).
+The _homotopy cardinality_ or _$\infty$-groupoid cardinality_ of a (sufficiently "finite") [[space]] or [[∞-groupoid]] $X$ is an invariant of $X$ (a value assigned to its [[equivalence class]]) that generalizes the [[cardinality]] of a [[set]] (a [[0-truncated]] $\infty$-groupoid).
 
 Specifically, whereas cardinality counts elements in a set, the homotopy cardinality counts [[object]]s up to [[equivalence]]s, up to [[2-morphism|2-equivalence]]s, up to [[3-morphism|3-equivalence]], and so on.  
 
@@ -106,7 +106,7 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
 ## References
 
-* [[John Baez]], [[Alexander Hoffnung]], [[Christopher Walker]], _Groupoidification Made Easy_ (web [pdf](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html)); _Higher-dimensional algebra VII: Groupoidification_, [arxiv/0908.4305](http://arxiv.org/abs/0908.4305)
+* [[John Baez]], [[Alexander Hoffnung]], Christopher Walker, _Groupoidification Made Easy_ (web [pdf](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html)); _Higher-dimensional algebra VII: Groupoidification_, [arxiv/0908.4305](http://arxiv.org/abs/0908.4305)
 
 * [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
