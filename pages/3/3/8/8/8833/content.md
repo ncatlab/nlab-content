@@ -13,4 +13,9 @@
 
 Roughly, Massey Products are to [[cohomology]] as [[Toda Brackets]] are to [[homotopy]].
 
+Somewhat more fully, while Toda brackets are relations between mapping space groups $Map_* (\Sigma^n A_0, A_{n+2}) $ and chains of maps $ A_0 \to \cdots \to A_{n+2} $, and generalizing nullhomotopy of composition, Massey products are a relation between cohomology groups
+$ H^{p_0 + \cdots + p_k - k + 1}(X) $ and $ H^{p_0} (X) \otimes \cdots \otimes H^{p_k}(X) $, generalizing the vanishing of pairwise [[cup product]]s.
+
+The case $k=2$ is straight-forward enough: given three homogeneous classes $ [u],[v],[w] $ such that $ [u]\smile[v] = [v]\smile[w] = 0$, there are (various) choices of cochains $ s , t $ with $ d s = u \cdot v $ and $ d t = v \cdot w $.  The Massey tripple product is the set of sums $ [ u \cdot t \pm s \cdot w ] $, where the sign is chosen for cocyclicity.
+
 [[!redirects Massey products]]
