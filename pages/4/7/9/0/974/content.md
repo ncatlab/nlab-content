@@ -180,7 +180,7 @@ Here _accessibly embedded_ means that $C \hookrightarrow Psh(K)$ is an [[accessi
 +-- {: .num_defn} 
 ###### Definition
 
-Write $Lex$ denote the [[2-category]] of [[small categories]] with [[finite limits]], with finitely continuous (i.e., finite limit preserving) [[functors]] between them, and [[natural transformations]] between those. 
+Write $Lex$ for the [[2-category]] of [[small categories]] with [[finite limits]], with finitely continuous (i.e., finite limit preserving) [[functors]] between them, and [[natural transformations]] between those. 
 
 Write $LFP$ for the [[2-category]] of locally finitely presentable categories, def. \ref{LocallyFinitelyPresentable}, [[right adjoint]] functors which preserve [[filtered colimits]], and natural transformations between them. 
 
