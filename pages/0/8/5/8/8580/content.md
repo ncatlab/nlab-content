@@ -4243,81 +4243,11 @@ This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]]
 
 ### Model Layer
 
-
-#### Gauge transformations in electromagnetism
- {#GaugeTransformationsInElectromagnetism}
-
-The mathematical notion of _[[groupoid]]_ is well familiar, in slight disguise, in basic _[[gauge theory]]_. Here we make this explicit for basic [[electromagnetism]].
-
-We have seen in _[The electromagnetic field strength](#ElectromagneticFieldStrength)_ that a configuration of the electromagnetic field on $\mathbb{R}^4$ is given by a [[differential 1-form]] $A \in \Omega^1(\mathbb{R}^4)$, the "[[electromagnetic potential]]". It describes a field configuration with [[field strength]] Lorentz tensor
-
-$$
-  \begin{aligned}
-    F & = 
-       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
-       + 
-       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
-       + 
-       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
-       + 
-      \\
-      & 
-       + B_1 \mathbf{d}x^2 \wedge \mathbf{d}x^3
-       + B_2 \mathbf{d}x^3 \wedge \mathbf{d}x^1
-       + B_3 \mathbf{d}x^1 \wedge \mathbf{d}x^2
-  \end{aligned}     
-$$
-
-with electric [[field strength]] $(E_i \in C^\infty(\mathbb{R}^4))_{i = 1}^3$ and magnetic [[field strength]] $(B_i \in C^\infty(\mathbb{R}^4))_{i = 1}^3$ given (with respect to the canonical [[coordinates]] $(t, x^1, x^2, x^3) \coloneqq (x^i)_{i = 1}^4 = $ on $\mathbb{R}^4$) that is given by the [[de Rham differential]] of $A$:
-
-$$
-  \begin{aligned}
-    F = \mathbf{d}A
-  \end{aligned}
-  \,.
-$$
-
-After Maxwell it was thought that $F \in \Omega^2(\mathbb{R}^4)$ alone genuinely reflects the configuration of the electromagnetic field. But with the discovery of [[quantum mechanics]] it became clear that it is indeed the potential $A$ itself that reflects the configuration of the electromagnetic field: in the presence of [[magnetic flux]] or other topoligical constraints, there can be different $A, A' $ with the _same_ $F = \mathbf{d}A = \mathbf{d}A'$ which nevertheless describe experimentally distinguishable electromagnetic field configurations. (Distinguishable by the [[Aharonov-Bohm effect]] and also to some extent by [[Dirac charge quantization]]; this is discussed at _[Circle-principal connections](#CirclePrincipalConnections)_ below.)
-
-However, not _all_ different gauge potentials describe different physics. The actual configuration space of electromagnetism on a [[spacetime]] $X$ is finer than $\mathbf{\Omega}^2_{cl}(X)$ but coarser than $\mathbf{\Omega}^1(X)$. And it is not quite a smooth space itself, but a _[[smooth groupoid]]_:
-
-one finds that two electromagnetic potentials $A, A' \in \Omega^1(\mathbb{R}^4)$ for which there is a function $\lambda \in C^\infty(\mathbb{R}^4)$ such that 
-
-$$
-  A' = A + \mathbf{d}\lambda
-$$
-
-represent _different but [[equivalence|equivalent]]_ field configurations. One says that 
-
-* $\lambda$ induces a [[gauge transformation]] from $A$ to $A'$.
-
-This is denoted $\lambda \colon A \to A'$.
-
-So the configuration space of electromagnetism does not just have points and coordinate systems. But it is also equipped with the information of a space of gauge transformation between any two coordinate systems laid out in it (which may be empty). 
-
-To see what the structure of such a _smooth gauge groupoid_ should be, notice that the above defines an [[action]] of smooth functions $\lambda$ on smooth $1$-forms $A$, which is given by a homomorphism of [[smooth spaces]] (def. \ref{HomomorphismOfSmoothSpaces})
-
-$$
-  \rho \colon \mathbf{\Omega}^1(X)\times \mathbf{C}^\infty(X) \to \mathbf{\Omega}^1(X)
-$$
-
-from the product smooth space, def. \ref{ProductOfSmoothSpaces}, of the smooth moduli spaces of 1-forms and 0-forms on $X$, def. \ref{SmoothSpaceOfFormsOnSmoothSpace}
-
-
-$$
-  \rho(A, \lambda) = A + \mathbf{d}\lambda
-$$
-
-We say that the configuration space is the [[action groupoid]]
-
-$$
-  \Omega^1(X) \sslash C^\infty(C)
-$$
-
-(...)
-
-
 #### Groupoids
+ {#Groupoids}
+
+A _[[groupoid]]_ is...
+
 
 $$
   X_1 \stackrel{\overset{d_1}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_0}{\to}}}
@@ -4338,28 +4268,291 @@ $$
 
 (...)
 
+
+
+#### Gauge transformations in electromagnetism
+ {#GaugeTransformationsInElectromagnetism}
+
+The mathematical notion of _[[groupoid]]_ is well familiar, in slight disguise, in basic _[[gauge theory]]_. Here we make this explicit for basic [[electromagnetism]].
+
+We have seen in _[The electromagnetic field strength](#ElectromagneticFieldStrength)_ that a configuration of the electromagnetic field on $\mathbb{R}^4$ is given by a [[differential 1-form]] $A \in \Omega^1(\mathbb{R}^4)$, the "[[electromagnetic potential]]". It describes a field configuration with [[field strength]] Lorentz tensor (with respect to the canonical [[coordinates]] $(t, x^1, x^2, x^3) \coloneqq (x^i)_{i = 1}^4 = $ on $\mathbb{R}^4$)
+
+$$
+  \begin{aligned}
+    F & = \mathbf{d}A 
+      \\
+      & =
+       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
+       + 
+       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
+       + 
+       E_1 \mathbf{d}x^1 \wedge \mathbf{d}t
+       + 
+      \\
+      & 
+       + B_1 \mathbf{d}x^2 \wedge \mathbf{d}x^3
+       + B_2 \mathbf{d}x^3 \wedge \mathbf{d}x^1
+       + B_3 \mathbf{d}x^1 \wedge \mathbf{d}x^2
+  \end{aligned}     
+$$
+
+with electric [[field strength]] $(E_i \in C^\infty(\mathbb{R}^4))_{i = 1}^3$ and magnetic [[field strength]] $(B_i \in C^\infty(\mathbb{R}^4))_{i = 1}^3$ given  that is given by the [[de Rham differential]] of $A$:
+
+$$
+  \begin{aligned}
+    F = \mathbf{d}A
+  \end{aligned}
+  \,.
+$$
+
+After Maxwell it was thought that $F \in \Omega^2(\mathbb{R}^4)$ alone genuinely reflects the configuration of the electromagnetic field. But with the discovery of [[quantum mechanics]] it became clear that it is indeed the potential $A$ itself that reflects the configuration of the electromagnetic field: in the presence of [[magnetic flux]] or other topoligical constraints, there can be different $A, A' $ with the _same_ $F = \mathbf{d}A = \mathbf{d}A'$ which nevertheless describe experimentally distinguishable electromagnetic field configurations. (Distinguishable by the [[Aharonov-Bohm effect]] and also to some extent by [[Dirac charge quantization]]; this is discussed at _[Circle-principal connections](#CirclePrincipalConnections)_ below.)
+
+However, not all different gauge potentials describe different physics. The actual configuration space of electromagnetism on a [[spacetime]] $X$ is finer than $\mathbf{\Omega}^2_{cl}(X)$ but coarser than $\mathbf{\Omega}^1(X)$. And it is not quite a smooth space itself, but a _[[smooth groupoid]]_:
+
+one finds that two electromagnetic potentials $A, A' \in \Omega^1(\mathbb{R}^4)$ for which there is a function $\lambda \in C^\infty(\mathbb{R}^4)$ such that 
+
+$$
+  A' = A + \mathbf{d}\lambda
+$$
+
+represent _different but [[equivalence|equivalent]]_ field configurations. One says that _$\lambda$ induces a [[gauge transformation]] from $A$ to $A'$_. We write $\lambda \colon A \stackrel{\simeq}{\to} A'$ to reflect this.
+
+So the configuration space of electromagnetism does not just have points and coordinate systems. But it is also equipped with the information of a space of gauge transformations between any two coordinate systems laid out in it (which may be empty). 
+
+To see what the structure of such a _smooth gauge groupoid_ should be, notice that the above defines an [[action]] of smooth functions $\lambda$ on smooth $1$-forms $A$, 
+
+
++-- {: .num_defn #ActionOfFunctionsOnForms}
+###### Definition
+
+For any $U \in $ [[CartSp]], Write $\Omega^1_{vert}(X \times U)$ for the set of [[differential 1-forms]] on $X \times U$ with no components along $U$, and write $C^\infty(X \times U , U(1))$ for the [[group]] of [[circle group]] valued [[smooth functions]]. There is an [[action]] of this group on the 1-forms 
+
+$$
+  \rho_U 
+   \colon 
+  \Omega^1_{vert}(X \times U) \times C^\infty(X \times U, U(1))
+    \to
+  \Omega^1_{vert}(X \times U)
+$$
+
+given by
+
+$$
+  \rho_U \colon (A,\lambda) \mapsto A + \mathbf{d}_X \lambda
+  \,.
+$$
+
+=--
+
+Given such an action of a [[discrete group]] on a [[set]], we might be temoted to form the [[quotient]] set $\Omega^1_{vert}(X\times U)/C^\infty(X \times U, U(1))$. This set contains the gauge [[equivalence classes]] of $U$-parameterized collections of electromagnetic gauge fields on $X$. But it turns out that this is too little information to correctly capture phyisucs. For that instead we need to remember not just that two gauge fields are equivalent, but how they are equivalent. That is, we for $\lambda$ a gauge transformation from $A_1$ to $A_2$, we should have an [[equivalence]] $\lambda \colon A_1 \stackrel{\simeq}{\to} A_2$.
+
++-- {: .num_defn #EMGaugeGroupoidOverU}
+###### Definition
+
+The [[action groupoid]]
+
+$$
+  \Omega^1_{vert}(X\times U)\sslashC^\infty(X \times U, U(1))
+  \coloneqq
+  (
+    \Omega^1_{vert}(X\times U) \times C^\infty(X \times U, U(1))
+    \stackrel{\overset{t = \rho}{\to}}{\underset{s = p_1}{\to}}
+    \Omega^1_{vert}(X\times U)
+  )
+$$
+
+is the [[groupoid]] whose 
+
+* [[objects]] are $U$-parameterized collections of gauge potentials $A \in \Omega^1_{vert}(X \times U)$;
+
+* [[morphisms]] are pairs $(A,\lambda)$ with $A$ an object and $\lamda \in C^\infty(X \times U, U(1))$, with [[domain]] $A$ and [[codomain]] $A + \mathbf{d}_X \lambda$;
+
+* [[composition]] is given by multiplication of the $\lambda$-labels in the group $C^\infty(X \times U, U(1))$.
+
+=--
+
+This is the discrete _gauge groupoid_ for $U$-parameterized collections of fields. It refines the _[[gauge group]]_, which is recoverd as its [[fundamental group]]:
+
++-- {: .num_prop }
+###### Proposition
+
+Let $A_0 \coloneqq 0 \in \Omega^1_{vert}(X \times U)$ be the trivial gauge field. Then its [[automorphism group]] in the gauge groupoid of def. \ref{EMGaugeGroupoidOverU} is the group of [[circle]]-group valued functions on $U$:
+
+$$
+  \pi_1(\Omega^1_{vert}(X\times U)\sslashC^\infty(X \times U, U(1)), A_0)
+  =
+  Aut(A_0)
+  \simeq
+  C^\infty(U,U(1))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, an automorphism of $A_0$ is given by a function 
+$\lambda \in C^\infty(X \times U, U(1))$ such that $A_0 = A_0 + \mathbf{d}_X \lambda$. This is the case precisely if $\mathbf{d}_X \lambda = 0$, hence if $\lambda$ is contant along $X$. But a function on $X \times U$ which is constant along $X$ is canonically identified with a function on just $U$.
+
+=--
+
+All this data in in fact [[natural transformation|natural]] in $U$. Recall that $\Omega^1_{vert}(X \times U) = \mathbf{\Omega}^1(X)(U)$ is the set of $U$-charts of the smooth moduli space $\mathbf{\Omega}^1(X)$ of smooth 1-forms on $X$. Similarly $C^\infty(X \times U) = \mathbf{C}^\infty(X)(U)$.
+
++-- {: .num_prop }
+###### Proposition
+
+There is a homomorphism of [[smooth spaces]] (def. \ref{HomomorphismOfSmoothSpaces})
+
+$$
+  \rho \colon \mathbf{\Omega}^1(X)\times \mathbf{C}^\infty(X) \to \mathbf{\Omega}^1(X)
+$$
+
+from the product smooth space, def. \ref{ProductOfSmoothSpaces}, of the smooth moduli spaces of 1-forms and 0-forms on $X$, def. \ref{SmoothSpaceOfFormsOnSmoothSpace}, to that of smooth functions, def. \ref{SmoothSpaceOfSmoothFunctions}, whose component over $U \in $ [[CartSp]] is the action 
+
+$$
+  \rho_U \colon (A,\lambda) \maptos  A + \mathbf{d}\lambda
+$$
+
+of def. \ref{ActionOfFunctionsOnForms}.
+
+=--
+
+We then also want to consider a _smooth action groupoid_.
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  \mathbf{\Omega}^1(X) \sslash \mathbf{C}^\infty(X, U(1))
+  : 
+  CartSp^{op}
+  \to 
+  Grpd
+$$
+
+for the [[contravariant functor]] from coordinate systems to the [[category]] of [[groupoids]], which assigns to $U \in CartSp$ the discrete action groupoid of $U$-collections of gauge fields of def. \ref{EMGaugeGroupoidOverU}.
+
+$$
+  U \mapsto \Omega^1_{vert}(X \times U)\sslash C^\infty(X\times U, U(1))
+  \,.
+$$
+
+=--
+
+Such a structure _[[presheaf]]_ of [[groupoids]] is a common joint generalization of the notion of [[discrete groupoids]] and [[smooth spaces]]. We call them _[[smooth groupoids]]_. This is what we turn to in _[Smooth groupoids](#SmoothGroupoids)_
+
 #### Smooth groupoids
  {#SmoothGroupoids}
 
-* [[Lie groupoid]]
 
-* [[smooth groupoid]]
++-- {: .num_defn }
+###### Definition
+
+Write [[Grpd]]${}_1$ for the [[category]] of [[groupoids]] and [[functors]] between them. Write then
 
 $$
-  \array{
-    && X^{\Delta^2}
-    \\
-    &{}^{\mathllap{\exists}}\nearrow & \downarrow
-    \\
-    U &\stackrel{}{\to}& X^{\Lambda^2_i}
-  }
+  gPsh(CartSp) \coloneqq Funct(CartSp^{op}, Grpd)
 $$
 
-Example: $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
+for the [[category]] of [[groupoid]]-valued [[presheaves]].
 
-$\rho : X \times G \to X$ an [[action]] then
+=--
 
-[[action groupoid]]
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$, and $0 \lt r \lt 1 \in \mathbb{R}$ let 
+
+$$
+  \mathbb{R}^n \simeq D^n_r \hookrightarrow \mathbb{R}^n
+$$
+
+Be the smooth function that regards $\mathbb{R}^n$ as the standard $n$-[[disk]] of radius $r$ around the origin in $\mathbb{R}^n$.
+
+For $X \in gPSh(CartSp)$ we write
+
+$$
+  (D^n)^* X \coloneqq {\lim_\to}_r X(D^n_r) \in Grpd
+$$
+
+for the [[stalk]] of $X$ at the origin of $\mathbb{R}^n$. This is a [[functor]]
+
+$$
+  (D^n)^* \colon gPSh(CartSp) \to Grpd
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+A morphism $f \colon X \to Y$ in $gPSh(CartSp)$ we call a 
+_local [[weak equivalence]]_ if for every $n \in \mathbb{N}$
+the stalk 
+
+$$
+  (D^n)^* f \colon (D^n)^* X \to (D^n)^* Y
+$$
+
+is an [[equivalence of groupoids]].
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  Smooth1Type 
+   \coloneqq
+  L_{lwe} gPSh(CartSp)
+$$
+
+for the [[(2,1)-category]] which is the [[simplicial localization]] of groupoid-valued presheaves at the local weak equivalences.
+
+An [[object]] $X \in Smooth1Type$ we call a **[[smooth groupoid]]** or
+**[[smooth homotopy type|smooth homotopy 1-type]]**.
+
+=--
+
+
++-- {: .num_example }
+###### Example
+
+Every [[smooth space]] is canonically a [[smooth groupoid]] with only identity morphisms.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The canonical identification yields a [[full subcategory]]
+
+$$
+  Smooth0Type \hookrightarrow Smooth1Type
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
+
+$$\rho : X \times G \to X
+$$ 
+
+an [[action]] then  the [[action groupoid]]
+ 
+$$
+  X \sslah G \in Smooth1Type
+$$
 
 $$
   X \sslash G = 
@@ -4368,6 +4561,10 @@ $$
     X
   \right)
 $$
+
+is a [[smooth groupoid]].
+
+=--
 
 ##### Smooth path groupoid
 
