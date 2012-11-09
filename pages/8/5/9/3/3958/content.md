@@ -64,7 +64,11 @@ A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X
 ### General abstract geometric definition
  {#GeneralAbstractCharacterization}
 
-There is a more fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. In this context one specifies $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
+There is a more fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. 
+
+In this context one specifies for instance $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
+
+Alternatively one can specify [[differential cohesion]] and proceed as discussed at _[differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)_.
 
 This is discussed in [The geometry CartSp](#TheGeometryCartSp) below.
 
@@ -237,6 +241,8 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 ## Related concepts
 
 * [[infinite dimensional smooth manifold]]
+
+* [differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)
 
 ## References
 
