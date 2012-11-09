@@ -235,6 +235,7 @@ which is the original definition.
 ## Examples
 
 ### From almost complex structures
+ {#FromAlmostComplexStructures}
 
 An [[almost complex structure]] canonically induces a $Spin^c$-structure:
 
@@ -249,12 +250,19 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{\mathbf{c_1} mod 2}}
     \\
-    \mathbf{B}SU(2n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2\mathbb{Z}_2
+    \mathbf{B}SO(2n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
   }
   \,,
 $$
 
 where the vertical morphism is the canonical morphism induced from the identification of real vector spaces $\mathbb{C} \to \mathbb{R}^2$, and where the top morphism is the canonical projection $\mathbf{B}U(n) \to \mathbf{B}U(1)$ (induced from $U(n)$ being the [[semidirect product group]] $U(n) \simeq SU(n) \rtimes U(1)$).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general relation between $c_1$ of an [[almost complex structure]] and $w_2$ of the underlying orthogonal structure, discussed at _[Stiefel-Whitney class -- Relation to Chern classes](#Stiefel-Whitney+class#RelationToChernClasses)_.
 
 =--
 
