@@ -451,3 +451,7 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 
 [[!redirects higher differentiable stack]]
 [[!redirects higher differentiable stacks]]
+
+[[!redirects smooth homotopy type]]
+[[!redirects smooth homotopy types]]
+
