@@ -2212,4 +2212,8 @@ Discussion of embeddings of categories of fibrant objects into model categories 
 * [[Denis-Charles Cisinski]], _Invariance de la K-Th&#233;orie
 par &#233;quivalences d&#233;riv&#233;es_ ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/eqderkth.pdf))
 
+Usage of categories of fibrant objects in $C^\ast$-algebra theory:
+
+* Otgonbayar Uuye, _Homotopy theory for $C^\ast$-algebras_, [arxiv/1011.2926](http://arxiv.org/abs/1011.2926) 
+
 [[!redirects categories of fibrant objects]]
