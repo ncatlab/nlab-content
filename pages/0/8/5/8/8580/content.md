@@ -438,7 +438,7 @@ This is the motivation for studying models of physics in geometry modeled on the
 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #SmoothFunctions}
 ###### Definition
 
 A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
@@ -448,7 +448,17 @@ a **[[smooth function]]** if, [[coinduction|coinductively]]:
 
 1. and is itself a smooth function.
 
+We write $C^\infty(\mathbb{R}) \in Set$ for the [[set]] of all smooth functions on $\mathbb{R}$.
+
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The superscript "${}^\infty$" in "$C^\infty(\mathbb{R})$" refers to the order of the [[derivatives]] that exist for smooth functions. More generally for $k \in \mathbb{N}$ one writes $C^k(\mathbb{R})$ for the set of $k$-fold [[differentiable functions]] on $\mathbb{R}$. These will however not play much of a role for our discussion here. 
+
+=--
+
 
 +-- {: .num_defn #CartesianSpaceAndHomomorphism}
 ###### Definition
@@ -1842,6 +1852,7 @@ $$
 
 =--
 
+
 #### The smooth moduli space of smooth functions
  {#SmoothModuliSpaceOfSmoothFunctions}
 
@@ -1855,15 +1866,24 @@ $$
 
 The collection of these forms the [[hom-set]] $Hom_{Smooth0Type}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth spaces themselves.
 
-+-- {: .num_defn}
++-- {: .num_defn #SmoothSpaceOfSmoothFunctions}
 ###### Definition
 
-For $X \in Smooth0Type$ a [[smooth space]], we say that the **moduli space of smooth functions** on $X$ is the smooth mapping space (def. \ref{SmoothFunctionSpace})
+For $X \in Smooth0Type$ a [[smooth space]], we say that the **moduli space of smooth functions** on $X$ is the smooth mapping space (def. \ref{SmoothFunctionSpace}), from $X$ into the standard [[real line]] $\mathbb{R}$
 
 $$
   [X, \mathbb{R}] \in Smooth0Type
   \,.
 $$
+
+We will also denote this by 
+
+$$
+  \mathbf{C}^\infty(X) \coloneqq [X, \mathbb{R}]
+  \,,
+$$ 
+
+since in the special case that $X$ is a [[Cartesian space]] this is the smooth refinement of the set $C^\infty(X)$ of [[smooth functions]], def. \ref{SmoothFunctions}, on $X$.
 
 =--
 
@@ -2722,7 +2742,7 @@ Notice that differential 0-forms are equivalently smooth $\mathbb{R}$-valued fun
 +-- {: .num_prop #SpaceOf0FormsIsRealLine}
 ###### Proposition
 
-$\Omega^0 = \mathbb{R}$
+$\Omega^0 \simeq \mathbb{R}$
 
 =--
 
@@ -2957,6 +2977,7 @@ For $X \in Smooth0Type$ and $n \in \mathbb{N}$, the **smooth space of differenti
 
 $$
   \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n])
+  \,.
 $$
 
 =--
@@ -2994,6 +3015,27 @@ $$
 $$
 
 Under this function all components of differential forms with a "leg along" $\mathbb{R}^k$ are sent to the 0-form. Hence the image of this function is the collection of smooth forms on $X \times \mathbb{R}^k$ with "no leg along $\mathbb{R}^k$".
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For $n = 0$ we have (for any $X\in Smooth0Type$)
+
+$$
+  \begin{aligned}
+    \mathbf{Omega}^0(X) 
+      & \coloneqq Conc [X, \Omega^1]
+    \\
+    & \simeq Conc [X, \mathbb{R}]
+    \\
+    & \simeq [X, \mathbb{R}]
+  \end{aligned}
+  \,,
+$$
+
+by prop. \ref{SpaceOf0FormsIsRealLine}.
 
 =--
 
@@ -3340,7 +3382,7 @@ $$
   A = \phi \mathbf{d}t + A_1 \mathbf{d}x^1 + A_2 \mathbf{d}x^2 + A_3 \mathbf{d}x^3
 $$
 
-then [[field strength]] is
+then the [[electromagnetic field strength]] is
 
 $$
   F 
@@ -4235,7 +4277,7 @@ $$
   \,.
 $$
 
-After Maxwell it was thought that $F \in \Omega^2(\mathbb{R}^4)$ alone genuinely reflects the configuration of the electromagnetic field. But with the discovery of [[quantum mechanics]] it became clear that it is indeed the potential $A$ itself that reflects the configuration of the electromagnetic field: in the presence of [[magnetic flux]] or other topoligical constraints, there can be different $A, A' $ with the _same_ $F = \mathbf{d}A = \mathbf{d}A'$ which nevertheless describe experimentally distinguishable electromagnetic field configurations.
+After Maxwell it was thought that $F \in \Omega^2(\mathbb{R}^4)$ alone genuinely reflects the configuration of the electromagnetic field. But with the discovery of [[quantum mechanics]] it became clear that it is indeed the potential $A$ itself that reflects the configuration of the electromagnetic field: in the presence of [[magnetic flux]] or other topoligical constraints, there can be different $A, A' $ with the _same_ $F = \mathbf{d}A = \mathbf{d}A'$ which nevertheless describe experimentally distinguishable electromagnetic field configurations. (Distinguishable by the [[Aharonov-Bohm effect]] and also to some extent by [[Dirac charge quantization]]; this is discussed at _[Circle-principal connections](#CirclePrincipalConnections)_ below.)
 
 However, not _all_ different gauge potentials describe different physics. The actual configuration space of electromagnetism on a [[spacetime]] $X$ is finer than $\mathbf{\Omega}^2_{cl}(X)$ but coarser than $\mathbf{\Omega}^1(X)$. And it is not quite a smooth space itself, but a _[[smooth groupoid]]_:
 
@@ -4249,17 +4291,18 @@ represent _different but [[equivalence|equivalent]]_ field configurations. One s
 
 * $\lambda$ induces a [[gauge transformation]] from $A$ to $A'$.
 
-(...)
+This is denoted $\lambda \colon A \to A'$.
 
 So the configuration space of electromagnetism does not just have points and coordinate systems. But it is also equipped with the information of a space of gauge transformation between any two coordinate systems laid out in it (which may be empty). 
 
-(...)
-
-So we have an [[action]] of the group $C^\infty(X)$ on $\Omega^1(X)$
+To see what the structure of such a _smooth gauge groupoid_ should be, notice that the above defines an [[action]] of smooth functions $\lambda$ on smooth $1$-forms $A$, which is given by a homomorphism of [[smooth spaces]] (def. \ref{HomomorphismOfSmoothSpaces})
 
 $$
-  \rho \colon \Omega^1(X)\times C^\infty(X) \to \Omega^1(X)
+  \rho \colon \mathbf{\Omega}^1(X)\times \mathbf{C}^\infty(X) \to \mathbf{\Omega}^1(X)
 $$
+
+from the product smooth space, def. \ref{ProductOfSmoothSpaces}, of the smooth moduli spaces of 1-forms and 0-forms on $X$, def. \ref{SmoothSpaceOfFormsOnSmoothSpace}
+
 
 $$
   \rho(A, \lambda) = A + \mathbf{d}\lambda
@@ -4398,7 +4441,7 @@ $$
 
 ([SchreiberWaldorf](#SchreiberWaldorf)).
 
-#### $\infty$-Groupoids and Simplicial sets
+#### $\infty$-Groupoids and Kan complexes
 
 An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
 
@@ -4531,14 +4574,13 @@ $$
 
 The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
 
-
-
-
-* [[simplicial set]]
+#### Model categories
 
 * [[model structure on simplical sets]]
 
-#### Cohesive $\infty$-Groupoids and Simplicial presheaves
+* [[model structure on simplicial presheaves]]
+
+#### Cohesive $\infty$-Groupoids and locally Kan simplicial presheaves
 
 But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to remember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
 
