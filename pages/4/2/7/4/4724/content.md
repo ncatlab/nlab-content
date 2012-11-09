@@ -10,12 +10,13 @@
 =--
 
 
-A __differentiable manifold__, or __differential manifold__ is a [[manifold]] based on [[cartesian spaces]] using transition functions that have continuous [[derivative]]s.
+An $n$-dimensional real __differentiable manifold__, or __differential manifold__ $M = M^n$ of class $C^k$ (where either $1\leq k\lt\infty$ is an integer or $k$ is a symbol $\infty$ or $\omega$) is a topological [[manifold]] equipped with an atlas (i.e. cover by local charts) $\{(U_\alpha,\phi_\alpha: U_\alpha\to\mathbf{R}^n)\}_{\alpha\in A}$, $U_\alpha^{open}\subset M$, i.e. the homeomorphisms whose local model is real $n$-dimensional space $\mathbf{R}^n$ and where the transition functions $\phi_\beta\circ\phi_\alpha^{-1}|_{\phi_\alpha(U_\alpha\cap U_\beta)} : \phi_\alpha(U_\alpha\cap U_\beta)\to \phi_\beta(U_\alpha\cap U_\beta)$ are of class $C^k$ as maps of domains in $\mathbf{R}^n$, i.e. have continuous $k$-fold [[derivative]]s for $k$-integer (or all derivatives for $k = \infty$ or are analytic functions for $k = \omega$). 
+One can similarly model manifolds over some other fields where the analysis is defined, e.g. complex analytic manifolds, quaternionic manifolds and $p$-adic manifolds.
 
-For a [[natural number]] $k \in \mathbb{N}$, A __$k$-differentiable manifold__ (or __$C^k$-differential manifold__, etc) is a manifold with transition functions that have continuous derivatives up to order $k$.  Note that a $C^0$-manifold is simply a [[topological manifold]].
+A __[[smooth manifold]]__ (or $C^\infty$-differential manifold, etc) is a manifold that is $C^k$-differential manifold for all $k$.
 
-A __[[smooth manifold]]__ (or $C^\infty$-differential manifold, etc) is a manifold that is $C^k$-differential for all $k$.
-
+In the standard extension of this notation to $k = 0$ a $C^0$-manifold is simply a [[topological manifold]]; however we do not usually say that the $C^0$-manifolds are differentiable.
+As with topological manifolds, standard treatments usually assume that the differential manifolds are paracompact and Hausdorff as topological spaces, but the differentiability does not inherently need this condition any more than the topological case, and the differential [[non-Hausdorff manifold]]s are sometimes included in treatments or even essentially needed.  
 
 [[!redirects differential manifold]]
 [[!redirects differential manifolds]]
