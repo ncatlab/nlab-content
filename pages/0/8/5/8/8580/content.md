@@ -35,6 +35,8 @@
 
 1. [Principal bundles](#PrincipalBundles)
 
+1. [Orbifolds](#Orbifolds)
+
 1. [Reduction of structure groups](#ReductionOfStructureGroups)
 
 1. [Representations and Associated bundles](#AssociatedNBundle)
@@ -4169,11 +4171,32 @@ If $X, Y \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \stackrel{i_!}{\to} \
 
 #### Differential homotopy type theory
 
+* [[differential homotopy type theory]]
+
 (...)
 
 ## **Smooth homotopy types**
  {#SmoothnGroupoids}
  {#SmoothGroupoids}
+
+Fundamental physics is all based on the _[[gauge principle]]_. This says in particular that it is wrong to think of two different _field configurations_ ([[gauge field]] configurations, as it were) of being [[equality|equal]] or not. Instead it makes sense to ask if there is (or not) a _[[gauge transformation]]_ from one to the other that exibits an gauge [[equivalence]] between the two fields. The simplest example of this is described in detail below in  _[Gauge transformations in electromagnetism](#GaugeTransformationsInElectromagnetism)_.
+
+But this means that the collection of [[gauge fields]] on a [[spacetime]] $X$, which we will write as a [[mapping space]] $[X, \mathbf{B}G_{conn}]$, cannot be a [[smooth space]] as cinsidered above, for if it were such a smooth space, then we could ask if two gauge fields $\nabla_1, \nabla_2 \colon : \to [X,\mathbf{B}G_{conn}]$ were equal or not. 
+
+Notice that this already applies to a single gauge field: given any $\nabla \colon * \to [X,\mathbf{B}G_{conn}]$ it is certainly equal to itself, but is nevertheless also _gauge equivalent_ to itself, but the latter it may be in several non-equivalent ways: there may be non-trivial auto-gauge transformations $\nabla \to \nabla$. Since these can be composed, are, by definition, invertible, and contain the trivial gauge transformaiton, these form a _[[group]]_, the group of auto-gauge equivalences of $\nabla$. (Groups are discussed in detail below in _[Groups](#Groups)_) If that gauge field $\nabla$ is itself the trivial gauge field, $\nabla = \nabla_0$, then this group of auto-gauge equivalences is the _[[gauge group]]_ of the given [[gauge theory]]:
+
+$$
+  G \simeq Aut(\nabla_0) \simeq \{\nabla_0 \stackrel{\simeq}{\to} \nabla_0\}
+  \,.
+$$
+
+For this reason, the collection of _all_ gauge fields and all gauge transformations between them form something that is a [[group]] over ever fixed element, but which generalizes the notion of a group in that there are not only auto-equivalences, but also equivalences going from one element to another. Such a structure is called a _[[groupoid]]_. Gauge fields form not a [[set]] with smooth structure, a [[smooth space]], but a [[groupoid]] with smooth structure: a _[[smooth groupoid]]_. 
+
+At least ordinary gauge fields do. More generally, the gauge princple goes further: it is in general also a mistake to assume that given two gauge transformations $\lambda_1, \lambda_2 \colon \nabla_1 \to \nabla_2$ between two gauge fields, it makes good sense to ask whether they are equal or not. Again, the gauge prinicle says that we should instead ask if there is a _[[gauge-of-gauge transformation]]_ between them, that exhibits a gauge [[equivalence]] $\rho \colon \lambda_1 \simeq \lambda_2$. If these gauge-of-gauge equivalences are nontrivial it would seem that gauge fields form a generalization of the notion of a [[groupoid]] called a _[[2-groupoid]]_. But in general the gauge principle goes on: we can in general never decide if two $n$-fold gauge-of-gauge transformations are actually equal, all we have is, possibly, an $(n+1)$-fold gauge transformation going between them which exhibits their gauge equivalence, this being so for all $0 \lt n \lt \infty$. One therefore says that gauge fields in general formn an _[[∞-groupoid]]_ whose _[[n-morphisms]]_ are $n$-fold [[gauge-of-gauge transformations]]. These $\infty$-groupoids are also called _[[homotopy types]]_. And since at the same time there is still a notion of gauge fields varying smoothly, these are _[[smooth ∞-groupoids]]_ or _[[smooth homotopy types]]_. This is what we discuss here. 
+
+Remarkably, the same concept appears in [[constructive mathematics]]: there it is in general wrong to consider an [[equality]] between two [[terms]] $\nabla_1, \nabla_2 \colon [X, \mathbf{B}G_{conn}]$, instead one is to consider an explicit [[proof]] that they are equal, provide an explicit [[equivalence]] between them. Such a proof $\lambda$ is itself a [[term]], of [[identity type]], writte just as before, $\lambda \colon (\nabla_1 \simeq \nabla_2)$. And, in turn, the same applies to these proofs of equivalence themselves: in [[constructive mathematics]] one demands a [[proof]] $\rho$ that two equivalences $\lambda_1, \lambda_2 \colon (\nabla_1 \simeq \nabla_2)$ are equivalent, and hence a term $\rho \colon (\lambda_1 \simeq \lambda_2)$ of a higher [[identity type]]. If this goes ever on, and one speak of _[[intensional type theory]]_ or _[[homotopy type theory]]_.
+
+This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]] is what drives the discussion here.  
 
 
 ### Model Layer
@@ -4661,6 +4684,7 @@ $$
 
 ## **Groups**
  {#NGroups}
+ {#Groups}
 
 ### Model Layer
 
@@ -5318,6 +5342,25 @@ $$
 
 * [[connected type]]
 
+
+## **Orbifolds**
+ {#Orbifolds}
+
+* [[smooth manifold]]
+
+* [[orbifold]]
+
+### Model Layer
+
+(...)
+
+### Semantics Layer
+
+(...)
+
+### Syntax Layer 
+
+(...)
 
 
 ## **Reduction of structure groups**
