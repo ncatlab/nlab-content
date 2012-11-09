@@ -1302,6 +1302,25 @@ and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$
 
 =--
 
+### Cohesive $\mathbb{A}^1$-homotopy / The Continuum
+ {#A1HomotopyContinuum}
+
++-- {: .num_defn}
+###### Definition
+
+An object $\mathbb{A}^1 \in \mathbf{H}$ is called 
+a **line object exhibiting the cohesion of $\mathbf{H}$**
+if $\Pi : \mathbf{H} \to \infty Grpd$
+exhibits the [[localization of an (∞,1)-category]] of $\mathbf{H}$
+at the class of morphisms $\{ X \times \mathbb{A}^1 \to X \}_{X \in \mathbf{H}}$.
+
+=--
+
+See also at 
+
+* [[A1-homotopy theory]]
+
+* [[continuum]]
 
 ### Galois theory
  {#GaloisTheory}
