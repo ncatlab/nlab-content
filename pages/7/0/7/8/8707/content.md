@@ -102,11 +102,11 @@ Modal type theory with an eye towards [[homotopy type theory]] is discussed in
 
 Mondadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
-* Andrzej Filinski: Representing Layered Monads. POPL 1999. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.2016))
+* [[Andrzej Filinski]], _Representing Layered Monads_, POPL 1999. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.2016))
     
-* Andrzej Filinski: On the Relations between Monadic Semantics. TCS 375:1-3, 2007. ([pdf](http://www.itu.dk/people/birkedal/teaching/advanced-semantics-Spring-2007/OtRbMS.pdf))
+* [[Andrzej Filinski]], _On the Relations between Monadic Semantics_, TCS 375:1-3, 2007. ([pdf](http://www.itu.dk/people/birkedal/teaching/advanced-semantics-Spring-2007/OtRbMS.pdf))
 
-* Andrzej Filinski: Monads in Action. POPL 2010. ([pdf](http://camlunity.ru/swap/Library/Computer%20Science/Category%20Theory/Monads%20in%20Action.pdf))
+* [[Andrzej Filinski]], _Monads in Action_, POPL 2010. ([pdf](http://camlunity.ru/swap/Library/Computer%20Science/Category%20Theory/Monads%20in%20Action.pdf))
 
 * Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
 
