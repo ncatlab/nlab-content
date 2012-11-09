@@ -84,6 +84,10 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
   (on [[cohesive topos]]es)
 
+* _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) -- available online [here](http://conceptualmathematics.wordpress.com/2012/06/04/perugia-notes-prof-f-w-lawvere/)
+
+  (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
+
 
 category: people
 
