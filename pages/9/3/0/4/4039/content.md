@@ -39,6 +39,7 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 We discuss some basics of variational calculus in terms of [[smooth spaces]] and in particular in terms of [[diffeological spaces]].
 
 ### Smooth functionals
+ {#SmoothFunctionals}
 
 Let $X$ be a [[smooth manifold]].
 Let $\Sigma$ be a [[smooth manifold|smooth]] [[manifold with boundary]] $\partial \Sigma \hookrightarrow \Sigma$. 
@@ -113,6 +114,7 @@ $$
 =--
 
 ### Functional derivative
+ {#FunctionalDerivative}
 
 Write
 
