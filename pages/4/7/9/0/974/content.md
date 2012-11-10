@@ -50,7 +50,7 @@ This means
 
    (meaning that every object of $\mathcal{C}$ may be written as a colimit over a [[diagram]] with objects in $S$); 
 
-1. every object in $\mathcal{C}$ is a [[small object]] (which follows from 2 and 3).
+1. every object in $\mathcal{C}$ is a [[small object]] (assuming 3, this is equivalent to the assertion that every object in $S$ is small).
 
 =--
 
