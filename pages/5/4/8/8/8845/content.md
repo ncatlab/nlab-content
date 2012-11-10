@@ -1,0 +1,8 @@
+Berezinian or superdeterminant
+
+* wikipedia [Berezinian](http://en.wikipedia.org/wiki/Berezinian)
+
+Related entries: [[supergeometry]], [[quasideterminant]], [[supertrace]]
+
+[[!redirects Berezinian]]
+[[!redirects superdeterminants]]
