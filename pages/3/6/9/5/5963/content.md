@@ -29,6 +29,8 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 * [[superpoint]], [[Grassmann algebra]]
 
+* [[superdeterminant]]/[[Berezinian]]
+
 ## References
 
 An exposition of the standard lore is here: 
