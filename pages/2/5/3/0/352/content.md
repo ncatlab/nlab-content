@@ -66,9 +66,13 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
 
-* Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+* Jacob Lurie, _[[Higher Topos Theory]]_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
+
+## Related entries
+
+* [[(n,r)-category]]
 
 
 [[!redirects $infinity$-category]]
