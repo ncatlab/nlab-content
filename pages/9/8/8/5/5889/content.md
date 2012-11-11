@@ -28,7 +28,7 @@ A special case of homogeneous spaces are [[coset space]]s arising from the [[quo
 
 ## Properties
 
-Under weak topological conditions (cf. Helgason), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed space|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
+Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed space|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
 
 
 ## Related concepts
