@@ -33,8 +33,7 @@ Lie's three theorems establish the following properties of this functor.
       and if $f : \mathfrak{g} \to \mathfrak{h}$ is a morphism of Lie algebras;
       then there is a unique morphism $F : G \to H$ of Lie groups lifting $g$, i.e. such that $f = Lie(F)$.  
 
-  3. **Lie III** **$Lie$ is surjective on objects**: to every Lie algebra  $\mathfrak{g}$ there is a Lie group $G$ such that $\mathfrak{g} = Lie(G)$. Moreover, there exists such $G$ which is simply connected.
-
+  3. **Lie III** (Cartan-Lie theorem) Functor **$Lie$ is surjective on objects**: to every finite dimensional real Lie algebra  $\mathfrak{g}$ there is a real Lie group $G$ such that $\mathfrak{g} = Lie(G)$. Moreover, there exists such $G$ which is simply connected. Warning: Lie proved only the existence of of a [[local Lie group]], but not the global existence (nor simply connected choice) which were completed few decades later by [[Elie Cartan]]. Hence the full theorem is called the Cartan-Lie theorem, while the third Lie theorem is just the equivalence of categories of finite dimensional real Lie algebras and local Lie groups. The historically incorrect calling "third Lie theorem" for Cartan-Lie theorem is due to the influence of a book of [[J-P. Serre]]. 
 
 ##Restriction to simply connected Lie groups
 
