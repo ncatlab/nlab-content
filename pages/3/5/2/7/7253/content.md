@@ -155,6 +155,7 @@ In the generality of [[principal infinity-bundles]], reductions/lifts of structu
  
  
 [[!redirects lift of structure groups]]
+[[!redirects lift of structure group]]
 [[!redirects lift of the structure group]]
 
 [[!redirects reduction of structure group]]
