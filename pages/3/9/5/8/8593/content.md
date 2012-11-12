@@ -7,7 +7,7 @@ Alex Heller, (born on July 9, 1925, died January 31,
 
 ##References
 
-A complete MathSciNet listing is given here in [[Alex-Heller-pub.pdf|pdf-format:file]] and in [[Alex-Heller-bibtex.bib|bibtex-format:file]].  Some selected papers of direct relevance to the themes of the nLab are listed below.
+A complete MathSciNet listing of his publications is given here in [[Alex-Heller-pub.pdf|pdf-format:file]] and in [[Alex-Heller-bibtex.bib|bibtex-format:file]].  Some selected papers of direct relevance to the themes of the nLab are listed below.
 
 * Alex Heller, _Homotopy resolutions of semi-simplicial complexes_,Trans. Amer. Math. Soc. 80 (1955), 299-344, (available [here](http://www.ams.org/journals/tran/1955-080-02/S0002-9947-1955-0075588-0/).
  
