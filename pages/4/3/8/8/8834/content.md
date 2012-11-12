@@ -61,7 +61,7 @@ It is to be noted that the map $ \Sigma A_0 \to D $ and possibly the object $C'$
 A sequence of maps $A_0 \to A_1 \to \cdots \to A_n$ will be called *a bracket sequence* (a novel phrase for the purposes of this entry) in either of two cases:
 
 * $n = 3$ and the composites $A_0 \to A_2$ and $A_1 \to A_3$ are nulhomotopic; OR
-* $n \gt 3$, and (using the preceding notations), there are choice of factor $C\to A_2$ and $ C'\to A_3 $ such that the induced sequence $ \Sigma A_0 \to D \to A_3 \to \cdots \to A_n$ is a bracket sequence.
+* $n \gt 3$, and (using the preceding notations), there are choices of factor $C\to A_2$ and $ D \to A_3 $ such that the induced sequence $ \Sigma A_0 \to D \to A_3 \to \cdots \to A_n$ is a bracket sequence.
 
 In all cases, a bracket sequence leads to a three-map sequence
 $$ \Sigma^m A_0 \to D_m \to A_{m+2} \to A_{m+3} $$
