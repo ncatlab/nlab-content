@@ -20,9 +20,11 @@ A family of [[characteristic class]]es that obstruct [[orientation]], [[spin str
 Stiefel-Whitney classes have coefficients in $\mathbb{Z}_2$, but via the [[Bockstein homomorphism]] they are lifted to [[integral Stiefel-Whitney class]]es.
 
 ## Definition
+ {#Definition}
 
-+-- {: .num_defn}
++-- {: .num_defn #AxiomaticDefinition}
 ###### Definition
+**(axiomatic definition)**
 
 The _Stiefel-Whitney classes_ are [[characteristic classes]] $w_i \in H^{i}(B O(n), \mathbb{Z}_2)$ on the [[classifying space]] of the [[orthogonal group]] in [[dimension]] $n$, defined by
 
@@ -30,25 +32,48 @@ The _Stiefel-Whitney classes_ are [[characteristic classes]] $w_i \in H^{i}(B O(
 
 1. for $n = 1$,  $w_1 \neq 0$;
 
-1. for the inclusion $i : B O(n) \hookrightarrow B O(n-1)$ we have $i^* w_i^{(n+1)} = w_i^{(n)}$;
+1. for the inclusion $\iota : B O(n) \hookrightarrow B O(n-1)$ we have $\iota^* w_i^{(n+1)} = w_i^{(n)}$;
 
-1. for the inclusion $i : B O(k) \times B O(l) \to B O(k+l)$ we have $i^* w_i = \sum_{j = 0}^i w_j \cup w_{i-j}$ (on the right the [[cup product]]).
+1. **sum rule**: for all $k,l \in \mathbb{N}$ with the canonical inclusion
+
+   $$
+     \iota : B O(k) \times B O(l) \to B O(k+l)
+   $$ 
+
+   we have for all $i \in \mathbb{N}$ that 
+
+   $$
+    \iota^* w_i = \sum_{j = 0}^i w_j \cup w_{i-j}
+   $$ 
+
+   (on the right the [[cup product]]).
 
 =--
 
-One defines the _total Stiefel-Whitney class_
++-- {: .num_defn #TotalSWClass}
+###### Definition
+
+For $E \to X$ a real [[vector bundle]]/[[orthogonal group]]-[[principal bundle]], the **total universal Stiefel-Whitney class** $w(E)$ is
 
 $$ 
-  w := \sum_i w_i
+  w(E) \coloneqq \sum_i w_i(E) \in H^\bullet(X, \mathbb{Z}_2) 
 $$
 
-as an element in the [[cohomology ring]]. For this the cup product rule says that for $E_1, E_2$ two real [[vector bundles]], then 
+as an element in the [[cohomology ring]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For the total SW class of def. \ref{TotalSWClass}, the sum rule of def. \ref{AxiomaticDefinition} says equivalently  that for $E_1, E_2$ two real [[vector bundles]], then the total SW class of their [[direct sum of vector bundles]] is the [[cup product]] of the separate classes:
 
 $$
   w(E_1 \oplus E_2) = w(E_1) \cup w(E_2)
   \,.
 $$
 
+=--
 
 ## Constructions
 
