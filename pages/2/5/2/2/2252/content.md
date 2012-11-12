@@ -35,7 +35,7 @@ Let $Mf_k$ denote the category of finite dimensional $k$-rings (=$k$-algebras wh
 
 1. Instead of defining the category $fSch_k$ of formal $k$-schemes as the opposite of $Mf_k$ define it instead covariantly on the category of finite dimensional $k$-[[coring|corings]].
 
-1. A formal $k$-scheme is precisely a left exact (commutig with finite limits) functor $X:Mf_k\to Set$.
+1. A formal $k$-scheme is precisely a left exact (commuting with finite limits) functor $X:Mf_k\to Set$.
 
 ([Demazure, p-divisible groups, chapter I](#Demp))
 
