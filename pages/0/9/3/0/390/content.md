@@ -72,17 +72,6 @@ For any class $E$ of morphisms in $C$, we write $E^\perp$ for the class of all m
 
 In general, $(-)^\perp$ and ${}^\perp(-)$ form a [[Galois connection]] on the [[poset]] of classes of morphisms in $C$.  A pair $(E,M)$ such that $E= {}^\perp M$ and $M= E^\perp$ is sometimes called a **prefactorization system**.  Note that by generalities about Galois connections, for any class $A$ of maps we have prefactorization systems $({}^\perp(A^\perp),A^\perp)$ and $({}^\perp A, ({}^\perp A)^\perp)$.  We call these *generated* and *cogenerated* by $A$, respectively.
 
-A prefactorization systems $(E,M)$ (and hence, also, a factorization system) satisfies the following closure properties.  We state them  for $M$, but $E$ of course satisfies the dual property.
-
-* $M$ contains the isomorphisms and is closed under composition and [[pullback]] (insofar as pullbacks exist in $C$).
-* If a composite $f g$ is in $M$, and $f$ is either in $M$ or a [[monomorphism]], then $g$ is in $M$.
-* $M$ is closed under all [[limits]] in the [[arrow category]] $Arr(C)$.
-
-If $C$ is a [[locally presentable category]], then for any *small set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
-
-On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consists of monomorphisms and $C$ is [[complete category|complete]] and [[well-powered category|well-powered]], then $(E,M)$ is actually a factorization system.  (Of course, there is a dual statement as well.)  In fact something slightly more general is true; see [[M-complete category]] for this and other related ways to construct factorization systems.
-
-
 ## Properties
  {#Properties}
 
@@ -167,6 +156,20 @@ $$
 This says precisely that $\bar f$ is a left and right [[inverse]] of $f$.
 
 =--
+
+### Closure properties
+
+A prefactorization system $(E,M)$ (and hence, also, a factorization system) satisfies the following closure properties.  We state them  for $M$, but $E$ of course satisfies the dual property.
+
+* $M$ contains the isomorphisms and is closed under composition and [[pullback]] (insofar as pullbacks exist in $C$).
+* If a composite $f g$ is in $M$, and $f$ is either in $M$ or a [[monomorphism]], then $g$ is in $M$.
+* $M$ is closed under all [[limits]] in the [[arrow category]] $Arr(C)$.
+
+If $C$ is a [[locally presentable category]], then for any *small set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
+
+On the other hand, if $(E,M)$ is any prefactorization system for which $M$ consists of monomorphisms and $C$ is [[complete category|complete]] and [[well-powered category|well-powered]], then $(E,M)$ is actually a factorization system.  (Of course, there is a dual statement as well.)  In fact something slightly more general is true; see [[M-complete category]] for this and other related ways to construct factorization systems.
+
+
 
 
 ### Cancellation properties
