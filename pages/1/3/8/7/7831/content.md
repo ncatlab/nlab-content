@@ -3,20 +3,20 @@
 
 +-- {: .num_defn}
 ###### Definition
-Let $K\hookrightarrow L$ denote a [[Galois field extension]]. Then the [[automorphism group]]
+Let $K\hookrightarrow L$ denote a [[Galois field extension]], then the [[automorphism group]]
 
 $$Gal(K\hookrightarrow L):=Aut_K(L)$$
 
 consisting just of those automorphisms of $L$ whose restriction to $K$ is the identity is called *Galois group of the field extension $K\hookrightarrow L$.
 =--
 
-Every Galois group $Gal(K\hookrightarrow L)=lim_{K\hookrightarrow E\hookrightarrow L}Gal (K\hookrightarrow E)$  is a [[profinite group|profinite]] [[topological group]] in that it is the limit of the topologically discrete Galois groups of the intermediate extensions between $K$ and $L$.
+Every Galois group $Gal(K\hookrightarrow L)=lim_{K\hookrightarrow E\hookrightarrow L}Gal (K\hookrightarrow E)$  is a [[profinite group|profinite]] [[topological group]] in that it is the limit of the topologically discrete Galois groups of the intermediate finite extensions between $K$ and $L$.
 
-The just defined Galois group is the one occurring in the classical [[Galois theory]] for fields. The analog of the Galois group in [[Galois theory|Galois theory for schemes]] is a [[fundamental group]] (of a scheme) and is rarely called ''Galois group''.
+The just defined Galois group is the one occurring in the classical [[Galois theory]] for fields. The analog of the Galois group in [[Galois theory|Galois theory for schemes]] is a [[fundamental group]] (of a scheme) and is rarely called a ''Galois group''.
 
-The Galois group $Gal(K\hookrightarrow K_s)$ of the separable closure of $K$ is called *[[absolute Galois group]]* of $K$. In this case we have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$. In particular the notion of [[fundamental group of a topos|fundamental group (of a point of) a topos]] generalizes that of Galois group. This observation is the starting point and motivating example of [[Grothendieck's Galois theory]] and more generally of that of [[homotopy groups in an (infinity,1)-topos]].
+The Galois group $Gal(K\hookrightarrow K_s)$ of the separable closure of $K$ is called the *[[absolute Galois group]]* of $K$. In this case we have $Gal(K\hookrightarrow K_s)\simeq \pi_1(Spec\; K)$ is equivalent to the [[fundamental group]] of the [[scheme]] $Spec K$. In particular the notion of [[fundamental group of a topos|fundamental group (of a point of) a topos]] generalizes that of Galois group. This observation is the starting point and motivating example of [[Grothendieck's Galois theory]] and more generally of that of [[homotopy groups in an (infinity,1)-topos]].
 
-If the scheme moreover is a [[group scheme]] (i.e. endowed with a group structure) modules over the Galois group which are called [[Galois module|Galois modules]] play an important role in [[algebraic number theory]].
+If the scheme, moreover, is a [[group scheme]] (i.e. endowed with a group structure) modules over the Galois group, which are called [[Galois module|Galois modules]], play an important role in [[algebraic number theory]].
 
 [[!redirects Galois groups]]
 
