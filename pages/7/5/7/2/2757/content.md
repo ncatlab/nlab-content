@@ -1,4 +1,8 @@
 
+> This entry is about induction in the sense of [[logic]]. For induction (functors) in [[representation theory]] see _[[induced module]]_, _[[induced comodule]]_, _[[cohomological induction]]_. 
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,10 +18,9 @@
 =--
 
 #Contents#
-* tabl of contents
+* table of contents
 {:toc}
 
-This entry is about induction in the sense of logic. For induction (functors) in representation theory see [[induced module]], [[induced comodule]], [[cohomological induction]]. 
 
 ## Idea
 
@@ -57,7 +60,7 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 ## References
 
-* [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
+* [[Ji?í Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
 
 * Bart Jacobs, Jan Rutten, _A tutorial on (Co)Algebras and (Co)Induction_ ([pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf))
 
