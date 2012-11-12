@@ -452,7 +452,8 @@ $$
 =--
 
 
-### Structures in the presence of infinitesimal cohesion
+### Structures in a differential cohesive $(\infty,1)$-topos
+ {#StructuresInDifferentialCohesion}
 
 We discuss structures that are canonically present in 
 a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These structures parallel the [structures in a general cohesive (∞,1)-topos](#Structures).
@@ -1268,4 +1269,8 @@ A commented list of related references is at
 [[!redirects differential cohesive (∞,1)-toposes]]
 [[!redirects differential cohesive ∞-toposes]]
 
+[[!redirects differential cohesive (infinity,1)-topos]]
+[[!redirects differential cohesive infinity-topos]]
+[[!redirects differential cohesive (infinity,1)-toposes]]
+[[!redirects differential cohesive infinity-toposes]]
 
