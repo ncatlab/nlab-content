@@ -23,20 +23,25 @@
 
 ## Definition 
 
-An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a category $C$ such that one (hence all) of the following equivalent statements are true:
 
-1. $\mu\colon T T \to T$ is a [[natural transformation|natural isomorphism]]. 
++-- {: .num_defn}
+###### Definition
 
-2. All components of $\mu\colon T T \to T$ are monic.
+An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ such that one (hence all) of the following equivalent statements are true:
+
+1. $\mu\colon T T \to T$ is a [[natural isomorphism]]. 
+
+2. All components of $\mu\colon T T \to T$ are [[monomorphisms]].
 
 3. The maps $T\eta, \eta T\colon T \to T T$ are equal. 
 
-4. For every $T$-algebra ($T$-module)
-$(M,u)$, the corresponding $T$-action $u\colon T M \to M$ is an isomorphism.
+4. For every $T$-[[algebra over a monad|algebra]] ($T$-module) $(M,u)$, the corresponding $T$-[[action]] $u\colon T M \to M$ is an [[isomorphism]].
 
-5. The forgetful functor $C^T \to C$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
+5. The [[forgetful functor]] $C^T \to C$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
 
-6. There exists an adjunction $F\dashv U$ such that the induced monad $(FU, F\epsilon U)$ is isomorphic to $(T,\mu)$ and $U$ is fully faithful. 
+6. There exists a pair of [[adjoint functors]] $F\dashv U$ such that the induced monad $(FU, F\epsilon U)$ is isomorphic to $(T,\mu)$ and $U$ is a [[full and faithful functor]]. 
+
+=--
 
 +-- {: .proof}
 ###### Proof of equivalence (in more than one way).
