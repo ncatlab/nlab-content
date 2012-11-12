@@ -7,7 +7,7 @@
 
 There are really two notions of one-sided real number: lower reals and upper reals.  But there is a perfect symmetry between them.
 
-These are largely concepts in [[constructive mathematics]].  Using [[excluded middle]], a bounded one-sided real number is simply a [[real number]], but constructively they are more general (and less well behaved).
+These are largely concepts in [[constructive mathematics]].  Using [[excluded middle]], a bounded one-sided real number is simply a [[real number]], but constructively they are more general (and less well behaved).  Lower reals are particularly important in constructive [[measure theory]] as the values taken by [[positive measures]] (and more generally are used to define [[extended positive cones]]).
 
 However, even in [[classical mathematics]], there are some differences, at least in emphasis and application.  First, it is most natural to include $\infty$ as a lower real and include $-\infty$ as an upper real.  (However, you can restrict to _bounded_ lower/upper reals to avoid that, or alternatively genralise to _extended_ lower/upper reals if you want to include both $\pm\infty$ at once.)  Also, the natural [[topological structure|topology]] on the lower reals is the _lower [[semicontinuous topology]]_ (and the natural topology on the upper reals is the _upper semicontinuous topology_).
 
@@ -53,7 +53,7 @@ A __bounded lower real number__ is a lower real $L$ such that
 
 When treated explicitly as a subset of $\mathbb{Q}$, we call $L$ a __lower set__.  When we interpret $L$ as a number $x$, we write $a \lt x$ to mean that $a \in L$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded lower real, specifically as the set of all rational numbers less than $x$.  We interpret $\infty$ as the lower real whose lower set is all of $\mathbb{Q}$; we interpret $-\infty$ as the extended lower real whose lower set is empty.
 
-A bounded lower real is __located__ if it is the lower real obtained in this way from a real number; classically, every lower real number is located.
+A bounded lower real is __located__ if it is the lower real obtained in this way from a real number; classically, every bounded lower real number is located.
 
 
 ### Upper reals
@@ -77,7 +77,7 @@ A __bounded upper real number__ is an upper real $U$ such that
 
 When treated explicitly as a subset of $\mathbb{Q}$, we call $U$ an __upper set__.  When we interpret $U$ as a number $x$, we write $x \lt b$ to mean that $b \in U$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded upper real, specifically as the set of all rational numbers greater than $x$.  We interpret $-\infty$ as the upper real whose upper set is all of $\mathbb{Q}$; we interpret $\infty$ as the extended upper real whose upper set is empty.
 
-A bounded upper real is __located__ if it is the upper real obtained in this way from a real number; classically, every upper real number is located.
+A bounded upper real is __located__ if it is the upper real obtained in this way from a real number; classically, every bounded upper real number is located.
 
 
 ## Order relations
@@ -114,7 +114,7 @@ Constructively, we cannot necessarily take the infimum of a set of lower reals, 
 
 In general, you can extend order-preserving functions of rational numbers to lower reals and to upper reals; you simply take the [[image]] of the lower or upper set and close it downward or upwards, as appropriate.  If you have an order-reversing function of rational numbers, then you can apply it to a lower real to get an upper real and conversely; this is about the only interaction that I know of between the two kinds of one-sided real.
 
-Since addition is order-preserving, it works nicely, at least to make a [[monoid]]; but subtraction doesn\'t work in general.  Multiplication has trouble with negative numbers but produces good results if you restrict to $[0,\infty]$.  Notice that we get $0 \cdot \infty = 0$ with lower reals but $0 \cdot \infty = \infty$ with extended upper reals; thus, $[0,\infty)$ is a [[rig]] for either lower or upper reals, while $[0,\infty]$ is a rig only for lower reals.  (This doesn\'t really mean that lower reals behave better overall, since $[-\infty,0]$ is a rig for upper reals.  The real conclusion is that non-extended one-sided reals behave better.)  We can also use [[logarithm]]s to translate between addition and multiplication.
+Since addition is order-preserving, it works nicely, at least to make a [[monoid]]; but subtraction doesn\'t work in general.  Multiplication has trouble with negative numbers but produces good results if you restrict to $[0,\infty]$.  Notice that we get $0 \cdot \infty = 0$ with lower reals but $0 \cdot \infty = \infty$ with extended upper reals; thus, ${[{0,\infty}[}$ is a [[rig]] for either lower or upper reals, while $[0,\infty]$ is a rig only for lower reals.  (This doesn\'t so much mean that upper reals behave worse than lower reals, as that extended reals on either side behave worse.)  We can also use [[logarithms]] to translate between addition and multiplication.  (In particular, $-\infty + \infty = -\infty$ with extended lower reals but $-\infty + \infty = \infty$ with extended upper reals.)
 
 If you really want to do arbitrary arithmetic operations on upper or lower reals, then again you need their common generalisation, the [[MacNeille real number|MacNeille reals]].
 
