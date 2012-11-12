@@ -218,7 +218,60 @@ Further examples:
 ### Cartesian closure
  {#CartesianClosure}
 
-If the ambient category $\mathcal{C}$ is a [[cartesian closed category]], then the category $Cat(\mathcal{C})$ of categories internal to $\mathcal{C}$ is also cartesian closed. (proved by [Ehresmann] using generalised sketches, but see [Johnstone, remark after B2.3.15](#Johnstone))
+If the ambient (finitely complete) category $\mathbf{E}$ is a [[cartesian closed category]], then the category $Cat(\mathbf{E})$ of categories internal to $\mathbf{E}$ is also cartesian closed. This was proved by [Ehresmann] using generalised sketches, or may be proven directly as follows (see also [Johnstone, remark after B2.3.15](#Johnstone)): 
+
++-- {: .num_theorem} 
+###### Theorem 
+Let $\mathbf{E}$ be a finitely complete cartesian closed category. Then the category $Cat(\mathbf{E})$ of internal categories in $E$ is also finitely complete and cartesian closed. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+First suppose $\mathbf{E}$ is finitely complete. Then the category of directed graphs $\mathbf{E}^{\bullet \stackrel{\to}{\to} \bullet}$ is also finitely complete, and since $Cat(\mathbf{E})$ is monadic over $\mathbf{E}^{\bullet \stackrel{\to}{\to} \bullet}$, it follows that $Cat(\mathbf{E})$ is also finitely complete. 
+
+Now suppose that $\mathbf{E}$ is finitely complete and cartesian closed. Let $\Delta_3$ denote the category of nonempty ordinals up to and including the ordinal with 4 elements. We have a full and faithful embedding 
+
+$$N \colon Cat(\mathbf{E}) \to \mathbf{E}^{\Delta_3^{op}}$$ 
+
+where the codomain category is cartesian closed. Indeed, the exponential of two objects $F$, $G$ in $\mathbf{E}^{\Delta_3^{op}}$ may be computed as an $\mathbf{E}$-enriched end 
+
+$$G^F(m) = \int_n \prod_{f \colon n \to m} G(n)^{F(n)}$$ 
+
+when evaluated at $m \in Ob(\mathbf{E}^{\Delta_3^{op}})$, as is easily checked (see for instance [here](http://ncatlab.org/nlab/show/cartesian+closed+category#exponentials_of_cartesian_closed_categories_30)); note that this end is a finite limit diagram since $\Delta_3$ is finite.  
+
+If $C$, $D$ are internal categories in $\mathbf{E}$, seen as functors $\Delta_3^{op} \to \mathbf{E}$, the exponential $N C^{N D}$ defines the exponential in $Cat(\mathbf{E})$. To see this, it suffices to check that $N C^{N D}$, as defined by the end formula above, is a category $B$, i.e., is in the essential image of the nerve functor. For in that case, we have natural isomorphisms 
+
+$$\frac{ 
+\frac{F \times D \to C \;\;\;\text{in}\; Cat(\mathbf{E})}
+{N F \times N D \cong N(F \times D) \to N C \;\;\;\text{in}\; \mathbf{E}^{\Delta_3^{op}}}}
+{\frac{N F \to N C^{N D} \;\;\;\text{in}\; \mathbf{E}^{\Delta_3^{op}}}
+{F \to B \;\;\;\text{in}\; Cat(\mathbf{E})}}$$ 
+
+whence $B$ satisfies the universal property required of an exponential. 
+
+Objects in the essential image of the nerve $N$ are characterized as functors $\Delta_3^{op} \to \mathbf{E}$ which take intervalic joins in $\Delta_3$ to pullbacks in $\mathbf{E}$, as given precisely by the [[Segal conditions]]. The remainder of the proof is then finished by the following lemma. 
+=-- 
+
++-- {: .num_lemma} 
+###### Lemma 
+If $C \colon \Delta_3^{op} \to \mathbf{E}$ satisfies the Segal conditions and $X \colon \Delta_3^{op} \to \mathbf{E}$ is any functor, then $C^X$ also satisfies the Segal conditions. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For any $X$ we have the formula 
+
+$$C^X(m) = \int_k Hom(X k, \prod_{f \colon n \to k} \prod_{g \colon n \to m} C(n)).$$ 
+
+Since the enriched end and the internal hom-functor $Hom(X k, -)$ both preserve pullbacks, we are reduced to checking that 
+
+* If $C$ satisfies the Segal conditions, then so does 
+$$\prod_{f \colon n \to k} \prod_{g \colon n \to m} C(n)$$ 
+as a functor $\Delta_3^{op} \to \mathbf{E}$ in the argument $m$ (for each fixed $k$). 
+
+Note that the displayed statement is a proposition in the language of finitely complete categories (i.e., in finitary essentially algebraic logic). Since hom-functors $\mathbf{E}(e, -) \colon \mathbf{E} \to Set$ jointly preserve and reflect the validity of such propositions, it suffices to prove it for the case where $\mathbf{E} = Set$. But this is classical elementary category theory; it says precisely that if $C$ is a small (ordinary) category, then the usual functor categories $C^{\mathbf{2}}$, $C^{\mathbf{3}}$ are equivalently described by exponentials of (truncated) simplicial sets. This completes the proof. 
+=-- 
+
 
 ## Related concepts
 
