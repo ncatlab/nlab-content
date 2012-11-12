@@ -273,6 +273,8 @@ $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 * If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
 
+* The [[derived functor]] of the representation induction functor is often referred to as _[[cohomological induction]]_.
+
 
 ## References
 
