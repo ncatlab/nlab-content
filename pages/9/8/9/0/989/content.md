@@ -51,7 +51,9 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 * [[augmented algebra]]
 
-* [[dg-algebra]], [[A-infinity algebra]]
+* [[differential algebra]]
+
+* [[differential graded algebra]], [[A-infinity algebra]]
 
 
 
