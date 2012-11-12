@@ -78,6 +78,19 @@ Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C
 
 ## Properties
 
+### Closure properties
+
++-- {: .num_prop}
+###### Proposition
+
+For $(L,R)$ a factorization system in an [[(∞,1)-category]] $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[arrow category]] $Func(\Delta^1, \mathcal{C})$ on the morphisms in $R$ is closed under [[(∞,1)-limits]] of shapes that exist in $\mathcal{C}$. Similarly the full subcategory on $L$ is closed under [[(∞,1)-colimits]] that exist in $\mathcal{C}$.
+
+=--
+
+This is ([Lurie, prop. 5.2.6.8 (7), (8)](#Lurie)).
+
+### Reflection
+
 +-- {: .num_defn}
 ###### Definition
 
