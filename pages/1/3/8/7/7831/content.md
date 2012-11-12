@@ -3,7 +3,7 @@
 
 +-- {: .num_defn}
 ###### Definition
-Let $K\hookrightarrow L$ denote a Galois field extension. The the automorphism group
+Let $K\hookrightarrow L$ denote a [[Galois field extension]]. Then the [[automorphism group]]
 
 $$Gal(K\hookrightarrow L):=Aut_K(L)$$
 
