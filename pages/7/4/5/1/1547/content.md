@@ -112,6 +112,8 @@ Much else to be discussed...
 * [[principal bundle]], [[associated bundle]]
 
 * **vector bundle**, [[holomorphic vector bundle]]
+
+  * [[direct sum of vector bundles]]
  
   * [[connection on a vector bundle]]
 
