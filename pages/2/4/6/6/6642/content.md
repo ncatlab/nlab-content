@@ -47,7 +47,7 @@ More generally, for any favorable factorization system $(E,M)$, we have a reflec
 
 The following is Theorem 2.3 in [CHK](#CHK).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Let $(E',M')$ be the reflective interior of $(E,M)$.  Then:
 
@@ -70,7 +70,7 @@ Note that the left class in any orthogonal factorization system is automatically
 
 The following is a slightly generalized version of Corollary 3.4 from [CHK](#CHK).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Suppose that $C$ is finitely complete and $M$-complete for some factorization system $(E,M)$, where $M$ consists of [[monomorphisms]] and contains the [[split monomorphism|split monics]].  Then any reflective prefactorization system on $C$ is a factorization system.
 =--
@@ -81,7 +81,7 @@ This follows directly from [this theorem](/nlab/show/M-complete+category#OFSFrom
 
 The following is a consequence of Theorems 4.1 and 4.3 from [CHK](#CHK).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Suppose that $C$ is finitely complete and that $(E,M)$ is a reflective prefactorization system on $C$ such that $E$-morphisms are stable under pullback along $M$-morphisms.  Then $(E,M)$ is a factorization system.
 =--
