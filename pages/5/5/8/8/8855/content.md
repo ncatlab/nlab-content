@@ -1,0 +1,4 @@
+A left (right) __corepresentation__ is a synonym for a left (right) [[coaction]] of a coalgebra (comonoid) in one of the monoidal categories which have linear, and possibly, functional connotation; e.g. in the context of topological vector spaces.
+
+There is however also another meaning of a corepresentation for a [[Leibniz algebra]].
+
