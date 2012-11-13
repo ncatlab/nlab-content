@@ -1,0 +1,7 @@
+__Igor Rostislavovich Shafarevich__ is an algebraic geometer and number theorist. He is also a pioneer in the study of infinite-dimensional algebraic groups. 
+
+* [wikipedia](http://en.wikipedia.org/wiki/Igor_Shafarevich)
+
+category: people
+
+[[!redirects I. R. Shafarevich]]
