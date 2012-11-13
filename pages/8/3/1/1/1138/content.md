@@ -17,7 +17,7 @@ This page is about **inverse images of sheaves** and related subjects.  For the 
 An _inverse image_ operation is the [[left adjoint]] part $f^*$ of a [[geometric morphism]] $(f^* \dashv f_*) : E \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} F$ of [[topos]].
 
 
-Given a morphism $f : X \to Y$ of [[site]]s, the _inverse image_ operation of the induced goemtric morphism $Sh(X) \to Sh(Y)$ on [[categories of sheaves]] is a [[functor]]
+Given a morphism $f : X \to Y$ of [[site]]s, the _inverse image_ operation of the induced geometric morphism $Sh(X) \to Sh(Y)$ on [[categories of sheaves]] is a [[functor]]
 
 $$
   f^{-1} : Sh(Y) \to Sh(X)
