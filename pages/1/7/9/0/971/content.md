@@ -41,7 +41,7 @@ If $C$ satisfies these properties for some $\kappa$, we say that it is **$\kappa
 +-- {: .num_remark }
 ###### Remark
 
-Unlike for [[locally presentable categories]], it does not follow that if $C$ is $\kappa$-presentable and $\kappa\lt \lambda$ then $C$ is also $\lambda$-presentable.  It is true, however, that for any accessible category, there are arbitrarily large cardinals $\lambda$ such that $C$ is $\lambda$-presentable.
+Unlike for [[locally presentable categories]], it does not follow that if $C$ is $\kappa$-accessible and $\kappa\lt \lambda$ then $C$ is also $\lambda$-accessible.  It is true, however, that for any accessible category, there are arbitrarily large cardinals $\lambda$ such that $C$ is $\lambda$-accessible.
 
 =--
 
