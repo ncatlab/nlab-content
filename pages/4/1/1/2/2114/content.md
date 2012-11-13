@@ -24,7 +24,7 @@ Historically, there were several formalisms of various schools including the Ita
 Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ means any of: affine, quasiaffine, [[projective variety|projective]] or quasiprojective $k$-variety. 
 
 
-* __Affine__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
+* __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
   Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
 
@@ -38,12 +38,14 @@ Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ means 
 
 Morphisms between varieties are so-called [[regular maps]].  
 
+Sometimes a smooth algebraic variety may also be called __algebraic manifold__. Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes of finite type (where $S$ is not necessarily $Spec\,k$ for $k$ a field); typically they are required to be separated [[reduced scheme|reduced]] $S$-schemes of finite type.
+
 
 ## Properties
 
 There is an [[equivalence of categories]] between the [[category]] of [[integral schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of algebraic $k$-varieties. 
 
-Of course, the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes (where $S$ is not necessarily $Spec\,k$). 
+Of course, the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
 
 ## References
 
@@ -51,13 +53,10 @@ An amusing discussion on the differences between schemes and varieties can be fo
 
 
 [[!redirects algebraic varieties]]
-
-[[!redirects affine variety]]
-[[!redirects affine varieties]]
 [[!redirects affine algebraic variety]]
 [[!redirects affine algebraic varieties]]
-
-
+[[!redirects algebraic manifold]]
+[[!redirects algebraic manifolds]]
 [[!redirects quasiaffine variety]]
 [[!redirects quasiaffine varieties]]
 [[!redirects quasiaffine algebraic variety]]
