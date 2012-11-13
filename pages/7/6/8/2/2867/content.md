@@ -174,7 +174,17 @@ given by $\sigma : a \mapsto ([1], a)$.
 
 =--
 
+### Via duals of disks
+ {#ViaDualsOfDisks}
 
+In analogy to how the [[simplex category]] is [[equivalence of categories|equivalent]] to the [[opposite category]] of finite strict linear [[intervals]], $\Delta \simeq \mathbb{I}^{op}$, so the $\Theta$-category is equivalent to the opposite of the category of Joyal's combinatorial finite [[disks]]. 
+
+$$
+  \Theta \coloneqq \mathbb{D}^{op}
+  \,.
+$$
+
+(...)
 
 ## Properties
 
