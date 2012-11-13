@@ -1,11 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 # Cartesian monads
-* tic
+* table of contents
 {: toc}
 
 
 ##Idea##
 
-A cartesian monad is a [[monad]] on a [[locally cartesian category]] that gets along well with [[pullbacks]].
+A _cartesian monad_ is a [[monad]] on a [[locally cartesian category]] that gets along well with [[pullbacks]].
 
 
 ##Motivation through generalised multicategories
