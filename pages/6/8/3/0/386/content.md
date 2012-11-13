@@ -242,7 +242,8 @@ In particular, for $K$ a 2-category, [[monads]] in $K$ correspond to 2-functors 
 When $\Delta_a$ is considered as a 2-category, a similar argument to the above shows that the one-object [[3-category]] $\mathbf{B}\Delta_a$ classifies [[lax-idempotent monads]]: given a 3-category $M$ and a lax-idempotent monad $t$ therein, there is a unique 3-functor $\mathbf{B}\Delta_a \to M$ sending $[1]$ to $t$, essentially because $\sigma^1_0 \dashv \delta^1_0 = \delta^0_0 \oplus \mathbf{1}$ with identity counit.
 
 
-### Duality with intervals 
+### Duality with intervals  
+ {#DualityWithIntervals}
 
 Recall that an [[interval]] is a [[linearly ordered set]] with a top and bottom element; interval maps are [[monotone functions]] which preserve top and bottom. 
 
@@ -256,6 +257,8 @@ $$Int(-, \mathbf{2})^{op} \dashv Ord(-, \mathbf{2})$$
 
 inducing the first equivalence $Ord(-, \mathbf{2}): \Delta_a^{op} \to \nabla_a$, and the second equivalence by restriction. 
 
+This was apparently first made explicit by ([Joyal](#Joyal)).
+See also at _[Interval -- Relation to simplices](interval#RelationToSimplices)_.
 
 
 ## Related constructions ##
@@ -325,6 +328,11 @@ See also:
 * Section VII.5 of [[Categories Work|Categories for the Working Mathematician]]
 
 * Section II.2 of P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_. Springer, 1967
+
+The relation to [[intervals]] and the generalization to the [[cell category]] is due to
+
+* [[André Joyal]], _Disks, duality and $\Theta$-categories_, preprint, (1997)
+ {#Joyal}
 
 
 [[!redirects augmented simplex category]]
