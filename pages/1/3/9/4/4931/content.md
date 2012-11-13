@@ -42,7 +42,7 @@ Its [[boundary]] is the $(n-1)$-[[sphere]].
 
 ### Combinatorial
 
-There are also combinatorial notions of _disks_. For instance that due to Joyal, as entering the definition of the [[Theta-category]]. See for instance ([Makkai-Zawadowski](#MakkaiZawadowski)).
+There are also combinatorial notions of _disks_. For instance that due to ([Joyal](#Joyal)), as entering the definition of the [[Theta-category]]. See for instance ([Makkai-Zawadowski](#MakkaiZawadowski)).
 
 
 ## Properties 
@@ -204,7 +204,10 @@ $$
 One central application of balls is as building blocks for [[covering]]s. See [[good open cover]] for some statements.
 
 
-## References {#References}
+## References 
+ {#References}
+
+### Geometric
 
 * V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
@@ -249,7 +252,11 @@ For a discussion of diffeomorphisms between geodesically convex regions and open
 
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
-For the combinatorial notions of disks:
+### Combinatorial
+
+
+* [[Andre Joyal]], _Disks, duality and Theta-categories_ ([[JoyalThetaCategories.pdf:file]])
+ {#Joyal}
 
 * [[Mihaly Makkai]], Marek Zawadowski, _Duality for Simple $\omega$-Categories and Disks_ ([TAC](http://www.emis.de/journals/TAC/volumes/8/n7/8-07abs.html))
  {#MakkaiZawadowski}
