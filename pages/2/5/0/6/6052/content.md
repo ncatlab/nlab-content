@@ -22,7 +22,7 @@ All modules and morphisms will be over a fixed ground commutative ring $k$.
 
 A __left $A$-bialgebroid__ is 
 an $A\otimes_k A^{op}$-[[ring]] $(H,\mu_H,\eta)$, 
-together with the $A$-bimodule map $\Delta : A\to H\otimes_A H$, which is coassociative and counital with counit $\epsilon$, such that 
+together with the $A$-bimodule map "comultiplication" $\Delta : H\to H\otimes_A H$, which is coassociative and counital with a counit $\epsilon$, such that 
 
 (i) the $A$-bimodule structure used on $H$ is $a.h.a':= s(a)t(a')h$, where $s := \eta(-\otimes 1_A):A\to H$ and $t:=\eta(1_A\otimes -):A^{op}\to H$ are the algebra maps induced by the unit $\eta$ of the $A\otimes A^{op}$-ring $H$
 
