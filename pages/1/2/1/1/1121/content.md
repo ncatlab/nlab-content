@@ -19,14 +19,16 @@
 
 ## Definition
 
-A **wide subcategory** of a [[category]] $C$ is a [[subcategory]] containing all the [[object]]s of $C$. 
+Traditionally, a **wide subcategory** of a [[category]] $C$ is a [[subcategory]] containing all the [[objects]] of $C$. 
 
 Equivalently, it is a subcategory through which the canonical [[functor]] $disc(Obj(C)) \to C$ (from the [[discrete category]] on the collection of [[objects]]) factors, or whose inclusion functor is [[bo functor|bijective on objects]].
 
+Notice that the condition to contain all the object is not invariant under [[equivalence of categories]] and so the definition of wide subcategory above violates the [[principle of equivalence]].  A variant of the definition which fixes this is:
+
+an **essentially wide subcategory** contains at least one object from each [[isomorphism class]] of objects; that is, its inclusion functor is [[essentially surjective functor|essentially surjective on objects]].
+
+
 A wide subcategory is also called a **lluf subcategory** ("lluf" being "[[full subcategory|full]]" spelled backwards).
-
-Note that this is an [[evil]] condition (on top of whatever evil is in the term 'subcategory').  To fix this, let an **essentially wide subcategory** contain at least one object from each isomorphism class of objects; that is, its inclusion functor is [[essentially surjective functor|essentially surjective on objects]].
-
 
 
 
