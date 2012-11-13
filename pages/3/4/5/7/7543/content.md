@@ -96,6 +96,7 @@ A [[simplicial object]] $X \colon \Delta^{op} \to \mathcal{C}$ satisfies the **S
 
 
 
+
 +-- {: .num_remark #InfinitySegalCones}
 ###### Remark
 
@@ -399,10 +400,11 @@ We have [[geometric morphisms]] of [[toposes]]
 
 $$
   Grph \simeq Sh(\Delta_0)
-  \stackrel{\overset{i^*}{\to}}{\underset{i_*}{\hookrightarrow}}
+  \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\hookrightarrow}}
   PSh(\Delta_0)
    \stackrel{\overset{j_!}{\to}}{\stackrel{\overset{j^*}{\leftarrow}}{\underset{j_*}{\to}}}
   PSh(\Delta)
+  \simeq sSet
 $$
 
 which capture the Segal condition as follows.
@@ -414,7 +416,7 @@ The [[commuting diagram]] of [[1-categories]]
 
 $$
   \array{
-    Cat &\stackrel{N}{\hookrightarrow}& PSh(\Delta) 
+    Cat &\stackrel{N}{\hookrightarrow}& PSh(\Delta) \simeq sSet
     \\
     \downarrow^{\mathrlap{U}} && \downarrow^{\mathrlap{j^*}}
     \\
@@ -432,6 +434,50 @@ where
 is a [[pullback]].
 
 =--
+
++-- {: .num_remark #AdjointsToTheSegalPullbackDiagram}
+###### Remark
+
+The morphisms in the commuting diagram of prop. \ref{CatAsPullback} participate in further [[adjunctions]], and in terms of these the Segal condition may further be reformulated as a restriction condition on [[algebras over an operad]]:
+
+First of all the nerve has a [[left adjoint]] $\tau \colon PSh(\Delta) \to Cat$. With this the left adjoint $j_!$ of $j^*$ induces a left adjoint
+
+$$
+  F \simeq \tau j_! i_*
+$$
+
+of $U$, which is the [[free category]] functor. 
+
+Moreover, with $U$ also $j^*$ is a [[monadic functor]] and the [[monad]] $U F \colon Grph \to Grph$ of which [[Cat]] is the category of [[algebras over a monad|algebras]] is the restriction of the monad $j^* \circ j_!$:
+
+$$
+  i_* U F \simeq j^* j_! i_* 
+  \,.
+$$
+
+
+(All this is discussed in ([Berger, p. 13](#Berger)), and actually in the further generality of cellular sets that we get to [below](#InTermsOfPullBackOfCatOfSheavesForCellularObjects).)
+
+In summary we have a diagram of adjoint pairs of functors of the form
+
+$$
+  \array{
+    Cat &\stackrel{\overset{\tau}{\leftarrow}}{\underoverset{N}{\bottom}{\hookrightarrow}}& PSh(\Delta) \simeq sSet
+    \\
+    {}^{\mathllap{U}}\downarrow \vdash \uparrow^{\mathrlap{F}} && {}^{\mathllap{j^*}}\downarrow \vdash \uparrow^{\mathrlap{j_!}}
+    \\
+    Graph \simeq Sh(\Delta_0) &\stackrel{\overset{i^*}{\leftarrow}}{\underoverset{i_*}{\bottom}{\hookrightarrow}}& PSh(\Delta_0)
+  }
+$$
+
+where several (however not all) subdiagrams of functors commute, as discussed above. 
+In terms of this the reformulation of the Segal condition as in prop. \ref{CatAsPullback} is now further reformulated as:
+
+_A category is equivalently an algebra over the monad $j^* j_!$ on $PSh(\Delta_0)$ which satisfies the Segal condition in that it is in the essential image of the functor $i_*$ of prop. \ref{NerveOfGraph}._
+
+=--
+
+
 
 #### For cellular objects and $\omega$-category objects
  {#InTermsOfPullBackOfCatOfSheavesForCellularObjects}
