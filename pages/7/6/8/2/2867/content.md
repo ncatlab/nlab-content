@@ -352,9 +352,13 @@ The $\Theta$-categories were introduced in
 
 * [[Andre Joyal]], _Disks, duality and Theta-categories_
 
-An discussion with lots off pictures is in [chapter 7](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=131) of
+A discussion with lots off pictures is in [chapter 7](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=131) of
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
+
+More discussion is in 
+
+* David Oury, _On the duality between trees and disks_, TAC vol. 24 ([pdf](http://www.tac.mta.ca/tac/volumes/24/16/24-16.pdf))
 
 Discussion of its embedding into strict $n$-categories is in 
 
