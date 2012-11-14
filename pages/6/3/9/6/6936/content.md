@@ -74,7 +74,7 @@ The construction of [[mapping cylinders]] is given by
     Inductive cyl {X Y : Type} (f : X -> Y) : Y -> Type :=
     | cyl_base : forall y:Y, cyl f y
     | cyl_top : forall x:X, cyl f (f x)
-    | cyl_seg : forall x:X, intop x == inbase (f x).
+    | cyl_seg : forall x:X, cyl_top x == cyl_base (f x).
 
 Using this construction, one can define a (cofibration, trivial fibration) [[weak factorization system]] for types.
 
@@ -90,7 +90,7 @@ Similarly, we have the [[0-truncated|0-truncation]] into [[h-sets]]:
 
     Inductive pi0 (X:Type) : Type :=
     | cpnt : X -> pi0 X
-    | pi0_axiomK : forall (l : Circle -> X), refl (l base) == map l loop.
+    | pi0_axiomK : forall (l : Circle -> pi0 X), refl (l base) == map l loop.
 
 We can similarly define $n$-truncation for any $n$, and we should be able to define it inductively for all $n$ at once as well.
 
@@ -109,8 +109,8 @@ The ([homotopy) [[homotopy pushout|pushout]] of $f\colon A\to B$ and $g\colon A\
 The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[hSet]] (a [[0-truncated]] type):
 
     Inductive quotient (A : Type) (R : A -> A -> hProp) : Type :=
-    | proj : A -> quot A R
-    | relate : forall (x y : A), R x y -> quot x == quot y
+    | proj : A -> quotient A R
+    | relate : forall (x y : A), R x y -> proj x == proj y
     | contr1 : forall (x y : quot A R) (p q : x == y), p == q.
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
