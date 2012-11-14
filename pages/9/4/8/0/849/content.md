@@ -352,6 +352,100 @@ $$
 =--
 
 
+### In slice categories
+ {#ExampleInSliceCategories}
+
+Let $\mathbf{H}$ be a [[locally cartesian closed category]]. This means that for each object $X \in \mathbf{H}$ the [[slice category]] $\mathbf{H}_{/X}$ is a [[cartesian closed category]]. The [[product]] in the slice is given by the [[fiber product]] over $X$ computed in $\mathbf{H}$. Fairly detailed discussion of constructions of the internal hom in such slices $\mathbf{H}_{/X}$ is at _[locally cartesian closed category -- cartesian closure in terms of base change and dependent product](locally%20cartesian%20closed%20category#EquivalentCharacterizations)_.
+
+We record some further properties
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathcal{C}$ a [[locally cartesian closed category]] and $f \colon X \to Y$ any morphism in $\mathcal{C}$, the [[inverse image]] $f^*$ of the corresponding [[base change]] [[adjunction]]
+
+$$
+  \mathcal{C}_{/X}
+   \stackrel{\overset{\sum_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{\prod_f}{\to}}}
+  \mathcal{C}_{/Y}
+$$
+
+is a [[cartesian closed functor]]. 
+
+=--
+
+This is discussed in more detail at _[cartesian closed functor -- Examples](cartesian+closed+functor#Examples)_.
+
+So for $A,B \in \mathcal{C}_{/Y}$ we have [[isomorphisms]]
+
+$$
+  f^* \left[A,B\right] \stackrel{\simeq}{\to} \left[f^* A , f^* B\right]
+$$
+
+between the image of the internal hom under $f^*$ and the internal hom of the images of $A$ and $B$ separately. 
+
++-- {: .num_prop #MorphismFromDepProductOfFuncTypeToFuncTypeOfDepSum}
+###### Proposition
+
+For $\mathbf{H}$ a [[locally cartesian closed category]], $f \colon X \to Y$ any [[morphism]], and $A, B \in \mathbf{H}_{/X}$ two objects in the slice over $X$, there is a natural morphism
+
+$$
+  \prod_f \left[A,B \right] \to \left[ \sum_f A, \sum_f B\right]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For any object $U \in \mathbf{H}_{/Y}$ we have a canonical morphism of [[hom sets]]
+
+$$
+  \begin{aligned}
+     \mathbf{H}_{/Y}( U, \prod_f [A,B] )
+     & \simeq
+     \mathbf{H}_{/X}( f^* U, [A,B] )
+     \\
+     & \simeq
+     \mathbf{H}_{/X}(f^* U \times A, B)
+     \\
+     & \stackrel{}{\to}
+    \mathbf{H}_{/Y}( \sum_f( f^* U \times A ), \sum_f B )
+    \\
+     & \stackrel{Frob.Rec.}{\simeq}
+     \mathbf{H}_{/Y}( U \times \sum_f A , \sum_f B )
+     \\
+     & \simeq
+    \mathbf{H}_{/Y}(U, \sum_f A , \sum_f B)
+  \end{aligned}
+$$
+
+where the first and the last steps use [[adjunction]] properties, where the morphism in the middle is the component of the [[dependent sum]] functor, and where "Frob.Rec." is [[Frobenius reciprocity]]. 
+
+Since this is [[natural transformation|natural]] in $U$, the [[Yoneda lemma]] implies the claimed morphism.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $Y$ is the [[terminal object]] (for simplicity), then the morphism of prop. \ref{MorphismFromDepProductOfFuncTypeToFuncTypeOfDepSum} can be understood as follows: a [[global element]] of the [[dependent product]] $\prod_f [A,B]$ is given by a [[commuting diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    \sum_f A &&\to&& \sum_f B
+    \\
+     & \searrow && \swarrow
+     \\
+     && X
+  }
+  \,.
+$$
+
+The map in prop. \ref{MorphismFromDepProductOfFuncTypeToFuncTypeOfDepSum} picks out the top horizontal morphism in this diagram.
+
+=--
 
 ### For smooth spaces and smooth $\infty$-groupoids
 
