@@ -36,6 +36,7 @@ In this case $\alpha$ is called a [[Hamiltonian]] for $v$.
 
 ### On $n$-plectic manifolds
 
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -53,29 +54,92 @@ In this case $\alpha$ is called a [[Hamiltonian form|Hamiltonian (n-1)-form]] fo
 ### On $n$-plectic smooth $\infty$-groupoids
  {#OnNPlecticInfinityGroupoids}
 
-Let $X$ be a [[smooth ∞-groupoid]] and
-$\omega : X \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}$
-a closed differential $(n+1)$-form on $X$.
+We discuss now the notion of Hamiltonian vector fields in the full generality internal to a [[cohesive (∞,1)-topos]] $\mathbf{H}$. We write out the discussion for the case $\mathbf{H} = $ [[Smooth∞Grpd]] for convenience, but any other choice of cohesive $(\infty,1)$-topos works as well.
 
-For instance $X$ might be a [[symplectic ∞-groupoid]].
+Consider the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$ and the corresponding coefficient object $\mathbf{B}^n U(1)_{conn} \in \mathbf{H}$ for $U(1)$-[[differential cohomology]] in degree $(n+1)$, the smooth [[moduli stack]] of [[circle n-bundles with connection]].
 
-Assume that this is _prequantizable_ in that there exists a [[prequantum line bundle|prequantum]] 
-[[circle n-bundle with connection]] for $\omega$,
+For any $X \in \mathbf{H}$,  a morphism $\omega \colon X \to \Omega^{n+1}_{cl}$ is a [[n-plectic geometry|pre-n-plectic structure]] on $X$. For instance $(X,\omega)$ might be a [[symplectic ∞-groupoid]].
+
+
+A [[higher geometric prequantization]] of $(X,\omega)$ is a lift $\nabla$ in 
 
 $$
-  \nabla : X \to \mathbf{B}^n U(1)_{conn}
+  \array{
+    && \mathbf{B}^n U(1)_{conn}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^{n+1}_{cl}
+  }
+  \,.
 $$
 
-(one whose [[curvature]] $n+1$-form is $\omega$).
+The [[quantomorphism n-group]] of this prequantization is 
 
+$$
+  \mathbf{QuantMorph}(X,\omega) \coloneqq \prod_{\mathbf{B}^n U(1)_{conn}} \mathbf{Aut}(\nabla)
+  \,,
+$$ 
+
+where 
+
+1. $\mathbf{Aut}(\nabla)$ is the [[automorphism ∞-group]] of $\nabla$ formed in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$
+
+1. $\prod_{\mathbf{B}^n U(1)_{conn}} \colon \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}} \to \mathbf{H}$ is the [[dependent product]] [[(∞,1)-functor]]. 
+
+There is a canonical homomorphism of [[∞-groups]]
+
+$$
+  p \colon \mathbf{QuantMorph}(X,\omega) \to \mathbf{Aut}(X)
+$$
+
+to the [[automorphism ∞-group]] of $X$ (the [[diffeomorphism group]] of $X$), given as the restriction to invertible endomorphisms of the canonical morphism
+
+$$
+  \prod_{\mathbf{B}^n U(1)_{conn}}
+  \left[
+    \nabla,\nabla
+  \right]
+  \to
+  \left[
+    \sum_{\mathbf{B}^n U(1)_{conn}} \nabla,
+    \sum_{\mathbf{B}^n U(1)_{conn}} \nabla
+  \right]
+  \simeq
+  [X,X]
+$$
+
+which is discussed at _[internal hom -- Examples -- In slice categories](internal%20hom#ExampleInSliceCategories)_.
+
++-- {: .num_defn }
+###### Definition
+
+The [[Hamiltonian symplectomorphism n-group]] $\mathbf{HamSymp}(X,\omega)$ of $(X,\omega)$ is the [[∞-image]] of this morphism $p$, hence the factorization
+
+$$
+  p \colon \mathbf{QuantMorph}(X,\omega) \to \mathbf{HamSymp}(X,\omega)
+  \hookrightarrow \mathbf{Aut}(X)
+$$
+
+of $p$ by an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] followed by a [[monomorphism in an (∞,1)-category|monomorphism]].
+
+The corresponding [[∞-Lie algebra]] 
+
+$$
+  HamVect(X,\omega) \coloneqq Lie(\mathbf{HamSymp}(X,\omega))
+$$
+
+we call the $\infty$-Lie algebra of **Hamiltonian vector fields** on $(X,\omega)$.
+
+=--
+
+More explicitly:
 
 +-- {: .num_defn #HamiltonianDiffeomorphismsOnInfinityGroupoid}
 ###### Definition
 
-A **Hamiltonian diffeomorphism** $(\phi, \alpha)$ 
-on $(X, \omega)$ is, for any choice of of 
-prequantum circle $n$-bundle $\nabla$ for $\omega$, 
-a diagram
+A **Hamiltonian diffeomorphism** $\phi$ on  
+on $(X, \omega)$ is an element $\phi \colon X \stackrel{\simeq}{\to} X$ in the [[automorphism ∞-group]] $\phi \in \mathbf{Aut}(X)$ such that it fits into a [[diagram]] of the form
 
 $$
   \array{
@@ -91,9 +155,7 @@ $$
   }
 $$
 
-in [[Smooth∞Grpd]]. 
-
-Hamiltonian diffeomorphisms naturally form a [[smooth ∞-group]]. We say that a **Hamiltonian vector field** on $(X, \omega)$ is an element in the [[∞-Lie algebra]] of this $\infty$-group.
+in $\mathbf{H}$. 
 
 =--
 
