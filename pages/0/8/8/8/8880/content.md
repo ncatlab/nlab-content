@@ -1,0 +1,4 @@
+[[!redirects J. Beck]]
+* [thesis](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)
+category:people
+[[!redirects J. M. Beck]]
