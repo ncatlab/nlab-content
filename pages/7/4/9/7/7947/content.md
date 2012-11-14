@@ -1,5 +1,9 @@
 
-The ([[higher geometric quantization|higher]]) [[geometric quantization]] of a [[symplectic manifold|symplectic]] ([[n-plectic geometry|n-plectic]]) [[n-plectic infinity-groupoid|smooth space]] $X$ involves the following [[central extensions]] of classical ([[n-plectomorphism ∞-group|higher]]) [[symplectomorphism groups]] (for sufficiently highly connected $X$).
+The ([[higher geometric quantization|higher]]) [[geometric quantization]] of a [[symplectic manifold|symplectic]] ([[n-plectic geometry|n-plectic]]) [[n-plectic infinity-groupoid|smooth space]] $X$ involves the following [[∞-group extension]] of classical ([[n-plectomorphism ∞-group|higher]]) [[symplectomorphism groups]] (for sufficiently highly connected $X$).
+
+$$
+  \Omega_\nabla[X,\mathbf{B}^n U(1)_{conn}] \to \mathbf{QuantMorph}(X,\nabla) \to \mathbf{HamSympl}(X,\nabla)
+$$
 
 | $n$ | geometry | structure | unextended structure | extension by | quantum extension |  
 |--||--|--|--|--|--|
