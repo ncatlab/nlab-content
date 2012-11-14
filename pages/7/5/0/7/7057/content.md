@@ -23,7 +23,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A **cartesian closed functor** is a [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ between [[cartesian closed categories]] which preserves both [[products]] and [[exponential objects]] (all the structure of cartesian closed categories).
+A **cartesian closed functor** is a [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ between [[cartesian closed categories]] which preserves both [[products]] and [[exponential objects]]/[[internal homs]] (all the structure of cartesian closed categories).
 
 More precisely, if $F\colon C\to D$ preserves products, then the canonical [[morphisms]] $F(A\times B) \to F A \times F B$ (for all [[objects]] $A,B \mathcal{C}$) are [[isomorphisms]], and we therefore have canonical induced morphism $F[A,B] \to [F A, F B]$ --- the [[adjuncts]] of the composite $F[A,B] \times F A \xrightarrow{\cong} F([A,B] \times A) \to F B$.  $F$ is **cartesian closed** if these maps $F[A,B] \to [F A, F B]$ are also isomorphisms.
 
