@@ -21,7 +21,11 @@ My browser thinks that here is the first occurence of the string _Definition 1_ 
 
 =--
 
+|  |  |
+|---|---|
+| text | code | code |
 
+| | &bar;
 
 
 
