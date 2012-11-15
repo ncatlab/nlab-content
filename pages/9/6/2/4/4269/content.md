@@ -23,7 +23,7 @@ $$
   \,.
 $$
 
-Due to the special nature of $Y_F$, the topos on the left is equivalent to the [[over-topos]] $Sh(X)/F$, and the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
+Due to the special nature of $Y_F$, the topos on the left is equivalent to the [[slice topos]] $Sh(X)/F$, and the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
 
 $$
   \pi_F : Sh(Y_F) \stackrel{\simeq}{\to} Sh(X)/F \to Sh(X)
@@ -44,7 +44,7 @@ If the topos is a locally ringed topos, or moro generally a [[structured (∞,1)
 
 ## Definition
 
-For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], the [[overcategory]] $\mathbf{H}_{/X}$ is also a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[petit topos]] associated to $X \in \mathbf{H}$.
+For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], the [[overcategory]] $\mathbf{H}_{/X}$ is also a topos ($(\infty,1)$-topos, etc), the _[[slice topos]]_ ([[slice (∞,1)-topos]], ...).
 
 The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism|essential]] (in fact, [[locally connected geometric morphism|locally connected]]/ [[locally ∞-connected (∞,1)-topos|locally ∞-connected]]) geometric morphism:
 
@@ -68,7 +68,7 @@ A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ is called a
 
 ### For structured toposes
 
-If the [[(∞,1)-topos]]es in question are [[structured (∞,1)-topos]]es, then this is refined to the following
+If the [[(∞,1)-topos]]es in question are [[structured (∞,1)-toposes]], then this is refined to the following
 
 +-- {: .un_defn}
 ###### Definition
@@ -161,6 +161,10 @@ where $((\infty,1)Topos/\mathbf{H})_{et} \subset (\infty,1)Topos/\mathbf{H}$ is 
 =--
 
 This is [[Higher Topos Theory|HTT, remark 6.3.5.10]].
+
+## Related concepts
+
+* [[slice topos]], [[slice (∞,1)-topos]]
 
 ## References
 
