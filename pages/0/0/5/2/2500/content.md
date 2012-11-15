@@ -293,8 +293,13 @@ General discussion of the [[Kac-Moody groups]] arising in this context is for in
 
 A survey of the [[Chern-Simons gravity]]-style action functionals for supergravity is in
 
-* Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities_ ([arXiv:0502193](http://arxiv.org/abs/hep-th/0502193))
+* [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ ([arXiv:0502193](http://arxiv.org/abs/hep-th/0502193))
 {#Zanelli}
+
+
+### History
+
+* R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
 
 ### Related
