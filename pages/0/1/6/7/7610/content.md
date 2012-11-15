@@ -73,7 +73,7 @@ The functor $Lang$ is an [[equivalence of categories]].
 
 This is discussed at _[[relation between type theory and category theory]]_. So the (dependent) type theory is just an equivalent way of talking about a (locally cartesian closed category).  
 
-For the case of [[(∞,1)-categories]]/[[homotopy theories]] that we are interested in here in there remain some things to be fully worked out, but it is clear that we get an analogous construction
+For the case of [[(∞,1)-categories]]/[[homotopy theories]] that we are interested in here, there remain some things to be fully worked out, but it is clear that we get an analogous construction
 
 $$
   Lang : LocallyCartesianClosed(\infty,1)Categories \to HomotopyTypeTheory
