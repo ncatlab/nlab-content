@@ -1,0 +1,15 @@
+## Idea
+
+**ZFA** is a variant of the [[set theory]] [[ZF]] which allows for objects, called _atoms_, or [[urelements]], which may be members of [[sets]], but which themselves have no members. There is a version ZFCA (analogous to [[ZFC]]) which includes the [[axiom of choice]]. ZFA featured in early independence proofs, notably Fraenkel-Mostowski permutation models, for example showing AC is independent of the rest of the axioms of ZFA.
+
+[[Zermelo]]'s original 1908 axiomatisation of set theory included atoms, but they were soon discarded as a foundational approach as they could be modeled inside of atomless set theory.
+
+## Category-theoretic approach
+
+From a modern, structural [[foundations]] point of view, one can build models of ZFA starting from ZFC by taking a [[topological group]] $G$, considering the [[Boolean topos|Boolean]] [[topos]] of [[sets]] with an [[action]] by an open subgroup $H \le G$ ($H$ is allowed to vary), and functions $f\colon X\to Y$ which are equivariant for an open subgroup $L \le H\cap K$ where $H$ and $K$ act on $X$ and $Y$ respectively. The construction outlined at [[pure set]] can be varied to construct well-founded pure sets using atoms [ [[David Roberts|DR]]: I have to figure out what the atoms are. I believe they are the transitive $G$-sets.]
+
+One such example is the [[Fraenkel model of ZFA]], which gave the first example of the independence of the axiom of choice from a set theory ([[David Roberts|I]] think!). 
+
+[[!redirects ZFU]]
+[[!redirects ZFCA]]
+[[!redirects ZFAC]]
