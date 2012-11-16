@@ -17,6 +17,14 @@ Note that if we identify a cardinal number with the least ordinal having that ca
 
 For definitions by [[transfinite recursion]], one usually specifies the value at $0$, the rule for recursion along the successor map, and a separate rule of recursion for the limiting ordinals (infinite ordinals which are not successors). (For example, the [[von Neumann hierarchy]] of well-founded [[pure set]]s is defined in that way.)  One can (and in [[constructive mathematics]] must) also handle all three cases at once, and the successor function is used there as well.
 
+## Related concepts
+
+* [[zero]]
+
+* [[natural numbers object]]
+
+* [[numeral]]
+
 [[!redirects successors]]
 [[!redirects successor ordinal]]
 [[!redirects successor cardinal]]
