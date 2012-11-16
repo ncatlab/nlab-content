@@ -1,9 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 In [[logic]] and [[type theory]], a **numeral** is a [[term]] of canonical form which denotes a [[natural number]].  Generally, this means it is of the form
 
 $$ s(s(\cdots s(s(0))\cdots )) $$
 
 where $s$ is the [[successor]] operator.  Often, the numeral representing the natural number $n$ --- which is to say, the term with $s$ applied $n$ times to $0$ --- is denoted by $\underline{n}$.
 
-Not every term of type $\mathbb{N}$ is a numeral; consider for instance $\underline{2}+\underline{2}$.  However, good formal systems have the property of [[canonicity]], which in this context means that every term of type $\mathbb{N}$ *computes to*, or is *provably equal to*, a numeral.  In our example, if $+$ is defined by [[recursion]], there is a sequence of [[beta-reduction]] steps leading from $\underline{2}+\underline{2}$ to $\underline{4}$.
+Not every term of type $\mathbb{N}$ is a numeral; consider for instance $\underline{2}+\underline{2}$.  However, good formal systems have the property of [[canonicity]], which in this context means that every term of type $\mathbb{N}$ *computes to*, or is *provably [[equal]] to*, a numeral.  In our example, if $+$ is defined by [[recursion]], there is a sequence of [[beta-reduction]] steps leading from $\underline{2}+\underline{2}$ to $\underline{4}$.
 
 [[!redirects numerals]]
