@@ -1,4 +1,7 @@
-Given an [[object]] $X$ in some [[category]], a family $(f_i\colon U_i \to X)_i$ of [[morphisms]] to $X$ is an __epic [[sink]]__, or a __jointly epic family__ if, given any two morphisms $g, h\colon X \to Y$ such that $f_i ; g = f_i ; h$ for all $i$, it follows that $g = h$.
+[[!redirects epic sink]]
+## Definition
+
+Given an [[object]] $X$ in some [[category]], a family $(f_i\colon U_i \to X)_i$ of [[morphisms]] to $X$ is an __epic [[sink]]__, or a __jointly epic family__ if, given any two morphisms $g, h\colon X \to Y$ such that $ g \circ f_i= h\circ f_i$ for all $i$, it follows that $g = h$.
 
 Dually, a family $(f_i\colon X \to U_i)_i$ of morphisms from $X$ is a __monic source__, or a __jointly monic family__ if, given any two morphisms $g, h\colon Y \to X$ such that $f_i \circ g = f_i \circ h$ for all $i$, it follows that $g = h$.
 
