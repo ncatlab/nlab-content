@@ -30,7 +30,7 @@ Now suppose instead that we have a model $V$ of [[ZF]] set theory (for instance)
 
 Although by analogy, it would seem that a modern perspective should prefer the third approach, most material set theorists still seem to prefer one of the first two.
 
-Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[Fraenkel model of ZFA]].
+Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
 
 ## Comparison with sheaves
 
