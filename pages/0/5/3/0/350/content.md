@@ -183,7 +183,7 @@ Let $E$ be a [[topos]] with Lawvere-Tierney topology $j$, def. \ref{LTTopologyDe
 +-- {: .num_defn #DenseMonos}
 ###### Definition
 
-A subobject $U \in Sub(X)$ is called **dense** if $\overline{U} = U$.
+A subobject $U \in Sub(X)$ is called **dense** if $\overline{U} = X$.
 
 The corresponding [[monomorphism]] $U \hookrightarrow X$ is called a **[[dense monomorphism]]**.
 
