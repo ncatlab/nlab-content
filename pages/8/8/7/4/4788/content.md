@@ -30,7 +30,7 @@ The original definition is indicated in words in sections 1-13 of
 
 This has been extracted and formalized in 
 
-* [[Georges Maltsiniotis]], _Inifini groupoides d'apr&#232; Grothendieck_ ([web](http://www.math.jussieu.fr/~maltsin/textes.html))
+* [[Georges Maltsiniotis]], _Infini groupo&#239;des d'apr&#232;s Grothendieck_ ([web](http://www.math.jussieu.fr/~maltsin/textes.html))
 
 A comprehensive account of a simplified version of the definition and its generalization from $\infty$-groupoids to $\infty$-categories is given in
 
@@ -38,7 +38,7 @@ A comprehensive account of a simplified version of the definition and its genera
 
 The relation to [[Batanin ∞-categories]] is discussed in 
 
-* [[Dimitri Ara]], _Sur les $\infty$-groupoides de Grothendieck_ Thesis, under the supervision of G. Maltsiniotis, (2010) ([pdf](http://www.normalesup.org/~ara/files/these.pdf))
+* [[Dimitri Ara]], _Sur les $\infty$-groupo&#239;des de Grothendieck_ Thesis, under the supervision of G. Maltsiniotis, (2010) ([pdf](http://www.normalesup.org/~ara/files/these.pdf))
 
 
 
