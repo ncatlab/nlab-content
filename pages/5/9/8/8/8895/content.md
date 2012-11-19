@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A notion of [[Segal space]] without specified identities/degeneracies.
+
+## References
+
+* [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
+
+[[!redirects semiSegal space]]
+[[!redirects semi Segal space]]
+
+[[!redirects semi-Segal spaces]]
+[[!redirects semiSegal spaces]]
+[[!redirects semi Segal spaces]]
