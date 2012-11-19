@@ -1,0 +1,20 @@
+
+# The basic Fraenkel model
+* table of contents
+{: toc}
+
+## Idea
+
+The _basic Fraenkel model_ is a model of the [[set theory]] [[ZFA]] that doesn't satisfy the [[axiom of choice]]. It was one of the first examples of a [[permutation model]] of set theory.
+
+The [[second Fraenkel model]] is similar, but uses the [[countable set|countable]] group $(\mathbb{Z}/2\mathbb{Z})^\mathbb{N}$.
+
+
+## Description
+
+
+Fraenkel's description used the language of [[material set theory]], and indeed most set theorists would give the description of the Fraenkel model using this language, but it can be described quite simply from a [[structural set theory|structural]] perspective, and then the original version can be recovered by considering [[pure sets]] (allowing [[urelement|atoms]]).
+
+The model is given by the [[topos]] of [[sets]] with an [[action]] of an [[open subset|open]] [[subgroup]] of the [[group]] $Aut(\mathbb{N})$ for a certain [[topological group|topology]] on this group. A basis for the open subgroups is given by the subgroups which fix a finite subset $I \subset \mathbb{N}$. Arrows in this topos are allowed to be equivariant for an open (possibly proper) subgroup of the groups acting on the domain and codomain.
+
+[[!redirects basic Fraenkel model of ZFA]]
