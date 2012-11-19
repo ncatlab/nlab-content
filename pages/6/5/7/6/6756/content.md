@@ -23,7 +23,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $(X,\omega)$ a [[symplectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if is contraction with the 2-form $\omega$ is exact: there is $\alpha \in C^\infty(X)$ such that
+For $(X,\omega)$ a [[symplectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if its contraction with the [[differential 2-form]] $\omega$ is exact: if there exists $\alpha \in C^\infty(X)$ such that
 
 $$
   \iota_v \omega = d \alpha
