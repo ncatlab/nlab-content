@@ -15,4 +15,9 @@ The following Obituary appeared in the paper in Binghamton, NY, where he had liv
 >Peter Hilton was one of the most influential mathematicians of his generation. He made major contributions to algebraic topology and homological algebra. His influence on these subjects has been profound. In his later years he was also a significant figure in Mathematics Education, especially in Continental Europe. He published hundreds of research articles and many books on mathematics and mathematics education, and he lectured at conferences into his mid-eighties.
 
 
+
+##Video
+
+A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-computer.com/hilton.htm).
+
 category: people
