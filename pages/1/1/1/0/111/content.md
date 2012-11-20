@@ -74,6 +74,8 @@ A __category__ $C$ consists of
 
 People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.  One usually writes $f\colon x \to y$ if $f \in C_1$ to state that $s(f) = x$ and $t(f) = y$.  Finally, people often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f\colon x \to y$.
 
+If the [[identity]]-assigning map and its axiom is omitted, then one speaks of a _[[semicategory]]_.
+
 
 ### With a family of collections of morphisms
 
@@ -215,6 +217,8 @@ Other standard operations on categories include
 * [[0-category]], [[(0,1)-category]]
 
 * **category**
+
+  [[semicategory]]
 
 * [[2-category]]
 
