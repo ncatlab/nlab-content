@@ -19,9 +19,9 @@
 
 ## Introduction 
 
-This page addresses a frequently voiced but easily corrected misconception about [categorial](http://ncatlab.org/nlab/show/foundation+of+mathematics#CFM) approaches to foundations of mathematics, namely that there is a logical circularity in using category theory to give an axiomatic set theory (such as [[ETCS]]), since categories themselves are sets (or collections) with extra structure. 
+This page addresses a frequently voiced but easily corrected misconception about [categorial approaches](foundation+of+mathematics#CFM) to [[foundations of mathematics]], namely that there is a logical circularity in using [[category theory]] to give an axiomatic [[set theory]] (such as [[ETCS]]), since categories themselves are [[sets]] (or collections) with extra [[structure]]. 
 
-The most straightforward response is a formalist one: category theory and various elaborations like [[ETCS]] are first-order theories, just as [[ZFC]] is, and one doesn't need a theory of sets prior to a theory of categories any more than one needs a theory of sets prior to a theory of sets. Indeed, when fully formalized, ETCS involves no mention of sets; it merely involves a suitable [[signature]] and a list of [[axioms]], where the only background needed is first-order logic. All of these remarks are obvious to practicing category theorists, but the misunderstanding above is common enough that working out the details of full formalization and recording them is still a useful exercise, and that is what we carry out here. 
+The most straightforward response is a formalist one: category theory and various elaborations like [[ETCS]] are [[first-order theories]], just as [[ZFC]] is, and one doesn't need a theory of sets prior to a theory of categories any more than one needs a theory of sets prior to a theory of sets. Indeed, when fully formalized, ETCS involves no mention of sets; it merely involves a suitable [[signature in logic|signature]] and a list of [[axioms]], where the only background needed is [[first-order logic]]. All of these remarks are obvious to practicing category theorists, but the misunderstanding above is common enough that working out the details of full formalization and recording them is still a useful exercise, and that is what we carry out here. 
 
 ### On stylistic choices 
 
