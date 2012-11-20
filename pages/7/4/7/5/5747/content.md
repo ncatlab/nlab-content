@@ -9,7 +9,7 @@
 =--
 
 # Semi-simplicial sets
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -21,6 +21,12 @@ A *semi-simplicial set* is like a [[simplicial set]], but without degeneracies.
 Let $\Delta$ denote the [[simplex category]], which we can identify with (a [[skeleton]] of) the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].  Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.
 
 Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].  A **semi-simplicial set** is then a presheaf $X\colon \Delta_+^{op} \to Set$.
+
+## Related concepts
+
+* [[semicategory]]
+
+* [[semi-Segal space]]
 
 ## Historical and terminological remarks
 
@@ -49,6 +55,13 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 and 
 
 * [Delta sets](http://en.wikipedia.org/wiki/Delta_set) in wikipedia.
+
 [[!redirects semi-simplicial sets]]
 [[!redirects semisimplicial set]]
 [[!redirects semisimplicial sets]]
+
+[[!redirects semi-simplicial object]]
+[[!redirects semisimplicial object]]
+[[!redirects semi-simplicial objects]]
+[[!redirects semisimplicial objects]]
+
