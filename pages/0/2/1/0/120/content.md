@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Equality and Equivalence
-+--{: .hide}
++-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
-
-
 
 # Equivalence
 * table of contents
@@ -23,10 +21,10 @@
 
 In general two objects are considered _equivalent_ if they may be replaced by one another in all contexts under consideration, in particular whenever one is not doing anything [[evil]].
 
-The general theory of equivalence is discussed at [[equivalence relation]], but the real question is the correct definition of equivalence in various situations.
+At the propositional level, the general theory of equivalence is discussed at [[equivalence relation]], but that leaves us with the question of the correct definition of equivalence in various situations.  Furthermore, we can work on a higher level and ask what the equivalences are, not just whether things are equivalent.
 
 
-## In higher category theory #
+## In higher category theory
 
 In [[higher category theory]] an **equivalence** often means a morphism which is invertible in a maximally weak sense (that is, up to all higher equivalences).  Two objects are **equivalent** if there is an equivalence between them.  For example:
 
@@ -52,6 +50,7 @@ In the category [[Top]] of topological spaces, notions weaker than isomorphism b
 These can be understood to some extent using higher categories.  For example, topological spaces should be weakly homotopy-equivalent if and only if they have equivalent [[fundamental infinity-groupoid|fundamental infinity-groupoids]].  Similarly, Quillen equivalent model categories give rise to equivalent [[(infinity,1)-category|(infinity,1)-categories]].
 
 See [[equivalence in an (infinity,1)-category]].
+
 
 ## In homotopy type theory
 
@@ -83,6 +82,6 @@ See _[[equivalence in homotopy type theory]]_.
 * [[equivalence of (∞,1)-categories]]
 
 
-
+[[!redirects equivalence]]
 [[!redirects equivalences]]
 [[!redirects equivalent]]
