@@ -20,4 +20,11 @@ The following Obituary appeared in the paper in Binghamton, NY, where he had liv
 
 A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-computer.com/hilton.htm).
 
+
+###References
+
+* [Wikipedia](http://en.wikipedia.org/wiki/Peter_Hilton)
+
+
+
 category: people
