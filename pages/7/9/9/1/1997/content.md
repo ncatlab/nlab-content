@@ -23,6 +23,10 @@ Specifically, a finitely presented commutative [[associative algebra]] $A$ over 
 
 * with $A$ regarded as an $A$-[[bimodule]] in the evident way, it has a [[projective object|projective]] [[resolution]].
 
+## Related concepts
+
+* [[Bondal-Orlov reconstruction theorem]]
+
 
 ## References
 
