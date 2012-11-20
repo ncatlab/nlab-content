@@ -1,5 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A __first-order theory__ is a [[theory]] which allows for quantification over variables, but not over sets of variables. It is a theory (= language + axioms) in a language consisting of  the language of [[first-order logic]], plus additional relation, function and constant symbols.  
+A __first-order theory__ is a [[theory]] which allows for [[quantification]] over [[variables]], but not over sets of variables. It is a theory (= language + [[axioms]]) in a language consisting of  the language of [[first-order logic]], plus additional relation, function and constant symbols.  
+
+## Examples
+
+Formulation of [[set theory]] is a first-order theory, such as
+
+* [[material set theory]]: [[ZFC]]
+
+* [[structural set theory]]: [[fully formal ETCS]]
 
 [[!redirects first-order theories]]
