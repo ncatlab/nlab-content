@@ -18,3 +18,4 @@ set theory
 
 
 [[!redirects pdf books]]
+[[!redirects Slideshow sandbox]]
