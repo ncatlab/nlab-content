@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
 #### 2-Category theory
 +--{: .hide}
 [[!include 2-category theory - contents]]
@@ -19,12 +23,15 @@
 
 ## Definition
 
-A **natural equivalence** is an [[equivalence]] in a [[2-category]] of [[2-functor]]s.
+Often, by a **natural equivalence** is meant specifically an [[equivalence]] in a [[2-category]] of [[2-functors]].
 
-More generally: an [[equivalence in an (∞,1)-category]] in an [[(∞,1)-category of (∞,1)-functors]].
+But more generally it is a [[equivalence]] between any kind of [[functors]] in [[higher category theory]]:
 
-If the functors happen to be just 1-functors, then a natural equivalence  is a [[natural isomorphism]].
+* In 1-[[category theory]] it is a [[natural isomorphism]].
 
+ * In [[(∞,1)-category theory]] a natural equivalence is an [[equivalence in an (∞,1)-category]] in an [[(∞,1)-category of (∞,1)-functors]].
+
+The components of a  natural equivalence  are [[equivalences]] between the [[objects]] in the codomain of the functors. This is what the term "natural equivalence" refers to: its a collection of equivalences between objects which are compatible ("natural") with the [[morphisms]] between these objects, and highe morphisms between those.
 
 ## Related concepts
 
