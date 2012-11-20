@@ -97,6 +97,8 @@ There are many different kinds of "theory" depending on the strength of the "log
 
 * [[equational logic]], 
 
+* [[first-order theory]]
+
 * [[Horn theory]],  
 
 * [[essentially algebraic logic]], 
