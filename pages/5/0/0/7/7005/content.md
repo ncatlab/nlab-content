@@ -214,6 +214,9 @@ The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
+## Related concepts
+
+Univalence is essentially the same as the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See at _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
 
 ## References
 
