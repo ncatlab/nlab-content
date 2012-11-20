@@ -57,9 +57,11 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 
 
 ##References
-*  C. P. Rourke,  and  B. J. Sanderson,  (1971). "&#916;-Sets I: Homotopy Theory". The Quarterly Journal of Mathematics 22: 321&#8211;338
+*  C. P. Rourke,  and  B. J. Sanderson, _&#916;-Sets I: Homotopy Theory_. The Quarterly Journal of Mathematics 22: 321&#8211;338 (1971)
 
-* S. Buoncristiano, C.P. Rourke, and B. J. Sanderson, A geometric approach to Homology Theory, LMS Lect. Notes 18, 1976
+* S. Buoncristiano, C.P. Rourke, and B. J. Sanderson, _A geometric approach to Homology Theory_, LMS Lect. Notes 18, (1976)
+
+* [[Peter Hilton]], _On a generalization of nilpotency to semi-simplicial complexes_ ([pdf](http://plms.oxfordjournals.org/content/s3-10/1/604.full.pdf))
 
 and 
 
@@ -76,3 +78,5 @@ and
 [[!redirects semi-simplicial objects]]
 [[!redirects semisimplicial objects]]
 
+[[!redirects Delta set]]
+[[!redirects Delta sets]]
