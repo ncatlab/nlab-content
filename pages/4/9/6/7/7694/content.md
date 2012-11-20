@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 # Serre functor
 
 * table of contents
@@ -14,7 +25,7 @@ The Serre functor is a powerful tool for working with the [[derived category]] o
 
 In the original paper, the following definition was given.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 Let $\mathcal{A}$ be a $k$-linear triangulated category with finite-dimensional [[Hom]]'s and $k$ algebraically closed.  A **Serre functor** $S : \mathcal{A} \to \mathcal{A}$ is an additive equivalence that commutes with the translation functor, with bi-functorial isomorphisms $\phi_{A,B} : \Hom_\mathcal{A}(A,B) \stackrel{\sim}{\to} \Hom_{\mathcal{A}}(B,S(A))^*$ for any objects $A$ and $B$, such that the composite
   \[ (\phi^{-1}_{S(A),S(B)})^* \circ \phi_{A,B} : \Hom(A,B) \to \Hom(B,S(A))^* \to \Hom(S(A), S(B)) \]
@@ -23,7 +34,7 @@ coincides with the isomorphism induced by $S$.
 
 In fact, the last commutativity condition can be deduced from just the bi-functoriality of $\phi_{A,B}$, and commutativity with the translation functor also follows from a proposition below.  Hence, the following definition is seen in later papers.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 Let $\mathcal{A}$ be a $k$-linear category with finite-dimensional [[Hom]]'s and $k$ an arbitrary field.  A **Serre functor** $S : \mathcal{A} \to \mathcal{A}$ is an additive equivalence with bi-functorial isomorphisms $\phi_{A,B} : \Hom_\mathcal{A}(A,B) \stackrel{\sim}{\to} \Hom_{\mathcal{A}}(B,S(A))^*$ for any objects $A$ and $B$.
 =--
@@ -59,7 +70,7 @@ Any Serre functor in a [[graded category]] is [[graded]].
 Any Serre functor in a [[triangulated category]] is [[exact]] (i.e. [[distinguished triangles]] are mapped to distinguished triangles).
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Any two Serre functors are connected by a canonical graded functorial isomorphism that commutes with the isomorphisms $\phi_{A,B}$ in the definition of the Serre functor.
 =--
@@ -80,3 +91,5 @@ See also:
 
 * Oleksandr Manzyk, _A-infinity-bimodules and Serre A-infinity-functors_, dissertation [pdf](https://kluedo.ub.uni-kl.de/files/1910/dissertation.pdf), [djvu](https://kluedo.ub.uni-kl.de/files/1910/dissertation.djvu);  _Serre $A_\infty$ functors_, talk at Categories in geometry and math. physics, Split 2007, slides, [pdf](http://www.irb.hr/korisnici/zskoda/manzyukslides.pdf), work with [[Volodymyr Lyubashenko]]
 * Volodymyr Mazorchuk, Vanessa Miemietz, _Serre functors for Lie algebras and superalgebras_
+
+[[!redirects Serre functors]]
