@@ -6,11 +6,11 @@
 
 ## Idea
 
-Thomason and Balmer showed that the [[derived category]] of [[coherent sheaves]] on a smooth variety, when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely.  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its derived category of coherent sheaves when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
+Thomason and Balmer showed that the [[derived category]] of [[coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely.  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its derived category of coherent sheaves when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
 
 ## Statement
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 Let $X$ be a smooth projective variety and suppose that its canonical sheaf $\omega_X$ is ample or anti-ample.  If $Y$ is another smooth projective variety such that there is an equivalence $F : D^b(X) \stackrel{\sim}{\to} D^b(Y)$ between the bounded derived categories of coherent sheaves on $X$ and $Y$, then there is an isomorphism $X \simeq Y$.
 =--
 
@@ -24,9 +24,9 @@ For simplicity assume $\omega_X$ is ample; the anti-ample case is analogous.
 
 **Step 1.**  First we characterize the closed points of $X$ and $Y$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
-Let $\mathcal{C}$ be a [[$k$-linear]] [[graded category]].  A **point object** of $\mathcal{C}$ is an object $P$ satisfying
+Let $\mathcal{C}$ be a [[linear category|k-linear]] [[graded category]].  A **point object** of $\mathcal{C}$ is an object $P$ satisfying
 
 * (PO-1)  $S(P) \simeq P[n]$,
 * (PO-2)  $\Hom^i(P, P) = 0$ for $i \lt 0$,
@@ -35,7 +35,7 @@ Let $\mathcal{C}$ be a [[$k$-linear]] [[graded category]].  A **point object** o
 
 It is clear that the [[skyscraper sheaf]] $\mathcal{O}_x = \mathrm{Sky}_x(k(x))$ of the [[residue field]] at any closed point $x \in X$ is a point object of $D^b(X)$, as is any translation $\mathcal{O}_x[r]$.  In fact, when we impose the ampleness condition on $\omega_X$, it turns out that all point objects are of this form.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 If $\omega_X$ is ample, then a complex $\mathcal{F}^\bullet$ in $D^b(X)$ is a point object iff $\mathcal{F}^\bullet \simeq \mathcal{O}_x[r]$ for some closed point $x \in X$, $r \in \mathbb{Z}$.
 =--
@@ -44,7 +44,7 @@ In fact, even though we don't know that $\omega_Y$ is also ample, we get the sam
 
 **Step 2.**  Next we characterize the invertible sheaves on both varieties.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 Let $\mathcal{C}$ be a $k$-linear graded category.  An **invertible object** of $\mathcal{C}$ is an object $L$ satisfying for some $s \in \mathbb{Z}$
 
@@ -52,7 +52,7 @@ Let $\mathcal{C}$ be a $k$-linear graded category.  An **invertible object** of 
 * (IO-2)  $\Hom^i(L, P) = 0$ for $i \ne s$.
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 If all point objects of $D^b(X)$, for a smooth projective variety $X$, are translations of skyscraper sheaves of closed points, then all invertible objects of $D^b(X)$ are translations of invertible sheaves on $X$.
 =--
@@ -76,6 +76,10 @@ and $\bigoplus_k H^0(X, \omega_X^{nk}) \simeq \bigoplus_k H^0(Y, \omega_Y^{nk})$
 For any invertible sheaf $\mathcal{L}$ on $X$, $\alpha \in \Hom(\mathcal{O}_X, \mathcal{L})$, and $x \in X$, let $\alpha_X^* : \Hom(\mathcal{L}, \mathcal{O}_x) \to \Hom(\mathcal{O}_X, \mathcal{O}_x)$ be the induced map that takes $f$ to $f \circ \alpha$, and define the subset $U_\alpha = \{ x \in X : \alpha_x^* \ne 0 \} \subset X$.  Now $\omega_X$ being ample is equivalent to the subcollection $\{ U_\alpha : \alpha \in \Hom(\mathcal{O}_X, \omega_X^m), m \in \mathbb{Z} \}$ forming a basis of the Zariski topology on $X$.  Now the equivalence $F$ maps any $\mathcal{O}_X \stackrel{\alpha}{\to} \mathcal{L} \to \mathcal{O}_x$ to
   \[ \mathcal{O}_Y \stackrel{F(\alpha)}{\to} F(\mathcal{L}) \to \mathcal{O}_{\phi(x)}[s].\]
 $F(\alpha)$ corresponds bijectively to some $\beta \in \Hom(\mathcal{O}_Y, \omega_Y^m)$ and in fact our bijection $f : X \to Y$ becomes a homeomorphism mapping $U_\alpha$ to $V_{F(\alpha)}$.  It follows that $\{ V_\beta : \beta \in \Hom(\mathcal{O}_Y, \omega_Y^m), m \in \mathbb{Z} \}$ forms a basis of the Zariski topology on $Y$, which implies $\omega_Y$ is ample.
+
+## Related concepts
+
+* [[Tannaka duality for geometric stacks]]
 
 ## References
 
