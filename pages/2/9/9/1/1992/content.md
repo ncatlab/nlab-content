@@ -17,7 +17,7 @@ Examples include classical Tannaka theorem and Krein theorem, Doplicher-Roberts 
 
 ## Reconstruction theorems for schemes
 
-These theorems for schemes (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, Bondal--Orlov theorem, reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
+These theorems for schemes (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, [[Bondal-Orlov reconstruction theorem]], reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
 
 There is a large class of __abelian reconstruction theorems__, for example the Gabriel--Popescu theorem. In _topos theory_ the __Giraud theorem__ is also a reconstruction theorem (of a site out of a topos, though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
 
