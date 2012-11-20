@@ -17,7 +17,55 @@
 
 A _semi-Segal space_ is like a [[Segal space]] but without specified identities/degeneracies. It is to [[semicategories]] as Segal spaces are to [[categories]].
 
+## Definition
 
+Let $\mathcal{C} = $ [[sSet]].
+
++-- {: .num_defn}
+###### Definition
+
+A **semi-Segal space** is a [[semi-simplicial object]] in $\mathcal{C}$ such that
+
+1. it is a [[fibrant object]] in the [[Reedy model structure]] on $\mathcal{C}^{\Delta^{op}_+}$;
+
+1. it satisfies the [[Segal conditions]] be [[weak equivalences]].
+
+=--
+
+Equivalently this says that it is a semi-simplicial object which satisfies the Segal conditions by [[homotopy pullbacks]]. This is just as for [[Segal spaces]], see there for details.
+
++-- {: .num_defn #Completeness}
+###### Definition
+
+A **complete semi-Segal space** is a semi-Segal space $X_\bullet$ such that the two morphisms
+
+$$
+  X_1^{inv} \hookrightarrow X_1 \stackrel{\partial_1, \partial_0}{\to} X_0
+$$
+
+are [[weak equivalences]].
+
+=--
+
+This is just as for [[complete Segal spaces]].
+
++-- {: .num_defn #QuasiUnitalness}
+###### Definition
+
+A semi-Segal space is **quasiunital** if (...)
+
+=--
+
+([Harpaz, p. 38](#Harpaz))
+
++-- {: .num_prop}
+###### Proposition
+
+A complete semi-Segal space, def. \ref{Completeness} is quasi-unital, def. \ref{QuasiUnitalness}.
+
+=--
+
+([Harpaz, Cor 4.1.11](#Harpaz)).
 
 ## References
 
@@ -28,6 +76,7 @@ The notion is mentioned in
 More details are spelled out in
 
 * [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
+ {#Harpaz}
 
 [[!redirects semiSegal space]]
 [[!redirects semi Segal space]]
