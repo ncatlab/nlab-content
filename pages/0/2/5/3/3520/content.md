@@ -14,6 +14,8 @@
 * table of contents
 {:toc}
 
+Distinguish from [[Hadamard's formula]] in Lie theory, which is also often called Hadamard lemma. 
+
 ## Statement
 
 +-- {: .num_prop}
