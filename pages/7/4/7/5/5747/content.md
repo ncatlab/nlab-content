@@ -14,13 +14,22 @@
 
 ## Idea
 
-A *semi-simplicial set* is like a [[simplicial set]], but without degeneracies.
+A *semi-simplicial set* is like a [[simplicial set]], but without degeneracy maps: it is a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[sets]] together with [[functions]] called _face maps_ between them which encode that an element in $X_{n+1}$ has $(n+1)$ "faces" (boundary segments) which are elements in $X_{n}$.
+
+The semi-simplicial set version of a [[simplicial complex]] is also called a _[[Delta set]]_.
 
 ## Definition
 
 Let $\Delta$ denote the [[simplex category]], which we can identify with (a [[skeleton]] of) the [[category]] of [[inhabited set|inhabited]] [[finite set|finite]] [[totally ordered sets]].  Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.
 
 Let $\Delta_+$ denote the [[wide subcategory]] of $\Delta$ containing only the [[injective functions]].  A **semi-simplicial set** is then a presheaf $X\colon \Delta_+^{op} \to Set$.
+
+## Properties
+
+### Relation to nerves semi-categories
+
+The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[Segal conditions]]) just as the nerve of a [[category]] is a [[simplicial set]]. 
+
 
 ## Related concepts
 
@@ -54,7 +63,9 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 
 and 
 
-* [Delta sets](http://en.wikipedia.org/wiki/Delta_set) in wikipedia.
+* Wikipedia, _[Delta sets](http://en.wikipedia.org/wiki/Delta_set)_
+
+* MO, _[Semi-simplicial versus simplicial sets (and simplicial categories)](http://mathoverflow.net/questions/75094/semi-simplicial-versus-simplicial-sets-and-simplicial-categories)_ 
 
 [[!redirects semi-simplicial sets]]
 [[!redirects semisimplicial set]]
