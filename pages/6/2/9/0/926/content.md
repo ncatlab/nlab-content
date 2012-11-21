@@ -107,7 +107,7 @@ exhibits a Postnikov tower for $X$.
 
 This is observed for instance in ([DwyerKan](#DwyerKan)). Also see [[coskeleton]] for more details.
 
-#### Identification relative skeleta
+#### Identification of relative skeleta
  {#IdentificationRelativeSkeleta}
 
 The following construction qotients out the relations encoded by the cells that are thrown in in the above construction, such as to make the maps in the Postnikov tower into [[Kan fibration]]s.
@@ -178,7 +178,7 @@ $$
   \,,
 $$
 
-where two $k$-cells are identified if their is a simplicial [[homotopy]] between them that fixes their $(n-1)$-skeleton.
+where two $k$-cells are identified if there is a simplicial [[homotopy]] between them that fixes their $(n-1)$-skeleton.
 
 This is due to [[John Duskin]]. See for instance pages 302-305 of
 
