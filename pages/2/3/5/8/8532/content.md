@@ -83,3 +83,5 @@ There are also some more mundane issues that need dealing with.
 * There are some other strange issues around speed; different ways to tell Mathematica to compute the same thing can give rise to very different calculation times.
 * We're not sure how to test systematically whether everything has been implemented correctly.
 * There is probably some scope to restructure the packages and make them easier to use.
+
+category: software
