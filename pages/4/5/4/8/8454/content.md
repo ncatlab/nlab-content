@@ -15,6 +15,7 @@ A [[logical framework]], the _Edinburgh logical framework_.
 
 * [[Frank Pfenning]], _Logic Programming in the LF Logical Framework_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.40.3910))
 
+category: software
 
 [[!redirects Edinburgh Logical Framework]]
 [[!redirects Edinburgh logical framework]]
