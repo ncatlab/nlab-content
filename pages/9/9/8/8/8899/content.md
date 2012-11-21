@@ -23,7 +23,28 @@ Here is a very incomplete list of software available for mathematics, especially
 
 ## Computer algebra systems
 
+###General 
+
 * [[Mathematica]]
 * [[Sage]]
+
+###Computational Group Theory
+
+* [[GAP]]
+
+###Computational Homological Algebra (CHA)
+
+
+* [CHA](http://hamilton.nuigalway.ie/CHA/)
+* [[HAP]]
+
+###Computational Algebraic Topology
+
+* [Kenzo](http://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/)
+
+
+###Computational Higher-dimensional Discrete Algebra
+
+* [CHDA Homepage](http://www.maths.bangor.ac.uk/chda/intro.html)
 
 category: software
