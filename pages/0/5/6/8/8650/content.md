@@ -16,3 +16,5 @@ _Mathematica_ is a computer algebra software.
 ## References
 
 * Wikipedia, _[Mathematica](Mathematica)_
+
+category: software
