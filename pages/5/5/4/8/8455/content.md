@@ -11,3 +11,4 @@ A [[logical framework]].
 
 * [Twelf homepage](http://twelf.org/wiki/Main_Page)
 
+category: software
