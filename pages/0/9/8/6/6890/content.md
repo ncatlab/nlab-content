@@ -113,5 +113,6 @@ For applications to [[homotopy type theory]] see the references listed there. Es
 * [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#UnivalentFoundations}
 
+category: software
 
 [[!redirects coq]]
