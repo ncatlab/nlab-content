@@ -31,7 +31,7 @@ In fact, an analogous factorization system exists in any [[2-exact 2-category]] 
   
   * [[objects]] are those of $X$;
 
-  * a morphism $[\phi] : x_1 \to x_2$ is an equivalence class of morphisms in $X$ where $[\phi] = [\phi']$ if $f(\phi) = f(\phi')$.
+  * a [[morphism]] $[\phi] : x_1 \to x_2$ is an [[equivalence class]] of morphisms in $X$ where $[\phi] = [\phi']$ if $f(\phi) = f(\phi')$.
 
 ## Related concepts
 
