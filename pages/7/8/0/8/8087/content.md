@@ -6,6 +6,7 @@ __Sage__ is a particular free licence _mathematics_ software. It is interoperabl
 
 
 category: reference
+category: software
 
 [[!redirects sage]]
 [[!redirects Sage]]
