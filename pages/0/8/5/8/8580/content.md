@@ -5004,6 +5004,29 @@ $$
 
 * [[stable Dold-Kan correspondence]]
 
++-- {: .num_defn #DKMap}
+###### Definition
+
+Write 
+
+$$
+  DK 
+  \colon
+  Ch_\bullet(Ab(Smooth0Type))
+  \stackrel{\Xi}{\to}
+  sAb(Smooth0Type)
+  \to
+  Smooth0Type^{\Delta^{op}}
+  \to
+  L_{whe} Smooth0Type^{\Delta^{op}}
+  \simeq
+  Smooth \infty Grpd
+$$
+
+for the functor that sends a [[chain complex]] of [[abelian group|abelian]] [[group objects]] in [[smooth spaces]] first to the [[simplicial abelian group]] in [[smooth spaces]] given by the [[Dold-Kan correspondence]], then [[forgetful functor|forgets]] the abelian group structure and finally regards the resulting [[simplicial object|simplicial]] smooth space as a [[smooth ∞-groupoid]] under [[simplicial localization]].
+
+=--
+
 #### Cohomology
 
 * [[cohomology]]
@@ -6796,6 +6819,61 @@ $$
 
 * [[circle n-bundle with connection]]
 
++-- {: .num_defn }
+###### Definition
+
+Write $U(1) \in Smooth0Type$ for the [[smooth space]] of the [[circle group]]. Write
+
+$$
+  \mathbf{d}log \colon U(1) \to \Omega^1
+$$
+
+for the homomorphism of smooth spaces which over an abstract coordinate system $U \in$ [[CartSp]] is given by the function
+
+$$
+  \mathbf{d} log_u \colon C^\infty(U,U(1)) \to \Omega^1(U)
+$$
+
+which sends a $U(1)$-valued $f \colon U \to U(1)$ -- for which one can always find an $\mathbb{R}$-valued function $\hat f \colon U \to \mathbb{R}$ for whuch $f = \hat f \,mod\, \mathbb{Z}$ -- to the [[differential 1-form]] $\mathbf{d} \hat f$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$, the [[chain complex]] of [[smooth spaces]] (of [[sheaves]] on [[CartSp]])
+
+$$
+  (U(1) \stackrel{\mathbf{d} log}{\to} \Omega^1 \stackrel{\mathbf{d}}{\to} \cdots \stackrel{\mathbf{d}}{\to} \Omega^n)
+$$ 
+
+(regarded as a chain complex of [[abelian groups]] and as sitting in degrees $n$ through 0) is called the (smooth) _[[Deligne complex]]_ in these degrees.
+
+=--
+
++-- {: .num_defn #BnU1connFromDK}
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \mathbf{B}^n U(1)_{conn}
+  =
+  DK(U(1) \stackrel{\mathbf{d} log}{\to} \Omega^1 \stackrel{\mathbf{d}}{\to} \cdots \stackrel{\mathbf{d}}{\to} \Omega^n)
+  \in
+  Smooth\infty Grpd
+$$
+
+for the [[smooth ∞-groupoid]] presented by the [[Deligne complex]] under the [[Dold-Kan correspondence]] map, def. \ref{DKMap}.
+
+=--
+
+For $X \in $ [[Smooth∞Grpd]] we say that 
+
+* a morphism $\nabla \colon X\to \mathbf{B}^n U(1)_{conn}$ modulates a [[circle n-bundle with connection]] on $X$.
+
+We also call $\mathbf{B}^n U(1)_{conn}$ the **universal [[moduli ∞-stack]] of circle $n$-bundles with connection.
+
 ### Semantic Layer
 
 #### Differential cohomology
@@ -6857,6 +6935,24 @@ $$
 
 presented by [[ordinary differential cohomology]]
 
+#### Differential moduli
+ {#DifferentialModuli}
+
+For $n \in \mathbb{N}$ and with $\mathbf{B}^n U(1)_{conn} \in $ [[Smooth∞Grpd]] the universal [[moduli stack]] for [[circle n-bundles with connection]], def. \ref{BnU1connFromDK}, and for $X \in Smooth\infty Grpd$, one may be tempted to regard the [[internal hom]]/[[mapping space]] $[X, \mathbf{B}^n U(1)_{conn}]$ as the [[moduli stack]] of [[circle n-bundles with connection]] on $X$. However, for $U \in $ [[CartSp]] an abstract [[coordinate system]], objects and [[n-morphism|k-morphisms]] in  $[X, \mathbf{B}^n U(1)_{\mathrm{conn}}]$ are circle principal $n$-connections and their $k$-fold [[gauge transformations]] on $U \times X$, and this is not generally what one would want the $U$-plots of the moduli stack of such connections on $X$ to be. Rather, that moduli stack should have
+
+1. as $U$-plots smoothly $U$-parameterized collections $\{\nabla_u\}$ of $n$-connections on $X$;
+
+1. as $k$-morphisms smoothly $U$-parameterized collections $\{\phi_u\}$ of [[gauge transformations]] between them.
+
+The first item is equivalent to: a single $n$-connection on $U \times X$ such that its local connection $n$-forms have no legs along $U$. This is essentially the situation of moduli of differential forms which we have discussed above in _[Smooth moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms))_.
+
+But the second item is different: a gauge transformation of a single $n$-connection $\nabla$ on $U \times X$ needs to respect the [[curvature]] of the connection along $U$, but a family $\{\phi_u\}$ of gauge tranformations between the restrictions $\nabla|_u$ of $\nabla$ to points of the coordinate patch $U$ need not.
+
+In order to capture this correctly, the _concretification_-process, def. \ref{ConcreteObjectsAndConcretification}, that yielded the moduli spaces of differential forms in [above](#SmoothUniversalModuliSpaceOfDifferentialForms) is to be refined to a process that concretifies the higher stack $[X, \mathbf{B}^n U(1)_{conn}]$ degreewise in stages. 
+
+We discuss this first for $n = 1$, hence for moduli stacks of [[circle bundles]] [[connection on a bundle|with connection]].
+
+spring
 
 #### Higher holonomy
  {#Holonomy}
