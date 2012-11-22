@@ -197,7 +197,7 @@ the corresponding morphism to the [[object classifier]]. Then the $\infty$-image
 
 The simplest nontivial case of higher images after the ordinary case of images of functions of sets is images of [[functors]] between [[groupoids]] hence betwee [[1-truncated]] objects $X, Y \in Grpd \hookrightarrow$ [[∞Grpd]].
 
-+-- {: .num_prop }
++-- {: .num_prop #FactorizationOf1FunctorsBetween1Groupoids}
 ###### Proposition
 
 For $f \colon X \to Y$ a [[functor]] between [[groupoids]], its image factorization is
@@ -260,6 +260,21 @@ Notice second that the homotopy fibers of $f$ itself have the same form, only th
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+The factroization $f \colon X \to im_2(f) \to im_1(f) \to Y$ of prop. \ref{FactorizationOf1FunctorsBetween1Groupoids} exhibits a _[[ternary factorization system]]_ in [[Grpd]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This situation can also be considered from the perspective of the formalization of [[stuff, structure, property]]. See there at _[A factorization system](stuff%2C+structure%2C+property#AFactorizationSystem)_.
+
+=--
+
+
 ## Related concepts
 
 * [[homotopy image]]
@@ -271,3 +286,17 @@ Notice second that the homotopy fibers of $f$ itself have the same form, only th
 
 [[!redirects n-image]]
 [[!redirects n-images]]
+
+[[!redirects n-image]]
+[[!redirects n-images]]
+
+
+[[!redirects 0-image]]
+[[!redirects 0-images]]
+[[!redirects 1-image]]
+[[!redirects 1-images]]
+[[!redirects 2-image]]
+[[!redirects 2-images]]
+[[!redirects 3-image]]
+[[!redirects 3-images]]
+
