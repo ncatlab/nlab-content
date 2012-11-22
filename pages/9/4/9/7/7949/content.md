@@ -192,6 +192,74 @@ $$
 
 the corresponding morphism to the [[object classifier]]. Then the $\infty$-image of this is $\mathbf{B}\mathbf{Aut}(V)$, the [[delooping]] of the internal [[automorphism ∞-group]] of $V$.
 
+### Of functors between groupoids
+ {#NImagesOf1FunctorsBetweenGroupoids}
+
+The simplest nontivial case of higher images after the ordinary case of images of functions of sets is images of [[functors]] between [[groupoids]] hence betwee [[1-truncated]] objects $X, Y \in Grpd \hookrightarrow$ [[∞Grpd]].
+
++-- {: .num_prop }
+###### Proposition
+
+For $f \colon X \to Y$ a [[functor]] between [[groupoids]], its image factorization is
+
+$$
+  f \colon X \to im_2(f) \to im_1(f) \to Y 
+  \,,
+$$
+
+where (up to [[equivalence of groupoids]])
+
+* $im_1(f) \to Y$ is the [[full subcategory|full subgroupoid]] of $Y$ on those objects $y$ such that there is an object $x \in X$ with $f(x) \simeq y$;
+
+* $im_2(f)$ is the gorupoid whose objecs are those of $X$ and whose morphisms are equivalence classes of morphisms in $X$ where $\alpha,\beta \in Mor(X)$ are equivalent if they have the same domain and codomain in $X$ and if $f(\alpha) = f(\beta)$
+
+  * $im_2(f)\to im_1(f)$ is the identity on objects and the canonical inclusion on sets of morphisms;
+
+  * $X \to im_2(f)$ is the identity on objects and the defining [[quotient]] map on sets of morphisms.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Evidently $im_1(f) \to Y$ is a [[fibration]] ([[isofibration]]) and so the [[homotopy fiber]] over every point is given by the 1-categorical [[pullback]]
+
+$$
+  \array{
+    F_y &\to& im_1(y)
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\stackrel{y}{\to}& Y
+  }
+  \,.
+$$
+
+If there is no $x \in X$ such that $f(x) \simeq y$ then fiber $F_y$ is [[empty set]]. If there is such $x$ then the fiber is the groupoid with that one object and all morphisms in $X$ on that object which are mapped to the identity morphism, which by construction is only the identity morphism itself, hence the fiber is the point. Hence indeed the homotopy fibers of $im_1(f) \to Y$ are [[(-1)-truncated]] objects and the map from homotopy fiber of $f$ to those of $im_1(f)$ is their (-1)-truncation.
+
+Next, the [[homotopy fibers]] of $im_2(f) \to Y$ over a point $y \in Y$ are the groupoids whose objects are pairs $(x, (f(x) \to y))$ and whose morphisms are pairs
+
+$$
+  \left(
+    \array{
+      x_1 &\stackrel{[\alpha]}{\to}& x_2
+      \\
+      f(x_1) &\stackrel{f(\alpha)}{\to}& f(x_2)
+      \\
+      \downarrow && \downarrow 
+      \\
+      y &=& y
+    }
+  \right)
+  \,.
+$$
+
+Notice first that the above is [[0-truncated]]: an automorphism of $(x,(f(x) \to y))$ is of the form $x \stackrel{[\alpha]}{to} x$ such that $f(\alpha) = id_{f(x)}$ and so there is precisely one such, namely the equivalence class of $id_x$. 
+
+Notice second that the homotopy fibers of $f$ itself have the same form, only that $\alpha \colon x_1 \to x_2$ appears itself, not as its equivalence class. Also if two objects in the homotopy fiber of $f$ are connected by a morphism, then by construction so they are in the homotopy fiber of $im_2(f) \to Y$ and hence the latter is indeed the [[0-truncation]] of the former.
+
+=--
+
 ## Related concepts
 
 * [[homotopy image]]
