@@ -21,6 +21,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The $n$-connected/$n$-truncated factorization system is an [[orthogonal factorization system in an (∞,1)-category]] which is an [[(∞,1)-topos]] $\mathbf{H}$ that generalizes the _relative [[Postnikov systems]]_ of $\mathbf{H} =$ [[∞Grpd]].
+
 ## Definitions
 
 +-- {: .num_prop}
