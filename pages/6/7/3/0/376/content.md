@@ -164,8 +164,67 @@ $$
 This pullback now manifestly computes 
 $\mathcal{C}_{/X}(f^* \langle F \to Y\rangle, \langle E \stackrel{p}{\to} X\rangle)$.
 
-=--
+=-- 
 
++-- {: .num_prop #slicelcc}
+###### Proposition 
+If $C$ is locally cartesian closed (i.e., if every slice $C/X$ is cartesian closed), then every slice $C/X$ is also locally cartesian closed. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The slice of a slice is a slice, i.e., for every $f \colon X \to Y$ there is an equivalence 
+
+$$(C/Y)/(f \colon X \to Y) \simeq C/X$$ 
+
+whence the statement immediately follows. 
+=-- 
+
++-- {: .num_prop #pres} 
+###### Proposition 
+If $C$ is locally cartesian closed (and has a terminal object), then the pullback functor $X \times - \colon C \to C/X$ preserves both finite products and exponentials up to isomorphism. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Clearly $X \times - \colon C \to C/x$, being right adjoint to the forgetful functor $\sum_X \colon C/X \to C$, preserves limits, hence it preserves finite products in particular. 
+
+Let $\phi \colon A \to X$ be any morphism. From the pullback diagram 
+
+$$\array{
+A \times Z & \stackrel{\phi \times 1}{\to} & X \times Z \\
+ _\mathllap{\pi_A} \downarrow & & \downarrow _\mathrlap{\pi_X} \\
+A & \underset{\phi}{\to} & X
+}$$ 
+
+we conclude $A \times_X (X \times Z) \cong A \times Z$, seen as an object over $X$ via $\phi \circ \pi_A \colon A \times Z \to X$. Thus arrows in the slice $C/X$ of the form 
+
+$$A \times_X (X \times Z) \to X \times Y$$ 
+
+are in natural bijection with arrows in $C$ of the form 
+
+$$A \times Z \stackrel{\langle \phi \circ \pi_A, g\rangle}{\to} X \times Y$$ 
+
+which in turn are in natural bijection with arrows in the slice $C/X$ of the form 
+
+$$A \stackrel{\langle \phi, \tilde{g} \rangle}{\to} X \times Y^Z$$ 
+
+(where $\tilde{g} \colon A \to Y^Z$ is obtained by [[currying]] $g \colon A \times Z \to Y$ in $C$). This proves that $X \times - \colon C \to C/x$ preserves exponentials. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+For any $f \colon X \to Y$ in $C$, the base change $f^\ast \colon C/Y \to C/X$ preserves exponentials. In other words, the dependent sum functor $\sum_f$ and the dependent product functor $\prod_f$ satisfy [[Frobenius reciprocity]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+This is by combining proposition \ref{slicelcc} and proposition \ref{pres}, and recalling that the pullback functor 
+
+$$C/Y \to (C/Y)/(f \colon X \to Y) \simeq C/X$$ 
+
+is identified with the pullback functor $f^\ast \colon C/Y \to C/X$. 
+=-- 
 
 This state of affairs may be summarized in terms of the notion of _[[hyperdoctrine]]_:
 
@@ -177,7 +236,7 @@ If $C$ is a category with [[finite limits]], then it is locally cartesian closed
 
 =--
 
-A proof of the statement in this form is for instance in ([Freyd](#Freyd)).
+For a proof of the statement in this form, see for instance ([Freyd](#Freyd)).
 
 #### In type theory
  {#RelationCartesianClosureBaseChangeInTypeTheory}
