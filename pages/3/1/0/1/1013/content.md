@@ -17,14 +17,16 @@
 
 [[category theory|Category theory]] frequently allows to give precise and useful formalized meanings to "everyday" terms, at least terms used everyday by practicing mathematicians. 
 
-It was indeed introduced originally in order to formalize the use of the notion "natural" in mathematics. Another frequently recurring pair of terms in math are "extra structure" and "extra properties", to which we add the more general concept of "extra stuff". In discussion among Jim Dolan, John Baez and Toby Bartels, the following useful formalization of these concepts in category theoretic terms was established.
+It was indeed introduced originally in order to formalize the use of the notion "natural" in mathematics. Another frequently recurring pair of terms in math are "extra structure" and "extra properties", to which we add the more general concept of "extra stuff". In discussion among Jim Dolan, John Baez and Toby Bartels, the following useful formalization of these concepts in category theoretic terms was established. 
 
-This is needed to understand the generalisation from [[structure type]] to [[stuff type]].
+This is a generalization of parts of traditional [[Postnikov tower]]/[[(n-connected, n-truncated) factorization system]] theory from [[groupoids]] to general [[categories]].
+
+See also at _[[structure type]]_ and _[[stuff type]]_.
 
 
 ## Definitions
 
-To begin with, let $C$ and $D$ be [[groupoid]]s, and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then
+To begin with, let $C$ and $D$ be [[groupoids]], and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then
 * $F$ **forgets nothing** if it is an [[equivalence of categories]];
 * $F$ **forgets only properties** if $F$ is [[full and faithful functor|fully faithful]];
 * $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
@@ -94,10 +96,11 @@ Note that property-like structure is known in traditional [[logic]] as __categor
 
 
 ## A factorisation system
+ {#AFactorizationSystem}
 
 Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a [[ternary factorisation system]], in which every functor is factored into parts which forget 'purely' stuff, structure, and properties.
 
-Specifically, given a functor $F: C \to D$, let the __$1$-[[image]]__ $1 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __$2$-image__ $2 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2 im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __$3$-image__ of $F$ and $D$ the __$0$-image__.
+Specifically, given a functor $F: C \to D$, let the __[[1-image]]__ $1 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __[[2-image]]__ $2 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2 im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __[[3-image]]__ of $F$ and $D$ the __[[0-image]]__.
 
 The situation looks like this:
 
