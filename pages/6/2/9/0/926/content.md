@@ -119,13 +119,22 @@ $$
 
 that factors $f : X \to Y$ such that for all $n \in \mathbb{N}$
 
-1. $X \to im_n(f)$ induces an [[isomorphism]] on [[homotopy groups]] in degree $\lt n-1$
+1. $X \to im_n(f)$ 
 
-1. $im_n(f) \to Y$ induces an [[isomorphism]] on [[homotopy groups]] in degree $\geq n$;
+   1. induces an [[epimorphism]] on connected components;
 
-1. $im_n(f) \to Y$ induces a [[monomorphism]] on [[homotopy groups]] in degree $n$.
+   1. induces an [[isomorphism]] on [[homotopy groups]] in degree $\leq n-1$
+
+1. $im_n(f) \to Y$ 
+
+   1. induces a [[monomorphism]] on [[homotopy groups]] in degree $n-1$;
+
+   1. induces an [[isomorphism]] on [[homotopy groups]] in degree $\geq n$.
+
 
 =--
+
+
 
 This appears for instance as ([Goerss-Jardine, def. VI 2.9](#GoerssJardine)).
 
