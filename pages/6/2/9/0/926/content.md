@@ -403,7 +403,7 @@ Orginal references include
 
 Probably the earliest treatment of Postnikov systems for simplicial sets is in
 
-* [[Jphn Moore|J. C. Moore]], _Semisimplicial complexes and Postnikov systems_, Symposium Internacional
+* [[John Moore|J. C. Moore]], _Semisimplicial complexes and Postnikov systems_, Symposium Internacional
 de Topologia Algebraica, Mexico City, 1958, pp. 232-247,
 
 and as a result, in that context, they are sometimes referred to as **Moore-Postnikov systems**
