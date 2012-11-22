@@ -2356,6 +2356,7 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 * [[monad (in computer science)]]
 
 ##### Sharp modality and Codiscrete types
+ {#SharpModalityAndCodiscreteTypes}
 
 +-- {: .num_defn #SharpModalityOfLocalTopos}
 ###### Definition
@@ -2950,7 +2951,8 @@ $$
 
 In this sense the smooth moduli space of differential $n$-forms is _maximally non-concrete_.
 
-#### Smooth space of differential forms on a smooth space
+#### Smooth moduli space of differential forms on a smooth space
+ {#SmoothModuliSpaceOfDifferentialForms}
 
 We discuss the smooth space of differential forms _on a fixed smooth space_ $X$. 
 
@@ -5356,7 +5358,7 @@ The morphism $\tilde P \times G \to \tilde P$ exhibits the principal $G$-[[actio
 
 In summary we find
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 For $\{U_i \to X\}$ a [[good open cover]], there is an [[equivalence of categories]]
@@ -6528,7 +6530,7 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
@@ -6536,7 +6538,7 @@ The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smoot
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
@@ -6607,7 +6609,7 @@ and such that $U$-families of smooth paths induce smooth maps $U \to G$ of eleme
 
 There is a classical construction that yields such an assignment: the [[parallel transport]] of a [[Lie-algebra valued 1-form]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a degree-1 [[differential form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then its parallel transport is the smooth functor
@@ -6633,7 +6635,7 @@ for the boundary condition $f(0) = e$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Theorem 
 
 This construction $A \mapsto tra_A$ induces an [[equivalence of categories]]
@@ -6655,7 +6657,7 @@ where on the left we have the [[hom-groupoid]] of [[groupoid-valued presheaves]]
 
 This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid.
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie groupoid
@@ -6668,7 +6670,7 @@ whose $U$-parameterized smooth families of groupoids form the [[groupoid of Lie-
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This equivalence in particular subsumes the classical facts that parallel transport $\gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)$ 
@@ -6679,7 +6681,7 @@ This equivalence in particular subsumes the classical facts that parallel transp
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
@@ -6687,7 +6689,7 @@ There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes
 =--
 
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Defintion
 
 Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift $\nabla$ of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
@@ -6705,7 +6707,7 @@ $$
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 This is equivalent to the [[connection on a bundle|traditional definitions]].
@@ -6725,7 +6727,7 @@ such that
 * on each $U_i \cap U_j \cap U_k$ we have $g_{i j} \cdot g_{j k} = g_{i k}$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 Let $[I,X]_{si}^{th} \to [I,X]^h$ the projection onto the full quotient by smooth [[homotopy]] classes of paths.
@@ -6735,7 +6737,7 @@ Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth group
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The above restricts to a natural equivalence
@@ -6874,6 +6876,46 @@ For $X \in $ [[Smooth∞Grpd]] we say that
 
 We also call $\mathbf{B}^n U(1)_{conn}$ the **universal [[moduli ∞-stack]] of circle $n$-bundles with connection.
 
++-- {: .num_defn #UBnU1FromDK}
+###### Definition
+
+Write
+
+$$
+  \array{
+    \mathbf{B}^n U(1)_{conn} & \coloneqq & DK( & U(1) &\stackrel{\mathbf{d} log}{\to}& \Omega^1 &\stackrel{\mathbf{d}}{\to}& \cdots & \stackrel{\mathbf{d}}{\to} & \Omega^n & )
+   \\
+   \downarrow^{\mathrlap{U_{\mathbf{B}^n U(1)_{conn}}}}
+   & \coloneqq& DK( & \downarrow^{\mathrlap{id}} && \downarrow && && \downarrow )
+   \\
+    \mathbf{B}^n U(1) & \coloneqq & DK( & U(1) &\stackrel{}{\to}& 0 &\stackrel{}{\to}& \cdots & \stackrel{\mathbf{d}}{\to} & 0 & )    
+  }
+$$
+
+for the canonical forgetful morphism from moduli of $n$-connections to those of the underlying principal bundles.
+
+=--
+
++-- {: .num_defn #UBnU1connk}
+###### Definition
+
+More generally, we may consider the intermediate stages
+
+$$
+  \array{
+    \mathbf{B}^n U(1)_{conn} & \coloneqq & DK( & U(1) &\stackrel{\mathbf{d} log}{\to}& \Omega^1 &\stackrel{\mathbf{d}}{\to}& \cdots & \stackrel{\mathbf{d}}{\to} & \Omega^k & \stackrel{\mathbf{d}}{\to} & \Omega^{k+1} &\to& \cdots &\stackrel{\mathbf{d}}{\to} & \Omega^n)
+   \\
+   \downarrow^{}
+   & \coloneqq& DK( & \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} && && \downarrow^{\mathrlap{id}} & & \downarrow && \cdots & & \downarrow)
+   \\
+    \mathbf{B}^n U(1)_{conn^k} & \coloneqq & DK( & U(1) &\stackrel{\mathbf{d}}{\to}& \Omega^1 &\stackrel{\mathbf{d}}{\to}& \cdots & \stackrel{\mathbf{d}}{\to} & \Omega^k & \to & 0 &\to& \cdots &\to & 0 )    
+  }
+$$
+
+
+=--
+
+
 ### Semantic Layer
 
 #### Differential cohomology
@@ -6938,7 +6980,9 @@ presented by [[ordinary differential cohomology]]
 #### Differential moduli
  {#DifferentialModuli}
 
-For $n \in \mathbb{N}$ and with $\mathbf{B}^n U(1)_{conn} \in $ [[Smooth∞Grpd]] the universal [[moduli stack]] for [[circle n-bundles with connection]], def. \ref{BnU1connFromDK}, and for $X \in Smooth\infty Grpd$, one may be tempted to regard the [[internal hom]]/[[mapping space]] $[X, \mathbf{B}^n U(1)_{conn}]$ as the [[moduli stack]] of [[circle n-bundles with connection]] on $X$. However, for $U \in $ [[CartSp]] an abstract [[coordinate system]], objects and [[n-morphism|k-morphisms]] in  $[X, \mathbf{B}^n U(1)_{\mathrm{conn}}]$ are circle principal $n$-connections and their $k$-fold [[gauge transformations]] on $U \times X$, and this is not generally what one would want the $U$-plots of the moduli stack of such connections on $X$ to be. Rather, that moduli stack should have
+We discuss the _moduli stacks_ of higher principal connections, over a fixed $X \in Smooth\infty Grpd$.
+
+For $n \in \mathbb{N}$ and with $\mathbf{B}^n U(1)_{conn} \in $ [[Smooth∞Grpd]] the universal [[moduli stack]] for [[circle n-bundles with connection]], def. \ref{BnU1connFromDK}, and for $X \in Smooth\infty Grpd$, one may be tempted to regard the [[internal hom]]/[[mapping space]] $[X, \mathbf{B}^n U(1)_{conn}]$ as the [[moduli stack]] of [[circle n-bundles with connection]] on $X$. However, for $U \in $ [[CartSp]] an abstract [[coordinate system]], $U$-plots and their [[n-morphism|k-morphisms]] in  $[X, \mathbf{B}^n U(1)_{\mathrm{conn}}]$ are circle principal $n$-connections and their $k$-fold [[gauge transformations]] on $U \times X$, and this is not generally what one would want the $U$-plots of the moduli stack of such connections on $X$ to be. Rather, that moduli stack should have
 
 1. as $U$-plots smoothly $U$-parameterized collections $\{\nabla_u\}$ of $n$-connections on $X$;
 
@@ -6950,9 +6994,195 @@ But the second item is different: a gauge transformation of a single $n$-connect
 
 In order to capture this correctly, the _concretification_-process, def. \ref{ConcreteObjectsAndConcretification}, that yielded the moduli spaces of differential forms in [above](#SmoothUniversalModuliSpaceOfDifferentialForms) is to be refined to a process that concretifies the higher stack $[X, \mathbf{B}^n U(1)_{conn}]$ degreewise in stages. 
 
+1. [For circle-principal 1-connections](#DifferentialModuliCircle1Bundles)
+
+1. [For circle-principal 2-connections](#DifferentialModuliCircle2Bundles)
+
+##### For circle-principal 1-connections
+ {#DifferentialModuliCircle1Bundles}
+
 We discuss this first for $n = 1$, hence for moduli stacks of [[circle bundles]] [[connection on a bundle|with connection]].
 
-spring
++-- {: .num_defn }
+###### Definition
+
+For $X \in Smooth1Typpe \hookrightarrow$ [[Smooth∞Grpd]] a [[smooth groupoids]], we write 
+
+$$
+  X \to \sharp_2 X \to \sharp_1 X \to \sharp X 
+$$
+
+for the [[n-image]] factorization of the canonical morphism $X \to \sharp X$ to the sharp modality, def. \ref{SharpModalityOfLocalTopos}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+If $X \in Smooth0Type$ is just a smooth space then $\sharp_2 X \simeq X$ and $\sharp_1 X = Conc X$ is the concretification of $X$, def. \ref{ConcreteObjectsAndConcretification}.
+
+=--
+
+One might call $\sharp_1 X$ the "1-concretification" and $\sharp_2 X$ the "2-concretification" of $X$. But generally what one might actually want to call a "concretification" of $X$ involves an interplay of both, as we will see now.
+
++-- {: .num_defn #U1ConnXByFiberProductOfSharpn}
+###### Definition
+
+For $X \in $ [[Smooth∞Grpd]], write 
+
+$$
+  U(1)\mathbf{Conn}(X) 
+  \coloneqq
+  \sharp_1[X, \mathbf{B}U(1)_{conn}]
+  \underset{\sharp_1 [X,\mathbf{B}U(1)]}{\times}
+  \sharp_2 [X, \mathbf{B}U(1)]
+$$
+
+for the [[smooth groupoid]] which is the [[homotopy pullback]] in 
+
+$$
+  \array{
+    U(1)\mathbf{Conn}(X) &\to& \sharp_2 [X, \mathbf{B}U(1)]
+    \\
+    \downarrow && \downarrow
+    \\
+    \sharp_1[X, \mathbf{B}U(1)_{conn}]
+    &\stackrel{\sharp_1 [X,U_{\mathbf{B}U(1)_{conn}}] }{\to}&
+    \sharp_1 [X,\mathbf{B}U(1)]
+  }
+  \,.
+$$
+
+Here the bottom morphism is the $\sharp_1$-image of the forgetful morphism $U_{\mathbf{B}U(1)_{conn}} \colon \mathbf{B}U(1)_{conn} \to \mathbf{B}U(1)$ from def. \ref{UBnU1FromDK}; and the right morphism is the canonical projection from the [[2-image]] to the [[1-image]], as discussed there.
+
+=--
+
++-- {: .num_prop #U1ConnXIsIndeedDifferentialModuli}
+###### Proposition
+
+The smooth groupoid $U(1)\mathbf{Conn}(X)$ of def. \ref{U1ConnXByFiberProductOfSharpn} is indeed the smooth moduli object/[[moduli stack]] of [[circle n-bundle with connection|circle-principal connections]] on $X$; in that its $U$-plots of  are smoothly $U$-parameterized collections of smooth circle-principal connections on $X$ and its morphisms of $U$-plots are smoothly $U$-parameterized collections of smooth gauge transformation between these, on $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[n-image]] and using arguments as for the concretification of moduli of differential forms above, we have:
+
+* $\sharp_1 [X, \mathbf{B}U(1)_{conn}]$ has as $U$-plots those connections $\nabla$ on $U \times X$ whose connection 1-forms have no leg along $U$, hence smooth $U$-parameterized families $\{\nabla_u\}$ of connections on $X$, and has as morphisms $\Gamma(U)$-parameterized (hence non-smooth) collections $\{\phi_u\}$ of gauge transformations of connections on $X$;
+
+* $\sharp_1 [X, \mathbf{B}U(1)]$ looks similarly, just without the connection information;
+
+* $\sharp_1 [X, U_{\mathbf{B}U(1)_{conn}}]$ simply forgets the connection data on the collections of bundles-with-connection; the point to notice is that oveach each chart $U$ it is a [[fibration]]([[isofibration]]): given a $\Gamma(U)$-parameterized collection of gauge transformations out of a smoothly $U$-parameterized collection of bundles and then a smooth choice of smooth connections on these bundles, the $\Gamma(U)$ collection of gauge transformations of course also acts on these connections;
+
+* $\sharp_2 [X, \mathbf{B} U(1)] \simeq [X, \mathbf{B} U()1]$ (because if two gauge transformations of bundles on $U \times X$ coindide on each point of $U$ as gauge tranformations on $X$, then they were already equal).
+
+From the third item it follows, by the discussion at [[homotopy pullback]], that we may compute equivalently simply the pullback in the 1-category of groupoid-valued presheaves on [[CartSp]]. This means that a $U$-plot of $U(1)\mathbf{Conn}(X)$ is a smoothly $U$-parameterized collection $\{\nabla_u\}$ of connections on $X$, and that a morphism between such as a $\Gamma(U)$-parameterized collection of gauge transformations $\{\phi_u\}$ of connections, such that their underlying collection of gauge transformations of bundles is a smoothly $U$-parameterized family. But gauge transformations of 1-connections are entirely determined by the underlying gauge transformation of the underlying bundle, and so this just means that also the morphism of $U$-plots of $U(1)\mathbf{Conn}(X)$ are smoothly $U$-paramezerized collections of gauge transformations. 
+
+
+=--
+
+##### For circle-principal 2-connections
+ {#DifferentialModuliCircle2Bundles}
+
+We now disucss moduli of [[circle n-bundle with connection|circle 2-bundles with connection]] over a given base $X$.
+
+Recall that by def. \ref{UBnU1connk} we write
+
+$$
+  \mathbf{B}^2U(1)_{conn^1} \coloneqq DK(U(1) \stackrel{\mathbf{d}}{\to} \Omega^1 \to 0)
+  \,.
+$$
+
+
++-- {: .num_defn #BU1ConnXByFiberProductOfSharpn}
+###### Definition
+
+For $X \in Smooth \infty Grpd$ write
+
+$$
+  (\mathbf{B}U(1))\mathbf{Conn}(X)
+  \coloneqq
+  \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
+  \underset{\sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]}{\times}
+  \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
+  \underset{\sharp_2 [X, \mathbf{B}^2 U(1)]}{\times}
+  \sharp_3 [X, \mathbf{B}^2 U(1)]
+$$
+
+for the [[homotopy limit]] in the [[diagram]]
+
+$$
+  \array{
+    (\mathbf{B}U(1))\mathbf{Conn}(X) &\to& &\to& 
+    \sharp_3 [X, \mathbf{B}^2 U(1)]
+    \\
+    \downarrow && && \downarrow
+    \\
+    && \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
+   &\to& 
+    \sharp_2 [X, \mathbf{B}^2 U(1)]
+    \\
+    \downarrow && \downarrow
+    \\
+    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
+    &\stackrel{}{\to}&
+    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]
+  }
+  \,.
+$$
+
+Here the horizontal morphisms are those induced under the [[n-image]] by those of def. \ref{UBnU1connk}  and where the vertical morphisms are the [[n-image]]-projections, as discussed there.
+
+We call this the _moduli 2-stack of circle-principal 2-connections_ on $X$. 
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The smooth 2-groupoid $(\mathbf{B}U(1))\mathbf{Conn}(X)$ of 
+def. \ref{BU1ConnXByFiberProductOfSharpn} is indeed the smooth moduli object of [[circle n-bundle with connection|circle-principal 2-connections]] on $X$; in that its $U$-plots of  are smoothly $U$-parameterized collections of smooth circle-principal 2-connections on $X$ and its morphisms of $U$-plots are smoothly $U$-parameterized collections of smooth gauge transformation between these, on $X$, and
+similarly for its 2-morphisms.
+
+=--
+
++-- {: .proof}
+###### Proof (sketch)
+
+By a variant of the [[pasting law]] one sees that the defining 
+[[homotopy limit]] may be computed as the pasting of [[homotopy pullbacks]]
+
+$$
+  \array{
+    (\mathbf{B}U(1))\mathbf{Conn}(X) 
+    &\to& 
+    A
+    &\to& 
+    \sharp_3 [X, \mathbf{B}^2 U(1)]
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    B &\to & \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
+   &\to& 
+    \sharp_2 [X, \mathbf{B}^2 U(1)]
+    \\
+    \downarrow && \downarrow
+    \\
+    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
+    &\stackrel{}{\to}&
+    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]
+  }
+  \,.
+$$
+
+For each of these smaller homotopy-pullback squares the reasoning is directly analogous to that in the proof of prop. \ref{U1ConnXIsIndeedDifferentialModuli}:
+
+Starting in the bottom left, $\sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]$ has over $U \in CartSp$ smoothly $U$-parameterized collections of 2-connections on $X$ as objects, but discretely $\Gamma(U)$-parameterized collections of morphisms and 2-morphisms between them. The morphism to the right forgets just the local differential 2-form part of a 2-connection (keeping the 1-form part). This has the effect that where in $\sharp_2 [X,\mathbf{B}^2 U(1)_{conn^1}]$ the 1-morphisms over $U$ are gauge transformations of such truncated 2-connections over $U \times X$, these are now not forced to strictly fix the curvature along $U$, hence these are smoothly $U$-parameterized collections of gauge transformation on $X$ (between truncated 2-connections). So the pullback object $B$ combines these two aspects and hence has as objects and as 1-morphisms now smoothly $U$-parameterized collections of connections and gauge transformations on $X$, respectively, and only the 2-morphisms of $B$ keep beeing discretely $\Gamma(U)$-parameterized collections of 2-gauge transformations.
+
+Similarly then, $A$ is already the correct smooth moduli 2-stack, but of truncated connections, and so finally the fiber product of $A$ with $B$ forces the discrete families of 2-morphisms of untruncated gauge transformations to have underlying smooth families of 2-morphisms of truncated gauge transformations. But since these uniquely fix the untruncated ones, this makes $(\mathbf{B}U(1))\mathbf{Conn}(X)$ have the correct smooth collections of structures in each degree.
+
+=--
 
 #### Higher holonomy
  {#Holonomy}
