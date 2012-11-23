@@ -1,0 +1,36 @@
+
+
+## Definition
+
+For $n \in \mathbb{N}$
+a [[morphism]] $f \colon X \to Y$ in an [[(infinity,1)-category]] is an **$n$-monomorphism** equivalently if 
+
+* in its [[n-image]] factorization
+
+  $$
+    f \colon X \to im_n(f) \to Y
+  $$
+
+  the first morphism is an [[equivalence in an (infinity,1)-category]]
+
+* it is an [[n-connected|(n-2)-truncated morphism]];
+
+Similarly a [[function]] $f \colon X \to Y$ in [[homotopy type theory]] is an $n$-monomorphism if its $n$-image factorization is via an [[equivalence in homotopy type theory]].
+
+The dual concept is that of _[[n-epimorphism]]_.
+
+## Examples
+
+* 0-monomorphism are precisely the equivalences. 
+
+* Every morphism is an $\infty$-monomorphism.
+
+[[!redirects n-monomorphisms]]
+
+[[!redirects 0-monomorphism]]
+[[!redirects 0-monomorphisms]]
+[[!redirects 1-monomorphism]]
+[[!redirects 1-monomorphisms]]
+[[!redirects 2-monomorphism]]
+[[!redirects 2-monomorphisms]]
+
