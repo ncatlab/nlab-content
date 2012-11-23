@@ -71,6 +71,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 ## Related concepts
 
+* [[model structure for homotopy types]]
+
 [[!include homotopy n-types - table]]
 
 [[!include notions of type]]
