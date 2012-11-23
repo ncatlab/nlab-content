@@ -95,9 +95,13 @@
 
 ### for $\infty$-groupoids
 
+[[model structure for ∞-groupoids|for ∞-groupoids]]
+
 * [[model structure on topological spaces|on topological spaces]]
 
   * [[Strom  model structure]]
+
+* [[Thomason model structure]]
 
 * [[model structure on presheaves over a test category]]
 
@@ -117,11 +121,19 @@
 
 * [[model structure on cosimplicial simplicial sets]]
 
+### for $n$-groupoids
+
+* [[model structure for n-groupoids|for n-groupoids]]/[[model structure for n-groupoids|for n-types]]
+
+* [[canonical model structure on groupoids|for 1-groupoids]]
+
 ### for $\infty$-groups
 
 * [[model structure on simplicial groups]]
 
 * [[model structure on reduced simplicial sets]]
+
+
 
 ### for $\infty$-algebras
 
