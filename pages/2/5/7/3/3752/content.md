@@ -95,5 +95,11 @@ Semicategories and semigroups are mentioned for instance in section 2 in
 
 [[!redirects semicategories]]
 
+[[!redirects semi-category]]
+[[!redirects semi-categories]]
+
+
 [[!redirects category without units]]
 [[!redirects categories without units]]
+
+[[!redirects semi-category]]
