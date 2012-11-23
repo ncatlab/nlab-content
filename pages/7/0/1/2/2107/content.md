@@ -134,6 +134,10 @@ It is of course natural to consider also dg-algebras over a dg-version of the op
 
 * [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
 
+A generalization of integration to conjectural Leibniz groups has been proposed. A local version via [[rack]]s has been proposed in
+
+* Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_,[arXiv:1202.2269](http://arxiv.org/abs/1202.2269)
+
 [[!redirects Leibniz algebras]]
 [[!redirects Loday algebra]]
 [[!redirects Leibniz rule]]
