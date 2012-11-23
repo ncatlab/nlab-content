@@ -213,6 +213,17 @@ Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular se
 
 * Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targest of $(n+1)$-cells.
 
+* [[simplicial object]]
+
+  * [[simplicial set]]
+
+  * [[simplicial object in an (∞,1)-category]]
+
+* [[semi-simplicial object]]
+
+  * [[semisimplicial set]]
+
+
 
 ## References
 
