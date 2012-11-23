@@ -176,6 +176,18 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 * [[dependent sum]], [[existential quantifier]]
 
+## References
+
+The observation that substitution forms an [[adjoint pair]]/[[adjoint triple]] with [[quantifiers]] is due to
+
+* [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+and further developed in 
+
+* [[Bill Lawvere]], _Equality in hyperdoctrines and
+comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+
+
 [[!redirects substitution]]
 [[!redirects substitutions]]
 [[!redirects variable substitution]]
