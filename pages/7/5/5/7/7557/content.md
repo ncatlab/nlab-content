@@ -41,7 +41,6 @@ Discussion of canonicity in [[homotopy type theory]] with [[univalence]] is disc
 
 * [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
 
-Similar discussion for [[2-type theory]] is in 
 
 * [[Dan Licata]], _Canonicity for 2-Dimensional Type theory_  (2011) ([web](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/))
 
