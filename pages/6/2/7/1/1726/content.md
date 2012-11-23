@@ -57,6 +57,8 @@ are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Seg
 
 * [[higher Segal space]]
 
+* [[semi-Segal space]]
+
 ## References
 
 The definition originates in the thesis
