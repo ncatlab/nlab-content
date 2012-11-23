@@ -17,6 +17,7 @@
 
 A semigroup is like a [[monoid]] where there might not be an [[identity element]].  
 
+The term "semigroup" is standard, but _semi-monoid_ would be more sytematic.
 
 ## Definition
 
@@ -95,6 +96,10 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[inverse semigroups]]
 
+* [[semiring]]
+
+* [[semi-category]], [[semi-simplicial set]], [[semi-Segal space]]
+
 
 ## References
 
@@ -107,3 +112,11 @@ Semicategories and semigroups are mentioned for instance in section 2 in
 [[!redirects semigroups]]
 [[!redirects semigroup object]]
 [[!redirects semigroup objects]]
+
+[[!redirects semi-group]]
+[[!redirects semi-groups]]
+[[!redirects semi-monoid]]
+[[!redirects semi-monoids]]
+[[!redirects semimonoid]]
+[[!redirects semimonoids]]
+
