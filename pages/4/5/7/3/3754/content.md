@@ -1,7 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 # Semifunctors
 * table of contents
 {: toc}
+
+## Idea
+
+A _semifunctor_ is a [[homomorphism]] between [[semicategories]], like a [[functor]] is a homomorphims between [[categories]].
 
 ## Definition
 
@@ -16,3 +32,6 @@ The embedding of a category into another category where $F$ maps $id_X$ to a non
 
 [[!redirects semifunctor]]
 [[!redirects semifunctors]]
+
+[[!redirects semi-functor]]
+[[!redirects semi-functors]]
