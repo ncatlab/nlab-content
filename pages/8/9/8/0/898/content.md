@@ -72,6 +72,8 @@ If $\mathcal{J}$ is the class consisting of the [[terminal category]] and the [[
 
 * [[directed set]], **filtered category**, [[filtered (∞,1)-category]]
 
+* [[direct category]]
+
 * [[filtered colimit]]
 
 ## References
