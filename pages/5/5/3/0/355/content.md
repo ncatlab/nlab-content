@@ -6,12 +6,17 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -49,6 +54,11 @@ Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], 
 ## Related entries
 
 [[!include homotopy n-types - table]]
+
+
+* [[homotopy n-type]] / [[n-groupoid]] / [[n-truncated object in an (∞,1)-category]]
+
+* [[model structure for homotopy n-types]]
 
 
 
