@@ -440,6 +440,6 @@ See also pages 29 to 31 of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
-
+For literature on the variants and refinements see at _[[Theta space]]_ and _[[n-fold complete Segal space]]_.
 
 [[!redirects complete Segal spaces]]
