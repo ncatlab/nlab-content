@@ -416,6 +416,20 @@ So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] mi
 
 1. $X_0$ is [[n-truncated]] (of [[h-level]] $n+2$).
 
++-- {: .num_remark }
+###### Remark
+**(homotopy coherence by dependent types)**
+
+The formulation of [[simplicial objects in an (∞,1)-category]] in the [[internal language]] of [[homotopy type theory]] has to deal with the issue of formulating a simplicial "[[homotopy coherent diagram]]" in the internal language. One may think of the above formulation via [[semisimplicial object|semisimplicial]] [[dependent types]] as dealing with this by 
+
+1. discarding the explicit discussion of the degeneracy maps (which are not homotopy-theoretically necessary anyway);
+
+1. formulating [[simplicial identities]] _not_ as [[propositional equalities]] (i.e. as [[terms]] of some [[identity type]] $(\partial_j \circ\partial_i \simeq \partial_j \circ \partial_{i-1})$ which would need to be subjected to their own coherent identities) but in fact as typing [[judgements]]: the face maps are given directly by [[substitution]] of [[variables]] on which the types of cells [[dependent type|depend]].
+
+This is how the above formulation implicitly deals with [[homotopy coherent diagram|homotopy coherence]]. Under [[categorical semantics]] this state of affairs translates into the statement that [[Reedy model structure|Reedy]] [[fibrant object|fibrant]] [[semisimplicial objects]] are already a good (fibrant+cofibrant) model for [[homotopy types]].
+
+=--
+
 ## Examples
 
 ### Ordinary $(\infty,1)$-categories
