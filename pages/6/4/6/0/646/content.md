@@ -75,6 +75,12 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 [[!include homotopy n-types - table]]
 
 
+## Related concepts
+
+* [[n-groupoid]], [[n-truncated object in an (∞,1)-category]]
+
+* [[model structure for homotopy n-types]]
+
 [[!redirects n-type]]
 [[!redirects homotopy n-types]]
 [[!redirects n-types]]
