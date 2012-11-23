@@ -16,7 +16,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A [[category]] $D$ is called __sifted__ if [[colimits]] of [[diagrams]] of shape $D$ (called [[sifted colimits]]) commute with finite [[products]] in [[Set]]: for every [[diagram]]
@@ -43,7 +43,7 @@ A colimit over a sifted diagram is called a [[sifted colimit]].
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 An [[inhabited set|inhabited]] [[small category]] $D$ is sifted precisely if the [[diagonal]] functor 
@@ -60,7 +60,7 @@ This is due to ([GabrielUlmer](#GabrielUlmer))
 
 More explicitly, this means that for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 Every category with finite [[coproduct]]s is sifted.
@@ -75,6 +75,8 @@ Since a category with finite coproducts is nonempty (it has an [[initial object]
 * **sifted category**, [[sifted (∞,1)-category]]
 
 * [[filtered category]], [[filtered (∞,1)-category]]
+
+* [[direct category]]
 
 ## References
 
