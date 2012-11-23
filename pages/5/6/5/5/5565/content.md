@@ -1,4 +1,3 @@
-[[!redirects natural model structure on groupoids]]
 
 
 +-- {: .rightHandSide}
@@ -99,7 +98,12 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 * **canonical model structure on $Grpd$**
 
+  * [[model structure for n-groupoids]]
+
+  * [[model structure for ∞-groupoids]]
+
 * [[canonical model structure on Operad]]
+
 
 ## References
 
@@ -122,3 +126,5 @@ The model structure on functors with values in $Grpd_{nat}$ (a [[model structure
 
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 {#Hollander}
+
+[[!redirects natural model structure on groupoids]]
