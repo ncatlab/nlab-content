@@ -25,9 +25,13 @@ A **semifunctor** $F$ from a [[semicategory]] $C$ to a semicategory $D$ is a map
 
 * $F$ preserves [[composition]]: $F(g\circ f) = F(g)\circ F(f)$ whenever the left-hand side is well-defined.
 
+If $C$ is a [[category]], then $F$ need not preserve its identity morphisms, but this axiom does require that it send them to [[idempotents]] in $D$.
+
 ## Examples
 
-The embedding of a category into another category where $F$ maps $id_X$ to a nontrivial idempotent endomorphism of $F(X)$ is a semifunctor but not a functor.
+A mapping $F$ of a category into another category that sends $id_X$ to a nontrivial idempotent endomorphism of $F(X)$ is a semifunctor but not a functor.
+
+More generally, recall from [[semicategory]] that the forgetful functor $U \colon Cat \to Semicat$ has a [[right adjoint]] $G$, which sends a semicategory to its category of idempotents, or [[Karoubi envelope]].  Thus to give a semifunctor from a category $C$ to a (semi)category $D$ is the same as giving a functor from $C$ to the Karoubi envelope $\bar D$ of $D$ (but beware that this correspondence does not hold for [[natural transformations]]).
 
 
 [[!redirects semifunctor]]
