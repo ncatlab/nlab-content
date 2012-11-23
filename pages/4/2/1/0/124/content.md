@@ -289,7 +289,7 @@ A survey is in
 
 ### History
 
-* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)
+* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf) ([direct link](http://www.cwru.edu/artsci/phil/UsesandAbuses%20HistoryToposTheory.pdf))
 
 
 [[!redirects topos]]
