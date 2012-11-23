@@ -75,6 +75,8 @@ These are presented by [[simplicial group]]s. Notably abelian simplicial groups 
 
 * [[homotopy theory]], [[(∞,1)-category]]
 
+* [[model structure for ∞-groupoids]]
+
 [[!include homotopy n-types - table]]
 
 [[!redirects ∞-groupoid]]
