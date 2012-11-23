@@ -430,6 +430,83 @@ This is how the above formulation implicitly deals with [[homotopy coherent diag
 
 =--
 
+#### $(0,1)$-Category types
+
+> The following is experimental. 
+
+A **$(0,1)$-category type** is 
+
+1. a [[type]] $\vdash\; X_0 \colon Type$
+
+1. a [[dependent type]] $x_0,x_1 \colon X_0 \; \vdash \; X_1(x_0,x_1) \colon Type$;
+
+   we write
+
+   $$
+     X^{\partial \Delta^2} 
+      \coloneqq
+     \underset{x_0,x_1,x_2 \colon X_0}{\sum}
+       X_1(x_1,x_2) \times X_1(x_0,x_2) \times X_1(x_0,x_1)
+     \,;
+   $$
+
+1. a dependent type
+
+   $$
+     ((x_0,x_1,x_2), (f_0, f_1, f_2)) \colon X^{\partial \Delta^2}
+     \;\vdash \;
+     X_2(f_0,f_1,f_2) \colon Type
+     \,;
+   $$
+
+such that 
+
+1. **[[n-truncated|0-truncation]]** --  $X_0$ is [[0-truncated]]/is an [[h-set]]
+
+1. **[[coskeleton|-coskeletalness]]** -- the function 
+   
+   $$
+     p_1 
+    \colon
+     \underset{(x_0,x_1) \colon X_0 \times X_0 }{\sum} X_1(x_0,x_1)
+     \to
+     X_0 \times X_0
+   $$
+
+   is a [[1-monomorphism]];
+
+1. **[[Segal condition]]** -- the function
+
+   $$
+     ( (f_0,f_1,f_2) \mapsto (f_0,f_2) )
+     \colon
+     \underset{((x_0,x_1,x_2),(f_0,f_1,f_2)) \colon X^{\partial \Delta^2}}{\sum}  
+       X_2 
+     \to 
+     \underset{ (x_0,x_1,x_2) \colon X_0 }{\sum}
+     X_1(x_0,x_1) \times X_1(x_1, x_2)
+   $$
+
+   is an [[equivalence in homotopy type theory|equivalence]];
+
+1. **[[univalence|unitality]]** -- the function
+
+   $$
+     p_1
+     \colon
+     \underset{x \colon X_0}{\sum} X_1(x,x)
+     \to
+     X_0
+   $$
+
+   is an [[equivalence in homotopy type theory|equivalence]].
+
+#### $(1,1)$-Category types
+
+> The following is experimental. 
+
+(...)
+
 ## Examples
 
 ### Ordinary $(\infty,1)$-categories
