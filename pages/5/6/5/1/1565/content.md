@@ -65,6 +65,12 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * A [[categorification]] of the notion of rig is the notion of [[bimonoidal category]].
 
+* [[semi-monoid]]/[[semi-group]]
+
+* [[semi-category]], [[semi-Segal space]]
+
+* [[semi-simplicial set]]
+
 ## References
 
 * Jonathan S. Golan,_Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
