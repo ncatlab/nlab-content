@@ -41,6 +41,23 @@ $$
 
 Generally speaking, a [[morphism]] $\Delta \to \Gamma$ in the [[category of contexts]] (an [[interpretation]] of $\Gamma$ in $\Delta$) is a [[display morphism]] iff there is an [[isomorphism]] $\Delta \leftrightarrow \Theta$ where $\Theta$ is an extension of $\Gamma$.  (This might not actually be true in all type theories, or maybe it should be taken as the *definition* of 'display morphism'; I\'m not sure.)
 
+## Related concepts
+
+* [[substitution]]
+
+## References
+
+The observation that context extension forms an [[adjoint pair]]/[[adjoint triple]] with [[quantifiers]] is due to
+
+* [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+and further developed in 
+
+* [[Bill Lawvere]], _Equality in hyperdoctrines and
+comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+
+
+
 
 [[!redirects context extension]]
 [[!redirects context extensions]]
