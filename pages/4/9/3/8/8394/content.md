@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A formal language ([[theory]]) for expressing [[programs]]. Used and studied in [[computer science]].
@@ -13,7 +31,13 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ### Specific examples
 
-* [[Haskell]], [[Coq]], [[Agda]], [[NuPRL]], ....
+* [[type theory]]:
+
+  * [[Haskell]]
+
+* [[dependent type theory]]
+
+  * [[Coq]], [[Agda]], [[NuPRL]], ....
 
 * [[Mathematica]]
 
@@ -23,8 +47,11 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[computational trinitarianism]]
 
+* [[list of mathematics software]]
+
 
 [[!redirects programming languages]] 
 
-
+[[!redirects functional programming language]]
+[[!redirects functional programming languages]]
  
