@@ -276,5 +276,8 @@ A variant is in
 
 * [[Marta Bunge]], Funk, _Quasi locally connected toposes_ ([pdf](http://www.tac.mta.ca/tac/volumes/18/8/18-08.pdf))
 
+Discussion of characterizations of [[sites]] of definition of locally connected toposes is in
+
+* [[Olivia Caramello]], _Site characterizations for geometric invariants of toposes_, Theory and Applications of Categories, Vol. 26, 2012, No. 25, pp 710-728. ([TAC](http://www.tac.mta.ca/tac/volumes/26/25/26-25abs.html))
 
 [[!redirects locally connected topoes]]
