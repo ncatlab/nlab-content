@@ -363,7 +363,7 @@ the conjecture that the models of HoTT with function extensionality are [[locall
 
 The basic [[Coq]]-code libraries that set up [[identity types]] and the resulting homotopy type theory are at
 
-* [https://github.com/HoTT/HoTT/tree/master/Coq](https://github.com/HoTT/HoTT/tree/master/Coq)
+* [https://github.com/HoTT/HoTT/tree/master/theories](https://github.com/HoTT/HoTT/tree/master/theories)
 
 A slightly more human readable version is collected as a single pdf in
 
