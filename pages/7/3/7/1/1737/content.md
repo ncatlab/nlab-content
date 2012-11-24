@@ -1,17 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-Computer science studies [[programs]] and languages to express them, as well as the operation, application and design of computers. This includes aspects relating to [[models for concurrency|concurrency]], [[semantics]] of programming languages, and aspects of [[mathematical logic]]. 
+Computer science studies [[programs]] and languages to express them, as well as the operation, application and design of computers. This includes aspects relating to [[models for concurrency|concurrency]], [[semantics]] of [[programming languages]], and aspects of [[mathematical logic]]. 
 
 From the [[nPOV]], computer science is part of the [[computational trinity]], together with [[type theory]] and [[category theory]].
 
 
 ## Related pages
 
+* [[list of mathematics software]]
 
 * [[denotational semantics]]
 
@@ -38,7 +53,7 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 
 
-### Some (theoretical) computer scientists
+## Some (theoretical) computer scientists
 
 * [[Samson Abramsky]];
 
