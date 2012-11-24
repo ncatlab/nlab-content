@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Homotopy level** is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their 
+**Homotopy level** (or **h-level**) is another name for the notion of [[truncated object|truncation]] (particularly in [[(∞,1)-categories]] and their 
 [[internal logic|internal language]] of [[homotopy type theory]]) in which the numbering is offset by 2:
 
 a [[homotopy n-type]] is a [[type]] of homotopy level $n+2$.  
