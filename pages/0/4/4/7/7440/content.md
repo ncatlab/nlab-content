@@ -431,6 +431,9 @@ This is how the above formulation implicitly deals with [[homotopy coherent diag
 =--
 
 #### $(0,1)$-Category types
+ {#0CategoryTypes}
+
+We spell out the [above](#HomotopyTypeTheoryFormulation) strategy for defining [[(n,1)-category]] types in [[homotopy type theory]] for the case of [[(0,1)-categories]].
 
 > The following is experimental. 
 
@@ -463,7 +466,7 @@ such that
 
 1. **[[n-truncated|0-truncation]]** --  $X_0$ is [[0-truncated]]/is an [[h-set]]
 
-1. **[[coskeleton|-coskeletalness]]** -- the function 
+1. **[[coskeleton|1-coskeletalness]]** -- the function 
    
    $$
      p_1 
@@ -478,9 +481,9 @@ such that
 1. **[[Segal condition]]** -- the function
 
    $$
-     ( (f_0,f_1,f_2) \mapsto (f_0,f_2) )
+     ( (f_{12},f_{02},f_{01}) \mapsto (f_{12},f_{01}) )
      \colon
-     \underset{((x_0,x_1,x_2),(f_0,f_1,f_2)) \colon X^{\partial \Delta^2}}{\sum}  
+     \underset{((x_0,x_1,x_2),(f_{12},f_{02},f_{01})) \colon X^{\partial \Delta^2}}{\sum}  
        X_2 
      \to 
      \underset{ (x_0,x_1,x_2) \colon X_0 }{\sum}
@@ -502,11 +505,126 @@ such that
    is an [[equivalence in homotopy type theory|equivalence]].
 
 #### $(1,1)$-Category types
+ {#1CategoryTypes}
+
+We spell out the [above](#HomotopyTypeTheoryFormulation) strategy for defining [[(n,1)-category]] types in [[homotopy type theory]] for the case of [[(1,1)-categories]].
+
 
 > The following is experimental. 
 
-(...)
+A **$(1,1)$-category type** is 
 
+1. a [[type]] $\vdash\; X_0 \colon Type$
+
+1. a [[dependent type]] $x_0,x_1 \colon X_0 \; \vdash \; X_1(x_0,x_1) \colon Type$;
+
+   we write
+
+   $$
+     X^{\partial \Delta^2} 
+      \coloneqq
+     \underset{x_0,x_1,x_2 \colon X_0}{\sum}
+       X_1(x_1,x_2) \times X_1(x_0,x_2) \times X_1(x_0,x_1)
+     \,;
+   $$
+
+1. a dependent type
+
+   $$
+     ((x_0,x_1,x_2), (f_{12}, f_{02}, f_{01})) \colon X^{\partial \Delta^2}
+     \;\vdash \;
+     X_2(f_{12}, f_{02}, f_{01}) \colon Type
+     \,;
+   $$
+
+   we write
+
+   $$
+     X^{\partial \Delta^3}
+     \coloneqq
+     \underset{(x_0,x_1,x_2,x_3,x_4 \colon X_1) }{\sum}
+     \underset{ f_{i j} \colon X_1(x_i, x_j)}{\sum}
+     X_2(f_{12},f_{02},f_{01})
+     \times
+     X_2(f_{23}, f_{13}, f_{12})
+     \times
+     \cdots
+     \,,
+   $$
+
+*  a [[dependent type]]
+ 
+   $$
+     (\sigma_{123}, \sigma_{023}, \sigma_{013}, \sigma_{012}) \colon X^{\partial \Delta^3}
+      \;\vdash\;
+      X_3(\sigma_{123}, \sigma_{023}, \sigma_{013}, \sigma_{012})
+      \colon 
+       Type
+   $$
+
+such that 
+
+1. **[[n-truncated|1-truncation]]** --  $X_1$ is [[1-truncated]]/is an [[h-groupoid]]
+
+1. **[[coskeleton|2-coskeletalness]]** -- the function 
+   
+   $$
+     p_1
+     \colon
+     \underset{(f_{12},f_{02}, f_{01}) \colon X^{\partial \Delta^2}}{\sum}
+     X_2(f_{12},f_{02}, f_{01})
+     \to 
+     X^{\partial \Delta^2}
+   $$
+
+   is a [[1-monomorphism]];
+
+1. **[[Segal condition]]** -- the functions 
+
+   $$
+     ( (f_{12},f_{02},f_{01}) \mapsto (f_{12},f_{01}) )
+     \colon
+     \underset{((x_0,x_1,x_2),(f_0,f_1,f_2)) \colon X^{\partial \Delta^2}}{\sum}  
+       X_2 
+     \to 
+     \underset{ (x_0,x_1,x_2) \colon X_0 }{\sum}
+     X_1(x_1,x_2) \times X_1(x_0, x_1)
+   $$
+
+   and
+
+   $$
+     ( (f_{i j}, \sigma_{i j k})  \mapsto (f_{01}, f_{12}, f_{23}) )
+     \colon
+     \underset{f_{i j} \colon X_1(x_i,x_j)}{\sum}
+     \underset{\sigma_{i_0 i_1 i_2} \colon X_2(f_{i_1 i_2}, f_{i_0 i_2}, f_{i_0 i_1})}{\sum}
+      X_3( \sigma_{\cdots}, \cdots )
+     \to
+     \underset{(x_0,x_1,x_2,x_3) \colon X_0}{\sum}
+     X_1(x_0,x_1)
+     \times
+     X_1(x_1,x_2)
+     \times
+     X_1(x_2,x_3)
+   $$
+
+   are [[equivalence in homotopy type theory|equivalences]];
+
+1. **[[univalence|unitality]]** --  the function
+
+   $$
+     (((x_0,x_1),f) \mapsto x_0)
+     \colon
+     \underset{x_0,x_1 \colon X_0}{\sum}
+     X_1(x_0,x_1)_{\simeq}
+     \to
+     X_0
+   $$
+
+   is an [[equivalence in homotopy type theory|equivalence]].
+
+
+ 
 ## Examples
 
 ### Ordinary $(\infty,1)$-categories
