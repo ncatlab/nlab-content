@@ -5,3 +5,4 @@ category:people
 [[!redirects A.R. Garzón]]
 [[!redirects Antonio Garzon]]
 [[!redirects Antonio Garzón]]
+[[!redirects A. Garzon]]
