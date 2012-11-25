@@ -1,4 +1,29 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[module]]/[[representation]] over a pair consisting of a [[semisimple Lie algebra]] and an [[algebraic group]].
+
+## Related concepts
+
+* [[coinduced representations]] on Harish-Chandra modules are also referred to as _[[Zuckerman induction]]_
+
+## References
+
 * wikipedia: [(g,K)-module](http://en.wikipedia.org/wiki/%28g,K%29-module), [Harish-Chandra module](http://en.wikipedia.org/wiki/Harish-Chandra_module)
 * David Vogan, Jr., Unitary Representations of Reductive Lie Groups, Annals of Mathematics Studies __118__, Princeton Univ. Press 1987
 * A. W. Knapp, D. A. Vogan, _Cohomological induction and unitary
