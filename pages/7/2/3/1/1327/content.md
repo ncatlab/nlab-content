@@ -1,6 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -56,8 +70,9 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 
   * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyedra, too.
 
+## Relation to other structures
 
-## Relation to orientals 
+### Relation to orientals 
 
 The above list shows that the first few Stasheff polytopes are nothing but the first few [[oriental]]s. This doesn't remain true as $n$ increases.
 The orientals are free **strict** [[omega-category|omega-categories]] on [[simplex]]es as parity complexes. This means that certain interchange cells (e.g., Gray tensorators) show up as thin in the oriental description. 
@@ -67,7 +82,8 @@ The first place this happens is the sixth oriental: where there are three tensor
 It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street began to think about using associahedra to define weak [[n-category|n-categories]].
 
 
-## Categorified associahedra {#Categorification}
+### Categorified associahedra 
+ {#Categorification}
 
 There is a [[vertical categorification|categorification]] of associahedra discussed in
 
