@@ -203,7 +203,8 @@ Further examples:
 
 * A category internal to [[Set]] is a [[small category]]
 * A groupoid internal to [[definable sets]] is a [[definable groupoid]].
-* A [[cocategory]] in $C$ is a category internal to $C^{op}$.
+* A pointed one-object category internal to [[Ho(Top)]] is an [[H-monoid]].
+* A pointed one-object groupoid internal to [[Ho(Top)]] is an [[H-group]]. * A [[cocategory]] in $C$ is a category internal to $C^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
 * A [[crossed module]] is equivalent to a category internal to [[Grp]].
@@ -327,3 +328,6 @@ An old discussion on variants of internal categories, crossed modules and 2-grou
 [[!redirects categories internal]]
 [[!redirects groupoid internal]]
 [[!redirects groupoids internal]]
+
+[[!redirects category object]]
+[[!redirects category objects]]
