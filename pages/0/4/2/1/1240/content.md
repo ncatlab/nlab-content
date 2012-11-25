@@ -349,6 +349,11 @@ where $[-,-]$ is the [[internal hom]] in the [[slice (∞,1)-topos]] $\mathbf{H}
 
 For $V \in Act(G)$ any other representation, there is a canonical [[∞-action]] of $Hecke(E,i)$ on $\underset{\mathbf{B}G}{\prod} \left[\underset{\mathbf{B}i}{\sum} E , V \right]$. If here $E$ is the trivial representation then by adjointness this is the [[invariants]] $V^G$ of $V$ and hence the Hecke algebra acts on the invariants. (See for instance ([Woit, def. 2](#Woit))). This is sometimes called the _Hecke algebra action on the Iwahori fixed vectors_ ([e.g. here, p. 9](#http://sporadic.stanford.edu/bump/bbf.pdf))
 
+### Zuckerman functors: Coinduction on Harish-Chanfra modules
+
+Coinduction on [[Harish-Chandra modules]] is referred to as
+_[[Zuckerman induction]]_. See there for more details.
+
 ## Related concepts
 
 * The identification of representation induction as the extra left adjoint in a [[base change]] morphism, as discussed in the _[General abstract discussion](#GeneralAbtractDefinition)_ above, puts induced representations in the same general abstract framework as [[existential quantification]] in [[logic]] and generally of [[dependent sum]] in [[dependent type theory]] (see there for more details). This relation has first been amplified in ([Lawvere](#Lawvere)).
@@ -401,3 +406,7 @@ The general case of $\infty$-groups in $\infty$-toposes is further discussed in 
 [[!redirects induction functor]]
 [[!redirects induction functors]]
 
+[[!redirects coinduced representation]]
+[[!redirects coinduced representations]]
+[[!redirects coinduction functor]]
+[[!redirects coinduction functors]]
