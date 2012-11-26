@@ -51,14 +51,38 @@ If $T$ is a [[monad]] on a [[cocomplete category]] $C$, then the category $C^T$ 
 
 =--
 
-This is due to ([Linton](#Linton)).
+This is due to ([Linton](#Linton)). 
+
++-- {: .proof} 
+###### Proof 
+Suppose $C^T$ has reflexive coequalizers. Then $C^T$ certainly has coproducts, because if $A_i$ is a collection of $T$-algebras, then we can form the coequalizer in $C^T$ of the reflexive pair 
+
+$$\sum_i F U F U A_i \stackrel{\overset{\sum_i \varepsilon F U A_i}{\to}}{\underset{\sum_i F U \varepsilon A_i}{\to}} \sum_i F U A_i$$ 
+
+using the fact that the displayed coproducts exist because, for example, 
+
+$$\sum_i F U A_i \cong F(\sum_i U A_i)$$ 
+
+since the left adjoint $F$ preserves coproducts, assumed to exist in $C$. That this reflexive coequalizer is the coproduct $\sum_i A_i$ in $C^T$ is routine. 
+
+Finally, a category with coproducts and reflexive coequalizers is cocomplete. It suffices that general coequalizers exist, but it is easily seen that if 
+
+$$f, g \colon A \stackrel{\to}{\to} B$$ 
+
+is a parallel pair, then the coequalizer of the reflexive pair 
+
+$$A + B \stackrel{\overset{(f, 1_B)}{\to}}{\underset{(g, 1_B)}{\to}} B$$ 
+
+(note both maps are retracts of the inclusion $B \to A + B$) also exists, and gives the coequalizer of the first pair. This completes the proof. 
+=-- 
+
 
 +-- {: .num_prop #PreservingReflectiveCoequalizersInTwoVariables}
 ###### Proposition
 
 If $F\colon C\times D\to E$ is a [[functor]] of two variables which preserves reflexive coequalizers in each variable separately (that is, $F(c,-)$ and $F(-,d)$ preserve reflexive coequalizers for all $c\in C$ and $d\in D$), then $F$ preserves reflexive coequalizers in both variables together.  
 
-=--
+=-- 
 
 +-- {: .num_remark}
 ###### Remark
@@ -68,6 +92,8 @@ This is emphatically *not* the case for arbitrary coequalizers.
 =--
 
 This result is particularly interesting when $F$ is the [[tensor product]] of a cocomplete [[closed monoidal category]] $C$.  In this case it implies that the [[free monoid monad]] on such a category preserves reflexive coequalizers, and thus (by [Linton's theorem](#LintonTheorem)) the category of [[monoid objects]] in $C$ is cocomplete. 
+
+For the moment we defer the proof of proposition \ref{PreservingReflectiveCoequalizersInTwoVariables}, but compare the proof of the lemma on page 1 of Johnstone's [Topos Theory](#Johnstone). 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -111,7 +137,7 @@ and since this is a colimit of functors $\hom(n, -)$ which preserve reflexive co
 
 =--
 
-
+Since finitary monads $T$ preserve reflexive coequalizers, it follows that the monadic functor $U \colon Set^T \to Set$ reflects reflexive coequalizers, and so since $Set$ has reflexive coequalizers, $Set^T$ must as well. Therefore, by proposition \ref{LintonTheorem}, $Set^T$ is cocomplete. This is actually true for infinitary monads $T$ on $Set$ as well, at least if we assume the axiom of choice (see [here](http://ncatlab.org/nlab/show/colimits+in+categories+of+algebras#reflexive_coequalizers_and_cocompleteness_16) for a proof), but the argument just given is a choice-free proof for the case of finitary monads. 
 
 
 ## Applications
@@ -120,8 +146,11 @@ and since this is a colimit of functors $\hom(n, -)$ which preserve reflexive co
 
 ## References
 
-* [[Fred Linton]], _Coequalizers in categories of algebras_
+* [[Fred Linton]], _Coequalizers in categories of algebras_, Seminar on Triples and Categorical Homology Theory, Lecture Notes in Mathematics Vol. 80 (1969), 75-90. 
 {#Linton}
+
+* [[Peter Johnstone]], Topos Theory, London Mathematical Society Monographs no. 10, Academic Press, 1977. 
+{#Johnstone} 
 
 [[!redirects reflexive coequalizer]]
 [[!redirects reflexive coequalizers]]
