@@ -1,0 +1,9 @@
+
+
+A [[principal 2-bundle]] for structure [[2-group]] the [[circle 2-group]].
+
+Also called a circe [[bundle gerbe]].
+
+For more see at _[[circle n-bundle with connection]]_.
+
+[[!redirects circle 2-bundles]]
