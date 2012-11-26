@@ -131,6 +131,7 @@ See ([Lurie, example 1.1.4](#Lurie)).
 
 Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then every object of $\mathcal{C}$ may be thought of as an [[groupoid object in an (∞,1)-category|internal groupoid]], which facilitates the definition of internal categories. The general case is discussed [below](#InAnInfinity1Category).
 
+#### Pre-category objects
 
 +-- {: .num_defn #PreCategoryObject}
 ###### Definition
@@ -141,10 +142,13 @@ $$
   X : \Delta^{op} \to \mathcal{C}
 $$
 
-such that it satifies the _[[Segal condition]]_, hence such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+such that it satifies the _[[Segal condition]]_, hence such that for all $n \in \mathbb{N}$, $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
 
 $$
-  X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
+  X([n]) \simeq 
+  \underbrace{
+    X(\{0,1\}) \underset{X([0])}{\times} \cdots \underset{X[0]}{\times} X(\{n-1,n\})
+  }_{n \; factors}
   \,.
 $$
 
@@ -153,6 +157,101 @@ Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-catego
 =--
 
 This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
+
++-- {: .num_remark }
+###### Remark
+
+By the discussion at [Segal conditions -- In terms of sheaf conditions](Segal%20condition#InTermsOfSheafConditionForSimplicialObjects), this means that $PreCat(\mathcal{C})$ sits in an [[(∞,1)-pullback]] square in [[(∞,1)Cat]]
+
+$$
+  \array{
+    PreCat(\mathcal{C}) &\to& \mathcal{C}^{\Delta^{op}}
+    \\
+    \downarrow && \downarrow
+    \\
+    Graphs(\mathcal{C})
+    &\hookrightarrow&
+    \mathcal{D}^{\Delta_0^{op}}
+  }
+  \,,
+$$
+
+where $\Delta_0^{op} \to \Delta$ is the [[wide subcategory]] of the [[simplex category]] on the injective maps that send elementary edges to elementary edges, and the bottom morphism is the functor that sends a group object $X_1 \stackrel{\overset{\partial_1}{\to}}{\underset{\partial_0}{\to}} X_0$ to the object which in degree $n$ is $\underbrace{ X_1 \underset{X_0}{\times} \cdots \underset{X_0}{\times} X_1}_{n\; factors}$.
+
+=--
+
+
++-- {: .num_defn #HomotopyCategoryOfPreCategoryObject}
+###### Definition
+
+For $X_\bullet \in \mathcal{C}$ a precategory object, def. \ref{PreCategoryObject}, its corresponding **H-category** is, up to [[equivalence of categories|equivalence]], the [[Ho(∞Grpd)]]-[[enriched category]] $h X_\bullet$ with
+
+* the [[objects]] are the points of $X_0$;
+
+* the [[homotopy type]] of morphisms for any pair $(x_0,x_1)$ of objects is that of
+
+  $$
+    h X(x_0,X1) \coloneqq \{x_0\} \underset{X_0}{\times} X_1 \underset{X_0}{\times} \{x_1\}
+    \in \infty Grpd \to Ho(\infty Grpd)
+  $$
+
+* the [[composition]] is given by the morphism
+  
+  $$
+    \begin{aligned}
+      h X(x_0,x_1) \times h X(x_1, x_2) 
+      & \to \{x_0\} \underset{X_0}{\times} X_1 \underset{X_0}{\times} X_1 \underset{X_0}{\times} \{x_2\}
+      \\
+      & \stackrel{\simeq}{\to}
+       \{x_0\} \underset{X_0}{\times} X_2 \underset{X_0}{\times} \{x_1\}
+      \\
+      & \stackrel{\partial_1}{\to}
+       \{x_0\} \underset{X_0}{\times} X_1 \underset{X_0}{\times} \{x_2\}      
+      \\
+      & = h X(x_0,x_2)
+    \end{aligned}
+    \,,
+  $$
+
+where the second map is an isomorphism that exists by the [[Segal conditions]].
+
+=--
+
++-- {: .num_defn #Equivalences}
+###### Definition
+
+For $X_\bullet \in \mathcal{C}^{\Delta^{op}}$ a pre-category object, we say that a point $f \colon * \to X_1$ is an [[equivalence]] if it is an [[isomorphism]] in the category $h X$, def. \ref{HomotopyCategoryOfPreCategoryObject}. For $n \in \mathbb{N}$, $n \geq 1$, write
+
+$$
+  Equiv(X_n) \hookrightarrow X_n
+$$
+
+for the [[1-monomorphism]] that includes the full-sub-$\infty$-groupoid on the sequences of equivalences. Write furthermore
+
+$$
+  Core(X)_\bullet \in Grpd(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}
+$$
+
+for the [[simplicial object]] with
+
+$$
+  Core(X)_0 \coloneqq X_0
+$$
+
+and
+
+$$
+  Core(X)_n \coloneqq Equiv(X_n)
+  \,.
+$$
+
+This is evidently a [[groupoid object in an (infinity,1)-category|groupoid object]], def. \ref{GroupoidObject}, called the **[[core]]** of the pre-category object $X_\bullet$.
+
+=--
+
+In order to state the completeness condition on pre-category objects that make them be genuine category objects, we need this [[core]]-construction exhibits groupoid objects as a [[coreflective sub-(∞,1)-category]] of pre-category objects.
+
+#### Coreflection of groupoid objects in pre-category objects
 
 +-- {: .num_prop }
 ###### Proposition
@@ -173,12 +272,82 @@ The coreflection is the _[[core]]_ operation that discards non-invertible morphi
 
 This is ([Lurie, prop. 1.1.14](#Lurie)).
 
++-- {: .proof}
+###### Proof
 
+It is straightforward to establish the statement for the case that
+$\mathcal{C} \simeq $ [[∞Grpd]]. ([Lurie, cor. 1.1.11](#Lurie)) From this it follows also for the case that $\mathcal{C} \simeq PSh_\infty(\mathcal{D})$ is an [[(∞,1)-category of (∞,1)-presheaves]]. 
+In the general case, $\mathcal{C}$ is a [[reflective sub-(∞,1)-category]] of such, $\mathcal{C} \hookrightarrow PSh_\infty(\mathcal{D})$. It is then sufficient to show that the core operation on the presheaf $\infty$-toposes respects these inclusions, so that we have
+
+$$
+  \array{
+    Grpd(\mathcal{C}) &\hookrightarrow& Grpd(PSh_\infty(\mathcal{D}))
+    \\
+    \downarrow \uparrow && \downarrow \uparrow^{\mathrlap{Core}}
+    \\
+    PreCat(\mathcal{C}) &\hookrightarrow& PreCat(PSh_\infty(\mathcal{D}))
+  }
+  \,.
+$$
+
+This means that we need to show that if $X_\bullet \in \mathcal{C} \hookrightarrow PSh_\infty(\mathcal{D})$ is a category object, then $Core_{PSh}(X_\bullet)$ is degreewise in $\mathcal{C}$. By the pre-category condition and since the refletive inclusion is [[right adjoint]] and hence preserves the fiber products, for this it is sufficient that $Core_{Psh}(X)_0$ and $Core_{PSh}(X)_1$ are in $\mathcal{C}$.  To complete the proof it is sufficient to show that the first of these is $X_0$ and (again since the inclusion preserves limits) the second is the [[powering]] $X^K$, where
+
+$$
+  K \coloneqq \Delta^0 \coprod_{\Delta^{\{0,2\}}} \Delta^3 \coprod_{\Delta^{\{1,3\}}} \Delta^
+  \;\;\;
+  \in 
+  sSet
+$$
+
+is the [[simplicial set]] obtained from the [[simplex|3-simplex]] by collapsing the $(0,2)$-edge and the $\{1,3\}$-edge. Write $K^0 \coloneqq \{1,2\} \hookrightarrow K$ for the image of the $(1,2)$-edge of $\Delta^3$. Schematically:
+
+$$
+  K =
+  \left\{
+    \array{
+      1 &\stackrel{K^0}{\to}& 0
+      \\
+      \uparrow &\nearrow_{\mathrlap{id}}& \downarrow
+      \\
+      0 &\to& 1
+    }
+    \;\;\; \Rightarrow \;\;\;
+    \array{
+      1 &\stackrel{K^0}{\to}& 0
+      \\
+      \uparrow &\searrow^{\mathrlap{id}}& \downarrow
+      \\
+      0 &\to& 1
+    }   
+  \right\}
+  \,.
+$$
+
+We claim generally that
+
+1. for $X \in PreCat(\mathcal{C})$ the canonical morphism $Core(X)^K \to X^K$ is an equivalence;
+
+1. for $Y \in Grpd(\mathcal{C})$ the canonical morphism $Y^K \to Y^{K^0}$ is an equivalence.
+
+(This is ([Lurie, prop. 1.1.13](#Lurie)).)
+
+Here
+
+$$
+  X^K \coloneqq  X_0 \underset{\{0,2\}}{\times} X_3 \underset{\{1,3\}}{\times} X_0
+$$
+
+etc. Heuristically it is clear, by the nature of $K$, that this picks all those 3-simplices in $X_\bullet$ for which the $\{0,1\}$-edges is a weak inverse to the $\{2,3\}$-edge. Formally this follows from [this proposition](simplicial+object+in+an+%28infinity%2C1%29-category#SlicingOverPoweringOfSimplicialObjects) at _[[simplicial object in an (∞,1)-category]]_. Hence $Core(X)^K \to X^K$ is an equivalence. Moreover $K^0 \hookrightarrow K$ is a weak equivalence, and hence so is $Core(X)^K \to Core(X)^{K^0} \simeq Core(X)_1$.
+
+
+=--
+
+#### Category objects
 
 +-- {: .num_defn #CategoryObject}
 ###### Definition
 
-An **internal category** in $\mathcal{C}$ is an internal pre-category $X$, def. \ref{PreCategoryObject} such that its [[core]] $Core(X)$ is in the image of the inclusion $\mathcal{C} \hookrightarrow Grpd(\mathcal{C})$, prop. \ref{EmbeddingOfConstantGroupoidObjects}.
+An **internal category** in $\mathcal{C}$ is an internal pre-category $X$, def. \ref{PreCategoryObject}, such that its [[core]] $Core(X)$ is in the image of the inclusion $const \colon \mathcal{C} \hookrightarrow Grpd(\mathcal{C})$, prop. \ref{EmbeddingOfConstantGroupoidObjects}.
 
 =--
 
@@ -188,6 +357,8 @@ This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lur
  {#InAnInfinity1Category}
 
 More generally, we have internal categories in a more general $(\infty,1)$-category $\mathcal{C}$ after equipping this with a notion of internal groupoids.
+
+#### Relative core -- Choice of groupoid objects
 
 +-- {: .num_defn #ChoiceOfInternalGroupoids}
 ###### Definition
@@ -228,6 +399,7 @@ By the [[Giraud theorem|(∞,1)-Giraud theorem]].
 
 =--
 
+#### Category objects
 
 
 In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqipped with a choice of internal groupoids $\mathcal{X} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}.
