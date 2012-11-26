@@ -18,10 +18,16 @@
 
 ## Definition
 
-An __$H$-space__ is a [[magma]] in the [[homotopy category]] of [[topological space]]s [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. 
-An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. Moreover a [[group object]] in [[Ho(Top)]] is an __$H$-group__ and so an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
+An __$H$-space__ is a [[magma]] in the [[homotopy category]] of [[topological spaces]] [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. 
 
-Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher homotopies  is instead called an _[[A-infinity space]]_.
+
+An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
+
+An __$H$-group__ is a [[group object]] in [[Ho(Top)]]. Oo an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
+
+To continue in this pattern, one could say that an **H-category** is an [[Ho(Top)]]-[[enriched category]].
+
+Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher and coherent homotopies  is instead called a _strongly homotopy associative_ space or  _[[A-infinity space]]_ for short.
 
 A better name for an $H$-space would be $H$-[[unitoid]], but it is rarely used. The $H$ stands for [[Heinz Hopf]], and reflects the sad fact that the natural name 'homotopy group' was [[homotopy group|already occupied]]; Hopf and A. Borel found necessary algebraic conditions for a space to admit an $H$-space structure.
 
@@ -102,6 +108,12 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 [[!redirects H-group]]
 [[!redirects H-groups]]
 
+[[!redirects H-category]]
+[[!redirects H-categories]]
+
+
 [[!redirects H-unitoid]]
 [[!redirects H-cogroup]]
 [[!redirects H-comonoid]]
+
+
