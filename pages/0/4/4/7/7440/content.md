@@ -28,15 +28,34 @@ A category internal to some given $(\infty,1)$-category $\mathcal{C}$ is a [[sim
 
 If $\mathcal{C}$ happens to be just a 1-category, then this already makes $A$ an [[internal category]]. Generally, however, $\mathcal{C}$ comes with its own notion of [[homotopy]], and one must ask in addition that the notion of [[equivalence in an (∞,1)-category|equivalence]] in $A$ is compatible with that in $\mathcal{C}$ (the "[[complete Segal space|completeness condition]]").
 
-A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_, which is an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
+A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2](#Lurie). For historical reasons, the notion of _internal $(\infty,1)$-category_ there goes by the name _complete Segal space object_, in honor of the notion of a _[[complete Segal space]]_ (due to [[Charles Rezk]] and in turn chose in honor of the [[Segal conditions]] for ordinary categories), which is an internal $(\infty,1)$-category in $\mathcal{C} = $ [[∞Grpd]].
 
 There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
 
 ## Definition
+ {#Definition}
 
+The definition of category objects in an [[(∞,1)-category]] makes recourse to the notion of [[groupoid object in an (∞,1)-category]], and so we first review that in 
+
+* [Groupoid objects in an (∞,1)-category](#GroupoidObjects).
+
+Then we discuss the definition of 
+
+* [Internal categories in an (∞,1)-topos](#CategoryObjectInTopos).
+
+The canonical example here is the archtypical [[(∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]] of [[∞-groupoids]]: a category object internal to that is essentially what is also called a [[complete Segal space]]. But the definition works for any other [[(∞,1)-topos]], hence for general [[(∞,1)-categories of (∞,1)-sheaves]] (of [[∞-stacks]]).
+
+More generally, given a [[full and faithful (∞,1)-functor|fully faithful inclusion]] $\mathbf{H} \hookrightarrow \mathcal{C}$ of an [[(∞,1)-topos]] into some other [[(∞,1)-category]], we can define 
+
+* [Internal categories in an (∞,1)-category](#InAnInfinity1Category).
+
+The archetypical example here is the case where again $\mathbf{H} =$ [[∞Grpd]] $=: (\infty,0)Cat$ and where then, by [[induction]] on $n$, the inclusion is $\infty Grpd \hookrightarrow (\infty,n)Cat$ that of $\infty$-groupoids into [[(∞,n)-categories]]. The resulting internal category objects are then externally essentially [[n-fold complete Segal spaces|(n+1)-fold complete Segal spaces]], hence $(\infty,n+1)$-categories.
+
+But again, more generally, $\mathbf{H}$ can be an [[(∞,1)-category of (∞,1)-sheaves]] and $\mathcal{C}$ for instance an [[(∞,2)-topos]] of [[(∞,2)-sheaves]], yielding $(\infty,3)$-sheaves, and so on.
 
 ### Groupoid objects in an $(\infty,1)$-category
+ {#GroupoidObjects}
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]].
 
@@ -553,9 +572,11 @@ This gives in particular to the standard [[model structure for complete Segal sp
 ### Homotopy type theory formulation
  {#HomotopyTypeTheoryFormulation}
 
-For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ is to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]].
+For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ should be to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]].
 
-The full details of this are still open, but there some aspects seem clear. One might approach it like this:
+However, at the time of this writing little is known for how to speak of _non-finite_ [[diagrams]] fully internally. To appreciate the issue, notice that the "internal" formulation of categories by [[simplicial objects in an (∞,1)-category]] as [above](#Definition) is in fact not fully internal to the ambient $(\infty,1)$-category $\mathcal{C}$, but assumes that it is known what externally an [[(∞,1)-functor]] $\Delta^{op} \to \mathcal{C}$ is. When we speak in [[homotopy type theory]] this is not an option and we have to genuinely stick to internal reasoning.
+
+Nevertheless, we can speak fully internally of $(\infty,n)$-categories for "low $n$" by making use of the following observations.
 
 1. By the discussion at _[[semi-Segal space]]_ a category object should equivalently be a [[semi-category]] object $X_\bullet$: a [[semi-simplicial object]] satisfying the [[Segal conditions]], and which is unital in that $Eq(X_1) \hookrightarrow X_1 \stackrel{\partial_1}{\to} X_0$ is an equivalence.
 
@@ -574,19 +595,25 @@ The full details of this are still open, but there some aspects seem clear. One 
     \end{aligned}
    $$
 
-   etc.  (Where in principle we can go on like this to any finite $n$; but it is open how to say this in one go for all $n$ at once).
+   etc.  (Where in principle we can go on like this to any finite $n$; but it is open how to say this in one go for all $n$ at once.)
 
    Notice that in the [[model category|model]]-[[categorical semantics]] of [[dependent types]] in [[homotopy type theory]], such a structure interprets indeed (up to the given degree) as a [[Reedy model structure|Reedy]] [[fibrant object|fibrant]] [[semi-simplicial object]] as used in the standard model-category theoretic constructions of internal $\infty$-categories discussed [above](#ModelCategoryPresentations).
 
-1. If $X_0$ is [[n-truncated]] ([[h-level]] $n+2$) so that we are dealing with an internal category that is externally an [[(n,1)-category]], then a complete semi-Segal object $X_\bullet$ should indeed already be determined by its [[simplicial skeleton]] $X_{0 \leq \bullet \leq n+3}$. 
+1. If $X_0$ is [[n-truncated]] ([[h-level]] $n+2$) so that we are dealing with an internal category that is externally an [[(n,1)-category]], then a complete semi-Segal object $X_\bullet$ should indeed already be determined by its [[simplicial skeleton]] $X_{0 \leq \bullet \leq n+2}$. 
 
-So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] might be an $(n+3)$-skeleton of a [[semi-simplicial type]] $X_{0 \leq \bullet \leq 3}$ as above, such that
+So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] should be an $(n+2)$-skeleton of a [[semi-simplicial type]] $X_{0 \leq \bullet \leq 3}$ as above, such that
 
 1. [[Segal condition]]: for each $2 \leq k \leq n$ the canonical function $X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1$ into the $n$-fold [[homotopy pullback]] is an [[equivalence]];
 
 1. [[univalence]]/unitality: the canonical function $Eq(X_1) \to X_1 \stackrel{\partial_1}{\to} X_0$ is an [[equivalence]].
 
 1. $X_0$ is [[n-truncated]] (of [[h-level]] $n+2$).
+
+We spell this out in more detail below for
+
+* $n = 0$ -- [(0,1)-Category types](#0CategoryTypes)
+
+* $n = 1$ -- [(1,1)-Category types](#1CategoryTypes).
 
 +-- {: .num_remark }
 ###### Remark
@@ -604,9 +631,9 @@ This is how the above formulation implicitly deals with [[homotopy coherent diag
 
 #### H-Category types
 
-We begin here by discussing an notion of [[internal category]] in [[homotopy theory]] which is _not_ an category object in an $(\infty,1)$-category and which does _not_ interpret as an [[(∞,1)-category]], but which serves to illustrate a subtlety in the correct definition.
+It may be instructive to begin by discussing a notion of [[internal category]] in [[homotopy theory]] which is _not_ an category object in an $(\infty,1)$-category and which does _not_ interpret as an [[(∞,1)-category]], but which serves to illustrate a subtlety in the correct definition. In fact, it is an internal formulation of the [[H-category]] that underlies in particular any genuine precategory object, by def. \ref{HomotopyCategoryOfPreCategoryObject} above.
 
-Historically one says that:
+Notice that historically one says that:
 
 +-- {: .num_defn }
 ###### Definition
@@ -672,7 +699,7 @@ An **[[H-category]] type** $X$ is a
 such that there is a [[term]] of [[identity type]]
 
 $$
-  x_0, x_1, x_2, x_3 \colon X_0 \;\vdash\; ( com_{x_0,x_2,x_3} \circ comp_{x_0,x_1,x_2} =  comp_{x_0, x_1, x_2} \circ comp_{x_1,x_2,x_3})
+  x_0, x_1, x_2, x_3 \colon X_0 \;\vdash\; ( com_{x_0,x_2,x_3} \circ comp_{x_0,x_1,x_2} \simeq  comp_{x_0, x_1, x_2} \circ comp_{x_1,x_2,x_3})
 $$
 
 (hence, equivalently, a necessarily unique term of the [[proposition]] [[type]] [[inhabited type|isInhabited]](...) of this identity type ).
