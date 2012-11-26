@@ -400,7 +400,8 @@ We have [[geometric morphisms]] of [[toposes]]
 
 $$
   Grph \simeq Sh(\Delta_0)
-  \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\hookrightarrow}}
+  \stackrel{\overset{i_!}{\to}}{
+  \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\hookrightarrow}}}
   PSh(\Delta_0)
    \stackrel{\overset{j_!}{\to}}{\stackrel{\overset{j^*}{\leftarrow}}{\underset{j_*}{\to}}}
   PSh(\Delta)
