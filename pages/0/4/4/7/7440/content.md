@@ -483,15 +483,6 @@ Hence it makes sense to consider the following many-object version ("[[oidificat
 +-- {: .num_defn }
 ###### Definition
 
-An **H-category** is a [[category object]] in [[Ho(∞Grpd)]].
-
-=--
-
-This has an evident formulation in  [[homotopy type theory]]:
-
-+-- {: .num_defn }
-###### Definition
-
 An **H-category type** $X$ is a 
 
 1. a [[type]] $\vdash \; X_0  \colon $ [[Type]] 
