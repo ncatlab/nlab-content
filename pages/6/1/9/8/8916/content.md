@@ -1,0 +1,24 @@
+
+## Definition
+
+In a [[finite]] [[group]] $G$, for every prime $p$, a maximal $p$-[[p-torsion|torsion]] subgroup of $G$ is also known as a **Sylow $p$-subgroup**.
+
+## Facts
+
+Let the order of $G$ be $ r p^k $, where $ r $ is coprime to $p$.
+
+Let $H \lt G$ be a subgroup of rank $p^l$, and consider the left action of $G$ on right cosets of $H$:
+$$ (g, x H )\mapsto (g x) H .$$
+This action induces further an action of $G$ on $(G / H) \mathbf{C} (p^{k-l})$, the subsets of $G/H$ of size $p^{k-l}$.  The number of these, $\binom{ r p^{k-l} }{ p^{k-l} } $, is congruent to $r$, mod $p$, and hence some orbit must have size coprime to $p$, hence necessarily dividing $r$, hence some set of cosets must have stabilizer of size at least $ p^k $.  [[exercise|One checks]] that on the other hand, the stabilizer of a set of cosets is at most the size of their union for a *very good* reason, and furthermore is a subgroup of $G$.  In consequence,
+
++-- {: .num_theorem #pSylowModp}
+###### Theorem 
+Every $p$-subgroup $H$ of $G$ is contained in a subgroup of order $p^k$, which is necessarily a maximal $p$-subgroup.  The number of maximal $p$-subgroups including $H$ is congruent to $1$ mod $p$.
+=--
+
+One also has
+
++--  {: .num_theorem #SylowConj}
+###### Theorem
+Any two Sylow $p$-subgroups of $G$ are conjugate.
+=--
