@@ -11,29 +11,40 @@
 
 
 # Reflexive coequalisers
-* tic
+* table of contents
 {: toc}
 
 
 ## Definitions
 
++-- {: .num_defn}
+###### Definition
+
 A **reflexive pair** is a [[parallel pair]] $f,g\colon A\rightrightarrows B$ having a common [[section]], i.e. a map $s\colon B\to A$ such that $f \circ s = g \circ s = 1_B$.  A **reflexive coequalizer** is a [[coequalizer]] of a reflexive pair.  A category **has reflexive coequalizers** if it has coequalizers of all reflexive pairs.
 
 Dually, a reflexive coequalizer in the [[opposite category]] $C^{op}$ is called a __coreflexive equalizer__ in $C$.
 
+=--
 
-## Remarks
++-- {: .num_remark}
+###### Remark
 
-* Reflexive coequalizers should not be confused with [[split coequalizer]]s, a distinct concept.
+Reflexive coequalizers should not be confused with [[split coequalizers]], a distinct concept.
 
-* Any [[congruence]] is a reflexive pair, so in particular any [[quotient object|quotient]] of a congruence is a reflexive coequalizer.
+=--
 
++-- {: .num_example}
+###### Example
+
+Any [[congruence]] is a reflexive pair, so in particular any [[quotient object|quotient]] of a congruence is a reflexive coequalizer.
+
+=--
 
 ## Properties
 
 
 
-+-- {: .un_theorem #LintonTheorem}
++-- {: .num_theorem #LintonTheorem}
 ###### Theorem
 
 If $T$ is a [[monad]] on a [[cocomplete category]] $C$, then the category $C^T$ of [[Eilenberg-Moore category|Eilenberg Moore algebras]] is cocomplete if and only if it has reflexive coequalizers.  This is the case particularly if $T$ preserves reflexive coequalizers.
@@ -42,14 +53,14 @@ If $T$ is a [[monad]] on a [[cocomplete category]] $C$, then the category $C^T$ 
 
 This is due to ([Linton](#Linton)).
 
-+-- {: .un_prop}
++-- {: .num_prop #PreservingReflectiveCoequalizersInTwoVariables}
 ###### Proposition
 
 If $F\colon C\times D\to E$ is a [[functor]] of two variables which preserves reflexive coequalizers in each variable separately (that is, $F(c,-)$ and $F(-,d)$ preserve reflexive coequalizers for all $c\in C$ and $d\in D$), then $F$ preserves reflexive coequalizers in both variables together.  
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is emphatically *not* the case for arbitrary coequalizers.
@@ -58,12 +69,19 @@ This is emphatically *not* the case for arbitrary coequalizers.
 
 This result is particularly interesting when $F$ is the [[tensor product]] of a cocomplete [[closed monoidal category]] $C$.  In this case it implies that the [[free monoid monad]] on such a category preserves reflexive coequalizers, and thus (by [Linton's theorem](#LintonTheorem)) the category of [[monoid objects]] in $C$ is cocomplete. 
 
-+-- {: .un_corollary}
-###### Corollary
++-- {: .num_prop}
+###### Proposition
 
-Reflexive coequalizers in [[Set]] commute with finite [[product]]s: 
+Reflexive coequalizers in [[Set]] commute with finite [[products]]: 
 
 the $n$-fold product functors $Set^n \stackrel{\prod}{\to} Set$ preserve reflexive coequalizers. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from prop. \ref{PreservingReflectiveCoequalizersInTwoVariables} as well as from the fact that the [[diagram]] category $\{ 0 \stackrel{\overset{d_0}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_1}{\to}}} 1\}$ with $d_0 \circ s_0 = d_1 \circ s_0 = id$ is a [[sifted category]].
 
 =--
 
@@ -75,7 +93,7 @@ also preserves reflexive coequalizers.
 
 This has a further consequence which is technically very convenient: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If $T$ is a [[finitary monad]] on $Set$, then $T$ preserves reflexive coequalizers.
@@ -90,6 +108,7 @@ We have a [[coend]] formula for $T$:
 $$T(-) \cong \int^{n \in Fin} T(n) \times \hom(n, -)$$ 
 
 and since this is a colimit of functors $\hom(n, -)$ which preserve reflexive coequalizers, $T$ must also preserve reflexive coequalizers. 
+
 =--
 
 
