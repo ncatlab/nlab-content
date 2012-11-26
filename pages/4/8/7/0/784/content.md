@@ -46,8 +46,69 @@ A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal categ
 
 ## Examples
 
+### From a category
+ {#ConstructionFromACategory}
+
+Let $\mathcal{C}$ be an ordinary category. We discuss how Segal spaces are associated with this. 
+
+Let $\mathcal{K}$ be a [[groupoid]] and $p \colon \mathcal{K} \to \mathcal{C}$ a [[functor]] which is [[essentially surjective functor|essentially surjective]].
+
+Then let $X_1 \coloneqq (p/p)\in Grpd$ be the "lax fiber product" of $p$ with itself, or rather the [[comma object]] of $p$ with itself, hence the [[comma category]], sitting in the universal square
+
+$$
+  \array{
+    X_1 &\stackrel{\partial_1}{\to}& \mathcal{K}
+    \\
+    {}^{\mathllap{\partial_0}}\downarrow &\swArrow& \downarrow^{\mathrlap{p}}
+    \\
+    \mathcal{K} &\underset{p}{\to}& \mathcal{C}
+  }
+  \,.
+$$
+
+Next let $X_2 = (p/p/p)$ be the "3-fold comma category", hence the comma category in 
+
+$$
+  \array{
+    X_2 &\stackrel{\partial_{0}}{\to}& \mathcal{K}
+    \\
+    {}^{\mathllap{}}\downarrow &\swArrow& \downarrow^{\mathrlap{p}}
+    \\
+    X_1 &\underset{\partial_1}{\to}& \mathcal{C}  
+  }
+$$
+
+and so forth: $X_n \coloneqq p^{/^{n+1}}$. 
+
+This way an [[object]] of $X_n$ is an $(n+1)$-[[tuple]] of objects $(x_0,x_1, \cdots, x_n) \in \mathcal{K}$ together with a sequence of $n$ composable morphisms $p(x_0) \to p(x_1) \to \cdots \to p(x_n)$, and a [[morphism]] is an $(n+1)$-tuple of morphisms $(f_0,f_1, \cdots, f_n) \in \mathcal{K}$ and a [[pasting]] [[commuting diagram]]
+
+$$
+  \array{
+    p(x_0) &\to& p(x_1) &\to&  \cdots &\to& p(x_1) 
+    \\
+    {}^{\mathllap{p(f_0)}}\downarrow && \downarrow^{\mathrlap{p(f_1)}} && \cdots   && \downarrow^{\mathrlap{p(f_1)}}
+    \\
+    p(x'_0) &\to& p(x_1) &\to& \cdots &\to& p(x'_1) 
+  }
+$$
+
+in $\mathcal{C}$. 
+
+By direct inspection, the maps $X_n \to X^{\partial \Delta^n}$ obtained this way are [[isofibrations]], hence [[fibrations]] in the [[canonical model structure]] on [[Grpd]] and so the [[homotopy pullbacks]] that enter the [[Segal conditions]] for $X_\bullet$ are given by ordinary [[fiber products]]. These clearly satisfy the Segal conditions, hence 
+
+$$
+  X_\bullet \in Grpd^{\Delta} \hookrightarrow \infty Grpd^{\Delta^{op}}
+$$ 
+
+constructed this way is a Segal space.
+
+In the special case that $\mathcal{K} \simeq core(\mathcal{C})$ is the [[core]] of $\mathcal{C}$ and $p$ is the canonical core inclusion, one finds that $Equiv(X_1) \hookrightarrow X_1$ by the above construction is $Equiv(X_1) = Core(\mathcal{C})^{\Delta^1}$, the [[arrow category]] of the [[core]] of $\mathcal{C}$. This is [[equivalence of categories|equivalent]] to $\mathcal{C}$ by, for instance, the source or  restriction map. Hence for $p$ the core inclusion, the above construction gives the [[complete Segal space]] corresponding to the category $\mathcal{C}$.
+
+
 ### In $1Grpd$
  {#ExamplesInIGrpd}
+
+We consider the situation of the previous example, but now conversely, starting with a Segal space in groupoids and then extracting a category from it.
 
 Consider a Segal space that is degreewise just a [[1-groupoid]], hence a simplcial object in the inclusion
 
@@ -111,6 +172,7 @@ namely a lift of the whole pair $(f_0,f_1)$ to a morphism $\lambda$ in $X_1$, an
 
 Comparison with the definition of a [[2-category equipped with proarrows]] in the incarnation _[as a double category](2-category+equipped+with+proarrows#DefinitionAsDoubleCategory)_ shows that this is the beginning of the construction of a [[pseudo double category]] whose vertical category is $X_0$ and whose weak horizontal composition is that induced by the Segal maps. 
 
+Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are all the higher $X^n \to X^{\partial \Delta^n }$, for $n \geq 3$. This means that the horizontal composition in this pseudo double category has unique composites, hence that the horizontal category is an ordinary category. If then furthermore the composite $Equiv(X_1) \to X_1 \stackrel{\partial_0}{\to} X_0$ is an equivalence, hence is the Segal space is a [[complete Segal space]] this means that $X_\bullet$ arises from this horizontal category by the construction [above](#ConstructionFromACategory).
 
 
 ## Related notions
