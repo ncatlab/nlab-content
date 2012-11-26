@@ -95,8 +95,13 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 * MathOverflow: [homotopy-associative-h-space-and-coh-space](http://mathoverflow.net/questions/16711/homotopy-associative-h-space-and-coh-space)
 
 [[!redirects H-spaces]]
+
 [[!redirects H-monoid]]
+[[!redirects H-monoids]]
+
 [[!redirects H-group]]
+[[!redirects H-groups]]
+
 [[!redirects H-unitoid]]
 [[!redirects H-cogroup]]
 [[!redirects H-comonoid]]
