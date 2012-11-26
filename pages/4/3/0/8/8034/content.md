@@ -1,12 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## p-torsion of abelian groups
 
-Since any abelian group $G$ is a $\mathbb{Z}$-module we can form for any  $z\in \mathbb{N}$ the set
+Since any [[abelian group]] $G$ is a $\mathbb{Z}$-module we can form for any  $z\in \mathbb{N}$ the [[torsion subgroup]]
 
-$$G[z]:=\{z|z\in G,  zg=0\}$$
+$$G[z]:=\{g|g\in G,  z g = 0\}$$
 
-Of particular interest in this article are those cases where $z=p^n$ for a [[nLab:prime number]] $p$ and a natural number $n$.
+Of particular interest in this article are those cases where $z=p^n$ for a [[prime number]] $p$ and a [[natural number]] $n$.
 
-There are two important constructions to perform with these $G[p^n]$ namely taking limits and colimits:
+There are two important constructions to perform with these $G[p^n]$ namely taking [[limits]] and [[colimits]]:
 
 $$S_p(G):=colim_n G[p^n]$$
 
@@ -16,7 +32,7 @@ $$T_p(G):=lim G[p^n]$$
 
 
 
-Here $S_p(G)$ sometimes is called *$p$-[[nLab:torsion]] subgroup*; if $G$ is finite $S_p(G)$ is also called *[[Sylow p-subgroup]] of $G$*.
+Here $S_p(G)$ sometimes is called *$p$-[[torsion subgroup]]*; if $G$ is finite $S_p(G)$ is also called *[[Sylow p-subgroup]] of $G$*.
 
 $T_p(G)$ is called [[nLab:Tate module|p-adic Tate module]] of $G$.
 
