@@ -1,4 +1,3 @@
-[[!redirects simplicial object in an (∞,1)-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,6 +19,9 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 For $\mathcal{C}$ an [[(∞,1)-category]], a [[simplicial object]] in $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
@@ -27,6 +29,7 @@ $$
 $$
 
 from the [[opposite category]] of the [[simplex category]] into $\mathcal{C}$.
+
 
 The $(\infty,1)$-category of simplicial objects in $\mathcal{C}$ and morphisms between them is the [[(∞,1)-category of (∞,1)-functors]]
 
@@ -37,7 +40,47 @@ $$
   \,.
 $$
 
+=--
+
+For instance ([Lurie, def. 6.1.2.2](#Lurie)).
+
 ## Properties
+
+### General
+ {#General}
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathca{C} \in QCat \hookrightarrow sSet$ be an [[(∞,1)-category]] incarnated as a [[quasi-category]], and let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object. Then for $K \in sSet$ any [[simplicial set]], write
+
+$$
+  X[K] \colon \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+  \,,
+$$
+
+where the first homomorphism is the projection from the [[category of elements]] of $K$.
+
+=--
+
++-- {: .num_prop #SlicingOverPoweringOfSimplicialObjects}
+###### Proposition
+
+Let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object.
+
+If $K \to K'$ is a morphism in [[sSet]] which is a [[weak homotopy equivalence]] and a [[bijection]] on [[vertices]], then the induced morphism on [[slice-(∞,1)-categories]]
+
+$$
+  \mathcal{C}_{/X[K]}
+  \to 
+  \mathcal{C}_{/X[K']}
+$$
+
+is an [[equivalence of (∞,1)-categories]] (a [[weak equivalence]] in the [[model structure for quasi-categories]]).
+
+=--
+
+This is ([Lurie, prop. 6.1.2.6](#Lurie)).
 
 ### Cohesion
 
@@ -70,6 +113,15 @@ If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[inte
 
 * [[simplicial homotopy theory]]
 
+## Reference
+
+Section 6.1.2 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
 
 [[!redirects simplicial objects in an (∞,1)-category]]
 [[!redirects simplicial objects in an (infinity,1)-category]]
+
+[[!redirects simplicial object in an (∞,1)-category]]
