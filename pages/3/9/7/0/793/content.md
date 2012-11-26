@@ -248,6 +248,8 @@ One special cases of T-duality is [[mirror symmetry]].
 
   * [[AdS/CFT correspondence]]
 
+The geometry of the fiber product of two torus fiber bundles with a [[circle 2-bundle]] on it is sometimes referred to as _[[Bn-geometry]]_.
+
 ## References
 
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
@@ -272,5 +274,9 @@ Further references are
 * Willie Carl Merrell, _Application of superspace techniques to effective actions, complex geometry and T-duality in String theory_ ([pdf](http://www.lib.umd.edu/drum/bitstream/1903/6865/1/umi-umd-4355.pdf))
 
 * Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_ ([pdf](http://tpsrv.anu.edu.au/Members/bouwknegt/Kao.pdf))
+
+Discussion of the infinitesimal T-duality geometry, replacing [[gerbes]] on [[torus]]-[[fiber bundles]] with the corresponding [[dg-manifolds]] is in 
+
+* [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](http://arxiv.org/abs/1208.6048))
 
 For references on [[topological T-duality]] see there.
