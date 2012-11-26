@@ -49,6 +49,8 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 
 * [[Ho(sSet)]]
 
+* [[Ho(∞Grpd)]]
+
 
 category: category
 
