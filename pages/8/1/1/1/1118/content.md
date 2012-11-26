@@ -126,6 +126,7 @@ etc.
 
 * A group object in [[Set]] is a [[group]].
 * A group object in [[Top]] is a [[topological group]].
+* A group object in [[Ho(Top)]] is an [[H-group]].
 * A group object in [[Diff]] is a [[Lie group]].
 * A group object in [[SDiff]] is a [[supergroup|super Lie group]].
 * A group object in [[Grp]] is an [[abelian group]] (using the [[Eckmann-Hilton argument]]).
@@ -152,7 +153,7 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 * [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
 
-* [[infinity-groupoid]], [[infinity-groupoid object]], [[infinity-groupoid object in an (∞,1)-category]]
+* [[infinity-groupoid]], [[infinity-groupoid object]], [[groupoid object in an (∞,1)-category]]
 
 * [[ring]], [[ring object]]
 
