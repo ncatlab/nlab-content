@@ -449,6 +449,8 @@ For internalizing in an $(\infty,1)$-category $\mathcal{C}$ which is not an [[(�
 #### Relative core -- Choice of groupoid objects
  {#ChoiceOfGroupoidObjects}
 
+The structure necessary to formulate the [[complete Segal space|completeness]] condition, which in an [[(∞,1)-topos]] is def. \ref{#CategoryObject}, internal to a more general [[(∞,1)-category]] $\mathcal{C}$ is the following.
+
 +-- {: .num_defn #ChoiceOfInternalGroupoids}
 ###### Definition
 
@@ -471,11 +473,11 @@ For $\mathcal{C}$ an [[presentable (∞,1)-category]], a **choice of internal gr
 
 This is the definition of "distributor" in ([Lurie, def. 1.2.1](#Lurie)), where we are making use of ([Lurie, remark 1.2.6](#Lurie)) which identifies $\mathbf{H}$ here as being necessarily an [[(∞,1)-topos]], by the [[Giraud theorem|(∞,1)-Giraud theorem]].
 
+For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is prop. \ref{InductiveChoicesOfInternalGroupoids} below.
 
 
 
 #### Category objects
-
 
 In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqipped with a choice of internal groupoids $\mathbf{H} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}.
 
@@ -546,6 +548,59 @@ for the [[full sub-(∞,1)-category]] of internal precategories on the internal 
 =--
 
 This is ([Lurie, def. 1.2.10](#Lurie)).
+
+
+#### Iterated internalization -- Internal $n$-categories
+ {#InternalnCategories}
+
++-- {: .num_prop #InductiveChoicesOfInternalGroupoids}
+###### Proposition
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], the canonical inclusion 
+
+$$
+  \mathbf{H} \stackrel{const}{\hookrightarrow} Grpd(\mathbf{H}) \hookrightarrow Cat(\mathbf{H})
+$$
+
+is a choice of internal groupoids in $Cat(\mathbf{H})$, in the sense of def. \ref{ChoiceOfInternalGroupoids}. Moreover, by [[induction]], each of the induced inclusions
+
+$$
+  \mathbf{H} \hookrightarrow Cat(Cat(\cdots (Cat(\mathbf{H}))))
+$$
+
+is a choice of internal groupoids.
+
+=--
+
+This is ([Lurie, variant 1.3.8](#Lurie)).
+
+Therefore it makes sense to write:
+
++-- {: .num_defn #nCategoriesByRecursiveInternalization}
+###### Definition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. 
+For $n = 0$ set
+
+$$
+  0 Cat(\mathbf{H}) \coloneqq \mathbf{H}
+  \,.
+$$ 
+
+Then by [[induction]] on $n \in \mathbb{N}$ set 
+
+$$
+  (n+1)Cat(\mathbf{H}) \coloneqq Cat_{\mathbf{H}}(n Cat(\mathbf{H}))
+  \,.
+$$
+
+We call $n Cat(\mathbf{H})$ the $(\infty,1)$-category of **[[(∞,n)-categories]]** in $\mathbf{H}$, or of **[[(∞,n)-sheaves]]** or **[[stacks]] of $(\infty,n-1)$-categories** on (the [[(∞,1)-site]] of definition of) $\mathbf{H}$. 
+
+=--
+
+
+
+
 
 
 ### Enriched categories as internal categories
@@ -1064,7 +1119,7 @@ $$
   \,.
 $$
 
-This yields an inductive construction of [[(∞,n)Cat]], the [[(∞,1)-category]] of [[(∞,n)-categories]]
+This yields, with def. \ref{nCategoriesByRecursiveInternalization}, an inductive construction of [[(∞,n)Cat]], the [[(∞,1)-category]] of [[(∞,n)-categories]]
 
 $$
   Cat(Cat(\cdots (Cat_{(\infty,0)})))
