@@ -93,6 +93,9 @@ The __core__ of an $n$-[[n-category|category]] is the $n$-[[n-groupoid|groupoid]
 
 For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
+## Related concepts
+
+* [[core in a 2-category]]
 
 [[!redirects core]]
 [[!redirects cores]]
