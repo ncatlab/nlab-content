@@ -19,7 +19,7 @@
 
 ## Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $n \in \mathbb{N}$, an **$(\infty,n)$-sheaf** on (a [[(∞,1)-site]] of definition of) $\mathbf{H}$ is an $n$-fold [[category object in an (∞,1)-category|category object in]] $\mathbf{H}$, $X \in n Cat(\mathbf{H})$. 
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $n \in \mathbb{N}$, an **$(\infty,n+1)$-sheaf** on (an [[(∞,1)-site]] of definition of) $\mathbf{H}$ is an [[n-category object in an (∞,1)-category|n-fold category object in]] $\mathbf{H}$, $X \in n Cat(\mathbf{H})$. 
 
 See at _[Internal category object in an (∞,1)-category -- Iterated internalization](category+object+in+an+%28infinity%2C1%29-category#InternalnCategories)_.
 
