@@ -27,6 +27,8 @@ In the context of [[T-duality]] and in particular of [[differential T-duality]] 
 
 In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouknegt](Bouwknegt)
 
+Here "$B_n$" refers to the [[special orthogonal group]] of the form $SO(n+1,n)$, which appears as the structure group of a [[generalized tangent bundle]] tensored with a [[line bundle]] (the [[Poincare line bundle]] of the T-duality correspondence).
+
 ## Properties
 
 ### Interpretation in higher differential geometry
