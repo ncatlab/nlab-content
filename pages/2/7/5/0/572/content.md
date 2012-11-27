@@ -46,6 +46,7 @@ such that
    (this says that if a morphism is an equivalence under the explicit composition operation then it is already a morphism in $X_0$ ).
 
 ## Definition
+ {#Definition}
 
 We first discuss
 
@@ -91,20 +92,20 @@ such that
 ###### Definition
 
 For $X$ a Segal space, its **[[homotopy category]]** $Ho(X)$ is the
-category whose [[objects]] are the vertices of $X_0$ 
+[[Ho(Top)]]-[[enriched category]] whose [[objects]] are the vertices of $X_0$ 
 
 $$
   Obj(X) = (X_0)_0
 $$
 
-and for $x,y \in Obj(X)$ the [[hom set]] is 
+and for $x,y \in Obj(X)$ the [[hom object]] is the [[homotopy type]] of the [[homotopy fiber product]]
 
 $$
   Ho(X)(x,y) := \pi_0 \Big(\{x\} \times_{X_0} X_1 \times_{X_0} \{y\}\Big)
   \,.
 $$
 
-Composition 
+The [[composition]]
 
 $$
   Ho_X(x,y) \times Ho_X(y,z) \to Ho_X(x,z)
