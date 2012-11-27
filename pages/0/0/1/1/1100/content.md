@@ -404,9 +404,13 @@ should be.
 
   * [[(n,1)-topos]]
 
+* [[category object in an (∞,1)-topos]]
+
 * [[(∞,2)-topos]]
 
 * [[(∞,n)-topos]]
+
+
 
 
 [[!include locally presentable categories - table]]
