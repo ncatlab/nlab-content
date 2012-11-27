@@ -67,6 +67,10 @@ Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy
 * [[UF-IAS-2012]], _[Semi-simplicial types](http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
  {#IAS}
 
+[[Coq]]-code for semi-simplicial types in [[homotopy type theory]] is at 
+
+* [[Vladimir Voevodsky]], _[semisimplicial.v](http://uf-ias-2012.wikispaces.com/file/detail/semisimplicial.v)_
+
 For more references see those at _[[semi-simplicial set]]_ and _[[semi-Segal space]]_.
 
 [[!redirects semi-simplicial object]]
