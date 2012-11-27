@@ -69,7 +69,7 @@ $$
   Mod_C := Ab([I,C^{op}]) \stackrel{p_C}{\to} C^{op}
 $$
 
-where fiberwise (over $C^{op}$) we form abelian group objects. 
+where $I$ is the [[interval category]] and fiberwise (over $C^{op}$) we form abelian group objects. 
 
 This turns out to be the correct [[category theory|category theoretic]] definition of [[module]] (as discussed there). In fact, this is is the special case of the [[higher category theory|higher categorical]] definition that works for $C$ any [[(∞,1)-category]]. In that case the construction $Ab(C^{op}/R)$ of abelian group objects in the [[overcategory]] is generalized (straightforwardly! and in fact even more elegantly) to the notion of [[tangent (∞,1)-category]].
 
