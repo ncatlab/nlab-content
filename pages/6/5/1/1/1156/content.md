@@ -69,6 +69,8 @@ Notice however that there is ambiguity in what precisely one may mean by an $\in
 
 * [[(∞,2)-sheaf]]
 
+* [[(∞,n)-sheaf]]
+
 ## References
 
 Section 6.2.2 in 
