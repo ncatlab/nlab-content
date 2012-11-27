@@ -102,7 +102,11 @@ $$
 
 constructed this way is a Segal space.
 
-In the special case that $\mathcal{K} \simeq core(\mathcal{C})$ is the [[core]] of $\mathcal{C}$ and $p$ is the canonical core inclusion, one finds that $Equiv(X_1) \hookrightarrow X_1$ by the above construction is $Equiv(X_1) = Core(\mathcal{C})^{\Delta^1}$, the [[arrow category]] of the [[core]] of $\mathcal{C}$. This is [[equivalence of categories|equivalent]] to $\mathcal{C}$ by, for instance, the source or  restriction map. Hence for $p$ the core inclusion, the above construction gives the [[complete Segal space]] corresponding to the category $\mathcal{C}$.
+Two special case of the functor $p$ are important:
+
+* if $\mathcal{K} \simeq core(\mathcal{C})$ is the [[core]] of $\mathcal{C}$ and $p$ is the canonical core inclusion, one finds that $Equiv(X_1) \hookrightarrow X_1$ by the above construction is $Equiv(X_1) = Core(\mathcal{C})^{\Delta^1}$, the [[arrow category]] of the [[core]] of $\mathcal{C}$. This is [[equivalence of categories|equivalent]] to $\mathcal{C}$ by, for instance, the source or  restriction map. Hence for $p$ the core inclusion, the above construction gives the [[complete Segal space]] corresponding to the category $\mathcal{C}$.
+
+* if $p \colon \pi_0(\mathcal{C}) \to \mathcal{C}$ is a choice of basepoints in each [[isomorphism class]] of $\mathcal{C}$, then $X_\bullet$ is the [[Segal category]] incarnation of the category $\mathcal{C}$.
 
 
 ### In $1Grpd$
@@ -110,7 +114,7 @@ In the special case that $\mathcal{K} \simeq core(\mathcal{C})$ is the [[core]] 
 
 We consider the situation of the previous example, but now conversely, starting with a Segal space in groupoids and then extracting a category from it.
 
-Consider a Segal space that is degreewise just a [[1-groupoid]], hence a simplcial object in the inclusion
+Consider a Segal space that is degreewise just a [[1-groupoid]], hence a simplicial object in the inclusion
 
 $$
   X_\bullet \in 1Grpd^{\Delta^{op}} \hookrightarrow \infty Grpd^{\Delta^{op}}
@@ -172,7 +176,7 @@ namely a lift of the whole pair $(f_0,f_1)$ to a morphism $\lambda$ in $X_1$, an
 
 Comparison with the definition of a [[2-category equipped with proarrows]] in the incarnation _[as a double category](2-category+equipped+with+proarrows#DefinitionAsDoubleCategory)_ shows that this is the beginning of the construction of a [[pseudo double category]] whose vertical category is $X_0$ and whose weak horizontal composition is that induced by the Segal maps. 
 
-Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are all the higher $X^n \to X^{\partial \Delta^n }$, for $n \geq 3$. This means that the horizontal composition in this pseudo double category has unique composites, hence that the horizontal category is an ordinary category. If then furthermore the composite $Equiv(X_1) \to X_1 \stackrel{\partial_0}{\to} X_0$ is an equivalence, hence is the Segal space is a [[complete Segal space]] this means that $X_\bullet$ arises from this horizontal category by the construction [above](#ConstructionFromACategory).
+Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are all the higher $X^n \to X^{\partial \Delta^n }$, for $n \geq 3$, hence that $X_\bullet$ is [[coskeleton|2-coskeletal]] as a simplicial object. This means that the horizontal composition in this pseudo double category has unique composites, hence that the horizontal category is an ordinary category. If then furthermore the composite $Equiv(X_1) \to X_1 \stackrel{\partial_0}{\to} X_0$ is an equivalence, hence is the Segal space is a [[complete Segal space]] this means that $X_\bullet$ arises from this horizontal category by the construction [above](#ConstructionFromACategory).
 
 
 ## Related notions
