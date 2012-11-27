@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Black hole entropy
+
+In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenstein-Hawking entropy]] associated to a macroscopic [[black hole]]  finds an explanation as follows:
+
+the [[black hole]] [[spacetime]] is regarded as a strongly coupled condensate of strings (closed strings,, carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the string coupling is turned on. These are identified as certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collaps to a configuration that looks like a prescribed black hole spacetime.
+
+Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved, then one knows that certain observables are actually independent of the coupling constant, and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space.
+
+The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute the number of quantum microstates of open strings attached to them, hence the corresponding [[entropy]]. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match.
+
+## References
+
+Recent developments include
+
+* Oleg Lunin, Samir D. Mathur, _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
+
+[[!redirects black hole in string theory]]
