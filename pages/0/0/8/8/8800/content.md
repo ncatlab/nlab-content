@@ -28,9 +28,15 @@ A model along these lines for general with the [[simplex category]] generalized 
 
 Another model is that of [[n-fold complete Segal space]] objects.
 
+## Definition
+
+For the moment see at _[category object in an (infinity,1)-category -- n-Categories](category+object+in+an+%28infinity%2C1%29-category#InternalnCategories)_
+
 ## Related concepts
 
 * [[n-fold category]]
+
+* [[(∞,n)-sheaf]]
 
 [[!redirects n-category object in an (∞,1)-category]]
 [[!redirects internal (infinity,n)-category]]
