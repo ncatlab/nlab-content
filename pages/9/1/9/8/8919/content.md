@@ -1,0 +1,9 @@
+
+
+A _pair_ is an [[n-tuple]] for $n = 2$.
+
+A pair is a [[term]] of [[product type]], an [[element]] of a [[product]] [[object]].
+
+See at _[[ordered pair]]_.
+
+[[!redirects pairs]]
