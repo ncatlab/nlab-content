@@ -1066,10 +1066,13 @@ and extra [[properties]] that it may enjoy.
 
 * **(∞,n)-category**
 
+  * [[category object in an (∞,1)-category]]
+
   * [[n-category object in an (∞,1)-category]]
 
 * [[(n,r)-category]]
 
+* [[(∞,n)-sheaf]], [[(∞,n)-topos]]
 
 ## References ##
 
