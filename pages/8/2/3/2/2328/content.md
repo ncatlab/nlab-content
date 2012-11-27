@@ -40,8 +40,11 @@ Notice that every $(1,1)$-[[Grothendieck topos]] comes from a [[localic groupoid
 
 * [[2-topos]]
 
-* [[(∞,1)-topos]]
+* [[(∞,1)-topos]], [[(n,1)-topos]]
 
+* [[(∞,2)-topos]]
+
+* [[(∞,n)-topos]]
 
 ## References
 
