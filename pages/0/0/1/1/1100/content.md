@@ -402,7 +402,12 @@ should be.
 
   * [[model topos]]
 
+  * [[(n,1)-topos]]
+
 * [[(∞,2)-topos]]
+
+* [[(∞,n)-topos]]
+
 
 [[!include locally presentable categories - table]]
 
