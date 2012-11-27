@@ -81,7 +81,7 @@ See the section <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(inf
 
 ## Remarks
 
-If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **[[suspension]]** of $A$.
+If $\mathbf{C}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **[[suspension]]** of $A$.
 
 
 ## Characterization of deloopable objects
