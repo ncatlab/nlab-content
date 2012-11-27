@@ -149,7 +149,9 @@ $$
 
 * [[(∞,1)-sheaf]] / **$\infty$-stack**, [[sheaf of spectra]]
 
+* [[(∞,2)-sheaf]]
 
+* [[(∞,n)-sheaf]]
 
 ## References
 
