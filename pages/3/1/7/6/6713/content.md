@@ -112,6 +112,8 @@ For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witte
 
 * [[Chan-Paton bundle]]
 
+* [[black brane]], [[black hole in string theory]]
+
 [[!include table of branes]]
 
 ## References
