@@ -99,3 +99,5 @@ In some older category theory papers, arrows were written pointing from right to
 [[!redirects composite]]
 [[!redirects composites]]
 [[!redirects diagrammatic order]]
+
+[[!redirects compositions]]
