@@ -104,13 +104,15 @@ A 2-site is said to be **subcanonical** if for any $U\in C$, the representable f
 
 The 2-category $2Sh(C)$ of 2-sheaves on a small 2-site $C$ is, by definition, a [[Grothendieck 2-topos]].
 
-## Over $(n,r)$-sites
+## Properties
+
+### Characterization of over $(n,r)$-sites
 
 If the underlying [[2-site]] happens to be an [[(n,r)-site]] for $n$ and/or $r$ lower than 2, there may be other equivalent ways to think of 2-sheaves.
 
 A [[2-topos]] with a [[2-site]] of definition that happens to be just a 1-site or [[(2,1)-site]] is _1-localic_ or _(2,1)-localic_.
 
-### Over a 1-site
+#### Over a 1-site
 
 Over a 1-site, the [[Grothendieck construction]] says that [[2-functors]] on the site are equivalent to [[fibered categories]] over the site. Hence in this case the theory of 2-sheaves can be entirely formulated in terms of fibered categories. See _[References -- In terms of fibered categories](#InTermsOfFiberedCategories)_.
 
@@ -129,9 +131,11 @@ This appears as ([Bunge-Pare, corollary 2.6](#BungePare)).
  
 Moreover, over a [[1-site]] the [[2-topos]] of 2-sheaves ought to be equivalent to the (suitably defined) [[2-category]] of [[internal categories]] in the underlying [[1-topos]]. See _[References -- In terms of internal categories](#ReferencesInTermsOfInternalCategories)_.
 
-### Over a $(2,1)$-site
+#### Over a $(2,1)$-site -- As internal categories
 
 Over a [[(2,1)-site]] the [[2-topos]] of 2-sheaves ought to be equivalent to the [[2-category]] of [[internal (infinity,1)-categories]] in the corresponding [[(2,1)-topos]].
+
+This is discussed at _[2-Topos -- In terms of internal categories]_.
 
 
 
