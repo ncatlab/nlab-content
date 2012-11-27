@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 =--
 =--
 
@@ -33,6 +37,7 @@ A general abstract way of formalizing this is given in [Lurie, sections 1.1, 1.2
 There are a variety of [[model category]] structures that [[presentable (infinity,1)-category|present]] the $(\infty,1)$-category of all internal $(\infty,1)$-categories in a suitable $\mathcal{C}$, which typically go as models for _complete Segal space objects_. The soundness of these models is discussed below in _[Model category presentations](#ModelCategoryPresentations)_ ([Lurie, section 1.5](#Lurie)).
 
 ## Motivation and introduction
+ {#MotivationAndIntroduction}
 
 Before coming to the formal definitions below in [Definition](#Definition), here are some words for the reader looking for introduction and orientation into the general problem of formulating categories internally in [[homotopy theory]].
 
@@ -66,7 +71,7 @@ This is exposition is further developed in _[Segal space -- construction from a 
 
 One then recalls a basic fact of traditional [[category theory]]: a [[simplicial set]] is the [[nerve]] of a [[category]] precisely if it satisfies the [[Segal conditions]]: which say that it is built from certain iterated [[fiber products]] of the 1-[[simplices]] over the [[vertices]]. Accordingly, here one should expect that the simplicial groupoid $X_\bullet$ is built in degree $k$ by a $k$-fold [[homotopy fiber product]] of the space of 1-simplices over the space of vertices, and indeed one finds that it is. 
 
-In traditional category theory a simplicial set is the nerve of a category if and only if it satisfies the [[Segal conditions]]. Does the converse already hold here? The above inspection shows that instead of the core inclusion $i_C \colon core(C) \to C$ we could have started with _any_ [[functor]] $i \colon K \to C$ and $X_n \coloneqq i^{/^n}$ would still defined a simplicial groupoid that satisfies the [[Segal conditions]]. So in homotopy theory the Segal conditions, which witness the fact that we formed a nerve by iteraded [[homotopy fiber product]], need to be accompanied by one more condition which ensures that we are indeed forming the homotopy fiber product not of any map, but of the [[core]]-inclusion (this is often, but somewhat undescrptively, called the "[[complete Segal space|compleness]] condition", and more recently also called a [[univalence]] condition). 
+In traditional category theory a simplicial set is the nerve of a category if and only if it satisfies the [[Segal conditions]]. Does the converse already hold here? The above inspection shows that instead of the core inclusion $i_C \colon core(C) \to C$ we could have started with _any_ [[functor]] $i \colon K \to C$ and $X_n \coloneqq i^{/^n}$ would still defined a simplicial groupoid that satisfies the [[Segal conditions]]. So in homotopy theory the Segal conditions, which witness the fact that we formed a nerve by iterated [[homotopy fiber product]], need to be accompanied by one more condition which ensures that we are indeed forming the homotopy fiber product not of any map, but of the [[core]]-inclusion (this is often, but somewhat undescrptively, called the "[[complete Segal space|compleness]] condition", and more recently also called a [[univalence]] condition). 
 
 Finally, the [[nerve]] of a category in fact contains lots of redundant information. It is [[coskeleton|2-coskeletal]] and hence in a precise sense already its [[skeleton|2-skeleton]] $X_2 \stackrel{\to}{\stackrel{\to}{\to}} X_1 \stackrel{\to}{\to} X_0$ contains all the relevant information. Therefore we may decide to write this out explicitly in terms of a further [[dependent type]] $X_2$ of [[compositions]]. This explicit 2-skeletal formulation of internal [[(1,1)-categories]] in [[homotopy theory]] is spelled out below in _[(1,1)-Category types](#1CategoryTypes)_.
 
@@ -441,10 +446,30 @@ An **internal category** in an [[(∞,1)-topos]] $\mathbf{H}$ is an internal pre
 
 This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lurie)).
 
+We discuss further properties of category objects in $\mathbf{H}$ [below](#CategoryObjectsInC).
+
 ### Internal category in an $(\infty,1)$-category
  {#InAnInfinity1Category}
 
-For internalizing in an $(\infty,1)$-category $\mathcal{C}$ which is not an [[(∞,1)-topos]], we need to specify what the constant groupoid objects in $\mathcal{C}$ are supposed to be.
+For internalizing in an $(\infty,1)$-category $\mathcal{C}$ which is not an [[(∞,1)-topos]], we need to specify what the constant groupoid objects in $\mathcal{C}$ are supposed to be. This is the topic of
+
+* [Relative core -- Choice of groupoid objects](#ChoiceOfGroupoidObjects).
+
+Once one has this, the definition of
+
+* [Category objects](#CategoryObjectsInC)
+
+works essentially as [before](#CompleteCategoryInTopos) in an $(\infty,1)$-topos. The key point is that the ambient [[(∞,1)-topos]] $\mathbf{H}$ serves itself naturally as the collection of groupoid objects inside its [[(∞,1)-category]] of inernal categories and so this yields a natural notion of
+
+* [Iterated internalization -- Internal n-categories](#InternalnCategories).
+
+Internal to the archetypical base $(\infty,1)$-topos [[∞Grpd]] these are, externally, the bare [[(∞,n)-categories]]. Internal to an [[(∞,1)-category of (∞,1)-sheaves]] over some [[(∞,1)-site]], these are the [[(∞,n)-sheaves]] on that site. More on this is in the 
+
+* [Examples](#Examples)
+
+below.
+
+
 
 #### Relative core -- Choice of groupoid objects
  {#ChoiceOfGroupoidObjects}
@@ -473,11 +498,19 @@ For $\mathcal{C}$ an [[presentable (∞,1)-category]], a **choice of internal gr
 
 This is the definition of "distributor" in ([Lurie, def. 1.2.1](#Lurie)), where we are making use of ([Lurie, remark 1.2.6](#Lurie)) which identifies $\mathbf{H}$ here as being necessarily an [[(∞,1)-topos]], by the [[Giraud theorem|(∞,1)-Giraud theorem]].
 
++-- {: .num_example }
+###### Example
+
+The identity $\mathbf{H} \simeq \mathcal{C}$ is a choice of internal groupoids in $\mathbf{H}$, by the [[Giraud theorem|(∞,1)-Giraud theorem]]. For this choice the following theory of category object in $\mathcal{C}$ relative to $\mathbf{H}$ reduces to that of category objects in $\mathbf{H}$, as discussed [above](#CompleteCategoryInTopos).
+
+=--
+
 For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is prop. \ref{InductiveChoicesOfInternalGroupoids} below.
 
 
 
 #### Category objects
+ {#CategoryObjectsInC}
 
 In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqipped with a choice of internal groupoids $\mathbf{H} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}.
 
@@ -506,7 +539,7 @@ Write $PreCat_{\mathbf{H}}(\mathcal{C})$ for the $(\infty,1)$-category of intern
 
 This is the definition of _Segal object_ in ([Lurie, def. 1.2.7](#Lurie)).
 
-+-- {: .num_prop }
++-- {: .num_prop #HCore}
 ###### Proposition
 
 The inclusion
@@ -527,10 +560,10 @@ $$
 
 This is ([Lurie, prop. 1.1.14](#Lurie)).
 
-+-- {: .num_defn }
++-- {: .num_defn #HInternalCategory}
 ###### Definition
 
-An internal pre-category $A$ in $\mathcal{C}$ is called an **internal category** if 
+An internal pre-category $X_\bullet \mathcal{C}^{\Delta^{op}}$, def. \ref{PreCategoryObject}, is called an **internal category** if its $\mathbf{H}$-Core, def. \ref{HCore}, is an essentially constant groupoid object, hence if
 
 $$
   Core_{\mathbf{H}}(A) \in \mathbf{H} \stackrel{const}{\hookrightarrow} Grpd(\mathbf{H})
@@ -549,9 +582,57 @@ for the [[full sub-(∞,1)-category]] of internal precategories on the internal 
 
 This is ([Lurie, def. 1.2.10](#Lurie)).
 
++-- {: .num_defn #CategoricalEquivalence}
+###### Definition
+
+For $X_\bullet, Y_\bullet \in PreCat_{\mathcal{H}}(\mathcal{C})$, a [[morphism]] $f_\bullet \colon X_\bullet \to Y_\bullet$ of pre-category objects (hence of the underlying [[simplicial object in an (infinity,1)-category|simplicial objects]]) is a **categorical equivalence** if
+
+1. **[[essentially surjective functor|essential surjectivity]]** -- $\underset{\to}{\lim}(core(X_\bullet)) \to \underset{\to}{\lim} (core(Y_\bullet))$ is an [[equivalence in an (∞,1)-category|equivalence]] in $\mathbf{H}$;
+
+1. **[[full and faithful functor|full faithfulness]]** -- the [[diagram]]
+
+   $$   
+     \array{
+       X_1 &\stackrel{f_1}{\to}& Y_1
+       \\
+       \downarrow^{\mathrlap{(\partial_0,\partial_1)}} && \downarrow^{\mathrlap{(\partial_0,\partial_1)}}
+       \\
+       X_0 \times X_0 &\stackrel{(f_0,f_0)}{\to}& Y_0 \times Y_0
+     }
+   $$
+
+   is an [[(∞,1)-pullback]] diagram in $\mathcal{C}$.
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The inclusion $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow PreCat_{\mathbf{H}}(\mathcal{C})$ of def. \ref{HInternalCategory} is [[reflective sub-(∞,1)-category|reflective]]. The [[localization of an (∞,1)-category|reflector]]
+
+$$
+ L \colon PreCat_{\mathbf{H}}(\mathcal{C}) \to Cat_{\mathbf{H}}(\mathcal{C})
+$$
+
+inverts precisely the categorical equivalences, def. \ref{CategoricalEquivalence}.
+
+=--
+
+This is ([Lurie, theorem 1.2.13](#Lurie)).
+
++-- {: .num_remark }
+###### Remark
+
+In particular, by reflectivity, this means that a morphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in $Cat_\mathbf{H}(\mathcal{C})$ is an equivalence (hence an equivalence in $\mathcal{C}^{\Delta^{op}}$) precisely if it is a categorical equivalence.
+
+=--
+
 
 #### Iterated internalization -- Internal $n$-categories
  {#InternalnCategories}
+
+A central point of the formulation of internal category objects is that it can be iterated to yields categories objects internal to category objects ... internal to an $(\infty,1)$-topos.
 
 +-- {: .num_prop #InductiveChoicesOfInternalGroupoids}
 ###### Proposition
@@ -562,17 +643,17 @@ $$
   \mathbf{H} \stackrel{const}{\hookrightarrow} Grpd(\mathbf{H}) \hookrightarrow Cat(\mathbf{H})
 $$
 
-is a choice of internal groupoids in $Cat(\mathbf{H})$, in the sense of def. \ref{ChoiceOfInternalGroupoids}. Moreover, by [[induction]], each of the induced inclusions
+is a choice of internal groupoids in $Cat(\mathbf{H})$, in the sense of def. \ref{ChoiceOfInternalGroupoids}. Moreover, by [[induction]], each of the induced constant inclusions
 
 $$
-  \mathbf{H} \hookrightarrow Cat(Cat(\cdots (Cat(\mathbf{H}))))
+  \mathbf{H} \stackrel{const}{\hookrightarrow} Cat(Cat(\cdots (Cat(\mathbf{H}))))
 $$
 
 is a choice of internal groupoids.
 
 =--
 
-This is ([Lurie, variant 1.3.8](#Lurie)).
+This is ([Lurie, corollary 1.3.4, variant 1.3.8](#Lurie)).
 
 Therefore it makes sense to write:
 
@@ -598,6 +679,7 @@ We call $n Cat(\mathbf{H})$ the $(\infty,1)$-category of **[[(∞,n)-categories]
 
 =--
 
+See also at _[[n-category object in an (∞,1)-category]]_.
 
 
 
@@ -1042,6 +1124,7 @@ such that
 
  
 ## Examples
+ {#Examples}
 
 ### The relative contexts
 
@@ -1203,6 +1286,11 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 [[!redirects category objects in (∞,1)-categories]]
 [[!redirects category objects in an (infinity,1)-category]]
 [[!redirects category objects in (infinity,1)-categories]]
+
+[[!redirects category object in an (∞,1)-topos]]
+[[!redirects category objects in an (∞,1)-topos]]
+[[!redirects category object in an (infinity,1)-topos]]
+[[!redirects category objects in an (infinity,1)-topos]]
 
 
 [[!redirects internal (∞,1)-category]]
