@@ -167,6 +167,11 @@ If $\mathcal{G}$ is an [[(∞,n)-category]] then a $n$-localic $\mathcal{G}$-[[s
 
 This is [StrSp, lemma 2.6.17](#LurieStructured)
 
+## Related concepts
+
+* [[localic topos]]
+
+* [[n-localic 2-topos]]
 
 
 ## References
