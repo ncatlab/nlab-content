@@ -113,11 +113,13 @@ For literature on [[internal categories]] in [[1-toposes]] see at _[[2-sheaf]]_.
 
 * [[(0,1)-topos]]
 
-* [[topos]], [[(∞,1)-topos]]
+* [[topos]], [[(∞,1)-topos]], [[(n,1)-topos]]
 
 * **2-topos**, [[(∞,2)-topos]]
 
 * [[n-topos]]
+
+* [[(∞,n)-topos]]
 
 ## References
 
