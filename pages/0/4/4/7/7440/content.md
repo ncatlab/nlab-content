@@ -1126,6 +1126,8 @@ such that
 ## Examples
  {#Examples}
 
+We discuss some examples and applications of the above notions. For more on examples internal to $\infty Grpd$ see also at _[Segal space -- examples](Segal+space#Examples)_.
+
 ### The relative contexts
 
 +-- {: .num_prop}
