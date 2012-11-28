@@ -45,8 +45,27 @@ is a [[homotopy pullback]] square.
 A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal category]]_. See there for more dicussion.
 
 ## Examples
+ {#Examples}
 
-### From a category
+### In $Set$
+ {#InSetByNervesOfCategories}
+
+For $\mathcal{C}$ a ([[small category|small]]) [[category]] we may regard its ordinary [[nerve]] [[simplicial set]] $N(\mathcal{C}) \in Set^{\Delta^{op}}$ as a Segal space, under the canonical inclusion $Set \hookrightarrow \infty Grpd$,
+
+$$
+  N(\mathcal{C}) \in Set^{\Delta^{op}} \hookrightarrow \infty Grpd^{\Delta^{op}}
+  \,.
+$$
+
+In fact, the classical "nerve theorem" about the [[Segal conditions]] says that a simplicial set is the nerve of a category precisely if it is a Segal space.
+
+Notice that $Equiv(N(\mathcal{C})_1) \hookrightarrow N(\mathcal{C})_1$ is precisely the [[subset]] of [[isomorphisms]] in all [[morphisms]] of $\mathcal{C}$.
+
+Therefore under this identification, $N(\mathcal{C})$ is a [[complete Segal space]] precisely if the only isomorphisms in $\mathcal{C}$ are the [[identities]]. 
+
+In particular if $\mathcal{C}$ is a [[(0,1)-category]], hence a [[preordered set]], then $N(\mathcal{C})$ is complete Segal precisely if $\mathcal{C}$ is in fact an [[partially ordered set]].
+
+### Construction in $1Grpd$ from a category
  {#ConstructionFromACategory}
 
 Let $\mathcal{C}$ be an ordinary category. We discuss how Segal spaces are associated with this. 
@@ -112,7 +131,7 @@ Two special case of the functor $p$ are important:
 ### In $1Grpd$
  {#ExamplesInIGrpd}
 
-We consider the situation of the previous example, but now conversely, starting with a Segal space in groupoids and then extracting a category from it.
+We consider the situation of _[From a category](#ConstructionFromACategory)_, but now conversely, starting with a Segal space in groupoids and then extracting a category from it.
 
 Consider a Segal space that is degreewise just a [[1-groupoid]], hence a simplicial object in the inclusion
 
