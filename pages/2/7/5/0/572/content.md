@@ -207,6 +207,8 @@ The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex
 ## Examples
  {#Examples}
 
+We discuss some examples. For more and more basic examples see also at _[Segal space -- Examples](Segal+space#Examples)_.
+
 ### Ordinary categories as complete Segal spaces
  {#OrdinaryCategoriesAsCompleteSegalSpaces}
 
