@@ -67,7 +67,7 @@ In [[∞Grpd]] a morphism between _[[0-truncated]]_ [[object]]s ([[set]]s)
 
 Therefore between 0-truncated objects the (-1)-connected/(-1)-truncated factorization system is the [[epi/mono factorization system]] and hence [[image]] factorization.
 
-Generally, the (-1)-connected/(-1)-truncated factorization is through the **[[∞-image]]** ([[homotopy image]]) (see there for more details).
+Generally, the (-1)-connected/(-1)-truncated factorization is through the **$\infty$-categorical [[1-image]]**, the _[[homotopy image]]_ (see there for more details).
 
 
 ### The case $n = 0$
@@ -78,7 +78,7 @@ A morphism $X \to Y$ is [[0-truncated]] precisely if it is a [[faithful functor]
 
 A morphism $X \to Y$ is [[0-connected]] precisely if it is a [[full functor]] and an [[essentially surjective functor]].
 
-Therefore on 1-trypes the 0-connected/0-truncated factorization system is the [[(eso+full, faithful) factorization system]].
+Therefore on homotopy 1-trypes the 0-connected/0-truncated factorization system is the [[(eso+full, faithful) factorization system]].
 
 ## References
 
