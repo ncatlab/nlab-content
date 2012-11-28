@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type theory]] what is called the _UIP axiom_, the axiom of _uniqueness of identity proofs_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]].
+
+The axiom asserts that any two [[terms]] of the same [[identity type]] 
+$Id A(x,y)$ are themselves [[propositional equality|propositionally equal]] (in the corresponding higher identity type).
+
+## Statement
+
+$$
+  UIP
+  \colon
+  \underset{A \colon Type}{\prod} 
+  \underset{x,y \colon A}{\prod}
+  \underset{p,q \colon Id_A(x,y)}{\prod}
+  [ Id_{Id_A(x,y)}(p,q) ]
+  \,.
+$$
+
+
+## Related concepts
+
+* [[axiom K]]
+
+## References
+
+* Pierre Corbineau, _The K axiom  in Coq (almost) for free_ ([pdf](http://coq.inria.fr/files/adt-2fev10-corbineau.pdf)) 
+
+
+[[!redirects uniqueness of identity proofs]]
+[[!redirects UIP]]
