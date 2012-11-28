@@ -45,6 +45,8 @@ with those of
 
 * H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
 
+* [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134))
+
 The article
 
 * Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 { 486
