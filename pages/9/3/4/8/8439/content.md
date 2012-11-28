@@ -49,5 +49,7 @@ The [[logic]] and [[type theory]]-approaches were later combined in the [[Elf]] 
 
 * Randy Pollack, _Some recent logical frameworks_ (2010) ([pdf](http://homepages.inf.ed.ac.uk/rpollack/export/canonicalLF_talk.pdf))
 
+* [[UF-IAS-2012]], _[Logical frameworks](http://uf-ias-2012.wikispaces.com/Logical+Frameworks)_
+
 [[!redirects logical frameworks]]
 
