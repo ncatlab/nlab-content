@@ -315,6 +315,14 @@ Some of the first work noticing the homotopical / higher-categorical interpretat
 
 In retrospect, this is roughly an algebraic version of the standard fact that every object of a model category (or more generally a [[category of fibrant objects]] or a category with a weak factorization system) admits a [[simplicial resolution]] which is an [[internalization|internal]] [[Kan complex]], i.e. a nonalgebraic $\infty$-groupoid.  Note, however, that the first technical condition above (stability of $L$-maps under pullback along $R$-maps) seems to be necessary for the algebraic version of the result to go through.
 
+## Related concepts
+
+* [[intensional type theory]], [[extensional type theory]]
+
+* [[axiom K]]
+
+* [[axiom UIP]]
+
 
 
 ## References
