@@ -56,9 +56,9 @@ A different, also equivalent, way of presenting definitionally extensional type 
 
 In a propositionally extensional type theory, we still distinguish [[definitional equality|definitional]] and [[propositional equality]], but no two terms can be propositionally equal in more than one way (up to propositional equality).  In the language of [[homotopy type theory]], this means that all types are [[h-sets]].  There are a number of equivalent ways to force this to be true by adding [[axioms]] to type theory.
 
-1. We can add as an axiom the "uniqueness of identity proofs" (UIP) property that any two inhabitants of the same identity type $Id_A(x,y)$ are themselves equal (in the corresponding higher identity type).
+1. We can add as an axiom the "uniqueness of identity proofs" ([[axiom UIP]]) property that any two inhabitants of the same identity type $Id_A(x,y)$ are themselves equal (in the corresponding higher identity type).
 
-1. We can add Streicher's *axiom K* which says that any inhabitant of a self-equality type $Id_A(x,x)$ is (propositionally) equal to the identity/reflexivity equality $1_x$.  (Axiom K is so named because $K$ comes after $J$, and $J$ usually denotes the eliminator for identity types.)
+1. We can add Streicher's *[[axiom K]]* which says that any inhabitant of a self-equality type $Id_A(x,x)$ is (propositionally) equal to the identity/reflexivity equality $1_x$.  (Axiom K is so named because $K$ comes after $J$, and $J$ usually denotes the eliminator for identity types.)
 
 1. In the presence of [[dependent sum types]], we can add an axiom saying that if $(a,b_1)$ and $(a,b_2)$ are pairs in a dependent sum $\sum_{x\colon A} B(x)$ with the same first component, and the identity type $Id_{\sum_{x\colon A} B(x)}((a,b_1), (a,b_2))$ is inhabited, then so is $Id_a(b_1,b_2)$.
 
@@ -90,6 +90,12 @@ Thanks for your suggestions; I've tried to incorporate some of them.  If you wan
 
 Only the intensional, but not the extensional, [[Martin-Löf type theory]] is [[decidability|decidable]].  See _[[intensional type theory]]_ for more on this.
 
+## Related concepts
+
+* [[axiom K]], [[axiom UIP]]
+
+* [[intensional type theory]], [[homotopy type theory]]
+
 ## Examples
 
 * [[NuPRL]]
@@ -106,6 +112,3 @@ Among the most thorough recent treatments of extensional type theory are
 
 [[!redirects extensional type theory]]
 [[!redirects extensional type theories]]
-[[!redirects uniqueness of identity proofs]]
-[[!redirects UIP]]
-[[!redirects axiom K]]
