@@ -17,7 +17,12 @@
 
 _Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]].  In other words, they are determined by their [[extension (semantics)|extensions]] --- the collection of pairs of points which are equal.  Type theory which is not extensional is called _[[intensional type theory]]_.
 
-Note that the word "extensional" in type theory (even when applied to identity types) sometimes refers instead to the axiom of  [[function extensionality]].  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.  In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].
++-- {: .num_remark}
+###### Remark
+
+The word "extensional" in type theory (even when applied to identity types) sometimes refers instead to the axiom of  [[function extensionality]].  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.  In particular, [[homotopy type theory]] is [[intensional type theory|intensional]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].
+
+=--
 
 
 ## Definition
@@ -27,29 +32,29 @@ The basic definition of [[identity types]] as an [[inductive type]] family makes
 
 ### Definitional extensionality
 
-In a definitionally extensional type theory, any inhabitant of an identity type $p:Id_A(x,y)$ induces a [[definitional equality]] between $x$ and $y$.  In other words, we have an "equality reflection rule" of the form
+In a definitionally extensional type theory, any [[inhabitant]] of an identity type $p:Id_A(x,y)$ induces a [[definitional equality]] between $x$ and $y$.  In other words, we have an "equality reflection rule" of the form
 
 $$ \frac{p:Id_A(x,y)}{x\equiv y} $$
 
-At first, this may appear to be only a "[[skeleton|skeletality]]" assumption, since it does not assert explicitly that $p$ is reflexivity rather than a nontrivial loop.  However, we can derive this with the induction rule for identity types.  Consider the dependent type
+At first, this may appear to be only a "[[skeleton|skeletality]]" assumption, since it does not assert explicitly that $p$ is [[reflexive relation|reflexivity]] rather than a nontrivial [[automorphism|loop]].  However, we can derive this with the induction rule for identity types.  Consider the [[dependent type]]
 
 $$ (x:A),(y:A),(p:Id_A(x,y)) \;\vdash\; Id_{Id_A(x,y)}(p,refl(x)). $$
 
-This is well-typed because the reflection rule applied to $p$ yields a definitional equality $x\equiv y$, so that we have $refl(x):Id_A(x,y)$.  Moreover, substituting $x$ for $y$ and $refl(x)$ for $p$ yields the type $Id_{Id_A(x,x)}(refl(x),refl(x))$, which is inhabited by $refl(refl(x))$.
+This is well-typed because the reflection rule applied to $p$ yields a definitional equality $x\equiv y$, so that we have $refl(x):Id_A(x,y)$.  Moreover, [[substitution|substituting]] $x$ for $y$ and $refl(x)$ for $p$ yields the type $Id_{Id_A(x,x)}(refl(x),refl(x))$, which is inhabited by $refl(refl(x))$.
 
-Thus, by induction on identity, we have a term in the above type, witnessing a propositional equality between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a definitional equality $p\equiv refl(x)$.
+Thus, by induction on identity, we have a term in the above type, witnessing a [[propositional equality]] between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a definitional equality $p\equiv refl(x)$.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 On the other hand, if in addition to the equality reflection rule we postulate that all equality proofs are definitionally equal to reflexivity, then we can derive the induction rule for identity types.  Definitionally extensional type theory is often presented in this form.
 =--
 
-A different, also equivalent, way of presenting definitionally extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see [here](/nlab/show/identity+type#EtaConversion).
+A different, also equivalent, way of presenting definitionally extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
 
 
 ### Propositional extensionality
 
-In a propositionally extensional type theory, we still distinguish definitional and propositional equality, but no two terms can be propositionally equal in more than one way (up to propositional equality).  In the language of [[homotopy type theory]], this means that all types are [[h-sets]].  There are a number of equivalent ways to force this to be true by adding axioms to type theory.
+In a propositionally extensional type theory, we still distinguish [[definitional equality|definitional]] and [[propositional equality]], but no two terms can be propositionally equal in more than one way (up to propositional equality).  In the language of [[homotopy type theory]], this means that all types are [[h-sets]].  There are a number of equivalent ways to force this to be true by adding [[axioms]] to type theory.
 
 1. We can add as an axiom the "uniqueness of identity proofs" (UIP) property that any two inhabitants of the same identity type $Id_A(x,y)$ are themselves equal (in the corresponding higher identity type).
 
