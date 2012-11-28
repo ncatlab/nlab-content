@@ -6,27 +6,34 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 =--
 =--
 
-> This entry is about the notion of _skeleton_ for categories. For the notion of (co)skeletal simplicial sets see [[simplicial skeleton]].
+
+> This entry is about the notion of _skeleton_ in [[category theory]]. For the notion of (co)skeletal [[simplicial sets]] see at _[[simplicial skeleton]]_.
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definitions
 
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (This is an irredeemably [[evil]] notion.)
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (So this is a notion irredeemably violating the [[principle of equivalence]] of [[category theory]].)
 
 Traditionally, a __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of $C$ whose [[inclusion functor]] exhibits it as 
 [[equivalence of categories|equivalent]] to $C$.
 
 However, in the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be *any* skeletal category which is [[equivalence of categories|weakly equivalent]] to $C$.
 
-## Existence of skeletons
+## Properties
 
-+-- {: .un_theorem}
+### Existence of skeletons
+
++-- {: .num_theorem}
 ###### Theorem
 
 If the [[axiom of choice]] holds, then every category $C$ has a skeleton (in the strongest sense).
@@ -50,7 +57,7 @@ In fact, the statement that every (possibly [[small category|small]]) category h
 
 Even with the more general notion of weak or ana-[[equivalence of categories]], some amount of choice is required to show that every category has a skeleton.  It would be interesting to know the precise strength of the statement "every category is weakly equivalent to a skeletal one."  One thing we can say without any choice is:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Any [[thin category]] (i.e. any [[preordered set]]) has a skeleton (in the sense of weak equivalence).
 =--
@@ -66,7 +73,7 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 =--
 
 
-## Equivalents of choice
+### Equivalents of choice
 
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
 
@@ -87,7 +94,7 @@ For convenience we add:
 1. Given an inhabited family $\{S_i\}_I$ of equinumerous sets there exists $0 \in I$  and a family of isomorphisms of the permutation groups $\{Aut(S_0) \to Aut(S_i)\}_I$.
 1. Given a family $\{S_i\}_I$ of inhabited equinumerous sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i \in I$.
 
-## Uniqueness of constructions
+### Uniqueness of constructions
 
 It is well-known that objects defined by [[universal property|universal properties]] in a category, such as [[limits]] and [[colimits]], are not unique on the nose, but only unique up to unique canonical isomorphism.  It can be tempting to suppose that in a *skeletal* category, where any two isomorphic objects are equal, such objects will in fact be unique on the nose.  However, under the most appropriate definition of "unique," this is *not* true (in general), because of the presence of automorphisms.
 
@@ -96,6 +103,8 @@ More explicitly, consider the notion [[cartesian product]] in a category.  Altho
 For example, given any projections $A\times B\to A$ and $A\times B\to B$ that exhibit $A\times B$ as a product of $A$ and $B$, we can compose them both with any automorphism of $A\times B$ to get a new, different, pair of projections that also exhibit $A\times B$ as a product of $A$ and $B$.  In fact, the universal property of a product implies that any two pairs of projections are related by an automorphism of $A\times B$, so this example is generic.  Thus, even in a skeletal category, we cannot speak of "the" product of $A$ and $B$, except in the same [[generalized the|generalized sense]] that makes sense in any category.  A formal way to say this is that the "category of products of $A$ and $B$," while still *equivalent* to the [[trivial category]], as it is in any category with products, will not be *isomorphic* to the trivial category even when the ambient category is skeletal.
 
 (It is true in a few cases, though, that skeletality implies uniqueness on the nose.  For instance, a [[terminal object]] can have no nonidentity automorphisms, so in a skeletal category, a terminal object (if one exists) really is unique on the nose.)
+
+
 
 
 [[!redirects skeleta]]
