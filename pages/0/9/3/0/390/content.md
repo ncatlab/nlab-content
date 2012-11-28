@@ -259,7 +259,11 @@ Several classical examples of OFS $(E,M)$:
 
 * In [[Cat]], $E$ = [[bo functors]], $M$ = [[fully faithful functors]]: the [[bo-ff factorization system]]
 
-* (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibration]]s 
+* In [[Cat]], [[(eso, fully faithful) factorization system]]
+
+* In [[Cat]], [[(eso+full, faithful) factorization system]]
+
+* (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibrations]] 
 
 * (Street) in $\mathrm{Cat}$,  $M$ = 0-[[initial functors]], $M$ = [[discrete opfibration]]s
 
