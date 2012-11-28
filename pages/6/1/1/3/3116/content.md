@@ -213,5 +213,8 @@ For more, see:
 
 and the comments on this blog entry.
 
+Supergeometry, extension of the concept of super Fermat theory is introduced in
+
+* David Carchedi, Dmitry Roytenberg, _On theories of superalgebras of differentiable functions_, [arxiv/1211.6134](http://arxiv.org/abs/1211.6134)
 
 [[!redirects fermat theory]]
