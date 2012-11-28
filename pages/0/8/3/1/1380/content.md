@@ -1,1 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 Just as a [[strict 2-category]] is a [[category]] [[enriched category|enriched]] over [[Cat]], a **strict 2-functor** is a [[functor]] enriched over $Cat$ in a $1$-[[1-category|categorial]] sense.
+
+## Related concepts
+
+* [[2-functor]]
+
+* [[strict 2-groupoid]]
+
+[[!redirects strict 2-functors]]
