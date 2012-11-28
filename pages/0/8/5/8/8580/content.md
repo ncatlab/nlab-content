@@ -7073,9 +7073,9 @@ By the discussion at [[n-image]] and using arguments as for the concretification
 
 * $\sharp_1 [X, \mathbf{B}U(1)]$ looks similarly, just without the connection information;
 
-* $\sharp_1 [X, U_{\mathbf{B}U(1)_{conn}}]$ simply forgets the connection data on the collections of bundles-with-connection; the point to notice is that oveach each chart $U$ it is a [[fibration]]([[isofibration]]): given a $\Gamma(U)$-parameterized collection of gauge transformations out of a smoothly $U$-parameterized collection of bundles and then a smooth choice of smooth connections on these bundles, the $\Gamma(U)$ collection of gauge transformations of course also acts on these connections;
+* $\sharp_1 [X, U_{\mathbf{B}U(1)_{conn}}]$ simply forgets the connection data on the collections of bundles-with-connection; the point to notice is that over each chart $U$ it is a [[fibration]]([[isofibration]]): given a $\Gamma(U)$-parameterized collection of gauge transformations out of a smoothly $U$-parameterized collection of bundles and then a smooth choice of smooth connections on these bundles, the $\Gamma(U)$ collection of gauge transformations of course also acts on these connections to yield a $\Gamma(U)$-parameterized collection of transformation on the $U$-parameterized collection of connections;
 
-* $\sharp_2 [X, \mathbf{B} U(1)] \simeq [X, \mathbf{B} U()1]$ (because if two gauge transformations of bundles on $U \times X$ coindide on each point of $U$ as gauge tranformations on $X$, then they were already equal).
+* $\sharp_2 [X, \mathbf{B} U(1)] \simeq [X, \mathbf{B} U(1)]$ (because if two gauge transformations of bundles on $U \times X$ coincide on each point of $U$ as gauge tranformations on $X$, then they were already equal).
 
 From the third item it follows, by the discussion at [[homotopy pullback]], that we may compute equivalently simply the pullback in the 1-category of groupoid-valued presheaves on [[CartSp]]. This means that a $U$-plot of $U(1)\mathbf{Conn}(X)$ is a smoothly $U$-parameterized collection $\{\nabla_u\}$ of connections on $X$, and that a morphism between such as a $\Gamma(U)$-parameterized collection of gauge transformations $\{\phi_u\}$ of connections, such that their underlying collection of gauge transformations of bundles is a smoothly $U$-parameterized family. But gauge transformations of 1-connections are entirely determined by the underlying gauge transformation of the underlying bundle, and so this just means that also the morphism of $U$-plots of $U(1)\mathbf{Conn}(X)$ are smoothly $U$-paramezerized collections of gauge transformations. 
 
@@ -7085,104 +7085,7 @@ From the third item it follows, by the discussion at [[homotopy pullback]], that
 ##### For circle-principal 2-connections
  {#DifferentialModuliCircle2Bundles}
 
-We now disucss moduli of [[circle n-bundle with connection|circle 2-bundles with connection]] over a given base $X$.
-
-Recall that by def. \ref{UBnU1connk} we write
-
-$$
-  \mathbf{B}^2U(1)_{conn^1} \coloneqq DK(U(1) \stackrel{\mathbf{d}}{\to} \Omega^1 \to 0)
-  \,.
-$$
-
-
-+-- {: .num_defn #BU1ConnXByFiberProductOfSharpn}
-###### Definition
-
-For $X \in Smooth \infty Grpd$ write
-
-$$
-  (\mathbf{B}U(1))\mathbf{Conn}(X)
-  \coloneqq
-  \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
-  \underset{\sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]}{\times}
-  \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
-  \underset{\sharp_2 [X, \mathbf{B}^2 U(1)]}{\times}
-  \sharp_3 [X, \mathbf{B}^2 U(1)]
-$$
-
-for the [[homotopy limit]] in the [[diagram]]
-
-$$
-  \array{
-    (\mathbf{B}U(1))\mathbf{Conn}(X) &\to& &\to& 
-    \sharp_3 [X, \mathbf{B}^2 U(1)]
-    \\
-    \downarrow && && \downarrow
-    \\
-    && \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
-   &\to& 
-    \sharp_2 [X, \mathbf{B}^2 U(1)]
-    \\
-    \downarrow && \downarrow
-    \\
-    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
-    &\stackrel{}{\to}&
-    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]
-  }
-  \,.
-$$
-
-Here the horizontal morphisms are those induced under the [[n-image]] by those of def. \ref{UBnU1connk}  and where the vertical morphisms are the [[n-image]]-projections, as discussed there.
-
-We call this the _moduli 2-stack of circle-principal 2-connections_ on $X$. 
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-The smooth 2-groupoid $(\mathbf{B}U(1))\mathbf{Conn}(X)$ of 
-def. \ref{BU1ConnXByFiberProductOfSharpn} is indeed the smooth moduli object of [[circle n-bundle with connection|circle-principal 2-connections]] on $X$; in that its $U$-plots of  are smoothly $U$-parameterized collections of smooth circle-principal 2-connections on $X$ and its morphisms of $U$-plots are smoothly $U$-parameterized collections of smooth gauge transformation between these, on $X$, and
-similarly for its 2-morphisms.
-
-=--
-
-+-- {: .proof}
-###### Proof (sketch)
-
-By a variant of the [[pasting law]] one sees that the defining 
-[[homotopy limit]] may be computed as the pasting of [[homotopy pullbacks]]
-
-$$
-  \array{
-    (\mathbf{B}U(1))\mathbf{Conn}(X) 
-    &\to& 
-    A
-    &\to& 
-    \sharp_3 [X, \mathbf{B}^2 U(1)]
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    B &\to & \sharp_2 [X, \mathbf{B}^2 U(1)_{conn^1}] 
-   &\to& 
-    \sharp_2 [X, \mathbf{B}^2 U(1)]
-    \\
-    \downarrow && \downarrow
-    \\
-    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]
-    &\stackrel{}{\to}&
-    \sharp_1 [X, \mathbf{B}^2 U(1)_{conn^1}]
-  }
-  \,.
-$$
-
-For each of these smaller homotopy-pullback squares the reasoning is directly analogous to that in the proof of prop. \ref{U1ConnXIsIndeedDifferentialModuli}:
-
-Starting in the bottom left, $\sharp_1 [X, \mathbf{B}^2 U(1)_{conn}]$ has over $U \in CartSp$ smoothly $U$-parameterized collections of 2-connections on $X$ as objects, but discretely $\Gamma(U)$-parameterized collections of morphisms and 2-morphisms between them. The morphism to the right forgets just the local differential 2-form part of a 2-connection (keeping the 1-form part). This has the effect that where in $\sharp_2 [X,\mathbf{B}^2 U(1)_{conn^1}]$ the 1-morphisms over $U$ are gauge transformations of such truncated 2-connections over $U \times X$, these are now not forced to strictly fix the curvature along $U$, hence these are smoothly $U$-parameterized collections of gauge transformation on $X$ (between truncated 2-connections). So the pullback object $B$ combines these two aspects and hence has as objects and as 1-morphisms now smoothly $U$-parameterized collections of connections and gauge transformations on $X$, respectively, and only the 2-morphisms of $B$ keep beeing discretely $\Gamma(U)$-parameterized collections of 2-gauge transformations.
-
-Similarly then, $A$ is already the correct smooth moduli 2-stack, but of truncated connections, and so finally the fiber product of $A$ with $B$ forces the discrete families of 2-morphisms of untruncated gauge transformations to have underlying smooth families of 2-morphisms of truncated gauge transformations. But since these uniquely fix the untruncated ones, this makes $(\mathbf{B}U(1))\mathbf{Conn}(X)$ have the correct smooth collections of structures in each degree.
-
-=--
+(...)
 
 #### Higher holonomy
  {#Holonomy}
