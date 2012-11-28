@@ -98,6 +98,9 @@ See also at _[[category object in an (infinity,1)-category]]_ for more along the
 [[!redirects $\infty$-groupoid]]
 
 [[!redirects weak omega-groupoid]]
+[[!redirects weak ∞-groupoid]]
+[[!redirects weak omega-groupoids]]
+[[!redirects weak ∞-groupoids]]
 
 category:∞-groupoid
 
