@@ -6,6 +6,7 @@ Some special functions come out of analysis of Calogero models, like [[Jack poly
 * [[D. Kazhdan]], [[B. Kostant]], [[S. Sternberg]], _Hamiltonian group actions and dynamical systems of Calogero type_, Comm. Pure Appl. Math. __31__ (1978), 481-508, [MR478225](http://www.ams.org/mathscinet-getitem?mr=478225), [doi](http://dx.doi.org/10.1002/cpa.3160310405)
 * H. Airault, H. P. McKean, J. Moser, _Rational and elliptic solutions of the Korteweg-de Vries equation and a related many-body problem_, Comm. Pure Appl. Math. __30__ (1977), no. 1, 95--148; [MR0649926](http://www.ams.org/mathscinet-getitem?mr=649926), [doi](http://dx.doi.org/10.1002/cpa.3160300106)
 * E. Mukhin, V. Tarasov, A. Varchenko, _KZ characteristic variety as the zero set of classical Calogero-Moser Hamiltonians_, [arxiv/1201.3990](http://arxiv.org/abs/1201.3990)
+* Sergio Andraus, Makoto Katori, Seiji Miyashita, _Calogero-Moser systems as a diffusion-scaling transform of Dunkl processes on the line_, [arxiv/1211.6561](http://arxiv.org/abs/1211.6561)
 
 On Calogero-Moser correspondence:
 
