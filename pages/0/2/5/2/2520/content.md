@@ -30,7 +30,7 @@ For emphasis the description of dynamics by action functionals is called the **L
 
 ## Definition
 
-Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with an additive [[line object]] $\mathbb{A}^1$ (see there). Let $C \in \mathbf{H}$ be the [[configuration space]] of a physical system. Then an **action functional** is a morphism
+Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with an additive [[continuum]] [[line object]] $\mathbb{A}^1$ (see there). Let $C \in \mathbf{H}$ be the [[configuration space]] of a physical system. Then an **action functional** is a morphism
 
 $$
   \exp(i S(-)) : C \to \mathbb{A}^1 / \mathbb{Z}
@@ -40,19 +40,25 @@ $$
 If $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">intrinsic differential</a> of the action functional to a morphism
 
 $$
-  d \exp(i S(-)) : C \to \mathbf{\flat}_{dR}\mathbb{A}^1/\mathbb{Z}
+  \mathbf{d} \exp(i S(-)) : C \to \mathbf{\flat}_{dR}\mathbb{A}^1/\mathbb{Z}
   \,.
 $$
 
-This is the [[Euler-Lagrange equation]] of the system. The [[critical locus]] of $S$ is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system. If $\mathbf{H}$ models [[derived geometry]] then this critical locus is presented by a [[BRST-BV complex]].
+The [[equation]]
+
+$$  
+  \mathbf{d} \exp(i S(-)) = 0
+$$
+
+is the [[Euler-Lagrange equation]] of the system. It characterizes the [[critical locus]] of $S$ is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system. If $\mathbf{H}$ models [[derived geometry]] then this critical locus is presented by a [[BRST-BV complex]].
 
 
-## Local action functionals
+### Local action functionals (traditional theory)
  {#LocalActionFunctional}
 
-An action functional is called **local** if it arises from integration of a [[Lagrangian]].
+An action functional is called **local** if it arises from integration of a [[Lagrangian]]. 
 
-More precisely, an action functional $S : C \to \mathbb{A}^1$ is called local if
+In traditional theory this is interpreted as follows: an action functional $S : C \to \mathbb{A}^1$ is called local if
 
 * the [[configuration space]] $C$ is the space $C = \Gamma_X(E)$ of [[section]]s of a [[fiber bundle]] $E \to X$ over some parameter space ([[spacetime]] $X$);
 
@@ -67,10 +73,6 @@ More precisely, an action functional $S : C \to \mathbb{A}^1$ is called local if
 
   where $j_\infty(\phi) = (\phi, \partial_i \phi, \cdots)$ is the jet-prolongation of $\phi$ (the collection of all its higher partial derivatives).
 
-+-- {: .query}
-[[Tobias Fritz]]: I think that this definition doesn't cover all the relevant cases: in gauge theory, the configuration space is not the space of sections of one bundle, but rather the bundle itself can vary. Even more generally, I imagine that one could take the configuration space to be a (higher) sheaf and still make sense of a local action?
-=--
-
 Consider action functional for on a configuration space of 
 [[smooth function]]s from the line to a [[smooth manifold]] $X$.
 
@@ -82,6 +84,67 @@ We can consider
 
 The formulation of (3) above is still not manifestly coordinate independent.  However, $\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z\,\mathrm{d}t$ is simply the [[volume form]] on spacetime and $\dot{q}$ is merely one choice of coordinate on [[configuration space|state space]] and could just as easily be replaced by a derivative with respect to any timelike coordinate on spacetime (or drop coordinates altogether).
 
+### Extended local action functionals in (higher) gauge theory
+ {#ExtendedLocalInGaugeTheory}
+
+For [[gauge theories]] and [[higher gauge theories]] the configuration spaceds of the physical system are in general not plain [[manifolds]] or similar, but are [[orbifolds]] or more generally [[smooth groupoids]], [[smooth ∞-groupoids]]. (An exposition of and introduction to much of the following is at _[[geometry of physics]]_.)
+
+For instance for $G$ a [[Lie group]] and $\mathbf{B}G_{conn}$ the smooth [[moduli stack]] of $G$-[[principal connections]] (see at [[connection on a bundle]]), then the [[smooth groupoid]] of $G$-[[gauge field]] configurations is the [[internal hom]]/[[mapping stack]] $[\Sigma, \mathbf{B}G_{conn}] \in $[[Smooth∞Grpd]] (or some concretification thereof, see at _[geometric of physics -- differential moduli](geometry%20of%20physics#DifferentialModuli)_: this is the [[smooth groupoid]] whose [[objects]] are $G$-[[gauge field]]-configurations on $\Sigma$ ([[connection on a bundle|connections]] on $G$-[[principal bundles]] over $\Sigma$), and whose [[morphisms]] are [[gauge transformations]] between these. The [[infinitesimal space|infinitesimal]] approximation to this [[smooth ∞-groupoid]], its _[[∞-Lie algebroid]]_ is the (off-shell) [[BRST complex]] of the theory. The tangent to the $n$-fold [[higher gauge transformations]] becomes the $n$-fold _ghosts_ in the BRST complex.
+
+More generall $G$ here can by any [[smooth ∞-group]], such as the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$ or the [[String 2-group]] or the [[Fivebrane 6-group]], and so on, in which case $[\Sigma, \mathbf{B}G_{conn}]$ is the [[smooth ∞-groupoid]] of [[higher gauge theory|higher gauge field]], [[gauge transformations]] between these, [[higher gauge transformations]] between those, and so on.
+
+Notice that this means in particular that in [[higher geometry]] a [[gauge theory]] is a [[sigma-model]] [[quantum field theory]]: one whose [[target space]] is not just a plain [[manifold]] but is a [[moduli stack]] of gauge field configurations.
+
+A [[gauge invariance|gauge invariant]] action functional is then a morphism of [[smooth ∞-groupoids]]
+
+$$
+  \exp( i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}] \to U(1)
+  \,.
+$$
+
+This is of particular interst, again, if it is _local_. In fact, in this context now we can also ask that it is "extended" in the sense of [[extended topological quantum field theory]]: that we have an action functional not only in top dimension, being a function, but also in codimension 1, being a [[prequantum bundle]], and in higher codimension, being a [[prequantum n-bundle]].
+
+This is notably the case for all (higher) gauge theoris of [[schreiber:infinity-Chern-Simons theory]] type, such as ordinary [[Chern-Simons theory]] and such as ordinary [[Dijkgraaf-Witten theory]], as well as its higher generalizations. In these cases the action functional $\exp(i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}]$ arises itself from [[transgression]] of an extended [[Lagrangian]] that is defined on the universal [[moduli stack]] of gauge field configurations $\mathbf{B}G_{conn}$ itself, namely from a [[universal characteristic class]] in higher nonabelian [[differential cohomology]] of the form
+
+$$
+  \mathbf{L} \colon \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
+  \,.
+$$
+
+Here $\mathbf{B}^n U(1)_{conn}$ is the universal smooth moduli stack for [[circle n-bundles with connection]]. Such a morphism of moduli stacks locally takes a [[connection on a bundle|connection]] [[differential form]] $A$ to a [[Chern-Simons form]] $CS(A)$, but globally it sends the underlying [[principal bundle]] to a [[circle n-group|circle (n-1)-group]] [[principal ∞-bundle]] and accordingly acts globally on the connection. Alternatively, one may think of this whole morphism as modulating a [[prequantum circle n-bundle]] on the universal moduli stack $\mathbf{B}G_{conn}$ of [[gauge fields]] itself. 
+
+For instance for ordinary [[Chern-Simons theory]] here $n = 3$ $G$ is a [[semisimple Lie group]] and $\mathbf{L}$ is a smooth and differential refinement of the [[first Pontryagin class]]/[[second Chern class]], or of an integral multiple of that (the "level" of the theory). In this case $\mathbf{L}$ may also be thought of as modulating the universal [[Chern-Simons circle 3-bundle]]. If instead $G$ is a [[discrete group]] then $\mathbf{L}$ is a [[cocycle]] in the $U(1)$-[[group cohomology]] and this is the extended Lagrangian of [[Dijkgraaf-Witten theory]].
+
+This extended Lagrangian becomes an extended action functional [[transgression]]: the operaton of [[fiber integration in ordinary differential cohomology]] refines to a morphism of moduli stacks of the form
+
+$$
+  \exp(2 \pi i \int_{\Sigma_k} (-))
+  \colon
+  [\Sigma_k, \mathbf{B}^n U(1)_{\mathrm{conn}} ]
+  \to 
+  \mathbf{B}^{n-k}U(1)_{conn}
+ \,,
+$$
+
+where $\Sigma$ is an [[orientation|oriented]] [[closed manifold]] of [[dimension]] $k$. This morphism locally simply takes a [[differential n-form]] to its ordinary [[integration of differential forms]] over $\Sigma_k$, but globally it takes the correct [[higher holonomy]] of [[circle n-bundles with connection]]. 
+
+Combining this with an extended [[schreiber:∞-Chern-Simons theory]] [[Lagrangian]] $\mathbf{L} \colon \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}$ as above yields for each dimension $k$ a [[prequantum circle n-bundle]] on the space of gauge field configurations over $\Sigma_k$, by forming the [[transgression]] composite
+
+$$
+  \exp(i S(-))
+  \coloneqq
+  \exp(2 \pi i \int_{\Sigma_k} [\Sigma_k, \mathbf{L}])
+   \;\; \colon \;\;
+  [\Sigma_k, \mathbf{B}G_{conn}]
+  \stackrel{[\Sigma_k, \mathbf{L}]}{\to}
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_{\Sigma_k}(-))}{\to}
+  \mathbf{B}^{n-k}U(1)_{conn}
+  \,.
+$$
+
+This morphism locally takes the local [[differential form]] incarnation $A$ of a [[connection on an ∞-bundle]]  to the exponentiation of the [[integration of differential forms]] $\int_\Sigma CS(A)$ of some higher [[Chern-Simons form]], but globally it computes the correct [[higher holonomy]] of the higher [[circle n-bundle with connection]] over the universal moduli stack of fields, as modulated by the extended [[Lagrangian]] $\mathbf{L}$.
+
 
 ## Examples
 
@@ -92,7 +155,32 @@ A large class of examples of action functionals arises in [[schreiber:∞-Chern-
 
 * [[effective action functional]], [[background field formalism]]
 
+* [[geometry of physics]]
 
+## References
+
+### Traditional theory
+
+(...)
+
+### Extended higher action functionals
+
+Discussion of extended higher local action functional for (higher) gauge theories of generalized [[schreiber:∞-Chern-Simons theory]] type are discussed in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Hisham Sati]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+
+The extended local action functionals for ordinary 3d [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] and for 7d [[String 2-group]] Chern-Simons theory are constructed in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
+
+and discussed further in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Hisham Sati]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+
+A comprehensive discussion in a general context of higher differential geometry is in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+ 
 [[!redirects action functionals]]
 
 [[!redirects local action functional]]
