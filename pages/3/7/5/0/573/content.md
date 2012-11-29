@@ -219,7 +219,7 @@ $$
   Str n Cat_{gaunt} \hookrightarrow  Str n Cat
 $$ 
 
-for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
+for the [[full subcategory]] on the _[[gaunt category|gaunt]] $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
 
 =--
 
