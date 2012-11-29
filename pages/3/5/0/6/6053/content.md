@@ -1,4 +1,4 @@
-Given a [[field]] $k$, __Drinfel'd__ (or Drinfeld or quantum) __double__ of a finite dimensional Hopf $k$-algebra $H$ is the tensor product algebra $D(H) = H\otimes H^*$ where $H^* = Hom_k(H, k)$ with induced canonical Hopf algebra structure. It appears that the canonical element in $D(H)$ (the image of the identity under the isomorphism $Hom_k(H,H) \cong H\otimes H^*$ is a universal $R$-element in $D(H)$ making it into a quasitriangular Hopf algebra, which is making it "almost commutative". This quasitriangular structure in some infinite-dimensional versions of the construction is related to the quasitriangular structure on some [[quantum group]]s. 
+Given a [[field]] $k$, __Drinfel'd__ (or Drinfeld or quantum) __double__ of a finite dimensional Hopf $k$-algebra $H$ is the tensor product algebra $D(H) = H\otimes H^*$ where $H^* = Hom_k(H, k)$ with induced canonical Hopf algebra structure. It appears that the canonical element in $D(H)$ (the image of the identity under the isomorphism $Hom_k(H,H) \cong H\otimes H^*$) is a universal $R$-element in $D(H)$ making it into a quasitriangular Hopf algebra, which is making it "almost commutative". This quasitriangular structure in some infinite-dimensional versions of the construction is related to the quasitriangular structure on some [[quantum group]]s. 
 
 There are generalizations for [[quasi-Hopf algebra]]s motivated by 
 
@@ -10,7 +10,7 @@ and obtained in
 
 * Shahn Majid, _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, [hep-th/9311184](http://arxiv.org/abs/hep-th/9311184)
 
-The category of modules over a quantum double of a Hopf algebra $H$ is equivalent to the category of Yetter-Drinfeld modules of $H$ which is also equivalent to the [[center]] of the monoidal category of the usual $H$-modules. In the case of an orbifold the Yetter-Drinfeld modules correspond to certain equivariant sheaves under a conjugation action. 
+The category of modules over a quantum double of a Hopf algebra $H$ is equivalent to the category of [[Yetter-Drinfeld module]]s of $H$, and also equivalent to the [[center]] of the monoidal category of the usual $H$-modules. In the case of an orbifold the Yetter-Drinfeld modules correspond to certain equivariant sheaves under a conjugation action. 
 
 * [[Vladimir Hinich]], _Drinfeld double for orbifolds_, [math.QA/0511476](http://arxiv.org/abs/math/0511476)
 
