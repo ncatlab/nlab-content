@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[higher geometric prequantization]] the notion of [[prequantum circle bundle]] is refined to that of a prequantum [[circle n-bundle with connection]] for all $n \in \mathbb{N}$. 
+
+
+
+[[!redirects prequantum circle n-bundle]]
+[[!redirects prequantum circle n-bundles]]
+[[!redirects prequantum n-bundle]]
+[[!redirects prequantum n-bundles]]
+
