@@ -17,11 +17,11 @@
 
 ## Idea
 
-The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _double dimensional_ reduction, these are related to [[string]]s (Bergshoeff-Sezgin-Townsend, Duff, 80s).
+The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _double dimensional_ reduction, these are related to [[strings]] (Bergshoeff-Sezgin-Townsend, Duff, 80s).
 
 When in ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of the five types of [[string theory|superstring theories]] are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]], it was natural to guess that this supergravity membrane accordingly yields a 3-dimensional [[sigma-model]] that reduces in limiting cases to the [[string]] [[sigma-models]].
 
-But there are two aspects that make this idea a little subtle, even at this vague level: first, there is no good theory of the [[quantization]] of the membrane [[sigma-model]], as opposed to the well understood quantum [[string]],. Secondly,  Secondly, that hypothetical "theory extending 11-dimensional supergravity" ("M-theory") has remained elusive enough that it is not clear in which sense the membrane would relate to it in a way analogous to how the string relates to its [[target space]] theories (which is fairly well understood).
+But there are two aspects that make this idea a little subtle, even at this vague level: first, there is no good theory of the [[quantization]] of the membrane [[sigma-model]], as opposed to the well understood quantum [[string]]. Secondly,  Secondly, that hypothetical "theory extending 11-dimensional supergravity" ("M-theory") has remained elusive enough that it is not clear in which sense the membrane would relate to it in a way analogous to how the string relates to its [[target space]] theories (which is fairly well understood).
 
 Later, with the [[BFSS matrix model]] some people gained
 more confidence in the idea, by identifying the corresponding degrees
@@ -38,15 +38,64 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 
 * [[11-dimensional supergravity]], [[M-theory]]
 
+* [[string]], [[superstring]]
+
+* [[D-brane]]
+
+* [[M5-brane]], [[6d (2,0)-superconformal QFT]]
+
+* [[M9-brane]]
+
 [[!include table of branes]]
 
 ## References
 
+### General
+
+The existence of the M2-brane as an object related to [[string theory]] was proposed in 
+
+* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_ ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+
+around the time when [[M-theory]] was envisioned in
+
 * [[Edward Witten]], _String Theory Dynamics In Various Dimensions_ ([arXiv](http://arxiv.org/abs/hep-th/9503124))
  {#Witten95}
+
+More recent developments are discussed in 
+
+* P.S. Howe, E. Sezgin, _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+
+* Igor A. Bandos, [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
+
+* [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
+* [[Nathan Berkovits]], _Towards Covariant Quantization of the Supermembrane_ ([arXiv:hep-th/0201151](http://arxiv.org/abs/hep-th/0201151))
+
+### Dualities
+
+The role of and the relation to [[duality in string theory]] of the membrane is discussed in the following articles.
+
+Relation to [[T-duality]]:
+
+* J.G. Russo, _T-duality in M-theory and supermembranes_ ([arXiv:hep-th/9701188](http://arxiv.org/abs/hep-th/9701188))
+
+* M.P. Garcia del Moral, J.M. Pena, A. Restuccia, _T-duality Invariance of the Supermembrane_ ([arXiv:1211.2434](http://arxiv.org/abs/1211.2434))
+
+Relation to [[U-duality]]:
+
+* [[Martin Cederwall]], _M-branes on U-folds_ ([arXiv:0712.4287](http://arxiv.org/abs/0712.4287))
+
+* M.P. Garcia del Moral, _Dualities as symmetries of the Supermembrane Theory_ ([arXiv](http://arxiv.org/abs/1211.6265))
 
 
 [[!redirects M2-branes]]
 
 [[!redirects M-theory membrane]]
 [[!redirects M-theory membranes]]
+
+[[!redirects membrane]]
+[[!redirects supermembrane]]
+[[!redirects super-membrane]]
+[[!redirects membranes]]
+[[!redirects supermembranes]]
+[[!redirects super-membranes]]
