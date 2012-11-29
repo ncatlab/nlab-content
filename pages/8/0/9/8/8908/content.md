@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* tabe of contents
+{:toc}
 
 ## Definition
 
@@ -21,9 +35,17 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 ## Examples
 
-* 0-monomorphism are precisely the equivalences. 
+* $\infty$-monomorphism are precisely the [[equivalences]]. 
 
-* Every morphism is an $\infty$-monomorphism.
+* Every morphism is a $0$-monomorphism.
+
+* 1-Monomorphisms are often just called [[monomorphisms in an (∞,1)-category]].
+
+* A 1-monomorphism between [[0-truncated]] objects is precisely an ordinary [[monomorphism]] in the underlying [[1-topos]].
+
+## Related concepts
+
+* [[Postnikov system]]
 
 [[!redirects n-monomorphisms]]
 
