@@ -116,5 +116,3 @@ For the moment see _[[geometric quantization]]_ for more.
 [[!redirects prequantization]]
 [[!redirects pre-quantization]]
 
-[[!redirects prequantum circle n-bundle]]
-[[!redirects prequantum circle n-bundles]]
