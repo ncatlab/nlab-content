@@ -40,11 +40,12 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 ## Researchers and institutes for history of mathematics
 * [hsm](http://hsm.institut.math.jussieu.fr) at Jussieu
 
-## $n$Lab entries
+## $n$Lab entries with historical information
 
 * [[history of cohomology with local coefficients]]
 * [[historical notes on characteristic classes]]
 * [[geometry of 19th century]], [[Erlangen program]]
+* [[Čech methods]]
 * see also [[philosophy]]
 * lots of person entries for most influential mathematicians in history, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]], [[Bourbaki]], [[Alfred Tarski]] etc.
 
