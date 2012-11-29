@@ -87,9 +87,9 @@ In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any mono
 
 * [[isomorphism]] classes of monomorphism define [[subobject]]s.
 
-* for more details see [[epimorphism]].
+* [[monomorphism in an (∞,1)-category]], [[n-monomorphism]]
 
-* [[monomorphism in an (∞,1)-category]]
+* [[image]], [[coimage]]
 
 [[!redirects monomorphisms]]
 [[!redirects monic]]
