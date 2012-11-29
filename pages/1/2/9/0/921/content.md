@@ -174,6 +174,10 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[real numbers object]]
 
+## References
+
+See the references at _[[analysis]]_.
+
 
  
 [[!redirects real number]]
