@@ -564,6 +564,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[strong adjoint functor]]
 
+* [[mapping stack]]
+
 ## References
 
 
