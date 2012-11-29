@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+All [[D-branes]] of [[type II string theory]] can be understood as arising from known structures in [[M-theory]] -- except for the [[D8-brane]] domain wall. Therefore there is a conjecture that apart from the [[M2-brane]] and the [[M5-brane]] there is also an _M9-brane_ in [[M-theory]]. But the situation is inconclusive.
+
+## Related concepts
+
+[[!include table of branes]]
+
+
+## References
+
+* Eric Bergshoeff, Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
+
+* Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_ ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
+
+* P.S. Howe, A. Kaya, E. Sezgin, P. Sundell, _Codimension One Branes_ ([arXiv:hep-th/0001169](http://arxiv.org/abs/hep-th/0001169))
+
+* Takeshi Sato, _On M-9-branes and their dimensional reductions_ ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
+
+
+
+[[!redirects M9-branes]]
+
