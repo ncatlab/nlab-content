@@ -9,4 +9,9 @@ $$
 
 The word "homotopy" is used because it supplies a homotopy operator for some manipulation with chain complexes in [[de Rham cohomology]]. Cartan's homotopy formula is part of [[Cartan calculus]]. 
 
+Regarding that the Cartan's formula can be viewed as a formula about the [[de Rham complex]], which has generalizations, one can often define
+the Cartan's formulas for those generalizations. For example 
+
+*  Masoud Khalkhali, _On Cartan homotopy formulas in cyclic homology_, Manuscripta mathematica __94__:1, pp 111-132 (1997) [doi](http://dx.doi.org/10.1007/BF02677842) 
+
 [[!redirects Cartan's magic formula]]
