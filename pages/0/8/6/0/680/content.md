@@ -15,16 +15,14 @@
 
 
 #Contents#
-* automatic toc
+* table of contents
 {:toc}
 
 ## Idea
 
-In some sense the Dold-Kan correspondence is the categorification of the statement that $\mathbb{N}$ and $\mathbb{Z}$ are isomorphic in the category of sets in that they have the same cardinality.
+The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial groups]] and [[connective chain complex|connective]] [[chain complexes]] of [[abelian groups]].
 
-The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial group]]s and [[connective chain complex|connective]] [[chain complex]]es of [[abelian groups]].
-
-Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structure, hence an [[∞-group]], the Dold-Kan correspondence says that connective chain complexes are a model for abelian [[∞-group]]s. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
+Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structure, hence an [[∞-group]], the Dold-Kan correspondence says that connective chain complexes are a model for certain [[abelian ∞-groups]]. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
 
 There are various variants and generalizations of the Dold-Kan correspondence. These are discussed further [below](#Variants).
 
@@ -508,6 +506,17 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
 
   * [[Javier Gutierrez|Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
+## Properties
+
+### Relation to categorification
+ {#RelationToCategorification}
+
+It has been claimed that
+
+> In some sense the Dold-Kan correspondence is the categorification of the statement that $\mathbb{N}$ and $\mathbb{Z}$ are isomorphic in the category of sets in that they have the same cardinality.
+
+
+An explanation should eventually go here...
 
 ## Applications 
   {#Applications}
