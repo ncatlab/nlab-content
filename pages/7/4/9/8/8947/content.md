@@ -34,11 +34,11 @@ The $n$-epimorphisms in an [[(∞,1)-topos]] are the left half of the [[(n-epi, 
 
 ## Examples
 
-* The $0$-epimorphisms are precisely the [[equivalences]].
+* The $\infty$-epimorphisms are precisely the [[equivalences]].
 
 * The 1-epimorphism are the [[effective epimorphisms in an (∞,1)-category|effective epimorphisms]].
 
-* Every morphism is a $\infty$-epimorphism.
+* Every morphism is a $0$-epimorphism.
 
 * The 1-epimorphisms between [[0-truncated]] objects are precisely the ordinary [[epimorphisms]] in the underlying [[1-topos]].
 
