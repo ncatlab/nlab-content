@@ -40,7 +40,7 @@ This is _connective_ as in _[[connective spectrum]]_. Hence a connective chain c
 
 ### Relation to simplicial groups
 
-The [[Dold-Kan correspondence]] asserts that connective chanin complexes of [[abelian groups]] are equivalent to [[abelian group|abelian]] [[simplicial groups]]. 
+The [[Dold-Kan correspondence]] asserts that connective chain complexes of [[abelian groups]] are equivalent to [[abelian group|abelian]] [[simplicial groups]]. 
 
 ## Related concepts
 
