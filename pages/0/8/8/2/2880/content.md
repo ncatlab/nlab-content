@@ -45,5 +45,4 @@ On big use is that the scalars like $\epsilon(a_{(3)})$ can be moved freely alon
 
 ## References
 
-The notation is named after [[Moss Sweedler]].
-
+The notation is named after [[Moss Sweedler]]. Sometimes (though rarely) it is also called Heyneman-Sweedler notation. 
