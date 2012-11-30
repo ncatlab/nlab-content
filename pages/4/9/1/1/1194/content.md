@@ -523,7 +523,7 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[dependent type theory]], [[Martin-Löf dependent type theory]]
 
-  * [[intensional type theory]], [[extensional type theory]]
+  * [[intensional type theory]], [[extensional type theory]], [[observational type theory]]
 
   * [[calculus of inductive constructions]]
 
