@@ -54,7 +54,7 @@ For all $n$, the $n$-connected/$n$-truncated factorization system is [[stable fa
 
 =--
 
-This appears as ([Lurie, prop. 16.5.1.16(6)](#Lurie)).
+This appears as ([Lurie, prop. 6.5.1.16(6)](#Lurie)).
 
 +-- {: .num_cor}
 ###### Corollary
