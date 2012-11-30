@@ -9,6 +9,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A [[chain complex]] $A_\bullet$ is called
 
 * **bounded above** if there exists $n \in \mathbb{N}$ such that $A_k = 0$ for all $k \gt n$;
@@ -16,6 +22,31 @@ A [[chain complex]] $A_\bullet$ is called
 * **bounded below** if there exists $n \in \mathbb{N}$ such that $A_k = 0$ for all $k \lt n$;
 
 * **bounded** if it is both bounded above and bounded below.
+
+## Examples
+
+* A [[connective chain complex]] is bounded from below.
+
+## Related concepts
+
+* [[category of chain complexes]]
+
+  * [[chain complex]], [[connective chain complex]]
+
+  * [[chain map]], [[quasi-isomorphism]]
+
+  * [[chain homotopy]]
+
+  * [[model structure on chain complexes]]
+
+  * [[elliptic chain complex]]
+
+* [[cochain complex]]
+
+* [[filtered chain complex]]
+
+* [[perfect chain complex]]
+
 
 [[!redirects bounded complex]]
 
