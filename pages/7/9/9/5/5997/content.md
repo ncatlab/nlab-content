@@ -25,6 +25,8 @@
 
 The $n$-connected/$n$-truncated factorization system is an [[orthogonal factorization system in an (∞,1)-category]],  specifically in an [[(∞,1)-topos]], that generalizes the _relative [[Postnikov systems]]_ of [[∞Grpd]]: it factors any morphism through its _[[n-image|(n+2)-image]]_ by an _[[n-epimorphism|(n+2)-epimorphism]]_ followed by an _[[n-monomorphism|(n+2)-monomorphism]]_.
 
+As $n$ ranges through $(-1), 0, 1, 2, 3, \cdots$ these factorization systems form an [[k-ary factorization system|∞-ary factorization system]].
+
 ## Definitions
 
 +-- {: .num_prop}
@@ -118,3 +120,5 @@ A [[model category]]-theoretic discussion is in section 8 of
 [[!redirects (n-connected, n-truncated) factorization system]]
 
 [[!redirects (n-epi, n-mono) factorization system]]
+[[!redirects (n-epi, n-mono) factorization systems]]
+
