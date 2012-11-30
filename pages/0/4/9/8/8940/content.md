@@ -9,13 +9,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. (This is a property not invariant under [[equivalence of categories]])
+A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]].
+
 
 ## Properties
 
@@ -34,6 +35,5 @@ The term "gaunt category" was apparently introduced in
 in the context of a discussion of [[(infinity,n)-categories]].
 
 
+[[!redirects gaunt category]]
 [[!redirects gaunt categories]]
-
-
