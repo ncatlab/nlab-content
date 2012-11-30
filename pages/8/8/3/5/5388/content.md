@@ -20,5 +20,6 @@ The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form
 ## Related concepts
 
 * [[Lorentzian manifold]]
+* quantum group version: [[quantum Lorentz group]]
 
 [[!include table of orthogonal groups and related]] 
