@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
 # $k$-ary factorisation systems
 * table of contents
 {: toc}
@@ -10,7 +20,7 @@ A $k$-ary factorization system is a generalization of (binary) [[orthogonal fact
 
 ## Definition
 
-For $k \gt 0$ a [[natural number]] and $C$ a [[category]] (or $\infty$-[[infinity-category|category]]), a __$k$-ary factorisation system__ on $C$ consists of $k - 1$) factorisation systems $(E_i, M_i)$ (for $0 \lt i \lt k$) on $C$, such that
+For $k \gt 0$ a [[natural number]] and $C$ a [[category]] (or $\infty$-[[infinity-category|category]]), a __$k$-ary factorisation system__ on $C$ consists of $(k - 1)$ factorisation systems $(E_i, M_i)$ (for $0 \lt i \lt k$) on $C$, such that
 
 *  $M_i \subseteq M_{i + 1}$ whenever this is meaningful (equivalently, $E_i \subseteq E_{i - 1}$).
 
@@ -37,6 +47,13 @@ Fix any [[ordinal number]] (or [[opposite poset|opposite]] thereof, or any [[pos
 *  for each $f\colon X \to Y$, $\id_Y$ is $\underset{i \to -\infty}\colim \im_i f$ and $\id_X$ is $\underset{i \to \infty}\lim \coim_i f$.
 
 This seems to be correct whenever $\alpha$ really is either an ordinal or the opposite thereof, as well as some other posets such as $\omega^op + \omega$ (which is the poset of [[integers]]), but it seems to be missing something for (for example) $\omega + \omega^op$.  Notice that, when $\alpha$ is *both* an ordinal and the opposite thereof, we recover the above definition of an $(alpha-1)$-ary factorisation system.
+
+## Examples
+
+* For $k = 3$ one speaks of a _[[ternary factorization system]]_. See there for more examples
+
+* In an [[(∞,1)-topos]] the [[(epi, mono) factorization system]] in a [[topos]] splits up to an $\infty$-ary factorization system consisting of the [[(n-epi, n-mono) factorization systems]] (the [[n-image]]-factorization) for all $n \in \mathbb{N}$. This is called the _[[Postnikov system]]_. 
+
 
 
 ## References
@@ -97,3 +114,7 @@ This seems to be correct whenever $\alpha$ really is either an ordinal or the op
 [[!redirects alpha-stage factorization systems]]
 [[!redirects alpha-stage factorisation system]]
 [[!redirects alpha-stage factorisation systems]]
+
+[[!redirects infinitary factorization system]]
+[[!redirects infinitary factorization systems]]
+
