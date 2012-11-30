@@ -72,6 +72,11 @@ Further discussion of formal proofs includes the following
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
+A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
+
+* [[Alexandre Miquel]], _The experimental effectiveness of mathematical proof_ ([pdf](http://perso.ens-lyon.fr/alexandre.miquel/publis/effectiveness.pdf))
+ {#Miquel}
+
 
 [[!redirects proof]]
 [[!redirects proofs]]
