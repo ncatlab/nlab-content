@@ -106,7 +106,7 @@ Suppose that $M_1$ and $M_2$ are two classes with $M_1\subseteq M_2$.  If $f$ ha
 
 As a special case of this, we have:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 If $C$ has finite limits and colimits, then there is a unique map
 $$
@@ -201,7 +201,7 @@ Notice that
 
 * this implies that the inclusion $im f \to d$ is a [[regular monomorphism]] in the $(\infty,1)$-category sense (described [here](http://ncatlab.org/nlab/show/regular+monomorphism#Infty1Version)).
 
-For more see _[[∞-image]]_.
+For more see _[[n-image]]_.
 
 #### Examples {#InfImageExamples}
 
@@ -214,6 +214,8 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 * [[coimage]]
 
 * [[inverse image]], [[direct image]]
+
+* [[kernel]], [[cokernel]]
 
 [[!redirects images]]
 [[!redirects corestriction]]
