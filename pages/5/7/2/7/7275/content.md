@@ -34,6 +34,11 @@ An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]
 
 [[!include k-monoidal table]]
 
+## Related concepts
+
+* [[∞-groupd]]
+
+* [[braided ∞-group]]
 
 ## References
 
@@ -45,4 +50,5 @@ Section 5 of
 [[!redirects k-monoidal ∞-group]]
 
 [[!redirects abelian ∞-group]]
+[[!redirects abelian ∞-groups]]
 
