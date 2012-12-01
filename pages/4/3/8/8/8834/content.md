@@ -79,7 +79,7 @@ If the Toda bracket for a bracket sequence includes the trivial map $\Sigma^{m+1
 
 ## Applications
 
-By definition, if a sequence is a bracket sequence AND NOT a null-bracket sequence, it follows that the map $\Sigma^{k} A_0 \to A_n$ is nontrivial.  Things like these Toda brackets have been studied by many _(FIXME: referrences later)_ and especially the length-three brackets used by H. Toda to describe most of $\pi_k \mathbb{S}^n$ for $k \lt 31$ or so.
+By definition, if a sequence is a bracket sequence AND NOT a null-bracket sequence, it follows that all the relevant maps $\Sigma^{k} A_0 \to A_n$ are nontrivial.  Things like these Toda brackets have been studied by many _(FIXME: referrences later)_ and especially the length-three brackets used by H. Toda to describe most of $\pi_k \mathbb{S}^n$ for $k \lt 31$ or so.
 
 In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to inhabit non-null Toda brackets; this turns out to be most of $\pi_* \mathbb{S}$, and furthermore the maps in the bracket sequences can be chosen from a very small set (_FIXME_: be more precise! degree maps $n \iota$, [[Hopf map]]s $\eta, \theta,\sigma$, and $\alpha_p$... )
 
