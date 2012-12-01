@@ -26,7 +26,7 @@ or as "pre-mathematical".
 
 Suppose we have given some collection of computational objects which we call "terms", with an *untyped* notion of "reduction" or "computation".
 We write $x\Rightarrow y$ to mean that $x$ computes or reduces to $y$ (in some number of steps).
-We then define simultaneously the following [[judgments]], where $a,b,A$ are terms:
+We then define simultaneously the following predicates, where $a,b,A$ are terms:
 
 * $A$ is a type, often written $A\;type$.
 * $a$ has type $A$, written $a:A$.
@@ -78,20 +78,20 @@ For equality, of course we have:
 
 ### Identity types
 
-Suppose we have a term constructor yielding $Id_A(a,b)$ for terms $A,a,b$, and similarly $refl$.
+Suppose we have a term constructor yielding $Id_A(a,b)$ for terms $A,a,b$, and similarly some term $refl$.
 Then to explain the [[identity type]], we add to the inductive definition of "$A$ is a type" the clause
 
-* If $A$ is a type and $a:A$ and $b:A$, then $Id_A(a,b)$ is a type.
+* If $A$ is a type, $a:A$ and $b:A$, and $C \Rightarrow Id_A(a,b)$, then $C$ is a type.
 
 Here we are finally using the fact that typehood and elements are defined by induction-recursion: this clause in the *inductive* definition of typehood must refer to the value of the *recursive* elementhood function at some smaller type.
 
 The clause for elements is:
 
-* If $A$ is a type and $a:A$, $b:A$ and $a=b:A$ and $p\Rightarrow refl$, then $p:Id_A(a,b)$.  In other words, the collection of elements of type $Id_A(a,b)$ contains, if if $a=b:A$, precisely those terms which reduce to $refl$.
+* If $A$ is a type, $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p:C$ just if $a=b:A$ and $p \Rightarrow refl$.  So in a classical meta-theory, the collection of elements of $\Id_A(a,b)$ contains, if $a=b:A$, precisely those terms which reduce to refl, and otherwise nothing.
 
 Here we use not only the fact that elementhood is recursively defined, but that it is defined by mutual recursion with equality.  The clause for equality is:
 
-* If $A$ is a type and $a:A$, $b:A$ and $a=b:A$, and $p\Rightarrow refl$ and $q\Rightarrow refl$, then $p=q:Id_A(a,b)$.
+* If $A$ is a type and $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p=q:C$ just if $a=b:A$, $p\Rightarrow refl$, and $q\Rightarrow refl$.
 
 Because we have deliberately only put $refl$ (and terms reducing to it) into the identity type, we can only motivate or explain [[extensional type theory]] in this way.  There are proposals for ways to expand the meaning explanation to deal with [[intensional type theory]].
 
