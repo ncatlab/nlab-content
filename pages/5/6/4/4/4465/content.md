@@ -43,7 +43,6 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
   * [[generalized second law of thermodynamics]]
 
-
 ## References
 
 ### General
@@ -52,13 +51,14 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
 * MO question [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
 
+* Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
+  
 ### Interpretation in string theory
 
 Chapter 5 of 
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
  {#AGMOO}
-
 
 
 [[!redirects black hole entropy]]
