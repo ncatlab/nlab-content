@@ -517,7 +517,7 @@ The following particular type theories are important enough to (potentially) hav
 
 * **type theory**, [[logic]]
 
-  * [[logical framework]]
+  * [[logical framework]], [[meaning explanation]]
 
   * [[natural deduction]], [[calculus of constructions]]
 
