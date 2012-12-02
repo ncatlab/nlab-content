@@ -18,10 +18,9 @@ $\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indee
 
 ## Related concepts
 
-
-
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]], [[p-adic number]]
 
+* [[natural numbers type]], [[natural numbers object]]
 
 * [[carrying]]
 
