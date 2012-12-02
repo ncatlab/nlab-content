@@ -48,3 +48,5 @@ The $n$-epimorphisms in an [[(∞,1)-topos]] are the left half of the [[(n-epi, 
 
 
 [[!redirects n-epimorphisms]]
+[[!redirects 1-epimorphism]]
+
