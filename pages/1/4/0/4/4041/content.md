@@ -1,8 +1,3 @@
-
-> See also _[[free construction]]_.
-
-***
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -37,6 +32,8 @@ Similarly, a __cofree object__ (or __fascist object__) is given by a [[cofree fu
 * [[free abelian group]]
 
 * [[free module]]
+
+* [[distributivity pullback]]
 
 For more examples see at _[[free construction]]_.
 
