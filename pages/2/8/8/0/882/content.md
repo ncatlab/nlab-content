@@ -24,3 +24,6 @@ Transitive relations are often understood as [[orders]].
 
 [[!redirects transitive relation]]
 [[!redirects transitive relations]]
+
+[[!redirects transitivity]]
+
