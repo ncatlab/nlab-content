@@ -40,7 +40,7 @@ $$
 $$
 
 $$
-  x \colon A \;,\; y \colon A
+  x \colon supp(A) \;,\; y \colon supp(A)
   \;\vdash \;
   inpath(x,y) \colon (x = y)
  \,,
@@ -71,6 +71,7 @@ A [[dependent type]] (a type in [[context]] $X$)
 $$x\colon X \vdash A(x) \colon Type$$
 
 is interpreted in $C$ as an arbitrary [[morphism]]
+
 
 $$
   \array{
