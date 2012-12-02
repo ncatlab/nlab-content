@@ -34,3 +34,5 @@ $$\id_A \subseteq R$$
 
 [[!redirects reflexive relation]]
 [[!redirects reflexive relations]]
+
+[[!redirects reflexivity]]
