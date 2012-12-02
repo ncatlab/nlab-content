@@ -94,5 +94,6 @@ The examples of locally constant $\infty$-stacks and of formally &#233;tale morp
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+[[!redirects Pi-closed morphisms]]
 
 category: cohesive (?1)-topos
