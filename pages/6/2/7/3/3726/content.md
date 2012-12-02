@@ -68,8 +68,10 @@ Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphism
 
 
 ## Properties
+ {#Properties}
 
 ### General
+ {#PropertiesGeneral}
 
 +-- {: .num_prop}
 ###### Proposition
