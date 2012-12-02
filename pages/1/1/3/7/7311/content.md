@@ -82,6 +82,11 @@ Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded a
 
 If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham space]] functor $\mathbf{\Pi}_{inf}$ satisfies the above assumptions. The $\mathbf{\Pi}_{inf}$-closed morphisms are precisely the [[formally étale morphisms]].
 
+## Related entries
+
+
+* [differential cohesion - cotangent bundles](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CotangentBundles)
+
 
 ## References
 
