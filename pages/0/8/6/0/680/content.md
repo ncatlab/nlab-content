@@ -506,17 +506,6 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
 
   * [[Javier Gutierrez|Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
-## Properties
-
-### Relation to categorification
- {#RelationToCategorification}
-
-It has been claimed that
-
-> In some sense the Dold-Kan correspondence is the categorification of the statement that $\mathbb{N}$ and $\mathbb{Z}$ are isomorphic in the category of sets in that they have the same cardinality.
-
-
-An explanation should eventually go here...
 
 ## Applications 
   {#Applications}
