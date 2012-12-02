@@ -144,7 +144,7 @@ The four classes of rules of natural deduction are close to being specifications
 
 * [[deduction calculus]]
 
-* [[type theory]]
+* [[type theory]], [[meaning explanation]]
 
 * [[sequent calculus]]
 
