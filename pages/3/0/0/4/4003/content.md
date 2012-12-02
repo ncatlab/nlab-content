@@ -48,6 +48,8 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 * Polynomial functors are a special case of [[parametric right adjoint|parametric right adjoints]].
 
+* Polynomial functors can be defined using [[exponentiable morphisms]] in a category that may not be locally cartesian closed.  See also [[distributivity pullback]].
+
 
 ## References
 
