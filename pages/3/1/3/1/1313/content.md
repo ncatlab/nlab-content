@@ -36,7 +36,7 @@ Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
 equals $e$.
 
-As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].
+As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
 
 
 ## Related notions 
