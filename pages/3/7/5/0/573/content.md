@@ -1070,6 +1070,12 @@ and extra [[properties]] that it may enjoy.
 
   * [[n-category object in an (∞,1)-category]]
 
+  * [[n-fold complete Segal space]]
+
+  * [[Theta-space]], [[model structure on cellular sets]]
+
+  * [[symmetric monoidal (∞,n)-category]]
+
 * [[(n,r)-category]]
 
 * [[(∞,n)-sheaf]], [[(∞,n)-topos]]
