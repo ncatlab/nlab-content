@@ -1505,14 +1505,37 @@ This may be compared to [[Jeff Smith's theorem]], which constructs a model struc
 
 ([Cisinski 06, scholie 1.4.6](#Cisinski06)))
 
+### Simplicial completion
+ {#SimplicialCompletion}
+
+Give a localizer $W$ on $PSh(A)$, there is a localizer $W_{horiz}$ on $PSh(A \times \Delta)$
+
+$$
+  W_{horiz} \coloneqq
+  \{
+    X \times q^* (\Delta_1) \to X
+  \}
+  \,.
+$$
+
+(...)
+
+See ([Ara, p. 9](#Ara)).
 
 ## Examples
+ {#Examples}
 
 * The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]] ([Cisinski 06, section 2](#Cisinski06)).
 
 * Accordingly, the _injective_ [[model structure on simplicial presheaves]] over a site $C$ is a Cisinski model structure, namely on the [[presheaf topos]] $PSh(C \times \Delta)$. Moreover, every [[Bousfield localization of model categories|left Bousfield localization]] of such a model structure is still a Cisinski model structure, since left Bousfield localization preserves the class of cofibrations.
 
   Notice that, as discussed there, every [[presentable (infinity,1)-category]] has a presentation by such a localization, hence by a Cisinski model structure.
+
+* Also the [[model structure for quasi-categories]] is a Cisinski model structure on [[sSet]], induced by the localizer given by the [[spine]] inclusions.
+
+  Moreover, the [[model structure for complete Segal spaces]] is the [simplicial completion](#SimplicialCompletion) of this model structure. (see [Ara](#Ara)).
+
+* As a [[cellular set]]-variant of this, the _[[model structure on cellular sets]]_ is a Cisinski model structure on the category of presheaves over the [[Theta category]] restricted to $n$-cells.
 
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
@@ -1550,6 +1573,8 @@ See also
 
 * [[André Joyal]], _[[joyalscatlab:Cisinski's theory]]_
 
+* [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
+ {#Ara}
 
 [[!redirects Cisinski model structures]]
 
