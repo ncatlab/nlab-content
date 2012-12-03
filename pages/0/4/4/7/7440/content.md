@@ -84,6 +84,8 @@ But of course the point of category objects internal ot an $(\infty,1)$-category
 ## Definition
  {#Definition}
 
+Category
+
 The definition of category objects in an [[(∞,1)-category]] makes recourse to the notion of [[groupoid object in an (∞,1)-category]], and so we first review that in 
 
 * [Groupoid objects in an (∞,1)-category](#GroupoidObjects).
@@ -385,7 +387,7 @@ This is a more abstract formulation of what equivalently is [[presentable (infin
 
 In order to state the completeness condition on pre-category objects that make them be genuine category objects, we need this [[core]]-construction exhibits groupoid objects as a [[coreflective sub-(∞,1)-category]] of pre-category objects.
 
-+-- {: .num_prop }
++-- {: .num_prop #CoreOnPreCategoryObjects}
 ###### Proposition
 
 Every [[groupoid object in an (∞,1)-category|groupoid object in]] $\mathbf{H}$ is canonically an internal pre-category. 
@@ -553,6 +555,33 @@ The identity $\mathbf{H} \simeq \mathcal{C}$ is a choice of internal groupoids i
 
 For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is prop. \ref{InductiveChoicesOfInternalGroupoids} below.
 
++-- {: .num_prop #HCore}
+###### Proposition
+
+The inclusion
+
+$$
+  Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H}) \hookrightarrow
+  PreCat(\mathcal{C})
+$$
+
+has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+
+$$
+  Core_{\mathbf{H}} : PreCat_{\mathbf{H}}(\mathcal{C}) \to Grpd(\mathbf{H})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The left morphism has a right adjoint by prop. \ref{CoreOnPreCategoryObjects}. The right adjoint of the right functor is implied by one of the axioms on the choice of groupoids $Disc \colon \mathbf{H} \hookrightarrow \mathcal{C}$, by which $Disc$ has a right adjoint $\Gamma$ and is itself a right adjoint. This means that their prolongations to simplicial objects both preserve pre-category objects and hence induce an adjunction of pre-category objects.
+
+=--
+
+This corresponds to ([Lurie, notation 1.2.9](#Lurie)).
 
 
 #### In a general $(\infty,1)$-category
@@ -584,27 +613,6 @@ Write $PreCat_{\mathbf{H}}(\mathcal{C})$ for the $(\infty,1)$-category of intern
 =--
 
 This is the definition of _Segal object_ in ([Lurie, def. 1.2.7](#Lurie)).
-
-+-- {: .num_prop #HCore}
-###### Proposition
-
-The inclusion
-
-$$
-  Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H}) \hookrightarrow
-  PreCat_{\mathbf{H}}(\mathcal{C})
-$$
-
-has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
-
-$$
-  Core_{\mathbf{H}} : PreCat_{\mathbf{H}}(\mathcal{C}) \to Grpd(\mathbf{H})
-  \,.
-$$
-
-=--
-
-This is ([Lurie, prop. 1.1.14](#Lurie)).
 
 +-- {: .num_defn #HInternalCategory}
 ###### Definition
