@@ -1,4 +1,4 @@
-[[!redirects meaning explanation]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -51,7 +51,7 @@ Suppose that we have terms $N$, $0$, and $s(x)$, along with a [[recursion|recurs
 $$rec(0,z_0,x r.z_s) \Rightarrow z_0$$
 and
 $$rec(s(n),z_0,x r. z_s) \Rightarrow z_s[n/x,rec(n,z_0,x r.z_s)/r].$$
-The term $rec(n,z_0,x r. z_s)$ is intended to denote value at $n$ of a recursively defined function specified to be $z_0$ at zero and $z_s$ at successors.  Here $x$ and $r$ are [[variables]] which may occur free in $z_s$ but are bound in $rec(n,z_0,x r. z_s)$, representing the current index and the result of the last recursive call, respectively.
+The term $rec(n,z_0,x r. z_s)$ is intended to denote the value at $n$ of a recursively defined function specified to be $z_0$ at zero and $z_s$ at successors.  Here $x$ and $r$ are [[variables]] which may occur free in $z_s$ but are bound in $rec(n,z_0,x r. z_s)$, representing the current index and the result of the last recursive call, respectively.
 
 Then to explain the [[natural numbers type]], we include a clause in the [[inductive definition]] of "$A$ is a type" which says
 
@@ -98,7 +98,7 @@ Here we are finally using the fact that typehood and elements are defined by ind
 
 The clause for elements is:
 
-* If $A$ is a type, $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p:C$ just if $a=b:A$ and $p \Rightarrow refl$.  So in a classical meta-theory, the collection of elements of $\Id_A(a,b)$ contains, if $a=b:A$, precisely those terms which reduce to refl, and otherwise nothing.
+* If $A$ is a type, $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p:C$ just if $a=b:A$ and $p \Rightarrow refl$.  So, the collection of elements of $\Id_A(a,b)$ contains something only if $a=b:A$, in which case it contains precisely those terms which reduce to refl.
 
 Here we use not only the fact that elementhood is recursively defined, but that it is defined by mutual recursion with equality.  The clause for equality is:
 
@@ -124,6 +124,14 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 * [[Per Martin-Löf]], "Constructive mathematics and computer programming"
 
 [[!redirects meaning explanation]]
+[[!redirects meaning explanations]]
 [[!redirects the meaning explanation]]
+[[!redirects the meaning explanations]]
 [[!redirects meaning explanation of type theory]]
+[[!redirects meaning explanation of type theories]]
+[[!redirects meaning explanations of type theory]]
+[[!redirects meaning explanations of type theories]]
 [[!redirects the meaning explanation of type theory]]
+[[!redirects the meaning explanations of type theory]]
+[[!redirects the meaning explanation of type theories]]
+[[!redirects the meaning explanations of type theories]]
