@@ -160,6 +160,8 @@ The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisf
 
 There is a [[model structure on cellular sets]] (see there), hence on set-valued presheaves on $\Theta_n$ (instead of simplicial presheaves) which  is [[Quillen equivalence|Quillen equivalent]] to the Rezk model structure on $\Theta_n$-spaces.
 
+In factm the Theta-space model structure is the [simplicial completion](Cisinski+model+structure#SimplicialCompletion) of the [[Cisinski model structure]] on presheaves on $\Theta_n$ ([Ara](#Ara))
+
 
 ## Examples
 
@@ -198,6 +200,12 @@ Further developments are in
 * [[Julia Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty, n)$-categories, I_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
 
 The note on the $(n+1,k+1)$-$\Theta$-space of all $(n,k)$-$\Theta$-spaces comes from communication with [[Charles Rezk]] [here](http://mathoverflow.net/questions/5867/n1-r1-theta-space-of-n-r-theta-spaces).
+
+Relation to simplicial completion of the [[Cisinski model structure]] [[model structure on cellular sets|on cellular sets]] is in 
+
+* [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
+ {#Ara}
+
 
 
 [[!redirects theta space]]
