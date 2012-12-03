@@ -187,7 +187,11 @@ This is the last clause of ([Rezk, theorem 7.2](#Rezk)). The key lemma for estab
 #### Model structure for quasi-categories 
   {#RelQCat}
 
-We discuss the relation to the [[model structure for quasi-categories]]. (See also at _[[model structure for dendroidal complete Segal spaces]]_ the section _[Relation to quasi-operads](/model+structure+for+dendroidal+complete+Segal+spaces#RelationToDendroidalSets)_ .)
+We discuss the relation to the [[model structure for quasi-categories]]. 
+
+(See also at _[[model structure for dendroidal complete Segal spaces]]_ the section _[Relation to quasi-operads](/model+structure+for+dendroidal+complete+Segal+spaces#RelationToDendroidalSets)_ .)
+
+A quick way to say the following turns out to be to say that the model structure for complete Segal spaces is the [simplicial completion of Cisinski model structures](Cisinski+model+structure#SimplicialCompletion) of the [[model structure for quasi-categories]] (see ([Ara](#Ara))).
 
 +-- {: .num_defn #GroupoidalSimplices}
 ###### Definition
@@ -348,3 +352,10 @@ The generalization to _complete Segal objects_ in model categories other than $s
 
 * [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#Lurie}
+
+Discussion in terms of [[Cisinski model structures]] is in 
+
+* [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
+ {#Ara}
+
+
