@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _cellular set_ is a [[presheaf]] on the [[Theta-category]] (also called cell category or (Joyal's) disk category), analogous to how a [[simplicial set]] is a presheaf on the [[simplex category]].
+A _cellular set_ is a [[presheaf]] on the [[Theta-category]] (also called the _cell category_ or _(Joyal's) disk category_), analogous to how a [[simplicial set]] is a presheaf on the [[simplex category]].
 
 Cellular sets provide one approach to [[higher category theory|higher categories]] and abstract study of [[homotopy n-type|homotopy type]]s, for example in Joyal's approach to higher [[quasi-category|quasicategories]], which are a variety of [[(∞,n)-category|(∞,n)-categories]] (for $n=1$). 
 
@@ -27,6 +27,10 @@ One detailed development of a model of [[(∞,n)-category|(∞,n)-categories]] i
 ### Segal condition
 
 A cellular set that satisfies the cellular [[Segal condition]] is an [[omega-category]].
+
+### Model category strucuture
+
+There is a [[model category]] structure on presheaves on $\Theta_n$ which models [[(∞,n)-categories]]. See at _[[model structure on cellular sets]]_.
 
 ## Related concepts
 
