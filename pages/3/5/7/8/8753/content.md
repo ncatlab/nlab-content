@@ -46,8 +46,11 @@ For instance ([Lurie, def. 6.1.2.2](#Lurie)).
 
 ## Properties
 
-### General
- {#General}
+### Powering
+ {#Powering}
+
+Assume that $\mathcal{C}$ has all [[(∞,1)-limits]]. 
+The following is a model for the [[powering]] of simplicial objects in $\mathcal{C}$ by simplicial sets.
 
 +-- {: .num_defn}
 ###### Definition
@@ -63,10 +66,12 @@ where the first homomorphism is the projection from the [[category of elements]]
 
 =--
 
+This is discussed in ([Lurie HTT 4.2.3](#Lurie)). Also ([Lurie, notation 1.1.7](#LurieGood)).
+
 +-- {: .num_prop #SlicingOverPoweringOfSimplicialObjects}
 ###### Proposition
 
-Let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object.
+Let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object which is a [[groupoid object in an (∞,1)-category]].
 
 If $K \to K'$ is a morphism in [[sSet]] which is a [[weak homotopy equivalence]] and a [[bijection]] on [[vertices]], then the induced morphism on [[slice-(∞,1)-categories]]
 
@@ -119,6 +124,9 @@ Section 6.1.2 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
+
+* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#LurieGood}
 
 
 [[!redirects simplicial objects in an (∞,1)-category]]
