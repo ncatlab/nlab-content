@@ -555,31 +555,6 @@ The identity $\mathbf{H} \simeq \mathcal{C}$ is a choice of internal groupoids i
 
 For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is prop. \ref{InductiveChoicesOfInternalGroupoids} below.
 
-+-- {: .num_prop #HCore}
-###### Proposition
-
-The inclusion
-
-$$
-  Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H}) \hookrightarrow
-  PreCat(\mathcal{C})
-$$
-
-has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
-
-$$
-  Core_{\mathbf{H}} : PreCat_{\mathbf{H}}(\mathcal{C}) \to Grpd(\mathbf{H})
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The left morphism has a right adjoint by prop. \ref{CoreOnPreCategoryObjects}. The right adjoint of the right functor is implied by one of the axioms on the choice of groupoids $Disc \colon \mathbf{H} \hookrightarrow \mathcal{C}$, by which $Disc$ has a right adjoint $\Gamma$ and is itself a right adjoint. This means that their prolongations to simplicial objects both preserve pre-category objects and hence induce an adjunction of pre-category objects.
-
-=--
 
 This corresponds to ([Lurie, notation 1.2.9](#Lurie)).
 
@@ -614,6 +589,33 @@ Write $PreCat_{\mathbf{H}}(\mathcal{C})$ for the $(\infty,1)$-category of intern
 
 This is the definition of _Segal object_ in ([Lurie, def. 1.2.7](#Lurie)).
 
++-- {: .num_prop #HCore}
+###### Proposition
+
+The inclusion
+
+$$
+  Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H}) \hookrightarrow
+  PreCat_{\mathbf{H}}(\mathcal{C})
+$$
+
+has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+
+$$
+  Core_{\mathbf{H}} : PreCat_{\mathbf{H}}(\mathcal{C}) \to Grpd(\mathbf{H})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The left morphism has a right adjoint by prop. \ref{CoreOnPreCategoryObjects}.  The right adjoint of the right functor is implied by the first of the axioms on the choice of groupoids $Disc \colon \mathbf{H} \hookrightarrow \mathcal{C}$, by which $Disc$ has a right adjoint $\Gamma$ and is itself a right adjoint. This means that their prolongations to simplicial objects both preserve pre-category objects and hence induce an adjunction of pre-category objects. Moreover, since $Disc$ is in addition fully faithful, $\Gamma$ takes objects in the inclusion back to themselves, and hence this preserves also $(\mathbf{H}\hookrightarrow \mathcal{C})$-relative precategory objects.
+
+=--
+
+
 +-- {: .num_defn #HInternalCategory}
 ###### Definition
 
@@ -635,6 +637,46 @@ for the [[full sub-(∞,1)-category]] of internal precategories on the internal 
 =--
 
 This is ([Lurie, def. 1.2.10](#Lurie)).
+
++-- {: .num_prop }
+###### Proposition
+
+The inclusion of pre-category objects, def. \ref{HInternalCategory} into category objects is [[reflective sub-(infinity,1)-category|reflective]]
+
+$$
+  Cat_{\mathbf{H}}(\mathcal{C})
+  \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  PreCat_{\mathbf{H}}(\mathcal{C})
+  \,.
+$$
+
+=--
+
+This is ([Lurie, remark 1.2.11](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+This is a special case of _[reflctive sub-(∞,1)-category -- Transport of reflective subategories](reflective+sub-%28infinity,1%29-category#TransportOfReflectiveSubcategories)_
+
+$$
+  \array{
+    \mathbf{H} &\stackrel{const}{\hookrightarrow}& \mathcal{C}^{\Delta^{op}}
+    \\
+    {}^{\mathllap{Core}}\uparrow\downarrow^{\mathrlap{incl}}
+    && 
+    {}^{\mathllap{Core}}\uparrow\downarrow^{\mathrlap{incl}}
+    \\
+    Cat_{\mathbf{H}}(\mathcal{C})
+    &\hookrightarrow&
+    PreCat_{\mathbf{H}}(\mathcal{C})
+  }
+$$
+
+=--
+
+The corresponding reflector is "Segal completion". We now describe this in more detail.
+
 
 +-- {: .num_defn #CategoricalEquivalence}
 ###### Definition
@@ -688,8 +730,42 @@ In particular, by reflectivity, this means that a morphism $f_\bullet \colon X_\
 
 A central point of the formulation of internal category objects is that it can be iterated to yields categories objects internal to category objects ... internal to an $(\infty,1)$-topos.
 
-+-- {: .num_prop #InductiveChoicesOfInternalGroupoids}
++-- {: .num_prop }
 ###### Proposition
+
+Let $\mathbf{H} \hookrightarrow \mathcal{C}$ be a choice of 
+internal groupoids, def. \ref{ChoiceOfInternalGroupoids}. Then also the constant inclusion
+
+$$
+  \mathbf{H} \hookrightarrow Cat_{\mathbf{H}}(\mathcal{C})
+$$
+
+into the $(\infty,1)$-category of the corresponding category objects is a choice of internal groupoids.
+
+=--
+
+This is ([Lurie, prop.1.3.2](#Lurie)). 
+
++-- {: .proof}
+###### Proof
+
+To see that the inclusion preserves limits and colimits:
+
+The constant inclusion 
+
+$$
+  \mathbf{H} \stackrel{const}{\to} \mathbf{H}^{\Delta^{op}} \to \mathcal{C}^{\Delta^{op}}
+$$ 
+
+is fully faithful, since $\Delta^{op}$ is a contractible 
+$(\infty,1)$-category . The first inclusion preserves limits and colimits since in presheaf categories these are computed objectwise, similarly for the second, using the assumption that already $\mathcal{H} \to \mathcal{C}$ preserves limits and colimits. Moreover, this inclusion clearly factors through $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ and since that is also fully faithful, also $\mathbf{H} \to Cat_{\mathbf{H}}(\mathcal{C})$ preserves limits and colimits.
+
+=--
+
+In particular therefore we have the following:
+
++-- {: .num_cor #InductiveChoicesOfInternalGroupoids}
+###### Corollary
 
 For $\mathbf{H}$ an [[(∞,1)-topos]], the canonical inclusion 
 
