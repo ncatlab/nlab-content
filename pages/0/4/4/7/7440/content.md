@@ -102,7 +102,18 @@ The archetypical example here is the case where again $\mathbf{H} =$ [[∞Grpd]]
 
 But again, more generally, $\mathbf{H}$ can be an [[(∞,1)-category of (∞,1)-sheaves]] and $\mathcal{C}$ for instance an [[(∞,2)-topos]] of [[(∞,2)-sheaves]], yielding $(\infty,3)$-sheaves, and so on.
 
-### Pre-category objects: Segal conditions
+### Simplicial objects 
+ {#SimplicialObjects}
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]].
+
+We discuss in the following a sequence of [[reflective sub-(∞,1)-categories]] of that of [[simplicial objects in an (∞,1)-category]] $\mathcal{C}^{\Delta^{op}}$ in $\mathcal{C}$, see there for more details.
+
+We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](#simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_.
+
+
+
+### Pre-category objects
  {#PreCategoryInTopos}
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite limit|finite]] [[(∞,1)-limits]]
@@ -131,7 +142,7 @@ Write $PreCat(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-catego
 
 =--
 
-This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)).
+This is called a _category object_ in ([Lurie, def. 1.1.1](#Lurie)). Here we reserve that term for those objects that behave more like category objects should, which are the _[[complete Segal space]] objects_, below. 
 
 +-- {: .num_remark }
 ###### Remark
@@ -168,7 +179,7 @@ for the full sub-$\infty$-groupoid on the [[equivalences]].
 
 =--
 
-### Groupoid objects in an $(\infty,1)$-category
+### Groupoid objects
  {#GroupoidObjects}
 
 #### Definition
@@ -184,17 +195,28 @@ $$
   X : \Delta^{op} \to \mathcal{C}
 $$ 
 
-that satisfies the groupoidal _[[Segal conditions]]_, meaning that for all $n \in \mathbb{N}$ and all partitions $[n] \simeq S \cup S'$  that share a single element $S \cap S' = \{s\}$, the [[(∞,1)-functor]] $X$ exhibits an [[(∞,1)-pullback]]
+satisfying the following equivalent conditions
 
-$$
-  X([n]) \simeq X(S) \times_{X(S \cap S')} X(S')
-  \,.
-$$
+1. $X_\bullet$ satisfies the  _groupoidal [[Segal conditions]]_, meaning that for all $n \in \mathbb{N}$ and all partitions $[n] \simeq S \cup S'$  that share a single element $S \cap S' = \{s\}$, the [[(∞,1)-functor]] $X$ exhibits an [[(∞,1)-pullback]]
+
+   $$
+     X([n]) \simeq X(S) \times_{X(S \cap S')} X(S')
+     \,;
+   $$
+
+1. $X_\bullet$ is a pre-category object, def. \ref{PreCategoryObject}, and the morphism 
+
+   $$
+     X(\Delta^2) \to X(\Lambda^2_0)
+   $$
+
+   is an [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{C}$.
 
 Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of [[simplicial object in an (∞,1)-category|simplicial objects]] on the groupoid objects.
 
 =--
 
+The equivalence follows with [[HTT|HTT prop. 6.2.1.6]], see at _[groupoid object -- equivalent characterizations](groupoid object in an (infinity,1)-category#EquivalentCharacterizations)_.
 
 +-- {: .num_remark }
 ###### Remark
@@ -277,7 +299,7 @@ See ([Lurie, example 1.1.4](#Lurie)).
 #### Coreflection into pre-category objects
 
 In order to state the [[complete Segal space|completeness condition]] on a precategory object, def. \ref{PreCategoryObject}, we need to reflect, or rather _coreflect_, it onto its [[core]] groupoid object, 
-def. \ref{GroupoidObjects}.
+def. \ref{GroupoidObject}.
 
 We first consider this for the ambient [[(∞,1)-topos]] $\mathbf{H}$ being [[∞Grpd]], then we use that to deal with the general case.
 
@@ -387,7 +409,7 @@ This is ([Lurie, prop. 1.1.14](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-With def. \ref{Equivalences} it is direct to establish the statement for the case that $\mathcal{C} \simeq $ [[∞Grpd]]. ([Lurie, cor. 1.1.11](#Lurie)) From this it follows also for the case that $\mathbf{H} \simeq PSh_\infty(\mathcal{D})$ is an [[(∞,1)-category of (∞,1)-presheaves]] by arguing objectwise over objects in $\mathcal{D}$. 
+With def. \ref{Equivalences} it is direct to establish the statement for the case that $\mathcal{C} \simeq $ [[∞Grpd]], ([Lurie, cor. 1.1.11](#Lurie)) From this it follows also for the case that $\mathbf{H} \simeq PSh_\infty(\mathcal{D})$ is an [[(∞,1)-category of (∞,1)-presheaves]] by arguing objectwise over objects in $\mathcal{D}$. 
 In the general case, $\mathbf{H}$ is a [[reflective sub-(∞,1)-category]] of such, $\mathcal{C} \hookrightarrow PSh_\infty(\mathcal{D})$. It is then sufficient to show that the core operation on the presheaf $\infty$-toposes respects these inclusions, so that we have
 
 $$
@@ -453,17 +475,15 @@ etc. Heuristically it is clear, by the nature of $K$, that this picks all those 
 
 =--
 
+### Category objects
 
 
-### Internal category in an $(\infty,1)$-topos
+#### In an $(\infty,1)$-topos
  {#CategoryObjectInTopos}
+ {#CompleteCategoryInTopos}
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Then every object of $\mathbf{H}$ may already be thought of as being an [[groupoid object in an (∞,1)-category|internal groupoid]], which facilitates the definition of internal categories. This we discus here.  The more general case where the ambient $(\infty,1)$-category is not necessarily an [[(∞,1)-topos]] is discussed further [below](#InAnInfinity1Category).
 
-
-
-#### Category objects
- {#CompleteCategoryInTopos}
 
 +-- {: .num_defn #CategoryObject}
 ###### Definition
@@ -474,11 +494,8 @@ An **internal category** in an [[(∞,1)-topos]] $\mathbf{H}$ is an internal pre
 
 This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lurie)).
 
-We discuss further properties of category objects in $\mathbf{H}$ [below](#CategoryObjectsInC).
 
 
-### Internal category in an $(\infty,1)$-category
- {#InAnInfinity1Category}
 
 For internalizing in an $(\infty,1)$-category $\mathcal{C}$ which is not an [[(∞,1)-topos]], we need to specify what the constant groupoid objects in $\mathcal{C}$ are supposed to be. This is the topic of
 
@@ -538,7 +555,7 @@ For the discussion of [[(∞,n)-categories]], the central property of such _choi
 
 
 
-#### Category objects
+#### In a general $(\infty,1)$-category
  {#CategoryObjectsInC}
 
 In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqipped with a choice of internal groupoids $\mathbf{H} \hookrightarrow \mathcal{C}$, def. \ref{ChoiceOfInternalGroupoids}.
