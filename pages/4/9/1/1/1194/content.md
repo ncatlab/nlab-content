@@ -554,6 +554,10 @@ Surveys include
 
 * wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
 
+A textbook account in the context of [[programming languages]] is in 
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
 Original articles include
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984.
