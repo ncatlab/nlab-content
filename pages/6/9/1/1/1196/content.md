@@ -52,6 +52,11 @@ The observation that the [[poset]] of [[open subsets]] of a [[topological space]
 * [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, FundamentaMathemeticae 31 (1938), pp. 103&#8211;134.
  {#Tarski}
 
+A textbook account in the context of [[programming languages]] is in section 30 of
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
+
 [[!redirects intuitionistic logic]]
 [[!redirects Intuitionistic logic]]
 [[!redirects constructive logic]]
