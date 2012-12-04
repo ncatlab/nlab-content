@@ -221,7 +221,48 @@ If we are given a [[model category]] [[presentable (∞,1)-category|presentation
 ### Equivalent characterizations
  {#EquivalentCharacterizations}
 
-+-- {: .num_prop}
+We state in prop. \ref{EquivalentCharacterizationsViaSlicesAndPowering} below a list of equivalent conditions that characterize a [[simplicial object in an (∞,1)-category]] as a groupoid object. This uses the following basic notions, which we review here for convenience.
+
++-- {: .num_defn}
+###### Definition
+
+For $K \in $ [[sSet]] a [[simplicial set]], write $\Delta_{/K}$ for its [[category of simplices]]. For $X_\bullet \in \mathcal{C}^{\Delta^{op}}$ a simplicial object, write
+
+$$
+  X[K] \colon \Delta^{op}_{/K} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+$$
+
+for the precomposition of $X_\bullet$ with the canonical projection. Moreover, write 
+
+$$
+  X(K) \coloneqq \underset{\leftarrow}{\lim} X[K]
+$$
+
+for the [[(∞,1)-limit]] over this composite [[(∞,1)-functor]] in $\mathcal{C}$ (if it exists). (Notice: square brackets for the composite functor, round brackets for its $(\infty,1)$-limit.)
+
+=--
+
++-- {: .num_remark #EquivalenceOfConeCategoriesAndLimits}
+###### Remark
+
+For $X_\bullet \in \mathcal{C}^{\Delta^{op}}$ and $K \to K'$ the following are equivalent
+
+1. the induced morphism of cone $(\infty,1)$-categoris $\mathcal{C}_{X[K]} \to \mathcal{C}_{X[K']}$ is an [[equivalence of (∞,1)-categories]];
+
+1. the induced morphism of [[(∞,1)-limits]] $X(K) \to X(K')$ is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
+(The first perspective is used in ([Lurie](#Lurie)), the second in ([Lurie2](#Lurie2)).)
+
++-- {: .proof}
+###### Proof
+
+In one direction: the limit is the [[terminal object in an (∞,1)-category|terminal object]] in the cone category, and so is preserved by equivalences of cone categories. (This direction appears as ([Lurie, prop. 4.1.1.8](#Lurie))).  Conversely, the limits is the object representing cones, and hence an equivalence of limits induces an equivalence of cone categories.
+
+=--
+
++-- {: .num_prop #EquivalentCharacterizationsViaSlicesAndPowering}
 ###### Proposition
 
 Let $\mathcal{C}$ be an $(\infty,1)$-category incarnated explicitly as a [[quasi-category]]. Then a [[simplicial object in an (∞,1)-category|simplicial object in]] $\mathcal{C}$ is a groupoid object if the following equivalent conditions hold.
@@ -236,13 +277,21 @@ Let $\mathcal{C}$ be an $(\infty,1)$-category incarnated explicitly as a [[quasi
 
    is an [[equivalence of (∞,1)-categories]] (a [[weak equivalence]] in the [[model structure for quasi-categories]]).
 
-1. For every $n \geq 2$ and every $0 \leq i \leq n$, the morphism $\mathcal{C}_{/X(\Delta^n)} \to \mathcal{C}_{/X(\Lambda^n_i)}$ is an weak equivalence in the [[model structure for quasi-categories]]
+1. For every $n \geq 2$ and every $0 \leq i \leq n$, the morphism $\mathcal{C}_{/X[\Delta^n]} \to \mathcal{C}_{/X[\Lambda^n_i]}$ is an weak equivalence in the [[model structure for quasi-categories]]
+
+1. (...)
+
+Using remark \ref{EquivalenceOfConeCategoriesAndLimits} this means equivalently that the simplicial object $X_\bullet$ is a groupoid precisely if the following 
+
+1. $X_\bullet$ satisfies the ordinary [[Segal conditions]] and the morphism $X(\Delta^2) \to X(\Lambda^2_0)$ is an [[equivalence in an (∞,1)-category|equivalence]].
 
 1. (...)
 
 =--
 
-This is ([Lurie, prop. 6.1.2.6](#Lurie)).
+The first items appear as ([Lurie, prop. 6.1.2.6](#Lurie)). The second ones appear in the proofs of ([Lurie2, prop. 1.1.8, lemma 1.2.25](#Lurie2)).
+
+
 
 ### The $(\infty,1)$-category of groupoid objects
 
@@ -539,6 +588,11 @@ A standard textbook reference on the model categories presentation of $\infty$-g
 
 * [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
 {#GoerssJardine}
+
+Discussion from the point of view of [[category objects in an (∞,1)-category]] is in 
+
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ {#Lurie2}
 
 
 
