@@ -47,9 +47,30 @@ In particular, the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Del
 
 ## Properties
 
+### General
+
 * The category of simplices is a [[Reedy category]].
 
 * The [[full subcategory]] inclusion of the non-degenerate simplices is a [[homotopy cofinal functor]] (see there).
+
+### The nerve and subdivision
+
+Let $N\colon Cat \to SSet$ denote the simplicial [[nerve]] functor on [[Cat]].
+
++-- {: .num_theorem}
+###### Theorem
+The functor $X\mapsto N(\Delta\downarrow X)$ from $SSet\to\SSet$ preserves [[colimits]].
+=--
++-- {: .proof}
+###### Proof
+An $n$-simplex of $N(\Delta\downarrow X)$ is determined by a string of $n+1$ composable morphisms
+$$ \Delta^{k_n} \to \dots\to \Delta^{k_0} $$
+along with a map $\Delta^{k_0} \to X$, i.e. an element of $X_{k_0}$
+Thus, each the functor $X\mapsto N(\Delta\downarrow X)_n$ from $SSet \to Set$ is a coproduct of a family of "evaluation" functors.
+Since evaluation preserve colimits, coproducts commute with colimits, and colimits in $SSet$ are levelwise, the statement follows.
+=--
+
+Therefore, the simplicial set $N(\Delta\downarrow X)$ itself can be computed as a colimit over the category $(\Delta\downarrow X)$ of the simplicial sets $N(\Delta\downarrow \Delta^n)$.
 
 ## Applications
 
@@ -66,26 +87,10 @@ Examples abound:
 
 
 
-## The nerve and the subdivision
 
-Let $N\colon Cat \to SSet$ denote the simplicial [[nerve]] functor.
-
-+-- {: .un_theorem}
-###### Theorem
-The functor $X\mapsto N(\Delta\downarrow X)$ from $SSet\to\SSet$ preserves colimits.
-=--
-+-- {: .proof}
-###### Proof
-An $n$-simplex of $N(\Delta\downarrow X)$ is determined by a string of $n+1$ composable morphisms
-$$ \Delta^{k_n} \to \dots\to \Delta^{k_0} $$
-along with a map $\Delta^{k_0} \to X$, i.e. an element of $X_{k_0}$
-Thus, each the functor $X\mapsto N(\Delta\downarrow X)_n$ from $SSet \to Set$ is a coproduct of a family of "evaluation" functors.
-Since evaluation preserve colimits, coproducts commute with colimits, and colimits in $SSet$ are levelwise, the statement follows.
-=--
-
-Therefore, the simplicial set $N(\Delta\downarrow X)$ itself can be computed as a colimit over the category $(\Delta\downarrow X)$ of the simplicial sets $N(\Delta\downarrow \Delta^n)$.
 
 
 [[!redirects categories of simplices]]
 [[!redirects category of nondegenerate simplices]]
 [[!redirects categories of nondegenerate simplices]]
+[[!redirects category of non-degenerate simplices]]
