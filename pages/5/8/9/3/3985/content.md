@@ -557,7 +557,7 @@ This is ([Lurie, lemma 5.5.4.17](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{LocalizationProposition} $\mathcal{C}^0 \hookrightarrow \mathcal{C}$ is the inclusion of the $S$-[[local objects]] for some class $S$ of morphisms of $\mathcal{C}$. By adjunction it follows that $\mathcal{D}^0$ is precisely the class of $f(S)$-[[local objects]], and hence is a reflective subcategory, again by prop. \ref{LocalizationProposition}.
+By prop. \ref{LocalizationProposition}, $\mathcal{C}^0 \hookrightarrow \mathcal{C}$ is the inclusion of the $S$-[[local objects]] for some class $S$ of morphisms of $\mathcal{C}$. By adjunction it follows that $\mathcal{D}^0$ is precisely the class of $f(S)$-[[local objects]], and hence is a reflective subcategory, again by prop. \ref{LocalizationProposition}.
 
 =--
 
