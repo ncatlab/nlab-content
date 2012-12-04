@@ -67,7 +67,7 @@ This appears in ([Porst, page 7](#Porst)).
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[monoidal category]] with countable [[coproduct]]s that are preserved by the [[tensor product]]. Then the forgetful functor $U$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
+Let $C$ be a [[monoidal category]] with countable [[coproduct]]s that are preserved by the [[tensor product]]. Then the forgetful functor $U_C$ has a [[left adjoint]] $F_C : C \to Mon(C)$. On an object $X \in C$ the underlying object of $F_C X$ is
 
 $$
   U_C F_C X 
