@@ -93,6 +93,10 @@ More on this is in in sections 2 and 3 of
 * [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of model logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  {#Pfenning-Davies}
 
+A textbook acccount is in section I.3 of 
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
 [[!redirects judgment]]
 [[!redirects judgments]]
 [[!redirects judgement]]
