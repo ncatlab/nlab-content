@@ -107,6 +107,20 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $K = \Delta^n$ itself an $n$-[[simplex]], for some $n \in \mathbb{N}$ the powering reduces to evaluation on that simplex:
+
+$$
+  X(\Delta^n) \simeq X_n
+  \,.
+$$
+
+This is because the [[category of non-degenerate simplices]] of an $n$-simplex has a [[terminal object]] (namely that $n$-simplex itself), and so its [[opposite category]] has an [[initial object]] and the $(\infty,1)$-limit over a [[diagram]] with initial object is given by evaluation at that initial object. 
+
+=--
+
 +-- {: .num_prop #SlicingOverPoweringOfSimplicialObjects}
 ###### Proposition
 
