@@ -1,0 +1,15 @@
+[[!redirects continuation passing style]]
+
+## Related concepts
+
+* [[programming language]]
+
+* [[functional programming]]
+
+* [[Yoneda lemma]]
+
+## References
+
+* Wikipedia, _[Continuation-passing style](http://en.wikipedia.org/wiki/Continuation-passing_style)_
+
+
