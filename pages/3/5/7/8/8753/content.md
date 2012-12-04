@@ -58,6 +58,12 @@ The following is a model for the [[powering]] of simplicial objects in $\mathcal
 Let $\mathcal{C} \in QCat \hookrightarrow sSet$ be an [[(∞,1)-category]] incarnated as a [[quasi-category]], and let $X \colon \Delta^{op} \to \mathcal{C}$ be a simplicial object. Then for $K \in sSet$ any [[simplicial set]], write
 
 $$
+  X[K] \colon \Delta_{/K}^{op} \to \Delta^{op} \stackrel{X}{\to} \mathcal{C}
+$$
+
+for the the composite [[(∞,1)-functor]] of $X_\bullet$ with the projection from (the [[opposite category]] of) the [[category of simplices]] of $K$, and write
+
+$$
   X(K) 
     \colon 
   \underset{\leftarrow}{\lim}
@@ -66,7 +72,7 @@ $$
   \right)
 $$
 
-for the [[(∞,1)-limit]] (if it exists) of composite [[(∞,1)-functor]] of $X_\bullet$ with the projection from (the [[opposite category]] of) the [[category of simplices]] of $K$.
+for the [[(∞,1)-limit]] over it (if it exists).
 
 =--
 
@@ -121,6 +127,27 @@ This is because the [[category of non-degenerate simplices]] of an $n$-simplex h
 
 =--
 
++-- {: .num_remark #EquivalenceOfConeCategoriesAndLimits}
+###### Remark
+
+For $X_\bullet \in \mathcal{C}^{\Delta^{op}}$ and $K \to K'$ the following are equivalent
+
+1. the induced morphism of cone $(\infty,1)$-categoris $\mathcal{C}_{X[K]} \to \mathcal{C}_{X[K']}$ is an [[equivalence of (∞,1)-categories]];
+
+1. the induced morphism of [[(∞,1)-limits]] $X(K) \to X(K')$ is an [[equivalence in an (∞,1)-category|equivalence]].
+
+=--
+
+(The first perspective is used in ([Lurie](#Lurie)), the second in ([Lurie2](#Lurie2)).)
+
++-- {: .proof}
+###### Proof
+
+In one direction: the limit is the [[terminal object in an (∞,1)-category|terminal object]] in the cone category, and so is preserved by equivalences of cone categories. (This direction appears as ([Lurie, prop. 4.1.1.8](#Lurie))).  Conversely, the limits is the object representing cones, and hence an equivalence of limits induces an equivalence of cone categories.
+
+=--
+
+
 +-- {: .num_prop #SlicingOverPoweringOfSimplicialObjects}
 ###### Proposition
 
@@ -135,6 +162,13 @@ $$
 $$
 
 is an [[equivalence of (∞,1)-categories]] (a [[weak equivalence]] in the [[model structure for quasi-categories]]).
+
+Equivalently, by remark \ref{SlicingOverPoweringOfSimplicialObjects}, we have an equivalence
+
+$$
+  X(K) \to X(K')
+  \,.
+$$
 
 =--
 
@@ -178,7 +212,9 @@ Section 6.1.2 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+Related discussion is also in
+
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#LurieGood}
 
 
