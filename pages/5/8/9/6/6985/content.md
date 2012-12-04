@@ -79,6 +79,13 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 * [[dependent sum type]]
 
 
+## References
+
+A textbook account in the context of [[programming languages]] is in section 12 of 
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
+
 [[!redirects sum type]]
 [[!redirects sum types]]
 [[!redirects disjoint union type]]
