@@ -59,7 +59,7 @@ Write $Cat(\mathcal{X})$ for the 2-category of _[[internal categories]]_ in $\ma
 =--
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #2SheavesAsInternalCategories}
 ###### Theorem
 
 For $\mathcal{X}$ a 2-topos, there is an [[equivalence of 2-categories]]
@@ -94,6 +94,13 @@ By the [[2-Giraud theorem]], $\mathcal{X}$ is an [[exact 2-category]]. With this
 
 By the discussion at [[n-localic 2-topos]], a 2-sheaf 2-topos has _[[core in a 2-category|enough groupoids]]_ precisely if it has a [[(2,1)-site]] of definition, and has _[[core in a 2-category|enough discretes]]_ precisely if it has a 1-site of definition.
 With this the second and third statement is [this theorem](http://ncatlab.org/nlab/show/2-congruence#nCongOnGroupoidsAndDiscretes) at _[[2-congruence]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The noteworthy point about theorem \ref{2SheavesAsInternalCategories} is that for an ambient context which is a $(2,1)$-localic [[(2,1)-topos]], the straightforward morphisms of [[internal categories]], hence the notion of [[internal functors]], needs no further [[localization]]. This is in stark contrast to the situation for an ambient [[1-category]]. The generalization of this phenomenon is discussed at _[[category object in an (∞,1)-category]]_.
 
 =--
 
