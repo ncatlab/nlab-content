@@ -17,13 +17,15 @@
 
 Let $C$ be an [[(∞,1)-category]] and $X \in C$ an [[object]]. 
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
-The category $Sub(X)$ of **subobjects** of $X$ is the $(-1)$-[[truncated|truncation]] of the [[over-(∞,1)-category]] of $C$ over $X$
+A **subobject** of $X$ is a [[1-monomorphism]] $K \hookrightarrow X$ into $X$.
+
+The [[(∞,1)-category]] $Sub(X)$ of **subobjects** of $X$ is the $(-1)$-[[truncated object in an (∞,1)-category|truncation]] of the [[slice-(∞,1)-category]] of $C$ over $X$
 
 $$
-  Sub(X) := \tau_{-1} C/X
+  Sub(X) := \tau_{-1} C_{/X}
   \,.
 $$
 
@@ -45,7 +47,7 @@ in $C$.
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 $Sub(X)$ is a [[(0,1)-category]] (a [[poset]]).
@@ -54,7 +56,7 @@ $Sub(X)$ is a [[(0,1)-category]] (a [[poset]]).
 
 This appears for instance in ([Lurie, section 6.2](#Lurie)).
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ is a [[locally presentable (∞,1)-category]] then $Sub(X)$ is a [[small category]].
@@ -67,10 +69,12 @@ If $C$ is a [[locally presentable (∞,1)-category]] then $Sub(X)$ is a [[small 
 
 * **subobject in an $(\infty,1)$-category**
 
+* [[n-image]], [[n-truncated object in an (∞,1)-category]]
+
 ## References
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
-{#Lurie}
+  {#Lurie}
 
 
 [[!redirects subobject in an (∞,1)-category]]
