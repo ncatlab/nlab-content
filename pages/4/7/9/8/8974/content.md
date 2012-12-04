@@ -1,0 +1,18 @@
+
+## Functional programming languages
+
+* [[Haskell]]
+
+* (...)
+
+## Related concepts
+
+* [[function type]]
+
+* [[continuation-passing style]]
+
+* [[programming language]]
+
+## References
+
+* Wikipedia, _[Functional programming](http://en.wikipedia.org/wiki/Functional_programming)_
