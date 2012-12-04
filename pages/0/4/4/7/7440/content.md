@@ -457,14 +457,14 @@ $$
   \array{
     Grpd(\mathbf{H}) &\hookrightarrow& Grpd(PSh_\infty(\mathcal{D}))
     \\
-    \downarrow \uparrow && \downarrow \uparrow^{\mathrlap{Core}}
+    \downarrow \uparrow^{\mathrlap{Core}} && \downarrow \uparrow^{\mathrlap{Core}_{PSh}}
     \\
     PreCat(\mathbf{H}) &\hookrightarrow& PreCat(PSh_\infty(\mathcal{D}))
   }
   \,.
 $$
 
-This means that we need to show that if $X_\bullet$ is degreewise in $\mathbf{H} \hookrightarrow PSh_\infty(\mathcal{D})$ and is a pre-category object, then $Core_{PSh}(X_\bullet)$ is degreewise in $\mathbf{H}$. By the pre-category condition and since the refletive inclusion is [[right adjoint]] and hence preserves the fiber products, for this it is sufficient that $Core_{Psh}(X)_0$ and $Core_{PSh}(X)_1$ are in $\mathbf{H}$.  To complete the proof it is sufficient to show that the first of these is $X_0$ and (again since the inclusion preserves limits) the second is the [powering](simplicial%20object%20in%20an%20%28infinity,1%29-category#Powering) $X(K)$, where
+This means that we need to show that if $X_\bullet$ is degreewise in $\mathbf{H} \hookrightarrow PSh_\infty(\mathcal{D})$ and is a pre-category object, then $Core_{PSh}(X_\bullet)$ is degreewise in $\mathbf{H}$. By the pre-category condition and since the refletive inclusion is [[right adjoint]] and hence preserves the fiber products, for this it is sufficient that $Core_{Psh}(X)_0$ and $Core_{PSh}(X)_1$ are in $\mathbf{H}$.  To complete the proof it is sufficient to show that the first of these is $X_0$ and (again since the inclusion preserves limits) the second is equivalent to the [powering](simplicial%20object%20in%20an%20%28infinity,1%29-category#Powering) $X(K)$, where
 
 $$
   K \coloneqq \Delta^0 \coprod_{\Delta^{\{0,2\}}} \Delta^3 \coprod_{\Delta^{\{1,3\}}} \Delta^
@@ -511,8 +511,17 @@ $$
   X(K) \simeq  X_0 \underset{X(\{0,2\})}{\times} X_3 \underset{X(\{1,3\})}{\times} X_0
 $$
 
-etc. Heuristically it is clear, by the nature of $K$, that this picks all those 3-simplices in $X_\bullet$ for which the $\{0,1\}$-edges is a weak inverse to the $\{2,3\}$-edge. Formally this follows from [this proposition](simplicial+object+in+an+%28infinity%2C1%29-category#SlicingOverPoweringOfSimplicialObjects) at _[[simplicial object in an (∞,1)-category]]_. Hence $Core(X)(K) \to X(K)$ is an equivalence. Moreover $K^0 \hookrightarrow K$ is a weak equivalence, and hence so is $Core(X)(K) \to Core(X)({K^0}) \simeq Core(X)_1$.
+etc. By construction, $Core(X)(K) \to X(K)$ is fully faithful.  Hence to see that it is an equivalence, hence in addition essentially surjective, it is sufficient to observe that 
 
+$$
+  X(K)
+  \simeq
+  X_0 \underset{X_{\{0,1\}}}{\times} X_3 \underset{X_{\{1,3\}}}{\times} X_0
+$$ 
+
+is the space of those 3-simplices in $X_\bullet$ for which the $\{0,1\}$-edges is a weak inverse to the $\{2,3\}$-edge. 
+Hence $Core(X)(K) \to X(K)$ is an equivalence. Moreover $K^0 \hookrightarrow K$ is a weak equivalence, and hence so is $Core(X)(K) \to Core(X)({K^0}) \simeq Core(X)_1$,
+by [this proposition](simplicial+object+in+an+%28infinity%2C1%29-category#SlicingOverPoweringOfSimplicialObjects) at _[[simplicial object in an (∞,1)-category]]_.
 
 =--
 
@@ -608,21 +617,23 @@ In the following, let $\mathcal{C}$ be a [[presentable (∞,1)-category]] eqippe
 +-- {: .num_defn #PreCategoryObject}
 ###### Definition
 
-An **internal precategory** $X$ in $\mathcal{C}$ relative to the choice of internal groupoids $\mathbf{H} \hookrightarrow \mathcal{C}$ is a [[simplicial object]]
+An **internal precategory** $X$ in $\mathcal{C}$ relative to the choice of internal groupoids $\mathbf{H} \hookrightarrow \mathcal{C}$ is a [[simplicial object in an (∞,1)-category|simplicial object]]
 
 $$
   X : \Delta^{op} \to \mathcal{C}
 $$
 
-such that for all $n \in \mathbb{N}$ $X$ exhibits $X([n])$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+such that 
 
+1. for all $n \in \mathbb{N}$ the functor $X$ exhibits $X_n$ as the [[(∞,1)-limit]] / iterated [[(∞,1)-pullback]]
+
+  $$
+    X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
 $$
-  X([n]) \simeq X(\{0,1\}) \times_{X([0])} \cdots \times_{X[0]} X(\{n-1,n\})
-$$
 
-_and_ such that 
+1. such that the object of objects lies in the inclusion of $\mathbf{H}$
 
-* $X_0 \in \mathbf{H} \hookrightarrow \mathcal{C}$.
+   $$X_0 \in \mathbf{H} \hookrightarrow \mathcal{C}\,.$$
 
 Write $PreCat_{\mathbf{H}}(\mathcal{C})$ for the $(\infty,1)$-category of internal pre-categories in $\mathcal{C}$ relative to $\mathbf{H}$, the [[full sub-(∞,1)-category]] of the [[simplicial objects]] on the internal precategories.
 
@@ -698,7 +709,14 @@ This is ([Lurie, remark 1.2.11](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-This is a special case of _[reflctive sub-(∞,1)-category -- Transport of reflective subategories](reflective+sub-%28infinity,1%29-category#TransportOfReflectiveSubcategories)_
+By prop. \ref{EmbeddingOfConstantGroupoidObjects} and by the first axiom in def. \ref{ChoiceOfInternalGroupoids}, we have a reflective inclusion 
+
+$$
+\mathbf{H} \stackrel{const}{\hookrightarrow} \mathbf{H}^{\Delta^{op}} \stackrel{Disc^{\Delta^{op}}}{\hookrightarrow} \mathcal{C}^{\Delta^{op}}
+  \,.
+$$ 
+
+From this the [[right adjoint]] [[core]], prop. \ref{HCore}, induces the claimed inclusion by using the statement of _[reflective sub-(∞,1)-category -- Transport of reflective subategories](reflective+sub-%28infinity,1%29-category#TransportOfReflectiveSubcategories)_, which says that $Cat_{\mathbf{H}}(\mathcal{C}) \simeq Core^{-1}(\mathbf{H})(PreCat_{\mathbf{H}}(\mathcal{C}))$ is a reflective inclusion
 
 $$
   \array{
@@ -712,7 +730,15 @@ $$
     &\hookrightarrow&
     PreCat_{\mathbf{H}}(\mathcal{C})
   }
+  \,.
 $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+So far we have only ever used the first axiom in def. \ref{ChoiceOfInternalGroupoids}. We now describe the reflector $PreCat_{\mathbf{H}}(\mathcal{C}) \to Cat_{\mathbf{H}}(\mathcal{C})$ in more detail, and for that we use the other two axioms.
 
 =--
 
@@ -790,16 +816,17 @@ This is ([Lurie, prop.1.3.2](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-To see that the inclusion preserves limits and colimits:
-
-The constant inclusion 
+We consider the first of the three axioms, that the inclusion preserves limits and colimits: The constant inclusion 
 
 $$
-  \mathbf{H} \stackrel{const}{\to} \mathbf{H}^{\Delta^{op}} \to \mathcal{C}^{\Delta^{op}}
+  \mathbf{H} 
+    \stackrel{const}{\to} 
+  \mathbf{H}^{\Delta^{op}} 
+    \stackrel{Disc^{\Delta^{op}}}{\to}
+  \mathcal{C}^{\Delta^{op}}
 $$ 
 
-is fully faithful, since $\Delta^{op}$ is a contractible 
-$(\infty,1)$-category . The first inclusion preserves limits and colimits since in presheaf categories these are computed objectwise, similarly for the second, using the assumption that already $\mathbf{H} \to \mathcal{C}$ preserves limits and colimits. Moreover, this inclusion clearly factors through $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ and since that is also fully faithful, also $\mathbf{H} \to Cat_{\mathbf{H}}(\mathcal{C})$ preserves limits and colimits.
+is [[full and faithful (∞,1)-functor|fully faithful]], since $\Delta^{op}$ is a contractible $(\infty,1)$-category . The first inclusion preserves limits and colimits since in presheaf categories these are computed objectwise, similarly for the second, using the condition that already $Disc \colon \mathbf{H} \to \mathcal{C}$ preserves limits and colimits. Moreover, this inclusion clearly factors through $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$, by def. \ref{HInternalCategory}, and since that is also fully faithful, also $\mathbf{H} \to Cat_{\mathbf{H}}(\mathcal{C})$ preserves limits and colimits.
 
 =--
 
@@ -885,24 +912,6 @@ $$
 
 ## Properties
 
-### Localization
-
-+-- {: .num_prop #CatIsReflectiveInSimpl}
-###### Proposition
-
-The inclusion of internal categories into all [[simplicial objects]]
-
-$$
-  Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}
-$$
-
-is [[reflective sub-(∞,1)-category|reflective]].
-
-=--
-
-This is ([Lurie, remark 1.2.11](#Lurie)), based on ([[Higher Topos Theory|HTT, lemma 5.5.4.17]]).
-
-
 ### Model category presentations
  {#ModelCategoryPresentations}
 
@@ -911,7 +920,7 @@ We discuss here [[presentable (infinity,1)-category|presentations]] of category 
 +-- {: .num_prop }
 ###### Proposition
 
-Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]].
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] that [[presentable (∞,1)-category]] presents the [[(∞,1)-category]] $\mathcal{C} \simeq C^\circ$.
 
 Then then category $[\Delta^{op}, C]$ of [[simplicial objects]] in $C$ admits a [[left proper model category|left proper]] [[combinatorial model category]] structure characterized by the following properties:
 
@@ -926,11 +935,16 @@ This is stated as ([Lurie, prop. 1.5.4](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{CatIsReflectiveInSimpl} combined with ([[Higher Topos Theory|HTT, prop. A.3.7.8]]).
+By the discussion at [[model structure on functors]]. $[\Delta^{op}, C]_{proj/inj/Reedy}$ is a [[presentable (∞,1)-category|presentation]] of $\mathcal{C}^{op}$. Moreover, by the discussion at [reflective sub-(∞,1)-category -- model category presentation](reflective+sub-%28infinity%2C1%29-category#ModelCategoryPresentation) the reflective inclusion $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ of prop. \ref{CatIsReflectiveInSimpl} is presented by the [[Bousfield localization of model categories|left Bousfield localization]] as claimed.
 
 =--
 
-This gives in particular to the standard [[model structure for complete Segal spaces]].
++-- {: .num_example }
+###### Example
+
+For $C = sSet_{Quillen}$ the standard [[model structure on simplicial sets]], this gives in particular rise to the standard [[model structure for complete Segal spaces]].
+
+=--
 
 ### Homotopy type theory formulation
  {#HomotopyTypeTheoryFormulation}
@@ -1441,7 +1455,7 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 A general abstract formulation is in 
 
-* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#Lurie}
 
 The model given by complete Segal space objects is due to
