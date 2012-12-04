@@ -51,7 +51,7 @@ We discuss the equivalence of these conditions:
 
 The equivalence $(f^* faithful) \Leftrightarrow (Id \to f^* f_* is mono)$ is a general property of [[adjoint functor]]s (see there). 
 
-The implication $(f^* faithful) \Rightarrow (f^* induces injection on subobjects)$ works as follows: 
+The implication $(f^* faithful) \Rightarrow (f^* induces\;injection\;on\;subobjects)$ works as follows: 
 
 first of all $f^*$ does indeed preserves subobjects: since it respects [[pullback]]s and since [[monomorphism]]s are characterized as those morphisms whose domain is stable under pullback along themselves.
 
