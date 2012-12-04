@@ -222,7 +222,16 @@ for the maximal [[subobject in an (∞,1)-category]] of the object of 1-morphism
 ### Groupoid objects
  {#GroupoidObjects}
 
+A _groupoid object_ is a pre-category object, def. \ref{PreCategoryObject} whose composition operation according to remark \ref{CompositionInPreCategory} is invertible. This is discussed in more detail at _[[groupoid object in an (∞,1)-category]]_. Here we briefly recall the 
+
+* [Definition](#GroupoidObjectDefinition)
+
+and then discuss the crucial property for the further developments here, which is the 
+
+* [Coreflection of gropoid objects into pre-category objects](#CoreflectionOfGroupoidsIntoPrecategories).
+
 #### Definition
+ {#GroupoidObjectDefinition}
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with finite $(\infty,1)$-limits.
 
@@ -337,6 +346,7 @@ forms the [[(∞,1)-colimit]] in $\mathcal{C}$ over the simplicial diagram under
 See ([Lurie, example 1.1.4](#Lurie)). 
 
 #### Coreflection into pre-category objects
+ {#CoreflectionOfGroupoidsIntoPrecategories}
 
 In order to state the [[complete Segal space|completeness condition]] on a precategory object, def. \ref{PreCategoryObject}, we need to reflect, or rather _coreflect_, it onto its [[core]] groupoid object, 
 def. \ref{GroupoidObject}.
@@ -544,6 +554,14 @@ An **internal category** in an [[(∞,1)-topos]] $\mathbf{H}$ is an internal pre
 
 This is called a _[[complete Segal space]] object_ in ([Lurie, def. 1.2.10](#Lurie)).
 
++-- {: .num_remark }
+###### Remark
+
+A groupoid object, def. \ref{GroupoidObject}, is always a pre-category object, but is a category object only and precisely if it is in the image of the constant inclusion $Const \colon \mathbf{H} \to Grpd(\mathbf{H})$.
+
+In a sense these are the genuine groupoid objects, while the others are groupoid objects _equipped with an atlas_ (...).
+
+=--
 
 
 
