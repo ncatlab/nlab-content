@@ -84,9 +84,23 @@ But of course the point of category objects internal ot an $(\infty,1)$-category
 ## Definition
  {#Definition}
 
-Category
+We define category objects internal to an [[(∞,1)-category]] $\mathcal{C}$ (and with respect to a choice of "inclusion of groupoids" $\mathbf{H}\hookrightarrow \mathcal{C}$) by a sequence of full ([[coreflective subcategory|co]])[[reflective sub-(∞,1)-categories]]
 
-The definition of category objects in an [[(∞,1)-category]] makes recourse to the notion of [[groupoid object in an (∞,1)-category]], and so we first review that in 
+$$
+  \mathbf{H}
+   \hookrightarrow
+  Cat_{\mathbf{H}}(\mathcal{C})
+   \hookrightarrow
+  PreCat_{\mathbf{H}}(\mathcal{C})
+    \hookrightarrow 
+  \mathcal{C}^{\Delta^{op}}
+$$
+
+of that of 
+
+* [Simplicial objects in an (∞,1)-category](#SimplicialObjects).
+
+The definition makes recourse to the notion of [[groupoid object in an (∞,1)-category]], and so we first review that in 
 
 * [Groupoid objects in an (∞,1)-category](#GroupoidObjects).
 
@@ -107,13 +121,19 @@ But again, more generally, $\mathbf{H}$ can be an [[(∞,1)-category of (∞,1)-
 ### Simplicial objects 
  {#SimplicialObjects}
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]].
-
-We discuss in the following a sequence of [[reflective sub-(∞,1)-categories]] of that of [[simplicial objects in an (∞,1)-category]] $\mathcal{C}^{\Delta^{op}}$ in $\mathcal{C}$, see there for more details.
+Let $\mathcal{C}$ be an [[(∞,1)-category]]. We discuss in the following a sequence of [[reflective sub-(∞,1)-categories]] of that of [[simplicial objects in an (∞,1)-category]] $\mathcal{C}^{\Delta^{op}}$ in $\mathcal{C}$, see there for more details.
 
 We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_.
 
 
++-- {: .num_remark #RemarkNoNeedForLocalization}
+###### Remark
+
+It is noteworthy that category objects internal to $\mathcal{C}$, as defined below, will form a _full_ [[sub-(∞,1)-category]] of that of [[simplicial objects in an (∞,1)-category]]. In traditional theory of [[internal categories]]a major issue is that in general there are not enough [[internal functors]]: the full subcategory of internal [[graphs]] on the internal categories needs to be further [[localization|localized]], in general. But this turns out to be an artefact of the ambient category being an [[(n,1)-category]] for $n$ too low. 
+
+For a discussion of how for plain [[internal categories]] (those that also externally are [[1-categories]]) the traditional localization becomes superfluous if the ambient context is a [[(2,1)-category]] (instead of just a [[1-category]]) see at [[2-topos]] the section _[In terms of internal categories](2-topos#InTermsOfInternalCategories)_. The following may be thought of as a generalization of that discussion. 
+
+=--
 
 ### Pre-category objects
  {#PreCategoryInTopos}
