@@ -39,7 +39,7 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 * Every morphism is an $\infty$-monomorphism.
 
-* 1-Monomorphisms are often just called [[monomorphisms in an (∞,1)-category]].
+* 1-Monomorphisms are often just called [[monomorphisms in an (∞,1)-category]]. The 1-monomorphisms into a fixed object are called the [[subobject in an (∞,1)-category|subobjects]] of that object.
 
 * A 1-monomorphism between [[0-truncated]] objects is precisely an ordinary [[monomorphism]] in the underlying [[1-topos]].
 
