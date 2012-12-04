@@ -188,16 +188,34 @@ where $\Delta_0^{op} \to \Delta$ is the [[wide subcategory]] of the [[simplex ca
 
 =--
 
++-- {: .num_remark #CompositionInPreCategory}
+###### Remark
+
+The [[Segal conditions]] imply that for $X_\bullet$ a pre-category object, there is a [[composition]] map
+
+$$
+  X_1 \times_{X_0} X_1
+  \underoverset{\simeq}{(\partial_0, \partial_2)^{-1}}{\to}
+  X_2
+  \stackrel{\partial_1}{\to}
+  X_1
+$$
+
+which satisfies [[associativity]] and the [[unit law]] up to higher [[coherence|coherent]] [[homotopy]]. A [[subobject in an (∞,1)-category]] $Y \hookrightarrow X_1$ on such that restricted along this inclusion this composition becomes invertible we call a subobject of equivalences.
+
+=--
+
+
 +-- {: .num_defn #Equivalences}
 ###### Definition
 
-Let $\mathcal{C} = $ [[∞Grpd]]. For $X_\bullet$ a pre-category object, def. \ref{PreCategoryObject}, write
+For $X_\bullet$ a pre-category object, def. \ref{PreCategoryObject}, write
 
 $$
   Equiv(X_1) \hookrightarrow X_1
 $$
 
-for the full sub-$\infty$-groupoid on the [[equivalences]].
+for the maximal [[subobject in an (∞,1)-category]] of the object of 1-morphisms on those which are [[equivalences]] with respect to the [[composition]] of remark \ref{CompositionInPreCategory}.
 
 =--
 
