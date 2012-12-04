@@ -639,6 +639,11 @@ A very basic introduction to the concept, with an eye towards explaining [[ident
 
 * [[Mike Shulman]], _Induction on equality_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/induction.pdf))
 
+A textbook account in the context of [[programming languages]] is in section 15 of
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
+
 Discussion of inductive types in the context of [[Coq]]-programming is in chapter 3 of 
 
 * [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ 
