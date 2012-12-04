@@ -25,4 +25,11 @@ See at _[[inductive type]]_.
 
 * [[coinductive definition]]
 
+## References
+
+A textbook account is in section I.2 of 
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
+
 [[!redirects inductive definitions]]
