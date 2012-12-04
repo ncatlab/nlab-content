@@ -76,7 +76,7 @@ for the [[(∞,1)-limit]] over it (if it exists).
 
 =--
 
-This is discussed in ([Lurie HTT 4.2.3](#Lurie)). See also around ([Lurie 2, notation 1.1.7](#LurieGood)).
+This is discussed in ([Lurie HTT 4.2.3, notation 6.1.2.5](#Lurie)). See also around ([Lurie 2, notation 1.1.7](#LurieGood)).
 
 +-- {: .num_remark}
 ###### Remark
