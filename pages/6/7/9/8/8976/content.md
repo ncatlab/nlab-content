@@ -1,9 +1,54 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[logic]] a _universal closure operator_ is [[idempotent monad]] (or comonad) on the [[subobject classifier]], $\Diamond \colon \Omega \to \Omega$. For $\phi \hookrightarrow X$ a [[subobject]] of $X$/[[proposition]] of [[type]] $X$, its closure $\Diamond \phi \hookrightarrow X$ under $\Diamond$ is the subobject classified by $\Diamond \circ \chi_{\phi}$, where $\chi_\phi$ is the name of $\phi$, hence given by the [[pasting diagram]] of [[pullback]] squares
+
+$$
+  \array{
+    \phi &\to& \widehat \Omega
+    \\
+    \downarrow && \downarrow
+    \\
+    \Diamond \phi &\to& &\to& \widehat \Omega
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\stackrel{\chi_X}{\to}& \Omega &\stackrel{\Diamond}{\to}& \Omega
+  }
+  \,,
+$$
+
+More generally, in [[type theory]] with a [[type of types]] $\Omega$, a universal closure or _[[modal type theory|modality]]_ is an [[idempotent monad]] on $\Omega$, as above.
+
+More generally, in the [[context]]/[[slice category|slice]] over some $Y$, the closure of a map $f \colon X \to Y$ is the [[pullback]] morphism on the left of 
+
+$$
+  \array{
+    Y \times_{\Diamond Y} \Diamond X &\to& \Diamond X
+    \\
+    \downarrow && \downarrow^{\Diamond f}
+    \\
+    Y &\to & \Diamond Y
+  }
+  \,.
+$$
+
+For more on this see, for the moment, at _[[Pi-closed morphism]]_.
+
+
+## Examples
+
+* [[Lawvere-Tierney topology]]
+
+* [[local topos]]
+
 ## Related concepts
 
 * [[modal type theory]]
-
-* [[Pi-closed morphism]]
 
 
 ## References
@@ -12,3 +57,7 @@
 
 [[!redirects universal closure operator]]
 [[!redirects closure operators]]
+
+[[!redirects closure operation]]
+[[!redirects closure operations]]
+
