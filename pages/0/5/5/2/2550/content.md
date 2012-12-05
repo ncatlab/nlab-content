@@ -26,9 +26,13 @@ $$
 
 is the standard [[affine line]] in $C$.
 
-## Examples
+## Examples and applications
 
-One example of $\mathbb{A}^1$-homotopy theory appears in [[motivic cohomology]]. See there for more details.
+* One example of $\mathbb{A}^1$-homotopy theory appears in [[motivic cohomology]]. See there for more details.
+
+* $\mathbb{A}^1$-homotopy theory sheds light on (and was at least partially motivated by) the proof of the [[Bloch-Kato conjecture]]. 
+
+* There is an analog of $\mathbb{A}^1$-homotopy theory for other geometries. The extra left adjoint on an [[cohesive (infinity,1)-topos]] may realize the localization at an abstract [[continuum]] [[line object]]. See at _[[cohesion]]_ for more details.
 
 ## Related concepts
 
