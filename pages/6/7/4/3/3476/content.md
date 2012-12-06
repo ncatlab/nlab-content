@@ -49,7 +49,7 @@ $$ C \overset{A^*}{\to} C/A \overset{\Pi_f}{\to} C/B \overset{\Sigma_B}{\to} C. 
 Here $A^*$ is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $C/B$ to $C$).  
 Such a composite is called a [[polynomial endofunctor]].  
 
-This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.
+This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.  (A non-elementary construction of them is given by the [[transfinite construction of free algebras]].)
 
 This definition is most useful when the category $C$ is not just 
 [[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $B$.  For example, a [[natural numbers object]] is a W-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a W-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomial]]s in the traditional sense:
