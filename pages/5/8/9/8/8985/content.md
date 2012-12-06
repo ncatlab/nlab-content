@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[category theory]], there is a common problem of the construction of [[free objects]] in "algebraic" categories.  The idea is that one has to start from some "generators" and repeatedly throw in the results of applying "operations", subject to some "relations", over and over again until the result "converges".  In general, this convergence will require a [[ordinal number|transfinite]] iteration, and the fact that it converges at all requires some smallness/accessibility hypotheses.
+In [[category theory]], there is a common problem of the construction of [[free objects]] in "algebraic" categories.  The idea is that one has to start from some "[[generators and relations|generators]]" and repeatedly throw in the results of applying "operations", subject to some "[[generators and relations|relations]]", over and over again until the result "converges".  In general, this convergence will require a [[ordinal number|transfinite]] iteration, and the fact that it converges at all requires some smallness/accessibility hypotheses.
 
 If this construction is performed in sufficient generality, then it includes a large number of important special cases, such as the following (not mutually exclusive):
 
@@ -41,14 +41,14 @@ In what follows we will summarize Kelly's constructions, restricted to the speci
 
 Let $\mathcal{A}$ be a [[locally presentable category]].  All endofunctors of $\mathcal{A}$ which we consider will be [[accessible functor|accessible]], that is, they preserve $\kappa$-[[filtered colimits]] for some sufficiently large [[cardinal number]] $\kappa$.  In fact, we will only need to know that they preserve sufficiently long [[transfinite compositions]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
-An endofunctor $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a natural transformation $\sigma:Id_\mathcal{A} \to S$.  It is called **well-pointed** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
+An endofunctor $S:\mathcal{A}\to \mathcal{A}$ is called **[[pointed endofunctor|pointed]]** if it is equipped with a natural transformation $\sigma:Id_\mathcal{A} \to S$.  It is called **well-pointed** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
 =--
 
 Of course, a [[monad]] can be regarded as a pointed endofunctor where $\sigma$ is its unit.  Such an endofunctor is well-pointed precisely when the monad is [[idempotent monad|idempotent]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 If $H$ is an endofunctor, then an $H$-[[algebra for an endofunctor|algebra]] is an object $A$ together with a map $H A\to A$.  If $(S,\sigma)$ is a pointed endofunctor, then an $S$-algebra is an object $A$ with a map $a:S A \to A$ such that $a \sigma_A = 1_A$.
 =--
@@ -88,24 +88,24 @@ The basic theorem to which all others can be reduced is the following.
 
 +-- {: .num_theorem #WellPointedFreeAlgebras}
 ###### Theorem
-If $\mathcal{A}$ is locally presentable and $S$ is an accessible well-pointed endofunctor, then $S Alg$ is [[reflective subcategory|reflective]] in $\mathcal{A}$.  Therefore, the algebraically-free monad on $S$ exists (and is accessible).
+If $\mathcal{A}$ is [[locally presentable category|locally presentable]] and $S$ is an accessible well-pointed endofunctor, then $S Alg$ is [[reflective subcategory|reflective]] in $\mathcal{A}$.  Therefore, the algebraically-free monad on $S$ exists (and is accessible).
 =--
 +-- {: .proof}
 ###### Proof
-Given $A\in\mathcal{A}$, define inductively the following transfinite sequence in $\mathcal{A}$:
+Given $A\in\mathcal{A}$, define [[induction|inductively]] the following transfinite sequence in $\mathcal{A}$:
 $$ A \to S A \to S^2 A \to S^3 A \to \cdots $$
 in which each transition map is a component of $\sigma$, and we take colimits at limit stages.  If we continue this out to some $\kappa$-filtered ordinal $\alpha$, where $S$ is $\kappa$-accessible, then $S$ will preserve the relevant colimit, and hence we have an induced action $S(S^\alpha A) \to S^\alpha A$.  It is easy to check that this makes $S^\alpha A$ into a reflection of $A$ into $S Alg$.
 =--
 
 Some important constructions are directly examples of this theorem.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 Let $K$ be a set of morphisms in $\mathcal{A}$; recall that an object $A\in\mathcal{A}$ is said to be *orthogonal* to $K$ if $\mathcal{A}(k,A)$ is a bijection for all $k\in K$, which is to say that each functor $\mathcal{A}(k,-):\mathcal{A}\to Set^{\mathbf{2}}$ takes $A$ to an isomorphism, where $Set^{\mathbf{2}}$ is the [[arrow category]] of [[Set]].
 Now the subcategory of isomorphisms is reflective in $Set^{\mathbf{2}}$, hence is the algebras for a well-pointed endofunctor $R_k$.  By Lemma \ref{WellPointedTransfer}, there is a well-pointed endofunctor $S_k$ on $\mathcal{A}$ whose algebras are the objects orthogonal to $k$.  And by Lemma \ref{WellPointedCointersection}, there is a well-pointed endofunctor $S$ whose algebras are those objects orthogonal to all $k\in K$.  Thus, by Theorem \ref{WellPointedFreeAlgebras}, the category of objects orthogonal to $K$ is reflective in $\mathcal{A}$.
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 Applying the previous example on [[slice categories]], we can construct [[orthogonal factorization systems]].
 =--
@@ -154,7 +154,7 @@ $$ \array{ && \colim_{\beta\lt\alpha} X_{\beta+1} = X_\alpha \\
   \colim_{\beta\lt\alpha} T X_\beta && \to && T X_\alpha.}
 $$
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 The [[algebraic weak factorization system|algebraic]] [[small object argument]] consists of building the free monad on a pointed endofunctor.
 =--
@@ -166,7 +166,7 @@ An algebra for an unpointed endofunctor $H$ is the same as an algebra for the po
 
 In this case, the transfinite sequence for the free $H$-algebra on $A\in\mathcal{A}$ is much simpler: we have $X_0 = A$ and $X_{\beta+1} = A + H X_\beta$.
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 A [[W-type]] in a category is an initial algebra for a [[polynomial functor]].  Equivalently, it is the free algebra on the initial object for that functor.  Thus, we obtain the existence of W-types, and likewise of more general [[inductive types]].
 =--
@@ -190,7 +190,7 @@ $$
 Define $L:T/\mathcal{A}\to T/\mathcal{A}$ to take $(A,B,a)$ to $(B,D,c)$ in this pushout.  Then $L$-algebras (*qua* pointed endofunctor) are precisely $T$-algebras (*qua* monad), and we have a pointwise epimorphism $S\to L$, where $S$ is the well-pointed endofunctor from the proof of Theorem \ref{PointedAlgebras} whose algebras are the $T$-algebras (*qua* pointed endofunctor).  Thus, by Lemma \ref{WellPointedQuotient}, $L$ is well-pointed; now apply Theorem \ref{WellPointedFreeAlgebras}.
 =--
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 $T Alg$ is locally presentable.  Moreover, any functor $T Alg \to T' Alg$ induced by a monad morphism $T'\to T$ has a left adjoint.
 =--
@@ -204,7 +204,7 @@ Since $T Alg$ is reflective in the cocomplete $T/\mathcal{A}$, it is cocomplete.
 
 When speaking of colimits of monads, we are not interested merely in colimits in the category of monads, but *algebraic colimits* in the following sense.  Let $V:K\to Monad (\mathcal{A})$ be a diagram in the category of monads on $\mathcal{A}$, and define a **$V$-algebra** to be an object $A$ together with $V_k$-algebra structures which commute with the images of morphisms in $K$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 An **algebraic colimit** of $V$ is a monad $P$ whose usual [[Eilenberg-Moore category]] $P Alg$ is equivalent, over $\mathcal{A}$, to the category of $V$-algebras.
 =--
@@ -230,7 +230,7 @@ Let $L(A,B,a) \coloneqq (B,D,c)$, defining an endofunctor of $T/\mathcal{A}$.  T
 Moreover, $L$ admits an epimorphic transformation from the well-pointed endofunctor $S$ defined as in Theorem \ref{PointedAlgebras} whose algebras are the $T$-algebras (*qua* pointed endofunctor).  Thus, by Lemma \ref{WellPointedQuotient}, $L$ is well-pointed; now apply Theorem \ref{WellPointedFreeAlgebras}.
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 The categorical semantics of [[higher inductive types]] can be described using certain "presentations" of monads.  (More to come...)
 =--
