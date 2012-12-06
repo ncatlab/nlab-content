@@ -37,6 +37,12 @@ Every ordinal $\alpha$ has a **[[successor]]** $\alpha^+$, which in the von Neum
 
 In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined as a special ordinal number, specifically an ordinal which is not equipollent (isomorphic as a [[set]]) to any smaller ordinal.
 
+## Related pages
+
+One important use of ordinals is to index transfinite constructions, such as:
+
+* [[transfinite composition]]
+* [[transfinite construction of free algebras]]
 
 [[!redirects ordinal]]
 [[!redirects ordinals]]
