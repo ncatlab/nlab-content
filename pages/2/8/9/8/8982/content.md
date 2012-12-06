@@ -1,0 +1,38 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+On a [[local topos]] $\mathbf{H}$ acts a [[comonad]] $\flat$, being the [[left adjoint]] to the [[monad]] $\sharp$ induces by the extra [[right adjoint]] of the [[global section]] [[geometric morphism]]. This is the _flat [[modality]]_ on the topos.
+
+
+## Properties
+
+### Relation to discrete and codiscrete objects
+
+* The [[codiscrete objects]] in a local topos are the [[modal types]] for the [[sharp modality]].
+
+* The [[discrete object]] in a local topos are the [[modal types]] for the flat modality.
+
+## Related concepts
+
+* [[Pi modality]] $\dashv$ flat modality $\dashv$ [[sharp modality]]
+
+## References
+
+See the references at _[[local topos]]_.
+
