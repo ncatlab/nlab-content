@@ -27,7 +27,7 @@ An __$H$-group__ is a [[group object]] in [[Ho(Top)]]. Oo an $H$-monoid is an $H
 
 To continue in this pattern, one could say that an **H-category** is an [[Ho(Top)]]-[[enriched category]].
 
-Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher and coherent homotopies  is instead called a _strongly homotopy associative_ space or  _[[A-infinity space]]_ for short.
+Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher and coherent homotopies  is instead called a _strongly homotopy associative_ space or  _$A_\infty$-[[A-infinity space|space]]_ for short.  If it has only higher homotopies up to level $n$, it is called an $A_n$-[[A-n space|space]].
 
 A better name for an $H$-space would be $H$-[[unitoid]], but it is rarely used. The $H$ stands for [[Heinz Hopf]], and reflects the sad fact that the natural name 'homotopy group' was [[homotopy group|already occupied]]; Hopf and A. Borel found necessary algebraic conditions for a space to admit an $H$-space structure.
 
