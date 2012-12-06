@@ -1,3 +1,5 @@
 Just finished my PhD in category theory at Dalhousie University.
 
+* [webpage](http://geoff.reluctantm.com/)
+
 category: people
