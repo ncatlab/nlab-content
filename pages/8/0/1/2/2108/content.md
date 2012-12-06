@@ -387,6 +387,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
     * [[geometric quantization of symplectic groupoids]] 
  
     * [[spin-c quantization]]
+ 
+    * [[geometric quantization of non-integral forms]]
 
   * [[path integral]]
 
