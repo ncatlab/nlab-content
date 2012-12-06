@@ -66,6 +66,8 @@ Transfinite composition plays a role in
 
 * [[cofibrantly generated model category|cofibrantly generated model categories]].
 
+* the [[transfinite construction of free algebras]]
+
 
 ## References
 
