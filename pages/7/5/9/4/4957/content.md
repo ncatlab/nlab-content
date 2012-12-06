@@ -197,7 +197,7 @@ themselves.
 
 Let $\mathcal{E}$ be an [[elementary topos]] equipped with a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$.
 
-Write $V \mapsto \sharp  V$ for the $j$-[[closure operation]] on [[subobjects]] $V \hookrightarrow X$
+Write $V \mapsto \sharp  V$ for the $j$-[[closure operation]] on [[subobjects]] $V \hookrightarrow X$, the _[[sharp modality]]_
 
 $$
   \array{
