@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
