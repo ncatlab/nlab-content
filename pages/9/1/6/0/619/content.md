@@ -9,6 +9,10 @@
 +-- {: .hide}
 [[!include notions of subcategory]]
 =--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
