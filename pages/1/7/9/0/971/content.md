@@ -109,7 +109,7 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #Limits}
 ###### Proposition 
 **(closure under limits)**
 
