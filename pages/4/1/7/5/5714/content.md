@@ -41,6 +41,8 @@ Under mild technical conditions, presymplectic manifolds arise as submanifolds o
 
 ## Related concepts
 
+* [[geometric quantization]], [[geometric quantization of non-integral forms]]
+
 [[!include symplectic reduction - table]]
   
 
