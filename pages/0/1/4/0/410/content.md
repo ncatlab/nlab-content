@@ -54,6 +54,8 @@ For the classical functors which forget algebraic structure, cofree functors are
 
 One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of thee examples above and many others.
 
+A general way to construct free functors is with a [[transfinite construction of free algebras]] (in [[set theory|set-theoretic]] foundations), or with an [[inductive type]] or [[higher inductive type]] (in [[type theory|type-theoretic]] foundations).
+
 ### For cofree functors
 
 * The [[cofree coalgebra]] on a vector space. More generally, if $M$ is an [[operad]] in a symmetric monoidal category $V$, $Prop(M)$ its associated [[PROP]], and if $C$ is a monoidal $V$-category, then an $M$-coalgebra in $C$ may be identified with a monoidal $V$-functor $Prop(M)^{op} \to C$. Under suitable completeness assumptions on $C$, the forgetful functor $M$-$Coalg_C \to C$ has a right adjoint, and this forgetful functor is [[comonadic functor|comonadic]]. 
