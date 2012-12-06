@@ -1,18 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 # Power sets
 * table of contents
 {: toc}
 
 ## Definition
 
-Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [[subsets]] of $S$.  Equivalently, it is the set $\TV^S$ of all [[functions]] from $S$ to the set $\TV$ of [[truth values]].  This is often written $2^S$, since there are (at least in [[classical logic]]) exactly $2$ truth values.
+Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [[subsets]] of $S$.  Equivalently, it is 
+
+* the set $\TV^S$ of all [[functions]] from $S$ to the set $\TV$ of [[truth values]].  This is often written $2^S$, since there are (at least in [[classical logic]]) exactly $2$ truth values;
+
+* the collection of [[subobjects]] of $X$ in the [[topos]] [[Set]].
 
 
 ## Foundational status
 
 One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
 
-+-- {: .un_axiom}
++-- {: .num_axiom}
 ###### Axiom (power sets)
 
 If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
@@ -29,14 +44,19 @@ One can use power sets to construct [[function sets]]; the converse also works u
 
 ## Properties
 
-The power set $\mathcal{P}S$ is a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
+* The power set $\mathcal{P}S$ is a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
 
-[[Cantor's theorem]] states that there exists no [[surjection]] from $S$ to $\mathcal{P}S$; as there does exist such an [[injection]], one concludes that
+
+* [[Cantor's theorem]] states that there exists no [[surjection]] from $S$ to $\mathcal{P}S$; as there does exist such an [[injection]], one concludes that
 $$ {|S|} \lt {|\mathcal{P}S|} $$
 in the usual arithmetic of [[cardinal numbers]].
 
-Power sets live in the category [[Set]].  Given an object $S$ of any [[category]], one can similarly form a poset of [[subobjects]] of $S$; the category is called [[well-powered category|well-powered]] when this poset is [[small category|small]].  One also has an internal notion of power set (a [[power object]]) in a [[topos]].
+* Power sets live in the category [[Set]].  Given an object $S$ of any [[category]], one can similarly form a poset of [[subobjects]] of $S$; the category is called [[well-powered category|well-powered]] when this poset is [[small category|small]].  One also has an internal notion of power set (a [[power object]]) in a [[topos]].
 
+
+## Related concepts
+
+* A [[closure operator]] on a power set is a _[[Moore closure]]_.
 
 category: foundational axiom
 
