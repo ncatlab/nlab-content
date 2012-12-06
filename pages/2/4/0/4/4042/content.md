@@ -66,7 +66,7 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 
 ## Related concepts
 
-* [[algebra over an endofunctor]]
+* The [[algebra over a monad]] over a free monad on an endofuncori is an _[[algebra over an endofunctor]]_.
 
 ## References
 
