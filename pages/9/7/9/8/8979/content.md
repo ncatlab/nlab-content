@@ -1,7 +1,7 @@
 
 **[[modal type theory]]**, [[modal logic]]
 
-**[[closure operator]]**
+**[[closure operator]]**, [[universal closure operator]]
 
 * [[idempotent monad]], [[comonad]]
 
