@@ -17,11 +17,7 @@
 ## Idea
 
 
-A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subobjects]] (of some [[object]] in some [[category]].  In [[logic]], this is often referred to as a (monadic) _[[modal operator]]_.  The elements of the poset that are fixed by the closure operator are called _closed_ (or perhaps _[[modal type|modal]]_)
-
-Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
-
-If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is one acting on each of the slices and being compatible with the pullback operation.
+If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is a [[closure operator]] acting on each of the slices and being compatible with the pullback operation.
 
 If there is moreover a [[subobject classifier]] $\Omega$ (hence if that hyperdoctrine is the collection of [[slice categories]] of a [[topos]]) then a universal closure operator is represented by a single [[monad]]/[[comonad]] on that subobject classifier, $\Diamond \colon \Omega \to \Omega$, see the discussion [below](DefinitionForReflectiveSubcategories).
 
@@ -219,8 +215,6 @@ In this form the statement appears in the proof of ([Johnstone, Theorem A4.3.9](
 
 ## Examples
 
-* In [[Set]] a closure operator is also called a _[[Moore closure]]_. See there for more.
-
 * In a [[topos]] a universal closure operator as [above](#DefinitionForReflectiveSubcategories) is also called a  _[[Lawvere-Tierney topology]]_.
 
 * For a [[local topos]] there are the closure operators _[[flat modality]] $\dashv$ [[sharp modality]]_.
@@ -240,11 +234,7 @@ Section A4.4 of
 
 
 [[!redirects universal closure operator]]
-[[!redirects closure operators]]
-
-[[!redirects closure operation]]
-[[!redirects closure operations]]
-
+[[!redirects universal closure operators]]
 [[!redirects universal closure operation]]
 [[!redirects universal closure operations]]
 
