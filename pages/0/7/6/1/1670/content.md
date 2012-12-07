@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Moore closures
 * table of contents
 {: toc}
@@ -138,7 +137,6 @@ The definition of Moore collection really makes sense in any [[inflattice]]; eve
 Since Galois connections are simply [[adjunction]]s between posets, the concept of Moore closure cries out for [[categorification]].  And in fact, the answer is well known in category theory: it is a [[monad]].
 
 
-
 ## References
 
 Section 4.1--4.12 in
@@ -152,6 +150,7 @@ See also
 
 [[!redirects Moore closure]]
 [[!redirects Moore closures]]
+[[!redirects Moore clsoure]]
 [[!redirects Moore collection]]
 [[!redirects Moore collections]]
 
