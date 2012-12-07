@@ -19,9 +19,11 @@
 
 A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subobjects]] (of some [[object]] in some [[category]].  In [[logic]], this is often referred to as a (monadic) _[[modal operator]]_.  The elements of the poset that are fixed by the closure operator are called _closed_ (or perhaps _[[modal type|modal]]_)
 
+Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
+
 If one considers a [[hyperdoctrine]] of subobject lattices, hence a collection of them parameterized over a [[category of contexts]] and equipped with [[pullback]]/[[substitution]]/[[context extension]], then a _universal closure operator_ or _[[modality]]_ is one acting on each of the slices and being compatible with the pullback operation.
 
-If there is moreover a [[subobject classifier]] $\Omega$ (hence if that hyperdoctrine is the collection of [[slice categories]] of a [[topos]]) then a universal closure operator is represented by a single [[monad]]/[[comonad]] on that subobject classifier, $\Diamond \colon \Omega \to \Omega$, see the discussion below.
+If there is moreover a [[subobject classifier]] $\Omega$ (hence if that hyperdoctrine is the collection of [[slice categories]] of a [[topos]]) then a universal closure operator is represented by a single [[monad]]/[[comonad]] on that subobject classifier, $\Diamond \colon \Omega \to \Omega$, see the discussion [below](DefinitionForReflectiveSubcategories).
 
 Instead of [[subobjects]] one may consider more generally closures acting on the full [[slice categories]]. This promotes the corresponding _[[modal logic]]_ to _[[modal type theory]]_.  Unlike in the posetal case, such a monad will not automatically be [[idempotent monad|idempotent]], but often one requires this explicitly.
 
@@ -34,7 +36,7 @@ Instead of [[subobjects]] one may consider more generally closures acting on the
 
 Let $Sh_j(\mathcal{C}) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathcal{E}$ be a [[reflective subcategory]] of a [[topos]] $\mathcal{E}$.
 
-Here we discuss explicit translations between the structure given by the [[localization|reflector]] $L$ and the corresponding closure operator $j \colon \Omega \to \Omega$ (the [[Lawvere-Tierney operator]]) in a way that makes the relation to [[modal type theory]] and [[monads (in computer science)]] most manifest.
+Here we discuss explicit translations between the structure given by the [[localization|reflector]] $L$ and the corresponding closure operator $j \colon \Omega \to \Omega$ (the [[Lawvere-Tierney topology|Lawvere-Tierney operator]]) in a way that makes the relation to [[modal type theory]] and [[monads (in computer science)]] most manifest.
 
 +-- {: .num_defn #ClosureOperatorOfReflection}
 ###### Definition
