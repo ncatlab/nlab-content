@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[modal hyperdoctrine]]_ is a framework for [[modal logic]] in the presence of different [[contexts]].
+
+A _[[modal hyperdoctrine]]_ is a [[hyperdoctrine]] that is equipped with a compatible [[modal operator]], often a compatible [[closure operator]], hence a [[universal closure operator]]. 
+
+## Related concepts
+
+* [[modal type theory]]
+
+## References
+
+Around p. 597 of
+
+* P. Blacksburn, J. van Benthem, F. Wolter, _Handbook of modal logic_, Studies in Logic and Practical reasoning volume 3 (2007)
+
+
+[[!redirects modal hyperdoctrines]]
