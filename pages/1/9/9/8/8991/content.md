@@ -29,5 +29,9 @@ Around p. 597 of
 
 * P. Blacksburn, J. van Benthem, F. Wolter, _Handbook of modal logic_, Studies in Logic and Practical reasoning volume 3 (2007)
 
+p. 43 of 
+
+* M. Kracht, O. Kutz, 'Logically Possible Worlds and Counterpart Semantics for Modal Logic', ([pdf](http://www.informatik.uni-bremen.de/~okutz/counterparts_handbook.pdf))
+
 
 [[!redirects modal hyperdoctrines]]
