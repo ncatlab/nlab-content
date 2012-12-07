@@ -544,4 +544,8 @@ and section A4.4 of
 [[!redirects Lawvere--Tierney topologies]]
 
 [[!redirects Lawvere-Tierney operator]]
+[[!redirects Lawvere–Tierney operator]]
+[[!redirects Lawvere--Tierney operator]]
 [[!redirects Lawvere-Tierney operators]]
+[[!redirects Lawvere–Tierney operators]]
+[[!redirects Lawvere--Tierney operators]]
