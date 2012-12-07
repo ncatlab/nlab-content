@@ -1,0 +1,24 @@
+## Idea
+
+A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subobjects]] (of some [[object]] in some [[category]].  In [[logic]], this is often referred to as a (monadic) _[[modal operator]]_.  The elements of the poset that are fixed by the closure operator are called _closed_ (or perhaps _[[modal type|modal]]_)
+
+Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
+
+## Examples
+
+* A closure operator on a [[power set]] is also called a _[[Moore closure]]_. See there for more.
+
+
+[[!redirects closure operator]]
+[[!redirects closure operators]]
+[[!redirects closure operation]]
+[[!redirects closure operations]]
+
+[[!redirects coclosure operator]]
+[[!redirects coclosure operators]]
+[[!redirects coclosure operation]]
+[[!redirects coclosure operations]]
+[[!redirects co-closure operator]]
+[[!redirects co-closure operators]]
+[[!redirects co-closure operation]]
+[[!redirects co-closure operations]]
