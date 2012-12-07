@@ -601,7 +601,7 @@ $$
 
 with face and degeneracy maps
 
-*  $d_i (x,g) = (d_i x , d_i g) if $i \gt 0$
+*  $d_i (x,g) = (d_i x , d_i g)$ if $i \gt 0$
 
 * $d_0 (x,g) = (d_0 x, \phi(x) d_0 g)$
 
