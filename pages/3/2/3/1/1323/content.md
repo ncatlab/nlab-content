@@ -22,7 +22,9 @@
 
 A [[category]] $C$  with finite [[products]] and [[coproducts]] is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
 $$ X\times Y + X\times Z \to X\times (Y+Z)$$
-is an isomorphism.  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.  
+is an isomorphism.  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.
+
+**Warning:** a [[linearly distributive category]] is _not_ distributive in this sense.
 
 This axiom on binary coproducts easily implies the analogous $n$-ary result for $n\gt 2$.  In fact it also implies the analogous 0-ary statement that the projection
 $$ X\times 0 \to 0$$
