@@ -45,6 +45,8 @@ In [[homotopy type theory]] the type of types $Type$ is often assumed to satisfy
 
 ## Related concepts
 
+* [[universe polymorphism]]
+
 * [[univalence]]
 
 * [[Prop]], the [[type of propositions]], 
