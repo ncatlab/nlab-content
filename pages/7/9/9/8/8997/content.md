@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Universel polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain.
+
+## References
+
+* [[Robert Harper]], Rober Pollack, _Type Checking with Universes_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.8166))
+
+[[!redirects universe polymorphisms]]
+
