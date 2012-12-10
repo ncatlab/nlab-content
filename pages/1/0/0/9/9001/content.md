@@ -1,0 +1,16 @@
+author: AnonymousCoward
+company: 
+title: Dynkin diagram
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+Dynkin diagram
+==============
+
+My First Slide
+-----------------
+
