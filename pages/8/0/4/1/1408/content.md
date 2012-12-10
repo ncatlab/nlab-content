@@ -286,6 +286,7 @@ for the [[sub-quasi-category|sub-(∞,1)-category]] of $\mathcal{G}$-structures 
 
 
 #### In terms of classifying $(\infty,1)$-toposes
+ {#InTermsOfClassifyingToposes}
 
 Alternatively, the local transformations can be characterized as follows
 
