@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subobjects]] (of some [[object]] in some [[category]].  In [[logic]], this is often referred to as a (monadic) _[[modal operator]]_.  The elements of the poset that are fixed by the closure operator are called _closed_ (or perhaps _[[modal type|modal]]_)
+A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subobjects]] (of some [[object]]) in some [[category]].  In [[logic]], this is often referred to as a (monadic) _[[modal operator]]_.  The elements of the poset that are fixed by the closure operator are called _closed_ (or perhaps _[[modal type|modal]]_). 
 
 Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
 
@@ -24,8 +24,9 @@ Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the eleme
 
 * A closure operator on a [[power set]] is also called a _[[Moore closure]]_. See there for more.
 
-* One well-known example of the above is [[topological closure]]; _[[topological interior]]_ is a closure operator on the *[[opposite poset|opposite]]* of a power set, specifically any that preserves [[joins]] (which here are [[intersections]]).
+* One well-known example of a Moore closure is [[topological closure]], which is precisely a Moore closure that preserves finite joins (unions). Similarly, one can view _[[topological interior]]_ as a co-closure operator on a power set that preserves finite meets, or dually as a closure operator on the *[[opposite poset|opposite]]* of a power set that preserves finite [[joins]] (given by [[intersections]] of subsets).
 
+* A [[Lawvere-Tierney topology]] is a closure operator on the [[subobject classifier]] $\Omega$ of a [[topos]] $E$, viewed as an internal [[meet-semilattice]]. More precisely, it is a just such a closure operator that preserves internal finite meets. Externally, $\hom(-, \Omega) \colon E^{op} \to Set$ provides an example of a [[universal closure operator]]. 
 
 ## Related concepts
 
