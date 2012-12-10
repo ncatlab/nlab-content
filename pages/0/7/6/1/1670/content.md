@@ -128,7 +128,7 @@ Topping off these, the Moore collections on $X$ form a Moore collection on $\mat
 
 ## Generalisations
 
-The definition of Moore collection really makes sense in any [[inflattice]]; even better, the definition of closure operator makes sense in any [[partial order|poset]].  Here are some examples:
+The definition of Moore collection really makes sense in any [[inflattice]]; even better, the definition of closure operator makes sense in any [[partial order|poset]].  This context is the generic meaning of [[closure operator]]; here are some examples:
 
 *  Instead of $\mathcal{P}X$, work in the [[opposite category|opposite poset]] $\mathcal{P}^{op}X$.  Then the open sets in a [[topological space]] $X$ form a Moore collection whose closure operator is the usual interior operation.  Now we can define a topological space as a set equipped with a Moore closure operator on $\mathcal{P}^{op}X$ that preserves [[join]]s (which here are [[intersection]]s); this definition is even valid constructively.
 
@@ -153,8 +153,3 @@ See also
 [[!redirects Moore clsoure]]
 [[!redirects Moore collection]]
 [[!redirects Moore collections]]
-
-[[!redirects closure]]
-[[!redirects closures]]
-[[!redirects closure operator]]
-[[!redirects closure operators]]
