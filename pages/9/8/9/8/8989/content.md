@@ -9,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -21,15 +20,20 @@ A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subob
 Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
 
 
-
 ## Examples
 
 * A closure operator on a [[power set]] is also called a _[[Moore closure]]_. See there for more.
+
+* One well-known example of the above is [[topological closure]]; _[[topological interior]]_ is a closure operator on the *[[opposite poset|opposite]]* of a power set, specifically any that preserves [[joins]] (which here are [[intersections]]).
 
 
 ## Related concepts
 
 * [[universal closure operator]]
+
+
+[[!redirects closure]]
+[[!redirects closures]]
 
 [[!redirects closure operator]]
 [[!redirects closure operators]]
