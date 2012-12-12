@@ -63,7 +63,98 @@ The [[braided 3-group]] $\mathbf{Br}(R)$ of line 2-bundles over $Spec R$ has as 
 
 ### Super line 2-bundles and twisted K-theory
 
+We discuss line 2-bundles in [[supergeometry]] and their relation to [[twisted K-theory]]
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathbf{H} \coloneqq $ [[SmoothSuper∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth super-∞-groupoids]]. With [[CartSp]]${}_{th}$ the [[site]] given by the [[full subcategory]] of the category of [[supermanifolds]] on those of the form $\mathbb{R}^{p|q}$ for $p,q \in \mathbb{N}$ this is the corresponding [[(∞,1)-category of (∞,1)-sheaves]]
+
+$$
+  SmoothSuper\infty Grod \simeq Sh_\infty(CartSp_{th})
+$$
+
+This is cohesive over [[Super∞Grpd]] $ \simeq Sh_\infty(SuperPoints)$
+
+$$
+  \Gamma \colon SmoothSuper\infty Grpd  \to Super \infty Grpd
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathbb{K} \in \mathbf{H}$ be the canocal [[affine line|affine]] [[line object]], whose underlying sheaf of sets assigns 
+
+$$
+  \mathbb{K} \colon \mathbb{R}^{p|q} \mapsto C^\infty(\mathbb{R}^p, \mathbb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}
+ \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the discussion at _[[superalgebra]]_ we have that $\Gamma(\mathbb{K})$-algebras in [[Super∞Grpd]] are, externally, superalgebras over the [[complex numbers]].
+
+=--
+
++-- {: .num_defn}
+###### Defintion
+
+Write
+
+$$
+  2\mathbf{sVect} \in SmoothSuper \infty Grpd
+$$
+
+for the object which over $\mathbb{R}^{p|q}$ is the [[2-groupoid]] whose 
+
+* objects are semisimple $\mathbb{K}(\mathbb{R}^{p|q})$-algebras;
+
+* [[1-morphisms]] are invertible [[bimodules]];
+
+* [[2-morphisms]] are invertible bimodule homomorphisms.
+
+This is naturally a [[braided monoidal 2-category]] object. Write
+
+$$
+ 2 \mathbf{sLine} \in SmoothSuper \infty Grpd
+$$
+
+for the maximal [[braided 3-group]] inside this on the invertible objects.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The object $2\mathbf{sLine} \in SmoothSuper\infty Grpd$ is equivalent to that which to $\mathbb{R}^{p|q}$ assigns the 2-gorupoid with
+
+* objects are the algebra $C^\infty(\mathbb{R}^p, \mathb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ and that algebra tensored with $Cl_1(\mathbb{C})$;
+
+* morphisms are $C^\infty(\mathbb{R}^p, \mathb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ regarded as a bimodule over itself and that bimodule tensored with $Cl_1(\mathbb{C})$;
+
+* 2-morphisms form the group $C^\infty(\mathbb{R}^p, \mathbb{C}^\times)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the straightforward generalization of the discussion at  _[superalgebra -- Picard 2-groupoid](http://ncatlab.org/nlab/show/super+algebra#Picard2Groupoid)_ from superalgebras over $\mathbb{C}$ to those over $C^\infty(\mathbb7R}^p, \mathbb{C})$.
+
+The invertible $\mathbb{C}^\infty(\mathbb{R})$-algebras are equivalent to that algebra itself. The invertible superalgebras are the ground field and $Cl_1(\mathbb{C})$. Similarly for the invertible bimodules. Finally the inverticle intertwiners are pointwise $\mathbb{C}^\times$.
+
+=--
+
 (...) ([Freed](#Freed)) (...)
+
++-- {: .un_defn}
+###### Definition
 
 ## References
 
