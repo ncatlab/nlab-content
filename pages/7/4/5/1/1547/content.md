@@ -119,6 +119,8 @@ Much else to be discussed...
 
   * [[complex vector bundle]]
 
+* [[2-vector bundle]]
+
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 
