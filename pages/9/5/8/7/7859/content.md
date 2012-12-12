@@ -32,7 +32,7 @@ For $R$ a commutative [[ring]], let $Alg_R$ or $2Vect_R$ (see at [[2-vector spac
 
 * [[2-morphisms]] are bimodule homomorphisms.
 
-This is a [[braided monoidal category|braided monoidal 2-category]]. Let 
+This may be understood as the 2-category of (generalized) [[2-vector bundles]] over $Spec R$. This is a [[braided monoidal category|braided monoidal 2-category]]. Let 
 
 $$
   \mathbf{Br}(R) \coloneqq Core(Alg_R)
@@ -45,6 +45,8 @@ be the maximal [[infinity-group|3-group]] inside (which is hence a [[braided 3-g
 * [[morphisms]] are [[Morita equivalences]]; 
 
 * [[2-morphisms]] are invertible bimodule homomorphisms. 
+
+This may be understood as the 2-groupoid of (generalized) [[line 2-bundles]] over $Spec R$, inside that of all [[2-vector bundles]].
 
 Then the [[homotopy groups]] of $\mathbf{Br}(R)$ are the following:
 
