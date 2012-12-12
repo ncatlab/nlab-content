@@ -37,6 +37,8 @@ See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]] for some hi
 
 ### Definition
 
+#### Superalgebras
+
 An ordinary [[associative algebra]] (a [[vector space]] with a linear and associative and unital product operation) is a [[monoid]] in the [[monoidal category]] [[Vect]] of [[vector spaces]].
 
 Throughout, fix a [[field]] $k$ of [[characteristic]] 0.
@@ -74,9 +76,9 @@ that is the usual braiding isomorphism of [[Vect]] on $V_{even} \otimes W_{even}
 +-- {: .num_defn #SuperAlgebras}
 ###### Definition
 
-A **super algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
+A **super (associative) algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
 
-A **(graded)-commutative algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
+A **(graded)-commutative (associative) algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
 
 =--
 
@@ -106,7 +108,86 @@ $$
   \,.
 $$
 
+#### Related notions
+ {#RelatedNotions}
+
++-- {: .num_defn #Center}
+###### Definition
+
+The **[[center]]** of a superalgebra $A$ is the sub-superalgebra $Z(A) \hookrightarrow A$ spanned by all those elements $z \in A$ of homogeneous degree which graded-commute with all other homogeneois elements $a$. 
+
+=--
+
++-- {: .num_defn #Opposite}
+###### Definition
+
+For $A$ a superalgebra, its **opposite** $A^{op}$ is the superalgebra with the same underlying [[super vector space]] as $A$, and with multiplication defined on homogeneous elements by
+
+$$
+  a_1 \cdot_{A^{op}} a_2 \coloneqq (-1)^{{\vert a_1\vert}{\vert a_2\vert}} a_2 \cdot_{A} a_1
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CentralSimple}
+###### Definition
+
+A superalgebra $A$ is called **central simple** if 
+
+1. its [[center]], def. \ref{Center} is the ground field;
+
+1. its only 2-sided graded [[ideals]] are $0$ and $A$ itself.
+
+=--
+
++-- {: .num_defn #AlgWithBimodules}
+###### Definition
+
+Write $2sVect \simeq sAlg$ for the [[2-category]] equivalent to the one whose [[objects]] are superalgebra, [[1-morphisms]] are [[bimodules]] and [[2-morphisms]] are intertwiners. This is naturally a [[monoidal 2-category]].
+
+=--
+
++-- {: .num_defn #2sVect}
+###### Remark
+
+By the discussion at _[[2-vector space]]_ this is equivalently the 2-category of **super 2-vector spaces**. [[equivalence|Equivalence]] in $2sVect \simeq sAlg$ is also called _[[Morita equivalence]]_ of super-algebras.
+
+=--
++-- {: .num_defn #Azumaya}
+###### Definition
+
+A superalgebra is an [[Azumaya algebra]] if it is an invertible object in the [[monoidal 2-category]] $s2Vect \simeq sAlg$, def. \ref{AlgWithBimodules}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The group of [[equivalence classes]] of Azumaya super algebras is called the super _[[Brauer group]]_, see there for more details.
+
+=--
+
+
 ### Examples
+
+
+#### Endomorphisms algebras, matrix algebras
+
++-- {: .num_defn #EndomorphismSuperalgebra}
+###### Definition
+
+For $V \in SVect$ a [[super vector space]], its [[endomorphism ring]] is canonically a super-algebra. Superalgebras isomorphic to ones of this form, are also called **matrix super algebras**.
+
+=--
+
++-- {: .num_prop #EndomorphismSuperalgebrasAreCentralSimple}
+###### Proposition
+
+A matrix superalgebra, def. \ref{EndomorphismSuperalgebra} is central simple, def. \ref{CentralSimple}.
+
+=--
+
 
 #### Grassmann algebra 
  
@@ -119,6 +200,82 @@ are [[Clifford algebra]].
 
 In fact, let $V$ be a [[vector space]] equipped with symmetric [[inner product]]
 $\langle -,- \range$. Write $\wedge^\bullet V$ be the [[Grassmann algebra]] on $V$. The inner product makes this a super [[Poisson algebra]]. The [[Clifford algebra]] $Cl(V, \langle \rangl)$ is the [[deformation quantization]] of this.
+
++-- {: .num_example #ComplexCl1}
+###### Example
+
+There is a superalgebra over the [[complex numbers]] of the form
+
+$$
+  A = \mathbb{C} \oplus \mathbb{C}\langle u\rangle
+  \,,
+$$
+
+where the single odd generator satisfies $u \cdot u = 1$.
+
+=--
+
+
+### Properties
+ {#Properties}
+
+#### General
+
++-- {: .num_prop }
+###### Proposition
+
+A superalgebra is isomorphic to a matrix algebra, def. \ref{EndomorphismSuperalgebra} precisely if it is [[equivalence|equivalent]]  in  $2 sVect \simeq Alg$, def. \ref{AlgWithBimodules}, ([[Morita equivalence|Morita equivalent]]) to the ground field super algebra.
+
+=--
+
+#### Brauer group, Picard 2-groupoid
+
++-- {: .num_theorem #AzumayaAreCentralSimple}
+###### Theorem
+
+A superalgebra is invertible/Azumaya, def. \ref{Azumaya} precisely if it is finite dimensional and central simple, def. \ref{CentralSimple}.
+
+=--
+
+This is due to ([Wall](#Wall)).
+
++-- {: .num_theorem }
+###### Theorem
+
+The [[Brauer group]] of superalgebras over the [[complex numbers]] is the [[cyclic group of order 2]]. That over the [[real numbers]] is cyclic of order 8:
+
+$$
+  sBr(\mathbb{C}) \simeq \mathbb{Z}_2
+$$
+$$
+  sBr(\mathbb{R}) \simeq \mathbb{Z}_8
+  \,.
+$$
+
+The non-trivial element in $sBr(\mathbb{R})$ is that presented by the superalgebra $\mathbb{C} \oplus \mathbb{C} u$ of example \ref{ComplexCl1}, with $u \cdot u = 1$.
+
+=--
+
+This is due to ([Wall](#Wall)).
+
+The following generalizes this to the higher [[homotopy groups]].
+
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy groups]] of the [[braided 3-group]] $sAlg^\times$ of Azumaya superalgebra are
+
+| | $sAlg^\times_{\mathbb{C}}$ | $sAlg^\times_{\mathbb{C}}$ |
+|--|--|--|
+| $\pi_2$ | $\mathbb{C}^\times$ | $\mathbb{R}^\times$
+| $\pi_1$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$
+| $\pi_0$ | $\mathbb{Z}_2$ | $\mathbb{Z}_8$
+
+where the [[groups of units]] $\mathbb{C}^\times$ and $\mathbb{R}^\times$ are regarded as [[discrete groups]].
+
+=--
+
+This appears in ([Freed, (1.38)](#Freed)).
 
 
 ## Algebra in the topos over superpoints
@@ -265,6 +422,7 @@ Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformu
 [[Brauer groups]] of superalgebras are discussed in 
 
 * [[C. T. C. Wall]], _Graded Brauer groups_, J. Reine Angew. Math. 213 (1963/1964), 187-199. 
+ {#Wall}
 
 * [[Pierre Deligne]], _Notes on spinors_ in _[[Quantum Fields and Strings]]_
 
