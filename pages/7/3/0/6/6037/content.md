@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +20,7 @@
 
 ## Definition
 
-An _$n$-vector bundle_ is an [[associated ∞-bundle]] whose [[fiber]]s are [[n-vector space]]s of sorts.
+An _$n$-vector bundle_ is an [[fiber ∞-bundle]] whose [[fibers]] are [[n-vector space]]s of sorts.
 
 
 ## Examples
@@ -41,6 +55,8 @@ An _$n$-vector bundle_ is an [[associated ∞-bundle]] whose [[fiber]]s are [[n-
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
 * [[vector bundle]]
+
+* [[2-vector bundle]]
 
 * [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
 
