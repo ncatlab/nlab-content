@@ -219,6 +219,10 @@ Similar statements hold for 2-groups with extra structure. For instance the $(2,
 
 ### Specific examples
 
+#### Picard 2-group
+
+* [[Picard 2-group]]
+
 #### Automorphism 2-groups 
 
 For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c) \subset Hom_C(c,c)$ of auto-equivalences of $c$ and invertible 2-morphisms between these is naturally a 2-group, whose group product comes from the horizontal composition in $C$.
