@@ -1,0 +1,8 @@
+
+## Definition
+
+An _abelian 3-group_ is an [[abelian infinity-group]] which is a [[3-group]].
+
+
+[[!redirects abelian 3-group]]
+
