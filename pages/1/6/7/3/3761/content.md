@@ -65,6 +65,18 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 * [[coherence theorem for symmetric monoidal bicategories]]
 
 
+## Related concepts
+
+* [[Picard 3-group]]
+
+* [[braided monoidal 2-category]]
+
+* [[symmetric monoidal 2-category]]
+
+* [[monoidal (infinity,1)-category]]
+
+* [[monoidal (infinity,n)-category]]
+
 ## References
 
 Slightly different definitions of these various structures can be found in the following sequence of papers:
