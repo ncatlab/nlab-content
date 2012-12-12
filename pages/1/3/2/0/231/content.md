@@ -572,6 +572,10 @@ higher versions
 
   * [[closed monoidal (∞,1)-category]]
 
+## Related concepts
+
+* [[Picard 2-group]]
+
 ## References
 
 Related $n$Lab entries: [[Picard group]], [[multicategory]], [[bicategory]], [[enriched category]], [[actegory]]
