@@ -1,7 +1,7 @@
+
 # The red herring principle
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -23,7 +23,7 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
 
-* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]], since algebras are by definition associative.  This leads to the technically redundant use of "[[associative algebra]]".  What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
+* In [[linear algebra]], an [[associative algebra|algebra]] is usually defined to be associative, so a [[nonassociative algebra]] is not an algebra in this sense.  This leads to the technically redundant use of "associative algebra".  Furthermore, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
 
 * Similarly, [[noncommutative geometry]] is really about _not necessarily commutative_ or _possibly non-commutative_ geometry. In fact, many tools developed in "non-commutative geometry" are also useful tools in ordinary commutative geometry.
 
