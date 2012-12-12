@@ -1,0 +1,11 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/C._T._C._Wall)
+
+## Related entries
+
+* [[Brauer group]], [[superalgebra]]
+
+category: people
+
+[[!redirects Charles Terence Clegg Wall]]
+[[!redirects Charles Wall]]
