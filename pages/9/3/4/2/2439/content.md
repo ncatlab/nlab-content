@@ -124,7 +124,7 @@ $\langle -,- \range$. Write $\wedge^\bullet V$ be the [[Grassmann algebra]] on $
 ## Algebra in the topos over superpoints
  {#AlgebraOverSuperpoints}
 
-We now consider [[higher algebra]] in the [[(∞,1)-topos]] over [[super point]]s.
+We now consider [[higher algebra]] in the [[(∞,1)-topos]] over [[super points]]: the [[cohesive (∞,1)-topos]] $\mathbf{H} = $ [[Super∞Grpd]].
 
 ### The topos
 
@@ -252,14 +252,32 @@ of ordinary [[super Lie algebra]]s over $k$ into the internal [[Lie algebra]]s o
 
 This appears as ([Sachse, corollary 3.3](#Sachse)).
 
+## Properties
+
+(...)
 
 ## References
 
-Basics of pedestrian superalgebra are reviewed in section 2 and the topos-theoretic reformulation is discussed in section 3 of
+Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformulation is discussed in section 3 of
 
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+
+[[Brauer groups]] of superalgebras are discussed in 
+
+* [[C. T. C. Wall]], _Graded Brauer groups_, J. Reine Angew. Math. 213 (1963/1964), 187-199. 
+
+* [[Pierre Deligne]], _Notes on spinors_ in _[[Quantum Fields and Strings]]_
+
+* [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and K-theory with local coefficients_, Publications Math. IHES 38 (1970), 5-25 ([pdf](http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf))
+
+
+
+
 
 [[!redirects superalgebra]]
 [[!redirects super-algebra]]
 
+[[!redirects superalgebras]]
+
 [[!redirects even rules]]
+
