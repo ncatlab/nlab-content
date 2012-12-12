@@ -20,7 +20,24 @@
 
 ## Definition
 
-A braided 3-group is a [[braided ∞-group]] which is a [[3-group]].
+A braided 3-group is a [[braided ∞-group]] which is a [[3-group]]. For $G$ a 3-group, a braiding on it is the following equivalent structure
+
+1. the structure of a [[2-group]] on the [[delooping]] $\mathbf{B}G$;
+
+1. a doudle delooping $\mathbf{B}^2 G$;
+
+1. a lift of tha [[A-infinity algebra|A-∞]]=[[En-algebra|E-1]]-algebra structure on $G$ to an [[En-algebra|E-2]] algebra structure.
+
+## Examples
+
+
+For $R$ a [[commutative ring]], and $Alg_R \simeq 2 Vect_R$ the [[braided monoidal 2-category]] of $R$-[[associative algebras|algebras]], [[bimodules]] and bimodule [[homomorphism]], the maximal [[3-group]]
+
+$$
+  \mathbf{Br}(R) \hookrightarrow Core(Alg_R)
+$$
+
+inside is a braided 3-group. Its [[homotopy groups]] are the [[Brauer group]], the [[Picard group]] and the [[group of units]] of $R$. See at _[Brauer group -- Relation to category of modules](Brauer+group#RelationToCatsOfModules)_ for more on this. 
 
 ## Related concepts
 
