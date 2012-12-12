@@ -96,10 +96,12 @@ The [[Moonshine]] module over the [[Griess algebra]] admits the structure of a v
 
 * has trivial degree-1 subspaces.
 
-A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, upt to isomoprhism the unique VOA with these properties.
+A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties.
 
 
 ## References
+
+Related $n$Lab entries include [[conformal field theory]], [[Poisson vertex algebra]], [[factorization algebra]], [[affine Lie algebra]]
 
 ### General
 
