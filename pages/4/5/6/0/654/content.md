@@ -178,6 +178,8 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 
 * **2-vector space**, [[2-representation]]
 
+  * [[2-vector bundle]]
+
   * _[[TwoVect]]_ is a Mathematica software package for computer algebra with 2-vector spaces
 
 * [[n-vector space]]
