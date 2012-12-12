@@ -251,7 +251,7 @@ An introduction is in
 * [[Alexandre Grothendieck]], _Le groupe de Brauer_, Dix expos&#233;s sur la cohomologie des sch&#233;mas_, Masson and North-Holland, Paris
 and Amsterdam, (1968), pp. 46&#8211;66.
  {#Grothendieck}
-* John Duskin, _The Azumaya complex of a commutative ring_, in: Categorical algebra and its applications (Louvain-La-Neuve, 1987), 107&#8211;117, Lecture Notes in Math. __1348__, Springer 1988. 
+* [[John Duskin]], _The Azumaya complex of a commutative ring_, in: Categorical algebra and its applications (Louvain-La-Neuve, 1987), 107&#8211;117, Lecture Notes in Math. __1348__, Springer 1988. 
 * [[Ross Street]], _Descent_, Oberwolfach preprint (sec. 6, _Brauer groups_) [pdf](http://www.math.mq.edu.au/~street/Descent.pdf); _Some combinatorial aspects of descent theory_, Applied categorical structures __12__ (2004) 537-576, [math.CT/0303175](http://arxiv.org/abs/math/0303175) (sec. 12, _Brauer groups_)
  {#Street}
 
