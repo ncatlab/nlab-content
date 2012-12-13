@@ -1,3 +1,8 @@
+Nils Baas is a Norwegian mathematician working in Trondheim. 
+
+
+* [Norwegian wikipedia entry](http://no.wikipedia.org/wiki/Nils_Baas)
+
 
 #Related entries#
 
