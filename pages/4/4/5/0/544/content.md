@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -21,7 +21,7 @@ An _$A_\infty$-algebra_ is a [[monoid]] internal to a [[homotopical category]] s
 ## Definition
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **$A_\infty$-algebra** is an [[algebra over an operad]] over an [[A-∞ operad]].
@@ -95,7 +95,7 @@ For example, $f_1\circ D_1 = D_1\circ f_1$.
 
 #### Rectification
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 **(Kadeishvili (1980), Merkulov (1999))**
 
@@ -103,8 +103,11 @@ If $A$ is a [[dg-algebra]], regarded as a strictly associative $A_\infty$-algebr
 
 =--
 
+More details are at _[[Kadeishvili's theorem]]_.
+  
 
-+-- {: .un_remark }
+
++-- {: .num_remark }
 ###### Remark
 
 This theorem provides a large supply of examples of $A_\infty$-algebras: there is a natural $A_\infty$-algebra structure on all cohomologies such as
@@ -114,6 +117,7 @@ This theorem provides a large supply of examples of $A_\infty$-algebras: there i
 * [[Hochschild cohomology]]
 
 etc.
+
 =--
 
 ### In Topological space
@@ -126,7 +130,7 @@ Every [[loop space]] is canonically an [[A-∞ space]]. (See there for details.)
 
 #### Rectification
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 Every $A_\infty$-space is [[weak homotopy equivalence|weakly homotopy equivalent]] to a topological [[monoid]].
