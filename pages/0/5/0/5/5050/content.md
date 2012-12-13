@@ -28,6 +28,10 @@ For details see [[manifold]].
 
 * [[closed manifold]]
 
+## References
+
+* [[Dominic Joyce]], _On manifolds with corners_ ([arXiv:0910.3518](http://arxiv.org/abs/0910.3518))
+
 [[!redirects manifolds with boundary]]
 
 [[!redirects manifold with corners]]
