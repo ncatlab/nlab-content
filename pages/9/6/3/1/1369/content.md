@@ -219,9 +219,15 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 * [[monoidal category]], **monoidal $(\infty,1)$-category**
 
+  * [[Picard ∞-group]]
+
 * [[braided monoidal category]], [[braided monoidal (∞,1)-category]]
 
+  * [[braided ∞-group]]
+
 * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
+
+  * [[abelian ∞-group]]
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
