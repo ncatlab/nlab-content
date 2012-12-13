@@ -30,6 +30,8 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 Surveys include
 
+* Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
+
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
 
