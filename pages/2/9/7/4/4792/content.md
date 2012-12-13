@@ -11,6 +11,8 @@ The __octonions__ form the largest of the four [[normed division algebra]]s, den
 
 The octonions are _not_ an [[associative algebra]].
 
+The [[automorphism group]] of the octonions is [[G2]].
+
 ## References
 
 A survey is
