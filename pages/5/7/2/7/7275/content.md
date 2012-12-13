@@ -33,14 +33,28 @@ An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]
 ## Related concepts
 
 
-* [[∞-group]]
-
-* [[braided ∞-group]]
-
-* [[abelian 2-group]], [[abelian 3-group]]
-
 [[!include k-monoidal table]]
 
+
+* [[∞-group]], [[k-tuply groupal n-groupoid]]
+
+* [[braided ∞-group]],
+
+  * [[braided 2-group]]
+
+  * [[braided 3-group]]
+
+* [[sylleptic ∞-group]]
+
+  * [[sylleptic 3-group]]
+
+* **abelian ∞-group**
+
+  * [[abelian group]]
+
+  * [[abelian 2-group]]
+
+  * [[abelian 3-group]]
 
 ## References
 
