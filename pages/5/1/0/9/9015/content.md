@@ -1,3 +1,4 @@
+[[!redirects Picard ∞-group]]
 
 
 +-- {: .rightHandSide}
@@ -20,15 +21,20 @@
 
 ## Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], is **Picard $\infty$-group** is the [[∞-group]] induced on the full sub-[[∞-groupoid]] $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
+For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], its **Picard $\infty$-group** is the [[∞-group]] induced on the full sub-[[∞-groupoid]] $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
 
 
 
 
 ## Related concepts
 
-* [[Picard group]]
+* [[Picard group]], [[Brauer group]]
 
-* [[Picard ∞-group]]
+* [[Picard 2-group]]
 
-[[!redirects Picard 3-groups]]
+* [[Picard 3-group]]
+
+[[!redirects Picard infinity-group]]
+[[!redirects Picard infinity-groups]]
+[[!redirects Picard ∞-groups]]
+
