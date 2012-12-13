@@ -228,10 +228,10 @@ A superalgebra is isomorphic to a matrix algebra, def. \ref{EndomorphismSuperalg
 
 =--
 
-#### Brauer group, Picard 2-groupoid
+#### Picard 3-group, Brauer group
  {#Picard2Groupoid}
 
-We discuss the [[Picard 2-groupoid]] of $2sVect \simeq sAlg$, def. \ref{AlgWithBimodules}, hence the corresponding [[Brauer group]].
+We discuss the [[Picard 3-group]] of $2sVect \simeq sAlg$, def. \ref{AlgWithBimodules}, hence the corresponding [[Brauer group]].
 
 +-- {: .num_theorem #AzumayaAreCentralSimple}
 ###### Theorem
