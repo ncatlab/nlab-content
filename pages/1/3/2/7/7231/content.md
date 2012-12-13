@@ -21,7 +21,37 @@
 
 ## Idea
 
-One (or rather: three) of the [[exceptional Lie groups]].
+The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]].
+
+## Definition
+
+One construction goes like this:
+
++-- {: .num_defn #As2PlectomorphismsOnR7}
+###### Definition
+
+On the [[Cartesian space]] $\mathbb{R}^7$ consider the constant [[differential n-form|differential 3-form]]  $\omega \in \Omega^3(\mathbb{R}^7)$ given on tangent vectors $u,v,w \in \mathbb{R}^7$ by
+
+$$
+  \omega(u,v,w) \coloneqq \langle u , v \times w\rangle
+  \,,
+$$
+
+where
+
+* $\langle -,-\rangle$ is the canonical [[bilinear form]] 
+
+* $(-)\times(-)$ is the [[cross product]] of vectors.
+
+Then the group $G_2 \hookrightarrow GL(7)$ is the [[subgroup]] of the [[general linear group]] acting on $\mathbb{R}^7$ which preserves this 3-form.
+
+=--
+
+## Properts
+
+### Relation to higher prequantum geometry
+
+The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the subgroup of the [[2-plectomorphism group]] in the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$.
 
 ## Related concepts
 
