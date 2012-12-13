@@ -35,6 +35,9 @@ A further subgroup is that of [[Hamiltonian symplectomorphisms]]. The [[group ex
 
 The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vector fields]].
 
+[[!include geometric quantization extensions - table]]
+
+
 
 [[!redirects symplectomorphism groups]]
 
@@ -47,4 +50,6 @@ The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vecto
 [[!redirects Hamiltonian symplectomorphism n-group]]
 [[!redirects Hamiltonian symplectomorphism n-groups]]
 
+[[!redirects 2-plectomorphism group]]
+[[!redirects 2-plectomorphism groups]]
 
