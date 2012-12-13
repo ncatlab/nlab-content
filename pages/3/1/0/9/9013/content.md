@@ -19,9 +19,13 @@
 
 ## Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], is **Picard 3-group** is the [[3-group]] induced on the full sub-2-groupoid $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
+For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], its **Picard 3-group** is the [[3-group]] induced on the full sub-2-groupoid $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
 
-If $(\mathcal{C}, \otimes)$ is a [[braided monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[braided 3-group]]. If $(\mathcal{C}, \otimes)$ is a [[symmetric monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[abelian 3-group]].
+* If $(\mathcal{C}, \otimes)$ is a [[braided monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[braided 3-group]]. 
+
+* If $(\mathcal{C}, \otimes)$ is a [[sylleptic monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[sylleptic 3-group]]. 
+
+* If $(\mathcal{C}, \otimes)$ is a [[symmetric monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[abelian 3-group]].
 
 
 ## Examples
@@ -30,7 +34,9 @@ If $(\mathcal{C}, \otimes)$ is a [[braided monoidal 2-category]], then $PIC(\mat
 
 ## Related concepts
 
-* [[Picard group]]
+* [[Picard group]], [[Brauer group]]
+
+* [[Picard 2-group]]
 
 * [[Picard ∞-group]]
 
