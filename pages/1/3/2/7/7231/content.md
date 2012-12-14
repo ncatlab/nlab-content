@@ -71,6 +71,10 @@ The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equi
 
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
+* **G2**, [[F4]],
+
+  [[E6]], [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+
 
 ## References
 
