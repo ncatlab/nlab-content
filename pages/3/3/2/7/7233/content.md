@@ -30,6 +30,10 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
+* [[generalized G2-manifold]]
+
+* [[exceptional generalized geometry]]
+
 ## References
 
 ### General
