@@ -91,6 +91,11 @@ The definitions are reviewed for instance in
 * [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
  {#Joyce}
 
+Discussion in terms of the [[Heisenberg group]] in [[2-plectic geometry]] is in 
+
+* Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
+ {#Ibort}
+
 
 Cohomological properties are discussed in 
 
