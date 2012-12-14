@@ -1,0 +1,8 @@
+
+* [webpage](http://users.ictp.it/~bacharya/)
+
+## Related entries
+
+* [[M-theory on G2-manifolds]]
+
+category: people
