@@ -20,6 +20,12 @@ _2-Plectic geometry_ is the higher generalization of [[symplectic geometry]], th
 
 As symplectic geometry naturally describes [[classical mechanics]] and, via [[geometric quantization]], [[quantum mechanics]], hence 1-dimensional [[quantum field theory]], so 2-plectic geometry naturally describes 2-dimensional [[classical field theory]] and, via its [[higher geometric quantization]], 2-dimensional [[QFT]].
 
+## Examples
+
+* A [[semisimple Lie group]] is canonical a 2-plectic manifold, with the canonical 3-form $\langle -, [-,-]\rangle$ on the [[Lie algebra]] (the canonical [[Lie algebra cohomology|Lie algebra cocycle]]), extended to a [[left invariant differential form]].
+
+* A [[G2-manifold]] is manifold of [[dimension]] 7 characterized by carrying a 2-plectic form. 
+
 ## Related concepts
 
 [[!include geometric quantization extensions - table]]
