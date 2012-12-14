@@ -1,0 +1,57 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] yields an [[effective field theory]] in four dimensions with $N=1$ [[supersymmetry]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]].
+
+Specifically for discussion of obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
+
+## Related concepts
+
+* [[G2]]
+
+* [[G2 manifold]], [[generalized G2-manifold]]
+
+* [[G2-MSSM]]
+
+* [[exceptional generalized geometry]]
+
+## References
+
+* [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([pdf](http://www.intlpress.com/journals/ATMP/archive/2002/6-1-1.pdf))
+
+
+* [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+
+* Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with G2 Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
+
+* [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+
+A survey of the corresponding [[string phenomenology]] is in
+
+* [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
+
+[[!redirects G2 compactifications of M-theory]]
+
