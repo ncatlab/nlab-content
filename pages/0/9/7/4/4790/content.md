@@ -18,7 +18,7 @@
 
 For $n \in \mathbb{N}$, the **symplectic group** $Sp(2n, \mathbb{R})$ is one of the [[classical Lie groups]].
 
-It is the subgroup of the [[general linear group]] $GL(2n, \mathbb{R})$ of elements preserving the canonical [[symplectic form]] $\Omega$ on $k^{2n}$, that is: the group consisting of those [[matrices]] $A$ such that
+It is the subgroup of the [[general linear group]] $GL(2n, \mathbb{R})$ of elements preserving the canonical [[symplectic form]] $\Omega$ on the [[Cartesian space]] $\mathbb{R}^{2n}$, that is: the group consisting of those [[matrices]] $A$ such that
 
 $$
   A^T \Omega A = \Omega
@@ -50,6 +50,7 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 
 * [[metaplectic group]]
 
+* A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G2]] (see there for more details).
 
 ## References
 	
