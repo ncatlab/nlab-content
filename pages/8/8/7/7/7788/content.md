@@ -7,7 +7,7 @@
 
 A hyperbolic [[Kac-Moody Lie algebra]] in the E-series 
 
-... [[E8]], [[E9]], [[E10]], $E_{11}$, ...
+... [[E6]], [[E7]], [[E8]], [[E9]], [[E10]], $E_{11}$, ...
 
 ## References
 
