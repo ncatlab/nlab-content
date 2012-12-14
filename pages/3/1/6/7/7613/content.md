@@ -51,7 +51,7 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 * [[Hořava-Witten theory]]
 
-* [[G2-MSSM]]
+* [[G2-MSSM]], [[M-theory on G2-manifolds]]
 
 ## References
 
