@@ -47,8 +47,7 @@ of rank $n$ is
 Next we need to define morphisms of such charted 2-vector bundles. These involve the 
 evident refinements of covers and fiberwise transformations.
 
-Write $2Vect(X)$ for the equivalence classes of charted 2-vector bundles under these
-morphisms. 
+Write $2Vect(X)$ for the equivalence classes of charted 2-vector bundles under these morphisms. 
 
 **Remark** If we restrict attention to $n = 1$ then this gives the same as
 $U(1)$-gerbes/[[bundle gerbe]]s.
@@ -68,7 +67,7 @@ between [[homotopy]] classes of continuous maps $X \to \mathcal{K}(V)$
 and equivalence classes of the group completed [[infinity-stackification|stackification]] of
 2-vector bundles,
 
-where the [[colimit]] is over acyclic [[Serre fibration]]s and $Gr(-)$ indicates
+where the [[colimit]] is over acyclic [[Serre fibration]]s (Note: these are not acyclic fibrations in the usual sense, rather their fibres have trivial integral [[homology]]) and $Gr(-)$ indicates
 the [[Grothendieck group]] completion of the tensor product of 2-vector bundles.
 
 **Proof** In BDR, Segal Birthday Proceedings 
@@ -166,7 +165,7 @@ motto: the higher the $\nu_i$ the more you detect.
 Christian Ausoni figured out something that implies that
 
 "$K(ku)$ detects as much in the [[stable homotopy category]] as
-any other form of [[elliptic cohomology]]"
+any other form of [[elliptic cohomology]]."
 
 ## From gerbes to 2-vector bundles
 
@@ -202,7 +201,6 @@ $$
 may be thought of as classifying the gerbe called the [[magnetic monopole]]-gerbe
 
 Postcomposing with $\mu : K(\mathbb{Z},3) \to K(ku)$
-
 we have
 
 Fact: $\mu$ gives a generator in $\pi_3 K(\mathbb{Z},3) = H^3(\mathbb{S}^3)$
@@ -215,7 +213,7 @@ $$
 
 in $\pi_3(K(ku))$
 
-so regarded as a 2-vector bundle $\mu$ is not a generator
+so regarded as a 2-vector bundle $\mu$ is not a generator.
 
 ADR: $\zeta$ is "half a monopole".
 
@@ -236,9 +234,9 @@ Let $(R, \oplus, \otimes, 0,1, c_{\oplus})$
  be a [[bimonoidal category]], i.e. a [[categorification|categorified]] [[rig]].
 
 
-This can be borken down as
+This can be broken down as
 
-1. $(R, \oplus, 0 , c_{\oplus})$ a permutative category, a catgorified abelian [[monoid]];
+1. $(R, \oplus, 0 , c_{\oplus})$ a permutative category, a categorified abelian [[monoid]];
 
 
 1. $(R , \otimes, 1)$ is a  [[monoidal category]], assumed to be _strict_ monidal in the following;
@@ -327,7 +325,7 @@ Notice that for $H R$ to be a spectrum we only need the additive structure $(R, 
    of finite sets as above we have that $H E$ is 
    the [[sphere spectrum]].
 
-1. For $R := V = Core(FinVect)$ the core of complex finite dim
+1. For $R := V = Core(FinVect)$ the core of complex finite dimensional
    vector spaces we have $H V$ is the complex 
    [[K-theory spectrum]].
 
