@@ -68,7 +68,7 @@ and equivalence classes of the group completed [[infinity-stackification|stackif
 2-vector bundles,
 
 where the [[colimit]] is over acyclic [[Serre fibration]]s (Note: these are not acyclic fibrations in the usual sense, rather their fibres have trivial integral [[homology]]) and $Gr(-)$ indicates
-the [[Grothendieck group]] completion of the tensor product of 2-vector bundles.
+the [[Grothendieck group]] completion using the monoid structure arising from the direct sum of 2-vector bundles.
 
 **Proof** In BDR, Segal Birthday Proceedings 
 
