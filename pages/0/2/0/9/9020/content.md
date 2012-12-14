@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+[[reduction of the structure group]] of the [[generalized tangent bundle]] of a 7-dimensional [[manifold]] along the inclusion 
+
+$$
+  G_2 \times G_2 \to SO(7,7)
+$$
+
+of two copies of [[G2]].
+
+## Related concepts
+
+* [[G2-manifold]]
+
+* [[exceptional generalized geometry]]
+
+* [[generalized Calabi-Yau manifold]]
+
+
+## References
+
+* Claus Jeschek, Frederik Witt, _Generalised $G_2$-structures and type IIB superstrings_ ([arXiv:hep-th/0412280](http://arxiv.org/abs/hep-th/0412280))
+
+[[!redirects generalized G2-manifolds]]
