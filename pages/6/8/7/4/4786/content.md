@@ -21,9 +21,9 @@
 
 The classification of [[simple Lie group]]s consists of four infinite series -- the [[classical Lie group]]s, and five exceptional Lie groups, called
 
-[[G2]], [[F4]], [[E6]], [[E7]], and [[E8]].
+* [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]].
 
-On the level of [[Kac-Moody Lie algebras]] the E-series continues as
+On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series continues as
 
 * [[E9]], [[E10]], [[E11]], ...
 
