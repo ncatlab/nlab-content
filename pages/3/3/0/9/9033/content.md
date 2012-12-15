@@ -1,0 +1,37 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+On the [[Cartesian space]] $\mathbb{R}^7$ the _associative 3-form_ is the [[differential n-form|differential 3-form]] $\omega \in \Omega^3(\mathbb{R}^7)$ which is constant and whose value at the origin on three vectors is
+
+$$
+  \omega(u,v,w) \coloneqq \langle u, v \times w\rangle
+  \,,
+$$
+
+where
+
+* $\langle -,-\rangle$ is the canonical [[bilinear form]] on $\mathbb{R}^7$;
+
+* $(-)\times (-)$ is the [[cross product]] in $\mathbb{R}^7$.
+
+This are the structure constants of the unit [[octonions]].
+
+## Properties
+
+### Relation to $G_2$
+
+The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ which preserve this form is the [[exceptional Lie group]] [[G2]].
+
+## Related concepts
+
+[[!include special holonomy table]]
+
+* [[octonions]]
+
+## References
+
+(...)
