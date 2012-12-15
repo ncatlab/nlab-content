@@ -31,7 +31,7 @@ The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie group
 +-- {: .num_defn #As2PlectomorphismsOnR7}
 ###### Definition
 
-On the [[Cartesian space]] $\mathbb{R}^7$ consider the constant [[differential n-form|differential 3-form]]  $\omega \in \Omega^3(\mathbb{R}^7)$ given on tangent vectors $u,v,w \in \mathbb{R}^7$ by
+On the [[Cartesian space]] $\mathbb{R}^7$ consider the _[[associative 3-form]]_, the constant [[differential n-form|differential 3-form]]  $\omega \in \Omega^3(\mathbb{R}^7)$ given on tangent vectors $u,v,w \in \mathbb{R}^7$ by
 
 $$
   \omega(u,v,w) \coloneqq \langle u , v \times w\rangle
@@ -92,6 +92,9 @@ The definitions are reviewed for instance in
 
 * [[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-291.pdf))
  {#Joyce}
+
+* _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
+
 
 Discussion in terms of the [[Heisenberg group]] in [[2-plectic geometry]] is in 
 
