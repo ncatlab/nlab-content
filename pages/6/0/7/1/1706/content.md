@@ -158,7 +158,7 @@ $$
   \,,
 $$ 
 
-where on the right we regard $C^{\tilde}$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](spring).
+where on the right we regard $\tilde C$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](spring).
 
 =--
 
@@ -264,6 +264,26 @@ We have
 =--
 
 See ([Lurie, example 2.4.22](#Lurie)).
+
+Then we have the following version of the cobordism hypothesis for manifolds with $G$-structure.
+
++-- {: .num_theorem }
+###### Theorem
+
+For $G$ an [[∞-group]] equipped with a homomorphism $G \to O(n)$ to the [[orthogonal group]] (regarded as an [[∞-group]] in [[∞Grpd]]), then evaluation on the point induces an equivalence
+
+$$
+  Fun^\otimes( Bord_n^{G}, \mathcal{C} )
+  \simeq
+  (\tilde {\mathcal{C}})^{G}
+$$
+
+between extended TQFTs on $n$-dimensional manifolds with [[G-structure]] and the [[∞-groupoid]] [homotopy invariants](invariant#ForInfinityGroupActions) of the [[infinity-action]] of $G$ on $\tilde \mathcal{C}$ (which is induced by the evaluation on the point).
+
+=--
+
+This is ([Lurie, theorem 2.4.26](#Lurie)).
+
 
 #### For HQFTs
   {#ForHQFTs}
