@@ -375,8 +375,14 @@ See [[differential cobordism cohomology theory]]
 A detailed discussion of the axiomatization of differential stable cohomology is
 
 * [[Mike Hopkins]] and [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
+ {#HopkinsSinger}
 
-Based on this Dan Freed interpreted large classes of gauge fields in [[physics]] in terms of differential stable cohomology in 
+Lecture notes are in 
+
+* [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
+
+
+Based on ([Hopkins-Singer](#HopkinsSinger)) Dan Freed interpreted large classes of gauge fields in [[physics]] in terms of differential stable cohomology in 
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
