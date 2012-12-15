@@ -17,7 +17,7 @@
 
 A _$G_2$-structure_ on a [[manifold]] of [[dimension]] 7 is a choice of [[reduction of the structure group]] of the [[tangent bundle]] along the inclusion of [[G2]] into $GL(7)$.
 
-Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the canonical [[differential n-form|differential 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
+Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
 A _$G_2$-manifold_ is a manifold equipped with an "integrable" or "parallel" $G_2$-structure. This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
 
@@ -109,10 +109,12 @@ Surveys include
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
-The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is discussed explicitly in 
+The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
 
 * Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
  {#Ibort}
+
+(but beware of some mistakes in that article...)
 
 For more see the references at _[[exceptional geometry]]_.
 
