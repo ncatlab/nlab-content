@@ -6,6 +6,8 @@
 
 ## Related concepts
 
+* [[Kähler manifold]], **hyper-K&#228;hler manifold**, [[quaternionic Kähler manifold]]
+
 [[!include special holonomy table]]
 
 ## References
