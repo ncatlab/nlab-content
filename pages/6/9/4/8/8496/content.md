@@ -21,6 +21,7 @@ For $A$ a [[monoid]] equipped with an [[action]] on an object $V$, an **invarian
 ## Definitions
 
 ### For $\infty$-group actions
+ {#ForInfinityGroupActions}
 
 For $\mathbf{H}$ an [[(∞,1)-topos]],  $G \in Grp(\mathbf{H})$ an [[∞-group]] and 
 
@@ -32,7 +33,10 @@ an [[∞-action]] of $G$ on $V \in \mathbf{H}$, the type of invariants is the ab
 
 $$
   \vdash \prod_{* : \mathbf{B}G} V(*) : Type
+  \,.
 $$
+
+The connected components of this is equivalently the [[group cohomology]] of $G$ with [[coefficients]] in the [[infinity-module]] $V$.
 
 
 ## Related concepts
@@ -41,6 +45,6 @@ $$
 
 * [[invariant theory]], [[invariant polynomial]]
 
-* [[gauge invariant]]
+* [[gauge invariance]]
 
 [[!redirects invariants]]
