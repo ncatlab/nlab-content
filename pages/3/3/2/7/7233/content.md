@@ -82,7 +82,7 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 ## Related concepts
 
-* [[G2]]
+[[!include special holonomy table]]
 
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
