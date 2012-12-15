@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Cayley form_ is a cirtain [[differential n-form|differential 4-form]] on the [[Cartesian space]] $\mathbb{R}^8$.
+
+## Related concepts
+
+[[!include special holonomy table]]
+
+
+
+## References
+
+* Mikhail G. Katz, Steven Shnider, _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](http://arxiv.org/abs/0801.0283))
+
