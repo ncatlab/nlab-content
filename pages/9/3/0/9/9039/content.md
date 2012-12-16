@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[membrane]] [[sigma-model]] [[topological quantum field theory]]. Roughly related to [[topological M-theory]] as the [[M2-brane]] is related to [[M-theory]] and to the [[topological string]] ([[A-model]]/[[B-model]]) as the [[M2-brane]] is related to the [[string]] and to the [[topological M5-brane]] as the [[M2-brane]] is related to the [[M5-brane]].
+
+The [[target space]] of the topological membrane is a [[G2-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[supergravity C-field]] over the membrane [[worldvolume]].
+
+## Related concepts
+
+[[!include table of branes]]
+
+
+## References
+
+* Ling Bao, Viktor Bengtsson, [[Martin Cederwall]], Bengt E.W. Nilsson, _Membranes for Topological M-Theory_ ([arXiv:hep-th/0507077](http://arxiv.org/abs/hep-th/0507077))
+
+* Giulio Bonelli, Alessandro Tanzini, [[Maxim Zabzine]], _On topological M-theory_ ([arXiv:hep-th/0509175](http://arxiv.org/abs/hep-th/0509175))
+
+* Ling Bao, _Topological membranes_, Nucl. Phys. Proc. Suppl. 171 (2007) 259-260 ([inspire](http://inspirehep.net/record/767705?ln=en))
+
+[[!redirects topological membranes]]
+[[!redirects topological M2-brane]]
+[[!redirects topological M2-branes]]
+
