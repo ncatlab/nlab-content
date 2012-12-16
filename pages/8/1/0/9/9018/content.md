@@ -38,6 +38,8 @@ Specifically for discussion of obtaining or approximating the [[standard model o
 
 * [[exceptional generalized geometry]]
 
+* [[topological M-theory]], [[Hitchin functional]]
+
 ## References
 
 
