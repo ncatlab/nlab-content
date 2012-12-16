@@ -221,7 +221,7 @@ An indication of some details is in
 
 Generalized schemes are definition 2.3.9 of
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_
+* [[Jacob Lurie]], _[[Structured Spaces|Derived Algebraic Geometry V - Structured Spaces]]_
 
 The definition of affine $\mathcal{G}$-schemes (absolute spectra) is in section 2.2.
 
