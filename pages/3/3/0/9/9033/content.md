@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,6 +42,12 @@ The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ whi
 
 * [[octonions]]
 
+* [[Hitchin functional]]
+
 ## References
 
 (...)
+
+[[!redirects associative 3-forms]]
+[[!redirects coassociative 3-form]]
+[[!redirects coassociative 3-forms]]
