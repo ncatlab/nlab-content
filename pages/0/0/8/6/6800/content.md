@@ -17,6 +17,8 @@
 |**[[NS-brane]]**|[[supergravity|type I, II, heterotic]]|[[circle n-bundle with connection|circle n-connection]] |          $\,$
 |  [[string]]    |           $\,$                  |[[B2-field]]|  [[2d SCFT]]
 | [[NS5-brane]]  |           $\,$                  |[[B6-field]] | [[little string theory]]
-|**[[M-brane]]** |[[11-dimensional supergravity|11D]]|[[circle n-bundle with connection|circle n-connection]]|           $\,$     
+|**[[M-brane]]** |[[11-dimensional supergravity|11D SuGra]]/[[M-theory]]|[[circle n-bundle with connection|circle n-connection]]|           $\,$     
 | [[M2-brane]]   |           $\,$                  |[[C3-field]]|         [[ABJM theory]], [[BLG model]]
 | [[M5-brane]]   |           $\,$                  |[[C6-field]]| [[6d (2,0)-superconformal QFT]]
+| [[topological M2-brane]] | [[topological M-theory]]                  |[[C3-field]] on [[G2-manifold]] | |
+| [[topological M5-brane]] | $\,$                  | [[C6-field]] on [[G2-manifold]] | | 
