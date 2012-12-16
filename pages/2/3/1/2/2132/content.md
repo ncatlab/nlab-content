@@ -56,4 +56,9 @@ Lecture notes include
 [[!redirects Kähler 2-form]]
 [[!redirects almost Kähler manifold]]
 
+[[!redirects Kähler form]]
+[[!redirects Kähler forms]]
+
 [[!redirects Kähler geometry]]
+
+[[!redirects Kähler manifold]]
