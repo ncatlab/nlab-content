@@ -1,4 +1,3 @@
-[[!redirects pro-object in an (∞,1)-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -63,3 +62,11 @@ for the category of left exact functors $C\to \infty Gprd$ which are moreover [[
 The large version is mentioned around def. 7.1.6.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+[[!redirects pro-object in an (∞,1)-category]]
+
+[[!redirects pro-objects in an (∞,1)-category]]
+
+[[!redirects pro-object in an (infinity,1)-category]]
+[[!redirects pro-objects in an (infinity,1)-category]]
+
