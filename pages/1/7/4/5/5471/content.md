@@ -35,7 +35,7 @@ Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]]. Write $\ma
 discrete geometry. The identity functor
 
 $$
-  p : \mathcal{G} \to \mathcal{G}_0
+  p : \mathcal{G}_0 \to \mathcal{G}
 $$
 
 is then a morphism of geometries.
