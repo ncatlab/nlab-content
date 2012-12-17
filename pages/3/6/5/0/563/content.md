@@ -78,7 +78,7 @@ For $C$ a strict 2-category, there is a universal procedure for replacing pseudo
 
 +-- {: .num_prop}
 ###### Proposition 
-For any strict 2-functor $G \colon C \to Cat$, the category of pseudonatural transformations $F \to G$ and modifications between them is equivalent to the category of strict natural transformations $\hat{F} \to G$ and modifications between them. 
+For any pseudofunctor $F \colon C \to Cat$, there is a strict 2-functor $\hat{F}\colon C\to Cat$ and a pseudonatural equivalence $\eta_F\colon F\to \hat{F}$.  Moreover, for any strict 2-functor $G \colon C \to Cat$, composing with $\eta_F$ yields an isomorphism between the category of pseudonatural transformations $F \to G$ and modifications between them, and the category of strict natural transformations $\hat{F} \to G$ and modifications between them.
 =-- 
 
 +-- {: .proof} 
