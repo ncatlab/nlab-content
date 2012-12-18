@@ -50,7 +50,7 @@ $$
 
 are [[weak equivalences]].
 
-**Warning**. These Dyckerhoff-Kaparanov "higher Segal spaces" are not like [[(∞,2)-categories]] or similar. Rather, they are apparently a model for [[(∞,1)-operads]].
+**Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operads]] ([Dyckerhoff-Kapranov, section 3.6](#DyckerhoffKapranov)).
 
 ## References
 
