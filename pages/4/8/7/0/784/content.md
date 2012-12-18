@@ -206,8 +206,6 @@ Assume next that $X_3 \to X^{\partial \Delta^2}$ is a [[1-monomorphism]], as are
 
 * [[complete Segal space]], [[model structure for complete Segal spaces]]
 
-* The [[diagonal]] of ([[homotopy colimit]] of) the [[bisimplicial set]] of a Segal space coming from a [[category]] of [[(infinity,1)-category]] $C$ (with [[zero object]] and [[pushouts]]) is the [[Waldhausen S-construction]] on $C$, producing its _[[Waldhausen K-theory]]_. See there for more.
-
 ## References
 
 See generally the references at _[[complete Segal space]]_.
