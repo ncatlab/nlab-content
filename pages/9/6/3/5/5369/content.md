@@ -10,15 +10,19 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
+
+## Idea
+
+A [[model category]] structure on the category of [[dg-categories]] that exhibits them as a presentation for [[stable (infinity,1)-categories]].
 
 ## Statement
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
-Let $k$ be a commutative ring. Write $dgCat_k$ for the [[category]] of [[small category|small]] [[dg-categories]] over $k$.
+Let $k$ be a [[commutative ring]]. Write $dgCat_k$ for the [[category]] of [[small category|small]] [[dg-categories]] over $k$.
 
 There is the structure of a [[cofibrantly generated model category]] on $dgAlg_k$ where a dg-functor $F : A \to B$ is
 
@@ -40,7 +44,7 @@ This is due to ([Tabuada](#Tabuada)).
 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The definition is entirely analogous to the [[model structure on sSet-categories]].   Both are special cases of the [[model structure on enriched categories]].
