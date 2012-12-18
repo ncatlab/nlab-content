@@ -97,26 +97,55 @@ $$
 
 where $Core(Func(\Delta^n,C))$ denotes the maximal [[Kan complex]] inside the [[(∞,1)-category of (∞,1)-functors]] from $\Delta^n$ to $C$.
 
-
-+-- {: .un_defn}
++-- {: .num_defn #Gap}
 ###### Definition 
 
-Let $C$ be a [[stable (∞,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the diagonal simplicial set
+For $\mathcal{C}$ an [[(∞,1)-category]] and $n \in \mathbb{N}$, write $Gap(\Delta^n, \mathcal{C})$ for the full sub-$\infty$-category on $Func(Arr(\Delta^n),\mathcal{C} )$ on those objects $F$ for which
 
-$$
-  \mathbf{K}(C) = diag C_{\bullet, \bullet}
-$$
+* the [[diagonal]] $F(n,n)$ is inhabited by [[zero objects]], for all $n$;
 
-where $C_{\bullet,\bullet}$ is the corresponding [[complete Segal space]].
+* all [[diagrams]] of the form
+
+  $$
+    \array{
+      F(i,j) &\to& F(i,k)
+      \\
+      \downarrow && \downarrow
+      \\
+      F(j,j) &\to& F(j,k)
+    }
+  $$
+
+  is an [[(∞,1)-pushout]].
 
 =--
 
-This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]] in view of the lemma above that and using the discussion on [p. 27](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf#page=27) of _CobHyp_ .
++-- {: .num_defn}
+###### Definition 
+
+Let $C$ be a [[stable (∞,1)-category]]. Then its **Waldhausen K-theory** 
+
+$$
+  \mathbf{K}(C) := \underset{\rightarrow}{\lim}_n Core(Gap(C^{\Delta^n}))
+$$
+
+is the [[geometric realization of simplicial topological spaces|geometric realization]] of/[[homotopy colimit]] of the degreewise [[core]] of the  $Gap$, def. \ref{Gap},  of the corresponding [[complete Segal space]] (as a simplicial diagram of $\infty$-groupoids).
+
+=--
+
+This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]].
 
 This construction is also conjectured in the last section of Toen-Vezzosi's _A remark on K-theory_ .
 
++-- {: .num_remark}
+###### Remark
+
 In the case that $C$ is the [[simplicial localization]] of a [[Waldhausen category]] $\bar C$ the explicit way to obtain this is the [[Waldhausen S-construction]].
 
+=--
+
++-- {: .num_remark}
+###### Remark
 
 It should be true that with this definition we have an isomorphism of groups
 
@@ -125,8 +154,17 @@ $$
   \,.
 $$
 
+=--
 
-There is a universal characterization of the construction of the K-theory spectrum $K(A)$ of a stable $(\infty,1)$-category $A$:
+
++-- {: .num_remark}
+###### Remark
+
+Whis Waldhausen/hocolim-construction gives the _connective_ K-theory, taking values in [[connective spectra]]. The [[universal construction|universal]] completion to functor that sends [[homotopy cofibers]] of [[stable (infinity,1)-categories]] to homotopy cofibers of spectra is the corresponding unconnective $\mathbb{K}$-functor.
+
+=--
+
+There is a universal characterization of the construction of the $\mathbb{K}$-theory spectrum of a stable $(\infty,1)$-category $A$:
 
 there is an $(\infty,1)$-functor
 
@@ -141,8 +179,7 @@ $$
   \,,
 $$
 
-where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. (See the references below.)
-
+where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BGT](#BGT))
 
 
 ## Related entries ##
@@ -190,6 +227,7 @@ interprets the construction of the K-theory spectrum as a natural operation of
 The universal property of the $(\infty,1)$-categorical definition is studied in 
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Gonzalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+ {#BGT}
 
 
 
@@ -201,3 +239,5 @@ The standard constructions of K-theory spectra from [[Quillen exact categories]]
 A useful introduction to the definition and computation of K-groups (with a little on K-spectra) is
 
 * Charles Weibel, _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
+
+[[!redirects Waldhausen K-theory]]
