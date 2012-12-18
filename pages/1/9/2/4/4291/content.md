@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -55,7 +54,7 @@ It is clear that the third condition implies the first two: take the section/ret
 
 Conversely, suppose we have a retract $r \colon B \to A$ of $i \colon A \to B$. Write $P \colon B \stackrel{r}{\to} A \stackrel{i}{\to} B$ for the corresponding [[idempotent]]. 
 
-Then every element $b \in B$ can be decomposed as $b = (b - P(b)) + P(b)$ hence with $b - P(b) \in ker(r)$ and $P(b) \in im(i)$. Moreover this decomposition is unique since if $b = i(a)$ while at the same time $r(b) = 0$ then $0 = r(i(a)) = a$. This shows that $B \simeq im(i) \oplus ker(r)$ is a [[direct sum]] and that $i \colon A \to B$ is the canonical inclusion of $im(i)$. By exactness it then follows that $ker(r) \simeq ker(p)$ and hence that $B \simeq A \oplus C$ with the canonical inclusion and projection.
+Then every element $b \in B$ can be decomposed as $b = (b - P(b)) + P(b)$ hence with $b - P(b) \in ker(r)$ and $P(b) \in im(i)$. Moreover this decomposition is unique since if $b = i(a)$ while at the same time $r(b) = 0$ then $0 = r(i(a)) = a$. This shows that $B \simeq im(i) \oplus ker(r)$ is a [[direct sum]] and that $i \colon A \to B$ is the canonical inclusion of $im(i)$. By exactness it then follows that $ker(r) \simeq im(p)$ and hence that $B \simeq A \oplus C$ with the canonical inclusion and projection.
 
 The implication that the second condition also implies the third is formally dual to this argument. 
 
