@@ -685,3 +685,8 @@ and section A4.2 of
 
 [[!redirects (∞,1)-geometric embedding]]
 [[!redirects (infinity,1)-geometric embedding]]
+
+[[!redirects sub-(∞,1)-topos]]
+[[!redirects sub-(∞,1)-toposes]]
+[[!redirects sub-(infinity,1)-topos]]
+[[!redirects sub-(infinity,1)-toposes]]
