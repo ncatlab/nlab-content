@@ -805,6 +805,8 @@ This is ([Lurie, theorem, 2.4.1](#Lurie)).
 
 * [[geometry (for structured (∞,1)-toposes)]],  **structured $(\infty,1)$-topos** , [[locally representable structured (∞,1)-topos]]
 
+Analogous structures in the axiomatic context of [[differential cohesion]] are discussed in _[differential cohesion --  Structure sheaves](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StructureSheaves)_.
+
 
 ## References
 
