@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Hodge theorem]] asserts, in particular, that for a [[compact topological space|compact]] [[Kähler manifold]], the canonical $(p,q)$-[[graded object|grading]] of its [[differential forms]] descends to its [[de Rham cohomology]]/[[ordinary cohomology]]. The resulting structure is called a _[[Hodge structure]]_, and is indeed the archetypical example of such.
+
+## Related concepts
+
+* [[Poincaré lemma]]
+
+* [[Stokes theorem]]
+
+* [[de Rham theorem]]
+
+
+## References
+
+The theorem is due to 
+
+* Hodge, (1947)
+
+Lecture notes include
+
+* Xi Yin, _Notes on the Hodge Theorem_ ([pdf](http://www.people.fas.harvard.edu/~xiyin/hodge.pdf))
+
+* Jonathan Evans, _Hodge theorem_ ([pdf](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture5.pdf))
+
+[[!redirects Hodge's theorem]]
+[[!redirects theorem of Hodge]]
