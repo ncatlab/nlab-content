@@ -1,14 +1,24 @@
-Noncommutative Hodge theory is being developed in
 
-* L. Katzarkov, M. Kontsevich, T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+#Contents#
+* table of contents
+{:toc}
 
-Noncommutative Hodge theory is an extension of the classical [[Hodge theory]]. The basic notion is a **noncommutative Hodge structure** which is formulated in the language of meromorphic connections. 
+## Idea
+
+Noncommutative Hodge theory is an extension of the classical [[Hodge theory]]. The basic notion is a **noncommutative Hodge structure**, the generalization of _[[Hodge structure]]_, which is formulated in the language of meromorphic connections. 
 
 Unlike classical Hodge theory for complex varieties, noncommutative Hodge structures can be attached to a wider class of [[noncommutative algebraic geometry|noncommutative spaces]]. In the framework of Katzarkov-Kontsevich-Pantev, noncommutative spaces are represented by [[dg-categories]], or more generally, A-infinity categories. In particular, they are interested in the dg-categories which arise in [[homological mirror symmetry]]: for example, [[Fukaya category|Fukaya categories]], (dg enhanced) [[derived categories]] of (quasi-)coherent sheaves, [[matrix factorization]] categories, [[Fukaya-Seidel categories]]. 
 
 The noncommutative analogue of [[Dolbeault cohomology]] is the [[Hochschild homology]] of the category. The analogue of [[de Rham cohomology]] is the periodic [[cyclic cohomology|cyclic homology]] of the category. The analogue of the Hodge-de Rham spectral sequence is the Hochschild-cyclic spectral sequence. There is work of Weibel which makes this analogy precise.
 
 There is a conjecture of Kontsevich that the Hochschild-cyclic spectral sequence degenerates for smooth and proper noncommutative spaces. (This is the analogue of the Hodge-de Rham degeneration for smooth and proper varieties.) Kontsevich's conjecture has been proven in some cases by [[Dmitri Kaledin]], who adapts Deligne-Illusie's proof of Hodge-de Rham degeneration (using reduction mod p) to the noncommutative setting. Kontsevich's conjecture is known as the "degeneration conjecture".
+
+## References
+
+Noncommutative Hodge theory is being developed in
+
+* L. Katzarkov, [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+
 
 * D. Kaledin, _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
 
