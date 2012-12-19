@@ -1,0 +1,18 @@
+
+
+## Related concepts
+
+* [[Hodge theory]], 
+
+  [[nonabelian Hodge theory]], [[noncommutative Hodge theory]]
+
+## References
+
+* Chris Peters, Jozef Steenbrink, _Mixed Hodge Structures_, Ergebisse der Mathematik (2007) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+
+
+[[!redirects Hodge structures]]
+
+[[!redirects mixed Hodge structure]]
+[[!redirects mixed Hodge structures]]
+
