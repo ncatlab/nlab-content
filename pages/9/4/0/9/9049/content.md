@@ -1,0 +1,8 @@
+
+This is about the book
+
+* [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+
+on [[Hodge theory]] in general and [[mixed Hodge structures]] in particular.
+
+category: reference
