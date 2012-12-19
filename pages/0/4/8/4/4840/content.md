@@ -99,6 +99,8 @@ $$
 
 * [[de Rham theorem]]
 
+* [[Hodge theorem]]
+
 * a special case is [[Cauchy's integral theorem]]
 
 ## References
