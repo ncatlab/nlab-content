@@ -72,7 +72,7 @@ Namely from the very fact that in the presence of magnetic charge the gauge fiel
 
 To see this, consider the following.
 
-In the simplest case we consider a single electrically charged particle with worldline $gamma : [0,1] \to X$ propagating inside a single patch $U_i  \to X$ of some [[cover]] over which the [[electromagnetic field]] is represented by a [[Deligne cohomology|Deligne cocycle]] with $1$-form $A_i \in \Omega^1(U_1)$. Then then action functional for the coupling of the particle to the background [[electromagnetic field]] is
+In the simplest case we consider a single electrically charged particle with worldline $\gamma : [0,1] \to X$ propagating inside a single patch $U_i  \to X$ of some [[cover]] over which the [[electromagnetic field]] is represented by a [[Deligne cohomology|Deligne cocycle]] with $1$-form $A_i \in \Omega^1(U_i)$. Then then action functional for the coupling of the particle to the background [[electromagnetic field]] is
 
 $$
   (\hat F, \gamma) \mapsto
