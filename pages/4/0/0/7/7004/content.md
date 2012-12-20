@@ -39,6 +39,8 @@ For more on this see at _[[categorical semantics]]_ and at _[[relation between t
 
 * [[geometric models for modal logics]];
 
+* [[syntax - semantics duality]]
+
 category:logic
 
 
