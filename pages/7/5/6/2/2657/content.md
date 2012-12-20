@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Riemannian geometry
+#### Complex geometry
 +--{: .hide}
-[[!include Riemannian geometry - contents]]
+[[!include complex geometry - contents]]
 =--
 =--
 =--
