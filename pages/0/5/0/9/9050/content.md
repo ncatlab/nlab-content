@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
 =--
 =--
 =--
@@ -35,7 +35,12 @@ The [[Hodge theorem]] asserts, in particular, that for a [[compact topological s
 
 The theorem is due to 
 
-* Hodge, (1947)
+* [[William Hodge]], (1947)
+
+A textbook account is for instance in seciton 1.1 of
+
+* [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+
 
 Lecture notes include
 
