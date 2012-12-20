@@ -78,6 +78,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[canonical extension]]
 
+* [[syntax - semantics duality]]
+
 ## References
 
 The book
