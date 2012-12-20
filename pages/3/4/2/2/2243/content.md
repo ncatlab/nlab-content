@@ -144,6 +144,13 @@
 
 * [[relative cohomology]]
 
+### Extra structure
+
+* [[Hodge structure]]
+
+* [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
+
+
 ### Operations ###
 
 * [[cohomology operations]]
@@ -151,8 +158,6 @@
 * [[cup product]]
 
 * [[connecting homomorphism]], [[Bockstein homomorphism]]
-
-* [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
 
 * [[fiber integration]], [[transgression]]
 
@@ -166,7 +171,9 @@
 
 * [[de Rham theorem]], [[Poincare lemma]], [[Stokes theorem]]
 
-* [[Hodge theory]]
+* [[Hodge theory]], [[Hodge theorem]]
+
+  [[nonabelian Hodge theory]], [[noncommutative Hodge theory]]
 
 * [[Brown representability theorem]]
 
