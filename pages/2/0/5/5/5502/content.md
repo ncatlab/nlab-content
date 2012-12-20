@@ -24,11 +24,12 @@ The traditional applications are discussed in
 
 * Yves Laszlo, Martin Olsson, _The six operations for sheaves on Artin stacks I: Finite Coefficients_ ([arXiv:math/0512097](http://arxiv.org/abs/math/0512097))
 
-* Yoseph Ayoub, _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris ([pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf))
+* [[Yoseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris ([pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf))
 
+A quick list of the axioms with a  Grothendieck's six operations with an eye towards the definition of [[motives]] is in section A.5 of 
 
-[[!redirects six operations]]
-[[!redirects Grothendieck's six operations]]
+* [[Denis-Charles Cisinski]], Fr&#233;d&#233;ric D&#233;glise, _Triangulated categories of mixed motives_ ([arXiv:0912.2110](http://arxiv.org/abs/0912.2110))
+
 [[!redirects Grothendieck's six operations]]
 [[!redirects yoga of six functors]]
 [[!redirects yoga of six operations]]
