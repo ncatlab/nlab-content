@@ -31,15 +31,17 @@
 
 ## Idea
 
-According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[∞-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalences]].
+According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[∞-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalences]]. This is the joint generalization of the notion of _[[category]]_ and _[[∞-groupoid]]_.
 
-To some extent an $(\infty,1)$-category can be thought of as a [[enriched category|category enriched in]] [[(∞,0)-categories]], namely in [[∞-groupoids]].
+More precisely, this is the notion of _[[category]]_ up to [[coherent|coherence]] [[homotopy]]:
+an $(\infty,1)$-category is an [[internal category in an (∞,1)-category|internal to]] in [[∞-groupoids]]/basic [[homotopy theory]]. 
+
 
 Among all [[(n,r)-category|(n,r)-categories]], $(\infty,1)$-categories are special in that they are the simplest structures that at the same time:
 
 * admit a [[higher category theory|higher version]] of [[category theory]] ([[limit]]s, [[adjunction]]s, [[Grothendieck construction]], etc, [[sheaf and topos theory]], etc.) : [[(infinity,1)-category theory]]
 
-* and know everything about higher equivalences.
+* and know everything about higher [[equivalences]].
 
 Notably for understanding the collections of all [[(n,r)-category|(n,r)-categories]] for arbitrary $n$ and $r$, which in general is an $(n+1,r+1)$-category, the knowledge of the underlying $(n,1)$- (and hence $(\infty,1)$-)category already captures much of the information of interest: it allows to decide if two given $(n,r)$-categories are equivalent and allows to obtain new $(n,r)$-categories from existing ones by universal constructions.
 
@@ -270,6 +272,11 @@ Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+An brief exposition from the point of view of [[algebraic topology]] is in 
+
+* [[Jacob Lurie]], _What is... an $\infty$-category?_, _Notices of the AMS_, Septemper 2008 ([pdf](http://www.ams.org/notices/200808/tx080800949p.pdf)) 
+
+
 A useful comparison of the four [[model category]] structures on
 
  * [[quasi-categories]];
@@ -286,7 +293,9 @@ is in
 
 More discussion of the other two models can be found at
 
-* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+
+and in the references listed at _[[(∞,n)-category]]_.
 
 The relation between [[quasi-category|quasi-categories]] and [[simplicially enriched categories]] was discussed in detail in 
 
