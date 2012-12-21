@@ -155,6 +155,7 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 * **partial order**
 
+* [[Noetherian poset]]
 
 ## References
 
