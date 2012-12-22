@@ -3,7 +3,7 @@ __The Grothendieck Festschrift__ is a 3-volume collection of articles written in
 Vol. 1
 * Foreword 
 * Bibliographie d'Alexander Grothendieck 
-* Jean Dieudonne, De l'Analyse fonctionnelle aux fondements de la g&#233;om&#233;trie alg&#233;brique 
+* [[Jean Dieudonne]], De l'Analyse fonctionnelle aux fondements de la g&#233;om&#233;trie alg&#233;brique 
 * Allen B. Altman and Steven L. Kleiman, The presentation functor and the compactified Jacobian 
 * M. Artin, J. Tate, [[M. Van den Bergh]], Some algebras associated to automorphisms of elliptic curves 
 * V. Balaji, C.S. Seshadri, Cohomology of a moduli space of vector bundles 
@@ -12,16 +12,16 @@ Vol. 1
 * Pierre Berthelot, William Messing, Th&#233;orie de Dieudonn&#233; cristalline. III. Th&#233;or&#232;mes d'&#233;quivalence et de pleine fid&#233;lit&#233;
 * Jean-Michel Bismut, Henri Gillet and Christophe Soul&#233;, Complex immersions and Arakelov geometry 
 * Spencer Bloch, Kazuya Kato, L-Functions and Tamagawa numbers of motives 
-* Lawrence Breen, Bitorseurs et cohomologie non ab&#233;lienne (pp. 401--476); 
-* Jean-Luc Brylinski, Noncommutative Ruelle-Sullivan type currents (pp. 477--498).
+* [[Lawrence Breen]], Bitorseurs et cohomologie non ab&#233;lienne (pp. 401--476); 
+* [[Jean-Luc Brylinski]], Noncommutative Ruelle-Sullivan type currents (pp. 477--498).
 
 Vol. 2 
 
-* Pierre Cartier, Andr&#233; Voros, Une nouvelle interpr&#233;tation de la formule des traces de Selberg (pp. 1--67)
+* [[Pierre Cartier]], Andr&#233; Voros, Une nouvelle interpr&#233;tation de la formule des traces de Selberg (pp. 1--67)
 * C. Contou-Carr&#232;re, Jacobiennes g&#233;n&#233;ralis&#233;es globales relatives (pp. 69--109)
-* P. Deligne, [[Catégories Tannakiennes]] (pp. 111--195)
+* [[Pierre Deligne]], [[Catégories Tannakiennes]] (pp. 111--195)
 * Torsten Ekedahl, On the adic formalism (pp. 197--218)
-* Gerd Faltings, $F$-isocrystals on open varieties: results and conjectures (pp. 219--248)
+* [[Gerd Faltings]], $F$-isocrystals on open varieties: results and conjectures (pp. 219--248)
 * Jean-Marc Fontaine, Repr&#233;sentations $p$-adiques des corps locaux. I (pp. 249--309)
 * Helmut A. Hamm, L&#281;Dung Tr&#225;ng, Rectified homotopical depth and Grothendieck conjectures
 
