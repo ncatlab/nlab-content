@@ -105,9 +105,13 @@ The earliest reference where the gauge term in the standard string [[action func
 
 The later article
 
-* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv](http://arxiv.org/abs/hep-th/9907189))
+* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
 argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cohomology using [[quantum anomaly]]-cancellation arguments.
+
+This is expanded on in 
+
+* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_ ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
 
 A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the fields that it interacts with is in
 
@@ -115,13 +119,19 @@ A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond 
 
 In fact, in full generality the Kalb-Ramond field on an [[orientifold]] background is not a plain gerbe, but a _Jandl gerbe_ , a connection on a nonabelian $AUT(U(1))$-[[principal 2-bundle]]s for the [[automorphism 2-group]] $AUT(U)(1))$ of $U(1)$:
 
+for the bosonic string this is discussed in 
+
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283))
+
+and for the refinement to the [[superstring]] in
 
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics volume 83 AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
 
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
 
-The role of the KR field in [[twisted K-theory]] is discussed a bit in 
+See at _[[orientifold]]_ for more on this.
+
+The role of the KR field in [[twisted K-theory]] is discussed a bit also in 
 
 * [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
   {#Moore}
