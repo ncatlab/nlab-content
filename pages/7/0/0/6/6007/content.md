@@ -300,6 +300,7 @@ $$
 * [[fiber integration in differential K-theory]]
 
 ## References
+ {#References}
 
 A discussion in the general sense of [[fiber integration]] in [[generalized (Eilenberg-Steenrod) cohomology]] is in section 3.4 of 
 
