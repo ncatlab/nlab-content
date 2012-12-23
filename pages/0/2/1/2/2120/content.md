@@ -57,8 +57,7 @@ Also, when a property is not always preserved it is useful to label those maps w
 Although these don't make sense for arbitrary topological spaces (convergence spaces, locales, etc), they are special kinds of continuous maps in contexts such as [[metric spaces]]:
 
 * [[uniformly continuous maps]],
-* [[Hoelder map]]s,
-* [[Lipschitz map]]s,
+* [[Lipschitz maps]],
 * [[short maps]],
 * [[differentiable maps]],
 * [[smooth maps]].
