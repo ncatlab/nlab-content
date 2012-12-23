@@ -62,7 +62,7 @@ A clean formulation and review is provided in
 
 and
 
-* Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
+* Kim Laine, _Geometric and topological aspects of Type IIB D-branes_, Master thesis ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
  {#Laine}
 
 In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank gauge bundles is towards the very end, culminating in equation (3.41).
