@@ -93,3 +93,6 @@ Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding
 [[!redirects bisections of a Lie groupoid]]
 
 [[!redirects group of bisections]]
+
+[[!redirects bisection]]
+[[!redirects bisections]]
