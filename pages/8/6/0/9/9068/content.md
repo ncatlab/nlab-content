@@ -1,0 +1,13 @@
+## Definition
+
+Let $F\colon A \to B$ be a [[functor]] between [[categories]]. It is **codense** when for each $b \in B$ the following is true:
+
+  $Lim((b \downarrow F) \to A \to B) == c$
+
+(wherre $(b \downarrow F)$ is an [[http://nlab.mathforge.org/nlab/show/under+category|under-category]] from $b$ to functor $F$.
+
+This notion is dual to the notion of [[dense functor]].
+
+Equivalently, a functor $F$ is **codense** iff $Id_B$, together with identity natural transformation $Id_F\colon F \to F$, is the pointwise [[Kan extension]] of $F$ along $F$.
+
+Also, $F$ is **codense** iff when its [[codensity monad]] is the identity.  
