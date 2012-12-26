@@ -2,9 +2,9 @@
 
 Let $F\colon A \to B$ be a [[functor]] between [[categories]]. It is **codense** when for each $b \in B$ the following is true:
 
-  $Lim((b \downarrow F) \to A \to B) == c$
+  $Lim((b \downarrow F) \to A \to B) = c$
 
-(wherre $(b \downarrow F)$ is an [[http://nlab.mathforge.org/nlab/show/under+category|under-category]] from $b$ to functor $F$.
+(where $(b \downarrow F)$ is an [[comma category]] from $b$ to functor $F$.
 
 This notion is dual to the notion of [[dense functor]].
 
