@@ -86,9 +86,15 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ### Holographic description
 
+Discussion of black holes in the context of the [[holographic principle]] and the [[AdS-CFT correspondence]] is in
+
 * Monica Guica, Thomas Hartman, Wei Song, [[Andrew Strominger]], _The Kerr/CFT Correspondence_ ([arXiv:0809.4266](http://arxiv.org/abs/0809.4266))
 
 * Alejandra Castro, Alexander Maloney, [[Andrew Strominger]], _Hidden Conformal Symmetry of the Kerr Black Hole_ ([arXiv:1004.0996](http://arxiv.org/abs/1004.0996))
+
+The nature of the [[event horizon]], specifically, is discussed in
+
+* Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
 
 [[!redirects black holes]]
