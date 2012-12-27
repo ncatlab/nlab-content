@@ -193,8 +193,16 @@ Arguments for the $SO(5)$ [[R-symmetry]] group on the 6d theory from the 7d theo
 
 * A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
+### Applications
 
-[[!redirects AdS/CFT]][[!redirects AdS/CFT correspondence]][[!redirects AdS-CFT correspondence]]
+Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT is in
+
+* Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
+
+
+[[!redirects AdS/CFT]]
+[[!redirects AdS/CFT correspondence]]
+[[!redirects AdS-CFT correspondence]]
 
 [[!redirects AdS-CFT correspondence]]
 
