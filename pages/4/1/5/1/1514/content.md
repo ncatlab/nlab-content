@@ -152,7 +152,7 @@ A rigorous discussion for [[phase spaces]] equipped with a [[Kähler polarizatio
 
 Other references on mathematical aspects of path integrals include
 
-* [[Sergio Albeverio]], [[Raphael Hoegh-Krohn]], Sonia Mazzucchi,
+* Sergio Albeverio, Raphael Hoegh-Krohn, Sonia Mazzucchi,
 _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
 
 * [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
