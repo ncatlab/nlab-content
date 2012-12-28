@@ -144,6 +144,10 @@ This discusses the path integral for the [[sigma-model]] given by a particle pro
 
 * Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
 
+A rigorous discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]] is in 
+
+* Laurent Charles, _Feynman path integral and Toeplitz Quantization_ ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
+
 (Usually the quadratic Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. )
 
 Other references on mathematical aspects of path integrals include
