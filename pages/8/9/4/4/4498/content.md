@@ -214,7 +214,7 @@ The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting functio
 
 An explicit version of the statement that [[twisted Cartesian product]]s are nothing but pullbacks of a [[generalized universal bundle]] is on [page 148](http://ncatlab.org/timporter/files/menagerie10.pdf#page=148) of
 
-* [[Tim Porter]], _[[timporter:Crossed Menagerie]]_
+* [[Tim Porter]], _[Crossed Menagerie](http://ncatlab.org/timporter/show/crossed+menagerie)_
 
 On [page 239](http://ncatlab.org/timporter/files/menagerie10.pdf#page=239) there it is mentioned that
 
