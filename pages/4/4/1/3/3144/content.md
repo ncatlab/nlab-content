@@ -91,3 +91,4 @@ An introduction is in chapter 4 of
 
 Some of the above material is taken from <a href="http://mathoverflow.net/questions/45273/what-facts-in-commutative-algebra-fail-miserably-for-simplicial-commutative-rings">this MO entry</a>.
 
+[[!redirects simplicial rings]]
