@@ -1,14 +1,13 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
 A category $C$ is _closed_ if for any pair $a, b$ of object the collection of morphisms from $a$ to $b$ can be regarded as forming itself an object of $C$.
 
-This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addressed at the _internal [[hom-object]]_ or simply the [[internal hom]].
+This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addressed as the _internal [[hom-object]]_ or simply the [[internal hom]].
 
 A familiar kind of closed categories are [[closed monoidal category|closed monoidal categories]]. However, there is also a definition of **closed category** that does not require the category to already be monoidal.  A monoidal structure $\otimes$, if it exists, can then be universally characterized as a _left_ adjoint to the internal-hom, dual to the above characterization of internal-homs as right adjoints to $\otimes$.  See Eilenberg-Kelly, referenced below.
 
@@ -61,7 +60,10 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 
 +-- {: .query}
 [[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
+
+[Discussion](http://nforum.mathforge.org/discussion/4632/closed-category/)
 =--
+
 
 ## Examples
 
