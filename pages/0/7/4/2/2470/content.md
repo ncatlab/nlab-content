@@ -17,13 +17,13 @@
 
 ## Idea
 
-In [[noncommutative algebraic geometry]] one represents a [[scheme]] by an [[abelian category]] of [[quasicoherent sheaf|quasicoherent sheaves]] on the [[scheme]]. This loses a bit of information but sometimes the information is sufficient. 
+In [[noncommutative algebraic geometry]] one represents a [[scheme]] by an [[abelian category]] of [[quasicoherent sheaf|quasicoherent sheaves]] on the [[scheme]]. 
 
-In _derived (higher) noncommutative (algebraic) geometry_ one instead considers the [[derived category]] of [[quasicoherent sheaf|quasicoherent sheaves]], or more precisely its [[enhanced triangulated category|dg-enhancement]] or [[A-infinity-category|A-infinity-enhancement]]; dg-enhancements for the derived categories of quasiprojective smooth varieties are essentially unique. 
+In _derived (higher) noncommutative (algebraic) geometry_ one instead considers the [[derived category]] of [[quasicoherent sheaf|quasicoherent sheaves]], or more precisely its [[enhanced triangulated category|dg-enhancement]] or [[A-infinity-category|A-infinity-enhancement]]; dg-enhancements for the derived categories of quasiprojective smooth varieties are essentially unique. Taking the derived category instead of the abelian loses a bit of information but sometimes the information is sufficient.
 
 In general one represents complex noncommutative spaces by [[pretriangulated dg-category|pretriangulated dg-categories]]. This is well into [[homotopy theory]] area. Quillen [[model category]] structures and [[homotopy limit]]s in this context were studied by a number of people (including the impressive thesis by Tabuada). On the other hand, over a mixed characteristics, the meaning of such representations is less well understood.
 
-Derived noncommutative geometry has been introduced by Kapranov-Bondal and later Orlov around 1990; contemporary main works belong also to [[Kontsevich]], Lunts, van den Bergh, Katzarkov, Kuznetsov and Kaledin. Some of the works of [[Bertrand Toen|Toen]], Vaquie, Keller  are properly in this area as well. 
+Derived noncommutative geometry has been introduced by Kapranov-Bondal and later Orlov around 1990; contemporary main works belong also to [[Kontsevich]], [[Valery Lunts|Lunts]], van den Bergh, Katzarkov, Kuznetsov and Kaledin. Some of the works of [[Bertrand Toen|Toen]], Vaquie, Keller  are properly in this area as well. 
 
 ## Definitions
 
