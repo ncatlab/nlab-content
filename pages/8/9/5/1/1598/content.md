@@ -163,6 +163,8 @@ The [[exceptional Lie groups]] incude
 
 * [[compact Lie group]], [[maximal compact subgroup]]
 
+* [[maximal torus]]
+
 * [[Hamiltonian dynamics on Lie groups]]
 
 * [[Poisson Lie group]]
