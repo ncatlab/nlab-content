@@ -1,0 +1,7 @@
+
+## Idea
+
+The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [[extended quantum field theory]] (or "localized" or "multi-tiered" quantum field theory).
+
+[[!redirects extended Lagrangians]]
+
