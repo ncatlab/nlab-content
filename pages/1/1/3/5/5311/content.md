@@ -1,4 +1,6 @@
 
+> This entry is about the notion of _root_ in [[algebra]]. For the notion in [[representation theory]] see at _[[root (in representation theory)]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
