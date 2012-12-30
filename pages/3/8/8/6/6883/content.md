@@ -54,6 +54,12 @@ Degenerate as this situation is, it can be useful to regard the [[trace]] as a C
 
 * The _[[spectral action]]_  is of this form.
 
+### For a group character, on a coadjoint orbit
+
+For $G$ a suitable [[Lie group]] (compact, semi-simple and simply connected) the [[Wilson loops]] of $G$-[[principal connections]] are equivalently the [[partition functions]] of a 1-dimensional Chern-Simons theory.
+
+This appears famously in the formulation of [[Chern-Simons theory]] [with Wilson lines](Chern-Simons+theory#WithWilsonLineObservables). More detailes are at _[[orbit method]]_.
+
 ### For a symplectic Lie 0-algebroid
 
 A [[symplectic manifold]] regarded as a [[symplectic Lie n-algebroid]] with $n = 0$ induces a 1d Chern-Simons theory whose [[Chern-Simons form]] is a Liouville form of the symplectic form. 
@@ -68,6 +74,14 @@ A discussion of 1d CS theory in the context of large $N$-gauge theory is in
 
 * V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_ 	Nucl.Phys.B750:289-320,2006 ([arXiv:hep-th/0605007](http://arxiv.org/abs/hep-th/0605007))
   {#Nair}
+
+An exposition of this theory formulated via an [[extended Lagrangian]] in [[higher geometric quantization]] is in section 1 of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+
+Further discussion is in section 5.7 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 ### For a symplectic Lie 0-algebroid
 
