@@ -32,6 +32,8 @@
 
   * [[Hilbert space]], [[Banach space]], [[Fourier transform]], [[functional analysis]]
   
+  * [[weight (in representation theory)]]
+
   * [[orbit]], [[coadjoint orbit]], [[Killing form]]
 
   * [[geometric quantization]], [[coherent state]]
