@@ -58,6 +58,13 @@ $$
 
 is the corresponding [[local action functional]].
 
+## Related concepts
+
+* [[action functional]]
+
+* [[extended Lagrangian]]
+
+
 [[!redirects Lagrangean]]
 [[!redirects Lagrangian function]]
 [[!redirects Lagrangian density]]
