@@ -143,7 +143,7 @@ Write $\theta \in \Omega^1(G, \mathfrak{g})$ for the [[Maurer-Cartan form]] on $
 Write 
 
 $$
-  \Theta_\lambda := \langle \lambbda, \theta \rangle \in \Omega^1(G)
+  \Theta_\lambda := \langle \lambda, \theta \rangle \in \Omega^1(G)
 $$
 
 for the 1-form obtained by pairing the value of the Maurer-Cartan form at each point with the gixed element $\lambda \in \mathfrak{g}^*$.
@@ -166,7 +166,7 @@ The 2-form $\nu_\lambda$ from def. \ref{The2FormOnG}
 1. satisfies
 
    $$
-     \nu_\lambda = \frac{1}{2}\langle \lambda, [\theta\wegde \theta]\rangle
+     \nu_\lambda = \frac{1}{2}\langle \lambda, [\theta\wedge \theta]\rangle
      \,.
    $$
 
@@ -301,7 +301,7 @@ $$
   \mathbf{B}U(1)_{conn}
 $$
 
-in $\nathbf{H}$ given over a test manifold $U \in $ [[CartSp]] by the function on objects
+in $\mathbf{H}$ given over a test manifold $U \in $ [[CartSp]] by the function on objects
 
 $$
   \langle \lambda, - \rangle_U 
@@ -354,7 +354,7 @@ $$
   \langle \lambda, \mathbf{\theta}\rangle
   : 
   G/T
-  \stackrel{\mathbf{\lambda}}{\to}
+  \stackrel{\mathbf{\theta}}{\to}
   \Omega^1(-,\mathfrak{g})//T
   \stackrel{\langle \lambda, - \rangle}{\to}
   \mathbf{B}U(1)_{conn}
@@ -366,7 +366,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The [[curvature]] 2-form of the circle bundle $\langle \lambda, \mathbf{\theta}\rangle$ from remark \ref{ThePrequantumBundleFromCanonicalMaps} is the [[symplectic form]] of prop. \ref{TheSymplecticFormOnTheCoset}. Therefore $\langle \lambda, \mathbf{\theta}\rangle$ is a [[prequantization]] of the coadjoint orbit $(\mathcal{O}_\lambda \simew G/T, \nu_\lambda)$.
+The [[curvature]] 2-form of the circle bundle $\langle \lambda, \mathbf{\theta}\rangle$ from remark \ref{ThePrequantumBundleFromCanonicalMaps} is the [[symplectic form]] of prop. \ref{TheSymplecticFormOnTheCoset}. Therefore $\langle \lambda, \mathbf{\theta}\rangle$ is a [[prequantization]] of the coadjoint orbit $(\mathcal{O}_\lambda \simeq G/T, \nu_\lambda)$.
 
 =--
 
@@ -379,7 +379,7 @@ $$
   \omega 
   :
   G/T
-  \stackrel{\mathbf{\lambda}}{\to}
+  \stackrel{\mathbf{\theta}}{\to}
   \Omega^1(-,\mathfrak{g})//T
   \stackrel{\langle \lambda, - \rangle}{\to}
   \mathbf{B}U(1)_{conn}
