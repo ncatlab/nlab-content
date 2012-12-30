@@ -29,7 +29,7 @@ Derived noncommutative geometry has been introduced by Kapranov-Bondal and later
 
 In 
 
-* L. Katzarkov, M. Kontsevich, T. Pantev, _Hodge theoretic aspects of mirror symmetry), [arxiv:0806.0107](http://arxiv.org/abs/math/0806.0107).
+* L. Katzarkov, M. Kontsevich, T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/math/0806.0107).
 
 the following definition is given.
 
@@ -67,10 +67,13 @@ A __noncommutative space__ $X$ is a small [[triangulated category]] $C_X$ which 
 
 ## References
 
+See also 
+
+
+
 Introductory lecture:
 
 * [[Dmitry Kaledin]], _Homological methods in Non-commutative Geometry_  (2008) ([pdf](http://imperium.lenin.ru/~kaledin/math/tokyo/final.pdf))
 
 [[!redirects derived noncommutative algebraic geometry]] 
-
-[[!redirects higher noncommutative geometry]]
+[[!redirects noncommutative derived algebraic geometry]]
