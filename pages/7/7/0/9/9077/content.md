@@ -30,9 +30,15 @@ A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrigh
 
 A **maximal torus** is a subgroup which is maximal with these properties.
 
+The [[Lie algebra]] of a maximal torus of $G$ is called a [[Cartan subalgebra]] of the Lie algebra of $G$.
+
 ## Related concepts
 
 * [[maximal compact subgroup]]
+
+* [[Cartan subalgebra]]
+
+* [[wight (in representation theory)]], [[root (in representation theory)]]
 
 * [[orbit method]]
 
