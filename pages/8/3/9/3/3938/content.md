@@ -186,3 +186,5 @@ The classical notion of transgression of forms through fiber bundles is describe
 * [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
 {#Borel}
 
+
+[[!redirects transgressions]]
