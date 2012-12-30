@@ -1,4 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $G$ a [[compact Lie group]] with [[Lie algebra]] $\mathfrak{g}$, a **Cartan subalgebra** of $\mathfrak{g}$ is a sub-Lie algebra 
+
+$$
+  \mathfrak{t} \hookrightarrow \mathfrak{g}
+$$
+
+that is the Lie algebra of a [[maximal torus]] 
+
+$$
+  T \hookrightarrow G
+  \,.
+$$
 
 ## References
 
