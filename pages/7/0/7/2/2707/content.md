@@ -138,7 +138,7 @@ A brief exposition is in
 Voevodsky's formalization of motives was sketched in 
 
 * [[Pierre Deligne]], _Voevodsky lectures on cross functors,
-Fall 2001. ([web](http://www.math.ias.edu/~vladimir/seminar.html))
+Fall 2001. ([pdf](http://mat.uab.cat/~kock/tmp/delnotes01.pdf))
  {#Deligne}
 
 and worked out in detail in 
