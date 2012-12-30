@@ -128,7 +128,9 @@ also
 
 * _[AQFT from n-functorial QFT](http://arxiv.org/abs/0806.1079)_.
 
-## Related entries
+## Related concepts
+
+* [[extended Lagrangian]]
 
 More on extended QFTs is also at 
 
