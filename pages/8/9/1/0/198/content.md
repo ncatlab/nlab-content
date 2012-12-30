@@ -76,6 +76,10 @@ Another important thing is that the endomorphisms are by definitions often equip
 
 There are also enriched, $k$-linear and other versions, hence one can talk about representations of [[Lie algebras]], [[vertex operator algebras]], etc. See also [[representation theory]]. 
 
+## Examples
+
+* [[adjoint representation]], [[coadjoint representation]]
+
 ## Related concepts
 
 * [[action]], [[∞-action]]
@@ -83,6 +87,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 * [[module]], [[∞-module]]
 
 * **representation**, [[∞-representation]]
+
+  * [[induced representation]]
   
   * [[2-representation]]
 
