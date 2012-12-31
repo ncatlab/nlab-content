@@ -32,6 +32,8 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 * A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas"
 
+* [[Clark Barwick]], _$\mathcal{D}$-crystals_, notes from 2006 talk, [pdf](http://dl.dropbox.com/u/1741495/papers/D-crys.pdf)
+
 * mathoverflow: [The Infinitesimal topos in positive characteristic](http://mathoverflow.net/questions/15795/the-infinitesimal-topos-in-positive-characteristic)
 
 
