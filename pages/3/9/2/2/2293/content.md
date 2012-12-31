@@ -32,7 +32,7 @@ Whereas "commutative" derived geometry over [[E-∞ rings]] is well described by
 The subject of  __derived algebraic geometry__ stem from (related)
 attempts to
 
-1. (cf. [Vezzosi](#VezzosiBuenosAires), [Kontsevich, Enumeration 1994](#KontsevichEnum)) to generalize the algebraic geometry allowing the notion of derived [[moduli space]]s (moduli stacks if you wish), which extend or replace the usual [[moduli space]]s. The classical moduli spaces are in some cases their truncations. Locally these moduli spaces should correspond to the deformation theory problem which geometrically 
+1. (cf. [Tabuada](#TabuadaBuenosAires), [Kontsevich, Enumeration 1994](#KontsevichEnum)) to generalize the algebraic geometry allowing the notion of derived [[moduli space]]s (moduli stacks if you wish), which extend or replace the usual [[moduli space]]s. The classical moduli spaces are in some cases their truncations. Locally these moduli spaces should correspond to the deformation theory problem which geometrically 
 realizes the [[cotangent complex]] for the deformation problem; 
 the derived moduli spaces often exhibit smoothness which is lost
 at the truncated level ([[hidden smoothness principle]]).  This should make sense to the virtual fundamental class and virtual dimension to moduli spaces related to GW and Donaldson-Thomas invariants.
@@ -135,14 +135,15 @@ The higher stacks and algebraic stacks were pioneered by ideas of Simpson's scho
 
 Then the major systematic work is
 
-* [[Bertrand Toën]], Gabriele Vezzosi, _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
 NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [math.AG/0210407](http://arxiv.org/abs/math/0210407).
  {#ToenVezzosi}
 
 A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
 
 * [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
-* [[Gabriele Vezzosi]], slides, [pdf](http://math.mit.edu/~tabuada/BuenosAires.pdf) Buenos Aires {#VezzosiBuenosAires}
+* [[Gonçalo Tabuada]], slides, [pdf](http://math.mit.edu/~tabuada/BuenosAires.pdf) Buenos Aires
+{#TabuadaBuenosAires}
 
 A general theory of [[derived geometry]] is developed in 
 
