@@ -1,3 +1,7 @@
 __Barbara Fantechi__ is an algebraic geometer with professorship in Trieste. 
 
 Related entries include [[perfect obstruction theory]], [[Gromov-Witten invariants]]
+
+* [Website](http://people.sissa.it/~fantechi/)
+
+category:people
