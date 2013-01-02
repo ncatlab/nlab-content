@@ -17,7 +17,7 @@ adelaide dot edu dot au
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo.
 
-* _$Con(ZF+\neg WISC)$_, [pdf](http://ncatlab.org/nlab/files/notWISC2.pdf), (2012) (Please note that Corollary 12 is not yet proved true as stated. What _is_ true is that WISC is independent of [[ZFA]], as long as one allows a [[proper class]] of [[urelement|atoms]].)
+* _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:notWISC|web]].
 
 * _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). Accepted for publication in the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html).
 
@@ -25,7 +25,7 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 * _On the existence of bibundles_, Proc. London Math. Soc. (2012) 105 (6): 1290-1314, [journal version](http://plms.oxfordjournals.org/content/105/6/1290), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
-* _Internal categories, anafunctors and localisations_, [arXiv:1101.2363](http://arxiv.org/abs/1101.2363). To appear in [[Theory and Applications of Categories]].
+* _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
 *  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf)
 
