@@ -107,6 +107,8 @@ In
 
 WISC is called the "axiom of multiple choice".
 
+* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
+
 category: foundational axiom
 
 [[!redirects WISC]]
