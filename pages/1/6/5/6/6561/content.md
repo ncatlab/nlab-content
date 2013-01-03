@@ -84,9 +84,25 @@ In fact, via the [[strict 2-group]] version of the [[string 2-group]] there is a
 ### On the holographic dual 
  {#ReferencesOnTheHolographicDual}
 
+The basics of the relation of the 6d theory to a 7d theory under [[AdS-CFT]] is reviewed [[holographic principle|holographic duality]]
+
+
 * [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
  {#Maldacena}
 
+The argument that the abelian [[7d Chern-Simons theory]] of a [[circle n-bundle with connection|3-connection]] yields this way the [[conformal blocks]] of the abelian [[self-dual higher gauge theory]] of the 6d theory on a _single_ brane is due to
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#WittenI}
+
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+ {#Witten98}
+
+The nonabelian generalization of this 7d action functional that follows from taking the quantum corrections ([[Green-Schwarz mechanism]] and flux quantization) of the [[supergravity C-field]] into account is discussed in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+
+See also
 
 * [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
 
