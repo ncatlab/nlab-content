@@ -990,6 +990,25 @@ set, and where evaluates a simplicial presheaf on the manifold that is the [[poi
 This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
 =--
 
+## Related concepts
+
+* [[cohesive (∞,1)-topos]]
+
+  * [[discrete ∞-groupoid]]
+
+  * **Euclidean-topological ∞-groupoid**
+
+  * [[smooth ∞-groupoid]]
+
+  * [[synthetic differential ∞-groupoid]]
+
+  * [[super ∞-groupoid]]
+
+  * [[smooth super ∞-groupoid]]
+
+  * [[synthetic differential super ∞-groupoid]]
+
+
 
 ## References
 
