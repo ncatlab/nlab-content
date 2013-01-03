@@ -200,7 +200,23 @@ Here in the third step we used that the underlying dg-algebra of $CE(\mathfrak{g
 
 ## Related concepts
 
-* [[smooth super infinity-groupoid]]
+* [[cohesive (∞,1)-topos]]
+
+  * [[discrete ∞-groupoid]]
+
+  * [[Euclidean-topological ∞-groupoid]]
+
+  * [[smooth ∞-groupoid]]
+
+  * [[synthetic differential ∞-groupoid]]
+
+  * **super ∞-groupoid**
+
+  * [[smooth super ∞-groupoid]]
+
+  * [[synthetic differential super ∞-groupoid]]
+
+
 
 ## References
  {#References}
