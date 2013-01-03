@@ -113,7 +113,7 @@
 
 * **[[smooth super ∞-groupoid]]**
 
-  * [[superpoint]], [[supergeometry]], [[supermanifold]], [[super Lie group]], [[super ∞-groupoid]]
+  * [[superpoint]], [[supergeometry]], [[supermanifold]], [[super Lie group]], [[super ∞-groupoid]], [[synthetic differential super ∞-groupoid]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohesive+infinity-toposes+-+contents)</div>
