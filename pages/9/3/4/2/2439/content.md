@@ -308,31 +308,50 @@ for the [[(∞,1)-sheaf (∞,1)-topos]] over this site: the [[(∞,1)-topos]] of
 
 =--
 
-### The line object $\mathbb{K}$
+### The line object $\mathbb{R}$
+ {#AlgebraInToposOverSuperPoints-TheLineObject}
 
-The canonical [[line object]] in $Sh(SuperPoint)$ is 
++-- {: .num_defn #EmbeddingOfSupermanifoldsIntoSheavesOnSuperpoints}
+###### Definition
 
-$$
-  \mathbb{A}^1  = Spec F(*) = \mathbb{R}^{0|1}
-  \,,
-$$ 
-
-the [[odd line]]. 
-
-As a presheaf $\mathbb{R}^{0|1} : (Gr^{op})^{op} \to Set$ this assigns
+Write
 
 $$
-  \mathbb{A}^1 : Spec \wedge^\bullet V \mapsto (\wedge^\bullet V)_{odd}
+  j \colon SuperSmthMfd \hookrightarrow Sh(SuperPoint)
+$$
+
+for the restricted [[Yoneda embedding]] of [[supermanifolds]] given by the canonical inclusion $SuperPoint \hookrightarrow SuperSmoothManifold$.
+
+=--
+
+
+
+
++-- {: .num_defn #TheRealLine}
+###### Definition
+
+Write
+
+$$
+  \mathbb{R} := j(\mathbb{R}) \in Sh(SuperPoint)
+$$
+
+for the presheaf represented by the [[real line]], regarded as a [[supermanifold]]. Equipped with its canonical [[internalization|internal]] [[ring]] structure this is 
+
+$$
+  \mathbb{R} \in Ring(Sh(SuperPoint))
   \,.
 $$
 
-+-- {: .num_defn}
-###### Definition
+=--
 
-Consider analogously the presheaf $\mathbb{K} = \mathbb{K}^1$ defined by
++-- {: .num_remark}
+###### Remark
+
+By the discussion at [[supermanifold]] (in the section [As locally ringed spaces - Properties](http://ncatlab.org/nlab/show/supermanifold#AsLocallyRingedSpacesProperties)) $\mathbb{R}$ sends the formal dual of a [[Grassmann algebra]] to its even subalgebra
 
 $$
-  \mathbb{K}^1  : Spec \wedge^\bullet V \mapsto (\wedge^\bullet V)_{even}
+  \mathbb{R}  : Spec \wedge^\bullet V \mapsto (\wedge^\bullet V)_{even}
   \,.
 $$
 
@@ -343,33 +362,33 @@ This is canonically equipped with the structure of a (unital) [[commutative ring
 In ([Sachse](#Sachse)) this appears around (21).
 
 
-### $\mathbb{K}$-Modules
+### $\mathbb{R}$-Modules
  {#SuperModulesAsbbKModules}
 
 +-- {: .num_defn}
 ###### Definition
 
-Write $Mod_{\mathbb{K}}(SuperSet)$ for the [[Mod|category of modules]] over $\mathbb{K}$ in $SuperSet$.
+Write $Mod_{\mathbb{R}}(SuperSet)$ for the [[Mod|category of modules]] over $\mathbb{R}$ of def. \ref{TheRealLine} in $SuperSet$.
 
 =--
 
 +-- {: .num_prop #EmbeddingOfSVectIntoKMod}
 ###### Proposition
 
-There is a [[functor]]
+The restriction of the embedding of def. \ref{EmbeddingOfSupermanifoldsIntoSheavesOnSuperpoints} to supermanifolds which are [[super vector spaces]] is a [[functor]]
 
 $$
-  j : SVect_k = Mod_k(Set) \hookrightarrow Mod_{\mathbb{K}}(SuperSet)
+  j : SVect_{\mathbb{R}} = Mod_{\mathbb{R}}(Set) \hookrightarrow Mod_{\mathbb{K}}(SuperSet)
 $$
 
-from [[super vector space]]s over $k$ to internal modules over $\mathbb{K}$ that sends $V \in SVect_k$ to
+from real [[super vector spaces]]  to internal modules over $\mathbb{R}$ that sends $V \in SVect_{\mathbb{R}}$ to
 
 $$
-  j(V) : Spec \Lambda \mapsto (\Lambda \otimes_k V)_{even}
+  j(V) : Spec \Lambda \mapsto (\Lambda \otimes_\mathbb{R} V)_{even}
   = 
-  (\Lambda_{even} \otimes_k V_{even})
+  (\Lambda_{even} \otimes_\mathbb{R} V_{even})
     \oplus
-  (\Lambda_{odd} \otimes_k V_{odd})
+  (\Lambda_{odd} \otimes_\mathbb{R} V_{odd})
   \,.
 $$
 
@@ -386,7 +405,7 @@ The proof is a variation on the [[Yoneda lemma]].
 
 =--
 
-This means that ordinary [[super vector space]]s are embedded as a [[full subcategory]] in $\mathbb{K}$-modules in the topos over [[super point]].
+This means that ordinary [[super vector spaces]] are embedded as a [[full subcategory]] in $\mathbb{K}$-modules in the topos over [[super points]].
 
 ### Associative and Lie Superalgebras
 
@@ -396,18 +415,18 @@ This means that ordinary [[super vector space]]s are embedded as a [[full subcat
 The functor $j$ from prop \ref{EmbeddingOfSVectIntoKMod} induces a [[full and faithful functor]]
 
 $$
-  SAlg_k(Set) \hookrightarrow Alg_{\mathbb{K}}(SuperSet)
+  SAlg_{\mathbb{R}}(Set) \hookrightarrow Alg_{\mathbb{R}}(SuperSet)
 $$
 
-of superalgebras over $k$ as in def. \ref{SuperAlgebras} and internal [[associative algebra]]s over $\mathbb{K}$ in $SuperSet$.
+of superalgebras over $\mathbb{R}$ as in def. \ref{SuperAlgebras} and internal [[associative algebra]]s over $\mathbb{R}$ in $SuperSet$.
 
 Similarly we have a faithful embedding
 
 $$
-  SLieAlg_k(Set) \hookrightarrow LieAlg_{\mathbb{K}}(SuperSet)
+  SLieAlg_{\mathbb{R}}(Set) \hookrightarrow LieAlg_{\mathbb{R}}(SuperSet)
 $$
 
-of ordinary [[super Lie algebra]]s over $k$ into the internal [[Lie algebra]]s over $\mathbb{K}$.
+of ordinary [[super Lie algebras]] over $\mathbb{R}$ into the internal [[Lie algebras]] over $\mathbb{R}$.
 
 =--
 
@@ -432,7 +451,7 @@ Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformu
 
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and K-theory with local coefficients_, Publications Math. IHES 38 (1970), 5-25 ([pdf](http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf))
 
-
+See also at _[[super line 2-bundle]]_ for more on this.
 
 
 
