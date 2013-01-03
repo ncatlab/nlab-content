@@ -33,6 +33,10 @@ The [[target space]] of the topological membrane is a [[G2-manifold]], the [[act
 
 * Ling Bao, _Topological membranes_, Nucl. Phys. Proc. Suppl. 171 (2007) 259-260 ([inspire](http://inspirehep.net/record/767705?ln=en))
 
+In the context of [[exceptional generalized geometry]]: 
+
+* [[Noriaki Ikeda]], Tatsuya Tokunaga, _Topological Membranes with 3-Form H Flux on Generalized Geometries_,  	Adv.Theor.Math.Phys.12:1259-1281,2008 ([arXiv:hep-th/0609098](http://arxiv.org/abs/hep-th/0609098))
+
 [[!redirects topological membranes]]
 [[!redirects topological M2-brane]]
 [[!redirects topological M2-branes]]
