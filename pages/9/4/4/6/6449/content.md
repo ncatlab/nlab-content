@@ -365,6 +365,9 @@ condition on the [[supergravity C-field]] in [[11-dimensional supergravity]]. Fo
 
 Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree [[invariant polynomial]]s have in particular received attention for $\mathfrak{g} = \mathfrak{siso}$ the [[super Poincare Lie algebra]]. In this case these action functionals can be regarded as defining higher [[Chern-Simons supergravity]].
 
+### 1d Chern-Simons theory
+
+* [[1d Chern-Simons theory]]
 
 ### 3d Chern-Simons theory
 
