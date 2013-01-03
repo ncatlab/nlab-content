@@ -172,6 +172,9 @@ The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of 
 
 [[!include square roots of line bundles - table]]
 
+* [[higher dimensional Chern-Simons theory]]
+
+* [[holographic principle]], [[AdS-CFT]]
 
 ## References
 
