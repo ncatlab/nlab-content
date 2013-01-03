@@ -18,13 +18,12 @@
 
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A [[supermanifold]] is a [[space]] locally modeled on [[Cartesian space]]s and [[superpoint]]s.
+A [[supermanifold]] is a [[space]] locally modeled on [[Cartesian space]]s and [[superpoints]].
 
 There are different approaches to the definition and theory of supermanifolds in the literature. The definition 
 
@@ -66,7 +65,10 @@ With the obvious morphisms of [[ringed space]] this forms the [[category]] [[SDi
 
 ### Examples
 
-**Example** For $E \to X$ a smooth finite-rank [[vector bundle]] the [[manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the sections  of the dual bundle
++-- {: .num_example }
+###### Example
+
+For $E \to X$ a smooth finite-rank [[vector bundle]] the [[manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the sections  of the dual bundle
 
 $$
   O_X(U) := \Gamma (\wedge^\bullet(E^*))
@@ -74,7 +76,12 @@ $$
 
 is a supermanifold. This is usually denoted by $\Pi E$.
 
-**Example** In particular, let $\mathbb{R}^{p+q} \to \mathbb{R}^p$ be the trivial rank $q$ [[vector bundle]] on $\mathbb{R}^p$ then one writes
+=--
+
++-- {: .num_example }
+###### Example
+
+In particular, let $\mathbb{R}^{p+q} \to \mathbb{R}^p$ be the trivial rank $q$ [[vector bundle]] on $\mathbb{R}^p$ then one writes
 
 $$
   \mathbb{R}^{p|q} := \Pi (\mathbb{R}^{p+q} \to \mathbb{R}^p)
@@ -82,8 +89,11 @@ $$
 
 for the corresponding supermanifold.
 
+=--
+
 
 ### Properties
+ {#AsLocallyRingedSpacesProperties}
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -93,11 +103,16 @@ Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ whe
 
 =--
 
-**Warning** Still, the category of supermanifolds is far from being [[equivalence|equivalent]] to that of [[vector bundle]]s because a morphism of vector bundles translates to a morphism of supermanifolds that is strictly homogeneous in degrees, while a general morphism of supermanifolds need not be of this form.
++-- {: .num_remark}
+###### Remark
+
+Nevertherless, the category of supermanifolds is far from being [[equivalence of categories|equivalent]] to that of [[vector bundles]]: a morphism of vector bundles translates to a morphism of supermanifolds that is strictly homogeneous in degrees, while a general morphism of supermanifolds need not be of this form.
+
+=--
 
 But we have the following useful characterization of morphisms of supermanifolds:
 
-+-- {: .num_theorem}
++-- {: .num_theorem #MorphismsOfSupermanifoldsByAlgebras}
 ###### Theorem
 
 * There is a natural bijection
@@ -113,11 +128,13 @@ But we have the following useful characterization of morphisms of supermanifolds
   $$
     SDiff(X, \mathbb{R}^{p|q})
     \simeq
-    (C^\infty(X)^{ev} \times \cdots p times \cdots 
-    \times C^\infty(X)^{ev})
+    \underbrace{
+    (C^\infty(X)^{ev} \times \cdots 
+    \times C^\infty(X)^{ev})}_{p\; times}
     \times
-    (C^\infty(X)^{odd} \times \cdots q times \cdots 
-    \times C^\infty(X)^{odd}).
+    \underbrace{
+      (C^\infty(X)^{odd} \times \cdots 
+      \times C^\infty(X)^{odd})}_{q\; times}
   $$
 
 
@@ -126,7 +143,7 @@ But we have the following useful characterization of morphisms of supermanifolds
 +-- {: .proof}
 ###### Proof
 
-The first statement is a direct extension of the classical fact that the contravariant embedding of ordinary [[smooth manifold]]s into algebras $X \mapsto C^\infty(X)$ is a [[full and faithful functor]].
+The first statement is a direct extension of the classical fact that the contravariant embedding of ordinary [[smooth manifolds]] into algebras $X \mapsto C^\infty(X)$ is a [[full and faithful functor]].
 
 =--
 
@@ -157,13 +174,13 @@ $$
   SuperSet := Sh(SuperPoint)
 $$
 
-be the [[sheaf topos]] over [[superpoint]]s. Let
+be the [[sheaf topos]] over [[superpoints]]. Let
 
 $$
-  \mathbb{K} \in SuperSet
+  \mathbb{R} \in Ring(SuperSet)
 $$
 
-be the canomnical commutative ring object, as discussed at [[superalgebra]].
+be the canonical [[continuum]] [[real line]] under the restricted [[Yoneda embedding]] of supermanifolds and equipped with its canonical internal algebra structure, hence by prop. \ref{MorphismsOfSupermanifoldsByAlgebras} the presheaf of algebras which sends a Grassmann algebra to its even subalgebra, as discussed at [[superalgebra]].
 
 =--
 
@@ -237,6 +254,8 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ### General 
 
+Discussion with an eye on [[integration over supermanifolds]] is in
+
 * [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
 
 ### As locally ringed spaces
@@ -299,7 +318,7 @@ The site of formal duals not just to [[Grassmann algebra]]s but to all super-[[i
 
 * [[Yuri Manin]], _Topics in noncommutative geometry_, Princeton Univ. Press 1991. 
 
-* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne]], P. Etingof, [[Daniel Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
 
