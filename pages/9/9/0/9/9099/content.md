@@ -47,6 +47,7 @@ The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7.
 
 ## References
 
+### Abelian theory
 
 The abelian 7d [[higher dimensional Chern-Simons theory]] of a [[circle n-bundle with connection|circle 3-bundle with connection]] was considered in 
 
@@ -62,10 +63,18 @@ The precise formulation of this functional in terms of [[differential cohomology
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
+### On $G_2$-manifolds
+
 The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G2-manifold]] $(X, \omega_3)$ was first considered in 
 
 * [[S. Donaldson]], [[R. Thomas]], _Gauge theory in higher dimensions_ ([pdf](http://www2.imperial.ac.uk/~rpwt/skd.pdf))
  {#DonaldsonThomas}
+
+and around (3.23) of
+
+* L. Baulieu, A. Losev, [[Nikita Nekrasov]], _Chern-Simons and Twisted Supersymmetry in Higher Dimensions_, Nucl.Phys. B522 (1998) 82-104 ([arXiv:hep-th/9707174](http://arxiv.org/abs/hep-th/9707174))
+
+
 
 In 
 
