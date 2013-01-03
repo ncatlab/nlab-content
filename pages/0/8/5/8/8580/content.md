@@ -7888,6 +7888,7 @@ here $\mathbf{L}$ is the [[Lagrangean]].
  {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
 
 
+an exposition and survey is in ([FSS13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
 
 * [[cohesion]] 
 
@@ -8097,7 +8098,7 @@ A discussion with emphasis on the kind of tools that we are using here is in
 
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
 
-An introductory discussion with much overlap with the above discussion is in section "1.3 Introduction -- Models and applications" of
+An introductory discussion with much overlap with the above discussion is in section "1.2 Geometry of phyics" of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#SchreiberCohesiveInfinityTopos}
@@ -8105,6 +8106,11 @@ An introductory discussion with much overlap with the above discussion is in sec
 Another introductory discussion along the above lines of aspects in [[gravity]] and [[higher gauge theory]] motivated from [[string theory]] is in 
 
 * [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, ESI (2012)
+
+An exposition and survey of matters related to [[Chern-Simons theory]] and [[higher geometric quantization]] is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ {#FiorenzaSatiSchreiberCSIntroAndSurvey}
 
 ### Differential forms and parallel transport
 
