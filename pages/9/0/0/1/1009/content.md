@@ -216,6 +216,20 @@ is mostly used for in the literature.
 
 * [[schreiber:infinity-Chern-Simons theory]]
 
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[string field theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
   * **AKSZ $\sigma$-model**
 
     * [[Poisson sigma-model]]
