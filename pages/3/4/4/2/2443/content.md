@@ -9,7 +9,7 @@ and
 
 * [[superpoint]]
 
-* [[super ∞-groupoid]], [[smooth super ∞-groupoid]]
+* [[super ∞-groupoid]], [[smooth super ∞-groupoid]], [[synthetic differential super ∞-groupoid]]
 
 * [[synthetic differential supergeometry]]
 
