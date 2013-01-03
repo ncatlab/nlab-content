@@ -17,6 +17,25 @@
 
 The generalization of [[Chern-Simons theory]] to [[manifolds]] of infinite [[dimension]].
 
+## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[AKSZ sigma-models]]
+
+  * [[string field theory]]
+
+
 ## References
 
 * [[Sylvie Paycha]], [[Steven Rosenberg]], _Chern-Weil Constructions on $\Psi$DO Bundles_ ([arXiv:math/0301185](http://arxiv.org/abs/math/0301185))
