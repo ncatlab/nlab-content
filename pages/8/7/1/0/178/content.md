@@ -353,13 +353,20 @@ This section is at
 
   * [[discrete ∞-groupoid]]
 
-  * [[continuous ∞-groupoid]]
+  * [[Euclidean topological ∞-groupoid]]
 
   * **smooth $\infty$-groupoid**
 
     * [[smooth 2-group]]
 
   * [[synthetic differential ∞-groupoid]]
+
+  * [[super ∞-groupoid]]
+
+  * [[smooth super ∞-groupoid]]
+
+  * [[synthetic differential super ∞-groupoid]]
+
 
 Smooth $\infty$-groupoids and related cohesive structures play a central role in the discussion at 
 
