@@ -1146,6 +1146,8 @@ From this one obtains the following list of examples of cohesive $(\infty,1)$-to
 
 * [[smooth super ∞-groupoid]]
 
+* [[synthetic differential super ∞-groupoid]]
+
 
 ## Applications
 
