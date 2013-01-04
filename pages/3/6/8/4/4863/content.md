@@ -119,7 +119,9 @@ See [[supergravity and Calabi-Yau manifolds]] for more.
 
 ### Reduction of 11d supergravity
 
-The lift of [above](#ReductionsOfTypeIISupergravity) reduction of type II supergravity on [[Calabi-Yau manifolds]] to [[M-theory]] is the reduction of [[11-dimensional supergravity]] on [[G2-manifolds]]. See at _[[M-theory on G2-manifolds]]_ for more details.
+The lift of the [above](#ReductionsOfTypeIISupergravity) reduction of type II supergravity on [[Calabi-Yau manifolds]] to [[M-theory]] is the reduction of [[11-dimensional supergravity]] on [[G2-manifolds]] $X_7$. See at _[[M-theory on G2-manifolds]]_ for more details.
+
+For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in the 4d space this is the [[Freund-Rubin compactification]] yielding [[weak G2 holonomy]] on $X_7$.
 
 
 ## Related concepts
