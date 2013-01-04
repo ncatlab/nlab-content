@@ -127,6 +127,10 @@ $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 * [[4-dimensional supergravity]]
 
+  * [[M-theory on G2-manifolds]], [[G2-MSSM]]
+
+  * [[Freund-Rubin compactification]]
+
 * [[3-dimensional supergravity]]
 
 * [[supergravity C-field]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
