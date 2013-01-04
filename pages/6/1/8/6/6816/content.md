@@ -29,6 +29,27 @@ maximum number $N = 4$ of [[supersymmetries]].
 
 $N=4$ $D=4$ SYM is an [[SCFT]].
 
+### Closed expressions for physical observables
+ {#ClosedExpressionsForPhysicalObservables}
+
+Among all [[gauge theory]] [[Lagrangians]] that of $N=4$, $D = 4$ SYM is special in several ways, in particular of course in that it is conformally invariant and in that it has maximal [[supersymmetry]]; and ultimately by the fact that it is the [[Kaluza-Klein mechanism|KK-reduction]] of the very special [[6d (2,0)-superconformal QFT]] and related by [[AdS-CFT|AdS7-CFT6 duality]] to the very special theory of [[11-dimensional supergravity]]/[[M-theory]].
+
+Accordingly, it is to be expected that the [[quantum observables]] of $N=4$, $D = 4$ SYM satisfy special relations that make them more tractable than the observables of a generic [[gauge theory]], in particular by having closed-form expressions.
+Indeed, such relations have been and are being uncovered in the last years, in particular in what is called the _[[planar limit]]_ of the theory, where [[scattering amplitudes]] are dominated by [[Feynman diagrams]] that can be given the structure of planar [[graphs]].
+
+This includes notably the following phenomena:
+
+1. The [[operator spectrum]] of the dilatation operator (the part of the [[stress-energy tensor]] which induces conformal transformations) can be expressed in closed form, indeed when regarded as a [[Hamiltonian]] it defines an [[integrable system]] equivalent to [[spin chain]] models. This has been used in particular to explicitly check aspects of the conjectured [[AdS-CFT duality]] of $N=4$, $D= 4$ SYM with [[type II string theory]] on [[anti de Sitter spacetimes]]. See the review ([Beisert et al](#Beisert)).
+
+1. Certain [[scattering amplitudes]] called _maximally helicity violating amplitudes_ ("[[MHV amplitudes]]") simplify drastically as compared to the generic situation and in fact are controled by a certain [[twistor string theory]] whose [[target space]] is a [[twistor space]]. See ([Monteiro](#Monteiro)) for a review.
+
+1. Generally, the [[scattering amplitudes]] of the theory in the planar limit have certain closed-form combinatorial expressions. See ([Arkani-Hamed et al](#Arkani-Hamed)).
+
+Such "exact solutions" of the theory are of interest in that even though N=4, D=4 SYM is very different from [[phenomenology|phenomenologically viable]] models such that [[QCD]] in the [[standard model of particle physics]] in that it is highly (super-)symmetric and conformal, it is still similar enough (being a nonabelian [[gauge theory]] [[minimal coupling|minimally coupled]] to [[fermions]]) that one can or can hope to deduce from these exact results approximate information about these less symmetric theories. 
+
+In other words, because understanding [[observables]] in [[QCD]]/[[Yang-Mills theory]] in general is difficult, going to special points in the space of all such theories -- such as the point of N=4, D=4 SYM -- may be hoped to yield a tractable approximation. For more on this way of studying [[QCD]] and other realistic theories by studying instead their highly symmetric but phenomenologically unrealistic siblings, see also at _[[string theory results applied elsewhere]]_.
+
+
 ### Holography
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
@@ -64,16 +85,24 @@ Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of
 
 (after regarding it as $N=1$ SYM with three adjoint chiral [[superfield]]s).
 
-### Planar sector and integrability
+### Planar sector, integrability, MHV amplitudes
 
 A comprehensive discussion of the [[integrability]] related to anomalous dimension in the planar sector is in 
 
 * N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
 Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+ {#Beisert}
+
+A review of [[MHV amplitudes]] is in 
+
+* Gustavo Machado Monteiro, _MHV Tree Amplitudes in Super-Yang-Mills and
+in Superstring Theory_ (2010) ([pdf](http://www.ift.unesp.br/posgrad/gustavo.pdf))
+  {Monteiro}
 
 Discussion of special properties of [[scattering amplitudes]] in the planar sector is in
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
+ {#Arkani-Hamed}
 
 
 ### Scattering amplitudes
