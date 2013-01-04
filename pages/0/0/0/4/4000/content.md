@@ -641,6 +641,7 @@ that are associative up to a higher coherent morphisms, etc.
 
 * **Chern-Simons circle 3-bundle**, [[Chern-Simons circle 7-bundle]]
 
+The CS 3-bundle 3-connection is the [[extended Lagrangian]] for ordinary $G$-[[Chern-Simons theory]]. See there for more.
 
 ## References
 
