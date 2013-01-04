@@ -286,6 +286,20 @@ in imposes a [[higher geometric quantization|higher prequantization]] of the for
 
 Finally notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the curvature of the [[supergravity C-field]] in interpretations of this setup in [[topological M-theory]] or generally the [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]] on a 4-[[sphere]] down to $X$.
 
+Notice that the above does not really need $X$ to be a [[G2-manifold]] to go through, a manifold with [[weak G2 holonomy]] is just as well. 
+
+Indeed, a choice of [[higher geometric quantization|higher prequantization]] of $\omega_4 \in \Omega^4_{cl}(\mathbb{R}^7)$ is nothing but a choice of 3-form $\phi \in \Omega^3(\mathbb{R}^7)$ such that $d \phi = \omega_4$ (since on the [[contractible topological space|contractibled]] [[Cartesian space]] every circle 3-bundle is necessarily trivializable and hence the only remaining data is the connection, given by a globally defined 3-form). Now if we choose this $\phi$ furthermore such that 
+
+$$
+  \omega_4 = \lambda \star \phi
+$$
+
+then this is a structure of a weak $G_2$-holonomy. And by the very definition of the [[Heisenberg n-group]] a [[lift of the structure group]] of $X$ to that 3-group is equivalently a choice of [[circle n-bundle with connection|circle 3-bundle with connection]] on $X$ such that there is a cover by $\mathbb{R}^7$s such that on each of these -- and hence on all of $X$ -- this relation is fulfilled. Hence such that $X$ is equipped with weak $G_2$-holonomy.
+
+According to ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)) such a 3-connection on a weak $G_2$-holonomy $X$ is consistently interpreted as the [[supergravity C-field]] for suitable compactification of [[M-theory on G2-manifolds|M-theory on weak G2-manifolds]].
+
+
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
@@ -336,6 +350,26 @@ The precise formulation of this functional in terms of [[differential cohomology
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
  {#HopkinsSinger}
 
+### Nonabelian theories
+
+In 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+ {#FSSI}
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ 
+ {#FSSII}
+
+the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten](#WittenI)-functional as another.
+
+Further discussion of [[extended Lagrangians]] for 7d CS theories is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+ {#FSSIII}
+
+
+
+
 ### On $G_2$-manifolds
 
 The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G2-manifold]] $(X, \omega_3)$ was first considered in 
@@ -357,20 +391,12 @@ In
 
 this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
 
-In 
+Discussion for [[weak G2-holonomy]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
- {#FSSI}
+* A. Bilal, J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
+ {#BilalDerendingerSfetsos}
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ 
- {#FSSII}
 
-the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten](#WittenI)-functional as another.
-
-Further discussion of [[extended Lagrangians]] for 7d CS theories is in 
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
- {#FSSIII}
 
 [[!redirects 7-dimensional Chern-Simons theory]]
 [[!redirects 7d Chern-Simons theories]]
