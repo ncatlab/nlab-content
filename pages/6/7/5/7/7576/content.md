@@ -26,6 +26,8 @@ One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-mod
 
 * [[M-theory on G2-manifolds]]
 
+* [[7d Chern-Simons theory]]
+
 ## References
 
 The notion has been introduced in 
