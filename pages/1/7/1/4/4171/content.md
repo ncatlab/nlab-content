@@ -436,3 +436,6 @@ and in
 [[!redirects Hamiltonian 1-forms]]
 [[!redirects Hamiltonian n-form]]
 [[!redirects Hamiltonian n-forms]]
+
+[[!redirects n-plectic structure]]
+[[!redirects n-plectic structures]]
