@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
 =--
 =--
 
@@ -16,6 +20,8 @@
 ## Idea
 
 The notion of _Heisenberg Lie $n$-algebra_ is the generalization to [[n-plectic geometry]] of the notion of [[Heisenberg Lie algebra]] in [[symplectic geometry]].
+
+The Heisenberg Lie $n$-algebra [[Lie integration|integrates]] to the _[[Heisenberg n-group]]_.
 
 
 ## Definition
