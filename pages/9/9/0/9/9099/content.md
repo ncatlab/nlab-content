@@ -95,7 +95,7 @@ By the argument in ([Witten98](#Witten98)) the above relation holds when we inte
 
 The nonabelian 7d action functional this obtained contains the following two examples as summands.
 
-### Nonabelain $p_2$ theory on String 2-connections 
+### Nonabelian $p_2$ theory on String 2-connections 
  {#OnString2Connections}
 
 The [[second fractional Pontryagin class]] 
@@ -254,7 +254,7 @@ $$
   \,.
 $$
 
-In fact, such a lift is _in particural_ a [[G2-manifold]] structure on $X$: the intermediate lift 
+In fact, such a lift is _in particular_ a [[G2-manifold]] structure on $X$: the intermediate lift 
 
 $$
   \array{
@@ -282,7 +282,7 @@ $$
   }
 $$
 
-in imposes a [[higher geometric quantization|higher prequantization]] of the form $\omega_4 \in \Omega^4(X)$ this defined, which _in particular_ says that $\omega_4$ is closed, hence defines an "integral $G_2$-structure", hence a [[G2-manifold]] structure.
+imposes a [[higher geometric quantization|higher prequantization]] of the form $\omega_4 \in \Omega^4(X)$ this defined, which _in particular_ says that $\omega_4$ is closed, hence defines an "integral $G_2$-structure", hence a [[G2-manifold]] structure.
 
 Finally notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the curvature of the [[supergravity C-field]] in interpretations of this setup in [[topological M-theory]] or generally the [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]] on a 4-[[sphere]] down to $X$.
 
@@ -390,6 +390,7 @@ In
  {#deBoerEtAl}
 
 this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
+
 
 Discussion for [[weak G2-holonomy]] is in 
 
