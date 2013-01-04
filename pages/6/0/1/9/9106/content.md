@@ -1,0 +1,13 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An issue in the [[phenomenology]] and [[model (in theoretical physics)|model building]], notably in the [[standard model of particle physics]].
+
+## References
+
+* [[Matthew Strassler]], _The Hierarchy Problem_ ([web](http://profmattstrassler.com/articles-and-posts/particle-physics-basics/the-hierarchy-problem/))
+
