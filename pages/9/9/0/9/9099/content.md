@@ -162,7 +162,7 @@ $$
 
 where $CS(A) \in \Omega^3(X)$ is the [[Chern-Simons form]] of $A$. This, or some suitable globalization of this, has been considered as an [[action functional]] for 7-dimensional Chern-Simons-type theory in ([Donaldson-Thomas](#DonaldsonThomas)) and ([Baulieu-Losev-Nekrasov](#BaulieuLosevNekrasov)). This appears as an action functional in [[topological M-theory]] ([deBoer et al](#deBoerEtAl)).
 
-To refine this to an [[extended Lagrangian]] and then fully globalize the action functional we can ask for a [[higher geometric quantization|higher geometric prequantization]] of $\omega_4$, regarded as a [[n-plectic structure]], by a [[prequantum n-bundle|prequantum 3-bundle]] $\hat \mathbf{G}_2$
+To refine this to an [[extended Lagrangian]] and then fully globalize the action functional we can ask for a [[higher geometric quantization|higher geometric prequantization]] of $\omega_4$, regarded as a [[n-plectic structure|3-plectic structure]], by a [[prequantum n-bundle|prequantum 3-bundle]] $\hat \mathbf{G}_2$
 
 $$
   \array{
@@ -191,6 +191,10 @@ $$
 for the universal differential characteristic map which is the [[Lie integration]] of $\langle-,-\rangle$ (as discussed at _[[differential string structure]]_), hence the [[extended Lagrangian]] for ordinary [[3d Chern-Simons theory|3d]] $G$-[[Chern-Simons theory]], then an [[extended Lagrangian]] for the above [[action functional]] is given by the [[cup product in ordinary differential cohomology]]
 
 $$
+  \exp\left( 
+   2 \pi i \int_{\Sigma_7} [\Sigma_7, \hat {\mathbf{G}}_4 \hat \cup \hat \mathbf{S}]
+  \right)
+  \;\colon\;
   X 
   \times
   \mathbf{B}G_{conn}
@@ -205,99 +209,23 @@ $$
 
 (This is an cup product extended Lagrangian of the kind considered in ([FSSIII](#FSSIII)).)
 
-Notice that if we let $\hat \mathbf{G}_2(\mathbb{R}^7)$ be a [[higher geometric quantization|higher geometric prequantization]] of the [[Hodge dual]] $\omega_4^0 : \mathbb{R}^7 \to \Omega^4_{cl}$ of the [[associative 3-form]] on the [[Cartesian space]] $\mathbb{R}^7$, hence a lift in
 
-$$
-  \array{ 
-    && \mathbf{B}^3 U(1)_{conn}
-    \\
-    & {}^{\mathllap{\hat \mathbf{G}_2(\mathbb{R}^7)}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
-    \\
-    \mathbb{R}^7 &\stackrel{\omega_4^0}{\to}& \Omega^4_{cl}
-  }
-  \,,
-$$
+Notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the [[field strength]] of the [[supergravity C-field]] in interpretations of this setup in [[M-theory on G2-manifolds]].
 
-and if we write 
-
-$$
-  \mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
-  \subset
-  \mathbf{QuantMorph}(\hat \mathbf{G}_2(\mathbb{R}^7))
-  \in 
-  Grpd(Smooth\infty Grpd)
-$$
-
-for the corresponding [[Heisenberg ∞-group]] (the sub-[[∞-group]] of the [[quantomorphism ∞-group]] on the transformation that covers [[Hamiltonian n-plectomorphisms]] which are [[linear maps]]]), hence so that the canonical extension map is
-
-$$
-  \mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
-  \to 
-  G_2
-  \to 
-  O(7)
-  \,,
-$$
-
-then a [[higher geometric quantization|higher prequantization]] of $\omega_4 \in \Omega^4_{cl}$ is equivalently a [[lift of the structure group]] $\hat \tau_X$ of the [[tangent bundle]] $\tau_X$ through this [[∞-group extension]]
-
-$$
-  \array{
-    && \mathbf{B}\mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
-    \\
-    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
-    \\
-    X 
-    &\stackrel{\tau_X}{\to}&
-    \mathbf{B}GL(7)
-  }
-  \,.
-$$
-
-In fact, such a lift is _in particular_ a [[G2-manifold]] structure on $X$: the intermediate lift 
-
-$$
-  \array{
-    && \mathbf{B}G_2
-    \\
-    & {}^{\mathllap{\tilde \tau_X}}\nearrow & \downarrow
-    \\
-    X 
-    &\stackrel{\tau_X}{\to}&
-    \mathbf{B}GL(7)
-  }
-$$
-
-is a [[G2-structure]] and then the further lift
-
-$$
-  \array{
-    && \mathbf{B}\mathbf{Heis}(\hat \mathbf{G}_2(\mathbb{R}^7))
-    \\
-    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
-    \\
-    X 
-    &\stackrel{\tilde\tau_X}{\to}&
-    \mathbf{B}G_2
-  }
-$$
-
-imposes a [[higher geometric quantization|higher prequantization]] of the form $\omega_4 \in \Omega^4(X)$ this defined, which _in particular_ says that $\omega_4$ is closed, hence defines an "integral $G_2$-structure", hence a [[G2-manifold]] structure.
-
-Finally notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the curvature of the [[supergravity C-field]] in interpretations of this setup in [[topological M-theory]] or generally the [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]] on a 4-[[sphere]] down to $X$.
-
-Notice that the above does not really need $X$ to be a [[G2-manifold]] to go through, a manifold with [[weak G2 holonomy]] is just as well. 
-
-Indeed, a choice of [[higher geometric quantization|higher prequantization]] of $\omega_4 \in \Omega^4_{cl}(\mathbb{R}^7)$ is nothing but a choice of 3-form $\phi \in \Omega^3(\mathbb{R}^7)$ such that $d \phi = \omega_4$ (since on the [[contractible topological space|contractibled]] [[Cartesian space]] every circle 3-bundle is necessarily trivializable and hence the only remaining data is the connection, given by a globally defined 3-form). Now if we choose this $\phi$ furthermore such that 
+Moreover, the above considerations do not really need $X$ to be a [[G2-manifold]] to go through, a manifold with [[weak G2 holonomy]] is just as well, hence equipped with $\phi \in \Omega^3(X)$ such that 
 
 $$
   \omega_4 = \lambda \star \phi
 $$
 
-then this is a structure of a weak $G_2$-holonomy. And by the very definition of the [[Heisenberg n-group]] a [[lift of the structure group]] of $X$ to that 3-group is equivalently a choice of [[circle n-bundle with connection|circle 3-bundle with connection]] on $X$ such that there is a cover by $\mathbb{R}^7$s such that on each of these -- and hence on all of $X$ -- this relation is fulfilled. Hence such that $X$ is equipped with weak $G_2$-holonomy.
+and
 
-According to ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)) such a 3-connection on a weak $G_2$-holonomy $X$ is consistently interpreted as the [[supergravity C-field]] for suitable compactification of [[M-theory on G2-manifolds|M-theory on weak G2-manifolds]].
+$$
+ d \phi = \omega_4
+ \,.
+$$
 
+This arises from [[Freund-Rubin compactifications]] with [[cosmological constant]] $\lambda$ ([Bilal-Derendinger-Sfetsos](#BilalDerendingerSfetsos)). 
 
 
 ## Related concepts
