@@ -21,6 +21,8 @@ Yet more explicitly, the wide pullback of a family of coterminal morphisms $f_i\
 
 Binary wide pullbacks are the same as ordinary [[pullbacks]], a.k.a. fiber products.
 
+Of course, a **wide pushout** is a wide pullback in the opposite category.
+
 ## Properties
 
 * A category has wide pullbacks (of all [[small category|small]] cardinalities) if and only if it has (binary) [[pullbacks]] and [[cofiltered limits]].
@@ -60,3 +62,5 @@ From products and equalizers, we can get arbitrary limits.
 
 [[!redirects wide pullback]]
 [[!redirects wide pullbacks]]
+[[!redirects wide pushout]]
+[[!redirects wide pushouts]]
