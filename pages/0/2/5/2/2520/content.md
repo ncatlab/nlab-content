@@ -104,18 +104,19 @@ $$
 
 This is of particular interst, again, if it is _local_. In fact, in this context now we can also ask that it is "extended" in the sense of [[extended topological quantum field theory]]: that we have an action functional not only in top dimension, being a function, but also in codimension 1, being a [[prequantum bundle]], and in higher codimension, being a [[prequantum n-bundle]].
 
-This is notably the case for all (higher) gauge theoris of [[schreiber:infinity-Chern-Simons theory]] type, such as ordinary [[Chern-Simons theory]] and such as ordinary [[Dijkgraaf-Witten theory]], as well as its higher generalizations. In these cases the action functional $\exp(i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}]$ arises itself from [[transgression]] of an extended [[Lagrangian]] that is defined on the universal [[moduli stack]] of gauge field configurations $\mathbf{B}G_{conn}$ itself, namely from a [[universal characteristic class]] in higher nonabelian [[differential cohomology]] of the form
+This is notably the case for all (higher) gauge theoris of [[schreiber:infinity-Chern-Simons theory]] type, such as ordinary [[Chern-Simons theory]] and such as ordinary [[Dijkgraaf-Witten theory]], as well as its higher generalizations. In these cases the action functional $\exp(i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}]$ arises itself from [[transgression]] of an [[extended Lagrangian]] that is defined on the universal [[moduli stack]] of gauge field configurations $\mathbf{B}G_{conn}$ itself, namely from a [[universal characteristic class]] in higher nonabelian [[differential cohomology]] of the form
 
 $$
   \mathbf{L} \colon \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
   \,.
 $$
 
-Here $\mathbf{B}^n U(1)_{conn}$ is the universal smooth moduli stack for [[circle n-bundles with connection]]. Such a morphism of moduli stacks locally takes a [[connection on a bundle|connection]] [[differential form]] $A$ to a [[Chern-Simons form]] $CS(A)$, but globally it sends the underlying [[principal bundle]] to a [[circle n-group|circle (n-1)-group]] [[principal ∞-bundle]] and accordingly acts globally on the connection. Alternatively, one may think of this whole morphism as modulating a [[prequantum circle n-bundle]] on the universal moduli stack $\mathbf{B}G_{conn}$ of [[gauge fields]] itself. 
+Here $\mathbf{B}^n U(1)_{conn}$ is the universal [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack]] for [[circle n-bundles with connection]]. Such a morphism of moduli stacks locally takes a [[connection on a bundle|connection]] [[differential form]] $A$ to a [[Chern-Simons form]] $CS(A)$, but globally it sends the underlying [[principal bundle]] to a [[circle n-group|circle (n-1)-group]] [[principal ∞-bundle]] and accordingly acts globally on the connection. 
+This is hence a fully local [[Lagrangian]]: an _[[extended Lagrangian]]_. Alternatively, one may think of this whole morphism as modulating a [[prequantum circle n-bundle]] on the universal moduli stack $\mathbf{B}G_{conn}$ of [[gauge fields]] itself. 
 
-For instance for ordinary [[Chern-Simons theory]] here $n = 3$ $G$ is a [[semisimple Lie group]] and $\mathbf{L}$ is a smooth and differential refinement of the [[first Pontryagin class]]/[[second Chern class]], or of an integral multiple of that (the "level" of the theory). In this case $\mathbf{L}$ may also be thought of as modulating the universal [[Chern-Simons circle 3-bundle]]. If instead $G$ is a [[discrete group]] then $\mathbf{L}$ is a [[cocycle]] in the $U(1)$-[[group cohomology]] and this is the extended Lagrangian of [[Dijkgraaf-Witten theory]].
+For instance for ordinary [[Chern-Simons theory]] here $n = 3$ $G$ is a [[semisimple Lie group]] and $\mathbf{L}$ is a smooth and differential refinement of the [[first Pontryagin class]]/[[second Chern class]], or of an integral multiple of that (the "level" of the theory). In this case $\mathbf{L}$ may also be thought of as modulating the universal [[Chern-Simons circle 3-bundle]]. If instead $G$ is a [[discrete group]] then $\mathbf{L}$ is a [[cocycle]] in the $U(1)$-[[group cohomology]] and this is the [[extended Lagrangian]] of [[Dijkgraaf-Witten theory]].
 
-This extended Lagrangian becomes an extended action functional [[transgression]]: the operaton of [[fiber integration in ordinary differential cohomology]] refines to a morphism of moduli stacks of the form
+This [[extended Lagrangian]] becomes an extended action functional after [[transgression]]: the operaton of [[fiber integration in ordinary differential cohomology]] refines to a morphism of moduli stacks of the form
 
 $$
   \exp(2 \pi i \int_{\Sigma_k} (-))
