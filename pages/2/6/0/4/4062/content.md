@@ -102,3 +102,4 @@ There is a version of the mate correspondence that applies to [[two-variable adj
 
 [[!redirects mates]]
 [[!redirects mate correspondence]]
+[[!redirects mates correspondence]]
