@@ -72,7 +72,7 @@ The realization of [[Yang-Mills theory]] that describes [[quarks]] and their int
 ##### Scattering amplitudes
  {#QCDScatteringAmplitudes}
 
-* [[twistor string theory]] explains some Yang-Mills [[scattering amplitudes]]
+* [[twistor string theory]] explains some ([[N=4 D=4 super Yang-Mills theory|super]]) [[Yang-Mills theory]] [[scattering amplitudes]]
 
 * Precision scattering amplitudes in [[QCD]] use [[twistor string theory]] [[on-shell recursion]] methods:
 
