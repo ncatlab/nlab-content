@@ -26,6 +26,102 @@
 
 The case of [[higher dimensional Chern-Simons theory]] in [[dimension]] 7.
 
+## Examples
+
+### Abelian theory
+
+A basic 7d [[higher dimensional Chern-Simons theory]] is the abelian theory, whose [[extended Lagrangian]] $\mathbf{L}$ is the [[diagonal]] of the [[cup product in ordinary differential cohomology]] 
+
+$$
+  \mathbf{L}_{\mathbf{DD}\cup \mathbf{DD}}
+  \colon
+  \mathbf{B}^3 U(1)_{conn}
+  \stackrel{\Delta}{\to}
+  \mathbf{B}^3 U(1)_{conn}
+  \times
+  \mathbf{B}^3 U(1)_{conn}
+  \stackrel{\widehat {\cup}}{\to}
+  \mathbf{B}^7 U(1)_{conn}
+  \,.
+$$
+
+The [[transgression]] of this to [[codimension]] 0 hence for $\Sigma_7$ a [[closed manifold]] of [[dimension]] 7 is the [[action functional]]
+
+$$
+  \exp\left(  
+    2 \pi i \int_{\Sigma_7}
+    [\Sigma_7, \mathbf{L}_{\mathbf{DD}\cup \mathbf{DD}}]
+  \right)
+  \;\colon\;
+  [\Sigma_7, \mathbf{B}^3 U(1)_{conn}]
+  \to 
+  U(1)
+  \,.
+$$
+
+A [[gauge field]] configuration 
+
+$$
+  \phi \;\colon\; \Sigma_7 \to \mathbf{B}^3 U(1)_{conn}
+$$
+
+here is a [[circle n-bundle with connection|circle 3-bundle with connection]]. In the special case that the underlying [[circle 3-group]] [[principal 3-bundle]] is trivializable and trivialized, this is equivalently a [[differential 3-form]] $C \in \Omega^3(\Sigma_7)$ and the above [[action functional]] takes this to the simple explression
+
+$$
+  C \mapsto \exp\left(2 \pi i \int_{\Sigma_7}  C \wedge d C\right)
+  \in U(1)
+  \,,
+$$
+
+where in the [[exponent]] we have the [[integration of differential forms]] over the [[wedge product]] of $C$ with its [[de Rham differential]]. On general field configurations the action functional is the suitable globalization of this expression.
+
+
+In ([Witten 96](#WittenI)), ([Witten 98](#Witten)) a slight refinement of this construction (a  [[quadratic refinement]] induced by an [[integral Wu structure]]) was argued to be the [[holographic principle|holographic dual]] to the [[self-dual higher gauge theory]] of the abelian self-dual 2-form gauge field in the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]]. The issue of the quadratic refinement was discussed in more detail in ([HopkinsSinger](#HopkinsSinger)). A refinement to [[extended Lagrangians]] as above is discussed in ([FSSII](#FSSII)).
+
+By the argument in ([Witten98](#Witten98)) the above relation holds when we interpret the fields $\phi \colon : \Sigma_7 \to \mathbf{B}^3 U(1)_{conn}$ as the [[supergravity C-field]] after [[Kaluza-Klein mechanism|compactification]] on a 4-[[sphere]] in the [[AdS-CFT|AdS7-CFT6]] setup. By the discussion at [[11-dimensional supergravity]] this field is in general not simply a 3-connection as above but receives corrections by a [[Green-Schwarz mechanism]] and "flux quantization" which give it non-abelian components. This, and the resulting non-abelian generalization of the above extended Lagrangian is discussed in ([FSSI](#FSSI), [FSSII](#FSSII)).
+
+The nonabelian 7d action functional this obtained contains the following two examples as summands.
+
+### Nonabelain $p_2$ theory on String 2-connections 
+
+The [[second fractional Pontryagin class]] 
+
+$$
+  [\tfrac{1}{6}p_2] \in H^8(B String, \mathbb{Z})
+$$
+ 
+has a smooth and differential refinement (see at _[[twisted differential fivebrane structure]]_) to an [[extended Lagrangian]]
+
+$$
+  \tfrac{1}{2}\hat \mathbf{p}_2
+  \;\colon\;
+  \mathbf{B}String_{conn}
+  \to 
+  \mathbf{B}^7 U(1)_{conn}
+  \,.
+$$
+
+where the domain is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli 2-stack]] of [[String 2-group]] [[connection on a 2-bundle|principal 2-connections]] (see at _[[differential string structure]]_ for more).
+
+The [[transgression]] of this to codimension 0 yields an [[action functional]]
+
+$$
+  \exp\left(
+    2 \pi i \int_{\Sigma_7}
+    [\Sigma_7, \tfrac{1}{6}\hat \mathbf{p}_2]
+  \right)
+  \;\colon\;
+  [\Sigma_7, \mathbf{B}String_{conn}]
+  \to 
+  U(1)
+$$
+
+on string 2-connection fields. This is part of the quantum-corrected and flux-quantized extended action functional of the [[supergravity C-field]] in [[11-dimensional supergravity]] by the analysis in ([FSSII](#FSSII)).
+
+### On a $G_2$ manifold
+
+(...)
+
 ## Related concepts
 
 * [[higher dimensional Chern-Simons theory]]
@@ -62,6 +158,7 @@ and argued to be the [[holographic principle|holographic dual]] to the [[self-du
 The precise formulation of this functional in terms of [[differential cohomology]] and [[integral Wu structure]] was given in 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
 
 ### On $G_2$-manifolds
 
@@ -85,6 +182,10 @@ this is put into the context of [[topological M-theory]] (see around equation (2
 In 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+ {#FSSI}
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ 
+ {#FSSII}
 
 the 7d Chern-Simons action obtained by [[Kaluza-Klein reduction|compactifying]] [[11-dimensional supergravity]] including the quantum corrections of the [[supergravity C-field]] on a 4-sphere (the [[AdS-CFT|AdS7/CFT6]] setup) is considered and refined to an [[extended Lagrangian]]. It contains the [Donaldson-Thomas](#DonaldsonThomas)-functional $\int_X CS(A) \wedge G_4$ as one summand and the [Witten](#WittenI)-functional as another.
 
