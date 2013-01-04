@@ -47,6 +47,8 @@ The $N=1$-version alternatively from [[M-theory on G2-manifolds]].
 
   * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
+  * [[Freund-Rubin compactification]]
+
 * [[3-dimensional supergravity]]
 
 
