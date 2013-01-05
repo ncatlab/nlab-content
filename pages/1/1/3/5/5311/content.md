@@ -41,12 +41,12 @@ Let $G$ be a finite subgroup of the multiplicative group $k^\ast$ of a field $k$
 ###### Proof 
 Let $e$ be the _exponent_ of $G$, i.e., the smallest $n \gt 0$ such that $g^n = 1$ for all $g \in G$, and let $m = order(G)$. Then each element of $G$ is a root of $x^e - 1$, so that $\prod_{g \in G} (x - g)$ divides $x^e - 1$, i.e., $m \leq e$. But of course $g^m = 1$ for all $g \in G$, so $e \leq m$, and thus $e = m$. 
 
-This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2} \ldots p_k^{r_k}$. Since $e$ is the least common multiple of the orders of elements, there is (for each $i$) an element whose order is divisible by $p_i^{r_i}$, and some power $y_i$ of that element will have order exactly $p_i^{r_i}$. Then $y = \prod_i y_i$ will have order $e = m$ by the following lemma, so that powers of $y$ exhaust all $m$ elements of $G$, i.e., $y$ generates $G$ as desired. 
+This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2} \ldots p_k^{r_k}$. Since $e$ is the least common multiple of the orders of elements, there is (for each $i$) an element whose order is divisible by $p_i^{r_i}$, and some power $y_i$ of that element will have order exactly $p_i^{r_i}$. Then $y = \prod_i y_i$ will have order $e = m$ by the following lemma and induction, so that powers of $y$ exhaust all $m$ elements of $G$, i.e., $y$ generates $G$ as desired. 
 =-- 
 
 +-- {: .un_lem}
 ###### Lemma 
-If $m, n$ are relatively prime and $x$ has order $m$ and $y$ has order $n$ in an abelian group, then $x y$ has order $m n$. (More generally, if $m_1, \ldots, m_k$ are pairwise relatively prime and $y_i$ has order $m_i$ in an abelian group, then $y = \prod_i y_i$ has order $\prod_i m_i$. The proof is by induction.)  
+If $m, n$ are relatively prime and $x$ has order $m$ and $y$ has order $n$ in an abelian group, then $x y$ has order $m n$. 
 =-- 
 
 +-- {: .proof} 
