@@ -1,5 +1,5 @@
 
-{:bluebox: .un_remark style="border:solid #E6DF13;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
 
@@ -21,13 +21,26 @@
 =--
 =--
 
+A set of lecture notes on [[differential geometry]] and theoretical [[physics]], combining an introduction to traditional notions with an exposition of their reformulation and refinement by [[higher geometry]] and [[extended prequantum field theory]].
+
+Divided into two parts:
+
+* **Part I) [Geometry](#GEOMETRY)**
+
+* **Part II) [Phsics](#PHYSICS)**
+
+***
+
 
 +-- {: bluebox}
-###### Table of chapters
+###### Table ######
+**of chapters**
 
-* [About this page](#AboutThisPage)
+* [About this text](#AboutThisPage)
 
-**I) [Geometry](#GEOMETRY)**
+* [References](#References)
+
+**Part I) [Geometry](#GEOMETRY)**
 
 1. [Coordinate systems](#CoordinateSystems)
 
@@ -65,7 +78,7 @@
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
-**II) [Phsics](#PHYSICS)**
+**Part II) [Phsics](#PHYSICS)**
 
 1. [Fields](#Fields)
 
@@ -82,12 +95,13 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 
-## About this page
+## About this text
  {#AboutThisPage}
 
 This page is going to contain an introduction to aspects of [[differential geometry]] and their application in fundamental [[physics]]: the [[gauge theory]] appearing in the [[standard model of particle physics]] and the [[Riemannian geometry]] appearing in the [[standard model of cosmology]], as well as the [[symplectic geometry]] appearing in the [[quantization]] of both.
@@ -8236,8 +8250,11 @@ So far we have discussed [[higher prequantum field theory]]: [[Lagrangians]] and
 
 
 ## **References**
+ {#References}
 
-### General
+
+### General 
+ {#ReferencesGeneral}
 
 A textbook with basic introductions to [[differential geometry]] and [[physics]] is
 
@@ -8265,6 +8282,7 @@ An exposition and survey of matters related to [[Chern-Simons theory]] and [[hig
  {#FiorenzaSatiSchreiberCSIntroAndSurvey}
 
 ### Differential forms and parallel transport
+ {#DifferentialFormsAndParallelTransport}
 
 The relation between differential 1-forms and smooth incremental path measures as used above is discussed in 
 
