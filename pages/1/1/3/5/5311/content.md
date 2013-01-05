@@ -46,7 +46,7 @@ This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2}
 
 +-- {: .un_lem}
 ###### Lemma 
-If $m, n$ are relatively prime and $x$ has order $m$ and $y$ has order $n$ in an abelian group, then $x y$ has order $m n$. 
+If $m, n$ are relatively prime and $x$ has order $m$ and $y$ has order $n$ in an abelian group, then $x y$ has order $m n$. (More generally, if $m_1, \ldots, m_k$ are pairwise relatively prime and $y_i$ has order $m_i$ in an abelian group, then $y = \prod_i y_i$ has order $\prod_i m_i$. The proof is by induction.)  
 =-- 
 
 +-- {: .proof} 
