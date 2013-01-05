@@ -86,9 +86,18 @@ Ours is the age to figure this out.
 
 * [[renormalization]]
 
-* [[AQFT]], [[FQFT]]
+* [[AQFT]], [[FQFT]], [[extended quantum field theory]]
+
+  * [[topological quantum field theory]]
+
+* [[prequantum field theory]]
+
+  * [[Lagrangian]], [[extended Lagrangian]], [[action functional]]
+
+* [[geometry of physics]]
 
 * [[QFT on non-commutative spacetime]]
+
 
 ## References
 
