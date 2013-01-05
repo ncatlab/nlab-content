@@ -168,6 +168,8 @@ Various examples are discussed at
 
 ## Related concepts
 
+[[!include extended prequantum field theory - table]]
+  
 
 
 ## References
