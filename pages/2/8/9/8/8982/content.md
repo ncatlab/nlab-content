@@ -30,7 +30,7 @@ On a [[local topos]] $\mathbf{H}$ acts a [[comonad]] $\flat$, being the [[left a
 
 ## Related concepts
 
-* [[Pi modality]] $\dashv$ flat modality $\dashv$ [[sharp modality]]
+[[!include cohesion - table]]
 
 ## References
 
