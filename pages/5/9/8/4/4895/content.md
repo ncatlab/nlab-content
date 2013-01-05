@@ -438,3 +438,5 @@ See [[holographic principle of higher category theory]] for more on this.
 [[!redirects holographic duality]]
 
 [[!redirects holography]]
+[[!redirects holographic dual]]
+[[!redirects holographic duals]]
