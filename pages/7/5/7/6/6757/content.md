@@ -91,9 +91,18 @@ $$
 * [[prequantum circle n-bundle]]
 
 
+[[!include extended prequantum field theory - table]]
+
+
+* [[geometric quantization]], [[higher geometric quantization]]
+
+
+
 ## References
 
-For the moment see _[[geometric quantization]]_ for more.
+Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
+
+* _[[geometry of physics]]_
 
 
 [[!redirects prequantum line bundles]]
