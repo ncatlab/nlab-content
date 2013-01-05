@@ -30,3 +30,7 @@ The actual space of [[states]] is, after a choice of [[polarization]], hence of 
 
 [[!redirects prequantum spaces of states]]
 [[!redirects prequantum space of states]]
+
+[[!redirects space of quantum states]]
+[[!redirects spaces of quantum states]]
+
