@@ -251,6 +251,12 @@ which was however mostly ignored and forgotten. It is taken up again in
 [[!redirects local net of observables]]
 [[!redirects local nets of observables]]
 
+[[!redirects net of quantum observables]]
+[[!redirects nets of quantum observables]]
+[[!redirects local net of quantum observables]]
+[[!redirects local nets of quantum observables]]
+
+
 [[!redirects causal net]]
 [[!redirects causal nets]]
 [[!redirects causal net of algebras]]
