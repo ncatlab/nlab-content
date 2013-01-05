@@ -1,4 +1,8 @@
 
+{:bluebox: .un_remark style="border:solid #E6DF13;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
+
 > This page is growing incrementally as a lecture series proceeds.
 
 ***
@@ -17,11 +21,13 @@
 =--
 =--
 
-**Table of chapters**
+
++-- {: bluebox}
+###### Table of chapters
 
 * [About this page](#AboutThisPage)
 
-**I) Geometry**
+**I) [Geometry](#GEOMETRY)**
 
 1. [Coordinate systems](#CoordinateSystems)
 
@@ -59,7 +65,7 @@
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
-**II) Phsics**
+**II) [Phsics](#PHYSICS)**
 
 1. [Fields](#Fields)
 
@@ -67,11 +73,13 @@
 
 1. [Equations of motion](#EquationsOfMotion)
 
-1. [Chern-Simons Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+
+1. [Quantum mechanics](#QuantumMechanics)
 
 1. [Geometric quantization](#GeometricQuantization)
 
-1. [Quantum mechanics](#QuantumMechanics)
+=--
 
 
 #Contents#
@@ -400,6 +408,51 @@ There are of many more constructions in fundamental ([[quantum theory|quantum]])
 $\,$
 
 We now end this introduction and overview and turn to the in-depth account of _geometry of physics_.
+
+
++-- {: bluebox #GEOMETRY}
+###### 
+
+**I) Geometry**
+
+1. [Coordinate systems](#CoordinateSystems)
+
+1. [Smooth spaces](#SmoothSpaces)
+
+1. [Differential forms](#DifferentialForms)
+
+1. [Differentiation](#Differentiation)
+
+1. [Smooth homotopy types](#SmoothnGroupoids)
+
+1. [Groups](#NGroups)
+
+1. [Principal bundles](#PrincipalBundles)
+
+1. [Orbifolds](#Orbifolds)
+
+1. [Reduction of structure groups](#ReductionOfStructureGroups)
+
+1. [Representations and Associated bundles](#AssociatedNBundle)
+
+1. [Flat connections](#FlatConnections)
+
+1. [de Rham coefficients](#deRhamCoefficients)
+
+1. [Maurer-Cartan forms](#MaurerCartanForms)
+
+1. [Principal connections](#PrincipalConnections)
+
+1. [Characteristic classes](#CharacteristicClasses)
+
+1. [Integration](#Integration)
+
+1. [Structure sheaves](#StructureSheaves)
+
+1. [Super-geometry](#SupergeometricCoordinateSystems)
+
+=--
+
 
 ## **Coordinate systems**
  {#CoordinateSystems}
@@ -7893,6 +7946,115 @@ here $\mathbf{L}$ is the [[Lagrangean]].
 (...)
 
 
+## **Super-geometry**
+ {#SupergeometricCoordinateSystems}
+
+### Model Layer
+
+The premise in [The continuum real world line](#TheContinuumRealWorldLine) is now refined to
+
+**Premise.** The abstract worldline of a [[fermionic particle]] is a $\mathbb{Z}_2$-[[odd line|graded]] [[formal manifold|formal neighbourhood]] $\mathbb{R}^{1|n}$ of the [[real line]], for some $n \in \mathbb{N}$.
+
+For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
+
+
+* [[supermanifold]]
+
+#### Fermion
+
+* [[fermion]]
+
+
+### Semantic Layer
+
+#### Super cohesion
+
+* [[super infinity-groupoid]]
+
+* [[smooth super infinity-groupoid]]
+
+### Syntactic Layer
+
+(...)
+
+
++-- {: bluebox #PHYSICS}
+###### 
+
+**II) Physics**
+
+1. [Fields](#Fields)
+
+1. [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)
+
+1. [Equations of motion](#EquationsOfMotion)
+
+1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+
+1. [Geometric quantization](#GeometricQuantization)
+
+1. [Quantum mechanics](#QuantumMechanics)
+
+
+=--
+
+## **Fields**
+
+A survey is in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) and in ([Schreiber lecture 12](#TwistedCohomologyLecture))
+
+### Model layer
+
+(...)
+
+### Semantics layer
+
+(...)
+
+### Syntax layer
+
+(...)
+
+## Lagrangians and Action functionals
+ {#LagrangiansAndActionFunctionals}
+
+* [[Lagrangian]], [[extended Lagrangian]]
+
+* [[action functional]]
+
+* [[sigma-model]]
+
+### Model layer
+
+(...)
+
+### Semantics layer
+
+(...)
+
+### Syntax layer
+
+(...)
+
+## Equations of motion
+ {#EquationsOfMotion}
+ 
+* [[equations of motion]], [[Euler-Lagrange equations]]
+
+* [[critical locus]], [[derived critical locus]]
+
+* [[Einstein equations]], [[Maxwell equations]], [[Yang-Mills equations]]
+
+### Model layer
+
+(...)
+
+### Semantics layer
+
+(...)
+
+### Syntax layer
+
+(...)
 
 
 
@@ -8002,69 +8164,12 @@ $$
 
 
 
-## **Geometric quantization**
- {#GeometricQuantization}
-
-### Model Layer
-
-#### 1-Geometric quantization
-
-* [[geometric quantization]]
-
-#### Quantum 3d Chern-Simons theory for compact simple gauge group
-
-* [[Reshetikhin-Turaev construction]], [[Turaev-Viro construction]]
-
-* [[conformal blocks]]
-
-#### Higher geometric quantization
-
-* [[higher geometric quantization]]
-
-
-### Semantics Layer
-
-* [[n-plectic smooth infinity-groupoid]]
-
-
-### Syntactic Layer
-
-(...)
-
-
-## **Super-geometry**
- {#SupergeometricCoordinateSystems}
-
-### Model Layer
-
-The premise in [The continuum real world line](#TheContinuumRealWorldLine) is now refined to
-
-**Premise.** The abstract worldline of a [[fermionic particle]] is a $\mathbb{Z}_2$-[[odd line|graded]] [[formal manifold|formal neighbourhood]] $\mathbb{R}^{1|n}$ of the [[real line]], for some $n \in \mathbb{N}$.
-
-For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
-
-
-* [[supermanifold]]
-
-#### Fermion
-
-* [[fermion]]
-
-
-### Semantic Layer
-
-#### Super cohesion
-
-* [[super infinity-groupoid]]
-
-* [[smooth super infinity-groupoid]]
-
-### Syntactic Layer
-
-(...)
-
 ## **Quantum mechanics**
  {#QuantumMechanics}
+
+So far we have discussed [[higher prequantum field theory]]: [[Lagrangians]] and their induced [[action functionals]] and [[prequantum n-bundles]]. Now we turn to actual [[quantum field theory]]. A [[prequantum field theory]] is supposed to induce a [[quantum field theory]] under the last step of [[higher geometric quantization]]: a choice of [[polarization]] (or equivalent) and the passage to the corresponding [[space of states]] of polarized [[sections]] of the [[prequantum n-bundles]]. This step that connections [[prequantum field theory]] with [[quantum field theory]] we discuss below in _[Geometric Quantization](#GeometricQuantization)_.
+
+* [[quantum mechanics]]
 
 ### Model Layer
 
@@ -8097,6 +8202,39 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 * [[directed homotopy type theory]]
 
 
+## **Geometric quantization**
+ {#GeometricQuantization}
+
+### Model Layer
+
+#### 1-Geometric quantization
+
+* [[geometric quantization]]
+
+#### Quantum 3d Chern-Simons theory for compact simple gauge group
+
+* [[Reshetikhin-Turaev construction]], [[Turaev-Viro construction]]
+
+* [[conformal blocks]]
+
+#### Higher geometric quantization
+
+* [[higher geometric quantization]]
+
+
+### Semantics Layer
+
+* [[n-plectic smooth infinity-groupoid]]
+
+
+### Syntactic Layer
+
+(...)
+
+
+
+
+
 ## **References**
 
 ### General
@@ -8118,7 +8256,8 @@ An introductory discussion with much overlap with the above discussion is in sec
 
 Another introductory discussion along the above lines of aspects in [[gravity]] and [[higher gauge theory]] motivated from [[string theory]] is in 
 
-* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, ESI (2012)
+* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, Lectures notes at _Quantum Fields and twisted K-theory_, ESI (2012)
+ {#TwistedCohomologyLecture}
 
 An exposition and survey of matters related to [[Chern-Simons theory]] and [[higher geometric quantization]] is in 
 
