@@ -23,4 +23,13 @@ See _[[characteristic class]]_ for more.
 
 * [[cohomology operation]]
 
+
+[[!include extended prequantum field theory - table]]
+
+
 [[!redirects universal characteristic classes]]
+
+
+
+[[!redirects universal characteristic map]]
+[[!redirects universal characteristic maps]]
