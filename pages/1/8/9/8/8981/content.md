@@ -28,8 +28,7 @@ On a [[local topos]] $\mathbf{H}$ acts a [[monad]] $\sharp$ corresponding to the
 
 ## Related concepts
 
-* [[Pi modality]] $\dashv$ [[flat modality]] $\dashv$ sharp modality
-
+[[!include cohesion - table]]
 
 ## References
 
