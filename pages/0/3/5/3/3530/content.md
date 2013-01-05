@@ -10,14 +10,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-**Crystalline cohomology** is the [[abelian sheaf cohomology]] with respect to the _[[crystalline site]]_ of a [[scheme]].
+**Crystalline cohomology** is the [[abelian sheaf cohomology]] with respect to the _[[crystalline site]]_ of a [[scheme]]. Hence, put more generally, it is the [[cohomology]] of [[de Rham spaces]]/[[coreduced objects]].
 
-It serves to refine the notion of [[de Rham cohomology]] for [[scheme]]s.
+Crystalline cohomology serves to refine the notion of [[de Rham cohomology]] for [[schemes]].
 
 Crystalline cohomology is in particular a [[Weil cohomology]] and is generalized by the notion of [[rigid cohomology]].
 
