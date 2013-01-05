@@ -378,6 +378,10 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 * [[Weinstein symplectic category]]
 
+* [[prequantum field theory]]
+
+  * [[prequantum circle n-bundle]]
+
 * [[quantization]]
 
   * [[deformation quantization]]
