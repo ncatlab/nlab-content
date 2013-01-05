@@ -2,6 +2,8 @@
 **[[geometric quantization]]**
 **[[higher geometric quantization]]**
 
+[[geometry of physics]]: _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ + _[Geometric Quantization](geometry+of+physics#GeometricQuantization)_
+
 ## Prerequisites
 
 * [[symplectic geometry]], [[higher symplectic geometry]]
@@ -11,31 +13,49 @@
   * [[symplectic infinity-groupoid]]
 
 
-## Basic concepts
+## Prequantum field theiry
 
-* [[prequantum line bundle]], [[prequantum circle n-bundle]]
+* [[prequantum field theory]]
 
-  * [[contact manifold]]
+* [[prequantum circle n-bundle]] = [[extended Lagrangian]]
+ 
+  * prequantum 1-bundle = [[prequantum circle bundle]], regular[[contact manifold]],[[prequantum line bundle]] = lift of [[symplectic form]] to [[differential cohomology]]
 
-* [[quantomorphism group]]
+  * [[prequantum 0-bundle]] = [[action functional]]
+
+* [[quantomorphism group]], [[quantomorphism n-group]]
 
   * [[symplectomorphism]], [[contactomorphism]]
 
   * [[Poisson algebra]], [[Hamiltonian vector field]]
 
-* [[space of states (in geometric quantization)|space of states]]
+## Geometric quantization
 
-* [[quantum operator (in geometric quantization)|quantum operator]]
 
-* [[polarization]], [[Bohr-Sommerfeld leaf]]
+* [[polarization]]
 
-* [[metaplectic correction]]
+  * [[metaplectic correction]]
+
+  * [[Bohr-Sommerfeld leaf]]
+
+  * [[orientation in generalized cohomology]]
 
 * [[quantization]]
 
-## Further methods
+  * [[geometric quantization]]
 
-* [[coherent state (in geometric quantization)]]
+  * [[geometric quantization by push-forward]]
+
+  * [[geometric quantization of symplectic groupoids]]
+
+  * [[geometric quantization of non-integral forms]]
+
+* [[space of states (in geometric quantization)|space of states]]
+
+  * [[coherent state (in geometric quantization)|coherent state]]
+
+* [[quantum operator (in geometric quantization)|quantum operator]]
+
 
 ## Theorems
 
