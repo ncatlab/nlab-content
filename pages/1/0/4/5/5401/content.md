@@ -9,7 +9,7 @@
 =--
 =--
 
-See:
+Entries discussing aspects of _cohesion_ include the following
 
 * [[motivation for cohesion]],
 
@@ -17,7 +17,10 @@ See:
 
 * [[cohesive homotopy type theory]],
 
-* [[cohesive (∞,1)-topos]].
+* [[cohesive (∞,1)-topos]]
+
+[[!include cohesion - table]]
+
 
 
 
