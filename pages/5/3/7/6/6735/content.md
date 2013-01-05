@@ -58,7 +58,7 @@ Beware, therefore, that the innocent-looking difference between the terms
 
 corresponds, unfortunately, to a major difference in the behaviour of the concepts behind these terms.
 
-In conclusion, it is clear that 2-brane physics is governed by Lie 3-algebraic structures, but it is not yet clear how the trincary operation highlighted by [BaggerLambert](#BaggerLambert) would be an example.
+In conclusion, it is clear that 2-brane physics is governed by Lie 3-algebraic structures, but it is not yet clear how the trinary operation highlighted by [BaggerLambert](#BaggerLambert) would be an example.
 
 In view of this it might be noteworthy that the equivalent reformulation and generalization of the BLG model by the [[ABJM model]] does not involve any "3-algebras" at all. 
 
