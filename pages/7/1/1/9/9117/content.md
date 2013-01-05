@@ -1,0 +1,9 @@
+
+**[[extended prequantum field theory]]**
+
+|  $0 \leq k \leq n$ | [[transgression]] to [[dimension]] $k$ |
+|--|--|
+| $0$ |  [[extended Lagrangian]], [[universal characteristic map]]  |
+| $k$ | (off-shell) [[prequantum n-bundle|prequantum (n-k)-bundle]] |
+| $n-1$  | (off-shell) [[prequantum circle bundle]]  |
+| $n$ | [[action functional]] = [[prequantum 0-bundle]]
