@@ -156,15 +156,16 @@ A large class of examples of action functionals arises in [[schreiber:∞-Chern-
 
 * [[effective action functional]], [[background field formalism]]
 
-* [[geometry of physics]]
+[[!include extended prequantum field theory - table]]
+
 
 ## References
 
-### Traditional theory
 
-(...)
+Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
 
-### Extended higher action functionals
+* _[[geometry of physics]]_ .
+
 
 Discussion of extended higher local action functional for (higher) gauge theories of generalized [[schreiber:∞-Chern-Simons theory]] type are discussed in
 
