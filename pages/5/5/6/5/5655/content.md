@@ -19,6 +19,8 @@
 
 A _formal smooth manifold_ is a [[smooth manifold]] equipped possibly with [[infinitesimal object|infinitesimal extension]].
 
+In the [[differential cohesion]] of [[synthetic differential infinity-groupoids]] these are the spaces locally isomorphic to $\mathbb{R}^n \times D$, where $\mathbb{R}^n$ is a [[Cartesian space]] and $D$ is an [[infinitesimally thickened point]]. Here $\mathbb{R}^n$ is the underlying [[reduced object|reduced]] manifold.
+
 ## References
 
 Section I.17 and I.19 of
