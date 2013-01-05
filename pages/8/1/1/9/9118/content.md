@@ -1,0 +1,60 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesion
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] a _coreduced object_ is one all whose [[infinitesimal space|infinitesimal]] paths are constant. 
+
+## Definition
+
+A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
+
+$$
+  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \,,
+$$
+
+where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
+
+A **coreduced object** or **coreduced type** is one in the [[full subcategory]] defined by the middle modality $&#643;_{inf}$. 
+
+## Examples
+
+* A coreduced [[scheme]] is also called a [[de Rham space]]. The [[cohomology]] over such is [[crystalline cohomology]], the [[quasicoherent sheaves]] over these define [[D-geometry]].
+
+## Related concepts
+
+[[!include cohesion - table]]
+
+* [[formally smooth morphism]], [[formally etale morphism]], [[formally unramified morphism]]
+
+
+
+[[!redirects coreduced objects]]
+
+[[!redirects coreduced type]]
+[[!redirects coreduced types]]
+
+[[!redirects coreduced space]]
+[[!redirects coreduced spaces]]
