@@ -19,14 +19,7 @@
 
     * [[rigid body dynamics]]
 
-
-* **[[classical field theory|Classical Field Theory]]**
-
-  * [[classical physics]]
-
-    * [[classical mechanics]]
-    * [[waves]] and [[optics]]
-    * [[thermodynamics]]
+* [[field (physics)]]
 
   * [[Lagrangian mechanics]]
 
@@ -65,6 +58,14 @@
       * [[supergravity]], [[dilaton gravity]]
 
       * [[black hole]]
+
+* **[[classical field theory|Classical field theory]]**
+
+  * [[classical physics]]
+
+    * [[classical mechanics]]
+    * [[waves]] and [[optics]]
+    * [[thermodynamics]]
  
 * **[[quantum mechanics|Quantum Mechanics]]**
   
