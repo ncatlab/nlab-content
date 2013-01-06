@@ -70,6 +70,9 @@ $$
 
 See at _[[higher geometric quantization]]_ for more on this.
 
+## Related concepts
+
+* [[theory (physics)]]
 
 ## References
 
