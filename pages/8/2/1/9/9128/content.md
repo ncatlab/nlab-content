@@ -28,4 +28,14 @@ The most accurate general theory of fundamental physics known is _[[quantum fiel
 
 Beware that, therefore, the use of the terms _theory_ and _model_ in [[physics]] is not unrelated to but is _different_ from the same terms as used in [[logic]] (see at [[theory (logic)]] and [[model (logic)]]).
 
+## Examples
+
+One way of classifying physical theories is by the extent to which they take [[quantum physics]] into account. We have
+
+* [[classical field theory]]
+
+* [[prequantum field theory]]
+
+* [[quantum field theory]]
+
 
