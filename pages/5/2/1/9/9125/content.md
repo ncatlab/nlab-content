@@ -51,9 +51,9 @@ While this goes in the right direction, it cannot be quite the final answer for 
    
    This is not a negligible problem. For instance the [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors, see at _[[instanton in QCD]] for more.
 
-   Similarly for instance [[magnetic charge]], field in [[higher Chern-Simons theoy]] and in many other examples are not describeable, in total, as sections of some field bundle.
+   Similarly for instance [[magnetic charge]], field in [[higher dimensional Chern-Simons theoy]] and in many other examples are not describeable, in total, as sections of some field bundle.
 
-1. In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalent|gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
+1. In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
 
 1. Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
 
@@ -67,6 +67,7 @@ Below in _[Definition](Definition)_ we discuss a natural unified formulation of 
  {#Definition}
 
 ### Physical field
+ {#DefinitionPhysicalField}
 
 A notion of _field_ in physics is part of a specification of _[[theory (physics)|physical theory]]_ or _[[model (physics)|physical model]]_. We consider specifically the framework of [[prequantum field theory]]. Here a [[theory (physics)|theory]]/[[model (physics)|model]] is specified by (or at least comes with) an _[[action functional]]_. The _field_ content of the theory is part of the specification of the [[domain]] of the action functional. Therefore in def. \ref{FieldsInAnActionFunctional} below we define _action functionals_ and the fields relative to this notion.
 
@@ -161,8 +162,34 @@ The above says in particular that in [[higher geometry]] all fields are [[sigma-
 
 ### Restriction and pullback of physical fields
 
-(...)
 
++-- {: .num_remark #PullbackAlongGeneralizedLocalDiffeomorphisms}
+###### Remark
+
+Since by def. \ref{FieldsInAnActionFunctional} a physical field is a map $\phi \colon \Phi_X \to \mathbf{Fields}$ in 
+$\mathbf{H}_{/\mathbf{BgFields}}$, it may be "pulled back" along maps  of [[spacetime]]/[[worldvolume]] $f \colon Y \to X$ when these are extended to maps $\Phi_Y \to \Phi_X$ in $\mathbf{H}_{/\mathbf{BgFields}}$ of the [[background fields]], hence to [[diagrams]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    Y &&\stackrel{f}{\to}&& X
+    \\
+    & {}_{\mathllap{\Phi_Y}}\searrow &\swArrow_{\kappa}& \swarrow_{\mathrlap{Phi_X}}
+    \\
+    && 
+    \mathbf{BgFields}
+  }
+  \,,
+$$
+
+hence maps $f : X \to Y$ equipped with a choice of [[equivalence]] 
+
+$$
+  \kappa ;\colon\; f^*\Phi_X \simeq \Phi_Y 
+$$
+
+between the [[background fields]].
+
+=--
 
 
 ## Examples
@@ -264,9 +291,26 @@ $$
   \mathbf{H}
 $$
 
-is the [[moduli stack]] of [[Riemannian metrics]] on $X$. Every such is a field configuration of ordinary [[gravity]] on $X$. 
+is the [[moduli stack]] of [[Riemannian metrics]] on $X$. Every such is a field configuration of ordinary [[gravity]] on $X$. (But see example \ref{GenerallyCovariantFieldOfGravity} below.)
+
+According to 
+remark \ref{PullbackAlongGeneralizedLocalDiffeomorphisms} such fields pull back along map $f \colon Y \to X$ that fit into a diagram
+
+$$
+  \array{
+    Y &&\stackrel{f}{\to}&& X
+    \\
+    & {}_{\mathllap{\tau_Y}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\tau_X}}
+    \\
+    && \mathbf{B}GL(n)
+  }
+  \,.
+$$ 
+
+These are precisely [[local diffeomorphisms]] and indeed these are precisely the maps along which [[vielbein]] fields / [[pseudo-Riemannian metric]] fiedls pull back. (Pullback along [[smooth functions]] may not preserve the non-degeneracy of a metric tensor, but precisely the local diffeomorphisms do.)
 
 =--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -343,7 +387,7 @@ between local connection 1-form components.
 
 But both these examples do not fully accurately reflect the field content of [[gravity]] yet. This is because the [[theory (physics)|theory]] of [[gravity]] is supposed to by [[general covariance|generally covariant]]. This means that for two [[vielbein]] field configurations as in example \ref{RiemannianVielbein} such that one goes into the other under a [[diffeomorphism]] of [[spacetime]] $X$, there is a [[gauge transformation]] between them.
 
-+-- {: .num_example}
++-- {: .num_example #GenerallyCovariantFieldOfGravity}
 ###### Example
 
 Write $\mathbf{Diff}(X) \coloneqq \mathbf{Aut}(X) \in Grp(\mathbf{H})$ for the [[diffeomorphism group]] of the [[smooth manifold]] $X$. There is then the canonical [[∞-action]] of the [[automorphism ∞-group]] $\mathbf{Diff}(X)$ on $X$ itself, exhibited by the universal [[associated ∞-bundle]]
@@ -355,7 +399,7 @@ $$
   \,.
 $$
 
-This induces an [[∞-action]] also on the [[tangent bundle]]
+This induces also an [[∞-action]] also on the [[tangent bundle]].
 
 Moreover the trivial bundle
 
@@ -372,11 +416,13 @@ corresponds to the trivial action.
 Then
 
 $$
-  \underset{\mathbf{B}(GL(n) \times \mathbf{Diff}(X))}{\prod} [\tau_X, \mathbf{Fields}]
+  \underset{\mathbf{B}Diff(n)}{\sum}
+  \underset{\mathbf{B}(GL(n))}{\prod} 
+  [\tau_X, \mathbf{Fields}]
  \in \mathbf{H}
 $$
 
-is the accurate space of fields in gravity. 
+is the accurate space of [[general covariance|generally covariant]] fields of [[gravity]]. 
 
 =--
 
@@ -485,6 +531,10 @@ $$
 Section _[Fields](geometry%20of%20physics#Fields)_ in 
 
 * _[[geometry of physics]]_
+
+An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (infinity,1)-toposes]] is in section 4 of 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
 
 [[!redirects quantum field]]
 [[!redirects quantum fields]]
