@@ -20,7 +20,7 @@
 
 ## Definition
 
-For $n \in \mathbb{Z}$,  the $n$-**Betti number** of a [[chain complex]] $V$ (of [[module]]s over a [[ring]] $R$ ) is the [[rank]] 
+For $n \in \mathbb{Z}$,  the $n$-**Betti number** of a [[chain complex]] $V$ (of [[module]]s over a [[ring]] $R$) is the [[rank]] 
 
 $$
   b_n(V) := rk_R H_n(V)
