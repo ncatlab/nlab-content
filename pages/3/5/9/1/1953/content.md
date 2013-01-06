@@ -224,6 +224,7 @@ In particular, setting $R = k$ we have that an object of the form $Spec S$ is fo
 
 **formally smooth morphism** and [[formally unramified morphism]] $\Rightarrow$ [[formally étale morphism]].
 
+[[!include cohesion - table]]
 
 ## References
 
