@@ -97,3 +97,5 @@ which is surveyed in
 
 * Katarzyna Rejzner, _The BV formalism applied to classical gravity_ ([pdf](http://rejzner.com/talks/Karlsruhe2011.pdf))
 
+
+[[!redirects Einstein gravity]]
