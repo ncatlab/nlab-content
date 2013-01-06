@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[algebra]]. For the different concept of the same name in [[differential geometry]] see at _[[vector field]]_ and in [[physics]] see at _[[classical field theory]]_ and _[[quantum field theory]]_.
+> This entry is about the notion in [[algebra]]. For the different concept of the same name in [[differential geometry]] see at _[[vector field]]_ and in [[physics]] see at _[[field (physics)]]_.
 
 ***
 
