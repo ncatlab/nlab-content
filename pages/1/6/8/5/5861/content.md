@@ -1576,8 +1576,6 @@ $$
 
 ## Related concepts
 
-* [[cohesion]], [[differential cohesion]]
-
 * [[differential homotopy type theory]]
 
 [[!include cohesion - table]]
