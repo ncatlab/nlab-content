@@ -32,6 +32,12 @@ A basic example of a gauge field that has higher order gauge transformations is 
 For more see at _[[geometry of physics]]_.
 
 
+## Related concepts
+
+* [[higher gauge theory]]
+
+* [[higher homotopy]]
+
 [[!redirects higher gauge transformations]]
 [[!redirects gauge-of-gauge transformation]]
 [[!redirects gauge-of-gauge transformations]]
