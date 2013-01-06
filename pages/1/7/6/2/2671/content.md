@@ -20,14 +20,17 @@
 
 ## Idea
 
-Gravity is a [[gauge theory]] over the  [[Poincare group]].
+A [[field (physics)|field]] configuration of the [[physical theory]] of _gravity_ on a [[spacetime]] $X$ is equivalently
 
-The gravitational field on a [[spacetime]] $X$ is a [[connection on a bundle|connection]] that is locally a [[Lie algebra-valued 1-form]] with values in the [[Poincare Lie algebra]].
+* a [[vielbein]] field, hence a [[reduction of the structure group]] of the [[tangent bundle]] along $\mathbf{B} O(n-1,1) \to \mathbf{B}GL(n)$, defining a [[pseudo-Riemannian metric]];
 
-$$
-  (E, \Omega) : T X \to \mathfrak{iso}(d-1,1)
-  \,.
-$$
+* a [[connection on a bundle|connection]] that is locally a [[Lie algebra-valued 1-form]] with values in the [[Poincare Lie algebra]].
+
+  $$
+    (E, \Omega) : T X \to \mathfrak{iso}(d-1,1)
+  $$
+
+  such that this is a [[Cartan connection]].
 
 (This parameterization of the gravitational field is called the [[first-order formulation of gravity]].) The component $E$ of the connection is the [[vielbein]] that encodes a [[pseudo-Riemannian metric]] $g = E \cdot E$ on $X$ and makes $X$ a [[pseudo-Riemannian manifold]]. Its quanta are the [[graviton]]s.
 
