@@ -1,4 +1,8 @@
 
+> This entry is about the notion in [[logic]]. For the notion of the same name in [[physics]] see at _[[theory (physics)]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -233,3 +237,5 @@ In [[Coq]] theories are specified with the
 * _[[Gallina specification language]]_.
 
 [[!redirects theories]]
+
+[[!redirects theory (logic)]]
