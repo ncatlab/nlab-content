@@ -74,8 +74,7 @@ So **extended phase spaces _localizes_ the information about states** : a point 
 
 Consider [[classical field theory]] over a **parameter space** $\Sigma$. From the point of view of [[FQFT]] $\Sigma$ will be one fixed [[cobordism]] on which we want to understand the (classical) field theory.
 
-We assume that a **field configuration** on $\Sigma$ is a [[section]] 
-$\phi : \Sigma \to E$ of some prescribed [[bundle]] $E \to \Sigma$. 
+We assume that a **[[field (physics)|field configuration]]** on $\Sigma$ is a [[section]]  $\phi : \Sigma \to E$ of some prescribed [[bundle]] $E \to \Sigma$: the _[[field bundle]]_. 
 
 **Example.** For instance an $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $\Sigma$ are given by maps 
 
