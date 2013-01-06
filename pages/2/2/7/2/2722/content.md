@@ -9,9 +9,28 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc} 
+
+## Definition
 
 A __vector field__ is a [[section]] of a [[vector bundle]].
 
-More specifically, a vector field is a _[[tangent vector field]]_ which is a [[section]] of a [[tangent bundle]] (and many other equivalent things).
+More specifically, a vector field is a _[[tangent vector field]]_ which is a [[section]] of a [[tangent bundle]]. Equivalently this is a rank $(1,0)$-[[tensor field]] on $X$
+
+## Related concepts
+
+* [[differential form]]
+
+* [[field (physics)]]
+
+## References
+
+For instance section 1.3 and 1.4 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+  
+
 
 [[!redirects vector fields]]
