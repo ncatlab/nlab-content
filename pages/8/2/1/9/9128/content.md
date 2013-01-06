@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] the term _theory_ or _physical theory_ traditionally refers, somewhat vaguely, to a given set of notions and rules, usually formulated in the language of [[mathematics]], that describe how some [[physical system]] or class of physical systems behaves. Typically these systems are highely idealized, in that the theories describe only certain aspects.
+
+Often a given such theory depends on many free parameters. When a choice of such parameters is made or the range of the parameters is being, restricted one tends to call the result a _[[model (in theoretical physics)]]_.
+
+For instance classical [[gravity]] is a physical theory which asserts that [[spacetime]] is modeled by a [[pseudo-Riemannian manifold]] equipped with certain further [[force]] and [[matter]] [[field (physics)|fields]], such that this data satisfies [[Einstein equations]]. But if one furthermore specifies a particular such pseudo-Riemannian manifold etc. one may call this a _model_ of [[gravity]]/[[cosmology]]. The _[[FRW model]]_ is an example: here one specifies in particular that the given pseudo-Riemannian metric and the [[matter]] [[field (physics)|field]] content is homogenous and isotropic.
+
+The most accurate general theory of fundamental physics known is _[[quantum field theory]]_. The best available choices of parameters in this general theory that make it fit the specifics of the observed world ([[phenomenology]]) are [[model (in theoretical physics)|models]] which accordingly are called the _standard models_: there is the _[[standard model of particle physics]]_ and the _[[standard model of cosmology]]_.
+
+
+Beware that, therefore, the use of the terms _theory_ and _model_ in [[physics]] is not unrelated to but is _different_ from the same terms as used in [[logic]] (see at [[theory (logic)]] and [[model (logic)]]).
+
+
