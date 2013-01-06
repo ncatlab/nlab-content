@@ -20,7 +20,7 @@
 
 ## Idea 
 
-The **electromagnetic field** is a [[gauge field]]. A configuration of the **electromagnetic field** on a space $X$ in the _absence_ of [[magnetic charge]] is modeled by a [[cocycle]] $\hat F$ in degree 2 [[ordinary differential cohomology]].
+The **electromagnetic field** is is a [[gauge field|gauge]] [[field (physics)|field]] which unifies the [[electric field]] and the [[magnetic field]]. A configuration of the **electromagnetic field** on a space $X$ in the _absence_ of [[magnetic charge]] is modeled by a [[cocycle]] $\hat F$ in degree 2 [[ordinary differential cohomology]].
 
 This may be realized in particular equivalently by
 
