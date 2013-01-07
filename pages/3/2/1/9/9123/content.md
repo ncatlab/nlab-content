@@ -32,7 +32,7 @@ $$
   \,,
 $$
 
-where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] adn $&#643;_{inf}$ is an [[idempotent monad]].
+where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
 
 Here $\flat_{inf}$ is the **infinitesimal flat modality**. 
 
