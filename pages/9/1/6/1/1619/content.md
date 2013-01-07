@@ -391,3 +391,4 @@ For discussion of String-structures using 3-classes on total spaces see for inst
 [[!redirects string-structure]]
 
 [[!redirects string structures]]
+[[!redirects String structures]]
