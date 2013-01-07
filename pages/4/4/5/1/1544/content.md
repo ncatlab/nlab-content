@@ -370,7 +370,7 @@ See [[connection on a principal ∞-bundle]].
 
   * [[nonabelian Stokes theorem]]
 
-
+[[!include gauge field - table]]
 
 ## References
 
