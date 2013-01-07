@@ -450,6 +450,7 @@ is the corresponding [[curvature characteristic form]].
 
 * [[Chern-Simons form]]
 
+[[!include gauge field - table]]
 
 
 ## References
