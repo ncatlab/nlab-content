@@ -72,3 +72,5 @@ Section _[Fields](geometry%20of%20physics#Fields)_ at
 
 * _[[geometry of physics]]_
 
+
+[[!redirects field bundles]]
