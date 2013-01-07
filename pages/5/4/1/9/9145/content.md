@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+=--
+=--
+
+
+_Lie differentiation_  is the process reverse to [[Lie integration]].
+
+For ordinary [[Lie theory]] see at _[[Lie's three theorems]]_.
+
+For [[infinity-Lie theory]] see at _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+differential+infinity-groupoid#LieDifferentiation)_ .
+
+
+
