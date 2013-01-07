@@ -259,6 +259,9 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 
 * [[ghost field]], [[ghost-of-ghost field]]
 
+[[!include gauge field - table]]
+
+
 ## References
 
 The idea of "ghost" fields was introduced in 
