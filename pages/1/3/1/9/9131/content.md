@@ -28,7 +28,7 @@ The [[de Rham complex]] of the [[jet bundle]] of the field bundle, equipped with
 +-- {: .num_remark}
 ###### Remark
 
-The notion of field bundle captures only some aspects of the general notion of spaces of physical fields. See at _[[field (physics)]]_ in the section _[The idea of field bundles and its problems](field+%28physics%29#IdeaOfFieldBundlesAndItsProblems)_.
+The notion of field bundle captures only some aspects of the general notion of spaces of physical fields. For instance the configurations of the _[[B-field]]_ do not form sections of a fiber bundle (but of a [[fiber infinity-bundle|fiber 2-bundle]]) and hence for instance the [magnetic charge anomaly](magnetic+charge#MagneticChargeAnomaly) has no real description by field bundles. See at _[[field (physics)]]_ in the section _[The idea of field bundles and its problems](field+%28physics%29#IdeaOfFieldBundlesAndItsProblems)_ for more.
 
 =--
 
