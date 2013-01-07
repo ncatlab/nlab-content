@@ -43,4 +43,5 @@ Often gauge fields are _named_ after their field strength. For instance the fiel
 [[!include gauge field - table]]
 
 
+[[!redirects field strengths]]
 
