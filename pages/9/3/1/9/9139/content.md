@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[gauge theory]] in [[physics]] a [[field (physics)|field configuration]] is modeled, in [[mathematics]]-terminology by a [[connection on a bundle|connection]] $\nabla$ on a [[principal bundle]] $P$ (or some [[associated bundle]]). In [[physics]]-terminology the connection $\nabla$ is sometimes called the **gauge potential** (while the [[equivalence class]] of $P$ is called the [[instanton sector]] and the [[curvature]] $F_\nabla$ is called the [[field strength]]).
+
+Specfically in _[[electromagnetism]]_ one also speaks of [[electromagnetic potential]] or _[[vector potential]]_.
+
+## Related concepts
+
+[[!include gauge field - table]]
+
+[[!redirects gauge potentials]]
+
+ 
