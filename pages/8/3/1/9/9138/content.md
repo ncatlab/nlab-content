@@ -1,0 +1,65 @@
+## Definition
+
++-- {: .un_defn}
+###### Definition
+A [[partial monoid|partial commutative monoid]] (PCM) consists of a set $M$ with a zero element $0 \in  M$ and a partial binary operation $\vee : M \times M \to M$ satisfying the three requirements below. They involve the notation $x \perp y$ for: $x \vee y$ is defined; in that case $x, y$ are called orthogonal.
+
+1. Commutativity: $x\perp y$ implies $y\perp x$ and $x\vee y=y\vee x$.
+
+1. Associativity: $y\perp z$ and $x\perp(y\vee z)$ implies $x\perp y$ and $(x\vee y)\perp z$ and $x\vee (y\vee z)=(x\vee y)\vee z$.
+
+1. Zero: $0\perp x$ and $0\vee x=x$
+
+(p.22)
+=--
+
++-- {: .un_defn}
+###### Definition
+An *effect algebra* is a PCM $(E,0,\vee)$ with an orthocomplement. The latter is a unary operation $(-)^\perp :E\to E$ satisfying:
+
+1.  $x^\perp\in E$ is the unique element in $E$ with $x\vee x^\perp=1$, where $1=0^\perp$.
+
+1. $x\perp 1\Rightarrow x=0$.
+
+For such an effect algebra one defines:
+
+$$x\wedge y:=(x^\perp\vee y^\perp)^\perp$$
+
+and
+
+$$x\le y:\Leftrightarrow \exists_z.x\vee z=y$$
+
+and
+
+
+$$y\ominus x=z:\Leftrightarrow y=x\vee z$$
+ (p. 23)
+=--
+
+
++-- {: .un_remark}
+###### Remark
+If we consider
+
+$$(-)\ominus y:up(y)\to down(y^\perp)$$
+
+and
+
+$$(-)\vee y:down(y^\perp)\to up$$
+
+as functors between [[Poset|posets]] we have [[nLab:adjunctions]]
+
+$$((-\wedge y)\dashv (-\ominus y)\dashv (-\wedge y)$$
+
+Hence these functors are a [[nLab:Frobenius functor|frobenius pair]].
+
+ (p.25)
+=--
+
+## Application
+
+In [new directions](#new_directions) the approach to categorical logic where the substrate carrying the logical notions are [[nLab:Heyting algebra|Heyting algebras]] of [[nLab:subobject|subobjects]] in a [[nLab:topos]] is replaced by a new one where the substrate is [[effect algebra of predicates|effect algebras (of predicates)]] in [[extensive category|extensive categories]] 
+
+## Reference
+
+* Bart Jacobs, New Directions in Categorical Logic, for Classical, Probabilistic and Quantum Logic, 2012, [arXiv:1205.3940 ](http://arxiv.org/abs/1205.3940){# new_directions}
