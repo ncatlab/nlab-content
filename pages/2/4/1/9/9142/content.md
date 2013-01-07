@@ -1,0 +1,4 @@
+
+A [[diffeomorphism]] that preserves a [[conformal structure]].
+
+[[!redirects conformal transformations]]
