@@ -309,6 +309,11 @@ $$
 
 and this find the usual expression of the [[curvature]] of a connection as the square of the covariant derivative.
 
+## Related concepts
+
+[[!include gauge field - table]]
+
+
 ## References
 
 A discussion of covariant derivatives for a [[Levi-Civita connection]] in terms of [[synthetic differential geometry]] is in
