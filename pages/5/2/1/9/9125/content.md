@@ -443,6 +443,21 @@ $$
 #### **I b)** Gauge fields
  {#GaugeFields}
 
+The term _gauge field_ in _[[gauge theory]]_ with respect to a [[gauge group]] $G$ refers to fields which are modeled by [[connection on a bundle|connections]] either on $G$-[[principal bundles]] or on [[associated bundles]] for these. The notion of [[equivalence]] between two such fields (hence between [[connections on bundles]]) is the original meaning of the word _[[gauge transformation]]_, even though that term is also used for equivalences between fields which are not modeled by connections.
+
+We discuss the general notion of gauge fields and then various special cases and variants.
+
+### General gauge field
+
+$$
+  \mathbf{BgFields} = *
+$$
+
+$$
+  \mathbf{Fields} = \mathbf{B}G_{conn}
+$$
+
+
 ##### Electromagnetic field
 
 [[electromagnetic field]]:
@@ -536,8 +551,15 @@ An exposition of the general formulation of fields in terms of [[moduli stacks]]
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
 
+[[!redirects physical field]]
+[[!redirects physical fields]]
+
 [[!redirects quantum field]]
 [[!redirects quantum fields]]
+
+[[!redirects gauge field]]
+[[!redirects gauge fields]]
+
 
 [[!redirects field configuration]]
 [[!redirects field configurations]]
