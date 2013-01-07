@@ -38,3 +38,9 @@ Often gauge fields are _named_ after their field strength. For instance the fiel
 
 * [[electromagnetic field strength]]
 
+## Related concepts
+
+[[!include gauge field - table]]
+
+
+
