@@ -947,6 +947,8 @@ $$
 ### Lie differentiation
  {#LieDifferentiation}
 
+We sketch how to formalize [[Lie differentiation]] in the context of synthetic differential $\infty$-groupoids.
+
 Let
 
 $$
