@@ -776,6 +776,9 @@ In fact, the history of the development of the theory of principal bundles and [
 
 * [[n-vector bundle]]
 
+[[!include gauge field - table]]
+
+
 ## References
  {#References}
 
