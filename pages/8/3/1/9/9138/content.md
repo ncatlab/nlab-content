@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[quantum mechanics]] a [[self-adjoint operator]] $A$ on the given [[Hilbert space]] such that its [[spectrum]] lies between 0 and 1 is sometimes called an _effect_ or _quantum effect_ (see e.g. ([Ludwig](#Ludwig), ([Kraus](#Kraus))). These operators generalize [[projection operators]] and may be thought of as [[quantum observables]] with "unsharp" or "fuzzy" value. 
+In [[quantum mechanics]] a [[self-adjoint operator]] $A$ on the given [[Hilbert space]] such that its [[spectrum of an operator|spectrum]] lies between 0 and 1 is sometimes called an _effect_ or _quantum effect_ (see e.g. ([Ludwig](#Ludwig), ([Kraus](#Kraus))). These operators generalize [[projection operators]] and may be thought of as [[quantum observables]] with "unsharp" or "fuzzy" value. 
 
 The notion of _effect algebra_ (due to ([Foulis-Bennet 94](#FoulisBennet))) is an abstraction of the structure exhibited by the collection of such effect operators. 
 
