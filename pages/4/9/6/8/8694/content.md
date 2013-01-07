@@ -17,7 +17,7 @@
 
 The [[electromagnetic field]] on a [[spacetime]] $X$ is mathematically modeled by a [[circle bundle with connection]] $\nabla$ on $X$. If the underlying bundle is trivial, or else on local [[coordinate patches]] $\mathbb{R}^n \hookrightarrow X$ over which it is so, this [[connection on a bundle|connection]] is equivalently a [[differential 1-form]] $A \in \Omega^1(\mathbb{R}^n)$. 
 
-This is then called the **electromagnetic potential** of the [[electromagnetic field]] (sometimes: "vector potential"). 
+This is then called the **electromagnetic potential** of the [[electromagnetic field]] (sometimes: "vector potential" or "[[gauge potential]] of the electromagnetic field"). 
 
 Its [[de Rham differential]]
 
