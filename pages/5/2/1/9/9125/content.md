@@ -92,7 +92,7 @@ Notice that instanton sectors are non-negligible phenomena. For instance the ver
      X \times \mathbf{B}G_{conn} \to X
    $$
 
-out of the [[proudct]] of [[spacetime]] with the [[moduli stack]] of fields.
+out of the [[product]] of [[spacetime]] with the [[moduli stack]] of fields.
 
    This is a differential refinement of what is called the trivial _$G$-[[gerbe]]_ on $X$, which is 
 
@@ -398,6 +398,9 @@ The above says in particular that in [[higher geometry]] all fields are [[sigma-
 ### Restriction and pullback of physical fields
  {#RestrictionAndPullback}
 
+It is familiar from basic examples that not every type of physical field on a [[spacetime]]/[[worldvolume]] $X$ can be pulled back (in the sense of pullback of functions) along any [[smooth function]] $f \;\colon\;Y \to X$. For instance the field of [[gravity]], a [[vielbein field]] or [[pseudo-Riemannian metric|pseudo]]-[[Riemannian metric]], discussed below in _[Ordinary graviry](#OrdinaryGravity)_ may be pulled back only along [[local diffeomorphisms]]. More generally, one needs other [[properties]] on $f$ to pull back a given field and in fact in general one needs [[extra structure]]. 
+
+In view of def. \ref{FieldsInAnActionFunctional} above this is immediate: by that definition a field on $X$ in general does not just depend on $X$, but in fact also on the background field structure denoted $\Phi_X$. Accordingly, it can be pulled back only along maps that also carry this background field structure along.
 
 +-- {: .num_remark #PullbackAlongGeneralizedLocalDiffeomorphisms}
 ###### Remark
@@ -427,6 +430,51 @@ between the [[background fields]].
 
 =--
 
+## Properties
+
+### Relation to twisted cohomology
+ {#RelationToTwistedCohomology}
+
+The definition \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of [[cocycles]] in [[cohomology]] and in fact in [[twisted cohomology]] if the [[background field]] is nontrivial.
+
+This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS))
+
+In the [[diagram]] 
+
+$$
+  \array{
+     X &&\stackrel{\phi}{\to}&& \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields}
+     \\
+     & {}_{\mathllap{\Phi_X}}\searrow 
+     &\swArrow& 
+     \swarrow_{\mathrlap{\mathbf{Fields}}}
+     \\
+     && \mathbf{BgFields}
+  }
+$$
+
+of \ref{FieldsInAnActionFunctional} we may equivalently say that
+
+* the object $\mathbf{Fields} \in \matbbf{H}_{/\mathbf{BgFields}}$ is the [[local coefficient ∞-bundle]];
+
+* the [[homotopy fiber]] $V$ of $\underset{\phi \in [X, \mathbf{Fields}]}{\sum}\mathbf{Fields} \to \mathbf{BgFields}$ is the local [[coefficient]] for a [[cohomology]] theory;
+
+* the [[background field]] $\Phi_X$ is the **twist**
+
+* the field $\phi \colon \Phi_X \to \mathbf{Fields}$ is 
+
+  * a [[cocycle]] in $\Phi_X$-[[twisted cohomology]] on $X$ with local [[coefficients]] $V$
+
+  * equivalently: a $\Phi_X$-twisted [[G-structure|V-structure]] on $X$;
+
+* a [[gauge transformation]] is a [[coboundary]] in $\Phi_X$-twisted $V$-cohomology;
+
+* the [[equivalence classes]] of fields are the $\Phi_X$-[[twisted cohomology|twisted]] $V$-[[cohomology]] of [[spacetime]] $X$
+
+  $$
+    H_{[\Phi_X]}(X,V) \simeq \tau_0\Gamma[X,\mathbf{Fields}]_{\mathbf{H}}
+    \,.
+  $$
 
 ## Examples
  {#Examples}
@@ -435,7 +483,7 @@ We distinguish three broad classes of examples of fields as in def. \ref{FieldsI
 
 1. [Force fields](#ForceFields)
 
-   1. [Fields of gravity and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
+   1. [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
 
       In this case the [[background gauge field]] is a [[G-structure]], the [[moduli stack]] of fields is a [[delooping|delooped]] [[∞-group extension]] $\mathbf{B}\hat G \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G$ and a field is a generalized [[vielbein]] exhibiting a [[reduction and lift of structure groups|reduction/lift of structure group]].
 
@@ -454,23 +502,48 @@ Not all examples fall squarely into one of these types, some are mixtures of the
 
 The two classes of [[force]] fields are:
 
-* [Fields of gravity and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry);
+* [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry);
 
 * [Gauge fields](#GaugeFields).
 
 
-#### **I a)** Fields of gravity and generalized geometry
+#### **I a)** Fields of gravity, $G$-Structure and generalized geometry
  {#FieldsOfGravityAndGeneralizedGeometry}
+
+##### **General** -- $G$-structure: (twisted) lift of structure $\infty$-group
 
 Let 
 
 $$
-  A \to \hat G \to G
+  A \to \hat G \stackrel{\mathbf{p}}{\to} G
 $$
 
-be an [[∞-group extension]] in $\mathbf{H}$. Then a [[lift of the structure group]] from $G$ to $\hat G$ is typically interpreted as a field of [[gravity]] and its variants.
+be an [[∞-group extension]] in $\mathbf{H}$. Then for $g_X \colon X \to \mathbf{B}G$ a given $G$-[[principal ∞-bundle]], a [[lift of the structure group]] from $G$ to $\hat G$ is a field
 
-##### Ordinary gravity
+$$
+  \phi \; \colon\; g_X \to \mathbf{B p}
+  \,.
+$$
+
+If the [[∞-extension]] is central in that it extends to a [[homotopy fiber sequence]] of the form
+
+$$
+  \mathbf{B}A \to \mathbf{B}\hat G \stackrel{\mathbf{Bp}}{\to} \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^2 A
+$$
+
+then a [[twisted c-structure]] is a map
+
+$$
+  \phi 
+   \;\colon\;
+  g_X \to \mathbf{c}
+  \,.
+$$
+
+These kinds of fields are interpreted as field of [[gravity]] and its variants.
+
+
+##### Gravity
  {#OrdinaryGravity}
 
 +-- {: .num_defn}
@@ -663,8 +736,26 @@ is the accurate space of [[general covariance|generally covariant]] fields of [[
 =--
 
 
+##### $Spin$-structures
+ {#SpinStructures}
 
-##### Type II gravity and B-field
+* [[spin structure]]
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \mathbf{B}Spin(n) \to \mathbf{B}SO(n)
+$$
+
+##### $Spin^c$-structures
+ {#SpinStructures}
+
+[[spin-c structure]]
+
+
+##### Type II gravity, exceptional geometry
+
+[[type II generalized geometry]]
 
 $$
   \mathbf{Fields} 
@@ -674,10 +765,48 @@ $$
   \mathbf{B}O(n,n)
 $$
 
+[[exceptional generalized geometry]]
 
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \mathbf{B} K_{n}
+  \to 
+  \mathbf{B} E_{n(n)}
+$$
+
+
+
+##### Higher spin structures
+
+[[String structure]]
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}String \to \mathbf{B}Spin
+$$
+
+[[Fivebrane structure]]
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Fivebrane \to \mathbf{B}String
+$$
+
+##### Higher $Spin^c$-structures
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin \stackrel{\tfrac{1}{2}\mathbf{p}_1}{\to} \mathbf{B}^3 U(1)
+$$
 
 #### **I b)** Gauge fields
  {#GaugeFields}
+
+##### **General** -- Coefficients in differential cohomology: $\infty$-connections
 
 The term _gauge field_ in _[[gauge theory]]_ with respect to a [[gauge group]] $G$ refers to fields which are modeled by [[connection on a bundle|connections]] either on $G$-[[principal bundles]] or on [[associated bundles]] for these. The notion of [[equivalence]] between two such fields (hence between [[connections on bundles]]) is the original meaning of the word _[[gauge transformation]]_, even though that term is also used for equivalences between fields which are not modeled by connections.
 
@@ -702,7 +831,7 @@ $$
 $$
 
 
-#### Chern-Simons field with Wilson line
+##### 3d Chern-Simons field with Wilson line
  {#ChernSimonsWithWilsonLines}
 
 [[Chern-Simons theory]] with [[Wilson loops]]
@@ -713,11 +842,58 @@ $$
   \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
 $$
 
+##### Kalb-Ramond $B$-field
+
+[[Kalb-Ramond field]]
+
+$\mathbf{Fields} = \mathbf{B}^2 U(1)_{conn}$
+
+##### Supergravity $C$-field
+
+[[supergravity C-field]]
+
+first approximation:
+
+$\mathbf{Fields} = \mathbf{B}^3 U(1)_{conn}$
+
+full description more subtle ([FSS]())
 
 ### **II)** Matter fields
  {#MatterFields}
 
 [[matter]]
+
+#### **General** -- sections of associated fiber $\infty$-bundles
+ {#SectionsOfAssociatedBundles}
+
+general: [[section]] of $\rho$-[[associated ∞-bundle]]
+
+* $G \in \Grp(\mathbf{H})$ an [[∞-group]];
+
+* [[∞-action]]/[[∞-representation]] of $G$ on $V \in \mathbf{H}$ is equivalently [[homotopy fiber sequence]]
+
+  $$
+    \array{
+      V &\to& V//G
+      \\
+      && \downarrow^{\overline \rho}
+      \\
+      \mathbf{B}G
+    }
+  $$ 
+
+  this is the [[universal associated ∞-bundle]]
+
+
+* for $g_X \colon X \to \mathbf{B}G$ modulating a [[principal ∞-bundle]] $P \to X$ a [[section]] of the [[associated ∞-bundle]] $P \times_G V \to X$ is equivalently a field
+
+  $$
+    \phi : g_X \to \overline{\rho}
+  $$
+  
+  in $\mathbf{H}_{/\mathbf{B}G}$
+
+
 
 #### Fermions
  {#Fermions}
@@ -794,13 +970,24 @@ $$
    \mathbf{B}G_{conn}
 $$
 
+### Fields combining all these properties
+
+#### Twisted differential $\mathbf{c}$-structures
+
+* [[twisted differential C-structure]]
+
+
 ## Related concepts
 
 [[prequantum field theory]]
 
-* **field**
+* **physical field**
+
+  [[gauge field]]
 
 * [[extended Lagrangian]], [[prequantum n-bundle]], [[action functional]]
+
+* [[theory (physics)]]
 
 * [[classical field theory]]
 
@@ -809,13 +996,51 @@ $$
 
 ## References
 
-Section _[Fields](geometry%20of%20physics#Fields)_ in 
+### Lecture notes and expositions
+
+Lecture notes containing the above material are in
 
 * _[[geometry of physics]]_
 
-An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (infinity,1)-toposes]] is in section 4 of 
+An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (∞,1)-toposes]] is in section 4 of 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+
+Lecture notes on fields as discussed here with applications in [[string theory]] are in 
+
+* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, lecture notes at _[K-theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_, ESI program June 2012
+
+An introductory survey is also in section 1.2 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+
+### Original articles
+
+For references on the tradtional formulation of physical fields by sections of _[[field bundles]]_ as discussed [above](#IdeaOfFieldBundlesAndItsProblems) see there references [[field bundle|there]].
+
+The formulation of physical fields as [[cocycles]] in [[twisted cohomology]] in an [[(∞,1)-topos]] as in the _[Definition](#Definition)_-section above originates around
+
+* [[Urs Schreiber]], _[[schreiber:Background fields in twisted differential nonabelian cohomology]]_, talk at _[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]_
+
+Further articles since then are listed at 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+In particular the general notion of fields as [[twisted differential c-structures]] appears in
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+
+and the general theory of [[cohomology]] and [[twisted cohomology]] with [[local coefficient ∞-bundles]] as referred to in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ above as well as the theory of [[associated ∞-bundles]] as in _[Sections of associated ∞-bundles](#SectionsOfAssociatedBundles)_ is laid out in
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+
+Some examples of fields in this sense are called "relative fields" in 
+
+* [[Daniel Freed]], [[Constantin Teleman]], _Relative quantum field theory_ ([arXiv:1212.1692](http://arxiv.org/abs/1212.1692))
+ {#FreedTeleman}
+
+
 
 [[!redirects physical field]]
 [[!redirects physical fields]]
