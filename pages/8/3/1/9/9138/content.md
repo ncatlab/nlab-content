@@ -49,7 +49,7 @@ An *effect algebra* is a PCM $(E,0,\vee)$ with an orthocomplement. The latter is
 
 1. $x\perp 1\Rightarrow x=0$.
 
-For such an effect algebra one defines: $x\wedge y:=(x^\perp\vee y^\perp)^\perp$ and $x\le y:\Leftrightarrow \exists_z.x\vee z=y$ and $y\ominus x=z:\Leftrightarrow y=x\vee z$$
+For such an effect algebra one defines: $x\wedge y:=(x^\perp\vee y^\perp)^\perp$ and $x\le y:\Leftrightarrow \exists_z.x\vee z=y$ and $y\ominus x=z:\Leftrightarrow y=x\vee z$
  (p. 23)
 =--
 
