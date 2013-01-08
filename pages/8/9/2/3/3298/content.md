@@ -2074,6 +2074,8 @@ A review of Deligne's conjecture and its solutions is in
 More developments are in 
 
 * [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
+* Nathalie Wahl, _Universal operations in 
+Hochschild homology_, [arxiv/1212.6498](http://arxiv.org/abs/1212.6498)
 
 
 For references on [[topological chiral homology]] see there.
