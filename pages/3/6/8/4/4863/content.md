@@ -167,3 +167,6 @@ The discussion in the [[first order formulation of gravity]] is given in
 
 [[!redirects Kaluza-Klein reduction]]
 [[!redirects Kaluza-Klein reductions]]
+
+[[!redirects Kaluza-Klein compactification]]
+[[!redirects Kaluza-Klein compactifications]]
