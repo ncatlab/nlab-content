@@ -315,6 +315,8 @@ Fix $\mathbb{G} \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|gro
 
 =--
 
+
+
 For the main definition below we need the following basic notation.
 
 +-- {: .num_defn}
@@ -355,7 +357,7 @@ In this context we say that
 
 * the object $\mathbf{Fields}$ is the **[[moduli ∞-stack]] of fields**;
 
-* the [[elements]] of $[\Phi_X,\mathbf{Fields}]_{\mathbf{H}}$, hence the morphims
+* the [[elements]] of $[\Phi_X,\mathbf{Fields}]_{\mathbf{H}}$, hence (see prop. \ref{GlobalPointsOfModuliOfFields} below) the morphisms
 
   $$
     \phi \;\colon\; \Phi_X \to \mathbf{Fields}
@@ -433,12 +435,13 @@ between the [[background fields]].
 ## Properties
 
 ### Moduli stacks of fields
+ {#ModuliStacksOfFields}
 
 The object $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}} \in \mathbf{H}$
 of def. \ref{FieldsInAnActionFunctional} we may call the 
 [[moduli ∞-stack]] of fields. Here we discuss various properties of this object. 
 
-+-- {: .num_prop}
++-- {: .num_prop #GlobalPointsOfModuliOfFields}
 ###### Proposition
 
 The [[∞-groupoid]] of global [[elements]] of $[X, \mathbf{Fields}]_{\mathbf{H}}$ is 
@@ -457,11 +460,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the $(\mathbf{BgFields}^* \dashv \underset{\mathbf{BgFields}}{\prod})$ [[adjunction]]:
+Using the [[adjunction]] [[equivalences]] we have
 
 $$
   \begin{aligned}
-    \mathbf{H}(*, \[\Phi_X, \mathbf{Fields}]_{\mathbf{H}})
+    \mathbf{H}(*, [\Phi_X, \mathbf{Fields}]_{\mathbf{H}})
     & \simeq
     \mathbf{H}(*, \underset{\mathbf{BgFields}}{\prod} [\Phi_X, \mathbf{Fields}])
     \\
@@ -471,10 +474,45 @@ $$
     \\
     & \simeq \mathbf{H}_{/\mathbf{BgFields}}(\Phi_X, \mathbf{Fields})
   \end{aligned}
+$$
+
+where the first line is the definition, the second is the $(\mathbf{BgFields}^* \dashv \underset{\mathbf{BgFields}}{\prod})$ [[adjunction]]-[[equivalence]], the third is the $(\underset{\mathbf{BgFields}}{\sum} \dashv \mathbf{BgFields}^*)$-adjunction implying that $\mathbf{BgFields}^*$ preserves the [[terminal object]], and finally the last line is the defining [[internal hom]] [[adjunction]]-[[equivalence]]. 
+
+=--
+
++-- {: .num_prop #ModuliStackOfFieldsAsHomotopyFiber}
+###### Proposition
+
+The [[moduli ∞-stack]] of fields $[\Phi_X, \mathbf{BgFields}]_{\mathbf{H}}$ sits in a [[homotopy pullback]] [[diagram]] of the form
+
+$$
+  \array{
+    [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
+    &\stackrel{}{\to}&
+    [X, \underset{\mathbf{BgFields}}{\sum}\mathbf{Fields}]
+    \\
+    \downarrow &\swArrow_{\kappa}& \downarrow
+    \\
+    {*}
+    &\stackrel{\vdash \Phi_X}{\to}&
+    [X, \mathbf{BgFields}]
+  }
   \,.
 $$
 
 =--
+
++-- {: .num_remark #}
+###### Remark
+
+Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic idea that a field $\phi \in [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}$ is 
+
+1. a configuration $\phi_X \;\colon\; X \to \underset{\mathbf{BgFields}}{\sum}\mathbf{Fields}$ on [[spacetime]]/[[worldvolume]] $X$;
+
+1. together with a [[gauge transformation]] $\kappa_{\phi} \;\colon\;  \Phi_X \stackrel{\simeq}{\to} \mathbf{Fields}\circ \phi_X$ between the fixed [[background field]] and the background field induced by $\phi_X$.
+
+=--
+
 
 
 ### Relation to twisted cohomology
@@ -555,7 +593,10 @@ The two classes of [[force]] fields are:
 #### **I a)** Fields of gravity, $G$-Structure and generalized geometry
  {#FieldsOfGravityAndGeneralizedGeometry}
 
+We discuss the example of the field of [[gravity]], below in _[Gravity](#OrdinaryGravity)_, and various closely related types of fields that all encode [[geometry]] in some sense, in fact all encode geometry in the sense of _[[G-structure]]_. This most general case we discuss in _[G-structure -- (twisted lift of structure ∞-groups)](#GStructure)_.
+
 ##### **General** -- $G$-structure: (twisted) lift of structure $\infty$-group
+ {#GStructure}
 
 Let 
 
