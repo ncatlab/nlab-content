@@ -12,7 +12,7 @@
 =--
 =--
 =--
-
+> Caveat: There is an unrelated notion of "effect of a computation"; that is rather in proximity to the entry [[monad (in computer science)]].
 
 #Contents#
 * table of contents
@@ -49,33 +49,14 @@ An *effect algebra* is a PCM $(E,0,\vee)$ with an orthocomplement. The latter is
 
 1. $x\perp 1\Rightarrow x=0$.
 
-For such an effect algebra one defines:
-
-$$x\wedge y:=(x^\perp\vee y^\perp)^\perp$$
-
-and
-
-$$x\le y:\Leftrightarrow \exists_z.x\vee z=y$$
-
-and
-
-
-$$y\ominus x=z:\Leftrightarrow y=x\vee z$$
+For such an effect algebra one defines: $x\wedge y:=(x^\perp\vee y^\perp)^\perp$ and $x\le y:\Leftrightarrow \exists_z.x\vee z=y$ and $y\ominus x=z:\Leftrightarrow y=x\vee z$$
  (p. 23)
 =--
 
 
 +-- {: .num_remark}
 ###### Remark
-If we consider
-
-$$(-)\ominus y:up(y)\to down(y^\perp)$$
-
-and
-
-$$(-)\vee y:down(y^\perp)\to up$$
-
-as functors between [[posets]] we have [[adjunctions]]
+If we consider $(-)\ominus y:up(y)\to down(y^\perp)$ and $(-)\vee y:down(y^\perp)\to up$ as functors between [[posets]] we have [[adjunctions]]
 
 $$((-\wedge y)\dashv (-\ominus y)\dashv (-\wedge y)$$
 
@@ -86,11 +67,14 @@ Hence these functors are a [[Frobenius functor|frobenius pair]].
 
 ## Examples
 
-(...)
+* [[effect algebra of predicates]]
 
-## Application
+* [[nLab:coalgebra of the real interval]]
 
-In ([Jacobs 12](#Jacobs)) the approach to categorical logic where the substrate carrying the logical notions are [[Heyting algebras]] of [[subobjects]] in a [[topos]] is replaced by a new one where the substrate is [[effect algebra of predicates]] in [[extensive categories]].
+See also the examples at
+
+* some of the examples at [[nLab:coalgebra for an endofunctor]]
+
 
 ## Reference
 
