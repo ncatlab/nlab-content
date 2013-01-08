@@ -27,7 +27,7 @@ Divided into two parts:
 
 * **Part I) [Geometry](#GEOMETRY)**
 
-* **Part II) [Phsics](#PHYSICS)**
+* **Part II) [Physics](#PHYSICS)**
 
 ***
 
@@ -78,7 +78,7 @@ Divided into two parts:
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
-**Part II) [Phsics](#PHYSICS)**
+**Part II) [Physics](#PHYSICS)**
 
 1. [Fields](#Fields)
 
@@ -814,6 +814,7 @@ The **[[ring of dual numbers|smooth algebra of dual numbers]]** $C^\infty(\mathb
 
 $$
   C^\infty(D,\mathbb{R}^n)
+
   \coloneqq
   \mathbb{R}^n \times \mathbb{R}^n
 $$
@@ -1015,6 +1016,7 @@ By definition of [[coverage]] we need to check that for $\{U_i \hookrightarrow \
 
 $$
   \array{
+
     K_j &\stackrel{\phi}{\to}& U_{i(j)}
     \\
     \downarrow && \downarrow
@@ -1646,6 +1648,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .num_defn}
@@ -1959,6 +1962,7 @@ We will also denote this by
 $$
   \mathbf{C}^\infty(X) \coloneqq [X, \mathbb{R}]
   \,,
+
 $$ 
 
 since in the special case that $X$ is a [[Cartesian space]] this is the smooth refinement of the set $C^\infty(X)$ of [[smooth functions]], def. \ref{SmoothFunctions}, on $X$.
@@ -2324,6 +2328,7 @@ Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [
 Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
 
 $$
+
   Set \stackrel{\leftarrow}{\underset{CoDisc}{\hookrightarrow}}
   DiffologicalSp \stackrel{\leftarrow}{\hookrightarrow}
   Sh(CartSp)
@@ -3444,6 +3449,7 @@ $$
 
 =--
 
+
 In particular the [[derivative]] of a smooth function $f \colon X \to \mathbb{R}$ is the [[composition|composite]]
 
 $$
@@ -3532,6 +3538,7 @@ We formulate this classical theory in the context of [[smooth spaces]]. Here a f
 For $X \in Smooth0Type$ a [[smooth space]], write
 
 $$
+
   \Gamma X
   \coloneqq
   Hom(*,X)
@@ -3890,6 +3897,7 @@ We have two [[full and faithful functors]]
 $$
   CartSp \hookrightarrow SmoothLoci
 $$
+
 
 $$
  InfPoint \hookrightarrow SmoothLoci
@@ -4632,6 +4640,7 @@ an [[action]] then  the [[action groupoid]]
  
 $$
   X \sslash G \in Smooth1Type
+
 $$
 
 $$
@@ -5112,6 +5121,7 @@ for the functor that sends a [[chain complex]] of [[abelian group|abelian]] [[gr
 * [[cohomology]]
 
 ##### Nonabelian cohomology
+
 
 * [[nonabelian cohomology]]
 
@@ -8068,6 +8078,7 @@ A survey is in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) a
 (...)
 
 ### Syntax layer
+
 
 (...)
 
