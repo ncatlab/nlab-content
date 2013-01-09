@@ -60,5 +60,9 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 * Robert Bryant, Phillip Griffiths, Daniel Grossman, _Exterior differential systems and Euler-Lagrange partial differential equations_, Chicago Lectures in Mathematics 2003, 205+xiv pp. [math.DG/0207039](http://arxiv.org/abs/math/0207039) [bookpage](http://www.press.uchicago.edu/ucp/books/book/chicago/E/bo3637779.html)
 
 [[!redirects Euler-Lagrange equations]]
+
 [[!redirects equations of motion]]
+[[!redirects equations of motion]]
+
+[[!redirects law of motion]]
 [[!redirects laws of motion]]
