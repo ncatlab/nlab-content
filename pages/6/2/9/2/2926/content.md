@@ -179,3 +179,5 @@ The [[synthetic differential geometry|synthetic]] view on the Maurer-Cartan form
 * [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 The synthetic Maurer-Cartan form itself appears in example 3.7.2. The synthetic vanishing of its curvature is corollary 6.7.2.
+
+[[!redirects Maurer-Cartan forms]]
