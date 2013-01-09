@@ -5,10 +5,14 @@
 
 ## Definition
 
-For $V$ a [[vector space]] and $0 \leq r lt dim V$, then the **Grassmannian** $Gr(r,V)$ is the space of all linear [[subspaces]] of $V$ of [[dimension]] $r$.
+For $V$ a [[vector space]] and $0 \leq r \lt dim V$, then the **Grassmannian** $Gr(r,V)$ is the space of all linear [[subspaces]] of $V$ of [[dimension]] $r$.
 
 For $r = 1$ this is the [[projective space]] of $V$.
 
 ## Related concepts
 
 * [[isotropic Grassmannian]]
+
+* [[Lagrangian Grassmannian]]
+
+[[!redirects Grassmannians]]
