@@ -37,7 +37,7 @@ A **monad** in a [[bicategory]] $K$ is given by
 
 * an [[endomorphism]] $t \colon a \to a$, and
 
-* [[2-cells]] $\eta \colon 1_a \to t$ (the _unit_ of $t$) and $\mu \colon t \circ t \to t$ (the _multiplication_)
+* [[2-cells]] $\eta \colon 1_a \to t$ (the _[[unit of a monad|unit]]_ of $t$) and $\mu \colon t \circ t \to t$ (the _multiplication_)
 
 such that the diagrams
 $$
