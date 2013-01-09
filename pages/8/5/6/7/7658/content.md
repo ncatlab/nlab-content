@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,7 +43,7 @@ $$
   }
 $$ 
 
-for any choice of [[orthogonal structure]]. The **orientation double cover** of $X$ is the $\mathbb{Z}_2$-[[principal bundle]] classified by the first [[Stiefel-Whitney class]] (of the [[tangent bundle]]) of $X$
+for any choice of [[orthogonal structure]]. The **orientation double cover** or **orientation bundle** of $X$ is the $\mathbb{Z}_2$-[[principal bundle]] classified by the first [[Stiefel-Whitney class]] (of the [[tangent bundle]]) of $X$
 
 $$
   w_1(\hat T X) :  X \stackrel{\hat T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2
@@ -47,6 +63,15 @@ $$
 
 * [[orientifold]], [[Jandl gerbe]]
 
+* [[orientation]]
+
+## References
+
+An exposition in a broader context is in the section _[higher spin structures](#)_ at
+
+* _[[geometry of physics]]_.
+
+
 [[!redirects double covers]]
 
 [[!redirects double covering]]
@@ -55,3 +80,6 @@ $$
 
 [[!redirects orientation double cover]]
 [[!redirects orientation double covers]]
+
+[[!redirects orientation bundle]]
+[[!redirects orientation bundles]]
