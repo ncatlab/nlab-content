@@ -55,3 +55,6 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 [[!redirects vector spaces]]
 [[!redirects linear space]]
 [[!redirects linear spaces]]
+
+[[!redirects Grassmannian]]
+
