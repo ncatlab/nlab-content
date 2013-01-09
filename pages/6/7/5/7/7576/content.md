@@ -34,6 +34,12 @@ The notion has been introduced in
 
 * [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological M-theory as Unification of Form Theories of Gravity_ ([arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073))
 
+An introduction is in 
+
+* [[Andrew Neitzke]], _Elements of topological M-theory_ (2005) ([pdf](http://uw.physics.wisc.edu/~strings/group/slides.05.spring/neitzke.pdf))
+
+
+
 The _[[topological membrane]]_ is made explicit in 
 
 * Giulio Bonelli, Alessandro Tanzini, [[Maxim Zabzine]], _On topological M-theory_ ([arXiv:hep-th/0509175](http://arxiv.org/abs/hep-th/0509175))
