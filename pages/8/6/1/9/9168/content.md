@@ -1,0 +1,39 @@
+
+> This entry is about the type of [[field (physics)|field]] in [[physics]]. For a notion of this name in [[algebra]] see at _[[ground ring]]_.
+
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values, typically, in the [[real numbers]] or [[complex]] numbers, is called a **scalar field**.
+
+
+
+## Examples
+
+* The [[theory (physics)|theory]] defined on a single scalar field $\phi$ over a [[Minkowski spacetime]] $X$ and with [[action functional]] given by 
+
+  $$
+    \phi 
+    \mapsto \int_X (\vert\nabla \phi\vert^2 + k \phi^n) dvol
+  $$
+
+  is called **$\phi$^n theory** ("phi-to-the-n theory"). These theories are are simple toy examples that play an important role in the investigation of general aspects of [[quantum field theory]], such as [[renormalization]]. Of course the potential term can be generalized to be a more general [[polynomial]] of $\phi$. This appears notably as a sector in models of [[cosmic inflation]], where $\ohi$ is the [[inflaton field]].
+
+
+
+[[!redirects scalar fields]]
