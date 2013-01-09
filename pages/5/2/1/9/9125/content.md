@@ -205,7 +205,7 @@ This now represents the [[second Stiefel-Whitney class]] $[w_2(\tau_X)] \in H^2(
 
 $$
   \array{
-    \mathbf{B}\mathb{Z}_2 &\to& P
+    \mathbf{B}\mathbb{Z}_2 &\to& P
     \\
     && \downarrow 
     \\
