@@ -1,6 +1,15 @@
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __ground ring__ (or __base ring__, __scalar field__, etc) is a [[ring]] $k$ (usually a [[commutative ring]] or even a [[field]]) which is fixed in a given situation, such that everything takes place 'over' $k$.  There is no technical definition here; rather, it is the meaning of 'over' that must be defined in any particular case.
 
-The elements of the ground ring are often called __scalars__.  Note that a 'scalar field' in the sense of [[physics]] does not refer to $k$, although its meaning does depend on $k$.
+The elements of the ground ring are often called __scalars__.  Note that a '[[scalar field]]' in the sense of [[physics]] does not refer to $k$, although its meaning does depend on $k$.
 
 There are analogies between the ground ring and the base space of a [[bundle]].  There are also generalisations in which $k$ might be, for example, a [[monad]].  It is also important to consider [[base change]] from one ground ring to another, mediated by a ring homomorphism or even a [[bimodule]].
 
@@ -44,6 +53,6 @@ This list is very incomplete, made mostly by searching for 'ground ring', 'base 
 [[!redirects base ring]]
 [[!redirects base field]]
 [[!redirects scalar ring]]
-[[!redirects scalar field]]
 [[!redirects scalar]]
 [[!redirects scalars]]
+
