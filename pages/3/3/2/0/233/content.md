@@ -522,8 +522,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Unwind the structure encoded in an abelian group object
-$(p:  K \to R)$ in the overcaregory $CRing/R$.
+We first unwind what the structure of an abelian group object
+$(p:  K \to R)$ in the overcaregory $CRing/R$ is explicitly
 
 The unit of the abelian group object in $CRing/R$ is a diagram
 
@@ -531,7 +531,7 @@ $$
   \array{
      R &&\to&& K
      \\
-     & {}_{\mathllap{Id}}\searrow && \swarrow^{\mathrlap{p}}
+     & {}_{\mathllap{Id}}\searrow && \swarrow_{\mathrlap{p}}
      \\
      && R
   }
@@ -555,7 +555,7 @@ $$
   \,.
 $$
 
-With the above unit, the unit axiom on this operation together with the fact that the top morphism is a ring homomorohisms says that this morphism is 
+With the above unit, the unit axiom on this operation together with the fact that the top morphism is a ring homomorphism says that this morphism is 
 
 $$
     R \oplus N \oplus N \stackrel{Id \oplus (Id + Id)}{\to}
