@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Variational calculus
++--{: .hide}
+[[!include variational calculus - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _principle of least action_ in [[physics]] is a historical precursor of the modern understanding that [[trajectories]] of [[particles]] and configurations of [[field (physics)|fields]] realized in [[classical mechanics]] are characterized as being the _[[variational calculus|variational]] [[extrema]]_ or _[[critical loci]]_ of a [[functional]] on the space of all possible configurations, called the _[[action functional]]_. For typical examples of this principle -- some of which were known to the ancient Greeks and which were then formalized in some generality in the 18th century -- these extrema are indeed minima, for instance for the propagation of a ray of light through optical media in [[optics]]. More generally today one speaks of the _principle of extremal action_ or the _principle of stationary action_. But in fact mostly today one just speaks of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]], which are the equations that characterize these extremal trajectories.
+
+With the understanding [[quantum mechanics]] the _principle of extremal action_ found an explanation in more fundamental terms as the [[classical limit]] of quantum [[dynamics]]. A simple, though somewhat heuristic, way to see this is via [[path integral]] [[quantization]]: whereas propagation in [[quantum mechanics]] is given by the [[path integral]] by which _every_ trajectory $\phi$ between two prescribed configurations contributes with a [[probability amplitude]] given by the  exponentiated value $\exp(i S(\phi))$ of the [[action functional]] $S$ on this trajectory, at least under some conditions the main contribution to this integral is from trajectories close to the critical points of the action functional. 
+
+
+## References
+
+* Wikipedia, _[Principle of least action](http://en.wikipedia.org/wiki/Principle_of_least_action)_
+
+* [[geometry of physics]] -- _[Equations of motion](geometry%20of%20physics#EquationsOfMotion)_
+
+[[!redirects preinciple of stationary action]]
+[[!redirects principle of extremal action]]
+[[!redirects action principle]]
