@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _photon_ is the [[gauge boson]] of the [[electromagnetic field]].
+The _photon_ is the [[gauge boson]] of the [[electromagnetic field]], hence of _[[light]]_.
 
 ## Related concepts
 
