@@ -9452,17 +9452,49 @@ The actual [[extended quantum field theory]] would be obtained from such a data 
 ## Equations of motion
  {#EquationsOfMotion}
  
-* [[equations of motion]], [[Euler-Lagrange equations]]
+Above if [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals) we discussed [[prequantum field theory]]. Given such there are two directions to go: the the corresponding [[classical field theory]] and to a corresponding [[quantum field theory]].
 
-* [[critical locus]], [[derived critical locus]]
+The classical field theory is the study of the _[[critical locus]]_ of the [[action functional]], whose points are the solutions to the _([[Euler-Lagrange equations|Euler-Lagrange]]-)[[equations of motions]]_ of the system, the conditions which characterize those [[field (physics)|field configurations]] that are "physically realized" as asserted by the [[physical theory]] that is encoded by the [[action functional]]. If the [[action functional]] comes from a [[local Lagrangian]] then this space carries a canonical [[presymplectic form]] and equipped with this form it is called the _[[covariant phase space]]_ of the system.
 
-* [[Einstein equations]], [[Maxwell equations]], [[Yang-Mills equations]]
+(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refiment to [[quantum theory]]. Nowadays the term has lost its original sense, since nowadays quantum theory is entirely "classical" in the standard sense of the word. )
+
+Here we discuss this theory of classical equations of motion. The maybe archetypical example is the [[geodesic equation]] which describes the [[trajectories]] of [[light]] and [[particles]]. Standard examples for [[spacetime]] [[force]] [[field (physical)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnatic field]] and [[gravity]], respectively.
+
+
++-- {: bluebox}
+###### Contents: ######
+
+1. [Model layer](#EquationsOfMotionModelLayer)
+
+   Here we discuss the traditional theory of [[covariant phase spaces]] and the traditional model of their resolutions in higher geometry: [[BV-BRST formalism]].
+
+1. [Semantics layer](#EquationsOfMotionSemanticsLayer)
+
+   Here we give a general abstract formulation of higher ("[[derived critical locus|derived]]") [[critical loci]] in a [[cohesive (∞,1)-topos]].
+
+1. [Syntax layer](#EquationsOfMotionSyntaxLayer)
+
+=--
 
 ### Model layer
+ {#EquationsOfMotionModelLayer}
 
-(...)
+#### Traditional covariant phase space
+ {#TradtionalCovariantPhaseSpace}
+
+* [Variational calculus](#VariationalCalculus)
+
+* [[covariant phase space]]
+
+#### Higher geometric covariant phase space: BV-BRST formalism
+
+* [[BV-BRST formalism]]
+
 
 ### Semantics layer
+ {#EquationsOfMotionSemanticsLayer}
+
+We now discuss the general abstract formulation of [[critical loci]] of [[action fnctuionals]] in the context of a [[cohesive (∞,1)-topos]]. This generalizes the traditional formulation to critical loci inside higher [[moduli ∞-stacks]] of field configuration. Moreover, if the ambient [[(∞,1)-topos]] is 
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \sharp) : \mathbf{H} \to \mathbf{H}$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf}) \;\colon\; \mathbf{H} \to \mathbf{H}$. 
 
@@ -9600,6 +9632,7 @@ in $Sh_{\mathbf{H}}(X)$.
 
 
 ### Syntax layer
+ {#EquationsOfMotionSyntaxLayer}
 
 (...)
 
