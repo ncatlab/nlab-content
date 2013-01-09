@@ -21,9 +21,10 @@
 
 ## Idea
 
-_Extended quantum field theory_ (or _many-tiered quantum field theory_) is the [[higher category theory|higher categorical]] version of [[FQFT|functorial quantum field theory]]:
+_Extended quantum field theory_ (or _many-tiered quantum field theory_) is the fully [[local quantum field theory|local]] formulation of [[functorial quantum field theory]], formulated in [[higher category theory]]
 
-whereas 
+Whereas a
+
 
 * [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows one to compute topological invariants $Z(\Sigma)$ assigned to $d$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $d$-dimensional composable [[cobordism]]s with $(d-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
 
@@ -129,6 +130,8 @@ also
 * _[AQFT from n-functorial QFT](http://arxiv.org/abs/0806.1079)_.
 
 ## Related concepts
+
+* [[local quantum field theory]]
 
 * [[extended Lagrangian]]
 
