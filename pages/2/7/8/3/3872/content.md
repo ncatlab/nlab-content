@@ -4,6 +4,7 @@
 
 category: people
 
+[[!redirects M. F. Atiyah]]
 [[!redirects M. Atiyah]]
 [[!redirects Atiyah]]
 [[!redirects Sir Michael Atiyah]]
