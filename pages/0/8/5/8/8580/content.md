@@ -2028,7 +2028,7 @@ $\{$[[smooth groupoids]]$\}$
 +-- {: bluebox }
 ###### 
 
-This ends the Model-layer disucssion of smooth spaces. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#SmoothSpacesLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [Differential forms below](#DifferentialForms). 
+This ends the Model-layer discussion of smooth spaces. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#SmoothSpacesLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [Differential forms below](#DifferentialForms). 
 
 =--
 
@@ -2944,7 +2944,7 @@ This statement is of course in a way a big tautology. Nevertheless it is a very 
 +-- {: bluebox }
 ###### 
 
-This ends the Model-layer disucssion of differential forms. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#DifferentialFormsLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [differentiation below](#Differentiation). 
+This ends the Model-layer discussion of differential forms. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#DifferentialFormsLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [differentiation below](#Differentiation). 
 
 =--
 
@@ -6032,6 +6032,7 @@ example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 
 
 #### Spin geometry
+ {#SpinGeometry}
 
 * [[spin group]]
 
@@ -6395,7 +6396,7 @@ $$
 
 =--
 
-This is disucssed at _[smooth ∞-groupoid - structures - de Rham coefficients for BG with G a Lie group](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)_.
+This is discussed at _[smooth ∞-groupoid - structures - de Rham coefficients for BG with G a Lie group](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)_.
 
 Write $U(1)$ for the [[circle group]] regared as a [[Lie group]] in the standard way.
 
@@ -7232,7 +7233,7 @@ From the third item it follows, by the discussion at [[homotopy pullback]], that
 ##### For circle-principal 2-connections
  {#DifferentialModuliCircle2Bundles}
 
-We now disucss moduli of [[circle n-bundle with connection|circle 2-bundles with connection]] over a given base $X$.
+We now discuss moduli of [[circle n-bundle with connection|circle 2-bundles with connection]] over a given base $X$.
 
 Recall that by def. \ref{UBnU1connk} we write
 
@@ -8083,10 +8084,14 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 ## **Fields**
  {#Fields}
 
-In fundamental [[physics]] the basic entities that are being described are called _[[field (physics)|fields]]_.
-We discuss the general notion of _[[field (physics)|physics fields]]_ in [[prequantum field theory]], [[classical field theory]] and [[quantum field theory]].
+In fundamental [[physics]] the basic entities that are being described by a [[physical theory]] -- its _[[kinematics|kinematical]] content_ -- are called _[[field (physics)|fields]]_; such as the _[[electromagnetic field]] (which we already encountered 
+[above](#ElectromagneticFieldStrength)) or the field of _[[gravity]]_ (which we also briefly encountered [before](#RiemannianGeometry)). Also all _[[matter]]_ is fundamentally described by fields (which we already mentioned [above](#SpinGeometry)).
 
-A survey is in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) and in ([Schreiber lecture 12](#TwistedCohomologyLecture))
+We discuss here the general notion of _[[field (physics)|physics fields]]_ in _[[prequantum field theory]], [[classical field theory]] and [[quantum field theory]].
+
+Apart from the [[kinematics]] encoded in the nature of the [[physical fields]], a [[physical theory]] consist of a specification of the _[[dynamics]]_. Formally this is encoded by what is called a  _[[Lagrangian]]_ and induced from that an _[[action functional]]_ on the space of all field configurations. This we turn to below in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_
+
+Surveys of some aspects discussed below are also in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) and in ([S 12](#TwistedCohomologyLecture))
 
 +-- {: bluebox}
 ###### Content: ######
@@ -8117,7 +8122,7 @@ A survey is in ([FSS 12, section 5.2](#FiorenzaSatiSchreiberCSIntroAndSurvey)) a
 
 1. [The traditional idea of field bundles and its problems](#IdeaOfFieldBundlesAndItsProblems)
 
-1. [Definition of "physical field"](#FieldsModLayerDefinition)
+1. [Physical fields in higher differential geometry](#FieldsModLayerDefinition)
 
 =--
 
@@ -8144,7 +8149,20 @@ But there is no fundamental distinction between physical fields on spaces that a
 #### The traditional idea of field bundles and its problems
  {#IdeaOfFieldBundlesAndItsProblems}
 
-A traditional approach to formalizing the notion of _physical field_ is to declare that the specification of a [[theory (physics)|theory in physics]]/[[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ (or better: naturally over all spacetimes, see at _[Locality](#IdeaLocality)_ below) called the ***[[field bundle]]*** and that a field configuration of the system is a [[section]] of this field bundle. This is for instance the basis for the theory of the [[variational bicomplex]], hence of [[BV-BRST formalism]] for expressing [[covariant phase spaces]], for standard [[multisymplectic geometry]], etc.
+A traditional approach to formalizing the notion of _physical field_ is to declare that the specification of a [[theory (physics)|theory in physics]]/[[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ (or better: naturally over all spacetimes, see at _[Locality](#IdeaLocality)_ below) called the ***[[field bundle]]*** and that a field configuration $\phi$ of the system is a [[section]] 
+
+$$
+  \array{
+     && E
+     \\
+     & {}^{\mathllap{\phi}}\nearrow & \downarrow
+    \\
+    X &\stackrel{=}{\to}& X
+  }
+$$
+
+
+of this field bundle. This is for instance the basis for the theory of the [[variational bicomplex]], hence of [[BV-BRST formalism]] for expressing [[covariant phase spaces]], for standard [[multisymplectic geometry]], etc.
 
 While this goes in the right direction, it cannot be quite the final answer, as it misses crucial properties that are demanded of a general notion of field. We now discuss these problems:
 
@@ -8158,7 +8176,8 @@ While this goes in the right direction, it cannot be quite the final answer, as 
 
 1. [Higher gauge fields](#HigherGaugeFields)
 
-In the course of discussing the problems we also motivate and indicate their solution by a more natural notion of field moduli in [[higher geometry]]. This is then discussed in full detail in the _[Definition](#Definition)_-section below.
+In the course of discussing the problems we also motivate and indicate their solution by a more natural notion of field moduli in [[higher geometry]]. This is then discussed in full detail in  
+_[Physical fields in higher differential geometry](#FieldsModLayerDefinition)_ below.
 
 ##### Large gauge transformations 
  {#IdeaLargeGaugeTransformations}
@@ -8416,7 +8435,7 @@ For instance the higher analog of the [[electromagnetic field]] which is called 
 
 There is a wide variety of [[higher dimensional Chern-Simons theories]] whose fields are such [[higher gauge fields]]. In some traditional literature one sees parts of this theory be discussed by standard [[BV-BRST formalism]] applied to [[field bundles]], namely by ignoring the non-trivial [[instanton sectors]] and pretending that a field configuration for these [[connection on an ∞-bundle|∞-connections]] are given by globally dedined [[differential forms]]. In some special cases (for instance for [[spacetimes]]/[[worldvolumes]] of very special topology or low [[dimension]) this can be sufficient to capture everything, but in general (for instance for $U(1)$-[[higher dimensional Chern-Simons theory]] and its [[holographic principle|holographically dual]] [[self-dual higher gauge theory]]) it is not.
 
-#### Physical fields in smooth $\infty$-groupoids
+#### Physical fields in higher differential geometry
  {#FieldsModLayerDefinition}
 
 A exposition of the full definition will go here. For the moment see the more formal discussion in the 
@@ -9235,9 +9254,10 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 
 (...)
 
-## Lagrangians and Action functionals
+## **Lagrangians and Action functionals**
  {#LagrangiansAndActionFunctionals}
 
+The _[[kinematics]]_ of a [[physical system]] is its content of [[field (physics)|fields]] which we discussed above in _[Fields](#Fields)_. The _[[dynamics]]_of the [[physical system]] is encoded by [[functional]] on the space of all fields, called the _[[action functional]]_. Good [[physical theories]] are _[[locality in physics|local]]_ and for these the action functional arises from [[integration]] of a [[local Lagrangian|local]] and _[[extended Lagranian|extended]]_ _[[Lagrangain]]_. This enocoding of [[dynamics]] by [[Lagrangians]] we discuss here.
 
 ### Model layer
 
