@@ -86,7 +86,9 @@ Ours is the age to figure this out.
 
 * [[renormalization]]
 
-* [[AQFT]], [[FQFT]], [[extended quantum field theory]]
+* [[AQFT]], [[FQFT]], 
+
+  * [[local quantum field theory]], [[extended quantum field theory]]
 
   * [[topological quantum field theory]]
 
