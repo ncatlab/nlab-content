@@ -1,0 +1,4 @@
+
+[[number]] per [[time]]
+
+For [[waves]]: number of wave crests per time. 
