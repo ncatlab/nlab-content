@@ -86,7 +86,7 @@ Divided into two parts:
 
 1. [Equations of motion](#EquationsOfMotion)
 
-1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Quantum mechanics](#QuantumMechanics)
 
@@ -8223,7 +8223,7 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 1. [Equations of motion](#EquationsOfMotion)
 
-1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Geometric quantization](#GeometricQuantization)
 
@@ -8282,7 +8282,7 @@ Surveys of some aspects discussed below are also in ([FSS 12, section 5.2](#Fior
 
 The basic example that probably gives the whole concept its name is the [[electric field]] and the [[magnetic field]] in the [[theory (physics)|theory]] of [[electromagnetism]]: if we fix a [[coordinate chart]] of [[spacetime]], then the [[electromagnetic field]] splits into the [[electric field]] and the [[magnetic field]] which are both modeled by a _[[vector field]]_, traditionally denoted $\vec E$ and $\vec B$, respectively, on this coordinate chart. The value $\vec E(x)$ of the vector field at a given point of spacetime is a [[vector]] that expresses the magnitude and direction of the electric [[force]] that is exerted on an [[electric charge|electrically charged]] [[particle]] at $x$. 
 
-In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two vector fields. Rather, its [[field strength]] is represented by a [[differential 2-form]], hence a [[tensor field]] of rank $(0,2)$, but the the whole field as such is not a tensor field, but is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
+In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two vector fields. Rather, its [[field strength]] is represented by a [[differential 2-form]], hence a [[tensor field]] of rank $(0,2)$, but the whole field as such is not a tensor field, but is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
 
 Or for instance the field of [[gravity]] if modeled as a [[pseudo-Riemannian metric]] is a [[tensor field]] of rank $(2,0)$ -- but subject to the constraint that this be pointwise non-degenerate. More fundamentally the field of gravity is instead a [[vielbein field]].
 
@@ -9452,13 +9452,13 @@ The actual [[extended quantum field theory]] would be obtained from such a data 
 ## Equations of motion
  {#EquationsOfMotion}
  
-Above if [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals) we discussed [[prequantum field theory]]. Given such there are two directions to go: the the corresponding [[classical field theory]] and to a corresponding [[quantum field theory]].
+Above in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_ we discussed [[prequantum field theory]]. Given such there are two directions to go: to the corresponding _[[classical field theory]]_ and to a corresponding _[[quantum field theory]]_.
 
 The classical field theory is the study of the _[[critical locus]]_ of the [[action functional]], whose points are the solutions to the _([[Euler-Lagrange equations|Euler-Lagrange]]-)[[equations of motion]]_ of the system, the conditions which characterize those [[field (physics)|field configurations]] that are "physically realized" as asserted by the [[physical theory]] that is encoded by the [[action functional]]. If the [[action functional]] comes from a [[local Lagrangian]] then this space carries a canonical [[presymplectic form]] and equipped with this form it is called the _[[covariant phase space]]_ of the system.
 
-(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refiment to [[quantum theory]]. Nowadays the term has lost its original sense, since nowadays quantum theory is entirely "classical" in the standard sense of the word. )
+(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refiment to [[quantum theory]]. Nowadays the term has, strictly speaking, lost its original sense, since nowadays quantum theory is entirely "classical", but "classical physics" will forever refer to non-quantum physics. )
 
-Here we discuss this theory of classical equations of motion. The maybe archetypical example is the [[geodesic equation]] which describes the [[trajectories]] of [[light]] and [[particles]]. Standard examples for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
+Here we discuss this theory of classical equations of motion. The maybe archetypical example of an [[equation of motion]] is the [[geodesic equation]] which describes the [[trajectories]] of [[particles]] and of [[light]]. Standard examples of [[equations of motion]] for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
 
 
 +-- {: bluebox}
@@ -9466,7 +9466,7 @@ Here we discuss this theory of classical equations of motion. The maybe archetyp
 
 1. [Model layer](#EquationsOfMotionModelLayer)
 
-   Here we discuss the traditional theory of [[covariant phase spaces]] and the traditional model of their resolutions in higher geometry: [[BV-BRST formalism]].
+   Here we discuss the traditional theory of _[[covariant phase spaces]]_ and the traditional model of their resolution in higher geometry: _[[BV-BRST formalism]]_.
 
 1. [Semantics layer](#EquationsOfMotionSemanticsLayer)
 
@@ -9482,7 +9482,7 @@ Here we discuss this theory of classical equations of motion. The maybe archetyp
 #### Traditional covariant phase space
  {#TradtionalCovariantPhaseSpace}
 
-* [Variational calculus](#VariationalCalculus)
+We had already discussed traditional [Variational calculus above](#VariationalCalculus). Using this we find:
 
 * [[covariant phase space]]
 
@@ -9494,10 +9494,9 @@ Here we discuss this theory of classical equations of motion. The maybe archetyp
 ### Semantics layer
  {#EquationsOfMotionSemanticsLayer}
 
-We now discuss the general abstract formulation of [[critical loci]] of [[action functionals]] in the context of a [[cohesive (∞,1)-topos]]. This generalizes the traditional formulation to critical loci inside higher [[moduli ∞-stacks]] of field configuration. Moreover, if the ambient [[(∞,1)-topos]] is 
+We now discuss the general abstract formulation of [[critical loci]] of [[action functionals]] in the context of a [[cohesive (∞,1)-topos]]. This generalizes the traditional formulation to critical loci inside higher [[moduli ∞-stacks]] of field configuration. In particular, if the ambient [[(∞,1)-topos]] is not [[n-localic (infinity,1)-topos|1-localic]], then this gives a general abstract formulation of _[[derived critical loci]]_.
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \sharp) : \mathbf{H} \to \mathbf{H}$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf}) \;\colon\; \mathbf{H} \to \mathbf{H}$. 
-
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \dashv \sharp) : \mathbf{H} \to \mathbf{H}$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf}) \;\colon\; \mathbf{H} \to \mathbf{H}$. 
 We discuss the formalization of [[critical loci]] of [[action functionals]] and of [[equations of motion]] in this context.
 
 Fix 
@@ -9511,7 +9510,7 @@ an object that serves as the [[moduli ∞-stack]] of [[physical fields]] for the
 +-- {: .num_defn #VariationFixedOnBoundary}
 ###### Definition
 
-For $\Sigma \in Mfd_{bdr} \hookrightarrow \mathbf{H}$ a [[manifold with boundary]] in $\mathbf{H}$, def. \ref{ManifoldWithBoundaryInSemLayer}, write $[\Sigma,\mathbf{Fields}]_{\partial \Sigma} \in \mathbf{H}$ for the the [[(∞,1)-pullback]]
+For $\Sigma \in Mfd_{bdr} \hookrightarrow \mathbf{H}$ a [[manifold with boundary]] in $\mathbf{H}$, def. \ref{ManifoldWithBoundaryInSemLayer}, write $[\Sigma,\mathbf{Fields}]_{\partial \Sigma} \in \mathbf{H}$ for the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -9556,14 +9555,14 @@ $$
   \mathbb{G} \in Grp(\mathbf{H})
 $$ 
 
-a [[group object in an (∞,1)-category|group object]], hence a cohesive [[∞-group]], to be the object that the [[action functional]] is to take values in. In $\mathbf{H} = $ [[Smooth∞Grpd]] the standard choice is $\mathbb{G} = U(1)$, the [[circle group]], for "exponentiated action functionals" or $\mathbb{R} = \mathb{R}$, the additive Lie group of [[real numbers]].
+a [[group object in an (∞,1)-category|group object]], hence a cohesive [[∞-group]], to be the object that the [[action functional]] is to take values in. In $\mathbf{H} = $ [[Smooth∞Grpd]] the standard choice is $\mathbb{G} = U(1)$, the [[circle group]], for "exponentiated action functionals" or $\mathbb{R} = \mathbb{R}$, the additive Lie group of [[real numbers]].
 
 
 
-+-- {: .num_defn }
++-- {: .num_defn #VariationalDerivativeInCohesiveInfinityTopos}
 ###### Definition
 
-For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map, the **[[variational derivative]]** of $S$ is the restriction of the [[de Rham differential]] $S^{-1}\mathbf{d}S$, def. \ref{DifferentiationOfInfinityGroupValuedFunction} to variations that keep the boundary data fixed as in def. \ref{VariationFixedOnBoundary}, hence the composite
+For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map, the **[[variational derivative]]** of $S$ is the restriction of the [[de Rham differential]] $S^{-1}\mathbf{d}S$ of def. \ref{DifferentiationOfInfinityGroupValuedFunction} to variations that keep the boundary data fixed as in def. \ref{VariationFixedOnBoundary}, hence the composite
 
 $$
   S^{-1}\mathbf{d}_{var} S
@@ -9577,6 +9576,9 @@ $$
   \flat_{dR}\mathbf{B}\mathbb{G}
   \,.
 $$
+
+Since the variational context is clear from the domain of the map, we will often just write $S^{-1} \mathbf{d} S$ for $S^{-1} \mathbf{d}_{var} S$, for convenience.
+
 
 =--
 
@@ -9595,10 +9597,11 @@ $$
 
 in $Sh_{\mathbf{H}}(X)$,
 which we will denote by the same symbol, as here, when the context is clear.
+Since $\mathcal{O}_X(\flat_{dR} \mathbf{B}\mathbb{G})$ has the interpretation of the _sheaf of flat $Lie(\mathbb{G})$-valued forms_ on $X$, this may be thought of as realizing $\mathbf{d} S$ as a [[section]] of the [[tangent bundle]] over $X$.
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #CriticalLocusInCohesiveInfinityTopos}
 ###### Definition
 
 For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map in $\mathbf{H}$, its **[[critical locus]]** 
@@ -9606,12 +9609,12 @@ For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map in $\mathbf{H}
 $$
   \underset{\phi \in [\Sigma, \mathbf{Fields}]_{\partial \Sigma}}{\sum}
   \left(S^{-1}\mathbf{d}_{var}S_{\phi} \simeq 0\right)
-  \;\;
+  \;\;\;\;
   \in 
   \mathbf{H}
 $$
 
-is the [[homotopy pullback]] 
+is the [[homotopy fiber]] of the [[variational derivative]] $S^{-1} \mathbf{d}S$ over the 0-section, hence the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -9628,7 +9631,15 @@ $$
   }
 $$
 
-in $Sh_{\mathbf{H}}(X)$.
+in the [[petit (∞,1)-topos]] $Sh_{\mathbf{H}}(X)$.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+In [[extended prequantum field theory]] we may, as discussed in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_, think of the [[action functional]] $S$ as being the [[prequantum 0-bundle]]. In this perspective the variational derivative $S^{-1} \mathbf{d}_{var} S$ of def. \ref{VariationalDerivativeInCohesiveInfinityTopos} is the [[curvature]] of this 0-bundle. If $\mathbb{G}$ is a 1-group such as $U(1)$ then this is a [[differential 1-form]] which is the _[[n-plectic geometry|0-plectic]]_ form. This means that the [[critical locus]] in def. \ref{CriticalLocusInCohesiveInfinityTopos} is the corresponding **0-plectic [[Lagrangian subspace]]**, the **maximal 0-plectic [[isotropic subspace]]**, namely the maximal subspace on which the 0-plectic 1-form vanishes.
 
 =--
 
@@ -9640,106 +9651,126 @@ in $Sh_{\mathbf{H}}(X)$.
 
 
 
-## **Gauge theories**
+## **Prequantum Gauge theory and Gravity**
  {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
 
-
-an exposition and survey is in ([FSS13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
-
-* [[cohesion]] 
-
-* $\stackrel{differential\;refinement\;of\;universal\;char\;classes}{\Rightarrow}$ [[schreiber:infinity-Chern-Simons theory]]
-
-  * [[closed bosonic string field theory|closed string field theory]]
-
-    * via level-truncation and [[Kaluza-Klein mechanism]] $\Rightarrow$ 
-
-      [[Einstein-Yang-Mills theory]]
-
-      * [[standard model of particle physics]]
-
-      * [[standard model of cosmology]]
-
-    
+In the previous chapters we have set up [[prequantum field theory]] and [[classical field theory]] in generality. Here we discuss examples of such [[field (physics)|field]] [[theory (physics)|theories]] in more detail.
 
 
-### Model Layer
++-- {: bluebox }
+###### Contents
 
-#### 3d Chern-Simons theory for compact simple gauge group
+1. [Model layer](#GaugeAndGravityModelLayer)
 
-* [[Chern-Simons theory]]
+   We introduce a list of important examples of field theories in fairly tradtional terms.
 
-#### Higher dimensional abelian Chern-Simons theory
- {#AbelianChernSimonsTheory}
+1. [Semantics layer](#GaugeAndGravitySemanticsLayer)
+
+   We study the above physical systems with the tools of of [[cohesive (∞,1)-topos]]-theory as developed in the previous semantics-layers.
+
+1. [Syntax layer](#GaugeAndGravitySyntaxLayer)
+
+=--
+
+
+### Model layer 
+ {#GaugeAndGravityModelLayer}
+
++-- {: bluebox }
+###### Examples
+
+1. [1d Chern-Simons theory](#1dCSTheory)
+
+1. [3d Chern-Simons theory](#3dCSTheory)
+
+1. [(4k+3)d U(1)-Chern-Simons theory](#HigherAbelianCSTheory)
+
+1. [7d Chern-Simons theory](#7dCSTheory)
+
+1. [∞-Chern-Simons theory](#InfinityCSTheory)
+
+   * [String field theory](#StringFieldTheory)
+
+     * [Gauge fields and gravity -- Einstein-Maxwell-Yang-Mills theory](#EinsteinYangMillsTheory)
+
+       * [Kaluza-Klein compactification](#KaluzaKleinCompactification)
+
+       * [Standard model of particle physics](#StandardModelParticlePhyiscs)
+
+       * [standard model of cosmology](#StandardModelCosmology)
+
+=--
+
+
+
+#### 1d Chern-Simons theory
+ {#1dCSTheory}
+
+* [[1d Chern-Simons theory]]
+
+#### 3d Chern-Simons theory
+ {#3dCSTheory}
+
+* [[3d Chern-Simons theory]]
+
+#### $(4k+3)$d $U(1)$-Chern-Simons theory
+ {#HigherAbelianCSTheory}
 
 * [[higher dimensional Chern-Simons theory]]
 
-* [[cup-product in ordinary differential cohomology]]
+#### 7d Chern-Simons theory
+ {#7dCSTheory}
+ 
+* [[7d Chern-Simons theory]]
 
-$$
-  \cup_{conn}
-  :
-  \mathbf{B}U(1)_{conn}
-  \to 
-  \mathbf{B}^3 U(1)_{conn}
-$$
+#### $\infty$-Chern-Simons theory
+ {#InfinityCSTheory}
 
-$$
-  \exp(2 \pi i \int_{\Sigma}[\Sigma, \cup_\conn])
-   : 
-  [\Sigma, \mathbf{B}U(1)_{conn}]
-   \stackrel{[\Sigma, \cup_{conn}]}{\to}
-  [\Sigma, \mathbf{B}^3 U(1)_{conn}]
-   \stackrel{\exp(2 \pi i \int_\Sigma (-))}{\to}
-  U(1)
-$$
+* [[schreiber:infinity-Chern-Simons theory]]
 
-#### Self-dual higher gauge theory
+#### String field theory
+ {#StringFieldTheory}
 
-* [[self-dual higher gauge theory]]
+* [[string field theory]]
 
-
-#### Closed string field theory
-
-* [[closed string field theory]]
-
-##### Einstein gravity
+##### Gauge fields and gravity -- Einstein-Maxwell-Yang-Mills theory 
+ {#EinsteinYangMillsTheory}
 
 * [[gravity]]
 
-##### Kaluza-Klein mechanism
-
-* [[Kaluza-Klein mechanism]]
-
-##### Einstein-Yang-Mills theory
+* [[Yang-Mills theory]]
+  
+  * [[Yang-Mills instanton]] number = [[second Chern class]]
 
 * [[Einstein-Yang-Mills theory]]
 
-###### Yang-Mills theory
- {#Yang-MillsTheory}
+##### Kaluza-Klein compactification
+ {#KaluzaKleinCompactification}
 
-* [[Yang-Mills theory]]
+* [[Kaluza-Klein compactification]]
 
-* [[Yang-Mills instanton]] number = [[second Chern class]]
 
-###### Einstein gravity
-
-* [[gravity]]
-
-###### Phenomenological Standard model of particle physics and cosmology
-
-* [[model (in theoretical physics)]]
+##### Standard model of particle physics 
+ {#StandardModelParticlePhyiscs}
 
 * [[standard model of particle physics]]
+
+##### Standard model of cosmology
+ {#StandardModelCosmology}
 
 * [[standard model of cosmology]]
 
 
 ### Semantic Layer
+ {#GaugeAndGravitySemanticsLayer}
 
 (...)
 
+an exposition and survey is in ([FSS 13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
+
+
 ### Syntactic Layer
+ {#GaugeAndGravitySyntaxLayer}
 
 (...)
 
@@ -9749,7 +9780,9 @@ $$
 ## **Quantum mechanics**
  {#QuantumMechanics}
 
-So far we have discussed [[higher prequantum field theory]]: [[Lagrangians]] and their induced [[action functionals]] and [[prequantum n-bundles]]. Now we turn to actual [[quantum field theory]]. A [[prequantum field theory]] is supposed to induce a [[quantum field theory]] under the last step of [[higher geometric quantization]]: a choice of [[polarization]] (or equivalent) and the passage to the corresponding [[space of states]] of polarized [[sections]] of the [[prequantum n-bundles]]. This step that connections [[prequantum field theory]] with [[quantum field theory]] we discuss below in _[Geometric Quantization](#GeometricQuantization)_.
+So far we have discussed [[extended prequantum field theory]]: [[Lagrangians]] and their induced [[action functionals]] and [[prequantum n-bundles]]. Now we turn to actual [[quantum field theory]]. A [[prequantum field theory]] is supposed to induce a [[quantum field theory]] under the last step of [[higher geometric quantization]]: a choice of [[polarization]] (or equivalent) and the passage to the corresponding [[space of states]] of polarized [[sections]] of the [[prequantum n-bundles]]. This step that connects [[prequantum field theory]] with [[quantum field theory]] we discuss below in _[Geometric Quantization](#GeometricQuantization)_.
+
+Here we discuss the structure of the _outcome_ of this process 
 
 * [[quantum mechanics]]
 
