@@ -1,4 +1,4 @@
-Not to be confused with the [[unit of an adjunction]] (although that is actually a very special case).
+> For special kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_ .
 
 ****
 
