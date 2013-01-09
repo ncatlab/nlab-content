@@ -17,7 +17,7 @@ adelaide dot edu dot au
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo.
 
-* _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:notWISC|web]].
+* _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
 
 * _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). Accepted for publication in the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html).
 
