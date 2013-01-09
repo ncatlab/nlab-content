@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+## Definition
+
 
 In a [[symplectic vector space]] a **Lagrangian subspace** is a maximal [[isotropic subspace]]: 
 
@@ -12,9 +24,11 @@ Similarly for a [[symplectic manifold]]. See _[[Lagrangian submanifold]]_ .
 
 The collection of all Lagrangian subspaces of a given space is called its [[Lagrangian Grassmannian]].
 
+
 [[!redirects lagrangian subspace]]
 
 [[!redirects lagrangian subspaces]]
 [[!redirects Lagrangian subspaces]]
 
-
+[[!redirects Lagrangean subspace]]
+[[!redirects Lagrangean subspaces]]
