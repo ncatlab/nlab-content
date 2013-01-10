@@ -484,6 +484,61 @@ between the [[background fields]].
 
 =--
 
+### Boundary and defect fields
+ {#BoundaryAndDefectFields}
+
+In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as fields and to be able to switch between these perspectives and for instance pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields.
+
+We now discuss how this is naturally formulated in the sense of def. \ref{FieldsInAnActionFunctional}.
+
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$.
+
+A generic object in $\mathbf{H}^{(\Delta^1)}$ here is a morphism $\iota_X$ in $\mathbf{H}$. When we think of this as a domain on which to define fields we will write this
+
+$$
+  \iota_X 
+    \;\colon\;
+  X_{def}
+  \to 
+  X
+$$
+
+where the subscript is for "defect" as in _[[QFT with defects]]_. Because a field in $\mathbf{H}^{(\Delta^1)}$ given by a map
+
+$$
+  \phi 
+   \;\colon\;
+  \iota_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$ is equivalently a [[diagram]]
+
+$$
+  \array{
+    X_{def} &\stackrel{\phi_{def}}{\to}& \mathbf{Fields}_{def}
+    \\
+    {}^{\mathllap{\iota_X}}\downarrow 
+    &\swArrow& 
+    \downarrow^{\mathrm{\mathbf{Fields}}}
+    \\
+    X_{bulk} &\stackrel{\phi_{bulk}}{\to}& \mathbf{Fields_{bulk}}
+  }
+$$
+
+This is a configuration consisting of a bulk field configuration on $X_{bulk}$ and a defect field configuration on $X_{def}$, together with a [[gauge transformation]] that relates the restriction (or more generally: pullback to $X_{def}$) of the bulk field to the embedding (or more generally: push-forward) of the defect field into the bulk field configuration on the defect.
+
+(...)
+
+If now $\phi_{bulk}$ is regarded as fixed, then this is a field configuration on $X_{def}$ for background field $\iota_X^* \phi_{bulk}$.
+
+(...)
+
+Several examples of this are discussed below.
+
+
+
+
 ## Properties
 
 ### Moduli stacks of fields
@@ -610,6 +665,43 @@ of \ref{FieldsInAnActionFunctional} we may equivalently say that
     H_{[\Phi_X]}(X,V) \simeq \tau_0\Gamma[X,\mathbf{Fields}]_{\mathbf{H}}
     \,.
   $$
+
+### Relation to relative cohomology
+ {#RelationToRelativeCohomology}
+
+
+When we refine background fields to dynamical fields as
+discussed above in _[Boundary and defect fields](#BoundaryAndDefectFields)_ then the identification of fields with [[cocycles]] in [[twisted cohomology]] as discussed above in 
+_[Relation to twisted cohomology](#RelationToTwistedCohomology)_ accordingly generalized a bit: it becomes a combination of twisted cohomology and _[[relative cohomology]]_.
+
+For consider the special case that the moduli of defect fields are trivial, hence that 
+
+$$
+  \mathbf{Fields} \colon * \stackrel{pt_Q}{\to} \mathbf{Fields}_{bulk}
+$$
+
+is the global point inclusion into the bulk field moduli (the trivial bulk field).  Then by the general formula for the hom in the arrow category we have
+
+$$
+  [\iota_X, pt_A]
+  \simeq
+  [X_{bulk}, A] \underset{[X_{def}, A]}{\times} {*}
+$$
+
+hence a [[homtopy fiber sequence]]
+
+$$
+  [\iota_X, pt_A]
+   \to 
+  [X_{bulk}, A]
+   \to 
+  [X_{def}, A]
+$$
+
+This identifies $\pi_0 \Gamma[\iota_X, pt_A]$ as the $\iota_X$-relative $A$-cohomology of $X$.
+
+In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are relative cocycles in a twisted sense.
+
 
 ## Examples
  {#Examples}
@@ -1708,24 +1800,112 @@ This is discussed further at [geometry of physics -- Prequantum gauge theory and
 
 [[Chern-Simons theory]] with [[Wilson loops]]
 
+and example of _[Bulk fields with defect fields](#BoundaryAndDefectFields)_
+
+Let 
+
+$$
+  C \;\colon\; S^1 \to \Sigma^3
+$$
+
+be a [[knot]] and let
+
 $$
   \mathbf{Fields}
   : 
   \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
 $$
 
+as in _[Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)_ above. Then a field configuration is a map
+
+$$
+  \phi 
+   \;\colon\;
+  C \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$, which is equivalently a diagram
+
+$$
+  \array{
+    S^1 &\stackrel{A|_{S^1}^g}{\to}& \Omega^1(-,\mathfrak{g})//T
+    \\
+    \downarrow^{\mathrlap{C}} &\swArrow_{g}& \downarrow
+    \\
+    \Sigma_3 &\stackrel{A}{\to}& \mathbf{B}G_{conn}
+  }
+$$
+
+in $\mathbf{H}$. This is equivalently
+
+1. a [[Lie algebra valued form]] $A \in \Omega^1(\Sigma_3, \mathfrak{g})$ (the bulk [[gauge field]] of $G$-[[Chern-Simons theory]])
+
+1. a $g$-valued function on the circle $g \in C^\infty(S^1, G)$
+
+which determine a background gauge field $A|_{S^1}^g$ on the knot.
+
+Moreover, a [[gauge transformation]] between two such field configurations $\kappa \;\colon\; \phi \Rightarrow \phi'$ is equivalently a gauge transformaiton of $A$ and of $A|_{S^1}$ such that together they intertwine $g$ and $g'$. In particular if the bulk field is held fixed, then such a gauge transformation is a function $t \colon S^1 \to T$ such that $g' = t g$. This means that the gauge equivalence classes of field confiurations for fixed background gauge field are labeled by maps to the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ as above.
+
+(...)
+
+
 #### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
  {#ChanPatonGaugeFields}
+
+We discuss the [[Chan-Paton gauge fields]] over [[D-branes]]
+in [[type II string theory]].
+
+Let 
+
+$$
+  \iota_X   
+    \;\colon\;
+  Q \hookrightarrow X 
+$$
+
+be a [[submanifold]], to be thought of as a [[D-brane]] [[worldvolume]] in an ambient [[spacetime]] $X$.
+
+The [[extension of groups]] $U(1) \to U(n) \to PU(n)$ sits in a long [[homotopy fiber sequence]] of $\infty$-stacks
+
+$$
+  U(1) \to U(n) \to PU(n) \to \mathbf{B}U(1)
+  \to \mathbf{B}U(n) \to \mathbf{B}PU(n) \stackrel{\mathbf{dd}_n}{\to}
+  \mathbf{B}^2 U(1)
+$$
+
+Let
 
 $$
   \mathbf{Fields}
   \colon
-  (U(n)//\mathbf{B}U(1))_{conn}
+  (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
   \to
   \mathbf{B}^2 U(1)_{conn}
 $$
 
-[[twisted bundle]] with connection
+be the differential refinement of that universal [[Dixmier-Douady class]] 
+
+then a field configuration of the [[B-field]] on $X$ together with a compatible rank-$n$ gauge field on the [[D-brane]] is a map
+
+$$
+  \iota_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$, hence a diagram in $\mathbf{H}$ of the form
+
+$$
+  \xymatrix{
+    Q &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))
+    \\
+    {}^{\iota_X}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{dd}_n}}
+    \\
+    X &\stackrel{\nabla_B}{\to}& \mathbf{B}^2 U(1)_{conn}
+  }
+$$
+
+This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
+
+This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes.
 
 (...)
 
