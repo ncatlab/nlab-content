@@ -812,6 +812,37 @@ The [[smooth structure]] on $X$ as embodied by $\tau_X$ is the [[background fiel
 
 =--
 
++-- {: .num_remark #OrthogonalStructureIsTrivialInPlainHomotopyTheory}
+###### Remark
+
+Under [[geometric realization of cohesive infinity-groupoids|geometric realization]] 
+
+$$
+  {\vert-\vert}
+  \;\colon\;
+  \mathbf{H} \to \infty Grpd \simeq L_{whe} Top
+$$
+
+the map of [[moduli stacks]] $\mathbf{B}O(n) \to \mathbf{B}GL(n)$ becomes an [[equivalence]] (a [[weak homotopy equivalence]]) of [[classifying space]] $B O(n) \stackrel{\simeq}{\to} B GL(n)$.
+
+This means that in plain [[homotopy theory]], hence ignoring the [[geometry]], a lift in 
+
+$$
+  \array{
+    && B O(n)
+    \\
+    & \nearrow & \downarrow
+    \\
+    X &\stackrel{\tau_X}{\to}& B GL(n)
+  }
+$$
+
+is no information, up to equivalence: it always exists and exists uniquely up to a contractible space of choices. In order for such a lift really to be equivalently an [[orthogonal structure]] it needs to be taken with geometry included, hence for [[moduli stacks]] (_[[cohesive (infinity,1)-topos|cohesive]]_ [[homotopy type]]) as above.
+
+The analog statement is true for every delooping $\mathbf{B}H \to \mathbf{B}G$ of the inclusion $H \hookrightarrow G$ of a [[maximal compact subgroup]] into a [[Lie group]]. More examples of this kind we discuss below in _[Type II Gravity and generalized geometry](#TypeIIGravity)_.
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -923,38 +954,147 @@ is the accurate space of [[general covariance|generally covariant]] fields of [[
 ##### $Spin$-structures
  {#SpinStructures}
 
-In theories with [[fermions]] (discussed [below](#Fermions)) the field of [[gravity]] is more refined than just a [[vielbeing field]] as [above](#OrdinaryGravity), hence an [[orthogonal structure]] on [[spacetime]]: it also involves an [[orientation structure]] and a [[spin structure]].
+In theories with [[fermions]] (discussed [below](#Fermions)) the field of [[gravity]] is more refined than just a [[vielbein field]] as [above](#OrdinaryGravity), hence an [[orthogonal structure]] on [[spacetime]]: it also involves an [[orientation structure]] and a [[spin structure]].
 
-To see that these structures are really all (fields) of the same kind, observe that they are the lifts through the first step of the [[Whitehead tower]] of $\mathbf{B}GL$
+To see that these structures are really all (fields) of the same kind, observe that they are the lifts through the first step of the [[Whitehead tower]] of $\mathbf{B}GL$, as shown in the following table
 
-Hence for [[spin structure]] fields
+[[!include higher spin structure - table]]
+
+Notice, as in remark \ref{OrthogonalStructureIsTrivialInPlainHomotopyTheory}, that for the interpretation of the first step here it is crucial to interpret this in [[moduli ∞-stacks]] and not in [[classifying spaces]].
+
+Hence if a background field of [[gravity]] is assumed, $\mathbf{BgFields} \colon \mathbf{B}O(n)$, $\Phi_X = e_X$, then the moduli stack for [[orientation structure]]-fields is
 
 $$
-  \mathbf{Fields} 
-  \;\colon\;
-  \mathbf{B}Spin(n) \to \mathbf{B}SO(n)
+  \mathbf{Fields} \colon \mathbf{B} SO(n) \to \mathbf{B}O(n)
+$$
+
+in $\mathbf{H}_{/\mathbf{B}O(n)}$. And if an orientation background field is assumed, $\mathbf{BgFields} \colon \mathbf{B}SO(n)$, $\Phi_X = o_X$, then the moduli stack for [[spin structure]]-fields is
+
+$$
+  \mathbf{Fields} \colon \mathbf{B} Spin(n) \to \mathbf{B}SO(n)
   \,.
 $$
+
+Evidently there is then also a notion of [[higher spin structure]]-fields. These appear as backgrounds when one passes from [[spinning particles]] to  [[spinning strings]] and then to further "spinning" [[branes]]. This we disciss below in _[Higher spin structures](#HigherSpinStructures)_
 
 ##### $Spin^c$-structures
  {#SpinStructures}
 
-[[spin-c structure]]
+Some [[theory (physics)|theories]] involve not plain [[spin structures]] but [[spin-c structures]] on their [[spacetime]]/[[worldvolume]] (for instance in [[Seiberg-Witten theory]] or in the [[gauge theory]] over [[D-branes]] in [[type II string theory]], see the example _[Chan-Paton gauge fields on D-branes](#ChanPatonGaugeFields)_ below). By the discussion there, the [[moduli stack]] $\mathbf{B}Spin^c(n)$ for 
+[[spin^c group]]-[[principal bundles]] sits in the [[homotopy pullback]] diagram
+
+$$
+  \array{
+    \mathbf{B}Spin^c &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 \,mod\, 2}}
+    \\
+    \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}&
+   \mathbf{B}^2\mathbb{Z}_2
+  }
+ \,,
+$$
+
+where the right vertical map represents the universal [[first Chern class]] modulo 2. In other words this says that a [[spin^c-structure]] on some $X$ is a [[twisted differential c-structure|twisted w2-structure]] with twist the first Chern-class of a [[circle bundle]].
+
+So if that circle bundle is regarded as a [[background field]]
+
+$$
+  \phi_X \coloneqq g_X \;colon\; X \to \mathbf{B}U(1)
+$$
+
+then a $Spin^c$-structure for that underlying circle bundle is a field
+
+$$
+  \phi 
+    \;\colon\;
+  \Phi_X \to \mathbf{w}_2
+$$
+
+in $\mathbf{H}_{/\mathbf{B}^2 \mathbb{Z}_2}$.
+
+Or rather, if $X$ is a [[manifold]] as before and the $SO(n)$-principal bundle involved in the above is required to be a [[reduction of the structure group|reduction]] of the [[tangent bundle]] $\tau_X : X \to \mathbf{B}GL(n)$ as before, then the [[background field]] for $Spin^c$-structure fields is
+
+$$
+  \Phi_X 
+   \;\colon\;
+   X 
+   \stackrel{(\tau_X, g_X \,mod\, 2)}{\to}
+   \mathbf{B}GL(n) \times \mathbf{B}^2 \mathbb{Z}_2
+  \,,
+$$
+
+and the field moduli stack is 
+
+$$
+  \mathbf{Fields} \;\colon\; 
+  \mathbf{B}SO(n)
+   \stackrel{(p, \mathbf{w}_2)}{\to}
+  \mathbf{B}GL(n) \times \mathbf{B}
+  \,.
+$$
+
 
 
 ##### Type II gravity, exceptional geometry
+ {#TypeIIGravity}
 
-[[type II geometry]]
+By remark \ref{OrthogonalStructureIsTrivialInPlainHomotopyTheory} above the ordinary field of [[gravity]] on some [[manifold]] $X$ is equivalently a [[reduction of the structure group]] from the [[general linear group]] to its [[maximal compact subgroup]], regarded as a field whose [[background field]] is the [[tangent bundle]] itself.
+
+If one instead considers a variant of the [[tangent bundle]] as a [[background field]] -- a _[[generalized tangent bundle]]_ $\tau_X^{gen} : X \to \mathbf{B}G$ -- with some other structure [[Lie group]] $G$, then a field with values in 
 
 $$
   \mathbf{Fields} 
+    \;\colon\;
+  \mathbf{B}H \to \mathbf{B}G
+$$
+
+in $\mathbf{H}_{/\mathbf{B}G}$ and for $H \hookrightarrow$ the inclusion of the [[maximal compact subgroup]], may be thought of as an accordingly  _generized field of gravity_ defining a _generalized_ [[Riemannian geometry]].
+
+Such fields naturally appear in [[theory (physics)|theories]] of higher-dimensional [[supergravity]], where related to the [[T-duality]] and more generally [[U-duality]] structure of these [[theory (physics)|theories]].
+
+Notably in manifestly [[T-duality]]-equivariant [[type II supergravity]] the [[generalized tangent bunde]] on the $n$-dimensional [[spacetime]] is an $O(n,n)$-[[principal bundle]] $\tau^{gen}_X \;\colon\; X \to \mathbf{B}O(n,n)$. The corresponding [[maximal compact subgroup]] inclusion yields the moduli stack of fields
+
+$$
+  \mathbf{Fields}
   \;\colon\;
-  \mathbf{B}O(n) \times O(n)
-  \to 
+  \mathbf{B}(O(n)\times O(n))
+  \to
   \mathbf{B}O(n,n)
 $$
 
-[[exceptional generalized geometry]]
+and a field $\phi \;\colon\; \tau_X^{gen} \to \mathbf{Fields}$ is equivalently the [[generalized vielbein]] for the generalized Riemannian geometry called  _[[type II geometry]]_ on $X$. 
+
+In fact also the generalized tangent bundle itself should be regarded as a field: Notice that the canonical diagonal inclusion
+
+$$
+  GL(n) \hookrightarrow O(n,n)
+$$
+
+does not have a [[retraction]]. Write $GL(n) \hookrightarrow G_{geom} \hookrightarrow O(n,n)$ for the maximal subgroup for which a retrection to $GL(n)$ still exists, called the **geometric subgroup** in the context of [[type II geometry]]. Then a lift of the tangent bundle to $G_{geom}$
+
+$$
+  \array{
+    X &&\stackrel{\tau_X^{gen}}{\to}&& \mathbf{B}G_{geom} & \hookrightarrow& \mathbf{B} O(n,n)
+    \\
+    & {}_{\athllap{\tau_X}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{p}}}
+    \\
+    && \mathbf{B}GL(n)
+  }
+  \,,
+$$
+
+hence a field 
+
+$$
+  e_X^{gen} \;\colon\; \tau_X \to \mathbf{p}
+$$ 
+
+is what is called a _geoemtric_ [[generalized tangent bundle]]. These are exactly the generalized tangent bundles primarily considered in the literature (see at _[[type II geometry]]_  for more).
+
+In the [[Kaluza-Klein compactification]] of [[type II supergravity]] and of [[11-dimensional supergravity]] preserving some amount of global [[supersymmetry]] this generalized type II geometry is further enhanced to various flavors of what is called  [[exceptional generalized geometry]]. 
+
+Here the [[generalized tangent bundle]] has as structure group an [[exception Lie group]] from the $E$-series $E_{n(n)}$ (for compactification on an $n$-dimensional compact space). The moduli stack of fields is then
 
 $$
   \mathbf{Fields} 
@@ -964,19 +1104,27 @@ $$
   \mathbf{B} E_{n(n)}
 $$
 
+and a field $ e_X^{gen} \;\colon\; \tau_X^{gen} \to \mathbf{Fields}$ is equivalently a [[generalized vielbein]]  for  [[exceptional generalized geometry]].
+
 
 
 ##### Higher spin structures
+ {#HigherSpinStructures}
 
-[[String structure]]
+By the discussion of [Spin structure fields](#SpinStructures) above there are evident higher analogs, obtained by climbing through the [[Whitehead tower]] [[higher spin structure - table|of BO]].
+
+In the next step we have _[[String structure]]_-fields which are maps to
 
 $$
   \mathbf{Fields}
   \;\colon\;
   \mathbf{B}String \to \mathbf{B}Spin
+  \,.
 $$
 
-[[Fivebrane structure]]
+These appear as fields in [[heterotic supergravity]] with [[quantum anomaly]]-cancellation by the [[Green-Schwarz mechanism]] and for trivial [[gauge field]]. In the presence of a non-trivial gauge field these are further refined to _[Higher spin-c structrures](#HigherSpincstructures)_ discussed below. This field content of [[heterotic supergravity]] is discussed in more detail below in _[Anomaly-free heterotic supergravity fields -- differential String-c structures](#HeteroticStringBackgroundField)_.
+
+Further up the [[Whitehead tower]] _[[Fivebrane structure]]_-fields are maps to
 
 $$
   \mathbf{Fields}
@@ -984,13 +1132,97 @@ $$
   \mathbf{B}Fivebrane \to \mathbf{B}String
 $$
 
+in $\mathbf{H}_{/\mathbf{B}String}$. These, or their twisted variants, appear in [[dual heterotic string theory]]. 
+
+
 ##### Higher $Spin^c$-structures
+ {#HigherSpincstructures}
+
+As discussed above, an ordinary [[spin-c structure]] is really a [[spin structure]] which is _[[twisted differential c-structure|twisted]]_ by the class of a $U(1)$-[[principal bundle]]. 
+
+Similarly the [[higher spin structure]]-fields just discussed have further twistes by background unitary bundles. For
+
+$$
+  \mathbf{c} \;\colon\; \mathbf{B}G \to \mathbf{B}^3 U(1)
+$$
+
+some [[universal characteristic map]] on [[moduli ∞-stacks]], for $\mathbf{B}^3 U(1)$ the moduli 3-stack of [[circle n-bundle with connection|circle 3-bundles]], hence [[circle 3-group]]-[[principal ∞-bundles]] we say that the [[smooth ∞-group]] $String^{\mathbf{c}}$ appearing in the [[homotopy pullback]] diagram
+
+$$
+  \array{
+    \mathbf{B}String^{\mathbf{c}}
+    &\to&
+    \mathbf{B} G
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{c}}}
+    \\
+    \mathbf{B}Spin &\stackrel{\tfrac{1}{2}\mathbf{p}}{\to}&
+    \mathbf{B}^3 U(1)
+  }
+$$
+
+is a higher [[string 2-group]]-analog of [[spin^c]]. 
+
+In particular, if $G$ is a compact, connected and simply connected [[simple Lie group]] (such as the [[spin group]] or the [[special unitary group]]) then 
+
+$$
+  \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}^3 U(1)) 
+  \simeq
+  H^4(BG, \mathbb{Z}) 
+  \simeq 
+  \mathbb{Z}
+$$
+
+(the first equivalence is discussed at _[[Lie group cohomology]]_ as a special case of a theorem discussed at _[[smooth infinity-groupoid]]_). This means that there is an essentially unique map of higher moduli stacks
+
+$$
+  \mathbf{c}
+  \;\colon\;
+  \mathbf{B}G
+  \to \mathbf{B}^3 U(1)
+$$
+
+which maps to the generator of $H^4(BG, \mathbb{Z})$ under [[geometric realization of cohesive infinity-groups]]. For $G = Spin$ this is the smooth refinement of the [[first fractional Pontryagin class]] $\tfrac{1}{2}\mathbf{p}_1$, discussed further at _[[twisted differential string structure]]_. 
+
+Of interest in [[heterotic supergravity]] here is the case that $G = E_8 \times E_8$ (the product of the  [[exceptional Lie group]] $E_8$ with itself) and $\mathbf{c}$ is twice the canonical string class.
+
+If then $g_X \;\colon\; X \to \mathbf{B}(E_8 \times E_8)$ is the [[instanton sector]] of the gauge field in [[heterotic supergravity]] regarded as a [[backgeound gauge field]] for the field of heterotic [[gravity]], then with  
 
 $$
   \mathbf{Fields}
   \;\colon\;
   \mathbf{B}Spin \stackrel{\tfrac{1}{2}\mathbf{p}_1}{\to} \mathbf{B}^3 U(1)
 $$
+
+a map
+
+$$
+  g_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}_{/\mathbf{B}^3 U(1)}$ is a $\mathbf{String}^{\mathbf{c}}$-structure on $X$ whose underlying gage bundle is the given $\Phi_X$. 
+
+As before for $Spin^c$-structures, in applications one in addition demands that this $\mathbf{String}^{\mathbf{c}}$-structure is indeed a refinement of the field of [[gravity]] of the theory, which means that one takes the [[background field]] to be
+
+$$
+  \Phi_X
+  \;\colon\;
+  X
+  \stackrel{(\tau_X, g_X)}{\to} \mathbf{B}GL(n) \times \mathbf{B}(E_8 \times E_8)
+$$
+
+and the moduli $\infty$-stack of fields to be
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin(n)
+  \stackrel{(p, \tfrac{1}{2}\mathbf{p}_1)}{\to}
+  \mathbf{B}GL(n) \times \mathbf{B}^3 U(1)
+  \,.
+$$
+
+These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz mechanism|Green-Schwarz anomaly free]] [[heterotic suprgravity]], discussed further below in _[Anomaly-free heterotic supergravity fields](#HeteroticStringBackgroundField)_.
 
 #### **I b)** Gauge fields
  {#GaugeFields}
@@ -1005,38 +1237,96 @@ We discuss the general notion of gauge fields and then various special cases and
 
 ##### Electromagnetic field
 
-[[electromagnetic field]]:
+A field configuratiotion of the [[electromagnetic field]] is a [[circle n-bundle with connection|circle bundle with connection]] and a [[gauge transformation]] of the EM field is an equivalence of such connections.
+
+Let therefore
 
 $$
-  \mathbf{Fields} = \mathbf{B}U(1)_{conn}
+  \mathbf{B}U(1)_{conn}
+  \coloneqq
+  \Omega^1//U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1)
 $$
+
+be the [[quotient stack]] of the [[action]] of $U(1)$ on the [[sheaf]] of [[differential 1-forms]], equivalently the image under the [[Dold-Kan correspondence]] of the sheaf of [[chain complexes]] given by the [[Deligne complex]] for degree-2 [[ordinary differential cohomology]], as indicated.
+
+This is the [[moduli stack]] for $U(1)$-[[principal connections]]. Hence setting $\mathbf{BgFields} \simeq *$ and 
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}U(1)_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields the type of the electromagnetic field.
+
 
 ##### Yang-Mills field
 
-[[Yang-Mills field]]
+More generally, for $G$ a [[Lie group]], $\mathfrak{g}$ it [[Lie algebra]]
+and $\Omega^1(-,\mathfrak{g})$ the sheaf of [[Lie algebra valued 1-forms]], write
 
 $$
-  \mathbf{Fields} = \mathbf{B}G_{conn}
+  \mathbf{B}G_{conn}
+  \coloneqq
+  \Omega^1(-,\mathfrak{g})//G
 $$
 
+for the [[quotient stack]] of the [[action]] of $G$ on its differential forms by [[gauge transformation]]. This is the [[moduli stack]] for smooth $G$-[[principal connections]], and these model the $G$-[[Yang-Mills field]]. Hence setting $\mathbf{BgFields} \simeq *$ and
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}G_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields [[Yang-Mills fields]].
 
 
 
 ##### Kalb-Ramond $B$-field
 
-[[Kalb-Ramond field]]
+Let 
 
-$\mathbf{Fields} = \mathbf{B}^2 U(1)_{conn}$
+$$
+  \mathbf{B^2}U(1)_{conn}
+  \coloneqq
+  \Omega^{2 \leq \bullet \leq 1} // \mathbf{B}U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2)
+$$
+
+be the image under the [[Dold-Kan correspondence]] of the [[Deligned complex]] for degree-3 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 2-stack]] for [[circle n-bundle with connection|circle 2-bundle with connections]].
+
+Setting $\mathbf{BgFields} \simeq *$ and
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}^2 U(1)_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields the 2-form 
+gauge field known as the _[[B-field]]_ or the _[[Kalb-Ramond field]]_.
+
 
 ##### Supergravity $C$-field
 
-[[supergravity C-field]]
+Proceeding in this fashion, let 
 
-first approximation:
+$$
+  \mathbf{B^3}U(1)_{conn}
+  \coloneqq
+  \Omega^{3 \leq \bullet \leq 1} // \mathbf{B}^2 U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2 \stackrel{d}{\to}\Omega^3)
+$$
 
-$\mathbf{Fields} = \mathbf{B}^3 U(1)_{conn}$
+be the image under the [[Dold-Kan correspondence]] of the [[Deligned complex]] for degree-4 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 3-stack]] for [[circle n-bundle with connection|circle 3-bundle with connections]].
 
-full description more subtle ([FSS]())
+Fields whose moduli stack is
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbf{B}^3 U(1)_{conn} \to *
+$$ 
+
+are one component of the [[supergravity C-field]].
+
 
 ### **II)** Matter fields
  {#MatterFields}
@@ -1195,7 +1485,7 @@ $$
 (...)
 
 
-##### 3d Chern-Simons field with Wilson line
+#### 3d Chern-Simons field with Wilson line
  {#ChernSimonsWithWilsonLines}
 
 [[Chern-Simons theory]] with [[Wilson loops]]
