@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[standard model of particle physics]] is a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] with [[gauge group]] (a [[discrete group|discrete]] [[quotient]] of) $SU(3) \times SU(2) \times U(1)$. Here the first factor is the gauge group of [[QCD]] while the $(SU(2) \times U(1))$-[[gauge field]] is that transmitting what is called the **electroweak force**. 
+
+The name is due to the fact that this gauge field unifies the [[electromagnetic field]] and that transmitting the [[weak nuclear force]]: the [[Higgs mechanism]] induces a [[spontaneous symmetry breaking]] of the electroweak field to these two fields. 
+
+## Related concepts
+
+* [[standard model of particle physics]]
+
+
+[[!redirects electroweak theory]]
+[[!redirects electroweak model]]
