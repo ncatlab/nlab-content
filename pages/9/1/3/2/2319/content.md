@@ -213,6 +213,9 @@ where each "hook" is a [[fiber sequence]].
 
   * [[fivebrane structure]], [[differential fivebrane structure]]
 
+[[!include higher spin structure - table]]
+
+
 ## References
 
 ### General
