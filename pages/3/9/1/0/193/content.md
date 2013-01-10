@@ -180,7 +180,7 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 * An adjunction in [[Cat]] is a pair of [[adjoint functors]].
 
-* For $A$ a [[monoidal category]] and $\mathbf{B}A$ its incarnation as a one-object [[2-category]] (its [[delooping]]), and adjunction in $\mathbf{B}A$ is a [[dualizable object|pair of dual objects]].
+* For $A$ a [[monoidal category]] and $\mathbf{B}A$ its incarnation as a one-object [[2-category]] (its [[delooping]]), an adjunction in $\mathbf{B}A$ is a [[dualizable object|pair of dual objects]].
 
 * For $\mathcal{C}$ a [[2-groupoid]], an adjunction in $\mathcal{C}$ is an
   [[adjoint equivalence]].
