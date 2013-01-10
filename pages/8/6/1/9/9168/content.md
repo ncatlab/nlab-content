@@ -32,8 +32,8 @@ In [[physics]] a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] whic
     \mapsto \int_X (\vert\nabla \phi\vert^2 + k \phi^n) dvol
   $$
 
-  is called **$\phi$^n theory** ("phi-to-the-n theory"). These theories are are simple toy examples that play an important role in the investigation of general aspects of [[quantum field theory]], such as [[renormalization]]. Of course the potential term can be generalized to be a more general [[polynomial]] of $\phi$. This appears notably as a sector in models of [[cosmic inflation]], where $\ohi$ is the [[inflaton field]].
+  is called **$\phi^n$ theory** ("phi-to-the-n theory"). These theories are are simple toy examples that play an important role in the investigation of general aspects of [[quantum field theory]], such as [[renormalization]]. Of course the potential term can be generalized to be a more general [[polynomial]] of $\phi$. This appears notably as a sector in models of [[cosmic inflation]], where $\phi$ is called the _[[inflaton field]]_.
 
-
+* [[Higgs field]]
 
 [[!redirects scalar fields]]
