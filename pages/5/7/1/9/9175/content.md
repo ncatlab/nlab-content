@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\mathcal{T}$ a [[sheaf topos]], $G \in Grp(\mathcal{T})$ a [[group object]] and $V \in \mathcal{T}$ any object, and for $\rho \colon V \times G \to V$ an [[action]] of $G$ on $V$  , the **quotient stack** $V//G$ is the [[quotient]] of this action but formed not in $\mathcal{T}$ but under the inclusion
+
+$$
+  \mathcal{T} \hookrightarrow \mathbf{H}
+$$
+
+into the [[(2,1)-topos]] over the given [[site]] of definition: it is the quotient after regarding the action as an [[infinity-action]] in $\mathbf{H}$.
+
+This is the geometric version of the notion of _[[action groupoid]]_ .
+
+## Properties
+
+### Relation to principal and associated bundles
+
+For $V = *$ the [[terminal object]], one writes $\mathbf{B}G \coloneqq *//G$.  This is the [[moduli stack]] for $G$-[[principal bundles]]. It is also the trivial _$G$-[[gerbe]]_.
+
+There is a canonical projection $\oversline{\rho} \;\colon\; V//G \to \mathbf{B}G$. This is the [[universal associated infinity-bundle|universal rho-associated bundle]].
+
+
+## Related concepts
+
+* [[quotient]], [[quotient space]], [[quotient type]]
+
+* [[action groupoid]]
+
+* [[Borel construction]]
+
+* [[(infinity,1)-colimit]], [[infinity-action]]
+
+* [[mapping stack]]
+
+[[!redirects quotient stacks]]
