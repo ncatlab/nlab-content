@@ -22,6 +22,13 @@ In [[type theory]] the kind of [[type]] corresponding in [[categorical semantics
 
 Quotient type may be constructed as [[higher inductive types]]. See [here](higher+inductive+type#QuotientsOfSets)
 
+## Related concepts
+
+* [[quotient]]
+
+* [[quotient space]]
+
+* [[quotient stack]]
 
 [[!redirects quotient type]]
 [[!redirects quotient types]]
