@@ -1,5 +1,9 @@
 
-> This entry is about the notion in [[physics]]. For the notion of the same name in [[algebra]] see at _[[field]]_.
+
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
+> This entry is about the notion in [[physics]]. For the different notion of the same name in [[algebra]] see at _[[field]]_.
 
 ***
 
@@ -637,6 +641,70 @@ Not all examples fall squarely into one of these types, some are mixtures of the
 
 In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to moduli stacks $\mathbf{B}G_{conn}$ of [[connection on an ∞-bundle|∞-connections]] so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
 
++-- {: bluebox}
+###### Examples ######
+
+1. [Sigma-model fields](#SigmaModelFields)
+
+   1. [Uncharged scalar particle](#UnchargedScalarField)
+
+   1. [Particle trajectors](#ParticleTrajectory)
+
+   1. [Brane trajectory](#BraneTrajectory)
+
+1. [Force fields](#ForceFields)
+
+   1. [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
+
+   1. [General -- G-structure: twisted lift of structure group](##GStructure)
+
+   1. [Gravity](#OrdinaryGravity)
+
+   1. [Spin structures](#SpinStructures)
+
+   1. [Spin-c structures](#SpinStructures)
+
+   1. [Type II gravity, exceptional geometry](##TypeIIGravity)
+
+   1. [Higher spin structures](#HigherSpinStructures)
+
+   1. [Higher spin-c structures](#HigherSpincstructures)
+
+1. [Gauge fields](#GaugeFields)
+
+   1. [General -- Coefficients in differential cohomology: connections](#GaugeFieldsGeneral)
+
+   1. [Electromagnetic field](#ElectromagneticField)
+
+   1. [Yang-Mills field](#YangMillsField)
+
+   1. [Kalb-Ramond B-field](#KalbRamondBField)
+
+   1. [Supergravity C-field](#SupergravityCField)
+
+1. [Matter fields](#MatterFields)
+
+   1. [General -- Sections of associated bundles](#SectionsOfAssociatedBundles)
+
+   1. [Fermions](#Fermions)
+
+   1. [Tensor fields](#TensorFields)
+
+1. [Fields combining these properties](##FieldCombiningVariousProperties)
+
+   1. [General -- Twisted differential cocycles and c-structures](#TwistedDifferentialcStructurs)
+
+   1. [Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)
+
+   1. [3d Chern-Simons field with Wilson line](#ChernSimonsWithWilsonLines)
+
+   1. [Chan-Paton gauge bundles on D-branes: twisted differential K-cocycles](#ChanPatonGaugeFields)
+
+   1. [Anomaly-free heterotic string background: differential String-c structures](#HeteroticStringBackgroundField)
+
+=--
+
+
 ### **0)** Sigma-model fields
  {#SigmaModelFields}
 
@@ -676,6 +744,7 @@ Therefore such wordline [[sigma-model]] fields are given by the special case of 
 
 
 #### Brane trajectory
+ {#BraneTrajectory}
 
 More generally, the [[worldvolume]] fields of any [[brane]] [[sigma-model]] with [[target space]] $X$ are given as [above](#ParticleTrajectory).
 
@@ -727,6 +796,22 @@ $$
 
 in $\mathbf{H}_{/\mathbf{B}G}$.
 These kinds of fields are interpreted as fields of [[gravity]] and its variants, as shown by the following examples.
+
+For recognizing traditional constructions in this formulation, the following basic fact is important.
+
++-- {: .num_prop #CosetIsHomotopyFiberOfDeloopedInclusion}
+###### Proposition
+
+For $\iota \colon H \hookrightarrow G$ an [[subgroup]] inclusion of [[Lie groups]], we have a [[homotopy fiber sequence]]
+
+$$
+  G/H \to \mathbf{H} \stackrel{\mathbf{B}\iota}{\to} \mathbf{G}
+$$
+
+with the [[coset space]] on the left.
+
+=--
+
 
 
 ##### Gravity
@@ -1057,7 +1142,7 @@ in $\mathbf{H}_{/\mathbf{B}G}$ and for $H \hookrightarrow$ the inclusion of the 
 
 Such fields naturally appear in [[theory (physics)|theories]] of higher-dimensional [[supergravity]], where related to the [[T-duality]] and more generally [[U-duality]] structure of these [[theory (physics)|theories]].
 
-Notably in manifestly [[T-duality]]-equivariant [[type II supergravity]] the [[generalized tangent bunde]] on the $n$-dimensional [[spacetime]] is an $O(n,n)$-[[principal bundle]] $\tau^{gen}_X \;\colon\; X \to \mathbf{B}O(n,n)$. The corresponding [[maximal compact subgroup]] inclusion yields the moduli stack of fields
+Notably in manifestly [[T-duality]]-equivariant [[type II supergravity]] the [[generalized tangent bundle]] on the $n$-dimensional [[spacetime]] is an $O(n,n)$-[[principal bundle]] $\tau^{gen}_X \;\colon\; X \to \mathbf{B}O(n,n)$. The corresponding [[maximal compact subgroup]] inclusion yields the moduli stack of fields
 
 $$
   \mathbf{Fields}
@@ -1232,6 +1317,7 @@ These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz m
  {#GaugeFields}
 
 ##### **General** -- Coefficients in differential cohomology: $\infty$-connections
+ {#GaugeFieldsGeneral}
 
 The term _gauge field_ in _[[gauge theory]]_ with respect to a [[gauge group]] $G$ refers to fields which are modeled by [[connection on a bundle|connections]] either on $G$-[[principal bundles]] or on [[associated bundles]] for these. The notion of [[equivalence]] between two such fields (hence between [[connections on bundles]]) is the original meaning of the word _[[gauge transformation]]_, even though that term is also used for equivalences between fields which are not modeled by connections.
 
@@ -1240,6 +1326,7 @@ We discuss the general notion of gauge fields and then various special cases and
 [[!include gauge field - table]]
 
 ##### Electromagnetic field
+ {#ElectromagneticField}
 
 A field configuratiotion of the [[electromagnetic field]] is a [[circle n-bundle with connection|circle bundle with connection]] and a [[gauge transformation]] of the EM field is an equivalence of such connections.
 
@@ -1265,9 +1352,14 @@ in def. \ref{FieldsInAnActionFunctional} yields the type of the electromagnetic 
 
 
 ##### Yang-Mills field
+ {#YangMillsField}
 
-More generally, for $G$ a [[Lie group]], $\mathfrak{g}$ it [[Lie algebra]]
-and $\Omega^1(-,\mathfrak{g})$ the sheaf of [[Lie algebra valued 1-forms]], write
+More generally, let $G$ be a [[Lie group]], and $\mathfrak{g}$ its [[Lie algebra]]. Write $\Omega^1(-,\mathfrak{g})$ the sheaf of [[Lie algebra valued 1-forms]]
+
++-- {: .num_defn #ModuliStackOfGPrincipalConnection}
+###### Definition
+
+The **moduli stack of $G$-[[principal connections]]** is the [[quotient stack]]
 
 $$
   \mathbf{B}G_{conn}
@@ -1275,7 +1367,16 @@ $$
   \Omega^1(-,\mathfrak{g})//G
 $$
 
-for the [[quotient stack]] of the [[action]] of $G$ on its differential forms by [[gauge transformation]]. This is the [[moduli stack]] for smooth $G$-[[principal connections]], and these model the $G$-[[Yang-Mills field]]. Hence setting $\mathbf{BgFields} \simeq *$ and
+of the [[action]] of $G$ on it [[Lie algebra valued differential forms]] by [[gauge transformations]] 
+
+$$
+  g \colon A^g \coloneqq \mapsto A^g Ad_g A + g^* \theta 
+  \,.
+$$ 
+
+=--
+
+This is the [[moduli stack]] of the $G$-[[Yang-Mills field]]. Hence setting $\mathbf{BgFields} \simeq *$ and
 
 $$
   \mathbf{Fields} \coloneqq \mathbf{B}G_{conn}
@@ -1286,6 +1387,7 @@ in def. \ref{FieldsInAnActionFunctional} yields [[Yang-Mills fields]].
 
 
 ##### Kalb-Ramond $B$-field
+ {#KalbRamondBField}
 
 Let 
 
@@ -1310,6 +1412,7 @@ gauge field known as the _[[B-field]]_ or the _[[Kalb-Ramond field]]_.
 
 
 ##### Supergravity $C$-field
+ {#SupergravityCField}
 
 Proceeding in this fashion, let 
 
@@ -1406,6 +1509,7 @@ $$
 in [[supergeometry]] (...)
 
 #### Tensor fields
+ {#TensorFields}
 
 While the term _physical field_ probably orignates from _[[tensor field]]_, few fields are fundamentally given by tensor fields. Nevertheless, tensor fields, being [[sections]] of a [[tensor product]] of copies of the [[tangent bundle]] and the [[cotangent bundle]] are certainly examples of the general notion of field as in def. \ref{FieldsInAnActionFunctional}. Gere we spell this out.
 
@@ -1454,7 +1558,7 @@ $$
     \mathbf{B}\hat G_{conn} &\stackrel{\hat \mathbf{c}}{\to}&
    \mathbf{B}G_{conn}
      \\
-     \donwnarrow && \downarrow
+     \downarrow && \downarrow
      \\
      \mathbf{B}\hat G &\stackrel{\mathbf{c}}{\to}&
      \mathbf{B}G
@@ -1479,23 +1583,38 @@ $$
   \,.
 $$
 
-This is a differential refinement of fields which are [[cocycles]] in [[twisted cohomology]] with local [[coefficients]] $V$, hence **[[twisted differential cohomology**. The above case of [[twisted differential c-structures]] is a special case of this for $V \simeq \mathbf{B}A$ the [[delooping]] of the [[∞-group]] that [[∞-group extension|extended]] $G$ to $\hat G$.
+This is a differential refinement of fields which are [[cocycles]] in [[twisted cohomology]] with local [[coefficients]] $V$, hence **twisted differential cohomology**. The above case of [[twisted differential c-structures]] is a special case of this for $V \simeq \mathbf{B}A$ the [[delooping]] of the [[∞-group]] that [[∞-group extension|extended]] $G$ to $\hat G$.
 
 Some further slight variants of these combinations appear in the examples below. 
 
-#### Nonabelian charged particle
+#### Nonabelian charged particle trajectories -- Wilson line
  {#NonabelianChargedParticle}
 
 We describe here a variant of the particle propagating on a spacetime $X$, where now the particle is charged under a [[background gauge field]] for a nonabelian [[gauge group]] $G$. 
 
-Equivalently the charged particle is a field in [[1d Chern-Simons theory]].
 
-Let $G$ be a [[simple Lie group]] which is connected, simply connected and compact.
+Let $G$ be a [[simple Lie group]] which is connected, simply connected and [[compact Lie group|compact]].
 
-Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
-[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
+Let $\rho$ be an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ under which the particle is to be [[charged particle|charged]]. By the [[Borel-Weil-Bott theorem]] this corresponds equivalently to a [[weight (in representation theory)|weight]]
 
-Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
+$$
+  \langle \lambda, -\rangle
+  \in
+  \mathfrak{g}^*
+  \,.
+$$
+
+Let $T \simeq G_\lambda \hookrightarrow G$ be the [[maximal torus]] which is the [[stabilizer subgroup]] that fixes this weight under the [[coadjoint action]] of $G$ on its dual [[Lie algebra]] $\mathfrak{g}^*$.
+
+Set then in def. \ref{FieldsInAnActionFunctional} the [[moduli stack]] of [[background fields]] to be 
+
+$$
+  \mathbf{BgField} \colon \Omega^1(-,\mathfrak{g})//G \simeq \mathbf{B}G_{conn}
+  \;\;\;
+  \mathbf{H}
+$$
+
+as in def. \ref{ModuliStackOfGPrincipalConnection}. Moreover, let the moduli $\infty$-stack of fields in $\mathbf{H}_{/\mathbf{B}G_{conn}}$ be given by the canonical map
 
 $$
   \mathbf{Fields} 
@@ -1507,7 +1626,81 @@ $$
    \mathbf{B}G_{conn}
 $$
 
-(...)
+which is induced by the defining inclusion of $T$.
+
++-- {: .num_remark}
+###### Remark
+
+For $U \in$ [[CartSp]] $\hookrightarrow \mathbf{H}$ a field $\phi \colon U \to \Omega^1(-,\mathfrak{g})//T$ is equivalently a [[Lie algebra valued form]] $A \in \Omega^1(U,\mathfrak{g})$, but a [[gauge transformation]] of such a field is constrained to be a smooth $T$-valued function $t \in C^\infty(U,T) \hookrightarrow C^\infty(U, G)$ instead of an arbitrary $G$-valued function.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+With these definitions we have for $X$ a [[manifold]] that
+
+* a [[background gauge field]] $\Phi_X \;\colon\; X \to \mathbf{B}G_{conn}$ is equivalently a $G$-[[principal connection]] on $X$ (which if $G$ is assumed connected and simply connected and $\Sigma$ is of [[dimension]] at most 3 is equivalently just a [[Lie algebra valued form]]);
+
+* a field configuration is a diagram in $\mathbf{H}$ of the form
+
+  $$
+    \array{  
+      X &&\stackrel{\nabla^g}{\to}&& \Omega^1(-,\mathfrak{g})//T
+      \\
+      & {}_{\nabla}\searrow &\swArrow_{g}& \swarrow_{\mathrlap{\mathbf{Fields}}}
+      \\
+      && \mathbf{B}G_{conn}
+    }
+    \,,
+  $$
+  
+  which is equivalently a differentially refined [[reduction of the structure group]] of the $G$-[[principal bundle]] underlying $\nabla$. If $\nabla$ is given by a globally defined connection form $A$ then this is equivalently just a smooth $G$-valued function $g$ on $X$ that takes $A$ to $A^g$ as indicated. 
+
+=--
+
+As a slight variant of prop. \ref{CosetIsHomotopyFiberOfDeloopedInclusion} we have
+
++-- {: .num_prop}
+###### Proposition
+
+We have a [[homotopy fiber sequence]]
+
+$$
+  \mathcal{O}_\lambda \simeq G/T \to \Omega^1(-,\mathfrak{g})//T
+  \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G_{conn}
+  \,,
+$$
+
+where on the left we have the [[coadjoint orbit]] of $\langle \lambda , -\rangle$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This implies that if $\nabla = 0$ is the trivial background field, than fields $\phi : X \to \mathbf{Fields}$ are equivalently maps to the coadjoint orbit
+
+$$
+  [X, \mathbf{Fields}]_{\matbf{H}}|_{\Phi_X = 0}
+  \simeq
+  C^\infty(X, \mathcal{O}_\lambda)
+  \,.
+$$
+
+Hence in this sector we have simply a [[sigma-model]] field as in [Sigma-models](#SigmaModelFields) above. 
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There is a canonical [[extended Lagrangian]] on $[X, \mathbf{Fields}]_{\mathbf{H}}$ with the above definitions, whose [[action functional]], if $X = S^1$ is the closed connected 1-dimensional manifold,  is that of a [[1d Chern-Simons theory]]. The [[partition function]] of the corresponding [[quantum field theory]] is the [[holonomy]] map  -- the "[[Wilson line]]" -- on the background gauge field connection $\nabla$.
+
+=--
+
+This is discussed further at [geometry of physics -- Prequantum gauge theory and gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories).
 
 
 #### 3d Chern-Simons field with Wilson line
@@ -1523,6 +1716,18 @@ $$
 
 #### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
  {#ChanPatonGaugeFields}
+
+$$
+  \mathbf{Fields}
+  \colon
+  (U(n)//\mathbf{B}U(1))_{conn}
+  \to
+  \mathbf{B}^2 U(1)_{conn}
+$$
+
+[[twisted bundle]] with connection
+
+(...)
 
 #### Anomaly-free heterotic string background: differential $String^c$-structure
  {#HeteroticStringBackgroundField}
