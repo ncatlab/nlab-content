@@ -631,21 +631,48 @@ Not all examples fall squarely into one of these types, some are mixtures of the
 
 * [Fields combining various of these properties](#FieldCombiningVariousProperties)
 
-In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to $\mathbf{B}G_{conn}$ so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to moduli stacks $\mathbf{B}G_{conn}$ of [[connection on an ∞-bundle|∞-connections]] so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
 
 ### **0)** Sigma-model fields
 
-[[sigma-model]]
 
-#### Particle
+#### Scalar field
 
-[[particle]]
+A _[[scalar field]]_ is simple a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ or the [[complex numbers]] $\mathbb{C}$. Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
+
+$$
+  \mathbf{BgFields} \coloneqq *
+$$
+
+and 
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbb{R} \to *
+$$
+
+or
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbb{C} \to *
+$$
+
+or similar.
+
+For instance the [[inflaton field]] in the [[standard model of cosmology]] is of this form.
+
+#### Particle trajectory
+
+The dynamics of a [[particle]] propagating in a [[spacetime]] $X$ is descrived by a field on the abstract [[worldline]] which is simply a [[smooth function]] $\mathbb{R} \to X$ to the [[target space]] $X$
 
 $\mathbf{Fields} = $ [[spacetime]]
 
+One field configuration here is equivalently a [[trajectory]] of the particle in spacetime. This is [[sigma-model]] field for 1-dimensional sigma-models
+
 #### Charged particle
 
-[[1d Chern-Simons theory]]
+We describe here a variant of the particle propagating on a spacetime $X$, where now the particle is charged under a [[background gauge field]]. The nature of this background gauge field is only discussed further below in _[Gauge fields](#GaugeFields)_. The reader unfamiliar with that should skip ahead and then come back here afterwards.
+
+Equivalently the charged particle is a field in [[1d Chern-Simons theory]].
 
 Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
 [[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
@@ -694,13 +721,13 @@ $$
   \,.
 $$
 
-If the [[∞-extension]] is central in that it extends to a [[homotopy fiber sequence]] of the form
+If the [[∞-group extension]] is central in that it extends to a [[homotopy fiber sequence]] of the form
 
 $$
   \mathbf{B}A \to \mathbf{B}\hat G \stackrel{\mathbf{Bp}}{\to} \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^2 A
 $$
 
-then a [[twisted c-structure]] is a map
+then a [[twisted differential c-structure]] is a map
 
 $$
   \phi 
@@ -924,7 +951,7 @@ $$
 
 ##### Type II gravity, exceptional geometry
 
-[[type II generalized geometry]]
+[[type II geometry]]
 
 $$
   \mathbf{Fields} 
@@ -1116,7 +1143,7 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 
 #### Twisted differential $\mathbf{c}$-structures
 
-* [[twisted differential C-structure]]
+* [[twisted differential c-structure]]
 
 #### Anomaly-free background heterotic string background: differential $String^c$-structure
 
