@@ -1,0 +1,35 @@
+
+[[field (physics)]]
+
+## Standard model
+
+[[standard model of particle physics]]
+
+**[[force]] [[field (physics)]] [[gauge field|gauge]] [[bosons]]**
+
+* [[photon]] - [[electromagnetic field]] (abelian [[Yang-Mills field]])
+
+* [[W-boson|W]], [[Z-boson|Z]], [[B-boson]] - [[electroweak field]] ([[Yang-Mills field]])
+
+* [[gluon]] - [[strong nuclear force]] ([[Yang-Mills field]])
+
+* [[graviton]] - [[field (physics)|field]] of [[gravity]]
+
+**[[matter]] [[field (physics)|field]] [[fermions]]**
+
+* [[electron]]
+
+* [[quark]]
+
+* [[neutrino]]
+
+## Supersymmetric standard model
+
+[[MSSM|minimally extended supersymmetric standard model]]
+
+**[[superpartner]] [[gauge field]] [[fermions]]**
+
+* [[gravitino]] - [[field (physics)|field]] of [[supergravity]]
+
+* [[gaugino]] - [[super Yang-Mills theory|super Yang-Mills field]]
+
