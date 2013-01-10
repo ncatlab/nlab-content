@@ -50,6 +50,8 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 * [[quotient space]], [[geometric invariant theory]]
 
+* [[quotient stack]]
+
 * In [[type theory]]/[[homotopy type theory]] the analogous concept is that of [[quotient types]].
 
 [[!redirects quotient object]]
