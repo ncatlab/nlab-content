@@ -636,46 +636,50 @@ In particular the moduli stacks $\mathbf{B}G$ here are typically all differentia
 ### **0)** Sigma-model fields
  {#SigmaModelFields}
 
+Traditionally a [[sigma-model]] field is a type of fields given simply by ([[smooth function|smooth]]) [[functions]] $\Sigma \to X$ from a [[worldvolume]] $\Sigma$ to a [[target space]] $X$. Now, by the general unified definition def. \ref{FieldsInAnActionFunctional} and as shown in the following sections, in [[higher geometry]] _every_ type of field is of this form if we allow [[target space]] $X$ to be a general [[∞-stack]] and functions to be maps in a suitable [[slice (∞,1)-topos]]. Nevertheless, here we start with briefly indicating those examples that are [[sigma-model]] fields also in the traditional restrictive sense of the term.
 
-#### Scalar field
+#### Uncharged scalar field
+ {#UnchargedScalarField}
 
-A _[[scalar field]]_ is simple a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ or the [[complex numbers]] $\mathbb{C}$. Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
+A _[[scalar field]]_ is given simply by a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ ("real scalar fiedl") or the [[complex numbers]] $\mathbb{C}$ ("complex scalar field"). Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
 
 $$
   \mathbf{BgFields} \coloneqq *
 $$
 
-and 
+(the [[terminal object]]) and with the field moduli stack being the map
 
 $$
   \mathbf{Fields} \;\colon\; \mathbb{R} \to *
 $$
 
-or
+from (the [[smooth manifold]] underlying) the [[real numbers]] to the point, or else
 
 $$
   \mathbf{Fields} \;\colon\; \mathbb{C} \to *
 $$
 
-or similar.
+regarded as an object in $\mathbf{H}_{/*} \simeq \mathbf{H}$.
 
-For instance the [[inflaton field]] in the [[standard model of cosmology]] is of this form.
+[[scalar field|Scalar fields]] are, due to their simplicity, prominent in toy examples used to discuss general properties of [[quantum field theory]]. The only  fundamental scalar particle observed in nature to date is the [[Higgs particle]] (or presumeably so, in [[technicolor]] models it is not actually fundamental but a composite of [[fermion]] particles, discussed [below](#Fermions)), but the Higgs field is, crucially, charged under the [[electroweak field|electroweak]] [[special unitary group|SU(2)]]-[[gauge field]]. A [[model (in theoretical physics)|model]] of relevance in [[phenomenology]] which crucially features an uncharged scalar particle is [[cosmic inflation]]. But the fundamental nature of the [[inflaton field]] is hypothetical (if it exsists at all), it might well be the [[effective QFT|effective]] version of non-scalar fields.
 
 #### Particle trajectory
+ {#ParticleTrajectory}
 
-The dynamics of a [[particle]] propagating in a [[spacetime]] $X$ is descrived by a field on the abstract [[worldline]] which is simply a [[smooth function]] $\mathbb{R} \to X$ to the [[target space]] $X$
+The dynamics of a [[particle]] propagating in a [[spacetime]] $X$ is described by a field on the abstract [[worldline]] which is simply a [[smooth function]] $\mathbb{R} \to X$ to the [[target space]] $X$: a [[trajectory]] of the particle. The [[quantum mechanics]] that describes the [[dynamics]] of such a quantum particle is equivalently a 1-dimensional field theory on the [[worldline]], with these maps as its physical fields. 
 
-$\mathbf{Fields} = $ [[spacetime]]
-
-One field configuration here is equivalently a [[trajectory]] of the particle in spacetime. This is [[sigma-model]] field for 1-dimensional sigma-models
+Therefore such wordline [[sigma-model]] fields are given by the special case of def. \ref{FieldsInAnActionFunctional} with trivial [[background field]] $\mathbf{BgFields} \simeq *$ and with $\mathbf{Fields} \;\colon\; X \to * $ regarded as an object in $\mathbf{H}_{/*} \simeq \mathbf{H}$. 
 
 
+#### Brane trajectory
+
+More generally, the [[worldvolume]] fields of any [[brane]] [[sigma-model]] with [[target space]] $X$ are given as [above](#ParticleTrajectory).
 
 
 ### **I)** Force fields
  {#ForceFields}
 
-The two classes of [[force]] fields are:
+We discuss examples for the two classes of [[force]] fields, which are:
 
 * [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry);
 
@@ -709,20 +713,22 @@ $$
   \mathbf{B}A \to \mathbf{B}\hat G \stackrel{\mathbf{Bp}}{\to} \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^2 A
 $$
 
-then a [[twisted differential c-structure]] is a map
+then a [[twisted differential c-structure|twisted c-structure]] is a map
 
 $$
   \phi 
    \;\colon\;
   g_X \to \mathbf{c}
-  \,.
 $$
 
-These kinds of fields are interpreted as field of [[gravity]] and its variants.
+in $\mathbf{H}_{/\mathbf{B}G}$.
+These kinds of fields are interpreted as fields of [[gravity]] and its variants, as shown by the following examples.
 
 
 ##### Gravity
  {#OrdinaryGravity}
+
+We discuss the formulation of the field of [[gravity]] as a special case of def. \ref{FieldsInAnActionFunctional}.
 
 +-- {: .num_defn}
 ###### Definition
@@ -737,7 +743,7 @@ $$
   \mathbf{B}GL(n)
 $$
 
-the [[delooping]] of the [[Lie group|Lie]]-[[subgroup]] inclusion of the [[orthogonal group]] into the [[general linear group]] in [[dimension]] $n$ (the inclusion of the [[maximal compact subgroup]]).
+be the [[delooping]] of the [[Lie group|Lie]]-[[subgroup]] inclusion of the [[orthogonal group]] into the [[general linear group]] in [[dimension]] $n$ (the inclusion of the [[maximal compact subgroup]]).
 
 For $X \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \coloneqq$ [[Smooth∞Grpd]] a [[smooth manifold]] of [[dimension]] $n$, write
 
@@ -917,12 +923,17 @@ is the accurate space of [[general covariance|generally covariant]] fields of [[
 ##### $Spin$-structures
  {#SpinStructures}
 
-* [[spin structure]]
+In theories with [[fermions]] (discussed [below](#Fermions)) the field of [[gravity]] is more refined than just a [[vielbeing field]] as [above](#OrdinaryGravity), hence an [[orthogonal structure]] on [[spacetime]]: it also involves an [[orientation structure]] and a [[spin structure]].
+
+To see that these structures are really all (fields) of the same kind, observe that they are the lifts through the first step of the [[Whitehead tower]] of $\mathbf{B}GL$
+
+Hence for [[spin structure]] fields
 
 $$
   \mathbf{Fields} 
   \;\colon\;
   \mathbf{B}Spin(n) \to \mathbf{B}SO(n)
+  \,.
 $$
 
 ##### $Spin^c$-structures
@@ -1009,16 +1020,7 @@ $$
 $$
 
 
-##### 3d Chern-Simons field with Wilson line
- {#ChernSimonsWithWilsonLines}
 
-[[Chern-Simons theory]] with [[Wilson loops]]
-
-$$
-  \mathbf{Fields}
-  : 
-  \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
-$$
 
 ##### Kalb-Ramond $B$-field
 
@@ -1193,6 +1195,16 @@ $$
 (...)
 
 
+##### 3d Chern-Simons field with Wilson line
+ {#ChernSimonsWithWilsonLines}
+
+[[Chern-Simons theory]] with [[Wilson loops]]
+
+$$
+  \mathbf{Fields}
+  : 
+  \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
+$$
 
 #### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
  {#ChanPatonGaugeFields}
