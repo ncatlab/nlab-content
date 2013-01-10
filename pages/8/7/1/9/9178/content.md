@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _quarlk_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]].
+
+## Related concepts
+
+[[force]] [[gauge field]]
+
+* [[graviton]]
+
+* [[photon]]
+
+* [[gluon]]
+
+[[matter]]
+
+* [[electron]]
+
+* [[quark]]
+
+* [[neutrino]]
+
+[[!redirects quarks]]
