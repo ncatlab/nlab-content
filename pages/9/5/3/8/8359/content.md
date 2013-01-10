@@ -75,6 +75,14 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 * $\Omega_\Lambda =  \frac{\Lambda}{a^2}$ of [[cosmological constant]];
 
+## Related concepts
+
+* [[big bang]]
+
+* [[cosmic inflation]]
+
+* [[standard model of cosmology]]
+
 ## References
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
