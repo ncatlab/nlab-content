@@ -1,7 +1,7 @@
 
 ## Definition
 
-A **topotally isotropic subspace** of an [[inner product space]] is a sub-[[vector space]] on which the [[bilinear form]] vanishes.
+A **totally isotropic subspace** of an [[inner product space]] is a sub-[[vector space]] on which the [[bilinear form]] vanishes.
 
 An **isotropic subspace** of a [[symplectic vector space]] is a [[vector space|vector subspace]] on which the [[symplectic form]] vanishes.
 
