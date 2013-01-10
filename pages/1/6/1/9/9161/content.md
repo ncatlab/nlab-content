@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within the [[frequency]] range of _visible light_ and a bit below ([[infrared]]) and above ([[ultraviolet]]) that): light is _electromagnetic [[radiation]]_. 
+The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (sometimes the term is limited to the [[frequency]] range of _visible light_ and a bit below ([[infrared]]) and above ([[ultraviolet]]) that): light is appearing as _[[electromagnetic radiation]]_. 
 
 ## Properties
 
@@ -34,7 +34,3 @@ The [[quanta]] of light are [[photons]]. The [[speed of light]] in [[vacuum]] pl
 [[!redirects EM waves]]
 [[!redirects em wave]]
 [[!redirects em waves]]
-
-[[!redirects electromagnetic radiation]]
-[[!redirects EM radiation]]
-[[!redirects em radiation]]
