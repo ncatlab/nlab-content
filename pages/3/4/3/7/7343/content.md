@@ -25,7 +25,7 @@ The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimens
 
 ### Moduli space of vacua
 
-A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. ([Seiberg-Witten 94](#SeibergWitten94))
+A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94))
 
 ### Reduction to $D = 3$ super Yang-Mills
 
@@ -41,7 +41,7 @@ By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$
 
 * [[N=4 D=3 super Yang-Mills theory]]
 
-* [[electric-magnetic duality]], [[symplectic duality]]
+* [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
 
 * [[AGT correspondence]]  
 
@@ -74,7 +74,7 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 
 ### Lifts to M-theory
 
-Seiberg-Witten theory ([Seiberg-Witten](SeibergWitten94)) for $N=2$, $D=4$ SYM has a nice geometrical description in terms of [[M5-brane]] compactifications, discussed in 
+[[Seiberg-Witten theory]] ([Seiberg-Witten](SeibergWitten94)) for $N=2$, $D=4$ SYM has a nice geometrical description in terms of [[M5-brane]] compactifications, discussed in 
 
 * A. Klemm, W. Lerche, P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
 
