@@ -78,6 +78,9 @@ ordinary notion of orientation described above.
 
 * [[orientation double cover]]
 
+[[!include higher spin structure - table]]
+
+
 [[!redirects orientable]]
 
 [[!redirects oriented]]
