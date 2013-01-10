@@ -634,6 +634,7 @@ Not all examples fall squarely into one of these types, some are mixtures of the
 In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to moduli stacks $\mathbf{B}G_{conn}$ of [[connection on an ∞-bundle|∞-connections]] so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
 
 ### **0)** Sigma-model fields
+ {#SigmaModelFields}
 
 
 #### Scalar field
@@ -668,26 +669,7 @@ $\mathbf{Fields} = $ [[spacetime]]
 
 One field configuration here is equivalently a [[trajectory]] of the particle in spacetime. This is [[sigma-model]] field for 1-dimensional sigma-models
 
-#### Charged particle
 
-We describe here a variant of the particle propagating on a spacetime $X$, where now the particle is charged under a [[background gauge field]]. The nature of this background gauge field is only discussed further below in _[Gauge fields](#GaugeFields)_. The reader unfamiliar with that should skip ahead and then come back here afterwards.
-
-Equivalently the charged particle is a field in [[1d Chern-Simons theory]].
-
-Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
-[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
-
-Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
-
-$$
-  \mathbf{Fields} 
-  \;\colon\;
-  \Omega^1(-,\mathfrak{g})//T
-  \to 
-  \Omega^1(-,\mathfrak{g})//G
-  \simeq
-   \mathbf{B}G_{conn}
-$$
 
 
 ### **I)** Force fields
@@ -1138,17 +1120,87 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 
 
 
-### Fields combining all these properties
+### Fields combining these properties
  {#FieldCombiningVariousProperties}
 
-#### Twisted differential $\mathbf{c}$-structures
+The above distinction of types of physical fields into into [Sigma-model fields](SigmaModelFields), [Force fields of gravity](#FieldsOfGravityAndGeneralizedGeometry), [Gauge force fields](#GaugeFields) and [Matter fields](#MatterFields) can be helpful for reasoning about fields and types of [[theories (physics)|theories in physics]], but is not fundamental. The general definition \ref{FieldsInAnActionFunctional} of which all these types are examples reflects that. In fact, one way to read that definition and the above list of examples is to say that it shows that in [[higher geometry]] _all_ types of fields are [[sigma-model]] fields: they are all given as maps $\Phi_X \to \mathbf{Fields}$ from a domain [[spacetime]]/[[worldvolume]]+[[background field]] $\Phi_X$ to a generalized [[target space]] $\mathbf{Fields}$ (the [[moduli ∞-stack]] of fields in the given [[slice (∞,1)-topos]] characterized by the nature of the [[background fields]]).
 
-* [[twisted differential c-structure]]
+Accordingly, a general physical field in a general [[theory (physics)|theory]] does not fall squarely into one of the above categories, but combines aspects of all of these. Here we discuss such examples. 
 
-#### Anomaly-free background heterotic string background: differential $String^c$-structure
+#### **General** -- Twisted differential-cocycles and -$\mathbf{c}$-structures
+ {#TwistedDifferentialcStructurs}
+
+We have seen that the [[moduli ∞-stack]] of a field of plain [[gravity]] or general geometry is a map $\mathbf{c} \colon \mathbf{B}\hat G \to \mathbf{B}G$ of [[moduli ∞-stack]] of [[principal ∞-bundles]], regarded as an object in the [[slice (∞,1)-topos|slice]] $\mathbf{H}_{/\mathbf{B}G}$, and that the [[moduli ∞-stack]] of a plain $G$-[[gauge field]] is that of [[principal ∞-connections]] $\mathbf{B}G_{conn}$. These two concepts have an evident unification if $\mathbf{c}$ has a differential refinement $\at \mathbf{c}$ to a map of differential moduli stacks
+
+$$  
+  \array{
+    \mathbf{B}\hat G_{conn} &\stackrel{\hat \mathbf{c}}{\to}&
+   \mathbf{B}G_{conn}
+     \\
+     \donwnarrow && \downarrow
+     \\
+     \mathbf{B}\hat G &\stackrel{\mathbf{c}}{\to}&
+     \mathbf{B}G
+  }
+  \,,
+$$
+
+regarded then as an object in the slice $\mathbf{H}_{/\mathbf{B}G_{conn}}$.
+
+Since, as discussed [above](#GStructure), a field with coefficients in $\mathbf{c}$ is equivalently a _twisted $\mathbf{c}$-structure_, we may calla field with coefficients in $\hat \mathbf{c}$ a 
+**[[twisted differential c-structure]]**.
+
+Moreover, we have seen that [matter fields](#MatterFields) have 
+[[moduli ∞-stacks]] coming not from a direct [[delooping]] $\mathbf{B}G \simeq *//G$ of an [[∞-group]] $G$, but from the [[homotopy quotient]] $V//G$ of an [[∞-action]] of $G$ on some object $V$. Combining this with differential refinement as above we consider fields whose [[moduli ∞-stacks]] are maps
+
+$$
+  (V//G)_{conn}
+  \stackrel{\hat \mathbf{c}}{\to}
+  (\mathbf{B}G)_{conn}
+  \;\;\;\;
+  \in \mathbf{H}_{/\mathbf{B}G_{conn}}
+  \,.
+$$
+
+This is a differential refinement of fields which are [[cocycles]] in [[twisted cohomology]] with local [[coefficients]] $V$, hence **[[twisted differential cohomology**. The above case of [[twisted differential c-structures]] is a special case of this for $V \simeq \mathbf{B}A$ the [[delooping]] of the [[∞-group]] that [[∞-group extension|extended]] $G$ to $\hat G$.
+
+Some further slight variants of these combinations appear in the examples below. 
+
+#### Nonabelian charged particle
+ {#NonabelianChargedParticle}
+
+We describe here a variant of the particle propagating on a spacetime $X$, where now the particle is charged under a [[background gauge field]] for a nonabelian [[gauge group]] $G$. 
+
+Equivalently the charged particle is a field in [[1d Chern-Simons theory]].
+
+Let $G$ be a [[simple Lie group]] which is connected, simply connected and compact.
+
+Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
+[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
+
+Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \Omega^1(-,\mathfrak{g})//T
+  \to 
+  \Omega^1(-,\mathfrak{g})//G
+  \simeq
+   \mathbf{B}G_{conn}
+$$
+
+(...)
+
+
+
+#### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
+ {#ChanPatonGaugeFields}
+
+#### Anomaly-free heterotic string background: differential $String^c$-structure
+ {#HeteroticStringBackgroundField}
 
 * [[twisted differential string structure]]
-
 
 ## Related concepts
 
