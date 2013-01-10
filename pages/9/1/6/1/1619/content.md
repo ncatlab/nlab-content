@@ -350,6 +350,9 @@ The rest of the diagram is constructed in order to prove the following:
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
 
+[[!include higher spin structure - table]]
+
+
 ## References ##
 
 The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
