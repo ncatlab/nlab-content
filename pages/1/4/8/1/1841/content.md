@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
