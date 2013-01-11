@@ -7,27 +7,27 @@
 [[!include physicscontents]]
 =--
 #### Fields and quanta
-+--{: .hide}
++-- {: .hide}
 [[!include fields and quanta - table]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The [[observable universe]] at large scales seems to behave as if it contains large amount of [[matter]] which does have a [[gravity|gravitational effect]] but does not emit [[electromagnetic radiation]] and hence remains "dark" to telescopes. This hypothetical matter is therefore called _dark matter_.
 
-Any further details about the nature of this hypothetical dark matter remains ilusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massivle particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
+Any further details about the nature of this hypothetical dark matter remains ilusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
+
 
 ## References
 
 * [[MOND]]
+
 
 ## References
 
