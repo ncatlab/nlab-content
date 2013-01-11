@@ -520,9 +520,9 @@ $$
     \\
     {}^{\mathllap{\iota_X}}\downarrow 
     &\swArrow& 
-    \downarrow^{\mathrm{\mathbf{Fields}}}
+    \downarrow^{\mathrlap{\mathbf{Fields}}}
     \\
-    X_{bulk} &\stackrel{\phi_{bulk}}{\to}& \mathbf{Fields_{bulk}}
+    X_{bulk} &\stackrel{\phi_{bulk}}{\to}& \mathbf{Fields}_{bulk}
   }
 $$
 
@@ -620,16 +620,22 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 
 =--
 
+These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section](#spring)).
+
 
 
 ### Relation to twisted cohomology
  {#RelationToTwistedCohomology}
 
-The definition \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of [[cocycles]] in [[cohomology]] and in fact in [[twisted cohomology]] if the [[background field]] is nontrivial.
-
+We discuss here how def. \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of _[[cocycles]]_ in general _[[cohomology]]_ and in fact, if the background field is nontrivial, in _[[twisted cohomology]]_.
 This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS))
 
-In the [[diagram]] 
+First observe the following
+
++-- {: .num_remark}
+###### Remark
+
+For $\phi \;\colon\; \Phi_X \to \mathbf{Fields}$ a field configuration as in def. \ref{FieldsInAnActionFunctional} in the corresponding [[diagram]] in $\mathbf{H}$
 
 $$
   \array{
@@ -643,13 +649,13 @@ $$
   }
 $$
 
-of \ref{FieldsInAnActionFunctional} we may equivalently say that
+we have the following equivalently identifications when interpreting this as a [[cocycle]]:
 
-* the object $\mathbf{Fields} \in \matbbf{H}_{/\mathbf{BgFields}}$ is the [[local coefficient ∞-bundle]];
+* the object $\mathbf{Fields} \in \matbbf{H}_{/\mathbf{BgFields}}$ is the **[[local coefficient ∞-bundle]]**;
 
-* the [[homotopy fiber]] $V$ of $\underset{\phi \in [X, \mathbf{Fields}]}{\sum}\mathbf{Fields} \to \mathbf{BgFields}$ is the local [[coefficient]] for a [[cohomology]] theory;
+* the [[homotopy fiber]] $V$ of $\underset{\phi \in [X, \mathbf{Fields}]}{\sum}\mathbf{Fields} \to \mathbf{BgFields}$ is the **local [[coefficient]]** for a [[cohomology]] theory;
 
-* the [[background field]] $\Phi_X$ is the **twist**
+* the [[background field]] $\Phi_X$ is the **[[twisted cohomology|twist]]**
 
 * the field $\phi \colon \Phi_X \to \mathbf{Fields}$ is 
 
@@ -665,6 +671,12 @@ of \ref{FieldsInAnActionFunctional} we may equivalently say that
     H_{[\Phi_X]}(X,V) \simeq \tau_0\Gamma[X,\mathbf{Fields}]_{\mathbf{H}}
     \,.
   $$
+
+=--
+
+We see several illustrations of these identifications in the list of _[Examples](#Examples)_ below. More generally, there is a canonical identification of physical fields in the presence of background fields _and_ boundary/defect with twisted and _[[relative cohomology]]_. This we discuss below in _[Relation to relative cohomology](#RelationToRelativeCohomology)_.
+
+
 
 ### Relation to relative cohomology
  {#RelationToRelativeCohomology}
@@ -1950,6 +1962,7 @@ Lecture notes on fields as discussed here with applications in [[string theory]]
 An introductory survey is also in section 1.2 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+ {#dcct}
 
 
 ### Original articles
