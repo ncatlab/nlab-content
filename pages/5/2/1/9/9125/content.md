@@ -660,12 +660,97 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 
 =--
 
-### Relation of fields to sections of $\infty$-bundles
+### Relation to sections of $\infty$-bundles
  {#RelationOfFieldsToSections}
 
 We discuss here how def. \ref{FieldsInAnActionFunctional} equivalently says that fields are [[sections]] of an [[associated ∞-bundle]] which is associated to an $\infty$-bundle modulated by the [[background field]].
 
-(...)
+For simplicity of the discussion first consider the case that $\mathbf{BgFields} \simeq \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] $G \in Grp(\mathbf{H})$. (In typical applications in [[physics]] we instead have the differential refinement $\mathbf{B}G_{conn}$ (see below at _[Examples -- Gauge fields](#GaugeFields)_) and the following discussion is directly generalized to that case. )
+
+Then the moduli stack of fields according to def. \ref{FieldsInAnActionFunctional} is a map into $\mathbf{B}G$, regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$. To interpret this, notice the following basic fact:
+
++-- {: .num_prop #EquivalenceOfActionCategoryWithSlice}
+###### Proposition
+
+For $G \in Grp(\mathbf{H})$, the [[(∞,1)-functor]] that sends an [[∞-action]] $\rho$ of $G$ on some $V \in \mathbf{H}$ to the corresponding [[associated ∞-bundle]] of the $G$-[[universal principal ∞-bundle]] is an [[equivalence of (∞,1)-categories]]
+
+$$
+  (\mathbf{E}G)\times_G(-)
+  \;\colon\;
+  G Act(\mathbf{H})
+  \stackrel{\simeq}{\to}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Moreover there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  (\mathbf{E}G)\times_G V
+  \simeq
+  {*} \times_G V
+  \simeq
+  V//G
+$$
+
+with the [[quotient]] of $V$ by the $G$-[[∞-action]] $\rho$ (this is the general abstract and version and geometric refinement of the traditional [[Borel construction]]). 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $\rho$ an [[∞-action]] of an [[∞-group]] $G \in Grp(\mathbf{H})$ on some $V \in \mathbf{H}$ we write
+
+$$
+  V//G \stackrel{\overline{\rho}}{\to} \mathbf{B}G
+$$
+
+for the image of $\rho$ under the equivalence of prop. \ref{EquivalenceOfActionCategoryWithSlice}.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy fiber]] of $\overline{\rho}$ is $V$, hence we have a [[homotopy fiber sequence]]
+
+$$
+  \array{
+    V &\to& V//G
+    \\
+    && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+identifying $\overline{\rho}$ with a $V$-[[fiber ∞-bundle]] over $\mathbf{B}G$. Moreover, this is the _[[universal associated ∞-bundle|universal rho-associated ∞-bundle]]_: for every $G$-[[principal ∞-bundle]] $P \to X$ with modulating map $g_X \;\colon\; X \to \mathbf{B}G$ there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category]]
+
+$$
+  P \times_G V \simeq g_X^*(\overline{\rho})
+$$
+
+in $\mathbf{H}_{/X}$.
+
+=--
+
+Due to the [[universal property]] of the [[(∞,1)-pullback]] this has the following consequence which, basic as it is, is fundamental for the interpretation of fields in def. \ref{FieldsInAnActionFunctional}.
+
++-- {: .num_prop }
+###### Proposition
+
+There is a canonical [[equivalence in an (∞,1)-category]] between the [[sections]] of the $\rho$-[[associated ∞-bundle]] $P \times_X G$ and maps $g_X \to \overline{\rho}$ in the slice, hence fields in the sense of def. \ref{FieldsInAnActionFunctional} with background field $g_X$ and moduli stack $\overline{\rho}$:
+
+$$
+  \mathbf{\Gamma}_X(P \times_G V)
+  \simeq
+  [g_X, \overline{\rho}]_{\mathbf{H}}
+  \,.
+$$
+
+=--
+
 
 ### Relation to twisted cohomology
  {#RelationToTwistedCohomology}
