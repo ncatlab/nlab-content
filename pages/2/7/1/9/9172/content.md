@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Fields and quanta
-+--{: .hide}
++-- {: .hide}
 [[!include fields and quanta - table]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -23,10 +23,18 @@ The [[standard model of particle physics]] is a [[Yang-Mills theory|Yang-Mills]]
 
 The name is due to the fact that this gauge field unifies the [[electromagnetic field]] and that transmitting the [[weak nuclear force]]: the [[Higgs mechanism]] induces a [[spontaneous symmetry breaking]] of the electroweak field to these two fields. 
 
+
 ## Related concepts
 
 * [[standard model of particle physics]]
 
 
+[[!redirects electroweak]]
+[[!redirects electroweak field]]
+[[!redirects electroweak fields]]
+[[!redirects electroweak force]]
+[[!redirects electroweak forces]]
 [[!redirects electroweak theory]]
+[[!redirects electroweak theories]]
 [[!redirects electroweak model]]
+[[!redirects electroweak models]]
