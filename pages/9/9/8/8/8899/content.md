@@ -26,6 +26,7 @@ Here is a very incomplete list of software available for mathematics, especially
 ###General 
 
 * [[Mathematica]]
+* [Maple](http://www.maplesoft.com/)
 * [[Sage]]
 
 ###Computational Group Theory
@@ -46,6 +47,11 @@ Here is a very incomplete list of software available for mathematics, especially
 ###Computational Higher-dimensional Discrete Algebra
 
 * [CHDA Homepage](http://www.maths.bangor.ac.uk/chda/intro.html)
+
+### Programming Environments
+
+* [Maple IDE](http://digi-area.com/CasStudio/Maple/)
+* [Wolfram Workbench](http://www.wolfram.com/products/workbench/)
 
 ## Related pages
 
