@@ -446,7 +446,13 @@ In this context we say that
 +-- {: .num_remark}
 ###### Remark
 
-The above says in particular that in [[higher geometry]] all fields are "[[sigma-model]] fields" (see below at _[Examples -- Scalar and Sigma-model fields](#SclarModuliFields)_): if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the [[target space]].
+Definition \ref{FieldsInAnActionFunctional} provides a unified perspective on fields from several perspectives. 
+
+On the one hand, it almost explicitly says that in [[higher geometry]] all fields are "[[sigma-model]] fields" (see below at _[Examples -- Scalar and Sigma-model fields](#SclarModuliFields)_): if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the _[[target space]]_ then fields are simply maps from their domain (when regarded as [[spacetime]] _and_ [[background field]]) to this target space.
+
+On the other hand, we see below in _[Relation to sections of ∞-bundles](#RelationOfFieldsToSections)_ that from another perspective def. \ref{FieldsInAnActionFunctional} says that all fields are [[sections]] of an [[associated ∞-bundle]] to an  $\infty$-bundle modulated by the background fields. This means that in [[higher geometry]] all fields are "[[matter]] fields" (see below at _[Matter fields](#MatterFields)_) [[charged field|charged]] under the [[background gauge field]].
+
+Finally, we see below in  _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ that from yet another perspective def. \ref{FieldsInAnActionFunctional} says that fields are equivalently [[cocycles]] in general [[twisted cohomology]]. This perspective is traditionally known for certain examples (see _[Examples -- Chan-Paton gauge fields](#ChanPatonGaugeFields)_ below), but we see below that it is useful in its full generality. For instance the field of [[gravity]] is in a precise sense a 0-cocycle with coefficients in the [[coset space]] $GL(n)/O(n)$ that is twisted by the [[tangent bundle]] of spacetime (which exhibits the background gauge structure for [[gravity]]: the [[smooth structure]] of [[spacetime]]). An inkling of this perspective is certainly visible in the traditional literature, notably in the generalization to [[type II geometry]] and [[T-duality]], and here we see how this is a precise mechanism on the same conceptual footing with the twisted K-theory seen over D-branes.
 
 =--
 
@@ -491,12 +497,10 @@ In standard _[Examples](#Examples)_ discussed below we see that this is a famila
 ### Boundary and defect fields
  {#BoundaryAndDefectFields}
 
-In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as fields and to be able to switch between these perspectives and for instance pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields.
-
-We now discuss how this is naturally formulated in the sense of def. \ref{FieldsInAnActionFunctional}.
+In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as dynamical fields and to be able to switch between these perspectives, for instance to pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields. We now discuss how this more general setup is naturally formulated as a generalization of def. \ref{FieldsInAnActionFunctional}.
 
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$.
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/[[1-simplex]] to $\mathbf{H}$).
 
 A generic object in $\mathbf{H}^{(\Delta^1)}$ here is a morphism $\iota_X$ in $\mathbf{H}$. When we think of this as a domain on which to define fields we will write this
 
@@ -505,10 +509,10 @@ $$
     \;\colon\;
   X_{def}
   \to 
-  X
+  X_{bulk}
 $$
 
-where the subscript is for "defect" as in _[[QFT with defects]]_. Because a field in $\mathbf{H}^{(\Delta^1)}$ given by a map
+where the subscripts are for "bulk" and for "defect" (as in _[[QFT with defects]]_). A field in $\mathbf{H}^{(\Delta^1)}$ which is given by a map
 
 $$
   \phi 
@@ -516,7 +520,7 @@ $$
   \iota_X \to \mathbf{Fields}
 $$
 
-in $\mathbf{H}^{(\Delta^1)}$ is equivalently a [[diagram]]
+in $\mathbf{H}^{(\Delta^1)}$ is equivalently a [[diagram]] of the form
 
 $$
   \array{
@@ -530,13 +534,30 @@ $$
   }
 $$
 
-This is a configuration consisting of a bulk field configuration on $X_{bulk}$ and a defect field configuration on $X_{def}$, together with a [[gauge transformation]] that relates the restriction (or more generally: pullback to $X_{def}$) of the bulk field to the embedding (or more generally: push-forward) of the defect field into the bulk field configuration on the defect.
+in $\mathbf{H}$.
 
-(...)
+This we interpret as is a configuration consisting of 
 
-If now $\phi_{bulk}$ is regarded as fixed, then this is a field configuration on $X_{def}$ for background field $\iota_X^* \phi_{bulk}$.
+1. a bulk field configuration $\phi_{bulk}$ 
 
-(...)
+1. a defect field configuration $\phi_{def}$, 
+
+1. a [[gauge transformation]] that relates the restriction (or more generally: pullback to $X_{def}$) of the bulk field to the embedding (or more generally: push-forward) of the defect field into the bulk field configuration on the defect.
+
+
+Notice that if $\phi_{bulk}$ is regarded as fixed, then this is equivalently a field configuration as in def. \ref{FieldsInAnActionFunctional} defined on $X_{def}$ and for background field the composite 
+
+$$
+  \Phi_{X_{def}}
+  \coloneqq
+  \iota_X^* \phi_{bulk}
+  \;\colon\;
+  X_{def} \stackrel{\iota_X}{\to}
+  X \stackrel{\phi_{bulk}}{\to}
+  \mathbf{Fields}_{bulk}
+  \,.
+$$ 
+
 
 Several examples of this are discussed below.
 
@@ -545,7 +566,19 @@ Several examples of this are discussed below.
 
 ## Properties
 
-### Moduli stacks of fields
+The definition of fields in def. \ref{FieldsInAnActionFunctional} is in fact the central part of a general theory of _[[cohomology]]_ and _[[principal ∞-bundles]]_ in [[higher geometry]]/[[(∞,1)-topos theory]] and various insights into [[prequantum field theory]] follow by making this perspective explicit.  This is what we do here
+
+1. [Moduli ∞-stacks of fields](#ModuliStacksOfFields)
+
+1. [Relation of fields to sections of ∞-bundles](#RelationOfFieldsToSections)
+
+1. [Relation of fields to twisted cohomology](#RelationToTwistedCohomology)
+
+1. [Relation of fields to relative cohomology](#RelationToRelativeCohomology)
+
+The central results that underly these identifications are in ([NSS](#NSS)), also [dcct, section 3.6.10, 3.6.11, 3.6.12, 3.6.15](#dcct).
+
+### Moduli $\infty$-stacks of fields
  {#ModuliStacksOfFields}
 
 The object $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}} \in \mathbf{H}$
@@ -613,6 +646,9 @@ $$
 
 =--
 
+These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
+
+
 +-- {: .num_remark #}
 ###### Remark
 
@@ -624,15 +660,18 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 
 =--
 
-These relation are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
+### Relation of fields to sections of $\infty$-bundles
+ {#RelationOfFieldsToSections}
 
+We discuss here how def. \ref{FieldsInAnActionFunctional} equivalently says that fields are [[sections]] of an [[associated ∞-bundle]] which is associated to an $\infty$-bundle modulated by the [[background field]].
 
+(...)
 
 ### Relation to twisted cohomology
  {#RelationToTwistedCohomology}
 
 We discuss here how def. \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of _[[cocycles]]_ in general _[[cohomology]]_ and in fact, if the background field is nontrivial, in _[[twisted cohomology]]_.
-This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS))
+This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS)). The unification of notions seen this way gives a natural home for instance to the familiar observations such as that [[Chan-Paton gauge fields]] on [[D-branes]] are identified with [[cocycles]] in  ([[differential K-theory|differential]]) [[twisted K-theory]] (see _[Chan-Paton gauge fields](#ChanPatonGaugeFields)_ below).
 
 First observe the following
 
@@ -704,7 +743,7 @@ $$
   [X_{bulk}, A] \underset{[X_{def}, A]}{\times} {*}
 $$
 
-hence a [[homtopy fiber sequence]]
+hence a [[homotopy fiber sequence]]
 
 $$
   [\iota_X, pt_A]
