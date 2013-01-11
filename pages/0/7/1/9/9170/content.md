@@ -9,22 +9,31 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A [[model (in theoretical physics)]] in [[cosmology]]. Originally proposed as a [[phenomenology|phenomenologically viable]] model, but later ruled out by observation, which instead prefers the [[big bang]] [[FRW model]].
+The Steady State theory is a [[model (in theoretical physics)|model]] in [[cosmology]]. Originally proposed as a [[phenomenology|phenomenologically viable]] model, it was later ruled out by observation, which instead prefers the [[Big Bang]] [[FRW model]].
+
 
 ## Related concepts
 
 * [[cosmic inflation]]
 
+
 ## References
 
-* Wikipedia, _[Steady state theory](http://en.wikipedia.org/wiki/Steady_State_theory)_
+* Wikipedia, _[Steady State theory](http://en.wikipedia.org/wiki/Steady_State_theory)_
 
+
+[[!redirects Steady State]]
+[[!redirects Steady State model of cosmology]]
+[[!redirects steady state model of cosmology]]
+[[!redirects Steady State cosmology]]
+[[!redirects steady state cosmology]]
+[[!redirects Steady State model]]
 [[!redirects steady state model]]
+[[!redirects Steady State theory]]
 [[!redirects steady state theory]]
-
