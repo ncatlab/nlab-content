@@ -129,6 +129,14 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[type II string theory]]
 
+* [[Kaluza-Klein mechanism]]
+
+  * [[moduli stabilization]]
+
+  * [[flux compactification]]
+
+  * [[landscape of string theory vacua]]
+
 * [[string field theory]]
 
 * [[duality in string theory]]
