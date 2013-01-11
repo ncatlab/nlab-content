@@ -67,9 +67,23 @@ and
 
 In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank gauge bundles is towards the very end, culminating in equation (3.41).
 
+A discussion from the point of view of [[higher geometric quantization]] or [[extended prequantum field theory]] is at the end of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ . 
+
+Lecture notes along these lines are in _[Lagrangians and Action functionals -- 3d Chern-Simons theory](#3dCSTheory)_ of
+
+* _[[geometry of physics]]_ .
 
 
 [[!redirects Freed-Witten anomaly cancellation]]
 
 [[!redirects Freed-Witten quantum anomaly]]
 [[!redirects Freed-Witten quantum anomaly cancellation]]
+
+[[!redirects Freed-Witten-Kapustin anomaly]]
+[[!redirects Freed-Witten-Kapustin anomaly cancellation]]
+
+[[!redirects Freed-Witten-Kapustin quantum anomaly]]
+[[!redirects Freed-Witten-Kapustin quantum anomaly cancellation]]
+
