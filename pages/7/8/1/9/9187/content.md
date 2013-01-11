@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Planck scale](http://en.wikipedia.org/wiki/Planck_scale)_
+
