@@ -556,7 +556,7 @@ The [[∞-groupoid]] of global [[elements]] of $[X, \mathbf{Fields}]_{\mathbf{H}
 $$
   \mathbf{H}(*,[\Phi_X, \mathbf{Fields}_{\mathbf{H}}])
   \simeq
-  \Gama [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
+  \Gamma [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
   \simeq
   \mathbf{H}_{/\mathbf{BgFields}}(\Phi_X, \mathbf{Fields})
   \,.
