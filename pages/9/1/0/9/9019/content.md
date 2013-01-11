@@ -3,6 +3,8 @@
 
 ## Related entries
 
+* [[G2-MSSM]]
+
 * [[M-theory on G2-manifolds]]
 
 category: people
