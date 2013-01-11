@@ -54,9 +54,9 @@ So, to summarize in a few words, the landscape of string theory vacua is...
 
 ## Flux compactifications 
 
-One widely studied class of modli-stabilized solutions to the string-theory background equations is that of **flux compactifications**.
+One widely studied class of modli-stabilized solutions to the string-theory background equations is that of **[[flux compactifications]]**.
 
-These are classical solutions to the corresponding [[supergravity]] theory that are of the form $M^4 \times CY$ with $CY$ some [[Calabi-Yau manifold]] of six real dimensions such that the [[RR-field]] in the solution has nontrivial values on $CY$. Its components are called the _fluxes_ .
+These are classical solutions to the corresponding [[supergravity]] theory that are of the form $M^4 \times CY$ with $CY$ some [[Calabi-Yau manifold]] of six real dimensions such that the [[RR-field]] in the solution has nontrivial values on $CY$. Its components are called the _[[fluxes]]_ .
 
 The presence of this [[RR-field]] in the solution induces an effective potential for the scalar moduli fields that parameterize the geometry of CY. Hence by choosing the [[RR-field]] suitably one can find classical solutions in which all these moduli have values that are constant in time.
 
