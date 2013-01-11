@@ -1,3 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
-(...)
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]], _moduli stabilization_ refers to designing of [[models (in theoretical physics)]] that invoke the [[Kaluza-Klein mechanism]] (in order to obtain an [[effective QFT]] of [[gravity]] and [[gauge theory]] in low dimensions from a theory of gravity in higher dimensions) in a way such that the "moduli" fields that appear by the mechanism but which are unwanted in the model (since they do not correspond to [[phenomenology|observed]] [[field (physics)|fields]]) end up having high [[masses]], so that the KK-model is consistent with observation at presently available energies (with the [[standard model of particle physics]]).
+
+The issue arises notably in [[string theory]] [[Kaluza-Klein compactifications]]. In the context of [[type II string theory]] one way to design the [[model (in theoretical physics)|model]] such that the moduli fields are massive is to consider the case where [[higher gauge field|higher]] [[background gauge fields]] are present on the compactication space. Since these fields are characterized by their higher [[field strength]]/[[curvature]] forms which are referred to as "[[flux]]" terms in physics, these models are called **[[flux compactification]]** models.
+
+Since for these flux compactifications only the [[periods]] of the form fields on the compact space matter, under a bunch of further assumptions on the nature of the compactification, one can reduce the number of possible such compactifications to a combinatorial problem. The resulting space of possibilities is also known  as the _[[landscape of string theory vacua]]_.
+
+
+## Related concepts
+
+* [[flux compactification]]
+
+* [[G2-MSSM]]
+
+* [[landscape of string theory vacua]]
+
+[[!redirects moduli stabilizations]]
