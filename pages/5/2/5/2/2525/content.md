@@ -61,6 +61,7 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 
 [[!redirects Euler-Lagrange equations]]
 
+[[!redirects equation of motion]]
 [[!redirects equations of motion]]
 [[!redirects equations of motion]]
 
