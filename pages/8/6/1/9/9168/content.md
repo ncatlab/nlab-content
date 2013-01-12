@@ -31,6 +31,12 @@ In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime
 
 * [[Higgs field]]
 
+## Redirects
+
+Discussion of scalar fields in cosmology includes
+
+* J.W. van Holten, _On single scalar field cosmology_ ([arXiv:1301.1174](http://arxiv.org/abs/1301.1174))
+
 
 [[!redirects scalar field]]
 [[!redirects scalar fields]]
