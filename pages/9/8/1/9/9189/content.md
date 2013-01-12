@@ -1,0 +1,9 @@
+
+Especially in [[physics]] there are some types of [[equations]] that in their subfield are called _master equations_. Examples include the following:
+
+1. in [[BV-BRST formalism]] the _classical master equation_ is the condition that the refinement of an [[action functional]] to a function on its [[derived critical locus]] squares to 0 with respect to a certain graded Poisson-bracket. The _quantum master equation_ is a deformation of this equation. See at _[[BV-BRST formalism]]_ for details on all this.
+
+1. in [[statistical mechanics]]...
+
+[[!redirects master equations]]
+
