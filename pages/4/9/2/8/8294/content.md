@@ -86,4 +86,8 @@ See at _[homotopy pullback -- concrete constructions -- In homotopy type theory]
 
 * [[differential equation]]
 
+* [[Euler-Lagrange equation]], [[equation of motion]]
+
+* [[master equation]]
+
 [[!redirects equations]]
