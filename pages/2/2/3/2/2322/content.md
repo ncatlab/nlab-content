@@ -297,7 +297,9 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 * [[type of types]]
 
+## References
 
+* [[Higher Topos Theory]] Section 6.1.6
 
 
 [[!redirects object classifier]]
