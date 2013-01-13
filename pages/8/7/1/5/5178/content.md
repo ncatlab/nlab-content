@@ -65,6 +65,7 @@ Traditionally one writes the image of an object $X \in S$ under $\mathbb{C}$ as 
 
 If $\mathcal{S}$ has a [[terminal object]] $*$ we think of $\mathbb{C}^*$ as the **underlying ordinary category** of the $\mathcal{S}$-indexed category $\mathbb{C}$. Part of the theory of indexed categories is about when and how to extend structures on $\mathbb{C}^*$ to all of $\mathbb{C}$.
 
+A morphism of $S$-indexed categories is an [[indexed functor]].
 ## Examples
 
 ### Self indexing
