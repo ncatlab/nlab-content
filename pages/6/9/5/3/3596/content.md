@@ -131,7 +131,7 @@ $$p = J(p[y/x, r(x)/p];x,y,p) = J(r(x)[y/x,r(x)/p];x,y,p) = r(x).$$
 
 (Here we are eliminating into the type $C(x,y,p) \coloneqq Id_A(x,y)$.  The term $r(x)$ may be regarded as belonging to this type, because we have already shown that $x$ and $y$ are *definitionally* equal.)
 
-Thus, the definitional $\eta$-conversion rule for identity types implies that the type theory is [[extensional type theory|extensional]] in a very strong sense.  For this reason, in [[homotopy type theory]] we do not assume the $\eta$-conversion rule for identity types.
+Thus, the definitional $\eta$-conversion rule for identity types implies that the type theory is [[extensional type theory|extensional]] in a very strong sense.  (This was observed already in ([Streicher](#Streicher)).)  For this reason, in [[homotopy type theory]] we do not assume the $\eta$-conversion rule for identity types.
 
 This sort of extensionality in type theory is also problematic for non-homotopical reasons: since type-checking in dependent type theory depends on definitional equality, but the above rule implies that definitional equality depends on inhabitation of identity types, this makes definitional equality and hence type-checking *undecidable* in the formal computational sense.  Thus, $\eta$-conversion for identity types is often omitted (as in [[Coq]]).
 
@@ -334,6 +334,11 @@ A survey is in chapter 1 of
 
 * [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
  {#Warren}
+
+Extensionality and intensionality isses are studied in
+
+* [[Thomas Streicher]], _Investigations Into Intensional Type Theory_, Habilitationsschrift ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
+ {#Streicher}
 
 ### By inductive types
  {#ReferencesByInductiveTypes}
