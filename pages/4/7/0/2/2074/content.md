@@ -351,7 +351,7 @@ A morphism $f : C \to D$ between simplicial sets that are [[quasi-categories]] i
 
 * For every simplicial set $K$, the morphism $sSet(K,f) : sSet(K,D) \to sSet(K,C)$ is a weak equivalence in the model structure for quasi-categories.
 
-*  For every simplicial set $K$, the morphusm $Core(sSet(K,f)) : Core(sSet(K,D)) \to Core(sSet(K,C))$ on the [[core]]s, the maximal [[Kan complex]]es inside, is a weak equivalence in the standard [[model structure on simplicial sets]], hence a [[homotopy equivalence]].
+*  For every simplicial set $K$, the morphism $Core(sSet(K,f)) : Core(sSet(K,D)) \to Core(sSet(K,C))$ on the [[core]]s, the maximal [[Kan complex]]es inside, is a weak equivalence in the standard [[model structure on simplicial sets]], hence a [[homotopy equivalence]].
 
 =--
 
