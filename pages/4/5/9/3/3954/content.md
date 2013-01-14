@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Forcing
 * table of contents
 {: toc}
@@ -26,23 +40,35 @@ Now suppose instead that we have a model $V$ of [[ZF]] set theory (for instance)
 
 1. We can define a new notion of "truth" for statements about $V$, which is not the same as the old one, and which will usually take values not in ordinary [[truth values]] but in some more complicated [[Boolean algebra]] (or [[Heyting algebra]]), in such a way so that the statement "there exists a $G$ with the desired properties" is "true."  This is called *forcing semantics*.
 
-1. We can construct a new model of set theory out of whole cloth from $V$, rather than trying to find it as a submodel of some assumed larger model.  In material set theory, this construction is usually called a *Boolean valued model* (or a *Heyting valued model* if it is [[constructive mathematics|intuitionistic]]).  In structural set theory, this construction is simply a [[topos of sheaves]].  The topos of sheaves is moreover *universal* over $V$ such that it contains a $G$ satisfying the desired properties in its [[internal logic]]---in other words, it is a [[classifying topos]] of the theory of such a $G$.
+1. We can construct a new model of set theory out of whole cloth from $V$, rather than trying to find it as a submodel of some assumed larger model.  In material set theory, this construction is usually called a *Boolean valued model* (or a *Heyting valued model* if it is [[constructive mathematics|intuitionistic]]).  In structural set theory, this construction is simply that of the [[topos of sheaves]] on a suitable [[site]], in the model $V$.  The topos of sheaves is moreover *universal* over $V$ such that it contains an [[object]] $G$ satisfying the desired properties in its [[internal logic]]---in other words, it is a [[classifying topos]] of the [[theory]] of such a $G$. See at _[References -- In terms of classifying toposes](#ReferencesInTermsOfClassifyingToposes)_ for more.
 
 Although by analogy, it would seem that a modern perspective should prefer the third approach, most material set theorists still seem to prefer one of the first two.
 
 Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
 
-## Comparison with sheaves
-
-...
-
 
 ## References
 
+### General
+
 * P. J. Cohen, _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
 * G. E. Reyes, _Typical and generic in a Baire space for relations_, thesis 1967
+
 * [[Abraham Robinson]], _Infinite forcing in model theory_,  in Proc. 2nd Scand. Logic Synp. pp. 317-340, ed. J. E. Fenstad
+
 * Jon Barwise ed. _Handbook of mathematical logic_, 1977, in chapters by Macintyre, Burgess and Keisler
+
 * J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
-[[!redirects forcing]]
+
 * math overflow, what is the generic poset used in forcing really?, [web](http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really)
+
+### In terms of sheaves and classifying toposes
+ {#ReferencesInTermsOfClassifyingToposes}
+
+Reviews of the interpretation of forcing as the passge to [[classifying toposes]] include
+
+* [[Andreas Blass]], Andrej Skedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf;jsessionid=8D65C672D70D8E24A5ACD366C1815921?sequence=1))
+
+* Andrej Skedrov, _Forcing and classifying topoi_
+
+[[!redirects forcing]]
