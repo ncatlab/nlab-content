@@ -11,3 +11,5 @@ category: people
 
 [[!redirects Krzysztof Gawedzki]]
 [[!redirects Krzysztof Gawędzki]]
+[[!redirects Krzysztof Gawȩdzki]]
+
