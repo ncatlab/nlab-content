@@ -15,13 +15,15 @@
 
 ## Idea
 
-In the context of _[[geometric quantization]]_ the _prequantum space of states_ is a space of [[sections]] of the [[prequantum line bundle]].
+There are at least two formalizations of [[quantization]], one of them is _[[geometric quantization]]_. In this context a [[quantum state]] is identified with a certain [[section]] (a [[polarization|polarized]] section) of a certain [[complex line bundle]]: the [[prequantum line bundle]].
 
-The actual space of [[states]] is, after a choice of [[polarization]], hence of "[[canonical coordinates]]" and "[[canonical momenta]]", the subspace of "wave functions that only depend on the canonical coordinates", hence of sections of the prequantum line bundle which are [[covariant derivative|covariantly constant]] along the [[leaves]] of the polarization (the leaves are the "momentum spaces").
+Here a [[section]] of the [[prequantum line bundle]] is what is physics ia called a **wave function** on the space of [[field (physics)|field]] configurations. A choice of [[polarization]] on this space is a choice of "[[canonical coordinates]]" and "[[canonical momenta]]". Hence a polarized section, and hence a quantum state in the sense of geometric quantization, is, in [[physics]] language, a _wave function of the canonical coordinates_.
 
 ## Related concepts
 
 * [[space of states]]
+
+  * [[wave function]]
 
 * [[quantum operator (in geometric quantization)]]
 
@@ -33,4 +35,10 @@ The actual space of [[states]] is, after a choice of [[polarization]], hence of 
 
 [[!redirects space of quantum states]]
 [[!redirects spaces of quantum states]]
+
+[[!redirects wave function]]
+[[!redirects wave functions]]
+
+[[!redirects wavefunction]]
+[[!redirects wavefunctions]]
 
