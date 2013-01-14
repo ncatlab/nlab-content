@@ -60,14 +60,14 @@ entities.
 The best theory of fundamental physics as presently understood 
 is
 
-_Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory_
+_[[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]_
 
 | Einstein- | Maxwell- | Yang-Mills- |  Dirac- | Higgs |
 |----------|---------|------------|--------|-------|
-|  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[matter]] | [[scalar field]] |
+|  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[fermion|fermionic ]] [[matter]] | [[scalar field]] |
 
-While fundamental, this theory has free parameters which index different flavors of the same general mechanism. Notably the  species and the masses of the fundamental particles are such parameters, as 
-is their coupling strengths to the force fields.
+While fundamental, this theory has free parameters which index different flavors of the same general mechanism. Notably the species and the masses of the fundamental particles are such parameters, as 
+is their ([[Yukawa coupling|Yukawa]]-coupling) strengths to the force fields.
 
 Specifying these parameters is called constructing a 
 _[[model (in theoretical physics)|model]]_ in physics  and specifically as a [[phenomenology|phenomenological model]] of fundamental physics, 
