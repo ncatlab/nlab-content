@@ -460,18 +460,18 @@ where the vertical morphisms are $Const(U \to *)$, the point being that they exi
 The functor $Const$ has a [[left adjoint]] and a [[right adjoint]], and these are -- essentially by definition -- the [[colimit]] and the [[limit]] operations
 
 $$
-  (\underset{\leftarrow}{\lim} \vdash Const \vdash \underset{\to}{\lim})
+  (\underset{\rightarrow}{\lim} \vdash Const \vdash \underset{\leftarrow}{\lim})
 $$
 
-which send a presheaf/functor $F \colon C^{op} \to Set$ to its [[colimit]] $\underset{\leftarrow}{\lim} F \in Set$ or [[limit]] $\underset{\to}{\lim} F \in Set$, respectively. 
+which send a presheaf/functor $F \colon C^{op} \to Set$ to its [[colimit]] $\underset{\rightarrow}{\lim} F \in Set$ or [[limit]] $\underset{\leftarrow}{\lim} F \in Set$, respectively. 
 
-Since adjoints are essentially unique, it follows that the [[global section]] functor $\Gamma \colon [C^{op}, Set]$ is given by taking the limit, $\Gamma \simeq \underset{\to}{\lim}$. 
+Since adjoints are essentially unique, it follows that the [[global section]] functor $\Gamma \colon [C^{op}, Set]$ is given by taking the limit, $\Gamma \simeq \underset{\leftarrow}{\lim}$. 
 
 Observe that the [[terminal object]] $* \in C$ is the [[initial object]] in the [[opposite category]] $C^{op}$. But the limit over a [[diagram]] with initial object is given simply by evaluation at that object, and so we have for any $F \in [C^{op}, Set]$ that
 
 $$
   \begin{aligned}
-    \Gamma(F) & \simeq \underset{\to}{\lim} F
+    \Gamma(F) & \simeq \underset{\leftarrow}{\lim} F
     \\
     & \simeq F(*) \in Set
   \end{aligned}
