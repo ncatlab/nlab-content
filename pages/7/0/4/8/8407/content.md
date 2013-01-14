@@ -66,15 +66,14 @@ where
 
 * **Einstein-Yang-Mills theory**
 
-* [[Eistein-Yang-Mills-Dirac theory]]
+* [[Einstein-Yang-Mills-Dirac theory]]
 
 * [[Einstein-Yang-Mills-Dirac theory]]
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
-* [[standard model of particle physics]]
+[[!include standard model of fundamental physics - table]]
 
-* [[standard model of cosmology]]
 
 ## References
 
