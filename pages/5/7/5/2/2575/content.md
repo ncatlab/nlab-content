@@ -738,3 +738,5 @@ A textbook account of this relation is in
 [[!redirects Chern-Simons theory action functional]]
 [[!redirects Chern-Simons functional]]
 
+[[!redirects Chern-Simons field theory]]
+
