@@ -94,6 +94,8 @@ There are various other variations, too.
 
 * [[standard model of cosmology]]
 
+[[!include standard model of fundamental physics - table]]
+
 ## References
 
 For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
