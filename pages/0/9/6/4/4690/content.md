@@ -26,15 +26,17 @@ The _Einstein-Hilbert action_ is the [[action functional]] that defines the dyna
 For $(X,g)$ a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]], its **vacuum Einstein-Hilbert action** is the number
 
 $$
-  (X,g) := \int_X R(g) dvol(g)
+  (X,g) \mapsto \int_X R(g) dvol(g)
   \,,
 $$
 
 where
 
-* $R(g) : X\to \mathbb{R}$ is the [[Riemann curvature]] function of the [[metric]] $g$;
+* $R(g) : X\to \mathbb{R}$ is the [[scalar curvature]] function of the [[metric]] $g$;
 
-* $dvol(g)$  is the [[volume form]] defined by the metric.
+* $dvol(g)$  is the [[volume form]] defined by the metric
+
+* $\int_X$ is [[integration of differential forms]] over $X$.
 
 If the metric is instead encoded in terms of an [[Poincare group]]-[[connection on a bundle|connection]] $\nabla$ (the [[first-order formulation of gravity]]) then (for $dim X = 4$ and assuming for simplicity that the underlying bundle is trivial) this is equivalently
 
@@ -67,3 +69,23 @@ $$
 $$
 
 (...)
+
+## Related concepts
+
+* [[Einstein-Maxwell theory]]
+
+* [[Einstein-Yang-Mills theory]]
+
+* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
+
+* [[standard model of particle physics]]
+
+* [[standard model of cosmology]]
+
+## References
+
+Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ at
+
+* _[[geometry of physics]]_
+
+[[!redirects Einstein-Hilbert action functional]]
