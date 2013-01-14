@@ -19,10 +19,10 @@
 * table of contents
 {:toc}
 
-## The idea 
+## Idea 
 
-^
-The _classifying topos_ for a given type of mathematical structure $T$ --- for example the structures: "[[group]]", "[[torsor]]", "[[ring]]", "[[category]]"  etc. --- is a ([[Grothendieck topos|Grothendieck]]) [[topos]] $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$, i.e. groups [[internalization|internal to]] $E$, torsors internal to $E$, etc.  In other words, a classifying topos is a [[representing object]] for the functor which sends a topos $E$ to the category of structures of the desired sort in $E$.
+
+The _classifying topos_ for a given type of mathematical [[structure]] $T$ --- for example the structures: "[[group]]", "[[torsor]]", "[[ring]]", "[[category]]"  etc. --- is a ([[Grothendieck topos|Grothendieck]]) [[topos]] $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$, i.e. groups [[internalization|internal to]] $E$, torsors internal to $E$, etc.  In other words, a classifying topos is a [[representing object]] for the functor which sends a topos $E$ to the category of structures of the desired sort in $E$.
 
 In particular for $E$ a [[sheaf topos]] on a [[topological space]] $X$ and $G$ a (bare, i.e. discrete) [[group]], a $G$-torsor in $E$ is a $G$-[[principal bundle]] over $X$. There is a classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
 
@@ -41,6 +41,8 @@ $$
 Hence one can think of classifying topoi as a grand generalization of the notion of [[classifying space]] in topology.
 
 
+
+
 ## Definition
 
 In a tautological way, every [[topos]] $F$ is the classifying topos for something, namely for the categories of [[geometric morphisms]] $E \to F$ into it. The concept of [[geometric theory]] allows one to usefully interpret these categories as _categories of certain structures in $E$_ :
@@ -55,6 +57,8 @@ $$
 And structures of type $T$ in $E$ is what geometric morphisms $E \to F$ classify.
 
 So the **classifying [[topos]]** for the [[geometric theory]] $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
+
+The fact that a classifying topos is like the ambient [[set theory]] but equipped with that universal model is essentially the notion of _[[forcing]]_ in [[logic]]: the passage to the [[internal logic]] of the classifying topos _forces_ the universal model to exist.
 
 If $C_T$ is the [[syntactic category]] of $T$, so that $T$-models are the same as [[geometric category|geometric functors]] out of $C_T$, then this universal model can be identified with a certain geometric functor
 
