@@ -52,35 +52,31 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
  {#IngredientsOfFundamentalPhysics}
 
 Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
-We aim to give here an account at least of central parts of modern physics in terms of  the mathematics of [[higher geometry]] that we discussed above. 
+We aim to give here a account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geomery+of+physics#GEOMETRY)_. 
 
-The physics that we are concerned with is _fundamental} physics_,
+The physics that we are concerned with is _fundamental_ physics,
 that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thoght to _emerge_ as approximations to collective effects of complex configurations of the elementary 
 entities.
 
-The best theory of fundamental physics as presently understood 
-is
-
-_[[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]_
-
-| Einstein- | Maxwell- | Yang-Mills- |  Dirac- | Higgs |
-|----------|---------|------------|--------|-------|
-|  [[gravity]] | [[electromagnetism]] | [[electroweak  field|electroweak]] and [[strong nuclear force]] | [[fermion|fermionic ]] [[matter]] | [[scalar field]] |
-
-While fundamental, this theory has free parameters which index different flavors of the same general mechanism. Notably the species and the masses of the fundamental particles are such parameters, as 
-is their ([[Yukawa coupling|Yukawa]]-coupling) strengths to the force fields.
+The best [[theory (physics)|theory]] of fundamental physics as presently understood is known as _[[Einstein-Yang-Mills-Dirac-Higgs theory]]_. 
+While fundamental, this theory has _free parameters_. These index different flavors of the same general mechanism. Notably the species and the masses of the fundamental [[fermion]] [[particles]] are such parameters, as 
+is their coupling to the force fields.
 
 Specifying these parameters is called constructing a 
 _[[model (in theoretical physics)|model]]_ in physics  and specifically as a [[phenomenology|phenomenological model]] of fundamental physics, 
-if aimed at making the observations that are predicetd by the theory to closely match those that are being made in experiments. The global choice of these parameters that make the predictions  match all available data to the currently best possible degree is called the _standard model_, specifically the  _[[standard model of particle physics]]_ for the sector in which the large-scale description of the 
+if aimed at making the observations that are predicted by the theory to closely match those that are being made in experiments. The global choice of these parameters that make the predictions  match all available data to the currently best possible degree is called the _standard model_, specifically the  _[[standard model of particle physics]]_ for the sector in which the large-scale description of the 
 force of gravity is approximately negligible, and the 
 _[[standard model of cosmology]]_
 which focuses on that large scale structure.
 
+The following table list some key of the standard theory of fundamental physics, all of which we discuss in detail further below.
+
+[[!include standard model of fundamental physics - table]]
+
 ### Topological local Lagrangian gauge field theory
  {#TopologicalLocalLagrangianGaugeFieldTheory}
 
-While the standard model of fundamental physics is a specification of the general  framework of Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory, that theory itself is a particular realization of several deep general principles  of theoretical physics: it is 
+While the [[standard model of fundamental physics - table|standard model of fundamental physics]] is a specification of the general  framework of [[Einstein-Yang-Mills-Dirac-Higgs theory]], that theory itself is a particular realization of several deep general principles  of theoretical physics: it is 
 
 1. a **[[field (physics)|field]]** theory;
 1. a **[[gauge theory|gauge]]** theory;
@@ -96,21 +92,23 @@ We briefly indicate what this means, a formal discussion of these notions will b
     \array{ 
       && E 
       \\
-      & {}^{\mathllap{\phi}} & \downarrow^{\mathrlap{field\;bundle}}   
+      & {}^{\mathllap{\phi}}{\nearrow} & \downarrow^{\mathrlap{field\;bundle}}   
       \\
       X &\stackrel{id}{\to}& X
      }
    $$
 
-* A **[[gauge theory|gauge]]** theory in the broad sense has not just a [[set]] or [[smooth space]] of field configurations but has a [[groupoid]] or [[stack]]/[[smooth groupoid]] of field configurations: there are equivalences between nominally different field configurations called [[gauge transformation]]
+* A **[[gauge theory|gauge]]** theory in the broad sense has not just a [[set]] or [[smooth space]] of field configurations but has a [[groupoid]] or [[stack]]/[[smooth groupoid]] of field configurations: there are equivalences between nominally different field configurations 
 
   $$
     \phi \stackrel{\simeq}{\to} \phi'
   $$
 
+  called _[[gauge transformations]]_.
+
    A gauge theory in the original sense specifically has a groupoid of [[principal connections]] as its configurations. (Notice that gauge transformations are not in general just a redundancy of the description of the theory, but are genuine data: there are in general non-trivial gauge [[automorphisms]] of a field and the stack of gauge field configurations is not in general equivalent to a plain [[sheaf]].)
 
-* A **[[Lagrangian]]** theory is one which is specified by a function on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
+* A **[[Lagrangian]]** theory is one which is specified by a function on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
 
   $$
     \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\right)\left(x\right) \right) 
@@ -121,7 +119,7 @@ We briefly indicate what this means, a formal discussion of these notions will b
   $$
     \left\{
 	 \phi \in \mathbf{Fields}(\Sigma)		|
-		d_{\mathrm{var}} S_\phi = 0
+		d_{\mathrm{var}} S_\phi \simeq 0
 	  \right\}
   $$
 
@@ -141,39 +139,40 @@ We briefly indicate what this means, a formal discussion of these notions will b
 ### Chern-Simons field theory as a toy example
 
 Most of this was fairly well understood decades ago, by the 1960s. But even with all this conceptual understanding of the structure of fundamental physics available, there were and are a lot of implications of 
-_topological local Lagrangian gauge field theory_ which remained elusive.
-In the 1980s attention turned to -other_ topological local Lagrangian gauge field theories than that governing the standard model: it turns out that there are many such  [[theories of physics]] that share crucial properties with the standard model but which  otherwise predict, if considered as phenomenological models, physics  radically different from that
+_[[topological field theory|topological]] [[local  Lagrangian]] [[gauge field theory]]_ which remained elusive.
+
+
+In the 1980s attention turned to _other_ topological local Lagrangian gauge field theories than that governing the standard model: it turns out that there are many such  [[theories of physics]] that share crucial properties with the standard model but which  otherwise predict, if considered as phenomenological models, physics  radically different from that
 which we actually observe experimentally. For instance there are respectable theories of fundamental 
 pyhsics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
 
-In short, it was gradually realized and realized to be important that, in the platonic world of mathemtics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point.
+In short, it was gradually realized, and realized to be important, that, in the platonic world of mathemtics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point.
 
 A crucial step forward happened when around 1989 [[Edward Witten]], in this vein,  introduced the study of what is now called _[[Chern-Simons theory]]_ a topological local Lagrangian gauge field theory which, as such, shares
 some crucial principles with Einstein-Maxwell-Yang-Mills theory, while at the  same time being  radically different and most importantly: 
 much simpler to analyze. 
 
 The dimension of Chern-Simons theory is 3 instead of 4, but 
-Chern-Simons theory has a gauge field just as Yang-Mills theory does.
-For $G$ a simply connected  gauge group, this is mathematically represented
-by a [[Lie algebra valued 1-form]] $A \in \Omega^1(\Sigma_3, \mathfrak{g})$.
+Chern-Simons theory has a [[gauge field]] just as [[Yang-Mills theory]] does. For $G$ a [[connected topological space|connected]] [[simply connected topological space|simply connected]] [[gauge group]], this is mathematically represented by a [[Lie algebra valued differential 1-form]] $A$.
 
-The [[Lagrangian]] is simply the [[Chern-Simons 3-form]]
+The [[Lagrangian]] of [[Chern-Simobs theory]] is the [[Chern-Simons 3-form]]
 
 $$
   L(A)
-  :=
+  \coloneqq
   \mathrm{CS}_3(A)
-  :=
-  \langle A \wedge d A\rangle
+  \coloneqq
+  \langle A \wedge F_A\rangle
   + 
   c
   \langle A \wedge [A \wedge A]\rangle
+  \,,
 $$
 
-and hence the Chern-Simons action functional is
+whence the name of the theory, and hence the Chern-Simons [[action functional]] is
 
 $$
-  \exp(iS(A)) 
+  \exp(i S(A)) 
   =
    \exp\left(
      2 \pi i \int_{\Sigma_X} \mathrm{CS}_3(A)
@@ -182,33 +181,37 @@ $$
 
 
 At the same time Chern-Simons theory is still being rich in phenomena, 
-in fact so rich in phenomena that it helped illuminate deep mathematical problems that had not
-otherwise been understood (properties called [[knot invariants]]).
+in fact so rich in phenomena that for instance it helped illuminate deep mathematical problems that had not otherwise been understood as much before (properties called _[[knot invariants]]_).
+
 
 ### Topological local field theory in higher category theory
  {#TopologicalLocalFieldTheoryInHigherGeometry}
 
-Another pleasant effect of the introduction of the Chern-Simons ""toy model"  for topological field theory was that, 
-due to its conceptual simplicity, its basic structure could be appreciated also by mathematicians not trained in theoretical physics, who would otherwise fail to see through all the  physics jargon involved in the available discussion of realistic models. Accordingly, shortly after th introduction of Chern-Simons field theory,  the first mathematically precise axiomatizations of an $n$-dimensional _[[topological field theory]]_ was proposed, by [[Michael Atiyah]]: "[[functorial quantum field theory]]".
+Another pleasant effect of the introduction of the Chern-Simons "toy model"  for topological field theory was that, 
+due to its conceptual simplicity, its basic structure could be appreciated also by mathematicians not trained in theoretical physics, who would otherwise fail to see through all the  physics jargon involved in the available discussion of realistic models. Accordingly, immediately after the realization of Chern-Simons field theory,  the first mathematically precise axiomatizations of an $n$-dimensional _[[topological field theory]]_ was proposed, by [[Michael Atiyah]]: "[[functorial quantum field theory]]"
 
-This axiomatization demands, in particular, for each [[closed manifold]] of [[dimension]] $(n-1)$ the assignment of a vector space
+This axiomatization demands in particular that to each [[closed manifold]] of [[dimension]] $(n-1)$ is assigned a [[vector space]]
 
 $$
+  Z 
+   \;\colon\; 
   \Sigma_{n-1} \mapsto Z(\Sigma_{n-1}) \in \mathrm{Vect}
 $$
 
 thought of as the _[[space of physical states]]_ of the theory on the
 spatial slice $\Sigma_{n-1}$ of spacetime. 
 
-This axiomatization did not capture the full notion of _[[local quantum field theory|local]]_ theories: the space of states are assigned globally to a space $\Sigma_{n-1}$ and is not required to be obtained by "integrating up local data" over $\Sigma_{n-1}$. 
+However, This original axiomatization did not capture the full _[[local quantum field theory|locality]]_ property: the space of states are assigned globally to a space $\Sigma_{n-1}$ and is not required to be obtainable by "integrating up local data" over $\Sigma_{n-1}$. 
 
-In order to refine this, one cleraly wants an axiomatization of field theory that assigns data also to manifolds $\Sigma_{k}$ of [[dimension]] $0 \leq k \leq n$. This should be such that the data to a torus $\Sigma_{k} \times S^1$ is the [[trace]] in a suitable sense, of the data assigned to $\Sigma_{k}$ itself. It turns out that the way to capture this is to think of $Z(\Sigma_k)$ as being a vector space in [[higher category theory]]/[[directed homotopy type theory]]: an [[n-vector space|(n-k)-vector space]].
+In order to refine this, one needs an axiomatization of field theory that assigns data also to manifolds $\Sigma_{k}$ of [[dimension]] $0 \leq k \leq n$. This should be such that the data to a torus $\Sigma_{k} \times S^1$ is the [[trace]] in a suitable sense, of the data assigned to $\Sigma_{k}$ itself. It turns out that the way to capture this is to think of $Z(\Sigma_k)$ as being a vector space in [[higher category theory]]/[[directed homotopy type theory]]: an [[n-vector space|(n-k)-vector space]].
 
 $$
   \Sigma_k \mapsto Z(\Sigma_k) \in (n-k)\mathrm{Vect}
 $$
 
-That something like this should work was hypothetized as the [[cobordism hypothesis]], the formulation was later given by [[Jacob Lurie]]. In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension ) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). But in the [[physics]]-community there is also the well-established of _[[local quantum field theory]]_ which is meant to refer to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
+That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension ) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). 
+
+But in the [[physics]]-community, at least in the [[algebraic quantum field theory]]-community, there is also the well-established of _[[local quantum field theory]]_ which is meant to refer to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
 
 
 ### Topological local *Lagrangian* field theory in higher geometry
