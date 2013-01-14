@@ -76,6 +76,8 @@ $$
 
 * [[Einstein-Yang-Mills theory]]
 
+* [[Einstein-Yang-Mills-Dirac theory]]
+
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 * [[standard model of particle physics]]
