@@ -565,7 +565,7 @@ For the moment see the references at [[AQFT]] for more.
 
 First sketches of the idea that [[path integral]] [[quantization]] may have a formalization in terms of [[higher category theory]] appeared in
 
-* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
+* [[Dan Freed]], _[[Higher Algebraic Structures and Quantization]]_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
 and its companion
 
