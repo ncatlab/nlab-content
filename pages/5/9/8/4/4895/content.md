@@ -119,6 +119,7 @@ Notice that $Z_A(\Sigma)$ is the space of **[[state]]s** of $A$ over $\Sigma$, w
  {#Examples}
 
 ### Of higher Chern-Simons/CFT-type
+ {#3dCS-2dCFT}
 
 #### RT-3d TQFT / rational 2d CFT
 
