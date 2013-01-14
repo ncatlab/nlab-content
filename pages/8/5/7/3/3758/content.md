@@ -74,6 +74,8 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
   * [[space of states (in geometric quantization)]]
 
+    * [[wave function]]
+
   * [[classical state]], **quantum state**
 
   * [[state in AQFT and operator algebra]]
@@ -88,5 +90,3 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 [[!redirects quantum state]]
 [[!redirects quantum states]]
 
-[[!redirects wave function]]
-[[!redirects wave functions]]
