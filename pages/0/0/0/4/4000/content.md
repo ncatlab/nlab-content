@@ -1,3 +1,4 @@
+[[!redirects Chern-Simons circle 3-bundle]]
 
 
 +-- {: .rightHandSide}
@@ -639,7 +640,11 @@ that are associative up to a higher coherent morphisms, etc.
 
 * For the case that $G = O$ is the [[orthogonal group]] and $X \to \mathbf{B}O$ the classifying map of the [[tangent bundle]] of $X$, a trivialization of the corresponding Chern-Simons 3-bundle is a [[string structure]] on $X$. A trivialization of the Chern-Simons 3-bundle _with connection_ is a [[differential string structure]] on $X$.
 
-* **Chern-Simons circle 3-bundle**, [[Chern-Simons circle 7-bundle]]
+* [[universal Chern-Simons n-bundle]]
+
+  * **Chern-Simons circle 3-bundle**
+
+  * [[Chern-Simons circle 7-bundle]]
 
 The CS 3-bundle 3-connection is the [[extended Lagrangian]] for ordinary $G$-[[Chern-Simons theory]]. See there for more.
 
