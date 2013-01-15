@@ -28,7 +28,7 @@
 
 The words "Chern--Simons theory" (after [[Shiing-shen Chern]] and [[James Simons]] who have their names attached to the [[Chern-Simons elements]] and [[Chern-Simons forms]] and [[Chern-Simons circle 3-bundle]] involved) can mean various things to various people, but it generally refers to the three-dimensional [[topological quantum field theory]] whose configuration space is the space of $G$-[[principal bundles]] with [[connection on a bundle]] and whose [[Lagrangian]] is given by the [[Chern-Simons form]] of such a connection (for simply connected $G$), or rather, more generally, whose [[action functional]] is given by the [[higher holonomy]] of the [[Chern-Simons circle 3-bundle]].
 
-In other words, for $G$ a [[Lie group]], Chern-Simons theory is a [[sigma-model]] [[TQFT]] whose [[target space]] is the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B}G_{conn}$ of $G$-[[principal connections]], and whose [[background gauge field]] is a [[circle n-bundle with connection|circle 3-bundle with connection]] on $\mathbf{B}G_{conn}$. The higher [[Chern class]]/[[Dixmier-Douady class]] of this three bundle is the _level_ of the Chern-Simons theory.
+In other words, for $G$ a [[Lie group]], Chern-Simons theory is a [[sigma-model]] [[TQFT]] whose [[target space]] is the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B}G_{conn}$ of $G$-[[principal connections]], and whose [[background gauge field]] is a [[circle n-bundle with connection|circle 3-bundle with connection]] on $\mathbf{B}G_{conn}$. The higher [[Chern class]]/[[Dixmier-Douady class]] of this three bundle is the _[[level (Chern-Simons theory)|level]]_ of the Chern-Simons theory.
 For $G$ semisimple this is the [[schreiber:∞-Chern-Simons theory]] induced from the canonical [[Chern-Simons element]] on a [[semisimple Lie algebra]] $\mathfrak{g}$.
 
 For the special case that $G$ is a [[discrete group]] the theory reduces to the (much simpler) [[Dijkgraaf-Witten theory]].
@@ -495,6 +495,8 @@ Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?
 
 
 ## Related concepts
+
+* [[level (Chern-Simons theory)]]
 
 * [[schreiber:∞-Chern-Simons theory]]
 
