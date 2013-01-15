@@ -81,7 +81,7 @@ or section 5 of
 or
 
 * Yuichi Nohara, _Independence of Polarization
-in Geometric Quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
+in Geometric Quantization_ ([pdf](http://geoquant2007.mi.ras.ru/nohara.pdf))
 
 
 
