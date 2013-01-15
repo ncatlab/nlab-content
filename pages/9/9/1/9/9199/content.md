@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The  [[characteristic classes]] that classify the stages of a [[Postnikov tower]] (or dually: [[Whitehead tower]]) are called _K-invariants_.
+
+## Examples
+
+(...)
+
+
+[[!redirects k-invariants]]
+
+[[!redirects K-invariant]]
+[[!redirects K-invariants]]
+
+[[!redirects K invariant]]
+[[!redirects K invariants]]
