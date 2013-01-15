@@ -34,7 +34,7 @@ $$
 $$
 
 where each $X_k$ is a [[homotopy n-type|homotopy (k-2)-type]]/[[n-truncated object in an (infinity,1)-category|(n-2)-truncated object]] and such that each morphism $X_{k+1} \to X_k$ induces an [[isomorphism]] on [[homotopy groups]] in degree $\leq k-2$.
-This may be thought of as decomposing $X$ into its "layers" as seen by the degree of [[homotopy groups]]. 
+This may be thought of as decomposing $X$ into its "layers" as seen by the degree of [[homotopy groups]]. The [[characteristic classes]] which give the [[∞-group extension]] in each layer are called the _[[K-invariants]]_ of $X$.
 
 More generally, in any [[(∞,1)-topos]] and for any [[morphism]] $f \colon X \to Y$ the corresponding Postnikov system is a [[tower]]
 
@@ -502,6 +502,8 @@ The traditional case of Postnikov towers in [[Top]] is a special case of this mo
 ## Related concepts
 
 * [[n-image]], [[n-epimorphism]], [[n-monomorphism]]
+
+* [[K-invariant]]
 
 * [[k-ary factorization system]]
 
