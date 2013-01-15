@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[schreiber:infinity-Chern-Simons theory]] for [[discrete infinity-group]].
+
+## Examples
+
+* [[Dijkgraaf-Witten theory]]
+
+* [[Yetter model]]
+
+[[!redirects ∞-Dijkgraaf-Witten theory]]
