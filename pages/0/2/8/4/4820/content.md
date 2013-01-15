@@ -1,3 +1,4 @@
+[[!redirects Chern-Simons circle 7-bundle with connection]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -171,9 +172,11 @@ where $A$ is a connection form on the total space of the $Spin(n)$-[[principal b
 
 ## Related concepts
 
-* [[Chern-Simons circle 3-bundle]]
+* [[universal Chern-Simons n-bundle]]
 
-* **Chern-Simons circle 7-bundle**
+  * [[Chern-Simons circle 3-bundle]]
+
+  * **Chern-Simons circle 7-bundle**
 
 The CS 7-bundle serves as the [[extended Lagrangian]] for a _[[7d Chern-Simons theory]]_. See there for more.
 
