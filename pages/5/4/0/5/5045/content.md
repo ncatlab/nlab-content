@@ -17,6 +17,10 @@
 
   * [[Chern-Simons element]]
 
+## Definition
+
+* [[level (Chern-Simons theory)]]
+
 ## Examples
 
 * **For [[semisimple Lie algebra]] targets**
