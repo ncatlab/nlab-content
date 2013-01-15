@@ -43,6 +43,8 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 
 1. [Topological local field theory in higher category theory](#TopologicalLocalFieldTheoryInHigherGeometry)
 
+1. [Intermezzo: Elements of higher cohesive geometry](#IntermezzoElementsOfHigherCohesiveGeometry)
+
 1. [Chern-Simons theory as the archetypical example](#CSAsArchetypicalExample)
 
 1. [Topological local Lagrangian field theory in higher geometry](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)
@@ -276,13 +278,203 @@ From this it is clear that in order to refine this to local (extended, multi-tie
 
 As a first indication that this makes good sense, notice that the natural assignment to a field in codimension 0, hence to a field configuration on [[spacetime]], is its [[action functional]]. Being a $U(1)$-valued function, this is naturally thought of as a 0-bundle, the _[[prequantum 0-bundle]]_.
 
- 
+So we are after a picture as indicated in the following table. 
 
 | | | [[extended prequantum field theory|local/extended Lagrangian field theory]] |  | [[extended quantum field theory|local/extended quantum field theory]]  |
 |--|--|--|--|--|
 | closed piece of [[spacetime]] of [[dimension]] $0 \leq k \leq n$ |  [[prequantum field theory]] | [[prequantum n-bundle|prequantum (n-k)-bundle]] | [[geometric quantization]] | [[space of states|space of]] $(n-k)$-[[wave functions]] |
 | [[closed manifold]] of [[dimension]] $0 \leq k \leq n$ | $\stackrel{local\;prequantum\;field\;theory}{\mapsto}$ | [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on [[moduli stack]] of [[field (physics)|field configurations]] | $\stackrel{polarized\; sections}{\mapsto}$ | [[n-vector space|(n-k)-vector space of states]] | 
 | $\Sigma_k$ | $\mapsto$ | $\exp(2 \pi i \int_{\Sigma_k}[\Sigma_k,\mathbf{L}]) : [\Sigma_k, \mathbf{Fields}] \to \mathbf{B}^{n-k} U(1)_{conn}$ | $\mapsto$ | $Z(\Sigma_{n-k})$ |
+
+
+### Intermezzo: Recalling elements of higher cohesive geometry  
+ {#IntermezzoElementsOfHigherCohesiveGeometry}
+
+The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this out in in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we briefly recall these first.
+
+(...)
+
+For $\mathcal{C}$ a [[site]] with [[point of a topos|enough points]] the [[(2,1)-category]] of [[(2,1)-sheaves]] ([[stacks]]) on $\mathcal{C}$ is the [[simplicial localization]]
+
+$$
+  Sh_{(2,1)}(\mathcal{C})
+  \simeq
+  L_{le} Func(\mathcal{C}^{op}, Grpd)
+  \,.
+$$
+
+$L_{le}$: formally turn [[stalk]]-wise ("local") [[equivalence of groupoids|equivalence of groupoids]] into actual [[equivalences]].
+
+(...)
+
+$$
+  \infty Grpd \simeq L_{whe} sSet \simeq L_{whe} Top
+$$
+
+$L_{w}$: formally turn [[weak homotopy equivalences]] into actual [[homotopy equivalences]].
+
+(...)
+
+
+
+$$
+  \array{
+    \mathbf{H} \coloneqq
+    & Sh_\infty(\mathcal{C})
+    &
+    \stackrel{
+      \overset{\infty-stackif.}{\leftarrow}
+    }{
+      \hookrightarrow
+    }
+  &
+  PSh_\infty(\mathcal{C})
+  \\
+  & \uparrow^{\mathrlap{\simeq}} && \uparrow^{\mathrlap{\simeq}}
+  \\
+  & L_{lwhe} Func(\mathcal{C}^{op}, sSet)
+  &
+  \stackrel{
+    \overset{\mathbb{L} id}{\leftarrow}
+   }{
+     \underset{\mathbb{R} id}{\rightarrow}
+  }&
+  L_{whe} Func(\mathcal{C}^{op}, sSet)
+  }
+$$
+
+
+$L_{lwhe}$: universally turn [[stalk]]-wise ("local") [[weak homotopy equivalences]] into actual [[homotopy equivalences]]
+
+(...)
+
+[[cohesion]]
+
+$\mathcal{C}$ an [[infinity-cohesive site]] 
+
+$$
+  \array{
+   \mathbf{H}
+    &
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{}{\stackrel{\overset{coDisc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}} 
+   &
+  \infty Grpd
+  \\
+  \uparrow^{\mathrlap{\simeq}}
+  &&
+  \uparrow^{\mathrlap{\simeq}}
+  \\
+  L_{lwhe} Func(\mathcal{C}^{op}, sSet)
+  &\stackrel{\overset{hocolim_{\mathcal{C}}}{\to}}{\stackrel{\overset{const}{\leftarrow}}{\stackrel{X \mapsto X(*)}{\stackrel{\overset{}{\to}}{\underset{}{\leftarrow}}}}}&
+  L_{whe} sSet
+  }
+$$
+
+(...)
+
+| [[shape modality]] | $\dashv$ | [[flat modality]] | $\dashv$ |[[sharp modality]] |
+|--|--|--|--|--|
+| $\mathbf{\Pi} \coloneqq Disc \circ \Pi$ | | $flat \coloneqq Disc \circ \Gamma$ |   | $\sharp \dashv coDisc \circ \Gamma$  |
+
+for $G \in Grp(\mathbf{H})$ we have a [[pasting diagram]] of [[(∞,1)-pullbacks]]
+
+$$
+  \array{
+    G &\to& * 
+    \\
+    \downarrow^{\mathrlap{\theta_G}} && \downarrow
+    \\
+    \flat_{dR} \mathbf{B}G
+    &\to&
+    \flat \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    \infty-group &\to& *
+    \\
+    {}^{\mathllap{MC\;form}}\downarrow && \downarrow
+    \\
+    deRham\, coefficients &\to& flat\;coefficients
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& principal\,coefficients
+  }
+$$
+
+for $\mathbb{G}$ a [[braided ∞-group]] set 
+
+$$
+  curv_{\mathbb{G}}
+  \;\colon\;
+  \mathbf{B}\mathbb{G}
+  \stackrel{\theta_{\mathbf{B}\mathbb{G}}}{\to}
+  \flat_{dR}\mathbf{B}^2 \mathbb{G}
+$$
+
+then $\mathbb{G}$-[[differential cohomology]] is $curv_{\mathbf{B}\mathbb{G}}$-[[twisted cohomology]]
+
+In particular, if we consider globally defined curvature forms
+
+$$
+  \Omega_{cl}(-,\mathbb{G}) \to \flat_{dR}\mathbf{B}^2\mathbb{G}
+$$
+
+then the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{B}\mathbb{G}_{conn}
+    &\to&
+    \Omega(-,\mathbb{G})
+    \\
+    \downarrow && \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    \mathbf{B}\mathbb{G}
+    &\stackrel{curv_{\mathbf{B}\mathbb{G}}}{\to}&
+    \flat_{dR}\mathbf{B}^2 \mathbb{G}
+  }
+$$
+
+is the mopduli for [[principal ∞-connections]].
+
+Now for 
+
+$$
+  \mathbf{c}
+  \;\colon\;
+  \mathbf{B}G
+  \to 
+  \mathbf{B}\mathbb{G}
+$$
+
+a [[universal characteristic map]] we say that a _differential refinement_ is a choice of $\mathbf{B}G_{conn}$ and $\hat \mathbf{c}$ in
+
+$$
+  \array{
+    \flat \mathbf{B}G 
+    &\stackrel{\flat \mathbf{c}}{\to}&
+    \mathbf{B}\mathbb{G}
+    \\
+    \downarrow && \downarrow^{}
+    \\
+    \mathbf{B}G_{conn} &\stackrel{\hat \mathbf{c}}{\to}&
+    \mathbf{B}\mathbb{G}_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G
+    &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}\mathbb{G}
+  }
+  \,.
+$$
+
+These are the [[extended Lagrangians]] here.
 
 ### Chern-Simons theory as the archetypical example
  {#CSAsArchetypicalExample}
@@ -315,7 +507,7 @@ $$
   L_{whe} Top
 $$
 
-this as an essentially unique lift to _smooth cohomology_
+this has an essentially unique lift to _smooth cohomology_
 
 $$
   \mathbf{c}
@@ -383,14 +575,14 @@ Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensiona
 
 If the [[gauge group]] $G$ is not simple and simply connected, then there are other canonical [[universal characteristic classes]] in $H^4(B G, \mathbb{Z})$. If these have a differential refinement, they give rise to the corresponding Chern-Simons theory.
 
-Notably in the case that $G = U(1)$ is the [[circle group]] (hence not [[simply connected topological space|simply connected]]) there is the [[cup product]] of the universal [[first Chern-class]] with itself
+Notably in the case that $G = U(1)$ is the [[circle group]] (hence not [[simply connected topological space|simply connected]]) there is the [[cup product]] of the universal [[first Chern class]] with itself
 
 $$
   c_1 \cup c_1 \;\colon\; B U(1) \to B^3 U(1)
   \,.
 $$
 
-The smooth and differential refinement of the [[first Chern-Class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
+The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
 
 $$
   \mathbf{c}_1 \coloneqq id 
@@ -417,7 +609,9 @@ This is the [[extended Lagrangian]] for abelian Chern-Simons theory.
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
-So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known case of [[3d Chern-Simons theory]] naturally captures the characteristics of the theory. Now we consider further examples whose higher geometry has not necessarily been understood before.
+So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known case of [[3d Chern-Simons theory]] naturally captures the characteristics of the theory. Now we consider further examples whose higher geometry has not necessarily been considered traditionally.
+
+
 
 Recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and moreover differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]], represented by a [[characteristic map]]  
 
@@ -502,8 +696,7 @@ $$
 
 WZW 6-bundle for 7-d CS theory
 
-(...)
-
+[[!include extended prequantum field theory - table]]
 
 
 ## Definition
