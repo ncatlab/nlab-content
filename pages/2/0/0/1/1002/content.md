@@ -15,7 +15,7 @@ More generally, we can define an __ultrafilter__ in any [[partial order|poset]] 
 
 Given an element $x$ of a set $S$, the __principal ultrafilter__ (on $S$) at $x$ consists of every [[subset]] of $S$ to which $x$ belongs.  An ultrafilter $F$ is __fixed__ if the [[intersection]] of its elements is [[inhabited subset|inhabited]], in which case that intersection must be a [[singleton]] $\{x\}$ and $F$ is the principal ultrafilter at $x$.
 
-In contrast, if this intersection [[empty set|empty]], then we call $F$ a __free ultrafilter__.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is fixed.  In contrast, the [[ultrafilter theorem]] (a weak consequence of the axiom of choice) states that any proper filter (in any Boolean lattice) may be extended to a maximal filter.
+In contrast, if this intersection [[empty set|empty]], then we call $F$ a __free ultrafilter__.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is fixed.  In contrast, the [[ultrafilter theorem]] (a weak consequence of the axiom of choice) states that any proper filter (in any Boolean lattice) may be extended to an ultrafilter.
 
 Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]], where the ultrafilter theorem seems to be a necessity.
 
@@ -24,10 +24,13 @@ Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]]
 
 There are in fact many interrelated ways of defining ultrafilters. We present a few here. 
 
+### Ultrafilters form a monad
+
+For any set $X$, let $U X$ be the set of ultrafilters on $X$.  Principal ultrafilters provide an inclusion $\eta\colon X\to U X$, which turns out to be the unit of a [[monad]] on $Set$, as briefly touched upon above.  The multiplication can be described fairly explicitly.  First of all, if $A\subseteq X$, define $[A]\subseteq U X$ to be the set of all ultrafilters containing $A$.  Then given $\mathcal{F} \in U U X$, i.e. an ultrafilter of ultrafilters, we let $\mu(\mathcal{F}) = \{ A | [A] \in \mathcal{F} \}$; one can verify that this is an ultrafilter and makes $U$ into a monad. This monad is traditionally denoted $\beta$. 
 
 ### Ultrafilters and coproducts 
 
-The functor $Set \to Set$ that takes a set $X$ to the set of ultrafilters on it is traditionally denoted $\beta$. Observe that the canonical map 
+Observe that the canonical map 
 
 $$\beta(X) + \beta(Y) \to \beta(X + Y)$$ 
 
@@ -40,7 +43,7 @@ The endofunctor $\beta$ is terminal among endofunctors $Set \to Set$ that preser
 
 A topological proof of this fact has been given by Richter (see references). 
 
-This gives one universal characterization of the ultrafilter endofunctor. This theorem implies that there is precisely one [[monad]] structure on $\beta$, and that if $F: Set \to Set$ is a monad which preserves finite coproducts, then the unique transformation $F \to \beta$ is a morphism of monads. 
+This gives one universal characterization of the ultrafilter endofunctor. This theorem implies that there is precisely one [[monad]] structure on $\beta$, and that if $F\colon Set \to Set$ is a monad which preserves finite coproducts, then the unique transformation $F \to \beta$ is a morphism of monads. 
 
 
 ### Ultrafilters and codensity 
@@ -48,6 +51,7 @@ This gives one universal characterization of the ultrafilter endofunctor. This t
 Another known universal characterization of the ultrafilter monad is via the concept of [[codensity monads]]. (This fact was recently (June 2011) mentioned by [[Tom Leinster]] at the categories list, but it also appears sparsely in the literature; see for instance _Algebraic Theories_, exercise 3.2.12(e).) 
 
 Let $i: Fin \to Set$ be the usual full inclusion of [[finite sets]] into sets. The restricted [[co-Yoneda embedding]] 
+
 
 $$Set \stackrel{y^{op}}{\to} (Set^{Set})^{op} \stackrel{(Set^i)^{op}}{\to} (Set^{Fin})^{op},$$ 
 
@@ -126,16 +130,14 @@ the existence of an uncountable [[measurable cardinal]] is equivalent (in ZFC) t
 
 ## Algebras of the ultrafilter monad
 
-For any set $X$, let $U X$ be the set of ultrafilters on $X$.  Principal ultrafilters provide an inclusion $\eta\colon X\to U X$, which turns out to be the unit of a [[monad]] on $Set$, as briefly touched upon above.  The multiplication can be described fairly explicitly.  First of all, if $A\subseteq X$, define $[A]\subseteq U X$ to be the set of all ultrafilters containing $A$.  Then given $\mathcal{F} \in U U X$, i.e. an ultrafilter of ultrafilters, we let $\mu(\mathcal{F}) = \{ A | [A] \in \mathcal{F} \}$; one can verify that this is an ultrafilter and makes $U$ into a monad. This monad is traditionally denoted $\beta$. 
-
-A theorem due to [[Ernest Manes]] is that the [[Eilenberg-Moore category]] of this monad is the category of [[compact Hausdorff spaces]] with its obvious forgetful functor to $Set$. 
+A theorem due to [[Ernest Manes]] is that the [[Eilenberg-Moore category]] of ultrafilter monad is the category of [[compact Hausdorff spaces]] with its obvious forgetful functor to $Set$. 
 
 * In one direction, if $X$ is a compact Hausdorff space, then the corresponding algebra structure 
 $$\xi: \beta X \to X$$ 
 sends an ultrafilter $F$ on $X$ to the unique point in $X$ to which $F$ converges. ($F$ **converges to** $x$ if the filter of neighborhoods of $x$ is contained in $F$; see [[convergence space]].) 
 
-* In the other direction, given an algebra structure $\xi: \beta X \to X$, we define a topology by defining a set $U \subseteq X$ to be [[open subset|open]] if 
-$$\forall_{x \in X} \forall_{F \in \beta X} U \in F and \xi(F) = x \Rightarrow x \in U$$ 
+* In the other direction, given an algebra structure $\xi\colon \beta X \to X$, we define a topology by defining a set $U \subseteq X$ to be [[open subset|open]] if 
+$$(\forall_{x \in X} \forall_{F \in \beta X} U \in F \: and \: \xi(F) = x) \Rightarrow x \in U$$ 
 The sense of this is that a set is open if it is a neighborhood of each of its points, and the neighborhood filter of $x$ is the intersection of all ultrafilters that converge to $x$. (The unit condition is that 
 $$\xi (prin(x)) = x$$ 
 so that the neighborhood filter of $x$ is contained in $prin(x)$, i.e., each neighborhood of $x$ contains $x$.) It is not hard to verify that this condition indeed defines a topology. In fact, the topology is compact Hausdorff, essentially because [[compact space|compactness]] is equivalent to having every ultrafilter converge to some point, and [[Hausdorff space|Hausdorffness]] to having that point be unique. 
@@ -170,6 +172,7 @@ where $Kl(\beta)$ is the [[Kleisli category]] (or the full category of compact H
 
 [[!redirects ultrafilter]]
 [[!redirects ultrafilters]]
+
 
 [[!redirects principal ultrafilter]]
 [[!redirects principal ultrafilters]]
