@@ -60,6 +60,11 @@ Chapter 5 of
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
  {#AGMOO}
 
+### Interpretation as entanglement entropy
+
+Discussions of the interpreation of BH entropy as [[entanglement entropy]] include
+
+* Alejandro Satz, [[Ted Jacobson]], _Black hole entropy and the renormalization group_ ([arXiv:1301.3171](http://arxiv.org/abs/1301.3171))
 
 [[!redirects black hole entropy]]
 [[!redirects BH entropy]]
