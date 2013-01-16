@@ -117,3 +117,6 @@ Boundary [[higher dimensional WZW models]] for nonabelian [[higher dimensional C
 
 
 [[!redirects Chern-Simons supergravity]]
+
+[[!redirects higher dimensional Chern-Simons gravity]]
+[[!redirects higher dimensional Chern-Simons supergravity]]
