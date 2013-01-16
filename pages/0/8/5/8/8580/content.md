@@ -8369,7 +8369,8 @@ some crucial principles with Einstein-Maxwell-Yang-Mills theory, while at the  s
 much simpler to analyze. 
 
 The dimension of Chern-Simons theory is 3 instead of 4, but 
-Chern-Simons theory has a [[gauge field]] just as [[Yang-Mills theory]] does. For $G$ a [[connected topological space|connected]] [[simply connected topological space|simply connected]] [[gauge group]], this is mathematically represented by a [[Lie algebra-valued differential 1-form]] $A$.
+Chern-Simons theory has a [[gauge field]] just as [[Yang-Mills theory]] does. For $G$ a [[connected topological space|connected]] [[simply connected topological space|simply connected]] [[gauge group]], this is mathematically represented by a 
+[[infinity-Lie algebroid-valued differential form|Lie algebra-valued differential 1-form]] $A$.
 
 The [[Lagrangian]] of [[Chern-Simons theory]] is the [[Chern-Simons 3-form]]
 
@@ -8691,6 +8692,33 @@ $$
 
 These are the [[extended Lagrangians]] here.
 
+if $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ then 
+
+$$
+  \mathbf{B}\mathbb{G}_{conn}
+  \simeq
+  \mathbf{B}^n U(1)_{conn}
+  \simeq
+  DK(  U(1) \to \Omega^1 \to \cdots \to \Omega^n)
+  \,.
+$$
+
+There is [[fiber integration in ordinary differential cohomology]] refined to moduli $\infty$-stacks: for $\Sigma_k$ an oriented [[closed manifold]] of [[dimension]] $k$ we have a map
+
+$$
+  \exp\left(
+   2 \pi i \int_{\Sigma} (-)
+  \right)
+  \;\colon\;
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \to 
+  \mathbf{B}^{n-k} U(1)_{conn}
+  \,.
+$$
+
+Composed with the [[internal hom]] this is _[[transgression]]_ of differential cocycles. 
+
+
 ### Chern-Simons theory as the archetypical example
  {#CSAsArchetypicalExample}
 
@@ -8949,6 +8977,79 @@ Therefore in summary we find the following identifications of [[extended prequan
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
+In the examples of [[2d Chern-Simons theory]] and [[7d Chern-Simons theory]] that we have discussed above, the fully extended Lagrangian is equivalently the [[prequantum n-bundle]] on the universal [[moduli ∞-stack]] of [[field (physics)|fields]], for $n = 3$ and $n = 7$, respectively.
+
+But in fact this is the general situation for fully extended Lagrangians: 
+
+if $\mathbf{Fields} \in \mathbf{H}$ is the object that serves as the [[moduli ∞-stack]] of [[field (physics)|fields]] for some $n$-dimensional [[theory (physics)|theory]] in that for any [[spacetime]]/[[worldvolume]] $\Sigma_n$ of [[dimension]] $n$ the space of fields is the [[mapping stack]] $[\Sigma_n, \mathbf{Fields}]$, then the corresponding [[prequantum n-bundle]] has to be over this object $\mathbf{Fields}$ and hence to be modulated by a map of moduli $\infty$-stacks of the form
+
+$$
+  \mathbf{L} \;\colon\;
+  \mathbf{Fields}
+  \to 
+  \mathbf{B}^n U(1)_{conn}
+$$
+
+hence by a fully extended Lagrangian. 
+
+Above we considered the case that $\mathbf{Fields} \simeq \mathbf{B}G_{conn}$ for a [[Lie group]] $G$ or $\mathbf{Fields} \simeq \mathbf{B}String_{conn}$ for the [[string 2-group]]. In general for $G \in Grpd(\mathbf{H})$ a [[smooth ∞-group]] an extended Lagrangian as above
+encodes an [[extended prequantum field theory|extended prequantum]] _[[higher gauge theory]] of Chern-Simons type_: 
+
+the [[curvature]] $(n+1)$-form of $\mathbf{L}$ (i.e. the [[n-plectic geometry|pre n-plectic form]] of the [[n-plectic geometry|n-plectic]] [[∞-stack]] $\mathbf{Fields}$ )
+
+$$
+  F_{\mathbf{L}}
+  \;\colon\;
+  \mathbf{B}G_{conn}
+  \stackrel{\mathbf{L}}{\to}
+  \mathbf{B}^n U(1)_{conn}
+  \stackrel{F_{(-)}}{\to}
+  \Omega^{n+1}_{cl}
+$$
+
+is -- by [[∞-Chern-Weil theory]] -- an [[invariant polynomial]] of the [[∞-Lie algebra]] $\mathfrak{g}$ of $G$. Accordingly, the [[action functional]]
+
+$$
+  \exp\left( 
+    2 \pi i \int_{\Sigma_n} [\Sigma_n, \mathbf{L}]
+  \right)
+  \;\colon\;
+  [\Sigma_n, \mathbf{B}G_{conn}]
+  \to 
+  U(1)
+$$
+
+locally takes an [[infinity-Lie algebroid-valued differential form
+|L-∞ algebra valued differential form]] $A$ (the [[higher gauge fields]]) to a [[Lagrangian]] $CS(A)$ which locally is a differential form with the property that $ d CS(A) = F_A$.
+This means that 
+$\exp\left( 2 \pi i \int_{\Sigma_n} [\Sigma_n, \mathbf{L}] \right)$ is a [[higher gauge theory]] _of Chern-Simons type_. We say that it is an _[[schreiber:∞-Chern-Simons theory]]_.
+
+This remains true if $\mathbf{Fields}$ is of more general form, so that fields are [[infinity-Lie algebroid-valued differential form
+|L-∞ algebroid valued differential form]].
+
+This means that fully [[extended prequantum field theory]] is considerably more restrictive than the traditional notion of [[local Lagrangian]] field theory, just as [[extended topological quantum field theory]] is much more restrictive than non-extended [[TFT]]. 
+
+1. **fewer choices in prequantization** Traditional [[geometric quantization]] involves making considerable choices. Notably the choice of [[prequantum bundle]] lifting the [[symplectic form]]. In [[extended prequantum field theory]] the prequantum bundles in codimension 1 are constrained to all arise by [[transgression]] from a [[prequantum n-bundle]] in codimension $n$. This is a strong coherence condition that drastically reduces the available choices. 
+
+   For instance for $G$ a compact Lie group, there is an [[isomorphism]]
+
+   $$
+     H^n(B G, \mathbb{Z})
+     \simeq
+     \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n U(1))
+     \,.
+   $$
+
+   This means that if $H^n(B G, \mathbb{Z})$ has no [[torsion subgroup|torsion]], then there is _at most one_ extended prequantization of a given invariant polynomial.
+
+
+1. **selecting physically natural theories** While the traditional formalization of [[local Lagrangian]] field theory does capture crucial aspects of those [[theories (physics)|theories]] that one is interested in in [[physics]], it still admits many "unnatural theories". The _generic_ [[local Lagrangian]] (in the sense of a horizontal form on the [[jet bundle]] of the [[field bundle]]) contains many higher order derivatives of fields, non-polynomial interactions etc., properties that the typical [[theory (physics)|theories]] of relevance in theoretical physics do no share.
+
+The remaining question then is how accurately [[extended prequantum field theory]] constrains the space of possible [[local Lagrangians]]. In other words: which theories of interest can not be thought of as [[schreiber:∞-Chern-Simons theories]] or [[schreiber:∞-Wess-Zumino-Witten theory ]]?
+
+As a hint to the answer of this question, here is a list of names examples of [[schreiber:∞-Chern-Simons theories]]. We discuss the items of the list in detail in the following.
+
+
 * [[higher dimensional Chern-Simons theory]]
 
   * [[1d Chern-Simons theory]]
@@ -8992,16 +9093,13 @@ Therefore in summary we find the following identifications of [[extended prequan
 
   * [[∞-Dijkgraaf-Witten theory]]
 
-  * [[string field theory]]
+  * [[higher dimensional Chern-Simons gravity]]
 
   * [[AKSZ sigma-model]]
 
+  * [[string field theory]]
 
-| [[schreiber:∞-Chern-Simons theory]] | [[Kaluza-Klein reduction]] $\to$ |   |
-|--|--|--|
-| [[string field theory]] | |  [[Einstein-Yang-Mills theory]] | 
-
-
+The last example here brings us back full circle to where we started this motivation with [above](#IngredientsOfFundamentalPhysics): by the central property of [[string theory]], the action functional for [[string field theory]] (or some [[KK-reduction]] thereof) contains [[Einstein-Yang-Mills theory]].
 
 
 ## **Fields**
