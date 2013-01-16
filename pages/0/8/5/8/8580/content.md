@@ -8260,7 +8260,7 @@ Before we discuss technical details starting in the [next chapter](#Fields) here
 
 1. [7-dimensional Chern-Simons theory as the next example](#7dCSTheoryAsExample)
 
-1. [∞-Chern-Simons theory as the general example](#InfinityChern-SimonsTheoryAsTheGeneralExample)
+1. [∞-Chern-Simons theory as the general example](#InfinityCSAsGeneralExample)
 
 =--
 
