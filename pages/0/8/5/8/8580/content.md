@@ -8570,7 +8570,7 @@ $$
   \array{
    \mathbf{H}
     &
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{}{\stackrel{\overset{coDisc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}} 
+   \stackrel{\overset{\Pi}{\to}}{\stackrel{}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}} 
    &
   \infty Grpd
   \\
@@ -8947,11 +8947,11 @@ Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underl
 
 $$
   \array{
-    \mathbf{B}String
+    String
     && &\stackrel{\Omega \left( \tfrac{1}{6}\mathbf{p_2}\right)}{\to}& &&
     \mathbf{B}^6 U(1)
     \\
-    {}^{\mathllap{\simeq}}\downarrow
+    \downarrow
     && && && \uparrow
     \\
     String //_{Ad} String
