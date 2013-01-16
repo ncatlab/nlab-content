@@ -65,16 +65,16 @@ entities.
 
 The best [[theory (physics)|theory]] of fundamental physics as presently understood is known as _[[Einstein-Yang-Mills-Dirac-Higgs theory]]_. 
 While fundamental, this theory has _free parameters_. These index different flavors of the same general mechanism. Notably the species and the masses of the fundamental [[fermion]] [[particles]] are such parameters, as 
-is their coupling to the force fields.
+is their coupling to the [[force fields]].
 
 Specifying these parameters is called constructing a 
-_[[model (in theoretical physics)|model]]_ in physics  and specifically as a [[phenomenology|phenomenological model]] of fundamental physics, 
+_[[model (in theoretical physics)|model]]_ in physics  and specifically a [[phenomenology|phenomenological model]] of fundamental physics, 
 if aimed at making the observations that are predicted by the theory to closely match those that are being made in experiments. The global choice of these parameters that make the predictions  match all available data to the currently best possible degree is called the _standard model_, specifically the  _[[standard model of particle physics]]_ for the sector in which the large-scale description of the 
-force of gravity is approximately negligible, and the 
+force of [[gravity]] is approximately negligible, and the 
 _[[standard model of cosmology]]_
 which focuses on that large scale structure.
 
-The following table list some key of the standard theory of fundamental physics, all of which we discuss in detail further below.
+The following table list some key ingredients of the standard theory of fundamental physics, all of which we discuss in detail further below.
 
 [[!include standard model of fundamental physics - table]]
 
@@ -151,7 +151,7 @@ In the 1980s attention turned to _other_ topological local Lagrangian gauge fiel
 which we actually observe experimentally. For instance there are respectable theories of fundamental 
 pyhsics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
 
-In short, it was gradually realized, and realized to be important, that, in the platonic world of mathemtics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point.
+In short, it was gradually realized, and realized to be important, that, in the platonic world of mathematics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point, even if regarded with its free parameters.
 
 A crucial step forward happened when around 1989 [[Edward Witten]], in this vein,  introduced the study of what is now called _[[Chern-Simons theory]]_ a topological local Lagrangian gauge field theory which, as such, shares
 some crucial principles with Einstein-Maxwell-Yang-Mills theory, while at the  same time being  radically different and most importantly: 
@@ -206,17 +206,17 @@ $$
 thought of as the _[[space of physical states]]_ of the theory on the
 spatial slice $\Sigma_{n-1}$ of spacetime. 
 
-However, This original axiomatization did not capture the full _[[local quantum field theory|locality]]_ property: the space of states are assigned globally to a space $\Sigma_{n-1}$ and is not required to be obtainable by "integrating up local data" over $\Sigma_{n-1}$. 
+However, This original axiomatization did not capture the full _[[local quantum field theory|locality]]_ property: the spaces of states are assigned globally to a space $\Sigma_{n-1}$ and are not required to be obtainable by "integrating up local data" over $\Sigma_{n-1}$. 
 
-In order to refine this, one needs an axiomatization of field theory that assigns data also to manifolds $\Sigma_{k}$ of [[dimension]] $0 \leq k \leq n$. This should be such that the data to a torus $\Sigma_{k} \times S^1$ is the [[trace]] in a suitable sense, of the data assigned to $\Sigma_{k}$ itself. It turns out that the way to capture this is to think of $Z(\Sigma_k)$ as being a vector space in [[higher category theory]]/[[directed homotopy type theory]]: an [[n-vector space|(n-k)-vector space]].
+In order to refine this, one needs an axiomatization of field theory that assigns data also to manifolds $\Sigma_{k}$ of [[dimension]] $0 \leq k \leq n$. This should be such that the data assigned to a torus $\Sigma_{k} \times S^1$ is the [[trace]] in a suitable sense, of the data assigned to $\Sigma_{k}$ itself. It turns out that the way to capture this is to think of $Z(\Sigma_k)$ as being a vector space in [[higher category theory]]/[[directed homotopy type theory]]: an [[n-vector space|(n-k)-vector space]].
 
 $$
   \Sigma_k \mapsto Z(\Sigma_k) \in (n-k)\mathrm{Vect}
 $$
 
-That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension ) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). 
+That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). 
 
-But in the [[physics]]-community, at least in the [[algebraic quantum field theory]]-community, there is also the well-established of _[[local quantum field theory]]_ which is meant to refer to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
+But in the [[physics]]-community, at least in the [[algebraic quantum field theory]]-community, there is also the well-established term of _[[local quantum field theory]]_ which refers broadly to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
 
 
 ### Topological local *Lagrangian* field theory in higher geometry
@@ -225,7 +225,7 @@ But in the [[physics]]-community, at least in the [[algebraic quantum field theo
 The formalization of [[extended topological field theory]] thus captures the _[[local quantum field theory|local]]_ aspect of [[field (physics)|field]] [[theory (physics)|theory]]. But we saw [above](#TopologicalLocalLagrangianGaugeFieldTheory) that the theories of fundamental physics have one more crucial property: they are _[[Lagrangian]]_. Here we indicate how to formulate Lagrangian theories that are also local in the sense of [[extended field theory]].
 
 The step of passing from a [[Lagrangian]] to the corresponding 
-[[quantum field theory]] is called _[[quantization]]_. There are two approaches to formalization of what this means, called _[[deformation quantization|algebraic deformation quantization]]_ and _[[geometric quantization]]_.  The first of these deals explicitly with producing [[algebras of quantum observables]], while the second describes explicitly how to construct the [[spaces of states]] that we considered above. Both are at least roughly dual to each other, in the spirit of [[Isbell duality|the general duality]] between [[algebra]] and [[geometry]]. 
+[[quantum field theory]] is called _[[quantization]]_. There are two broad approaches to formalization of what this means, called _[[deformation quantization|algebraic deformation quantization]]_ and _[[geometric quantization]]_.  The first of these deals explicitly with producing [[algebras of quantum observables]], while the second describes explicitly how to construct the [[spaces of states]] that we considered above. Both are at least roughly dual to each other, in the spirit of [[Isbell duality|the general duality]] between [[algebra]] and [[geometry]]. 
 For the following discussion we follow the ideas of [[geometric quantization]], which naturally fit a discussion of _[[geometry of physics]]_.
 The following table surveys some keywords in this context which we will discuss in detail further below.
 
@@ -292,7 +292,7 @@ So we are after a picture as indicated in the following table.
 ### Intermezzo: Recalling elements of higher cohesive geometry  
  {#IntermezzoElementsOfHigherCohesiveGeometry}
 
-The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this out in in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we briefly recall these first.
+The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we briefly recall these first.
 
 (...)
 
@@ -483,35 +483,27 @@ These are the [[extended Lagrangians]] here.
 ### Chern-Simons theory as the archetypical example
  {#CSAsArchetypicalExample}
 
-For illustration purposes, we survey how the [[Chern-Simons field theory]] considered as a toy model for topological local Lagrangian gauge field theory considered above has in [[higher geometry]] a [[prequantum n-bundle|prequantum (n-k)-bundle]] associated in [[codimension]] $k$.
+For illustration purposes, we survey how the [[Chern-Simons field theory]] considered as a toy model for topological local Lagrangian gauge field theory considered [above](#ChernSimonsTheoryAsAToyExample) has in [[higher geometry]] a [[prequantum n-bundle|prequantum (n-k)-bundle]] associated in [[codimension]] $k$.
 
-First consider again $G$ to be a [[connected topological space|connected]] and [[simply connected topological space|simply connected]] [[simple Lie group]]. Then there is an identification
+First consider again $G$ to be a [[connected topological space|connected]] and [[simply connected topological space|simply connected]] [[simple Lie group]]. Then the [[integral cohomology]] of the [[classifying space]] of $G$ is
 
 $$
   H^4(BG , \mathbb{Z}) \simeq \mathbb{Z}
   \,.
 $$
 
-Let
+An element in here is a [[universal characteristic class]] of $G$-[[principal bundles]]. In Chern-Simons theory this is going to be what traditionally is called the [[level (Chern-Simons theory)|level]] of the theory.
+
+We writ
 
 $$
   c : B G \to  B^3 U(1) \simeq K(\mathbb{Z},4)
 $$
 
-be a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. In Chern-Simons theory this is going to be what traditionally is called the [[level (Chern-Simons theory)|level]] of the theory.
+for a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. 
 
 
-Under [[geometric realization of cohesive ∞-groupoids]] 
-
-$$
-  \mathbf{H}
-    \stackrel{}{\stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}}
-  \infty Grpd
-  \underoverset{\simeq}{{\vert-\vert}}{\to}
-  L_{whe} Top
-$$
-
-this has an essentially unique lift to _smooth cohomology_
+Under [[geometric realization of cohesive ∞-groupoids|geoetric realization]] as just [recalled](#IntermezzoElementsOfHigherCohesiveGeometry) this has an essentially unique lift to _smooth cohomology_, hence to a morphism of [[moduli ∞-stacks]]
 
 $$
   \mathbf{c}
@@ -589,7 +581,7 @@ $$
 The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
 
 $$
-  \mathbf{c}_1 \coloneqq id 
+  \widehat \mathbf{c}_1 \coloneqq id 
   \;\colon\;
   \mathbf{B}U(1)_{conn}
   \to 
@@ -600,7 +592,7 @@ $$
 The nontrivial part is that, as one can see, the  [[cup product]] on [[differential cohomology]] refines to [[moduli ∞-stacks]] of [[circle n-bundle with connection]] as the [[∞-stackification]] of what is called the [[Beilinson-Deligne cup product]], and so we have 
 
 $$
-  \mathbf{c}_1 \cup \mathbf{c}_1
+  \widehat \mathbf{c}_1 \cup \widehat \mathbf{c}_1
   \;\colon\;
   \mathbf{B}U(1)_{conn}
   \to
@@ -614,6 +606,8 @@ $$
   \exp\left(
     2\pi i \int_{\Sigma_3} A \wedge d A
   \right)
+  \in 
+  U(1)
   \,.
 $$
 
@@ -625,12 +619,20 @@ But now not every field configuration is necessarily given by a globally defined
 
 So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known case of [[3d Chern-Simons theory]] naturally captures the characteristics of the theory. Now we consider further examples whose higher geometry has not necessarily been considered traditionally.
 
-An immediate class of further examples is obtained by abelian [[higher Chern-Simons theory]] given by the higher [[Beilinson-Deligne cup product]] of the [[differential characteristic class|differential refinement]] of the higher [[Dixmier-Douady class]] with itself:
+An immediate class of further examples is obtained by abelian [[higher Chern-Simons theory]] induced by the [[cup product]] of the [[first Chern class]] with itself
+
+$$
+  [DD_{2k} \cup DD_{2k}] \in H^{4(k+1)}(B^{2k+1} U(1), \mathbb{Z})
+  \,.
+$$
+
+This has a refinement ([FSS cup](#FSSCup)) to a [[differential characteristic class]] by the 
+_[[Beilinson-Deligne cup product]]_ of the [[differential characteristic class|differential refinement]] of the higher [[Dixmier-Douady class]] with itself:
 
 $$
   \widehat \mathbf{DD}_{2k}
   \cup
-  \widedehat \mathbf{DD}_{2k}
+  \widehat \mathbf{DD}_{2k}
   \;\colon\;
   \mathbf{B}^{2k+1} U(1)_{conn}
   \to 
@@ -652,7 +654,7 @@ $$
 $$
 
 An argument in ([Witten 98](#AdS-CFT#Witten98)) says that this abelian 
-[[7d Chern-Simons theory]] (or more precisely a [[quadratic refinement]] of it) is related to the _[[self-dual higher gauge theory]] sector of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]] of a single [[M5-brane]]_  in analogy to how [[3d Chern-Simons theory]] is related to the [[WZW model]]:
+[[7d Chern-Simons theory]] (or more precisely a [[quadratic refinement]] of it) is related to the _[[self-dual higher gauge theory]]_ sector of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]] of a single [[M5-brane]]_  in analogy to how [[3d Chern-Simons theory]] is related to the [[WZW model]]:
 
 | [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
 |--|--|--|--|--|
@@ -661,7 +663,7 @@ An argument in ([Witten 98](#AdS-CFT#Witten98)) says that this abelian
 
 The argument in ([Witten 98](#AdS-CFT#Witten98)) also says that in view of [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) the [[field (physics)|field]] of the 7d theory here is to be identified withe the _[[supergravity C-field]]_ in [[11-dimensional supergravity]]/[[M-theory]]. 
 
-But the [[supergravity C-field]] is known to have moduli that are in general more complicated than just $\mathbf{B}^3 U(1)_{conn}$ (due to a [[Green-Schwarz anomaly cancellation]] mechanism in [[11-dimensional supergravity]] and a "flux quantization" condition). In ([FSS 7dCD](#FSS7dCS)) the corrected moduli are dicussed and found to involve a coupling of the abelian 7d theory with a nonabelian 7d Chern-Simobs theory whose [[field (physics)|fields]] are twisted higher spin connections: "[[twisted differential string structures]]".
+But the [[supergravity C-field]] is known to have moduli that are in general more complicated than just $\mathbf{B}^3 U(1)_{conn}$ (due to a [[Green-Schwarz anomaly cancellation]] mechanism in [[11-dimensional supergravity]] and a "flux quantization" condition). In ([FSS 7dCD](#FSS7dCS)) the corrected moduli are dicussed and found to involve a coupling of the abelian 7d theory with a nonabelian 7d Chern-Simons theory whose [[field (physics)|fields]] are twisted higher spin connections: "[[twisted differential string structures]]".
 
 To see what this is, recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and moreover differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]], represented by a [[characteristic map]]  
 
@@ -996,6 +998,12 @@ The construction of extended Lagrangian by [[Lie integration]] of [[L-∞ algebr
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
  {#FiorenzaSchreiberStasheff}
+
+Construction of differential cup-product theories is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+ {#FSSCup}
+
 
 The discussion of the abelian [[7d Chern-Simons theory]] involved in [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) is due to ([Witten 98](#AdS-CFT#Witten98)). The discussion of the non-abelian quantum-corrected version is due to
 
