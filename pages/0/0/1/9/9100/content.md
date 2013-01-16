@@ -34,6 +34,8 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 * [[Courant sigma-model]]
 
+* [[3d quantum gravity]]
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
@@ -56,7 +58,9 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
   * [[infinite-dimensional Chern-Simons theory]]
 
-  * [[AKSZ sigma-model]]
+* [[string field theory]]
+
+* [[AKSZ sigma-model]]
 
 
 
