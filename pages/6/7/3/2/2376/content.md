@@ -38,7 +38,9 @@ In nuclei there are also effective forces which are not of vector but of [[tenso
 
 * [[Lorentz force]]
 
-* [[gravity]], [[weak nuclear force]], [[strong nuclear force]]
+* [[gravity]], 
+
+* [[electroweak field]], [[weak nuclear force]], [[strong nuclear force]]
 
 * [[matter]]
 
