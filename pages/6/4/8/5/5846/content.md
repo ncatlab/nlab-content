@@ -21,7 +21,7 @@
 
 ## Idea
 
-A [[space]] $X$ is called **formally smooth** if every [[morphism]]s $Y \to X$ into it has for every [[infinitesimal object|infinitesimal thickening]] of $Y$ at most one [[infinitesimal object|infinitesimal]] extensions.
+A [[space]] $X$ is called **formally unramified** if every [[morphism]]s $Y \to X$ into it has for every [[infinitesimal object|infinitesimal thickening]] of $Y$ at most one [[infinitesimal object|infinitesimal]] extensions.
 
 (If all thickening exist it is called a [[formally smooth morphism]]. If the thickening exist uniquely, it is called a [[formally etale morphism]]).
 
