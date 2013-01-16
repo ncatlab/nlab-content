@@ -738,6 +738,52 @@ Therefore in summary we find the following identifications of [[extended prequan
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
+In the examples of [[2d Chern-Simons theory]] and [[7d Chern-Simons theory]] that we have discussed above, the fully extended Lagrangian is equivalently the [[prequantum n-bundle]] on the universal [[moduli ∞-stack]] of [[field (physics)|fields]], for $n = 3$ and $n = 7$, respectively.
+
+But in fact this is the general situation for fully extended Lagrangians: 
+
+if $\mathbf{Fields} \in \mathbf{H}$ is the object that serves as the [[moduli ∞-stack]] of [[field (physics)|fields]] for some $n$-dimensional [[theory (physics)|theory]] in that for any [[spacetime]]/[[worldvolume]] $\Sigma_n$ of [[dimension]] $n$ the space of fields is the [[mapping stack]] $[\Sigma_n, \mathbf{Fields}]$, then the corresponding [[prequantum n-bundle]] has to be over this object $\mathbf{Fields}$ and hence is modulated by a map
+
+$$
+  \mathbf{L} \;\colon\;
+  \mathbf{Fields}
+  \to 
+  \mathbf{B}^n U(1)_{conn}
+$$
+
+hence by a fully extended Lagrangian. 
+
+Above we considered the case that $\mathbf{Fields} \simeq \mathbf{B}G_{conn}$ for a [[Lie group]] $G$ or $\mathbf{Fields} \simeq \mathbf{B}String_{conn}$ for the [[string 2-group]]. In general for $G \in Grpd(\mathbf{H})$ a [[smooth ∞-group]] an extended Lagrangian as above
+encodes an [[extended prequantum field theory|extended prequantum]] _[[higher gauge theory]] of Chern-Simons type_: 
+
+the underlying [[n-plectic geometry|n-plectic form]]
+
+$$
+  F_{\mathbf{L}}
+  \;\colon\;
+  \mathbf{B}G_{conn}
+  \stackrel{\mathbf{L}}{\to}
+  \mathbf{B}^n U(1)_{conn}
+  \stackrel{F_{(-)}}{\to}
+  \Omega^{n+1}_{cl}
+$$
+
+is -- by [[∞-Chern-Weil theory]] -- an [[invariant polynomial]] of the [[L-∞ algebra]] $\mathfrak{g}$ of $G$. Accordingly, the [[action functional]]
+
+$$
+  \exp\left( 
+    2 \pi i \int_{\Sigma_n} [\Sigma_n, \mathbf{L}]
+  \right)
+  \;\colon\;
+  [\Sigma_n, \mathbf{B}G_{conn}]
+  \to 
+  U(1)
+$$
+
+is "of Chern-Simons type". We say that it is an _[[schreiber:∞-Chern-Simons theory]]_.
+
+We close with just metnioning the following list of names of field theories, all of which are examples of this. 
+
 * [[higher dimensional Chern-Simons theory]]
 
   * [[1d Chern-Simons theory]]
@@ -785,8 +831,11 @@ Therefore in summary we find the following identifications of [[extended prequan
 
   * [[AKSZ sigma-model]]
 
-  * [[string field theory]] $\supset$ [[Einstein-Yang-Mills theory]]
+  * [[string field theory]]
 
+The last example here brings us back full circle to where we started this motivation with [above](#IngredientsOfFundamentalPhysics): by the central property of [[string theory]], the action functional for [[string field theory]] (or some [[KK-reduction]] thereof) contains [[Einstein-Yang-Mills theory]].
+
+(...)
 
 
 
