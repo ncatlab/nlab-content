@@ -85,7 +85,7 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 * H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
 
-### Higgs inflation
+### Higgs field inflation
  {#ReferencesHiggsInflation}
 
 Literature discussing whether or how the [[Higgs field]] might be identified as the inflaton field includes
@@ -97,6 +97,14 @@ Literature discussing whether or how the [[Higgs field]] might be identified as 
 * Alex Kehagias, _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
+
+### Gauge field inflation
+ {#ReferencesHiggsInflation}
+
+Literature discussing whether or how [[gauge field]] might be identified as the inflaton field include
+
+* A. Maleknejad, M. M. Sheikh-Jabbari, J. Soda, _Gauge Fields and Inflation_ ([arXiv:1212.2921](http://arxiv.org/abs/1212.2921))
+
 
 [[!redirects inflation]]
 
