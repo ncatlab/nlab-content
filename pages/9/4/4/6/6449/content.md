@@ -522,6 +522,8 @@ For more references see at
 
 * B. Broda, _Higher-dimensional Chern-Simons theory and link invariants_ Physics Letters B Volume 280, Issues 3-4, 30 (1992) Pages 213-218 
 
+* L. Gallot, E. Pilon, F. Thuillier, _Higher dimensional abelian Chern-Simons theories and their link invariants_ ([arXiv:1207.1270](http://arxiv.org/abs/1207.1270))
+
 ### Formulation in $\infty$-Chern-Simons theory
 
 Section 4.1.4 of
