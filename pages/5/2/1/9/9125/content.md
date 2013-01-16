@@ -1656,6 +1656,22 @@ We discuss the general notion of gauge fields and then various special cases and
 
 [[!include gauge field - table]]
 
++-- {: bluebox}
+###### Contents: ######
+
+1. [Electromagnetic field](#ElectromagneticField)
+
+1. [Yang-Mills field](#YangMillsField)
+
+1. [Kalb-Ramond B-field](#KalbRamondBField)
+
+1. [Supergeometric B-field](#SupergeometricBField)
+
+1. [Supergravity C-field](#SupergravityCField)
+
+=--
+
+
 ##### Electromagnetic field
  {#ElectromagneticField}
 
@@ -1740,6 +1756,11 @@ $$
 
 in def. \ref{FieldsInAnActionFunctional} yields the 2-form 
 gauge field known as the _[[B-field]]_ or the _[[Kalb-Ramond field]]_.
+
+####### Supergeometric $B$-field
+ {#KalbRamondBField}
+
+(...)
 
 
 ##### Supergravity $C$-field
