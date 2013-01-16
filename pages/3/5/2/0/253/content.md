@@ -123,14 +123,18 @@ When we do have a strict 2-category, however, other strict notions can be quite 
 
 * **bicategory**
 
+  [[(infinity,2)-category]]
+
 * [[tricategory]]
 
 * [[tetracategory]]
 
+* [[n-category]]
 
-## Related concepts
+* [[(infinity,n)-category]]
 
-Discussion about the use of the term "weak enrichment" above is now at [[weak enrichment]].
+
+Discussion about the use of the term "weak enrichment" above is at _[[weak enrichment]]_.
 
 ## References
 
