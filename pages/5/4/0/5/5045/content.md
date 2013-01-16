@@ -73,21 +73,53 @@
 
   * [[string field theory]]
 
-* [[1d Chern-Simons theory]]
+* [[higher dimensional Chern-Simons theory]]
 
-* [[2d Chern-Simons theory]]
+  * [[1d Chern-Simons theory]]
+ 
+    * [[Wilson loop]]
 
-* [[3d Chern-Simons theory]]
+  * [[2d Chern-Simons theory]]
 
-* [[4d Chern-Simons theory]]
+    * [[Poisson sigma-model]], 
 
-* [[5d Chern-Simons theory]]
+    * [[A-model]], [[B-model]] [[topological string]]
 
-* [[6d Chern-Simons theory]]
+  * [[3d Chern-Simons theory]]
 
-* [[7d Chern-Simons theory]]
+    * [[Chern-Simons theory]]
 
-* [[infinite-dimensional Chern-Simons theory]]
+    * [[Dijkgraaf-Witten theory]]
+
+    * [[Courant sigma-model]]
+
+    * [[3d quantum gravity]]
+
+  * [[4d Chern-Simons theory]]
+
+    * [[Yetter model]]
+
+    * [[BF-theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+    * topological [AdS7/CFT6](http://ncatlab.org/nlab/show/AdS-CFT#AdS7CFT6)-sector
+
+    * [[topological M-theory]]
+
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+  * [[∞-Dijkgraaf-Witten theory]]
+
+  * [[string field theory]]
+
+  * [[AKSZ sigma-model]]
+
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Chern-Simons+theory+-+contents)</div>
