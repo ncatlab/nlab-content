@@ -63,6 +63,10 @@ x + y + z
 
 Equation \eqref{eqnoeq} is not an equation.
 
+| fields | $\simeq$ |  [[twisted cohomology|twisted]] [[relative cohomology|relative]] [[cohesion|cohesive]] [[cocycles]] |
+|--|--|--|
+
+
 ***
 category: meta
 
