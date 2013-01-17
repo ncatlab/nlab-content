@@ -21,7 +21,7 @@
 
 The natural [[tensor product]] operation on [[abelian categories]] is known as the _Deligne tensor product_ or _Deligne box product_, introduced in ([Deligne 90](#Deligne)).
 
-For $A$ and $B$ two suitbale [[abelian category]] their Deligne tensor product $A \boxtimes B$ is the abelian category such that suitably [[exact functors]] $A \boxtimes B \to C$ are equivalent to functors $A \times B \to C$ that are suitably exact in each argument.
+For $A$ and $B$ two suitable [[abelian category|abelian categories]], their Deligne tensor product $A \boxtimes B$ is the abelian category such that suitably [[exact functors]] $A \boxtimes B \to C$ are equivalent to functors $A \times B \to C$ that are suitably exact in each argument.
 
 ## Properties
 
@@ -29,7 +29,12 @@ For $A$ and $B$ two suitbale [[abelian category]] their Deligne tensor product $
 
 For $A$ an [[associative algebra]] over a [[field]] $k$, write $A$[[Mod]] for its [[category of modules]] of finite [[dimension]] over $k$.
 
-Let $\mathcal{C}, \mathcal{D}$ be two finite [[abelian categories]] over $k$.
+Within this page we will use the following terminology:
+
+A $k$-linear abelian category $C$ is said to be _finite_ if it is equivalent to a category $A$[[Mod]], as above. 
+
+
+Let $\mathcal{C}, \mathcal{D}$ be two such finite [[abelian categories]] over $k$.
 
 +-- {: .num_remark}
 ###### Remark
