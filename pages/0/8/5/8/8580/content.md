@@ -12065,6 +12065,7 @@ In the previous chapters we have set up [[prequantum field theory]] and [[classi
 
 * [[Einstein-Yang-Mills theory]]
 
+
 ##### Kaluza-Klein compactification
  {#KaluzaKleinCompactification}
 
@@ -12085,10 +12086,172 @@ In the previous chapters we have set up [[prequantum field theory]] and [[classi
 ### Semantic Layer
  {#GaugeAndGravitySemanticsLayer}
 
-(...)
 
 an exposition and survey is in ([FSS 13](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
 
++-- {: bluebox }
+###### 
+
+1. [1d Chern-Simons theory](#GaugeAndGravity1dCSTheory)
+
+1. [Nonabelian charged particle trajectories -- Wilson loops](#GaugeAndGravityWilsonLoops)
+
+1. [3d Chern-Simons theory with Wilson loops](#GaugeAndGravity3dCSWithWilson)
+
+1. [Chan-Paton gauge fields on D-branes(#GaugeAndGravityChanPatonGaugeFieldsOnDBranes)
+
+=--
+
+#### 1d Chern-Simons theory
+ {#GaugeAndGravity1dCSTheory}
+
+For some $n \in \mathbb{N}$ let 
+
+$$
+  det \;\colon\; U(n) \to U(1)
+$$
+
+be the [[Lie group]] [[homomorphism]] from the [[unitary group]] to the [[circle group]] which is given by sending a [[unitary matrix]] to its [[determinant]].
+
+Being a Lie group homomorphism, this induces a map of [[deloopings]]/[[moduli stacks]]
+
+$$
+  \mathbf{B}det
+   \;\colon\; 
+  \mathbf{B}U(n) \to \mathbf{B}U(1)
+$$
+
+Under [[geometric realization of cohesive infinity-groupoids]] this is the universal [[first Chern class]]
+
+$$
+  {\vert \mathbf{B}det\vert}
+  \simeq
+  c_1 
+  \;\colon\;  
+  B U(n)  
+  \to B U(1) \simeq K(\mathbb{Z},2)
+  \,.
+$$
+
+Moreiver this has the evident differential refinement
+
+$$
+  \widehat {\mathbf{B} det}
+  \;\colon\;
+  \mathbf{B} U(n)_{conn}
+  \to 
+  \mathbf{B} U(1)_{conn}
+$$
+
+given on [[Lie algebra valued 1-forms]] by taking the [[trace]]
+
+$$
+  tr \;\colon\; \mathfrak{u}(n) \to \mathfrak{u}(1)
+  \,.
+$$
+
+So we get a [[1d Chern-Simons theory]] with $\widehat{\mathbf{B}det}$ 
+as its [[extended Lagrangian]].
+ 
+
+#### Nonabelian charged particle trajectories -- Wilson loops
+ {#GaugeAndGravityWilsonLoops}
+
+Notation and assumptions as in
+
+_[Nonabelian charged particle trajectories -- Wilson loops](#NonabelianChargedParticle)_
+
+$$
+  \langle \lambda, - \rangle
+  \in 
+  \Gamma_{wt} \hookrightarrow \mathfrak{g}^* 
+$$
+
+$$
+  \exp(i -)
+  \colon
+  \Gamma_{wt} \stackrel{\simeq}{\to} Hom(T, U(1))  
+$$
+
+where
+
+$$
+  \exp(-\langle \lambda, -\rangle)
+  \colon
+  \exp(t)
+  \mapsto
+  \exp( i \langle \lambda, t\rangle )
+  \,.
+$$
+
+Hence
+
+$$
+  \mathbf{B}\exp(i \langle \lambda, -\rangle)
+  \;\colon\;
+  \mathbf{B}T \to \mathbf{B}U(1)
+$$
+
+and one checks that
+
+$$  
+  \widehat{\mathbf{B}\exp(\langle \lambda, -\rangle)}
+   \;\colon\;
+  \Omega^1(-,\mathfrak{g})//T
+  \to 
+  \Omega^1//U(1)
+$$
+
+which sends $A \in \Omega^1(U,\mathfrak{g})$ to $\langle \lambda, A\rangle$.
+
+So we have an [[extended Lagrangian]] $\mathbf{L} \coloneqq \widehat{\mathbf{B} \exp(i \langle \lambda, -\rangle)}$.
+
+Its restriction to $\mathcal{O}_\lambda \simeq G/T$ 
+
+$$
+  \mathcal{O}_\lambda
+  \simeq
+  G/T
+  \to
+  \Omega^1(-,\mathfrak{g})//T
+  \stackrel{\widehat {\mathbf{B} \exp(i \langle \lambda,-\rangle)}}{\to}
+  \mathbf{B}U(1)_{conn}
+$$
+
+is the [[prequantum bundle]] on the [[coadjoint orbit]] that appears in the [[orbit method]].
+
+The composition
+
+$$
+  \array{
+     S^1 &&\to&& \Omega^1(-,\mathfrak{g})//T &\stackrel{\widehat {\mathbf{B} \exp(i \langle \lambda, -\rangle)}}{\to}&
+     \mathbf{B}U(1)_{conn}
+     \\
+     & {}_{\mathllap{A}}\searrow &\swArrow_g& \swarrow
+     \\
+     && \mathbf{B}G_{conn}
+  }
+$$
+
+is the action functional
+
+$$
+  g \mapsto \langle \lambda, A^g \rangle
+$$
+
+whose [[partition function]] is the [[Wilson loop]] of $A$ along $S^1$ in the [[representation]] $\rho_\lambda \;\colon\; U(n) \to Aut(V)$ which under the [[Borel-Weil-Bott theorem]] corresponds to the [[coadjoint orbit]] $\mathcal{O}_\lambda$
+
+$$
+  Z_{\widehat {\mathbf{B}\exp(i \langle \lambda,-\rangle)}}(S^1)
+  =
+  tr_{\rho_\lambda} hol_{S^1}(A)
+$$
+
+#### 3d Chern-Simons theory with Wilson loops
+ {#GaugeAndGravity3dCSWithWilson}
+
+#### Chan-Paton gauge fields on D-branes
+ {#GaugeAndGravityChanPatonGaugeFieldsOnDBranes}
 
 ### Syntactic Layer
  {#GaugeAndGravitySyntaxLayer}
