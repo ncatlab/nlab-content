@@ -696,7 +696,7 @@ of _An ABC of Category Theory_, Autumn 2004.  [available online](http://www.math
 * I. Beylin and P. Dybjer, _Extracting a proof of coherence for monoidal categories from a formal proof of normalization of monoids_, 
 [available online](http://www.cse.chalmers.se/~peterd/papers/Hol_alf.pdf)
 
-* P. Etingof, S. Galeki, D. Nikshych, and V. Ostrik,
+* [[P. Etingof]], S. Galeki, D. Nikshych, and [[V. Ostrik]],
 _Tensor Categories_, [course notes available online](http://www-math.mit.edu/~etingof/tenscat.pdf)
 
 * J. Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
