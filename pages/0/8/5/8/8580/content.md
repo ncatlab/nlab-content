@@ -9498,6 +9498,12 @@ Below in _[Definition](#Definition)_ we discuss a natural unified formulation of
 
 This definition turns out to be equivalent, at least under mild conditions, to a formulation where fields are sections of an [[associated ∞-bundle]], hence a "field $\infty$-bundle". This we discuss in _[Properties -- Relation of fields to sections of ∞-bundles](#RelationOfFieldsToSections)_. But this is just one of several equivalent perspectives on physical fields, and not always the most transparent one. In fact, sections of higher associated bundles are best known in the literature on [[twisted cohomology]] and indeed one equivalent characterization of fields is as [[cocycles]] in [[twisted cohomology]] in the general sense of [[cohomology]] in an [[(∞,1)-topos]]. This we discuss below in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_.
 
+In summary we find and discuss that
+
+| fields | $\simeq$ |  [[twisted cohomology|twisted]] [[relative cohomology|relative]] [[cohesion|cohesive]] [[cocycles]] |
+|--|--|--|
+
+
 
 #### Definition: Physical fields in higher differential geometry
  {#FieldsModLayerDefinition}
@@ -9912,16 +9918,86 @@ $$
 ##### Relation to sections of $\infty$-bundles
  {#RelationOfFieldsToSections}
 
-We discuss here how def. \ref{FieldsInAnActionFunctional} equivalently says that fields are [[sections]] of an [[associated ∞-bundle]] which is associated to an $\infty$-bundle modulated by the [[background field]].
+
+We discuss here how def. \ref{FieldsInAnActionFunctional} equivalently says that fields are [[sections]] of a [[fiber ∞-bundle]] which is  which is [[associated ∞-bundle|associated]] to a ([[principal ∞-bundle|principal]])  $\infty$-bundle modulated by the [[background field]].
 
 For simplicity of the discussion first consider the case that $\mathbf{BgFields} \simeq \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] $G \in Grp(\mathbf{H})$. (In typical applications in [[physics]] we instead have the differential refinement $\mathbf{B}G_{conn}$ (see below at _[Examples -- Gauge fields](#GaugeFields)_) and the following discussion is directly generalized to that case. )
 
-Then the moduli stack of fields according to def. \ref{FieldsInAnActionFunctional} is a map into $\mathbf{B}G$, regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$. To interpret this, notice the following basic fact:
+1. [Background fields as principal ∞-bundles](#BriefReviewOfPrincipalInfinityBundlesAsBackgroundFields)
+
+1. [Fields as sections of associated fiber ∞-bundles](#FieldsAsSectionsOfAssociatedBundles)
+
+###### Background fields as principal $\infty$-bundles
+ {#BriefReviewOfPrincipalInfinityBundlesAsBackgroundFields}
+
+We briefly recall the central aspects of [[principal ∞-bundles]] in the [[(∞,1)-topos]] $\mathbf{H}$.
+
+For $X \in \mathbf{H}$ any [[object]] and $x \colon * \to \X$ a [[global element]], the [[homotopy pullback]] ([[(∞,1)-pullback]]) of the point along itse is the based [[loop space object]]
+
+$$
+  \Omega_x X  \coloneqq \{x\} \underset{X}{\times} \{x\}
+  \,.
+$$
+
+Via composition of loops, this canonically has the structure of an [[A-∞ algebra]] object such that the [[truncated object in an (∞,1)-category|0-truncation]] $\tau_0 \Omega_x X$ is a [[monoid object]] which is a [[group object]]. Such _groupal $A_\infty$-algebra objects_ are _[[group objects in an (∞,1)-category|group objects]]_ in $\mathbf{H}$: [[∞-groups]].
+
+In fact every [[∞-group]] is of this form. Moreover, restricted to [[pointed object|pointed]] and [[connected object in an (∞,1)-topos|connected objects]], the [[looping and delooping|looping]] [[(∞,1)-functor]] $\Omega$ is an [[equivalence of (∞,1)-categories]]
+
+$$
+  Grp(\mathbf{H})
+  \stackrel{\overset{\Omega}{\leftarrow}}{\underoverset{\mathbf{B}}{\simeq}{\to}}
+  \mathbf{H}^{*/}_{\geq 1}
+  \,.
+$$
+
+Its inverse $\mathbf{B}$ we call the [[delooping]] operation. Notice that this means that we can conveniently discuss all aspects of [[∞-groups]] without ever explicitly considering [[A-∞ algebra]] structure by instead working with the pointed connected objects $\mathbf{B}G$.
+
+Notably one finds that a $G$-[[principal ∞-bundle]] $P \to X$ in $\mathbf{H}$ is equivalently the [[homotopy fiber]] of a map $g \;\colon\; X \to \mathbf{B}G$
+
+$$
+  \array{
+     fib(g) \simeq & P &\to& * & \simeq \mathbf{E}G
+     \\
+     & \downarrow && \downarrow
+     \\
+     & X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+This construction yields an [[equivalence of ∞-groupoids]]
+
+$$
+  G Bund(X)
+  \stackrel{\overset{fib}{\leftarrow}}{\underoverset{}{\simeq}{\to}}  
+  \mathbf{H}(X, \mathbf{B}G)
+$$
+
+between $G$-[[principal ∞-bundles]] with [[gauge transformations]] between them and $G$-[[cocycles]] with [[coboundaries]]. In particular this means that $G$-[[principal ∞-bundles]] are classified by $G$-[[cohomology]] in $\mathbf{H}$
+
+$$
+  G Bund(X)_{/\sim}
+  \simeq
+  \pi_0 G Bund(X)
+  \stackrel{\simeq}{\to}
+  \pi_0 \mathbf{H}(X, \mathbf{B}G)
+  \simeq
+  H^1(X,G)
+  \,.
+$$
+
+Hence if $\mathbf{BgFields} \simeq \mathbf{B}G$ then a [[background field]] on $X$ is equivalently a $G$-[[principal ∞-bundle]] on $X$. 
+
+
+###### Fields as sections of associated fiber $\infty$-bundles
+ {#FieldsAsSectionsOfAssociatedBundles}
+
+
 
 +-- {: .num_prop #EquivalenceOfActionCategoryWithSlice}
 ###### Proposition
 
-For $G \in Grp(\mathbf{H})$, the [[(∞,1)-functor]] that sends an [[∞-action]] $\rho$ of $G$ on some $V \in \mathbf{H}$ to the corresponding [[associated ∞-bundle]] of the $G$-[[universal principal ∞-bundle]] is an [[equivalence of (∞,1)-categories]]
+For $G \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, the [[(∞,1)-functor]] that sends an [[∞-action]] $\rho$ of $G$ on some $V \in \mathbf{H}$ to the corresponding [[associated ∞-bundle]] of the $G$-[[universal principal ∞-bundle]] is an [[equivalence of (∞,1)-categories]]
 
 $$
   (\mathbf{E}G)\times_G(-)
@@ -9984,6 +10060,41 @@ in $\mathbf{H}_{/X}$.
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+In summary this means that an [[∞-action]] $\rho$ of an [[∞-group]] $G$ on any object $V \in \mathbf{H}$ is equivalently a [[homotopy fiber sequence]] of the form
+
+$$
+  \array{
+    V &\to& V//G 
+    \\
+    && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+Moreover, for $P \to X$ any $G$-[[principal ∞-bundle]] modulated by a map $g ;\colon\; X \to \mathbf{B}G$ and for $\rho$ an [[∞-action]] of $G$ on some $V$, there is an [[(∞,1)-pullback]] diagram
+
+$$  
+  \array{
+    P \times_G V
+    &\to&
+    V//G
+    \\
+    \downarrow && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+
+
 Due to the [[universal property]] of the [[(∞,1)-pullback]] this has the following consequence which, basic as it is, is fundamental for the interpretation of fields in def. \ref{FieldsInAnActionFunctional}.
 
 +-- {: .num_prop }
@@ -9999,6 +10110,107 @@ $$
 $$
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+This equivalence is constituted simply by forming the [[pasting diagram]] of the [[section]] with the above $(\infty,1)$-pullback
+
+$$  
+  \array{
+    && P \times_G V
+    &\to&
+    V//G
+    \\
+    &{}^{\mathllap{\sigma}}\nearrow& \downarrow && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    X &\stackrel{id}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \;\;\;\;\;\;
+  \simeq
+  \;\;\;\;\;\;
+  \array{
+    X &&\stackrel{\sigma}{\to}&& V//G
+    \\
+    & {}_{\mathllap{g}}\searrow && \swarrow_{\overline{\rho}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+The following further central property leads in the [following section](#RelationToTwistedCohomology) to an equivalent re-formulation of this in [[twisted cohomology]].
+
++-- {: .num_prop }
+###### Proposition
+
+Every $G$-[[principal ∞-bundle]] $P \to X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is _locally trivizable_ in that there exists a [[1-epimorphism]] $p \;\colon\; U \to X$ and an [[(∞,1)-pullback]] [[diagram]] of the form
+
+$$
+  \array{
+    U \times G &\to& P
+    \\
+    \downarrow && \downarrow
+    \\
+    U &\stackrel{p}{\to}& X
+  }
+$$
+
+or equivalently a diagram
+
+$$
+  \array{
+    U &\to& *
+    \\   
+    \downarrow^{\mathrlap{p}}
+    &\swArrow_{\simeq}&
+    \downarrow
+    \\
+    X & \stackrel{g}{\to} & \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Together the above facts imply that for 
+
+$$
+  \array{
+     && P \times_G V &\to& V//G
+     \\
+     & {}^{\mathllap{\sigma}}\nearrow & \downarrow
+     && \downarrow^{\mathrlap{\overline{\rho}}}
+     \\
+     X &\stackrel{id}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+a [[section]] of the [[associated ∞-bundle]], the restriction $\sigma|_U$ of the section along the trivializing cover $p \;\colon\; U \to X$ factors through $V \to V//G$:
+
+$$
+  \array{
+     && V &\to& V//G
+     \\
+     & {}^{\mathllap{\sigma|_U}}\nearrow &  && \downarrow^{\mathrlap{\overline{\rho}}}
+     \\
+     U &\stackrel{p}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+This means that a section of an [[associated ∞-bundle|associated]] 
+$V$-[[fiber ∞-bundle]] is locally a $V$-valued map, hence a [[cocycle]] in $\Omega V$-[[cohomology]].
+
+=--
+
+And so we say that _globally_ it is a "twisted" $\Omega V$-cocycle. This leads to the following equivalent description.
+
 
 
 ##### Relation to twisted cohomology
@@ -10304,7 +10516,7 @@ For recognizing traditional constructions in this formulation, the following bas
 For $\iota \colon H \hookrightarrow G$ an [[subgroup]] inclusion of [[Lie groups]], we have a [[homotopy fiber sequence]]
 
 $$
-  G/H \to \mathbf{H} \stackrel{\mathbf{B}\iota}{\to} \mathbf{G}
+  G/H \to \mathbf{B}H \stackrel{\mathbf{B}\iota}{\to} \mathbf{B}G
 $$
 
 with the [[coset space]] on the left.
@@ -10682,7 +10894,7 @@ is what is called a _geoemtric_ [[generalized tangent bundle]]. These are exactl
 
 In the [[Kaluza-Klein compactification]] of [[type II supergravity]] and of [[11-dimensional supergravity]] preserving some amount of global [[supersymmetry]] this generalized type II geometry is further enhanced to various flavors of what is called  [[exceptional generalized geometry]]. 
 
-Here the [[generalized tangent bundle]] has as structure group an [[exception Lie group]] from the $E$-series $E_{n(n)}$ (for compactification on an $n$-dimensional compact space). The moduli stack of fields is then
+Here the [[generalized tangent bundle]] has as structure group an [[exceptional Lie group]] from the $E$-series $E_{n(n)}$ (for compactification on an $n$-dimensional compact space). The moduli stack of fields is then
 
 $$
   \mathbf{Fields} 
