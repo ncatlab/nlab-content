@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,9 +23,16 @@ A _sylleptic monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebr
 
 ## Related concepts
 
-* [[sylleptic 3-group]]
+* [[monoidal 2-category]], [[3-group]]
+
+* [[braided monoidal 2-category]], [[braided 3-group]]
+
+* **sylleptic monoidal 2-category**, [[sylleptic 3-group]]
+
+* [[symmetric monoidal 2-category]], [[symmetric 3-group]]
 
 * [[k-tuply monoidal (n,r)-category]]
+
 
 [[!redirects sylleptic monoidal 2-categories]]
 
