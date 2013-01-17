@@ -29,7 +29,7 @@ For $A$ and $B$ two suitable [[abelian category|abelian categories]], their Deli
 
 For $A$ an [[associative algebra]] over a [[field]] $k$, write $A$[[Mod]] for its [[category of modules]] of finite [[dimension]] over $k$.
 
-Within this page we will use the following terminology:
+Within this entry, we will use the following terminology:
 
 A $k$-linear abelian category $C$ is said to be _finite_ if it is equivalent to a category $A$[[Mod]], as above. 
 
