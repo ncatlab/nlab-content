@@ -8298,7 +8298,7 @@ While the [[standard model of fundamental physics - table|standard model of fund
 1. a **[[gauge theory|gauge]]** theory;
 1. a **[[Lagrangian]]** theory;
 1. a **[[local quantum field theory|local]]** theory;
-1. a **[[topological field theory|topological]] theory.
+1. a **[[topological field theory|topological]]** theory.
 
 We briefly indicate what this means, a formal discussion of these notions will be given in the  main part below.
 
@@ -8314,6 +8314,9 @@ We briefly indicate what this means, a formal discussion of these notions will b
      }
    $$
 
+  (This is the traditional formulation. Below we discuss that the concept of _field [[fiber bundle]]_ needs to be refined to that of field _[[fiber ∞-bundle]]_ in order to accuratly capture all aspects of field theory:   _[The traditional idea of field bundles and its problems](#IdeaOfFieldBundlesAndItsProblems)_.)
+
+
 * A **[[gauge theory|gauge]]** theory in the broad sense has not just a [[set]] or [[smooth space]] of field configurations but has a [[groupoid]] or [[stack]]/[[smooth groupoid]] of field configurations: there are equivalences between nominally different field configurations 
 
   $$
@@ -8324,7 +8327,7 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
    A gauge theory in the original sense specifically has a groupoid of [[principal connections]] as its configurations. (Notice that gauge transformations are not in general just a redundancy of the description of the theory, but are genuine data: there are in general non-trivial gauge [[automorphisms]] of a field and the stack of gauge field configurations is not in general equivalent to a plain [[sheaf]].)
 
-* A **[[Lagrangian]]** theory is one which is specified by a function on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
+* A **[[Lagrangian]]** theory is one which is specified by a [[smooth function]] on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
 
   $$
     \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\right)\left(x\right) \right) 
@@ -8341,7 +8344,7 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
   of the action functional is called the _[[phase space]]_ of the theory, a point of this is said to be a solution to the _[[equations of motion]]_ of the theory.
 
-* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point.
+* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point, hence a [[local action functional]]:
 
   $$
     \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\left(x\right), \nabla \phi\left(x\right)\right)\right) 
@@ -8349,10 +8352,11 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
   This means that a _[[local Lagrangian]]_ is a horizontal form on the [[jet bundle]] of the field bundle of which the fields are sections.
 
-* A **[[topological field theory|topological]]** theory finally is one where the field bundle is naturally associated to every smooth manifold, typically of some fixed dimension and possibly equipped with  topological [[G-structure]] such as an orientation, but not equipped with any further geometric structure: all geometric structure such as metrics on spacetime are themselves regarded as parts of the field content in a topological theory.
+* A **[[topological field theory|topological]]** theory finally is one where a field bundle $E_X \to X$ is naturally associated to every [[smooth manifold]] $X$, typically of some fixed dimension and possibly equipped with  topological [[G-structure]] such as an [[orientation]], but not equipped with any further geometric structure: all geometric structure such as [[Riemannian metrics]] on spacetime are themselves regarded as parts of the field content in a topological theory.
 
 
 ### Chern-Simons field theory as a toy example
+ {#ChernSimonsTheoryAsAToyExample}
 
 Most of this was fairly well understood decades ago, by the 1960s. But even with all this conceptual understanding of the structure of fundamental physics available, there were and are a lot of implications of 
 _[[topological field theory|topological]] [[local  Lagrangian]] [[gauge field theory]]_ which remained elusive.
