@@ -32,7 +32,7 @@ The name "fusion category" comes from the central examples of structures whose c
 
 ### Relation to pivotal and spherical categories
 
-Fusion categories were first systematically studied by Etingof, Nikshych and Ostrik in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
+Fusion categories were first systematically studied by [[Etingof]], Nikshych and [[Ostrik]] in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
 
 +-- {: .un_theorem}
 ###### Conjecture (Etingof, Nikshcych and Ostrik)
@@ -83,7 +83,7 @@ This is due to ([DouglasSchommer-PriesSnyder](#DSPS))
 
 Every fusion catgeory $C$ arises as the [[representation category]] of a [[weak Hopf algebra]].
 
-This is explained by [[Liang Kong]] and Kitaev. Also probably in work by [[Viktor Ostrik]].
+This is explained by [[Liang Kong]] and Kitaev. Also probably in work by [[Victor Ostrik]].
 
 
 ## Suggestions ##
