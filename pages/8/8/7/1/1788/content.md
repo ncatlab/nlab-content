@@ -30,41 +30,25 @@ blah blah blah blah blah
 ####### Very specific specific
 
 
+
+Notation and assumptions as in
+
+_[Nonabelian charged particle trajectories -- Wilson loops](#NonabelianChargedParticle)_
+
 $$
-  \array{
-    \mathbf{H} \coloneqq
-    & Sh_\infty(\mathcal{C})
-    &
-    \stackrel{
-      \overset{\infty-stackif.}{\leftarrow}
-    }{
-      \hookrightarrow
-    }
-  &
-  PSh_\infty(\mathcal{C})
-  \\
-  & \uparrow^{\mathrlap{\simeq}} && \uparrow^{\mathrlap{\simeq}}
-  \\
-  & L_{lwhe} Func(\mathcal{C}^{op}, sSet)
-  &
-  \stackrel{
-    \overset{\mathbb{L} id}{\leftarrow}
-   }{
-     \underset{\mathbb{R} id}{\rightarrow}
-  }&
-  L_{whe} Func(\mathcal{C}^{op}, sSet)
-  }
+  \langle \lambda, - \rangle
+  \in 
+  \Gamma_{wt} \hookrightarrow \mathfrak{g}^* 
 $$
 
-\[
-\label{eqnoeq}
-x + y + z
-\]
+$$
+  \exp(i -)
+  \colon
+  \Gamma_{wt} \stackrel{\simeq}{\to} Hom(T, U(1))  
+$$
 
-Equation \eqref{eqnoeq} is not an equation.
 
-| fields | $\simeq$ |  [[twisted cohomology|twisted]] [[relative cohomology|relative]] [[cohesion|cohesive]] [[cocycles]] |
-|--|--|--|
+
 
 
 ***
