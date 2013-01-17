@@ -63,3 +63,6 @@ A summary of these considerations is in section 12 of
 [[!redirects Brauer-Picard 3-group]]
 [[!redirects Brauer-Picard 3-groups]]
 
+
+[[!redirects Picard 2-groupoid]]
+[[!redirects Picard 2-groupoids]]
