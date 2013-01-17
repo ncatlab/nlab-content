@@ -17,7 +17,7 @@
 ## Definition
 
 
-For a [[natural number]] $n \in \mathbb{N}$, the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ unitary [[matrices]].
+For a [[natural number]] $n \in \mathbb{N}$, the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ [[unitary matrices]].
 
 
 More generally, for a Hilbert space $\mathcal{H}$, $U(\mathcal{H})$ is the group of [[unitary operator]]s on that Hilbert space. For the purposes of studying unitary representations of Lie groups, the topology is chosen to be the [[operator topology|strong operator topology]], although other topologies on $U(\mathcal{H})$ are frequently considered for other purposes. 
