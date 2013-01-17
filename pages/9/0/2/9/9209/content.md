@@ -39,13 +39,13 @@ Let $\mathcal{C}, \mathcal{D}$ be two such finite [[abelian categories]] over $k
 +-- {: .num_remark}
 ###### Remark
 
-For every finite abelian category over $k$ there is a $k$-[[associative algebra|algebra]] $A$ and an [[equivalence of categories]]
+By the above convention, for every finite abelian category over $k$ there is a $k$-[[associative algebra|algebra]] $A$ and an [[equivalence of categories]]
 
 $$
   \mathcal{C} \simeq A Mod
-  \,.
+  \,
 $$
-
+but note that $A$ is determined only up to [[Morita equivalence]]. 
 =--
 
 +-- {: .num_prop}
