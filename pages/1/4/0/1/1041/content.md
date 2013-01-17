@@ -224,6 +224,7 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 * [[abelian subcategory]]
 
+* [[Deligne tensor product of abelian categories]]
 
 ## References
 
