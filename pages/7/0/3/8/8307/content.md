@@ -144,7 +144,7 @@ The tensor product of abelian groups [[distributivity|distributes]] over the [[d
 $$
   A \otimes \oplus_{s \in S} B_s
   \simeq
-  \oplus_{s \in S} ( A \otimes B_c )
+  \oplus_{s \in S} ( A \otimes B_s )
   \,.
 $$
 
