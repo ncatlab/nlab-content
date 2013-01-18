@@ -1,0 +1,19 @@
+
+The talk
+
+* [[Dan Freed]], _4-3-2 8-7-6_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+discusses aspects and open problems of understanding 
+
+* [[3d Chern-Simons theory]] $\leftarrow$[[holographic principle]]$\to$ [[2d WZW model]]
+
+* [[7d Chern-Simons theory]] $\leftarrow$[[holographic principle]]$\to$ [[6d (2,0)-supersymmetric QFT]]
+
+in the context of [[extended TQFT]].
+
+See also 
+
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+
+category: reference
