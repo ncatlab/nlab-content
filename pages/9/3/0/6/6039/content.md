@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,8 +25,274 @@ This original argument goes back work by Chan and Paton. Accordingly one speaks 
 
 ## Definition
 
-A precise account is at _[[field (physics)]]_ 
-in _[Chan-Paton gauge fields](field+(physics)#ChanPatonGaugeFields)_.
+Throughout we write $\mathbf{H} = $ [[Smooth∞Grpd]] for the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]].
+
+### The Chan-Paton gauge field
+
+We discuss the [[Chan-Paton gauge fields]] over [[D-branes]]
+in [[bosonic string theory]] and over $Spin^c$-D-branes in [[type II string theory]].
+
+We fix throughout a natural number $n \in \mathbb{N}$, the _[[rank]]_ of the Chan-Paton gauge field.
+
++-- {: .num_prop #TheLongSequenceOfTheProjectiveUnitaryExtension}
+###### Proposition
+
+The [[extension of groups|extension]] of [[Lie groups]]  
+
+$$
+  U(1) \to U(n) \to PU(n)
+$$ 
+
+exhibiting the [[unitary group]] as a [[circle group]]-extension of the [[projective unitary group]] sits in a long [[homotopy fiber sequence]] of [[smooth ∞-groupoids]] of the form
+
+$$
+  U(1) \to U(n) \to PU(n) \to \mathbf{B}U(1)
+  \to \mathbf{B}U(n) \to \mathbf{B}PU(n) \stackrel{\mathbf{dd}_n}{\to}
+  \mathbf{B}^2 U(1)
+  \,,
+$$
+
+where for $G$ a [[Lie group]] $\mathbf{B}G$ is its [[delooping]] [[Lie groupoid]], hence the [[moduli stack]] of $G$-[[principal bundles]], and where similarly $\mathbf{B}^2 U(1)$ is the [[moduli ∞-stack|moduli 2-stack]] of [[circle 2-group]] [[principal 2-bundles]] ([[bundle gerbes]]).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Here 
+
+$$
+  \mathbf{dd}_n \;\colon\; \mathbf{B} PU(n) \to \mathbf{B}^2 U(1)
+$$
+
+is a smooth refinement of the universal [[Dixmier-Douady class]]
+
+$$
+  dd_, \;\colon\; B PU(n) \to K(\mathbb{Z}, 3)
+$$
+
+in that under [[geometric realization of cohesive ∞-groupoids]] ${\vert- \vert} \colon$ [[Smooth∞Grpd]] $\to$ [[∞Grpd]] we have
+
+$$
+  {\vert \mathbf{dd}_n \vert}
+  \simeq
+  dd_n
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the discussion at _[[∞-action]]_ the [[homotopy fiber sequence]] in prop. \ref{TheLongSequenceOfTheProjectiveUnitaryExtension}
+
+$$
+  \array{
+    \mathbf{B} U(n)
+    &\to&
+    \mathbf{B} PU(n)
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}^2 U(1)
+  }
+$$
+
+in $\mathbf{H}$
+exhibits a smooth[[∞-action]] of the [[circle 2-group]] on the [[moduli stack]] $\mathbf{B}U(n)$ and it exhibits an equivalence
+
+$$
+  \mathbf{B} PU(n) \simeq (\mathbf{B}U(n))//(\mathbf{B} U(1))
+$$
+
+of the moduli stack of projective unitary bundles with the [[∞-quotient]] of this [[∞-action]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $X \in \mathbf{H}$ a [[smooth manifold]] and $\mathbf{c} \;\colon\; X \to \mathbf{B}^2 U(1)$ modulating a [[circle 2-group]]-[[principal 2-bundle]], maps
+
+$$
+  \mathbf{c} \to \mathbf{dd}_n
+$$
+
+in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^2 U(1)}$, hence [[diagrams]] of the form
+
+$$
+  \array{
+    X &&\stackrel{}{\to}&& \mathbf{B} PU(n)
+    \\
+    & {}_{\mathllap{\mathbf{c}}}\searrow 
+    &\swArrow& 
+    \swarrow_{\mathrlap{\mathbf{dd}_n}}
+    \\
+    && \mathbf{B}^2 U(1)
+  }
+$$
+
+in $\mathbf{H}$ are equivalently rank-$n$ unitary [[twisted bundles]] on $X$, with the twist being the class $[\mathbf{c}] \in H^3(X, \mathbb{Z})$.
+
+=--
+
++-- {: .num_prop #DifferentialRefinementOfSMoothDDClass}
+###### Proposition
+
+There is a further differential refinement
+
+$$
+  \array{
+     (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}
+     &\stackrel{\widehat \mathbf{dd}_n}{\to}&
+     \mathbf{B}^2 U(1)_{conn}
+     \\
+     \downarrow && \downarrow
+     \\
+     (\mathbf{B}U(n))//(\mathbf{B}U(1))
+     &\stackrel{\widehat \mathbf{dd}_n}{\to}&
+     \mathbf{B}^2 U(1)
+  }
+  \,,
+$$
+
+where $\mathbf{B}^2 U(1)_{conn}$ is the universal moduli 2-stack of [[circle n-bundle with connection|circle 2-bundles with connection]] ([[bundle gerbes]] with connection).
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  \left(
+  \left(\mathbf{B}U\left(n\right)//\mathbf{B}U\left(1\right)\right)_{conn}
+   \stackrel{\mathbf{Fields}}{\to} 
+  \mathbf{B}^2 U\left(1\right)_{conn}
+  \right)
+  \;\;
+  \in \mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}
+$$
+
+for the differential smooth universal Dixmier-Douady class of prop. \ref{DifferentialRefinementOfSMoothDDClass}, regarded as an object in the [[slice (∞,1)-topos]] over $\mathbf{B}^2 U(1)_{conn}$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let 
+
+$$
+  \iota_X   
+    \;\colon\;
+  Q \hookrightarrow X 
+$$
+
+be an inclusion of [[smooth manifolds]] or of [[orbifolds]], to be thought of as a [[D-brane]] [[worldvolume]] $Q$ inside an ambient [[spacetime]] $X$.
+
+Then a **field configuration** of a _[[B-field]]_ on $X$ together with a compatible rank-$n$ **Chan-Paton gauge field** on the [[D-brane]] is a map
+
+$$
+  \phi 
+   \;\colon\;
+  \iota_X \to \mathbf{Fields}
+$$
+
+in the [[arrow (∞,1)-topos]] $\mathbf{H}^{(\Delta^1)}$, hence a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    Q &\stackrel{\nabla_{gauge}}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))
+    \\
+    {}^{\iota_X}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{dd}_n}}
+    \\
+    X &\stackrel{\nabla_B}{\to}& \mathbf{B}^2 U(1)_{conn}
+  }
+$$
+
+=--
+
+This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
+
+This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes. ([FSS](#FSS))
+
+
++-- {: .num_remark }
+###### Remark
+
+If we regard the [[B-field]] as a [[background field]] for the [[Chan-Paton gauge field]], then remark \ref{PullbackAlongGeneralizedLocalDiffeomorphisms} determines along which maps of the B-field the Chan-Paton gauge field may be transformed. 
+
+$$
+  \array{
+    Y &\stackrel{}{\to}& X &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
+    \\
+    & \searrow & \downarrow & \swarrow
+    \\
+    &&\mathbf{B}^2 U(1)_{conn}
+  }
+  \,.
+$$
+
+On the local connection forms this acts as
+
+$$
+  A \mapsto A + \alpha
+  \,.
+$$
+
+$$
+  B \mapsto B + d \alpha
+$$
+
+This is the famous gauge transformation law known from the string theory literature.
+
+=--
+
+### The anomaly-free open string coupling to the Chan-Paton gauge field
+
++-- {: .num_prop}
+###### Proposition
+
+The operation of forming the [[holonomy]] of a twisted unitary connection around a curve fits into a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    [S^1, (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}]
+    &\stackrel{hol}{\to}&
+    \mathbb{C}//U(1)
+    \\
+    \downarrow^{\widehat\mathbf{dd}_n} &\swArrow_{\simeq}& \downarrow
+    \\
+    [S^1, \mathbf{B}^2 U(1)_{conn}]
+    &\stackrel{\exp(2 \pi i \int_{S^1})}{\to}&
+    \mathbf{B}U(1)_{conn}
+  }
+  \,.
+$$
+
+=--
+
+
+$$
+  \array{
+    \mathbf{H}^{\Delta^1}(\iota_{\Sigma}, \iota_X)
+    &\to&
+    [\Sigma, X]
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    [\partial \Sigma, Q]
+    &\to&
+    [\partial \Sigma, X]
+  }
+$$
+
+(...)
 
 ## Related concepts
 
@@ -45,6 +313,11 @@ section 2.4 of
 or around p. 66 of
 
 * David Tong, _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
+
+Discussion in [[higher geometry]] as above is at
+
+* _[[geometry of physics]]_ 
+
 
 
 
