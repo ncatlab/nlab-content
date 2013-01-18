@@ -382,4 +382,8 @@ Chiral WZW model is a conformal boundary for CS theory
 
 **Problem** make this work down to the point
 
+## Related references
+
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_
+
 category: reference
