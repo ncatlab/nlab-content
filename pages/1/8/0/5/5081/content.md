@@ -229,6 +229,8 @@ If a [[homotopy type theory]] is the [[internal language]] of $\mathbf{H}$, then
 
 ## Related concepts
 
+* [[arrow category]]
+
 * [[over-category]] 
 
   * [[slice category]] 
@@ -237,13 +239,13 @@ If a [[homotopy type theory]] is the [[internal language]] of $\mathbf{H}$, then
 
   * [[over topos]]
 
-
 * [[over (∞,1)-category]],
 
   * [[model structure on an over category]] 
 
   * **over-(∞,1)-topos**
 
+* [[arrow (∞,1)-category]], [[arrow (∞,1)-topos]]
 
 ## References
 
