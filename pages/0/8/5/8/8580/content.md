@@ -9474,7 +9474,7 @@ $$
   C \to \mathbf{OrbiStruc}
 $$
 
-but now in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$.
+but now in the [[arrow (∞,1)-topos]] $\mathbf{H}^{(\Delta^1)}$.
 
 This subtle interplay of "bulk fields" and "[[QFT with defects|defect fields]]" which is here captured most naturally in terms of [[higher geometry]] cannot really be expressed accurately just in terms of field bundles.
 
@@ -9672,7 +9672,7 @@ In standard _[Examples](#Examples)_ discussed below we see that this is a famila
 In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as dynamical fields and to be able to switch between these perspectives, for instance to pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields. We now discuss how this more general setup is naturally formulated as a generalization of def. \ref{FieldsInAnActionFunctional}.
 
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/1-[[simplex]] to $\mathbf{H}$).
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow (∞,1)-topos]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/1-[[simplex]] to $\mathbf{H}$).
 
 A generic object in $\mathbf{H}^{(\Delta^1)}$ here is a morphism $\iota_X$ in $\mathbf{H}$. When we think of this as a domain on which to define fields we will write this
 
@@ -12734,7 +12734,7 @@ be a [[submanifold]] inclusion of the [[circle]]: a [[knot]] in $\Sigma$.
 Let $R$ be an [[irreducible representation|irreducible]] 
 [[unitary representation]] of $G$ and let $\langle \lambda,-\rangle$ be a [[weight (in representation theory)|weight]] corresponding to it by the [[Borel-Weil-Bott theorem]].
 
-Regarding the inclusion $C$ as an object in the [[arrow category]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with 
+Regarding the inclusion $C$ as an object in the [[arrow (∞,1)-topos]] $\mathbf{H}^{\Delta^1}$, say that a [[gauge field]] configuration for $G$-[[Chern-Simons theory]] on $\Sigma$ with 
 [[Wilson loop]] $C$ and labeled by the [[representation]] $R$ is a map
 
 $$
@@ -12745,7 +12745,7 @@ $$
   \mathbf{J}
 $$ 
 
-in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ of the ambient [[cohesive (∞,1)-topos]]. Such a map is equivalently by a square
+in the [[arrow (∞,1)-topos]] $\mathbf{H}^{(\Delta^1)}$ of the ambient [[cohesive (∞,1)-topos]]. Such a map is equivalently by a square
 
 $$
   \array{
