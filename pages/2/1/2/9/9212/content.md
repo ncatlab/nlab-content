@@ -3,14 +3,14 @@ An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[comp
 
 * it preserves the canonical [[inner product]] on $\mathbb{C}^n$;
 
-* the operation $(-)^\dagger$ of [[transpose matrix|transposing]] it and then appying [[complex conjugation]] to all its entries takes it to itself:
+* the operation $(-)^\dagger$ of [[transpose matrix|transposing]] it and then applying [[complex conjugation]] to all its entries takes it to its inverse:
 
   $$
-    U^\dagger = U
+    U^\dagger = U^{-1}
     \,.
   $$
 
-For fixed $n$, the unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_ $\mathrm{U}_n$ (or other notations).
+For fixed $n$, the unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_ $\mathrm{U}_n$ (or other notations such as $U(n)$).
 
 
 [[!redirects unitary matrix]]
