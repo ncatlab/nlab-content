@@ -161,27 +161,10 @@ Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/st
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
-
-***
-
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
 
-+-- {: .query}
-I changed references to bordism here into references to [[cobordisms]], since there\'s also a notion of bordism (a back-formation) as dual to cobordism, which is not what we want.  (Also Wikipedia implies that 'bordism' is a mass noun while 'cobordism' is a count noun, and these are count nouns, for what that\'s worth.)  ---Toby
-=--
-+-- {: .query}
-_Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
-=--
 
-+-- {: .query}
-_Rafael_: I am very tired because it is very late.
-Please check and expand this page, i am not counting very good with my eyes half closed neither am i an expert on ETQFT.
-
-[[Urs Schreiber]]: notice that I had a bit on extended QFT over at [[FQFT]]. Maybe some of the material needs to be merged. i have now at least added links back and forth.
-
-_Rafael_: Yes, for the merge. I think of a subsection here **construction of ETQFTs** and a pointer to the relation between ETQFT to AQFT. I also think you are much better to include the construction of ETQFTs in **Nonabelian cocycles and their sigma model QFTs** than me.
-
-=--
 
 
 [[!redirects EQFT]]
