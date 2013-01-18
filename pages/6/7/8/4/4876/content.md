@@ -196,6 +196,12 @@ See also Section 2.3.18 and section 4.7 of
 
 * [[Anton Alekseev]], [[Volker Schomerus]], _D-branes in the WZW model_, Phys.Rev.D60:061901,1999 ([arXiv:hep-th/9812193v2](http://arxiv.org/abs/hep-th/9812193v2))
 
+### Relation to extended TQFT
+
+Relation to [[extended TQFT]] is discussed in 
+
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_
+
 
 ## Discussion
 
@@ -238,5 +244,5 @@ Would someone translate the Topological term for an aging algebraic topologist? 
 [[!redirects Wess-Zumino theories]]
 [[!redirects Wess-Zumino-theories]]
 
-
+[[!redirects 2d WZW model]]
 
