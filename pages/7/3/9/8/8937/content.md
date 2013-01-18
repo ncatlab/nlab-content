@@ -34,3 +34,6 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 [[!redirects prequantum n-bundle]]
 [[!redirects prequantum n-bundles]]
 
+[[!redirects prequantum 2-bundle]]
+[[!redirects prequantum 2-bundles]]
+
