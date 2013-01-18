@@ -326,6 +326,14 @@ Discussion for [[weak G2-holonomy]] is in
  {#BilalDerendingerSfetsos}
 
 
+### Formulation in extended TQFT
+
+Formulation in [[extended TQFT]] is discussed in
+
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+
+
 
 [[!redirects 7-dimensional Chern-Simons theory]]
 [[!redirects 7d Chern-Simons theories]]
