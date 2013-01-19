@@ -272,7 +272,7 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 * [[etale homotopy]]
 
-* [[Grotheideck's Galois theory]]
+* [[Grothendieck's Galois theory]]
 
 
 ## References
