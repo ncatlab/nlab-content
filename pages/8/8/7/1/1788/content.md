@@ -48,7 +48,7 @@ $$
 $$
 
 
-
+$\mathcal{N} \mathfr{X} \mathfr{g}$
 
 
 ***
