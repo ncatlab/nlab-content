@@ -51,7 +51,7 @@ This exhibits $P A$ as a [[power object]] for $A$.
 
 A [[functor]] $F : \mathcal{E} \to \mathcal{F}$ between [[elementary toposes]] is called a **logical morphism** if 
 
-1. $F$ is a [[cartesian functor]];
+1. $F$ preserves finite [[limits]];
 
 1. for every object $A \in \mathcal{E}$ 
 
