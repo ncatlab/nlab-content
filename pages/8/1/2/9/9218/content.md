@@ -1,0 +1,8 @@
+
+## Idea
+
+For $E \to X$ a [[bundle]] a _local section_ is a [[section]] of the [[pullback]] of the bundle along some $U \to X$, typically required to be an [[etale map]].
+
+The assignment of local sections of some $E \to X$ to all admissible $U \to X$ is the [[sheaf]] of local sections assigned to a bundle.
+
+[[!redirects local sections]]
