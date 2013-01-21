@@ -1,0 +1,4 @@
+Multilinear algebra studies multilinear maps and constructions. These are usually formulated as linear algebra constructions on tensor products and powers of vector spaces and their subspaces and quotient spaces which have some symmetry with respect to the natural action of symmetric group, for example the exterior and symmetric powers 
+of vector spaces and generalizations for vector bundles, coherent sheaves etc. and also those related to constructions relating other Ferrers-Young tableaux not only symmetrizers and antisymmetrizers.
+
+Related entries include [[Young diagram]], [[tensor algebra]], [[symmetric algebra]], [[exterior algebra]], [[Schur functor]], [[tensor]] etc. 
