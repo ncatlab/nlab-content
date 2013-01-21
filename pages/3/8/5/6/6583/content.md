@@ -4,9 +4,11 @@ __Hofer's metric__ is a metric on the group of Hamiltonian diffeomorphisms of a 
 
 ## References 
 
-* Helmut Hofer, _The topology of symplectic maps_, Proceedings of the
+* [[Helmut Hofer]], _The topology of symplectic maps_, Proceedings of the
 Royal Society of Edinburgh, 115 (1990), 25-38.
 * Lev Buhovsky, Yaron Ostrover, _On the uniqueness of Hofer's geometry_, [arxiv:1008.0661](http://arxiv.org/abs/1008.0661) 
-
+* Michael Usher, _Hofer geometry and cotangent fibers_, [arxiv/1301.4484](http://arxiv.org/abs/1301.4484)
+ 
 [[!redirects Hofer's metric]]
 [[!redirects Hofer metric]]
+[[!redirects Hofer geometry]]
