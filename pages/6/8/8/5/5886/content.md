@@ -19,9 +19,11 @@
 
 ## Definition
 
-A [[strong monoidal functor]] between [[cartesian monoidal categories]] is called a **cartesian functor**. 
+A [[strong monoidal functor]] between [[cartesian monoidal categories]] is called a **cartesian functor**. In other words, it preserved finite [[product]]s up to isomorphism (which is the default setting for category theory anyway).
 
 More generally, a functor between Grothendieck's [[fibered categories]] is __cartesian__ if it sends [[cartesian morphism]]s into cartesian morphisms. The first definition then follows in the case of the [[codomain fibration]] for cartesian categories (with a choice of cartesian lifts to make them also monoidal categories).
+
+Note that Johnstone, in the [[Elephant]], uses the term 'cartesian' to mean that a functor preserves all finite [[limits]], not just products.
 
 ## Examples
 
@@ -53,6 +55,8 @@ More generally, a functor between Grothendieck's [[fibered categories]] is __car
 For instance page 11 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+uses the stronger sense as in preserving all finite limits.
 
 [[!redirects cartesian functors]]
 [[!redirects Cartesian functor]]
