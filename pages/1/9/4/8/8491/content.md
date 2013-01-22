@@ -22,10 +22,13 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
 
 ## Related concepts
 
+* [[Poisson n-algebra]]
+
 * [[Heisenberg Lie n-algebra]]
 
 
 ## References
+
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
  {#Rogers}
