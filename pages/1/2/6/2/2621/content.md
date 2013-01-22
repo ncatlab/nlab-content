@@ -102,7 +102,9 @@ Perturbative quantization in [[BV-BRST formalism]] is nicely systematically disc
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in quantum field theory_ ([pdf](http://www.math.northwestern.edu/~costello/factorization.pdf))
 
-in the broad context of [[factorization algebras]].
+in the broad context of _[[factorization algebras]]_ (see there for further references). In particular the relation to Feynman diagrams is discussed in 
+
+* [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for nite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
