@@ -44,6 +44,8 @@ The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad
 
 ## Related concepts
 
+* [[Poisson bracket Lie n-algebra]]
+
 [[!include Isbell duality - table]]
 
 
