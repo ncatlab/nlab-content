@@ -131,6 +131,8 @@ This formulaton of self-dual Yang-Mills theory is considered in
 
 ## Properties
 
+### Of the action functional
+
 If one changes the action functional of self-dual Yang-Mills theory by adding a term
 
 $$
@@ -151,6 +153,10 @@ $$
   dvol_g
   \,.
 $$
+
+### Of the BV-complex
+
+(...)
 
 ## Related concepts
 
