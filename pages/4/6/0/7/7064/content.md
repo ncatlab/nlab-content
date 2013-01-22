@@ -20,3 +20,7 @@ The [[homotopy groups]] of [[spheres]]...
 
 * MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
 
+For formalization in [[homotopy type theory]] see at
+
+* [[UF-IAS-2012]], _[HomotopyGroupsOfSpheres](http://uf-ias-2012.wikispaces.com/HomotopyGroupsOfSpheres)_
+
