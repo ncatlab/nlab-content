@@ -1,11 +1,19 @@
-Hamilton-Jacobi equation is a first-order nonlinear partial differential equation in [[variational calculus]] and, in particular, giving a particular formulation 
-of laws of [[classical mechanics]]. 
 
-It relates the principal function (action as a function of certain arguments) with Hamiltonian. In one dimension it is of the form
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Hamilton-Jacobi equation_ is a first-order nonlinear [[partial differential equation]] that arises in [[variational calculus]] and which gives, in particular, a formulation  of the [[laws of motion]] in [[classical mechanics]]. 
+
+It relates the principal function ([[action functional]] as a function of certain arguments) with the [[Hamiltonian]]. In one dimension it is of the form
 
 $$
 \frac{\partial S}{\partial t} + H\left(t, x, \frac{\partial S}{\partial x}\right) = 0
 $$
+
+## References
 
 * [[eom]]: [Hamilton-Jacobi theory](http://www.encyclopediaofmath.org/index.php/Hamilton-Jacobi_theory)
 * [wikipedia](http://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation), [scholarpedia](http://www.scholarpedia.org/article/Hamilton-Jacobi_equation)
