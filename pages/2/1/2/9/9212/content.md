@@ -10,7 +10,7 @@ An $n \times n$-[[matrix]] $U \in Mat(n, \mathbb{C})$ with entries in the [[comp
     \,.
   $$
 
-For fixed $n$, the unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_ $\mathrm{U}_n$ (or other notations such as $U(n)$).
+For fixed $n$, the unitary matrices under [[matrix product]] form a [[Lie group]]: the _[[unitary group]]_ $\mathrm{U}(n)$ (or other notations).
 
 
 [[!redirects unitary matrix]]
