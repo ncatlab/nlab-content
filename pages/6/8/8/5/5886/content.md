@@ -19,15 +19,15 @@
 
 ## Definition
 
-A [[strong monoidal functor]] between [[cartesian monoidal categories]] is called a **cartesian functor**. In other words, it preserved finite [[product]]s up to isomorphism (which is the default setting for category theory anyway).
+The phrase **cartesian functor** has been used in category theory with several different (but related) meanings.
 
-More generally, a functor between Grothendieck's [[fibered categories]] is __cartesian__ if it sends [[cartesian morphism]]s into cartesian morphisms. The first definition then follows in the case of the [[codomain fibration]] for cartesian categories (with a choice of cartesian lifts to make them also monoidal categories).
+* A functor between [[fibered categories]] has been called __cartesian__ if it sends [[cartesian morphisms]] into cartesian morphisms.
 
-Note that Johnstone, in the [[Elephant]], uses the term 'cartesian' to mean that a functor preserves all finite [[limits]], not just products.
+* A functor between categories with finite [[products]] has been called __cartesian__ if it [[preserved limit|preserves]] finite products (that is, it is a [[strong monoidal functor]] between [[cartesian monoidal categories]]).
 
-## Examples
+* A functor between [[finitely complete categories]] has been called __cartesian__ (notably in [[Sketches of an Elephant]]) if it preserves finite limits.  This is the case just when the induced functor on [[codomain fibrations]] is cartesian in the first sense.
 
-* The 1-[[morphism]]s in a [[2-category]] of [[stack]], regarded dually under the [[Grothendieck construction]] as a 2-category of [[fibered categories]], are defined to be the cartesian functors. 
+Because of this ambiguity, it is perhaps always better to use a more precise term such as "(strong) morphism of fibrations", "cartesian monoidal functor" or "finite product preserving functor", and "finitely continuous functor" or "lex functor".
 
 ## Related concepts
 
@@ -49,14 +49,8 @@ Note that Johnstone, in the [[Elephant]], uses the term 'cartesian' to mean that
 
 * [[symmetric monoidal functor]]
 
+* [[morphism of fibrations]]
 
-## References
-
-For instance page 11 of 
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-
-uses the stronger sense as in preserving all finite limits.
 
 [[!redirects cartesian functors]]
 [[!redirects Cartesian functor]]
