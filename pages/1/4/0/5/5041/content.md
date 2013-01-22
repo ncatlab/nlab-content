@@ -1,9 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
 This entry is about the notes
 
 * [[Jacob Lurie]], _Moduli Problems and DG-Lie Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf))
 
-This establishes a statement (theorem 5.3) that characterizes [[∞-stack]]s (over an [[(∞,1)-site]] of formal duals of [[E-infinity-ring|E-∞ algebra]]s over a [[field]]) such that
+* [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+This text establishes a statement (theorem 5.3) that characterizes [[∞-stacks]] over an [[(∞,1)-site]] of formal duals of [[Artin ring|Artin]] [[E-infinity-ring|E-∞ algebras]] over a [[field]] such that
 
 1. they have a contractible underlying [[∞-groupoid]]
 
@@ -15,11 +38,31 @@ This establishes a statement (theorem 5.3) that characterizes [[∞-stack]]s (ov
 
 1. and respect [[(∞,1)-limit|(∞,1)-pullback]]s
 
-with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of 
-
-* [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of ([Hinich](#Hinich))
 
 The construction is then generalized to noncommutative geometry.
 
 
+
+## Related entries
+
+A indication of how to use the main theorem here in order to implement [[Lie differentiation]] of [[smooth ∞-groups]] is at
+
+* _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic%20differential%20infinity-groupoid#LieDifferentiation)_
+
+## Related references
+
+A similar result in less generality was discussed earlier in
+
+* [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+ {#Hinich}
+
+For more related discussion see also
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
 category: reference
+
+
+[[!redirects Moduli Problems and DG-Lie Algebras]]
+[[!redirects Formal Moduli Problems]]
