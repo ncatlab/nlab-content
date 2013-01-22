@@ -1,14 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] to [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]]
+A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] of $n$-[[hypercubes]]. After a choice of [[orientation]] (if one exists) a density is equivalently a _[[volume form]]_.
+
+
+## Definition
+
+For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]]
 
 $$
-  det \colon GL(n) \to GL(1) \simeq Aut(\mathbb{R}^1)
+  det \;\colon\; GL(n) \to GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
   \,.
 $$
 
@@ -16,8 +36,41 @@ A [[section]] of the density bundle on $X$ is called a _density on $X$_.
 
 This is the general object again which one has [[integration]] of functions on $X$.
 
+More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] via the [[determinant]] to the power of $s$:
+
+$$
+  det^{s} \;\colon \; GL(n) \to GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
+  \,.
+$$
+
+In particular for $s = 1/2$ one speaks of **half-densities**.
+
 ## Related concepts
 
 * [[volume form]]
 
+* [[canonical bundle]], [[determinant line bundle]]
+
+[[!include square roots of line bundles - table]]
+
+
+## References
+
+For instance p. 29 of 
+
+* [[Nicole Berline]], [[Ezra Getzler]], [[Michele Vergne]], _Heat kernels and Dirac operators_, Springer (2004)
+
 [[!redirects densities]]
+
+[[!redirects half-density]]
+[[!redirects half-densities]]
+
+[[!redirects density bundle]]
+[[!redirects density bundles]]
+
+[[!redirects density line bundle]]
+[[!redirects density line bundles]]
+
+[[!redirects half-density bundle]]
+[[!redirects half-density bundles]]
+
