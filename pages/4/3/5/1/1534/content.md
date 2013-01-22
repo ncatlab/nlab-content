@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 =--
 =--
 
@@ -179,27 +183,36 @@ Factorization algebras have some similarity with
 
 ## References
 
-This may be regarded as a slight variation on the concept _chiral algebra_ originally introduced by Beilinson and Drinfeld.
+The notion of factorization algebra may be regarded as a slight variation on the concept _[[chiral algebra]]_ originally introduced in
 
-A definition appears in section 4.1 _Topological Chiral Homology_ of
+ [[Alexander Beilinson]], [[Vladimir Drinfeld]],  _[[Chiral Algebras]]_.
+
+A definition formulated genuinely in  [[Higher Algebra]] appears in section 4.1 _Topological Chiral Homology_ of
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
-There it is demonstrated how factorization algebras can be used to construct extended [[FQFT]]s.
+This discusses how locally constant factorization algebras obtained from [[En-algebras]] induce [[extended quantum field theory|extended]] [[FQFTs]].
 
-Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in 
+A fairly comprehensive account of factorization algebras as a formalization of of [[perturbation theory|perturbative]] [[quantum field theory]] is in 
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+
+and the beginning of
+
+* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+
+Lecture notes include
 
 * [[Kevin Costello]] (with [[Owen Gwilliam]]), _Factorizaton algebras in perturbative quantum field theory_ in [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Strings, Field, Topology]], Oberwolfach report No 28, 2009 ([pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf#page=12))
 
-This can also be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
+  This can also be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
 
-* notes by  [[Christoph Wockel]], [[costello.pdf:file]]
+  * notes by  [[Christoph Wockel]], [[costello.pdf:file]]
 
-* notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
+  * notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
 
-More is at
-
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
 
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
 
