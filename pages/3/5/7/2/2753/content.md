@@ -18,21 +18,31 @@
 
 ## Idea
 
-A _Lie--Rinehart pair_ is an algebraic structure that generalizes the notion of [[Lie algebroid]] from the case where the base is a [[manifold]] to that where it is an arbitrary [[noncommutative geometry|noncommutative space]].
+The notion of _Lie--Rinehart pair_ is an algebraic encoding of the notion of _[[Lie algebroid]]_.  It is the pair consisting of the [[associative algebra]] of [[functions]] on the base space of the Lie algebroid and of the [[Lie algebra]] of its global [[sections]]. The [[anchor map]] of the Lie algebroid is encoded in the [[action]] of the Lie algebra on the associative algebra by [[derivations]] and the local structure is encoded in the Lie algebra being a [[module]] over the associative algebra.
 
+Since in this formulation the base manifold of the Lie algebroid is entirely described [[Isbell duality|dually]] in terms of its algebra of functions, and since the definition does not refer to this being a _commutative_ algebra, the notion of Lie-Rinehart pair in fact generalizes the notion of Lie algebroid from ordinary [[differential geometry]] to [[noncommutative geometry]].
 
 ## Definition
 
-A _Lie--Rinehart-pair_ $(A,\mathfrak{g})$ is a pair consisting of an associative [[algebra]] $A$ and a [[Lie algebra]] $\mathfrak{g}$ such that $A$ is a $\mathfrak{g}$-module and $\mathfrak{g}$ is an $A$-module with both module structures being compatible in the obvious way:
+A _Lie--Rinehart-pair_ $(A,\mathfrak{g})$ is a pair consisting of 
 
-* $\mathfrak{g}$ acts as derivations of $A$: that is, we have a Lie algebra homomorphism $\mathfrak{g} \to Der(A)$. 
+1. an [[associative algebra]] $A$ 
 
-* $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the Leibniz law: that is, we have an associative algebra homomorphism from $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
+1. a [[Lie algebra]] $\mathfrak{g}$ 
+
+such that 
+
+1. $A$ is a $\mathfrak{g}$-[[module]] 
+
+1. $\mathfrak{g}$ is an $A$-[[module]]
+
+with both module structures being compatible in the obvious way:
+
+1. $\mathfrak{g}$ acts as [[derivations]] of $A$: that is, we have a Lie algebra [[homomorphism]] $\mathfrak{g} \to Der(A)$. 
+
+1. $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the [[Leibniz rule]]: that is, we have an associative algebra homomorphism from $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
 $$  [v, a w] = v(a) w + a [v,w]. $$ 
 
-CAUTION: Elsewhere in the literature, it is :
-
-a Lie algebra morphism from $\mathfrak{g} \to Der(A)$ 
 
 ## Examples
 
@@ -70,7 +80,7 @@ In particular
 
 * the Lie--Rinehart pair corresponding to an ordinary [[Lie algebra]] $\mathfrak{g}$ is $(\mathbb{R}, \mathfrak{g})$ with $\mathfrak{g}$ acting trivially on $\mathbb{R}$.
 
-* the Lie--Rinehart pair corresponding to a [[Poisson Lie algebroid]] on a [[Poisson manifold]] $X$ is $(C^\infty(X), MultVect(X))$, where the [[Lie algebra]] is the the space of multi vector fields on $X$ equipped with the bracket ... (exercise for the reader) ...
+* the Lie--Rinehart pair corresponding to a [[Poisson Lie algebroid]] on a [[Poisson manifold]] $X$ is $(C^\infty(X), MultVect(X))$, where the [[Lie algebra]] is the the space of [[multivector fields]] on $X$ equipped with the [[Schouten bracket]]. 
 
 
 ## Generalizations 
