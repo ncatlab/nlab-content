@@ -519,6 +519,8 @@ Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+* [[holomorphic Chern-Simons theory]]
+
 * [[sigma-model]]
 
   * [[AKSZ sigma-model]]
