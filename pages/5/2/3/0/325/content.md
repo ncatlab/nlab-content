@@ -209,10 +209,11 @@ Another example is the definition of the category of $L_\infty$-[[Lie infinity-a
 
 ### Opposite of $FinSet$
 
-The opposite of the category [[FinSet]] of finite sets is equivalent to the category of finite [[boolean algebra]]s
+The opposite of the category [[FinSet]] of [[finite sets]] is [[equivalence of categories|equivalent]] to the category of finite [[boolean algebras]]
 
 $$
-  FinSet^{op} \simeq BoolAlg.
+  FinSet^{op} \simeq FinBoolAlg
+  \,.
 $$
 
 
