@@ -126,6 +126,13 @@ is trivial.
 
 One class of examples for this sort of situation is where one considers refined [[Lie group cohomology]] on simply connected [[Lie groups]] and is asking for ways to push it down to discrete [[quotients]], hence to non-simply connected Lie groups integrating the same [[Lie algebra]]. This is often phrased in terms of "multiplicative bundle gerbes" over these Lie groups, but that is just another way of talking about the corresponding cohomology of the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B}G$.
 
+### Obstruction to quantization: Quantum anomaly
+ {#QuantumAnomaly}
+
+There are various formalizations of the notion of [[quantization]] in [[physics]], or at least various aspects of that formalization. This involves various steps, some of which may have obstructions to being carried out. In [[physics]] such an obstruction in the process of quantization is often called a [[quantum anomaly]].
+
+For instance for many [[theory (physics)|theories in physics]] the [[action functional]] is a priori not a [[function]] on the [[field (physics)|fields]] but a [[section]] of a circle-[[principal bundle]]. For this to qualify as an action functional therefore one needs a trivialization of that bundle and so the [[Chern class]] of the bundle is the obstruction and hence an _[[quantum anomaly|anomaly]]_ of the system. See there for more.
+
 (...)
 
 [[!redirects obstructions]]
