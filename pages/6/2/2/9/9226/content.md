@@ -21,7 +21,13 @@
 
 Given a [[local action functional]] on [[field (physics)|fields]] which are [[sections]] of a suitable [[field bundle]], [[perturbation theory]] and [[renormalization]] allow to assign to [[open subsets]] of [[spacetime]]/[[worldvolume]] the corresponding [[quantum BV-complexes]]/[[Beilinson-Drinfeld algebras]]. This assignment is canonically equipped with the structure of a [[factorization algebra]], the _factorization algebra of observables_ of the [[theory (physics)|theory]].
 
-This formalization [[algebraic quantum field theory]] is similar to, but a bit different from, the notion of _[[local net of observables]]_.
+This formalization of [[algebraic quantum field theory]] is similar to, but a bit different from, the notion of _[[local net of observables]]_.
+
+## Examples
+
+* Over a Riemann surface: [[vertex operator algebra]] ([Gwilliam, section 6.3, section 6.5](#Gwilliam))
+
+* (...)
 
 ## Related concepts
 
@@ -36,6 +42,7 @@ A fairly comprehensive account of factorization algebras as a formalization of [
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
 
 and the beginning of
 
