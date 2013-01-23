@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Marshall_Harvey_Stone)
+
+## Related entries
+
+* [[Stone duality]]
+
+[[!redirects Marshall Harvey Stone]]
