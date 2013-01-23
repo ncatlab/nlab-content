@@ -53,6 +53,7 @@ in the usual arithmetic of [[cardinal numbers]].
 
 * Power sets live in the category [[Set]].  Given an object $S$ of any [[category]], one can similarly form a poset of [[subobjects]] of $S$; the category is called [[well-powered category|well-powered]] when this poset is [[small category|small]].  One also has an internal notion of power set (a [[power object]]) in a [[topos]].
 
+* The power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] [[Set]]$^{op}$ and that of [[complete atomic Boolean algebras]]. See at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. Restricted to [[finite sets]], the power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] of [[FinSet]] and that of finite [[Boolean algebras]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
 ## Related concepts
 
