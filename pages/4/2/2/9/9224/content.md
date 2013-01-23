@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 For $(X, \mu)$ a [[measure space]] of finite total measure $\int_X \mu$ and for $f$ an [[measurable function]] on $X$, its **expectation value** is 
 
@@ -27,5 +32,9 @@ $$
  \int_X f \cdot \mu_P
   \,.
 $$
+
+## Related concepts
+
+* [[moment]]
 
 [[!redirects expectation values]]
