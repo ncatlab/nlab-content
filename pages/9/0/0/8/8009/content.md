@@ -11,7 +11,7 @@ The [[Isbell duality|duality]] between [[algebra]] and [[geometry]] and its inca
 | | |
 | **[[higher algebra]]** | **[[higher geometry]]** |
 | [[Poisson n-algebra]] | [[n-plectic manifold]] |
-| | [[higher symplectic geometry]] |
-| | [[higher geometric quantization]] |
-| [[factorization algebra]] | [[extended quantum field theory]] |
+| [[En-algebras]] | [[higher symplectic geometry]] |
+| [[Beilinson-Drinfeld algebra|BD]]-[[BV quantization]] | [[higher geometric quantization]] |
+| [[factorization algebra of observables]] | [[extended quantum field theory]] |
 | [[factorization homology]] | [[cobordism hypothesis|cobordism representation]] | 
