@@ -17,7 +17,7 @@
 
 The right [[adjoint functor]] of a [[functor]], if it exists, is one of two best approximations to a [[weak inverse]] of that functor.  (The other best approximation is the functor\'s [[left adjoint]], if it exists.)  Note that a weak inverse itself, if it exists, must be a right adjoint, forming an [[adjoint equivalence]].
 
-A right adjoint to a [[forgetful functor]] is called a [[cofree functor]]; in general, right adjoints may be thought of as being defined cofreely, consisting of anything that works in an inverse, regardless of whether its needed.
+A right adjoint to a [[forgetful functor]] is called a [[cofree functor]]; in general, right adjoints may be thought of as being defined cofreely, consisting of anything that works in an inverse, regardless of whether it's needed.
 
 The concept generalises immediately to [[enriched category|enriched categories]] and in [[2-category|2-categories]].
 
