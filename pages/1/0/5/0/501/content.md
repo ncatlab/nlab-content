@@ -84,6 +84,10 @@ Can you think of a way to define these notions of finite without power objects a
 
 In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.  See [[finite object]].
 
+## Properties
+
+The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equivalent]] to that of finite [[Boolean algebras]] by the [[power set]]-[[functor]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_ for details and see at _[[Stone duality]]_ for more.
+
 
 [[!redirects finite set]]
 [[!redirects finite sets]]
