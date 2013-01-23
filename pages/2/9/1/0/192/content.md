@@ -55,6 +55,32 @@ Conversely, $\Set$ in [[constructive mathematics]] cannot satisfy the axiom of c
 
 Above we considered $Set$ to be the category of _all_ sets, so that in particular $Set$ itself is a [[large category]].  Authors who assume a [[Grothendieck universe]] as part of their [[foundations]] often define $Set$ to be the category of *small* sets (those contained in the universe).  One often then writes $SET$ for the category of *large* sets, which is the [[universe enlargement]] of $Set$.
 
+### Opposite category and Boolean algebras
+ {#OppositeCategory}
+
++-- {: .num_defn}
+###### Definition
+
+The [[power set]]-[[functor]]
+
+$$
+  \mathcal{P} \;\colon\; Set \to Bool^{op}
+$$
+
+constitutes an [[equivalence of categories]] between $Set$ and the [[opposite category]] of that of [[complete atomic Boolean algebras]].
+
+=--
+
+See for instance [van Oosten, theorem 2.4](#vanOosten)
+
++-- {: .num_remark}
+###### Remark
+
+Restricted to [[FinSet]] this equivalence restricts to an equivalence with finite Boolean algebras. See at _[[Stone duality]]_ for more on this.
+
+=--
+
+
 ## Related categories
 
 A variant of $Set$ where [[functions]] are generalized to [[relations]] is _[[Rel]]_.
@@ -68,6 +94,11 @@ In [[higher category theory]] the role of _$Set$_ is played for instance by
 * [[Cat]],  [[(∞,1)Cat]]
 
 * [[(∞,n)Cat]]
+
+## References
+
+* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+ {#vanOosten}
 
 category: category
 
