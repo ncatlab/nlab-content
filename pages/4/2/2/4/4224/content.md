@@ -48,14 +48,14 @@ Any [[distributive lattice]] generates a [[free object|free]] frame.  The locale
 
 The duality which is due to [[Marshall Stone]], and which gives its name to the subject, is the duality between [[Stone spaces]] and [[Boolean algebras]].  Specifically, a [[distributive lattice]] is a Boolean algebra precisely when the free frame it generates is the topology of a Stone space, and any continuous map of Stone spaces is coherent.  Therefore, the category of Stone spaces is dual to the category of Boolean algebras.  The Boolean algebra corresponding to a Stone space consists of its [[clopen sets]].
 
-Stone duality works by the sequence of [[equivalences of categories]]
+One way of explaining this classical Stone duality is via the following sequence of [[equivalences of categories]]
 
 $$
   Bool \simeq Ind(FinBool) \simeq Ind(FinSet^{op}) \simeq Pro(FinSet)^{op}
   \,,
 $$
 
-where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[ind-objects]], "$Pro$" for [[pro-objects]] and ${}^{op}$ for the [[opposite category]] and the [[equivalence of categories|equivalence]] $FinSet^{op} \simeq FinBoo$ is that discussed at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
+where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[ind-objects]], "$Pro$" for [[pro-objects]] and ${}^{op}$ for the [[opposite category]] and the [[equivalence of categories|equivalence]] $FinSet^{op} \simeq FinBool$ is that discussed at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
 
 ### Stone spaces and profinite sets
