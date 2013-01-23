@@ -207,14 +207,24 @@ Another example is the definition of the category of $L_\infty$-[[Lie infinity-a
 
 ## Specific examples
 
-### Opposite of $FinSet$
+### Opposite of $Set$ and $FinSet$
 
-The opposite of the category [[FinSet]] of [[finite sets]] is [[equivalence of categories|equivalent]] to the category of finite [[boolean algebras]]
+The [[power set]]-[[functor]]
+
+$$
+  \mathcal{P} \;\colon\; Set^{op} \to Bool
+$$
+
+constitutes an [[equivalence of categories]] from the opposite category of [[Set]] to that of [[complete atomic Boolean algebras]]. See at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_
+
+Restricted to [[finite sets]] this says that  the opposite of the category [[FinSet]] of [[finite sets]] is [[equivalence of categories|equivalent]] to the category of finite [[boolean algebras]]
 
 $$
   FinSet^{op} \simeq FinBoolAlg
   \,.
 $$
+
+See at _[FinSet -- Properties -- Opposite category](FinSet#OppositeCategory)_. See at _[[Stone duality]]_ for more.
 
 
 ## References
