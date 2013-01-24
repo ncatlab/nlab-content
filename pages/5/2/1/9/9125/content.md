@@ -2613,6 +2613,8 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 * **physical field**
 
+  [[free field]]
+
   [[gauge field]]
 
 * [[extended Lagrangian]], [[prequantum n-bundle]], [[action functional]]
