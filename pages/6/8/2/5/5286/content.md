@@ -15,7 +15,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -38,7 +38,7 @@ A **Batalin-Vilkovisky algebra** or **BV-algebra** for short is
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A **$(n+1)$-BV algebra** is a similar structure with a BV-operator being of degree $n$ if $n$ is odd, and of degree $n/2$ if it is even.
@@ -49,7 +49,7 @@ See ([CohenVoronov, def. 5.3.1](#CohenVoronov)) for details.
 
 ## Properties
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[operad]] for BV-algebras is the [[homology]] of the [[framed little 2-disk operad]].
@@ -59,7 +59,7 @@ The [[operad]] for BV-algebras is the [[homology]] of the [[framed little 2-disk
 This is due to ([Getzler](#Getzler))
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[operad]] for $(n+1)$-BV-algebras is the [[homology]] of the [[framed little n-disk operad]].
@@ -79,6 +79,8 @@ Multivecotr field can be identified with [[Hochschild cohomology]] in good cases
 ## Related concepts
 
 * **BV-algebra**
+
+* [[Poisson n-algebra]]
 
 * [[homotopy BV-algebra]]
 
