@@ -19,7 +19,7 @@
 
 ## Idea
 
-A generalization of the notion of [[elliptic operator]].
+The notion of _elliptic chain complex_ is the generalization of the notion of [[elliptic operator]] from single [[linear maps]] to [[chain complexes]] of linear maps. 
 
 ## Definition
 
@@ -37,7 +37,51 @@ $$
 
 (where $\pi \colon T^* X \to X$ is the [[cotangent bundle]]) is an [[exact sequence]].
 
+For instance ([Pati, def. 9.4.1](#Pati)).
+
 For a single differential operator $P$ this says that $0 \to \pi^* E_1 \stackrel{\sigma(P)}{\to} \pi^* E_0 \to 0$ is exact, which means that $\sigma(P)$ is an [[isomorphism]], hence that $P$ is an [[elliptic operator]].
+
+## Examples
+
+The classical examples of elliptic complexes are discussed also in ([Gilkey section 3](#Gilkey)).
+
+### de Rham complex
+
+Let $X$ be a compact smooth manifold. Then the [[de Rham complex]] is an ellptic complex. The corresponding [[index of an elliptic complex]] is the [[Euler characteristic]]
+
+$$
+  Ind(\Omega^\bullet(X),d)  
+  = 
+  \chi(X)
+  = 
+  \sum_{p = 0}^{dim X} (-1)^p  dim H_{dR}^p(X, \mathbb{C})
+$$
+
+### The Yang-Mills complex
+
+(...)
+
+### The Dolbeault complex
+
+(...) [[Dolbeault complex]]
+
+The [[index of an elliptic complex]] of the Dolbeault complex is the [[arithmetic genus]]
+
+### Spin complex
+
+(...) index is [[A-hat genus]] (...)
+
+## Related concepts
+
+* [[index of an elliptic complex]]
+
+## References
+
+* V. Pati, _Elliptic complexes and index theory_ ([pdf](http://www.isibang.ac.in/~statmath/resource/elliptic.pdf))
+ {#Pati}
+
+* [[Peter Gilkey]], _The Atiyah-Singer Index Theorem -- Chapter 5_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gilkey3.pdf))
+ {#Gilkey}
 
 [[!redirects elliptic chain complexes]]
 [[!redirects elliptic complex]]
