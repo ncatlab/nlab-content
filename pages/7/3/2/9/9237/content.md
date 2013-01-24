@@ -1,0 +1,10 @@
+
+
+
+
+
+* [Link at Bangor](http://pages.bangor.ac.uk/~mas019)
+
+* [Notes on symbolic computation](http://pages.bangor.ac.uk/~mas019/nsc/nsc.html)
+
+category:people
