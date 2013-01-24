@@ -20,7 +20,7 @@ A _Gerstenhaber algebra_ is a [[Poisson n-algebra|Poisson 2-algebra]], a [[Poiss
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -36,28 +36,34 @@ A **Gerstenhaber algebra** is a [[chain complex]] $A$ equipped with
 
 ## Properties
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[homology]] of the  [[operad]] for Gerstenhaber algebras in [[chain complexes]] is the operad for Gerstenhaber algebras.
 
-Accordingly the [[homology]] of a [[E2-algebra]] is a Gerstenhaber algebra.
+Accordingly the [[homology]] of an [[E2-algebra]] is a Gerstenhaber algebra.
 
 =--
 
 This is due to [Cohen (1976)](#Cohen).
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A \to A$ is a **[[BV-algebra]]**. This is the homology of an algebra over the [[framed little 2-disk operad]].
 
 =--
 
+## Related concepts
+
+* [[Poisson n-algebra]]
+
+* [[BV-algebra]]
+
 ## References
 
 * Cohen (1976)
-{#Cohen}
+ {#Cohen}
 
 [[!redirects Gerstenhaber algebras]]
 
