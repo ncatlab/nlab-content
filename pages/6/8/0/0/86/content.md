@@ -767,28 +767,22 @@ The [above](#HomologicalIntegration) duality between [[differential forms]] and 
 
 Multivector fields may be understood in terms of [[Hochschild cohomology]] of $C$.
 Under the identification of 
-[[Hochschild homology]]/[[nLab:cyclic homology]] with 
-the [[nLab:de Rham complex]] the product of the 
-[[nLab:action functional]] 
-$\exp(i S(-)) : C \to S^1$ with a formal [[nLab:measure]] $vol$
-on $C$ is regarded as cycle in [[nLab:cyclic homology]]. Or rather, 
-an isomorphism with [[nLab:Hochschild cohomology]] is picked,
-interpreted as a choice of [[nLab:volume form]] $vol$ and 
+[[Hochschild homology]]/[[cyclic homology]] with  the [[de Rham complex]] the product of the  [[action functional]] 
+$\exp(i S(-))$ with a formal [[measure]] $vol$
+on $C$ is regarded as a [[cycle]] in [[cyclic homology]]. Or rather, 
+an [[isomorphism]] with [[Hochschild cohomology]] is picked,
+and interpreted as a choice of [[volume form]] $vol$ and 
 $\exp(i S(-))$ is regarded as a cocycle in cyclic cohomology, hence
-as a [[nLab:multivector field]] whose closure condition
-
-$$
-  \Delta \exp(i S(-)) = 0
-$$ 
-
-is called the **quantum [[master equation]]** of BV-formalis.
+as a [[multivector field]] whose closure condition
+$\Delta \exp(i S(-)) = 0 $
+is the quantum master equation of BV-formalism.
 
 By the identification of [[Hochschild cohomology]]  
 with functions on [[derived loop space]]s we know that 
 the operator $\Delta$ encodes the rotation of loops. 
 Accordingly, the resuling [[BV-algebra]] has an interpretation
 as an algebra over (the homology of) the 
-[[nLab:framed little disk operad]]. 
+[[framed little disk operad]]. 
 
 
 For certain algebras $A$ there exists [[Poincaré duality]] between [[Hochschild cohomology]] and [[Hochschild homology]]
