@@ -26,4 +26,6 @@ For $\mu$ a [[probability measure]] on the [[real line]] $\mathbb{R}$, its **$n$
 
 * [[expectation value]]
 
+* [[Feynman diagram]]
+
 [[!redirects moments]]
