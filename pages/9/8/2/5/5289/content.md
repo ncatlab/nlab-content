@@ -35,6 +35,10 @@ The [[homology]] of an $E_2$-algebra in [[chain complex]]es is a [[BV-algebra]].
 See [[E-∞ algebra]].
 
 
+## Examples
+
+* [[universal enveloping E-n algebra]]
+
 ## Related concepts
 
 [[!include k-monoidal table]]
