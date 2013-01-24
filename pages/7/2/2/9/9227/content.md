@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,6 +26,8 @@ In the context of [[quantum field theory]] Gaussian integrals appear as [[path i
 ## Related concepts
 
 * [[perturbation theory]]
+
+* [[Feynman diagram]]
 
 ## References
 
