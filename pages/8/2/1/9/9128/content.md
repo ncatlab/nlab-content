@@ -73,6 +73,12 @@ The notion of quantum field theory, fundamental as it is, is quite flexible and 
 
 Crucially, [[Einstein gravity]] is not known to have a formulation as a _fundamental_ quantum field theory with finitely many unspecified parameters ([[renormalization|renormalizable]]).  But it may well be a [[effective quantum field theory]], the approximation to a moe refined physical theory valid at higher energies. (This is the issue of [[quantum gravity]].) A proposal for a physical theory that achieves this is called _[[string theory]]_.
 
+### Types of theories
+
+* [[free field theory]]
+
+* [[gauge theory]]
+
 ### The fundamental phenomenological theories
 
 * [[gravity]], [[Yang-Mills theory]]
