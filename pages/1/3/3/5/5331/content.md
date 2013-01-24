@@ -40,7 +40,7 @@ Moreover, in [[chain complexes]] over a [[field]] of [[characteristic]] 0 the [[
 
 There is a [[forgetful functor]] from Poisson $n$-algebras to [[dg-Lie algebras]] given by forgetting the [[associative algebra]] structure and by [[suspension of a chain complex|shifting]] the underlying chain complex by $(n-1)$.
 
-Conversely, this functor has a [[derived functor|derived]] [[left adjoint]] which sends a [[dg-Lie algebra]] $(\mathfrak{g},d)$ to its _enveloping Poisson Lie $n$-algebra_ $(Sym(\mathfrak{g}[n-1], d))$. (See also [Gwilliam, section 4.5](#Gwilliam)).
+Conversely, this functor has a [[derived functor|derived]] [[left adjoint]] which sends a [[dg-Lie algebra]] $(\mathfrak{g},d)$ to its _[[universal enveloping E-n algebra|universal enveloping Poisson n-algebra]]_ $(Sym(\mathfrak{g}[n-1], d))$. (See also [Gwilliam, section 4.5](#Gwilliam)).
 
 
 ## Examples
