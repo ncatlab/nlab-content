@@ -1,26 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Bundles
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] of $n$-[[hypercubes]]. After a choice of [[orientation]] (if one exists) a density is equivalently a _[[volume form]]_.
+A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] (possibly degenerate) of $n$-[[hypercubes]].  After a choice of [[orientation]] (if one exists) a density (if nondegenerate) is equivalently a _[[volume form]]_.
 
 
 ## Definition
@@ -43,7 +42,15 @@ $$
   \,.
 $$
 
-In particular for $s = 1/2$ one speaks of **half-densities**.
+The parameter $s$ is called the __weight__ of the density.  In particular for $s = 1/2$ one speaks of **half-densities**.
+
+
+## Physical interpretation
+
+We earlier spoke of a density (of weight $1$) $\rho$ as a measure of [[volume]], but in application to [[physics]] a density on [[spacetime]] (or space) might as easily be a measure of some other [[extensive quantity]] $Q$ (say, [[mass]]).  We then call $\rho$ the __$Q$-density__ (say, _mass density_); the [[integration of differential forms|integral]] of $\rho$ over a region $R$ is the amount of $Q$ in $R$.
+
+Relative to a nondegenerate notion of volume given by another density $vol$, the ratio $\rho/vol$ is a [[scalar field]], an [[intensive quantity]] which is often also referred to as the _density_.  But $\rho$ itself is more fundamental in the [[geometry of physics]].
+
 
 ## Related concepts
 
@@ -60,17 +67,19 @@ For instance p. 29 of
 
 * [[Nicole Berline]], [[Ezra Getzler]], [[Michele Vergne]], _Heat kernels and Dirac operators_, Springer (2004)
 
+
+[[!redirects density]]
 [[!redirects densities]]
+
+[[!redirects density bundle]]
+[[!redirects density bundles]]
+[[!redirects density line bundle]]
+[[!redirects density line bundles]]
 
 [[!redirects half-density]]
 [[!redirects half-densities]]
 
-[[!redirects density bundle]]
-[[!redirects density bundles]]
-
-[[!redirects density line bundle]]
-[[!redirects density line bundles]]
-
 [[!redirects half-density bundle]]
 [[!redirects half-density bundles]]
-
+[[!redirects half-density line bundle]]
+[[!redirects half-density line bundles]]
