@@ -1,0 +1,8 @@
+
+## Idea
+
+A _renormalization scheme_ is an method in [[renormalization]] theory for systematically producing [[counterterms]] for a given [[local Lagrangian]].
+
+A choice of renormalization scheme amounts to a choice of decomposition, as [[vector spaces]] of $C^\infty((0,\infty))$ as a [[direct sum]] $C^\infty([0,\infty)) \oplus Sing$, where $Sing$ is a space of functions that are singular at 0.
+
+[[!redirects renormalization schemes]]
