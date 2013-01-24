@@ -46,7 +46,34 @@ Here $K$ is _a subgroup of $G$_.
 
 ## Properties
 
+### Of free groups
+
 Every subgroup of a [[free group]] is itself free. This is the statement of the _[[Nielsen-Schreier theorem]]_.
+
+### Of Lie groups
+
+For $H \hookrightarrow G$ a sub-[[Lie group]] inclusion write $\mathbf{B}H  \to \mathbf{B}G$ for the induced map on [[delooping]] [[Lie groupoids]]. The [[homotopy fiber]] of this map (in [[Smooth∞Grpd]]) is the [[coset space]] $G/H$: there is a [[homotopy fiber sequence]]
+
+$$
+  G/H \to \mathbf{B}H \to \mathbf{B}G
+  \,.
+$$
+
+Now let $H \hookrightarrow K \hookrightarrow G$ be a sequence of two subgroup inclusions. By the above this yields the [[diagram]]
+
+$$
+  \array{
+    K/H &\to& G/H &\to& G/K 
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{B}H &\to& \mathbf{B}H &\to& \mathbf{B}K
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{B}K &\to& \mathbf{B}G &\to& \mathbf{B}G
+  }
+$$
 
 ## Related concepts
 
