@@ -1,8 +1,23 @@
-<div class="rightHandSide toc">
-[[!include monoidal categories - contents]]
-</div>
 
-#Definition#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A [[monoidal category]] is **strict** if its associator, left unitor and right unitor are identity natural transformations.
 
+
+## Related concepts
+
+* [[coherence theorem for monoidal categories]]
