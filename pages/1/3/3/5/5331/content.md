@@ -27,18 +27,15 @@
 For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** $A$ is a [[Poisson algebra]] $A$ in a [[category of chain complexes]] with Poisson bracket of degree $(1-n)$ (which is a bracket of degree 0 on $\mathbf{B}^{n-1} A$). 
 
 
+## Properties
+
+The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
+
 ## Examples
 
 * A Poisson 1-algebra is a [[Poisson algebra]].
 
 * A Poisson 2-algebra is a [[Gerstenhaber algebra]].
-
-## Properties
-
-
-The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
-
-## Examples
 
 * The [[Chevalley-Eilenberg algebra]] of a [[symplectic Lie n-algebroid]] (see there for details) is naturally a Poisson $(1+n)$-algebra. 
 
@@ -47,6 +44,8 @@ The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad
 ## Related concepts
 
 * [[Poisson bracket Lie n-algebra]]
+
+* [[BV-algebra]]
 
 [[!include Isbell duality - table]]
 
