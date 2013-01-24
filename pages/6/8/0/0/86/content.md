@@ -730,6 +730,8 @@ For $A_{\hbar = 0}$ a classical BV complex, def. \ref{ClassicalBVComplexAsPoisso
 In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.6.
 
 
+[[!include action (physics) - table]]
+
 #### Quantum observables by BV-cohomology
  {#PathIntegrationAndQuantumObservablesByBVCohomology}
 
