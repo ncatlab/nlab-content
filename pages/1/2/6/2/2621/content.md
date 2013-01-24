@@ -41,7 +41,7 @@ We feed this equation back into itself recursively to get
 \[\array{ \psi_1(t) & = & -i \int_0^t V_1(t_0) \left[-i\int_0^{t_0} V_1(t_1) \psi_1(t_1) dt_1 + \psi(0) \right] dt_0 + \psi(0) \\ & = & \left[\psi(0)\right] + \left[\int_0^t i^{-1} V_1(t_0)\psi(0) dt_0\right] + \left[\int_0^t\int_0^{t_0} i^{-2} V_1(t_0)V_1(t_1) \psi_1(t_1) dt_1 dt_0\right] \\ & = & \sum_{n=0}^{\infty} \int_{t \ge t_0 \ge \ldots \ge t_{n-1} \ge 0} i^{-n} V_1(t_0)\cdots V_1(t_{n-1}) \psi(0) dt_{n-1}\cdots dt_0 \\ & = & \sum_{n=0}^{\infty} (-\lambda i)^n \int_{t \ge t_0 \ge \ldots \ge t_{n-1} \ge 0} e^{-i(t-t_0)H_0} V e^{-i(t_0-t_1)H_0} V \cdots V e^{-i(t_{n-1}-0)H_0} \psi(0) dt_{n-1}\cdots dt_0. }\]
 So here we have a sum of a bunch of terms; the $n$th term involves $n$ interactions with the potential interspersed with evolving freely between the interactions, and we integrate over all possible times at which those interactions could occur.
 
-Here's an example Feynman diagram for this simple system, representing the fourth term in the sum above:
+Here's an example [[Feynman diagram]] for this simple system, representing the fourth term in the sum above:
 <p style="text-align:center;"><img src="http://reperiendi.wordpress.com/files/2009/10/3.gif" alt="Three interactions with the perturbation." title="3" width="10" height="200" class="size-full wp-image-798" /></p>
 The lines represent evolving under the free Hamiltonian $H_0$, while the dots are interactions with the potential $V$.
 
@@ -104,10 +104,8 @@ Perturbative quantization in [[BV-BRST formalism]] is nicely systematically disc
 
 in the broad context of _[[factorization algebras]]_ (see there for further references). In particular the relation to Feynman diagrams is discussed in 
 
-* [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for nite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
+* [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for finite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
 
-[[!redirects Feynman diagram]]
-[[!redirects Feynman diagrams]]
