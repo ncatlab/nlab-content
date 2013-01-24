@@ -54,6 +54,10 @@ Homological perturbation theory is a key tool in the construction of [[BRST-BV c
 
 ### General
 
+The homological perturbation lemma is discussed in 
+
+* [[Marius Crainic]], _On the perturbation lemma, and deformations_ ([arXiv:math/0403266](http://arxiv.org/abs/math/0403266))
+
 Notes from an introductory survey talk are in 
 
 * [[Johannes Huebschmann]], _A survey on homological perturbation theory_ ([pdf](http://math.univ-lille1.fr/~huebschm/data/talks/courant.pdf))
