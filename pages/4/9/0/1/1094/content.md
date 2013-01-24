@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -39,7 +39,7 @@ for the [[category of sheaves]]: the [[full subcategory]] on those presheaves th
 
 ### Existence
 
-+-- {: .un_prop #ExistenceOfLeftAdjoint}
++-- {: .num_prop #ExistenceOfLeftAdjoint}
 ###### Proposition
 
 The inclusion of sheaves into presheaves admits a [[left adjoint|left]] [[adjoint functor]], which hence exhibits $Sh(C)$ as a [[reflective subcategory]] or reflective [[localization]] of $PSh(C)$:
@@ -205,7 +205,7 @@ This demonstrates the [[adjunction]] $(L \dashv i)$.
 
 ### Construction
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 For $X \in PSh(C)$ a [[presheaf]] on the [[site]] $(C,J)$, its **sheafification** $L(X)$ is the presheaf given on any $U \in C$ by
@@ -245,7 +245,7 @@ $$
 
 =--
 
-+-- {: .un_observation}
++-- {: .num_observation}
 ###### Observation
 
 By the definition of $\bar W$, the morphisms $\hat U \to j(U)$ in $\bar W$ are colimits of diagrams of [[covering]] [[sieve]]s
@@ -267,7 +267,7 @@ One such application is called the [[plus construction]].
 
 =--
 
-+-- {: .un_observation}
++-- {: .num_observation}
 ###### Observation
 
 A morphism $S(\{U_i\}) \to X$ out of a [[sieve]] into any presheaf is in components precisely a [[matching family]] of the presheaf $X$ on the [[covering]] $\{U_i \to U\}$.
@@ -290,7 +290,7 @@ and that the [[hom-functor]] $PSh_C(-,X)$ sends [[colimit]]s to [[limit]]s. More
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The [[unit of an adjunction|unit]] of the $(L \dashv i)$-[[adjunction]] has as components natural morphisms
