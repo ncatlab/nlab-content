@@ -30,6 +30,7 @@ An $n$-[[n-natural transformation|natural transformation]] goes between $n$-func
 *  [[functor]] (a $1$-[[1-functor|functor]])
 *  [[2-functor]], including [[pseudo functor]]
 * [[(∞,1)-functor]]
+* [[(∞,n)-functor]]
 
 
 
