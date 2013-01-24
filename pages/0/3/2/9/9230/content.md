@@ -22,7 +22,7 @@
 
 ### General
 
-For $\mu_S$ a [[Gaussian probability measure]] and $\exp(-I)\mu_S$ a perturbation with $I$ [[polynomial ring|polynomial]] at least of degree 3, there is a combinatorial expression for the [[moments]]/[[expectation values]] of $\exp(-I)\mu_S$ as a sum over certain [[graphs]] whose $k$-ary vertices are labeled by the [[coefficients]] of the monomials of degree $k$ in $I$.
+For $\mu_S$ a [[Gaussian probability measure]] and $\exp(-I)\mu_S$ a perturbation with $I$ [[polynomial ring|polynomial]] at least of degree 3, there is a combinatorial expression for the [[moments]]/[[expectation values]] of $\exp(-I)\mu_S$ as a sum over certain [[graphs]] whose $k$-ary vertices are labeled by the monomials of degree $k$ in $I$. (This is such that for $I = 0$ it reduces to [[Wick's lemma]].)
 
 These graphs are called _Feynman diagrams_.
 
