@@ -66,14 +66,14 @@ Other references include
 
 * [[Ronnie Brown]], _The twisted Eilenberg-Zilber Theorem_,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
 
-* Barnes, Donald W.(5-SYD-PM); Lambe, Larry A.(5-SYD-PM)
+* Donald W. Barnes, (5-SYD-PM); [[Larry Lambe|Larry A. Lambe]], (5-SYD-PM)
 A fixed point approach to homological perturbation theory.
 Proc. Amer. Math. Soc. 112 (1991), no. 3, 881--892. 
 
 
 Discussion with an eye towards [[Hochschild cohomology]] and [[cyclic cohomology]] is in
 
-* Larry A. Lambe, _Homological Perturbation Theory
+* [[Larry Lambe|Larry A. Lambe]], _Homological Perturbation Theory
 Hochschild Homology and Formal Groups_ Cont. Math., vol 189, AMS, 1992 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.64.8783&rep=rep1&type=pdf))
 
 
