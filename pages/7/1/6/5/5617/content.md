@@ -21,7 +21,7 @@
 
 The _volume form_ on a finite-[[dimension|dimensional]] [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] $(X,g)$ is the [[differential form]] whose [[integral]] over pieces of $X$ computes the [[volume]] of $X$ as measured by the [[metric]] $g$.
 
-If the manifold is unoriented, then we get a _volume [[pseudoform]]_ instead.
+If the manifold is unoriented, then we get a _volume [[pseudoform]]_ instead, or equivalently a volume [[density]] (of weight $1$).
 
 
 ## Definition
