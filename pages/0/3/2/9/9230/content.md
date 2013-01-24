@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+### General
+
+For $\mu_S$ a [[Gaussian probability measure]] and $\exp(-I)\mu_S$ a perturbation with $I$ [[polynomial ring|polynomial]] at least of degree 3, there is a combinatorial expression for the [[moments]]/[[expectation values]] of $\exp(-I)\mu_S$ as a sum over certain [[graphs]] whose $k$-ary vertices are labeled by the [[coefficients]] of the monomials of degree $k$ in $I$.
+
+These graphs are called _Feynman diagrams_.
+
+### In quantum field theory
+
+Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the kinetic action and measure for [[free fields]]  and $\exp(I)$ is the interaction part of th action functional: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly refelcted in speaking of "[[virtual particles]]".
+
+## References
+
+A clean derivation of the Feynman diagram rules for finite-dimensional spaces of fields in terms of [[cochain cohomology]] of [[BV-complexes]] is in
+
+* [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for finite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
+
+with a review in the broader context of [[factorization algebras of observables]] in section 2.3 of 
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+
+[[!redirects Feynman diagrams]]
