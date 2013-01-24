@@ -148,6 +148,8 @@ See [[ring spectrum]] and [[algebra spectrum]].
 
 * **$A_\infty$-algebra**, [[A-∞-category]]
 
+* [[A-n algebra]]
+
 * [[E-∞ algebra]]
 
 * [[L-∞ algebra]], .
