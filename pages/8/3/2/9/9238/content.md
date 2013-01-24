@@ -1,0 +1,220 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called a _free field theory_ if it describes standard [[dynamics]] of fields without any interaction. Formally this means essentially that the [[action functional]] for the fields consists only of an expression of the form $\exp(S(\phi)) = \exp(\int_X (\phi, \Delta \phi) vol_X)$, where $\Delta$ is a [[Laplace operator]] on spacetime.
+
+## Definition
+
+### In terms of BV-complexes
+
+In the formalization of [[perturbation theory]] via [[BV-quantization]] as in ([Costello-Gwilliam](#CostelloGwilliam)), a free field theory is given by a [[BV-complex]] that arises from the following data.
+
+The following appears for instance as ([Gwilliam 2.6.2](#Gwilliam)).
+
+**[[kinematics]]**:
+
+* A [[smooth manifold]] $X$ ("[[spacetime]]"/"[[worldvolume]]");
+
+* a $\mathbb{Z}$-[[graded object|graded]] [[complex numbers|complex]] [[vector bundle]] $E \to X$ (the "[[field bundle]]" containing also in general [[antifields]] and [[ghosts]]);
+
+* equipped with a [[bundle]] [[homomorphism]] (the "[[antibracket]] [[density]]")
+
+  $$
+    \langle -,-\rangle_{loc} \;\colon\; E \times E \to Dens_X
+  $$
+
+  from the fiberwise [[tensor product]] of $E$ with itself to the compex [[density bundle]] which is fiberwise
+
+  * non-degenerate
+
+  * anti-symmetric
+
+  * of degree -1
+
+Write $\mathcal{E}_c \coloneqq \Gamma_{cp}(E)$ for the space of [[sections]] of the [[field bundle]] of [[compact support]]. Write
+
+$$
+  \langle -,-\rangle
+  \;\colon\;
+  \mathcal{E}_c
+  \otimes
+  \mathcal{E}_c
+  \to 
+  \mathbb{C}
+$$
+
+for the induced pairing on sections
+
+$$
+  \langle \phi, \psi\rangle
+  =
+  \int_{x \in X} \langle \phi(x), \psi(x)\rangle_{loc}
+  \,.
+$$
+
+The paring being non-degenerate means that we have an [[isomorphism]] $E \stackrel{\simeq}{\to} E^* \otimes Dens_X$ and we write
+
+$$
+  E^! \coloneqq E^* \otimes Dens_X
+  \,.
+$$
+
+**[[dynamics]]**
+
+* A [[differential operator]] on sections of the [[field bundle]] 
+
+  $$
+    Q \;\colon\; \mathcal{E} \to \mathcal{C}
+  $$
+ 
+  of degree 1 such that
+
+  1. $(\mathcal{E}, Q)$ is an [[elliptic complex]];
+
+  1. $Q$ is [[self-adjoint operator|self-adjoint]] with respect to $\langle -,-\rangle$ in that for all [[field (physics)|fields]] $\phi,\psi \in \mathcal{E}_c$ of homogeneous degree we have $\langle \phi , Q \psi\rangle = (-1)^{{\vert \phi\vert}} \langle Q \phi, \psi\rangle$.
+
+From this data we obtain:
+
+* The [[action functional]] $S \colon \mathcal{E}_c \to \mathbb{C}$ of this corresponding free field theory is
+
+  $$
+    S \;\colon\; \phi \mapsto \int_X \langle \phi, Q \phi\rangle
+    \,.
+  $$
+
+* The [[classical BV-complex]] is the [[symmetric algebra]] $Sym  \mathcal{E}^!$ of sections of $E^!$ equipped with the induced action of the differential $Q$ and the pairing 
+
+  $$ 
+    \{\alpha,\beta\} \coloneqq  \int_{x \in X} \langle \alpha(x), \beta(x)\rangle
+    \,.
+  $$
+
+* The [[quantum BV-complex]] 
+
+  $$
+    Obs^q \coloneqq (Sym \mathcal{E}^![\hbar], Q + \hbar \Delta)
+  $$
+
+  is the deformation of the above with algebra $Sym(\mathcal{E}^!)[\hbar]$ and differential $Q + \hbar \Delta$ with [[BV-Laplacian]] defined to vanish on $Sym^{\leq 1}$, to be given by 
+
+  $$
+    \Delta (\alpha \cdot \beta) \coloneqq \{\alpha,\beta\}
+  $$
+
+  for $\alpha,\beta \in \mathcal{E}^!$ and extended as a graded biderivation from there.
+
+A closed element $\mathcal{O} \in Obs^q$ is an [[observable]] and its formal [[path integral]] [[expectation value]] $\langle \mathcal{O}\rangle$ is its image in the [[cochain cohomology]] $H^\bullet Obs^q$. Via the [[homological perturbation lemma]] this may be computed in [[perturbation theory]] (order by order in $\hbar$) in terms of [[Feynman diagrams]].
+
+In a non-free field theory the differential would have an additional perturbation of the complex  by an [[interaction]] term $I$ to 
+
+$$
+  Q + \{I,-\} + \hbar \Delta
+$$
+
+[[!include action (physics) - table]]
+
+## Examples
+ {#Examples}
+
+### 0-Dimensional free field theory
+ {#0DimensionalFreeFieldTheory}
+
+A degenerate but instructive class of examples to compare to is the case where $X = *$ is the 0-dimensional connected manifold: the point. (See ([Gwilliam 2.3.1](#Gwilliam))).
+
+In this case 
+
+$$
+  E = V \oplus V^*[-1]
+$$ 
+
+is the [[direct sum]] of a vector space and its formal dual shifted in degree. The pairing is the canonical pairing between a vector space and its dual.
+
+If $\{x^i \colon V \to \mathbb{R}\}_i$ is a [[basis]] for functional on $V$ and $\{\xi_i\}$ is the corresponding basis of functions on $V^*[-1]$, then the [[antibracket]] in this case is 
+
+$$
+  \{
+    X^i, x^j
+  \}
+  = 0
+  \;\;\;
+  \{\xi_i, \xi_j\} = 0
+  \;\;\;
+  \{x^i, \x_j\} = \delta^i_j
+  \,.
+$$
+
+The [[BV-Laplacian]] in this basis is
+
+$$
+  \Delta = \sum_{i = 1}^n \frac{\partial}{\partial x^i} \frac{\partial}{\partial \xi_i}
+  \,.
+$$
+
+The [[action functional]] is a [[Gaussian distribution]] over $V$ defined by a matrix $A = (a_{i j})$. The corresponding differential is
+
+$$
+  Q = \sum_{i,j =1}^n x^i a_{i j} \frac{\partial}{\partial \xi_i}
+  \,.
+$$
+
+Hence for a field of the form
+
+$$
+  \phi = \sum_{i = 1}^n \phi^i \xi_i
+$$
+
+we have the [[action functional]]
+
+$$
+  \begin{aligned}
+    \exp(S(\phi))
+    & =
+    \exp(-\langle \phi , Q \phi\rangle)
+    \\
+    & = \exp( - \phi^i a_{k j} \phi^j \langle \xi_i, x^k   \rangle )
+    \\
+    & = \exp(- \phi^i a_{i j} \phi^j )
+  \end{aligned}
+$$
+
+
+## Related concepts
+
+* [[Gaussian probability distribution]]
+
+* [[Wick's lemma]]
+
+* [[gauge theory]]
+
+
+## References
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+ {#CostelloGwilliam}
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
+
+[[!redirects free field theories]]
+
+[[!redirects free field]]
+[[!redirects free fields]]
+
