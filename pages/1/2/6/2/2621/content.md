@@ -53,6 +53,8 @@ As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \fr
 
 * [[renormalization]]
 
+* [[Feynman diagram]]
+
 ## References
 
 ### General
