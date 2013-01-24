@@ -11,17 +11,17 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
 
-A _monoidal functor_ is a [[functor]] between [[monoidal categories]] that preserves the monoidal structure.
+A _monoidal functor_ is a [[functor]] between [[monoidal categories]] that preserves the monoidal structure: a [[homomorphism]] of monoidal categories.
 
 ## Definition ##
 
-A [[functor]] $F : C \to D$ between [[monoidal categories]] $(C,\otimes)$ and $(D,\otimes)$ is called **lax monoidal** if it is equipped with a morphism
+A [[functor]] $F : C \to D$ between [[strict monoidal category|strict]] [[monoidal categories]] $(C,\otimes)$ and $(D,\otimes)$ is called **lax monoidal** if it is equipped with a morphism
 
 $$
   \epsilon : I_D \stackrel{}{\to} F(I_C)  
@@ -85,8 +85,9 @@ In contrast to this, a strong monoidal functor may also be called a **weak monoi
 
 An __[[oplax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
-A [[monoidal transformation]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way (...).
+A [[monoidal transformation]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way.
 
+If the monoidal categories are not [[strict monoidal category|strict]] one obtains correspondingly more coherence diagrams. One way to summarize these is to note that a monoidal category $C$ is equivalently its pointed [[delooping]] [[2-category]]/[[bicategory]] $\mathbf{B}C$ (with a single [[object]] and $C$ as its [[hom-object]]), then a monoidal functor $C \to D$ is equivalently a [[2-functor]]/[[pseudofunctor]] $\mathbf{B}C \to \mathbf{B}D$. Using this one can infer the coherence diagrams as special cases from those discussed at _[[pseudofunctor]]_.
 
 ## Properties
 
