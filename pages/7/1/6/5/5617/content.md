@@ -21,14 +21,17 @@
 
 The _volume form_ on a finite-[[dimension|dimensional]] [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] $(X,g)$ is the [[differential form]] whose [[integral]] over pieces of $X$ computes the [[volume]] of $X$ as measured by the [[metric]] $g$.
 
-If the manifold is unoriented, then we get a _volume [[pseudoform]]_ instead, or equivalently a volume [[density]] (of weight $1$).
+If the manifold is unoriented, then we get a _volume [[pseudoform]]_ instead, or equivalently a volume [[density]] (of weight $1$).  We can also consider volume (pseudo)-forms in the absence of a metric, in which case we have a choice of volume forms.
 
 
 ## Definition
 
 ### General
 
-For $X$ a general [[smooth manifold]], a _volume form_ on $X$ is a non-vanishing [[density]] (of rank 1) on $X$. If $X$ is [[orientation|oriented]] then this is equivalently a non-vanishing section of the [[canonical bundle]] of $X$, hence an everywhere non-vanishing [[differential n-form]] on $X$, for $n$ the [[dimension]] of $X$.
+For $X$ a general [[smooth manifold]] of finite [[dimension]] $n$, a __volume form__ on $X$ is a nondegenerate (nowhere vanishing) differential $n$-[[differential form|form]] on $X$, equivalently a nondegenerate [[section]] of the [[canonical line bundle]] on $X$.  A __volume pseudoform__ or __volume element__ on $X$ is a positive definite [[density]] (of rank $1$) on $X$, or equivalently a positive definite differential $n$-[[pseudoform]] on $X$.
+
+A volume form defines an [[orientation]] on $X$, the one relative to which it is positive definite.  If $X$ is already oriented, then we require the orientations to agree (to have a volume form on $X$ qua oriented manifold); that is, a volume form on an oriented manifold must be positive definite (just as a volume pseudoform on any manifold must be).  In this situation, there is essentially no difference between a form and a pseudoform, hence no difference between a volume form and a volume pseudoform or volume element.
+
 
 ### For Riemannian manifolds
 
