@@ -35,9 +35,11 @@ A volume form defines an [[orientation]] on $X$, the one relative to which it is
 
 ### For Riemannian manifolds
 
-More specifically still, for $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riemannian manifold]] of [[dimension]] $n$, its **volume form** $vol_g \in \Omega^n(X)$ is the [[differential form]] of degree $n$ which measures the volume as seen by the metric $g$ in that it is characterized by any of the following equivalent statements.
+More specifically, for $(X,g)$ a (pseudo)-[[Riemannian manifold]] of [[dimension]] $n$, *the* __volume pseudoform__ or __volume element__ $vol_g$ is a specific differential $n$-[[pseudoform]] that measures the volume as seen by the metric $g$.  If $X$ is [[orientation|oriented]], then we may interpret $vol_g \in \Omega^n(X)$ as a differential $n$-form, also denoted $vol_g$.
 
-* The symmetric square $vol_g \cdot vol_g$ is equal to the $n$-fold [[wedge product]] $g \wedge \cdots \wedge g$, as elements of $\Omega^n(X) \otimes \Omega^n(X)$, and $vol_g$ is [[positive n-form|positive]].
+This $vol_g$ is characterized by any of the following equivalent statements:
+
+* The symmetric square $vol_g \cdot vol_g$ is equal to the $n$-fold [[wedge product]] $g \wedge \cdots \wedge g$, as elements of $\Omega^n(X) \otimes \Omega^n(X)$, and $vol_g$ is [[positive n-form|positive]] (meaning that its [[integral]] on any [[open submanifold]] is nonnegative).
 
 * The volume form is the image under the [[Hodge star]] operator $\star_g\colon \Omega^k(X) \to \Omega^{n-k}(X)$ of the [[smooth function]] $1 \in \Omega^0(X)$
 
@@ -46,7 +48,7 @@ More specifically still, for $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riem
     \,.
   $$
 
-* In local oriented coordinates, $vol_g = \sqrt{|det(g)|}$, where $det(g)$ is the [[determinant]] of the [[matrix]] of the coordinates of $g$.
+* In local oriented coordinates, $vol_g = \sqrt{|det(g)|}$, where $det(g)$ is the [[determinant]] of the [[matrix]] of the coordinates of $g$.  In the case of a Riemannian (not pseudo-Riemannian) metric, this simplifies to $vol_g = \sqrt{\det(g)}$.  (Note that local coordinates for a pseudoform include a local orientation, so this makes sense regardless of whether $X$ is oriented.)
 
 * For $(E, \Omega)\colon T X \to iso(n)$ the [[Lie algebra valued differential form]] on $X$ with values in the [[Poincare Lie algebra]] $iso(n)$ that encodes the metric and orientation (the _[[spin connection]]_ $\Omega$ with the _[[vielbein]]_ $E$), the volume form is the image of $(E,\Omega)$ under the canonical volume [[Lie algebra cohomology|Lie algebra cocycle]] $vol \in CE(iso(n))$:
 
@@ -58,15 +60,23 @@ More specifically still, for $(X,g)$ an [[orientation|oriented]] (pseudo)-[[Riem
   See [[Poincare Lie algebra]] for more on this.
 
 
-### For unoriented manifolds
+### Degenerate cases
 
-If $(X,g)$ is unoriented, then the definitions above don't quite make sense, but (at least) the first three can be reinterpreted to give an $n$-[[pseudoform]] instead, the __volume pseudoform__, or __volume element__.  (Whether a pseudoform is positive is independent of the orientation, the Hodge operator still takes forms to pseudoforms, and local coordinates for a pseudoform include a local orientation.)
+If we allow a volume (pseudo)form to be degenerate, then most of this goes through unchanged.  In particular, a degenerate (pseudo)-[[Riemannian metric]] defines a degenerate volume pseudoform (and hence a degenerate volume form on an oriented manifold).
 
-The concept of volume (pseudo)-form can also be axiomatised: on any $n$-dimensional manifold, a __volume form__ is any $n$-form that is [[positive n-form|positive]] (meaning that its [[integral]] on any [[open subset|open]] [[submanifold]] is nonnegative) and nondegenerate (meaning that it's nowhere zero).  Altogether, we may say that its integral on any [[inhabited subset|inhabited]] open submanifold is (strictly) positive.  Such a structure is actually equivalent to an [[absolutely continuous measure|absolutely continuous]] positive [[Radon measure]] on $X$.
+However, a degenerate $n$-form $\omega$ does not specify an orientation in general, so there is not necessarily a good notion of volume form on an unoriented manifold.  On the other hand, if the open submanifold on which $\omega \ne 0$ is [[dense subspace|dense]], then there is at most one compatible orientation, although there still may be none.  Of course, on an oriented manifold, forms are equivalent to pseudoforms, so we still know what a degenerate volume form is there.
 
-If $X$ is unoriented, then we can only integrate $n$-pseudoforms, so we can only axiomatise the concept of volume pseudoform.  On the other hand, if we equip $X$ with a nondegenerate $n$-form $vol$, then there is a unique orientation $o$ on $X$ such that $vol$ is positive and therefore (relative to $o$) a volume form.  (Nondegeneracy is vital here.)
+To remove the requirement of positivity is much more drastic; an arbitrary $n$-pseudoform is simply a $1$-[[density]] (and an arbitrary $n$-form is a $1$-pseudodensity).  This is at best a notion of *signed* volume, rather than volume.
+
+
+## Properties
+
+Since an $n$-(pseudo)form is [[positive n-form|positive]] iff its [[integration of differential forms|integral]] on any [[open submanifold]] is nonnegative and nondegenerate iff its integral on sufficiently small [[inhabited subspace|inhabited]] open submanifolds is nonzero, a volume (pseudo)form may be defined as one whose integral on any inhabited open submanifold is (strictly) positive.
+
+A volume (pseudo)form is also equivalent to an [[absolutely continuous measure|absolutely continuous]] positive [[Radon measure]] on $X$.  Here, nondegeneracy corresponds precisely to absolute continuity.
 
 If I remember correctly, every volume (pseudo)form comes from a metric, which is unique iff $n \leq 1$.
+
 
 ## Related concepts
 
