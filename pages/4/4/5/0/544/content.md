@@ -156,6 +156,9 @@ See [[ring spectrum]] and [[algebra spectrum]].
 
 [[!include k-monoidal table]]
 
+[[!include deformation quantization - table]]
+
+
 ## References
 
 A survey of $A_\infty$-algebras in chain complexes is in
