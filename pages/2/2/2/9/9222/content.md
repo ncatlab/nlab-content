@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] (possibly degenerate) of $n$-[[hypercubes]].  After a choice of [[orientation]] (if one exists) a density (if nondegenerate) is equivalently a _[[volume form]]_.
+A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] (in general signed, and possibly degenerate) of $n$-[[hypercubes]].  A positive definite density is equivalently a _[[volume element]]_ (or a volume form on an [[orientation|oriented]] manifold).
 
 
 ## Definition
