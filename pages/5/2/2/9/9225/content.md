@@ -5,6 +5,8 @@
 
 ## Idea
 
+An [[algebra over an operad]] over the [[BD operad]].
+
 For the moment see at _[[BV-complex]]_
 
 ## Definition
@@ -22,9 +24,21 @@ A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[g
 
 In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
 
+## Related concepts
+
+[[!include deformation quantization - table]]
+
 ## References
 
-A discussion is in
+The notion was introduced in
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+
+A discussion is in section 2.4 of
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
+
+See also
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
