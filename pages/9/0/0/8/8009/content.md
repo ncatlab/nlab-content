@@ -1,5 +1,5 @@
 
-The [[Isbell duality|duality]] between [[algebra]] and [[geometry]] and its incarnations in formulations of [[physics]]:
+**[[Isbell duality|duality]] between [[algebra]] and [[geometry]] in [[physics]]**:
 
 | [[algebra]] | [[geometry]] |
 |--|--|
