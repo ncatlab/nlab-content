@@ -61,6 +61,8 @@ Conversely, this functor has a [[derived functor|derived]] [[left adjoint]] whic
 
 [[!include Isbell duality - table]]
 
+[[!include deformation quantization - table]]
+
 
 ## References
 
@@ -80,6 +82,17 @@ and for further references along these lines see at _[[factorization algebra]]_.
 [[!redirects Poisson 1-algebra]]
 [[!redirects Poisson 2-algebra]]
 [[!redirects Poisson 3-algebra]]
+
+[[!redirects P-n algebra]]
+[[!redirects P-0 algebra]]
+[[!redirects P-1 algebra]]
+[[!redirects P-2 algebra]]
+
+[[!redirects P-n algebras]]
+[[!redirects P-0 algebras]]
+[[!redirects P-1 algebras]]
+[[!redirects P-2 algebras]]
+
 
 [[!redirects Poisson 0-algebras]]
 [[!redirects Poisson 1-algebras]]
