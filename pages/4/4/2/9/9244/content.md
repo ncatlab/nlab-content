@@ -34,16 +34,18 @@ The [[left adjoint]] $\mathcal{U}_n$ sends an [[L-∞ algebra]] to its _universa
 
 Aspects of this are mentioned in the context of [[factorization homology]] in section 5 of 
 
-* [[John Francis]], _Factorization homology of topological manifolds_
+* [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
 
-and more specifically in the context of [[factorization algebras of observables]] in remark 4.5.5 of 
+and more specifically in the context of [[factorization algebras of observables]] around remark 4.5.5 of 
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
 
+The fact that $\mathcal{U}_1$ reproduces the traditional [[universal enveloping algebra]] of a Lie algebra is prop. 4.6.1 in ([Gwilliam](#Gwilliam)).
+
 See also
 
-* [[John Francis]], [[Dennis Gaitsgory]], _Chiral Koszul duality_ ([arXiv](http://arxiv.org/abs/1103.5803))
+* [[John Francis]], [[Dennis Gaitsgory]], _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
 
 
 [[!redirects universal enveloping E-n algebras]]
