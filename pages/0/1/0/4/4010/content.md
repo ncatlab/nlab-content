@@ -74,3 +74,6 @@ Any introductory textbook about [[quantum mechanics]] will explain the Schr&#246
 * Wikipedia: [Schr&#246;dinger equation] (http://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
 
 [[!redirects Schrödinger's equation]]
+
+[[!redirects Schroedinger equation]]
+[[!redirects Schroedinger's equation]]
