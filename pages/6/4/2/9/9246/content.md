@@ -1,8 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A _renormalization scheme_ is an method in [[renormalization]] theory for systematically producing [[counterterms]] for a given [[local Lagrangian]].
+In the context of [[quantum field theory]], a _renormalization scheme_ is an method in [[renormalization]] of [[local Lagrangian]] theory for systematically producing [[counterterms]].
 
 A choice of renormalization scheme amounts to a choice of decomposition, as [[vector spaces]] of $C^\infty((0,\infty))$ as a [[direct sum]] $C^\infty([0,\infty)) \oplus Sing$, where $Sing$ is a space of functions that are singular at 0.
+
+## References
+
+For instance def. 1.4.1 in 
+
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv](http://arxiv.org/abs/0706.1533))
 
 [[!redirects renormalization schemes]]
