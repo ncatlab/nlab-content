@@ -185,7 +185,7 @@ $$
 
 where the [[field (physics)|fields]] $\phi$ are sections of a graded [[field bundle]] on which $Q$ is a [[differential]], $\langle -,-\rangle$ a compatible [[antibracket]] pairing and $I$ is an [[interaction]] that is at least cubic. These are action functionals that are well adapted to [[BV-BRST formalism]] and for which there is a [[quantization]] to a [[factorization algebra of observables]].
 
-Most of the fundamental [[theory (physics)|theories]] in [[physics]] are of this form, notably [[Yang-Mills theory]]. In particular also all theories of [[schreiber:infinity-Chern-Simons theory]]-type are perturbatively of this form, notably ordinary [[Chern-Simons theory]].
+Most of the fundamental [[theory (physics)|theories]] in [[physics]] are of this form, notably [[Yang-Mills theory]]. In particular also all theories of [[schreiber:infinity-Chern-Simons theory]]-type coming from binary [[invariant polynomials]] are perturbatively of this form, notably ordinary [[Chern-Simons theory]].
 
 For comparison with the other renormalization schemes, see at ([Costello 07, section 1.7](#Costello)).
 
