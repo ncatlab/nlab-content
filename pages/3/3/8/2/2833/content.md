@@ -1,10 +1,20 @@
 
 * [website](http://www.math.northwestern.edu/~costello/)
 
-# related $n$Lab entries #
+## Some publications
 
-* [[factorization algebra]]
+
+* Kevin Costello, _[[Renormalization and Effective Field Theory]]_
+
+* Kevin Costello, [[Owen Gwilliam]], _[[Factorization algebras in perturbative quantum field theory]]_
+
+## related $n$Lab entries 
 
 * [[TCFT]]
+
+* [[factorization algebra of observables]]
+
+* [[renormalization]], [[effective field theory]]
+
 
 category: people
