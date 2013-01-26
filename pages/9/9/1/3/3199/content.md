@@ -46,6 +46,10 @@ $K_t(x,y):E_y\to E_x$ is a linear map for all $x,y$ and $t$. Of course, one need
 The [[Schrödinger equation]] without potential term is similar to the 
 [[heat equation]] (there is an additional $\sqrt{-1}$); hence its fundamental solution is similar. The heat equation on the other hand can describe [[diffusion]]. Therefore also the similarity in the [[path integral]] description: the [[Wiener measure]] [[integral]] describes diffusion using [[Brownian motion]], similarly the Feynman path integral (for a finite-dimensional system) describes [[quantum mechanics]]; many points in the standard calculations are parallel. 
 
+## Related concepts
+
+* [[Laplace operator]]
+
 ## References
 
 A standard textbook account is
