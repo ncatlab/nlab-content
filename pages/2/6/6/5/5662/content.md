@@ -1,10 +1,49 @@
 
-Related entries include: [[harmonic form]], [[Hodge theory]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
 
-MathOverflow: [why-is-the-laplacian-ubiquitous](http://mathoverflow.net/questions/54986/why-is-the-laplacian-ubiquitous)
+#Contents#
+* table of contents
+{:toc}
+
+## Related entries
+
+* [[heat kernel]]
+
+* [[harmonic form]], [[Hodge theory]]
+
+## References
+
+Lecture notes include
+
+* [[Masoud Khalkhali]], _The Laplace operator_ ([pdf](http://www.math.uwo.ca/~masoud/files/wagleyPresentation.pdf))
+
+A standard textbook account is in 
+
+* [[Nicole Berline]], [[Ezra Getzler]], [[Michele Vergne]], _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
+
+
+See also
+
+* MathOverflow: [why-is-the-laplacian-ubiquitous](http://mathoverflow.net/questions/54986/why-is-the-laplacian-ubiquitous)
 
 [[!redirects Laplacian]]
 [[!redirects Laplace operators]]
 
 [[!redirects Laplace-Beltrami operator]]
 [[!redirects Laplace-Beltrami operators]]
+
+[[!redirects generalized Laplace operator]]
+[[!redirects generalized Laplace operators]]
+
