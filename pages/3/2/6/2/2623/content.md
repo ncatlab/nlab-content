@@ -197,6 +197,376 @@ Most of the fundamental [[theory (physics)|theories]] in [[physics]] are of this
 
 For comparison with the other renormalization schemes, see at ([Costello 07, section 1.7](#Costello)).
 
+1. [The setup](#TheSetup)
+
+1. [Operator (heat) kernels and propagators](#OperatorKernelsAndPropagators)
+
+1. [The renormalization group operator](#TheRenormalizationGroupOperator)
+
+1. [The path integral](#ThePathIntegral)
+
+1. [Renormalized action]{#RenormalizedAction}
+
+1. [Renormalization](#Renormalization)
+
+#### The setup
+ {#TheSetup}
+
++-- {: .num_defn }
+###### Definition
+
+A **[[free field theory]]** $(E, \langle, -,-\rangle. Q)$:
+
+**[[kinematics]]**:
+
+* A [[smooth manifold]] $X$ ("[[spacetime]]"/"[[worldvolume]]");
+
+* a $\mathbb{Z}$-[[graded object|graded]] [[complex numbers|complex]] [[vector bundle]] $E \to X$ (the "[[field bundle]]" containing also in general [[antifields]] and [[ghosts]]);
+
+* equipped with a [[bundle]] [[homomorphism]] (the "[[antibracket]] [[density]]")
+
+  $$
+    \langle -,-\rangle_{loc} \;\colon\; E \times E \to Dens_X
+  $$
+
+  from the fiberwise [[tensor product]] of $E$ with itself to the compex [[density bundle]] which is fiberwise
+
+  * non-degenerate
+
+  * anti-symmetric
+
+  * of degree -1
+
+Write $\mathcal{E}_c \coloneqq \Gamma_{cp}(E)$ for the space of [[sections]] of the [[field bundle]] of [[compact support]]. Write
+
+$$
+  \langle -,-\rangle
+  \;\colon\;
+  \mathcal{E}_c
+  \otimes
+  \mathcal{E}_c
+  \to 
+  \mathbb{C}
+$$
+
+for the induced pairing on sections
+
+$$
+  \langle \phi, \psi\rangle
+  =
+  \int_{x \in X} \langle \phi(x), \psi(x)\rangle_{loc}
+  \,.
+$$
+
+The paring being non-degenerate means that we have an [[isomorphism]] $E \stackrel{\simeq}{\to} E^* \otimes Dens_X$ and we write
+
+$$
+  E^! \coloneqq E^* \otimes Dens_X
+  \,.
+$$
+
+**[[dynamics]]**
+
+* A [[differential operator]] on sections of the [[field bundle]] 
+
+  $$
+    Q \;\colon\; \mathcal{E} \to \mathcal{C}
+  $$
+ 
+  of degree 1 such that
+
+  1. $(\mathcal{E}, Q)$ is an [[elliptic complex]];
+
+  1. $Q$ is [[self-adjoint operator|self-adjoint]] with respect to $\langle -,-\rangle$ in that for all [[field (physics)|fields]] $\phi,\psi \in \mathcal{E}_c$ of homogeneous degree we have $\langle \phi , Q \psi\rangle = (-1)^{{\vert \phi\vert}} \langle Q \phi, \psi\rangle$.
+
+From this data we obtain:
+
+* The [[action functional]] $S \colon \mathcal{E}_c \to \mathbb{C}$ of this corresponding free field theory is
+
+  $$
+    S \;\colon\; \phi \mapsto \int_X \langle \phi, Q \phi\rangle
+    \,.
+  $$
+
+* The [[classical BV-complex]] is the [[symmetric algebra]] $Sym  \mathcal{E}^!$ of sections of $E^!$ equipped with the induced action of the differential $Q$ and the pairing 
+
+  $$ 
+    \{\alpha,\beta\} \coloneqq  \int_{x \in X} \langle \alpha(x), \beta(x)\rangle
+    \,.
+  $$
+
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+An **[[interaction]]** term $I \in \cdots$
+
+(...)
+
+=--
+
++-- {: .num_defn #LaplaceOperatorFromGaugeFixing}
+###### Definition
+
+A **[[gauge fixing operator]]** $Q^{GF}$ such that
+
+$$
+  H \coloneqq [Q, Q^{GF}]
+$$
+
+is a [[generalized Laplace operator]].
+
+=--
+
+#### Operator (heat) kernels and propagators
+ {#OperatorKernelsAndPropagators}
+
++-- {: .num_defn #ConvolutionOfOperatorKernel}
+###### Definition
+
+For $K = \sum K' \otimes K'' \in \mathcal{E} \otimes \mathcal{E}$ the corresponding **convolution operator** $K \star \colon \mathcal{E} \to \mathcal{E}$ is
+
+$$
+  K \star e  = (-1)^{\vert e\vert} \sum K' \otimes \langle K'', e\rangle
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #HeatKernel}
+###### Definition
+
+
+For $H \colon \mathcal{E} \to \mathcal{E}$ a [[linear operator]], a **[[heat kernel]]** for it is a [[function]] $K_{(-)} \colon \mathbb{R}_{\gt 0} \to \mathcal{E}\otimes \mathcal{E}$ such that for each $t \in \mathbb{R}_{\gt 0}$ the convolution with $K_t$, def. \ref{ConvolutionOfOperatorKernel}, reproduces the exponential of $t\cdotH$:
+
+$$
+  K_t \star = \exp(-t H) \;\;\;\;\; \forall t \in \mathbb{R}_{\gt 0}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #UniquenessOfHeatKernel}
+###### Proposition
+
+For $H$ a [[generalized Laplace operator]] such as the $[Q,Q^{GF}]$ of def. \ref{LaplaceOperatorFromGaugeFixing} there is a unique [[heat kernel]] which is moreover a [[smooth function]] of $t$.
+
+=--
+
++-- {: .num_defn #DifferentialOperatorByKernel}
+###### Definition
+
+For $\phi =  \sum \phi' \otimes \phi'' \in Sym^2 \mathcal{E}$ write
+
+$$
+  \partial_{\phi}
+  \coloneqq
+  \frac{1}{2}
+  \sum \partial_{\phi''} \partial_{\phi'}  
+  \,.
+$$
+
+=--
+
+This is ([Costello 07, p. 32](#Costello)).
+
++-- {: .num_prop }
+###### Proposition
+
+$$
+  [\partial_\phi, Q] = \partial_{Q \phi}
+  \,.
+$$
+
+=--
+
+#### The renormalization group operator
+ {#TheRenormalizationGroupOperator}
+
++-- {: .num_defn}
+###### Definition
+
+For $Q^{GF}$ the [[gauge fixing operator]] of def. \ref{LaplaceOperatorFromGaugeFixing}, and $K_t$ the [[heat kernel]] of the corresponding [[generalized Laplace operator]] $H = [Q, Q^{GF}]$ by prop. \ref{UniquenessOfHeatKernel}, write for $\epsilon, T \in \mathbb{R}_{\gt 0}$
+
+$$
+  P(\epsilon, T)
+  \coloneqq
+  \int_{\epsilon}^T
+  (Q^{GF} \otimes 1)
+  K_t \; d t
+  \;\;\;\;\;
+  \in \mathcal{E} \otimes \mathcal{E}\,.
+$$
+
+=--
+
+([Costello 07, p. 33](#Costello))
+
++-- {: .num_defn #RenormalizationOperator}
+###### Definition
+
+Write
+
+$$
+  \Gamma(P(\epsilon,T), S)
+  \coloneqq
+  \hbar log
+  \left(
+   \exp\left(\hbar \partial_{P(\epsilon,T)}\right)
+   \exp\left(I/\hbar\right)
+  \right) 
+  \;\;
+  \in \mathcal{O}(\mathcal{E}, \mathbb{C}[ [ \hbar ] ])
+  \,,
+$$
+
+where $\partial_{\cdots}$ is given by def. \ref{DifferentialOperatorByKernel}.
+
+=--
+
+([Costello 07, def. 6.6.1](#Costello))
+
+#### The path integral
+ {#ThePathIntegral}
+
++-- {: .num_prop #PathIntegralByLimitInDimension0}
+###### Proposition
+
+If $X = *$ is the [[point]], then the [[path integral]] over the [[action functional]] exists as an ordinary [[integral]] and is equal to
+
+$$
+  \hbar log
+  \int_{x \in (Im Q^{GF})_{\mathbb{R}}}
+  \exp\left(
+    \tfrac{1}{2} \langle x, Q x\rangle
+    + 
+    I(x + a) d \mu
+  \right)
+  = 
+  \Gamma(P(0,\infty), I)(a)
+$$
+
+=--
+
+This is ([Costello 07, lemma 6.6.2](#Costello)).
+
++-- {: .num_remark}
+###### Remark
+
+For $X$ of positive [[dimension]], the [[limit]]
+
+
+$$
+  \underset{\epsilon \to 0}{\lim}
+  \Gamma(P(\epsilon,\infty), I)(a)
+$$
+
+does not in general exist. Renormalization is the process of adding $\hbar$-corrections to the action -- the [[counterterms]] -- such as to make it exist after all. In this case we may regard the limit, by prop. \ref{PathIntegralByLimitInDimension0}, as the _definition_ of the [[path integral]].
+
+=--
+
+#### Renormalized action
+ {#RenormalizedAction}
+
++-- {: .num_defn #RenormalizedActionAndCounterterms}
+###### Definition
+
+Given the [[action functional]] $S \colon \phi \mapsto \frac{1}{2}\langle \phi, Q phi\rangle + I(\phi)$, a **renormalization** is a [[power series]]
+
+$$
+  I^R(\hbar, \epsilon)
+  = 
+  I(\hbar)
+  -
+  \underset{{i \gt 0} \atop  { k \geq k}}{\sum}
+  \hbar^i I^{CT}_{i,k}(\epsilon)
+$$
+
+such that the [[limit]] 
+
+$$
+  \underset{\epsilon \to 0}{\lim}
+  \Gamma(P(\epsilon,T), I^R(\epsilon))
+  \,,
+$$
+
+by def. \ref{RenormalizationOperator}, exists.
+
+=--
+
+The $I^{CT}_{i,k}$ are called the _[[counterterms]]_.
+
+#### Renormalization
+ {#Renormalization}
+
++-- {: .num_defn #RenormalizationScheme}
+###### Definition
+
+A [[renormalization scheme]] is a decomposition of functions $\mathcal{A}$ on $(0,1)$, as a [[vector space]], into a [[direct sum]]
+
+$$
+  \mathcal{A} \simeq \mathcal{A}_{\geq 0} \oplus \mathcal{A}_{\gt 0}
+$$
+
+such that the functions $f \in \mathcal{A}_{\geq 0}$ are non-singular in that $\underset{\epsilon \to 0}{\lim} f(\epsilon)$ exists.
+
+=--
+
+Hence this is a choice of picking the [[singularities]] in functions that are not necessarily defined at $\epsilon = 0$.
+
++-- {: .num_theorem}
+###### Theorem
+
+Given any choice of [[renormalization scheme]], def. \ref{RenormalizationScheme}, there exists a unique choice of [[counterterms]] $\{I^{CT}_{k,i}\}$, def. \ref{RenormalizedActionAndCounterterms} such that
+
+* each counterterm is in the chosen $\mathcal{A}_{\gt 0}$ as a function of $\epsilon$;
+
+* for $k \gt 0$ the [[germ]] of a counterterm at $x \in X$ depends only on the [[germ]] of the given field theory data $(E, Q, Q^{GF})$ at that point.
+
+=--
+
+This is ([Costello 07, theorem B, p. 38](#Costello)).
+
++-- {: .num_defn}
+###### Definition
+
+Given a renormalization $I^{R}$, write for all $T \in \mathbb{R}_{\ht 0}$
+
+$$
+  \Gamma^R(P(0,T), I)
+  \coloneqq
+  \underset{\epsilon \to 0}{\to}
+  \Gamma(P(\epsilon, R), I - I^{CT}(\epsilon))
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We think of $\Gamma^R(P(0,T), I)$ as the renormalized [[effective action]] of the original action at [[scale]] $T$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[renormalization group flow]] 
+
+$$
+  \Gamma^R(P(0,T'), I)
+  = 
+  \Gamma(P(T,T'), \; \Gamma^R(P(0,T), I ))
+$$
+
+holds.
+
+=--
+
+([Costello 07, lemma 9.0.6](#Costellon)).
 
 ## Related concepts
 
