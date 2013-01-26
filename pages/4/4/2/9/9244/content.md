@@ -32,7 +32,7 @@ The [[left adjoint]] $\mathcal{U}_n$ sends an [[L-∞ algebra]] to its _universa
 
 ## References
 
-Aspects of this are mentioned in the context of [[factorization homology]] in section 5 of 
+Aspects of this are mentioned in the context of [[factorization homology]] in section 5 and in particular around the bottom of p. 18 in
 
 * [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
 
