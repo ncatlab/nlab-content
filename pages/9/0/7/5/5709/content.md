@@ -148,6 +148,8 @@ Comments on this point are also in
 
   * _[Effective field theory and gravity](http://golem.ph.utexas.edu/~distler/blog/archives/001255.html)_
 
+* [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_
+
 [[!redirects effective quantum field theories]]
 
 [[!redirects effective QFT]]
