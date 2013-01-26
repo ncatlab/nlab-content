@@ -182,7 +182,7 @@ A review is in
 
 A modern mathematical account in terms of [[BV-BRST formalism]] and related to [[factorization algebras of observables]] is in 
 
-* [[Kevin Costello]], _Renormalization and Effective Field Theory_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
+* [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
 
 with precursors in 
 
