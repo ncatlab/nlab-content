@@ -1,8 +1,39 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[field (physics)|field]] [[theory (physics)|physics]] called _holomorphic Chern-Simons theory_ is a variant of [[Chern-Simons theory]] where instead of [[Lie algebra valued differential forms]] on a real odd-[[dimension|dimensional]] [[manifold]] the [[field (physics)|fields]] are [[holomorphic differential forms]] with values in a [[Lie algebra]] on a complex odd-dimensional manifold, the [[action functional]] otherwise having the same structure as for standard [[Chern-Simons theory]].
 
 ## References
 
-Discussion in terms of [[factorization algebras of observables]] is in section 6.1.3 of 
+Discussion in terms of [[factorization algebras of observables]] is in
+
+section 5.3 of 
+
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
+
+and section 6.1.3 of 
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
