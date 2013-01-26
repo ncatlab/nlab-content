@@ -438,7 +438,7 @@ We discuss the _BV differential_ as a homological implementation of [[integratio
 
 We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]] and how, by extention, this allows to interpret the BV-complex as a means for defining ([[path integral|path]]-)[[integration]] over general [[configuration spaces]] of [[field (physics)|fields]] by passing to BV-[[cochain cohomology]]. 
 
-(The interpretation of the BV-differential as the dual de Rham differential necessary for this is due to ([Witten 90](#Witten90)). A particularly clear-sighted account of the general relation is in [Gwilliam 2013](#Gwilliam) ). 
+(The interpretation of the BV-differential as the dual de Rham differential necessary for this is due to ([Witten 90](#Witten90)) ([Schwarz 92](#Schwarz92)). A particularly clear-sighted account of the general relation is in [Gwilliam 2013](#Gwilliam) ). 
 
 Further [below](#PoincareDualityOnHochschild) we discuss the generalization of these relation in terms of [[Poincaré duality]] on [[Hochschild cohomology|Hochschild (co)homology]].
 
@@ -910,6 +910,9 @@ The interpretation of the BV quantum master equation as a description of closed 
 
 * [[Edward Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
 {#Witten90}
+
+* [[Albert Schwarz]], _Geometry of Batalin-Vilkovisky quantization_ ([arXiv:hep-th/9205088](http://arxiv.org/abs/hep-th/9205088))
+ {#Schwarz92}
 
 This isomorphisms between the [[de Rham complex]] and the complex of [[polyvector field]]s is reviewed for instance on p. 3 of
 
