@@ -114,5 +114,6 @@ See also [[examples in topology]].
 
 ###Computational Topology
 
-* [[sources in computational topology]]
+* [[computational topology]]
 * [[topological data analysis]]
+* [[sources in computational topology]]
