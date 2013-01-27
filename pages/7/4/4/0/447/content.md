@@ -98,11 +98,11 @@ In this section we consider topological [geometric realization of simplicial set
 
 ### Realizations are CW complexes ### 
 
-Each $|X|$ is a CW complex (proof to be inserted), and so geometric realization $|(-)|: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
+Each ${|X|}$ is a CW complex (proof to be inserted), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
 
 +-- {: .un_prop} 
 ######Proposition
-For any simplicial set $X$, there is a natural isomorphism $i(\int^{n: \Delta} X(n) \cdot \sigma(n)) \cong |X|$, where the coend on the left is computed in $Space$. 
+For any simplicial set $X$, there is a natural isomorphism $i(\int^{n: \Delta} X(n) \cdot \sigma(n)) \cong {|X|}$, where the coend on the left is computed in $Space$. 
 =-- 
 
 This is obvious: more generally, if $F: J \to A$ is a diagram and $i: A \hookrightarrow B$ is a full replete subcategory, and if the colimit in $B$ of $i \circ F$ lands in $A$, then this is also the colimit of $F$ in $A$. 
@@ -120,22 +120,19 @@ is a left [[exact functor]] in that it preserves finite [[limit]]s.
 
 It is important that we use some such niceness assumption, because for example 
 
-$$|(-)|: Set^{\Delta^{op}} \to Top,$$
+$${|(-)|}: Set^{\Delta^{op}} \to Top,$$
 
-valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k: Haus \to CGHaus$. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that $|X \times Y| \cong |X| \times_k |Y| \coloneqq k(|X| \times |Y|)$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
+valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k: Haus \to CGHaus$. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that ${|X \times Y|} \cong {|X|} \times_k {|Y|} \coloneqq k({|X|} \times {|Y|})$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
 
-+-- {: .un_lem}
-######Lemma 
-If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$ is a closed subspace inclusion. 
-=-- 
+Please note that $R$ denotes the geometric realization functor considered as being valued in a convenient category of spaces, whereas ${|(-)|}$ is geometric realization viewed as taking values in $Top$. 
 
-+-- {: .un_thm} 
-######Theorem 
++-- {: .num_theorem #leftexact} 
+###### Theorem 
 Let $U = \hom(1, -): Space \to Set$ be the underlying-set functor. Then the composite $U R: Set^{\Delta^{op}} \to Set$ is left exact. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 As described at the nLab article on triangulation [here](http://ncatlab.org/nlab/show/triangulation#standard_affine_simplex_functor_3), the composite 
 $$\Delta \stackrel{\sigma}{\to} Space \stackrel{U}{\to} Set$$ 
 can be described as the functor 
@@ -147,39 +144,64 @@ is left exact.
 
 Obviously the preceding proof is not sensitive to whether we use $Space$ or $Top$. 
 
-+-- {: .un_cor}
-######Corollary
+#### Geometric realization preserves equalizers 
+
++-- {: .num_lemma #mono}
+######Lemma 
+If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$ is a closed subspace inclusion. 
+=-- 
+
+
++-- {: .num_corollary}
+###### Corollary
 $R: Set^{\Delta^{op}} \to Space$ preserves equalizers. 
 =--
 
 +-- {: .proof} 
-######Proof
+###### Proof
 The equalizer of a pair of maps in $Top$ is computed as the equalizer on the level of underlying sets, equipped with the subspace topology. So if 
 $$E \stackrel{i}{\to} X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y$$ 
-is an equalizer diagram in $Set^{\Delta^{op}}$, then $|i|$ is the equalizer of the pair $|f|$, $|g|$, because the underlying function $U(|i|)$ is the equalizer of $U(|f|)$, $U(|g|)$ on the underlying set level by the preceding theorem, and because $|i|$ is a (closed) subspace inclusion by the lemma. But this $Top$-equalizer $|i|: |E| \to |X|$ lives in the full subcategory $Space$, and therefore $R(i) = |i|$ is the equalizer of the pair $R(f) = |f|$, $R(g) = |g|$. 
+is an equalizer diagram in $Set^{\Delta^{op}}$, then ${|i|}$ is the equalizer of the pair ${|f|}$, ${|g|}$, because the underlying function $U({|i|})$ is the equalizer of $U({|f|})$, $U({|g|})$ on the underlying set level by the preceding theorem, and because ${|i|}$ is a (closed) subspace inclusion by the lemma. But this $Top$-equalizer ${{|i|}}: {{|E|}} \to {{|X|}}$ lives in the full subcategory $Space$, and therefore $R(i) = {|i|}$ is the equalizer of the pair $R(f) = {|f|}$, $R(g) = {|g|}$. 
 =-- 
 
-As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. However, the following theorem _is_ sensitive to such issues, and in fact uses cartesian closure of $Space$ in an essential way. 
+As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. 
+
+#### Geometric realization preserves finite products
+
+That geometric realization preserves products _is_ sensitive to whether we think of it as valued in $Top$ or in a convenient category $Space$. In particular, the proof uses cartesian closure of $Space$ in an essential way (in the form that finite products distribute over arbitrary colimits). 
 
 First, a small technical result about simplicial sets. 
 
-+-- {: .un_lem}
-######Lemma 
++-- {: .num_lemma #product}
+###### Lemma 
 The product of two representables $\Delta(-, m) \times \Delta(-, n)$ is the colimit of a finite diagram of representables, i.e., is the quotient of a finite coproduct of representables. 
 =--
 
-+-- {: .un_thm} 
-######Theorem 
++-- {: .num_lemma #canonical} 
+###### Lemma 
+The canonical map 
+$${|\Delta(-, m) \times \Delta(-, n)|} \to {|\Delta(-, m)|} \times {|\Delta(-, n)|}$$ 
+is a homeomorphism.
+=-- 
+
++-- {: .proof} 
+###### Proof
+The canonical map is continuous, and a bijection at the underlying set level by the theorem above. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact: by lemma \ref{product}, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
+=-- 
+
++-- {: .un_remark} 
+###### Remark 
+The key properties of $I$ needed for this subsection are (1) the fact it is compact Hausdorff, and (2) the order relation $\leq$ on the interval $I$ defines a closed subset of $I \times I$. These properties ensure that the affine $n$-simplex $\{(x_1, \ldots, x_n) \in I^n: x_1 \leq \ldots \leq x_n\}$ is itself compact Hausdorff, so that the proof of lemma \ref{canonical} goes through. The point is that in place of $I$, we can really use any interval $L$ that satisfies these properties, thus defining an $L$-based geometric realization instead of the standard ($I$-based) geometric realization being developed here. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
 The functor $R: Set^{\Delta^{op}} \to Space$ preserves products. 
 =-- 
 
 +-- {: .proof} 
-######Proof
-First we prove that the canonical map 
-$$|\Delta(-, m) \times \Delta(-, n)| \to |\Delta(-, m)| \times |\Delta(-, n)|$$ 
-is a homeomorphism. Indeed, this is continuous, and a bijection at the underlying set level by the theorem above. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact Hausdorff: by the lemma, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection between compact Hausdorff spaces is a homeomorphism. 
-
-More generally, suppose $X$ and $Y$ are simplicial sets. By the [[co-Yoneda lemma]], we have isomorphisms 
+###### Proof 
+The proof is purely formal. Let $X$ and $Y$ be simplicial sets. By the [[co-Yoneda lemma]], we have isomorphisms 
 $$X \cong \int^m X(m) \cdot \Delta(-, m)  \qquad Y \cong \int^n Y(n) \cdot \Delta(-, n)$$ 
 and so we calculate 
 $$\array{
@@ -191,7 +213,7 @@ R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, n)) \times (\int^n Y(n) \
  & \cong & (\int^m X(m) \cdot \sigma(m)) \times (\int^n Y(n) \cdot \sigma(n)) \\
  & \cong & R(X) \times R(Y)
 }$$ 
-where in each of the second and penultimate lines, we twice used the fact that $- \times -$ preserves colimits in its separate arguments (i.e., the fact that the nice category $Space$ is cartesian closed), and the remaining lines used the fact that $R$ preserves colimits, and also products of representables by the first paragraph of this proof. 
+where in each of the second and penultimate lines, we twice used the fact that $- \times -$ preserves colimits in its separate arguments (i.e., the fact that the nice category $Space$ is cartesian closed), and the remaining lines used the fact that $R$ preserves colimits, and also products of representables by lemma \ref{canonical}. 
 =--
 
 * A slightly higher-level rendition of the proof might look like this: 
