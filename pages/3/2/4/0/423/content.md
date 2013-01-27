@@ -110,3 +110,9 @@ See also [[examples in topology]].
 * [[simplicial presheaf]], [[local model structure on simplicial presheaves]], [[local model structure on simplicial sheaves]]
 * [[marked simplicial set]], [[model structure on marked simplicial over-sets]], [[infinity topos]], [[Higher Topos Theory]]
 * [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]], [[cellular set]], [[cyclic object]], [[Theta space]]
+
+
+###Computational Topology
+
+* [[sources in computational topology]]
+* [[topological data analysis]]
