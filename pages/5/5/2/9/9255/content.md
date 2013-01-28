@@ -5,7 +5,7 @@
 
 ## Books
 
-* H.  Edelsbrunner and J.L Harer, _[[Computational Topology: An Introduction]]_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69))
+* H.  Edelsbrunner and J.L Harer, _[[Computational Topology, An Introduction]]_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69))
 
 * A. Zomorodian, _Topology for Computing_, Cambridge University Press, 2005, [publishers' webpage](http://www.cambridge.org/gb/knowledge/isbn/item1171674/?site_locale=en_GB)
 
