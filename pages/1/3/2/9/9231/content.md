@@ -36,7 +36,16 @@ $$
 
 The [[mean]] of this distribution is $\vec{0}$; for a distribution with mean $\vec{c}$, replace $\langle{\vec{x},A \vec{x}}\rangle$ with $\langle{\vec{x} - \vec{c},A \vec{x} - A \vec{c}}\rangle$.
 
-The matrix $A$ is the [[inverse matrix|inverse]] of the [[covariance matrix]].  In particular, for $n = 1$, we may write $x^2/\sigma^2$ (or $(x-c)^2/\sigma^2$ for mean $c$) in place of $\langle{\vec{x},A \vec{x}}\rangle$, where $\sigma$ is the [[standard deviation]].
+The matrix $A$ is the [[inverse matrix|inverse]] of the [[covariance matrix]].  In particular, for $n = 1$, we may write $x^2/\sigma^2$ (or $(x-c)^2/\sigma^2$ for mean $c$) in place of $\langle{\vec{x},A \vec{x}}\rangle$, where $\sigma$ is the [[standard deviation]]; similarly, $\sqrt{\det A}$ becomes $1/\sigma$.  This gives the form
+
+$$
+  \mu_S \;\colon\; x \mapsto \frac{1}{\sigma (2\pi)^{n/2}} 
+  \exp\left(-\frac{(x-c)^2}{2\sigma^2}\right)
+  \,d x
+  \,,
+$$
+
+which may be more familiar to some readers.
 
 
 ## Related concepts
