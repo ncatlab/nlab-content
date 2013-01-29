@@ -23,7 +23,7 @@
 _Geometric realization_ is the operation that builds from a [[simplicial set]] $X$ a [[topological space]] $|X|$ obtained by interpreting each 
 element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of the standard topological $n$-simplex $\Delta^n_{Top}$ and then gluing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together. It generalises the geometric realization of [[simplicial complex]]es as described at that entry.
 
-This is the special case of the general notion of [[nerve and realization]] that is induced from the standard [[simplicial set|cosimplicial]] [[topological space]] $[n] \mapsto \Delta^n_{Top}$.
+This is the special case of the general notion of [[nerve and realization]] that is induced from the standard [[simplicial set|cosimplicial]] [[topological space]] $[n] \mapsto \Delta^n_{Top}$. (N.B.: in this article, $[n]$ denotes the ordinal with $n+1$ elements. The corresponding contravariant representable is denoted $\Delta(-, n)$.) 
 
 In the context of [[homotopy theory]] geometric realization plays a notable role in the [[homotopy hypothesis]], where it is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]].
 
@@ -33,7 +33,7 @@ The dual concept is _[[totalization]]_ .
 
 ## Definition
 
-There are various levels of generality in which the notion of (topoligcal) geometric realization makes sense. The basic definition is 
+There are various levels of generality in which the notion of (topological) geometric realization makes sense. The basic definition is 
 
 * [For cell complexes such as simplicial sets](#OfSimplicialSets).
 
@@ -98,7 +98,7 @@ In this section we consider topological [geometric realization of simplicial set
 
 ### Realizations as CW complexes ### 
 
-Each ${|X|}$ is a CW complex (see lemma \ref{#mono} below), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
+Each ${|X|}$ is a CW complex (see lemma \ref{mono} below), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
 
 +-- {: .un_prop} 
 ######Proposition
@@ -156,9 +156,9 @@ If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$
 Any monomorphism $i \colon X \to Y$ in $Set^{\Delta^{op}}$ can be seen as the result of iteratively adjoining nondegenerate $n$-simplices. In other words, there is a chain of inclusions $X = F(0) \hookrightarrow F(1) \hookrightarrow \ldots Y = colim_i F(i)$, where $F: \kappa \to Top$ is a functor from some ordinal $\kappa = \{0 \leq 1\leq \ldots\}$ (as [[preorder]]) that preserves directed colimits, and each inclusion $F(\alpha \leq \alpha + 1): F(\alpha) \to F(\alpha + 1)$ fits into a pushout diagram 
 
 $$\array{
-\partial \Delta(-, n+1) & \to & F(\alpha) \\
+\partial \Delta(-, n) & \to & F(\alpha) \\
 \mathllap{i} \downarrow & & \downarrow \\
-\Delta(-, n+1) & \to & F(\alpha+1)
+\Delta(-, n) & \to & F(\alpha+1)
 }$$ 
 
 where $i$ is the inclusion. Now $R(i)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](http://ncatlab.org/nlab/show/subspace+topology/#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](http://ncatlab.org/nlab/show/subspace+topology/#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
@@ -191,6 +191,16 @@ The product of two representables $\Delta(-, m) \times \Delta(-, n)$ is the coli
 
 +-- {: .proof} 
 ###### Proof 
+We describe a finite collection of monomorphisms $p_i: \Delta(-, m+n): \Delta(-, m) \times \Delta(-, n)$ (there are $\binom{m+n}{m}$ many to be exact) which collectively define an epimorphism 
+$$(p_i): \sum_{1 \leq i \leq \binom{m+n}{m}} \Delta(-, m+n) \to \Delta(-, m) \times \Delta(-, n).$$ 
+The product of ordinals $[m] \times [n]$ can be pictured as a rectangular grid consisting of $m \times n$ rectangles, and an order-preserving monomorphism $[k] \to [m] \times [n]$ can be pictured as a path of length $k$ along the grid, traveling north and east. A maximal such path is of length $m+n$, traveling from $(0, 0)$ to $(n, m)$ say, and is specified by a choice of which $m$ among $m+n$ many steps are steps north. These maximal paths give the monomorphisms $p_i$. 
+
+To show the collective map $(p_i)$ is epic, we must show that any map $f: \Delta(-, k) \to \Delta(-, m) \times \Delta(-, n)$ lifts through $(p_i)$. By factoring $f$ as an epi followed by a mono, it is sufficient to prove this in the case where $f$ is monic. In that case, $f$ is described by a path of length $k$, which is embedded in a maximal path $p_j$. Such an embedding is given by a monic $[k] \to [m+n]$, whereupon the composite 
+
+$$\Delta(-, k) \to \Delta(-, m+n) \stackrel{i_j}{\hookrightarrow} \sum_{1 \leq i \leq \binom{m+n}{m}} \Delta(-, m+n)$$ 
+
+(where $i_j$ is the $j^{th}$ inclusion) provides the desired lift of $f$, thus completing the proof. 
+=--
 
 
 +-- {: .num_lemma #canonical} 
