@@ -75,6 +75,8 @@ Heterotic strings were introduced in
 
   _Heterotic string theory (I). The interacting heterotic string_ , Nucl. Phys. B 267 (1986), 75. 
 
+* [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B258 (1985) 46
+
 A textbook introduction is 
 
 
