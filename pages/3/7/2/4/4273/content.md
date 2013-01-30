@@ -1,5 +1,5 @@
 
-* [website](http://www.math.northwestern.edu/people/gradStudentProfiles/owen.gwilliam.html)
+* [website](http://math.berkeley.edu/~gwilliam/)
 
 ## Some publications
 
