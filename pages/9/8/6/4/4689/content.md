@@ -86,3 +86,4 @@ Some of the standard lore about necessity of and the problems of quantum gravity
 
 * R. P. Woodard, _How Far Are We from the Quantum Theory of Gravity?_ ([arXiv:0907.4238](http://arxiv.org/abs/0907.4238))
 
+* [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
