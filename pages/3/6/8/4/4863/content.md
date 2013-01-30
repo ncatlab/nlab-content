@@ -131,6 +131,10 @@ For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in
 
 ## References
 
+A textbook account is in
+
+* T. Applequist, A. Chodos and P.G.O. Freund, _Modern Kaluza-Klein
+Theories_, Addison-Wesley Publ. Comp., (1987)
 
 A survey of the history of the role of the KK-mechanism in theoretical physics is
 
