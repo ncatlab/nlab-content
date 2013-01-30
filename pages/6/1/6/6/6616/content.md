@@ -83,6 +83,7 @@ We spell this out in some special cases.
 A [[symplectic Lie n-algebroid|symplectic Lie 0-algebroid]] is simply a [[symplectic manifold]], and so is its [[Lie integration]].
 
 ### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
+ {#SymplecticGroupoidsFromPoissonLieAlgebroids}
 
 
 Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
