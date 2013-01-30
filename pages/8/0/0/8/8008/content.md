@@ -43,7 +43,7 @@ The general idea is discussed in
 * [[Marc Rieffel]], _Quantizaton and $C^\ast$-algebras_, Contemporary mathematics vol. 167 (1994) ([pdf](http://math.berkeley.edu/~rieffel/papers/quantization.pdf))
 
 
-For the special case of Poisson manifolds that are total spaces of [[Lie algebroids]], discussion is in
+For the special case of [[Poisson manifolds]] that are total spaces of [[Lie algebroids]], discussion is in
 
 * [[Klaas Landsman]], B. Ramazan, _Quantization of Poisson algebras associated to Lie algebroids_ ([arXiv:math-ph/0001005](http://arxiv.org/abs/math-ph/0001005))
 
