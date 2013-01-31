@@ -547,3 +547,5 @@ References on [[geometric quantization of symplectic groupoids]] are
  {#Hawkins}
 
 [[!redirects geometric prequantization]]
+
+[[!redirects geometric quantizations]]
