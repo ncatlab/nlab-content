@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[group object]] in [[infinite-dimensional smooth manifolds]] is an _infinite-dimensional [[Lie group]]_.
+
+## Examples
+
+* [[loop group]]
+
+* [[diffeomorphism group]]
+
+  * [[symplectomorphism group]], [[quantomorphism group]]
+
+
+## References
+
+* [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_ Journal of Lie Theory
+Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
+
+* Rudolf Schmid, _Infinite-Dimensional Lie Groups and Algebras in Mathematical Physics_ Advances in Mathematical Physics Volume 2010, ([pdf](http://www.emis.de/journals/HOA/AMP/Volume2010/280362.pdf))
+
+* Josef Teichmann, _Innite dimensional Lie Theory from the point of view of Functional Analysis_ ([pdf](http://www.math.ethz.ch/~jteichma/diss.pdf))
+
+* [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_ ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf))
+
+[[!redirects infinite-dimensional Lie groups]]
