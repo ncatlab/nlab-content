@@ -150,6 +150,8 @@ The [[exceptional Lie groups]] incude
 
 ### Infinite-dimensional examples
 
+* [[loop group]]
+
 * [[diffeomorphism group]]
 
   * [[symplectomorphism group]], [[quantomorphism group]]
@@ -165,6 +167,10 @@ The [[exceptional Lie groups]] incude
 
 * [[maximal torus]]
 
+* [[infinite-dimensional Lie group]]
+
+* [[orbit method]]
+
 * [[Hamiltonian dynamics on Lie groups]]
 
 * [[Poisson Lie group]]
@@ -176,6 +182,8 @@ The [[exceptional Lie groups]] incude
 
 ### On infinite-dimensional Lie groups
  {#ReferencesOnInfiniteDimensionalLieGroups}
+
+References on [[infinite-dimensional Lie groups]]
 
 * [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_ Journal of Lie Theory
 Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
