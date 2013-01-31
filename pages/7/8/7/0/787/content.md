@@ -127,6 +127,11 @@ As every [[symplectic Lie n-algebroid]] the defining [[invariant polynomial]] on
  
   * **Courant algebroid**
 
+* [[Dirac structure]]
+
+* [[Courant sigma-model]]
+
+
 ## References
 
 The original references in order of appearance are
