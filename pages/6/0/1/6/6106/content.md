@@ -15,16 +15,99 @@
 
 ## Idea
 
-The [[loop space]] of a [[topological group]] inherits itself the structure of a [[group]] under pointwise group multiplication of [[loops]]. This is called a _loop group_.
+The [[loop space]] of a [[topological group]] $G$ inherits the structure of a [[group]] under pointwise group multiplication of [[loops]]. This is called a _loop group_ of $G$. 
 
+(Notice that this is a group structure in addition to the [[infinity-group]]-structure of any [[loop space]] under _composition_ of loops).
+
+If $G$ is a [[Lie group]], then there is a smooth version of the loop group consisting of [[smooth functions]] $S^1 \to G$. By the discussion at [[manifold structure of mapping spaces]] the collection of such smooth maps is itself an [[infinite-dimensional smooth manifold]] and so the smooth loop group of a Lie group is an [[infinite-dimensional Lie group]]. 
+
+Among all [[infinite-dimensional Lie groups]], loop groups are a most well behaved class. In particular their [[representation theory]] is similar to that of [[compact Lie groups]].
+
+Some of these nice properties are solely due to the [[circle]] $S^1$ being a [[compact manifold]]. For $X$ any other compact manifold there is similarly an infinite-dimensional Lie group $[X,G]$ of smooth functions $X \to G$ under pointwise multiplication in $G$.
+
+Such mapping groups appear in [[physics]] notably as groups of [[gauge transformations]] over a [[spacetime]]/[[worldvolume]] $X$. Accordingly, loop groups play a prominint role in 1- and 2-dimensional [[quantum field theory]], notably the [[WZW model]] describing the propagation of a [[string]] on $G$. The _[[current algebras]]_ ([[affine algebras]]) which arise as [[Lie algebras]] of ([[central extension|centrally extended]]) loop groups derive their name from this relation to physics. Accordingly, as for [[compact Lie groups]], the [[representation theory]] of loop groups is naturally understood in terms of their [[geometric quantization]] (by a loop variant of the [[orbit method]]).
+
+On the other hand, for $X$ of [[dimension]] greater that 1 there are very few known results about the properties of the mapping group $[X,G]$. 
+ 
 ## Properties
+
+### Lie algebra
+
+Let $G$ be a [[compact Lie group]]. Write $\mathfrak{g}$
+for its [[Lie algebra]].
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Lie algebra]] of $L G$ is the [[loop Lie algebra]]
+
+$$
+  Lie(L G) \simeq L Lie(G) = L \mathfrak{G}
+  \,.
+$$
+
+=--
+
+### Complexification
+
+Let $G$ be a [[compact Lie group]].
+
++-- {: .num_prop }
+###### Proposition
+
+The [[complexification of a Lie group|complexification]] of $L G$ is the loop group of the complexification of $G$
+
+
+$$
+  (L G)_{\mathbb{C}}
+  \simeq
+  L (G_\mathbb{C})
+  \,.
+$$
+
+=--
 
 ### Central extensions
 
-Loop groups of [[compact space|compact]] [[Lie group]]s have canonical [[central extensions]], often called _Kac-Moody central extensions_ . A detailed discussion is in ([PressleySegal](#PressleySegal)). A review is in ([BCSS](#BCSS))
+Loop groups of [[compact space|compact]] [[Lie groups]] have canonical [[central extensions]], often called _Kac-Moody central extensions_ . A detailed discussion is in ([PressleySegal](#PressleySegal)). A review is in ([BCSS](#BCSS))
 
 ### Representations
  {#Representations}
+
+#### Positive energy
+
+Write 
+
+$$
+  t_\theta \colon L G \to LG
+$$
+
+for the [[automorphism]] which rotates loops by an [[angle]] $\theta$. 
+
+The corresponding [[semidirect product group]] we write $S^1 \rtimes L G$
+
++-- {: .num_defn }
+###### Definition
+
+Let $V$ be a [[topological vector space]]. A linear representation
+
+$$
+  S^1 \to Aut(V)
+$$
+
+of the [[circle group]] is called **positive** if $\exp(i \theta)$ acts by $\exp(i A \theta)$ where $A \in End(V)$ is an [[operator]] with positive [[spectrum of an operator|spectrum]].
+
+A linear [[representation]] 
+
+$$
+  \rho : L G \to Aut(V)
+$$
+
+is said to have **positive energy** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
+
+=--
+
+#### By geometric quantization (looped orbit method)
 
 Let $G$ be a [[compact Lie group]].
 Let $T \hookrightarrow G$ be the inclusion of a [[maximal torus]]. There is a [[fiber sequence]]
