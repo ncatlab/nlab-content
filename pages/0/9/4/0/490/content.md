@@ -27,7 +27,7 @@ In elementary terms, COSHEP states
 +-- {: .num_remark}
 ###### Remark
 
-The full axiom of choice states that every surjection $X \to A$ has a section; hence that in the above $P$ may be chose to be $A$ itself.
+The full axiom of choice states that every surjection $X \to A$ has a section; hence that in the above $P$ may be chosen to be $A$ itself.
 
 =--
 
