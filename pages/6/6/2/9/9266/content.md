@@ -234,7 +234,26 @@ $$
 
 This completes the proof.
 
-### Polarizations of 2-plectic groupoids
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \tau_1 \exp(\mathfrak{P})
+    &\stackrel{\omega}{\to}&
+    \flat_{dR} \mathbf{B}^3 U(1)
+  }
+  \,.
+$$
+
+### Polarizations and branes
+
+leaves of [[polarization]] of [[Poisson Lie algebroid]] are [[coisotropic submanifolds]] ([Ha](#EH), [Se](#Se)).
+
+Accordingly the [[branes]] of the [[Poisson sigma-model]] are coisotropic submanifolds (Cattaneo, Felder)
+
+
+## References
 
 (...)
-
