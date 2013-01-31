@@ -32,6 +32,10 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 * [[WZW-model|WZW-term]]/[[B-field]]-coupling of the [[string]]
 
+## Properties
+
+* [[extended geometric quantization of 2d Chern-Simons theory]]
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
