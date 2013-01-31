@@ -37,6 +37,54 @@ $$
 
 where the $\{q^i : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are the canonical coordinates on the first $\mathbb{R}^n$-factor of the [[Cartesian space]] $\mathbb{R}^{2n}$, and where $\{p_o : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are canonical coordinates  on the second $\mathbb{R}^n$-factor.
 
+## Definition
+
+The traditional notion of polarization applies to a [[symplectic manifold]].
+
+* [Of a symplectic manifold](OfASymplecticManifold)
+
+Symplectic manifold are the lowest step in a tower of notions in [[higher symplectic geometry]] which proceeds with [[n-plectic geometry]] for all $n$ and manifolds refined to [[smooth infinity-groupoids]]. The next simplest cases in this tower are [[symplectic Lie n-algebroids]], which for $n=1$ are [[Poisson Lie algebroids]] and for $n = 2$ are [[Courant Lie 2-algebroids]]:
+
+* [Of a Poisson Lie algebroid](#OfAPoissonLieAlgebroid)
+
+* [Of a Courant Lie 2-algebroid](#OfACourantLie2Algebroid)
+
+* [Of a symplectic Lie n-algebroid](#OfASymplecticLienAlgebroid)
+
+### Of a symplectic manifold
+ {#OfASymplecticManifold}
+
+(...)
+
+### Of a Poisson Lie algebroid
+ {#OfAPoissonLieAlgebroid}
+
+(...)
+
+leaf = [[coisotropic submanifold]]
+
+(...)
+
+
+### Of a Courant Lie 2-algebroid
+ {#OfACourantLie2Algebroid}
+
+(...)
+
+[[Dirac structure]]
+
+(...)
+
+
+### Of a symplectic Lie $n$-algebroid
+ {#OfASymplecticLienAlgebroid}
+
+??
+
+### Of an $n$-plectic smooth $\infty$-groupoid
+
+???
+
 ## Examples
 
 ### Real polarizations
@@ -61,6 +109,12 @@ After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bo
 ### Liouville integrability
 
 If a polarization on an $2n$-dimensional symplectic manifold is generated from $n$ [[Hamiltonian vector fields]] whose [[Hamiltonians]] commute with each other under the [[Poisson bracket]] (and one of them is regarded as that generating time evolution of a mechanical system) then one speaks of a [[Liouville integrable system]].
+
+### Refinement to higher geometric quantization
+
+* [[Dirac structure]]
+
+(...)
 
 ## References
 
