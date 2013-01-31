@@ -245,3 +245,5 @@ A review is for instance in appendix A of
   ([arXiv](http://arxiv.org/abs/math/9910078))
 
 [[!redirects Poisson-Lie algebroid]]
+
+[[!redirects Poisson Lie algebroids]]
