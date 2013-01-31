@@ -1,0 +1,240 @@
+
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+We discuss aspects of the [[extended geometric quantization]] of one of the simplest and yet interesting examples of [[schreiber:∞-Chern-Simons theory]], namely [[2d Chern-Simons theory]] and here specifically the case induced by a binary and non-degenerate [[invariant polynomial]], namely the [[Lie integration|Lie integrated]] version of the [[Poisson sigma-model]].
+
+Several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[n-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially the _[[geometric quantization of symplectic groupoids]]_.
+
+This identification is evident as soon as one translates the traditional definition of a [[symplectic groupoid]] to more intrinsic language of [[smooth infinity-groupoid|higher differential geometry]]. We discuss this in detail below, but in brief it works as follows: a [[symplectic groupoid]] $(\mathbf{X},\omega)$ is traditionally defined to be a [[Lie groupoid]] $\mathbf{X}$ which is equipped with a (non-degenerate) [[differential 2-form]] $\omega \in \Omega^2(\mathbf{X}_1)$ on its [[smooth manifold]] of [[morphisms]], such that it is annihilated by the [[de Rham differential]] as well as by 
+the operator $\delta$ that sums the [[pullback of differential forms|pullback]] of $\omega$ to the space $\mathbf{X}_2$ of composable morphisms along the [[source]] and [[target]] maps and minus that along the [[composition]] map.
+But together this just means that regarded as a triple $(0, \omega, 0) \in \underset{k = 0,1,2}{\oplus} \Omega^{3-k}(\mathbf{X}_k)$ the symplectic form is a  [[cocycle]] in the [[simplicial de Rham complex]] over the [[simplicial manifold]] which is the [[nerve]] of the Lie groupoid. And this finally means fully intrinsically that $\omega$ is a degree-3 [[cocycle]] in the [intrinsic de Rham cohomology](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology) [of smooth ∞-groupoids](smooth+infinity-groupoid+--+structures#deRhamCoefficientsInBnU1) over $\mathbf{X}$, which we denote by
+
+$$
+  \omega \;\colon\; \mathbf{X} \to \flat_{dR} \mathbf{B}^3 U(1)
+  \,.
+$$
+
+This simple observation shows that [[symplectic groupoids]], which in traditional literature are treated as a topic in [[symplectic geometry]], are really objects in [[higher symplectic geometry]], namely in [[2-plectic geometry]]. 
+
+More specifically, if $(X,\pi)$ is a [[Poisson manifold]], there is canonically associated with it a [[Lie algebroid]] $\mathfrak{P}$, the _[[Poisson Lie algebroid]]_. This is an example of a [[symplectic Lie n-algebroid]] and as such it carries a canonical binary [[invariant polynomial]]. Together this serves as the [[target space]] and [[background gauge field]] of what is called the [[Poisson sigma-model]]. But moreover, the [[Lie integration]] of this data is the [[extended Lagrangian]] of an [[schreiber:∞-Chern-Simons theory]], namely a map
+
+$$
+  \mathbf{L}
+  \;\colon\;
+  \tau_1\exp(\mathfrak{P})_{conn}
+  \to 
+  \mathbf{B}^2 (\mathbb{R}/\Gamma)_{conn}
+$$
+
+from the [[moduli stack]] of [[field (physics)|fields]] of the [[2d Chern-Simons theory]] to that of [[circle 2-bundles with connection]].
+
+If we forget the connection data here and just consider the underlying [[instanton sectors]], then this is precisely the symplectic groupoid data above
+
+$$
+  \array{
+    \tau_1\exp(\mathfrak{P})_{conn}
+    &\stackrel{\mathbf{L}}{\to}& 
+    \mathbf{B}^2 (\mathbb{R}/\Gamma)_{conn}
+    \\
+    {}^{\mathllap{forget\;connection}}\downarrow && \downarrow
+    \\
+    \mathbf{X} &\stackrel{\omega}{\to}& \flat_{dR} \mathbf{B}^3 U(1)
+  }
+  \,.
+$$
+
+It is in this way that we may identify the [[symplectic groupoid]] of a Poisson manifold
+
+$$
+  \mathbf{X} \simeq \tau_1 \exp(\mathfrak{P})
+$$
+
+as the [[moduli stack]] of the [[extended prequantum field theory|extended prequantum]] [[2d Chern-Simons theory]] which refines the [[Poisson sigma-model]].
+
+Hence we identify the [[geometric quantization]] of $(\mathbf{X}, \omega)$ as the extended geometric quantization of the [[2d Chern-Simons theory]]. But traditional literature shows (and this was motivation for introducing [[symplectic groupoids]] in the first place) that this encodes the [[quantization]] of the [[Poisson manifold]] $(X, \pi)$ itself, regarded as a [[quantum mechanical system]]. This is the traditional topic of _[[geometric quantization of symplectic groupoids]]_.
+
+Taken together this says: the [[extended geometric quantization]] of the [[extended prequantum field theory|extended prequantum]] [[Poisson sigma-model]] computes the ordinary [[geometric quantization]] of the underlying Poisson manifold.
+
+This statement we recognize as a geometric quantization analog of a famous relation in [[algebraic deformation quantization]]. As discussed there, the construction by [[Kontsevich]] of the algebraic deformation quantization of any Poisson manifold was identified by [[Cattaneo]] and [[Felder]] as a limiting case of the  [[n-point function|3-point function]] in the [[perturbation theory|perturbative quantization]] of the corresponding 2d Poisson $\sigma$-model.
+
+These relations to traditional theory we use in the following to explore aspects of the [[extended geometric quantization]] of [[2d Chern-Simons theory]].
+
+## Constructions
+
+### Moduli of 2d CS fields and symplectic groupoids
+
+Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
+
+The [[symplectic groupoid]] associated to this is (by the discussion there) supposed to be the [[fundamental groupoid]] 
+$\Pi_1(X)$ of $X$ equipped on its space of morphisms with the differential form $p_1^* \omega - p_2^* \omega$, where $p_1,p_2$ are the two endpoint projections from paths in $X$ to $X$.
+
+We demonstrate in the following how this is indeed the result of applying the [[∞-Chern-Weil homomorphism]] to this situation.
+
+For simplicity we shall start with the simple situation where $(X,\omega)$ has a global [[Darboux coordinate chart]] $\{x^i\}$. Write $\{\omega_{i j}\}$ for the components of the [[symplectic form]] in these coordinates, and $\{\omega^{i j}\}$ for the components of the [[inverse]].
+
+
+Then the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P})$ is generated from $\{x^i\}$ in degree 0 and $\{\partial_i\}$ in degree 1, with differential given by
+
+$$
+  d_{CE} x^i = - \omega^{i j} \partial_j
+$$
+
+$$
+  d_{CE} \partial_i = \frac{\partial \pi^{j k}}{\partial x^i} \partial_j \wedge \partial_k = 0
+  \,.
+$$
+
+The differential in the corresponding [[Weil algebra]] is hence
+
+$$
+  d_{W} x^i = - \omega^{i j} \partial_j + \mathbf{d}x^i
+$$
+
+$$
+  d_{W} \partial_i = \mathbf{d} \partial_i
+  \,.
+$$
+
+
+By the discussion at [[Poisson Lie algebroid]], the symplectic [[invariant polynomial]] is
+
+$$
+  \mathbf{\omega} = \mathbf{d} x^i \wedge \mathbf{d} \partial_i \in W(\mathfrak{P})
+  \,.
+$$
+
+Clearly it is useful to introduce a new basis of generators with
+
+$$
+  \partial^i := -\omega^{i j} \partial_j
+  \,.
+$$
+
+In this new basis we have a manifest isomorphism
+
+$$
+  CE(\mathfrak{P}) = CE(\mathfrak{T}X)
+$$
+
+with the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] of $X$. 
+
+Therefore the [[Lie integration]] of $\mathfrak{P}$ is the [[fundamental groupoid]] of $X$, which, since we have assumed global Darboux oordinates and hence [[contractible]] $X$, is just the [[pair groupoid]]:
+
+$$
+  \tau_1 \exp(\mathfrak{P}) = \Pi_1(X) = (X \times X \stackrel{\overset{p_2}{\to}}{\underset{p_1}{\to}} X)
+  \,.
+$$
+
+It remains to show that the symplectic form on $\mathfrak{P}$ makes this a [[symplectic groupoid]].
+
+Notice that in the new basis the invariant polynomial reads
+
+$$
+  \begin{aligned}
+    \mathbf{\omega} 
+      &= 
+     - \omega_{i j} \mathbf{d}x^i \wedge \mathbf{d} \partial^j 
+     \\
+      & = \mathbf{d}( \omega_{i j} \partial^i \wedge \mathbf{d}x^j)
+   \end{aligned}
+$$
+
+and that we may regard this as a morphism of $L_\infty$-algebroids
+
+$$
+  \mathbf{\omega}
+   : 
+  \mathfrak{T}\mathfrak{P} \to \mathfrak{T}b^3 \mathbb{R}
+$$
+
+The corresponding [[infinity-Chern-Weil theory|infinity-Chern-Weil homomorphism]] that we need to compute is given by the [[∞-anafunctor]]
+
+$$
+  \array{
+    \exp(\mathfrak{P})_{diff}
+     &\stackrel{\exp(\mathbf{\omega})}{\to}&
+    \exp(b \mathbb{R})_{dR}
+    &\stackrel{\int_{\Delta^\bullet}}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B}^3 \mathbb{R} 
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{P})
+  }
+  \,.
+$$
+
+
+Over a test space $U$ in degree 1 an element in $\exp(\mathfrak{P})_{diff}$ is a pair
+$(X^i, \eta^i)$
+
+$$
+  X^i \in C^\infty(U \times \Delta^1)
+$$
+
+$$
+  \eta^i \in \Omega^1_{vert}(U \times \Delta^1)
+$$
+
+subject to the verticality constraint, which says that along $\Delta^1$ we have
+
+$$
+  d_{\Delta^1} X^i + \eta^i_{\Delta^1} = 0
+  \,.
+$$
+
+The vertical morphism $\exp(\mathfrak{P})_{diff} \to \exp(\mathfrak{P})$ has in fact a [[section]] whose image is given by those pairs for which $\eta^i$ has no leg along $U$. We therefore find the desired form on $\exp(\mathfrak{P})$ by evaluating the top morphism on pairs of this form. 
+
+Such a pair is taken by the top morphism to
+
+$$
+  \begin{aligned}
+    (X^i, \eta^j) 
+     & \mapsto 
+   \int_{\Delta^1}
+    \omega_{i j} F_{X^i} \wedge F_{\partial^j}
+   \\
+    & =
+  \int_{\Delta^1}
+    \omega_{i j} (d_{dR} X^i + \eta^i) \wedge d_{dR} \eta^j
+  \in 
+  \Omega^3(U)
+  \end{aligned}
+  \,.
+$$
+
+Using the above verticality constraint and the condition that $\eta^i$ has no leg along $U$, this becomes
+
+$$
+  \cdots = 
+  \int_{\Delta^1}
+  \omega_{i j}
+    d_U X^i 
+  \wedge
+    d_U d_{\Delta^1} X^j 
+  \,.
+$$
+
+By the [[Stokes theorem]] the integration over $\Delta^1$ yields
+
+$$
+  \cdots 
+    =
+  \omega_{i j} d_{dR} x^i \wedge \eta^j|_{0}
+   -
+  \omega_{i j} d_{dR} x^i \wedge \eta^j|_{1}
+  \,.
+$$
+
+This completes the proof.
+
+### Polarizations of 2-plectic groupoids
+
+(...)
+
