@@ -41,6 +41,8 @@ See specific versions:
 
 * [[manifold structure of mapping spaces]]
 
+* [[infinite-dimensional Lie group]]
+
 
 ## Related concepts
 
