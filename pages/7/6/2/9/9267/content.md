@@ -1,0 +1,3 @@
+
+
+In [[quantum field theory]] a [[correlator]] with $n$ insertions is also called the _$n$-point function_ of the given [[theory (physics)|theory]].
