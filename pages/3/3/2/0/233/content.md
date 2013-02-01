@@ -81,7 +81,7 @@ a monad in [[Cat]] is called an _algebra over a monad_, because the algebras in 
 
 #### Enriched presheaves
 
-The [[action]] $\rho$ of a [[monoid]] $A$ in a [[monoidal category]] $V$ may be equivalently encoded in terms of a  $V$-[[enriched functor]] 
+The [[action]] $\rho$ of a [[monoid]] $A$ in a [[closed monoidal category]] $V$ may be equivalently encoded in terms of a  $V$-[[enriched functor]] 
    
    $$
      \rho : \mathbf{B}A \to V
