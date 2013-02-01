@@ -247,12 +247,42 @@ $$
   \,.
 $$
 
+### Prequantum 2-states
+
+Let $\mathbf{X}$ be a smooth groupoid and $\mathbf{X} \to \mathbf{B}^2 U(1)$ the map modulating a [[circle 2-group]]-[[principal 2-bundle]] $P \to \mathbf{X}$.
+
+Let $(\coprod_n \mathbf{B}U(n))//\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$ the canonical [[infinity-action|2-representation]], the sections of the [[associated infinity-bundle|associated 2-bundle]] are unitary [[twisted bundles]] equivariant on $\mathbf{X}$.
+
+If we present the 2-bundle by a [[bundle gerbe]] exhibited as a multiplicative [[line bundle]] over the space of morphisms $\mathbf{X}_1$, then there is the [[groupoid algebra|convolution algabra]] $\mathcal{A}$ of sections of this line bundle. Twisted unitary vector bundles are equivalently projective [[modules]] over this algebra. 
+
+This means that under the identification 
+
+$$
+  \phi \colon Alg_k \stackrel{\simeq}{\to} 2 Vect_k
+$$
+
+of the [[2-category]] of [[2-vector spaces]] with that of [[algebras]], [[bimodules]] and intertwiners (see at _[[n-vector space]]_), the convolution algebra $\mathcal{A}$ _is_ the 2-vector space of sections
+
+$$
+  \phi\left(\mathcal{A}\right) 
+   \simeq 
+  \Gamma_{\mathbf{X}}\left(P \times_{\mathbf{B}U\left(1\right)} \coprod_n \mathbf{B}U\left(n\right) \right)
+  \,.
+$$
+
+
+
 ### Polarizations and branes
 
 leaves of [[polarization]] of [[Poisson Lie algebroid]] are [[coisotropic submanifolds]] ([Ha](#EH), [Se](#Se)).
 
 Accordingly the [[branes]] of the [[Poisson sigma-model]] are coisotropic submanifolds (Cattaneo, Felder)
 
+### Quantum 2-states
+
+Taken together, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A}$ of polarized sections is under $\phi$ the actual 2-vector space of states.
+
+In [EH](...) it is show that for the [[geometric quantization of symplectic groupoids]], hence, as we have seen, for the 2d Chern-Simons theory associated with a Poisson manifold, this is the algebra of observables of the corresponding [[quantum mechanical system]] (its [[strict deformation quantization]]).
 
 ## References
 
