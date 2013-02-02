@@ -1,0 +1,10 @@
+
+* webpage ?
+
+## Related entries
+
+* [[Courant Lie 2-algebroid]]
+
+* [[Dirac structure]]
+
+category: people
