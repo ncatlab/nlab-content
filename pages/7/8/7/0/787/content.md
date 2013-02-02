@@ -117,6 +117,10 @@ The study of Courant algebroids is to a large extent known as [[generalized comp
 
 As every [[symplectic Lie n-algebroid]] the defining [[invariant polynomial]] on a Courant Lie 2-algebroid transgresses to a cocycle in [[∞-Lie algebroid cohomology]] and this transgression is witnessed by a [[Chern-Simons element]]. The [[schreiber:∞-Chern-Simons theory]] induced by this element is the [[Courant sigma-model]].
 
+### Lagrangian submanifolds and Dirac structures
+
+The [[Lagrangian dg-submanifolds]] of a Courant Lie 2-algebroid corespond to its [[Dirac structures]]. 
+
 ## Related concepts
 
 * [[symplectic Lie n-algebroid]]
