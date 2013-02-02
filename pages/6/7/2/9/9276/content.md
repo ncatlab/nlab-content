@@ -15,3 +15,10 @@ In particular for $(X, \omega)$ a [[symplectic manifold]] there are local charts
 
 
 [[!redirects Darboux theorem]]
+
+[[!redirects Darboux coordinate chart]]
+[[!redirects Darboux coordinate charts]]
+
+[[!redirects Darboux chart]]
+[[!redirects Darboux charts]]
+
