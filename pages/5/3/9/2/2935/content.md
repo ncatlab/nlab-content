@@ -73,16 +73,25 @@ where $\pi \in \wedge^2_{C^\infty(C)}\Gamma(T X)$ is the Poisson tensor of $(X, 
 ## Properties
 
 ### Relation to deformation quantization of Poisson manifolds
+ {#RelationToQuantizationOfPoissonManifolds}
 
-The 2-dimensional Poisson sigma-model is [[holographic principle|holographically]] related to the 1-dimensional QFT ([[quantum mechanics]]) defined by the [[quantization]] of the Poisson manifold $(X,\{-,-\})$.
 
-This is famously due to ([Cattaneo-Felder](#CattaneoFelder)), following a construction by ([Kontsevich](#Kontsevich)).
+In ([Cattaneo-Felder](#CattaneoFelder)) it was shown that the [[n-point function|3-point function]] in the [[path integral quantization]] of the Poisson $\sigma$-model of a [[Poisson Lie algebroid]] associated with a [[Poisson manifold]]  computes the [[star product]] in the [[deformation quantization]] of the Poisson manifold as given by ([Kontsevich](#Kontsevich)).
+
+A [[higher geometric quantization]] that also yields the [[strict deformation quantization]] is discussed at _[[extended geometric quantization of 2d Chern-Simons theory]]_.
+
+One may think of this relation between the 2d Poisson sigma-model and [[quantum mechanics]] = 1d [[quantum field theory]] as an example of the Chern-Simons type [[holographic principle]]. For more along these lines see below at _[holographic dual](#HolographicDual)_.
 
 ### Branes
  {#Branes}
 
 The [[branes]] of the Poisson sigma model are related to
 [[coisotropic submanifolds]] of the underlying [[Poisson manifold]]. Notice that these are the [[Lagrangian dg-submanifolds]] of the [[Poisson Lie algebroid]]. ([Cattaneo-Felder 03](#CattaneoFelder03)).
+
+### Holographic dual
+ {#HolographicDual}
+
+By the Chern-Simons form of the [[holographic principle]] one expects the Poisson sigma-model to be related to a 1-dimesnional [[quantum field theory]]. This is [[quantum mechanics]]. The [above](#RelationToQuantizationOfPoissonManifolds) relation to the deformation quantization of Poisson manifolds goes in this direction. More explicit realizations have been attempted, for instance ([Vassilevich](#Vassilevich)). 
 
 
 ## Related concepts
@@ -160,9 +169,14 @@ See also
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_ ,
 Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
 
-The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
+The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is discussed in
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_ (2011)
+
+Discussion in terms of [[holography]] is in 
+
+* D. V. Vassilevich, _Holographic duals to Poisson sigma models_ ([arXiv:1301.7029](http://arxiv.org/abs/1301.7029))
+ {#Vassilevich}
 
 
 
