@@ -31,9 +31,17 @@ $$
 
 Alternatively, $S\hookrightarrow X$ is coisotropic if the subalgebra of $C^\infty(X)$ of functions vanishing on $S$ is closed under the Poisson bracket.
 
+## Properties
+
+### Relation to Poisson Lie algebroids
+
+A [[Poisson manifold]] induces a [[Poisson Lie algebroid]], which is a [[symplectic Lie n-algebroid]] for $n = 1$. Its coisotropic submanifolds correspond to the [[Lagrangian dg-submanifolds]] (see there) of this Poisson Lie algebroid.
+
 ## Related concepts
 
 * [[isotropic submanifold]]
+
+* [[Dirac structure]]
 
 ## References
 
