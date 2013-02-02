@@ -29,7 +29,7 @@ where $A$ is some $n \times n$ [[matrix]] such that $\langle -, A-\rangle$ is a 
 Since $\sqrt{\det A}$ is the coordinate of the [[volume element]] $vol_A$ associated with $A$, we may equivalently write this as
 
 $$
-  \mu_S \;\colon\; \vec x \mapsto \frac{1}{(2\pi)^{n/2}} 
+  \mu_A \;\colon\; \vec x \mapsto \frac{1}{(2\pi)^{n/2}} 
   \exp\left(-\tfrac{1}{2} \left\langle \vec x , A \vec x\right\rangle\right)
   \,vol_A  \,.
 $$
@@ -39,7 +39,7 @@ The [[mean]] of this distribution is $\vec{0}$; for a distribution with mean $\v
 The matrix $A$ is the [[inverse matrix|inverse]] of the [[covariance matrix]].  In particular, for $n = 1$, we may write $x^2/\sigma^2$ (or $(x-c)^2/\sigma^2$ for mean $c$) in place of $\langle{\vec{x},A \vec{x}}\rangle$, where $\sigma$ is the [[standard deviation]]; similarly, $\sqrt{\det A}$ becomes $1/\sigma$.  This gives the form
 
 $$
-  \mu_S \;\colon\; x \mapsto \frac{1}{\sigma (2\pi)^{n/2}} 
+  \mu_\sigma \;\colon\; x \mapsto \frac{1}{\sigma \sqrt{2\pi}} 
   \exp\left(-\frac{(x-c)^2}{2\sigma^2}\right)
   \,d x
   \,,
