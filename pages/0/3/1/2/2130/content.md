@@ -94,6 +94,11 @@ $$
 
 ## Properties
 
+### Darboux coordinates
+
+By [[Darboux's theorem]] every symplectic manifold has an [[atlas]] by [[coordinate charts]] $\mathbb{R}^{2n} \simeq U \hookrightarrow X$ on which the [[symplectic form]] takes the canonical form $\omega|_U = \sum_{k = 1}^n d x^{2k} \wedge d x^{2 k+1}$.
+
+
 ### Symplectic and almost symplectic structure
  {#SymplecticStructure}
 
