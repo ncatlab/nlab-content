@@ -100,6 +100,16 @@ Lagrangian submanfolds of symplectic [[dg-manifolds]] are called "$\Lambda$-stru
 [[!redirects Lagrangean submanifold]]
 [[!redirects Lagrangean submanifolds]]
 
+[[!redirects lagrangian manifold]]
+[[!redirects lagrangian manifolds]]
+[[!redirects Lagrangian manifold]]
+[[!redirects Lagrangian manifolds]]
+[[!redirects lagrangean manifold]]
+[[!redirects lagrangean manifolds]]
+[[!redirects Lagrangean manifold]]
+[[!redirects Lagrangean manifolds]]
+
+
 [[!redirects Lagrangian dg-submanifold]]
 [[!redirects Lagrangian dg-submanifolds]]
 [[!redirects dg-Lagrangian submanifold]]
