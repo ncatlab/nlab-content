@@ -7,7 +7,7 @@
 [[!include category theory - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
@@ -185,7 +185,12 @@ For more on [[barycentric subdivision]] see also section 2 of
 
 * [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/12/2/12-02aabs.html))
 
+
+[[!redirects category of simplices]]
+[[!redirects category of simplicies]]
 [[!redirects categories of simplices]]
+
 [[!redirects category of nondegenerate simplices]]
 [[!redirects categories of nondegenerate simplices]]
 [[!redirects category of non-degenerate simplices]]
+[[!redirects categories of non-degenerate simplices]]
