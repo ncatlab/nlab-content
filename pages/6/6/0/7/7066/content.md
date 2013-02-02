@@ -197,3 +197,10 @@ Lagrangian submanifolds of [[L-infinity algebroids]] are considered in
 [[!redirects canonical coordinate]]
 [[!redirects canonical coordinates]]
 
+[[!redirects real polarization]]
+[[!redirects real polarizations]]
+
+[[!redirects complex polarization]]
+[[!redirects complex polarizations]]
+
+
