@@ -1,6 +1,25 @@
 
 > under construction
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -326,16 +345,18 @@ $$
 
 ### Polarizations and branes
 
-leaves of [[polarization]] of [[Poisson Lie algebroid]] (see there) are [[coisotropic submanifolds]]
+The full generalization of the notion of _[[polarization]]_ from traditional [[geometric quantization]] to [[higher geometric quantization]] may need more thinking, but in the case of 2d Chern-Simons theory we can apply the following plausible shortcut.
 
-Accordingly the [[branes]] of the [[Poisson sigma-model]] are coisotropic submanifolds ([[Cattaneo]], [[Felder]])
+A [[Poisson Lie algebroid]] $(\mathfrak{P}, \mathbf{\omega})$ is a [[symplectic Lie n-algebroid]] for $n = 1$. This means that if we regard it as a [[dg-manifold]] (the dg-manifold whose [[dg-algebra]] of functions is the [[Chevalley-Eilenberg algebra]] $(CE(\mathfrak{P})$) then the [[invariant polynomial]] $\mathbf{\omega}$ constitutes a graded [[symplectic form]] on $\mathfrak{P}$. Since a [[real polarization]] of an ordinary [[symplectic manifold]] is equivalently a [[foliation]] by [[Lagrangian submanifolds]], it hence makes sense to take a [[real polarization]] of $(\mathfrak{P}, \mathbf{\omega})$ to consist of [[Lagrangian dg-submanifolds]]. As discussed there, for the [[Poisson Lie algebroid]] these corespond to the [[coisotropic submanifolds]] of the underlying [[Poisson manifold]] $(X, \pi)$. The same definition of polarization has been used/obtained in the study of [[geometric quantization of symplectic groupoids]] (see there).
+
+The [[branes]] of the [[2d Chern-Simons theory]] should be those leaves of the foliation which satisfy an extra [[BS-leaf|intrability condition]].
+
+Indeed, according to [[branes]] of the [[Poisson sigma-model]] are supposed to be coisotropic submanifolds, see at [Poisson sigma-model -- Properties -- Branes](Poisson+sigma-model#Branes).
 
 ### Quantum 2-states
 
-Taken together, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A}$ of polarized sections is under $\phi$ the actual 2-vector space of states.
+Summing up, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A}$ of polarized sections is under $\phi$ the actual 2-vector space of states.
 
-In _[[geometric quantization of symplectic groupoids]]_ it is show that for the [[geometric quantization of symplectic groupoids]], hence, as we have seen, for the 2d Chern-Simons theory associated with a Poisson manifold, this is the algebra of observables of the corresponding [[quantum mechanical system]] (its [[strict deformation quantization]]).
+In _[[geometric quantization of symplectic groupoids]]_ it is show that this is the algebra of observables of the [[quantum mechanical system]] of the underlying [[Poisson manifold]] (its [[strict deformation quantization]]).
 
-## References
 
-(...)
