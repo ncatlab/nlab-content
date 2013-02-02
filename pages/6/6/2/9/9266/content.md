@@ -7,11 +7,27 @@
 
 ## Idea
 
+### General
+
 We discuss aspects of the [[extended geometric quantization]] of one of the simplest and yet interesting examples of [[schreiber:∞-Chern-Simons theory]], namely [[2d Chern-Simons theory]] and here specifically the case induced by a binary and non-degenerate [[invariant polynomial]], namely the [[Lie integration|Lie integrated]] version of the [[Poisson sigma-model]].
 
-Several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[n-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially the _[[geometric quantization of symplectic groupoids]]_.
+It turns out that several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[n-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially what is known as the _[[geometric quantization of symplectic groupoids]]_.
 
-This identification is evident as soon as one translates the traditional definition of a [[symplectic groupoid]] to more intrinsic language of [[smooth infinity-groupoid|higher differential geometry]]. We discuss this in detail below, but in brief it works as follows: a [[symplectic groupoid]] $(\mathbf{X},\omega)$ is traditionally defined to be a [[Lie groupoid]] $\mathbf{X}$ which is equipped with a (non-degenerate) [[differential 2-form]] $\omega \in \Omega^2(\mathbf{X}_1)$ on its [[smooth manifold]] of [[morphisms]], such that it is annihilated by the [[de Rham differential]] as well as by 
+To some extent in the following we simply review the traditional [[geometric quantization of symplectic groupoids]] but we show at the same time how its ingredients are (more) naturally interpreted in [[higher symplectic geometry]]. This makes quantization of symplectic groupoids a good test case against which to check notions of [[higher geometric quantization]].
+
+Specifically, we discuss what should be the first nontrivial case of the Chern-Simons-type _[[holographic principle]]_ realized in [[higher geometric quantization]]: The [[moduli stack]] of the [[2d Chern-Simons theory]] is the [[Lie integration]] of the [[Poisson Lie algebroid]] associated to a [[Poisson manifold]]. The latter we may think of as defining a [[quantum mechanical system]], hence a $(2-1) = 1$-dimensional [[quantum field theory]]. The higher geometric quantization of the 2-d theory yields a [[2-vector space]] [[space of states|of quantum 2-states]] (assigned to the point n codimension 2). Under the identification of [[2-vector spaces]] with [[categories of modules]] over an [[associative algebra]], this space of quantum 2-states identifies (the [[Morita equivalence]]-class of) an algebra. Suitably re-interpreting traditional results about the quantization of symplectic groupods shows that this algebra is the [[strict deformation quantization]] of that [[Poisson manifold]].
+
+Notice that at the level of just infinitesimal ("formal") [[deformation quantization]] a similar [[holographic principle|holographic]] relation between quantization of a Poisson manifold and of its associated 2d [[sigma-model]] QFT has famously been shown by [[Cattaneo]] and [[Felder]] to underly [[Kontsevich]]'s construction of deformation quantization (see at _[[Poisson sigma-model]]_). We suggest that the discussion here provides the refinement of this relation to [[strict deformation quantization]].
+
+All of this should be a blueprint for an analogous situaton in one dimension higher, where the analogous procedure should reproduce the famous holographic quantization of the [[2d Wess-Zumino-Witten theory]] in terms of that of a [[3d Chern-Simons theory]].
+
+### Identifying "symplectic groupoids" as 2-plectic groupoids
+
+We briefly indicate the basis for re-interpreting traditional [[symplectic groupoid]]-theory in terms of [[higher symplectic geometry]].
+
+The identification of the traditional notion of "[[symplectic groupoid]]" as really a [[n-plectic geometry|2-plectic]] structure is evident as soon as one translates the traditional definition of a [[symplectic groupoid]] to more intrinsic language of [[smooth infinity-groupoid|higher differential geometry]]. We discuss this in detail below, but in brief it works as follows: 
+
+A [[symplectic groupoid]] $(\mathbf{X},\omega)$ is traditionally defined to be a [[Lie groupoid]] $\mathbf{X}$ which is equipped with a (non-degenerate) [[differential 2-form]] $\omega \in \Omega^2(\mathbf{X}_1)$ on its [[smooth manifold]] of [[morphisms]], such that it is annihilated by the [[de Rham differential]] as well as by 
 the operator $\delta$ that sums the [[pullback of differential forms|pullback]] of $\omega$ to the space $\mathbf{X}_2$ of composable morphisms along the [[source]] and [[target]] maps and minus that along the [[composition]] map.
 But together this just means that regarded as a triple $(0, \omega, 0) \in \underset{k = 0,1,2}{\oplus} \Omega^{3-k}(\mathbf{X}_k)$ the symplectic form is a  [[cocycle]] in the [[simplicial de Rham complex]] over the [[simplicial manifold]] which is the [[nerve]] of the Lie groupoid. And this finally means fully intrinsically that $\omega$ is a degree-3 [[cocycle]] in the [intrinsic de Rham cohomology](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology) [of smooth ∞-groupoids](smooth+infinity-groupoid+--+structures#deRhamCoefficientsInBnU1) over $\mathbf{X}$, which we denote by
 
