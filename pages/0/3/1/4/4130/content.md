@@ -64,7 +64,12 @@ This functorial subdivision corresponds to the classical [[barycentric subdivisi
 
 ### Relation to category of simplices
 
-The subdivision f a simplicial set is equivalently given by the [[full subcategory]] of its [[category of simplices]] on the non-degenerate simplices. The inclusion is a [[homotopy cofibal funcotr]] (see there for details).
+The subdivision f a simplicial set is equivalently given by the [[full subcategory]] of its [[category of simplices]] on the non-degenerate simplices (see there for details).
+
+## References
+
+* [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/12/2/12-02aabs.html))
+
 
 [[!redirects subdivisions]]
 [[!redirects barycentric subdivision]]
