@@ -26,6 +26,8 @@ As symplectic geometry naturally describes [[classical mechanics]] and, via [[ge
 
 * A [[G2-manifold]] is manifold of [[dimension]] 7 characterized by carrying a 2-plectic form. 
 
+* A (pre-)[[symplectic groupoid]] is a [[Lie groupoid]] equipped with a (pre-)2-plectic structure.
+
 ## Related concepts
 
 [[!include geometric quantization extensions - table]]
