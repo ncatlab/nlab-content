@@ -118,15 +118,25 @@ Mike, can you do something with these notes that I took at some point as a grad 
 
 Hopf algebras can be characterized among bialgebras by the fundamental theorem on [[Hopf module|Hopf modules]]: the category of Hopf modules over a bialgebra is canonically equivalent to the category of vector spaces over the ground ring iff the bialgebra is a Hopf algebra.  This categorical fact enables a definition of Hopf monoids in some setups that do not allow a sensible definition of antipode.
 
+### Tannaka duality
+ {#TannakaDuality}
+ 
+
+The [[category of modules]] (finite dimensional) over the underlying [[associative algebra]] of a Hopf algebra canonically inherits the structure of an [[autonomous]] [[monoidal category]] such that the forgetful [[fiber functor]] to [[vector spaces]] over the ground field is a [[strict monoidal functor]]. 
+
+The statement of [[Tannaka duality]] for Hopf algebras is that this property characterizes Hopf algebras.
+
+For generalization of this characterization to [[quasi-Hopf algebras]] and [[hopfish algebras]] see ([Vercruysse](#Vercruysse)).
+
 ### As 3-vector spaces
 
 A Hopf algebra structure on an [[associative algebra]] $A$ canonically defines on $A$ the structure of an algebra object [[internalization|internal]] to the [[2-category]] of algebras, [[bimodule]]s and bimodule homomorphisms.
 
-By the discussion at [[n-vector space]] this allows to identify Hopf algebras with _3-vector spaces_ . 
+By the discussion at [[n-vector space]] this allows to identify Hopf algebras with certain _3-vector spaces_ . 
 
 (For instance ([FHLT, p. 27](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups))).
 
-More general 3-vector spaces are given by _[[hopfish algebras]]_.
+More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally by [[sesquiunital sesquialgebras]].
 
 ## Related concepts
 
@@ -158,6 +168,10 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66__, Springer 1979. xi+164 pp.
 
+[[Tannaka duality]] for Hopf algebras and their generalization is discussed in 
+
+* Joost Vercruysse, _Hopf algebras---Variant notions and reconstruction theorems_ ([arXiv:1202.3613](http://arxiv.org/abs/1202.3613))
+ {#Vercruysse}
 
 [[!redirects antipode]]
 [[!redirects Hopf monoid]]
