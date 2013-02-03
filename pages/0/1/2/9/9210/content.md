@@ -55,6 +55,10 @@ The notion of the Liouville-Poincar&#233; 1-form can be axiomatized in [[differe
 [[!redirects Poincaré 1-form]]
 [[!redirects Poincare 1-form]]
 
+[[!redirects Poincaré form]]
+[[!redirects Poincare form]]
+
+
 [[!redirects Liouville-Poincare 1-form]]
 
 
