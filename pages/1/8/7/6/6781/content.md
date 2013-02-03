@@ -57,3 +57,5 @@ Other articles
 [[!redirects quasihopf algebra]]
 [[!redirects quasiHopf algebra]]
 [[!redirects quasi-bialgebra]]
+
+[[!redirects quasi-Hopf algebras]]
