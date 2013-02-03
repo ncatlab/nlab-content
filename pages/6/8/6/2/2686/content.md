@@ -204,6 +204,8 @@ Further developments include
 * [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
  {#BursztynCrainic}
 
+* F. Bonechi, N. Ciccoli, N. Staffolani, M. Tarlini, _The quantization of the symplectic groupoid of the standard Podles sphere_ ([arXiv:1004.3163](http://arxiv.org/abs/1004.3163))
+
 The [[formal groupoid]] version of symplectic groupoids is discussed in
 
 * [[Alberto Cattaneo]], Benoit Dherin, [[Giovanni Felder]], _Formal symplectic groupoid_ ([arXiv:0312380](http://arxiv.org/abs/math/0312380))
