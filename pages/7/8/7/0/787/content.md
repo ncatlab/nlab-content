@@ -194,3 +194,6 @@ The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in
 
 [[!redirects Courant Lie 2-algebroid]]
 [[!redirects Courant Lie 2-algebroids]]
+
+[[!redirects Courant bracket]]
+[[!redirects Courant brackets]]
