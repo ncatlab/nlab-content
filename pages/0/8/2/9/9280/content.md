@@ -39,6 +39,22 @@ satisfying the evident [[associative law]] and [[unit law]].
 
 =--
 
+## Properties
+
+### Tannaka duality
+
+Precomposition with the product and unit bimodule makes the [[category of modules]] over the underlying [[associative algebra]] of a sesquialgebra itself into a [[monoidal category]].
+
+See for instance ([Vercruysse, 5.3.3](#Vercruysse)).
+
+## References
+
+* Joost Vercruysse, _Hopf algebras---Variant notions and reconstruction theorems_ ([arXiv:1202.3613](http://arxiv.org/abs/1202.3613))
+ {#Vercruysse}
+
+See also the references at _[[hopfish algebra]]_.
+
+
 [[!redirects sesquialgebras]]
 
 [[!redirects sesquiunital sesquialgebra]]
