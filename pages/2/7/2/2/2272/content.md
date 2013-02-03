@@ -37,7 +37,7 @@ A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds suc
 
 Every [[symplectic manifold]] carries a natural Poisson structure; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliation]]s of the underlying manifold such that each leaf is a symplectic manifold.
 
-The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Poisson manifold due to Kirillov. Its leaves are called [[coadjoint orbit]]s. 
+The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Poisson manifold, the _[[Lie-Poisson structure]]_. Its leaves are called [[coadjoint orbits]].
 
 ## Properties
 
