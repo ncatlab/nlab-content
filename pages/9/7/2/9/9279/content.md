@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _hopfish algebra_ is a generalization of that of [[Hopf algebra]] designed to behave better with respect to [[Morita equivalence]] of algebras.
+
+## References
+
+The notion was introduced in
+
+* Xiang Tang, [[Alan Weinstein]], [[Chenchang Zhu]], _Hopfish algebras_, Pacific J. Math. 231 (2007), no. 1, 193--216. ([arXiv:math/0510421](http://arxiv.org/abs/math/0510421))
+
+
+[[!redirects Hopfish algebra]]
+
+[[!redirects hopfish algebras]]
+[[!redirects Hopfish algebras]]
+
