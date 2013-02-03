@@ -30,7 +30,7 @@
 
 We discuss aspects of the [[extended geometric quantization]] of one of the simplest and yet interesting examples of [[schreiber:∞-Chern-Simons theory]], namely [[2d Chern-Simons theory]] and here specifically the case induced by a binary and non-degenerate [[invariant polynomial]], namely the [[Lie integration|Lie integrated]] version of the [[Poisson sigma-model]].
 
-It turns out that several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[n-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially what is known as the _[[geometric quantization of symplectic groupoids]]_.
+It turns out that several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[2-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially what is known as the _[[geometric quantization of symplectic groupoids]]_.
 
 To some extent in the following we simply review the traditional [[geometric quantization of symplectic groupoids]] but we show at the same time how its ingredients are (more) naturally interpreted in [[higher symplectic geometry]]. This makes quantization of symplectic groupoids a good test case against which to check notions of [[higher geometric quantization]].
 
@@ -44,7 +44,7 @@ All of this should be a blueprint for an analogous situaton in one dimension hig
 
 We briefly indicate the basis for re-interpreting traditional [[symplectic groupoid]]-theory in terms of [[higher symplectic geometry]].
 
-The identification of the traditional notion of "[[symplectic groupoid]]" as really a [[n-plectic geometry|2-plectic]] structure is evident as soon as one translates the traditional definition of a [[symplectic groupoid]] to more intrinsic language of [[smooth infinity-groupoid|higher differential geometry]]. We discuss this in detail below, but in brief it works as follows: 
+The identification of the traditional notion of "[[symplectic groupoid]]" as really a [[2-plectic geometry|2-plectic]] structure is evident as soon as one translates the traditional definition of a [[symplectic groupoid]] to more intrinsic language of [[smooth infinity-groupoid|higher differential geometry]]. We discuss this in detail below, but in brief it works as follows: 
 
 A [[symplectic groupoid]] $(\mathbf{X},\omega)$ is traditionally defined to be a [[Lie groupoid]] $\mathbf{X}$ which is equipped with a (non-degenerate) [[differential 2-form]] $\omega \in \Omega^2(\mathbf{X}_1)$ on its [[smooth manifold]] of [[morphisms]], such that it is annihilated by the [[de Rham differential]] as well as by 
 the operator $\delta$ that sums the [[pullback of differential forms|pullback]] of $\omega$ to the space $\mathbf{X}_2$ of composable morphisms along the [[source]] and [[target]] maps and minus that along the [[composition]] map.
