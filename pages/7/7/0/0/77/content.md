@@ -127,6 +127,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
   * [[Lie group]]
 
+  * [[Lie-Poisson structure]]
+
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
 * [[L-∞ algebra]], [[smooth ∞-group]]
