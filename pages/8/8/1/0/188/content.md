@@ -190,3 +190,6 @@ In summary, it is important to make people understand that groups can be identif
 [[!redirects monoid objects]]
 [[!redirects internal monoid]]
 [[!redirects internal monoids]]
+
+[[!redirects algebra object]]
+[[!redirects algebra objects]]
