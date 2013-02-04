@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _quasitriangular Hopf algebra_ is a [[Hopf algebra]] with the property that its [[category of modules]] is not just a [[rigid monoidal category]] but a [[symmetric monoidal category]].
+A _(quasi-)triangular Hopf algebra_ is a [[Hopf algebra]] whose underlying [[bialgebra]] is a [[quasitriangular bialgebra|(quasi-)triangular]].  This means that its [[category of modules]] is not just a [[rigid monoidal category]] but a [[braided monoidal category]]/[[symmetric monoidal category]].
 
 
 ## Definition
@@ -28,6 +28,9 @@ A _quasitriangular Hopf algebra_ is a [[Hopf algebra]] with the property that it
 
 [[!include structure on algebras and their module categories - table]]
 
+## Examples
+
+A [[quantum group]] (in the sense of Drinfeld-Jimbo) is a quasitriangular Hopf algebra.
 
 ## References
 
