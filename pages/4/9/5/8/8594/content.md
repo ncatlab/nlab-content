@@ -35,6 +35,9 @@ Similarly a _topological field_ is a topological ring whose underlying ring is i
 
 *  For any prime $p$, the ring of [[p-adic integer]]s is a topological ring.
   
+## Related concepts
+
+* [[local field]]
 
 [[!redirects topological rings]]
 [[!redirects topological field]]
