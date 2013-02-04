@@ -157,6 +157,9 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* [[2Ab]], [[2Ring]]
 
 ## References
 
