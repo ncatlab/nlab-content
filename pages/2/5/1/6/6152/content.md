@@ -1,10 +1,24 @@
-The forgetful strict monoidal functor from a monoidal category to some standard monoidal category, usually the category of vector spaces over a field is called the __fiber functor__ in some contexts, especially in [[Tannaka reconstruction]] in which the symmetry object is reconstructed from the (object of) endomorphisms of the fiber functor. In mixed Tannaka duality, a single fiber functor does not suffice for reconstruction, but rather a family of fiber functors to different bases. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[forgetful functor|forgetful]] [[strict monoidal functor]] from a [[monoidal category]] to some standard monoidal category, usually the category [[Vect]] of [[vector spaces]] over a field is called the __fiber functor__ in some contexts, especially in [[Tannaka reconstruction]] in which the symmetry object is reconstructed from the (object of) endomorphisms of the fiber functor. In mixed Tannaka duality, a single fiber functor does not suffice for reconstruction, but rather a family of fiber functors to different bases. 
 
 The notion seems to be introduced in 1960-s in Grothendieck school. The terminology is from the [[Grothendieck Galois theory]]: namely Grothendieck reconstructs the fundamental group in algebraic geometry from a fiber functor of rather geometric origin: the fundamental group acts on a covering by deck transformations and by monodromy transformation for bundles over the covering. When we tend to a point, by making smaller and smaller loops, we have the automorphism of a fiber above that point. Thus algebraic analogues of such a picture can be used to define a fundamental group, not by loops which may be hard to define in abstract setups, but by Tannakian reconstruction. 
 
 ## Warning
 
 Please do not confuse the terminology with the case of a functor which is a [[Grothendieck fibration]] (i.e. a fibered category); nor with a fiber ("preimage" of a sort) of a functor. 
+
+## Properties
+
+### Tannaka duality
+
+[[!include structure on algebras and their module categories - table]]
+
 
 ## Literature
 
