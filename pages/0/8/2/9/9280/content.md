@@ -49,6 +49,9 @@ See for instance ([Vercruysse, 5.3.3](#Vercruysse)).
 
 In fact, regarding the [[category of modules]] $Mod_A$ as a [[2-abelian group]], the structure of a sesquialgebra on $A$ is equivalently the structure of a [[2-ring]] (see there) on $Mod_A$.
 
+[[!include structure on algebras and their module categories - table]]
+
+
 ## References
 
 * Joost Vercruysse, _Hopf algebras---Variant notions and reconstruction theorems_ ([arXiv:1202.3613](http://arxiv.org/abs/1202.3613))
