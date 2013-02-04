@@ -4,6 +4,7 @@
 | [[associative algebra]]  | [[category of modules]]  |
 |--|--|
 | $A$ | $Mod_A$ |
+| $R$-[[associative algebra|algebra]] | $Mod_R$-[[2-module]] |
 | [[sesquialgebra]] | [[2-ring]] = [[monoidal category|monoidal]]  [[presentable category]] with [[colimit]]-preserving [[tensor product]] |
 | [[bialgebra]] | strict [[2-ring]]: including [[fiber functor]] |
 | [[Hopf algebra]] | [[rigid monoidal category]] with [[fiber functor]] |
