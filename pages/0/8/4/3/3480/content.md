@@ -73,7 +73,7 @@ subtle harmonic analysis.
 A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the ordinary [[Yoneda lemma]].
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for permutation representations)**
 
@@ -174,7 +174,7 @@ Notice that the proof in no way used the fact that $G$ was assumed to be a [[gro
 
 But moreover, as the long-winded proof above makes manifest, even more abstractly the proof really only depended on the fact that the [[delooping]] $\mathbf{B}G$ is a [[small category]]. It need not have a single object for the proof to go through verbatim. Therefore we immediately obtain the following much more general statement of Tannaka duality for permutation representations of categories:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for permutation representations of categories)**
 
@@ -200,7 +200,7 @@ Observe that the setup, statement and proof of Tannaka duality for permutation r
 Then the statement says:
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for $V$-modules over $V$-algebras)**
 
@@ -238,7 +238,7 @@ The case of permutation representations is re-obtained by setting $V = $ [[Set]]
 
 As before, the same proof actually shows the following more general statement
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for $V$-modules over $V$-algebroids)**
 
@@ -261,12 +261,12 @@ The general case of Tannaka duality for $V$-modules described [above](#ForVModul
 
 In this case the above says
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 **(Tannaka duality for linear modules)**
 
-For $A$ an [[algebra]] and $A Mod$ its category of [[module]]s, 
-and for $F : A Mod \to Vect$ the fiber functor that sends a module to 
+For $A$ an [[algebra]] and $A Mod$ its category of [[modules]], 
+and for $F : A Mod \to Vect$ the [[fiber functor]] that sends a module to 
 its underlying vector space, we have a natural isomorphism
 
 $$
@@ -276,6 +276,12 @@ $$
 in [[Vect]].
 
 =--
+
+Additional structure on the algebra $A$ corresponds to addition structure on its [[category of modules]] as indicated in the following table:
+
+[[!include structure on algebras and their module categories - table]]
+
+
 
 #### For linear group representations
 
@@ -287,7 +293,7 @@ $$
 
 and we obtain 
 
-+-- {: .un_corollary}
++-- {: .num_cor}
 ###### Corollary
 **(Tannaka duality for linear group representations)**
 
@@ -359,7 +365,7 @@ This is notably the case for [[(∞,1)-category]] theory, where we have the [[(�
 
 By applying the $(\infty,1)$-Yoneda lemma verbatim four times in a row as above [for permutation representations](#ForPermutationRepresentations), we obtain the following statement for [[∞-permutation representations]].
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for $\infty$-permutation representations)**
 
@@ -375,7 +381,7 @@ $$
 As before, this holds immediately even for representations of [[(∞,1)-categories]]
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Tannaka duality for $\infty$-permutation representations)**
 
@@ -399,7 +405,7 @@ For $x \in X$ a point, write $F_x : LConst(X) \to \infty Grpd$ for the correspon
 
 Then we have
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $x \in X$ there is a natural [[weak homotopy equivalence]]
