@@ -179,7 +179,10 @@ See [[infinity-representation]].
 
 ## Related concepts
 
+
 * [[vector space]], [[(∞,1)-vector space]], [[(∞,1)-vector bundle]]
+
+* [[2-ring]], [[2-module]]
 
 * [[2-vector space]]
 
