@@ -91,9 +91,12 @@ from the category of bimodules to that of colimit-preserving functors between th
 
 ### For other internal monoids and internal modules
 
-The standard Eilenberg-Watts theorem is a statement about [[monoids]] and their [[actions]] in [[Ab]]. More generally one may ask for generalizations of the theorem to other internalization contexts, and in particular to [[homotopy theory]]. See ([Hovey](#Hovey)).
+The standard Eilenberg-Watts theorem is a statement about [[monoids]] and their [[actions]] in [[Ab]]. More generally one may ask for generalizations of the theorem to other internalization contexts, and in particular to [[homotopy theory]]. See the introduction of ([Hovey](#Hovey)).
 
-In particular Eilenberg-Watts theorems hold true in the following [[model categories]] (see at [[model structure on modules over an algebra over an operad]])
+### For $\infty$-algebras and $\infty$-modules
+ {#ForInfinityAlgebrasAndInfinityModules}
+
+In particular Eilenberg-Watts theorems hold true in the [[homotopy theory]] following [[model categories]] (see at [[model structure on modules over an algebra over an operad]])
 
 * [[model structure on topological spaces]]
 
@@ -103,6 +106,24 @@ In particular Eilenberg-Watts theorems hold true in the following [[model catego
 
 * [[model structure on spectra]] (symmetric, orthogonal, $\mathbb{S}$-modules).
 
+This is the main theorem in ([Hovey](#Hovey)).
+
+More generally, we have the first half of the Eilenberg-Watts theorem in [[(∞,1)-category theory]]:
+
++-- {: .num_prop }
+###### Proposition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]] with [[geometric realization]] of [[simplicial objects in an (∞,1)-category]] such that the [[tensor product]] $\otimes$ preserves this in each variable, then for all [[A-∞ algebra]] $A,B,C$ in $\mathcal{C}$, the tensor product of [[∞-bimodules]] 
+
+$$
+  (-) \otimes_B (-) \;\colon\; {}_A Mod_{B} \times {}_B Mod_{C} \to {}_{A} Mod_{C}
+$$
+
+preserves [[(∞,1)-colimits]] separately in each argument.
+
+=--
+
+This is ([Lurie, cor. 4.3.5.15](#Lurie)).
 
 ## Related concepts
 
@@ -128,6 +149,11 @@ Generalization to [[homotopy theory]]/[[higher algebra]] is discussed in
 
 * [[Mark Hovey]], _The Eilenberg-Watts theorem in homotopical algebra_ ([pdf](http://hopf.math.purdue.edu/Hovey/watts.pdf))
  {#Hovey}
+
+and 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 [[!redirects Watts theorem]]
 [[!redirects Eilenberg-Watts' Theorem]]
