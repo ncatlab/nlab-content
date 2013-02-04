@@ -16,15 +16,38 @@ The field of Puiseux series carries a [[valuation ring|valuation]] whose values 
 
 Puiseux series were in essence considered by [[Isaac Newton]], who developed a method of expanding algebraic functions as Puiseux series, based on an analogue of Newton's method of approximating roots. Here is a sample theorem: 
 
-+-- {: .un_thm} 
-######Theorem 
++-- {: .num_theorem #Puiseux} 
+###### Theorem 
 If $K$ is [[algebraically closed field|algebraically closed]] and has characteristic 0, then the field of Puiseux series over $K$ is the algebraic closure of the field of Laurent series over $K$. 
 =-- 
+
++-- {: .proof} 
+###### Proof (sketch) 
+It is enough to show that every degree $n$ extension $E$ of the field of Laurent series $K((x))$ is of the form $K((x^{1/n}))$. For this, it suffices that the integral closure $B$ of $K[ [x] ]$ in $E$ be of the form $K[ [x^{1/n}] ]$. 
+
+Generally speaking, let $A$ be a complete DVR ([[valuation ring|discrete valuation ring]]) with maximal ideal $\mathfrak{m}_A$ and residue class field $k_A$, and let $F$ be its field of fractions. Let $E$ be a degree $n$ extension of $F$, and let $B$ be the integral closure of $A$ in $E$. Then $B$ is also a complete DVR. We may write the ideal $\mathfrak{m}_A B$ of $B$ as $\mathfrak{m}_B^e$ where $e$ is the _ramification index_, and we have  
+
+$$n = deg_F E = rank_A B = rank_{A/\mathfrak{m}_A} B/\mathfrak{m}_A B = dim_{k_A} B/\mathfrak{m}_B^e = e \cdot dim_{k_A} k_B$$ 
+
+where the last equation holds because $\mathfrak{m}_B^i/\mathfrak{m}_B^{i+1} \cong k_B$ as $k_B$-modules and therefore also as $k_A$-modules. In the case $A = K[ [x] ]$ where $k_A = K$, we have that $dim_{k_A} k_B = 1$ since $K$ is algebraically closed, and therefore $e = n$. In other words, $(x)B = \mathfrak{m}_B^n$, so we can write $x = u \pi^n$ where $\pi$ generates the maximal ideal of $B$ and $u$ is a unit of $B$. 
+
+The residue class $\bar{u} \in K$ has an $n^{th}$ root (again by algebraic closure); in fact a simple root since $char(K) = 0$. By [[Hensel's lemma]], this lifts to an $n^{th}$ root of $u$ in $B$. The element $u^{1/n} \pi$ is thus an $n^{th}$ root of $x$, and is a generator of the maximal ideal of $B$. Writing this element as $y = x^{1/n}$, the ring $K[ [y] ] = A[x^{1/n}] \hookrightarrow B$ is an $A$-submodule of full rank $n$, hence $K[ [y] ] = B$, as was to be shown. 
+=-- 
+
+
 
 
 ## References
 
 * wikipedia [Puiseux series](http://en.wikipedia.org/wiki/Puiseux_series)
+
+The sketched proof of theorem \ref{Puiseux} was extracted from notes on a seminar by Boyarchenko on local class field theory: 
+
+* Mitya Boyarchenko, Kottwitz Seminar Lectures, (U. Michigan, Winter 2011). ([pdf](http://www.math.lsa.umich.edu/seminars/kottwitz/HieuNgoLocalCFT.pdf)) 
+
+and the reader may refer to the classic text by Serre for a fuller treatment: 
+
+* Jean-Pierre Serre, _Local Fields_ (trans. Marvin J. Greenberg), Graduate Texts in Math. 67, Springer 1980. 
 
 For a noncommutative generalization see
 
