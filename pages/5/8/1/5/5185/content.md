@@ -20,7 +20,7 @@
 ## Definition
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let 
