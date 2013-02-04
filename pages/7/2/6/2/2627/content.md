@@ -292,6 +292,10 @@ that satisfy the action property. Such as presented under the [[Eilenberg-Watts 
 
 [[!include structure on algebras and their module categories - table]]
 
+## Related concepts
+
+A further sligth variant of compatibly monoidal comcomplete categories is that of _monoidal [[vectoids]]_.
+
 ## References
 
 The proposal that a 2-ring should be a compatibly monoidal cocomplete category is due to
@@ -307,6 +311,11 @@ The proposal that a 2-ring should be a compatibly monoidal presentable category 
 This is related to 
 
 * [[Jacob Lurie]], _[[Tannaka duality for geometric stacks]]_.
+
+A similar notion is that of "monoidal [[vectoid]]" due to
+
+* [[Nikolai Durov]], _Classifying vectoids and generalisations of operads_ ([arxiv/1105.3114](http://arxiv.org/abs/1105.3114)) the translation of "&#1050;&#1083;&#1072;&#1089;&#1089;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1080;&#1076;&#1099; &#1080; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099; &#1086;&#1087;&#1077;&#1088;&#1072;&#1076;", Trudy MIAN, vol. 273
+
 
 The role of presentable categories as higher analogs abelian groups in the context of [[(infinity,1)-categories]] have been made by [[Jacob Lurie]],  see at _[[Pr(infinity,1)Cat]]_.
 
