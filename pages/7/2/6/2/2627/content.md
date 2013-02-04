@@ -140,7 +140,7 @@ $$
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #TensorProductModuleCategoriesAsOf2AbelianGroups}
 ###### Example
 
 For $R$ a [[ring]] the [[category of modules]] $Mod_R$ is presentable and 
@@ -156,8 +156,8 @@ $$
 
 ([CJF, example 2.2.7](#CJF))
 
-+-- {: .num_example }
-###### Example
++-- {: .num_prop #EilenbergWattsTheorem}
+###### Proposition
 
 For $R_1, R_2$ two rings,
 the category  of 2-abelian group homomorphisms between the [[categories of modules]] is [[natural equivalence|naturally equivalent]] to that of $R_1$-$R_2$-[[bimodules]] and their [[intertwiners]]:
@@ -218,6 +218,13 @@ The category [[Ab]] of [[abelian groups]] with its standard [[tensor product of 
 
 =--
 
++-- {: .num_example #CommutativeRingGivesCommutative2Ring}
+###### Example
+
+For $R$ an ordinary [[commutative ring]], $Mod_R$ equipped with its usual [[tensor product of modules]] is a commutative 2-ring.
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
@@ -257,11 +264,33 @@ which satisfies the evident action property.
 
 ([CJF, def. 2.3.3](#CJF))
 
++-- {: .num_example}
+###### Example
+
+Let $R$ be an ordinary [[commutative ring]] and $A$ an ordinary $R$-[[associative algebra|algebra]]. Then by example \ref{CategoryOfModulesAs2AbelianGroup} $Mod_A$ is a 2-abelian group and by example
+\ref{CommutativeRingGivesCommutative2Ring} $Mod_R$ is a commutative ring. By example \ref{TensorProductModuleCategoriesAsOf2AbelianGroups} 
+$Mod_R$-[[2-module]] structures on $Mod_A$
+
+$$
+  Mod_R \boxtimes \Mod_A \to Mod_A
+$$
+
+correspond to colimit-preserving functors 
+
+$$
+  Mod_{R \otimes_{\mathbb{Z}} A} \to Mod_{A}
+$$
+
+that satisfy the action property. Such as presented under the [[Eilenberg-Watts theorem]], prop. \ref{EilenbergWattsTheorem}, by $R \otimes_{\mathbb{Z}} A$-$A$ [[bimodules]]. $A$ itself is canonically such a bimodule and it exhibits a $Mod_R$-[[2-module]] structure on $Mod_A$.
+
+=--
+
+
 ## Properties
 
 ### Tannaka duality
 
-[[!redirects structure on algebras and their module categories - table]]
+[[!include structure on algebras and their module categories - table]]
 
 ## References
 
