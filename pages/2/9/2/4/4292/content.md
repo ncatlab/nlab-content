@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -20,6 +30,12 @@ If there is $k \in \mathbb{N}$ such that $a_n = 0 $ for all $n \gt k$ then this 
 
 ## Examples
 
+### Taylor series
+
+* [[Taylor series]]
+
+### MacLaurin series
+
 For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[MacLaurin series]] (its [[Taylor series]] at $0$) is the power series
 
 $$
@@ -29,6 +45,14 @@ $$
 $$
 
 If this power series [[convergence|converges]] to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
+
+### Laurent series
+
+* [[Laurent series]]
+
+### Puiseux series
+  
+* [[Puiseux series]]
 
 
 [[!redirects power series]]
