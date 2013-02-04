@@ -35,6 +35,14 @@ Nor does this definition assert that the right dual of an object is isomorphic t
 
 In practice, algebraic geometers are the most frequent users of the term 'rigid', and they focus on the symmetric monoidal case, so they ignore the difference between right and left duals.
 
+## Properties
+
+### Tannaka duality 
+
+The statement of [[Tannaka duality]] for associative algebras says that rigid monoidal categories equipped with a [[fiber functor]] are [[categories of modules]] over a [[Hopf algebra]].
+
+[[!include structure on algebras and their module categories - table]]
+
 
 ## Related concepts
 
