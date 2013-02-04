@@ -124,6 +124,12 @@ There is a [[strict 2-category]] BrMonCat with:
 * [[braided monoidal functor|braided monoidal functors]] as morphisms, 
 * [[braided monoidal natural transformation|braided monoidal natural transformations]] as 2-morphisms.
 
+## Properties
+
+### Tannaka duality
+
+[[!include structure on algebras and their module categories - table]]
+
 ## Related concepts
 
 * [[k-tuply monoidal (n,r)-category]]
