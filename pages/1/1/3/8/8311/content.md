@@ -113,7 +113,14 @@ is an [[additive functor|additve]] [[right exact functor]].
 
 The functor is [[additive functor|additive]] by the [[distributivity]] of tensor products over [[direct sums]], prop. \ref{DistributivityOverDirectSum}.
 
-A [[category theory|general abstract]] way of seeing that the functor is right exact is to notice that $(-)\otimes_R N$ is a [[left adjoint]] functor, its [[right adjoint]] being the [[internal hom]] $[N,-]$ (see at [[Mod]]). By the discussion at _[[adjoint functor]]_ this means that $(-) \otimes_R N$ even preserves all [[limits]], in particular the [[finite limits]].
+A [[category theory|general abstract]] way of seeing that the functor is right exact is to notice that $(-)\otimes_R N$ is a [[left adjoint]] functor, its [[right adjoint]] being the [[internal hom]] $[N,-]$ (see at [[Mod]]). By the discussion at _[[adjoint functor]]_ this means that $(-) \otimes_R N$ even preserves all [[colimits]], in particular the [[finite colimits]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The interpretation of this statement in [[higher category theory]]is that $Mod_A$ is a [[2-abelian group]] (see also the discussion at _[[2-ring]]_).
 
 =--
 
