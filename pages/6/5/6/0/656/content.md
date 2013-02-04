@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -43,8 +56,61 @@ Second: bimodules are not that much good unless you can compose them; for that o
 ## Properties
 
 ### As morphisms in a 2-category
+ {#AsMorphismsInA2Category}
 
-Bimodules form the [[1-morphisms]] in a [[2-category]]. (...)
+Let $R$ be a [[commutative ring]] and consider bimodules over $R$-algebras.
+
++-- {: .num_prop #AlgebrasAndBimodules}
+###### Proposition
+
+There is a [[2-category]] whose 
+
+* [[objects]] are $R$-[[algebras]];
+
+* [[1-morphisms]] are bimodules;
+
+* [[2-morphisms]] are [[intertwiners]].
+
+The [[composition]] of 1-morphisms is given by the [[tensor product of modules]] over the middle algebra.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[2-functor]] from the above 2-category of algebras and bimodules to [[Cat]] which
+
+* sends an $R$-algebra $A$ to its [[category of modules]] $Mod_A$;
+
+* sends a $A_1$-$A_2$-bimodule $N$ to the [[tensor product]] [[functor]]
+
+  $$
+    (-)\otimes_{A_1} N
+    \;\colon\;
+    Mod_{A_1} \to Mod_{A_2}
+  $$
+
+* sends an [[intertwiner]] to the evident [[natural transformation]] of the above functors.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+This construction has as its image precisely the [[colimit]]-preserving [[functors]] between [[categories of modules]].
+
+=--
+
+This is the [[Eilenberg-Watts theorem]].
+
++-- {: .num_remark}
+###### Remark
+
+In the context of [[higher category theory]]/[[higher algebra]] one may interpret this as says that the [[2-category]] of those [[2-modules]] over the given ring which are equivalent to a [[category of modules]] is that of $R$-algebras, bimodules and intertwiners. See also at _[[2-ring]]_.
+
+=--
+
+
 
 ## Related concepts
 
