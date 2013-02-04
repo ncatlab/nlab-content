@@ -314,11 +314,13 @@ This is related to
 
 A similar notion is that of "monoidal [[vectoid]]" due to
 
-* [[Nikolai Durov]], _Classifying vectoids and generalisations of operads_ ([arxiv/1105.3114](http://arxiv.org/abs/1105.3114)) the translation of "&#1050;&#1083;&#1072;&#1089;&#1089;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1080;&#1076;&#1099; &#1080; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099; &#1086;&#1087;&#1077;&#1088;&#1072;&#1076;", Trudy MIAN, vol. 273
-
+* [[Nikolai Durov]], _Classifying vectoids and generalisations of operads_, Proc. of Steklov Inst. of Math. __273__:1, 48-63 (2011) [arxiv/1105.3114](http://arxiv.org/abs/1105.3114)), the translation of "&#1050;&#1083;&#1072;&#1089;&#1089;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1080;&#1076;&#1099; &#1080; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099; &#1086;&#1087;&#1077;&#1088;&#1072;&#1076;", Trudy MIAN, vol. 273
 
 The role of presentable categories as higher analogs abelian groups in the context of [[(infinity,1)-categories]] have been made by [[Jacob Lurie]],  see at _[[Pr(infinity,1)Cat]]_.
 
+Another, more algebraic, notion of a categorical ring is introduced in
+
+* M. Jibladze , T. Pirashvili, _Third Mac Lane cohomology via categorical rings_, 	J. of homotopy and related structures, __2__(2), 2007, 187&#8211;221 [pdf](http://www.emis.de/journals/JHRS/volumes/2007/n2a10/v2n2a10.pdf) [math.KT/0608519](http://arxiv.org/abs/math/0608519)
 
 [[!redirects 2-rig]]
 [[!redirects 2-rigs]]
