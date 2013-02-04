@@ -1,8 +1,13 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Definition#
+## Idea
+
+A _bimodule_ is a [[module]] in two compatible ways over two [[algebras]].
+
+## Definition
 
 Let $V$ be a [[closed monoidal category]]. Recall that for $C$ a category [[enriched category|enriched over]] $V$, a $V$-[[module]] is a $V$-functor $\rho : C \to V$. We think of the objects $\rho(a)$ for $a \in Obj(C)$ as the objects on which $C$ acts, and of $\rho(C(a,b))$ as the action of $C$ on these objects.
 
@@ -21,7 +26,7 @@ Some points are in order. Strictly speaking, the construction of $C^{op}$ from a
 Second: bimodules are not that much good unless you can compose them; for that one should add some cocompleteness assumptions to $V$ (with $\otimes$ cocontinuous in both arguments; biclosedness would ensure that), and consider smallness assumptions on the objects $C$, $D$, etc. ---Todd. 
 =--
 
-#Examples#
+## Examples
 
 * Let $V = Set$ and let $C = D$.  Then the hom functor $C(-, -):C^{op} \times C \to Set$ is a bimodule.  Bimodules can be thought of as a kind of generalized hom, giving a set of morphisms (or object of $V$) between an object of $C$ and an object of $D$.
 
@@ -34,5 +39,26 @@ Second: bimodules are not that much good unless you can compose them; for that o
   =--
 
 * Let $V = Vect$ and let $C = \mathbf{B}A_1$ and $D = \mathbf{B}A_2$ be two one-object $Vect$-enriched categories, whose endomorphism vector spaces are hence [[algebra]]s. Then a $C$-$D$ bimodule is a vector space $V$ with an action of $A_1$ on the left and and action of $A_2$ on the right.
+
+## Properties
+
+### As morphisms in a 2-category
+
+Bimodules form the [[1-morphisms]] in a [[2-category]]. (...)
+
+## Related concepts
+
+* [[2-module]], [[2-ring]]
+
+## References
+
+Bimodules in [[higher algebra]], [[A-infinity bimodules]], are discussed in
+
+* Volodymyr Lyubashenko, Oleksandr Manzyuk, _A-infinity-bimodules and Serre A-infinity-functors_ ([arXiv:math/0701165](http://arxiv.org/abs/math/0701165))
+
+section 5.4.1 of 
+
+* [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
+Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
 
 [[!redirects bimodules]]
