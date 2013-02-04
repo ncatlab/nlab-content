@@ -113,10 +113,11 @@ In the context of [[higher category theory]]/[[higher algebra]] one may interpre
 ### The $(\infty,2)$-category of $\infty$-algebras and $\infty$-bimodules
  {#Infinity2CategoryOfInfinityAlgebrasAndBimodules}
 
+We discuss the generalization of the notion of bimodules to [[homotopy theory]], hence the generalization from [[category theory]] to [[(∞,1)-category theory]]. ([Lurie, section 4.3](#Lurie)).
 
 Let $\mathcal{C}$ be [[monoidal (∞,1)-category]] such that 
 
-1. it admits [[geometric realization]] of [[simplicial objects in an (∞,1)-category]];
+1. it admits [[geometric realization]] of [[simplicial objects in an (∞,1)-category]] (hence a [[left adjoint|left]] [[adjoint (∞,1)-functor]] ${\vert-\vert} \colon \mathcal{C}^{\Delta^{op}} \to \mathcal{C}$ to the constant simplicial object functor), true notably when $\mathcal{C}$ is a [[presentable (∞,1)-category]];
 
 1. the [[tensor product]] $\otimes \colon \mathcal{C}\times \mathcal{C} \to \mathcal{C}$ preserves this geometric realization separately in each argument.
 
@@ -130,7 +131,7 @@ Then there is an
     Mod(\mathcal{C})_{[0]} \simeq Alg(\mathcal{C})
   $$
 
-  the [[A-∞ algebras]] in $\mathcal{C}$;
+  the [[A-∞ algebras]] and [[∞-algebra]] [[homomorphisms]] in $\mathcal{C}$;
 
 * $(\infty,1)$-category of morphisms
 
@@ -138,9 +139,43 @@ Then there is an
     Mod(\mathcal{C})_{[1]} \simeq BMod(\mathcal{C})
   $$
 
-  the $\infty$-bimodules in $\mathcal{C}$.
+  the $\infty$-bimodules and bimodule homomorphisms ([[intertwiners]]) in $\mathcal{C}$
 
 This is ([Lurie, def. 4.3.6.10, remark 4.3.6.11](#Lurie)).
+
+Morover, the [[horizontal composition]] of bimodules in this [[(∞,2)-category]] is indeed the relative tensor product
+
+$$
+  \circ_{A,B,C}
+  =
+  (-) \otimes_B (-)
+  \;\colon\;
+  {}_A Mod_{B} \times {}_{B}Mod_C \to {}_A Mod_C
+  \,.
+$$
+
+This is ([Lurie, lemma 4.3.6.9 (3)](#Lurie)).
+
+Here are some steps in the construction:
+
++-- {: .num_defn}
+###### Definition
+
+Define $Mod(\mathcal{C}) \to \Delta^{op}$ as the map of [[simplicial sets]] with the [[universal property]] that for every other map of simplicial set $K \to \Delta^{op}$ there is a canonical bijection
+
+$$
+  Hom_{sSet/S}(K, Mod(\mathcal{C}))
+  \simeq
+  Alg_{Tens_K / Ass}( \mathcal{C} )
+  \,.
+$$
+
+=--
+
+This is ([Lurie, cor. 4.3.6.2](#Lurie)) specified to the case of ([Lurie, lemma 4.3.6.9](#Lurie)).
+
+(...)
+
 
 ## Related concepts
 
@@ -162,4 +197,12 @@ and section 5.4.1 of
 * [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
 Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
 
+
 [[!redirects bimodules]]
+
+[[!redirects ∞-bimodule]]
+[[!redirects ∞-bimodules]]
+
+[[!redirects infinity-bimodule]]
+[[!redirects infinity-bimodules]]
+
