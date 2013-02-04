@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Bialgebra
 * table of contents
 {: toc}
@@ -6,7 +16,10 @@
 
 ## Idea
 
-A bialgebra (or bi[[gebra]]) is both an [[algebra]] and a [[coalgebra]], where the operations of either one are homomorphisms for the other.  A bialgebra is one of the ingredients in the concept of [[Hopf algebra]].
+A _bialgebra_ (or bi[[gebra]]) is both an [[algebra]] and a [[coalgebra]], where the operations of either one are [[homomorphisms]] for the other. A bialgebra structure on an [[associative algebra]] is precisely such as to make its [[category of modules]] into a [[monoidal category]] equipped with a [[fiber functor]].
+
+
+A bialgebra is one of the ingredients in the concept of [[Hopf algebra]].
 
 
 ## Definition
@@ -35,6 +48,8 @@ Notions of bialgebra with further structure notably include _[[Hopf algebras]]_ 
 ## Related concepts
 
 * [[Gerstenhaber-Schack cohomology]], [[bialgebra cocycle]], [[weak bialgebra]], [[bialgebroid]]
+
+* [[quasitriangular bialgebra]]
 
 * [[sesquialgebra]]
 
