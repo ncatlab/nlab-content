@@ -293,6 +293,8 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 * [[Bondal-Orlov reconstruction theorem]]
 
+* [[2-ring]]
+
 ## References
 
 The above material is taken from
@@ -306,5 +308,5 @@ The generalization to geometric stacks in the context of [[Spectral Schemes]] is
 
 Related discussion is in 
 
-* [[Martin Brandenburg]], Alexandru Chirvasitu, _Tensor functors between categories of quasi-coherent sheaves_ ([arXiv:abs/1202.5147](http://arxiv.org/abs/1202.5147))
+* [[Martin Brandenburg]], [[Alexandru Chirvasitu]], _Tensor functors between categories of quasi-coherent sheaves_ ([arXiv:abs/1202.5147](http://arxiv.org/abs/1202.5147))
 
