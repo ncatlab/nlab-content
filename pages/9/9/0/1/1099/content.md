@@ -210,6 +210,8 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 
 * **(∞,1)-functor**
 
+  * [[monoidal (∞,1)-functor]]
+
 * [[(∞,n)-functor]]
 
 
@@ -225,3 +227,5 @@ discusses morphisms of [[quasi-category|quasi-categories]].
 [[!redirects (infinity,1)-functors]]
 [[!redirects (∞,1)-functor]]
 [[!redirects (∞,1)-functors]]
+
+
