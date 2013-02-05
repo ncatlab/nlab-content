@@ -18,6 +18,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given a [[2-ring]] $R$, a _line 2-bundle_ or _2-line bundle_ is a _[[2-module bundle]]_ whose typical fiber is a [[2-line]] over $R$.
+
 ## Definition
 
 ### Recalling general 2-vector bundles
