@@ -1,11 +1,16 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
@@ -27,6 +32,13 @@ Example:
 
 * [[DHR superselection theory]] 
 
+## Related concepts
+
+* [[superposition]]
+
+* [[quantum interference]]
+
+* [[entanglement]]
  
 ## References ##
 
