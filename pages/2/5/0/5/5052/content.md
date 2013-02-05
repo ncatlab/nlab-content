@@ -9,6 +9,14 @@ A [[reconstruction theorem]], a version of [[Tannaka duality]].
 
 Named after [[Sergio Doplicher]] and [[John Roberts]]. Serves in [[AQFT]] as an intrinsic characterization of the [[superselection sector]]s of a [[quantum field theory]]. See [[DHR superselection theory]].
 
+## Related concepts
+
+* [[Wigner classification]]
+
+  * [[unitary representation of the Poincaré group]]
+
+  * [[unitary representation of the super Poincaré group]]
+
 
 ## References
 
