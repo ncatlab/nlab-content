@@ -1,4 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Eugene_Wigner)
 
+## Related entries
+
+* [[Wigner classification]]
+
 category: people
