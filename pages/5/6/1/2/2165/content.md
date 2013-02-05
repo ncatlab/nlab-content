@@ -57,7 +57,13 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 ## Related concepts
 
-* [[complex line]]
+* [[complex vector space]]
+
+  * [[complex line]]
+
+* [[complex vector bundle]]
+
+  * [[complex line bundle]]
 
 * [[contour integration]]
 
