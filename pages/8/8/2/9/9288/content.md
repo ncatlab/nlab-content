@@ -15,6 +15,8 @@ A special case of modules are [[vector spaces]], which are the modules over a [[
 
 ### 1-Modules
 
+We briefly disucss here some basics of ordinary [[linear algebra]] with an emphasis on the generalization from [[vector spaces]] over [[fields]] to [[modules]] over [[rings]].
+
 #### Physics motivation: Phases and superposition of states
 
 In [[quantum mechanics]]
@@ -31,6 +33,8 @@ Together: [[space of quantum states]] is a $\mathbb{C}$-[[module]] = $\mathbb{C}
 
 
 ### $(\infty,n)$-Modules
+
+We turn now to the discussion of the generalization of the notion of [[module]] in [[higher category theory]]. First we discuss how the [[2-category]] of [[2-modules]] and their 2-linear maps is presented by the classical 2-category of [[associative algebras]] and [[bimodules]] between them. Then we disucss the $(\infty,2)$-category of $\infty$-algebras and [[∞-bimodules]] internal to any compatibly cocomplete [[monoidal (∞,1)-category]]. By iterating this construction in analogy to the iterative construction of [[(∞,n)-categories]] as $n$-fold [[categories in an (∞,1)-category]], we obtain a notion of [[(∞,n)-modules]].
 
 #### Physics motivation: Higher order states in extended QFT
 
@@ -106,7 +110,7 @@ See also at [[Pr(∞,1)Cat]] for more on this.
 +-- {: .num_remark}
 ###### Remark
 
-This is analous to the [[Deligne tensor product for abelian categories]].
+This is analous to the [[Deligne tensor product of abelian categories]].
 
 =--
 
