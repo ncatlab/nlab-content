@@ -30,7 +30,7 @@ For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], its **Picard 3-group** o
 
 ## Examples
 
-* For $R$ a [[commutative ring]] and $Alg_R$ the 2-category of [[associative algebras]] over $R$ and [[bimodules]] between them, the corresponding Picard 3-group may be thought of as that of [[line 2-bundles]] over $Spec R$. It has as [[homotopy groups]] the [[Brauer group]], the [[Picard group]] and the [[group of units]] of $R$.
+* For $R$ a [[commutative ring]] and $2Mod_R$ the 2-category of [[2-modules]] over $R$, hence of [[associative algebras]] over $R$ and [[bimodules]] between them and [[intertwiners]] between those, the corresponding Picard 3-group may be thought of as that of [[line 2-bundles]] over $Spec R$. It has as [[homotopy groups]] the [[Brauer group]], the [[Picard group]] and the [[group of units]] of $R$.
 
 ## Related concepts
 
