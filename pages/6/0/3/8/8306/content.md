@@ -142,6 +142,119 @@ $$
 __Multilinear maps__ are again a generalisation.
 
 
+### For $\infty$-modules
+
+([Lurie, section 4.3.4](#Lurie))
+
++-- {: .num_defn }
+###### Definition
+
+Write $Tens^\otimes$ for the category (...)
+
+By construction there are [[forgetful functors]]
+
+$$
+  \Delta^{op}
+  \leftarrow
+  Tens^\otimes
+  \rightarrow
+  \mathcal{Ass}^\otimes
+  \,.
+$$
+
+=--
+
+([Lurie, 4.3.4.1](#Lurie))
+
+
++-- {: .num_defn #NotationForTensS}
+###### Definition (Notation)
+
+For $S \to \Delta^{op}$ an [[(∞,1)-functor]] (given as a map of simplicial sets from a [[quasi-category]] $S$ to the [[nerve]] of the [[simplex category]]), write
+
+$$
+  Tens^\otimes_{S} 
+   \coloneqq
+  Tens^\otimes \underset{\Delta^{op}}{\times} S
+$$ 
+
+for the [[fiber product]] in [[sSet]].
+
+Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
+
+$$
+  Alg_S(\mathcal{C}) \hookrightarrow Fun_{Tens^\otimes_S}(Step_S, \mathcal{C}^\otimes)
+$$
+
+for the full [[sub-(∞,1)-category]] on those [[(∞,1)-functors]] which send inert morphisms to inert morphisms.
+
+=--
+
+([Lurie, notation 4.3.4.15](#Lurie))
+
+
++-- {: .num_prop }
+###### Proposition
+
+For an [[(∞,1)-functor]] $S \to \Delta^{op}$ and a [[fibration]] in the [[model structure for quasicategories]] $q \colon \mathcal{C}^\otimes \to Tens_S^\otimes$ exhibiting $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], then there is an [[equivalence of (∞,1)-categories]]
+
+$$ 
+  Alg_{/Tens_S}(\mathcal{C})
+  \to 
+  Alg_S(\mathcal{C})
+  \,.
+$$
+
+=--
+
+([Lurie, prop. 4.3.4.17](#Lurie)).
+
++-- {: .num_defn #NotationForTensGt}
+###### Definition (Notation)
+
+Let $\Delta^1 \to \Delta^{op}$ be the map that picks the morphism $\{0,2\} \hookrightarrow \Delta^2$ in the [[simplex category]]. With def. \ref{NotationForTensS} write
+ 
+$$
+  Tens^\otimes_{\gt}
+  \coloneqq
+  Tens_{\Delta^1}^\otimes
+  \coloneqq
+  Tens^\otimes \underset{\Delta^{op}}{\times} \Delta^1
+  \,.
+$$
+
+=--
+
+([Lurie, notation 4.3.5.1](#Lurie))
+
++-- {: .num_remark #BilinearInfinityMap}
+###### Remark 
+
+The $Tens^\otimes_{\gt}$ of def. \ref{NotationForTensGt} is a [[correspondence]] of [[(∞,1)-operads]] which exhibits bilinear maps as follows:
+
+An [[∞-algebra over an (∞,1)-operad]] $\gamma_1 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{1\}$ is equivalently a bimodule 
+
+$$
+  X \in {}_{A'} Mod(\mathcal{C})_{C'}
+  \,,
+$$ 
+
+while an $\infty$-algebra
+$\gamma_0 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{0\}$ is equivalently a pair of bimodules 
+
+$$
+  N_1 \in {}_A Mod(\mathcal{C})_B
+  \;\;, \;\;
+  N_2 \in {}_B Mod(\mathcal{C})_C
+ \,.
+$$
+
+An extension of $(\gamma_0, \gamma_1)$ through the correspondence hence to a map of [[generalized (∞,1)-operads]] $Tens^\otimes_{\gt} \to \mathcal{C}^\otimes$ is equivalently a pair of [[A-∞ algebra]] maps $A \to A'$ and $B \to B'$ together with a bilinear map $N_1 \otimes N_2 \to X$.
+  
+=--
+
+([Lurie, beginning of 4.3.4]).
+
 ## Examples
 
 * For $R = k$ a [[field]], an $R$-[[module]] is a $k$-[[vector space]] and a $R$-bilinear map is a bilinear map out of two vector spaces.
@@ -154,6 +267,12 @@ __Multilinear maps__ are again a generalisation.
 * [[binary morphism]], [[multimorphism]]
 
 * [[bifunctor]], [[Quillen bifunctor]]
+
+## References
+
+In the context of [[higher algebra]]/[[(∞,1)-category theory]] bilinear maps are discussed in section 4.3.4 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 
 [[!redirects bilinear map]]
@@ -169,3 +288,8 @@ __Multilinear maps__ are again a generalisation.
 [[!redirects multilinear mappings]]
 [[!redirects multilinear function]]
 [[!redirects multilinear functions]]
+
+[[!redirects bilinear map in an (∞,1)-category]]
+[[!redirects bilinear maps in an (∞,1)-category]]
+[[!redirects bilinear map in an (infinity,1)-category]]
+[[!redirects bilinear maps in an (infinity,1)-category]]
