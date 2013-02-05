@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[vector space]]/[[module]] over the [[field]] of [[complex numbers]].
+
+## Related concepts
+
+* [[complexification]]
+
+* [[complex vector bundle]]
+
+* [[complex line bundle]]
+
+[[!redirects complex vector spaces]]
