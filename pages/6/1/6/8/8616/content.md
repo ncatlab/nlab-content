@@ -100,3 +100,6 @@ See also for instance section 2.7 of
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
 [[!redirects pullback of differential forms]]
+
+[[!redirects pullback of functions]]
+[[!redirects pullback of a function]]
