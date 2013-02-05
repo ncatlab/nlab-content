@@ -1,0 +1,31 @@
+[[!redirects decoherence]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The disappearance of quantum [[entanglement]] and [[superposition]] in the limit where small [[quantum mechanical systems]] are coupled to large [[thermal baths]].
+
+## Related concepts
+
+* [[classical limit]]
+
+* [[density matrix]]
+
+## References
+
+* Wikipedia, _[Quantum decoherence](http://en.wikipedia.org/wiki/Quantum_decoherence)_
+
