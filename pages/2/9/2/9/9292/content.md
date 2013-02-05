@@ -30,6 +30,10 @@ If $S$ is a [[finite set]] or else if one restricts to functions that are non-va
 
 Sending [[spaces]] to their suitable algebras of functions constitutes a basic [[duality]] operation that relates [[geometry]] and [[algebra]]. For more on this see at _[[Isbell duality]]_.
 
+## Related concepts
+
+* [[pullback of functions]]
+
 [[!redirects algebras of functions]]
 [[!redirects function algebra]]
 [[!redirects function algebras]]
