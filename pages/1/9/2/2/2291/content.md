@@ -35,11 +35,19 @@ The class of line bundles has a nicer behaviour (in some ways) than the class of
 +-- {: .num_example}
 ###### Example
 
-Over any [[manifold]] there is canonically the _[[density line bundle]]_ which is the [[associated bundle]] to the [[principal bundle]] underlying the [[tangent bundle]] by the [[derterminant]] homomorphism.
+Over any [[manifold]] there is canonically the _[[density line bundle]]_ which is the [[associated bundle]] to the [[principal bundle]] underlying the [[tangent bundle]] by the [[determinant]] homomorphism.
 
 =--
 
 ## Related concepts
+
+* [[complex vector space]]
+
+  * [[complex line]]
+
+* [[complex vector bundle]]
+
+  * [[complex line bundle]]
 
 * [[bundle gerbe]]
 
