@@ -216,6 +216,10 @@ section 7 of
 [[!redirects (∞,n)-module]]
 [[!redirects (∞,n)-modules]]
 
+[[!redirects (infinity,2)-module]]
+[[!redirects (infinity,2)-modules]]
+[[!redirects (∞,2)-module]]
+[[!redirects (∞,2)-modules]]
 
 [[!redirects 3-vector space]]
 [[!redirects 3-vector spaces]]
