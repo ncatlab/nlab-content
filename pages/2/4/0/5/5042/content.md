@@ -18,14 +18,14 @@
 
 The [[model category]] structure on the category $dgLie_k$ of [[dg-Lie algebra]]s over a commutative [[ring]] $k \supset \mathbb{Q}$ has
 
-* fibrations the surjective maps
+* [[fibrations]] the [[surjective maps]]
 
-* weak equivalences the [[quasi-isomorphism]]s.
+* [[weak equivalences]] the [[quasi-isomorphisms]] on the underlying [[chain complexes]].
 
 This is a [[simplicial model category]] with respect to the [[sSet]]-[[hom functor]]
 
 $$
-  dgLie(\mathfrak{g}, \mathfrak{g})
+  dgLie(\mathfrak{g}, \mathfrak{h})
   :=
   ([k] \mapsto Hom_{dgLie}(\mathfrak{g} , \Omega^\bullet(\Delta^k) \otimes\mathfrak{h}))
   \,,
@@ -33,9 +33,9 @@ $$
 
 where 
 
-* $\Omega^\bullet(\Delta^k)$ is the [[dg-algebra]] of polynomial [[differential form]]s on the $k$-[[simplex]];
+* $\Omega^\bullet(\Delta^k)$ is the [[dg-algebra]] of [[polynomial differential forms]] on the $k$-[[simplex]];
 
-* $\Omega^\bullet(\Delta^k)\otimes \mathfrak{h}$ is the canonical dg-Lie algebra structure on the tensor product.
+* $\Omega^\bullet(\Delta^k)\otimes \mathfrak{h}$ is the canonical dg-Lie algebra structure on the [[tensor product]].
 
 ## Properties
 
