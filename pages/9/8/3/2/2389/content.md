@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 An [[oscillation]] is a *periodic motion of a physical system*, i.e. as a function of time, the position of the system of particles expressed as a coordinate in a configuration space depends as $t\mapsto x(t)$ where $x(t) = x(t+I)$ where $I$ is a constant called the period of the motion. The motion can pertain to a system of particles, to the coordinates determining the position of a rigid body or can express the magnitude of some physical quantity like pressure which evolves in time. In a mechanical system, the point in which the potential energy is minimal is called the equlibrium position; the relative position with respect to the equilibrium position is called the __elongation__. The maximal elongation is usually called the __amplitude of oscillation__.
 
 A __wave__ is the (result of) *propagation of oscillations through an extended medium*.
@@ -9,6 +26,10 @@ are especially well-known in gauge theories (including the 4d case localized in 
 
 The [[quantum mechanics]], when described mathematically via the solutions of a time-dependent Schroedinger equation, is a wave mechanics where the modulus square of the amplitude is interpreted as the density of probability to find the particle in the corresponding position. Linear superposition is thus one of the basic features of quantum mechanics. 
 
-Related entries: [[oscillation]], [[semiclassical approximation]], [[geometrical optics]], [[soliton]], [[Stokes phenomenon]], [[Berry's phase]].
+## Related concepts
+
+* [[oscillation]], [[semiclassical approximation]], [[geometrical optics]], [[soliton]], [[Stokes phenomenon]], [[Berry's phase]].
 
 [[!redirects waves]]
+
+[[!redirects wave mechanics]]
