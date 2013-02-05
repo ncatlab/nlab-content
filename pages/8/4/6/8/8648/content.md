@@ -22,3 +22,6 @@ In [[quantum theory]] the [[state]] of a [[physical system]] is given by a [[vec
 * [[space of states]]
 
 [[!redirects superpositions]]
+
+[[!redirects superposition principle]]
+
