@@ -24,7 +24,7 @@ There are two different theorems of the same intuitive spirit so they are common
 
 1) **Serre's theorem**: let $R$ be a commmutative unital [[Noetherian ring]] (in particular, the coordinate ring of an [[affine variety]] over a [[field]]), then the [[category]] of finitely-generated <em>projective</em> $R$-[[module]]s is equivalent to the category of [[algebraic vector bundle]]s (= locally free [[sheaf|sheaves]] of $O$-[[module]]s of constant finite rank) on $Spec R$.
 
-2) **Swan's theorem**: Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the category of finitely generated projective $C(X)$-modules is equivalent to the category of (finite-dimensional) [[vector bundle]]s on $X$. 
+2) **Swan's theorem**: Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the category of [[finitely generated module|finitely generated]] [[projective modules]] over the [[function algebra]] $C(X)$ is equivalent to the category of finite-[[rank]] [[vector bundles]] on $X$, where the equivalence is established by sending a vector bundle to the its module of continuous [[sections]].
 
 These theorems are important as they help extending the [[topological K-theory]] as a special cases of [[algebraic K-theory]], as well as to motivate an approach to vector bundles in [[noncommutative geometry]].
 
