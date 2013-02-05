@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,4 +20,14 @@ A [[symmetry]] is (in most classical situations) invariance under a [[group]] [[
 
 ## Related concepts
 
+* [[automorphism group]]
+
+* [[invariant]], [[invariant theory]]
+
+* [[stabilizer subgroup]]
+
 * [[supersymmetry]]
+
+[[!redirects symmetries]]
+[[!redirects symmetry group]]
+[[!redirects symmetry groups]]
