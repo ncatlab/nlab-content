@@ -21,6 +21,8 @@
 
 * **(∞,n)-functor**
 
+  * [[monoidal (∞,n)-functor]]
+
 
 
 
