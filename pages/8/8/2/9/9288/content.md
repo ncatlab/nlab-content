@@ -57,6 +57,9 @@ Here we discuss such $n$-modules.
 
 #### 2-Abelian groups
 
+An [[abelian group]] [[semigroup]] is a set equipped with a commutative  and hence "additive" and unital pairing. A natural [[categorification]] of addition is the [[coproduct]] operation in a category, hence more generally the operation of taking [[colimits]]. Hence a sensible categorification of the notion of additive semigroup is that of _[[category]] with all [[colimits]]_. But in the spirit of [[category theory]] we should not try just to categorify abelian semigroups, but rather the category that these form. The category [[Ab]] of [[abelian groups]] is notably a [[closed monoidal category|closed]] [[symmetric monoidal category]] and accordingly we demand that the [[2-category]] of 2-abelian semigroups to replace it is similarly a closed [[symmetric monoidal 2-category]]. This is achived by restricting attention among all categories with colimits to the _[[presentable categories]]_.
+Moreover, since the [[homomorphisms]] of abelian groups are [[linear functions]], hence addition-respecting functions, so the 2-linear maps between these 2-abelian semigroups should be [[colimit]]-preserving [[fucntors]]. This way we arrive at the following definition.
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -83,11 +86,13 @@ By the [[adjoint functor theorem]] this is equivalently the 2-category of presen
 ###### Example
 
 Given an ordinary [[ring]] $R$, its [[category of modules]] $Mod_R$ is presentable, hence may be regarded as a 2-abelian group.
-
+This example we discuss in more detail below in _[Bases for 2-modules: Tannaka duality for associative algebras](BasesFor2ModulesAndTannakaDualityForAssociativeAlgebras)_.
 
 =--
 
 ([CJF, example 2.1.5](#CJF))
+
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -98,7 +103,14 @@ The 2-category $2Ab$ is a [[closed monoidal 2-category|closed]] [[symmetric mono
 
 See also at [[Pr(∞,1)Cat]] for more on this.
 
-+-- {: .num_example }
++-- {: .num_remark}
+###### Remark
+
+This is analous to the [[Deligne tensor product for abelian categories]].
+
+=--
+
++-- {: .num_example #SetPresheafCategorisAs2AbelianGroups}
 ###### Example
 
 For $\mathcal{C}$ a [[small category]], the [[category of presheaves]] $Set^{\mathcal{C}}$ is [[presentable category|presentable]] and 
@@ -128,6 +140,18 @@ $$
 =--
 
 ([CJF, example 2.2.7](#CJF))
+
++-- {: .num_remark #SetsAsNonlinearModuleCategories}
+###### Remark
+
+As we discuss below 
+in _[Bases for 2-modules: Tannaka duality for associative algebras](BasesFor2ModulesAndTannakaDualityForAssociativeAlgebras)_, a category of modules over an $R$-algebra is a [[presheaf category]] in $Mod_R$-[[enriched category theory]]. Notice that in this language a plain presheaf over a [[locally small category]] is a presheaf in [[Set]]-[[enriched category theory]].
+
+Therefore comparison of 
+example \ref{SetPresheafCategorisAs2AbelianGroups} with example \ref{TensorProductModuleCategoriesAsOf2AbelianGroups} shows that in the context of 2-abelian semigroups plain sets play a role of a "nonlinear generalization" of linear algebra. We see this in a more pronounced way once we have introduced the notion of [[2-modules]] [below](#2Modules). (It has become fashionable to speak of sets regarded as non-linear module categories as being modules over the "[[field with one element]]".)
+
+=--
+
 
 #### 2-Rings 
 
@@ -187,7 +211,9 @@ $$
 =--
 
 ([CJF, example 2.3.7](#CJF))
+
 #### 2-Modules
+ {#2Modules}
 
 +-- {: .num_defn}
 ###### Definition
@@ -232,6 +258,14 @@ $$
 that satisfy the action property. Such as presented under the [[Eilenberg-Watts theorem]], prop. \ref{EilenbergWattsTheorem}, by $R \otimes_{\mathbb{Z}} A$-$A$ [[bimodules]]. $A$ itself is canonically such a bimodule and it exhibits a $Mod_R$-[[2-module]] structure on $Mod_A$.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+Coming back to remark \ref{SetsAsNonlinearModuleCategories} we observe that in [[2-module]] theory plain [[presentable categories]] which don't "look linear" in the ordinary sense are naturally regarded as [[Set]]]-[[2-modules]], hence as being "[[Set]]-linear", whereas the categories of modules over an algebra that are traditionally regarded as being "$R$-linear categories" are $Mod_R$-[[2-modules]]. This unification of sets as "nonlinear linear structure" has become fashionable as "linear algebra over the [[field with one element]]".
+
+=--
+
 
 ##### Bases for 2-modules: Tannaka duality for associative algebras
  {#BasesFor2ModulesAndTannakaDualityForAssociativeAlgebras}
@@ -320,10 +354,40 @@ $$
   \,.
 $$ 
 
+For the case at hand where $\mathcal{V} = Mod_R$ and in the special case that $\mathcal{A}_1 = \mathbf{B}A_1$ and $\mathcal{A}_2 = \mathbf{B}A_2$, such a profunctor $\mathbf{B}A_1 \times \mathbf{B}A_2 \to \mathcal{V}$ is equivalently an $A_1$-$A-2$-[[bimodule]] in the traditional sense of associative algebra. Moreover, the [[coend]]-action above is equivalently the traditional [[tensor product of modules]] over the given algebra. Motivated by this example one also generally calls profunctors "bimodules". 
 
-* [[bimodule]]
+Now one should ask to which extent these "2-matrices" given by profunctors capture all the 2-linear maps between [[2-modules]]. This is what the classical **[[Eilenberg-Watts theorem]]** solves: this theorem says that there is a natural [[equivalence of categories]] 
 
-* [[Eilenberg-Watts theorem]]
+$$
+  (-) \otimes_{A_1} (-)
+  \;\colon\;
+  {}_{A_1} Mod_{A_2} 
+    \stackrel{\simeq}{\to}
+  Hom_{2Ab}(Mod_{A_1}, Mod_{A_2})
+$$
+
+between [[colimit]]-preserving functors $Mod_{A_1} \to Mod_{A_2}$ between [[categories of modules]] and $A_1$-$A-2$-[[bimodules]], given by sending a bimodule $N$ to the [[tensor product]] functor
+
+$$
+  (-) \otimes_{A_1} N \;\colon\; Mod_{A_1} \to Mod_{A_2}
+  \,.
+$$
+
+In summary we this find that for $R$ a [[commutative ring]], the [[2-category]] $Mod_{Mod_R}$ of $Mod_R$-[[2modules]] is equivalent to the 2-category $Prof(Mod_R)$ of $Mod_R$-enriched [[profunctors]]. Indeed, another common notation for [[Prof]] is [[Mod]], and so we have the unambiguous notation
+
+$$
+  2 Mod_R \simeq Mod(Mod_R)
+  \,.
+$$
+
+Notice how this is analogous to the identification
+
+$$
+  (\infty,2)Cat \simeq Cat(Cat_{(\infty,1)})
+$$
+
+discussed at _[[internal (∞,1)-category]]_.
+
 
 #### 2-Module bundle
 
