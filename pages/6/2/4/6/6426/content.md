@@ -28,7 +28,11 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 * [[supersymmetry]]
 
-* [[unitary representation of the Poincaré group]]
+* [[Wigner classification]]
+
+  * [[unitary representation of the Poincaré group]]
+
+* [[Doplicher-Roberts reconstruction theorem]]
 
 * [[quantum field theory]]
 
