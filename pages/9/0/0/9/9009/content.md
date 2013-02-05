@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _2-vector bundle_ is a [[fiber ∞-bundle]] whose typical fiber is a [[2-vector space]]. 
+A _2-module bundle_  / _2-vector bundle_ is a [[fiber ∞-bundle]] whose typical fiber is a [[2-module]]/[[2-vector space]]. 
 
 ## Definition
 
@@ -50,3 +50,6 @@ Under [[Isbell duality]] and by the discussion at _[Modules -- as generalized ve
 
 
 [[!redirects 2-vector bundles]]
+
+[[!redirects 2-module bundle]]
+[[!redirects 2-module bundles]]
