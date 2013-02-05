@@ -20,13 +20,21 @@
 
 ## Definition
 
-A _complex vector bundle_ is a [[vector bundle]] with respect to [[vector spaces]] over the [[complex numbers]].
+A _complex vector bundle_ is a [[vector bundle]] with respect [[complex vector spaces]].
 
 A omplex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line bundle]].
 
 ## Related concepts
 
-* [[stable vector bundle]]
+* [[complex vector space]]
+
+  * [[complex line]]
+
+* **complex vector bundle
+
+  * [[stable vector bundle]]
+
+  * [[complex line bundle]]
 
 ## References
 
