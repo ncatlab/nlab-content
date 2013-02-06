@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _$\infty$-module_ over an [[monoid object in an (∞,1)-category]] (for instance an [[A-∞ ring]] or [[E-∞ ring]]) is the generalization to ([[stable homotopy theory|stable]])[[homotopy theory]] of the notion of [[module]] over a [[ring]].
+The notion of _$(\infty,1)$-module_ over an [[monoid object in an (∞,1)-category]] (for instance an [[A-∞ ring]] or [[E-∞ ring]]) is the generalization to ([[stable homotopy theory|stable]])[[homotopy theory]] of the notion of [[module]] over a [[ring]].
 
 ## Definition
 
@@ -30,7 +30,9 @@ See at _[[module over an algebra over an (∞,1)-operad]]_.
 
 * [[action]], [[∞-action]]
 
-* [[module]], **$\infty$-module**
+* [[module]], **$(\infty,1)$-module**
+
+  * [[2-module]]
 
 * [[representation]], [[∞-representation]]
 
@@ -44,4 +46,10 @@ Section 3.3 of
 [[!redirects ∞-module]]
 [[!redirects infinity-modules]]
 [[!redirects ∞-modules]]
+
+[[!redirects infinity-module]]
+
+[[!redirects (∞,1)-module]]
+[[!redirects (∞,1)-modules]]
+[[!redirects (infinity,1)-modules]]
 
