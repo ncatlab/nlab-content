@@ -69,6 +69,15 @@ Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [
 
 Let $R$ be a [[ring]] and write $ \mathcal{A} \coloneqq R$[[Mod]] for its [[category]] of [[modules]].
 
+We discuss the
+
+* [Projective structure on chain complexes](#ProjectiveStructureOnChainComplexes)
+
+* [Injective structure on cochain complexes](#InjectiveStructureOnCochainComplexes)
+
+##### Projective structure on chain complexes
+ {#ProjectiveStructureOnChainComplexes}
+
 +-- {: .num_theorem #ProjectiveModelStructure}
 ###### Theorem
 
@@ -85,7 +94,10 @@ called the **projective model structure**.
 
 =--
 
-Dually:
+##### Injective structure on cochain complexes
+ {#InjectiveStructureOnCochainComplexes}
+
+Dually
 
 +-- {: .num_theorem #InjectiveModelStructure}
 ###### Theorem
@@ -676,9 +688,21 @@ We list some example for the model structure on chain complexes is unbouded degr
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
-* The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has as fibrations the degreewise surjections.
+* [Categorical projective class structure](#CategoricalProjectiveClass)
 
-* The **pure projective class** on $\mathcal{A}$ has as $\mathcal{P}$ summands of sums of finitely presented modules. Fibrations in the corresponding model structure are the maps that are degreewise those epimorphisms that appear in $\mathcal{P}$-exact sequences.
+* [Pure projective class structure](#CategoricalProjectiveClass)
+
+##### Categorical projective class structure
+ {#CategoricalProjectiveClass}
+
+The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has 
+
+* as fibrations the degreewise surjections.
+
+##### Pure projective class structure
+ {#CategoricalProjectiveClass}
+
+The **pure projective class** on $\mathcal{A}$ has as $\mathcal{P}$ summands of sums of finitely presented modules. Fibrations in the corresponding model structure are the maps that are degreewise those epimorphisms that appear in $\mathcal{P}$-exact sequences.
 
 ## Properties
 
