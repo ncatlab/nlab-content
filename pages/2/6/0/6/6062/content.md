@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -63,6 +62,8 @@ So we write "$L_\infty Alg$" here for the _[[1-category]]_ of $L_\infty$-algebra
 
 We list definitions of various [[model category]] structures that all [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] of [[L-∞ algebras]] and describe a web of [[zig-zags]] of [[Quillen equivalences]] between them.
 
+* [Summary](#DefinitionsAndQuillenEquivalencesSummary)
+
 * [On dg-Lie algebras](#OndgLieAlgebras)
 
 * [On dg-Coalgebras](#OndgCoalgebras)
@@ -71,17 +72,27 @@ We list definitions of various [[model category]] structures that all [[presenta
 
 * [On dg-formal spaces](#OnDgInfinitesimallyThickenedPoints)
 
+### Summary
+ {#DefinitionsAndQuillenEquivalencesSummary}
 
+The following tabulates the main categories considered below, the functors relating them and their homotopy theoretic nature. The last row points to the relevant definitions and propositions of the following text. 
+
+|  [[L-∞ algebras]] | form [[Chevalley-Eilenberg algebra]] | [[pro-objects]] in commutative [[Artin algebra|Artin]] [[dg-algebras]] | dualize | commutative [[dg-coalgebra]] | form [[tangent space|tangents]] | [[dg-Lie algebras]] |
+|--|--|--|--|--|--|--|
+| $L_\infty Alg$ | $\stackrel{CE}{\hookrightarrow}$ | $Pro(dgArtinCAlg)^{op} $ | $\stackrel{(-)^*}{\hookrightarrow}$ | $dgCoCAlg$ | $\stackrel{\mathcal{L}}{\to}$ | $dgLieAlg$ | 
+|    |     | $=: dgFormalSpace$ |   |  | | |
+| [[category of fibrant objects]] | [[equivalence of (∞,1)-categories]] under [[simplicial localization]] |  [[opposite model structure]] of [[cofibrantly generated model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[cofibrantly generated model category|cofibrantly generated]] [[model category]] |
+| prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} | def. \ref{ChevalleyEilenbergAlgebraConstruction} | def. \ref{dgFormalSpace} | prop. \ref{DualizingInclusionOfDGFormalSpaceIntoDgCoalgebras} | def. \ref{DGCoalgebrasCategory} |  prop. \ref{LeftAdjointFromDgCoAlgToDgAlg} | def. \ref{dgLieAlgebraCategory} |
 
 ### On dg-Lie algebras
  {#OndgLieAlgebras}
 
 Let $k$ be a [[field]] of [[characteristic]] 0.
 
-+-- {: .num_defn }
++-- {: .num_defn #dgLieAlgebraCategory}
 ###### Definition
 
-Write $dgLie_k \in Cat$ for the [[category]] of [[dg-Lie algebras]]
+Write $dgLieAlg_k \in Cat$ for the [[category]] of [[dg-Lie algebras]]
 over $k$.
 
 =--
@@ -89,7 +100,7 @@ over $k$.
 +-- {: .num_prop #ModelStructureOnDgLieAlgebras}
 ###### Proposition
 
-The category $dgLie_k$ carries a 
+The category $dgLieAlg_k$ carries a 
 [[cofibrantly generated model category|cofibrantly generated]] 
 [[model category]] structure in which
 
@@ -115,7 +126,7 @@ We call this the **[[model structure on dg-Lie algebras]]**.
 Write 
 
 $$
-  \mathcal{C} \;\colon\;  dgLie_k \to dgCoCAlg_k
+  \mathcal{C} \;\colon\;  dgLieAlg_k \to dgCoCAlg_k
 $$
 
 for the [[functor]] which sends a [[dg-Lie algebra]] $(\mathfrak{g},d,[-,-])$ to the [[dg-coalgebra]] whose underlying [[coalgebra]] is free on the underlying [[graded vector space]] $\mathfrak{g}$ and whose [[coderivation]] is given by
@@ -154,7 +165,7 @@ The functor from def. \ref{SendingDGLieAlgebraToDgCoalgebra} has
 a [[left adjoint]]
 
 $$
-  \mathcal{L} \;\colon\;   dgCoCAlg_k \to dgLie_k
+  \mathcal{L} \;\colon\;   dgCoCAlg_k \to dgLieAlg_k
   \,.
 $$
 
@@ -181,11 +192,11 @@ is also called the **tangent Lie algebra functor**.
 
 Let $k$ be a [[field]] of [[characteristic]] 0.
 
-+-- {: .num_defn DGCoalgebrasCategory}
++-- {: .num_defn #DGCoalgebrasCategory}
 ###### Definition
 
 Write $dgCoCAlg_k \in Cat$ for the [[category]] of 
-cocommutative counital $\mathbb{Z}$-[[graded object|graded]]
+co-commutative counital $\mathbb{Z}$-[[graded object|graded]]
 [[dg-coalgebras]] over $k$.
 
 =--
@@ -364,22 +375,38 @@ for the [[opposite category]] of that.
 ###### Proposition
 
 There is a [[cofibrantly generated model category|cofibrantly generated]]
-[[model category]] structure on $Pro(dgArtinCAlg_k)$, hence a [[opposite model category]] on $dgFormalSpaces$ whose [[weak equivalences]] are those morphisms that are [[local morphisms]] relative to quasi-smooth maps in the [[homotopy category]] of the [[slice category]] over their codomain.
+[[model category]] structure on $Pro(dgArtinCAlg_k)$, def. \ref{dgFormalSpace}, 
+hence a [[opposite model category]] on $dgFormalSpaces$ whose [[weak equivalences]] are those morphisms that are [[local morphisms]] relative to quasi-smooth maps in the [[homotopy category]] of the [[slice category]] over their codomain.
 
 =--
 
 This is ([Pridham, prop. 4.26](#Pridham)).
 
++-- {: .num_defn #ChevalleyEilenbergAlgebraConstruction}
+###### Definition
+
+Write 
+
+$$
+  CE 
+  \;\colon\;
+  L_\infty Alg \stackrel{}{\to} Pro(dgArtinCAlg_k)^{op}
+$$
+
+which regards an $L_\infty$-algebra $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the [[dual vector space|linear dual]] [[dg-algebra]], the **[[Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$ of $\mathfrak{g}$.
+
+=--
+
 +-- {: .num_prop #LInfinityAlgebraIsFibrantObjectIndgFormalSpace}
 ###### Proposition
 
-$L_\infty$-algebras are precisely the [[fibrant objects]] in $dgFormalSpace$: the [[functor]]
+$L_\infty$-algebras are precisely the [[fibrant objects]] in $dgFormalSpace$: the [[Chevalley-Eilenberg algebra]] [[functor]] of def. \ref{ChevalleyEilenbergAlgebraConstruction},
 
 $$
   L_\infty Alg \stackrel{CE}{\to} Pro(dgArtinCAlg_k)^{op} \simeq dgFormalSpace
 $$
 
-which regards an $L_\infty$-algebra $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the dual [[dg-algebra]] -- the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ -- is an [[equivalence of categories]] onto its [[essential image]], which are the [[fibrant objects]] of $dgFormalSpace$:
+is an [[equivalence of categories]] onto its [[essential image]], which are the [[fibrant objects]] of $dgFormalSpace$:
 
 $$
   CE 
@@ -463,7 +490,7 @@ $$
 
 ([Pridham, theorem 4.55](#Pridham))
 
-+-- {: .num_prop }
++-- {: .num_prop #DualizingInclusionOfDGFormalSpaceIntoDgCoalgebras}
 ###### Proposition
 
 The inclusion
