@@ -151,10 +151,10 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
 
 * The [[set]] of [[k-morphism|2-morphism]]s of $\mathbf{B}G$ is the cartesian [[product]] $G_1 \times G_2$ where
 
-  * the source opertation is projection on the first factor
+  * the source operation is projection on the first factor
 
     $$
-      s := p_1 : G_1 \times G_2 \to G_2
+      s := p_1 : G_1 \times G_2 \to G_1
     $$
 
   * the target operation on morphisms starting at the identity morphism is the boundary map $\delta : G_2 \to G_1$ of the crossed module combined with the product in $G_1$
@@ -164,7 +164,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
     $$
 
   So in diagrams this means that a 2-morphism 
-  correspopnding to $(Id, k) \in G_1 \timesG_2$ is labeled as
+  corresponding to $(Id, k) \in G_1 \times G_2$ is labelled as
 
   $$
     \array{
