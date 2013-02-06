@@ -97,7 +97,10 @@ We need to show that the [[pullback]] of a weak equivalence $w$ along a fibratio
 * [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/dgc.pdf))
  {#Hinich}
 
-* [[Jonathan Pridham]], _Unifying derived deformation theories_ ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+* [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
  {#Pridham}
+
+* [[Jacob Lurie]], _[[Formal Moduli Problems]]_
+ {#Lurie}
 
 [[!redirects model structure for L-∞ algebras]]
