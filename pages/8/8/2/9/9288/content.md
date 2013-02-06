@@ -574,7 +574,7 @@ Finally an [[automorphism]] of the $R$ regarded as the identity $R$-$R$-[[bimodu
 ###### Remark
 
 Below in [2-line bundles and their sections](#2LineBundles) we discuss
-how forming a [[fiber infinity-bundle|fiber 2-bundle]] of [[2-lines]] as above produces a structure whose [[sections]] are [[twisted bundles]] with typical fiber $Mod_R$, hence for instance [[twisted unitary bundles]] if $R \simeq \mathbb{C}$. This means that the [[characteristic classes]] of $Mod_R$-[[2-line bundles]] are the _twists_ for the [[twisted cohomology]] classifying these twisted bundles. After [[stabilization]] the latter are the [[cocycles]] of [[twisted K-theory]], hence the Brauer group, Picard group and group of units of $R$ are the degree 1,2,3-twists of [[twisted K-theory]] over $R$-resectively. Below we discuss two examples of this phenomenon.
+how forming a [[fiber infinity-bundle|fiber 2-bundle]] of [[2-lines]] as above produces a structure whose [[sections]] are [[twisted bundles]] with typical fiber $Mod_R$, hence for instance [[twisted unitary bundles]] if $R \simeq \mathbb{C}$. This means that the [[characteristic classes]] of $Mod_R$-[[2-line bundles]] are the _twists_ for the [[twisted cohomology]] classifying these twisted bundles. After [[stabilization]] the latter are the [[cocycles]] of [[twisted K-theory]], hence the Brauer group, Picard group and group of units of $R$ are the degree 0, 1, 2-twists of [[twisted K-theory]] over $R$-resectively. Below we discuss two examples of this phenomenon.
 
 
 =--
