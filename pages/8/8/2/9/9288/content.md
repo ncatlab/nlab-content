@@ -207,8 +207,8 @@ $$
 
 =--
 
-+-- {: .num_example #TensorProductModuleCategoriesAsOf2AbelianGroups}
-###### Example
++-- {: .num_prop #TensorProductModuleCategoriesAsOf2AbelianGroups}
+###### Proposition
 
 For $R$ a [[ring]] the [[category of modules]] $Mod_R$ is presentable and 
 
@@ -236,6 +236,8 @@ example \ref{SetPresheafCategorisAs2AbelianGroups} with example \ref{TensorProdu
 
 
 #### 2-Rings 
+
+With the ambient [[monoidal 2-category]] $2Ab$ chosen, it is now straightforward to define [[2-rings]] as [[monoids]] [[internalization|internal]] to that.
 
 +-- {: .num_defn #2RingAsCompatiblyMonoidalPresentableCategory}
 ###### Definition
@@ -278,12 +280,43 @@ For $R$ an ordinary [[commutative ring]], $Mod_R$ equipped with its usual [[tens
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop}
+###### Proposition
 
-For $R$ an ordinary [[ring]] and $Mod_R$ its ordinary [[category of modules]], regarded as a 2-abelian group by example \ref{CategoryOfModulesAs2AbelianGroup}, the structure of a 2-ring on $Mod_R$ is equivalently the structure of a [[sesquiunital sesquialgebra]] on $R$.
+For $R$ an ordinary [[commutative ring]] and $Mod_R$ its ordinary [[category of modules]], regarded as a 2-abelian group by example \ref{CategoryOfModulesAs2AbelianGroup}, the structure of a 2-ring on $Mod_R$ is equivalently the structure of a [[sesquiunital sesquialgebra]] on $R$.
 
-If $R$ is in addition a [[commutative ring]] that $Mod_R$ is a commutative 2-ring and is canonically an $Ab$-[[2-algebra]] in that 
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{TensorProductModuleCategoriesAsOf2AbelianGroups}, a 2-linear map
+
+$$
+  Mod_A \boxtimes Mod_A \to Mod_A
+$$
+
+is equivalently a 2-linear map
+
+$$
+  Mod_{A \otimes A} \to Mod_A
+  \,.
+$$
+
+By the [[Eilenberg-Watts theorem]] (which we discuss in more detail as theorem \ref{EilenbergWattsTheorem} [below](#MatrixCaclulusFor2Modules)) this is equivalently an $A \otimes A$-$A$-[[bimodule]]. Similarly the unit map
+
+$$
+  Mod_R \to Mod_A
+$$
+
+is equivalently an $R$-$A$-bimodule.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $R$ a [[commutative ring]], $Mod_R$ is a commutative 2-ring and is canonically an [[2-algebra]] over the [[2-ring]] $Ab$ in that we have a canonical 2-ring homomorphism
 
 $$
   Ab \simeq Mod_{\mathbb{Z}} \to Mod_R
@@ -297,13 +330,13 @@ $$
 #### 2-Modules
  {#2Modules}
 
-+-- {: .num_defn}
++-- {: .num_defn #2CategoryOf2Modules}
 ###### Definition
 
-For $A$ a 2-ring, def. \ref{2RingAsCompatiblyMonoidalPresentableCategory}, write
+For $\mathcal{R}$ a 2-ring, def. \ref{2RingAsCompatiblyMonoidalPresentableCategory}, write
 
 $$
-  2Mod_A \in 2Cat
+  2Mod_{\mathcal{R}} \in 2Cat
 $$
 
 for the [[2-category]] of [[module objects]] over $A$ in $2Ab$. 
@@ -344,7 +377,7 @@ that satisfy the action property. Such as presented under the [[Eilenberg-Watts 
 +-- {: .num_remark}
 ###### Remark
 
-Coming back to remark \ref{SetsAsNonlinearModuleCategories} we observe that in [[2-module]] theory plain [[presentable categories]] which don't "look linear" in the ordinary sense are naturally regarded as [[Set]]]-[[2-modules]], hence as being "[[Set]]-linear", whereas the categories of modules over an algebra that are traditionally regarded as being "$R$-linear categories" are $Mod_R$-[[2-modules]]. This unification of sets as "nonlinear linear structure" has become fashionable as "linear algebra over the [[field with one element]]".
+Coming back to remark \ref{SetsAsNonlinearModuleCategories} we observe that in [[2-module]] theory plain [[presentable categories]] which do not "look linear" in the ordinary sense are naturally regarded as [[Set]]-[[2-modules]], hence as being "[[Set]]-linear", whereas the categories of modules over an algebra that are traditionally regarded as being "$R$-linear categories" are $Mod_R$-[[2-modules]]. This unification of sets as "nonlinear linear structure" has become fashionable as "linear algebra over the [[field with one element]]".
 
 =--
 
@@ -363,7 +396,7 @@ $$
 
 for the [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal]] [[category of modules]] and regard it as an [[cosmos|enriching context]] for $\mathcal{V}$-[[enriched category theory]]. 
 
-Then we claim that a $\mathcal{V}$-[[enriched category]] $\mathcal{A}$ serves as a [[basis]]. Notice that an $R$-algebra $A$ is equivalently a (pointed) $\mathcal{V}$-enriched category $\mathcal{A} = \mathbf{B}A$ with a single object (the [[delooping]] of $A$). Generally, $\mathcal{A}$ may be called  _$R$-[[algebroid]]_.
+So a $\mathcal{V}$-[[enriched category]] $\mathcal{A}$ serves as a _2-[[basis]]_ for a free $\mathcal{V}$-[[2-module]]. Notice that an $R$-algebra $A$ is equivalently a (pointed) $\mathcal{V}$-enriched category $\mathcal{A} = \mathbf{B}A$ with a single object (the [[delooping]] of $A$). Generally, $\mathcal{A}$ may be called  _$R$-[[algebroid]]_.
 
 Since [[colimits]] in the category underlying a [[2-abelian group]] [[categorification|categorify]] the sum operation in an [[abelian group]] the 2-analog of the free module on a [[basis]] [[set]] is the [[free cocompletion]] of $\mathcal{A}$ as a $\mathcal{V}$-[[enriched category]]. This is the $\mathcal{V}$-[[presheaf category]], hence the [[enriched functor category]]
 
@@ -393,13 +426,14 @@ $$
 
 In fact in [[enriched category theory]] it is customary generally to call $\mathcal{V}$-[[enriched functors]] into $\mathcal{V}$ "[[modules]]" (see there).
 
-Without further assumoptions on $\mathcal{A}$, the category $[\mathcal{A}, \mathcal{V}]$ is just a $\mathcal{V}$-[[2-module]]. But if $\mathcal{A}$ is equipped with further [[extra structure]] and/or [[property]], also $[\mathcal{A}, \mathcal{V}]$ inherits further property. This relation between types of algebras and types of monoidal categories is known as _[[Tannaka duality]]_.
+Without further assumptions on $\mathcal{A}$, the category $[\mathcal{A}, \mathcal{V}]$ is just a $\mathcal{V}$-[[2-module]]. But if $\mathcal{A}$ is equipped with further [[extra structure]] and/or [[property]], also $[\mathcal{A}, \mathcal{V}]$ inherits further property. This relation between types of algebras and types of monoidal categories is known as _[[Tannaka duality]]_.
 
 The following table lists the main items of the disctionary of Tannaka duality for associtive algebras that are used in the literature. 
 
 [[!include structure on algebras and their module categories - table]]
 
 ##### Matrix calculus for 2-modules: Bimodules and Eilenberg-Watts theorem
+ {#MatrixCaclulusFor2Modules}
 
 If a $\mathcal{V} \coloneqq Mod_R$-[[enriched category]] serves as a 2-[[basis]] for a $Mod_R$-[[2-module]] by the [above](#BasesFor2ModulesAndTannakaDualityForAssociativeAlgebras) discussion, there should be an analog of [[matrix calculus]] to present 2-linear maps between [[2-modules]] equipped with such a 2-basis.
 
@@ -416,7 +450,7 @@ $$
   \,.
 $$
 
-Compare this to how a matric between two vector spaces equipped with basis sets $B_1, B_2$ is a function
+Compare this to how a matrix between two vector spaces equipped with basis sets $B_1, B_2$ is a function
 
 $$
   K \colon B_1 \times B_2 \to k
@@ -438,7 +472,15 @@ $$
 
 For the case at hand where $\mathcal{V} = Mod_R$ and in the special case that $\mathcal{A}_1 = \mathbf{B}A_1$ and $\mathcal{A}_2 = \mathbf{B}A_2$, such a profunctor $\mathbf{B}A_1 \times \mathbf{B}A_2 \to \mathcal{V}$ is equivalently an $A_1$-$A-2$-[[bimodule]] in the traditional sense of associative algebra. Moreover, the [[coend]]-action above is equivalently the traditional [[tensor product of modules]] over the given algebra. Motivated by this example one also generally calls profunctors "bimodules". 
 
-Now one should ask to which extent these "2-matrices" given by profunctors capture all the 2-linear maps between [[2-modules]]. This is what the classical **[[Eilenberg-Watts theorem]]** solves: this theorem says that there is a natural [[equivalence of categories]] 
+Now one should ask to which extent these "2-matrices" given by profunctors capture all the 2-linear maps between [[2-modules]]. This is what the classical **[[Eilenberg-Watts theorem]]** solves: 
+
+ 
+
++-- {: .num_theorem #EilenbergWattsTheorem}
+###### Theorem
+
+
+There is a [[natural equivalence|natural]] [[equivalence of categories]] 
 
 $$
   (-) \otimes_{A_1} (-)
@@ -455,7 +497,9 @@ $$
   \,.
 $$
 
-In summary we this find that for $R$ a [[commutative ring]], the [[2-category]] $Mod_{Mod_R}$ of $Mod_R$-[[2modules]] is equivalent to the 2-category $Prof(Mod_R)$ of $Mod_R$-enriched [[profunctors]]. Indeed, another common notation for [[Prof]] is [[Mod]], and so we have the unambiguous notation
+=--
+
+In summary we this find that for $R$ a [[commutative ring]], the [[2-category]] $Mod_{Mod_R}$ of $Mod_R$-[[2-modules]] with 2-basis is equivalent to the 2-category $Prof(Mod_R)$ of $Mod_R$-enriched [[profunctors]]. Indeed, another common notation for [[Prof]] is [[Mod]], and so we have the unambiguous notation
 
 $$
   2 Mod_R \simeq Mod(Mod_R)
@@ -477,15 +521,68 @@ discussed at _[[internal (∞,1)-category]]_.
 
 #### 2-Lines
 
-* [[2-line]]
++-- {: .num_defn}
+###### Definition
+
+For $\mathcal{R}$ a commutative [[2-ring]], def. \ref{2RingAsCompatiblyMonoidalPresentableCategory}, a **[[2-line]]** over $\mathcal{R}$ is an $\mathbb{R}$-[[2-module]], def. \ref{2CategoryOf2Modules} which is invertible under the [[tensor product]] of $\mathbb{R}$-2-modules.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  Line^\simeq_\mathbb{R} \to Mod_{\mathbb{R}}
+$$
+
+for the maximal [[2-groupoid]] of $\mathbb{R}$ 2-lines with 2-basis inside all $\mathbb{R}$-2-modules. This is the **[[Picard 2-groupoid]]** of $\mathcal{R}$. Moreover, by construction it in inherits the structure of a [[3-group]] from the tensor products of 2-modules: as such it is the **[[Picard 3-group]]**.
+
+=--
+
 
 ##### Classification: Azumaya algebras, Brauer group, Picard group
 
-* [[Picard 3-group]]
++-- {: .num_prop}
+###### Proposition
 
-  * [[Brauer group]], [[Picard group]], [[group of units]]
+For $R$ an ordinary [[commutative ring]] and $\mathcal{R} \coloneqq Mod_R$ the [[homotopy groups]] of the [[Picard 2-groupoid]] are
+
+* $\pi_0(2Line^\simeq_R) \simeq Br(R)$ the [[Brauer group]] of $R$;
+
+* $\pi_1(2Line^\simeq_R) \simeq Pic(R)$ the [[Picard group]] of $R$;
+
+* $\pi_2(2Line^\simeq_R) \simeq R^\times$ the [[group of units]] of $R$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Eilenberg-Watts theorem]], \ref{EilenbergWattsTheorem}, an [[equivalence]] in $2Mod_R$ between 2-modules with 2-basis given by $R$-algebras is a [[Morita equivalence]] of $R$-algebras.
+
+By the prop. \ref{TensorProductModuleCategoriesAsOf2AbelianGroups} and the [[Eilenberg-Watts theorem]], the invertible 2-modules with 2-basis are therefore precisely the [[Azumaya algebras]]. This shows that the connected components of $2Line^\simeq_R$ form the [[Brauer group]] of $R$.
+
+Next, an [[isomorphism class]] of an [[automorphism]] of the canonical base point $Mod_R \in 2Line^\simeq_R$ is by Eilenberg-Watts equivalently an isomorphism class of an $R$-$R$-[[bimodule]] which is invertible under horizontal composition of bimodules. Since $R$ is commutative this just means that it is an isomorphism class of an $R$-module which is invertible under the ordinary [[tensor product of modules]]. But this just means that it is the isomorphism class of an ordinary $R$-[[line]]. This shows that the [[fundamental group]] of $2Line^\simeq_R$ is the ordinary [[Picard group]] of $R$.
+
+Finally an [[automorphism]] of the $R$ regarded as the identity $R$-$R$-[[bimodule]] is an invertible $R$-[[linear function]] $R \to R$, hence is given by multiplication with an invertible element of $R$. This shows that $\pi_2(2Line^\simeq_R)$ is the [[group of units]] of $R$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Below in [2-line bundles and their sections](#2LineBundles) we discuss
+how forming a [[fiber infinity-bundle|fiber 2-bundle]] of [[2-lines]] as above produces a structure whose [[sections]] are [[twisted bundles]] with typical fiber $Mod_R$, hence for instance [[twisted unitary bundles]] if $R \simeq \mathbb{C}$. This means that the [[characteristic classes]] of $Mod_R$-[[2-line bundles]] are the _twists_ for the [[twisted cohomology]] classifying these twisted bundles. After [[stabilization]] the latter are the [[cocycles]] of [[twisted K-theory]], hence the Brauer group, Picard group and group of units of $R$ are the degree 1,2,3-twists of [[twisted K-theory]] over $R$-resectively. Below we discuss two examples of this phenomenon.
+
+
+=--
+
+
 
 ##### 2-Line bundles and their sections: twisted K-theory
+ {#2LineBundles}
 
 * [[2-line bundle]]
 
@@ -537,5 +634,13 @@ discussed at _[[internal (∞,1)-category]]_.
 
 ## References
 
+The notions of [[2-rings]] and [[2-modules]] are nicely set up in 
+
 * [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#CJF}
+
+The $(\infty,2)$-category of $A_\infty$-algebras and $\infty$-bimodules between them is constructed in section 3.4 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+For further references see behind the relevant links.
