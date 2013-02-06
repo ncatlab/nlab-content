@@ -839,6 +839,9 @@ $$
 
 from [[CartSp]] to [[simplicial object|simplicial]] [[smooth loci]]. Effectively just by ([[derived functor|derived]]) [[Yoneda extension]] of this functor to a functor on [[simplicial presheaves]] on [[CartSp]] one obtains a definition of the [[schreiber:infinitesimal path ∞-groupoid]] of any [[smooth manifold]], any [[diffeological space]] and even every [[∞-Lie groupoid]].
 
+## Related concepts
+
+[[!include infinitesimal and local - table]]
 
 ## References
 
