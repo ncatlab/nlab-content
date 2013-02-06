@@ -43,10 +43,14 @@ Basic facts about smooth functions are
 
 ## Examples
 
-
 Every [[analytic functions]] (for instance a [[holomorphic function]]) is also a smooth function.
 
 A crucial property of smooth functions, however, is that they contain also [[bump functions]].
+
+## Related concepts
+
+[[!include infinitesimal and local - table]]
+
 
 
 [[!redirects smooth function]]
