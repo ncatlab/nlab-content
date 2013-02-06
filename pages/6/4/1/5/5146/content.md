@@ -83,7 +83,7 @@ The [[Whitehead products]] include
 
 ## The homotopy $\Pi$-algebra of a pointed topological space.
 
-For a pointed space $X$, and $U \in \Pi$, define $\pi_* X = [U,X]_*$, the set of pointed homotopy classes of pointed maps from $U$ to $X$.
+For a pointed space $X$, and $U \in \Pi$, define a $\Pi$-algebra $\pi_* X$ by $\pi_* X(U) = [U,X]_*$, the set of pointed homotopy classes of pointed maps from $U$ to $X$.
 
 This is a $\Pi$-algebra called the **homotopy $\Pi$-algebra** of $X$.
 
