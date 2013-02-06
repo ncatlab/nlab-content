@@ -13,6 +13,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 _Lie differentiation_  is the process reverse to [[Lie integration]].
 
@@ -20,5 +25,9 @@ For ordinary [[Lie theory]] see at _[[Lie's three theorems]]_.
 
 For [[infinity-Lie theory]] see at _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+differential+infinity-groupoid#LieDifferentiation)_ .
 
+
+## Related concepts
+
+[[!include infinitesimal and local - table]]
 
 
