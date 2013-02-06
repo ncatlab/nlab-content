@@ -1,10 +1,10 @@
 [[!redirects JA]]
 
+* [JA](http://inquiryintoinquiry.com/) @ [WordPress](http://wordpress.com/)
 * [JA](http://mywikibiz.com/Directory:Jon_Awbrey) @ [MyWikiBiz](http://mywikibiz.com/)
-* [JA](http://knol.google.com/k/jon-awbrey/jon-awbrey/3fkwvf69kridz/1) @ [Google Knol](http://knol.google.com/)
 * [JA](http://oeis.org/wiki/User:Jon_Awbrey) @ [OEIS Wiki](http://oeis.org/wiki/)
 * [JA](http://planetmath.org/?op=getuser&id=15246) @ [PlanetMath](http://planetmath.org/)
-* [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
+* [JA](http://planetphysics.us/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.us/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
 
 # Algebra #
