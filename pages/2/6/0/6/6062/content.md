@@ -262,7 +262,7 @@ for the [[full subcategory]] of the [[category of presheaves]] over [[infinitesi
 
 In ([Pridham](#Pridham)) this is def. 1.18.
 
-+-- {: .num_defn }
++-- {: .num_defn #DerivedFormalSpace}
 ###### Definition
 
 Write
@@ -301,13 +301,55 @@ Between quasi-smooth objects in $DerivedFormalSpace$ the weak equivalences are p
 This is ([Pridham, cor. 2.16](#Pridham)).
 
 
-### dg infinitesimally thickened points
+### On dg infinitesimally thickened points
+
++-- {: .num_defn #dgFormalSpace}
+###### Definition
+
+Write 
+
+$$
+  dgArtCAlg_k \in Cat
+$$
+
+for the [[category]] of graded commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$.
+
+Write
+
+$$
+  Pro(dgArtCAlg_k) \in Cat
+$$
+
+for its category of [[pro-objects]] and write
+
+$$
+  dgFormalSpace \coloneqq Pro(dgArtCAlg_k)^{op}
+$$
+
+for the [[opposite category]] of that.
+
+=--
+
++-- {: .num_prop #ModelStructureOnDgFormalSpace}
+###### Proposition
+
+There is a [[cofibrantly generated model category|cofibrantly generated]]
+[[model category]] structure on $Pro(dgArtinCAlg_k)$, hence a [[opposite model category]] on $dgFormalSpaces$ whose [[weak equivalences]] are those morphisms that are [[local morphisms]] relative to quasi-smooth maps in the [[homotopy category]] of the [[slice category]] over their codomain.
+
+=--
+
+This is ([Pridham, prop. 4.26](#Pridham)).
 
 +-- {: .num_prop }
 ###### Proposition
 
 If $k$ is of [[characteristic]] 0 then there is a [[zig-zag]] of [[Quillen equivalences]] between
-$DerivedFormalSpace$ and $dgFormalSpace$.
+$DerivedFormalSpace$, def. \ref{DerivedFormalSpace} and $dgFormalSpace$, \ref{dgFormalSpace}, hence an [[equivalence of (∞,1)-categories]] between their [[simplicial localizations]]
+
+$$
+  L_W DerivedFormalSpace \simeq L_W dgFormalSpace
+  \,.
+$$
 
 =--
 
@@ -316,10 +358,11 @@ This is ([Pridham, cor. 4.49](#Pridham)).
 +-- {: .num_prop }
 ###### Proposition
 
-There is a [[Quillen equivalence]]
+For arbitrary $k$, there is a [[Quillen equivalence]]
 
 $$
   dgLie_k \stackrel{\simeq}{\to} dgFormalSpace
+  \,.
 $$
 
 =--
@@ -335,11 +378,13 @@ $$
   dgFormalSpace \to dgCoCAlg_k
 $$
 
-is the [[left adjoint]] part of a [[Quillen equivalence]].
+given by sending an object in $Pro(dgArticCAlg_k)^{op} \coloneqq dgForalSpace$, hence an [[dg-algebra]] $A$, to its dual dg-coalgebra $A^*$,
+is the [[left adjoint]] part of a [[Quillen equivalence]] between the model structure on $dgFormalSpace$, prop. \ref{ModelStructureOnDgFormalSpace}, and the [[model structure on dg-coalgebras]], prop. \ref{ModelStructureOnCocommutativeDGCoalgebras}.
 
 =--
 
 ([Pridham, cor. 4.56](#Pridham))
+
 
 ## Properties
 
@@ -361,7 +406,7 @@ $$
 +-- {: .num_prop #RightProperness}
 ###### Proposition
 
-The model category $DG_{\mathbb{Z}}Sp(k)$, def. \ref{DGSp}, is a [[right proper model category]].
+The model category $dgFormalSpace$, def. \ref{dgFormalSpace}, is a [[right proper model category]].
 
 =--
 
