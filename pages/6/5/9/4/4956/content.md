@@ -326,6 +326,10 @@ $$
 
 * [[jet space]], [[jet bundle]], [[metric jet]]
 
+[[!include infinitesimal and local - table]]
+
+
+
 [[!redirects derivative]] 
 [[!redirects derivatives]] 
 
