@@ -544,6 +544,8 @@ This is the [[string Lie 2-group]]. It's construction in terms of integration by
 
   * [[nonabelian Stokes theorem]]
 
+[[!include infinitesimal and local - table]]
+
 
 
 ## References
