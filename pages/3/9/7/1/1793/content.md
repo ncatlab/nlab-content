@@ -589,6 +589,7 @@ on $Ch^\bullet_+(Ab)$.
   {#OnUnbounded}
 
 #### General results
+ {#InUnboundedDegreeGeneralResults}
 
 Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and 
 [[colimit]]s.
@@ -669,6 +670,9 @@ We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure
 
 
 #### Examples 
+ {#ExamplesOfStructuresOnUnboundedComplexes}
+
+We list some example for the model structure on chain complexes is unbouded degree discussed [above](#InUnboundedDegreeGeneralResults).
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
