@@ -118,6 +118,10 @@ vector fields and flows)
 
 * [[fiber integration]], [[fiber integration in differential cohomology]]
 
+* [[Lie integration]]
+
+[[!include infinitesimal and local - table]]
+
 
 ## References
 
