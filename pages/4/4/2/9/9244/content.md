@@ -32,7 +32,12 @@ The [[left adjoint]] $\mathcal{U}_n$ sends an [[L-∞ algebra]] to its _universa
 
 ## References
 
-Aspects of this are mentioned in the context of [[factorization homology]] in section 5 and in particular around the bottom of p. 18 in
+Discussion for $n = 1$, hence universal $A_\infty$-enveloping algebras is around theorem 3.1, 3.3 in 
+
+* Tom Lada, Martin Markl, _Strongly homotopy Lie algebras_ ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+
+
+Aspects of the general are mentioned in the context of [[factorization homology]] in section 5 and in particular around the bottom of p. 18 in
 
 * [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
 
@@ -40,6 +45,7 @@ and more specifically in the context of [[factorization algebras of observables]
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
+
 
 The fact that $\mathcal{U}_1$ reproduces the traditional [[universal enveloping algebra]] of a Lie algebra is prop. 4.6.1 in ([Gwilliam](#Gwilliam)).
 
