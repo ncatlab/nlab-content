@@ -20,6 +20,11 @@ In [[algebraic geometry]], an __algebraic curve__ is a $1$-dimensional [[algebra
 
 An example: [[elliptic curve]].
 
+## Related concepts
+
+[[!include infinitesimal and local - table]]
+
+
 
 [[!redirects curve]]
 [[!redirects curves]]
