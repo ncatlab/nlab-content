@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -53,12 +54,24 @@ Accordingly it is of interest to have also [[model structure on dg-coalgebras]] 
 +-- {: .num_remark}
 ###### Remark/Warning
 
-So we write "$L_\infty Alg$" here for the _[[1-category]]_ of $L_\infty$-algebras and general morphisms between them, since this is an entry on model category presentations. If we want to refer to the [[(∞,1)-category]] of $L_\infty$-algebras we here write explicitly "$L_W( L_\infty Alg$", referring to the [[simplicial localization]] of this 1-category.
+So we write "$L_\infty Alg$" here for the _[[1-category]]_ of $L_\infty$-algebras and general morphisms between them, since this is an entry on model category presentations. If we want to refer to the [[(∞,1)-category]] of $L_\infty$-algebras we here write explicitly "$L_W( L_\infty Alg)$", referring to the [[simplicial localization]] of this 1-category.
+
+=--
+
++-- {: .num_remark}
+###### Remark/Warning
+
+All gradings in the following are $\mathbb{Z}$-gradings, unless explicitly stated otherwise. In terms of the underlying [[geometry]] this means that we are dealing with [[derived geometry]] (see below the section _[Simplicial sheaves over comsimplicial formal spaces](##SheavesOverCosimplicialInfinitesimallyThickenedPoints)_ for details): the algebra elements in positive degree correspond to [[category theory|categorical]]/[[simplicial object|simplicial]]/[[∞-groupoid]]/[[∞-stack]]-degree, and those in negative degree to the [[cosimplicial object|cosimplicial]] degree of the derived site of cosimplicial formal spaces.
+
+Technically this affects for instance the nature of [[fibrations]]: for instance the [[model structure on dg-Lie algebras]] [below](#OndgLieAlgebras) is [[transferred model structure|transferred]] from a [[model structure on chain complexes]]. For unbounded chain complexes this is the "[Categorical projective class structure](model+structure+on+chain+complexes#CategoricalProjectiveClass)" whose fibrations are the [[chain maps]] that are surjective in every degree. This appears for instance in prop. \ref{ModelStructureOnDgLieAlgebras} and prop. \ref{LInfinityAlgebrasAsACategoryOfFibrantObjects} below.
+
+On the other hand, if one considered chain complexes in non-negative degree (for tangent complexes in "higher but non-derived geometry"), then one would use the [Projective structure on chain complexes in non-negative degree](model+structure+on+chain+complexes#ProjectiveStructureOnChainComplexes). This has as fibrations precisely the chain maps that are surjective in every _positive_ degree. This case is (currently) *not* discussed in the following.
 
 =--
 
 
 ## Definitions and Quillen equivalences
+ {#DefinitionsAndQuillenEquivalences}
 
 We list definitions of various [[model category]] structures that all [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] of [[L-∞ algebras]] and describe a web of [[zig-zags]] of [[Quillen equivalences]] between them.
 
@@ -143,20 +156,8 @@ and then extended as a coderivation.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-spring
-
-=--
 
 
-+-- {: .num_defn #SendingDGLieAlgebraToDgCoalgebra}
-###### Definition
-
-spring
-
-=--
 
 +-- {: .num_prop #LeftAdjointFromDgCoAlgToDgAlg}
 ###### Proposition
@@ -255,7 +256,7 @@ $$
   \mathfrak{g} \to \mathcal{C}\mathcal{L}\mathfrak{g}
 $$
 
-is a [[weak equivalence]] that exhibits $\mathcal{C}\mathcal{L}\mathfrak{g}$ as a [[fibrant resolution]] and moreover, if $\mathfrak{g}$ was already fibrant, hence by prop. \ref{spring} an [[L-∞ algebra]], as a **strictification** of $\mathfrak{g}$, by remark \ref{spring}.
+is a [[weak equivalence]] that exhibits $\mathcal{C}\mathcal{L}\mathfrak{g}$ as a [[fibrant resolution]] and moreover, if $\mathfrak{g}$ was already fibrant, hence by prop. \ref{LInfinityAlgebraIsFibrantObjectIndgFormalSpace} below an [[L-∞ algebra]], as a **strictification** of $\mathfrak{g}$: because a [[dg-Lie algebra]] is an $L_\infty$-algebra in which the Lie bracket satisfies its [[Jacobi identity]] strictly (not just up to a [[homotopy]] measured by the trinary bracket) and in which the "Jacobiator identity" holds strictly, etc.
 
 =--
 
@@ -509,20 +510,7 @@ is the [[left adjoint]] part of a [[Quillen equivalence]] between the model stru
 
 ## Properties
 
-
-+-- {: .num_prop #QuillenEquivalence}
-###### Proposition
-
-There is a [[Quillen equivalence]]
-
-$$
-  dgCoAlg(k) \simeq DG_{\mathbb{Z}}Sp(k)
-  \,.
-$$
-
-=--
-
-([Pridham](#Pridham))
+We discuss some further properties of the [above](DefinitionsAndQuillenEquivalences) model category structures. 
 
 +-- {: .num_prop #RightProperness}
 ###### Proposition
@@ -539,6 +527,9 @@ This observation has been communicated privatly by [[Jonathan Pridham]]
 We need to show that the [[pullback]] of a weak equivalence $w$ along a fibration $f$ is again a weak equivalence. If $w$ is a fibration, this is automatic, so by factorisation we reduce to the case where $w$ is a cofibration. Now, every trivial cofibration is $Spf$ of a composition of acyclic small extensions, so we may take $w$ to be $Spf$ of an acyclic small extension $A \to B$ with [[kernel]] $I$. Then $f$ is $Spf$ of a quasi-free map $A \to R$, so the pullback is $Spf$ of $R \to R/IR$, and $IR =I\hat{\otimes}_A R$, so $R \to R/IR$ is also an acyclic small extension.
 
 =--
+
+
+
 
 ## Related concepts
 
