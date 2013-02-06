@@ -222,7 +222,11 @@ A systematic definition of 2-modules over [[2-rings]] (see there for more) is in
 * [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#CJF}
 
+See also at
 
+* _[[geometry of physics]]: [[geometry of physics - modules]]_
+
+the section on 2-modules.
 
 [[!redirects 2-vector spaces]]
 
