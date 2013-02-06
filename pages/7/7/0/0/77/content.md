@@ -138,6 +138,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 * [[L-∞ algebroid]], [[smooth ∞-groupoid]]
 
 
+[[!include infinitesimal and local - table]]
+
 ## References
 
 For instance chapter IV in vol III of 
