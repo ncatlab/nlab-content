@@ -35,9 +35,18 @@ Given two Lie groups $H,K$, the Lie algebra homomorphisms $T_e H \to T_e K$ are 
 
 Deformation quantizations of Poisson Lie groups are Hopf algebras. The usual [[quantum groups]] have smaller number of quantum subgroups (i.e. Hopf quotient algebras) than the corresponding Lie group has, namely only only those whose classical limits are not only Lie subgroups but Poisson Lie subgroups. 
 
+## Properties
+
+### Relation to quantum groups
+
+One can regard Poisson groups as the [[classical limit]] of [[quantum groups]]: a theorem by Drinfeld established a [[bijection]] between connected, simply connected Poisson Lie groups and [[Lie bialgebras]]. 
+
+
 ## Related concepts
 
-_Unrelated_ is the concept of the Lie group that [[Lie integration|integrates]] the [[Lie algebra]] inside a [[Poisson algebra]]. This is instead called a _[[quantomorphism group]]_.
+* [[Poisson Lie 2-group]]
+
+* _Unrelated_ is the concept of the Lie group that [[Lie integration|integrates]] the [[Lie algebra]] inside a [[Poisson algebra]]. This is instead called a _[[quantomorphism group]]_.
 
 ## References
 
@@ -71,3 +80,6 @@ Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996, [MR97j:580
 [[!redirects Poisson-Lie groups]]
 [[!redirects Lie Poisson groups]]
 [[!redirects Lie-Poisson groups]]
+
+[[!redirects Poisson group]]
+[[!redirects Poisson groups]]
