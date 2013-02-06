@@ -123,4 +123,9 @@ Accordingly, the morphism $d : \Omega^n(X) \to Z^{n+1}(X)$ is an [[epimorphism]]
 
 This kind of example plays a crucial role in the computation of [[abelian sheaf cohomology]], see the examples listed there.
 
+## Related concepts
+
+[[!include infinitesimal and local - table]]
+
+
 [[!redirects stalks]]
