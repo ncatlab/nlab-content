@@ -10,7 +10,7 @@ Given a [[stack]] $\mathcal{S}$ over a [[site]] $\mathcal{C}$. One often wants t
 
 Let $X$ be a [[scheme]]. Let $\mathcal{S}\to X$ be an [[algebraic stack]] fibered in groupoids over $X$. Let $H$ be a finitely presented, [[separated morphism|separated]], [[group scheme]] over $X$ such that for each $\xi\in\mathcal{S}(T)$ there is an embedding $H(T)\to Aut_T(\xi)$ compatible with pullback.
 
-In other words, $H$ is a [[substack]] of the [[inertia orbifold|inertia]] $\mathcal{I}$. It follows that $H$ must be [[abelian group|abelian]] (because $H(T)$ lies in the center of $Aut_T(\xi)$). The condition on $H$ is trivially satisfied whenever $\mathcal{S}$ is banded by $H$.
+It follows that $H$ must be [[abelian group|abelian]] (because $H(T)$ lies in the center of $Aut_T(\xi)$). The condition on $H$ is trivially satisfied whenever $\mathcal{S}$ is banded by $H$.
 
 Define the $H$-rigidification of $\mathcal{S}$ to be $\mathcal{S}^H$. 
 
