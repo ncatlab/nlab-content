@@ -28,13 +28,16 @@ _Lie differentiation_  is the process reverse to [[Lie integration]]. It sends a
 
 ## Definition
 
-A formalization of the notion Lie differentiation for "affine algebraic spaces" [[higher geometry]] has been given in ([Lurie](#Lurie)), inspired by and building on results discussed at _[[model structure for L-∞ algebras]]_. This we discuss in
+A formalization of the notion Lie differentiation in [[higher geometry]] has been given in ([Lurie](#Lurie)), inspired by and building on results discussed at _[[model structure for L-∞ algebras]]_. This we discuss in
 
 * [For deformation contexts](#ForDeformationContexts)
 
-An adaption of this to geometric contexts which in particular admits the formulation of Lie differentiation of [[Lie groups]] and generally of [[smooth ∞-groups]] we then discuss in 
+We then specialize this to those _[[deformation contexts]]_, def. \ref{DeformationContext}, that arise in the formalization of [[higher differential geometry]] by [[differential cohesion]]:
 
 * [For cohesive contexts](#ForCohesiveContexts)
+
+This is the context in which one has a natural formulation of ordinary Lie differentiation of ordinary [[Lie groups]] to [[Lie algebras]] and its generalization to the Lie differentiation of [[smooth ∞-groups]] to [[L-∞ algebras]]. See the discussion of _[Examples](#Examples)_ below for more.
+
 
 ### For deformation contexts
  {#ForDeformationContexts}
@@ -43,26 +46,33 @@ An adaption of this to geometric contexts which in particular admits the formula
 +-- {: .num_defn #DeformationContext}
 ###### Definition
 
-A **[[deformation context]]** is an [[(∞,1)-category]] $\mathcal{Y}$ such that
+A **[[deformation context]]** is an [[(∞,1)-category]] $Sp_*$ such that
 
 1. it is a [[presentable (∞,1)-category]];
 
-1. it contains a [[terminal object in an (∞,1)-category|terminal object]]
+1. it contains an [[initial object in an (∞,1)-category|initial object]]
 
-together with a [[set]] of [[objects]] $\{E_\alpha \in Stab(\mathcal{Y})\}$ in the [[stabilization]] of $\mathcal{Y}$.
+and 
+
+* equipped with a [[set]] of [[objects]] 
+
+  $$
+    \{E_\alpha \in Stab(Sp_*^{op})\}
+  $$ 
+
+  in the [[stabilization]] of the [[opposite (∞,1)-category]] $Sp_*^{op}$.
 
 =--
 
-This is ([Lurie, def. 1.1.3](#Lurie)) together with the assumption of a terminal object stated (and later implicialy used) on p.9.
+This is ([Lurie, def. 1.1.3](#Lurie)) together with the assumption of a terminal object in $Sp_*^{op}$ stated on p.9 (and later implicialy used).
 
 +-- {: .num_remark}
 ###### Remark
 
 Definition \ref{DeformationContext} is meant to be read as follows:
 
-First, we think of $\mathcal{Y}$ as an [[opposite (∞,1)-category]] of [[pointed object|pointed]] spaces in some [[higher geometry]]. The point is the [[initial object]] in $\mathcal{Y}^{op}$ which is the terminal object in $\mathcal{Y}$. 
-
-Then we think of the formal duals of the objects $\{E_\alpha\}_\alpha$ as a set of generating [[infinitesimally thickened points]].
+We think of $Sp_*$ as an [[(∞,1)-category]] of [[pointed object|pointed]] [[spaces]] in some [[higher geometry]]. The point is the initial object.
+We think of the formal duals of the objects $\{E_\alpha\}_\alpha$ as a set of generating [[infinitesimally thickened points]] (points in [[formal geometry]]).
 
 =--
 
@@ -71,16 +81,16 @@ The following construction generates the "[[jets]]" induced by the generating in
 +-- {: .num_defn #SmallObjects}
 ###### Definition
 
-Given a [[deformation context]] $(\mathcal{Y}, \{E_\alpha\}_\alpha)$, we say
+Given a [[deformation context]] $(Sp_*, \{E_\alpha\}_\alpha)$, we say
 
-* a [[morphism]] in $\mathcal{Y}$ is an **elementary morphism** if it is the [[homotopy fiber]] to a map into $\Omega^{\infty -n}E_\alpha$ for some $n \in \mathbb{Z}$ and some $\alpha$;
+* a [[morphism]] in $Sp_*^{op}$ is an **elementary morphism** if it is the [[homotopy fiber]] to a map into $\Omega^{\infty -n}E_\alpha$ for some $n \in \mathbb{Z}$ and some $\alpha$;
 
-* a morphism is a **small morphism** if it is the composite of [[finite set|finitely]] many elementary morphisms.
+* a morphism in $Sp_*^{op}$ is a **small morphism** if it is the composite of [[finite set|finitely]] many elementary morphisms.
 
 We write
 
 $$
-  \mathcal{Y}^{inf} \hookrightarrow \mathcal{Y}
+  Sp_*^{inf} \hookrightarrow Sp_*
 $$
 
 for the full [[sub-(∞,1)-category]] on those objects $A$ for which the essentially unique map $A \to *$ is small.
@@ -89,41 +99,61 @@ for the full [[sub-(∞,1)-category]] on those objects $A$ for which the essenti
 
 ([Lurie, def. 1.1.8](#Lurie))
 
-+-- {: .num_defn }
++-- {: .num_defn #FormalModuliProblem}
 ###### Definition
 
-Given a [[deformation context]] $(\mathcal{Y}, \{E_\alpha\}_\alpha)$, def. \ref{DeformationContext}, the [[(∞,1)-category]] of **[[formal moduli problems]]** over it is the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-presheaves]] over $\mathcal{Y}^{inf}$
+Given a [[deformation context]] $(Sp_*, \{E_\alpha\}_\alpha)$, def. \ref{DeformationContext}, the [[(∞,1)-category]] of **[[formal moduli problems]]** over it is the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-presheaves]] over $Sp_*^{inf}$
 
 $$
-  Moduli^\mathcal{Y}
+  FormalModuli^{Sp_*}
   \hookrightarrow
-  [\mathcal{Y}^{inf}, \infty Grpd]
+  PSh_\infty(Sp_*^{inf})
 $$
 
-on those [[(∞,1)-functors]] $X \colon \mathcal{Y}^{inf} \to \infty Grpd$ such that
+on those [[(∞,1)-functors]] $X \colon (Sp_*^{inf})^{op} \to \infty Grpd$ such that
 
 1. over the [[terminal object]] they are [[contractible]]: $X(*) \simeq *$;
 
-1. they preserves [[(∞,1)-pullbacks]].
+1. they sends [[(∞,1)-colimits]] in $Sp_*^{inf}$ to [[(∞,1)-limits]] in [[∞Grpd]].
 
 =--
 
 ([Lurie, def. 1.1.14](#Lurie))
 
+
+([Lurie, remark 1.1.7](#Lurie)).
+
 +-- {: .num_remark }
 ###### Remark
 
-This means that a "formal deformation problem" is a [[space]] in [[higher geometry]] whose geometric structure is detected by the "test spaces" in $\mathcal{Y}^{op}$ in a way that respects gluing ([[descent]]) in $\mathcal{Y}^{op}$ as given by [[(∞,1)-pullbacks]] there. The first condition requires that there is an essentially unique such probe by the point, hence that these higher geometric space has essentially a single global point. This is the condition that reflects the infinitesimal nature of the deformation problem.
+This means that a "formal deformation problem" is a [[space]] in [[higher geometry]] whose geometric structure is detected by the "test spaces" in $Sp_*^{inf}$ in a way that respects gluing ([[descent]]) in $Sp_*^{inf}$ as given by [[(∞,1)-colimits]] there. The first condition requires that there is an essentially unique such probe by the point, hence that these higher geometric space have essentially a single global point. This is the condition that reflects the infinitesimal nature of the deformation problem.
 
 =--
 
-+-- {: .num_prop }
+We will often just write $Sp_*$ for a deformation context $(Sp_*, \{E_\alpha\}_\alpha)$, when the objects $\{E_\alpha\}$ are understood.
+
++-- {: .num_prop #FormalModuliIsPresentableCategory}
 ###### Proposition
 
-Given a [[deformation context]] $\mathcal{Y}$, the restricted [[(∞,1)-Yoneda embedding]] gives an [[(∞,1)-functor]]
+The [[(∞,1)-category]] $FormalModuli^{Sp_*}$ of [[formal moduli problems]] is a [[presentable (∞,1)-category]]. Moreover it is a [[reflective sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-presheaves]]
 
 $$
-  Lie \colon \mathcal{Y} \to Moduli^{\mathcal{Y}}
+  FormalModuli^{Sp_*}
+  \stackrel{\leftarrow}{\hookrightarrow}
+  PSh_{\infty}(Sp_*)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #LieDifferentiationFunctor}
+###### Proposition
+
+Given a [[deformation context]] $Sp_*$, the restricted [[(∞,1)-Yoneda embedding]] gives an [[(∞,1)-functor]]
+
+$$
+  Lie \;\colon\; Sp_* \to FormalModuli^{Sp_*}
   \,.
 $$
 
@@ -132,15 +162,167 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-For $Y \in \mathcal{Y}^{op}$, the object $Lie(Y)$ represents the _[[formal geometry|formal neighbourhood]]_ of the basepoint of $Y$ as seen by the infinitesimally thickened points dual to the $\{E_\alpha\}$.
+For $(X,x) \in Sp_*$, the object $Lie(X,x)$ represents the _[[formal geometry|formal neighbourhood]]_ of the basepoint $x$ of $X$ as seen by the infinitesimally thickened points dual to the $\{E_\alpha\}$.
 
-Hence we may call this the operaton of **Lie differentiation** of spaces in $\mathcal{Y}^{op}$ around their given base point.
+Hence we may call this the operation of **Lie differentiation** of spaces in $Sp_*$ around their given base point.
+
+In the archetypical implementation of these axiomatics, discuss [below](#Examples), there is an [[equivalence of (∞,1)-categories]] of [[formal moduli problems]] with [[L-∞ algebras]] and the Lie differentiation of the [[delooping]]/[[moduli ∞-stack]] $\mathbf{B}G$ of a [[smooth ∞-group]] $G$ is its [[L-∞ algebra]] $\mathfrak{g}$: $Lie(\mathbf{B}G) \simeq \mathbf{B}\mathfrak{g}$.
+
+=--
+
++-- {: .num_prop #LieDifferentiationPreservesLimits}
+###### Proposition
+
+The Lie differentiation functor 
+
+$$
+  Lie 
+  \;
+  \colon
+  \;
+  Sp_* \to FormalModuli^{Sp_*}
+$$
+
+of prop. \ref{LieDifferentiationFunctor} preserves [[(∞,1)-limits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{FormalModuliIsPresentableCategory} the [[(∞,1)-limits]] in $FormalModuli^{Sp_*}$ may be computed in $PSh_\infty(Sp_*)$.  There the statement is that of the [[(∞,1)-Yoneda embedding]], or rather just the statement that the [[derived hom space|(∞,1)-hom (∞,1)-functor]] $Sp_*(D,-)$ preserves $(\infty,1)$-limits.
 
 =--
 
 ### For cohesive contexts
  {#ForCohesiveContexts}
 
+> under construction
+
+
+Let $\mathbf{H}_{th}$ be a [[cohesive (∞,1)-topos]] $(&#643; \dashv \flat \dashv \sharp)$ equipped with 
+[[differential cohesion]] $(Red \dashv &#643;_{inf} \dashv \flat_{inf})$.
+
+
++-- {: .num_defn #ExhibitingInfinitesimalCohesion}
+###### Definition
+
+A set of objects $\{D_\alpha \in \mathbf{H}_{th}\}_\alpha$
+is said to **exhibit the differential structure** or 
+**exhibit the infinitesimal thickening** of $\mathbf{H}_{th}$ if the 
+[[localization of an (∞,1)-category|localization]] 
+
+$$
+  L_{\{D_\alpha\}} \mathbf{H}_{th}
+  \stackrel{\leftarrow}{\hookrightarrow}
+  \mathbf{H}_{th}
+$$
+
+of $\mathbf{H}_{th}$
+at the morphisms of the form $D_\alpha \times X \to X$
+is exhibited by the [[infinitesimal shape modality]] $&#643;_{inf} \coloneqq i^* i_*$
+
+$$
+  \mathbf{H} 
+  \simeq 
+  L_{\{D_\alpha\}} \mathbf{H}_{th}
+  \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\hookrightarrow}}
+  \mathbf{H}_{th}
+  \,.
+$$
+
+=--
+
++-- {: .num_Remark }
+###### Remark
+
+Def. \ref{ExhibitingInfinitesimalCohesion} expresses 
+the [[infinitesimal cohesion|infinitesimal]] 
+analog of the notion of objects exhibiting [[cohesion]],
+see at <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures">structures in cohesion -- A1-homotopy and the continuum</a>, 
+hence an infinitesimal notion of [[A1-homotopy theory]]. 
+
+=--
+
++-- {: .num_prop #ObjectsExhibitingDifferentialCohesionAreUniquelyPointed}
+###### Proposition
+
+If objects $\{D_\alpha \in \mathbf{H}_{th}\}$ exhibit the differential cohesion of $\mathbf{H}_{th}$, 
+then they are essentially uniquely pointed.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The localizing objects are in particular themselves [[local objects]]
+so that $&#643;_{inf} D_\alpha \simeq *$. 
+By the $(Red \dashv &#643;_{inf})$-[[adjunctions]] this means that
+
+$$
+  \begin{aligned}
+    \mathbf{H}_{th}(*, D_\alpha)
+    & \simeq \mathbf{H}_{th}(Red(*), D_\alpha)
+    \\
+    & \simeq \mathbf{H}_{th}(*, &#643;_{inf} D_\alpha)
+    \\
+    & \simeq \mathbf{H}_{th}(*, *)
+    \\
+    & \simeq *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+We now consider $(\mathbf{H}_{th}^{\ast/}, \{D_\alpha\})$
+as a [[deformation context]], def. \ref{DeformationContext}. 
+
++-- {: .num_defn #LieDifferentiationInCohesion}
+###### Definition
+
+Write
+
+$$
+  Lie 
+  \;\colon\;
+  \mathbf{H}_{th}^{\ast/}
+  \to
+  FormalModuli^{\mathbf{H}_{th}^{*/}}
+  \hookrightarrow
+  PSh_\infty(\mathbf{H}_{th}^{*/})
+$$
+
+for the Lie differentiaon [[(∞,1)-functor]], def. \ref{LieDifferentiationFunctor}, 
+which sends $(x \colon * \to X) \in \mathbf{H}_{th}$ to 
+
+$$
+  Lie(X,x) 
+   \;\colon\;
+  D
+  \mapsto \mathbf{H}^{\ast/}(D,(X,x))
+  \,.
+$$
+
+=--
+
+
+
+## Examples
+ {#Examples}
+
+### Examples of contexts for Lie differentiation
+
+
+#### dg-Geometry
+
+[[dg-geometry]] (the running example in ([Lurie](#Lurie))).
+
+
+#### Synthetic-differential $\infty$-groupoids
+ {#ExampleContextSyntheticDifferential}
+
+* [[SynthDiff∞Grpd]]
 
 (...)
 
@@ -149,13 +331,13 @@ _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+dif
 (...)
 
 
-## Examples
+### Examples of Lie differentiation
 
-### Of a Lie group
+#### Of a Lie group
 
 (...)
 
-### Of a Lie groupoid
+#### Of a Lie groupoid
 
 (...)
 
