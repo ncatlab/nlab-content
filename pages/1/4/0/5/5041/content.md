@@ -42,6 +42,13 @@ with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of (
 
 The construction is then generalized to noncommutative geometry.
 
+## Keywords
+
+* [[deformation context]]
+
+* [[formal moduli problem]]
+
+* [[model structure for L-infinity algebras]]
 
 
 ## Related entries
