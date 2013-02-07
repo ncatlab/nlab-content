@@ -128,6 +128,8 @@ There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]
 
 * [[outer automorphism group]], [[automorphism 2-group]], [[outer automorphism ∞-group]]
 
+* [[rigidification of a stack]]
+
 [[!redirects outer automorphism group]]
 [[!redirects outer automorphism groups]]
 
