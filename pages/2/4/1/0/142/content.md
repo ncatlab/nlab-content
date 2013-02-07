@@ -118,6 +118,8 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
     * [[differentiable stack]], [[Deligne-Mumford stack]]
 
+  * [[rigidification of a stack]]
+
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
 Special kinds of stacks include
