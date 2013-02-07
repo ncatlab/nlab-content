@@ -1,5 +1,22 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -19,3 +36,6 @@ Every real [[Lie algebra]] is a Lie algebra of some local Lie group. Or in more 
 
 [[!redirects local Lie groups]]
 [[!redirects Lie groupuscule]]
+
+[[!redirects local group]]
+[[!redirects local groups]]
