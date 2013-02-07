@@ -28,6 +28,7 @@ See [[(∞,1)-category of (∞,1)-sheaves]] for more.
 
 ## Definition
 
+> Warning: Something in the following needs to be changed. For the moment check the latest pdf update of ([Lurie](#Lurie)).
 
 Given an [[(∞,1)-site]] $C$, let $S$ be the class of [[monomorphism in an (∞,1)-category|monomorphisms]] in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ that correspond to [[covering]] [[(∞,1)-sieve]]s
 
@@ -75,7 +76,8 @@ Notice however that there is ambiguity in what precisely one may mean by an $\in
 
 Section 6.2.2 in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ {#Lurie}
 
 
 [[!redirects (infinity,1)-sheaves]]
