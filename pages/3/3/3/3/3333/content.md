@@ -27,7 +27,7 @@
 
 ## Idea
 
-In an [[(∞,1)-category]] $C$ with $(\infty,1)$-[[pullback]]s, the _free loop space object_ $\mathcal{L}X$ of any object $X$ is an object that behaves as if its [[generalized element]]s are loops in $X$, morphisms between generalized elements [[homotopy|homotopies]] of loops, and so on.
+In an [[(∞,1)-category]] $C$ with $(\infty,1)$-[[pullback]]s, the _free loop space object_ $\mathcal{L}X$ of any object $X$ -- also called the _[[inertia groupoid]]_ -- is an object that behaves as if its [[generalized elements]] are loops in $X$, morphisms between generalized elements [[homotopy|homotopies]] of loops, and so on.
 
 For the case that $C = $ [[Top]] this reproduces the ordinary notion of free [[loop space]] objects of [[topological space]]s.
 
