@@ -292,6 +292,14 @@ Section 1.2.9 of
 [[!redirects over-(∞,1)-categories]]
 [[!redirects over-(infinity,1)-categories]]
 
+[[!redirects under-(∞,1)-category]]
+[[!redirects under-(infinity,1)-category]]
+
+[[!redirects under-(∞,1)-categories]]
+[[!redirects under-(infinity,1)-categories]]
+
+
+
 [[!redirects over (∞,1)-category]]
 [[!redirects over (infinity,1)-category]]
 
