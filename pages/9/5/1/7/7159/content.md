@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[derived geometry]] corresponding to [[differential geometry]]: over the [[Lawvere theory]] for [[smooth algebra]]s ($C^\infty$-rings):
+_Derived differential geometry_ is [[higher differential geometry]] in an ambient [[(∞,1)-topos]] which is not [[n-localic (∞,1)-topos|1-localic]]. This is the [[derived geometry]] corresponding to [[differential geometry]]. Typically this is specifically taken to be the derived geometry induced by the [[Lawvere theory]] for [[smooth algebras]] ($C^\infty$-rings):
 
 See
 
