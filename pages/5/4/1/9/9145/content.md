@@ -19,11 +19,13 @@
 
 ## Idea
 
-_Lie differentiation_  is the process reverse to [[Lie integration]].
+_Lie differentiation_  is the process reverse to [[Lie integration]]. It sends a [[Lie group]] to its [[Lie algebra]] and more generally a [[Lie groupoid]] to its [[Lie algebroid]] and a [[smooth ∞-group]] to its [[L-∞ algebra]].
 
-For ordinary [[Lie theory]] see at _[[Lie's three theorems]]_.
+## Details
 
-For [[infinity-Lie theory]] see at _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+differential+infinity-groupoid#LieDifferentiation)_ .
+* For the moment, for ordinary [[Lie theory]] see at _[[Lie's three theorems]]_.
+
+* For [[infinity-Lie theory]] see at _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+differential+infinity-groupoid#LieDifferentiation)_ .
 
 
 ## Related concepts
