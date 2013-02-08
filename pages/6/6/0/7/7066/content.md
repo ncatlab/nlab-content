@@ -157,9 +157,9 @@ If a polarization on an $2n$-dimensional symplectic manifold is generated from $
 
 ### Refinement to higher geometric quantization
 
-* [[Dirac structure]]
 
-(...)
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
