@@ -1,5 +1,5 @@
 
-**[[schreiber:∞-Chern-Simons theory]] from binary and non-degenrate [[invariant polynomial]]**
+**[[schreiber:∞-Chern-Simons theory]] from binary and non-degenerate [[invariant polynomial]]**
 
 | $n \in \mathbb{N}$ | [[symplectic Lie n-algebroid]] |  [[Lie integration|Lie integrated]] [[smooth ∞-groupoid]] | [[higher symplectic geometry]] |  $(n+1)$d [[sigma-model]] | [[dg-manifold|dg-]][[Lagrangian submanifold]]/ [[real polarization]] [[leaf]] | =  [[brane]] |
 |--|--|--|--|--|--|--|
