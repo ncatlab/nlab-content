@@ -1,0 +1,13 @@
+
+
+This entry provides links related to
+
+* [[Pavol Ševera]], 
+
+  _Some title containing the words "homotopy" and "symplectic", e.g. this one_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+
+on this table:
+
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+category: reference
