@@ -1,16 +1,24 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc} 
 
 ##Idea
 
-The **Atiyah Lie algebroid** associated to a $G$-[[principal bundle]] $P$ over $X$ is a [[Lie algebroid]] structure on the [[vector bundle]] $T P/ G$.
+The **Atiyah Lie algebroid** associated to a $G$-[[principal bundle]] $P$ over $X$ is a [[Lie algebroid]] structure on the [[vector bundle]] $T P/ G$, the [[quotient]] of the [[tangent bundle]] of the total space $P$ by the canonical induced $G$-[[action]].
 
-The [[Lie groupoid]] that the Atiyah Lie algebroid [[Lie integration|integrates to]] is the [[Atiyah Lie groupoid]]. See there for more background and discussion.
+The [[Lie groupoid]] that the Atiyah Lie algebroid [[Lie integration|integrates to]] is the _[[Atiyah Lie groupoid]]_. See there for more background and discussion.
 
 ## Definition
 
@@ -31,7 +39,7 @@ where
 
 * $T X$ is the [[tangent Lie algebroid]] of $X$.
 
-The bracket on the sections of $at(P)$ is that inherited from the tangent Lie algebroid of $P$.
+The [[Lie bracket]] on the sections of $at(P)$ is that inherited from the tangent Lie algebroid of $P$.
 
 ## Relation to connections
 
@@ -43,13 +51,17 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 ...
 
+## Related concepts
+
+* [[Courant Lie 2-algebroid]]
 
 ## References
 
-* M. F. Atiyah, _Complex analytic connections in fibre bundles_, Trans. Amer. Math. Soc. 85 (1957), 181--207, [doi](http://dx.doi.org/10.2307/1992969),[MR0086359](http://www.ams.org/mathscinet-getitem?mr=0086359) 
+* [[Michael Atiyah]], _Complex analytic connections in fibre bundles_, Trans. Amer. Math. Soc. 85 (1957), 181--207, [doi](http://dx.doi.org/10.2307/1992969),[MR0086359](http://www.ams.org/mathscinet-getitem?mr=0086359) 
 
 A discussion with an emphasis on the relation to [[connection on a bundle|connections]] and [[Lie 2-algebra]]s is on the first pages of
 
-* Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+* [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
 
 
+[[!redirects Atiyah Lie algebroids]]
