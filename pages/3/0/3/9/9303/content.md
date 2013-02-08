@@ -36,7 +36,7 @@ Then we discuss specifically the case for [[algebraic stacks]] where one may add
 ### General
  {#GeneralDefinition}
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], write $\mathbf{Aut}(X) \in Grp(\mathbf{H})$ for its internal [[automorphism ∞-group]]. Consider a [[braided ∞-group]] $H \in BrGrp(\mathbf{H})$ and a pointed [[homomorphism]]
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], write $\mathbf{Aut}(X) \in Grp(\mathbf{H})$ for its internal [[automorphism ∞-group]]. Consider a [[braided ∞-group]] $H \in BrGrp(\mathbf{H})$ and an [[∞-group]] [[homomorphism]]
 
 $$
   \iota
@@ -44,7 +44,7 @@ $$
   \mathbf{B}H \to \mathbf{Aut}(X)
 $$
 
-of [[∞-groups]] (pointed meaning that it takes the essentially unique point of $\mathbf{B}H$ to the [[identity]] automorphism of $X$). 
+of [[∞-groups]]. 
 This defines an [[∞-action]] of $\mathbf{B}H$ on $X$, hence a [[fiber sequence]] in $\mathbf{H}$ of the form
 
 $$
@@ -71,7 +71,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-The [[∞-quotient]] $X//\mathbf{B}H$ is what is sometimes called the "rigidification" of $X$, especially if $H$ is maximal such that there is a pointed homomorphism $\mathbf{B}H \to \mathbf{Aut}(X)$.
+The [[∞-quotient]] $X//\mathbf{B}H$ is what is sometimes called the "rigidification" of $X$, especially if $H$ is maximal such that there is a homomorphism $\mathbf{B}H \to \mathbf{Aut}(X)$.
 
 =--
 
@@ -127,7 +127,7 @@ $$
 
 [[commuting diagram|commutes]].
 
-Now for $H$ an [[abelian group]] there is the [[delooping]] [[groupoid]] $\mathbf{B}H$ which has a single object and $H$ as the group of morphisms from that object to itself. Both $\mathbf{Aut}(X)$ and $\mathbf{B}H$ are [[2-groups]] in this case. A pointed homomorphism of 2-groups
+Now for $H$ an [[abelian group]] there is the [[delooping]] [[groupoid]] $\mathbf{B}H$ which has a single object and $H$ as the group of morphisms from that object to itself. Both $\mathbf{Aut}(X)$ and $\mathbf{B}H$ are [[2-groups]] in this case. A homomorphism of 2-groups
 
 $$
   \iota 
@@ -137,7 +137,8 @@ $$
   \mathbf{Aut}(X)
 $$
 
-is equivalently a [[function]] that sends each element $g \in G$ to a function $g_{(-)}$ that sends each object $\xi \in X$ to a morphism $g_\xi \colon \xi \to \xi$ in $X$, such that the above diagram commutes. Moreover, this being a [[2-group]] [[homomorphism]] means that for $g_1, g_2 \in H$ two elements, they are sent to the composite $(g_2)_\xi\circ (g_1)_\xi$ in $X$.
+has to send the essentially unique point of $\mathbf{B}H$ to the [[identity]] [[functor]] $id_X$ and is hence
+equivalently a [[function]] that sends each element $g \in G$ to a [[natural isomorphism]] $g \colon id_X \to id_X$, hence a function $g_{(-)}$ that sends each object $\xi \in X$ to a morphism $g_\xi \colon \xi \to \xi$ in $X$, such that the above diagram commutes. Moreover, this being a [[2-group]] [[homomorphism]] means that for $g_1, g_2 \in H$ two elements, they are sent to the composite $(g_2)_\xi\circ (g_1)_\xi$ in $X$.
 
 In other words, we have a [[functor]]
 
@@ -210,7 +211,7 @@ $$
   \,.
 $$
 
-In degree 0 this is the identity map $(\xi,\ast) \mapsto \xi$ (by pointedness), in degree 1 it is (with the symbols as above) the map $(\phi,g) \mapsto g_\eta \circ \phi = \phi \circ g_\xi$ and so on.
+In degree 0 this is the identity map $(\xi,\ast) \mapsto \xi$, in degree 1 it is (with the symbols as above) the map $(\phi,g) \mapsto g_\eta \circ \phi = \phi \circ g_\xi$ and so on.
 
 Finally, the [[∞-quotient]] $X//\mathbf{B}H$ of an [[∞-action]] of an [[∞-group]] presented as an ordinary action of a [[simplicial group]] on a [[Kan complex]] this way is presented by the [[Borel construction]], namely the ordinary [[quotient]] of [[simplicial sets]]
 
@@ -239,7 +240,7 @@ So the [[Kan complex]] $X \times_{\mathbf{B}H} \mathbf{E}\mathbf{B}H$ presents t
 
 The standard example is the $\mathbb{G}_m$-rigidification of the [[Picard scheme|Picard stack]]. Suppose $X/k$ is an irreducible [[variety]] over a [[field]]. One can say that the failure of the Picard stack, $\mathcal{Pic}_X$ to be representable comes from the fact that objects in fiber categories have automorphisms by the multiplicative group, so we would like to kill this group.
 
-As pointed out in [[Picard scheme]], the relative Picard scheme is the [[sheafification]] of $\mathcal{Pic}_X$ and [[representable]]. Moreover $\mathcal{Pic}_X\to Pic_X$ is a $\mathbb{G}_m$-gerbe, so $\mathbb{G}_m$ satisfies the conditions to rigidify. 
+As pointed out in _[[Picard scheme]]_, the relative Picard scheme is the [[sheafification]] of $\mathcal{Pic}_X$ and [[representable]]. Moreover $\mathcal{Pic}_X\to Pic_X$ is a $\mathbb{G}_m$-gerbe, so $\mathbb{G}_m$ satisfies the conditions to rigidify. 
 
 By the [[universal property]], the rigidification is exactly $Pic_X$, so in this case we see that the sheafification and the rigidification by the inertia are the same.
 
