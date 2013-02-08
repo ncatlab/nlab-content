@@ -20,7 +20,7 @@ Reducedness can also be characterized by the [[internal language]] of the sheaf 
 
 ## Examples
 
-For instance the dual $Spek k[\epsilon](\epsilon^2)$ of the [[ring of dual numbers]] is *not* reduced, since it is the point with an infintiesimal extension added to it. Its reduction is the point itself. Generally, [[formal schemes]] are not reduced.
+For instance the dual $Spek k[\epsilon](\epsilon^2)$ of the [[ring of dual numbers]] is *not* reduced, since it is the point with an infinitesimal extension added to it. Its reduction is the point itself. Generally, [[formal schemes]] are not reduced.
 
 
 ## Related concepts
