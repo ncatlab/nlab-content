@@ -117,13 +117,18 @@ a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]]
 
 ## Related concepts
 
-* [[Chan-Paton bundle]]
+* [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
+
+* [[Freed-Witten anomaly cancellation]]
 
 * [[Dirac-Born-Infeld action]]
 
 * [[black brane]], [[black hole in string theory]]
 
 [[!include table of branes]]
+
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
