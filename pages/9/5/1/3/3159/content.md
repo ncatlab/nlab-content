@@ -108,6 +108,8 @@ Assuming the [[axiom of choice]], if $R = k$ is a [[field]] then every $R$-[[mod
 
 * [[locally free module]]
 
+* [[finitely generated module]], [[finitely presented module]]
+
 * **free module** $\Rightarrow$ [[projective module]] $\Rightarrow$ [[flat module]] $\Rightarrow$ [[torsion-free module]]
 
 * [[basis of a free module]]
