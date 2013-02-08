@@ -397,6 +397,7 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 [[!include Isbell duality - table]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 ## References
  {#References}
@@ -439,3 +440,5 @@ and in
 
 [[!redirects n-plectic structure]]
 [[!redirects n-plectic structures]]
+
+[[!redirects 3-plectic geometry]]
