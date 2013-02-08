@@ -32,6 +32,8 @@ As symplectic geometry naturally describes [[classical mechanics]] and, via [[ge
 
 [[!include geometric quantization extensions - table]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
