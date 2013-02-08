@@ -5,15 +5,15 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-$\mathcal{$\Gamma$}$
+**[[schreiber:∞-Chern-Simons theory]] from binary and non-degenrate [[invariant polynomial]]**
 
-|  [[L-∞ algebras]] | form [[Chevalley-Eilenberg algebra]] | [[pro-objects]] in commutative [[Artin algebra|Artin]] [[dg-algebras]] | dualize | commutative [[dg-coalgebra]] | form [[tangent space|tangents]] | [[dg-Lie algebras]] |
+| $n \in \mathbb{N}$ | [[symplectic Lie n-algebroid]] |  [[Lie integration|Lie integrated]] [[smooth ∞-groupoid]] | [[higher symplectic geometry]] |  $(n+1)$d [[sigma-model]] | [[dg-manifold|dg-]][[Lagrangian submanifold]]/real [[polarization]] leaf | =  [[brane]] |
 |--|--|--|--|--|--|--|
-| $L_\infty Alg$ | $\stackrel{CE}{\hookrightarrow}$ | $Pro(dgArtinCAlg)^{op} $ | $\stackrel{(-)^*}{\to}$ | $dgCoCAlg$ | $\stackrel{\mathcal{L}}{\to}$ | $dgLieAlg$ | 
-|    |     | $=: dgFormalSpace$ |   |  | | |
-| [[category of fibrant objects]] | [[equivalence of (∞,1)-categories]] under [[simplicial localization]] |  [[opposite model structure]] of [[cofibrantly generated model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[cofibrantly generated model category|cofibrantly generated]] [[model category]] |
-
-
+| 0 | [[symplectic manifold]] | [[symplectic manifold]] | [[symplectic geometry]] |   | [[Lagrangian submanifold]] | -- |
+| 1 | [[Poisson Lie algebroid]] | [[symplectic groupoid]] | [[2-plectic geometry]]  | [[Poisson sigma-model]] |  [[coisotropic submanifold]] |  [brane of Poisson sigma-model](Poisson sigma-model#Branes)  |
+| 2 | [[Courant Lie 2-algebroid]] | [[symplectic 2-groupoid]] | [[3-plectic geometry]] |[[Courant sigma-model]]  | [[Dirac structure]]  | [[D-brane]] in [[type II geometry]] |
+| $n$ | [[symplectic Lie n-algebroid]] |  [[symplectic infinity-groupoid|symplectic n-groupoid]] | [[n-plectic geometry|(n+1)-plectic geometry]] | $d = n$ [[AKSZ sigma-model]] |   |  |
+  
 
 ***
 category: meta
