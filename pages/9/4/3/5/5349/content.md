@@ -25,6 +25,15 @@ All of the following are invariant basis rings (source: [Wikipedia](http://en.wi
 Besides the [[trivial ring]] (over which any module is free with any set as basis), an example of a ring without invariant basis number is the ring of $\aleph_0$-dimensional square [[matrix|matrices]] (over any ring) in which each column has only finitely many nonzero entries (which allows multiplication to be defined).  As a module over itself, this ring is free on any inhabited finite set, as may be shown by using the equation $\aleph_0 = n \aleph_0$ (applied to the columns).
 
 
+## Rank of a sheaf of modules
+
+Let $(X,\mathcal{O})$ be a [[locally ringed space]] and $\mathcal{E}$ a $\mathcal{O}$-module. Then its _rank_ at a point $x \in X$ is the vector space dimension of the [[fiber]] $\mathcal{E}(x) \coloneqq \mathcal{E}_x \otimes_{\mathcal{O}_x} k(x)$ over the [[residue field]] $k(x)$.
+
+If $\mathcal{E}$ is of [[coherent sheaf|finite type]], then the rank at $x$ can equivalently be defined as the minimal number of elements needed to generate the stalk $\mathcal{E}_x$ as a $\mathcal{O}_x$-module (by [[Nakayama's lemma]]). In this case, the rank is a [[semicontinuous map|upper semicontinuous]] function $X \to \mathbb{N}$.
+
+In the [[internal logic|internal language]] of the sheaf topos $\mathrm{Sh}(X)$, the rank of $\mathcal{E}$ can internally quite simply be defined as the minimal number of elements needed to generate $\mathcal{E}$ (taken as an element of the suitably completed natural numbers, i.e. the poset of inhabited upper sets). Under the correspondence of internal inhabited upper sets in $\mathrm{Sh}(X)$ and upper semicontinuous functions $X \to \mathbb{N}$ (details at _[[one-sided real number]]_), this definition coincides with the usual one if $\mathcal{E}$ is of finite type; see [this MathOverflow question](http://mathoverflow.net/questions/34412/the-upper-semi-continuous-rank-of-a-module-sheaf).
+
+
 ## Hereditary rank of a pure set
 
 Every [[pure set]] within the [[von Neumann hierarchy]] appears first at some level given by an [[ordinal number]]; this number is its __hereditary rank__.
