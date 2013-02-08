@@ -1,10 +1,16 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -61,17 +67,7 @@ where
 
 * the functor $At(P) \to Codisc(X)$ is the unique one that is the identity on objects.
 
-+-- {: .query}
-What is all of this $diag$ stuff?  I don\'t understand either $(P \times P)/_{diag} G$ or $(P_x \times P_x)_{diag} G$.  ---Toby
 
-[[David Roberts]]: It's to do with the diagonal action of $G$ on $P\times P$ as opposed to the antidiagonal (if $G$ is abelian) or the action on only one factor. I agree that it's a bad notation.
-
-_Toby_:  How well do you think it works now, with the notation suppressed and a note added in words?  (For what it\'s worth, the diagonal action seems to me the only obvious thing to do here, although admittedly the others that you mention do exist.)
-
-_Todd_: I personally believe it works well. A small note is that this construction can also be regarded as a tensor product, regarding the first factor $P$ as a right $G$-module and the second a left module, where the actions are related by $g p = p g^{-1}$. 
-
-_Toby_:  H\'m, maybe we should write [[diagonal action]] if there\'s something interesting to say about it.
-=--
 
 Notice that a splitting (a [[section]])
 
