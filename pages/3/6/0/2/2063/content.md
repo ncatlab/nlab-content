@@ -18,8 +18,6 @@
 
 The _fiber_ of a [[morphism]] or [[bundle]] $f : E \to B$ over a [[point]] of $B$ is the collection of [[generalized element|elements]] of $E$ that are mapped by $f$ to this point.
 
-The fiber of a sheaf $\mathcal{E}$ of $\mathcal{O}$-modules over a [[locally ringed space]] $(X,\mathcal{O})$ is the vector space $\mathcal{E}(x) \coloneqq \mathcal{E}_x \otimes_{\mathcal{O}_x} k(x)$ over the [[residue field]] $k(x)$.
-
 ## Definition
 
 +-- {: .num_defn }
@@ -57,6 +55,12 @@ In a [[fiber bundle]], all fibres are [[isomorphism|isomorphic]] to some standar
 ### Kernels
 
 In an [[additive category]] fibers over the [[zero object]] are called _[[kernels]]_.
+
+### Fibers of a sheaf of modules
+
+The fiber of a sheaf $\mathcal{E}$ of $\mathcal{O}$-modules over a [[locally ringed space]] $(X,\mathcal{O})$ is the vector space $\mathcal{E}(x) \coloneqq \mathcal{E}_x \otimes_{\mathcal{O}_x} k(x)$ over the [[residue field]] $k(x)$.
+
+
 
 ## Related concepts
 
