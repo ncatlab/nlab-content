@@ -1,5 +1,3 @@
-[[!redirects (infinity,n)-vector space]]
-[[!redirects n-vector space]]
 
 
 +-- {: .rightHandSide}
@@ -227,3 +225,9 @@ section 7 of
 [[!redirects 3-module]]
 [[!redirects 3-modules]]
 
+[[!redirects n-module]]
+[[!redirects n-modules]]
+
+
+[[!redirects (infinity,n)-vector space]]
+[[!redirects n-vector space]]
