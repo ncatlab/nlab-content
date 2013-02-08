@@ -515,7 +515,7 @@ of [[simplicial presheaves]]. Now the same argument as above applies on $P_* X$.
 
 * [[higher geometric quantization]]
 
-
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 ## References
 
