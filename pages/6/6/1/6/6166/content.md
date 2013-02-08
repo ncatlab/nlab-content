@@ -1,1 +1,16 @@
-Given a (not necessarily unital) ring $R$, a left $R$-[[module]] $(M,\nu)$, where $\nu :R\times M\to M$ is the action, is __finitely generated__ if there exist a set $S\subset M$ such that the composition of the inclusion of sets $R\times S\hookrightarrow R\times M$ and the action $\nu : R\times M\to M$ is surjective. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(M,\nu)$, where $\nu :R\times M\to M$ is the action, is __finitely generated__ if there exist a set $S\subset M$ such that the composition of the inclusion of sets $R\times S\hookrightarrow R\times M$ and the action $\nu : R\times M\to M$ is surjective. 
+
+## Related concepts
+
+* [[finitely presented module]]
+
+* [[free module]]
+
+[[!redirects finitely generated modules]]
