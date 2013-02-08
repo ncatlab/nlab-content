@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $G$ a [[group]] with [[action]] on two [[objects]] $X$ and $Y$, there is a canonically induced action on the [[product]] $X \times Y$. This is the _diagonal action_.
+
+## Related concepts
+
+* [[diagonal]]
+
+* [[Atiyah Lie groupoid]]
+
+[[!redirects diagonal actions]]
