@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[worldvolume]] [[action functional]] of [[D-branes]]
+
+## References
+
+Discussion in terms of D-branes as leaves of [[Dirac structures]] on [[Courant Lie 2-algebroids]] of [[type II geometry]] is in
+
+* Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
+ {#AsakawaSasaWatamura}
+
+[[!redirects DBI action]]
+
+[[!redirects Dirac-Born-Infeld action functional]]
+[[!redirects DBI action functional]]
