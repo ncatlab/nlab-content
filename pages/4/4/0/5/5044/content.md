@@ -46,6 +46,8 @@ For a [[Courant algebroid]] $(\mathfrak{P}, \omega)$ this is called the _Courant
       * [[Chern-Simons theory]]
 
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
