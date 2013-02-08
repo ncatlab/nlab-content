@@ -252,6 +252,14 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
+### Worldsheet
+
+A review of T-duality from the [[worldsheet]] perspective is in 
+
+* Jnanadeva Maharana, _The Worldsheet Perspective of T-duality Symmetry in String Theory_ ([arXiv:1302.1719](http://arxiv.org/abs/1302.1719))
+
+### Target space
+
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
 * [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
