@@ -151,6 +151,8 @@ This morphism locally takes the local [[differential form]] incarnation $A$ of a
 
 * [[Nambu-Goto action]]
 
+* [[Dirac-Born-Infeld action]]
+
 * A large class of examples of action functionals arises in [[schreiber:∞-Chern-Simons theory]]. See there for details.
 
 
