@@ -48,6 +48,11 @@ See specific versions:
 
 * [[orthogonal structure]]
 
+## References
+
+* [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
+ {#KM}
+
 
 [[!redirects infinite dimensional manifold]]
 [[!redirects infinite dimensional manifolds]]
