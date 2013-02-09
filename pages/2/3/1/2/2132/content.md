@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### Symplectic geometry
+#### Complex geometry
 +--{: .hide}
-[[!include symplectic geometry - contents]]
+[[!include complex geometry - contents]]
 =--
 =--
 =--
@@ -41,6 +41,7 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * **K&#228;hler manifold**, [[hyper-Kähler manifold]], [[quaternionic Kähler manifold]]
 
+* [[Kähler-Einstein manifold]]
 
 [[!include special holonomy table]]
 
