@@ -86,11 +86,12 @@ $$
 =--
 
 
-## Terminology
++-- {: .num_remark}
+###### Remark
 
-Sometimes [[(∞,1)-sheaves]] are called **[[∞-stacks]]**, though sometimes the latter term is reserved for [[hypercomplete]] $(\infty,1)$-sheaves.
+Sometimes [[(∞,1)-sheaves]] are called **[[∞-stacks]]**, though sometimes the latter term is reserved for [[hypercomplete]] $(\infty,1)$-sheaves and at other times again it refers to [[(∞,2)-sheaves]].
 
-The [[(n,1)-category|(n,1)-categorical]] counting is
+The [[(n,1)-category|(n,1)-categorical]] counting is:
 
 * [[sheaf]] = 0-stack = 0-[[truncated]] $(\infty,1)$-sheaf
 
@@ -101,6 +102,8 @@ The [[(n,1)-category|(n,1)-categorical]] counting is
 * etc.
 
 * $(\infty,1)$-sheaf = [[∞-stack]]  (or = [[hypercomplete]] $(\infty,1)$-sheaf).
+
+=--
 
 
 ## Properties
