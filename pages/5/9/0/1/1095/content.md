@@ -120,7 +120,7 @@ We must prove that the sheafification functor $L:PSh(C)\to Sh(C)$ preserves fini
 
 $$F^+(c)={\lim_{\rightarrow}}_U {\lim_{\leftarrow}}_{u\in U} F(u)$$
 
-where the colimit is taken over all covering sieves $U$ of $c$; this is called the _plus construction_. This defines a functor $PSh(C)\to PSh(C)$ and there is an obvious morphism $F\to F^+$ natural in $F$.
+where the colimit is taken over all covering sieves $U$ of $c$; this is called the _plus construction_. It defines a functor $PSh(C)\to PSh(C)$ and there is an obvious morphism $F\to F^+$ natural in $F$.
 
 It is clear that the construction $F\mapsto F^+$ preserves finite limits, since filtered colimits do, and it is easy to see that the map $F\to F^+$ becomes an equivalence in $Sh(C)$. Given an ordinal $\alpha$, let $F^{(\alpha)}$ be the $\alpha$-iteration of the plus construction applied to the presheaf $F$. Then the functor $F\mapsto F^{(\alpha)}$ preserves finite limits and the canonical map $F\to F^{(\alpha)}$ becomes an equivalence in $Sh(C)$. In particular, if $F^{(\alpha)}$ is a sheaf, then $F^{(\alpha)}\simeq L(F)$. Thus, it suffices to show that there exists an ordinal $\alpha$ such that, for every $F\in PSh(C)$, $F^{(\alpha)}$ is a sheaf.
 
@@ -128,7 +128,7 @@ Fix $c\in C$ and a covering sieve $U$ of $C$. Given a presheaf $G\in PSh(C/c)$, 
 
 $$Match(U,G)(f: d\to c)={\lim_{\leftarrow}}_{u\in f^\ast U}G(u).$$
 
-Restriction maps induce a morphism $\theta_G: G\to Match(U,G)$. A finality argument (???) shows that $Match(U,-)$ is _idempotent_, in the sense that $Match(U,\theta_G)$ and $\theta_{Match(U,G)}$ are equivalences.
+Restriction maps induce a morphism $\theta_G: G\to Match(U,G)$. A cofinality argument shows that $Match(U,-)$ is _idempotent_, in the sense that $Match(U,\theta_G)$ and $\theta_{Match(U,G)}$ are equivalences.
 
 By definition, $F\in PSh(C)$ is a sheaf if and only if $F(c)\stackrel{\sim}{\to} Match(U,F|_{C/c})(c)$ for every $c\in C$ and every covering sieve $U$ of $c$. Our goal is therefore to find an ordinal $\alpha$ (depending only on the (∞,1)-site $C$) such that, for every $F\in PSh(C)$, the map
 
@@ -136,11 +136,11 @@ $$F^{(\alpha)}(c) \to \Match(U,F^{(\alpha)}|_{C/c})(c)$$
 
 is an equivalence.
 
-The natural transformation $G\to G^+$ of presheaves on $PSh(C/c)$ factors as
+The morphism $G\to G^+$ in $PSh(C/c)$ factors as
 
-$$G\to Match(U,G)\to G^+$$
+$$G\to Match(U,G)\to G^+.$$
 
-and this factorization is natural in $G$. Applying $Match(U,-)$ to this factorization, we get a commutative diagram
+Applying $Match(U,-)$ to this factorization, we get a commutative diagram
 
 $$
   \array{
@@ -152,15 +152,15 @@ $$
   }
 $$
 
-Since $Match(U,-)$ is idempotent, the middle map $\theta_{Match(U,G)}$ is an equivalence. By cofinality, the colimit of the maps $\theta_{G^{(n)}}$ as $n\to\infty$ is an equivalence. Applying this to $G=F|_{C/c}$, we get
+in which the map $\theta_{Match(U,G)}$ is an equivalence since $Match(U,-)$ is idempotent. By cofinality, the colimit of the maps $\theta_{G^{(n)}}$ as $n\to\infty$ is an equivalence. Applying this to $G=F|_{C/c}$, we get
 
 $$ F^{(\omega)}(c)\stackrel{\sim}{\to} {\lim_{\rightarrow}}_{n\to\infty} Match(U,F^{(n)}|_{C/c})(c).$$
 
-This is true for any covering sieve $U$, so it _almost_ means that $F^{(\omega)}$ is a sheaf. The problem is that the filtered colimit on the right-hand side need not commute with the limit appearing in the definition of $Match(U,-)$, that is, the canonical map
+This _almost_ means that $F^{(\omega)}$ is a sheaf. The problem is that the filtered colimit on the right-hand side need not commute with the limit appearing in the definition of $Match(U,-)$, that is, the canonical map
 
 $$ {\lim_{\rightarrow}}_{\alpha \lt \omega} Match(U,F^{(\alpha)}|_{C/c})(c) \to \Match(U,F^{(\omega)}|_{C/c})(c) $$
 
-need not be an equivalence. To solve this problem, we choose a cardinal $\kappa$ such that for every $c\in C$ and every covering sieve $U$ of $c$, the functor $Match(U,(-)|_{C/c})(c):Psh(C)\to \infty Grpd$ preserves $\kappa$-filtered colimits. This is possible because this functor, being the composition of the restriction functor $PSh(C)\to PSh(U)$ and the limit functor $PSh(U)\to\infty Grpd$, has a left adjoint and is therefore accessible (c.f. [[HTT|HTT Prop. 5.4.7.7]]). Then the above map with $\omega$ replaced by $\kappa$ is an equivalence. For every ordinal $\alpha\lt\kappa$, applying the above to $F^{(\alpha)}$ shows that
+need not be an equivalence. To solve this problem, we choose a cardinal $\kappa$ such that for every $c\in C$ and every covering sieve $U$ of $c$, the functor $Match(U,(-)|_{C/c})(c):Psh(C)\to \infty Grpd$ preserves $\kappa$-filtered colimits. This is possible because $C$ is small and each of these functors, being the composition of the restriction functor $PSh(C)\to PSh(U)$ and the limit functor $PSh(U)\to\infty Grpd$, has a left adjoint and is therefore accessible (see [[HTT|HTT Prop. 5.4.7.7]]). Then the above map with $\omega$ replaced by $\kappa$ is an equivalence. For every ordinal $\alpha\lt\kappa$, applying the above to $F^{(\alpha)}$ shows that
 
 $$ F^{(\alpha+\omega)}(c)\stackrel{\sim}{\to} {\lim_{\rightarrow}}_{n\to\infty} Match(U,F^{(\alpha+n)}|_{C/c})(c),$$
 
