@@ -116,6 +116,8 @@ vector fields and flows)
 
 * [[density]], [[volume form]]
 
+* [[integration over infinite-dimensional manifolds]]
+
 * [[fiber integration]], [[fiber integration in differential cohomology]]
 
 * [[Lie integration]]
