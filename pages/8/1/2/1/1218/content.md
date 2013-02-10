@@ -514,11 +514,17 @@ The thesis
 
 contains some useful material that hasn't yet made it into the book. 
 
-The embedding of [[Fréchet manifolds]] into diffeological spaces is reviewed and discussed in
+The embedding of [[Fréchet manifolds]] into diffeological spaces is due to 
+
+* M. V. Losik, _Fr&#233;chet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  
+
+and reviewed in section 3 of 
 
 * M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r.
 Cat&#233;g., 35(4):274&#8211;290, 1994.
  {#Losik}
+
+The preservation of [[mapping spaces]] under this embedding is due to
 
 * [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  {#Waldorf}
