@@ -92,7 +92,19 @@ See also section A.3.2 of
 
 > for the moment see [[(∞,2)-category]] for more on this
 
-### References
+## Related concepts
+
+* [[model structure for quasi-categories]]
+
+* [[relation between quasi-categories and simplicial categories]]
+
+## References
+
+Section A.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Also
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
