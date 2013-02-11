@@ -1,15 +1,57 @@
-Due to James Dolan and John Baez, this principle states
 
->**Microcosm principle**: _Certain algebraic structures can be defined in any category equipped with a categorified version of the same structure._ 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
 
-A standard example is a monoid object being defined in a monoidal category. The term arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
 
-###Reference###
+In [[higher algebra]]/[[higher category theory]] one can define (generalized) [[algebra|algebraic structures]] [[internalization|internal]] to [[categories]] which themselves are equipped with certain algebraic structure, in fact with the _same kind_ of algebraic structure. In ([Baez-Dolan 97](#BaezDolan)) this has been called the _microcosm principle_.
 
-* [Higher-Dimensional Algebra III](http://arxiv.org/abs/q-alg/9702014)
+>**Microcosm principle**: _Certain [[algebra|algebraic structures]] can be defined [[internalization|in]] any category equipped with a [[categorification|categorified version]] of the same structure._ 
 
+A standard example is the notion of _[[monoid object]]_ which make sense in a _[[monoidal category]]_, and the notion of _[[commutative monoid object]]_ which makes sense in a _[[symmetric monoidal category]]_.
 
-###Discussion###
+The term "micricosm principe" arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
+
+## Formalization
+
+A formalization of, arguably, this principle was given (independently) in ([Lurie](##Lurie)) in the more general context of [[higher algebra]] in [[homotopy theory]]/[[(∞,1)-category theory]]:
+
+given an [[(∞,1)-operad]] $\mathcal{O}$ we have:
+
+1. an [[(∞,1)-category]] $\mathcal{C}$ equipped with algebraic structure as encoded by $\mathcal{O}$ -- an $\mathcal{O}$-[[monoidal (∞,1)-category]] -- is equivalently encoded by a [[coCartesian fibration of (∞,1)-operads]] $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$;
+
+1. an [[(∞,1)-algebra over an (∞,1)-operad]] over $\mathcal{O}$ can be defined internal to such a $\mathcal{O}$-monoidal $(\infty,1)$-category  $\mathcal{C}$ and is equivalently given by a [[section]] of this map. 
+
+See at _[[(∞,1)-algebra over an (∞,1)-operad]]_ for examples and further details.
+
+## Reference
+
+The term "microcosm principle" was coined in
+
+* [[John Baez]], [[James Dolan]], _Higher-Dimensional Algebra III_ ([arXiv:q-alg/9702014](http://arxiv.org/abs/q-alg/9702014))
+ {#BaezDolan}
+
+Discussion is in
 
 * [The Microcosm Principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html)
+
+A formalization that arguably captures the principle is in 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
+
