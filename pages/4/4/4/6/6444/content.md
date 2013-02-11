@@ -1,12 +1,14 @@
 We will collect here some references and blog posts arguing about controversies of string theory as a consistent and realistic physical theory and assesment of standards and financing of string community opposed to other physical and mathematical research.
 
 * Peter Woit, [Not Even Wrong](http://www.amazon.com/gp/product/0465092756) and [blog](http://www.math.columbia.edu/~woit/wordpress/)
-* Amelino Camelia
-* nForum: ...
-* nCafe: Local and global supersymmetry
+* Amelino Camelia.
+* $n$Cafe: (post by Urs Schreiber) [Local and global supersymmetry](http://golem.ph.utexas.edu/category/2011/07/local_and_global_supersymmetry.html)
 * Carlo Rovelli, _A critical look at strings_, [arxiv/1108.0868](http://lanl.arxiv.org/abs/1108.0868)
-* Lee Smolin, [The Trouble with Physics](http://www.thetroublewithphysics.com/)
-* Glimm, Jaffe, Witten, Thurston etc. about the idea of Experimental and theoretical mathematics, Bull. AMS
+* Lee Smolin, [The Trouble with Physics](http://www.thetroublewithphysics.com)
+* Special issue of _Foundations of physics_ on superstring theory [Forty Years of String Theory - Reflecting on the Foundations](http://www.springer.com/physics/history+%26+philosophical+foundations+of+physics/journal/10701)
+* Glimm, Jaffe, Witten, Thurston etc. about the idea of Experimental and theoretical mathematics, Bull. AMS -discussions prompted by Arthur Jaffe, Frank Quinn, _"Theoretical mathematics": Toward a cultural synthesis of mathematics and theoretical physics_ , Bull. Amer. Math. Soc. (N.S.) __29__ (1993), no. 1, 1--13; [MR94h:00007](http://www.ams.org/mathscinet-getitem?mr=1202292),[math.HO/9307227](http://arxiv.org/abs/math.HO/9307227), [doi](http://dx.doi.org/10.1090/S0273-0979-1993-00413-0)
+* related $n$Lab pages: ...
+* $n$Forum about this page [here](http://nforum.mathforge.org/discussion/2985/critics-of-string-theory)
 
 (under construction)
 
