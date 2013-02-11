@@ -179,106 +179,15 @@ is the category of def. \ref{1CategoryOfBimodulesAndIntertwiners}, whose objects
 ### The $(\infty,2)$-category of $\infty$-algebras and $\infty$-bimodules
  {#Infinity2CategoryOfInfinityAlgebrasAndBimodules}
 
-We discuss the generalization of the notion of bimodules to [[homotopy theory]], hence the generalization from [[category theory]] to [[(∞,1)-category theory]]. ([Lurie, section 4.3](#Lurie)).
-
-Let $\mathcal{C}$ be [[monoidal (∞,1)-category]] such that 
-
-1. it admits [[geometric realization]] of [[simplicial objects in an (∞,1)-category]] (hence a [[left adjoint|left]] [[adjoint (∞,1)-functor]] ${\vert-\vert} \colon \mathcal{C}^{\Delta^{op}} \to \mathcal{C}$ to the constant simplicial object functor), true notably when $\mathcal{C}$ is a [[presentable (∞,1)-category]];
-
-1. the [[tensor product]] $\otimes \colon \mathcal{C}\times \mathcal{C} \to \mathcal{C}$ preserves this geometric realization separately in each argument.
-
-
-Then there is an 
-[[(∞,2)-category]] $Mod(\mathcal{C})$ which given as an [[(∞,1)-category object]] internal to [[(∞,1)Cat]] has
-
-* $(\infty,1)$-category of objects
-
-  $$
-    Mod(\mathcal{C})_{[0]} \simeq Alg(\mathcal{C})
-  $$
-
-  the [[A-∞ algebras]] and [[∞-algebra]] [[homomorphisms]] in $\mathcal{C}$;
-
-* $(\infty,1)$-category of morphisms
-
-  $$
-    Mod(\mathcal{C})_{[1]} \simeq BMod(\mathcal{C})
-  $$
-
-  the $\infty$-bimodules and bimodule homomorphisms ([[intertwiners]]) in $\mathcal{C}$
-
-This is ([Lurie, def. 4.3.6.10, remark 4.3.6.11](#Lurie)).
-
-Morover, the [[horizontal composition]] of bimodules in this [[(∞,2)-category]] is indeed the relative tensor product
-
-$$
-  \circ_{A,B,C}
-  =
-  (-) \otimes_B (-)
-  \;\colon\;
-  {}_A Mod_{B} \times {}_{B}Mod_C \to {}_A Mod_C
-  \,.
-$$
-
-This is ([Lurie, lemma 4.3.6.9 (3)](#Lurie)).
-
-Here are some steps in the construction:
-
-
-
-+-- {: .num_defn #NotationForTensS}
-###### Definition (Notation)
-
-Write $Tens^\otimes$ for the [[generalized (∞,1)-operad]]
-discussed at _[[tensor product of ∞-modules]]_.
-
-For $S \to \Delta^{op}$ an [[(∞,1)-functor]] (given as a map of simplicial sets from a [[quasi-category]] $S$ to the [[nerve]] of the [[simplex category]]), write
-
-$$
-  Tens^\otimes_{S} 
-   \coloneqq
-  Tens^\otimes \underset{\Delta^{op}}{\times} S
-$$ 
-
-for the [[fiber product]] in [[sSet]].
-
-Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
-
-$$
-  Alg_S(\mathcal{C}) \hookrightarrow Fun_{Tens^\otimes_S}(Step_S, \mathcal{C}^\otimes)
-$$
-
-for the full [[sub-(∞,1)-category]] on those [[(∞,1)-functors]] which send inert morphisms to inert morphisms.
-
-=--
-
-([Lurie, notation 4.3.4.15](#Lurie))
-
-
-+-- {: .num_defn}
-###### Definition
-
-Define $Mod(\mathcal{C}) \to \Delta^{op}$ as the map of [[simplicial sets]] with the [[universal property]] that for every other map of simplicial set $K \to \Delta^{op}$ there is a canonical bijection
-
-$$
-  Hom_{sSet/S}(K, Mod(\mathcal{C}))
-  \simeq
-  Alg_{Tens_K / \mathcal{Ass}}( \mathcal{C} )
-  \,,
-$$
-
-where on the right we use notation as in def. \ref{NotationForTensS}.
-
-=--
-
-This is ([Lurie, cor. 4.3.6.2](#Lurie)) specified to the case of ([Lurie, lemma 4.3.6.9](#Lurie)).
-
-(...)
-
+The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for more.
 
 ## Related concepts
 
+* [[(infinity,1)-bimodule]]
+
 * [[2-module]], [[2-ring]]
+
+
 
 ## References
 
@@ -287,24 +196,5 @@ Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
-Specifically the homotopy theory of [[A-infinity bimodules]] is discussed in
-
-* Volodymyr Lyubashenko, Oleksandr Manzyuk, _A-infinity-bimodules and Serre A-infinity-functors_ ([arXiv:math/0701165](http://arxiv.org/abs/math/0701165))
-
-and section 5.4.1 of 
-
-* [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
-Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
-
-
 [[!redirects bimodules]]
-
-[[!redirects ∞-bimodule]]
-[[!redirects ∞-bimodules]]
-[[!redirects (∞,1)-bimodule]]
-[[!redirects (∞,1)-bimodules]]
-
-
-[[!redirects infinity-bimodule]]
-[[!redirects infinity-bimodules]]
 
