@@ -347,7 +347,7 @@ Hence $C_f$ is a weak equivalence.
 
 * [[operad]] / **$(\infty,1)$-operad**, [[model structure on operads]]
 
-  * [[fibration of (∞,1)-operads]]
+  * [[morphism of (∞,1)-operads]], [[fibration of (∞,1)-operads]]
 
   * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
 
