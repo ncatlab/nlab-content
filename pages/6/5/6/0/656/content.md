@@ -231,6 +231,9 @@ Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics P
 
 [[!redirects ∞-bimodule]]
 [[!redirects ∞-bimodules]]
+[[!redirects (∞,1)-bimodule]]
+[[!redirects (∞,1)-bimodules]]
+
 
 [[!redirects infinity-bimodule]]
 [[!redirects infinity-bimodules]]
