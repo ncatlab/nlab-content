@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -14,7 +26,7 @@ The archetypical example is indeed the [[bicategory]] whose objects are [[algebr
 
 For usefully working with bicategories of this kind, it is typically of crucial importance to remember this extra information. A _framing_ on a bicategory is a way to encode this.
 
-This is essentially the same as a [[proarrow equipment]] on a [[bicategory]].
+This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. See there for more.
 
 
 ## References
