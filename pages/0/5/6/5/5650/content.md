@@ -59,6 +59,18 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 2.3 Disintegration and assembly
 
+#### 2.3.1 Disintegration and assembly
+
+#### 2.3.2 Generalized $\infty$-operads
+
+* [[generalized (∞,1)-operad]]
+
+* [[family of (∞,1)-operads]]
+
+#### 2.3.3 Approximations to $\infty$-operads
+
+#### 2.3.4 Disintegration of $\infty$-operads
+
 ### 2.4 Products and coproducts
 
 #### 2.4.1 Cartesian symmetric monoidal structure
@@ -143,7 +155,9 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 4.3 Bimodules
 
-#### 4.3.1 The $\infty$-Operad $\mathcal{LM}^{\otimes}$
+#### 4.3.1 The $\infty$-Operad $\mathcal{BM}^{\otimes}$
+
+* [[operad for bimodules over algebras]]
 
 * [[∞-bimodule]]
 
@@ -156,6 +170,8 @@ The following is (or will eventually be) a linked list of keywords.
 (...)
 
 #### 4.3.4 Multilinear maps
+
+* [[multilinear map]]
 
 * [[bilinear map in an (∞,1)-category]]
 
