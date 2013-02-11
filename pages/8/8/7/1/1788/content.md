@@ -5,6 +5,22 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
+$$
+  Alg_{Tens^\otimes_{[k]}}(\mathcal{C})
+  \simeq
+  \underbrace{
+  BMod(\mathcal{C}) 
+   \underset{Alg(\mathcal{C})}{\times}
+  BMod(\mathcal{C})
+   \underset{Alg(\mathcal{C})}{\times}
+  \cdots
+   \underset{Alg(\mathcal{C})}{\times}
+  BMod(\mathcal{C})
+  }_{k\;factors}
+  \,.
+$$
+
+
 $Tens^\otimes_{[k]}$
 
 $\underset{Tens^\otimes_{\{1\}}}{\coprod}$
