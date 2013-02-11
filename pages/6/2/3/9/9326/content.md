@@ -36,13 +36,13 @@ $$
   \mathcal{C}  = \mathcal{C}^\otimes \times_{\mathcal{O}^\otimes} \mathcal{O}
 $$
 
-is equipped by $p$ with the [[structure]] of an **$\mathcal{O}$-monoidal $(\infty,1)$-category**.
+is equipped by $p$ with the [[structure]] of an **$\mathcal{O}$-[[monoidal (∞,1)-category]]** (see remark \ref{EquivalenceToOMonoidsInInfinityCat} below).
 
 =--
 
 This is ([Lurie, def. 2.1.2.13](#Lurie)).
 
-+-- {: .num_remark}
++-- {: .num_remark #EquivalenceToOMonoidsInInfinityCat}
 ###### Remark
 
 For $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ a coCartesian fibration of $(\infty.1)$-operads by def. \ref{coCartesianFibrationOfInfinityOperads}, the underlying map
@@ -58,7 +58,7 @@ $$
   \,.
 $$
 
-This inherits monoidal structure (with respect to the Cartesian monoidal structure on [[(∞,1)Cat]]) and hence exhibits an $\mathcal{O}$-algebra in [[(∞,1)Cat]]. This way coCartesian fibrations of $(\infty,1)$-operads over some $\mathcal{O}^\otimes$ are equivalently $\mathcal{O}$-algebras in [[(∞,1)Cat]]. Therefore their identification with $\mathcal{O}$-[[monoidal (∞,1)-categories]].
+This inherits monoidal structure (with respect to the [[cartesian monoidal (∞,1)-category]] structure on [[(∞,1)Cat]]) and hence exhibits an $\mathcal{O}$-algebra in [[(∞,1)Cat]]. This way coCartesian fibrations of $(\infty,1)$-operads over some $\mathcal{O}^\otimes$ are equivalently $\mathcal{O}$-algebras in [[(∞,1)Cat]]. Therefore their identification with $\mathcal{O}$-[[monoidal (∞,1)-categories]].
 
 =--
 
