@@ -427,6 +427,7 @@ for the moment see
 
 * **Cartesian fibration**, [[Cartesian fibration of dendroidal sets]]
 
+* [[coCartesian fibration of (∞,1)-operads]]
 
 
 ## References 
