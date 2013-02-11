@@ -112,6 +112,7 @@ $$
 For more on this see at _[[dendroidal set]]_ the section _[The full diagram of relations](http://ncatlab.org/nlab/show/dendroidal%20set#FullDiagram)_.
 
 ### Relation to planar operads
+ {#RelationToPlanarOperads}
 
 There is an evident [[forgetful functor]]
 
