@@ -221,6 +221,8 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 
 * [[tensor product of chain complexes]]
 
+* [[tensor product of ∞-modules]]
+
 ## References
 
 An general exposition is in 
