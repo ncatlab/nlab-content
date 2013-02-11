@@ -7,5 +7,6 @@
 
 
 [[!redirects G. Segal]]
+[[!redirects Segal]]
 
 category: people
