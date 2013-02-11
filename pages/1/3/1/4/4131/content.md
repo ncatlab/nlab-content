@@ -51,7 +51,7 @@ A __local base__ or __base of neighborhoods__ or __fundamental system of neighbo
 
 We may also allow basic neighborhoods to be non-open, but this really doesn\'t make any difference; any local base may be refined to a local base of open neighborhoods, and most local bases in practices already come that way.
 
-There is no notion of local subbase.
+A local subbase at $a$ is a family of open sets containing $a$ such that each open set containing $a$ contains a finite intersection of elements of the family.
 
 +-- {.num_defn}
 ###### Definition
