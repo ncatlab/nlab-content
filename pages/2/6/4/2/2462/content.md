@@ -284,3 +284,6 @@ The standard textbook is
 Course note are provided in
 
 * Bryant, [[EDS-notes.pdf:file]]
+
+[[!redirects exterior differential systems]]
+
