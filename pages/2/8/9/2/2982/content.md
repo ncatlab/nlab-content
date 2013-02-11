@@ -45,6 +45,10 @@ But, by the above, as an [[symmetric operad|symmetric]] [[dendroidal set]], $Ass
 
 The relative [[Boardman-Vogt resolution]] $W([0,1],I_* \to Assoc)$ of $Assoc$ in [[Top]] is [[Jim Stasheff]]'s version of the [[A-∞ operad]] whose [[algebra over an operad|algebras]] are [[A-∞ algebras]].
 
+### Relation to planar operads
+
+A [[planar operad]] may be identified with a [[symmetric operad]] that is equiped with a map to the associative operad. See at _[[planar operad]]_ for details.
+
 ## Related concepts
 
 * **associative operad**
@@ -53,6 +57,12 @@ The relative [[Boardman-Vogt resolution]] $W([0,1],I_* \to Assoc)$ of $Assoc$ in
 
 * [[Lie operad]]
 
+## References
+
+In the context of [[higher algebra]] of [[(infinity,1)-operads]], the associative operad is discussed in section 4.1.1 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 [[!redirects Ass]]
 [[!redirects Assoc]]
