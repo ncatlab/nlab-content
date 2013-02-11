@@ -1,0 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+This page is to list example of how [[higher differential geometry]] helps to understand plain [[differential geometry]].
+
+1. [[orbifold]] theory is all about [[etale Lie groupoid]] theory, for orbifolds/orbispaces are equivalently ([[proper Lie groupoid]]) [[etale Lie groupoids]]. 
+
+   (this relation is for some reason more famous in algebraic geometry, where orbifolds are identified with [[Deligne-Mumford stacks]])
+
+1. [[foliation]]-theory is all about [[Lie groupoid]]-theory via the "universal foliation", the  [[Haefliger groupoid]] .
+
+1. [[partial differential equations]] are usefully encoded in [[exterior differential systems]], as noticed by Cartan. These are the [[Chevalley-Eilenberg algebras]] of [[L-infinity algebroids]]
+
+1. [[Lie integration]] of anything more general than a finite-dimensional [[Lie algebra]] in general goes out of the real of [[Lie groups]]. Local brackets = [[Lie algebroids]] integrate to [[Lie groupoids]] and 
+[[infinite-dimensional Lie algebras]] in general to [[Lie 2-groups]].
+
+1. [[derived differential geometry]] allos to resolve many otherwise singular limit/intersection constructions. Modern [[variational calculus]] in terms of [[jet bundle]] ("[[D-geometry]]") is formulated this way, as is [[symplectic reduction]] and the unification of both in the [[BV-BRST formalism]].
+
+## Related pages
+
+* [[applications of (higher) category theory]]
+
+* [[higher category theory and physics]]
+
+## References
+
+The basic relation between [[foliation]] theory and [[Lie groupoid]]-theory is discussed in 
+
+* [[Ieke Moerdijk]], [[Janez Mrčun]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+
+
+
+(...)
