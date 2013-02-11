@@ -70,12 +70,25 @@ Model category structures for $\infty$-algebras are discussed in
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijk}
 
+Section 2.1.3 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
 [[!redirects ∞-algebra over an (∞,1)-operad]]
 [[!redirects ∞-algebras over an (∞,1)-operad]]
 [[!redirects ∞-algebras over (∞,1)-operads]]
 
+[[!redirects (∞,1)-algebra over an (∞,1)-operad]]
+[[!redirects (∞,1)-algebras over an (∞,1)-operad]]
+[[!redirects (∞,1)-algebras over (∞,1)-operads]]
+
+
 [[!redirects infinity-algebras over an (infinity,1)-operad]]
 [[!redirects infinity-algebras over (infinity,1)-operads]]
+
+[[!redirects (infinity,1)-algebras over an (infinity,1)-operad]]
+[[!redirects (infinity,1)-algebras over (infinity,1)-operads]]
+
 
 [[!redirects algebra over an (∞,1)-operad]]
 [[!redirects algebras over an (∞,1)-operad]]
