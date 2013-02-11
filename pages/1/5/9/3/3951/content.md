@@ -90,6 +90,9 @@ with $X \to Z$ a left/right/inner anodyne cofibration and $Z \to Y$ accordingly 
 
 * [[Cartesian fibration]]  
 
+* [[fibration]] in the [[model structure for quasi-categories]]
+
+* [[fibration of (infinity,1)-operads]]
 
 
 
