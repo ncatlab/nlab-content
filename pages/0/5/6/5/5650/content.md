@@ -63,6 +63,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 3.3 Modules over $\infty$-operads
 
+* [[module over an algebra over an (∞,1)-operad]]
+
 #### 3.3.1 Coherent $\infty$-operads
 
 * [[coherent (∞,1)-operad]]
@@ -96,9 +98,20 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 4.2 Left and Right Modules
 
-* [[∞-module]]
+#### 4.2.1 The $\infty$-Operad $\mathcal{L M}^{\otimes}$
 
-* [[module over an algebra over an (∞,1)-operad]]
+* [[(∞,1)-operad for (∞,1)-modules over an A-∞ algebra]]
+
+* [[(∞,1)-module]]
+
+#### 4.2.2 Simplicial models for algebras and modules
+
+#### 4.2.3 Limits and colimits of algebras
+
+#### 4.2.4 Free modules
+
+#### 4.2.5 Duality in monoidal $\infty$-categories
+
 
 ### 4.3 Bimodules
 
