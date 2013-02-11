@@ -24,15 +24,71 @@ A [[quasi-category]] is a [[simplicial set]] satisfying [[weak Kan complex|weak 
 
 There is a [[model category]] structure on the category [[SSet]] --  the **[[Andre Joyal|Joyal]] model structure** or **model structure on quasi-categories** -- such that the fibrant objects are precisely the quasi-categories and the weak equivalences precisely the correct _categorical equivalences_ that generalize the notion of [[equivalence of categories]].
 
-## Details
+## Definition
 
-> for the moment, see the corresponding section at [[model structure on simplicial sets]]
++-- {: .num_defn}
+###### Definition
+
+The **model structure for quasi-categories** or **Joyal model structure** $sSet_{Joyal}$ on [[sSet]] has
+
+* [[cofibrations]] are the [[monomorphisms]]
+
+* [[weak equivalences]] are those maps that are taken by the [[left adjoint]] of the [[homotopy coherent nerve]] to a weak equivalence in the [[model structure on simplicial categories]].
+
+=--
+
 
 ## Properties
 
-### General
+### As a Cisinski model strucre
 
 The model structure for quasi-categories is the [[Cisinski model structure]] on [[sSet]] induced by the localizer which consists of the [[spine]] inclusions $\{Sp^n \hookrightarrow \Delta^n\}$. See ([Ara](#Ara)).
+
+### General properties 
+ {#GeneralProperties}
+
++-- {: .num_prop}
+###### Proposition
+
+The model structure for quasi-categories is
+
+* a [[left proper model category]],
+
+* a [[combinatorial model category]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+It is also a [[monoidal model category]] and is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]".
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] such that $\mathcal{D}$ is a [[quasi-category]]. Then $p$ is a fibration in $sSet_{Joyal}$ precisely if
+
+1. it is an [[inner fibration]];
+
+1. it is an "[[isofibration]]": for everey [[equivalence in an (∞,1)-category|equivalence]] in $\mathcal{D}$ and a lift of its [[domain]] through $p$, there is also a lift of the whole equivalence through $p$ to an equivalence in $\mathcal{C}$.
+
+=--
+
+This is due to [[Joyal]]. ([Lurie, cor. 2.4.6.5](#Lurie)).
+
+So ever [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notably exception are the fibrations to the point:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner fibration|inner fibrant]] over the point, hence those simplicial sets which are [[quasi-categories]].
+
+=--
+
+([Lurie, theorem 2.4.6.1](#Lurie))
 
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
 
@@ -69,7 +125,10 @@ Notice that the left [[derived functor]] $\mathbb{L} Id : (sSet_{Joyal})^\circ \
 
 The other adjunction is given by the following
 
-**Proposition.** There is a [[Quillen adjunction]]
++-- {: .num_prop}
+###### Proposition
+
+There is a [[Quillen adjunction]]
 
 $$
   (k_! \dashv k^!) \;\; : sSet_{Quillen}
@@ -92,17 +151,22 @@ This means that for $X \in SSet$ we have
 
 * and $k_!(X)_n = \int^{[k]} X_k \cdot \Delta'[k]$.
 
-**Proof** This is ([JoTi, prop 1.19](#JoyalTierney))
+=--
+
+This is ([JoTi, prop 1.19](#JoyalTierney))
 
 The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(i \dashv Core)$:
 
-**Proposition** 
++-- {: .num_prop}
+###### Proposition
 
 * For any $X \in sSet$ the canonical morphism $X \to k_!(X)$ is an acyclic cofibration in $sSet_{Quillen}$;
 
 * for $X \in sSet$ a [[quasi-category]], the canonical morphism $k^!(X) \to Core(X)$ is an acyclic fibration in $sSet_{Quillen}$.
 
-**Proof** This is ([JoTi, prop 1.20](#JoyalTierney))
+=--
+
+This is ([JoTi, prop 1.20](#JoyalTierney))
 
 
 ## Related concepts
@@ -122,6 +186,7 @@ Unfortunately, this is still not publically available.
 A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriched categories]] is given in detail following theorem 2.2.5.1 in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 The relation to the model structure for [[complete Segal space]]s is in
 
