@@ -359,6 +359,8 @@ Ambient categories of relevance in practice are
     
     * [[framed little n-disk operad]]
 
+* [[operad for modules over an algebra]]
+
 * [[Lie operad]]
 
   * [[L-∞ operad]]
