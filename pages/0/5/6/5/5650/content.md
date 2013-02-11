@@ -43,13 +43,17 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 2.1.2 Maps of $\infty$-operads
 
-* $\mathcal{O}$-[[monoidal (∞,1)-category]]
+* [[morphism of (∞,1)-operads]]
+
+* [[fibration of (∞,1)-operads]]
 
 #### 2.1.3 Algebra objects
 
 * [[algebra over an (∞,1)-operad]]
 
-#### $\infty$-Preoperads
+* $\mathcal{O}$-[[monoidal (∞,1)-category]]
+
+#### 2.1.4 $\infty$-Preoperads
 
 
 
