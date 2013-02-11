@@ -800,6 +800,8 @@ $$
 
 * **module**, [[(∞,1)-module]], [[2-module]]
 
+  * [[operad for modules over an algebra]]
+
   * [[linear independence]]
 
 * [[representation]], [[∞-representation]]
@@ -848,6 +850,10 @@ A more 'classical' references include Jon Beck's thesis
 The fully abstract higher categorical concept in terms of [[stabilization|stabilized]] [[overcategory|overcategories]] and the [[tangent (∞,1)-category]] appears in 
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
+
+[[(∞,1)-modules]] over [[A-∞ algebras]] are discussed in section 4.2 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 
 [[!redirects module]]
