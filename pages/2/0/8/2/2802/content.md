@@ -1,9 +1,46 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An analog of [[enriched category]] in [[higher category theory]].
+
+## Definition
+
+In the context of [[(∞,1)-category theory]] see at
+_[[enriched (∞,1)-category]]_.
+
+In the context of [[(∞,1)-operad]] theory see ([Lurie, def. 4.2.1.12](#Lurie)).
+
 ## Related concepts
 
 * [[homotopical enrichment]];
 
 * [[enriched (∞,1)-category]]
+
+
+## References
+
+Section 4.2.1 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 ## Discussion
 
