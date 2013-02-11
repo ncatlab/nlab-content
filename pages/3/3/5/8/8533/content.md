@@ -34,13 +34,24 @@ See at _[[module over an algebra over an (∞,1)-operad]]_.
 
   * [[2-module]]
 
+* [[bimodule]]
+
+  [[(∞,1)-bimodule]]
+
+* [[(∞,n)-module]]
+
 * [[representation]], [[∞-representation]]
+
+
+
 
 ## References
 
-Section 3.3 of 
+Modues over algebras over an arbitrary [[(∞,1)-operad]] are discussed in  section 3.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Modules specifically over [[A-∞ algebras]] are discussed in section 4.2 there.
 
 
 [[!redirects ∞-module]]
