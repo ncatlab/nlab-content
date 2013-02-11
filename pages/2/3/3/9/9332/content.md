@@ -1,4 +1,13 @@
-[[!redirects tensor product of ∞-modules]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -241,3 +250,4 @@ Section 4.3.5 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
+[[!redirects tensor product of ∞-modules]]
