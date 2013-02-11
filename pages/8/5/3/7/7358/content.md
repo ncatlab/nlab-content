@@ -64,6 +64,10 @@ Monoidal Categories_, Advances in Mathematics (2003).
 
 * B. Badzioch, _Algebraic Theories in Homotopy Theory_, Annals of Mathematics, 155, 895--913 (2002).
 
+Discussion of $\Gamma$-spaces in the broader context of [[higher algebra]] in [[(infinity,1)-operad]] theory is around remark 2.4.2.2 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 [[!redirects Gamma-space]]
 [[!redirects Gamma-spaces]]
