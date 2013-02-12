@@ -103,7 +103,7 @@ In ([Lurie](#Lurie)) this is construction 2.1.1.7.
 
 This motivates the following definition of the generalization of this situation to [[(∞,1)-category theory]].
 
-+-- {: .num_defn}
++-- {: .num_defn #FinSetPointed}
 ###### Definition
 
 Write $FinSet^{*/}$ for the category of [[pointed object|pointed]] [[finite set]] ([[Segal Gamma-category|Segal's Gamma-category]]).
@@ -169,7 +169,7 @@ of [[quasi-categories]] such that the following conditions hold:
    $$  
      \mathcal{O}^\otimes_f(C_1,C_2)
      \to
-     \underset{1 \leq k \keq n_2}{\prod}
+     \underset{1 \leq k \leq n_2}{\prod}
      \mathcal{O}^\otimes_{\rho^i\circ f}(C_1,(C_2)_i)
    $$ 
 
@@ -223,12 +223,53 @@ The notion of def. \ref{InfinityOperadByCategoryOfOperators} may also be called 
 
 =--
 
+We now turn to the definition of [[homomorphisms]] of $(\infty,1)$-operads.
+
++-- {: .num_defn #InertMorphismsInInfinityOperad}
+###### Definition
+
+Given an $(\infty,1)$-operad $p \colon \mathcal{O}^\otimes \to FinSet^{*/}$ as in def. \ref{InfinityOperadByCategoryOfOperators}, a [[morphism]] $f$ in $\mathcal{O}^\otimes$ is called an **inert morphism** if 
+
+1. $p(f)$ is an [[inert morphism]] in $FinSet^{*/}$ by def. \ref{FinSetPointed};
+
+1. $f$ is a $p$-[[coCartesian morphism]].
+
+=--
+
+
++-- {: .num_defn #MorphismOfInfinityOperads}
+###### Definition
+
+A **[[morphism of (∞,1)-operads]]** is a map between their [[(∞,1)-categories of operators]] over $FinSet^{*/}$ that preserves the inert morphisms of def. \ref{InertMorphismsInInfinityOperad}.
+
+=--
+
+Morphisms of operads $\mathcal{O}_1 \to \to \mathcal{O}_2$ can be understood equivalently as exhibiting an $\mathcal{O}_1$-[[algebra over an operad|algebra]] in $\mathcal{O}_2$. Therefore:
+
 +-- {: .num_defn }
 ###### Definition
 
-A **[[morphism of (∞,1)-operads]]** is a map between their [[(∞,1)-categories of operators]] over $FinSet^{*/}$ that preserves [[inert morphisms]].
+For $\mathcal{O}_1, \mathcal{O}_2$ to $(\infty,1)$-operads, write
+
+$$
+  Alg_{\mathcal{O}_1}(\mathcal{O}_2)
+  \hookrightarrow
+  qCat_{/FinSet^{*/}}(\mathcal{O}_1, \mathcal{O}_2)
+$$
+
+for the full [[sub-(∞,1)-category]] of the [[(∞,1)-functor (∞,1)-category]] on those that are [[morphisms of (∞,1)-operads]] by def. \ref{MorphismOfInfinityOperads}.
 
 =--
+
+([Lurie, def. 2.1.2.7](#Lurie)).
+
+We also have the notion of
+
+* _[[fibration of (∞,1)-operads]]_;
+
+* _[[coCartesian fibration of (∞,1)-operads]]_.
+
+See there for more details.
 
 
 #### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
