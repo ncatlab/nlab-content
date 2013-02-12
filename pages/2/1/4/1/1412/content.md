@@ -430,6 +430,12 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 * [[motivation for cohesion]]
 
+* [[motivation for higher differential geometry]]
+
+* [[applications of (higher) category theory]]
+
+* [[higher category theory and physics]]
+
 category: motivation
 
 [[!redirects motivation for sheaves, cohomology and higher stacks]]
