@@ -191,10 +191,16 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 ## References
 
+The 2-category of bimodules in its incarnation as a [[2-category with proarrow equipment]] appears as example 2.3 in 
+
+* [[Michael Shulman]], _Framed bicategories and monoidal fibrations_ ([arXiv:0706.1286](http://arxiv.org/abs/0706.1286))
+
 Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
+
+For more on that see at _[[(∞,1)-bimodule]]_.
 
 [[!redirects bimodules]]
 
