@@ -42,6 +42,10 @@ A subtopic of this is [[Poisson geometry]], where the foliation is by [[symplect
 
    (In [[QFT]] the shift into [[higher geometry]] witnessed in both these proofs is a special case of what is known as the [[holographic principle]]: the 0-categorical structure of Poisson manifolds is quantized via the 1-categorical strucure of [[Poisson Lie algebroids]] and [[symplectic groupoids]].)
 
+The [[symplectic groupoid]] that induces the [[strict deformation quantization]] of a Poisson manifold also solves its classical desingularization problem, its _[[symplectic realization]]_.
+For any [[symplectic groupoid]] $\Sigma$ with base a [[Poisson manifold]] $P$ the target map is a symplectic realization of $P$ and  the source map is a symplectic realization  of the opposite structure. Thus $\Sigma$ with its symplectic structure may be regarded as a desingularization of  $P$ with its Poisson structure. Since the [[symplectic groupoid]] is the [[Lie integration]] of the [[Poisson Lie algebroid]] of the Poisson manifold, symplectic realization is reduced to a problem in [[Lie theory]].
+
+
 ### Deformation theory
 
 Apart from these Poisson structures and [[symplectic structures]], differential geoemtry studies many other kinds of smooth structures on [[smooth manifolds]], such as [[complex structures]] in [[complex geometry]]. The classification of these structures in each case is [[infinitesimal space|infinitesimally]] given by [[deformation theory]]. Since seminal work referenced at _[[model structure for L-∞ algebras]]_ it is known that deformation theory is essentially equivalently the study of [[L-∞ algebra]] in [[∞-Lie theory]]. Classical theorems in complex differential geometry such as the discussion of [[period maps]] find their natural formulation in this context. This is amplified in  ([Fiorenza-Martinengo2012](#FiorenzaMartinengo)).
