@@ -30,7 +30,10 @@ In the context of [[(∞,1)-operad]] theory see ([Lurie, def. 4.2.1.12](#Lurie))
 
 Write $\mathcal{LM}^\otimes$ the [[operad for modules over an algebra]] regarded as an [[(∞,1)-operad]], regarded as the [[(∞,1)-category of operators]]. Similarly write $\mathcal{Ass}^\otimes$ for the [[(∞,1)-category of operators]] of the [[associative operad]].
 
-Then for $\mathcal{V}^\otimes \to \mathcal{Ass}^\otimes$ exhibiting a  [[planar (∞,1)-operad]], a **weak enrichment** of an [[(∞,1)-category]] $\mathcal{C}$ over $\mathcal{C}^\otimes$ is a [[fibration of (∞,1)-operads]]
++-- {: .num_defn }
+###### Definition
+
+For $\mathcal{V}^\otimes \to \mathcal{Ass}^\otimes$ exhibiting a  [[planar (∞,1)-operad]], a **weak enrichment** of an [[(∞,1)-category]] $\mathcal{C}$ over $\mathcal{C}^\otimes$ is a [[fibration of (∞,1)-operads]]
 
 $$
   q \colon \mathcal{O}^\otimes \to \mathcal{LM}^{\otimes}
@@ -45,10 +48,16 @@ $$
 and
 
 $$
-  \mathcal{C} \simeq \mathcal{O}^\otimes_{\mathfrak{m}}
+  \mathcal{C} \simeq \mathcal{O}^\otimes_{\mathfrak{n}}
   \,.
 $$
  
+=--
+
+([Lurie, def. 4.2.1.12](#Lurie))
+
+> maybe better: weak _[[tensoring]]_?
+
 
 ## Related concepts
 
@@ -91,3 +100,5 @@ You can get the references there.
 I think this discussion should be moved over to some page on n-categories, since it's not really about bicategories.
 
 =--
+
+[[!redirects weak tensoring]]
