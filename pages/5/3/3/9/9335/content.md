@@ -23,7 +23,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The category $\Gamma$ is related to [[(∞,1)-operads]] in a way similar to how the [[simplex category]] (non-empty and _linearly ordered_  finite sets) is related to [[(∞,1)-categories]].
+The category $\Gamma$ is related to [[(infinity,1)-operads]] in a way similar to how the [[simplex category]] (non-empty and _linearly ordered_  finite sets) is related to [[(∞,1)-categories]].
 
 =--
 
