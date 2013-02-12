@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Poisson geometry_ is primarily the study of [[Poisson manifolds]] and the [[foliation]] by [[symplectic leaves]], but more generally it involves a host of induced and related structures that apear notably in the study of [[deformation quantization]] of Poisson manifolds, such as their [[Poisson Lie algebroids]], [[coisotropic submanifolds]], [[symplectic Lie groupoids]] etc.
+
+
+## Related concepts
+
+* [[symplectic geometry]]
+
