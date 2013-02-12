@@ -41,6 +41,7 @@ Write $BMod$ for the [[colored operad|colored]] [[symmetric operad]] whose
 ## Properties
 
 ### Relation to the associative operad
+ {#RelationToTheAssociativeOperad}
 
 There are two canonical inclusions $Assoc \to BMod$ of the [[associative operad]] given by labelling its unique color/object with either $\mathfrak{a}_-$ or $\mathfrak{a}_+$, respectively. For 
 
