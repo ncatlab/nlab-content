@@ -117,7 +117,7 @@ We have
 ###### Remark
 
 Prop. \ref{SegalConditionOfTens} implies that for 
-$\mathcal{C}^\otimes$ an [[(∞,1)-operad]], the [[(∞,1)-algebras over an (∞,1)-operad]] over the fiber $Tens^\otimes_{[k]}$ in $\mathcal{C}$
+$\mathcal{C}^\otimes$ an [[(∞,1)-operad]], the [[(∞,1)-algebras over an (∞,1)-operad]] over the fiber $Tens^\otimes_{[k]}$ in $\mathcal{C}$ form the [[(∞,1)-category]]
 
 $$
   Alg_{Tens^\otimes_{[k]}}(\mathcal{C})
@@ -196,7 +196,7 @@ $$
 
 The $Tens^\otimes_{\gt}$ of def. \ref{NotationForTensGt} is a [[correspondence]] of [[(∞,1)-operads]] which exhibits bilinear maps as follows:
 
-An [[∞-algebra over an (∞,1)-operad]] $\gamma_1 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{1\}$ is equivalently a bimodule 
+An [[∞-algebra over an (∞,1)-operad]] $\gamma_1 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{1\} \to \mathcal{C}^\otimes$ is equivalently a bimodule 
 
 $$
   X \in {}_{A'} Mod(\mathcal{C})_{C'}
@@ -204,7 +204,7 @@ $$
 $$ 
 
 while an $\infty$-algebra
-$\gamma_0 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{0\}$ is equivalently a pair of bimodules 
+$\gamma_0 \colon Tens^\otimes_{\gt} \times_{\Delta^1} \{0\} \to \mathcal{C}^\otimes$ is equivalently a pair of bimodules 
 
 $$
   N_1 \in {}_A Mod(\mathcal{C})_B
@@ -271,6 +271,10 @@ $$
 =--
 
 ([Lurie, example 4.3.5.11](#Lurie))
+
+## Related concepts
+
+* [[(∞,1)-bimodules]], [[(∞,2)-category of (∞,1)-bimodules]]
 
 ## References
 
