@@ -25,7 +25,7 @@ Let $\mathcal{O}^\otimes$ be an [[(∞,1)-operad]]. A **coCartesian fibration of
 1. such that the composite 
 
    $$
-     \mathcal{C}^\otimes \stackrel{p}{\to} \mathcal{O}^\otimes \to Fin_* = Comm
+     \mathcal{C}^\otimes \stackrel{p}{\to} \mathcal{O}^\otimes \to FinSet^{*/} = Comm^\otimes
    $$
 
    exhibits $\mathcal{C}^\otimes$ as an [[(∞,1)-operad]].
