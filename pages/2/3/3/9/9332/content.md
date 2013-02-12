@@ -48,7 +48,7 @@ Write $Tens^\otimes$ for the category (to be thought of as a family of [[categor
 
 ([Lurie, def. 4.3.4.1](#Lurie))
 
-We disuss how an object of this category is to be thought of as labeled with "algebra labels $\mathfrak{a_i}$" for vertices of a simplex, an "bimodule lables $\mathfrak{n}_{i, j}$" for edges of the simplex.
+We disuss how an object of this category is to be thought of as labeled with "algebra labels $\mathfrak{a}_i$" for vertices of a simplex, an "bimodule lables $\mathfrak{n}_{i, j}$" for edges of the simplex.
 
 +-- {: .num_remark }
 ###### Remark
@@ -284,3 +284,7 @@ Section 4.3.5 of
  {#Lurie}
 
 [[!redirects tensor product of ∞-modules]]
+
+[[!redirects tensor product of (∞,1)-modules]]
+[[!redirects tensor product of (infinity,1)-modules]]
+
