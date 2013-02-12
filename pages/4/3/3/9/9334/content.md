@@ -17,9 +17,132 @@
 
 ## Definition
 
-### Preliminaries on $(\infty,1)$-operads and $(\infty,1)$-Algebras
 
-### $(\infty,1)$-Modules and -Bimodules
+### $(\infty,1)$-Category of $(\infty,1)$-Bimodules
+
+Write $BMod^\otimes$ for the [[(∞,1)-category of operators]] of the [[(∞,1)-operad]] [[operad for bimodules]]. Write 
+
+$$
+  \iota_{\pm} \colon Assoc \to BMod
+$$
+
+for the two canonical inclusions of the [[associative operad]] (as discussed at [operad for bimodules - relation to the associative operad](#RelationToTheAssociativeOperad)).
+
++-- {: .num_defn #NotationForWeaklyBiEnrichedInfinityCategory}
+###### Definition (Notation)
+
+For $p \colon \mathcal{C}^\otimes \to BMod^\otimes$ a [[fibration of (∞,1)-operads]], write
+
+$$
+  \mathcal{C}^\otimes_{\pm}
+  \coloneqq
+  \mathcal{C}^\otimes \underset{BMod^\otimes}{\times}^\pm Assoc^\otimes 
+$$
+
+for the two [[fiber products]] of $p$ with the inclusions $\iota_\pm$. The canonical [[projection]] maps
+
+$$
+  \mathcal{C}^\otimes_{\pm}
+  \to 
+  Assoc^\otimes
+$$
+
+exhibit these as two [[planar (∞,1)-operads]].
+
+Finally write 
+
+$$
+  \mathcal{C} \colon \mathcal{C}^\otimes \underset{BMod^\otimes}{\times} \{\mathfrak{n}\}
+$$
+
+for the [[(∞,1)-category]] over the object labeled $\mathfrak{n}$.
+
+=--
+
+([Lurie, notation 4.3.1.11](#Lurie)).
+
++-- {: .num_remark }
+###### Remark
+
+This exhibits $\mathcal{C}$ as equipped with [[weak tensoring]] over $\mathcal{C}_-$ and reverse weak enrichment over $\mathcal{C}_+$.
+
+=--
+
+The most familiar special case of these definitions to keep in mind is the following.
+
++-- {: .num_remark #MonoidalCategoryAsBitensoredOverItself}
+###### Remark
+
+For $\mathcal{C}^\otimes \to Assoc^\otimes$ a [[coCartesian fibration of (∞,1)-operads]], hence exhibiting $\mathcal{C}^\otimes$ as a [[monoidal (∞,1)-category]], [[pullback]] along the canonical map $\phi \colon BMod^\otimes \to Assoc^\otimes$ gives a fibration
+
+$$
+  \phi^* \mathcal{C}^\otimes \to BMod^\otimes
+$$ 
+
+as in def. \ref{NotationForWeaklyBiEnrichedInfinityCategory} above. In the terminology there this exhibts $\mathcal{C}$ as weakly enriched (weakly [[tensoring|tensored]]) over itself from the left and from the right. 
+
+This is the special case for which bimodules are traditionally considered.
+
+=--
+
+([Lurie, example 4.3.1.15](#Lurie))
+
+
+
+
++-- {: .num_defn }
+###### Definition
+
+For $\mathcal{C}^\otimes \to BMod^\otimes$ a [[fibration of (∞,1)-operads]] we say that the corresponding [[(∞,1)-category]] of [[(∞,1)-algebras over an (∞,1)-operad]]
+
+$$
+  BMod(\mathcal{C}) \coloneqq Alg_{/BMod}(\mathcal{C})
+$$
+
+is the **$(\infty,1)$-category of $(\infty,1)$-bimodules** in $\mathcal{C}$.
+
+Composition with the two inclusions $\iota_{1,2}\colon Assoc BMod$ of the [[associative operad]] yields a [[fibration]] in the [[model structure for quasi-categories]] $BMod(\mathcal{C}) \to Alg(\mathcal{C}_-)\times Alg(\mathcal{C}_+)$. Then for $A_- \in Alg_{\mathcal{C}_-}$ and $A_+ \in Alg_{\mathcal{C}_+}$ two algebras the [[fiber product]]
+
+$$
+  {}_A BMod_{B}(\mathcal{C})
+  \coloneqq
+  \{A\} 
+   \underset{Alg(\mathcal{C}_-)}{\times}
+  BMod(\mathcal{C})
+   \underset{Alg(\mathcal{C}_-)}{\times}
+  \{B\}  
+$$
+
+we call the **$(\infty,1)$-category of $A$-$B$-bimodules**.
+
+=--
+
+([Lurie, def. 4.3.1.12](#Lurie))
+
++-- {: .num_example}
+###### Example
+
+For the special case of remark \ref{MonoidalCategoryAsBitensoredOverItself} where the bitensored structure on $\mathcal{C}$ is induced from a monoidal structure $\mathcal{C}^\otimes \to Asoc^\otimes$, we have by the [[universal property]] of the [[pullback]] that
+
+$$
+  BMod(\mathcal{C})
+  \simeq
+  {Alg_{BMod}}_{/Assoc}(\mathcal{C})
+  \simeq
+  \left\{
+    \array{
+       && \mathcal{C}
+       \\
+       &{}^{\mathllap{(A,B,N)}}\nearrow& \downarrow 
+       \\
+       BMod^\otimes &\to& Assoc^\otimes
+    }
+  \right\}
+$$
+
+=--
+
+
 
 ### Tensor products of $(\infty,1)$-Bimodules
 
@@ -178,6 +301,11 @@ Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics P
 [[!redirects (∞,1)-bimodule]]
 [[!redirects (∞,1)-bimodules]]
 
+[[!redirects (∞,1)-category of (∞,1)-bimodules]]
+[[!redirects (infinity,1)-category of (∞,1)-bimodules]]
+
+[[!redirects (∞,1)-categories of (∞,1)-bimodules]]
+[[!redirects (infinity,1)-categories of (∞,1)-bimodules]]
 
 [[!redirects infinity-bimodule]]
 [[!redirects infinity-bimodules]]
