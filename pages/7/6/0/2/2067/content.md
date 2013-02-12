@@ -63,7 +63,7 @@ This has its analog in [[higher category theory|higher categories]].
 
 #### Traditional definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(cartesian morphism)**
 
@@ -106,13 +106,13 @@ $$
     \\
     \Lambda_2[2] &\to& N(X)
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{p}}
     \\
     \Delta[2] &\to& N(Y)
   }
 $$
 
-such that the last edge of the 2-[[horn]] is the given egde $f$, a lift $\sigma$
+such that the last edge of the 2-[[horn]] is the given edge $f$, a lift $\sigma$
 
 $$
   \array{
@@ -122,7 +122,7 @@ $$
     \\
     \Lambda_2[2] &\to& N(X)
     \\
-    \downarrow &{}^\sigma\nearrow& \downarrow
+    \downarrow &{}^\sigma\nearrow& \downarrow^{\mathrlap{p}}
     \\
     \Delta[2] &\to& N(Y)
   }
@@ -133,7 +133,7 @@ exists.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(Grothendieck fibration)**
 
@@ -174,7 +174,7 @@ For the following, we need this notionation: let
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The condition that $f \in Mor X$ is a Cartesian morphism with respect to $p : X \to Y $  is equivalent to the condition that the functor
@@ -302,7 +302,7 @@ Let $f : x_1 \to x_2$ be an edge in $X$, i.e. a morphism $f : \Delta^1 \to X$.
 
 Recall the notion of [[over quasi-category]] obtained from the notion of [[join of quasi-categories]]. Using this we obtain [[simplicial set]]s $X/f$, $X/{x_2}$, $S/p(f)$ and $S/p(x_2)$ in generalization of the categories considered in the above definition of cartesian morphisms in categories.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(cartesian edge in a simplicial set)**
 
@@ -322,7 +322,7 @@ is an acyclic [[Kan fibration]].
 
 This is [[Higher Topos Theory|HTT, def 2.4.1.1]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The morphism $f : x \to y$ as above, for $p : X \to Y$ an [[inner fibration]], is $p$-cartesian precisely if for all $n \geq 2$ and all right outer [[horn]] inclusions
@@ -335,13 +335,13 @@ $$
     \\
     \Lambda[n]_n &\to& X
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{p}}
     \\
     \Delta[n] &\to& Y
   }
 $$
 
-(with $\Lambda[n]_n$ the $n$th [[horn]] of the $n$-[[simplex]]) such that the last edge of the horn is the given egde $f$, a lift $\sigma$
+(with $\Lambda[n]_n$ the $n$th [[horn]] of the $n$-[[simplex]]) such that the last edge of the horn is the given edge $f$, a lift $\sigma$
 
 $$
   \array{
@@ -351,7 +351,7 @@ $$
     \\
     \Lambda[n]_n &\to& X
     \\
-    \downarrow &{}^\sigma\nearrow& \downarrow
+    \downarrow &{}^\sigma\nearrow& \downarrow^{\mathrlap{p}}
     \\
     \Delta[n] &\to& Y
   }
@@ -365,7 +365,7 @@ exists.
 This is [[Higher Topos Theory|HTT remark 2.4.1.4]].
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This means that an [[inner fibration]] $p : X \to Y$ with a collection of $p$-cartesian morphisms in $X$ specified satisfies the same kind of condition as a _[[right fibration]]_ , the only difference being that not _all_ right outer horns inclusion are required to have lifts, but only those where the last edge of the horn maps to a cartesion morphism.
@@ -375,7 +375,7 @@ In this sense a [[Cartesian fibration]] is a generalization of a [[right fibrati
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $p : X \to Y$ is an [[inner fibration]] of [[quasi-categories]] then a morphism $f : x \to y$ in $X$ is $p$-Cartesian precisely if
@@ -411,7 +411,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.4.3]].
 
 Let $C$ and $D$ be [[simplicially enriched categories]] and $F : C \to D$ an [[sSet]]-[[enriched functor]].
 
-+-- {: .un_definition}
++-- {: .num_defn}
 ###### Definition
 
 A morphism $f : x \to y \in C$ is **$F$-cartesian** if it is so under the [[homotopy coherent nerve]] $N : sSet Cat \to sSet$ in the sense of quasi-categories above, i.e. if 
@@ -424,7 +424,7 @@ is an acyclic [[Kan fibration]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ and $D$ are enriched in [[Kan complex]]es and if $F$ is hom-wise a [[Kan fibration]], then
@@ -462,7 +462,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.1.10]].
 
 ### Pullback along Cartesian morphisms
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For $p : \mathcal{E} \to \mathcal{C}$ a functor, if in a diagram
@@ -559,7 +559,7 @@ This appears as [[Elephant|Elephant, lemma 1.3.3]].
 ### Cartesian morphisms and equivalences
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 For $C$ a [[category]], a [[morphism]] in $C$ is cartesian with respect to the [[terminal object|terminal]] [[functor]] $C \to *$ precisely if it is an [[isomorphism]].
@@ -570,7 +570,7 @@ In particular all [[identity]] morphisms are cartesian.
 
 This is trivial to see. The analog statement holds also for [[quasi-categories]], where it is rather more nontrivial and quite useful:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ a [[quasi-category]], a morphism in $C$ is cartesian with respect to the [[terminal object|terminal]] morphism $C \to *$ precisely if it is an [[equivalence in a quasi-category|equivalence]].
@@ -637,6 +637,7 @@ See also the references at [[Grothendieck fibration]].
 [[!redirects opcartesian morphisms]]
 [[!redirects cocartesian morphism]]
 [[!redirects coCartesian morphism]]
+[[!redirects coCartesian morphisms]]
 [[!redirects cocartesian morphisms]]
 [[!redirects cartesian arrow]]
 [[!redirects cartesian arrows]]
