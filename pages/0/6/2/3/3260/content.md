@@ -16,7 +16,7 @@ A **$G$-space** is a [[topological space]] equipped with a $G$-[[action]].
 
 Let $I = \mathbb{R}$ be the [[interval object]] $({*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*})$ regarded as a $G$-space by equipping it with the trivial $G$-[[action]].
 
-A **$G$-[[homotopy]]**  $\eta$ between $G$-maps $f,g  X \to Y$ is a [[left homotopy]] with respect to this $I$
+A **$G$-[[homotopy]]**  $\eta$ between $G$-maps, $f, g  : X \to Y$, is a [[left homotopy]] with respect to this $I$
 
 $$
   \array{
