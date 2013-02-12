@@ -32,6 +32,8 @@ See at _[[module over an algebra over an (∞,1)-operad]]_.
 
 * [[module]], **$(\infty,1)$-module**
 
+  * [[tensor product of ∞-modules]]
+
   * [[2-module]]
 
 * [[bimodule]]
