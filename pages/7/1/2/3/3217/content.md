@@ -22,9 +22,17 @@ If the manifold is a [[smooth manifold]], the charts are required to be smooth t
 
 ## Properties
 
+### Leaf space
+
 The set of components of a foliation is typically non-[[Hausdorff space|Hausdorff]], which is one of the motivations of the [[Alain Connes|Connes]]-style [[noncommutative geometry]]. 
 
-There is a theory of [[characteristic class]]es for foliations. A most well known example is the Godbillon-Vey characteristic class. 
+### Classification
+
+Folitation are classified by the [[Haefliger groupoid]]. See at _[[Haefliger theorem]]_.
+
+### Characteristic classes
+
+There is a theory of [[characteristic classes]] for foliations. A most well known example is the Godbillon-Vey characteristic class. 
 
 ## Related concepts
 
