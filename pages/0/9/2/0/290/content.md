@@ -84,7 +84,7 @@ Ours is the age to figure this out.
 
 * [[scattering amplitude]]
 
-* [[perturbation thery]] 
+* [[perturbation theory]] 
 
   * [[Feynman diagram]]
 
