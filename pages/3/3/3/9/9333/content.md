@@ -1,4 +1,3 @@
-[[!redirects higher differential geometry applied to plain differential geometry]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -53,6 +52,8 @@ This section lists examples of how [[higher differential geometry]] helps with u
 
 * [Field bundles for local gauge theory](#FieldBundles)
 
+* [Resolution of singular intersections and derived critical loci](#DerivedCriticalLocus)
+
 * [Lie integration](#LieIntegration)
 
 * [Variational calculus and symplectic reduction](#VariationalCalculusAndSymplecticReduction)
@@ -104,7 +105,14 @@ Out of this tradition has grown the formalization of [[physical fields]] as [[se
 
 The reason is that a [[gauge field]], including its underlying [[instanton sector]]/[[charge]] sector, is not a section of a fiber bundle but of a [[fiber infinity-bundle|fiber 2-bundle]], the anolog in higher differential geometry. Detailed discussion of this is at _[[field (physics)]]_ and in the corresponding section at _[[geometry of physics]]_.
 
+### Resolution of singular intersections and derived critical loci
+ {#DerivedCriticalLocus}
 
+The [[category]] of [[smooth manifolds]] does not have many [[limits]]. Accordingly many constructions that one would like to perform in traditional differential geometry simply fail to exist. For instance the [[critical locus]] of a [[smooth function]] -- of central relevance in [[variational calculus]] -- rarely is again a [[smooth manifold]] and hence cannot be treated with tools of differential geometry, in general.
+
+In the "[[derived differential geometry]]"-flavor of [[higher differential geometry]] (technically: the not-[[n-localic (infinity,1)-topos|1-localic]]) this problem is resolved by replacig [[function algebras]] of [[smooth functions]] by [[simplicial algebras]], which essentially amounts to refining [[smooth manifolds]] by [[dg-manifolds]]. This refinement resolves previously singular (hence: non-existing in DG) by the method of [[resolution]] familiar from [[homological algebra]]: a singular intersection is realized as the [[homology group]] of a [[chain complex]] of perfectly smooth manifolds (or rather their function algebras).
+
+Applied the concept of [[critical locus]] this leads to the notion of _[[derived critical locus]]_. This is actually a construction secretly with a long tradition in differential geometry, known as the _[[BV-BRST formalism]]_. Higher and [[derived differential geometry]] provide a theoretical framework for handling [[BV-BRST formalism]] systematically.
 
 ### Lie integration
  {#LieIntegration}
@@ -122,7 +130,64 @@ infinite-dimensional Lie algebras in general to [[Lie 2-groups]].
 ## Motivation of higher DG from physics
  {#MotivationOfHigherDGFromPhysics}
 
-... _[[geometry of physics]]_ ...
+To a large extent, [[differential geometry]] had been co-evolving with the descriotion of [[physics]] in terms of _[[field (physics)|fields]]_. We have already seen above in _[Field bundles for local gauge theory](#FieldBundles)_ that an accurate formulation even of traditional notions of such fields requires [[higher differential geometry]] to degree 1. But modern developments in [[quantum field theory]] require notions of [[physical fields]] and [[quantum states]] that probe much more deeply into the realm of geometric [[homotopy theory]]. We indicate here some aspects. For comprehensive introductory lecture notes on this topic see at 
+
+* _[[geometry of physics]]_.
+
+A more technical survey of is in [FSS 13](#FSS).
+
+Below we first discuss how combining the notion of [[local quantum field theory]] in its modern incarnation as [[extended quantum field theory]] with [[prequantum field theory|Lagranian]] quantum field theory necessitates higher differential geometric structures:
+
+* [Extended prequantum field theory](#ExtendedPrequantumFieldTheory)
+
+Then we turn to modern proposals for [[theory (physics)|theories]] that go beyond the [[standard model of particle physics]] and which inherently contain higher geometric fields already in their non-localized formalization:
+
+* [Higher gauge fields](#HigherGaugeFields)
+
+(...)
+
+### The higher orbit method -- Extended prequantum field theory
+ {#ExtendedPrequantumFieldTheory}
+
+A high point of traditional [[differential geometry]] is its impact on [[representation theory]] via the _[[orbit method]]_. This is actually a construction deeply rooted in [[quantum mechanics]]:  given a [[symplectic manifold]] equipped with [[Hamiltonian action]] by a [[Lie group]], regarding this as a [[mechanical system]] and then applying the differental-geometric process of [[geometric quantization]] to its yields a [[space of states]] on which the group is represented. A large class of [[representations]] arises this way and the [[orbit method]] sheds light on the corresponding [[representation theory]].
+
+But speaking of [[physics]] in the first place, certainly the [[quantum mechanics]] governing the [[orbit method]] is just the simplest fragment of the foundational theory of [[physics]], which is [[quantum field theory]] in arbitrary [[dimension]]. Quantum mechanics can be thought of as quantum field theory in dimension 1 ("on the [[worldline]]"). Passig in [[geometric quantization]]/[[orbit method]] from dimension 1 to higher dimensional quantum field theory corresponds precisely, as we discuss now, to passing to [[higher differential geometry]]: "[[extended prequantum field theory|extended prequantum geometry]]".
+
+
+The notion of _[[quantum field theory]]_ exists without reference to any predefined notion of _[[configuration space]]_ of _[[quantum fields]]_, _[[action functional]]_, _[[phase space]]_ etc.: 
+
+A [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent assignment of [[spaces of quantum states]], whereas in [[AQFT]]-[[axiomatization]] it is a consistent assignment of [[algebras of quantum observables]], and that's it. 
+
+However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian|local]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defined on a [[configuration space]] of [[quantum fields]], or else arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
+
+There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted from to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
+
+Therefore, in the refined picture of [[higher geometry]]/[[extended quantum field theory]] it makes good sense to refer in a unified way to **prequantum field theory** for all of the data related to [[Lagrangians]] that is not yet the final [[quantum field theory]]. 
+
+In particular, an **extended prequantum field theory** of [[dimension]] $n$ is a rule that assigns
+
+* to every (suitably [[orientation|oriented]]) [[closed manifold]] of [[dimension]] $k$ a [[prequantum n-bundle|prequantum (n-k)-bundle]]
+
+* to every (suitably [[orientation|oriented]]) [[compact topological space|compact]] [[manifold with boundary]] $\Sigma_k$ a [[section]] of the prequantum $(n-k+1)$-bundle assigned to the [[boundary]] $\partial \Sigma_k$ and pulled back to the space of fields over $\Sigma_k$
+
+such that this data is related suitably under [[transgression]].
+
+The actual [[extended quantum field theory]] would be obtained from such a data by passing from the assignment of a given prequantum $(n-k)$-bundle to that of the [[n-vector space|(n-k)-vector space]] of [[polarization|polarized]] [[sections]] of a suitable [[associated infinity-bundle|associated]] [[fiber infinity-bundle|fiber bundle]].
+
+This is summarized in the following table:
+
+[[!include extended prequantum field theory - table]]
+
+
+### Higher gauge fields
+ {#HigherGaugeFields}
+
+
+Beyond the [[prequantum n-bundles]] involved in any [[extended prequantum field theory]], there are various [[theory (physics)|theories]]in physics that involve [[field (physics)|fields]] which themselves are already given by higher geometric structure, notably [[higher gauge fields]] given by [[connection on an infinity-bundle|higher connections]] on [[principal infinity-bundle|higher principal bundles]]. These arise notably in higher dimensional [[supergravity]] [[theory (physics)|theories]] and their [[UV-completion]]: [[string theory]]. 
+
+The first example along these lines is the [[Kalb-Ramond field]] or [[B-field]], which is a higher order version of the [[electromagnetic field]]. In order to fully capture the nature of these fields, one needs to describe them in higher geometry. Notably [[quantum anomaly]] cancellation conditions can lead to fairly intricate structures of the [[moduli infinity-stacks]] of such fields. For instance anomaly-free [[heterotic string theory|heterotic]]  [[background gauge fields]] are given by moduli 2-stacks of [[twisted differential string structures]]. 
+
+[[!include table of branes]]
 
 
 ## Related pages
@@ -151,5 +216,12 @@ A discussion of how [[∞-Lie theory|∞-Lie theoretic]] [[deformation theory]] 
 
 * [[Domenico Fiorenza]], [[Elena Martinengo]], _A short note on ∞-groupoids and the period map for projective manifolds_, Publications of the nLab [[publications:FiorenzaMartinengo2012|vol. 2 no. 1]] (2012) 
 
+For a survey of how higher differential geometry serves to capture subtle aspects of [[prequantum field theory]] see
+
+* _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ 
+ {#FSS}
 
 (...)
+
+[[!redirects higher differential geometry applied to plain differential geometry]]
+
