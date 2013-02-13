@@ -1,0 +1,17 @@
+
+... [[homotopy colimit]] ... [[action groupoid]] .... [[quotient stack]]
+
+## Related concepts
+
+* [[subquotient]]
+
+* [[quotient space]], [[geometric invariant theory]]
+
+* [[quotient stack]]
+
+* In [[type theory]]/[[homotopy type theory]] the analogous concept is that of [[quotient types]].
+
+
+[[!redirects weak quotient]]
+
+[[!redirects homotopy quotients]]
