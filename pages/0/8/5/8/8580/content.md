@@ -42,6 +42,8 @@ Divided into two parts:
 
 **Part I) [Geometry](#GEOMETRY)**
 
+We begin by laying the foundations of [[differential geometry]]. Doing this in th natural abstract way seamlessly leads over to the foundations of [[higher differential geometry]] (see also _[[motivation for higher differential geometry]]_). Once this is set up, we discuss the fundamental constructions: [[groups]], [[actions]]/[[representations]], [[fiber bundles]], [[connection on a bundle|connections]].
+
 1. [Coordinate systems](#CoordinateSystems)
 
 1. [Smooth spaces](#SmoothSpaces)
