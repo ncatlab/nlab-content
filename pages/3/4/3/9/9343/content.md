@@ -1,0 +1,6 @@
+
+## References
+
+* Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
+
+[[!redirects singularities]]
