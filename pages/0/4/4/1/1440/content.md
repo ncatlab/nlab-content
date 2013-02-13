@@ -158,3 +158,7 @@ Seminar notes on differential [[derived geometry]] in general and derived smooth
 * [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
 
 [[!redirects derived smooth manifolds]]
+
+[[!redirects derived manifold]]
+[[!redirects derived manifolds]]
+
