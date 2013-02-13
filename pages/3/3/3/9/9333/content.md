@@ -26,18 +26,21 @@ In higher differential geometry, [[geometry]] is paired with [[homotopy theory]]
 
 Here we give an informal overview of what motivates this generalization and what it is good for.
 
-First we list some examples of how tools from [[higher differential geometry]] help to understand and resolve problems in plain traditional [[differential geometry]]:
+First we list some examples of how tools from [[higher differential geometry]] help to understand plain traditional [[differential geometry]]:
 
-* _[Applications of higher DG to plain DG](#ApplicationsOfHigherDGToPlanDG)_
+* _[I) Applications of higher DG to plain DG](#ApplicationsOfHigherDGToPlanDG)_
+
+Besides illuminating traditional DG where it exists, higher DG naturally extends plain DG to regions where it breaks down due [[singularities]]:
+
+* _[II) Resolution of singularities in plan DG](#ResolutionOfSingularities)_
 
 However, much of the genuine motivation for developing [[higher differential geometry]] came and increasingly comes from structures in fundamental [[physics]], in [[quantum field theory]] and [[string theory]], which are intrinsically of [[higher geometry|higher geometric]] nature, hence for which no adequate description in plain [[differential geometry]] even exists (this is in fact already true for traditional local gauge theory, see [below](#FieldBundles)). 
+This we disuss in:
 
-This we disuss in 
-
-* [Motivation of higher DG from physics](#MotivationOfHigherDGFromPhysics)
+* [III) Motivation of higher DG from physics](#MotivationOfHigherDGFromPhysics)
 
 
-## Applications of higher DG to plain DG
+## **I)** Applications of higher DG to plain DG
 {#ApplicationsOfHigherDGToPlanDG}
 
 This section lists examples of how [[higher differential geometry]] helps with understanding plain [[differential geometry]].
@@ -51,8 +54,6 @@ This section lists examples of how [[higher differential geometry]] helps with u
 * [Orbifolds](#Orbifolds)
 
 * [Field bundles for local gauge theory](#FieldBundles)
-
-* [Resolution of singular intersections and derived critical loci](#DerivedCriticalLocus)
 
 * [Lie integration](#LieIntegration)
 
@@ -105,14 +106,6 @@ Out of this tradition has grown the formalization of [[physical fields]] as [[se
 
 The reason is that a [[gauge field]], including its underlying [[instanton sector]]/[[charge]] sector, is not a section of a fiber bundle but of a [[fiber infinity-bundle|fiber 2-bundle]], the anolog in higher differential geometry. Detailed discussion of this is at _[[field (physics)]]_ and in the corresponding section at _[[geometry of physics]]_.
 
-### Resolution of singular intersections and derived critical loci
- {#DerivedCriticalLocus}
-
-The [[category]] of [[smooth manifolds]] does not have many [[limits]]. Accordingly many constructions that one would like to perform in traditional differential geometry simply fail to exist. For instance the [[critical locus]] of a [[smooth function]] -- of central relevance in [[variational calculus]] -- rarely is again a [[smooth manifold]] and hence cannot be treated with tools of differential geometry, in general.
-
-In the "[[derived differential geometry]]"-flavor of [[higher differential geometry]] (technically: the not-[[n-localic (infinity,1)-topos|1-localic]]) this problem is resolved by replacig [[function algebras]] of [[smooth functions]] by [[simplicial algebras]], which essentially amounts to refining [[smooth manifolds]] by [[dg-manifolds]]. This refinement resolves previously singular (hence: non-existing in DG) by the method of [[resolution]] familiar from [[homological algebra]]: a singular intersection is realized as the [[homology group]] of a [[chain complex]] of perfectly smooth manifolds (or rather their function algebras).
-
-Applied the concept of [[critical locus]] this leads to the notion of _[[derived critical locus]]_. This is actually a construction secretly with a long tradition in differential geometry, known as the _[[BV-BRST formalism]]_. Higher and [[derived differential geometry]] provide a theoretical framework for handling [[BV-BRST formalism]] systematically.
 
 ### Lie integration
  {#LieIntegration}
@@ -127,7 +120,40 @@ infinite-dimensional Lie algebras in general to [[Lie 2-groups]].
 
 [[derived differential geometry]] allows to resolve many otherwise singular limit/intersection constructions. Modern [[variational calculus]] in terms of [[jet bundle]] ("[[D-geometry]]") is formulated this way, as is [[symplectic reduction]] and the unification of both in the [[BV-BRST formalism]].
 
-## Motivation of higher DG from physics
+## **II)** Resolution of singularities in plain DG
+ {#ResolutionOfSingularities}
+
+[[singularity|Singularities]] arise in [[differential geometry]] if the two kinds of [[universal constructions]] fail to exist as [[smooth manifolds]]:
+
+1. if an _intersection_ (in [[category theory]]: a [[limit]]) fails to exist this is reolved by passing from [[critical loci]] to [[derived critical loci]]:
+
+   [Resolution of singular intersection](#ResolutionOfSingularIntersections)
+
+1. if a _[[quotient]]_ (in [[category theory]]: a [[colimit]]) fails to exist, this is resolved by passing to [[homotopy quotients]]:
+
+   [Resolution of singular quotients: stacks quotients](#ResolutionOfSingularQuotients)
+
+   
+
+### Resolution of singular qotients: stacky quotients
+ {#ResolutionOfSingularQuotients}
+
+
+... [[stack]] ... [[homotopy quotient]] ... [[quotient stack]] ... [[differentiable stack]] ...
+
+
+### Resolution of singular intersections: derived intersections
+ {#ResolutionOfSingularIntersections}
+
+The [[category]] of [[smooth manifolds]] does not have many [[limits]]. Accordingly many constructions that one would like to perform in traditional differential geometry simply fail to exist. For instance the [[critical locus]] of a [[smooth function]] -- of central relevance in [[variational calculus]] -- rarely is again a [[smooth manifold]] and hence cannot be treated with tools of differential geometry, in general.
+
+In the "[[derived differential geometry]]"-flavor of [[higher differential geometry]] (technically: the not-[[n-localic (infinity,1)-topos|1-localic]]) this problem is resolved by replacig [[function algebras]] of [[smooth functions]] by [[simplicial algebras]], which essentially amounts to refining [[smooth manifolds]] by [[dg-manifolds]]. This refinement resolves previously singular (hence: non-existing in DG) by the method of [[resolution]] familiar from [[homological algebra]]: a singular intersection is realized as the [[homology group]] of a [[chain complex]] of perfectly smooth manifolds (or rather their function algebras).
+
+Applied the concept of [[critical locus]] this leads to the notion of _[[derived critical locus]]_. This is actually a construction secretly with a long tradition in differential geometry, known as the _[[BV-BRST formalism]]_. Higher and [[derived differential geometry]] provide a theoretical framework for handling [[BV-BRST formalism]] systematically.
+
+
+
+## **III)** Motivation of higher DG from physics
  {#MotivationOfHigherDGFromPhysics}
 
 To a large extent, [[differential geometry]] had been co-evolving with the descriotion of [[physics]] in terms of _[[field (physics)|fields]]_. We have already seen above in _[Field bundles for local gauge theory](#FieldBundles)_ that an accurate formulation even of traditional notions of such fields requires [[higher differential geometry]] to degree 1. But modern developments in [[quantum field theory]] require notions of [[physical fields]] and [[quantum states]] that probe much more deeply into the realm of geometric [[homotopy theory]]. We indicate here some aspects. For comprehensive introductory lecture notes on this topic see at 
