@@ -31,7 +31,12 @@
 
 ## Idea
 
-### Conceptually: String worldsheet formalism from QFT worldline formalism
+String theory is a [[theory (physics)|theory]] in fundamental [[physics]].
+
+Below we indicate the basic idea and provide pointers to further details. See also the _[[string theory FAQ]]_.
+
+
+### Conceptually: String perturbation theory from QFT worldline formalism
 
 _Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _perturbative quantum field theory_ in terms of sums over Feynman diagrams.
 
@@ -72,6 +77,8 @@ These aspects have motivated the impression that the string perturbation series 
  {#IdeaPhenomenology}
 
 While therefore the premise of perturbative string theory is conceptually suggestive for various reasons, there is to date no connection to experimental [[phenomenology]] (apart from the fact that conceptual insights into string theory have helped analyze quantum field theoretic data, see at _[[string theory results applied elsewhere]]_). As a result much of the substantial outcome of string theory research is more in [[mathematical physics]] (if done well, at least), exploring the general theory space of [[quantum field theories]] and their [[UV-completions]], than in realistic [[model (in theoretical physics)|model building]] (though there is no lack of trying), where it remains very speculative. This has led to public or semi-public debates about the value of string theory for actual physics. A shadow of that debate will maybe one day be visible in the entry _[[critics of string theory]]_.
+
+
 
 
 ## Critical string theories and quantum anomalies
