@@ -96,9 +96,11 @@ Yes. One curious aspect of string theory is that independently of its role as a 
 
   (...)
 
-## How is string theory related to the theory of gravity
+## How is string theory related to the theory of gravity?
 
 (..)
 
+## What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
 
 
+(..)
