@@ -128,7 +128,7 @@ the corresponding crossed complex $[\mathcal{G}]$ is defined as follows:
   [[k-morphism]]s (along objects). By the [[Eckmann-Hilton argument]] this
   is indeed an [[abelian group]] structure for $k \geq 3$.
 
-* The [[action]] of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by whiskering/conjugation of [[k-morphism]]s by 1-morphisms in $\mathcal{G}$. 
+* The [[action]] of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by [[whiskering]]/[[conjugation]] of [[k-morphism]]s by 1-morphisms in $\mathcal{G}$. 
 
 * The boundary maps $\delta := t : [\mathcal{G}]_{k} \to [\mathcal{G}]_{k-1}$ are the restrictions of the target maps $t : \mathcal{G}_k \to \mathcal{G}_{k-1}$, sending a $k$-morphisms with source an identity on an object to its target $k-1$-morphism.
 
