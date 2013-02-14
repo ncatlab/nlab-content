@@ -1,11 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Whiskering
 * table of contents
 {: toc}
 
-## Definitions
+## Idea
 
-Whiskering is a form of [[composition]] which acts on a [[functor]] and a [[natural transformation]] to produce a natural transformation, or more generally on a [[morphism]] and a $2$-[[2-morphism|morphism]] to produce a $2$-morphism.  If we identify a functor or morphism with its [[identity natural transformation]] or [[identity 2-morphism]], then whiskering is a special case of [[horizontal composition]], and composition of morphisms is a special case of whiskering.
+In a [[2-category]], the [[horizontal composition]] of a [[2-morphism]] with [[1-morphisms]] is sometimes called _whiskering_.
+
+Whiskering from the left with an [[equivalence]] and from the right with an inverse equivalence is a [[conjugation]] [[action]] of equivalences on [[2-morphisms]].
+ 
+## Examples
+
+For instance in [[Cat]] whiskering is the [[composition]] of a [[functor]] with a [[natural transformation]] to produce a natural transformation, 
+If we identify a functor or morphism with its [[identity natural transformation]] or [[identity 2-morphism]], then whiskering is a special case of [[horizontal composition]], and composition of morphisms is a special case of whiskering.
 
 In detail:
 
@@ -13,7 +31,7 @@ In detail:
 * If $F\colon C \to D$ and $G,H\colon D \to E$ are functors and $\eta\colon G\to H$ is a natural transformation whose coordinate at $A$ is $\eta_A$, then __whiskering__ $\eta$ and $F$ yields the natural transformation $\eta \circ F\colon (G \circ F) \to (H \circ F)$ whose coordinate at $A$ is $\eta_{F(A)}$.
 
 
-## Links
+## References
 
 * [A MathOverflow question about whiskering](http://mathoverflow.net/questions/40813/what-is-the-name-for-the-composition-of-a-functor-with-a-natural-transformation/40814#40814)
 
