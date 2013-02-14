@@ -9,7 +9,7 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 
 
 ## What is string theory?
- {WhatIsStringTheory}
+ {#WhatIsStringTheory}
 
 What is called _[[perturbative string theory]]_ is a variant of _[[perturbation theory]]_ in _[[quantum field theory]]_ (QFT). 
 
@@ -30,7 +30,7 @@ This situation is analogous to the following simple setup: the theory of [[smoot
 
 There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown.
 
-Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and largy remains mysterious, if it exists at all.
+Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
 
 ## How/why does string theory depend on "backgrounds"?
  {#BackgroundDependence}
@@ -104,3 +104,21 @@ Yes. One curious aspect of string theory is that independently of its role as a 
 
 
 (..)
+
+
+
+## Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?
+ {#InsightsIntoCosmology}
+
+No. Looking back at the answer to _[What is string theory?](#WhatIsStringTheory)_ we have that the only thing really defined is [[perturbative string theory]] -- and quantum [[perturbation theory]] is clearly insufficient for discussion of strongly coupled phenomena such as [[cosmology|cosmological]] phenomena (as opposed to those tiny excitations studied in particle accelerators).
+
+More precisely: given that perturbative string theory does describe classical gravitational backgrounds with small quantum flutuations about them, and given that this is already all that traditional cosmology considers, certainly all of traditional cosmology can sensibly be modeled in string theory. But perturbative string theory cannot say much about the long-expected strong quantum corrections to gravitational effects in [[quantum gravity]]. 
+
+This hasn't stopped people from making lots of speculations, and there is something like a "field" called "string cosmology" in that you find authors writing about this, giving talks and lectures about it. But this is a bit like a soccer match with a pingong ball. 
+
+What would be needed here is an understanding of [[non-perturbative string theory]].
+
+On the other hand, in theories of [[supergravity]] such as string theory, there are some [[observables]] that are independent of the coupling constant (called "protected"): the [[BPS states]]. If one can compute such observables in perturbation theory and then has an idea of what these correspond to as the [[coupling constant]] is set to a finite value, then one can know the value of the corresponding [[observable]] in the [[non-perturbative quantum field theory|non-perturbative theory]] without even knowing that non-perturbative theory itself. This is the mechanism by which perturbative string theory does make statements about [[black hole entropy]], where [[black holes]] by their very nature are strongly coupled gravitational configurations. More on how this works is at _[[black holes in string theory]]_. 
+
+Since the [[singularity]] involved in back holes is a similar kind of singularity as that involved in the [[big bang]] one might think that some analogous method is useful in the latter case. But if so, it has not surfaced so far.
+
