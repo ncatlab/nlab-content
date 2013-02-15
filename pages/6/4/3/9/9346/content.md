@@ -32,6 +32,53 @@ There are a host of educated guesses of what non-perturbative string theory migh
 
 Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
 
+
+## Does string theory make predictions? How?
+ {#HowDoesStringTheoryMakePredictions}
+
+Most every [[theory (physics)|theory]] and [[model (in theoretical physics)|model]] in [[physics]] has parameters and makes predictions only after sufficiently many parameters have been fixed by measuring them in experiment. 
+
+For instance Newton's theory of [[gravity]] says that the gravitational [[force]] of a pointlike [[mass]] is proportional to the inverse square of the distance from that mass. This is the theory, the proportionality factor (now called [[gravitational constant|Newton's constant]]) is the free parameter that has to be fixed by experiment. 
+
+In string theory as in any other theory of physics, it is the same general principle, only that the theory is much richer. There are lots of [[model (in theoretical physics)|models]] in string theory that make very detailed statements about the resulting physics. Moreover, many of these have good general agreement with presently observed data (an class of examples is discussed at _[[G2-MSSM]]_), so this is as in traditional model building. 
+
+The remaining problem is the following, and this is not specific to string theory but faced by any theory that provides a [[UV-completion]] of the standard model plus gravity ([[quantum gravity]]): the problem is that after parameters have been fixed this way by finding a model that reproduces the  standard model reasonably accurately, all the remaining properties of the model,  hence the predictions of the model, tend to be at high energies ("[[Planck scale]]") and hence not within reach of of present experiment.
+
+This is a very general aspect of present particle physics: while _theoretically_ it is clear that the standard model must have a UV-completion by _something_, at presently available experimental energies that standard model works rather perfectly. While this is a general fact of particle physics and model building, not special to string theory, a sociological aspect of string theory is that in the 1980s many theoreticians started to believe and claim that string theory would be better than ordinary model building in that when fully understood it would admit only very few models, such that even the parameters measured in the standard model would be predicted by the theory and some more basic parameters. More recently this hope has vanished, and much of what should be an absolute estimate of string theory is more a perception in the negative gradient of this hope curve. 
+
+But one technical specialty of string theory over QFT model building exists in either case: what in the standard model are external parameters put into a QFT [[Lagrangian]], in string theory models are all dynamical fields of the theory instead:
+
+The simple familiar example to compare this to is the [[cosmological constant]] in Einstein gravity: one can either consider it as an external parameter, a constant real number coefficient in front of the [[volume form]] summand of the [[Einstein-Hilbert action|Einstein-Hilbert Lagrangian]], or else one can consider Einstein gravity coupled to a [[scalar field]] with some potential and consider those solutions to the [[equations of motion]] where this field is is almost constant to good approximation. Then the field itself serves as an effective cosmological constant. (This is the mechanism behind the theory of _[[cosmic inflation]]_, see there for more details.) Hence the theory has one less external parameter (the "cosmological constant" is not fundamentally really a constant), which has instead been replaced by a [[field (physics)|field]]. 
+
+In string theory this happens with _all_ parameters. There is no external choice of parameter, but there remains the choice of studying "solutions to the equations of motion" (which in string theory means: choices of 2d [[CFT]]s) which might model observed physics. 
+
+That is why in string theory instead of adjusting parameters one searches solutions. Since these are also called "[[vacua]]", one searches vacua. The infamous term "[[landscape of string theory vacua]]" refers to attempts to understand the space of possibilities here more globally. But very little is actually known to date. 
+
+In summary: [[model (in theoretical physics)|models]] built in string theory make predictions just as any other [[model (in theoretical physics)|model]] in theoretical physics does. 
+The situation is actually better in that in principle the choice of model in string theory is constrained by the theory. While the [[standard model of particle physics]] is just written to paper, when one reproduces approximations to it in string theory one has to check that various consistency conditions are satisfied which guarantee that the parameters assumed indeed do arise as configurations of the fields in the theory. 
+
+Nevertheless, despite of this higher predictivity in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
+
+
+## Is string theory testable?
+ {#IsStringTheoryTestable}
+
+This question overlaps with the question _[How does string theory make predictions?](#HowDoesStringTheoryMakePredictions)_, but it maybe deserves its own answer.
+
+In both [[QFT]] as well as [[string theory]] one  "builds [[model (in theoretical physics)|models]]" within the general theory and tests these, as far as their predictions are about available experiments. Loads of string theoretic models and non string-theoretic models have been excluded by [[LHC]] data in 2021, when the experiment ruled out more and more of the possible parameter space for one global spacetime [[supersymmetry]] somewhere at the [[electroweak symmetry breaking]] scale. So all this was testable, has been tested and turned out to be wrong.
+
+So [[model (in theoretical physics)|model]] building in string theory is much as in QFT. When a model is ruled out, it does not necessarily mean that string theory is ruled out or that QFT is ruled out, but it means that the possibilities for adjusting the free parameters in the theory are being reduced. 
+
+To see that this is a common scientific process, it may help to look at some important historical examples. For instance shortly after [[Einstein]] proposed the theory of [[gravity]] now named after him, he proposed a [[cosmology|cosmological]] [[model (in theoretical physics)|model]] within that theory. Since he thought back then that the [[observable universe]] was static, he chose a free parameter of his theory, the [[cosmological constant]], to take just such a value that the resulting equations of motion fitted his expectations. But just shortly afterwards it became clear that this is wrong, that instead the observable universe is expanding. Was Einstein's theory wrong? No, his model within the theory was wrong. (He famously called it his "biggest blunder", but it's common for models to be ruled out. It's fundametally a trial and error process, after all. ) The model was discarded and quickly a new model was "built", the now standard [[FRW model]], still within Einstein's theory. That has nicely fitted all data since, with slight adjustments, and so we are fond of it and call it the [[standard model of cosmology]].
+
+This kind of model-building process happens within string theory, too: by iteration the models are being tested, discarded or adjusted, tested again, etc.  
+
+Actually string theory model buidling is more constrained than plain QFT model building, due to the fact that at the heart of it there is _no_ free parameter, since all parameters are instead [[field (physics)|fields]] of the theory, as mentioned before in _[How does string theory make predictions?](#HowDoesStringTheoryMakePredictions)_. So ultimately it gives more, not less reasons to discard a model already on theoretical grounds. There are QFT models which cannot be realized in string theory, because the constraints on the parameters are stronger in string theory, because string theory is not just any old [[effective field theory]] that can be further adjusted as the energy scale is increased, but is already a [[UV-completion]]. It either makes sense at all energies, or not at all. (A practical problem here is that in computations usually lots of approximations are introduced which are not always guaranteed to be viable. For instance nobody really has a good theoretical handle if all the points in the alleged [[landscape of string theory vacua]] really are solutions to the theory. They have all been checked to be so only in some approximation.)
+
+An example of how string theory is more constrained in its model building than effective QFT keeps the community busy since 1998: then it was observed experimentally that the [[cosmological constant]] of the [[observable universe]] these days is small but positive. But accomodating a positive cosmological constant into string theoretic models is harder than negative cosmological constant. So this observation tested a large region of string model building and found it to be wrong. But as for the example of Einstein's "biggest blunder" above, even with all these models ruled out, the theory is still not ruled out (maybe one day with more obserbations it will!) Instead, as in the historical example, the failure of the favorite models lead to new theoretical activity in understanding the theory and its remaining possible models. All this talk about "metastable vacua", etc since in string theory originates in this experimental observation in 1998. 
+
+On the other hand, no other theoretical framework was equally tested by this astronomical observation. In all other existing theoretical frameworks you simply take a pen and change the sign of the cosmological constant by hand. The theory does not control it, it's a free parameter. So it seems justifiable to say that string theory is actually _more testable_ than other existing theoretical frameworks. Of course to appreciate what this means one has to pay attention to what it means to test a theory by testing all its parameter space of models, as illustarted by the Einstein "biggest blunder"-example.
+
 ## How/why does string theory depend on "backgrounds"?
  {#BackgroundDependence}
 
@@ -55,56 +102,9 @@ Consistency arguments for this speculation have been given in ([Witten xy](#Witt
 
 
 
+## Did string theory provide any insight relevant in experimental particle physics?
 
-
-
-
-
-
-
-## Does string theory make predictions? Is string theory testable?
-
-Most every [[theory (physics)|theory]] and [[model (in theoretical physics)|model]] in [[physics]] has parameters and makes predictions only after sufficiently many parameters have been fixed by measuring them in experiment. 
-
-For instance Newton's theory of [[gravity]] says that the gravitational [[force]] of a pointlike [[mass]] is proportional to inverse square of the distance from that mass This is the theory, the proportionality factor (now called [[Newton's constant]]) is the free parameter that has to be fixed by experiment. 
-
-In string theory as in any other theory of physics, it is the same general principle, only that the theory is much richer. There are lots of of [[model (in theoretical physics)|models]] in string theory that make very detailed statements about the resulting physics. Moreover, many of these have good general agreement with presently observed data (an class of examples is discussed at _[[G2-MSSM]]_), so this is as in traditional model building. 
-
-The remaining problem is the following, and this is not specific to string theory but faced by any theory that provides a [[UV-completion]] of the standard model plus gravity ([[quantum gravity]]): the problem is that after parameters have been fixed this way by finding a model that reproduces the  standard model reasonably accurately, all the remaining properties of the model,  hence the predictions of the model, tend to be at high energies ("[[Planck scale]]") and hence not within reach of of present experiment.
-
-This is a very general aspect of present particle physics: while _theoretically_ it is clear that the standard model must have a UV-completion by _something_, at presently available experimental energies that standard model works rather perfectly. While this is a general fact of particle physics and model building, not special to string theory, a sociological aspect of string theory is that in the 1980s many theoreticians started to believe and claim that string theory would be better than ordinary model building in that when fully understood it would admit only very few models, such that even the parameters measured in the standard model would be predicted by the theory and some more basic parameters. More recently this hope has vanished, and much of what should be an absolute estimate of string theory is more a perception in the negative gradient of this hope curve. 
-
-But one technical specialty of string theory over QFT model building exists in either case: what in the standard model are external parameters put into a QFT [[Lagrangian]], in string theory models are all dynamical fields of the theory instead:
-
-The simple familiar example to compare this to is the [[cosmological constant]] in Einstein gravity: one can either consider it as an external parameter, a constant real number coefficient in front of the [[volume form]] summand of the [[Einstein-Hilbert action|Einstein-Hilbert Lagrangian]], or else one can consider Einstein gravity coupled to a [[scalar field]] with some potential and consider those solutions to the [[equations of motion]] where this field is is almost constant to good approximation. Then the field itself serves as an effective cosmological constant. (This is the mechanism behind the theory of _[[cosmic inflation]]_, see there for more details.) Hence the theory has one less external parameter (the "cosmological constant" is not fundamentally really a constant), which has instead been replaced by a [[field (physics)|field]]. 
-
-In string theory this happens with _all_ parameters. There is no external choice of parameter, but there remains the choice of studying "solutions to the equations of motion" (which in string theory means: choices of 2d [[CFT]]s) which might model observed physics. 
-
-That is why in string theory instead of adjusting parameters one searches solutions. Since these are also called "[[vacua]]", one searches vacua. The infamous term "[[landscape of string theory vacua]]" refers to attempts to understand the space of possibilities here more globally. But very little is actually known to date. 
-
-In summary: [[model (in theoretical physics)|models]] built in string theory make predictions just as any other [[model (in theoretical physics)|model]] in theoretical physics does. 
-The situation is actually better in that in principle the choice of model in string theory is constrained by the theory. While the [[standard model of particle physics]] is just written to paper, when one reproduces approximations to it in string theory one has to check that various consistency conditions are satisfied which guarantee that the parameters assumed indeed do arise as configurations of the fields in the theory. 
-
-Nevertheless, despite of this higher predictivity in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
-
-
-## Did string theory provide any insight that affected recent progress in experimental particle physics, such as the discsovery of the Higgs-boson like particle?
-
-Yes. One curious aspect of string theory is that independently of its role as a source for models in particle physics, it provides connections in the space of all possible quantum field theories: lots of different quantum field theories (many of them highly unrealistic as phenomenology goes, but interesting for theoretical investigations) appear as different limits and special cases inside string theory, and their embedding into a single framework this way explains many unexpected relations between them. One of this has led to recent progress simply in computional tools of perturbation series. LHC physicists claimed that without the insight from string theory, the evaluation software used at the LHC ould not have been precise enough to see the Higgs in the data. Details on this are linked to at [[string theory results applied elsewhere]]. This is maybe the example most directly related to experimental physics, but there are varius other relations ("dualiteis") between QFTs learned from or better understood with string theory. (Seiberg duality for instance, long list will go here...)
-
-## What if the answer to the above questions in No, or at least I don't follow the arguments for why it should be Yes, is string theory then without any merit?
-
-  (...)
-
-## How is string theory related to the theory of gravity?
-
-(..)
-
-## What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
-
-
-(..)
-
+Yes. One curious aspect of string theory is that independently of its role as a source for models in particle physics, it provides connections in the space of all possible quantum field theories: lots of different quantum field theories (many of them highly unrealistic as phenomenology goes, but interesting for theoretical investigations) appear as different limits and special cases inside string theory, and their embedding into a single framework this way explains many unexpected relations between them. One of this has led to recent progress simply in computional tools of perturbation series. LHC physicists claimed that without the insight from string theory, the evaluation software used at the LHC ould not have been precise enough to see the Higgs in the data. Details on this are linked to at [[string theory results applied elsewhere]]. This is maybe the example most directly related to experimental physics, but there are varius other relations ("dualities") between QFTs learned from or better understood with string theory. ([[Seiberg duality]] for instance, long list will go here...)
 
 
 ## Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?
@@ -122,3 +122,11 @@ On the other hand, in theories of [[supergravity]] such as string theory, there 
 
 Since the [[singularity]] involved in back holes is a similar kind of singularity as that involved in the [[big bang]] one might think that some analogous method is useful in the latter case. But if so, it has not surfaced so far.
 
+## How is string theory related to the theory of gravity?
+
+(..)
+
+## What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
+
+
+(..)
