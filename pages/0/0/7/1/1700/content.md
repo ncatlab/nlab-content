@@ -15,7 +15,7 @@
 
 ## Idea
 
-Classical Galois theory classifies [[field extensions]. It is a special case of a classification of [[locally constant sheaves]] in a [[topos]] by [[permutations representations]] of the [[fundamental groupoid]]/[[fundamental group]].
+Classical Galois theory classifies [[field extensions]]. It is a special case of a classification of [[locally constant sheaves]] in a [[topos]] by [[permutations representations]] of the [[fundamental groupoid]]/[[fundamental group]].
 
 
 ## Classical Galois theory for fields 
