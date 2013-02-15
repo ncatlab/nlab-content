@@ -329,7 +329,7 @@ $$
 
 such that $\alpha \sim_n \beta$ if
 
-1. the $n$-[[skeleta]] $sk_n \Delta^k \to \Delta^k \stackrel{f,g}{\to} X$ are equal;
+1. the $n$-[[skeleta]] $sk_n \Delta^k \to \Delta^k \stackrel{\alpha, \beta}{\to} X$ are equal;
 
 1. the [[images]] $f(\alpha), f(\beta)\in Y$ are equal.
 
