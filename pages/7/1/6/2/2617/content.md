@@ -1,3 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _pseudo-Riemannian metric_ is a slight variant of that of _[[Riemannian metric]]_.
+
+Where a Riemannian metric is governed by a positive-definite [[bilinear form]], a Pseudo-Riemannian metric is governed by an indefinite bilinear form.
+
+## Definition
+
 A **pseudo-Riemannian "metric"** is a nondegenerate [[quadratic form]] on a real vector space $\mathbb{R}^n$. A [[Riemannian metric]] is a positive-definite quadratic form on a real vector space. The data of such a quadratic form may be equivalently given by a nondegenerate symmetric bilinear pairing $\langle\, , \, \rangle$ on $\mathbb{R}^n$. 
 
 A pseudo-Riemannian metric 
@@ -39,3 +66,9 @@ Is there an accepted notion of "distance squared" between two points in a pseudo
 A typical example of pseudo-Riemannian manifold is a [[Lorentzian manifold]], where the metric is of type $(1, n-1)$. This is particularly so in the case $n = 4$, where such manifolds are the mathematical backdrop for studying [[general relativity]] and cosmological models. 
 
 * The terminology "metric" is not optimal of course: the values of the quadratic form would need to be nonnegative to avoid terminological conflict with [[metric space|metric]] as it is more commonly understood (and even in that case, the values of "metric" refer to the square of the metric rather than the metric itself). _Caveat lector._ 
+
+
+[[!redirects pseudo-Riemannian metrics]]
+[[!redirects pseudoRiemannian metric]]
+[[!redirects pseudoRiemannian metrics]]
+
