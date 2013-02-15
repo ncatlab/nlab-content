@@ -136,7 +136,7 @@ $$
   \simeq
   Hom_{[C^{op}, Set]}(Y(c), \hat \lim F)
   :=
-  \lim Hom_{[C^{op}, Set]}(Y(c), F(-))
+  \lim Hom_C(c, F(-))
 $$
 
 for all $c \in C$.
