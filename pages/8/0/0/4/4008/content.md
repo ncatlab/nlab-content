@@ -61,8 +61,27 @@ At the end of this procedure, we have an object $P_n$ with projections $p_{n,j}\
 At the end of this procedure, we have an object $Q_{m+1}$ together with a cone over the diagram $F$, which is easily verified to be a limit of $F$.
 =--
 
-Similarly, arbitrary connected limits may be built from [[wide pullbacks]] and equalizers.
+Similarly, arbitrary connected limits may be built from [[wide pullbacks]] and equalizers. 
 
++-- {: .num_theorem #internalsum}
+###### Theorem 
+Let $C$ be (finitely) complete, and let $X$ be an object of $C$. Then the forgetful functor 
+
+$$\sum_X: C/X \to C$$ 
+
+preserves and reflects (finite) connected limits. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+The wide pullback of the diagram $f_i: X_i \to X$ where $f_i = 1_X$ for all $i$ is clearly $X$, as is the equalizer of the pair of identity arrows. Since the product functor $C \times C \to C$ preserves arbitrary limits, we see that 
+
+$$X \times lim (c_i \stackrel{g_i}{\to} c) = (lim X_i \stackrel{f_i = 1_X}{\to} X) \times (lim c_i \stackrel{g_i}{\to} c) = lim X \times c_i \stackrel{1 \times g_i}{\to} X \times c,$$ 
+
+i.e., $X \times -$ preserves wide pullbacks. The same line of argument shows $X \times -$ preserves equalizers, so $X \times -$ preserves connected limits. 
+
+The functor $X \times -$ carries a canonical [[comonad]] structure, whose category of coalgebras is $C/X$. The forgetful functor $C/X \to C$ is comonadic, and thus preserves and reflects any class of limits preserved by the comonad $X \times -$. Thus $\sum_X: C/X \to C$ preserves and reflects all connected limits. 
+=-- 
 
 ### Preservation from wide pullbacks
 
@@ -81,7 +100,7 @@ Let $C$ be a complete category, and let $D$ be [[locally small category|locally 
 ###### Proof
 The forward direction is clear since wide pullbacks are examples of connected limits. Now suppose $G\colon C \to D$ preserves wide pullbacks. Then 
 \[C \stackrel{G}{\to} D \stackrel{hom(d, -)}{\to} Set \label{Gwithhom}  \]
-preserves wide pullbacks for every object $d$ of $D$. Put $I = hom(d, G 1)$. Then the underlying functor 
+preserves wide pullbacks for every object $d$ of $D$. Put $I = hom(d, G 1)$. The underlying functor 
 $$\sum\colon Set/I \to Set$$ 
 reflects and preserves connected limits and in particular wide pullbacks, so that the evident lift 
 $$\hom(d, G-)\colon C \to Set/I$$ 
