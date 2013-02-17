@@ -69,8 +69,8 @@ $5\Rightarrow 6$ Trivial, because the Eilenberg-Moore construction induces the o
 $6\Rightarrow 3$ By $6$ the counit $\epsilon$ is iso, hence $U\epsilon F$ has a unique 2-sided inverse; by triangle identities, $T\eta$ and $\eta T$ are both right inverses of $U\epsilon F$, hence 2-sided inverses, hence they are equal.
 
 $6\Rightarrow 1$ If $F\dashv U$ is an adjunction with $U$ fully faithful, 
-then the counit $\epsilon$ is iso. The induced monad has multiplication 
-$\mu = U\epsilon F$ hence iso; every isomorphic monad is also iso.
+then the counit $\epsilon$ is iso. since $D(FU X,Y)\simeq C(UX,UY)\simeq D(X,Y)$ where the last equivalence is since $U$ is full and faithful; hence by essential unicity of the representing object there is an iso $FUX\stackrel{\sim}{\to} X$.; let $X=Y$ then the adjoint of this identity is the counit of the adjunction; since the hom objects correspond bijectively, the counit is an isomorphism. Hence the multiplication of the induced monad
+$\mu = U\epsilon F$ is also an iso.
 =--
 
 Part 5 means that in such a case $C^T$ is, up to equivalence a full [[reflective subcategory]] of $C$.  Conversely, the monad induced by any reflective subcategory is idempotent, so giving an idempotent monad on $C$ is equivalent to giving a reflective subcategory of $C$.
@@ -194,6 +194,7 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 * P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_
 
+* P.T. Johnstone, Sketches of an elephant, A.4.3.11, p.194, B1.1.9, p.249
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
