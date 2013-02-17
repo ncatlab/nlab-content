@@ -26,7 +26,7 @@ An **elegant Reedy category** is a [[Reedy category]] $R$ such that the followin
 
 * For every [[monomorphism]] $A\hookrightarrow B$ of [[presheaves]] on $R$ and every $x\in R$, the induced map $A_x \amalg_{L_x A} L_x B \to B_x$ is a monomorphism.
 
-* Every [[span]] of codegeneracy maps in $R$ has an [[absolute colimit|absolute]] [[pushout]] in $R$ that also consists of codegeneracy maps.
+* Every [[span]] of codegeneracy maps in $R_-$ has an [[absolute colimit|absolute]] [[pushout]] in $R_-$.
 
 * Both the following conditions hold:
 
