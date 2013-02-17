@@ -5,7 +5,9 @@ For instance, an [[internal group]] in the category of Stone spaces /  profinite
 
 ###Risk of Confusion###
 
-Just as the term 'space' is used by some schools of algebraic topologists as a synonym for [[simplicial set]], so 'profinite space' is sometimes used as meaning a 'simplicial object in the category of compact and totally disconnected topological spaces', i.e. in the other terminology a 'simplicial profinite space'.
+Just as the term 'space' is used by some schools of algebraic topologists as a synonym for [[simplicial set]], so 'profinite space' is sometimes used as meaning a 'simplicial object in the category of compact and totally disconnected topological spaces', i.e. in the other terminology a 'simplicial profinite space'. This is further complicated by the question of whether or not pro(finite simplicial sets)
+and simplicial profinite spaces are the same thing.
+
 
 ##References##
 
