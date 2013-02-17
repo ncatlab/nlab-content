@@ -5,7 +5,7 @@
 
 ## Idea
 
-A category $C$ is _closed_ if for any pair $a, b$ of object the collection of morphisms from $a$ to $b$ can be regarded as forming itself an object of $C$.
+A category $C$ is _closed_ if for any pair $a, b$ of objects the collection of morphisms from $a$ to $b$ can be regarded as forming itself an object of $C$.
 
 This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addressed as the _internal [[hom-object]]_ or simply the [[internal hom]].
 
