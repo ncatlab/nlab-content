@@ -1,15 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Internal $(\infty,1)$-Categories
-+--{: .hide}
++-- {: .hide}
 [[!include internal infinity-categories contents]]
 =--
 =--
 =--
-
-
 
 # $\Gamma$-spaces
 * table of contents
@@ -68,6 +66,7 @@ Discussion of $\Gamma$-spaces in the broader context of [[higher algebra]] in [[
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
+
 
 [[!redirects Gamma-space]]
 [[!redirects Gamma-spaces]]
