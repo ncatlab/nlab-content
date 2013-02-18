@@ -205,7 +205,7 @@ and the beginning of
 
 Lecture notes include
 
-* [[Kevin Costello]] (with [[Owen Gwilliam]]), _Factorizaton algebras in perturbative quantum field theory_ in [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Strings, Field, Topology]], Oberwolfach report No 28, 2009 ([pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf#page=12))
+* [[Kevin Costello]] (with [[Owen Gwilliam]]), _Factorization algebras in perturbative quantum field theory_ in [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Strings, Field, Topology]], Oberwolfach report No 28, 2009 ([pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf#page=12))
 
   This can also be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
 
