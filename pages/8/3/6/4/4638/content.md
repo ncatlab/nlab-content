@@ -8,3 +8,5 @@
 * [[model structure on chain complexes]]
 
 category: people
+
+[[!redirects Daniel Christensen]]
