@@ -204,10 +204,13 @@ $\varphi_K \varphi'_K$ and $\psi \bar \psi'$ are contiguous.
 *  C. H. Dowker, _Homology Groups of Relations_, Annals of Maths, 56, (1952), 84&#8211;95.
 
 
-[[!redirects Dowker's Theorem]]
+[[!redirects Dowker's theorem]]
+[[!redirects Dowker's theorem]]
 [[!redirects Dowker's theorem]]
 [[!redirects Dowker's Theorem]]
 [[!redirects Dowker's theorem]]
+[[!redirects Dowker's Theorem]]
+[[!redirects Dowker\'s theorem]]
+[[!redirects Dowker\'s Theorem]]
 [[!redirects Dowker theorem]]
-[[!redirects Dowker's theorem]]
-[[!redirects Dowker's theorem]]
+[[!redirects Dowker Theorem]]
