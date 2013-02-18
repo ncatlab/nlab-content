@@ -79,7 +79,7 @@ Given a [[set]] $X$ and a collection $\mathcal{M}$ of [[subsets]] $S \subseteq X
    3.  If $S$ and $T$ are in $\mathcal{M}$, then so is their [[relative complement]] $T \setminus S$.
    4.  The [[improper subset]] $X$ is in $\mathcal{M}$.
 
-   Actually, (2) is now redundant again; $S \cup T = (X \setminus T) \setminus S$.  But perhaps more importantly, $\mathcal{M}$ is closed under *absolute* [[complement|complementation]] (that is, complementation relative to the entire ambient set $X$); that is:
+   Actually, (2) is now redundant again; $S \cup T = X \setminus ((X \setminus T) \setminus S)$.  But perhaps more importantly, $\mathcal{M}$ is closed under *absolute* [[complement|complementation]] (that is, complementation relative to the entire ambient set $X$); that is:
 
    *  If $S$ is in $\mathcal{M}$, then so is its [[complement]] $\neg{S}$.
 
