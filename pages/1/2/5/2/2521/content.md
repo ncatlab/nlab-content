@@ -35,5 +35,24 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 ## References
 
+The formulation of supergeometry as geometry over the [[topos]] over the category of [[superpoints]] is reviewed in
+
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
- {#Sachse}
+ {#Sachse} 
+
+For many more references see at _[[supermanifold]]_.
+
+Plenty of discussion of supergeometry with an eye towards [[supersymmetry]] in [[quantum field theory]] is in
+
+* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+especially in the contribution
+
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+
+The appendix there 
+
+* _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf))
+
+means to sort out various sign conventions of relevance.
+
