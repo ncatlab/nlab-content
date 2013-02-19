@@ -60,3 +60,5 @@ Lecture notes include
 
 [[!redirects factorization algebras of observables]]
 
+[[!redirects factorization algebra of local observables]]
+[[!redirects factorization algebras of local observables]]
