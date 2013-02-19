@@ -48,9 +48,13 @@ For instance ([Maddock, lemma 3.2.8](#Maddock)).
 
 A complex manifold of complex [[dimension]] 1 is called a  _[[Riemann surface]]_.
 
-### Calabi-Yau manifold
+### Calabi-Yau manifolds
 
 A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Yau manifold]]_. In complex dimension 2 this is a _[[K3 surface]]_.
+
+### Other examples
+
+* [[Stein manifolds]]
 
 ## Related concepts
 
