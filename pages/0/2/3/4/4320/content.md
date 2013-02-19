@@ -110,3 +110,7 @@ $$ \array {
 
 [[!redirects symmetric product]]
 [[!redirects symmetric products]]
+
+[[!redirects symmetric tensor algebra]]
+[[!redirects symmetric tensor algebras]]
+
