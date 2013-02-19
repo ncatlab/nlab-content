@@ -159,11 +159,21 @@ Texbook references include
 
 * [[Daniel Freed]], _Five lectures on supersymmetry_ AMS (1999)
 
-A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in 
+A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in the collection
 
-* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-A more of a physical approach in
+especially in the contribution
+
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+
+The appendix there,
+
+* _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf))
+
+means to sort out various sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]].
+
+See also
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
