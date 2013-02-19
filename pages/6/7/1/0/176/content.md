@@ -363,6 +363,8 @@ Witt class.
 
 * [[WZW model]]
 
+* [[logarithmic CFT]]
+
 * [[6d (2,0)-supersymmetric QFT]]
 
 ## Related concepts
