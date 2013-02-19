@@ -1,0 +1,38 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+**(Cartan theorem B)**
+
+For $X$ a [[Stein manifold]],
+
+$$
+  H^k(\Omega^{p,\bullet}(X), \bar \partial)
+  =
+  \left\{
+    \array{  
+      0 & k \neq 0 
+      \\
+      \Omega^p_{hol}(X) & k = 0
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+For instance ([Gunning-Rossi](#GunningRossi)).
+
+## References
+
+
+* Robert C. Gunning and Hugo Rossi, _Analytic functions of several complex variables_, Prentice-Hall Inc., Englewood Cliffs, N.J., (1965)
+ {#GunningRossi}
+
+
+[[!redirects Cartan's theorem B]]
