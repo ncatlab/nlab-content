@@ -1,4 +1,4 @@
-In Joyal-Nielsen-Winskel is given the following definition. For what a "path category in a category of models" is, see there.
+In Joyal-Nielsen-Winskel (p.13) is given the following definition. For what a "path category in a category of models" is, see there.
 
 +-- {: .un_defn}
 ###### Definition
