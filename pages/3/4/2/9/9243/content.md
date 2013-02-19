@@ -22,3 +22,7 @@ In [[theories of physics]] described by [[action functionals]] the _interaction_
 * [[perturbation theory]]
 
 [[!include action (physics) - table]]
+
+[[!redirects interaction term]]
+[[!redirects interaction terms]]
+
