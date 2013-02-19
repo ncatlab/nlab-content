@@ -373,11 +373,30 @@ has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf
 ### Perturbative BV deformation quantization
  {#PerurbativeBVDeformationQuantization}
 
-We discuss the [[perturbation theory|perturbative]] [[deformation quantization]] of Chern-Simons theory to a [[factorization algebra of local observables]] along the lines of _[renormalization --Of theories in BV-CS forms](renormalization#OfTheoriesInBVForm)_.
+We discuss the [[perturbation theory|perturbative]] [[deformation quantization]] of Chern-Simons theory to a [[factorization algebra of local observables]] along the lines of _[renormalization -- Of theories in BV-CS forms](renormalization#OfTheoriesInBVForm)_,
+along the lines of ([Costello, section 3](#Costello)).
 
-(...) ([Costello, section 3](#Costello)) (...)
+Fix $(\mathfrak{g}, \langle -,-\rangle_{\mathfrak{g}})$ a [[Lie algebra]] equipped with a binary and non-degenerate [[invariant polynomial]] (for instance a [[semisimple Lie algebra]] with [[Killing form]]).
+Let $\Sigma$ be a [[smooth manifold|smooth]] [[closed manifold]]. 
 
-For $(\mathfrak{g}, \langle -,-\rangle_{\mathfrak{g}})$ a [[Lie algebra]] equipped with a binary and non-degenerate [[invariant polynomial]] (for instance a [[semisimple Lie algebra]] with [[Killing form]]), the [[BRST complex]] of Chern-Simons theory has 
+In [[perturbation theory]] we consider only [[infinitesimal object|infinitesimal]] [[gauge transformations]] between the [[field (physics)|fields]],
+
+In [[perturbation theory]] we regard the [[interaction term]] 
+
+$$
+  A \mapsto I(A) \propto \int_\Sigma \langle A \wedge [A \wedge A]\rangle
+$$
+
+as a perturbation of the [[free field theory]] with [[kinetic action functional]]
+
+$$
+  A \mapsto S_{kin}(A) \propto \int_\Sigma \langle A \wedge d A\rangle
+  \,.
+$$
+
+The [[BRST complex]] of the full theory is the [[Chevalley-Eilenberg algebra]] $CE(Lie(G\mathbf{Conn}(X)//C^\infty(X,G)))$ of the [[Lie algebroid]] $Lie(\Omega^1_\Sigma(-,\mathfrak{g})//[X,G]$ which is the [[Lie differentiation]] of the [[action groupoid]] of the [[smooth group]] of [[gauge transformations]] acting on the fields, which are the [[Lie algebra valued 1-forms]].
+
+So the [[BRST complex]] of Chern-Simons theory has 
 
 * [[field (physics)|fields]] the 1-forms $\Omega^1(\Sigma, \mathfrak{g})$ 
 
@@ -389,7 +408,7 @@ The corresponding [[BV-BRST complex]] hence has in addition
 
 * [[antighosts]] similarly $\Omega^3(\Sigma, \mathfrak{g})$.
 
-In summary this is simply the [[de Rham complex]] of $\Sigma$ [[tensor product|tensored]] with $\mathfrak{g}$: As a [[free field theory]] (with the notation as dicussed there) Chern-Simons theory is given by
+In summary the fields, ghosts, antifields and antighists form the [[de Rham complex]] of $\Sigma$ [[tensor product|tensored]] with $\mathfrak{g}$: As a [[free field theory]] (with the notation as dicussed there) Chern-Simons theory on $\Sigma$ has the sheaf of [[sections]] of the [[field bundle]] given by
 
 $$
   \mathcal{E}
@@ -398,7 +417,12 @@ $$
   \,.
 $$
 
-Here we should regard $\mathfrak{g}$ as being [[graded vector space|graded]] and homogeneously of degree $(-1)$ (this is the natural grading on $\mathfrak{g}$ regarded as an [[L-infinity algebra]]. In fact essentially all of the discussion here goes through for general $L_\infty$-algebras equipped with a binary [[invariant polynomial]]).
+Here we should regard $\mathfrak{g}$ as being [[graded vector space|graded]] and homogeneously of degree $(-1)$ (this is the natural grading on $\mathfrak{g}$ regarded as an [[L-infinity algebra]]. In fact essentially all of the discussion here goes through for general $L_\infty$-algebras equipped with a binary [[invariant polynomial]]). With this the evident total grading on $\Omega^\bullet_\Sigma(-,\mathfrak{g})$ is already the correct BV-BRST grading
+
+|  | [[ghost fields]] | [[field (physics)|fields]] | [[antifields]]  |  [[antighost fields]] |
+|--| -----------------|----------------------------|-----------------|-----------------------|
+| | $\Omega_\Sigma^0(-,\mathfrak{g})$ | $\Omega_\Sigma^1(-,\mathfrak{g})$ | $\Omega_\Sigma^2(-,\mathfrak{g})$ | $\Omega_\Sigma^3(-,\mathfrak{g})$ |
+| degree | -1 | 0 | 1 | 2 | 
 
 Now (...)
 
