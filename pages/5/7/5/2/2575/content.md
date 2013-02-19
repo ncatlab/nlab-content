@@ -698,7 +698,16 @@ Discussion of quantization using [[perturbation theory]] is in
 
   _Chern--Simons Perturbation Theory II_ ([arXiv](http://arxiv.org/abs/hep-th/9304087))
 
-Discussion in terms of [[BV-BRST formalism]] is in 
+Discussion in terms of [[BV-BRST formalism]] and the [[renormalization]] of perturbative CS theory is discussed in
+
+* [[Kevin Costello]], _[[Renormalization and Effective Field Theory]]_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
+
+building on results discussed in section 1.11 and 1.12 of 
+
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
+ {#Costello}
+
+The BV-formalism for Chern-Simons theory on manifolds with [[boundary]] is discussed in
 
 * [[Anton Alekseev]], Yves Barmaz, [[Pavel Mnev]], _Chern-Simons Theory with Wilson Lines and Boundary in the BV-BFV Formalism_ ([arXiv:1212.6256](arxiv.org/abs/1212.6256))
  {#AlekseevBarmazMnev}
@@ -738,7 +747,7 @@ Discussion of quantum Chern-Simons theory as a (relative) [[extended TQFT]] is i
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
-* [[Dan Freed]], _[[4-3-2 8-7-6]]_, taks at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
 
 
