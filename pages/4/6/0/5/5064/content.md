@@ -19,7 +19,7 @@
 
 ## Idea
 
-What is called the _$\beta$-$\gamma$ system_ is a 2-dimensional [[quantum field theory]] defined on [[Riemann surfaces]] $X$ whose [[field (physics)|fields]] are a $(0,0)$-form and a $(1,0)$-form and [[equations of motion]] demand these fields to be [[holomorphic differential forms]]. 
+What is called the _$\beta$-$\gamma$ system_ is a 2-dimensional [[quantum field theory]] defined on [[Riemann surfaces]] $X$ whose [[field (physics)|fields]] are pairs consisting of a $(0,0)$-form and a $(1,0)$-form and whose [[equations of motion]] demand these fields to be [[holomorphic differential forms]]. 
 
 The name results from the traditional symbols for these fields, which are 
 
