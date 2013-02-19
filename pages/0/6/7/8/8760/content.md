@@ -9,13 +9,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _vertex_ is a _point_ in a [[graph]] or [[simplicial set]] or similar. In the context of [[simplicial sets]] it is a 0-[[dimension|dimensional]] [[simplex]].
+A _vertex_ is a _[[point]]_ in a [[graph]] or [[simplicial set]] or similar. In the context of [[simplicial sets]] it is a 0-[[dimension|dimensional]] [[simplex]].
+
 
 ## Related concepts
 
@@ -23,5 +24,5 @@ A _vertex_ is a _point_ in a [[graph]] or [[simplicial set]] or similar. In the 
 
 * **vertex**, [[simplex]], [[dendrex]]
 
+[[!redirects vertex]]
 [[!redirects vertices]]
-
