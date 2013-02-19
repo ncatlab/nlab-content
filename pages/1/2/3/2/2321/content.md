@@ -1,23 +1,23 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 #### Integration theory
-+--{: .hide}
++-- {: .hide}
 [[!include integration theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition#
+## Definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -81,10 +81,14 @@ ordinary notion of orientation described above.
 [[!include higher spin structure - table]]
 
 
-[[!redirects orientable]]
+[[!redirects orientation]]
+[[!redirects orientations]]
 
 [[!redirects oriented]]
+[[!redirects orientedness]]
+
+[[!redirects orientable]]
+[[!redirects orientability]]
 
 [[!redirects orientation structure]]
 [[!redirects orientation structures]]
-
