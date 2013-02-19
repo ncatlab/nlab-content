@@ -1,3 +1,4 @@
+
 # Contents
 * the following line creates the automatic table of contents
 {:toc}
@@ -66,9 +67,9 @@ So from the perspective of definition (\ref{AA}), there are enough (\ref{Willard
 
 ## Logic of nets 
 
-A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be applied to nets in $X$.  We say that $\nu$ is __eventually__ in $S$ if for some index $i$, $\nu_j \in S$ for every $j \ge i$.  Dually, we say that $\nu$ is __frequently__ in $S$ if for every index $i$, $\nu_j \in S$ for some $j \ge i$.  Sometimes one says 'infinitely often' in place of 'frequently' and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
+A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be applied to nets in $X$.  We say that $\nu$ is __[[eventually]]__ in $S$ if for some index $i$, $\nu_j \in S$ for every $j \ge i$.  Dually, we say that $\nu$ is __frequently__ in $S$ if for every index $i$, $\nu_j \in S$ for some $j \ge i$.  Sometimes one says 'infinitely often' in place of 'frequently' and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
 
-Note that being eventually in $S$ is a weakening of being always in $S$ (given by Lawvere\'s [[universal quantifier]] $\forall_\nu$), while being frequently in $S$ is a strenghtening of being sometime in $S$ (given by the [[particular quantifier]] $\exists_\nu$).  Indeed we can build a logic out of these.  Use $\ess\forall i, p[\nu_i]$ or $\ess\forall_\nu p$ to mean that a predicate $p$ in $X$ is eventually true, and use $\ess\exists i, p[\nu_i]$ or $\ess\exists_\nu p$ to mean that $p$ is frequently true.  Then we have:
+Note that being eventually in $S$ is a weakening of being always in $S$ (given by Lawvere\'s [[universal quantifier]] $\forall_\nu$), while being frequently in $S$ is a strengthening of being sometime in $S$ (given by the [[particular quantifier]] $\exists_\nu$).  Indeed we can build a logic out of these.  Use $\ess\forall i, p[\nu_i]$ or $\ess\forall_\nu p$ to mean that a predicate $p$ in $X$ is eventually true, and use $\ess\exists i, p[\nu_i]$ or $\ess\exists_\nu p$ to mean that $p$ is frequently true.  Then we have:
 $$\forall_\nu p \;\Rightarrow\; \ess\forall_\nu p \;\Rightarrow\; \ess\exists_\nu p \;\Rightarrow\; \exists_\nu p$$
 $$\ess\forall_\nu (p \wedge q) \;\Leftrightarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
 $$\ess\exists_\nu (p \wedge q) \;\Rightarrow\; \ess\exists_\nu p \wedge \ess\exists_\nu q$$
@@ -77,12 +78,12 @@ $$\ess\exists_\nu (p \vee q) \;\Leftrightarrow\; \ess\exists_\nu p \vee \ess\exi
 $$\ess\forall_\nu \neg{p} \;\Leftrightarrow\; \neg\ess\exists_\nu p$$
 and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
 
-A similar logic is satisfied by 'almost everywhere' and its dual in [[measure spaces]].
+A similar logic is satisfied by '[[almost everywhere]]' and its dual ('not almost nowhere' or 'somewhere significant') in [[measure spaces]].
 
 
 ## Nets and filters 
 
-A net $\nu$ in a set $X$ defines a proper [[filter]] of subsets of $X$, called the __eventuality filter__ of the net.  It consists simply of those subsets of $X$ that $\nu$ is eventually in.  (Recall that a _filter_ of subsets is a collection of subsets that is closed under intersection and taking supersets; the filter is _proper_ if each set in it is inhabited.)
+A net $\nu$ in a set $X$ defines a proper [[filter]] of subsets of $X$, called the __[[eventuality filter]]__ of the net.  It consists simply of those subsets of $X$ that $\nu$ is eventually in.  (Recall that a _filter_ of subsets is a collection of subsets that is closed under intersection and taking supersets; the filter is _proper_ if each set in it is inhabited.)
 
 Conversely, any filter $\mathcal{F}$ defines a net whose eventuality filter is $\mathcal{F}$.  Let $A$ be the [[disjoint union]] of $\mathcal{F}$; that is, an element of $A$ is of the form $(U,x)$, where $x \in U \in \mathcal{F}$.  Define $(U,x) \geq (V,y)$ iff $U \subseteq V$ (regardless of $x$ and $y$).  Since $\mathcal{F}$ is a filter, one can show that $A$ is a directed set (one needs here that $\mathcal{F}$ is proper).  Define $\nu(U,x)$ to be $x$; then $\nu$ is a net in $X$ whose eventuality filter is $\mathcal{F}$ again.  (It is actually enough to use only a base of the filter when defining $A$.)
 
