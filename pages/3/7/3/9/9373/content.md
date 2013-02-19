@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[BV-BRST formalism]], the BV-[[antifields]] of the [[BRST complex|BRST]]-[[ghosts]] are called _antighosts_.
+
+## Related concepts
+
+* [[field (physics)]]
+
+  * [[ghost]], 
+
+  * [[antifield]], **antighost**
+
+[[!redirects antighost]]
+[[!redirects antighosts]]
+
+[[!redirects anti-ghost fields]]
+
+[[!redirects antighost field]]
+[[!redirects antighost fields]]
+
