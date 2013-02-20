@@ -13,3 +13,9 @@ The [[Lie integration]] of [[higher Courant Lie algebroids]].
 
 [[!redirects higher Courant groupoids]]
 
+[[!redirects Courant 2-groupoid]]
+[[!redirects Courant 2-groupoids]]
+
+[[!redirects Courant Lie 2-groupoid]]
+[[!redirects Courant Lie 2-groupoids]]
+
