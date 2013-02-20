@@ -249,6 +249,8 @@ For more see [[counterexamples in algebra]].
 
 * [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
 
+  * [[group of bisections]]
+
 * [[center]], [[center of an ∞-group]],
 
 * [[inner automorphism group]]
