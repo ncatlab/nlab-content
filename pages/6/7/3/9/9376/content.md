@@ -309,7 +309,7 @@ See below at _[Examples-- The traditional Courant Lie 2-algebroid](#TheTradition
 
 We first show how the general notion of _higher Atiyah groupoid_ reproduces various traditonal structures.
 
-* _[The traditonal Atiyal Lie groupoid](#TheTraditionalAtiyagLieGroupoid)_
+* _[The traditonal Atiyah Lie groupoid](#TheTraditionalAtiyagLieGroupoid)_
 
 * _[The traditional Courant Lie 2-algebroid](#TheTraditionalCourantLie2Algebroid)_
 
@@ -507,9 +507,11 @@ the [[group of bisections]] of the corresponding Atiyah groupoid is the [[quanto
 
 In ([Rogers 11](#Rogers)) is a proposal for the generalization of the notion of [[Poisson bracket]] [[Lie algebra]] of a [[symplectic manifold]] to a notion of [[Poisson Lie n-algebra]] induced by an _[[n-plectic manifold]]_. Since the [[Lie integration]] of the [[Poisson bracket]] is traditionally known as the _[[quantomorphism group]]_, the Lie integration of these [[Poisson Lie n-algebras]] should be called an _[[quantomorphism n-group]]_.
 
-We here discuss a general abstract theory of [[quantomorphism n-groups]] as [[∞-groups of bisections]] of a higher Atiyah groupoid associated with a [[principal ∞-connections]]. Then we show that under [[Lie differentiation]] this reproduces the construction in ([Rogers 11](#Rogers11)).
+We here discuss a general abstract theory of [[quantomorphism n-groups]] as [[∞-groups of bisections]] of a higher Atiyah groupoid associated with a [[principal ∞-connections]]. Then we show that under [[Lie differentiation]] this reproduces the construction in ([Rogers 11](#Rogers11)). 
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $\mathbb{G} \on Grpd(\mathbf{H})$ be equipped with the structure of a [[braided ∞-group]]. Then there is a canonical object $\mathbf{B}\mathbb{G}_{conn} \in \mathbf{H}$ which is the [[moduli ∞-stack]] of $\mathbb{G}$-[[principal ∞-connections]].
+[[!include geometric quantization extensions - table]]
+
+For all of the following, let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $\mathbb{G} \on Grpd(\mathbf{H})$ be equipped with the structure of a [[braided ∞-group]]. Then there is a canonical object $\mathbf{B}\mathbb{G}_{conn} \in \mathbf{H}$ which is the [[moduli ∞-stack]] of $\mathbb{G}$-[[principal ∞-connections]].
 
 Fox such a [[principal ∞-connection]] given by a map
 
