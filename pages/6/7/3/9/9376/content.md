@@ -140,7 +140,7 @@ To this end we need the following two definitions
 +-- {: .num_defn #HValuedAutomorphismGroup}
 ###### Definition
 
-For $f \colon X \to Y$ a [[morphism]] in an [[(∞,1)-topos]] $\mathbf{H}$, its **$\mathbf{H}$-valued [[automorphism ∞-group]] $\mathbf{Aut}_{\mathbf{H}}(f)$ is the [[dependent product]] over $Y$ over the [[automorphism ∞-group]] of $f$ regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/Y}$:
+For $f \colon X \to Y$ a [[morphism]] in an [[(∞,1)-topos]] $\mathbf{H}$, its **$\mathbf{H}$-valued [[automorphism ∞-group]]** $\mathbf{Aut}_{\mathbf{H}}(f)$ is the [[dependent product]] over $Y$ over the [[automorphism ∞-group]] of $f$ regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/Y}$:
 
 $$
   \mathbf{Aut}_{\mathbf{H}}(f)
@@ -150,6 +150,14 @@ $$
 $$
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+For [[concrete object|non-concrete]] codomains $Y$ one is usually interested in the [[concretification]] of this group. To be discussed... For an example see at _[The quantomorphism $n$-group](#TheQuantomorphismNGroups)_ below.
+
+=--
+
 
 
 +-- {: .num_defn}
@@ -213,7 +221,7 @@ for the corresponding underlying map.
 +-- {: .num_prop #InclusionOfNableBisectionsIntoNable0Bisections}
 ###### Proposition
 
-The [[dependent product]] along this map induces a canonical map of [[∞-groups]] 
+The [[dependent sum]] along this map induces a canonical map of [[∞-groups]] 
 
 $$
   \mathbf{BiSect}(At(\nabla))
@@ -243,7 +251,7 @@ Accordingly:
 +-- {: .num_prop #InclusionOfNableBisectionsIntoNable1AndNabla0Bisections}
 ###### Proposition
 
-The [[dependent product]] along these maps induces inclusions of $\infty$-groups
+The [[dependent sum]] along these maps induces inclusions of $\infty$-groups
 
 $$
   \mathbf{BiSect}(At(\nabla))
