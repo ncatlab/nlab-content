@@ -317,6 +317,11 @@ We first show how the general notion of _higher Atiyah groupoid_ reproduces vari
 
 * _[The quantomorphism n-groups](#TheQuantomorphismNGroups)_
 
+* _[The traditional Heisenberg group](#TheTraditionalHeisenbergGroup)
+
+* _[The Heisenberg n-group](#TheHeisenbergnGroup)
+
+
 
 ### The traditional Atiyah Lie groupoid
  {#TheTraditionalAtiyagLieGroupoid}
@@ -627,9 +632,143 @@ where
 
 * $\mathfrak{Poisson}(X,\omega)$ is the [[Poisson Lie n-algebra]] as defined in ([Rogers 11](#Rogers11)).
 
-(...)
+* $\mathcal{X}_{Ham}$ is the Lie algebra of [[vector fields]] restricted to the [[Hamiltonian vector fields]];
+
+* $\mathbf{H}(X, \flat (\mathbf{B}^{n-1})\mathbb{R})$ is the [[chain complex]] for flat [[de Rham cohomology]] in the given degree, regarded as an abelian [[L-∞ algebra]].
 
 =--
+
+### The traditional Heisenberg group
+ {#TheTraditionalHeisenbergGroup}
+
+(...) [[Heisenberg group]] (...)
+
+### The Heisenberg $n$-group
+ {#TheHeisenbergnGroup}
+
+
+If $X = G \in \mathbf{H}$ has itself [[∞-group]] structure, then it is natural to restrict the [[quantomorphism ∞-group]] to that subgroup of the [[Hamiltonian symplectomorphism ∞-group]] whose elements come from the $G$-[[∞-action]] on itself. This is the corresponding _[[Heisenberg ∞-group]]_.
+
++-- {: .num_defn }
+###### Definition
+
+With all assumtions as [above](#TheQuantomorphismNGroups), let $G \in Grp(\mathbf{H})$ be an [[∞-group]] and let 
+
+$$
+  G \hookrightarrow \mathbf{Aut}(G)
+$$
+
+(where on the right we have the [[automorphism ∞-group]] of the underlying object $G \in \mathbf{H}$) the inclusion that exhibits the left $G$-[[∞-action]] on itself. 
+
+The the **[[Heisenberg ∞-group]]** $\mathbf{Heis}(\nabla)$ is the [[(∞,1)-pullback]] in the [[diagram]]
+
+$$
+  \array{
+    \mathbf{Heis}(\nabla)
+    &\to&
+    \mathbf{QuantMorph}(\nabla)
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\to& \mathbf{Aut}(G)
+  }
+  \,.
+$$
+
+=--
+
+The following is an immediate consequence of the definition
+
++-- {: .num_prop  #HeisenbergInfinityGroupExtension}
+###### Proposition
+
+The [[Heisenberg ∞-group]] $\mathbf{Heis}(\nabla)$ is an [[∞-group extension]] of $G$ by $(\Omega \mathbb{G})\mathbf{FlatConn}(G)$: we have a [[homotopy fiber sequence]] of [[∞-groups]]
+
+$$
+  (\Omega \mathbb{G})\mathbf{FlatConn}(G)
+  \to 
+  \mathbf{QuantMorph}(\nabla)
+  \to 
+  G
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+In $\mathbf{H} = $ [[Smooth∞Grpd]] consider $G \in LieGrp \hookrightarrow Grp(\mathbf{H})$ a [[connected topological space|connected]], [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]], say the [[Spin group]] $G = Spin$. Then the [[Killing form]] [[invariant polynomial]] is a pre-3-plectic form on the [[moduli stack]] of $G$-[[principal connections]]:
+
+$$
+  \langle -,-\rangle
+  \;\colon\;
+  \mathbf{B}G_{conn} \to \mathbf{\Omega}_{cl}^4
+  \,.
+$$
+
+This has a [[higher geometric prequantization]] by the [[smooth first fractional Pontryagin class]], a map
+
+$$
+  \tfrac{1}{2}\hat\mathbf{p}_1
+  \;\colon\;
+  \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+The [[transgression]] of this to maps oout of the [[circle]] yields a [[circle 2-bundle with connection]]
+
+$$
+  \nabla 
+   \;\colon\;
+  G \to [S^1, G]
+   \stackrel{[S^1, \frac{1}{2}\hat\mathbf{p}_1]}{\to}
+  [S^1, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{\exp(2 \pi i \int_{S^1}(-))}{\to}
+  \mathbf{B}^2 U(1)
+  \,.
+$$
+
+This is a [[prequantum circle 2-bundle]] which prequantizes the canonical [[differential 3-form]] on $G$, the one which is [[invariant differential form|left invariant]] and at the neutral element is $\langle -,[-,-]\rangle$.
+
+Consider now the [[higher prequantum geometry]] of this 2-connection. So now $\mathbb{G} = \mathbf{B}U(1)$.
+
+Observe that 
+
+$$
+  \begin{aligned}
+    (\Omega \mathbb{G})\mathbf{FlatConn}(G)
+    & \simeq
+    U(1) \mathbf{FlatConn}(G)
+    \\
+    & =
+    \mathbf{B}U(1)
+  \end{aligned}
+$$ 
+
+because $G$ is assumed to be [[simply connected topological space|simply connected]]. (Notice that $\mathbf{B}U(1)$ does appear here with its canonical smooth structure: while a [[gauge transformation]] from the trivial $U(1)$-[[principal connection]] to itself is a constant function along $X$, the smooth structure in $U(1)\mathbf{FlatConn}(G)$ comes from how this may vary in parameterized collections ).
+
+Therefore by prop. \ref{HeisenbergInfinityGroupExtension} we have an [[∞-group extension]]
+
+$$
+  \mathbf{B}U(1)
+  \to
+  \mathbf{Heis}(\nabla)
+  \to
+  G
+  \,.
+$$
+
+This exhibits the Heisenberg 2-group here as the [[string 2-group]] $String(G)$:
+
+$$
+  \mathbf{Heis}(\nabla) \simeq String(G)
+  \,.
+$$
+
+=--
+
+
 
 ## Related concepts
 
