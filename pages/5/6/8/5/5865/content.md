@@ -1875,7 +1875,7 @@ Then the bottom morphism is an equivalence by the $(\Pi \dashv Disc)$-[[zig-zag-
 ### Flat $\infty$-connections and local systems 
   {#FlatDifferentialCohomology}
 
-We describe for a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ a canonical intrinsic notion of _flat_ [[connections on ∞-bundles]], _flat_ [[higher parallel transport]] and higher [[local system]]s.
+We describe for a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H}$ a canonical intrinsic notion of _[[flat ∞-connections]]_, _flat_ [[higher parallel transport]] and higher [[local systems]].
 
 Write $(\mathbf{\Pi} \dashv\mathbf{\flat}) := (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}$ for the adjunction given by the [path ∞-groupoid](#Paths). Notice that this comes with the canonical $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]] with components
 
