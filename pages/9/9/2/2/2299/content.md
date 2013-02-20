@@ -79,6 +79,8 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
 
   * [[differential geometry]], [[differential topology]]
 
+  * [[higher prequantum geometry]]
+
   * [[derived smooth manifold]]
 
   * [[smooth ∞-groupoid]], [[∞-Lie algebroid]]
