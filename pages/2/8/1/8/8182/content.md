@@ -106,6 +106,9 @@ Similarly, the brackets on elements all in degree 0 is given by contraction of $
 
 ## Related concepts
 
+[[!include slice automorphism groups in higher prequantum geometry - table]]
+
+
 [[!include geometric quantization extensions - table]]
 
 
@@ -122,4 +125,9 @@ and shown to be the [[string Lie 2-algebra]].
 
 [[!redirects Heisenberg Lie 2-algebra]]
 [[!redirects Heisenberg Lie 2-algebras]]
+
+[[!redirects Heisenberg L-∞ algebra]]
+[[!redirects Heisenberg L-∞ algebras]]
+[[!redirects Heisenberg L-infinity algebra]]
+[[!redirects Heisenberg L-infinity algebras]]
 
