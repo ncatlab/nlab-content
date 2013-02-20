@@ -1,5 +1,20 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,13 +39,17 @@ The condition of flatness is usually expressed via the [[Maurer-Cartan equation]
 
 ### Over a Riemann surface: Narasimhan&#8211;Seshadri theorem
 
-The _[[Narasimhan–Seshadri theorem]]_ identifies [[moduli spaces]] of flat connections over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
+The _[[Narasimhan?Seshadri theorem]]_ identifies [[moduli spaces]] of flat connections over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
 
 ### Isometric embeddings
 
 Maurer-Cartan equation is called also structure equation when used to treat the conditions for isometric embeddings of Riemannian submanifolds in an Euclidean space. 
 
 ...
+
+## Related conceots
+
+* [[flat ∞-connection]]
 
 [[!redirects integrable connection]]
 
