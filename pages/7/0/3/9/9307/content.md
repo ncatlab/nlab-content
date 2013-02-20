@@ -33,5 +33,9 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 * [[Smooth∞Grpd]], [[SynthDiff∞Grpd]].
 
+## Related concepts
+
+* [[higher prequantum geometry]]
+
 
 
