@@ -167,7 +167,7 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 
 
-
+[[!redirects Atiyah Lie groupoids]]
 
 [[!redirects Atiyah Lie-groupoid]]
 
