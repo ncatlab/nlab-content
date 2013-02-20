@@ -1,0 +1,149 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a [[local topos]] there is a notion of _[[concrete objects]]_. These form a [[reflective subcategory]]. The corresponding reflector is the _concretification map_ which universally approximates any object by a concrete object.
+
+## Definition
+
+There is a unique evident notion of concretification in any [[local topos]], this we discuss first in 
+
+* _[In a local topos](#InALocalTopos)_
+
+This involves an [[image]] factorization. Since in [[higher category theory]]/[[homotopy theory]] image factorization refines to a tower of notions of [[n-image]] factorization in a [[local (∞,1)-topos]] there are different constructions that one may all think of as concretification. This we discuss in 
+
+* _[In a higher cohesive topos](#InAHigherCohesiveTopos)_
+
+
+### In a local topos
+ {#InALocalTopos}
+
+A [[local topos]] is a [[topos]] equipped with a [[sharp modality]] $\sharp$. 
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ any object of the topos, the [[image]] projection of the [[unit of a monad|unit]] $\iota_X \colon X \to \sharp X$ is the _concretification_ of $X$
+
+$$
+  (X \to Conc X) 
+  \coloneqq
+  (X \to im(\iota_X))
+  \,.
+$$
+
+=--
+
+### In a cohesive $(\infty,1)$-topos
+ {#InAHigherCohesiveTopos}
+
+In a [[local (∞,1)-topos]] there is still the [[sharp modality]], but here the [[1-image]]-factorization of its unit is rarely of interest, for this concretifies an object in degree 0 but makes it [[codiscrete object|codiscrete]] in all higher degrees. Typically one is interested in concretifying in all degrees. One needs to specify extra data to say what this means.
+
+One case where this is arises is the _differential concretification_ of [[moduli ∞-stacks]] of [[principal ∞-connections]].
+
+
+## Examples
+
+### Concretification of moduli of principal $\infty$-connections
+
+Let $\mathbf{H}$ be a [[local (∞,1)-topos]] which in addition is a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $n \in \mathbb{N}$ and let $\mathbb{G} \in Grp(\mathbf{H})$ be an [[∞-group]] which  is admits and is equipped with $(n+1)$-[[deloopings]] $\{\mathbf{B}^k \mathbb{G}\}_{k = 0}^{n+1}$. (For instance for $n = 2$ this is a [[sylleptic ∞-group]].  Generally we can have an [[abelian ∞-group]].)
+
+Then for each $0 \leq k \lt n$ there is a canonical object $\mathbf{B}^l\mathbb{G}_{conn} \in \mathbf{H}$, the [[moduli ∞-stack]] of $(\mathbf{B}^{k}\mathbb{G})$-[[principal ∞-connections]] (as discussed there). By assumption on $\mathbb{H}$ these are for $k \lt n-1$ each canoncally [[∞-group]] objects themselves (have a canonically given [[delooping]]). This induces a sequence of forgetful maps
+
+$$  
+  \mathbf{B}^n\mathbb{G}_{conn}
+  \to 
+  \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})
+  \to
+  \mathbf{B}^2(\mathbf{B}^{n-2}\mathbb{G}_{conn})
+  \to 
+  \cdots
+  \mathbf{B}^{n-1}(\mathbf{B}\mathbb{G}_{conn})
+  \to 
+  \mathbf{B}^n \mathbb{G}
+$$
+
+which interpolates between the moduli for $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-connections]] and plain $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-bundles]] by succesively "forgetting connection data from below". 
+
++-- {: .num_example}
+###### Example
+
+For instance for $\mathbf{H} = $ [[Smooth∞Grpd]], $\mathbb{G} = U(1) \in Grp(\mathbf{H})$ the [[circle Lie group]] and $n = 2$, the sequence
+
+$$
+  \mathbf{B}^2 U(1)_{conn}
+  \to 
+  \mathbf{B}(\mathbf{B}U(1)_{conn})
+  \to 
+  \mathbf{B}^2 U(1)
+$$
+
+modulates [[circle 2-bundles with connection]] mapping to circle 2-connections "without [[curving]]", mapping to the underlying [[circle 2-group]]-[[principal 2-bundles]]/[[bundle gerbes]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $\Sigma \in \mathbf{H}$ any [[object]], the **differential concretification** of the [[internal hom]] ([[mapping ∞-stack]]) $[\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]$ is the iterated [[(∞,1)-pullback]]
+
+$$
+  (\mathbf{B}^{n-1})
+  \mathbf{Conn}(\Sigma)
+  \;
+  \coloneqq
+  \;
+  \sharp_1 [\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]
+  \underset{
+    \sharp_1 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
+  }{\times}
+  \sharp_2 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
+  \underset{\sharp_2 [\Sigma, \mathbf{B}^2(\mathbf{B}^{n-2}\athbb{G}_{conn})]}{\times}
+  \cdots
+  \underset{\sharp_{n-1}[\Sigma, \mathbf{B}^n \mathbb{G}]}{\times}
+  [\Sigma, \mathbf{B}^n \mathbb{G}]
+  \,,
+$$
+
+
+where $\sharp_k(-)$ denotes the [[n-image|k-image]] of the [[unit of a monad|unit]] of the [[sharp modality]] $\sharp$.
+
+=--
+
++-- {: .num_example #DifferentialConcretificationOfCirclenconnections}
+###### Example
+
+Again in $\mathbf{H} = $ [[Smooth∞Grpd]] and for $\mathbb{G} = U(1)$ we find that for all $n$ $(\mathbf{B}^{n-1}U(1))\mathbf{Conn}(X)$ is the [[∞-stack]] which to a $U \in $ [[CartSp]] assigns the [[n-groupoid]] of smoothly $U$-parameterized collections of [[circle n-bundles with connection]] on $\Sigma$, with smoothly $U$-paraeterized collectiojns of [[gauge transformations]] between them, smoothly $U$-parameterized collections of [[higher gauge transformations]] between those, etc.
+
+=--
+
+## References
+
+Introductory lecture notes with an eye towards applications in fundamental [[physics]] are at
+
+* _[[geometry of physics]]_
+
+The differential concretification of differential moduli is discussed in
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_.
+
+The full proof of example \ref{DifferentialConcretificationOfCirclenconnections} is due to Joost Nuiten....
+
+[[!redirects concretifications]]
