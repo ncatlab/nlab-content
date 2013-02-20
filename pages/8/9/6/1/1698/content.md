@@ -795,3 +795,6 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects homotopy fiber sequence]]
 [[!redirects homotopy fiber sequences]]
+
+[[!redirects (∞,1)-fiber]]
+[[!redirects (∞,1)-fibers]]
