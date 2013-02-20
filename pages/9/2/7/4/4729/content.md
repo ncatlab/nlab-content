@@ -636,6 +636,8 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 * **connection on an ∞-bundle**
 
+  * [[flat ∞-connection]]
+
 * [[parallel transport]], [[higher parallel transport]]
 
 * [[holonomy]]
