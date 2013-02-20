@@ -640,6 +640,9 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 * [[holonomy]]
 
+[[!include higher Atiyah groupoid - table]]
+
+
 
 ## References
 
