@@ -73,7 +73,9 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
 
   * [[noncommutative geometry]]
 
-* derived smooth geometry 
+* [[higher differential geometry]]
+
+  * [[motivation for higher differential geometry]]
 
   * [[differential geometry]], [[differential topology]]
 
