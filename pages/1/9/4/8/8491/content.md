@@ -24,7 +24,7 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
 
 * [[Poisson n-algebra]]
 
-* [[Heisenberg Lie n-algebra]]
+[[!include slice automorphism groups in higher prequantum geometry - table]]
 
 
 ## References
@@ -42,3 +42,10 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
 
 [[!redirects Poisson Lie n-algebra]]
 [[!redirects Poisson Lie n-algebras]]
+
+[[!redirects Poisson L-∞ algebra]]
+[[!redirects Poisson L-∞ algebras]]
+[[!redirects Poisson L-infinity algebra]]
+[[!redirects Poisson L-infinity algebras]]
+
+
