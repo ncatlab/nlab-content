@@ -98,8 +98,9 @@ There are other versions of this theorem, including generalizations to monadicit
 
 ### Strict monadicity
 
-The version of the monadicity theorem given in [[Categories Work]] uses an [[evil]] notion of "creation of limits" and concludes that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the excercises.
+The version of the monadicity theorem given in [[Categories Work]] uses an [[evil]] notion of "creation of limits" and concludes that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the exercises. 
 
+Note however that if $U: D \to C$ is an [[amnestic functor|amnestic]] [[isofibration]], then $U$ is monadic iff it is strictly monadic. For an application of this observation, see for example the discussion of algebraically free monads at [[free monad]]. 
 
 ## Examples and Applications
 
