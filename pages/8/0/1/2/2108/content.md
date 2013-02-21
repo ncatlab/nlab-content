@@ -374,6 +374,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 ## Related concepts
 
+* [[prequantum geometry]]
+
 * [[reductions deformations resolutions in physics]]
 
 * [[Weinstein symplectic category]]
