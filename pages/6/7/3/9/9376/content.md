@@ -38,13 +38,14 @@ $\mathbf{B}(\mathbf{B}\mathbb{G}_{\mathrm{conn}})$ classifies [[circle 2-bundle 
 
 So the general definition considered here assigns a higher Atiyah groupoid to a "bundle gerbe with connective structure but no [[curving]]". It turns out that this is the _[[Courant 2-groupoid]]_ which [[Lie integration|Lie integrates]] the [[standard Courant Lie 2-algebroid]] traditionally induced by this data.
 
-The  notion of higher Atiyah groupoids is more general still: the definition does not really require that the object fed into the construction is a plain [[principal ∞-bundle]]. It may notably also be a genuine [[principal ∞-connection]] (hence " _with_ [[curving]]"). We show below that the corresponding higher Atiyah groupoid is that groupoid object whose [[∞-group of bisections]] is the [[quantomorphism n-group]] of the principal $\infty$-connection regarded as a [[prequantum n-bundle]].
+The  notion of higher Atiyah groupoids is more general still: the definition does not really require that the object fed into the construction is a plain [[principal ∞-bundle]]. It may notably also be a genuine [[principal ∞-connection]] (hence _with_ "[[curving]]"). We show below that the corresponding higher Atiyah groupoid is that groupoid object whose [[∞-group of bisections]] is the [[quantomorphism n-group]] of the principal $\infty$-connection regarded as a [[prequantum n-bundle]].
 
 In summary, the [[higher geometry|higher geometric]] generalization of the notion of Atiyah groupoids unifies all three of the traditional notions of [[Atiyah groupoid]], of [[Courant 2-groupoid]] and of [[quantomorphism group]] and refines each of these to [[higher geometry]]:
 
 [[!include higher Atiyah groupoid - table]]
 
-At the same time the definition of higher Atiyah groupoids in [[(∞,1)-topos theory]], def. \ref[HigherAtiyahGroupoid} below, is very simple, almost tautological, identifying it as a very fundamental notion in [[(∞,1)-topos theory]]/[[homotopy type theory]].
+At the same time the definition of higher Atiyah groupoids in [[(∞,1)-topos theory]], def. \ref{HigherAtiyahGroupoid} below, is very simple, almost tautological, identifying it as a very fundamental notion in [[(∞,1)-topos theory]]/[[homotopy type theory]].
+
 
 ## Definition
 
