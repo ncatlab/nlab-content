@@ -63,7 +63,7 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 [[!include infinitesimal and local - table]]
 
-
+[[!redirects Poisson Lie algebra]]
 
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
@@ -73,3 +73,7 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 [[!redirects Poisson structure]]
 [[!redirects Poisson structures]]
+
+[[!redirects Poisson Lie algebra]]
+[[!redirects Poisson Lie algebras]]
+
