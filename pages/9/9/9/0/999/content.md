@@ -229,7 +229,7 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 * [[small object]], [[small object argument]]
 
-* [[finitely presented object]]
+* [[finitely generated object]]
 
 * [[locally presentable category]]
 
