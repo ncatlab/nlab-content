@@ -1,0 +1,23 @@
+
+# Uniform convergence spaces
+* table of contents
+{: toc}
+
+## Idea
+
+Uniform convergence spaces are simultaneously a generalisation of [[uniform spaces]] and a specialisation with [[extra structure]] of [[convergence spaces]].  That is, we have [[functors]]
+$$ Conv \to Unif Conv \to Unif ,$$
+both [[faithful functor|faithful]] and with $Unif Conv \to Unif$ also [[full functor|full]].  (Here we take the [[morphisms]] of $Unif Conv$ and $Unif$ to be the [[uniformly continuous maps]], while $Conv$ must use the [[continuous maps]].)
+
+
+## References
+
+Start on page 72 (in Part I) in
+
+* Jan Harm van der Walt (2009); _Generalized solutions of systems of nonlinear partial differential equations_ (PhD thesis); [web](http://upetd.up.ac.za/thesis/available/etd-05242009-122628/).
+
+(This dissertation is not really about uniform convergence spaces, but it has the advantage of being free online.)
+
+
+[[!redirects uniform convergence space]]
+[[!redirects uniform convergence spaces]]
