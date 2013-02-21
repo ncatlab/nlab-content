@@ -53,6 +53,12 @@ This is summarized in the following table:
 (...)
 
 
+## Related concepts
+
+* [[prequantum geometry]]
+
+* [[higher prequantum geometry]]
+
 ## References
 
 Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
