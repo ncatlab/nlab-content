@@ -5,7 +5,7 @@
 
 ## Definition
 
-An **amnestic functor** is a functor $U : \mathcal{D} \to \mathcal{C}$ (between [[strict categories]]) that reflects [[identity morphism|identity morphisms]]: more precisely, for any [[isomorphism]] $f\colon a \to b$ in $\mathcal{D}$, if $U a = U b$ and $U f = id_{U a}$, then $a = b$ and $U f = id_a$.
+An **amnestic functor** is a functor $U : \mathcal{D} \to \mathcal{C}$ (between [[strict categories]]) that reflects [[identity morphism|identity morphisms]]: more precisely, for any [[isomorphism]] $f\colon a \to b$ in $\mathcal{D}$, if $U a = U b$ and $U f = id_{U a}$, then $a = b$ and $f = id_a$.
 
 
 ## Properties
