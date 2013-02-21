@@ -48,3 +48,10 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 [[!redirects prequantum circle 2-bundle]]
 [[!redirects prequantum circle 2-bundles]]
 
+[[!redirects prequantum ∞-bundle]]
+[[!redirects prequantum ∞-bundles]]
+
+[[!redirects prequantum infinity-bundle]]
+[[!redirects prequantum infinity-bundles]]
+
+
