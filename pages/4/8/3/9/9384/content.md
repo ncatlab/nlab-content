@@ -29,8 +29,34 @@ A sequence of time-honored  traditional concepts in [[geometric quantization]]/[
 
 For instance in the [[geometric quantization]] of the [[electromagnetic field|electrically]] [[charged particle|charted]] [[particle]] [[sigma-model]] we have a [[prequantum circle bundle]] $\nabla$ on a [[cotangent bundle]] $T^* X$ which is essentially the [[pullback]] of the [[electromagnetic field]]-bundle on [[target space|target]] [[spacetime]]. Then (...).
 
+This applies mainly to [[quantum mechanics]], only partially to [[quantum field theory]]. In particular in the context of _[[extended prequantum field theory]]_ in [[dimension]] $n$ a [[prequantum bundle]] over the ([[phase space|phase]]-)space of [[field (physics)|fields]] is refined (de-[[transgression|transgressed]]) to a _[[prequantum n-bundle]]_ over the [[moduli ∞-stack]] of [[field (physics)|fields]]. Therefore in order to apply [[geometric quantization]] to [[extended prequantum field theory]] to obatined [[extended quantum field theory]] we first need extended/higher prequantum geometry.
 
-we lift this to 
+For instance the [[prequantum n-bundle|prequantum 3-bundle]] for standard [[3d Chern-Simons theory|3d]] [[Spin group]] [[Chern-Simons theory]] is modulated by the [[smooth first fractional Pontryagin class]]
+
+$$
+  \tfrac{1}{2}\hat \mathbf{p}_1
+  \;\colon\;
+  \mathbf{B}Spin_{conn} 
+   \to
+  \mathbf{B}^3 U(1)_{conn}
+  \,,
+$$
+
+the _[[Chern-Simons circle 3-bundle with connection]]_;
+and the [[prequantum n-bundle|prequantum 7-bundle]] for [[7d Chern-Simons theory]] on [[string 2-group]] [[principal infinity-connections|principal 2-connections]] is given by the [[smooth second fractional Pontryagin class]]
+
+$$
+  \tfrac{1}{6}\hat \mathbf{p}_2
+  \;\colon\;
+  \mathbf{B}String_{conn} 
+   \to
+  \mathbf{B}^7 U(1)_{conn}
+  \,,
+$$
+
+the _[[Chern-Simons circle 7-bundle with connection]]_.
+
+So we want to lift the above table of traditional notions to [[higher geometry]]:
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
@@ -103,7 +129,15 @@ The following table shows what this sequence reduces to when one chooses $\mathb
 +-- {: .num_example }
 ###### Example
 
-For $G$ a simply connected semisimple compact Lie group such as the [[spin group]], let $\nabla \colon G \to \mathbf{B}^2 U(1)_{conn}$ be the canonical [[circle 2-bundle with connection]] over it. Then the [[Heisenberg infinity-group|Heisenberg 2-group]] [[infinity-group extension|extension]]
+For $G$ a simply connected semisimple compact Lie group such as the [[spin group]], let 
+
+$$
+  \nabla \coloneqq
+   \exp\left(2 \pi i \int_{S^1} [S^1, \tfrac{1}{2}\hat \mathbf{p}_1]\right)
+  \;\colon\; G \to \mathbf{B}^2 U(1)_{conn}
+$$ 
+
+be the canonical [[circle 2-bundle with connection]] over it. Then the [[Heisenberg infinity-group|Heisenberg 2-group]] [[infinity-group extension|extension]]
 
 $$
   U(1)\mathbf{FlatConn}(G)
@@ -121,6 +155,18 @@ $$
 $$
 
 =--
+
+(by classification of extensions by cohomology... by Lie 2-algebra computation...)
+
+(and analogously for [[fivebrane 6-group]]...)
+
+$$
+ \mathbf{B}^6 U\left(1\right) 
+   \to 
+  \mathbf{Heis}\left(\exp\left(2 \pi i \int_{S^1} \left[S^1, \tfrac{1}{2}\hat \mathbf{p}_2\right] \right)\right) \to String
+$$
+
+(...)
 
 The way all these notions and theorems work is by considering [[automorphism ∞-groups]] of the classifying (or rather: modulating) maps $\nabla \colon X \to \mathbf{B}\mathbb{G}_{conn}$ of a [[prequantum ∞-bundle]] in the [[slice (∞,1)-topos]] over the domain. For instance
 
