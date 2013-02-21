@@ -17,19 +17,26 @@
 
 ## Idea
 
-For $C$ an [[(∞,1)-category]] and $X \in C$ an [[object]], the _over-$(\infty,1)$-category_ or _slice $(\infty,1)$-category_ $C_{/X}$ is the $(\infty,1)$-category whose [[objects]] are [[morphism]] $p : Y \to X$ in $C$, whose morphisms $\eta : p_1 \to p_2$ are [[2-morphisms]]
+For $C$ an [[(∞,1)-category]] and $X \in C$ an [[object]], the _over-$(\infty,1)$-category_ or _slice $(\infty,1)$-category_ $C_{/X}$ is the $(\infty,1)$-category whose [[objects]] are [[morphism]] $p : Y \to X$ in $C$, whose morphisms $\eta : p_1 \to p_2$ are [[2-morphisms]] in $C$ of the form
 
 $$
   \array{
-     Y_1 &&\stackrel{}{\to}&& Y_2
+     Y_1 &&\stackrel{f}{\to}&& Y_2
      \\
-     & {}_{\mathllap{p_1}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{p_2}}
+     & {}_{\mathllap{p_1}}\searrow &\swArrow_{\simeq}^{\eta}& \swarrow_{\mathrlap{p_2}}
      \\
      && X
   }
+  \,,
 $$
 
-and generally whose [[n-morphisms]] are [[diagrams]] $\Delta[n+1] = \Delta[n] \star \Delta[0]\to C$ that take the tip of the [[cocone]] to $X$.
+hence 1-morphisms $f$ as inficated together with a [[homotopy]] $\eta \colon p_2 \circ f \stackrel{\simeq}{\to} p_1$; and generally whose [[n-morphisms]] are [[diagrams]] 
+
+$$
+  \Delta[n+1] = \Delta[n] \star \Delta[0]\to C
+$$ 
+
+in $C$ of the shape of the cocone under the $n$-[[simplex]] that take the tip of the [[cocone]] to the object $X$.
 
 This is the generalization of the notion of [[over-category]] in ordinary [[category theory]].
 
