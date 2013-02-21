@@ -29,32 +29,53 @@ A sequence of time-honored  traditional concepts in [[geometric quantization]]/[
 
 For instance in the [[geometric quantization]] of the [[electromagnetic field|electrically]] [[charged particle|charted]] [[particle]] [[sigma-model]] we have a [[prequantum circle bundle]] $\nabla$ on a [[cotangent bundle]] $T^* X$ which is essentially the [[pullback]] of the [[electromagnetic field]]-bundle on [[target space|target]] [[spacetime]]. Then (...).
 
-This applies mainly to [[quantum mechanics]], only partially to [[quantum field theory]]. In particular in the context of _[[extended prequantum field theory]]_ in [[dimension]] $n$ a [[prequantum bundle]] over the ([[phase space|phase]]-)space of [[field (physics)|fields]] is refined (de-[[transgression|transgressed]]) to a _[[prequantum n-bundle]]_ over the [[moduli ∞-stack]] of [[field (physics)|fields]]. Therefore in order to apply [[geometric quantization]] to [[extended prequantum field theory]] to obatined [[extended quantum field theory]] we first need extended/higher prequantum geometry.
+This applies mainly to [[quantum mechanics]], only partially to [[quantum field theory]]. In particular in the context of _[[extended prequantum field theory]]_ in [[dimension]] $n$ a [[prequantum bundle]] over the ([[phase space|phase]]-)space of [[field (physics)|fields]] is refined (de-[[transgression|transgressed]]) to a _[[prequantum n-bundle]]_ over the [[moduli ∞-stack]] of [[field (physics)|fields]]. Therefore in order to apply [[geometric quantization]] to [[extended prequantum field theory]] to obtain [[extended quantum field theory]] we first need extended/higher prequantum geometry.
 
-For instance the [[prequantum n-bundle|prequantum 3-bundle]] for standard [[3d Chern-Simons theory|3d]] [[Spin group]] [[Chern-Simons theory]] is modulated by the [[smooth first fractional Pontryagin class]]
+For instance the [[prequantum n-bundle|prequantum 3-bundle]] for standard [[3d Chern-Simons theory|3d]] [[Spin group]] [[Chern-Simons theory]] is modulated by the differential [[smooth first fractional Pontryagin class]]
 
 $$
-  \tfrac{1}{2}\hat \mathbf{p}_1
-  \;\colon\;
-  \mathbf{B}Spin_{conn} 
-   \to
-  \mathbf{B}^3 U(1)_{conn}
+  \array{
+    \mathbf{B}Spin_{conn} 
+     &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}&
+    \mathbf{B}^3 U(1)_{conn}
+    \\
+    \downarrow && \downarow & forget \; connections
+    \\
+    \mathbf{B}Spin 
+     &\stackrel{\tfrac{1}{2}\mathbf{p}_1}{\to}&
+    \mathbf{B}^3 U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    B Spin &&\stackrel{\tfrac{1}{2}p_1}{\to} K(\mathbb{Z},4)    
+    &
+    geometric\; realization
+  }
   \,,
 $$
 
-the _[[Chern-Simons circle 3-bundle with connection]]_;
-and the [[prequantum n-bundle|prequantum 7-bundle]] for [[7d Chern-Simons theory]] on [[string 2-group]] [[principal infinity-connections|principal 2-connections]] is given by the [[smooth second fractional Pontryagin class]]
+modulating/clssifyingthe the universal _[[Chern-Simons circle 3-bundle with connection]]_ over $\mathbf{B}G_{conn}$;
+and the [[prequantum n-bundle|prequantum 7-bundle]] for [[7d Chern-Simons theory]] on [[string 2-group]] [[principal infinity-connections|principal 2-connections]] is given by the differential [[smooth second fractional Pontryagin class]]
 
 $$
-  \tfrac{1}{6}\hat \mathbf{p}_2
-  \;\colon\;
-  \mathbf{B}String_{conn} 
-   \to
-  \mathbf{B}^7 U(1)_{conn}
+  \array{
+    \mathbf{B}String_{conn} 
+     \to
+    \mathbf{B}^7 U(1)_{conn}
+    \\
+    \downarrow && \downarrow & forget\; connections
+    \\
+    \mathbf{B}String_{conn} 
+     \to
+    \mathbf{B}^7 U(1)_{conn}
+    \\
+    \downarrow && \downarrow & geomtric\; realization
+    \\
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& K(\mathbb{Z},8)
   \,,
 $$
 
-the _[[Chern-Simons circle 7-bundle with connection]]_.
+classifying the universal _[[Chern-Simons circle 7-bundle with connection]]_ over $\mathbf{B}String_{conn}$.
 
 So we want to lift the above table of traditional notions to [[higher geometry]]:
 
