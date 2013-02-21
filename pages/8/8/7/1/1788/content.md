@@ -5,6 +5,14 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
+$$
+  \array{
+    \downarrow\rlap{rlap}
+    \\
+    \downarrow\mathrlap{mathrlap}
+  }
+$$
+
 **[[slice (∞,1)-topos|slice]]-[[automorphism ∞-groups]] in [[higher prequantum geometry]]**
 
 | [[cohesive]] [[∞-groups]]: | [[Heisenberg ∞-group]] | $\hookrightarrow$ | [[quantomorphism ∞-group]] | $\hookrightarrow$ | [[∞-bisections]] of [[higher Courant groupoid]] | $\hookrightarrow$ | [[∞-bisections]] of [[higher Atiyah groupoid]] |
