@@ -52,7 +52,7 @@ The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] o
 The distance $d$ satisfies the "utrametric" inequality
 
 $$
-d(x,y) \leq sup\{d(x,y),d(y,z)\}
+d(x,z) \leq sup\{d(x,y),d(y,z)\}
 $$
 
 ## Properties
