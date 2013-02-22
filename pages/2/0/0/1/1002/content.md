@@ -7,17 +7,19 @@
 
 An __ultrafilter__ on a set $S$ is a collection $F$ of [[subset]]s of $S$ satisfying the axiom
 $$ A \in F \;\Leftrightarrow\; \forall (B_1, \ldots, B_n \in F),\; \exists (x \in A \cap B_1 \cap \cdots \cap B_n) .$$
-This is the only axiom necessary; from this, you can prove that $F$ is a [[filter]].
+This is the only axiom necessary; from this, you can prove that $F$ is a [[filter]].  Alternatively, if we start by requiring $F$ to be a filter, then we need add only the axiom
+$$ A \in F \;\Leftrightarrow\; \forall B \in F,\; \exists x \in A \cap B .$$
+Or if we start by requiring $F$ to be a [[proper filter]], then we need only the $\Leftarrow$ half of this latter axiom.
 
-Using [[excluded middle]], it is equivalent to say that a filter $F$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$.  This version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter _in_ a Boolean algebra $L$ is as a Boolean-algebra homomorphism from $L$ to the set $\{\bot,\top\}$ of Boolean [[truth value]]s. In particular, an ultrafilter _on_ a set $S$ is the same as an ultrafilter _in_ the Boolean algebra $P S$ (the [[power set]]). 
+We may also define an ultrafilter to be [[maximal element|maximal]] among the proper filters.  This definition generalises from the [[power set]] of $S$ to any [[poset]] $L$; notice that we speak of an ultrafilter _on_ $S$ but an ultrafilter _in_ $L$.  In a distributive [[lattice]], every ultrafilter is [[prime filter|prime]]; the converse holds in a [[Boolean algebra]].
 
-More generally, we can define an __ultrafilter__ in any [[partial order|poset]] to be a [[filter]] that is [[maximal element|maximal]] among the [[proper filters]].  In a distributive [[lattice]], every ultrafilter is [[prime filter|prime]]; the converse holds in a Boolean lattice.
+Using [[excluded middle]], it is equivalent to say that a filter $F$ on $S$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$; this version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter in a Boolean algebra $L$ is as a Boolean-algebra homomorphism from $L$ to the set $\{\bot,\top\}$ of Boolean [[truth value]]s.
 
 Given an element $x$ of a set $S$, the __principal ultrafilter__ (on $S$) at $x$ consists of every [[subset]] of $S$ to which $x$ belongs.  An ultrafilter $F$ is __fixed__ if the [[intersection]] of its elements is [[inhabited subset|inhabited]], in which case that intersection must be a [[singleton]] $\{x\}$ and $F$ is the principal ultrafilter at $x$.
 
-In contrast, if this intersection [[empty set|empty]], then we call $F$ a __free ultrafilter__.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is fixed.  In contrast, the [[ultrafilter theorem]] (a weak consequence of the axiom of choice) states that any proper filter (in any Boolean lattice) may be extended to an ultrafilter.
+In contrast, if this intersection [[empty set|empty]], then we call $F$ a __free ultrafilter__.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is fixed.  In contrast, the [[ultrafilter principle]] (a weak form of the [[axiom of choice]]) states that any proper filter (in any Boolean lattice) may be extended to an ultrafilter.  Then any [[infinite set]] has a free proper filter (such as the filter of [[cofinite subset]]s) and so a free ultrafilter.
 
-Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]], where the ultrafilter theorem seems to be a necessity.
+Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]], where the ultrafilter principle seems to be a necessity.
 
 
 ## Category-theoretic interpretations 
