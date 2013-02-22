@@ -5,10 +5,12 @@ J. Algebra Appl. __7__ (2008), no. 5, 557&#8211;-573, [MR2009m:58017](http://www
 
 Later articles 
 
-* [[Tomasz Brzeziński]], Laiachi El Kaoutit, Christian Lomp. _Non-commutative integral forms and twisted multi-derivations_, J. Noncomm. Geom. __4__, n. 2, 2010, 281&#8211;-312, [doi](http://dx.doi.org/10.4171/JNCG/56), [arxiv/0901.2710](http://arxiv.org/abs/0901.2710)
+* [[Tomasz Brzeziński]], Laiachi El Kaoutit, Christian Lomp. _Non-commutative integral forms and twisted multi-derivations_, J. Noncomm. Geom. __4__, n. 2, 2010, 281&#8211;-312, [doi](http://dx.doi.org/10.4171/JNCG/56) [arxiv/0901.2710](http://arxiv.org/abs/0901.2710) [MR2011g:58006](http://www.ams.org/mathscinet-getitem?mr=2595316)
 
 * Tomasz Brzezi&#324;ski, _Divergences on projective modules and
 non-commutative integrals_, [arxiv/1010.1470](http://arxiv.org/abs/1010.1470)
 
+* Serkan Kara&#231;uha, Christian Lomp, _Integral calculus on quantum exterior algebras_, [arxiv/1302.5216](http://arxiv.org/abs/1302.5216)
+ 
 [[!redirects hom-connections]]
 
