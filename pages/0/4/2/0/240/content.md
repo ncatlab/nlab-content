@@ -5,7 +5,7 @@
 
 ## Definition
 
-A [[topos]] $E$ is **well-pointed** if
+An [[elementary topos]] $E$ is **well-pointed** if
 
 1. the [[terminal object]] 1 is a [[generator]];
 
@@ -64,8 +64,6 @@ Do we know what these should be in any more general situations?
 
 [[Mike Shulman]]: Well, the pretopos version makes sense in any [[coherent category]], and I would bet that it's the right notion in that generality.  In a [[regular category]] one might just want to assert that $1$ is a (regular-)projective strong generator, which would probably be enough for regular logic.  And in a category with mere finite limits, being a strong generator is all one could ask for, and that'd probably be enough for finite-limit logic.
 
-### Do we mean elementary toposes or Grothendieck?
-[[Vlad Patryshev]] Actually, any elementary topos will do. While $Set$ is mentioned in the definition; there's no need for another topos (unless we need to go into generator objects etc). Just with 1 as a generator one can prove that such a topos will be two-valued.
 
 ### Well-pointed $(\infty,1)$-toposes {#Infty1Version}
 
