@@ -181,7 +181,7 @@ $$
 
 One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
 \[J(g,f) \cong C(1,f) \odot J \odot D(g,1) \label{coyon} \]
-which was what we took as the the definition of $K(g,f)$ with the original definition of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [Yoneda reduction](http://ncatlab.org/nlab/show/Yoneda+reduction).
+which was what we took as the the definition of $J(g,f)$ with the original definition of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [Yoneda reduction](http://ncatlab.org/nlab/show/Yoneda+reduction).
 
 In conclusion, we have three definitions of proarrow equipment:
 
