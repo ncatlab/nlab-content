@@ -102,6 +102,10 @@ $$
   (z_0, z_1) \mapsto (2 z_0 z_1^* , {|z_0|}^2 - {|z_1|}^2).
 $$
 
+### Homotopy-theoretic construction
+
+See [[Hopf construction]].
+
 ## Variations 
 
 For each of the [[normed division algebra|normed division algebras]] over $\mathbb{R}$, 
