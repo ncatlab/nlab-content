@@ -162,5 +162,13 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 ...
 
 
+[[!redirects supergroups]]
+
 [[!redirects super Lie group]]
+[[!redirects super Lie groups]]
+
 [[!redirects super group]]
+[[!redirects super groups]]
+
+[[!redirects Lie supergroup]]
+[[!redirects Lie supergroups]]
