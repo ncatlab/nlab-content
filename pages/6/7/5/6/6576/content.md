@@ -1,4 +1,3 @@
-[[!redirects left invariant differential form]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -46,3 +45,10 @@ page 89 (20 of 49) at
 [[!redirects right invariant form]]
 [[!redirects invariant vector field]]
 [[!redirects invariant vector fields]]
+
+[[!redirects left invariant differential form]]
+[[!redirects left invariant differential forms]]
+
+[[!redirects left invariant form]]
+[[!redirects left invariant forms]]
+
