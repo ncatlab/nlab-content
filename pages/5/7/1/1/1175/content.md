@@ -60,7 +60,7 @@ see for example [arXiv:1110.5671v1](http://arxiv.org/abs/1110.5671).
 For completeness, we give both the modern abstract and historical concrete definitions.
 
 
-### Abstract
+### Abstract {#abstractdefn}
 
 We build on the concepts of [[Banach space]] and (abstract) $C^*$-[[C-star-algebra|algebra]].  In this definition, a Banach space is a [[complex number|complex]] Banach space and a [[morphism]] of Banach spaces is a [[short linear map]] (a complex-linear map of norm at most $1$); a $C^*$-algebra is a complex unital $C^*$-algebra, and a morphism of $C^*$-algebras is a unital $*$-homomorphism (which is necessarily also a short linear map).  Note in particular that an [[isomorphism]] of either must be an [[isometry]].
 
