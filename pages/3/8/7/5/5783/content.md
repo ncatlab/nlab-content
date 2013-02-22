@@ -19,9 +19,9 @@
 
 ## Idea
 
-A _super $\infty$-groupoid_ is an [[∞-groupoid]] modeled on [[super point]]s. 
+A _super $\infty$-groupoid_ is an [[∞-groupoid]] modeled on [[super points]]. 
 
-The notion subsumes and generalizes that of _bare_ [[super group]]s, not thought that of [[super Lie group]]s. The latter are instead examples of [[smooth super ∞-groupoid]]s sitting over the base of super $\infty$-groupoids.
+The notion subsumes and generalizes that of _bare_ [[super groups]], but not that of _[[super Lie groups]]_, the latter are instead examples of [[smooth super ∞-groupoids]] sitting over the base of super $\infty$-groupoids.
 
 ## Definition
 
