@@ -1,2 +1,9 @@
+
 Vlad Patryshev vpatryshev@gmail.com
 programmer, amateur categorist
+
+
+category: people
+
+[[!redirects vpatryshev]]
+[[!redirects Vlad Patryshev]]
