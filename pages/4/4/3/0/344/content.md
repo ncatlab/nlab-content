@@ -34,6 +34,7 @@ An __finitely extensive category__ (or __finitary extensive category__) is a cat
    \downarrow  & &   \downarrow  &  &  \downarrow \\
    a & \to & a+b & \leftarrow & b}$$
  the two squares are pullbacks if and only if the top row is a coproduct diagram.
+ 4. Finite coproducts are [[van Kampen colimits]].  By definition, this is to say one of the previous two conditions (depending on the definition chosen).
 
 An __infinitary extensive category__ is a category $E$ with all (small) [[coproduct]]s such that the following analogous equivalent conditions hold:
 
@@ -42,6 +43,7 @@ An __infinitary extensive category__ is a category $E$ with all (small) [[coprod
  3. For any family of commutative squares
  $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
  in which the bottom family of morphisms is the coproduct injections and the right-hand morphism is always the same, the top family are the injections of a coproduct diagram (hence $z = \coprod_i x_i$) if and only if all the squares are pullbacks.
+ 4. All small coproducts are [[van Kampen colimits]].
 
 In between, a __$\kappa$-ary extensive category__ (for $\kappa$ a [[cardinal number]] or an [[arity class]]) is one with disjoint and stable coproducts of fewer than $\kappa$ objects.  The unqualified term **extensive category** can refer to either the finitary or infinitary version, depending on the author; the more usual meaning is the finitary version.
 
