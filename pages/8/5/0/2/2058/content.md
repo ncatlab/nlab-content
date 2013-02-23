@@ -58,7 +58,9 @@ If $C$ is an [[(∞,1)-topos]], then it has universal colimits.
 
 This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (3) ii)]]
 
+## Related concepts
 
+* [[van Kampen colimit]]
 
 ## References 
 
