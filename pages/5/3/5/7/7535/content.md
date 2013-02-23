@@ -46,6 +46,8 @@ Exactness properties of a functor refer to preservation of limits or colimits of
 
 * An [[exhaustive category]] has colimits of sequences of monomorphisms that are pullback-stable and "exhaust" the colimit.
 
+* More generally, having colimits of some class which are [[van Kampen colimit|van Kampen]] is an exactness property.
+
 * Having [[filtered colimits]] which commute with [[finite limits]] is also an exactness property.
 
 * Exact categories with pullback-stable [[reflexive coequalizers]] are an exactness notion.
