@@ -42,7 +42,7 @@ A category $C$ is **exhaustive** if one, hence both, of the following two equiva
    $$ \array{ B_\alpha & \to & B_\kappa \\
      \downarrow && \downarrow \\
      A_\alpha & \to & A_\kappa } $$
-   is a pullback.
+   is a pullback.  (In other words, transfinite unions are [[van Kampen colimits]].)
 
 Note that half of the second condition is simply that the colimits in the first condition are stable under pullback.  One may obtain various weaker notions by restricting the allowable values of $\kappa$.
 
