@@ -151,7 +151,7 @@ Other references include:
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_ , Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195.
 
 * wikipedia: [monadicity theorem](http://en.wikipedia.org/wiki/Beck%27s_monadicity_theorem)
-* John Bourke, _Two dimensional monadicity_, [arxiv/1211.4230](http://arxiv.org/abs/1211.4230)
+* John Bourke, _Two dimensional monadicity_, [arxiv/1212.5123](http://arxiv.org/abs/1212.5123)
 
 [[!redirects Beck's Monadicity Theorem]]
 [[!redirects Beck's Monadicity Theorem]]
