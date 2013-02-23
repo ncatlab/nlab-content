@@ -68,8 +68,8 @@ This monad is cartesian if
 * the category $C$ has all [[pullback]]s,
 * the functor $T$ preserves pullbacks,
 * the natural transformations $\mu$ and $\nu$
-  are cartesian.
-  A natural transformation $\alpha: S \to T$
+  are [[cartesian natural transformation|cartesian]].
+  Recall that a natural transformation $\alpha: S \to T$
   between functors $C \to D$
   is cartesian if for each map $f: A \to B$
   in $C$, the naturality square
@@ -148,5 +148,3 @@ Some past discussion about the term 'cartesian' has been moved to [[locally cart
 [[!redirects cartesian monads]]
 [[!redirects Cartesian monad]]
 [[!redirects Cartesian monads]]
-[[!redirects cartesian natural transformation]]
-[[!redirects cartesian natural transformations]]
