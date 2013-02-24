@@ -57,7 +57,7 @@ Clearly $\mathbf{Mod}_R(R, -)$ preserves coproducts, and if $F$, $G$ are coprodu
 
 * $\mathbf{Mod}_R(R^n, -)$ preserves coproducts. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 If $\mathbf{Mod}_R(M, -)$ preserves coproducts and $q \colon M \to N$ is epic, then $\mathbf{Mod}_R(N, -)$ preserves coproducts. 
 =-- 
@@ -73,8 +73,8 @@ Combining the two preceding observations, we infer that
 
 Here is a sharper description of coproduct-preserving representables, based on subobject lattices. 
 
-+-- {: .un_thm}
-###### Theorem 1{#prop1}
++-- {: .num_theorem #prop1}
+###### Theorem 
 $\mathbf{Mod}_R(M, -)$ preserves coproducts if and only if the union of every countable chain of proper submodules of $M$ is a proper submodule.  
 =-- 
 
@@ -101,15 +101,15 @@ $$M_n \coloneqq \bigcap_{k \geq n} \ker(f_k).$$
 Each $M_n$ is a proper submodule of $M$, and the $M_n$ form a nondecreasing chain, but the union of the $M_n$ is $M$ (because for each $m \in M$, only finitely many $f_n(m)$ can be nonzero). 
 =-- 
 
-+-- {: .un_thm}
-###### Theorem 2{#theorem2}
++-- {: .num_theorem #theorem2}
+###### Theorem 
 Let $R$ be a Noetherian ring, and suppose $M \to N$ is a monomorphism of $R$-modules. Then if $\mathbf{Mod}_R(N, -)$ is coproduct-preserving, so is $\mathbf{Mod}_R(M, -)$. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-(As adapted from [Muro's answer](#Muro).) Consider a family $B_i$ of modules, and a map $f \colon M \to \oplus_i B_i$. Since there are [enough injectives](http://ncatlab.org/nlab/show/injective+object#existence_of_enough_injectives_35), there exists an embedding $i_j \colon B_j \to E_j$ in an injective module, for each $j$. 
-Next, as explained [here](http://ncatlab.org/nlab/show/injective+object#injective_modules_29), the Noetherian assumption allows us to infer that $\oplus_i E_i$ is injective. Thus, there exists $g$ such that the diagram 
+(As adapted from [Muro's answer](#Muro).) Consider a family $B_i$ of modules, and a map $f \colon M \to \oplus_i B_i$. Since there are [enough injectives](http://ncatlab.org/nlab/show/injective+object#AbHasEnoughInjectives), there exists an embedding $i_j \colon B_j \to E_j$ in an injective module, for each $j$. 
+Next, as explained [here](http://ncatlab.org/nlab/show/injective+object#DirectSumInjectives), the Noetherian assumption allows us to infer that $\oplus_i E_i$ is injective. Thus, there exists $g$ such that the diagram 
 
 $$\array{
 M & \to & N \\
@@ -128,12 +128,13 @@ B_j & \underset{i_j}{\to} & E_j
 commutes and $i_j$ is injective, we see $f_j = 0$ for all but finitely many $j$, whence $\mathbf{Mod}_R(M, -)$ preserves coproducts. 
 =-- 
 
-+-- {: .un_cor}
++-- {: .num_corollary} 
 ###### Corollary 
 Let $R$ be Noetherian. If $\mathbf{Mod}_R(M, -)$ preserves coproducts, then $M$ is finitely generated. 
 =-- 
 
 +-- {: .proof}
+###### Proof 
 (Combining [Gaillard's](#Gaillard) and [Muro's](#Muro) answers.) We prove the contrapositive. Suppose $M$ is not finitely generated. Then we can find a strictly increasing sequence of submodules of $M$: 
 
 $$M_1 \hookrightarrow M_2 \hookrightarrow \ldots \hookrightarrow M.$$ 
@@ -147,8 +148,8 @@ Let $M'$ be the union of the $M_i$. By [Theorem 1](#prop1), the representable $\
 
 Next, we construct an example of a ring $R$ and an $R$-module $M$ such that $\mathbf{Mod}_R(M, -)$ preserves coproducts but $M$ is not finitely generated. 
 
-+-- {: .un_lem}
-###### Lemma{#lem}
++-- {: .num_lemma #lem} 
+###### Lemma 
 A module $M$ is finitely generated if and only if the union of a totally ordered family of proper submodules of $M$ is a proper submodule. 
 =-- 
 
@@ -161,9 +162,9 @@ $$\{N+F: N \in T\}$$
 is a totally ordered set of proper submodules whose union is $M$.
 =-- 
 
-Thus, our task is to construct a ring $R$ and an $R$-module $M$ such that every _countable_ chain of proper submodules of $M$ is bounded above by a proper submodule of $M$ (cf. [Theorem 2](#theorem2)), but admitting an uncountable chain of proper submodules whose union is $M$ (so that $M$ is not finitely generated, by the preceding [lemma](#lem)). The solution as presented below is essentially from the answers of [Gaillard](#Gaillard) and [Brandenburg](#Brandenburg), with a few extra glosses. 
+Thus, our task is to construct a ring $R$ and an $R$-module $M$ such that every _countable_ chain of proper submodules of $M$ is bounded above by a proper submodule of $M$ (cf. Theorem \ref{theorem2}), but admitting an uncountable chain of proper submodules whose union is $M$ (so that $M$ is not finitely generated, by the preceding lemma \ref{lem}). The solution as presented below is essentially from the answers of [Gaillard](#Gaillard) and [Brandenburg](#Brandenburg), with a few extra glosses. 
 
-The task is more or less straightforward if we just remember that [[valuation ring|valuation rings]] can model arbitrarily complicated [rates of growth](http://ncatlab.org/nlab/show/valuation+ring#example_rates_of_growth_10), i.e., in the present case, we just want to build a valuation field with uncountable supply of rates of growth (or of degrees of infinite/infinitsimal elements). Thus, consider for example the free abelian group generated by the first uncountable ordinal, and make this a totally ordered group $G$ by imposing the lexicographic order. This is the value group of a valuation field $K$ whose elements are [[Hahn series]], formally described as functions 
+The task is more or less straightforward if we just remember that [[valuation ring|valuation rings]] can model arbitrarily complicated [rates of growth](http://ncatlab.org/nlab/show/valuation+ring#example_rates_of_growth_10), i.e., in the present case, we just want to build a valuation field with uncountable supply of rates of growth (or of degrees of infinite/infinitesimal elements). Thus, consider for example the free abelian group generated by the first uncountable ordinal, and make this a totally ordered group $G$ by imposing the lexicographic order. This is the value group of a valuation field $K$ whose elements are [[Hahn series]], formally described as functions 
 
 $$f \colon G \to \mathbb{R}$$ 
 
