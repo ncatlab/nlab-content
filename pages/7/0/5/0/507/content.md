@@ -487,6 +487,15 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[cohomology]]
 
+* [[abelian sheaf cohomology]]
+
+#### E3.1 Abelian groups and modules in a topos
+
+* [[abelian group]], [[abelian sheaf]]
+
+* [[module]]
+
+
 #### E3.2 Cech cohomology
 
 * [[Cech cohomology]]
@@ -499,7 +508,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[principal ∞-bundle]]
 
-#### Cohomological applications of descent theory
+#### E3.5 Cohomological applications of descent theory
 
 * [[descent]] 
 
@@ -508,6 +517,14 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 ### F1 Synthetic differential geometry
 
 * [[synthetic differential geometry]]
+
+#### F1.1 Properties of the generic ring
+
+* [[classifying topos]]
+
+#### F1.2 Rings of line type
+
+* [[line object]]
 
 #### F1.3 Well-adapted models
 
