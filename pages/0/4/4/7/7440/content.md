@@ -608,7 +608,9 @@ For $\mathcal{C}$ an [[presentable (∞,1)-category]], a **choice of internal gr
 
 * [[base change]] $f^* : \mathbf{H}_{/X} \to \mathcal{C}_{/Y}$ along morphisms $f : Y \to X$ with $X \in \mathbf{H}$ preserves [[(∞,1)-colimits]];
 
-* the [[codomain fibration]] of $\mathcal{C}$ is an [[(∞,2)-sheaf]] when restricted to $\mathbf{H}$: its [[(∞,1)-Grothendieck construction|classifying functor]] $\chi : \mathcal{C}^{op} \to $ [[(∞,1)Cat]] preserves [[(∞,1)-limits]] when restricted along $\mathbf{H} \hookrightarrow \mathcal{C}$.
+* the [[codomain fibration]] of $\mathcal{C}$ is an [[(∞,2)-sheaf]] when restricted to $\mathbf{H}$: its [[(∞,1)-Grothendieck construction|classifying functor]] $\chi : \mathcal{C}^{op} \to $ [[(∞,1)Cat]] preserves [[(∞,1)-limits]] when restricted along $\mathbf{H} \hookrightarrow \mathcal{C}$ 
+
+  (a _[[van Kampen colimit]]-condition_, see [there](van+Kampen+colimit#InHigherCategories) for more)
 
 =--
 
