@@ -1,3 +1,4 @@
+[[!redirects Artin-Mazur  codiagonal ]]
 
 The Artin-Mazur codiagonal of a bisimplicial set is another name often given to the _[[total simplicial set]]_ of a bisimplicial set, and more discussion of it is found at [[bisimplicial set]].
 
