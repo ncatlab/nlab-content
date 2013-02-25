@@ -193,7 +193,7 @@ A key property of homotopy groups is the _Whitehead theorem_: if $f:X \to Y$ is 
 
 However, the homotopy groups by themselves, even considering the operations of $\pi_1$, do not characterise homotopy types. See also [[algebraic homotopy|algebraic homotopy theory]].
 
-See also the [[Freudenthal suspension theorem]].
+See also the _[[Freudenthal suspension theorem]]_.
 
 
 ## Some general nonsense 
