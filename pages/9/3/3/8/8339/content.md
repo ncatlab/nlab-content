@@ -52,6 +52,8 @@ But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[T
 
 ## Related entries
 
+* [[geometry of physics]]
+
 * [[motivation for sheaves, cohomology and higher stacks]]
 
 * [[motivation for higher differential geometry]]
