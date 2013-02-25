@@ -1,12 +1,22 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
 [[!include 2-category theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 # Modifications
 * table of contents
 {: toc}
 
 ## Idea
+
+A [[transfor]] between [[pseudonatural transformation|pseudo]]/[[lax natural transformations]] is sometimes called a _modification_. Hence modifications are the [[3-morphisms]] in a [[3-category]] [[2Cat]] of [[2-categories]] and [[2-functors]] between them.
 
 Just as a [[natural transformation]] between [[functor]]s is a
 collection of $1$-cells indexed by $0$-cells, a _modification_ between
