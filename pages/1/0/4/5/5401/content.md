@@ -11,13 +11,18 @@
 
 Entries discussing aspects of _cohesion_ include the following
 
-* [[motivation for cohesion]],
 
-* [[cohesive topos]],
+* [[motivation for cohesion]], [[geometry of physics]]
 
-* [[cohesive homotopy type theory]],
+* [[cohesive topos]]
 
-* [[cohesive (∞,1)-topos]]
+  * [[cohesive site]]
+
+* [[cohesive (∞,1)-topos]], [[cohesive homotopy type theory]],
+ 
+  * [[∞-cohesive site]]
+
+  * [[differential cohesion]]
 
 [[!include cohesion - table]]
 
