@@ -28,6 +28,7 @@ By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]]
 The [[category algebra|groupoid algebra]] of these symplectic groupoids are [[C-star algebra]]s that may be regarded as the [[quantization]] of the original [[Poisson manifold]]. This is described in the references below.
 
 ## Definition
+ {#Definition}
 
 The original definition of ([Weinstein](#Weinstein)) is this:
 
