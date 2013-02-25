@@ -106,7 +106,7 @@ modulates [[circle 2-bundles with connection]] mapping to circle 2-connections "
 For $\Sigma \in \mathbf{H}$ any [[object]], the **differential concretification** of the [[internal hom]] ([[mapping ∞-stack]]) $[\Sigma, \mathbf{B}^n \mathbb{G}_{conn}]$ is the iterated [[(∞,1)-pullback]]
 
 $$
-  (\mathbf{B}^{n-1})
+  (\mathbf{B}^{n-1}\mathbb{G})
   \mathbf{Conn}(\Sigma)
   \;
   \coloneqq
@@ -116,7 +116,7 @@ $$
     \sharp_1 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
   }{\times}
   \sharp_2 [\Sigma, \mathbf{B}(\mathbf{B}^{n-1}\mathbb{G}_{conn})]
-  \underset{\sharp_2 [\Sigma, \mathbf{B}^2(\mathbf{B}^{n-2}\athbb{G}_{conn})]}{\times}
+  \underset{\sharp_2 [\Sigma, \mathbf{B}^2(\mathbf{B}^{n-2}\mathbb{G}_{conn})]}{\times}
   \cdots
   \underset{\sharp_{n-1}[\Sigma, \mathbf{B}^n \mathbb{G}]}{\times}
   [\Sigma, \mathbf{B}^n \mathbb{G}]
@@ -131,7 +131,7 @@ where $\sharp_k(-)$ denotes the [[n-image|k-image]] of the [[unit of a monad|uni
 +-- {: .num_example #DifferentialConcretificationOfCirclenconnections}
 ###### Example
 
-Again in $\mathbf{H} = $ [[Smooth∞Grpd]] and for $\mathbb{G} = U(1)$ we find that for all $n$ $(\mathbf{B}^{n-1}U(1))\mathbf{Conn}(X)$ is the [[∞-stack]] which to a $U \in $ [[CartSp]] assigns the [[n-groupoid]] of smoothly $U$-parameterized collections of [[circle n-bundles with connection]] on $\Sigma$, with smoothly $U$-paraeterized collectiojns of [[gauge transformations]] between them, smoothly $U$-parameterized collections of [[higher gauge transformations]] between those, etc.
+Again in $\mathbf{H} = $ [[Smooth∞Grpd]] and for $\mathbb{G} = U(1)$ we find that for all $n$ $(\mathbf{B}^{n-1}U(1))\mathbf{Conn}(X)$ is the [[∞-stack]] which to a $U \in $ [[CartSp]] assigns the [[n-groupoid]] of smoothly $U$-parameterized collections of [[circle n-bundles with connection]] on $\Sigma$, with smoothly $U$-parameterized collectiojns of [[gauge transformations]] between them, smoothly $U$-parameterized collections of [[higher gauge transformations]] between those, etc.
 
 =--
 
