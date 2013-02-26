@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Sweedler notation_ is a spectial notation for discussion of operations in [[coalgebra]]s
+_Sweedler notation_ is a special notation for discussion of operations in [[coalgebra]]s
 
 ## Definition
 
