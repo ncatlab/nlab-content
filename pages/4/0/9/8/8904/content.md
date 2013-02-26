@@ -56,6 +56,8 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
 
 ## References
 
+> For more references see also at _[[semi-simplicial set]]_ and _[[semi-Segal space]]_.
+
 Discussion of semi-simplicial [[fiber bundles]] is in 
 
 * M. Barratt, V. Gugenheim and J. C. Moore, _On semisimplicial fibre bundles_, Amer. J. Math. 81 (1959), 639-657.
@@ -67,11 +69,14 @@ Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy
 * [[UF-IAS-2012]], _[Semi-simplicial types](http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
  {#IAS}
 
-[[Coq]]-code for semi-simplicial types in [[homotopy type theory]] is at 
+[[Coq]]-code for semi-simplicial types in [[homotopy type theory]] had been proposed in
 
 * [[Vladimir Voevodsky]], _[semisimplicial.v](http://uf-ias-2012.wikispaces.com/file/detail/semisimplicial.v)_
 
-For more references see those at _[[semi-simplicial set]]_ and _[[semi-Segal space]]_.
+but its execution requires a modification of the [[type theory]], discussed in 
+
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ ([pdf](http://uf-ias-2012.wikispaces.com/file/detail/TTS_slides.pdf))
+
 
 [[!redirects semi-simplicial object]]
 [[!redirects semisimplicial object]]
