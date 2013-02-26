@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is concerned with identifying [[unitary representations]] of [[Lie groups]] with the canonical $G$-[[actions]] on spaces of [[sections]] of certain [[line bundles]] over [[coadjoint orbits]] of the Lie group.
+The _Orbit method_ (or _Kirillov's method_, or _method of coadjoint orbits_) is a method in [[geometric representation theory]] concerned with identifying [[unitary representations]] of [[Lie groups]] with the canonical $G$-[[actions]] on spaces of [[sections]] of certain [[line bundles]] over [[coadjoint orbits]] of the Lie group. In terms of [[quantum physics]] this realizes $G$-representations as action of [[global gauge groups]] on [[quantum states]] under [[geometric quantization]].
 
 More in detail, the dual $\mathfrak{g}^*$ of a (say finite-dimensional real) [[Lie algebra]] has a canonical structure of a [[Poisson manifold]] (with the Poisson structure due to [[Alexandre Kirillov]] and [[Jean-Marie Souriau]]), namely for any $a\in \mathfrak{g}^*$, 
 
@@ -831,10 +831,11 @@ One checks that this is indeed the correct prequantization as considered in ([Wi
 * [[Borel-Weil-Bott theorem]]
 
 ## References
+ {#References}
 
 Introductions and survey include
 
-* [[Alexandre Kirillov]], _Lectures on the orbit method_ (2004)
+* [[Alexandre Kirillov]], _Lectures on the orbit method_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
 
   [[David Vogan]], _Review of: Lectures on the orbit method_ ([pdf](http://www.ams.org/journals/bull/2005-42-04/S0273-0979-05-01065-7/S0273-0979-05-01065-7.pdf))
 
