@@ -125,7 +125,7 @@ Compactly generated spaces were first introduced by J. L. Kelley, see his book
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York 1955. 
 
-A comprehensive account careful about the (weakly) Hausdorff assupmtions when needed/wanted is in the lecture notes
+A comprehensive account careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
 
 * N. P. Strickland, _The category of CGWH spaces_, [pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
 
