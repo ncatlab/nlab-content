@@ -37,7 +37,7 @@ A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _loca
 1. The only Hausdorff [[topological vector space]]s that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its Hausdorff quotient has finite dimension. 
 
 
-## Propoerties
+## Properties
 
 ### Category-theoretic properties
 
