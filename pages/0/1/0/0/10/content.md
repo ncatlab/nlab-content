@@ -176,7 +176,7 @@ This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
 +-- {: .num_remark}
 ###### Remark
 
-This means that a sheaf topos $Sh(\mathcal{C},J)$ is the clasifying topos for the theory of [[local algebras]] determined by the [[site]] $(\mathcal{C},J)$.
+This means that a sheaf topos $Sh(\mathcal{C},J)$ is the classifying topos for the theory of [[local algebras]] determined by the [[site]] $(\mathcal{C},J)$.
 
 =--
 
