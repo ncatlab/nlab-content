@@ -156,7 +156,7 @@ It suffices to observe that the factorization, if it exists, is a morphism of si
 
 =--
 
-+-- {: .num_cor }
++-- {: .num_cor #SheafToposesAreClassifyingForTheirTheoryOfLocalAlgegras}
 ###### Corollary
 
 Let $(\mathcal{C},J)$ be a [[small category|small]] [[cartesian site]] and let $\mathcal{E}$ be any [[sheaf topos]]. Then we have an [[equivalence of categories]]
@@ -167,11 +167,19 @@ $$
   Site((\mathcal{C}, J), (\mathcal{E}, C))
 $$
 
-between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[site]]s from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
+between the [[geometric morphism]]s from $\mathcal{E}$ to $Sh(\mathcal{C}, J)$ and the morphisms of [[sites]] from $(\mathcal{C}, J)$ to the [[big site]] $(\mathcal{E}, C)$ for $C$ the [[canonical coverage]] on $\mathcal{E}$.
 
 =--
 
 This appears as ([Johnstone, cor. C2.3.9](#Johnstone)).
+
++-- {: .num_remark}
+###### Remark
+
+This means that a sheaf topos $Sh(\mathcal{C},J)$ is the clasifying topos for the theory of [[local algebras]] determined by the [[site]] $(\mathcal{C},J)$.
+
+=--
+
 
 
 ## Examples 
