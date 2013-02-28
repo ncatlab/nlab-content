@@ -97,6 +97,14 @@ The following tabulates the main categories considered below, the functors relat
 | [[category of fibrant objects]] | [[equivalence of (∞,1)-categories]] under [[simplicial localization]] |  [[opposite model structure]] of [[cofibrantly generated model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[cofibrantly generated model category|cofibrantly generated]] [[model category]] |
 | prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} | def. \ref{ChevalleyEilenbergAlgebraConstruction} | def. \ref{dgFormalSpace} | prop. \ref{DualizingInclusionOfDGFormalSpaceIntoDgCoalgebras} | def. \ref{DGCoalgebrasCategory} |  prop. \ref{LeftAdjointFromDgCoAlgToDgAlg} | def. \ref{dgLieAlgebraCategory} |
 
+Here we are trying to use suggestive names of the categories involved. The notation used here corresponds to that in ([Pridham](#Pridham)) by the following dictionary
+
+| notation  used here | notation in [Pridham](#Pridham) |
+|--|--|
+| $DerivedFormalSpace$, def. \ref{DerivedFormalSpace} | $scSp$, def. 1.32 |
+| $dgFormalSpace$, def. \ref{dgFormalSpace} | $DG_\mathbb{Z}Sp$. def. 3.1 |
+|  | $sDGSp$, def. 4.6 |
+
 ### On dg-Lie algebras
  {#OndgLieAlgebras}
 
@@ -372,16 +380,18 @@ for the [[opposite category]] of that.
 
 =--
 
+This is ([Pridham, def. 3.1](#Pridham)).
+
 +-- {: .num_prop #ModelStructureOnDgFormalSpace}
 ###### Proposition
 
 There is a [[cofibrantly generated model category|cofibrantly generated]]
-[[model category]] structure on $Pro(dgArtinCAlg_k)$, def. \ref{dgFormalSpace}, 
-hence a [[opposite model category]] on $dgFormalSpaces$ whose [[weak equivalences]] are those morphisms that are [[local morphisms]] relative to quasi-smooth maps in the [[homotopy category]] of the [[slice category]] over their codomain.
+[[model category]] structure on $Pro(dgArtinCAlg_k)$, def. \ref{dgFormalSpace} --
+hence an [[opposite model category|opposite model structure]] on $dgFormalSpaces$ -- whose [[weak equivalences]] are those morphisms that are [[local morphisms]] relative to quasi-smooth maps in the [[homotopy category]] of the [[slice category]] over their codomain.
 
 =--
 
-This is ([Pridham, prop. 4.26](#Pridham)).
+This is ([Pridham, prop. 4.36](#Pridham)).
 
 +-- {: .num_defn #ChevalleyEilenbergAlgebraConstruction}
 ###### Definition
