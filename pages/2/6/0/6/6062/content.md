@@ -97,13 +97,15 @@ The following tabulates the main categories considered below, the functors relat
 | [[category of fibrant objects]] | [[equivalence of (∞,1)-categories]] under [[simplicial localization]] |  [[opposite model structure]] of [[cofibrantly generated model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[model category]] |  [[left adjoint|left]] [[Quillen equivalence]] | [[cofibrantly generated model category|cofibrantly generated]] [[model category]] |
 | prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} | def. \ref{ChevalleyEilenbergAlgebraConstruction} | def. \ref{dgFormalSpace} | prop. \ref{DualizingInclusionOfDGFormalSpaceIntoDgCoalgebras} | def. \ref{DGCoalgebrasCategory} |  prop. \ref{LeftAdjointFromDgCoAlgToDgAlg} | def. \ref{dgLieAlgebraCategory} |
 
-Here we are trying to use suggestive names of the categories involved. The notation used here corresponds to that in ([Pridham](#Pridham)) by the following dictionary
+Here we are trying to use suggestive names of the categories involved. The notation used here corresponds to that in ([Pridham](#Pridham)) by the following dictionary 
+
+> (handle with care, may still need attention)
 
 | notation  used here | notation in [Pridham](#Pridham) |
 |--|--|
 | $DerivedFormalSpace$, def. \ref{DerivedFormalSpace} | $scSp$, def. 1.32 |
 | $dgFormalSpace$, def. \ref{dgFormalSpace} | $DG_\mathbb{Z}Sp$. def. 3.1 |
-|  | $sDGSp$, def. 4.6 |
+| $FormalSpace^{\Delta^{op}}$ | $sDGSp$, def. 4.6 |
 
 ### On dg-Lie algebras
  {#OndgLieAlgebras}
@@ -518,12 +520,83 @@ is the [[left adjoint]] part of a [[Quillen equivalence]] between the model stru
 ([Pridham, cor. 4.56](#Pridham))
 
 
-### On cosimplicial algebras
+### On cosimplicial algebras (and dual Dold-Kan correspondence)
  {#OnCosimplicialAlgebras}
 
-Also a version of the "[dual monoidal Dold-Kan correspondence](monoidal+Dold-Kan+correspondence#DualDoldKanQuillenEquivalences)" gives a Quillen equivalence between two model structures for $L_\infty$-algebras. This is ([Pridham, section 4.4](#Pridham)).
+Also a version of the "[dual monoidal Dold-Kan correspondence](monoidal+Dold-Kan+correspondence#DualDoldKanQuillenEquivalences)" gives a Quillen equivalence between two model structures for $L_\infty$-algebras. This is ([Pridham, section 4.4](#Pridham)). This we discuss now
+
+
++-- {: .num_remark }
+###### Remark
 
 This equivalence has the nice property that starting with the [[Chevalley-Eilenberg algebra]] and then "denormalizing" it under dual monoidal Dold-Kan to a cosimplicial nilpotent algebra yields manifestly an incarnation of the $L_\infty$-algebra in terms of simplicial complexes of infinitesimal simplices as is implicit in the work of [[Anders Kock]] in [[synthetic differential geometry]]. This is spelled out further in [[schreiber:differential cohomology in a cohesive topos|dcct, section 4.5.1]].
+
+=--
+
++-- {: .num_defn #CosimplicialDgAlgebras}
+###### Definition
+
+Write
+
+$$
+  (dg\hat {\mathcal{C}})^{\Delta}
+$$
+
+for [[cosimplicial object|cosimplicial]] [[pro-objects]] of [[dg-algebra|dg]]-[[Artin algebras]] ($\mathbb{N}$-graded).
+
+=--
+
+([Pridham, def. 4.6](#Pridham))
+
++-- {: .num_prop #ModelStructureOnCosimplicialDgAlgebras}
+###### Proposition
+
+The category $(dg\hat{\mathcal{C}})^{\Delta}$ of def. \ref{CosimplicialDgAlgebras} carries a [[model category]] structure where
+
+(...)
+
+=--
+
+This is ([Pridham, def. 4.11, prop. 4.12](#Pridham)).
+
+
+
++-- {: .num_defn #dgdgAlgebras}
+###### Definition
+
+Write
+
+$$
+  DGdg\hat \mathcal{C}
+$$
+
+for [[pro-objects]] in [[dg-algebras]] ($\mathbb{N}$-graded) in [[dg-algebras|dg]]-[[Artin algebras]] ($\mathbb{N}$-graded).
+
+=--
+
+([Pridham, def. 4.19](#Pridham))
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+The dual [[monoidal Dold-Kan correspondence]] functor
+from [[dg-algebras]] to [[cosimplicial algebras]] (the inverse equivalence to the [[normalized cochain complex]] functor) 
+
+$$
+  D 
+  \;\colon\;
+  DGdg\hat \mathcal{C}
+  \to 
+  (dg\hat \mathcal{C})^{\Delta}
+$$
+
+induces on $DGdg\hat \mathcal{C}$ the [[transferred model structure]] from that of prop. \ref{ModelStructureOnCosimplicialDgAlgebras} and is the [[right adjoint]] of a [[Quillen equivalence]] with respect to these model structures
+
+=--
+
+This is ([Pridham, theorem 4.26](#Pridham)).
 
 
 ## Properties
