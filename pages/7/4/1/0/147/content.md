@@ -67,7 +67,7 @@ Often a site is required to be a [[small category]]. But also [[large site]]s pl
 +-- {: .num_remark #CoveragesAndTopologies}
 ###### Remark
 
-Every [[coverage]] induces a [[Grothendieck topology]]. Often sites are defined to be categories equipped with a Grothendieck topology. Some constructions and properties are more elegantly handled with covergaes, some with Grothendieck topologies.
+Every [[coverage]] induces a [[Grothendieck topology]]. Often sites are defined to be categories equipped with a Grothendieck topology. Some constructions and properties are more elegantly handled with coverages, some with Grothendieck topologies.
 
 Notice that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[category of presheaves]] $PSh(S)$.
 
