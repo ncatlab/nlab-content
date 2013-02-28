@@ -213,4 +213,6 @@ Expositions include
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
 
+* [[UF-IAS-2012]], _[Higher Inductive Types](http://uf-ias-2012.wikispaces.com/Higher+Inductive+Types)_
+
 [[!redirects higher inductive types]]
