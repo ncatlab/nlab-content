@@ -108,7 +108,7 @@ We first discuss the extent to which the [[Moore complex]] functor is monoidal. 
 ### Bilax monoidal Frobenius structure on normalized chains {#BilaxFrobStruc}
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The [[Moore complex]] functor
@@ -215,7 +215,7 @@ and similarly for $s_\nu$
 =--
 
 
-+-- {: .un_corollary }
++-- {: .num_cor }
 ###### Corollary
 
 Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Gamma : Ch_+ \to sAb$ also acquires a lax monoidal and a oplax symmetric monoidal structure.  
@@ -224,7 +224,7 @@ Since the normalized Moore complex functor $N_\bullet$ is an equivalence of cate
 
 For more details see [[oplax monoidal functor]].
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The upshot is that $N$ and $G$ are both pretty close to being [[strong monoidal functor]]s, but fail to be so. If they were, the monoidal 
@@ -237,7 +237,7 @@ Therefore we expect that the monoidal Dold-Kan correspondence holds, while not n
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 
@@ -284,7 +284,7 @@ For $(C, \otimes)$ a monoidal category, write $Mon(C)$ for its category of [[mon
 
 * $Mon(sAb)$ is the category of [[simplicial ring]]s.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 The DK correspondence exhibits connective dg-rings as a full [[subcategory]] of simplicial rings 
@@ -314,7 +314,7 @@ is equivalent to the identity.
 
 #### Simplicial $k$-algebras and connective dg-algebras {#QuillenEquSimpkAlgs}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $k$ a commutative ring, there is a [[Quillen equivalence]]
@@ -378,7 +378,7 @@ Therefore with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunc
 
 But not only is $(\Gamma \dashv N)$ but also $(N \dashv \Gamma)$. This yields:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $k$ a commutative ring, there is a [[Quillen equivalence]]
@@ -413,7 +413,7 @@ Therefore with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunc
 
 #### Simplicial $A_\bullet$-algebras and connective dg-algebras {#AlgebrasOverdgAlgebra}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $A$ a commutative [[simplicial ring]] there is a [[Quillen equivalence]]
@@ -432,7 +432,7 @@ This is the main theorem in ([SchwedeShipley](#SchwedeShipley)).
 
 Notice that the above statement  is _not_ formulated for commutative monoids. But
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $k$ a [[field]] of [[characteristic]] 0 there is a Quillen equivalence
@@ -452,7 +452,7 @@ This is due to the remark on p. 223 of ([Quillen](#Quillen)).
 
 In arbitrary characteristic we have instead
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 For $k$ a commutative ring, there is a Quillen equivalence
@@ -689,7 +689,7 @@ becomes a [[lax monoidal functor]] with the following lax monoidal
 [[natural transformation]] map 
 $\mu : C(-) \otimes C(-) \to C(-\otimes -) : CoS(A) \times CoS(A) \to Ch_+^\bullet(A)$ .
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (lax monoidal structure on Moore cochain complex functor)
 
 For $K,L \in CoS(A)$ define the component map
@@ -711,7 +711,7 @@ $$
 =--
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The iterated application of cosimplicial face maps on the right is to be thought of as producing a $(p+q)$-cosimplex in  $C(K \otimes L)^{p+q} = K^{p+q}\otimes L^{p+q}$ by 
@@ -722,7 +722,7 @@ tensoring the resulting group elements.
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The $\mu_{K,L}$ defined this way is indeed a cochain map.
@@ -867,7 +867,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 This $\mu$ is indeed natural in $K,L$. For every $f : K \to K'$ and $g : L\to L'$ we have
@@ -893,7 +893,7 @@ This is immediate from the fact that the morphisms $f, g$ of cosimplicial object
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The natural transformation $\mu$ is indeed a lax monoidal transformation
@@ -927,7 +927,7 @@ There it is straightforward to check by using simplicial identities.
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 
@@ -941,7 +941,7 @@ tensoring the resulting group elements.
 
 
 
-+-- {: .un_cor }
++-- {: .num_cor }
 ###### Corollary
 
 The Moore cochain complex functor 
@@ -962,14 +962,14 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 ### Quillen equivalences
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 There is a Quillen equivalence
 
 $$
-  (\Gamma^{mon} \dashv N) : dgRing \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}
-$$
+  (\Gamma^{mon} \dashv N) :  Ring^{\Delta}
+ \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  dgRing$$
 
 between connective cochain dg-rings and cosimplicial rings.
 
