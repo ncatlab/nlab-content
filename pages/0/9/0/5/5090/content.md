@@ -413,7 +413,7 @@ The element in the fundamental group corresponding to a strand is the following.
 
 ##Related entries
 
-The classical treatment of the [[Alexander polynomial]] as found, for instance in the book by [[Crowell]] and [[Fox]], uses the Wirtinger presentation and [[Fox derivatives]] to derive an Alexander matrix which is then processed to give the polynomial.
+The classical treatment of the [[Alexander polynomial]] as found, for instance in the book by [[Crowell]] and [[Ralph Fox|Fox]], uses the Wirtinger presentation and [[Fox derivatives]] to derive an Alexander matrix which is then processed to give the polynomial.
 
 Alexander's original paper uses a method which is more closely related to the Dehn presentation.
 
