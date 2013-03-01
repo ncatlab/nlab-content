@@ -610,7 +610,7 @@ The model category $dgFormalSpace$, def. \ref{dgFormalSpace}, is a [[right prope
 
 =--
 
-This observation has been communicated privatly by [[Jonathan Pridham]]
+This observation has been communicated privately by [[Jonathan Pridham]]
 
 +-- {: .proof}
 ###### Proof
@@ -661,6 +661,9 @@ More model category theoretic developments relating various of the previous appr
 
 * [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
  {#Pridham}
+
+A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/WDTII_Pridham.pdf), by Stefano Maggiolo.
+
 
 
 [[!redirects model structure for L-∞ algebras]]
