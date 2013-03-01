@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Integration theory
-+--{: .hide}
++-- {: .hide}
 [[!include integration theory - contents]]
 =--
 #### Differential geometry
@@ -12,7 +12,6 @@
 =--
 =--
 =--
-
 
 # Contents
 * table of contents
@@ -72,7 +71,7 @@ It may also be enlightening to consider how to go back from a measure to an $n$-
 *  If the coordinate system on $U$ is positively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $L$; if the coordinate system on $U$ is negatively oriented at $a$, then let $\omega(v_1,\ldots,v_n)$ be $-L$.
 *  Extend the definition to $n$ arbitrary vectors by continuity (which necessarily maps a linearly dependent tuple of vectors to zero).
 
-Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors); or if that\'s not true, then we messed up and need to add further restrictions to the absolutely continuous Radon measure $\omega$.  The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).
+Again, this definition is independent of the coordinate system chosen (as long as it extends the given vectors); or if that\'s not true, then we messed up and need to add further restrictions to the absolutely continuous Radon measure $\omega$.  The definition is *not* independent of the orientation chosen, of course; thus we get a pseudoform rather than an untwisted form.  You might try to ignore the orientation and take $\omega(v_1,\ldots,v_n)$ to be $L$ always, but that does not define an exterior form, as is most easily seen if two vectors are switched (which does not change $L$).  Instead, this would define an [[absolute differential form]] (which is equivalent to a pseudoform when, as here, the degree equals the dimension).
 
 
 ### Integration of more general forms
