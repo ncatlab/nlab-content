@@ -69,16 +69,14 @@ $$ \sum_{i = 1}^n a_i v_i \ne 0_V $$
 whenever at least one $a_i \ne 0_K$.
 =--
 
-Then we have the following implications (assuming that $\ne$ is tight, so that $a = b$ holds iff $a \ne b$ fails) but not (in general) their converses:
-*  If $S$ is linearly free, then $S$ is not linearly dependent;
-*  If $S$ is linearly dependent, then $S$ is not linearly independent;
-*  If $S$ is linearly free, then $S$ is linearly independent.
+Then we have the following implications (assuming that $\ne$ is tight, so that $a = b$ holds iff $a \ne b$ fails) but not (in general) their unstated converses:
+$$ LF \Rightarrow LI \Leftrightarrow \neg{LD} ;$$
+$$ \neg{LF} \Leftarrow \neg{LI} \Leftarrow LD .$$
 
-It may be instructive to look at the logical structure of each condition:
-*  LI: $\forall (a,v),\; \sum a v = 0 \;\Rightarrow\; \forall i,\; a_i = 0$;
-*  LD: $\exists (a,v),\; \sum a v = 0 \;\wedge\; \exists i,\; a_i \ne 0$;
-*  LF: $\forall (a,v),\; \sum a v \ne 0 \;\Leftarrow\; \exists i,\; a_i \ne 0$.
-
+It may also be instructive to look at the logical structure of each condition:
+*  $LI$: $\forall (a,v),\; \sum a v = 0 \;\Rightarrow\; \forall i,\; a_i = 0$;
+*  $LD$: $\exists (a,v),\; \sum a v = 0 \;\wedge\; \exists i,\; a_i \ne 0$;
+*  $LF$: $\forall (a,v),\; \sum a v \ne 0 \;\Leftarrow\; \exists i,\; a_i \ne 0$.
 
 
 [[!redirects linearly independent subset]]
