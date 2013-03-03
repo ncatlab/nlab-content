@@ -12,7 +12,7 @@ The result is really only interesting in the absence of the [[axiom of choice]] 
 
 ## Proof 
 
-We prove that the Cantor--Schroeder--Bernstein theorem holds in a [[Boolean topos]]. The theorem is not however [[intuitionistic logic|intuitionistically]] valid, in that it fails in some [[topos]]es, such as the topos $Set^{\bullet \to \bullet}$ (the [[arrow category]] of $Set$).
+We prove that the Cantor--Schroeder--Bernstein theorem holds in a [[Boolean topos]]. The theorem is not however [[intuitionistic logic|intuitionistically]] valid, in that it fails in some [[topos]]es, such as the topos $Set^{\bullet \to \bullet}$ (the [[arrow category]] of $Set$); see Example \ref{counterexample} below. 
 
 Throughout we use ordinary [[set theory|set-theoretic]] reasoning which can be translated into the formal theory of toposes. (This can be formalized via the [[Mitchell–Benabou language]], for instance.) 
 
@@ -62,6 +62,11 @@ This classic proof is substantially the proof given in Johnstone's [[Elephant]],
 $$FinSet^C$$ 
 
 where $C$ is any nontrivial [[finite category]]. But $EM$ is certainly the most natural supposition to make.
+
++-- {: .num_example #counterexample} 
+###### Example 
+As mentioned above, the Cantor-Schroeder-Bernstein theorem fails in the arrow category $Set^\to$, whose objects are functions $X_0 \to X_1$ between sets and whose morphisms are commutative squares. For example, let $X$ be the object $f: \mathbb{N} \to \mathbb{N}$ that takes $n \in \mathbb{N}$ to $\mathrm{int}(n/2)$, where $\mathrm{int}(x)$ is the greatest integer less than or equal to $x$; let $Y$ be the object $g: \mathbb{N} \to \mathbb{N}$ that takes $n$ to $\mathrm{Int}((n+1)/2)$, where $\mathrm{Int}(x)$ is the least integer greater than or equal to $x$. Pretty clearly $X$ and $Y$ are non-isomorphic, because $g^{-1}(0)$ has cardinality $1$ whereas all fibers of $f$ have cardinality $2$. But, just by drawing pictures of these objects, it is easy to construct monomophisms $i: X \to Y$ and $j: Y \to X$ (e.g., define $i_0(n) = n+1$ and $i_1(n) = n+1$ for all $n$, and define $j_0(n) = n+1$ for $n \gt 0$, $j_0(0) = 0$, and $j_1(n) = n$ for all $n$). 
+=-- 
 
 
 ## In other categories
