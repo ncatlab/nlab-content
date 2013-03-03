@@ -1,5 +1,1 @@
-[[!redirects www.math.columbia.edu/~woit/notes16.pdf]]
-
-:category: S5-slideshow
-
-
+category: empty
