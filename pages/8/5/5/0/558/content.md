@@ -46,7 +46,7 @@ However for other algebraic definitions of $\infty$-groupoids not much indicatio
 
 In fact, generally the homotopy hypothesis is regarded as a _consistency condition_ for definitions in [[higher category theory]]:
 
-* Any definition of [[(n,r)-category]] should be such that there is a [[fundamental infinity-groupoid|fundamerntal n-groupoid]]-construction with values in the corresponding [[(n,0)-categories]] which makes these equivalent to [[homotopy n-type]]s.
+* Any definition of [[(n,r)-category]] should be such that there is a [[fundamental infinity-groupoid|fundamental n-groupoid]]-construction with values in the corresponding [[(n,0)-categories]] which makes these equivalent to [[homotopy n-type]]s.
 
 One way to justify this condition is by recourse to the proven cases of the homotopy hypothesis: experience shows that the collections of all three models --  topological spaces, Kan complexes, algebraic Kan complexes -- provide a model for [[∞Grpd]] that supports the general abstract [[higher category theory]] -- specifically [[(∞,1)-category theory]] -- that one expects in analogy to how [[Set]] supports ordinary [[category]] theory.  Any other definition of $\infty$-groupoids is hoped/required to reproduce this, and hence is hoped/required to satisfy the homotopy hypothesis.
 
