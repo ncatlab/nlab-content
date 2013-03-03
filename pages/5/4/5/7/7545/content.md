@@ -54,7 +54,7 @@ All these are at a point $c$; $\omega$ satisfies the condition (tout court) if i
 
 Given an absolute $p$-form $\omega$, its __[[absolute value]]__ ${|\omega|}$ is a positive semidefinite absolute $p$-form:
 $$ {|\omega|}_c(v_1,\ldots,v_p) \coloneqq {|\omega_c(v_1,\ldots,v_p)|} .$$
-If we start with a $p$-form $\omega$, then the same definition defines a positive absolute $p$-form ${|\omega|}$.  If we start with a $p$-pseudoform $\omega$, then essentially the same definition still works; we use either orientation to evalute $\omega$ with the same result.  Note that ${|\omega|}$ is continuous if $\omega$ is.  However, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  On the other hand, ${|\omega|}$ inherits differentiability properties from $\omega$ wherever $\omega \ne 0$.  (Even then, however, we cannot inherit analyticity.)
+If we start with a $p$-form $\omega$, then the same definition defines a positive absolute $p$-form ${|\omega|}$.  If we start with a $p$-pseudoform $\omega$, then essentially the same definition still works; we use either orientation to evaluate $\omega$ with the same result.  Note that ${|\omega|}$ is continuous if $\omega$ is.  However, we may *not* conclude that ${|\omega|}$ is differentiable even if $\omega$ is smooth.  On the other hand, ${|\omega|}$ inherits differentiability properties from $\omega$ wherever $\omega \ne 0$.  (Even then, however, we cannot inherit analyticity.)
 
 Given two absolute $p$-forms $\omega$ and $\eta$, their __sum__ $\omega + \eta$ is an absolute $p$-form:
 $$ (\omega + \eta)_c(v_1,\ldots,v_p) \coloneqq \omega_c(v_1,\ldots,v_p) + \eta_c(v_1,\ldots,v_p) .$$
