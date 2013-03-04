@@ -42,7 +42,7 @@ for its [[Lie algebra]].
 The [[Lie algebra]] of $L G$ is the [[loop Lie algebra]]
 
 $$
-  Lie(L G) \simeq L Lie(G) = L \mathfrak{G}
+  Lie(L G) \simeq L Lie(G) = L \mathfrak{g}
   \,.
 $$
 
