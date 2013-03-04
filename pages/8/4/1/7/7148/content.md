@@ -5,4 +5,6 @@ Some unrelated concepts that go by the term _frame_:
 
 * [[frame of a vector space]] / [[frame bundle]]
 
+* [[Kripke frame]] in [[modal logic]]
+
 category: disambiguation
