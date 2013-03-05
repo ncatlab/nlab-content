@@ -63,10 +63,7 @@ $$FinSet^C$$
 
 where $C$ is any nontrivial [[finite category]]. But $EM$ is certainly the most natural supposition to make.
 
-
-## In other categories
-
-The CSB property holds in many other [[categories]] of interest, for example [[vector space]]s and [[algebraically closed field]]s. The question of when the CSB property holds was partially addressed in this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold), where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]).
+## Failure in toposes 
 
 +-- {: .num_example #Top}
 ###### Example
@@ -80,14 +77,22 @@ In [[Top]], for example, we have [[embeddings]] $\mathbb{R} \cong (0,1) \to [0,1
 As mentioned above, the Cantor-Schroeder-Bernstein theorem fails in the arrow category $Set^\to$, whose objects are functions $X_0 \to X_1$ between sets and whose morphisms are commutative squares. For example, let $X$ be the object $f: \mathbb{N} \to \mathbb{N}$ that takes $n \in \mathbb{N}$ to $\mathrm{int}(n/2)$, where $\mathrm{int}(x)$ is the greatest integer less than or equal to $x$; let $Y$ be the object $g: \mathbb{N} \to \mathbb{N}$ that takes $n$ to $\mathrm{Int}((n+1)/2)$, where $\mathrm{Int}(x)$ is the least integer greater than or equal to $x$. Pretty clearly $X$ and $Y$ are non-isomorphic, because $g^{-1}(0)$ has cardinality $1$ whereas all fibers of $f$ have cardinality $2$. But, just by drawing pictures of these objects, it is easy to construct monomophisms $i: X \to Y$ and $j: Y \to X$ (e.g., define $i_0(n) = n+1$ and $i_1(n) = n+1$ for all $n$, and define $j_0(n) = n+1$ for $n \gt 0$, $j_0(0) = 0$, and $j_1(n) = n$ for all $n$). 
 =-- 
 
+Nor can one have internal existence of an isomorphism between $X$ and $Y$ in this last example, since internal existence implies external existence as soon as the terminal object is (externally) projective. 
+
+## In other categories
+
+The CSB property holds in many other [[categories]] of interest, for example [[vector space]]s and [[algebraically closed field]]s. The question of when the CSB property holds was partially addressed in this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold), where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]). 
+
 More examples and discussion can be found at this Secret Blogging Seminar [post](http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/). 
 
-In a [celebrated work](#Gowers), [[Timothy Gowers]] gave a negative solution in the case of [[Banach space]]s.
+In a [celebrated work](#Gowers), [[Timothy Gowers]] gave a negative solution in the case of [[Banach spaces]].
 
 
 ## Name
 
-The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on the [[well-ordering theorem]].  The modern (choice-free) theorem was proved (independently) by [[Felix Bernstein]] and [[Ernst Schröder]].  It has been variously named after two or three of these in almost every possible combination, although Cantor (when mentioned at all) seems always to be mentioned first.
+The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on the [[well-ordering theorem]].  The modern (choice-free) theorem was proved (independently) by [[Felix Bernstein]] and [[Ernst Schröder]].  It has been variously named after two or three of these in almost every possible combination, although Cantor (when mentioned at all) seems always to be mentioned first. 
+
+[Wikipedia](http://en.wikipedia.org/wiki/Cantor%E2%80%93Bernstein%E2%80%93Schroeder_theorem#History) reports that [[Richard Dedekind]] had an (unpublished) proof in 1887, well before any announced proofs by Cantor, Schroeder, or Bernstein in 1895, 1896, 1897 respectively. 
 
 
 ## References 
