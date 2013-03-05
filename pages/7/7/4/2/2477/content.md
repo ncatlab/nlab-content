@@ -14,7 +14,7 @@
 
 ## Idea
 
-A [[stack]] $X$ on a [[site]] $C$ is **geometric** if, roughly, it is [[representable functor|represented]] by a suitably well-behaved [[groupoid]] object $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internal category|internal]] to $C$, i.e. if to an object $U \in C$ the stack assigns assigns the (ordinary) [[groupoid]]
+A [[stack]] $X$ on a [[site]] $C$ is **geometric** if, roughly, it is [[representable functor|represented]] by a suitably well-behaved [[groupoid]] object $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internal category|internal]] to $C$, i.e. if to an object $U \in C$ the stack assigns the (ordinary) [[groupoid]]
 
 $$
   X : U \mapsto (C(U,\mathcal{G}_1) \stackrel{\to}{\to} C(U,\mathcal{G}_0))
