@@ -20,5 +20,5 @@ The notion is introduced in
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
  {#KontsevichRosenbergSpaces}, [arxiv 9812158](http://arxiv.org/abs/math/9812158)
 
-
+category: sheaf theory
 [[!redirects epipresheaves]]
