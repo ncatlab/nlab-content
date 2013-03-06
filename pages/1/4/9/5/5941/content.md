@@ -12,3 +12,5 @@ c) The diagonal morphism $X\to X\times_Y X$ is quasicompact, and for every affin
 Compare the [[valuative criterion of properness]], [[EGA II]], 7.3.8.
 
 * MathOverflow [can-the-valuative-criteria-for-separatedness-properness-be-checked-formally](http://mathoverflow.net/questions/79/can-the-valuative-criteria-for-separatedness-properness-be-checked-formally)
+
+category: algebraic geometry
