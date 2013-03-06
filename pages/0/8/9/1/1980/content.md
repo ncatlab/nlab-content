@@ -18,5 +18,5 @@ The functor $Proj$ of a [[graded object|graded]] [[commutative algebra]] is a [[
 
 * F. van Oystaeyen, L. Willaert, The quantum site of a schematic algebra, Comm. Alg. 24:1(1996), p. 209--222
 
-
+category: noncommutative geometry
 [[!redirects schematic algebras]]
