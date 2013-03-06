@@ -92,4 +92,5 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 
 Categories of ind-coherent sheaves on schemes and stacks are studied  in [[Dennis Gaitsgory]], _Notes on Geometric Langlands: ind-coherent sheaves_, [arxiv/1105.4857](http://arxiv.org/abs/1105.4857)
 
+category: sheaf theory, algebraic geometry
 [[!redirects coherent sheaves]]
