@@ -1,7 +1,7 @@
 ## Definition 
 
 Let $\mathfrak{g}$ be a semisimple complex Lie algebra and $\mathfrak{h}\subset\mathfrak{g}$ a Cartan subalgebra. Given $\lambda,\mu\in\mathfrak{h}^*$ such that the difference is an integral weight $\mu-\lambda\in\Lambda$. The orbit of the difference $\mu-\lambda$ under the Weyl group contains a unique positive integral weight $\bar{nu}$. Given any weight $\tau$ denote by $\chi_\tau$ the central character corresponding to the weight $\tau$. The Bernstein-Gelfand-Gelfand category $\mathcal{O}$ is the internal direct sum of the subcategories $\mathcal{O}_{\chi}$ 
-where $\chi$ runs through [[central character]]s of the form $\chi_\tau$ and where teh full subcategory $\mathcal{O}_\chi\subset\mathcal{O}$ for a central character $\chi$ by the definition consists of all modules $M$ in $\mathcal{O}$ such that for each $z$, the action $(z-\chi(z))^n \cdot v = 0$ for some $n = n(z)\gt 0$. There are canonical functors of projection  $pr_\lambda:\mathcal{O}\to\mathcal{O}_{\chi_\lambda}$. The functors 
+where $\chi$ runs through [[central character]]s of the form $\chi_\tau$ and where the full subcategory $\mathcal{O}_\chi\subset\mathcal{O}$ for a central character $\chi$ by the definition consists of all modules $M$ in $\mathcal{O}$ such that for each $z$, the action $(z-\chi(z))^n \cdot v = 0$ for some $n = n(z)\gt 0$. There are canonical functors of projection  $pr_\lambda:\mathcal{O}\to\mathcal{O}_{\chi_\lambda}$. The functors 
 
 $$
 T^\mu_\lambda : M\to pr_\mu (L_{\bar{nu}}\otimes pr_\lambda M), 
