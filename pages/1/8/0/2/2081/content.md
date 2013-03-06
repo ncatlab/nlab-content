@@ -51,6 +51,7 @@ where $F_x$ denotes the [[stalk]] of $F$ at point $x$.
 
 Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolution]]s were also considered. A classical reference is Godement's monograph. 
 
+category: sheaf theory
 [[!redirects flasque sheaf]]
 [[!redirects flabby sheaves]]
 [[!redirects flasque sheaves]]
