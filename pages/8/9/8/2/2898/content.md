@@ -3,3 +3,6 @@ Let $X$ be an [[algebraic variety]] (in the modern approach an irreducible reduc
 **Birational geometry** considers properties of varieties which depend only on the birational class, i.e., they are equivalent when they have isomorphic function fields. In fact, one can define the appropriate [[category]] by starting with the category of varieties over a fixed field and then [[localization|localizing]] at all birational equivalences. 
 
 See also [wikipedia](http://en.wikipedia.org/wiki/Birational_geometry).
+
+category: algebraic geometry
+[[!redirects birational algebraic geometry]]
