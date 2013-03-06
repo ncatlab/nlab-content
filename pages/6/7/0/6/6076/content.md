@@ -15,6 +15,7 @@ More general point of view closer to the formalism of topologies/[[sieve]]s than
 
 * [[M. Kontsevich]], A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([dvi](http://www.mpim-bonn.mpg.de/preblob/2303),[ps](http://www.mpim-bonn.mpg.de/preblob/2331)),  _Noncommutative stacks_, MPI-2004-37 [dvi](http://www.mpim-bonn.mpg.de/preblob/2305),[ps](http://www.mpim-bonn.mpg.de/preblob/2333) 
 
+category: noncommutative geometry
 [[!redirects sheaves on a noncommutative space]] 
 [[!redirects sheaves on a noncommutative spaces]]
 [[!redirects sheaf on noncommutative space]]
