@@ -25,3 +25,5 @@ The Rosenberg's version of the [[Gabriel-Rosenberg reconstruction]] of commutati
 * [[A. L. Rosenberg]], _Noncommutative local algebra_,  Geom. Funct. Anal. __4__  (1994),  no. 5, 545--585.
 
 * [[A. L.  Rosenberg]], _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
+
+category: algebraic geometry, noncommutative geometry
