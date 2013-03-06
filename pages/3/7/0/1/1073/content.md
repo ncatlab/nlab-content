@@ -51,4 +51,5 @@ A detailed textbook discussion is in section 18 of
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
+category: sheaf theory
 [[!redirects abelian sheaves]]
