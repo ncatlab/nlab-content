@@ -47,6 +47,6 @@ Zoran: paracompact Hausdorff space is automatically normal (Dieudonne's theorem)
 
   * [[soft sheaf]]
 
-  * **fine sheaf**
-
   * [[flabby sheaf]]
+
+category: sheaf theory
