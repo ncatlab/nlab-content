@@ -37,6 +37,7 @@ See also
 
 There is also a theory of [[connections on a noncommutative bundle]]. 
 
+category: noncommutative geometry
 [[!redirects noncommutative principal bundles]]
 [[!redirects noncommutative torsor]]
 [[!redirects quantum principal bundle]]
