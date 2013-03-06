@@ -11,7 +11,7 @@ Algebraic geometers sometimes (but more rarely) also talk about __quasicompact o
 
 An old discussion on the terminological aspects (Mike, Zoran, Toby) is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2680&Focus=22689#Comment_22689).
 
-
+category: algebraic geometry
 [[!redirects quasicompact]]
 [[!redirects quasi-compact]]
 
