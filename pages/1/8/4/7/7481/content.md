@@ -212,16 +212,14 @@ and in section B2.3 of
 
 In these references internal presheaves are introduced in components as in the [explicit definition](#ExplicitDefinition) above. The equivalence to the [abstract formulation](#InTermsOf2Sheaves) above, in terms of morphisms between 2-sheaves, follows for instance with ([Johnstone, lemma B.2.3.13](#Johnstone)).
 
+category: sheaf theory
 [[!redirects internal sheaves]]
-
 [[!redirects internal presheaf]]
 [[!redirects internal presheaves]]
-
 [[!redirects category of internal sheaves]]
 [[!redirects category of internal presheaves]]
 [[!redirects categories of internal sheaves]]
 [[!redirects categories of internal presheaves]]
-
 [[!redirects internal presheaf topos]]
 [[!redirects internal sheaf topos]]
 
