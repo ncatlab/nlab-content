@@ -30,4 +30,5 @@ Regular differential operators have been nontrivially generalized to noncommutat
 
 See also [[regular differential operator in noncommutative geometry]].
 
+category: algebraic geometry
 [[!redirects regular differential operators]]
