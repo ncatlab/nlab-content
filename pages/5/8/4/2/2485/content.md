@@ -37,7 +37,7 @@ $$
 $$
 =--
 
-
+category: algebraic geometry
 [[!redirects scheme as structured locally affine infinity topos]]
 [[!redirects scheme as locally affine structured infinity topos]]
 [[!redirects scheme as a structured locally affine infinity topos]]
