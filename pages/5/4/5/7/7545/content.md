@@ -60,7 +60,7 @@ Given two absolute $p$-forms $\omega$ and $\eta$, their __sum__ $\omega + \eta$ 
 $$ (\omega + \eta)_c(v_1,\ldots,v_p) \coloneqq \omega_c(v_1,\ldots,v_p) + \eta_c(v_1,\ldots,v_p) .$$
 Given an absolute $p$-form $\omega$ and a scalar field $f$, their __product__ $f \omega$ is an absolute $p$-form:
 $$ (f \omega)_c(v_1,\ldots,v_p) \coloneqq f(c) \omega_c(v_1,\ldots,v_p) .$$
-In this way, the space of absolute $p$-forms is a [[module]] over the [[associative algebra|algebra]] of scalar fields.  For the moment, we decline to define products of absolute forms of aribtrary rank.
+In this way, the space of absolute $p$-forms is a [[module]] over the [[associative algebra|algebra]] of scalar fields and the space of [[sections]] of a [[vector bundle]].  For the moment, we decline to define products of absolute forms of aribtrary rank.
 
 Given an absolute $p$-form $\omega$ on $X$, a manifold $U$, and a [[continuously differentiable map]] $R\colon U \to X$, the __pullback__ $R^*\omega$ is an absolute $p$-form on $U$:
 $$ (R^*\omega)_c(v_1,\ldots,v_p) \coloneqq \omega_{R(c)}(R_*v_1,\ldots,R_*v_p) .$$
