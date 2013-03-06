@@ -385,4 +385,5 @@ Extension of sheafification of presheaves with values in other categories has be
 
 * [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_ , 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
+category: sheaf theory
 [[!redirects sheafification functor]]
