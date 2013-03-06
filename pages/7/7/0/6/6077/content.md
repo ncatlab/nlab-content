@@ -77,3 +77,5 @@ Additionally, one may add construction of some sort of topology or additional "s
 #### Remark on monoidal case
 
 Some reconstruction theorems (like the theorems of Balmer and of Garkusha) consider abelian symmetric monoidal categories instead; their spectra are very analogous but the subcategories used to construct the intermediate preorder category are monoidal subcategories as well and various constructions respect the monoidal structure. The pattern is still the same. 
+
+category: noncommutative geometry
