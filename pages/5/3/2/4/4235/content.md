@@ -4,6 +4,7 @@ Given a [[closed immersion of schemes]] $f= (f,f^\sharp): (Y,O_Y)\to (X,O_X)$ of
 
 This can be repharsed in terms of the category of quasicoherenet sheaves. In this vein, [[Alexander Rosenberg]] defines the *defining ideal* of a [[topologizing subcategory]] $S$ of an [[abelian category]] $A$ as the endofunctor $\mathcal{I}=\mathcal{I}_S\in End(A)$ which is the subfunctor of the identity $Id_A$ assigning to any $M\in A$ the intersection of [[kernels]] $Ker(f)$ of all morphisms $f: M\to N$ with $N\in Ob(S)$.
 
+category: sheaf theory, algebraic geometry
 [[!redirects sheaf of definition]]
 [[!redirects sheaves of definition]]
 [[!redirects defining sheaves]]
