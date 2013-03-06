@@ -5,3 +5,4 @@ Grothendieck emphasised the [[relative point of view]]: the main foundational ef
 
 By the [[Gabriel-Rosenberg theorem]] a scheme can be reconstructed from the category of quasicoherent sheaves over a scheme. Thus one is tempted to replace the properties of morphisms by properties of the "geometric functors" among the corresponding categories of quasicoherent sheaves. The properties of affine morphisms were first elucidated in [[Jean-Pierre Serre|Serre]]'s criterium of affiness. It appears that the direct image functor $f_* : Qcoh_S\to Qcoh_X$ of an affine morphism $f:X\to S$ is faithful and having its own right adjoint $f_!$. The adjunction $f^*\dashv f_*$ induces a monad making $Qcoh_X$ monadic over $Qcoh_S$. If $S$ were just $Spec \mathbb{Z}$ then this is clear as then $X = Spec R_X$ and $Qcoh_X = {}_R Mod$. 
 
+category: algebraic geometry, noncommutative geometry
