@@ -35,8 +35,8 @@ In particular for $\mathbf{H}_{th}$ an
 
 * [[sheaf of meromorphic functions]]
 
+category: sheaf theory, algebraic geometry
 [[!redirects structure sheaves]]
-
 [[!redirects structure (∞,1)-sheaf]]
 [[!redirects structure (infinity,1)-sheaf]]
 [[!redirects structure (∞,1)-sheaves]]
