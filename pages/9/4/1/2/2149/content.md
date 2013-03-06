@@ -40,3 +40,4 @@ The local extension of germs to the open neighborhoods of points by paracompactn
 
 Standard references are [[Tohoku]] and Godement's book. 
 
+category: sheaf theory
