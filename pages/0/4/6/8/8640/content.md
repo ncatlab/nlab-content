@@ -31,11 +31,13 @@ There are various categories of pages on the nLab and the lists of pages for the
 * [paradox](/nlab/list/paradox)
 * [people](/nlab/list/people)
 * [philosophy](/nlab/list/philosophy)
+* [physics](/nlab/list/physics)
 * [reference](/nlab/list/reference)
 * [sheaf theory](/nlab/list/sheaf+theory)
 * [simplicial object](/nlab/list/simplicial+object)
 * [software](/nlab/list/software)
 * [svg](/nlab/list/svg)
+* [topology](/nlab/list/topology)
 * [type theory](/nlab/list/type+theory)
 * [∞-groupoid](/nlab/list/∞-groupoid)
 
