@@ -133,4 +133,5 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 * [[rigged Hilbert space]]
 
+category: analysis
 [[!redirects Hilbert spaces]]
