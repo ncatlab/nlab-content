@@ -1,0 +1,24 @@
+### Calculus
+
+In various areas of mathematics there are some standard objects and operations on them and often reasonings and rules of those are expressed in symbolic (typically) sequences which are usually viewed as acts of calculations. Calculus would be then a set of rules for those calculations. There are for example [[propositional calculus]], [[sequent calculus]], [[deduction calculus]] in logics, the [[lambda calculus]] in type theory, the probabilistic calculus, the [[matrix calculus]], [[Schubert calculus]], the [[Goodwillie calculus]] in homotopy theory, [[calculus of fractions]] in localization theory, and many calculi in analysis like [[functional calculus]], [[variational calculus]], [[umbral calculus]] etc. 
+
+In anglosaxon university courses, one says "calculus" for the standard basic course in differential and integral calculi; the name is abbreviation for the older common and less ambiguous term infinitesimal calculus. From the point of view of research mathematics this is the (usually nonrigorous) introduction into the subject properly called mathematical analysis or simply [[analysis]]. Thus, while the term calculus has a standard meaning in anglosaxon university system, within research mathematics "calculus" is rather ambiguous and overloaded term. 
+
+### Formal calculus
+
+The problem with ambiguity of calculus extends somewhat to "formal calculus". The name is sometimes used for symbolic logical systems where the deducibility is given by syntactic rules, hence "formal". 
+
+More often the term "formal" pertains to various calculi which are akin to infinitesimal calculus, but without the 
+analytic tools like limiting procedure, but rather applying 
+formal rules of differentiation, integration and so on. Many 
+examples from abstract derivations and differential calculi on noncommutative associative algebras, regular differential operators on algebraic [[scheme]]s to Goodwillie calculus of functors belong to this wide group. [[Joyal]]'s [[species]] are a particular formal tool which can (among other things) relating calculi with power series and applying those to [[combinatorics]]. Particularly often 
+one says formal calculus for formal rules of differentiation and integration with formal power series, formal Laurent series and generalizations. Thus formal calculi define the 
+infinitesimal calculus and its generalizations and analogues without usage of proper mathematical analysis. This, of course, can be done for quite a different (sometimes smaller, sometimes larger) class of formal objects replacing functions which the operations are applied upon. 
+
+In order to mark the subject and ideas, the $n$Lab tag [formal calculus](/nlab/list/formal+calculus) will be used for the analogues of infinitesimal calculus defined in areas or in a manner not using mathematical analysis. The tag will not be used for entries on various "calculi" which are not analogues of infinitesimal calculus. 
+
+category: disambiguation, analysis, formal calculus
+
+[[!redirects calculi]]
+[[!redirects formal calculus]]
+[[!redirects formal calculi]]
