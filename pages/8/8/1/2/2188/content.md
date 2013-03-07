@@ -1,6 +1,6 @@
 ##Overview##
 
-We are interested in the local structure of zeros of [[holomorphic function]]s in $\mathbb{C}^n$ as well as analogues, e.g. in [[rigid analytic geometry]].
+We are interested in the local structure of zeros of [[analytic function]]s in $\mathbb{C}^n$ as well as in analogues, e.g. in [[rigid analytic geometry]]. 
 
 In one variable, a holomorphic function $f$, locally holomorphic around $z_0$, can be represented as $f(z)=(z-z_0)^n u(z)$ where $u(z_0)\neq 0$, $u$ is holomorphic and $n$ is a [[natural number|nonnegative integer]]; therefore the solution set is discrete. In many variables, these zero sets are more complicated but far from arbitrary; in fact the analytic sets are often pretty close to [[algebraic varieties]]: for example, analytic subsets of the [[projective space]] are algebraic.
 
@@ -43,3 +43,5 @@ As a corollary, if another function $h$ vanishes on the zero set of $f$, then $f
 ##Ingredients of proofs##
 
 Weierstrass used analytic methods to prove the theorem; in fact the [[residue theorem]] and [[Cauchy integral formula]] are used. However, much later a fully algebraic proof has been found, and it allows generalizations to much wider setups, not only over complex numbers.  
+
+category: analysis, geometry
