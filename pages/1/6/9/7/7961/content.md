@@ -19,4 +19,4 @@ This observation, originally made by [[Bill Lawvere]], has since then been expan
 * [[Tom Leinster]], objects of categories as complex numbers, [arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
 
 
-category: type theory, calculus
+category: type theory, formal calculus
