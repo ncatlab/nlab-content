@@ -139,7 +139,7 @@ A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] 
 
 * [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_, Logic and Analysis (2009) 1(3) p.1-22, [arXiv:0808.1522](http://arxiv.org/abs/0808.1522), [doi](http://dx.doi.org/10.4115/jla.2009.1.3)
 
-
+category: analysis
 [[!redirects integral]]
 [[!redirects integrals]]
 [[!redirects integration]]
