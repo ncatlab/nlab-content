@@ -213,23 +213,22 @@ See Dunford, Schwartz II, chapter X, corollary 8.
 =--
 
 
-### References
+## References
 
-One standard reference for this paragraph is
-
+* Walter Rudin, _Functional analysis_
 * Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete)), "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
 
 * Z. Semadeni, _Banach spaces of continuous functions_, vol. I, Polish scientific publishers. Warszawa 1971
 
 
-## Related concepts
+### Related concepts
 
 * [[reflexive Banach space]]
 * [[projective Banach space]]
 
 * [[Banach analytic space]]
 
-
+category: analysis
 [[!redirects Banach space]]
 [[!redirects Banach spaces]]
 [[!redirects pseudonormed vector space]]
