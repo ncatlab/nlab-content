@@ -24,9 +24,8 @@ In the setup of [[Hilbert spaces]], instead of a compact operator, one sometimes
 
 * Wikipedia (English): [Compact operator](http://en.wikipedia.org/wiki/Compact_operator)
 
-
+category: analysis
 [[!redirects compact operator]]
 [[!redirects compact operators]]
-
 [[!redirects completely continuous operator]]
 [[!redirects completely continuous operators]]
