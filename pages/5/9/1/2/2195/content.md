@@ -24,6 +24,8 @@ The study of the Fourier transform is the main subject of [[Fourier analysis]] a
 For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see [[quantum group Fourier transform]].   
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
+
+category: analysis
 [[!redirects Fourier series]]
 [[!redirects Fourier integral]]
 [[!redirects Fourier analysis]]
