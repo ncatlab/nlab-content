@@ -30,4 +30,4 @@
 * [[Goodwillie calculus]]
 
 
-category: type theory, calculus
+category: type theory, formal calculus
