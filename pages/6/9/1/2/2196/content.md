@@ -40,4 +40,4 @@ The [English Wikipedia entry](http://en.wikipedia.org/wiki/Functional_analysis) 
 
 There are also variations in $p$-[[adic analysis]] and a [[topos]]-theoretic approach initiated by (I think?) [[William Lawvere]].
 
-
+category: analysis
