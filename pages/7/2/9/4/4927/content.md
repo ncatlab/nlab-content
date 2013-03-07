@@ -12,7 +12,7 @@
 
 * [[Models for concurrency]];
 
-* [[Topological Data Analysis]] and [[Persistent Homology]];
+* [[Topological Data Analysis]] and [[persistent homology]];
 
 * Models for mixed temporal-spatial [[modal logics]];
 
@@ -22,4 +22,4 @@
 
 The problems thrown up by these contexts will not always lead to the same notion of directed homotopy, so we need a reasonably flexible general definition, one that can be specialised to particular contexts later on.
 
-category: motivation
+category: motivation, topology
