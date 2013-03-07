@@ -47,6 +47,7 @@ For noncommutative $C^*$-algebras the spaces of equivalence classes of irreducib
 
     * [[constructive Gelfand duality theorem]]
 
+category: analysis
 
 [[!redirects Gelfand spectrum]]
 [[!redirects Gelfand spectrums]]
