@@ -266,6 +266,7 @@ See also [[hyperfunction]] and references therein.
 * N. Djapi&#263;, S. Pilipovi&#263;, _Microlocal analysis of Colombeau's generalized functions on a manifold_, Indag. Math. N.S. 7, 293&#8211;309 (1996)
 * Stevan Pilipovi&#263;, Milica &#381;igi&#263;, _Suppleness of the sheaf of algebras of generalized functions on manifolds_, J. Math. Anal. Appl. __379__:2 (2011) 482&#8211;486, [arxiv/1101.4552](http://arxiv.org/abs/1101.4552), [MR2784335](http://www.ams.org/mathscinet-getitem?mr=2784335), [doi](http://dx.doi.org/10.1016/j.jmaa.2010.12.060)
 
+category: analysis
 [[!redirects distributions]]
 [[!redirects generalized function]]
 [[!redirects generalized functions]]
