@@ -14,9 +14,16 @@
 
 ## Websites
 
-* [Chomp](http://chomp.rutgers.edu/)
+* [Chomp](http://chomp.rutgers.edu)
 
-* [Comptop](http://comptop.stanford.edu/) at Stanford.
+* [Comptop](http://comptop.stanford.edu/) -- applied and computational topology group at Stanford University
 
+## Software
 
+* [javaplex](http://code.google.com/p/javaplex) - Java library for computing persistent topological invariants
+* [jPlex](http://comptop.stanford.edu/u/programs/jplex/index.html)
+* [Dionysus](http://www.mrzv.org/software/dionysus) -- C++ library for computing persistent homology
+* Plex for Matlab: older, [C++ based version of Plex](http://comptop.stanford.edu/u/programs/plex.html)
+
+category: topology, applications
 [[!redirects sources in computational topology]]
