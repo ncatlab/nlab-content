@@ -50,3 +50,4 @@ A _[[Lagrangian]]_ is called a _[[local Lagrangian]]_ if it "depends only on fin
 Here, too, one can consider the analog of [[extended quantum field theory]] and ask for _[[extended Lagrangians]]_ that are not only local as top-degree forms on [[spacetime]]/[[worldvolume]], but which also have an "extended" to lower dimensional subspaces.
 
 
+[[!redirects local quantum field theories]]
