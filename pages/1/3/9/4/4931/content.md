@@ -146,7 +146,7 @@ See the first page of ([Ozols](#Ozols)) for a list of references.
 +-- {: .un_remark}
 ###### Remark
 
-In dimension 4 the analog statement fails due to the existence of [[exotic smooth structure]]s on $\mathbb{R}^4$. 
+In dimension 4 the analog statement fails due to the existence of [[exotic smooth structure]]s on $\mathbb{R}^4$. See [De Michelis-Freedman](#DeMFreed). 
 
 =--
 
@@ -212,7 +212,12 @@ One central application of balls is as building blocks for [[covering]]s. See [[
 * V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
-{#Ozols}
+{#Ozols} 
+
+That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ with the smooth structure inherited as an open submanifold of $\mathbb{R}^4$ might nevertheless be non-diffeomorphic to $\mathbb{R}^4$, see 
+
+* De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
+{#DeMFreed} 
 
 The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in
 
