@@ -1,1 +1,1 @@
-dtdtd
+[[!redirects map from compact space to Hausdorff space]]
