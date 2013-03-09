@@ -16,7 +16,8 @@
 
 ## Idea
 
-The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[nLab:symplectic geometry]] to [[n-plectic geometry]].
+The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[nLab:symplectic geometry]] to [[n-plectic geometry]]: the
+_Poisson bracket $L_\infty$-algebra of local observables_ in [[higher prequantum geometry]].
 
 The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n-plectic+geometry#PoissonLInfinityAlgebras) at _[[n-plectic geometry]]_.
 
@@ -26,13 +27,24 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
+[[!include geometric quantization extensions - table]]
+
 
 ## References
 
+The Poisson bracket $L_\infty$-algebras were proposed in
+
+* [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ , 
+Letters in Mathematical Physics April 2012, Volume 100, Issue 1, pp 29-50  ([arXiv:1005.2230](http://arxiv.org/abs/1005.2230), [journal](http://link.springer.com/article/10.1007%2Fs11005-011-0493-x)).
+
+A comprehensive account is in 
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
  {#Rogers}
 
+An general account in [[higher geometry]] is in 
+
+* _[[schreiber:Higher geometric prequantum theory]]_
 
 [[!redirects Poisson bracket Lie n-algebras]]
 
@@ -45,6 +57,11 @@ The detailed discussion is currently still [here](http://ncatlab.org/nlab/show/n
 
 [[!redirects Poisson L-∞ algebra]]
 [[!redirects Poisson L-∞ algebras]]
+
+[[!redirects Poisson bracket L-∞ algebra]]
+[[!redirects Poisson brakcet L-∞ algebras]]
+
+
 [[!redirects Poisson L-infinity algebra]]
 [[!redirects Poisson L-infinity algebras]]
 
