@@ -302,7 +302,7 @@ $$
 
 =--
 
-This is a special case of what is called the **Kostant-Souriau central extension**. See around ([Brylinski, prop. 2.3.9](#Brylinski)).
+This is a special case of what is called the **[[Kostant-Souriau central extension]]**. See around ([Brylinski, prop. 2.3.9](#Brylinski)).
 
 [[!include geometric quantization extensions - table]]
 
