@@ -285,3 +285,6 @@ Examples of countable connected Hausdorff spaces were give in
 
 [[!redirects connected component]]
 [[!redirects connected components]]
+
+[[!redirects path-component]]
+[[!redirects path-components]]
