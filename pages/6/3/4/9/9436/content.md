@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -12,16 +13,17 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 Many algebraic objects have a [[representation theory]] in which they act on other things; for example, [[groups]] often act on sets and [[algebras]] act on [[modules]].
 In these situations, the acting object can often be viewed as an example of the type of thing acted upon: a group has an underlying set and an algebra has an underlying module.
 The multiplication in the acting object then defines an action of the object on this unstructured copy of itself.
-This is called the **regular representation** and is an extremely useful representation to study as it only involves the object itself, whence is in a sense *canonical*, but contains a lot of information, as opposed to, say, the trivial representation.
+This is called the **regular representation** and is an extremely useful representation to study as it only involves the object itself, whence is in a sense *canonical*, but contains a lot of information, as opposed to, say, the [[trivial representation]] (which is also canonical).
+
 
 ## Definition
 
@@ -41,3 +43,6 @@ Let $A$ be an [[algebra]] with multiplication $\mu$.  Let us write ${|A|}$ for t
 The **right regular representation** is defined analogously.
 =--
 
+
+[[!redirects regular representation]]
+[[!redirects regular representations]]
