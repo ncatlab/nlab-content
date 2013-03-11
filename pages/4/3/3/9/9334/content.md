@@ -168,9 +168,13 @@ $$
   \array{
     A_1 &\stackrel{N_1}{\to}& B_1
     \\
-    {}^{\mathllap{\phi}}\Downarrow^{\kappa} && \downarrow^{\mathrlap{\rho}}
+    {}^{\mathllap{\phi}}\downarrow
+    &
+    \Downarrow^{\kappa}
+    &
+    \downarrow^{\mathrlap{\rho}}
     \\
-    A_1 &\underset{N_2}{\to}&
+    A_2 &\underset{N_2}{\to}& B_2
   }
   \,.
 $$
