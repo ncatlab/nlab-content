@@ -74,6 +74,8 @@ Further references include
 ### Relation to D-branes
  {#ReferencesRelationToDBranes}
 
+A relation between Dirac structures and [[D-branes]] is discussed in
+
 * Tsuguhiko Asakawa, Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
  {#AsakawaSasaWatamura}
 
