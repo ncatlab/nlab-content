@@ -21,6 +21,9 @@ The tropical rig is also called the [[min-plus algebra]]. There is a related rig
 
 The tropical semiring is an example of an [[idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
 
+## Elementary example
+
+$$(5\oplus 6)\otimes 7 = 12$$
 
 
 ## Applications
