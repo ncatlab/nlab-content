@@ -180,7 +180,7 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * We have seen that the existence of a [[subobject classifier]] or [[power objects]] is not, in general, preserved by the completions (although if $C$ is a topos, then of course so is $C_{ex/reg}$, since it is equivalent to $C$).
 
-* Similarly, if $C$ is [[well-powered category|well-powered]], it does not follow that $C_{reg/lex}$ or $C_{ex/lex}$ are.  In particular, for $X\in C$, the subobject preorders $Sub_{C_{reg/lex}}(X)$ and $Sub_{C_{ex/lex}}(X)$ are equivalent to the preorder reflection of the slice category $C/X$, and it is easy to construct examples in which this is not small.
+* Similarly, if $C$ is [[well-powered category|well-powered]], it does not follow that $C_{reg/lex}$ or $C_{ex/lex}$ are.  In particular, for $X\in C$, the subobject preorders $Sub_{C_{reg/lex}}(X)$ and $Sub_{C_{ex/lex}}(X)$ are equivalent to the preorder reflection of the slice category $C/X$, and it is easy to construct examples in which this is not essentially small[^fine].
 
 * If $C$ is a [[coherent category]], it does not follow that $C_{ex/lex}$ or $C_{reg/lex}$ is.  However, if $C$ is additionally [[extensive category|lextensive]], we have seen above that so are these completions, and hence in particular also coherent (any extensive regular category is coherent).  One can also write down the "free coherent completion" and the "free pretopos completion" of a lex category, and the "pretopos completion" of a coherent category; see [[familial regularity and exactness]] for some clues on how to proceed.
 
@@ -226,7 +226,9 @@ On the other hand, some properties are *not* preserved by the completions.
 {#Menni} 
 
 * [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
-{#Shulman}
+{#Shulman} 
+
+[^fine]: For example, let $C = Set^{\bullet \stackrel{\to}{\to} \bullet}$ be the topos of directed graphs. For each ordinal $\alpha$, let $G_\alpha$ be the directed graph whose nodes are elements of $\alpha$ and with a directed edge from $\beta$ to $\gamma$ if $\beta \lt \gamma$ in $\alpha$. Then in the poset reflection $Pos(C)$, we have a class of proper monomorphisms, e.g., $[G_\alpha] \lt [G_{\alpha'}]$ whenever $\alpha \lt \alpha'$. Thus $Pos(C)$ is a large poset. This example also shows that $Pos(C)$ need not be a [[total category]] even if $C$ is. 
 
 
 
