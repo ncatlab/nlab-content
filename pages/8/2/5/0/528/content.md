@@ -149,6 +149,8 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[hopfish algebra]]
 
+* [[Hopf algebroid]]
+
 ## References
 
 For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
