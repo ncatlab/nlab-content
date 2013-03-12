@@ -324,6 +324,9 @@ The [[homotopy colimit]]-interpretation of category algebras over discrete categ
 ### For smooth geometry
  {#ReferencesForSmoothGeometry}
 
+
+#### Convolution $C^\ast$-algebras
+
 The study of convolution [[C-star algebras]] of [[Lie groupoids]] goes back to
 
 * Jean Renault, _A groupoid approach to $C^\ast$ algebras_,
@@ -336,7 +339,6 @@ More on this is
 
 * Paul S. Muhly, Jean Renault, Dana P. Williams, _Continuous trace groupoid $C^\ast$-algebras III_ , Transactions of the AMS, vol 348, Number 9 (1996) ([jstor]( http://www.jstor.org/stable/2155247))
 
-
 Specifically the convolution $C^\ast$-algebras of [[bundle gerbes]] regarded as [[centrally extended groupoids]] (algebras whose [[modules]] are [[gerbe modules]]/[[twisted bundle]]) is discussed in section 5 of 
 
 * [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, J. Geom. Phys. 52 (2004) 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
@@ -345,6 +347,16 @@ A discussion of convolution algebras of [[symplectic groupoids]] (in the context
 
 * [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
   {#EH}
+
+#### Convolution Hopf algebroids
+ {#ReferencesConvolutionHopfAlgebroids}
+
+A characterization of the convolution algebras of [[étale groupoids]] with their [[Hopf algebroid]] structure is in
+
+* [[Janez Mrčun]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
+
+* J. Kalisnik, [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+
 
 
 
