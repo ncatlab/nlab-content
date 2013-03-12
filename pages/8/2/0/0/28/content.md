@@ -136,7 +136,11 @@ For handling just groupoids exclusively their description in terms of Kan comple
 
 [[!include homotopy n-types - table]]
 
+* [[topological groupoid]], [[Lie groupoid]]
 
+* [[Hopf algebroid]]
+
+* [[stack]], [[geometric stack]]
 
 ## References
 
