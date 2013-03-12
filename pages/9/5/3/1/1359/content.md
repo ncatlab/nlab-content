@@ -19,7 +19,7 @@ Let $C$ be a [[differential graded category]].
 
 A **twisted complex** $E$ in $C$ is
 
-* a [[graded set]] $\{E_i\}_{i \in \mathbb{Z}}$ of [[object]]s of $C$, such that only finitly many $E_i$ are not the [[zero object]];
+* a [[graded set]] $\{E_i\}_{i \in \mathbb{Z}}$ of [[object]]s of $C$, such that only finitely many $E_i$ are not the [[zero object]];
 
 * a set of [[morphism]]s $\{q_{i j} : E_i \to E_j \}_{i,j \in \mathbb{Z}}$ such that
 
