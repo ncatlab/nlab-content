@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A Hopf algebroid is a possibly noncommutative generalization of a structure which is dual to a groupoid in the sense of space-algebra duality. In other words, function algebras on the space of objects and spaces of morphisms of a groupoid pack together in a structure of Hopf algebroid. 
+A _Hopf algebroid_ is a (possibly [[noncommutative geometry|noncommutative]]) generalization of a structure which is dual to a [[groupoid]] in the sense of [[Isbell duality|space-algebra duality]]. In other words, function algebras on the space of objects and spaces of morphisms of a groupoid together carry the structure of Hopf algebroid. 
 
 ## Commutative Hopf algebroids
 
