@@ -32,7 +32,7 @@ The flavor of _[[modal logic]]_ called $S4$ is [[propositional logic]] equipped 
 
 1. $\Box 4 \colon \Box p \to \Box \Box p$. (S4 modal logic)
 
-Traditionally the canonical interpretation of the Box operator is that $\Box p$ is the statement that "$p$ is _necessarily_ true." Then the interpretation of $\Box 4$ is that "If $p$ is necessarily true then it is necessarily necessarily true."
+Traditionally the canonical interpretation of the Box operator is that $\Box p$ is the statement that "$p$ is _necessarily_ true." Then the interpretation of $\Box $ is that "If $p$ is necessarily true then it is necessarily necessarily true."
 S4 modal logic appears in many [[temporal logics]].
 
 If instead of a single Box operator one considers $n \in \mathbb{N}$ box operators $\Box_i$ of this form the resulting modal logic is denote $S4(n)$. Here $\Box_i p$ is sometimes interpreted as "the $i$th agent knows $p$."
