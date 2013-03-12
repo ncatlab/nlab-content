@@ -26,7 +26,7 @@ A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in t
 
 ## Definition
 
-### In a topos or cartesian closed category
+### In a topos or cartesian closed category {#CCC}
 
 A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] $1$ is 
 
