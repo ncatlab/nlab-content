@@ -996,6 +996,8 @@ Nevertheless, we can speak fully internally of $(\infty,n)$-categories for "low 
 
 1. By the discussion at _[[semi-Segal space]]_ a category object should equivalently be a [[semi-category]] object $X_\bullet$: a [[semi-simplicial object]] satisfying the [[Segal conditions]], and which is unital in that $Eq(X_1) \hookrightarrow X_1 \stackrel{\partial_1}{\to} X_0$ is an equivalence.
 
+   A similar formalization of 1-category objects in homotopy type theory has been presented and studied in some detail in ([AKS](#AKS)).
+
 1. To finite (and "low") degree a [[semi-simplicial type]] may be given "by hand" as a sequence of [[dependent types]] like this:
   
    $$
@@ -1504,6 +1506,11 @@ The model given by complete Segal space objects is due to
 and has since seen a multitude of further developments.
 
 Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
+
+A formalization of internal 1-categories and 1-category theory in [[homotopy type theory]] is discussed in 
+
+* Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+  {#AKS}
 
 [[!redirects category object in an (∞,1)-category]]
 
