@@ -22,19 +22,19 @@ This is a special case of the general discussion at [[model structure on algebra
 For the operad of ordinary (commutative) algebras see also [[model structure on dg-algebras]].
 
 ## Definition
+ {#Definition}
 
 Let $k$ be a commutative ring. 
-
 Write $Ch_\bullet(k)$ for the [[category of chain complexes|category of unbounded chain complexes]] of $k$-[[module]]s.
 
-+-- {: .un_defn #SigmaSplitOperad}
++-- {: .num_defn #SigmaSplitOperad}
 ###### Definition
 
 An [[operad]] $P$ over $Ch_\bullet(k)$ is called **$\Sigma$-split** if (...)
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 * The [[associative operad]] $Assoc_k$ is $\Sigma$-split for all $k$.
@@ -45,14 +45,30 @@ An [[operad]] $P$ over $Ch_\bullet(k)$ is called **$\Sigma$-split** if (...)
 
 This is ([Hinich, example 4.2.5](#Hinich)).
 
-+-- {: .un_prop #ModelStructure}
-###### Proposition
++-- {: .num_theorem #ModelStructure}
+###### Theorem
 
-Let $P$ be a $\Sigma$-[split operad](#SigmaSplitOperad) in $Ch_\bullet(k)$. Then the category $Alg_{Ch_\bullet(k)}(P)$ of [[algebras over an operad|algebras over the operad]] admits a [[model category]] structure whose weak equivalences are the [[quasi-isomorphism]]s and whose fibrations are the degreewise surjections in $Ch_\bulle(k)$.
+Let $P$ be a $\Sigma$-split operad, def. \ref{SigmaSplitOperad}, in $Ch_\bullet(k)$. Then the category $Alg_{Ch_\bullet(k)}(P)$ of [[algebras over an operad|algebras over the operad]] admits a [[model category]] structure whose 
+
+* weak equivalences are the underlying [[quasi-isomorphisms]] 
+
+* whose fibrations are the degreewise surjections 
+
+in $Ch_\bullet(k)$.
+
+The [[free-forgetful adjunction]]
+
+$$
+  Alg_{Ch_\bullet(k)}(P)
+  \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  Ch_\bullet(k)
+$$
+
+is therefore a [[Quillen adjunction]] (see at _[[transferred model structure]]_).
 
 =--
 
-This appears as ([Hinich, theorem 4.1.1](#Hnich)).
+This appears as ([Hinich, theorem 4.1.1](#Hinich)).
 
 
 ## Properties
@@ -63,7 +79,7 @@ We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(
 
 we have the standard definition of polynomial [[differential forms on simplices]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}$ let $\Omega_{poly}^\bullet(\Delta^n)$ be the commutative [[dg-algebra]] of **[[polynomial]] [[differential form]]s** on the $n$-[[simplex]]:
@@ -116,7 +132,7 @@ where on the right be have the [[coend]] over the [[copowering]] of $cdgAlg_k^{o
 
 =--
 
-+-- {: .un_defn #SimplicialHomObjects}
++-- {: .num_defn #SimplicialHomObjects}
 ###### Definition
 
 For $P$ a dg-operad as above, define [[sSet]]-[[hom-object]]s between objects $A,B \in Alg(P)$ by
@@ -129,7 +145,7 @@ $$
  
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 These simplicial hom-objects satisfy the dual of the [[pushout-product axiom]] (see [[enriched model category]]).
@@ -140,7 +156,7 @@ This is ([Hinich, lemma 4.8.4](#Hinich)).
 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $S$ a degreewise finite simplicial set, we have a [[natural isomorphism]]
@@ -156,7 +172,7 @@ $$
 
 This is ([Hinich, lemma 4.8.3](#Hinich)).
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The [[homotopy category]] of $Alg_P$ is given by
