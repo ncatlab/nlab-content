@@ -38,8 +38,17 @@ where
 * $\Omega^\bullet(\Delta^k)\otimes \mathfrak{h}$ is the canonical dg-Lie algebra structure on the [[tensor product]].
 
 ## Properties
+ {#Properties}
 
-There is a [[Quillen equivalence]] to the [[model structure on dg-coalgebras]].
+dg-Lie algebras with this model structure are a _rectification_ of [[L-∞ algebras]]: for $Lie$ the [[Lie operad]] and $\widehat Lie$ its standard [[cofibrant resolution]], [[algebras over an operad]] over $Lie$ in chain complexes are [[dg-Lie algebras]] and algebras over $\widehat Lie$ are [[L-∞ algebras]] and by the rectification result discussed at _[[model structure on dg-algebras over an operad]]_ there is an induced [[Quillen equivalence]]
+
+$$
+  Alg(\widehat Lie) \stackrel{\simeq}{\to} Alg(Lie)
+$$
+
+between the [[model structure for L-∞ algebras]] which is [[transferred model structure|transferred]] from the  [[model structure on chain complexes]] (unbounded propjective) to the above model structure on chain complexes.
+
+There is also a [[Quillen equivalence]] from the model structure on dg-Lie algebras to the [[model structure on dg-coalgebras]]. This is part of a web of Quillen equivalences that identifies dg-Lie algebra/$L_\infty$-algebras with [[infinitesimal object|infinitesimal]] [[derived stack|derived]] [[∞-stacks]] ("[[formal moduli problems]]"). More on this is at _[[model structure for L-∞ algebras]]_.
 
 
 ## Related concepts
