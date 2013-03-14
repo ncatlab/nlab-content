@@ -19,7 +19,7 @@ min(2x, 2y, 0), $$ and this is a piecewise linear curve.
 
 ###Books and Lecture Notes
 
-Modern textbook accounts/lecture notes include
+Textbook accounts/lecture notes include
 
 *  [[ Diane Maclagen]] and [[Bernd Sturmfels]] _Introduction to Tropical Geometry_, [draft book](http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook.pdf)
 
