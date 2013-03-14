@@ -117,3 +117,7 @@ The specification of monads in [[Haskell]] is at
 
 [[!redirects monad (in programming theory)]]
 [[!redirects monads (in programming theory)]]
+
+[[!redirects monad in computer science]]
+[[!redirects monads in computer science]]
+
