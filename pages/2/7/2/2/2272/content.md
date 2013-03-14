@@ -77,3 +77,6 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 [[!redirects Poisson Lie algebra]]
 [[!redirects Poisson Lie algebras]]
 
+[[!redirects Poisson bracket Lie algebra]]
+[[!redirects Poisson bracket Lie algebras]]
+
