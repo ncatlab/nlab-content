@@ -32,6 +32,8 @@ Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the eleme
 
 * [[universal closure operator]]
 
+* [[modal logic]]
+
 
 [[!redirects closure]]
 [[!redirects closures]]
