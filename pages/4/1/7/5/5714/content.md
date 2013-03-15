@@ -69,3 +69,7 @@ The generalization of [[symplectic reduction]] for presymplectic manifolds, _[[p
 
 [[!redirects presymplectic manifold]]
 [[!redirects presymplectic manifolds]]
+
+[[!redirects pre-symplectic manifold]]
+[[!redirects pre-symplectic manifolds]]
+
