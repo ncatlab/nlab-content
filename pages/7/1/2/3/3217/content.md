@@ -124,7 +124,7 @@ A smooth foliation of a [[smooth manifold]] $X$ is equivalently an [[integrable 
  {#InTermsOfLieAlgebroidsAndLieGroupoids}
 
 Definition \ref{AsIntegrableDistribution} above 
-is immediately reformulated equivalent as the following statement
+is immediately reformulated equivalently as the following statement
 in [[higher Lie theory]].
 
 +-- {: .num_defn #AsLieAlgebroidsWithInjectiveAnchor}
