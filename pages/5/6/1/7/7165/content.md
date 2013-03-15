@@ -33,6 +33,8 @@ A characterization of &#233;tale ∞-groupoids as objects in a [[big topos|big]]
 
 * [[David Carchedi]], ...
 
+A formalization in [[differential cohesion]] is discussed there.
+
 
 [[!redirects étale infinity-groupoids]]
 
