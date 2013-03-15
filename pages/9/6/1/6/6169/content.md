@@ -34,19 +34,15 @@ $$
 $$
 
 a [[foliation]] by isotropic submanifolds is an 
-[[étale infinity-groupoid]] $X \to \mathcal{E}$, hence an [[atlas]] such that 
+[[geometric infinity-groupoid]] $X \to \mathcal{E}$ on $X$, hence an [[atlas]] which is a [[submersion]]/[[formally smooth morphism]], hence such that the map
 
 $$  
   \array{
-    X &\to& \mathbf{\Pi}_{inf}(X)
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathcal{E} &\to& \mathbf{\Pi}_{inf}(X)
+    X &\to& \mathcal{E} \underset{\mathbf{\Pi}_{inf}\mathcal{E}}{\times} \mathbf{\Pi}_{inf}(X)
   }
 $$
 
-is an [[(infinity,1)-pullback]] (where $\mathbf{\Pi}_{inf}(X)$ is the [[infinitesimal shape modality]]),
+is an [[1-epimorphism]] (where $\mathbf{\Pi}_{inf}(X)$ is the [[infinitesimal shape modality]]),
 
 which is such that the top composite morphism in
 
