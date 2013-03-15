@@ -23,7 +23,7 @@ There are various equivalent definitions:
 ### In terms of vector bundles with anchor ###
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition in terms of vector bundles with anchor map
 
 A Lie algebroid over a [[manifold]] $X$ is 
@@ -63,7 +63,7 @@ Conversely, one finds that every [[semi-free dga]] finitely generated in degree 
 
 ### Semi-free dg-algebras ###
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition in terms of Chevalley--Eilenberg algebra
 
 A Lie algebroid over a manifold $X$ is a vector bundle 
@@ -90,7 +90,7 @@ It is helpful to compare this definition to the general definition of [[Lie infi
 
 ### Lie-Rinehart algebras ###
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition in terms of commutative Lie--Rinehart pairs
 
 A Lie algebroid over the manifold $X$ is 
@@ -121,7 +121,9 @@ This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the
 
 *  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the [[adjoint representation]] of $G$ on its Lie algebra) is a bundle of Lie algebras.
 
- * The **[[Atiyah Lie algebroid]]** is the Lie algebroid of the  [[Atiyah Lie groupoid]] of a principal bundle: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
+* Lie algebroids with injective anchor maps are equivalently [[integrable distributions]] in the [[tangent bundle]] of their base manifold and hence are equivalently [[foliations]] of their base manifold.
+
+* The **[[Atiyah Lie algebroid]]** is the Lie algebroid of the  [[Atiyah Lie groupoid]] of a principal bundle: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
 $$
   0 \to ad P \to At(P) \to T X \to 0
 $$
