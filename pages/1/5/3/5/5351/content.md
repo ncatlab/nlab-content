@@ -18,4 +18,10 @@ Relative dimension of morphisms of schemes is defined in
 
 * [[EGA]], IV, def. 5.1.2.
 
++-- {: .query}
+I don't see this definition in (EGA, IV, 5.1.2), in fact I don't think it appears in EGA at all.  -- [[Adeel Ahmad Khan]]
+=--
+
+* [Stacks project, `02NI`](http://stacks.math.columbia.edu/tag/02NI)
+
 [[!redirects relative dimensions]]
