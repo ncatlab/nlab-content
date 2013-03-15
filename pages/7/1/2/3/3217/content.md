@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Higher Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
@@ -109,16 +113,102 @@ This is called the **[[Haefliger cocycle]]** of the foliation atlas.
 
 =-- 
 
-+-- {: .num_defn }
++-- {: .num_defn #AsIntegrableDistribution}
 ###### Definition
 
 A smooth foliation of a [[smooth manifold]] $X$ is equivalently an [[integrable distribution]] $E \hookrightarrow T X$.
 
 =--
 
-## Examples
+### In terms of Lie algebroids and Lie groupoids
+ {#InTermsOfLieAlgebroidsAndLieGroupoids}
+
+Definition \ref{AsIntegrableDistribution} above 
+is immediately reformulated equivalent as the following statement
+in [[higher Lie theory]].
+
++-- {: .num_defn #AsLieAlgebroidsWithInjectiveAnchor}
+###### Definition
+
+For $X$ a [[smooth manifold]], a foliation of $X$ is equivalently a [[Lie algebroid]] over $X$ such that the [[anchor map]] is an [[injection]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[Lie groupoids]] which under [[Lie differentiation]] give rise to Lie algebroids with injective anchors as in def. \ref{AsLieAlgebroidsWithInjectiveAnchor} are precisely those which are Morita-equivalent to [[étale groupoids]] (hence are the _[[foliation groupoids]]_, see there for more details) ([Crainic-Moerdijk 00, theorem 1](#CrainicMoerdijk)).
+
+=--
+
+One says:
+
++-- {: .num_defn}
+###### Definition
+
+A [[Lie groupoid]] **integrates** a given foliation, if it [[Lie integration|Lie integrates]] the coresponding [[Lie algebroid]], according to def. \ref{AsLieAlgebroidsWithInjectiveAnchor}.
+
+=--
 
 +-- {: .num_example}
+###### Example
+
+For a simple foliation $\mathcal{D}$ of a manifold $X$, example \ref{SimpleFoliation}, hence one where there is a [[submersion]] 
+
+$$ p_{\mathcal{D}} \;\colon\; X \to X/\mathcal{D}$$
+
+to the leaf space, that map itself is the [[atlas]] of a Lie groupoid $\mathcal{G}$ which integrates the foliation, which is the [[Cech nerve]]
+
+$$
+  \mathcal{G}_\bullet
+  = 
+  \left(
+     X \underset{X/\mathcal{D}}{\times} X
+     \stackrel{\to}{\to}
+     X/\mathcal{D}
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Among all Lie groupoids that integrate a given foliation $\mathcal{F}$ of a manifold $X$, the two special extreme
+
+1. [[holonomy groupoid]] $Hol(X,\mathcal{F})_\bullet$
+
+1. [[monodromy groupoid]] $Monod(X,\mathcal{F})_\bullet$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{G}_\bullet$ be a [[Lie groupoid]] with (for simplicity) [[connected topological space|connected]] source-fibers. 
+
+Then there are maps
+
+$$
+  hol
+  \;\colon\;
+  Monod(X,\mathcal{F})_\bullet
+  \stackrel{g_{\mathcal{G}}}{\to}
+  \mathcal{G}_\bullet
+   \stackrel{hol_G}{\to}
+  Hol(X,\mathcal{F})
+$$
+
+which are surjective [[local diffeomorphisms]] and such that the composite is the holonomy morphism (...).
+
+=--
+
+This is ([Crainic-Moerdijk 00, prop. 1](#CrainicMoerdijk)).
+
+## Examples
+
++-- {: .num_example #SimpleFoliation}
 ###### Example
 
 For $X \to Y$ a [[submersion]] of [[smooth manifolds]], the connected [[fibers]] of the submersion constitute a foliation of $X$ whose [[codimension]] is the [[dimension]] of $Y$. Foliations of this form are called **simple foliations**.
@@ -154,11 +244,14 @@ There is a theory of [[characteristic classes]] for foliations. A most well know
 
 ## Related concepts
 
+* [[holonomy groupoid]], [[monodromy groupoid]]
+
 * [[orbifold]]
 
 * [[higher differential geometry applied to plain differential geometry]]
 
 ## References
+ {#References}
 
 The notion of foliated manifolds was introduced in the 1950s, motivated from [[partial differential equation]] theory, in 
 
@@ -173,10 +266,15 @@ A discussion in [[differential geometry]] is in
 
 * Robert Hermann, _On the differential geometry of foliations_, Annals of Mathematics, Second Series, Vol. 72, No. 3 ([JSTOR](http://www.jstor.org/stable/1970226))
 
-A textbook on the modern formulation in [[Lie groupoid]] theory is 
+A textbook account with a view to the modern formulation in [[Lie groupoid]] theory is 
 
 * [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
  {#MoerdijkMrcun}
+
+Foliations in [[Lie groupoid]] theory are discussed in more detail in 
+
+* [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_ ([arXiv:math/0003119](http://arxiv.org/abs/math/0003119))
+ {#CrainicMoerdijk}
 
 
 See als
