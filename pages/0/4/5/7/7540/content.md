@@ -1,4 +1,10 @@
+
 * [Home page](http://www.unige.ch/math/folks/haefliger/)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Andr%C3%A9_Haefliger)
+
 category:people
+
 [[!redirects A. Haefliger]]
+[[!redirects Haefliger]]
+[[!redirects Andre Haefliger]]
