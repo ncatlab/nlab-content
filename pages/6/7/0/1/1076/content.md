@@ -29,7 +29,7 @@ Therefore, all the structure and properties of a triangulated category is best u
 
 A central class of examples of triangulated categories are the [[derived categories]] $D(\mathcal{A})$ of [[abelian categories]] $\mathcal{A}$. These are the [[homotopy category of an (∞,1)-category|homotopy categories]] of the [[(∞,1)-categories of chain complexes]] in $\mathcal{A}$.
 
-Triangulated categories are sufficient for some purposes, and can be easier to work with than the [[stable (∞,1)-categories]] that they come from, but -- as with every [[quotient]] construction -- often one needs more information than is present in the triangulated category, especially  concernign the computatin of [[homotopy limits]] and [[homotopy colimits]]: the ordinary [[limits]] and [[colimits]] and other [[universal constructions]] in a triangulated category generally have no useful interpretation.
+Triangulated categories are sufficient for some purposes, and can be easier to work with than the [[stable (∞,1)-categories]] that they come from, but -- as with every [[quotient]] construction -- often one needs more information than is present in the triangulated category, especially  concerning the computation of [[homotopy limits]] and [[homotopy colimits]]: the ordinary [[limits]] and [[colimits]] and other [[universal constructions]] in a triangulated category generally have no useful interpretation.
 
 Accordingly, there is a series on notions that refine that of a triangulated category, approximating more and more of the full structure of a [[stable (∞,1)-category]]:
 
