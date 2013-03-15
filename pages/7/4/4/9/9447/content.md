@@ -1,4 +1,3 @@
-[[!redirects Haefliger structures]]
 
 ## Idea
 
@@ -8,3 +7,8 @@ The notion of _Haefliger structure_ is a slight generalization of that of _[[fol
 
 
 * [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
+
+[[!redirects Haefliger structures]]
+
+[[!redirects Haefliger cocycle]]
+[[!redirects Haefliger cocycles]]
