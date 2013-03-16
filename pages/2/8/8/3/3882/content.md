@@ -1,8 +1,18 @@
 
+
+
 * [website](http://www.londonmet.ac.uk/depts/cctm/staff-pages/andrew_tonks.cfm)
+
+* [thesis (Bangor, 1993)](http://www.maths.bangor.ac.uk/research/tonks/pubs.html)
 
 ## related $n$Lab entries
 
+* [[Eilenberg-Zilber theorem]]
+
 * [[homotopy BV-algebra]]
 
+
 category: people
+
+[[!redirects Andrew Tonks]]
+[[!redirects A. P. Tonks]]
