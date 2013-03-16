@@ -22,7 +22,7 @@ Analogously there is also a version of the theorem for bi-cosimplicial abelian g
 
 ## Statement
 
-### Simplicial version
+###A  version for simplicial abelian groups:
 
 Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisimplicial abelian group]]. Write 
 
@@ -80,7 +80,30 @@ $$
 
 ###Crossed complex version
 
-A version for [[crossed complexes]] is given by [[Andy Tonks]].
+A version for [[crossed complexes]] is given by [[Andy Tonks]]. We give a summary:
+
+First note that there is a tensor product for crossed complexes developed by Brown and Higgins.  Letting $K$ and $L$ be simplicial sets.
+
+*  There is an Alexander-Whitney diagonal approximation defined as a natural transformation
+
+$$a_{K,L}: \pi(K\times L)\to \pi K \otimes \pi L.$$
+
+* Using [[shuffles]], one defines an Eilenberg - Zilber map
+
+$$b_{K,L}:\pi K \otimes \pi L \to\pi(K\times L), $$
+
+in a somewhat similar way to chain complexes.
+
+*  The composite 
+
+$$\pi(K\times L)\to \pi K \otimes \pi L\to\pi(K\times L), $$
+
+is homotopic to the identity on $\pi(K\times L)$,  whilst the other composite is the identity on $\pi K \otimes \pi L$, thus this is a strong deformation retract  of $\pi(K\times L)$.
+
+
+###The Eilenberg - Zilber theorem for simplicial sets
+
+Cegarra and REmedios have proved a version of the EIlenberg -  Zilber theorem for simplicial sets.  This is disccued under the entry n [[bisimplicial set]]s.
 
 ## Applications 
 
@@ -133,6 +156,8 @@ The cosimplicial version of the theorem appears as theorem A.3 in
 
 The crossed complex  version is given in 
 
-* [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220
+* [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220,
+
+(for more detail see Tonks' [thesis](http://www.maths.bangor.ac.uk/research/tonks/pubs.html)),
 
 and on page 360 of [[Nonabelian Algebraic Topology]].
