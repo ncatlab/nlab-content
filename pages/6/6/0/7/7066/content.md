@@ -23,11 +23,11 @@ For a [[symplectic manifold]] $(X, \omega)$ regarded as the [[phase space]] of a
 
 The archtypical example is that where $X = T^* \Sigma$ is the [[cotangent bundle]] of a [[manifold]] $\Sigma$. In this case the canonical [[canonical coordinates]] are those parameterizing $\Sigma$ itself, while the canonical [[canonical momenta]] are coordinates on each [[fiber]] of the cotangent bundle.
 
-But for general symplectic manifolds there is no such canonical choice of coordinates and momenta. Moreover, in general there is not even a global notion of canonical momenta. Instead, a choice of polarization is a [[foliation]] of phase space by [[Lagrangian submanifolds]] and
+But for general symplectic manifolds there is no such canonical choice of coordinates and momenta. Moreover, in general there is not even a global notion of canonical momenta. Instead, a choice of (real) polarization is a [[foliation]] of phase space by [[Lagrangian submanifolds]] and then
 
 * the "[[canonical coordinates]]" are coordinates on the corresponding [[leaf space]] (parameterizing the leaves);
 
-* the "[[canonical momenta]]" are coordinates along each leaf. If there is no _typical leaf_ then this is not a globally defined notion, only the polarization itself is.
+* the "[[canonical momenta]]" are coordinates along each [[leaf]]. If there is no _typical leaf_ then this is not a globally defined notion, only the polarization itself is.
 
 Locally this is a choice of [[coordinate patch]] $\phi : \mathbb{R}^{2n} \to X$ such that the [[symplectic form]] takes the form
 
