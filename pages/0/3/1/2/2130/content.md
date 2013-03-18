@@ -204,6 +204,8 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[G2-manifold]]
 
+[[!include (co)isotropic subspaces - table]]
+
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 
@@ -211,7 +213,7 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 See the references at [[symplectic geometry]].
 
-The generalization of the notion of symplectic manifolds to [[dg-geometry]] is sometimes known as _[[NQ-supermanifolds|PQ-supermanifolds]]_ , due to
+The generalization of the notion of symplectic manifolds to [[dg-manifolds]] is sometimes known as _[[NQ-supermanifolds|PQ-supermanifolds]]_ , due to
 
 * M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
 
