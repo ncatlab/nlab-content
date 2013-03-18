@@ -13,7 +13,7 @@ Special cases:
 * For $r = \dim V$, this is the point again.
 * For $r \gt \dim V$, this is the [[empty space]].
 
-If $V$ is an [[inner product space]], then [[orthogonal complement]] defines an [[isomorphism]] between $Gr(r,V)$ and $Gr(\dim V - r,V)$.
+If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines an [[isomorphism]] between $Gr(r,V)$ and $Gr(\dim V - r,V)$.
 
 
 ## Related concepts
