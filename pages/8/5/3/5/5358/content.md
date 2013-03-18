@@ -61,7 +61,7 @@ A **Galois topos** is a [[topos]] that is
 
 * [[connected topos|connected]];
 
-* [[separator|separated]] by its Galois objects; (the term `separated by its Galois objects' is also used).
+* [[separator|separated]] by its Galois objects.
 
 =--
 
