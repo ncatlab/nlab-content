@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 
@@ -23,6 +27,11 @@ a sub-[[vector space]]
 Similarly for a [[symplectic manifold]]. See _[[Lagrangian submanifold]]_ .
 
 The collection of all Lagrangian subspaces of a given space is called its [[Lagrangian Grassmannian]].
+
+
+## Related concepts
+
+[[!include (co)isotropic subspaces - table]]
 
 
 [[!redirects lagrangian subspace]]
