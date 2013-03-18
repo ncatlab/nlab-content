@@ -29,9 +29,7 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 
 * [[Simon Donaldson]], ...
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_ ([arXiv:0910.4315](http://arxiv.org/abs/0910.4315))
-
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315); _Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry_, [arxiv/1303.3253](http://arxiv.org/abs/1303.3253)
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arxiv/1006.2706](http://arxiv.org/abs/1006.2706) 
 
