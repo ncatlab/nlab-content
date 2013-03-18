@@ -26,4 +26,8 @@ A [[submanifold]] of a [[symplectic manifold]] each [[tangent space]] of which i
 
 * [[coisotropic submanifold]]
 
+* [[Lagrangian submanifold]]
+
+[[!include (co)isotropic subspaces - table]]
+
 [[!redirects isotropic submanifolds]]
