@@ -4,7 +4,7 @@ Janelidze's research includes nonabelian homological algebra, the discovery of c
 
 * (with F. Borceux) Galois Theories, Cambridge Studies in Advanced Mathematics 72, Cambridge University Press, 2001
 
-Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.acnet.ge/~gjanel). 
+Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.ge/~gjanel). 
 
 
 category: people
