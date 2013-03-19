@@ -50,13 +50,29 @@ $$
 
 equipped with the anchor map that sends a [[differential 1-form]] $\alpha$ to the [[vector]] obtained by contraction with the [[Poisson bivector]] $\pi \colon \alpha \mapsto \pi(\alpha,-)$.
 
-The [[Lie bracket]] $[-,-] : \Omega^1(X) \wedge \Omega^(X) \to \Omega^1(X)$ is given by
+The [[Lie bracket]] $[-,-] : \Gamma(T^* X) \wedge \Gamma(T^* X) \to \Gamma(T^* X)$ is given by
 
 $$
- [\alpha,\beta] = \mathcal{L}_{\pi(\alpha)} \beta - \mathcal{L}_{\pi(\beta)} \alpha -d(\pi(\alpha,\beta))\,,
+ [\alpha,\beta] 
+   \coloneqq 
+  \mathcal{L}_{\pi(\alpha)} \beta 
+  - \mathcal{L}_{\pi(\beta)} \alpha 
+  - d_{dR}(\pi(\alpha,\beta))\,,
 $$
 
-where $\mathcal{L}$ denotes the [[Lie derivative]]. On a [[coordinate patch]] this reduces simply to $[d x^i , d x^j] = d_{dR} \pi^{i j}$.
+where $\mathcal{L}$ denotes the [[Lie derivative]] and $d_{dR}$ the [[de Rham differential]]. This is the unique Lie algebroid bracket on $T^* X \stackrel{\pi}{\to} T X$ which is given on exact differential 1-forms by
+
+$$
+  [d_{dR} f, d_{dR} g] = d_{dR} \{f,g\}
+$$
+
+for all $f,g \in C^\infty(X)$. On a [[coordinate patch]] this reduces to 
+
+$$
+  [d x^i , d x^j] = d_{dR} \pi^{i j}
+$$
+
+for $\{x^i\}$ the coordinate functios and $\{\pi^{i j}\}$ the components of the [[Poisson tensor]] in these coordinates. 
 
 
 ### Chevalley-Eilenberg algebra
