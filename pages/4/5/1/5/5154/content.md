@@ -374,6 +374,11 @@ The discussion of the model structure on algebras over a suitable operad is in
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
 
+More discussion on the transport of operad algebra structures along [[Quillen adjunctions]]/[[Bousfield localization of model categories|Bousfield localizations]] between the underlying model categories is in 
+
+* [[Carles Casacuberta]], [[Javier Gutiérrez]], [[Ieke Moerdijk]], [[Rainer Vogt]], _Localization of algebras over coloured operads_, Proceedings of the London Mathematical Society (3) 101 (2010), no. 1, 105-136 ([arXiv:0806.3983](http://arxiv.org/abs/0806.3983))
+
+* [[Javier Gutiérrez]], _Transfer of algebras over operads along derived Quillen adjunctions_, Journal of the London Mathematical Society 86 (2012), 607-625 ([arXiv:1104.0584](http://arxiv.org/abs/1104.0584))
 
 [[!redirects model structures on algebras over an operad]]
 
