@@ -61,6 +61,7 @@ Moreover:
 
 * Finite sets are also Dedekind-finite (in either sense).
 
+* If _[[filtered category]]_ means _admitting cocones of every Bishop-finite diagram_, then a set is Bishop-finite iff it is a [[compact object|finitely presented object]] in Set and it is Kuratowski-finite iff it is a [[finitely generated object]] in Set.
 
 ## Finiteness without infinity
 {#Finitist}
