@@ -1,2 +1,21 @@
-a left ideal
-a left ideal of a semigroup S is meant a non- empty subset A of S suchthat SA subset or equal to A.
+
+Give a [[monoid]] (or [[semigroup]]) $S$, a __left ideal__ in $S$ is [[subset]] $A$ of $S$ such that $S A$ is contained in $A$.  Similarly, a __right ideal__ is a subset $A$ such that $A S \subseteq A$.  Finally, a __two-sided ideal__, or simply __ideal__, in $S$ is a subset $A$ that is both a left ideal and a right ideal.  An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[submonoid]] iff $1 \in A$, in which case $A = S$.
+
+Given a [[monoidal category]] $C$ and a [[monoid object]] (or semigroup object) $S$ of $C$, we can [[internalisation|internalise]] the above.  Note that we require $A$ to be a [[subobject]] of $S$ in $C$, even though it is not necessarily a [[submonoid]].
+
+See [[ideal]] for ideals in more well known contexts: commutative idempotent monoids ([[semilattices]]) and monoids in [[Ab]] ([[rings]]).
+
+
+[[!redirects ideal of a monoid]]
+[[!redirects ideals of a monoid]]
+[[!redirects ideals of monoids]]
+[[!redirects ideal in a monoid]]
+[[!redirects ideals in a monoid]]
+[[!redirects ideals in monoids]]
+[[!redirects ideal of a semigroup]]
+[[!redirects ideals of a semigroup]]
+[[!redirects ideals of semigroups]]
+[[!redirects ideal in a semigroup]]
+[[!redirects ideals in a semigroup]]
+[[!redirects ideal in semigroups]]
+[[!redirects ideals in semigroups]]
