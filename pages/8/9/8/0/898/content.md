@@ -45,7 +45,7 @@ This can be rephrased in more elementary terms by saying that:
 
 Just as all finite [[colimit|colimits]] can be constructed from initial objects, binary coproducts, and coequalizers, so a cocone on any finite diagram can be constructed from these three.
 
-In constructive mathematics, the elementary rephrasing is equivalent to every [[Bishop-finite]] diagram admitting a cocone.
+In constructive mathematics, the elementary rephrasing above is equivalent to every [[Bishop-finite]] diagram admitting a cocone.
 
 ### Higher filteredness
 
