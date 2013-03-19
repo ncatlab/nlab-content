@@ -24,13 +24,13 @@ $$
 
 This $\pi$ is called the **Poisson tensor** or **Poisson bivector** of $(X, \{-,-\})$.
 
-Every bivector $\pi$ such that $[\pi, \pi] = 0$ arises this way.
+Every bivector $\pi$ such that $[\pi, \pi] = 0$ in the [[Schouten bracket]] arises this way.
 
 ## In terms of Lie algebroids
 
 The Poisson tensor constitutes the [[anchor map]] of the [[Poisson Lie algebroid]] $\mathfrak{P}$ which corresponds to the [[Poisson manifold]].
 
-Regarded as an element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P}) \simeq (\wedge^\bullet \Gamma(T X), [\pi,-])$,  the Poisson tensor also consistutes the canonical [[Lie algebroid cocycle]] on $\mathfrak{p}$ which is in [[transgression]] with the canonical [[invariant polynomial]] on $\mathfrak{P}$, the one that exhibits $\mathfrak{P}$ as a [[symplectic Lie n-algebroid|symplectic Lie 1-algebroid]].
+Regarded as an element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P}) \simeq (\wedge^\bullet \Gamma(T X), [\pi,-])$,  the Poisson tensor also constitutes the canonical [[Lie algebroid cocycle]] on $\mathfrak{p}$ which is in [[transgression]] with the canonical [[invariant polynomial]] on $\mathfrak{P}$, the one that exhibits $\mathfrak{P}$ as a [[symplectic Lie n-algebroid|symplectic Lie 1-algebroid]].
 
 
 
