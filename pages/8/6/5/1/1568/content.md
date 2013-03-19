@@ -3,12 +3,12 @@
 * table of contents
 {:toc}
 
-## Summary
+## Definitions
 
 Ideals show up both in [[ring]] theory and in [[lattice]] theory.  Actually, both of these can be slightly generalised:
 
 
-## In rings and other rigs
+### In rings and other rigs
 
 A __left ideal__ in a [[ring]] (or even [[rig]]) $R$ is a [[subset]] $I$ of (the underlying set of) $R$ such that:
 *  $0 \in I$;
@@ -32,7 +32,7 @@ This generalises to:
 Notice that all three kinds of ideal are equivalent for a commutative ring.
 
 
-## In lattices and other prosets
+### In lattices and other prosets
 
 An __ideal__ in a [[lattice]] (or even [[preorder|proset]]) $L$ is a [[subset]] $I$ of (the underlying set of) $L$ such that:
 *  There is an element of $I$ (so that $I$ is [[inhabited set|inhabited]]);
@@ -52,11 +52,16 @@ If $L$ is indeed a lattice, then we can make this look just like the ring versio
 The concept of ideal is dual to that of [[filter]].  A subset of $L$ that satisfies the first two of the three axioms for an ideal in a proset is precisely a [[direction|directed subset]] of $L$; notice that this is weaker than being a sub-join-semilattice even if $L$ is a lattice.
 
 
-## In both at once
+### In both at once
 
 A [[distributive lattice]] is both a lattice and a commutative rig; the two concepts of ideal are the same, as can be seen by comparing the definition for rigs to the last definition for lattices.
 
 A [[Boolean algebra]] is a rig in two different ways: as a distributive lattice and as a [[Boolean ring]].  Fortunately, these actually give the same concept of ideal.
+
+
+### In monoids
+
+There is a notion of ideal in a [[monoid]], or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  See [[ideal in a monoid]].
 
 
 ## Kinds of ideals
