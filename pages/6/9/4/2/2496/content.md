@@ -22,13 +22,15 @@ If we think of a predicate as a [[function]] to [[truth values]], then a higher-
 Higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
 
 
-## Related concpets
+## Related concepts
 
 * [[propositional logic]] (0th order)
 
 * [[predicate logic]] (1st order)
 
 * **higher order logic**
+
+  * [[Isabelle]]
 
 
 [[!redirects higher-order logic]]
