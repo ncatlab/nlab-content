@@ -85,4 +85,9 @@ Special topics:
 
 * [[T. Brzeziński]], L. Kadison, [[R. Wisbauer]], _On coseparable and biseparable corings_,  Hopf algebras in noncommutative geometry and physics,  71--87, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005. 
 
+There is a generalization of corings:
+
+* Jawad Y. Abuhlail, _Semicorings and semicomodules_, [arxiv/1303.3924](http://arxiv.org/abs/1303.3924)
+
 [[!redirects corings]]
+[[!redirects semicoring]]
