@@ -1,1 +1,1 @@
-[[!redirects map from compact space to Hausdorff space]]
+category: empty
