@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Differential calculus_ is one of the two halves of the [[infinitesimal]] calculus, the other being [[integral]] calculus.  (The two are linked by the [[fundamental theorem of calculus]].)  The differential calculus was developed in the 18th century by [[Isaac Newton]] and [[Gottfried Leibniz]] (acting independently).
+_Differential calculus_ is one of the two halves of the [[infinitesimal]] calculus, the other being [[integral calculus]].  (The two are linked by the [[fundamental theorem of calculus]].)  The differential calculus was developed in the 18th century by [[Isaac Newton]] and [[Gottfried Leibniz]] (acting independently).
 
 In modern terms, the original differential calculus describes the behaviour of [[dfferentiation]] of [[smooth function|function]]s on the [[real line]].  From here, we move to the study of [[differential equation]]s and then to [[differential geometry]] ([[de Rham complex]]) and eventually generalize to a wide class of analogous situations (see for instance [[synthetic differential geometry]] and [[D-modules]]).
 
