@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -55,8 +56,11 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
   * [[semi-Segal space]]
 
 ## References
+ {#References}
 
 > For more references see also at _[[semi-simplicial set]]_ and _[[semi-Segal space]]_.
+
+### Semi-simplicial bundles
 
 Discussion of semi-simplicial [[fiber bundles]] is in 
 
@@ -64,7 +68,10 @@ Discussion of semi-simplicial [[fiber bundles]] is in
 
 * S. Weingram, _The realization of a semisimplicial bundle map is a $k$-bundle map_ ([pdf](http://www.ams.org/journals/tran/1967-127-03/S0002-9947-1967-0231382-7/S0002-9947-1967-0231382-7.pdf))
 
-Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy type theory]] is in
+### In homotopy type theory
+ {#ReferencesInHomotopyTypeTheory}
+
+Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy type theory]] (for use as discussed at _[[category object in an (infinity,1)-category]]_) is in
 
 * [[UF-IAS-2012]], _[Semi-simplicial types](http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
  {#IAS}
@@ -73,9 +80,13 @@ Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy
 
 * [[Vladimir Voevodsky]], _[semisimplicial.v](http://uf-ias-2012.wikispaces.com/file/detail/semisimplicial.v)_
 
-but its execution requires a modification of the [[type theory]], discussed in 
+but its execution requires augmenting [[homotopy type theory]] with an auxilirary [[extensional type theory|extensional]] [[identity type]], discussed in 
 
-* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ ([pdf](http://uf-ias-2012.wikispaces.com/file/detail/TTS_slides.pdf))
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/HTS_slides.pdf/410105196/HTS_slides.pdf))
+
+More along these lines is in 
+
+* [[Hugo Herbelin]], _A dependently-typed construction of semi-simplicial types_ (March 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi-simplicial.pdf/416038766/semi-simplicial.pdf))
 
 
 [[!redirects semi-simplicial object]]
