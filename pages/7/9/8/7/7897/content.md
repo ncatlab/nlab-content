@@ -1,1 +1,1 @@
-$x^2$
+category: empty
