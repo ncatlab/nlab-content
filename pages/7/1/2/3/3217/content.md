@@ -25,7 +25,7 @@
 
 ## Idea
 
-A _foliation_ of a [[manifold]] $X$ is a decomposition into [[submanifolds]] in a locally well-behaved way. These submanifolds are called the _leaves_ of the foliation and one says that $X$ is _foliated by the leaves_.
+A _foliation_ of a [[manifold]] $X$ is a decomposition into [[submanifolds]]. These submanifolds are called the _leaves_ of the foliation and one says that $X$ is _foliated by the leaves_. In order to have a useful notion, leaves are required to behave sufficiently well locally. In particular if all leaves have the same [[dimension]] then one speaks of a _regular foliation_, which is the case discussed here. If the dimension of leaves is allowed to vary one speaks instead a _[[singular foliation]]_, see there for more details.
 
 For [[smooth manifolds]] smooth foliations are decomposition into [[immersion|immersed]] [[submanifolds]] such that locally this is by the [[fibers]] of a [[submersion]] (the projection to the [[space of leaves]]).
 
@@ -645,3 +645,6 @@ More general issues of index theory in noncommutative geometry applied to foliat
 [[!redirects spaces of leaves]]
 
 [[!redirects foliation theory]]
+
+[[!redirects regular foliation]]
+[[!redirects regular foliations]]
