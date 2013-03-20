@@ -182,6 +182,9 @@ Special cases of $\infty$-Lie algebra cohomology are of course
 
 * [[nonabelian Lie algebra cohomology]].
 
+Specific examples include:
+
+* cohomology of [[Poisson Lie algebroids]] is _[[Poisson cohomology]]_.
 
 
 ## Transgression between invariant polynomials and cocycles via Chern-Simons elements
