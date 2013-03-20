@@ -1,4 +1,6 @@
 
+> This entry is about discontinuities in parameter dependence of solutions of [[differential equations]] and similar phenomena in [[physics]]. For the notion of the same name in [[Morse theory]] see at _[[Cerf wall crossing]]_.
+
 # Contents
 * table of contents
 {: toc}
