@@ -267,8 +267,7 @@ A discussion of  coalgebraic modal logic and of general modal logic in terms of 
 
 ##History
 
-* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ ([pdf](homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
- {#Goldblatt}
+* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ ([pdf](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
 
 * [history of modern modal logic](http://plato.stanford.edu/entries/logic-modal-origins/)
 
