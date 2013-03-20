@@ -96,7 +96,6 @@ Some authors use "compact" to mean "compact [[Hausdorff topological space|Hausdo
 Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
 
-
 ## Properties
 
 * Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
@@ -122,6 +121,7 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 * [[compactly supported cohomology]]
 
+
 [[!redirects compact space]]
 [[!redirects compact spaces]]
 [[!redirects compact topological space]]
@@ -138,5 +138,3 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 [[!redirects compact subspaces]]
 [[!redirects compact subset]]
 [[!redirects compact subsets]]
-
-[[!redirects compact space]]
