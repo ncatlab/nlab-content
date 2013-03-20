@@ -1,24 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Compact objects
-+--{: .hide}
++-- {: .hide}
 [[!include compact object - contents]]
 =--
 =--
 =--
 
-
-
-
 # Finite objects
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -42,6 +39,7 @@ Assume that $\mathcal{T}$ is equipped with a [[natural numbers object]] $N$. Wri
 A "finite set" in $\mathcal{T}$ in the strictest sense is usually called a **finite cardinal**.  This is an [[object]] $[n] \in \mathcal{C}$ which is the [[pullback]] of $N_{\lt}\to N$ along some [[global element]] $n:1\to N$.  
 
    We can then consider [[subobjects]], [[quotient objects]], and [[subquotient objects]] of finite cardinals to obtain external versions of subfinite, finitely indexed, and subfinitely indexed sets.
+
 
 ### Internal version
  {#InternalDefinition}
@@ -91,6 +89,7 @@ The following lists closure properties of K-finite objects, def. \ref{KFinite}.
 
 This appears in ([Johnstone](#Johnstone)) as lemma D5.4.4, corollary D5.4.5, pro. 5.4.8.
 
+
 ### Subcategories of finite objects
 
 The [[full subcategory]] of finite cardinals in any [[topos]] is again a topos, and it is [[Boolean topos|Boolean]].  Its [[subobject classifier]] is $2=1\sqcup 1$, which in the ambient topos is the classifier only of [[decidable object|decidable]] subobjects.  This means that [[classical logic|classically]] valid arguments, including all of finitary combinatorics, can generally be applied easily to finite cardinals, as long as we always interpret "subset" to mean "decidable subset."
@@ -132,6 +131,7 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 ([Moerdijk-Vermeulen, examples III 1.4](#MoerdijkVermeulen))
 
+
 ## Examples
 
 * In any [[Boolean topos]], all four internal notions coincide.  In a [[well-pointed topos]], each internal notion coincides with its external notion.  Therefore, in a well-pointed Boolean topos, including the topos [[Set]] as usually conceived, all notions of finiteness coincide.
@@ -147,7 +147,6 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 * In particular, if $C$ is a groupoid, the topos of decidable $K$-finite objects is equivalent to $[C^{op},FinSet]$.  Since the topos of presheaves on a groupoid is Boolean, this gives an example of a Boolean topos in which the finite cardinals ("externally finite objects") and the (decidable) $K$-finite objects ("internally finite objects") fail to coincide.
 
 * In the [[category of sheaves]] $Sh(X)$ over a [[topological space]], the decidable K-finite objects are those that are "locally finite;" i.e. there is an [[open cover]] of $X$ such that over each open in the cover, the sheaf is a [[locally constant function]] to $N$.  These are essentially the same as [[covering space|covering spaces]] of $X$ with finite fibres.
-
 
 
 ## References
@@ -168,12 +167,80 @@ See also
 * [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
   {#MoerdijkVermeulen}
 
+
 [[!redirects finite object]]
 [[!redirects finite objects]]
-
 [[!redirects finite]]
+[[!redirects finiteness]]
+[[!redirects B-finite object]]
+[[!redirects B-finite objects]]
+[[!redirects B-finite]]
+[[!redirects B-finiteness]]
+[[!redirects F-finite object]]
+[[!redirects F-finite objects]]
+[[!redirects F-finite]]
+[[!redirects F-finiteness]]
 
+[[!redirects subfinite object]]
+[[!redirects subfinite objects]]
+[[!redirects subfinite]]
+[[!redirects subfiniteness]]
+[[!redirects B-tilde-finite object]]
+[[!redirects B-tilde-finite objects]]
+[[!redirects B-tilde-finite]]
+[[!redirects B-tilde-finiteness]]
+[[!redirects F-tilde-finite object]]
+[[!redirects F-tilde-finite objects]]
+[[!redirects F-tilde-finite]]
+[[!redirects F-tilde-finiteness]]
+
+[[!redirects finitely indexed object]]
+[[!redirects finitely-indexed object]]
+[[!redirects finitely indexed objects]]
+[[!redirects finitely-indexed objects]]
+[[!redirects finitely indexed]]
+[[!redirects finitely-indexed]]
+[[!redirects Kuratowski-finite object]]
 [[!redirects Kuratowski finite object]]
+[[!redirects Kuratowski-finite objects]]
 [[!redirects Kuratowski finite objects]]
-
+[[!redirects Kuratowski-finite]]
+[[!redirects Kuratowski finite]]
 [[!redirects Kuratowski finiteness]]
+[[!redirects Kuratowski-finiteness]]
+[[!redirects K-finite object]]
+[[!redirects K-finite objects]]
+[[!redirects K-finite]]
+[[!redirects K-finiteness]]
+
+[[!redirects subfinitely indexed object]]
+[[!redirects subfinitely-indexed object]]
+[[!redirects subfinitely indexed objects]]
+[[!redirects subfinitely-indexed objects]]
+[[!redirects subfinitely indexed]]
+[[!redirects subfinitely-indexed]]
+[[!redirects Kuratowski-subfinite object]]
+[[!redirects Kuratowski subfinite object]]
+[[!redirects Kuratowski-subfinite objects]]
+[[!redirects Kuratowski subfinite objects]]
+[[!redirects Kuratowski-subfinite]]
+[[!redirects Kuratowski subfinite]]
+[[!redirects Kuratowski subfiniteness]]
+[[!redirects Kuratowski-subfiniteness]]
+[[!redirects K-tilde-finite object]]
+[[!redirects K-tilde-finite objects]]
+[[!redirects K-tilde-finite]]
+[[!redirects K-tilde-finiteness]]
+
+[[!redirects Dedekind-finite object]]
+[[!redirects Dedekind finite object]]
+[[!redirects Dedekind-finite objects]]
+[[!redirects Dedekind finite objects]]
+[[!redirects Dedekind-finite]]
+[[!redirects Dedekind finite]]
+[[!redirects Dedekind finiteness]]
+[[!redirects Dedekind-finiteness]]
+[[!redirects D-finite object]]
+[[!redirects D-finite objects]]
+[[!redirects D-finite]]
+[[!redirects D-finiteness]]
