@@ -5,7 +5,7 @@
 
 ## Idea
 
-Cauchy's integral theorem states that path [[integration axiom|integrals]] of holomorphic functions over paths, in every simply connected open subset of the [[complex number|complex plane]] are invariant under [[homotopy]] of paths.
+Cauchy's integral theorem states that [[integration axiom|integrals]] of holomorphic functions along paths, in every simply connected open subset of the [[complex number|complex plane]] are invariant under [[homotopy]] of paths.
 
 
 ## Statement
