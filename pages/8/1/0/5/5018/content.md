@@ -31,7 +31,7 @@ Explicitly, given a (Riemannian) [[foliation]] $F$ on a manifold $X$, the _holon
 
 This is naturally a [[topological groupoid]] and a [[Lie groupoid]] if done right.
 
-The **monodromy groupoid** of the foliation is obtained from this by furhthermore dividing out [[homotopy]] between paths in a leaf.
+The **monodromy groupoid** of the foliation is obtained from this by furthermore dividing out [[homotopy]] between paths in a leaf.
 
 
 
