@@ -17,15 +17,15 @@ The category [[FinSet]] of finite sets and functions between them is essentially
 
 In [[constructive mathematics]], and internally to a [[topos]], a number of classically equivalent notions of finiteness become distinguishable:
 
-* A set is **finite** (for emphasis __Bishop-finite__ or __$B$-finite__) if (as above) it admits a [[bijection]] with $[n]$ for some [[natural number]] $n$.
+* A set is **[[finite]]** (for emphasis __Bishop-finite__ or __$B$-finite__) if (as above) it admits a [[bijection]] with $[n]$ for some [[natural number]] $n$.
 
-* A set is **subfinite** (or __$\tilde{B}$-finite__) if it admits an [[injection]] into some finite set $[n]$; that is, it is a [[subset]] of a finite set.
+* A set is **[[subfinite]]** (or __$\tilde{B}$-finite__) if it admits an [[injection]] into some finite set $[n]$; that is, it is a [[subset]] of a finite set.
 
-* A set is **finitely indexed** (or **[[Kuratowski finiteness|Kuratowski-finite]]**, **$K$-finite**, or even sometimes, confusingly, _subfinite_) if it admits a [[surjection]] from some finite set $[n]$; that is, it is a [[quotient set]] of a finite set.
+* A set is **finitely indexed** (or **[[Kuratowski-finite]]**, **$K$-finite**, or even sometimes, confusingly, _subfinite_) if it admits a [[surjection]] from some finite set $[n]$; that is, it is a [[quotient set]] of a finite set.
 
-* A set is **subfinitely indexed** (or __Kuratowski-subfinite__ or **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
+* A set is **subfinitely indexed** (or __[[Kuratowski-subfinite]]__ or **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
 
-* A set $X$ is **Dedekind-finite** if it satisfies one of the following:
+* A set $X$ is **[[Dedekind-finite]]** if it satisfies one of the following:
 
   * any [[injection]] $X\hookrightarrow X$ must be a [[bijection]].
   * for any function $f\colon \mathbb{N} \to X$ from the [[natural numbers]], there exist $n,m$ with $n \ne m$ such that $f(n) = f(m)$.
@@ -63,6 +63,7 @@ Moreover:
 
 * If _[[filtered category]]_ means _admitting cocones of every Bishop-finite diagram_, then a set is Bishop-finite iff it is a [[compact object|finitely presented object]] in Set and it is Kuratowski-finite iff it is a [[finitely generated object]] in Set.
 
+
 ## Finiteness without infinity
 {#Finitist}
 
@@ -85,6 +86,7 @@ Can you think of a way to define these notions of finite without power objects a
 
 In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.  See [[finite object]].
 
+
 ## Properties
 
 The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equivalent]] to that of finite [[Boolean algebras]] by the [[power set]]-[[functor]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_ for details and see at _[[Stone duality]]_ for more.
@@ -100,14 +102,11 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 [[!redirects Bishop finite]]
 [[!redirects B-finite set]]
 [[!redirects B-finite sets]]
-[[!redirects B-finite]]
 [[!redirects F-finite set]]
 [[!redirects F-finite sets]]
-[[!redirects F-finite]]
 
 [[!redirects subfinite set]]
 [[!redirects subfinite sets]]
-[[!redirects subfinite]]
 [[!redirects Bishop-subfinite set]]
 [[!redirects Bishop-subfinite sets]]
 [[!redirects Bishop-subfinite]]
@@ -116,49 +115,36 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 [[!redirects Bishop subfinite]]
 [[!redirects B-tilde-finite set]]
 [[!redirects B-tilde-finite sets]]
-[[!redirects B-tilde-finite]]
 [[!redirects F-tilde-finite set]]
 [[!redirects F-tilde-finite sets]]
-[[!redirects F-tilde-finite]]
 
 [[!redirects finitely indexed set]]
 [[!redirects finitely indexed sets]]
-[[!redirects finitely indexed]]
 [[!redirects finitely-indexed set]]
 [[!redirects finitely-indexed sets]]
-[[!redirects finitely-indexed]]
 [[!redirects Kuratowski-finite set]]
 [[!redirects Kuratowski-finite sets]]
 [[!redirects Kuratowski-finite]]
 [[!redirects Kuratowski finite set]]
 [[!redirects Kuratowski finite sets]]
-[[!redirects Kuratowski finite]]
 [[!redirects K-finite set]]
 [[!redirects K-finite sets]]
-[[!redirects K-finite]]
 
 [[!redirects subfinitely indexed set]]
 [[!redirects subfinitely indexed sets]]
-[[!redirects subfinitely indexed]]
 [[!redirects subfinitely-indexed set]]
 [[!redirects subfinitely-indexed sets]]
-[[!redirects subfinitely-indexed]]
 [[!redirects Kuratowski-subfinite set]]
 [[!redirects Kuratowski-subfinite sets]]
-[[!redirects Kuratowski-subfinite]]
 [[!redirects Kuratowski subfinite set]]
 [[!redirects Kuratowski subfinite sets]]
 [[!redirects Kuratowski subfinite]]
 [[!redirects K-tilde-finite set]]
 [[!redirects K-tilde-finite sets]]
-[[!redirects K-tilde-finite]]
 
 [[!redirects Dedekind-finite set]]
 [[!redirects Dedekind-finite sets]]
-[[!redirects Dedekind-finite]]
 [[!redirects Dedekind finite set]]
 [[!redirects Dedekind finite sets]]
-[[!redirects Dedekind finite]]
 [[!redirects D-finite set]]
 [[!redirects D-finite sets]]
-[[!redirects D-finite]]
