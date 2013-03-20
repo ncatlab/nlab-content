@@ -36,3 +36,5 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
   _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
 
   _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
+
+[[!redirects quantum cohomology]]
