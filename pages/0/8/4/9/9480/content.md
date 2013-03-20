@@ -1,0 +1,6 @@
+
+* [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Lichnerowicz)
+
+category: people
+
+[[!redirects Andre Lichnerowicz]]
