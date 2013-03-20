@@ -20,6 +20,8 @@ See also the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/e
 
 A list of video-recorded talks by Voevodsky in the context of [[homotopy type theory]] is [here](http://video.ias.edu/taxonomy/term/42).
 
+An interview is [here](http://www.youtube.com/watch?v=vcDaQTPH-Rc).
+
 category: people
 
 [[!redirects Владимир Воеводский]]
