@@ -16,7 +16,7 @@
 
 ## Overview
 
-To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to quantum mechanics is the restriction of this deformation to just first order in $\hbar$.
+To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to quantum mechanics is the restriction of this deformation to just first order (or some finite order) in $\hbar$.
 
 [[!include lassical-to-quantum notions - table]]
 
