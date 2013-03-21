@@ -86,6 +86,9 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
   * [[GNS construction]]
 
+[[!include classical-to-quantum notions - table]]
+
+
 
 [[!redirects quantum state]]
 [[!redirects quantum states]]
