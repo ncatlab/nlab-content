@@ -213,3 +213,4 @@ Lakatos\'s discussion forms Chapter 3 of
 [[!redirects Cauchy's mistake]]
 [[!redirects Cauchy's mistake]]
 [[!redirects Cauchy\'s mistake]]
+[[!redirects Cauchy/'s mistake]]
