@@ -37,6 +37,14 @@ The first counterexamples to Non-Theorem \ref{mistake} arose as [[Fourier series
 $$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} = \frac{\pi}{2} - \frac{x \mathbin{mod} 2 \pi}{2} $$
 may be the simplest.  Each partial sum of this [[infinite series]] is continuous; the sum converges pointwise as indicated for $x$ not a multiple of $2 \pi$ and to $0$ (which is the average of the limits $\pm\pi/2$ on either side) for $x$ a multiple of $2 \pi$.  However, the sequence of partial sums is not equicontinuous, nor does it converge uniformly.  And indeed, the sum is not continuous at multiples of $2 \pi$.
 
+A simple counterexample from outside of this context is
+$$ f_n(x) \coloneqq x^n $$
+on $[0,1]$.  (We can make this a function on all of $\mathbb{R}$ by letting $f_n(x)$ be $f_n(0) = 0$ for $x \lt 0$ and letting $f_n(x)$ be $f_n(1) = 1$ for $x \gt 1$.)  Each $f_n$ is continuous; the pointwise limit is $f_\infty(x) = 0$ for $x \lt 1$ but $f_\infty(x) = 1$ for $x \geq 1$, which is not continuous.  Again, the sequence is not equicontinuous, and its convergence is not uniform.
+
+Another counterexample is
+$$ f_n(x) \coloneqq \exp ({-n {|x|}}) .$$
+(The [[absolute value]] is here only to handle negative values of $x$; the example is [[analytic function|analytic]] on $[0,\infty[$.)  Now $f_\infty(0) = 1$, while $f_\infty(x) = 0$ for $x \ne 0$.
+
 
 ## Proofs
 
@@ -91,7 +99,7 @@ The final inequality is now clearly spurious, since $n, n', n''$ need not be equ
 
 This can be fixed up to a point.  We may let $n'$ be $n$ and let $h'$ be $h$, but then we have no control over $n''$.  Conversely, we may let $n, n', n''$ all be (anything bounded below by) $max(N,N')$, but then we have no control over $h'$.  Indeed, Non-theorem \ref{mistake} is false, as the counterexamples show.
 
-To fix this further, we must strengthen the hypothesis in either of two ways:
+However, the weaker theorems with strengthened hypotheses are valid, by similar proofs:
 +-- {: .proof}
 ###### Proof
 (Theorem \ref{uniform}).
@@ -121,6 +129,69 @@ whenever $n \geq max(N,N')$.  Fixing any such $n$, $f_\infty$ is continuous.
 
 ### In nonstandard analysis
 
+Writing Cauchy\'s argument in the language of [[nonstandard analysis]] developed by [[Abraham Robinson]], we have:
++-- {: .proof}
+###### Non-proof
+(Non-theorem \ref{mistake}).
+
+Because $f$ converges to $f_\infty$ at $x$, ${|f_n(x) - f_\infty(x)|}$ is [[infinitesimal number|infinitesimal]] whenever $n$ is [[infinite number|infinite]].  Because $f_n$ is continuous at $x$ for each finite $n$, it is continuous at $x$ for each infinite $n$ (by the [[transfer principle]]), so ${|f_n(x + h) - f_n(x)|}$ is infinitesimal whenever $h$ is infinitesimal.  Because $f$ converges to $f_\infty$ at each [[standard point]], $f$ converges to $f_\infty$ at the nonstandard point $x + h$ (by the transfer principle), so ${|f_\infty(x + h) - f_n(x + h)|}$ is infinitesimal whenever $n$ is infinite.  Therefore,
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+$$
+is also infinitesimal whenever $n$ is infinite and $h$ is infinitesimal.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
+
+Both uses of the transfer principle are illegitimate, since the statements to which they\'re applied are not [[first-order logic|first-order]] in the language of the [[real numbers]].  Indeed, consider the counterexample $f_n(x) = \exp ({-n {|x|}})$ near $x = 1$.  Then ${|f_n(0 + h) - f_n(0)|} = \exp ({-n {|h|}}) - 1$ is infinitesimal as claimed iff $n h$ is infinitesimal, which may fail.  Conversely, ${|f_\infty(0 + h) - f_n(0 + h)|} = \exp ({-n {|h|}})$ (for $h \ne 0$) is infinitesimal iff $n h$ is infinite, which may also fail.  In between, when $n h$ is finite and finitesimal, both fail!
+
+We can rewrite this proof more carefully, putting down what really follows in place of the misuse of the transfer principle:
++-- {: .proof}
+###### Non-proof
+(Non-theorem \ref{mistake}).
+
+Because $f$ converges to $f_\infty$ at $x$, ${|f_n(x) - f_\infty(x)|}$ is [[infinitesimal number|infinitesimal]] whenever $n$ is [[infinite number|infinite]].  Because $f_n$ is continuous at $x$ for each finite $n$, there is some infinite $N$ such that $f_n$ is continuous at $x$ for all $n \leq N$, so then ${|f_n(x + h) - f_n(x)|}$ is infinitesimal whenever $h$ is infinitesimal.  Because $f$ converges to $f_\infty$ at each [[standard point]] and $x + h$ is [[nearstandard point|nearstandard]], there is an infinite number $N'$ such that ${|f_\infty(x + h) - f_n(x + h)|}$ is infinitesimal whenever $n \geq N'$.  Therefore,
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+$$
+is also infinitesimal whenever $n \leq N$, $n \geq N'$, and $h$ is infinitesimal.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
+This is more clearly wrong, since there may be no such $n$ in the last step (as $N'$ may be larger than $N$).
+
+However, we can modify this to produce correct proofs of the weaker theorems:
++-- {: .proof}
+###### Proof
+(Theorem \ref{uniform}).
+
+Because $f$ converges to $f_\infty$ at $x$, ${|f_n(x) - f_\infty(x)|}$ is [[infinitesimal number|infinitesimal]] whenever $n$ is [[infinite number|infinite]].  Because $f_n$ is continuous at $x$ for each finite $n$, there is some infinite $N$ such that $f_n$ is continuous at $x$ for all $n \leq N$, so then ${|f_n(x + h) - f_n(x)|}$ is infinitesimal whenever $h$ is infinitesimal.  Because $f$ converges to $f_\infty$ uniformly, $f$ converges to $f_\infty$ at the nonstandard point $x + h$, so ${|f_\infty(x + h) - f_n(x + h)|}$ is infinitesimal whenever $n$ is infinite.  Therefore,
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+$$
+is also infinitesimal whenever $n \leq N$ is infinite and $h$ is infinitesimal.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
+
++-- {: .proof}
+###### Proof
+(Theorem \ref{equicontinuous}).
+
+Because $f$ converges to $f_\infty$ at $x$, ${|f_n(x) - f_\infty(x)|}$ is [[infinitesimal number|infinitesimal]] whenever $n$ is [[infinite number|infinite]].  Because $f$ is equicontinuous at $x$, $f_n$ is continuous at $x$ even for infinite $n$, so ${|f_n(x + h) - f_n(x)|}$ is infinitesimal whenever $h$ is infinitesimal.  Because $f$ converges to $f_\infty$ at each [[standard point]] and $x + h$ is [[nearstandard point|nearstandard]], there is an infinite number $N$ such that ${|f_\infty(x + h) - f_n(x + h)|}$ is infinitesimal whenever $n \geq N$.  Therefore,
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+$$
+is also infinitesimal whenever $n \geq N$ and $h$ is infinitesimal.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
+
+On the other hand, in the light of nonstandard analysis, we can also reevaluate Cauchy\'s original claim.  Cauchy himself, when confronted with counterexamples such as the Fourier series, denied that the sequence of functions converged everywhere.  One interpretation of this is that it fails to converge at some nonstandard points.  By this analysis, Cauchy\'s notion of convergence everywhere is our modern notion of uniform convergence, not pointwise convergence, and his theorem is true (and his proof correct).
+
+
+## Remarks by Lakatos
+
+In his experimental textbook _[[Proofs and Refutations]]_, [[Imre Lakatos]] used Cauchy\'s mistake to motivate the concept of uniform convergence.  Two years later, he partially reevaluated his discussion in light of the question of what Cauchy\'s conception of the continuum was.
+
+According to Lakatos, it is equally a mistake to interpret Cauchy\'s 1821 result using either Weierstrass\'s epsilontics or Robinson\'s nonstandard analysis.  Cauchy did not mean that $f_n(x)$ converges (in $n$) for each fixed standard real number $x$, nor that it converges for each fixed hyperreal number; rather, he said that it converges for each *variable* real number.  In particular, when discussing the Fourier series
+$$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} ,$$
+Cauchy states that the sequence
+$$ \sum_{k = 1}^n \frac{\sin(k x)}{k} $$
+of partial sums fails to converge when $x = 1/n$; that is, $x$ is a variable whose value depends on the position in the sequence!
+
 ...
 
 
@@ -134,11 +205,9 @@ The reconstruction in terms of nonstandard analysis is in the historical appendi
 
 *  [[Abraham Robinson]] (1960); _Nonstandard Analysis_.
 
-An interesting discussion forms Chapter 3 of
+Lakatos\'s discussion forms Chapter 3 of
 
 *  [[Imre Lakatos]] (1978); _Mathematics, Science, and Epistemology_.
-
-(This partly retracts Lakatos\'s analysis in _[[Proofs and Refutations]]_.)
 
 
 [[!redirects Cauchy's mistake]]
