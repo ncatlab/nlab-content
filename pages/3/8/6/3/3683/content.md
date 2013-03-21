@@ -1,22 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Overview
 
-Semiclassical or quasiclassical approximation to [[quantum mechanics]] (including infinitely many degrees of freedom, e.g. QFT) in most general sense is the series expansion of the transition amplitudes in Planck constant. However more specifically one considers the Feynman path integral $\int D\phi F(\phi) e^{iS(\phi)/h}$ and develops it by a stationary phase method about the critical points of the action functional $S$ (the critical points of $S$ correspond to the solutions of the [[Euler-Lagrange equation]]s, hence to the classical trajectories of the system). Namely $S$ is assumed to be large and change fast in comparison to the Planck constant, so the increments of $i\pi$ in the phase of the exponent appear very often leading to mutual cancellation, except in the regions close to the critical points. 
+To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to quantum mechanics is the restriction of this deformation to just first order in $\hbar$.
 
-Semiclassical method in more traditional Schroedinger wave equation approach due to Wentzel, Kramers and Brillouin (WKB or WKBJ method, see [wikipedia](http://en.wikipedia.org/wiki/WKB_approximation)), amounts to the expression of the wave function in the form $\phi = exp(S)$ where $S$ is a slowly varying function and solving the equation for $S$. This makes sense for a more general class of wave equations, and in wave optics this short-wave limit is the approximation of [[geometrical optics]] where $S$ is called the **eikonal**. Globally consistent solutions in first order lead to so-called Bohr-Sommerfeld quantization conditions. Multidimensional generalization of WKB method appear to be rather nontrivial; it has been pioneered by V. Maslov who introduced a topological invariant to remove ambiguities of the naive version of the method ([[Maslov index]]). 
+| [[classical mechanics]] | [[semiclassical approximation]] |  ... | [[formal deformation quantization]] | [[quantum mechanics]] |
+|--|--|--|--|--|
+| $\mathcal{O}(\hbar^0)$ | $\mathcal{O}(\hbar^1)$ | $\mathcal{O}(\hbar^n)$ | $\mathcal{O}(\hbar^\infty)$  |  |
 
-## Semiclassical approximation and equivariant localization
+Applied to [[path integral]] [[quantization]], the semiclassical approximation is meant to approximate the [[path integral]] 
+$\int_{\phi \in \mathbf{Fields}} D\phi\; F(\phi) e^{iS(\phi)/\hbar}$ by an expansion in $\hbar$ about the [[critical points]] of the [[action functional]] $S$ (hence the solutions of the [[Euler-Lagrange equations]], hence to the classical trajectories of the system). As usual for the [[path integral]] in [[physics]], this often requires work to make precise, but at a heuristic level the idea is famous as the _[[rotating phase approximation]]_: the idea is that in regions of [[field (physics)|field]]-space where $S$ varies fast as measured in units of [[Planck's constant]], the [[complex number|complex phases]] of the integrand $\exp(i S / \hbar )$ tend to cancel each other in the integral so that substantial contributions to the integral come only from the vicininity of critical points of $S$ (classical [[trajectories]]).
+
+But semiclassical approximations can be applied to most other formulations of [[quantum physics]], where they often lead to precise and powerful mathematical tools.
+
+Notably in the [[Schrödinger picture]] of quantum evolution, solutions to the [[Schrödinger equation]] $i \hbar \frac{d}{d t} \psi = \hat H \psi$ (which characterizes [[quantum states]] given by [[wave functions]] $\psi$ for [[Hamiltonian mechanics|Hamiltonian dynamics]] induced by a [[Hamilton operator]] $\hat H$) are usefully considered to first (or any finite) order in $\hbar$.
+This method, known after (some of) its inventors as the **[[WKB method]]** or similar, amounts to expressing the [[wave function]] in the form $\psi = exp(S)$ where $S$ is a slowly varying function and solving the equation for $S$. 
+Globally consistent such solutions to first order lead to what are called [[Bohr-Sommerfeld leaf|Bohr-Sommerfeld quantization conditions]]. 
+For the formalization of this method in [[symplectic geometry]]/[[geometric quantization]] see at _[[semiclassical state]]_.
+
+This [[WKB method]] makes sense for a more general class of 
+[[wave equations]]. For instance in [[wave mechanics|wave]] [[optics]] this yields the short-[[wavelength]] limit of the [[geometrical optics]] approximation. Here $S$ is called the **[[eikonal]]**. 
+
+Multidimensional generalization of the [[WKB method]] appear to be rather nontrivial; they have been pioneered by V. Maslov who introduced a topological invariant to remove ambiguities of the naive version of the method, called the _[[Maslov index]]_.
+
+## Related phenomena
+
+### Equivariant localization
 
 In some special cases (most often in the presence of supersymmetry) the main contribution (the first term in expansion) amounts to the true result; the quantum correction sometimes leads however to an overall scalar factor. This is the case of so-called localization (related directly in some cases to the equivariant localization in cohomology and Lefshetz-type fixed point formulas). Most of well known examples of integrable systems and TQFTs lead to localization. 
 
-## Large N-limit 
+### Large $N$-limit in gauge theories
 
 The [[large N limit]] of gauge theories, which is of importance in [[collective field theory]] and in the study of relation between gauge and string theories is formally very similar to semiclassical expansion, where the role of Planck constant is played by $1/N^2$. 
 
-## Terminology
+### In radiation theory
 
 In the theory of radiation there is a different meaning of semiclassical treatment: one considers particles in a sorrounding electromagnetic field and the particles are treated as in finite-dimensional quantum mechanics, with the electromagnetic field as an external classical field coupled to the particles via an interaction term. 
 
@@ -62,5 +93,3 @@ For the semiclassical method in [[superstring theory]] see
 [[!redirects quasiclassical approximation]]
 [[!redirects quasi-classical approximation]]
 [[!redirects semiclassical expansion]]
-[[!redirects WKB method]]
-[[!redirects WKB approximation]]
