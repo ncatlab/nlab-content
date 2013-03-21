@@ -70,3 +70,6 @@ Lecture notes with more details are in the section _[Lagrangians and Action func
 [[!redirects prequantum field theories]]
 [[!redirects extended prequantum field theory]]
 [[!redirects extended prequantum field theories]]
+
+[[!redirects higher prequantum field theory]]
+[[!redirects higher prequantum field theories]]
