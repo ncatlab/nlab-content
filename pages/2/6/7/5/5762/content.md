@@ -5,6 +5,8 @@ One of the founding fathers of [[quantum mechanics]].
 
 ## related $n$Lab entries
 
+* [[Bohr-Sommerfeld quantization]]
+
 * [[Bohrification]]
 
 
@@ -12,3 +14,5 @@ category: people
 
 [[!redirects Niels Bohr]]
 [[!redirects Nils Bohr]]
+
+[[!redirects Bohr]]
