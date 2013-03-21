@@ -120,6 +120,10 @@ Every [[symmetry]] induces a conserved current.
 
 This is [[Noether's theorem]]. See there for more details.
 
+## Related concepts
+
+* [[classical observable]]
+
 ## References
 
 Around definition 9 of
@@ -132,3 +136,6 @@ Around definition 9 of
 
 [[!redirects current]]
 [[!redirects currents]]
+
+[[!redirects local current]]
+[[!redirects local currents]]
