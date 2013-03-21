@@ -21,7 +21,7 @@ $$
   Arr(C) := Funct(I,C)
 $$
 
-for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$ or $C^{\Delta[1]}$, since _**[[2]]**_ and $\Delta[1]$ (the 1-[[simplex]]) etc. are common [[notation]] for the interval category.
+for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$ or $C^{\Delta[1]}$, since _**[[2]]**_ and $\Delta[1]$ (the 1-[[simplex]]) etc. are common notation for the interval category.
 
 
 This means that the [[objects]] of $Arr(C)$ are the [[morphisms]] (the "arrows", therefore the name) of $C$, while the [[morphisms]] of $Arr(C)$ are pairs of $C$ morphisms constituting [[commuting diagram|commuting]] square [[diagrams]] in $C$. 
