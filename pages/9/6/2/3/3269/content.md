@@ -58,6 +58,10 @@ $$ CH_k(X) = Z_k(X) / \sim_{\rat} $$
 
 The **Chow ring** is the [[graded ring]] which is the [[direct sum]] of the Chow groups, with multiplication being the [[intersection product]].
 
+More generally one can use any [[adequate equivalence relation]] $\sim$ (e.g. $\sim_{num}, \sim_{hom}, \sim_{alg}$) in place of rational equivalence, to get groups
+
+$$ CH^{\sim}_k(X) = Z_k(X) / \sim $$
+
 ## Cohomological interpretation
 
 Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see there for details) with coefficients in suitable [[Eilenberg-MacLane object]]s.  
@@ -65,12 +69,13 @@ Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see t
 ## Related concepts
 
 * [[arithmetic Chow group]]
+* [[adequate equivalence relation]]
 
 ## References
 
 The canonical reference is
 
-* Fulton, William (1998), Intersection theory, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge. A Series of Modern Surveys in Mathematics, 2, Berlin, New York: Springer-Verlag
+* [[William Fulton]], _Intersection theory_, 1998.  Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge. A Series of Modern Surveys in Mathematics, 2, Berlin, New York: Springer-Verlag
 
 The original references are
 
@@ -83,6 +88,10 @@ The original references are
 The most general treatment can be found in the [[The Stacks Project]]:
 
 * [[Aise Johan de Jong]] et. al., [[The Stacks Project]], chapter 38, _Chow Homology and Chern Classes_ ([URL](http://stacks.math.columbia.edu/chapter/38))
+
+Informal lecture notes by [[Jacob Murre]]:
+
+* [[Jacob Murre]], _Lectures on algebraic cycles and Chow groups_.  Summer school on Hodge theory and related topics, ICTP, 2010.  [PDF](http://jfresan.files.wordpress.com/2010/11/lectures-murre.pdf)
 
 A concise definition of the notion of Chow group and related concepts is in 
 
