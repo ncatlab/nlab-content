@@ -27,6 +27,8 @@ For $n = 1$ this reduces to the notion of a [[Hamiltonian]] [[function]] on a [[
 
 If a Hamiltonian form for $v$ exists then $v$ is called a [[Hamiltonian vector field]].
 
+The Hamiltonian forms are the local [[classical observables]]/[[prequantum observables]] in [[higher prequantum field theory]], often called _[[local currents]]_. They form the [[Poisson-bracket Lie n-algebra of local observables]].
+
 ## Related concepts
 
 [[!include geometric quantization extensions - table]]
