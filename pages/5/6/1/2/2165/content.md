@@ -57,6 +57,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 ## Related concepts
 
+* [[absolute value]], [[phase]]
+
 * [[complex vector space]]
 
   * [[complex line]]
