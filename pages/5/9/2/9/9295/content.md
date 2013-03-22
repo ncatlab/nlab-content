@@ -1,7 +1,7 @@
 
 
 
-[[interference]] of [[wave functions]]
+[[interference]] of [[wave functions]] via [[superposition]] of their [[complex phases]]
 
 ## Related concepts
 
