@@ -9,19 +9,19 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[physics]] the term [[phase]] appears prominently in two superficially different uses: 
 
-Inside the term "[[phase space]]", introduced by [[Boltzmann]] in 1872 in the context of [[classical mechanics]], it refers to the instanteneous position [[coordinates]] and [[momenta]] of a [[particle]]; its _Bewegungsphase_, it _phase of motion_. ([Nolte, p. 4](#Nolte)).
+Inside the term "[[phase space]]", introduced by [[Boltzmann]] in 1872 in the context of [[classical mechanics]], it refers to the instantaneous position [[coordinates]] and [[momenta]] of a [[particle]]; its _Bewegungsphase_, it _phase of motion_. ([Nolte, p. 4](#Nolte)).
 
 But the term "[[phase]]" re-appeared, independently, with the advent of [[quantum physics]]: it refers to the [[complex phase]] of the [[complex numbers]] that [[wave functions]] take values in.
 
-But it turns out that in the [[semiclassical approximation]] to [[quantum physics]] the phase of wave functions (or rather its [[derivative]]) precisely parameterizes points in [[phase space]]! Even though this is historically a pure coinicdence of terminology, fortunately it matches to some extent.
+But it turns out that in the [[semiclassical approximation]] to [[quantum physics]] the phase of wave functions (or rather its [[derivative]]) precisely parametrizes points in [[phase space]]! Even though this is historically a pure coincidence of terminology, fortunately it matches to some extent.
 
 This relation is discussed in some detail at _[[semiclassical state]]_. It is an old observation that drove the pre-history of [[quantum mechanics]] at a time when this was discovered by drawing analogies with [[wave mechanics|wave]] [[optics]]: 
 
@@ -49,18 +49,18 @@ $$
 
 The phase-space image of $X$ defined this way is the level set of the given [[Hamiltonian]] $H \colon T^* X \to \mathbb{R}$ at [[energy]] $E = \hbar \omega$.
 
-So the de Rham differential $\mathbf{d}S$ of the complex phase function $S$ of a semiclassical wave function precisely parameterizes this semiclassical state as a submanifold in phase space.
+So the de Rham differential $\mathbf{d}S$ of the complex phase function $S$ of a semiclassical wave function precisely parametrizes this semiclassical state as a submanifold in phase space.
 
 
 ## References
 
 The origin of the term "phase" in "phase space" is discussed in
 
-* David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
+* David Nolte, _The tangled tale of phase space_, Physics Today (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
 
 The close relation between complex phases of semiclassical wave functions and phase space points is discussed for instance in the introduction (around p. 9) of 
 
 * Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_ ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
 
 
- 
+[[!redirects phase and phase space in physics]]
