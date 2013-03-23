@@ -1,63 +1,58 @@
-
-
 This entry is about the text
 
 * [[Alexander Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ ([numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short))
-
 
 
 #Contents#
 * table of contents
 {:toc}
 
-
-
-##The name
-
-EGA stands for _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ (Elements of algebraic geometry), which was written by [[Grothendieck]], with help of [[Jean Dieudonne|Jean Dieudonné]]. These volumes (and a list is given below) were among his many works attempting to build the foundations for [[algebraic geometry]]. They were preceded by FGA and were followed up by the SGA, more details of these can be found below.
-
-
-
 ##EGA
 
- _EGA_, written with help of [[Jean Dieudonne|Jean Dieudonné]]. This is a detailed exposition of scheme theory (note that our [[schemes]] in the nLab are what, in _EGA_, are  called preschemes; EGA's schemes are what we call separated schemes). 
+EGA stands for _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ (Elements of algebraic geometry), which was written by [[Alexandre Grothendieck]] and co-edited with [[Jean Dieudonne|Jean Dieudonné]]. These volumes (and a list is given below) were among his many works attempting to build the foundations for [[algebraic geometry]] in the language of [[schemes]]. They were preceded by FGA and were followed up by the SGA, more details of these can be found below.
 
-The numbering of the chapters is nontrivial as there is a  chapter 0, the preliminaries, which continue at the beginning of various chapters.
-
-
-The published part of _EGA_ is in Publ. IH&#201;S, now free online at [numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short) (detailed links to chapters, and their contents will be added here later, see also below for a list of the volumes in the series). We plan to list here the grand plan and some remarks and links. 
-
-(The listing of contents is complicated by the existence of somewhat different reedition of _EGA I_ as a single book 1971, which complicated citations. )
+The published part of _EGA_ is in Publ. IH&#201;S, now free online at [numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short) (detailed links to chapters, and their contents will be added here later, see also below for a list of the volumes in the series). We plan to list here the grand plan and some remarks and links.
 
 ###List of volumes of EGA
- 
-I. Le langage des sch&#233;mas, 
+
+Note that there is a chapter 0 that continues at the beginning of each chapter, establishing preliminaries from [[topology]], [[category theory]], [[commutative algebra]], [[homological algebra]], etc.
+
+* I. Le langage des sch&#233;mas, 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 4 (1960), 5&#8211;228. Ch. 0.&#167;1&#8211;7 ; Ch I.&#167;1&#8211;10. 
 
-II. &#201;tude globale &#233;l&#233;mentaire de quelques classes de morphismes, 
+* II. &#201;tude globale &#233;l&#233;mentaire de quelques classes de morphismes, 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 8 (1961), 5&#8211;222. Ch. II.&#167;1&#8211;8.
 
-III1. &#201;tude cohomologique des faisceaux coh&#233;rents (Premi&#232;re partie) 
+* III_1. &#201;tude cohomologique des faisceaux coh&#233;rents (Premi&#232;re partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 11 (1961), 5&#8211;167. Ch. 0.&#167;8&#8211;13 ; Ch.III.&#167;1&#8211;5. 
 
-III2. &#201;tude cohomologique des faisceaux coh&#233;rents (Seconde partie) 
+* III_2. &#201;tude cohomologique des faisceaux coh&#233;rents (Seconde partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 17 (1963), 5&#8211;91. Ch. III .&#167;6&#8211;7. 
 
-IV1. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Premi&#232;re partie) 
+* IV_1. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Premi&#232;re partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 20 (1964), 5&#8211;259. Ch.0.&#167;14&#8211;23 ; Ch. IV.&#167;1. 
 
-IV2. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Seconde partie) 
+* IV_2. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Seconde partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 24 (1965), 5&#8211;231. Ch. IV2.&#167;2&#8211;7 . 
 
-IV3. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Troisi&#232;me partie) 
+* IV_3. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Troisi&#232;me partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. Ch. IV.&#167;8&#8211;15. 
 
-IV4. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Quatri&#232;me partie) 
+* IV_4. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Quatri&#232;me partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 32 (1967), 5&#8211;361. Ch.IV.&#167;16&#8211;21. 
 
-EGA is unfinished. The listed volumes I-IV are just a part of the original plan. AG outlines what should be in ch. V,VI,VII, at least and some handwritten notes existed for small part of those. See e.g. these _pre-notes_ for some parts of [EGA V](http://www.jmilne.org/math/Documents/EGA-V.pdf).
+There was a second edition of EGA I:
 
-[Wikipedia](http://en.wikipedia.org/wiki/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique) lists titles of planned chapters I-XIII.
+* I. Le langage des sch&#233;mas. (2nd ed.)
+Grundlehren der Mathematischen Wissenschaften (1971). 166. Springer-Verlag.
+
+In this edition, the term "prescheme" (now outdated but used in the first edition for what we now call schemes) was replaced by "scheme", and the term "scheme" became [[separated scheme]].  Also, there was a transition to the [[functor of points]] approach to scheme theory.
+
+### EGA V and beyond
+
+EGA was never completed. The listed volumes I-IV are just a part of the original plan. Grothendieck outlined what was meant to be in chapters V-VII, at least, and some handwritten prenotes existed for a small part of those. See e.g. these prenotes for some parts of [EGA V](http://www.jmilne.org/math/Documents/EGA-V.pdf).
+
+[Wikipedia](http://en.wikipedia.org/wiki/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique) lists the titles of planned chapters I-XIII.
 
 ##The other series:
 
@@ -76,16 +71,42 @@ The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C
 
 ##Beyond the SGAs
 
-Both _EGA_ and _SGA_ were never completed. Part of the non-completed _EGA_ existed as Grothendieck's "prenotes", and a small part of them has been preserved and a little piece even published. Part of the unfinished plan of _SGA_ was attained in quick way by [[Pierre Deligne]] as _SGA $4\frac{1}{2}$_ (in other to justify preliminaries for his proof of the [[Weil conjecture]]s), of which Grothendieck did not approve.  
-
-See also [[Daniel Murfet]]'s summary notes for various parts of _EGA_. 
+Like _EGA_, _SGA_ was never completed.  Part of the unfinished plan of _SGA_ was attained in quick way by [[Pierre Deligne]] as _SGA $4\frac{1}{2}$_ (in other to justify preliminaries for his proof of the [[Weil conjecture]]s), of which Grothendieck did not approve.  
 
 ##References
 
-Apart from the texts themselves, there are Wikipedia entries on all three series.
+There are Wikipedia entries
 
+* Wikipedia, [&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique](http://en.wikipedia.org/wiki/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique)
+
+* Wikipedia, [S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois Marie](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique)
+
+* Wikipedia, [Fondements de la G&#233;ometrie Alg&#233;brique](http://en.wikipedia.org/wiki/Fondements_de_la_G%C3%A9ometrie_Alg%C3%A9brique)
+
+EGA and the other published texts of Grothendieck are available from
+
+* [[Grothendieck Circle]], [Scans of published texts](http://www.math.jussieu.fr/~leila/grothendieckcircle/pubtexts.php).
+
+David Madore has prepared a detailed table of contents of EGA:
+
+* [Detailed table of contents of EGA](http://www.dma.ens.fr/~madore/ega-toc.pdf)
+
+A translated table of contents has been prepared by Mark Haiman, available at
+
+* [[Mark Haiman]], [English translation of table of contents of EGA](http://math.berkeley.edu/~mhaiman/math256/EGA-contents.pdf)
+
+along with synopsises, in English, of many sections at
+
+* [[Mark Haiman]], [English synopsises of most of EGA I and II](http://math.berkeley.edu/~mhaiman/math256/)
+
+Daniel Murfet has written notes for parts of EGA, see
+
+* [[Daniel Murfet]], [The Rising Sea](http://therisingsea.org/?page_id=3)
 
 [[!redirects SGA]]
 [[!redirects FGA]]
+[[!redirects Éléments de géométrie algébrique]]
+[[!redirects Elements de geometrie algebrique]]
+[[!redirects Elements of algebraic geometry]]
 
 category: reference
