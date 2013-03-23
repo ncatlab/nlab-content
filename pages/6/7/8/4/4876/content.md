@@ -132,7 +132,7 @@ The characterization of [[D-brane]] [[submanifolds]] for the [[open string]] WZW
 
    For the open string [[CFT]] to still have [[current algebra]] [[worldsheet]] symmetry, hence for half the current algebra symmetry of the closed WZW string to be preserved, the [[D-brane]] [[submanifolds]] need to be [[conjugacy classes]] of the group manifold (see e.g. [Alekseev-Schomerus](#AlekseevSchomerus) for a brief review and further pointers). These conjugacy classes are therefore also called the **symmetric D-branes**.
 
-   Notice that these conjugacy classes are equivalently the [[leaves]] of the [[foliation]] induced by the canonical [[Cartan-Dirac structure]] on $G$, hence (by the discussion at [[Dirac structure]]), the leaves induced by the  [[Lagrangian dg-submanifold|Lagrangian sub-Lie 2-algebroids]] of the [[Courant Lie 2-algebroid]] (this was amplified by [[Chris Rogers]]) which is the [[higher gauge groupoid]] (see there) of the background [[B-field]] on $G$. 
+   Notice that these conjugacy classes are equivalently the [[leaves]] of the [[foliation]] induced by the canonical [[Cartan-Dirac structure]] on $G$, hence (by the discussion at [[Dirac structure]]), the leaves induced by the  [[Lagrangian dg-submanifold|Lagrangian sub-Lie 2-algebroids]] of the [[Courant Lie 2-algebroid]]  which is the [[higher gauge groupoid]] (see there) of the background [[B-field]] on $G$.(It has been suggested by [[Chris Rogers]] that such a foliation be thought of as a higher real [[polarization]].) 
 
 1. cohomological condition: 
 
