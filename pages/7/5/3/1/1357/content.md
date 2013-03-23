@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _Verdier site_ is a [[site]] with an extra condition on the [[coverage]] that ensures that one can refine every [[hypercover]] in the context of [[simplicial presheaf|simplicial prsheaves]] on that site in a particularly nice.
+A _Verdier site_ (named after [[Jean-Louis Verdier]]) is a [[site]] with an extra condition on the [[coverage]] that ensures that one can refine every [[hypercover]] in the context of [[simplicial presheaf|simplicial prsheaves]] on that site in a particularly nice.
 
 For a discussion of the use of Verdier sites see [[descent]].
 
