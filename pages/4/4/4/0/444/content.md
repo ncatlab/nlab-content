@@ -363,7 +363,7 @@ This characterization of categories in terms of nerves directly leads to the mod
 
 ### Nerve of a 2-category ###
 
-For [[2-categories]] modeled as [[bicategories]] the nerve operation is calledd the [[Duskin nerve]].
+For [[2-categories]] modeled as [[bicategories]] the nerve operation is called the [[Duskin nerve]].
 
 
 +-- {: .num_prop}
