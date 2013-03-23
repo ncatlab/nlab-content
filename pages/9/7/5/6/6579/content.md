@@ -1,5 +1,7 @@
 
-* [website](http://www.esaga.uni-due.de/)
+* [Website](http://www.mi.fu-berlin.de/users/esnault/)
+* [Wikipedia](http://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Esnault)
+* [Mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=68523)
 
 category: people
 
