@@ -128,7 +128,9 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 ### Of an $n$-plectic smooth $\infty$-groupoid
 
-???
+A simple notion of a real polarization for [[2-plectic manifolds]] is 
+considered within the context of higher geometric quantization in
+[Rogers, Chap. 7](#Rogers).
 
 ## Examples
 
@@ -191,6 +193,11 @@ Lagrangian submanifolds of [[L-infinity algebroids]] are considered in
 
 * [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
  {#Severa}
+
+A candidate for polarizations for higher geometric quantization in $n$-plectic geometry is discussed in Chapter 7 of
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068)). 
+{#Rogers}
 
 [[!redirects polarizations]]
 
