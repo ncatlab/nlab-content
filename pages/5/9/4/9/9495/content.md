@@ -2,7 +2,7 @@
 
 * Verdier, Jean-Louis, _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
 
-He also worked on [[Verdier duality]] of derived categories of [[sheaf|sheaves]].
+He also worked on [[Verdier duality]] of derived categories of [[abelian sheaves]].
 
 * Verdier, Jean-Louis, _Dualit&#233; dans la cohomologie des espaces localement compacts_. S&#233;minaire Bourbaki, 9 (1964-1966), Exp. No. 300, 13 p. Available at [NUMDAM](http://www.numdam.org/item?id=SB_1964-1966__9__337_0).
 
@@ -13,5 +13,7 @@ He also worked on [[Verdier duality]] of derived categories of [[sheaf|sheaves]]
 * [Mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=31267)
 
 category: people
+
 [[!redirects Verdier]]
 [[!redirects J.-L. Verdier]]
+[[!redirects Verdier, Jean-Louis]]
