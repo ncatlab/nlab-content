@@ -199,7 +199,7 @@ For instance ([Schapira, cor. 7.3.2](#Schapira)).
 
 The original reference is the thesis of [[Verdier]]:
 
-* Verdier, Jean-Louis, _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
+* [[Verdier, Jean-Louis]], _Des Cat&#233;gories D&#233;riv&#233;es des Cat&#233;gories Ab&#233;liennes_, Ast&#233;risque (Paris: Soci&#233;t&#233; Math&#233;matique de France) 239.  Available in [electronic format](http://www.math.jussieu.fr/~maltsin/jlv.html) courtesy of [[Georges Maltsiniotis]].
 
 A systematic discussion from the point of view of [[localization]] and [[homotopy theory]] is in section 13 of 
 
