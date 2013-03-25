@@ -206,7 +206,13 @@ which are surjective [[local diffeomorphisms]] and such that the composite is th
 
 This is ([Crainic-Moerdijk 00, prop. 1](#CrainicMoerdijk)).
 
-### In differential cohesive higher geometry
+### Of higher smooth spaces
+
+One can consider the generalization of the notion of foliation of manifolds to foliations of structures in [[higher differential geometry]] such as [[Lie groupoids]] and [[Lie algebroids]]. See at 
+
+* [[foliation of a Lie algebroid]]
+
+### In terms of differential cohesive higher geometry
  {#InCohesiveHigherGeometry}
 
 The following is a suggestion for an axiomatization of foliations in [[higher differential geometry]] in the formalization of [[differential cohesion|differential]] [[cohesion]], followed by some considerations showing how these axioms reproduce traditional theory. 
