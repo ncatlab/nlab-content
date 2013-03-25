@@ -208,9 +208,15 @@ With the advent of [[(∞,1)-topos theory]] all these statements and their gener
 
 which reproduces the classical results ([Stasheff](#Stasheff), [May](#May)).
 
-For general [[(∞,1)-topos]] the classification of associated $\infty$-bundles is discussed in section I 4.1 of 
+For general [[(∞,1)-toposes]] the classification of associated $\infty$-bundles is discussed in section I 4.1 of 
 
 * [[schreiber:Principal ∞-bundles -- theory, presentations and applications]] 
+
+Models in [[rational homotopy theory]] of classifying spaces for homotopy types $Aut(F)$ go back to [[Sullivan]]'s remarks on the [[automorphism L-infinity algebra]]. Further developments are reviewed and developed in 
+
+* [[Andrey Lazarev]], _Models for classifying spaces and derived deformation theory_ ([arXiv:1209.3866](http://arxiv.org/abs/1209.3866))
+
+
 
 [[!redirects associated infinity-bundle]]
 [[!redirects associated infinity-bundles]]
