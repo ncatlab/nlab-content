@@ -1,0 +1,13 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Ferdinand_Georg_Frobenius)
+
+## Related entries
+
+* [[Frobenius algebra]], [[Frobenius manifold]]
+
+* [[Frobenius theorem]]
+
+category: people
+
+[[!redirects Ferdinand Georg Frobenius]]
+[[!redirects Frobenius]]
