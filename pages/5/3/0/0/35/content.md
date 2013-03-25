@@ -138,6 +138,8 @@ See
 
 * [[Tannaka duality for Lie groupoids]]
 
+* [[double Lie groupoid]]
+
 ## References
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
