@@ -582,6 +582,8 @@ There is a theory of [[characteristic classes]] for foliations. A most well know
 
 ## Related concepts
 
+* [[Bott connection]]
+
 * [[holonomy groupoid]], [[monodromy groupoid]]
 
 * [[orbifold]]
