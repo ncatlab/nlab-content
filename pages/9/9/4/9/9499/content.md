@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Higher Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc} 
+
+## Idea
+
+A generalization of the notion of [[foliation]] of a [[smooth manifold]] from manifolds to [[Lie algebroids]].
+
+## Definition
+
+One of several equivalent definitions of a (regular) foliation of a smooth manifold is
+
++-- {: .num_defn}
+###### Definition
+
+A [[regular foliation]] of a [[smooth manifold]] $X$ is a wide sub-[[Lie algebroid]] of its [[tangent Lie algebroid]], hence a [[Lie algebroid]] $\mathcal{P}$ over $X$ with [[injection|injective]] [[anchor map]]
+
+$$
+  \array{
+    \mathcal{P} &\hookrightarrow & T X 
+    \\
+    \downarrow && \downarrow
+    \\
+    X &=& X
+  } 
+  \,.
+$$
+
+=--
+
+In this spirit there is an evident generalization of the notion to a notion of foliations of Lie algebroids.
+
++-- {: .num_defn}
+###### Definition
+
+A (regular) **foliation of a Lie algebroid** $A$ is a sub-[[double Lie algebroid]] of the tangent double Lie algebroid which is wide over $A$
+
+$$
+  \array{
+    \mathcal{P} &\hookrightarrow& T A
+    \\
+    \downarrow && \downarrow & \searrow 
+    \\
+    \mathcal{P}_0 &\hookrightarrow& T X && A
+    \\
+    && & \searrow & \downarrow
+    \\
+    && && X
+  }
+$$
+
+=--
