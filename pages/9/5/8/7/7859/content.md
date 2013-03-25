@@ -244,6 +244,8 @@ $$
 
 ## References
 
+Brauer groups are named after [[Richard Brauer]].
+
 An introduction is in
 
 * Pete Clark, _On the Brauer group_  (2003) ([pdf](http://math.uga.edu/~pete/trivial2003.pdf))
