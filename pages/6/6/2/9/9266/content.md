@@ -30,9 +30,11 @@
 
 We discuss aspects of the [[extended geometric quantization]] of one of the simplest and yet interesting examples of [[schreiber:∞-Chern-Simons theory]], namely [[2d Chern-Simons theory]] and here specifically the case induced by a binary and non-degenerate [[invariant polynomial]], namely the [[Lie integration|Lie integrated]] version of the [[Poisson sigma-model]].
 
-It turns out that several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] turn out to be known in the literature already, albeit in disguise: the [[2-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially what is known as the _[[geometric quantization of symplectic groupoids]]_.
+It turns out that several aspects of the [[extended geometric quantization]] of this 2d [[theory (physics)|theory]] are known in the literature already, albeit in disguise: the [[2-plectic geometry|2-plectic]] [[moduli stack]] of [[field (physics)|fields]] is equivalently what in the literature is known as a _[[symplectic groupoid]]_ and its [[higher geometric quantization]] is essentially what is known as the _[[geometric quantization of symplectic groupoids]]_.
 
-To some extent in the following we simply review the traditional [[geometric quantization of symplectic groupoids]] but we show at the same time how its ingredients are (more) naturally interpreted in [[higher symplectic geometry]]. This makes quantization of symplectic groupoids a good test case against which to check notions of [[higher geometric quantization]].
+The suggestion that there should be such a relation is contained already in ([Cattaneo-Felder 01](symplectic%20groupoid#CattaneoFelder01)), but at the time of that writing the [[geometric quantization of symplectic groupoids]] had not been performed yet.
+
+To some extent in the following we review the traditional [[geometric quantization of symplectic groupoids]] while showing at the same time how its ingredients are (more) naturally interpreted in [[higher symplectic geometry]]. This makes quantization of symplectic groupoids a good test case against which to check notions of [[higher geometric quantization]].
 
 Specifically, we discuss what should be the first nontrivial case of the Chern-Simons-type _[[holographic principle]]_ realized in [[higher geometric quantization]]: The [[moduli stack]] of the [[2d Chern-Simons theory]] is the [[Lie integration]] of the [[Poisson Lie algebroid]] associated to a [[Poisson manifold]]. The latter we may think of as defining a [[quantum mechanical system]], hence a $(2-1) = 1$-dimensional [[quantum field theory]]. The higher geometric quantization of the 2-d theory yields a [[2-vector space]] [[space of states|of quantum 2-states]] (assigned to the point n codimension 2). Under the identification of [[2-vector spaces]] with [[categories of modules]] over an [[associative algebra]], this space of quantum 2-states identifies (the [[Morita equivalence]]-class of) an algebra. Suitably re-interpreting traditional results about the quantization of symplectic groupods shows that this algebra is the [[strict deformation quantization]] of that [[Poisson manifold]].
 
@@ -108,7 +110,11 @@ These relations to traditional theory we use in the following to explore aspects
 
 ## The setup
 
-Let $(X, \pi)$ be a [[Poisson manifold]], which we tend to think of as defining a _[[quantum mechanical system]]_. This canonically induces the structure of [[Lie algebroid]] over $X$, the _[[Poisson Lie algebroid]]_ $(\mathfrak{P}, \mathbf{\omega})$ over $X$. This is a [[symplectic Lie n-algebroid|symplectic Lie algebroid]], with graded symplectic form (binary [[invariant polynomial]]) $\mathbf{\omega}$ which is in [[transgression]] with the Poisson tensor $\pi$, regarded as a [[Lie algebroid cohomology|Lie algebroid cocycle]]. The transgression is witnessed by a [[Chern-Simons element]] $cs_\pi$. By the general construction of [[schreiber:infinity-Chern-Simons theory]] this means that there is a universal differential characteristic map
+Let $(X, \pi)$ be a [[Poisson manifold]], which we tend to think of as defining a _[[quantum mechanical system]]_. This canonically induces the structure of [[Lie algebroid]] over $X$, the _[[Poisson Lie algebroid]]_ $(\mathfrak{P}, \mathbf{\omega})$ over $X$. This is a [[symplectic Lie n-algebroid|symplectic Lie algebroid]], with graded symplectic form (binary [[invariant polynomial]]) $\mathbf{\omega}$ which is in [[transgression]] with the Poisson tensor $\pi$, regarded as a [[Lie algebroid cohomology|Lie algebroid cocycle]]. The transgression is witnessed by a [[Chern-Simons element]] $cs_\pi$. 
+
+### Moduli stack of fields
+
+By the general construction of [[schreiber:infinity-Chern-Simons theory]] this means that there is a universal differential characteristic map
 
 $$
   \mathbf{L}
@@ -130,10 +136,76 @@ $$
   \,.
 $$
 
-This is the [[extended Lagrangian]] of a [[2d Chern-Simons theory]] ([[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models|FRS]]). Infinitesimally this yields the [[Poisson sigma-model]].
+Here $\tau_1 \exp(\mathfrak{P})_{conn}$ is the [[smooth groupoid|smooth]] [[moduli stack]] of fields of the 2d Poisson-Chern-Simons theory and
+$\mathbf{H}$ is the [[extended Lagrangian]] of a [[2d Chern-Simons theory]] ([[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models|FRS]]). Infinitesimally this yields the [[Poisson sigma-model]].
 
 We discuss here the [[higher geometric quantization]] of this [[theory (physics)|theory]] defined by $\mathbf{L}$.
 
+### The Phase space stack
+ {#ThePhaseSpaceStack}
+
+There is the canonical universal forgetful map
+
+$$
+  \tau_1 \exp(\mathfrak{P})_{conn}
+  \to
+  \tau_1 \exp(\mathfrak{P})
+$$
+
+which forgets the conection data of fields and only retains their "[[instanton sector]]". The [[smooth groupoid]] $\tau_1 \exp(\mathfrak{P})$ is the [[symplectic groupoid]] which is the [[Lie integration]] of the [[Poisson Lie algebroid]] $\mathfrak{P}$. (In the traditional literature this is called the symplectic groupoid only if it happens to be representable by a [[Lie groupoid]], hence if $\mathfrak{P}$ is integrable in the traditional sense of Lie groupoid theory.)
+
+Notice that this is equivalently [[differential concretification]] over the point: $\tau_1 \exp(\mathfrak{P})$ may be understood as the [[smooth groupoid|smooth]] [[moduli stack]] of $\mathfrak{P}$-[[Lie algebroid valued differential forms|valued]] forms on the point.
+
+But moreover, we may think of $\tau_1 \exp(\mathfrak{P})$ as being the [[phase space]] of the [[open string]] 2d Poisson-Chern-Simons [[sigma-model]] for the space-filling [[D-brane]] boundary condition: in this interpretation the [[objects]] of $\tau_1 \exp(\mathfrak{P})$ are the endpoints of open strings, the [[morphisms]] are solutions to the [[Euler-Lagrange equations]] of motion along an interval (an initial spatial slice of string) and [[composition]] is string concatenation. 
+
+This is the point of view suggested in ([Cattaneo-Felder 01](symplectic%20groupoid#CattaneoFelder01)), there argued for by the observation that the space of [[morphisms]] of $\tau_1 \exp(\mathfrak{P})$ is naturally the [[symplectic reduction]] of (in our language) of that of $\tau_1 \exp(\mathfrak{P})$ for the [[moment map]] that characterizes the [[equations of motion]] and [[gauge symmetries]] of the [[Poisson sigma-model]].
+
+### D-branes
+ {#DBranes}
+
+Let $\mathfrak{C}_0, \mathfrak{C}_1 \hookrightarrow \mathfrak{P}$ be two [[Lagrangian dg-submanifold|Lagrangian]] sub-[[Lie algebroids]] of the given [[Poisson Lie algebroid]]. These correspond to [[coisotropic submanifolds]] of the underlying [[Poisson manifold]]. 
+
+Accoring to ([Cattaneo-Felder 03](coisotropic+submanifold#CattaneoFelder03)) we are two think of these as being two [[D-brane]] inclusions for the [[open string]] Poisson-Chern-Simons model.
+
+Their [[Lie integration]] induces two Lagrangian sub-groupoids of the [[symplectic groupoid]]
+
+$$
+  tau_1 \exp(\mathfrak{C}_0)
+  \to
+  \tau_1 \exp(\mathfrak{P})
+  \leftarrow
+  \tau_1 \exp(\mathfrak{C}_1)
+  \,.
+$$
+
+This means that the [[moduli stack]] of [[open strings]] with endpoints restricted to these two [[D-branes]] is the [[homotopy fiber product]] of [[smooth groupoids]]
+
+$$
+  \array{
+    & & \mathbf{Fields}_{\mathfrak{C}_0, \mathfrak{C}_1}
+    \\
+    & \swarrow && \searrow
+    \\
+    \tau_1 \exp(\mathfrak{C}_0) && && \tau_1 \exp(\mathfrak{C}_1)
+    \\
+    & \searrow && \swarrow
+    \\
+    && \tau_1 \exp(\mathfrak{P})
+  }
+  \,.
+$$
+
+One finds that this [[homotopy pullback]] is equivalently the [[symplectic reduction]] considered in ([Cattaneo-Felder 03, page 6, 7](coisotropic+submanifold#CattaneoFelder03)).
+
+That for space-filling branes $\mathfrak{C}_0, \mathfrak{C}_1 \coloneqq \mathfrak{P}$ one recovers the original moduli stack
+
+$$
+  \mathbf{Fields}_{\mathfrak{P}, \mathfrak{P}}
+  \simeq
+  \tau_1 \exp(\mathfrak{P})
+$$
+
+is just the statement that the homotopy pullback of an equivalence is an equivalence.
 
 ## Constructions
 
@@ -366,5 +438,7 @@ Indeed, according to [[branes]] of the [[Poisson sigma-model]] are supposed to b
 Summing up, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A}$ of polarized sections is under $\phi$ the actual 2-vector space of states.
 
 In _[[geometric quantization of symplectic groupoids]]_ it is show that this is the algebra of observables of the [[quantum mechanical system]] of the underlying [[Poisson manifold]] (its [[strict deformation quantization]]).
+
+
 
 
