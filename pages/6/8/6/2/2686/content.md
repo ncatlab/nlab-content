@@ -208,8 +208,8 @@ These "pre-quasi-symplectic groupoids" had been called "twisted presymplectic gr
 
 The identification with reduced phase spaces of the open Poisson sigma-model is in 
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#168;auser,
-2001), 61&#8211;93.
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_, in _Quantization of Singular Symplectic Quotients_, (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198 (Birkh&#228;user,
+2001), 61&#8211;93. ([arXiv:math/0003023](http://arxiv.org/abs/math/0003023))
  {#CattaneoFelder01}
 
 
