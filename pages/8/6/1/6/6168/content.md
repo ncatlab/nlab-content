@@ -59,6 +59,7 @@ manifolds_ ([pdf](http://www.math.psu.edu/wade/CAARMS13-proceedings-Jan08.pdf))
 The relation to the [[Poisson sigma-model]] is discussed in
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson sigma model_ ([arXiv:math/0309180](http://arxiv.org/abs/math/0309180))
+ {#CattaneoFelder03}
 
 Characterization in terms of leaves of [[Lagrangian submanifold|Lagrangian]] [[foliation of a Lie algebroid|foliation of]] the [[Poisson Lie algebroid]] is mentioned in 
 
