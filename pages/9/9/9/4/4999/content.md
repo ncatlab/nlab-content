@@ -220,6 +220,10 @@ Every [[category]] comes with its [[internal logic]]. Modal operators in this in
 
 Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for more details.
 
+## Theorems
+
+* [[Goldblatt-Thomason theorem]]
+
 ## Related concepts
 
 * [[modal hyperdoctrine]]
