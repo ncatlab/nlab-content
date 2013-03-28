@@ -84,8 +84,7 @@ be the [[full subcategory]] on the [[infinitesimally thickened point]]s: this sm
 Let 
 
 $$
-  CartSp_{synthdiff} := 
-   CartSp \ltimes InfPoint
+  CartSp_{synthdiff} \hookrightarrow SmoothLoc
 $$ 
 
 be the [[full subcategory]] of the category of [[smooth loci]] on the objects of the form 
