@@ -1,5 +1,5 @@
 
-
+This entry provides some hyperlinks for the article
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], 
 
@@ -12,15 +12,15 @@ about [[loop group]]s and [[twisted K-theory]]
 
 ## Statement of the theorem
 
-Every $\mathfrak{g}$-valued differential form $A \in \Omega^1(S^1, \mathfrak{g})$ on the circle defines an element in the free [[loop group]]. Also it can be understood as a [[connection on a bundle|connection]] on a $G$-[[principal bundle]] over the circle.
+Every $\mathfrak{g}$-[[Lie algebra valued differential form|valued differential form]] $A \in \Omega^1(S^1, \mathfrak{g})$ on the [[circle]] defines an element in the free [[loop group]]. Also it can be understood as a [[connection on a bundle|connection]] on a $G$-[[principal bundle]] over the circle.
 
-Given a [[Dirac operator]] $D$ on an [[associated bundle|associated]] [[spinor bundle]] over the circle, and using a [[loop group representation]] $V$ we can hence shift its defining connection by $A$ and form the new Dirac operator $D_A$.
+Given a [[Dirac operator]] $D$ on an [[associated bundle|associated]] [[spinor bundle]] over the circle, and using a [[loop group representation]] $V$ one can hence shift its defining connection by $A$ and form the associated Dirac operator $D_A$.
 
-By remembering for each $A$ its [[holonomy]] $hol(A) \in G$, this construction defines a $G$-parameterized family of [[Fredholm operator]]s over $G$, one for each loop group representation. 
+By remembering for each $A$ its [[holonomy]] $hol(A) \in G$, this construction defines a $G$-parameterized family of [[Fredholm operators]] over $G$, one for each loop group representation. 
 
 This construction is ([FHT, part II, cor. 3.39](#PartII)).
 
-The FHT-theorem asserts that this construction gives an equivalence of the category of loop group representations at some level $\tau$ and the $\tau$-[[twisted K-theory]], equivariant with respect to $Ad_G$, on $G$.
+The FHT-theorem asserts that this construction gives an equivalence of the category of loop group representations at some level $\tau$ ([[Verlinde ring]]) and the $\tau$-[[twisted K-theory]], [[equivariant cohomology|equivariant]] with respect to $Ad_G$, on $G$.
 
 This is ([FHT, part II, theorem. 3.43](#PartII)).
 
