@@ -171,7 +171,10 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
 ## Related concepts
 
+* [[Verlinde ring]]
+
 * [[string group]]
+
 
 
 ## References
