@@ -12,7 +12,7 @@ Ironically, [[classical analysis|classical]] epsilontic analysis is not rigorous
 
 ## History
 
-Epsilontic analysis developed out of the practical problems of finding errors of [[approximation]].  Taking the basic principles of calculus for granted, 18th-century mathematicians discovered various methods to approximate the values of limits, derivatives, integrals, and series with an error guaranteed to be bounded above by whatever [[positive number]] $\epsilon$ (for 'error') one wished.
+Epsilontic analysis developed out of the practical problems of finding errors of [[approximation]].  Taking the basic principles of calculus for granted, 18th-century mathematicians discovered various methods to approximate the values of [[limit of a sequence|limits]], [[derivatives]], [[integrals]], and [[series]] with an error guaranteed to be bounded above by whatever [[positive number]] $\epsilon$ (for 'error') one wished.
 
 Epsilontic analysis turns these results around into definitions: the value of a limit, derivative, integral, or series is *defined* to be the (necessarily unique) [[real number]] $L$ such that, given any positive number $\epsilon$, one can produce an approximation within $\epsilon$ of $L$.
 
