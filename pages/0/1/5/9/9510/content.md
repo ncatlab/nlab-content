@@ -1,0 +1,47 @@
+
+> This entry is about the notion fo limit in [[analysis]] and [[topology]]. For the notion of the same name in [[category theory]] see at _[[limit]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _limit_ of a [[sequence]] (or [[net]]) of points $(x_i)$ in a [[topological space]] $X$ is a point $x$ such that the sequence eventually gets arbitrarily close to $x$.
+
+The notion is of particular and historical important in [[analysis]], where it serves to define for instance the notion of [[derivative]].
+
+More generally there is a notion of limit for sequences/nets in [[convergence spaces]].
+
+## Definition
+
+For $X$ a [[topological space]], for $I$ the set of [[natural numbers]] (or more generally any [[directed set]]) and for $(x_i)_{i\in I} \colon I \to X$ a [[sequence]] (a [[net]]) of points in $X$, one says that a point $x \in X$ is a **limit** of $(x_i)$ or that $(x_i)$ **converges** to $x$ if for all [[open neighbourhoods]] $U \subset X$ of $x$ there exists an $i_U \in I$ such that $x_i \in U$ for all $i \gt i_U$.
+
+## Related concepts
+
+* [[filter]]
+
+* [[convergence space]]
+
+[[!redirects limit of a net]]
+
+[[!redirects limits of sequences]]
+[[!redirects limits of nets]]
+
+[[!redirects convergence]]
+[[!redirects convergencies]]
+[[!redirects convergence of a sequence]]
+[[!redirects convergence of a net]]
+
+
+
