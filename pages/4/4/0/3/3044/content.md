@@ -52,7 +52,7 @@ Moreover, this is naturally a [[simplicial model category]] structure.
 
 =--
 
-This is ([Hinich98, theore, 3.1](#Hinich)). More details on this are in the relevant sections at _[[model structure for L-infinity algebras]]_.
+This is ([Hinich98, theorem, 3.1](#Hinich)). More details on this are in the relevant sections at _[[model structure for L-infinity algebras]]_.
 
 ## Properties
 
