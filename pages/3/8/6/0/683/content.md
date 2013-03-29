@@ -851,7 +851,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-Let $ i : \Delta_f \hookright \Delta$ be the inclusion into the [[simplex category]] of all the monomorphisms (all the face maps).
+Let $ i : \Delta_f  \hookrightarrow \Delta$ be the inclusion into the [[simplex category]] of all the monomorphisms (all the face maps).
 
 This inclusion is a homotopy-[[initial functor]]. As a consequence, 
 homotopy colimits of shape $\Delta$ can equivalently be computed after their restriction to $\Delta_f$
