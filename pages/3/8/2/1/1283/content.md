@@ -420,6 +420,8 @@ This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its
 
 ## Related entries
 
+* [[centrally extended groupoid]]
+
 * [[transgression of bundle gerbes]]
 
 * [[connection on a bundle gerbe]]
