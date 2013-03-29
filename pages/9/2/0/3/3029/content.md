@@ -1584,7 +1584,7 @@ But examples of fundamental importance include for instance
 
 * **group extension**, [[∞-group extension]]
 
-   [[Ext-group]]
+   [[Ext-group]], [[central extension]]
 
   * [[Baer sum]]
 
@@ -1593,6 +1593,8 @@ But examples of fundamental importance include for instance
 * [[Lie group cohomology]] 
 
   * [[∞-Lie groupoid cohomology]]
+
+* [[central extension of groupoids]]
 
 
 
