@@ -135,6 +135,8 @@ Similarly, 2-bundles may be equipped with connections by refining their cocycles
 
 * **principal 2-bundle** / [[gerbe]] / [[bundle gerbe]]
 
+  * [[central extension of groupoids]]
+
   * [[line 2-bundle]]
 
 * [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
