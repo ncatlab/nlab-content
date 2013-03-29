@@ -43,6 +43,9 @@ Without WCC, many of the usual properties of [[metric spaces]] and other [[seque
 
 In [[functional analysis]], one considers [[topological vector spaces]] of infinite sequences; these are the [[sequence spaces]].  (Actually, these generalise quite nicely to [[net]] spaces.)
 
+## Related concepts
+
+* [[limit of a sequence]]
 
 [[!redirects sequence]]
 [[!redirects sequences]]
