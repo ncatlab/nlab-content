@@ -196,11 +196,16 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
   * [[K-theory of a bipermutative category]]
 
+* [[operator K-theory]]
+
+  * [[KK-theory]]
+
+  * [[E-theory]]
+
 * [[Karoubi K-theory]]
 
 * [[Morava K-theory]]
 
-* [[KK-theory]]
 
 * [[twisted K-theory]]
 
