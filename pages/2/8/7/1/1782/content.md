@@ -93,8 +93,11 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 * [[K-theory of a bipermutative category]]
 
-* [[KK-theory]]
+* [[operator K-theory]]
 
+  * [[KK-theory]]
+
+  * [[E-theory]]
 
 ## References 
 
