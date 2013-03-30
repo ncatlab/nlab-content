@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _convergence space_ is a generalisation of a [[topological space]] based on the concept of [[convergence|convergent]] [[filter]] (or [[net]]) as fundamental.  The basic concepts of [[point-set topology]] ([[continuous functions]], [[compact space|compact]] and [[Hausdorff space|Hausdorff]] [[topological spaces]], etc) make sense also for convergence spaces, although not all theorems hold.  The [[category]] $Conv$ of convergence spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]].
+A _convergence space_ is a generalisation of a [[topological space]] based on the concept of [[convergence]] of [[filters]] (or [[nets]]) as fundamental.  The basic concepts of [[point-set topology]] ([[continuous functions]], [[compact space|compact]] and [[Hausdorff space|Hausdorff]] [[topological spaces]], etc) make sense also for convergence spaces, although not all theorems hold.  The [[category]] $Conv$ of convergence spaces is a [[quasitopos]] and may be thought of as a [[nice category of spaces]] that includes [[Top]] as a [[full subcategory]].
 
 
 ## Definitions
