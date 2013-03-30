@@ -57,9 +57,11 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 _Toby_:  But there is still a free [[setoid]] (set equipped with an equivalence relation) on $\Gamma$; it is the [[point]].  As a groupoid, it is not the same as the free groupoid on $\Gamma$, although it *is* the same as the free setoid on the free groupoid on $\Gamma$.  If there\'s an advantage to working with groupoids, perhaps it\'s that the free groupoid functor preserves distinctions that the free setoid functor forgets?  (In this case, a distinction preserved or forgotten is that between $\Gamma$ and the point, which as a graph does not have $u$.)
 =--
 
-## As a 2-coskeletal Kan complex
+## Properties
 
-Groupoids $K$ are equivalent to 1-[[hypergroupoid]]s, which are in particular 2-[[coskeletal]] [[Kan complex]]es $N(K)$ -- their [[nerve]]s. 
+### Characterization as 2-coskeletal Kan complexes
+
+Groupoids $K$ are equivalent to 1-[[hypergroupoids]], which are in particular 2-[[coskeletal]] [[Kan complex]]es $N(K)$ -- their [[nerve]]s. 
 
 The objects of the groupoids are the 0-[[simplices]] and the morphisms of the groupoid are the 1-simplices of the Kan complex. The [[composition]] operation $(f,g) \mapsto g \circ f $ in the grouopoid is encoded in the 2-simplices of the Kan complex
 
@@ -132,6 +134,8 @@ $$
 
 For handling just groupoids exclusively their description in terms of Kan complexes may be a bit of an overkill, but the advantage is that it embeds groupoids naturally in the more general context of [[2-groupoid]]s, [[3-groupoid]]s and eventually [[∞-groupoid]]s. For instance a [[pseudo-functor]] out of an ordinary groupoid into a 2-groupoid is simply a homomorphism of the corresponding Kan complexes.
 
+
+
 ## Related concepts
 
 [[!include homotopy n-types - table]]
@@ -144,15 +148,19 @@ For handling just groupoids exclusively their description in terms of Kan comple
 
 ## References
 
-* P.J. Higgins,  Presentations of Groupoids, with Applications to Groups, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
+A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]) is in 
 
-* P.J. Higgins, 1971, _Categories and Groupoids_, van
+* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 ([pdf](http://www.ams.org/notices/199607/weinstein.pdf))
+
+Technical discussion is for instance in the following references.
+
+* [[Philip Higgins]], 1971, _Categories and Groupoids_, van
 Nostrand, New   York. Reprints in Theory and Applications of
 Categories, 7 (2005) pp 1--195.
 
-* P.J. Higgins, The fundamental groupoid of a graph of groups, J. London Math. Soc. (2) 13 (1976) 145--149. 
+* [[Philip Higgins]],  Presentations of Groupoids, with Applications to Groups, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
-* R. Brown, _Topology and groupoids_, Booksurge, 2006. 
+* [[Ronnie Brown]], _Topology and groupoids_, Booksurge, 2006. 
 
 * Rade T. Zivaljevic,  Groupoids in combinatorics---applications of a theory of local symmetries. _Algebraic and geometric combinatorics_, 305--324, Contemp. Math., 423, Amer. Math. Soc., Providence, RI, 2006. 
 
