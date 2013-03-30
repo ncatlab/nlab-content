@@ -1,18 +1,27 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-***
+=--
+#### AQFT and operator algebra
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea ##
-This page is about the modular theory introduced by Tomita for [[von Neumann-algebra]]s. It is important both for the structure theory of von Neumann-algebras and in the [[Haag-Kastler approach]] to [[AQFT]], one important example is the [[Bisognano-Wichmann theorem]]. It is often called Tomita-Takesaki theory, because the first presentation beyond a preprint is due to Takesaki. 
+
+This page is about the modular theory introduced by Tomita for [[von Neumann-algebras]]. It is important both for the structure theory of von Neumann-algebras and in the [[Haag-Kastler approach]] to [[AQFT]], one important example is the [[Bisognano-Wichmann theorem]]. It is often called Tomita-Takesaki theory, because the first presentation beyond a preprint is due to [[Masamichi Takesaki]]. 
 
 ## Definition ##
 Let $\mathcal{H}$ be a [[Hilbert space]], $\mathcal{M}$ a [[von Neumann-algebra]] with commutant $\mathcal{M}'$ and a separating and cyclic vector $\Omega$. Then there is a **modular operator** $\Delta$ and a **modular conjugation** $J$ such that:
@@ -44,7 +53,7 @@ Many textbooks on operator algebras contain a chapter about modular theory.
 
 MathOverflow question [tomita-takesaki-versus-frobenuis-where-is-the-similarity](http://mathoverflow.net/questions/68270/tomita-takesaki-versus-frobenuis-where-is-the-similarity)
 
-* A. Connes, C. Rovelli, _Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories_, [arXiv:gr-qc/9406019](http://arxiv.org/abs/gr-qc/9406019), [pdf](http://www.alainconnes.org/docs/carlotime.pdf)
+* [[Alain Connes]], [[Carlo Rovelli]], _Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories_, [arXiv:gr-qc/9406019](http://arxiv.org/abs/gr-qc/9406019), [pdf](http://www.alainconnes.org/docs/carlotime.pdf)
 
 
 [[!redirects modular group]]
