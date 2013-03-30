@@ -8,6 +8,11 @@
 
 The notion of [[homotopy]] behaves badly for locally bad spaces. By [[Gelfand-Naimark theorem|Gel'fand-Naimark]] there is an [[dual equivalence|antiequivalence]] between the category of unital commutative $C^\ast$-[[C-star-algebra|algebras]] and [[compactum|compact Hausdorff topological spaces]]. For spaces with bad local behaviour, like [[quotient space|quotients]], [[Alain Connes]] introduced replacements given by noncommutative $C^\ast$-algebras. Hence it is to be expected that in such examples homotopy will be badly behaved. Thus Higson and Connes introduced a notion of __asymptotic morphisms__ (with nontrivial composition), slightly resembling the [[shape theory]] of Borsuk. The corresponding version of Kasparov's [[KK-theory]] involving asymptotic morphisms involves so-called $E$-groups. Restricted to the commutative case, $E$-theory corresponds to certain generalized [[cohomology]] theory. 
 
+## Related concepts
+
+* [[operator K-theory]]
+
+  * [[KK-theory]]
 
 ## References
 
@@ -17,7 +22,11 @@ The notion of [[homotopy]] behaves badly for locally bad spaces. By [[Gelfand-Na
 
 * web page of a project [Noncommutative topology - homotopy functors and E-theory ](http://www.math.ku.dk/~jg/papers/etheory.html)
 
-* Vladimir Manuilov, Klaus Thomsen, _Shape theory and extensions of C*-algebras_, [arxiv/1007.1663](http://arxiv.org/abs/1007.1663)
+* Vladimir Manuilov, Klaus Thomsen, _Shape theory and extensions of $C^\ast$-algebras_, ([arxiv/1007.1663](http://arxiv.org/abs/1007.1663))
+
+Some [[homotopy theory|homotopy-theoretic]] aspects are discussed in
+
+* Rasmus Bentmann, _Homotopy-theoretic E-theory and n-order_ ([arXiv:1302.6924](http://arxiv.org/abs/1302.6924))
 
 [[!redirects E-theory]]
 
