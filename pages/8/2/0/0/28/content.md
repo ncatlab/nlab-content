@@ -152,6 +152,10 @@ A motivation and introduction of the concept of groupoid and a tour of examples 
 
 * [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 ([pdf](http://www.ams.org/notices/199607/weinstein.pdf))
 
+A page [Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html) by Ronnie Brown includes the introductory text
+
+* [[Ronnie Brown]], From groups to groupoids: A brief survey, ([pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf))
+
 Technical discussion is for instance in the following references.
 
 * [[Philip Higgins]], 1971, _Categories and Groupoids_, van
