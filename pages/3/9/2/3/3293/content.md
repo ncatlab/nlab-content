@@ -146,6 +146,7 @@ Standard examples of Fr&#233;chet manifolds are smooth mapping spaces such as th
 
 * [[convenient manifold]]
 
+* [[F-star-algebra]]
 
 ## References
 
