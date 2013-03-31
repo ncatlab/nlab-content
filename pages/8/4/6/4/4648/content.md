@@ -37,7 +37,13 @@ This equivalence is a certain limit of the more general [[quantum geometric Lang
 
 ## Properties 
 
+### Relation to S-duality
+
 The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is supposed to exhibit geometric Langlands duality as a special case of [[S-duality]]. 
+
+### Relation to T-duality
+
+In some cases the passage between a Lie group and its [[Langlands dual group]] can be understood as a special case of [[T-duality]]. ([Daenzer-vanErp](#DaenzerErp))
 
 ## Related concepts
 
@@ -73,6 +79,11 @@ An interpretation of the geometric Langlands correspondence as describing [[S-du
 An exposition of the relation to [[S-duality]] and [[electro-magnetic duality]] is in
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
+
+The relation to [[T-duality]] is discussed in
+
+* Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
+ {#DaenzerErp}
 
 
 [[!redirects geometric Langlands duality]]
