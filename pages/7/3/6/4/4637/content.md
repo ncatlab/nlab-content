@@ -368,8 +368,13 @@ See [[Isbell envelope]].
 ## Examples
 
 ### Gelfand duality
+ {#GelfandDuality}
 
 [[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
+
+### Serre-Swan theorem
+
+The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[C-star algebra]] are equivalently modules of [[sections]] of [[vector bundles]] over the [Gelfand-dual](#GelfandDuality) topological space.
 
 ### Function $T$-Algebras on presheaves {#FunctionAlgebrasOnPresheaves}
 
