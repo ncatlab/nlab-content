@@ -22,7 +22,7 @@
 
 ### General
 
-For $A$ a an [[associative algebra]], not necessarily commutative, its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. 
+For $A$ a an [[associative algebra]], not necessarily [[commutative algebra|commutative]], its collection $ComSub(A)$ of commutative subalgebras $B \hookrightarrow A$ is naturally a [[poset]] under inclusion of subalgebras. 
 
 ### As a site for noncommutative geometry
 
@@ -81,7 +81,7 @@ there is a [[von Neumann algebra factor]] $A$ with no algebra isomorphism to its
 +-- {: .num_prop}
 ###### Proposition
 
-Let $A, B$ be [[von Neumann algebra]]s without a type $I_2$-[[von Neumann algebra factor]]-summand and let $ComSub(A)$, $ComSub(B)$ be their posets of commutative sub-von Neumann algebras. 
+Let $A, B$ be [[von Neumann algebra]]s without a type $I_2$-[[von Neumann algebra factor]]-summand and let $ComSub(A)$, $ComSub(B)$ be their posets of [[commutative C-star-algebra|commutative]] sub-von Neumann algebras. 
 
 Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of [[poset]]s comes from a unique Jordan algebra isomorphism $A_j \to B_j$. 
 
