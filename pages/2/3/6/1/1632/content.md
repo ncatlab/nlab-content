@@ -28,7 +28,7 @@ on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this
 
 * If $A$ is a Banach space, the [[internal hom]] $hom(A, A)$ is a unital Banach algebra (by [[general abstract nonsense]]).
 
-* Any $C^*$-[[C*-algebra|algebra]] is in particular a Banach algebra.
+* Any [[C-star algebra]] is in particular a Banach algebra.
 
 * The [[normed division algebra]]s are (possibly nonassiociative) Banach [[division algebras]] over $\mathbb{R}$.
 
