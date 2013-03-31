@@ -225,10 +225,16 @@ In this context T-duality is described as an isomorphism of [[standard Courant a
 
 ## Examples of T-dual pairs
 
+### In Mirror symmetry
 
 One special cases of T-duality is [[mirror symmetry]].
 
 * Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
+
+### In Langlands duality
+
+In some cases the passage to the [[Langands dual group]] in the [[geometric Langlands correspondence]] can be understood as T-duality. ([Daenzer-vanErp](#DaenzerErp))
+
 
 ## Related concepts
 
@@ -288,3 +294,9 @@ Discussion of the infinitesimal T-duality geometry, replacing [[gerbes]] on [[to
 * [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](http://arxiv.org/abs/1208.6048))
 
 For references on [[topological T-duality]] see there.
+
+The relation to [[Langlands dual groups]] is discussed in
+
+* Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
+ {#DaenzerErp}
+
