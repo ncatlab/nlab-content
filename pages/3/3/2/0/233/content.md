@@ -810,7 +810,7 @@ $$
 
 * [[submodule]], [[quotient module]]
 
-* [[finitely generated module]], [[finitely presented module]]
+* [[finitely generated module]], [[presentable module]], [[finitely presented module]]
 
 * [[projective module]], [[injective module]], [[free module]], [[flat module]]
 
