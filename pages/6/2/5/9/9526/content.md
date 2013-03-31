@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Richard_Swan)
+
+## Related entries
+
+* [[Serre-Swan theorem]]
+
+* [[algebraic K-theory]]
+
+category: people
