@@ -36,6 +36,10 @@ A _topological algebra_ is equivalently
 
 A [[Banach algebra]] is in particular a topological algebra.
 
+## Related concepts
+
+* [[dense subalgebra]]
+
 ## References
 
 * [[eom]], _[Topological algebra](http://www.encyclopediaofmath.org/index.php/Topological_algebra)_
