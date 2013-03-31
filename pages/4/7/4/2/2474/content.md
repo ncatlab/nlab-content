@@ -99,7 +99,7 @@ The [[GNS construction]] shows that every abstract $C^*$-algebra over the [[comp
 
 ### Gelfand duality
 
-[[Gelfand duality]] says that every (unital) _commutative_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* Alg_{com} \simeq $ [[Top]]${}_{cpt}$.
+[[Gelfand duality]] says that every (unital) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* Alg_{com} \simeq $ [[Top]]${}_{cpt}$.
 
 
 ### General
@@ -130,7 +130,7 @@ to the [[category]] [[Poset]] of [[posets]], which sends each $A \in C^\ast Alg$
 to its [[poset of commutative subalgebras]] $\mathcal{C}(A)$ 
 and sends each morphism $f : A \to B$ to the [[functor]]
 $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$ which
-sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
+sends a [[commutative C-star-algebra|commutative]] subalgebra $C \subset A$ to $f(C) \subset B$.
 
 =--
 
@@ -155,6 +155,8 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 
 ## Related concepts
+
+* [[commutative C-star-algebra]]
 
 * [[C-star coalgebra]]
 
