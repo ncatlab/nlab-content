@@ -25,7 +25,9 @@ A _topological ring_ is a [[ring]] [[internalization|internal to]] [[Top]], a [[
 
 a [[topological space]] $R$ equipped with the structure of a [[ring]] on its underlying [[set]], such that addition and multiplication are [[continuous functions]].
 
-Similarly a _topological field_ is a topological ring whose underlying ring is in fact a [[field]].
+Similarly a _topological field_ is a topological ring whose underlying ring is in fact a [[field]] and a [[topological algebra]] is a topological ring under a base topological ring (a topological [[associative algebra]]). 
+
+
 
 ## Examples
 
@@ -33,8 +35,10 @@ Similarly a _topological field_ is a topological ring whose underlying ring is i
 
 * Any [[pseudocompact ring]] such as the completed [[group ring]] of a [[profinite group]] is a topological ring.
 
-*  For any prime $p$, the ring of [[p-adic integer]]s is a topological ring.
+*  For any prime $p$, the ring of [[p-adic integers]] is a topological ring.
   
+* A [[Banach algebra]] is in particular a [[topological algebra]], hence a topological ring. Hence so is a [[C-star-algebra]].
+
 ## Related concepts
 
 * [[local field]]
