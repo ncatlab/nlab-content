@@ -100,7 +100,7 @@ For special properties of categories of monoids, see [[category of monoids]].
 * A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
  A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
 * For a commutative ring $R$, a monoid object in the category of $R$-modules (with its usual tensor product) is an $R$-algebra.
-* A monoid object in [[Top]] (with cartesian product as the tensor product) is a topological monoid.
+* A monoid object in [[Top]] (with cartesian product as the tensor product) is a [[topological monoid]].
 * A monoid object in [[Ho(Top)]] is an [[H-monoid]].
 * A monoid object in the category of monoids (with cartesian product as the tensor product) is a commutative monoid.  This is a version of the [[Eckmann-Hilton argument]].
 * A monoid object in the category of complete join-[[semilattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
