@@ -40,7 +40,7 @@ Simple as it is, this model has proven to successfully match the observations th
 ### Higgs inflation
  {#HiggsInflation}
 
-The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variatins are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. See below at _[References -- Higgs inflation](#ReferencesHiggsInflation)_.
+The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. See below at _[References -- Higgs inflation](#ReferencesHiggsInflation)_.
 
 ## Related concepts
 
@@ -80,10 +80,13 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
  {#Linde83}
 
 ### Experimantal evidence 
+ {#ReferencesExperimentalEvidence}
 
 * C. L. Bennett et al. _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results_, Astrophys.J.Suppl.148:1 (2003) ([arXiv:astro-ph/0302207](http://arxiv.org/abs/astro-ph/0302207))
 
 * H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
+
+* [[Plack Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
@@ -97,6 +100,10 @@ Literature discussing whether or how the [[Higgs field]] might be identified as 
 * Alex Kehagias, _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
+
+A popular account in the context of the 2013 [[Plack Collaboration]] results is in 
+
+* [[Matthew Strassler]], _[Cosmic Conflation: The Higgs, The Inflaton, and Spin](http://profmattstrassler.com/2013/03/26/cosmic-conflation-the-higgs-the-inflaton-and-spin/)_
 
 ### Gauge field inflation
  {#ReferencesHiggsInflation}
