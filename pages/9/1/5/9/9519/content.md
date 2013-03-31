@@ -24,7 +24,7 @@
 
 A _topological algebra_ is equivalently
 
-* a [[topological monoid]] which is also an [[associative algebra]] over some [[topological ring]];
+* a [[topological ring]] which is also an [[associative algebra]] over some base [[topological ring]];
 
 * an [[associative algebra]] [[internalization|internal]] to the [[category]] [[Top]] of [[topological spaces]] and [[continuous functions]] between them
 
