@@ -23,6 +23,9 @@ A _dense subalgebra_ of a [[topological algebra]] is a [[subalgebra]] which is a
 
 For instance, the algebra of [[smooth functions]] on a given [[smooth manifold]] $M$ is a dense subalgebra of the [[C-star-algebra]] of [[continuous functions]] on $X$.  Conversely, if we start with a [[commutative C-star-algebra]] $A$ and view it as the algebra of continuous maps on its [[spectrum]] $S$, then picking a dense subalgebra of $A$ may specify a [[smooth structure]] on $S$ (which may be any [[compactum|compact Hausdorff space]]).  For [[noncommutative geometry]], we can let $A$ be an arbitrary $C^*$-algebra.
 
+## Related concepts
+
+* [[F-star-algebra]]
 
 ## References
 
