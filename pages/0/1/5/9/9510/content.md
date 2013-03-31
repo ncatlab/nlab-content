@@ -43,5 +43,6 @@ For $X$ a [[topological space]], for $I$ the set of [[natural numbers]] (or more
 [[!redirects convergence of a sequence]]
 [[!redirects convergence of a net]]
 
-
+[[!redirects limit point]]
+[[!redirects limit points]]
 
