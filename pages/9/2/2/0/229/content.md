@@ -78,6 +78,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * [[module]], [[ring]]
 
+* [[commutative ring]], [[commutative algebra]]
+
 * [[Ab]]
 
 * [[sheaf of abelian groups]]
