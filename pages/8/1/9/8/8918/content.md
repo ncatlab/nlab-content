@@ -25,7 +25,7 @@
 
 In the context of [[T-duality]] and in particular of [[differential T-duality]] one considers (as discussed in detail there) [[fiber products]] of two [[torus]]-[[fiber bundles]] together with a [[circle 2-bundle]] on this, ([[circle n-bundle with connection|with connection]]). 
 
-In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouknegt](Bouwknegt)
+In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouwknegt](Bouwknegt)
 
 Here "$B_n$" refers to the [[special orthogonal group]] of the form $SO(n+1,n)$, which appears as the structure group of a [[generalized tangent bundle]] tensored with a [[line bundle]] (the [[Poincare line bundle]] of the T-duality correspondence).
 
