@@ -618,6 +618,11 @@ Foliations in [[Lie groupoid]] theory are discussed in more detail in
 * [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_ ([arXiv:math/0003119](http://arxiv.org/abs/math/0003119))
  {#CrainicMoerdijk}
 
+The corresponding [[groupoid algebras]] are discussed in chapter 2, section 8 of 
+
+* [[Alain Connes]], _[[Noncommutative Geometry]]_
+
+See also
 
 * [wikipedia](http://en.wikipedia.org/wiki/Foliation), Springer Online Enc. of Math.: [foliation](http://eom.springer.de/F/f040740.htm)
 
