@@ -299,6 +299,11 @@ There should be a notion of &#8224;-[[quasi-category]] based on $\dagger$-simpli
 (...)
 
 
+## Properties
+
+### Relation to star-algebras
+
+The [[category convolution algebra]] of a dagger-category is naturally a [[star-algebra]]. The star-involution is given by [[pullback of functions]] along the $\dagger$-functor.
 
 
 ## Applications
