@@ -13,21 +13,27 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A _commutative $C^\ast$-algebra_ is a [[C-star algebra]] whose underlying [[associative algebra]] is a [[commutative algebra]].
 
-Commutative $C^\ast$-algebras are those identified by [[Gelfand duality]] with algebras of [[continuous functions]] on suitable [[topological spaces]]. 
+Commutative $C^\ast$-algebras are those identified by [[Gelfand duality]] with algebras of [[continuous functions]] on [[compact Hausdorff topological spaces]]. 
+
 
 ## Related concepts
 
 * [[poset of commutative subalgebras]]
 
-[[!redirects commutative C-star-algebras]]
 
+[[!redirects commutative C-star-algebra]]
+[[!redirects commutative C-star-algebras]]
+[[!redirects commutative C-star algebra]]
+[[!redirects commutative C-star algebras]]
 [[!redirects commutative C*-algebra]]
 [[!redirects commutative C*-algebras]]
+[[!redirects commutative C-*-algebra]]
+[[!redirects commutative C-*-algebras]]
