@@ -12,7 +12,10 @@ At the end of the article there is an application to the [[differential Galois t
 
 The article had a huge influence not only in Tannakian theory but also in creating more technical exchange between the modern algebraic geometry with category theory and bi(al)gebras. 
 
-See also [wikipedia](http://en.wikipedia.org/wiki/Tannakian_category)
+See also: 
+
+* [wikipedia](http://en.wikipedia.org/wiki/Tannakian_category)
+* [[Tannakian category]]
 
 There will be later a separate entry on Tannakian reconstructions. 
 
