@@ -158,6 +158,8 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 * [[commutative C-star-algebra]]
 
+* [[C-star-category]]
+
 * [[Hopf C-star-algebra]]
 
 * [[C-star coalgebra]]
