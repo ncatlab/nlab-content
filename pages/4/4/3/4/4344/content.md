@@ -1,17 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 A $C^*$-category is a $*$-[[star-category|category]] that has a norm on each [[hom-set|set of arrows]] $Hom(x, y)$ that turns it into a [[Banach space]] with ${\|s^* s\|} = {\|s\|}^2$ for $s \in Hom(x, y)$ and ${\|{s t}\|} \leq {\|s\|} {\|t\|}$ for all arrows $s, t$ that are composable, that is $s \in Hom(x, y)$ and $t \in Hom(y, x)$.
+
 =--
 
-Note that a $C^*$-[[C-star-algebra|algebra]] is precisely a one-object $C^*$-category.  Accordingly, a more systematic name for a $C^*$-category is a __$C^*$-algebroid__.
++-- {: .num_remark}
+###### Remark
 
+A [[C-star-algebra]] $A$ is equivalently a pointd one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories is a __$C^*$-[[algebroids]]__.
+
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra]] (see there for details) is naturally a [[rigid monoidal category|rigid monoidal]] $C^\ast$-category.
+
+=--
+
+## Related concepts
+
+* [[spaceoid]]
 
 [[!redirects C-star-category]]
 [[!redirects C-star-categories]]
@@ -21,3 +56,7 @@ Note that a $C^*$-[[C-star-algebra|algebra]] is precisely a one-object $C^*$-cat
 [[!redirects C-star-algebroids]]
 [[!redirects C*-algebroid]]
 [[!redirects C*-algebroids]]
+
+[[!redirects C-star category]]
+[[!redirects C-star categories]]
+
