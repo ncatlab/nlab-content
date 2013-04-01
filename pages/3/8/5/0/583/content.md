@@ -71,7 +71,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[first-order logic|first-order]]| |[[Heyting category]]|
 |[[dependent types]]| |[[locally cartesian closed category]]|
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
-[[linear logic]]| [[symmetric monoidal category]]|
+[[linear logic]]| |[[symmetric monoidal category]]|
 
 Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
 
