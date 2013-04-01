@@ -11,6 +11,6 @@ A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|
 
 * [[Galois theory]]
 
-
+* [[action]]: a $G$-set is a set with an _action_ of the given group, $G$.
 
 [[!redirects G-sets]]
