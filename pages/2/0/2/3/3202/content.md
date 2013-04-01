@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
@@ -126,8 +130,10 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 * Wikipedia (English): [Lp space](http://en.wikipedia.org/wiki/Lp_space)
 
 category: analysis
+
 [[!redirects Lebesgue space]]
 [[!redirects Lebesgue spaces]]
+
 [[!redirects L-p space]]
 [[!redirects L-p spaces]]
 [[!redirects L-p-space]]
@@ -136,6 +142,25 @@ category: analysis
 [[!redirects L^p spaces]]
 [[!redirects L_p space]]
 [[!redirects L_p spaces]]
+
+[[!redirects L-1 space]]
+[[!redirects L-1 spaces]]
+[[!redirects L-1-space]]
+[[!redirects L-1-spaces]]
+[[!redirects L^1 space]]
+[[!redirects L^1 spaces]]
+[[!redirects L_1 space]]
+[[!redirects L_1 spaces]]
+
+[[!redirects L-2 space]]
+[[!redirects L-2 spaces]]
+[[!redirects L-2-space]]
+[[!redirects L-2-spaces]]
+[[!redirects L^2 space]]
+[[!redirects L^2 spaces]]
+[[!redirects L_2 space]]
+[[!redirects L_2 spaces]]
+
 
 [[!redirects Minkowski inequality]]
 [[!redirects Minkowski's inequality]]
