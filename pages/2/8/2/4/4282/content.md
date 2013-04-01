@@ -32,14 +32,14 @@ The claim that the anti-involution is $K$-antilinear means that $(r x)^* = \over
 If a $K$-$*$-algebra $A$ is itself commutative, then it is in particular a commutative ring with involution, and one can consider $A$-$*$-algebras as well.  On the other hand, a commutative ring with involution is simply a commutative $*$-algebra over the ring of [[integers]] (with trivial involution), and similarly for rigs and [[natural numbers]].
 
 
-## $*$-rings
+### $\ast$-Rings
 
 A __$*$-ring__ is simply a $*$-algebra over the ring of [[integers]] (with trivial involution).  Similarly, a __$*$-rig__ is a $*$-algebra over the rig of [[natural numbers]].
 
 Arguably, when we began this article with a commutative ring $K$ equipped with involution, we should have begun it with a ring with *anti*-involution instead.  However, since the ring (or rig) is commutative, there is no difference.
 
 
-## Banach star-algebras
+### Banach star-algebras
 
 When $K$ is the field $\mathbb{C}$ of [[complex numbers]] (or the field $\mathbb{R}$ of [[real numbers]], with trivial involution), we can additionally ask that the $*$-algebra be a [[Banach algebra]]; then it is a __Banach $*$-algebra__.  Special cases of this are 
 
@@ -48,6 +48,12 @@ When $K$ is the field $\mathbb{C}$ of [[complex numbers]] (or the field $\mathbb
 * and $W^*$-[[W-star-algebra|algebras]].
 
 Arguably, one should require that the map $*$ be an [[isometry]] (which follows already if it is required to be [[short map|short]]); some authors require this and some don\'t.  However, this is automatic in the case of $C^*$-algebras (and hence also $W^*$-algebras).
+
+## Examples
+
+A [[groupoid convolution algebra]] is naturally a star-alegbra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+
+More generally the [[category convolution algebra]] of a [[dagger-category]] is a star algebra, with the involution being the pullback along the dagger-operation.
 
 
 [[!redirects star-algebra]]
