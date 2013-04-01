@@ -429,6 +429,10 @@ $$
 
 More on this is at [[cohesive (∞,1)-topos -- structures]] in the section <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Homotopy">Galois theory in a cohesive (∞,1)-topos</a>
 
+## Related concepts
+
+* [[Tannakian category]]
+
 ## References
 
 * [[André Joyal]], [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)
@@ -514,3 +518,5 @@ Tannaka duality in the context of [[(∞,1)-category theory]] is discussed in
 mathOverflow: [does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories](http://mathoverflow.net/questions/30453/does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories)
 
 [[!redirects Tannaka reconstruction]]
+
+[[!redirects Tannaka reconstruction theorem]]
