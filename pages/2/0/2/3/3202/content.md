@@ -120,6 +120,9 @@ $$\int_\Omega {|t u + (1-t)v|^p} \,d\mu \leq \int_\Omega t{|u|}^p + (1-t){|v|}^p
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
+## Related concepts
+
+* [[canonical Hilbert space of half-densities]]
 
 ## References
 
