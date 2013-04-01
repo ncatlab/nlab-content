@@ -66,7 +66,7 @@ solvable in quadratures. Thus the integration is used in examples of solving dif
 * [[integration in generalized cohomology]]
 (...)
 
-## Zoo of integrals and concepts of integration 
+### Zoo of integrals and concepts of integration 
 
 We list a bunch more notions of integration. Should eventually be turned into something more coherent...
 
@@ -108,13 +108,20 @@ vector fields and flows)
 * stratified versions related to Grothendieck rings and valuations:
 [[Euler integration]], [[motivic integration]]
 
+## Properties
+
+* [[Cauchy integral theorem]]
+
+(...)
+
 ## Related concepts
 
 * [[Lebesgue integration]]
 
-* [[Cauchy integral theorem]]
+* [[Lebesgue space]]
 
 * [[integration of differential forms]]
+
 
 * [[density]], [[volume form]]
 
