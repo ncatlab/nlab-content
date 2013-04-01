@@ -48,6 +48,8 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 
 +-- {: .query}
 I have a question here. The third condition says that $C$ admits a presentation as a left Bousefield localization of a category of simplicial presheaves with the projective model structure. The fifth conditions claims this for a category of simplical presheaves with the injective model structure. How can that be?
+
+Answer (Dylan W.): I believe the injective and projective model structures on simplicial presheaves are Quillen equivalent.
 =--
 
 =--
