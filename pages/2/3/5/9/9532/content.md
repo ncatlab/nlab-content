@@ -1,0 +1,15 @@
+
+
+This entry collects some links related to the textbook
+
+* [[Alain Connes]],
+
+  _Noncommutative geometry_
+
+  Academic Press, San Diego, CA, 1994
+
+  ([pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf))
+
+on [[noncommutative geometry]].
+
+category: reference
