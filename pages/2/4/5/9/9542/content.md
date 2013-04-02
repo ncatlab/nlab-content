@@ -1,0 +1,96 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Moyal product_ is a [[deformation quantization]] of a linear [[Poisson manifold]], hence of a [[vector space]] $V$ equipped with a [[Poisson bivector]] $\pi \in V \wedge V$, regarded as a constant (translation invariant) [[tensor field|bivector field]].
+
+## Definition
+
+The Moyal [[star product]] on [[smooth functions]] $C^\infty(V)$ is given on $f,g \in C^\infty(V)$ by
+
+$$
+  f \star g \coloneqq prod \circ \exp(\hbar \pi)(f , g)
+  \,,
+$$
+
+where in the exponent we regard $\pi$ as an [[endomorphism]] on the [[tensor product]] $C^\infty(V) \otimes C^\infty(V)$ by [[differentiation]] in each argument, where the [[exponential]] denotes the corresponding [[formal power series]] of iterated applications of this endomorphism, and where $prod \colon C^\infty(V) \otimes C^\infty(V) \to C^\infty(V)$ is the usual pointwise product of functions.
+
+This means that given a choice of [[basis]] $\{x^i\}_i$ of $V$ such that $\pi$ has components $\{\pi^{i j}\}_{i j}$ in this basis, the resulting [[formal power series]] in the formal parameter $\hbar$ ("[[Planck's constant]]") starts out as
+
+$$
+  (f \star g) =
+  f \cdot g
+  + 
+  \hbar 
+  \sum_{i,j} \pi^{i j} \frac{\partial f}{\partial x^i}\cdot \frac{\partial g}{\partial x^j}
+  + 
+  \frac{1}{2}
+  \hbar^2
+  \sum_{i,j,k, l} \pi^{k l} \pi^{i j} \frac{\partial^2 f}{\partial x^k\partial x^i}\cdot \frac{\partial^2 g}{\partial x^k \partial x^j}
+   + 
+  \cdots
+$$
+
+## Properties
+
+### Via geometric quantization
+
+The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently as the canonical [[geometric quantization of symplectic groupoids]] of the [[symplectic groupoid]] which is the [[Lie integration]] of the corresponding [[Poisson Lie algebroid]] ((GBV 94)[#GBV], [EH 06](#EH)).
+
+See at _[geometric quantization of symplectic groupoids -- Examples -- Moyal quantization](geometric+quantization+of+symplectic+groupoids#MoyalQuantizationofPoissonVectorSpace)_ for more. 
+
+## References
+
+The Moyal product was introduced independently in 
+
+* [[Hilbrand Groenewold]], _On the Principles of elementary quantum mechanics_, Physica,12 (1946) pp. 405-460.
+
+* [[José Moyal]], _Quantum mechanics as a statistical theory_. Mathematical Proceedings of the Cambridge Philosophical Society 45: 99 (1949)
+
+The understanding of the Moyal product as the [[polarization|polarized]] [[groupoid convolution algebra]] of the coresponding [[symplectic groupoid]], hence as an example of [[geometric quantization of symplectic groupoids]] is due to
+
+* Jose M. Gracia-Bondia, Joseph C. Varilly, _From geometric quantization to Moyal quantization_, J. Math. Phys. 36 (1995) 2691-2701 ([arXiv:hep-th/9406170](http://arxiv.org/abs/hep-th/9406170))
+ {#GBV}
+
+and reappears as example 6.2 of 
+
+* [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
+  {#EH}
+
+
+
+[[!redirects Moyal product]]
+[[!redirects Moyal products]]
+
+[[!redirects Moyal star-product]]
+[[!redirects Moyal star-products]]
+
+[[!redirects Moyal star product]]
+[[!redirects Moyal star products]]
+
+[[!redirects Moyal *-product]]
+[[!redirects Moyal *-products]]
+
+[[!redirects Moyal star]]
