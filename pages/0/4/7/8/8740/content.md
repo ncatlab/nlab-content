@@ -1,5 +1,31 @@
-In [[deformation quantization]] the commutative product $\cdot$ of the commutative algebra of functions is replaced by a noncommutative associative product $\star$ which is formal power series whose first term is the commutative product. This one is called star product. Some people impose additional conditions for a noncommutative deformation of a commutative product to call it star product, for example to reproduce give Poisson bracket in classical limit of a commutator (in order Planck constant), some continuity conditions or sometimes to be given by a bidifferential operator. 
 
-Some problems nowdays suggest also that considerations of nonassociative "star products" is of some use. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[deformation quantization]] of [[Poisson manifolds]] the commutative product $\cdot$ of the [[commutative algebra|commutative]] [[algebra of functions]] is replaced by a noncommutative associative product. This is often called a **star product** and denoted "$\star$". 
+
+An archetypical example is the _[[Moyal star product]]_ that deforms the function algebra on a Poisson vector space, and sometimes "star product" is by default understood to be a Moyal star product.
+
+More recently also nonassociative "star products" have been proposed to be of interest.
+
+## Related concepts
+
+* [[deformation theory]]
+
 
 [[!redirects star products]]
+
+[[!redirects star-product]]
