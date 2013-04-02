@@ -5,7 +5,7 @@
 
 ## Idea
 
-KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]], the _KK-group_ $KK(A,B)$ is an equivalence class of $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}$ equipped with a an adjointable founded operator $F \in \mathcal{B}_A(\mathcal{H})$ such that $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ and $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$
+KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]], the _KK-group_ $KK(A,B)$ is an equivalence class of $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}$ equipped with a an adjointable odd-graded bounded operator $F \in \mathcal{B}_A(\mathcal{H})$ such that $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ and $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$ (a [[Dirac operator]]).
 
 These KK-groups $KK(A,B)$ behave in the first argument as K-homology of $A$ and in the second as K-cohomology of $B$.
 
@@ -36,6 +36,7 @@ A brief survey with an eye towards [[representation of a C-star algebra|C-star r
 The underlying [[triangulated category]] of KK-theory is discussed in 
 
 * [[Ralf Meyer]], _KK-theory as a triangulated category_ (2009) ([pdf](http://wwwmath.uni-muenster.de/u/echters/Focused-Semester/lecturenotes/Meyer_--_KK-theory_as_a_triangulated_category.pdf))
+ {#Meyer}
 
 * Rohan Lean, to appear [pdf]()
  {#Lean}
