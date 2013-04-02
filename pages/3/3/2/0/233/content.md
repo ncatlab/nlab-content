@@ -804,6 +804,8 @@ $$
 
   * [[linear independence]]
 
+  * [[Fredholm module]]
+
 * [[representation]], [[∞-representation]]
 
 * [[linear combination]]
