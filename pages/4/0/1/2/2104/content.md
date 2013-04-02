@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -29,21 +29,23 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
   * [[deformation quantization]]
 
+    * [[Moyal quantization]]
+
   * [[geometric quantization]], [[higher geometric quantization]]
+
+    * [[geometric quantization of symplectic groupoids]]
 
   * [[path integral]]
 
   * [[semiclassical approximation]]
 
-  * [[coherent state]]
-
   * [[quantization via the A-model]]
 
-* [[gauge transformation]]
-
-  * [[BV-BRST formalism]]
-
 * [[perturbation theory]]
+
+  * [[formal deformation quantization]]
+
+  * [[BV quantization]]
 
 * overview: [[reductions deformations resolutions in physics]]
 
