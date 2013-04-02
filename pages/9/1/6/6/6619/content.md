@@ -145,7 +145,7 @@ $s^* L + t^* \bar L$ and coresponding polarization of the symplectic groupoid. T
 
 For $(X,\pi)$ a Poisson vector space, hence a [[vector space]] $X = V$ equipped with a constant (translating invariant) [[Poisson bivector]], the geometric quantization of the corresponding [[symplectic groupoid]] yields the [[Moyal quantization]] of $(V, \pi)$.
 
-([EH, example 6.2](#EH))
+([GBV 94](#GBV), [EH 06, example 6.2](#EH))
 
 
 ## Related concepts
@@ -181,16 +181,9 @@ A notion of [[polarization]] and of actual [[geometric quantization]] of symplec
 * [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
   {#EH}
 
+The case over Poisson vector spaces leading to [[Moyal quantization]] was considered earlier in 
 
-An informal review of some aspects of this article is in
+* Jose M. Gracia-Bondia, Joseph C. Varilly, _From geometric quantization to Moyal quantization_, J. Math. Phys. 36 (1995) 2691-2701 ([arXiv:hep-th/9406170](http://arxiv.org/abs/hep-th/9406170))
+ {#GBV}
 
-* [[Urs Schreiber]], 
-
-  * [A Groupoid approach to quantization](http://golem.ph.utexas.edu/category/2008/06/a_groupoid_approach_to_quantiz.html)
-
-  * [Landsman on Quantization of Poisson Algebras Associated to Lie Algebroids](http://golem.ph.utexas.edu/category/2008/06/landsmanon_quantization_of_poi.html)
-
-  * [Eli Hawkins on Geometric Quantization I](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant.html)
-
-  * [Eli Hawkins on Geometric Quantization II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
 
