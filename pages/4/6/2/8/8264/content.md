@@ -84,9 +84,9 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 * C. L. Bennett et al. _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results_, Astrophys.J.Suppl.148:1 (2003) ([arXiv:astro-ph/0302207](http://arxiv.org/abs/astro-ph/0302207))
 
-* H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
+* H .V. Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
 
-* [[Plack Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
+* [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
