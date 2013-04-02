@@ -10,30 +10,72 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Definition
 
-A continuous linear operator $F:B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has finite dimensional [[kernel]] and finite dimensional [[cokernel]]. It follows that its image (range) is closed. The difference between the dimensions of the kernel and the cokernel is called the **index** of the Fredholm operator
++-- {: .num_defn #FredholmOperator}
+###### Definition 
+
+A [[continuous function|continuous]] [[linear operator]] $F \colon B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has [[finite set|finite]] [[dimension|dimensional]] [[kernel]] and finite dimensional [[cokernel]]. 
+
+=--
+
++-- {: .num_defn }
+###### Definition 
+
+The difference between the dimensions of the kernel and the cokernel of a Fredholm operator $F$ is called its **index** 
 
 $$
-ind F = dim ker F - dim coker F = dim ker F - codim im F
+  ind F \coloneqq dim ker F - dim coker F = dim ker F - codim im F
+  \,.
 $$
+
+=--
+
+A standard equivalent characterization of Fredholm operators is the following:
+
++-- {: .num_defn #Parametrix}
+###### Definition 
+
+A **parametrix** of a [[bounded operator|bounded]] [[linear operator]] $F \colon \mathcal{H}_1 \to \mathcal{H}_2$ is a reverse operator $P \colon \mathcal{H}_2 \to \mathcal{H}_1$ which is an "[[inverse]] up to [[compact operators]]", i.e. such that $F \circ P - id_{\mathcal{H}_2}$ and $P \circ F - id_{\mathcal{H}_1}$ are both [[compact operators]].
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ between [[Banach spaces]] is Fredholm, def. \ref{FredholmOperator} precisely it is has a parametrix, def. \ref{Parametrix}.
+
+=--
+
+## Examples
+
+* [[elliptic operator|Elliptic operators]] on [[compact topological space|compact]] [[manifolds]] are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
 
 
 ## Properties
 
-* A **characterization** : a bounded linear operator $F:B_1\to B_2$ between Banach spaces is Fredholm iff it there is an operator $T:B_2\to B_1$ which is its inverse up to a [[compact operator]], i.e. $F T - Id_{B_2}$ and $T F - Id_{B_1}$ are compact operators. 
++-- {: .num_prop }
+###### Proposition
 
-* [[elliptic operator|Elliptic operators]] on compact manifolds are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
+The [[image]] (range) of a Fredholm operator is closed. 
 
-* The subspace $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the space of bounded linear operators with the norm topology is open. 
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The subspace $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the space of bounded linear operators with the norm topology is open. 
+
+=--
 
   In other words, given a Fredholm operator $F$, there exists $\epsilon\gt 0$ such that every bounded linear operator $G$ satisfying $\| G-F\|\lt \epsilon$ is Fredholm. Fredholm operators on a fixed separable Hilbert space $H = B_1 = B_2$ form a [[semigroup]] with respect to the composition and the index is a morphism of semigroups: $ind F G = ind F + ind G$. 
 
-* The space $Fred$ of all Fredholm operators is a model for the classiying space of degree-0 [[topological K-theory]].
+* The space $Fred$ of all Fredholm operators is a model for the [[classiying space]] of degree-0 [[topological K-theory]].
 
 
 ## Generalizations
@@ -48,6 +90,11 @@ of [[Banach space]]s and bounded operators is said to be a **Fredholm complex** 
 
 One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not zero but the image of that operator is compact. Out of every Fredholm almost complex one can make a complex by correcting the differentials by compact perturbation terms. [[elliptic complex|Elliptic complexes]] give examples of Fredholm complexes. 
 
+## Related concepts
+
+* [[Fredholm module]]
+
+* [[Dirac operator]], [[K-theory]]
 
 ## References
 
