@@ -92,6 +92,9 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
   
   * [[2-representation]]
 
+  * [[star-representation]]
+
+    * [[representation of a C-star-algebra]]
 
 
 [[!redirects representation]]
