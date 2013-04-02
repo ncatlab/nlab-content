@@ -55,7 +55,7 @@ As usual for internal categories, the naive 2-category of internal groupoids, [[
 
 One way to deal with this is to equip the 2-category with some structure of a [[homotopical category]] and allow morphisms of Lie groupoids to be [[anafunctor]]s, i.e. [[span]]s of internal functors $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$.
 
-Such generalized morphisms -- called _Morita morphisms_ or _generalized morphisms_ in the literature -- are sometimes modeled as [[bibundle]]s and then called [[Hilsum-Skandalis morphism]]s.
+Such generalized morphisms -- called _[[Morita morphisms]]_ or _generalized morphisms_ in the literature -- are sometimes modeled as [[bibundle]]s and then called [[Hilsum-Skandalis morphism]]s.
 
 Another equivalent approach is to embed Lie groupoids into the context of [[2-topos]] theory:
 
