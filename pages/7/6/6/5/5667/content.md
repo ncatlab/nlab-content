@@ -1,19 +1,33 @@
 
+> under construction
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]], the _KK-group_ $KK(A,B)$ is an equivalence class of $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}$ equipped with a an adjointable odd-graded bounded operator $F \in \mathcal{B}_A(\mathcal{H})$ such that $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ and $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$ (a bounded variant of a [[Dirac operator]]). For $B = \mathbb{C}$ this is equivalently an $A$-[[Fredholm module]].
-
-These KK-groups $KK(A,B)$ behave in the first argument as K-homology of $A$ and in the second as K-cohomology of $B$.
-
+KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]], the _KK-group_ $KK(A,B)$ is an equivalence class of $(A,B)$-[[Hilbert bimodules]] with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]] of $B$.
 
 There is a [[stable (infinity,1)-category]] and in particular a [[triangulated category]] of operator algebras such that $KK(-,-)$ is the [[hom-set]] of the corresponding [[homotopy category]] ([Lean](#Lean))
 
 Accordingly, the groups $KK(A,B)$ are now viewed as a "correct" hom-set among noncommutative operator algebras for the purpose of various homotopy-invariant functors. 
 
+## Definition
+
+Let $A,B$ be two [[C-star algebras]].
+
+Say a _KK-bimodule_ is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}$ equipped with an adjointable odd-graded bounded operator $F \in \mathcal{B}_A(\mathcal{H})$ such that $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ and $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$. 
+
+(...)
+
+For $B = \mathbb{C}$ this is equivalently an $A$-[[Fredholm module]].
+
+A [[homotopy]] between two $(A,B)$-KK-bimodules is an $(A, C([0,1],B))$-bimodule which interpolates between then two.
+
+Then one writes $KK(A,B)$ for the [[quotient]] of $(A,B)$-KK-bimodules under homotopy. This is naturally an [[abelian group]] under [[direct sum]] of bimodules and operators.
+
+Here $KK(A,\mathbb{C}) \simeq K_0(A)$ is the [[algebraic K-theory]] group of $A$. (...)
 
 ## Related concepts
 
