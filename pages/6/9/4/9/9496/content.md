@@ -38,9 +38,9 @@ It is difficult to make this distinction without the $\epsilon$.  It is not impo
 
 ## References
 
-*  Grabiner, Judith (1983), "Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus", The American Mathematical Monthly 90 (3). [pdf](http://www.maa.org/pubs/Calc_articles/ma002.pdf).
+*  Judith Grabiner (1983). Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus. The American Mathematical Monthly 90 (3). [pdf](http://www.maa.org/pubs/Calc_articles/ma002.pdf).
 
-*  Ten Misconceptions from the History of Analysis and Their Debunking, [arXiv](http://arxiv.org/abs/1202.4153).
+*  Piotr Blaszczyk, Mikhail G. Katz, David Sherry (2012). Ten Misconceptions from the History of Analysis and Their Debunking. [arXiv](http://arxiv.org/abs/1202.4153).
 
 
 [[!redirects epsilontic analysis]]
