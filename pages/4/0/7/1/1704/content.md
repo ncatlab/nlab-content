@@ -712,7 +712,7 @@ A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object
 
 * [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
-* **principal $\infty$-bundle** / [[associated ∞-bundle]] / [[∞-gerbe]], [[twisted ∞-bundle]]
+* **principal $\infty$-bundle** / [[associated ∞-bundle]] / [[∞-gerbe]], [[twisted ∞-bundle]], [[groupoid-principal ∞-bundle]]
  
 * [[vector bundle]]
 
