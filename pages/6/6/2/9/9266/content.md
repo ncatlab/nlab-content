@@ -555,5 +555,38 @@ Summing up, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A
 In _[[geometric quantization of symplectic groupoids]]_ it is show that this is the algebra of observables of the [[quantum mechanical system]] of the underlying [[Poisson manifold]] (its [[strict deformation quantization]]).
 
 
+In fact we have to quantize the whole [[atlas]] of the [[symplectic groupoid]]
 
+$$
+  X \to \tau_1 \exp(\mathfrak{P})
+  \,.
+$$
+
+By the discussion at [[groupoid convolution algebra]] this yields a [[bimodule]]
+
+#### Symplectic case
+
+Consider the simple case where $(X,\omega)$ is a [[symplectic manifold]] and in fact a [[symplectic vector space]]. 
+
+Here the [[symplectic groupoid]] is the [[pair groupoid]] $Pair(X)_\bullet$ carrying the trivial twist. The [[atlas]] is the object inclusion
+
+$$
+  X \to Pair(X)
+  ,.
+$$
+
+Notice that this is equivalent ([[Morita equivalence|Morita equivalent]]) to just the terminal map
+
+$$
+  X \to *
+  \,.
+$$
+
+Accordingly, the [[groupoid convolution algebra]] of $Pair(X)_\bullet$ is the [[C-star-algebra]] of [[compact operators]] $\mathcal{K}(X)$. A [[Morita equivalence]] [[bimodule]] from there to the ground field is (...)
+
+The [[groupoid-principal bundle|groupoid-principal]]-[[bibundle]] corresponding to this atlas regarded as a [[Morita morphism]] is just the [[projection]] $X \times X \stackrel{p_1}{\to} X$. Hence the $C^\ast$-bimodule here is that generated from [[integral kernels]].
+
+In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\mathbb{C}$-bimodule.
+
+(...)
 
