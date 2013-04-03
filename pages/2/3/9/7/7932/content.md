@@ -24,6 +24,7 @@ If the $\infty$-action is suitably linear in some sense, this is also referred t
 ## Definition
 
 We discuss the actions of [[∞-groups]] in an [[(∞,1)-topos]].
+(For [[groupoid ∞-actions]] see there.)
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]].
 
