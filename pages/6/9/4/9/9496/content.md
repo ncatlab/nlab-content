@@ -16,7 +16,9 @@ Epsilontic analysis developed out of the practical problems of finding errors of
 
 Epsilontic analysis turns these results around into definitions: the value of a limit, derivative, integral, or series is *defined* to be the (necessarily unique) [[real number]] $L$ such that, given any positive number $\epsilon$, one can produce an approximation within $\epsilon$ of $L$.
 
-The first person to use such definitions systematically in proofs seems to have been [[Augustin Cauchy]], in his 1821 _[[Cours d'Analyse]]_.  However, Cauchy also used [[infinitesimal number|infinitesimals]], and he did not define everything with epsilontics.  This was left to [[Karl Weiestrass|Karl Weierstraß]].
+[[Augustin Cauchy]] is often credited with promoting this approach, in his 1821 _[[Cours d'Analyse]]_.  However, Cauchy also used [[infinitesimal number|infinitesimals]], and he did not actually *define* concepts with epsilontics.  Cauchy did, however, use epsilontic arguments in many proofs.
+
+Other mathematicians used epsilontics to clarify Cauchy\'s work.  [[Bernard Bolzano]] gave epsilontic definitions and proofs even earlier than Cauchy, but his work was largely ignored at the time.  This later came to the attention of [[Karl Weiestrass|Karl Weierstraß]], who set out a systematic treatment of epsilontic analysis, the basis of the standard analysis of today.
 
 
 ## Topological vs uniform properties
@@ -25,7 +27,7 @@ The precise post-Cauchy development of epsilontics was necessary to clarify the 
 
 Typically, topological properties apply at a point, although one can then require them at all points.  Doing so, one has a definition of the form
 $$ \forall x,\; \forall \epsilon,\; \exists M,\; \phi(M,x,\epsilon) ,$$
-where $M$ is some parameter for a method of approximation and $\phi(\epsilon,M,x)$ states that the method, applied with the parameter $M$, approximates a value of interest at $x$ to within an error $\epsilon$.  Equivalently, one may write
+where $M$ is some parameter for a method of approximation and $\phi(M,x,\epsilon)$ states that the method, applied with the parameter $M$, approximates a value of interest at $x$ to within an error $\epsilon$.  Equivalently, one may write
 $$ \forall \epsilon,\; \forall x,\; \exists M,\; \phi(M,x,\epsilon) ,$$
 but we cannot shift the quantifiers further.
 
@@ -33,14 +35,23 @@ In contrast, a uniform property necessarily refers to a range of points and typi
 $$ \forall \epsilon,\; \exists M,\; \forall x,\; \phi(M,x,\epsilon) ,$$
 which is stronger.
 
-It is difficult to make this distinction without the $\epsilon$.  It is not impossible to do this otherwise, as [[Abraham Robinson]] showed with infinitesimals, but it\'s telling that nobody did so before epsilontics.  Even Cauchy\'s definitions are difficult to understand in this respect, since he used epsilontics primarily for proofs (and not always even then) and rarely for definitions.  (In this regard, see [[Cauchy's mistake]].)
+It is difficult to make this distinction without the $\epsilon$.  It is not impossible to do this otherwise, as [[Abraham Robinson]] showed with infinitesimals, but it\'s telling that nobody did so before epsilontics.  Even Cauchy\'s definitions are difficult to understand in this respect, since he used epsilontics only for proofs (and not always even then) and not for definitions.  (In this regard, see [[Cauchy's mistake]].)
 
 
 ## References
 
+The extent to which Cauchy anticipated modern epsilontics is debated.  For arugments pro and contra (respectively), see:
+
 *  Judith Grabiner (1983). Who Gave You the Epsilon? Cauchy and the Origins of Rigorous Calculus. The American Mathematical Monthly 90 (3). [pdf](http://www.maa.org/pubs/Calc_articles/ma002.pdf).
+   {#Grabiner1983}
 
 *  Piotr Blaszczyk, Mikhail G. Katz, David Sherry (2012). Ten Misconceptions from the History of Analysis and Their Debunking. [arXiv](http://arxiv.org/abs/1202.4153).
+   {#BKS2012}
+
+On Bolzano, this looks promising, but I have not read it:
+
+*  Paul Rusnock (2000).  Bolzano\'s Philosophy and the Emergence of Modern Mathematics.  Rodopi 2000.
+   {#Rusnock2000}
 
 
 [[!redirects epsilontic analysis]]
