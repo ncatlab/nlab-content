@@ -33,6 +33,11 @@ $$
   {\|{A^* A}\|} = {\|{A}\|^2} 
   \,.
 $$
+
+A [[homomorphism]] of $C^\ast$-algebras is a map that preserves all this structure. For this it is sufficient for it to be a [[star-algebra]] homomorphisms.
+
+$C^\ast$-algebras with these homomorphisms form a [[category]] [[C*Alg]].
+
 =--
 
 +-- {: .num_remark}
