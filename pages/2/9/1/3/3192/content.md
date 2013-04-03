@@ -75,8 +75,14 @@ The subspace $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the spac
 
   In other words, given a Fredholm operator $F$, there exists $\epsilon\gt 0$ such that every bounded linear operator $G$ satisfying $\| G-F\|\lt \epsilon$ is Fredholm. Fredholm operators on a fixed separable Hilbert space $H = B_1 = B_2$ form a [[semigroup]] with respect to the composition and the index is a morphism of semigroups: $ind F G = ind F + ind G$. 
 
-* The space $Fred$ of all Fredholm operators is a model for the [[classiying space]] of degree-0 [[topological K-theory]].
++-- {: .num_prop }
+###### Proposition
 
+The space $Fred$ of all Fredholm operators is a model for the [[classifying space]] of degree-0 [[topological K-theory]].
+
+=--
+
+(...)
 
 ## Generalizations
 
