@@ -127,11 +127,13 @@ This is ([Watts, theorem 1](#Watts)),
 
 * [[enriched functor]]
 
-In the context of [[derived functors in homological algebra]] one considers functors that are additive and in addition left/right [[exact functors]], as discussed above in _[Characterization by exactness](#CharacterizationByExactness)_.
+* In the context of [[derived functors in homological algebra]] one considers functors that are additive and in addition left/right [[exact functors]], as discussed above in _[Characterization by exactness](#CharacterizationByExactness)_.
+
+* [[satellite]]
 
 ## References
 
-* Charles E. Watts, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
+* [[Charles Watts]], _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
  {#Watts}
 
 [[!redirects additive functors]]
