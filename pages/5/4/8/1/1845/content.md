@@ -206,6 +206,7 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[Morava K-theory]]
 
+* [[L-theory]]
 
 * [[twisted K-theory]]
 
