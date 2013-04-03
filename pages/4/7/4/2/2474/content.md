@@ -196,6 +196,12 @@ A characterizations of injections of commutative sub-$C^*$-algebras -- hence of 
 
 * [[Chris Heunen]], _Characterizations of categories of commutative $C^*$-algebras_ ([arXiv:1106.5942](http://arxiv.org/abs/1106.5942))
 
+Properties of the [[category]] of $C^\ast$-algebras are discussed in 
+
+* [[Ralf Meyer]], _Categorical aspects of bivariant K-theory_, ([arXiv:math/0702145](http://arxiv.org/abs/math/0702145))
+ {#Meyer}
+
+
 Homotopy theory of $C^\ast$-algebras (a [[category of fibrant objects]]-structure on $C^\ast Alg$) is discussed in
 
 * Otgonbayar Uuye, _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926](http://arxiv.org/abs/1011.2926))
