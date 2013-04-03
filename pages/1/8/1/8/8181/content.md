@@ -43,6 +43,15 @@ Over [[smooth manifolds]], the general setup is discussed in
 
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
 
+and considered in the general context of [[higher differential geometry]]/[[extended prequantum field theory]] in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]],
+
+  _[[schreiber:Higher geometric prequantum theory]]_, 
+
+  _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_
+
+
 ### Application to the string $\sigma$-model
  {#ReferencesStringSigmaModel}
 
