@@ -1,12 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+
 # Hilbert modules
 * table of contents
 {: toc}
 
 ## Idea
 
-A Hilbert $C^\ast$-module (or simply a Hilbert module) is a generalization of [[Hilbert space]] where the inner product is allowed to be valued in a $C^\ast$-[[C*-algebra|algebra]]. 
+The notion of _Hilbert $C^\ast$-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathcal{C}$, but in $A$.
 
+Hilbert $C^\ast$-modules naturally appear as modules over [[groupoid convolution algebras]]. Refined to [[Hilbert C*-bimodules]] they serve as [[homomorphism]] between [[C*-algebras]] in [[KK-theory]], in [[noncommutative topology]].
 
 ## Definition
 
