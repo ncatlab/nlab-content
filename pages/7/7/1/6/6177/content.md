@@ -34,6 +34,11 @@ The [[stable homotopy category]] $Ho(Spec)$ is a [[symmetric monoidal category]]
 
   Using this one shows that the [[trace]] on the [[identity]] on $\Sigma^\infty_+ X$ -- its categorical [[dimension]] -- is the [[Euler characteristic]] of $X$.
 
+## Related entries
+
+* [[S-theory]]
+
+
 ## References
 
 The original references are
