@@ -297,6 +297,8 @@ This is how derived functors are traditionally introduced in homological algebra
 
 * [[derived category]]
 
+* [[satellite]]
+
 ## References
 
 ### General
