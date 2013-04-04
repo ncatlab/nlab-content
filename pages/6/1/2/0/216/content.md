@@ -438,7 +438,14 @@ $$
 
 =--
 
+## Properties
 
+### Relation to (twisted) K-theory
+ {#RelationToTwistedKTheory}
+
+The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological groupoid]] $\mathcal{X}_\bullet$ may be thought of as the [[topological K-theory]] of the corresponding [[topological stack]]. More generally, for $\mathcal{X} \to \mathbf{B}^2 U(1)$ a [[principal 2-bundle]] ([[bundle gerbe]]) on the groupoid/stack, the [[operator K-theory]] of the corresponding twisted convolution algebra is the [[twisted K-theory]] of the stack.
+
+([Tu, Xu, Laurent-Gengoux 04](#TXLG))
 
 ## References
 
@@ -530,7 +537,7 @@ A characterization of the convolution algebras of [[étale groupoids]] with thei
 
 * [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
 
-#### Modules over Lie groupoid convolution algebras
+#### Modules over Lie groupoid convolution algebras and K-theory
  {#ReferencesModulesOverConvolutionAlgebra}
 
 Discussion of [[modules]] over Lie groupoid convolution algebras is in the following articles.
@@ -544,6 +551,11 @@ In ([Bos, chapter 7](#Bos)) is discussion refining this to continuous representa
 Representation of convolution algebras of [[étale groupoids]] is in
 
 * [[Jure Kališnik]], _Groupoid representations and modules over the convolution algebras_ ([arXiv:0806.1832](http://arxiv.org/abs/0806.1832))
+
+The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-theory]] of the corresponding [[differentiable stacks]]) is discussed in
+
+* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ {#TXLG}
 
 
 [[!redirects category algebras]]
