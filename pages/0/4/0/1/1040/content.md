@@ -79,7 +79,7 @@ In the language of [[stuff, structure, property]], an idempotent monad may be sa
 
 If $T$ is idempotent, then it follows in particular that an object of $C$ admits at most one structure of $T$-algebra, that this happens precisely when the  unit $\eta_X\colon X\to T X$ is an isomorphism, and in this case the $T$-algebra structure map is $\eta_X^{-1}\colon T X \to X$.  However, it is possible to have a non-idempotent monad for which any object of $C$ admits at most one structure of $T$-algebra, in which case $T$ can be said to equip objects of $C$ with [[property-like structure]]; an easy example is the monad on [[semigroups]] whose algebras are [[monoids]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 Let us be in a $2$-category $K$. Part of the structure of an idempotent monad $(C,T,\eta,\mu)$ in $K$ is of course an idempotent morphism $T:C\to C$. More precisely (Definition 1.1.9) considers $\mu$ as part of the structure such that an idempotent 1-cell has a 2-isomorphism $\mu:TT\to T$ such that $\mu T=T\mu$. Equivalently an idempotent morphism is a normalized pseudofunctor from the two object monoid $\{*,e\}$ with $e^2=e$ to $K$.
 
@@ -90,7 +90,7 @@ Now if $(I,R,a,b)$ is a splitting of an idempotemt monad, then $R\dashv I$ are a
 (Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249)
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Equivalences (resp. cores) in an allegory are precisely those symmetric idempotents which are idempotent monads (resp. comonads). In an allegory the following statements are equivalent: all symmetric idempotents split, idempotent monads split, idempotent comonads split. A similar statement holds at least for some 2-categories.
@@ -102,7 +102,7 @@ Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249
 
 ## Algebras of an idempotent monad 
 
-+-- {: .un_thm}
++-- {: .num_prop}
 ###### Proposition
 
 Let $(M, \eta, \mu)$ be an idempotent monad on a category $E$. The following conditions on an object $e$ of $E$ are equivalent: 
@@ -135,7 +135,7 @@ follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \
 
 ## The associated idempotent monad of a monad
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem (Fakir) 
 Let $C$ be a complete, well-powered category, and let $M\colon C \to C$ be a monad with unit $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a right adjoint to 
 
@@ -164,8 +164,8 @@ $$Monad(C) \to Endo(C)$$
 
 reflects limits (irrespective of size), so $E = E(M)$ acquires a monad structure defined by the limit. Let $\eta\colon 1 \to E$ be the unit and $\mu\colon E E \to E$ the multiplication of $E$. For each $\alpha$, there is a monad map $\pi_\alpha\colon E \to M_\alpha$ defined by the limit projection. 
 
-+-- {: .un_lemma}
-###### Claim
++-- {: .num_lemma}
+###### Lemma
 $E$ is idempotent. 
 =--
 
@@ -207,14 +207,18 @@ $$T(M) \to B \otimes_A M \stackrel{\overset{f^\ast f_! \eta M}{\to}}{\underset{\
 Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 =--
  
+## Related concepts
+
+* [[closure operator]]
+
 
 ## References
 
 * [[Francis Borceux]], _Handbook of categorical algebra_, vol.2, p. 196.
 
-* P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_
+* [[Pierre Gabriel]] and [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
-* P.T. Johnstone, Sketches of an elephant, A.4.3.11, p.194, B1.1.9, p.249
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_, A.4.3.11, p.194, B1.1.9, p.249
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
