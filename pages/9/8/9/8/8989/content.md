@@ -19,6 +19,7 @@ A _closure operator_ is a [[monad]] on a [[poset]], typically a [[poset of subob
 
 Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the elements fixed by it are called _co-closed_.
 
+More generally, in [[type theory]]/[[category theory]], we may think of any [[idempotent monad]] on a [[category]] as being a closure operator, and of any idempotent [[comonad]] as a co-closure operator.
 
 ## Examples
 
@@ -27,6 +28,150 @@ Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the eleme
 * One well-known example of a Moore closure is [[topological closure]], which is precisely a Moore closure that preserves finite joins (unions). Similarly, one can view _[[topological interior]]_ as a co-closure operator on a power set that preserves finite meets, or dually as a closure operator on the *[[opposite poset|opposite]]* of a power set that preserves finite [[joins]] (given by [[intersections]] of subsets).
 
 * A [[Lawvere-Tierney topology]] is a closure operator on the [[subobject classifier]] $\Omega$ of a [[topos]] $E$, viewed as an internal [[meet-semilattice]]. More precisely, it is a just such a closure operator that preserves internal finite meets. Externally, $\hom(-, \Omega) \colon E^{op} \to Set$ provides an example of a [[universal closure operator]]. 
+
+## Induced closure on slices
+
+We discuss here how a closure operator on a [[topos]] may induce closure operators on each of its [[slice categories]].
+
+Throughout, our [[topos]] is denoted $\mathcal{C}$. Given a [[monad]] $\diamond \colon \mathcal{C} \to \mathcal{C}$ we write 
+$\eta_\diamond \colon id_{\mathcal{C}} \to \diamond$
+for its [[unit of a monad|unit]], as usual.
+
+For $X \in \mathcal{C}$ any [[object]], we write $\mathcal{C}_{/X}$ for the corresponding [[slice topos]]. The corresponding [[base change geometric morphism]] ([[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]]) we write
+
+$$
+  \left(
+    \underset{X}{\sum}
+    \dashv 
+    X^\ast
+    \dashv
+    \underset{X}{\prod}
+  \right)
+  \;\colon\;
+  \mathcal{C}_{/X}
+  \stackrel{\overset{\sum_X}{\to}}{\stackrel{\overset{X^\ast}{\leftarrow}}{\underset{\prod_X}{\to}}}
+  \mathcal{C}
+  \,.
+$$
+
+We denote an object $p \in \mathcal{C}_{/X}$ in the slice also by the corresponding [[morphism]] 
+
+$$
+  p \coloneqq 
+  \left(
+    \left(\sum_X p\right) \stackrel{p}{\to} X
+  \right)
+  \coloneqq
+  \sum_X \left( p \to \ast_{X} \right)
+$$
+
+in $\mathcal{C}$, which is the image under [[dependent sum]] of the unique morphism from $p$ to the [[terminal object]] in $\mathcal{C}_{/X}$. Accordingly, a morphism $\phi \colon p_1 \to P_2$ in the slice we also denote by the corresponding triangular [[commuting diagram]]
+
+$$
+  \left(
+   \array{
+      \sum_X p_1 &&\stackrel{\sum_X \phi}{\to}&& \sum_X p_2
+      \\
+      & {}_{\mathllap{p}_1}\searrow && \swarrow_{\mathrlap{p_2}}
+      \\
+      && X
+    }
+  \right)
+$$
+
+in $\mathcal{C}$.
+
+  
++-- {: .num_defn #InducedOperatorOnSlice}
+###### Definition
+
+For $\diamond \colon \mathcal{C} \to \mathcal{C}$ an [[idempotent monad]] on a [[topos]] $\mathcal{C}$, and for $X \in \mathcal{C}$ any [[object]], the **induced operator**  
+
+$$
+  \diamond_{/X} \colon \mathcal{C}_{/X} \to \mathcal{C}_{/X}
+$$
+
+on the [[slice topos]] $\mathcal{C}_{/X}$ is the [[functor]] which sends an object $(E \stackrel{p}{\to} X) \in \mathcal{C}_{/X}$ to $(X \underset{\diamond X}{\times} \diamond E \stackrel{\eta_\diamond(X)^\ast p}{\to} X)$, hence to the left vertical morphism in the [[pullback]] [[diagram]]
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond E 
+    &\to&
+    \diamond E
+    \\
+    \downarrow^{\mathrlap{\eta_\diamond(X)^\ast p}} && \downarrow^{\mathrlap{p}}
+    \\
+    X &\stackrel{\eta_\diamond(X)}{\to}& \diamond X
+  }
+  \,,
+$$
+
+regarded as an object in $\mathcal{C}_{/X}$, and which sends morphisms to the corresponding universal maps between these pullbacks:
+
+$$
+  \diamond_{/X}
+  \;\;
+  \colon
+  \;\;
+  \left(
+   \array{
+     E_1 &&\stackrel{\phi}{\to}&& E_2
+     \\
+     & \searrow && \swarrow
+     \\
+     && X
+   }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+    \array{
+      X \underset{\diamond X}{\times} \diamond E_1
+      && \stackrel{X \underset{\diamond X}{\times} \diamond \phi}{\to} 
+      &&
+      X \underset{\diamond X}{\times} \diamond E_2
+      \\
+      & \searrow && \swarrow
+      \\
+      && X
+    }
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+In the situation of def. \ref{InducedOperatorOnSlice}, there is a [[natural transformation]]
+
+$$
+  \eta_{\diamond_{/X}} 
+  \;\colon\;
+  id_{\mathcal{C}_{/X}}
+  \to 
+  \diamond_{/X}
+$$
+
+from the identity on the slice to the induced operator on the slice, whose component over an object $(E \stackrel{p}{\to} X) \in \mathcal{C}_{/X}$ is the universal morphism into the defining [[pullback]] in def. \ref{InducedOperatorOnSlice} induced from the naturality of the $\diamond$-unit $\eta_{\diamond}$:
+
+$$
+  \array{
+    \eta_{\diamond}(E) \colon
+    & E &\stackrel{\sum_{X} \eta_{\diamond_{/X}(p)} }{\to}& X \underset{\diamond X}{\times} \diamond E 
+    &\to&
+    \diamond E
+    \\
+    & &{}_{\mathllap{p}}\searrow& & \downarrow^{\mathrlap{\eta_\diamond(X)^\ast p}} && \downarrow^{\mathrlap{p}}
+    \\
+    & && X &\stackrel{\eta_\diamond(X)}{\to}& \diamond X
+  }
+  \,,
+$$
+
+=--
 
 ## Related concepts
 
