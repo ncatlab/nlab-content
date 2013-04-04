@@ -125,6 +125,8 @@ a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]]
 
 * [[black brane]], [[black hole in string theory]]
 
+* [[K-homology]], [[KK-theory]]
+
 [[!include table of branes]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
