@@ -122,6 +122,11 @@ On the other hand, many commonly encountered factorization systems are not refle
 
 * The factorization system $(Epi, Mono)$ on [[Set]] is not reflective.  If  $(E',M')$ is its reflective interior, then $E'$ is the class of morphisms $e\colon X\to Y$ such that if $Y$ is [[inhabited set|inhabited]], so is $X$, while $M'$ is the class of morphisms $m\colon X\to Y$ such that if $X$ is inhabited, then $m$ is an isomorphism.
 
+## Related concepts
+
+* [[stable factorization system]]
+
+* [[closure operator]]
 
 ## References
 
