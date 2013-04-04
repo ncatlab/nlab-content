@@ -29,15 +29,18 @@ More generally, in [[type theory]]/[[category theory]], we may think of any [[id
 
 * A [[Lawvere-Tierney topology]] is a closure operator on the [[subobject classifier]] $\Omega$ of a [[topos]] $E$, viewed as an internal [[meet-semilattice]]. More precisely, it is a just such a closure operator that preserves internal finite meets. Externally, $\hom(-, \Omega) \colon E^{op} \to Set$ provides an example of a [[universal closure operator]]. 
 
+
 ## Induced closure on slices
+ {#InducedClosureOnSlices}
 
 We discuss here how a closure operator on a [[topos]] may induce closure operators on each of its [[slice categories]].
 
-Throughout, our [[topos]] is denoted $\mathcal{C}$. Given a [[monad]] $\diamond \colon \mathcal{C} \to \mathcal{C}$ we write 
-$\eta_\diamond \colon id_{\mathcal{C}} \to \diamond$
-for its [[unit of a monad|unit]], as usual.
+Throughout, our [[topos]] is denoted $\mathcal{C}$. 
 
-For $X \in \mathcal{C}$ any [[object]], we write $\mathcal{C}_{/X}$ for the corresponding [[slice topos]]. The corresponding [[base change geometric morphism]] ([[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]]) we write
+Given a [[monad]] $\diamond \colon \mathcal{C} \to \mathcal{C}$ we write  $\eta_\diamond \colon id_{\mathcal{C}} \to \diamond$
+for its [[unit of a monad|unit]], and write $\mu_\diamond \colon \diamond \circ \diamond \to \diamond$ for its multiplication. As we proceed, we add assumptions on $\diamond$, such as that it preserves certain [[limits]] and/or that it be [[idempotent monad|idempotent]]. 
+
+For $X \in \mathcal{C}$ any [[object]], we write $\mathcal{C}_{/X}$ for the [[slice topos]] over it. The corresponding [[base change geometric morphism]] ([[dependent sum]] $\dashv$ [[context extension]] $\dashv$ [[dependent product]]) we write
 
 $$
   \left(
@@ -65,7 +68,7 @@ $$
   \sum_X \left( p \to \ast_{X} \right)
 $$
 
-in $\mathcal{C}$, which is the image under [[dependent sum]] of the unique morphism from $p$ to the [[terminal object]] in $\mathcal{C}_{/X}$. Accordingly, a morphism $\phi \colon p_1 \to P_2$ in the slice we also denote by the corresponding triangular [[commuting diagram]]
+in $\mathcal{C}$, which is the image under [[dependent sum]] of the unique morphism from $p$ to the [[terminal object]] in $\mathcal{C}_{/X}$. Accordingly, a morphism $\phi \colon p_1 \to p_2$ in the slice we also denote by the corresponding triangular [[commuting diagram]]
 
 $$
   \left(
@@ -81,17 +84,19 @@ $$
 
 in $\mathcal{C}$.
 
+
+Here we study the following endofunctors on slices induced from a monad on the total topos.
   
 +-- {: .num_defn #InducedOperatorOnSlice}
 ###### Definition
 
-For $\diamond \colon \mathcal{C} \to \mathcal{C}$ an [[idempotent monad]] on a [[topos]] $\mathcal{C}$, and for $X \in \mathcal{C}$ any [[object]], the **induced operator**  
+For $\diamond \colon \mathcal{C} \to \mathcal{C}$ an [[monad]] on a [[topos]] $\mathcal{C}$, and for $X \in \mathcal{C}$ any [[object]], the **induced operator**  
 
 $$
   \diamond_{/X} \colon \mathcal{C}_{/X} \to \mathcal{C}_{/X}
 $$
 
-on the [[slice topos]] $\mathcal{C}_{/X}$ is the [[functor]] which sends an object $(E \stackrel{p}{\to} X) \in \mathcal{C}_{/X}$ to $(X \underset{\diamond X}{\times} \diamond E \stackrel{\eta_\diamond(X)^\ast p}{\to} X)$, hence to the left vertical morphism in the [[pullback]] [[diagram]]
+on the [[slice topos]] $\mathcal{C}_{/X}$ is the [[functor]] which sends an object $(E \stackrel{p}{\to} X) \in \mathcal{C}_{/X}$ to $(X \underset{\diamond X}{\times} \diamond E \stackrel{\eta_\diamond(X)^\ast \diamond p}{\to} X)$, hence to the left vertical morphism in the [[pullback]] [[diagram]]
 
 $$
   \array{
@@ -99,7 +104,7 @@ $$
     &\to&
     \diamond E
     \\
-    \downarrow^{\mathrlap{\eta_\diamond(X)^\ast p}} && \downarrow^{\mathrlap{p}}
+    \downarrow^{\mathrlap{\eta_\diamond(X)^\ast \diamond p}} && \downarrow^{\mathrlap{\diamond p}}
     \\
     X &\stackrel{\eta_\diamond(X)}{\to}& \diamond X
   }
@@ -142,7 +147,9 @@ $$
 
 =--
 
-+-- {: .num_prop}
+We now want to identify conditions under which $\diamond_{/X}$ is itself a monad. First observe that the [[unit of a monad|unit]]-like map is canonically present.
+
++-- {: .num_prop #SliceOperatorHasUnit}
 ###### Proposition
 
 In the situation of def. \ref{InducedOperatorOnSlice}, there is a [[natural transformation]]
@@ -160,11 +167,11 @@ from the identity on the slice to the induced operator on the slice, whose compo
 $$
   \array{
     \eta_{\diamond}(E) \colon
-    & E &\stackrel{\sum_{X} \eta_{\diamond_{/X}(p)} }{\to}& X \underset{\diamond X}{\times} \diamond E 
+    & E &\stackrel{\sum_{X} \left(\eta_{\diamond_{/X}}\left(p\right)\right) }{\to}& X \underset{\diamond X}{\times} \diamond E 
     &\to&
     \diamond E
     \\
-    & &{}_{\mathllap{p}}\searrow& & \downarrow^{\mathrlap{\eta_\diamond(X)^\ast p}} && \downarrow^{\mathrlap{p}}
+    & &{}_{\mathllap{p}}\searrow& \downarrow^{\mathrlap{\eta_\diamond(X)^\ast \diamond p}} && \downarrow^{\diamond \mathrlap{p}}
     \\
     & && X &\stackrel{\eta_\diamond(X)}{\to}& \diamond X
   }
@@ -172,6 +179,263 @@ $$
 $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We have to show that for all morphisms 
+
+$$
+  \left(
+    \array{
+      E_1 &&\stackrel{f}{\to}&& E_2
+      \\
+      & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+      \\
+      && X 
+    }
+  \right)
+$$
+
+in $\mathcal{C}_{/X}$ the induced diagram 
+
+$$
+  \array{
+     E_1 &\stackrel{\sum_X (\eta_{\diamond_{/X}}(p_1) )}{\to}&
+     X \underset{\diamond X}{\times} \diamond E_1
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{X \underset{\diamond X}{\times} \diamond f }}
+     \\
+     E_2 &\stackrel{\sum_X (\eta_{\diamond_{/X}}(p_2) )}{\to}&
+     X \underset{\diamond X}{\times} \diamond E_2
+  }
+$$
+
+in $\mathcal{C}$ commutes. Inspection of the defining pullback diagram shows that both composites in this diagram constitute [[cones]] over the pullback diagram that defines the bottom right object. Therefore by the [[universal property]] of the pullback they have to coincide.
+
+
+=--
+
+Next, to have also a product operation on the induced operator $\diamond_{/X}$ we need that $\diamond$ preserves some pullbacks:
+
++-- {: .num_prop #ProductOnSliceOperator}
+###### Proposition
+
+Assume that the monad $\diamond \colon \mathcal{C} \to \mathcal{C}$ preserves [[pullbacks]] over objects in its image. Then for each $X \in \mathcal{C}$ the induced endofunctor $\diamond_{/X}$ of def. \ref{InducedOperatorOnSlice} comes with a [[natural transformation]]
+
+$$
+  \mu_{\diamond_{/X}} \;\colon\; \diamond_{/X} \circ \diamond_{/X} \to \diamond_{/X}
+$$
+
+whose component on an object $(E \stackrel{p}{\to} X) \in \mathcal{C}_{/X}$ is the pullback of the component $\mu_{\diamond} E$ of the product of $\diamond$ itself over the component $\mu_\diamond X$ along the unit components $\eta_{\diamond} X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First we produce the component map as claimed, then we show that it is indeed the component of a natural transformation.
+
+So for $p \in \mathcal{C}_{/X}$ an object in the slice, consider the defining pullback diagram of $\diamond_{/X} p$ from def. \ref{InducedOperatorOnSlice}
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond E 
+    &\to&
+    \diamond E
+    \\
+    \downarrow^{\mathrlap{\eta_\diamond(X)^\ast \diamond p}} && \downarrow^{\mathrlap{\diamond p}}
+    \\
+    X &\stackrel{\eta_\diamond(X)}{\to}& \diamond X
+  }
+  \,.
+$$
+
+By the assumption that $\diamond$ preserves pullback diagrams of this form, application of $\diamond$ yields the pullback diagram
+
+$$
+  \array{
+    \diamond( X \underset{\diamond X}{\times} \diamond E )
+    &\to&
+    \diamond \diamond E
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\diamond \diamond p}}
+    \\
+    \diamond X &\stackrel{\diamond(\eta_\diamond(X))}{\to}& \diamond \diamond X
+  }
+  \,.
+$$
+
+Pasting to this the pullback of its left vertical morphism along $\eta_\diamond(X)$ yields
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond(X \underset{\diamond X}{\times} \diamond E)
+    &\to&
+    \diamond( X \underset{\diamond X}{\times} \diamond E )
+    &\to&
+    \diamond \diamond E
+    \\
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\diamond \diamond p}}
+    \\
+    X
+    &\stackrel{\eta_\diamond X}{\to}&
+    \diamond X &\stackrel{\diamond(\eta_\diamond(X))}{\to}& \diamond \diamond X
+  }
+  \,,
+$$
+
+where the total rectangle is also a pullback, by the [[pasting law]]. 
+
+We now build a morphism of [[diagrams]] form the underlying [[cospan]] of this diagram to another cospan, such that the induced map on pullbacks is the component of the natural transformation that we are looking for,
+
+To this end, first paste to the above diagram the [[naturality square]] of the monad multiplication map $\mu_\diamond \colon \diamond \circ \diamond \to \diamond$ to obtain
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond(X \underset{\diamond X}{\times} \diamond E)
+    &\to&
+    \diamond( X \underset{\diamond X}{\times} \diamond E )
+    &\to&
+    \diamond \diamond E
+    \\
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\diamond \diamond p}}
+    & \searrow^{\mathrlap{\mu_{\diamond}(E)}}
+    \\
+    X
+    &\stackrel{\eta_\diamond X}{\to}&
+    \diamond X &\stackrel{\diamond(\eta_\diamond(X))}{\to}& \diamond \diamond X
+   && \diamond E
+   \\
+   && && & \searrow^{\mathrlap{\mu_\diamond X} } & \downarrow^{\mathrlap{\diamond p}}
+   \\
+   && && && \diamond X
+  }
+  \,,
+$$
+
+Then fill in the commuting diagram that exhibits the [[unitality]] axiom of $\diamond$ to obtain
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond(X \underset{\diamond X}{\times} \diamond E)
+    &\to&
+    \diamond( X \underset{\diamond X}{\times} \diamond E )
+    &\to&
+    \diamond \diamond E
+    \\
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\diamond \diamond p}}
+    & \searrow^{\mathrlap{\mu_{\diamond}(E)}}
+    \\
+    X
+    &\stackrel{\eta_\diamond X}{\to}&
+    \diamond X &\stackrel{\diamond(\eta_\diamond(X))}{\to}& \diamond \diamond X
+   && \diamond E
+   \\
+   && &\searrow^{\mathrlap{id_{\diamond X}}} & & \searrow^{\mathrlap{\mu_\diamond X} } & \downarrow^{\mathrlap{\diamond p}}
+   \\
+   && && \diamond X &\stackrel{id_{\diamond X}}{\to}& \diamond X
+  }
+  \,.
+$$
+
+Finally paste in an identity square, just as to manifestly exhibit a morphism of diagrams
+
+$$
+  \array{
+    X \underset{\diamond X}{\times} \diamond(X \underset{\diamond X}{\times} \diamond E)
+    &\to&
+    \diamond( X \underset{\diamond X}{\times} \diamond E )
+    &\to&
+    \diamond \diamond E
+    \\
+    \downarrow
+    &&
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\diamond \diamond p}}
+    & \searrow^{\mathrlap{\mu_{\diamond}(E)}}
+    \\
+    X
+    &\stackrel{\eta_\diamond X}{\to}&
+    \diamond X &\stackrel{\diamond(\eta_\diamond(X))}{\to}& \diamond \diamond X
+   && \diamond E
+   \\
+   &\searrow^{\mathrlap{id_X}}& &\searrow^{\mathrlap{id_{\diamond X}}} & & \searrow^{\mathrlap{\mu_\diamond X} } & \downarrow^{\mathrlap{\diamond p}}
+   \\
+   && X &\stackrel{\eta_\diamond X}{\to}& \diamond X &\stackrel{id_{\diamond X}}{\to}& \diamond X
+  }
+  \,.
+$$
+
+Now observea that the total front [[cospan]] of morphisms is such that the [[limit]] [[cone]] over it is the [[pullback]] that defines $X \underset{\diamond X}{\times} \diamond E$. By functoriality of [[pullbacks]] (by their universal property), this induces a component morphism
+
+$$
+  \mu_{\diamond_{/X}}
+  \;\colon\;
+  X \underset{\diamond X}{\times} \diamond (X \underset{\diamond}{\times} \diamond E)
+  \to
+  X \underset{\diamond X}{\times} \diamond E
+$$
+
+as claimed.
+
+Since this is built just from universal constructions, the fact that this morphism is indeed [[natural transformation|natural]] follows as in prop. \ref{SliceOperatorHasUnit}.
+
+=--
+
+So far we have constructed from a monad that preserves pullbacks over objects in its image an operator on slices which is equipped with a unit-like and a multiplication-like transformation. 
+
++-- {: .num_prop}
+###### Proposition
+
+For $\diamond \colon \mathcal{C} \to \mathcal{C}$ a [[monad]] which preserves [[pullbacks]] over objects in its image, and for $X \in \mathcal{C}$ any object, the natural transformations
+
+1. $\eta_{\diamond_{/X}} \colon id_{\mathcal{C}_{/X}} \to \diamond_{/X}$ of prop. \ref{SliceOperatorHasUnit}
+
+1. $\mu_{\diamond_{/X}} \colon \diamond_{/X} \circ \diamond_{/X} \to \diamond_{/X}$ from prop. \ref{ProductOnSliceOperator}
+
+constitute the unit and product of a [[monad]] structure $(\diaomond_{/X}, \mu_{\diamond_{/X}}, \eta_{\diamond_{/X}})$ on the 
+slice operator $\diamond_{/X}$ of def. \ref{InducedOperatorOnSlice}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By forming cospan morphisms and inducing maps between the corresponding pullbacks, this follows from the monad structure $(\diamond, \mu_{\diamond}, \eta_{\diamond})$ by the same arguments as in the proof of prop. \ref{ProductOnSliceOperator}.
+
+=--
+
+Next we want to discuss and prove the following fact
+
+* If $\diamond$ is an [[idempotent monad]] that preserves pullbacks over objects in its image, then so is $\diamond_{/X}$ for all $X$.
+
+  In this case, the $\diamond_{/X}$-closed objects may be characterized as precisely those $(E \stackrel{p}{\to}X)$ such that their $\diamond$-unit naturality square is a pullback.
+
+Hence for an idempotent monad that preserves pullbacks over objects in its image, we can consider for each $X \in \mathcal{C}$ the [[full subcategory]]
+
+$$
+  \mathcal{C}_{/_{\diamond}X}
+  \hookrightarrow
+  \mathcal{C}_{/X}
+$$
+
+of the slice on the $\diamond_{/X}$-closed objects. 
+
+Then we want to identify those conditions on $\diamond$ which are necessary and sufficient such that the inclusion is an exact localization, hence exhibits a [[sub-topos]].
+
+One way to do this is to show when $\diamond_{/X}$ restricts to a  [[Lawvere-Tierney operator]] on the [[subobject classifier]] of the [[slice topos]] $\mathcal{C}_{/X}$ and to compare the corresponding notion of [[sheaves]] with that of $\diamond_{/X}$-closed objects.
+
+And so forth...
+
+
+
+
 
 ## Related concepts
 
