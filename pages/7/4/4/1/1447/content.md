@@ -690,3 +690,13 @@ and section A4.2 of
 [[!redirects sub-(∞,1)-toposes]]
 [[!redirects sub-(infinity,1)-topos]]
 [[!redirects sub-(infinity,1)-toposes]]
+
+[[!redirects sub-topos]]
+[[!redirects sub-toposes]]
+[[!redirects sub-topoi]]
+
+[[!redirects subtopos]]
+[[!redirects subtoposes]]
+[[!redirects subtopoi]]
+
+
