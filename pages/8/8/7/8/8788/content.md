@@ -35,6 +35,10 @@ _Geometric quantization via push-forward_  or _$Spin^{\mathbb{C}}$-quantization_
 
 (...) see ([DaSilva-Karshon-Tolman, lemma 2.7, remark 2.9](#DaSilva)) (...)
 
+### Relation to symplectic reduction
+
+(...) see _[[Guillemin-Sternberg geometric quantization conjecture]]_
+
 ## References
 
 
@@ -62,6 +66,11 @@ A detailed analysis of psuh-forward quantization of general [[presymplectic mani
 
 * Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Soc. 352 (2000), 525-552 ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
+A first proof of the [[Guillemin-Sternberg geometric quantization conjecture]] in terms of $Spin^c$-quantization is in 
+
+* [[Eckard Meinrenken]], _Symplectic surgery and the $Spin^c$-Dirac operator_, Adv. Math. 134 (1998), 240-277.
+
+
 A suggestion that geometric push-forward quantization is best understood to proceed to take values in [[KK-theory]] is in 
 
 * [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
@@ -69,7 +78,7 @@ A suggestion that geometric push-forward quantization is best understood to proc
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos}
 
-The realization of "quantization commutes with [[symplectic reduction]]" in the index-theoretic quantization is conjectured in 
+A refined realization of the [[Guillemin-Sternberg geometric quantization conjecture]] was conjectured in
 
 * [[Peter Hochs]], [[Klaas Landsman]], _The Guillemin-Sternberg conjecture for noncompact groups and spaces_ ([arXiv:math-ph/0512022](http://arxiv.org/abs/math-ph/0512022))
 
