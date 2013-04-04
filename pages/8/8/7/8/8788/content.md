@@ -60,7 +60,7 @@ and the last section of
 
 A detailed analysis of psuh-forward quantization of general [[presymplectic manifolds]] is in 
 
-* Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
+* Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Soc. 352 (2000), 525-552 ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
 A suggestion that geometric push-forward quantization is best understood to proceed to taked values in [[KK-theory]] is in 
 
