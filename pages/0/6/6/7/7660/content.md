@@ -23,7 +23,7 @@
 
 ## References
 
-* [Manifold Atlats](http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](http://www.map.mpim-bonn.mpg.de/String_bordism)_
+* [Manifold Atlas](http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](http://www.map.mpim-bonn.mpg.de/String_bordism)_
 
 
 [[!redirects string bordism]]
