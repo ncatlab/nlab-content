@@ -447,6 +447,14 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 
 ([Tu, Xu, Laurent-Gengoux 04](#TXLG))
 
+## Related concepts
+
+* [[noncommutative topology]], [[noncommutative geometry]]
+
+  [[KK-theory]]
+
+* [[bibundle]], [[bimodule]]
+
 ## References
 
 ### For discrete geometry
@@ -573,5 +581,10 @@ The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-
 
 [[!redirects twisted groupoid convolution algebra]]
 [[!redirects twisted groupoid convolution algebras]]
+
+[[!redirects groupoid convolution C*-algebra]]
+[[!redirects groupoid convolution C*-algebras]]
+[[!redirects groupoid convolution C-star-algebra]]
+[[!redirects groupoid convolution C-star-algebras]]
 
 
