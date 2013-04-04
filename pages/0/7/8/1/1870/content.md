@@ -99,6 +99,10 @@ This definition of twisted $K_0$ is equivalent to that of prop. \ref{SpectrumBun
 
 This is ([CBMMS, prop. 6.4, prop. 7.3](#CBMMS)).
 
+### By KK-theory of twisted convolution algebras
+
+A [[circle 2-group]] [[principal 2-bundle]] is also incarnated as a [[centrally extended Lie groupoid]]. The corresponding [[twisted groupoid convolution algebra]] has as its [[operator K-theory]] the twisted K-theory of the base space (or base-[[stack]]). See at _[[KK-theory]]_ for more on this.
+
 ## Other constructions
 
 Let $Vectr$ be the [[stack]] of [[vectorial bundle]]s. (If we just take [[vector bundle]]s we get a notion of twisted K-theory that only allows twists that are finite order elements in their [[cohomology group]]).
