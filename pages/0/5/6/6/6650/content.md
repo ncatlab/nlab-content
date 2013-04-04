@@ -53,6 +53,8 @@ A stable reflective factorization system is sometimes called **local**.
 
 * [[reflective factorization system]]
 
+* [[closure operator]]
+
 ## References
 
 The relation between stable factorization systems and the Beck-Chevalley condition of the associated fibrations is discussed in
