@@ -47,6 +47,8 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 
 * [[differential K-theory]]
 
+* [[KK-theory]]
+
 [[!include table of branes]]
 
 ## References 
@@ -66,4 +68,6 @@ The subtle self-duality conditions on [[differential cohomology|differential coc
 [[!redirects Ramond-Ramond field]]
 [[!redirects Ramond–Ramond field]]
 [[!redirects Ramond--Ramond field]]
+
+[[!redirects RR-charge]]
 
