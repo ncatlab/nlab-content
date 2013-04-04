@@ -568,3 +568,10 @@ The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-
 [[!redirects category convolution algebra]]
 [[!redirects category convolution algebras]]
 
+[[!redirects twisted groupoid algebra]]
+[[!redirects twisted groupoid algebras]]
+
+[[!redirects twisted groupoid convolution algebra]]
+[[!redirects twisted groupoid convolution algebras]]
+
+
