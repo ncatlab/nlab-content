@@ -7,7 +7,15 @@
 
 For $A$ a [[C-star algebra]], an _odd Fredholm module_ over $A$ is a [[representation of a C-star-algebra|representation]] $\pi : A \to \mathcal{B}(\mathcal{H})$ of $A$ on a [[Hilbert space]] $\mathcal{H}$ together with a [[Fredholm operator]] $F$ on $\mathcal{H}$ such that $[F,\pi(A)] \in \mathcal{K}(\mathcal{H})$ for all $a \in A$.
 
+(...)
+
 (Here $\mathcal{B}(-)$ denotes [[bounded operators]] and $\mathcal{K}(-)$ denotes [[compact operators]]).
+
+## Related concepts
+
+* [[K-homology]]
+
+* [[KK-theory]]
 
 [[!redirects Fredholm modules]]
 
