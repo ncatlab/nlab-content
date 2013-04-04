@@ -21,6 +21,46 @@ Dually, a [[comonad]] on a poset is called a _co-closure operator_ and the eleme
 
 More generally, in [[type theory]]/[[category theory]], we may think of any [[idempotent monad]] on a [[category]] as being a closure operator, and of any idempotent [[comonad]] as a co-closure operator.
 
+## Definition
+
++-- {: .num_defn #ClosureOperatorAsMonad}
+###### Definition
+
+For $\mathcal{C}$ a [[category]], a **closure operator** $\diamond$ on $\mathcal{C}$ is an [[idempotent monad]] on $\mathcal{C}$, hence an [[endofunctor]] $\diamond \colon \mathcal{C} \to \mathcal{C}$ equipped with [[unit of a monad|unit]] and product [[natural transformations]]
+
+* $\eta_{\diamond} \;\colon\; id_{\mathcal{C}} \o \diamond$
+
+* $\mu_{\diamond} \;\colon\; \diamond \circ \diamond \to \diamond$
+
+such that the [[monad]]-axioms hold and such that the following equivalent conditions hold (idempotency)
+
+* the product map is an [[isomorphism]];
+
+* $\eta_{\diamond(-)}$ is an isomorphism.
+
+=--
+
++-- {: .num_defn #ClosureAndClosedObjects}
+###### Definition
+
+For $\diamond \colon X \to X$ a closure operator, def. \ref{ClosureOperatorAsMonad}, and for $X \in \mathcal{C}$ an object, we say that 
+
+* $\diamond X \in \mathcal{C}$ is the **$\diamond$-closure** of $X$;
+
+* $\eta_{X} \colon X \to \diamond X$ is the **closing map** or **map to the closure**;
+
+* $X$ is **$\diamond$-closed** precisely if $\eta_X$ is an [[isomorphism]].
+
+We write
+
+$$
+  \mathcal{C}_\diamond \hookrightarrow \mathcal{C}
+$$
+
+for the [[full subcategory]] on the $\diamond$-closed objects.
+
+=--
+
 ## Examples
 
 * A closure operator on a [[power set]] is also called a _[[Moore closure]]_. See there for more.
@@ -28,6 +68,7 @@ More generally, in [[type theory]]/[[category theory]], we may think of any [[id
 * One well-known example of a Moore closure is [[topological closure]], which is precisely a Moore closure that preserves finite joins (unions). Similarly, one can view _[[topological interior]]_ as a co-closure operator on a power set that preserves finite meets, or dually as a closure operator on the *[[opposite poset|opposite]]* of a power set that preserves finite [[joins]] (given by [[intersections]] of subsets).
 
 * A [[Lawvere-Tierney topology]] is a closure operator on the [[subobject classifier]] $\Omega$ of a [[topos]] $E$, viewed as an internal [[meet-semilattice]]. More precisely, it is a just such a closure operator that preserves internal finite meets. Externally, $\hom(-, \Omega) \colon E^{op} \to Set$ provides an example of a [[universal closure operator]]. 
+
 
 
 ## Induced closure on slices
@@ -388,9 +429,9 @@ Since this is built just from universal constructions, the fact that this morphi
 
 =--
 
-So far we have constructed from a monad that preserves pullbacks over objects in its image an operator on slices which is equipped with a unit-like and a multiplication-like transformation. 
+So far we have constructed from a monad that preserves pullbacks over objects in its image an operator on slices which is equipped with a unit-like and a multiplication-like transformation. We now claim that this yields indeed a monad on the slice.
 
-+-- {: .num_prop}
++-- {: .num_prop #InducedOperatorOnSliceIsMonad}
 ###### Proposition
 
 For $\diamond \colon \mathcal{C} \to \mathcal{C}$ a [[monad]] which preserves [[pullbacks]] over objects in its image, and for $X \in \mathcal{C}$ any object, the natural transformations
@@ -399,8 +440,10 @@ For $\diamond \colon \mathcal{C} \to \mathcal{C}$ a [[monad]] which preserves [[
 
 1. $\mu_{\diamond_{/X}} \colon \diamond_{/X} \circ \diamond_{/X} \to \diamond_{/X}$ from prop. \ref{ProductOnSliceOperator}
 
-constitute the unit and product of a [[monad]] structure $(\diaomond_{/X}, \mu_{\diamond_{/X}}, \eta_{\diamond_{/X}})$ on the 
+constitute the unit and product of a [[monad]] structure $(\diamond_{/X}, \mu_{\diamond_{/X}}, \eta_{\diamond_{/X}})$ on the 
 slice operator $\diamond_{/X}$ of def. \ref{InducedOperatorOnSlice}.
+
+If moreover $\diamond$ is [[idempotent monad|idemponent]], then so is $\diamond_{/X}$.
 
 =--
 
@@ -411,28 +454,63 @@ By forming cospan morphisms and inducing maps between the corresponding pullback
 
 =--
 
-Next we want to discuss and prove the following fact
++-- {: .num_remark}
+###### Remark
 
-* If $\diamond$ is an [[idempotent monad]] that preserves pullbacks over objects in its image, then so is $\diamond_{/X}$ for all $X$.
+If $\diamond$ is an [[idempotent monad]], hence a closure operator, then, by the discussion there, the monad unit exhibits an [[equivalence of categories]] between the objects in the image of $\diamond$ and the $\diamond$-closed objects. 
 
-  In this case, the $\diamond_{/X}$-closed objects may be characterized as precisely those $(E \stackrel{p}{\to}X)$ such that their $\diamond$-unit naturality square is a pullback.
+Therefore in this case the condition that $\diamond$ preserves pullbacks over objects in its image is equivalently that it preserves pullbacks over $\diamond$-closed objects. In this form we will mostly state this condition in the following.
 
-Hence for an idempotent monad that preserves pullbacks over objects in its image, we can consider for each $X \in \mathcal{C}$ the [[full subcategory]]
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\diamond \colon \mathcal{C} \to \mathcal{C}$ be an [[idempotent monad]] that preserves pullbacks over $\diamond$-closed objects. Then the closed objects $p \in \mathcal{C}_{/X}$, def. \ref{ClosureAndClosedObjects}, of the induced idempotent monad $\diamond_{/X}$ on the slice over any $X \in \mathcal{C}$ are precisely those objects $(E \stackrel{p}{\to} X)$ for which the naturality square of the $\diamond$-unit is a pullback square in $\mathcal{C}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{ClosureAndClosedObjects} we need to show that for $p \in \mathcal{C}_{/X}$ the corresponding component of the $\diamond_{/X}$-unit $\eta_{\diamond_{/X}}(p)$ is an [[isomorphism]] precisely if 
 
 $$
-  \mathcal{C}_{/_{\diamond}X}
+  \array{
+    E &\stackrel{\eta_{\diamond} E}{\to}& \diamond E
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{\diamond p}}
+    \\
+    X &\stackrel{\eta_{\diamond} X}{\to}& \diamond X
+  }
+$$
+
+is a pullback diagram in $\mathcal{C}$. By prop. \ref{InducedOperatorOnSliceIsMonad} and  prop. \ref{SliceOperatorHasUnit},  the universal map from this diagram, regarded as a [[cone]] over the underlying [[cospan]], to the limiting cone is precisely $\eta_{\diamond_{/X}}(p)$. Hence the claim follows by the universal property of the pullback.
+
+=--
+
+As a special case of def. \ref{ClosureAndClosedObjects} we are therefore now interested in the following.
+
++-- {: .num_defn}
+###### Definition
+
+For $\diamond \colon \mathcal{C} \to \mathcal{C}$ an [[idempotent monad]] which preserves pullbacks over $\diamond$-closed objects, write
+
+$$
+  (\mathcal{C}_{/X})_{\diamond_{/X}}
   \hookrightarrow
   \mathcal{C}_{/X}
 $$
 
-of the slice on the $\diamond_{/X}$-closed objects. 
+of the [[full subcategory]] of the [[slice topos]] on the $\diamond_{/X}$-closed objects. 
 
-Then we want to identify those conditions on $\diamond$ which are necessary and sufficient such that the inclusion is an exact localization, hence exhibits a [[sub-topos]].
+=--
+
+We now want to identify those conditions on $\diamond$ which are necessary and sufficient such that this inclusion is an exact localization, hence exhibits a [[subtopos]].
 
 One way to do this is to show when $\diamond_{/X}$ restricts to a  [[Lawvere-Tierney operator]] on the [[subobject classifier]] of the [[slice topos]] $\mathcal{C}_{/X}$ and to compare the corresponding notion of [[sheaves]] with that of $\diamond_{/X}$-closed objects.
 
-And so forth...
-
+(...)
 
 
 
