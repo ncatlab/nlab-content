@@ -62,13 +62,25 @@ A detailed analysis of psuh-forward quantization of general [[presymplectic mani
 
 * Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Soc. 352 (2000), 525-552 ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
-A suggestion that geometric push-forward quantization is best understood to proceed to taked values in [[KK-theory]] is in 
+A suggestion that geometric push-forward quantization is best understood to proceed to take values in [[KK-theory]] is in 
 
 * [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
 
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos}
 
+The realization of "quantization commutes with [[symplectic reduction]]" in the index-theoretic quantization is conjectured in 
+
+* [[Peter Hochs]], [[Klaas Landsman]], _The Guillemin-Sternberg conjecture for noncompact groups and spaces_ ([arXiv:math-ph/0512022](http://arxiv.org/abs/math-ph/0512022))
+
+based on the thesis
+
+* [[Peter Hochs]], _Quantisation commutes with reduction for cocompact Hamiltonian group actions_ ([pdf](http://www.math.ru.nl/~landsman/ThesisPeterHochs.pdf))
+
+and was proven in 
+
+* [[Varghese Mathai]], [[Weiping Zhang]], _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
+ 
 Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
