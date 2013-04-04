@@ -24,6 +24,8 @@
 
   * [[Atiyah-Singer index theorem]]
 
+Index theory naturally takes place in [[KK-theory]].
+
 ## References
 
 * David Edwards, _Lectures on index theory I_, [pdf](http://www.math.uga.edu/~davide/Lectures_on_Index_Theory__Lecture_I_Operator_Theory_and_Topology.pdf), 
