@@ -4,16 +4,16 @@
 * table of contents
 {:toc}
 
-# contact {#contact} 
+## contact {#contact} 
 
 The best way to contact me is by sending me an email at <urs.schreiber@gmail.com>
 
 
-# my position {#myposition}
+## my position {#myposition}
 
 I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am now on a postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht.
 
-# my research {#myresearch}
+## my research {#myresearch}
 
 My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With [[Hisham Sati]] I am currently producing a book that should give a good sense of modern insights into the general abstract structure of the world:
 
@@ -24,6 +24,11 @@ This is the kind of stuff that I am thinking about.
 A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is
 
 * [[schreiber:HomePage|my personal web within the nLab]]
+
+## copyright statement
+ {#CopyrightStatement}
+
+> To the extent that it matters, my contributions to the [[nLab:HomePage|nLab]] are copyrighted according to [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 category: people
 
