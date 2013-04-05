@@ -22,6 +22,9 @@ In a $*$-category, the dagger operation $\dagger$ is synonymously denoted $*$.
 
 See [[DHR category]].
 
+## Related concepts
+
+* [[C-star-category]]
 
 [[!redirects star-category]]
 [[!redirects star-categories]]
