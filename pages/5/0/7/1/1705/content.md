@@ -49,9 +49,24 @@ See [[simplicial localization of a homotopical category]].
 
 ### "Standard" simplicial localization
 
-([DwyerKanLocalizations](#DwyerKanLocalizations))
 
-(...)
+
+Let $U : \mathbf{Cat} \to \mathbf{Grph}$ be the functor that sends a (small) category to its underlying _reflexive_ graph, and let $F : \mathbf{Grph} \to \mathbf{Cat}$ be its left adjoint. We then get a [[comonad]] $\mathbb{G} = (G, \epsilon, \delta)$ on $\mathbf{Cat}$, and as usual this defines a functor $G_\bullet : \mathbf{Cat} \to [\mathbf{\Delta}^{op}, \mathbf{Cat}]$ equipped with a canonical augmentation, where $G_n C = G^{n+1} C$.
+
++-- {: .num_defn}
+###### Definition
+The **standard resolution** of a small category $C$ is defined to be the simplicial category $G_\bullet C$.
+=--
+
+Note that this is also a simplicial category in the strong sense, i.e. $ob G_\bullet C$ is discrete! Thus we may also regard $G_\bullet C$ as an $sSet$-category. This is a resolution in the sense that the augmentation $\epsilon : G_\bullet C \to C$ is a Dwyer-Kan equivalence. (In fact, for objects $X$ and $Y$ in $C$, the morphism $G_\bullet C (X, Y) \to C (X, Y)$ admits an extra degeneracy and hence a contracting homotopy.)
+
++-- {: .num_defn}
+###### Definition
+The **standard simplicial localization** of a [[relative category]] $(C, W)$ is the simplicial category $L_\bullet (C, W)$ where $L_n (C, W) = G_n C [{G_n W}^{-1}]$.
+=--
+
+This appears as ([DwyerKanLocalizations, def. 4.1](#DwyerKanLocalizations)). 
+Again, $L_\bullet C$ is a simplicial category in the strong sense, because $G_\bullet C$ is. 
 
 ### Hammock localization
 
