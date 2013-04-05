@@ -115,3 +115,10 @@ Also
 [[!redirects model structure on simplicially enriched categories]]
 [[!redirects Bergner model structure]]
 [[!redirects Bergner model structure on simplicially enriched categories]]
+
+[[!redirects Dwyer-Kan equivalence]]
+[[!redirects Dwyer-Kan weak equivalence]]
+
+[[!redirects Dwyer-Kan equivalences]]
+[[!redirects Dwyer-Kan weak equivalences]]
+
