@@ -497,10 +497,187 @@ and then $f$ is similarly the map between the homotopy colimits of the Cech nerv
 (...)
 
 ### Relation to groupoid convolution bimodules
+ {#RelationToGroupoidConvolutionBimodules}
 
-The [[2-functor]] from [[Lie groupoids]] to [[C-star-algebras]] and [[Hilbert C-star-bimodules]] between them given by forming [[groupoid convolution algebras]] is naturally exhibited by Lie groupoid bibundles: the [[groupoid convolution algebra]] of the totoal space of hte bibindle becomes a [[bimodule]] over the two other groupoid convolution algebras.
+There should be a [[2-functor]] from [[Lie groupoids]] to [[C-star-algebras]] and [[Hilbert C-star-bimodules]] between them given by forming [[groupoid convolution algebras]] and naturally exhibited by Lie groupoid bibundles: the [[groupoid convolution algebra]] of the total space of the bibindle becomes a [[bimodule]] over the two other groupoid convolution algebras.
 
-(...)
+Some aspects of this are in the literature ([Landsman 00](#Landsman00)), which we review now.
+
++-- {: .num_defn #BundleOfVertical}
+###### Definition/Notation
+
+For $p \colon E \to X$ a [[smooth function]] between smooth manifolds, we write $T^p E \hookrightarrow T E$ for the bundle of [[vertical vector fields]], the sub-bundle of the [[tangent bundle]] of $E$ on those vectors in the [[kernel]] of the [[differentiation]] maps $d p|_{e} \colon T_e E \to T_{\tau(e)} X$.
+
+We write ${\vert \Lambda\vert^{1/2}}(T^\tau E)$ for the bundle of [[half-densities]] on vertical vector fields.
+
+=--
+
++-- {: .num_remark #ActionOnVerticalVectors}
+###### Remark
+
+Let $\mathcal{G}_\bullet$ be a [[Lie groupoid]] and let ($E \stackrel{tau}{\to} \mathcal{G}_0$, \rho) be a $\mathbb{G}_\bullet$-[[groupoid-principal bundle]] $E \to E//\mathcal{G}$ (with anchor $\tau$ and action map $\rho$). 
+
+Then the bundle of [[vertical vector fields]] $T^\tau E$ equipped with the anchor map $T^\tau E \stackrel{d \tau}{\to} T \mathcal{G}_0 \to \mathcal{G}_0$ inherits a canonical $\mathcal{G}_\bullet$-action itself.
+
+The [[quotient]] map
+
+$$
+  {\vert \Lambda\vert^{1/2}}(T^\tau E)/\mathcal{G} \to E/\mathcal{G}
+$$
+
+exists and is naturall a vector bundle again.
+
+=--
+
++-- {: .num_defn #TwoVersionsOfHalfDensities}
+###### Definition
+
+In the situation of remark \ref{ActionOnVerticalVectors}, write
+
+* $C^\infty_{c/G}(E, {\vert\Lambda\vert}^{1/2}(T^\tau) E)^G$
+
+  for the space of [[smooth function|smooth]] [[sections]] of the [[half-density]]-bundle of $T^\tau E$ which are $\mathcal{G}$-equivariant and which have [[compact support]] up to $\mathcal{G}$-action;
+
+* $C^\infty_c(E/\mathcal{G}, {\vert \Lambda\vert}^{1/2}(T^\tau E))$
+
+  for the space of smooth sections with compact support of the quotient bundle. 
+
+=--
+
+The following constructions work by repeatedly applying the following identification:
+
++-- {: .num_prop }
+###### Proposition
+
+In the situation of def. \ref{TwoVersionsOfHalfDensities}, there is a [[natural isomorphism]]
+
+$$
+  C^\infty_{c/G}(E, {\vert\Lambda\vert}^{1/2}(T^\tau) E)^G
+  \simeq
+  C^\infty_c(E/\mathcal{G}, {\vert \Lambda\vert}^{1/2}(T^\tau E)  )
+  \,.
+$$
+
+=--
+
+The central definition here is now:
+
++-- {: .num_defn #BisectionsOnFiberProductOfTwoGActionSpaces}
+###### Definition
+
+For $(E_1, \tau_1)$, $(E_2, \tau_2)$ two principal $\mathcal{G}_\bullet$ manifolds, set
+
+$$
+  (E_1, E_2)_{\mathcal{G}}
+  \coloneqq
+  C^\infty_c( E_1 \underset{\mathcal{G}_0}{\times}) E_2, {\vert\Lambda\vert^{1/2}(T^\tau E_1)} \otimes  {\vert\Lambda\vert^{1/2}(T^\tau E_2)}
+$$
+
+=--
+
+And the central fact is:
+
++-- {: .num_prop #TheBimdoduleConvolutionProduct}
+###### Proposition
+
+Given 3 $\mathcal{G}_\bullet$-manifolds $(E_i, \tau_i)$, $i \in \{1,2,3\}$, there is a  [[smooth function]]
+
+$$
+  \star
+  \;\colon\;
+  (E_1, E_2)_{\mathcal{G}}
+  \times
+  (E_2, E_3)_{\mathcal{G}}
+  \to
+  (E_1, E_3)_{\mathcal{G}}
+$$
+
+given on sections $\sigma_1, \sigma_2$ and points $(e_1, e_3)$ by
+
+$$
+  \sigma_1 \star \sigma_2
+  \colon
+  (e_1, e_3)
+  \mapsto
+  \int_{\tau_2^{-1}(\tau_1 e_1)}
+  \sigma_1(e_1, -)  \otimes \sigma_2(-,e_3)
+  \,,
+$$
+
+where the [[integration]] is against the [[measure]] that appears by tensoring two (of the four) [[half-densities]] in the integrand.
+
+This operation is an associative and invoutive partial composition operation and hence defines a [[star-category]] whose [[objects]] are $\mathcal{G}_\bullet$-principal manifolds and whose spaces of morphisms are as in def. \ref{BisectionsOnFiberProductOfTwoGActionSpaces}.
+
+=--
+
+In particular one has the following identifications.
+
++-- {: .num_example #GroupoidConvolutionAlgebraFromBibundleCase}
+###### Example
+
+For $\mathcal{G}_1 \to \mathcal{G}_0$ regarded as a $\mathcal{G}_\bullet$-principal action space, there is a [[natural isomorphism]]
+
+$$
+  (\mathcal{G}_1, \mathcal{G}_1)_{\mathcal{G}}
+  \simeq
+  C^\infty_c(\mathcal{G}_1, {\vert\Lambda\vert}^{1/2}(T^s \mathcal{G}_1) \otimes {\vert\Lambda\vert}^{1/2}(T^t \mathcal{G}_1))
+$$
+
+and the algebra structure on this by prop. \ref{TheBimdoduleConvolutionProduct} is isomorphic to the [[groupoid convolution algebra]] of smooth sections over $\mathcal{G}_\bullet$.
+
+=--
+
+More generally:
+
++-- {: .num_example }
+###### Example
+
+For $E \stackrel{\tau}{\to} \mathcal{G}_0$ any $\mathcal{G}$-principal manifold, we have a [[natural isomorphism]]
+
+$$
+  (\mathcal{G}_1, E)_{\mathcal{G}}
+  \simeq
+  C^\infty_c(E_1, {\vert\Lambda\vert}^{1/2}(T^G E) \otimes {\vert\Lambda\vert}^{1/2}(T\tau E))
+  \,.
+$$
+
+=--
+
+> We consider [[completion]] of all this to the [[C-star-algebra]] context (...)
+
+Now we can put the pieces together and sends groupoid-bindunles to $C^\ast$-bimodules over the two [[groupoid convolution algebras]].
+
++-- {: .num_prop }
+###### Proposition
+
+Given two [[Lie groupoids]] $\mathcal{G}_\bullet$ and $\mathcal{K}_\bullet$ and given a [[Morita equivalence]] groupoid [[bibundle]] $E$ between them, we have
+
+$$
+  N \coloneqq (\mathcal{G}_1, E)_{\mathcal{G}} \simeq (E, \mathcal{K})_{\mathcal{K}}
+$$
+
+and this identification makes $N$ into a $C^\ast(\mathcal{G}_\bullet)-C^\ast(\mathcal{K}_\bullet)$-pre-[[Hilbert bimodule]] as follows:
+
+1. The identification $N \simeq (E, \mathcal{K}_1)_{\mathcal{K}}$ defines the right $C^\ast(\mathcal{K}_\bullet)$-action by example \ref{GroupoidConvolutionAlgebraFromBibundleCase}; and similarly the identification $N \simeq (\mathcal{G}_1, E)_{\mathcal{G}}$ defines a left $C^\ast(\mathcal{G}_\bullet)$-action.
+
+1. The $C^\ast(\mathcal{K})$-valued [[inner product]] on $N$ is that induced by the composite
+
+   $$
+     (E,\mathcal{K}_1)_{\mathcal{K}}^\ast
+     \times
+     (E,\mathcal{K}_1)_{\mathcal{K}}
+     \stackrel{\simeq}{\to}
+     (\mathcal{K}_1)_{\mathcal{K}, E}
+     \times
+     (E,\mathcal{K}_1)_{\mathcal{K}}
+     \to
+     (\mathcal{K}_1, \mathcal{K}_1)_{\mathcal{K}}
+     \hookrightarrow
+     C^\ast(\mathcal{K}_\bullet)
+     \,.
+   $$
+
+=--
 
 
 ## References
