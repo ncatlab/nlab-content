@@ -72,6 +72,14 @@ This is ([Crainic-Moerdijk 00, theorem 1](#CrainicMoerdijk)).
 In the literature one finds, roughly speaking, two different approaches to the study of &#233;tale groupoids. One approach is based on the construction of the convolution algebras associated to an &#233;tale groupoid, in the spirit of Connes' [[noncommutative geometry]], and involves the study of [[cyclic homology|cyclic]] and [[Hochschild homology]] and [[Hochschild cohomology|cohomology]] of these algebras. The other approach uses methods of algebraic topology such as the construction of the [[classifying space]] of an
 &#233;tale groupoid and its [[abelian sheaf cohomology|(sheaf) cohomology groups]].
 
+### Characterization by convolution Hopf algebroids (Gelfand duality)
+ {#GelfandDuality}
+
+The [[groupoid convolution algebra]] $C^\ast(\mathcal{G}_\bullet)$ of a [[Lie groupoid]] with its canonical [[atlas]] remembered has the structure of a [[Hopf algebroid]]. 
+In ([Mr&#269;un 99](#Mrcun99), [Kali&#353;nik-Mr&#269;un 07](#KalisnikMrcun07)) &#233;tale Lie groupoids are characterized dually by their Hopf algebroids  (a refinement of [[Gelfand duality]] to [[noncommutative topology]]).
+
+
+
 ## Examples
 
 &#201;tale groupoids arise naturally as models for [[leaf spaces]] of [[foliations]], for [[orbifold]]s, and for [[orbit spaces]] of [[discrete group]] [[actions]].
@@ -118,6 +126,13 @@ Further discussion of &#233;tale groupoids and their properties is for instance 
 * [[David Carchedi]], _Sheaf Theory for &#201;tale Geometric Stacks_ ([arXiv:1011.6070](http://arxiv.org/abs/1011.6070))
   
 
+The [[groupoid convolution algebra|convolution]]-[[Hopf algebroids]] of &#233;tale Lie groupoids have been characterized in
+
+* [[Janez Mr?un]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
+ {#Mrcun99}
+
+* [[Jure Kali?nik]], [[Janez Mr?un]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+ {#KalisnikMrcun07}
 
 
 
