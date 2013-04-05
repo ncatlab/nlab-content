@@ -31,7 +31,7 @@ A $C^*$-category is a $*$-[[star-category|category]] that has a norm on each [[h
 +-- {: .num_remark}
 ###### Remark
 
-A [[C-star-algebra]] $A$ is equivalently a pointd one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories is a __$C^*$-[[algebroids]]__.
+A [[C-star-algebra]] $A$ is equivalently a pointed one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories is a __$C^*$-[[algebroids]]__.
 
 =--
 
