@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,4 +60,4 @@ This is the non-commutative product operation that appears in the [[Hopf algebra
 More generally, there is convolution of functions on morphisms of a [[groupoid]]. See at _[[groupoid convolution algebra]]_ for details.
 
 
-[[!redirects convolution algebras]].
+[[!redirects convolution algebras]]
