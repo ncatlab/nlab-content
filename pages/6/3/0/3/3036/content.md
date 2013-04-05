@@ -33,6 +33,8 @@ Many results in [[analysis]] are easiest for separable spaces.  This is particul
 * [[second-countable topological space]]
 * **separable space**
 
+* [[separable Hilbert space]]
+
 * [[Hausdorff topological space]]
 
 
