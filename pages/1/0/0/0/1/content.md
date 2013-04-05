@@ -56,7 +56,7 @@ While we work on the $n$Lab, we talk to each other on the [nForum](http://www.ma
 If you do make **contributions** to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. 
 See _[[nlabmeta:Welcome to the nForum]]_ for more information.
 
-If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/), where it is visible to everybody who might be concerned.
+If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://nforum.mathforge.org/), where it is visible to everybody who might be concerned.
 
 In case that you do feel that this is not an option and that you do need to contact privately (say by email) a single author of an $n$Lab page, please make sure that you know who the right author is. Beware that the $n$Lab pages are visibly "signed" only by the name of the last person who made any edit on the page, no matter how minor. To find the author who made the edit that you want to comment or ask about privately, you should click on the link "History" at the bottom of any page to see which version was authored by whom. 
 
@@ -74,9 +74,7 @@ If you make any edits to the $n$Lab, please inform the rest of the $n$Lab commun
 
 One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
 
-* Using and distributing content obtained from the $n$Lab is free and encouraged if you acknowledge the source, as usual in academia. 
-
-  ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
+* Using and distributing content obtained from the $n$Lab is free and encouraged if you acknowledge the source, as usual in academia.
 
   If you cite a page you may want to point to a specific version of it, because $n$Lab pages can change.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
