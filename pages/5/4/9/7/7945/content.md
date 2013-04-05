@@ -86,6 +86,10 @@ By ([Atiyah-Bott](#AtiyahBott)), the action of a Lie algebra on a symplectic man
 
 * [[symplectic quotient]]
 
+* [[symplectic reduction]]
+
+* [[Guillemin-Sternberg geometric quantization conjecture]]
+
 ## References
 
 A comprehensive account is in (see around section 2.1)
