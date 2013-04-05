@@ -61,7 +61,7 @@ based on
 
 The full statement for this general case was then proven in 
 
-* [[Varghese Mathai]], [[Weiping Zhang]], _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
+* [[Varghese Mathai]], [[Weiping Zhang]] (appendix by [[Ulrich Bunke]]), _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
  {#MathaiZhang}
 
 [[!redirects geometric quantization conjecture]]
