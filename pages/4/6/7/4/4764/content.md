@@ -15,8 +15,7 @@ Cyclic operads also appear in TQFT-related constructions, often with more struct
 
 ## Literature
 
-* [[Ezra Getzler]], [[M. M. Kapranov]], _Cyclic operads and cyclic homology, in "Geometry, topology and physics_," International Press, Cambridge, MA, 1995, pp. 167-201
-
+* [[Ezra Getzler]], [[M. M. Kapranov]], _Cyclic operads and cyclic homology, in "Geometry, topology and physics_," International Press, Cambridge, MA, 1995, pp. 167-201 ([pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic.pdf)) 
 
 [[!redirects cyclic operad]]
 [[!redirects cyclic operads]]
