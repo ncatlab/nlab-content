@@ -209,7 +209,7 @@ Let $X_i$ be a family of spaces; we must show that the comparison map
 
 $$\pi_0(\prod_i X_i) \to \prod_i \pi_0(X_i)$$ 
 
-is invertible. Define a relation $R$ from $\prod_i \pi_0(X_i)$ to $\pi_0(\prod_i X_i)$ where $R((c_i), [(x_i)])$ if $x_i \in c_i$ for all $i$. This is well-defined, because if $x_i \in c_i$ and $y_i \in c_i$ for all $i$, then for each $i$ we can choose a path $\alpha_i \colon I \to X_i$ connecting $x_i$ to $y_i$, and $\langle \alpha_i \rangle \colon I \to \prod_i X_i$ then connects $(x_i)$ to $(y_i)$. (This of course uses the [[axiom of choice]].) It is also total, again by the axiom of choice. It is straightforward that this functional relation is inverse to the comparison map above. 
+is invertible. Injectivity: suppose $(x_i), (y_i) \in \prod_i X_i$ are tuples that map to the same tuple of path-components $(c_i)$; we must show that $(x_i)$ and $(y_i)$ belong to the same path component. For each $i$, both $x_i$ and $y_i$ belong to $c_i$, so we may choose a path $\alpha_i: I \to X_i$ connecting $x_i$ to $y_i$. Then $\langle \alpha_i \rangle \colon I \to \prod_i X_i$ connects $(x_i)$ to $(y_i)$. (Note this uses the [[axiom of choice]].) Surjectivity: for any tuple $(c_i) \in \prod_i \pi_0(X_i)$, the component $c_i$ is nonempty for each $i$, so we may choose an element $x_i$ therein. Then $(x_i)$ maps to $(c_i)$. Again this uses the axiom of choice. 
 =-- 
 
 An elegant proof of the previous proposition but for preservation of _finite_ products is as follows: both $\hom(I, -)$ and $\hom(1, -)$ preserve products, and a [[reflexive coequalizer]] of product-preserving functors $C \to Set$, being a [[sifted colimit]], is also product-preserving. 
