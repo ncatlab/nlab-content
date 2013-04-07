@@ -791,6 +791,9 @@ The ingredients of homology and cohomology:
 
 [[!include chains and cochains - table]]
 
+See also
+
+* [[cohomological integration]]
 
 ## History and references 
  {#References}
