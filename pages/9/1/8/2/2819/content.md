@@ -41,7 +41,7 @@ $$
 Instead of checking the homotopy lifting property, one can instead solve a universal problem:
 
 
-+-- {: .un_thm}
++-- {: .num_thm}
 ###### Theorem
 A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. (See there for details.)
 =--
