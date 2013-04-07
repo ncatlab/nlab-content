@@ -40,6 +40,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 ## Mathematics
 
+
 ### Wikis and online encyclopaedias
 
 
@@ -224,6 +225,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
 
 * [Political Math](http://www.politicalmathblog.com/) Visualization of political information 
+
+* [Pronunciation of Mathematicians' Names] (http://pronouncemath.blogspot.com) A blog about how to pronounce famous mathematicians' names.
 
 * [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
 
