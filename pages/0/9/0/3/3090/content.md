@@ -22,4 +22,6 @@ A **Serre fibration** is a [[continuous map]] between [[topological space]]s tha
 
 This condition is a special case of that for a [[Hurewicz fibration]].
 
+The Serre fibrations serve as the abstract [[fibrations]] in the standard [[model structure on topological spaces]].
+
 [[!redirects Serre fibrations]]
