@@ -131,6 +131,8 @@ vector fields and flows)
 
 * [[Lie integration]]
 
+* [[cohomological integration]]
+
 [[!include infinitesimal and local - table]]
 
 
