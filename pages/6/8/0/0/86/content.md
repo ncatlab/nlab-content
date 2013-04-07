@@ -433,7 +433,7 @@ See at _[[derived critical locus]]_ for more pointers.
 ### The BV-complex and homological (path-)integration
  {#HomologicalIntegration}
 
-We discuss the _BV differential_ as a homological implementation of [[integration]] which makes the _quantum BV-complex_ a homological implementation of [[path integral]]-[[quantization]] (in [[perturbation theory]]).
+We discuss the _BV differential_ as a homological implementation of [[integration]] which makes the _quantum BV-complex_ a homological implementation of [[path integral]]-[[quantization]] (in [[perturbation theory]]). See also at _[[cohomological integration]]_.
 
 
 We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]] and how, by extention, this allows to interpret the BV-complex as a means for defining ([[path integral|path]]-)[[integration]] over general [[configuration spaces]] of [[field (physics)|fields]] by passing to BV-[[cochain cohomology]]. 
@@ -547,7 +547,7 @@ This means that Lagrangian BV formalism is nothing but a way of describing close
 #### Integration over manifolds by BV-cohomology
  {#IntegrationOverManifoldsByBVCohomology}
 
-The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]].
+The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]]. See also at _[[cohomological interpretation]]_.
 
 +-- {: .num_example}
 ###### Example
