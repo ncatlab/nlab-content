@@ -36,6 +36,12 @@ The same construction can be performed for a groupoid [[internal category|intern
 
 For [[quantum field theory]] on orbifolds the inertia orbifold is related to so called _twisted sectors_ of the corresponding QFT. One can also consider more generally twisted multisectors. 
 
+## Properties
+
+### Convolution algebra and Relation to Drinfeld double
+
+At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the inertia groupoid of $\mathbf{B}G$ is the [[Drinfeld double]] of the [[group convolution algebra]] of $G$.
+
 ## References
 
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: Orbifolds in Mathematics and
