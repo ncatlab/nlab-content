@@ -5,9 +5,11 @@
 
 * [[monoidal category]], 
 
-* [[fusion category]]
+* [[fusion category]], [[weak Hopf algebra]]
 
 category: people
 
 [[!redirects Ostrik]]
 [[!redirects V. Ostrik]]
+
+[[!redirects Viktor Ostrik]]
