@@ -416,6 +416,8 @@ This is related to observations such as described here:
 
 ## Examples
 
+### Basic examples
+
 +-- {: .num_example}
 ###### Example
 
@@ -442,6 +444,96 @@ $$
 $$
 
 =--
+
+### Higher groupoid convolution algebras and n-vector spaces/n-modules
+
+> under construction
+
+We discuss here a natural generalization of the notion of [[groupoid convolution algebras]] to [[higher algebra|higher algebras]] for [[n-groupoid|higher groupoids]]. 
+
+There may be several sensible such generalizations. The one discussed now follows the principle of iterated [[internalization]] and naturally matches to the concept of [[n-modules]] ([[n-vector spaces]]) as they appear in [[extended prequantum field theory]].
+
+In order to disentangle conceptual from technical aspects, we first discuss [[discrete ∞-groupoid|geometrically discrete higher groupoids]]. The results of this discussion then in particular help to suggest what the right definition of "higher Lie groupoid" in the context of higher convolution algebras should be in the first place.
+
+The consideration are based on the following
+
++-- {: .num_remark}
+###### Remark
+
+By the discussion at _[[2-module]]_ we may think of the [[2-category]] $k Alg_b$ of $k$-[[associative algebras]] and [[bimodules]] between them as a model for the 2-category [[2Mod]] of $k$-[[2-modules]] that admit a 2-[[basis]] ([[2-vector spaces]]). Hence the groupoid convolution algebra constructiuon is a 2-functor 
+
+$$
+  C \;\colon\; Grpd \to 2 Mod
+  \,.
+$$
+
+
+There is then the following systematic refinement of this to higher groupoids and higher algebra: by the discussion at _[[n-module]]_, 3-modules are algebra objects in [[2Mod]] and maps between them are [[bimodule]] objects in there. An algebra object in  $k Alg_b$ is equivalently a [[sesquialgebra]], an algebra equipped with a second algebra structure up to coherent homotopy, that is exhibited by structure bimodules. 
+
+Special cases of this are [[bialgebras]], for which these structure bimodules come from actual algebra homomorphisms. Examples of these in turn are [[Hopf algebras]]. These we naturally re-discover as special higher groupoid convolution higher algebras in example \ref{DoubleGroupoid2AlgebraOfDeloopingOfFiniteGroup} below. 
+
+=--
+
+
+This iterated internalization on the codomain of the groupoid convolution algebra functor has a natural analog on its domain: a 2-groupoid we may present by a [[double groupoid]], namely a [[groupoid object in an (∞,1)-category]] in [[Grpd]] which is 3-[[coskeleton|coskeletal]] as a [[simplicial object]] in [[Grpd]].
+
++-- {: .num_remark}
+###### Remark
+
+Given a [[groupoid object in an (∞,1)-category|groupoid object]] $\mathcal{G}_\bullet$ in the [[(2,1)-topos]] [[Grpd]] hence a [[double groupoid]], applying the groupoid convolution algebra $(2,1)$-functor $C$ to the corresponding [[simplicial object]] $\mathcal{G}_\bullet \in Grpd^{\Delta^{op}}$ yields:
+
+* groupoid convolution algebras $C(\mathcal{G}_0)$ and $C(\mathcal{G}_1)$,
+
+* a $C(\mathcal{G}_1) \otimes_{C(\mathcal{G}_{0,1})} C(\mathcal{G}_1)-C(\mathcal{G}_{0})$-bimodule, assigned to the [[composition]] functor $\partial_1 \colon \mathcal{G}_1 \underset{\mathcal{G}_0}{\times} \mathcal{G}_1 \to \mathcal{G}_1$.
+
+Under the 2-functoriality of $C$, the [[Segal conditions]] satisfied by $\mathcal{G}_\bullet$ make this bimodule exhibi a [[sesquialgebra]] structure over $C(\mathcal{G}_{0,1})$.
+
+This sesquialgebra we call the the **double groupoid convolution 2-algebra** of $\mathcal{G}_\bullet$.
+
+(Here we make invariant sense of the [[tensor product]] by evaluating on a [[Reedy model structure|Reedy fibrant]] representative.)
+
+=--
+
++-- {: .num_example #DoubleGroupoid2AlgebraOfDeloopingOfFiniteGroup}
+###### Example
+
+Let $G$ be a [[finite group]]. Write $\mathbf{B}G$ for its [[delooping]] [[groupoid]] (the connected groupoid with $\pi_1 = G$). Since this is just a [[1-groupoid]], there are two natural ways to present $\mathbf{B}G$ as a [[double groupoid]]:
+
+1. $\underset{\longrightarrow}{\lim}(\cdots \mathbf{B}G\stackrel{\to}{\stackrel{\to}{\to}} \mathbf{B}G \stackrel{\overset{id}{\to}}{\underset{id}{\to}} \mathbf{B}G) \simeq \mathbf{B}G$;
+
+1. $\underset{\longrightarrow}{\lim}(\cdots G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *) \simeq \mathbf{B}G$.
+
+(The first is "vertically constant", the second is "horizontally constant").
+
+Applying the [[groupoid convolution algebra]] functor to the first presentation yields the groupoid convolution algebra $C(\mathbf{B}G)$ equipped with a trivial multiplication bimodule, hence just the group convolution algebra $C(\mathbf{B}G) \simeq C_{conv}(G)$.
+
+Applying however the groupoid convolution algebra functor to the second presentation yields the _commutative_ algebra of functions $C(G)$ equipped with the multiplication bimodule which is $C(G \times G)$ regarded as a $(C(G\times G), C(G))$-bimdodule, where the right action is induced by pullback along the group product map $G \times G \to G$.
+
+This bimodule is in the image of the functor $Alg \to Alg_b$ that sends algebra homomorphisms to their induced bimodules, by sending $f \colon A \to B$ to $A$ regarded as an $(A,B)$-bimodule with the canonical left action on itself and the right action induced by $f$. Namely this bimdoule correspondonds to the map
+
+$$
+  \Delta \colon C(G) \to C(G \times G) \simeq C(G) \otimes C(G)
+$$
+
+given on $\phi \in C(G)$ and $g_1, g_2 \in G$ by
+
+$$
+  \Delta \phi \colon (g_1, g_2) \mapsto \phi(g_1 \cdot g_2)
+  \,.
+$$
+
+This is that standard [[coalgebra|coproduct]] on the standard dual [[Hopf algebra]] associated with $G$.
+
+In summary this means that (for $G$ a finite group):
+
+1. If we regard $\mathbf{B}G$ as presented as a  double groupoid constant on $\mathbf{B}G$, then the corresponding groupoid convolution [[sesquialgebra]] (basis for a [[n-module|3-module]]) is the convolution algebra of $G$;
+
+1. If instead we regard $\mathbf{B}G$ as presented as the double groupoid which is degreewise constant as a groupoid, then the corresponding groupoid convolution sesquialgebra is the standard ("dual") [[Hopf algebra]]  structure on the commutative pointwise product algebra of functions on $G$.
+
+=--
+
+
+
 
 ## Properties
 
@@ -538,7 +630,7 @@ Functoriality of the construction of $C^\ast$-convolution algebras (its extensio
 * [[Paul Muhly]], [[Jean Renault]], D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Theory 17 (1987), no. 1, 3&#8211;22.
  {#MuhleReaultWilliams87}
 
-* [[Janez Mrčun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
+* [[Janez Mr?un]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
  {#Mrcun99}
 
 * [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
@@ -549,9 +641,9 @@ Functoriality of the construction of $C^\ast$-convolution algebras (its extensio
 
 A characterization of the convolution algebras of [[étale groupoids]] with their [[Hopf algebroid]] structure is in
 
-* [[Janez Mrčun]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
+* [[Janez Mr?un]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
 
-* [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+* [[Jure Kali?nik]], [[Janez Mr?un]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
  {#KalisnikMrcun}
 
 #### Modules over Lie groupoid convolution algebras and K-theory
@@ -567,7 +659,7 @@ In ([Bos, chapter 7](#Bos)) is discussion refining this to continuous representa
 
 Representation of convolution algebras of [[étale groupoids]] is in
 
-* [[Jure Kališnik]], _Groupoid representations and modules over the convolution algebras_ ([arXiv:0806.1832](http://arxiv.org/abs/0806.1832))
+* [[Jure Kali?nik]], _Groupoid representations and modules over the convolution algebras_ ([arXiv:0806.1832](http://arxiv.org/abs/0806.1832))
 
 The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-theory]] of the corresponding [[differentiable stacks]]) is discussed in
 
