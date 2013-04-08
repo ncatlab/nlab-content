@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Related concepts
+
+* [[algebra]], [[module]]
+
+* [[bialgebra]],  [[2-module]]
+
+* **trialgebra**, [[3-module]]
+
+## References
+
+* [[Hendryk Pfeiffer]], _2-Groups, trialgebras and their Hopf categories of representations_ ([arXiv:math/0411468](http://arxiv.org/abs/math/0411468))
+
+[[!redirects trialgebras]]
