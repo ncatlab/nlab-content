@@ -19,7 +19,7 @@
 
 ## Definition
 
-A _sylleptic monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E2-algebra]] structure.
+A _sylleptic monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E3-algebra]] structure.
 
 ## Related concepts
 
