@@ -19,6 +19,11 @@ An $(A,\mathbb{C})$-Hilbert $C^\ast$-bimodule is equialently just an $A$-[[Hilbe
 
 A $(\mathbb{C},A)$-Hilbert $C^\ast$-bimodule is equivalently just as [[representation of a C-star-algebra]].
 
+## Properties
+
+### Tensor product and 2-category structure
+
+Plain [[associative algebras]] with [[bimodules]] between them naturally form a [[2-category]] with [[tensor product of modules|tensor product of bimodules]] as its [[horizontal composition]]. The refinement of this to Hilbert bimodules is discussed in ([Buss-Zhu-Meyer 09](#BussZhuMeyer)).
 
 
 ## Related concepts
@@ -27,9 +32,16 @@ A $(\mathbb{C},A)$-Hilbert $C^\ast$-bimodule is equivalently just as [[represent
 
 ## References
 
+Reviews are for instance in
+
 * Nik Weaver, _Hilbert bimodules with involution_ ([arXiv:math/9908119](http://arxiv.org/abs/math/9908119))
 
 * [[Sergio Doplicher]], Claudia Pinzari, Rita Zuccante, _The $C^\ast$-algebra of a Hilbert Bimodule_ ([arXiv:funct-an/9707006](http://arxiv.org/abs/funct-an/9707006))
+
+The tensor product of Hilbert bimodules and the induced [[2-category]] structure is discussed in 
+
+* Alcides Buss, [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on C*-algebras_ ([arXiv:0908.0455](http://arxiv.org/abs/0908.0455))
+ {#BussZhuMeyer}
 
 [[!redirects Hilbert bimodules]]
 
