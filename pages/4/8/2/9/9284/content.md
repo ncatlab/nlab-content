@@ -8,6 +8,7 @@
 | [[sesquialgebra]] | [[2-ring]] = [[monoidal category|monoidal]]  [[presentable category]] with [[colimit]]-preserving [[tensor product]] |
 | [[bialgebra]] | strict [[2-ring]]: [[monoidal category]] with [[fiber functor]] |
 | [[Hopf algebra]] | [[rigid monoidal category]] with [[fiber functor]] |
+| [[weak Hopf algebra]] | [[fusion category]] with [[fiber functor]] |
 | [[quasitriangular bialgebra]] | [[braided monoidal category]] with [[fiber functor]] |
 | [[triangular bialgebra]] | [[symmetric monoidal category]] with [[fiber functor]] |
 | [[quasitriangular Hopf algebra]] ([[quantum group]]) | [[rigid monoidal category|rigid]] [[braided monoidal category]] with [[fiber functor]] |
