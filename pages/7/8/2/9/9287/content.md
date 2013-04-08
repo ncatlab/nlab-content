@@ -30,7 +30,15 @@ A _(quasi-)triangular Hopf algebra_ is a [[Hopf algebra]] whose underlying [[bia
 
 ## Examples
 
-A [[quantum group]] (in the sense of Drinfeld-Jimbo) is a quasitriangular Hopf algebra.
+* A [[quantum group]] (in the sense of Drinfeld-Jimbo) is a quasitriangular Hopf algebra.
+
+* The [[Drinfeld double]] of a [[Hopf algebra]] is a [[quasi-triangulated Hopf algebra]].
+
+## Related concepts
+
+* [[Yang-Baxter equation]]
+
+* [[quasitriangulated quasi-Hopf algebra]]
 
 ## References
 
