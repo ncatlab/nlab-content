@@ -17,11 +17,15 @@
 
 The notion of a _quasi-Hopf algebra_ generalizes this of a [[Hopf algebra]] by weakening the [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)). 
 
-Geometrically, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
+In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras by twisting by Drinfel'd associator, i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
+
+### Motivation
+
+Drinfel'd was motivated by study of monoidal categories in rational conformal field theory (RCFT) as well as by an idaa from the Grothendieck's Esquisse namely the Grothendieck-Teichmueller tower and its modular properties. In RCFT, the monoidal categories appearing can be, by Tannaka reconstruction considered as representations of Hopf-like objects where the flexibility of associativity coherence in building a theory were natural thus leading to quasi-Hopf algebras. 
+
+A special case of the motivation in RCFT has a toy example studies by Dijkgraaf et al. which can be quite geometrically
+explained. Namely, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
 Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[TFT]] called [[Dijkgraaf-Witten theory]], and hence quasi-Hopf algebras arise there ([Dijkgraaf-Pasquier-Roche 91](#DijkgraafPasquierRoche)).
-
-More generally, quasi-Hopf algebras are obtained from twists by a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
-
 
 ## Definition
 
