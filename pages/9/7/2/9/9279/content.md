@@ -57,6 +57,18 @@ A sesquiunital sesquialgebra equipped with such an antipode is a **hopfish algeb
 
 This is ([TWZ, def. 3.1, def. 3.2](#TWZ)).
 
+## Properties
+
+### Module categories and Tannaka duality
+ {#ModuleCategoriesAndTannakaDuality}
+
+The notion of [[sesquialgebra]] generalizes that of [[bialgebra]] such that under [[Tannaka duality]] sesquialgebras corespondond to [[monoidal categories]] generally, while the strictness of bialgebras means that there their monoidal category of [[modules]] is equipped with a [[fiber functor]]. 
+
+Since moreover [[Hopf algebras]] correspond to [[rigid monoidal categories]] with fiber functor under [[Tannaka duality]], the correct sesqui-algebra generalization of Hopf algebras should have exactly the rigid monoidal categories as module categories, up to equivalence, without necessarily a fiber functor. This is expressed by the following table
+
+[[!include structure on algebras and their module categories - table]]
+  
+
 ## References
 
 The notion was introduced in
