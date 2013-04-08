@@ -48,3 +48,6 @@ The [[Picard 2-groupoid]] of a braided monoidal 2-category is a [[braided 3-grou
 ## References
 
 (...)
+
+[[!redirects braided monoidal 2-categories]]
+
