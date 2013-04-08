@@ -1,0 +1,213 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _center of a monoidal category_ or _Drinfeld center_ is the [[categorification]] of the notion of [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
+
+Where the [[center]] of a monoid is just a sub-monoid with the [[property]] that it commutes with everything else, under categorification this becomes a [[stuff, structure, property]], since we have to specify _how_ the objects in the Drinfeld center commute ([[braided monoidal category|braide]]) with everything else.
+
+## Definition
+
+We first give the general-abstract definition
+
+* [Abstract definition](#AbstractDefinition)
+
+of Drinfeld centers. Then we spell out what this means in components in 
+
+* [Definition in components](#DefinitionInComponents).
+
+### Abstractly
+ {#AbstractDefinition}
+
+
++-- {: .num_defn}
+###### Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category]], write $\mathbf{B}_\otimes \mathcal{C}$ for its [[delooping]], the pointed [[2-category]] with a single [[object]] $*$ such that $Hom_{\mathbf{B}_\otimes \mathcal{C}}(*, *) \simeq \mathcal{C}$.
+
+The **Drinfeld center** $Z(\mathcal{C}, \otimes)$ of $(C, \otimes)$ is the [[monoidal category]] of [[endofunctor|endo]]-[[pseudonatural transformations]] of the [[identity]]-[[2-functor]] on $\mathbf{B}_\otimes \mathcal{C}$:
+
+$$
+  Z(\mathcal{C}, \otimes)
+  \coloneqq
+  End_{\mathbf{B}_\otimes \mathcal{C}}(id_{\mathbf{B}_\otimes \mathcal{C}})
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Unwinding the definitions, we find that an [[object]] of $Z(\mathcal{C}, \otimes)$ $\Phi \colon id_{\mathbf{B}_\otimes \mathcal{C}} \to id_{\mathbf{B}_\otimes \mathcal{C}}$ has compnents being pseudonaturality squares
+
+$$
+  \array{
+    \ast &\stackrel{X \coloneqq \Phi(\ast)}{\to}& \ast
+    \\
+    {}^{\mathllap{Y}}\downarrow &\swArrow_{\Phi_Y}& \downarrow^{\mathrlap{Y}}
+    \\
+    \ast
+    &\underset{X = \Phi(\ast)}{\to}&
+    \ast
+  }
+$$
+
+for each $Y \in Obj(\mathcal{C})$. As shown, these consist of a choice of an object $X \in \mathcal{C}$ togetehr with a [[natural isomorphism]]
+
+$$
+  \Phi_{(-)} \colon X \otimes (-) \to (-) \otimes X
+$$
+
+in $\mathcal{C}$.
+
+The [[transfor]]-property of $\Phi$ says that 
+
+$$
+  \array{
+    \ast &\stackrel{X \coloneqq \Phi(\ast)}{\to}& \ast
+    \\
+    {}^{\mathllap{Y}}\downarrow &\swArrow_{\Phi_Y}& \downarrow^{\mathrlap{Y}}
+    \\
+    \ast
+    &\underset{X = \Phi(\ast)}{\to}&
+    \ast
+    \\
+    {}^{\mathllap{Z}}\downarrow &\swArrow_{\Phi_Z}& \downarrow^{\mathrlap{Z}}
+    \\
+    \ast
+    &\underset{X = \Phi(\ast)}{\to}&
+    \ast
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    \ast &\stackrel{X \coloneqq \Phi(\ast)}{\to}& \ast
+    \\
+    {}^{\mathllap{Y \otimes Z}}\downarrow &\swArrow_{\Phi_{Y \otimes Z}}& \downarrow^{\mathrlap{Y \otimes Z}}
+    \\
+    \ast
+    &\underset{X = \Phi(\ast)}{\to}&
+    \ast
+  }
+  \,.
+$$
+
+And so forth. Writing this out in terms of $(\mathcal{C}, \otimes)$ yields the following component characterization of Drinfeld centers, def. \ref{CompDef}.
+
+=--
+
+
+
+### In components
+ {#DefinitionInComponents}
+
++-- {: .num_defn #CompDef}
+###### Definition
+
+Let $(\mathcal{C}, \otimes)$ be a [[monoidal category]]. Its **Drinfeld center** is a [[monoidal category]] $Z(\mathcal{C})$ whose
+
+* [[objects]] are pairs $(X, \Phi)$ of an object $X \in \mathcal{C}$ and a [[natural isomorphism]] (braiding morphism)
+
+  $$
+    \Phi \colon X \otimes (-) \to (-) \otimes X
+  $$
+
+  such that for all $Y \in \mathcal{C}$ we have 
+
+  $$
+    \Phi_{Y \otimes Z}
+    =
+    (id \otimes \Phi_Z) \circ (\Phi_Y \otimes id)
+  $$
+
+* [[morphisms]] are given by
+
+  $$
+    Hom((X, \Phi), (Y,\Psi))
+    =
+   \left\{
+     f \in Hom_{\mathcal{C}}(X,Y)
+     \;|\;
+     (f \otimes id) \circ \Phi_Z
+     = 
+     \Psi_Z \circ (id \otimes f), \; \forall Z \in \mathcal{C}
+   \right\}
+   \,.
+  $$
+
+* the [[tensor product]] is given by 
+ 
+  $$
+    (X, \Phi) \otimes (Y, \Psi) = (X \otimes Y, (\Phi \otimes id) \circ (id \otimes \Psi))
+    \,.
+  $$
+
+=--
+
+## Properties
+
+### Extra structure on the Drinfeld center
+
++-- {: .num_prop}
+###### Proposition
+
+The Drinfeld center $Z(\mathcal{C})$ is naturally a [[braided monoidal category]]. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $\mathcal{C}$ is a [[fusion category]] then the Drinfeld center $Z(\mathcal{C})$ is also naturally a fusion category.
+
+=--
+
+### Relation to Drinfeld double under Tannaka duality
+
+Under [[Tannaka duality]], forming the Drinfeld center of a [[category of modules]] of some [[Hopf algebra]] corresponds to forming the category of modules over the corresponding [[Drinfeld double]] algebra. See there for more.
+
+[[!include structure on algebras and their module categories - table]]
+
+
+## Related concepts
+
+* [[Drinfeld double]]
+
+
+## References
+
+A standard textbook reference is
+
+* Kassel, _Quantum groups_
+
+A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-categories]] (which reduces to the above for the 2-category [[Cat]] with its [[cartesian product]]) is in 
+
+* [[Ross Street]], _The monoidal center as a limit_ ([pdf](http://maths.mq.edu.au/~street/centre.pdf))
+
+[[!redirects Drinfeld centers]]
+
+[[!redirects Drinfel'd center]]
+[[!redirects Drinfel'd centers]]
+  
+[[!redirects center of a monoidal category]]
+
