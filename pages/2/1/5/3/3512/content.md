@@ -1,4 +1,5 @@
-### Some Initial HowTos ###
+
+# An Initial SVG editor HowTo
 
 1. Before creating an SVG using the editor, you need to choose where it will be placed in a page.  So first you need to be editing a page, then click in the source text where you want your SVG to appear.  The SVG editor will now launch.
 
@@ -11,3 +12,6 @@
 6. There are a couple of ways of making curved arrows.  One is to draw a straight line and convert it to a path.  So draw a straight line, select it, and click the button at the top that is a red quarter-circle with some blue bits.  That converts it to a path.  Ensure that it is selected and click it again (it can take a couple of clicks to get this right: the line should go cyan).  Now change the menu "Straight" to "Curve".  You can adjust the curviness by dragging the control points around.
 
 7. Just because you've put a path in doesn't mean it will get shown.  Paths need to be "stroked" to be visible (or they can be filled).  If your paths aren't visible, make sure that the "stroke" settings (bottom of the screen) are something sensible.  Click "wireframe mode" (the "circle-square" icon at the top) if you think you've drawn something that you can't see.
+
+
+category: meta
