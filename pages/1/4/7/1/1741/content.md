@@ -14,7 +14,7 @@ A discrete fibration is a special case of a [[Grothendieck fibration]].
 Given a cartesian category $E$, [[internal categories]] $C,B$ in $E$, an internal functor $F: C \to B$ is a **discrete fibration of internal categories** if the square
 $$\begin{matrix}
 C_1 &\stackrel{F_1}\to& B_1\\
-d_0\downarrow && \downarrow d_0\\
+d_1\downarrow && \downarrow d_1\\
 C_0 &\stackrel{F_0}\to& B_0
 \end{matrix}$$
 is cartesian.
