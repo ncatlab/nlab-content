@@ -15,27 +15,53 @@
 
 ## Idea
 
-A Hopf algebra is a generalization of:
+The notion of _Hopf algebra_ is an abstraction of the properties of
 
-* the [[group algebra]] of a [[group]]
+* the [[group algebra]] of a [[group]];
 
-* the algebra of functions on a finite group, and more generally, the algebra of regular functions on an affine algebraic $k$-group
+* the [[algebra of functions]] on a finite group, and more generally, the algebra of regular functions on an affine algebraic $k$-group;
 
-* the [[universal enveloping algebra]] of a [[Lie algebra]]
+* the [[universal enveloping algebra]] of a [[Lie algebra]],
 
-All these algebras are actually [[bialgebra|bialgebras]], but furthermore they have a 'antipode' operation which reflects or mimics the inverse operation of a group. One important source is also [[combinatorics]], see [[combinatorial Hopf algebra]]s.
+where not only the [[associative algebra]] structure is remembered, but also the natural [[coalgebra]] structure, making it a [[bialgebra]], as well as the algebraic structure induced by the [[inverse]]-operation in the group, called the _antipode_.
+
+More intrinsically, a Hopf algebra structure on an [[associative algebra]] is precisely the structure such as to make its [[category of modules]] into a [[rigid monoidal category]] equipped with a [[fiber functor]] -- this is the statement of _[[Tannaka duality]]_ for Hopf algebras.
+
+Hopf algebras and their generalization to [[Hopf algebroids]] arise notably as [[groupoid convolution algebras]]. Another important source of Hopf algebras is [[combinatorics]], see at _[[combinatorial Hopf algebras]]_.
+
+There is a wide variety of variations of the notion of Hopf algebra, relaxing [[properties]] or adding [[structure]]. Examples are _[[weak Hopf algebras]]_, _[[quasi-Hopf algebras]]_, _([[quasi-triangular Hopf algebra|quasi]]-)[[triangular Hopf algebras]]_, _[[quantum groups]]_, _[[hopfish algebras]]_ etc. Most of these notions are systematized via [[Tannaka duality]] by the properties and structures on the coresponding [[categories of modules]], see at _[Tannaka duality](#TannakaDuality)_ below.
 
 ## Definition
 
-A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon:A\to k$ is a **Hopf algebra**
-if there exists a $k$-linear map
+
++-- {: .num_defn}
+###### Definition
+
+A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon:A\to k$ is called a **Hopf algebra**
+if there exists a $k$-[[linear function]]
 
 $$S : A \to A$$
 
-called the **antipode** or **coinverse** such that $m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon$ (as a map $A\to A$). If an antipode exists then it is unique, just the way that if inverses exist in a monoid they are unique.
-The unit is group like, hence $S(1)1=1$, therefore $S(1)=1$. By linearity of $S$ this implies that $S\circ\eta\circ\epsilon = \eta\circ\epsilon$.
+called the **antipode** or **coinverse** such that 
 
-+-- {: .un_prop}
+$$
+  m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon
+$$ 
+
+(as a map $A\to A$). 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If an antipode exists then it is unique, just the way that if inverses exist in a [[monoid]] then they are unique.
+
+The unit of a Hopf algebra is a [[grouplike element]],  hence $S(1)1=1$, therefore $S(1)=1$. By linearity of $S$ this implies that $S\circ\eta\circ\epsilon = \eta\circ\epsilon$.
+
+=--
+
++-- {: .num_prop}
 ###### Proposition
 The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
 =--
