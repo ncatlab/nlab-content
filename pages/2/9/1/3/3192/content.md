@@ -121,3 +121,6 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 category: analysis
 [[!redirects Fredholm complex]]
 [[!redirects Fredholm operators]]
+
+[[!redirects parametrix]]
+
