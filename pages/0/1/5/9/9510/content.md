@@ -3,17 +3,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -23,11 +23,13 @@ The notion is of particular and historical important in [[analysis]], where it s
 
 More generally there is a notion of limit for sequences/nets in [[convergence spaces]].
 
+
 ## Definition
 
 If $X$ a [[topological space]] and $I$ the set of [[natural numbers]] (or more generally any [[directed set]]) and $(x_i)_{i\in I} \colon I \to X$ a [[sequence]] (a [[net]]) of points in $X$, one says that a point $x \in X$ is a **limit** of $(x_i)$ or that $(x_i)$ **converges** to $x$ if for all [[open neighbourhoods]] $U \subset X$ of $x$ there exists an $i_U \in I$ such that $x_i \in U$ for all $i \gt i_U$.
 
-Warning: if $X$ is not a [[Hausdorff topological space]], there might be more than one point $x$ with the property that $(x_i)$ converges to $x$. Then we say that the sequence converges to the _set_ of all such points. 
+Warning: if $X$ is not a [[Hausdorff space]], there might be more than one point $x$ with the property that $(x_i)$ converges to $x$. Then we say that the sequence converges to all such points, or to the set of all such points.
+
 
 ## Related concepts
 
@@ -35,17 +37,25 @@ Warning: if $X$ is not a [[Hausdorff topological space]], there might be more th
 * [[convergence space]]
 * [[series]]
 
-category: analysis
-[[!redirects limit of a net]]
 
+category: analysis
+
+[[!redirects limit of a sequence]]
+[[!redirects limits of a sequence]]
 [[!redirects limits of sequences]]
+
+[[!redirects limit of a net]]
+[[!redirects limits of a net]]
 [[!redirects limits of nets]]
 
 [[!redirects convergence]]
+[[!redirects convergences]]
 [[!redirects convergencies]]
+
 [[!redirects convergence of a sequence]]
+[[!redirects convergence of sequences]]
 [[!redirects convergence of a net]]
+[[!redirects convergence of nets]]
 
 [[!redirects limit point]]
 [[!redirects limit points]]
-
