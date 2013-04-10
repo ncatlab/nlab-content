@@ -67,6 +67,7 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 
 * [[degree of a continuous function]]
 
+* [[equicontinuous function]]
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
