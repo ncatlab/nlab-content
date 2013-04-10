@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A type of [[C*-algebra]].
+
+(...)
+
+## Properties
+
+Restricted to nuclear $C*$-algebras the canonical functor $KK \to E$ from [[KK-theory]] to [[E-theory]] (see there) is a [[full and faithful functor]].
+
+## References
+
+* Wikipedia, _[Nuclear C-star-algebra](http://en.wikipedia.org/wiki/Nuclear_C*-algebra)_
+
+[[!redirects nuclear C-star-algebra]]
+[[!redirects nuclear C-star-algebras]]
+
+[[!redirects nuclear C*-algebras]]
