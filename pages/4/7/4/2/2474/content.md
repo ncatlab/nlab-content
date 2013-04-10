@@ -154,11 +154,50 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 ## Examples
 
-* [[matrix]] algebras;
++-- {: .num_example}
+###### Example
 
-* [[uniformly hyperfinite algebra]]
+Any algebra $M_n(A)$ of [[matrices]] with [[coefficients]] in a $C^\ast$-algebra is again a $C^\ast$-algebra. In particular $M_n(\mathbb{C})$ is a $C^\ast$-algebra for all $n \in \mathbb{N}$.
 
-* [[von Neumann algebra]]
+=--
+
++-- {: .num_example}
+###### Example
+
+For $A$ a $C^\ast$-algebra and for $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the set of [[continuous functions]] $X \to A$ which [[vanish at infinity]] is again a $C^\ast$-algebra by extending all operations pointwise.
+(This algebra is unital precisely if $A$ is and if $X$ is a [[compact topological space]].)
+
+This algebra is denoted 
+
+$$
+  C_0(X,A) \in C^\ast Alg
+  \,.
+$$ 
+
+If $A = \mathbb{C}$ then one usually just writes 
+
+$$
+  C_0(X) \coloneqq C_0(X, \mathbb{C})
+  \,.
+$$
+
+This are the $C^\ast$-algebras to which the [[Gelfand duality]] theorem applies.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A [[uniformly hyperfinite algebra]] is in particular a $C^\ast$-algebra, by definition.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
+
+=--
 
 
 ## Related concepts
