@@ -1,0 +1,24 @@
+[[!redirects vanish at infinity]]
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $A$ a [[Banach space]] and $X$ a [[topological space]], a [[function]] $X \to A$ is said to **vanish at infinity** if for every positive [[real number]] $\epsilon \in \mathbb{R}_+$ there is a [[compact subset]] $K \hookrightarrow X$ such that 
+
+$$
+  \underset{{x \in X\backslash K}}{\forall} \;  {\vert f(x)\vert} \lt \epsilon
+  \,.
+$$
+
+
+## Properties 
+
+If $X$ is a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], then functions that vanish at infinity are precisely those that can be extented by 0 to [[continuous functions]] on the [[Stone–Čech compactification]] of $X$.
+
+## References
+
+* Wikipedia, _[Locally compact](http://en.wikipedia.org/wiki/Locally_compact)_
