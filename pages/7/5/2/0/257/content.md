@@ -253,7 +253,7 @@ and appendix E of
 
 An introductory survey of some key concepts is in the set of slides
 
-* [[Peter May]], [[ModelCatPrimer.pdf:file]]
+* [[Peter May]], _[[ModelCatPrimer.pdf:file]]_
 
 There is an unpublished manuscript of [[Chris Reedy]] from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
 
@@ -265,17 +265,19 @@ Recent review:
 
 A nice first introduction:
 
-* Dwyer, Spalinski, _Homotopy theories and model categories_ ([pdf](http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf))
+* [[William Dwyer]], Spalinski, _Homotopy theories and model categories_ ([pdf](http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf))
 
 Monographs: 
 
-* Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99))
+* Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+
 
 * [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 See 
 
-* P. Hirschhorn, personal website: [Mathematics](http://www-math.mit.edu/~psh/#Mathematics)
+* P. Hirschhorn, personal website: _[Mathematics](http://www-math.mit.edu/~psh/#Mathematics)_
 
 for errata and more. 
 
