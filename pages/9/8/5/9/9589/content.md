@@ -19,11 +19,72 @@ In [[noncommutative topology]] the standard notion of [[homomorphism]] of [[C*-a
 
 ## Definition
 
++-- {: .num_defn #AsymptoticHomomorphism}
+###### Definition
+
 For $A,B$ two [[C*-algebras]], an **asymptotic** homomorphism between them is a $[0,\infty)$-parameterized collection of [[continuous functions]] $\{\phi_t \colon A \to B\}_{t \in [0, \infty)}$, such that
 
 * for each $a \in A$, the [[function]] $t \mapsto \phi_t(a)$ is a [[continuous function]];
 
 * in the [[limit of a sequence|limit]] $t \to \infty$, $\phi_t$ becomes a [[star-algebra]] [[homomorphism]].
+
+=--
+
+As for ordinary $C^\ast$-algebra homomorphisms one puts:
+
++-- {: .num_defn #AsymptoticHomotopy}
+###### Definition
+
+For $f_t, g_t \colon A \to B $ to asymptotic $C^\ast$-homomorphisms, def. \ref{AsymptoticHomomorphism}, a (right) [[homotopy]] between them is an asyptotic homomorphism $\eta_t \colon A \to C([0,1],B)$ which restricts to $f$ at 0 and to $g$ at $1$, hence such that it fits into a [[commuting diagram]] of the form
+
+$$
+  \array{
+     && B
+     \\
+     & {}^{\mathllap{f_t}}\nearrow & \uparrow^{\mathrlap{ev_0}}
+     \\
+    A &\stackrel{\eta_t}{\to}& C([0,1], B)
+    \\
+    & {}_{\mathllap{g_t}}\searrow & \downarrow^{\mathrlap{ev_1}}
+    \\
+    && B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The $t$-wise composition of two asymptotic $C^\ast$-homomorphisms is not in general itself an asymptotic $C^\ast$-homomorphims. However, every asympotic homomorphism is homotopic to one which is an [[equicontinuous map]], and $t$-wise composition of equicontinuous asymptotic $C^\ast$-homomorphisms is again an asymptotic homomorphism.
+
+=--
+
+
+## Examples
+
++-- {: .num_example }
+###### Example
+
+Two asymptotic $C^\ast$-homomorphisms which differe just by a reparameterization of $[0,\infty)$ while having the same [[limit of a sequence|limit]] can be related by a homotopy, def. \ref{AsymptoticHomotopy}.
+
+=--
+
++-- {: .num_example }
+###### Example
+**(self-adjointification homotopy)**
+
+For $f_t \colon A \to B $ an asymptotic $C^\ast$-homomorphism, there is a homotopy to the asymptotic morphism 
+
+$$
+  \tilde f_t(a) \coloneqq \tfrac{1}{2}\left(f(a) + f(a^\ast)^\ast\right)
+  \,.
+$$
+
+
+=--
+
 
 ## References
 
