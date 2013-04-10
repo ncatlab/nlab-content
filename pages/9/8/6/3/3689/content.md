@@ -388,6 +388,8 @@ See for instance ([Kiersz, prop. 3](#Kiersz)).
 
 * [[nMod]]
 
+* [[2-category of module categories]]
+
 ## References
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
@@ -421,4 +423,3 @@ category: category
 [[!redirects category of modules]]
 [[!redirects categories of modules]]
 
-[[!redirects module category]]
