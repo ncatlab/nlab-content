@@ -6,3 +6,5 @@
 * [[KK-theory]]
 
 category: people
+
+[[!redirects R. Meyer]]
