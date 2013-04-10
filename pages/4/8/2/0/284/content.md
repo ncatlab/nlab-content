@@ -321,6 +321,9 @@ Lecture notes are in
 
 * [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
 
+* [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
+
+
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
 [[!redirects (infinity,1)-categories]]
