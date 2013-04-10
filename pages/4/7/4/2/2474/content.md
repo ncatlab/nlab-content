@@ -179,8 +179,9 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 * [[dense subalgebra]], [[F-star-algebra]]
 
-
 * [[Hilbert C-star-module]], [[Hilbert bimodule]], [[KK-theory]]
+
+* [[asymptotic C-star-homomorphism]]
 
 * [[state on an operator algebra]]
 
