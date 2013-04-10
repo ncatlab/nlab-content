@@ -719,6 +719,7 @@ A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 ## References
+ {#References}
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
