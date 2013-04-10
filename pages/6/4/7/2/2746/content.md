@@ -9,4 +9,9 @@ More information (current research interests, publications, etc.) can be found [
 category: people
 
 
+
 [[!redirects Chris L. Rogers]]
+
+[[!redirects Christopher Rogers]]
+[[!redirects Christopher L. Rogers]]
+
