@@ -173,7 +173,14 @@ such that (...). This is called the **Kasparov product**.
 
 =---
 
-A streamlined version of the definition of the Kasparov product is in ([Skandalis 84](#Skandalis84)).
+A streamlined version of the definition of the Kasparov product is in ([Skandalis 84](#Skandalis84)). 
+
++-- {: .num_remark}
+###### Remark
+
+From the point of view of [[E-theory]] the Kasparov product is equivalently just the composition of homotopy classes of completely poistive [[asymptotic C*-homomorphisms]]. See at _[[E-theory]]_ for more on this.
+
+=--
 
 
 
@@ -222,7 +229,7 @@ exhibits $KK$ as the [[universal property|universal category]] receiving a funct
 
 =--
 
-([Higson 87, theorem 4.5](#Higson))
+This is due to ([Higson 87, theorem 4.5](#Higson)). The generalization to the equivariant case is due to ([Thomsen 98](#Thomsen98)).
 
 +-- {: .num_cor }
 ###### Corollary
@@ -475,9 +482,12 @@ That under the Kasparov product these are indeed the [[hom-objects]] in a [[cate
 
 where moreover this category is realized as the [[universal property|universal]] additive and split exact "[[localization]]" of $C^\ast Alg$ at the $C^\ast$-algebra of [[compact operators]].
 
+
+
 The generalization of this statement to [[equivariant cohomology|equivariant]] KK-theory is in 
 
 * Klaus Thomsen, _The universal property of equivariant KK-theory_ ([K-theory preprint](http://www.math.uiuc.edu/K-theory/0249/))
+ {#Thomsen98}
 
 Characterization of KK-theory as the [[satellites]] of a functor is in 
 
