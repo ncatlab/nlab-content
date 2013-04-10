@@ -71,6 +71,7 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 * [[Gelfand duality]]
 
+* [[vanishing at infinity]]
 
 [[!redirects locally compact space]]
 [[!redirects locally compact spaces]]
