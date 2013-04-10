@@ -1,2 +1,7 @@
 
 $\infty$
+
+## Related concepts
+
+* [[vanishing at infinity]]
+
