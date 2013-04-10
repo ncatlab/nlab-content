@@ -13,7 +13,11 @@
 
 * [[bialgebra]],  [[2-module]]
 
+  * [[quantum group]]
+
 * **trialgebra**, [[3-module]]
+
+  * [[quantum 2-group]]
 
 ## References
 
