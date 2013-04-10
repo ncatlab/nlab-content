@@ -1,7 +1,7 @@
 
-**[[Tannaka duality]] for associative algebras**
+**[[Tannaka duality]] for [[categories of modules]] over [[monoids]]/[[associative algebras]]** 
 
-| [[associative algebra]]  | [[category of modules]]  |
+| [[monoid]]/[[associative algebra]]  | [[category of modules]]  |
 |--|--|
 | $A$ | $Mod_A$ |
 | $R$-[[associative algebra|algebra]] | $Mod_R$-[[2-module]] |
@@ -15,3 +15,20 @@
 | [[quasitriangular Hopf algebra]] ([[quantum group]]) | [[rigid monoidal category|rigid]] [[braided monoidal category]] with [[fiber functor]] |
 | [[triangular Hopf algebra]] | [[rigid monoidal category|rigid]] [[symmetric monoidal category]] with [[fiber functor]] |
 | form [[Drinfeld double]] | form [[Drinfeld center]] |
+| [[trialgebra]] | [[Hopf monoidal category]] |
+
+**2-Tannaka duality for [[module categories]] over [[monoidal categories]]** 
+
+| [[monoidal category]] | [[2-category of module categories]]  |
+|--|--|
+| $A$ | $Mod_A$ |
+| $R$-[[2-algebra]] | $Mod_R$-[[3-module]] |
+|  [[Hopf monoidal category]] | [[monoidal 2-category]] (with some duality and strictness structure) |
+
+
+**3-Tannaka duality for [[module 2-categories]] over [[monoidal 2-categories]]** 
+
+| [[monoidal 2-category]] | [[3-category of module 2-categories]]  |
+|--|--|
+| $A$ | $Mod_A$ |
+| $R$-[[3-algebra]] | $Mod_R$-[[4-module]] |
