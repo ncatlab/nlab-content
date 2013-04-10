@@ -1,5 +1,7 @@
+
+
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
@@ -36,3 +38,8 @@ Appendix T in the book
 
 
 [[!redirects Creating spatial tensors]]
+
+[[!redirects tensor product of C*-algebras]]
+[[!redirects tensor product of C-star-algebras]]
+[[!redirects tensor products of C*-algebras]]
+[[!redirects tensor products of C-star-algebras]]
