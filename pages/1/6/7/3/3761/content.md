@@ -50,6 +50,8 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[monoidal category]]
 
+* [[module 2-category]]
+
 * [[braided monoidal 2-category]]
 
 * [[sylleptic monoidal 2-category]]
@@ -115,3 +117,4 @@ Slightly different definitions of these various structures can be found in the f
 [[!redirects symmetric monoidal bicategories]]
 
 [[!redirects monoidal 2-category]]
+[[!redirects monoidal 2-categories]]
