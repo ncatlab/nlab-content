@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+By "module category" may be meant 
+
+1. a [[category]] equipped with an [[action]] of a [[monoidal category]].
+
+1. a [[category of modules]] of a [[monoid]] (e.g. an [[associative algebra]]).
+
+Here we consider the first sense. For the second, see at _[[category of modules]]_.
+
+
+The collection of module categories over a monoidal category forms a [[2-category]] of module categories.
+
+
+## Related concepts
+
+* [[module]]
+
+* [[module 2-category]]
+
+[[!redirects module categories]]
+
+[[!redirects 2-category of module categories]]
+[[!redirects 2-categories of module categories]]
