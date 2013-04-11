@@ -1,4 +1,5 @@
-[[!redirects prequantum operator]]
+
+> for the moment the conent that would go here is rather at _[[quantum observable]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -35,3 +36,5 @@ $$
 is the _prequantum operator that quantizes $O$_.
 
 [[!redirects prequantum operators]]
+
+[[!redirects prequantum operator]]
