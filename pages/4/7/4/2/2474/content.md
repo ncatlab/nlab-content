@@ -149,7 +149,8 @@ Many $C^\ast$-algebras arise as [[groupoid algebras]] of [[Lie groupoids]]. See 
 
 ### Homotopy theory
 
-There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative generalization of that of [[Top]]. See for instance ([Uuye 12](#Uuye)).
+There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative generalization of that of [[Top]]. 
+(e.g. [Uuye 12](#Uuye)). For more see at _[[homotopical structure on C*-algebras]]_.
 
 
 ## Examples
@@ -202,13 +203,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 ## Related concepts
 
-* [[commutative C-star-algebra]]
-
-* [[C-star-category]]
-
-* [[Hopf C-star-algebra]]
-
-* [[C-star coalgebra]]
+* [[commutative C-star-algebra]], [[Gelfand duality]], [[noncommutative topology]]
 
 * [[nuclear C*-algebra]]
 
@@ -218,13 +213,23 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[dense subalgebra]], [[F-star-algebra]]
 
-* [[Hilbert C-star-module]], [[Hilbert bimodule]], [[KK-theory]]
+* [[tensor product of C*-algebras]]
 
-* [[asymptotic C-star-homomorphism]]
+* [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
 
-* [[state on an operator algebra]]
+* [[C*-category]]
+
+* [[C*-coalgebra]], [[Hopf C*-algebra]]
+
+* [[homotopical structure on C*-algebras]]
+
+  * [[asymptotic C*-homomorphism]], [[l.m.c.-C*-algebra]]
+
+  * [[KK-theory]], [[E-theory]]
 
 * [[AQFT]]
+
+  * [[state on an operator algebra]]
 
 
 ## References
@@ -250,10 +255,12 @@ Properties of the [[category]] of $C^\ast$-algebras are discussed in
  {#Meyer}
 
 
-Homotopy theory of $C^\ast$-algebras (a [[category of fibrant objects]]-structure on $C^\ast Alg$) is discussed in
+The [[homotopy theory]] of $C^\ast$-algebras (a [[category of fibrant objects]]-structure on $C^\ast Alg$) is discussed in
 
 * Otgonbayar Uuye, _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926](http://arxiv.org/abs/1011.2926))
+ {#Uuye}
 
+For more along such lines see the references at _[[KK-theory]]_ and _[[E-theory]]_.
 
 [[!redirects C-star-algebra]]
 [[!redirects C-star-algebras]]
