@@ -166,6 +166,9 @@ $$
 
 between the [Quillen model structure](#QuillenModelStructure) and the [Strom model structure](#StromModelStructure) on $Top$. Here $Top_{Strom} \to Top_{Quillen}$ is the [[Quillen adjunction|right Quillen functor]].
 
+## Related concepts
+
+* [[homotopical structure on C*-algebras]]
 
 ## References 
 
