@@ -177,12 +177,18 @@ Early work on associated $\infty$-bundles takes place in the $(\infty,1)$-topos 
 
 a classification of [[fibrations]] of [[CW-complexes]] with given CW-complex fiber in terms of maps into a classifying CW-complex is given.
 
-A generalization of this is in
+In 
+
+* [[Daniel Gottlieb]], _The total space of universal fibrations._  Pacific J. Math. Volume 46, Number 2 (1973), 415-417. 
+
+the total space of the universal $F$-[[fiber ∞-bundle]] in the pointed context is identified with $\mathbf{B}Aut_*(F)$ (the pointed [[automorphism ∞-group]]).
+
+A generalization or more systematic account of the classification theory is then given in
 
 * [[Peter May]], _Classifying Spaces and Fibrations_ Mem. Amer. Math. Soc. 155 (1975) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/Classifying.pdf))
 {#May}
 
-This has been reproven in various guises as the statement of [[univalence]] in the [[model]] [[sSet]] for [[homotopy type theory]]. See the references at _[[univalence]]_ for more on this.
+This has been reproven in various guises, such as the statement of [[univalence]] in the [[model]] [[sSet]] for [[homotopy type theory]]. See the references at _[[univalence]]_ for more on this.
 
 Generalizations with extra structure on the fibers are discussed in 
 
