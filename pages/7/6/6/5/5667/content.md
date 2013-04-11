@@ -328,6 +328,17 @@ $KK(A,B) \simeq Ext^1(A,B)$
 
 to a suitable group of suitable [[extensions]] of $A$ by $B$. ([Kasparov 80](#Kasparov80), reviewed in [Inassaridze](#Inassaridze)).
 
+### Triangulated (stable) structure
+
++-- {: .num_prop }
+###### Proposition
+
+$KK$ is naturally a stable [[triangulated category]].
+
+=--
+
+([Meyer 07](#Meyer), [Uuye 10, theorem 2.29](#Uuye10)).
+
 ### Excision and relation to E-theory
 
 +-- {: .num_defn }
@@ -424,6 +435,8 @@ $$
 
   * [[E-theory]]
 
+* [[homotopical structure on C*-algebras]], [[model structure on operator algebras]]
+
 ## References
 
 ### General
@@ -511,7 +524,14 @@ A [[model category]] realization of KK-theory is discussed in
 * [[Michael Joachim]], [[Mark Johnson]], _Realizing Kasparov's KK-theory groups as the homotopy classes of maps of a Quillen model category_ ([arXiv:0705.1971](http://arxiv.org/abs/0705.1971))
  {#JoachimJohnson07}
 
-Discussion in the context of [[stable homotopy theory]] and [[E-theory]] is in
+A [[category of fibrant objects]]-structure on [[C*Alg]] which unifies the above homotopical pictures is discussed in
+
+* [[Otgonbayar Uuye]], _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926](http://arxiv.org/abs/1011.2926))
+ {#Uuye10}
+
+More on this is at _[[homotopical structure on C*-algebras]]_.
+
+Further discussion in the context of [[stable homotopy theory]] and [[E-theory]] is in
 
 * Martin Grensing, _Noncommutative stable homotopy theory_ ([arXiv:1302.4751](http://arxiv.org/abs/1302.4751))
 
@@ -569,3 +589,11 @@ A review is in
 
 [[!redirects Kasparov K-theory]]
 [[!redirects bivariant K-theory]]
+
+[[!redirects KK-group]]
+[[!redirects KK-groups]]
+
+[[!redirects Kasparov KK-group]]
+[[!redirects Kasparov KK-groups]]
+
+[[!redirects Kasparov KK-groups]]
