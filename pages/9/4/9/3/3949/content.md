@@ -25,7 +25,7 @@ J.M.F. Castillo. The hitchhiker guide to categorical Banach space theory. Part I
 Extracta Math. 25(2) (2010), 103--149.
 [jak szybko schudnac](http://dieta-na-mase.in/jak-szybko-schudnac)
 
-(Currently freely available on the [journal's website](http://www.eweb.unex.es/eweb/extracta/) )
+(Currently freely available on the [timex](http://www.zegarek.net/zegarki/timex/index.html) )
 
 category: people
 
