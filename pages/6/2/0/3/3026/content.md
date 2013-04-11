@@ -54,6 +54,8 @@ $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X
 
 * [[Thom space]]
 
+* [[compactification]] 
+
 
 ## References
 
