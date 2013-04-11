@@ -39,7 +39,7 @@ Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
 +-- {: .num_defn}
 ###### Definition
 
-For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **quantum operator** is the linear map
+For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **pre-quantum operator** is the linear map on prequantum states
 
 $$
   \hat f : \Gamma_X(E) \to \Gamma_X(E)
@@ -62,6 +62,8 @@ corresponding to $f$;
 * $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
 
 =--
+
+Now after a choice of [[polarization]] a [[quantum state]] is a prequantum [[wave function]] which is covariantly constant along the [[Lagrangian submanifolds]] of the foliation. Not all prequantum operators will respect the space of such quantum states inside all quantum states. Those that do become genuine quantum operators.
 
 
 ### On an $n$-plectic smooth $\infty$-groupoid
