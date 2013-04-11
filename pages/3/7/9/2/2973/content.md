@@ -1,3 +1,4 @@
+[[!redirects weakly Hausdorff space]]
 
 # Weakly Hausdorff spaces
 * table of contents
@@ -19,3 +20,5 @@ We have given the definition for topological spaces, but it also makes sense as 
 [[!redirects weak Hausdorff spaces]]
 [[!redirects weakly Hausdorff space]]
 [[!redirects weakly Hausdorff spaces]]
+
+[[!redirects weakly Hausdorff topological spaces]]
