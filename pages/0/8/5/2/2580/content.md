@@ -22,7 +22,20 @@ possibility to define generalized derivatives without exceptions and to treat fu
 
 Generalized functions were introduced by S. L. Sobolev in 1935, and independently (under the name _distributions_) by [[Laurent Schwartz]] in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. For an infinite-dimensional variant used in the foundation of Feynman [[path integral]] see also [[Connes distribution]].
 
-## Definitions 
+## Definition
+ {#Definitions}
+
+We first recall the 
+
+* [Traditional definition](#TraditionalDefinition).
+
+Then we consider the axiomatic reformulation in terms of [[Kan extension]] following [Kock 11](#Kock11).
+
+* [Characterization by Kan extension](#CharacterizationByKanExtension)
+
+
+### Traditional definition
+ {#TraditionalDefinition}
 
 Distributions come in various flavors, depending on what spaces of functions they act on. The functions they act on are called **test functions**; typically they are smooth functions on domains in Euclidean space satisfying some boundedness property. 
 
@@ -70,7 +83,16 @@ Other notions of spaces of distributions, each endowed with the weak $*$-topolog
 $$\rho_{K, \alpha, \beta}(\phi) = \sup_{x \in K} |x^\alpha \partial^\beta \phi|$$ 
 where $\alpha$, $\beta$ are multi-indices. 
 
+### Characterization by Kan extension
+ {#CharacterizationByKanExtension}
+
+(...)
+
+
+
 ## Operations on distributions 
+
+### Inducing operations by dual extension
 
 As $\mathcal{D}(U)$ is dual to $C_c^\infty(U)$, each continuous linear operator on $C_c^\infty(U)$ induces a corresponding linear operator on $\mathcal{D}(U)$ in the obvious way.  Given
 
@@ -234,42 +256,75 @@ which closely mirrors the original treatment in Robinson's book Non-standard Ana
 
 See [[Lawvere distribution]].
 
-### Generalizations and variants
+### Currents
 
 In $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on a manifold, the distributions/generalized densities (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See V. Guillemin, S. Sternberg: _Geometric asymptotics_ ([free online](http://www.ams.org/online_bks/surv14)). While generalized functions pull back, distributions/generalized densities push forward (under some conditions, though). 
 
 More generally one can study generalized differential $k$-forms in local coordinates they look like $\sum f_\alpha dx^{\alpha_1}\wedge \cdot \wedge dx^{\alpha_k}$. Usually they are called **currents**. They are useful e.g. in the study of higher dimensional residua in higher dimensional complex geometry (cf. *Principles of algebraic geometry* by Griffiths and Harris) and in geometric measure theory (cf. the monograph by Federer).  
 
-Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of [[hyperfunction]]s and the theory of **Coulombeau distributions**. 
+### Hyperfunctions and Coulombeau distributions
 
-#### Distributions from nonstandard analysis
+Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of _[[hyperfunctions]]_ and the theory of **Coulombeau distributions**. 
+
+### Distributions from nonstandard analysis
 
 Distributions can be alterantively described using [[nonstandard analysis]], see there. 
 
-## Literature
 
-See also [[hyperfunction]] and references therein.
+## References
 
-* [[I. M. Gel'fand]], G.E. Shilov, _Generalized functions_, 1&#8211;5 , Acad. Press  (1966&#8211;1968) transl. from &#1048;. &#1052;. &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;, &#1043;. &#1045;. &#1064;&#1080;&#1083;&#1086;&#1074; &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1087;. 1-3, &#1052;.:&#1060;&#1080;&#1079;&#1084;&#1072;&#1090;&#1075;&#1080;&#1079;, 1958; 1: &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084;&#1080;, 2: &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093; &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1093; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1081;, 3: &#1053;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1091;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1081;
-* V. S. Vladimirov, _Generalized functions in mathematical physics_. Moskva, Nauka 1980, Mir 1979; _Equations of mathematical physics_, Mir 1984
-* L.V. H&#246;rmander, _The analysis of linear partial differential operators_, vol. I, Springer 1983
+### General
+
+The original articles include
 
 * [[Laurent Schwartz]], _Th&#233;orie des distributions_, 1&#8211;2 , Hermann  (1950&#8211;1951)
 
-* [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952))
+* [[I. M. Gel'fand]], G.E. Shilov, _Generalized functions_, 1&#8211;5 , Acad. Press  (1966&#8211;1968) transl. from &#1048;. &#1052;. &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;, &#1043;. &#1045;. &#1064;&#1080;&#1083;&#1086;&#1074; &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1087;. 1-3, &#1052;.:&#1060;&#1080;&#1079;&#1084;&#1072;&#1090;&#1075;&#1080;&#1079;, 1958; 1: &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084;&#1080;, 2: &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093; &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1093; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1081;, 3: &#1053;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1091;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1081;
 
-* Springer online eom: [generalized function](http://eom.springer.de/g/g043810.htm)
-* N. N. Bogolyubov, A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
+Modern accounts include
+
+* L.V. H&#246;rmander, _The analysis of linear partial differential operators_, vol. I, Springer 1983
+
+
 * M. Kunzinger, R. Steinbauer, _Foundations of a nonlinear distributional geometry_, Acta Appl. Math. __71__, 179-206 (2002)
+
 * M. Grosser, E. Farkas, M. Kunzinger, R. Steinbauer, _On the foundations of nonlinear generalized functions I, II_, Mem. Amer. Math. Soc. __153__ (2001)
 
-#### Literature on Colombeau's functions
+
+
+Applications of distributions in [[physics]] are discussed in 
+
+* V. S. Vladimirov, _Generalized functions in mathematical physics_. Moskva, Nauka 1980, Mir 1979; _Equations of mathematical physics_, Mir 1984
+
+* N. N. Bogolyubov, A. A. Logunov, I.T. Todorov, _Introduction to axiomatic quantum field theory_, Benjamin  (1975)
+
+In theorem 5.1.1 of 
+
+* [[Alfred Frölicher]], [[Andreas Kriegl]], _Linear Spaces and Differentiation Theory_, Wiley 1988. 
+
+the [[convenient vector space]] of Schwartz distributions of compact support is characterized by a [[monad|monadic]] construction.
+In generalization of this, an abstract formalization of distribiutions in [[category theory]]/[[universal algebra]] is discussed in 
+
+* [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952))
+ {#Kock11}
+
+See also 
+
+* Springer online [[eom]], _[generalized function](http://eom.springer.de/g/g043810.htm)_
+
+
+
+### On Colombeau's functions
+
+See also _[[hyperfunction]]_ and references therein.
+
 
 * J. F. Colombeau, _New generalized functions and multiplications of distributions_, North Holland, Amsterdam (1984); _Elementary introduction in new generalized functions_, North Holland (1985)
 * N. Djapi&#263;, S. Pilipovi&#263;, _Microlocal analysis of Colombeau's generalized functions on a manifold_, Indag. Math. N.S. 7, 293&#8211;309 (1996)
 * Stevan Pilipovi&#263;, Milica &#381;igi&#263;, _Suppleness of the sheaf of algebras of generalized functions on manifolds_, J. Math. Anal. Appl. __379__:2 (2011) 482&#8211;486, [arxiv/1101.4552](http://arxiv.org/abs/1101.4552), [MR2784335](http://www.ams.org/mathscinet-getitem?mr=2784335), [doi](http://dx.doi.org/10.1016/j.jmaa.2010.12.060)
 
 category: analysis
+
 [[!redirects distributions]]
 [[!redirects generalized function]]
 [[!redirects generalized functions]]
