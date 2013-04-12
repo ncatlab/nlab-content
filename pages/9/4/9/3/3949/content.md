@@ -1,6 +1,6 @@
 Interloper/dilettante. "Functional analyst", who sometimes wonders if the term meant something different in Britain that it does in North America. Keeps finding category-theoretic things all over the place in *old* analysis, never mind the brave new world of NCG, and is starting to feel that they should be collated somewhere.
 
-* [dieta dukana](http://dieta-dukanaa.pl)
+* [website](http://math.usask.ca/~choi/)
 
 ### To do list ###
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
@@ -23,9 +23,8 @@ Some things I am considering trying to write about, or contribute to. (This is m
 ### A survey paper which is more rewarding than this page ###
 J.M.F. Castillo. The hitchhiker guide to categorical Banach space theory. Part I.
 Extracta Math. 25(2) (2010), 103--149.
-[jak szybko schudnac](http://dieta-na-mase.in/jak-szybko-schudnac)
 
-(Currently freely available on the [timex](http://www.zegarek.net/zegarki/timex/index.html) )
+(Currently freely available on the [journal's website](http://www.eweb.unex.es/eweb/extracta/) )
 
 category: people
 
