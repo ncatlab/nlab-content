@@ -33,6 +33,9 @@ More generally, for $\mathcal{C}$ any other category, a functor $\Delta_+^{op} \
 
 The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[Segal conditions]]) just as the nerve of a [[category]] is a [[simplicial set]]. 
 
+### Model category structure
+
+There is a _[[model structure on semi-simplicial sets]]_, [[transferred model structure|transferred]] along the [[right adjoint]] of the [[forgetful functor]] from the [[model structure on simplicial sets]]. 
 
 ## Related concepts
 
@@ -79,6 +82,10 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 * [[Alex Heller]], _Homotopy resolutions of semi-simplicial complexes_, Transactions of the American Mathematical Society Vol. 80, No. 2 (Nov., 1955), pp. 299-344 ([JSTOR](http://www.jstor.org/stable/1992992))
 
 * James E. McClure, On semisimplicial sets satisfying the Kan condition ([ArXiv](http://arxiv.org/abs/1210.5650)).
+
+A discussion of a [[model structure on semi-simplicial sets]] is in 
+
+* [[Benno van den Berg]], _A note on semisimplicial sets_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semisimplicialsets.pdf/421930564/semisimplicialsets.pdf))
 
 See also the references at _[[semi-simplicial object]]_.
 
