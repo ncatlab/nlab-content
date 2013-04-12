@@ -105,7 +105,7 @@
 
 * [[model structure on presheaves over a test category]]
 
-* [[model structure on simplicial sets|on simplicial sets]]
+* [[model structure on simplicial sets|on simplicial sets]], [[model structure on semi-simplicial sets|on semi-simplicial sets]]
 
   * [[model structure for right fibrations|for right/left fibrations]]
 
