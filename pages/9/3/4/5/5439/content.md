@@ -63,6 +63,41 @@ such that
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In addition to the explicit $B$-linearity in the second argument under right multiplicatojn
+
+$$
+  \langle v, w \cdot b\rangle = \langle v,w\rangle \cdot b
+$$
+
+the axioms imply conjugate $B$-linearity in the first argument and under left multiplication
+
+$$
+  \langle v \cdot b,w\rangle = b^\ast \cdot \langle v,w\rangle
+  \,.
+$$
+
+Because:
+
+$$  
+  \begin{aligned}
+    \langle v \cdot b,w\rangle
+    & =
+    \langle w,  v\cdot b\rangle^\ast
+    \\
+    & = \left( \left\langle w,v\right\rangle \cdot b\right)^\ast
+    \\
+    & = b^\ast \cdot \langle w,v\rangle^\ast
+    \\
+    & = b^\ast \cdot \langle v,w\rangle
+  \end{aligned}
+  \,.
+$$
+=--
+
+
 
 ## Examples
  {#Examples}
