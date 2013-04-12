@@ -41,20 +41,77 @@ A [[isomorphism]] between two $(A,B)$-bimodules $(N_1, \langle -,-\rangle) \to (
 +-- {: .num_defn #TensorProductOfHilbertBimodules}
 ###### Definition
 
-Given an $(A,B)$-Hilbert bimodule $(N_1, \langle -,-\rangle_1)$ and a $(B,C)$-Hilbert bimodule $(N_2, \langle -,-\rangle_2)$, the **tensor product of Hilbert bimodules** $N_1 \otimes_B N_2$ is the $(A,C)$-Hilbert bimodule
+Given an $(A,B)$-Hilbert bimodule $(N_1, \langle -,-\rangle_1)$ and a $(B,C)$-Hilbert bimodule $(N_2, \langle -,-\rangle_2)$, the **tensor product of Hilbert bimodules** $N_1 \otimes_B N_2$ is the $(A,C)$-Hilbert bimodule obtained from the ordinary (algebraic) [[tensor product of modules]] over $\mathbb{C}$ $N_1 \otimes_{\mathbb{C}} N_2$ by
 
-* whose underlying topological space is the [[completion]] of the algebraic [[tensor product of modules]] with respect to 
+1. equipping it with the $C$-valued [[inner product]] defined by
 
-* the $C$-valued [[inner product]], which is
+   $$
+     \left\langle \xi_1 \otimes \eta_1 , \xi_2 \otimes \eta_2\right\rangle
+     \coloneqq
+     \left\langle \eta_1, \left\langle \xi_1, \xi_2\right\rangle \cdot \eta_2 \right\rangle
+     \,.
+   $$
 
-  $$
-    \left\langle \xi_1 \otimes \eta_1 , \xi_2 \otimes \eta_2\right\rangle
-    \coloneqq
-    \left\langle \eta_1, \left\langle \xi_1, \xi_2\right\rangle \eta_2 \right\rangle
-    \,.
-  $$
+1. forming the [[quotient]] by the submodule of elements $v$ for which $\langle v,v\rangle = 0$;
+
+1. forming the [[completion]] of this quotient with respect to the induced [[norm]].
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+Def. \ref{TensorProductOfHilbertBimodules} really does yield a kind of tensor product over $B$: elements of the form
+
+$$
+  v \cdot b \otimes w - v \otimes b \cdot w
+$$
+
+are in the submodule that it being divided out, because
+
+$$
+  \begin{aligned}
+    \langle 
+      v \cdot b \otimes w - v \otimes b \cdot w \;,\; 
+      v \cdot b \otimes w - v \otimes b \cdot w 
+    \rangle
+     & \coloneqq 
+    \langle w , \langle v \cdot b, v \cdot b\rangle \cdot w \rangle
+     \\
+     & + 
+     \langle b \cdot w, \langle v,v\rangle \cdot b \cdot w\rangle
+     \\
+     &
+     -
+     \langle w, \langle v\cdot b, v \rangle \cdot b \cdot w\rangle
+     \\
+     &
+     -
+     \langle b \cdot w, \langle v, v \cdot b \rangle \cdot w\rangle
+     \\
+     & = (1+1-1-1) \langle w , \langle v \cdot b, v \cdot b\rangle \cdot w \rangle
+
+     \\
+     & = 0
+  \end{aligned}
+  \,,
+$$
+
+where we use that by definition the left actions are required to have adjoints, so that for instance
+
+$$
+  \begin{aligned}
+    \langle b \cdot w , \langle v,v\rangle \cdot b \cdot w\rangle
+    & =
+    \langle w , b^\ast \cdot \langle v,v\rangle \cdot b \cdot t\rangle 
+    \\
+    & =    
+    \langle w , \langle v \cdot b,v \cdot b\rangle \cdot w\rangle 
+  \end{aligned}
+$$
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
