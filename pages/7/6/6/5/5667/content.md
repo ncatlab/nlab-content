@@ -26,9 +26,9 @@
 
 _KK-theory_ is a "bivariant" joint generalization of [[operator K-theory]] and [[K-homology]]: for $A, B$ two [[C*-algebras]], the _KK-group_ $KK(A,B)$ is a natural [[homotopy]] [[equivalence class]] of $(A,B)$-[[Hilbert bimodules]] equipped with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]]/[[operator K-theory]] of $B$.
 
-Abstractly, KK-theory is an [[additive category]] of [[C*-algebras]] which is the split-[[exact functor|exact]] and [[homotopy]]-invariant [[localization]] of [[C*Alg]] at the [[compact operators]]. Hence, abstractly KK-theory is fundamental notion in [[noncommutative topology]], but its standard presentation by [[Fredholm module|Fredolm]]-[[Hilbert bimodules]] as above is rooted in [[functional analysis|functional]] [[analysis]].
+Abstractly, KK-theory is an [[additive category]] of [[C*-algebras]] which is the split-[[exact functor|exact]] and [[homotopy]]-invariant [[localization]] of [[C*Alg]] at the [[compact operators]]. Hence, abstractly KK-theory is a fundamental notion in [[noncommutative topology]], but its standard presentation by [[Fredholm module|Fredolm]]-[[Hilbert bimodules]] as above is rooted in [[functional analysis|functional]] [[analysis]]. A slight variant of this localization process is called _[[E-theory]]_.
 
-Accordingly, KK-theory is a natural home of [[index theory]], for [[elliptic operators]] on [[smooth manifolds]] as well as for their generalization to [[equivariant cohomology|equivariant]] situations, to [[foliations]] and generally to [[Lie groupoid]]-theory (via their [[groupoid convolution C*-algebras]]) and [[noncommutative geometry]].
+Due to this joint root in [[functional analysis]] and ([[noncommutative topology|noncommutative]]) [[cohomology]]/[[homotopy theory]], KK-theory is a natural home of [[index theory]], for [[elliptic operators]] on [[smooth manifolds]] as well as for their generalization to [[equivariant cohomology|equivariant]] situations, to [[foliations]] and generally to [[Lie groupoid]]-theory (via their [[groupoid convolution C*-algebras]]) and [[noncommutative geometry]].
 
 As a special case of this, [[quantization]] in its incarnation as [[geometric quantization by push-forward]] has been argued to naturally proceed by [[index theory]] in KK-theory ([Landsman 03](#Landsman03), [Bos 07](#Bos07)). Also the coupling of [[D-branes]] and their [[Chan-Paton bundles]] in [[twisted K-theory]] with [[RR-charge]] in [[string theory]] is naturally captured by the coupling between [[K-homology]] and [[K-cohomology]] in KK-theory (e.g. [Szabo 08](#Szabo)).
 
@@ -234,7 +234,7 @@ This is due to ([Higson 87, theorem 4.5](#Higson)). The generalization to the eq
 +-- {: .num_cor }
 ###### Corollary
 
-The minimal [[tensor product of C-star algebras]]
+The minimal [[tensor product of C-star-algebras]]
 
 $$
   \otimes \colon C^\ast Alg \times C^\ast Alg \to C^\ast Alg
@@ -256,6 +256,8 @@ $$
 =--
 
 ([Higson 87, theorem 4.8](#Higson))
+
+For more discussion of more explicit presentations of this [[localization]] process for obtaining KK-theory see at _[[homotopical structure on C*-algebras]]_ and also at _[[model structure on operator algebras]]_.
 
 ### Relation to homotopy-classes of $\ast$-homomorphisms
  {#RelationToHomotopyClassesOfStarHomomorphisms}
@@ -378,7 +380,7 @@ $KK$ is excisive for [[K-nuclear C*-algebras]] in the first argument.
 +-- {: .num_remark }
 ###### Remark
 
-It is not expected that excision is satisfied fully generally by $KK$. Instead, the [[universal completion|universal]] improvement of $KK$-theory under excision can be constructed. This is called _[[E-theory]]_. See there for more.
+It is not expected that excision is satisfied fully generally by $KK$. Instead, the [[universal property|universal]] improvement of $KK$-theory under excision can be constructed. This is called _[[E-theory]]_. See there for more.
 
 =--
 
