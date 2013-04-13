@@ -19,11 +19,29 @@
 
 A _contact manifold_ is a [[smooth manifold]] $P$ of odd [[dimension]] $2n+1$ which is equipped with a [[differential form|differential 1-form]] $A$ that is non-degenrate in the sense that the [[wedge product]] $A \wedge (d_{dR} A)^{\wedge^n}$ does not vanish.
 
-The special case of _regular_ contact manifolds $(P,A)$ are essentially equivalent to the total spaces of [[circle bundles]] $P \to X$ over an $2n$-dimensional manifold equipped with a [[connection on a bundle|connection]] such that $A$ is the corresponding [[Ehresmann connection]] 1-form on the total space ([BoothbyWang (1958)](#BoothbyWang)). 
+The special case of [[closed manifold|closed]] _regular_ contact manifolds $(P,A)$ are essentially equivalent to the total spaces of [[circle bundles]] $P \to X$ over an $2n$-dimensional manifold equipped with a [[connection on a bundle|connection]] such that $A$ is the corresponding [[Ehresmann connection]] 1-form on the total space ([BoothbyWang (1958)](#BoothbyWang)). 
 
 If in this case the [[curvature]] 2-form $\omega$ on $X$ makes the base space $X$ into a [[symplectic manifold]], then $(P,A)$ is a corresponding [[prequantum circle bundle]] that provides a [[geometric prequantization]] of $(X,\omega)$. 
 
 A [[diffeomorphism]] $f : P \to P$ of a contact manifold $(P,A)$ is called a _contactomorphism_ (in analogy with _[[symplectomorphism]]_) if it preserves the 1-form $A$ up to multiplication by a function. If $(P,A)$ is regular and hence a [[prequantum line bundle]] a contactomorphism that strictly preserves the connection 1-form is called a _[[quantomorphism]]_. The [[Lie algebra]] of the [[quantomorphism group]] is that of the [[Poisson algebra]] of the base symplectic manifold $(X,\omega)$. 
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+
+If $X$ is a [[closed manifold|closed]] [[smooth manifold]], $P \to X$ a smooth [[circle bundle]] ($U(1)$-[[principal bundle]]) and $\omega \in \Omega^2(X)$ a [[differential 2-form]] representing its [[Chern class]] in [[de Rham cohomology]], then there is a corresponding [[Ehresmann connection]] 1-form $A \in \Omega^1(P)$ with [[curvature]] $\omega$ and such that
+
+1. $A$ is a regular contact form on $P$;
+
+1. the [[Reeb vector field]] of $A$ generates the given $U(1)$-[[action]] on $P$.
+
+Moreover, every regular contact form $A$ on a closed manifold $P$ arises this way, up to rescaling by a constant.
+
+=--
+
+This is due to ([Boothby-Wang 58](#BoothbyWang)). The proof is recalled (and completed) in ([Geiges 08, theorem 7.2.4, 7.2.5](#Geiges)).
+
 
 ## History
  {#History}
