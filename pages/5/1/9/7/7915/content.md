@@ -52,7 +52,7 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 Monographs and introductions include 
 
-* [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109 (Cambridge University Press, Cambridge, 2008).
+* [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([pdf](http://www.cmi.ac.in/~aneesh/textbooks/Geiges.pdf))
  {#Geiges}
 
 * Xiao-Song Lin, _An introduction to 3-dimensional contact geometry_ ([pdf](http://math.ucr.edu/~xl/contact.pdf))
