@@ -31,7 +31,7 @@ Under the canonical [[representation]] $\mathbf{B}U(1) \to Vect_{\mathbb{C}}$ th
 
 ## Related concepts
 
-* [[circle bundle with connection]], [[contact manifold]]
+* [[circle bundle with connection]], [[regular contact manifold]]
 
 * [[prequantum circle bundle]]
 
