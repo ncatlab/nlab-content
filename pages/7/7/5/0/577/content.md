@@ -44,7 +44,7 @@ T E &&&& E'.
 
 This won't in general be a bicategory without a few extra assumptions. Identity spans are defined using the unit $\eta: \mathrm{Id}\to T$. Composition of spans is defined using [[pullbacks]] and the multiplication $\mu: T^2\to T$, so the category $\mathcal{E}$ must at least have pullbacks--usually it will be [[finitely complete category|finitely complete]]. The associativity and unit $2$-cells are defined using the universal property of the pullbacks. However, these $2$-cells won't in general be invertible. In fact, it turns out that requiring the monad $T$ to be _cartesian_ is exactly what is needed to ensure that the coherence $2$-cells are isomorphisms, and hence that $T$-spans do in fact form a bicategory. Maybe this should be the "fundamental theorem of cartesian monads".
 
-Extending B&#233;nabou's observation that a [[small category]] is a monad in the bicategory of spans of sets, Burroni defined  $T$-multicategories as _monads in the bicategory_ $\mathcal{E}_{(T)}$ from above. When $T$ is the [[identity monad]] on $\mathrm{Set}$, $T$-multicategories reduce to small categories, and when $T$ is the free monoid monad on $\mathrm{Set}$, $T$-multicatories are exactly ordinary small multicategories.
+Extending B&#233;nabou's observation that a [[small category]] is a monad in the bicategory of spans of sets, [[Burroni]] defined  $T$-multicategories as _monads in the bicategory_ $\mathcal{E}_{(T)}$ from above. When $T$ is the [[identity monad]] on $\mathrm{Set}$, $T$-multicategories reduce to small categories, and when $T$ is the free monoid monad on $\mathrm{Set}$, $T$-multicatories are exactly ordinary small multicategories.
 
 As an indication of how this theory is useful as a language for higher categories, take $T$ to be the free [[strict ∞-category]] monad on the category of [[globular set]]s. Then $T$-multicategories with exactly one object are called [[globular operad]]s, and Leinster defines one such globular operad (the initial "globular operad with contraction") for which the algebras are [[weak ∞-categories]].
 
@@ -133,7 +133,7 @@ To every non-symmetric [[operad]], hence to every [[multicategory]] is associate
   section 4.1
   {#Leinster}
 
-* A. Burroni, _$T$-cat&#233;gories (cat&#233;gories dans un triple)_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 12 no. 3 (1971), p. 215-321 ([numdam](http://www.numdam.org/item?id=CTGDC_1971__12_3_215_0))
+* [[Albert Burroni]], _$T$-cat&#233;gories (cat&#233;gories dans un triple)_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 12 no. 3 (1971), p. 215-321 ([numdam](http://www.numdam.org/item?id=CTGDC_1971__12_3_215_0))
 
 * [blog comment](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025402) giving the Motivation above
 
