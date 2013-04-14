@@ -61,6 +61,7 @@ A __[[group]]__ is an associative loop.
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
 
+See also [[Moufang loop]].
 
 ## Applications
 
