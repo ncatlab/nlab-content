@@ -55,7 +55,7 @@ Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits
 +-- {: .proof}
 ###### Proof
 
-That a 3-manifold $X$  is orientable means that we have a [[reduction of the structure group]] of the tangent bundle to the [[special orthogonal group]], and hence the tangent bundle is classified by a map $X \to B SO(3)$. But since $SO(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every moprhism out of a 3-dimensional manifold into it is homotopically constant.
+That a 3-manifold $X$  is orientable means that we have a [[reduction of the structure group]] of the tangent bundle to the [[special orthogonal group]], and hence the tangent bundle is classified by a map $X \to B SO(3)$. But since $SO(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
 
 =--
 
@@ -64,11 +64,11 @@ That a 3-manifold $X$  is orientable means that we have a [[reduction of the str
 
 The $n$-[[spheres]] that admit a framing are precisely only
 
-* the 1-sphere $S^1$, the [[circle]] underlying the [[circle group]]
+* the 1-sphere $S^1$, the [[circle]] underlying the [[circle group]] (the unit [[complex numbers]]);
 
-* the 3-sphere $S^3$, underlying the [[special unitary group]] $SU(2)$;
+* the 3-sphere $S^3$, underlying the [[special unitary group]] $SU(2)$, is isomorphic to the unit [[quaternions]];
 
-* the 7-sphere $S^7$.
+* the 7-sphere $S^7$, which underlies a [[Moufang loop]] internal to [[Diff]], namely the unit [[octonions]].
 
 =--
 
