@@ -156,7 +156,7 @@
 
     related by the [[monoidal Dold-Kan correspondence]]
 
-  * [[model structure for L-∞ algebras|for L-∞ algebras]] [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
+  * [[model structure for L-∞ algebras|for L-∞ algebras]]: [[model structure on dg-Lie algebras|on dg-Lie algebras]],  [[model structure on dg-coalgebras|on dg-coalgebras]], [[model structure on simplicial Lie algebras|on simplicial Lie algebras]]
 
 * [[model structure on dg-modules]]
 
