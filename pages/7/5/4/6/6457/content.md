@@ -37,6 +37,13 @@ between simplicial Lie algebras (over a [[field]] $k$) and [[dg-Lie algebra]]s, 
 
 This is ([Quillen, prop. 4.4](#Quillen)).
 
++-- {: .num_remark}
+###### Remark
+
+There is a standard structure of a [[category of weak equivalences]] on both these categories, hence there are corresponding [[homotopy categories]]. (See also at _[[model structure on simplicial Lie algebras]]_ and _[[model structure on dg-Lie algebras]]_.) The following asserts that the above adjunction is compatible with this structure.
+
+=--
+
 +-- {: .num_theorem}
 ###### Theorem
 
