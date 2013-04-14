@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
@@ -54,6 +58,8 @@ There is also a [[Quillen equivalence]] from the model structure on dg-Lie algeb
 ## Related concepts
 
 * [[model structure on dg-coalgebras]]
+
+* [[model structure on simplicial Lie algebras]]
 
 * [[model structure for L-∞ algebras]]
 
