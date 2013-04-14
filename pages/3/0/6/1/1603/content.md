@@ -65,8 +65,37 @@ See also [[Moufang loop]].
 
 ## Applications
 
-Quasigroups have applications to the study of [[Latin square]]s (basically the 'sudoku squares' from the quotation above).
+Quasigroups have applications to the study of [[Latin square]]s (basically the 'sudoku squares' from the quotation above). 
 
+As a sample of centipede mathematics, we have the following result on smooth quasigroups, i.e., quasigroups internal to the category of [[smooth manifolds]]: 
+
++-- {: .num_prop} 
+###### Proposition 
+The tangent bundle of a smooth quasigroup $Q$ is trivial. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose WLOG that $Q$ is inhabited by an element $x$, and let $V = T_x(Q)$ be the tangent space at $x$. Define a map 
+
+$$Q \times V \to T Q: (y, v) \mapsto (d L_y)(v)$$ 
+
+where $L_y: Q \to Q$ is the smooth map $z \mapsto y z$. The inverse of this map is the map 
+
+$$T Q \to Q \times V: w \mapsto \langle K(\pi(w)), (d J)_{\pi(w)}(w) \rangle$$ 
+
+where $K(z) = z/x$ and $J(z) = K(z)\backslash z$. Notice that 
+
+$$K(\pi ((d L_y)(v)) = K(L_y (\pi (v))) = K(L_y(x)) = K(y x) = (y x)/x = y$$ 
+
+and 
+
+$$(d J)_{\pi(d L_y(v))}(d L_y(v)) = (d J)_{y x}(d L_y(v)) = d(J \circ L_y)_x(v)$$ 
+
+where $(J \circ L_y)(x) = J(y x) = ((y x)/x)\backslash (y x) = y \backslash (y x) = x$. 
+
+(Needs more checking here.) 
+=--  
 
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
