@@ -1,0 +1,10 @@
+
+* [webpage](http://www.math.nmsu.edu/~jharding/)
+
+## related entries
+
+* [[poset of commutative subalgebras]]
+
+category: people
+
+[[!redirects J. Harding]]
