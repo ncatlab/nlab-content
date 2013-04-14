@@ -78,23 +78,13 @@ The tangent bundle of a smooth quasigroup $Q$ is trivial.
 ###### Proof 
 Suppose WLOG that $Q$ is inhabited by an element $x$, and let $V = T_x(Q)$ be the tangent space at $x$. Define a map 
 
-$$Q \times V \to T Q: (y, v) \mapsto (d L_y)(v)$$ 
+$$\phi \colon Q \times V \to T Q: (y, v) \mapsto (d (K \circ L_y))(v)$$ 
 
-where $L_y: Q \to Q$ is the smooth map $z \mapsto y z$. The inverse of this map is the map 
+where $L_y: Q \to Q$ is the smooth map $z \mapsto y z$ and $K: Q \to Q$ is the map $z \mapsto z/x$. The map $\phi$ commutes with the bundle projections $\pi_Q: Q \times V \to Q$, $\pi: T Q \to Q$. The map $K$ has an inverse $J: z \mapsto z x$ and each map $L_y$ has an inverse $M_y: z \mapsto y \backslash z$. We may therefore write down an inverse to $\phi$: 
 
-$$T Q \to Q \times V: w \mapsto \langle K(\pi(w)), (d J)_{\pi(w)}(w) \rangle$$ 
+$$T Q \to Q \times V: w \mapsto (\pi(w), d(M_{\pi(w)} \circ J))(w)).$$ 
 
-where $K(z) = z/x$ and $J(z) = K(z)\backslash z$. Notice that 
-
-$$K(\pi ((d L_y)(v)) = K(L_y (\pi (v))) = K(L_y(x)) = K(y x) = (y x)/x = y$$ 
-
-and 
-
-$$(d J)_{\pi(d L_y(v))}(d L_y(v)) = (d J)_{y x}(d L_y(v)) = d(J \circ L_y)_x(v)$$ 
-
-where $(J \circ L_y)(x) = J(y x) = ((y x)/x)\backslash (y x) = y \backslash (y x) = x$. 
-
-(Needs more checking here.) 
+This shows $T Q$ is isomorphic to the product bundle $Q \times V$. 
 =--  
 
 [[!redirects quasigroup]]
