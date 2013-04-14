@@ -21,8 +21,9 @@ See also [wikipedia:Legendre transformation](http://ncatlab.org/nlab/edit/Legend
 
 ## References 
 
-Discussion of Legendre transformation in the context of [[Lie algebroids]] is in:
+* Torontowiki: [Legendre Transformation](http://wiki.math.toronto.edu/TorontoMathWiki/index.php/Legendre_Transformation)
 
+Discussion of Legendre transformation in the context of [[Lie algebroids]] is in:
 
 * Paulette Liberman, _Lie algebroids and mechanics_ ([ps](http://emis.math.ecnu.edu.cn/journals/AM/96-3/liber.ps))
 
@@ -30,5 +31,6 @@ Discussion of Legendre transformation in the context of [[Lie algebroids]] is in
 
 * Juan Carlos Marrero, _Nonholonomic mechanics: a Lie algebroid perspective_ ([pdf talk notes](http://www.gmcnetwork.org/files/eia08/talks/Talk-Santiago08-JuanCarlosMarrero.pdf))
 
+category: physics
 
 [[!redirects Legendre transform]]
