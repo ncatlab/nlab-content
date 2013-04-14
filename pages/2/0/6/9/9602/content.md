@@ -1,0 +1,31 @@
+[[!redirects model structures on simplicial Lie algebras]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[model structure on simplicial algebras]] for [[simplicial Lie algebras]].
+
+## Related concepts
+
+* [[model structure on dg-Lie algebras]]
+
+* [[model structure for L-infinity algebras]]
+
