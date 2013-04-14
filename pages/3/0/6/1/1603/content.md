@@ -1,8 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A _quasigroup_ is a generalization of a [[group]] without the associativity law or identity element.   A quasigroup with identity is called a _loop_.
+The notion of _quasigroup_ is a generalization of that of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_.
 
-Note that, in the absence of associativity, it\'s not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
+Note that, in the absence of associativity, it is not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
 Some consider the concept of quasigroup to be an example of [[centipede mathematics]] and uninteresting due to their lack of deep applications.  For example, one mathematician has written:
 
