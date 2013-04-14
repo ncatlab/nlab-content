@@ -19,7 +19,7 @@ The __octonions__ form the largest of the four [[normed division algebra]]s, den
 
 ## Properties
 
-The octonions are _not_ an [[associative algebra]].
+The octonions are _not_ an [[associative algebra]]. The _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
 
 The [[automorphism group]] of the octonions is [[G2]].
 
