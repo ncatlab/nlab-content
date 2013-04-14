@@ -683,6 +683,9 @@ We need to show that the [[pullback]] of a weak equivalence $w$ along a fibratio
 
 * [[model structure on dg-Lie algebras]]
 
+
+* [[model structure on simplicial Lie algebras]]
+
 * [[deformation theory]]
 
   * [[Lie differentiation]]
