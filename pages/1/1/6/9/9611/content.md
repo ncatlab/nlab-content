@@ -12,7 +12,7 @@ A general result about the existence of code loops is as follows.
 +-- {: .num_theorem}
 ###### Theorem
 ([Griess](#Griess)).
-Every doubly even binary code has a unique extension by a code loop.
+Every doubly even binary code has a unique extension by a non-associative Moufang loop.
 =--
 
 This can be seen as a result about the cohomology used to define code loops, namely that it is isomorphic to $\mathbb{Z}/2$ (one always has the trivial extension, which is just a group).
