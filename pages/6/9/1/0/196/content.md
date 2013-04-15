@@ -61,6 +61,8 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 ## Related concepts
 
+* [[map]]
+
 * [[function set]]
 
 * [[function algebra]], [[pullback of functions]]
@@ -84,11 +86,6 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 [[!redirects function]]
 [[!redirects functions]]
-
-[[!redirects map]]
-[[!redirects maps]]
-[[!redirects mapping]]
-[[!redirects mappings]]
 
 [[!redirects total function]]
 [[!redirects total functions]]
