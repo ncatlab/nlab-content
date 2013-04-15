@@ -44,7 +44,7 @@ This means that all the way up to the 15 [[coskeleton]] the group $E_8$ looks, [
 
 ### Invariant polynomials
 
-By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]) that the first [[invariant polynomials]] on the [[Lie algebra]] $\mathfrak{e}_8$ are the quadratic [[Killing form]] and then next an octic polynomial. That is described in ([Cederwall-Palmkvist](CederwallPalmkvist)).
+By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]) that the first [[invariant polynomials]] on the [[Lie algebra]] $\mathfrak{e}_8$ are the quadratic [[Killing form]] and then next an octic polynomial. That is described in ([Cederwall-Palmkvist](#CederwallPalmkvist)).
 
 
 ## Related entries
@@ -85,6 +85,7 @@ The higher homotopy groups are discussed in
 
 See also
 
+
 * [[André Henriques]], [MO comment](http://mathoverflow.net/questions/52286/how-are-the-classifying-space-of-e-8-and-k-mathbbz-4-related/52321#52321) 
 
 ### Invariant polynomials
@@ -92,3 +93,4 @@ See also
 The octic [[invariant polynomial]] is discussed in 
 
 * [[Martin Cederwall]], Jakob Palmkvist, _The octic $E_8$ invariant_ J.Math.Phys.48:073505 (2007) ([arXiv:hep-th/0702024](http://arxiv.org/abs/hep-th/0702024))
+{#CederwallPalmkvist}
