@@ -1,85 +1,98 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-
 # Separators
 * table of contents
 {: toc}
+
 ## Idea
 
-An [[object]] $U$ in a [[category]] $\mathcal{C}$ is called a _separator_ if [[generalized elements]] of domain $U$ are sufficient to distinguish [[morphisms]] in $\mathcal{C}$.
+An [[object]] $U$ (or family $\mathcal{U}$ of objects) in a [[category]] $\mathcal{C}$ is called a _separator_ or _generator_ if [[generalized elements]] with [[domain]] $U$ (or domain from $\mathcal{U}$) are sufficient to distinguish [[morphisms]] in $\mathcal{C}$.
 
-## Definition
+The [[duality|dual]] notion is that of a _[[coseparator]]_.
+
+
+## Definitions
 
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $U \in \mathcal{C}$ of a [[locally small category]] $\mathcal{C}$ is called a **separator** or a **separating object** or is said to **separate morphisms** (or sometimes [[separator]]) if the [[hom functor]] $Hom(U,-) \colon \mathcal{C} \to $ [[Set]] is a [[faithful functor]]. 
-
-This means equivalently that for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$ we have that if $\forall_{U \stackrel{e}{\to} X}: u \circ f = u \circ g$ then $f = g$.
-
+An [[object]] $U \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ is called a __separator__ or a __generator__ or a __separating object__ or a __generating object__ or is said to __separate morphisms__ if:
+* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if
+  * for every morphism $e\colon U \to X$,
+  * $u \circ f = u \circ g$,
+* then $f = g$.
 =--
+
+Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently say that $U$ is a separator if the [[hom functor]] $Hom(U,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
+
 
 More generally:
 
 +-- {: .num_defn}
 ###### Definition
 
-A __separating family__ of objects in $\mathcal{C}$ is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $\mathcal{C}$ such that the family $C(S_a,-)$ is jointly faithful. 
-
-This means that if $f_1,f_2\in C(X,Y)$ are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
-
-$$ 
-  \forall (a: A),\; \forall (\theta: S_a \to X),\; 
-  f_1 \circ \theta = f_2 \circ \theta 
-$$ 
-
-then $f_1 = f_2$.
-
+A [[family]] $\mathcal{U} = (U_a ;|; a\colon A)$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
+* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if
+  * for every index $a$ and every morphism $e\colon U_a \to X$,
+  * $u \circ f = u \circ g$,
+* then $f = g$.
 =--
 
-The dual notion is _[[coseparator]]_.
+Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently say that $\mathcal{U}$ is a separating family if the family of [[hom functors]] $Hom(U_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
+
+Since repetition is irrelevant in a separating family, we may also speak of a _separating [[class]]_ instead of a separating family.
+
++-- {: .num_defn}
+###### Definition
+
+A __separating set__ is a [[size issues|small]] separating class.
+=--
 
 
 ## Examples and applications
 
-* In [[Set]], the [[point]] is a separator.  More generally, in any [[well-pointed category]], $1$ is a separator.  More generally still, in any [[concrete category]], the representing object is a separator.
+* In [[Set]], any [[inhabited set]] is a separator; in particular, the [[point]] is a separator.
 
-* For $R$ a [[ring]] a separator for the category $R$[[Mod]] of modules is any [[free module]] over $R$.
+*  More generally, in any [[well-pointed category]], any [[terminal object]] is a separator.  More generally still, in any represented [[concrete category]], the representing object is a separator.
 
-
+* For $R$ a [[ring]], any [[free module]] on an inhabited set is a separator for the category $R$[[Mod]] of [[modules]] over $R$.
 
 
 ## Related concepts
-
 
 * [[cogenerator]]
 
 * [[coseparator]]
 
 
-[[!redirects separating family]]
-[[!redirects separating families]]
+[[!redirects separator]]
+[[!redirects separators]]
+[[!redirects generator]]
+[[!redirects generators]]
+
+[[!redirects strong separator]]
+[[!redirects strong separators]]
+[[!redirects strong generator]]
+[[!redirects strong generators]]
 
 [[!redirects separating set]]
-[[!redirects strong separator]]
-[[!redirects separators]]
-
-
-
+[[!redirects separating sets]]
+[[!redirects generating set]]
+[[!redirects generating sets]]
+[[!redirects separating class]]
+[[!redirects separating classes]]
+[[!redirects generating class]]
+[[!redirects generating classes]]
+[[!redirects separating family]]
+[[!redirects separating families]]
 [[!redirects generating family]]
 [[!redirects generating families]]
-
-[[!redirects generating set]]
-[[!redirects strong generator]]
-[[!redirects generators]]
