@@ -1,22 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _operation tangent space_ of a [[generalized smooth space]] at some point is given by the [[derivations]] of the [[algebra of functions|algebra]] of [[smooth functions]]. This generalizes the notion of [[tangent space]] of a [[differentiable manifold]]. The alternative notion is that of the [[kinematic tangent space]], which for differentiable manifolds coincides, but more generally need not.
+To define the [[tangent space]] of a [[smooth manifold]], one may equivalently use [[curves]] or [[derivations]] of the [[algebra of functions|algebra]] of [[smooth functions]].  For more general [[smooth spaces]], these are no longer equivalent.
+
+The _operational tangent space_ of a [[generalized smooth space]] (at some point $c$) is the space of [[derivations]] of the [[algebra of functions|algebra]] of [[germs]] (at $c$) of [[smooth functions]].
+
+The alternative notion (using curves) is that of the [[kinematic tangent space]].
+
 
 ## Related concepts
 
@@ -25,6 +29,8 @@ A _operation tangent space_ of a [[generalized smooth space]] at some point is g
 * [[Kähler differentials]]
 
 
+[[!redirects operational tangent space]]
 [[!redirects operational tangent spaces]]
+
 [[!redirects operational tangent bundle]]
 [[!redirects operational tangent bundles]]
