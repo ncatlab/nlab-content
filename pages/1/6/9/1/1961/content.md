@@ -178,7 +178,7 @@ Further discussion of axiomatizations in this context is in
 
 Discussion for [[diffeological spaces]] is in 
 
-* Carlos Torre, _A tangent bundle for diffeological spaces_ ([arXiv:math/9801046](arxiv.org/abs/math/9801046))
+* Carlos Torre, _A tangent bundle for diffeological spaces_ ([arXiv:math/9801046](http://arxiv.org/abs/math/9801046))
 
 [[!redirects tangent vector]]
 [[!redirects tangent space]]
