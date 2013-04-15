@@ -153,7 +153,7 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 
 ## Related concepts
 
-* [[kinematic tangent bundle]], [[operational tangent bundle]]
+* [[synthetic tangent bundle]], [[kinematic tangent bundle]], [[operational tangent bundle]]
 
 * [[cotangent bundle]]
 * [[normal bundle]]
