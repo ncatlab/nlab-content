@@ -34,7 +34,7 @@ Moufang loops are _power associative_, in that any bracketing of a string consis
 
 * The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
 
-* There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. Conway's Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$.
+* There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. This Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$.
 
 See the [English Wikipedia page](http://en.wikipedia.org/wiki/Moufang_loop) for more examples.
 
