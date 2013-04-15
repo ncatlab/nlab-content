@@ -5,7 +5,7 @@
 
 ## Overview
 
-A **code loop** is a certain sort of [[Moufang loop]] constructed as a central extension of certain vector spaces over the [[finite field]] $\mathbb{F}_2$. In particular, such vector spaces are taken to be doubly even [[binary code]]s.
+A **code loop** is a certain sort of [[Moufang loop]] constructed as a central extension of certain vector spaces over the [[finite field]] $\mathbb{F}_2$. In particular, such vector spaces are taken to be doubly even [[binary linear code]]s.
 
 A general result about the existence of code loops is as follows.
 
