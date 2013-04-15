@@ -20,7 +20,7 @@ A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \
 
 Every element in a Moufang loop has a multiplicative inverse; a priori there are only left and right inverses, but these coincide by the Moufang identities.
 
-Since right and left multiplication give isomorphisms of the underlying set, one can 'divide' by any element of the Moufang loop, on the right or on the left (recall we are not assuming commutativity). Thus one can define a Moufang loop as a set together with a multiplication as above, together with right and left division operations $/, \backslash \colon Q\times Q \to Q$.
+Since right and left multiplication give isomorphisms of the underlying set, one can 'divide' by any element of the Moufang loop, on the right or on the left (recall we are not assuming commutativity). Thus one can define a Moufang loop as a set together with a multiplication as above, together with right and left division operations $/, \backslash \colon Q\times Q \to Q$, again satisfying the Moufang identities. Thus Moufang loops are algebras for a [[Lawvere theory]], and thus can be defined [[internalization|internal]] to any category with [[finite products]].
 
 Moufang loops are _power associative_, in that any bracketing of a string consisting of copies of the same element multiply to a unique element. In fact, more is true, in that any two elements generate a genuine group.
 
@@ -30,7 +30,7 @@ Moufang loops are _power associative_, in that any bracketing of a string consis
 
 * Any group is a Moufang loop.
 
-* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of _unit_ octonions.
+* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of octonions of norm 1.
 
 * The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
 
