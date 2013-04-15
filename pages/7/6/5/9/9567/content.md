@@ -19,3 +19,6 @@ The sum of a series is a limit of its sequence of partial sums if this sequence 
 
 
 category: analysis
+
+[[!redirects series]]
+[[!redirects infinite series]]
