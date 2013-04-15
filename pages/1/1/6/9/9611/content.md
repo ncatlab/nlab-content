@@ -10,7 +10,8 @@ A **code loop** is a certain sort of [[Moufang loop]] constructed as a central e
 A general result about the existence of code loops is as follows.
 
 +-- {: .num_theorem}
-###### Theorem ([Griess](#Griess))
+###### Theorem
+([Griess](#Griess)).
 Every doubly even binary code has a unique extension by a code loop.
 =--
 
