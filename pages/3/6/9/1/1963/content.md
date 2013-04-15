@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Disambiguation
@@ -270,7 +270,13 @@ $$
     g_1(x_0) \delta(g_2(x_0)) = 0
   \,.
 $$
+
 =--
+
+## Related concepts
+
+* [[operational tangent space]]
+
 
 ## References
 
