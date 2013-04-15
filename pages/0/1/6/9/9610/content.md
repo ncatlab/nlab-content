@@ -1,6 +1,6 @@
 ## Idea
 
-The binary Golay code is an [[abelian group]] which is a 12-dimensional subspace of the [[vector space]] $\mathbb{F}_2^{24}$. It is used in coding theory and the theory of [[sporadic finite simple groups]].
+The binary Golay code is an [[abelian group]] which is a 12-dimensional subspace of the [[vector space]] $\mathbb{F}_2^{24}$. It is used in coding theory (see [[binary linear code]]) and the theory of [[sporadic finite simple groups]].
 
 ## Definition
 
