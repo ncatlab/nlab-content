@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -31,7 +30,7 @@ Moufang loops are _power associative_, in that any bracketing of a string consis
 
 * Any group is a Moufang loop.
 
-* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of unit quaternions.
+* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of _unit_ octonions.
 
 * The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
 
