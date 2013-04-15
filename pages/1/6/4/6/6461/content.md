@@ -85,6 +85,7 @@ In the following we shall concentrate on the first kinematic tangent space.
 =--
 ## Properties ## {: .num_section}
 
+
 In this section, we shall gather various results on kinematic tangent spaces that will be of use elsewhere.
 
 Because the kinematic tangent space is defined using curves, it has nice properties with respect to limits and mapping spaces. However, as it also uses quotients, these properties are not necessarily as nice as they could be.
@@ -146,6 +147,14 @@ T C^{\infty } (S,X) \to C^{\infty } (S, T X)
 $$
 as required.
 =--
+
+
+## Related concepts
+
+* [[operational tangent bundle]]
+
+* [[synthetic tangent bundle]]
+
 
 ## References ##
 
