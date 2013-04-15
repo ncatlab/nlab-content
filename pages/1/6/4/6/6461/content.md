@@ -1,6 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 <a id="DocStart"></a>
 
-* tic
+#Contents#
+* table of contents
 {: toc}
 
 +-- {: .num_section #sectiona }
@@ -135,3 +147,7 @@ as required.
 ## References ##
 
 * {: #citeMR53283} **Spi79** Michael Spivak. A comprehensive introduction to differential geometry. Vol. I. Wilmington, Del., 1979.
+
+[[!redirects kinematic tangent spaces]]
+[[!redirects kinematic tangent bundle]]
+[[!redirects kinematic tangent bundles]]
