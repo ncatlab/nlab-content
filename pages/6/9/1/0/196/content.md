@@ -34,9 +34,6 @@ In this generalized sense, functions between sets are the [[morphisms]] in the [
 For more on this more general use of "function" see at _[[function type]]_.
 
 
-
-
-
 ## Foundations
 
 The formal definition of a function depends on the [[foundations]] chosen.
@@ -56,9 +53,11 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 \[ x = y \Rightarrow f(x) = f(y) .\]
 
+
 ## For classes
 
 See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
+
 
 ## Related concepts
 
@@ -83,10 +82,13 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 * [[(∞,n)-functor]]
 
 
-
-
 [[!redirects function]]
 [[!redirects functions]]
+
+[[!redirects map]]
+[[!redirects maps]]
+[[!redirects mapping]]
+[[!redirects mappings]]
 
 [[!redirects total function]]
 [[!redirects total functions]]
