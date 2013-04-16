@@ -1,0 +1,5 @@
+* wikipedia [quantifier elimination](http://en.wikipedia.org/wiki/Quantifier_elimination)
+* Wilfrid Hodges, _Model Theory_, Cambridge University Press 1993
+
+category: logic, model theory
+[[!redirects quantifier elimination]]
