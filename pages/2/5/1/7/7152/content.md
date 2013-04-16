@@ -54,6 +54,8 @@ Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 * [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
+* [[Tomer Schlank]], [[Alexei Skorobogatov]], _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
+
 
 [[!redirects étale homotopy theory]]
 
