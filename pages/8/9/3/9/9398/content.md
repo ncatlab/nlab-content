@@ -1,0 +1,1 @@
+[[!redirects simplicial Quillen adjunctio]]
