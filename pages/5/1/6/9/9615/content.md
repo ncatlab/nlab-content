@@ -1,26 +1,92 @@
-## Definitions 
+# Contents #
+* table of contents 
+{: toc}
 
-A ($q$-ary) **linear code** is a finite-dimensional subspace over a [[finite set|finite]] [[field]] $\mathbb{F}_q$ with $q$ elements. A principal application is in the construction of [[error-correcting code]]s, which are certain algorithms for encoding messages with some added redundancy, that allow for automatic corrections of transmitted messages over noisy channels without the need for retransmission. 
+## Definitions and framework 
 
-A **(binary linear) code** is a finite-dimensional [[vector space]] over the [[field]] $\mathbb{F}_2$ of two elements. A bilinear linear code is usually construed as a subspace of a finite power set $P(\Omega)$, consider as an $\mathbb{F}_2$-space whose addition is given by taking the symmetric difference of sets. 
+A ($q$-ary) **linear code** of length $n$ and rank $k$ is a $k$-dimensional subspace of the $n$-dimensional vector space $\mathbb{F}_q^n$ over a [[finite set|finite]] [[field]] $\mathbb{F}_q$ with $q$ elements, or of any $n$-dimensional space over $\mathbb{F}_q$ that comes equipped with a "standard" basis. A principal application is in the construction of [[error-correcting code]]s. 
+
+A **(binary linear) code** is $q$-ary code with $q = 2$. A bilinear linear code is typically construed as a subspace of a finite power set $P(\Omega)$, considered as an $\mathbb{F}_2$-space whose addition is given by taking the symmetric difference of sets, and with standard basis given by the [[atoms]]. 
 
 Let ${|C|}$ denote the [[cardinality]] of a set $C$; we let $n = {|\Omega|} = \dim(P(\Omega))$. On the Boolean ring $P(\Omega)$ there is a canonical nondegenerate symmetric $\mathbb{F}_2$-bilinear pairing given by 
 
-$$\langle -, - \rangle \colon P(\Omega) \times P(\Omega) \to \mathbb{F}_2: (S, T) \mapsto {|S \cap T|} \pmod 2$$ 
+$$ P(\Omega) \times P(\Omega) \stackrel{\langle -, - \rangle}{\to} \mathbb{F}_2$$ 
 
-and to each code $\mathcal{C} \subset P(\Omega)$ there is a **dual code** $\mathcal{C}^\perp$: 
+$$\,$$
 
-$$\mathcal{C}^\perp = \{S \in P(\Omega): \langle S, T \rangle = 0 \forall T \in \mathcal{C}\}.$$ 
+$$(S, T) \mapsto {|S \cap T|} \pmod 2$$ 
 
-Notice that $\dim(\mathcal{C}^\perp) = n - \dim(\mathcal{C})$. A code $\mathcal{C}$ is **self-dual** if $\mathcal{C} = \mathcal{C}^\perp$. In this case $n$ is even and $\dim(\mathcal{C}) = n/2$. 
+and to each code $\mathbf{C} \subset P(\Omega)$ there is a **dual code** $\mathbf{C}^\perp$: 
 
-In the sequel (which follows [FLM](#FLM)), we suppose $\Omega$ is a set with an even number of elements, say $n$. Let ${|C|}$ denote the cardinality of a set $C$. A linear code $\mathcal{C} \subset P(\Omega)$ is of **type I** if 
+$$\mathbf{C}^\perp = \{S \in P(\Omega): \forall T \in \mathbf{C} \; \langle S, T \rangle = 0\}.$$ 
 
-* ${|C|}$ is even for every $C \in \mathcal{C}$ and $\Omega \in \mathcal{C}$ 
+Notice that $\dim(\mathbf{C}^\perp) = n - \dim(\mathbf{C})$. A code $\mathbf{C}$ is **self-dual** if $\mathbf{C} = \mathbf{C}^\perp$. In this case $n$ is even and $\dim(\mathbf{C}) = n/2$. 
 
-and of **type II** if 
+Now suppose $\Omega$ is a set with an even number of elements, say $n$. The collection $E(\Omega)$ of subsets of even cardinality is a vector subspace of $P(\Omega)$ of dimension $n-1$, and we have 
 
-* ${|C|} \cong 0 \pmod 4$ for every $C \in \mathcal{C}$ and $\Omega \in \mathcal{C}$. 
+$$E(\Omega) = 1^\perp,$$ 
 
-(TO BE CONTINUED)
+where $1$ is the multiplicative unit of $P(\Omega)$ (the subset $\Omega$), under the assumption $n$ is even. On $E(\Omega)$ we may define a quadratic form 
 
+$$q: E(\Omega) \to \mathbb{F}_2$$ 
+
+taking $S \in E(\Omega)$ to $\frac{{|S|}}{2} \pmod 2$; this $q$ gives rise to the bilinear form $\langle -, - \rangle$ on $E(\Omega)$ via 
+
+$$\langle S, T \rangle = q(S + T) - q(S) - q(T).$$ 
+
+A code $\mathbf{C} \subset P(\Omega)$ is of **type II** if 
+
+* $4$ divides ${|C|}$ for every $C \in \mathbf{C}$ and $\Omega \in \mathbf{C}$, 
+
+and of **type I** if 
+
+* $\mathbf{C} \subset E(\Omega)$ and $\Omega \in \mathbf{C}$, but $\mathbf{C}$ is not of type II. 
+
+Notice that the quadratic form (hence the bilinear form) vanishes on a type II code $\mathbf{C}$, so that we have $\mathbf{C} \subset \mathbf{C}^\perp$ (i.e., $\mathbf{C}$ is isotropic). Conversely, an isotropic subspace is type II. If $\mathbf{C}$ is maximal isotropic -- has half the dimension of $P(\Omega)$ -- then it follows that $\mathbf{C}$ is self-dual. 
+
+
+## Examples 
+
++-- {: .num_example} 
+###### Example 
+**(Hamming code)** 
+Up to isomorphism, there is a unique type II self-dual code $\mathbf{C} \subset P(\Omega)$ where $\Omega$ is an 8-element set. Such a code may be constructed as follows: let $\Omega$ be the projective line $\mathbb{P}^1 \mathbb{F}_7$, so as a set $\Omega = \{0, 1, 2, 3, 4, 5, 6, \infty\}$. Let $Q$ be the set of squares $0, 1, 2, 4$ and let $N$ be its complement in $\Omega$. The span of the set of elements $\{N + i: i \in \mathbb{F}_7\}$ (where $\infty + i = \infty$ for each $i$) is a 4-dimensional space consisting of 16 elements: 
+
+$$\array{
+\emptyset, & \{3, 5, 6, \infty\}, & \{0, 4, 6, \infty\}, & \{0, 1, 5, \infty\} \\  
+\{1, 2, 6, \infty\}, & \{0, 2, 3, \infty\}, & \{1, 3, 4, \infty\}, & \{2, 4, 5, \infty\} \\ 
+\{0, 3, 4, 5\}, & \{1, 4, 5, 6\}, & \{0, 2, 5, 6\}, & \{0, 1, 3, 6\} \\  
+\{0, 1, 2, 4\}, & \{1, 2, 3, 5\}, & \{2, 3, 4, 6\}, & \Omega.
+}$$ 
+
+For this subspace $\mathbf{C} \subset P(\Omega)$, every element is a set that is of cardinality $0$, $4$, or $8$. It is clearly of type II, and self-dual because it is maximal isotropic. 
+
+There is a second Hamming code $\mathbf{C}'$ (isomorphic to $\mathbf{C}$) that is spanned by the elements $\{-N - i: i \in \mathbb{F}_7\}$. This is "complementary" to the first in an appropriate sense: we have 
+
+$$\mathbf{C} + \mathbf{C}' = E(\Omega), \qquad \mathbf{C} \cap \mathbf{C}' = \mathbb{F}_2 \Omega,$$ 
+
+so that $\mathbf{C}/\mathbb{F}_2 \Omega$ is complementary to $\mathbf{C}'/\mathbb{F}_2 \Omega$ in the 6-dimensional space $E(\Omega)/\mathbb{F}_2 \Omega$. 
+=--
+
++-- {: .num_example} 
+###### Example 
+(The [[binary Golay code]].) Up to isomorphism, there is a unique self-dual code of type II on a 24-element set with no elements of weight (= cardinality) 4. Indeed, let $3 \Omega$ denote the disjoint union of three copies of $\Omega$. Construct a code $\mathbf{D} \subset P(3\Omega)$ that is spanned by elements of the form 
+
+$$S \sqcup S \sqcup \emptyset, \qquad S \sqcup \emptyset \sqcup S, \qquad T \sqcup T \sqcup T$$ 
+
+where $S$ ranges over elements of the Hamming code $\mathbf{C}$ and $T$ ranges over elements of the Hamming code $\mathbf{C}'$. Any three elements $S \sqcup S \sqcup \emptyset$, $S \sqcup \emptyset \sqcup S$, and $T \sqcup T \sqcup T$ are mutually orthogonal in $P(\Omega)$, so evidently $\mathbf{D}$ is an orthogonal direct sum of three 4-dimensional isotropic spaces, making $\mathbf{D}$ an isotropic subspace of dimension 12, hence maximal isotropic (and thus type II self-dual). 
+
+To see that $\mathbf{D}$ has no elements of weight 4, argue as follows. Note that combinations $(S \sqcup S \sqcup \emptyset) + (S' \sqcup \emptyset \sqcup S')$ are of the form $S_1 \sqcup S_2 \sqcup S_3$ such that $S_1 + S_2 + S_3 = 0$. Now suppose we had 
+
+$${|S_1 + T|} + {|S_2 + T|} + {|S_3 + T|} = 4.$$ 
+
+Since all the summands are even, one must be zero, so say $S_3 + T = 0$. Since $\mathbf{C} \cap \mathbf{C}' = \mathbb{F}_2 \Omega$, we must have $T \in \mathbb{F}_2 \Omega$. But then ${|S_1 + T|}$ and ${|S_2 + T|}$ are multiples of $4$, and therefore one is zero, so say $S_2 + T = 0$. But now we have 
+
+$$S_1 = S_1 - 2 T = S_1 + S_2 + S_3 = 0$$ 
+
+whence we infer that ${|S_1 + T|}$ is a multiple of $8$, and we have reached a contradiction. 
+=-- 
+
+## References 
+
+* Igor Frankel, James Leposky, and Arne Meurman, _Vertex Operator Algebras and the Monster_, Academic Press 1988. 
