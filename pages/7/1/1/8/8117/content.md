@@ -33,7 +33,7 @@ Proposals for how to rectify this are in ([Wehrheim-Woodward](#WehrheimWoodward)
 Kitchloo defines the stable symplectic category $\mathbb{S}$, which has as objects symplectic manifolds, and morphisms are certain [[Thom spectra]]
 associated to [[Lagrangian correspondences]] $\overline{M} \times N$, where $\overline{M}$ denotes the conjugate with symplectic form $-\omega$.  One can view this as a category of symplectic [[motives]].
 
-Considering an oriented version of the category $\mathbb{S}$, there is a canonical [[fiber functor]] $F : M \mapsto \mathbb{S}(pt, M)$, and one may consider the [[motivic Galois group]] $G$ of monoidal [[automorphisms]] of $F$.  It turns out to have a natural subgroup which is isomorphic to the quotient of the [[Grothendieck-Teichmuller group]].
+Considering an oriented version of the category $\mathbb{S}$, there is a canonical [[fiber functor]] $F : M \mapsto \mathbb{S}(pt, M)$, and one may consider the [[motivic Galois group]] $G$ of monoidal [[automorphisms]] of $F$.  It turns out to have a natural subgroup which is isomorphic to the quotient of the [[Grothendieck-Teichmüller group]].
 
 ## Related concepts
 
