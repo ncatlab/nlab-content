@@ -80,6 +80,8 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 ## Related concepts
 
+* [[Thom isomorphism]]
+
 * [[fiber integration]]
 
 ## References
