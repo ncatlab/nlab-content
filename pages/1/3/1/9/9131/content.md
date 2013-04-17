@@ -72,6 +72,11 @@ The traditional idea of field bundle is discussed for instance around section 7.
 
 * Laurent Claessens, _Field theory from a bundle point of view_ (2011) ([pdf](http://student.ulb.ac.be/~lclaesse/lectures.pdf)) .
 
+Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanton sector]]/[[principal bundle]]-class is around section 2.5 of 
+
+* Marco Benini, [[Claudio Dappiaggi]], Alexander Schenkel, _Quantized Abelian principal connections on Lorentzian manifolds_ ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+ {#BDS}
+
 A discussion of the problems of the traditional notion and its recification in [[higher geometry]] is in the section _[Fields](geometry%20of%20physics#Fields)_ at 
 
 * _[[geometry of physics]]_
