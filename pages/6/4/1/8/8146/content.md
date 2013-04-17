@@ -111,7 +111,9 @@ Also lemma 3.2-3.4 of
 
 Discussion of generalization to non-abelian categories is in 
 
-* Marino Gran, Diana Rodelo, _Goursat categories and the $3 \times 3$-lemma_ ([pdf slides](http://ct2010.disi.unige.it/slides/Rodelo_CT2010.pdf))
+* Marino Gran, Diana Rodelo, _Goursat categories and the $3 \times 3$-lemma_, Applied Categorical Structures, Vol. 20, No 3, 2012, 229-238. ([journal](http://www.google.com/url?q=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%252Fs10485-010-9236-x&sa=D&sntz=1&usg=AFQjCNG1kEggBxeeDfQlkWOa4ShUo8vwLA), [pdf slides](http://ct2010.disi.unige.it/slides/Rodelo_CT2010.pdf))
+
+* Marino Gran, Zurab Janelidze and Diana Rodelo, _$3 \times 3$ lemma for star-exact sequences_, Homology, Homotopy and Applications, Vol. 14 (2012), No. 2, pp.1-22. ([journal](http://www.intlpress.com/HHA/v14/n2/a1/))
 
 * [[Dominique Bourn]], _$3 \times 3$-lemma and protomodularity_, Journal of Algebra, Volume 236, Number 2, 15 February 2001 , pp. 778-795(18)
 
