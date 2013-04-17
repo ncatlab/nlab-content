@@ -443,3 +443,5 @@ The relation of Thom spectra to dualizable objects in the stable homotopy catego
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
+
+[[!redirects Thom spectra]]
