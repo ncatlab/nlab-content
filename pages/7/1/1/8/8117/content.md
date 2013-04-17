@@ -41,7 +41,7 @@ Considering an oriented version of the category $\mathbb{S}$, there is a canonic
 
 ## References
 
-* [[Katrin Wehrheim]] and [[Chris Woodward]], _Functoriality for Lagrangian correspondances in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
+* [[Katrin Wehrheim]] and [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
  {#WehrheimWoodward}
 
 * [[Nitu Kitchloo]], _The Stable Symplectic Category and Geometric Quantization_ ([arXiv:1204.5720](http://arxiv.org/abs/1204.5720v1))
