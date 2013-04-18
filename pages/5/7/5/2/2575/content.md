@@ -746,7 +746,7 @@ A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-We
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
 
-### With Wilson loops and defects
+### With Wilson loops, defects and boundaries
  {#ReferencesWithWilsonLoops}
 
 The [[orbit method]]-formulation of [[Wilson loops]] in 3d Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten)). 
@@ -767,10 +767,16 @@ A detailed review and further refinements are discussed in section 4 of
 
 Aspects of the formulation in the context of [[BV-BRST formalism]] are discussed in ([Alekseev-Barmaz-Mnev](#AlekseevBarmazMnev)).
 
-See also
+Discussion of boundaries ([[branes]]) and suface [[QFT with defects|defects]] for Chern-Simons theory is in
 
-* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+ {#KapustinSaulina11}
 
+* [[Anton Kapustin]], [[Natalia Saulina]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_,  	Nucl.Phys.B845:393-435,2011 ([arXiv:1203.4568](http://arxiv.org/abs/1203.4568))
+ {#KapustinSaulina12}
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], _Bicategories for boundary conditions and for surface defects in 3-d TFT_, 
+ {#FSV}
 
 ### Quantization
 
