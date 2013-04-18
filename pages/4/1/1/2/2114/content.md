@@ -15,30 +15,32 @@
 
 ## Idea
 
-Classically, an __algebraic variety__ is thought of as a geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables. 
+Classically, an __algebraic variety__ is a [[ringed space]] which looks locally like the geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables (equipped with a sheaf of regular functions which are locally quotients of polynomials). 
 
 Historically, there were several formalisms of various schools including the Italian school of [[algebraic geometry]] in the early 20th century (Veronese, Castelnuovo, Severi, ...), the American school between the two wars ([[Oscar Zariski]]), [[Andre Weil]], the abstract varieties of [[Jean-Pierre Serre]] and finally the [[scheme]] language of the [[Grothendieck]] school. One should note that in the case of (esp. [[projective variety|projective]]) varieties over complex numbers there is an additional possibility to work using complex-analytic tools and complex topology.
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ means any of: affine, quasiaffine, [[projective variety|projective]] or quasiprojective $k$-variety. 
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either quasiprojective varity or abstract variety (in the sense of Serre). Quasiprojective unify affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. 
 
 
-* __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
+* an embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
   Affine varietes can be embedded as closed subvarieties into an [[affine space]] (in the sense of algebraic geometry). As topological spaces affine varieties are [[noetherian space|noetherian]]. 
 
-* __[[projective variety|Projective]]__ $k$-varieties are obtained in a similar way from [[graded algebra|graded]] $k$-algebras. 
+* __[[projective variety|Projective]]__ $k$-varieties are obtained in a similar way from [[graded algebra|graded]] $k$-algebras, or, in embedded incarnation, as loci of zeros of a set of homogeneous polynomials in projective space $\mathbf{P}^n_k$. 
 
-* __Quasiaffine__ $k$-varieties are Zariski-open subspaces of affine $k$-varieties. 
+* Embedded __quasiaffine__ $k$-varieties are Zariski-open subspaces of affine $k$-varieties. 
 
-* __Quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. 
+* Embedded __quasiprojective__ $k$-varieties are Zariski-open subspaces of projective $k$-varieties. We can remove the embedding by equipping them with the shaef of regular functions and therefore considering them as [[locally ringed space]]s. In the category of locally ringed spaces, projective, affine, and quasiaffine varieties are (isomorphic to) special cases of quasiprojective. Alternatively, we can put all 4 classes without sheaves into a category, by defining regular maps directly, and we get an isomorphic category of varieties.
 
   In fact, by noticing that the affine $k$-space is Zariski open in a projective space of the same dimension, we see that the quasiprojective case includes all others. 
 
 Morphisms between varieties are so-called [[regular maps]].  
 
 Sometimes a smooth algebraic variety may also be called __algebraic manifold__. 
+
+An abstract $k$-prevariety in the sense of Serre is a locally ringed space which is locally isomorphic to affine $k$-variety. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\to X$; a prevariety is separated, or an abstract $k$-variety if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
 
 
 ## Relation to schemes
