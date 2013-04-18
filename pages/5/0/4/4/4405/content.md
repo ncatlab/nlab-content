@@ -1,5 +1,6 @@
+
 #Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition 
@@ -13,11 +14,13 @@ In other words, a semialgebraic set is a finite union of loci defined by systems
 $$p_1(x_1, \ldots, x_n) \geq 0, \ldots, p_k(x_1, \ldots, x_n) \geq 0, q_1(x_1, \ldots, x_n) = 0, \ldots, q_l(x_1, \ldots, x_n) = 0$$ 
 
 ## The Tarski-Seidenberg theorem
+ {#TarskiSeidenbergTheorem}
 
 The fundamental theorem for semialgebraic sets over [[real closed field]]s $R$ is as follows. 
 
-+-- {: .un_thm}
-######Theorem (Tarski-Seidenberg) 
++-- {: .num_theorem}
+######Theorem 
+**([[Tarski-Seidenberg theorem|Tarski-Seidenberg]])**
 The image of a semialgebraic set in $R^{n+1}$ under the projection map 
 $$\pi: R^{n+1} \to R^n: (x_1, \ldots, x_{n+1}) \mapsto (x_1, \ldots, x_n)$$ 
 is also a semi-algebraic set. 
