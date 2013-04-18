@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Wald)
+
+## Related entries
+
+* [[gravity]]
+
+* [[Bekenstein-Hawking entropy]]
+
+category: people
