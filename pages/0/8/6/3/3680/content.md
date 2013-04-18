@@ -148,7 +148,7 @@ This is [[Higher Topos Theory|HTT, prop. 4.1.1.8]].
 
 The following result is the $(\infty,1)$-categorical analog of what is known as **Quillen's Theorem A**.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #Recognition}
 ###### Theorem 
 **(recognition theorem for final $(\infty,1)$-functors)**
 
@@ -190,6 +190,24 @@ A map of simplicial sets is cofinal precisely if it factors as a right anodyne m
 This is ([Lurie, cor. 4.1.1.12](#Lurie)).
 
 ## Examples
+
+### General
+ {#General}
+
++-- {: .num_example}
+###### Example
+
+The inclusion $\ast \to \mathcal{C}$ of a [[terminal object in an (∞,1)-category|terminal object]] is final.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{Recognition} the inclusion of the point is final precisely if for all $c \in \mathcal{C}$, the [[(∞,1)-categorical hom-space]] $\mathcal{C}(c,\ast)$ is contractible. This is the definition of $\ast$ being terminal.
+
+=--
+
 
 ### On categories of simplices
  {#OnCategoriesOfSimplices}
