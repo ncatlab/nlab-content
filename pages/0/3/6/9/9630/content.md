@@ -1,0 +1,16 @@
+
+
++-- {: .num_theorem}
+######Theorem 
+**(Tarski-Seidenberg)**
+
+The [[image]] of a [[semialgebraic set]] in $R^{n+1}$ under the [[projection]] [[map]] 
+
+$$
+ \pi \colon 
+  R^{n+1} \to R^n: (x_1, \ldots, x_{n+1}) \mapsto (x_1, \ldots, x_n)
+$$  
+
+is also a semi-algebraic set. 
+
+=-- 
