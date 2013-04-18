@@ -14,4 +14,5 @@ The following monograph is in progress:
 
 [[!redirects Grothendieck-Teichmueller tower]]
 [[!redirects Grothendieck-Teichmüller group]]
-[[!redirects Grothendieck-Teichmueller group]]
+[[!redirects Grothendieck-Teichmuller tower]]
+[[!redirects Grothendieck-Teichmuller group]][[!redirects Grothendieck-Teichmueller group]]
