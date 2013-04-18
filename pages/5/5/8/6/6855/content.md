@@ -1,3 +1,4 @@
+
 +-- {: .num_defn }
 ###### Definition
 **(diagonal)**
@@ -8,8 +9,6 @@ $$
   d(X)_n = X_{n,n}
   \,.
 $$
-
 =--
 
-
-+-- {: .num_defn }
+See also [[diagonal]].
