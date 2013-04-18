@@ -13,14 +13,13 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-In a strict sense of the term, a **function** is a [[homomorphism]] $f : S \to T$ of [[sets]].  
+In a strict sense of the term, a **function** is a [[homomorphism]] $f : S \to T$ of [[sets]].  We may also speak of a __[[map]]__ or __mapping__, but those terms are used in other ways in other contexts. 
 
 A function from a [[set]] $A$ to a set $B$ is determined by giving, for each element of $A$, a specified element of $B$.  The process of passing from elements of $A$ to elements of $B$ is called [[function application]].  The set $A$ is called the [[domain]] of $f$, and $B$ is called its [[codomain]].
 
