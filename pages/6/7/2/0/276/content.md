@@ -549,3 +549,5 @@ For the relation to [[group cohomology]] see
 
 [[!redirects crossed complexes]]
 
+[[!redirects crossed complex of groupoids]]
+[[!redirects crossed complexes of groupoids]]
