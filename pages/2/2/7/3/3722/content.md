@@ -45,6 +45,8 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 
 * [[open subset]], [[clopen subset]]
 
+* [[locally closed set]]
+
 * [[closed cover]]
 
 * [[Moore closure]]
