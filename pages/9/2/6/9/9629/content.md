@@ -1,0 +1,3 @@
+* wikipedia [generic point](https://en.wikipedia.org/wiki/Generic_point)
+
+category: geometry, algebraic geometry
