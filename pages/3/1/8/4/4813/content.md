@@ -28,7 +28,7 @@ Topological Yang-Mills theory is a [[gauge theory]] [[topological quantum field 
 
 ## Definition
 
-For $X$ a 3-[[dimensional]] [[smooth manifold]], $\mathfrak{g}$ a [[Lie algebra]] with [[Lie group]] $G$ and $\langle-,-\rangle \in W(\mathfrak{g})$ a binary [[invariant polynomial]] on $\mathfrak{g}$, **topological Yang-Mills theory** is the [[quantum field theory]] defined by the [[action functional]]
+For $X$ a 4-[[dimensional]] [[smooth manifold]], $\mathfrak{g}$ a [[Lie algebra]] with [[Lie group]] $G$ and $\langle-,-\rangle \in W(\mathfrak{g})$ a binary [[invariant polynomial]] on $\mathfrak{g}$, **topological Yang-Mills theory** is the [[quantum field theory]] defined by the [[action functional]]
 
 $$
   S : G Bund_\nabla(X) \to \mathbb{R}
@@ -41,7 +41,7 @@ $$
   \,.
 $$
 
-## Relaton to other models
+## Relation to other models
 
 The ordinary kinetic term of [[Yang-Mills theory]] differs from this by the fact that the [[Hodge star operator]] appears $\langle F_\nabla \wedge \star F_\nabla \rangle$. In full Yang-Mills theory both terms appear.
 
@@ -50,5 +50,13 @@ The topological Yang-Mills action also appears in the [[generalized Chern-Simons
 
 ## References
 
+A general account emphasizing the relation to [[Chern-Simons theory]] is
+
 * P van Baal, _An introduction to topological Yang-Mills theory_ , Acta Physica Polonica Vol. B21 ([pdf](http://www.actaphys.uj.edu.pl/vol21/pdf/v21p0073.pdf))
+
+The relation to [[Chern-Simons theory]] on the boundary in an ambient [[string theory|string theoretic]] context is indicated in section 2 (starting around p. 21) of
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+ {#Witten}
+
 
