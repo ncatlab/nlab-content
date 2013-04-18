@@ -72,13 +72,19 @@ This in particular connects to the attempt at
 
 to encode the decoration prescription in the FFRS description of [[conformal field theory]] in terms of the components of transformations of the Reshetikhin-Turaev 3d TFT functor.
 
+## Related concepts
+
+* [[brane]], [[bi-brane]]
+
 ## References
 
-Section 4.3 of 
+A general formulation via an [[(infinity,n)-category of cobordisms]] with defects is in section 4.3 of 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
-* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+Further aspects are discussed in
 
-* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
+* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
 
