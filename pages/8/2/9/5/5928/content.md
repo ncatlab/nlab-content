@@ -5,7 +5,9 @@
 
 ## Idea
 
-The _Zariski topology_ is a [[coverage]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative rings.
+There is a [[little site]] notion of Zariski topology, and a [[big site]] notion. As for the little site notion: the Zariski topology on the set of prime ideals of a commutative ring $R$ is the smallest topology that contains, as open sets, sets of the form $\{p\; \text{prime}: a \notin p\}$ where $a$ ranges over elements of $R$. 
+
+As for the big site notion, the _Zariski topology_ is a [[coverage]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative rings. This article is mainly about the big site notion. 
 
 ## Definition
 
