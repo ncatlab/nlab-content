@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Quatum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible.
+
+Specifically, _topological quantum computation_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
+
+## Related entries
+
+* [[quantum information theory]]
+
+* [[quantum Hall effect]], [[Chern-Simons theory]].
+
+## References
+
+* [[Michael Freedman]], [[Alexei Kitaev]], Michael J. Larsen, Zhenghan Wang, _Topological Quantum Computation_ ([arXiv:quant-ph/0101025](http://arxiv.org/abs/quant-ph/0101025))
+
+* Zhenghan Wang, _Topologization of electron liquids with Chern-Simons theory and quantum computation_ ([arXiv:cond-mat/0601285](http://arxiv.org/abs/cond-mat/0601285))
+
+* Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
+
+[[!redirects quantum computing]]
+[[!redirects quantum computations]]
+
+[[!redirects topological quantum computing]]
+[[!redirects topological quantum computation]]
