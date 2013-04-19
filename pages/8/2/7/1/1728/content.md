@@ -44,7 +44,7 @@ The reason is that such a morphism will behave like encoding
 
 So one may think of the codimension $k$ colors as _defects_ where the TQFT that one is looking at changes its nature.
 
-In particular, when the QFT on one side of the defect is trivial, then the defect behaves like a _boundary condition_ for the remaining QFT. Since at least for $n=2$ QFT such boundary conditions are also called [[brane]]s, defects are also called [[bi-brane]]s.
+In particular, when the QFT on one side of the defect is trivial, then the defect behaves like a _boundary condition_ for the remaining QFT. Since at least for $n=2$ QFT such boundary conditions are also called _[[branes]]_, defects are also called _[[bi-branes]]_.
 
 ## Examples
 
@@ -82,9 +82,17 @@ A general formulation via an [[(infinity,n)-category of cobordisms]] with defect
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
-Further aspects are discussed in
+Further general aspects are discussed in
 
 * [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
 
+Defects in [[Chern-Simons theory]] and related systems are discussed in
+
+* [[Davide Gaiotto]], [[Edward Witten]], _S-Duality of Boundary Conditions In N=4 Super Yang-Mills Theory_ ([arXiv:0807.3720](http://arxiv.org/abs/0807.3720))
+
+* [[Anton Kapustin]], Mikhail Tikhonov, _Abelian duality, walls and boundary conditions in diverse dimensions_, JHEP 0911:006,2009 ([arXiv:0904.0840](http://arxiv.org/abs/0904.0840))
+
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
 
+[[!redirects defect]]
+[[!redirects defects]]
