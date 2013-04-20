@@ -1,1 +1,32 @@
--> 
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://math.berkeley.edu/~teleman/pics/teleman_c.jpg" alt="Constantin Teleman" /></div>
+
+
+* [website](http://math.berkeley.edu/~teleman/)
+
+## some publications
+
+* [[Dan Freed]], [[Mike Hopkins]], Constantin Teleman, _Loop groups and twisted K-theory ,I, II _ ([arXiv:0312155](http://arxiv.org/abs/math/0312155), [arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [arXiv:0511232](http://arxiv.org/abs/math/0511232))
+
+  on [[loop group]]s and [[twisted K-theory]]
+
+* Constantin Teleman, _The structure of 2D semi-simple field theories_ ([arXiv](http://arxiv.org/abs/0712.0160))
+
+  on 2-dimensional [[TQFT]]
+
+* [[Edward Frenkel]], Constantin Teleman, [[A. J. Tolland]], _Gromov-Witten Gauge Theory I_ ([arXiv](http://arxiv.org/abs/0904.4834))
+
+  on [[Gromov-Witten theory]]
+
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], Constantin Teleman, _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+  on [[quantization]] of <a href="http://ncatlab.org/nlab/show/sigma-model#SigmaDW">Dijkgraaf-Witten theory</a> and [[Chern-Simons theory]];
+
+
+* [[Andrew Blumberg]], [[Ralph Cohen]], Constantin Teleman, _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
+
+  on [[string topology]] and [[TCFT]]
+
+
+
+  
+category: people
