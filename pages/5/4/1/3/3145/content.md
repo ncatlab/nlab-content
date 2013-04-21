@@ -17,3 +17,4 @@
 category: people
 
 [[!redirects Michael Hopkins]]
+[[!redirects M. Hopkins]]
