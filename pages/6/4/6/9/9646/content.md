@@ -1,9 +1,6 @@
 ### Outline
 
-Scattering is a physical process in which some matter or wave which has asymptotic/stable, say linear trajectory (or wave distribution) in distant past, comes into the area where it interacts with some localized perturbation (or other such waves), which results in different stable state (or distribution of states) in far future.  Examples include light scattering, scattering of matter beams, scaterring of solitons and multisolitons
-(which preserve their identity after a long while), and scattering n quantum mechanics
-and QFT. The condition that the perturbation (interaction) is localized is someties relaxed (for example, the waScattering is a physical process in which some matter or wave which has stable, say linear trajectory (or wave distribution) in distant past, comes into the area where it interacts with some localized perturbation (or other such waves), which results in different stable state (or distribution of states) in far future.  Examples include light scattering, scattering of matter beams, scaterring of solitons and multisolitons
-(which preserve their identity after a long while), 
+Scattering is a physical process in which some matter or wave which has stable, say linear trajectory (or wave distribution) in distant past, comes into the area where it interacts with some localized perturbation (or other such waves), which results in different stable state (or distribution of states) in far future.  Examples include light scattering, scattering of matter beams, scatterring of solitons and multisolitons (which preserve their identity after a long while), 
 and scattering in quantum mechanics, including variants like QFT and superstring theory. The condition that the perturbation (interaction) is localized is someties relaxed (for example, in the case of the scattering for Schroedinger operator corresponding to the Coulomb potential, the waves are substantially perturbed even
 asymptotically at infinity, because the Coulomb potential does not fall sufficiently fast far away from the source).
 
