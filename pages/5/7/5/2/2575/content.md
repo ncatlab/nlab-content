@@ -904,7 +904,11 @@ A textbook account of this relation is in
 
 ### As a relative extended TQFT
 
-Discussion of quantum Chern-Simons theory as a (relative) [[extended TQFT]] is in
+Discussion of quantum Chern-Simons theory as a 3-2-1 [[extended TQFT]] is for insance in 
+
+* R. Gelca, _Topological quantum field theory with corners based on the Kauffman bracket_ ([pdf](http://www.math.ttu.edu/~rgelca/bra3.pdf))
+
+Discussion as a (relative) 3-2-1-0 [[extended TQFT]] is in
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
