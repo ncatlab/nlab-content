@@ -94,5 +94,9 @@ Defects in [[Chern-Simons theory]] and related systems are discussed in
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
 
+Quantum field theory on [[manifolds with corners]] is discussed in
+
+* [[Hisham Sati]], _Corners in M-theory_, J.Phys.A44:255402,2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
+
 [[!redirects defect]]
 [[!redirects defects]]
