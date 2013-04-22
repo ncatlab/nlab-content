@@ -1,4 +1,4 @@
-Herman Stel is a student of mathematics and Gabriele Vezzosi in Florence. Currently Herman Stel is a guest at MPIM in Bonn.
+Herman Stel is a student of mathematics in Florence. Currently Herman Stel is a guest at MPIM in Bonn.
 
 His master's thesis is
 
