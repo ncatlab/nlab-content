@@ -4,6 +4,11 @@
 
 Here is a very incomplete list of software available for mathematics, especially the sort of mathematics that nLabbers seem to be interested in.
 
+##General
+
+ * [swMATH](http://www.swmath.org/)
+
+
 ## Category theory
 
 * [Quantomatic](https://sites.google.com/site/quantomatic/)
