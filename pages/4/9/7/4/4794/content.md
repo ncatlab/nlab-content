@@ -19,3 +19,10 @@ Spin geometry also plays a central role in supersymmetric quantum field theory s
 The classical monograph on spin geometry is
 
 * H. Blaine Lawson, Marie-Louise Michelsohn, _Spin geometry_
+
+Fundamentals of the relevant [[supergeometry]] are in
+
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
+
+  in [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
