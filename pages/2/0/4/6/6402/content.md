@@ -23,6 +23,12 @@ This entry collects linked keywords for the book
 
 on [[quantum field theory]] and [[string theory]].
 
+Parts of this appear separately elsewhere, for instance
+
+* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+
+on fundamental [[supergeometry]] needed for describing [[fermion]] [[particles]] (and [[superstrings]]).
+
 While advertized as "A course for mathematicians", it is not. But it is much better than the average physics text.
 
 More in detail: this is a long collection of (in parts) long lectures by many top string theorists and also by some genuine top mathematicians. Correspondingly it covers a lot of ground, while still being introductory. Especially towards the beginning there is a strong effort towards trying to formalize or at least systematize much of the standard lore. But one can see that eventually the task of doing that throughout had been overwhelming. Nevertheless, this is probably the best source that there is out there. If you only ever touch a single book on string theory, touch this one.
