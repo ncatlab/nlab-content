@@ -58,7 +58,7 @@ Explicitly:
 +-- {: .num_defn #ColimitFormulaForBarycentricSubdivision}
 ###### Definition
 
-Write $Sd \Delta[n]$ for the [[nerve]] of [[category of non-degenrate simplices]] in the standard $n$-[[simplex]].
+Write $Sd \Delta[n]$ for the [[nerve]] of [[category of non-degenerate simplices]] in the standard $n$-[[simplex]].
 
 For $X$ an arbitrary [[simplicial set]], its barycentric subdivision is
 
@@ -70,6 +70,7 @@ $$
 =--
 
 A review is for instance around ([Fiore-Paoloi def. 3.1](#FiorePaoli)).
+
 
 ## Properties
 
@@ -86,7 +87,7 @@ This functorial subdivision corresponds to the classical [[barycentric subdivisi
 +-- {: .num_prop }
 ###### Proposition
 
-If every non-degenerate simplex in $X$ is given by a [[monomorphisms]] $\Delta^n \to X$, then the barycentric subdivision of def. \ref{ColimitFormulaForBarycentricSubdivision} is equivalently given by the [[nerve]] [[full subcategory]] of its [[category of simplices]] on the non-degenerate simplices.
+If every non-degenerate simplex in $X$ is given by a [[monomorphism]] $\Delta^n \to X$, then the barycentric subdivision of def. \ref{ColimitFormulaForBarycentricSubdivision} is equivalently given by the [[nerve]] of the [[full subcategory]] of its [[category of simplices]] on the non-degenerate simplices.
 
 =--
 
