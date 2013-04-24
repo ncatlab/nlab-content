@@ -1,4 +1,8 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Functional programming languages
 
 * [[Haskell]]
@@ -16,3 +20,8 @@
 ## References
 
 * Wikipedia, _[Functional programming](http://en.wikipedia.org/wiki/Functional_programming)_
+
+Discussion of aspects of [[quantum computing]] in terms of [[monad (in computer science)|monads]] in functional programming are in
+
+* [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
+
