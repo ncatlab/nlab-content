@@ -9,6 +9,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
