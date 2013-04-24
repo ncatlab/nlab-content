@@ -39,5 +39,6 @@ This was answered to the positive in ([Etingof-Kazhdan](#EtingofKazhdan)).
  {#EtingofKazhdan}
 
 * Wikipedia, _[Lie biablgebra](http://en.wikipedia.org/wiki/Lie_bialgebra)_
+* &#352;tefan Sak&#225;lo&#353;, [[Pavol Ševera]], _On quantization of quasi-Lie bialgebras_, [arxiv/1304.6382](http://arxiv.org/abs/1304.6382)
 
 [[!redirects Lie bialgebras]]
