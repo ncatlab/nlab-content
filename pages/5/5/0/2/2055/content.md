@@ -171,6 +171,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
 
+* [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]] 
+
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
