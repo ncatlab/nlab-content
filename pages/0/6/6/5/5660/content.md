@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
@@ -26,7 +30,7 @@
 
 ## Idea
 
-_$E$-Theory_ is the name of a [[category]] whose [[objects]] are [[C*-algebras]] and whose [[hom-sets]] are homotopy classes of slightly generalized $C*$-homomorphisms, called _[[asymptotic C*-homomorphisms]]_. These hom-sets have the structure of an [[abelian group]] and are also called the _E-groups_ of their arguments.
+_$E$-Theory_ is the name of a [[category]] whose [[objects]] are [[C*-algebras]] and whose [[hom-sets]] are homotopy classes of slightly generalized $C*$-homomorphisms, called _[[asymptotic C*-homomorphisms]]_. These hom-sets have the structure of an [[abelian group]] and are also called the _E-groups_ of their arguments. Since under [[Gelfand duality]] [[C*-algebras]] may be thought of as exhibiting [[noncommutative topology]], one also speaks of _[[noncommutative stable homotopy theory]]_.
 
 This construction may be understood as the universal improvement of [[KK-theory]] under [[excision]] ([Higson 90](#Higson90)). Accordingly, the $E$-groups behave like groups of a [[K-theory]]-like [[generalized cohomology theory]].
 
