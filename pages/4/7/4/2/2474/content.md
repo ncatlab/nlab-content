@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
