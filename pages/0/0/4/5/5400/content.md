@@ -21,7 +21,7 @@
 
 For $A$ a [[von Neumann algebra]] write $A'$ for its [[commutant]] in the ambient algebra $B(\mathcal{H})$ of [[bounded operator]]s.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A von Neumann algebra $A$ is called a **factor** if its [[center]] is trivial
@@ -31,11 +31,13 @@ $$
   \,.
 $$
 
-Equivalently: if $A$ and $A'$ generate $B(\mathcal{H})$.
+Equivalently: if $A$ and its [[commutant]] $A'$ generate the full algebra of [[bounded operators]] $B(\mathcal{H})$.
 
 =--
 
-Every von Neumann algebra may be written as a direct integral over factors. 
+## Properties
+
+Every von Neumann algebra may be written as a [[direct integral]] over factors. ([von Neumann 49](#vNeumann49))
 
 
 ## Classification
@@ -67,6 +69,9 @@ Every von Neumann algebra may be written as a direct integral over factors.
 The original sources are
 
 * Murray, [[John von Neumann]], ...
+
+* [[John von Neumann]], _On rings of operators, reduction theory_, Annals of Mathematics Second Series, Vol. 50, No. 2 (1949) ([jstor]( http://www.jstor.org/stable/1969463))
+ {#vNeumann49}
 
 * [[Alain Connes]], ...
 
