@@ -18,6 +18,10 @@
 +-- {: .hide}
 [[!include duality - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
