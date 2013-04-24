@@ -16,6 +16,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
