@@ -1,6 +1,16 @@
-#Contents#
 
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
 {:toc}
 
 #Idea#
