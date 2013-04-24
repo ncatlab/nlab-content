@@ -306,6 +306,10 @@ There is a [[model category]] structure on 2-categories -- the [[canonical model
 * [[Steve Lack]],  _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
 {#LackFolkModel}
 
+Discussion of weak 2-categories in the style of [[A-infinity categories]] is (using [[dendroidal sets]] to model the higher [[operads]]) in
+
+* Andor Lucacs, _Dendroidal weak 2-categories_ ([arXiv:1304.4278](http://de.arxiv.org/abs/1304.4278))
+
 
 [[!redirects 2-category]]
 [[!redirects 2-categories]]
