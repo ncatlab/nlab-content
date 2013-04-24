@@ -32,4 +32,8 @@ A discussion of some of these issues using tools from [[(infinity,1)-category th
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ , section 7: _Parametrized spectra, units and Thom spectra via $\infty$-categories_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
+See also
+
+* John Lind, _Bundles of spectra and algebraic K-theory_ ([arXiv:1304.5676](http://arxiv.org/abs/1304.5676))
+
 category: reference
