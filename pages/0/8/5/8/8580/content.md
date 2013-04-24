@@ -90,6 +90,8 @@ Divided into two parts:
 
 1. [Equations of motion](#EquationsOfMotion)
 
+1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
+
 1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Quantum mechanics](#QuantumMechanics)
@@ -8237,6 +8239,8 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 1. [Equations of motion](#EquationsOfMotion)
 
+1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
+
 1. [Prequantum Gauge theory and Gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Geometric quantization](#GeometricQuantization)
@@ -11975,6 +11979,12 @@ $Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in
 [[type theory]] which formalizes the variations equation of motion:
 
 "The collection of fields for which the variational derivative equals zero." translates exactly into $\underset{\phi \in [X, \mathbf{Fields}]}{\sum} (S^{-1}\mathbf{d}S \simeq 0)$.
+
+
+## **Local (topological) prequantum field theory**
+ {#LocalTopologicalPrequantumFieldTheory}
+
+... [[prequantum field theory]] ...
 
 
 ## **Prequantum Gauge theory and Gravity**
