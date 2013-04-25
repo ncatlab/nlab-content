@@ -1,9 +1,25 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 A homotopy $2$-type is a view of a space where we consider its properties only up to the $2$nd [[homotopy group]] $\pi_2$.  To make this precise, we look at maps that 'see' invariants in dimensions 0,1, and 2. These are the 2-equivalences:
 
 
-# Definition #
+## Definition 
 
 A continuous map $X \to Y$ is a **homotopy $2$-equivalence** if it induces isomorphisms on $\pi_i$ for $i = 0, 1, 2$ at each basepoint.  Two spaces share the same **homotopy $2$-type** if they are linked by a zig-zag chain of homotopy $2$-equivalences.
 
@@ -11,11 +27,11 @@ For any 'nice' space $X$, you can kill its homotopy groups in higher dimensions 
 
 See the general discussion in [[homotopy n-type]].
 
-# Classification #
+## Classification 
 
 Homotopy $2$-types can be classified by various different types of algebraic data.
 
-## Homotopy $2$-types as crossed modules ##
+### Homotopy $2$-types as crossed modules 
 
 Homotopy $2$-types can be classified up to weak homotopy type by [[crossed module]]s of groupoids.  These are the $2$-truncated versions of [[crossed complex]]es.  Such a $C$ consists of a morphism
 $$\delta: C_2 \to C_1$$  
@@ -44,15 +60,16 @@ The category $Crs^2$ of such crossed modules of groupoids is equivalent to that 
 $$Crs^2(C \otimes D, E) \cong Crs^2(C, CRS^2(D,E))$$
 and with a unit interval object $I$ so that (left) homotopies are determined as morphisms $Crs^2(I \otimes D,E)$ or as elements of $CRS^2(D,E)_1$.  
 
-##Homotopy $2$-types as simplicial group(oid)s##
+### Homotopy $2$-types as simplicial group(oid)s
 
 As a crossed module give rise to an internal groupoid in the category of groups (or groupoids), we can take the nerve of that structure and get a simplicial group (or [[simplicial groupoid|simplicially enriched groupoid]]). From a simplicial group(oid), $G$, one can define a simplicial set called the classifying space $\overline{W}G$ of the simplicial group, $G$, for which construction see [[simplicial group]]. We thus can start with a crossed module $C$ form a simplicial group and then take $\overline{W}$ of that to get another model of $\mathcal{B}C$.
 
-## Homotopy $2$-types as $2$-groupoids ##
+### Homotopy $2$-types as $2$-groupoids 
 
-...
+With respect to the standard [[homotopy theory]]-structure on [[2-groupoids]] ([[2-truncated]] [[infinity-groupoids]]) these are equivalent to homotopy 2-types. See at _[[homotopy hypothesis]]_ for more on this.
 
-##Homotopy 2-types as [[double groupoid]]s
+
+### Homotopy 2-types as double groupoids
 
 see
 
@@ -60,6 +77,9 @@ see
 _Double groupoids and homotopy 2-types_
 Appl. Categ. Struct. 20, No. 4, 323-378 (2012), see also [arXiv:1003.3820](http://arxiv.org/abs/1003.3820).
 
+## Related concepts
+
+[[!include homotopy n-types - table]]
 
 [[!redirects 2-type]]
 [[!redirects 2-types]]
