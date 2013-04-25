@@ -84,3 +84,19 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 [[!redirects n-type]]
 [[!redirects homotopy n-types]]
 [[!redirects n-types]]
+
+[[!redirects 1-type]]
+[[!redirects 1-types]]
+[[!redirects homotopy 1-type]]
+[[!redirects homotopy 1-types]]
+
+[[!redirects 2-type]]
+[[!redirects 2-types]]
+[[!redirects homotopy 2-type]]
+[[!redirects homotopy 2-types]]
+
+[[!redirects 3-type]]
+[[!redirects 3-types]]
+[[!redirects homotopy 3-type]]
+[[!redirects homotopy 3-types]]
+
