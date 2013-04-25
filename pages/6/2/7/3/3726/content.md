@@ -337,6 +337,9 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects n-simply connected objects of an (infinity,1)-category]]
 [[!redirects n-simply connected objects of (infinity,1)-categories]]
 
+[[!redirects connected object in an (infinity,1)-category]]
+[[!redirects connected object in an (∞,1)-category]]
+
 [[!redirects connected object in an (infinity,1)-topos]]
 [[!redirects connected object in an (∞,1)-topos]]
 
