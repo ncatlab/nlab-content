@@ -743,7 +743,7 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
     * [[descent in noncommutative algebraic geometry]]
 
-
+[[!include homotopy n-types - table]]
 
 ## References
 
