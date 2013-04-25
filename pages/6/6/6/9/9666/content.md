@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For morphisms between [[dualizable objects]] in a [[symmetric monoidal category]] there is a notion of _[[trace]]_. More generally, for a [[fully dualizable object]] $X$ in a [[symmetric monoidal (∞,n)-category]] $C^\otimes$ there is a notion of $k$-dimensional trace for each $k \leq n$.
+
+The [[cobordism theorem]] says that a [[monoidal (∞,n)-functor]] $Z \colon Bord_n \to \mathcal{C}^\otimes$ from the [[(∞,n)-category of cobordisms]] picks a [[fully dualizable object]] $X \coloneqq Z(\ast) \in \mathcal{C}$ and then sends the $k$-[[sphere]] $S^k$ to the $k$-dimensional higher trace of the identity on $X$:
+
+$$
+  S^k \mapsto tr(id_{id_{ \cdots id_X}})
+  \,.
+$$
+
+## Related concepts
+
+* [[bicategorical trace]]
+
+
+[[!redirects higher traces]]
