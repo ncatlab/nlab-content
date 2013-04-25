@@ -239,6 +239,7 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 
   * [[semiclassical approximation]]
 
+* [[Jordan algebra]]
 
 [[!include Isbell duality - table]]
 
