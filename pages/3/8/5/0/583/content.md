@@ -412,7 +412,7 @@ $$
 
 for $V \in Op(X)$.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 In the *[[presheaf]]* topos $PSh(Op(X))= Func(Op(X)^{op},Set)$, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  
 =--
