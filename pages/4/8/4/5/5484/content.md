@@ -72,6 +72,7 @@ There are [[model category]] [[presentable (infinity,1)-category|presentations]]
 
     * [[descent in noncommutative algebraic geometry]]
 
+[[!include homotopy n-types - table]]
 
 
 
