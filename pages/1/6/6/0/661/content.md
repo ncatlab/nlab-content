@@ -145,7 +145,7 @@ Pure Appl. Algebra 80 (1992), no. 3, 237&#8211;272
 * [[Kirill Mackenzie]], _General theory of Lie groupoids and Lie algebroids_ Cambridge Univ. Press, Cambridge (2005)
 
 
-Some homotopical aspects of double groupoids and their relationship to homotopy [[2-types]] are explored in 
+Some homotopical aspects of double groupoids and their relationship to  [[homotopy 2-types]] are explored in 
 
 * [[Antonio Martínez Cegarra]]; Benjam&#305;n A. Heredia ; Josu&#233; Remedios, 
 _Double groupoids and homotopy 2-types_
