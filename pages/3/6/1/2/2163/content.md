@@ -181,10 +181,12 @@ A generalization to geometric structure on the cobordisms is discussed in
  {#Ayala}
 
 
+[[!redirects cobordism categories]]
+
 [[!redirects category of cobordisms]]
+[[!redirects categories of cobordisms]]
 
 [[!redirects Galatius-Madsen-Tillmann-Weiss theorem]]
 [[!redirects Galatius-Tillmann-Madsen-Weiss theorem]]
 [[!redirects GMWT theorem]]
 
-[[!redirects cobordism categories]]
