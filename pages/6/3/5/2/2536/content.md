@@ -232,9 +232,9 @@ true.
    is a **[[cone]]**: that is, $a \in C$ implies that every positive
 multiple of $a$ is also in $C$.  
 
-1. This cone is **[[convex]]**:
+1. This cone is **[[convex space|convex]]**:
 
-   if $a,b \in C$ then any linear combination $xa + (1-x)b$ with 
+   if $a,b \in C$ then any linear combination $x a + (1-x) b$ with 
 $0 \le x \le 1$ also lies in $C$.  
 
 1. It is an open set.  
