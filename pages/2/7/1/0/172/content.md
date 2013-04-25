@@ -153,6 +153,9 @@ $$
 
 * [[(∞,n)-sheaf]]
 
+[[!include homotopy n-types - table]]
+
+
 ## References
 
 The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there for further references.
