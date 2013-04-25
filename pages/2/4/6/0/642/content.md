@@ -1,8 +1,23 @@
-# Idea #
 
-A homotopy $3$-type is a space where we consider its properties only up to the $3$nd [[homotopy group]] $\pi_3$.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
-# Definition #
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+A homotopy $3$-type is a [[homotopy type]] where we consider its properties only up to the $3$nd [[homotopy group]] $\pi_3$, a [[homotopy n-type]] for $n = 3$
+
+## Definition 
 
 A continuous map $X \to Y$ is a **homotopy $3$-equivalence** if it induces isomorphisms on $\pi_i$ for $0 \leq i \leq 3$ at each basepoint.  Two spaces share the same **homotopy $3$-type** if they are linked by a zig-zag chain of homotopy $3$-equivalences.
 
@@ -10,7 +25,7 @@ For any nice space $X$, you can kill its homotopy groups in higher dimensions by
 
 See the general discussion in [[homotopy n-type]].
 
-#Models#
+## Models
 
 There are many useful algebraic models for a homotopy $3$-type. (Assume the homotopy type is connected for simplicity.)
 
@@ -23,5 +38,8 @@ One measure of the usefulness of a given model may be its ease of calculation (e
 
 Of course, any sufficient weak notion of $3$-[[3-groupoid|groupoid]] ought to qualify, by the [[homotopy hypothesis]].
 
+## Related concepts
+
+[[!include homotopy n-types - table]]
 
 [[!redirects homotopy 3-types]]
