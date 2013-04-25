@@ -217,6 +217,20 @@ $$
 
 =--
 
++-- {: .num_prop #FullSelfDualizabilityInSpan}
+###### Proposition
+
+Every object in $Span_n(\mathbf{H})$ is a self-[[fully duallizabe object]]. The unit/counit $k$-spans in dimension $k$ involve in top degree the spans
+
+$$
+  \ast \leftarrow X \stackrel{}{\to} [\Pi(S^k), X]
+  \,.
+$$
+
+(...)
+
+=--
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -311,6 +325,8 @@ $$
 
 
 =--
+
+As a corollary of prop. \ref{FullSelfDualizabilityInSpan} we have:
 
 +-- {: .num_prop}
 ###### Proposition
