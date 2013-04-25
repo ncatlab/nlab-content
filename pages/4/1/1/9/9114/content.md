@@ -49,13 +49,29 @@ This is summarized in the following table:
 
 ## Details
 
-(...)
 
-### Local prequantum field theory
+> under construction
 
 We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
 
-The following uses some material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
+The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on some material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
+
+The first section gives the the definitions and general properties of 
+
+* _[Local prequantum field theory](#LocalPrequantumFieldTheory)_.
+
+To digest this the reader may first or in parallel want to look at the simplest examples of these general considerations, which we discuss below in the first subsections of
+
+* _[Higher Dijkgraaf-Witten prequantum field theory](#HigherDijkgraafWittenLocalPrequantumFieldTheory)_.
+
+After that we turn to the general case of examples of 
+
+* _[Higher Chern-Simons prequantum field theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_.
+
+
+### Local prequantum field theory
+ {#LocalPrequantumFieldTheory}
+
 
 #### Bulk field theory
 
@@ -71,10 +87,21 @@ The following uses some material that is discussed more fully in ([Fiorenza-Vale
 
 
 ### Higher Dijkgraaf-Witten local prequantum field theory
+ {#HigherDijkgraafWittenLocalPrequantumFieldTheory}
+
+(...)
+
+#### 1d Dijkgraaf-Witten theory
+ {#1dDWTheory}
+
+(...)
+
+#### 3d Dijkgraaf-Witten theory
 
 (...)
 
 ### Higher Chern-Simons local prequantum field theory
+ {#HigherChern-SimonsLocalPrequantumFieldTheory}
 
 (...)
 
@@ -82,7 +109,7 @@ The following uses some material that is discussed more fully in ([Fiorenza-Vale
 
 (...)
 
-#### $d = n$, Higher Chern-Simons field theories
+#### $d = n + 0$, Higher Chern-Simons field theories
 
 (...)
 
@@ -122,6 +149,8 @@ The discussion of local topological prequantum field theory above draws from
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
 
+* [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, University of Pittsburgh (May 2013)
+ {#SchreiberPittLectures}
 
 [[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
