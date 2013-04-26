@@ -1,0 +1,12 @@
+
+
+## References
+
+From slide 63 on in 
+
+* _Equality and dependenty type theory_ [pdf](http://www.cse.chalmers.se/~coquand/equality.pdf)
+
+
+
+* Florian Rabe, Kristina Sojakova, _Logical Relations for a Logical Framework_ [pdf](http://kwarc.info/frabe/Research/RS_logrels_12.pdf)
+
