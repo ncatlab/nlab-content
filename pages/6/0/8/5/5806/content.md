@@ -136,7 +136,7 @@ $$
 
 ## References
 
-For references on 1- and 2-categories of spans see [[span]].
+For references on 1- and 2-categories of spans see at _[[span]]_.
 
 An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is in section 3.2 of 
 
@@ -148,9 +148,9 @@ there denoted $Fam_n(C)$. Notice the heuristic discussion on page 59.
 
 The generalization to an $(\infty,n)$-category $Span_n((\infty,1)Cat^Adj)$ of spans between [[cobordism hypothesis|(∞,n)-categories with duals]] is discussed on p. 107 and 108.
 
-The application of $Span_n(\infty Grpd)/C$ to the construction of [[FQFT]]s is further discussed in section 3 of 
+The application of $Span_n(\infty Grpd/C)$ to the construction of [[FQFT]]s is further discussed in section 3 of 
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], [[Topological Quantum Field Theories from Compact Lie Groups]]
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
 A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regarded as a [[tricategory]] and then as a 1-object [[tetracategory]] is in
 
