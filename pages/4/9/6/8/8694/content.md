@@ -53,3 +53,5 @@ Section 5 of
 [[!redirects electromagnetic potentials]]
 
 [[!redirects vector potential]]
+
+[[!redirects vector potentials]]
