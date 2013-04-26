@@ -63,6 +63,32 @@ If $X$ is a [[simplicial set]], then the cone of $X$ is the [[join of simplicial
 The [[mapping cone]] (q.v.) of a morphism $f \colon X \to Y$ is then the pushout along $f$ of the inclusion $X \to cone(X)$.
 
 
+### As a monad 
+
+In contexts where [[intervals]] $I$ can be treated as [[monoid]] objects, the cone construction as quotient of a cylinder with one end identified with a point, 
+
+$$C(X) = I \times X/(0 \times X) \sim p,$$ 
+
+carries a structure of [[monad]] $C$. In such cases, the monoid has a multiplicative [[identity]] $1$ and an absorbing element $0$, where multiplication by $0$ is the constant map at $0$. In that case, a $C$-algebra consists of an object $X$ together with 
+
+* An [[action]] of the monoid, $a: I \times X \to X$. 
+
+* A constant or basepoint $x_0 \colon 1 \to X$ 
+
+such that $a(0, x) = x_0$ for all $x$. This equation can be expressed in any category $\mathbf{C}$ with finite products and a suitable interval object $I$ as monoid (for example, $Top$, where $I = [0, 1]$ is a monoid under real multiplication, or under $min$ as multiplication). Under some reasonable assumptions (e.g., if the $\mathbf{C}$ has quotients, and these are preserved by the functor $I \times -$), the category of $C$-algebras will be monadic over $\mathbf{C}$ and the free $C$-algebra on $X$ will be $C(X)$ as described above. The category of $C$-algebras will also be monadic over the category of pointed $\mathbf{C}$-objects, $1 \downarrow \mathbf{C}$. 
+
+These observations apply for example to $Top$, and also to $Cat$ where the [[interval category]] $\mathbf{2}$ is a monoid in $Cat$ under the $min$ operation (see below). 
+
+If in addition the underlying category $\mathbf{C}$ is [[cartesian closed category|cartesian closed]], or more generally if $I$ is [[exponentiable object|exponentiable]], the monad $C$ on pointed $\mathbf{C}$-objects also has a [[right adjoint]] $P$ which can be regarded as a [[path space]] construction $P$, where we have a pullback 
+
+$$\array{
+P(X) & \to & 1 \\
+\downarrow & & \downarrow \\
+X^I & \stackrel{eval_0}{\to} & X.
+}$$ 
+
+For general abstract reasons, the right adjoint $P$ carries a comonad structure whereby $C$-algebras are equivalent to $P$-coalgebras. Considered over the category of simplicial sets, this is closely connected to [[decalage]]. 
+
 ### In category theory
 
 If $C$ is a category, then the cone of $C$ is the [[cocomma category]] of the identity on $C$ and the unique map to the terminal category:
