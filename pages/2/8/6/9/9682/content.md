@@ -1,0 +1,11 @@
+
+
+## Related concepts
+
+[[!include field theory with boundaries and defects - table]]
+
+## References
+
+* Wikipedia, _[Boundary conformal field theory](http://en.wikipedia.org/wiki/Boundary_conformal_field_theory)_
+
+[[!redirects boundary field theories]]
