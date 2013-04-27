@@ -109,6 +109,7 @@ Namely in terms of the Bohr topos we have the following equivalent reformulation
 
 +-- {: .standout}
 
+
 **Consistent quantum mechanical states.** A [[quasi-state]] on $A$ is precisely an ordinary [[classical state]] on $\underline{A}$, [[internalization|internal]] to $Bohr(A)$.
 
 In particular ([[Gleason's theorem]]): if $A = B(H)$ for $dim H \gt 2$ then a [[quantum state]] on the external $A$ is precisely a [[classical state]] on the internal $\underline{A}$.
@@ -143,7 +144,7 @@ $$
 
 of ringed toposes whose internal ring object has the structure of a commutative $C^\ast$-algebra. With the [[copresheaf]] thus turned into a [[presheaf]] it is natural to ask under which conditions this is a [[sheaf]]: under which conditions this presheaf satisfies [[descent]].
 
-In ([Nuiten](#Nuiten)) the following is observed: if $A$ satisfies what is called the _split property_ (a strong form of the [[time slice axiom]]) then  the Bohr-presheaf of quantum phase spaces satisfies spatial descent by [[local geometric morphism]]s precisely of the original copresheaf of observables $A : Op(X) \to C^\ast Alg$ is indeed _[[local net of observables|local]]_ -- spatially and causally. So this means that a natural property of quantum physics -- spatial and causal locality -- corresponds from the perspective of Bohr toposes to a natural property of presheaves of quantum phase spaces: [[descent]].
+In ([Nuiten](#Nuiten)) the following is observed: if $A$ satisfies what is called the _split property_ (a strong form of the [[time slice axiom]]) then  the Bohr-presheaf of quantum phase spaces satisfies spatial descent by [[local geometric morphism]]s precisely if the original copresheaf of observables $A : Op(X) \to C^\ast Alg$ is indeed _[[local net of observables|local]]_ -- spatially and causally. So this means that a natural property of quantum physics -- spatial and causal locality -- corresponds from the perspective of Bohr toposes to a natural property of presheaves of quantum phase spaces: [[descent]].
 
 One can probably view this as further suggestive evidence that indeed quantum physics is naturally regarded from the point of view of the Bohr topos. But for seeing where this perspective is headed, it seems that more insights along these lines would be useful.
 
@@ -225,6 +226,7 @@ such that every set $S \subset A$ of elements that are pairwise in $C$ is contai
 A [[homomorphism]] of partial $C^\ast$-algebra is a function preserving this structure. This defines a [[category]] $PCstar$ of partial $C^\ast$ algebras.
 
 =--
+
 
 This appears as ([vdBergHeunen, def. 11,12](#vdBergHeunen)).
 
@@ -426,7 +428,7 @@ for the $C^*$-topos whose underlying [[sheaf topos]] is that for the [[double ne
 
 =--
 
-The general notion of [[morphism]]s between [[topos]]es are [[geometric morphism]]. But those that remember the morphisms of Bohr sites are [[essential geometric morphism]]s. 
+The general notion of [[morphism]]s between [[topos]]es are [[geometric morphism]]s. But those that remember the morphisms of Bohr sites are [[essential geometric morphism]]s. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -628,7 +630,7 @@ A key aspect about the Bohr topos $Bohr(A)$ is that that _classical_ [[kinematic
 
 +-- {: .num_theorem }
 ###### Theorem 
-**(GLeason's theorem)**
+**(Gleason's theorem)**
 
 For $H$ a [[Hilbert space]] of [[dimension]] $dim H \gt 2$, and $A = B(H) \in C^\ast Alg$ its algebra of [[bounded operators]], a [[state]] on $A$ is a [[function]]
 
@@ -899,6 +901,7 @@ whose underlying geometric morphism is the identity (and whose morphism of inter
 This [[bundle]] is the $C^\ast$-topos incarnation of the morphism $\Sigma \to Alex \mathcal{C}(A)$ of locales discussed [above](ThePhaseSpace).
 
 =--
+
 
 +-- {: .num_prop }
 ###### Observation
