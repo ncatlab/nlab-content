@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A _bi-brane_ is to a [[QFT with defects|defect]] in a [[FQFT]] as a [[brane]] is to a boundary condition.
  
 The term "bi-brane" was apparently introduced in
@@ -7,7 +14,6 @@ The term "bi-brane" was apparently introduced in
 The description below approaches the concept in a slightly more abstract context.
 
 
-#Idea#
 
 The notion of  [[brane]] and [[bi-brane]] can be made very abstract, but to get the main idea it is useful to start with considering what is usually called the _geometric case_.
 
@@ -118,5 +124,8 @@ $$
 $$
 where $B$ is a [[higher group character|biconjugacy class]] of $G$.
 
+## Related concepts
+
+[[!include field theory with boundaries and defects - table]]
 
 [[!redirects bi-branes]]
