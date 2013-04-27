@@ -4,7 +4,7 @@
 
 From slide 63 on in 
 
-* _Equality and dependenty type theory_ [pdf](http://www.cse.chalmers.se/~coquand/equality.pdf)
+* [[Thierry Coquand]],_Equality and dependent type theory_ [pdf](http://www.cse.chalmers.se/~coquand/equality.pdf)
 
 
 
