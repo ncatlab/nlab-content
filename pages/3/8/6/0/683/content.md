@@ -77,7 +77,7 @@ $$
   \,.
 $$
 
-Alternative definitions can be formulated at the level of the homotopy category $W^{-1} C$ one defines a localized version $\bar{\Delta}^I : W^{-1} C\to W_I^{-1} C^I$ of the diagonal functor $\Delta^I : C\to C^I$ and define the homotopy limits and colimits as the adjoints of $\bar{\Delta}^I$ (at least at the points where the adjoints are defined). Here $W_I\subset Mor(C^I)$ are the morphisms of diagrams whose all components are in $W\subset Mor(C)$. The above definitions via derived functors (Kan extensions) follow once one applies the general theorem that the derived functors of a pair of adjoint functors are also adjoint and noticing that $(\Delta^I,\bar{\Delta}^I)$ is a morphism of localizers (and in particular that $\bar{\Delta}^I$ with the identity 2-cell is a Kan extension (simultaneously left and right)). 
+Alternative definitions can be formulated at the level of the homotopy category $W^{-1} C$ one defines a localized version $\bar{\Delta}^I : W^{-1} C\to W_I^{-1} C^I$ of the [[diagonal]] functor $\Delta^I : C\to C^I$ and define the homotopy limits and colimits as the adjoints of $\bar{\Delta}^I$ (at least at the points where the adjoints are defined). Here $W_I\subset Mor(C^I)$ are the morphisms of diagrams whose all components are in $W\subset Mor(C)$. The above definitions via derived functors (Kan extensions) follow once one applies the general theorem that the derived functors of a pair of adjoint functors are also adjoint and noticing that $(\Delta^I,\bar{\Delta}^I)$ is a morphism of localizers (and in particular that $\bar{\Delta}^I$ with the identity 2-cell is a Kan extension (simultaneously left and right)). 
 
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
@@ -374,7 +374,7 @@ for the functor that sends everything to the identity on the singleton set. This
 
 #### General formula
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 With the above assumptions and ingredients, the homotopy colimit over $F : D \to C$ is given either by 
@@ -409,7 +409,7 @@ This is disucssed for instance in section 4 of ([Gambino](#Gambino)).
 
 Let $D = \Delta^{op}$ be the [[opposite category]] of the [[simplex category]]. 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, SSet]$ is the the [[fat simplex]]-functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta^{op}$ under $[n]$
@@ -445,7 +445,7 @@ Let in the above general formula $D = \{a \leftarrow c \to b\}$ be the [[walking
 
 In this simple case, we have the following simple observation:
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Observation
 
 For $D$ as above, the terminal functor ${*} : D \to SSet$ is already cofibrant in $[D,SSet]_{inj}$.
@@ -454,7 +454,7 @@ For $D$ as above, the terminal functor ${*} : D \to SSet$ is already cofibrant i
 
 Moreover
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Observation
 
 For $D$ as above, a functor $F : D \to C$ is cofibrant in $[D,C]_{proj}$ if 
@@ -743,7 +743,7 @@ This example, too, is important at [[geometric function theory]].
 ### Homotopy colimits over simplicial diagrams {#OverSimplicialDiagrams}
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[simplicial set]] is the homotopy colimit over its cells.
@@ -793,8 +793,15 @@ By the [[co-Yoneda lemma]] this is [[isomorphic]] to $X$.
 
 =--
 
++-- {: .num_remark}
+###### Remark
 
-+-- {: .un_remark}
+More generally with this kind of argument it follows that generally the homotopy colimit over a simplicial diagram of simplicial sets is represented by the [diagonal simplicial set](bisimplicial+set#Diagonal) of the corresponding [[bisimplicial set]].
+
+=--
+
+
++-- {: .num_remark}
 ###### Remark
 
 This kind of argument has many immediate generalizations. For instance for $C = [K^{op}, sSet_{Quillen}]_{inj}$ the injective [[model structure on simplicial presheaves]] over any small category $K$, or any of its left [[Bousfield localization of model categories|Bousfield localizations]], we have that the cofibrations are objectwise those of simplicial sets, hence objectwise monomorphisms, hence it follows that every simplicial presheaf $X$ is the hocolim over its simplicial diagram of component presheaves.
@@ -803,7 +810,7 @@ This kind of argument has many immediate generalizations. For instance for $C = 
 
 For the following write $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]].  
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The fat simplex is Reedy cofibrant.
@@ -819,7 +826,7 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Corollary
 
 For $X \in [\Delta^{op}, C]$ a Reedy cofibrant object, the [[Bousfield-Kan map]]
@@ -848,7 +855,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $ i : \Delta_f  \hookrightarrow \Delta$ be the inclusion into the [[simplex category]] of all the monomorphisms (all the face maps).
@@ -874,7 +881,7 @@ See ([Dugger, example 18.2](#Dugger)).
 
 The following is sometimes in the literature taken as the definition of homotopy colimits of diagrams of spaces. It is one of the earliest formulas for there.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [{[functor]]. 
@@ -889,7 +896,7 @@ and using the obvious face and degeneracy maps: face maps act by mapping compone
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [[functor]]. Then the homotopy colimit of $F$ is equivalent to the [[geometric realization of simplicial topological spaces]] of $s F$:
@@ -908,7 +915,7 @@ See for instance ([Dugger, part 1](#Dugger)) for an exposition.
 
 #### Higher homotopy van Kampen theorem
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $X$ be a [[topological space]], write $Op(X)$ for its [[category of open subsets]] and let
@@ -983,7 +990,7 @@ In particular, if $C$ and $C'$ have the same underlying category but $C'$ the tr
 The following result says that a strong version of this statement is true, at least for the preservation of homotopy pullbacks.
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 Let $p : Sh(C) \to Sh(C')$ be a [[geometric morphism]] of [[Grothendieck topos]]es. Let $p^* : Sh(C') \to Sh(C)$ be the corresponding [[inverse image]] functor and let $s p^* : SSh(C') \to SSh(C)$ be its degreewise extension to functor of [[simplicial presheaf|simplicial sheaf]] categories.
