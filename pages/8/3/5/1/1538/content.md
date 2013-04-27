@@ -105,7 +105,7 @@ $$
 where the last morphism is the projection on the [[truncated|k-truncation]]. This defines a [[cocycle]] on the _space of fields_ $[\Pi(X_{n-k}), \mathbf{B}G]$ over $X_{n-k}$, which classifies some [[principal ∞-bundle]] on this space. Given a canonical [[representation]] of the _spaces of phases_ $\tau_k [\Pi(X_{n-k}), A]$ on a [[n-vector space|k-vector space]] we obtain the corresponding [[associated bundle]] over the space of fields. The $(k-1)$-category assigned by the [[extended topological quantum field theory]] to the closed $X_{n-k}$ is the category of sections of this $k$-vector bundle.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 We have
@@ -179,7 +179,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Remark
 Another proof of the isomorphism $H^{n-k}(X_{n-k},U(1))\cong U(1)$ and of the identities $H^{n-i}(X_{n-k},U(1))=0$ for $i\lt k$ can be obtained as follows. Consider the short exact sequence of locally constant sheaves of abelian groups
 $$
@@ -248,11 +248,45 @@ If $X_{n-k}$ is closed then the $k$-vector spaces associated by the TFT to $X_{n
 
 Dijkgraaf-Witten theory is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by [[Lie ∞-groupoid]]s ([[∞-stack]]s on [[CartSp]]).
 
+## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+    * [[1d Dijkgraaf-Witten theory]]
+
+  * [[2d Chern-Simons theory]]
+
+  * [[3d Chern-Simons theory]]
+
+    * **Dijkgraaf-Witten theory**
+
+    * [[2d Wess-Zumino-Witten theory]]
+
+  * [[4d Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
+  * [[AKSZ sigma-model]]
+
+
+
+
 ## References
 
 The idea originates, of course, in 
 
 * [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393,
+ {#DijkgraafWitten90}
 
 The discussion of the [[quasi-Hopf algebra]] associated with a [[group cohomology]] 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ originates in
 
@@ -271,24 +305,27 @@ and, earlier, in an unpublished manuscript of [[Paul Bressler]] (2002-2004). See
 
 A first comprehensive structural account of DW theory as a [[FQFT|functorial QFT]] was given in 
 
-* [[Dan Freed]], [[Frank Quinn]], _Chern-Simons theory with finite gauge group_ Commun.Math.Phys. __156__:435-472, 1993, [arXiv:hep-th/9111004](http://de.arxiv.org/abs/hep-th/9111004)
+* [[Daniel Freed]], [[Frank Quinn]], _Chern-Simons theory with finite gauge group_ Commun.Math.Phys. __156__:435-472, 1993, ([arXiv:hep-th/9111004](http://de.arxiv.org/abs/hep-th/9111004))
+ {#FreedQuinn93}
 
 A review is given on p. 68 of
 
 * [[Bruce Bartlett]], _Categorical aspects of topological quantum field theory_, [arXiv/math.QA/0512103](http://de.arxiv.org/abs/math.QA/0512103)
 
+First steps towards understand DW theory as an [[extended TQFT]] appear in 
 
-Discussion of DW theory as an [[extended TQFT]] is in 
+* [[Daniel Freed]], _Higher Algebraic Structures and Quantization_ Commun.Math.Phys. 159 (1994) 343-398 ([arXiv:arXiv:hep-th/9212115](http://arxiv.org/abs/arXiv:hep-th/9212115))
+ {#Freed94}
+
+Discussion aiming towards a refinement of DW theory to an [[extended TQFT]] is in 
 
 * Kevin Wray, _Extended topological gauge theories in codimension 0 and higher_ ([pdf](http://math.berkeley.edu/~kwray/papers/thesis.pdf))
 
-Recently there have been attempts to understand the structure here more systematically:
+Further conceptual refinement of this is indicated in section 3 and section 8 of
 
-Section 3 of
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2010)
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
-
-proposes a general abstract nonsense way to construct [[path integral]] quantizations for finite group theories such as DW.
+This proposes a general abstract way to construct [[path integral]] quantizations for finite group theories such as DW.
 
 For more on this see the discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/nForum/comments.php?DiscussionID=1046&Focus=8337#Comment_8337).
 
