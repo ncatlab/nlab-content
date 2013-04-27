@@ -357,14 +357,31 @@ $$
 
 Generally, for $n$-dimensional cobordism that are "localized" all the way to [[corners]] in codimension $n$, their field configurations and trajectories-of-trajectories etc. form $n$-dimensional cubes of spans-of-spans this way. We write $Span_n(\mathbf{H})$ for the resulting [[(∞,n)-category of spans]].
 
-In order to still have an [[action functional]] on trajectories is [[codimension]]-0 associated with this in the above fashion, we need to [[delooping|deloop]] $U(1)$ $n$-times to the [[n-groupoid]] $\mathbf{B}^n U(1)$ (the [[circle n-group|circle (n+1)-group]]). Accordinly a local prequantum field theory in dimension $n$ is given by a [[monoidal (∞,n)-functor]]
+In order to still have an [[action functional]] on trajectories is [[codimension]]-0 associated with this in the above fashion, we need to [[delooping|deloop]] $U(1)$ $n$-times to the [[n-groupoid]] $\mathbf{B}^n U(1)$ (the [[circle n-group|circle (n+1)-group]]). Accordingly a local prequantum field theory in dimension $n$ is given by a [[monoidal (∞,n)-functor]]
 
 $$
   S \colon Bord_n^\otimes \to Span_n(\mathbf{H}, \mathbf{B}^n U(1))
   \,.
 $$
 
-This we now describe more formally.
+The point of local topological (prequantum) field theory is that by the [[cobordism theorem]] the above story reverses: the assignment of fields and their action functional in higher dimension is necessarily given by [[higher traces]] of the data assigned in lower dimension. Hence the whole assignment $S$ above is fixed by its value on the point, hence by a choice of one single map
+
+$$
+  \left[
+    \array{
+      \mathbf{Fields}(\ast)
+      \\
+      \downarrow^\mathrlap{S}
+      \\
+      \mathbf{B}U(1)
+    }
+  \right]
+  \,,
+$$
+
+the fully localized action functional. Or rather, this is the case for pure bulk field theory, with no [[branes]] or [[domain walls]]. If these are present, then each type of them in dimension $k$ is specified by a [[k-morphism]] in $Span_n(\mathbf{H}, \mathbf{B}^n U(1))$.
+
+All this we now describe more formally.
 
 #### Bulk field theory
  {#BulkFieldTheory}
@@ -1357,29 +1374,41 @@ Here the [[action functional]] on the right  sends a [[field configuration]] $g 
 
 ## References
 
-Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
+The idea of formulating local prequantum field theory by spans in a slice over a "space of phases" in [[higher geometry]] has been expressed in the unpublished note
 
-* _[[geometry of physics]]_
+* [[Urs Schreiber]], _[[schreiber:Nonabelian cocycles and their quantum symmetries]]_ (2008)
 
-The discussion of local topological prequantum field theory above draws from 
+A formulation of the idea for [[Dijkgraaf-Witten theory]]-type field theories is indicated in section 3 of 
 
-* [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
- {#FiorenzaValentino}
-
-* [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
-
-* [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, University of Pittsburgh (May 2013)
- {#SchreiberPittLectures}
-
-The formulation of [[infinity-Dijkgraaf-Witten theory|higher Dijkgraaf-Witten]]-type prequantum field theories as above has been suggested in section 3, section 8 of
-
-* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2010)
  {#FHLT}
 
 based on the considerations in section 3.2 of 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ (2009).
  {#LurieTFT}
+
+Based on the general formulation of the more general [[QFT with defects|field theory with defects]] described in section 4.3 there, in
+
+* [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
+ {#FiorenzaValentino}
+
+the structure of such [[domain walls]]/defects/[[branes]] are analyzed in the prequantum theory, hence with coefficients in an [[(∞,n)-category of spans]].
+
+The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+
+Much of the content of this entry here are or arose as lecture notes for
+
+* [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
+ {#SchreiberPittLectures}
+
+This forms one section of the more comprehensive lecture notes at
+
+* _[[geometry of physics]]_
+
+
 
 [[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
