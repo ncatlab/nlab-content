@@ -74,7 +74,7 @@ to encode the decoration prescription in the FFRS description of [[conformal fie
 
 ## Related concepts
 
-* [[brane]], [[bi-brane]]
+[[!include field theory with boundaries and defects - table]]
 
 ## References
 
@@ -100,3 +100,5 @@ Quantum field theory on [[manifolds with corners]] is discussed in
 
 [[!redirects defect]]
 [[!redirects defects]]
+
+[[!redirects field theory with singularities]]
