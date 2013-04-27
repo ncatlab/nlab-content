@@ -1,0 +1,14 @@
+[[!redirects domain walls]]
+
+## Related concepts
+
+[[!include field theory with boundaries and defects - table]]
+
+
+* [[wall crossing]]
+
+
+## References
+
+* Wikipedia, _[Domain wall](http://en.wikipedia.org/wiki/Domain_wall)_
+
