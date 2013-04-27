@@ -13,6 +13,16 @@ blah
 
 block me if you can
 
+
+
+The following is a quick review of 
+basics of [[groupoids]] and 
+their [[homotopy theory]] ([[homotopy 1-type]]-theory), 
+geared towards the examples and facts that 
+are needed for the discussion of 
+[[1d Dijkgraaf-Witten theory]]. 
+
+
 Nr. 433, ZMP-HH/12-5
 
 ***
