@@ -1,3 +1,5 @@
+Thierry Coquand is a professor in computer science at the University of Gothenburg, Sweden.
+
 
 * [webpage](http://www.cse.chalmers.se/~coquand/)
 
