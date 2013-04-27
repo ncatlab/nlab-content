@@ -31,6 +31,8 @@ In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collect
 
 * [[boundary of a simplex]]
 
+* [[corner]]
+
 [[!include chains and cochains - table]]
 
 
