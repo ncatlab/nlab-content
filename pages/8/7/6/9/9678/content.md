@@ -1,0 +1,2 @@
+
+* In [[physics]] on [[manifolds with boundary]] or with [[domain walls]], [[branes]], [[QFT with defects|defects]], etc. that piece of [[worldvolume]]/[[spacetime]] away from all these singularies (the remaining [[interior]]) is often called the _bulk_ of [[worldvolume]]/[[spacetime]]. Accordingly, the sector of [[field theory]] applying to the bulk is sometimes called the _[[bulk field theory]]_, in contrast to the [[boundary field theory]].
