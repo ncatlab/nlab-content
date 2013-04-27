@@ -132,9 +132,9 @@ After sketching out the general
 
 we formulate first 
 
-* _[Bulk field theory](#BulkFieldTheory)_
+* _[Bulk field theory](#BulkFieldTheory)_,
 
-which concerns the case where the [[worldvolume]]/[[spacetime]] on which the [[field (physics)|physical fields]] propagate has no [[boundaries]] with boundaries conditions imposed (no "[[branes]]" or "[[QFT with defects|defects]]"). So the main point of this section is to see how the "space of fields" -- or rather: the [[moduli stack]] of fields -- on a point induces the corresponding spaces/moduli stacks of fields on an arbitrary [[closed manifold]], and, correspondingly, how the [[prequantum n-bundle]] on the space over fields over the point induces the [[action functional]] in [[codimension]] 0.
+which concerns the case where the [[worldvolume]]/[[spacetime]] on which the [[field (physics)|physical fields]] propagate has no [[boundaries]] with [[boundary conditions]] imposed (no "[[branes]]" or "[[domain walls]]" or "[[QFT with defects|defects]]"). The point of this section is to see how the "space of fields" -- or rather: the [[moduli stack]] of fields -- on a point induces the corresponding spaces/moduli stacks of fields on an arbitrary [[closed manifold]], and, correspondingly, how the [[prequantum n-bundle]] on the space over fields over the point induces the [[action functional]] in [[codimension]] 0.
 
 However, what makes local prequantum field theory rich is that it naturally incorporates extra structure on [[boundaries]] of [[worldvolume]]/[[spacetime]]. In fact, under suitable conditions there is another local prequantum field theory just over the boundary, which is related to the corresponding bulk field theory possibly by a kind of [[holographic principle]]. This general mechanism we discuss in 
 
@@ -143,6 +143,10 @@ However, what makes local prequantum field theory rich is that it naturally inco
 But plain boundaries are just the first example of a general phenomenon known as "[[QFT with defects|defects]]" or "phase dualities" or "singularities" in field theories. Notably the boundary field theory itself may have boundaries, in which case this means that the original theory had _[[manifold with corners|corners]]_ where different boundary pieces meet. This we discuss in 
 
 * _[Corner field theory](#CornerFieldTheory)
+
+Generally there are fields theories with general such singularties:
+
+[[!include field theory with boundaries and defects - table]]
 
 
 #### Idea
@@ -252,7 +256,24 @@ $$
   \,.
 $$
 
-Apart from the field configurations themselves, prequantum field theory assigns to each [[trajectory]] a "[[phase]]" -- an element in the [[circle group]] $U(1)$ -- by a map called the (exponentiated) [[action functional]]. In order to nicely relate that to the expression of spaces of trajectories as [[spans]]/[[correspondences]] as above, it is useful to think of the [[circle group]] here as being the [[automorphisms]] of something. This is universally accomplished by taking it to be the automorphsims of the unique point in the [[delooping]] [[groupoid]] $\mathbf{B}U(1)$.
+Apart from the field configurations themselves, prequantum field theory assigns to each [[trajectory]] a "[[phase]]" -- an element in the [[circle group]] $U(1)$ -- by a map called the (exponentiated) [[action functional]]. In order to nicely relate that to the expression of spaces of trajectories as [[spans]]/[[correspondences]] as above, it is useful to think of the [[circle group]] here as being the [[automorphisms]] of something. This is universally accomplished by taking it to be the automorphsims of the unique point in the [[delooping]] [[groupoid]] $\mathbf{B}U(1) = \{\ast \stackrel{c \in U(1)}{\to} \ast\}$. (A lightning review of [[groupoid]]-[[homotopy theory]] is below in [Groupoids and basic homotopy 1-type theory](#GroupoidsAndBasicHomotopy1TypeTheory)). In other words, we think of the group of phases $U(1)$ as the space of [[homotopies]] from the point to itself in the [[Eilenberg-MacLane space]] $\mathbf{B}U(1)$, expressed by the [[diagram]] (a [[homotopy fiber product]] diagram)
+
+$$
+  \array{
+    && U(1)
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast 
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+
+Using this, if we assume for simplicity that the in- and outgoing field configurations are sent constantly to the point in $\mathbf{B}U(1)$, then an (exponentiated) [[action functional]] on the space of trajectories $\exp(i S) \colon \mathbf{Fields} \to U(1)$ is equivalently a [[homotopy]] as shown on the left of the following diagram
 
 $$
   \array{
@@ -274,7 +295,7 @@ $$
   \array{
     && \mathbf{Fields}
     \\
-    && \downarrow
+    && \downarrow^{\mathrlap{\exp(i S)}}
     \\
     && U(1)
     \\
@@ -288,6 +309,8 @@ $$
   }
   \,.
 $$
+
+Hence action functioals are naturally incorporated into [[spans]]/[[correspondences]] of [[moduli spaces]] of fields simply by regarding these to be formed not in the ambient [[topos]] $\mathbf{H}$ itself, but in its [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)}$, where each object is equipped with a map to $\mathbf{B}U(1)$ and each morphism with a [[homotopy]] in $\mathbf{B}U(1)$ between the corresponding maps.
 
 We write $\mathrm{Span}_1(\mathbf{H}, \mathbf{B}U(1))$ for the category of spans/correspondences as before, but now equipped with maps to and transformations over $\mathbf{B}U(1)$ as in the above diagram. 
 
