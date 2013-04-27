@@ -370,7 +370,8 @@ the sense of def. \ref{LocalPrequantumFieldTheory}.
 We give an expository discussion of this example and in the course of it
 introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
 
-$\;$
+##### Finite gauge groups 
+
 
 A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (regarded here as a [[discrete group]]).
 In order to regard this as an [[action functional]], 
@@ -404,7 +405,11 @@ $$
   }
   \,.
 $$
+
 Regarded this way, we say the [gauge group acting on the single field $\phi_0$ forms a _[[groupoid]]_, whose single _[[object]]_ is $\phi_0$ and whose set of _[[morphisms]]_ is $G$. 
+
+
+##### Groupoids and basic homotopy 1-type theory
 
 +-- {: .num_defn }
 ###### Definition
@@ -705,6 +710,281 @@ appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
 
 =--
 
+##### Correspondences of groupoids 
+
++-- {: .num_defn}
+###### Definition
+
+Write [[Grpd]] for the [[(2,1)-category]] whose
+
+* [[objects]] are [[groupoids]] $\mathcal{G}$;
+
+* [[morphisms]] are [[functors]] $f \colon \mathcal{G} \to \mathcal{K}$;
+
+* [[2-morphisms]] are [[homotopies]] between these.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $Span_1(Grpd)$ for the [[(2,1)-category]] whose
+
+* [[objects]] are [[groupoids]];
+
+* [[morphisms]] are [[spans]] of [[functors]]
+
+  $$
+    \array{
+     A
+      &\leftarrow&
+      X
+      &\rightarrow&
+     B
+     }
+     \,;
+  $$
+
+* [[2-morphisms]] are [[diagrams]] of the form
+
+  $$
+    \array{  
+      && X_1
+      \\
+      & \swarrow &\downarrow& \searrow
+      \\
+      A &\seArrow& \downarrow^{\mathrlap{\simeq}} &\swArrow& B
+      \\
+      & \nwarrow &\downarrow& \nearrow
+      \\
+      && X_2
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .num_prop #GroupoidInSpanOneIsSelfDual}
+###### Proposition
+
+Every [[groupoid]] $X \in Grpd \hookrightarrow Span_1(Grpd)$ 
+is a [[dualizable object]] in 
+$Span_1(Grpd)$, and in fact is self-dual.
+
+The [[evaluation map]] is given by the [[span]]
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && && [\Pi_1(S^0),\mathbf{B}G] &\simeq& \mathbf{B}G \times \mathbf{B}G
+  }
+$$
+
+and the [[coevaluation map]] by the reverse span.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in Grpd \hookrightarrow Span_1(Grpd)$ any object,
+the [[trace]] of the [[identity]] on it is its 
+[[free loop space object]], prop. \ref{FreeLoopSpaceOfGroupoid}:
+
+$$
+  tr(id_X) \simeq 
+  \left(
+    \array{
+      && [\Pi_1(S^1), X]
+      \\
+      & \swarrow && \searrow
+      \\
+      \ast && && \ast
+    }
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{GroupoidInSpanOneIsSelfDual}
+the [[trace]] of the identity is given by the composite span
+
+$$
+  \array{
+    && && X \underset{[\Pi_1(S^1), X]}{\times} X
+    \\
+    && & \swarrow &\swArrow& \searrow
+    \\
+    && X && && X
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    \ast
+    &&
+    &&
+    [\Pi_1(S^0),X]
+    &&
+    &&
+    \ast
+  }
+  \,.
+$$
+
+By prop. \ref{FreeLoopSpaceOfGroupoid} we have
+
+$$
+  X \underset{[\Pi_1(S^1), X]}{\times} X
+  \simeq [\Pi_1(S^1), X]
+  \,.
+$$
+
+=--
+
+##### 1d DW local field theory 
+
++-- {: .num_defn}
+###### Definition
+
+Write $Span_1(Grpd, \flat\mathbf{B}U(1))$
+for the [[(2,1)-category]] whose
+
+* [[objects]] are [[groupoids]] $X$ equipped with a morpism
+
+  $$
+    \left[
+      \array{
+         X
+         \\
+         \downarrow^{\mathrlap{f}}
+         \\
+         \mathbf{B}\flat U(1)
+      }
+    \right]
+  $$
+
+* [[morphisms]] are [[spans]] $X_1 \leftarrow Y \rightarrow X_2$ equipped with a [[homotopy]] $\phi$ in 
+
+  $$
+    \array{
+       && Y
+       \\
+       & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+       \\
+       X_1 && \swArrow_{\phi} && X_2
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}\flat U(1)
+    }
+  $$
+
+* [[2-morphisms]] are ...
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+$Span_1(Grpd, \mathbf{B}\flat U(1))$ carries the structure of a
+[[symmetric monoidal (infinity,n)-category|symmetric monoidal (2,1)-category]] where the [[tensor product]] is given by
+
+$$
+  \left[
+    \array{  
+       X_1
+       \\
+       \downarrow^{\mathrlap{f_1}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \otimes
+  \left[
+    \array{  
+       X_2
+       \\
+       \downarrow^{\mathrlap{f_2}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+    \array{  
+       X_1 \times X_2
+       \\
+       \downarrow^{\mathrlap{f_1 \circ p_1 + f_2 \circ p_2}}
+       \;\;\;\;\;\;\;\;
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every object 
+
+$$
+  \left[
+    \array{  
+       X
+       \\
+       \downarrow^{\mathrlap{f}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+  \in Span_1(Grpd,\mathbf{B}\flat U(1))
+$$
+
+is a [[dualizable object]], with dual object 
+
+$$
+  \left[
+    \array{  
+       X
+       \\
+       \downarrow^{-\mathrlap{f}}
+       \\
+       \mathbf{B}\flat U(1)
+    }
+  \right]
+$$
+
+and with [[evaluation map]] given by
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\mathrlap{\simeq}} && X \times X
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{f \circ p_1 - f \circ p_2}}
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -739,15 +1019,48 @@ The prequantum field theory defined by a [[group character]]
 
 $$
   \array{
-    \ast && && [\Pi_1(S^0),\mathbf{B}G]
+    && && [\Pi_1(S^1), \mathbf{B}G]
     \\
-    & {}_{\mathllap{0}} \searrow &&  
+    && & \swarrow && \searrow
     \\
-    && \flat \mathbf{B}U(1)
+    && \mathbf{B}G && \swArrow && \mathbf{B}G
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    \ast && && \mathbf{B}G \times \mathbf{B}G && && \ast
+    \\
+    &{}_0\searrow & && \downarrow^{\mathrlap{S(p_1) - S(p_2)}}
+    &&& \swarrow_{0}
+    \\
+    &&&& \mathbf{B}\flat U(1)
   }
+  \;\;\;
+   \simeq
+  \;\;\;
+  \array{
+    && [\Pi(S^1), \mathbf{B}G]
+    \\
+    && \downarrow^{\mathrlap{c}}
+    \\
+    && \flat U(1)
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}\flat U(1)
+  }
+  \;\;\;
 $$
 
+
 =--
+
+(...)
+
+#### 2d Dijkgraaf-Witten theory
 
 (...)
 
