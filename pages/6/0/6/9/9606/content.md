@@ -5,6 +5,6 @@
 
 * [[poset of commutative subalgebras]]
 
-category: peope
+category: people
 
 [[!redirects J. Hamhalter]]
