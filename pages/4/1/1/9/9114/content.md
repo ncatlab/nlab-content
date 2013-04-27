@@ -74,9 +74,9 @@ After that we turn to the general case of examples of
 ### The ambient topos
  {#TheTopos}
 
-Prequantum field theory deals with "spaces of [[field (physics)|physical fields]]". These spaces of fields are, in general, richer than just plain [[sets]] in two ways
+Prequantum field theory deals with "spaces of [[field (physics)|physical fields]]". These spaces of [[field (physics)|fields]] are, in general, richer than just plain [[sets]] in two ways
 
-1. Spaces of fields carry [[geometry|geometric]] structure, notably they may be [[smooth spaces]], meaning that there is a way to determine which collections of fields form a smoothly parameterized collection. This is for instance the structure invoked (often implicitly) when performing [[variational calculus]] on spaces of fields in order to find their classical [[equations of motion]]. 
+1. Spaces of [[field (physics)|fields]] carry [[geometry|geometric]] structure, notably they may be [[smooth spaces]], meaning that there is a way to determine which collections of [[field (physics)|fields]] form a smoothly parameterized collection. This is for instance the structure invoked (often implicitly) when performing [[variational calculus]] on spaces of [[field (physics)|fields]] in order to find their classical [[equations of motion]]. 
 
 1. Spaces of fields have [[gauge transformations]] between their points and possibly [[higher gauge transformations]] between these, meaning that they are in fact [[groupoids]] and possibly [[infinity-groupoid|higher groupoids]]. In the physics literature this is best known in the [[infinitesimal object|infinitesimal]] approximation to these gauge transformations, in which case the spaces of fields are described by [[BRST complexes]]: the dg-algebras of functions on a [[Lie algebroid]] or [[L-∞ algebroid]] of fields.
 
@@ -389,7 +389,7 @@ All this we now describe more formally.
 We now first consider the formalization of prequantum field theory
 in the absence of any data such as [[boundary conditions]], [[domain walls]], [[branes]], [[QFT with defects|defects]], etc. This describes either field theories in which no such phenomena are taken to be present, or else it describes that part of those field theories where such phenomena are present in principle, but restricted to the "[[bulk]]" of [[worldvolume]]/[[spacetime]] where they are not. Therefore it makes sense to speak of _bulk field theory_ in this case.
 
-+-- {: .num_defn}
++-- {: .num_defn #nCategoryOfCobordisms}
 ###### Definition
 
 For $n \in \mathbb{N}$, write
@@ -398,7 +398,7 @@ $$
   Bord_n^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
 $$
 
-for the [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category of cobordisms|of cobordisms]] with $n$-dimensional framing. For $S \to O(n)$ a homomorphism of [[∞-groups]] (may be modeled by a homomorphism of [[topological groups]]) to the [[general linear group]] (or homotopy-equivalently its [[maximal compact subgroup]], the [[orthogonal group]]), we write 
+for the [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category of cobordisms|of cobordisms]] with $n$-dimensional [[framed manifold|framing]]. For $S \to O(n)$ a homomorphism of [[∞-groups]] (may be modeled by a homomorphism of [[topological groups]]) to the [[general linear group]] (or homotopy-equivalently its [[maximal compact subgroup]], the [[orthogonal group]]), we write 
 
 $$
   (Bord_n^S)^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
@@ -424,7 +424,7 @@ because a [[framing]] of the $n$-stabilized tangent bundle is a trivialization o
 +-- {: .num_remark}
 ###### Remark
 
-The [[cobordism theorem]] asserts, essentially, that $Bord_n$ is the [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects|full duals]] which is [[free construction|free]] on a single generator, the point. In itself this is a deep statement about the [[homotopy type]] of [[categories of cobordisms]]. But for the following discussion the reader may just take this as the _definition_ of $Bord_n$. This then makes this a very simple object, as long as we are just mapping out of it, which we do.
+The [[cobordism theorem]] asserts, essentially, that $Bord_n$ is the [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects|full duals]] which is [[free construction|free]] on a single generator, the point. In itself this is a deep statement about the [[homotopy type]] of [[categories of cobordisms]]. But for the following discussion the reader may just take this as the _definition_ of $Bord_n$. This then makes $Bord_n$ a very simple object, as long as we are just mapping out of it, which we do.
 
 What this means then is that a [[monoidal (∞,n)-functor]] 
 
@@ -443,7 +443,7 @@ and so on.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CorrespondencesInInfinityTopos}
 ###### Definition
 
 For $\mathbf{H}$ an [[∞-topos]], and $n \in \mathbb{N}$, write 
@@ -464,7 +464,7 @@ $$
 +-- {: .num_prop #FullSelfDualizabilityInSpan}
 ###### Proposition
 
-Every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]]. The unit/counit $k$-spans in dimension $k$ involve in top degree the spans
+Every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]]. The [[evaluation map]]/[[coevaluaton map]] $k$-spans in dimension $k$ involve in top degree the spans
 
 $$
   \ast \leftarrow X \stackrel{}{\to} [\Pi(S^k), X]
@@ -475,10 +475,10 @@ $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CorrespondencesOverB}
 ###### Definition
 
-For $B \in Grp(\mathbf{H})$ an [[abelian ∞-group]] object in $\mathbf{H}$, spans in the [[slice (∞,1)-topos]]  $\mathbf{H}_{/B}$ inherit a monoidal structure given on objects by
+For $B \in Grp(\mathbf{H})$ an [[abelian ∞-group]] object in $\mathbf{H}$, spans in the [[slice (∞,1)-topos]]  $\mathbf{H}_{/B}$ inherits a monoidal structure given on objects by
 
 $$  
   \otimes
@@ -521,23 +521,31 @@ for the resulting [[symmetric monoidal (∞,n)-category]].
 +-- {: .num_remark}
 ###### Remark
 
-In the case that $\mathbf{H} = $ [[∞Grpd]] this is a special case of ([LurieTFT, around prop. 3.2.8](#LurieTFT)), with the [[∞-group]] $B$ regarded as a special case of a [[symmetric monoidal (∞,1)-category]]. 
+In the case that $\mathbf{H} = $ [[∞Grpd]] this is a special case of ([LurieTFT, around prop. 3.2.8](#LurieTFT)), with the [[abelian ∞-group]] $B$ regarded as a special case of a [[symmetric monoidal (∞,1)-category]]. 
 
 =--
 
-The central definition in the present context now is the following
++-- {: .num_remark}
+###### Remark
 
-+-- {: .num_defn #LocalPrequantumFieldTheory}
+Since the [[slice (∞,1)-category]] $\mathbf{H}_{/\flat \mathbf{B}^n U(1)}$ is itself an [[(∞,1)-topos]] -- the [[slice (∞,1)-topos]] -- we also have $Span_n(\mathbf{H}_{/\flat \mathbf{B}^n U(1)})$, according to def. \ref{CorrespondencesInInfinityTopos}. As an [[(∞,n)-category]] this is equivalent to $Span_n(\mathbf{H}, \flat \mathbf{B}^n U(1))$ from def. \ref{CorrespondencesOverB}, but the [[monoidal (∞,n)-category|monoidal structure]] is different. The [[cartesian product]] in the slice is given by [[homotopy fiber product]] in $\mathbf{H}$ over $\flat \mathbf{B}^n U(1)$, not by the addition in the [[∞-group]] structure on $\flat \mathbf{B}^n U(1)$, as in def. \ref{CorrespondencesOverB}.
+
+=--
+
+The central definition in the present context now is the following.
+
++-- {: .num_defn #LocalPrequantumFieldWithAction}
 ###### Definition
 
-A **local prequantum bulk field** in [[dimension]] $n \in \mathbb{N}$ is a [[monoidal (∞,n)-functor]]
+A **local prequantum bulk [[field (physics)|field]]** in [[dimension]] $n \in \mathbb{N}$ (in a given ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$) is a [[monoidal (∞,n)-functor]]
 
 $$
-  \mathbf{Fields} \colon Bord_n^\otimes \to Span_n(\mathbf{H})
-  \,.
+  \mathbf{Fields} \;\colon\; Bord^S_n \to Span_n(\mathbf{H})
 $$
 
-A **local action functional** on a local prequantum bulk field is a lift $S$ of this in 
+from the [[(∞,n)-category of cobordisms]] (with [[G-structure|S-structure]]), def. \ref{nCategoryOfCobordisms}, to the [[(∞,n)-category of n-fold correspondences]] in $\mathbf{H}$.
+
+A **local action functional** on such a local prequantum bulk [[field (physics)|field]] is a monoidal lift $S$ of this in 
 
 $$
   \array{
@@ -545,7 +553,7 @@ $$
      \\
      & {}^{\mathllap{S}}\nearrow & \downarrow^{\mathrlap{Span_n\left(\underset{\flat \mathbf{B}^n U(1)}{\sum}\right)}}
      \\
-     Bord_n 
+     Bord_n^S 
      &\underset{\mathbf{Fields}}{\to}&
      Span_n(\mathbf{H})
   }
@@ -588,6 +596,24 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+By the defining property of the [[mapping stack]] construction, this means that if $\mathcal{C}$ is an [[(∞,1)-site]] of definition of the [[(∞,1)-topos]] $\mathbf{H}$, then $[\Pi(\Sigma_k), \mathbf{Fields}]$ is the [[∞-stack]] which to $U \in \mathcal{C}$ assigns the [[(∞,1)-categorical hom space]]
+
+$$
+  [\Pi(\Sigma_k), \mathbf{Fields}](U) \simeq
+  \mathbf{H}(\Pi(\Sigma_k)\times U , \mathbf{Fields})
+  \,,
+$$
+
+hence the [[∞-groupoid]] of fields on $\Pi(\Sigma_k) \times U$. 
+
+If $\mathbf{Fields}$ is a [[moduli ∞-stack]] of [[gauge fields]] for some [[smooth ∞-group]] $G$, hence of the form $\mathbf{B}G_{conn}$, then this an $\infty$-groupoid of a kind of smoothly (or else geometrically) $U$-parameterized collections of [[flat ∞-connections]] on $\Sigma_k$.
+
+=--
+
+(...)
 
 #### Boundary field theory
  {#BoundaryFieldTheory}
