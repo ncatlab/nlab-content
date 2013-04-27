@@ -53,7 +53,7 @@ This is summarized in the following table:
 
 We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
 
-The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
+The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([hCSlpQFT](#hCSlpQFT)).
 
 After a technical prelimiray to set the stage in 
 
@@ -629,7 +629,27 @@ If $\mathbf{Fields}$ is a [[moduli ∞-stack]] of [[gauge fields]] for some [[sm
 ### Higher Dijkgraaf-Witten local prequantum field theory
  {#HigherDijkgraafWittenLocalPrequantumFieldTheory}
 
-(...)
+We discuss here aspects of higher [[Dijkgraaf-Witten theory]]-type 
+prequantum field theories, which are those prequantum field theories 
+whose moduli stack $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] 
+(and usually also required to be finite, especially if its [[quantization]] is considered).
+This is a special case of the higher Chern-Simons theories discussed below in _[Higher Chern-Simons local prequantum field theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_, and hence strictly speaking need not be discussed separately. We use it here as a means to review some of the relevant [[homotopy theory]] by way of pertinent examples.
+
+The original [[Dijkgraaf-Witten theory]] is that in dimension 3
+(reviewed in 
+_[3d Local prequantum field theory](#3dDWLocalPrequantumFieldTheory)_ below), which 
+was introduced in 
+([Dijkgraaf-Witten 90](Dijkgraaf-Witten+theory#DijkgraafWitten90)) as a toy version of standard 3d [[Chern-Simons theory]] for [[simply connected topological space|simply connected]] [[gauge group]]. 
+A comprehensive account with first indications of its role as a local (extended, multi-tiered) field theory
+then appeared in 
+([Freed-Quinn 93](Dijkgraaf-Witten+theory#FreedQuinn93)), and ever since this has served as a testing ground for understanding the general principles of local field theory, e.g. 
+([Freed 94](Dijkgraaf-Witten+theory#Freed94)), 
+independently of the subtleties of giving meaning to concepts such as the path integral when the space of fields is not finite.
+In section 3 of ([FHLT 10](#FHLT)) the general prequantum formalization as in  def. \ref{LocalPrequantumFieldWithAction} 
+is sketched for Dijkgraaf-Witten type theories, 
+and in section 8 there the quantization of these
+theories to genuine local quantum field theories is sketched.
+
 
 #### 1d Dijkgraaf-Witten theory
  {#1dDWTheory}
@@ -691,6 +711,8 @@ Regarded this way, we say the [gauge group acting on the single field $\phi_0$ f
 
 ##### Groupoids and basic homotopy 1-type theory
  {#GroupoidsAndBasicHomotopy1TypeTheory}
+
+The following is a quick review of basics of 
 
 +-- {: .num_defn }
 ###### Definition
@@ -1359,8 +1381,27 @@ Here the [[action functional]] on the right  sends a [[field configuration]] $g 
 (...)
 
 #### 3d Dijkgraaf-Witten theory
+ {#3dDWLocalPrequantumFieldTheory}
 
-(...)
+The [[group character]] $c : G \to U(1)$ which defines 
+1-dimensional prequantum Dijkgraaf-Witten theory
+in [1d Dijkgraaf-Witten theory](#1dDWTheory) is equivalently a [[cocycle]] in degree-1 [[group cohomology]]
+
+$$
+  [c] \in H_{\mathrm{Grp}}(G,U(1))
+  \,.
+$$
+
+In view of this it is plausible that one may interpret a cocycle in degree-$n$ group cohomology, for 
+all $n \in \mathbb{N}$ as a higher order [[action functional]]
+$\mathbf{B}G \to \flat\mathbf{B}^n U(1)$ and induce an 
+$n$-dimensional local prequantum Dijkgraaf-Witten-type theory
+from it. 
+
+Here we review how to formalize this and then consider the
+example of DW theory in dimension 3.
+
+
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
@@ -1424,6 +1465,7 @@ the structure of such [[domain walls]]/defects/[[branes]] are analyzed in the pr
 The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+ {#hCSlpQFT}
 
 Much of the content of this entry here are or arose as lecture notes for
 
