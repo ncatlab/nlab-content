@@ -1,1 +1,1 @@
-category: empty
+[[!redirects Test-PQFT]]
