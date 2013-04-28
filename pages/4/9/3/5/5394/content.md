@@ -57,7 +57,7 @@ The assignment to a noncommutative algebra $A$ of a [[locale]] $\underline{\Sigm
 +-- {: .num_lemma}
 ###### Observation
 
-The poset of copmmutative subalgebras $C(A)$ is always an (unbounded) meet-[[semilattice]]. If $A$ itself is commutative then it is a bounded meet semilattice, with $A$ itself being the top element.
+The poset of commutative subalgebras $C(A)$ is always an (unbounded) meet-[[semilattice]]. If $A$ itself is commutative then it is a bounded meet semilattice, with $A$ itself being the top element.
 
 =--
 
