@@ -713,17 +713,37 @@ The following is a quick review of basics of [[groupoids]] and their [[homotopy 
 +-- {: .num_defn #Groupoid}
 ###### Definition
 
-A _[[groupoid]]_ $\mathcal{G}_\bullet$ is ...
+A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
 
-$$
-  \array{
-    \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
-    &\stackrel{\circ}{\to}&
-    \mathcal{G}_1
-    & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
-    \mathcal{G}_0
-  }\,.
-$$
+* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+      &\stackrel{\circ}{\to}&
+      \mathcal{G}_1
+      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+      \mathcal{G}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
+
+* every morphism has an [[inverse]] under this composition.
 
 =--
 
@@ -1412,13 +1432,22 @@ example of DW theory in dimension 3.
 
 ##### $\infty$-Groupoids and basic homotopy theory
 
-+-- {: .num_defn }
+We briefly recall here some basic definitions and facts of [[∞-groupoids]] and their [[homotopy theory]], geared towards their use in 3-dimensional [[Dijkgraaf-Witten theory]] and generally in [[∞-Dijkgraaf-Witten theory]].
+
+
++-- {: .num_defn #NerveOfGroupoid}
 ###### Definition
 
-For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write $\mathbb{G}_n \coloneqq \mathbb{G}_1^{\times_{\mathbb{G}_0}^n}$ for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
 
 $$
-  \mathbb{G}_n = 
+  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
+$$ 
+
+for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+
+$$
+  \mathcal{G}_n = 
   \left\{
     x_0 
       \stackrel{f_1}{\to} 
@@ -1433,86 +1462,47 @@ $$
   \,.
 $$
 
-For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$-maps
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
 
 $$
   d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
   \,.
 $$
 
-Moreover, the maps $s_i$ that insert an identity morphism in position $i$ constitute maps
+Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
 
 $$
-  d_i \colon \mathcal{G}_{n-1} \to \mathcal{G}
+  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
   \,.
 $$
 
-These collections of maps are such that (...) the [[simplicial identities]] hold.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]]. Moreover, they make $N(\mathcal{G}_\bullet)$ a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
 
 =--
 
-In order to capture this more generally we say:
 
 +-- {: .num_defn }
 ###### Definition
-
-A [[simplicial set]] $X_\bullet$ is a sequence of sets $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps (...) such that the [[simplicial identities]] hold. (...)
-
-=--
 
 The [[nerve]] operation constitutes a [[full and faithful functor]]
 
 $$
-  N \colon Grpd \to sSet
-  \,.
-$$
-
-But the image of this nerve has more special properties
-
-
-+-- {: .num_prop }
-###### Proposition
-
-For each [[horn]] $\Lambda^n_i \to N(\mathbb{G}_\bullet)$
-there is a unique extension to an $n$-[[simplex]]
-
-$$
-  \array{
-    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
-    \\
-    \downarrow & \nearrow
-    \\
-    \Delta^n
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn }
-###### Definition
-
-A [[simplicial set]] $X$ is called a _[[Kan complex]]_ or 
-_[[∞-groupoid]]_ if for every $n$-[[horn]] $\Lambda^n_i \to X$
-there exists an extension to an $n$-[[simplex]]
-
-$$
-  \array{
-    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists}}
-    \\
-    \Delta^n
-  }
+  N \colon Grpd \to KanCplx \hookrightarrow sSet
   \,.
 $$
 
 
 =--
+
 
 ##### Homological algebra and abelian $\infty$-groups
 
-(...)
+An important class of examples of [[∞-groupoids]] are those which are presented under the [[Dold-Kan correspondence]] by [[chain complexes]] of abelian groups.
 
 [[Dold-Kan correspondence]]
 
@@ -1537,7 +1527,7 @@ $$
 For $n \in \mathbb{N}$ write
 
 $$
-  \mathbf{B}^n U(1) \coloneqq DK([U(1)[n]])
+  \mathbf{B}^n U(1) \coloneqq DK(U(1)[n])
   \,.
 $$
 
@@ -1608,9 +1598,24 @@ This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this c
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
 
-(...)
+
+We here discuss higher locl prequantum field theories of the type of 3-dimensional [[Chern-Simons theory]]. These subsume the [[∞-Dijkgraaf-Witten field theories]] which we discussed [above](HigherDijkgraafWittenLocalPrequantumFieldTheory), and generalize them from dsicrete geometry to more generally [[cohesion|cohesive]] geometry.
+
 
 #### $d = n + 1$, Universal topological Yang-Mills theory
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \Omega^{n}_{cl} \in SmoothSpace \hookrightarrow Smooth \infty Grpd
+$$
+
+for the [[sheaf]] of closed smooth [[differential forms]] of degree $n$, regarded as a [[smooth space]], regarded as a [[smooth ∞-groupoid]].
+
+=--
 
 (...)
 
