@@ -22,7 +22,7 @@
 ## Idea
  {#Idea}
 
-The notion of _sieve_ is a generalization of that of (right) _[[ideal]]_ from [[monoids]] to [[categories]]:
+The notion of _sieve_ is a generalization of that of (right) _[[ideal in a monoid]]_ from [[monoids]] to [[categories]]:
 a **sieve on** an [[object]] $X$ in a [[category]] $\mathcal{C}$ is a collection of [[morphisms]] with [[codomain]] $X$ that are closed under [[composition|precomposition]] with morphisms in $\mathcal{C}$.
 
 Sometimes one says that a **sieve in** a category $\mathcal{C}$ is a [[full subcategory]] closed under precomposition with morphisms in $\mathcal{C}$ ([Lurie, def. 6.2.2.1](#Lurie)). If so, then a _sieve on_ an object $X$ is a _sieve in_ the [[slice category]] $\mathcal{C}_{/X}$. But a _sieve in_ a category is also naturally taken to be a collection of _sieves on_ various objects. On the other hand, most authors speak just about _sieves on_ an object anyway.
