@@ -28,7 +28,7 @@ At the same time, the notion of a Kan complex is an abstraction of the structure
 More in detail, a Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
 
 
-Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\mathcal{}G_\bullet$, a $k$-cell is given by a sequence of [[morphisms]] of the form $\{0\to 1\to \ldots \to k\}$, thought of as a $k$-[[simplex]] by taking its $(k-1)$-faces to be the the sequences obtained from this by deleting the first or the last morphism or by composing two consecutive morphisms in the sequence. 
+Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\mathcal{G}_\bullet$, a $k$-cell is given by a sequence of [[morphisms]] of the form $\{0\to 1\to \ldots \to k\}$, thought of as a $k$-[[simplex]] by taking its $(k-1)$-faces to be the the sequences obtained from this by deleting the first or the last morphism or by composing two consecutive morphisms in the sequence. 
 
 Hence generally, in a Kan complex a $k$-face of an $(k+1)$-[[simplex]] may be thought of as the [[composition]] of the remaining faces, all regarded as [[k-morphisms]]. But unless the Kan complex is the [[nerve]] of a [[groupoid]] (a [[1-groupoid]]), there is in general not a unique such composite. Indeed, _choosing_ one of the fillers of each horn in a Kan complex to be _the_ composite means passing from Kan complexes to an [[algebraic definition of higher category|algebraic model]] for [[∞-groupoids]], _[[algebraic Kan complexes]]_.
 
