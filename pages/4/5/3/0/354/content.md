@@ -537,7 +537,7 @@ section 1.2.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-An early mention of this idea was in a letter from [[Tim Porter]] to [[Grothendieck]] dated 16/6/1983.  
+An early mention of this idea was in a [[16-06-1983.pdf|letter:file]] from [[Tim Porter]] to [[Grothendieck]] dated 16/6/1983.  
 
 
 For background on the general relation of simplicial- and globular sets see also the references at [[oriental]]. 
