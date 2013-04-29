@@ -39,6 +39,9 @@ For instance the associativity law in an [[A-infinity algebra]] is the special c
 
 * In a [[monoidal category]] associativity is the statement that the [[associator]] satisfies its [[coherence law]], which is true by a [[coherence theorem]].
 
+## Related concepts
+
+* [[unitality]]
 
 [[!redirects associativity]]
 [[!redirects associativity law]]
