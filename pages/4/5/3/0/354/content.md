@@ -19,6 +19,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The notion of a _Kan complex_ is an abstraction of the combinatorial structure found in the [[singular simplicial complex]] of a [[topological space]]. There the existence of [[retractions]] of any geometric [[simplex]] to any of its [[horns]] -- simplices missing one face and their interior -- means that all [[horns]] in the singular complex can be filled with genuine simplices, the _Kan filler condition_.
 
@@ -27,7 +28,7 @@ At the same time, the notion of a Kan complex is an abstraction of the structure
 More in detail, a Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
 
 
-Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\mathcal{}G_\bullet$, a $k$-cell is given by a sequence of [[morphisms]] of the form $\{0\to 1\to \ldots \to n\}$, thought of as a $k$-[[simplex]] by taking its $(k-1)$-faces to be the the sequences obtained from this by deleting the first or the last morphism or by composing two consecutive morphisms in the sequence. 
+Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\mathcal{}G_\bullet$, a $k$-cell is given by a sequence of [[morphisms]] of the form $\{0\to 1\to \ldots \to k\}$, thought of as a $k$-[[simplex]] by taking its $(k-1)$-faces to be the the sequences obtained from this by deleting the first or the last morphism or by composing two consecutive morphisms in the sequence. 
 
 Hence generally, in a Kan complex a $k$-face of an $(k+1)$-[[simplex]] may be thought of as the [[composition]] of the remaining faces, all regarded as [[k-morphisms]]. But unless the Kan complex is the [[nerve]] of a [[groupoid]] (a [[1-groupoid]]), there is in general not a unique such composite. Indeed, _choosing_ one of the fillers of each horn in a Kan complex to be _the_ composite means passing from Kan complexes to an [[algebraic definition of higher category|algebraic model]] for [[∞-groupoids]], _[[algebraic Kan complexes]]_.
 
@@ -537,8 +538,9 @@ section 1.2.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-An early mention of this idea was in a [[16-06-1983.pdf|letter:file]] from [[Tim Porter]] to [[Grothendieck]] dated 16/6/1983.  
+An early mention of this idea was in 
 
+* [[Tim Porter]],  Letter to [[Grothendieck]], dated 16/6/1983 ([[16-06-1983.pdf|pdf:file]])
 
 For background on the general relation of simplicial- and globular sets see also the references at [[oriental]]. 
 
