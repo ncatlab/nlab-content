@@ -1,0 +1,4 @@
+
+A 3-[[simplex]].
+
+[[!redirects tetrahedra]]
