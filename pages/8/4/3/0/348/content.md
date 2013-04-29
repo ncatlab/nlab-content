@@ -15,21 +15,23 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
+ {#Idea}
 
-A **sieve in** a category $C$ is a [[full subcategory]] closed under precomposition with morphisms in $C$.
+The notion of _sieve_ is a generalization of that of (right) _[[ideal]]_ from [[monoids]] to [[categories]]:
+a **sieve on** an [[object]] $X$ in a [[category]] $\mathcal{C}$ is a collection of [[morphisms]] with [[codomain]] $X$ that are closed under [[composition|precomposition]] with morphisms in $\mathcal{C}$.
 
-A **sieve on** an object $X \in C$ is a sieve in the [[overcategory]] $C/X$: a collection of morphisms with codomain $X$ that are closed under precomposition with morphisms in $C$.
+Sometimes one says that a **sieve in** a category $\mathcal{C}$ is a [[full subcategory]] closed under precomposition with morphisms in $\mathcal{C}$ ([Lurie, def. 6.2.2.1](#Lurie)). If so, then a _sieve on_ an object $X$ is a _sieve in_ the [[slice category]] $\mathcal{C}_{/X}$. But a _sieve in_ a category is also naturally taken to be a collection of _sieves on_ various objects. On the other hand, most authors speak just about _sieves on_ an object anyway.
 
-Often in the literature the term is used just in the more specific second sense. And sieves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to present the [[presheaves]] that behave like [[covering]]s. They are used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
+_Sieves on_  objects are an equivalent way to talk about [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
-_Sieves_ are an equivalent way to talk about [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
-
-The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
+The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves.
+Accordingly, the classical examples of _sieves on_ an object are
+[[Grothendieck topologies]], used to present the [[presheaves]] that behave like [[coverings]]. They are used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
 
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
@@ -42,8 +44,9 @@ A dual notion is a [[cosieve]].
 
 Let $C$ be a [[small category]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 A _sieve $S$ in $C$_ is a functor $S \hookrightarrow C$ that is both [[fully faithful]] and a [[discrete fibration]].
 
 A _sieve on an object $c \in C$_ is a sieve in the [[slice category]] $C/c$.
@@ -51,17 +54,28 @@ A _sieve on an object $c \in C$_ is a sieve in the [[slice category]] $C/c$.
 
 Spelling this out, we arrive at the traditional definition of a sieve on an object:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A _sieve_ $S$ on an object $c \in C$ is a subset $S \subset Ob(C/c)$ of the set of objects of the [[over category]] over $c$ which is _closed under precomposition_:  it has the property that whenever $(d \to c) \in S$ and $(e \to d) \in Mor(C)$ then the composition $(e \to d \to c)$ is in $S$.
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
+
 The French term for a sieve is _crible_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up, or _saturate_ it, to obtain a sieve on $c$. 
 
-This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
+=--
+
 
 
 ## Properties
@@ -72,7 +86,7 @@ There is a canonical way to create subfunctors from sieves and sieves from subfu
 
 A [[subfunctor]] is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobjects]] in a [[presheaf]] category of [[representable functors]]. It's these subfunctors of representable functors that are in bijection with sieves.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a sieve $S$ on $c$, the **subfunctor** $F_S \hookrightarrow Y(c)$ **defined by the sieve**  is the [[presheaf]] 
@@ -82,7 +96,7 @@ Given a sieve $S$ on $c$, the **subfunctor** $F_S \hookrightarrow Y(c)$ **define
 * that assigns to each morphism $(d \to d') \in C$ the function $F_S(d') \to F_S(d)$ induced on elements by precomposition with $d \to d'$.
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given a subfunctor $F \hookrightarrow Y(c)$, the **sieve defined by the subfunctor** is given by
@@ -95,7 +109,7 @@ or equivalently
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 These two definitions establish a bijection between sieves on $c$ and subobjects of $Y(c)$.
@@ -115,7 +129,7 @@ $$
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remarks
 
 * The construction of $S_F$ makes sense for every morphism of presheaves $F \to Y(c)$. The sieve is sensitive precisely to the [[image]] of this map, 
@@ -134,7 +148,7 @@ $$g^* S = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in S\}
 * A sieve $S_F$ on $c$, for $i: F \hookrightarrow \hom(-, c)$ a subfunctor, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 The subfunctor $F_S \hookrightarrow X$ corresponding to a sieve $S$ is the [[coimage]] of the morphism out of the disjoint union of all objects (regarded as representable presheaves) in the sieve:
@@ -549,6 +563,16 @@ and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[
 * The situation for more general [[sites]] $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
 
 
+## References
+
+A standard textbook account on sieves in [[category theory]] is in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
+
+In the context of [[(∞,1)-categories]] sieves are discussed around def. 6.2.2.1 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 
 
