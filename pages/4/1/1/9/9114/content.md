@@ -1767,7 +1767,8 @@ The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its cod
 
 Much of the content of this entry here are, or arose as, lecture notes for
 
-* [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
+
+* [[Urs Schreiber]], _[[schreiber:Higher Chern-Simons theory Introduction]]_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
  {#SchreiberPittLectures}
 
 This forms one section of the more comprehensive lecture notes at
