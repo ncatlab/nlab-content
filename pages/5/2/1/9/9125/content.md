@@ -2640,9 +2640,9 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 ### Lecture notes and expositions
 
-Lecture notes containing the above material are in 
+Most of the above material as of 2013 was written as part of a lecture series
 
-* _[[geometry of physics]]_
+* [[Urs Schreiber]], _Higher Chern-Simons theory_, lecture series at _[Workshop on Topological Aspects of Quantum Field Theories, Singapore (14 - 18 Jan 2013)](http://www2.ims.nus.edu.sg/Programs/013wquantum/index.php)_ on the first sections at _[geometry of physics, II) Physics](http://ncatlab.org/nlab/show/geometry%20of%20physics#PHYSICS)_
 
 An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (∞,1)-toposes]] is in section 4 of 
 
