@@ -32,11 +32,11 @@ _Grothendieck categories_ are those [[abelian category|abelian categories]] $\ma
 
 In terms of the AB$n$ hierarchy discussed at [[additive and abelian categories]] we have
 
-A **Grothendieck category** is an [[additive and abelian categories|AB5-category]] which has a [[generator]].
+A **Grothendieck category** is an [[additive and abelian categories|AB5-category]] which has a [[separator|generator]].
 
 This means that a **Grothendieck category** is an [[abelian category|abelian]] [[small category]]
 
-* that admits a [[generator]];
+* that admits a [[separator|generator]];
 
 * that admits small [[colimits]];
 
