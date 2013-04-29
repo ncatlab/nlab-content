@@ -56,7 +56,7 @@ $$1\to N \to F \to G \to 1,$$
 
 where $F = F(X)$, the free group on the set $X$, $R$ is a 
 subset of $F$ and $N = N(R)$ is the normal closure in $F$ of the set $R$.  The group 
-$F$ acts on $N$ by conjugation: ${}^uc = ucu^{-1}, for  c\in N, u \in F$ and the 
+$F$ acts on $N$ by conjugation: ${}^u c = ucu^{-1}, for  c\in N, u \in F$ and the 
 elements of $N$ are words in the conjugates of the elements of $R$:
 
 $$c = {}^{u_1}(r_1^{\varepsilon_1}){}^{u_2}(r_2^{\varepsilon_2})\ldots 
