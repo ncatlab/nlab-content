@@ -37,6 +37,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
       * [[instanton in QCD]]
 
+      * [[confinement]]
+
       * [[quark-gluon plasma]]
 
     * [[electroweak field]]
