@@ -711,7 +711,7 @@ Regarded this way, we say the [gauge group acting on the single field $\phi_0$ f
 
 The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. 
 
-+-- {: .num_defn }
++-- {: .num_defn #Groupoid}
 ###### Definition
 
 A _[[groupoid]]_ $\mathcal{G}_\bullet$ is ...
@@ -1375,11 +1375,6 @@ Here the [[action functional]] on the right  sends a [[field configuration]] $g 
 
 #### 2d Dijkgraaf-Witten theory
 
-(...)
-
-#### 3d Dijkgraaf-Witten theory
- {#3dDWLocalPrequantumFieldTheory}
-
 The [[group character]] $c : G \to U(1)$ which defines 
 1-dimensional prequantum Dijkgraaf-Witten theory
 in [1d Dijkgraaf-Witten theory](#1dDWTheory) is equivalently a [[cocycle]] in degree-1 [[group cohomology]]
@@ -1389,7 +1384,24 @@ $$
   \,.
 $$
 
-In view of this it is plausible that one may interpret a cocycle in degree-$n$ group cohomology, for 
+More familiar are maybe cocycles in higher degree. 
+In view of the above it is plausible that one may interpret a cocycle in degree-$n$ group cohomology, for 
+all $n \in \mathbb{N}$ as a higher order [[action functional]]
+$\mathbf{B}G \to \flat\mathbf{B}^n U(1)$ and induce an 
+$n$-dimensional local prequantum Dijkgraaf-Witten-type theory
+from it. 
+
+Here we discuss the case of $n = 2$ where a group 2-cocycle is regarded as the local action functional of a 2-dimensional Digjkgraaf-Witten field theory. We use this as occasion to introduce a bit of the theory of [[2-groups]] and their [[homotopy theory]] ([[homotopy 2-type]]-theory). Below in _[3d DW theory](#3dDWLocalPrequantumFieldTheory)_ we then turn to the fully general case of [[∞-groupoid]]-theory.
+
+##### 2-Groupoids and basic homotopy 2-type theory
+
+(...)
+
+#### 3d Dijkgraaf-Witten theory
+ {#3dDWLocalPrequantumFieldTheory}
+
+
+In view of the above it is plausible that one may interpret a cocycle in degree-$n$ group cohomology, for 
 all $n \in \mathbb{N}$ as a higher order [[action functional]]
 $\mathbf{B}G \to \flat\mathbf{B}^n U(1)$ and induce an 
 $n$-dimensional local prequantum Dijkgraaf-Witten-type theory
@@ -1397,6 +1409,138 @@ from it.
 
 Here we review how to formalize this and then consider the
 example of DW theory in dimension 3.
+
+
+##### $\infty$-Groupoids and basic homotopy theory
+
++-- {: .num_defn }
+###### Definition
+
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write $\mathbb{G}_n \coloneqq \mathbb{G}_1^{\times_{\mathbb{G}_0}^n}$ for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+
+$$
+  \mathbb{G}_n = 
+  \left\{
+    x_0 
+      \stackrel{f_1}{\to} 
+    x_1
+      \stackrel{f_2}{\to}
+    x_2
+      \stackrel{f_2}{\to}
+    \cdots
+      \stackrel{f_n}{\to}
+    x_n
+  \right\}
+  \,.
+$$
+
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$-maps
+
+$$
+  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
+  \,.
+$$
+
+Moreover, the maps $s_i$ that insert an identity morphism in position $i$ constitute maps
+
+$$
+  d_i \colon \mathcal{G}_{n-1} \to \mathcal{G}
+  \,.
+$$
+
+These collections of maps are such that (...) the [[simplicial identities]] hold.
+
+=--
+
+In order to capture this more generally we say:
+
++-- {: .num_defn }
+###### Definition
+
+A [[simplicial set]] $X_\bullet$ is a sequence of sets $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps (...) such that the [[simplicial identities]] hold. (...)
+
+=--
+
+The [[nerve]] operation constitutes a [[full and faithful functor]]
+
+$$
+  N \colon Grpd \to sSet
+  \,.
+$$
+
+But the image of this nerve has more special properties
+
+
++-- {: .num_prop }
+###### Proposition
+
+For each [[horn]] $\Lambda^n_i \to N(\mathbb{G}_\bullet)$
+there is a unique extension to an $n$-[[simplex]]
+
+$$
+  \array{
+    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
+    \\
+    \downarrow & \nearrow
+    \\
+    \Delta^n
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+A [[simplicial set]] $X$ is called a _[[Kan complex]]_ or 
+_[[∞-groupoid]]_ if for every $n$-[[horn]] $\Lambda^n_i \to X$
+there exists an extension to an $n$-[[simplex]]
+
+$$
+  \array{
+    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists}}
+    \\
+    \Delta^n
+  }
+  \,.
+$$
+
+
+=--
+
+##### Homological algebra and abelian $\infty$-groups
+
+(...)
+
+[[Dold-Kan correspondence]]
+
+(...)
+
+
+##### Group cohomology and local action functionals
+
+
++-- {: .num_prop }
+###### Proposition
+
+For $G$ a [[discrete group]] and $A$ a discrete [[abelian group]], there is a natural isomorphism
+
+$$
+  H_{Grp}^n(G,A) \simeq \pi_0 Grpd_\infty(\mathbf{B}G, \mathbf{B}^n A)
+$$
+
+between the degree-$n$ [[group cohomology]] of $G$ with [[coefficients]] in $A$ and the connected components of maps of [[∞-groupoids]] from the [[delooping]] of $G$ to the $n$-fold [[delooping]] of $A$. 
+
+=--
+
+...
+
+##### 3d DW local field theory
+
+(...)
 
 
 
@@ -1410,6 +1554,7 @@ example of DW theory in dimension 3.
 (...)
 
 #### $d = n + 0$, Higher Chern-Simons field theories
+
 
 (...)
 
