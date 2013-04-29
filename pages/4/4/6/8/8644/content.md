@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
 =--
 =--
 
@@ -17,7 +21,7 @@
 
 In [[QCD]] [[instanton]] configurations of the [[gauge field]] control the experimentally observed [[vacuum]] structure of the theory.
 
-One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to a Euclidean $\mathbb{R}^4$ and assumes the [[field strength]] to vanish beyond some finite radius. This makes the gauge field configurations be equivalently $SU(3)$-[[principal connections]] on the 4-[[sphere]] $S^4$. The [[second Chern class]] of the underlying $SU(3)$-[[principal bundle]] is called the [[Yang-Mills instanton]]-number of the gauge field configuration. The theoretical/experimentally observed [[vacuum]] of [[QCD]] is some [[superposition]] of gauge fields in various instanton number sectors.
+One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to a Euclidean $\mathbb{R}^4$ and assumes the [[field strength]] to [[vanish at infinity]]. This makes the gauge field configurations be equivalently $SU(3)$-[[principal connections]] on the 4-[[sphere]] $S^4$. The [[second Chern class]] of the underlying $SU(3)$-[[principal bundle]] is called the [[Yang-Mills instanton]]-number of the gauge field configuration. The theoretical/experimentally observed [[vacuum]] of [[QCD]] is some [[superposition]] of gauge fields in various instanton number sectors.
 
 In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
 
@@ -29,10 +33,21 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 
 ## References
 
-* T. Schaefer, E. Shuryak, _Instantons in QCD_,  	Rev.Mod.Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
+A good survey is in 
+
+* T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
  {#SchaeferShuryak}
 
+  section III D: relation to [[confinement]]
+
+
+See also the survey in 
+
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+Further developments on the role of instantons/[[monopoles]] in the QCD vacuum for [[confinement]] are discussed in
+
+* _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
 [[!redirects instantons in QCD]]
 [[!redirects instanton in quantum chromodynamics]]
@@ -46,4 +61,6 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 
 [[!redirects QCD instanton]]
 [[!redirects QCD instantons]]
+
+[[!redirects instanton sea]]
 
