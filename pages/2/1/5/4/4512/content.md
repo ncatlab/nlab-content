@@ -1,8 +1,8 @@
 ## Motivation
 
-The original motivation was the functorial [[Maschke's theorem]] over rings and its various cousins: namely the classical Maschke's theorem about finite group rings over fields, generalizes to the statements that when the order of the group is invertible in the ground ring then the spliting of an exact sequence of $kG$-module can be obtained functorially from its spliting as an exact sequence of 
+The original motivation was the functorial [[Maschke's theorem]] over rings and its various cousins: namely the classical Maschke's theorem about finite group rings over fields, generalizes to the statements that when the order of the group is invertible in the ground ring then the splitting of an exact sequence of $kG$-module can be obtained functorially from its splitting as an exact sequence of 
 $k$-modules.
-Functors similar to the forgetful functor ${}_k Mod\to {}_{kG}Mod$ in a sense of 
+Functors similar to the forgetful functor ${}_{kG} Mod\to {}_{k}Mod$ in the sense of 
 having such a functorial Maschke's property are abstracted into the notion of a separable functor.
 
 Similar phenomena appear in the study of ring extensions $f: R\to S$: such a ring extension is separable iff the extension of scalars $M\mapsto S\otimes_R M$ is a separable functor. 
