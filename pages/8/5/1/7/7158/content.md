@@ -3,4 +3,8 @@ For the moment see [[polyhedron]].
 
 (...)
 
+## Related pages
+
+* [[triangle]]
+
 [[!redirects polygons]]
