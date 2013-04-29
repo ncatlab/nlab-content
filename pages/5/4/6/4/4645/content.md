@@ -59,7 +59,7 @@ We end by indicating how under [[Lie integration]] this lifts to the full [[∞-
 ## Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
 We assume here that the reader has a working knowledge of [[groupoid]]s and at least a rough idea of [[2-groupoid]]s. We first use these notions to motivate some constructions, before discussing the
-formalization of [[∞-groupoid]] in terms of [[Kan complex]]es.
+formalization of [[∞-groupoid]] in terms of [[Kan complexes]].
 
 
 ### Ordinary smooth principal bundles {#PrincipalBundles}
@@ -749,9 +749,9 @@ These groupoids $\tilde P$ are in the literature known as [[nonabelian bundle ge
 
 We have seen [above](#PrincipalBundles) that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and [then](#Cech2Cocycles) that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
 
-A comprehensive discussion of such [[∞-Lie groupoid]]s is given there. In this introduction here we will just briefly describe the main _tool_ for _modelling_ these and describe principal $\infty$-bundles in this model. See also [[models for ∞-stack (∞,1)-toposes]].
+A comprehensive discussion of such [[∞-Lie groupoids]] is given there. In this introduction here we will just briefly describe the main _tool_ for _modelling_ these and describe principal $\infty$-bundles in this model. See also [[models for ∞-stack (∞,1)-toposes]].
 
-We first look at bare [[∞-groupoid]]s and then discuss how to equip these with smooth structure.
+We first look at bare [[∞-groupoids]] and then discuss how to equip these with smooth structure.
 
 An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
 
@@ -778,7 +778,7 @@ as well as specifying
 * functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
   that send $n+1$-morphisms to their boundary $n$-morphisms;
 
-* functionss $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
+* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
   that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
   on them.
 
