@@ -52,7 +52,7 @@ There are also combinatorial notions of _disks_. For instance that due to ([Joya
 
 A simple result on the _homeomorphism_ type of _closed_ balls is the following:  
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem 
 A [[compact space|compact]] [[convex subset|convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty set|nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
 =-- 
@@ -74,7 +74,7 @@ So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ be
 
 By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. For, we may assume every point in the closure is connected to the origin by a line segment in the closure. Steps 1 and 2 above hold without modification, and as for step 3, for any open neighborhood of the line segment between the origin and $w$, any convex open subneighborhood of the segment contains $v$ as an interior point. 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 Any compact convex set $D$ of $\mathbb{R}^n$ is homeomorphic to a disk. 
 =-- 
@@ -89,7 +89,7 @@ $D$ has nonempty interior relative to its affine span which is some $k$-plane, a
 
 Open balls are a little less rigid than closed balls, in that one can more easily manipulate them within the _smooth_ category: 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 The open $n$-ball is [[homeomorphic]] and even [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^n$
@@ -131,7 +131,7 @@ So the open $n$-ball is naturally a ([[smooth manifold|smooth]]) [[manifold]]. A
 
 From very general existence results about [[smooth structure]]s on [[Cartesian space]]s we have that
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 In [[dimension]] $d \in \mathbb{N}$ for $d \neq 4$ we have:
@@ -143,28 +143,28 @@ every open subset of $\mathbb{R}^d$ which is [[homeomorphic]] to $\mathbb{B}^d$ 
 See the first page of ([Ozols](#Ozols)) for a list of references. 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In dimension 4 the analog statement fails due to the existence of [[exotic smooth structure]]s on $\mathbb{R}^4$. See [De Michelis-Freedman](#DeMFreed). 
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesian space]]. Then $C$ is [[diffeomorphic]] to $\mathbb{R}^n$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Proof/Remark
 
 This is a _folk theorem_ . But explicit proofs in the literature are very hard to find. See the discussion at [Refereces](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).  
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 
