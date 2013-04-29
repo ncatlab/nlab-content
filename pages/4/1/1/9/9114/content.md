@@ -1501,6 +1501,7 @@ $$
 
 
 ##### Homological algebra and abelian $\infty$-groups
+ {}
 
 An important class of examples of [[∞-groupoids]] are those which are presented under the [[Dold-Kan correspondence]] by [[chain complexes]] of abelian groups.
 
@@ -1508,6 +1509,10 @@ An important class of examples of [[∞-groupoids]] are those which are presente
 
 
 (...)
+
++-- {: .num_defn #DoldKanMap}
+###### Definition
+
 
 $$
   DK \;\colon\; 
@@ -1520,6 +1525,8 @@ $$
   sSet
   \,.
 $$
+
+=--
 
 +-- {: .num_defn }
 ###### Definition
@@ -1598,13 +1605,63 @@ This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this c
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
 
+By def. \ref{LocalPrequantumFieldWithAction}, a local prequantum [[bulk]] field theory in dimension $(n+1)$ is equivalently a morphism of the form 
 
-We here discuss higher locl prequantum field theories of the type of 3-dimensional [[Chern-Simons theory]]. These subsume the [[∞-Dijkgraaf-Witten field theories]] which we discussed [above](HigherDijkgraafWittenLocalPrequantumFieldTheory), and generalize them from dsicrete geometry to more generally [[cohesion|cohesive]] geometry.
+$$
+  \mathbf{Fields} \to \flat \mathbf{B}^{n+1}U(1)
+  \,,
+$$
+
+for any object $\mathbf{Fields} \in \mathbf{H}$. 
+
+First we observe in in 
+
+* _[Universal topological Yang-Mills theory](#TopologicalYangMillsLocalPrequantumFieldTheory)_
+
+that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction} shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What exactly this means is then seem in 
+
+* _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_
+
+where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantm field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_.
+
+
+
+
 
 
 #### $d = n + 1$, Universal topological Yang-Mills theory
+ {#TopologicalYangMillsLocalPrequantumFieldTheory}
 
-+-- {: .num_defn }
+
++-- {: .num_prop }
+###### Proposition
+
+The canonical [[chain map]]
+
+$$
+  \array{  
+    U(1)_{disc} &\to& 0 &\to& 0 &\to& \cdots &\to& 0
+    \\
+    \downarrow && \downarrow && \downarrow && \cdots && \downarrow
+    \\
+    C^\infty(-,U(1)) &\stackrel{d log}{\to}& \Omega^1 &\stackrel{d}{\to}& \Omega^2 &\stackrel{d}{\to}& \cdots &\to& \Omega^n_{cl}
+  }
+  \,,
+$$
+
+where the left map includes the sheaf of (locally) constant $U(1)$-valued functions into that of all $U(1)$-valued smooth functions, is a [[stalk]]-wise [[quasi-isomorphism]]. Hence under the [[Dold-Kan correspondence]], def. \ref{DoldKanMap}, both present the same [[smooth ∞-groupoid]]
+
+$$
+  \flat \mathbf{B}^n U(1) \simeq \mathbf{B}^n \flat U(1)
+  \in Smooth\infty Grpd
+  \,.
+$$
+
+=--
+
+Accordingly we have a canonical inclusion:
+
++-- {: .num_defn #ClosedFormsInDeRhamCoefficients}
 ###### Definition
 
 For $n \in \mathbb{N}$, write
@@ -1613,13 +1670,46 @@ $$
   \Omega^{n}_{cl} \in SmoothSpace \hookrightarrow Smooth \infty Grpd
 $$
 
-for the [[sheaf]] of closed smooth [[differential forms]] of degree $n$, regarded as a [[smooth space]], regarded as a [[smooth ∞-groupoid]].
+for the [[sheaf]] of closed smooth [[differential forms]] of degree $n$, regarded as a [[smooth space]], regarded as a [[smooth ∞-groupoid]]. Write
+
+$$
+  \Omega^{n}_{cl} \to \flat \mathbf{B}^n U(1)
+$$
+
+for the image in morphisms of [[Smooth∞Grpd]] under the [[Dold-Kan correspondence]], def. \ref{DoldKanMap}, of the [[chain map]]
+
+$$
+  \array{  
+    0 &\to& 0 &\to& 0 &\to& \cdots &\to& \Omega^{n+1}_{cl}
+    \\
+    \downarrow && \downarrow && \downarrow && \cdots && \downarrow^{\mathrlap{id}}
+    \\
+    C^\infty(-,U(1)) &\stackrel{d log}{\to}& \Omega^1 &\stackrel{d}{\to}& \Omega^2 &\stackrel{d}{\to}& \cdots &\to& \Omega^n_{cl}
+  }
+  \,,
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The map $\Omega^n_{cl} \to \flat \mathbf{B}^n U(1)$ in def. \ref{ClosedFormsInDeRhamCoefficients} may be characterized more abstractly as follows:
+
+for every [[smooth manifold]] $\Sigma$, theinduced morphism of [[mapping spaces]]
+
+$$
+  [\Sigma, \Omega^n_{cl}] \to [\Sigma, \flat \mathbf{B}^n U(1)]
+$$
+
+is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected components]].
 
 =--
 
 (...)
 
 #### $d = n + 0$, Higher Chern-Simons field theories
+ {#HigherChernSimonsPrequantumFieldTheory}
 
 
 (...)
@@ -1670,7 +1760,7 @@ Based on the general formulation of the more general [[QFT with defects|field th
 
 the structure of such [[domain walls]]/defects/[[branes]] are analyzed in the prequantum theory, hence with coefficients in an [[(∞,n)-category of spans]].
 
-The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
+The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[schreiber:∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
  {#hCSlpQFT}
