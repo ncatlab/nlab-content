@@ -712,6 +712,8 @@ Regarded this way, we say the [gauge group acting on the single field $\phi_0$ f
 ##### Groupoids and basic homotopy 1-type theory
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
+Will this work
+
 The following is a quick review of basics of 
 
 +-- {: .num_defn }
