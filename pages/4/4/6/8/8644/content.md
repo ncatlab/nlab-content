@@ -32,14 +32,20 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
   * [[BPTS-instanton]]
 
 ## References
+ {#References}
 
-A good survey is in 
+Physics-style  surveys include the introductory lecture notes
 
-* T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
- {#SchaeferShuryak}
+* Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
+
+and the fairly detailed account (with lot of pointers to the literature)
+
+* T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
 
   section III D: relation to [[confinement]]
+  {#SchaeferShuryak}
 
+* Dmitri Diakonov, _Chiral Symmetry Breaking by Instantons_ ([arXiv:hep-ph/9602375](http://arxiv.org/abs/hep-ph/9602375))
 
 See also the survey in 
 
