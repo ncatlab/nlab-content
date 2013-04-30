@@ -964,10 +964,13 @@ A clear discussion of the BV-complex as a means for homological [[path integral]
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
 
+Related Chern-Simons type graded action functionals are discussed also in 
 
-Recent lectures, discussing also the connection to the [[graph complex]]:
+* M.V. Movshev, [[Albert Schwarz]], _Generalized Chern-Simons action and maximally supersymmetric gauge theories_ ([arXiv:1304.7500](http://arxiv.org/abs/1304.7500))
 
-* Jian Qiu, Maxim Zabzine, _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680); _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234); _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
+Lectures, discussing also the relation to the [[graph complex]] are
+
+* Jian Qiu, [[Maxim Zabzine]], _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680); _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234); _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
 * Klaus Fredenhagen, Katarzyna Rejzner, _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, [arxiv/1110.5232](http://arxiv.org/abs/1110.5232)
 
 #### For non-Lagrangian theories
