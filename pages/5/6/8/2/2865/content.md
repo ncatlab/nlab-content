@@ -40,7 +40,7 @@ The general localization result is apparently due to
 
 which considers the [[?ech cover]]-localization assuming $V$ to be [[monoidal category|monoidal]] and
 
-* [[Joseph Ayoub]], _Les six op&#233;ration de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivic_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF)) 
+* [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF)) 
 
 which apparently does the [[hypercover]] [[descent]] and without assuming $V$ to be monoidal.
 
