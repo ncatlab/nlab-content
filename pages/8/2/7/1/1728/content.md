@@ -78,6 +78,8 @@ to encode the decoration prescription in the FFRS description of [[conformal fie
 
 ## References
 
+### General
+
 A general formulation via an [[(infinity,n)-category of cobordisms]] with defects is in section 4.3 of 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
@@ -97,6 +99,27 @@ Defects in [[Chern-Simons theory]] and related systems are discussed in
 Quantum field theory on [[manifolds with corners]] is discussed in
 
 * [[Hisham Sati]], _Corners in M-theory_, J.Phys.A44:255402,2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
+
+Examples in physics of interaction of defects of various dimension is discussed in
+
+* Muneto Nitta, _Defect formation from defect--anti-defect annihilations_,  	Phys.Rev.D85:101702,2012 ([arXiv:1205.2442](http://arxiv.org/abs/1205.2442)) 
+
+### Topological defects in gauge theories
+
+Discussion of "topological defects in [[gauge theory]]" in higher codimension is in
+
+* [[John Preskill]], [[Alexander Vilenkin]], _Decay of Metastable Topological Defects_, Phys. Rev. D47 : 2324-2342 (1993) ([arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210))
+
+* [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+
+
+### In solid state physics
+
+Defects field theory motivated from [[solid state physics]] is discussed in
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Models for gapped boundaries and domain walls_ Commun. Math. Phys. 313 (2012) 351-373  ([arXiv:1104.5047](http://arxiv.org/abs/1104.5047))
+ {#KitaevKong11}
+
 
 [[!redirects defect]]
 [[!redirects defects]]
