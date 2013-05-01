@@ -62,9 +62,83 @@ Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for 
 
 ### Topological defects in gauge theory with broken symmetry
 
-An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) notion in the context of [[FQFT]] -- is that of [[cosmic string]]-type defects that may appear in [[gauge theory]] in the presnce of [[spontaneously broken symmetry]] (a comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94)). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now show this may be translated to the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
+> under construction
+
+An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) general notion in the context of [[FQFT]] -- is that of [[cosmic string]]-type defects that may appear in [[gauge theory]] in the presnce of [[spontaneously broken symmetry]] (a comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94)). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now show this may be translated to the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
+
+Let $G$ be a [[Lie group]], to be thought of as the (local or global) [[gauge group]] of some [[gauge theory]]. Let $H \hookrightarrow G$ a [[subgroup]], to be thought of as the subgroup of global symmetries preserved by some [[vacuum]] configuration (which "[[spontaneous symmetry breaking|spontaneously breaks]]" the symmetry from $G$ to $H$, the archetypical example is the [[Higgs mechanism]]). 
+
+Then the space of such vacuum configurations is the [[coset]] space $G/H$. So given a [[manifold]] $X$ ([[spacetime]]), [[vacuum]] configuratons are given by [[functions]] $X \to G/H$. Hence $G/H_1$ is the "[[moduli space]] of vacua" or "vacuum space" in this context.
+
+The functions $X \to G/H$ are to be [[smooth functions]] in the [[bulk]] of spacetime. If they are allowed to be non-smooth or even non-[[continuous function|continuous]] along given strata of $X$, then these are called **defects** in the sense of broken gauge symmetry.
+
+In particular (with counting adapted to $dim X = 4$)
+
+* if $X \to G/H$ is not smooth but is smooth on the pre-image of each element of $\pi_0(G/H)$ and becomes a smooth function on $X-S_1$ where $S_1 \hookrightarrow X$ is a [[codimension]]-1 [[submanifold]], then $S_1$ is said to be a [[domain wall]] for vacuum configurations.
+
+* if $X \to G/H$ is not smooth but becomes smooth on $X-S_2$, where $S_2$ is a codimension-2 submanifold, then $S_2$ is calld a [[cosmic string]]-defect of the vacuum configurations;
+
+* if $X \to G/H$ is not smooth but becomes smooth on $X-S_3$, where $S_3$ is a codimension-3 submanifold, then $S_3$ is calld a [[monopole]]-defect of the vacuum configurations.
+
+> hm, need to fine-tune the technical conditions here, to make the following statement come out right...
+
+
+So 
+
+* domain walls can appear when $\pi_0(G/H)$ is non-trivial;
+
+* cosmic strings can appear when $\pi_1(G/H)$ is non-trivial;
+
+* monopoles can appear when $\pi_2(G/H)$ is non-trivial.
+
+
+Next consider a sequence of subgroups
+
+$$
+  H_2 \hookrightarrow H_1 \hookrightarrow H_0 \coloneqq G
+$$
+
+to be thought of as coming from two consecutive steps of [[spontaneous symmetry breaking]], the first one down to $H_1$ at some [[energy]]-scale $E_1$, and the second at some lower energy scale $E_2 \lt E_1$.
+
+Then we say that vacuum defects at energy $E_2$ of codimension-$k$ which wind around an element $\pi_k(H_1/H_2)$ are **metastable** if they become unstabe at energy $E_1$, hence if their image in $\pi_k(H_0/H_2)$ is trivial.
+
+So if we add to the singular cobordism category the $k$-morphism which is the $k$-dimenional unit cube with an open $k$-[[ball]] removed, then the boundary field data for metastable codimension $n-k$-defects is
+
+
+$$
+  \array{
+     [0,1]^k - D^k &\to & \Pi(H_1/H_2)
+     \\
+     \downarrow &\swArrow& \downarrow
+     \\
+     [0,1]^k &\to& \Pi(H_0/H_2) &\to& \Pi(H_0/H_1)
+  }
+$$
+
+we have a [[homotopy fiber sequence]]
+
+$$
+  \Pi(H_1/H_2) \to \Pi(H_0/H_2) \to \Pi(H_0/H_1)
+  \,.
+$$
+
+This induces a [[long exact sequence of homotopy groups]]
+
+$$
+   \cdots \to \pi_{k+1}(H_0/H_1) \to \pi_k(H_1/H_2) \to \pi_k(H_0/H_2) \to \pi_k(H_0/H_1)
+  \to 
+  \pi_{k-1}(H_1/H_2) \to \cdots
+  \,.
+$$
+
+So for every metastable defect of codimension $n-k$ given by $c \in ker(\pi_k(H_1/H_2) \to \pi_k(H_0/H_2))$ there is an element in $\pi_{k+1}(H_0/H_1)$ of one codimension higher. We say that the codimenion $(n-k)$-defect may end on that codimension $(n-k-1)$-defect.
 
 (...)
+
+(...)
+
+
+
 
 ## Related concepts
 
