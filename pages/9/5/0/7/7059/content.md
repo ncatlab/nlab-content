@@ -45,7 +45,7 @@ called
 
 * [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]],
 
-where $&#643;$ and $\sharp$ are [[idempotent monad|idempotent]] [[monads (in computer science)|monadss]] and where $\flat$ is an idempotent [[comonad]], subject to some compatibility condition.
+where $&#643;$ and $\sharp$ are [[idempotent monad|idempotent]] [[monads (in computer science)|monads]] and where $\flat$ is an idempotent [[comonad]], subject to some compatibility condition.
 
 ### A) Codiscrete objects
 
