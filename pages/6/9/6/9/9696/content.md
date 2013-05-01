@@ -1,0 +1,6 @@
+
+* [webpage](http://www.theory.caltech.edu/~preskill/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Preskill)
+
+category: people
