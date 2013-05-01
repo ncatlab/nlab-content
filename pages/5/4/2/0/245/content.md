@@ -101,11 +101,7 @@ However, unlike the definition of a monoidal category as a [[bicategory]] with o
 
 
 A commutative [[monoid]] is the same as a monoid [[internalization|in the category of]] monoids.
-Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result probably goes back to Joyal and Street.
-
-+--{.query}
-Reference, anyone?
-=--
+Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result goes back to the [1986 paper by Joyal and Street](http://maths.mq.edu.au/~street/JS1.pdf).
 
 A braided monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little 2-cubes operad]].
 
@@ -148,7 +144,7 @@ There is a [[strict 2-category]] BrMonCat with:
 
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]].  The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
 
-* [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://rutherglen.ics.mq.edu.au/~street/JS86.pdf), _Macquarie Math Reports_ **860081** (1986). 
+* [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://maths.mq.edu.au/~street/JS1.pdf), _Macquarie Math Reports_ **860081** (1986). 
 
 * [[André Joyal]] and [[Ross Street]], _Braided tensor categories_ , Adv. Math. **102** (1993), 20--78.
 
