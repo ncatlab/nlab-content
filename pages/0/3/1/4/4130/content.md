@@ -69,7 +69,7 @@ $$
 
 =--
 
-A review is for instance around ([Fiore-Paoloi def. 3.1](#FiorePaoli)).
+A review is for instance around ([Fiore-Paoli def. 3.1](#FiorePaoli)).
 
 
 ## Properties
