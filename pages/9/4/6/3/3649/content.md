@@ -27,6 +27,8 @@ The notion of jet space or _[[jet bundle]]_ is a generalization of the notion of
 
 * [[metric jet]]
 
+* [[h-principle]]
+
 ## References
 
 Jet bundles were first introduced by [[Charles Ehresmann]].
