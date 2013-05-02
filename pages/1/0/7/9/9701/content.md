@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _clutching construction_ is the construction of a $G$-[[principal bundle]] on an [[n-sphere]] from a [[cocycle]] in $G$-[[Cech cohomology]] given by the [[covering]] of the $n$-sphere by two semi-$n$-spheres that overlap a bit at the equator, and one single transition function on that equator $S^{n-1} \to G$.
+
+## Related concepts
+
+* [[QCD instanton]], [[Yang-Mills instanton]]
+
+## References
+
+For instance page 22 of 
+
+* [[Alan Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+
+* Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
+
