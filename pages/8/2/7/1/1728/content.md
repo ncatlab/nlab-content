@@ -60,7 +60,8 @@ The statement of the **cobordism theorem with singularities** ([Lurie, theorem 4
 Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for every choice of [[pasting diagram]] of [[k-morphisms]] for all $k$, there is a type of manifolds with singularity $Def$, such that $Bord_n^Def$ is the free symmetric monoidal $(\infty,n)$-category on this data, hence such that TFTs with defects $(Bord_n^Def)^\otimes \to \mathcal{C}^\otimes$ are equivalently given by realizing such a pasting diagram in $\mathcal{C}$, where each of the given [[k-morphism]] appears as the value of a codimension $(n-k)$-defect. (See also [Lurie, remark 4.3.14](#Lurie)).
 
 
-### Topological defects in gauge theory with broken symmetry
+### Topological defects from spontaneously broken symmetry
+ {#DefectsFromBrokenSymmetry}
 
 > under construction
 
@@ -85,14 +86,14 @@ In particular (with counting adapted to $dim X = 4$)
 
 So 
 
-* domain walls can appear when $\pi_0(G/H)$ is non-trivial;
+* [[domain walls]] can appear when $\pi_0(G/H)$ is non-trivial;
 
-* cosmic strings can appear when $\pi_1(G/H)$ is non-trivial;
+* [[cosmic strings]] can appear when $\pi_1(G/H)$ is non-trivial;
 
-* monopoles can appear when $\pi_2(G/H)$ is non-trivial.
+* [[monopoles]] can appear when $\pi_2(G/H)$ is non-trivial.
 
 
-Next consider a sequence of subgroups
+Next consider a sequence of [[subgroups]]
 
 $$
   H_2 \hookrightarrow H_1 \hookrightarrow H_0 \coloneqq G
@@ -131,9 +132,112 @@ $$
   \,.
 $$
 
-So for every metastable defect of codimension $n-k$ given by $c \in ker(\pi_k(H_1/H_2) \to \pi_k(H_0/H_2))$ there is an element in $\pi_{k+1}(H_0/H_1)$ of one codimension higher. We say that the codimenion $(n-k)$-defect may end on that codimension $(n-k-1)$-defect.
+So for every metastable defect of codimension $n-k$ given by $c \in ker(\pi_k(H_1/H_2) \to \pi_k(H_0/H_2))$ there is an element in $\pi_{k+1}(H_0/H_1)$ of one codimension higher. One says ([Preskill-Vilenkin 92](#PreskillVilenkin92)) that the codimenion $(n-k)$-defect may end on that codimension $(n-k-1)$-defect.
 
 (...)
+
+In order to formalize this we introduce, following the [[cobordism theorem]] with singularities, cells in $Span_n(\mathbf{H})$ which label spontaneous-symmetriy-breaking defects as well as their defects-of-defects which exhibit their decay by higher codimension defects.
+
+Consider a span of the form
+
+$$
+  \array{
+    [\Pi(S^{k-1}), \Pi(H_1/H_2)]
+    &\leftarrow&
+    [\Pi(S^{k-1}), \Pi(H_1/H_2)]
+    &\rightarrow&  
+    \ast
+  }
+  \,.
+$$
+
+Comparing this to the span that comes from the "cap" $S^{k-1} \to D^{k} \leftarrow \emptyset$ in the theory at energy level $E_2$, which is just 
+
+$$
+  \array{
+    [\Pi(S^{k-1}), \Pi(H_1/H_2)]
+    &\leftarrow&
+    [\Pi(D^{k}), \Pi(H_1/H_2)]
+    &\rightarrow&  
+    \ast
+  }
+$$
+
+shows that the former models a $k$-disk which is not filled with spacetime, but nevertheless closes the disk. This is the defect given as a removal of a piece of spacetime.
+
+In order to formalize how these defects may decay at higher energy, consider next  a [[span]] of [[field (physics)|field]] configurations of the form
+
+$$
+  \array{
+    [\Pi(S^{k-1}), \Pi(H_1/H_2)]
+    &\leftarrow&
+    [\Pi(S^{k}), \Pi(H_0/H_1)]
+    &\rightarrow&  
+    [\ast, \Pi(H_0/H_2)]
+  }
+  \,.
+$$
+
+Comparing again to the span that comes from the "cap" $S^{k-1} \to D^{k} \leftarrow \emptyset$ in the theory at energy level $E_2$, which is just 
+
+$$
+  \array{
+    [\Pi(S^{k-1}), \Pi(H_1/H_2)]
+    &\leftarrow&
+    [\Pi(D^{k}), \Pi(H_1/H_2)]
+    &\rightarrow&  
+    \ast
+  }
+$$
+
+shows that the former models a $k$-disk whose center point carries a singularity: the fields at the bounding $S^{k-1}$ take values in the moduli space of the ambient theory $\Pi(H_1/H_2)$, but then at the tip of the "cap" there is a "field insertion" of a field with values in $\Pi(H_0/H_2)$. Hence this labels a defect of codimension $k$.
+
+To construct such a decay-process span that captures the above story from [Preskill-Vilenkin 92](#PreskillVilenkin92), consider the following diagram:
+
+$$
+  \array{
+     && [\Pi(S^{k}), \Pi(H_0/H_1)]
+     \\
+     && \downarrow
+     \\
+     && [\Pi(S^{k-1}), \Omega\Pi(H_0/H_1)]
+     \\
+     & \swarrow && \searrow
+     \\
+     [\Pi(S^{k-1}), \Pi(H_1/H_2)] && (pb) && [\Pi(D^k), \Pi(H_0/H_2)] & \simeq & [\ast, \Pi(H_0/H_2)]
+     \\
+     & \searrow & & \swarrow
+     \\
+     && [\Pi(S^{k-1}), \Pi(H_0/H_2)]
+  }
+$$
+
+This may be read as follows: 
+
+1. on the far left $[\Pi(S^k), \Pi(H_1/H_2)]$ is the space of fields of the ambient theory at energy scale $E_2$ around the defect;
+
+1. the bottom left map is the "fluctuation" map that sends these fields to fields at the higher energy scale $E_1$;
+
+1. the bottom right map exhibt the possible "decays": a lift through this map takes a field configuration that winds around a $k$-ball and contracts it through that $k$-ball, hence going forth and back through the bottom two maps corresponds to carrying a defect over the energy barrier from $E_2$ to $E_1$ and there having it decay away.
+
+1. these decaying configurations are therefore given by the [[homotopy fiber product]] of the bottom two functions, which is $[\Pi(S^{k-1}), \Omega\Pi(H_0/H_1)]$, as indicated. But this space is really given by field configurations at energy scale $E_1$ that wind around a $(k+1)$-ball, as shown at the very top.
+
+Hence the top part of this diagram is a span that exhibits a defect-of-defects which tells just the story that ([Preskill-Vilenkin 92](#PreskillVilenkin92)) is telling: a codimension-$k$ defect of the low energy theory decays at higher energy, and the decay is witnessed by the appearance of a codimension $(k+1)$-defect of the high energy theory.
+
+$$
+  \array{
+     && {high\;energy \atop codim-(k+1)\;defects}
+     \\
+     & \swarrow && \searrow
+     \\
+     {low\;energy \atop codim-k\;defects} && (pb) && {high\;energy \atop decay\;processes}
+     \\
+     & {}_{\mathllap{tunnel}}\searrow & & \swarrow_{\mathrlap{apply}}
+     \\
+     && {codim-k\;defects \atop raised\;to\;higher\;energy}
+  }
+$$
+
 
 (...)
 
@@ -167,7 +271,7 @@ Discussion of defects in [[prequantum field theory]], hence for [[coefficients]]
 * [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
  {#FiorenzaValentino}
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[Higher Chern-Simons local prequantum field theory]]_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
  {#FSS}
 
 ### Examples
