@@ -1,3 +1,5 @@
+[[!redirects GeoffCruttwell]]
+[[!redirects GeoffCruttwell]]
 * [homepage]( http://www.mta.ca/~gcruttwell/)
 
 category:people
