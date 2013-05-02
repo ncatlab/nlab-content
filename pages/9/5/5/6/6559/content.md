@@ -37,6 +37,10 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[false vacuum]]
 
+* [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
+
+  * [[domain wall]], [[cosmic string]], [[monopole]]
+
 * [[Yang-Mills instanton]]
 
   * [[BPTS instanton]]
