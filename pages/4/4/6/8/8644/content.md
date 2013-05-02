@@ -25,6 +25,44 @@ One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to
 
 In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
 
+## Critical discussion of the literature
+ {#CriticalDiscussionOfTheLiterature}
+
+In the physics literature a style of discussion of instantons is wide-spread where the motivation of the formulas considered is dubious. In these references (for instance [Schaefer-Shuryak 96](#SchaeferShuryak) and [Forkel 00](#Forkel) and many more) it is said that 
+
+1. a YM field of minimal energy, hence of vanishing [[field strength]] is one that is pure gauge;
+
+1. that therefore on a [[Minkowski spacetime]] $\mathbb{R}^4$ in [[temporal gauge]] and assuming fields are [[vanishing at infinity]], these are given by [[connection on a bundle|connection]] 1-forms on $S^3$ of the form $U^{-1} d U$ for $U \colon S^3 \to G$ a smooth function, and 
+
+1. that therefore equivalence classes of such fields are given by [[homotopy]] classes of maps $S^3 \to G$, hence by the third [[homotopy group]] $\pi_3(G)$.
+
+These points are not really correct, even though the conclusion about the classification of instanton sectors turns out to be right. 
+
+The correct statement is that winding-number sectors/instanton sectors are equivalence classes of $G$-[[principal bundles]] on the [[one-point compactification]] $S^4$ of [[Minkowski spacetime]] $\mathbb{R}^4$, and these happen to indeed be given by homotopy classes of maps $S^3 \to G$, with $S^3$ regarded as the "equator" of $S^4$. This is for instance stated explicitly in ([Nakahara](#Nakahara)) and used in many references, such as ([Witten 85](#Witten85)).
+
+Before we come to this, first notice the problems with the above items from the standard physics reviews:
+
+1. [[gauge field|Gauge fields]] with vanishing [[field strength]] are [[flat connections]]. These are classified by [[group]] [[homomorphisms]] from the [[fundamental group]] of the given [[space]] or [[spacetime]] to the [[gauge group]]. Hence not every such field configuration is "pure gauge", this is only the case if the [[fundamental group]] is trivial. Of course this is the case on $\mathbb{R}^n$ and $S^n$, so the first item above is correct in these cases. But beware that these authors usually justify the third item above by referring to gauge transformations between gauge fields, which is then again wrong, see the next point.
+
+1. Flat connection on $S^3$ are not classified by homotopy classes of maps $S^3 \to G$. Instead, since $\pi_1(S^3)$ is the trivial group, there is only the trivial such flat connection. This is actually manifest in the formula for such connections which is preferred in these references, which is "$U^{-1} d U$" with $U \colon S^3 \to G$ a gauge transformation. That formula exhibits precisely the trivial gauge connection $d$ as gauge equivalent to $U^{-1} d U$.
+
+What would give the intended classification is if one considered connections of the form $U^{-1} d U$ only modulo those gauge transformations $h \colon S^3 \to G$ which can be smoothly extended to maps $D^4 \to G$. This is what these references seem to be implicitly assuming. But this is not the gauge transformation law for connections... this is instead the gauge transformation law for transition functions of $G$-principal bundles. 
+
+And this brings us to the correct mathematical interpretation of instantons, as in ([Nakahara](#Nakahara)) and similar:
+
+We are looking for gauge field configurations on $\mathbb{R}^4$ that have [[field strength]] [[vanishing at infinity]]. This means we are looking for $G$-[[principal connections]] on the [[one-point compactification]] $S^4$ of $\mathbb{R}^4$ such that the [[curvature]] 2-form vanishes at one "pole".
+
+Now by the discussion at [[principal bundle]], $G$-principal bundles can be constructed for instance by [[cocycles]] in [[Cech cohomology]] of $S^4$ with [[coefficients]] in $G$. In general this means to specify $G$-valued transitions functions on overlaps of a [[good open cover]] of $S^4$. But a standard argument shows that for spheres the following [[covering]] is already sufficient: we cover the $n$-sphere $S^n$ by two hemi-$n$-spheres that overlap a bit at the equator, which is hence of the form $S^{n-1} \times [-\epsilon, \epsilon]$. A Cech cocycle on such a cover is then simply given by one single $G$-valed transition function $S^{n-1} \to G$. This is known as the _[[clutching construction]]_.
+
+Moreover, a [[gauge transformation]] of such a Cech cocycle is given by multiplying with the restriction of $G$-valued functions on the two hemi-$n$-spheres $\simeq D^n$ to the equator. This just means that those transition functions $S^3 \to G$ are gauge-trivial which may be extended smoothly to funtions $D^4 \to G$.
+
+In conclusion, the desired classification of instanton solutions by homotopy classes of maps $U \colon S^3 \to G$ is precisely the [[clutching construction]] of $G$-principal bundles.
+
+Finally, in order to add the [[principal connections]] to the picture, we think of one of the two semi-$n$-spheres to be the neighbourhood of infinity and hence, since the [[field strength]] is demanded to be [[vanishing at infinity]], take the local gauge field to be the vanishing [[groupoid of Lie algebra valued 1-forms|Lie algebra valued differential 1-form]] there. But then the rules for [[Cech cohomology]] with coefficients in the [[groupoid of Lie algebra valued 1-forms]], and using the above [[clutching construction]], it follows that on the equator overlap the gauge field has to be $U^{-1} d U \in \Omega^1( S^3 \times (-\epsilon, \epsilon) )$. This we may then extend in any desired way to a (non-flat) gauge connection over the remaining semi-$n$-sphere $D^4$, hence over the actual spacetime. 
+
+Notice that this is precisely the argument which for $G = U(1)$ the [[circle group]] and for $n = 2$ is known as the argument of _[[Dirac charge quantization]]_ (which is also often misrepresented in the physics literature...)
+
+
 ## Related concepts
 
 * [[Yang-Mills instanton]]
@@ -37,6 +75,7 @@ In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] 
 Physics-style  surveys include the introductory lecture notes
 
 * Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
+ {#Forkel}
 
 and the fairly detailed account (with lot of pointers to the literature)
 
@@ -50,6 +89,16 @@ and the fairly detailed account (with lot of pointers to the literature)
 See also the survey in 
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+A more mathematically precise account which identifies instanton solutions explicitly equivalence classes of $G$-principal bundles is around Example 9.12 (p.320) and Section 10.5.5 (p.360) of
+
+* Nakahara, _Geometry Topology and Physics_
+ {#Nakahara}
+
+This perspective is for instance also the one used in 
+
+* [[Edward Witten]], _Global gravitational anomalies_,  Comm. Math. Phys. Volume 100, Number 2 (1985), 197-229. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943444)) 
+ {#Witten85}
 
 Further developments on the role of instantons/[[monopoles]] in the QCD vacuum for [[confinement]] are discussed in
 
