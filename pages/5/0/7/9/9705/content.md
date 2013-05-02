@@ -1,20 +1,23 @@
-# Gromov's homotopy principle or h-principle.
 
-### Definition
+#Gromov's homotopy principle or h-principle
+* table of contents
+{:toc}
 
-Let $p: X\to B$ be a smooth fiber bundle and the space $X^{(r)}$ of $r$-[[jet]]s  of sections of $p$; there is an induced projection $X^{(r)}\to B$ which makes it into a smooth bundle.  
+## Definition
 
-One considers a fixed partial differential relation (see [[differential equation]]) which is a subset $R\subset X^{(r)}$. One is interested in finding formal sections $s$ of $X^{(r)}\to B$ whose image is in $R$, and which are, in addition, __holonomic sections__, i.e. equal to the $r$-jet $J_f^r$ of a $C^r$-section $f$ of $p:X\to B$. One says that $R$ satisfies the __h-principle__ if every formal section of $R$ is homotopic to a holonomic section within the appropriate topological space of formal sections. 
+Let $p: X\to B$ be a smooth [[fiber bundle]] and the space $X^{(r)}$ of $r$-[[jets]]  of [[sections]] of $p$; there is an induced [[projection]] $X^{(r)}\to B$ which makes it into a smooth bundle.  
 
-### Applications and examples
+One considers a fixed partial differential relation (see [[differential equation]]) which is a subset $R\subset X^{(r)}$. One is interested in finding [[formal geometry|formal]] sections $s$ of $X^{(r)}\to B$ whose image is in $R$, and which are, in addition, __holonomic sections__, i.e. equal to the $r$-jet $J_f^r$ of a $C^r$-section $f$ of $p:X\to B$. One says that $R$ satisfies the __h-principle__ if every formal section of $R$ is homotopic to a holonomic section within the appropriate topological space of formal sections. 
+
+##  Applications and examples
 
 For example, in the case of holomorphic fiber bundles $R$ may be the Cauchy-Riemann relation, thus the question is if there is a deformation of a continuous section into a holomorphic one. In other words, one wants to reduce the problem of existence of maps of certain type to the analogous topological problem. Applications include results on the spaces of immersions, submersions, k-mersions, holomorphic maps, symplectic and isometric embeddings, contact structures and so on. 
 
-### General methods
+##  General methods
 
 Gromov introduced many techniques of proving the h-principle including the method of microflexible/continuous sheaves, the methods of convex integration and the removal of singularities.    
 
-### References
+## References
 
 * [[eom]]: [H-principle](http://www.encyclopediaofmath.org/index.php/H-principle), [convex integration](http://www.encyclopediaofmath.org/index.php/Convex_integration); wikipedia: [homotopy principle](https://en.wikipedia.org/wiki/Homotopy_principle)
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebn. Math. Grenzgeb. (3), 9, Springer (1986)
