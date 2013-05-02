@@ -127,6 +127,9 @@ This is discussed in a bit of detail for instance in
 
 * [[Goldstone boson]]
 
+* [[QFT with defects|topological defects]] in the [[vacuum]]
+
+  * [[domain wall]], [[cosmic string]], [[monopole]]
 
 ## References
 
