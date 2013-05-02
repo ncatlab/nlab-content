@@ -620,7 +620,7 @@ This article starts with an introduction on basic [[electromagnetism]] and point
 
 #### Gros toposes
 
-The observation that any formalization of physics ought to take place in a suitble [[topos]] has been promoted early on by [[Bill Lawvere]]. Lawvere started out as a student in [[continuum mechanics]] and his search for a formalization of physics made him end up being one of the most general abstract thinkers in [[category theory]]. 
+The observation that any formalization of physics ought to take place in a suitable [[topos]] has been promoted early on by [[Bill Lawvere]]. Lawvere started out as a student in [[continuum mechanics]] and his search for a formalization of physics made him end up being one of the most general abstract thinkers in [[category theory]]. 
 
 Lawvere thought about [[classical physics]] governed, as it is since Newton, by the theory of [[differential equation]]s. He proposed that [[differential geometry]] is something that takes place inside a [[smooth topos]] -- a [[topos]] with a suitable notion of [[infinitesimal object]]s -- an approach now known as [[synthetic differential geometry]]. 
 
