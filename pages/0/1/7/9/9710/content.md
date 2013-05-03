@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[coherence]] [[identity]] satisfied by an [[associator]] in a [[monoidal category]] or more generally in a [[bicategory]], [[(2,1)-category]] etc.
+
++-- {: style="text-align:center"}
+[[!include monoidal category > pentagon]]
+=--
+
+## Related concepts
+
+* [[coherence law]]
+
+* [[pentagonator]]
+
+
+[[!redirects pentagon equation]]
+[[!redirects pentagon equations]]
+
+[[!redirects pentagon identities]]
