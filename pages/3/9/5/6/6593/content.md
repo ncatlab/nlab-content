@@ -9,6 +9,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The [[supergroup]] generalization of the additive [[Lie group]] $\mathbb{R}^n$.
 
 
@@ -50,8 +56,20 @@ where $(t_i, \theta_i) \in C^\infty(S)^{ev} \times C^\infty(S)^{odd}$ etc and wh
 
 Since the formula looks the same for all $S$, one often just writes it without mentioning $S$ as above.
 
+## Related concepts
+
+* [[super Poincaré group]]
+
+* [[super Poincaré Lie algebra]]
+
+
 [[!redirects super-Heisenberg group]]
 
 [[!redirects super translation Lie algebra]]
 
 [[!redirects translation super-Lie algebra]]
+
+[[!redirects super translation algebra]]
+[[!redirects super-translation algebra]]
+[[!redirects super translation Lie algebra]]
+[[!redirects super-translation Lie algebra]]
