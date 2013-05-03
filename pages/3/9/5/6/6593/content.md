@@ -73,3 +73,5 @@ Since the formula looks the same for all $S$, one often just writes it without m
 [[!redirects super-translation algebra]]
 [[!redirects super translation Lie algebra]]
 [[!redirects super-translation Lie algebra]]
+
+[[!redirects super translation group]]
