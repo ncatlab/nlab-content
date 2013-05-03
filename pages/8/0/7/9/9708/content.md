@@ -1,0 +1,6 @@
+
+* [webpage](http://www.maths.ed.ac.uk/people/show?person=123)
+
+category: people
+
+[[!redirects Joan Simon]]
