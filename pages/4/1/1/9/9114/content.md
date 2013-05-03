@@ -649,11 +649,11 @@ theories to genuine local quantum field theories is sketched.
 #### 1d Dijkgraaf-Witten theory
  {#1dDWTheory}
 
-[[Dijkgraaf-Witten theory]] in [[dimension]] 1 is what results when one regards a [[group character]] of a [[finite group]] $G$ as an 
+[[Dijkgraaf-Witten theory]] in [[dimension]] 1 is what results when one regards a [[group character]] of a [[finite group]] $G$ as a local 
 [[action functional]] in 
 the sense of def. \ref{LocalPrequantumFieldWithAction}.
-We give an expository discussion of this example and in the course of it
-introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
+We give now an expository discussion of this simple but instructive example of a local prequantum field theory and in the course of it
+introduce some of the relevant basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
 
 1. [Finite gauge groups](#FiniteGaugeGroups)
 
@@ -667,8 +667,9 @@ introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-
 ##### Finite gauge groups
  {#FiniteGaugeGroups} 
 
+First some brief remarks, before we dive into the formalism.
 
-A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (regarded here as a [[discrete group]]).
+A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (taken here as a [[discrete group]]).
 In order to regard this as an [[action functional]], 
 we are to take $G$ as the 
 [[gauge group]] of a physical field theory. The simplest
@@ -703,6 +704,38 @@ $$
 
 Regarded this way, we say the [[gauge group]] acting on the single field $\phi_0$ forms a _[[groupoid]]_, whose single _[[object]]_ is $\phi_0$ and whose set of _[[morphisms]]_ is $G$. 
 
+Of course in richer field theories there may be more than one field configuration, clearly, with gauge transformations between them. If $\phi_0$ and $\phi_1$ are two field configurations and $g$ is a gauge transformation taking one to the other, we may usefully denote this by
+
+$$
+  \array{
+    \phi_0 &\stackrel{g_1}{\to}& \phi_1
+  }
+   \,.
+$$
+
+Similarly then for yet another gauge configuration to another field configuration
+
+$$
+  \array{
+    \phi_1 &\stackrel{g_2}{\to}& \phi_2
+  }
+$$
+
+
+then composing them gives the picture
+
+$$
+  \array{
+    && \phi_1
+    \\
+    & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
+    \\
+    \phi_0 && \underset{g_2 \cdot g_1}{\to} && \phi_2
+  }
+  \,.
+$$
+
+We now discuss this notion of [[groupoids]] more formally.
 
 ##### Groupoids and basic homotopy 1-type theory
  {#GroupoidsAndBasicHomotopy1TypeTheory}
@@ -746,6 +779,41 @@ such that
 * every morphism has an [[inverse]] under this composition.
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+This data is visualized as follows. The set of morphisms is 
+
+$$
+  \mathcal{G}_1
+  = 
+  \left\{
+    \phi_0 \stackrel{k}{\to} \phi_1
+  \right\}
+$$
+
+and the set of pairs of composable morphisms is
+
+$$
+  \mathcal{G}_2 \coloneqq \mathcal{G}_1 \underset{\mathcal{G}_0}{\times} \mathcal{G}_1
+  =
+  \left\{
+    \array{
+      && \phi_1
+      \\
+      & {}^{\mathllap{k_1}}\nearrow && \searrow^{\mathrlap{k_2}}
+      \\
+      \phi_0 && \stackrel{k_2 \circ k_1}{\to} && \phi_2
+    }
+  \right\}
+  \,.
+$$
+
+The functions $p_1, p_2, \circ \colon \mathcal{G}_2 \to \mathcal{G}_1$ are those which send, respectively, these triangular diagrams to the left morphism, or the right morphism, or the bottom morphism.
+
+=--
+
 
 +-- {: .num_example #DeloopingGroupoid}
 ###### Example
@@ -806,17 +874,33 @@ For $\Sigma$ a [[topological space]], its [[fundamental groupoid]]
 
 For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\mathcal{G}^I_\bullet$ with
 
-* $\mathcal{G}^I_0 = \mathcal{G}_1$;
-* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$.   
+* $\mathcal{G}^I_0 = \mathcal{G}_1 = \left\{ \array{ \phi_0 \\ \downarrow^{\mathrlap{k}} \\ \phi_1  } \right\}$;
+
+* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ = 
+
+  $$
+    \left\{
+       \array{
+          \phi_0 &\stackrel{h_0}{\to}& \tilde \phi_0
+          \\
+          {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{\tilde k}}
+          \\
+          \phi_1 &\stackrel{h_1}{\to}& \tilde \phi_1
+       }
+    \right\}
+    \,.
+  $$   
 
 This comes with two canonical homomorphisms
+
   $$
     \mathcal{G}^I_\bullet
      \stackrel{\overset{ev_1}{\to}}{\underset{ev_0}{\to}}
 
 	   \mathcal{G}_\bullet
   $$
-  given by endpoint evaluation.
+
+  which are given by endpoint evaluation, hence which send such a commuting square to either its top or its bottom hirizontal component.
 
 
 =--
@@ -829,7 +913,7 @@ two morphisms between groupoids,
   a _[[homotopy]]_ $f \Rightarrow g$ 
 (a [[natural transformation]]) is
   a homomorphism of the form $\eta_\bullet : \mathcal{G}_\bullet \to \mathcal{K}^I_\bullet$
-  (with [[codomain]] as in example \ref{PathSpaceGroupoid})
+  (with [[codomain]] the [[path space object]] of $\mathcal{K}_\bullet$ as in example \ref{PathSpaceGroupoid})
   such that it fits into the diagram as depicted here on the right:
   $$
     \array{
@@ -861,13 +945,18 @@ two morphisms between groupoids,
 
 =--
 
++-- {: .num_defn }
+###### Definition (Notation)
+
 Here and in the following, the convention is that we write
 
-* $\mathcal{G}_\bullet$ when we regard groupoids with just 
+* $\mathcal{G}_\bullet$ (with the subscript decoration) when we regard groupoids with just 
 homomorphisms ([[functors]]) between them, 
 
-* $\mathcal{G}$ when we regard groupoids
+* $\mathcal{G}$ (without the subscript decoration) when we regard groupoids
 with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural transformations]]) between these.
+
+=--
 
 +-- {: .num_example }
 ###### Example
@@ -916,7 +1005,7 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 
  The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} 
  becomes false as when we pass to groupoids that are equipped with
- [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories fundamentally involve just groups (and higher groups),
+ [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories (namely [[Dijkgraaf-Witten theory]]-type theories) fundamentally involve just groups (and higher groups),
  while for nontrivial geometry there are genuine groupoid theories, 
  for instance the [[AKSZ sigma-models]]. But even so, 
  [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in 
@@ -947,14 +1036,14 @@ is the [[limit]] [[cone]]
 $$
   \array{
     X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
-    \underset{B_\bullet}{\times} Y
-    &\to& &\to& X
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
     \\
     \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
     \\
-    && B^I_\bullet &\underset{ev_0}{\to}& B_\bullet
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
     \\
-    \downarrow && \downarrow^{\mathrlap{ev_0}}
+    \downarrow && \downarrow^{\mathrlap{(ev_0)_\bullet}}
     \\
     Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
   }
@@ -965,17 +1054,67 @@ hence the ordinary iterated [[fiber product]] over the [[path space]] groupoid, 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+An ordinary fiber product $X_\bullet \underset{B_\bullet}{\times}Y_\bullet$ of groupoids is given simply by the fiber product of the underlying sets of objects and morphisms:
+
+$$
+  (X_\bullet \underset{B_\bullet}{\times}Y_\bullet)_i 
+  =
+  X_i \underset{B_i}{\times} Y_i
+  \,.
+$$
+
+=--
+
+
+
 +-- {: .num_example}
 ###### Example
+
+For $X$ a [[groupoid]] and $\ast \to X_\bullet$ a point in it, we call
+
+$$
+  \Omega X
+  \coloneqq
+  \ast \underset{X}{\times} \ast
+$$
+
+the [[koop space object|loop space groupoid]] of $X$.
 
 For $G$ a group and $\mathbf{B}G$ its  [[delooping]] groupoid from
   example \ref{DeloopingGroupoid}, we have
   $$
-    G \simeq \ast \underset{\mathbf{B}G}{\times} \ast
+    G \simeq \Omega \mathbf{B}G = \ast \underset{\mathbf{B}G}{\times} \ast
     \,.
   $$
 
  Hence $G$ is the [[loop space object]] of its own [[delooping]], as it should be.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We are to compute the ordinary limiting cone $\ast \underset{\mathbf{B}G_\bullet}{\times}  (\mathbf{B}G^I)_\bullet \underset{\mathbf{B}G_\bullet}{\times} \ast$
+
+$$
+  \array{
+    &\to& &\to& \ast
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& \mathbf{B}G_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_0)_\bullet}}
+    \\
+    \ast &\underset{}{\to}& \mathbf{B}G_\bullet
+  }
+  \,,
+$$
+
+In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms are pairs of elements in $G$ which act by left and right multiplication. The limiting cone precisely picks those morphisms such that these two elements are constant on the neutral element, hence just produces the elements of $G$.
 
 =--
 
