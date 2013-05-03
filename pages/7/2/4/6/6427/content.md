@@ -27,6 +27,8 @@ The _super Poincar&#233; group_ is the [[Lie integration]] in [[supergeometry]] 
 
 * [[super Poincaré Lie algebra]]
 
+* [[super translation algebra]]
+
 * [[unitary representation of the super Poincaré group]]
 
 [[!include table of orthogonal groups and related]]
