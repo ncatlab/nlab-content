@@ -4,121 +4,17 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-##### $\infty$-Groupoids and basic homotopy theory
-
-+-- {: .num_defn }
-###### Definition
-
-For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write $\mathbb{G}_n \coloneqq \mathbb{G}_1^{\times_{\mathbb{G}_0}^n}$ for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
-
-$$
-  \mathbb{G}_n = 
-  \left\{
-    x_0 
-      \stackrel{f_1}{\to} 
-    x_1
-      \stackrel{f_2}{\to}
-    x_2
-      \stackrel{f_2}{\to}
-    \cdots
-      \stackel{f_n}{\to}
-    x_n
-  \right\}
-  \,.
-$$
-
-For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$-maps
-
-$$
-  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
-  \,.
-$$
-
-Moreover, the maps $s_i$ that insert an identity morphism in position $i$ constitute maps
-
-$$
-  d_i \colon \mathcal{G}_{n-1} \to \mathcal{G}
-  \,.
-$$
-
-These collections of maps are such that (...) the [[simplicial identities]] hold.
-
-=--
-
-In order to capture this more generally we say:
-
-+-- {: .num_defn }
-###### Definition
-
-A [[simplicial set]] $X_\bullet$ is a sequence of sets $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps (...) such that the [[simplicial identities]] hold. (...)
-
-=--
-
-The [[nerve]] operation constitutes a [[full and faithful functor]]
-
-$$
-  N \colon Grpd \to sSet
-  \,.
-$$
-
-But the image of this nerve has more special properties
-
-
-+-- {: .num_prop }
-###### Proposition
-
-For each [[horn]] $\Lambda^n_i \to N(\mathbb{G}_\bullet)$
-there is a unique extension to an $n$-[[simplex]]
-
-$$
-  \array{
-    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
-    \\
-    \downarrow & \nearrow
-    \\
-    \Delta^n
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn }
-###### Definition
-
-A [[simplicial set]] $X$ is called a _[[Kan complex]]_ or 
-_[[∞-groupoid]]_ if for every $n$-[[horn]] $\Lambda^n_i \to X$
-there exists an extension to an $n$-[[simplex]]
-
-$$
-  \array{
-    \Lambda^n_i &\to& N(\mathbb{G}_\bullet)
-    \\
-    \downarrow & \nearrow_{\mathrlap{\exists}}
-    \\
-    \Delta^n
-  }
-  \,.
-$$
-
-
-=--
-
-
-
-***
-
-
-[[!redirects prequantum field theory]]
-[[!redirects prequantum field theories]]
-[[!redirects local prequantum field theory]]
-[[!redirects local prequantum field theories]]
-
-[[!redirects extended prequantum field theory]]
-[[!redirects extended prequantum field theories]]
-
-[[!redirects higher prequantum field theory]]
-[[!redirects higher prequantum field theories]]
+| | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
+|--|--|--|--|--|--|
+| **1)** | [[1-dimensional Dijkgraaf-Witten theory]] | [[1-groupoids]]/[[homotopy 1-types]] | $\mathbf{B}\flat G$ | $-$[[group character]]$\to$ | $\mathbf{B}\flat U(1)$ |
+| | $\vdots$ |  |  |  |  |
+| **2)** | [[n-dimensional Dijkgraaf-Witten theory]] | [[n-groupoids]]/[[homotopy n-types]] | $\mathbf{B}\flat G$ | $-$[[cocycle]] in [[group cohomology]]$\to$ | $\mathbf{B}^n\flat U(1)$ |
+|  |  |  |  $\downarrow$ | embed [[flat ∞-connections]] in all [[principal ∞-connections]] |  $\downarrow$ |
+| **3)** | [[schreiber:infinity-Chern-Simons theory|n-dimensional Chern-Simons theory]] | [[n-stacks]]/[[smooth homotopy n-types]] | $\mathbf{B}G_{conn}$ | $-$[[cocycle]] in [[differential cohomology]]$\to$ | $\mathbf{B}^n U(1)_{conn}$ |
+| |  |  |  $\downarrow$  |   [[forgetful functor|forget]] connection, remember [[principal ∞-bundle]] |  $\downarrow$ |
+| | (underlying [[instanton sectors]])  |  |  $\mathbf{B}G$ | $-$[[cocycle]] in [[smooth ∞-group]]-[[cohomology]]$\to$ | $\mathbf{B}^n U(1)$ |
+| | ([[transgression]]/[[fiber integration]]) |  |  $[\Sigma_k,\mathbf{B}G_{conn}]$ | $\stackrel{\exp(2 \pi in \int_{\Sigma_k} [\Sigma_k,\nabla])}{\to}$ | $\mathbf{B}^{n-k}U(1)$ |
+| | |  |  | ([[Chern-Simons invariant]]) |
 
 
 
