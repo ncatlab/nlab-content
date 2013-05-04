@@ -133,6 +133,9 @@ $$
 
 =--
 
+## Related concepts
+
+* [[span trace]]
 
 ## References
 
@@ -162,3 +165,5 @@ A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regar
 [[!redirects (∞,n)-categories of spans]]
 
 [[!redirects (infinity,n)-categories of spans]]
+
+[[!redirects Span]]
