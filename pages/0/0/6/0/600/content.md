@@ -26,6 +26,8 @@ In the context of [[FQFT]] a useful aspect of the span trace is that it is manif
 
 ## Definition
 
+### For Spans
+
 For 
 
 $$
@@ -40,7 +42,7 @@ $$
 
 a [[span]] with identical left and right index object $X$, the simplest way to define its __span trace__ $tr(R)$ is as by regarding it as a map $R\to X\times X$, then pulling back along the [[diagonal morphism]] $X\to X\times X$.
 
-This can be expressed in terms of the [[bicategory]] [[Span]] in several ways.  For instance, we can regarding it as the composite of the result 
+This can be expressed in terms of the [[bicategory]] [[Span]] in several ways.  For instance, we can regard it as the composite of the result 
 
 $$
   \array{
@@ -96,7 +98,7 @@ $$
 $$
 
 
-### Definition for multispans
+### For multispans
 
 More generally, the trace of a [[multispan]] over $n$ identical of its index objects $X$ is the composite with the multispan
 
