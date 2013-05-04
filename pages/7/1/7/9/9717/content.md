@@ -22,6 +22,30 @@
 
 A [[Riemannian manifold]] $(X,g)$ is a _hyperbolic manifold_ of constant [[sectional curvature]] $-1$.
 
+## Properties
+
+### Relation to Chern-Simons theory
+
+There is a curious relation of [[volumes]] of hyperbolic 3-manifolds to the [[action functional]] of [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]].
+
+Let $G$ be a [[Lie group]] and $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ a [[cocycle]] in degree-3 (generalized) [[Lie group cohomology]]. Write $\flat G$ for the underlying [[discrete group]] and $\flat \mathbf{c} \colon \mathbf{B} \flat G \to \mathbf{B}^3 \flat U(1)$ for the induced [[cocycle]] in ordinary (discrete) [[group cohomology]], $[\flat \mathbf{c}] \in H^3_{Grp}(G_{disc},U(1)_{disc})$.
+
+Then for $\Sigma$ a [[closed manifold]] of [[dimension]] 3, a map (of [[smooth infinity-groupoids]]) $\Sigma \to \mathbf{B}\flat G$ is a [[flat connection|flat]] $G$-[[principal connection]] on $\Sigma$ and the composite
+
+$$
+  [\Sigma, \mathbf{B}\flat G]
+  \stackrel{[\Sigma, \flat \mathbf{c}]}{\to}
+  [\Sigma, \mathbf{B}^3 \flat U(1)]
+  \stackrel{\int_{\Sigma}}{\to}
+  U(1)
+$$
+
+is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restricted to $G$-[[flat connections]], or equivalently is the action functional of $\flat G$-[[Dijkgraaf-Witten theory]].
+
+Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]], it turns out that this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
+
+For $n = 2$ this is well understood conceptually. For $n \geq 3$ it has been checked by the [[computer algebra]] system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)), but the conceptual reason remains unclear.
+
 ## Related concepts
 
 A Riemannian manifold 
@@ -33,5 +57,10 @@ A Riemannian manifold
 ## References
 
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
+
+The relation of volumes of hyperbolic 3-manifolds to [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
+
+* [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
+ {#Zickert 07}
 
 [[!redirects hyperbolic manifolds]]
