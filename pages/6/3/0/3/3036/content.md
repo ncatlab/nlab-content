@@ -22,7 +22,9 @@ To be explicit, $X$ is __separable__ if there exists an [[infinite sequence]] $a
 
 ## Properties
 
-A separable space is [[first-countable space|first-countable]] iff it is is also [[second-countable space|second-countable]].
+A [[second-countable space]] is separable and 
+[[first-countable space|first-countable]], but the converse need not
+(see Steen Seebach Example 51 ).
 
 Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]] or to be [[predicative mathematics|predicative]] over the natural numbers.
 
