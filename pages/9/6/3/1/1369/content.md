@@ -217,7 +217,7 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 ## Related concepts
 
-* [[monoidal category]], **monoidal $(\infty,1)$-category**
+* [[monoidal category]], [[monoidal (2,1)-category]], **monoidal $(\infty,1)$-category**
 
   * [[monoidal (∞,1)-functor]]
 
@@ -227,7 +227,7 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
   * [[braided ∞-group]]
 
-* [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
+* [[symmetric monoidal category]], [[symmetric monoidal (2,1)-category]], [[symmetric monoidal (∞,1)-category]]
 
   * [[abelian ∞-group]]
 
