@@ -919,6 +919,13 @@ Discussion as a (relative) 3-2-1-0 [[extended TQFT]] is in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
+### Computations
+
+Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functionals]] for the complex [[special linear group]] are discused (and discussed to be related to volumes of [[hyperbolic manifold|hyperbolic 3-manifolds]]) in 
+
+* [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
+ {#Zickert 07}
+
 
 
 ### Workshops and conferences
