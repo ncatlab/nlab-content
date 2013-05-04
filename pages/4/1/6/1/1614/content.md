@@ -87,3 +87,4 @@ Further literature includes:
 [[!redirects TFTs]]
 
 [[!redirects topological field theory]]
+[[!redirects topological field theories]]
