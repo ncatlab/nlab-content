@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[Riemannian manifold]] $(X,g)$ is a _hyperbolic manifold_ of constant [[sectional curvature]] $-1$.
+
+## Related concepts
+
+A Riemannian manifold 
+
+* with zero sectional curvature is a [[Euclidean manifold]];
+
+* with +1 sectional curvature is an [[elliptic manifold]]
+
+## References
+
+* Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
+
+[[!redirects hyperbolic manifolds]]
