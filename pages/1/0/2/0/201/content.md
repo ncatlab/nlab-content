@@ -208,5 +208,6 @@ Categories [[enriched category|enriched]] over $Ab$ are called [[additive catego
 
 * [[Mod]]
 
+* [[sAb]]
 
-category: category
+category: categories
