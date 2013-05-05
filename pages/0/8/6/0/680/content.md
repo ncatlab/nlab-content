@@ -49,8 +49,8 @@ For $A$ an [[abelian category]]
 there is an [[equivalence of categories]]
 
 $$
-  N : A^{\Delta^{op}}
-      \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) : \Gamma
+  N \colon A^{\Delta^{op}}
+      \stackrel{\leftarrow}{\to} Ch_\bullet^+(A) \colon \Gamma
 $$
 
 between 
