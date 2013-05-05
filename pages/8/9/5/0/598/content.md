@@ -59,8 +59,9 @@ The [[category]] of simplicial groups is the category of functors from $\Delta^{
 ## Properties
 
 ### General
+ {#GeneralProperties}
 
-+-- {: .num_theorem}
++-- {: .num_theorem #MooreTheorem}
 ###### Theorem (J. C. Moore)
 
 The [[simplicial set]] underlying any simplicial group
