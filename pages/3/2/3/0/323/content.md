@@ -179,7 +179,7 @@ $$
 is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
 
 $$
-  P = \sum_{a : A} \sum_{b \in B} (f(a) = g(b))
+  P = \sum_{a : A} \sum_{b : B} (f(a) = g(b))
   \,.
 $$
 
