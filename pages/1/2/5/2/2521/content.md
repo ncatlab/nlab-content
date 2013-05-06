@@ -59,4 +59,22 @@ means to sort out various sign conventions of relevance.
 A proposal for how supergeometry and supermathematics may be part of a general [[sphere spectrum]]-equivariance in [[homotopy theory]] is discussed in 
 
 * [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov))
+ {#Kapranov13}
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
 
