@@ -1,11 +1,23 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[FQFT]]-language, 
+as a ([[prequantum field theory|pre]]-)[[quantum field theory|quantum]] [[field theory]] in [[dimension]] $n$ is given by a functor on an [[(infinity,n)-category of cobordisms]], so a field theory with boundaries/[[branes]] is given by such a  functor on an $(\infty,n)$-category of cobordisms with marked [[boundaries]]. The assignments to the boundary data itself defines a kind of field theory of one dimension lower, which is the corresponding boundary field theory. 
 
 ## Related concepts
+
+* [[holographic principle]]
 
 [[!include field theory with boundaries and defects - table]]
 
 ## References
 
 * Wikipedia, _[Boundary conformal field theory](http://en.wikipedia.org/wiki/Boundary_conformal_field_theory)_
+
+For more see the references at _[[defect field theory]]_.
 
 [[!redirects boundary field theories]]
