@@ -15,3 +15,5 @@ Its members include:
 * [[Yves Guiraud]].
 
 (more to be added ?)
+
+plus other members of the $\pi r^2$-[[pi-r-squared team|team]].  
