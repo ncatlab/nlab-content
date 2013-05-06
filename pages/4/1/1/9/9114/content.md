@@ -917,6 +917,42 @@ for $x_1, x_2 \in X$, $g \in G$.
 
 =--
 
+As an important special case we have:
+
++-- {: .num_example #BGGroupoidAsActionGroupoid}
+###### Example
+
+For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the coresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
+
+$$
+  (\ast //G)_\bullet = (\mathbf{B}G)_\bullet
+  \,.
+$$
+
+Another canonical action is the action of $G$ on itself by right multiplication. The corresponding action groupoid we write
+
+$$
+  (\mathbf{E}G)_\bullet \coloneqq G//G
+  \,.
+$$
+
+The constant map $G \to \ast$ induces a canonical morphism
+
+$$
+  \array{
+    G//G & \simeq & \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast //G & \simeq & \mathbf{B}G
+  }
+  \,.
+$$
+
+This is known as the $G$-[[universal principal bundle]]. See below in \ref{PullbackOfEGGroupoidAsHomotopyFiberProduct} for more on this.
+
+=--
+
 +-- {: .num_example }
 ###### Example
 
@@ -1012,7 +1048,7 @@ two morphisms between groupoids,
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #GroupoidsAsHomotopy1Types}
 ###### Definition (Notation)
 
 Here and in the following, the convention is that we write
@@ -1034,7 +1070,11 @@ with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural tra
     \,.
   $$
 
+The unbulleted version of groupoids are also called _[[homotopy 1-types]]_ (or often just their [[homotopy]]-[[equivalence classes]] are called this way.) Below we generalize this to arbitrary homotopy types (def. \ref{KanComplexesAsHomotopyTypes}).
+
 =--
+
+
 
 +-- {: .num_example #MappingGroupoid}
 ###### Example
@@ -1046,7 +1086,7 @@ For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ 
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #HomotopyEquivalenceOfGroupoids}
 ###### Definition
 
   A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
@@ -1147,6 +1187,38 @@ $$
 =--
 
 
++-- {: .num_example #PullbackOfEGGroupoidAsHomotopyFiberProduct}
+###### Example
+
+For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+
+$$
+  P \simeq X \underset{\mathbf{B}G}{\times} \ast
+  \,.
+$$
+
+Namely both squares in the following diagram are pullback squares
+
+$$
+  \array{
+    P
+    &\to& \mathbf{E}G &\to& \ast_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{}}
+    \\
+    && (\mathbf{B}G)^I_\bullet &\underset{(ev_0)_\bullet}{\to}& (\mathbf{B}G)_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    X_\bullet &\underset{}{\to}& (\mathbf{B}G)_\bullet
+  }
+  \,.
+$$
+
+(This is the first example of the more general phenomenon of [[universal principal infinity-bundles]].)
+
+=--
 
 +-- {: .num_example #LoopSpaceGroupoid}
 ###### Example
@@ -2619,6 +2691,9 @@ As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. No
 
 =--
 
+It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
+
+
 +-- {: .num_example #PathSpaceObjectOfKanComplexes}
 ###### Example
 
@@ -2669,11 +2744,41 @@ $$
 
 =--
 
-It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
 
-We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$.
++-- {: .num_remark }
+###### Remark
+
+Hence a [[homotopy]] between two maps $X_\bullet \to Y_\bullet$ of Kan complexes is precisely a 1-cell in the [[mapping space]] $[X_\bullet, Y_\bullet]_\bullet$ of def. \ref{MappingObjectOfKanComplexes}.
+
+=--
+
++-- {: .num_defn #HomotopyEquivalenceOfKanComplexes}
+###### Definition
+
+We say that a map $X_\bullet \to Y_\bullet$ of [[Kan complexes]] is a _[[homotopy equivalence]]_ if it has a left and right [[inverse]] up to [[homotopy]], hence an ordinary inverse in $\pi_0[X_\bullet, Y_\bullet]$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For Kan complexes which are [[1-groupoids]] hence which are [[nerves]] of [[groupoids]], homotopy equivalence of Kan complexes is equivalently homotopy equivalence of these groupoids according 
+to def. \ref{HomotopyEquivalenceOfGroupoids}.
+
+=--
 
 
++-- {: .num_defn #KanComplexesAsHomotopyTypes}
+###### Definition
+
+
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. 
+
+We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$. As such, $X$ (or its [[equivalence class]]) is alse called a _[[homotopy type]]_.
+
+The category [[∞Grpd]] itself "is" the canonical [[homotopy theory]]. (For more on this see also at _[[homotopy hypothesis]]_.)
+
+=--
 
 
 ###### Higher phases: Homological algebra and abelian $\infty$-groups
@@ -2758,7 +2863,16 @@ for the composite of the two functors of prop. \ref{DoldKanAndMooreTheorem}.
 
 =--
 
-We refer to this as the "Dold-Kan map", or say "by Dold-Kan", etc. It provides us with a rich supply of Kan complexes, hence of [[∞-groups]]. Notably we have the following.
+We refer to this as the "Dold-Kan map", or say "by Dold-Kan", etc. It provides us with a rich supply of Kan complexes, hence of [[∞-groups]]. In fact, it embeds [[homological algebra]] into the [[homotopy theory]] of [[∞-groupoids]] in that it is a [[homotopical functor]]:
+
++-- {: .num_prop }
+###### Proposition
+
+The Dold-Kan map of def. \ref{DoldKanMap} sends [[quasi-isomorphisms]] of [[chain complexes]] to [[homotopy equivalences]] of [[Kan complexes]], def. \ref{HomotopyEquivalenceOfKanComplexes}.
+
+=-- 
+
+Notably we have the following example
 
 
 +-- {: .num_defn }
@@ -2849,23 +2963,19 @@ between the degree-$n$ [[group cohomology]] of $G$ with [[coefficients]] in $A$ 
 
 =--
 
-...
 
-##### $n$d DW local field theory
-
-(...)
-
-Let $[\alpha] \in H^3_{Grp}(G,U(1))$ be a 3-cocycle in [[group cohomology]]. By prop. \ref{GroupCohomologyByHomotopyClassesOfMaps}
-this corresponds to a morphism of $\infty$-groupoids
+This means that local action functionals for higher Dijkgraaf-Witten type theories, hence maps of $\infty$-groupoids of the form 
+$\exp(i S_{DW}^n) \colon \mathbf{B} \flat G \to \mathbf{B}^n \flat U(1)$ are equivalently [[cocycles]] $[c] \in H^n_{Grp}(\flat G,\flat U(1))$ in degree-$n$ [[group cohomology]]:
 
 $$
-  \alpha \colon \mathbf{B}G \to \mathbf{B}^3 U(1) \flat U(1)
+  \exp(i S_{DW}^n) = \mathbf{B}c
   \,.
 $$
 
-This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this cocycle.
+In particular the original 3d [[Dijkgraaf-Witten theory]] appears this way as the theory of a group 3-cocycle.
 
 (...)
+
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
@@ -2913,7 +3023,65 @@ which in components is the inclusion of closed [[differential forms]] into [[de 
 
 We here introduce and describe this map and then regard it as a [[local action functional]] of a local prequantum field theory according to def. \ref{LocalPrequantumFieldWithAction}. Below in _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_ we find that this field theory is such that close to its boundaries it looks like (higher) [[topological Yang-Mills theory]] for every possible higher gauge group and every possible [[invariant polynomial]] on it, as one considers every possible [[boundary condition]]. Therefore we here refer to this as the "universal topological Yang-Mills theory".
 
+##### Smooth moduli stacks of fields: Smooth $\infty$-groupoids
+
 (...)
+
+The notion of a [[sheaf]] of [[chain complexes]] or equivalently of a chain complex of sheaves over a fixed [[topological space]] has a long tradition in [[homological algebra]]. Many sheaves however are naturally considered not on one fixed space, but on "all of them". For instance [[differential forms]] in any degree may be "[[pullback of a differential form|pulled back]]" along any [[smooth function]] between [[smooth manifolds]]. Accordingly if we regard the whole category [[SmoothMfd]] of smooth manifolds as a replacement for and generalization of the [[category of open subsets]] of any given one, then differential forms constitute a sheaf on that [[site]], hence a functor
+
+$$
+  \Omega^{n} \colon SmoothMfd^{op} \to Set
+  \,.
+$$
+
+In particular for $n = 0$ this is just the sheaf of smooth functions
+
+$$  
+  \underline{\mathbb{R}} = C^\infty(-,\mathbb{R}) \colon SmoothMfd^{op} \to Set
+  \,.
+$$
+
+One way to think of this is that this sheaf _is_ the [[real line]] $\mathbb{R}$ first of all as a [[set]] -- which is the value of $\underline{\mathbb{R}}$ on the [[point]] $\ast$ -- and secondly equipped with its canonical [[smooth structure]] which is encoded by the system of _all_ sets $C^\infty(X,\mathbb{R})$ of smooth functions from any smooth manifold $X$, and the information $C^\infty(\phi, \mathbb{R}) \colon C^\infty(Y, \mathbb{R}) \to C^\infty(X,\mathbb{R})$ of how these functions pull back (precompose) along any smooth function of test manifolds $\phi \colon X \to Y$.
+
+Regarding the [[smooth manifold]] $\mathbb{R}$ this way means regarding it as what is sometimes called a [[diffeological space]], and what here more generally call a _[[smooth space]]_.
+
+Therefore we will often just write $\mathbb{R}$ when we really mean the sheaf $\underline{\mathbb{R}}$ [[representable functor|represented]] by it.
+
+The [[Dold-Kan correspondence|Dold-Kan map]] of def.  \ref{DoldKanMap} directly extends to ([[presheaf|pre]]-)[[sheaves]] which regard a (pre-)sheaf of chain complexes as a presheaf of [[Kan complexes]]
+
+$$
+  DK
+  \;\colon\;
+  pSh(SmoothMfd, Ch_\bullet)
+  \stackrel{}{\to}
+  pSh(SmoothMfd, KanCplx)
+  \hookrightarrow
+  pSh(SmoothMfd, sSet)
+  \,.
+$$
+
+(...)
+
+The [[simplicial localization]]
+
+$$
+  Smooth\infty Grpd
+  \coloneqq
+  L_{lhe} pSh(SmoothMfd, KanCplx)
+$$
+
+is the [[homotopy theory]] obtained by universally turning [[stalk]]-wise [[homotopy equivalences]] of [[Kan complexes]], def. \ref{spring}, into actual homotopy equivalences.
+
+We call [[∞Grpd]] also the _[[differential cohesion|differential]] [[cohesive]] [[∞-topos]] of [[smooth ∞-groupoids]]_. For brevity and since most everything we discuss in the following holds for arbitrary _[[differential cohesion|differential]] [[cohesive]] [[(∞,1)-toposes]], we from now on denote it by
+
+$$
+  \mathbf{H} \coloneqq Smooth \infty Grpd
+  \,.
+$$
+
+(...)
+
+##### The canonical local action functional: Differential forms in de Rham hypercohomology
 
 +-- {: .num_prop }
 ###### Proposition
@@ -2988,7 +3156,7 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 =--
 
-(...)
+
 
 #### $d = n + 0$, Higher Chern-Simons field theories
  {#HigherChernSimonsPrequantumFieldTheory}
