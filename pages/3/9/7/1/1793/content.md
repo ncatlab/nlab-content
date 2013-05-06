@@ -21,6 +21,7 @@
 
 Model structures on chain complexes are [[model category]] structures on [[categories of chain complexes]] whose weak equivalences are [[quasi-isomorphism]]s. 
 
+
 Via these model structures, all of the standard techniques in [[homological algebra]], such as [[injective resolutions]] and [[projective resolutions]], are special cases of constructions in [[homotopy theory]], such as [[cofibrant resolutions]] and [[fibrant resolutions]]. 
 
 The existence of these model structures depends subtly on whether the chain complexes in question are bounded or not. 
@@ -608,8 +609,8 @@ Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and
 
 Write $Ch(\mathcal{A})$ for [[category of chain complexes|category of unbounded chain complexes]] in $\mathcal{A}$. 
 
-Following [Christensen-Hovey](#ChristensenHovey) there is a family of model category structures on $Ch(\mathcal{A})$, all refining the [[category with weak equivalences]] given by [[quasi-isomorphism]]s, but where the fibrations are degreewise surjections in a generalized sense, a sense that is parameterized by a choice of _projective class_ . 
-
+Following [Christensen-Hovey](#ChristensenHovey) there is a family of model category structures on $Ch(\mathcal{A})$ parameterized by a choice of _projective class_ . 
+The cofibrations, fibrations and weak equivalences all depend on the projective class.
 
 +-- {: .num_defn #ProjectiveClass}
 ###### Definition
@@ -618,7 +619,10 @@ A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob 
 
 * $\mathcal{E}$ is precisely the collection of $\mathcal{P}$-epic maps;
 
-* $\mathcal{P}$ is precisely the collection of all objects $P$ such that each map in $\mathcal{E}$ is $P$-epic.
+* $\mathcal{P}$ is precisely the collection of all objects $P$ such that each map in $\mathcal{E}$ is $P$-epic;
+
+* for each object $X$ in $\mathcal{A}$, there is a morphism $P \to X$ in 
+  $\mathcal{E}$ with $P$ in $\mathcal{P}$.
 
 =--
 
@@ -661,7 +665,8 @@ Given a [projective class](#ProjectiveClass) $\mathcal{P}$ in $\mathcal{A}$, cal
 
 * a fibration if $\mathcal{A}(P,f)$ is a surjection in [[Ab]] for all $P \in \mathcal{P}$;
 
-* a weak equivalence if it is a [[quasi-isomorphism]]. 
+* a weak equivalence if $\mathcal{A}(P,f)$ is a [[quasi-isomorphism]] in $Ch(Ab)$
+  for all $P \in \mathcal{P}$. 
 
 Then this constitutes a [[model category]] structure precisely if cofibrant [[resolution]]s exist, which is the case in particular if
 
@@ -684,7 +689,7 @@ We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure
 #### Examples 
  {#ExamplesOfStructuresOnUnboundedComplexes}
 
-We list some example for the model structure on chain complexes is unbouded degree discussed [above](#InUnboundedDegreeGeneralResults).
+We list some example for the model structure on chain complexes is unbounded degree discussed [above](#InUnboundedDegreeGeneralResults).
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
@@ -774,7 +779,7 @@ $$
   \,.
 $$
 
-The cobined Quillen adjunction
+The combined Quillen adjunction
 
 $$
   (N F  \dashv U \Gamma) : Ch_\bullet \stackrel{\leftarrow}{\to} sSet
