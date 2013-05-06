@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[quantum field theory]] _with defects_ is, roughly a quantum field theory that assigns data not just to plain [[manifolds]]/[[cobordisms]], but to spaces that may carry certain singularities and/or colorings. At the locus of such a singularity the [[bulk]] field theory may then undergo transitions.
+A ([[prequantum field theory|pre]]-)[[quantum field theory|quantum]] [[field theory]] _with defects_ is, roughly a [[field theory]] that assigns data not just to plain [[manifolds]]/[[cobordisms]], but to spaces that may carry certain singularities and/or colorings. At the locus of such a singularity the [[bulk]] field theory may then undergo transitions.
 
 Such defects are known by many names. In [[codimension]] 1 they are often called [[domain walls]]. If they are [[boundaries]] they are often called _[[branes]]_, the corresponding domain walls are then sometimes called [[bi-branes]]. Examples of Dimension-1 defects are [[Wilson lines]] and [[cosmic strings]] (at least in [[gauge theory]]) and dimension-0 defects are often called [[monopoles]].
 
@@ -252,6 +252,8 @@ $$
 
 [[!include field theory with boundaries and defects - table]]
 
+
+
 ## References
 
 ### General
@@ -346,3 +348,6 @@ Defects field theory motivated from [[solid state physics]] is discussed in
 [[!redirects defects]]
 
 [[!redirects field theory with singularities]]
+
+[[!redirects defect field theory]]
+[[!redirects defect field theories]]
