@@ -548,9 +548,9 @@ The preservation of [[mapping spaces]] under this embedding is due to
 * [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  {#Waldorf}
 
-The largest [[topological space|topology]] on the set which underlies a diffeological space with respecto to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
+The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
-* [[Daniel Christensen]], J. Sinnamon, E. Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
+* [[Dan Christensen|J. Daniel Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
 
 [[!redirects diffeological spaces]]
 
