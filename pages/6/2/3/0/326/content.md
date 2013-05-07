@@ -115,9 +115,9 @@ Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functor
 
 The hom-functor preserves all [[limits]] in both arguments separately. This means:
 
-* for fixed object $c \in C$ the functor $hom(c,-) : C \to C$ sends limit [[diagrams]] in $C$ to limit diagrams in $C$;
+* for fixed object $c \in C$ the functor $hom(c,-) : C \to Set$ sends limit [[diagrams]] in $C$ to limit diagrams in $Set$;
 
-* for fixed object $c' \in C$ the functor $hom(-,c') : C^{op} \to C$ sends limit diagrams in $C^{op}$ -- which are [[colimit]] [[diagrams]] in $C$! -- to limit diagrams in $C$. 
+* for fixed object $c' \in C$ the functor $hom(-,c') : C^{op} \to Set$ sends limit diagrams in $C^{op}$ -- which are [[colimit]] [[diagrams]] in $C$! -- to limit diagrams in $Set$. 
 
 For instance for 
 
