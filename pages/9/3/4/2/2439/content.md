@@ -32,22 +32,22 @@ $$
   a \otimes b = (-1)^{deg(a) deg(b)} b \otimes a
 $$
 
-in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13))). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$:
+in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13))). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$. So the $\mathbb{Z}_2$-grading of superalgebra comes from the [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ in degree 1 and 2:
 
-| $n = $ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $\cdots$ | 
-|--------|-----|-----|-----|-----|-----|-----|-----|--|
-| $\pi_n(\mathbb{S}) = $ | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{24}$ | $ 0 $ | $0$ | $\mathbb{Z}_2$ | $\cdots$ |
-| meaning: | degree | [[boson]]/[[fermion]] super-degree | [[spin geometry|spin]] | [[string geometry|string]] | $-$ | $-$ | ? | $\cdots$ |
-| [[free construction|free object]] on single [[generators and relations|generator]]: | [[abelian group]] | [[abelian 2-group]] | [[abelian 3-group]] | [[abelian 4-group]] |  |  | [[abelian 7-group]] |  [[abelian ∞-group]] | 
+| $n = $ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $\cdots$ | 
+|--------|-----|-----|-----|-----|-----|-----|-----|-----|--|
+| $\pi_n(\mathbb{S}) = $ | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{24}$ | $ 0 $ | $0$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{240}$ | $\cdots$ |
+| meaning: | degree | [[boson]]/[[fermion]] super-degree | [[spin geometry|spin]] | [[string geometry|string]] | $-$ | $-$ | ? | ? | $\cdots$ |
+| [[free construction|free object]] on single [[generators and relations|generator]]: | [[abelian group]] | [[abelian 2-group]] | [[abelian 3-group]] | [[abelian 4-group]] |  |  | [[abelian 7-group]] | [[abelian ∞-group|abelian 8-group]] | [[abelian ∞-group]] | 
 
 
 In the following we first discuss
 
-* [Associatvive superalgebra](#AssociativeSuperalgebras)
+* _[Associatvive superalgebras](#AssociativeSuperalgebras)_
 
-as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the more abstract picture of
+as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the perspective of
 
-* [Algebra in the topos over superpoints](#AlgebraOverSuperpoints)
+* _[Algebra in the topos over superpoints](#AlgebraOverSuperpoints)_
 
 and consider systematically [[algebra]] in the [[sheaf topos]] over the [[site]] of [[superpoint]]s and show how this reproduces and generalizes the previous notions.
 
@@ -290,7 +290,7 @@ The following generalizes this to the higher [[homotopy groups]].
 
 The [[homotopy groups]] of the [[braided 3-group]] $sAlg^\times$ of Azumaya superalgebra are
 
-| | $sAlg^\times_{\mathbb{C}}$ | $sAlg^\times_{\mathbb{C}}$ |
+| | $sAlg^\times_{\mathbb{C}}$ | $sAlg^\times_{\mathbb{R}}$ |
 |--|--|--|
 | $\pi_2$ | $\mathbb{C}^\times$ | $\mathbb{R}^\times$
 | $\pi_1$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$
