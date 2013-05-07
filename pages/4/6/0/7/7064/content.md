@@ -14,13 +14,31 @@
 
 The [[homotopy groups]] of [[spheres]]...
 
+The stable homotopy groups of the [[sphere spectrum]]...
+
+## Tables
+
+The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | $\cdots$ | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ |
+
 ## References
+
+* Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www.math.uchicago.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
+
+* Doug Ravenal, _Complex cobordism and stable homotopy groups of spheres_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
 
 * Wikipedia, _[Homotopy groups of spheres](http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres)_
 
 * MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
 
+
+
 For formalization in [[homotopy type theory]] see at
 
 * [[UF-IAS-2012]], _[HomotopyGroupsOfSpheres](http://uf-ias-2012.wikispaces.com/HomotopyGroupsOfSpheres)_
 
+
+[[!redirects stable homotopy groups of spheres]]
