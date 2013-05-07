@@ -16456,7 +16456,34 @@ Here we discuss the structure of the _outcome_ of this process
 (...)
 
 
+## **Application to open questions in physics**
+ {#ApplicationsToOpenQuestionsInPhysics}
 
+What is it that [[higher geometry]], [[higher gauge theory]], [[extended TQFT|extended]]/local [[field theory]] and generally [[higher category theory and physics|higher category theory in physics]] contribute to open research questions in theoretical physics?
+
+Often when this question is asked the most glaring open question of contemporary theoretical physics is forgotten: 
+
+_What IS [[local quantum field theory]]?_ 
+
+While something going by this name is clearly in use, it is just as clear that the full answer to this question is only being discovered these days, with formalizations such as the [[cobordism theorem]] and constructions such as [[factorization algebras]] in [[BV-quantization]] -- both of which are crucially constructions in [[higher geometry]]/[[higher category theory]].
+
+Despite the huge success of quantum field theory, it it worthwhile to remember that all the fundamental open questions in present day fundamental physics quite likely require a deeper understanding of what quantum field theory actually is, notably non-perturbatively:
+
+* Why is there [[confinement]]/[[chiral symmetry breaking]] in non-perturbative [[QCD]]/[[Yang-Mills theory]]? (The "mass gap problem".)
+
+* What is beyond-the-standard-model physics?
+
+* What is [[quantum gravity]]?
+
+* What is non-perturbative [[string theory]]?
+
+For instance the [[standard model of cosmology]] says that the bulk of all [[energy]] and [[matter]] in the [[observable universe]] is entirely unknown to us ([[dark matter]], "[[dark energy]]"), while at the same time the theoretical prediction what the [[cosmological constant]] [[vacuum energy]] should be is entirely off. How glaring an open question about the nature of quantum field theory this actually is is often forgotten due to the success of [[effective field theory]]-type of reasoning that allows to neatly wrap up all this unknown energy into a single term in some effective equation. Phenomenologically this may be regarded as a success, but for fundamental theoretical physics it is a glaring open question. 
+
+And while there is work going in this direction, it may be worthwhile to recall how relatively primitive the available theoretical tools often still are. For instance it seems clear that "canonical non-covariant quantization" can hardly be an approrpiate tool to approach anything in the direction of [[quantum gravity]]. Even so fundamental a notion as that of _[[covariant phase space]]_ necessary to make progress here is not widely known in the theoretical physics community. Attempts to refine quantization to a "covariant" and "[[local quantum field theory|local]]" formalism via [[multisymplectic geometry]] have mainly got stuck, since local observables just do not form a sensible structure in ordinary [[Lie theory]]. This is resolved only in [[infinity-Lie theory]] and [[higher differential geometry]], as discussed above ([hgp 13](#hgp13), [lo 13](#LocalObservables13)).
+
+If one assumes that [[string theory]] is part of the answer as to what underlies the [[standard model of particle physics]] [[standard model of cosmology|and cosmology]], then this situation becomes more drastic even. The fundamental [[field (physics)|fields]] of string theory are clearly objects in [[higher differential geometry]], such as the [[B-field]], the [[RR-field]], the [[supergravity C-field]] etc. For instance the natural identification of the latter as a [[homotopy fiber product]] of [[moduli stacks]] in ([FSS7dCS](#FSS7dCS), [FSSCField](#FSSCField)) is hardly conceivable when ignoring [[higher differential geometry]]. And this is a structure meant to be at the very heart of what makes up string theory. It is unlikely that the [[landscape of string theory vacua]] and hence the relation of string theory to [[phenomenology]] can really be understood if such basic higher-geometric phenomena of string theory are ignored (see [Distler-Freed-Moore 09](#http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore) on this point).
+
+(...)
 
 
 ## **References**
@@ -16474,6 +16501,8 @@ Here we discuss the structure of the _outcome_ of this process
 1. [Higher category theory in physics](#ReferencesHigherCategoryTheoryInPhysics)
 
 1. [Local prequantum field theory](#ReferencesLocalPrequantumFieldTheory)
+
+1. [Higher geometric prequantum theory](#ReferencesHigherGeometricPrequantumGeometry)
 
 1. [Further details](#ReferencesFurtherDetails)
 
@@ -16597,6 +16626,16 @@ Much of the content of this entry here are, or arose as, lecture notes for
  {#SchreiberPittLectures}
 
 
+### Higher geometric prequantum theory
+ {#ReferencesHigherGeometricPrequantumGeometry}
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+ {#hgp13}
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_
+ {#LocalObservables13}
+
+
 ### Further details
  {#ReferencesFurtherDetails}
 
@@ -16654,6 +16693,7 @@ The discussion of the abelian [[7d Chern-Simons theory]] involved in [AdS7/CFT6 
  {#FSS7dCS}
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
+ {#FSSCField}
 
 Construction of differential cup-product theories is in 
 
