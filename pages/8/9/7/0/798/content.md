@@ -29,6 +29,10 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 
 * [[3-groupoid]]
 
+## Examples
+
+* [[3-category of fermionic conformal nets]] ([[2-Clifford algebras]])
+
 ## Related concepts
 
 * [[0-category]], [[(0,1)-category]]
