@@ -131,7 +131,7 @@ $$\forall x, y: N (\langle x, y \rangle \in S) \Rightarrow ((x \in [w]) \Leftrig
 
 is satisfied. Now define a relation $T$ on $N$ by the subobject
 
-$$\{\langle x, y \rangle \in N \times N: \forall w: P N (w \; is \; $S$-closed) \Rightarrow ((x \in [w]) \Leftrightarrow (y \in [w])).$$ 
+$$\{\langle x, y \rangle \in N \times N: \forall w: P N (w \; is \; S closed) \Rightarrow ((x \in [w]) \Leftrightarrow (y \in [w])).$$ 
 
 Observe that $T$ is an equivalence relation that contains $S$ and therefore $R$. It therefore contains the kernel pair of the coequalizer of $1$ and $s$; since this coequalizer is by assumption $N \to 1$, the kernel pair is all of $N \times N$. Also observe that since $N'$ is $S$-closed by definition, it is $T$-closed as well, and we now conclude 
 
