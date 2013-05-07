@@ -33,6 +33,8 @@ A _conformal net_ is a [[local net]] of observables that describes (2-dimensiona
 
 (...)
 
+* [[3-category of fermionic conformal nets]]
+
 ## Examples
 
 ### Free fermion
@@ -75,6 +77,8 @@ More on this in
 
 * [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
  {#DouglasHenriquesGeometric}
+
+Relation to [[2-spectral triples]] is discussed in 
 
 * [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
