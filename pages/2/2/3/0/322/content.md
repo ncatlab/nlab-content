@@ -63,11 +63,11 @@ $$F(n) \cong F(n) \otimes I^{\otimes n} \stackrel{1 \otimes e^{\otimes n}}{\to} 
 
 Compatibility with symmetric group actions means that for each element $\sigma \in S_k$, the composition operation 
 
-$$F(k) \otimes \bigotimes_{i = 1}^n F(n_i) \to F(n_1 + \ldots + n_k)$$ 
+$$F(k) \otimes \bigotimes_{i = 1}^k F(n_i) \to F(n_1 + \ldots + n_k)$$ 
 
 coequalizes a pair of automorphisms 
 
-$$\rho(\sigma) \otimes 1, 1 \otimes \lambda(\sigma): F(k) \otimes \bigotimes_{i=1}^n F(n_i) \;\rightrightarrows\; F(k) \otimes \bigotimes_{i=1}^n F(n_i)$$ 
+$$\rho(\sigma) \otimes 1, 1 \otimes \lambda(\sigma): F(k) \otimes \bigotimes_{i=1}^k F(n_i) \;\rightrightarrows\; F(k) \otimes \bigotimes_{i=1}^k F(n_i)$$ 
 
 where $\sigma$ acts on the big tensor product on the left by permuting tensor factors in the obvious way. If $V$ has suitable colimits, this condition could be expressed in terms of tensor products over $S_n$. 
 
@@ -101,7 +101,7 @@ Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** i
 * for all $n$, all tuples, and each [[permutation]] $\sigma$ in the [[symmetric group]] $\Sigma_n$ a morphism
 
   $$
-    \sigma^* : P(c_1, \cdots, c_n;c) \to P(c_{\sigma(1)}, \cdots, \sigma(n);c)
+    \sigma^* : P(c_1, \cdots, c_n;c) \to P(c_{\sigma(1)}, \cdots, c_{\sigma(n)};c)
   $$
 
 * subject to the conditions that
