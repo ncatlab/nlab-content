@@ -472,6 +472,9 @@ Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformu
 
 [[Brauer groups]] of superalgebras are discussed in 
 
+* [[Daniel Freed]], Lectures on twisted K-theory and orientifolds ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
+ {#Freed}
+
 * [[C. T. C. Wall]], _Graded Brauer groups_, J. Reine Angew. Math. 213 (1963/1964), 187-199. 
  {#Wall}
 
@@ -481,7 +484,7 @@ Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformu
 
 See also at _[[super line 2-bundle]]_ for more on this.
 
-Discussion of superalgebra as induced from free goupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] is in 
+Discussion of superalgebra as induced from free groupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] is in 
 
 * [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov))
  {#Kapranov13}
@@ -494,4 +497,3 @@ Discussion of superalgebra as induced from free goupal symmetric monoidal catego
 [[!redirects superalgebras]]
 
 [[!redirects even rules]]
-
