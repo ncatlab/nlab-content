@@ -14,22 +14,44 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In the general sense, _superalgebra_ is the study of ([[higher algebra|higher]]) [[algebra]] over the [[base topos]] on [[superpoint]]s.
+In the general sense, _superalgebra_ is the study of ([[higher algebra|higher]]) [[algebra]] 
+
+* [[internalization|internal]] to the [[symmetric monoidal category]] of $\mathbb{Z}_2$-[[graded vector spaces]] ([[super vector spaces]]);
+
+equivalently 
+
+* over the [[base topos]] on [[superpoints]].
 
 More specifically, an _associative superalgebra_ is an [[associative algebra]] in the context of superalgebra. As in the ordinary case, this is often just called _a superalgebra_ , too.
+
+Superalgebra is [[universal property|universal]] in the following sense. The crucial super-grading rule (the "Koszul sign rule") 
+
+$$
+  a \otimes b = (-1)^{deg(a) deg(b)} b \otimes a
+$$
+
+in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13))). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$:
+
+| $n = $ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $\cdots$ | 
+|--------|-----|-----|-----|-----|-----|-----|-----|--|
+| $\pi_n(\mathbb{S}) = $ | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{24}$ | $ 0 $ | $0$ | $\mathbb{Z}_2$ | $\cdots$ |
+| meaning: | degree | [[boson]]/[[fermion]] super-degree | [[spin geometry|spin]] | [[string geometry|string]] | $-$ | $-$ | ? | $\cdots$ |
+| [[free construction|free object]] on single [[generators and relations|generator]]: | [[abelian group]] | [[abelian 2-group]] | [[abelian 3-group]] | [[abelian 4-group]] |  |  | [[abelian 7-group]] |  [[abelian ∞-group]] | 
+
 
 In the following we first discuss
 
 * [Associatvive superalgebra](#AssociativeSuperalgebras)
 
-as [[monoid]]s in the [[braided monoidal category]] of [[super vector space]]s. Then we pass to the more abstract picture of
+as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the more abstract picture of
 
 * [Algebra in the topos over superpoints](#AlgebraOverSuperpoints)
 
 and consider systematically [[algebra]] in the [[sheaf topos]] over the [[site]] of [[superpoint]]s and show how this reproduces and generalizes the previous notions.
 
-See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]] for some history of the topos-theoretic perspective on superalgebra.
+See ([Sachse](#Sachse)) and the references at _[[super ∞-groupoid]]_ for some history of the topos-theoretic perspective on superalgebra.
 
 
 ## Associative superalgebras
@@ -458,6 +480,11 @@ Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformu
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and K-theory with local coefficients_, Publications Math. IHES 38 (1970), 5-25 ([pdf](http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf))
 
 See also at _[[super line 2-bundle]]_ for more on this.
+
+Discussion of superalgebra as induced from free goupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] is in 
+
+* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov))
+ {#Kapranov13}
 
 
 
