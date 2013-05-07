@@ -54,6 +54,21 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 
 ### General
 
+Early speculations trying to model the [[electron]] by a relativistic membrane are due to [[Paul Dirac]]:
+
+* [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy.
+Soc. A268, (1962) 57-67.
+
+* [[Paul Dirac]], _Motion of an Extended Particle in the Gravita-
+tional Field_, in Relativistic Theories of Gravitation, Proceedings
+of a Conference held in Warsaw and Jablonna, July 1962, ed. L.
+Infeld, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion
+171-175
+
+* [[Paul Dirac]], _Particles of Finite Size in the Gravitational Field_,
+Proc. Roy. Soc. A270, (1962) 354-356.
+
+
 The [[Green-Schwarz action]]-type formulation of the supermembrane appears in 
 
 * E. Bergshoeff, E. Sezgin, and [[Paul Townsend]], _Supermembranes and
