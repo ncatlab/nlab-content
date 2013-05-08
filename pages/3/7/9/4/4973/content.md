@@ -14,7 +14,7 @@
 
 ## Idea
 
-Given a geometric morphism $f : \mathcal{E} \to \mathcal{S}$, we can regard $\mathcal{E}$ as a *topos over $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
+Given a geometric morphism $f : \mathcal{E} \to \mathcal{S}$, we can regard $\mathcal{E}$ as a *[[topos]] [[base topos|over]] $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
 
 ## Definition
 
@@ -41,7 +41,16 @@ If we regard $\mathcal{E}$ as a topos over $\mathcal{S}$ via $f$, then when $f$ 
 
 ## Properties
 
-If $f := \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]].
+If $f := \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]]. As such we can also call Grothendieck toposes "bounded $Set$-toposes".
+
+Almost all geometric morphisms in practice are bounded, so that often when people work in the 2-category [[Topos]] of toposes and geometric morphisms, they mean that the geometric morphisms are bounded. See [[unbounded topos]] for the few examples of unbounded geometric morphisms.
+
+## Related concepts
+
+* [[base topos]]
+* [[internal site]]
+* [[internal sheaf]]
+* [[unbounded topos]]
 
 ## References
 
