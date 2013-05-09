@@ -30,10 +30,9 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 
 * Very recently, Gnang, Elgammal and Retakh proved some analogues of spectral theorems for tensors of higher rank, rather than for matrices. 
 
-* _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ of a triangulated category etc.
+* _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[spectrum of a triangulated category]]_, _[[Berkovich spectrum]]_, _[[Orlov spectrum]]_ etc.
 
-
-
+* in algebraic geometry, especially in [[birational geometry]] and arithmetic algebraic geometry points are sometimes reconstructed by looking at [[valuation]]s on the field of rational functions. 
 
 ## Literature
 
