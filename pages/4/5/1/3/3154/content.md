@@ -60,4 +60,4 @@ MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preblob/949), [ps](http://www.mpi
 [[!redirects A. L. Rosenberg]]
 [[!redirects Rosenberg]]
 
-category: people
+category: people, algebraic geometry, noncommutative geometry
