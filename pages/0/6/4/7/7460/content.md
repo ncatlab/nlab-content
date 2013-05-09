@@ -2,6 +2,8 @@ Robert W. Thomason (5 Nov 1952-Nov 1995) was an American mathematician. Towards 
 
 * [here](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Thomason.html)
 
+
+ A CatLab entry is [here](http://ncatlab.org/joyalscatlab/show/Thomason%2C+Robert)
 category:people
 [[!redirects Thomason]]
 [[!redirects Bob Thomason]]
