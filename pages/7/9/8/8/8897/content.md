@@ -6,7 +6,7 @@
 
 ## Idea
 
-Thomason and Balmer showed that the [[derived category]] of [[coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely.  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its derived category of coherent sheaves when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
+Thomason and Balmer showed that the [[derived category]] of [[coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely; see [[spectrum of a triangulated category]].  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure; moreover triangulated equivalences and autoequivalences are also important in relation to the [[homological mirror symmetry]] and similar phenomena.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its derived category of coherent sheaves when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
 
 ## Statement
 
@@ -77,15 +77,13 @@ For any invertible sheaf $\mathcal{L}$ on $X$, $\alpha \in \Hom(\mathcal{O}_X, \
   \[ \mathcal{O}_Y \stackrel{F(\alpha)}{\to} F(\mathcal{L}) \to \mathcal{O}_{\phi(x)}[s].\]
 $F(\alpha)$ corresponds bijectively to some $\beta \in \Hom(\mathcal{O}_Y, \omega_Y^m)$ and in fact our bijection $f : X \to Y$ becomes a homeomorphism mapping $U_\alpha$ to $V_{F(\alpha)}$.  It follows that $\{ V_\beta : \beta \in \Hom(\mathcal{O}_Y, \omega_Y^m), m \in \mathbb{Z} \}$ forms a basis of the Zariski topology on $Y$, which implies $\omega_Y$ is ample.
 
-## Related concepts
-
-* [[Tannaka duality for geometric stacks]]
-
 ## References
+
+Related concepts include [[Tannaka duality for geometric stacks]], [[spectrum of a triangulated category]], [[spectrum of an abelian category]]
 
 The original paper:
 
-* [[Aleksei Bondal]], [[Dmitri Orlov]], _[Reconstruction of a variety from the derived category and groups of autoequivalences](http://www.mi.ras.ru/~orlov/papers/Compositio2001.pdf)_, Compositio Mathematica 125 (03), 327-344.
+* [[Aleksei Bondal]], [[Dmitri Orlov]], _Reconstruction of a variety from the derived category and groups of autoequivalences_, Compositio Mathematica __125__ (03), 327-344 [doi](http://dx.doi.org/10.1023/A:1002470302976), [pdf](http://www.mi.ras.ru/~orlov/papers/Compositio2001.pdf)_[Reconstruction of a variety from the derived category and groups of autoequivalences](http://www.mi.ras.ru/~orlov/papers/Compositio2001.pdf)_, Compositio Mathematica 125 (03), 327-344.
 
 A nice exposition of the proof with more details can be found in section 3.1 of the course notes of [[Igor Dolgachev]] on [[derived categories]]:
 
