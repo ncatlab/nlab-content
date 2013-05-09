@@ -26,8 +26,6 @@ If a [[monad]] or [[comonad]] $T$ on a [[topos]] $\mathcal{E}$ is sufficiently w
 
 Let $\mathcal{E}$ be a [[topos]]. Then
 
-* if a [[monad]] $T : \mathcal{E} \to \mathcal{E}$ has a [[right adjoint]], then the [[Eilenberg-Moore category|category of algebras]] $T Alg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos.
-
 * if a [[comonad]] $T : \mathcal{E} \to \mathcal{E}$ is [[exact functor|left exact]], then the [[Eilenberg-Moore category|category of coalgebras]] $T CoAlg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos.
 
   Moreover, 
@@ -42,12 +40,17 @@ Let $\mathcal{E}$ be a [[topos]]. Then
 
     is a [[geometric morphism]].
 
-  * if $T$ is furthermore [[accessible functor|accessible]] and $\mathcal{E}$ is a [[sheaf topos]], then also $T CoAlg(\mathcal{C})$ is a sheaf topos.
+  * If $T$ is furthermore [[accessible functor|accessible]] and $\mathcal{E}$ is a [[sheaf topos]], then also $T CoAlg(\mathcal{C})$ is a sheaf topos. 
+
+  * Even if $T$ is merely [[pullback]]-preserving, the category of coalgebras is a topos. 
+
+* Therefore, if a [[monad]] $T : \mathcal{E} \to \mathcal{E}$ has a [[right adjoint]], then the [[Eilenberg-Moore category|category of algebras]] $T Alg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos. (Because the right adjoint of a monad carries a comonad structure, evidently a left exact comonad, and there is a canonical equivalence between the category of algebras over the monad and the category of coalgebras over the comonad.) 
+
+* If a monad on a topos is pullback-preserving and [[idempotent monad|idempotent]], then the category of algebras is a subtopos (hence the category of sheaves for some [[Lawvere-Tierney topology]]). 
 
 =--
 
-This appears for instance as ([MacLaneMoerdijk, V 8. thm 4, cor 7](#MacLaneMoerdijk))
-
+The result for left exact comonads appears for instance as ([MacLaneMoerdijk, V 8. theorem 4](#MacLaneMoerdijk)); the result for monads possessing a right adjoint appears in _op. cit._ as corollary 7. The statement on pullback-preserving comonads is given in The [[Elephant]], A.4.2.3. 
 
 ### Image factorization of toposes
 
@@ -64,7 +67,7 @@ This way the [[geometric surjection/embedding factorization]] in [[Topos]] is co
 
 ## Examples
 
-+-- {: .num_prop}
++-- {: .num_remark}
 ###### Observation
 
 For $(f^* \dashv f_*) : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathcal{F}$ any [[geometric morphism]], the induced [[comonad]]
@@ -73,9 +76,15 @@ $$
   f^* f_* : \mathcal{E} \to \mathcal{E}
 $$
 
-is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coalgebra.
+is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coalgebras.
 
 =--
+
++-- {: .num_remark}
+###### Observation 
+The so-called "[[over-topos|fundamental theorem of topos theory]]", that an [[overcategory]] of a topos is a topos, is a corollary of the result that the category of coalgebras of a pullback-preserving comonad on a topos is a topos (the slice $\mathcal{E}/X$ being the category of coalgebras of the comonad $X \times - \colon \mathcal{E} \to \mathcal{E}$). 
+=-- 
+
 
 ## Related concepts
 
