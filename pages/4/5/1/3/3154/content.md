@@ -1,13 +1,15 @@
 
 There are at least two Alexander Rosenbergs (and one [[Jonathan Rosenberg]]) in mathematics: 
 
-* algebraist Alex (Alexander) Rosenberg (1926-2007) known from [[Hochschild-Kostant-Rosenberg theorem]] and many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
+* algebraist Alex (Alexander) Rosenberg (1926-2007) known for [[Hochschild-Kostant-Rosenberg theorem]] and for many other articles in [[algebra]] (cf. [notices](http://www.spelman.edu/~colm/alexnotices.html))
 
-* Alexander L. Rosenberg (or Sasha Rosenberg) currently a professor at [Kansas State University](http://www.math.ksu.edu).  
+* Alexander L. Rosenberg (or Sasha Rosenberg) who was a  professor until 2012 at [Kansas State University](http://www.math.ksu.edu).  
 
 Sasha Rosenberg had defended in 1973 dissertation at Moscow State University studying [[Tannaka duality|Tannakian reconstruction theorems]], mainly using methods of [[functional analysis]]. His main goals were in [[representation theory]]. Until leaving Soviet Union around 1987, Rosenberg worked in applied mathematics; on the side however he was developing some methods in representation theory which included functional analysis and categorical and ring/module theoretic methods, and the noncommutative localization in particular. A main construction, presented at a conference at Baikal (1981), was a new spectrum of a ring, so-called left spectrum, later generalized to a [[spectrum of an abelian category]], used to prove (in the  quasicompact case) the Gabriel-Rosenberg reconstruction theorem for commutative schemes; more [[spectral theory|spectral]] constructions followed. This work outgrown into a wide ongoing work on foundations of [[noncommutative algebraic geometry]], including a natural definition of [[noncommutative scheme]]. More recently he proposed a new framework for nonabelian derived functors, including a new version of algebraic K-theory. Other related entries in $n$Lab include [[Q-category]], [[neighborhood of a topologizing subcategory]], [[sheaf on a noncommutative space]], [[spectral cookbook]]. 
 
 Rosenberg's coauthors in pure mathematics works are [[Valery Lunts]] and [[Maxim Kontsevich]]. One should be warned that most of the newly released articles of Rosenberg are not at the arXiv but at the Max Planck Bonn [preprint server](http://www.mpim-bonn.mpg.de/Research/MPIM+Preprint+Series). Rosenberg's available papers and online resources include:
+
+* 3 volume work on noncommutative geometry: _Geometry of Noncommutative 'Spaces' and Schemes_, [pdf](http://www.mpim-bonn.mpg.de/preblob/5148); _Homological algebra of noncommutative 'spaces' I._, [pdf](http://www.mpim-bonn.mpg.de/preblob/5159) (note: longer version than another MPI preprint with the same title mentioned before); _Noncommutative 'Spaces' and 'Stacks'_, [pdf](http://www.mpim-bonn.mpg.de/preblob/5149)
 
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
 
@@ -48,8 +50,7 @@ MPIM1999-82, [dvi](http://www.mpim-bonn.mpg.de/preblob/947), [ps](http://www.mpi
 
 * A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preblob/3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
 
-* A. Rosenberg, _Underlying spaces of noncommutative schemes_, 
-MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preblob/1947), [ps](http://www.mpim-bonn.mpg.de/preblob/1948)
+* A. Rosenberg, _Underlying spaces of noncommutative schemes_, MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preblob/1947), [ps](http://www.mpim-bonn.mpg.de/preblob/1948)
 
 * A. Rosenberg, _Noncommutative spaces and schemes_, 
 MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preblob/949), [ps](http://www.mpim-bonn.mpg.de/preblob/950)
