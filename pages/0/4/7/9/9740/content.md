@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+The sixth in the list of [[Hilbert's problems]]:
+
+> **6. Mathematical Treatment of the Axioms of Physics.** The investigations on the [[foundations]] of [[geometry]] suggest the problem: To treat in the same manner, by means of [[axioms]], those [[physics|physical sciences]] in which already today [[mathematics]] plays an important part; in the first rank are the [[probability theory|theory of probabilities]] and [[mechanics]].
+
+## Related pages
+
+* [[mathematical physics]], [[higher category theory and physics]], [[geometry of physics]]
+
+## References
+
+* Wikipedia, _[Hilbert's sixth problem](http://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem)_
+
