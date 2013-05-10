@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 
@@ -76,6 +77,10 @@ $$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
+## Related concepts
+
+* [[crossed product C*-algebra]]
+
 ## Literature
 
 * Y. Doi, M. Takeuchi, _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818
@@ -86,6 +91,9 @@ algebra_, Comm. Alg. __17__ (1989), 3053--3085, [MR91k:16027](http://www.ams.org
 rings_, CBMS Regional Conference Series in Mathematics __82__,
 AMS 1993.
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
+
+[[!redirects crossed product algebras]]
+
 [[!redirects Hopf smash product]]
 [[!redirects smash product algebra]]
 [[!redirects cleft extension]]
