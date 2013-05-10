@@ -2261,6 +2261,7 @@ example of DW theory in arbitrary dimension $n$.
 
 
 ##### Essence of higher gauge theory: $\infty$-Groupoids and basic homotopy theory
+  {#EssenceOfHigherGaugeTheoryBasicHomotopyTheory}
 
 We briefly recall here some basic definitions and facts of [[∞-groupoids]] and their [[homotopy theory]], geared towards their use in 3-dimensional [[Dijkgraaf-Witten theory]] and generally in [[∞-Dijkgraaf-Witten theory]].
 
