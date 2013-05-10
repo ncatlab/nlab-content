@@ -3037,9 +3037,12 @@ First we now observe in
 
 * _[Universal topological Yang-Mills theory](#TopologicalYangMillsLocalPrequantumFieldTheory)_
 
-that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction}, shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What exactly this means is then seen in 
+that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[atlas]] relative to [[manifolds]]" of $\flat \mathbf{B}^{n+1}U(1)$ given by the [[sheaf]] of [[differential forms|closed differential (n+1)-forms]]. Analyzing what this morphism is like, when regarded as a local prequantum field theory by def. \ref{LocalPrequantumFieldWithAction}, shows that it is the "universal" higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory. What this means becomes clear when we analyze the possible [[boundary field theories]] of this theory. 
 
-* _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_
+* _[Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
+](#UniversalStYMBoundaryAndDifferentialCohomology)_
+
+* [General boundary conditions: Higher Chern-Weil theory and $\infty$-Chern-Simons theory](#GenralBoundaryForStYMAndHigherChernSimons) 
 
 where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_. These include ordinary 3d [[Chern-Simons theory]], [[higher dimensional Chern-Simons theory]] on ordinary [[gauge fields]] but also higher Chern-Simons theory on [[higher gauge fields]] such as the [[String 2-group]] [[7-dimensional Chern-Simons theory]], the [[AKSZ sigma-models]], and also [[closed string field theory]].
 
@@ -3052,11 +3055,6 @@ Continuing in this vein we can then work out what all the further higher [[codim
 which are given by generalized "[[Bohr-Sommerfeld leaf|Bohr-Sommerfeld]] [[isotropic subspaces]]" of the [[moduli stacks]] of $\infty$-Chern-Simons fields.
 
 Then...
-
-* _[Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
-](#UniversalStYMBoundaryAndDifferentialCohomology)_
-
-* [General boundary conditions: Higher Chern-Weil theory and $\infty$-Chern-Simons theory](#GenralBoundaryForStYMAndHigherChernSimons) 
 
 (...)
 
@@ -3372,6 +3370,7 @@ hence equipped with a [[circle n-bundle with connection]] (the [[prequantum n-bu
 =--
 
 Moreover, the universal property of the [[Cheeger-Simons differential character|Cheeger-Simons]] field theory identifies all these boundary theories as being of higher Chern-Simons type, in that they have a [[curvature]] associated to them
+which is an invariant differential form ([[invariant polynomial]]) on the moduli stack
 
 $$
   \array{
@@ -3381,9 +3380,11 @@ $$
     \\
     \mathbf{B}^n U(1)_{conn} &\underset{F_{(-)}}{\to}& \Omega^{n+1}_{cl}
   }
+  \,.
 $$
 
-which is an invariant differential form ([[invariant polynomial]]) on the moduli stack. 
+We call these theories of [[schreiber:∞-Chern-Simons theory]]-type.
+
 
 
 +-- {: .num_example }
@@ -3406,6 +3407,8 @@ This [[prequantum n-bundle|prequantum 3-bundle]] is the _[[Chern-Simons circle 3
 
 =--
 
+Many more examples... e.g. [[7d Chern-Simons theory]], [[AKSZ sigma-model]], etc....
+
 
 
 ##### Geometric defects for $S_{tYM}$ from Chern-Simons invariants: Higher holonomy, parallel transport, fiber integration in differential cohomology
@@ -3415,10 +3418,10 @@ While we may think of the [[(∞,n)-category of cobordisms]] $Bord_n$ as built f
 
 But boundaries and defects of a topological field theory may add extra structure to the theory which is not "purely topological" in this way. Here we consider a canonical class of defects for universal higher topological Yang-Mills theory, def. \ref{GeneralHighertYM}, and $\infty$-Chern-Simons theory, def. \ref{HigherCSAsBoundaryTheory}, which implements the expected [[higher parallel transport]]/[[higher holonomy]] of the higher Chern-Simons type action functionals over actual [[smooth manifolds]].
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_prop #FiberIntegrationInDiffCohomologyAsDiagram}
+###### Proposition
 
-For $k \leq n$ and for $\Sigma_k$ and [[orientation|oriented|closed manifold]] there is a morphism of smooth moduli stacks
+For $k \leq n$ and for $\Sigma_k$ and [[orientation|oriented]] [[closed manifold]], there is a morphism of smooth moduli stacks
 
 $$
   \exp(i \int_{\Sigma_k}(-))
@@ -3428,7 +3431,7 @@ $$
   \mathbf{B}^{n-k}U(1)_{conn}
 $$
 
-which is compatible with the standard [[fiber integration|fiber]] [[integeration of differential forms]] and with [[transgression]] in [[ordinary cohomology]] in that it fits into a commuting diagram
+which is compatible with the standard [[fiber integration|fiber]] [[integration of differential forms]] and with [[transgression]] in [[ordinary cohomology]] in that it fits into a commuting diagram
 
 $$
   \array{
@@ -3443,6 +3446,7 @@ $$
     \mathbf{B}^{n-k} U(1)_{conn}
     \\
     \downarrow && \downarrow
+    \\
     [\Sigma_k, \Omega^{n+1}_{cl}]
     &\stackrel{\int_{\Sigma_k}}{\to}&
     \Omega^{n-k+1}_{cl}
@@ -3450,19 +3454,19 @@ $$
   \,.
 $$
 
-More generally if $\Sigma_k$ is a [[manifold with boundary]] then there is a diagram
+More generally, if $\Sigma_k$ is a [[manifold with boundary]] then there is a diagram
 
 $$
   \array{
     && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
     \\
-    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
     \\
     [\partial \Sigma_k, \mathbf{B}^n U(1)_{conn}]
     && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
     \Omega^{n-k+1} 
     \\
-    & {}_{\exp(2 \pi i \int_{\partial \Sigma}(-))}\searrow && \swarrow
+    & {}_{\mathllap{\exp(2 \pi i \int_{\partial \Sigma}(-))}}\searrow && \swarrow
     \\
     && \mathbf{B}^{n-k+1}U(1)_{conn}
   }
@@ -3476,7 +3480,7 @@ $$
   \array{
     && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
     \\
-    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
     \\
     [\emptyset, \mathbf{B}^n U(1)_{conn}]
     && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
@@ -3516,10 +3520,63 @@ $$
 
 This follows by unwinding the traditional formulas for [[fiber integration in differential cohomology]], reformulating them in [[homotopy theory]] and observing that they are natural in their arguments, hence extend to morphisms of higher stacks, as discussed here.
 
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A homotopy/gauge equivalence between a [[circle n-bundle with connection]] $(P,\nabla)$ and a trivial circle $n$-bundle with connection given by a globally defined differential form $(0,\omega)$ is equivalently a section/trivialization of the underlying [[circle n-bundle]]. Therefore the above says that the fiber integration of an $n$-connection over a manifold with boundary is equivalently a section of the transgression of the underlying bundle to the boundary.
 
 =--
 
+We may combine this with the $\infty$-Chern-Simons action functional:
 
++-- {: .num_defn }
+###### Definition
+
+Let $\exp(i S_{CS}) \colon \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}$ be an [[schreiber:∞-Chern-Simons theory]] [[local action functional]] as in prop. \ref{HigherCSAsBoundaryTheory}. Then for $\Sigma_k$ an [[orientation|oriented]] [[smooth manifold|smooth]] $k$-[[dimension|dimensional]] [[manifold with boundary]], the corresponding **transgression defect** is the [[pasting]]-composite 
+
+$$
+  \array{
+    && && [\Sigma, \mathbf{Fields}]
+    \\
+    && & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{[\Sigma_k, \exp(i S_{CS})]}}
+    \\
+    && [\partial \Sigma, \mathbf{Fields}] && && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    && & \searrow& & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlap{\omega_\Sigma}}
+    \\
+    && && [\partial \Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma}(-))} && 
+    \Omega^{n-k+1} 
+    \\
+    && && & {}_{\exp(2 \pi i \int_{\partial \Sigma}(-))}\searrow && \swarrow
+    \\
+    && && && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+or rather its further pullback to the [[shape modality]]
+
+$$
+  \array{
+    && [\Pi(\Sigma), \mathbf{Fields}]
+    \\
+    & \swarrow 
+    \\
+    [\Pi(\partial \Sigma), \mathbf{Fields}]
+  }
+  \,.
+$$
+
+=--
+
+This is a defect between the boundary transgression, def. \ref{FiberIntegrationInDiffCohomologyAsDiagram}, of the $\infty$-Chern-Simons theory and the tautological higher differential higher Chern-Simons theory. 
+
+We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lines]] in Chern-Simons theory arise from transgression defects this way.
+
+(...)
 
 #### $d = n-1$, Topological Chern-Simons boundaries
 
@@ -3530,9 +3587,18 @@ This follows by unwinding the traditional formulas for [[fiber integration in di
 
 (...)
 
+  defect given by transgression over circle
+
+(...)
+
 #### $d = n-2$, Wilson loop/Wilson surface field theories
 
 (...)
+
+  defect given by transgression over sphere
+
+(...)
+
 
 ## Related concepts
 
