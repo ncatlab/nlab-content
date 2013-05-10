@@ -6,7 +6,7 @@
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/283.html))
 
-Relation to [[Yang-Mills theory]]:
+Relation to [[Yang-Mills theory]] and the [[moduli space of connections]]:
 
 * Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
 
