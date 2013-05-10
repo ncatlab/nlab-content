@@ -3,7 +3,7 @@
 
 
 
-> This page is growing incrementally as a series of lecture series proceed.
+> This page is growing incrementally as a series of lecture series proceeds.
 
 ***
 
