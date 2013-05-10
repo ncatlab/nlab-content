@@ -3027,13 +3027,13 @@ In particular the original 3d [[Dijkgraaf-Witten theory]] appears this way as th
 By def. \ref{LocalPrequantumFieldWithAction}, a local prequantum [[bulk]] field theory in dimension $(n+1)$ is equivalently a morphism of the form 
 
 $$
-  \mathbf{Fields} \to \flat \mathbf{B}^{n+1}U(1)
+  \exp(i S) \colon \mathbf{Fields} \to \flat \mathbf{B}^{n+1}U(1)
   \,,
 $$
 
 for any object $\mathbf{Fields} \in \mathbf{H}$. 
 
-First we observe in in 
+First we now observe in 
 
 * _[Universal topological Yang-Mills theory](#TopologicalYangMillsLocalPrequantumFieldTheory)_
 
@@ -3392,7 +3392,7 @@ which is an invariant differential form ([[invariant polynomial]]) on the moduli
 For $G$ a simply connected simple Lie group and
 
 $$
-  \mathbf{B}G_{conn} \coloneqq \Omega^1(-,\athfrak{g})//G
+  \mathbf{B}G_{conn} \coloneqq \Omega^1(-,\mathfrak{g})//G
 $$
 
 the [[moduli stack]] of $G$-[[principal connections]], the local action functional of ordinary 3d [[Chern-Simons theory]] is of the form
@@ -3411,12 +3411,113 @@ This [[prequantum n-bundle|prequantum 3-bundle]] is the _[[Chern-Simons circle 3
 ##### Geometric defects for $S_{tYM}$ from Chern-Simons invariants: Higher holonomy, parallel transport, fiber integration in differential cohomology
 
 
-While we may think of the [[(∞,n)-category of cobordisms]] $Bord_n$ as built from [[smooth manifolds]], the [[cobordisms theorem]] clearly states that these just serve as a presentation of a structure that is not intrinsically related to smooth or even topological structure. This is made manifest by prop. \ref{ValueOfLocalPrequantumFieldTheoryOnCobordism}: the value of a local prequantum field theory on a [[k-morphism]] in $Bord_n$ depends only on the [[homotopy type]] of the $k$-dimensional manifold that presents this $k$-morphism. Of course this is precisely the property that the term "topological" in _[[topological field theory]]_ is referring to.
+While we may think of the [[(∞,n)-category of cobordisms]] $Bord_n$ as built from [[smooth manifolds]], the [[cobordism theorem]] clearly states that these just serve as a presentation of a structure that is not intrinsically related to smooth or even topological structure. This is made manifest by prop. \ref{ValueOfLocalPrequantumFieldTheoryOnCobordism}: the value of a local prequantum field theory on a [[k-morphism]] in $Bord_n$ depends only on the [[homotopy type]] of the $k$-dimensional manifold that presents this $k$-morphism. Of course this is precisely the property that the term "topological" in _[[topological field theory]]_ is referring to.
 
-But boundaries and defects of a topological field theory may add extra structure to the theory which is not "purely topological" in this way. Here we consider a canonical class of defects for universal higher higher topological Yang-Mills theory, def. \ref{GeneralHighertYM}, and $\infty$-Chern-Simons theory, def. \ref{HigherCSAsBoundaryTheory}.
+But boundaries and defects of a topological field theory may add extra structure to the theory which is not "purely topological" in this way. Here we consider a canonical class of defects for universal higher topological Yang-Mills theory, def. \ref{GeneralHighertYM}, and $\infty$-Chern-Simons theory, def. \ref{HigherCSAsBoundaryTheory}, which implements the expected [[higher parallel transport]]/[[higher holonomy]] of the higher Chern-Simons type action functionals over actual [[smooth manifolds]].
 
-...
++-- {: .num_defn }
+###### Definition
 
+For $k \leq n$ and for $\Sigma_k$ and [[orientation|oriented|closed manifold]] there is a morphism of smooth moduli stacks
+
+$$
+  \exp(i \int_{\Sigma_k}(-))
+  \colon
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \to 
+  \mathbf{B}^{n-k}U(1)_{conn}
+$$
+
+which is compatible with the standard [[fiber integration|fiber]] [[integeration of differential forms]] and with [[transgression]] in [[ordinary cohomology]] in that it fits into a commuting diagram
+
+$$
+  \array{
+    [\Sigma_k, \flat \mathbf{B}^n U(1)]
+    &\stackrel{}{\to}&
+    \flat \mathbf{B}^n U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+     &\stackrel{\exp(i \int_{\Sigma_k}(-) )}{\to}&
+    \mathbf{B}^{n-k} U(1)_{conn}
+    \\
+    \downarrow && \downarrow
+    [\Sigma_k, \Omega^{n+1}_{cl}]
+    &\stackrel{\int_{\Sigma_k}}{\to}&
+    \Omega^{n-k+1}_{cl}
+  }
+  \,.
+$$
+
+More generally if $\Sigma_k$ is a [[manifold with boundary]] then there is a diagram
+
+$$
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    \\
+    [\partial \Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{\exp(2 \pi i \int_{\partial \Sigma}(-))}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+where the bottom left map is the fiber integration from before, applied to the closed boundary, and where the [[homotopy]] filling the diagram is such that it reproduces this fiber integration in the case that the boundary is empty, in that 
+
+
+$$
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    \\
+    [\emptyset, \mathbf{B}^n U(1)_{conn}]
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{\exp(2 \pi i \int_{\emptyset}(-))}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    && [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+    \\
+    &&  \downarrow
+    \\
+    && \mathbf{B}^{n-k}U(1)_{conn}
+    \\
+    & {}^{\mathllap{(-)|_{\partial \Sigma}}}\swarrow && \searrow^{\mathrlal{\omega_\Sigma}}
+    \\
+    \ast
+    && \swArrow_{\exp(2 \pi i \int_{\Sigma})} && 
+    \Omega^{n-k+1} 
+    \\
+    & {}_{}\searrow && \swarrow
+    \\
+    && \mathbf{B}^{n-k+1}U(1)_{conn}
+  }
+  \,,
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by unwinding the traditional formulas for [[fiber integration in differential cohomology]], reformulating them in [[homotopy theory]] and observing that they are natural in their arguments, hence extend to morphisms of higher stacks, as discussed here.
+
+
+=--
 
 
 
