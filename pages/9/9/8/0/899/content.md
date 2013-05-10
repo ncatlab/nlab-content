@@ -30,7 +30,9 @@ A **topological group** is an [[internalization|internal]] [[group object]] in t
 
 More explicitly, it is a group equipped with a topology such that the multiplication and inversion maps are continuous.
 
-## Uniform structure
+## Properties
+
+### Uniform structure
 
 A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **left uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_{l, U} y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **right uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
 
@@ -38,7 +40,7 @@ Obviously when $G$ is commutative, the left and right uniformities coincide. The
 
 Let $G$, $H$ be topological groups, and equip each with their left uniformities. Let $f: G \to H$ be a group homomorphism. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition
 The following are equivalent: 
 
@@ -64,7 +66,7 @@ in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is
 =--
 
 
-## Unitary representation on Hilbert spaces
+### Unitary representation on Hilbert spaces
 
 **Definition.** A unitary [[representation]] $R$ of a topological group $G$ in a [[Hilbert space]] $\mathcal{H}$ is a continuous [[homomorphism]]
 
@@ -78,7 +80,7 @@ Note that $\mathcal{U}(\mathcal{H})$ is a complete, metrizable topological group
 
 In physics, when a classical system is symmetric, i.e. invariant in a proper sense, with respect to the action of a topological group $G$, then an unitary representation of $G$ is often called a **quantization** of $G$.
 
-### Why the strong topology is used
+#### Why the strong topology is used
 
 The reason that in the definition of a [[unitary representation]], the [[strong operator topology]] on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphism]]s turn out to be [[continuous map|continuous]] in the norm topology.
 
@@ -93,6 +95,11 @@ $$
 $$
 
 and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
+
+### Which topological groups admit Lie group structure?
+
+* _[[Hilbert's fifth problem]]_
+
 
 ## Related concepts
 
