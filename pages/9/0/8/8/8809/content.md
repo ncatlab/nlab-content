@@ -19,7 +19,8 @@
 
 ## Idea
 
-The _Narasimhan&#8211;Seshadri theorem_ identifies certain [[moduli spaces]] of [[flat connections]] over a [[Riemann surface]] $\Sigma$ with [[complex manifolds]] of [[stable vector bundles]] over $\Sigma$.
+The _Narasimhan&#8211;Seshadri theorem_ identifies certain 
+[[moduli spaces of flat connections]] over a [[Riemann surface]] $\Sigma$ with [[complex manifolds]] of [[stable vector bundles]] over $\Sigma$.
 
 ## Applications
 
