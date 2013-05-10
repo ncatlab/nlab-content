@@ -2693,6 +2693,7 @@ As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. No
 
 It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
 
+We now have the following immediate generalizations of the corresponding constructions seen above for 1-groupoids.
 
 +-- {: .num_example #PathSpaceObjectOfKanComplexes}
 ###### Example
@@ -2777,6 +2778,49 @@ We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched catego
 We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$. As such, $X$ (or its [[equivalence class]]) is alse called a _[[homotopy type]]_.
 
 The category [[∞Grpd]] itself "is" the canonical [[homotopy theory]]. (For more on this see also at _[[homotopy hypothesis]]_.)
+
+=--
+
+The following is the immediate generalization of def. \ref{HomotopyFiberProductOfGroupoids}.
+
++-- {: .num_defn #HomotopyFiberProductOfKanComplexes}
+###### Definition
+
+Given two morphisms of [[Kan complexes]]
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
+
+$$
+  \array{
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
+  }
+$$
+
+is the [[limit]] [[cone]]
+
+$$
+  \array{
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y_\bullet
+    &\to& &\to& X_\bullet
+    \\
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
+    \\
+    && B^I_\bullet &\underset{(ev_0)_\bullet}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{(ev_1)_\bullet}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
+  }
+  \,,
+$$
+
+hence the ordinary iterated [[fiber product]] over the [[path space]] Kan complex, as indicated.
 
 =--
 
@@ -3020,7 +3064,7 @@ Then...
 #### $d = n + 1$, Universal topological Yang-Mills theory $S_{tYM}$
  {#TopologicalYangMillsLocalPrequantumFieldTheory}
 
-There is a special and specially simple map to the [[coefficient]] object  $\flat \mathbf{B}^{n+1} U(1)$ for flat [[local action functionals]]/[[prequantum n-bundles]], namely the map
+There is a special and especially simple map to the [[coefficient]] object  $\flat \mathbf{B}^{n+1} U(1)$ for flat [[local action functionals]]/[[prequantum n-bundles]], namely the map
 
 $$
   \array{
@@ -3037,8 +3081,6 @@ which in components is the inclusion of closed [[differential forms]] into [[de 
 We here introduce and describe this map and then regard it as a [[local action functional]] of a local prequantum field theory according to def. \ref{LocalPrequantumFieldWithAction}. Below in _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_ we find that this field theory is such that close to its boundaries it looks like (higher) [[topological Yang-Mills theory]] for every possible higher gauge group and every possible [[invariant polynomial]] on it, as one considers every possible [[boundary condition]]. Therefore we here refer to this as the "universal topological Yang-Mills theory".
 
 ##### Smooth moduli stacks of fields: Smooth $\infty$-groupoids
-
-(...)
 
 The notion of a [[sheaf]] of [[chain complexes]] or equivalently of a chain complex of sheaves over a fixed [[topological space]] has a long tradition in [[homological algebra]]. Many sheaves however are naturally considered not on one fixed space, but on "all of them". For instance [[differential forms]] in any degree may be "[[pullback of a differential form|pulled back]]" along any [[smooth function]] between [[smooth manifolds]]. Accordingly if we regard the whole category [[SmoothMfd]] of smooth manifolds as a replacement for and generalization of the [[category of open subsets]] of any given one, then differential forms constitute a sheaf on that [[site]], hence a functor
 
@@ -3104,10 +3146,8 @@ $$
   \,.
 $$
 
-(...)
 
 ##### The canonical local action functional: Differential forms in de Rham hypercohomology
-
 
 
 +-- {: .num_prop }
@@ -3190,17 +3230,120 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 =--
 
++-- {: .num_defn #GeneralHighertYM}
+###### Definition
 
+By def. \ref{LocalPrequantumFieldWithAction} we may now regard the map
+
+$$
+  \array{
+    \Omega^{n+1}_{cl}
+    \\
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+    \\
+    \mathbf{B}^{n+1} \flat U(1)
+  }
+$$
+
+of prop. \ref{ClosedFormsInDeRhamCoefficients} as a local action functional for an $(n+1)$-dimensional local prequantum field theory.
+We call this the "universal higher [[topological Yang-Mills theory]]" for reasons that become clear as we anaylize its [[boundary field theories]] now.
+
+=--
 
 #### $d = n + 0$, Higher Chern-Simons field theories
  {#HigherChernSimonsPrequantumFieldTheory}
 
-(...)
+We consider now the [[boundary field theories]] for the "universal topological Yang-Mills theory" of def. \ref{GeneralHighertYM}.
+
 
 ##### Universal boundary condition for $S_{tYM}$:  Differential cohomology and Cheeger-Simons field theory
  {#UniversalStYMBoundaryAndDifferentialCohomology}
 
-(...)
+
+Where the plain [[(∞,n)-category of cobordisms]] $Bord_n$ is freely generated from the point $\ast$ alone, so the $(\infty,n)$-category of cobordisms with possibly a marked boundary is free generated from the point and one new morphism
+
+$$
+  \emptyset \to \ast
+$$
+
+
+which we think of as being the interval $D^1$ with one end "marked". Now a local field theory with local action functional according to def. \ref{LocalPrequantumFieldWithAction} encodes not only the value on the point, which we now take to be
+
+$$
+  \exp(i S)
+  \colon
+  \ast 
+  \mapsto
+  \left[
+  \array{
+    \Omega^{n+1}_{cl}
+    \\
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+    \\
+    \mathbf{B}^{n+1} \flat U(1)
+  }
+  \right]
+$$
+
+but also one morphism from the trivial field configuration with trivial action to this data, hence a span of the form
+
+$$
+  \array{
+     && \mathbf{Fields}^{\partial}
+     \\
+     & \swarrow && \searrow
+     \\
+    \ast && \swArrow && \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^{n+1}\flat U(1)
+  }
+  \,.
+$$
+
+This defines a [[moduli stack]] $\mathbf{Fields}^{\partial}$ of boundary field configurations, together with a [[homotopy]] which encodes the relative action functional on this boundary data.
+
+In order to find all possible such boundary data for $\exp(i S_{tYM})$, we can make use of the [[homotopy fiber product]] construction of def. \ref{HomotopyFiberProductOfKanComplexes} to find the _universal_ such boundary data, the one through which any other one factors.
+
+
++-- {: .num_prop #DiffCohomologyIsTerminalBoundaryForStYM}
+###### Proposition
+
+The universal boudnary condition for $\exp(i S_{tYM})$, hence the [[homotopy fiber product]] $\ast \underset{\mathbf{B}^{n+1}\flat U(1)}{\times} \Omega^{n+1}_{cl}$ is given by the image under the [[Dold-Kan correspondence|Dold-Kan map]], def. \ref{DoldKanMap}, of the [[Deligne complex]]
+
+$$
+  \mathbf{B}^n U(1)_{conn}
+  \coloneqq
+  DK(
+  \underline{U}(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \cdots \to \Omega^{n-1} \stackrel{d}{\to} \Omega^n
+  )
+  \,,
+$$ 
+
+hence the universal boundary data is
+
+$$
+  \array{
+     && \mathbf{B}^n U(1)_{conn}
+     \\
+     & \swarrow && \searrow^{\mathrlap{F_{(-)}}}
+     \\
+    \ast && \swArrow && \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^{n+1}\flat U(1)
+  }
+  \,.
+$$
+
+=--
+
+
+The [[boundary field theory]] defined this way we may call _[[Cheeger-Simons character|Cheeger-Simons field theory]]_.
+
+
 
 ##### General boundary condition for $S_{tYM}$: Higher Chern-Weil theory and $\infty$-Chern-Simons theory
  {#GenralBoundaryForStYMAndHigherChernSimons}
