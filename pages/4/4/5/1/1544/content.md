@@ -354,6 +354,8 @@ See [[connection on a principal ∞-bundle]].
 
     * [[affine connection]], [[Levi-Civita connection]] [[Cartan connection]]
 
+  * [[moduli space of connections]]
+
 * [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
 
 * [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
