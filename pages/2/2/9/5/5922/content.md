@@ -32,6 +32,13 @@ $$
 
 Assuming the deductive system is [[soundness theorem|sound]], every sequent which is the conclusion of a valid sequent deduction, starting from the axioms, will also be true in every model. And if the deductive system is also [[completeness theorem|complete]], then every sequent of the language which is true in every model will in fact be provable from the axioms. 
 
+## Examples
+
+(...)
+
+(...)
+
+* [[Hilbert's sixth problem]] asks for an axiomatization of [[physics]].
 
 ## Related concepts
 
