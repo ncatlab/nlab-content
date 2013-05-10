@@ -1,0 +1,13 @@
+
+
+## References
+
+* Wikipedia, _[Tamagawa numbers](http://en.wikipedia.org/wiki/Tamagawa_number#Tamagawa_numbers)_, _[Weil conjecture on Tamagawa numbers](http://en.wikipedia.org/wiki/Weil_conjecture_on_Tamagawa_numbers)_
+
+* [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/283.html))
+
+Relation to [[Yang-Mills theory]]:
+
+* Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+
+[[!redirects Tamagawa numbers]]
