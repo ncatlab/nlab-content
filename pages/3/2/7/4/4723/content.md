@@ -22,7 +22,7 @@ A _differential structure_ on a [[topological space]] $X$ is the extra structure
 
 ## Definition
 
-For $k \in \mathbb{R}$ a **$C^k$-differential structure** on a [[topological space]] $X$ is a [[manifold]] $\hat X$ whose charts have transition functions that have continuous [[derivative]]s to degree $k$, such that $X$ is the topological space underlying $\hat X$.
+For $k \in \mathbb{N}$ a **$C^k$-differential structure** on a [[topological space]] $X$ is a [[manifold]] $\hat X$ whose charts have transition functions that have continuous [[derivative]]s to degree $k$, such that $X$ is the topological space underlying $\hat X$.
 
 A **smooth structure** on $X$ is a [[smooth manifold]] $\hat X$ (transition functions have derivatives to all degrees) with underlying topological space $X$.
 
