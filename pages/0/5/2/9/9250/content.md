@@ -31,4 +31,6 @@ Some of the notions in the text are inspired or influenced by
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
 
+For further related publications see the references at _[[factorization algebra]]_.
+
 category: reference
