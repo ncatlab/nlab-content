@@ -31,7 +31,7 @@ The components of the local [[Lie-algebra valued 1-form]] of an affine connectio
 
 * [[principal connection]]
 
-  * [[affine connection]], [[Levi-Civita connection]], [[Cartan connection]]
+  * [[affine connection]], [[Levi-Civita connection]], [[Cartan connection]], [[symplectic connection]]
 
 * [[connection on a 2-bundle]]
 
