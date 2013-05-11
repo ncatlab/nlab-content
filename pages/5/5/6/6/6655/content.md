@@ -198,7 +198,7 @@ For a more detailed discussion of these matters see at _[[relation between type 
 ### Axiom of choice
  {#AxiomOfChoice}
 
-In dependent type theory we can verify the follow "logical form of the [[axiom of choice]]" ([Bell](#Bell), [Tait](#Tait)), see also ([Rijke, section 2.5.1](#Rijke)).
+In dependent type theory we can verify the following "logical form of the [[axiom of choice]]" ([Bell](#Bell), [Tait](#Tait)), see also ([Rijke, section 2.5.1](#Rijke)).
 
 +-- {: .num_theorem }
 ###### Theorem 
