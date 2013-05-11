@@ -43,6 +43,13 @@ In [[homotopy type theory]] the type of types $Type$ is often assumed to satisfy
 
 [[Per Martin-Lof]]'s original type theory contained a type of *all* types, which therefore in particular contained itself, i.e. one had $Type : Type$.  But it was pointed out by [[Jean-Yves Girard]] that this was inconsistent; see [[Girard's paradox]].  Thus, modern type theories generally contain a hierarchy of types of types, with $Type_0 : Type_1$ and $Type_1 : Type_2$, etc.
 
+## Properties
+
+### Universe enlargement
+ {#UniverseEnlargement}
+
+Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe enlargement]] automatically; Agda's is more advanced (universe polymorphism), whereas Coq's is good enough for many purposes but tends to produce "universe inconsistencies" when working with [[univalence]].  
+
 ## Related concepts
 
 * [[universe polymorphism]]
