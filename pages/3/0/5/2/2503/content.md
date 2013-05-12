@@ -255,6 +255,7 @@ For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[su
 
 * [[fivebrane Lie 6-algebra]]
 
+* [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 ## References
 
@@ -294,7 +295,7 @@ Discussion of the string Lie 2-algebra as the homotopy fiber of the underlying 3
 
 and example 3.5.4 in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _$L_\infty$-algebras of local observables from higher prequantum bundles_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
  {#FiorenzaRogersSchreiber13}
 
 
