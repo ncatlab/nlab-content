@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -656,6 +655,8 @@ This is ([Pridham, theorem 4.26](#Pridham)).
 
 ## Properties
 
+### General
+
 We discuss some further properties of the [above](DefinitionsAndQuillenEquivalences) model category structures. 
 
 +-- {: .num_prop #RightProperness}
@@ -674,7 +675,10 @@ We need to show that the [[pullback]] of a weak equivalence $w$ along a fibratio
 
 =--
 
+### Homotopy fiber products
+ {#HomotopyFiberProducts}
 
+Recognizing [[homotopy fiber products]] in any of the model structure above can be a bit subtle. A recognition principle of [[homotopy fibers]] over abelian $L_\infty$-algebras , hence useful for discussion of [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)), is described in ([Fiorenza-Rogers-Schreiber 13, theorem 3.1.13](#FiorenzaRogersSchreiber13)).
 
 
 ## Related concepts
@@ -728,6 +732,10 @@ More model category theoretic developments relating various of the previous appr
 
 A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/WDTII_Pridham.pdf), by Stefano Maggiolo.
 
+A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _$L_\infty$-algebras of local observables from higher prequantum bundles_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+ {#FiorenzaRogersSchreiber13}
 
 
 [[!redirects model structure for L-∞ algebras]]
