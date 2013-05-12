@@ -13,7 +13,7 @@ For a [[group]] $G$ and a family, $\mathcal{H}$, of [[subgroups]] of $G$, consid
 
 *  The group $G$ is the coproduct of the subgroups, amalgamated along their intersections, if and only if $N(\mathfrak{H})$ is simply connected.
 
-The point of the article is to explore the consequences of the  higher connectivity of $N(\mathfrak{H})$,corresponding to 'higher generation by the subgroups', but, from the nPOV, perhaps the real questions are to ask in what way does the homotopy type of $N(\mathfrak{H})$ influence the properties of $G$.
+The point of the article is to explore the consequences of the  higher connectivity of $N(\mathfrak{H})$, corresponding to 'higher generation by the subgroups', but, from the nPOV, perhaps the real questions are to ask in what way does the homotopy type of $N(\mathfrak{H})$ influence the properties of $G$.
 
 The techniques used include the bar resolution construction and homotopy colimits. There are applications to Tits systems and to [[buildings]].
 
@@ -92,4 +92,4 @@ We let $T_n^\sigma(R)$ be the subgroup of $G\ell_n(R)$ formed by the $\sigma$-tr
 =--
 ## References
 
-* H. Abels and S. Holz, _Higher generation by subgroups_, J. Alg, 160, (1993), 311--341.
+* [[H. Abels]] and S. Holz, _Higher generation by subgroups_, J. Alg, 160, (1993), 311--341.
