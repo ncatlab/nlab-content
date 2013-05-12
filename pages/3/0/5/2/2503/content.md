@@ -127,7 +127,10 @@ This is proven in [BCSS](#BCSS).
 
 Up to equivalence, the string Lie 2-algebra is the [[homotopy fiber]] of the cocycle $\mu : \mathfrak{so}(n) \to \mathbf{b}^2 \mathfrak{u}(1)$, hence is the canonical $\mathbf{b} \mathfrak{u}(1)$-[[principal ∞-bundle]] over $\mathfrak{so}(n)$.
 
-Here we take by definition the [[(∞,1)-category]] of [[∞-Lie algebroid]]s to be that [[presentable (∞,1)-category|presented]] by the opposite (after passing to [[Chevalley-Eilenberg algebra]]s) of the [[model structure on dg-algebra]]s. In terms of dg-algebras, the cocycle is dually a morphism
+Here we take by definition the [[(∞,1)-category]] of [[∞-Lie algebroid]]s to be that [[presentable (∞,1)-category|presented]] by the opposite (after passing to [[Chevalley-Eilenberg algebras]]) of the [[model structure on dg-algebras]]. For a detailed discussion of the recognition of this [[homotopy fiber]] see section 3.1 and specifically example 3.5.4 of ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)).
+
+
+In terms of dg-algebras, the cocycle is dually a morphism
 
 $$
   CE(\mathfrak{so}(n)) \leftarrow CE(\mathbf{b}^2 \mathfrak{u}(1)) : \mu
@@ -170,7 +173,7 @@ $$
 
 The morphism $CE(\mathbf{b}^2 \mathfrak{u}(1)) \to CE(e b \mathfrak{u}(1))$ is the one that identifies the two degree-3 generators.
 
-Now $CE(\mathbf{b}^2 \mathfrak{u}(1))$ and $CE(\mathbf{e b} \mathfrak{u}(1))$ are [[Sullivan algebra]]s, hence are cofibrant objects in the [[model structure on dg-algebra]]s. The dg-algebra $CE(\mathfrak{g})$ is not quite a Sullivan algebra, but almost: it is a [[semifree dga]] and only fails to have the filtering property on the differential.  This is sufficient for computing the desired [[homotopy fiber]], as discussed at <a href="http://ncatlab.org/nlab/show/infinity-Lie+algebra+cohomology#Extensions">∞-Lie algebra cohomology -- Extensions</a>.
+Now $CE(\mathbf{b}^2 \mathfrak{u}(1))$ and $CE(\mathbf{e b} \mathfrak{u}(1))$ are [[Sullivan algebra]]s, hence are cofibrant objects in the [[model structure on dg-algebra]]s. The dg-algebra $CE(\mathfrak{g})$ is not quite a Sullivan algebra, but almost: it is a [[semifree dga]] and only fails to have the filtering property on the differential.  This is sufficient for computing the desired [[homotopy fiber]], as discussed at [∞-Lie algebra cohomology -- Extensions](infinity-Lie+algebra+cohomology#Extensions).
 
 
 One observes now that 
@@ -288,5 +291,11 @@ See also [[division algebra and supersymmetry]].
 Discussion of the string Lie 2-algebra as the homotopy fiber of the underlying 3-cocycle is around prop. 3.3.96 in
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
+
+and example 3.5.4 in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _$L_\infty$-algebras of local observables from higher prequantum bundles_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+ {#FiorenzaRogersSchreiber13}
+
 
 [[!redirects string Lie 2-algebra]]
