@@ -370,7 +370,7 @@ The general structure of the threory of $\infty$-Lie algebroid cohomology and [[
 
 A recognition principle for [[homotopy fibers]] of $L_\infty$-homomorphisms appears as theorem 3.1.13 in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _$L_\infty$-algebras of local observables from higher prequantum bundles_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
  {#FiorenzaRogersSchreiber13}
 
 
