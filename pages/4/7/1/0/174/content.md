@@ -146,6 +146,8 @@ The corresponding table has been called the **brane scan**
 
 * [[sigma-model]]
 
+* [[double dimensional reduction]]
+
 * [[particle]], [[superparticle]]
 
 * [[string]], [[superstring]] 
