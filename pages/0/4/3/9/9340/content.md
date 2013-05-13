@@ -14,7 +14,7 @@ On the classification of [[foliations]]:
 
 If $X$ is an open [[manifold]], then there is a [[bijection]] between
 
-1. [[codimension]] 1 [[foliations]] on $X$ up to integral [[homotopy]];
+1. [[codimension]] q [[foliations]] on $X$ up to integral [[homotopy]];
 
 1. [[homotopy classes]] of fiberwise surjective [[vector bundle]] maps $T X \to N \Gamma_q$,
 
