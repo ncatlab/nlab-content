@@ -29,11 +29,16 @@ This entry is about the article
 
   ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
 
-on a 
+on 
 
-1. central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functional]]s to [[FQFT|extended quantum field theories]].
+1. in sections 3 and 8; a central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functionals]] to [[FQFT|extended quantum field theories]], realized here for finite [[higher gauge theories]] [[Dijkgraaf-Witten theory]]-type theories (see also at [[prequantum field theory]])
 
-1. the [[extended TQFT]]-[[quantization]] of $G$-[[Chern-Simons theory]] for abelian [[Lie group]]s $G$.
+1. the [[extended TQFT]]-[[quantization]] of $G$-[[Chern-Simons theory]] for abelian [[Lie groups]] $G$.
+
+More on the story of sections 3 and 8 is in 
+
+* [[Jacob Lurie]], _Finiteness and ambidexterity in $K(n)$-local stable homotopy theory_, talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
+
 
 #Contents#
 * table of contents
