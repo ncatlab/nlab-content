@@ -1098,6 +1098,7 @@ A formalization of some aspects of homotopy limits in terms of [[homotopy type t
 
 * [[Guillaume Brunerie]], _[HoTT/Coq/Limits](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Limits)_
 
+* Jeremy Avigad, [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _Homotopy limits in Coq_ ([arXiv:1304.0680](http://arxiv.org/abs/1304.0680))
 
 [[!redirects homotopy limits]]
 [[!redirects homotopy colimit]]
