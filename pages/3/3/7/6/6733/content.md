@@ -280,10 +280,13 @@ some sectors of Number Theory_  (2011) ([pdf](http://empslocal.ex.ac.uk/people/s
 
 ### Relation to D4-brane
 
-The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] is discussed in the following references
+The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] by [[double dimensional reduction]] is discussed in the following references
+
+* Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
+See also ([Witten 11](#Witten11)).
 
 ### Sugra solutions
 
