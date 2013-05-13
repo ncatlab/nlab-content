@@ -1,15 +1,36 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
 #Contents#
-* tic
+* table of contents
 {: toc}
 
-# Definition #
+## Idea
 
-Ordinary $(d+1)$-dimensional [[Minowski space]] can be understood as the  quotient $ISO(d,1)/(SO(d,1))$ of the [[Poincare group]] by the [[Lorentz group]].
+The [[spacetime]] in [[supergeometry]]/[[supergravity]] which is the super-analog of ordinary [[Minkowski spacetime]].
+
+## Definition 
+
+Ordinary $(d+1)$-dimensional [[Minkowski space]] can be understood as the  quotient $ISO(d,1)/(SO(d,1))$ of the [[Poincare group]] by the [[Lorentz group]] -- the [[translation group]].
 
 Analogously, the for each $N \in \mathbb{N}$ the
-$N$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the
-quotient of [[supergroup]]s
+$N$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]]
 
 $$
   \bar Osp(d+1|N)/ (SO(d,1)\times SO(N))
@@ -17,9 +38,18 @@ $$
 
 where $\bar Osp(d+1|N)$ is...
 
+The _[[super-translation group]]_.
 
-# References #
+## Properties
+
+### Cohomology and super $p$-branes
+
+As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of super-Minkowski space contains nontrivial exceptional [[cocycles]]. These serve as the [[Wess-Zumino-Witten model|WZW terms]] for the [[Green-Schwarz action functional]] (see there for more) of super-$p$-[[branes]] propagating on super-Minkowski space.
+
+## References 
 
 for instance page 370, part II section II.3.3
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]_
+
+
