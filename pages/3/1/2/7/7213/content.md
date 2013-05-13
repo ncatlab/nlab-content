@@ -106,6 +106,9 @@ The generalized-U-duality+diffeomorphsim invariance in 11d is discussed in
 
 * David S. Berman, [[Martin Cederwall]], [[Axel Kleinschmidt]], Daniel C. Thompson, _The gauge structure of generalised diffeomorphisms_ ([arXiv:1208.5884](http://arxiv.org/abs/1208.5884))
 
+For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is discussed in 
+
+* Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
 [[!redirects exceptional generalized geometry]]
 
