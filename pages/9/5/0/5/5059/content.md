@@ -232,6 +232,8 @@ made fully explicit in chater 8 of
 
 This appears also in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in 
 
+* P. S. Howe, T. G. Pugh, K. S. Stelle, C. Strickland-Constable, _Ectoplasm with an Edge_, JHEP 1108:081,2011 ([arXiv:1104.4387](http://arxiv.org/abs/1104.4387))
+
 * G. Bossard, P.S. Howe, U. Lindstrom, K.S. Stelle, L. Wulff, _Integral invariants in maximally supersymmetric Yang-Mills theories_ ([arXiv:1012.3142](http://arxiv.org/abs/1012.3142))
 
 The connection is made in 
