@@ -230,6 +230,14 @@ made fully explicit in chater 8 of
 * [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
  {#AzcarragaIzqierdo}
 
+This appears also in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in 
+
+* G. Bossard, P.S. Howe, U. Lindstrom, K.S. Stelle, L. Wulff, _Integral invariants in maximally supersymmetric Yang-Mills theories_ ([arXiv:1012.3142](http://arxiv.org/abs/1012.3142))
+
+The connection is made in 
+
+* P.S. Howe, O. Raetzel, E. Sezgin, _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
+
 ### Dimensions -- the brane scan
 
 The original "brane scan" classification of GS action functionals by WZW terms is due to
