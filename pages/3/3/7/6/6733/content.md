@@ -237,13 +237,17 @@ A review of some aspects is in
 
 ### $\sigma$-Model description
 
-[[sigma-model|Sigma model]] description of the M5-brane are discussed for [[Green-Schwarz action functional]]-type setups in
+[[sigma-model|Sigma model]] description of the (single) M5-brane are discussed for [[Green-Schwarz action functional]]-type setups in
 
-* Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, Dmitri Sorokin, Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+* Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
 
 * Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
 
-* Dmitri Sorokin, _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* [[Dmitri Sorokin]], _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+The [[double dimensional reduction]] of this to the [[D4-brane]] in [[type II string theory]] is discussed in 
+
+* Eric Bergshoeff, Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
 
 ### Worldvolume theory
 
@@ -264,19 +268,33 @@ A discussion that embeds this argument into the larger context of [[AdS-CFT dual
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
 
+The [[double dimensional reduction]] to the [[D4-brane]] [[D=5 super Yang-Mills theory]] and the relation to [[Khovanov homology]] is discussed in 
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ {#Witten11}
+
+with further comments in 
+
+* Michele Nardelli, _On some equations concerning Fivebranes and Knots, Wilson Loops in Chern-Simons Theory, cusp anomaly and integrability from String theory. Mathematical connections with
+some sectors of Number Theory_  (2011) ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli2011b.pdf))
+
+### Relation to D4-brane
+
+The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] is discussed in the following references
+
+* [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
+
 
 ### Sugra solutions
 
 The [[anti de Sitter spacetime]] $AdS_7 \times S^4$ arises in [[11-dimensional supergravity]] as the large $N$ limit of $N$ coincident M5-branes:
 
-* P. Pasti, D. Sorokin and M. Tonin, Covariant Action for a D=11 Five-Brane with the Chiral
-Field, Phys.Lett. B398 (1997) 41.
+* P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys.Lett. B398 (1997) 41.
 
-* I. Bandos, K. Lechner, A. Nurmagambetov, P. Pasti, D. Sorokin and M. Tonin, Covariant
-Action for the Super-Five-Brane of M-Theory, 
+* I. Bandos, K. Lechner, A. Nurmagambetov, P. Pasti, [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, 
 Phys.Rev.Lett. 78 (1997) 4332.
 
-*  M. Aganagic, J. Park, C. Popescu and J. H. Schwarz, World-Volume Action of the M Theory Five-Brane, Nucl.Phys. B496 (1997) 191.
+*  M. Aganagic, J. Park, C. Popescu and [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191.
 
 ### Nonabelian 2-form fields
 
