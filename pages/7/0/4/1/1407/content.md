@@ -138,6 +138,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[Kaluza-Klein mechanism]]
 
+  * [[double dimensional reduction]]
+
   * [[moduli stabilization]]
 
   * [[flux compactification]]
