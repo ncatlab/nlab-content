@@ -252,6 +252,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 ## References
  {#References}
 
+A survey page maintained by [[Steve Awodey]] is _[Homotopy Type Theory and the Univalent Foundations of Mathematics](http://www.andrew.cmu.edu/user/awodey/htt.html)_
+
 ### Introductions
  {#Introductions}
 
