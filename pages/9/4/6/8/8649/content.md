@@ -15,7 +15,7 @@
 
 ## Idea
 
-If the field of [[electromagnetism]] serves as a [[background gauge field]] for electrically charged [[quantum mechanics|quantum]] [[particles]] it is subject to various _quantization conditions_. These say that outside the locus of any [[magnetic charge]] the [[electromagnetic field]] is a [[circle bundle with connection]] and the first [[Chern class]] of the underlying $U(1)$-[[principal bundle]] is the discrete measure for the units of magnetic charge.
+If the field of [[electromagnetism]] serves as a [[background gauge field]] for electrically charged [[quantum mechanics|quantum]] [[particles]] it is subject to various _quantization conditions_. These say that outside the locus of any [[magnetic charge]] -- for instance a magnetic [[monopole]] [[topological defect]] -- the [[electromagnetic field]] is a [[circle bundle with connection]] and the first [[Chern class]] of the underlying $U(1)$-[[principal bundle]] is the discrete measure for the units of magnetic charge.
 
 On the locus of the magnetic charge itself the situation is more complex. There the [[magnetic current]] is given by a cocycle in [[ordinary differential cohomology]] of degree 3 (with compact support) and now the electromagnetic field is a connection on a [[twisted bundle]].
 
