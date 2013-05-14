@@ -52,6 +52,8 @@ are [[weak equivalences]].
 
 **Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operads]] ([Dyckerhoff-Kapranov, section 3.6](#DyckerhoffKapranov)).
 
+Under some conditions DW 2-Segal spaces $X_\bullet$ induce [[Hall algebra]] structures on $X_1$ ([Dyckerhoff-Kapranov, section 8](#DyckerhoffKapranov)).
+
 ## References
 
 The notion of higher Segal space as a modl for [[(∞,n)-categories]] is discussed in
@@ -73,5 +75,8 @@ The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are d
 
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
+
+[[!redirects 2-Segal space]]
+[[!redirects 2-Segal spaces]]
 
 [[!redirects higher complete Segal space]]
