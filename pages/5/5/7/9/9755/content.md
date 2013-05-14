@@ -1,0 +1,4 @@
+
+* [page on HoTT site](http://homotopytypetheory.org/author/egbertrijke/)
+
+category: people
