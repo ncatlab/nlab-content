@@ -24,7 +24,7 @@ Notice that next the [[2-category]] of [[module categories]] over a [[Hopf monoi
 
 In the spirit of _[[n-modules]]_ by iterated internalization, this 3-category may be thought of as the [[4-module]] (over the groun field), presented by the trialgebra.
 
-Accordingly, trialgebras may be thought of as 4-[[bases]] for [[spaces of quantum states]] of 4d [[extended TQFTs]]. This has been the main motivation for considering them in ([Pfeiffer 04](#Pfeiffer)) (not quite in the above language), in turn forming a 2-basis for the correspondinf [[Hopf monoidal categories]] in ([Crane-Frenkel 04](#CraneFrenkel)). A review of related literature is in ([Baez-Lauda 09, p. 98](#BaezLauda))
+Accordingly, trialgebras may be thought of as 4-[[bases]] for [[spaces of quantum states]] of [[extended TQFTs|extended]] [[4d TQFTs]] . This has been the main motivation for considering them in ([Pfeiffer 04](#Pfeiffer)) (not quite in the above language), in turn forming a 2-basis for the correspondinf [[Hopf monoidal categories]] in ([Crane-Frenkel 04](#CraneFrenkel)). A review of related literature is in ([Baez-Lauda 09, p. 98](#BaezLauda))
 
 
 
