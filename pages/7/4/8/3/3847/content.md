@@ -16,6 +16,26 @@
 
 ## Idea
 
+### In terms of 2-Segal spaces
+
+Given a [[2-Segal space]] $X_\bullet$ such that the [[spans]]
+
+$$
+  X_1 \times X_1 \stackrel{(\partial_2, \partial_0)}{\leftarrow} X_2 \stackrel{\partial_1}{\rightarrow} X_1
+$$
+
+and
+
+$$  
+  pt \leftarrow X_0 \stackrel{s_0}{\to} X_1
+$$
+
+admit pull-push [[integral transforms]] in some given [[cohomology theory]] $h$. Then the **Hall algebra** of $X$ with [[coefficients]] in $H$ is the [[associative algebra]] structure on $h(X_1)$ induced by these pull-push operations. 
+
+This is the perspective of [Dyckerhoff-Kapranov 12, def. 8.1.8](#DyckerhoffKapranov12).
+
+### In terms of constructible sheaves
+
 The _Hall algebra_ of an [[abelian category]] is the [[Grothendieck group]] of [[constructible sheaves]]/[[perverse sheaves]] on the [[moduli stack]] of [[object]]s in the category. The Hall algebra is an algebra because the constructible derived category of the moduli stack of objects in an [[abelian category]] is [[monoidal category|monoidal]] in a canonical way.
 
 This perspective is taken from ([Webster11](#Webster)). See there for more details.
@@ -26,6 +46,12 @@ A good survey is given in
 
 * [[Ben Webster]], _Hall algebras are Grothendieck groups_ ([SBS](http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988))
  {#Webster}
+
+The characterization via [[2-Segal spaces]] is due to
+
+* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
+ {#DyckerhoffKapranov12}
+
 
 Canonical references on Hall algebras include the following.
 
