@@ -2,17 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Universes
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include universe - contents]]
 =--
-
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
@@ -22,6 +23,16 @@
 ## Idea
 
 Universel polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain.
+
+## Examples and applications
+
+* [[inter-universal Teichmüller theory]] (?)
+
+## Related concepts
+
+* [[universe enlargement]]
+
+* [[typical ambiguity]]
 
 ## References
 
