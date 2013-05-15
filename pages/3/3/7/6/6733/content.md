@@ -245,7 +245,15 @@ A review of some aspects is in
 
 * [[Dmitri Sorokin]], _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
-The [[double dimensional reduction]] of this to the [[D4-brane]] in [[type II string theory]] is discussed in 
+A compariso of the different actions here is in 
+
+* [[Igor Bandos]], Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, [[Dmitri Sorokin]], Mario Tonin, _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
+
+A review with emphasis on the coupling to the [[M2-brane]] is in 
+
+* [[Ergin Sezgin]], P. Sundell, _Aspects of the M5-Brane_ ([arXiv:hep-th/9902171](http://arxiv.org/abs/hep-th/9902171))
+
+The [[double dimensional reduction]] of the M5-brane to the [[D4-brane]] in [[type II string theory]] is discussed in 
 
 * Eric Bergshoeff, Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
 
@@ -315,7 +323,7 @@ Proposals for how to implement this are for instance in
 
 * Chong-Sun Chu, _A Theory of Non-Abelian Tensor Gauge Field with Non-Abelian Gauge Symmetry $G \times G$_ ([arXiv:1108.5131](http://arxiv.org/abs/1108.5131))
 
-* [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
+* [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
  {#SSW11}
 
 A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
