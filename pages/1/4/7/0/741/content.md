@@ -86,6 +86,9 @@ For more on this see
 
 * [[finite abelian group]]
 
+## References
+
+* _[Atlas of finite group representations](http://brauer.maths.qmul.ac.uk/Atlas/v3/)_
 
 [[!redirects finite group]]
 [[!redirects finite groups]]
