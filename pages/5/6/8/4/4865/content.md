@@ -114,6 +114,22 @@ and so when $(\frac{1}{2}p_1)^2$ is further divisible by 2 we have that
 $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 
+### The hidden deformation
+
+There is in fact a hidden 1-parameter deformation of the Lagrangian of 11d sugra.
+Mathematically this was maybe first noticed in ([D'Auria-Fre 82 ](#DAuriaFre)) around equation (4.25). This shows that there is a topological term which may be expressed as 
+
+$$
+  \propto \int_{X_11} G_4 \wedge G_7
+$$
+
+where $G_4$ is the [[curvature]] 3-form of the [[supergravity C-field]] and $G_7$ that of the [[electric-magnetic duality|magnetically dual]] [[C6-field]]. However, ([D'Auria-Fre 82 ](#DAuriaFre)) consider only topologically trivial (trivial [[instanton sector]]) configurations of the  [[supergravity C-field]], and since on them this term is a total derivative, the authors "drop" it. 
+
+The term then re-appears in the literatur in ([Bandos-Berkovits-Sorokin 97, equation (4.13)](#BandosBerkovitsSorokin97)).
+And it seems that this is the same term later also redicovered around equation (4.2) in ([Tsimpis 04](#Tsimpis04)).
+
+
+
 
 ## Related concepts
 
@@ -152,7 +168,7 @@ $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
 
-* [[Riccardo D'Auria]], [[Pietro Fre]], _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
+* [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_
 {#DAuriaFre} 
 
 of which a textbook account is in 
@@ -160,6 +176,15 @@ of which a textbook account is in
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
 {#CastellaniDAuriaFre}
 
+The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
+
+* [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], _Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes_, Nucl. Phys. B522 (1998) 214-233 ([arXiv:hep-th/9711055](http://arxiv.org/abs/hep-th/9711055))
+ {#BandosBerkovitsSorokin97}
+
+and around (4.2) of
+ 
+* Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
+ {#Tsimpis04}
 
 ### Classical solutions
 	
