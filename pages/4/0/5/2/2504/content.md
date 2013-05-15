@@ -20,7 +20,7 @@
 
 ## Definition
 
-The _supergravity Lie 3-algebra_ $\mathfrak{sugra}(10,1)$ is a [[super L-∞ algebra]] that is a shifted [[∞-Lie algebra cohomology|extension]]
+The _supergravity Lie 3-algebra_ $\mathfrak{sugra}(10,1)$ or [[M2-brane]] extension $\mathfrak{m}2\mathfrak{brane}$ is a [[super L-∞ algebra]]  that is a shifted [[∞-Lie algebra cohomology|extension]]
 
 $$
   0 \to b^2 \mathbb{R} \to 
@@ -183,3 +183,5 @@ The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is i
 
 * [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_ ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
  {#Castellani05}
+
+[[!redirects m2brane]]
