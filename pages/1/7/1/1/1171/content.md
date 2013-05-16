@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Convergence spaces
 * table of contents
 {: toc}
@@ -51,6 +62,7 @@ In particular, the [[intersection]] of all of the filters converging to $x$ (the
 
 Any [[topological space]] is a convergence space, and in fact a pretopological one: we define $F \to x$ if every [[neighbourhood]] of $x$ belongs to $F$.  A convergence space is __topological__ if it comes from a topology on $S$.  The [[full subcategory]] of $Conv$ consisting of the topological convergence spaces is [[equivalence of categories|equivalent]] to the category [[Top]] of topological spaces.  In this way, the definitions below are all suggested by theorems about topological spaces.
 
+Every [[Cauchy space]] is a convergence space.
 
 ## Properties
 
