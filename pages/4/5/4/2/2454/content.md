@@ -44,6 +44,8 @@ The universal enveloping algebra $U(\mathfrak{g})$ of a [[Lie algebra]] is natur
 
 Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear symmetric monoidal category $C$ and the functorial choice $L\mapsto U(L)$ realizing the above construction with tensor products is fixed. For example, this is true in the category of $k$-modules where $k$ is a commutative ring. Then the projection $L\to 0$ where $0$ is the trivial Lie algebra induces the counit $\epsilon:U(L)\to U(0)=\mathbf{1}$. The coproduct $\Delta:U(L)\to U(L\coprod L)\cong U(L)\otimes U(L)$ is induced by the diagonal map $L\to L\coprod L$ whereas the antipode $S=U(-id):U(L)\to U(L)$. One checks that these morphisms make $U(L)$ into a Hopf algebra in $C$.
 
+If the category is simply the vector spaces over a field $k$, then for $l\in L$, after we identify $L$ with its image in $U(L)$, $\Delta(l) = l\otimes 1 + 1\otimes l$, i.e. the elements in $L$ are the [[primitive element]]s in $U(L)$. 
+
 ### PBW theorem
 
 The [[Poincaré–Birkhoff–Witt theorem]] states that the 
