@@ -36,12 +36,62 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 * _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](http://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, [journal version](http://dx.doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](http://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
+
 ## Talks ##
 
 (To be filled in!)
 
+* _Unbounded toposes_, TBC, July 2013.
 
-* Some [slides](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf) from a talk I gave about my thesis at the 2009 Annual Meeting of the Australian Mathematical Society, at the University of South Australia. 30 September 2009
+* _On the Ganter-Kapranov approach to supersymmetry_, Strings Journal Club, University of Adelaide. 27 May 2013.
+
+* _Diffeological spaces and differentiable stacks_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 10 May 2013.
+
+* _On the Baas-Dundas-Rognes approach to 2-vector bundles_, Strings Journal Club, University of Adelaide. 19 February 2013.
+
+* _Elliptic cohomology - first steps_, Strings Journal Club, University of Adelaide. 9 October 2012
+
+* _[Sheaf cohomology via abelian categories]()_, Strings Journal Club, University of Adelaide. 4 September 2012.
+
+* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011
+
+* _Introduction to 2-groups_, Strings Journal Club, University of Adelaide. 5 May 2012.
+
+* _Functorial 2-connected covers_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 21 May 2010.
+
+* _[2-covering spaces](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf)_, 2009 [Annual Meeting of the Australian Mathematical Society](http://w3.unisa.edu.au/austms2009/), at the University of South Australia. 30 September 2009.
+
+* _[Fundamental 2-groups and 2-covering spaces]()_, slides prepared for talk accepted for the [Categorical groups workshop](http://mat.uab.cat/~kock/crm/hocat/cat-groups/), Barcelona. June 2008. _Due to lack of funding at the last minute, I wasn't able to attend this conference, and my speaking slot was given up._ See also [this blog post](http://golem.ph.utexas.edu/category/2008/06/fundamental_2groups_and_2cover.html).
+
+* _Of inner automorphisms and universal bundles_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 26 October 2007.
+
+* _[Bundle gerbes, higher Yang-Mills and Kalb-Ramond]()_, 2006 [Annual Meeting of the Australian Mathematical Society](http://maths.mq.edu.au/austms06/), at Macquarie University. September 2006.
+
+* _Bundle gerbe Yang-Mills_, Erwin Schrodinger Institute, May 2006.
+
+## Teaching ##
+
+(currently under reconstruction)
+
+* 2013 
+
+  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor
+
+* 2007 
+
+  *  Semester 2 : Maths 1B, Tutor
+
+  *  Semester 1: Maths 1A, Tutor
+
+* 2006
+
+   *  Semester 2 : Maths ??, Tutor
+
+   *  Semester 1: Maths ??, Tutor
+
+* 2005 
+
+   *  Semester 2: Maths ??, Tutor
 
 
 ## Copyright statement ##
