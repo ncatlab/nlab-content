@@ -198,7 +198,9 @@ Let $D$ be a small quasi-category. Then
 
 This is ([Lurie, corollary 5.1.2.3](#Lurie)).
 
+### Equivalences
 
+A morphism $\alpha$ in $Func(D,C)$ (that is, a natural transformation) is an [[equivalence in an (infinity,1)-category|equivalence]] if and only if each component $\alpha_d$ is an equivalence in $C$.  This is ([Joyal, Chapter 5, Theorem C](#Joyal)).
 
 
 ## Examples
@@ -227,6 +229,11 @@ The intrinsic definition is in section 1.2.7 of
  {#Lurie}
 
 The discussion of [[model category]] models is in A.3.4.
+
+The theorem about equivalences is in
+
+* [[Andre Joyal]], _The Theory of Quasi-Categories and its Applications_
+ {#Joyal}
 
 
 [[!redirects (∞,1)-category of (∞,1)-functors]]
