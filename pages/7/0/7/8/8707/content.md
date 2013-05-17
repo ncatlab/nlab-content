@@ -127,6 +127,11 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 * [[Mike Shulman]], _Higher modalities_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
  {#Shulman}
 
+Formalization of modalities in [[homotopy type theory]] is discussed also around def. 1.11 of
+
+* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
+
 See also
 
 * [[Frank Pfenning]], _Towards modal type theory_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/talks/mantova00-talk.pdf))
