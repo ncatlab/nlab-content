@@ -249,6 +249,8 @@ are [[compact operators]] according to def. \ref{CompactOperator}.
 
 * [[Hilbert bimodule]]
 
+* [[Mishchenko-Fomenko index theorem]]
+
 ## References
 
 * wikipedia, _[Hilbert $C^\ast$-module](http://en.wikipedia.org/wiki/Hilbert_C*-module)_
