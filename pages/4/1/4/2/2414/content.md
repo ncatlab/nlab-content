@@ -392,6 +392,8 @@ $$
 
 ## Related concepts
 
+* [[supersymmetric quantum mechanics]]
+
 * [[Euclidean quantum field theory]]
 
 * [[spectral triple]]
