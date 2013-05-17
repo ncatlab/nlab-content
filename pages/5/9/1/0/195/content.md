@@ -86,6 +86,13 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 
 ## References
 
+### General
+
+Formalization of sets in [[homotopy type theory]] (via [[h-sets]]) is discussed in 
+
+* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
+
 ### History
 
 An early definition of "set" appears in
