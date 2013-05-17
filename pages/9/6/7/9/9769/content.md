@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One of the odd generators in a [[supersymmetry]] [[super Lie algebra]].
+
+## Examples
+
+For instance the [[Dirac operator]] in [[supersymmetric quantum mechanics]].
+
+## Related concepts
+
+* [[Fredholm operator]], [[Dirac operator]]
+
+* [[index]]
+
+[[!redirects supercharges]]
