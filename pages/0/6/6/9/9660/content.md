@@ -27,6 +27,9 @@ The concrete implementation of such _noncommutative stable homotopy theory_ is u
 
 * [[homotopical structure on C*-algebras]]
 
+* [[index theory]]
+
+
 ## References
 
 A reference that mentions the term "noncommutative stable homotopy theory" explicitly is 
