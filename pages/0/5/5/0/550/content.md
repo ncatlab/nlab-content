@@ -79,3 +79,8 @@ If $V$ has a terminal object, $pt$, then co-spans from $pt$ to itself are [[bi-p
 Topological cospans and their role as models for [[cobordism]]s are discussed in
 
 * Marco Grandis, _Collared cospans, cohomotopy and TQFT (Cospans in algebraic topology, II)_ ([pdf](http://www.dima.unige.it/~grandis/wCub2.pdf))
+
+[[!redirects co-spans]]
+
+[[!redirects cospan]]
+[[!redirects cospans]]
