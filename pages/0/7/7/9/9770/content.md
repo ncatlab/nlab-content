@@ -1,0 +1,10 @@
+
+## Idea
+
+A [[characteristic class]].
+
+## References
+
+* Wikipedia, _[Todd class](http://en.wikipedia.org/wiki/Todd_class)_
+
+[[!redirects Todd classes]]
