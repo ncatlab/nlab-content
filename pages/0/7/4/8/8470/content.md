@@ -83,6 +83,10 @@ The definition then appears in
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
+Discussion of the [[category of sets]] as a $\Pi$-W-topos when formalized via [[h-sets]] in [[homotopy type theory]] is in 
+
+* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
 
 [[!redirects predicative topos]]
 [[!redirects predicative topoi]]
