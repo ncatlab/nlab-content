@@ -1,9 +1,111 @@
 
+> This page is about the notion of index in [[operator algebra]]. For other notions see elsewhere.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _index_ was originally defined
+
+* _[For elliptic differential operators](#IdeaForDifferentialOperators)_
+
+as an invariant correction of the [[kernel]] of such an operator. More generally the resulting notion is abstractly characterized as being the pairing operation ([[composition]])
+
+* _[in KK-theory](#GeneralIdeaInKKTheory)_.
+
+### For elliptic differential and Fredholm operators
+ {#IdeaForDifferentialOperators}
+
+The _[[analytical index]]_ of an [[elliptic operator|elliptic]] [[differential operator]] $D \colon \Gamma(E_1) \to \Gamma(E_2)$ its the difference between the [[dimension]] of its [[kernel]] with that of its [[cokernel]]. 
+
+One reason why this is an interesting invariant of an elliptic differential operator is that when deforming the operator by a [[compact operator]] the dimension of both the kernel and the cokernel may change, but their difference remains the same. Hence one may think of the analytic index as a "corrected" version of its [[kernel]], such as to make it be more invariant. 
+
+Another useful way to think of this index is to interpret $D$ as being the [[Dirac operator]] of a [[spinning particle]] or more generally the [[supercharge]] of a system in [[supersymmetric quantum mechanics]]. Then the index is the [[partition function]] of this quantum mechanical system, namely the [[super-trace]] of the [[heat kernel]] of the corresponding [[Hamiltonian]] [[Laplace operator]] ([Berline-Getzler-Vergne 04](#BerlineGetzlerVergne04))
+
+On the other hand, the _[[topological index]]_ of an elliptic differential operator $D$, on the other hand, is defined to be the pairing of the [[cup product]] of its [[Chern character]] and the [[Todd class]] of the base manifold with its [[fundamental class]].
+
+More generally such analytic and topological indices are defined for [[Fredholm operators]].
+
+The _[[index theorems]]_ assert that these two notios of index are in fact equal.
+
+### General abstract definition in KK-theory
+ {#GeneralIdeaInKKTheory}
+
+The abstract [[universal property|universal]] characterization of indices is: the index is the _pairing_ in [[KK-theory]]/[[E-theory]].
+
+More in detail, by the discussion there [[KK-theory]] ([[E-theory]]) is the [[category]] $KK$ which is a certain universal additive and split exact [[localization]] of the category [[C*Alg]] of [[C*-algebras]] at the [[compact operators]]. For $\mathbb{C}$ the base [[C*-algebra]] of [[complex numbers]]
+
+* [[morphisms]] $\mathbb{C} \to A$ are [[operator K-theory|operator K-cohomology]] classes which are represented by "[[vector bundles]] over the space represented by $A$", namely by [[Hilbert modules]] $E$ over $A$;
+
+* [[morphisms]] $A \to \mathcal{C}$ are [[K-homology]] classes which are represented by [[Fredholm operators]] $D$;
+
+* the [[composition]] 
+
+  $$
+    ind(D_E) 
+      \;\colon\;
+    \mathbb{C} \stackrel{E}{\to} A \stackrel{D}{\to} \mathbb{C}
+    \;\;\;\;
+    \in KK(\mathbb{C}, \mathbb{C}) \simeq \mathbb{Z}
+  $$
+
+  in the category $KK$ (hence the Kasparov product) is the _index_ of the Fredholm operator $D$ twisted by $E$.
+
+More generally, if $B$ is some other chosen base [[C*-algebra]] one takes the pairing
+
+$$
+  ind \coloneqq \circ_{\mathbb{C}, A, B} \colon
+  KK(\mathbb{C},A) \times KK(A,B) \to KK(\mathbb{C}, B)
+$$
+
+to be the index map relative $B$. And hence even more generally one may regard _any_ composition in $KK$ as as a generalized index map. Via the universal characterizatin of $KK$ itself, this then gives a fundamental and general abstract characterization of the notion of index:
+
+_The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[localization of a category|localization]] of [[C*Alg]]._
+
+
+## Related pages
+
 * [[topological index]]
 
 * [[analytical index]]
 
 * [[index of a Dirac operator]]
 
-* [[Atiyah-Singer index theorem]]
+* [[index theorem]]
 
+  * [[Atiyah-Singer index theorem]]
+
+  * [[Mishchenko-Fomenko index theorem]]
+
+
+## References
+
+A standard textbook account of the description of indidces as [[partition functions]] in [[supersymmetric quantum mechanics]] is 
+
+* [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
+  {#BerlineGetzlerVergne04}
+
+
+
+An explicit formula in [[Chern-Weil theory]] for indices of differential operators is discussed in detail in 
+
+* [[Thomas Schick]], _$L^2$-index, KK-theory, and connections_, New York J. Math. 11 (2005) ([arXiv:math/0306171](http://arxiv.org/abs/math/0306171))
+
+[[!redirects indices]]
