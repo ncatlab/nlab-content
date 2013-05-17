@@ -102,6 +102,10 @@ A good way to reconcile these seemingly clashing terminologies is to talk about 
 
 * Nicolai Kraus, *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
 
+Formalization of [[set theory]] via h-sets in [[homotopy type theory]] is discussed in 
+
+* [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
 
 
 [[!redirects h-set]]
