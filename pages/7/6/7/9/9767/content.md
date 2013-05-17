@@ -1,0 +1,4 @@
+
+the [[trace]] of morphisms of [[super vector spaces]],  $str(V) = tr(V_{even}) - tr(V_odd)$
+
+[[!redirects super trace]]
