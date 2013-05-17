@@ -37,7 +37,11 @@ More precisely, the naive holonomy of an ordinary Chan-Paton [[principal connect
 
 ## Related concepts
 
+* [[Spin^c Dirac operator]]
+
 * [[Green-Schwarz mechanism]]
+
+
 
 ## References
 
