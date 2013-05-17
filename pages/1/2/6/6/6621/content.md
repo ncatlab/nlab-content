@@ -16,13 +16,18 @@
 
 ## Entries
 
-* index theory
-
-  * [[topological index]]
+* [[index]]
 
   * [[analytical index]]
 
+  * [[topological index]]
+
+
+* index theorem
+
   * [[Atiyah-Singer index theorem]]
+
+  * [[Mishchenko-Fomenko index theorem]]
 
 Index theory naturally takes place in [[KK-theory]].
 
