@@ -491,7 +491,7 @@ $$
 This is proven inside the proof of ([Pridham, prop. 4.42](#Pridham)).
 
 
-+-- {: .num_remark}
++-- {: .num_remark #CategoryOfFibrantObjectsLInfinity}
 ###### Remark
 
 In particular this shows that 
@@ -675,6 +675,13 @@ We need to show that the [[pullback]] of a weak equivalence $w$ along a fibratio
 
 =--
 
+### Homotopies and derived hom spaces
+ {#HomotopiesAndDerivedHomSpaces}
+
+A discussion of [[path space objects]] of and hence of [[right homotopies]] between $L_\infty$-algebras (in the category of def. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra}) is for instance in ([Dolgushev 07, section 5](#Dolgushev07)).
+
+More generally a description of the full [[derived hom space]] between two $L_\infty$-algebras is obtained via remark \ref{CategoryOfFibrantObjectsLInfinity} from the description of [derived hom-spaces in categoris of fibrant objects](category%20of%20fibrant%20objects#DerivedHomSpaces).
+
 ### Homotopy fiber products
  {#HomotopyFiberProducts}
 
@@ -731,6 +738,11 @@ More model category theoretic developments relating various of the previous appr
  {#Pridham}
 
 A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/WDTII_Pridham.pdf), by Stefano Maggiolo.
+
+A discussion of [[path space objects]] for $L_\infty$-algebras is in section 5 of 
+
+* Vasiliy A. Dolgushev, _Erratum to: "A Proof of Tsygan's Formality Conjecture for an Arbitrary Smooth Manifold"_ ([arXiv:math/0703113](http://arxiv.org/abs/math/0703113))
+ {#Dolgushev07}
 
 A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras and hence [∞-Lie algebra extensions](infinity-Lie+algebra+cohomology#Extensions)) is in section 3.1 of
 
