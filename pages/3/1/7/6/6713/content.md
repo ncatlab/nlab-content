@@ -146,6 +146,22 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
+### KK-theoretic description
+
+Discussion of D-branes in [[KK-theory]] is reviewed in
+
+* [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
+ {#Szabo}
+
+based on
+
+* Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], 
+
+  _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+
+  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
+
+  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. 103:012004,2008 ([arXiv:0709.2128](http://arxiv.org/abs/0709.2128))
 ### For rational CFT
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
