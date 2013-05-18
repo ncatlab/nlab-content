@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A general [[gauge field]] is a [[cocycle]] in [[differential cohomology]]. The case of the [[electromagnetic field]] and the [[Yang-Mills field]]s with 2-form [[curvature]] is just a very special case of this, in general a gauge field has higher [[curvature]] forms. For instance the [[B-field]] has a curvature 3-form, the [[C3-field]] has a curvature 4-form and the [[RR-field]] has a curvature form in every even or every odd degree.
@@ -21,7 +25,37 @@ For emphasis, therefore, one sometimes speaks of **higher gauge fields** and **h
 
 See [[gauge theory]] for more.
 
+## Examples
 
+* [[Kalb-Ramond field]]
+
+* [[RR-field]]
+
+* [[supergravity C-field]]
+
+* [[string field theory|string field]]
+
+* [[AKSZ sigma-model]]
+
+## Related entries
+
+* [[local prequantum field theory]]
+
+## References
+
+Introductory lecture notes include
+
+* _[[geometry of physics]]_
+
+* _[[twisted smooth cohomology in string theory]]_
+
+For foundations of higher [[prequantum field theory]] see 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+
+For foundations of higher gauge theory in [[homotopy type theory]] see
+
+* [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
 [[!redirects higher gauge theory]]
 
