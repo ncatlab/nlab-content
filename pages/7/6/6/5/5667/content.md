@@ -300,7 +300,7 @@ of such [[spaces]].
 
 See the corresponding [references below](#ReferencesInTermsOfCorrespondences).
 
-
+Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. For more on this see at _[[motive]]_ in the section _[motive -- Relation to KK-theory](motive#RelationToKKTheory)_.
 
 ## Properties
 
@@ -631,6 +631,8 @@ Further developments of this are in
 * [[Heath Emerson]], _Duality, correspondences and the Lefschetz map in equivariant KK-theory: a survey_ ([arXiv:0904.4744](http://arxiv.org/abs/0904.4744))
 
 * [[Heath Emerson]], Robert Yuncken, _Equivariant correspondences and the Borel-Bott-Weil theorem_ ([arXiv:0905.1153](http://arxiv.org/abs/0905.1153))
+
+For similar structures see also at _[[motive]]_ in the section _[Relation to bivariant K-theory](motive#RelationToKKTheory)_.
 
 ### In D-brane theory
 
