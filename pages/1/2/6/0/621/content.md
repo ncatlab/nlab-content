@@ -150,7 +150,7 @@ and
 
 A survey is in 
 
-* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf)).
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://arxiv.org/pdf/1107.6032v1.pdf)).
 
 Further developments are in
 
