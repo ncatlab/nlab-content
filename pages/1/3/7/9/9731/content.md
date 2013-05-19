@@ -1,16 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contens
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -20,13 +21,15 @@ While there are lots of examples of toposes which aren't Grothendieck toposes, t
 
 An **unbounded topos** is a non-Grothendieck topos which _does_ admit a geometric morphism to $Set$ (or some other specified base topos), but which isn't equivalent to the category of sheaves on some small [[site]].
 
+
 ## Definition
 
-A topos $\mathcal{E}$ equipped with a geometric morphism $p\colon \mathcal{E} \to Set$ is **unbounded** if $p$ is not bounded. Equivalently, $\mathcal{E}$ is not equivalent to the category of [[sheaves]] on some small site. 
+A topos $\mathcal{E}$ equipped with a geometric morphism $p\colon \mathcal{E} \to Set$ is **unbounded** if $p$ is not bounded. Equivalently, $\mathcal{E}$ (equipped with $p$) is not equivalent to the category of [[sheaves]] on some small site (equipped with the usual geometric morphism to $Set$). 
 
 This means that for any set $\{A_i\}_{i\in I}$ of objects of $\mathcal{E}$, which would aspire to be a [[separator|separating family]] for $\mathcal{E}$, there is a pair of morphisms $f,g\colon X \to Y$ of $\mathcal{E}$ such that for all $i\in I$, and all $t\colon A_i \to X$, we have $f\circ t = g\circ t$, but $f\neq g$.
 
 More generally, we could work over a given base topos $\mathcal{S}$, and then an $\mathcal{S}$-topos $p\colon \mathcal{E} \to \mathcal{S}$ is unbounded if $p$ is not a bounded geometric morphism or equivalently it is not equivalent to the category of sheaves on an [[internal site]] in $\mathcal{S}$.
+
 
 ## Examples
 
@@ -42,7 +45,8 @@ There are relatively few examples of unbounded toposes.
 
     ([[David Roberts|DR]]: I think this result has since been improved, see the paper J. Adamek, V. Koubek and V. Trnkova, "How large are left exact functors?" in [TAC](http://www.tac.mta.ca/tac/volumes/8/n13/8-13abs.html). I will have to sort out whether what they are saying applies)
 
-* [Coming soon!]
+* More coming soon!
+
 
 ## Related topics
 
@@ -60,7 +64,6 @@ The unbounded toposes $GSet$, $Unif(K)$ and $MCoalg$ are mentioned in B3.1.4 of
 as being (at the time) essentially the only examples of unbounded toposes.
 
 
-
-
+[[!redirects unbounded topos]]
 [[!redirects unbounded toposes]]
 [[!redirects unbounded topoi]]
