@@ -159,3 +159,5 @@ In this diagram now
 
 [[!redirects partial differential equation]]
 [[!redirects partial differential equations]]
+[[!redirects PDE]]
+[[!redirects PDEs]]
