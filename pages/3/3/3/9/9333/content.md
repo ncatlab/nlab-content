@@ -30,12 +30,12 @@ First we list some examples of how tools from [[higher differential geometry]] h
 
 * _[I) Applications of higher DG to plain DG](#ApplicationsOfHigherDGToPlanDG)_
 
-Besides illuminating traditional DG where it exists, higher DG naturally extends plain DG to regions where it breaks down due [[singularities]]:
+Besides illuminating traditional DG where it exists, higher DG naturally extends plain DG to regions where it breaks down due to [[singularities]]:
 
 * _[II) Resolution of singularities in plan DG](#ResolutionOfSingularities)_
 
 However, much of the genuine motivation for developing [[higher differential geometry]] came and increasingly comes from structures in fundamental [[physics]], in [[quantum field theory]] and [[string theory]], which are intrinsically of [[higher geometry|higher geometric]] nature, hence for which no adequate description in plain [[differential geometry]] even exists (this is in fact already true for traditional local gauge theory, see [below](#FieldBundles)). 
-This we disuss in:
+This we discuss in:
 
 * [III) Motivation of higher DG from physics](#MotivationOfHigherDGFromPhysics)
 
