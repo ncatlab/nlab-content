@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
@@ -14,6 +18,7 @@
 =--
 =--
 =--
+
 
 
 #Contents#
