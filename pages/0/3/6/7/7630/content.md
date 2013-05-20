@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **promonoidal category** is like a [[monoidal category]] in whose structure (namely, tensor product and unit object) we have replaced [[functors]] by [[profunctors]].
+A **promonoidal category** is like a [[monoidal category]] in whose structure (namely, tensor product and unit object) we have replaced [[functors]] by [[profunctors]].  It is a categorification of the idea of a [[boolean algebra]].
 
 ## Definition
 
