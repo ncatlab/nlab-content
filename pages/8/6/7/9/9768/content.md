@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
