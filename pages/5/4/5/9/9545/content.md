@@ -18,6 +18,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 =--
 =--
 
