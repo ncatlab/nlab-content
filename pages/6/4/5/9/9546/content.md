@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -42,7 +58,7 @@ $$
 
 and write $D$ for the [[Spin^c Dirac operator]] and $F \coloneqq D (1+ D^2)^{-1/2}$. 
 
-Then under the above Morita equivalence these two [[Fredholm module|Fredhol]]-[[Hilbert modules]] represent the same element in K-homology
+Then under the above Morita equivalence these two [[Fredholm module|Fredholm]]-[[Hilbert modules]] represent the same element in K-homology
 
 $$
   [d_X + d^\ast_X] = [D] \in KK(C_0(X), \mathbb{C})
