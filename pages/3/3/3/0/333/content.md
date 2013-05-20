@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include noncommutative geometry - contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 =--
 =--
 
