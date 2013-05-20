@@ -54,7 +54,7 @@ A general result about the ex/lex completion $C_{ex/lex}$ of a left exact catego
 
 ## Related concepts
 
-* [[ralizability model]]
+* [[realizability model]]
 
 
 ## References 
