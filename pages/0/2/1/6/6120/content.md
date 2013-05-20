@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 =--
 =--
 
