@@ -10,6 +10,13 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
 =--
 =--
 
