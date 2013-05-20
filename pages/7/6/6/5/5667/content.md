@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -21,6 +25,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
