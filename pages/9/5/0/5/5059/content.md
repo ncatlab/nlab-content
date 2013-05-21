@@ -231,7 +231,7 @@ The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine 
 The Green-Schwarz action functional of a $p$-brane propagating on an $d$-dimensional target spacetimes makes sense only for special combinations of $(p,d)$, for which there are suitanble [[Lie algebra cohomology|super Lie algebra cocycles]] on the super translation Lie algebra
 (see [above](#DefinitionWZWTerm)).
 
-The corresponding table has been called the **brane scan** in the literature. In ([Duff 87](#Duff)) it is displayed as follows.
+The corresponding table has been called the **brane scan** in the literature, now often called the "old brane scan", since it has meanwhile been further completed (see below). In ([Duff 87](#Duff)) the "old brane scan" is displayed as follows.
 
 [[branescan.gif:pic]]
 
