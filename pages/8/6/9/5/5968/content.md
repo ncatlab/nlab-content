@@ -47,21 +47,22 @@ The [[covariant phase space]] of the Lagrangian is the locus
 
 $$ 
   \{\phi \in \Gamma(E) | E(L)(j_\infty \phi) = 0\}  
-  \,.
 $$
 
-For $\Sigma \subset X$ any $(n-1)$-dimensional submanifold, 
+that solves the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
+
+For $\Sigma \subset X$ any $(n-1)$-dimensional [[submanifold]], 
 
 $$
   \delta \theta := \delta \int_\Sigma \Theta
 $$
 
-is the [[presymplectic structure]] on covariant phase space
+is the [[presymplectic structure]] on [[covariant phase space]].
 
 +-- {: .num_defn #Symmetry}
 ###### Definition
 
-A **[[symmetry]]** of $L$ is a vertical [[vector field]] $v$ such that 
+A **[[symmetry]]** of $L$ is a [[vertical vector field]] $v$ such that 
 
 $$
   v(L) = d \sigma_v
@@ -88,7 +89,7 @@ $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #ConservedCurrent}
 ###### Definition
 
 A **[[conserved current]]** is an element
@@ -113,13 +114,13 @@ With the above notions and notation, **Noether's theorem** states:
 +-- {: .num_theorem}
 ###### Theorem
 
-If $v \in T_v(j_\infty E)$ is a symmetry, then 
+If $v \in T_v(j_\infty E)$ is a [[symmetry]], def. \ref{Symmetry}, then 
 
 $$
   j_v := \sigma_v - \iota_v \theta
 $$
 
-is a [[conserved current]].
+is a [[conserved current]], def. \ref{ConservedCurrent}.
 
 =--
 
@@ -145,6 +146,12 @@ $$
 ## Related concepts
 
 * [[conservation law]]
+
+* [[conserved current]]
+
+* [[charge]]
+
+* [[moment map]]
 
 ## References
 
