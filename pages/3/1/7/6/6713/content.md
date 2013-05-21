@@ -115,6 +115,8 @@ For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witte
 D-branes may be identified with [[Dirac structures]] on 
 a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]] ([Asakawa-Sasa-Watamura](#AsakawaSasaWatamura)). See at _[[Dirac structure]]_ for more on this.
 
+## D-brane charge
+
 ## Related concepts
 
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
@@ -198,5 +200,8 @@ For more see at _[[Freed-Witten anomaly cancellation]]_.
  {#AsakawaSasaWatamura}
 
 
+### D-brane charge
+
+* [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charge charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
 
 [[!redirects D-branes]]
