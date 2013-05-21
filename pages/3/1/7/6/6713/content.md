@@ -98,7 +98,7 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 In [[type IIA supergravity]]
 
-* [[D0-brane]], [[D2-brane]], [[D4-brane]].
+* [[D0-brane]], [[D2-brane]], [[D4-brane]], [[D6-brane]], [[D8-brane]].
 
 In [[type IIB supergravity]]
 
