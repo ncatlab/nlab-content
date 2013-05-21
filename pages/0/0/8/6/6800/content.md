@@ -1,5 +1,5 @@
 
-**Table of [[branes]] appearing in [[supergravity]]/[[string theory]]**
+**Table of [[branes]] appearing in [[supergravity]]/[[string theory]]** (for classification see at _[[brane scan]]_).
 
 |   [[brane]]    |    in [[supergravity]]          |[[charge]]d under [[gauge field]]|   has [[worldvolume]] theory
 |----------------|---------------------------------|---|-----------------------------------------
@@ -9,6 +9,8 @@
 | [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]
 | [[D2-brane]]   |        $\,$                     | $\,$ |      $\,$
 | [[D4-brane]]   |        $\,$                     | $\,$ | [[D=5 super Yang-Mills theory]] with [[Khovanov homology]] [[observables]]
+| [[D6-brane]]   |        $\,$                     | $\,$ |   |
+| [[D8-brane]]   |        $\,$                     | $\,$ |   |
 |**$(D = 2n+1)$**|[[type IIB supergravity|type IIB]]| $\,$ |          $\,$
 | [[D1-brane]]   |        $\,$                     | $\,$ | 2d [[CFT]] with [[BH entropy]]
 | [[D3-brane]]   |        $\,$                     | $\,$ | [[N=4 D=4 super Yang-Mills theory]]
