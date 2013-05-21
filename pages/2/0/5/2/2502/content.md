@@ -166,7 +166,7 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 See also
 
-* C. Chrysso&#8204;malakos, J. A. de Azc&#225;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+* C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
 
 ### Super Lie algebra cohomology and division algebras
 
@@ -182,7 +182,7 @@ For more see [[division algebra and supersymmetry]].
 
 This subsumes some of the results in
 
-* J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+* [[José de Azcárraga]] and [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
 
 The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ is analyzed in
 
