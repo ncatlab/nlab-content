@@ -188,7 +188,7 @@ The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ 
 
 * [[Friedemann Brandt]], 
 
-  _Supersymmetry algebra cohomology I: Definition and general structure_ 	J. Math. Phys.51:122302, 2010, [arXiv](http://arxiv.org/abs/0911.2118)
+  _Supersymmetry algebra cohomology I: Definition and general structure_ 	J. Math. Phys.51:122302, 2010, [arXiv:0911.2118](http://arxiv.org/abs/0911.2118)
 
   _Supersymmetry algebra cohomology II: Primitive elements in 2 and 3 dimensions_ 	J. Math. Phys. 51 (2010) 112303 ([arXiv](http://arxiv.org/abs/1004.2978))
 
