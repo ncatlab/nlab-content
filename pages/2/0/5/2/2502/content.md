@@ -166,7 +166,7 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 See also
 
-* C. Chrysso&#8204;malakos, J. A. de Azc&#225;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9904/9904137v2.pdf))
+* C. Chrysso&#8204;malakos, J. A. de Azc&#225;rraga1, J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
 
 ### Super Lie algebra cohomology and division algebras
 
