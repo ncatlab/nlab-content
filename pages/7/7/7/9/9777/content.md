@@ -1,0 +1,11 @@
+
+## Idea
+
+The [[D-brane]] in [[type II string theory]] of [[dimension]] $8+1$.
+
+## Related concepts
+
+[[!include table of branes]]
+
+[[!redirects D8-branes]]
+
