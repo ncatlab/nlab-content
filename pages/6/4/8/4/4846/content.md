@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 =--
 =--
 
@@ -243,6 +247,7 @@ This is the content of ([CastellaniDAuriaFre, equation (III.8.52)](#CastellaniDA
 
 **supergravity Lie 6-algebra** $\to$ [[supergravity Lie 3-algebra]] $\to$ [[super Poincaré Lie algebra]]
 
+* [[type II supergravity Lie 2-algebra]]
 
 ## References
 
