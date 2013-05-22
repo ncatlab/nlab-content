@@ -36,7 +36,7 @@ Let $V$ and $W$ be [[locally convex topological vector spaces]] and $n \in \math
 For $n = 1$ we write $\mathcal{L}(V,W)$ and we extend the notation to $n = 0$ where by $\mathcal{L}^0(V,W)$ we mean just $W$.
 =--
 
-There are a variety of topologies that one can put on the spaces $\mathcal{L}^n(V,W)$.  The most common are the topologies of uniform convergence on some family of bounded sets of the source.
+There are a variety of topologies that one can put on the spaces $\mathcal{L}^n(V,W)$.  The most common are the topologies of uniform convergence on some family of [[bounded sets]] of the source.
 
 +-- {: .num_defn #cmtop}
 ###### Definition
@@ -53,8 +53,8 @@ The commonest families in use are:
 
 1. The finite subsets.  This resulting topology is known as the **simple** topology and the usual notations are $\Lambda_s$ and $\mathcal{L}_s(V,W)$.
 1. The compact subsets, with notations $\Lambda_k$ and $\mathcal{L}_k(V,W)$.
-1. The [[precompact]] subsets, with notations $\Lambda_{p k}$ and $\mathcal{L}_{p k}(V,W)$.
-1. The [[bounded]] subsets, with notations $\Lambda_b$ and $\mathcal{L}_b(V,W)$.
+1. The [[precompact subsets]], with notations $\Lambda_{p k}$ and $\mathcal{L}_{p k}(V,W)$.
+1. The [[bounded subsets]], with notations $\Lambda_b$ and $\mathcal{L}_b(V,W)$.
 
 Of all the topologies definable using Definition \ref{cmtop}, the topology $\Lambda_s$ is the coarsest and $\Lambda_b$ the finest.
 
@@ -62,7 +62,7 @@ The topology of simple convergence ($\Lambda_s$) also makes sense on the spaces 
 
 ## Properties
 
-1. For any suitable family of bounded sets, $\mathcal{S}$, the natural map $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is a topological embedding.
+1. For any suitable family of [[bounded sets]], $\mathcal{S}$, the natural map $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is a topological embedding.
 
 1. If $V$ is [[metrisable]], $W$ arbitrary, and $\mathcal{S}$ contains all [[compact]] sets then $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is an isomorphism.
 
@@ -73,7 +73,7 @@ The topology of simple convergence ($\Lambda_s$) also makes sense on the spaces 
 The definition of $\mathcal{L}^n(V,W)$ requires the maps $V^n \to W$ to be continuous in the product topology.  On the other hand, the linearity is required only on a per-factor basis.  It is possible to make the continuity requirement also work on a per-factor basis using the notion of [[hypocontinuity]].  For this we need to fix the type of continuity first.
 
 +-- {: .num_defn #smult}
-Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a family of bounded subsets of $V$ which cover $V$.  We define $\mathcal{H}^n_{\mathcal{S}}(V,W)$ inductively by:
+Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a family of [[bounded subsets]] of $V$ which cover $V$.  We define $\mathcal{H}^n_{\mathcal{S}}(V,W)$ inductively by:
 
 1. $\mathcal{H}^0(V,W) \coloneqq W$
 2. $\mathcal{H}^n_{\mathcal{S}}(V,W) \coloneqq \mathcal{L}_{\mathcal{S}}(V, \mathcal{H}^{n-1}_{\mathcal{S}}(V,W))$.
