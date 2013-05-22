@@ -750,7 +750,11 @@ More details for the moment at [[∞-Chern-Weil theory introduction]].
 
 ## References
 
-An standard textbook account of the traditional theory is in volume III of 
+Invariant polynomials for Lie algebras of [[simple Lie groups]] are disussed in
+
+* [[José de Azcárraga]],  A. J. Macfarlane, A. J. Mountain, J. C. Perez Bueno, _Invariant tensors for simple groups_, Nucl. Phys. B510 (1998) 657-687 ([arXiv:physics/9706006](http://arxiv.org/abs/physics/9706006))
+
+A standard textbook account of the traditional theory is in volume III of 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
  {#GHV}
