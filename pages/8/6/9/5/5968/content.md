@@ -19,7 +19,11 @@
 {:toc}
 
 
-## The context
+## In terms of the variational bicomplex
+
+Here we formulate Noether's theorem for [[local action functional]] in terms of the [[variational bicomplex]] and the [[covariant phase space]].
+
+### The context
 
 Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
 
@@ -107,7 +111,7 @@ $$
 
 =--
 
-## Statement
+### Statement
 
 With the above notions and notation, **Noether's theorem** states:
 
@@ -142,6 +146,49 @@ $$
 
 
 =--
+
+## In terms of moment maps -- Hamiltonian Noether theorem
+ {#HamiltonianNoetherTheorem}
+
+In [[symplectic geometry]] the analog of Noether's theorem is the statement that the [[moment map]] of a [[Hamiltonian action]] is conserved. 
+
+Souriau called this _the symplectic Noether theorem_, sometimes it is called the _Hamiltonian Noether theorem_.
+
+Let $(X,\omega)$ be a [[symplectic manifold]] and let $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ be a [[Hamiltonian action]] with [[Hamiltonian]] $H \in C^\infty(X)$, thought of as the time evolution of a [[physical system]] with [[phase space]] $(X,\omega)$.
+
+Then let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and let $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ be a [[Hamiltonian action]] with [[Hamiltonian]]/[[moment map]] 
+$\Phi \in C^\infty(X,\mathfrak{g}^\ast)$. We say this preserves the (time evolution-)Hamiltonian $H$ if for all $\xi \in \mathfrak{g}$ the [[Poisson bracket]] between the two vanishes, 
+
+$$
+  \delta_\xi H \coloneqq  \{\Phi(\xi), H\} = 0
+  \,.
+$$
+
+In this situation now the statement of Noether's theorem is that the generators $\Phi(\xi)$ of the symmetry are preserved by the time evolution 
+
+$$
+  \frac{d}{d t} \Phi^\xi = 0
+  \,.
+$$
+
+In this symplectic formulation this is immediate, because
+
+$$
+  \frac{d}{d t}\Phi^\xi = \{H,\Phi^\xi\} = - \{\Phi^\xi, H\} = 0
+  \,,
+$$
+
+by the above assumtion that $H$ is preserved. Hence the "Hamiltonian Noether theorem" is all captured already by the very notion of [[Hamiltonian action]] and the  statement that the [[Poisson bracket]] is skew-symmetric (is a [[Lie algebra]] bracket).
+
+Specifically, if one has a global [[polarization]] of $(X,\omega)$ with [[canonical coordinates]] $\{q^i\}$ and [[canonical momenta]] $\{p_i\}$ and if the symmetry action is on the canonical coordinates (on configuration space), then for $v_\xi$ the [[vector field]] corresponding to the generator $\xi$ the moment map is 
+
+$$
+  \Phi^\xi = p_i (v_\xi)^i
+  \,.
+$$
+
+On the right this is the term in the form in which the conserved quantity obtained from the Nother theorem is traditionally written
+(using that given a [[Lagrangian]] $L$ we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
 
 ## Related concepts
 
