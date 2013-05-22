@@ -181,7 +181,7 @@ The supr-[[Lie algebra cohomology]] of the [[super Poincare Lie algebra]] is com
 
   _III: Primitive elements in four and five dimensions_ ([arXiv:1005.2102](http://arxiv.org/abs/1005.2102))
 
-  _IV: Primitive elements in all dimensions from $D=4$ to $D=11$_, J. Math. Phys. 54, 052302 (2013) ([arXiv:1303.6211](arxiv.org/abs/1303.6211))
+  _IV: Primitive elements in all dimensions from $D=4$ to $D=11$_, J. Math. Phys. 54, 052302 (2013) ([arXiv:1303.6211](http://arxiv.org/abs/1303.6211))
 
 and for some special cases of this, with the help of a computer algebra system, also in:
 
