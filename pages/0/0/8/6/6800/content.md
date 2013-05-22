@@ -16,6 +16,7 @@
 | [[D3-brane]]   |        $\,$                     | $\,$ | [[N=4 D=4 super Yang-Mills theory]]
 | [[D5-brane]]   |        $\,$                     | $\,$ |          $\,$
 | [[D7-brane]]   |        $\,$                     | $\,$ |          $\,$
+| [[D9-brane]]   |        $\,$                     | $\,$ |          $\,$
 |**[[NS-brane]]**|[[supergravity|type I, II, heterotic]]|[[circle n-bundle with connection|circle n-connection]] |          $\,$
 |  [[string]]    |           $\,$                  |[[B2-field]]|  [[2d SCFT]]
 | [[NS5-brane]]  |           $\,$                  |[[B6-field]] | [[little string theory]]
