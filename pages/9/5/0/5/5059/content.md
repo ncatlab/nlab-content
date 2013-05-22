@@ -392,7 +392,11 @@ with further developments discussed in
 
 * [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
+### Symmetries
 
+That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals should have "higher" extended symmetry algebras in some sense... is observes in 
+
+* [[José de Azcárraga]], Jerome P. Gauntlett, J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys. Rev. Lett. 63 (1989) 2443 ([web](http://inspirehep.net/record/26393?ln=en))
 
 ### $\kappa$-Symmetry 
 
