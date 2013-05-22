@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[supergroup]] generalization of the additive [[Lie group]] $\mathbb{R}^n$.
+The [[supergroup]] generalization of the [[translation group]], hence the additive [[Lie group]] $\mathbb{R}^n$.
 
 
 The additive group structure on $\mathbb{R}^{1|1}$ is given on [[generalized element]]s in (i.e. in the logic internal to) the [[topos]] of [[sheaf|sheaves]] on the category [[SCartSp]] of [[cartesian space|cartesian]] superspaces by
