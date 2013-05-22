@@ -1,0 +1,61 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Multilinear maps between [[locally convex topological vector spaces]] are important in many respects not least because of their use in infinite dimensional calculus as the homes of higher derivatives.  However, outside the realm of [[normed vector spaces]], there is no natural choice of topology on the spaces of multilinear maps.
+
+## Definition
+
+The definition of an $n$-linear map is straightforward and is an application of the definition at [[bilinear map]].
+
++-- {: .num_defn #mult}
+###### Definition
+Let $V$ and $W$ be [[vector spaces]] and $n \in \mathbb{N}$.  The space of $n$-linear mappings $V \to W$, written $L^n(V,W)$, is the space of set maps $V^n \to W$ with the property that they are linear in each variable.
+
+For $n = 1$ we write $L(V,W)$ and we extend the notation to $n = 0$ where by $L^0(V,W)$ we mean just $W$.
+=--
+
+When $V$ and $W$ are [[LCTVS]] we can restrict to continuous maps.
+
++-- {: .num_defn #cmult}
+###### Definition
+Let $V$ and $W$ be [[locally convex topological vector spaces]] and $n \in \mathbb{N}$.  The space of continuous $n$-linear mappings $V \to W$, written $\mathcal{L}^n(V,W)$, is the space of continuous maps $V^n \to W$ with the property that they are linear in each variable.
+
+For $n = 1$ we write $\mathcal{L}(V,W)$ and we extend the notation to $n = 0$ where by $\mathcal{L}^0(V,W)$ we mean just $W$.
+=--
+
+There are a variety of topologies that one can put on the spaces $\mathcal{L}^n(V,W)$.  The most common are the topologies of uniform convergence on some family of bounded sets of the source.
+
++-- {: .num_defn #cmtop}
+###### Definition
+Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a collection of [[bounded subsets]] of $V$ which covers $V$.  Define $\Lambda_{\mathcal{S}}$ to be the topology on $\mathcal{L}^n(V,W)$ given by uniform convergence on $\mathcal{S}$.  That is, it is the [[LCTVS]] structure on $\mathcal{L}^n(V,W)$ defined by the family of [[semi-norms]]:
+$$
+\rho(u)_{\sigma,S} \coloneqq \sup \{\sigma(u(h_1,\dotsc,h_n)) : h_i \in S\}
+$$
+where $S \in \mathcal{S}$ and $\sigma \colon W \to \mathbb{R}$ is a continuous semi-norm on $W$.
+
+We write $\mathcal{L}^n_{\mathcal{S}}(V,W)$ for the [[LCTVS]] with underlying vector space $\mathcal{L}^n(V,W)$ and topology $\Lambda_{\mathcal{S}}$.
+=--
+
+The commonest families in use are:
+
+1. The finite subsets.  This resulting topology is known as the **simple** topology and the usual notations are $\Lambda_s$ and $\mathcal{L}_s(V,W)$.
+1. The compact subsets, with notations $\Lambda_k$ and $\mathcal{L}_k(V,W)$.
+1. The [[precompact]] subsets, with notations $\Lambda_{p k}$ and $\mathcal{L}_{p k}(V,W)$.
+1. The [[bounded]] subsets, with notations $\Lambda_b$ and $\mathcal{L}_b(V,W)$.
+
+Of all the topologies definable using Definition \ref{cmtop}, the topology $\Lambda_s$ is the coarsest and $\Lambda_b$ the finest.
+
+The topology of simple convergence ($\Lambda_s$) also makes sense on the spaces $L^n(V,W)$ and we write $L_s^n(V,W)$ for the resulting LCTVS.  We have that $\mathcal{L}_s^n(V,W) \subseteq L^n_s(V,W) \subset W^{V^n}$ (with the product topology) are topological embeddings.
