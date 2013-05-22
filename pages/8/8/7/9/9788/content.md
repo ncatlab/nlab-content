@@ -1,0 +1,10 @@
+
+## Idea
+
+The [[D-brane]] in [[type IIB superstring theory]] of [[dimension]] 9+1.
+
+## Related concepts
+
+[[!include table of branes]]
+
+[[!redirects D9-branes]]
