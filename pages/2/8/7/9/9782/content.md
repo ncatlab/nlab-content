@@ -42,7 +42,7 @@ There are a variety of topologies that one can put on the spaces $\mathcal{L}^n(
 ###### Definition
 Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a collection of [[bounded subsets]] of $V$ which covers $V$.  Define $\Lambda_{\mathcal{S}}$ to be the topology on $\mathcal{L}^n(V,W)$ given by uniform convergence on $\mathcal{S}$.  That is, it is the [[LCTVS]] structure on $\mathcal{L}^n(V,W)$ defined by the family of [[semi-norms]]:
 $$
-\rho(u)_{\sigma,S} \coloneqq \sup \{\sigma(u(h_1,\dotsc,h_n)) : h_i \in S\}
+\rho(u)_{\sigma,S} \coloneqq \sup \{\sigma(u(h_1,\dots,h_n)) : h_i \in S\}
 $$
 where $S \in \mathcal{S}$ and $\sigma \colon W \to \mathbb{R}$ is a continuous semi-norm on $W$.
 
@@ -59,3 +59,30 @@ The commonest families in use are:
 Of all the topologies definable using Definition \ref{cmtop}, the topology $\Lambda_s$ is the coarsest and $\Lambda_b$ the finest.
 
 The topology of simple convergence ($\Lambda_s$) also makes sense on the spaces $L^n(V,W)$ and we write $L_s^n(V,W)$ for the resulting LCTVS.  We have that $\mathcal{L}_s^n(V,W) \subseteq L^n_s(V,W) \subset W^{V^n}$ (with the product topology) are topological embeddings.
+
+## Properties
+
+1. For any suitable family of bounded sets, $\mathcal{S}$, the natural map $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is a topological embedding.
+
+1. If $V$ is [[metrisable]], $W$ arbitrary, and $\mathcal{S}$ contains all [[compact]] sets then $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is an isomorphism.
+
+1. If $V$ is [[metrisable]] and [[barrelled]], $W$ arbitrary, and $\mathcal{S}$ arbitrary then $\mathcal{L}_{\mathcal{S}}^{n+m}(V,W) \to \mathcal{L}_{\mathcal{S}}^n(V,\mathcal{L}_{\mathcal{S}}^m(V,W))$ is an isomorphism.
+
+## Separate Continuity
+
+The definition of $\mathcal{L}^n(V,W)$ requires the maps $V^n \to W$ to be continuous in the product topology.  On the other hand, the linearity is required only on a per-factor basis.  It is possible to make the continuity requirement also work on a per-factor basis using the notion of [[hypocontinuity]].  For this we need to fix the type of continuity first.
+
++-- {: .num_defn #smult}
+Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a family of bounded subsets of $V$ which cover $V$.  We define $\mathcal{H}^n_{\mathcal{S}}(V,W)$ inductively by:
+
+1. $\mathcal{H}^0(V,W) \coloneqq W$
+2. $\mathcal{H}^n_{\mathcal{S}}(V,W) \coloneqq \mathcal{L}_{\mathcal{S}}(V, \mathcal{H}^{n-1}_{\mathcal{S}}(V,W))$.
+=--
+
+## Properties
+
+1. $\mathcal{L}^n_{\mathcal{S}}(V,W) \to \mathcal{H}^n_{\mathcal{S}}(V,W)$ is a topological embedding.
+1. If $\mathcal{S} \subseteq \mathcal{S}'$ then $\mathcal{H}^n_{\mathcal{S}'}(V,W)$ injects continuously into $\mathcal{H}^n_{\mathcal{S}}(V,W)$.
+2. $\mathcal{H}^n_s(V,W)$ consists of the [[separately continuous]] multilinear maps $V^n \to W$.
+3. If $V$ is [[metrisable]] and $\mathcal{S}$ contains all compact sets, or if $V$ is [[metrisable]] and [[barrelled]], then for any $W$ and $n$, $\mathcal{L}^n_{\mathcal{S}}(V,W) = \mathcal{H}^n_{\mathcal{S}}(V,W)$.
+
