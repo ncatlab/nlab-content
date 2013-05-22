@@ -255,6 +255,8 @@ For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[su
 
 * [[fivebrane Lie 6-algebra]]
 
+* [[type II supergravity Lie 2-algebra]]
+
 * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 ## References
