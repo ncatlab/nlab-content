@@ -86,3 +86,20 @@ Let $V$ and $W$ be [[LCTVS]] and $n \in \mathbb{N}$.  Let $\mathcal{S}$ be a fam
 2. $\mathcal{H}^n_s(V,W)$ consists of the [[separately continuous]] multilinear maps $V^n \to W$.
 3. If $V$ is [[metrisable]] and $\mathcal{S}$ contains all compact sets, or if $V$ is [[metrisable]] and [[barrelled]], then for any $W$ and $n$, $\mathcal{L}^n_{\mathcal{S}}(V,W) = \mathcal{H}^n_{\mathcal{S}}(V,W)$.
 
+## Convergence Structures
+
+A [[topological vector space]] defines a [[convergence vector space]] with the same underlying vector space and the same continuous mappings (that is to say, the functor from topological vector spaces to convergence vector spaces is full and faithful and respects the vector space functor).
+The construction of the spaces of continuous multilinear operators makes sense for convergence vector spaces as well as for topological ones.
+The resulting spaces of multilinear operators has several useful structures as a [[convergence vector space]] which are not topological.
+
++-- {: .num_defn #cvs}
+###### Definition
+Let $V$ and $W$ be [[convergence vector spaces]].  The **continuous convergence** structure on $\mathcal{L}^n(V,W)$ is the coarsest convergence structure which makes the evaluation map $\mathcal{L}^n(V,W) \times V^n \to W$ continuous.  The resulting convergence space (which is a convergence vector space) is written $\mathcal{L}^n_c(V,W)$.
+
+The structure of **bounded convergence** (resp. **quasi-bounded convergence**) on $\mathcal{L}^n(V,W)$ is defined by the following requirement: for every filter $\mathcal{F}$ on $\mathcal{L}^n(V,W)$ and every $u \in \mathcal{L}^n(V,W)$ then $\mathcal{F} \to u$ if and only if $(\mathcal{F} - u)(\mathcal{B}^n) \to 0$ in $W$ for every bounded (resp. quasi-bounded) filter $\mathcal{B}$ on $V$.
+The resulting convergence vector space is written $\mathcal{L}_b^n(V,W)$ (resp. $\mathcal{L}_{q b}^n(V,W)$.
+=--
+
+Recall that a filter is *bounded* if it contains a bounded set and is *quasi-bounded* if the filter $\mathcal{V} \cdot \mathcal{F} \to 0$ where $\mathcal{V}$ is the filter of $0$-neighbourhoods in $\mathbb{R}$.
+
+If both $V$ and $W$ are LCTVS then the two notions of bounded convergence agree.
