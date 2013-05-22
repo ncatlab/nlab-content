@@ -34,7 +34,7 @@ Each seminorm determines a [[topology]], which is [[Hausdorff space|Hausdorff]] 
 
 A [[topological vector space]] is called **(semi-)normed** if its [[topology]] can be induced by a (semi-)norm.
 
-Two seminorms ${\vert - \vert}_1$ and ${\vert - \vert}_1$ are called **equivalent** if there is $0 \lt C, C' \in \mathbb{R}$ such that for all $v$ we have
+Two seminorms ${\vert - \vert}_1$ and ${\vert - \vert}_2$ are called **equivalent** if there are $0 \lt C, C' \in \mathbb{R}$ such that for all $v$ we have
 
 $$
   C {\vert v \vert}_1 \leq {\vert v \vert}_2
@@ -69,6 +69,8 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 [[!redirects norms]]
 [[!redirects seminorm]]
 [[!redirects seminorms]]
+[[!redirects semi-norm]]
+[[!redirects semi-norms]]
 
 [[!redirects normed vector space]]
 [[!redirects normed vector spaces]]
