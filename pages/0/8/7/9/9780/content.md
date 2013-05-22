@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb{R}^n$ equipped with its canonical additve [[group]] structure (essentially its [[vector space]]-structure).
+
+## Related concepts
+
+* [[super translation group]]
+
+* [[rotation group]]
+
+* [[Galileo group]], [[Poincare group]]
+
+[[!redirects translation groups]]
