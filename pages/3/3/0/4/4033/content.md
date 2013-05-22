@@ -1,9 +1,12 @@
-
-
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
 [[!include functional analysis - contents]]
-</div>
-
+=--
+=--
+=--
 
 # Contents
 * the following line creates the automatic table of contents
@@ -12,11 +15,6 @@
 ## Idea
 
 Barreled spaces are [[topological vector spaces]] for which the theorem of [[Banach-Steinhaus theorem|Banach–Steinhaus]] is valid. This theorem says, roughly, that for a set of continuous linear maps $L(E, F)$ from a barreled space $E$ to a [[locally convex space|locally convex]] [[TVS]] boundedness in the topology of pointwise convergence implies boundedness in the topology of bounded convergence.
-
-
-## Abstract
-
-...
 
 
 ## Definition
