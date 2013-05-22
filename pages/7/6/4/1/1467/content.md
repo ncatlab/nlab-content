@@ -18,6 +18,7 @@
 
 A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
+It is also common to work with compact subsets of a topological space.  These are those subsets which are compact spaces with the inherited topology.
 
 ## Definitions 
 
@@ -138,3 +139,4 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 [[!redirects compact subspaces]]
 [[!redirects compact subset]]
 [[!redirects compact subsets]]
+[[!redirects compact]]
