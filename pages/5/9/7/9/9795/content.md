@@ -1,8 +1,9 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
@@ -18,3 +19,10 @@ $$
 $$
 
 Then $\mu_B$ is a semi-norm on $V_B$ and $V_B/\ker \mu_B$ is a [[normed space]].
+
+
+[[!redirects absolutely convex]]
+[[!redirects absolutely convex set]]
+[[!redirects absolutely convex sets]]
+[[!redirects absolutely convex subset]]
+[[!redirects absolutely convex subsets]]
