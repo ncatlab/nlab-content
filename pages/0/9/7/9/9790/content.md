@@ -1,11 +1,20 @@
 
-The _product law_ or _product rule_ or _Leibniz rule_ of [[differentiation]] says that for $f,g : X \to \mathbb{R}$ two [[differentiable functions]] and $f g$ their (pointwise) product the [[derivative]] of their product is
+The _product law_ or _product rule_ or _[[Leibniz]] rule_ of [[differentiation]] says that for $f,g : X \to \mathbb{R}$ two [[differentiable functions]] and $f g$ their (pointwise) product the [[derivative]] of their product is
 
 $$
-  d (f  g) = (d f) g + f (d g)
+  d (f g) = (d f) g + f (d g)
   \,.
 $$
 
-Generalized to [[differential forms]] the product law says that $d$ is a [[derivation]] of degree +1 on the graded commutative algebra of differential forms.
+Generalized to [[differential forms]] the product law says that $d$ is a [[derivation]] of degree +1 on the [[graded commutative algebra]] of differential forms:
 
+$$
+  d (f \wedge g) = (d f) \wedge g + (-1)^{\deg f} f \wedge (d g)
+  \,
+$$
+
+if $f$ is homogenous.
+
+
+[[!redirects product law]]
 [[!redirects product rule]]
