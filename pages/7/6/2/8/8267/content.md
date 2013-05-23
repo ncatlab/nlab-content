@@ -1187,6 +1187,7 @@ From the [[snake lemma]] one obtains in turn the
 =--
 
 ## References
+ {#References}
 
 The salamander lemma is due to 
 
