@@ -42,9 +42,7 @@ A morphism $(f^{-1}, f^\sharp):(S_X, O_X) \to (S_Y, O_Y)$ of ringed sites is a p
 
 ## References
 
-Section 14.6 (ringed sites) and 14.33 (locally ringed sites) of
-
-* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* _Ringed sites_ ([web](http://stacks.math.columbia.edu/tag/04KQ)); _Locally ringed topoi_ ([web](http://stacks.math.columbia.edu/tag/04ER)); [[Aise Johan de Jong]],  _[[The Stacks Project]]_
 {#deJong}
 
 
