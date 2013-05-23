@@ -58,3 +58,4 @@ where $T(U)$ is the [[tangent space]] of $U$ (an open subspace of $T(F)$.
 [[!redirects Gâteaux derivatives]]
 [[!redirects Gateaux derivative]]
 [[!redirects Gateaux derivatives]]
+[[!redirects Gâteaux differentiability]]
