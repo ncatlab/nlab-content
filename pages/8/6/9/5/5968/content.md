@@ -250,9 +250,16 @@ The Hamitlonian Noether theorem is also reviewed in a broader context of mathema
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/Towards-the-maths-of-QFT.pdf))
 
 
-The example of conserved currents in [[Chern-Simons theory]] is discussed in 
+The example of conserved currents in [[Chern-Simons theory]] is discussed around (5.381) on p. 925 of
+
+* Vladimir Ivancevic, Tijana Ivancevi, _Applied differential geometry: a modern introduction_
+
+and also in
 
 * M. Francaviglia, M. Palese, E. Winterroth, _Locally variational invariant field equations and global currents: Chern-Simons theories_, Communications in Matheamtical Physics 20 (2012) ([pdf](http://cm.osu.cz/sites/default/files/contents/20-1/cm020-2012-1_13-22.pdf))
 
+and for [[higher dimensional Chern-Simons theory]] in 
+
+* G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Noether conservation laws in higher-dimensional Chern-Simons theory_, Mod. Phys. Lett. A18 (2003) 2645-2651 ([arXiv:math-ph/0310067](http://arxiv.org/abs/math-ph/0310067))
 
 [[!redirects Noether theorem]]
