@@ -1,18 +1,24 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
 
+# Precompact sets
+* table of contents
+{: toc}
+
 ## Idea
 
 A **precompact set** is one whose completion is compact.  This makes sense for [[uniform spaces]] but not for [[topological spaces]].  It is one of the useful types of subset of a [[locally convex topological vector space]], particularly with regard to defining topologies on [[linear dual|dual spaces]].
 
-## Definition
+
+## Definitions
 
 +-- {: .num_defn #bset}
 ###### Definition
@@ -21,6 +27,10 @@ A uniform space $P$ is **precompact** if its completion is compact.
 A subset of a uniform space is **precompact** if it is precompact for the inherited uniformity.
 =--
 
+
+[[!redirects precompact set]]
 [[!redirects precompact sets]]
 [[!redirects precompact subset]]
 [[!redirects precompact subsets]]
+[[!redirects precompact subspace]]
+[[!redirects precompact subspaces]]
