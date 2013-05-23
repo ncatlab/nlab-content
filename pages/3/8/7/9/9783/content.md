@@ -1,12 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
+
+# Bounded sets
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -21,6 +26,8 @@ Let $E$ be a [[LCTVS]].  A subset $B \subseteq E$ is **bounded** if whenever $U 
 
 The family of all bounded sets of a LCTVS defines a [[bornology]] on that space.
 
+
+[[!redirects bounded set]]
 [[!redirects bounded sets]]
 [[!redirects bounded subset]]
 [[!redirects bounded subsets]]
