@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Differentiable maps
 * table of contents
 {: toc}
@@ -29,6 +28,8 @@ To begin with, let $X$ and $Y$ be [[smooth manifolds]], and let $f\colon X \to Y
 
 * The map $f$ is __continuously differentiable__ or __$C^1$__ if it is differentiable (as above) and the resulting map $d f\colon T X \to T Y$ is [[continuous map|continuous]].  We may also speak of a map that is continuously differentiable at a point or on a subset (and the same goes for the other conditions in the hierarchy).
 
+  At this point, working in infinite-dimensional spaces gives us a variety of notions of when the differential is 'continuous'; see [[continuously differentiable map]] for discussion.
+
 * The map $f$ is __twice differentiable__ if it is differentiable and the derivative of the derivative exists at every point.  A twice differentiable map must be continuously differentiable.  Similarly, $f$ is __twice continuously differentiable__ or __$C^2$__ if it's twice differentiable and the second derivative $d d f$ is continuous.
 
 * By [[recursion]], $f$ is __$n + 1$ times differentiable__ if $f$ is $n$ times differentiable and the $n$th derivative of $f$ is differentiable.  Similarly, $f$ is __$n$ times continuously differentiable__ or __$C^n$__ if $f$ is $n$ times differentiable and the $n$th derivative of $f$ is continuous.
@@ -38,6 +39,7 @@ To begin with, let $X$ and $Y$ be [[smooth manifolds]], and let $f\colon X \to Y
 * One step higher, we may ask whether $f$ is [[analytic function|analytic]] or $C^\omega$, but this takes us beyond smooth manifolds (to [[analytic manifold]]s).
 
 If $X$ and $Y$ are [[topological manifolds]] but not smooth manifolds, the definitions above still may still make sense up to a certain point.  In general, if $X$ is a $C^{k+1}$-manifold then the [[tangent bundle]] $T X$ exists as a $C^k$-manifold, so we can define $n$ times differentiable maps or $C^n$ maps between $C^k$-manifolds whenever $n \leq k$.
+
 
 ## Related concepts
 
@@ -50,11 +52,6 @@ If $X$ and $Y$ are [[topological manifolds]] but not smooth manifolds, the defin
 [[!redirects differentiable maps]]
 [[!redirects differentiable function]]
 [[!redirects differentiable functions]]
-
-[[!redirects continuously differentiable map]]
-[[!redirects continuously differentiable maps]]
-[[!redirects continuously differentiable function]]
-[[!redirects continuously differentiable functions]]
 
 [[!redirects twice differentiable map]]
 [[!redirects twice differentiable maps]]
