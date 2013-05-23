@@ -16,7 +16,7 @@
 ## Definition
 
 
-Let $M$ be a differential manifold with differentiable left action of Lie group $G$, $G\times M\to M$ (respectively right action $M\times G\to G$). For example, the multiplication map of $G$ on itself. Then we define the left translations $L_g : (g,m)\mapsto g m$ (resp. right translations $R_g: m\mapsto m g$) for every $g\in G$, which are both diffeomorphisms of 
+Let $M$ be a differential manifold with differentiable left action of Lie group $G$, $G\times M\to M$ (respectively right action $M\times G\to G$). For example, the multiplication map of $G$ on itself. Then we define the left translations $L_g : m\mapsto g m$ (resp. right translations $R_g: m\mapsto m g$) for every $g\in G$, which are both diffeomorphisms of 
 $M$.
 
 A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the pullback by the translation $L_g$
