@@ -1,0 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+In functional analysis, a [[Schwartz space]] is a [[locally convex topological vector space]] $E$ with the property that whenever $U$ is an [[absolutely convex]] neighbourhood of $0$ then it contains another, say $V$, such that $U$ maps to a [[precompact set]] in the [[normed vector space]] $E_V$.
+
+category: functional analysis
