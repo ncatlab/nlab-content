@@ -59,6 +59,16 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
   $$
 
 
+## Minkowski Functionals
+
+Let $V$ be a vector space and $B \subseteq V$ an [[absorbing]] [[absolutely convex]] subset.  The **Minkowski functional** of $B$ is the function $\mu_B \colon V \to \mathbb{R}$ defined by:
+
+$$
+\mu_B(v) = \inf\{t \gt 0 : v \in t B\}
+$$
+
+This is a semi-norm on $V$.
+
 ## Related concepts
 
 * [[Banach space]]
@@ -71,6 +81,7 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 [[!redirects seminorms]]
 [[!redirects semi-norm]]
 [[!redirects semi-norms]]
-
+[[!redirects Minkowski functional]]
+[[!redirects Minkowski functionals]]
 [[!redirects normed vector space]]
 [[!redirects normed vector spaces]]
