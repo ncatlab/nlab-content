@@ -121,7 +121,7 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 ## References
 
-* [[Per Martin-Löf]], "Constructive mathematics and computer programming"
+* [[Per Martin-Löf]], "Constructive mathematics and computer programming" ([pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
 
 * [[UF-IAS-2012]], _[Meaning Explanations](http://uf-ias-2012.wikispaces.com/Meaning+Explanations)_
 
