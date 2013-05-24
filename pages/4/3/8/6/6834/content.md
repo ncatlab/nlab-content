@@ -60,3 +60,10 @@ For foundations of higher gauge theory in [[homotopy type theory]] see
 [[!redirects higher gauge theory]]
 
 [[!redirects higher gauge fields]]
+
+[[!redirects higher gauge theory]]
+[[!redirects higher gauge theories]]
+
+[[!redirects higher gauge symmetry]]
+[[!redirects higher gauge symmetries]]
+
