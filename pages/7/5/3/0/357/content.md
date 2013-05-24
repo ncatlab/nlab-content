@@ -155,7 +155,7 @@ $$
   \array{
     X_0 &\stackrel{U_{X_0}}{\to}& X_0
     \\
-    {}^{\mathllap{=}}\downarrow && \dowmarrow^{\mathrlap{\eta}}
+    {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{\eta}}
     \\
     X_0 &\underset{X}{&#8696;}& T X_0
   }
