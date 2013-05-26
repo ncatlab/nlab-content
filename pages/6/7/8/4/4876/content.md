@@ -150,6 +150,8 @@ In summary, the [[D-brane]] [[submanifolds]] in a Lie group which induce an [[op
 
 * [[coset WZW model]]
 
+* [[gauged WZW model]]
+
 * [[higher dimensional WZW model]]
 
 * [[Green-Schwarz action functional]]
