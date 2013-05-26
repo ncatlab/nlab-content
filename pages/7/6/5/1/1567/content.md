@@ -42,7 +42,7 @@ Distributive lattices and [[lattice]] [[homomorphisms]] form a [[concrete catego
 +-- {: .num_remark}
 ###### Remark
 
-Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice?  This convenience does *not* extend to infintary distributivity, however.
+Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice?  This convenience does *not* extend to infinitary distributivity, however.
 
 =--
 
