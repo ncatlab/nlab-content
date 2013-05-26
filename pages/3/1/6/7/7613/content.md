@@ -63,7 +63,15 @@ The term "M-theory" occurs somewhere around
 
 * [[Mike Duff]], _M-Theory (the Theory Formerly Known as Strings)_, 	Int.J.Mod.Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-For more references see also _[[M2-brane]]_.
+For more original references see also at _[[M2-brane]]_.
+
+An early popular exposition is
+
+* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.sns.ias.edu/~witten/papers/mmm.pdf))
+
+Surveys include
+
+* [[Paul Townsend]], _Four Lectures on M-theory_,  procs. of the ICTP summer school on High Energy Physics and Cosmology, Trieste, June 1996. ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121))
 
 Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]] in the context of M-theory include 
 
