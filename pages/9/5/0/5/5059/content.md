@@ -251,7 +251,7 @@ The above table considers only $N=1$ superspace, hence that of [[11-dimensional 
 ###### Remark
 
 What is missing in the table is the [[M5-brane]] in that top dimension. (See also [BPST](#BPST)).
-The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincaré Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. See the 7-cocycle at _[[supergravity Lie 6-algebra]]_.
+The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincaré Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. See the 7-cocycle at _[[supergravity Lie 6-algebra]]_. And see at _[[schreiber:The brane bouquet]]_.
 
 =--
 
