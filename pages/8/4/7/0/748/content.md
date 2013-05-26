@@ -111,7 +111,7 @@ where
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithPresheaves}
 
 Let $C$ be a [[category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over category]] of $C$ over $c$. Write
-$PSh(C/c) = [(C/C)^{op}, Set]$ for the [[category of presheaves]] on $C/c$ and write
+$PSh(C/c) = [(C/c)^{op}, Set]$ for the [[category of presheaves]] on $C/c$ and write
 $PSh(C)/Y(y)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(c)$ is the [[Yoneda embedding]]. 
 
 +-- {: .num_prop}
@@ -298,7 +298,7 @@ course is also immediately checked explicitly.
 +-- {: .num_cor }
 ###### Corollary
 
-* If $\mathcal{C}$ has an initial object $\emptyset$, then $\mathcal{C}_{/X}$ has an [[initial obect]], given by $\langle \emptyset \to X\rangle$.
+* If $\mathcal{C}$ has an initial object $\emptyset$, then $\mathcal{C}_{/X}$ has an [[initial object]], given by $\langle \emptyset \to X\rangle$.
 
 * The [[terminal object]] $\mathcal{C}_{/X}$ is $\mathrm{id}_X$.
 
