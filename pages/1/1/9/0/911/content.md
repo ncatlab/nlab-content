@@ -101,7 +101,23 @@ The functor $el : \mathbf{Set}^{C} \to \mathbf{Cat}$ is [[cocontinuous functor|c
 ###### Proof
 As remarked above, $el$ is a strict [[weighted colimit]] [[2-colimit]], hence we have an isomorphism
 $$ el(P) \cong \int^{c\in C} J(c) \times disc(P(c)) $$
-for some weight $J:C^{op} \to \mathbf{Cat}$, where $disc:\mathbf{Set}\hookrightarrow \mathbf{Cat}$ is the inclusion of the [[discrete categories]].  But since $disc$ has a right adjoint (regarded purely as a 1-functor), it preserves (1-categorical) colimits.  Since colimits also commute with colimits, the composite operation $\el$ also preserves colimits.
+where the weight $J:C^{op} \to \mathbf{Cat}$ is the functor $c\mapsto c/C$, and $disc:\mathbf{Set}\hookrightarrow \mathbf{Cat}$ is the inclusion of the [[discrete categories]].  But since $disc$ (regarded purely as a 1-functor) has a right adjoint (the functor which sends a -small- category $C$ into its set of elements $C_0$), it preserves (1-categorical) colimits.  Since colimits also commute with colimits, the composite operation $\el$ also preserves colimits.
+=--
++-- {: .num_theorem #ColimitPreserving2}
+###### Theorem
+The functor $el\colon \mathbf{Set}^{C} \to \mathbf{Cat}$ has a right adjoint (which is maybe a more direct way to see that it is cocontinuous).
+=--
++-- {: .proof}
+###### Proof
+By a simple coend computation
+$$
+\array{
+\mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\Big(  \int^c J c\times\delta(P  c), D\Big)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
+&\cong \int_c \mathbf Sets\big(F c,[J c,D]_0\big)\\ 
+&\cong \mathbf{Set}^{C}(F, K(D))
+}
+$$
+where $K(D)\colon c\mapsto [J c,D]_0$.
 =--
 
 Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 1$ constant at the [[point]].  The category of elements of $\Delta 1$ is easily seen to be just $C$ itself, so the unique transformation $P\to \Delta 1$ induces a _projection functor_ $\pi_P: \el(P) \to C$ defined by $(c,x)\mapsto c$ and $u\mapsto u$.  The projection functor is a [[discrete opfibration]], and can be viewed also as a $C$-indexed [[family of sets]].  When we regard $\el(P)$ as equipped with $\pi_P$, we have an embedding of $\mathbf{Set}^C$ into $\mathbf{Cat}/C$.
@@ -111,8 +127,21 @@ Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 
 
 ### Action Groupoid
 
-In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[group]] $G$, a functor $\rho : \mathbf{B}G \to Set$ is a [[permutation representation]] $V$ of $G$ and its category of elements is the corresponding [[action groupoid]] $V//G$.
+In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[group]] $G$, a functor $\varrho : \mathbf{B}G \to Set$ is a [[permutation representation]] $X$ of $G$ and its category of elements is the corresponding [[action groupoid]] $X/\!/G$.
++-- {: .proof}
+###### Proof
+This is easily seen in terms of the characterization $el(\varrho)\cong (*/\varrho)$, the category having as objects triples $(*,*; *\to \varrho(*)=X)$, namely elements of the set $X=\varrho(*)$, and as arrows $x\to y$ those $g\in \mathbf{B}G$ such that
+$$
+\array{
+{*} & \overset{x}{\to}  & X  \\
+{}^1\downarrow && \downarrow^g\\
+{*} & \underset{y}{\to} & X
+}
+$$
+commutes, namely $g . x=\varrho(g)(x)=y$. We can also present the right adjoint to $el(-)$: one must consider the functor $J\colon \mathbf{B}G^{op}\to \mathbf{Cat}$, which represents $G$ in $\mathbf{Cat}$, and sends the unique object $*\in \mathbf{B}G$ to $*/\mathbf{B}G\cong G/\!/G$, the _left_ action groupoid of $G$. The functor $J$ sends $g\in G$ to an automorphism of $G/\!/G$, obtained multiplying _on the right_ $x\to g x$ to $xh\to x g h$.
 
+Now for any category $D$, $K( D)(*)$ is exactly the set of functors $[G/\!/G, D]$, which inherits from $G/\!/G$ an obvious action: given $F\in [G/\!/G,  D]$ we define $F^h=J(h)^*F=F \circ J(h) \colon g \mapsto F(g h)$.
+=--
 ### Category of simplices
 
 For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements its called its _[[category of simplices]]_. See there for more. 
