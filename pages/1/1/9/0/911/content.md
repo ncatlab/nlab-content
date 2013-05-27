@@ -111,11 +111,11 @@ The functor $el\colon \mathbf{Set}^{C} \to \mathbf{Cat}$ has a right adjoint (wh
 ###### Proof
 By a simple coend computation
 $$
-\array{
+\begin{array}{rl}
 \mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\Big(  \int^c J c\times\delta(P  c), D\Big)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
 &\cong \int_c \mathbf Sets\big(F c,[J c,D]_0\big)\\ 
 &\cong \mathbf{Set}^{C}(F, K(D))
-}
+\end{array}
 $$
 where $K(D)\colon c\mapsto [J c,D]_0$.
 =--
@@ -138,7 +138,7 @@ $$
 {*} & \underset{y}{\to} & X
 }
 $$
-commutes, namely $g . x=\varrho(g)(x)=y$. We can also present the right adjoint to $el(-)$: one must consider the functor $J\colon \mathbf{B}G^{op}\to \mathbf{Cat}$, which represents $G$ in $\mathbf{Cat}$, and sends the unique object $*\in \mathbf{B}G$ to $*/\mathbf{B}G\cong G/\!/G$, the _left_ action groupoid of $G$. The functor $J$ sends $g\in G$ to an automorphism of $G/\!/G$, obtained multiplying _on the right_ $x\to g x$ to $xh\to x g h$.
+commutes, namely $g . x=\varrho(g)(x)=y$. We can also present the right adjoint to $el(-)$: one must consider the functor $J\colon \mathbf{B}G^{op}\to \mathbf{Cat}$, which represents $G$ in $\mathbf{Cat}$, and sends the unique object $*\in \mathbf{B}G$ to $*/\mathbf{B}G\cong G/\!/G$, the _left_ action groupoid of $G$. The functor $J$ sends $h\in G$ to an automorphism of $G/\!/G$, obtained multiplying _on the right_ $x\to g x$ to $x h\to x g h$.
 
 Now for any category $D$, $K( D)(*)$ is exactly the set of functors $[G/\!/G, D]$, which inherits from $G/\!/G$ an obvious action: given $F\in [G/\!/G,  D]$ we define $F^h=J(h)^*F=F \circ J(h) \colon g \mapsto F(g h)$.
 =--
