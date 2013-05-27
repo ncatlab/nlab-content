@@ -130,6 +130,10 @@ Comparing with the above definition of eqivariant cohomology, we see that flat c
 
 This is therefore an example of equivariance which is not with respect to a global [[group]] action, but genuinely a [[groupoid]]al one.
 
+#### Equivariant de Rham cohomology
+
+* [[equivariant de Rham cohomology]]
+
 ### Remarks
 
 When pairing equivariant cohomology with other variants of cohomology such as [[twisted cohomology]] or [[differential cohomology]] one has to exercise a bit of care as to what it really is that one wants to consider. A discussion of this is (beginning to appear) at [[schreiber:differential equivariant cohomology]].
