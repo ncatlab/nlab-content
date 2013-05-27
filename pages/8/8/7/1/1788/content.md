@@ -17,7 +17,12 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 | | |  |  | ([[Chern-Simons invariant]]) |
 
 
-
+$$
+\begin{array}{lr}
+A &\cong B\\
+&\cong C
+\end{array}
+$$
 ***
 
 category: meta
