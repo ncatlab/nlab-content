@@ -377,6 +377,11 @@ For [[spin structure]] on loop spaces and its [[transgression]] from [[string st
 * [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
  {#Waldorf12}
 
+See also
+
+* [[Richard Melrose]], _Analysis on loop spaces_, Lecture notes, 2013 ([pdf](http://math.mit.edu/~rbm/18.158-S13/18-158-S13.pdf))
+ {#Melrose}
+
 This entry was created in parallel with [this MO thread](http://mathoverflow.net/questions/12652/loop-spaces-as-generalized-smooth-spaces-or-as-infinite-dimensional-manifolds) from which parts of it is taken.
 
 
