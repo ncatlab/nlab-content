@@ -50,6 +50,8 @@ For [[analytic space]]s
 
 * [[pullback of differential forms]]
 
+* [[equivariant de Rham cohomology]]
+
 * [[twisted de Rham cohomology]]
 
 * [[Deligne cohomology]]
