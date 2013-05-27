@@ -31,21 +31,30 @@ A [[field (physics)|field]] [[theory (physics)]] combining the [[WZW model]] wit
 
 ## References
 
-The gauged WZW model was introduced in 
+The original articles are
 
-* [[Edward Witten]], Nucl. Phys. B223 (1983) 422; Nucl. Phys. B223 (1983) 433.
+* [[Edward Witten]], Nucl. Phys. B223 (1983) 433.
 
 * [[Edward Witten]], Commun. Math. Phys. 92 (1984) 455.
 
-A mathematical account then appeared in
+* [[Krzysztof Gawędzki]], A. Kupiainen, _G/H conformal field theory from gauged WZW model_ Phys. Lett. 215B, 119 (1988); 
 
-* [[Krzysztof Gawędzki]] and A. Kupiainen, Phys. Lett. 215B (1988) 119; Nucl. Phys. B320 (1989) 625;
+
+* [[Krzysztof Gawędzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B 320 (FS), 649 (1989)
 
 * [[Krzysztof Gawędzki]], in _From Functional Integration, Geometry and Strings_, ed. by Z. Haba and J. Sobczyk (Birkhaeuser, 1989).
 
-A systematic description of the gauged WZW term in [[equivariant cohomology|equivariant]] [[de Rham cohomology]] is in section 4.1 of 
+
+
+A clean discussion of the gauged WZW term in [[equivariant cohomology|equivariant]] [[de Rham cohomology]] is in the appendix of 
+
+* [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
+
+reviewed in section 4.1 of 
 
 * Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](http://arxiv.org/abs/1304.3226))
+
+which further generalizes the discussion to non-compact Lie groups.
 
 See also
 
