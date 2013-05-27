@@ -64,6 +64,6 @@ See also
 
 * Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_,  	Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
 
-* Amir Masoud Ghezelbash, 
+* [[Elias Kiritsis]], _Duality in gauged WZW models_ ([pdf](http://hep.physics.uoc.gr/~kiritsis/papers2/dual.pdf))
 
 [[!redirects gauged Wess-Zumino-Witten model]]
