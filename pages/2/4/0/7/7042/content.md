@@ -25,6 +25,10 @@
 
 The generalization of the [[WZW model]] where [[target space]] is not necessarily a [[Lie group]] $G$, but a [[coset]] space $G/H$ for some [[subgroup]] $H$.
 
+## Related concepts
+
+* [[gauged WZW model]]
+
 ## References
 
 * [[Edward Witten]], _On holomorphic factorization of WZW and coset models_, Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104249222))
