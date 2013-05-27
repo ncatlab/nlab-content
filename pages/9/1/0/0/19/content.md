@@ -352,6 +352,12 @@ Other texts include
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 
+### Foundations
+
+The [[foundation]] of category theory in [[homotopy type theory]] (via the notion of [[internal category in an (infinity,1)-category]]) is discussed in 
+
+* Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+
 
 ### Course notes
  {#CourseNotes}
