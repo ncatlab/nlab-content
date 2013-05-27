@@ -41,6 +41,8 @@ page 89 (20 of 49) at
 * [[Sigurdur Helgason]], _Differential geometry, Lie groups and symmetric spaces_
 * F. Bruhat, _Lectures on Lie groups and representations of locally compact groups_, notes by S. Ramanan, TATA Bombay 1958, 1968, [pdf](http://www.math.tifr.res.in/~publ/ln/tifr14.pdf)
 
+[[!redirects invariant differential forms]]
+
 [[!redirects left invariant form]]
 [[!redirects right invariant form]]
 [[!redirects invariant vector field]]
