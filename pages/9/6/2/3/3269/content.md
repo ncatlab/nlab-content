@@ -6,7 +6,7 @@
 ## Idea
 
 The _Chow groups_ of a [[scheme]] $X$ are the analogs of the [[singular chain homology]] groups of a [[topological space]].
-
+^
 
 ## Definition
 
@@ -70,6 +70,8 @@ Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see t
 
 * [[arithmetic Chow group]]
 * [[adequate equivalence relation]]
+* [[Chow motive]]
+
 
 ## References
 
