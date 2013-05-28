@@ -117,6 +117,25 @@ a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]]
 
 ## D-brane charge
 
+(...)
+
+$$
+  \array{
+    && Q
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\phi_Q} && X
+    \\
+    & \searrow && \swarrow_{\mathrlap{\chi_B}}
+    \\
+    && \mathbf{B}^2 U(1)
+  }
+$$
+
+
+(...)
+
 ## Related concepts
 
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
