@@ -121,7 +121,8 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 
 ## Related entries
 
-* [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]]
+* [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]], [[Chow motive]]
+
 * [[zeta function]], [[motivic multiple zeta values]]
 
 * [[Hodge theory]]
