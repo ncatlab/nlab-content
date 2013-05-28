@@ -178,7 +178,7 @@ Let $X$ (resp. $Y$) be the cartesian product of $n$ (resp. $n-1$) copies of the 
 
 The [[model structure on simplicial presheaves]] on the [[Nisnevich site]] and its [[homotopy localization]] to [[A1-homotopy theory]] is in
 
-* J. F. Jardine, _Motivic spaces and the motivic stable category_ 
+* [[Rick Jardine]], _Motivic spaces and the motivic stable category_ 
   ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
 
 More details are in [section 3](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=60) of
@@ -206,7 +206,7 @@ The **motivic complex** -- a [[chain complex]] of [[sheaf|sheaves]] with values 
 
 * Carlo Mazza, Vladimir Voevodsky and Charles Weibel, _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 The motivic cohomology of a [[smooth scheme]] $X$ is the [[abelian sheaf cohomology]], more specifically hypercohomology, of the motivic complex of sheaves with transfers on the Zariski site. See [definition 3,4, page 22](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=34).
 =--
@@ -224,6 +224,7 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 ### References ##
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
+
 
 * [[Vladimir Voevodsky]], _A^1-homotopy Theory_, Documenta Mathematica, Extra Volume ICM 1998, I, 579-604 [ps](http://www.emis.de/journals/DMJDMV/xvol-icm/00/Voevodsky.MAN.ps.gz)
 
