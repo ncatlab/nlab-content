@@ -108,14 +108,14 @@ In [[type IIB supergravity]]
 
 For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witten+model#DBranes)_.
 
-## Characterizations
+## Properties
 
-### In terms of Dirac structures
+### Characterization in terms of Dirac structures
 
 D-branes may be identified with [[Dirac structures]] on 
 a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]] ([Asakawa-Sasa-Watamura](#AsakawaSasaWatamura)). See at _[[Dirac structure]]_ for more on this.
 
-## D-brane charge
+### D-brane charge
  {#DBraneCharge}
 
 In analogy to how in [[electromagnetism]] [[magnetic charge]] is given by a class in [[ordinary cohomology]], so D-brane charge is given in [[KK-theory]], or, if preferred, in its image under the [[Chern character]].
@@ -215,7 +215,17 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
-### KK-theoretic description
+### KK-theoretic description and D-brane charge
+
+The idea that the physics of D-branes is described by [[K-theory]] originates in 
+
+* [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_ , JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
+
+* [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+
+Reviews include
+
+* [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
 Discussion of D-branes in [[KK-theory]] is reviewed in
 
@@ -230,6 +240,16 @@ based on
  {#BMRS2}
 
 * Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. 103:012004,2008 ([arXiv:0709.2128](http://arxiv.org/abs/0709.2128))
+
+In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in
+
+* [[Richard Szabo]], _D-Branes, Tachyons and K-Homology_,  	Mod. Phys. Lett. A17 (2002) 2297-2316 ([arXiv:hep-th/0209210](http://arxiv.org/abs/hep-th/0209210))
+
+
+Specifically for D-branes in [[WZW models]] see
+
+* [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
+
 
 
 ### For rational CFT
@@ -268,9 +288,5 @@ For more see at _[[Freed-Witten anomaly cancellation]]_.
  {#AsakawaSasaWatamura}
 
 
-### D-brane charge
- {#DBraneCharge}
-
-* [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charge charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
 
 [[!redirects D-branes]]
