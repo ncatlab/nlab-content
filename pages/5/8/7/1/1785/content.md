@@ -22,6 +22,8 @@ A list of video-recorded talks by Voevodsky in the context of [[homotopy type th
 
 An interview is [here](http://www.youtube.com/watch?v=vcDaQTPH-Rc).
 
+The transcript of another interview (in Russian) is available at: [(part 1)](http://baaltii1.livejournal.com/198675.html) and [(part 2)](http://baaltii1.livejournal.com/200269.html)
+
 category: people
 
 [[!redirects Владимир Воеводский]]
