@@ -33,7 +33,7 @@ This is discussed at _[[n-fold complete Segal space]]_.
 ### Dyckerhoff-Kapranov
  {#DyckerhoffKapranov}
 
-In ([DyckerhoffKapranov](#DyckerhoffKapranov)) a 2-Segal space is defined to be a simplicial space with a higher analog of the weak composition operation known from [[Segal spaces]].
+In ([DyckerhoffKapranov 12](#DyckerhoffKapranov12)) a 2-Segal space is defined to be a simplicial space with a higher analog of the weak composition operation known from [[Segal spaces]].
 
 Let $X$ be a [[simplicial topological space]] or [[bisimplicial set]] or generally a [[simplicial object]] in a suitable [[simplicial model category]].
 
@@ -50,9 +50,9 @@ $$
 
 are [[weak equivalences]].
 
-**Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operads]] ([Dyckerhoff-Kapranov, section 3.6](#DyckerhoffKapranov)).
+**Warning.** A Dyckerhoff-Kapranov "2-Segal spaces" is not itself a model for an [[(∞,2)-category]]. Instead, it is a model for an [[(∞,1)-operads]] ([Dyckerhoff-Kapranov 12, section 3.6](#DyckerhoffKapranov12)).
 
-Under some conditions DW 2-Segal spaces $X_\bullet$ induce [[Hall algebra]] structures on $X_1$ ([Dyckerhoff-Kapranov, section 8](#DyckerhoffKapranov)).
+Under some conditions DW 2-Segal spaces $X_\bullet$ induce [[Hall algebra]] structures on $X_1$ ([Dyckerhoff-Kapranov 12, section 8](#DyckerhoffKapranov12)).
 
 ## References
 
@@ -66,12 +66,13 @@ For more references along these lines see at _[[n-fold complete Segal space]]_
 The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are discussed in
 
 * Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
+ {#DyckerhoffKapranov12}
 
 * Tobias Dyckerhoff, _Higher Segal spaces _, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
- {#DyckerhoffKapranov}
+ {#Dyckerhoff}
 
 * [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
- {#DyckerhoffKapranov}
+ {#Kapranov}
 
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
