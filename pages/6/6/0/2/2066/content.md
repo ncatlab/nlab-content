@@ -21,7 +21,7 @@
 
 ## Idea ##
 
-The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of _[[Cauchy completion]]_.
+The _Karoubi envelope_ or _idempotent completion_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of _[[Cauchy completion]]_.
 
 A category in which all idempotents split is called *Karoubi complete* or *Cauchy complete* or *idempotent-complete*.  Thus, the Karoubi envelope is a [[completion]] operation into such categories.
 
@@ -63,6 +63,9 @@ If $D$ is a category in which every idempotent splits, then we can choose a spli
 
 The functors that forms idempotent completion is the [[monad]] induced from the [[adjunction]] between categories and semicategories given by the [[forgetful functor]] $Cat \to SemiCat$ and its [[right adjoint]]. More details on this are at _[Semicategory - Relation to categories](semicategory#RelationToCategories)_.
 
+## Examples
+
+* [[category of Chow motives]]
 
 ## Related concepts
 
