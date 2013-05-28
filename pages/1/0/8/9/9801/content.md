@@ -24,7 +24,7 @@
 ## Idea
 
 The _gauged WZW model_ is a [[field (physics)|field]] [[theory (physics)]] which combines the [[WZW model]] with [[gauge theory]]:
-given a ([[simple Lie group|simple]]) [[Lie group]] $G$ and a [[subgroup]] $H \hookrightarrow G$, the corresponding gauged WZW model is a 2-dimensional [[prequantum field theory]] on some [[worldvolume]] $\Sigma_2$ whose [[field (physics)|fields]] are pairs consisting of a smooth function $\Sigma_2 \to G$ and a [[Lie algebra valued 1-form]] $A \in \Omega^1(\Sigma_2, \mathfrak{h})$, with values in the [[Lie algebra]] of $H$.
+given a ([[simple Lie group|simple]]) [[Lie group]] $G$ and a [[subgroup]] $H \hookrightarrow G \times G$, the corresponding gauged WZW model is a 2-dimensional [[prequantum field theory]] on some [[worldvolume]] $\Sigma_2$ whose [[field (physics)|fields]] are pairs consisting of a smooth function $\Sigma_2 \to G$ and a [[Lie algebra valued 1-form]] $A \in \Omega^1(\Sigma_2, \mathfrak{h})$, with values in the [[Lie algebra]] of $H$.
 
 Where the [[Lagrangian]]/[[action functional]] of the ordinary [[WZW model]] is the sum/product of a standard [[kinetic action]] and the [[surface holonomy]] of a [[circle 2-bundle with connection]] whose [[curvature]] 3-form is the canonical 3-form $\langle \theta \wedge [\theta \wedge \theta]\rangle \in \Omega^3(G)^G$, so the action functional of the gauged WZW model is that obtained by refining this circle 2-bundle to the $H$-[[equivariant cohomology|equivariant]] [[differential cohomology]] of $G$, with [[curvature]] 3-form in [[equivariant de Rham cohomology]].
 
