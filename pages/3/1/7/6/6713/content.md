@@ -118,9 +118,9 @@ a [[Courant Lie 2-algebroid]] over spacetime related to the [[type II geometry]]
 ### D-brane charge
  {#DBraneCharge}
 
-In analogy to how in [[electromagnetism]] [[magnetic charge]] is given by a class in [[ordinary cohomology]], so D-brane charge is given in [[KK-theory]], or, if preferred, in its image under the [[Chern character]].
+In analogy to how in [[electromagnetism]] [[magnetic charge]] is given by a class in [[ordinary cohomology]], so D-brane charge is given in ([[twisted K-theory|twisted]]) [[K-theory]], or, if preferred, in its image under the [[Chern character]].
 
-The [[Chan-Paton bundle]] carried by a D-brane defined a class in [[twisted K-theory]] on the D-brane [[worldvolume]] and the D-brane charge is the push-forward of this class to [[spacetime]], using a K-orientation of the embedding of the D-brane (a [[spin^c structure]]).
+The [[Chan-Paton bundle]] carried by a D-brane defines a class in [[twisted K-theory]] on the D-brane [[worldvolume]] and the D-brane charge is the push-forward ([[Umkehr map]]) of this class to [[spacetime]], using a [[K-orientation]] of the embedding of the D-brane (a [[spin^c structure]]).
 
 More in detail this means the following ([BMRS2](#BMRS2)).
 
@@ -141,44 +141,68 @@ $$
     \\
     && \mathbf{B}^2 U(1)
   }
+  \;\;\;\;\;
+  \simeq 
+  \;\;\;\;\;
+  \array{
+    && Q
+    \\
+    & \swarrow &\downarrow& \searrow^{\mathrlap{i}}
+    \\
+    \ast &\swArrow_{\xi}& \downarrow^{\mathrlap{i^\ast \chi_B}} &\swArrow_{id}& X
+    \\
+    & \searrow &\downarrow& \swarrow_{\mathrlap{\chi_B}}
+    \\
+    && \mathbf{B}^2 U(1)
+  }
   \,.
 $$
 
-Under the [[groupoid convolution algebra]] [[functor]] $C^\ast$ this is incarnated as a [[Hilbert bimodule]] which defines a class in [[KK-theory]]
+Assuming that $i \colon Q \to X$ is [[K-orientation|K-oriented]] in that for instance $X$ has a [[spin-structure]] and $Q$ a [[spin^c-structure]], then under the [[groupoid convolution algebra]] [[functor]] $C^\ast$ this is incarnated as a [[Hilbert bimodule]] which defines a class in [[twisted K-theory|twisted]] [[operator K-theory]], realized as the following comoposite in [[KK-theory]]
 
 $$
-  \xi \in KK(C(X)_{\chi_B}, C(Q))
+  \mathbb{C}
+   \stackrel{\Gamma(\xi)}{\to}
+  C(Q)_{i^\ast \chi_B}
+   \stackrel{i_!}{\to}
+  C(X)_{\chi_B}
   \,,
 $$
 
-where $C(Q)$ is the [[C*-algebra|C*-]][[algebra of functions]] ([[vanishing at infinity]]) on the D-brane itself and $C(X)_{\chi_B}$ is the convolution algebra of sections of $\chi_B$ regarded as a [[centrally extended groupoid]] over a [[Cech groupoid]] [[resolution]] of $X$ which supports a [[Cech cohomology|Cech cocycle]] for $\chi_B$.
+where 
 
-Now we require that $i \colon Q \hookrightarrow (X, \chi_B)$ is [[K-orientation|K-orientable]] (carrying suitable [[spin-c structure]]), which means equivalently that there is a push-forward ([[Umkehr map]]) KK-class
+* $C(Q)$ and $C(X)$ are the [[C*-algebra|C*-]][[algebras of functions]] ([[vanishing at infinity]]) on the D-brane and on [[spacetime]], respectively;
+
+* $C(X)_{\chi_B}$ is the [[groupoid convolution algebra]] of [[sections]] of $\chi_B$ regarded as a [[centrally extended groupoid]] over a [[Cech groupoid]] [[resolution]] of $X$ which supports a [[Cech cohomology|Cech cocycle]] for $\chi_B$, and similarly for $C(Q)_{i^\ast \chi B}$ and the pullback/restriction $i^\ast \chi_B$ of the background B-field to the brane;
+
+* $i!$ is the push-forward ([[Umkehr map]]) dual to $i^\ast \colon C(X)_{\chi_B} \to C(Q)_{i^\ast \chi_B}$, realizes as a [[KK-theory]] class
+
+  $$
+    D_Q = i! = \in KK(C(Q), C(X)_{\chi_B})
+    \,.
+  $$
+
+The corresponding **D-brane charge** in KK-theory is the resulting composite (relative [[index]])
 
 $$
-  D_Q = i! ) \in KK(C(Q), C(X)_{\chi_B})
-  \,.
+  i_!(\xi) =  D_Q(\xi) \in KK(\mathbb{C}, C(X)_{\chi_B}) \simeq K^{[\chi_b]}(X)
 $$
 
-The corresponding **D-brane charge** in KK-theory is the resulting [[index]]
-
-$$
-  D_Q(\xi) \colon C(X)_{\chi_B} \stackrel{\xi}{\to} C(Q) \stackrel{D_Q}{\to} C(X)_{\chi_B}
-$$
-
-in $KK(C(X)_{\chi_B}, C(X)_{\chi_B})$. Traditionally only the image of this under the [[Chern character]] 
+in [[twisted K-theory]]. Traditionally only the image of this under the [[Chern character]] 
 
 $$
   ch \colon KK \to HL
 $$
 
-in [[cyclic cohomology]] is considered, $ch(D_Q(\xi))$. Moreover, traiditonally one think of first applying $ch$ to $\xi$ and then pushing forward in $HL$. By the [[C*-algebra|C*-algebraic]] [[Grothendieck-Riemann-Roch theorem]] this gives the [[isomorphism|isomorphic]] expression 
+in real cohomology/[[cyclic cohomology]] is considered, $ch(D_Q(\xi))$. Moreover, traiditonally one thinks of first applying $ch$ to $\xi$ and then pushing forward in $HL$. By the [[C*-algebra|C*-algebraic]] [[Grothendieck-Riemann-Roch theorem]] this gives the [[isomorphism|isomorphic]] expression 
 
 $$
   ch(D_Q(\xi)) \otimes_{C(X)_{\chi_B}} Todd
   \in HL
-  \,.
+  \,,
 $$
+
+where on the right we have the relative [[Todd class]]. This is the form the D-brane charge was originally found in the physics literature and in which it is still often given.
 
 (In ([BMRS2, section 8](#BMRS2)) this is discussed for the untwisted case.)
 
@@ -290,3 +314,5 @@ For more see at _[[Freed-Witten anomaly cancellation]]_.
 
 
 [[!redirects D-branes]]
+
+[[!redirects D-brane charge]]
