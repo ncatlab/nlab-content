@@ -1,4 +1,11 @@
-A category of _pure motives_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) algebraic varieties over a field.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A category of _pure motives_ or _pure [[Chow motives]]_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) [[algebraic varieties]] over a field.
 
 See also [[motive]]
 
