@@ -39,6 +39,7 @@ There are two different notions of _dense [[subcategory]]_ $D$ of a given [[cate
 
 * [[dense functor]]
 
+* there is also the notion of "[[dense subsite]]", but this is _not_ a special case of a dense subcategory. 
 
 ## References
 
