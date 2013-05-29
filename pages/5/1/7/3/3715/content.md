@@ -223,6 +223,10 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 **([[Deligne conjecture]])**.  $C^*(A,A)$ is a $G_\infty$-algebra, which is a Gerstenhaber algebra _up to coherent homotopy_.
 =--
 
+### Motivic Galois group action on the space of quantizations
+
+According to ([Kontsevich 99](Kontsevich99)) a [[quotient group]] of the [[motivic Galois group]] apparently equivalent to the [[Grothendieck-Teichmüller group]] naturally [[action|acts]] on the space of formal deformation quantizations of a finite dimensional manifold. See also at _[[cosmic Galois group]]_.
+
 ## Examples
 
 * [[Moyal quantization]]
@@ -310,6 +314,11 @@ On the [[stack]] of deformation quantizations:
 
 * [[Amnon Yekutieli]], _Twisted Deformation Quantization of Algebraic Varieties_ , 
 [ arxiv:0905.0488 ](http://arxiv.org/abs/0905.0488)
+
+The action of a [[motivic Galois group]] ("[[cosmic Galois group]]") on the space of deformation quantization was observed in 
+
+* [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
+ {#Kontsevich99}
 
 [[!redirects deformation quantizations]]
 
