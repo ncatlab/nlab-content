@@ -59,6 +59,8 @@ Groupoidification in particular seems to illuminate structures encountered in th
 
 * Jeffrey C. Morton, _2-Vector Spaces and Groupoids_ ([arXiv](http://arxiv.org/abs/0810.2361))
 
+* [pdf](http://www.theoreticalatlas.net/talks/gpd-khovanov.pdf)
+
 Some related remarks are in
 
 * Schreiber: [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
