@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Where the [[category of pure motives]] has [[smooth variety|smooth]] [[projective varieties]] as its [[objects]], the _category of mixed motives_ is supposed to be constructed from all [[smooth varieties]].  
+
+The category of mixed motives is supposed to be an [[abelian category|abelian]] [[tensor category]] which contains the [[pure motives]] as the [[full subcategory]] of [[semisimple objects]].  
+
+So far there is no realisation of such a category, but there are proposals by [[Vladimir Voevodsky]] and Levine of [[triangulated categories]] that behave as its [[derived category]] is expected to.
+
+## Related concepts
+
+* [[motivic cohomology]]
+
+[[!redirects mixed motives]]
