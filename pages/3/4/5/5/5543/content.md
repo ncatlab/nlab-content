@@ -94,6 +94,10 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 
 =--
 
+## Related concepts
+
+* there is also the notion of _[[dense subcategory]]_, which is however _not_ related
+
 ## References
 
 Section C2.2
