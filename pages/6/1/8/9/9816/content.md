@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _K-orientation_ is an [[orientation in generalized cohomology]] for [[K-theory]].
+
+## Related concepts
+
+* [[spin^c structure]]
+
+[[!redirects K-orientations]]
