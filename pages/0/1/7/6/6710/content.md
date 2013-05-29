@@ -294,6 +294,8 @@ is the corresponding $Spin^c$-structure.
 
     **$spin^c$ structure**, [[twisted spin^c structure]],
 
+    [[K-orientation]]
+
     [[Spin^c Dirac operator]]
 
   * [[string structure]], [[twisted differential string structure]],
