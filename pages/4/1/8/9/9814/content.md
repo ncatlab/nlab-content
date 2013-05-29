@@ -1,0 +1,4 @@
+
+A [[sieve]] which is [[covering]].
+
+[[!redirects covering sieves]]
