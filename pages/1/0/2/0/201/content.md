@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -210,4 +210,5 @@ Categories [[enriched category|enriched]] over $Ab$ are called [[additive catego
 
 * [[sAb]]
 
-category: categories
+
+category: category
