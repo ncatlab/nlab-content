@@ -171,6 +171,15 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+
+The inclusion $\mathcal{C} \to \tilde \mathcal{C}$ of any category into its [[idempotent completion]] is final. 
+
+=--
+
+See at _[[idempotent completion]]_ in the section on _[Finality](Karoubi+envelope#Finality)_.
+
 
 ## Related concepts
 
