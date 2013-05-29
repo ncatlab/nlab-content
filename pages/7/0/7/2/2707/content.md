@@ -123,9 +123,14 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 
 * [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]], [[Chow motive]]
 
+* [[presheaf with transfer]]
+
 * [[zeta function]], [[motivic multiple zeta values]]
 
 * [[Hodge theory]]
+
+* See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
+
 
 
 ## References
@@ -216,6 +221,9 @@ Relation of motivic cohomology to bivariant [[algebraic K-theory]] (see also at 
 * [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
 
 * [[Grigory Garkusha]], _Algebraic Kasparov K-theory. II_ ([arXiv:1206.0178](http://arxiv.org/abs/1206.0178))
+
+See also at _[KK-theory -- Relation to motives](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
+
 
 ### In physics
 
