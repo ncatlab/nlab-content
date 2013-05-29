@@ -308,10 +308,12 @@ See the corresponding [references below](#ReferencesInTermsOfCorrespondences).
 
 Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. See [below](#AsAnAnalogOfMotives).
 
-### As an $C^\ast$-algebraic analog of motives
+### As an analog of motives in noncommutative topology
  {#AsAnAnalogOfMotives}
 
-To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutative topology]] of what in [[algebraic geometry]] is the category of [[motives]]. ([Connes-Consani-Marcolli 05](#ConnesConsaniMarcolli05)). ([Meyer 06](#Meyer06)). Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[Chow motives]]. A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
+To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutative topology]] of what in [[algebraic geometry]] is the category of [[motives]]. ([Connes-Consani-Marcolli 05](#ConnesConsaniMarcolli05)). ([Meyer 06](#Meyer06)). 
+
+Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[Chow motives]]. A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
 
 ## Properties
 
@@ -656,7 +658,7 @@ The general analogy between KK-cocycles and [[motives]] is noted explicitly in
 * [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  {#ConnesConsaniMarcolli05}
 
-and also very brieflyin ([Meyer 06](#Meyer06)).  
+and also very briefly in ([Meyer 06](#Meyer06)).  
 
 A relation between [[motivic cohomology]] and bivariant [[algebraic K-theory]] is discussed in 
 
