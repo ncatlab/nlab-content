@@ -16,7 +16,7 @@ For [[proper morphisms]] $f : X \to Y$, one defines the [[direct image]] of a $k
 
 $$ f_*([Z]) = \deg_{R(f(Z))}(R(Z)) . [f(Z)] $$
 
-when $\dim(f(Z)) = \dim(Z)$ and 0 otherwise.  Here $f(Z)$ is considered as an integral subscheme of $Y$ with the [[reduced scheme|reduced]] subscheme structure induced from $Y$.  One gets homomorphisms $f_* : Z_k(X) \to Z_k(Y)$ for each $k$.
+when $\dim(f(Z)) = \dim(Z)$ and 0 otherwise.  Here $f(Z)$ is considered as an integral subscheme of $Y$ with the [[reduced scheme|reduced]] subscheme structure induced from $Y$.  $R(Z)$ denotes the field of [[rational functions]] on $Z$ and $\deg$ denotes the degree of the [[field extension]].  One gets homomorphisms $f_* : Z_k(X) \to Z_k(Y)$ for each $k$.
 
 For [[flat morphisms]] of [[relative dimension]] $n$, one defines the inverse image of a $k$-cycle by assigning, for a closed integral subscheme $Z \subset Y$ of dimension $k$,
 
