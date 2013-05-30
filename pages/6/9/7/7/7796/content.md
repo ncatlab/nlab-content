@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,6 +20,28 @@
 ## Idea
 
 A type of [[Dirac operator]] defined on [[manifolds]] equipped with [[Spin^c structure]].
+
+## Properties
+
+### Relation to the Dolbeault operator
+
+Every [[almost complex manifold]] carries a canonical [[spin^c structure]] (as discussed there). If $X$ is a [[complex manifold]], then under the identification
+
+$$
+  S(X) \simeq \wedge^{0,\bullet} T^\ast X
+$$
+
+of the [[spinor bundle]] with that of [[holomorphic differential forms]], the corresponding $Spin^c$-Dirac operator $D$ is identified with the [[Dolbeault operator]]
+
+$$
+  D^+  \simeq \overline\partial + \overline \partial^\ast
+  \colon
+  \Gamma(\wedge^{0,even} T^\ast X)
+  \to 
+  \Gamma(\wedge^{0,odd} T^\ast X)
+  \,.
+$$
+
 
 ## Applications
 
