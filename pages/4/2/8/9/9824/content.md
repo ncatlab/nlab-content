@@ -1,4 +1,4 @@
-**R&#233;coltes et semailles** (Harvest and planting) is an autobiography written by [[Alexandre Grothendieck]].
+**R&#233;coltes et semailles** (Harvest and planting) is a set of  autobiographical reflections, written by [[Alexandre Grothendieck]].
 
 * [[Alexandre Grothendieck]], _R&#233;coltes et semailles: R&#233;flexions et t&#233;moignages sur un pass&#233; de math&#233;maticien._, [url](http://www.math.jussieu.fr/~leila/grothendieckcircle/recoltesetc.php)
 
