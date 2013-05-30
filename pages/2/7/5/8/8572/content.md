@@ -202,9 +202,9 @@ This is discussed at  _[CW complex -- Subcomplexes](CW+complex#Subcomplexes)_.
 If $A \hookrightarrow X$ is a [[topological subspace]] inclusion which is _good_ in the sense of def. \ref{GoodPair}, then the $A$-relative singular homology of $X$ coincides with the [[reduced singular homology]] of the [[quotient space]] $X/A$: 
 
 $$
-  H_n(X/A)
+  H_n(X , A)
   \simeq
-  \tilde H_n(X , A)
+  \tilde H_n(X/A)
  \,.
 $$
 
