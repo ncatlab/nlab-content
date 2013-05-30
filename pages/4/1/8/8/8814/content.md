@@ -24,9 +24,9 @@
 
   * [[elliptic operator]], [[elliptic complex]]
 
-  * [[index of a differential operator]]
-
 * [[Dirac operator]]
+
+  * [[Spin^c Dirac operator]]
 
 
 ## Index theorems
