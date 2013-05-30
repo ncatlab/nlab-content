@@ -40,7 +40,7 @@ We also define a category $Corr_\sim(k, A)$ of correspondences with [[coefficien
 
 The [[Karoubi envelope]] (pseudo-abelianisation) of $Corr_\sim(k, A)$ is called the category of **effective pure motives** (with coefficients in $A$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, A)$.  
 
-Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(X))$ an [[idempotent]], and morphisms from $(h(X), p)$ to $(h(Y), q)$ are compositions $q \circ \alpha \circ p$ with $\alpha \in Corr_{\sim}(h(X), h(Y))$.
+Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(X))$ an [[idempotent]], and morphisms from $(h(X), p)$ to $(h(Y), q)$ are morphisms $h(X) \to h(Y)$ in $Corr_\sim$ of the form $q \circ \alpha \circ p$ with $\alpha \in Corr_{\sim}(h(X), h(Y))$.
 
 This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
 
