@@ -5,21 +5,33 @@
 
 ## Idea
 
-[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some category, which he called the category of motives.  For [[smooth variety|smooth]] [[projective varieties]] (over some field $k$) such a category was given by Grothendieck himself, called the category of pure Chow motives.  For general smooth varieties the category is still conjectural, see [[mixed motives]].
+[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some category, which he called the category of [[motives]].  For [[smooth variety|smooth]] [[projective varieties]] (over some field $k$) such a category was given by Grothendieck himself, called the category of pure Chow motives.  For general smooth varieties the category is still conjectural, see [[mixed motives]].
 
-## Definition
+## Construction
 
 Fix some [[adequate equivalence relation]] $\sim$ (e.g. [[rational equivalence]]).  Let $Z^i(X)$ denote the group of $i$-codimensional [[algebraic cycles]] and let $A^i_\sim(X)$ denote the quotient $Z^i(X)/\sim$.
 
-Consider the category of [[correspondences]] $Corr_\sim(k)$ whose objects are smooth [[projective varieties]] and morphisms are
+**Category of correspondences.**  Let $Corr_\sim(k)$, the category of [[correspondences]], be the category whose objects are [[smooth variety|smooth]] [[projective varieties]] and morphisms are
 $$Corr(h(X),h(Y)) = \bigoplus_\alpha A^{n_i}_\sim(X_i \times Y)$$
 where $(X_i)$ are the [[irreducible components]] of $X$ and $n_i$ are their respective [[dimensions]].  The composition of two morphisms $\alpha \in Corr(X,Y)$ and $\beta \in Corr(Y,Z)$ is given by
 $$ p_{XZ,*} (p_{XY}^*(\alpha) . p_{YZ}^*(\beta)) $$
-where $p_{XY}$ denotes the projection $X \times Y \times Z \to X \times Y$ and so on, and $.$ denotes the [[intersection product]] in $X \times Y \times Z$.  There is a canonical [[contravariant functor]] $h : SmProj(k) \to Corr(k)$ from the category of smooth projective varieties over $k$ given by mapping $X \mapsto X$ and a morphism $f : X \to Y$ to the [[image]] of its [[graph morphism]] $\Gamma_f : X \to X \times Y$.  The category of correspondences is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) = h(X \times Y)$.  We also define a category $Corr_\sim(k, A)$ of correspondences with [[coefficients]] in some [[commutative ring]] $A$, by tensoring the morphisms with $A$; this is an $A$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
+where $p_{XY}$ denotes the projection $X \times Y \times Z \to X \times Y$ and so on, and $.$ denotes the [[intersection product]] in $X \times Y \times Z$.
 
-The [[Karoubi envelope]] (pseudoabelianisation) of this category $Corr_\sim(k)$ is called the category of **effective pure motives** (with coefficients in $A$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, A)$.  Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(Y))$, and morphisms from $(h(X), p)$ to $(h(Y), q)$ are compositions $q \circ \alpha \circ p$ with $\alpha \in Corr(h(X), h(Y))$.  This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
+There is a canonical [[contravariant functor]] $h : SmProj(k) \to Corr(k)$ from the category of smooth projective varieties over $k$ given by mapping $X \mapsto X$ and a morphism $f : X \to Y$ to the [[image]] of its [[graph morphism]] $\Gamma_f : X \to X \times Y$.
 
-There is a decomposition $h(\mathbf{P}^1_k) = h(\Spec(k)) \oplus \mathbf{L}$ of the motive of the [[projective line]] for some motive $\mathbf{L}$; $\mathbf{L}$ is called the [[Lefschetz motive]].  Finally to get a [[rigid category]] we formally invert the Lefschetz motive to get a category $Mot_\sim(k, A)$ of **pure motives** (with coefficients in $A$ and with respect to $\sim$).  This is a [[rigid category||rigid]], [[Karoubian category|Karoubian]], [[symmetric monoidal category]].  Its objects are triples $(h(X), p, n)$ with $n \in \mathbf{Z}$.
+The category of correspondences is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) = h(X \times Y)$.
+
+We also define a category $Corr_\sim(k, A)$ of correspondences with [[coefficients]] in some [[commutative ring]] $A$, by tensoring the morphisms with $A$; this is an $A$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
+
+**Category of effective pure motives.**  The [[Karoubi envelope]] (pseudo-abelianisation) of $Corr_\sim(k, A)$ is called the category of **effective pure motives** (with coefficients in $A$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, A)$.  Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(Y))$, and morphisms from $(h(X), p)$ to $(h(Y), q)$ are compositions $q \circ \alpha \circ p$ with $\alpha \in Corr(h(X), h(Y))$.
+
+This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
+
+**Category of pure motives.**  There exists a motive $\mathbf{L}$, called the **Lefschetz motive**, such that the motive of the [[projective line]] decomposes as
+
+$$h(\mathbf{P}^1_k) = h(\Spec(k)) \oplus \mathbf{L}$$
+
+To get a [[rigid category]] we formally invert the Lefschetz motive and get a category $Mot_\sim(k, A)$, the **category of pure motives** (with coefficients in $A$ and with respect to $\sim$).  This is a [[rigid category|rigid]], [[Karoubian category|Karoubian]], [[symmetric monoidal category]].  Its objects are triples $(h(X), p, n)$ with $n \in \mathbf{Z}$.
 
 When $\sim$ is [[rational equivalence]], $A^*_\sim$ are the [[Chow groups]], and $Mot_\sim(k)$ is called the category of **pure Chow motives**.
 
