@@ -133,3 +133,5 @@ A [[formal geometry]] version:
 [[!redirects Dolbeault differential]]
 [[!redirects Dolbeault differentials]]
 
+[[!redirects Dolbeault operator]]
+[[!redirects Dolbeault operators]]
