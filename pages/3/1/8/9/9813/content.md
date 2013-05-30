@@ -17,21 +17,30 @@
 
 ## Definition
 
-The [[category]] of _effective Chow [[motives]]_ (or [[pure motives]]), $Chow^{eff}$, is the [[idempotent completion]] of the [[category]] $Chow$ whose [[objects]] are [[smooth variety|smooth]] [[projective varieties]] over $k$, and whose [[hom-sets]] are [[Chow groups]] in the [[product]] of two varietes (see for instance [Vishik09, def. 2.1](#Vishik09))
+The [[category]] of _effective [[pure motives|pure]] Chow [[motives]]_ , $Mot_{rat}^{eff}(k)$, is the [[idempotent completion]] of the [[category]] $Corr_{rat}(k)$ whose [[objects]] are [[smooth variety|smooth]] [[projective varieties]] over some [[field]] $k$, and whose [[hom-sets]] are [[Chow groups]] in the [[product]] of two varietes (see for instance [Vishik09, def. 2.1](#Vishik09)).
 
 $$
-  Hom_{Chow}(Y,X) \coloneqq CH^{dim X}(X \times Y)
+  Hom_{Corr_{rat}(k)}(Y,X) \coloneqq CH^{dim X}(X \times Y)
   \,.
 $$
 
-Hence a [[morphism]] $X \to Y$ in $Chow^{eff}$ is an [[equivalence class]] of [[linear combinations]] of [[correspondences]]/[[spans]] of the form
+Hence a [[morphism]] $X \to Y$ in $Mor_{rat}^{eff}(k)$ is an [[equivalence class]] of [[linear combinations]] of [[correspondences]]/[[spans]] of the form
 
 $$
   X \leftarrow \Sigma \rightarrow Y
   \,.
 $$
 
+If one furthermore divides out the [[Lefschetz motive]] $\mathbf{L}$ then one obtains the category of _pure Chow motives_
+
+$$
+  Mot_{rat}(k) \coloneqq Mot_{rat}(k)[\mathbf{L}^{-1}]
+  \,.
+$$
+
 This was introduced by [[Grothendieck]]. See e.g. ([Vishik09, p. 6](#Vishik09)), ([Mazza-Voevosky-Weibel, p. 181](#MazzaVoevodskyWeibel)).
+
+This is a special case of the more general notion of _[[pure motives]]_. See there for more.
 
 ## Properties
 
