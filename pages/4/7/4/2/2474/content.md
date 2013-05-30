@@ -229,6 +229,8 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[Cuntz algebra]]
 
+* [[Poincaré duality C*-algebra]]
+
 * [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
 
 * [[C*-category]]
