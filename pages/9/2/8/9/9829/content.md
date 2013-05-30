@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[cup product]]
+
+## References
+
+* Wikipedia, _[Intersection theory](http://en.wikipedia.org/wiki/Intersection_theory)_
+
+[[!redirects intersection products]]
