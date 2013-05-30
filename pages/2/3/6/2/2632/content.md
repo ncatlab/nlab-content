@@ -16,7 +16,7 @@
 
 ## Idea
 
-While [[classical mechanics]] considers deterministic evolution of particles and fields, quantum physics follows nondeterministic evolution where the probability of various outcomes of measurement may be predicted from the state in a Hilbert space representing the possible reality: that state undergoes a unitary evolution, what means that the generator of the evolution is $\sqrt{-1}$ times a Hermitean operator called the *quantum Hamiltonian* or the [[Hamiltonian operator]] of the system. The theoretical framework for describing this precisely is the __quantum mechanics__. It involves a constant of nature, Planck constant $h$; some quantum systems with spatial interpretation in the limit $h\to 0$ lead to classical mechanical systems (not all: some phenomena including non-integer spin are purely quantum mechanical, but the properties depending on their existence survive in the "classical" limit); in limited generality, one can motivate and find the *nonfunctorial* procedure to single out a [[right inverse]] to taking this *classical limit* under the name [[quantization]]. 
+While [[classical mechanics]] considers deterministic evolution of particles and fields, quantum physics follows nondeterministic evolution where the probability of various outcomes of [[measurement]] may be predicted from the state in a Hilbert space representing the possible reality: that state undergoes a unitary evolution, what means that the generator of the evolution is $\sqrt{-1}$ times a Hermitean operator called the *quantum Hamiltonian* or the [[Hamiltonian operator]] of the system. The theoretical framework for describing this precisely is the __quantum mechanics__. It involves a constant of nature, Planck constant $h$; some quantum systems with spatial interpretation in the limit $h\to 0$ lead to classical mechanical systems (not all: some phenomena including non-integer spin are purely quantum mechanical, but the properties depending on their existence survive in the "classical" limit); in limited generality, one can motivate and find the *nonfunctorial* procedure to single out a [[right inverse]] to taking this *classical limit* under the name [[quantization]]. 
 
 While quantum mechanics may be formulated for a wide range of physical systems, interpreted as particles, extended particles and fields, the quantum mechanics of fields is often called the [[quantum field theory]] and the quantum mechanics of systems of a fixed finite number of particles is often view as the quantum mechanics in a narrow sense. 
 
@@ -123,9 +123,9 @@ If the [[star algebra]] $A$ happens to be a [[C-star algebra]], then this inner 
 
 Historically and still often in the literature, such a Hilbert space is taken as a fundamental input of the definition of quantum systems.
 
-Traditionally, [[Dirac]]'s "bra-ket" notation is used to represent vectors in such Hilbert spaces of states, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
+Traditionally, [[Dirac]]'s "bra-ket" notation is used to represent vectors in such Hilbert spaces of states, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called [[observables]]. [[measurements|Measurements]] are expressed as sets of [[projectors]] onto the eigenvectors of an observable.
 
-In [[mixed state]] quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
+In [[mixed state]] quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and [[measurements]] are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
 
 \[ \rho = \sum_i a_i |\psi_i\rangle\langle\psi_i| \]
 
@@ -269,6 +269,8 @@ For more on this see
   * [[Planck's constant]]
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
+
+  * [[quantum measurement]]
 
   * [[EPR paradox]]
 
