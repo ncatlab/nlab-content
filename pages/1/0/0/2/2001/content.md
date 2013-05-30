@@ -9,5 +9,6 @@ A morphism $f:X\to Y$ of [[schemes]] is **flat** if the induced map on [[stalks]
 The standard reference is [[EGA IV]]. See also [[flat morphism in derived geometry]]. 
 
 
+[[!redirects flat morphisms]]
 [[!redirects flat topology]]
 [[!redirects flat morphism of schemes]]
