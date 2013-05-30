@@ -105,12 +105,15 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 ## References
 
-A standard textbook account of the description of indidces as [[partition functions]] in [[supersymmetric quantum mechanics]] is 
+A general introduction with an emphasis of indices as [[Gysin maps]]/[[fiber integration]]/[[Umkehr maps]] is in 
+
+* [[Chris Kottke]], _Talbot Workshop 2010 Talk 2: K-Theory and Index Theory_ ([arXiv:1010.5002](http://arxiv.org/abs/1010.5002))
+ {#Kottke}
+
+A standard textbook account of the description of indices as [[partition functions]] in [[supersymmetric quantum mechanics]] is 
 
 * [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
   {#BerlineGetzlerVergne04}
-
-
 
 An explicit formula in [[Chern-Weil theory]] for indices of differential operators on [[Hilbert modules]]-bundles is discussed in detail in 
 
