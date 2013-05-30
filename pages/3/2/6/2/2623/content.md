@@ -583,7 +583,8 @@ holds.
 
 * [[cosmic Galois group]]
 
-## References {#References}
+## References 
+ {#References}
 
 ### Traditional physics accounts
  {#General}
@@ -597,6 +598,7 @@ A review is in
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
 
 ### In BV formalism
+ {#ReferencesInBVFormalism}
 
 Discussion in the context of [[BV-BRST formalism]] is in
 
@@ -607,7 +609,12 @@ building on
 * [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
  {#Costello}
 
-See also at _[[factorization algebra of observables]]_
+See also at _[[factorization algebra of observables]]_.
+
+A vaguely related approach earlier appeared in 
+
+* [[Dmitry Tamarkin]], _A formalism for the renormalization procedure_ ([arXiv:math/0312219](http://arxiv.org/abs/math/0312219))
+ {#Tamarkin}
 
 ### In AQFT
 
