@@ -1,0 +1,1 @@
+Let $C$ be a [[category]] admitting finite [[fibred products]] and $f : X \to Y$ be a [[morphism]] over some base $S$.  The **graph morphism of $f$** is the morphism $\Gamma_f : X \to X \times_S Y$ induced by $\mathbf{1}_X : X \to X$ and $f : X \to Y$.
