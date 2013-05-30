@@ -7,3 +7,6 @@ is a textbook that leads from basics of [[category theory]] and [[algebra]] to a
 
 
 category: reference
+
+[[!redirects Stacks Project]]
+[[!redirects Stacks project]]
