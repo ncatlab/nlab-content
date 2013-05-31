@@ -1,5 +1,5 @@
 
-> This page is about the notion of index in [[operator algebra]]. For other notions see elsewhere.
+> This page is about the notion of index in [[analysis]]/[[operator algebra]]. For other notions see elsewhere.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -104,6 +104,10 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 
 ## References
+
+A standard textbook account in the context of [[KK-theory]] is in section 24.1 of 
+
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
 
 A general introduction with an emphasis of indices as [[Gysin maps]]/[[fiber integration]]/[[Umkehr maps]] is in 
 
