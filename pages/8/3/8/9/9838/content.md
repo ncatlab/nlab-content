@@ -1,0 +1,16 @@
+
+
+## Related concepts
+
+* [[renormalization]]
+
+* [[cosmic Galois group]]
+
+## References
+
+* Wikipedia _[Renormalization group](http://en.wikipedia.org/wiki/Renormalization_group)_
+
+[[!redirects renormalization groups]]
+
+[[!redirects renormalization group flow]]
+[[!redirects renormalization group flows]]
