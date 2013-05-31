@@ -47,7 +47,7 @@ In particular we can consider the forgetful functor $AbGr(A Alg/B)\to A Alg/B$ w
 
 All said is true for [[simplicial ring|simplicial commutative rings]] as well. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The **relative cotangent complex** functor is the left [[derived functor]]
@@ -81,7 +81,7 @@ Let $P_\bullet R$ be the corresponding [[bar construction]] [[simplicial ring|si
 
 Forming degreewise the module of [[Kähler differential]]s on this yields the simplicial object $\Omega_{k}(P_\bullet R)$, which is a $P_\bullet R$-module. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The cotangent complex of $R$ is equivalent to 
@@ -94,7 +94,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice that the universal property of the [[Kähler differential]]s is that for $R$ a ring and $N$ an $R$-module, we have
@@ -135,7 +135,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
