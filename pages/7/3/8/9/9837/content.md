@@ -1,0 +1,12 @@
+
+This entry collects links for the book
+
+* [[Bruce Blackadar]], 
+
+  _K-Theory for Operator Algebras_
+
+  Cambridge University Press 1986, second ed. 1999
+
+on [[operator K-theory]] and [[KK-theory]].
+
+category: reference
