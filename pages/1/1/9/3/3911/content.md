@@ -150,12 +150,16 @@ The following discusses KK-pushforward
 
 1. _[Along a submersion](#KKPushforwardAlongSubmersion)_
 
-1. _[Along a general map](#KKPushforwardAlongGeneralMap)_
+1. _[Along a fibration of closed spin^c manifolds](#AlongAFibrationOfClosedSpinCManifolds)_
+
+1. _[Along a general K-oriented map](#KKPushforwardAlongGeneralMap)_
 
 The construction goes back to ([Connes 82](#Connes82)), where it is given over smooth manifolds. Then ([Connes-Skandalis 84](#ConnesSkandalis84), [Hilsum-Skandalis 87](#HilsumSkandalis87)) generalize this to maps between [[foliations]] by KK-elements betwen the [[groupoid convolution algebras]] of the coresponding [[holonomy groupoids]] and  ([Rouse-Wang 10](#RouseWang10)) further generalize to the case where a [[circle 2-bundle]] twist is present over these foliations. A purely algebraic generalization to (K-oriented) maps between otherwise arbitrary [[noncommutative topology|noncommutative spaces]]/[[C*-algebras]] is in ([BMRS 07](#BMRS07)).
 
 #### Along an embedding
  {#KKPushForwardAlongEmbedding}
+
+([Connes-Skandalis 84, above prop. 2.8](ConnesSkandalis84))
 
 Let $h \colon X \hookrightarrow Y$ be an [[embedding]] of [[compact topological space|compact]] [[smooth manifolds]]. 
 
@@ -251,8 +255,13 @@ $$
   \,.
 $$
 
+
+
 #### Along a proper submersion
  {#KKPushforwardAlongSubmersion}
+
+([Connes-Skandalis 84, above prop. 2.9](ConnesSkandalis84))
+
 
 For $\pi \colon X \to Z$ a [[K-orientation|K-oriented]] [[proper map|proper]] [[submersion]] of compact smooth manifolds, the push-forward map along it is reduced to the [above](#KKPushForwardAlongEmbedding) case of an embedding by 
 
@@ -280,9 +289,50 @@ $$
 
 ([BMRS 07, example 3.4](#BMRS07))
 
+#### Along a smooth fibration of closed $Spin^c$-manifolds
+ {#AlongAFibrationOfClosedSpinCManifolds}
+
+Specifically, for $\pi \colon X \to Z$ a smooth fibration over a closed smooth manifold whose [[fibers]] $X/Z$ are
+
+* [[closed manifold|closed]] [[smooth manifolds|smooth]] [[spin^c structure|spin^c]] [[manifolds]] of even [[dimension]]
+
+the push-forward element $\pi! \in KK(C_0(X), C_0(Z))$ is given by the [[Fredholm module|Fredholm]]-[[Hilbert module]] obatined from the fiberwise [[spin^c Dirac operator]] acting on the fiberwise [[spinors]]. ([Connes-Skandalis 84, proof of lemma 4.7](ConnesSkandalis84), [BMRS 07, example 3.9](BMRS07)).
+
+In detail, write
+
+$$
+  T(X/Z) \hookrightarrow T X
+$$
+
+for the sub-bundle of the total [[tangent bundle]] on the [[vertical vectors]] and choose a [[Riemannian metric]] $g^{X/Z}$ on this bundle (hence a collection of Riemannian metric on the fibers $X/Z$ smoothly varying along $Z$). Write $S_{X/Z}$ for the corresponding [[spinor bundle]]. 
+
+A choice of horizontal complenet $T X \simeq T^H X \oplus T(X/Z)$ induces an [[affine connection]] $\nabla^{X/Z}$. This combined with the [[symbol map]]/Clifford multiplication of $T^\ast (X/Z)$ on $S_{X/Z}$ induces a fiberwise [[spin^c Dirac operator]], acting in each fiber on the [[Hilbert space]] $L^2(X/Z, S_{X/Z})$. 
+
+This yields a [[Fredholm module|Fredholm]]-[[Hilbert bimodule]]
+
+$$
+  (D_{X/Z}, L^2(X/Z, S_{X/Z}))
+$$
+
+which defines an element in [[KK-theory]]
+
+$$
+  \pi ! \in KK(C_0(X), C_0(Z))
+  \,. 
+$$
+
+Postcompositon with this is the push-forward map in K/KK-theory, equivalently the [[index]] map of the collection of Dirac operators.
+
+
+
+
+
 
 #### Along a general K-oriented map
  {##KKPushforwardAlongGeneralMap}
+
+([Connes-Skandalis 84, def. 2.1](ConnesSkandalis84))
+
 
 Now for $f \colon X \to Y$ an arbitray [[K-orientation|K-oriented]] smooth proper map, we may reduce push-forward along it to the above two cases by factoring it through its [[graph map]], followed by projection to $Y$:
 
