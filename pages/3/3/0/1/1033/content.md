@@ -24,7 +24,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-In a [[category]] with [[zero object]], the **cokernel** of a [[morphism]] $f : A \to B$ is the [[pushout]] $coker(f)$ in
+In a [[category]] with a [[terminal object]] $1$, the **cokernel** of a [[morphism]] $f : A \to B$ is the [[pushout]] $coker(f)$ in
 
 $$
   \array{
@@ -32,7 +32,7 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{i}}
     \\
-    0 &\to& coker(f)
+    1 &\to& coker(f)
   }
   \,.
 $$
@@ -42,7 +42,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-More explicitly, this characterizes the object $coker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
+In the case when the terminal object is in fact zero object, one can, more explicitly, characterize the object $coker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
 
 for every object $C$ and every morphism $h : B \to C$ such that $h \circ f = 0$ is the [[zero morphism]], there is a unique morphism $\phi : coker(f) \to C$ such that $h = \phi \circ i$.
 
