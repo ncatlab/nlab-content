@@ -15,6 +15,8 @@
 
 * [[pre-additive category]]
 
+  * [[pseudo-abelian category]]
+
 * [[additive category]], 
 
 * (AB1) [[pre-abelian category]] 
