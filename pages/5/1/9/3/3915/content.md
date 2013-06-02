@@ -48,6 +48,7 @@ The dual notion is that of [[conormal bundle]]. The notion also makes sense for 
 +-- {: .num_remark}
 ###### Remark
 
+
 There is always an [[isomorphism]]
 
 $$
@@ -69,7 +70,7 @@ $$
 
 =--
 
-Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then the question of triviality of the normal bundle for an embedding $M^n\hookrightarrow \mathbf{R}^{n+r}$ for sufficiently large $r$ does not depend on the embedding. For this one uses the fact that any two such embeddings are regularly homotopic (this means the existence of a smooth homotopy $H(x,t)$ which is immersion for every $t \in [0,1]$ and which induces on the level of differentials a homotopy for the tangent bundles and that any two regular homotopies are themselves homotopic through regular homotopies leaving end points fixed. Then one just uses the homotopy invariance of vector bundles. This, if $M^n$ allows an embedding into $\mathbf{R}^{n+r}$ with a trivial normal bundle then one says that $M^n$ has a __stably trivial normal bundle__. In that case, if $M^n_+$ is the union of $M$ with a disjoint base point, then there is a homeomorphism $T (M^n\times \mathbf{R}^{r})\cong \Sigma^r M^n_+$ where $\Sigma^r$ denotes the $r$-fold (reduced) suspension of based spaces $(S^r\times M^n_+)/(S^r\wedge M_+)$.
+Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then the question of triviality of the normal bundle for an embedding $M^n\hookrightarrow \mathbf{R}^{n+r}$ for sufficiently large $r$ does not depend on the embedding. For this one uses the fact that any two such embeddings are regularly homotopic (this means the existence of a smooth homotopy $H(x,t)$ which is immersion for every $t \in [0,1]$ and which induces on the level of differentials a homotopy for the tangent bundles) and that any two regular homotopies are themselves homotopic through regular homotopies leaving end points fixed. Then one just uses the homotopy invariance of vector bundles. Thus, if $M^n$ admits an embedding into $\mathbf{R}^{n+r}$ with a trivial normal bundle then one says that $M^n$ has a __stably trivial normal bundle__. In that case, if $M^n_+$ is the union of $M$ with a disjoint base point, then there is a homeomorphism $T (M^n\times \mathbf{R}^{r})\cong \Sigma^r M^n_+$ where $\Sigma^r$ denotes the $r$-fold (reduced) suspension of based spaces $(S^r\times M^n_+)/(S^r\wedge M_+)$.
 
 ## Related concepts
 
