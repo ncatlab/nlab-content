@@ -62,7 +62,7 @@ So the ring $R \oplus N$ may be thought of as the ring of functions on the infin
 
 There is a canonical ring homomorphism $R\oplus N \to R$ that is the identity on $R$ and $0$ on $N$. This is to be thought of as the pullback of functions on spaces along the inclusion of spaces $X \to \tilde X$ (which in turn may be thought of as the 0-[[section]] of the vector bundle on $X$).
 
-Similarly, let $R_2$ be another ring with module $N_2$ and square-0 extension $R_2 \oplus N_2$, though of, respectively, as the ring of functions on a space $Y$, the module of sections of a vector bundle on $Y$ and the ring of functions on the space of infinitesimal vectors of this vector bundle.
+Similarly, let $R_2$ be another ring with module $N_2$ and square-0 extension $R_2 \oplus N_2$, thought of, respectively, as the ring of functions on a space $Y$, the module of sections of a vector bundle on $Y$ and the ring of functions on the space of infinitesimal vectors of this vector bundle.
 
 In terms of these function rings, a morphism $f : X \to Y$ of spaces corresponds to a ring homomorphism $R_1 \leftarrow R_2 : f^*$. Hence we have a situation
 
