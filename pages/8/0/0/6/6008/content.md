@@ -63,7 +63,7 @@ Moreover, tubular neighbourhoods are unique _up to [[homotopy]]_ in a suitable s
 +-- {: .num_defn}
 ###### Definition
 
-For an embedding $i X \to Y$, write $Tub(i)$ for the [[topological space]] whose underlying set is the set of tubular neighbourhoods of $i$ and whose [[topology]] is the [[subspace topology]] of $Hom(N_i X, Y)$ equipped with the [[C-infinity topology]].
+For an embedding $i : X \to Y$, write $Tub(i)$ for the [[topological space]] whose underlying set is the set of tubular neighbourhoods of $i$ and whose [[topology]] is the [[subspace topology]] of $Hom(N_i X, Y)$ equipped with the [[C-infinity topology]].
 
 =--
 
