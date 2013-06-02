@@ -1,7 +1,11 @@
-__Matilde Marcolli__ is a mathematician of Italian origin, currently at CalTech, with strong background in mathematical physics. She works on very diverse topics like gauge theories, [[noncommutative geometry]], arithmetic geometry, combinatorics of [[renormalization]], and [[motives]]. She was a recipient of Sonja Kovalevskaja prize and worked for several years at Max Planck Institute for Mathematics in Bonn. 
+__Matilde Marcolli__ is a mathematician of Italian origin, currently at CalTech, with a background in mathematical physics. She works on very diverse topics such as gauge theories, [[noncommutative geometry]], arithmetic geometry, the combinatorics of [[renormalization]], and [[motives]]. 
+
+She was a recipient of the Sonja Kovalevskaja prize and worked for several years at the Max Planck Institute for Mathematics in Bonn. 
 
 * [web](http://www.its.caltech.edu/~matilde)
+
 * [research works](http://www.its.caltech.edu/~matilde/work.html)
+
 * talks: [slides](http://www.its.caltech.edu/~matilde/slides.html)
 
 category: people, noncommutative geometry
