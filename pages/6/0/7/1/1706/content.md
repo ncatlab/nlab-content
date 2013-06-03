@@ -358,7 +358,7 @@ The original hypothesis is formulated in
 
 The formalization and proof is described in 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 {#Lurie}
 
 This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] bridges that step in particular and drastically simplifies the whole proof in general. 
