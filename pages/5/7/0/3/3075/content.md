@@ -109,7 +109,7 @@ $$
 
 In the category [[Top]] of [[topological space]]s, let $G$ be group and $\mathcal{B}G$ its [[classifying space]], and let $f : X \to \mathcal{B}G$ be a morphism. Then 
 
-* the mapping coylinder of ${* }\to \mathcal{B}G$ is the universal $G$-bundle;
+* the mapping cocylinder of ${* }\to \mathcal{B}G$ is the universal $G$-bundle;
 
 * the mapping cocone of $X \to \mathcal{B}G$ is the $G$-principal bundle $P \to X$ classified by $f$:
 
