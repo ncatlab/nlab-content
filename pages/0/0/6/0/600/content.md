@@ -294,7 +294,13 @@ By the above, every cone over the pullback diagram with a functor $h : Q \to B$,
 
 That the canonical trace on $Span$ is compatible with the interpretation of spans as linear maps in the context of [[groupoidification]], and that it corresponds under duality  (in terms of the [[co-span co-trace]]) to the gluing of ends of [[cobordism]]s was mentioned in
 
-* Urs Schreiber, [(co)-traces](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537)
+* Urs Schreiber, [(co)-traces](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537) (2008)
+
+More discussion is in 
+
+* [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
+ {#BenZviNadler13}
+
 
 
 [[!redirects span traces]]
