@@ -11,7 +11,7 @@
 
 This entry is about the article
 
-* [[Jacob Lurie]], _On the Classification of Topological Field Theories_ Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv/0905.0465](http://arxiv.org/abs/0905.0465))
+* [[Jacob Lurie]], _On the Classification of Topological Field Theories_ Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
 whose main content is a formalization and proof of the
 
