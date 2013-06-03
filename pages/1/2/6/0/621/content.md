@@ -158,6 +158,9 @@ Further developments are in
 
 * [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
 
+* [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
+ {#BenZviNadler13}
+
 
 For partial trace, particularly its application to quantum mechanics, see:
 
