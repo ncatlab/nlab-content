@@ -73,7 +73,7 @@ $$
 
 where $\partial^{hor} \circ \partial^{hor} = 0$, where $\partial^{vert} \circ \partial^{vert} = 0$ and where all squares [[commuting diagram|commute]], $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$.
 
-Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any position $(k,l)$. This is the source and target of horizontal, vertical and digonal (unique composite of a horizontal and a vertical) [[morphisms]] to be denoted as follows:
+Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any position $(k,l)$. This is the source and target of horizontal, vertical and diagonal (unique composite of a horizontal and a vertical) [[morphisms]] to be denoted as follows:
 
 $$
   \array{
