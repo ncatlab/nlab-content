@@ -11,6 +11,11 @@ __Euclid__ (&#917;&#8016;&#954;&#955;&#949;&#943;&#948;&#951;&#962;) was the anc
 *  _[[Elements]]_ (his book)
 
 
+## External links
+
+*  [English Wikipedia](http://en.wikipedia.org/wiki/Euclid)
+
+
 category: people
 
 [[!redirects Euclid]]
