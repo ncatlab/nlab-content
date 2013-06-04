@@ -14,7 +14,7 @@ __Euclid__ (&#917;&#8016;&#954;&#955;&#949;&#943;&#948;&#951;&#962;) was the anc
 ## External links
 
 *  [English Wikipedia](http://en.wikipedia.org/wiki/Euclid)
-
+*  [An English translation of _Elements_ ](http://www.mathcs.clarku.edu/~djoyce/java/elements/elements.html)
 
 category: people
 
