@@ -654,6 +654,10 @@ As a special case this reproduces the [above statement](#LocalizationOfPresheafT
 
 =--
 
+### Gros toposes
+
+Let $A$ be a [[commutative ring]] (such as $\mathbb{Z}$ or a [[field]]), let $Spec A$ be the [[prime spectrum]] of $A$, and let $\mathcal{Z}_A$ be the [[big and little toposes|big]] [[Zariski site|Zariski topos]] for $A$ (i.e. the [[classifying topos]] for [[local ring|local $A$-algebras]]). For each element $a$ of $A$, we have an open subset $D (a) = \{ \mathfrak{p} \in Spec A : a \notin \mathfrak{p} \}$, and these open subsets constitute a basis for the topology on $Spec A$. The full subcategory of the frame of open subsets of $Spec A$ spanned by these basic open subsets admits a contravariant [[full and faithful functor|full embedding]] in the category of finitely-presented $A$-algebras via the functor $D (a) \mapsto A [a^{-1}]$ (the well-definedness of this functor requires a non-trivial check!), and this functor moreover has the cover lifting property, so induces a local geometric morphism $\mathcal{Z}_A \to Sh (Spec A)$.
+
 ## Related concepts
 
 * [[essential geometric morphism]]
