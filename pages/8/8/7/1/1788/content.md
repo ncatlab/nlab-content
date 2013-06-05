@@ -4,6 +4,8 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
+$\coloneqq$ $\eqqcolon$
+
 [pdf](http://www.tex.ac.uk/ctan///////macros/latex/contrib/beamer/doc/beameruserguide.pdf)
 
 | | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
