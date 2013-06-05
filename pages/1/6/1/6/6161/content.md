@@ -336,7 +336,7 @@ between the [[singular chain complex]] of the [[product space]] and the [[tensor
 
 $$
   H_n(X \times Y) \simeq 
-  H_n(C_\bullet(X) \otimes X_\bullet(Y))
+  H_n(C_\bullet(X) \otimes C_\bullet(Y))
   \,.
 $$
 
