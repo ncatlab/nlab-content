@@ -1,7 +1,9 @@
 ## References
 
-Tom Leinster, notions of M&#246;bius inversion, [arXiv:1201.0413v3](http://arxiv.org/abs/1201.0413)
+* Tom Leinster, _Notions of M&#246;bius inversion_, Bulletin of the Belgian Mathematical Society 19 (2012) 911-935, [arXiv:1201.0413v3](http://arxiv.org/abs/1201.0413)
 
+* $n$Cafe: [M&#246;bius inversion for categories](http://golem.ph.utexas.edu/category/2011/05/mbius_inversion_for_categories.html)
 [[!redirects Mobius inversion]]
 
+* Joachim Kock, _Incidence Hopf algebras_, [pdf](http://mat.uab.es/~kock/seminars/incidence-algebras.pdf)
 [[!redirects Moebius inversion]]
