@@ -28,6 +28,8 @@ See for instance ([Kahn](#Kahn)) for details and references.
 
 * [[motive]]
 
+* [[cosmic Galois group]], [[Grothendieck-Teichmüller group]]
+
 ## References
 
 ### General
