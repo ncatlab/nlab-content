@@ -257,6 +257,10 @@ A survey page maintained by [[Steve Awodey]] is _[Homotopy Type Theory and the U
 ### Introductions
  {#Introductions}
 
+The standard textbook is
+
+* Univalent Foundations Project, _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+
 Introductions to the idea of homotopy type theory include
 
 * [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
