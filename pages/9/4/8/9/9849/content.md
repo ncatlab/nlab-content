@@ -1,0 +1,10 @@
+
+An introductory textbook on [[homotopy type theory]] and its use as a [[foundations of mathematics]]:
+
+* Univalent Foundations Project
+
+  _Homotopy Type Theory -- Univalent Foundations of Mathematics_
+
+Due out any minute now...
+
+category: reference
