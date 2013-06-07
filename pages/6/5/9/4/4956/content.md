@@ -1,25 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The _differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _[[derivative]]_ $d f$ of the function. 
+The _differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _derivative_ $d f$ of the function.
 
-
-
- 
 
 ## Definition
 
@@ -331,9 +328,6 @@ $$
 [[!include infinitesimal and local - table]]
 
 
-
-[[!redirects derivative]] 
-[[!redirects derivatives]] 
-
-[[!redirects partial derivative]] 
-[[!redirects partial derivatives]] 
+[[!redirects differentiation]]
+[[!redirects derivative]]
+[[!redirects derivatives]]
