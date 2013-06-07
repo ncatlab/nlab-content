@@ -1,0 +1,13 @@
+
+# Partial differentiation
+* table of contents
+{: toc}
+
+## Idea
+
+When [[multifunction]] is differentiated with respect to any one of its arguments alone, holding the others fixed, then the result is a _partial_ [[derivative]].
+
+
+[[!redirects partial derivative]]
+[[!redirects partial derivatives]]
+[[!redirects partial differentiation]]
