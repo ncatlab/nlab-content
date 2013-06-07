@@ -55,7 +55,7 @@ Over more general base fields, this is called an **[[Artin algebra]]**.
 
 ## Examples
 
-The smallest nontrivial example is the space dual to the [[ring of dual numbers]]. This is the point with "minimal infintiesimal thickening". 
+The smallest nontrivial example is the space dual to the [[ring of dual numbers]]. This is the point with "minimal infinitesimal thickening". 
 
 A class of examples are the spaces $\tilde D(n,r)$ of $r$-tuples of infinitesimal neighbours of the origin of $R^n$, that are each also infinitesimal neighbours of each other. Their Weil algebras of functions are a model for the degree $r$-[[differential form]]s. Details on this are at <a href="http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl">spaces of infinitesimal k-simplices</a>.
 
