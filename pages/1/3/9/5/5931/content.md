@@ -75,3 +75,4 @@ The [[(∞,1)-category theory]]-version is that of
 * [[Jacob Lurie]], _[[Structured Spaces]]_
  {#Lurie}
 
+[[!redirects locally algebra-ed toposes]]
