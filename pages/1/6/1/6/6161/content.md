@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -320,7 +319,7 @@ For more details, see the page on the _[[universal coefficient theorem]]_.
 
 ## Examples
 
-### For singular homology of products of topoligical spaces
+### For singular homology of products of topological spaces
  {#InOrdinaryHomologyForTopologicalSpaces}
 
 
