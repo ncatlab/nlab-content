@@ -104,7 +104,7 @@ and then applying both this fact *and* the chain rule to find the derivative of 
 $$ \frac{\mathrm{d}}{\mathrm{d}x} (\sin u) = \cos u \,\frac{\mathrm{d}u}{\mathrm{d}x} $$
 and apply this rule directly; the original fact is the special case in which $u \coloneqq x$.  Even better, learn the rule as
 $$ \mathrm{d}(\sin u) = \cos u \,\mathrm{d}u ;$$
-then it applies without further modification to multivariable calculus.
+then it applies without further modification to multivariable calculus (as well as implicit differentiation, related rates, integration by substitution, and other stock features of one-variable calculus).
 
 The chain rule could still be used in the *proof* of this 'sine rule'.  Even so, it is quite possible to prove the sine rule directly (much as one proves the product rule directly rather than using the two-variable chain rule and the partial derivatives of the function $x, y \mapsto x y$).  In any case, the chain rule is not directly needed when working out specific derivatives.  As a *rule* of differentiation, the chain rule is needed only when an unspecified [[differentiable function]] $f$ appears, and then may be given in the form
 $$ \frac{\mathrm{d}}{\mathrm{d}x} f(u) = f'(u) \,\frac{\mathrm{d}u}{\mathrm{d}x} $$
