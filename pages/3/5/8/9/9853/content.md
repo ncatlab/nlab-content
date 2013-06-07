@@ -1,0 +1,4 @@
+
+A _multifunction_ is a [[function]] of several [[variables]], hence aequivalently is an ordiary [[function]] on a [[product]] space.
+
+[[!redirects multifunctions]]
