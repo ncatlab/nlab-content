@@ -1,16 +1,2 @@
-author: AnonymousCoward
-company: 
-title: staff.science.uva.nl/~rhd/papers/group.ps
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-staff.science.uva.nl/~rhd/papers/group.ps
-==============
-
-My First Slide
------------------
-
+[[!redirects staff.science.uva.nl/~rhd/papers/group.ps]]
+category:empty
