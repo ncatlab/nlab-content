@@ -116,6 +116,8 @@ It turns out to have a natural subgroup which is isomorphic to the quotient of t
 
 * [[Fukaya category]]
 
+* [[Lagrangian correspondences and category-valued TFT]]
+
 ## References
 
 * [[Katrin Wehrheim]] and [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory_, [arXiv:0708.2851](http://arxiv.org/abs/0708.2851)
@@ -134,3 +136,5 @@ Remarks about refinements to correspondences of smooth $\infty$-groupoids in the
 [[!redirects stable symplectic category]]
 
 [[!redirects symplectic category]]
+
+[[!redirects motivic symplectic category]]
