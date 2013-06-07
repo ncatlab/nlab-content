@@ -153,7 +153,7 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 * The [[category of Chow motives]] has as [[morphisms]] [[equivalence classes]] of [[linear combinations]] of spans of [[smooth variety|smooth]] [[projective varieties]].
 
-* The [[Weinstein symplectic category]] has as morphisms [[Lagrangian submanifold|Lagrangian]] correspondences between [[symplectic manifolds]]. 
+* The [[Weinstein symplectic category]] has as morphisms [[Lagrangian correspondences]] between [[symplectic manifolds]]. 
 
 ## Related concepts
 
