@@ -106,10 +106,12 @@ A reference for classical constructions is
 * [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
  {#Weibel}
 
-The $(\infty,1)$-categorical picture is described in
+The [[(infinity,1)-category theory]] picture is discussed in
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
  {#BlumbergGepnerTabuada}
+
+(in terms of [[noncommutative motives]]) and in
 
 * [[Clark Barwick]], _On the algebraic K-theory of higher categories, I. The universal property of Waldhausen K-theory_ ([arXiv:1204.3607](http://de.arxiv.org/abs/1204.3607))
 
