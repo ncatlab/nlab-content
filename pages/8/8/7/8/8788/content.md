@@ -74,7 +74,7 @@ A first proof of the [[Guillemin-Sternberg geometric quantization conjecture]] i
 
 A suggestion that geometric push-forward quantization is best understood to proceed to take values in [[KK-theory]] is in 
 
-* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_, Proc. Bialowieza 2002 ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
 
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos}
