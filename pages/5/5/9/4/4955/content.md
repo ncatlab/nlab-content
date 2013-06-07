@@ -94,8 +94,7 @@ $$
   \,.
 $$
 
-This is the form in which the chain rule is taught to kids. It's just a test to see if they understand what's really going on. One of these tests that are never being graded.
-
+This is the form in which the chain rule is usually introduced in elementary calculus.
 
 #### Remarks
 
