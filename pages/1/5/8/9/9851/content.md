@@ -1,0 +1,6 @@
+
+* [[Yuri Manin]], _New Dimensions in Geometry_, talk at 25th Arbeitstagung Bonn 1984 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter04.pdf))
+
+on [[supergeometry]] and related topics.
+
+category: reference
