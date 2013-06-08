@@ -237,7 +237,7 @@ Explicit discussion of the relation to [[Hodge theory]] is in
 ### Relation to KK-theory / bivariant K-theory
  {#RelationToKKTheory}
 
-Relation of motivic cohomology to bivariant [[algebraic K-theory]] (see also at _[[KK-theory]]_) is discussed in 
+Relation of [[motivic cohomology]] to [[bivariant algebraic K-theory]] (see also at _[[KK-theory]]_) is discussed in 
 
 * [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  {#ConnesConsaniMarcolli05}
