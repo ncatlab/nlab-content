@@ -157,6 +157,8 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
   More generally [[symplectic dual pairs]] are correspondences between [[Poisson manifolds]].
 
+* Cospans of homomorphisms of [[C*-algebras]] represent morphisms in [[KK-theory]] (by Cuntz' result).
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
