@@ -102,6 +102,7 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
   * [[Mishchenko-Fomenko index theorem]]
 
+  * [[Baum-Connes conjecture]]
 
 ## References
 
