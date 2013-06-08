@@ -34,7 +34,7 @@
 
 ## Idea
 
-_KK-theory_ is a "bivariant" joint generalization of [[operator K-theory]] and [[K-homology]]: for $A, B$ two [[C*-algebras]], the _KK-group_ $KK(A,B)$ is a natural [[homotopy]] [[equivalence class]] of $(A,B)$-[[Hilbert bimodules]] equipped with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]]/[[operator K-theory]] of $B$.
+_KK-theory_ is a "[[bivariant cohomology theory|bivariant]]" joint generalization of [[operator K-theory]] and [[K-homology]]: for $A, B$ two [[C*-algebras]], the _KK-group_ $KK(A,B)$ is a natural [[homotopy]] [[equivalence class]] of $(A,B)$-[[Hilbert bimodules]] equipped with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]]/[[operator K-theory]] of $B$.
 
 Abstractly, KK-theory is an [[additive category]] of [[C*-algebras]] which is the split-[[exact functor|exact]] and [[homotopy]]-invariant [[localization]] of [[C*Alg]] at the [[compact operators]]. Hence, abstractly KK-theory is a fundamental notion in [[noncommutative topology]], but its standard presentation by [[Fredholm module|Fredolm]]-[[Hilbert bimodules]] as above is rooted in [[functional analysis|functional]] [[analysis]]. A slight variant of this localization process is called _[[E-theory]]_.
 
@@ -481,6 +481,8 @@ $$
 ## Related concepts
 
 * [[index theory]]
+
+* [[bivariant cohomology theory]]
 
 * [[operator K-theory]]
 
