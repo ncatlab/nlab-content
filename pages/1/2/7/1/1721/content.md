@@ -76,6 +76,10 @@ from the category [[Top]] of [[topological space]]s to the category [[Ab]] of ab
 
 * [[Brown representability theorem]]
 
+* [[homology theory]]
+
+* [[bivariant cohomology theory]]
+
 ## References 
 
 A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
