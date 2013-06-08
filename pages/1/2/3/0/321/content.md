@@ -155,6 +155,8 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 * The [[Weinstein symplectic category]] has as morphisms [[Lagrangian correspondences]] between [[symplectic manifolds]]. 
 
+  More generally [[symplectic dual pairs]] are correspondences between [[Poisson manifolds]].
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
