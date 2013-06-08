@@ -87,6 +87,17 @@ Even more generally one can allow the [[∞-groupoid]]s $X, Y, \cdots$ to be [[(
 The [[(∞,2)-category]] of spans in [[∞Grpd]] is discussed in some detail in ([Dyckerhoff-Kapranov 12, section 10](#DyckerhoffKapranov12)).
 For a sketch of the definition for all $n$ see ([Lurie, page 57](#Lurie)).
 
+In ([BenZvi-Nadler 13, remark 1.17](#BenZviNadler13)) it is observed that 
+
+$$
+  Span_n(\mathbf{H}) \simeq E_n Alg_b(\mathbf{H}^{op})
+$$
+
+is equivalently the [[(∞,n)-category]] of [[En-algebras]] and [[(∞,1)-bimodules]] between them in the [[opposite (∞,1)-category]] of $\mathbf{H}$ (since every object in a cartesian category is uniquely a [[coalgebra]] by its [[diagonal]] map).
+
+(This immediately applies that every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]].)
+
+
 ## Properties
  {#Properties}
 
@@ -163,6 +174,12 @@ The generalization to an $(\infty,n)$-category $Span_n((\infty,1)Cat^Adj)$ of sp
 The application of $Span_n(\infty Grpd/C)$ to the construction of [[FQFT]]s is further discussed in section 3 of 
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+Discussion of $Span_n(\mathbf{H}) \simeq Alg_{E_n}(\mathbf{H}^{op})$ is around remark 1.17 of
+
+* [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
+ {#BenZviNadler13}
+
 
 A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regarded as a [[tricategory]] and then as a 1-object [[tetracategory]] is in
 
