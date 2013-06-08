@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -30,6 +30,7 @@ Accordingly, there are [[model category]] structures on [[sSet-categories]] that
 Both are special cases of a [[model structure on enriched categories]].
 
 ## Model for $(\infty,1)$-categories
+ {#ModelForInfinityCategories}
 
 Here we describe the model category structure on [[SSet Cat]] that 
 makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
