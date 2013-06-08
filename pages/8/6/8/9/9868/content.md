@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Baum)
+
+## Related entries
+
+* [[Baum-Connes conjecture]]
+
+category: people
