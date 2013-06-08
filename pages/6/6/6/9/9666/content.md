@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,7 +31,17 @@ $$
 
 ## Related concepts
 
+* [[trace]]
+
 * [[bicategorical trace]]
+
+* [[span trace]]
+
+## References
+
+* [[David Ben-Zvi]], [[David Nadler]], _Secondary Traces_ ([arXiv:1305.7177](http://arxiv.org/abs/1305.7177))
+
+* [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
 
 
 [[!redirects higher traces]]
