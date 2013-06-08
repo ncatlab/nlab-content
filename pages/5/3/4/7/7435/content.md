@@ -26,6 +26,13 @@ The following traditional notions of "traces" turn out to be special cases of bi
 
 * The [[Reidemeister trace]].
 
+## Related concepts
+
+* [[trace]]
+
+* [[higher trace]]
+
+* [[span trace]]
 
 ## References
 
