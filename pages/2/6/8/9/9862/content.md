@@ -1,0 +1,39 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+## Definition
+
+(...)
+
+## Properties
+
+The [[Baum-Connes conjecture]] states that the assembly map is an [[isomorphism]].
+
+## Related concepts
+
+* [[Baum-Connes conjecture]]
+
+## References
+
+The construction goes back to 
+
+* [[Gennady Kasparov]], _The index of invariant elliptic operators, K-theory, and Lie group representations_. Dokl. Akad. Nauk. USSR, vol. 268, (1983), 533-537.
+
+An introduction is in
+
+* [[Alain Valette]], _Introduction to the Baum-Connes conjecture_  ([pdf](http://www.univ-orleans.fr/mapmo/membres/chatterji/Valette.pdf))
+
+
+[[!redirects assembly maps]]
+
+[[!redirects Baum-Connes assembly map]]
+[[!redirects Baum-Connes assembly maps]]
