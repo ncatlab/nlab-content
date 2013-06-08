@@ -13,10 +13,14 @@
 * table of contents 
 {:toc}
 
+## Idea
+
+A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic manifolds]] given by a [[Lagrangian submanifold]] of their [[product]].
 
 ## Definition
+ {#Definition}
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a [[correspondence]] $Z \to X^-_0 \times X_1$ which is a  [[submanifold]] of $X^-_0 \times X_1$
@@ -36,18 +40,50 @@ $$
 
 where $\pi_i$ are the two projections out of the [[product]].
 
+=--
 
++-- {: .num_def}
+###### Definition
 
-The **composition** of two Lagrangian submanifolds is
+The **composition** of two Lagrangian correspondences is
 
 $$
   L_{01} \circ L_{12} := 
     \pi_{02}(L_{01} \times_{X_1} L_{12})
 $$
 
-which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suitably smoothly embedded by $\pi_{02}$.
+which is itself a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suitably smoothly embedded by $\pi_{02}$.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The category of Lagrangian correspondences is a [[full subcategory]] of that of correspondence of the [[slice topos]] $SmoothSpaces_{/\Omega^2_{cl}}$ of [[smooth spaces]] over the [[moduli space]] $\Omega^2_{cl}$ of closed [[differential 2-forms]]: 
+
+a [[symplectic manifold]] $(X,\omega)$ is given by a map of [[smooth spaces]] $\omega \colon X \to \Omega^2_{cl}$ (generally this is a [[presymplectic manifold]]) and a correspondence in $SmoothSpaces_{/\Omega^2_{cl}}$ is a [[commuting diagram]] in [[smooth spaces|SmoothSpaces]] of the form
+
+$$
+  \array{
+    && Z
+    \\
+    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    \\
+    X_1 && {}^{\mathllap{i_1^\ast \omega_1}}\downarrow^{\mathrlap{i_2^\ast \omega_2}} && X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \Omega^2_{cl}
+  }
+  \,.
+$$
+
+If here $(i_1, i_2) \colon Z \to X \times Y$ is a manifold maximal with the property of fitting into the above diagram, then this is a Lagrangian correspondence.
+
+=--
+
+
+
 
 
 ## Examples
@@ -91,6 +127,8 @@ which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suit
 
 
 ## Related entries
+
+* [[symplectic dual pair]]
 
 * [[Weinstein symplectic category]]
 
