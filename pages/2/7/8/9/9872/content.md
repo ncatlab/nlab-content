@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.lsa.umich.edu/~wfulton/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/William_Fulton_%28mathematician%29)
+
+category: people
