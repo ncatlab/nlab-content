@@ -6,7 +6,7 @@ Eric Goubault is a research director at CEA (since 2003), and professor at &#201
 
 
 
-[webpage](http://www.di.ens.fr/~goubault/)
+[webpage](http://www.lix.polytechnique.fr/~goubault/)
 
 
 category: people
