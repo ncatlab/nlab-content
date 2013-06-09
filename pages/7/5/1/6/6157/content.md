@@ -154,21 +154,21 @@ that identifies $A Line$ as the [[delooping]] [[∞-groupoid]] of either of thes
 
 =--
 
-This appears in ([ABG, 3.6](#ABG)) ([p. 10](http://arxiv.org/pdf/1002.3004v2.pdf#page=10)). See also ([ABGHR, section 6](#ABGHR).
+This appears in ([ABG, 3.6](#ABG)) ([p. 10](http://arxiv.org/pdf/1002.3004v2.pdf#page=10)). See also ([ABGHR, section 6](#ABGHR)).
 
 
 +-- {: .num_remark}
 ###### Remark
 
-This means that every $A$-line $\infty$-bundle is canonically [[associated ∞-bundle|associated]] to a $GL_1(A)$-[[principal ∞-bundle]] $X \to B GL_1(A)$.
+This means that every $A$-line $\infty$-bundle is canonically [[associated ∞-bundle|associated]] to a $GL_1(A)$-[[principal ∞-bundle]] over $X$ which is [[moduli space|modulated]] by a map $X \to B GL_1(A)$. 
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-A $GL_1(A)$-[[principal ∞-bundle]] on $X$ is also called a **[[twisted cohomology|twist]]** for 
-$A$-[[generalized (Eilenberg-Steenrod) cohomology|cohomology]] on $X$.
+A $GL_1(A)$-[[principal ∞-bundle]] on $X$ is also called a **[[twisted cohomology|twist]]** -- or better: a **[[local coefficient ∞-bundle]]** -- for 
+$A$-[[generalized (Eilenberg-Steenrod) cohomology|cohomology]] on $X$. 
 
 =--
 
