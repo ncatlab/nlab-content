@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_MacPherson_%28mathematician%29)
+
+category: people
