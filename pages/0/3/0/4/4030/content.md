@@ -176,6 +176,10 @@ However, this doesn't mean that essential geometric morphisms are the "relative"
 
 ## Properties
 
+### Characterization over locally connected sites
+
+See at _[[locally connected site]]_.
+
 ### Equivalent conditions
 
 +-- {: .num_defn}
@@ -266,6 +270,7 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
 ## References
+ {#References}
 
 Section C1.5 and C3.3 of 
 
