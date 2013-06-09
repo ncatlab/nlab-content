@@ -52,11 +52,95 @@ $$
 
 =--
 
+## Properties
+ {#Properties}
+
+### Adjointness to $\infty$-group $\infty$-ring
+
++-- {: .num_defn #GroupOfUnitsFunctor} 
+###### Definition
+
+Write
+
+$$
+  gl_1 \; \colon \;  CRing_\infty \to AbGrp_\infty
+$$
+
+for the [[(∞,1)-functor]] which sends a [[E-∞ ring|commutative ∞-ring]] to its [[∞-group of units]]. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The [[∞-group of units]] [[(∞,1)-functor]] of def. \ref{GroupOfUnitsFunctor} is a  right-[[adjoint (∞,1)-functor]] (or at least a [[right adjoint]] on [[homotopy category of an (∞,1)-category|homotopy categories]])
+
+$$
+  CRing_\infty 
+  \stackrel{\overset{\mathbb{S}[-]}{\leftarrow}}{\underset{gl_1}{\to}}
+  AbGrp_\infty
+  \,.
+$$
+
+=--
+
+This is ([ABGHR 08, theorem 2.1](#ABGHR08)).
+
++-- {: .num_remark} 
+###### Remark
+
+The [[left adjoint]]
+
+$$
+  \mathbb{S}[-] \colon AbGrp_\infty \to CRing_\infty
+$$
+
+is a higher analog of forming the [[group ring]] of an ordinary [[abelian group]] over the [[integers]] 
+
+$$
+  \mathbb{Z}[-] \colon Ab \to CRing
+  \,,
+$$
+
+which is indeed [[right adjoint]] to forming the ordinary [[group of units]] of a ring.
+
+We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the [[sphere spectrum]].
+
+=--
+
+
 ## Related concepts
 
 * [[(∞,1)-vector bundle]]
+
+## References
+
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ {#ABGHR08}
+
 
 [[!redirects ∞-group of units]]
 
 [[!redirects ∞-groups of units]]
 [[!redirects infinity-groups of units]]
+
+[[!redirects ∞-group ∞-ring]]
+[[!redirects ∞-group ∞-rings]]
+
+[[!redirects ∞-group ring]]
+[[!redirects ∞-group rings]]
+
+[[!redirects group ∞-ring]]
+[[!redirects group ∞-rings]]
+
+[[!redirects infinity-group infinity-ring]]
+[[!redirects infinity-group infinity-rings]]
+
+[[!redirects infinity-group ring]]
+[[!redirects infinity-group rings]]
+
+[[!redirects group infinity-ring]]
+[[!redirects group infinity-rings]]
+
+
