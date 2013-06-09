@@ -18,7 +18,7 @@ Let $X$ be a [[set]]. A **bornology** on $X$ is a collection $\mathcal{B} \subse
 
 * $\mathcal{B}$ is closed under finite unions: if $B_1 \ldots, B_n \in \mathcal{B}$, then $\bigcup_{1 \leq \i \leq n} B_i \in \mathcal{B}$. 
 
-A **bornological set** is a set $X$ equipped with a bornology. The elements of $\mathcal{B}$ are called the **bounded sets** of a bornological set. 
+A **bornological set** is a set $X$ equipped with a bornology. The elements of $\mathcal{B}$ are called the **[[bounded sets]]** of a bornological set. 
 
 If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to be **bounded** if $f(B)$ is bounded in $Y$ for every bounded $B$ in $X$. One obtains a category of bornological sets and bounded maps. 
 
@@ -69,9 +69,6 @@ This was proved by [Schanuel](#Schanuel).
 [[!redirects bornological]]
 [[!redirects bornological set]]
 [[!redirects bornological sets]]
-
-[[!redirects bounded subspace]]
-[[!redirects bounded subspaces]]
 
 [[!redirects bounded space]]
 [[!redirects bounded spaces]]
