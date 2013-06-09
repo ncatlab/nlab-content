@@ -1,0 +1,33 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Where a [[homology theory]] is a [[covariant functor]] and a [[cohomology theory]] is a [[contravariant functor]] on some [[category]] of [[spaces]], a _bivariant cohomology theory_ is a [[bifunctor]], hence a functor of two variables, contravariant in the first, and covariant in the second.
+
+## Examples
+
+* [[KK-theory]]
+
+* [[bivariant algebraic K-theory]]
+
+## References
+
+A general introduction to bivariant cohomology theories is in 
+
+* [[William Fulton]], [[Robert MacPherson]], _Categorical framework for the study of singular spaces_, Memoirs of the AMS, 243, 1981
+
+A general construction of bivariant theories on [[smooth manifolds]] from [[cohomology theories]] by geometric cycles, generalizing the construction of [[K-homology]] by [[Baum-Douglas geometric cycles]], is in 
+
+* Martin Jakob, _Bivariant theories for smooth manifolds_, Applied Categorical Structures 10 no. 3 (2002)
+
+A similar construction for PL manifolds is in
+
+* S. Buoncristiano, C. P. Rourke and B. J. Sanderson, _A geometric approach to homology theory_, Cambridge Univ. Press, Cambridge, Mass. (1976)
+
+[[!redirects bivariant cohomology theories]]
+
+[[!redirects bivariant homology theory]]
+[[!redirects bivariant homology theories]]
