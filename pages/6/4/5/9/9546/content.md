@@ -69,6 +69,7 @@ $$
 
 * [[K-cohomology]]
 
+* [[Baum-Douglas geometric cycles]]
 
 ## References
 
