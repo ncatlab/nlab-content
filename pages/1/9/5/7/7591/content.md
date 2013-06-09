@@ -31,7 +31,13 @@ Let $A$ be an [[A-∞ algebra|A-∞]] [[ring spectrum]].
 
 For $\Omega^\infty A$ the underlying [[A-∞ space]] and $\pi_0 \Omega^\infty A$ the ordinary [[ring]] of connected components, write $(\pi_0 \Omega^\infty A)^\times$ for its [[group of units]]. 
 
-Then the [[∞-group of units]] of $A$ is the [[(∞,1)-pullback]] $GL_1(A)$ in
+Then the [[∞-group of units]] 
+
+$$
+  A^\times \coloneqq GL_1(A)
+$$
+
+of $A$ is the [[(∞,1)-pullback]] $GL_1(A)$ in
 
 $$
   \array{
