@@ -55,6 +55,8 @@ It is generally understood that models are approximations to reality. The prover
 
 * [[landscape of string theory vacua]]
 
+* [string theory FAQ -- Does string theory make predictions?](string+theory+FAQ#HowDoesStringTheoryMakePredictions)
+
 [[!redirects model (in particle phyiscs)]]
 
 [[!redirects model (in particle physics)]]
