@@ -50,6 +50,9 @@ Examples of [[model (in particle physics)|models]] in string phenomenology inclu
 
 * [string theory FAQ -- Is string theory testable?](string+theory+FAQ#IsStringTheoryTestable)
 
+* [string theory FAW - Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
+
+
 ## References
 
 ### Surveys
