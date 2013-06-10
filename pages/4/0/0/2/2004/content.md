@@ -32,7 +32,7 @@ Let $(T,\eta,\mu)$ be a [[monad]] in [[Cat]], where $T \colon C\to C$ is an endo
 
 $T$-modules and their morphisms thus form a [[category]] $C^T$ which is called the __Eilenberg--Moore category__ of the monad $T$.  This may also be written $Alg(T)$, $T\,Alg$, etc.  It comes equipped with a forgetful functor $U^T \colon C^T \to C$ which is the [[universal property|universal]] $T$-module, and has a [[left adjoint]] $F^T$ such that the monad $U^T F^T$ arising from the adjunction is equal to $T$.
 
-In general, if $t \colon a \to a$ is a monad in a [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to t$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
+In general, if $t \colon a \to a$ is a monad in a [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
 
 
 ## Properties
