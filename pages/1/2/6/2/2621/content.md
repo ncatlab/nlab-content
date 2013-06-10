@@ -57,6 +57,10 @@ As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \fr
 
 * [[non-perturbative quantum field theory]]
 
+* [[non-perturbative effect]]
+
+* [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string%20theory%20FAQ#NonConvergenceOfPerturbationSeries)
+
 ## References
 
 ### General
