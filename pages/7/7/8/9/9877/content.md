@@ -1,0 +1,4 @@
+
+* [webpage](http://sma.epfl.ch/~finster/)
+
+category: people
