@@ -47,10 +47,12 @@ See there for more details.
 
 * [[sigma model]], [[brane]]
 
-  * [[particle]], **superparticle**
+  * [[particle]], [[spinning particle]], [[fermion]], **superparticle**
 
   * [[string]]
 
   * [[membrane]]
+
+* [string theory FQA -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
 [[!redirects superparticles]]
