@@ -3,3 +3,4 @@
 For a [[formal power series]] the _convergence radius_ is the supremum of the numbers that can be plugged in such that the series converges.
 
 [[!redirects convergence radii]]
+[[!redirects radius of convergence]]
