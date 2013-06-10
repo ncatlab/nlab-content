@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[super Lie algebra]] extension of a [[Poincare Lie algebra]]. 
+The _super Poincar&#233; Lie algebra_ is a [[super Lie algebra]] extension of a [[Poincaré Lie algebra]]. 
 
 The corresponding [[super Lie group]] is the [[super Euclidean group]] (except for the signature of the metric).
 
