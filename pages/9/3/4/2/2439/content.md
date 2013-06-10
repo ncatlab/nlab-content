@@ -31,7 +31,7 @@ More specifically, an _associative superalgebra_ is an [[associative algebra]] i
 
 In the following we first discuss
 
-* _[Associatvive superalgebras](#AssociativeSuperalgebras)_
+* _[Associative superalgebras](#AssociativeSuperalgebras)_
 
 as [[monoids]] in the [[symmetric monoidal category]] of [[super vector spaces]]. Then we pass to the perspective of
 
