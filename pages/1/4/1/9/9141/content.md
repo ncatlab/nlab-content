@@ -29,6 +29,10 @@ Notably for [[Yang-Mills theory]] on a 4-dimensional [[spacetime]] and with a [[
 
 ## Related concepts
 
+* [[non-perturbative effect]], [[non-perturbative quantum field theory]], [[non-perturbative string theory]]
+
+* [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
+
 [[!include gauge field - table]]
 
 [[!redirects instanton sectors]]
