@@ -31,6 +31,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[quantum cosmology]], [[quantum gravity]]
 
+* [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
+
 ## References
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
