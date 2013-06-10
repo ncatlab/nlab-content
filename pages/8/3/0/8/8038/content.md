@@ -16,7 +16,7 @@
 
 ## Idea 
 
-The [[probability amplitude]] for a process of [[scattering]] of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the _[[S-matrix]]_. 
+The [[probability amplitude]] for a process of [[scattering]] of [[fundamental particles]] or [[fundamental strings]] off each other. The collection of scattering amplitudes forms the _[[S-matrix]]_. In [[perturbation theory]] this is computed by the [[Feynman diagram]] [[perturbation series]].
 
 ## Related concepts
 
@@ -31,6 +31,8 @@ The [[probability amplitude]] for a process of [[scattering]] of [[fundamental p
 * [[KLT relations]]
 
 * [[string theory results applied elsewhere]]
+
+* [[string scattering amplitude]]
 
 ## References
 
@@ -54,6 +56,8 @@ In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] 
 ### In string theory
 
 * Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_ ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
+
+For more see at _[[string scattering amplitude]]_.
 
 
 [[!redirects scattering amplitudes]]
