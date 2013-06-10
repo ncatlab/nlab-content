@@ -28,6 +28,7 @@ As a 1-dimensional [[sigma-model]], the _spinning_ relativistic particle is like
 ## Properties
 
 ### Worldline supersymmetry
+ {#WorldlineSupersymmetry}
 
 In the [[Polyakov action]]-formulation the [[action functional]] of the [[relativistic particle]] [[sigma model]] on the 1-dimensional [[worldline]] is actually 1-dimensional [[gravity]] coupled to "worldline matter fields", where the latter are the embedding fields $\phi : \mathbb{R} \to X$ into the [[target space]].
 
