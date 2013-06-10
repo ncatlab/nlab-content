@@ -27,7 +27,7 @@ $$
   ( F\dashv G\dashv H) : C \to D 
 $$
 
-is a triple of [[functor]]s $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
+is a [[triple]] of [[functors]] $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
 
 =--
 
