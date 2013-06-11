@@ -101,3 +101,7 @@ based on conjectures in
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological Mirror Symmetry and
 torus fibrations_ , ([math.SG/0011041](http://arxiv.org/abs/math/0011041))
 
+Discussion of aspects of effective field theories which might rule them out as having a UV-completion by a string theory vacuum has been initiated in 
+
+* [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
+
