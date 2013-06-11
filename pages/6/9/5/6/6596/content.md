@@ -40,9 +40,9 @@ $$
 div \vec\mathcal{A} = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n}\cdot \vec\mathcal{A} d S
 $$
 
-where $D$ runs over the domains with smooth boundary $\partial D$ containing point $x$ and $\vec{n}$ is the unit vector of outer normal to the surface $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a coordinate chart and balls with decreasing radius in this particular coordinate chart. 
+where $D$ runs over the [[open submanifold]]s containing point $x$ and with smooth boundary $\partial D$ and $\vec{n}$ is the unit vector of outer normal to the [[hypersurface]] $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a [[coordinate chart]] and [[balls]] with decreasing radius in this particular coordinate chart. 
 
-Although an [[orientation]] is required for the usual notion of Hodge star as given above, we may take it as valued in [[pseudoforms]] to show that the orientation (or even orientability) of $M$ is irrelevant (since the Hodge star is applied twice, returning us to untwisted forms). The metric is hidden in the volume form and in the "dot product". 
+Although an [[orientation]] is required for the usual notion of Hodge star as given above, we may take it as valued in [[pseudoforms]] to show that the orientation (or even orientability) of $M$ is irrelevant (since the Hodge star is applied twice, returning us to untwisted forms, and since a bounding hypersurface has a natural 'outwards' pseudoorientation). However, the metric, which is hidden in the volume form and in the "dot product", is relevant. 
 
 
 ## Example
@@ -75,27 +75,6 @@ The divergence was first developed in [[quaternion]] analysis, where its opposit
 
 * **divergence**
 
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
+
 [[!redirects divergence]]
 [[!redirects divergences]]
