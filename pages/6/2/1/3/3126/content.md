@@ -214,12 +214,12 @@ is equivalentl to the category of $A$-[[module spectra]].
 
 ## References
 
-The definition and study of the notion is tangent $(\infty,1)$-categories is from 
+The definition and study of the notion of _tangent $(\infty,1)$-categories_ is from 
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
  {#Lurie}
 
-and section 7.3 of 
+and section 8.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
