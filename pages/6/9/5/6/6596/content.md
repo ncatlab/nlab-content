@@ -34,10 +34,10 @@ $$
 
 and $d_{dR}$ is the [[de Rham differential]].
 
-Alternatively, the divergence of a vector field $\mathcal{A}$ in some point $x\in M$ is calculated (or alternatively defined) by the integral formula 
+Alternatively, the divergence of a vector field $\vec\mathcal{A}$ in some point $x\in M$ is calculated (or alternatively defined) by the integral formula 
 
 $$
-div \vec\mathcal{A} = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n}\cdot \vec\mathcal{A} d S
+div \vec\mathcal{A} = \lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n}\cdot \vec\mathcal{A} d S
 $$
 
 where $D$ runs over the [[open submanifold]]s containing point $x$ and with smooth boundary $\partial D$ and $\vec{n}$ is the unit vector of outer normal to the [[hypersurface]] $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a [[coordinate chart]] and [[balls]] with decreasing radius in this particular coordinate chart. 
