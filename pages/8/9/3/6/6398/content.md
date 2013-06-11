@@ -52,6 +52,8 @@ There are several different incarnations of the superstring.
 
 * [[string theory]], [[supersymmetry]]
 
+* [[string scattering amplitude]]
+
 ## References
 
 The relationship between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
