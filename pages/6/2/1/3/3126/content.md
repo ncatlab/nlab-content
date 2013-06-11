@@ -82,7 +82,8 @@ This is [[Deformation Theory|DT, def 1.1.12]].
 
 ## Properties
 
-### General
+### Presentability and limits
+ {#PresentabilityAndLimits}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -94,6 +95,22 @@ In particular, it admits all [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s.
 =--
 
 This is ([Lurie, prop. 1.1.13](#Lurie)).
+
+Moreover:
+
++-- {: .num_prop}
+###### Proposition
+
+A diagram in the tangent $(\infty,1)$-category $T_{\mathcal{C}}$ is an [[(∞,1)-limit|(∞,1)-(co-)limit]] precisely if
+
+1. it is a [[relative (infinity,1)-limit|relative (∞,1)-(co-)limit]] with respect to the projection $p \colon T_{\mathcal{C}} \to \mathcal{C}$;
+
+1. its image under this projection is an [[(∞,1)-limit|(∞,1)-(co-)limit]] in $\mathcal{C}$.
+
+=--
+
+([Lurie, HigherAlgebra, prop. 8.3.1.12](#LurieHigherAlgebra))
+
 
 
 ### Relation to modules
@@ -222,6 +239,7 @@ The definition and study of the notion of _tangent $(\infty,1)$-categories_ is f
 and section 8.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#LurieHigherAlgebra}
 
 [[!redirects tangent (infinity,1)-categories]]
 [[!redirects tangent (∞,1)-category]]
