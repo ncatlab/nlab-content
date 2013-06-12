@@ -1,19 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Gravity
-+--{: .hide}
++-- {: .hide}
 [[!include gravity contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-# The firewall problem
+# The black hole firewall problem
 * table of contents
 {: toc}
 
@@ -39,6 +39,7 @@ with a folowup in
 A systematic analysis of the (non-)phenomenon using actual computations in [[AdS-CFT duality]] is in 
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
+  {#PR}
 
 whose authors say in their introduction:
 
@@ -79,5 +80,7 @@ Other contributions to the issue include the following
 
 [[!redirects Firewall problem]]
 [[!redirects firewall problem]]
-[[!redirects black hole firewall]]
 [[!redirects the firewall problem]]
+[[!redirects black hole firewall]]
+[[!redirects black hole firewall problem]]
+[[!redirects the black hole firewall problem]]
