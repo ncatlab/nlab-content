@@ -1,4 +1,4 @@
-To see a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics))
+For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics%29) for now.
 
 
 ### Reading ###
