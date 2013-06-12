@@ -1,3 +1,6 @@
+To see a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics))
+
+
 ### Reading ###
 
 AMPS paper
