@@ -25,3 +25,4 @@ Others
  * Page, D. N. [Excluding Black Hole Firewalls with Extreme Cosmic Censorship](http://arxiv.org/abs/1306.0562) arXiv:1306.0562v1, 2013
  * Bousso, R. [Complementarity Is Not Enough](http://arxiv.org/abs/1306.0562) arXiv:1207.5192v2, 2012
  * Banks, T. & Fischler, W. [No Firewalls in Holographic Space-Time or Matrix Theory](http://arxiv.org/abs/1305.3923) arXiv:1305.3923v1, 2013
+ * Raamsdonk, M. V. [Building up spacetime with quantum entanglement](http://arxiv.org/abs/1005.3035) Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010, 2010
