@@ -1,19 +1,31 @@
+
+# The firewall problem
+* table of contents
+{: toc}
+
+## Idea
+
+In [AMPS 2012](#AMPS), it is proposed that infalling [[observer]]s encounter a firewall at (or just outside) the [[event horizon]] of a [[black hole]].  This is part of an attempted resolution of the [[black hole information paradox]].
+
 For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics%29) for now.
 
 
-### Reading ###
+## Reading
 
 AMPS paper
 
  * Almheiri, A.; Marolf, D.; Polchinski, J. & Sully, J. [Black Holes: Complementarity or Firewalls?](http://arxiv.org/abs/1207.3123) arXiv:1207.3123v4, 2012, 
+   {#AMPS}
 
 AMPS(S) paper
 
  * Almheiri, A.; Marolf, D.; Polchinski, J.; Stanford, D. & Sully, J. [An Apologia for Firewalls](http://arxiv.org/abs/1304.6483) arXiv:1304.6483v1, 2013
+   {#AMPSS}
 
 ER=EPR paper
 
  * Maldacena, J. & Susskind, L. [Cool horizons for entangled black holes](http://arxiv.org/abs/1306.0533) arXiv:1306.0533v1, 2013
+   {#EREPR}
 
 Others
 
@@ -26,3 +38,8 @@ Others
  * Bousso, R. [Complementarity Is Not Enough](http://arxiv.org/abs/1306.0562) arXiv:1207.5192v2, 2012
  * Banks, T. & Fischler, W. [No Firewalls in Holographic Space-Time or Matrix Theory](http://arxiv.org/abs/1305.3923) arXiv:1305.3923v1, 2013
  * Raamsdonk, M. V. [Building up spacetime with quantum entanglement](http://arxiv.org/abs/1005.3035) Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010, 2010
+
+
+[[!redirects Firewall problem]]
+[[!redirects firewall problem]]
+[[!redirects the firewall problem]]
