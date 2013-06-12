@@ -1,0 +1,6 @@
+
+* [webpage](http://staff.science.uva.nl/~erikv/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Erik_Verlinde)
+
+category: people
