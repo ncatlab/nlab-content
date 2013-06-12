@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -61,6 +61,18 @@ The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal
 
 The refinement of cobordism cohomology theory to [[differential cohomology]] is [[differential cobordism cohomology]].
 
+## Properties
+
+### Snaith's theorem
+
+[[Snaith's theorem]] asserts that the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
+
+$$
+  MU \simeq \mathbb{S}[B U][\beta^{-1}]
+  \,.
+$$
+
+
 ## References
 
 for further context see the discussion at
@@ -68,5 +80,9 @@ for further context see the discussion at
 * _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
 [[!redirects complex cobordism spectrum]]
+[[!redirects periodic complex cobordism spectrum]]
+
+
 [[!redirects complex cobordism cohomology theory]]
 [[!redirects complex cobordism]]
+
