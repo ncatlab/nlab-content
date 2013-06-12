@@ -1,0 +1,10 @@
+
+## Idea
+
+In [[general relativity]]: a [[timelike curve]] in [[spacetime]].
+
+## Relaed concepts
+
+* [[observable]]
+
+[[!redirects observers]]
