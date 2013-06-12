@@ -1,3 +1,4 @@
+[[!redirects firewall problem]]
 
 # The firewall problem
 * table of contents
@@ -5,39 +6,51 @@
 
 ## Idea
 
-In [AMPS 2012](#AMPS), it is proposed that infalling [[observer]]s encounter a firewall at (or just outside) the [[event horizon]] of a [[black hole]].  This is part of an attempted resolution of the [[black hole information paradox]].
+In [AMPS 2012](#AMPS), it is proposed that infalling [[observers]] encounter a "firewall" at (or just outside) the [[event horizon]] of a [[black hole]].  This is part of an attempted resolution of the [[black hole information paradox]].
 
 For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics%29) for now.
 
 
 ## Reading
 
-AMPS paper
+The original AMPS paper is
 
- * Almheiri, A.; Marolf, D.; Polchinski, J. & Sully, J. [Black Holes: Complementarity or Firewalls?](http://arxiv.org/abs/1207.3123) arXiv:1207.3123v4, 2012, 
+ * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], J. Sully, _Black Holes: Complementarity or Firewalls?_ 2012 ([arXiv:1207.3123](http://arxiv.org/abs/1207.3123))
    {#AMPS}
 
 AMPS(S) paper
 
- * Almheiri, A.; Marolf, D.; Polchinski, J.; Stanford, D. & Sully, J. [An Apologia for Firewalls](http://arxiv.org/abs/1304.6483) arXiv:1304.6483v1, 2013
+ * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], D. Stanford, J. Sully, _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
    {#AMPSS}
 
 ER=EPR paper
 
- * Maldacena, J. & Susskind, L. [Cool horizons for entangled black holes](http://arxiv.org/abs/1306.0533) arXiv:1306.0533v1, 2013
+ * [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_ 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533)) 
    {#EREPR}
+
+A systematic analysis of the phenomenon using [[AdS-CFT duality]] is in 
+
+* Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
 Others
 
- * Verlinde, E. & Verlinde, H. [Black Hole Information as Topological Qubits](http://arxiv.org/abs/1306.0516) arXiv:1306.0516v1, 2013 
- * Verlinde, E. & Verlinde, H. [Passing through the Firewall](http://arxiv.org/abs/1306.0515) arXiv:1306.0515v1, 2013
- * Susskind, L. [Black Hole Complementarity and the Harlow-Hayden Conjecture](http://arxiv.org/abs/1301.4505) arXiv:1301.4505v1, 2013
- * Harlow, D. & Hayden, P. [Quantum Computation vs. Firewalls](http://arxiv.org/abs/1301.4504) 2013
- * Shenker, S. H. & Stanford, D. [Black holes and the butterfly effect](http://arxiv.org/abs/1306.0622) arXiv:1306.0622v1, 2013
- * Page, D. N. [Excluding Black Hole Firewalls with Extreme Cosmic Censorship](http://arxiv.org/abs/1306.0562) arXiv:1306.0562v1, 2013
- * Bousso, R. [Complementarity Is Not Enough](http://arxiv.org/abs/1306.0562) arXiv:1207.5192v2, 2012
- * Banks, T. & Fischler, W. [No Firewalls in Holographic Space-Time or Matrix Theory](http://arxiv.org/abs/1305.3923) arXiv:1305.3923v1, 2013
- * Raamsdonk, M. V. [Building up spacetime with quantum entanglement](http://arxiv.org/abs/1005.3035) Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010, 2010
+* [[Erik Verlinde]],  [[Herman Verlinde]], _Black Hole Information as Topological Qubits_ 2013 ([arXiv:1306.0516](http://arxiv.org/abs/1306.0516)) 
+
+* [[Erik Verlinde]],  [[Herman Verlinde]], _Passing through the Firewall_ 2013 ([arXiv:1306.0515](http://arxiv.org/abs/1306.0515))
+
+* [[Leonard Susskind]], _Black Hole Complementarity and the Harlow-Hayden Conjecture_  2013 ([arXiv:1301.4505](http://arxiv.org/abs/1301.4505))
+
+* D. Harlow, P. Hayden, _Quantum Computation vs. Firewalls_ 2013 ([arXiv:1301.4504](http://arxiv.org/abs/1301.4504))
+
+* S. H. Shenker, D. Stanford, _Black holes and the butterfly effect_ 2013 ([arXiv:1306.0622](http://arxiv.org/abs/1306.0622))
+
+* D. N. Page, _Excluding Black Hole Firewalls with Extreme Cosmic Censorship_ 2013 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
+
+* R. Bousso,  Complementarity Is Not Enough_ 2012 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
+
+* [[Tom Banks]], W. Fischler, _No Firewalls in Holographic Space-Time or Matrix Theory_ 2013 ([arXiv:1305.3923](http://arxiv.org/abs/1305.3923))
+
+* M. V. Raamsdonk, _Building up spacetime with quantum entanglement_, Gen. Rel. Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](http://arxiv.org/abs/1005.3035))
 
 
 [[!redirects Firewall problem]]
