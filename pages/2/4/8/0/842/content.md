@@ -895,6 +895,10 @@ A formalization of some aspects of $(\infty,1)$-limits in terms of [[homotopy ty
 
 * [[Guillaume Brunerie]], _[HoTT/Coq/Limits](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Limits)_
 
+See also
+
+* [[Egbert Rijke]], _Homotopy Colimits and a Descent Theorem_, March 14, 2013 ([video](http://video.ias.edu/univalent-1213-0314-EgbertRijke))
+
 [[!redirects limit in a quasi-category]]
 
 [[!redirects limits in a quasi-category]]
