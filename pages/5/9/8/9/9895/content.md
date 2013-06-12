@@ -1,0 +1,10 @@
+
+## Related pages
+
+* [[black hole]]
+
+## References
+
+* Wikipedia, _[Wormhole](http://en.wikipedia.org/wiki/Wormhole)_
+
+[[!redirects wormholes]]
