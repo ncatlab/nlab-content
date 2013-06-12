@@ -1,1 +1,2 @@
+[[!redirects almost but not entirely empty]]
 category: empty
