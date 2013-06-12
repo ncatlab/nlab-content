@@ -138,7 +138,7 @@ for the maximal [[braided 3-group]] inside this on the invertible objects.
 +-- {: .num_prop}
 ###### Proposition
 
-The object $2\mathbf{sLine} \in SmoothSuper\infty Grpd$ is equivalent to that which to $\mathbb{R}^{p|q}$ assigns the 2-gorupoid with
+The object $2\mathbf{sLine} \in SmoothSuper\infty Grpd$ is equivalent to that which to $\mathbb{R}^{p|q}$ assigns the 2-groupoid whose
 
 * objects are the algebra $C^\infty(\mathbb{R}^p, \mathbb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ and that algebra tensored with $Cl_1(\mathbb{C})$;
 
