@@ -7,7 +7,7 @@
 
 ### In mathematics
 
-Consider a complex projective Calabi-Yau 3-manifold $X$ with volume form $vol_X$. R. Thomas considered in his 1997 thesis a holomorphic version of the [[Casson invariant]] which may be defined using the holomorphic [[Chern-Simons theory|Chern-Simons functional]]. 
+Consider a complex projective [[Calabi-Yau manifold|Calabi-Yau 3-manifold]] $X$ with volume form $vol_X$. R. Thomas considered in his 1997 thesis a holomorphic version of the [[Casson invariant]] which may be defined using the holomorphic [[Chern-Simons theory|Chern-Simons functional]]. 
 
 For a holomorphic connection $A = A_0 +\alpha$, the holomorphic Chern-Simons functional is given by 
 
@@ -27,19 +27,43 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 
 ## References
 
+### General
+
 * [[Simon Donaldson]], ...
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315); _Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry_, [arxiv/1303.3253](http://arxiv.org/abs/1303.3253)
+### Motivic Donaldson-Thomas invariants
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arxiv/1006.2706](http://arxiv.org/abs/1006.2706) 
+The original articles are
 
-* [[Dominic Joyce]], Yinan Song, _A theory of generalized Donaldson-Thomas invariants_, [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
+* [[Dominic Joyce]], Yinan Song, _A theory of generalized Donaldson-Thomas invariants_ ([arxiv/0810.5645](http://arxiv.org/abs/0810.5645))
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, ([arXiv:0811.2435](http://arxiv.org/abs/0811.2435)); 
+
+summarized in 
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, ([0910.4315](http://arxiv.org/abs/0910.4315)); 
+
+and with lecture notes in
+
+* [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants and wall-crossing formulas_,  [Chern-Simons Research Lectures](http://math.berkeley.edu/~reshetik/CSR-Lectures.html) 2010 ([pdf](http://math.berkeley.edu/~reshetik/CSRL/Yan-Berkeley-2010-2.pdf))
+
+See also
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_ ([arxiv/1006.2706](http://arxiv.org/abs/1006.2706))
+
+
+### Relation to wall crossing
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry_, ([arxiv/1303.3253](http://arxiv.org/abs/1303.3253))
+
 
 * S. Cecotti, [[Cumrun Vafa|C. Vafa]], _[[BPS state|BPS]] wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
-* Davide Gaiotto, [[Greg Moore|Gregory W. Moore]], Andrew Neitzke, _[[wall crossing|Wall-crossing]], [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
+* [[Davide Gaiotto]], [[Greg Moore|Gregory W. Moore]], [[Andrew Neitzke]], _[[wall crossing|Wall-crossing]], [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
 
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
 [[!redirects Donaldson-Thomas invariants]]
+
+[[!redirects motivic Donaldson-Thomas invariant]]
