@@ -79,4 +79,5 @@ Other contributions to the issue include the following
 
 [[!redirects Firewall problem]]
 [[!redirects firewall problem]]
+[[!redirects black hole firewall]]
 [[!redirects the firewall problem]]
