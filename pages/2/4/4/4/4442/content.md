@@ -205,7 +205,7 @@ See also
 
 #### To gravity
 
-Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT is in
+Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT (the "[[firewall problem]]") is in
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
