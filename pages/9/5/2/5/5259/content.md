@@ -42,3 +42,5 @@ Earlier articles on this include
 A claim that the spectral action for something like a [[2-spectral triple]] does reproduce the effective background action of [[string theory]] is in 
 
 * [[Ali Chamseddine]], _An Effective Superstring Spectral Action_ ([arXiv](http://arxiv.org/abs/hep-th/9705153))
+
+[[!redirects spectral action principle]]
