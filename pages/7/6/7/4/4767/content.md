@@ -18,7 +18,7 @@ The Lie groups $\mathbb{R}$ and $\mathbb{R}^+$ are in fact [[isomorphic]].  In f
 
 The real logarithms are handily defined using the [[Riemann integral]] as follows:
 \[ \label{integrals} \array {
-   \ln x & \coloneqq \int_1^x \frac{1}{t} ;\\
+   \ln x & \coloneqq \int_1^x \frac{1}{t} \,\mathrm{d}t ;\\
    \log_b x & \coloneqq \frac{\ln x}{\ln b} .\\
 } \]
 Note that $\ln$ is itself a logarithm, the __natural logarithm__, whose base is $\mathrm{e} = 2.71828182845\ldots$.  (The exponential map may similarly be defined as an infinite series, but I\'ll leave that for its own article.)
@@ -50,10 +50,10 @@ If $1 \in R$, then a complex natural logarithm on $R$ may be defined using the [
 
 The natural exponential map is [[periodic function|periodic]] (with period $2 \pi \mathrm{i}$), and it is possible to add any multiple of this period to the natural logarithm of any $x \ne 1$ by suitably changing the region $R$.  We then obtain the most general notion of maximally-defined complex logarithm with any base by using the formulas
 $$ \array {
-   \ln x & \coloneqq \ln a + \int_a^x \frac{1}{t} ,\\
-   \log_{[w]} x & \coloneqq \frac{\ln x}{w} ;\\
+   \ln x & \coloneqq C + \int_{\mathrm{e}^C}^x \frac{1}{t} \,\mathrm{d}t,\\
+   \log_{[w]} x & \coloneqq \frac{\ln x}{w} .\\
 } \]
-where for $\ln a$ we use any solution to $e^{\ln a} = a$.
+
 
 ### Logarithms and Lie groups
 
