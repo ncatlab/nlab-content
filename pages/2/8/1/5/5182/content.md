@@ -21,7 +21,9 @@
 
 ## Idea
 
-A [[model category]] structure on a category of [[spectra]] presents a [[stable (∞,1)-category]] of [[spectrum object]]s.
+A [[model category]] structure on a category of [[spectra]] presents a [[stable (∞,1)-category]] of [[spectrum objects]].
+
+Many such model structures model spectrum objects as _[[symmetric spectra]]_. See there for more details.
 
 ## Related concepts
 
