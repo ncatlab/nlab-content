@@ -25,3 +25,5 @@
 ## References
 
 * Wikipedia, _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
+
+See also the references at _[[cosmic inflation]]_.
