@@ -5,7 +5,7 @@
 
 ## Idea
 
-For a given [[manifold]] $X$ a _Baum-Douglas geoemtric cycle_ on $X$ is data consisting of a [[submanifold]] $Q \hookrightarrow X$ vcarrying a [[vector bundle]] $E\to X$ such that this represents a class in [[K-homology]] under a suitable [[equivalence relation]].
+For a given [[manifold]] $X$ a _Baum-Douglas geometric cycle_ on $X$ is data consisting of a [[submanifold]] $Q \hookrightarrow X$ vcarrying a [[vector bundle]] $E\to X$ such that this represents a class in [[K-homology]] under a suitable [[equivalence relation]].
 
 Viewed as a [[correspondence]] of the form
 
@@ -14,6 +14,10 @@ $$
 $$
 
 a Baum-Douglas geometric cycle is a special case of the spans that represent classes in [[KK-theory]] (between manifolds) according to ([Connes-Skandalis 84, section 3](#ConnesSkandalis84)).
+
+## Related concepts
+
+* [[motivic function]]
 
 ## References
 
