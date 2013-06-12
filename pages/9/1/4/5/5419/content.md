@@ -26,5 +26,9 @@ Snaith's self-description of research is as follows:
 
 > Similarly algebraic K-theory, as developed by Quillen in 1973, is a powerful topological mathematical gadget for studying algebraic geometry which in turn is used in many of the recent advances in number theory such as Wiles's proof of Fermat's Last Theorem. Incidentally the application of algebraic geometry to number theory is called arithmetic-algebraic geometry. 
 
+## Related pages
+
+* [[Snaith's theorem]]
+
 [[!redirects V. P. Snaith]]
 [[!redirects Snaith]]
