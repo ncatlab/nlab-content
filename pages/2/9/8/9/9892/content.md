@@ -1,0 +1,80 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+# The firewall problem
+* table of contents
+{: toc}
+
+## Idea
+
+In [AMPS 2012](#AMPS), it is proposed that infalling [[observers]] encounter a "firewall" at (or just outside) the [[event horizon]] of a [[black hole]].  This is part of an attempted resolution of the [[black hole information paradox]].
+
+For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics%29) for now.
+
+
+## Reading
+
+The suggestion that there is a black hole "firewall" phenomenon originates in 
+
+ * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], J. Sully, _Black Holes: Complementarity or Firewalls?_ 2012 ([arXiv:1207.3123](http://arxiv.org/abs/1207.3123))
+   {#AMPS}
+
+with a folowup in
+
+ * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], D. Stanford, J. Sully, _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
+   {#AMPSS}
+
+A systematic analysis of the (non-)phenomenon using actual computations in [[AdS-CFT duality]] is in 
+
+* Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
+
+whose authors say in their introduction:
+
+> These $[$BH firewall$]$ proposals originate not from direct calculations in [[quantum gravity]], $[$...$]$ While [[quantum gravity]] is a mysterious subject, the [[AdS-CFT correspondence]] provides us with a setting where we can examine these ideas within a perfectly well defined [[theory (physics)|theory]].
+
+A useful comment on that article is in 
+
+* [[Ted Jacobson]], _Boundary unitarity without firewalls_ ([arXiv:1212.6944](http://arxiv.org/abs/1212.6944))
+
+In the course of this debate, the following article proposed that there is a close relaiton between [[wormholes]] (Einstein-Rosen bridges) and [[quantum entanglement]] (Einstein-Podolsky-Rosen phenomenon), now known as "ER = EPR"
+
+ * [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_ 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533)) 
+   {#EREPR}
+
+
+Other contributions to the issue include the following
+
+* [[Erik Verlinde]],  [[Herman Verlinde]], _Black Hole Information as Topological Qubits_ 2013 ([arXiv:1306.0516](http://arxiv.org/abs/1306.0516)) 
+
+* [[Erik Verlinde]],  [[Herman Verlinde]], _Passing through the Firewall_ 2013 ([arXiv:1306.0515](http://arxiv.org/abs/1306.0515))
+
+* [[Leonard Susskind]], _Black Hole Complementarity and the Harlow-Hayden Conjecture_  2013 ([arXiv:1301.4505](http://arxiv.org/abs/1301.4505))
+
+* D. Harlow, P. Hayden, _Quantum Computation vs. Firewalls_ 2013 ([arXiv:1301.4504](http://arxiv.org/abs/1301.4504))
+
+* S. H. Shenker, D. Stanford, _Black holes and the butterfly effect_ 2013 ([arXiv:1306.0622](http://arxiv.org/abs/1306.0622))
+
+* D. N. Page, _Excluding Black Hole Firewalls with Extreme Cosmic Censorship_ 2013 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
+
+* R. Bousso, _Complementarity Is Not Enough_ 2012 ([arXiv:1306.0562](http://arxiv.org/abs/1306.0562))
+
+* [[Tom Banks]], W. Fischler, _No Firewalls in Holographic Space-Time or Matrix Theory_ 2013 ([arXiv:1305.3923](http://arxiv.org/abs/1305.3923))
+
+* M. V. Raamsdonk, _Building up spacetime with quantum entanglement_, Gen. Rel. Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](http://arxiv.org/abs/1005.3035))
+
+
+[[!redirects Firewall problem]]
+[[!redirects firewall problem]]
+[[!redirects the firewall problem]]
