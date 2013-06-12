@@ -9,9 +9,9 @@ Where a [[homology theory]] is a [[covariant functor]] and a [[cohomology theory
 
 ## Examples
 
-* [[KK-theory]]
+* In [[noncommutative topology]]: [[KK-theory]].
 
-* [[bivariant algebraic K-theory]]
+* In [[noncommutative algebraic geometry]]: [[bivariant algebraic K-theory]], [[noncommutative motives]].
 
 ## References
 
