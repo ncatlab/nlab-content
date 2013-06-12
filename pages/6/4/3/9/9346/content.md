@@ -95,13 +95,13 @@ A good example to think of, in particular in comparison to string theory, is the
 
 Today there is a [[standard model of cosmology]] which is a [[model (physics)|model]] built in the [[theory (physics)|theory]] of [[general relativity]], that has been experimentally tested to high accuracy (see also at _[cosmic inflation - Experimental evidence](cosmic+inflation#ReferencesExperimentalEvidence)_).
 
-This model cannot be predicted by the theory of Einstein-gravity. It is one of many possible solutions. It is in turn based on the class of models known as [[FRW models]], which enforces strong constraints on the the parameters of models in general relativity. In fact in its plain vanilla version, the FRW model describes the whole universe by just three numbers, the [[density]] and pressure of homogenous [[matter]] filling the universe, and the value of the [[cosmological constant]]. This model with this choice of constrained parameters is entirely a man-made assumption, not predicted in any way from theory. But the point is that once this model has been postulated, then one can use the theory to see what it predicts about the _remaining_ parameters, such as here the fluctuations of the [[cosmic microwave background radiation]] in a universe described by this model.
+This model cannot be predicted by the theory of Einstein-gravity. It is one of many possible solutions. It is in turn based on the class of models known as [[FRW models]], which enforces strong constraints on the parameters of models in general relativity. In fact in its plain vanilla version, the FRW model describes the whole universe by just three numbers, the [[density]] and pressure of homogenous [[matter]] filling the universe, and the value of the [[cosmological constant]]. This model with this choice of constrained parameters is entirely a man-made assumption, not predicted in any way from theory. But the point is that once this model has been postulated, then one can use the theory to see what it predicts about the _remaining_ parameters, such as here the fluctuations of the [[cosmic microwave background radiation]] in a universe described by this model.
 
 This is the general pattern of **how predictions are made in physical theories**:
 
 1. posit a [[theory (physics)|theory]];
 
-1. fix (specify) some of the parameters of the theory -- "build a [[model (physics)|model]]"
+1. specify some of the parameters of the theory -- "build a [[model (physics)|model]]"
 
 1. check what the theory demands for the remaining parameters -- these are the _predictions_ of that model in that theory;
 
