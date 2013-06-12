@@ -57,9 +57,15 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ## Related concepts
 
-* [[black brane]], [[black holes in string theory]]
-
 * [[Kerr spacetime]]
+
+* [[Bekenstein-Hawking entropy]]
+
+* [[generalized second law of thermodynamics]]
+
+* [[black hole information paradox]]
+
+* [[black brane]], [[black holes in string theory]]
 
 * [[firewall problem]]
 
