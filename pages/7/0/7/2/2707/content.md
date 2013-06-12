@@ -146,6 +146,10 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 
 * [[Hodge theory]]
 
+* [[motivic function]]
+
+* [[motivic Donaldson-Thomas invariant]]
+
 * See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
 
 
