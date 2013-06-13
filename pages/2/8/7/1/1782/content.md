@@ -89,6 +89,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 ## Related concepts
 
+* [[non-connective algebraic K-theory]]
+
 * [[K-theory of a permutative category]]
 
 * [[K-theory of a bipermutative category]]
