@@ -26,7 +26,12 @@ A _topological group_ is a [[topological space]] with a continuous [[group]] str
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 A **topological group** is an [[internalization|internal]] [[group object]] in the category of [[topological space|topological spaces]].
+
+=--
 
 More explicitly, it is a group equipped with a topology such that the multiplication and inversion maps are continuous.
 
@@ -68,21 +73,38 @@ in other words such that $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is
 
 ### Unitary representation on Hilbert spaces
 
-**Definition.** A unitary [[representation]] $R$ of a topological group $G$ in a [[Hilbert space]] $\mathcal{H}$ is a continuous [[homomorphism]]
++-- {: .num_defn}
+###### Definition
+
+A unitary [[representation]] $R$ of a topological group $G$ in a [[Hilbert space]] $\mathcal{H}$ is a continuous [[group homomorphism]]
 
 $$
-   R: G \to \mathcal{U}(\mathcal{H})
+   R \colon G \to \mathcal{U}(\mathcal{H})
 $$
 
 where $\mathcal{U}(\mathcal{H})$ is the group of [[unitary operator]]s on $\mathcal{H}$ with respect to the [[strong topology]].
 
-Note that $\mathcal{U}(\mathcal{H})$ is a complete, metrizable topological group in the [[strong topology]], see ([Schottenloher, prop. 3.11](#Schottenloher)).
+=--
 
-In physics, when a classical system is symmetric, i.e. invariant in a proper sense, with respect to the action of a topological group $G$, then an unitary representation of $G$ is often called a **quantization** of $G$.
++-- {: .num_remark}
+###### Remark
+
+Here $\mathcal{U}(\mathcal{H})$ is a complete, metrizable topological group in the [[strong topology]], see ([Schottenloher, prop. 3.11](#Schottenloher)).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+In [[physics]], when a [[classical mechanical system]] is symmetric, i.e. invariant in a proper sense, with respect to the action of a topological group $G$, then an unitary representation of $G$ is sometimes called a **quantization** of $G$. See at _[[geometric quantization]]_ and _[[orbit method]]_ for more on this.
+
+=--
+
 
 #### Why the strong topology is used
 
-The reason that in the definition of a [[unitary representation]], the [[strong operator topology]] on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphism]]s turn out to be [[continuous map|continuous]] in the norm topology.
+The reason that in the definition of a [[unitary representation]], the [[strong operator topology]] on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphisms]] turn out to be [[continuous map|continuous]] in the norm topology.
 
 Example: let $G$ be a [[compact topological space|compact]] [[Lie group]] and $L^2(G)$ be the [[Hilbert space]] of square integrable [[measurable function]]s with respect to its [[Haar measure]]. The right [[regular representation]] of $G$ on $L^2(G)$ is defined as
 
@@ -99,6 +121,18 @@ and this will generally not be continuous in the norm topology, but is always co
 ### Which topological groups admit Lie group structure?
 
 * _[[Hilbert's fifth problem]]_
+
+### Protomodularity
+ {#Protomodularity}
+
++-- {: .num_prop}
+###### Proposition
+
+The [[category]] [[TopGrp]] of topological groups and [[continuous function|continuous]] [[group homomorphisms]] between them is a [[protomodular category]].
+
+=--
+
+A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/questions/133110/why-is-topgrp-the-category-of-topological-groups-and-continous-homomorphisms-prot/133601#133601).
 
 
 ## Related concepts
