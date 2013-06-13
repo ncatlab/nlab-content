@@ -187,7 +187,9 @@ In [Cos06](http://arxiv.org/abs/math/0605647) is constructed from the geometric 
      \,.
    $$
 
-So this construxts a 2d TCFT and shows that its effective background [[string theory]] is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the differential forms on moduli space considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in [Wit1995](http://arxiv.org/abs/hep-th/9207094) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
+So this construxts a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in [Wit1995](http://arxiv.org/abs/hep-th/9207094) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
+
+Similarly the effective background QFT of the [[B-model]] topological string can be identified. This is known as _[[Kodeira-Spencer gravity]]_ or as _[[BCOV theory]]_.
 
 So via the detour over the effective background field theory, this sort of shows that the physicist's A-model and B-model are indeed captured by the abstract [[FQFT]] definition of TCFT as given above.
 
@@ -227,13 +229,26 @@ Here are notes from a seminar on these definitions and results:
 
 * [[Peter Teichner]] and [[Kevin Costello]] _TCFT seminar_ ([pdf notes](http://math.berkeley.edu/~cpries/Hot-Topics-07.pdf))
 
-Discussion of the construction of TCFTs from differential forms on moduli space and the way this induces effective background Chern-Simons theories is in
+Discussion of the construction of TCFTs from differential forms on moduli space and the way this induces by "[[second quantization]]" effective background Chern-Simons theories is in
 
-* [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv](http://arxiv.org/abs/math/0605647))
+* [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv:math/0605647](http://arxiv.org/abs/math/0605647))
+ {#Costello06}
 
 formalizing at least aspects of the observations in
 
-* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv](http://arxiv.org/abs/hep-th/9207094))
+* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
+ {#Witten92}
+
+Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]] is in 
+
+* M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140))
+ {#BCOV93}
+
+* [[Kevin Costello]], Si Li, _Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model_ ([arXiv:1201.4501](http://arxiv.org/abs/1201.4501))
+
+* Si Li, _BCOV theory on the elliptic curve and higher genus mirror symmetry_ ([arXiv:1112.4063](http://arxiv.org/abs/1112.4063))
+
+* Si Li, _Variation of Hodge structures, Frobenius manifolds and Gauge theory_ ([arXiv:1303.2782](http://arxiv.org/abs/1303.2782))
 
 
 [[!redirects topological conformal field theory]]
