@@ -117,9 +117,12 @@ See for instance ([Blau, around p. 35](#Blau))
 
 * [[observable]]
 
-* [[Hamiltonian operator]]
+* [[Jordan algebra]], [[Bohr topos]]
 
 * [[effect algebra]]
+
+* [[Hamiltonian operator]]
+
 
 ## References
 
