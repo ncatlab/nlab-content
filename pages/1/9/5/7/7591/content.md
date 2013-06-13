@@ -111,6 +111,7 @@ We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the 
 ## Examples
 
 ### Snaith's theorem
+ {#SnatihTheorem}
 
 [[Snaith's theorem]] asserts that 
 
@@ -127,6 +128,24 @@ We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the 
      MU \simeq (\mathbb{S}[B U])[\beta^{-1}]
      \,.
    $$
+
+### Inclusion of circle $n$-bundles into higher chromatic cohomology
+
+By [Snaith's theorem](#SnatihTheorem) above there is a canonical map
+
+$$
+  B U(1) \to \mathbb{S}[B U(1)] \to  KU
+$$
+
+that sends [[circle bundles]] to cocycles in [[topological K-theory]]. 
+
+At the next level there is a canonical map
+
+$$
+  B^2 U(1) \to \mathbb{S}[B^2 U(1)] \to tmf
+$$
+
+that sends [[circle 2-bundles]] to [[tmf]]. See at _[tmf -- Inclusion of circle 2-bundles](tmf#InclusionOfCircle2Bundles)_.
 
 ## Related concepts
 
