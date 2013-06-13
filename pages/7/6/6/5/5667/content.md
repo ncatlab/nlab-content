@@ -23,8 +23,14 @@
 +--{: .hide}
 [[!include noncommutative geometry - contents]]
 =--
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
 =--
 =--
+=--
+
+
 
 
 
