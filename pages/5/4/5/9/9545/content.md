@@ -42,6 +42,7 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
 
   * [[homotopical structure on C*-algebras]]
 
-  * [[KK-theory]], [[E-theory]]
+
+[[!include noncommutative motives - table]]
 
 [[!redirects non-commutative topology]]
