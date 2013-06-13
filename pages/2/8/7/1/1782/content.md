@@ -97,11 +97,9 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 * [[bivariant algebraic K-theory]]
 
-* [[operator K-theory]]
 
-  * [[KK-theory]]
+[[!include noncommutative motives - table]]
 
-  * [[E-theory]]
 
 ## References 
 
