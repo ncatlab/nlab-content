@@ -29,6 +29,8 @@ The [[homotopy category]] of $Top$ with respect to [[weak homotopy equivalences]
 
 * [[convenient category of topological spaces]]
 
+* [[TopGrp]]
+
 ## References
 
 An axiomatic desciption of $Top$ building along the lines of [[ETCS]] for [[Set]] is discussed in
