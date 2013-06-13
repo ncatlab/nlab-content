@@ -148,7 +148,7 @@ Continuing this way to the left, we obtain a long sequence of morphisms to the l
 $$
   \cdots
   \to
-  \Omega \Omega B
+  \Omega ker(f)
   \to
   \Omega A \stackrel{\bar \Omega f}{\to}
   \Omega B \to ker(f) \to A \stackrel{f}{\to} B
