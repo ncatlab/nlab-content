@@ -498,6 +498,9 @@ $$
 
 * [[assembly map]], [[Baum-Connes conjecture]]
 
+[[!include noncommutative motives - table]]
+
+
 ## References
 
 ### General
