@@ -25,3 +25,4 @@ In [[physics]] the [[electromagnetic field]] may be split, over a choice of [[co
 * [[magnetic charge]]
 
 
+[[!redirects magnetic fields]]
