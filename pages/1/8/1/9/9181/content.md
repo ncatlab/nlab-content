@@ -1,9 +1,8 @@
 
 [[field (physics)]]
 
-## Standard model
 
-[[standard model of particle physics]]
+**[[standard model of particle physics]]**
 
 **[[force]] [[field (physics)]] [[gauge field|gauge]] [[bosons]]**
 
@@ -15,7 +14,11 @@
 
 * [[graviton]] - [[field (physics)|field]] of [[gravity]]
 
-**[[matter]] [[field (physics)|field]] [[fermions]]**
+**scalar bosons**
+
+* [[Higgs boson]], [[inflaton]] ([[scalar field]])
+
+**[[matter]] [[field (physics)|field]] [[fermions]]** ([[spinors]])
 
 * [[electron]]
 
@@ -23,13 +26,23 @@
 
 * [[neutrino]]
 
-## Supersymmetric standard model
 
-[[MSSM|minimally extended supersymmetric standard model]]
+**[[MSSM|minimally extended supersymmetric standard model]]**
 
 **[[superpartner]] [[gauge field]] [[fermions]]**
+
+[[fermions]]:
 
 * [[gravitino]] - [[field (physics)|field]] of [[supergravity]]
 
 * [[gaugino]] - [[super Yang-Mills theory|super Yang-Mills field]]
 
+[[bosons]]:
+
+* [[gluino]]
+
+**Exotica**
+
+* [[axion]], [[dilaton]]
+
+* [[monopole]]
