@@ -1,0 +1,8 @@
+
+* [webpage](http://wwwth.mpp.mpg.de/members/blumenha/)
+
+## related $n$Lab entries
+
+* [[string phenomenology]]
+
+category: people
