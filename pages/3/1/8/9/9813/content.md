@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Motivic cohomology
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include motivic cohomology - contents]]
 =--
 =--
 =--
