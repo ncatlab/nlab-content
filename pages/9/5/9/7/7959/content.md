@@ -36,7 +36,7 @@ A central technical issue with string [[model (in particle physics)|model buildi
 
 While all this remains poorly understood, a noteworthy difference of string phenomenology to [[model (in particle physics)|model building]] in bare [[QFT]] is that a) there is a larger framework at all in which to search for models and b) with every model automatically comes a [[UV-completion]], which is the basic motivation for embedding the standard model of particle physics in a broader theory of [[quantum gravity]] in the first place. 
 
- 
+A good account of what it means to have a realistic string theory model and what the subtleties are, and in which sense they have already been found abundantly or not at all, is in the introduction of ([Dolan-Krippendorf-Quevedo](#DolanKrippendorfQuevedo11)).
 
 ## Semi-realistic models in string theory
  {#SemiRealisticModels}
@@ -168,9 +168,12 @@ Reviews of intersecting brane models sin type II include
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
-* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Toward Realistic Intersecting D-Brane Models_, Ann.Rev.Nucl.Part.Sci.55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
+* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann.Rev.Nucl.Part.Sci.55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
 
 * [[Angel Uranga]], _The standard model from D-branes in string theory_, talk at Padova, January 2008 ([pdf](http://active.pd.infn.it/g4/seminars/2008/files/uranga.pdf))
+
+* Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
+ {#DolanKrippendorfQuevedo11}
 
 * Anshuman Maharana, Eran Palti, _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
