@@ -38,7 +38,7 @@ There are several different incarnations of the superstring.
 
 ## Related concepts
 
-* [[sigma-model]], [[brane]]
+* [[sigma-model]], [[supersymmetric sigma-model]], [[brane]]
 
   * [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
