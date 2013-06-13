@@ -53,6 +53,8 @@
 
 ## Related concepts
 
+* [[supersymmetric sigma-model]]
+
 * [[AdS/CFT correspondence]]
 
 
