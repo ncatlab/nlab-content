@@ -19,11 +19,15 @@
 
 ## Related concepts
 
-* [[cosmology]]
+* [[cosmology]], [[standard model of cosmology]]
 
+* [[dark radiation]]
 
 ## References
 
 * Wikipedia, _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
 
 See also the references at _[[cosmic inflation]]_.
+
+[[!redirects cosmic microwave background]]
+[[!redirects CMB]]
