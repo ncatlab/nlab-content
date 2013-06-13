@@ -30,7 +30,11 @@ There are mainly two astronomical observations that suggest the existence of dar
 Any further details about the nature of this hypothetical dark matter remains elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
 
 
-## References
+## Related concepts
+
+* [[dark energy]], [[dark radiation]]
+
+* [[standard model of cosmology]]
 
 * [[MOND]]
 
