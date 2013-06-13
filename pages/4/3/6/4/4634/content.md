@@ -119,6 +119,8 @@ The relation between ordinary [[Chow motives]] and noncommutative Chow motives i
 
 * [[motivic cohomology]]
 
+[[!include noncommutative motives - table]]
+
 
 ## References
  {#References}
