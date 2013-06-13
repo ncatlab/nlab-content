@@ -1,4 +1,11 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Pascual_Jordan)
+Pascual Jordan was one of the founders of [[quantum mechanics]]. For instance [[Jordan algebras]] of [[quantum observables]] are named after him.
+
+A brief biography of his scientific life is in the appendix of 
+
+* Ivan Todorov, _"Quantization is a mystery"_,  Bulg. J. Phys. 39 (2012) 107-149 ([arXiv:1206.3116](http://arxiv.org/abs/1206.3116))
+
+See also his [Wikipedia entry](http://en.wikipedia.org/wiki/Pascual_Jordan)
+
 
 category: people
