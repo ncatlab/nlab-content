@@ -61,6 +61,11 @@ But a proposal for a precise conceptual identification of the dilaton as a struc
 
 The [[gradient flow]] of the [[action functional]] for [[dilaton gravity]] is essentially [[Ricci flow]].
 
+## Related concepts
+
+[[!include fields and quanta - table]]
+
+
 ## References
 
 The derivation of dilaton gravity as part of the [[effective QFT]] of [[string theory]] is discussed for instance aroung page 911 of
