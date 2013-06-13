@@ -107,3 +107,12 @@ Technical surveys on cosmological string phenomenology include
 * String Phenomenology 2012 ([home page](http://www.newton.ac.uk/programmes/BSM/bsmw05.html), [talks](http://www.newton.ac.uk/programmes/BSM/bsmw05p.html))
 
 * String Phenomenology 2013 ([home page](http://stringpheno2013.desy.de/))
+
+### Axion phenomenology
+
+On stringy [[axion]] [[phenomenology]]:
+
+* Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
+
+  > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
+
