@@ -30,17 +30,8 @@ In terms of [[Chern-Weil theory]]/[[differential cohomology]] we have that
 
 ## Related concepts
 
-* [[boson]]
+[[!include fields and quanta - table]]
 
-  * [[gauge boson]]
-
-    * [[photon]], [[gluon]], [[graviton]]
-
-* [[fermion]] 
-
-  * [[electron]], [[quark]],
-
-  * [[gravitino]], **gaugino** , [[dilatino]]
 
 ## References
 
