@@ -75,10 +75,25 @@ Under the induced [[composition]] operation this yields an [[additive category]]
 
 ## Properties
 
+### Universal characterization
+
+E-theory is the [[universal construction|universal]] 
+localization [[C*Alg]] $\to E$ which is homotopy-invariant, stable and preserves [[exact sequences]] in the middle.
+
+(...)
+
 ### Relation to KK-theory
  {#RelationToKKTheory}
 
-There is a universal [[functor]] $KK \to E$ from the [[KK-theory]] [[homotopy category]] to that of $E$-theory. Restricted to [[nuclear C*-algebras]] this is a [[full and faithful functor]]. ([Higson 90](#Higson90)) (...)
+Because KK-theory is the universal _split exact_ (stable and homotopy-invariant) localization of [[C*Alg]], and E-theory the universal half-exact localization, and since every [[split exact sequence]] is in particular exact, there is a universal [[functor]] 
+
+$$
+  KK \to E
+$$ 
+
+from the [[KK-theory]] [[homotopy category]] to that of $E$-theory. 
+
+Restricted to [[nuclear C*-algebras]] this is a [[full and faithful functor]]. ([Higson 90](#Higson90)) (...)
 
 If in the definition of E-theory by [[asymptotic C*-homomorphisms]] one restricts to those which take values in contractive [[completely positive maps]], then the results is isomorphic to KK-theory again. (K. Thomsen, [Introduction, p. 34](#Introduction)). The above universal functor $KK \to E$ is then just the corresponding [[forgetful functor]].
 
@@ -87,9 +102,9 @@ It follows that the Kasparov product in [[KK-theory]] is equivalently given by t
 
 ## Related concepts
 
-* [[operator K-theory]]
 
-  * [[KK-theory]]
+[[!include noncommutative motives - table]]
+
 
 ## References
 
@@ -121,8 +136,10 @@ See also
 * web page of a project [Noncommutative topology - homotopy functors and E-theory ](http://www.math.ku.dk/~jg/papers/etheory.html)
 
 
-* Snigdahayan Mahanta, _Higher nonunital Qullen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+* [[Snigdahayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_  [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
  {#Mahanta}
+
+* [pdf](http://faculty.tcu.edu/epark/papers/ETheory_JFA.pdf)
 
 ### Relation to shape theory
 
