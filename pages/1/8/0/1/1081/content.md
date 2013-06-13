@@ -145,6 +145,8 @@ For more see [[generalized homology]].
 
 * [[factorization homology]]
 
+* [[Kan-Thurston Theorem]]
+
 ## Related concepts
 
 The relation between homology, cohomology and homotopy:
