@@ -9,8 +9,14 @@
 =--
 =--
 
+## Examples
 
-* [[particle]]
+[[!include fields and quanta - table]]
+
+
+## Related concepts
+
+* [[particle]], [[string]], [[brane]]
 
 * [[unitary representation of the Poincaré group]]
 
