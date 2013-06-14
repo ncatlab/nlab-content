@@ -64,6 +64,8 @@ It is known that in the [[Bousfield lattice]] of the [[stable homotopy category]
 
 * [[K-theory]], [[topological K-theory]], [[algebraic K-theory]]
 
+* [[chromatic homotopy theory]]
+
 * [[Morava E-theory]]
 
 ## References
