@@ -7,6 +7,8 @@
 * [[Doug Ravenel]], _Toward higher chromatic analogs
 of elliptic cohomology and topological modular forms_, talk notes (2007) ([pdf](http://www.math.rochester.edu/u/faculty/doug/mypapers/wayne4.pdf))
 
+* [pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf)
+
 [[!redirects chromatic level]]
 [[!redirects chromatic filtration]]
 [[!redirects chromatic levels]]
