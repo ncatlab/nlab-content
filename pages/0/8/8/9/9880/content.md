@@ -16,3 +16,5 @@ An effect in [[non-perturbative quantum field theory]] as opposed to [[perturbat
 ## References
 
 * Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+
+[[!redirects non-perturbative effects]]
