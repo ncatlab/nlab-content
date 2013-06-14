@@ -172,7 +172,7 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ## Related concepts
 
-* **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+* **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]], [[Kan-Thurston theorem]]
 
 * [[classifying topos]]
 
