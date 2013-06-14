@@ -3,9 +3,11 @@
 
 * [[Morava K-theory]]
 
+* [[chromatic homotopy theory]]
+
 Not to be confused with [[C*-algebra]]-[[E-theory]].
 
 ## References
 
-* _Morava E-theory and Morava K-theory_ Lecture notes by Lurie, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
 
