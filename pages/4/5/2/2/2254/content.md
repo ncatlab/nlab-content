@@ -86,6 +86,11 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 
 [[!redirects formal groups]]
+
 [[!redirects formal group scheme]]
 [[!redirects formal group schemes]]
+
 [[!redirects formal group law]]
+[[!redirects formal group laws]]
+
+
