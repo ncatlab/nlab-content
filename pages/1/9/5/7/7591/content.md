@@ -147,6 +147,35 @@ $$
 
 that sends [[circle 2-bundles]] to [[tmf]]. See at _[tmf -- Inclusion of circle 2-bundles](tmf#InclusionOfCircle2Bundles)_.
 
+Write $gl_1(K(n))$ for the [[∞-group of units]] of the (a) 
+[[Morava K-theory]] spectrum.
+
++-- {: .num_prop}
+###### Proposition
+
+For $p = 2$ and all $n \in \mathbb{N}$, there is an [[equivalence in an (infinity,1)-category|equivalence]]
+
+$$
+  Maps(B^{n+1}U(1), B gl_1(K(n)))
+  \simeq
+  \mathbb{Z}/(2)
+$$
+
+between the [[mapping space]] from the [[classifying space]] for [[circle n-bundle|circle (n+1)-bundles]] to the [[delooping]] of the [[∞-group of units]] of $K(n)$.
+
+=--
+
+([Sati-Westerland 11, theorem 1](#SatiWesterland11))
+
++-- {: .num_remark}
+###### Remark
+
+By the discussion at [[(∞,1)-vector bundle]] this means that for each such map there is a type of [[twisted cohomology|twist]] of Morava K-theory (at $p = 2$).
+
+=--
+
+
+
 ## Related concepts
 
 * [[(∞,1)-vector bundle]]
@@ -165,6 +194,12 @@ Theorem 3.2 there is proven using classical results which are collected in
 A construction in terms of a [[model structure on spectra]] is in
 
 * John Lind, _Diagram spaces, diagram spectra, and spectra of units_ ([arXiv:0908.1092](http://arxiv.org/abs/0908.1092))
+
+The $\infty$-group of units of [[Morava K-theory]] is discussed in 
+
+* [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
+ {#SatiWesterland11}
+
 
 [[!redirects ∞-group of units]]
 
