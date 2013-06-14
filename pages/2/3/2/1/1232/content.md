@@ -1,6 +1,6 @@
 Grothendieck has envisioned a deep picture on a hypothetical category of pure and mixed [[motive]]s of varieties which has partly been fullfilled so far. This entry gives only some pointers to approaches via dg-categories and their cousins, pretriangulated $A_\infty$-[[A-infinity-category|categories]].
 
-Using [[derived algebraic geometry]] Maxim Kontsevich embeds the search for motives of varieties into the search of motives of the dg or $A_\infty$-enhancements of the derived categories of coherent sheaves on the noncommutative varieties, what denotes in algebraic geometry working with a bit larger class of pretriangulated $A_\infty$-categories. There are also dg-approaches to Voevodsky's derived category of [[mixed motive]]s.
+Maxim Kontsevich embeds the search for motives of varieties into the search of motives of the dg or $A_\infty$-enhancements of the derived categories of coherent sheaves on the noncommutative varieties, what denotes in algebraic geometry working with a bit larger class of pretriangulated $A_\infty$-categories. There are also dg-approaches to Voevodsky's derived category of [[mixed motive]]s.
 
 # References #
 
