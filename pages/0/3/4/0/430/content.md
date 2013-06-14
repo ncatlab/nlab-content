@@ -121,6 +121,10 @@ The fields of:
 
 * [[field with one element]]
 
+* [[graded field]]
+
+* [[E-infinity field]]
+
 ## References
 
 The [[classifying topos]] for fields is discussed in section D3.1.11(b) of 
