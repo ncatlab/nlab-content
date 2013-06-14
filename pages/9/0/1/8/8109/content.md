@@ -1,4 +1,7 @@
 
+## Related concepts
+
+* [[Morava K-theory]], [[Morava E-theory]]
 
 ## References
 
