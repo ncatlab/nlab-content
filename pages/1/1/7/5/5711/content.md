@@ -7,3 +7,4 @@
 category: people
 
 [[!redirects Nikolai Reshetikhin]]
+[[!redirects Reshetikhin]]
