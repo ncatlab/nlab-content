@@ -22,7 +22,7 @@
 
 ## Idea
 
-This entry is about the properties and the characterization of the category $Sh(S)$ of ([[set]]-valued) [[sheaf|sheaves]] on a ([[small category|small]]) [[site]] $S$, which is a [[Grothendieck topos]].  Among other things it gives a definition and a characterization of the notion of [[sheaf]] itself, but for more details [[sheaf|sheaves]] themselves see there. 
+This entry is about the properties and the characterization of the category $Sh(S)$ of ([[set]]-valued) [[sheaf|sheaves]] on a ([[small category|small]]) [[site]] $S$, which is a [[Grothendieck topos]].  Among other things it gives a definition and a characterization of the notion of [[sheaf]] itself, but for more details on [[sheaf|sheaves]] themselves see there. 
 
 ## Definition
 
