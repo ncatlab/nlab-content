@@ -48,12 +48,27 @@ __Formal group schemes__ are simply the [[group object]]s in a category of [[for
 
 For a generalization over [[operads]] see ([Fresse](#Fresse)).
 
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+The quotient [[moduli stack]] $\mathcal{M}_{FG} \times Spec \mathbb{Q}$ of formal group over the [[rational numbers]] is isomorphic to $\mathbf{B}\mathbb{G}_m$, the [[delooping]] of the [[multiplicative group]] (over $Spec \mathbb{Q}$). This means that in [[characteristic]] 0 every formal group is determined, up to unique [[isomorphism]], by its [[Lie algebra]].
+
+=--
+
+For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
+
 ## Examples
+
+* [[formal multiplicative group]]
 
 * [[Artin-Mazur formal group]]
 
 
 ## Related concepts
+
+* [[height of a formal group law]]
 
 * [[Lie algebra]], [[Lie group]]
 
@@ -83,6 +98,10 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 * Michel [[Demazure, lectures on p-divisible groups]]
  
 * [[Daniel Quillen]], on the formal group laws of unoriented and complex cobordism theory, 1969, [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183530915)
+
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+ {#Lurie10}
+
 
 
 [[!redirects formal groups]]
