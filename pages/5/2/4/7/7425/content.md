@@ -118,7 +118,28 @@ For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [
 
 For instance ([Lurie, lecture 24, prop. 11](#LurieLecture)).
 
-### As $E_\infty$-fields
+### Ring structure
+
++-- {: .num_prop}
+###### Proposition
+
+
+$K(n)$ admits the structure of an [[A-∞ algebra]], in fact of an $MU_{(p)}$-algebra. 
+
+=--
+
+(e.g. [Lurie 10, lecture 22, lemma 2](#LurieLecture))
+
++-- {: .num_remark}
+###### Remark
+
+For $p = 2$ it is however _not_ an [[E-∞ ring]]. Nevertheless, for many spaces $X$, the $K(n)$-[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] of $X$ forms a commutative ring.
+
+=--
+
+(e.g. [Lurie 10, lecture 22, warning 6](#LurieLecture))
+
+### As $A_\infty$-fields
  {#AsInfinityFields}
 
 +-- {: .num_prop}
