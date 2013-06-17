@@ -53,6 +53,8 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 * [[G2-MSSM]], [[M-theory on G2-manifolds]]
 
+* [[Diaconescu-Moore-Witten anomaly]]
+
 ## References
 
 The original insight that gave rise to the conjecture is due to
