@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Bousfield localization of spectra|localization]] $MU_{(p)}$ of [[complex cobordism cohomology theory]] $MU$ at a [[prime]] $p$ decomposes as a [[direct sum]]. The direct summands are the _Brown-Peterson spectra_.
+
+## Definition
+
++-- {: .num_theorem}
+###### Theorem
+
+For each [[prime]] $p$ there is an unique [[E-∞ ring]] [[spectrum]] $B P$ which is a [[retract]] of $M U_{(p)}$ such that the map $MU_{(p)} \to B P$ is multiplicative and such that
+
+1. (...)
+
+1. (...)
+
+1. (...)
+
+=--
+
+Due to ([Brown-Peterson 66](#BrownPeterson66)), recalled as ([Ravenel, theore, 4.1.12](#Ravenel)).
+
+## References
+
+The original article is
+
+* E. H. Brown, F. P. Peterson, _A spectrum whose $\mathbb{Z}/p$ cohomology is the algebra of reduced $p$-th powers_, Topology 5 (1966) 149.
+ {#BrownPeterson66}
+
+
+A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) of
+
+* [[Doug Ravenel]], _Complex cobordism and stable homotopy groups of spheres_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+ {#Ravenel}
+
+The truncated version is discussed in
+
+* [[Tyler Lawson]], [[Niko Naumann]], _Truncated Brown-Peterson spectra_ (2012) ([pdf](http://www.math.umn.edu/~tlawson/jmm-boston-handout.pdf))
+
+
+[[!redirects Brown-Peterson spectra]]
+
+[[!redirects Brown-Peterson cohomology]]
+
+[[!redirects Brown-Peterson cohomology theory]]
+[[!redirects Brown-Peterson cohomology theories]]
