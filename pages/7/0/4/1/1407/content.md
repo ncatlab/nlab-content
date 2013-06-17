@@ -104,7 +104,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
       A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([DFMII](#DFMII)).
 
-
+      See also _[[Diaconescu-Moore-Witten anomaly]]_.
 ## Subtopics
 
 
