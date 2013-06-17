@@ -1,4 +1,6 @@
 
+> This entry is about the general notion of localization of a possible noncommutative ring. For the more restrictive but more traditional notion of [[localization of a commutative ring]] see there.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
