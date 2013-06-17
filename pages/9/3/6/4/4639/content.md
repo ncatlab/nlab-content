@@ -134,6 +134,9 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 
 * $H^2_{et}(R, \mathbb{G}_m) = Br(R)$ ([[Brauer group]] Morita classes of Azumaya $R$-algebras)
 
+### Related concepts
+
+* [[formal multiplicative group]]
 
 
 ### References
