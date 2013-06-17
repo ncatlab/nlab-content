@@ -14,17 +14,107 @@
 * table of contents
 {:toc}
 
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A **complex orientation** on a [[multiplicative cohomology theory]] $E^\bullet$ is an element 
+
+$$
+  c_1^E \in \tilde E^2(B U(1))
+$$
+
+whose canonical restriction to the 2-[[sphere]] is a unit
+
+$$
+  1 \in \tilde E^2(S^2)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-[[Chern class]] which to a line bundle $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]]. 
+
+
+=--
+
+## Examples
+
+Example of complex orientable cohomology theories
+
++-- {: .num_example #ComplexCobordism}
+###### Example
+
+[[complex cobordism]] $E = MU$.
+
+=--
+
++-- {: .num_example #BrownPeterson}
+###### Example
+
+[[Brown-Peterson cohomology]] $E = B P^\bullet$.
+
+=--
+
+
+
+## Properties
+
+### Relation to formal group laws
+
++-- {: .num_prop}
+###### Proposition
+
+Given a complex oriented cohomology theory $(E^\bullet, c_1)$, there is a [[formal group law]] $\mathcal{G}_E$ that describes the the $E$-[[first Chern class]] under [[tensor product]] of [[complex line bundles]]:
+
+$$
+  c_1^E(\mathcal{L}_1 \otimes \mathcal{L}_2)
+  =
+  c_1^E(\mathcal{L}_1) +_{\mathcal{G}_E} c_1^E(\mathcal{L}_2)
+  \,.
+$$
+
+=--
+
+Under different choices of orientation, one obtains isomorphic formal group laws. (...)
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[formal group law]] of [[complex cobordism cohomology theory]], example \ref{ComplexCobordism} is [[universal property|universal]] in that for every [[commutative ring]] $R$ there is a [[natural bijection]]
+
+$$
+  CRing(MU^\ast, A)
+  \simeq
+  FormalGroupLaws_{/R}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{BrownPeterson} is [[universal property|universal]] for $p$-local cohomology theories in that $\mathbb{G}_{B P}$ is universal among $p$-local, $p$-typical formal group laws.
+
+(...)
+
+=--
+
+
+
 ## Related concepts
 
 * [[generalized (Eilenberg-Steenrod) cohomology theory]]
 
 * [[orientation in generalized cohomology]]
 
-## Properties
-
-### Relation to formal group laws
-
-* [[formal group law]]
 
 ## References
 
@@ -35,3 +125,7 @@ Lecture 4 and 6 in
 * [[Jacob Lurie]], _Chromatic homotopy theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
  {#LurieLecture}
 
+[[!redirects complex oriented cohomology theories]]
+
+[[!redirects complex-oriented cohomology theory]]
+[[!redirects complex-oriented cohomology theories]]
