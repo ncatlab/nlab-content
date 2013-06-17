@@ -49,3 +49,5 @@ $$
 
 [[!redirects KU]]
 [[!redirects KO]]
+
+[[!redirects complex K-theory spectrum]]
