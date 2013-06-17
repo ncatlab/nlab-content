@@ -79,6 +79,14 @@ for further context see the discussion at
 
 * _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
+
+* [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
+
+Lecture 5 in 
+
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+
+
 [[!redirects complex cobordism spectrum]]
 [[!redirects periodic complex cobordism spectrum]]
 
@@ -86,3 +94,4 @@ for further context see the discussion at
 [[!redirects complex cobordism cohomology theory]]
 [[!redirects complex cobordism]]
 
+[[!redirects complex bordism]]
