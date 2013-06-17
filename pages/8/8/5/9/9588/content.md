@@ -27,9 +27,9 @@ There are several [[cohomology theories]] that are being called _Morava E-theory
 
 * $B P\langle n\rangle$, the truncated [[Brown-Peterson spectrum]];
 
-* $E(n)$, the [[Johnson-Wiles spectrum]], a localization of B P \langle n\rangle at $v_n$;
+* $E(n)$, the [[Johnson-Wilson spectrum]], a localization of $B P \langle n\rangle$ at $v_n$;
 
-* $\widehat{E(n)}$ the complete Johnson-Wiles spectrum
+* $\widehat{E(n)}$ the complete Johnson-Wilson spectrum
 
 * $E(k,\Gamma)$ the [[Lubin-Tate spectrum]] associated to the universal deformation of a [[formal group law]] $\Gamma$ over $k$.
 
