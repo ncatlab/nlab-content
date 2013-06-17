@@ -1,0 +1,14 @@
+[[!redirects p-typical formal group laws]]
+
+
+## Related concepts
+
+* [[formal group law]]
+
+* [[Brown-Peterson spectrum]]
+
+## References
+
+Section 19 of
+
+* [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
