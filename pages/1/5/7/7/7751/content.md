@@ -1,1 +1,5 @@
-[[!redirects cofinality]]
+[[!redirects confinality]]
+[[!redirects confinality]]
+This is empty:
+
+category:empty
