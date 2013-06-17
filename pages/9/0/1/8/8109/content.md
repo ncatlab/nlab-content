@@ -23,7 +23,52 @@
 
 ## Idea
 
-The study of [[stable homotopy theory]] and specifically of [[multiplicative cohomology theories]] by means of the [[chromatic filtration]] induced by the [[height of a formal group|height filtration of formal groups]] and hence by the tower of [[Morava K-theories]].
+
+By the construction of [[complex oriented cohomology theories]] from [[formal groups]], the [[height of a formal group|height filtration]] of formal groups induces a "chromatic" filtration on [[complex oriented cohomology theories]]. 
+_Chromatic homotopy theory_ is the study of [[stable homotopy theory]] and specifically of [[complex oriented cohomology theories]] by means of and along this [[chromatic filtration]].
+
+More in detail, for each [[prime]] $p \in \mathbb{N}$ and for each  $n \in \mathbb{N}$ there is a [[Bousfield localization of spectra]]
+
+$$
+  L_n \coloneqq L_{K(0)\vee \cdots \vee K(n)}
+  \,,
+$$
+
+where $K(n)$ is the $n$th [[Morava K-theory]] (for the given [[prime]] $p$). These arrange into the [[chromatic tower]] which for each spectrum $X$ is of the form
+
+$$  
+  X \to \cdots \to L_n X \to L_{n-1} X \to \cdots \to L_0 X
+  \,.
+$$
+
+The [[chromatic convergence theorem]] states mild conditions under which the [[homotopy limit]] over this tower is the $p$-[[Bousfield localization of spectra|localization]] 
+
+$$
+  X \to X_{(p)}
+$$
+
+of $X$. 
+
+Since moreover $L_n X$ is the [[homotopy fiber product]]
+
+$$
+  L_n X \simeq L_{K(n)}X \underset{L_{n-1}L_{K(n)}X}{\times} L_{n-1}X
+$$
+
+it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. 
+
+
+## Examples
+
+| chromatic level | [[complex oriented cohomology theory]] | [[E-∞ ring]]/[[A-∞ ring]] |
+|--|--|--|
+| 0 | [[ordinary cohomology]] | [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}$ |
+|  | [[Morava K-theory]] | $K(0)$ |
+| 1 | [[complex K-theory]] | [[complex K-theory spectrum]] $KU$ |
+|   | [[Morava K-theory]]  | $K(1)$ |
+| 2 | [[tmf]] | [[tmf spectrum]] |
+|   | [[Morava K-theory]] | $K(2)$ |
+
 
 ## Related concepts
 
@@ -40,16 +85,18 @@ The study of [[stable homotopy theory]] and specifically of [[multiplicative coh
   * [[Lubin-Tate theory]]
 
 
-
 ## References
 
 * [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
 
 * [[Doug Ravenel]], _Toward higher chromatic analogs
 of elliptic cohomology and topological modular forms_, talk notes (2007) ([pdf](http://www.math.rochester.edu/u/faculty/doug/mypapers/wayne4.pdf))
 
+A lighning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
+
+* Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/saft/henn.pdf))
 
 [[!redirects chromatic level]]
 [[!redirects chromatic filtration]]
