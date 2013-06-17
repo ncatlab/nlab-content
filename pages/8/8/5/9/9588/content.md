@@ -37,6 +37,8 @@ There are several [[cohomology theories]] that are being called _Morava E-theory
 
 * [[Morava K-theory]]
 
+* real form: [[EO(n)]]
+
 * [[chromatic homotopy theory]]
 
 Not to be confused with [[C*-algebra]]-[[E-theory]].
