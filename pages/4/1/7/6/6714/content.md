@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,5 +56,17 @@ $$
 Since $H^2(X;\mathbb{Z})$ classifies [[isomorphism classes]] of $U(1)$-[[principal bundles]] over $X$ and $W_3(T X)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a $spin^c$ structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. 
 
 In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., when $w_2(T X)=0$, then $X$ has a [[spin structure]].
+
+The vanishing of the third integral SW class, hence [[spin^c-structure]] is the [[orientation in generalized cohomology|orientation condition]] in [[complex K-theory]] $KU$ over oriented manifolds. In the context of [[string theory]] this is also known as the [[Freed-Witten anomaly]] cancellation condition.
+
+### Seventh integral SW class
+
+Analogously, the vanishing of the seventh integral SW class is essentially the condition for [[orientation in generalized cohomology|orientation]] in second [[integral Morava K-theory]].
+
+In the context of [[string theory]] this is also known as the [[Diaconescu-Moore-Witten anomaly]] cancellation condition.
+
+## Related concepts
+
+[[!include orientations in higher quantization - table]]
 
 [[!redirects integral Stiefel-Whitney classes]]
