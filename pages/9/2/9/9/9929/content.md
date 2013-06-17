@@ -44,12 +44,30 @@ Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex
 
 ## Examples
 
-Example of complex orientable cohomology theories
+Examples of complex orientable cohomology theories:
+
++-- {: .num_example }
+###### Example
+
+For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]], the ordinary [[first Chern class]]
+
+$$
+  c_1 \in H^2(B U(1), \mathbb{Z})
+$$
+
+defines a complex orientation of $H\mathbb{Z}$.
+=--
 
 +-- {: .num_example #ComplexCobordism}
 ###### Example
 
-[[complex cobordism]] $E = MU$.
+For $E = MU$ [[complex cobordism cohomology theory]], the canonical map
+
+$$
+  B U(1) \stackrel{\simeq}{\to} MU(1) \to MU
+$$ 
+
+defines a complex orientation. 
 
 =--
 
@@ -65,6 +83,19 @@ Example of complex orientable cohomology theories
 ## Properties
 
 ### Relation to formal group laws
+
++-- {: .num_prop}
+###### Proposition
+
+Given a complex oriented cohomology theory $(E^\bullet, c_1)$
+we have
+
+1. $E^\bullet(B U(1)) \simeq E^\bullet(\ast)[ [ c_1^E] ]$;
+
+1. $E^\bullet(B U(1) \times B U(1)) \simeq E^\bullet(\ast)[ [ c_1^E \otimes 1 , 1 \otimes c_1^E ] ]$.
+
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -95,8 +126,11 @@ $$
   \,.
 $$
 
+$MU^\ast$ is the _[[Lazard ring]]_.
 
 =--
+
+(Quillen)
 
 +-- {: .num_prop}
 ###### Proposition
