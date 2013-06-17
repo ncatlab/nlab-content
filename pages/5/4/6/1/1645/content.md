@@ -115,6 +115,9 @@ in terms of [[differential cohomology]] in general and [[differential string str
 
 see at _[[Freed-Witten anomaly]]_.
 
+#### Diaconescu-Moore-Witten anomaly
+
+see at _[[Diaconescu-Moore-Witten anomaly]]_
 
 ### Anomalous symmetry
 
