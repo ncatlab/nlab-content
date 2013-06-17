@@ -61,9 +61,9 @@ The quotient [[moduli stack]] $\mathcal{M}_{FG} \times Spec \mathbb{Q}$ of forma
 
 For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
-### Relation to complex-oriented cohomology theories
+### Relation to complex oriented cohomology theories
 
-* [[complex-oriented cohomology theory]]
+* [[complex oriented cohomology theory]]
 
 ## Examples
 
