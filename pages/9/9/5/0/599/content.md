@@ -11,12 +11,10 @@
 * [[nonabelian algebraic topology]]
 
 
-+-- {: .query}
-Did you do [these](http://ncatlab.org/nlab/revision/diff/convenient+category+of+topological+spaces/17) [edits](http://ncatlab.org/nlab/revision/diff/sesquicategory/6) attributed to 'Ronald null Brown'?  ---Toby
-=--
 
 
 category: people
 
 [[!redirects RonnieBrown]]
 [[!redirects R. Brown]]
+[[!redirects Ronald Brown]]
