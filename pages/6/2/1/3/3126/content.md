@@ -50,27 +50,27 @@ A [[category theory|1-categorical]] approximation to the notion of tangent $(\in
 
 ## Definition
 
-Let $C$ be a [[locally presentable (∞,1)-category]].
+Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]].
 
 +-- {: .num_defn #FiberwiseStabilization}
 ###### Definition
 **(fiberwise stabilization)**
 
-For $C' \to C$ a [[model structure for quasi-categories|categorical fibration]], [[generalized the|the]] **fiberwise stabilization** $Stab(C' \to C)$ is -- roughly -- the fibration universal with the property that for each $A \in C$ its [[fiber]] over $A$ is the [[stabilization]] $Stab(C'_A)$ of the fiber $C'_A$ over $A$.
+For $\mathcal{C}' \to \mathcal{C}$ a [[model structure for quasi-categories|categorical fibration]], [[generalized the|the]] **fiberwise stabilization** $Stab(\mathcal{C}' \to \mathcal{C})$ is -- roughly -- the fibration universal with the property that for each $A \in C$ its [[fiber]] over $A$ is the [[stabilization]] $Stab(\mathcal{C}'_A)$ of the fiber $\mathcal{C}'_A$ over $A$.
 
 
 =--
 
-This is ([Lurie, section 1.1](#Lurie)) formulated in view of ([Lurie, remark 1.1.8](#Lurie)). There $Stab(C' \to C)$ is called the _stable envelope_ .
+This is ([Lurie, section 1.1](#Lurie)) formulated in view of ([Lurie, remark 1.1.8](#Lurie)). There $Stab(\mathcal{C}' \to \mathcal{C})$ is called the _stable envelope_ .
 
-+-- {: .num_defn}
++-- {: .num_defn #TangentCategory}
 ###### Definition
 **(tangent $(\infty,1)$-category)**
 
-[[generalized the|The]] **tangent $(\infty,1)$-category** $T_C \to C$ [[generalized the|the]] _fiberwise stabilization_ of the [[codomain fibration]]  $cod : Func(\Delta[1], C) \to C$:
+[[generalized the|The]] **tangent $(\infty,1)$-category** $T_{\mathcal{C}} \to \mathcal{C}$ [[generalized the|the]] _fiberwise stabilization_ of the [[codomain fibration]]  $cod : \mathcal{C}^{\Delta^1} \to \mathcal{C}$:
 
 $$
-  (T_C \stackrel{p}{\to} C) := Stab(Func(\Delta[1], C) \stackrel{cod}{\to} C  )
+  (T_{\mathcal{C}} \stackrel{p}{\to} \mathcal{C}) := Stab(Func(\Delta[1], \mathcal{C}) \stackrel{cod}{\to} \mathcal{C}  )
   \,.
 $$
 
@@ -78,6 +78,67 @@ $$
 
 This is [[Deformation Theory|DT, def 1.1.12]].
 
+Explicitly, the tangent $\infty$-category is given as follows.
+
++-- {: .num_remark #TangentCatByExplicitFiberwiseStabilization}
+###### Remark
+
+Given a presentable [[(∞,1)-category]] $\mathcal{C}$, the [[(∞,1)-functor]] 
+
+$$
+  \chi_{cod} \colon \mathcal{C}^{op} \to (\infty,1)Cat
+$$
+
+which classifies the [[codomain fibration]] $cod \colon \mathcal{C}^{\Delta^1} \to \mathcal{C}$ under the [[(∞,1)-Grothendieck construction]] factors through the wide non-full inclusion
+
+$$
+  (\infty,1)Cat^R \to (\infty,1)Cat
+$$
+
+of [[(∞,1)-functors]] which are [[right adjoint|right]] [[adjoint (∞,1)-functors]].  For these the further (now full) inclusion
+
+$$
+  i \colon (\infty,1)StabCat^R \hookrightarrow (\infty,1)Cat^R
+$$
+
+of the [[stable (∞,1)-categories]] has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]
+
+$$
+  (i \dashv Stab)
+$$
+
+given by [[stabilization]]. (Note that this is not a functor on all of $(\infty,1)Cat$, where instead the obstructions to functoriality are given by [[Goodwillie calculus]]). 
+
+So the classifying map of the codomain fibration factors through this and hence we can postcompose with the [[stabilization]] functor to obtain
+
+$$
+  i \circ Stab i \chi_{cod} \colon \mathcal{C}^{op} \to (\infty,1)Cat
+  \,.
+$$
+
+This sends an object $c \in \mathcal{C}$ to the [[stabilization]] of the [[slice (∞,1)-category]] over $c$:
+
+$$
+  Stab \circ \chi_{cod} \colon c \mapsto Stab(\mathcal{C}_{/c})
+  \,.
+$$
+
+Again by the [[(∞,1)-Grothendieck construction]] this classifies a [[Cartesian fibration]] over $\mathcal{C}$ and this now is the tangent $(\infty,1)$-category projection
+
+$$
+  \array{
+    T_{\mathcal{C}}
+    \\
+    \downarrow^{\mathrlap{p}}
+    \\
+    \mathcal{C}
+  }
+  \,.
+$$
+
+=--
+
+This is the first part of the proof of [[Deformation Theory|DT. prop. 1.1.9]].
 
 
 ## Properties
@@ -246,6 +307,80 @@ is equivalent to the category of $A$-[[module spectra]].
 
 ([Lurie, cor. 1.5.15](#Lurie)).
 
+### Of an $\infty$-topos
+ {#ExamplesTangentOfAnInfinityTopos}
+
+We discuss here aspects of the tangent $\infty$-categories of [[(∞,1)-toposes]].
+
+First consider the [[base (∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]]. 
+
+
++-- {: .num_remark #SliceOfinfinityGroupoidsIsFunctorCategory}
+###### Remark
+
+For each [[∞-groupoid]]/[[homotopy type]] $X \in \infty Grpd$.
+there is a [[natural equivalence|natural]] [[equivalence of (∞,1)-categories]]
+
+$$
+  \infty Grpd_{/X}
+  \simeq
+   Func(X, \infty Grpd)
+$$
+
+between the [[slice (∞,1)-category]] of [[∞Grpd]] over $X$ and the [[(∞,1)-functor (∞,1)-category]] of maps $X \to \infty Grpd$.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+By the [[(∞,1)-Grothendieck construction]].
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+For each [[∞-groupoid]]/[[homotopy type]] $X \in \infty Grpd$.
+there is a [[natural equivalence|natural]] [[equivalence of (∞,1)-categories]]
+
+$$
+  T_X (\infty Grpd) \simeq Func(X, Spec)
+$$
+
+between the fiber of the tangent (∞,1)-category of [[∞Grpd]] over $X$, def. \ref{TangentCategory}, and the [[(∞,1)-category]] of [[parameterized spectra]] over $X$.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Applying remark \ref{SliceOfinfinityGroupoidsIsFunctorCategory} in remark \ref{TangentCatByExplicitFiberwiseStabilization} yields that
+
+$$
+ T_X(\infty Grpd) \simeq Stab(Func(X,\infty Grpd))
+  \,.
+$$
+
+The statement then follows with the "[stable Giraud theorem](stable%20%28infinity,1%29-category#StabGiraud)".
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[terminal object in an (∞,1)-category|terminal object]] in $T \infty Grpd$ should be the [[zero spectrum]] regarded as a parameterized spectrum over the point
+
+$$
+  0 \colon \ast \to Spec
+  \,.
+$$
+
+=--
+
+
+
 ## References
 
 The definition and study of the notion of _tangent $(\infty,1)$-categories_ is from 
@@ -253,7 +388,7 @@ The definition and study of the notion of _tangent $(\infty,1)$-categories_ is f
 * [[Jacob Lurie]], _[[Deformation Theory]]_
  {#Lurie}
 
-and section 8.3 of 
+and section 7.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieHigherAlgebra}
