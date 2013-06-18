@@ -52,7 +52,7 @@ A [[category theory|1-categorical]] approximation to the notion of tangent $(\in
 
 Let $C$ be a [[locally presentable (∞,1)-category]].
 
-+-- {: .num_defn}
++-- {: .num_defn #FiberwiseStabilization}
 ###### Definition
 **(fiberwise stabilization)**
 
@@ -175,6 +175,7 @@ where
 
 
 ## Cotangent complex
+ {#CotangentComplex}
 
 From its definition as the fiberwise stabilization of the [[codomain fibration]] $cod : Func(\Delta[1], C) \to C$ the tangent $(\infty,1)$-category $p : T_C \to C$ inherits a second $(\infty,1)$-functor to $C$, coming from the _domain_ evaluation
 
@@ -200,7 +201,7 @@ $$
   (C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C) \simeq Id_C
 $$ 
 
-and hence that $C$ is a [[retract]] of $T_C$.
+and which hence exhibits $C$ as a [[retract]] of $T_C$.
 
 This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ the object $\Omega(A)$ is the [[cotangent complex]] of $A$.
 
@@ -209,6 +210,22 @@ This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ 
 
 This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
 
+In more detail this adjunction is the composite 
+
+$$
+  (\Omega \dashv dom)
+  \;\colon\;
+  T_C
+  \stackrel{\overset{\Sigma^\infty_C}{\leftarrow}}{\underset{\Omega^\infty_{C}}{\to}}
+  C^{\Delta^1}
+  \stackrel{\overset{const}{\leftarrow}}{\underset{dom}{\to}}
+  C
+  \colon
+  \Omega
+  \,,
+$$
+
+where $(\Sigma^\infty_C \dashv \Omega^\infty_C)$ is the fiberwise [[stabilization]] relative adjunction, def. \ref{FiberwiseStabilization}.
 
 ## Examples 
 
