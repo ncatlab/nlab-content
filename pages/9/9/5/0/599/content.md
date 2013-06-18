@@ -1,8 +1,12 @@
+
+# Ronnie Brown
+
 * [website](http://www.bangor.ac.uk/~mas010/)
 
 * [list of publications](http://www.bangor.ac.uk/~mas010/publicfull.htm)
 
-#Related entries#
+
+## Related entries
 
 * [[crossed complex]]
 
@@ -11,10 +15,10 @@
 * [[nonabelian algebraic topology]]
 
 
-
-
 category: people
 
+[[!redirects Ronnie Brown]]
 [[!redirects RonnieBrown]]
 [[!redirects R. Brown]]
 [[!redirects Ronald Brown]]
+[[!redirects Ronald null Brown]]
