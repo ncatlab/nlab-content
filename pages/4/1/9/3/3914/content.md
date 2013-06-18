@@ -300,8 +300,8 @@ A comprehesive account is in
 
 The general abstract story of $E$-orientation of sphere fibrations is discussed in
 
-* [[Mike Hopkins]], _The String orientation of tmf_ (talk notes by [[Andre Henriques]]) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter14/MikesTalk3.pdf))
-{#Hopkins}
+* [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_ ) ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
+ {#Hopkins}
 
 with an eye towards constructing the [[string structure]]-orientation of [[tmf]].
 
