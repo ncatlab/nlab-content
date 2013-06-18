@@ -1,0 +1,5 @@
+
+## Idea
+
+The [[zero object]] in the [[stable (infinity,1)-category of spectra]]/[[stable homotopy category]].
+
