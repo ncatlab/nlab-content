@@ -1,8 +1,27 @@
-<div class="rightHandSide toc">
-[[!include stable homotopy theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 The _stable homotopy category_ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[stable (infinity,1)-category of spectra]].
 
 This is the [[category]] studied in [[stable homotopy theory]].
+
+
+## References
+
+* [pdf](http://dmitripavlov.org/scans/puppe.pdf)
+
