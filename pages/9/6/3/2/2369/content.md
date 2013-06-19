@@ -43,6 +43,8 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 * [[module spectrum]], [[algebra spectrum]]
 
+* [[periodic ring spectrum]]
+
 ## Reference
 
 An account in terms of [[(∞,1)-category theory]] is in section 7.1 of
