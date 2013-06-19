@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A finitely presented [[(∞,1)-category]].
+
+If we model [[(∞,1)-categories]] by [[quasicategories]], then this can be made precise by saying it is equivalent to the fibrant replacement in the [[Joyal model structure]] of a [[simplicial set]] with finitely many nondegenerate [[simplices]]. 
+
+## Related concepts
+
+* [[finite category]]
+
+* [[finite (∞,1)-limit]]
+
+[[!redirects finite (infinity,1)-categories]]
+
+[[!redirects finite (∞,1)-category]]
+[[!redirects finite (∞,1)-categories]]
