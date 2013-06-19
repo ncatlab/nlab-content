@@ -6,6 +6,8 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 Any $\mathcal{Sand}$ in this box?
 
+[pdf](http://www.math.uni-hamburg.de/home/schreiber/scat.pdf)
+
 | | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
 |--|--|--|--|--|--|
 | **1)** | [[1-dimensional Dijkgraaf-Witten theory]] | [[1-groupoids]]/[[homotopy 1-types]] | $\mathbf{B}\flat G$ | $-$[[group character]]$\to$ | $\mathbf{B}\flat U(1)$ |
