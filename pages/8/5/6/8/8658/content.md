@@ -39,4 +39,8 @@ If $V_\bullet$ and $A$ are equipped with [[algebra]]-[[structure]] ($V$ might be
 
 * [[reduced homology]]
 
+* [[augmented algebra]], [[augmented A-infinity algebra]]
+
+* [[augmentation ideal]]
+
 [[!redirects augmentations]].
