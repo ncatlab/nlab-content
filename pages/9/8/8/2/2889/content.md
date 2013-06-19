@@ -232,6 +232,11 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 
 * [[Vladimir Voevodsky]], _A^1-homotopy Theory_, Documenta Mathematica, Extra Volume ICM 1998, I, 579-604 [ps](http://www.emis.de/journals/DMJDMV/xvol-icm/00/Voevodsky.MAN.ps.gz)
 
+## Related concepts
+
+* [[motivic chromatic homotopy theory]]
+
+
 ## Further references
 
 * [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
