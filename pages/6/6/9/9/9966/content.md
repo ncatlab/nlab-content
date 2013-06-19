@@ -1,0 +1,18 @@
+
+## Definition
+
+A [[ring spectrum]]/[[A-∞ ring]] which induces a [[periodic cohomology theory]].
+
+[[!redirects periodic ring spectra]]
+
+[[!redirects periodic A-∞ ring]]
+[[!redirects periodic A-∞ rings]]
+
+[[!redirects periodic A-infinity ring]]
+[[!redirects periodic A-infinity rings]]
+
+[[!redirects periodic E-∞ ring]]
+[[!redirects periodic E-∞ rings]]
+
+[[!redirects periodic E-infinity ring]]
+[[!redirects periodic E-infinity rings]]
