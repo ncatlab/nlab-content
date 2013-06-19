@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Algebra and Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _[[symmetric monoidal category|symmetric monoidal]] [[tensor category]]_ may be thought of as a [[categorification]] of the notion of  [[commutative ring]], a _2-ring_ or [[2-algebra]]. 
+
+Now the notion of _super 2-algebra_ is accordingly supposed to be the notion categorifying [[super algebra]].
+
+
+## References
+
+The definition starts at 33:10 in
+
+* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
+ {#Kapranov13}
+
+The example of the super 2-algebra of superalgebras starts at 39:30, 
+
+the example of the exterior 2-algebra of a super-linear category starts at 47:30.
