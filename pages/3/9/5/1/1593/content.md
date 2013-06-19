@@ -232,6 +232,8 @@ See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for the discussion 
 
 * [[KR-theory]]
 
+* [[higher orientifold]]
+
 ## References
 
 A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]], is in
