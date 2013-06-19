@@ -274,6 +274,17 @@ A newer observation that received much more attention is
 
 * String Phenomenology 2013 ([home page](http://stringpheno2013.desy.de/))
 
+### String cosmic inflation
+
+In [[string theory]] the [[inflaton]] field for models of [[cosmic inflation]] field can be modeled by various effects, such as 
+
+* [[open string]] stretching between [[D-brane]]-[[anti D-brane]] pairs.
+
+For a review and further pointers to the literature see at
+
+* Cliff Burgess, M. Cicoli, F. Quevedo, _String Inflation After Planck 2013_ ([arXiv:1306.3512](http://arxiv.org/abs/1306.3512))
+
+
 ### Axion phenomenology
 
 On stringy [[axion]] [[phenomenology]]:
