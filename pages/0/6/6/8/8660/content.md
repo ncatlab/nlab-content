@@ -16,7 +16,12 @@
 
 ## Definition
 
-For $R$ a [[ring]], an [[associative algebra]] over $R$ is a [[ring]] $A$ equipped with a ring inclusion $R \hookrightarrow A$. If $A$ is also equipped with a ring homomorphism the other way round, 
+For $R$ a [[ring]], an [[associative algebra]] over $R$ is a [[ring]] $A$ equipped with a ring inclusion $R \hookrightarrow A$. 
+
++-- {: .num_defn}
+###### Definition
+
+If the $R$-algebra $A$ is equipped with a ring homomorphism the other way round, 
 
 $$
   \epsilon \colon A \to R
@@ -24,14 +29,55 @@ $$
 
 then it is called an _augmented algebra_.
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In [Cartan-Eilenberg](#CartanEilenberg) this is called a _supplemented algebra_.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
 The [[kernel]] of $\epsilon$ is called the corresponding [[augmentation ideal]] in $A$.
+
+=--
+
+
+
 
 ## Examples
 
++-- {: .num_example}
+###### Example
+
+An augmentation of a bare [[ring]] itself, being an [[associative algebra]] over the ring of [[integers]] $\mathbb{Z}$, is a ring homomorphism to the integers
+
+$$
+  \epsilon \colon R \to \mathbb{Z}
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
 Every [[group algebra]] $R[G]$ is canonically augmented, the augmentation map being the operation that forms the sum of [[coefficients]] of the canonical basis elements.
+
+=--
 
 ## Related concepts
 
 * [[augmentation]]
+
+* [[augmented A-∞ algebra]]
+
+## References
+
+* [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_
+ {#CartanEilenberg}
+
 
 [[!redirects augmented algebras]]
