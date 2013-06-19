@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 # Finite sets
 * table of contents
 {: toc}
@@ -90,6 +105,15 @@ In a topos, there are both "external" and "internal" versions of all the above n
 ## Properties
 
 The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equivalent]] to that of finite [[Boolean algebras]] by the [[power set]]-[[functor]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_ for details and see at _[[Stone duality]]_ for more.
+
+## Related concepts
+
+* [[hereditarily finite set]]
+
+* [[FinSet]]
+
+* [[finite object]]
+
 
 
 [[!redirects finite set]]
