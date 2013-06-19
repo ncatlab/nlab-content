@@ -62,7 +62,9 @@ See for instance ([Arone-Hess](#AroneHess))
 
 ## References
 
-Augmentation over the [[sphere spectrum]] appears in
+The following articles discuss augmentation, but in fact just of spectra (not considering the algebra structure on them).
+
+Augmentation (of [[infinity-groups of units]]) over the [[sphere spectrum]]  appears in
 
 * Steffen Sagave, _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
 
