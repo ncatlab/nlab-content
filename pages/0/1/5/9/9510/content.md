@@ -37,6 +37,7 @@ Warning: if $X$ is not a [[Hausdorff space]], there might be more than one point
 * [[convergence space]]
 * [[series]]
 
+* [[limit point]]
 
 category: analysis
 
