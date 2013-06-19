@@ -1,0 +1,12 @@
+
+## Idea
+
+A [[circle bundle with connection]] with non-trivial [[first Chern class]], regarded as a [[monopole]].
+
+See at _[[Dirac charge quantization]]_. 
+
+## Related concepts
+
+* [[Yang monopole]]
+
+[[!redirects Dirac monopoles]]
