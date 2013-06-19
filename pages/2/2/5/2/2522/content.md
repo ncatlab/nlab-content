@@ -138,6 +138,8 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 ## Related concepts
 
+* [[naturalness]]
+
 * [[supergeometry]]
 
 * [[unitary representation of the super Poincaré group]]
