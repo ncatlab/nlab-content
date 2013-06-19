@@ -18,10 +18,10 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 ## Examples
 
-### Magnetic monopoles
+### Magnetic monopoles (Dirac monopole)
  {#MagneticMonopoles}
 
-In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure.
+In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure. The _[[Dirac monopoe]]_.
 
 This is the classical exmaple of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
 
@@ -48,6 +48,10 @@ $$
 $$
 
 However, in ([Cho-Maison](#ChoMaison)) it is claimed that the true topology of the moduli space of vacua in electroweak symmetry breaking is topologically more interesting. The corresponding phenomenology of vacuum defect monopoles of this kind is discussed in ([Cho-Kim-Yoon13](#ChoKimYoon13)).
+
+### Yang monopole
+
+The generalization of the [[Dirac monopole]] from 3+1 dimensional [[spacetime]] to 5+1 dimensional spacetime is the _[[Yang monopole]]_.
 
 ## Related concepts
 
