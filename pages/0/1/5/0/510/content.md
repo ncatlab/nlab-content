@@ -157,7 +157,10 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
+* [[zero spectrum]]
+
 * [[Bousfield localization of spectra]]
+
 
 [[!include k-monoidal table]]
 
