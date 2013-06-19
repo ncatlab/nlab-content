@@ -23,5 +23,5 @@ This is the [[category]] studied in [[stable homotopy theory]].
 
 ## References
 
-* [pdf](http://dmitripavlov.org/scans/puppe.pdf)
+* [[Dieter Puppe]], _On the stable homotopy category_, Topology and its application (1973)  ([[PuppeStableHomotopyCategory.pdf:file]])
 
