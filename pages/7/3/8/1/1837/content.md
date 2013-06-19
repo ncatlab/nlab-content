@@ -168,6 +168,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[ghost field]], [[ghost-of-ghost field]]
 
+* [[lattice gauge theory]]
+
 [[!include gauge field - table]]
 
 
