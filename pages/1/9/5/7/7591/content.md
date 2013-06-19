@@ -200,6 +200,10 @@ The $\infty$-group of units of [[Morava K-theory]] is discussed in
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
  {#SatiWesterland11}
 
+See also
+
+* Steffen Sagave, _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+
 
 [[!redirects ∞-group of units]]
 
