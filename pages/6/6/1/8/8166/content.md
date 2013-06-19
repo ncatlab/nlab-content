@@ -53,6 +53,8 @@ It is generally understood that models are approximations to reality. The prover
 
 ## Related concepts
 
+* [[naturalness]]
+
 * [[landscape of string theory vacua]]
 
 * [string theory FAQ -- Does string theory make predictions?](string+theory+FAQ#HowDoesStringTheoryMakePredictions)
