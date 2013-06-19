@@ -405,6 +405,24 @@ Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ i
 
 This characterization is due to Dold.  It is mentioned as an example of traces in the expository ([PontoShulman, example 3.7](#PontoShulman)). For more see [[Spanier-Whitehead duality]].
 
+### As the universal spherical fibration, from the $J$-homomorphism
+ {#AsTheUniversalSphericalFibration}
+
+The [[J-homomorphism]] is a canonical map $B O \to B gl_1(\mathbb{S})$ from the [[classifying space]] of the [[stable orthogonal group]] to the [[delooping]] of the [[infinity-group of units]] of the [[sphere spectrum]]. This classifies an "[[(infinity,1)-vector bundle]]" of [[sphere spectrum]]-[[module spectrum|modules]] over $B O$ and this is the Thom spectrum.
+
+See at _[[orientation in generalized cohomology]]_ for more on this.
+
+### As the infinite cobordism category
+ {#AsTheInfiniteCobordismCategory}
+
+The [[geometric realization]] for the  [[(infinity,n)-category of cobordisms]] for $n \to \infty$ is the Thom spectrum
+
+$$
+  \vert Bord_\infty \vert \simeq \Omega^\infty MO
+  \,.
+$$
+
+This is implied by the [[Galatius-Madsen-Tillmann-Weiss theorem]] and  by [[Jacob Lurie]]'s proof of the [[cobordism hypothesis]]. See also ([Francis-Gwilliam, remark 0.9](Francis3)).
 
 ## Cohomology
 
