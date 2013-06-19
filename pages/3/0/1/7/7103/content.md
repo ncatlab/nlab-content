@@ -19,9 +19,9 @@
 
 ## Definition
 
-A **finite $(\infty,1)$-limit** is an [[(∞,1)-limit]] over a finitely presented [[(∞,1)-category]].
+A **finite $(\infty,1)$-limit** is an [[(∞,1)-limit]] over a finitely presented [[(∞,1)-category]] -- a [[finite (∞,1)-category]].
 
-If we model our (∞,1)-categories by [[quasicategories]], then this can be made precise by saying it is a limit over some [[simplicial set]] with finitely many nondegenerate simplices.  Note that such a simplicial set is rarely itself a quasicategory; we regard it instead as a finite presentation of a quasicategory.
+If we model our (∞,1)-categories by [[quasicategories]], then this can be made precise by saying it is a limit over some [[simplicial set]] with finitely many nondegenerate [[simplices]].  Note that such a simplicial set is rarely itself a quasicategory; we regard it instead as a finite presentation of a quasicategory.
 
 ## Properties
 
