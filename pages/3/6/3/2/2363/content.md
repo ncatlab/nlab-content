@@ -1,5 +1,19 @@
 
-#Definition#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $A$ is **weakly periodic** if the natural map
 
@@ -10,9 +24,11 @@ $$
 
 is an [[isomorphism]] for all $n \in \mathbb{Z}$.
 
-Compare with the notion of a [[periodic cohomology theory]].
+Compare with the notion of a _[[periodic cohomology theory]]_.
 
-# Relation to formal groups #
+## Properties
+
+### Relation to formal groups 
 
 One reason why weakly periodic cohomology theories are of interest is that their [[cohomology ring]] over the space $\mathbb{C}P^\infty$ defines a [[formal group]].
 
@@ -51,6 +67,12 @@ $$
 if $A^0(\mathbb{C}P^\infty) A^0({*})[ [t] ]$ then $i_0^*$ "forgets the $t$-coordinate".
 
 
-#Related entries#
+## Related entries
+
+* [[periodic cohomology theory]]
+
+* [[periodic ring spectrum]]
 
 * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+[[!redirects weakly periodic cohomology theories]]
