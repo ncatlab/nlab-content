@@ -90,6 +90,10 @@ Arguments for the finiteness of superstring scattering amplitudes to all loop or
 
 * [[Nathan Berkovits]], _Multiloop Amplitudes and Vanishing Theorems using the Pure Spinor Formalism for the Superstring_,  JHEP 0409:047,2004 ([arXiv:hep-th/0406055](http://arxiv.org/abs/hep-th/0406055))
 
+Discussion of 2-loop amplitudes from holomorphy arguments is in 
+
+* [[Edward Witten]], _Notes On Holomorphic String And Superstring Theory Measures Of Low Genus_ ([arXiv:1306.3621](http://arxiv.org/abs/1306.3621))
+
 [[!redirects string scattering amplitudes]]
 
 [[!redirects string scatt]]
