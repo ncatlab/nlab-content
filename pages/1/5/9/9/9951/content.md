@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Limit points
 * table of contents
 {: toc}
@@ -65,6 +75,9 @@ The subspace $A$ is [[closed subspace|closed]] iff every adherent point of $A$ b
 
 More generally, the [[topological closure|closure]] of $A$ is the set of all adherent points of $A$.  Classically (using [[excluded middle]], or more generally if $S$ has [[decidable equality]]), the closure of $A$ is the [[union]] of $A$ and its set of accumulation points.
 
+## Related concepts
+
+* [[limit of a sequence]]
 
 [[!redirects limit point]]
 [[!redirects limit points]]
