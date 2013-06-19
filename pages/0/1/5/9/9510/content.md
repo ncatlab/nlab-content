@@ -40,14 +40,6 @@ Warning: if $X$ is not a [[Hausdorff space]], there might be more than one point
 
 category: analysis
 
-[[!redirects limit of a sequence]]
-[[!redirects limits of a sequence]]
-[[!redirects limits of sequences]]
-
-[[!redirects limit of a net]]
-[[!redirects limits of a net]]
-[[!redirects limits of nets]]
-
 [[!redirects convergence]]
 [[!redirects convergences]]
 [[!redirects convergencies]]
@@ -57,5 +49,10 @@ category: analysis
 [[!redirects convergence of a net]]
 [[!redirects convergence of nets]]
 
-[[!redirects limit point]]
-[[!redirects limit points]]
+[[!redirects limit of a sequence]]
+[[!redirects limits of a sequence]]
+[[!redirects limits of sequences]]
+
+[[!redirects limit of a net]]
+[[!redirects limits of a net]]
+[[!redirects limits of nets]]
