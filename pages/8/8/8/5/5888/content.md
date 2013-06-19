@@ -42,6 +42,8 @@ See ([Johnstone, p. 689](#Johnstone)).
 
 ## Properties
 
+### General
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -99,6 +101,12 @@ A [[localic geometric morphism]] is atomic precisely if it is an [[etale geometr
 =--
 
 This appears as ([Johnstone, lemma 3.5.4 (iii)](#Johnstone)).
+
+### Decomposition of atomic toposes
+
+Atomic toposes decompose as [[disjoint unions]] of [[connected topos|connected]] atomic toposes. Connected atomic toposes with a [[point of a topos]] are the [[classifying toposes]] of [[localic groups]].
+
+An example of a connected atomic topos without a [[point of a topos]] is given in ([Johnstone, example D3.4.14](#Johnstone})).
 
 ## Examples
 
