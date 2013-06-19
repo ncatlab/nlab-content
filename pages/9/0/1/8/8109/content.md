@@ -86,6 +86,8 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
   * [[Lubin-Tate theory]]
 
+* [[motivic chromatic homotopy theory]]
+
 
 ## References
 
@@ -96,9 +98,13 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 * [[Doug Ravenel]], _Toward higher chromatic analogs
 of elliptic cohomology and topological modular forms_, talk notes (2007) ([pdf](http://www.math.rochester.edu/u/faculty/doug/mypapers/wayne4.pdf))
 
-A lighning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
+A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
 
 * Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/saft/henn.pdf))
+
+Random useful discussion is in 
+
+* _[Chromotopy](http://chromotopy.org/)_
 
 [[!redirects chromatic level]]
 [[!redirects chromatic filtration]]
