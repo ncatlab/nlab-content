@@ -22,7 +22,7 @@ A locally constant [[sheaf]] $A$ over a [[topological space]] is a sheaf of [[se
 
 More elegantly said: locally constant sheaves are the sections of [[constant stack]]s:
 
-Let $C = Core(FinSet)\in $ [[Grpd]] be the [[core]] of the [[category]] [[FinSet]] of finite set, let $const_C : Op(X)^{op} \to Grpd$ the presheaf constant on $C$, i.e. the [[functor]] on the [[opposite category]] of the [[category of open subsets]] of $X$ that sends everything to (the identity on) $C$. Then the [[constant stack]] on $C$ is the [[stackification]] $\bar const_C : Op(X)^{op} \to Grpd$.
+Let $C = Core(FinSet)\in $ [[Grpd]] be the [[core]] of the [[category]] [[FinSet]] of finite set, let $const_C : Op(X)^{op} \to Grpd$ the [[constant presheaf|presheaf constant]] on $C$, i.e. the [[functor]] on the [[opposite category]] of the [[category of open subsets]] of $X$ that sends everything to (the identity on) $C$. Then the [[constant stack]] on $C$ is the [[stackification]] $\bar const_C : Op(X)^{op} \to Grpd$.
 
 Write then $X$ for the space $X$ regarded as a sheaf or trivial [[covering space]] over itself, i.e. the [[terminal object]] $X$ in sheaves and hence in stacks over $X$. Then by definition of stackification morphisms
 
@@ -49,7 +49,7 @@ Let $(\Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Delta}{\leftarrow}
 Without further assumption on $\mathcal{E}$ we have the following definition.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $U \to *$ an [[epimorphism]] in $\mathcal{E}$, an [[object]] $E \in \mathcal{E}$ is called **locally constant and split by $U$** if in the [[over category]] $\mathcal{E}/U$ we have an [[isomorphism]]
@@ -69,7 +69,7 @@ A locally constant object $E$ which is in addition an $\Delta Aut(X)$-[[principa
 
 If $\mathcal{E}$ is a [[locally connected topos]] there is another characterization of locally constant sheaves.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
@@ -84,7 +84,7 @@ $$
 
 From the discussion at [[locally connected topos]] we have that
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[cartesian closed functor]] precisely if $\mathcal{E}$ is a [[locally connected topos]].
@@ -93,7 +93,7 @@ The [[constant sheaf]]-functor $\Delta : \mathcal{S} \to \mathcal{E}$ is a [[car
 
 In this case the above definition is equivalent to the following one.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $\mathcal{E} = Sh(C)$ be a [[locally connected topos]]. Let $p : core(Set^\kappa_*) \to core(Set^\kappa)$ be the [[core]] of the [[generalized universal bundle]] for sets of [[cardinality]] less than some $\kappa$.
@@ -103,7 +103,7 @@ A **locally constant $\kappa$-bounded object** in $\mathcal{E}$ is the [[pullbac
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This says that locally constant sheaves are the sections of the [[constant stack]] on the [[groupoid]] $core(Set^\kappa)$.
