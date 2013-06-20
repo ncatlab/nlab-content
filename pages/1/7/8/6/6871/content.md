@@ -1,4 +1,4 @@
-* [web](http://www.liv.ac.uk/maths/PURE/MIN_SET/CONTENT/members/Guletskii.html)
+* [web](http://www.liv.ac.uk/mathematical-sciences/staff/vladimir-guletskii/)
 * grant [Lambda-structures in stable categories](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/I034017/1)
 
 category:people
