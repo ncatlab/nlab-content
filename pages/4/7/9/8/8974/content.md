@@ -5,7 +5,11 @@
 
 ## Functional programming languages
 
-* [[Haskell]]
+* [[Haskell]] (in [[type theory]])
+
+* [[Coq]], [[Agda]] (in [[dependent type theory]])
+
+* [[Quipper]] (for [[quantum computation]])
 
 * (...)
 
@@ -16,6 +20,8 @@
 * [[continuation-passing style]]
 
 * [[programming language]]
+
+* [[list of mathematics software]]
 
 ## References
 
