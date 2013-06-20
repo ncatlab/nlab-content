@@ -31,17 +31,21 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ### Specific examples
 
-* [[higher order logic]]:
+* **[[higher order logic]]**:
 
   * [[Isabelle]]
 
-* [[type theory]]:
+* **plain [[type theory]]**:
 
   * [[Haskell]]
 
-* [[dependent type theory]]
+* **[[dependent type theory]]**:
 
   * [[Coq]], [[Agda]], [[NuPRL]], ....
+
+* **[[quantum computation]]**
+
+  * [[Quipper]]
 
 * [[Mathematica]]
 
