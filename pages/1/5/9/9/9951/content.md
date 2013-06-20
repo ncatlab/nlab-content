@@ -24,7 +24,7 @@ There are several variations on this idea, and the term 'limit point' itself is 
 
 The classical definitions apply when $S$ is a [[topological space]].  Then $A$ may be thought of as a [[subset]] of (the [[underlying set]] of) $S$, and $x$ as an [[element]].  In order to apply the definitions in [[constructive mathematics]], there needs to be an [[inequality]] $\ne$ on the points of $S$.  (We need not assume that $\ne$ is an [[apartness relation]] nor any compatibility between $\ne$ and the topology, at least for the definitions; although it\'s quite possible that some classical theorems will require such assumptions.)
 
-For the most general definition, let $\kappa$ be an [[arity class]]; that is, $\kappa$ is a collection of [[cardinal numbers]] with certain closure properties.  Recall that a _$\kappa$-[[arity|ary]] [[indexed subset]]_ of $S$ is a [[function]] $B\colon I \to S$ such that the [[cardinality]] of $I$ belongs to the class $\kappa$; a point $y$ is _in_ $B$ (as an indexed subset) if $y$ belongs to the [[range]] of $B$ (as a function), and $y$ is _out_ of $B$ if $y$ is inequal ($\ne$) to every point in $B$.
+For the most general definition, let $\kappa$ be a collection of [[cardinal numbers]].  (We might want $\kappa$ to have some closure properties akin to those of an [[arity class]], but the definition there is not quite what we want.)  Recall that a _$\kappa$-[[arity|ary]] [[indexed subset]]_ of $S$ is a [[function]] $B\colon I \to S$ such that the [[cardinality]] of $I$ belongs to the class $\kappa$; a point $y$ is _in_ $B$ (as an indexed subset) if $y$ belongs to the [[range]] of $B$ (as a function), and $y$ is _out_ of $B$ if $y$ is inequal ($\ne$) to every point in $B$.
 
 +-- {: .num_defn #general}
 ###### Definition
