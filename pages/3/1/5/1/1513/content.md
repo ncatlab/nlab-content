@@ -53,6 +53,10 @@ The definition generalizes to any system of [[local isomorphisms]] on any [[topo
 
 =--
 
+### Example
+
+Let $(S,J)$ be a site for which every $J$-covering family is [[inhabited]]. Then for any [[set]] $X$, the [[constant presheaf]] $S\ni a \mapsto X$ is separated.
+
 
 ### Properties
 
