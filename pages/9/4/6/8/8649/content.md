@@ -6,8 +6,19 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
 =--
 =--
+=--
+
+
+
 
 #Contents#
 * table of contents
