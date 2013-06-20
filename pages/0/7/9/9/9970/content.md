@@ -1,0 +1,8 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Robert_Mills_%28physicist%29)
+
+## related entries
+
+* [[Yang-Mills theory]]
+
+category: people
