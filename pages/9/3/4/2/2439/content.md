@@ -76,7 +76,7 @@ Extrapolating from the pattern, the question mark entries _might_ be filled by [
 +-- {: .num_remark}
 ###### Remark
 
-All this suggests that in full generality [[supergeometry]] is to be thought of as $\mathbb{S}$-graded geometry, hence geometry _[[under category|under]]_ $Spec(\mathbb{S})$, the formal dual space to the [[E-∞ ring]] [[sphere spectrum]] in [[derived algebraic geometry]]. But this remains to be worked out...
+All this suggests that in full generality [[supergeometry]] is to be thought of as $\mathbb{S}$-graded geometry, hence [[higher algebra]] with [[∞-group of units]] [[augmented ∞-group|augmented]] over the [[sphere spectrum]]. But this is canonically so for every [[E-∞ ring]], see at _[∞-group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_.
 
 =--
 
