@@ -19,7 +19,7 @@
 
 ## Idea
 
-Inductive reasoning concerns assessments of how likely a statement is to be true, given observations of its consequences. In the classical concept of induction, once enough specific instances $P(a), P(b), P(c)$ have been verified (with no instance $\neg{P(k)}$), we are justified in concluding the [[universal quantification|universally quantified statement]] $\forall x,\, P(x)$, or at least one of its consequences $P(k)$.  Stated as a [[rule of inference]] this appears as follows:
+Inductive [[reasoning]] concerns assessments of how likely a statement is to be true, given observations of its consequences. In the classical concept of induction, once enough specific instances $P(a), P(b), P(c)$ have been verified (with no instance $\neg{P(k)}$), we are justified in concluding the [[universal quantification|universally quantified statement]] $\forall x,\, P(x)$, or at least one of its consequences $P(k)$.  Stated as a [[rule of inference]] this appears as follows:
 \[ \array {
              & \vdash & P(a) \\
              & \vdash & P(b) \\
