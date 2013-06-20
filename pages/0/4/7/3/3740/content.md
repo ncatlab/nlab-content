@@ -110,7 +110,7 @@ Given any collection of extended upper reals, their __infimum__ is an extended u
 Constructively, we cannot necessarily take the infimum of a set of lower reals, nor the supremum of a set of upper reals.  We can, however, interpret such a supremum or infimum as a [[MacNeille real number]].
 
 
-## Arithmetic
+## Arithmetic {#arithmetic}
 
 In general, you can extend order-preserving functions of rational numbers to lower reals and to upper reals; you simply take the [[image]] of the lower or upper set and close it downward or upwards, as appropriate.  If you have an order-reversing function of rational numbers, then you can apply it to a lower real to get an upper real and conversely; this is about the only interaction that I know of between the two kinds of one-sided real.
 
@@ -134,7 +134,13 @@ Conversely, an upper semicontinuous function $f : X \to \mathbb{R} \cup \{ +\inf
 $$U(A) \coloneqq \{ \varphi : A \to \mathbb{Q} | \forall x \in A: \varphi(x) \gt f(x) \} \subseteq \Delta(\mathbb{Q})(A)$$
 over open sets $A \subseteq X$.
 
-See C. Mulvey, _Intuitionistic Algebra and Representations of Rings_ in Hofmann, Liukkonen, _Recent Advances in the Representation Theory of Rings and C\*-Algebras by Continuous Sections_, AMS 1974 for details (page 28).
+See [Mulvey (1974)](#Mulvey 1974) (page 28) for details.
+
+
+## References
+
+* C. Mulvey (1974): _Intuitionistic Algebra and Representations of Rings_. In Hofmann, Liukkonen: _Recent Advances in the Representation Theory of Rings and C\*-Algebras by Continuous Sections_, AMS 1974.
+  {#Mulvey1974}
 
 
 [[!redirects one-sided real]]
