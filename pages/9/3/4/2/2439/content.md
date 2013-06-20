@@ -159,7 +159,7 @@ Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological str
   hence are graded by the sixth [[homotopy group]] 
 
   $$  
-    \pi_5(\mathbb{S}) \simeq \mathbb{Z}_{2}
+    \pi_6(\mathbb{S}) \simeq \mathbb{Z}_{2}
   $$
 
   of the sphere spectrum.
