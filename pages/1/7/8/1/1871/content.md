@@ -82,6 +82,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 ### General
 
+Yang-Mills theory is named after _[[Chen Ning Yang]]_ and _[[Robert Mills]]_.
+
 * [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
