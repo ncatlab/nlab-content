@@ -97,6 +97,11 @@ Formulations of multiple M2-branes on top of each other are given by the [[BLG m
 
 * [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
 
+Discussion of general phenomena of M-branes in [[higher geometry]] and [[generalized cohomology]] is in 
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
+
+
 ### Dualities
 
 The role of and the relation to [[duality in string theory]] of the membrane is discussed in the following articles.
