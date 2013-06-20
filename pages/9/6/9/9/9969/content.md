@@ -1,0 +1,10 @@
+
+* [wikipedia entry](http://en.wikipedia.org/wiki/Chen_Ning_Yang)
+
+## related entries
+
+* [[Yang-Mills theory]]
+
+* [[Yang monopole]]
+
+category: people
