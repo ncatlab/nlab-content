@@ -223,6 +223,8 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
 * **presheaf**
 
+  [[constant presheaf]]
+
 * [[(2,1)-presheaf]]
 
 * [[(∞,1)-presheaf]]
