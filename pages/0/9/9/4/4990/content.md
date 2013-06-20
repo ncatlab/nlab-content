@@ -21,14 +21,34 @@ A *locally connected site* is a [[site]] satisfying sufficient conditions to mak
 
 ## Definition
 
-Let $C$ be a small [[site]]; we say it is a **locally connected site** if all covering [[sieves]] of any object $U\in C$ are [[connected category|connected]], as full subcategories of the [[slice category]] $C/U$.  (In particular, this means that all covering families are [[inhabited set|inhabited]].)
++-- {: .num_defn}
+###### Definition
 
-## Locally connected topoi from sites
+Let $C$ be a small [[site]]; we say it is a **locally connected site** if all [[covering]] [[sieves]] of any object $U\in C$ are [[connected category|connected]], as [[full subcategories]] of the [[slice category]] $C_{/U}$.  
+
+(In particular, this means that all [[covering families]] are [[inhabited set|inhabited]].)
+
+
+=--
+
+
+
+## Locally connected toposes from sites
+
+We discuss that the [[sheaf toposes]] over locally connected sites are [[locally connected toposes]].
+
+
++-- {: .num_remark #ConstantPresheavesAreSheaves}
+###### Remark
+
+If $C$ is locally connected, then every constant presheaf on $C$ is a [[sheaf]].  
+
+=--
 
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ is a locally connected site, then the [[sheaf topos]] $Sh(C)$ is a [[locally connected topos]]. 
@@ -37,29 +57,19 @@ If $C$ is a locally connected site, then the [[sheaf topos]] $Sh(C)$ is a [[loca
 
 This means that the [[inverse image functor]] $L Const\colon Set \to Sh(C)$ has a [[left adjoint]] $\Pi_0$.  
 
-To see this, notice 
-
-+-- {: .un_lemma}
-###### Observation
-
-If $C$ is locally connected, then every constant presheaf on $C$ is a [[sheaf]].  
-
-=--
-
-Using this, we have
 
 +-- {: .proof}
 ###### Proof
 
 
-The constant *[[presheaf]]* functor $Const \colon Set \to Psh(C)$ has a left adjoint given by taking [[colimit]]s along $C^{op}$ (this is one of the equivalent _definitions_ of the colimit operatiion.) Since constant presheaves on $C$ are sheaves, $L Const$ is just a factorization of $Const$ through $Sh(C)$, and thus it also has a left adjoint given by the colimit operation.
+By remark \ref{ConstantPresheavesAreSheaves} it follows that the constant *[[presheaf]]* functor $Const \colon Set \to Psh(C)$ has a [[left adjoint]] given by taking [[colimits]] along $C^{op}$ (this is one of the equivalent _definitions_ of the colimit operatiion.) Since constant presheaves on $C$ are sheaves, $L Const$ is just a factorization of $Const$ through $Sh(C)$, and thus it also has a left adjoint given by the colimit operation.
 
 =--
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
-The colimit over a [[representable functor]] is always the singleton set. 
+The colimit over a [[representable functor]] is always the [[singleton set]]. 
 
 So for $X \in Sh(C)$ any sheaf, we may write it, using the [[co-Yoneda lemma]] as a [[coend]] over representables
 
@@ -80,8 +90,8 @@ We may think of this as computing the set of _plot-connected components_ of $X$.
 =--
 
 
-+-- {: .un_lemma}
-###### Observation
++-- {: .num_prop}
+###### Proposition
 
 
 If $C$ furthermore has a [[terminal object]], then colimits along $C^{op}$ preserve the [[terminal object]], so that $Sh(C)$ is moreover a [[connected topos]].
