@@ -232,11 +232,13 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 ### General
 
-Reviews include
+Reviews and general accounts include
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
 
 * [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
 
 ### $\sigma$-Model description
