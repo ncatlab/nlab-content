@@ -27,7 +27,7 @@ Recall that a [[sheaf]] on $S$ is a presheaf $A \in PSh_S$ such that for all [[l
 It is sufficient to check this on the [[dense monomorphism]]s instead of all local isomorphisms.  This is equivalent to checking [[cover]]ing [[sieve]]s.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[presheaf]] $A \in PSh(S)$ is called **separated** (or a **monopresheaf**) if for all [[local isomorphism]]s $Y \to X$ the induced morphism $Hom(X,A) \to Hom(Y,A)$ is a [[monomorphism]].
@@ -37,7 +37,7 @@ More generally, for a class $V$ of arrows in a category $C$, an object $A\in C$ 
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 As for sheaves, it is sufficient to check the separation condition on the [[dense monomorphism]]s, hence on the [[sieve]]s.
@@ -46,7 +46,7 @@ For $\{p_i : U_i \to U\}$ a [[covering]] family of an object $U \in S$, the cond
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The definition generalizes to any system of [[local isomorphisms]] on any [[topos]], such as that obtained from any [[Lawvere-Tierney topology]], or equivalently any [[subtopos]].
@@ -55,13 +55,20 @@ The definition generalizes to any system of [[local isomorphisms]] on any [[topo
 
 ### Example
 
-Let $(S,J)$ be a site for which every $J$-covering family is [[inhabited]]. Then for any [[set]] $X$, the [[constant presheaf]] $S\ni a \mapsto X$ is separated.
++-- {: .num_example #ConstantPresheafOnSiteWithAllInhabitedCoverings}
+###### Example
+
+Let $(S,J)$ be a [[site]] for which every $J$-[[covering family]] is [[inhabited]]. Then for any [[set]] $X$, the [[constant presheaf]] $S\ni a \mapsto X$ is separated.
+
+=--
+
+See also at _[[locally connected site]]_.
 
 
 ### Properties
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The full [[subcategory]]
@@ -86,7 +93,7 @@ $$
   \,.
 $$
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $A \in PSh_S$ the **separafication** $L_{sep}A$ of $A$ is the presheaf that assigns equivalence classes
@@ -107,7 +114,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 This functor $L_{sep}$ is indeed a [[left adjoint]] to the inclusion $i : Sep(S) \hookrightarrow PSh(S)$.
@@ -168,7 +175,7 @@ $$
 
 ### Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **bisite** is a [[small category]] $S$ equipped with two [[coverage]]s: $J$ and $K$ such that $J \subset K$.
@@ -192,7 +199,7 @@ for the full [[subcategory]] on biseparated presheaves.
 
 ### Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Biseparated presheaves form a [[reflective subcategory]] of all sheaves
