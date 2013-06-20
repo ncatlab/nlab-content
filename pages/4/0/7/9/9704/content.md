@@ -18,10 +18,12 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 ## Examples
 
-### Magnetic monopoles (Dirac monopole)
+### Magnetic monopoles 
  {#MagneticMonopoles}
 
-In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure. The _[[Dirac monopoe]]_.
+#### Dirac monopole
+
+In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure. The _[[Dirac monopole]]_.
 
 This is the classical exmaple of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
 
@@ -34,6 +36,11 @@ $$
 $$
 
 of [[Minkowski spacetime]] with the [[worldline]] of a point removes, this means precisely that the possible [[instanton]] field configurations of the [[electromagnetic field]] on such a spacetime is given by an [[integer]]. This integer is called the _[[magnetic charge]]_ of the monopole defect. (Mathematically it is the [[first Chern class]] of the $U(1)$-[[principal bundle]] which underlies the electromagnetic field).
+
+#### Yang monopole
+
+The generalization of the [[Dirac monopole]] from $U(1)$-[[Yang-Mills theory]] in 3+1 dimensional [[spacetime]] to $SU(2)$-[[Yang-Mills theory]] in 5+1 dimensional spacetime is the _[[Yang monopole]]_.
+
 
 ### Electroweak monopoles
  {#ElectroweakMonopoles}
@@ -49,9 +56,6 @@ $$
 
 However, in ([Cho-Maison](#ChoMaison)) it is claimed that the true topology of the moduli space of vacua in electroweak symmetry breaking is topologically more interesting. The corresponding phenomenology of vacuum defect monopoles of this kind is discussed in ([Cho-Kim-Yoon13](#ChoKimYoon13)).
 
-### Yang monopole
-
-The generalization of the [[Dirac monopole]] from 3+1 dimensional [[spacetime]] to 5+1 dimensional spacetime is the _[[Yang monopole]]_.
 
 ## Related concepts
 
@@ -76,3 +80,9 @@ Detailed discussion of the [[phenomenology]] of electroweak monopoles is in
  {#ChoKimYoon13}
 
 [[!redirects monopoles]]
+
+[[!redirects cosmic monopole]]
+[[!redirects cosmic monopoles]]
+
+[[!redirects magnetic monopole]]
+[[!redirects magnetic monopoles]]
