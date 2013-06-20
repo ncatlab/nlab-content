@@ -1,3 +1,4 @@
+
 # Finite categories
 * table of contents
 {: toc}
@@ -21,6 +22,7 @@ Similarly, a **locally finite category** is a category [[enriched category|enric
 
 One is often interested in whether an arbitrary category $D$ has [[limit]]s and [[colimit]]s indexed by finite categories.  A category with all finite limits is called **[[finitely complete category|finitely complete]]** or **left exact** (or **lex** for short).  A category with all finite colimits is called **finitely cocomplete** or **right exact**.
 
+
 ## Related concepts
 
 * [[finite set]]
@@ -32,3 +34,4 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 
 [[!redirects finite category]]
 [[!redirects finite categories]]
+[[!redirects finite categiry]]
