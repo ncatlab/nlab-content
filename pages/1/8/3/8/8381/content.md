@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Deduction** is the process of passing from [[premises]] to [[conclusions]] in such a way that the [[truth]] of the former necessitates the truth of the latter. In other words, deductive [[logic]] studies what it is for an argument to be **valid**.
+**Deductive** [[reasoning]] is the process of passing from [[premises]] to [[conclusions]] in such a way that the [[truth]] of the former necessitates the truth of the latter. In other words, deductive [[logic]] studies what it is for an argument to be **valid**.
 
 ## Formalizations
 
