@@ -59,26 +59,112 @@ in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] 
 | meaning: | degree | [[boson]]/[[fermion]] super-degree | [[spin geometry|spin]] | [[string geometry|string]] | $-$ | $-$ | ? | ? | $\cdots$ |
 | [[free construction|free object]] on single [[generators and relations|generator]]: | [[abelian group]] | [[abelian 2-group]] | [[abelian 3-group]] | [[abelian 4-group]] |  |  | [[abelian 7-group]] | [[abelian ∞-group|abelian 8-group]] | [[abelian ∞-group]] | 
 
-+-- {: .num_remark}
-###### Remark
 
-That $\mathbb{Z}_{24}$ in degree 3 here coresponds to [[string structure]]/[[string geometry]] is witnessed by many occurences of this number in this context. Maybe the most direct one concerning [[supergeometry]] is the $24$ factor in the periodicity of "2-Clifford algebras" in their incarnation as objects in the [[3-category of fermionic conformal nets]].
 
-=--
+This suggests (as hinted at in ([Kapranov 13](#Kapranov13))) that in full generality [[higher geometry|higher]] [[supergeometry]] is to be thought of as $\mathbb{S}$-[[graded object|graded]] geometry, hence [[Isbell duality|dually]] as [[higher algebra]] with [[∞-group of units]] [[augmented ∞-group|augmented]] over the [[sphere spectrum]]. 
 
-+-- {: .num_remark}
-###### Remark
+But notice that this is canonically so for every [[E-∞ ring]], see at _[∞-group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_. This would mean: In [[higher geometry]]/[[higher algebra]] supergeometry/superalgebra is intrinsic, canonically given. 
 
-Extrapolating from the pattern, the question mark entries _might_ be filled by [[Fivebrane 6-group]] [[Fivebrane structure|structure]] corresponding to [[Green-Schwarz action functional|super 5-branes]] ([[NS-5-brane]]/[[M5-brane]].
 
-=--
+Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological structures related to M-branes]]_, we can derive the terminology in the above table as indicated now. 
 
-+-- {: .num_remark}
-###### Remark
+> The following uses a not yet published story of cohomological quantization that is briefly indicated [[schreiber:Synthetic Quantum Field Theory|here]]. More details to be spelled out here when the details have been published. Until then, take the following with the required skepticism or, if necessary, raise complaints over at the nForum. ) 
 
-All this suggests that in full generality [[supergeometry]] is to be thought of as $\mathbb{S}$-graded geometry, hence [[higher algebra]] with [[∞-group of units]] [[augmented ∞-group|augmented]] over the [[sphere spectrum]]. But this is canonically so for every [[E-∞ ring]], see at _[∞-group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_.
+* **$d = 1$ [[sigma-model]]** 
 
-=--
+  The [[local coefficients]] for [[quantization|quantizing]] the ([[spinning particle|spinning]]) [[particle]] on the [[boundary]] of the [[string]] ending on a [[D-brane]] (by K-theoretic [[geometric quantization by push-forward]]/[[D-brane charge]]) are
+
+  $$
+    \array{   
+      B BU(1)
+      &\simeq&
+      B K(\mathbb{Z},2)
+      &\to& 
+      B gl_1(MU) 
+      &\to&
+      MU \text{-}Mod
+    }
+  $$
+
+  for $MU$ the [[complex K-theory spectrum]] [[E-∞ ring]], and
+  hence the characteristic twists are in degree 2 of the group of units, hence of the graded group of units
+
+  $$
+    gl_1^gr(MU) \to \mathbb{S}
+  $$
+
+  hence are graded by the second [[homotopy group]] 
+
+  $$  
+    \pi_2(\mathbb{S}) \simeq \mathbb{Z}_2
+  $$
+
+  of the sphere spectrum.
+
+* **$d = 2$ [[sigma-model]]** 
+
+  The [[local coefficients]] for [[quantization|quantizing]] the [[string]] (on the [[boundary]] of the [[M2-brane]] ending on an [[M9-brane]]) are
+
+  $$
+    \array{   
+      B B^2 U(1)
+      &\simeq&
+      B K(\mathbb{Z},3)
+      &\to& 
+      B gl_1(tmf) 
+      &\to&
+      tmf \text{-}Mod
+    }
+  $$
+
+  for the [[tmf]] [[E-∞ ring]], and
+  hence the characteristic twists are in degree 3 of the group of units, hence of the graded group of units
+
+  $$
+    gl_1^gr(tmf) \to \mathbb{S}
+  $$
+
+  hence are graded by the third [[homotopy group]] 
+
+  $$  
+    \pi_3(\mathbb{S}) \simeq \mathbb{Z}_{24}
+  $$
+
+  of the sphere spectrum.
+
+* **$d = 5$ [[sigma-model]]** 
+
+  The [[local coefficients]] for [[quantization|quantizing]] the [[Yang monopole]] (on the [[boundary]] of the [[M5-brane]] ending on an [[M9-brane]]) are
+
+  $$
+    \array{   
+      B B^5 U(1)
+      &\simeq&
+      B K(\mathbb{Z},6)
+      &\to& 
+      B gl_1(K(5)) 
+      &\to&
+      K(5) \text{-}Mod
+    }
+    \,,
+  $$
+
+  and
+  hence the characteristic twists are in degree 6 of the group of units, hence of the graded group of units
+
+  $$
+    gl_1^gr(K(5)) \to \mathbb{S}
+  $$
+
+  hence are graded by the sixth [[homotopy group]] 
+
+  $$  
+    \pi_5(\mathbb{S}) \simeq \mathbb{Z}_{2}
+  $$
+
+  of the sphere spectrum.
+
+* (...)
 
 ## Associative superalgebras
  {#AssociativeSuperalgebras}
