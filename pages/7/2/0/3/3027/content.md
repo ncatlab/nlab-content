@@ -47,9 +47,5 @@ The embedding into the category of diffeological spaces is discussed in
 * [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
  {#Hain}
 
-More on this is in exercise 72 of 
-
-* [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://www.umpa.ens-lyon.fr/~iglesias/Site/The%20Book.html))
- {#PIZ}
 
 [[!redirects Banach manifolds]]
