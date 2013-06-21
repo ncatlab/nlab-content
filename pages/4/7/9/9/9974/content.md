@@ -154,7 +154,7 @@ The object $2\mathbf{sLine} \in SmoothSuper\infty Grpd$ is equivalent to that wh
 
 * objects are the algebra $C^\infty(\mathbb{R}^p, \mathbb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ and that algebra tensored with $Cl_1(\mathbb{C})$;
 
-* morphisms are $C^\infty(\mathbb{R}^p, \mathb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ regarded as a bimodule over itself and that bimodule tensored with $Cl_1(\mathbb{C})$;
+* morphisms are $C^\infty(\mathbb{R}^p, \mathbb{C})\otimes (\wedge^\bullet \mathbb{C}^q)_{even}$ regarded as a bimodule over itself and that bimodule tensored with $Cl_1(\mathbb{C})$;
 
 * 2-morphisms form the group $C^\infty(\mathbb{R}^p, \mathbb{C}^\times)$.
 
