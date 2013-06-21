@@ -14,5 +14,5 @@ See also
 
 * Ara, Dimitri; M&#233;tayer, Fran&#231;ois,  The Brown-Golasi&#324;ski model structure on strict ∞-groupoids revisited. Homology Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
 
-* Maltsiniotis, G. La cat\'egorie cubique avec connexions est une cat\'egorie
-  test stricte. Homology, Homotopy Appl. (11)~(2) (2009) 309--326.
+* Maltsiniotis, G. La cat&#233;gorie cubique avec connexions est une cat&#233;gorie
+  test stricte. Homology, Homotopy Appl. (11)  (2) (2009) 309 -- 326.
