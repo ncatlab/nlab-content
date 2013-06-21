@@ -75,6 +75,11 @@ See for instance ([Arone-Hess](#AroneHess))
 
 ## References
 
+For $A_\infty$-algebras in [[characteristic]] 0 (in chain complexes) augmentation appears for instance as def. 2.3.2.2 on p. 81 in 
+
+* Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
+
+
 The following articles discuss (just) [[augmented ∞-groups]].
 
 Augmentation (of [[∞-groups of units]] of [[E-∞ rings]]) over the [[sphere spectrum]]  appears in
