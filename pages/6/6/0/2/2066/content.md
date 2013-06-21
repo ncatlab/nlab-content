@@ -69,9 +69,9 @@ For a fully faithful embedding $i \colon \mathcal{C} \to \mathcal{D}$ to exhibit
 
 +-- {: .proof} 
 ###### Proof 
-We must show that these conditions imply that every idempotent $e \colon D \to D$ in $\mathcal{D}$ splits. Write $D$ as a retract of some $i(C)$, say $r: i(C) \to D$ with right inverse $s$. Then $p = s \circ e \circ r \colon i(C) \to i(C)$ is idempotent, and we may split $p$, say as $p = \sigma \circ \pi$ where $\pi \circ \sigma = 1_E$ for some $E$. We claim that the pair 
+We must show that these conditions imply that every idempotent $e \colon D \to D$ in $\mathcal{D}$ splits. Write $D$ as a retract of some $i(C)$, say $r: i(C) \to D$ with right inverse $s$ ($r s = 1_D$). Then $p = s e r \colon i(C) \to i(C)$ is idempotent, and we may split $p$, say as $p = \sigma \pi$ with $\pi \sigma = 1_E$ for some $E$. We claim that the pair 
 
-$$\pi \circ s \colon D \to E, \qquad r \circ \sigma \colon E \to D$$ 
+$$\pi s \colon D \to E, \qquad r \sigma \colon E \to D$$ 
 
 provides a splitting of $e$. Certainly we have 
 
@@ -81,7 +81,11 @@ and we also have
 
 $$\sigma(\pi s)(r \sigma) = p s r \sigma = s e r s r \sigma = s e r \sigma = p \sigma = \sigma \pi \sigma = \sigma$$ 
 
-but since $\sigma$ is monic, this implies $(\pi s)(r \sigma) = 1_E$, as desired. 
+whence
+
+$$(\pi s)(r \sigma) = \pi \sigma (\pi s)(r \sigma) = \pi \sigma = 1_E,$$ 
+
+as desired. 
 =-- 
 
 
