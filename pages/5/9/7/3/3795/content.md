@@ -41,6 +41,7 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 ### General
 
 * [[Simon Donaldson]], ...
+* Young-Hoon Kiem, Jun Li, _Categorification of Donaldson-Thomas invariants via Perverse Sheaves_, [arxiv/1212.6444](http://arxiv.org/abs/1212.6444)
 
 ### Motivic Donaldson-Thomas invariants
 
@@ -61,7 +62,11 @@ and with lecture notes in
 See also
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_ ([arxiv/1006.2706](http://arxiv.org/abs/1006.2706))
-
+* D.-E. Diaconescu, Z. Hua, Y. Soibelman, _HOMFLY polynomials, stable pairs and motivic Donaldson-Thomas invariants_, [arxiv/1202.4651](http://arxiv.org/abs/1202.4651)
+* Tudor Dimofte, Sergei Gukov, _Refined, Motivic, and Quantum_, [arxiv/0904.1420](http://arxiv.org/abs/0904.1420)
+* Vittoria Bussi, Shoji Yokura, _Naive motivic Donaldson-Thomas type Hirzebruch classes and some problems_, [arxiv/1306.4725](http://arxiv.org/abs/1306.4725)
+* Andrew Morrison, Sergey Mozgovoy, Kentaro Nagao, Balazs Szendroi, _Motivic Donaldson-Thomas invariants of the conifold and the refined topological vertex_, [arxiv/1107.5017](http://arxiv.org/abs/1107.5017)
+* Markus Reineke, _Degenerate Cohomological Hall algebra and quantized Donaldson-Thomas invariants for m-loop quivers_, [arxiv/1102.3978](http://arxiv.org/abs/1102.3978)
 
 ### Relation to wall crossing
 
