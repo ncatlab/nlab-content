@@ -216,8 +216,33 @@ $\Omega (2\mathbf{sLine})$ here; a graded line bundle over some $X$ there is a m
 For $X$ 1-truncated, hence a groupoid, a graded central extension in the sense there is a map $X \to 2\mathbf{sLine}$ which factors as 
 $X \to \mathbf{B}\Omega (2\mathbf{sLine}) \to 2\mathbf{sLine}$.
 
-
 =--
+
+### Relation to the unconnected delooping of the $\infty$-group of units of $KU$
+ {#RelationToUnconnectedDeloopingOfUnitsOfKU}
+
+In ([Sagave 11](#Sagave11)) is introduced an "unconnected delooping" $bgl_1(E)$ of the [[∞-group of units]] $gl_1(E)$ of an [[E-∞ ring]] $E$, fitting into a [[homotopy cofiber sequence]]
+
+$$
+  gl_1(E) \to gl_1^J(E) \to \mathbb{S} \to bgl_1^\ast(E)
+  \,.
+$$
+
+
+See at _[∞-Group of units -- Augmented definition](#infinity-group+of+units#AugmentedDefinition)_.
+
+By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have a [[homotopy equivalence]]
+
+$$
+  {\vert 2\mathbf{sLine}\vert}
+  \simeq
+  bgl_1(MU)
+  \,.
+$$
+
+This is what in ([Freed-Distler-Moore](#Precis), [Freed](#Freed)) is written $R^{-1}$.
+
+(...)
 
 ## References
 
@@ -251,6 +276,13 @@ The above higher supergeometric story is made explicit in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
  {#FSS}
+
+The "unconnected delooping" of the [[infinity-group of units]] of an $E_\infty$-ring $E$ is introduced in 
+
+* [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+ {#Sagave11}
+
+and the specific example for the case of  $E = KU$ is in example 4.10 there.
 
 [[!redirects super line 2-bundles]]
 
