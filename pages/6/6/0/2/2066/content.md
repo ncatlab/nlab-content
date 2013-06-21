@@ -56,7 +56,34 @@ For $\mathcal{C}$ a [[category]], a [[functor]] $\mathcal{C} \to \tilde \mathcal
 
 =--
 
-See e.g. ([Lurie, def. 5.1.4.1](#Lurie)).
+See e.g. ([Lurie, def. 5.1.4.1](#Lurie)). 
+
++-- {: .num_lemma #def2}
+###### Lemma  
+For a fully faithful embedding $i \colon \mathcal{C} \to \mathcal{D}$ to exhibit an idempotent(-splitting) completion of $\mathcal{C}$, it suffices that 
+
+* $i(p)$ splits in $\mathcal{D}$ for every idempotent $p$ in $\mathcal{C}$, and 
+
+* every object in $\tilde \mathcal{C}$ is the retract of an object in $\mathcal{C}$ under $i$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We must show that these conditions imply that every idempotent $e \colon D \to D$ in $\mathcal{D}$ splits. Write $D$ as a retract of some $i(C)$, say $r: i(C) \to D$ with right inverse $s$. Then $p = s \circ e \circ r \colon i(C) \to i(C)$ is idempotent, and we may split $p$, say as $p = \sigma \circ \pi$ where $\pi \circ \sigma = 1_E$ for some $E$. We claim that the pair 
+
+$$\pi \circ s \colon D \to E, \qquad r \circ \sigma \colon E \to D$$ 
+
+provides a splitting of $e$. Certainly we have 
+
+$$(r \sigma)(\pi s) = r s e r s = e,$$ 
+
+and we also have 
+
+$$\sigma(\pi s)(r \sigma) = p s r \sigma = s e r s r \sigma = s e r \sigma = p \sigma = \sigma \pi \sigma = \sigma$$ 
+
+but since $\sigma$ is monic, this implies $(\pi s)(r \sigma) = 1_E$, as desired. 
+=-- 
+
 
 ### In components
  {#InComponents}
