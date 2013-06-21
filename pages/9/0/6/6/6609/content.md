@@ -72,7 +72,7 @@ For instance section 2.4 of
 
 
 
-[[!redirects tensor]]
+[[!redirects tensors]]
 
 [[!redirects tensor field]]
 [[!redirects tensor fields]]
@@ -81,3 +81,4 @@ For instance section 2.4 of
 [[!redirects contravariant tensor]]
 [[!redirects covariant tensors]]
 [[!redirects contravariant tensors]]
+
