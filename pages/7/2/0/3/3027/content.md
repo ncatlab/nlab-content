@@ -26,7 +26,7 @@ A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By defau
 
 ### Embedding into the category of diffeological spaces
 
-The category of smooth Banach manifolds has a [[full and faithful functor]] into the category of [[diffeological spaces]]. In terms of Chen smooth spaces this was observed in ([Hain](#Hain)), a discussion for genuine diffeological spaces is in the textbook ([Iglesias-Zemmour, exercise 72](#PIZ)).
+The category of smooth Banach manifolds has a [[full and faithful functor]] into the category of [[diffeological spaces]]. In terms of Chen smooth spaces this was observed in ([Hain](#Hain)).
 
 ## Related concepts
 
