@@ -22,17 +22,19 @@ There are several variations on this idea, and the term 'limit point' itself is 
 
 ## Definitions
 
-The classical definitions apply when $S$ is a [[topological space]].  Then $A$ may be thought of as a [[subset]] of (the [[underlying set]] of) $S$, and $x$ as an [[element]].  In order to apply the definitions in [[constructive mathematics]], there needs to be an [[inequality]] $\ne$ on the points of $S$.  (We need not assume that $\ne$ is an [[apartness relation]] nor any compatibility between $\ne$ and the topology, at least for the definitions; although it\'s quite possible that some classical theorems will require such assumptions.)
+The classical definitions apply when $S$ is a [[topological space]].  Then $A$ may be thought of as a [[subset]] of (the [[underlying set]] of) $S$, and $x$ as an [[element]].  In order to apply the definitions in [[constructive mathematics]], there needs to be an [[inequality]] $\ne$ on the points of $S$; in [[classical mathematics]], this is taken to be the [[denial inequality]], as usual.  (We need not assume that $\ne$ is an [[apartness relation]] nor any compatibility between $\ne$ and the topology, at least for the definitions; although it\'s quite possible that some classical theorems will require such assumptions.)
 
-For the most general definition, let $\kappa$ be a collection of [[cardinal numbers]].  (We might want $\kappa$ to have some closure properties akin to those of an [[arity class]], but the definition there is not quite what we want.)  Recall that a _$\kappa$-[[arity|ary]] [[indexed subset]]_ of $S$ is a [[function]] $B\colon I \to S$ such that the [[cardinality]] of $I$ belongs to the class $\kappa$; a point $y$ is _in_ $B$ (as an indexed subset) if $y$ belongs to the [[range]] of $B$ (as a function), and $y$ is _out_ of $B$ if $y$ is inequal ($\ne$) to every point in $B$.
+For the most general definitions, let $\kappa$ be a collection of [[cardinal numbers]].  (We might want $\kappa$ to have some closure properties akin to those of an [[arity class]], but the definition there is not quite what we want.)  Recall that a _$\kappa$-[[arity|ary]] [[indexed subset]]_ of $S$ is a [[function]] $B\colon I \to S$ such that the [[cardinality]] of $I$ belongs to the class $\kappa$; a point $y$ is _in_ $B$ (as an indexed subset) if $y$ belongs to the [[range]] of $B$ (as a function), and $y$ is _out_ of $B$ if $y$ is inequal ($\ne$) to every point in $B$.
 
 +-- {: .num_defn #general}
-###### Definition
+###### Definitions
 
-The point $x$ is a __$\kappa$-accumulation point__ of the subspace $A$ if, for each [[neighbourhood]] $U$ of $x$, for each $\kappa$-ary indexed subset $B$ of the [[intersection]] $U \cap A$, there is an element $y$ of $U \cap A$ that is out of $B$.
+The point $x$ is a __$\kappa$-adherent point__ of the subspace $A$ if, for each [[neighbourhood]] $U$ of $x$, for each $\kappa$-ary indexed subset $B$ of the [[intersection]] $U \cap A$, there is an element $y$ of $U \cap A$ that is out of $B$.  Slightly more strongly, $x$ is a __$\kappa$-accumulation point__ of $A$ if, for each neighbourhood $U$ of $x$, for each $\kappa$-ary indexed subset $B$ of $U \cap A$, there is an element $y \ne x$ of $U \cap A$ that is out of $B$.  (Alternatively, take $U$ to be a [[punctured neighborhood]], but that won\'t work constructively in general.)
 =--
 
-The classical arity classes give the following special cases:
+Every $\kappa$-accumulation point is a $\kappa$-adherent point; the converse holds if every $k \in \kappa$ satisfies $k + 1 \in \kappa$ (and then one usually says 'accumulation' rather than 'adherent').  Also, if $\kappa \subseteq \lambda$, then every $\lambda$-(adherent/accumulation) point is a $\kappa$-(adherent/accumulation) point.
+
+It immediately follows that the following classical special cases are in order of increasing strength:
 
 *  Using $\kappa = 1 = \{0\}$:
 
@@ -42,15 +44,15 @@ The classical arity classes give the following special cases:
    The point $x$ is an __adherent point__ of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ is [[inhabited subset|inhabited]] (nonempty).
    =--
 
-*  Using $\kappa = 2 = \{0, 1\}$:
+*  Using $\kappa = 1$ again:
 
    +-- {: .num_defn #accumulation}
    ###### Definition
 
-   The point $x$ is an __accumulation point__ of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ has at least two elements.
+   The point $x$ is an __accumulation point__ of the subspace $A$ if, for every punctured neighbourhood $U$ of $x$, the intersection $U \cap A$ is inhabited.
    =--
 
-*  Using $\kappa = \aleph_0 = \{0, 1, 2, \ldots\}$:
+*  Using $\kappa = \omega = \{0, 1, 2, \ldots\}$:
 
    +-- {: .num_defn #omega}
    ###### Definition
@@ -58,15 +60,13 @@ The classical arity classes give the following special cases:
    The point $x$ is an __$\omega$-accumulation point__ of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ is [[infinite set|infinite]].
    =--
 
-*  Using $\kappa = \aleph_1 = \{0, 1, 2, \ldots, \aleph_0\}$:
+*  Using $\kappa = \omega_1 = \{0, 1, 2, \ldots, \aleph_0\}$:
 
    +-- {: .num_defn #condensation}
    ###### Definition
 
    The point $x$ is a __condensation point__ of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ is [[uncountable set|uncountable]].
    =--
-
-Except for Definition \ref{adherent}, one sometimes uses [[punctured neighborhood|punctured (or deleted) neighbourhoods]] in place of neighbourhoods.  In Definition \ref{accumulation}, one merely states that $U \cap A$ is inhabited for each punctured neighbourhood $U$; the later definitions can use neighbourhoods or deleted neighbourhoods without change.  (But this requires $\ne$ to be an [[apartness relation]] to work constructively.)
 
 
 ## Properties
@@ -75,9 +75,11 @@ The subspace $A$ is [[closed subspace|closed]] iff every adherent point of $A$ b
 
 More generally, the [[topological closure|closure]] of $A$ is the set of all adherent points of $A$.  Classically (using [[excluded middle]], or more generally if $S$ has [[decidable equality]]), the closure of $A$ is the [[union]] of $A$ and its set of accumulation points.
 
+
 ## Related concepts
 
 * [[limit of a sequence]]
+
 
 [[!redirects limit point]]
 [[!redirects limit points]]
