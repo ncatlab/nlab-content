@@ -21,6 +21,10 @@ A **grand unified theory** in this context is an attempt to realize the standard
 
 ## References 
 
+An original article with an eye towards [[supergravity]] unification is
+
+* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, P. van Nieuwenhuizen and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
+
 A good introduction to GUTs for mathematicians is
 
 * [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_ ([arXiv](http://arxiv.org/abs/0904.1556))
