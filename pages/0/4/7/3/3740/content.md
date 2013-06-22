@@ -134,7 +134,7 @@ Conversely, an upper semicontinuous function $f : X \to \mathbb{R} \cup \{ +\inf
 $$U(A) \coloneqq \{ \varphi : A \to \mathbb{Q} | \forall x \in A: \varphi(x) \gt f(x) \} \subseteq \Delta(\mathbb{Q})(A)$$
 over open sets $A \subseteq X$.
 
-See [Mulvey (1974)](#Mulvey 1974) (page 28) for details.
+See [Mulvey (1974)](#Mulvey1974) (page 28) for details.
 
 
 ## References
