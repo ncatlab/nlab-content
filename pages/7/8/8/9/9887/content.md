@@ -19,7 +19,50 @@
 
 ## Idea
 
++-- {: .num_defn}
+###### Definition
+
+For $E$ an [[E-∞ ring]] and $\beta \in \pi_n(E)$ an element of the $n$th stable [[homotopy group]], then _multiplication by $\beta$_ is the homomorphism
+
+$$
+  \mu_\beta
+  \;\colon\;
+  E 
+  \simeq
+  \Sigma^\infty S^0 \wedge E
+  \stackrel{\Sigma^{-n}\beta\wedge 1}{\to}
+  \Sigma^{-n} \Sigma^\infty \wedge E
+  \stackrel{\Sigma^{-n}\Sigma^\infty \mu}{\to}
+  \Sigma^{-n}E
+  \,.
+$$
+
+The _localization_ of $E$ at $\beta$ is the [[homomotopy colimit]] over the iterated multiplication with $\beta$
+
+$$
+  E[\beta^{-1}]
+  \coloneqq
+  \underset{\to}{\lim}
+  \left[
+    E \stackrel{\mu_\beta}{\to}
+    \Sigma^{-n}E 
+    \stackrel{\Sigma^{-n} \mu_\beta}{\to}
+   \Sigma^{-2n} E
+   \to
+   \cdots
+  \right]
+$$
+
+which has the property that $\mu_\beta$ becomes an [[equivalence]] on $E[\beta^{-1}]$.
+
+=--
+
+
+
 **Snaith's theorem** asserts that 
+
++-- {: .num_theorem}
+###### Theorem
 
 1. the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
 
@@ -31,9 +74,11 @@
 1. the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
 
    $$
-     MU \simeq (\mathbb{S}[B U])[\beta^{-1}]
+     MP \simeq (\mathbb{S}[B U])[\beta^{-1}]
      \,.
    $$
+
+=--
 
 ## References
 
