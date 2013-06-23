@@ -57,6 +57,8 @@ this is the universal even periodic cohomology theory with orientation
 
 The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group law]]s.
 
+The [[periodic cohomology theory|periodic]] version is sometimes written $PMU$.
+
 ## Differential cohomology refinement
 
 The refinement of cobordism cohomology theory to [[differential cohomology]] is [[differential cobordism cohomology]].
@@ -68,10 +70,13 @@ The refinement of cobordism cohomology theory to [[differential cohomology]] is 
 [[Snaith's theorem]] asserts that the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
 
 $$
-  MU \simeq \mathbb{S}[B U][\beta^{-1}]
+  PMU \simeq \mathbb{S}[B U][\beta^{-1}]
   \,.
 $$
 
+## Related concepts
+
+* [[algebraic cobordism spectrum]]
 
 ## References
 
