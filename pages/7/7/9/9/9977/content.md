@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 The __denial inequality__ is the [[negation]] of [[equality]].
 
 This is a term found in [[constructive mathematics]], to distinguish from other [[inequality relation]]s such as [[apartness]].  It is taken for granted in [[classical mathematics]].
