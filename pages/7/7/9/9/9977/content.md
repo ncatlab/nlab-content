@@ -1,8 +1,9 @@
 
 The __denial inequality__ is the [[negation]] of [[equality]].
 
-This is a term found in [[constructive mathematics]], to distinguish from other [[inequality relation]]s; it is taken for granted in [[classical mathematics]].  In work on [[homotopy type theory]], it is called __disequality__.
+This is a term found in [[constructive mathematics]], to distinguish from other [[inequality relation]]s such as [[apartness]].  It is taken for granted in [[classical mathematics]].
 
+In some contexts it is common to reserve the word "inequaliity" for [[order]] relations such as $\le$ and $\lt$.  For instance, this is common in [[type theory]] with [[subtype]] relations that form an ordering on the types.  In such contexts, one may instead use the word **disequality** to refer to denial inequality.
 
 [[!redirects denial inequality]]
 [[!redirects disequality]]
