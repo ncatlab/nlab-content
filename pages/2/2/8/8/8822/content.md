@@ -22,7 +22,7 @@ The [[duality|dual]] notion is that of a _[[coseparator]]_.
 
 ## Caution on terminology
 
-The term 'generator' is more ambiguous because of the use of 'generators' as in [[generators and relations]].
+The term 'generator' is slightly more ambiguous because of the use of 'generators' in [[generators and relations]]. That said, there is a link between these two senses provided by theorem \ref{motive} (q.v.). 
 
 
 ## Definitions
@@ -45,11 +45,7 @@ More generally:
 
 A [[family]] $\mathcal{S} = (S_a ;|; a\colon A)$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
 
-* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if 
-
-  * for every index $a$ and every morphism $e\colon S_a \to X$,
-
-  * $e \circ f = e \circ g$, then $f = g$.
+* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if $f \circ e = g \circ e$ for every $e \colon S_a \to X$ sourced in the family, then $f = g$.
 =--
 
 Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently say that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(U_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
@@ -69,13 +65,8 @@ A __separating set__ is a [[size issues|small]] separating class.
 
 *  More generally, in any [[well-pointed category]], any [[terminal object]] is a separator.  More generally still, in any represented [[concrete category]], the representing object is a separator.
 
-* The standard example of a separator in the category of $R$-[[modules]] over a [[ring]] $R$ is any [[free module]] $R^I$ (for $I$ an [[inhabited set]]) and $R$ (which is $R^I$ for $I$ a [[point]]) in particular.  If a separator is a finitely generated [[projective object]] in the category of $R$-modules, then the traditional terminology is _progenerator_.  Progenerators are important in classical Morita theory, see [[Morita equivalence]].
+* The standard example of a separator in the category of $R$-[[modules]] over a [[ring]] $R$ is any [[free module]] $R^I$ (for $I$ an [[inhabited set]]) and $R$ (which is $R^I$ for $I$ a [[point]]) in particular.  If a separator is a finitely generated [[projective object]] in the category of $R$-modules, then one sometimes says (especially in the older literature, e.g. Freyd's *Abelian Categories*) that the separator is a _progenerator_.  Progenerators are important in classical Morita theory, see [[Morita equivalence]].
 
-  +-- {: .query}
-  [[Mike Shulman|Mike]]: The term "progenerator" seems unfortunate to me; it sounds to me like a [[pro-object]] that is a generator.  Is it well-established?  I've never heard it, though I have heard "projective generator" in the context of Morita theory.
-
-  [[Zoran Škoda]]: It is an extremely frequent term in classical algebra and in many of the standard monographs in module theory over classical rings. I personally never use the expression and mentioned it only once in a survey. But as a link to that area of mathematics I tend to behave conservatively. Notice that the terminology subsumes finite generation. 
-  =--
 
 * The existence of a small separating family is one of the conditions in [[Giraud's theorem]] characterizing [[Grothendieck topos]]es.
 
@@ -84,13 +75,15 @@ A __separating set__ is a [[size issues|small]] separating class.
 
 ## Strengthened separators
 
-+-- {: .num_theorem}
++-- {: .num_theorem #motive}
 ###### Motivating theorem
 
-If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a family $(S_a)_{(a\colon A)}$  is a separating family if and only if, for every $X\in C$, the canonical morphism
+If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a set $(S_a)_{(a\colon A)}$  is a separating set if and only if, for every $X\in C$, the canonical morphism
 $$ \varepsilon_X\colon \coprod_{a\colon A, f\colon S_a \to X} S_a \longrightarrow X $$
 is an [[epimorphism]].
 =--
+
+This theorem explains a likely origin of the term "generator" or "generating family". For example, in linear algebra, one says that a set of morphisms $f_a: S_a \to X$ spans or generates $X$ if the induced map $\oplus S_a \to X$ maps epimorphically onto $X$. 
 
 More generally:
 
