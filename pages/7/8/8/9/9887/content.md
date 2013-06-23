@@ -19,41 +19,39 @@
 
 ## Idea
 
+For $A$ an [[abelian ∞-group]] write $E \coloneqq \mathbb{S}[A] = \Sigma^\infty_+ A$ for its [[∞-group E-∞ ring]]. 
+
 +-- {: .num_defn}
 ###### Definition
 
-For $E$ an [[E-∞ ring]] and $\beta \in \pi_n(E)$ an element of the $n$th stable [[homotopy group]], then _multiplication by $\beta$_ is the homomorphism
+For $\beta \in \pi_n(E)$ an element of the $n$th stable [[homotopy group]], then _multiplication by $\beta$_ is a homomorphism
 
 $$
-  \mu_\beta
+  \beta_\ast
   \;\colon\;
   E 
-  \simeq
-  \Sigma^\infty S^0 \wedge E
-  \stackrel{\Sigma^{-n}\beta\wedge 1}{\to}
-  \Sigma^{-n} \Sigma^\infty \wedge E
-  \stackrel{\Sigma^{-n}\Sigma^\infty \mu}{\to}
-  \Sigma^{-n}E
+  \to
+  \Sigma^{-n} E
   \,.
 $$
 
-The _localization_ of $E$ at $\beta$ is the [[homomotopy colimit]] over the iterated multiplication with $\beta$
+The _localization_ of $E$ at $\beta$ is the [[homotopy colimit]] over the iterated multiplication with $\beta$
 
 $$
   E[\beta^{-1}]
   \coloneqq
   \underset{\to}{\lim}
   \left[
-    E \stackrel{\mu_\beta}{\to}
+    E \stackrel{\beta_\ast}{\to}
     \Sigma^{-n}E 
-    \stackrel{\Sigma^{-n} \mu_\beta}{\to}
+    \stackrel{\Sigma^{-n} \beta_\ast}{\to}
    \Sigma^{-2n} E
    \to
    \cdots
   \right]
 $$
 
-which has the property that $\mu_\beta$ becomes an [[equivalence]] on $E[\beta^{-1}]$.
+which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]] on $E[\beta^{-1}]$.
 
 =--
 
@@ -74,9 +72,18 @@ which has the property that $\mu_\beta$ becomes an [[equivalence]] on $E[\beta^{
 1. the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
 
    $$
-     MP \simeq (\mathbb{S}[B U])[\beta^{-1}]
+     PMU \simeq (\mathbb{S}[B U])[\beta^{-1}]
      \,.
    $$
+
+=--
+ 
+([Snaith 79](#Snaith79))
+
++-- {: .num_remark}
+###### Remark
+
+The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] is disucssed in ([GepnerSnaith 08](#GepnerSnaith08)).
 
 =--
 
@@ -85,6 +92,7 @@ which has the property that $\mu_\beta$ becomes an [[equivalence]] on $E[\beta^{
 The theorem is due to 
 
 * [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979)
+ {#Snaith79}
 
 with a simpler proof given in 
 
@@ -97,7 +105,8 @@ Another proof due to [[Mike Hopkins]] is in
 
 A version for [[algebraic K-theory]] is discussed in 
 
-* [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  ([pdf](http://www.math.uiuc.edu/documenta/vol-14/14.pdf))
+* [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817))
+ {#GepnerSnaith08}
 
 and for [[motivic cohomology]] in 
 
