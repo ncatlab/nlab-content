@@ -59,7 +59,7 @@ As with other colimits, an inductive limit, if any exists at all, is unique up t
 
 ## Properties {#properties}
 
-According to 1.5 and 1.21 in the book by Adamek & Rosicky, a category has $\kappa$-directed colimits iff it has $\kappa$-[[filtered colimit|filtered]] ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones.
+According to 1.5 and 1.21 in the [[Locally Presentable and Accessible Categories|book]] by [[Jiří Adámek]] & [[Jiří Rosický]], a category has $\kappa$-directed colimits iff it has $\kappa$-[[filtered colimit|filtered]] ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones.
 
 The fact that directed colimits suffice to obtain all filtered ones may be regarded as a convenience similar to the fact that all [[colimits]] can be constructed from [[coproducts]] and [[coequalizers]].
 
