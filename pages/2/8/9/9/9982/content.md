@@ -1,0 +1,7 @@
+
+
+* [webpage](http://www.hcm.uni-bonn.de/people/phd-students/profile/karol-szumio-1/)
+
+category: people
+
+[[!redirects Karol Szumilo]]
