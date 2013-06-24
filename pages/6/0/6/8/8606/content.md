@@ -15,7 +15,8 @@
 
 ## Idea
 
-The _Baer sum_ is the natural addition operation on [[abelian group extensions]].
+The _Baer sum_ is the natural addition operation on [[abelian group extensions]]
+as well on the extensions of $R$-modules, for fixed ring $R$. 
 
 For $G$ a [[group]] and $A$ an [[abelian group]], the extensions of $G$ by $A$ are classified by the degree-2 [[group cohomology]] 
 
@@ -88,8 +89,42 @@ $$
 
 ### On short exact sequences
 
+In any category with products, for any object $C$ there is a [[diagonal]] morphism
+$\Delta^C:C\to C\times C$; in a category with coproducts there is a codiagonal morphism $\nabla_C: C\coprod C$. Every additive category is, in fact, a category with [[biproduct]]s, so both morphisms are there. Short exact sequences in
+the category of $R$-modules, or in arbitrary abelian category, form an additive category (morphisms are commutative ladders of arrows) in which the biproduct
+$0 \to A_i \to \hat H_{i} \to G_i \to 0$ for $i = 1,2$ is
+$0\to A_1\oplus A_2 \to H_1\oplus H_2\to G_1\oplus G_2\to 0$. 
 
-For $0 \to A \to \hat G_{i} \to G \to 0$ for $i = 1,2$ two [[short exact sequences]] of [[abelian groups]], their **Baer sum** is 
+Now if $0\to M\to N\to P\to 0$ is any extension, call it $E$, 
+and $\gamma:P_1\to P$ a morphism, 
+then there is a morphism $\Gamma' = (id_M,\beta_1,\gamma)$ from an
+extension $E_1$ of the form $0\to M\to N_1\to P_1\to$ to $E$, where the pair $(E_1,\Gamma_1)$ s unique up to isomorphism of extensions, 
+and it is called $E\gamma$. In fact, the diagram
+$$\array{
+N_1&\to &P_1\\
+\downarrow\beta_1 && \downarrow\gamma\\
+N&\to &P
+}$$
+is a pullback diagram. Dually, for any morphism $\alpha:M\to M_2$, there is a morphism $\Gamma_2 = (\alpha,\beta_2,id_P)$ to an extension $E_2$ of the form
+$0\to M_2\to N_2\to P$; the pair $(E_2,\Gamma_2)$ is unique up to isomorphism of
+extensions and it is called $\alpha E$. 
+
+In fact, the diagram, 
+$$\array{
+M&\to &N\\
+\downarrow\alpha && \downarrow\beta_2\\
+M_2&\to &N_2
+}$$
+
+s a pushout diagram. 
+
+It holds $(\alpha E)\gamma\cong \alpha (E\gamma)$. 
+
+The Baer's sum of two extensions $E_1,E_2$ of the form $0\to M\to N_i\to P\to 0$
+(i.e. with the same $M$ and $P$) is given by $E_1+E_2 = \nabla_A (E_1\oplus E_2) \Delta_C$; this gives the structure of the abelian group on $Ext(P,M)$ and $Ext$ is a biadditive functor. 
+
+In different notation, if $0 \to A \to \hat G_{i} \to G \to 0$ for $i = 1,2$ 
+are two [[short exact sequences]] of [[abelian groups]], their **Baer sum** is 
 
 $$
   \hat G_1 + \hat G_2
@@ -136,9 +171,9 @@ $$
 
 ## References
 
-Lecture notes include for instance
+* S. MacLane, _Homology_, 1963
 
-* Patrick Morandi, _Ext Groups and Ext Functors_ ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+* Patrick Morandi, _Ext groups and Ext functors_ ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
 
 [[!redirects Baer sums]]
 [[!redirects Baer's sum]]
