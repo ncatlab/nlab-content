@@ -30,14 +30,43 @@ then $g_1 = g_2$.
 
 ## Examples
 
-In [[Set]], the set of [[truth value]]s is a cogenerator.  More generally, in any [[well-pointed topos]], the [[subobject classifier]] is a cogenerator.
+In [[Set]], the set of [[truth value]]s is a cogenerator.  More generally, in any [[well-pointed topos]], the [[subobject classifier]] is a cogenerator. 
 
+Much more generally, we have 
 
-The existence of a small (co)generating family is one of the conditions in one version of the [[adjoint functor theorem]].
++-- {: .num_prop} 
+###### Proposition 
+Every [[topos]] with a [[size issues|small set]] of [[separator|generators]] (e.g., a well-pointed topos, or a Grothendieck topos), and that has [[products]] of objects indexed over sets no larger in [[cardinality]] than the generating set, admits an [[injective object|injective]] cogenerator. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $C$ be a set of generators for the topos. We claim that 
+
+$$\prod_{c \in C} \Omega^c$$ 
+
+is a cogenerator. For suppose $f, g \colon X \stackrel{\to}{\to} Y$ are distinct morphisms. The contravariant power object functor $\Omega^-$ is faithful (a familiar fact, since it is [[monadic functor|monadic]]), so that $\Omega^f, \Omega^g: \Omega^Y \stackrel{\to}{\to} \Omega^X$ are distinct. Since the objects $c$ form a [[separator|generating set]], there is some $h \colon c \to \Omega^Y$ such that the composites 
+
+$$c \stackrel{h}{\to} \Omega^Y \stackrel{\overset{\Omega^f}{\to}}{\underset{\Omega^g}{\to}} \Omega^X$$ 
+
+are distinct. The map $h$ may be transformed to a map $\tilde{h}: Y \to \Omega^c$, and it follows that the two composites 
+
+$$X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y \stackrel{\tilde{h}}{\to} \Omega^c$$ 
+
+are distinct. For any other $c' \in C$, we may uniformly define $Y \to \Omega^{c'}$ to be the map classifying the maximal [[subobject]] of $c' \times Y$, so that these maps together with $\tilde{h}$ collectively induce a map 
+
+$$Y \to \prod_{c \in C} \Omega^c$$ 
+
+that yields distinct results when composed with $f$ and $g$. This proves the claim. 
+
+The object $\prod \Omega^c \cong \Omega^{\sum c}$ is injective because already $\Omega$ is injective (see Mac Lane-Moerdijk, IV.10), and it is a general fact that in a [[cartesian closed category]], an exponential $X^Y$ whose base $X$ is injective is also injective. 
+=-- 
+
+Notice also that the existence of a small (co)generating family is one of the conditions in one version of the [[adjoint functor theorem]]. We may conclude, for example, that [[Grothendieck toposes]] are cototal (q.v.). 
 
 ##Terminology
 
-The concept of _cogenerator_ is dual to that of [[separator]], so it can also be refereed to as a _coseparator_.
+The concept of _cogenerator_ is dual to that of [[separator]], so it can also be referred to as a _coseparator_.
 
 
 ## Related concepts
