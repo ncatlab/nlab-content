@@ -9,9 +9,9 @@ The **Lindenbaum--Tarski algebra** of a [[theory]] in [[propositional logic]] is
 
 ## Examples
 
-* The Lindenbaum--Tarski algebra of [[intuitionistic logic|intuitionistic]] propositional logic is a [[Heyting algebra]].
+* The Lindenbaum--Tarski algebra of a theory in [[intuitionistic logic|intuitionistic]] propositional logic is a [[Heyting algebra]].
 
-* The Lindenbaum--Tarski algebra of a classical propositional logic is a [[Boolean algebra]].
+* The Lindenbaum--Tarski algebra of a theory in classical propositional logic is a [[Boolean algebra]].
 
 
 ## The Lindenbaum--Tarski algebra of a normal modal logic
