@@ -145,6 +145,8 @@ $$
 
   * [[simplicial set]]
 
+  * [[simplicial diagram]]
+
   * [[simplicial object in an (∞,1)-category]]
 
 * [[semi-simplicial object]]
