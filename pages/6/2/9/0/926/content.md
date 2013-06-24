@@ -182,7 +182,7 @@ that factors $f : X \to Y$ such that for all $n \in \mathbb{N}$
 
 1. $X \to im_n(f)$ 
 
-   1. induces an [[epimorphism]] on connected components;
+   1. induces an [[epimorphism]] on [[homotopy groups]] in degree $n-1$;
 
    1. induces an [[isomorphism]] on [[homotopy groups]] in degree $\lt n-1$
 
