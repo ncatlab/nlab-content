@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Whitehead tower_ of a [[pointed object|pointed]] [[homotopy type]] $X$ is an interpolation of the point inclusion $* \to X$ be a sequence of homotopy types
+The _Whitehead tower_ of a [[pointed object|pointed]] [[homotopy type]] $X$ is an interpolation of the point inclusion $* \to X$ by a sequence of homotopy types
 
 $$
   * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} 
@@ -94,7 +94,7 @@ In traditional models this construction is highly non-[[functor]]ial, except for
 
 ### Whitehead's construction 
 
-In [WHitehead 1952](#Whitehead) is answered the question, posed by [[Witold Hurewicz]], of the existence of what we would now call $n$-connected \'covers\' of a given space $X$, taking this to mean a fibration $X\langle n\rangle \to X$ with $X\langle n\rangle$ $n$-connected and otherwise inducing isomorphisms on homotopy groups. 
+[Whitehead 1952](#Whitehead) answered the question, posed by [[Witold Hurewicz]], of the existence of what we would now call $n$-connected \'covers\' of a given space $X$, taking this to mean a fibration $X\langle n\rangle \to X$ with $X\langle n\rangle$ $n$-connected and otherwise inducing isomorphisms on homotopy groups. 
 
 The construction proceeds as follows (using modern terminology). Given a pointed space $(X,x)$,
 
