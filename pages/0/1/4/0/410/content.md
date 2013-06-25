@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -20,6 +20,7 @@ Informally, a **free functor** is a [[left adjoint]] to a [[forgetful functor]] 
 Formally, with respect to a [[monad]] or [[algebraic theory]] or [[operad]] $T$, and $T Alg(C)$ the corresponding category of [[algebras over a monad]] or [[algebras over an algebraic theory]] or [[algebras over an operad]], respectively, in some category $C$, the **free $T$-algebra functor** is the [[left adjoint]] to the [[forgetful functor]] $T Alg(C) \to C$.
 
 Such a functor may be thought of as sending any [[object]] of $C$ to the $T$-algebra _freely generated_ by it.
+
 
 ### Free objects
 
@@ -33,6 +34,7 @@ More generally, even if the entire left adjoint $F$ doesn't exist, a [[free obje
 [[duality|Dually]], a __cofree functor__ is a [[right adjoint]] to a forgetful functor. 
 
 For the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1768). 
+
 
 ## Examples
 
@@ -56,6 +58,7 @@ One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [
 
 A general way to construct free functors is with a [[transfinite construction of free algebras]] (in [[set theory|set-theoretic]] foundations), or with an [[inductive type]] or [[higher inductive type]] (in [[type theory|type-theoretic]] foundations).
 
+
 ### For cofree functors
 
 * The [[cofree coalgebra]] on a vector space. More generally, if $M$ is an [[operad]] in a symmetric monoidal category $V$, $Prop(M)$ its associated [[PROP]], and if $C$ is a monoidal $V$-category, then an $M$-coalgebra in $C$ may be identified with a monoidal $V$-functor $Prop(M)^{op} \to C$. Under suitable completeness assumptions on $C$, the forgetful functor $M$-$Coalg_C \to C$ has a right adjoint, and this forgetful functor is [[comonadic functor|comonadic]]. 
@@ -68,20 +71,27 @@ A general way to construct free functors is with a [[transfinite construction of
 
 * A rich source of examples is [[coreflective subcategories]], which are comonadic over the ambient category. For example, the category of compactly generated spaces is coreflective in the category of all spaces, $Top$.  
 
+
+
 ## Related concepts
 
 * [[free object]], [[universal property]]
+
 
 [[!redirects free functor]]
 [[!redirects free functors]]
 [[!redirects free construction]]
 [[!redirects free constructions]]
+[[!redirects free]]
 
 [[!redirects cofree functor]]
 [[!redirects cofree functors]]
+[[!redirects cofree]]
 [[!redirects co-free functor]]
 [[!redirects co-free functors]]
+[[!redirects co-free]]
 [[!redirects fascist functor]]
 [[!redirects fascist functors]]
+[[!redirects fascist]]
 
 [[!redirects free-forgetful adjunction]]
