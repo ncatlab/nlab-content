@@ -8,3 +8,5 @@ See (or write):
 
 
 category: adjective
+
+[[!redirects connective]]
