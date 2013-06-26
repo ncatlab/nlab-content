@@ -111,6 +111,8 @@ See for instance ([MRS 09](#MRS09)) and citations given there.
 
 * [string theory FAW - Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
 
+* [[Brandenberger-Vafa mechanism]]
+
 
 ## References
 
