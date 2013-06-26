@@ -79,7 +79,7 @@ Loop groups of [[compact space|compact]] [[Lie groups]] have canonical [[central
 Write 
 
 $$
-  t_\theta \colon L G \to LG
+  t_\theta \colon L G \to L G
 $$
 
 for the [[automorphism]] which rotates loops by an [[angle]] $\theta$. 
