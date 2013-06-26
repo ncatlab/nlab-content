@@ -136,6 +136,6 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
 Surveys and reviews include
 
-* Peter Dybje, _(What I know about) the history of the identity type_ (2006) ([pdf slides](http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf))
+* Peter Dybjer, _(What I know about) the history of the identity type_ (2006) ([pdf slides](http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf))
 
 [[!redirects hyperdoctrines]]
