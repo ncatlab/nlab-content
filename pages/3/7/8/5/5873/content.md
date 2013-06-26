@@ -56,7 +56,7 @@ More precisely, one thinks of
 
 So, in particular, a hyperdoctrine is a kind of [[indexed category]] or [[Grothendieck fibration|fibered category]].
 
-The general concept of hyperdoctrines does for [[predicate logic]] precisely what [[Lindenbaum algebras]] do for [[propositional logic]], positioning the [[categorical semantics|categorical formulation]] of [[logic]] as a natural extension of the algebraicization of logic. 
+The general concept of hyperdoctrines does for [[predicate logic]] precisely what [[Lindenbaum-Tarski algebras]] do for [[propositional logic]], positioning the [[categorical semantics|categorical formulation]] of [[logic]] as a natural extension of the algebraicization of logic. 
 
 ## Properties
  {#Properties}
