@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Brandenberger-Vafa mechanism_ is an argument using ingredients of [[string theory]] to deduce that the [[observable universe]] is a [[spacetime]] of 3+1 _large_ [[dimensions]] (in addition to small higher dimensions in a [[Kaluza-Klein compactification]]).
+
+## References
+
+The original article is
+
+* Robert Brandenberger, [[Cumrun Vafa]], _Superstrings in the Early Universe_, Nucl.Phys. B316 (1989) 391 ([web](http://inspirehep.net/record/263348))
+
+For further developments and further pointers see
+
+* [[Brian Greene]], Daniel Kabat, Stefanos Marnerides, _On three dimensions as the preferred dimensionality of space via the Brandenberger-Vafa mechanism_ ([arXiv:1212.2115](http://arxiv.org/abs/1212.2115))
+
