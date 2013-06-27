@@ -139,7 +139,7 @@ Now consider what happens as we move around the circle.  Suppose that we look at
 
 ## Conjugacy Classes of Unitary Matrices
 
-The symmetric product $SP^n(S^1)$ can be identified with the space of conjugacy classes of unitary transformations on $\mathbb{C}^n$, aka unitary $n \times n$-matrices.  This is because the conjugacy class of a unitary transformation is characterised by the eigenvalues of a matrix in the class, including their multiplicities, and these lie in $S^1$.  Hence $U_n/conj \simeq S^1$ and the induced map $U_n \to S^1$ is the [[determinant]] mapping.
+The symmetric product $SP^n(S^1)$ can be identified with the space of conjugacy classes of unitary transformations on $\mathbb{C}^n$, aka unitary $n \times n$-matrices.  This is because the conjugacy class of a unitary transformation is characterised by the eigenvalues of a matrix in the class, including their multiplicities, and these lie in $S^1$.  Hence $U_n/conj \simeq SP^n(S^1)$ and the induced map $U_n \to S^1$ is the [[determinant]] mapping.
 
 
 ## References
