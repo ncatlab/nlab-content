@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Witten genus_ is a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
+An _elliptic genus_ or _Witten genus_ is a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
 
 The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
 [[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
@@ -33,7 +33,7 @@ $$
  \sigma : MString \to tmf
 $$
 
-from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _$\sigma$-[[orientation in generalized cohomology|orientation]]_, the [[string orientation of tmf]].
+from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _[[sigma-orientation]]_, the [[string orientation of tmf]].
 
 
 ## References
@@ -47,6 +47,20 @@ The original reference on the Witten genus is
 
   * _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
 
+That it takes a [[string structure]] to make the elliptic genus land in [[modular forms]] was noticed in 
+
+* [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf))
+
+Further discussion of the relation to [[quantum anomalies]] and the [[Green-Schwarz mechanism]] ([[string structure]], [[string^c structure]]) is in 
+
+* [[Wolfgang Lerche]], B. Nilsson, A. Schellekens, N. Warner, _Anomaly cancelling terms from the elliptic genus_ (1987) ([pdf](http://lerche.web.cern.ch/lerche/papers/ellgenus1.pdf))
+
+* Qingtao Chen, [[Fei Han]], Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_, JDG, 88 (2011) 1-39 ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+
+Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohomology is in 
+
+* [[Haynes Miller]], _The elliptic character and the Witten genus_, Contemporary mathematics, volume 96, 1989 ([pdf](http://dedekind.mit.edu/~hrm/papers/ell-char.pdf))
+
 Surveys are in
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
@@ -58,10 +72,14 @@ The discussion of the refinement of the Witten genus to a morphism of ring spect
 * [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
   {#AndoHopkinsRezk}
 
-
 see also remark 1.4 of
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller and Lurie)_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf)).
+
+and for more on the [[sigma-orientation]] see
+
+* [[Matthew Ando]], _The sigma orientation for analytic circle-equivariant elliptic cohomology_, Geom. Topol. 7 (2003) 91-153 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
+
 
 Discussion of the relation to [[vertex operator algebras]] is in 
 
@@ -93,8 +111,6 @@ and in terms of [[factorization algebra]] in
 * [[Kevin Costello]], _A geometric construction of the Witten genus, II_ ([arXiv:1112.0816](http://arxiv.org/abs/1112.0816))
  {#Costello}
 
-
-[[!redirects sigma-orientation]]
 
 [[!redirects elliptic genus]]
 [[!redirects elliptic genera]]
