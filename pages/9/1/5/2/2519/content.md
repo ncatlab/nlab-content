@@ -29,7 +29,7 @@ It is defined to be a [[category]] of objects that behave like [[spaces]], one o
 
 There is a standard definition  and various straightforward variations.
 
-## standard defnition ##
+## standard definition ##
 
 
 +-- {: .un_defn }
