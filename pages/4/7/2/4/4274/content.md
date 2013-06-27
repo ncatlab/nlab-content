@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -12,7 +16,6 @@
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -35,6 +38,9 @@ $$
 
 from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _[[sigma-orientation]]_, the [[string orientation of tmf]].
 
+## Related concepts
+
+* [[elliptic genus]]
 
 ## References
 
@@ -51,6 +57,13 @@ That it takes a [[string structure]] to make the elliptic genus land in [[modula
 
 * [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf))
 
+Surveys are in
+
+* [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
+
+* Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+
+
 Further discussion of the relation to [[quantum anomalies]] and the [[Green-Schwarz mechanism]] ([[string structure]], [[string^c structure]]) is in 
 
 * [[Wolfgang Lerche]], B. Nilsson, A. Schellekens, N. Warner, _Anomaly cancelling terms from the elliptic genus_ (1987) ([pdf](http://lerche.web.cern.ch/lerche/papers/ellgenus1.pdf))
@@ -61,11 +74,6 @@ Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohom
 
 * [[Haynes Miller]], _The elliptic character and the Witten genus_, Contemporary mathematics, volume 96, 1989 ([pdf](http://dedekind.mit.edu/~hrm/papers/ell-char.pdf))
 
-Surveys are in
-
-* [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
-
-* Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
 
 The discussion of the refinement of the Witten genus to a morphism of ring spectra, to the [[string orientation of tmf]] is in
 
@@ -112,5 +120,3 @@ and in terms of [[factorization algebra]] in
  {#Costello}
 
 
-[[!redirects elliptic genus]]
-[[!redirects elliptic genera]]
