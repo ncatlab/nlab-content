@@ -35,6 +35,11 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
 (...)
 
+### Partition function and Witten genus
+
+[[!include genera and partition functions - table]]
+
+
 ## Related concepts
 
 * [[string theory]]
