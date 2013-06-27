@@ -231,6 +231,10 @@ See also Section 2.3.18 and section 4.7 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_  ([pdf slides](http://ncatlab.org/schreiber/files/Erlangen2011Schreiber.pdf)).
 
+### Partition functions
+
+* [[Terry Gannon]], _Partition Functions for Heterotic WZW Conformal Field Theories_, Nucl.Phys. B402 (1993) 729-753 ([arXiv:hep-th/9209042](http://arxiv.org/abs/hep-th/9209042))
+
 ### D-branes
  {#ReferencesDBranes}
 
