@@ -32,6 +32,8 @@ A [[genus]] in [[elliptic cohomology]].
 
 * [[Witten genus]]
 
+[[!include genera and partition functions - table]]
+
 
 ## References
 
@@ -46,5 +48,9 @@ The relation of this to [[elliptic cohomology]] was understood in
 The interpretation of the elliptic genus as the [[partition function]] of the [[type II superstring]] is due to 
 
 * [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
+
+More on this is in 
+
+* Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
 
 [[!redirects elliptic genera]]
