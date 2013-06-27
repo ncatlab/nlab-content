@@ -36,6 +36,8 @@ as an invariant correction of the [[kernel]] of such an operator. More generally
 
 * _[in KK-theory](#GeneralIdeaInKKTheory)_.
 
+More generally, in [[generalized cohomology theory]] indices are given by [[genera]] and universal [[orientation in generalized cohomology]], such as for instance the [[elliptic genus]] for [[elliptic cohomology]] and the [[Witten genus]] for [[tmf]]. See at _[[genus]]_ for more on this generalized notion of indices.
+
 ### For elliptic differential and Fredholm operators
  {#IdeaForDifferentialOperators}
 
