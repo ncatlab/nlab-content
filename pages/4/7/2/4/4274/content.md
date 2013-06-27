@@ -40,7 +40,7 @@ from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also c
 
 ## Related concepts
 
-* [[elliptic genus]]
+[[!include genera and partition functions - table]]
 
 ## References
 
