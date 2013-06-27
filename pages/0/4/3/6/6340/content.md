@@ -106,6 +106,9 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
   * [[Baum-Connes conjecture]]
 
+[[!include genera and partition functions - table]]
+
+
 ## References
 
 A standard textbook account in the context of [[KK-theory]] is in section 24.1 of 
