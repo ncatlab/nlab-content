@@ -64,18 +64,19 @@ This is for instance the case at least over the point for the [[A-hat genus]] $M
 
 ## Examples
 
-* The [[Euler characteristic]] $X \mapsto \chi(X)$ is close to being 
-  a genus, but is _not_ [[cobordism]] invariant
+* The [[Euler characteristic]] $X \mapsto \chi(X)$ is close to being  a genus, but is _not_ [[cobordism]] invariant
   
   (this is the [[index]] of the [[Dirac operator]] $D = d + d^\dagger$)
 
 * The [[signature genus]];
 
-* The [[A-hat genus]] is the [[index of a Dirac operator]] coming from 
-  a [[spin bundle]];
+* The [[A-hat genus]] is the [[index of a Dirac operator]] coming from a [[spin bundle]];
 
 * The [[elliptic genus]] or [[Witten genus]] may be interpreted as the
   index of a [[Dirac operator]] on [[loop space]].
+
+
+[[!include genera and partition functions - table]]
 
 
 [[!redirects genera]]
