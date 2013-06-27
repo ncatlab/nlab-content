@@ -4,12 +4,22 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 #### Manifolds and cobordisms
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
@@ -67,3 +77,5 @@ This is for instance the case at least over the point for the [[A-hat genus]] $M
 * The [[elliptic genus]] or [[Witten genus]] may be interpreted as the
   index of a [[Dirac operator]] on [[loop space]].
 
+
+[[!redirects genera]]
