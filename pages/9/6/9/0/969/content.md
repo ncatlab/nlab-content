@@ -53,7 +53,7 @@ A **localization** of $C$ by $W$ (or "at $W$") is
 
   * the map between [[functor category|functor categories]]
 $$(-)\circ Q : Funct(C[W^{-1}], A) \to Funct(C,A)$$ 
-is [[fully faithful functor|full and faithful]].
+is [[fully faithful functor|full and faithful]] for every category $A$.
 
 Note:
 
