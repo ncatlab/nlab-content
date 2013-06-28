@@ -39,6 +39,9 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 
 ### Compactification on a Riemann surface
 
+The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann surface]] yields as [[worldvolume]] [[theory (physics)|theory]] [[N=2 D=4 super Yang-Mills theory]]. See at _[N=2 D=4 SYM -- Construction by compactification of 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
+
+
 The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
 
 ## Related entries
