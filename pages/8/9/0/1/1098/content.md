@@ -51,7 +51,11 @@ $$
 
 * [[(2,1)-presheaf]]
 
-* **$(\infty,1)$-presheaf**
+* **$(\infty,1)$-presheaf**, [[(∞,1)-sheaf]], [[∞-stack]] ,
+
+  * [[simplicial presheaf]]
+
+  * [[model structure on functors]]
 
 * [[(∞,n)-presheaf]]
 
@@ -65,3 +69,12 @@ Section 5.1 of
 [[!redirects (∞,1)-presheaf]]
 [[!redirects (∞,1)-presheaves]]
 [[!redirects (infinity,1)-presheaves]]
+
+[[!redirects ∞-prestack]]
+[[!redirects ∞-prestacks]]
+
+[[!redirects infinity-prestack]]
+[[!redirects infinity-prestacks]]
+
+
+
