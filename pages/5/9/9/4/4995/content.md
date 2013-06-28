@@ -1187,6 +1187,7 @@ and
 
 * [[cohesive site]], [[(∞,1)-cohesive site]]
 
+_unrelated_ is the notion of _[[cohesive ∞-prestack]]_
 
 ## References
 
