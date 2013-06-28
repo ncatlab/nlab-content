@@ -31,9 +31,12 @@ A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has
 
 By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$ families of $N = 2, D = 4$ SYM theories interpolate to [[N=4 D=3 super Yang-Mills theory]]. ([Seiberg-Witten 96](#SeibergWitten96)).
 
-### Partition function
+### Construction by compactification of 5-branes
+ {#ConstructionByCompactificationOf5Branes}
 
-* [[AGT correspondence]]
+$N=2$ super Yang-Mills theory can be realized as the [[worldvolume]] theory of [[M5-branes]] [[Kaluza-Klein compactification|compactified]] on a [[Riemann surface]] ([Klemm-Lerche-Mayr-Vafa-Warner 96](#KlemmLercheMayrVafaWarner96), [Witten 97](#Witten97), [Gaiotto 09](#Gaiotto09)), hence as a compactifiction of the [[6d (2,0)-superconformal QFT]] on the M5. This in particular gives a geometric interpretation of [[Seiberg-Witten duality]] in 4d in terms of the 6d 5-brane geometry.
+
+Specifically the _[[AGT correspondence]]_ expresses this relation in terms of the [[partition function]] of the theory and a [[2d CFT]] on the [[Riemann surface]] on which the 5-brane is compactified. See at _[[AGT correspondence]]_ for more on this.
 
 ## Related concepts
 
@@ -64,7 +67,7 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 ### Introductions and surveys
  {#Surveys}
 
-* Gaiotto, _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
+* [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
 
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
 
@@ -72,15 +75,26 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
  {#Moore}
 
 
-### Lifts to M-theory
+### Construction from 5-branes
 
-[[Seiberg-Witten theory]] ([Seiberg-Witten](SeibergWitten94)) for $N=2$, $D=4$ SYM has a nice geometrical description in terms of [[M5-brane]] compactifications, discussed in 
+$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) for $N=2$, $D=4$ SYM may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]]. This is discussed in
 
-* A. Klemm, W. Lerche, P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
+* A. Klemm, [[Wolfgang Lerche]], P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
+ {#KlemmLercheMayrVafaWarner96}
 
-* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_ ([arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166))
+* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_ ([arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166)) 
+ {#Witten97}
 
 * [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
+ {#Gaiotto09}
+
+The corresponding theory under [[AdS-CFT duality]] is discussed in
+
+* [[Davide Gaiotto]], [[Nathan Seiberg]], _The gravity duals of N=2 superconformal field theories_ ([arXiv:0904.4466](http://arxiv.org/abs/0904.4466))
+
+Discussion of construction of [[N=1 D=4 super Yang-Mills theory]] this way is in 
+
+* Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
 [[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
