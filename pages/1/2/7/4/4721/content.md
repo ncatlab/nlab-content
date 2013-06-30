@@ -1,6 +1,6 @@
 There are many Witten conjectures; by this name however most often one refers to a conjecture proved by Kontsevich in
 
-* [[Maxim Konstevich]], _Intersection theory on the moduli space of curves and the matrix Airy function_, Comm. Math. Phys. __147__ (1992), no. 1, 1--23, [euclid](http://projecteuclid.org/euclid.cmp/1104250524), [author's pdf](http://193.51.104.7/~maxim/TEXTS/intersection_theory_6.pdf)
+* [[Maxim Kontsevich]], _Intersection theory on the moduli space of curves and the matrix Airy function_, Comm. Math. Phys. __147__ (1992), no. 1, 1--23, [euclid](http://projecteuclid.org/euclid.cmp/1104250524), [author's pdf](http://193.51.104.7/~maxim/TEXTS/intersection_theory_6.pdf)
 
 It is about a generating function for intersection numbers of Mumford-Morita-Miller stable classes on the compactification of moduli space of punctured curves; the conjecture relates them to the Korteweg-de Vries integrable hierarchy. It is conjectured by Witten based on the conjectured equivalence of two approaches to quantum gravity, which do not seem to be mathematically a priori anyhow related. 
 
@@ -18,5 +18,9 @@ and also versions for higher spin
 * Tyler J.Jarvis, Takashi Kimura, Arkady Vaintrob, _Moduli spaces of higher spin curves and integrable hierarchies_, Compositio Math. __126__ (2001),  no. 2, 157--212.
 
 Gregory Naber's lectures on Witten conjecture (this is another Witten conjecture, about Seiberg-Witten invariants) can be found at his [homepage](http://www.pages.drexel.edu/~gln22).
+
+See also 
+
+* Wikipedia, _[Witten conjecture](https://en.wikipedia.org/wiki/Witten_conjecture)_
 
 [[!redirects Witten's conjecture]]
