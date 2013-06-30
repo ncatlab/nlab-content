@@ -54,10 +54,15 @@ In other words, because understanding [[observables]] in [[QCD]]/[[Yang-Mills th
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
 
+### Twistor space formulation
+
+There is a natural reformulation of the theory using [[twistor]] [[field (physics)|fields]]. See the references [below](#ReferencesTwistorSpace). And see at _[[twistor string theory]]_.
+
 ### Topological twists
 
 There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQFT]]. Its [[S-duality]] is supposed to contain [[geometric Langlands duality]] as a special case.
 
+See at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 ## Related concepts
 
 * [[super Yang-Mills theory]]
@@ -103,9 +108,8 @@ Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.39
 
 A review of [[MHV amplitudes]] is in 
 
-* Gustavo Machado Monteiro, _MHV Tree Amplitudes in Super-Yang-Mills and
-in Superstring Theory_ (2010) ([pdf](http://www.ift.unesp.br/posgrad/gustavo.pdf))
-  {Monteiro}
+* Gustavo Machado Monteiro, _MHV Tree Amplitudes in Super-Yang-Mills and in Superstring Theory_ (2010) ([pdf](http://www.ift.unesp.br/posgrad/gustavo.pdf))
+  {#Monteiro}
 
 Discussion of special properties of [[scattering amplitudes]] in the planar sector is in
 
@@ -115,6 +119,19 @@ Discussion of special properties of [[scattering amplitudes]] in the planar sect
 For mathematical background see
 
 * Alexander Postnikov, _Total positivity, Grassmannians, and networks_ ([arXiv:math/0609764](http://arxiv.org/abs/math/0609764))
+
+## Twistor space formulation
+ {#ReferencesTwistorSpace}
+
+The [[twistor]] space formulation of $N=4$ $D = 4$ SYM was originally found from the [[B-model]] [[string theory]] in 
+
+* [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun. Math. Phys. 252:189-258,2004 ([arXiv:hep-th/0312171/](http://arxiv.org/abs/hep-th/0312171/))
+
+A comprehensive discussion is in 
+
+* Rutger Boels, Lionel Mason, David Skinner, _Supersymmetric Gauge Theories in Twistor Space_, JHEP 0702:014,2007 ([arXiv:hep-th/0604040](http://arxiv.org/abs/hep-th/0604040))
+
+See also ([Monteiro](#Monteiro)) below.
 
 ### Scattering amplitudes
 
