@@ -477,3 +477,5 @@ and references given there.
 
 [[!redirects Green-Schwarz anomaly cancellation]]
 [[!redirects Green-Schwarz quantum anomaly cancellation]]
+
+[[!redirects Green-Schwarz anomaly]]
