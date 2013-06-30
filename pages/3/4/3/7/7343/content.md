@@ -97,11 +97,9 @@ The further observation that therefore the sewing of [[Riemann surfaces]] on whi
 
 The topological twisting of the compactification which is used around (2.27) there was previously introduced in section 3.2.1 of
 
-> * [[Davide Gaiotto]], [[Gregory Moore]] and [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
+* [[Davide Gaiotto]], [[Gregory Moore]] and [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
 
-and is discussed also for instance in 
-
-section 5.1 of 
+and is discussed also for instance in section 5.1 of 
 
 * [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
 
