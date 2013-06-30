@@ -26,7 +26,7 @@
 
 A deformation of [[super Yang-Mills theory]] that yields a [[topological field theory]] in 4 [[dimensions]]. This is in higher dimensional analogy to how the [[topological string]]-twisting of the [[superstring]] yields the topological [[A-model]] and [[B-model]] 2d topological field theories.
 
-### For $N = 1$ supersymmetry
+### For $N = 4$ supersymmetry
 
 Given [[N=4 D=4 super Yang-Mills theory]], the twisting is induced by a choice of [[subgroup]] inclusion of the [[special orthogonal group]] $SO(4)$ into the [[R-symmetry]] group $SO(6)$. Then choose a [[supersymmetry]] $Q$ which is invariant under the resulting combined action of $SO(4)$ on [[spacetime]] and via [[R-symmetry]] and consider the subspace of [[quantum states]]/[[quantum observables]] which are in the [[kernel]] of $Q$. This subspace defines a [[topological field theory]] which is called the corresponding twisted topological super Yang-Mills theory.
 
@@ -71,6 +71,26 @@ The idea of topological twisting of [[supersymmetry|supersymmetric]] quantum fie
 
 * [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
+where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
+
+* [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77,1994 ([arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074))
+
+The $N=4$-case and  one of the possible $N=2$-twists yield [[instanton]] invariants captured by the [[Seiberg-Witten theory]] generalization of [[Donaldson theory]]. Another variant of the $N=2$ twist was described in 
+
+* Neil Marcus, _The other topological twisting of N=4 Yang-Mills_, Nucl.Phys. B452 (1995) 331-345 ([arXiv:hep-th/9506002](http://arxiv.org/abs/hep-th/9506002))
+
+and yields a geometric interpretation of the [[geometric Langlands correspondence]], as found in
+
+* [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_ ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
+
+A detailed analysis of the three twiss of the $N=4$ theory is in 
+
+* Carlos Lozano, _Duality in Topological Quantum Field Theories_, PhD thesis ([arXiv:hep-th/9907123](http://arxiv.org/abs/hep-th/9907123))
+
+Discussion of generalization of the twisting to [[quantum field theory on curved spacetime]] is in 
+
+* Jeong-Hyuck Park, Dimitrios Tsimpis, _Topological twisting of conformal supercharges_, Nucl. Phys. B776:405-430,2007 ([arXiv:hep-th/0610159](http://arxiv.org/abs/hep-th/0610159))
+
 Section 2.2.1 of 
 
 * [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
@@ -82,10 +102,15 @@ briefly recalls the topological twisting of [[N=4 D=4 super Yang-Mills theory]].
 
 For more on this see the references listed at _[N=2 D=4 super Yang-Mills theory -- References -- Construction from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ReferencesConstructionFrom5Branes)_.
 
-Discussion of topologically twisted supersymmetric theories in the framework of [[BV-BRST formalism]] is in 
+More mathematically formalized discussion of topologically twisted supersymmetric theories in the framework of [[BV-BRST formalism]] [[perturbation theory]] (and with an eye towards the [[factorization algebra]] formulation) is from section 15 on in
 
 * [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
 
+See also
+
 * [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](http://arxiv.org/abs/1303.2632))
 
+[[!redirects topologically twisted D=4 super Yang-Mills theories]]
 
+[[!redirects topologically twisted super Yang-Mills theory]]
+[[!redirects topologically twisted super Yang-Mills theories]]
