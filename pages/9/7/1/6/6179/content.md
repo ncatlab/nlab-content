@@ -70,6 +70,8 @@ Moreover, Witten has suggested that this S-duality secretly drives a host of oth
 
 * [[Yang-Mills theory]]
 
+* [[topologically twisted D=4 super Yang-Mills theory]]
+
 [[duality in physics]], [[duality in string theory]]
 
 * **S-duality**
