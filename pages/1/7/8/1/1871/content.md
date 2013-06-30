@@ -25,7 +25,7 @@ Yang--Mills theory is a [[gauge theory]] on a given 4-[[dimensional]] ([[pseudo-
 
 $$
   \nabla \mapsto
-  \frac{1}{e^2 }\int_X F_\nabla \wedge \star F_\nabla  + i \theta \int_X F_\nabla \wedge F_\nabla
+  \frac{1}{g^2 }\int_X F_\nabla \wedge \star F_\nabla  + i \theta \int_X F_\nabla \wedge F_\nabla
 $$
 
 for 
@@ -34,7 +34,7 @@ for
 
 * $\star$ the [[Hodge star]] operator of the metric  $g$;
 
-* $\frac{1}{e^2}$ and $\theta$ some [[real number]]s (see [[S-duality]])
+* $\frac{1}{g^2}$ the _Yang-Mills [[coupling constant]]_ and $\theta$ the _[[theta angle]]_, some [[real numbers]] (see at _[[S-duality]]_).
 
 ## Applications
 
@@ -138,4 +138,10 @@ Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari
 [[!redirects Yang–Mills theory]]
 [[!redirects Yang-Mills action]]
 [[!redirects Yang-Mills action functional]]
+
+[[!redirects theta-angle]]
+[[!redirects theta-angles]]
+
+[[!redirects theta angle]]
+[[!redirects theta angles]]
 
