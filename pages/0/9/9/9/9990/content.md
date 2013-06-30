@@ -45,7 +45,7 @@ The relation of this to [[elliptic cohomology]] was understood in
 
 * [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_ ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
-The interpretation of the elliptic genus as the [[partition function]] of the [[type II superstring]] is due to 
+The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of the [[type II superstring]]/[[heterotic string]] is due to 
 
 * [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
 
