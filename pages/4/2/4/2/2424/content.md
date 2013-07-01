@@ -30,7 +30,7 @@ which otherwise is on [[quantum anomalies]] in string theory, such as the [[Gree
 
 Finally Atiyah's section 2 mentions
 
-* (with [[Cumrun Vafa]]), _Eigenvalue inequalities for Fermions in gauge theories_, Comm. Math. Phys. 95 (1984) 257
+* (with [[Cumrun Vafa]]), _Eigenvalue inequalities for Fermions in gauge theories_, Comm. Math. Phys. 95 (1984) 257 ([Euclid](http://projecteuclid.org/euclid.cmp/1103941573))
 
 Then 
 
@@ -44,9 +44,9 @@ And various articles on the foundations of [[topological field theory]] such as
 
   on [[topologically twisted D=4 super Yang-Mills theory]] and the corresponding twists of the [[superstring]] which yield the [[A-model]] and [[B-model]] [[topological string]] 2d [[TQFTs]];
 
-* _On the structure of the topological phase of two dimensional gravity_ Nuclear Phys, B 340 (1990) 281
+* _On the structure of the topological phase of two dimensional gravity_ Nuclear Phys, B 340 (1990) 281 ([scans](http://ccdb5fs.kek.jp/cgi-bin/img_index?200033155))
 
-  on the [[topological string]] limit of the [[worldsheet]] 2d [[quantum gravity]] theory of the string
+  on the [[topological string]] limit of the [[worldsheet]] 2d [[quantum gravity]] theory of the string, including the [[A-model]] and [[B-model]] [[topological twists]] of the [[type II superstring]];
 
 and
 
