@@ -51,6 +51,11 @@ $$
 
 For [[N=2 D=4 super Yang-Mills theory]] the twisting follows the same idea, but is a little but more intricate ([Witten 11, section 5.1.1](#Witten11))
 
+### Table of relations via holographic, compactifications and twists
+
+[[!include gauge theory from AdS-CFT -- table]]
+
+
 ## Formalization
  {#Formalization}
 
@@ -99,7 +104,7 @@ The idea of topological twisting of [[supersymmetry|supersymmetric]] quantum fie
 
 * [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
-where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
+where it is [[N=2 D=4 super Yang-Mills theory]] that is twisted and related to [[Donaldson theory]]. The analogous twisting of [[N=4 D=4 super Yang-Mills theory]] is due to 
 
 * [[Cumrun Vafa]], [[Edward Witten]], _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77,1994 ([arXiv:hep-th/9408074](http://arxiv.org/abs/hep-th/9408074))
 
@@ -143,6 +148,13 @@ See also
 
 [[!redirects topologically twisted super Yang-Mills theory]]
 [[!redirects topologically twisted super Yang-Mills theories]]
+
+[[!redirects topologically twisted N=2 D=4 super Yang-Mills theory]]
+[[!redirects topologically twisted N=2 D=4 super Yang-Mills theories]]
+
+[[!redirects topologically twisted N=4 D=4 super Yang-Mills theory]]
+[[!redirects topologically twisted N=4 D=4 super Yang-Mills theories]]
+
 
 [[!redirects topological twist]]
 [[!redirects topological twists]]
