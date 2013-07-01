@@ -16,14 +16,14 @@
 
 ## Idea
 
-For $C$ a [[small category]], and $PSh(C)$ its [[presheaf topos]], we have that a [[colimit]]-preserving functor $PSh(C) \to Set$ is equivalently itself a copresheaf.
+For $C$ a [[small category]], and $PSh(C)$ its [[presheaf topos]], we have (by the discussion at _[Profunctor -- In terms of colimit preserving functors on presheaf categories](profunctor#FuncsOnPresheaves)_) that a [[colimit]]-preserving [[functor]] $PSh(C) \to Set$ is equivalently itself a [[copresheaf]] on $C$:
 
 $$
   [PSh(C), Set]_{coc} \simeq CoPSh(C)
   \,.
 $$
 
-If we replace in this statement presheaves with [[sheaves]], we obtain the notion of _cosheaf_
+If we replace in this statement presheaves with [[sheaves]], we obtain the notion of _cosheaf_ on $C$:
 
 $$
   [Sh(C), Set]_{coc} \simeq CoSh(C)
@@ -32,7 +32,7 @@ $$
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn #cosheaf}
 ###### Definition
 
 Let $C$ be a [[site]]. A **cosheaf** on $C$ is a [[copresheaf]]
@@ -59,7 +59,7 @@ Write $CoSh(C) \subset CoPSh(C)$ for the full [[subcategory]] of cosheaves.
 
 ## Proposition
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a [[natural transformation|natural]] [[equivalence of categories]]
@@ -69,13 +69,20 @@ $$
   \,,
 $$
 
-where on the right we have the category of colimit-preserving functors.
+where on the left we have the category of cosheaves from def. \ref{cosheaf} and on the right we have the category of [[colimit]]-preserving functors on the [[sheaf topos]] of $C$.
 
-Equivalently: a copresheaf is a cosheaf precisely if its [[Yoneda extension]] $PSh(C) \to Set$ factors through [[sheafification]] $PSh(C) \to Sh(C)$.
+Equivalently: a copresheaf is a cosheaf precisely if its [[Yoneda extension]] $PSh(C) \to Set$ factors through the [[sheafification]] functor $PSh(C) \to Sh(C)$.
 
 =--
 
-This is ([BungeFunk, prop. 1.4.3](BungeFunk)).
+This is ([Bunge-Funk 06, prop. 1.4.3](BungeFunk)).
+
+
+## Examples
+
+### In AQFT and higher AQFT
+
+Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[local nets of observables]]. Similar structures in [[higher category theory]] are _[[factorization algebras]]_, _[[factorization homology]]_, and _[[topological chiral homology]]_. Notably the definition of _[[factorization algebra]]_ typically explicitly involves the notion of cosheaf.
 
 ## Related concepts
 
@@ -85,12 +92,6 @@ This is ([BungeFunk, prop. 1.4.3](BungeFunk)).
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
-
-## Examples
-
-### In AQFT and higher AQFT
-
-Cosheaves of algebras, or notions similar to this, appear in [[AQFT]] as [[local nets of observables]]. Similar structures in [[higher category theory]] are [[factorization algebras]], [[factorization homology]], [[topological chiral homology]].
 
 ## References
 
