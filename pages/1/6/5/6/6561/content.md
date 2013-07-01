@@ -46,6 +46,9 @@ The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g
 
 ## Related entries
 
+[[!include gauge theory from AdS-CFT -- table]]
+
+
 [[!include table of branes]]
 
 ## References
