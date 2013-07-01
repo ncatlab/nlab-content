@@ -50,5 +50,9 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 * [[congruence]]
 
 
+## References
+
+For the history of the notion of equivalence relation see _[this MO discussion](http://mathoverflow.net/questions/135347/who-introduced-the-terms-equivalence-relation-and-equivalence-class)_.
+
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
