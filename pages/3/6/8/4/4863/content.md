@@ -192,3 +192,7 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 
 [[!redirects KK-reduction]]
 [[!redirects KK-reductions]]
+
+[[!redirects KK-compactification]]
+[[!redirects KK-compactifications]]
+
