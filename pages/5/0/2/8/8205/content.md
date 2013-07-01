@@ -28,6 +28,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Beyond the speculative hypothetized role of [[string theory]] as a physical theory of [[fundamental strings]] that constitute the observed [[fundamental particles]] in the [[standard model of particle physics]], the theory has shed light on many aspects of [[quantum field theory]] as such, both on the conceptual structure of QFT as well as on concrete theories and their concrete properties such as of. This entry lists such instances of string theory results having lead to insights in non-stringy physics and in particular into experimentally confirmed physics, such as [[QCD]] in the [[standard model of particle physics]].
 
