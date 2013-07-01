@@ -87,4 +87,10 @@ and a positive characteristic case in
 
 * [[Wolfgang Soergel]], _Modulare Koszul-Dualit&#228;t_, [arxiv/1109.0563](http://arxiv.org/abs/1109.0563)
 
+[[Bernhard Keller]] and his student Lef&#232;vre-Hasegawa
+described rather general framework for Koszul duality using dg-(co)algebras and [[twisting cochain]]s:
+* [[Bernhard Keller]], _Koszul duality and coderived categories (after Lef&#232;vre-Hasegawa)_ (2003) [abstract](http://www.math.jussieu.fr/~keller/publ/kdcabs.html) [dvi](http://www.math.jussieu.fr/~keller/publ/kdc.dvi) [pdf](http://www.math.jussieu.fr/~keller/publ/kdc.pdf) [ps](http://www.math.jussieu.fr/~keller/publ/kdc.ps)
+* Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf)
+* Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arxiv/1306.6708](http://arxiv.org/abs/1306.6708)
+
 [[!redirects Koszul dual]]
