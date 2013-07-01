@@ -37,7 +37,7 @@ Later two more precise classes of correspondences were identified, that are rega
 
 1. Systems of [[Chern-Simons theory]] and [[higher dimensional Chern-Simons theory]] can be shown explicitly to have spaces of states that are canonically identified with correlator spaces of [[CFT]]s ([[conformal block]]s) and [[self-dual higher gauge theory]] on their boundary. 
 
-1. Systems of [[quantum gravity]] in various dimensions as given by [[string theory]] on asymptocially [[anti de Sitter spacetime]]s have been checked not in total but in a multitude of special aspects in special cases to be dual to [[supersymmetric]] [[CFT]]s on their asymptotic boundary -- this is called [[AdS/CFT correspondence]].
+1. Systems of [[quantum gravity]] in various dimensions as given by [[string theory]] on asymptotically [[anti de Sitter spacetime]]s have been checked not in total but in a multitude of special aspects in special cases to be dual to [[supersymmetric]] [[CFT]]s on their asymptotic boundary -- this is called [[AdS/CFT correspondence]].
 
 
 +-- {: .num_remark}
@@ -197,7 +197,7 @@ in dimension $4k+3$ (for $k \in \mathbb{N}$) is holographically related to [[sel
 
 * $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
 
-* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its boundary (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
 
 
 ##### Some details
