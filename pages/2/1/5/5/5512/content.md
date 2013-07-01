@@ -28,6 +28,8 @@ The term _Frobenius reciprocity_ has a meaning
 
 * [In category theory](#InCategoryTheory).
 
+(For different statements of a similar name see the disambiguation at _[[Frobenius theorem]]_.)
+
 ### In representation theory
  {#InRepresentationTheory}
 
