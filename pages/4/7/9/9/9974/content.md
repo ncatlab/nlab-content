@@ -317,13 +317,15 @@ $$
 
 See at _[∞-Group of units -- Augmented definition](#infinity-group+of+units#AugmentedDefinition)_.
 
-By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have an inclusion
+By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have an [[equivalence]]
 
 $$
   {\vert 2\mathbf{sLine}\vert}
-  \hookrightarrow
-  bgl_1^\ast(KU)
+  \simeq
+  bgl_1^\ast(KU) \langle0,..,4\rangle
 $$
+
+of the [[geometric realization]] of the super-2-stack of super line 2-bundles with the [[n-truncated object in an (infinity,1)-category|4-truncation]] of the connected delooping of the [[infinity-group of units]] of $KU$.
 
 hitting the Donovan-Karoubi twists of K-theory. This is what in ([Freed-Distler-Moore](#Precis), [Freed](#Freed12)) is written $R^{-1}$.
 
