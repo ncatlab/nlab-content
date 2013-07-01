@@ -38,6 +38,9 @@ $N=2$ super Yang-Mills theory can be realized as the [[worldvolume]] theory of [
 
 Specifically the _[[AGT correspondence]]_ expresses this relation in terms of the [[partition function]] of the theory and a [[2d CFT]] on the [[Riemann surface]] on which the 5-brane is compactified. See at _[[AGT correspondence]]_ for more on this.
 
+[[!include gauge theory from AdS-CFT -- table]]
+
+
 ## Related concepts
 
 * [[super Yang-Mills theory]]
