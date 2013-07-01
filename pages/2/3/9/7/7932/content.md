@@ -211,7 +211,7 @@ In summary, for $\mathbf{c} : \mathbf{B}G \vdash V(\mathbf{c}) : Type$ an action
     \vdash \prod_{\mathbf{c} : \mathbf{B}G} V(\mathbf{c}) : Type
   $$
 
-  is the collection of [[invariants]] of the actions.
+  is the collection of [[invariants]] ([[homotopy fixed points]]) of the actions.
 
 And for $V_1, V_2$ two actions we have
 
@@ -239,7 +239,7 @@ And for $V_1, V_2$ two actions we have
 +-- {: .num_defn #TypeOfInvariants}
 ###### Definition
 
-The [[invariants]] of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$,
+The [[invariants]] ([[homotopy fixed points]]) of a $G$-$\infty$-action are the [[sections]] of the morphism $V \sslash G \to \mathbf{B}G$,
 
 $$
   Invariants(V) = \prod_{\mathbf{B}G \to *} (V \sslash G \to \mathbf{B}G)
