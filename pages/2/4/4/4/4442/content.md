@@ -25,16 +25,21 @@ the conjectural Ads/CFT correspondence asserts an identification of the [[state]
 
 ## Examples
 
-### $AdS_5 / CFT_4$
+### $AdS_5 / CFT_4$ -- Horizon limit of D3-branes
 
-[[type II string theory]] on 5d [[anti de Sitter spacetime]] is dual to [[N=4 D=4 super Yang-Mills theory]].
+[[type II string theory]] on 5d [[anti de Sitter spacetime]] (times a 5-sphere) is dual to [[N=4 D=4 super Yang-Mills theory]] on the [[worldvolume]] of a [[D3-brane]] at the asymptotic boundary
 
-### $AdS_7 / CFT_6$
+([Maldacena 97, section 2](#Maldacena97))
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 3 and 4](#AharonyGubserMaldacenaOoguriOz99))
+
+### $AdS_7 / CFT_6$ -- Horizon limit of M5-branes
  {#AdS7CFT6}
 
 We list some of the conjectured statements and their evidence concerning the case of $AdS_7/CFT_6$-duality.
 
-The hypothesis ([Maldacena 97, section 3.1](#Maldacena)) is that 
+The hypothesis ([Maldacena 97, section 3.1](#Maldacena97)) (see ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.1](#AharonyGubserMaldacenaOoguriOz99)) for a review) 
+is that 
 
 * the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of $N$ coincident [[M5-branes]] 
 
@@ -83,6 +88,50 @@ Its gauge field is hence locally a pair consisting of the abelian 3-form field $
 
 Indeed, in ([SezginSundell 2002](#SezginSundell)) more detailed arguments are given that the 7-dimensional dual to the 6d theory is a [[higher spin gauge theory]] for a higher spin [[gauge group]] extending $SO(6,2)$.
 
+### $AdS_4 / CFT_3$ --Horizon limit of M2-branes
+ {#AdS4CFT3}
+
+[[11d supergravity]]/[[M-theory]] on the asymptotitc $AdS_4$
+spacetiem of an [[M2-brane]] (...)
+
+([Maldacena 97, section 3.2](#Maldacena97))
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99))
+
+
+### $AdS_3 / CFT_2$ -- Horizon limit of D1-D5 brane bound states
+ {#AdS3CFT2}
+
+[[D1-D5 brane system]] in [[type IIB string theory]]
+
+([Maldacena 97, section 4](#Maldacena97))
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 5](#AharonyGubserMaldacenaOoguriOz99))
+
+(...)
+
+### Non-conformal duals
+
+#### Horizon limit of $Dp$-branes for arbitrary $p$
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.3](#AharonyGubserMaldacenaOoguriOz99))
+
+
+#### Horizon limit of NS5-brane
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.4](#AharonyGubserMaldacenaOoguriOz99))
+
+
+#### QCD models
+
+While all of the above horizon limits product [[super Yang-Mills theory]], one can consider certain limits of these in which they look like plain [[QCD]], at least in certain sectors. This leads to a discussion of hologrpahic description of QCD properties that are actually experimentally observed. 
+
+([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.2](#AharonyGubserMaldacenaOoguriOz99))
+
+See the _[References -- Applications -- In condensed matter physics](#ToCondensedMatterPhysics)_.
+
+
+
 ### Further gauge theories induced by compactification and twisting
 
 [[!include gauge theory from AdS-CFT -- table]]
@@ -110,10 +159,13 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ### Original articles
 
-The original article is
+The original articles are
 
-* [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
- {#Maldacena}
+* [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
+ {#Maldacena97}
+
+* [[Juan Maldacena]], _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+ {#Maldacena97}
 
 The relevance of this was amplified in
 
@@ -124,6 +176,7 @@ The relevance of this was amplified in
 Surveys and introductions include
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+ {#AharonyGubserMaldacenaOoguriOz99}
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
