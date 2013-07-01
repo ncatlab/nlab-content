@@ -143,3 +143,6 @@ See also
 
 [[!redirects topologically twisted super Yang-Mills theory]]
 [[!redirects topologically twisted super Yang-Mills theories]]
+
+[[!redirects topological twist]]
+[[!redirects topological twists]]
