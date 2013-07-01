@@ -36,6 +36,10 @@ For a useful exposition of this see ([Tolland](#Tolland)).
 
 * [[quantum sheaf cohomology]]
 
+* [[Donaldson theory]]
+
+* [[A-model]]
+
 ## References
 
 ### Expositions
