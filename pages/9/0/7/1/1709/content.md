@@ -299,7 +299,8 @@ $$
   \,.
 $$
 
-#### ... and $\infty$-sections as twisted $\infty$-functions {#InfSections}
+#### ... and $\infty$-sections as twisted $\infty$-functions  
+ {#InfSections}
 
 Regarded this way, the above discussion has a generalization to the case where the [[monoid]] $\mathbb{C}$ is replaced with any [[ring spectrum]] $R$ and we consider
 
@@ -314,6 +315,15 @@ Twisted cohomology in terms of such morphisms $\tau$ is effectively considered i
 
 and in unpublished work of [[Ulrich Bunke]] et al. For more on this see the discussion at [[(∞,1)-vector bundle]].
 
+More generally one can hence twist with maps
+
+$$
+  X \to Pic(R) \hookrightarrow R Mod
+$$
+
+into the [[Picard ∞-group]] of $R Mod$. 
+
+See also at _[∞-group of units -- augmented definition](infinity-group+of+units#AugmentedDefinition)_.
 
 ### twisted K-theory 
 
