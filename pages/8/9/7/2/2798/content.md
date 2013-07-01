@@ -662,6 +662,7 @@ class of morphisms between normal dendroidal sets
 ([Cis-Moer 09, prop. 3.16](#CisinskiMoerdijk09))
 
 #### Model structure on simplicial operads
+ {#RelationToModelStrictureOnSimplicialOperads}
 
 There exists also a [[model structure on simplicial operads]], which is 
 [[Quillen equivalence|Quillen equivalent]] to the model structure on dendroidal sets.
