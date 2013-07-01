@@ -20,8 +20,14 @@
 
 * [[Seiberg-Witten theory]]
 
+* [[Gromov-Witten theory]]
+
 ## References
 
 * Wikipedia, _[Donaldson theory](http://en.wikipedia.org/wiki/Donaldson_theory)_
+
+The relation to the [[topologically twisted N=2 D=4 super Yang-Mills theory]] is due to 
+
+* [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
 
 
