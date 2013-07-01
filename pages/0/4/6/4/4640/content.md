@@ -26,7 +26,7 @@ For $T$ the theory of commutative [[ring]]s this is called the _affine line_ .
 
 Let $k$ be a [[ring]], and $T$ the [[Lawvere theory]] of [[associative algebra]]s over $k$, such that the category of [[algebras over a Lawvere theory]] $T Alg = Alg_k$ is the [[category]] of $k$-algebras. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The canonical $T$-[[line object]] is the **affine line**
@@ -115,9 +115,13 @@ The [additive group object](http://ncatlab.org/nlab/show/line+object#AdditiveGro
     \,.
   $$
 
-## Properties {#Properties}
+## Properties 
+ {#Properties}
 
-+-- {: .un_prop}
+### Grading
+ {#Grading}
+
++-- {: .num_prop}
 ###### Proposition
 
 Let $R$ be a commutative $k$-algebra. There is a [[natural isomorphism]] between
