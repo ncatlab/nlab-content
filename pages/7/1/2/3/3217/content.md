@@ -590,7 +590,11 @@ There is a theory of [[characteristic classes]] for foliations. A most well know
 
 * [[orbifold]]
 
+* [[Frobenius theorem (differential topology)]]
+
 * [[higher differential geometry applied to plain differential geometry]]
+
+
 
 ## References
  {#References}
