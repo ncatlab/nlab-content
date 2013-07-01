@@ -63,6 +63,7 @@ $$
 
 These definitions appear ([here](http://math.northwestern.edu/~costello/factorization_public.html#[[Prefactorization%20algebras]])).
 
+
 ### Factorization algebras
 
 +-- {: .num_defn #FactorizingCover}
@@ -135,6 +136,8 @@ is an [[exact sequence]].
 =--
 
 These definitions appear [here](http://math.northwestern.edu/~costello/factorization_public.html#[[Factorization%20algebra]]).
+
+See also at _[[cosheaf]]_.
 
 ### Homotopy factorization algebras
 
