@@ -1094,6 +1094,10 @@ based on
 
 [[!redirects BV-complex]]
 [[!redirects BV-complexes]]
+[[!redirects BV complex]]
+[[!redirects BV complexes]]
+
+
 
 [[!redirects classical BV-complex]]
 [[!redirects classical BV-complexes]]
@@ -1107,6 +1111,7 @@ based on
 [[!redirects quantum BV-complexes]]
 [[!redirects quantum BV complex]]
 [[!redirects quantum BV complexes]]
+
 
 
 [[!redirects antibracket]]
