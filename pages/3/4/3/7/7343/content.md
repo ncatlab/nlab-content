@@ -109,7 +109,17 @@ and is discussed also for instance in section 5.1 of
 
 (This is possibly also the mechanism behind the [[AGT correspondence]], though the details obehind that statement seem to be unclear.)
 
-A brief review of these matters is in ([Moore 12, section 7](#Moore12)). An amplification of the relevance of this to the understanding of [[S-duality]]/[[electric-magnetic duality]] is in
+A brief review of these matters is in ([Moore 12, section 7](#Moore12)). A formalization of the [[topological twist]] in  [[perturbation theory]] formalized by [[factorization algebras]] with values in [[BV complexes]] is in section 16 of
+
+* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+ {#Costello11}
+
+For more on this see at _[[topologically twisted D=4 super Yang-Mills theory]]_.
+
+ 
+  
+
+An amplification of the relevance of this to the understanding of [[S-duality]]/[[electric-magnetic duality]] is in
 
 * [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  {#Witten07}
