@@ -148,6 +148,10 @@ In summary, the [[D-brane]] [[submanifolds]] in a Lie group which induce an [[op
 
 ## Related concepts
 
+* [[current algebra]], [[affine Lie algebra]]
+
+* [[Knizhnik-Zamolodchikov equation]]
+
 * [[coset WZW model]]
 
 * [[gauged WZW model]]
@@ -291,6 +295,10 @@ Would someone translate the Topological term for an aging algebraic topologist? 
 
 [[!redirects WZW theory]]
 [[!redirects WZW-theory]]
+
+[[!redirects Wess-Zumino-Novikov-Witten model]]
+[[!redirects Wess-Zumino-Novikov-Witten models]]
+
 [[!redirects WZNW model]]
 [[!redirects WZNW models]]
 [[!redirects WZNW-model]]
