@@ -135,8 +135,6 @@ A bit of elementary exposition of these ideas is at
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
-A blog discussion about the issue of classifying spaces versus moduli spaces is [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html) (is this the right reference?)
-
 [[!redirects moduli spaces]]
 
 [[!redirects fine moduli space]]
