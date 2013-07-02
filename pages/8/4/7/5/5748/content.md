@@ -39,7 +39,7 @@ A discussion of deformations of complex structures is in
 
 * [[Domenico Fiorenza]], _[[domenicofiorenza:The periods map of a complex projective manifold. An oo-category perspective]]_
 
-The _[[moduli space]] of complex structures_ on a manifold is discussed for instance from page 175 on of 
+The _[[moduli space of complex structures]]_ on a manifold is discussed for instance from page 175 on of 
 
 * Yongbin Ruan, _Symplectic topology and complex surfaces_ in _Geometry and analysis on complex manifolds_ (1994)
 
