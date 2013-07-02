@@ -95,7 +95,7 @@ Monadic methods can be applied to the study of descent of structures that cannot
 
 
 Given a [[principal bundle]] $P \to X$ (a topological one, say, i.e. a morphism in [[Top]]) and a morphism of base spaces $f : X \to Z$, the would-be candidate for the push-forward of $P$ along $f$ is simply the composite map
-$P \to X \to Z$, regarded as a total space $P \to Z$ liveing over $Z$.
+$P \to X \to Z$, regarded as a total space $P \to Z$ living over $Z$.
 
 While that always exists as such, it will in general not be a principal bundle anymore: the [[fiber]]s of $P \to Z$ over points $z \in Z$ consist of many copies of the fibers of $P \to X$ over points in $X$. Hence the shape of the fibers may change drastically as we push bundles forward.
 
@@ -371,6 +371,7 @@ All the ingredients of monadic descent generalize from [[category theory]] to [[
 ## Related concepts
 
 * [[descent]]
+
 
   * [[cover]]
 
