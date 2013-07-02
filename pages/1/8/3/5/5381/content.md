@@ -9,17 +9,28 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A [[chain complex]] $A_\bullet$ in an [[abelian category]] $\mathcal{A}$ is called **perfect** if
 
-* it is [[bounded chain complex|bounded]];
+* it is [[bounded chain complex]];
 
-* all objects are [[projective object]]s.
+* of [[projective module|projective]]
 
-## Perfect complexes of sheaves
+* and [[finitely generated modules]].
 
-Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A complex $F$ of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
 
-Let $D(X)$ be the [[derived category]] of $\mathcal{O}_X$-modules.  The full subcategory $D(X)_perf \subset D(X)$ of perfect complexes is [[triangulated category|triangulated]], and stable under derived inverse image and derived tensor product.  Further there is an inclusion
+(or maybe some slight variant of this...)
+
+## Perfect complexes of abelian sheaves
+
+Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] $F$ of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
+
+Let $D(X)$ be the [[derived category]] of $\mathcal{O}_X$-modules.  The [[full subcategory]] $D(X)_perf \subset D(X)$ of perfect complexes is [[triangulated category|triangulated]], and stable under derived inverse image and derived tensor product.  Further there is an inclusion
   $$D(X)_perf \subset D(X)_coh$$
 where $D(X)_coh \subset D(X)$ is the full subcategory of complexes with [[coherent sheaf|coherent]] [[cohomology]].  When $X$ is [[regular scheme|regular]], there is further an equality $D(X)_perf = D(X)_coh$.  Since the latter is equivalent to the the [[derived category of coherent sheaves]], there is an equivalence
 $$D(X)_perf \stackrel{\sim}{\to} D(Coh(X))$$
