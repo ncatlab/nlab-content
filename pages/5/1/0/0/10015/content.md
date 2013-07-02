@@ -1,0 +1,6 @@
+
+* [webage](http://en.wikipedia.org/wiki/Daniel_Friedan)
+
+category: people
+
+[[!redirects Dan Friedan]]
