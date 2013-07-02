@@ -369,11 +369,19 @@ Witt class.
 
 ## Related concepts
 
-* [[conformal structure]], [[conformal net]]
+* [[conformal structure]], [[moduli space of conformal structures]], [[Teichmüller theory]]
+
+* [[conformal net]]
 
 * [[Liouville cocycle]]
 
 * [[Yangian]]
+
+* [[WZW model]]
+
+  * [[current algebra]], [[affine Lie algebra]]
+
+  * [[Knizhnik-Zamolodchikov connection]]
 
 * [[SCFT]]
 
