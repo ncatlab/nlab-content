@@ -34,7 +34,7 @@ What all these terms ("loops" $\Omega$, "delooping" $B$ etc.) mean in detail and
 There is an [[equivalence of (∞,1)-categories]]
 
 $$
-  \infty Grpd_* 
+  \infty Grpd^{\ast/}_{\geq 1} 
     \stackrel{\overset{B}{\leftarrow}}{\underset{\Omega}{\to}}
   \infty Group
 $$
@@ -75,10 +75,10 @@ A groupal $E_1$-algebra -- hence an groupal [[A-∞ algebra]] object in $\mathbf
 Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
 $$
-  \mathbf{H}_*^{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H}) \,.
+  \mathbf{H}^{\ast/}_{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H}) \,.
 $$
 
-between the $(k-1)$-[[connected]] pointed objects and the groupal [[Ek-algebra]] objects in $\mathbf{H}$.
+between the pointed $(k-1)$-[[connected]] objects and the groupal [[Ek-algebra]] objects in $\mathbf{H}$.
 
 =--
 
