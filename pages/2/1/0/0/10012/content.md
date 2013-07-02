@@ -1,0 +1,1 @@
+Wikipedia article on Banach&#8211;Steinhaus theorem ([uniform boundedness principle](https://en.wikipedia.org/wiki/Uniform_Boundedness_Principle))
