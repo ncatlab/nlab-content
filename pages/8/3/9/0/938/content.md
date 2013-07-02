@@ -77,7 +77,7 @@ The [[homotopy category]] of [[Top]] with respect to weak homotopy equivalences 
 +-- {: .num_remark }
 ###### Remark
 
-Accrdingly, weak homotopy equivalences are the [[weak equivalences]] in the classical "Quillen" [[model structure on topological spaces]] and the [[model structure on simplicial sets]], and also in the [[mixed model structure]].
+Accordingly, weak homotopy equivalences are the [[weak equivalences]] in the classical "Quillen" [[model structure on topological spaces]] and the [[model structure on simplicial sets]], and also in the [[mixed model structure]].
 
 =--
 
