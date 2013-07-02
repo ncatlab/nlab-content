@@ -1,0 +1,3 @@
++-- {: .query}
+Seems like catamorphism and [hylomorphism](http://ncatlab.org/nlab/show/hylomorphism) are not around. Thanks so much for the amazing wiki!
+=--
