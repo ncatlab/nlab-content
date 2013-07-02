@@ -29,7 +29,7 @@ when $X$ is [[regular scheme|regular]].
 
 For perfect complexes of sheaves see
 
-* [[SGA]] VI, Exp. I, section 3.
+* [[SGA]] VI, Exp. I.
 
 * [[Luc Illusie]]. _Le complexe cotangent I et II_, Lecture Notes in Math. 239, 283, Springer-Verlag, Berlin (1971,1972).
 
