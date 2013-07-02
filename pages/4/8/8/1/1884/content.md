@@ -445,3 +445,5 @@ Relations to [[algebraic K-theory]] are discussed in
  {#Rosenberg}
 
 [[!redirects complex K-theory]]
+
+[[!redirects periodic complex K-theory]]
