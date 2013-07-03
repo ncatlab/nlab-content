@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Functorial quantum field theory
+#### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
@@ -133,6 +133,8 @@ Notice that $Z_A(\Sigma)$ is the space of **[[state]]s** of $A$ over $\Sigma$, w
 
 ### Of higher Chern-Simons/CFT-type
  {#3dCS-2dCFT}
+
+See also _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
 #### RT-3d TQFT / rational 2d CFT
 
@@ -318,6 +320,8 @@ See [[ABJM theory]].
 
 
 ## Related concepts
+
+* [[holographic entanglement entropy]]
 
 * [[holographic principle of higher category theory]]
 
