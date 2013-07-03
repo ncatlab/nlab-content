@@ -22,6 +22,8 @@
 
 In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[correlators]]/[[partition functions]] of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[states]] of a [[TQFT]] of dimension $n + 1$.
 
+[[!include holographic principle -- table]]
+
 ### Some details
 
 
@@ -135,6 +137,8 @@ Notice that $Z_A(\Sigma)$ is the space of **[[state]]s** of $A$ over $\Sigma$, w
 #### RT-3d TQFT / rational 2d CFT
 
 The class of examples of "Chern-Simons-type holography" we mention now has fairly completely and rigorously been understood. It is in turn a special and comparatively simple (but far from trivial) case of the historically earliest class of examples: [ordinary Chern-Simons theory dual to a 2d WZW model](#OrdinaryCSWZWModel) below.
+
+For more see at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
 Given any [[modular tensor category]] $C$ the [[Reshetikhin-Turaev construction]] procides a 3-dimensional [[TQFT]] $Z_C$. It space of states over a 2-dimensional surface can be identified (after some work) with a space of [[conformal block]]s for a [[WZW-model]]-liked $2d$ CFT. The [[FRS formalism]] provides a way to show that the states of $Z_C$ provides [[correlators]] that solve the [[sewing constraints]].
 
