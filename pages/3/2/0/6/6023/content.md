@@ -17,6 +17,7 @@
 
 A _probability distribution_ is a [[measure]] used in [[probability theory]] whose [[integral]] over some subspace of a [[measurable space]] is regarded as assigning a _probability_ for some event to take values in this subset.
 
+Often a _[[probability density]]_.
 
 ## Definition
 
