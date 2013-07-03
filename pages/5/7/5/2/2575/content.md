@@ -597,6 +597,10 @@ Beware that there is a subtlety in the definition of the [[configuration space]]
 However, the quantum theory exists nicely if one allows the larger configuration space of possibly degenerate metrics exists nicely, while the constrained one does not. This may be interpreted as saying that at least for purposes of [[quantum gravity]] it is wrong require non-degenerate metric tensors.
 
 
+### Holographic relation to 2d Wess-Zumino-Witten model
+
+See at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
+
 ### Chern--Simons theory and modular forms
 
 Trying to interest your [[number theory]] friends with Chern--Simons theory? How about this: the Chern--Simons [[path integral]] $Z(k)$ above is (in a certain precise sense) a _[[modular form]]_. This correspondence between the Chern--Simons quantum invariants and [[modular form]]s sheds light in both directions, and is a fascinating idea to [[Bruce Bartlett|me]]. The key words here (which I don't understand) are "Eichler integral" and  "[[mock theta function]]". See:
