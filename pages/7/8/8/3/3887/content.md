@@ -5,20 +5,38 @@
 
 ## Idea
 
-In a [[conformal field theory]] the conditions on [[correlator]]s can be divided into two steps
+In a [[conformal field theory]] the conditions on [[correlators]] can be divided into two steps
 
 1. for a fixed [[cobordism]] the correlators need to depend in a certain way on the choice of [[conformal structure]];
 
 1. the correlators need to glue correctly underly composition of cobordisms.
 
-The functionals that satisfy the first of these conditions are called _conformal blocks_ . The second condition is called the [[sewing constraint]] on conformal blocks.
+The spaces of functionals that satisfy the first of these conditions are called _conformal blocks_ . The second condition is called the [[sewing constraint]] on conformal blocks.
 
 So conformal blocks are something like "precorrelators" or "potential correlators" of a [[CFT]].
 
+More explicitly, conformal blocks are functionals satisfying the conformal [[Ward identities]], see ([Gawedzki 99, around p. 30](#Gawedzki99)).
+
+## Properties
+
+### Holographic correspondence
+
+The conformal blocks at least of the [[WZW model]] are by a [[holographic principle|holographic]] correspondence given by the [[space of quantum states]] of 3d [[Chern-Simons theory]]. See at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
+
+## Related concepts
+
+[[!include holographic principle -- table]]
 
 ## References
 
 ### For 2d CFT
+
+A review is around p. 30 of
+
+* [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+ {#Gawedzki99}
+
+See also
 
 * A. Tsuchiya, K. Ueno, Y. Yamada, _Conformal field theory on universal family of stable curves with gauge symmetries_, Adv. Studies in Pure Math. __19__, 459--566, Academic Press (1989) [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191)
 * Kenji Ueno, _Conformal field theory with gauge symmetry_, Fields Institute Monographs 2008 [book page](http://www.ams.org/bookstore-getitem/item=FIM-24)
