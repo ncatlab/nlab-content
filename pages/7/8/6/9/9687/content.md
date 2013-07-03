@@ -45,6 +45,11 @@ For further developments see
 
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
+Discussion in the context of the [[AdS-CFT correspondence]] is in
+
+* D. S. Berman, Maulik K. Parikh, _Confinement and the AdS/CFT Correspondence_, Phys.Lett. B483 (2000) 271-276 ([arXiv:hep-th/0002031](http://es.arxiv.org/abs/hep-th/0002031))
+
+* Henrique Boschi Filho, _AdS/QCD and confinement_, Seminar at the _Workshop on Strongly Coupled QCD: The confinement problem_, November 2011 ([pdf](http://www.if.ufrj.br/~boschi/pesquisa/seminarios/AdS_QCD_Confinement_UERJ_2011.pdf))
 
 [[!redirects confinement]]
 [[!redirects color confinement]]
