@@ -205,11 +205,17 @@ $$
 
 See _[[categorical semantics of homotopy type theory]]_.
 
+## Examples
+
+* [[models in presheaf toposes]]
+
 ## Related pages
 
 * [[relation between type theory and category theory]]
 
 * [[categorical model of dependent types]]
+
+
 
 ## References
 
