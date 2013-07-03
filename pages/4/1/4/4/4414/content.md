@@ -36,6 +36,11 @@ where the author remarks
 
 > Relations will appear with [[knot theory]], [[statistical mechanics]], combinatorial [[group theory]], [[quantum groups]] and most of all, [[subfactors]]. They lead to many different algebraic structures according to the particular planar tangles chosen. Of particular interest recently have been graded algebra structures which give connections with the large $N$ limit of random matrices and free probability. 
 
+The relation to [[von Neumann algebra factors|subfactors]] and [[fusion categories]] is discussed in 
+
+* [[Scott Morrison]], _Small index subfactors, planar algebras, and fusion categories_, lectures at CT2013 ([pdf](http://tqft.net/math/2013-07-03-Macquarie.pdf))
+ {#Morrison}
+
 Plenty of discussion of planar algebras is at
 
 * Secret Blogging Seminar, _[Planar algebra entries](http://en.wordpress.com/tag/planar-algebras/)_
