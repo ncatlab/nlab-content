@@ -1,7 +1,27 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
 
-[[interference]] of [[wave functions]] via [[superposition]] of their [[complex phases]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[interference]] of [[wave functions]]/[[probability amplitudes]] via [[superposition]] of their [[complex phases]]
 
 ## Related concepts
 
