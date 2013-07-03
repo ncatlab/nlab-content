@@ -33,6 +33,7 @@ Here a [[section]] of the [[prequantum line bundle]] is what is physics ia calle
 
 [[!include Isbell duality - table]]
 
+[[!include holographic principle -- table]]
 
 [[!redirects prequantum spaces of states]]
 [[!redirects prequantum space of states]]
