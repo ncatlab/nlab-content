@@ -26,6 +26,18 @@ This is statement is to be tacitly understood as applying to dynamics taking pla
 
 The _generalized second law of theoremodynamics_ is an attempt to generalize the naive second law to [[general relativity]]. A central idea is that the [[Bekenstein-Hawking entropy]] of [[horizon]]s (such as of [[black hole]]s) has to be added to the naive entropy of the matter in the "universe".
 
+## Related concepts
+
+* gravitational entropy
+
+  * [[Bekenstein-Hawking entropy]]
+
+  * [[generalized second law of thermodynamics]]
+
+  * [[black holes in string theory]]
+
+  * [[holographic entanglement entropy]]
+
 ## References
 
 A detailed discussion is in
