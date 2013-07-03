@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -150,6 +150,9 @@ For the analog statement in [[(∞,1)-category]] theory see
 
 * <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#interaction_with_forming_overcategories_19">(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories</a>
 
+### Models in presheaf toposes
+
+See at _[[models in presheaf toposes]]_.
 
 ## Related concepts
 
