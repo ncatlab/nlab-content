@@ -19,7 +19,7 @@ In [[quantum theory]] the [[state]] of a [[physical system]] is given by a [[vec
 
 ## Related concepts
 
-* [[wave function]]
+* [[wave function]], [[probability amplitude]]
 
 * [[superselection sector]]
 
