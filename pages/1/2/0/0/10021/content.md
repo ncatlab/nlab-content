@@ -1,0 +1,10 @@
+
+a class of relatively simple [[2d CFTs]], such as the [[WZW model]].
+
+The [[FFRS formalism]] provides a complete classification.
+
+[[!redirects rational conformal field theories]]
+[[!redirects rational CFT]]
+[[!redirects rational CFTs]]
+[[!redirects RCFT]]
+[[!redirects RCFTs]]
