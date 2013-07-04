@@ -217,9 +217,13 @@ Since the [[singularity]] involved in back holes is a similar kind of singularit
 ### Isn't it fatal that the string perturbation series does not converge?
  {#NonConvergenceOfPerturbationSeries}
 
-On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent. See at _[[non-perturbative effect]]_ for more.
+The [[string scattering amplitudes]] computed in string [[perturbation theory]] are thought to be term-wise (loop-wise, hence for each [[genus]] of the [[Riemann surface]] [[worldsheets]]) finite. Nevertheless, the _[[sum]]_ over all these contributions diverges. Does this mean that [[perturbative string theory]] is unrealistic from the get go?
 
-So the non-convergence of the string perturbation series is just as it should be in QFT. The important point is rather that the string perturbation series is _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization.
+No. On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent. See at _[[non-perturbative effect]]_ for more.
+
+So the non-convergence of the string perturbation series is just as it should be in QFT. The important point is rather that the string perturbation series for [[string scattering amplitudes]] is (plausibly) _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization.
+
+So the convergence/divergence of the string perturbation theory is of the same kind as for instance in the [[QCD]] that appears in the [[standard model of particle physics]]. For more on this phenomenon see at [perturbation theory -- divergence/convergence](perturbation+theory#DivergenceConvergence) and especially see also the [references there](perturbation+theory#ReferencesDivergenceConvergence) and see at _[[non-perturbative effect]]_.
 
 ### How is string theory related to the theory of gravity?
 
