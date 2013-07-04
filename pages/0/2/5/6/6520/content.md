@@ -33,6 +33,8 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
 * [[non-perturbative effect]], [[non-perturbative quantum field theory]], [[non-perturbative string theory]]
 
+* [[brane]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
 
