@@ -37,7 +37,10 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
   * [[genus]]
   
 [[!redirects worldline]]
+
 [[!redirects worldsheet]]
+[[!redirects worldsheets]]
+
 [[!redirects worldvolumes]]
 
 [[!redirects worldlines]]
