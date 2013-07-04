@@ -1,0 +1,12 @@
+
+## Related concepts
+
+* [[perturbation theory]]
+
+## References
+
+* Wikipedia, _[Borel summation](http://en.wikipedia.org/wiki/Borel_summation)_
+
+[[!redirects Borel summations]]
+
+[[!redirects Borel resummation]]
