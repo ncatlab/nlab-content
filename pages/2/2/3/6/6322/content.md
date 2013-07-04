@@ -49,6 +49,17 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 (...)
 
+A quick introduction/survey/reminder is in 
+
+* Y. Kurihara, _QCD at LHC for beginners_ 
+
+  Lesson 1 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_1.pdf))
+
+  Lesson 2 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_2.pdf))
+
+  Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
+
+
 Discussion of QCD [[perturbation theory]] includes
 
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
