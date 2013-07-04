@@ -14,3 +14,6 @@
 * Wikipedia, _[Yukawa interactions](http://en.wikipedia.org/wiki/Yukawa_interaction)_
 
 [[!redirects Yukawa couplings]]
+
+[[!redirects Yukawa coupling constant]]
+[[!redirects Yukawa coupling constants]]
