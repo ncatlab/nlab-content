@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _density_ on a [[manifold]] of [[dimension]] $n$ is a [[function] that to each point assigns an [[infinitesimal object|infinitesimal]] [[volume]] (in general signed, and possibly degenerate), hence a volume  of $n$-[[hypercubes]] in the [[tangent space]] at that point.  A positive definite density is equivalently a _[[volume element]]_ (or a volume form on an [[orientation|oriented]] manifold).
+A _density_ on a [[manifold]] of [[dimension]] $n$ is a [[function]] that to each point assigns an [[infinitesimal object|infinitesimal]] [[volume]] (in general signed, and possibly degenerate), hence a volume  of $n$-[[hypercubes]] in the [[tangent space]] at that point.  A positive definite density is equivalently a _[[volume element]]_ (or a volume form on an [[orientation|oriented]] manifold).
 
 
 ## Definition
