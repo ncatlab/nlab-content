@@ -9,15 +9,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
-A _probability density_ is a [[density]] on some [[space]] which under [[integration]] yields a [[probability measure]].
+A __probability density__ is a [[density]] on some [[space]] which under [[integration]] yields a [[probability measure]].  Similarly, a __probability density function__ is a [[measurable function]] on some [[measure space]] that under integration yields a probability measure.
+
 
 ## Related concepts
 
@@ -25,10 +24,13 @@ A _probability density_ is a [[density]] on some [[space]] which under [[integra
 
 * [[probability amplitude]]
 
+
 ## References
 
 * Wikipedia, _[Probability density function](http://en.wikipedia.org/wiki/Probability_density_function)_
 
+
+[[!redirects probability density]]
 [[!redirects probability densities]]
 [[!redirects probability density function]]
 [[!redirects probability density functions]]
