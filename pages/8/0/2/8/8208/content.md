@@ -21,7 +21,7 @@
 
 The _KLT relations_ express certain [[scattering amplitudes]] in [[gravity]] equivalently in terms of scattering amplitudes in [[Yang-Mills theory]].
 
-These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+Yang-Mills theory, where they were originally found and from which the QFT relations have been deduced: in string theory the [[graviton]] is an excitation of the [[closed string]] and the [[gluon]] of the [[open string]]. But disk-shaped string diagram can be read in two-ways: either as a closed-string vacuum diagram or as an open-string tree-level scattering diagram. This [[open/closed string duality]] yields the KLT relations. 
+These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+Yang-Mills theory, where they were originally found and from which the QFT relations have been deduced: in string theory the [[graviton]] is an excitation of the [[closed string]] and the [[gluon]] of the [[open string]]. But disk-shaped string diagram can be read in two-ways: either as a closed-string vacuum diagram or as an open-string tree-level scattering diagram. This [[open/closed string duality]] of [[string scattering amplitudes]] yields the KLT relations. 
 
 ## Related entries
 
