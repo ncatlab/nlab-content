@@ -13,29 +13,29 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-Where a [[probability density]] is a given [[density]] times a [[real numbers|real]]-valued [[function]] $\rho$, a _probability amplitude_ is a [[complex numbers|complex]] valued function $\psi$ such that its normalized pointwise [[absolute value]] squared
+Where a [[probability density function]] (on a [[measure space]]) is a [[real numbers|real]]-valued [[function]] $\rho$ (satisfying certain conditions), a _probability amplitude_ is a [[complex numbers|complex]]-valued function $\psi$ such that its pointwise [[absolute value]] squared
 
 $$
-  \rho(x) \coloneqq \psi^\ast(x) \psi(x) \frac{1}{\int \psi^\ast \psi d\mu}
+  \rho(x) \coloneqq \psi^\ast(x) \psi(x)
 $$
 
 is a probability density.
 
+
 ## Application in physics
 
-Probabiity amplitudes appear as [[states]] of [[quantum mechanical systems]] in the form of _[[wave functions]]_ $\psi$ on the [[phase space]] of the physical system. The [[Born rule]] of [[quantum physics]] says  that the probability density $\rho = \psi^\ast \psi$ describes the probabilty to find the physical system in a given classical state (in a given region of its [[phase space]]).
+Probability amplitudes appear as [[pure states]] of [[quantum mechanical systems]] in the form of _[[wave functions]]_ $\psi$ on the [[phase space]] of a corresponding [[classical system]]. The [[Born rule]] of [[quantum physics]] says  that the probability density $\rho = \psi^\ast \psi$ describes the probability to find the physical system in a given classical state (in a given region of its phase space).
 
 The fact that probability amplitudes are complex-valued means that under addition ("[[superposition]]") they exhibit [[quantum interference]] (the addition of their [[complex phases]]) in stark contrast to the addition of probability densities, for which this cannot happen.
 
-For instance on some [[probability space]] $(X,\mu)$ there are the probability amplitudes $ \exp(i \pi/2) \mu$ and $\exp(-i \pi/2)\mu$ whose associated probability densities are both just $\mu$ itself again. But the sum of these two probabilty amplitudes vanishes, in contrast to the sum of their associated probability densities. This is known as "destructive" [[quantum interference]].
+For instance on some [[probability space]] $(X,\mu)$ there are the probability amplitudes $ \exp(i \pi/2) \mu$ and $\exp(-i \pi/2)\mu$ whose associated probability densities are both just $\mu$ itself again. But the sum of these two probability amplitudes vanishes, in contrast to the sum of their associated probability densities. This is known as "destructive" [[quantum interference]].
 
 
+[[!redirects probability amplitude]]
 [[!redirects probability amplitudes]]
-
-
