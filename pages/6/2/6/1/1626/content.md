@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context###
@@ -276,11 +277,6 @@ Examples of countable connected Hausdorff spaces were give in
 [[!redirects path-connected topological space]]
 [[!redirects path-connected topological spaces]]
 [[!redirects pathwise connected]]
-
-[[!redirects locally path-connected space]]
-[[!redirects locally path-connected spaces]]
-[[!redirects locally path-connected topological space]]
-[[!redirects locally path-connected topological spaces]]
 
 
 [[!redirects connected component]]
