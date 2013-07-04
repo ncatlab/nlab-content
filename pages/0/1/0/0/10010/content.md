@@ -7,6 +7,8 @@
 
 A _[[moduli space]] of [[complex structures]]_
 
+(Typically a [[moduli stack]] and typically an [[orbifold]]/[[Deligne-Mumford stack]].)
+
 ## Related concepts
 
 * [[moduli space of conformal structures]]
