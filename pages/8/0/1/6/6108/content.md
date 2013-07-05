@@ -35,11 +35,13 @@ Landau-Ginzburg models have gained importance as constituting one type of QFTs t
 If the [[target space]] $X$ is a [[Fano variety]], the usual [[B-model]] does not quite exist on it, since the corresponding supersymmetric [[string]] [[sigma model]] is not conformally invariant as a quantum theory, and the axial $U(1)$ [[R-current]] used to define the B-twist is [[quantum anomaly|anomalous]]. Still, there exists an analogous [[derived category]] of B-branes. A Landau-Ginburg model is something that provides the dual A-branes to this under [[homological mirror symmetry]]. Conversely, Landau-Ginzburg B-branes are homological mirror duals to the [[A-model]] on a Fano variety.
 (...)
 
-As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi)), the B-branes in the LG-model (at least in a certain class of cases) are not given by [[chain complex]]es of [[coherent sheaves]] as in the [[B-model]], but by _[[twisted complexes]]_ : for these the square of the [[differential]] is in general non-vanishing and identified with the _superpotential_ of the LG-model. 
+As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi)), the B-branes in the LG-model (at least in a certain class of cases) are not given by [[chain complexes]] of [[coherent sheaves]] as in the [[B-model]], but by _[[twisted complexes]]_ : for these the square of the [[differential]] is in general non-vanishing and identified with the _superpotential_ of the LG-model. 
 
 (...)
 
-## $(\infty,1)$-Categories of branes
+## Properties
+
+### The $\infty$-categories of branes
 
 
 (...) [[curved dg-algebra]]
@@ -53,6 +55,8 @@ As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi))
 
 ## References
 
+### Branes
+
 For instance
 
 * [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg models and algebraic geometry_, [arXiv:hep-th/0210296](http://arxiv.org/abs/hep-th/0210296)
@@ -63,12 +67,19 @@ The [[derived category]] of [[D-brane]]s in type B LG-models is discussed in
 * [[Dmitri Orlov]], _Derived categories of coherent sheaves and triangulated categories of singularities_, [arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/0503632)
  {#Orlov}
 
-* [[Andrei Caldararu]], Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
+* Andrei Caldararu, Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
  {#CaldararuTu}
+
+### TCFT formulation
 
 Discussion of topological Landau-Ginzburg [[B-models]] explicitly as [[TCFT]]s is in 
 
 * [[Ed Segal]], _The closed state space of affine Landau-Ginzburg B-models_ ([arXiv:0904.1339](http://arxiv.org/abs/0904.1339))
+
+### Solid state physics
+
+(...)
+
 
 [[!redirects LG-model]]
 [[!redirects LG-models]]
