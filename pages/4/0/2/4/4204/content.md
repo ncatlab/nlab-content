@@ -294,6 +294,18 @@ and this is also $k$-connected.
 
 ...
 
+## Related concepts
+
+* [[TQFT]]
+
+  * **2d TQFT**
+
+    * [[2d Chern-Simons theory]]
+
+  * [[3d TQFT]]
+
+  * [[4d TQFT]]
+
 ## References
 
 The classification result for open-closed 2d TQFTs was famously announced and sketched in 
