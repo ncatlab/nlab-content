@@ -11,7 +11,7 @@
 
 #Contents#
 * table of contents
-{:tco}
+{:toc}
 
 ## Idea
 
@@ -19,8 +19,12 @@ The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomen
 
 ## References
 
-A disucssion of the Levin-Wen model as a 2-dimensional [[extended TQFT]] is in
+The original article is
 
-* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ (pdf)
+* Michael A. Levin, Xiao-Gang Wen, _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
+
+A disucssion of the Levin-Wen model as an [[extended TQFT|extended]] [[2d TQFT]] formulated using [[tensor categories]] is in 
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ ([pdf](http://msc.tsinghua.edu.cn/upload/news_201246101459.pdf))
 
 [[!redirects Levin-Wen models]]
