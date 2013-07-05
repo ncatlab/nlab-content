@@ -185,7 +185,7 @@ As mentioned before, there is the idea that perturbative string theory is indeed
 
 Consistency arguments for this speculation have been given in ([Witten xy](#Witten)). A theoretical framework for formalizing these questions is _[[string field theory]]_, in the context of which much of this has been formalized (...). 
 
-
+For more on what perturbative string theory around a given such background looks like, see also the question _[How is string theory related to the theory of gravity?](#RelationToGravity)_
 
 ### Did string theory provide any insight relevant in experimental particle physics?
  {#InsightInParticlePhysics}
@@ -229,8 +229,29 @@ So the convergence/divergence of the string perturbation theory is of the same k
 
 
 ### How is string theory related to the theory of gravity?
+ {#RelationToGravity}
 
-(...)
+The technical statement is that the _[[effective quantum field theory]]_ defined by the [[string scattering amplitudes]] is a [[supergravity]] version of [[Einstein-Yang-Mills theory]] (namely [[heterotic supergravity]] or [[type II supergravity]]).
+
+This means the following: 
+
+The [[string scattering amplitudes]] between given incoming and outgoing asymptotic [[quantum states]] of free [[strings]], are [[probability amplitudes]] abstractly defined by summing the [[correlation function]] of a 2-dimensional [[SCFT]] over all [[super Riemann surfaces]] with given punctures. 
+
+One tends to think of this sum heuristically as computing the [[superposition]] of  [[probability amplitudes]] of all possible ways that the incoming strings can come in, interact with each other in a given [[background gauge field|background]] [[spacetime]], and come out of this scattering process again. But this heuristic idea can be formalized: we can ask if there is an ordinary [[perturbation theory|perturbative]] [[quantum field theory]] such when we compute _its_ [[scattering amplitudes]] by the usual [[Feynman diagram]] rules of expansion about a solution to the [[equations of motion]] (e.g. [[Einstein's equations]]), the result coincides with the [[string scattering amplitudes]] at low [[energy]]. If one finds such a quantum field theory, one calls it the _[[effective quantum field theory]]_ which effectively approximates the string dynamics at low energy. (See also above _[Why/how does string theory depend on "backgrounds"?](#BackgroundDependence)_.)
+
+In words this means: the "stringy" process defined by the [[string perturbation series]] looks in good approximation at low energy as such-and-such interactions of such-and-such [[particles]]. 
+
+And if one now computes what this [[effective quantum field theory]] defined by the [[string scattering amplitudes]] is, then one finds that it generically is a [[gravity]] coupled to [[Yang-Mills theory]] in a [[supergravity]] version of [[Einstein-Yang-Mills theory]]. 
+
+Notice that an [[effective quantum field theory]] (and this one is no exception) is not in general [[renormalization|renormalizable]], meaning that to a given energy scale one has to add higher order terms to it (counterterms) to make it well defined. Here it is precisely the full [[string perturbation series]] that provides these counterterms: the higher-energy interactions of the string provide the [[renormalization]] of its effective low energy theory of gravity+-Yang-Mills theory. One says that the [[string perturbation series]] provides a _[[UV-completion]]_ for [[Einstein-Yang-Mills theory]] (hence for [[gravity]], or rather for [[supergravity]]).
+
+By designs of what [[scattering amplitudes]] are, all this are statements in [[perturbation theory]] and in perturbation theory. Notice that this is not some secret bug in string theory, but is so by the very definition of [[perturbative string theory]] and [[perturbation theory]].
+
+The fact that _perturbatively_ [[perturbative string theory]] is a [[UV-completion]] of perturbative [[quantum gravity]] may of course make one want to find something like [[non-perturbative string theory]]. While there are some hints as to what this might be (these days there are many hopes that the [[AdS-CFT correspondence]] provides a non-perturbative extension of the description of [[quantum gravity]] by [[string theory]]), this non-perturbative description remains unclear, in stark contrast to [[perturbative string theory]] which is a rather well-defined and conceptually well-understood. 
+
+
+
+
 
 ### What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
 
