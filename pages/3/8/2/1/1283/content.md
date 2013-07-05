@@ -436,6 +436,14 @@ and
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
+especially
+
+* [[circle n-bundle with connection]], [[ordinary differential cohomology]].
+
+For applications in [[string theory]] see also
+
+* [[B-field]], [[WZW model]].
+
 ##References##
 
 The notion of _bundle gerbe_ as such was introduced in
