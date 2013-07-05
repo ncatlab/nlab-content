@@ -55,3 +55,8 @@ A survey of formalisms used in stable homotopy theory -- tools to present the [[
 An account in terms of [[(∞,1)-category theory]] is in section 7 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
+
+* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+
