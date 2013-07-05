@@ -1,6 +1,13 @@
 
+## Related concepts
+
+* [[Levin-Wen model]]
+
+* [AdS-CFT -- Relation to solid state physics](http://ncatlab.org/nlab/show/AdS-CFT#ToCondensedMatterPhysics)
 
 ## References
 
 * Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
 
+
+[[!redirects condensed matter physics]]
