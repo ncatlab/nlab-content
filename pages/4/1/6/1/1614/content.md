@@ -26,7 +26,7 @@ A **topological quantum field theory** is a [[quantum field theory]] which
 For more on the general idea and its development, see [[FQFT]] and [[extended topological quantum field theory]]. 
 
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 Often topological _quantum_ field theories are just called _topological field theories_ and accordingly the abbreviation TQFT is reduced to TFT. Strictly speaking this is a misnomer, which is however convenient and very common. It should be noted, however, that TQFTs may have classical counterparts which would better deserve to be called TFTs. But they are not usually.
@@ -47,13 +47,25 @@ In contrast to topological QFTs, non-topological quantum field theories in the [
 
 * [[2d TQFT]]
 
-* [[Dijkgraaf-Witten theory]]
+  * [[TCFT]]
 
-* [[Chern-Simons theory]]
+  * [[2d Chern-Simons theory]]
 
-* [[Reshetikhin-Turaev model]]
+* [[3d TQFT]]
 
-* [[Turaev-Viro model]]
+  * [[Dijkgraaf-Witten theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[Reshetikhin-Turaev model]]
+
+  * [[Turaev-Viro model]]
+
+* [[4d TQFT]]
+
+  * [[4d Chern-Simons theory]]
+
+  * [[Yetter model]]  
 
 ## Homotopy QFTs
 
@@ -75,7 +87,11 @@ An introduction to 2D TQFTs can be found in
 Further literature includes:
 
 * [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
+
 * D. Freed, M. Hopkins, J. Lurie, C. Teleman, [[Topological Quantum Field Theories from Compact Lie Groups]]
+
+On the [[cobordism theorem]]:
+
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]; _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 * see also [[cobordism hypothesis]] and references therein
 * Mark Feshbach, Alexander A. Voronov, _A higher category of cobordisms and topological quantum field theory_, [arxiv/1108.3349](http://arxiv.org/abs/1108.3349) 
