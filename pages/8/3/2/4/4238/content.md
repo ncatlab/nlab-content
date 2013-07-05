@@ -195,6 +195,8 @@ So via the detour over the effective background field theory, this sort of shows
 
 ## Related concepts
 
+* [[A-model]], [[B-model]], [[Landau-Ginzburg model]], [[homological mirror symmetry]]
+
 * [[HCFT]]
 
 ## References
