@@ -21,20 +21,30 @@
 
 [[TQFT]] of [[dimension]] 4.
 
+## Constructions
+
+In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebras]]/ and generally [[bialgebras]] (hence [[3-modules]], the [[higher geometry|higher]] [[space of quantum states]] assigned to the point which by the [[cobordism theorem]] defines the theory) one may build 4d TQFTs from higher analogs of these, namely models of [[4-modules]] given by algebraic structures such as _[[trialgebras]]_ and _[[Hopf categories]]_.
+
+
 ## Examples
+
+* [[Yetter model]]
 
 * [[Kapustin-Witten TQFT]]
 
-## Related concepts
+* [[4d Chern-Simons theory]]
 
-* [[trialgebra]], [[Hopf category]]
 
 ## References
+
+Original references include
 
 * [[Louis Crane]], [[Louis Kauffman]], [[David Yetter]], _State-Sum invariants of 4-manifolds I _ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9409/9409167v1.pdf))
 
 * [[Louis Crane]], [[Igor Frenkel]], _Four dimensional topological quantum field theory, Hopf categories, and the canonical bases_, J.Math.Phys. 35 (1994) 5136-5154, ([arXiv:hep-th/9405183](http://arxiv.org/abs/hep-th/9405183))
  {#CraneFrenkel}
+
+Many more should eventually go here...
 
 
 [[!redirects 4-dimensional TQFT]]
