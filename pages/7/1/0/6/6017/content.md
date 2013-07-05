@@ -23,7 +23,7 @@
 
 ## Idea
 
-A _Yetter model_ is a [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
+A _Yetter model_ is a [[4d TQFT]] [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
 
 Together with the [[Dijkgraaf-Witten theory|Dijkgraaf-Witten model]] these form the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>. It is hence also an example of a [[4d Chern-Simons theory]].
 
