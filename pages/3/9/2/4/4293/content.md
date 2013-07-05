@@ -5,28 +5,54 @@
 
 ## Defintion
 
-For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$ and $c$ a [[real number]], its **Taylor series** at $c$ is the [[power series]]
+Let $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$ and let $c$ be a [[real number]]. 
+
++-- {: .num_defn}
+###### Definition
+
+The **Taylor series** of $f$ at $c$ is the [[formal power series]]
 
 $$
   \sum_{n = 0}^\infty \frac{1}{n!} f^{(n)}(c) (x-c)^n
+  \,.
 $$
+
+=--
+
++-- {: .num_defn}
+###### Definition
 
 For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$, its **Mac Laurin series** is its Taylor series at [[zero]]:
 
 $$
   \sum_{n = 0}^\infty \frac{1}{n!} f^{(n)}(0) x^n
+  \,.
 $$
 
+=--
 
-Similarly for functions on any [[Cartesian space]] or [[smooth manifold]].
++-- {: .num_remark}
+###### Remark
+
+Similarly definition apply to functions on any [[Cartesian space]] or [[smooth manifold]].
+
+=--
 
 ## Properties
 
-+-- {: .un_theorem}
++-- {: .num_prop}
+###### Proposition
+
+The Taylor series of a [[smooth function]] $f$ at any point may have vanishing [[radius of convergence]], but it is always an [[asymptotic expansion]] of $f$.
+
+=--
+
+
++-- {: .num_theorem}
 ###### Theorem
 **(Borel's theorem)**
 
-The morphism
+The map
 
 $$
   C^\infty(\mathbb{R}^{k+l})
@@ -34,7 +60,7 @@ $$
   C^\infty(\mathbb{R}^k) [ [ X_1, \cdots X_l] ]
 $$
 
-obtained by forming Taylor series in $l$ variables is surjective.
+obtained by forming Taylor series in $l$ variables is [[surjection|surjective]].
 
 =--
 
@@ -49,6 +75,8 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 =--
 
 ## Related concepts
+
+* [[series]], [[asymptotic series]]
 
 [[!include infinitesimal and local - table]]
 
