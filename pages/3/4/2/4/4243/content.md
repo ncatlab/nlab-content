@@ -80,6 +80,8 @@ For more on this see at _[TCFT -- Worldsheet and effective background theories](
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
+* [[Landau-Ginzburg model]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 
