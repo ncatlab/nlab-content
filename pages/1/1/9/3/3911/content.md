@@ -32,9 +32,23 @@ Composing pullback of cohomology classes with fiber integration yields the notio
 
 #### Along maps of manifolds
 
-Here is the rough outline of the construction:
+Here is the rough outline of the construction via [[Umkehr maps]].
+
+The basic strategy is this:
+
+1. start with a map $E \to B$
+
+1. make $E$ bigger by passing to its [[Thom space]] $Th(E)$ such that we have a map the other way round $B \to Th(E)$;
+
+1. choose an [[orientation in generalized cohomology|orientation]] structure that makes the cohomology of $E$ equivalent to that of $Th(E)$ (the [[Thom isomorphism]]);
+
+1. compose the Thom isomorphism with the pullback along $B \to Th(E)$ to get an "Umkehr" map from cohomology of $E$ to cohomology of $B$.
+
+Now in detail.
+
 
 Let $p : E \to B$ be a [[bundle]] of smooth compact [[manifolds]] with typical [[fiber]] $F$. 
+
 
 By the [[Whitney embedding theorem]] one can choose an embedding $e:E \hookrightarrow \mathbb{R}^n$ for some $n \in \mathbb{N}$. From this one obtains an embedding
 
