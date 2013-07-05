@@ -25,7 +25,7 @@
 
 
 
-From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra]], [[Quantum groups]], [[fusion categories]]:
+From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra]], [[quantum groups]], [[fusion categories]]:
 
 * [[Reshetikhin-Turaev model]]
 
@@ -40,6 +40,19 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
   * [[Chern-Simons theory]]
 
   * [[Courant sigma-model]]
+
+## Related concepts
+
+* [[TQFT]]
+
+  * [[2d TQFT]]
+
+  * [[3d TQFT]]
+
+    * [[3d Chern-Simons theory]]
+
+  * [[4d TQFT]]
+
 
 
 [[!redirects 3d TQFTs]]
