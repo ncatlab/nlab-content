@@ -28,7 +28,7 @@ $$
 
 from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V)$, induced by multiplication with a [[Thom class]] $u \in H^n(Th(V))$.
 
-We think of this from left to right as wedging with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
+We think of this from left to right as wedge-ing with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
 
 ## Definition
 
@@ -59,7 +59,7 @@ The original reference is
 
 A review is in 
 
-* [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
+* [[John Francis]], _Topology of manifolds_, course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
 
   Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
 {#Francis3}
