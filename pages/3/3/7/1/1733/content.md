@@ -45,7 +45,11 @@ Lecture notes include
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
  {#HopkinsMathew}
 
+Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
 
-Online resources include
+* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+
+
+Further online resources include
 
 * [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
