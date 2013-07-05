@@ -68,6 +68,8 @@ For more on this see at _[TCFT -- Worldsheet and effective background theories](
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
+* [[Landau-Ginzburg model]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 
@@ -123,3 +125,4 @@ Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeir
 [[!redirects Kodeira-Spencer gravity]]
 [[!redirects BCOV theory]]
 
+[[!redirects B-models]]
