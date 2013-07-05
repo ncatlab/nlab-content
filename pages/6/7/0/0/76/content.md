@@ -155,6 +155,9 @@ This theme has been taken up more recently by Baues, using a type of abstract ho
 
 * [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
 
+Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
+
+* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
 
 
 [[!redirects Homotopy Theory]]
