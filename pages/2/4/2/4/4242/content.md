@@ -43,7 +43,10 @@ By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
 ### Second quantization / effective background field theory
 
 
-The [[second quantization]] [[effective field theory]] defined by the [[perturbation series]] of the B-model is supposed to be "Kodaira-Spencer gravity" / "BVOC theory" in 6d ([BCOV 93](#BCOV93), [Costello-Lie 12](#CostelloLi12))
+The [[second quantization]] [[effective field theory]] defined by the [[perturbation series]] of the B-model is supposed to be "Kodaira-Spencer gravity" / "BVOC theory" in 6d ([BCOV 93](#BCOV93), [Costello-Lie 12](#CostelloLi12)).
+
+For more on this see at _[TCFT -- Worldsheet and effective background theories](http://ncatlab.org/nlab/show/TCFT#ActionFunctionals)_.
+
 
 ## Related concepts
 
@@ -71,6 +74,8 @@ The [[second quantization]] [[effective field theory]] defined by the [[perturba
 ## References
  {#References}
 
+### General
+
 The B-model was first conceived in
 
 * [[Edward Witten]], _Topological sigma models_, Commun. Math. Phys. __118__ (1988) 411--449, [euclid](http://projecteuclid.org/euclid.cmp/1104162092), [MR90b:81080](http://www.ams.org/mathscinet-getitem?mr=0958805)
@@ -92,11 +97,14 @@ The B-model on [[genus]]-0 [[cobordism]]s had been constructed in
 
 * S. Barannikov, [[Maxim Kontsevich]], _Frobenius manifolds and formality of Lie algebras of polyvector fields_ ,  Internat. Math. Res. Notices  1998,  no. 4, 201--215; [math.QA/9710032](http://arxiv.org/abs/alg-geom/9710032) [doi](http://dx.doi.org/10.1155/S1073792898000166)
 
-The construction of the B-model as a [[TCFT]] on [[cobordism]]s of arbitrary [[genus]] was given in 
+The construction of the B-model as a [[TCFT]] on [[cobordisms]] of arbitrary [[genus]] was given in 
 
 * [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([math.QA/0509264](http://arxiv.org/abs/math/0509264))
 
-Overflow discussion: [higher-genus-closed-string-b-model](http://mathoverflow.net/questions/8692/higher-genus-closed-string-b-model)
+See also the MathOverflow discussion: [higher-genus-closed-string-b-model](http://mathoverflow.net/questions/8692/higher-genus-closed-string-b-model)
+
+### Second quantization to Kodeira-Spencer gravity
+ {#ReferencesBCOV}
 
 The [[second quantization]] [[effective field theory|effective]] field theory defined by the B-model [[perturbation series]] ("Kodeira-Spencer gravity"/"BCOV theory") is discussed in 
 
