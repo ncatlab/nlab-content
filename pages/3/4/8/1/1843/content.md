@@ -101,7 +101,7 @@ The name goes back to the article
 
 The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
 
-* [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_ (1986)
+* [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_, Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([web](http://inspirehep.net/record/257658?ln=de))
 
 The later article
 
