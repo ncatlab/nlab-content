@@ -38,6 +38,8 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 ## Related concepts
 
+* [[3d TQFT]]
+
 * [[3-dimensional supergravity]]
 
 * [[quantum gravity]]
