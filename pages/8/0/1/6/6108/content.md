@@ -46,6 +46,11 @@ As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi))
 
 (...) [CaldararuTu](#CaldararuTu)
 
+
+## Related concepts
+
+* [[2d TQFT]], [[TCFT]]
+
 ## References
 
 For instance
@@ -60,6 +65,10 @@ The [[derived category]] of [[D-brane]]s in type B LG-models is discussed in
 
 * [[Andrei Caldararu]], Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
  {#CaldararuTu}
+
+Discussion of topological Landau-Ginzburg [[B-models]] explicitly as [[TCFT]]s is in 
+
+* [[Ed Segal]], _The closed state space of affine Landau-Ginzburg B-models_ ([arXiv:0904.1339](http://arxiv.org/abs/0904.1339))
 
 [[!redirects LG-model]]
 [[!redirects LG-models]]
