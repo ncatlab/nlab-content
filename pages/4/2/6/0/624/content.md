@@ -64,12 +64,47 @@ If every object of $C$ has a left and right dual, then $C$ is called a [[rigid m
 
 See [[category with duals]] for more discussion.
 
++-- {: .num_defn}
+###### Definition
+
+Given a [[morphism]] $f \colon X \to Y$ between two dualizable objects in a [[symmetric monoidal category]], the corresponding [[dual morphism]] 
+
+$$
+  f^\ast \colon Y^\ast \to X^\ast
+$$
+
+is the one obtained by $f$ by composing the duality unit, the counit and the [[braiding]]...
+
+
+=--
 
 ### Examples
 
-* Let $V$ be a finite-dimensional [[vector space]] over a field $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
++-- {: .num_example}
+###### Example
 
-* Let $M$ be a finite-dimensional [[manifold]], choose an embedding $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of [[Spanier-Whitehead duality]].
+Let $V$ be a finite-dimensional [[vector space]] over a field $k$, and let $V^* = Hom(V,k)$ be its usual [[dual vector space]].  We can define $\varepsilon\colon V^* \otimes V \to k$ to be the obvious pairing.  If we also choose a finite basis $\{v_i\}$ of $V$, and let $\{v_i^*\}$ be the [[dual basis]] of $V^*$, then we can define $\eta\colon k \to V\otimes V^*$ by sending $1$ to $\sum_i v_i \otimes v_i^*$.  It is easy to check the triangle identities, so $V^*$ is a dual of $V$ in $Vect_k$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $M$ be a finite-dimensional [[manifold]], choose an embedding $M\hookrightarrow \mathbb{R}^n$ for some $n$, and let $Th(N X)$ be the [[Thom spectrum]] of the [[normal bundle]] of this embedding.  Then the [[Thom collapse]] map defines an $\eta$ which exhibits $Th(N X)$ as a dual of $\Sigma_+^\infty M$ in the [[stable homotopy category]].  This is a version of [[Spanier-Whitehead duality]].
+
+=--
+
++-- {: .num_example }
+###### Example
+
+A [[C*-algebra]] is a [[Poincaré duality algebra]]
+if it is a dualizable object in the  [[symmetric monoidal category]] [[KK-theory|KK]] with dual its [[opposite algebra]]. 
+
+See at _[KK-theory -- Poincare duality](http://ncatlab.org/nlab/show/KK-theory#PoincareDualityAndThomIsomorphism)_.
+
+=--
+
+
 
 
 ### Properties
@@ -109,7 +144,7 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 Duals in a monoidal category are a very classical notion.  A large number of examples can be found in
 
-* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, [PDF](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf).
+* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
 The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to section 2.3 of
 
