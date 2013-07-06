@@ -3,8 +3,10 @@
 
 | analytic integration | cohomological integration |
 |--|--|
+| [[measurable space]] | [[Poincaré duality]] |
 | [[measure]] | [[orientation in generalized cohomology]] |
-| [[Riemann integration|Riemann]]/[[Lebesgue integration]], [[integration of differential forms|of differential forms]] | [[push-forward in generalized cohomology]]/[[fiber integration in differential cohomology|in differential cohomology]] |
+| [[volume form]] | ([[virtual fundamental class|virtual]]) [[fundamental class]] |
+| [[Riemann integration|Riemann]]/[[Lebesgue integration]] [[integration of differential forms|of differential forms]] | [[push-forward in generalized cohomology]]/[[fiber integration in differential cohomology|in differential cohomology]] |
 
 ### Analytic integration
 
