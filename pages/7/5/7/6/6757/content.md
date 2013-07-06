@@ -25,7 +25,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $(X,\omega)$ a [[symplectic manifold]] such that $\omega$ is an [[integral form]], a **prequantum line bundle** is any [[line bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$ on $X$ such that 
+For $(X,\omega)$ a ([[pre-symplectic form|pre]]-)[[symplectic manifold]] such that $\omega$ is an [[integral form]], a **prequantum line bundle** is any [[line bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$ on $X$ such that 
 
 $$
   \omega = F_\nabla
