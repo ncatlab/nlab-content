@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -62,6 +77,8 @@ degree-2 maps, so $M_{0,0}(Q,2)$ contains 2875 components of dimension 2, in con
 ## Related entries
 
 * [[fundamental class]]
+
+* [[Poincaré duality algebra]]
 
 * Virtual fundamental classes play a central role in the theory of [[Gromov-Witten invariants]].
 
