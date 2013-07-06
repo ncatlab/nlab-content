@@ -18,22 +18,93 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The notion of dual morphism is the generalization to arbitrary [[monoidal categories]] of the notion of [[dual linear map]] in the [[category]] [[Vect]] of [[vector spaces]].
+
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[morphism]] $f \colon X \to Y$ between two [[dualizable objects]] in a [[symmetric monoidal category]], the corresponding **dual morphism**
+Given a [[morphism]] $f \colon X \to Y$ between two [[dualizable objects]] in a [[monoidal category]] $(\mathcal{C}, \otimes)$, the corresponding **dual morphism**
 
 $$
   f^\ast \colon Y^\ast \to X^\ast
 $$
 
-is the one obtained by $f$ by composing the the duality [[unit of an adjunction|unit]] of $X$, the duality [[counit of an adjunction|counit]] of $Y$ and the [[braiding]] of $X$ with $Y$...
+is the one obtained by $f$ by composing the duality [[unit of an adjunction|unit]] of $X$, the duality [[counit of an adjunction|counit]] of $Y$...
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This notion is a special case of the the notion of _[[mate]]_ in a [[2-category]]. 
+
+Namely if $K \coloneqq \mathbf{B}_\otimes \mathcal{C}$ is the [[delooping]] [[2-category]] of the [[monoidal category]] $(\mathcal{C}, \otimes)$, then [[objects]] of $\mathcal{C}$ correspond to [[morphisms]] of $K$, [[dual objects]] correspond to [[adjunctions]] and [[morphisms]] in $\mathcal{C}$ correspond to [[2-morphisms]] in $K$. Under this identification a morphism $f \colon X \to Y$ in $\mathcal{C}$ may be depicted as a [[2-morphism]] of the form
+
+$$
+  \array{
+     \ast &\stackrel{\mathbb{1}}{\to}& \ast
+     \\
+     {}^{\mathllap{Y}}\downarrow &\swArrow_{\mathrlap{f}}& \downarrow^{\mathrlap{X}}
+     \\
+     \ast &\underset{\mathbb{1}}{\to}& \ast
+  }
+$$
+
+and duality on morphisms is then given by the [[mate]] [[bijection]]
+
+$$
+  \array{
+    \ast & \overset{\mathbb{1}}{\to} & \ast 
+    \\
+    {}^{\mathllap{Y}} \downarrow & \swArrow_{\mathrlap{f}} & \downarrow^{\mathrlap{X}} 
+    \\
+    \ast & \underset{\mathbb{1}}{\to} & \ast
+  }
+  \;\;\;\;\;
+    \mapsto
+  \;\;\;\;\;
+  \array{
+    \ast & \overset{\mathbb{1}}{\to} & \ast 
+    \\
+    {}^{\mathllap{X^\ast}} \downarrow & \swArrow_{\mathrlap{f^\ast}} & \downarrow^{\mathrlap{Y^\ast}} 
+    \\
+    \ast & \underset{\mathbb{1}}{\to} & \ast
+  }
+  \;\;\;\;
+  \coloneqq 
+  \;\;\;\;
+  \array{
+    \ast & \overset{Y^\ast}{\to} & \ast & \overset{\mathbb{1}}{\to} 
+    & \ast &   \overset{\mathbb{1}}{\to} &    \ast 
+   \\
+    {}^\mathllap{\mathbb{1}}\downarrow & 
+   \swArrow_{\epsilon_Y} & {}^{\mathllap{Y}} \downarrow &  
+    \swArrow_{f}     & \downarrow^{\mathrlap{X}} & 
+    \swArrow_{\eta_X} 
+    & \downarrow \mathrlap{1} 
+    \\
+    \ast & \underset{\mathbb{1}}{\to} & \ast & \underset{\mathbb{1}}{\to} 
+    & \ast & \underset{X^\ast}{\to}    & \ast
+  }
+  \,.
+$$
+
 
 =--
 
 ## Examples
+
++-- {: .num_example}
+###### Example
+
+In $\mathcal{C} = $ [[Vect]] with its standard [[tensor product]] monoidal structure, a [[dual object]] is a [[dual vector space]] and a dual morphism is a [[dual linear map]]. 
+
+=--
 
 +-- {: .num_example}
 ###### Example
