@@ -62,12 +62,24 @@ The operation $V \mapsto V^*$ extends to a [[contravariant functor]].
 
 +-- {: .num_defn}
 ###### Definition (transpose map)
-The dual or __transpose map__ of a [[linear map]] $A\colon V\to W$, is the linear map $A^* = A^T\colon W^*\to V^*$, given by
+The [[dual linear map]] or __transpose map__ of a [[linear map]] $A\colon V\to W$, is the linear map $A^* = A^T\colon W^*\to V^*$, given by
 $$ \langle{A^*(w), v}\rangle = \langle{w, A(v)}\rangle $$
 for all $w$ in $W^*$ and $v$ in $V$.
 =--
 
++-- {: .num_remark}
+###### Remark
+
 This functor is, of course, the [[representable functor]] represented by $K$ as a vector space over itself (a [[line]]).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This construction is the notion of [[dual morphism]] applied in the [[monoidal category]] [[Vect]] with its [[tensor product]] monoidal structure.
+
+=--
 
 
 ## Dual bases
@@ -96,6 +108,8 @@ The space $V$ is called __[[reflexive Banach space|reflexive]]__ if this natural
 
 
 ## Dual spaces as dual objects
+
+A dual vector space is a [[dual object]] in the [[monoidal category]] [[Vect]] equipped with its [[tensor product]] monoidal structure.
 
 In general, the duality between $V$ and $V^*$ does *not* make $Vect$ into a [[monoidal category with duals]].  However, if we restrict to spaces of [[F-finite|finite]] [[dimension]], then we get a [[compact category]]; finite-dimensional [[Hilbert spaces]] form a $\dagger$-[[dagger-compact category|compact category]], which is very nice indeed.
 
