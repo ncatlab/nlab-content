@@ -596,6 +596,14 @@ Discussion of quantization of [[presymplectic manifolds]] is in
 
 * Ana Canas da Silva, Yael Karshon, Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
+### Of generalized complex manifolds
+
+Discussion in [[generalized complex geometry]] is in
+
+* [[Alan Weinstein]], [[Marco Zambon]], _Variations on Prequantization_ ([arXiv:math/0412502](http://arxiv.org/abs/math/0412502))
+
+* Alexander Cardona, _Geometric quantization of generalized complex manifolds_ ([pdf](http://pentagono.uniandes.edu.co/~acardona/GQGCM.pdf))
+
 ### In higher differential geometry
 
 Geometric quantization in or with tools of [[higher differential geometry]], notably with/over [[Lie groupoids]] is discussed in the following references.
