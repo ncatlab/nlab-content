@@ -21,7 +21,9 @@ Suppose $f\colon X \to Y$ is a [[quasi-compact map|quasi-compact]] and [[quasi-s
 
 ## Related concepts
 
-* [[Poincare duality]]
+* [[six operations]]
+
+* [[Poincare duality]], [[Verdier duality]]
 
 ## References
 
