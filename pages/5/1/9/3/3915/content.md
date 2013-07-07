@@ -74,7 +74,7 @@ Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then th
 
 ## Related concepts
 
-* Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collaps map]]s.
+* Normal bundle plays a central role for instance in the theory of [[fiber integration]] by means of [[Pontrjagin-Thom collapse map]]s.
 
 * [[tubular neighbourhood]], [[conormal bundle]]
 
