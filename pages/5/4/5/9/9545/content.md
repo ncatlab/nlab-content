@@ -45,4 +45,8 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
 
 [[!include noncommutative motives - table]]
 
+## References
+
+* [[Alain Connes]], _[[Noncommutative Geometry]]_
+
 [[!redirects non-commutative topology]]
