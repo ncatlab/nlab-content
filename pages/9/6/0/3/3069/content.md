@@ -222,6 +222,10 @@ According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is cruc
 
 * The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
 
+### Grothendieck six operations
+
+A kind of Beck-Chevalley condition appears in the axioms of Grothendieck's [[six operations]]. See there for more.
+
 ## Related pages
 
 * [[Benabou-Roubaud theorem]]
