@@ -345,8 +345,15 @@ The last of these explains the relation to
 [[!redirects (infinity,1)-vector bundles]]
 [[!redirects (∞,1)-vector bundles]]
 
+[[!redirects (∞,1)-module bundle]]
+[[!redirects (∞,1)-module bundles]]
+[[!redirects (infinity,1)-module bundle]]
+[[!redirects (infinity,1)-module bundles]]
+
 
 [[!redirects (∞,1)-vector space]]
 [[!redirects (∞,1)-vector spaces]]
 [[!redirects (infinity,1)-vector space]]
 [[!redirects (infinity,1)-vector spaces]]
+
+
