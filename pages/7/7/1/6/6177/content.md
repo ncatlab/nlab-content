@@ -43,7 +43,7 @@ The [[stable homotopy category]] $Ho(Spec)$ is a [[symmetric monoidal category]]
 
 The original references are
 
-* Spanier, E. H.; Whitehead, J. H. C. (1953), _A first approximation to homotopy theory_ , Proc. Nat. Acad. Sci. U.S.A. 39: 655&#8211;660, MR0056290
+* Spanier, E. H.; Whitehead, J. H. C. (1953), _A first approximation to homotopy theory_, Proc. Nat. Acad. Sci. U.S.A. 39: 655&#8211;660, MR0056290
 
 * Spanier, E. H.; Whitehead, J. H. C. (1955), _Duality in homotopy theory_ , Mathematika 2: 56&#8211;80, MR0074823
 
