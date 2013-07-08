@@ -20,7 +20,7 @@ An [[object]] $S$ (or family $\mathcal{S}$ of objects) in a [[category]] $\mathc
 The [[duality|dual]] notion is that of a _[[coseparator]]_.
 
 
-## Caution on terminology
+## Caution on terminology {#Terminology}
 
 The term 'generator' is slightly more ambiguous because of the use of 'generators' in [[generators and relations]]. That said, there is a link between these two senses provided by theorem \ref{motive} (q.v.). 
 
