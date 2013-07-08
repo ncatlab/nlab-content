@@ -50,5 +50,7 @@ In [[constructive mathematics]], one could do the same thing, but it\'s more com
 
 * [[localization of a commutative ring]]
 
+* [[strict local ring]]
+
 [[!redirects local ring]]
 [[!redirects local rings]]
