@@ -25,7 +25,13 @@
 
 ## Idea
 
-The _Guillemin-Sternberg conjecture_ states that, given a [[symplectic manifold]] equipped with a [[Hamiltonian action]] by some group, under suitable conditions the processes of [[geometric quantization]] and of [[symplectic reduction]] can be interchanged without changing the result (a [[representation]] of the [[group]] on the [[space of quantum states]]). This is usually abbreviated to: _quantization commutes with reduction_.
+The _Guillemin-Sternberg conjecture_ states that, given a [[symplectic manifold]] equipped with a [[Hamiltonian action]] by some group, under suitable conditions the processes of [[geometric quantization]] and of [[symplectic reduction]] can be interchanged without changing the result (a [[representation]] of the [[group]] on the [[space of quantum states]]). This is usually abbreviated to: 
+
+* _quantization commutes with reduction_. 
+
+Since [[symplectic reduction]] also means restricting a [[mechanical system]] to a constraint surface, one may also read this as saying:
+
+* _quantization commutes with imposing constraints_.
 
 The original article ([Guillemin-Sternberg 82](#GuilleminSternberg82)) proved this statement for the case of [[compact Lie groups]] acting on [[compact topological space|compact]] [[Kähler manifolds]] and for [[geometric quantization]] via [[Kähler polarizations]].
 
@@ -63,6 +69,10 @@ The full statement for this general case was then proven in
 
 * [[Varghese Mathai]], [[Weiping Zhang]] (appendix by [[Ulrich Bunke]]), _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
  {#MathaiZhang}
+
+Lecture notes on this are in 
+
+* [[Weiping Zhang]], _Analytic aspects of geometric quantization_, 2009 ([pdf](http://www.math.ac.cn/PPT/PPT-hlg-lecture/ppt-hlg-2008/zhangweiping-hlg.pdf))
 
 [[!redirects geometric quantization conjecture]]
 [[!redirects quantization commutes with reduction]]
