@@ -1,4 +1,3 @@
-[[!redirects compact group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -35,4 +34,9 @@ A [[topological group]] is called **compact** if its underlying [[topological sp
 * [[compact Lie group]]
 
 
+
+[[!redirects compact topological groups]]
+
+[[!redirects compact group]]
 [[!redirects compact groups]]
+
