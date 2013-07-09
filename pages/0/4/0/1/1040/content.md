@@ -222,3 +222,5 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
+[[!redirects idempotent comonad]]
+[[!redirects idempotent comonads]]
