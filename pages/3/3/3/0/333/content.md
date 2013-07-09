@@ -70,8 +70,12 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 ## References
 
+### General
+
 * [[Alain Connes]], _[[Noncommutative Geometry]]_
  {#Connes}
+
+* [[Alain Connes]], _A walk in the non-commutative garden_ ([arXiv:math/0601054](http://arxiv.org/abs/math/0601054))
 
 ### Very early sources and schools
 
