@@ -340,6 +340,10 @@ The last of these explains the relation to
 
 * [[Peter May|May]], Sigurdsson, _[[Parametrized Homotopy Theory]]_
  
+Lecture notes on these articles are in 
+
+* Ben Knudsen, Scott Slinker, Paul VanKoughnett, Brian Williams, and [[Dylan Wilson]], _Thom spectra reading course_ ([web](http://www.math.northwestern.edu/~bwill/thom/))
+
 [[!redirects (∞,1)-vector bundle]]
 
 [[!redirects (infinity,1)-vector bundles]]
