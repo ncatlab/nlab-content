@@ -153,7 +153,7 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 * [[preorder]]
 
-* **partial order**
+* [[continuous poset]]
 
 * [[Noetherian poset]]
 
