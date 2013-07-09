@@ -69,7 +69,7 @@ So ultrafilters behave very much like hyperpoints.  This is not to say that ultr
 
 ## Relation to other topological concepts
 
-If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UF$; see [[ultrafilter monad]].
+If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UP$; see [[ultrafilter monad]].
 
 One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between arbitrary hyperpoints, instead of only a relation between hyperpoints and standard points.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
 
