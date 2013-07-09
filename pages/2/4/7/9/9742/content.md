@@ -1,5 +1,49 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A [[crossed product algebra|crossed product]] [[C*-algebra]].
+
+## Properties
+
+### Equivalence to convolution algebra
+
+If the $A$ is a [[C*-algebra]] [[algebra of functions|of functions]] on some [[topological space]] $X$ and the [[action]] of $G$ on $A$ is induced from an [[action]] on $X$, then in good cases the crossed product algebra is equivalent to the [[convolution algebra]] of the [[action groupoid]].
+
+e.g. ([Soltan, section 5.1](#Soltan)) ([Connes 06, around p. 13](#Connes06))
+
+## Related concepts
+
+* [[Baum-Connes conjecture]]
+
+## References
+
+Detailed lecture notes are in
+
+* Piotr Soltan, _$C^\ast$-Algebras, group actions and crossed products_, lecture notes ([pdf](http://www.fuw.edu.pl/~psoltan/prace/C*-algebras,%20group%20actions%20and%20crossed%20products%20%28lecture%20notes%29.pdf))
+ {#Soltan}
+
+A survey of [[noncommutative geometry]] with a bunch of examples of crossed product $C^\ast$-algebras is
+
+* [[Alain Connes]], _A walk in the non-commutative garden_ ([arXiv:math/0601054](http://arxiv.org/abs/math/0601054))
+ {#Connes06}
 
 
 (...)
