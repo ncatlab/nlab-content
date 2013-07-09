@@ -1,0 +1,21 @@
+# Totally distributive categories
+
+* table of contents
+{: toc}
+
+## Definition
+
+Recall that a [[locally small category]] $\mathcal{K}$ is [[total category|total]] if its [[Yoneda embedding]] $Y:\mathcal{K}\to [\mathcal{K}^{op},Set]$ has a [[left adjoint]] $X$.
+
++-- {: .un_defn}
+###### Definition
+A total category $\mathcal{K}$ is **totally distributive** if $X:[\mathcal{K}^{op},Set] \to \mathcal{K}$ has a further left adjoint $W$.
+=--
+
+## Examples
+
+* If $C$ is small, then the presheaf category $[C^{op},Set]$ is totally distributive.
+
+* If $\mathcal{K}$ is totally distributive and $\mathcal{L}\subseteq \mathcal{K}$ is a full [[subcategory]] that is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]], then $\mathcal{L}$ is totally distributive.
+
+[[!redirects totally distributive categories]]
