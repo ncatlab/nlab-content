@@ -88,6 +88,8 @@ Here is a review on this topic:
 
 ## References
 
+### Moduli space of 2s CFTs
+
 Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in 
 
 * [[Michael Douglas]], _Spaces of Quantum Field Theories_ ([arXiv:1005.2779](http://arxiv.org/abs/1005.2779))
@@ -101,7 +103,19 @@ based on conjectures in
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological Mirror Symmetry and
 torus fibrations_ , ([math.SG/0011041](http://arxiv.org/abs/math/0011041))
 
-Discussion of aspects of effective field theories which might rule them out as having a UV-completion by a string theory vacuum has been initiated in 
+Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory]] [[vacuum]] has been initiated in 
 
 * [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
+
+### Phenomenological speculation
+ {#ReferencesPhenomenologicalSpeculation}
+
+The fact that in principle all the parameters of the "landscape" of string theory vacua are dynamical (are moduli fields) and the idea that an [[eternal cosmic inflation]] might be something like an [[ergodic process]] in this landscape has led to ideas to connect this to [[phenomenology]] and the [[standard model of cosmology]]/[[standard model of particle physics]] by way of statistics.
+
+Summaries of this line of thinking include
+
+* [[Raphael Bousso]], _The State of the Multiverse:
+The String Landscape, the Cosmological
+Constant, and the Arrow of Time_, 2011 ([pdf](http://www.ctc.cam.ac.uk/stephen70/talks/swh70_bousso.pdf))
+
 
