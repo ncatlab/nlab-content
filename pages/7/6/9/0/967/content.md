@@ -41,8 +41,23 @@ Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a
 
 * any category admitting a [[topological functor]] to [[Set]]
 
+Thus, "most naturally-occurring" cocomplete categories are in fact total.  However, cototality is more rare.  But cototal categories do occur:
+
+* [[Set]] is cototal (as well as total).
+
+* Any [[presheaf category]] of a [[small category]] is cototal (as well as total).
+
+* Any [[totally distributive category]] is cototal (as well as total).
+
+* Any [[coreflective subcategory]] of a cototal category is cototal.
+
+## Related pages
+
+* [[totally distributive category]]
 
 ## References
+
+* [[Ross Street]] and [[Bob Walters]], _Yoneda structures on 2-category_.  (Contained the original definition of total categories.)
 
 * [[Max Kelly]], _A survey of totality for enriched and ordinary categories_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
  {#Kelly}
