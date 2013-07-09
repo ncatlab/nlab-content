@@ -44,6 +44,8 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 ## Related concepts
 
+* [[eternal cosmic inflation]]
+
 * [[cosmology]]
 
 * [[FRW model]]
