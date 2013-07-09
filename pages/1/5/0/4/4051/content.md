@@ -32,11 +32,11 @@ These conceptual distinctions are discussed more fully elsewhere in the nLab; se
 
 Even if we restrict focus to formal aspects, there are notable differences between axioms of ETCS and axioms of ZFC in terms of the strength of the underlying logic needed to express them, or in terms of what [internal logical](http://ncatlab.org/nlab/show/internal+logic#kinds_of_internal_logics_in_different_categories_20) assumptions are needed on a background environment in which to interpret them. The relevant distinctions between different types of internal theories (e.g., finite limit theories, coherent theories, etc.) is often conveniently expressed via a [[sequent calculus]]-style presentation of first-order logic that is common currency among categorical logicians, and that is the mode we will adopt here. 
 
-When we write a sequent $\varphi \vdash \varpsi$, it is understood that predicates $\varphi$, $\varpsi$ have the same type (we could write $\varphi \vdash_X \varpsi$ to indicate that $\varphi$ and $\varpsi$ are both of type $X$). Roughly speaking, this means they have the same free variables, although if we see a sequent of the form 
+When we write a sequent $\varphi \vdash \psi$, it is understood that predicates $\varphi$, $\psi$ have the same type (we could write $\varphi \vdash_X \psi$ to indicate that $\varphi$ and $\psi$ are both of type $X$). Roughly speaking, this means they have the same free variables, although if we see a sequent of the form 
 
-$$\varphi(x, y) \vdash \varpsi(x)$$ 
+$$\varphi(x, y) \vdash \psi(x)$$ 
 
-where a free variable $y$ does not appear explicitly, then we can match up the types by adding it in freely, replacing $\varpsi(x)$ by $\varpsi(x) \wedge [y = y]$. This replacement process corresponds to a "substitution" operation in a [[hyperdoctrine]], a way of doing categorical logic. In fact, a sequent calculus gives rise to a functor 
+where a free variable $y$ does not appear explicitly, then we can match up the types by adding it in freely, replacing $\psi(x)$ by $\psi(x) \wedge [y = y]$. This replacement process corresponds to a "substitution" operation in a [[hyperdoctrine]], a way of doing categorical logic. In fact, a sequent calculus gives rise to a functor 
 
 $$Pred: Types^{op} \to Preord$$ 
 
