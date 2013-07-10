@@ -1,0 +1,6 @@
+
+* [webpage](http://www.math.caltech.edu/people/simon.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Barry_Simon)
+
+category: people
