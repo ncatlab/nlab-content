@@ -26,12 +26,11 @@ $$
 
 where on the left we have $G$-equivariant KK-theory and on the right ordinary [[KK-theory]] of [[crossed product C*-algebras]] (which by the discussion there are models for the [[groupoid convolution algebras]] of $G$-[[action groupoids]]).
 
-e.g. ([Land 13, section 2](#Land13))
-
+(recalled as [Blackadar, theorem 20.6.2](#Blackadar))
 
 ## Properties
 
-The [[Baum-Connes conjecture]] states that under some conditions the analytic assembly map is in fact an [[isomorphism]]. The [[Novikov conjecture]] makes statements about it being an [[injection]].
+The [[Baum-Connes conjecture]] states that under some conditions the analytic assembly map is in fact an [[isomorphism]]. The [[Novikov conjecture]] makes statements about it being an [[injection]]. The _[[Green-Julg theorem]]_ states that under some (milder) conditions the Kasparov desent map is an [[isomorphism]].
 
 ## Related concepts
 
@@ -49,7 +48,13 @@ An introduction is in
 
 * [[Alain Valette]], _Introduction to the Baum-Connes conjecture_  ([pdf](http://www.univ-orleans.fr/mapmo/membres/chatterji/Valette.pdf))
 
-More discussion is in 
+A textbook account is in 
+
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
+ {#Blackadar}
+
+
+See also
 
 * Markus Land, _The Analytical Assembly Map and Index Theory_, ([arXiv:1306.5657](http://arxiv.org/abs/1306.5657))
  {#Land13}
