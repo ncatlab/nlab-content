@@ -567,6 +567,12 @@ For a basic comparative review of both see also section 1 of
 
 (which then develops geometric [[quantization via the A-model]]).
 
+### Relation to path integral quantization
+
+Relation to [[path integral quantization]] is discussed in
+
+* Laurent Charles, _Feynman path integral and Toeplitz Quantization_ ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
+
 
 ### Geometric BRST quantization
  {#ReferencesBRST}
