@@ -43,6 +43,8 @@ The geometric Langlands program is the analogue of the [[Langlands program]] wit
 
 ## References
 
+* [[David Ben-Zvi]], Geometric Langlands -- Lectures and Resources ([web](http://www.math.utexas.edu/users/benzvi/Langlands.html))
+
 * geometric Laglands [page](http://www.math.uchicago.edu/~mitya/langlands)
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _Quantization of the Hitchin system and Hecke eigensheaves_, draft, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
 * Gerard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
