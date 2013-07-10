@@ -10,13 +10,28 @@
 =--
 =--
 
-## Definition
+#Contents#
+* table of contents
+{:toc}
 
-(...)
+## Idea
+
+The _analytic assembly map_ is a natural [[morphism]] from $G$-[[equivariant cohomology|equivariant]] [[topological K-theory]] to the [[operator K-theory]] of a corresponding [[crossed product C*-algebra]].
+
+More generally in equivariant [[KK-theory]] this is called the _Kasparov descent map_  and is of the form
+
+$$
+  KK^G(A,B) \to KK(G \ltimes A, G \ltimes B)
+$$
+
+where on the left we have $G$-equivariant KK-theory and on the right ordinary [[KK-theory]] of [[crossed product C*-algebras]] (which by the discussion there are models for the [[groupoid convolution algebras]] of $G$-[[action groupoids]]).
+
+e.g. ([Land 13, section 2](#Land13))
+
 
 ## Properties
 
-The [[Baum-Connes conjecture]] states that the assembly map is an [[isomorphism]].
+The [[Baum-Connes conjecture]] states that under some conditions the analytic assembly map is in fact an [[isomorphism]]. The [[Novikov conjecture]] makes statements about it being an [[injection]].
 
 ## Related concepts
 
@@ -34,6 +49,10 @@ An introduction is in
 
 * [[Alain Valette]], _Introduction to the Baum-Connes conjecture_  ([pdf](http://www.univ-orleans.fr/mapmo/membres/chatterji/Valette.pdf))
 
+More discussion is in 
+
+* Markus Land, _The Analytical Assembly Map and Index Theory_, ([arXiv:1306.5657](http://arxiv.org/abs/1306.5657))
+ {#Land13}
 
 [[!redirects assembly maps]]
 
