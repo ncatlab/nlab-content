@@ -58,6 +58,8 @@ A formal proof is whatever is called a 'proof' in a formal system; a formal syst
 
 * [[theorem]], [[axiom]]
 
+* [[proof theory]]
+
 * [[proof management system]]
 
 
