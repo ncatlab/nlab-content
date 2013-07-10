@@ -226,6 +226,7 @@ Often this is interpreted as saying that "a Yang-Mills instanton describes the [
 
 ## Related concepts
 
+* [[non-perturbative effect]]
 
 * [[instanton Floer homology]]
 
