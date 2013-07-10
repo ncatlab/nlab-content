@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+The _Wiener measure_ is a [[measure]] on the [[space]] of [[continuous function|continuous paths]] in a given [[manifold]].
+
+The Wiener measure serves to make precise the [[path integral quantization]] for the (charged) [[particle]]. 
+
+## References
+
+A textbook account in the context of [[path integral quantization]] is around p. 49 in
+
+* [[Barry Simon]], _Functional integration and quantum physics_, AMS Chelsea Publ., Providence, 2005
+
+See also
+
+* PlanetMath _[Wiener measure](http://planetmath.org/wienermeasure)_
+
+[[!redirects Wiener measures]]
