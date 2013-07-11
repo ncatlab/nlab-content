@@ -42,7 +42,7 @@ This use of the terminology "deductive system" is not completely standard, but i
 In the concrete [[algebraic theory]] of [[groups]], the judgments are formal [[equations]] between [[terms]] built out of variables and the symbols $e$, $\cdot$, and $(-)^{-1}$.  Thus, for instance, $x\cdot e = x$ and $x = y \cdot x^{-1}$ are judgments.
 
 The rules of inference express, among other things, that equality is a [[congruence]] relative to the "operations".  For instance, there is a rule
-$$ \frac{a=a' \quad b=b'}{a\cdot a' = b\cdot b'} $$
+$$ \frac{a=a' \quad b=b'}{a\cdot b = a'\cdot b'} $$
 where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
 =--
 
