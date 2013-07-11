@@ -30,6 +30,10 @@ Just as [[monoidal categories]] with [[fiber functor]] are the [[categories of m
 
 ## Related concepts
 
+* [[Hopf monoid]], [[Hopf algebra]]
+
+* [[Hopf monad]]
+
 [[!include structure on algebras and their module categories - table]]
 
 ## References
