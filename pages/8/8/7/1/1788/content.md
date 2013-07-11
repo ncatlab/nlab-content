@@ -6,7 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 Any $\mathcal{Sand}$ in this box?
 
-[pdf](http://www.math.uni-hamburg.de/home/schreiber/scat.pdf)
+[pdf](http://archive.numdam.org/ARCHIVE/SPS/SPS_1992__26_/SPS_1992__26__189_0/SPS_1992__26__189_0.pdf)
 
 | | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
 |--|--|--|--|--|--|
