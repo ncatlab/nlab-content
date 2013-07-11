@@ -35,6 +35,7 @@ More generally, a **[[bimonoid]]** in a monoidal category $M$ is a monoid in the
 Bialgebras are precisely those [[sesquialgebras]] $A$ whose product $A \otimes A$-$A$-[[bimodule]] is induced from an algebra [[homomorphism]] $A \to A \otimes A$ and whose unit $k$-$A$ bimodule is induced from an algebra homomorphism $A \to k$.
 
 ### Tannaka duality and categories of modules
+ {#TannakDuality}
 
 The structure of a bialgebra on an [[associative algebra]] equips its [[category of modules]] with the structure of a [[monoidal category]] and a monoidal [[fiber functor]]. In fact that construction is an equivalence. This is the statement of [[Tannaka duality]] for bialgebras. For instance ([Bakke](#Bakke))
 
@@ -46,6 +47,8 @@ The structure of a bialgebra on an [[associative algebra]] equips its [[category
 Notions of bialgebra with further structure notably include _[[Hopf algebras]]_ and their variants.
 
 ## Related concepts
+
+* [[bimonoid]]
 
 * [[Gerstenhaber-Schack cohomology]], [[bialgebra cocycle]], [[weak bialgebra]], [[bialgebroid]]
 
