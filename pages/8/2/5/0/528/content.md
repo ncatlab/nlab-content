@@ -179,7 +179,11 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[Hopf C-star algebra]]
 
+* [[Hopf monoid]]
+
 * [[Hopf monoidal category]]
+
+* [[Hopf monad]]
 
 ## References
 
