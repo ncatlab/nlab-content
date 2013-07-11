@@ -108,6 +108,8 @@ $$ \int_{\sum_i \alpha_i U_i} \omega \coloneqq \sum_i \alpha_i \int_{U_i} \omega
 
 * [[cohomological integration]]
 
+* [[iterated integral]], [[parallel transport]], [[holonomy]]
+
 ## References
 
 An exposition with an eye towards applications in [[physics]] is section 3 of 
