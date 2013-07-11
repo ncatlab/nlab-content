@@ -39,4 +39,8 @@ Online entries/resources on hypergeometric function:
 
 * [[Alexander Varchenko]]: [list](http://www.math.unc.edu/Faculty/av/complete.htm) of publications
 
-* V. P. Spiridonov, _Classical elliptic hypergeometric functions and their applications, [pdf](http://www.math.kobe-u.ac.jp/publications/rlm18/17)
+There is also a far reaching elliptic generalization
+
+* V. P. Spiridonov, _Classical elliptic hypergeometric functions and their applications_, [pdf](http://www.math.kobe-u.ac.jp/publications/rlm18/17); _Aspects of elliptic hypergeometric functions_, [arxiv/1307.2876](http://arxiv.org/abs/1307.2876)
+
+[[!redirects hypergeometric functions]]
