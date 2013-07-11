@@ -5,7 +5,7 @@
 
 ## Idea
 
-Recall that a (say [[real number|real]]-valued) [[function]] $f$ is [[continuous map|continuous]] if, roughly speaking, $f(x) \approx f(y)$ (meaning that $f(x)$ is close to $f(y)$) whenever $x \approx y$.  For a _lower_ semicontinuous map, we require only $f(x) \gtrsim f(y)$ (meaning that $f(x)$ is close to or greater than $f(y)$); for an _upper_ semicontinuous map, we require only $f(x) \lesssim f(y)$.
+Recall that a (say [[real number|real]]-valued) [[function]] $f$ is [[continuous map|continuous]] at a [[point]] $x$ if, roughly speaking, $f(x) \approx f(y)$ (meaning that $f(x)$ is close to $f(y)$) whenever $x \approx y$.  For a _lower_ semicontinuous map, we require only $f(x) \lesssim f(y)$ (meaning that $f(x)$ is close to or less than $f(y)$); for an _upper_ semicontinuous map, we require only $f(x) \gtrsim f(y)$.
 
 
 ## Definitions
@@ -39,7 +39,7 @@ Of course, this doesn\'t really say anything if you don\'t know what those topol
 
 A function is [[continuous function|continuous]] (with respect to the usual [[order topology]] on $R$) iff it is both upper and lower semicontinuous.
 
-The [[characteristic function]] of a [[subset]] $A$ (either valued in the [[poset]] of [[truth values]] with its usual order or valued in the [[real numbers]] with $1$ for true and $0$ for false) is lower semicontinuous iff $A$ is [[open subset|open]], upper semicontinuous iff $A$ is [[closed subset|closed]], and continuous iff $A$ is [[clopen subset|clopen]].
+The [[characteristic function]] of a [[subset]] $A$ (either valued in the [[poset]] of [[truth values]] with its usual order or valued in the [[real numbers]] with $1$ for true and $0$ for false) is lower semicontinuous iff $A$ is [[open subset|open]], and upper semicontinuous iff $A$ is [[closed subset|closed]] (hence continuous iff $A$ is [[clopen subset|clopen]]).
 
 
 ## Generalizations
