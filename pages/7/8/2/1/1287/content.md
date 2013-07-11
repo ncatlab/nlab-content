@@ -22,7 +22,7 @@ Often this is presented or taken to be presented by a [[locally constant sheaf]]
 
 More generally, we say a _local system_ is a [[locally constant stack]], ... and eventually a [[locally constant ∞-stack]].
 
-Under suitable conditions (if we have [[Galois theory]]) local systems on $X$ correspond to [[functor]]s out of the [[fundamental groupoid]] of $X$, or more generally to [[(∞,1)-functor]]s out of the [[fundamental ∞-groupoid]]. 
+Under suitable conditions (if we have [[Galois theory]]) local systems on $X$ correspond to [[functor]]s out of the [[fundamental groupoid]] of $X$, or more generally to [[(∞,1)-functor]]s out of the [[fundamental ∞-groupoid]]. These in turn are equivalently [[flat connections]] (this relation is known as the _[[Riemann-Hilbert correspondence]]_) or generally [[flat ∞-connections]].
 
 
 
