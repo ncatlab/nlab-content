@@ -577,9 +577,15 @@ holds.
 ## Related concepts
 
 * [[renormalization group]], [[renormalization group flow]]
+
 * [[renormalization scheme]]
+
+* [[renormalon]]
+
 * [[perturbation theory]]
+
 * [[BV quantization]]
+
 * [[gauge fixing]], [[Gribov ambiguity]]
 
 * [[cosmic Galois group]]
