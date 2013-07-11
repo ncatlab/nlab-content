@@ -1,6 +1,6 @@
 ## Idea
 
-One can consider various compatibilities between a (co)monad on a monoidal category and the underlying monoidal product; they are variants of the idea of a [[distributive law]]. Similarly, one can look at a compatibility between an action of a monoidal category and a (co)monad on the same category. 
+One can consider various compatibilities between a (co)monad on a monoidal category and the underlying monoidal product; they are variants of the idea of a [[distributive law]]. Similarly, one can look at a compatibility between an action of a monoidal category and a (co)monad on the same category. See also [[Hopf monoid]]. 
 
 ## Text
 
@@ -13,7 +13,7 @@ A __monoidal monad__ on a monoidal category is a monad whose underlying endofunc
 * [[Kornél Szlachányi]], _The monoidal Eilenberg&#8211;Moore construction and bialgebroids_, J. Pure Appl. Algebra __182__, no. 2&#8211;3 (2003) 287&#8211;315
 
 * R. Wisbauer, _Bimonads and Hopf monads on categories_, [pdf](http://www.math.uni-duesseldorf.de/~wisbauer/Hopfmonad.pdf)
-* Bachuki Mesablishvili, [[Robert Wisbauer]], _Notes on bimonads and Hopf monads_, [arxiv/1010.3628](http://arxiv.org/abs/1010.3628)
+* Bachuki Mesablishvili, [[Robert Wisbauer]], _Notes on bimonads and Hopf monads_, Theory Appl. Cat. __26__:10, 2012, 281-303,  [abs](http://www.tac.mta.ca/tac/volumes/26/10/26-10abs.html) [pdf](http://www.tac.mta.ca/tac/volumes/26/10/26-10.pdf) [arxiv/1010.3628](http://arxiv.org/abs/1010.3628)
 * D. Chikladze, S. Lack, [[R. Street]], _Hopf monoidal comonads_, Theorya and Appl. of Cat. __24__ (2010) No. 19, 554-563.[tac](http://www.tac.mta.ca/tac/volumes/24/19/24-19abs.html)
 * A. Brugui&#232;res, _Hopf monads_, [math.QA/0604180](http://arxiv.org/abs/math/0604180); _Hopf monads: an introduction_, an expos&#232;, [pdf](http://www.cirm.univ-mrs.fr/videos/2006/exposes/23/Bruguieres.pdf); _Hopf monads, tensor categories and quantum invariants_, an expos&#232;, [pdf](http://www.cirm.univ-mrs.fr/videos/2008/exposes/307/Bruguiere.pdf)
 * Alain Brugui&#232;res, Steve Lack, Alexis Virelizier, _Hopf monads on monoidal categories_, [arxiv/1003.1920](http://arxiv.org/abs/1003.1920)
