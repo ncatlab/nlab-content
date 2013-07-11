@@ -216,6 +216,4 @@ and discussed in detail in
  {#Bakke}
 
 [[!redirects antipode]]
-[[!redirects Hopf monoid]]
-[[!redirects Hopf monoids]]
 [[!redirects Hopf algebras]]
