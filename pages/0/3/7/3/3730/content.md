@@ -1,6 +1,26 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The most basic form of the Riemann--Hilbert correspondence states that the [[category]] of [[flat connection|flat]] [[vector bundles]] on a suitable [[space]] is equivalent to the category of [[local systems]].
+
+
 While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution, there is a generalized sheaf-theoretical formulation which leads to an equivalence of categories discovered by Mebkhout and a bit later also by [[Kashiwara]].
 
-The most basic form of the Riemann--Hilbert correspondence states that the category of [[flat connection|flat]] [[vector bundle]]s is equivalent to the category of [[local system]]s.
+## Related entries
+
+* [[Hilbert's problems]]
+
+* [[flat infinity-connection]]
+
+* [[infinity-local system]]
+
+## References
+
+* Wikipedia, _[Riemann-Hilbert correspondence](http://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_correspondence)_
 
 
 [[!redirects Riemann-Hilbert correspondence]]
