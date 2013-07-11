@@ -25,9 +25,14 @@ A [[connection on a bundle|connectiojn]] on a [[fibre bundle]] is **flat** if it
 
 The same definition of flatness holds for connections in various algebraic setups and for connections on [[quasicoherent sheaves]]. 
 
-The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles are also refereed to as [[local systems]]
+The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles are also refereed to as [[local systems]] (by the _Riemann-Hilbert correspondence_ discussed [below](#RiemannHilbertCorrespondence)).
 
 ## Properties
+
+### Riemann-Hilbert correspndence
+ {#RiemannHilbertCorrespondence}
+
+That flat connections are equivalently [[representations]] of the [[fundamental groupoid]] of the base space/[[local systems]] is known as the _[[Riemann-Hilbert correspondence]]_.
 
 ### Flatness as integrability
 
