@@ -20,7 +20,14 @@ While [[Riemann-Hilbert problem|Hilbert's 21st problem]] has a negative solution
 
 ## References
 
+For a survey see
+
 * Wikipedia, _[Riemann-Hilbert correspondence](http://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_correspondence)_
+
+Generalization to [[flat infinity-connections]] via the [[dg-nerve]] is discussed in 
+
+* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
+
 
 
 [[!redirects Riemann-Hilbert correspondence]]
