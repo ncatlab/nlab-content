@@ -42,8 +42,9 @@ as does the analogous diagram with $1\otimes s$ replaced by $s\otimes 1$.
 
 * In a [[cartesian monoidal category]], every [[monoid]] object is a bimonoid in a unique way.  Such a bimonoid is a Hopf monoid exactly when the monoid object is a [[group object]].
 
+## Properties
 
-## Closed monoidal structure on modules
+### Closed monoidal structure on modules
 {#ClosedStructureOnModules}
 
 For any bimonoid $H$ in $\mathcal{C}$, the category $Mod_H$ of $H$-[[modules]] inherits a monoidal structure such that the [[forgetful functor]] ("[[fiber functor]]") $Mod_H \to \mathcal{C}$ is [[strong monoidal functor|strong monoidal]]; see _[[bimonoid]]_.  If $H$ is moreover a Hopf monoid and $\mathcal{C}$ is a [[closed monoidal category]], then $Mod_H$ is also closed, and the forgetful functor is strong closed (preserves [[internal homs]]).
@@ -64,6 +65,15 @@ $$
 \end{aligned}
 $$
 If $\mathcal{C}$ is cartesian and $H$ is a group object, then this is the "conjugation" action, with $g\in H$ sending $f:M\to N$ to $m\mapsto g\cdot f(g^{-1}\cdot m)$.  Diagram chases show that this makes $Hom(M,N)$ an $H$-module and $Mod_H$ a closed monoidal category.
+
+## Related concepts
+
+* [[Hopf algebra]]
+
+* [[Hopf monoidal category]]
+
+* [[Hopf monad]]
+
 
 
 [[!redirects Hopf monoids]]
