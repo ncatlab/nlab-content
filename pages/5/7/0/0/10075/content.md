@@ -1,0 +1,11 @@
+
+## Idea
+
+A [[holomorphic line bundle]] on a [[complex manifold]] satisfying a special condition.
+
+## References
+
+* Wikipedia, _[Positive line bundle](http://en.wikipedia.org/wiki/Positive_form#Positive_line_bundles)_
+
+[[!redirects positive line bundles]]
+
