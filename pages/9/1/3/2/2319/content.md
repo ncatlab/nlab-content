@@ -286,6 +286,10 @@ Discussion of spin structure on [[Kähler manifolds]] is in
 
 A textbook account is in ([Friedrich 97, section 3.4](#Friedrich97))
 
+A survey is also at
+
+* _[Theta characteristics and framings](http://amathew.wordpress.com/2013/06/23/theta-characteristics-and-framings/)_
+
 
 ### In quantum anomaly cancellation
 
