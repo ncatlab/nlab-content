@@ -400,6 +400,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
 ## Related concepts
 
+* [[virtual vector bundle]]
+
 * [[K-theory]]
 
 * **topological K-theory
