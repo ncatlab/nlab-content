@@ -6,12 +6,26 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
 =--
 =--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
 A [[complex numbers|complex]] [[vector bundle]] over a [[complex manifold]] such that it admits [[transition functions]] that are [[holomorphic functions]].
+
+## Related concepts
+
+* [[Kodaira vanishing theorem]]
+
+* [[Kähler polarization]]
 
 ## References
 
