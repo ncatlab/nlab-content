@@ -201,6 +201,8 @@ corresponding to $f$;
 ### Geometric quantization
  {#GeometricQuantizationProper}
 
+> under construction
+
 Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]].
 
 The traditional way to formalize this is as a 3-step process
