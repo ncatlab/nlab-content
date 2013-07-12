@@ -110,6 +110,8 @@ $$
 
 * [[Dolbeault cohomology]]
 
+* [[Dolbeault-Dirac operator]]
+
 ## References
 
 * Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
