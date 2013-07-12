@@ -23,3 +23,12 @@ $$
 
 * [[spin^c Dirac operator]]
 
+## References
+
+Textbook accounts include
+
+section 3.4 of 
+
+* [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
+ {#Friedrich97}
+
