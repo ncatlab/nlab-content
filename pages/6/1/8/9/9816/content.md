@@ -68,3 +68,6 @@ no. 6, 1139&#8211;1183 (1984)
 
 
 [[!redirects K-orientations]]
+
+[[!redirects KU-orientation]]
+[[!redirects KU-orientations]]
