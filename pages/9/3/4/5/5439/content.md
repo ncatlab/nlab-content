@@ -260,6 +260,12 @@ are [[compact operators]] according to def. \ref{CompactOperator}.
 
 ## References
 
+Section 13 of 
+
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
+
+See also
+
 * wikipedia, _[Hilbert $C^\ast$-module](http://en.wikipedia.org/wiki/Hilbert_C*-module)_
 
 
