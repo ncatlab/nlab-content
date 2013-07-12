@@ -67,7 +67,7 @@ More generally:
 
 A spin structure on a [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
 
-* there is a choice of [[square root]] $\sqrt{\Omega^{0,n}}$ of the [[canonical line bundle]] $\Omega^{0,n}$ (a "[[Theta characteristic]]"); 
+* there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
 
 * there is a trivialization of the [[first Chern class]] $c_1(T X)$ of the [[tangent bundle]].
 
@@ -81,7 +81,7 @@ In this case one has:
 There is a [[natural isomorphism]] 
 
 $$
-  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{0,n}}_X
+  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{n,0}}_X
 $$ 
 
 of the [[sheaf]] of [[sections]] of the [[spinor bundle]] $S_X$ on $X$ with the [[tensor product]] of the  [[Dolbeault complex]] with the corresponding [[Theta characteristic]];
