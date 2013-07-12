@@ -266,6 +266,20 @@ This is discussed at _[Spin^c -- Properties -- As the homotopy fiber of smooth w
 
 For $X$ an [[orientation|oriented]] [[manifold]], the map $X \to \ast$ is [[orientation in generalized cohomology|generalized oriented]] in [[periodic complex K-theory]] precisely if $X$ has a $Spin^c$-structure.
 
+### Relation to metaplectic structures
+ {#RelationToMetaplecticStructures}
+
+Let $(X,\omega)$ be a [[compact topological space|compact]] [[symplectic manifold]] equipped with a [[Kähler polarization]] $\mathcal{P}$ hence a [[Kähler manifold]] structure $J$. A [[metaplectic structure]] of this data is a choice of square root $\sqrt{\Omega^{0,n}}$ of the [[canonical line bundle]]. This is equivalently a [[spin structure]] on $X$ (see the discussion at _[[Theta characteristic]]_).
+
+Now given a [[prequantum line bundle]] $L_\omega$, in this case the [Dolbault quantization](geometric+quantization#IndexOfDolbeaultDiracOperator) of $L_\omega$ coincides with the [[spin^c quantization]] of the [[spin^c structure]] induced by $J$ and $L_\omega \otimes \sqrt{\Omega^{0,n}}$.
+
+This appears as ([Paradan 09, prop. 2.2](#Paradan09)).
+
+
+
+
+
+
 ## Examples
 
 ### From almost complex structures
@@ -387,6 +401,12 @@ A more recent review is provided in
 See also
 
 * [[Hisham Sati]], _Geometry of $Spin$ and $Spin^c$ structures in the M-theory partition function_ ([arXiv:1005.1700](http://arxiv.org/abs/1005.1700))
+
+
+The relation to [[metaplectic corrections]] is discussed in 
+
+* [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
+ {#Paradan09}
 
 
 [[!redirects spin^c structure]]
