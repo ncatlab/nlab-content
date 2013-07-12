@@ -72,6 +72,9 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
 
+ * The category of [[modules]] over any [[Hopf monoid]] in a closed monoidal category, or more generally algebras for any [[Hopf monad]], is again a closed monoidal category.  In particular, the category of modules over any [[group object]] in a [[cartesian closed category]] is (cartesian) closed monoidal.
+
+
 ### Functor categories
 
 +-- {: .un_theorem}
