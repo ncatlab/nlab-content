@@ -28,19 +28,22 @@ It is called a _correction_ mostly for historical reasons, since it was not incl
 A [[metaplectic structure]] on a [[symplectic manifold]] $(X, \omega)$ induces a [[metalinear structure]] on each [[Lagrangian submanifold]] $Q \hookrightarrow X$. This allows to form a [[square root]] line bundle $\sqrt{\Lambda^n T^* Q}$ of the [[canonical bundle]] of $Q$ and hence induces an [[inner product]] on [[sections]] of the [[tensor product]] $E|_Q \otimes \sqrt{\Lambda^n T^* Q}$ with the restriction of any [[line bundle]] $E$ on $X$ (a prequantum line bundle, notably).
 
 ### Relation to $Spin$-structure and $Spin^c$-structure
+ {#RelationToSpinCStructure}
 
-Let $(X,\omega)$ be a [[symplectic manifold]] equipped with a [[Kähler polarization]] $J$. A metaplectic structure is a choice of square root of the [[canonical line bundle]] $\sqrt{\Omega^{0,n}}$. This is equivalently a [[spin structure]] on $X$.
+Let $(X,\omega)$ be a [[compact topological space|compact]] [[symplectic manifold]] equipped with a [[Kähler polarization]] $\mathcal{P}$ hence a [[Kähler manifold]] structure $J$. A metaplectic structure is now a choice of square root $\sqrt{\Omega^{0,n}}$ of the [[canonical line bundle]]. This is equivalently a [[spin structure]] on $X$ (see the discussion at _[[Theta characteristic]]_).
 
-Now given a [[prequantum line bundle]] $L_\omega$, in this case the [Dolbault quantization](geometric+quantization#IndexOfDolbeaultDiracOperator) of $L_\omgea$ coincides with the [[spin^c quantization]] of the [[spin^c structure]] induced by $J$ and $L_\omgea \otimes \sqrt{\Omega^{0,n}}$.
+Now given a [[prequantum line bundle]] $L_\omega$, in this case the [Dolbault quantization](geometric+quantization#IndexOfDolbeaultDiracOperator) of $L_\omega$ coincides with the [[spin^c quantization]] of the [[spin^c structure]] induced by $J$ and $L_\omega \otimes \sqrt{\Omega^{0,n}}$.
 
-([Paradan 09, prop. 2.2](#Paradan09)).
+This appears as ([Paradan 09, prop. 2.2](#Paradan09)).
 
 
 
 
 ### Relation to geometric quantization
 
-See at _[geometric quantization -- Quantum space of states by polarization](#Polarizations)_.
+See at 
+
+* _[geometric quantization -- Quanum space of states](#geometric+quantization#GeometricQuantizationProper)_.
 
 ## Related concepts
 
