@@ -76,9 +76,18 @@ The Dirac operator is involved in approaches to the [[Atiyah-Singer index theore
 
 ## References
 
-* C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
+Textbooks include
 
 * H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press 1989.
+
+* [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
+ {#Friedrich97}
+
+
+See also
+
+* C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
+
 
 * [[Dan Freed]], _Geometry of Dirac operators_ ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf))
  {#Freed}
