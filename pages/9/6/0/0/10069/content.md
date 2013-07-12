@@ -19,15 +19,15 @@
 The _Kodeira vanishing theorem_ for [[complex geometry]] says that if $X$ is a [[Kähler manifold]] and $L$ a [[holomorphic line bundle]] on $X$ which is [[positive line bundle|positive]], then the [[abelian sheaf cohomology]] of $X$ with [[coefficients]] in the sheaf of [[sections]] of the [[tensor product]] 
 
 $$
-  \Omega^{0,n}_X(L) \simeq L \otimes \Omega^{0,n}_X
+  \Omega^{n,0}_X(L) \simeq L \otimes \Omega^{n,0}_X
 $$ 
 
-with the [[canonical line bundle]] $\Omega^{0,n}_X$ is concentrated in degree 0:
+with the [[canonical line bundle]] $\Omega^{n,0}_X$ is concentrated in degree 0:
 
 $$
   (L \; positive)
   \;\;\Rightarrow\;\;
-  H^{\bullet \geq 1}(X, \Omega^{0,n}_X(L))
+  H^{\bullet \geq 1}(X, \Omega^{n,0}_X(L))
   = 0
   \,.
 $$
@@ -35,6 +35,8 @@ $$
 ## Related concepts
 
 * [[Kodaira-Spencer theory]]
+
+* [geometric quantization -- Dolbeault quantization](geometric%20quantization#EulerCharacteristicOfSheafCohomology)
 
 ## References
 
