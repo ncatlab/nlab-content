@@ -35,6 +35,8 @@ By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector spac
 
 ## Related concepts
 
+* [[vitual vector space]]
+
 * [[vector bundle]], 
 
 * [[lattice in a vector space]]
