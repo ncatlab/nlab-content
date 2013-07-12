@@ -1,5 +1,37 @@
-Dolbeault cohomology refers to $H^q(X;\Omega_X^p)$, where $\Omega_X^p$ is the sheaf of holomorphic $p$-forms.
 
-Given any holomorphic vector bundle $E$, one can form the Dolbeault resolution $E \otimes \Omega^{0,q}$, where $\Omega^{0,q}$ is the sheaf of $C^\infty$ $(0,q)$-forms. This is an acyclic resolution of $E$ and hence computes its [[sheaf cohomology]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Dolbeault cohomology of a [[complex manifold]] $X$ is the [[abelian sheaf cohomology]] $H^q(X;\Omega_X^p)$, of the [[abelian sheaf]] $\Omega_X^p$ is [[Dolbeault complex]] of holomorphic $p$-forms.
+
+## Properties
+
+Given any [[holomorphic vector bundle]] $E$, one can form the Dolbeault resolution $E \otimes \Omega^{0,q}$, where $\Omega^{0,q}$ is the sheaf of $C^\infty$ $(0,q)$-forms. This is an acyclic resolution of $E$ and hence computes its [[sheaf cohomology]].
+
+## Related concepts
+
+* [[Kodaira vanishing theorem]]
+
 
 [[!redirects Dolbeault resolution]]
+
