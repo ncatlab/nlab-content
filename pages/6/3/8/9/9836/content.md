@@ -3,6 +3,8 @@ Bruce Evan Blackadar is an American operator algebra theorist at the University 
 
 * [webpage](http://wolfweb.unr.edu/homepage/bruceb/)
 
+* [maths genealogy page](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=32249)
+
 * [Wikipedia page](http://de.wikipedia.org/wiki/Bruce_Blackadar) (German)
 
 ## Related entries
