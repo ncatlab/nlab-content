@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[equivariant cohomology]] version of the [[generalized cohomology theory]] [[K-theory]]
+
+e.g. _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
+
+## Related concepts
+
+* [[Baum-Connes conjecture]]
+
