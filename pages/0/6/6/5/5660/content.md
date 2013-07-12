@@ -123,6 +123,10 @@ Reviews and surveys include
 * _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
  {#Introduction}
 
+A standard textbook account is in section 25 of 
+
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
+
 The [[stable homotopy theory|stable]] [[homotopy theory]] aspects are further discussed in
 
 * Martin Grensing, _Noncommutative stable homotopy theory_ ([arXiv:1302.4751](http://arxiv.org/abs/1302.4751))
