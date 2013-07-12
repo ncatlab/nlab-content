@@ -15,7 +15,7 @@
 
 ## Idea
 
-The Baum-Connes conjecture asserts that under suitable technical conditions, the [[operator K-theory]]/[[KK-theory]] of the [[groupoid convolution algebra]] of an [[action groupoid|action]] [[topological groupoid]] $X//G$ is equivalent to the _$G$-[[equivariant cohomology|equivariant]]_ [[topological K-theory]]/[[operator K-theory]]/[[KK-theory]] of $X$. Moreover, it says that this equivalences is exhibited by the _[[analytic assembly map]]_.
+The Baum-Connes conjecture asserts that under suitable technical conditions, the [[operator K-theory]]/[[KK-theory]] of the [[groupoid convolution algebra]] of an [[action groupoid|action]] [[topological groupoid]] $X//G$ is equivalent to the _$G$-[[equivariant cohomology|equivariant]]_ [[topological K-theory]]/[[equivariant operator K-theory]]/[[equivariant KK-theory]] of $X$. Moreover, it says that this equivalences is exhibited by the _[[analytic assembly map]]_.
 (Just the [[injective map|injectivity]] of this map is related to the [[Novikov conjecture]].)
 
 The original version of the Baum-Connes conjecture ([Baum-Connes](#BaumConnes00)) stated for a suitable [[topological group]] $G$ that with $X = E G \simeq \ast$ the point incarnated as the $G$-[[universal principal bundle]] with its free $G$-[[action]] the [[analytic assembly map]] (the $G$-equivariant [[index]] map)
@@ -25,7 +25,7 @@ $$
   \,,
 $$
 
-from the $G$-equivariant $K$-theory of $E G$ to the [[operator K-theory]] of the [[group algebra]], hence the [[groupoid convolution algebra]] of the [[delooping]] groupoid $\mathbf{B}G \simeq \ast // G$, is an [[isomorphism]].
+from the $G$-[[equivariant K-theory]] of $E G$ to the [[operator K-theory]] of the [[group algebra]], hence the [[groupoid convolution algebra]] of the [[delooping]] groupoid $\mathbf{B}G \simeq \ast // G$, is an [[isomorphism]].
 
 This Baum-Connes conjecture is known to be true for
 
@@ -46,7 +46,7 @@ $$
   KK^G(A,B) \to KK(G \ltimes A, G \ltimes B)
 $$
 
-where on the left we have $G$-equivariant KK-theory and on the right ordinary [[KK-theory]] of [[crossed product C*-algebras]] (which by the discussion there are models for the [[groupoid convolution algebras]] of $G$-[[action groupoids]]).
+where on the left we have $G$-[[equivariant KK-theory]] and on the right ordinary [[KK-theory]] of [[crossed product C*-algebras]] (which by the discussion there are models for the [[groupoid convolution algebras]] of $G$-[[action groupoids]]).
 
 This is an [[isomorphism]] at least for $G$ a [[compact topological group]] and restricted to [[operator K-theory]] (hence to the first argument being $\mathbb{C}$) and for $G$ a [[discrete group]] and restricted to [[K-homology]] (hence ot the second argument being $\mathbb{C}$). In this form this is the **Green-Julg theorem**, see [below](#GreenJulgTheorem).
 
@@ -67,7 +67,7 @@ Let $G$ be a [[topological group]] acting on a [[C*-algebra]] $A$.
      KK^G(\mathbb{C}, A) \to KK(\mathbb{C},G\ltimes A) 
    $$
 
-   is an [[isomorphism]], identifying the equivariant [[operator K-theory]] of $A$ with the ordinary [[operator K-theory]] of the [[crossed product C*-algebra]] $G \ltimes A$.
+   is an [[isomorphism]], identifying the [[equivariant operator K-theory]] of $A$ with the ordinary [[operator K-theory]] of the [[crossed product C*-algebra]] $G \ltimes A$.
 
 1. if $G$ is a [[discrete group]] then the descent map
 
@@ -79,7 +79,7 @@ Let $G$ be a [[topological group]] acting on a [[C*-algebra]] $A$.
 
 =--
 
-([Green-Julg](#GreenJulg)). A [[KK-theory]]-proof is in ([Echterhoff, theorem 0.2](#Echterhoff)); a textbook account is in ([Blackadar, 20.2.7 (b)](#Blackadar)). See also around ([Land 13, prop. 41](#Land13)).
+([Green-Julg](#GreenJulg)). A [[KK-theory]]-proof is in ([Echterhoff, theorem 0.2](#Echterhoff)); a textbook account is in ([Blackadar, 20.2.7](#Blackadar)). See also around ([Land 13, prop. 41](#Land13)).
 
 
 ## References
