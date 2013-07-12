@@ -37,7 +37,7 @@ For $p \in \mathbb{N}$ write $\Omega^p \colon Disk_{complex}^{op} \to Set$ for t
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ a [[complex manifold]], let $\{U_i \to X\}$ be a holomorphic good open cover. Then the [[Cech cohomology]] of this cover with [[coefficients]] in $\Omega^p$ in degree $q$ is the Dolbeault cohomology in bidegree $(p,q)$
+For $X$ a [[complex manifold]], let $\{U_i \to X\}$ be a holomorphic good open cover. Then the [[Cech cohomology]] of this cover with [[coefficients]] in $\Omega^p$ in degree $q$ is the [[Dolbeault cohomology]] in bidegree $(p,q)$
 
 $$
   H^{p,q}(X) \simeq \pi_0 sPSh(Disk_{comp})(C(\{U_i\}, \Omega^p[q]))
@@ -105,6 +105,10 @@ $$
   S(X) \simeq \wedge^{0,\bullet} T^\ast X
   \,.
 $$
+
+## Related concepts
+
+* [[Dolbeault cohomology]]
 
 ## References
 
