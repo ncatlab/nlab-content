@@ -14,4 +14,4 @@ Bruce Evan Blackadar is an American operator algebra theorist at the University 
 category: people
 
 [[!redirects Bruce Even Blackadar]]
-
+[[!redirects B. E. Blackadar]]
