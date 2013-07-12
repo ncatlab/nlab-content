@@ -44,6 +44,8 @@ Notice that if $X$ is for instance a [[complex manifold]] regarded over the comp
 
 * [[volume form]]
 
+* [[Kodaira vanishing theorem]]
+
 [[!include square roots of line bundles - table]]
 
 
@@ -64,3 +66,6 @@ See also
 [[!redirects canonical characteristic class]]
 [[!redirects canonical classes]]
 [[!redirects canonical characteristic classes]]
+
+[[!redirects canonical line bundle]]
+[[!redirects canonical line bundles]]
