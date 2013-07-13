@@ -52,3 +52,6 @@ with a review in the broader context of [[factorization algebras of observables]
 
 [[!redirects Feynman rule]]
 [[!redirects Feynman rules]]
+
+[[!redirects Feynman graph]]
+[[!redirects Feynman graphs]]
