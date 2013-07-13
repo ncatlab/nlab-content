@@ -436,7 +436,7 @@ The general notion of [[morphism]]s between [[topos]]es are [[geometric morphism
 Every [[functor]] $f : \mathcal{C}(A) \to \mathcal{C}(B)$ induces an [[essential geometric morphism]] 
 
 $$
-  (f_! \dasghv f^* \dashv f_*) : 
+  (f_! \dashv f^* \dashv f_*) : 
   [\mathcal{C}(A), Set]
     \stackrel{\overset{f_! := Lan_f}{\to}}{\stackrel{\overset{f^* := (-) \circ f}{\leftarrow}}{\underset{f_* := Ran_f }{\to}}}
   [\mathcal{C}(B), Set]   
