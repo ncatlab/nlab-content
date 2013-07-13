@@ -880,6 +880,10 @@ In other words, we get a monad in the 2-category of symmetric monoidal categorie
 
 In fact, it may be shown that commutative Lawvere theories on $Set$ are precisely the same things as (finitary) symmetric monoidal monad structures on $(Set, \times)$, as shown by Anders Kock. For more on this, see [[monoidal monad]]. 
 
+### As commutative monoid in a duoidal category
+
+The commutativity of a theory can also be expressed as an abstract property of a monoid in a [[duoidal category]], specialized to the duoidal category of finitary endofunctors.
+
 
 ## Properties
 
