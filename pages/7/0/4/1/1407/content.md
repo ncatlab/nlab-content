@@ -48,9 +48,9 @@ The amplitude assigned to a single graph with $n$ external edges is interpreted 
 
 Crucial for the motivation of the idea of string theory is the observation that this (renormalized) amplitude assigned to a graph is itself the _correlator_ of a 1-dimensional quantum field theory on that graph: the "worldline quantum field theory" describing the (relativistic) quantum mechanics of these particles. This is usually a [[sigma-model]] with parameter space the given graph and target space the spacetime on which the fields live for which the perturbation series computes the path integral.
 
-When made explicit this is called the [worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism) for computing the quantum field perturbation series. A useful discussion is for instance in
+When made explicit this is called the [[worldline formalism]] for computing the quantum field perturbation series. A useful discussion is for instance in
 
-* M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv](http://arxiv.org/abs/hep-ph/9412358))
+* M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
 
 The premise of perturbative string theory is to replace the perturbation series over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called worldsheets. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
