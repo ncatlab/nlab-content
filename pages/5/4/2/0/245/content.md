@@ -140,6 +140,8 @@ There is a [[strict 2-category]] BrMonCat with:
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
+* [[2-fold monoidal category]], [[duoidal category]]
+
 ## References
 
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]].  The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
