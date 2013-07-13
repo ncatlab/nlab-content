@@ -62,12 +62,20 @@ talks at
 ### Applications to Yang-Mills theory
  {#ApplicationsToYangMillsTheory}
 
-#### Montonen-Olive duality
+#### Worldline formalism
 
-* [[Montonen-Olive duality]] of ([[super Yang-Mills theory|super]])  [[Yang-Mills theory]] derives from conformal invariance of the [[6d (2,0)-supersymmetric QFT]] (see there) [[Kaluza-Klein mechanism|compactified]] on a [[torus]].
+The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an effective [[gauge invariance|gauge invariant]] way (different from but equivalent to the [[Feynman rules]]) was orginally found by taking the point-particle limit of the expressions for [[string scattering amplitudes]]. See at _[[worldline formalism]]_ for more.
+
+#### Montonen-Olive electric/magentic duality
+
+[[Montonen-Olive duality]] of ([[super Yang-Mills theory|super]])  [[Yang-Mills theory]] derives from conformal invariance of the [[6d (2,0)-supersymmetric QFT]] (see there) [[Kaluza-Klein mechanism|compactified]] on a [[torus]].
+
+[[!include gauge theory from AdS-CFT -- table]]
 
 
-#### To QCD and experimental particle physics
+
+
+#### Application to QCD and experimental particle physics
 
 The realization of [[Yang-Mills theory]] that describes [[quarks]] and their interaction by the [[strong nuclear force]] carried by [[gluons]] is _[[quantum chromodynamics]]_ ([[QCD]]).
 
@@ -122,6 +130,7 @@ Discussion of [[confinement]] in the context of the [[AdS-CFT correspondence]] i
 #### To super Yang-Mills theory
 
 [[Seiberg duality]] in [[super Yang-Mills theory]] is conceptually explained by [[type II string theory]] on certain [[D-brane]] configurations (...)
+
 
 ### Applications to gravity
  {#ApplicationsToGravity}
