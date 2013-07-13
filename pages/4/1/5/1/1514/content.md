@@ -129,13 +129,25 @@ Then one has
 the [[integral kernel]] for the time evolution propagator is
 
 $$
-  U(x_0,x_1) = \int_{\gamma} tra(\nabla)(\gamma) [\exp(-S_{kin}(\gamma)) D\gamma]
-  \,.
+  U(x_0,x_1) = \int_{\gamma} tra(\nabla)(\gamma) \, [\exp(-S_{kin}(\gamma)) D\gamma]
+  \,,
 $$
+
+hence the [[integration]] of the [[parallel transport]]/[[holonomy]] against the [[Wiener measure]].
 
 (To make sense of this one first needs to extend the [[parallel transport]] from smooth paths to stochastic paths, see the references [below](#ReferencesForChargedParticle).)
 
-Notice that from the point of view of [[higher prequantum field theory]] this means that the path integral sends a [[correspondence]] in the [[slice (infinity,1)-topos]] of [[smooth infinity-groupoids]] over the [[delooping]] groupoid $\mathbf{B}U(1)$ 
++-- {: .num_remark #WorldlineFormalism}
+###### Remark
+
+This "holonomy integrated against the Wiener measure" is the path integral in the form in which it notably appears in the _[[worldline formalism]]_ for computing [[scattering amplitudes]] in [[quantum field theory]]. See ([Strassler 92, (2.9), (2.10)](#Strassler92)).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+From the point of view of [[higher prequantum field theory]] this means that the path integral sends a [[correspondence]] in the [[slice (infinity,1)-topos]] of [[smooth infinity-groupoids]] over the [[delooping]] groupoid $\mathbf{B}U(1)$ 
 
 $$
   \array{
@@ -168,7 +180,7 @@ $$
   }
 $$
 
-
+=--
 
 
 
@@ -256,6 +268,11 @@ Textbook accounts include
 
 
 * [[Barry Simon]], _Functional integration and quantum physics_ AMS Chelsea Publ., Providence, 2005
+
+The [[worldline]] path integral as a way to compute [[scattering amplitudes]] in [[QFT]] was understood in 
+
+* [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
+ {#Strassler92}
 
 ### Stochastic integration theory
 
