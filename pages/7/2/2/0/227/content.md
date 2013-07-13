@@ -230,6 +230,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[ring extension]]
 
+* [[near-ring]]
+
 
 
 ## References
