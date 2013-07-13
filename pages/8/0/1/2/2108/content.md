@@ -451,11 +451,7 @@ This is discussed in ([Paradan 09, prop. 2.2](#Paradan09)).
 
 ### Functorial dependence on choices
 
-(...)
-
 * L. Charles, _Semi-classical properties of geometric quantization with metaplectic correction_ ([arXiv:math/0602168](http://arxiv.org/abs/math/0602168))
-
-(...)
 
 ### Compatibility of quantization with symplectic reduction
 
