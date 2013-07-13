@@ -82,4 +82,4 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 * _[[geometry of physics]]_
 
-
+[[!redirects Einstein-Yang-Mills-Dirac theories]]
