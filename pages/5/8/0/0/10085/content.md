@@ -1,0 +1,5 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jean-Michel_Bismut)
+
+category: people
+
