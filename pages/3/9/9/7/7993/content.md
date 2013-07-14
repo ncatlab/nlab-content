@@ -25,7 +25,7 @@ It is called a _correction_ mostly for historical reasons, since it was not incl
 
 ### Induced inner product / Hilbert space structure
 
-A [[metaplectic structure]] on a [[symplectic manifold]] $(X, \omega)$ induces a [[metalinear structure]] on each [[Lagrangian submanifold]] $Q \hookrightarrow X$. This allows to form a [[square root]] line bundle $\sqrt{\Lambda^n T^* Q}$ of the [[canonical bundle]] of $Q$ and hence induces an [[inner product]] on [[sections]] of the [[tensor product]] $E|_Q \otimes \sqrt{\Lambda^n T^* Q}$ with the restriction of any [[line bundle]] $E$ on $X$ (a prequantum line bundle, notably).
+A [[metaplectic structure]] on a [[symplectic manifold]] $(X, \omega)$ induces a [[metalinear structure]] on each [[Lagrangian submanifold]] $Q \hookrightarrow X$ of a given [[foliation]] by Lagrangian submanifolds ([[polarization]]). This allows to form a [[square root]] line bundle $\sqrt{\Lambda^n T^* Q}$ of the [[canonical bundle]] of $Q$ and hence induces an [[inner product]] on [[sections]] of the [[tensor product]] $E|_Q \otimes \sqrt{\Lambda^n T^* Q}$ with the restriction of any [[line bundle]] $E$ on $X$ (a prequantum line bundle, notably).
 
 ### Relation to $Spin$-structure and $Spin^c$-structure
  {#RelationToSpinCStructure}
