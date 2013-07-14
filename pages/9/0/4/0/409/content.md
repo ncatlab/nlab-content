@@ -27,7 +27,7 @@ Equivalently, it is a [[globular set]] $X_\bullet$ equipped with a [[unit law|un
 
 ### Relation to crossed complexes
 
-Due to an insight going back to [[George Whitehead]], written out in [Brown-Higgins-](#BrownHiggins), the [[1-category]] of strict $\omega$-groupoids is equivalent to that of [[crossed complexes]]. This equivalence is a generalization of the [[Dold-Kan correspondence]] to which it reduces when restricted to crossed complexes whose fundamental group is abelian and acts trivially. More details in this are at _[[Nonabelian Algebraic Topology]]_.
+Following work of [[J. H. C. Whitehead]], in  ([Brown-Higgins](#BrownHiggins)) it is shown that the [[1-category]] of strict $\omega$-groupoids is equivalent to that of [[crossed complexes]]. This equivalence is a generalization of the [[Dold-Kan correspondence]] to which it reduces when restricted to crossed complexes whose fundamental group is abelian and acts trivially. More details in this are at _[[Nonabelian Algebraic Topology]]_.
 
 Strict $\infty$-groupoids form one of the vertices of the [[cosmic cube]] of [[higher category theory]].
 
