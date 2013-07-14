@@ -122,6 +122,8 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 
 ## Related concepts
 
+* [[square integrable function]]
+
 * [[canonical Hilbert space of half-densities]]
 
 ## References
