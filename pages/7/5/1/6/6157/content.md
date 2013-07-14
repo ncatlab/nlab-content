@@ -1,3 +1,4 @@
+[[!redirects (infinity,1)-vector bundle]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -202,7 +203,7 @@ This is ([ABG, def. 4.1](#ABG)) and ([ABG, p. 15](#ABG)), ([ABG11, remark 10.16]
 +-- {: .num_remark}
 ###### Remark
 
-For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **Thom $A$-module** of $f$ and written $M f$. 
+For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **[[Thom spectrum|Thom A-module]]** of $f$ and written $M f$. 
 
 =--
 
@@ -261,7 +262,7 @@ $$
   \Gamma(f) \simeq (\Sigma^\infty X )\wedge A
 $$
 
-of the $A$-module of sections of $f$ / the Thom $A$-module of $f$ with the [[homology|generalized A-homology]]-spectrum of $X$:
+of the $A$-module of sections of $f$ / the [[Thom spectrum|Thom A-module]] of $f$ with the [[homology|generalized A-homology]]-spectrum of $X$:
 
 $$
   \pi_\bullet \Gamma(f) \simeq H_\bullet(X,A)   
@@ -302,7 +303,7 @@ We discuss now $(\infty,1)$-vector bundles in more general [[(∞,1)-toposes]].
 
 ## Applications
 
-* The [[string topology]] operations on a compact [[smooth manifold]] $X$ may be understood as arising from a [[sigma-model]] [[quantum field theory]] with [[target space]] $X$ whose [[background gauge field]] is a flat $A$-line $\infty$-bundle $(P,\nabla)$ which is $A$-oriented over $X$, hence trivializabe over $X$ (for instance for $A = H \mathbb{Q}$ the [[Eilenberg-MacLane spectrum]] this may be the sphereical fibration of Thom spaces induced from the [[tangent bundle]] if the manifold is [[oriented]] in the ordinary sense). 
+* The [[string topology]] operations on a compact [[smooth manifold]] $X$ may be understood as arising from a [[sigma-model]] [[quantum field theory]] with [[target space]] $X$ whose [[background gauge field]] is a flat $A$-line $\infty$-bundle $(P,\nabla)$ which is $A$-oriented over $X$, hence trivializabe over $X$ (for instance for $A = H \mathbb{Q}$ the [[Eilenberg-MacLane spectrum]] this may be the sphereical fibration of [[Thom spectrum|Thom spaces]] induced from the [[tangent bundle]] if the manifold is [[oriented]] in the ordinary sense). 
 
   By prop. \ref{ThomModuleInOrientedCase} this implies that the space of [[state]]s of the $\sigma$-model is the $A$-homology spectrum $\Gamma(P) \simeq X \edge A$ of $X$, and that for every suitable [[surface]] $\Sigma$ with incoming and outgoing boundary components $\partial_{in} \Gamma \stackrel{in}{\to} \Gamma \stackrel{out}{\leftarrow} \partial_{out} \Gamma$ the [[mapping space]] [[span]]
 
@@ -353,6 +354,11 @@ Lecture notes on these articles are in
 [[!redirects (∞,1)-module bundles]]
 [[!redirects (infinity,1)-module bundle]]
 [[!redirects (infinity,1)-module bundles]]
+
+[[!redirects (∞,1)-line]]
+[[!redirects (∞,1)-lines]]
+[[!redirects (infinity,1)-line]]
+[[!redirects (infinity,1)-lines]]
 
 
 [[!redirects (∞,1)-vector space]]
