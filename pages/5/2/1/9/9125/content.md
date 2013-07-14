@@ -2637,7 +2637,7 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 * [[perturbation theory]]
 
-  * [[tachyon]]
+  * [[vacuum]], [[tachyon]]
 
 [[!include holographic principle -- table]]
 
