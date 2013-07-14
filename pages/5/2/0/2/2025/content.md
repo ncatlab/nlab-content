@@ -152,6 +152,8 @@ From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning
 
 ## Related concepts
 
+* [[one-point compactification]]
+
 * [[vanishing at infinity]]
 
 
