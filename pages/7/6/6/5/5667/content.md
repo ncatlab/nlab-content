@@ -334,6 +334,134 @@ To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutat
 
 Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[Chow motives]]. A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
 
+## Examples
+ {#Examples}
+
+### Basic examples
+
++-- {: .num_example }
+###### Example
+
+For $f \colon A \to B$ a [[homomorphism]] of $\mathbb{Z}_2$ [[graded C*-algebras]], take $B$ as a right [[Hilbert module]] over itself and equip it with the left [[action]] of $A$ induced by $f$. This makes it a [[Hilbert bimodule]]. Together with the 0-[[Fredholm operator]], this represents an element 
+
+$$
+  (B, f, 0) \in KK(A,B)
+  \,.
+$$
+
+=--
+
+For instance ([Blackadar 99, example 17.1.2 a)](#Blackadar99)).
+
++-- {: .num_example }
+###### Example
+
+For 
+
+$$
+  (H_i, F_i) \in KK(A,B)
+$$ 
+
+a [[Fredholm module|Fredholm]] $(A_i,B)$-[[Hilbert bimodule]] for $i \in \{1,2\}$, the [[direct sum]] is
+
+$$
+  (H_1 \oplus H_2, F_1 \oplus F_2) \in KK(A_1\oplus A_2, B)
+  \,.
+$$
+
+=--
+
+For instance ([Blackadar 99, example 17.1.2 c)](#Blackadar99)).
+
+
+### The archetypical examples
+
++-- {: .num_example }
+###### Example
+
+Let $(X,g)$ be a [[closed manifold|closed]] [[smooth manifold|smooth]] [[Riemannian manifold]], and let $V_0, V_1$ be two smooth [[vector bundles]] over $X$ with Hermitian strucure ([[associated bundle|associated]] to a chosen [[unitary group]]-[[principal bundle]]). 
+
+Then given an [[elliptic operator|elliptic]] [[pseudodifferential operator]]
+
+$$
+  P \colon \Gamma(V_0) \to \Gamma(V_1)
+$$
+
+on smooth [[sections]] it extends to an essentially [[unitary operator|unitary]] [[Fredholm operator]] on [[square integrable function|square integrable]] sections $L^2(V_i)$. 
+
+Consider then the $\mathbb{Z}_2$-graded [[Hilbert space]]
+
+$$
+  H \coloneqq L^2(V_0) \oplus L^2(V_1)
+$$
+
+equipped with the evident action of $C(X)$ (by "[[multiplication operators]]"). Then with $P$ a [[parametrix]] for $Q$, the 
+operator
+
+$$
+  F \coloneqq 
+  \left[
+    \array{
+       0 & Q
+       \\
+       P & 0
+    }
+  \right]
+$$
+
+is a [[Fredholm operator]] on $H$, so that
+
+$$
+  \left(
+    L^2(V_1) \oplus L^2(V_2), 
+  \left[
+    \array{
+       0 & Q
+       \\
+       P & 0
+    }
+  \right]
+  \right)
+  \in 
+  KK(C(X),\mathbb{C})
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Let $(X,g)$ be an [[almost complex manifold]]
+and let $D \colon \overline{\partial} + \overline{\partial}^\ast$ be the [[Dolbeault-Dirac operator]]. This extends to an operator on 
+
+$$
+  H \coloneqq L^2(\Omega^{0,\bullet})
+$$
+
+and 
+
+$$
+  F \coloneqq \frac{D}{\sqrt{1 + D^2}}
+$$
+
+(defined by [[functional calculus]]) is then a [[Fredholm operator]] on that.  Then
+
+$$
+  \left(
+    L^2(\Omega^{0,\bullet}),
+    \frac{\overline{\partial} + \overline{\partial}^\ast}{\sqrt{1+ (\overline{\partial} + \overline{\partial}^\ast)^2}}
+  \right)
+  \in
+  KK(C(X), \mathbb{C})
+  \,.
+$$
+
+
+=--
+
+
 ## Properties
 
 
