@@ -86,6 +86,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[homotopy groups of spheres]]
 
+* [[sphere spectrum]]
+
 [[!redirects n-sphere]]
 [[!redirects spheres]]
 [[!redirects infinite sphere]]
