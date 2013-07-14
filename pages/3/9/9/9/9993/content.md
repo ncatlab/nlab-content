@@ -2,5 +2,6 @@
 | [[partition function]] in QFT | [[genus]] in [[cohomology theory]] |
 |---|---|
 | [[spinning particle]] | [[K-theory]] [[index]] |
+| endpoint of [[type II superstring]] | [[D-brane charge]] |
 | [[type II superstring]] | [[elliptic genus]] |
 | [[heterotic string]] | [[Witten genus]] |
