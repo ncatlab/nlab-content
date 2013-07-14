@@ -89,6 +89,8 @@ See the [references below](#ReferencesDivergenceConvergence) for details.
 
 * [[scattering amplitude]], [[string scattering amplitude]]
 
+* [[vacuum]], [[tachyon]]
+
 * [[non-perturbative quantum field theory]]
 
 * [[non-perturbative effect]]
