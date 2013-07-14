@@ -84,7 +84,7 @@ on [[operator K-theory]] and [[KK-theory]].
 
 ### 14. Graded $C^\ast$-algebra
 
-(...)
+* [[graded C*-algebra]]
 
 ## Chapter VII. Theory of extensions
 
