@@ -22,7 +22,7 @@ In the corresponding [[quantum field theory]], however, a state that is initiall
 
 ## Related concepts
 
-* [[vacuum]],
+* [[vacuum]], [[tachyon]]
 
 * [[landscape of string theory vacua]]
 
