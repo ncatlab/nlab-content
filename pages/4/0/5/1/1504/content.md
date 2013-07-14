@@ -24,9 +24,12 @@
 
 ## Idea
 
-String field theory is supposed to be something like a  [[quantum field theory]] which is the [[second quantization]] of the [[string]] in [[string theory]].
+String field theory is supposed to be something like a  [[quantum field theory]] which is the [[second quantization]] of the [[string]] in [[string theory]], following this analogy:
 
-Recall that [[string theory|perturbative string theory]] is a higher dimensional version of the Feynman perturbation series in [[quantum field theory]]. This Feynman perturbation series may be understood as computing the path integral over the Lagrangian of the given quantum field theory. _String field theory_ is the attempt to identify this Lagrangian description corresponding to the string perturbation series.
+[[!include second quantization -- table]]
+
+
+Recall that [[string theory|perturbative string theory]] is a higher dimensional version of the Feynman [[perturbation series]] in [[quantum field theory]]. This Feynman perturbation series may be understood as computing the path integral over the Lagrangian of the given quantum field theory. _String field theory_ is the attempt to identify this Lagrangian description corresponding to the string perturbation series.
 
 So string field theory is the attempt to complete the following analogy:
 
@@ -37,14 +40,17 @@ Feynman perturbation series : QFT Lagrangian  :: String perturbation theory : St
 The original hope was that string field theory would be a way to embed the string perturbation series prescription into a more coherent non-perturbative framework. 
 
 ### Achievements
+ {#Achievements}
 
 The most detailed insight that has come out of the study of string field theory is the full understanding of the role of the "tachyon" field in bosonic perturbative string theory. In the bosonic version of the theory one of the excitations of the string is a quantum that appears to have imaginary mass. Such "tachyonic" quanta appear in ordinary field theory when the perturbation series is developed around an extremum of the QFT action functional that is not a local minimum, but a local maximum: it indicates that the  classical configuration around which the perturbation series computes the quantum corrections is dynamically unstable and time evolution will tend to evolve it to the next local minimum. In the perturbative quantum description the movement to the next local minimum manifests itself in the _condensation_ (as in [[Bose-Einstein condensation]]) of the tachyon field. This is called _tachyon condensation_.
 
 Shortly after its conception it was suspected that the tachyon that appears in the perturbation theory of the bosonic string is similarly an indication that the bosonic string's perturbation series has to be understood as being a perturbation about a local maximum of some action functional. String field theory aimed to provide that notion of action functional. And indeed, in bosonic string field theory one has a kind of higher action functional and may compute the "tachyon potential" that it implies. It indeed has a local maximum at the point about which the ordinary bosonic string perturbation series is a perturbative expansion, while a local minimum is foun nearby. 
 
-[[Ashoke Sen]] conjectured the statement -- now known as _[[Sen's conjecture]]_ -- that the depth of this tachyon potential, i.e. the energy density difference between this local maximum and this local minimum corresponds precisely to the energy density of the space-filling D25-[[brane]] that is seen in [[perturbative string theory]]. This would mean that the condensation of the bosonic string's tachyon corresponds to the decay of the unstable space-filling D25 brane. 
+[[Ashoke Sen]] conjectured the statement -- now known as _[[Sen's conjecture]]_ -- that the depth of this tachyon potential, i.e. the energy density difference between this local maximum and this local minimum corresponds precisely to the energy density of the space-filling [[D25-brane]] that is seen in [[perturbative string theory]]. This would mean that the condensation of the bosonic string's tachyon corresponds to the decay of the unstable space-filling D25 brane. 
 
-The detailed quantitative confirmation of Sen's conjecture has been one of the main successes of string field theory. In the course of this a detailed algebraic description of the "true bosonic string vacuum", i.e. of the theory at that local tachyon potential minimum has been found. However, the algebraic expressions involved tend to be hard to handle in their complexity.
+The detailed quantitative confirmation of Sen's conjecture has been one of the main successes of string field theory. In the course of this a detailed algebraic description of the "true closed bosonic string vacuum", i.e. of the theory at that local tachyon potential minimum has been found. However, the algebraic expressions involved tend to be hard to handle in their complexity.
+
+There are numerical indications that indeed as the D25-brane has decayed, the remaining vacuum contains (only) closed strings. See the [references below](#BosonicStringVacuumAndSenConjecture).
 
 ### Shortcomings
 
@@ -416,7 +422,7 @@ A formulation of superstring field theory more on line with the Chern-Simons typ
 
 ### General
 
-* Leonardo Rastelli, _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
+* [[Leonardo Rastelli]], _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
 
 A textbook-like account is in
 
@@ -645,8 +651,41 @@ A review of the history of some related developments is given in
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
 
 (...)
+
+### Tachyon dynamics, decaying D-branes and Sen's conjecture
+ {#BosonicStringVacuumAndSenConjecture}
+
+[[Sen's conjecture]] about the open [[bosonic string]] [[tachyon]] and the decay of the [[D25-brane]] originates in 
+
+* [[Ashoke Sen]], _Universality of the Tachyon Potential_,  	JHEP 9912:027,1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
+
+Hints for the decay of the space-filling [[D25-brane]] in open bosonic string field theory and the resulting closed string vacuum were discussed in articles like
+
+* Ian Ellwood, Washington Taylor, _Open string field theory without open strings_, Phys.Lett. B512 (2001) 181-188 ([arXiv:hep-th/0103085](http://arxiv.org/abs/hep-th/0103085))
+
+* Bo Feng, Yang-Hui He, Nicolas Moeller, _Testing the Uniqueness of the Open Bosonic String Field Theory Vacuum_ ([arXiv:hep-th/0103103](http://arxiv.org/abs/hep-th/0103103))
+
+A breakthrough were then the analytic solutions describing the bosonic string tachyon vacuum in 
+
+* [[Martin Schnabl]], _Analytic solution for tachyon condensation in open string field theory_ ([arXiv:hep-th/0511286](http://arxiv.org/abs/hep-th/0511286))
+
+* Ian Ellwood, [[Martin Schnabl]], _Proof of vanishing cohomology at the tachyon vacuum_, JHEP 0702:096,2007 ([arXiv:hep-th/0606142](http://arxiv.org/abs/hep-th/0606142))
+
+Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]] theory is in 
+
+* [[Leonardo Rastelli]], [[Ashoke Sen]], [[Barton Zwiebach]], _Vacuum String Field Theory_ ([arXiv:hep-th/0106010](http://arxiv.org/abs/hep-th/0106010))
+
+* [[Ashoke Sen]], _Tachyon Dynamics in Open String Theory_,  	Int.J.Mod.Phys.A20:5513-5656,2005 ([arXiv:hep-th/0410103](http://arxiv.org/abs/hep-th/0410103))
+
+* L. Bonora, N. Bouatta, C. Maccaferri, _Towards open-closed string duality: Closed Strings as Open String Fields_ ([arXiv:hep-th/0609182](http://arxiv.org/abs/hep-th/0609182))
+
+* Theodore Erler, _Tachyon Vacuum in Cubic Superstring Field Theory_, JHEP 0801:013,2008 ([arXiv:0707.4591](http://arxiv.org/abs/0707.4591))
+
 [[!redirects String field theory]]
 
 [[!redirects closed string field theory]]
 
+[[!redirects bosonic string field theory]]
+
 [[!redirects closed bosonic string field theory]]
+[[!redirects open bosonic string field theory]]
