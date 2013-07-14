@@ -287,7 +287,6 @@ Pure [[mathematics]] work which came out of string theory and was awared with a 
 (...)
 
 (see behind the name links for more...)
-[[!redirects bosonic string theory]]
 
 [[!redirects string theories]]
 
