@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$, with, again, some of the [[coherence laws]] required to hold strictly.
+A _bipermuatative category_ is a semistrict [[rig category]].  More concretely, it is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$, with, again, some of the [[coherence laws]] required to hold strictly.
 
 ## Definition
 
@@ -23,20 +23,18 @@ A _bipermuatative category_ is a [[permutative category]] $(C, \oplus)$ with a s
 
 ## Properties
 
-### Relation to bimonoidal categories
+### Relation to rig categories
 
-Every [[symmetric monoidal category|symmetric]] [[bimonoidal category]] is equivalent to a bipermutative category ([May, prop. VI 3.5]). 
+Every [[symmetric monoidal category|symmetric]] [[rig category]] is equivalent to a bipermutative category ([May, prop. VI 3.5]).
 
 ## Examples
 
-* [[Ab]], $R$[[Mod]], [[Vect]] are [[symmetric monoidal category|symmetric]] [[bimonoidal category]] under [[direct sum]] and [[tensor product of abelian groups]]/[[tensor product of modules]].
-
-Genuine bipermutative categories include the "strictifications" of these.
+* [[Ab]], $R$[[Mod]], [[Vect]] are [[symmetric monoidal category|symmetric]] [[rig categories]] under [[direct sum]] and [[tensor product of abelian groups]]/[[tensor product of modules]].  Thus, they have "strictifications" that are bipermutative.
 
 +-- {: .num_example}
 ###### Example
 
-For $R$ a plain [[ring]], regarded as a [[bimonoidal category]] it is a bipermutative category. The corresponding [[K-theory of a bipermutative category]] is [[ordinary cohomology]] with [[coefficients]] in $R$, given by the [[Eilenberg-MacLane spectrum]] $H R$.
+For $R$ a plain [[ring]], regarded as a discrete [[rig category]], it is a bipermutative category. The corresponding [[K-theory of a bipermutative category]] is [[ordinary cohomology]] with [[coefficients]] in $R$, given by the [[Eilenberg-MacLane spectrum]] $H R$.
 
 =--
 
@@ -58,11 +56,17 @@ The corresponding [[K-theory of a bipermutative category]] is given by the [[sph
 
 ## Related concepts
 
-* [[distributive category]]
-
 * [[K-theory of a bipermutative category]]
 
 * [[BDR 2-vector bundle]]
+
+* [[distributivity for monoidal structures]]
+
+  * [[rig category]]
+
+  * [[distributive monoidal category]]
+
+  * [[distributive category]]
 
 ## References
 
