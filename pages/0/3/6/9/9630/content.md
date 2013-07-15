@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -23,7 +34,7 @@ is also a semi-algebraic set.
 
 ## Commentary 
 
-This powerful theorem is usually understood in the context of logic and model theory, where one considers subsets of [[Euclidean space]] $\mathbb{R}^n$ that are definable by [[first-order logic|first-order logical]] [[formulas]] in the [[language]] of ordered rings. It says that the definable subsets are precisely semi-algebraic sets, i.e., sets defined by taking Boolean combinations of sets of the form 
+This powerful theorem is usually understood in the context of [[formal logic]] and [[model theory]], where one considers subsets of [[Euclidean space]] $\mathbb{R}^n$ that are definable by [[first-order logic|first-order logical]] [[formulas]] in the [[language]] of ordered rings. It says that the [[definable set|definable]] subsets are precisely semi-algebraic sets, i.e., sets defined by taking Boolean combinations of sets of the form 
 
 $$\{(x_1, \ldots, x_n) \in \mathbb{R}^n: p(x_1, \ldots, x_n) \geq 0\}$$ 
 
