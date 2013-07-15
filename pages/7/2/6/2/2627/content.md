@@ -46,7 +46,7 @@ But there are still more properties which one may want to enforce, notably that 
 
 2.  A __$2$-rig__ might be an [[additive category]] which is enriched monoidal.
 
-3.  A __$2$-rig__ might be a monoidal category with finite [[coproducts]] such that the monoidal product distributes over the coproducts.
+3.  A __$2$-rig__ might be a [[distributive monoidal category]]: a monoidal category with finite [[coproducts]] such that the monoidal product distributes over the coproducts.
 
 4.  A __$2$-rig__ might be a [[closed monoidal category]] with finite coproducts.
 
@@ -295,7 +295,9 @@ that satisfy the action property. Such as presented under the [[Eilenberg-Watts 
 
 ## Related concepts
 
-A further sligth variant of compatibly monoidal comcomplete categories is that of _monoidal [[vectoids]]_.
+* A further slight variant of compatibly monoidal cocomplete categories is that of _monoidal [[vectoids]]_.
+
+* [[distributivity for monoidal structures]]
 
 ## References
 
