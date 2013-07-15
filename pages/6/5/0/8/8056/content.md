@@ -29,7 +29,9 @@ A __$0$-fold monoidal category__ is an ordinary [[category]]; the $2$-category o
 
 ## Related pages
 
-2-fold monoidal categories are a special sort of [[duoidal category]].
+* 2-fold monoidal categories are a special sort of [[duoidal category]].
+
+* [[distributivity for monoidal structures]]
 
 ## References 
 
