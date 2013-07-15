@@ -17,3 +17,7 @@ Full [[quantum field theory]] is sometimes called -- for emphasis and in contras
 
 [[!redirects non-perturbative QFT]]
 
+[[!redirects non-perturbative quantum field theories]]
+
+[[!redirects non-perturbative field theory]]
+[[!redirects non-perturbative field theories]]
