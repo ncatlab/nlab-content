@@ -585,6 +585,8 @@ higher versions
 
 * [[module category]]
 
+* [[distributivity of monoidal structures]]
+
 * [[duoidal category]], [[bimonoidal category]]
 
 * [[braided monoidal category]], [[symmetric monoidal category]]
