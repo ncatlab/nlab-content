@@ -362,6 +362,11 @@ So by the above theorem
    anti-involution, then you get an involution of $\mathcal{K}(R)$.
 
 
+## Related concepts
+
+* [[red-shift conjecture]]
+
+
 ## References
  {#References}
 
