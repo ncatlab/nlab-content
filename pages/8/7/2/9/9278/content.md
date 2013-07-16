@@ -37,7 +37,7 @@ $$
 
 ### Symplectic groupoid
 
-The [[symplectic groupoid]] integrating the Lie-Poisson structure on $\mathfrak{g}^*$ is the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]]. (See at _[[symplectic groupoid]]_.)
+The [[symplectic groupoid]] [[Lie integration|integrating]] the Lie-Poisson structure on $\mathfrak{g}^*$ is the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]]. For more see at _[[symplectic groupoid]]_ in the section _[Examples -- Of Lie-Poisson stucture](symplectic+groupoid#OfLiePoissonStructure)_.
 
 ### Symplectic leaves
 
@@ -47,7 +47,22 @@ The [[symplectic leaves]] of the Lie-Poisson structure on $\mathfrak{g}^*$ are t
 
 The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by Berezin and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
 
+A general account if for instance in
+
 * [[Victor Ginzburg]], [[Alan Weinstein]], _Lie-Poisson structure on some Poisson Lie groups_, Journal of the AMS, volume 5, number 2 (1992) ([pdf](http://www.ams.org/journals/jams/1992-05-02/S0894-0347-1992-1126117-8/S0894-0347-1992-1126117-8.pdf))
+
+The [[strict deformation quantization]] of Lie-Poisson structures was considered in 
+
+* [[Marc Rieffel]], _Lie group convolution algebras as deformation quantization of linear Poisson structures_, American Journal of Mathematics
+Vol. 112, No. 4 (Aug., 1990), pp. 657-685 ([jstor]( http://www.jstor.org/stable/2374874))
+ {#Rieffel90
+
+The [[symplectic Lie groupoid]] [[Lie integration|Lie integrating]] Lie-Poisson structures is discussed as example 4.3 in
+
+* [[Henrique Bursztyn]], [[Marius Crainic]], _Dirac structures, momentum maps and quasi-Poisson manifolds_ ([pdf](http://www.preprint.impa.br/FullText/Bursztyn__Fri_Dec_23_11_24_19_BRDT_2005.html/alanfestimpa.pdf))
+ {#BursztynCrainic}
+
+
 
 
 [[!redirects Lie-Poisson structures]]
