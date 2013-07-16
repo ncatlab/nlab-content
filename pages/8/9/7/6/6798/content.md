@@ -68,6 +68,9 @@ Special properties of [[scattering amplitudes]] are discussed for instance in
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
 
+The [[chiral rings]] of sYM are discussed in
+
+* Freddy Cachazo, [[Michael Douglas]], [[Nathan Seiberg]], [[Edward Witten]]. _Chiral Rings and Anomalies in Supersymmetric Gauge Theory_, JHEP 0212:071,2002 ([arXiv:hep-th/0211170](http://arxiv.org/abs/hep-th/0211170))
 
 [[!redirects super Yang-Mills theories]]
 
