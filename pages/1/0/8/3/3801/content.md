@@ -256,11 +256,15 @@ For the string product and the BV-operator this extension has been known early o
 * [[Scott Wilson]], _On the Algebra and Geometry of a Manifold's
 Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
 
-Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[brane]]s (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
+Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[branes]] (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
 
 * [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
 
-A generalization of string topology with target manifolds generalized to target [[differentiable stack]]s/[[Lie groupoid]]s is discussed in
+A generalization of string topology with target manifolds generalized to [[orbifolds]] is discussed in
+
+* Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+
+Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
 
 * [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_, (89 pages) [arxiv/0712.3857](http://arxiv.org/abs/0712.3857); _String topology for loop stacks_, C. R. Math. Acad. Sci. Paris, __344__ (2007), no. 4, 247--252, (6 pages, [pdf]())
 
