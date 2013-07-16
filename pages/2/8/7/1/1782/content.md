@@ -97,6 +97,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 * [[bivariant algebraic K-theory]]
 
+* [[red-shift conjecture]]
+
 
 [[!include noncommutative motives - table]]
 
