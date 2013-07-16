@@ -27,7 +27,7 @@ More generally, an almost complex structure on a [[smooth manifold]] is essentia
 +-- {: .num_defn}
 ###### Definition
 
-An _almost complex structure_ on a [[smooth manifold]] $X$ (of even [[dimension]]) is a smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$ such that, over each point $x \in X$, $J$ is a linear complex structure, def. \ref{LinearComplexStructure}, on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$. 
+An _almost complex structure_ on a [[smooth manifold]] $X$ (of even [[dimension]]) is a rank $(1,1)$-[[tensor field]] $J$, hence a smooth [[section]] $J \in \Gamma(T X \otimes T^* X)$, such that, over each point $x \in X$, $J$ is a linear complex structure, def. \ref{LinearComplexStructure}, on that [[tangent space]] $T_x X$ under the canonical identification $End T_x X \simeq T_x X\otimes T_x^* X$. 
 
 =--
 
