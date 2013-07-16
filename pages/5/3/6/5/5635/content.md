@@ -23,6 +23,10 @@
 
 Together with [[Gromov-Witten theory]] quantum sheaf cohomlogy was discovered in and has its geometric roots as part of the data that describes certain 2-[[dimension]]al [[sigma-model]] [[quantum field theories]] with target space $X$.
 
+## Related concepts
+
+* Quantum cohomology arises as [[chiral rings]] in [[super Yang-Mills theory]].
+
 ## References
 
 An introduction for readers familiar with basic concepts of [[Gromov-Witten theory]]  is in
