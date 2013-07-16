@@ -127,6 +127,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
  
   * [[Kac-Moody algebra]]
 
+  * [[complex Lie algebra]]
+
   * [[Lie group]]
 
   * [[Lie-Poisson structure]]
