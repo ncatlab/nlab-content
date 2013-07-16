@@ -1,0 +1,8 @@
+
+* [webpage](http://www.math.univ-paris13.fr/~ausoni/)
+
+## Related entries
+
+* [[red-shift conjecture]]
+
+category: people
