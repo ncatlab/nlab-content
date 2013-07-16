@@ -65,6 +65,7 @@ that identifies the [[vector space]] underlying the Lie algebra with its [[dual 
 
 
 ### The coadjoint orbit and the coset space/ flag manifold
+ {#TheCoadjointOrbitAndTheCosetSpaceAndFlagManifold}
 
 We discuss the [[coadjoint orbits]] of $G$ and their relation to the [[coset space]]/[[flag manifolds]] of $G$.
 
