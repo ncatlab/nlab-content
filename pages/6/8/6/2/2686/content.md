@@ -152,11 +152,14 @@ correspondng [[Poisson sigma-model]]. ([Cattaneo-Felder 01](#CattaneoFelder01))
 
 ## Examples
 
+### Of Lie-Poisson structure
+ {#OfLiePoissonStructure}
+
 +-- {: .num_example}
 ###### Example
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and consider the [[dual vector space]] $\mathfrak{g}^*$ equipped with its
-[[Lie-Poisson structure]]. Then the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]] carries a multiplicative symplectic form $\omega$ induced by the identification $G \times \mathfrak{g}^* \simeq T^* G$ by right translation from the [[Poincare form]] on the [[cotangent bundle]]. This makes $(\mathfrak{g}^* //G, \omega)$ a symplectic groupoid which integrates $\mathfrak{g}^*$. 
+[[Lie-Poisson structure]]. Then the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]] carries a multiplicative symplectic form $\omega$ induced by the identification of the manifold of [[morphisms]] with the [[cotangent bundle]] of th group, $G \times \mathfrak{g}^* \simeq T^* G$, induced by right translation from the [[Poincare form]] on the [[cotangent bundle]]. This makes $(\mathfrak{g}^* //G, \omega)$ a symplectic groupoid which [[Lie integration|Lie integrates]] the [[Lie-Poisson structure]] on $\mathfrak{g}^*$. 
 
 =--
 
