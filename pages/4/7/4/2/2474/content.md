@@ -114,7 +114,7 @@ The [[GNS construction]] shows that every abstract $C^*$-algebra over the [[comp
 
 ### Gelfand duality
 
-[[Gelfand duality]] says that every (unital) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg_{com} \simeq $ [[Top]]${}_{cpt}$.
+[[Gelfand duality]] says that every ([[unital algebra|unital]]) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg_{com} \simeq $ [[Top]]${}_{cpt}$.
 
 Accordingly one may think of the study of non-commutative $C^\ast$-algebras as _[[non-commutative topology]]_.
 
@@ -176,7 +176,7 @@ Any algebra $M_n(A)$ of [[matrices]] with [[coefficients]] in a $C^\ast$-algebra
 ###### Example
 
 For $A$ a $C^\ast$-algebra and for $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the set of [[continuous functions]] $X \to A$ which [[vanish at infinity]] is again a $C^\ast$-algebra by extending all operations pointwise.
-(This algebra is unital precisely if $A$ is and if $X$ is a [[compact topological space]].)
+(This algebra is [[unital algebra|unital]] precisely if $A$ is and if $X$ is a [[compact topological space]].)
 
 This algebra is denoted 
 
@@ -218,6 +218,8 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 * [[separable C*-algebra]]
 
 * [[nuclear C*-algebra]]
+
+* [[unitisation of C*-algebras]]
 
 * [[von Neumann algebra]]
 
