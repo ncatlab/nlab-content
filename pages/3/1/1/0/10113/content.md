@@ -1,0 +1,23 @@
+[[!redirects hadrons]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[QCD]] a [[bound state]] of [[quarks]] via the [[strong nuclear force]]. 
+
+Binding two quarks: [[meson]]
+
+Binding three quarks: [[baryon]].
+
+## Related concepts
+
+[[!include fields and quanta - table]]
+
+## References
+
+* Wikipedia, _[Hadron](http://en.wikipedia.org/wiki/Meson)_
+
+[[!redirects hadrons]]
