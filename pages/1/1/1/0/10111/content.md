@@ -67,7 +67,7 @@ If in addition the Hermitian form $\omega(-,-) = g(-,J-)$ is closed, hence a [[s
 +-- {: .num_prop}
 ###### Proposition
 
-A spin structure on a [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
+A spin structure on a [[compact topological space|compact]] [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
 
 * there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
 
