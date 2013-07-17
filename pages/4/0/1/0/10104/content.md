@@ -11,8 +11,12 @@ A *colax-distributive rig category* is like a [[rig category]], but where the di
 
 A **right colax-distributive rig category** is a category $C$ equipped with two monoidal structures $(C,\otimes,I)$ and $(C,\oplus,J)$ and natural transformations
 $$ (X\oplus Y) \otimes Z \to (X\otimes Z) \oplus (Y\otimes Z) $$
+and
+$$ J \otimes Z \to J $$
 making the functor $(-\otimes Z)$ [[colax monoidal functor|colax monoidal]] with respect to $\oplus$, and perhaps some other coherence equations.  A **left colax-distributive** rig category has instead transformations
 $$ Z \otimes  (X\oplus Y) \to (Z\otimes X) \oplus (Z\otimes X) $$
+and
+$$ Z \otimes J \to J$$
 making $(Z\otimes -)$ colax monoidal, and a simply **colax-distributive** rig category has both.
 
 ## Examples
@@ -40,20 +44,14 @@ $$ \array{
   $$
 and the right absorption law:
   $$ \array{ 
-    R & \to &
+    J\otimes R & \to &
     J & \xrightarrow{0} &
     R\\
-    ^\cong\downarrow & & & & \uparrow^{mult} \\
-    I\diamond R & \to &
-    J \diamond R & \xrightarrow{0\diamond id} &
-    R\diamond R
+    & _{0\otimes id}\searrow && \nearrow_\mult \\
+    && R\otimes R
   }
   $$
 hold.
-
-+--{.query}
-I can't figure out how to write the absorption law unless $\oplus$ is the cartesian structure, or at least [[semicartesian monoidal category|semicartesian]]: what is the map $R\to J$?
-=--
 
 If also the left distributive and absorption laws hold (which requires $C$ to also be left colax-distributive), then $R$ is a **rig**.  And if $\oplus$ is cartesian and the additive monoidal structure is a group structure, then $R$ is a **(near-)ring**.
 
