@@ -90,6 +90,9 @@ The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically wit
 
 * [[group scheme]]
 
+## Related concepts
+
+* [[isogeny]]
 
 ## References
 
