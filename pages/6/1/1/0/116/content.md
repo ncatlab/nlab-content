@@ -230,6 +230,8 @@ For more see [[counterexamples in algebra]].
 
     * [[torsion subgroup]]
 
+  * [[isogeny]]
+
   * [[coset]], [[coset space]]
 
   * [[abelian group]], [[anabelian group]], 
