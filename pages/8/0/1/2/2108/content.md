@@ -354,7 +354,7 @@ $$
   \,.
 $$
 
-Observe how from the point of view of just the [[Dolbeault operator]], this is twisting noth just by the prequantum line bundle, but by the _[[metaplectic correction|metaplectically corrected]]_ prequantum line bundle $L_\omega \otimes \sqrt{\Omega^{n,0}}$.
+Observe how from the point of view of just the [[Dolbeault operator]], this is twisting noth just by the prequantum line bundle, but by the _[[metaplectic correction|metaplectically corrected]]_ prequantum line bundle $L_\omega \otimes \sqrt{\Omega^{n,0}}$, while from the point of view of the [[Dirac operator]] it is just twisting by $L_\omega$, since tensoring with the square root line bundle $\sqrt{\Omega^{n,0}}$ induces the isomorphism between the antiholomorphic differential form bundle and the actual [[spinor bundle]] over the [[Kähler manifold]].
 
 =--
 
@@ -395,13 +395,147 @@ What before in the quantization prescription [by polarization](#Polarizations) a
 ##### Quantum state spaces as index of $Spin^c$-Dirac operator
  {#AsIndexOfSpinCDiracOperator}
 
-Let $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and let $(L_\omega, \nabla)$ be a [[prequantum line bundle]]. 
+Finally we come to the true definition of geometric quantization, the most general and at the same time most natural one which contains the above as special cases. 
+
+The actual definition is def. \ref{KTheoreticQuantization} below. Here we lead up to it by spelling out the ingredients. 
+
+We need the following general facts about [[spin^c Dirac operators]].
+
++-- {: .num_defn #SpinCAndDeterminantLineBundle}
+###### Definition
+
+For $n \in \mathbb{N}$, the [[spin^c]]-[[Lie group]] $Spin^c(n)$  is equivalently
+
+* the [[tensor product]] of the ordinary [[spin group]] $Spin(n)$ with the [[circle group]] over the [[group of order 2]]
+
+  $$
+    Spin^c \simeq Spin(n) \underset{\mathbb{Z}_2}{\times} U(1)
+  $$
+
+* the [[loop space object]] 
+
+  $$
+    Spin^c \simeq \Omega \mathbf{B} Spin^c
+  $$
+
+  of the [[homotopy fiber product]] of the universal smooth [[second Stiefel-Whitney class]] and the mod-2 reduction of the universal [[first Chern class]] in [[smooth infinity-groupoids]]:
+
+  $$
+    \array{
+      \mathbf{B}Spin^c(n) &\stackrel{det}{\to}& \mathbf{B}U(1)
+      \\
+      \downarrow &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{c}_1 \, mod \, 2}}
+      \\
+      \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+    }
+    \,.
+  $$
+
+Here the top horizontal map is called the universal _[[determinant line bundle]]_ map.
+
+=--
+
+See at _[[spin^c group]]_ for more details.
+
++-- {: .num_remark }
+###### Remark
+
+It follows that if we represent elements of $Spin^c(n) \simeq SO(n) \underset{\mathbb{Z}_2}{\times} U(1)$ as [[equivalence classes]] of pairs $(g,c)$, then the [[determinant line bundle]] map of def. \ref{SpinCAndDeterminantLineBundle} is given by
+
+$$
+  det \;\colon \; (g,c) \mapsto 2c
+  \,,
+$$
+
+where on the right we write the group operation in the [[abelian group]] $U(1)$ additively.
+
+This factor of 2 on the right is crucial in all of the following. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let $X$ be an [[orientation|oriented]] [[smooth manifold]]. A smooth [[spin^c structure]] on $X$ is a lift $\hat \tau_X$ of the classifying map $\tau_X \colon X \to \mathbf{B} SO(n)$ of its [[tangent bundle]] through the left vertical map in def. \ref{SpinCAndDeterminantLineBundle}
+
+$$
+  \array{
+    && \mathbf{B} Spin^c(n)
+    \\
+    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
+    \\
+    X &\stackrel{\tau_X}{\to}& \mathbf{B}SO(n)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In words this says that a [[spin^c structure]] on an oriented manifold $X$ is a choice of [[circle group]]-[[principal bundle]] or equivalenty of hermitian [[complex line bundle]] such that its [[first Chern class]] modulo 2 equals the [[second Stiefel-Whitney class]] $w_2$ of $X$. If this second Stiefel-Whitney class vanishes (as an element in $H^2(X,\mathbb{Z}_2)$) this means that $X$ has a genuine _[[spin structure]]_. So in other words whenever the [[determinant line bundle]] of a [[spin^c structure]] (in the sens of def. \ref{SpinCAndDeterminantLineBundle}) has a [[first Chern class]] that is divisible by 2, then there is an actual [[spin^c structure]].
+
+We can formalize this statement as follows: there is a [[commuting square]] of the form
+
+$$
+  \array{
+     \mathbf{B}( Spin(n) \times U(1) ) &\stackrel{((2 \cdot)\circ p_2}{\to}&
+     \mathbf{B}U(1)
+     \\
+     \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 \, mod\, 2}}
+     \\
+     \mathbf{B}SO(n) &\stackrel{\mathbf{w}^2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+  }
+$$
+
+similar to the one in def. \ref{SpinCAndDeterminantLineBundle} but crucially different in that here we have just the [[cartesian product]] of $Spin(n)$ with $U(1)$ in the top left. In the standard presentation of these objects this diagram commutes on the nose (filled by a canonical [[homotopy]]) simply because both ways to go from the top left to the bottom right hit $0 \in \mathbb{Z}_2$: the left-bottom one because $\mathbf{B}Spin(n)$ is essentially by definition such that the second SW class trivializes on it, and the top-right one because first multiplying by 2 and then reducing mod 2 is 0. 
+
+Since the diagram commutes, the [[universal property]] of the above [[homotopy pullback]] says that there is a canonically induced map
+
+$$
+  (p_1, p_2) \;\colon\; Spin(n) \times U(1) \to Spin^c(n)
+  \,.
+$$
+
+Of course this is just the evident [[quotient]] [[projection]] which on elements is simply the identity
+
+$$
+  (g,c) \mapsto (g,c)
+  \,,
+$$
+
+only that on the right we regard the pair $(g,c)$ as a placeholder for its [[equivalence class]] in the [[tensor product]] over $\mathbb{Z}_2$.
+
+Moreover, the [[universal property]] of the [[homotopy pullback]] says that every [[spin^c structure]] $\hat \tau_c$ whose underlying [[determinant line bundle]] is such that its [[first Chern class]] is divisible by 2 actually factors through this map, hence that _it is just the product of an ordinary $Spin$-principal bundle with a circle bundle_.
+
+$$
+  \array{
+    \mathbf{B}(Spin(n) \times U(1)) &\stackrel{p_2}{\to}& \mathbf{B}U(1)
+    \\
+    {}^{\mathllap{(p_1,p_2)}}\downarrow && \downarrow^{\mathbf{B}(2 \cdot)}
+    \\
+    \mathbf{B}Spin^c(n) &\stackrel{det}{\to}& \mathbf{B}U(1)
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{c_1\,mod\,2}}
+    \\
+    \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
+$$
+
+This is the crucial relation by which the K-theoretic quantization will harmonize with the above Euler- and Dolbeault- quantization as discussed a little bit below.
+
+=--
+
+
+Let now $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and let $(L_{2\omega}, \nabla)$ be a [[prequantum line bundle]] for _twice_ its [[symplectic form]]. 
 
 
 +-- {: .num_defn #KTheoreticQuantization}
 ###### Definition
 
-Given a [[spin^c structure]] $\mathbf{c}$ on $X$ whose underlying [[determinant line bundle]] coincides, up to equivalence, with $(L_\omega)^{\otimes^2}$, then the _[[spin^c quantization]]_ of this prequantum data is the [[index]] of the corresponding [[spin^c Dirac operator]] $D_{\mathbf{c}}$:
+Given a [[spin^c structure]] $\hat \tau_X$ on $X$ whose underlying [[determinant line bundle]] coincides, up to equivalence, with $(L_\omega)^{\otimes^2}$, then the _[[spin^c quantization]]_ of this prequantum data is the [[index]] of the corresponding [[spin^c Dirac operator]] $D_{\mathbf{c}}$:
 
 $$
   \mathcal{H}_{K} \coloneqq index(D_{\mathbf{c}})
@@ -413,7 +547,31 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is equivalently the [[fiber integration in generalized cohomology|push-forward]] in [[complex K-theory]] of the [[prequantum line bundle]] to the point.
+This is equivalently the [[fiber integration in generalized cohomology|push-forward]] in [[complex K-theory]] of the [[prequantum line bundle]] to the point. 
+
+Moreover, on [[cocycles]] this push-forward is expressed by the traditional construction of [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
+
+let $X$ be a manifold equipped with a [[Riemannian metric]], a  [[spinor bundle]] and a [[Dirac operator]] $D \colon \Gamma(S) \to \Gamma(S)$. Then the corresponding [[K-homology]] cycle is:
+
+1. the [[Hilbert space]] $L^2(S) of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]];
+
+1. equippd with the multiplication[[action]] of the [[C*-algebra]] $C_0(X)$ [[algebra of functions|of functions]] [[vanishing at infinity]] by [[bounded operator]]
+
+   $$
+     C_0(X) \to \mathcal{B}(L^2(S))
+     \,;
+   $$
+
+1. and equipped with the [[Dirac operator]] $D$ as the $\mathbb{Z}_2$-graded [[Fredhom operator]].
+
+Together with is equivalent an element
+
+$$
+  [D, L^2(S)] \in KK(C_0(X), \mathbb{C})
+  \,.
+$$
+
+Postcomposition of K-theory classes $[\xi] \in KK(\mathbb{C}, C_0(X))$ with this map is the [[fiber integration in generalized cohomology|push-forward]]/[[index]] map in K-theory.
 
 =--
 
