@@ -22,10 +22,94 @@ Historically, it was an approximation to the true time evolution that was origin
 
 In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]]. As such it is not well defined, i.e. unique, when it exists. Additional structures sometimes make it unique. 
 
+[[!include deformation quantization - table]]
+
+
+There have been found some formalizations of a at least some aspects of quantization, notably there is _[[algebraic deformation quantization]]_ and _[[geometric quantization]]_. 
+
+[[!include Isbell duality - table]]
+
+In their traditional formulation these formulation are geared towards [[mechanics]] (as opposed to [[field theory]]). Even in that restricted application, it seems that a more comprehensive understandin is still missing
+
 > The goal is to get closer to a systematic theory of [[quantization]].
   
 > ([Gukov-Witten 08, p.4](#GukovWitten08))
 
+In the context of [[field theory]] the conceptual issues become more severe even. For example the class of [[field theories]] called _[[Yang-Mills theory]]_ is a core ingredient in the [[standard model of particle physics]] but the _[[quantization of Yang-Mills theory]]_ (see there for more) poses famous open problems -- of which of course that there isn't yet a comprehensive theory of what this even means is not the least.
+
+## Quantization as an index map
+ {#QuantizationAsAnIndexMap}
+
+Here we survey aspects of quantization at least in aspects is or at least is similar to an _[[index]]_ map, hence a [[push-forward in generalized cohomology]]. More on this is in ([Nuiten 13](#Nuiten13)).
+
+The general pattern here is this:
+
+* The [[kinetic action]] part of the [[action functional]] of a [[prequantum field theory]] is really part of the [[measure]]/[[orientation in generalized cohomology]] on the [[moduli space]] of [[field (physics)|fields]]
+
+* The (gauge coupling-)[[interaction]] in the [[action functional]] of a [[prequantum field theory]] induces a [[cocycle]] in some [[cohomology]] which serves as a [[twisted cohomology|twist]] for the [[generalized cohomology theory]] in which the above [[integration]]/push-forward takes place.
+
+* the [[push-forward in generalized cohomology|push-forward]] itself is the [[path integral quantization]], the construction of [[partition functions]].
+
+### Path integral by integration against the Wiener measure
+
+For instance the archetypical example of the quantization of the [[charged particle]] propagating on a [[Riemannian manifold]] $X$ proceeds (in [[Wick rotation|Wick rotated]] form as it appears in the [[worldline formalism]] for corresponding QFT) like so: write $[\exp(-S_{kin}(\gamma)) D\gamma]$ for the [[Wiener measure]] on paths in $X$, then the [[integral kernel]] of the time evolution propagator of the quantum particle is given by the [[path integral]] (see there for more)
+
+$$
+  \int_{\gamma \in P_{x_{in}, x_{out}}X} tra_{\nabla}(\gamma) \; [\exp(- S_{kin}(\gamma)) D\gamma]
+$$
+
+which is the [[integration]] of the [[parallel transport]]/[[holonomy]] functional (of the given [[connection on a bundle|connection]] that models the [[background gauge field]]) against the [[Wiener measure]].
+
+
+### Quantization by partition function/index in supersymmetric quantum mechanics
+
+More generally, for given any [[phase space]] equipped with a [[prequantum line bundle]] $(L_\omega, \nabla)$, the corresponding _[[geometric quantization]]_ is, if $X$ admits a compatible [[spin^c structure]], the [[index]] of the [[spin^c Dirac operator]] coupled to this bundle, hence the [[space of quantum states]] is
+
+$$
+  \mathcal{H} = index( D_{\nabla} )
+  \,.
+$$
+
+For more on this see at _[geometric quantization -- As Index of the Spin^c Dirac operator](geometric%20quantization#AsIndexOfSpinCDiracOperator)_.
+
+Here the [[Dirac operator]] represents a class in [[K-homology]]
+
+$$
+  [D] \in KK(X, \mathbb{C})
+$$
+
+and this is now the "[[measure]]" against which the [[K-theory]] class
+
+$$
+  [L_\omega] \in KK(\mathbb{C}, X)
+$$
+
+of the [[prequantum line bundle]] is being integrated, by the [[index]] map hence the [[composition]] in [[KK-theory]]:
+
+$$
+  [\mathcal{H}] \simeq 
+  (\mathbb{C} \stackrel{L_\omega}{\to} C(X) \stackrel{D}{\to} \mathbb{C} ) \in KK(\mathbb{C}, \mathbb{C})
+  \,.
+$$
+
+By the discussion at _[[index]]_ this is equivalently the [[partition function]] of an auxiliary [[supersymmetric quantum mechanics]] system with [[background gauge field]] $\nabla$:
+
+$$
+  \mathcal{H} \simeq sTr( \exp(-t D^2) ) \;\;\;\; \forall t \gt 0
+  \,.
+$$
+
+The appearance of an _auxiliary_ and already quantized field theory here may seem circular, but is in fact part of a deeper pattern of quantization by the [[holographic principle]], where rich quantum theories arise as [[boundary field theories]] of higher dimensional [[topological field theories]]. In the above case the higher dimensional theory is secretly the non-perturbative version of the [[Poisson sigma-model]] associated with the original [[phase space]] [[Poisson manifold]]. More details on this are indicated at _[[extended geometric quantization of 2d Chern-Simons theory]]_. In one dimension higher the [[Witten genus]] arises this way as the quantization of the [[heterotic string]] 2d QFT regarded as the [[boundary field theory]] of the [[M2-brane]] in [[Horava-Witten theory]]. (Wait for [Nuiten13](#Nuiten13) for more.)
+
+### Cohomological formulation in BV-formalism
+
+The choice of [[spin^c structure]] in the above is really the choice of a [[Poincaré  duality]] (see at [[Poincaré duality algebra]] for more) which exhibits the [[orientation in generalized cohomology]] by a combined [[Atiyah duality]]/[[Thom isomorphism]]. 
+
+The analogue of such a choice of [[Poincaré duality]] between [[cohomology]] and [[homology]] in [[BV-formalism]] is the choice of a [[volume form]] that identified the [[de Rham complex]] with the [[BV-complex]] of [[multivector fields]]. See at _[BV-BRST formalism -- Homological integration](BV-BRST+formalism#HomologicalIntegration)_.
+
+Again, here the [[kinetic action functional]] is part of the [[measure]], now under the duality part of the [[BV-operator]]. The [[quantum master equation]] is now the analog of the orientability condition. Homological BV-quantization is then obtain by assing to the [[homology groups]] of this [[BV-operator]], hence again by "pushing it to the point".
+
+This is the setup in which one can derive [[Feynman diagram]] rules form cohomologicalquantization, see at _[Feynman diagram -- Refereces -- In homological BV-quantization](Feynman+diagram#ReferencesInHomologicalBVQuantization)_.
 
 
 ## Related entries
@@ -80,3 +164,8 @@ The [[quantization via the A-model]]-method is described in
 * [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, [arxiv/0809.0305](hhttp://arxiv.org/abs/0809.0305) 
  {#GukovWitten08}
  
+A discussion of quantization by cohomological quantization of [[higher prequantum field theory]] is in 
+
+* [[Joost Nuiten]], Master thesis, 2013
+ {#Nuiten13}
+
