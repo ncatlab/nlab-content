@@ -29,11 +29,17 @@ $$ d_\ell : x \otimes (y \oplus z) \to
 $$ d_r : (x \oplus y) \otimes z \to 
 (x \otimes z) \oplus (y \otimes z) $$
 
+and absorption/annihilation isomorphisms
+
+$$ a_\ell : x \otimes 0 \to 0 $$
+
+$$ a_r : 0 \otimes x \to 0 $$
+
 satisfying a set of coherence laws worked out in ([Laplaza 72](#Laplaza72)) and ([Kelly74](#Kelly74)).
 
 Note that these authors used the term 'ring category'.  We take the liberty of switching to 'rig category' because it is typical for these to lack additive inverses.
 
-While a rig can have the [[extra property]] of being [[commutative ring|commutative]], a rig category can have the [[extra structure]] of being [[braided monoidal category|braided]] and may then have the further property of being [[symmetric monoidal category|symmetric]].
+While a rig can have the [[extra property]] of being [[commutative ring|commutative]] (i.e. of its multiplication being commutative), a rig category can have the [[extra structure]] of (its monoidal structure $\otimes$) being [[braided monoidal category|braided]] (compatibly with the distributive laws) and may then have the further property of being [[symmetric monoidal category|symmetric]].
 
 ## Examples
 
