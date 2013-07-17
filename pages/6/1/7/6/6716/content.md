@@ -52,7 +52,7 @@ where $U(1) \to Spin^c$ is the canonical inclusion into the defining product $U(
 
 ### General
 
-### As the homotopy fiber of the smooth $\mathbf{w}_2$
+### As the homotopy fiber of the smooth $\mathbf{W}_3$
  {#AsHomotopyFiberOfSmoothW3}
 
 We dicuss in the following that 
@@ -70,7 +70,7 @@ We have a [[homotopy pullback]] diagram
 
 $$
   \array{
-     \mathbf{B} Spin^c &\to& \mathbf{B}U(1)
+     \mathbf{B} Spin^c &\stackrel{\mathbf{B}det}{\to}& \mathbf{B}U(1)
      \\
      \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 mod 2}}
      \\
@@ -157,10 +157,19 @@ $$
 This is equivalent to 
 
 $$
-  \mathbf{B}(\mathbb{Z}_2 \stackrel{\partial'}{\to} Spin \times U(1))
+  \begin{aligned}
+   (\mathbb{Z} \stackrel{\partial}{\to} Spin \times \mathbb{R})
+   & \simeq 
+  (\mathbb{Z}_2 \stackrel{\partial'}{\to} Spin \times (\mathbb{R}/2\mathbb{Z}))
+   \\
+  & \simeq
+  (\mathbb{Z}_2 \stackrel{\partial'}{\to} Spin \times U(1))
+  \end{aligned}
+  \,,
 $$
 
-where now $\partial'$ is the [[diagonal]] embedding of the subgroup
+(notice the non-standard identification $U(1) \simeq \mathbb{R}/(2\mathbb{Z})$ here, which is important below in prop. \ref{UniversalDeterminantLineBundleMap} for the identification of $det$)
+where now $\partial'$ is the [[diagonal]] embedding of the [[subgroup]]
 
 $$
   \partial'\colon \sigma \mapsto (\sigma, \sigma)
@@ -192,6 +201,32 @@ $$
     \mathbf{B}SO &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
   }
 $$ 
+
+=--
+
++-- {: .num_prop #UniversalDeterminantLineBundleMap}
+###### Proposition
+
+Under the identificaton $Spin^c \simeq Spin \underset{\mathbb{Z}_2}{\to}$ the "universal [[determinant line bundle]] map"
+
+$$
+  det \colon Spin^c \to U(1)
+$$
+
+is given in components by
+
+$$
+  (g,c) \mapsto 2 c
+$$
+
+(where on the right we write the group structure additively).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the proof of prop. \ref{SpinCAsHomotopyPullbackOfW2AndC1} the $U(1)$-factor in $Spin^c \simeq Spin \underset{\mathbb{Z}_2}{\times}U(1)$ arises from the identification $U(1) \simeq \mathbb{R}/2\mathbb{Z}$. But under the horizontal map as it appears in the homotopy pullback in that proof this corresponds to multiplication by 2.
 
 =--
 
