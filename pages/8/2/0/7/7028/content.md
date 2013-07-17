@@ -88,7 +88,7 @@ A **quantum operator** is a prequantum operator which preserves quantum states a
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CompatibiltyOfFlowWithPolarization}
 ###### Proposition
 
 A prequantum operator given by a [[Hamiltonian]] function $f$ with [[Hamiltonian vector field]] $v_f$ is a quantum operator, def. \ref{GeometricQuantumOperator}, with respect to a given [[polarization]] $\mathcal{P}$ precisely if its flow preserves $\mathcal{P}$, hence precisely if
@@ -108,6 +108,9 @@ Over a phase space which is a [[cotangent bundle]] and with respect to the corre
 =--
 
 See for instance ([Blau, around p. 35](#Blau))
+
+
+
 
 ### On an $n$-plectic smooth $\infty$-groupoid
 
