@@ -1,7 +1,8 @@
 
-| [[partition function]] in QFT | [[genus]] in [[cohomology theory]] |
-|---|---|
-| [[spinning particle]] | [[K-theory]] [[index]] |
-| endpoint of [[type II superstring]] | [[D-brane charge]] |
-| [[type II superstring]] | [[elliptic genus]] |
-| [[heterotic string]] | [[Witten genus]] |
+| $d$ | [[partition function]] in $d$-dimensional QFT | [[index]]/[[genus]] in [[cohomology theory]] |
+|--||---|---|
+| 1 | [[spinning particle]] | [[K-theory]] [[index]] |
+|   | endpoint of [[2d Poisson-Chern-Simons theory]] string | [[space of quantum states]] of boundary [[phase space]]/[[Poisson manifold]] | 
+|   | endpoint of [[type II superstring]] | [[D-brane charge]] |
+| 2 | [[type II superstring]] | [[elliptic genus]] |
+|   | [[heterotic string]] | [[Witten genus]] |
