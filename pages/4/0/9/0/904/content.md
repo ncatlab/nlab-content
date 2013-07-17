@@ -263,12 +263,13 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 ## Related concept
 
+* [[winding number]]
+
 * [[algebraic fundamental group]]
 
 * [[anabelian geometry]]
 
 * [[Chevalley fundamental group]]
-
 
 * [[etale homotopy]]
 
