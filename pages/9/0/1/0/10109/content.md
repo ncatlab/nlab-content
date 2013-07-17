@@ -1,0 +1,15 @@
+
+Joost Nuiten is a Master student of mathematics and physics at Utrecht University.
+
+## Texts
+
+* bachelor thesis: _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_, EPTCS 95, 2012, pp. 211-218 ([arXiv:1109.1397](http://arxiv.org/abs/1109.1397))
+
+  On the [[Bohr topos]] formulation of [[local quantum field theory]] ([[AQFT]]).
+
+* master thesis: _Cohomological quantization of local boundary prequantum field theory_ . 
+
+  On the [[quantization]] of [[boundary field theory|boundary]] [[local prequantum field theory]] by [[push-forward in generalized cohomology]].
+
+category: people
+
