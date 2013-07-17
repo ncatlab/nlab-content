@@ -25,7 +25,7 @@ Despite its fundamental role in the [[standard model of particle physics]], vari
 
 and notably
 
-* the _mass gap problem_, the question of why the [[bound states]] of massless [[quarks]] ([[mesons]] and [[hadrons]]) have [[mass]]
+* the _mass gap problem_, the question of why the [[bound states]] of massless [[quarks]] ([[hadrons]]) have [[mass]]
 
 ## References
 
