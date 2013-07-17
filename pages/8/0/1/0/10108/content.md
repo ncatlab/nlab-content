@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Despite its fundamental role in the [[standard model of particle physics]], various details of the [[quantization]] of the class of [[field theories]] known as [[Yang-Mills theory]] are still open, such as derivations of the phenomena 
+
+* [[quark]] [[confinement]]
+
+and notably
+
+* the _mass gap problem_, the question of why the [[bound states]] of massless [[quarks]] ([[mesons]] and [[hadrons]]) have [[mass]]
+
+## References
+
+A survey and problem description in in
+
+* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
+
+Notes reviewing more technical details of the problem are in 
+
+* Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
+
+[[!redirects mass gap problem]]
