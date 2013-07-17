@@ -73,11 +73,12 @@ For the moment see at _[[twisted smooth cohomology in string theory]]_ for more.
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
 ## References
+ {#References}
 
 
 Topological $string^c$-structures were introduced in 
 
-* Qingtao Chen, Fei Han, Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+* Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 as structures that make the generalized [[Witten genus]] take values in integral [[modular forms]], and discussed explicitly in the context of [[string theory]] in 
 
