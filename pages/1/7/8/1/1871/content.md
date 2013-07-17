@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
@@ -36,6 +40,10 @@ for
 
 * $\frac{1}{g^2}$ the _Yang-Mills [[coupling constant]]_ and $\theta$ the _[[theta angle]]_, some [[real numbers]] (see at _[[S-duality]]_).
 
+## Quantization
+
+Despite its fundamental role in the [[standard model of particle physics]], various details of the [[quantization]] of Yang-Mills theory are still open. See at _[[quantization of Yang-Mills theory]]_.
+
 ## Applications
 
 All gauge fields in the [[standard model of particle physics]] as well as in [[GUT]] models are Yang--Mills fields.
@@ -48,7 +56,13 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 * [[minimal coupling]]
 
-* [[Einstein-Maxwell theory]]
+* [[Einstein-Yang-Mills theory]]
+
+  * [[Einstein-Maxwell theory]]
+
+  * [[Einstein-Yang-Mills-Dirac theory]]
+
+  * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 * [[Yang-Mills equation]]
 
