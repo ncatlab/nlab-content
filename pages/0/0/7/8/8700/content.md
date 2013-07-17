@@ -48,6 +48,10 @@ is either $+1$ or $-1$.
 $$\deg(f) = \sum_{i=1}^r sign(\Omega^n(f_i))$$ 
 and this quantity is independent of the choice of regular value $y$. 
 
+## Examples
+
+* [[winding number]]
+
 
 ## References
 
