@@ -13,7 +13,7 @@ In [[mathematics]]:
 
 * [[class field theory]]
 
-[[!redirects fiedl theories]]
+[[!redirects field theories]]
 
 
 category: disambiguation
