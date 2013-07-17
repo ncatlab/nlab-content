@@ -3,17 +3,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
+#### Geometric quantization
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
-#### Equality and Equivalence
-+--{: .hide}
-[[!include equality and equivalence - contents]]
+[[!include geometric quantization - contents]]
 =--
 =--
 =--
-
 
 
 > under construction
@@ -49,7 +44,9 @@ This flat connection is the Knizhnik-Zamolodchikov connection. This was maybe fi
 
 ## Related entries
 
-* [[Kohno-Drinfeld theorem]].
+* [[Kohno-Drinfeld theorem]]
+
+* [[Hitchin connection]]
 
 
 ## References
