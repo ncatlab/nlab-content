@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. 
+
+## Related concepts
+
+[[!include fields and quanta - table]]
+
+## References
+
+* Wikipedia, _[Meson](http://en.wikipedia.org/wiki/Meson)_
+
+[[!redirects mesons]]
