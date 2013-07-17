@@ -7,4 +7,7 @@ For the moment see [[polyhedron]].
 
 * [[triangle]]
 
+* [[scissors congruence]]
+
+
 [[!redirects polygons]]
