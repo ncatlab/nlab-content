@@ -70,7 +70,7 @@ In ([Baez-Dolan](#BaezDolan)) a _2-rig_ is defined to be a [[monoidal category|m
 
 This leads to the following:
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Conjecture ([[John Baez]])
 The initial symmetric 2-rig is $Set$, in a suitably weakened sense.  Namely, if $R$ is any object of $\mathbf{Symm2Rig}$, then there is a 1-morphism $Set \to R$ that is unique up to a 2-isomorphism.  
 
