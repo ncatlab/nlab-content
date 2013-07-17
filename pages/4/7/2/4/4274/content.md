@@ -44,6 +44,8 @@ from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also c
 
 ## References
 
+### General
+
 The original reference on the Witten genus is
 
 * [[Edward Witten]], 
@@ -119,4 +121,11 @@ and in terms of [[factorization algebra]] in
 * [[Kevin Costello]], _A geometric construction of the Witten genus, II_ ([arXiv:1112.0816](http://arxiv.org/abs/1112.0816))
  {#Costello}
 
+### Twisted case
+
+The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] was considered in 
+
+* Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+
+For the moment see the references at _[[string^c structure]]_ for more on this.
 
