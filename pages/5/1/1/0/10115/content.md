@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is called the _[[Riemann sphere]]_.
+
+## References
+
+* Wikipedia, _[Riemann sphere](http://en.wikipedia.org/wiki/Riemann_sphere)_
+
+
+
