@@ -60,6 +60,8 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[symmetric monoidal 2-category]]
 
+* [[compact closed 2-category]]
+
 * [[monoidal (infinity,1)-category]]
 
 * [[monoidal (infinity,n)-category]]
