@@ -3,7 +3,7 @@ The following table lists classes of examples of [[square roots]] of [[line bund
 
 | line bundle |  square root | choice corresponds to |
 |---|---|--|
-| [[canonical bundle]] | [[Theta characteristic]] | over [[Riemann surface]] and [[Kähler manifold]]: [[spin structure]] |
+| [[canonical bundle]] | [[Theta characteristic]] | over [[Riemann surface]] and [[Hermitian manifold]] (e.g.[[Kähler manifold]]): [[spin structure]] |
 | [[density bundle]] | [[half-density bundle]] |  |
 | [[canonical bundle]] of [[Lagrangian submanifold]] | [[metalinear structure]] | [[metaplectic correction]] |
 | [[determinant line bundle]] | [[Pfaffian line bundle]] |  |
