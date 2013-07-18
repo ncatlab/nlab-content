@@ -153,7 +153,7 @@ See also [[localization of a simplicial model category]].
 
 ## Related concepts
 
-* [[localizing subcategory]]
+* [[localizing subcategory]], [[localizer]]
 
 * [[simplicial localization]]
 
