@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,6 +24,8 @@ e.g. _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
 The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the [[representation ring]] of $G$.
 
 ## Related concepts
+
+* [[equivariant K-theory]]
 
 * [[Baum-Connes conjecture]]
 
