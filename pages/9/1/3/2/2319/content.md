@@ -155,6 +155,36 @@ $$
 
 This is well defined also over the cut and so we can patch the cut with any small neighbourhood with any section chosen over it and conclude that these sections are the local sections locally trivializing a bundle of class $\pm 1$ and hence that of $\sqrt{\Omega^{1,0}}$.
 
+Notice also that the canonical vector field on the first patch given by $z_1 \partial_{z_1}$ transforms on the overlap to
+
+$$
+  \begin{aligned}
+    z_1 \partial_{z_1}
+    &  =
+    z_2^{-1} \frac{\partial z_2}{\partial z_1 } \partial_{z_2}    
+    \\
+    & = z_2^{-1} (- z_1^{-2}) \partial_{z_2}
+    \\
+    & = - z_2 \partial_{z_2}
+  \end{aligned}
+$$
+
+and hence continues canonically to a well-defined vector field on all of $S^2$. If $L_k$ is the rank $k$ line bundle on $S^2$ given by the [[clutching construction]] by the transition function $z^k$, then holomorphic sections of this bundle are expressed in terms of canonical bases $z_1^{a_1}$, $z_2^{a_2}$ with $a_i \geq 0$ satisfying
+
+$$
+  z_2^{a_2} = z_2^{k} z_2^{-a_1}
+$$
+
+and hence for
+
+$$
+  a_1 + a_2 = k
+  \,.
+$$
+
+This gives a $(k+1)$-dimensional space of holomorphic sections.
+
+(...)
 
 
 
