@@ -862,9 +862,12 @@ Generalization of such [[correspondence]]-presentation to [[equivariant KK-theor
 
 * [[Heath Emerson]], [[Ralf Meyer]], _Dualities in equivariant Kasparov theory_ ([arXiv:0711.0025](http://arxiv.org/abs/0711.0025))
 
-based on insights about technical issues in comoposition of equivariant correspondences in
+based on technical aspects of the construction of pushforward along and comoposition of equivariant correspondences in
 
 * [[Paul Baum]], [[Jonathan Block]], _Equivariant bicycles on singular spaces_. C.R. Acad. Sci. Paris, t. 311 Serie I, 1990 ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockEquivariantbi.pdf))
+
+* [[Heath Emerson]], [[Ralf Meyer]], _Equivariant embedding theorems and topological index maps_, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
+
 
 Further developments of this are in 
 
