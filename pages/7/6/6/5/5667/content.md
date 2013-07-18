@@ -340,7 +340,15 @@ Such a description by abelianizations of [[correspondences]] is reminiscent of s
 
 To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutative topology]] of what in [[algebraic geometry]] is the category of [[motives]]. ([Connes-Consani-Marcolli 05](#ConnesConsaniMarcolli05)). ([Meyer 06](#Meyer06)). 
 
-Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[Chow motives]]. A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
+Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[pure motives]], see the rferences below: _[In terms of correspondences](#ReferencesInTermsOfCorrespondences). A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
+
+### Equivariant KK-theory
+ {#EquivariantKKTheory}
+
+Pretty much all of KK-theory has a generalization to [[equivariant cohomology]] where all algebras and modules are equipped with [[actions]] of a given [[topological group]] or more generally [[topological groupoid]] $\mathcal{G}$, and all operators are suitably [[invariant|invariant]]/[[equivariance|equivariant]] under this action. See at _[[equivariant KK-theory]]_ for more.
+
+The [[Baum-Connes conjecture]] and the [[Green-Julg theorem]] assert that under some conditions $\mathcal{G}$-equivariant KK-theory is equivalent to the plain KK-theory of the [[groupoid convolution algebras]] of the corresponding [[action groupoids]]. See at _[[Green-Julg theorem]]_ for details. 
+ 
 
 ## Examples
  {#Examples}
@@ -820,6 +828,8 @@ Discussion of groupoid 1-[[cocycles]] and their effect on the [[groupoid algebra
 ### In terms of correspondences/spans
  {#ReferencesInTermsOfCorrespondences}
 
+#### For plain KK-theory
+
 KK-classes between [[algebras of functions]] on [[smooth manifolds]] are described in terms of [[equivalence classes]] of [[correspondence]] manifolds carrying a [[vector bundle]] in section 3 of
 
 * [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
@@ -840,9 +850,21 @@ In section 5 of
 
 this is reviewed and then a characterization in terms of [[co-spans]] of [[C*-algebras]] is given. This version is effectively a restatement of [the characterization by Cuntz](#RelationToHomotopyClassesOfStarHomomorphisms) as reproduced in ([Blackadar 99, corollary 17.8.4](#Blackadar99)).
 
-Similar [[correspondence]]-presentation of [[equivariant cohomology|equivariant]] KK-theory -- hence at least of something close to KK-classes between [[groupoid algebras]] of [[action groupoids]] -- was introduced in 
+For similar structures see also at _[[motive]]_ in the section _[Relation to bivariant K-theory](motive#RelationToKKTheory)_.
+
+
+#### For equivariant KK-theory
+ {#ReferencesCorrespondencesEquivariant}
+
+Generalization of such [[correspondence]]-presentation to [[equivariant KK-theory]] (and hence, by the [[Green-Julg theorem]] essentially to KK-theory of [[groupoid algebras]] of [[action groupoids]] of [[compact topological groups]]) -- was introduced in 
+
+* [[Heath Emerson]], [[Ralf Meyer]], _Bivariant K-theory via correspondences_, Adv. Math. 225 (2010), 2883-2919 ([arXiv:0812.4949](http://arxiv.org/abs/0812.4949))
 
 * [[Heath Emerson]], [[Ralf Meyer]], _Dualities in equivariant Kasparov theory_ ([arXiv:0711.0025](http://arxiv.org/abs/0711.0025))
+
+based on insights about technical issues in comoposition of equivariant correspondences in
+
+* [[Paul Baum]], [[Jonathan Block]], _Equivariant bicycles on singular spaces_. C.R. Acad. Sci. Paris, t. 311 Serie I, 1990 ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockEquivariantbi.pdf))
 
 Further developments of this are in 
 
@@ -850,7 +872,6 @@ Further developments of this are in
 
 * [[Heath Emerson]], Robert Yuncken, _Equivariant correspondences and the Borel-Bott-Weil theorem_ ([arXiv:0905.1153](http://arxiv.org/abs/0905.1153))
 
-For similar structures see also at _[[motive]]_ in the section _[Relation to bivariant K-theory](motive#RelationToKKTheory)_.
 
 ### Relation to motives and algebraic KK-theory
  {#RelationToMotives}
