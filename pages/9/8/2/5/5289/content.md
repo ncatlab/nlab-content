@@ -18,7 +18,7 @@
 An **$E_n$-algebra** is an [[∞-algebra over an (∞,1)-operad|∞-algebra]] over the [[E-k operad]].
 
 
-## Examples
+## Special cases
 
 ### $E_1$-algebras
 
@@ -38,6 +38,18 @@ See [[E-∞ algebra]].
 ## Examples
 
 * [[universal enveloping E-n algebra]]
+
+## Properties
+
+### Relation to Poisson $n$-algebras
+
+The [[homology]] of an $E_n$-algebra for $n \geq 2$ is a 
+[[Poisson n-algebra]]. 
+
+Moreover, in [[chain complexes]] over a [[field]] of [[characteristic]] 0 the [[E-n operad]] is [[formal dg-algebra|formal]], hence equivalent to its homology, and so in this context $E_n$-algebras are equivalent to [[Poisson n-algebras]].
+
+See there for more.
+
 
 ## Related concepts
 
