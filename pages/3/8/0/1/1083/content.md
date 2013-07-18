@@ -136,6 +136,8 @@ the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 
 * [[homotopy category of chain complexes]]
 
+* [[model structure on chain complexes]]
+
 * [[derived category]], [[derived functor]]
 
 * [[(∞,1)-category of chain complexes]]
