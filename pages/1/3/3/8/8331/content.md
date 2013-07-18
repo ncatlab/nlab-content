@@ -84,7 +84,7 @@ Use the [[acyclic assembly lemma]].
 ### Relation to total simplicial sets and homotopy colimits
  {#RelationToTotalSimplicialSets}
 
-The total chain complex is under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the called the _[[total simplicial set]]_ of a bisimplicial set.
+The total chain complex is, under the [[Dold-Kan correspondence]], equivalent to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the called the _[[total simplicial set]]_ of a bisimplicial set.
 
 ## References
 
