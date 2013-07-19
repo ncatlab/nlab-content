@@ -48,6 +48,6 @@ See also
 
 * wikipedia: [Cartan connection](http://en.wikipedia.org/wiki/Cartan_connection)
 
-* The blog [discussion](http://golem.ph.utexas.edu/category/2007/07/derek_wise_on_cartan_geometry.html) of Derek Wise, [MacDowell-Mansouri gravity and Cartan geometry](http://arxiv.org/abs/gr-qc/0611154).
+* The blog [discussion](http://golem.ph.utexas.edu/category/2007/07/derek_wise_on_cartan_geometry.html) of [[Derek Wise]], [MacDowell-Mansouri gravity and Cartan geometry](http://arxiv.org/abs/gr-qc/0611154).
 
 [[!redirects Cartan geometries]]
