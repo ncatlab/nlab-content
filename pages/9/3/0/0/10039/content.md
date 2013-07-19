@@ -120,6 +120,13 @@ $$
 
 See at _[KK-theory -- Push-forward in KK-theory](KK-theory#UmkehrMap)_.
 
++-- {: .num_example}
+###### Example
+
+More generally, [[twisted Umkehr maps]] in [[generalized cohomology theory]] are given by dual morphisms in [[(∞,1)-category of (∞,1)-modules]]. See at _[[twisted Umkehr map]]_ for more.
+
+=--
+
 ## Related concepts
 
 * [[trace]]
