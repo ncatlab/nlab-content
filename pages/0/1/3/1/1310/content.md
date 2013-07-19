@@ -277,6 +277,11 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 [[!redirects representation of an ∞-Lie algebroid]]
 [[!redirects representations of ∞-Lie algebroids]]
 
+[[!redirects L-∞ algebroid representation]]
+[[!redirects L-∞ algebroid representations]]
+[[!redirects L-infinity algebroid representation]]
+[[!redirects L-infinity algebroid representations]]
+
 
 [[!redirects Lie infinity-algebroid representations]]
 [[!redirects Lie ∞-algebroid representation]]
