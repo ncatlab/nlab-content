@@ -165,9 +165,11 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 ## References
 
+### General
+
 Connections on 2-bundles with vanishing 2-form curvature defined in terms of their [[higher parallel transport]] are discussed in
 
-* [[Urs Schreiber]],  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+* [[Urs Schreiber]],  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_, Theory and Applications of Categories, Vol. 28, 2013, No. 17, pp 476-540. ([TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 
 expanding on
 
@@ -202,10 +204,23 @@ For a discussion of all this in a more comprehensive context see section xy of
 
 See also [[connection on an infinity-bundle]] for the general theory.
 
+### Applications to physics
+
+Nonabelian 2-connections appear for instance as [[orientifold]] [[B-fields]] in [[type II string theory]], as [[differential string structure]] in [[heterotic string theory]], and as fields in non-abelian [[7-dimensional Chern-Simons theory]]. See at these pages for references.
+
+An appearance in 4-dimensional [[Yang-Mills theory]] and [[4d TQFT]] is reported in 
+
+* [[Sergei Gukov]], [[Anton Kapustin]], _Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
+
+
 [[!redirects connections on a 2-bundle]]
 [[!redirects connections on 2-bundles]]
 
 [[!redirects 2-connection]]
 [[!redirects 2-connections]]
 
-[[!redirects connectin on a principal 2-bundle]]
+[[!redirects principal 2-connection]]
+[[!redirects principal 2-connections]]
+
+
+[[!redirects connection on a principal 2-bundle]]
