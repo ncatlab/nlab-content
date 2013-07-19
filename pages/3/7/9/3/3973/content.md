@@ -187,7 +187,9 @@ See [[infinity-representation]].
 ## Related concepts
 
 
-* [[vector space]], [[(∞,1)-vector space]], [[(∞,1)-vector bundle]]
+* [[vector space]], 
+
+* [[(∞,1)-module]], [[(∞,1)-module bundle]], [[(∞,1)-category of (∞,1)-modules]]
 
 * [[2-ring]], [[2-module]]
 
@@ -220,6 +222,8 @@ Review of work on 4-modules (implicitly) as [[trialgebras]]/[[Hopf monoidal cate
 
 [[!redirects n-vector spaces]]
 [[!redirects n-vector spaces]]
+
+[[!redirects nMod]]
 
 [[!redirects (∞,n)-vector space]]
 [[!redirects (infinity,n)-vector space]]
