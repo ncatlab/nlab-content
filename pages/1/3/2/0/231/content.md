@@ -38,7 +38,7 @@ A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
 called the **[[tensor product]]**, an object
 $$ 1 \in M $$
-called the **[[unit object]]**, a natural isomorphism
+called the **[[unit object]]** or **[[tensor unit]]**, a natural isomorphism
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
 called the **[[associator]]**, a natural isomorphism
 $$ \lambda_x : 1 \otimes x \to x $$
