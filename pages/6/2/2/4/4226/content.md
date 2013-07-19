@@ -21,7 +21,7 @@
 
 ## History
 
-Motivic integration has been introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995. This talk also dealt with [[orbifold cohomology]] as well as this 2 related papers to [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, Yongbin Ruan and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. More general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
+Motivic integration has been introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995. This talk also dealt with [[orbifold cohomology]] as well as this 2 related papers to [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. More general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
 
 ## References
 
