@@ -605,9 +605,49 @@ on $Ch^\bullet_+(Ab)$.
 ### In unbounded degree
   {#OnUnbounded}
 
-There are several approaches to defining model structures on the category $Ch(\mathcal{A})$ of unbounded complexes.
+There are several approaches to defining model structures on the [[category of unbounded chain complexes]] $Ch(\mathcal{A})$ -
 
-#### Christensen-Hovey approach using projective classes
+
+#### Standard projective model structure on unbounded chain complexes
+ {#ProjectiveModelStructureOnUnboundedChainComplexes}
+
++-- {: .num_prop #ProjModelStructureOnUnbounded}
+###### Proposition
+
+For $k$ a [[commutative ring]] the [[category of unbounded chain complexes]] of $k$-[[modules]] $Ch_\bullet(k Mod)$ carries the structure of a 
+
+* [[proper model category|proper]] 
+
+* [[cofibrantly generated model category|cofibrantly generated]] 
+
+[[model category]] with
+
+* weak equivalences the [[quasi-isomorphisms]]
+
+* fibrations the (degreewise) [[epimorphisms]].
+
+The cofibrations are all in particular degreewise split injections, but not every degreewise split injection is a cofibration.
+
+=--
+
+See ([Hovey-Palmieri-Strickland 97, remark after theorem 9.3.1](#HoveyPalmieriStrickland97), [Schwede-Shipley 98, p. 7](#SchwedeShipley98)).
+
++-- {: .num_prop }
+###### Proposition
+
+The [[category of simplicial objects]] $(Ch_\bullet(k Mod))^{\Delta^{op}}$ in the [[category of unbounded chain complexes]]
+carries the structure of a [[simplicial model category]] whose
+
+* weak equivalences are the maps that are [[quasi-isomorphisms]] under the [[total chain complex]] functor.
+
+=--
+
+This is ([Rezk-Schwede-Shipley 01, cor 4.6](#RezkSchwedeShipley01)), using the methods discussed at _[simplicial model category -- Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
+
+Below this model structure is recovered as one example of the [Christensen-Hovey projective class construction](#InUnboundedDegreeGeneralResults), as example \ref{CategoricalProjectiveClass}.
+
+
+#### Christensen-Hovey model structures using projective classes
  {#InUnboundedDegreeGeneralResults}
 
 Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and 
@@ -649,7 +689,7 @@ Let $R$ be a [[ring]] and $\mathcal{A} = $ $R$-[[Mod]] be the category of $R$-[[
 +-- {: .num_example}
 ###### Example
 
-Given a pair of [[adjoint functor]]s 
+Given a pair of [[adjoint functors]]
 
 $$
   (F \dashv U) : \mathcal{A} \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} \mathcal{B}
@@ -702,14 +742,27 @@ Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 ##### Categorical projective class structure
  {#CategoricalProjectiveClass}
 
++-- {: .num_example #CategoricalProjectiveClass}
+###### Example
+
 The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has 
 
 * as fibrations the degreewise surjections.
 
+So this reproduces the standard projective model structure from prop. \ref{ProjModelStructureOnUnbounded}.
+
+=--
+
 ##### Pure projective class structure
  {#CategoricalProjectiveClass}
 
++-- {: .num_example }
+###### Example
+
+
 The **pure projective class** on $\mathcal{A}$ has as $\mathcal{P}$ summands of sums of finitely presented modules. Fibrations in the corresponding model structure are the maps that are degreewise those epimorphisms that appear in $\mathcal{P}$-exact sequences.
+
+=--
 
 #### Gillespie's approach using cotorsion pairs
 
@@ -982,7 +1035,23 @@ on how to do homological algebra with unbounded complexes (in both sides) where 
 * [[Vladimir Hinich]], _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
 ([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf)) 
 
-shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. 
+shows that there is a model category structure on the category of unbounded chain complexes, reproduces Spaltenstein's results from that perspective and extends them. 
+
+The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in 
+
+* [[Marc Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
+ {#HoveyPalmieriStrickland97}
+
+and noticed as cofibrantly generated model structure on p. 7 of 
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ ([arXiv:math/9801082](http://arxiv.org/abs/math/9801082))
+ {#SchwedeShipley98}
+
+That the corresponding [[category of simplicial objects]] in unbounded chain complexes is thius a [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] is cor. 4.6 in 
+
+* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
+ {#RezkSchwedeShipley01}
+
 
 The article 
 
