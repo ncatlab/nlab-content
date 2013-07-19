@@ -126,7 +126,7 @@ A discussion of deformations of complex structures is in
 
 The _[[moduli space of complex structures]]_ on a manifold is discussed for instance from page 175 on of 
 
-* Yongbin Ruan, _Symplectic topology and complex surfaces_ in _Geometry and analysis on complex manifolds_ (1994)
+* [[Yongbin Ruan]], _Symplectic topology and complex surfaces_ in _Geometry and analysis on complex manifolds_ (1994)
 
 and in
 
