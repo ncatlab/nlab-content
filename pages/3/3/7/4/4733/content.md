@@ -176,7 +176,7 @@ _Anomalies in string theory with D-branes_, Asian J. Math. 3 (1999), 819-851 ([a
 
 Underlying the Gawedzki--Reis formula is a general mechanism of transition of transport $2$-functors, described in
 
-* U. Schreiber, K. Waldorf, _Connections on non-abelian gerbes and their holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
+* [[Urs Schreiber]],  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_, Theory and Applications of Categories, Vol. 28, 2013, No. 17, pp 476-540. ([TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 
 and similarly in 
 
@@ -187,7 +187,7 @@ and similarly in
 
 The generalization to unoriented surfaces (hence to type I strings) was given in
 
-* K. Waldorf, C. Schweigert & U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
+* K. Waldorf, C. Schweigert &amp; U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
 
 
 
