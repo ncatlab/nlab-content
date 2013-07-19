@@ -5,7 +5,7 @@ The following terms all refer to essentially the same concept:
 
 * [[push-forward in generalized cohomology]]
 
-* [[Umkehr map]]
+* [[Umkehr map]], [[twisted Umkehr map]]
 
 * [[Gysin map]]
 
