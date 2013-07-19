@@ -493,9 +493,11 @@ Under the [[Brown representability theorem]] the Thom spectrum represents the [[
 
 ## Related concepts
 
-* [[Thom space]], [[Thom isomorphism]]
+* [[Thom space]], [[Thom isomorphism]], [[Pontryagin-Thom collapse map]]
 
 * [[cobordism ring]]
+
+[[!include generalized fiber integration synonyms - table]]
 
 ## References
 
@@ -561,5 +563,7 @@ A brief exposition appears as example 3.7 in
  {#PontoShulman}
 
 
-
 [[!redirects Thom spectra]]
+
+[[!redirects generalized Thom spectrum]]
+[[!redirects generalized Thom spectra]]
