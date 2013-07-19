@@ -15,11 +15,11 @@
 
 ## Idea
 
-A [[moduli space]] of [[connections on bundles]].
+A [[moduli space]] of ([[flat connection|flat]]) [[connections on bundles]] over some prescribed [[space]].
 
 ## Properties
 
-* The _[[Narasimhan–Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
+* The _[[Narasimhan–Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[stable vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
 
 ## Related concepts
 
