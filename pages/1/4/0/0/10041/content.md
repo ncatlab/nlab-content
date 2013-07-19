@@ -33,10 +33,15 @@ The Grothendieck [[six operations]] formalism is a formalization of aspects of V
 
 * [[Grothendieck duality]]
 
+* [[Poincaré duality]]
+  
+
 ## References
 
 The duality is named after [[Jean-Louis Verdier]].
 
 * Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
+
+* Liviu Niculaescu, _The derived category of sheaves and the Poincar&#233;-Verdier duality_ ([pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf))
 
 [[!redirects Verdier dualities]]
