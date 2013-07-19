@@ -181,6 +181,8 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
 ## Related concepts
 
+* [[cap product]]
+
 * [[intersection pairing]]
 
 * [[Baer sum]]
