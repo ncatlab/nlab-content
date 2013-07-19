@@ -458,6 +458,8 @@ Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-tw
 
 * [[local coefficient bundle]]
 
+* [[twisted Umkehr map]]
+
 * [[relative cohomology]]
 
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
