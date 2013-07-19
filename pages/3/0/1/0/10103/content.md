@@ -23,7 +23,23 @@ A _distributive monoidal_ category is a [[monoidal category]] whose [[tensor pro
 A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose tensor product preserves coproducts in each variable.  Thus, we have canonical isomorphisms
 $$ X \otimes \coprod_i Y_i \cong \coprod_i (X\otimes Y_i)$$
 $$ \coprod_i X_i \otimes Y \cong \coprod_i (X_i\otimes Y)$$
-Depending on the arity of the coproducts in question, we may speak of a **finitary** or **infinitary** distributive monoidal category.
+Depending on the arity of the coproducts in question, we may speak of a **finitary** or **infinitary** distributive monoidal category. 
+
++-- {: .num_remark} 
+###### Remark 
+A monoidal category is finitary distributive if it preserves binary coproducts in separate variables and the monoidal unit $I$ is weakly terminal (e.g., if there is a morphism $1 \to I$ out of a terminal object). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+There is a canonical isomorphism 
+$$x \otimes 0 + x \otimes y \to x \otimes (0 + y)$$ 
+and thus a canonical isomorphism 
+$$\phi: x \otimes 0 + x \otimes y \to x \otimes y$$ 
+whose restriction along the coproduct inclusion $x \otimes y \to x \otimes 0 + x \otimes y$ is the identity $1_{x \otimes y}$. Let $k: x \otimes 0 \to y$ be the restriction of $\phi$ along the other coproduct inclusion. Then $\phi$ induces an evident bijection 
+$$\hom(x \otimes y, y) \stackrel{\langle [k], id \rangle}{\to} \hom(x \otimes 0, y) \times \hom(x \otimes y, y).$$ 
+Since $\hom(x \otimes y, y)$ is inhabited for all $x, y$ (with the help of some map $x \to I$, there is some map $x \otimes y \to I \otimes y \cong y$), this forces $\hom(x \otimes 0, y)$ to be a singleton for any $y$, so that $x \otimes 0$ is initial. 
+=-- 
 
 A distributive [[cartesian monoidal category]] is a [[distributive category]], while any distributive monoidal category is a particular case of a [[rig category]].  See [[distributivity for monoidal structures]].
 
