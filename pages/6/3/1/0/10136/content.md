@@ -1,0 +1,7 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Hassler_Whitney)
+
+category: people
+
+[[!redirects Whitney]]
