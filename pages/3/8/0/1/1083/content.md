@@ -156,3 +156,9 @@ category: category
 
 [[!redirects category of cochain complexes]]
 [[!redirects categories of cochain complexes]]
+
+[[!redirects category of bounded chain complexes]]
+[[!redirects categories of bounded chain complexes]]
+
+[[!redirects category of unbounded chain complexes]]
+[[!redirects categories of unbounded chain complexes]]
