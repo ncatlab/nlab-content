@@ -20,13 +20,13 @@
 
 ## Idea
 
-In **string topology** one studies the [[BV-algebra]]-structure on the [[singular homology]] of the [[free loop space]] $X^{S^1}$ of an [[oriented]] [[manifold]] $X$, or more generally the [[framed little 2-disk operad|framed little 2-disk algebra]]-structure on the singular [[chain complex]]. This is a special case of the general algebraic structure on higher order [[Hochschild cohomology]], as discussed there. 
+In **string topology** one studies the [[BV-algebra]]-structure on the [[ordinary homology]] of the [[free loop space]] $X^{S^1}$ of an [[oriented]] [[manifold]] $X$, or more generally the [[framed little 2-disk operad|framed little 2-disk algebra]]-structure on the singular [[chain complex]]. This is a special case of the general algebraic structure on higher order [[Hochschild cohomology]], as discussed there. 
 
 The study of _string topology_ was initated by [[Moira Chas]] and [[Dennis Sullivan]]. 
 
 ## The string operations
 
-Let $X$ be a [[smooth manifold]], write $L X$ for its [[free loop space]] (for $X$ regarded as a [[topological space]]) and $H_\bullet(L X)$ for the [[homology]] of this space (with coefficients in the [[integer]]s $\mathbb{Z}$).
+Let $X$ be a [[smooth manifold]], write $L X$ for its [[free loop space]] (for $X$ regarded as a [[topological space]]) and $H_\bullet(L X)$ for the [[ordinary homology]] of this space (with coefficients in the [[integer]]s $\mathbb{Z}$).
 
 
 ### The string product 
@@ -86,7 +86,7 @@ $$
   \,.
 $$ 
 
-Write $in^!$ for the "pullback" in homology along $in$ (the dual [[fiber integration]]) and $out_*$ for the ordinary pushforward. 
+Write $in^!$ for the "pullback" in [[ordinary homology]] along $in$ (the dual [[fiber integration]]) and $out_*$ for the ordinary pushforward. 
 
 +-- {: .num_theorem }
 ###### Theorem
@@ -155,10 +155,11 @@ This is due to ([ChasSullivan](#ChasSullivan)).
 
 
 ## In terms of TQFTs
+ {#InTermsOfTQFTs}
 
 The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to an [[HQFT]] (with due care on some technical subtleties). 
 
-The idea is that the [[configuration space]] of a closed or open [[string]]-[[sigma-model]] propagating on $X$ is the [[loop space]] or path space of $X$, respectively. The space of [[state]]s of the string is some space of sections over this configuration space, to which the (co)homology $H_\bullet(L X)$ is an approximation. The string topology operations are then the [[cobordism]]-representation
+The idea is that the [[configuration space]] of a closed or open [[string]]-[[sigma-model]] propagating on $X$ is the [[loop space]] or path space of $X$, respectively. The space of [[state]]s of the string is some space of sections over this configuration space, to which the (co)homology $H_\bullet(L X)$ is an approximation. The string topology operations are then the [[cobordism]]-representation with [[coefficients]] in the [[category of chain complexes]]
 
 $$
   H_\bullet(Bord_2) \to Ch_\bullet
@@ -187,7 +188,7 @@ structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[br
 
 =--
 
-For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kupers](#Kupers)).
+For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kupers 11](#Kupers)).
 
 ## Related concepts
 
@@ -233,7 +234,7 @@ A detailed discussion and generalization to the open-closed [[HQFT]] in the pres
 
 The generalization to multiple [[D-brane]]s is discussed in
 
-* [[Sander Kupers]], _String topology operations_ MS thesis (2011)
+* [[Sander Kupers]], _String topology operations_ MS thesis (2011) ([pdf](http://math.stanford.edu/~kupers/thesis7thjune2011.pdf))
  {#Kupers}
 
 For target space a [[classifying space]] of a [[finite group]] or [[compact space|compact]] [[Lie group]] this is discussed in
