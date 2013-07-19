@@ -54,6 +54,8 @@ An [[algebra object]] in [[2Mod]]${}_3$ is equivalently a [[sesquiunital sesquia
 
   * _[[TwoVect]]_ is a Mathematica software package for computer algebra with 2-vector spaces
 
+* [[(∞,1)-module]], [[(∞,1)Mod]]
+
 * [[n-vector space]]
 
 * [[nMod]]
