@@ -6,6 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 Any $\mathcal{Sand}$ in this box?
 
+* [pdf](http://www.maths.ed.ac.uk/~aar/papers/farjoun.pdf)
 
 
 category: meta
