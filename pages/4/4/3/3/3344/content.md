@@ -74,6 +74,8 @@ Apart from the archeytpical example of the [[simplex category]] we have the foll
 
 * The [[groupoid]]-analog $\tilde \Theta$ of the [[Theta category]] is a test category ([Ara](#Ara)).
 
+* The [[tree category]] $\Omega$ is a test category. This was proven in an unpublished note of Cisinski.
+
 ## Related concepts
 
 * [[direct category]]
