@@ -1,4 +1,8 @@
 
-* [website](http://www.phys.uu.nl/~3021009/)
+* [website](http://math.stanford.edu/~kupers/)
+
+## Related pages
+
+* [[string topology]]
 
 category: people
