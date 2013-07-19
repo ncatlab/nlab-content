@@ -297,6 +297,8 @@ For $A = C_0(X)$ the [[algebra of functions]] [[vanishing at infinity]] of a [[m
 
 * [[virtual fundamental class]]
 
+* [[Poincaré duality complex]]
+
 ## References
 
 ### For graded associative algebras
