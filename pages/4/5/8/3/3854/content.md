@@ -4,4 +4,9 @@ __Anton Kapustin__ is a Russian mathematical physicist, now a Professor at Calte
 
 * [wikipedia](http://en.wikipedia.org/wiki/Anton_Kapustin)
 
+## Some publications
+
+* [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
+
+
 category: people
