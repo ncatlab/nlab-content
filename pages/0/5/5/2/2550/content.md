@@ -63,3 +63,5 @@ Discussion related to [[étale homotopy]] is in
 [[!redirects A1-homotopy category]]
 [[!redirects A1 homotopy category]]
 [[!redirects A1-homotpy theory]]
+[[!redirects motivic homotopy theory]]
+[[!redirects stable motivic homotopy theory]]
