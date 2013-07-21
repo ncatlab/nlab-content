@@ -61,6 +61,6 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 # References
 
-* Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen.  "One Setting for All: Metric, Topology, Uniformity, Approach Structure."
+* Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen.  "One Setting for All: Metric, Topology, Uniformity, Approach Structure." ([pdf](http://www.math.yorku.ca/~tholen/ProMat_V_.pdf)) 
 
 [[!redirects prometric spaces]]
