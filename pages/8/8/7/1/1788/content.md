@@ -12,6 +12,10 @@ $x \colon A$
 
 $x : A $
 
+Let\'s put them right next to each other:
+* $x\colon A$
+* $x : A$
+
 Any $\mathcal{Sand}$ in this box?
 
 * [pdf](http://www.maths.ed.ac.uk/~aar/papers/farjoun.pdf)
