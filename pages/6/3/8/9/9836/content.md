@@ -7,11 +7,27 @@ Bruce Evan Blackadar is an American operator algebra theorist at the University 
 
 * [Wikipedia page](http://de.wikipedia.org/wiki/Bruce_Blackadar) (German)
 
+There is a typo found in some bibliographies listing Blackadar\'s middle initial as 'A'.  This is not a different person.
+
+
 ## Related entries
 
 * _[[K-Theory for Operator Algebras]]_
 
+
 category: people
 
 [[!redirects Bruce Even Blackadar]]
+[[!redirects Bruce E. Blackadar]]
+[[!redirects Bruce A. Blackadar]]
+[[!redirects Bruce E Blackadar]]
+[[!redirects Bruce A Blackadar]]
 [[!redirects B. E. Blackadar]]
+[[!redirects B. A. Blackadar]]
+[[!redirects B.E. Blackadar]]
+[[!redirects B.A. Blackadar]]
+[[!redirects B E Blackadar]]
+[[!redirects B A Blackadar]]
+[[!redirects BE Blackadar]]
+[[!redirects BA Blackadar]]
+[[!redirects Bruce Blackadar]]
