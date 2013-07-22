@@ -20,7 +20,7 @@
 {:toc}
 
 ## Idea ##
-In [[quantum field theory]] on [[Minkowski space]] all fields must transform according to a definite (finite dimensional) [[representation]] of the [[Poincare group]], which determines the [[spin]] of each field. From the [[representation theory]] of the [[Poincare group]] it is known that the spin $s$ is a number $s = \frac{n}{2}$ with $n \in \mathbb{N}$.
+In [[quantum field theory]] on [[Minkowski space]] all fields must transform according to a definite (finite dimensional) [[representation]] of the universal cover of the [[Poincare group]], which determines the [[spin]] of each field. From the [[representation theory]] of the [[Poincare group]] it is known that the spin $s$ is a number $s = \frac{n}{2}$ with $n \in \mathbb{N}$.
 
 On the other hand, if we take fields to be pointwise localized in the sense of the [[Wightman axioms]], then the locality axiom (also known as _Einstein microcausality_ ) says that spacelike separated field operators either commute or anticommute: Two [[Fermionic field]]s anticommute, two [[Bosonic field]]s commute, a Fermionic and a Bosonic field commute.
 
