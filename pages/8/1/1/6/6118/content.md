@@ -55,24 +55,26 @@ Y & \underset{u_Y}{\to} & \beta Y & & & & & & \beta \beta Y & \underset{m_Y}{\to
 
 Then a __relational $\beta$-module__ is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$. In other words, a set $S$ equipped with a relation $\xi: \beta S \to S$ such that the following inequalities hold: 
 
-$$\array{
+$$\label{rel1} \array{
 S & \stackrel{u_S}{\to} & \beta S & & & & & & \beta \beta S & \stackrel{m_S}{\to} & \beta S \\
  & \mathllap{1_S} \searrow \; \leq & \downarrow \mathrlap{\xi} & & & & & & \mathllap{\beta(\xi)} \downarrow & \leq & \downarrow \mathrlap{\xi} \\ 
  & & S & & & & & & \beta S & \underset{\xi}{\to} & S
 }$$ 
 
-Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces (not continuous relations!) as the appropriate notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]]. 
+Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces (not continuous relations!) as the appropriate abstract notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]] for a more generalized context. 
 
 
 ### Concrete
 
-A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\xi: \beta S \to S$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfy certain rules as described above. For $F \in \beta S$ and $x \in S$, we write $F \rightsquigarrow_\xi x$ if $(F, x)$ satisfies the relation, or often just $F \rightsquigarrow x$ if the relation is clear. We think of this as saying that the ultrafilter $F$ _converges_ to the point $x$, and thus $\xi$ as a kind of "notion of convergence". 
+A __relational $\beta$-module__ is a [[set]] $S$ and a [[binary relation]] $\xi: \beta S \to S$ between [[ultrafilters]] on $S$ and [[elements]] of $S$ that satisfy the conditions (eq:rel1) . For $F \in \beta S$ and $x \in S$, we write $F \rightsquigarrow_\xi x$ if $(F, x)$ satisfies the relation $\xi$, or often just $F \rightsquigarrow x$ if the relation is clear. We pronounce this by saying "the ultrafilter $F$ _converges_ to the point $x$", so that $\xi$ plays the role of "notion of convergence". 
 
-To explain the rules, we first set up a Galois correspondence between $\xi \in Rel(\beta S, S)$ and subsets $\mathcal{C} \subseteq P(S)$, so that fixed points on the $P(S)$ side are exactly topologies on $S$ and fixed points on the other side are relational $\beta$-module structures on $S$. Recall that each topology $\\mathcal{O} \subseteq P(S)$ induces a notion of convergence where $F \rightsquigarrow x$ means $N_x \subseteq F$ ($F$ contains the filter of neighborhoods of $x$). Accordingly, for general $\mathcal{C} \subseteq P(S)$, define the relation $conv(\mathcal{C}) = \xi: \beta S \to S$ by 
+Preliminary to explaining the conditions (eq:rel1), we first set up a Galois correspondence between $\xi \in Rel(\beta S, S)$ and subsets $\mathcal{C} \in P P(S)$, so that fixed points on the $P P(S)$ side are exactly topologies on $S$, and fixed points on the other side are (as we show below) relational $\beta$-module structures on $S$. 
+
+Recall that each topology $\mathcal{O} \subseteq P(S)$ induces a notion of convergence where $F \rightsquigarrow x$ means $N_x \subseteq F$ ($F$ contains the filter of neighborhoods of $x$). Accordingly, for general $\mathcal{C} \subseteq P(S)$, define the relation $conv(\mathcal{C}) = \xi: \beta S \to S$ by 
 
 $$F \rightsquigarrow_\xi x \;\;\; \Leftrightarrow \;\;\; (\forall_{U \in P(S)})\; U \in \mathcal{C} \; \wedge \; x \in U \; \Rightarrow \; U \in F.$$ 
 
-A topology $\mathcal{O}$ can be retrieved from its notion of convergence: under the ultrafilter principle, the neighborhood filter of a point $x$ is just the intersection of all ultrafilters containing it (hence all $F$ such that $F \rightsquigarrow x$), and then a set is open if it is a neighborhood of all of its elements. Accordingly, for general "notions of convergence" $\xi \in Rel(\beta S, S)$, define a collection $\tau(\xi) \subseteq P(S)$ by 
+Conversely, a topology $\mathcal{O}$ can be retrieved from its notion of convergence: under the ultrafilter principle, the neighborhood filter of a point $x$ is just the intersection of all ultrafilters containing it (hence all $F$ such that $F \rightsquigarrow x$), and then a set is open if it is a neighborhood of all of its elements. Accordingly, for general "notions of convergence" $\xi \in Rel(\beta S, S)$, we define a collection $\tau(\xi) \subseteq P(S)$ by 
 
 $$\tau(\xi) \coloneqq \{U \subseteq S: (x \in U \; \wedge\; F \rightsquigarrow_\xi x) \Rightarrow U \in F\}.$$ 
 
@@ -111,7 +113,100 @@ If $\mathcal{O}$ is a topology on $S$, then $\mathcal{O} = \tau(conv(\mathcal{O}
 We already have $\mathcal{O} \subseteq \tau(conv(\mathcal{O}))$ from Proposition \ref{galois}. For the other direction, we must show that any $V$ belonging to $\tau(conv(\mathcal{O}))$ is a neighborhood of each of its points. Suppose the contrary: that $x \in V$ but $V$ is not a neighborhood of $x$. Then for every neighborhood $U \in N_x$, we have $U \cap \neg V \neq \emptyset$, so that sets of this form generate a filter. Extend to an ultrafilter $F$; clearly we have $F \rightsquigarrow x$ and $\neg V \in F$, but since $F \rightsquigarrow x$ and $V \in \tau(conv(\mathcal{O}))$ and $x \in V$, we also have $V \in F$, which is inconsistent with $\neg V \in F$. 
 =-- 
 
-This definition exhibits a topological space as a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.)
+These propositions demonstrate that a topological space is a particular type of [[pseudotopological space]].  (A pseudotopological space is just a relational $\beta$-module which omits the "associativity" axiom.) 
+
+One of our goals is to prove the following theorem: 
+
++-- {: .num_theorem} 
+###### Theorem 
+An arrow $\xi: \beta(S) \to S$ in $Rel$ is of the form $conv(\tau(\xi))$ if and only if the following inequalities are satisfied: 
+
+$$1_S \leq \xi \circ prin_S, \qquad \xi \circ \beta(\xi) \leq \xi \circ m_S$$ 
+
+where $m_S: \beta \beta(S) \to \beta(S)$ is the multiplication on the ultrafilter monad. 
+=--
+
+### Ultrafilter functor on $Rel$ 
+
+We pause to examine more closely the extension of the ultrafilter functor $\beta: Set \to Set$ to $Rel$, showing in particular that the extension is a strict functor. First we slightly rephrase our earlier definition: 
+
++-- {: .num_defn} 
+###### Definition 
+For a relation $r: X \to Y$ between sets, given by a subobject $R \hookrightarrow X \times Y$ in $Set$ with projections $f: R \to X$ and $g: R \to Y$, define $\bar{\beta}(r)$ to be the composite 
+
+$$\beta(X) \stackrel{\beta(f)^{o}}{\to} \beta(R) \stackrel{\beta(g)}{\to} \beta(Y)$$ 
+
+in the bicategory of relations. 
+=-- 
+
+Any span of functions $(h: S \to X, k: S \to Y)$ that represents $r$ (in the sense that $r = k h^{o}$ in the bicategory of relations) would serve in place of $(f, g)$, since for any such span there is an epi $s: S \to R$ with $h = f s$, $k = g s$, whence $\beta(s)$ is epi (because the epi $s$ splits in $Set$) and we have 
+
+$$\array{
+\beta(g)\beta(f)^{o} & = & \beta(g)\beta(s)\beta(s)^{o}\beta(f)^{o} \\
+ & = & \beta(g)\beta(s)(\beta(f)\beta(s))^{o} \\ 
+ & = & \beta(g s)\beta(f s)^{o} \\ 
+ & = & \beta(k)\beta(h)^{o}.
+}$$ 
+
+In particular, $\bar{\beta}$ is well-defined. Since $\bar{\beta}$ extends $\beta: Set \to Set$, there is no harm in writing $\beta(r)$ in place of $\bar{\beta}$. If $r \leq r': X \to Y$, then $\beta(r) \leq \beta(r')$ (as can be seen from the calculation displayed above, but replacing the epi $s$ by a general map $f$, and the first equation by an inequality $\geq$). 
+
++-- {: .num_remark #oplax}
+###### Remark 
+The same recipe works to extend any functor $T: Set \to Set$ to $Rel$; in general, and the extension $\bar{T}: Rel \to Rel$ is always an _op-lax_ functor in the sense that 
+
+$$\bar{T}(r s) \leq \bar{T}(r) \bar{T}(s)$$ 
+
+as is easily seen by contemplating a pullback diagram (where $r = g f^{o}$ and $s = k h^{o}$): 
+
+$$\array{
+ & & & & Q & & & & \\ 
+ & & & \mathllap{p} \swarrow & & \searrow \mathrlap{q} & & & \\
+ & & R & & & & S & & \\
+ & \mathllap{f} \swarrow & & \searrow \mathrlap{g} & & \mathllap{h} \swarrow & & \searrow \mathrlap{k} & \\ 
+X & & & & Y & & & & Z
+}$$ 
+
+whereupon one calculates 
+
+$$\array{
+\bar{T}(r s) & = & T(k q) T(f p)^{o} \\ 
+ & = & T(k) T(q) T(p)^{o} T(f)^{o} \\ 
+ & \leq & T(k) T(h)^{o} T(g) T(f)^{o} \\ 
+ & = & \bar{T}(r) \bar{T}(s) 
+}$$ 
+
+where the inequality comes from $T(q) T(p)^{o} \leq T(h)^{o} T(g)$, which is equivalent to $T(h) T(q) \leq T(g) T(p)$ (where even equality holds). This calculation shows that $\bar{T}$ is an actual (not just an op-lax) functor on $Rel$ iff $T$ satisfies the **Beck-Chevalley** condition: if $(p, q)$ is a pullback of $(g, h)$, then 
+
+$$T(q) T(p)^{o} = T(h)^{o} T(g).$$ 
+
+This in turn amounts to $T$ preserving weak pullbacks. (It actually says $T$ takes pullbacks to weak pullbacks, but this implies $T$ takes weak pullbacks to weak pullbacks because any endofunctor $T$ on $Set$ preserves epis, using the axiom of choice.) 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+The functor $\beta: Set \to Set$ satisfies the Beck-Chevalley condition (and therefore the extension $\beta: Rel \to Rel$ is a strict functor). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Referring to the pullback diagram in Remark \ref{oplax}, let $Q = R \times_Y S$ be the pullback. We must show that the canonical map 
+
+$$\beta(R \times_Y S) \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
+
+is epic. Viewing this as a continuous map between compact Hausdorff spaces, it suffices to show that the canonical map 
+
+$$R \times_Y S \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
+
+has a dense image (cf. the proof of Theorem \ref{free}). Let $(G, H) \in \beta(R) \times_{\beta(Y)} \beta(S)$, so that $\beta(g)(G) = \beta(h)(H)$ are the same ultrafilter $J \in \beta(Y)$. Let $\hat{A}$ and $\hat{B}$ be basic open neighborhoods of $G$ and $H$ in $\beta(R)$ and $\beta(S)$ respectively; we must show that there is $(r, s) \in R \times_Y S$ such that 
+
+$$(prin(r), prin(s)) \in \hat{A} \times \hat{B}$$ 
+
+or in other words such that $r \in A$ and $s \in B$. We have $g^{-1}(g(A)) \in G$ since $A \in G$ and $A \subseteq g^{-1}(g(A))$, so that $g(A)$ belongs to 
+
+$$J = \beta(g)(G) \coloneqq \{C \subseteq Y: g^{-1}(C) \in G\}$$ 
+
+and similarly $h(B) \in J$. It follows that $g(A) \cap h(B) \in J$ so that $g(A) \cap h(B) \neq \emptyset$. Any element $y \in g(A) \cap h(B)$ can be written as $y = g(r)$ and $y = h(s)$ for some $r \in A$ and $s \in B$, and this completes the proof. 
+=-- 
 
 
 ## Properties
