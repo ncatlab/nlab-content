@@ -33,7 +33,7 @@ $$
   GenEl(X) : C^{op} \to Set
 $$ 
 
-that sends each object $U$ of $X$ to the set of generalized elements of $X$ at stage $U$.
+that sends each object $U$ of $C$ to the set of generalized elements of $X$ at stage $U$.
 
 It is also worth noting that the [[internal logic]] or [[type theory]] of a category provides us a way to go backwards formally.  By reasoning about "abstract elements" in a set-theoretic style like ordinary elements, the interpretation then "compiles" such proofs to category-theoretic ones which actually apply to all generalized elements.
 
