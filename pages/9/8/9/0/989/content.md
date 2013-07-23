@@ -25,7 +25,7 @@ is equivalently
 
 * a pointed $R$-[[algebroid]] with one object;
 
-* an  $R$-[[module]] $V$ equipped with [[linear maps]] $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associative and unit laws;
+* an  $R$-[[module]] $V$ equipped with [[linear maps]] $p : V \otimes V \to V$ and $i : R \to V$ satisfying the associative and unit laws;
 
 * a [[ring]] $A$ [[under category|under]] $R$.
 
