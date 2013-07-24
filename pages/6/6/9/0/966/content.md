@@ -85,7 +85,7 @@ Sufficient conditions for a limit-preserving functor $G : D \to C$ to be a [[rig
 
   This is sometimes called the "**Special Adjoint Functor Theorem**", and abbreviated to SAFT.
 
-* $D$ is [[total category|cototal]] and $C$ is locally small.
+* $D$ is locally small and [[total category|cototal]], and $C$ is locally small.
 
 =--
 
