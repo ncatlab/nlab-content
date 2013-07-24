@@ -30,6 +30,12 @@ There are in fact many interrelated ways of defining ultrafilters. We present a 
 
 For any set $X$, let $U X$ be the set of ultrafilters on $X$.  Principal ultrafilters provide an inclusion $\eta\colon X\to U X$, which turns out to be the unit of a [[monad]] on $Set$, as briefly touched upon above.  The multiplication can be described fairly explicitly.  First of all, if $A\subseteq X$, define $[A]\subseteq U X$ to be the set of all ultrafilters containing $A$.  Then given $\mathcal{F} \in U U X$, i.e. an ultrafilter of ultrafilters, we let $\mu(\mathcal{F}) = \{ A | [A] \in \mathcal{F} \}$; one can verify that this is an ultrafilter and makes $U$ into a monad. This monad is traditionally denoted $\beta$. 
 
+The ultrafilter monad can also be described as follows. The 2-element set carries a unique structure of Boolean algebra internal to the category of sets. When thus cast in the role of [[dualizing object]], it induces an adjoint pair of functors 
+
+$$(Set \stackrel{P = Set(-, \mathbf{2})^{op}}{\to} Bool^{op}) \; \; \dashv \; \; (Bool^{op} \stackrel{Bool(-, \mathbf{2})}{\to} Set)$$ 
+
+whose corresponding monad $Bool(P -, \mathbf{2})$ is canonically identified with the ultrafilter monad $\beta$. Another description (due to Kennison and Gildenhuys) is that it is the [[codensity monad]] induced from the full embedding $Fin \hookrightarrow Set$ of finite sets into $Set$. See [Leinster](http://www.tac.mta.ca/tac/volumes/28/13/28-13.pdf) for a full account, and some extensions. 
+
 ### Ultrafilters and coproducts 
 
 Observe that the canonical map 
