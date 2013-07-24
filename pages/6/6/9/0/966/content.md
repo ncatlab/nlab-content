@@ -24,13 +24,13 @@ A basic result of [[category theory]] is that right [[adjoint functor]]s preserv
 The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limit]]s over [[small category|small]] and [[large category|large]] [[diagram]]s, then for $R : D \to C$ a [[functor]] that preserves all these limits we might define its would-be left adjoint $L$ by  taking  $L c$ to be the limit
 
 $$
-  L c := \lim_{c\to R d} d
+  L c \coloneqq \lim_{c\to R d} d
 $$
 
-over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor
+over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$: 
 
 $$
-  L c = \lim_{\leftarrow} (c/R \to D )
+  L c = \lim\; (c/R \to D )
   \,.
 $$
 
