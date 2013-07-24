@@ -20,7 +20,7 @@
 There are variants developed by Hanamura and M. Levine. There is a different "derived" approach to mixed motives, namely the $A^1$-homotopy theory of [[F. Morel]] and [[V. Voevodsky]]. 
 
 
-See at _[[motive]]_ the section _[Idea of the precise abstract definition of derived motives](http://ncatlab.org/nlab/show/motive#IdeaOfAbstractDefinition)_.
+See at _[[motive]]_ the section _[Contructions of the derived category of mixed motives](http://ncatlab.org/nlab/show/motive#DerivedMotives)_.
 
 ## Applications
 
