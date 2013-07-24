@@ -146,7 +146,7 @@ This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
 
 =--
 
-Specifically for $\mathcal{X} = Top$, this reefines to the classical theorem by [[Peter May]]
+Specifically for $\mathcal{X} = Top$, this refines to the classical theorem by [[Peter May]]
 
 +-- {: .un_theorem}
 ###### Theorem 
