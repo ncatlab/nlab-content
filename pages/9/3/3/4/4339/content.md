@@ -14,6 +14,7 @@ Examples include:
 *  The [[empty space]] is not a [[connected space]].
 *  The [[improper ideal]] is not a [[maximal ideal]] or a [[prime ideal]].
 *  The [[improper filter]] is not an [[ultrafilter]].
+*  The [[empty function]] to the [[empty set]] is not a [[constant function]].
 
 But of course one may still find definitions used that disagree.
 
