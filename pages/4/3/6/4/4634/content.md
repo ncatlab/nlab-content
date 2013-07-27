@@ -26,6 +26,9 @@ In [[noncommutative geometry]] a la [[Alain Connes]], Connes and [[Matilde Marco
 ## Definition 
  {#Definition}
 
+### As the universal additive/localizing invariant
+ {#AsUniversalAditiveInvariant}
+
 The definition in ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)) is the following.
 
 
@@ -71,8 +74,8 @@ $$
 
 ([Blumberg-Gepner-Tabuada 10, theorem 1.1, section 8](#BlumbergGepnerTabuada10))
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_remark }
+###### Remark
 
 The localization property here (be additive, invert Morita, preserve split sequences) is of the same form as that which defines the localization of [[C*-algebras]] to [[KK-theory]] in [[noncommutative stable homotopy theory]]. See at _[KK-theory -- Universal characterization](KK-theory#UniversalCharacterization)_. See also ([Blumberg-Gepner-Tabuada 10, paragraph 1.5](#BlumbergGepnerTabuada10)).
 
