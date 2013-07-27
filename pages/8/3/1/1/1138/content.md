@@ -9,7 +9,7 @@
 =--
 =--
 
-This page is about **inverse images of sheaves** and related subjects.  For the set-theoretic operation, see [[preimage]].
+> This page is about **inverse images of sheaves** and related subjects.  For the set-theoretic operation, see [[preimage]].
 
 ***
 
