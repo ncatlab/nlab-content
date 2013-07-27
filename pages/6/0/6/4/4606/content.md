@@ -1,4 +1,15 @@
+
+#Conents#
+* table of contents
+{:toc}
+
+## Definition
+
 Given a [[set]] $X$, the __empty function__ to $X$ is the [[function]] to $X$ from the [[empty set]].  This always exists and is unique; in other words, the empty set is an [[initial object]] in the [[category of sets]].
+
+## Properties
+
+The empty function to the [[empty set]] is _not_ a [[constant function]].
 
 
 [[!redirects empty function]]
