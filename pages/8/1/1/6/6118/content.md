@@ -145,7 +145,7 @@ $$1_S \leq \xi \circ prin_S, \qquad \xi \circ \beta(\xi) \leq \xi \circ m_S$$
 where $m_S: \beta \beta(S) \to \beta(S)$ is the multiplication on the ultrafilter monad. 
 =--
 
-## Ultrafilter functor on $Rel$ 
+## Ultrafilter functor on $Rel$ {#functor} 
 
 We now pause to examine more closely the extension of the ultrafilter functor $\beta: Set \to Set$ to $Rel$, showing in particular that the extension is a strict functor. First we slightly rephrase our earlier definition: 
 
@@ -253,7 +253,7 @@ $$conv(\tau(\xi)) = (conv \circ \tau \circ conv)(\mathcal{C}) =  conv(\mathcal{C
 so the first equation implies the third. Which in turn implies the second, since we know by proposition \ref{topology} that collections $\mathcal{O}$ of the form $\tau(\xi)$ are topologies. The second equation trivially implies the first. 
 =-- 
 
-We now break up our Main Theorem into the following two theorems. 
+We now break up our Main Theorem \ref{conc} into the following two theorems. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -268,7 +268,7 @@ $$\pi_2 \pi_1^o \beta(\pi_2) \beta(\pi_1)^o \leq \pi_2 \pi_1^o m_S$$
 
 which (using $\beta(\pi_1) \dashv \beta(\pi_1)^o$) is equivalent to 
 
-$$\pi_2 \pi_1^o \beta(\pi_2) \leq \pi_2 \pi_1^o m_S \beta(\pi_1)$$ 
+$$\label{assoc} \pi_2 \pi_1^o \beta(\pi_2) \leq \pi_2 \pi_1^o m_S \beta(\pi_1)$$ 
 
 or in other words that for all $\mathcal{G}: \beta(R)$, $x: S$ 
 
@@ -280,36 +280,100 @@ $$\{U \subseteq S: \pi_2^{-1}(U) \in \mathcal{G}\},$$
 
 with $\beta(\pi_1)(\mathcal{G})$ defined similarly. The monad multiplication $m_S: \beta \beta S \to \beta S$ is by definition 
 
-$$(\mathcal{U}: \beta\beta S) \;\; m_S(\mathcal{U}) \coloneqq \{A \subseteq S: \delta(A) \in \mathcal{U}\}$$ 
+$$(\mathcal{U}: \beta\beta S) \;\; m_S(\mathcal{U}) \coloneqq \{A \subseteq S: \hat{A} \in \mathcal{U}\}$$ 
 
-where $\delta(A) = \{F \in \beta S: A \in F\}$. 
+where $\hat{A} = \{F \in \beta S: A \in F\}$ (see also the [previous section](nlab/show/relational+beta-module#functor)). 
 
 Thus, (eq:conv1) translates into the following entailment (using remark \ref{open}):  
 
 $$\array{
  & & \mathcal{O}_x \subseteq \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\} \\ 
- & \vdash & \forall_{U: P S} U \in \mathcal{O}_x \Rightarrow \pi_1^{-1}(\delta(U)) \in \mathcal{G}.
+ & \vdash & \forall_{U: P S} U \in \mathcal{O}_x \Rightarrow \pi_1^{-1}(\hat{U}) \in \mathcal{G}.
 }$$ 
 
 This would naturally follow if 
 
-$$\forall_{U \in \mathcal{O}_x} \pi_2^{-1}(U) \subseteq \pi_1^{-1}(\delta(U)).$$ 
+$$\forall_{U \in \mathcal{O}_x} \pi_2^{-1}(U) \subseteq \pi_1^{-1}(\hat{U}).$$ 
 
-But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\delta(U)$, or in other words that $U \in F$. But this is tautological, given how $conv(\mathcal{O})$ is defined in terms of a topology $\mathcal{O}$. 
-=--
+But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\hat{U}$, or in other words that $U \in F$. But this is tautological, given how $conv(\mathcal{O})$ is defined in terms of a topology $\mathcal{O}$. 
+=-- 
 
+The next theorem establishes the converse of the preceding theorem; the two theorems together establish the Main Theorem. First we need a lemma. 
 
++-- {: .num_lemma #closed} 
+###### Lemma 
+Given any relation $\xi: Rel(\beta S, S)$ and $x: S$, $A \subseteq S$, we have that $x$ belongs to the closure $\bar{A}$ wrt the topology $\tau(\xi)$ if and only if $\exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x$. 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+As usual, let $\neg A$ denote the complement of a subset $A$. By definition of the topology $\tau(\xi)$, we have that $\neg A$ is a neighborhood of $x$ if $\forall_{F: \beta S} F \rightsquigarrow_\xi x \; \Rightarrow \; \neg A \in F$. In other words, 
 
-## Properties
+$$\array{
+x \in int(\neg A) & \Leftrightarrow & \forall_{F: \beta S} \; F \rightsquigarrow_\xi x \; \Rightarrow \; \neg A \in F \\
+ & \Leftrightarrow & \forall_{F: \beta S} \; \neg ((A \in F) \; \wedge \; (F \rightsquigarrow_\xi x))
+}$$ 
 
-We say that $\mathcal{U}$ __converges__ to $x$ if $\mathcal{U} \to x$.
+since in an ultrafilter $F$, we have $\neg (A \in F)$ iff $(\neg A) \in F$. Negating both sides of this bi-implication gives 
 
-As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
+$$\array{ 
+x \in \bar{A} & \Leftrightarrow & \exists_{F: \beta S} \; A \in F \; \wedge \; F \rightsquigarrow_\xi x
+}$$ 
+
+as desired. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+If $\xi: \beta S \to S$ in $Rel$ satisfies the inequalities of (eq:rel1), then $\xi = conv(\tau(\xi))$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We have $\xi \leq conv(\tau(\xi))$ from the Galois connection (proposition \ref{galois}), so we just need to prove $conv(\tau(\xi)) \subseteq \xi$, or that $F \rightsquigarrow_{conv(\tau(\xi))} x$ (henceforth abbreviated as $F \rightsquigarrow_{\tau(\xi)} x$) implies $F \rightsquigarrow_\xi x$ under the conditions (eq:rel1). 
+
+If $F \rightsquigarrow_{\tau(\xi)} x$, then every neighborhood $V$ of $x$ belongs to $F$, so that for every $U \in F$, every neighborhood $V$ of $x$ intersects $U$ in a nonempty set. But this just means $x \in \bar{U}$ for every $U \in F$, or in other words (using lemma \ref{closed}) that 
+
+$$U \in F \; \; \vdash \; \; \exists_{G: \beta S} U \in G \; \wedge \; G \rightsquigarrow_\xi x.$$ 
+
+Representing the relation $\xi$ as usual by a subset $\langle \pi_1, \pi_2 \rangle: R \hookrightarrow \beta S \times S$, another way of expressing the existential formula on the right of this entailment is: 
+
+$$\exists_{(G, x): R} G \in \hat{U}$$ or 
+
+$$\exists_{\gamma: R} \pi_1(\gamma) \in \hat{U} \wedge \pi_2(\gamma) = x$$ 
+
+or even just 
+
+$$\label{ult} \pi_1^{-1}(\hat{U}) \wedge \pi_2^{-1}(\{x\}) \neq \emptyset$$ 
+
+as subsets of $R$, as $U$ ranges over all elements of $F$. We therefore have that subsets of the form (eq:ult) generate a proper filter of $R$. By the ultrafilter principle, we may extend this filter to an ultrafilter $\mathcal{G} \in \beta R$. 
+
+By construction, we have 
+
+$$F \subseteq \{B \subseteq X: \pi_1^{-1}(\hat{B})) \in \mathcal{G}\} \qquad prin_S(x) \subseteq \{A \subseteq X: \pi_2^{-1}(A) \in \mathcal{G}\}$$ 
+
+but in fact these inclusions are equalities since the left sides and right sides are ultrafilters. Put differently, we have established 
+
+$$F = (m_S \circ \beta(\pi_1))(\mathcal{G}), \qquad prin_S(x) = \beta(\pi_2)(\mathcal{G}).$$ 
+
+Notice that the lax unit condition of (eq:rel1) implies that $prin_S(x) = \beta(\pi_2)(\mathcal{G}) \rightsquigarrow_\xi x$, or that $(\mathcal{G}, x)$ belongs to the relation $\xi \circ \beta(\pi_2)$. Recall also that the lax associativity condition is equivalent to (eq:assoc), which says 
+
+$$\xi \circ \beta(\pi_2) \leq \xi \circ m_S \circ \beta(\pi_1);$$ 
+
+in other words $(\mathcal{G}, x)$ belongs to $\xi \circ m_S \circ \beta(\pi_1)$, i.e., $F = (m_S \circ \beta(\pi_1))(\mathcal{G}) \rightsquigarrow_\xi x$, as was to be shown. 
+=-- 
+
+This completes the proof of the Main Theorem (theorem \ref{conc}). 
+
+## Continuous maps 
+
+## Properties 
+
+As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, by lemma \ref{closed}, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
 
 A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a __[[compactum]]__ is (assuming $UF$) precisely a relational $\beta$-module in which every ultrafilter converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$. Full proofs may be found at [[compactum]]; see also [[ultrafilter monad]]. 
 
-A continuous map $f$ from $(X, \xi: \beta X \to X)$ to $(Y, \theta: \beta Y \to Y)$ is _proper_ if the square 
+A continuous map $f$ from $(X, \xi: \beta X \to X)$ to $(Y, \theta: \beta Y \to Y)$ is [[proper map|proper]] if the square 
 
 $$\array{
 \beta X & \stackrel{\xi}{\to} & X \\
@@ -317,7 +381,7 @@ $$\array{
 \beta Y & \underset{\theta}{\to} & Y
 }$$ 
 
-commutes, and $f$ is _open_ if the square 
+commutes (strictly) in $Rel$, and $f$ is [[open map|open]] if the square 
 
 $$\array{
 \beta X & \stackrel{\xi}{\to} & X \\
@@ -325,10 +389,9 @@ $$\array{
 \beta Y & \underset{\theta}{\to} & Y
 }$$ 
 
-commutes. From this point of view, a space $X$ is Hausdorff if the diagonal map $\delta: X \to X \times X$ is proper, and compact if $\epsilon: X \to 1$ is proper (and these facts remain true even for pseudotopological spaces). 
-See [Clementino, Hofmann, and Janelidze](#CHJ), _infra_ corollary 2.5. 
+commutes in $Rel$. From this point of view, a space $X$ is Hausdorff if the diagonal map $\delta: X \to X \times X$ is proper, and compact if $\epsilon: X \to 1$ is proper (and these facts remain true even for pseudotopological spaces). See [Clementino, Hofmann, and Janelidze](#CHJ), _infra_ corollary 2.5. 
 
-The following result is due to [Pisani](#Pis): 
+The following _ultrafilter interpolation_ result is due to [Pisani](#Pis): 
 
 +-- {: .un_theorem} 
 ###### Theorem 
