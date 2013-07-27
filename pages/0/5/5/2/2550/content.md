@@ -20,17 +20,29 @@
 
 ## Idea
 
-The motivic homotopy category (or $\mathbb{A}^1$-homotopy category) bears the same relation to [[smooth varieties]] that the ordinary [[homotopy category]] $Ho(Top)$ bears to [[smooth manifolds]].
+What is called the _motivic homotopy category_ or the _$\mathbb{A}^1$-homotopy category_ bears the same relation to [[smooth varieties]] that the ordinary [[homotopy category]] $Ho(Top)$ bears to [[smooth manifolds]].
 
-Both are special cases of the [[homotopy theory]] induced by any sufficiently well-behaved [[interval object]] $I$ in a [[site]] $C$. Ordinary homotopy theory is obtained by taking $C$ to be the [[Diff|site of smooth manifolds]] and $I$ to be the [[real line]] $\mathbb{R}$, and $\mathbb{A}^1$-homotopy theory over a [[Noetherian scheme]] $S$ is obtained when $C$ is the [[Nisnevich site]] of [[smooth scheme]]s of finite type over $S$ and 
+Both are special cases of a [[homotopy theory]] induced by any sufficiently well-behaved [[interval object]] $I$ in a [[site]] $C$. Ordinary homotopy theory is obtained by taking $C$ to be the [[Diff|site of smooth manifolds]] and $I$ to be the [[real line]] $\mathbb{R}$, and $\mathbb{A}^1$-homotopy theory over a [[Noetherian scheme]] $S$ is obtained when $C$ is the [[Nisnevich site]] of [[smooth scheme]]s of finite type over $S$ and 
 
 $$
-  I = \mathbb{A}^1
+  I \coloneqq \mathbb{A}^1
 $$
 
 is the standard [[affine line]] in $C$.
 
-## The unstable motivic homotopy category {#UnstableCategory}
+As for the standard homotopy theory, one can furthermore pass to [[spectrum objects]] and consider the [[stable homotopy category]]. In the following we first discuss
+
+* _[The unstable motivic homotopy category](#UnstableCategory)_
+
+and then
+
+* _[The stable motivic homotopy category](#StableCategory)_.
+
+
+
+
+## The unstable motivic homotopy category 
+ {#UnstableCategory}
 
 Let $S$ be a fixed [[Noetherian scheme|Noetherian base scheme]], and let $Sm/S$ be the category of [[smooth schemes]] of finite type over $S$.
 
@@ -94,7 +106,8 @@ becomes [[(∞,1)-pushout|homotopy cocartesian]] in the [[Nisnevich site|Nisnevi
 =--
 
 
-## The stable motivic homotopy category {#StableCategory}
+## The stable motivic homotopy category 
+ {#StableCategory}
 
 +-- {: .num_defn}
 ###### Definition
@@ -133,7 +146,15 @@ is [[fully faithful]] and its essential image consists of the symmetric monoidal
 
 =--
 
-This is [Robalo, Corollary 5.11](#Robalo).
+This is ([Robalo, Corollary 5.11](#Robalo)).
+
++-- {: .num_remark}
+###### Remark
+
+Similar characterizations exist for [[noncommutative motives]], see at _[Noncommutative motive -- As the universal additive invariant](noncommutative+motive#AsUniversalAditiveInvariant)_.
+
+=--
+
 
 ### Stable motivic spheres {#StableMotivicSpheres}
 
@@ -157,11 +178,11 @@ $$ E_{p,q}(X) {:=} [S^{p,q}, \Sigma^\infty_T X_+ \wedge E]. $$
 
 ### The six operations {#SixOperations}
 
-The categories $SH(S)$ for varying base scheme $S$ support a formalism of [[six operations]]. This means that to every morphism of schemes $f: X\to Y$ is associated an ([[inverse image]] $\dashv$ [[direct image]]) [[adjunction]]
+The categories $SH(S)$ for varying base scheme $S$ support a formalism of [[six operations]]. This means that to every morphism of schemes $f: X\to Y$ is associated an ([[inverse image]] $\dashv$ [[direct image]])-[[adjunction]]
 
 $$ f^* : SH(Y) \to SH(X) : f_* $$
 
-and, if $f$ is [[separated morphism|separated]] of finite type, a (direct image with compact support $\dashv$ exceptional inverse image) adjunction
+and, if $f$ is [[separated morphism|separated]] of finite type, a ([[direct image with compact support]] $\dashv$ [[exceptional inverse image]])-adjunction
 
 $$ f_! : SH(X) \to SH(Y): f^!,$$
 
@@ -177,7 +198,7 @@ from some category of schemes to the (∞,1)-category $PrStab (\infty,1) Cat$ of
 
 2. If $i: X\to Y$ is an immersion of schemes, then $i_*\colon D(X)\to D(Y)$ is [[fully faithful (∞,1)-functor|fully faithful]].
 
-3. (Smooth base change) If $f$ is [[smooth scheme|smooth]], then $f^*$ admits a left adjoint $f_\sharp$. Moreover, given a cartesian square
+3. (Smooth base change/[[Beck-Chevalley condition]]) If $f$ is [[smooth scheme|smooth]], then $f^*$ admits a left adjoint $f_\sharp$. Moreover, given a cartesian square
 $$
   \array{
     Y' &\stackrel{k}{\to}& X'
