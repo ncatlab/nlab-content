@@ -1,4 +1,3 @@
-[[!redirects Picard ∞-group]]
 
 
 +-- {: .rightHandSide}
@@ -37,4 +36,11 @@ For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], its **Picard $\inf
 [[!redirects Picard infinity-group]]
 [[!redirects Picard infinity-groups]]
 [[!redirects Picard ∞-groups]]
+
+[[!redirects Picard ∞-group]]
+
+[[!redirects Picard ∞-groupoid]]
+[[!redirects Picard infinity-groupoid]]
+[[!redirects Picard ∞-groupoids]]
+[[!redirects Picard infinity-groupoids]]
 
