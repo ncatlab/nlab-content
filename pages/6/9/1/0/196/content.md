@@ -70,6 +70,8 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[fixed point]]
 
+* [[empty function]]
+
 * [[functor]]
 
 * [[2-functor]] / [[pseudofunctor]]
