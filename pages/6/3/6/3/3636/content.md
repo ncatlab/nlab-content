@@ -305,6 +305,6 @@ Books:
 
 Lecture Notes:
 
-*   D. A. Edwards and H. M. Hastings, _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
+*   [[D. A. Edwards]] and H. M. Hastings, _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
 
 [[!redirects Proper Homotopy Theory]]
