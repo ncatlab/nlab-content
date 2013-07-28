@@ -102,11 +102,50 @@ For instance, one may speak of a _[[discrete category]]_ as a category that is e
 
 An alternative terminology for this use of "discrete" is _[[truncated object|0-truncated]]_, or more precisely (0,0)-truncated.  A discrete groupoid in this sense is a _[[homotopy n-type|homotopy 0-type]]_, or simply a [[h-level|0-type]].  This terminology may be preferable to "discrete" in this context, notably when one is dealing with higher categorical structures that are in addition equipped with geometric structure. For instance, when dealing with a [[topological category]] there is otherwise ambiguity in what it means to say that it is "discrete": it could either mean that its underlying topological spaces (of objects and of morphisms) are discrete spaces,  or it could mean that it has no nontrivial morphisms, but possibly a non-discrete topological space of objects.
 
-+--{: .un_remark}
++--{: .num_remark}
 ###### Remark
 In some cases, the cellular notion of "discreteness" for higher categories can be seen as a special case of the *spatial* notion of discreteness --- often the 1-category of shapes will have a functor to sets for which the cellularly discrete objects are the discrete objects in the sense considered on this page.  For instance, this is the case for [[simplicial sets]], which form a [[local topos]] over [[Set]].  The discrete objects relative to this notion of cohesion are precisely the simplicial sets that are constant on a given ordinary set, hence those that are "discrete" in the cellular sense.
 =--
 
+### In $\infty$-toposes
+ {#ExamplesInInfinityToposes}
+
+The definition of discrete objects has the evident generalization from [[category theory]] to [[(∞,1)-category theory]]/[[homotopy theory]]. One noteworthy aspect of discrete objects in the context of homotopy theory is that there they are intimately related to the notion of _[[cohomology]]_.
+
+For $\mathcal{X}$ an [[(∞,1)-sheaf (∞,1)-topos]] with [[global section]] [[geometric morphism]]
+
+$$
+  (\Delta \dashv \Gamma)
+  \colon
+  \mathcal{X}
+  \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}}
+ \infty Grpd
+$$
+
+then for $X \in \mathcal{X}$ any object and $A \in $ [[∞Grpd]] any object, one says that
+
+$$
+  H(X,A)
+  \coloneqq
+  \pi_0 \mathcal{X}(X,\Delta(A))
+  \in
+  Set
+$$
+
+is the [[cohomology]] of $X$ [[cohomology with constant coefficients|with (locally) constant coefficients]] in $A$. (Here on the right $\mathcal{X}(-,-)$ denotes the [[(∞,1)-categorical hom-space]].)
+
+Now if $\mathcal{X}$ _has discrete objects_ in the sense that $\Delta \colon \infty Grpd \to \mathcal{X}$ is a [[full and faithful (∞,1)-functor]], then it follows immediately from the definitions that the cohomology of discrete objects with constant coefficients in $\mathcal{X}$ equals the cohomology in [[∞Grpd]], which is standard "[[nonabelian cohomology]]":
+
+$$
+  (\mathcal{X} \, has\, discrete\, objects)
+  \Leftrightarrow 
+  ( \forall_{S,A \in \infty Grpd} \mathcal{X}(\Delta S, \Delta A) \simeq \infty Grpd(S,A) )
+  \,.
+$$
+
+Conversely: _the failure of the cohomology with constant coefficients of objects in the image of $\Delta$ to coincide with standard cohomology is a measure for $\Delta$ not respecting discrete objects.
+
+For example the [[natural numbers object]] $\mathbf{N} \simeq \Delta \mathbb{N}$ in the [[(∞,1)-sheaf (∞,1)-topos]] over some [[topological spaces]] fails to be a discrete object. Accordingly in this case the natural numbers object can have nontrivial higher cohomology with constant coefficients, see for instance ([Blass 83](#Blass83), [Shulman 13](#Shulman13)).
 
 ## Related concepts
 
@@ -126,6 +165,11 @@ In some cases, the cellular notion of "discreteness" for higher categories can b
 
 * *Discreteness, concreteness, fibrations, and scones*: [blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html)
 
+* [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
+ {#Blass83}
+
+* [[Mike Shulman]], _Cohomology_ on the [[homotopy type theory]] blog [here](http://homotopytypetheory.org/2013/07/24/cohomology/)
+ {#Shulman13}
 
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
@@ -151,3 +195,6 @@ In some cases, the cellular notion of "discreteness" for higher categories can b
 
 [[!redirects discrete object]]
 [[!redirects discrete objects]]
+
+[[!redirects discrete]]
+[[!redirects discreteness]]
