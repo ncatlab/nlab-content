@@ -49,7 +49,7 @@ A discrete [[uniform space]] $X$ has all [[reflexive relations]] as [[entourages
 
 Strictly speaking, there is no discrete [[metric space]] on any set with more than one element, because the forgetful functor has no left adjoint.  However, there is a discrete *extended* metric space, given by $d(x,y) = \infty$ whenever $x \ne y$.  More usually, the term 'discrete metric' is used when $d(x,y) = 1$ for $x \ne y$, which is discrete in the category of metric spaces of diameter at most $1$.  (Comparing the [[adjoint functor theorem]], the problem with $Met$ is that it generally lacks infinitary [[product]]s; in contrast, $Ext Met$ and $Met_1$ are [[complete category|complete]].)
 
-In [[Abstract Stone Duality]], a space is called __discrete__ if $X \times X \to X$ is open, which corresponds to the existence of an [[equality]] relation on $X$; discrete spaces as described above correspond to discrete *overt* spaces in ASD.
+In [[Abstract Stone Duality]], a space is called __discrete__ if the diagonal map $\delta: X \to X \times X$ is open, which corresponds to the existence of an [[equality]] relation on $X$; discrete spaces as described above correspond to discrete *overt* spaces in ASD.
 
 ### Local toposes
 
