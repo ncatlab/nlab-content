@@ -121,6 +121,12 @@ In [[2-category theory]] one can consider the _[[michaelshulman:axiom of 2-choic
 
   Despite the title, this covers more than countable choice, but the focus is on sequential aspects (metric spaces, first- and second-countable spaces, etc).
 
+Reltion to [[cohomology]] is discussed in 
+
+* [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
+
+* [[Mike Shulman]], _Cohomology_ on the [[homotopy type theory]] blog [here](http://homotopytypetheory.org/2013/07/24/cohomology/)
+
 
 category: foundational axiom
 
