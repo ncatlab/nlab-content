@@ -45,7 +45,7 @@ Thus, "most naturally-occurring" cocomplete categories are in fact total.  Howev
 
 * [[Set]] is cototal (as well as total).
 
-* Any [[presheaf category]] of a [[small category]] is cototal (as well as total).
+* Any [[presheaf category]] of a [[small category]] is cototal (as well as total). Indeed, any [[Grothendieck topos]] is both cototal and total. 
 
 * Any [[totally distributive category]] is cototal (as well as total).
 
