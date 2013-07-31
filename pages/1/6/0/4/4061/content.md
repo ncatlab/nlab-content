@@ -18,11 +18,6 @@ The intention of this page is to list a wide choice of main books and comprehens
 {:toc}
 
 
-## Classical mechanics
-
-* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf))
-
-
 ## Classical mathematical physics
 
 Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
@@ -35,6 +30,15 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 * V. Vladimirov, _Equations of mathematical physics_, Moscow, Izdatel'stvo Nauka, (1976. 528 p. Russian;  English edition, Mir 198x); _Generalized functions in mathematical physics_, Moscow
 
+
+## Classical mechanics 
+
+* [[Vladimir Arnold]], *Mathematical methods of classical mechanics*, Springer (1989).
+
+* [[Michael Spivak]], *Physics for Mathematicians, Mechanics I*, xvi + 733 pages, Publish or Perish 2010 [contents](http://olivier.thill.perso.neuf.fr/books/bospphma.htm), [amazon](http://www.amazon.com/Physics-Mathematicians-Mechanics-Michael-Spivak/dp/0914098322); _Elementary mechanics from a mathematician's viewpoint_, [pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf)
+
+* R. Abraham, J. Marsden, _The Foundations of Mechanics_, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
+
 ## Mathematical introduction to quantum mechanics
 
 On [[quantum mechanics]]:
@@ -43,7 +47,9 @@ On [[quantum mechanics]]:
 
 * [[Leon A. Takhtajan]], *[[Quantum mechanics for mathematicians]]*, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
 
-## Geometry and symmetries in classical and QM, but not much QFT 
+## Geometry and symmetries in classical and QM, quantization (but no QFT) 
+
+In addition to the geometrically written titles under classical mechanics above, 
 
 * Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) [amazon](http://www.amazon.com/Geometrical-Methods-Mathematical-Physics-Bernard/dp/0521298873), [google](http://books.google.hr/books?id=HAPMB2e643kC&lpg=PP1&dq=schutz%20geometrical%20methods&pg=PP1#v=onepage&q&f=false)
 
@@ -51,11 +57,7 @@ On [[quantum mechanics]]:
 
 * [[Shlomo Sternberg]], *Group theory and physics*, Cambridge University Press 1994. 
 
-* [[Vladimir Arnold]], *Mathematical methods of classical mechanics*, Springer (1989).
-
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Symplectic techniques in physics*, Cambridge University Press (1990)
-
-* [[Michael Spivak]], *Physics for Mathematicians, Mechanics I*, xvi + 733 pages, Publish or Perish 2010 [contents](http://olivier.thill.perso.neuf.fr/books/bospphma.htm), [amazon](http://www.amazon.com/Physics-Mathematicians-Mechanics-Michael-Spivak/dp/0914098322)
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge Univ. Press
 
@@ -66,8 +68,6 @@ On [[quantum mechanics]]:
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
-
-* R. Abraham, J. Marsden, _The Foundations of Mechanics_, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
 
 ## Lorentzian geometry and general relativity
 
