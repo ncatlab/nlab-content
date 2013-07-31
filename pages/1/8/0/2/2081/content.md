@@ -21,7 +21,7 @@ A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topolog
 
 ## Properties
 
-Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small open subset, than $F$ is flabby. Given a continuous map $f:X\to Y$ and a flabby sheaf $F$ on $X$, the [[direct image]] sheaf $f_* F : V\mapsto F(f^{-1}V)$ is also flabby. Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is exact, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby. 
+Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small open subset, then $F$ is flabby. Given a continuous map $f:X\to Y$ and a flabby sheaf $F$ on $X$, the [[direct image]] sheaf $f_* F : V\mapsto F(f^{-1}V)$ is also flabby. Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is exact, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby. 
 
 
 ## Examples
