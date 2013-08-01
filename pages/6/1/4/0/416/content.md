@@ -49,7 +49,7 @@ $$
 Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **power** of an object $y\in C$ by an object $k\in V$ is an object $\pitchfork(k,y) \in C$ with a [[natural isomorphism]]
 
 $$
-  C(c_1, \pitchfork(v,c_2)) \cong V(v, C(c_1,c_2))
+  C(x, \pitchfork(v,y)) \cong V(v, C(x,y))
 $$
 
 where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the [[internal hom]] of $V$.
