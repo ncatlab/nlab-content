@@ -13,7 +13,7 @@ Ph.D. dissertation, University of Munich, 1997.
 
 * [[David Yetter]], [Categorical linear algebra---a setting for questions from physics and low-dimensional topology](http://math.ucr.edu/home/baez/yetter.pdf), Kansas State University preprint.
 
-Namely, they are semsimple $k$-linear [[abelian categories]] with finitely many simple objects.  We may also drop the finiteness condition here to define a class of 'infinite-dimensional' Kapranov--Voevodsky 2-vector spaces.  For further discussion and more references, see:
+Namely, they are semisimple $k$-linear [[abelian categories]] with finitely many simple objects.  We may also drop the finiteness condition here to define a class of 'infinite-dimensional' Kapranov--Voevodsky 2-vector spaces.  For further discussion and more references, see:
 
 * [[John Baez]], Aristide Baratin, Laurent Freidel and Derek Wise, Infinite-dimensional representations of 2-groups.  ([arXiv](http://arxiv.org/abs/0812.4969))
 
