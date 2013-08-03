@@ -67,6 +67,8 @@ is a pullback with $i$ monic, we have that $j$ and therefore $T(j)$ is monic.
 The canonical map $\phi: T(P) \to T(A) \times_{T(C)} T(B)$ is (regular) epic, but also monic, since the mono $T(j)$ factors through it. Thus $\phi$ is an isomorphism, which completes the proof. 
 =-- 
 
+A similar proof shows that weakly cartesian natural transformations are also taut. 
+
 As a result of this proposition, 
 
 * Any [[cartesian functor]] is (trivially) taut. 
@@ -77,7 +79,7 @@ As a result of this proposition,
 
 * The covariant power set monad, whose algebras are [[sup-lattices]], is taut. 
 
-* An [analytic endofunctor](/nlab/show/operad#analytic) induced by a [[species]] is taut. 
+* An [analytic endofunctor](/nlab/show/operad#analytic) induced by a [[species]] is taut. Furthermore, a morphism of species induces a weakly cartesian transformation between the corresponding analytic functors, thus _a fortiori_ a taut transformation. In particular, an analytic monad is taut. 
 
 As an exception, we have 
 
@@ -87,11 +89,11 @@ As an exception, we have
 
 * Paul Taylor has made tautness of $T$ a central assumption in his account of induction via [[well-founded coalgebras]] over $T$. See chapter VI of his [book](#Taylor). 
 
-* Tautness assumptions play a role in viewing relational $T$-algebras and related structures as generalized multicategories in the sense of [Cruttwell-Shulman](#CS). In the prototypical case of [[relational beta-modules]], there is a [[virtual double category]] of relations. A taut monad $T$ on $Set$ (such as the ultrafilter monad) induces a monad $\bar{T}$ on this virtual double category (that is, a monad in an appropriate 2-category of virtual double categories). From there, one can define a horizontal Kleisli construction which is another virtual double category $HKl(Rel, \bar{T})$, and a $\bar{T}$-multicategory in $Rel$ is by definition a monoid in $HKl(Rel, \bar{T})$. In the special case $T = \beta$, the ultrafilter monad, this concept recapitulates Barr's notion of relational $\beta$-module as synonym of "[[topological space]]". This can be generalized further by working with a virtual double category of "$V$-matrices" where $V$ is a completely distributive quantale ($Rel$ being the case $V = \mathbf{2}$). Again with $T$ a taut monad, one can define a virtual double category $HKl(V\text{-}Mat, \bar{T})$, where generalized multicategories were studied in a series of studies by Clementino, Hofmann, Tholen, Seal and others under the name "$(T, V)$-algebras". 
+* Tautness assumptions play a role in viewing relational $T$-algebras and related structures as generalized multicategories in the sense of [Cruttwell-Shulman](#CS). In the prototypical case of [[relational beta-modules]], there is a [[virtual double category]] of relations. A taut monad $T$ on $Set$ (such as the ultrafilter monad) induces a monad $\bar{T}$ on this virtual double category (that is, a monad in an appropriate 2-category of virtual double categories). From there, one can define a horizontal Kleisli construction which is another virtual double category $HKl(Rel, \bar{T})$, and a $\bar{T}$-multicategory in $Rel$ is by definition a monoid in $HKl(Rel, \bar{T})$. In the special case $T = \beta$, the ultrafilter monad, this concept recapitulates Barr's notion of relational $\beta$-module as synonym of "[[topological space]]". This can be generalized further by working with a virtual double category of "$V$-matrices" where $V$ is a completely distributive quantale ($Rel$ being the case $V = \mathbf{2}$). Again with $T$ a taut monad, one can define a virtual double category $HKl(V\text{-}Mat, \bar{T})$ and then define generalized multicategories as before. (These were studied in a series of articles by Clementino, Hofmann, Tholen, Seal and others under the name "$(T, V)$-algebras".) 
 
 ## References 
 
-* Paul Taylor, *Practical Foundations of Mathematics*, Cambridge University Press (1999). 
+* [[Paul Taylor]], *Practical Foundations of Mathematics*, Cambridge University Press (1999). 
 {#Taylor} 
 
 * [[Geoff Cruttwell]] and [[Michael Shulman]], _A unified framework for generalized multicategories_, [arxiv/0907.2460](http://arxiv.org/abs/0907.2460)
