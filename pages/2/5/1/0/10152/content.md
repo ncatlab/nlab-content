@@ -35,7 +35,7 @@ Let $\mathcal{M}$ be a [[copower|tensored]] $\mathcal{V}$-category. The **two-si
 $$\mathcal{M} (B_n (G, \mathbb{C}, F), M) \cong \int_{(c', c) : \mathbb{C}^{op} \otimes \mathbb{C}} \mathcal{V} (W_n (c', \mathbb{C}, c), \mathcal{M}(G c' \odot F c, M))$$
 that are natural in $n$ and $\mathcal{V}$-natural in $M$, where the integral sign on the right hand side denotes a $\mathcal{V}$-[[end]].
 
-Now suppose a [[cosimplicial object]] $\Delta^\bullet : \mathbf{\Delta} \to \mathcal{V}$ is given, so that we may define the [[geometric realisation]] of a simplicial object $X_\bullet$ in a $\mathcal{V}$-category as the [[weighted colimit]] $\left| X_\bullet \right| = \Delta^\bullet \star X_\bullet$. The **two-sided bar construction** of $F : \mathbb{C} \to \mathcal{M}$ weighted by $G : \mathbb{C}^{op} \to \mathcal{V}$ is then defined to be the geometric realisation of the two-sided simplicial bar construction:
+Now suppose a [[cosimplicial object]] $\Delta^\bullet : \mathbf{\Delta} \to \mathcal{V}$ is given, so that we may define the [[realisation]] of a simplicial object $X_\bullet$ in a $\mathcal{V}$-category as the [[weighted colimit]] $\left| X_\bullet \right| = \Delta^\bullet \star X_\bullet$. The **two-sided bar construction** of $F : \mathbb{C} \to \mathcal{M}$ weighted by $G : \mathbb{C}^{op} \to \mathcal{V}$ is then defined to be the geometric realisation of the two-sided simplicial bar construction:
 $$B (G, \mathbb{C}, F) = \left| B_\bullet (G, \mathbb{C}, F) \right|$$
 
 ## Properties
@@ -63,7 +63,7 @@ If $\mathcal{M}$ is also _cotensored_, then:
 +-- {: .num_prop}
 ###### Proposition
 
-Let $W (c', \mathbb{C}, c)$ be the geometric realisation of $W_\bullet (c', \mathbb{C}, c)$. If $\mathcal{M}$ is a cotensored $\mathcal{V}$-cocomplete $\mathcal{V}$-category, then there are isomorphisms
+Let $W (c', \mathbb{C}, c)$ be the realisation of $W_\bullet (c', \mathbb{C}, c)$. If $\mathcal{M}$ is a cotensored $\mathcal{V}$-cocomplete $\mathcal{V}$-category, then there are isomorphisms
 $$\mathcal{M} (B (G, \mathbb{C}, F), M) \cong \int_{(c', c) : \mathbb{C}^{op} \otimes \mathbb{C}} \mathcal{V} (W (c', \mathbb{C}, c), \mathcal{M} (G c' \odot F c, M))$$
 that are $\mathcal{V}$-natural in $M$.
 
@@ -92,7 +92,7 @@ Let $\mathcal{M}$ be a [[simplicial model category]] and let $\mathbb{C}$ be a s
 
 1. For each diagram $F : \mathbb{C} \to \mathcal{M}$, there is a [[weak equivalence]] $B (y c, \mathbb{C}, F) \to F c$ that is natural in $F$ and $c$.
 2. The functor $colim : [\mathbb{C}, \mathcal{M}] \to \mathcal{M}$ preserves weak equivalences between diagrams of the form $B (\mathbb{C}, \mathbb{C}, F)$ where $F$ is a diagram such that each $F c$ is a cofibrant object in $\mathcal{M}$.
-3. The functor $B (1, \mathbb{C}, -) : [\mathbb{C}, \mathcal{M}] \to \mathcal{M}$ is a left [[derived functor]] for $colim : [\mathbb{C}, \mathcal{M}] \to \mathcal{M}$, i.e. it computes [[homotopy colimit|homotopy colimits]].
+3. The functor $B (1, \mathbb{C}, Q -) : [\mathbb{C}, \mathcal{M}] \to \mathcal{M}$, where $Q : \mathcal{M} \to \mathcal{M}$ is a cofibrant replacement functor, is a left [[derived functor]] for $colim : [\mathbb{C}, \mathcal{M}] \to \mathcal{M}$, i.e. it computes [[homotopy colimit|homotopy colimits]].
 
 =--
 
