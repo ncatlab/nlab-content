@@ -91,6 +91,7 @@ $$
 $$
 
 ### Exceptional isomorphisms
+ {#ExceptionalIsomorphisms}
 
 In low dimensions the spin group happens to be [[isomorphism|isomorphic]] ("sporadic isomorphisms") to various other classical group (among them the [[general linear group]] $GL(p,V)$ for $V$ the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$ and the [[quaternions]] $\mathbb{Q}$, the [[orthogonal group]] $O(p,q)$, the [[unitary group]] $U(p,q)$ and the [[symplectic group]] $Sp(p,q)$).
 
