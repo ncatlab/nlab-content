@@ -172,3 +172,8 @@ A discussion of quantization by cohomological quantization of [[higher prequantu
 * [[Joost Nuiten]], Master thesis, 2013
  {#Nuiten13}
 
+Some discussion of quantization in terms of [[Bohr toposes]] is in 
+
+* Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
+
+
