@@ -835,8 +835,11 @@ One checks that this is indeed the correct prequantization as considered in ([Wi
 
 ## Theorems
 
-
 * [[Borel-Weil-Bott theorem]]
+
+## Examples
+
+* [[geometric quantization of the 2-sphere]]
 
 ## References
  {#References}
@@ -849,7 +852,7 @@ Introductions and survey include
 
 * [[David Vogan]], _Geometry and representations of reductive gorups_ (2007) ([pdf](http://www-math.mit.edu/~dav/rittC.pdf))
 
-* J. Maes, _An introduction to the orbit method_ Master thesis (2011) ([web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
+* J. Maes, _An introduction to the orbit method_ Master thesis (2011) ([pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
 
 * Craig Jackson, _Symplectic manifolds, geometric quantization, and unitary representations of Lie groups_ ([pdf](http://go.owu.edu/~chjackso/Papers/topic.pdf))
 
