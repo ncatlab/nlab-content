@@ -1,0 +1,7 @@
+
+## Definition
+
+Given a [[linear map|linear]] [[endomorphism]], an _eigenvector_ of it is a [[vector]] which is taken by the linear map to a multiple of itself. This multiple is called the _[[eigenvalue]]_ of the eigenvector.
+
+
+[[!redirects eigenvectors]]
