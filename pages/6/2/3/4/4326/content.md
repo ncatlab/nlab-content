@@ -67,6 +67,21 @@ The underlying [[manifold]] of $SU(2)$ is [[diffeomorphism|diffeomorphic]] to th
 +-- {: .num_prop}
 ###### Proposition
 
+There is an [[isomorphism]] of [[Lie groups]]
+
+$$
+  SU(2) \simeq Spin(3)
+$$
+
+with the [[spin group]] in [[dimension]] 3.
+
+=--
+
+See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms)_.
+
++-- {: .num_prop}
+###### Proposition
+
 The [[Lie algebra]] $\mathfrak{su}(2)$ as a [[matrix Lie algebra]] is the sub Lie algebra on those matrices of the form
 
 $$
@@ -187,9 +202,28 @@ These are _regular_ coadjoint orbits for $r \gt 0$.
 
 =--
 
+### $SU(4)$
+ {#SU4}
+
++-- {: .num_prop}
+###### Proposition
+
+There is an [[isomorphism]] of [[Lie groups]]
+
+$$
+  SU(4) \simeq Spin(6)
+$$
+
+with the [[spin group]] in [[dimension]] 6.
+
+=--
+
+See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms)_.
 
 
 ## Related concepts
+
+For $SU(2)$:
 
 * [[quaternion]]
 
