@@ -155,14 +155,14 @@ $$
 
 Equipped with this [[Riemannian metric]] for $k \in (0,\infty)$ and with the [[complex manifold]] structure of def. \ref{RiemannSphere} the 2-sphere is a [[Kähler manifold]] with 
 
-* [[Kähler potential]] 
+* [[Kähler potential]] on $U_\pm$ given by
 
   $$
-    K_k(z,\overline{z}) = - k log(1 + {\vert z^2\vert})
+    K_k(z_\pm,\overline{z}_\pm) = - k ln(1 + {\vert z_\pm^2\vert})
     \,.
   $$
 
-* [[Kähler form]] 
+* [[Kähler form]] on $U_\pm$ given by
  
   $$
    \begin{aligned}\omega_k & = \partial \overline{\partial} K_k \\  & = \frac{k}{(1 + {\vert z\vert}^2)^2}
@@ -258,10 +258,10 @@ And so it follows that there is a unique spin structure, namely given by choosin
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #LocalSymplecticPotential}
 ###### Definition
 
-By prop. \ref{KaehlerStructure} we can take the symplectic potential to be
+By prop. \ref{KaehlerStructure} we can take the symplectic potential on $U_\pm$ to be
 
 $$
   \begin{aligned}
@@ -269,10 +269,24 @@ $$
      & \coloneqq
     \overline{\partial}K
     \\
-    & = k \frac{z_\pm \, d \overline{z}_{\pm}}{1 + {\vert z_\pm\vert}^2}
+    & = k \frac{z_\pm  }{1 + {\vert z_\pm\vert}^2} 
+        d \overline{z}_{\pm}
   \end{aligned}
   \,.
 $$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[complex line bundle]] given by the [[clutching construction]] by the transition function $z^k$ becomes a [[connection on a bundle|bundle with connection]] with the local connection form given by the potentials of def. \ref{LocalSymplecticPotential}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
 
 =--
 
