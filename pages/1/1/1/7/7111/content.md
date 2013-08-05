@@ -181,6 +181,12 @@ Relation to [[integration]] theory
 Aspects of the [[homotopy theory]]/[[étale homotopy]] of analytic spaces are discussed in 
 
 * [[Aise Johan de Jong]], _&#201;tale fundamental groups of non-archimedean analytic spaces_, Mathematica, 97 no. 1-2 (1995), p. 89-118  ([numdam](http://www.numdam.org/item?id=CM_1995__97_1-2_89_0))
+
+Relation to [[formal schemes]]: 
+
+* J&#233;r&#244;me Poineau, [MO comment](http://mathoverflow.net/a/138577/381)
+
+
 [[!redirects Berkovich analytic space]]
 [[!redirects Berkovich analytic spaces]]
 [[!redirects Berkovich spaces]]
