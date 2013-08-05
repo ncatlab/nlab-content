@@ -38,6 +38,8 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[operator algebra]]
 
+* [[eigenvector]], [[eigenvalue]]
+
 
 [[!redirects linear map]]
 [[!redirects linear maps]]
