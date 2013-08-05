@@ -28,7 +28,7 @@ As an [[infinity-functor]] $\Sigma^\infty\colon Top_* \to Spec$ the suspension s
 
 $$
   (\Sigma^\infty \dashv \Omega^\infty)\colon 
-  Top_* \stackrel{\overset{\Sigma^\infty}{\leftarrow}}{\underset{\Sigma^\infty}{\to}}
+  Top_* \stackrel{\overset{\Omega^\infty}{\leftarrow}}{\underset{\Sigma^\infty}{\to}}
   Spec
 $$
 
