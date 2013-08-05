@@ -148,6 +148,8 @@ in positive degree.
 
 * **Poincar&#233; lemma**
 
+  * [[Kähler potential]]
+
 * [[Stokes theorem]]
 
 * [[de Rham theorem]]
