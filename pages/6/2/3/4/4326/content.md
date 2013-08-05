@@ -24,6 +24,7 @@ More generally, for $V$ any complex [[vector space]] equipped with a nondegenera
 ## Examples
 
 ### $SU(2)$
+ {#SU2}
 
 We discuss aspects of the special unitary group for $n = 2$, hence
 
