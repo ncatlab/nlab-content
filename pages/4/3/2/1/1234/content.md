@@ -97,19 +97,25 @@ _[[numerical motives]]_.
 ## Related concepts
 
 * [[motive]]
+
 * [[mixed motive]]
+
 * [[Voevodsky motive]]
-* [[noncommuative motive]]
 
-##References##
+* [[noncommutative motive]]
 
-*  James S. Milne, [Motives -- Grothendieck's Dream](http://www.jmilne.org/math/xnotes/MOT.pdf)
+## References 
 
-*  Mihnyong Kim, [Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)
+* [[Yuri Manin]], _Correspondences, motifs and monoidal transformations_ , Math. USSR Sb. 6 439, 1968([pdf](http://resources.agssp2012.torsor.org/documents/manin.pdf), [web](http://iopscience.iop.org/0025-5734/6/4/A01))
 
-* Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+*  [[James Milne]], _Motives -- Grothendieck's Dream_ ([pdf](http://www.jmilne.org/math/xnotes/MOT.pdf))
 
-* Sujatha, _Motives from a categorical point of view_.  Lecture notes (2008).  [url](http://www.math.tifr.res.in/~sujatha/ihes.pdf)
+*  [[Minhyong Kim]], _Classical Motives: Motivic $L$-functions_ ([pdf](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf))
+
+* [[Bruno Kahn]], [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+
+* Sujatha, _Motives from a categorical point of view_.  Lecture notes (2008). [url](http://www.math.tifr.res.in/~sujatha/ihes.pdf)
+
 
 category: algebraic geometry
 
