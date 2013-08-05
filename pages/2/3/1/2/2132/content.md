@@ -114,6 +114,8 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 * **K&#228;hler manifold**, [[hyper-Kähler manifold]], [[quaternionic Kähler manifold]]
 
+  * [[Kähler potential]]
+
 * [[Kähler-Einstein manifold]]
 
 * [[symplectic manifold]]
