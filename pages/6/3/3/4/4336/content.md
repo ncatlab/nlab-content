@@ -13,6 +13,8 @@ Often one uses the term in a context where one can add and multiply matrices usi
 
 * [[matrix multiplication]], [[matrix calculus]]
 
+* [[matrix group]], [[matrix Lie group]]
+
 * [[unitary matrix]]. [[unitary group]]
 
 * [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
