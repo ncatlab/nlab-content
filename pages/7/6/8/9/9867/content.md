@@ -35,22 +35,22 @@ $\,$
 Let $E$ be an [[E-∞ ring]], write $GL_1(E)$ for its [[∞-group of units]]. With $\mathbf{H}$ the ambient [[(∞,1)-topos]], write $\mathbf{H}_{/\mathbf{B}GL_1(E)}$ for the [[slice (∞,1)-topos]] over the [[delooping]] of this [[abelian ∞-group]]. This is the [[(∞,1)-category]] of [[spaces]] equipped with [[(∞,1)-module bundle|(∞,1)-line bundles]] over $E$. Consider an [[(∞,1)-functor]] 
 
 $$
-  \Gamma \;\colon \; \mathbf{H}_{/\mathbf{B}GL_1(E)} \to E Mod
+  \Gamma^\ast \;\colon \; \mathbf{H}_{/\mathbf{B}GL_1(E)} \to E Mod
 $$
 
 to the [[(∞,1)-category of (∞,1)-modules]] over $E$, which form $E$-modules of co-sections of $E$-[[(∞,1)-module bundles]] (generalized [[Thom spectra]]). 
 
-This is well understood for $\mathbf{H} = $ [[∞Grpd]] in which case $\Gamma \simeq \underset{\to}{\lim}$ is the [[homotopy colimit]] [[(∞,1)-functor]]. But one can consider similar constructions $\Gamma$ for more general ambient [[(∞,1)-toposes]] $\mathbf{H}$.
+This is well understood for $\mathbf{H} = $ [[∞Grpd]] in which case $\Gamma \simeq \underset{\to}{\lim} \circ i$ is the [[(∞,1)-functor]] [[homotopy colimits]] in $E Mod$ under the canonical embedding $\mathbf{B} GL_1(E) \simeq E Line \hookrightarrow E Mod$. But one can consider similar constructions $\Gamma$ for more general ambient [[(∞,1)-toposes]] $\mathbf{H}$.
 
 +-- {: .num_defn #BivariantCohomologyByHomsOfCoSections}
-###### Defintiion
+###### Definition
 
 For $\chi_i \colon X_i \to \mathbf{B}GL_1(E)$ two [[objects]] of $\mathbf{H}_{/\mathbf{B}GL_1(E)}$, the _$(\chi_1,\chi_2)$-[[twisted cohomology|twisted]] bivariant $E$-[[cohomology theory|cohomology]]_ on $(X_1,X_2)$ is 
 
 $$
   E^{\bullet + \chi_2 - \chi_1}(X_1,X_2)
   \;\coloneqq\;
-  Hom_{E Mod}\left(\Gamma_{X_1}\left(\chi_1\right), \Gamma_{X_2}\left(\chi_2\right)\right)
+  Hom_{E Mod}\left(\Gamma^\ast_{X_1}\left(\chi_1\right), \Gamma^\ast_{X_2}\left(\chi_2\right)\right)
   \in 
   E Mod
   \,.
@@ -82,7 +82,7 @@ By the general discussion at [[twisted cohomology]], following ([ABG, def. 5.1](
 +-- {: .num_example}
 ###### Example
 
-[[KK-theory]] is a model for bivariant twisted [[topological K-theory]] over [[differentiable stacks]] (hence 1-truncated suitably representable objects in $\mathbf{H} = $ [[Smooth∞Grpd]], see [Tu-Xu-LG 03](#TuXuLG03)). According to ([Joachim-Stolz 09, around p. 4](#JoachimStolz09)) the category $KK$ first of all is naturally an [[enriched category]] $\mathbb{KK}$ of the category $\mathcal{S}$ of [[symmetric spectra]]  and as such comes with a symmetric monoidal enriched functor
+[[KK-theory]] is a model for bivariant twisted [[topological K-theory]] over [[differentiable stacks]] (hence 1-truncated suitably representable objects in $\mathbf{H} = $ [[Smooth∞Grpd]], see [Tu-Xu-LG 03](#TuXuLG03)). According to ([Joachim-Stolz 09, around p. 4](#JoachimStolz09)) the category $KK$ first of all is naturally an [[enriched category]] $\mathbb{KK}$ over the category $\mathcal{S}$ of [[symmetric spectra]]  and as such comes with a symmetric [[monoidal functor|monoidal]] [[enriched functor]]
 
 $$
   \mathbb{KK} \to KU Mod
@@ -100,7 +100,7 @@ This sends an object to its [[operator K-theory]] spectrum, hence to the $E$-[[d
 Generally, one may want to consider in def. \ref{BivariantCohomologyByHomsOfCoSections} the dualized co-section functor
 
 $$
-  \Gamma^\ast = [\Gamma(-), E] \;\colon\; \left(\mathbf{H}_{/\mathbf{B}GL_1(E)}\right)^{op} \to E Mod
+  \Gamma = [\Gamma^\ast(-), E] \;\colon\; \left(\mathbf{H}_{/\mathbf{B}GL_1(E)}\right)^{op} \to E Mod
   \,.
 $$
 
@@ -125,25 +125,25 @@ $$
   }
 $$
 
-is a morphism of "twisted $E$-[[pure motive|motives]]" in that it is a [[correspondence]] in $\mathbf{H}$ between the [[spaces]] $X_1$ and $X_2$ equipped with an $(i_1^\ast \chi_1, i_2^\ast \chi_2)$-twisted bivariant $E$-cohomology class on the correspondence space $Q$. Under the co-sections / [[Thom spectrum]] functor this is sent to a [[correspondence]]
+is a morphism of "twisted $E$-[[pure motive|motives]]" in that it is a [[correspondence]] in $\mathbf{H}$ between the [[spaces]] $X_1$ and $X_2$ equipped with an $(i_1^\ast \chi_1, i_2^\ast \chi_2)$-twisted bivariant $E$-cohomology [[cocycle]] $\xi$ on the correspondence space $Q$. Under the co-sections / [[Thom spectrum]] functor this is sent to a [[correspondence]]
 
 $$
-  \Gamma^\ast_{X_1}(\chi_1)
+  \Gamma_{X_1}(\chi_1)
   \stackrel{\xi}{\rightarrow}
-  \Gamma^\ast_Q(i_2^\ast \chi_2)
+  \Gamma_Q(i_2^\ast \chi_2)
   \stackrel{i_2^\ast}{\leftarrow}
-  \Gamma^\ast_{X_2}(\chi_2)
+  \Gamma_{X_2}(\chi_2)
 $$
 
 in $E Mod$. If the wrong-way map of this is [[orientation in generalized cohomology|orientable]] in $E$-cohomology then we may form its [[dual morphism]]/[[Umkehr map]] to obtain the corresponding "[[index]]"
 
 $$
-  \Gamma^\ast_{X_1}(\chi_1)
+  \Gamma_{X_1}(\chi_1)
    \stackrel{(i_2)_! \xi}{\to}
-  \Gamma^\ast_{X_2}(\chi_2)
+  \Gamma_{X_2}(\chi_2)
 $$
 
-in $E Mod$. Identifying correspondences that yield the same "[[index]]" this way yields a presentation of bivariant cohomology by [[motive]]-like structures. 
+in $E Mod$. Identifying correspondences that yield the same "[[index]]" this way yields a presentation of bivariant cohomology by [[pure motive|motive]]-like structures. 
 This is how (equivariant) [[bivariant K-theory]] is presented, at least over manifolds, see at _[KK-theory -- References -- In terms of correspondences](KK-theory#ReferencesInTermsOfCorrespondences)_.
 
 =--
