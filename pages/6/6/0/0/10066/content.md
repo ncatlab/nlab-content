@@ -74,7 +74,7 @@ The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the
 
 ## Related concepts
 
-* [[Baum-Connes conjecture]], [[Green-Julg theorem]]
+* [[Baum-Connes conjecture]], [[Green-Julg theorem]], [[Atiyah-Segal completion theorem]]
 
 ## References
  {#References}
