@@ -53,6 +53,9 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * In [[physics]], [[gauge field]]s may be described in terms of [[connection on a bundle|bundles with connection]].
 
+## Related concepts
+
+* [[equivariant bundle]]
 
 ## References
 
