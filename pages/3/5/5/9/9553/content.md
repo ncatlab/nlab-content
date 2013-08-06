@@ -85,6 +85,9 @@ Let $G$ be a [[topological group]] acting on a [[C*-algebra]] $A$.
 
 This goes back to ([Green 82](#Green82)), ([Julg 81](#Julg81)). A [[KK-theory]]-proof is in ([Echterhoff, theorem 0.2](#Echterhoff)); a textbook account is in ([Blackadar, 11.7, 20.2.7](#Blackadar)). See also around ([Land 13, prop. 41](#Land13)).
 
+## Related theorems
+
+* [[Atiyah-Segal completion theorem]]
 
 ## References
 
