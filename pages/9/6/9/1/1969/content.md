@@ -564,3 +564,5 @@ and section 3.6.2 of
 [[!redirects (∞,1)-hom (∞,1)-functor)]]
 
 [[!redirects (∞,1)-categorical hom]]
+
+[[!redirects (∞,1)-categorical hom-spaces]]
