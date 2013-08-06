@@ -177,6 +177,7 @@ For the moment see _[[twisted cohomology]]_ for more on this.
 
 
 ### Sections and twisted cohomology
+ {#SectionsAndTwistedCohomology}
 
 
 +-- {: .num_defn}
@@ -366,4 +367,8 @@ Lecture notes on these articles are in
 [[!redirects (infinity,1)-vector space]]
 [[!redirects (infinity,1)-vector spaces]]
 
+[[!redirects (∞,1)-line bundle]]
+[[!redirects (∞,1)-line bundles]]
+[[!redirects (infinity,1)-line bundle]]
+[[!redirects (infinity,1)-line bundles]]
 
