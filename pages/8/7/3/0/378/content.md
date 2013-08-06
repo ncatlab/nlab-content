@@ -83,7 +83,7 @@ $sSet_{Quillen}$ is a [[cofibrantly generated model category]] with
 
 * generating cofibrations the [[boundary]] inclusions $\partial \Delta[n] \to \Delta[n]$;
 
-* generatic acyclic cofibrations the [[horn]] inclusions $\Lambda^i[n] \to \Delta[n]$.
+* generating acyclic cofibrations the [[horn]] inclusions $\Lambda^i[n] \to \Delta[n]$.
 
 =--
 
@@ -107,6 +107,52 @@ constitutes a [[Quillen equivalence]] with the standard [[model structure on top
 =--
 
 For more on this see [[homotopy hypothesis]].
+
+### Characterisations of weak homotopy equivalences
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $W$ be the smallest class of morphisms in $sSet$ satisfying the following conditions:
+
+1. The class of monomorphisms that are in $W$ is closed under [[pushout]], [[transfinite composition]], and [[retracts]].
+2. $W$ has the [[two-out-of-three]] property in $sSet$ and contains all the [[isomorphisms]].
+3. For all natural numbers $n$, the unique morphism $\Delta [n] \to \Delta [0]$ is in $W$.
+
+Then $W$ is the class of weak homotopy equivalences.
+=--
+
++-- {: .proof}
+###### Proof
+
+* First, notice that the horn inclusions $\Lambda^0 [1] \hookrightarrow \Delta [1]$ and $\Lambda^1 [1] \hookrightarrow \Delta [1]$ are in $W$.
+* Suppose that the horn inclusion $\Lambda^k [m] \hookrightarrow \Delta [m]$ is in $W$ for all $m \lt n$ and all $0 \le k \le m$. Then for $0 \le l \le n$, the horn inclusion $\Lambda^l [n] \hookrightarrow \Delta [n]$ is also in $W$.
+* Quillen's [[small object argument]] then implies all the trivial cofibrations are in $W$.
+* If $p : X \to Y$ is a trivial Kan fibration, then its right lifting property implies there is a morphism $s : Y \to X$ such that $p \circ s = id_Y$, and the two-out-of-three property implies $s : Y \to X$ is a trivial cofibration. Thus every trivial Kan fibration is also in $W$.
+* Every weak homotopy equivalence factors as $p \circ i$ where $p$ is a trivial Kan fibration and $i$ is a trivial cofibration, so every weak homotopy equivalence is indeed in $W$.
+* Finally, noting that the class of weak homotopy equivalences satisfies the conditions in the theorem, we deduce that it is the _smallest_ such class.
+
+=--
+
+As a corollary, we deduce that the classical model structure on $sSet$ is the smallest (in terms of weak equivalences) model structure for which the cofibrations are the monomorphisms and the weak equivalences include the (combinatorial) homotopy equivalences.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\pi_0 : sSet \to Set$ be the connected components functor, i.e. the left adjoint of the functor $(-)_0 : sSet \to Set$. A morphism $f : Z \to W$ in $sSet$ is a weak homotopy equivalence if and only if the induced map
+$$\pi_0 K^f : \pi_0 K^W \to \pi_0 K^Z$$
+is a bijection for all _Kan complexes_ $K$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One direction is easy: if $K$ is a Kan complex, then axiom SM7 for [[simplicial model categories]] implies  the functor $K^{(-)} : sSet^{op} \to sSet$ is a right [[Quillen functor]], so Ken Brown's lemma implies it preserves all weak homotopy equivalences; in particular, $\pi_0 K^{(-)} : sSet^{op} \to Set$ sends weak homotopy equivalences to bijections.
+
+Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi_0 K^X$ and the hom-set $Ho (sSet) (X, K)$, and thus by the [[Yoneda lemma]], a morphism $f : Z \to W$ such that the induced morphism $\pi_0 K^W \to \pi_0 K^Z$ is a bijection for all Kan complexes $K$ is precisely a morphism that becomes an isomorphism in $Ho (sSet)$, i.e. a weak homotopy equivalence.
+
+=--
 
 ### Relation to the model structure on strict $\infty$-groupoids 
 
