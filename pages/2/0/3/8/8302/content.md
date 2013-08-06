@@ -213,7 +213,11 @@ Under the identifications of prop. \ref{DoldKan} and prop. \ref{SectionsOfTrivia
 
 =--
 
+See also at _[[Dold-Thom theorem]]_.
+
 ## Related concepts
+
+* [[Dold-Thom theorem]]
 
 * [[ordinary cohomology]]
 
