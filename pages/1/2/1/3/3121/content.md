@@ -123,3 +123,6 @@ has a [[left adjoint]]
 Section 1.4 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+
+[[!redirects stabilizations]]
