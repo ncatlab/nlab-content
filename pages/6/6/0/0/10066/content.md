@@ -15,9 +15,10 @@
 
 ## Idea
 
-The [[equivariant cohomology]] version of the [[generalized cohomology theory]] [[K-theory]]
+_Equivariant K-theory_ is the [[equivariant cohomology]] version of the [[generalized cohomology theory]] [[K-theory]]. 
 
-e.g. _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
+To the extent that [[K-theory]] is given by [[equivalence classes]] of [[virtual vector bundles]] ([[topological K-theory]], [[operator K-theory]]), equivariant K-theory is given by equivalence classes of virtual [[equivariant bundles]] or generalizations to [[noncommutative topology]] thereof, as in _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
+
 
 ## Properties
 
