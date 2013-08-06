@@ -92,6 +92,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
   * [[induced representation]]
   
+  * [[virtual representation]]
+
   * [[2-representation]]
 
   * [[star-representation]]
