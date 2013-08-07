@@ -83,13 +83,28 @@ and then we discuss a list of examples in
 ## General theory
  {#GeneralTheory}
 
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]]. Write $(\Pi \dashv \flat \dashv \sharp)$ for the corresponding [[shape modality]], [[flat modality]], [[sharp modality]], respectively.
+
+Write
+
+* $Grp(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]] objects in $\mathbf{H}$;
+
+* $Sp(\mathbf{H})$ for the [[stable (∞,1)-category]] of [[spectrum objects]] in $\mathbf{H}$;
+
+* $CRing(\mathbf{H}) \coloneqq E_\infty Alg(Sp(\mathbf{H}))$ for the [[(∞,1)-category]] of [[E-∞ ring]] objects in $\mathbf{H}$;
+
+* $E Mod(\mathbf{H})$ for the [[symmetric monoidal (∞,1)-category]] of $E$-[[∞-modules]] in $\mathbf{H}$.
+
+(...)
+
+
 
 ## Examples
  {#Examples}
 
 (...)
 
-### The Poisson manifold at the boundary of the non-perturvative Poisson $\sigma$-model (2d Chern-Simons)
+### The Poisson manifold at the boundary of the non-perturvative Poisson $\sigma$-model (2d Chern-Simons theory)
 
 (...)
 
