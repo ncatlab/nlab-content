@@ -6,7 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-* [pdf](http://resources.agssp2012.torsor.org/documents/manin.pdf)
+* [pdf](http://www.math.uni-bielefeld.de/~ambrogio/new_CV.pdf)
 
      $x \colon A$
 
