@@ -36,6 +36,7 @@ It also appears as the notion of _[[basic localizers]]_ on [[Cat]].
 
 * [[localizing subcategory]]
 
+* [[modelizer]]
 
 [[!redirects localizers]]
 
