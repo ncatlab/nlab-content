@@ -23,12 +23,14 @@
 
 There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic.  Most, if not all, of these notions of cohomology are special cases of --- and in many instances special concrete _models_ for --- the following general idea:
 
-Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **(degree-0) cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[derived hom-space|hom ∞-groupoid]], hence of [[homotopy classes]] of [[morphisms]] from $X$ to $A$ in $\mathbf{H}$:
+Cohomology is something associated to a given [[(∞,1)-category]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **(degree-0) cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[derived hom-space|hom ∞-groupoid]], hence of [[homotopy classes]] of [[morphisms]] from $X$ to $A$ in $\mathbf{H}$:
 
 $$
   H(X;A) = H^0(X;A) \coloneqq \pi_0 \mathbf{H}(X,A)
   \,.
 $$
+
+The (∞,1)-category $\mathbf{H}$ is usually an [[(∞,1)-topos]], where the notion of cohomology is [particularly well-behaved](#ToposTheory). However, it is not uncommon to consider cohomology in other contexts, such as in [[stable (∞,1)-categories]].
 
 More generally, if $A$ is equipped with an $n$-fold [[delooping]] $A_n$, then the **degree-$n$ cohomology** of $X$ with coefficients in $A$ is its degree-0 cohomology with coefficients in $A_n$:
 
@@ -58,7 +60,7 @@ gives the general formal definition and discusses general properties of and cons
 
 describes additional [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , [[cohomology group]]- and ring-structures -- and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
 
-The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _[[twisted cohomology]]_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
+The general definition of cohomology in terms of mapping spaces in an [[(∞,1)-category]] also encompasses notions that can be considered _variants_ of "honest" cohomology, notably that of _[[twisted cohomology]]_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
 
 * [Variants](#Variants)
 
@@ -69,7 +71,7 @@ before the next main section
 then starts going through concrete examples in detail. The reader uneasy with the abstract generality of our perspective is advised to skip ahead to this section and find from a long list of examples discussed his or her favorite 
 traditional notion of cohomology and how it fits into the general structure. 
 
-Finally we discuss _why_ the notion of cohomology is related to that of [[(∞,1)-toposes]] in 
+Finally we discuss why [[(∞,1)-toposes]] are a particularly nice environment for cohomology in
 
 * [Relation to (∞,1)-topos theory](#ToposTheory) .
 
@@ -123,13 +125,11 @@ Conceptually, with [[higher topos theory]] in hand, there is no problem in gener
 
 Various other notions of cohomology are special cases of this. For instance [[group cohomology]] is nothing but the cohomology in $\mathbf{H} = $ [[∞Grpd]] on objects $X = \mathbf{B}G$ that are [[delooping]]s of [[group]]s. What is called [[nonabelian group cohomology]] is nothing but the general case of this where there is no restriction on the coefficient object $A$. Here we can once again replace $\infty Grpd$ -- which is the $(\infty,1)$-topos of $\infty$-stacks on the point -- by a more general $\infty$-stack $(\infty,1)$-topos. For instance if we take the underlying [[site]] to be [[Diff]], the category of smooth [[manifold]]s, then the objects of $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ are [[Lie ∞-groupoid]]s. Their cohomology is generalized group cohomology that knows about smooth structure: _smooth group cohomology_ . In this context for instance one can give cohomological interpretations of smooth realizations of the [[string 2-group]] or the [[fivebrane 6-group]].
 
-Conversely, given an unconstrained (unstable) [[(∞,1)-topos]] $\mathbf{H}$ with its general notion of [[nonabelian cohomology]], one can systematically find its [[stable (∞,1)-category|stable]] or _abelian_ content by considering objects that are components of [[spectrum object]]s in $\mathbf{H}$. These form the [[stabilization]] of $\mathbf{H}$ to a [[stable (∞,1)-category]]. 
+Conversely, given an unconstrained (unstable) [[(∞,1)-category]] $\mathbf{H}$ with its general notion of [[nonabelian cohomology]], one can systematically find its [[stable (∞,1)-category|stable]] or _abelian_ content by considering objects that are components of [[spectrum object]]s in $\mathbf{H}$. These form the [[stabilization]] of $\mathbf{H}$ to a [[stable (∞,1)-category]].
 
-An example of this is [[motivic cohomology]] and motivic [[homotopy]]: this is the cohomology given by [[derived hom space|(∞,1)-categorical hom spaces]] in the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]]: motivic cohomology proper is that where the coefficient objects happen to be components of [[spectrum object]]s and [[A1-homotopy theory|A1-homotopy invariant]]. For instance the [[Chow group]]s are precisely the cohomology in this sense with coefficients in the [[Eilenberg-MacLane object]]s of this [[(∞,1)-topos]]. From this perspective, hom-spaces into more general objects in this $(\infty,1)$-topos could be called _nonabelian motivic cohomology_ . 
+In [[stable homotopy theory]] one further considers the cohomology of spectrum objects themselves, which is an example of the notion of cohomology being used in an [[(∞,1)-category]] which is not an [[(∞,1)-topos]]. Another example is the continuous cohomology of [[pro-spaces]] or more generally of [[pro-objects]] in an (∞,1)-topos, which is important in [[shape theory]].
 
-A noteworthy example for the restriction to homotopy invariant objects in an $(\infty,1)$-topos, hence to its [[homotopy localization]], is the internal cohomology of the $(\infty,1)$-topos of $\infty$-stacks on the [[site]] [[Top]] (topological $\infty$-stacks): when restricted to homotopy local objects this turns out to be just the ordinary cohomology in [[Top]]. This is described in more detail at [[topological ∞-groupoid]].
-
-There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-topos]]es: by looking at [[homotopy fiber]]s of such  [[derived hom space|(∞,1)-categorical hom-spaces]] instead, one finds [[twisted cohomology]]. The most prominent example is [[twisted K-theory]]: in degree 0 this is the study of the homotopy fiber of the morphism of $(\infty,1)$-categorical hom-space $Top(-,\mathcal{B}PU(n)) \to Top(-,\mathcal{B}^2 U(1))$ that sends a projective [[unitary group|unitary]] [[principal bundle]] (hence its [[associated bundle|associated]] [[vector bundle]]) to the [[lifting gerbe]] for the lift of its structure group to the full [[unitary group]].
+There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-categories]]: by looking at [[homotopy fiber]]s of such  [[derived hom space|(∞,1)-categorical hom-spaces]] instead, one finds [[twisted cohomology]]. It can also be seen as a special case of the general definition by looking at [[slice (∞,1)-categories]]. The most prominent example is [[twisted K-theory]]: in degree 0 this is the study of the homotopy fiber of the morphism of $(\infty,1)$-categorical hom-space $Top(-,\mathcal{B}PU(n)) \to Top(-,\mathcal{B}^2 U(1))$ that sends a projective [[unitary group|unitary]] [[principal bundle]] (hence its [[associated bundle|associated]] [[vector bundle]]) to the [[lifting gerbe]] for the lift of its structure group to the full [[unitary group]].
 
 Another example of [[twisted cohomology]] is [[differential cohomology]]: differential cohomology refinements of abelian [[generalized (Eilenberg-Steenrod) cohomology]] theories with coefficient objects a [[spectrum]] $E$ is the study of the [[homotopy fiber]]s of the [[Chern character]] map $ch : \mathbf{H}(X,E) \to \Omega^\bullet_{dR}(X)\otimes \pi_\bullet(E)$ from $E$-cohomology to [[deRham cohomology]]. 
 This classifies (abelian versions of) [[connection on a bundle|connections]] on the underlying bundles, for instance [[Simons-Sullivan structured bundle]]s (vector bundles with connection).
@@ -144,7 +144,7 @@ We give now the very general definition of cohomology and describe very general 
 
 ### General definition
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ we have the [[derived hom space|(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$ -- an [[∞-groupoid]]. For $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, its set of connected components is $\pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)$.
+Given an [[(∞,1)-category]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ we have the [[derived hom space|(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$ -- an [[∞-groupoid]]. For $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, its set of connected components is $\pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)$.
 
 * The [[objects]] $ (c : X \to A) \in \mathbf{H}(X,A)$ are 
   called **[[cocycle]]s** on $X$ with coefficients in $A$;
@@ -185,7 +185,7 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 For $g : X \to A$ a cocycle, one says that its [[homotopy fiber]] $P \to X$ is the object **classified by the cohomology class*.
 
-Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[groupoid object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a [[cocycle]] is then called an [[Ext functor|Ext]].
+In an [[(∞,1)-topos]], such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[groupoid object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a [[cocycle]] is then called an [[Ext functor|Ext]].
 
 ### Characteristic classes
 
@@ -241,44 +241,30 @@ $$
 
 This means that all the non-positive degree cohomology identifies with the [[simplicial homotopy group|homotopy group]]s of the [[∞-groupoid]] $\mathbf{H}(X,A)$. 
 
-##### Bigrading 
- {#BiGrading}
+##### Exotic gradings
 
-If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the [[line object]] $\mathbb{A}$ canonically comes with its [multiplicative group object](http://ncatlab.org/nlab/show/line+object#MultiplicativeGroup) $\mathbb{G}_m := \mathbb{A}^\times \hookrightarrow \mathbb{A}$.
+In many cases, the (∞,1)-category $\mathbf{H}$ is related to a [[symmetric monoidal (∞,1)-category]] $\mathbf{S}$ via a symmetric monoidal adjunction
 
-In this case there are then two different notions of [[spheres]]:
+$$ \Sigma^\infty: \mathbf{H} \leftrightarrows \mathbf{S}: \Omega^\infty $$
 
-* the **categorical 1-sphere** (or simplicial loop ) $S^1 = \Delta^1/\partial \Delta^1$;
+which is usually some form of [[stabilization]] of $\mathbf{H}$. Cohomology in $\mathbf{H}$ with coefficients in objects of the form $\Omega^\infty A$, or more generally cohomology in $\mathbf{S}$, is then naturally graded by the [[Picard group]] $Pic(\mathbf{S})$ of $\mathbf{S}$:
 
-* the **geometric sphere** $\mathbb{G}_m$.
+$$ H^\star(X, A)=\pi_0\mathbf{S}(X,\star\otimes A), \quad \star\in Pic(\mathbf{S}). $$
 
-The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and so a second integer grading is induced on cohomology, now coming from the geometric loops.
-Both gradings may be considered at once, which makes the cohomology theory bigraded:
+The point of the Picard-grading is that it accounts for all possible suspension isomorphisms.
 
-$$
-  H^{-p,-q}(X,A) := \pi_0 \mathbf{H}(X, \Omega^p \Omega^q_I A)
-  \,.
-$$
+For example, there is always the (∞,1)-category $\mathbf{S}=Stab(\mathbf{H})$ of [[spectrum objects]] in $\mathbf{H}$. The subgroup $\mathbb{Z}\subset Pic(\mathbf{S})$ consisting of the spheres $S^n:=\Sigma^n(1)$ gives the integer grading discussed above in the special case when the coefficient object is a spectrum object. This is discussed further [below](#abelian).
 
-This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
+Examples where some subgroup of the Picard group larger than $\mathbb{Z}$ is commonly used include:
 
+* $\mathbf{H}$ is the (∞,1)-category of $G$-spaces for a compact Lie group $G$ and $\mathbf{S}$ is [[equivariant stable homotopy theory]]. In this context cohomology theories are usually graded by the real representation ring $RO(G)$ which is a subgroup of $Pic(\mathbf{S})$.
 
-##### Exotic grading
+* $\mathbf{H}=\infty Grpd/X$ and $\mathbf{S}=[X,E Mod]$ for some $E_\infty$-ring $E$. The Picard-graded cohomology $H^\star(1,E)$ is the same as the [[twisted cohomology|twisted]] $E$-cohomology of $X$.
 
-In some cases one considers geometric spheres $S^V$ that do not necessarily arise from a single [[interval object]]. One can still follow the general procedure and define a corresponding graded cohomology
+* $\mathbf{H}=\infty Grpd$ and $\mathbf{S}$ is the $K(n)$-local stable homotopy category for some prime $p$ and some $n\geq 1$. In this case the Picard group contains, among other things, a copy of the [[p-adic integers]] $\mathbb{Z}_p$.
 
-$$
-  H^{V}(X,A) := \pi_0 \mathbf{H}(X, S^V A)
-  \,.
-$$
+* $\mathbf{H}$ is the [[motivic homotopy category]] over a base scheme $S$ and $\mathbf{S}$ is the associated stable motivic homotopy category. The Picard group contains a copy of $\mathbb{Z}\times K_0(S)$, and one usually considers bigraded cohomology theories via the subgroup $\mathbb{Z}\times\mathbb{Z}$ (with a re-indexing). This recovers for example the bigrading in [[motivic cohomology]].
 
-This is notably the standard case in [[Bredon cohomology|Bredon]] [[equivariant cohomology]] used in [[equivariant stable homotopy theory]], where the $S^V$ are one-point compactifications of [[representation]] [[vector space]]s of a [[group]] $G$.
-
-+-- {: .query}
-
-[[Urs Schreiber]]: I am still hoping that if we work hard enough, we can see that this is actually a special case of the above general construction somehow. Or else that we find a more systematic way to understand this "exotic" grading.
-
-=--
  
 #### Abelian and stable cohomology {#abelian}
 
@@ -306,8 +292,6 @@ $$
 $$
 
 which taken together, denoted $H^\bullet(X,E)$ is called a [[cohomology theory]]. For the case that $\mathbf{H} =$ [[Top]] this special case of cohomology is called [[generalized (Eilenberg-Steenrod) cohomology]].
-
-As above in the discussion of gradings, the same discussion goes through analogously in the presence of an [[interval object]] that induces a notion of geometric loops. Notably in [[motivic cohomology]] coefficient objects are taken to be stable with respect to both categorical and geometric looping and [[delooping]].
 
 #### Cohomology groups and rings {#CohomGroup}
 
@@ -368,7 +352,7 @@ By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]]:
 
 the cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with co-coefficients in $X$.
 
-Notably, when $\mathbf{H}$ is a [[lined topos]] there is for 
+Notably, when $\mathbf{H}$ is an [[(∞,1)-topos]] there is for 
 each $n \in \mathbb{N}$ a [[sphere object]] $S^n$ in $\mathbf{H}$.
 
 For any $A \in \mathbf{H}$ the set $H(S^n, A)$ is equivalently
@@ -431,6 +415,7 @@ Classes of special cases of cohomologies with their own entries include
 * [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
+
 
   * [[principal bundle]]
 
@@ -672,11 +657,7 @@ Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjun
 
 #### Motivic cohomology
 
-[[motivic cohomology|Motivic cohomology]] is the cohomology of
-the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]],
-usually restricted to coefficient objects that are 
-[[spectrum object|stable]] and [[A1-homotopy theory|A1-homotopy]]
-invariant.
+[[motivic cohomology|Motivic cohomology]] of a scheme $X$ can be described as the cohomology of the [[Zariski site|Zariski]] (∞,1)-topos of $X$ with coefficients in particular spectrum objects called _motivic complexes_.
 
 
 #### Hochschild and cyclic cohomology
