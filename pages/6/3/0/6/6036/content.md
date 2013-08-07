@@ -62,6 +62,8 @@ Much of traditional [[quantum field theory]] on $X$ can be understood in terms o
 
 * [[string theory]]
 
+* [[D-brane]], [[Chan-Paton gauge field]], [[Freed-Witten-Kapustin anomaly cancellation]]
+
 ## References
 
 (... many references to go here, see at [[string theory]] for more ...)
