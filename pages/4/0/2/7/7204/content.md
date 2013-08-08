@@ -44,6 +44,9 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 * [[3-dimensional supergravity]]
 
+* [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
+
 
 ## References
  {#References}
