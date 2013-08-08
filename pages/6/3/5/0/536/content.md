@@ -157,9 +157,11 @@ _[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-so
 The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
 ## Relation to monads
+ {#RelationToMonads}
 
 We flesh out the relationships between algebraic theories and [[monads]], starting from the most general situation and then adding conditions to cut down on the size of theories. The term "[[Lawvere theory]]" as used here will mean 
 a large (but locally small) [[infinitary Lawvere theory]]. 
+(Under this relation ordinary finitary Lawvere theories correspond to _[[finitary monads]]_.)
 
 
 ### The monad of a locally small Lawvere theory 
