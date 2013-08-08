@@ -129,3 +129,8 @@ The twisted Witten genus in the present of [[background gauge field]] hence for 
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
 
+[[!redirects Witten genera]]
+
+[[!redirects twisted Witten genus]]
+[[!redirects twisted Witten genera]]
+
