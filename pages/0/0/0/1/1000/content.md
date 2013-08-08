@@ -35,6 +35,10 @@ defines an equivalence between the category of finitary monads on $Set$ and the 
 
 There is an interesting commutativity condition singling out the subclass of commutative algebraic/finitary monads, cf. [[commutative algebraic theory]]; they are useful to establish a theory of [[generalized scheme after Durov|generalized commutative schemes]]. 
 
+## Related concepts
+
+* [[classifying topos for the theory of objects]]
+
 
 ## References 
 
