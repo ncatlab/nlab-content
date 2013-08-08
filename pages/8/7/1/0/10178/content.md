@@ -91,12 +91,12 @@ and then we discuss a list of examples in
 
 (...)
 
-The whole process that we describe is summarized by the following diagram of [[monoidal (∞,n)-categories]].
+The whole process that we describe is going to be summarized by the following diagram of [[monoidal (∞,n)-categories]].
 
 $$
   \array{
     && Corr^{or}_n(\mathbf{H}_{/\mathbf{B}\mathbf{GL}_1(E)})^\otimes 
-    &\stackrel{\underset{}{\int} (-)}{\to}& E Mod^{\otimes}
+    &\stackrel{\underset{}{\int} (-)}{\to}& (E Mod^{\Box^n})^{\otimes}
     \\
     & {}^{\mathllap{exp(i S)}}\nearrow & \downarrow
     \\
@@ -106,7 +106,7 @@ $$
   }
 $$
 
-The left part of this diagram constitutes the defintion of a [[local prequantum field theory]]: the [[field (physics)|fields]] $\phi \in \mathbf{Fields}$ and the [[local action functional]] $\exp(i S)$ on them. The morphism $\int$ on the right is the map that sends correspondences equipped with cocycles to maps to [[∞-modules]] by a [[path integral as a pull-push transform]]. 
+The left part of this diagram constitutes the defintion of a [[local prequantum field theory]]: the [[field (physics)|fields]] $\phi \in \mathbf{Fields}$ and the [[local action functional]] $\exp(i S)$ on them. The morphism $\int$ on the right is the map that sends by a [[path integral as a pull-push transform]] correspondences equipped with cocycles to $E$-linear maps of [[∞-modules]] . 
 
 The resulting composite 
 
@@ -959,7 +959,12 @@ With the recognition of [[supersymmetric quantum mechanics]] in the 1980s, [[ind
 
 *  [[Ezra Getzler]], _A short proof of the Atiyah-Singer index theorem_, Topology 25 (1986), 111-117 ([pdf](http://math.northwestern.edu/~getzler/Papers/local.pdf))
 
-The perspective of the [[path integral as a pull-push transform]] was originally laid out, somewhat implicitly, in
+In higher analogy to this but much more subtly, the [[partition function]] of the [[heterotic string]], hence the [[Witten genus]], was understood to be the [[push-forward in generalized cohomology|push-forward]] to the point in [[tmf]]:
+
+* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+  {#AndoHopkinsRezk}
+
+The general perspective of the [[path integral as a pull-push transform]] was originally laid out, somewhat implicitly, in
 
 * [[Dan Freed]]
 
