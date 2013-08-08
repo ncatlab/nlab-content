@@ -1,0 +1,5 @@
+A _monoidally cocomplete category_ is a (small-) [[cocomplete category]] $C$ bearing a [[monoidal category]] structure, such that the monoidal product $\otimes$ is [[cocontinuous functor|cocontinuous]] in each of its separate variables, i.e., $X \otimes -$ is cocontinuous for each $X$ and $- \otimes Y$ is cocontinuous for each $Y$. The term is due to [[Max Kelly]]. 
+
+Similarly, one has the notions of symmetric monoidally cocomplete category, braided monoidally cocomplete category, cartesian monoidally cocomplete category, and so on. 
+
+Under nice conditions on the category $C$, the cocontinuity in separate variables of the monoidal product implies that $C$ is [[monoidal closed category|monoidal biclosed]]. For instance, if $C$ is [[locally presentable category|locally presentable]] or is [[total category|total]], then being symmetric monoidally cocomplete is equivalent to being symmetric monoidal closed. 
