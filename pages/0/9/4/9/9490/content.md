@@ -64,3 +64,8 @@ The close relation between complex phases of semiclassical wave functions and ph
 
 
 [[!redirects phase and phase space in physics]]
+
+[[!redirects phases and phase spaces in physics]]
+
+[[!redirects phase (physics)]]
+
