@@ -231,7 +231,7 @@ For $A = \{C(\{U_i\}) \to X\}$ the collection of [[Cech cover]]s for all [[sieve
 
 This way the above theorem provides a model for $G$-equivariant refinements of [[∞-stack]] [[(∞,1)-topos]]es.
 
-* For instance [[motivic cohomology]] is the cohomology of the [[∞-stack]] [[(∞,1)-topos]] on the [[Nisnevich site]], presented by $C := L_{Cech} SPSh(Nis)$ . Its $G$-equivariant version as above should be the right context for the [[Bredon cohomology|Bredon]] $G$-[[equivariant cohomology]] refinement of [[motivic cohomology]].
+* For instance, in [[motivic homotopy theory]] one considers cohomology in a [[homotopy localization]] of the [[∞-stack]] [[(∞,1)-topos]] on the [[Nisnevich site]], presented by $C := L_{Cech} SPSh(Nis)$ . Its $G$-equivariant version as above should be the right context for the [[Bredon cohomology|Bredon]] $G$-[[equivariant cohomology]] refinement of such cohomology theories, such as [[motivic cohomology]].
 
   This is example 4.5 in [Guillou](http://www.math.uiuc.edu/~bertg/EquivModels.pdf#page=8).
 
