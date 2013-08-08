@@ -593,6 +593,8 @@ higher versions
 
 * [[Hopf monoidal category]]
 
+* [[monoidal topos]]
+
 * [[monoidal (infinity,1)-category]]
 
 * [[monoidal 2-category]]
