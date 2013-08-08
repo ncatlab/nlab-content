@@ -1,5 +1,5 @@
 
-Clark Barwick has posted the following:
+[[Clark Barwick]] has posted (on 7 August 2013) the following:
 
 ''On Sunday, 4 August, 2013, Daniel M. Kan died peacefully at his home in Newton, MA, surrounded by his family. It was his 86th birthday. There was a small burial service Monday afternoon.''
 
