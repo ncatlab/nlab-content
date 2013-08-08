@@ -70,7 +70,7 @@ But notice that this is canonically so for every [[E-∞ ring]], see at _[∞-gr
 
 Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological structures related to M-branes]]_, we can derive the terminology in the above table as indicated now. 
 
-> The following uses a not yet published story of cohomological quantization that is briefly indicated [[schreiber:Synthetic Quantum Field Theory|here]]. More details to be spelled out here when the details have been published. Until then, take the following with the required skepticism or, if necessary, raise complaints over at the nForum. ) 
+> The following uses the notions of _[[motivic quantization]]_ as indicated there, to be expanded.
 
 * **$d = 1$ [[sigma-model]]** 
 
