@@ -1,4 +1,6 @@
 
+> This page is about object classifier objects in [[(∞,1)-toposes]]. For the unnrelated notion of the [[classifying topos]] of the [[theory of objects]] see at _[[classifying topos for the theory of objects]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
