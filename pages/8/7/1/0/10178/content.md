@@ -83,11 +83,15 @@ and then we discuss a list of examples in
 ## General theory
  {#GeneralTheory}
 
+### Basic notions
+
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]]. Write $(\Pi \dashv \flat \dashv \sharp)$ for the corresponding [[shape modality]], [[flat modality]], [[sharp modality]], respectively.
 
 Write
 
-* $Grp(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]] objects in $\mathbf{H}$;
+* $Grp(\mathbf{H}) \coloneqq E_1 Alg^{grp}(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]] objects in $\mathbf{H}$;
+
+* $AbGrp(\mathbb{H}) \coloneqq E_\infty Alg^{grp}(\mathbf{H}) for its [[full sub-(∞,1)-category]] of [[abelian ∞-groups]];
 
 * $Sp(\mathbf{H})$ for the [[stable (∞,1)-category]] of [[spectrum objects]] in $\mathbf{H}$;
 
@@ -95,8 +99,118 @@ Write
 
 * $E Mod(\mathbf{H})$ for the [[symmetric monoidal (∞,1)-category]] of $E$-[[∞-modules]] in $\mathbf{H}$.
 
-(...)
+For $\mathbb{G} \in Grp(\mathbf{G}) \stackrel{forget}{\to} \mathbf{H}$ write $\mathbf{H}_{/\mathbb{G}}$ for the [[slice (∞,1)-topos]] of $\mathbf{H}$ over $\mathbb{G}$. This carries apart from its canonical structure of a [[cartesian monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \times_{\mathbb{G}})$ also a second structure of a [[symmetric monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \otimes_{\mathbb{G}})$, obtained using the monoid structure on $\mathbb{G}$: 
 
+$$
+  \left[
+    \array{
+      X_1
+      \\
+      \downarrow^{\mathrlap{\chi_1}}
+      \\
+      \mathbb{G}
+   }
+  \right]
+  \otimes_{\mathbb{G}}
+  \left[
+    \array{
+      X_2
+      \\
+      \downarrow^{\mathrlap{\chi_2}}
+      \\
+      \mathbb{G}
+   }
+  \right]
+  \;\;
+  \coloneqq
+  \;\;
+  \left[
+    \array{
+      X_1 \times X_2
+      \\
+      \downarrow^{\mathrlap{(\chi_1, \chi_2)}}
+      \\
+      \mathbb{G} \times \mathbb{G}
+      \\
+      \downarrow^{\mathrlap{\cdot}}
+      \\
+      \mathbb{G}
+    }
+  \right]
+  \,.
+$$
+
+For $\mathcal{C}$ any [[(∞,1)-category]] with [[(∞,1)-pullbacks]] write $Corr(\mathcal{C})$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$, whose [[objects]] are those of $\mathcal{C}$, whose [[morphisms]] are [[diagrams]] in $\mathcal{C}$ of the form
+
+$$
+  X_1 \leftarrow Q \rightarrow X_2
+$$
+
+and [[composition]] is given by [[(∞,1)-fiber product]] of such diagrams.
+
+If $\mathcal{C}$ is equipped with the stucture of a [[monoidal (∞,1)-category]] $(\mathcal{C}, \otimes)$, then $Corr(\mathcal{C})$ naturally inheretic a monoidal structure, too, given by the objectwise [[tensor product]] in $\mathcal{C}$. 
+
+Notice that even if $(\mathcal{C}, \times)$ is a [[cartesian monoidal (∞,1)-category]] then the induces monoidal structure $(Corr(\mathcal{C}), \otimes)$ is _not_ cartesian. Notice also that if $(\mathcal{C}, \otimes)$ is [[symmetric monoidal (∞,1)-category|symmetric monoidal]], then so is the induces structure on $Corr(\mathcal{C})$.
+
+In the following we consider $Corr(\mathbf{H}_{/\mathbb{G}})$ always equipped with the [[monoidal (∞,1)-category]] structure which is induced by the non-cartesian tensor monoidal structure $\otimes_{\mathbb{G}}$ on $\mathbf{H}_{/\mathbb{G}}$.
+
+For $\mathcal{C}$ any [[(∞,1)-category]], write $\mathcal{C}^{\Box^n}$ for the [[(∞,1)-category]] of $n$-dimensional [[cube]] [[diagrams]] in $\mathcal{C}$. Under [[pasting]] of diagrams this is naturally an [[(∞,n)-category]]. 
+
+We write for short
+
+$$
+  Corr_n\left(\mathbf{H}_{\mathbb{G}}\right)
+   \;\coloneqq\;
+  Corr\left(\mathcal{H}_{/\mathbb{G}}\right)^{\Box^n}
+  \,.
+$$
+
+This is a [[symmetric monoidal (∞,n)-category]]. 
+
+
+### Correspondences and local prequantum field theory
+
+
+There is a pair of  [[adjoint (∞,1)-functors]]
+
+$$
+  CRing(\mathbf{H})
+   \stackrel{\overset{\mathbb{S}[-]}{\leftarrow}}{\underset{\mathbf{GL}_1}{\to}}
+  AbGrp(\mathbf{H})
+$$
+
+where $\mathbf{GL}_1(-)$ forms the [[∞-group of units]] (see there) of an [[E-∞ ring]] object. 
+
+Choose now once and for all 
+
+* $n \in \mathbb{N}$
+
+* $E \in CRing(\mathbf{H})$. 
+
+Write $Bord_n$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed cobordisms]].
+
+We say
+
+
+
+* a [[field (physics)|physical field]] of a [[local prequantum field theory]] of [[dimension]] $n$ is a [[monoidal (∞,n)-functor]]
+
+  $$
+    \mathbf{Fields} \;\colon \; Bord_n^\otimes \to Corr_n\left(\mathbf{H}\right)^\otimes
+  $$
+
+* a [[local prequantum field theory]] of [[dimension]] $n$ with field content $\mathbf{Fields}$ and with _[[phase and phase space in physics|phases]]_ in $\mathbf{GL}_1(E)$ is a lift $\exp(i S)$ in the [[diagram]]
+
+  $$
+    \array{
+      && Corr_n\left(\mathbf{H}_{/\mathbf{B}\mathbf{GL}_1\left(E\right)}\right)^\otimes
+      \\
+      & {}^{\exp(i S)}\nearrow \;\;\;\;\; & \downarrow
+      \\
+      Bord_n^\otimes &\stackrel{\mathbf{Fields}}{\to}& Corr_n\left(\mathbf{H}\right)^\otimes
+    }
+    \,.
+  $$
 
 
 ## Examples
