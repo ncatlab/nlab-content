@@ -150,7 +150,7 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[MSSM]]
 
-* [string theory FQA -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+* [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
 
 ## References
