@@ -1,0 +1,3 @@
+
+[[K-theory]] of [[Lie groupoids]] (...) equivalently the [[operator K-theory]] of their [[groupoid convolution algebras]] (...)
+
