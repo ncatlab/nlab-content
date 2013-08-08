@@ -91,7 +91,7 @@ Write
 
 * $Grp(\mathbf{H}) \coloneqq E_1 Alg^{grp}(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]] objects in $\mathbf{H}$;
 
-* $AbGrp(\mathbb{H}) \coloneqq E_\infty Alg^{grp}(\mathbf{H}) for its [[full sub-(∞,1)-category]] of [[abelian ∞-groups]];
+* $AbGrp(\mathbb{H}) \coloneqq E_\infty Alg^{grp}(\mathbf{H})$ for its [[full sub-(∞,1)-category]] of [[abelian ∞-groups]];
 
 * $Sp(\mathbf{H})$ for the [[stable (∞,1)-category]] of [[spectrum objects]] in $\mathbf{H}$;
 
@@ -168,6 +168,7 @@ $$
 This is a [[symmetric monoidal (∞,n)-category]]. 
 
 
+
 ### Correspondences and local prequantum field theory
 
 
@@ -187,7 +188,7 @@ Choose now once and for all
 
 * $E \in CRing(\mathbf{H})$. 
 
-Write $Bord_n$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed cobordisms]].
+Write $Bord_n \coloneqq Bord_n(\{\ast\})$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed cobordisms]].
 
 We say
 
@@ -211,6 +212,217 @@ We say
     }
     \,.
   $$
+
+More generally, let $def$ be a set of [[defect QFT|defect]] data, hence a set of shapes of cells. Write $Bord_n(def)$ for the [[(∞,n)-category of cobordisms]] with this defect structure, hence, by the [[cobordism hypothesis]] theorem, the free [[symmetric monoidal (∞,n)-category]] with all [[fully dualizable objects]]  free generated on $def$. Then a diagram of [[symmetric monoidal (∞,n)-categories]] of the form
+
+  $$
+    \array{
+      && Corr_n\left(\mathbf{H}_{/\mathbf{B}\mathbf{GL}_1\left(E\right)}\right)^\otimes
+      \\
+      & {}^{\exp(i S)}\nearrow \;\;\;\;\; & \downarrow
+      \\
+      Bord_n(def)^\otimes &\stackrel{\mathbf{Fields}}{\to}& Corr_n\left(\mathbf{H}\right)^\otimes
+    }
+  $$
+
+is a [[boundary field theory|boundary]]/[[defect QFT|defect]] [[local prequantum field theory]]. 
+
+For instance for 
+
+$$
+  def \coloneqq \{ \emptyset \stackrel{\partial}{\to} \ast \}
+$$ 
+
+such $\exp(i S)$ is equivalently the choice of a [[correspondence]] of the form
+
+$$
+  \array{
+    && \mathbf{Field}^{\partial}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\xi} && \mathbf{Fields}
+    \\
+    & \searrow && \swarrow_{\mathrlap{\chi}}
+    \\
+    && \mathbb{G}
+  }
+  \,.
+$$
+
+This is the local incaration of the coresponding _[[boundary condition]]/[[brane]]_.
+
+Or if 
+
+$$
+  def \coloneqq 
+  \left\{
+    \left(
+      \array{
+         \emptyset &\stackrel{}{\to}& \emptyset
+         \\
+         \downarrow && \downarrow^{\mathrlap{\partial_1}}
+         \\
+         \emptyset &\stackrel{\partial_2}{\to}& \ast
+      }
+    \right)
+  \right\}
+$$
+
+then $Bord_n(def)$ consists of cobordisms with two different boundary ([[brane]]) types and a [[defect QFT|defect]] where they meet.
+
+
+### Linearization and bivariant cohomology
+
+Let $E$ be an [[E-∞ ring]], write $GL_1(E)$ for its [[∞-group of units]]. With $\mathbf{H}$ the ambient [[(∞,1)-topos]], write $\mathbf{H}_{/\mathbf{B}GL_1(E)}$ for the [[slice (∞,1)-topos]] over the [[delooping]] of this [[abelian ∞-group]]. This is the [[(∞,1)-category]] of [[spaces]] equipped with [[(∞,1)-module bundle|(∞,1)-line bundles]] over $E$. Consider an [[(∞,1)-functor]] 
+
+$$
+  \Gamma^\ast \;\colon \; \mathbf{H}_{/\mathbf{B}GL_1(E)} \to E Mod
+$$
+
+to the [[(∞,1)-category of (∞,1)-modules]] over $E$, which form $E$-modules of co-sections of $E$-[[(∞,1)-module bundles]] (generalized [[Thom spectra]]). 
+
+This is well understood for $\mathbf{H} = $ [[∞Grpd]] in which case $\Gamma \simeq \underset{\to}{\lim} \circ i$ is the [[(∞,1)-functor]] [[homotopy colimits]] in $E Mod$ under the canonical embedding $\mathbf{B} GL_1(E) \simeq E Line \hookrightarrow E Mod$. But one can consider similar constructions $\Gamma$ for more general ambient [[(∞,1)-toposes]] $\mathbf{H}$.
+
++-- {: .num_defn #BivariantCohomologyByHomsOfCoSections}
+###### Definition
+
+For $\chi_i \colon X_i \to \mathbf{B}GL_1(E)$ two [[objects]] of $\mathbf{H}_{/\mathbf{B}GL_1(E)}$, the _$(\chi_1,\chi_2)$-[[twisted cohomology|twisted]] [[bivariant cohomology|bivariant]] $E$-[[cohomology theory|cohomology]]_ on $(X_1,X_2)$ is 
+
+$$
+  E^{\bullet + \chi_2 - \chi_1}(X_1,X_2)
+  \;\coloneqq\;
+  Hom_{E Mod}\left(\Gamma^\ast_{X_1}\left(\chi_1\right), \Gamma^\ast_{X_2}\left(\chi_2\right)\right)
+  \in 
+  E Mod
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+By the general discussion at [[twisted cohomology]], following ([ABG, def. 5.1](#ABG)) we have
+
+* for $X_2 = \ast$ the point, the above bivariant cohomology is the $\chi_1$-twisted $E$-cohomology of $X_1$;
+
+  $$
+    E^{\bullet + \chi_1}(X_1, \ast) \simeq E^{\bullet + \chi_1}(X_1)
+    \,.
+  $$
+
+* for $X_1 = \ast$ the point, the above bivariant cohomology is the $\chi_2$-twisted $E$-[[generalized homology|homology]] of $X_2$;
+
+  $$
+    E^{\bullet + \chi_2}(\ast, X_2) \simeq E_{\bullet + \chi_2}(X_2)
+    \,.
+  $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+[[KK-theory]] is a model for bivariant twisted [[topological K-theory]] over [[differentiable stacks]] (hence 1-truncated suitably representable objects in $\mathbf{H} = $ [[Smooth∞Grpd]], see [Tu-Xu-LG 03](#TuXuLG03)). According to ([Joachim-Stolz 09, around p. 4](#JoachimStolz09)) the category $KK$ first of all is naturally an [[enriched category]] $\mathbb{KK}$ over the category $\mathcal{S}$ of [[symmetric spectra]]  and as such comes with a symmetric [[monoidal functor|monoidal]] [[enriched functor]]
+
+$$
+  \mathbb{KK} \to KU Mod
+  \,.
+$$
+
+
+This sends an object to its [[operator K-theory]] spectrum, hence to the $E$-[[dual object|dual]] of the $E$-module of co-sections. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Generally, one may want to consider in def. \ref{BivariantCohomologyByHomsOfCoSections} the dualized co-section functor
+
+$$
+  \Gamma = [\Gamma^\ast(-), E] \;\colon\; \left(\mathbf{H}_{/\mathbf{B}GL_1(E)}\right)^{op} \to E Mod
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A [[correspondence]] in $\mathbf{H}_{/\mathbf{B}GL_1(E)}$ 
+
+$$
+  \array{
+    && Q
+    \\
+    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    \\
+    X_1 && \swArrow_{\xi} && X_2
+    \\
+    & {}_{\mathllap{\chi_1}}\searrow && \swarrow_{\mathrlap{\chi_2}}
+    \\
+    && \mathbf{B}GL_1(E)
+  }
+$$
+
+is a morphism of "twisted $E$-[[pure motive|motives]]" in that it is a [[correspondence]] in $\mathbf{H}$ between the [[spaces]] $X_1$ and $X_2$ equipped with an $(i_1^\ast \chi_1, i_2^\ast \chi_2)$-twisted bivariant $E$-cohomology [[cocycle]] $\xi$ on the correspondence space $Q$. Under the co-sections / [[Thom spectrum]] functor this is sent to a [[correspondence]]
+
+$$
+  \Gamma_{X_1}(\chi_1)
+  \stackrel{\xi}{\rightarrow}
+  \Gamma_Q(i_2^\ast \chi_2)
+  \stackrel{i_2^\ast}{\leftarrow}
+  \Gamma_{X_2}(\chi_2)
+$$
+
+in $E Mod$. If the wrong-way map of this is [[orientation in generalized cohomology|orientable]] in $E$-cohomology then we may form its [[dual morphism]]/[[Umkehr map]] to obtain the corresponding "[[index]]"
+
+$$
+  \Gamma_{X_1}(\chi_1)
+   \stackrel{(i_2)_! \xi}{\to}
+  \Gamma_{X_2}(\chi_2)
+$$
+
+in $E Mod$. Identifying correspondences that yield the same "[[index]]" this way yields a presentation of bivariant cohomology by [[pure motive|motive]]-like structures. 
+This is how (equivariant) [[bivariant K-theory]] is presented, at least over manifolds, see at _[KK-theory -- References -- In terms of correspondences](KK-theory#ReferencesInTermsOfCorrespondences)_.
+
+=--
+
+### Path integral quantization and push-forward in cohomology
+
+
+$$
+  \array{
+    && \mathbf{Trajectories}
+    \\
+    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    \\
+    \mathbf{Fields}_{in}
+    && \swArrow_{\xi} &&
+    \mathbf{Fields}_{out}
+    \;\;\;\;\;\;\;\;\;\;
+    \in \mathbf{H}_{/\mathbf{B}GL_1(E)}
+    \\
+    & {}_{\chi_{in}}\searrow && \swarrow_{\chi_{out}}
+    \\
+    && \mathbf{B} GL_1(E)
+  }
+$$
+
+quantizes to
+
+$$
+  \Gamma(\chi_{in})
+  \stackrel{\;\;\;\;\; \underset{i_2}{\int} i_1^\ast \xi \;\;\;\;\;}{\to}
+  \Gamma(\chi_{out})
+  \;\;\;\;\;\;\;\;\;
+  \in E \mathbf{Mod}
+  \,.
+$$
+
+(...)
 
 
 ## Examples
