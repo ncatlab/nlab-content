@@ -141,6 +141,8 @@ Every perfect [[derived stack]] in [[dg-geometry]] forms the [[target space]] fo
 
 ## Related concepts
 
+* [[motivic quantization]]
+
 * [[integral transforms on sheaves]]
 
 
@@ -150,9 +152,9 @@ The pull-push nature of the path integral was originally amplified somewhat impl
 
 * [[Dan Freed]]
 
-  * _Quantum groups from path integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
+  * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025))
 
-  * _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+  * _Higher algebraic structures and quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
 and fully explicitly in
 
@@ -163,13 +165,15 @@ The description of [[string topology]] operations as an [[HQFT]] defined by pull
 * [[Ralph Cohen]], [[Veronique Godin]], 
   _[[A Polarized View of String Topology]]_
 
-* Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
+* Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv:0706.1276](http://arxiv.org/abs/0706.1276))
  {#Tamanoi07}
 
 A detailed discussion and generalization to the open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
 
 * [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  {#Godin}
+
+For more see the references at _[[motivic quantization]]_.
 
 
 [[!redirects path integral as a pull-push transformation]]
