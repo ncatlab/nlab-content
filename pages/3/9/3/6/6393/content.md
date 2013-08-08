@@ -46,6 +46,8 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
   * [[string]], **spinning string** , [[superstring]]
 
+    [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
   * [[membrane]]
 
 * [[string theory]]
