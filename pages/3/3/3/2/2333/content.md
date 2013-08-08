@@ -13,13 +13,13 @@ Convex spaces may be important in the foundations of [[probability theory]].  Th
 
 The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
 
-Of particular importance are convex spaces parametrized by the interval $P = [0,1]$.
+Of particular importance are convex spaces parametrized by the interval $P = [0,1]$ or the Boolean algebra $P = \{0,1\}$. These two algebras are dual, in a certain sense described by [Jacobs (2009)](http://arxiv.org/abs/0911.3834). This duality is functorial, and therefore is present for convex spaces for general $P$. This leads to the notion of a [[dual convex space]].
 
 ## Definition
 
 A __convex space__ is a [[set]] $X$ equipped with:
 
-* a [[ring]] $P$, so that for each ring element $p \in P$, there exists an operation $c_p: X \times X \to X$,
+* a [[semiring|(semi)]]([[ring]] $P$, so that for each element $p \in P$, there exists an operation $c_p: X \times X \to X$,
 
 such that the following identities always hold:
 
