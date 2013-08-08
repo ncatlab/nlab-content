@@ -91,7 +91,7 @@ Write
 
 * $Grp(\mathbf{H}) \coloneqq E_1 Alg^{grp}(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]] objects in $\mathbf{H}$;
 
-* $AbGrp(\mathbb{H}) \coloneqq E_\infty Alg^{grp}(\mathbf{H})$ for its [[full sub-(∞,1)-category]] of [[abelian ∞-groups]];
+* $AbGrp(\mathbf{H}) \coloneqq E_\infty Alg^{grp}(\mathbf{H})$ for its [[full sub-(∞,1)-category]] of [[abelian ∞-groups]];
 
 * $Sp(\mathbf{H})$ for the [[stable (∞,1)-category]] of [[spectrum objects]] in $\mathbf{H}$;
 
@@ -99,7 +99,7 @@ Write
 
 * $E Mod(\mathbf{H})$ for the [[symmetric monoidal (∞,1)-category]] of $E$-[[∞-modules]] in $\mathbf{H}$.
 
-For $\mathbb{G} \in Grp(\mathbf{G}) \stackrel{forget}{\to} \mathbf{H}$ write $\mathbf{H}_{/\mathbb{G}}$ for the [[slice (∞,1)-topos]] of $\mathbf{H}$ over $\mathbb{G}$. This carries apart from its canonical structure of a [[cartesian monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \times_{\mathbb{G}})$ also a second structure of a [[symmetric monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \otimes_{\mathbb{G}})$, obtained using the monoid structure on $\mathbb{G}$: 
+For $\mathbb{G} \in Grp(\mathbf{G}) \stackrel{forget}{\to} \mathbf{H}$ write $\mathbf{H}_{/\mathbb{G}}$ for the [[slice (∞,1)-topos]] of $\mathbf{H}$ over $\mathbb{G}$. This carries apart from its canonical structure of a [[cartesian monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \times_{\mathbb{G}})$ also a second structure of a [[symmetric monoidal (∞,1)-category]] $(\mathbf{H}_{/\mathbb{G}}, \otimes_{\mathbb{G}})$, obtained using the monoid structure on $\mathbb{G}$ (it is a _[[monoidal topos|monoidal (∞,1)-topos]]_): 
 
 $$
   \left[
