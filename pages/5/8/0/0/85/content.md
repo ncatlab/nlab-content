@@ -39,7 +39,7 @@ $$
 
 Let $j : C \to PSh(C)$ be the [[Yoneda embedding]]. 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 With $I \in C$ the tensor unit of $C$, the presheaf $j(I)$ is a unit for the Day convolution product.
@@ -77,7 +77,7 @@ $$
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ a small [[monoidal category]], regard the [[category of presheaves]] $(PSh(C), \star, j(I))$ as a [[monoidal category]] with tensor product the Day convolution product and unit the unit of $C$ under the [[Yoneda embedding]] $j : C \hookrightarrow PSh(C)$. 
@@ -117,7 +117,7 @@ In Day's original paper, a stronger form of the Day convolution is discussed, in
 Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
 =--
@@ -178,44 +178,17 @@ $$
 * The semantics of [[linear logic]] obtained from Girard's "phase spaces", or more generally from [[ternary frames]], is essentially Day convolution for posets.
 
 
-## Blog resources
+## Related concepts
+
+* [[monoidal topos]]
+
+## References
 
 * [[Todd Trimble]] on Day convolution [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365)
 
-## Discussion
 
-_[[Eric Forgy|Eric]] says_: When I see "convolution", I think "Fourier transform". Is Day convolution somehow related to a categorified version of Fourier transforms?
 
-_[[Todd Trimble|Todd]] says_: Yes, something like that. I talk a little about this in the article on [[operad|operads]], in the detailed theoretical section. 
 
-The usual Fourier transform (for periodic functions) passes between Fourier coefficients $a_n$ and functions $\sum_n a_n z^n$ on $S^1$. One way of categorifying this is to pass from the category of functors $a: \mathbb{N} \to Set$ (considered as a monoidal category with respect to Day convolution) to their so-called "analytic functors" $\hat{a}: Set \to Set$, mapping a set $x$ to $\hat{a}(x) = \sum_n a_n \cdot x^n$. The "categorified Fourier transform" $a \mapsto \hat{a}$ takes Day convolution products to (pointwise) cartesian products. 
-
-If the "Fourier transform" is properly formulated (using enriched tensor products), then the same holds for any monoidal category in place of the discrete monoidal category $\mathbb{N}$. 
-
-_[[AnonymousCoward]] says_: The passage to analytic functors seems more like a z-transform or Laplace transform. In the particular case of species, it is the Laplace transform formula that applies to the analytic functor of a derivative of a species, not the Fourier transform one involving multiplication by the imaginary unit.
-
-The use of hom above is reminiscent of the Dirac delta. Is there a connection?
-
-_[[John Baez]] says_: It's true that the passage from a sequence $a_n$ to a power series $\sum_n a_n z^n$ is precisely the $z$-transform.  If we set $z = exp(i \theta)$, we get the Fourier transform --- but as you note this makes use of the imaginary unit $i$, which plays no evident role in Day convolution.  So, the analogies Todd is discussing become most precise if we work with the $z$-transform.  But the Fourier transform is closely related.
-
-On the other hand, I've discovered that many 'pure mathematicians' don't know about the $z$-transform --- at least, not under that name.  I think it's 'engineers' who talk most about the $z$-transform.  So, if you're trying to explain Day convolution to pure mathematicians, it's pedagogically best to start talking about the Fourier transform, and then later mention the $z$-transform.
-
-In general $hom$ is a categorified version of an inner product.  I'm too lazy to figure out how this is related to the Dirac delta, but I would not be surprised if there were a connection.
-
-[[Urs Schreiber|Urs]]: maybe all that "anonymous coward" is looking for is this statement: 
-
-if $C$ is a discrete category (i.e. just a set regarded as a category with only identity morphisms) then a functor $C \o Set$ is like a $\mathb{Z}$-valued function on the set $C$ and then for every object $c$ in $C$ the functor $Hom_C(c,-) = \delta_c$ is the Kronecker delta on $C$ at $c$, in that 
-
-$$
- Hom_C(c,d) = \left\{ 
-  \array{
-   * & if c = d
-   \\
-   \emptyset & if c \neq d
- } \right.
-$$
-
-I have added this remark now explicitly to the entry above.
 
 
 [[!redirects day convolution]]
