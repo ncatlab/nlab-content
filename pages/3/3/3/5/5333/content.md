@@ -64,7 +64,12 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
   * [[Hořava-Witten theory]]
 
+  * [[M-theory]]
+
 * [[AdS-CFT correspondence]]
+
+* [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
 
 
 
