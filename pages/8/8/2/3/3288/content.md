@@ -230,7 +230,7 @@ A detailed proof of this is in ([Waldorf, lemma A.1.7](#Waldorf))
 ### $G$-Structures on smooth loop spaces
  {#GStructures}
 
-The usual notions of _[[G-structures]]_ for [[manifolds]], such as [[orientation]], [[spin structure]], [[string structure]], etc. do not carry over directy to their smooth loop spaces, but they are closely related by [[transgression]]: a [[spin structure]] on $X$ is supposed to induced a kind of orientation structure on $\Omega X$, a string structure on $X$ is supposed to induce a kind of spin structure on $\Omega X$.
+The usual notions of _[[G-structures]]_ for [[manifolds]], such as [[orientation]], [[spin structure]], [[string structure]], etc. do not carry over directly to their smooth loop spaces, but they are closely related by [[transgression]]: a [[spin structure]] on $X$ is supposed to induce a kind of orientation structure on $\Omega X$, a string structure on $X$ is supposed to induce a kind of spin structure on $\Omega X$.
 
 Formalizations of such "smooth loop space $G$-structures" have been proposed in  ([Stolz-Teichner 2005](#Stolz)), ([Waldorf 2010](#Waldorf10))  and ([Waldorf 2012](#Waldorf12)).
 
@@ -258,11 +258,11 @@ $$
   \,.
 $$
 
-**In words** this is the simple statement that $\Omega_x X$ is the space of all [[homotopy|homotopies]] in the [[(∞,1)-category]] [[Top]] from the map $x : {*} \to X$ to itself. Any one such homotopy is itself a continuous map $\gamma : I \to X$ from the [[interval object|standard interval]] $I = [0,1]$ to $X$, such that restricted to its endpoints it produces the map $x$. Clearly, these are precisely the loops in $X$, based at $X$.
+**In words** this is the simple statement that $\Omega_x X$ is the space of all [[homotopy|homotopies]] in the [[(∞,1)-category]] [[Top]] from the map $x : {*} \to X$ to itself. Any one such homotopy is itself a continuous map $\gamma : I \to X$ from the [[interval object|standard interval]] $I = [0,1]$ to $X$, such that restricted to its endpoints it produces the map $x$. Clearly, these are precisely the loops in $X$, based at $x$.
 
 #### Generalization to $\infty$-Lie groupoids
 
-You might think: well, now let $X \in Sh_{(\infty,1)}(Diff)$ be a [[smooth manifold]] regarded as a [[representable functor|representable]] object in the [[(∞,1)-category of (∞,1)-sheaves]] of [[∞-stack]]s on [[Diff]] or maybe better in Sh_{(\infty,1)}(CartSp) on [[CartSp]] -- i.e. of [[Lie ∞-groupoid]]s -- , we play the same trick and compute the [[homotopy pullback]] $Q$
+You might think: well, now let $X \in Sh_{(\infty,1)}(Diff)$ be a [[smooth manifold]] regarded as a [[representable functor|representable]] object in the [[(∞,1)-category of (∞,1)-sheaves]] of [[∞-stack]]s on [[Diff]] or maybe better in $Sh_{(\infty,1)}(CartSp)$ on [[CartSp]] -- i.e. of [[Lie ∞-groupoid]]s -- , we play the same trick and compute the [[homotopy pullback]] $Q$
 
 $$
   \array{
@@ -296,10 +296,10 @@ instead of $X$ when we regard the topological space $X$ as an object of the [[(�
 If instead we had interpreted the topological space $X$ as a representable object, hence as a [[discrete category|categorically discrete]] object in the $(\infty,1)$-category of [[topological ∞-groupoid]]s, we would have seen the same phenomenon as for the smooth $X$ above: its [[loop space object]] would have been the point.
 From this perspective now it is clear how the abstract notion of [[loop space object]] corresponds to the geometrically expected one: for a geometric [[space]] $X$, its loop space is the [[loop space object]] of its [[fundamental ∞-groupoid]].
 
-This statement can be given sense in all context where the underlying [[topos]] of our ambient [[(∞,1)-topos]] of [[space]]s is a [[lined topos]]: we need to know which object $R$ is the standard _line_ or [[interval object]]. This determines the _geometric paths_ in a space. Taking these geometric paths to be the [[morphism]]s of a [[fundamental ∞-groupoid]] then makes the geometric paths into "categorical paths", i.e. into morphisms. These then are what the abstract definition of [[loop space object]] can see.
+This statement can be given sense in all contexts where the underlying [[topos]] of our ambient [[(∞,1)-topos]] of [[space]]s is a [[lined topos]]: we need to know which object $R$ is the standard _line_ or [[interval object]]. This determines the _geometric paths_ in a space. Taking these geometric paths to be the [[morphism]]s of a [[fundamental ∞-groupoid]] then makes the geometric paths into "categorical paths", i.e. into morphisms. These then are what the abstract definition of [[loop space object]] can see.
 
 And indeed, whenever the underlying [[topos]] of [[space]]s that we are looking at is a [[lined topos]] the corresponding [[(∞,1)-topos]] comes equipped with a generalization of the topological [[fundamental ∞-groupoid]] construction: we can associate to every [[space]] $X$ its
-[[schreiber:path ∞-groupoid]] $\Pi(X)$: the morphisms of $\Pi(X)$ are given by paths in $X$ as seen by the given [[interval object]] $I$. All entirely analogous to the familiar situation for [[Top]], only that now we are testing our generalized [[space]]s over test objects in an arbitrary [[site]]s and are using a correspondingly different notion of [[interval object]].
+[[schreiber:path ∞-groupoid]] $\Pi(X)$: the morphisms of $\Pi(X)$ are given by paths in $X$ as seen by the given [[interval object]] $I$. All entirely analogous to the familiar situation for [[Top]], only that now we are testing our generalized [[space]]s over test objects in an arbitrary [[site]] and are using a correspondingly different notion of [[interval object]].
 
 #### The concrete definition
 
@@ -321,7 +321,7 @@ whose
 
 * smooth space of objects is the smooth space of smooth loops in $X$ based at $x$;
 
-* smooth space of morphism is the smooth space of smooth $I$-homotopies between smooth loops in $X$
+* smooth space of morphisms is the smooth space of smooth $I$-homotopies between smooth loops in $X$
 
 * etc;
 
@@ -341,7 +341,7 @@ $$
 
 which is the smooth subspace of the smooth space of morphisms in $\mathcal{P}_1(X)$ of those morphisms that start and end at $x$.
 
-When unwrapping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
+When unwrapping what all this means, one sees that the object $LoopSpace_x(X) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
 
 ## References
 
@@ -364,7 +364,7 @@ The relation of this [[Fréchet manifold]]  structure to the canonical [[diffeol
 
 Discussion of [[G-structures]] on smooth loop spaces is in the following articles. 
 
-For [[orientation]] structure on loop space and its [[transgression]] fro [[spin structure]] on target space:
+For [[orientation]] structure on loop space and its [[transgression]] from [[spin structure]] on target space:
 
 * [[Konrad Waldorf]], _A Loop Space Formulation for Geometric Lifting Problems_ ([arXiv:1007.5373](http://arxiv.org/abs/1007.5373))
  {#Waldorf10}
@@ -377,7 +377,7 @@ For [[spin structure]] on loop spaces and its [[transgression]] from [[string st
 * [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
  {#Waldorf12}
 
-There are also skecthy notes in
+There are also sketchy notes in
 
 * [[Richard Melrose]], _Analysis on loop spaces_, Lecture notes, 2013 ([pdf](http://math.mit.edu/~rbm/18.158-S13/18-158-S13.pdf))
  {#Melrose}
