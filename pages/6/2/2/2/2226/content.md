@@ -1,4 +1,4 @@
-The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Sign_relation).
+The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Sign_relation).
 
 [[!redirects semiotic]]
 [[!redirects semiotics]]
