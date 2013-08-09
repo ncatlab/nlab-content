@@ -902,14 +902,85 @@ The first step is ([Nuiten 13, section x](#Nuiten13)). The second is ([DEKM 11, 
 
 ###### Quantum states and K-theory
 
-(...)
+$(X,\omega)$ a [[symplectic manifold]]
+
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow^{i}
+    \\
+    \ast && \swArrow_{\nabla} && SymGrpd(X,\omega^{-1}) & \simeq \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^2 U(1)_{conn^1}
+  }
+$$
+
+A K-orientation on $i$ is equivalently a [[spin^c structure]] on $X$, in particular induced from a [[Kähler polarization]] of $(X,\omega)$.
+
+The corresponding push-forward is
+
+$$
+  i_! \;\colon\; K(X) \to K(\ast) \simeq FinHilb
+$$
+
+and sends the prequantum bundle to the [[space of quantum states]].
+
+
 
 ###### Quantum observables and equivariant K-theory
+ {#QuantumObservablesAndEquivariantKTheory}
 
-(...)
 
-###### 
+Let $(X,\omega)$ be a [[symplectic manifold]]. 
+Let $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ be a [[prequantum bundle]].
 
+An integrated $\mathfrak{g}$-[[moment map]] hence a  $G$-[[Hamiltonian action]] on $(X,\omega)$, hence a morphism
+
+$$
+  G \to QuantMorph(X,\nabla)
+$$
+
+is equivalently a [[equivariant cohomology|equivariant]] structure $\nabla//G$ on $\nabla$ given by
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\to}& \mathbf{B}U(1)_{conn}
+    \\
+    \downarrow & \nearrow_{\nabla//G}
+    \\
+    X//G
+  }
+  \,.
+$$
+
+Hence
+
+$$
+  \array{
+    && X//G
+    \\
+    & \swarrow && \searrow^{i}
+    \\
+    \ast && \swArrow_{\nabla//G} && \ast//G
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^2 U(1)_{conn^1}
+  }
+  \,.
+$$
+
+The original $K$-orientation extends to this equivariant case if it is itself equivariant, hence if the [[prequantum operators]] in $G$ respect the polarization, hence are to become genuine [[quantum operators]]. Then pushforward is
+
+$$
+  i_! \;\colon\; K_G(X) \to K_G(\ast) \simeq Rep(G) 
+$$
+
+landing in the [[representation ring]] of $G$. An element here is now a [[space of quantum states]] equipped with the action of [[quantum observables]] in $G$.
 
 ##### Quantization of Lie-Poisson structures -- The universal orbit method
 
