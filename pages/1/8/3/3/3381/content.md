@@ -32,6 +32,7 @@ One may regard the symmetric group $S_n$ as the [[general linear group]] in dime
 
 * [[signature of a permutation]]
 
+* [[permutation category]]
 
 [[!redirects permutation]]
 [[!redirects permutations]]
