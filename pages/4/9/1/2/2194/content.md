@@ -111,3 +111,4 @@ There is a recent categorification of the Pontrjagin duality theorem, motivated 
 [[!redirects Pontriagin duality]]
 [[!redirects Понтрягин dual]]
 [[!redirects Понтрягин duality]]
+[[!redirects Pontrjagin duals]]
