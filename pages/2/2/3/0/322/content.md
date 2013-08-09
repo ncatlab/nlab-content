@@ -158,9 +158,11 @@ Note that this definition still makes sense when $v$ lives in any symmetric mono
 
 We describe here a compact one-sentence definition of operad first worked out by [[Max Kelly]], after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
 
+More details along these lines are add _[[toddtrimble:Towards a doctrine of operads]]_.
+
 ### Preparation 
 
-Let $\mathbb{P}$ be the [[groupoid]] of finite cardinals with [[bijections]] as morphisms. Since $\mathbb{P}$ is the [[core]] groupoid of the category $Fin$ of finite cardinals and functions between them, the [[coproduct]] on $Fin$ restricts to a symmetric monoidal product called the cardinal sum on $\mathbb{P}$. 
+Let $\mathbb{P}$ be the [[groupoid]] of finite cardinals with [[bijections]] as morphisms --  the _[[permutation category]]_. Since $\mathbb{P}$ is the [[core]] groupoid of the category $Fin$ of finite cardinals and functions between them, the [[coproduct]] on $Fin$ restricts to a symmetric monoidal product called the cardinal sum on $\mathbb{P}$. 
 
 +-- {: .un_remark style="margin-left:2em"}
 ###### Remark
