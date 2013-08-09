@@ -40,6 +40,7 @@ From the point of view of [[category theory]], there are two fundamental kinds o
 * the duality between [[space and quantity]]
 * [[Poincaré duality]] for finite dimensional (oriented) closed manifolds
 * [[Pontryagin duality]] for commutative ([[Hausdorff space|Hausdorff]]) [[topological group|topological groups]]
+* [[Brown-Comenetz duality]]
 * [[Cartier duality]] of a finite flat commutative [[group scheme]]
 * [[Serre duality]] on nonsingular projective algebraic varieties which has as a special case the statement of the [[Riemann-Roch theorem]]
 * [[Grothendieck duality]], [[coherent duality]] for [[coherentsheave|coherent sheaves]]
