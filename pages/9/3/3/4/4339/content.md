@@ -24,6 +24,8 @@ Not that anybody would be na&#239;ve enough to believe otherwise, but perhaps th
 
 The point is that, in many cases, the na&#239;ve definition imposes only a uniqueness requirement (so that some set of possibilities ---such as the set of proper divisors of a prime number, or the set of non-invertible elements of a field--- must be a [[subsingleton]]) when it should in fact impose an *existence and uniqueness* requirement (so that the set of possibilities must be a [[singleton]]).  With [[truth values]], uniqueness is automatic, so existence is easier to notice.
 
+More abstractly, the na&#239;ve definition is about $(-1)$-[[(-1)-truncation|truncation]], while the more sophisticated definition is about $(-2)$-[[(-2)-truncation|truncation]], which is more often relevant.
+
 The general pattern is a progression of definitions (of 'simple') from more to less na&#239;ve:
 
 1.  Suitable for a vague summary but obviously not precisely correct: there are no foos.  (Example: a field has no non-invertible elements.)
