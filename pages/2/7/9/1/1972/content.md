@@ -46,7 +46,7 @@ If $G$ is a [[finite group]] and we tensor $R(G)$ with the complex numbers, it b
 
 ### Relation to twisted K-theory
 
-The representation ring of a [[compact Lie group]] is equivalent to the $G$-[[equivarint K-theory]] of the point.
+The representation ring of a [[compact Lie group]] is equivalent to the $G$-[[equivariant K-theory]] of the point.
 
 $$
   Rep(G) \simeq K_G(\ast)
@@ -54,6 +54,14 @@ $$
 $$
 
 The construction of representations by [[index]]-constructions of $G$-equivariant [[Dirac operators]] ([[push-forward in generalized cohomology|push-forward]] in $G$-[[equivariant K-theory]] to the point) is called _[[Dirac induction]]_.
+
+## References
+
+In the generality of [[super Lie groups]]:
+
+* [[Gregory Landweber]], _Representation rings of Lie superalgebras_, K-Theory 36 (2005), no. 1-2, 115-168 ([arXiv:math/0403203](http://arxiv.org/abs/math/0403203))
+
+* [[Gregory Landweber]], _Twisted representation rings and Dirac induction_, J. Pure Appl. Algebra 206 (2006), no. 1-2, 21-54 ([arXiv:math/0403524](http://arxiv.org/abs/math/0403524))
 
 [[!redirects representation rings]]
 
