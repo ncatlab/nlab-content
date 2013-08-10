@@ -10,7 +10,7 @@ This entry provides some hyperlinks for the articles
   _Loop Groups and Twisted K-Theory II_, J. Amer. Math. Soc. 26 (2013), 595-644  ([arXiv:0511232](http://arxiv.org/abs/math/0511232))
  {#PartII}
 
-about the [[twisted K-theory|twisted]] [[equivariant K-theory]] of suitable [[Lie groups]], and the [[representation theory]] of their [[loop groups]]. Part II is also closely related to the [[orbit method]] for producing [[irreducible representations]] of Lie groups from [[geometric quantization]] of their [[coadjoint orbits]].
+about the [[twisted K-theory|twisted]] [[equivariant K-theory]] of suitable [[Lie groups]], and the [[representation theory]] of their [[loop groups]]. Part II also deals with [[Dirac induction]] and the [[orbit method]] for producting representations by the [[geometric quantizaiton]] of [[coadjoint orbits]].
 
 ## Statement of the theorem
 
