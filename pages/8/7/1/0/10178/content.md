@@ -1020,6 +1020,11 @@ and then the [[quantum observables]]
 
 * _[Quantum observables and equivariant K-theory](#QuantumObservablesAndEquivariantKTheory)_ .
 
+
+| [[space of quantum states]] | [[quantum observables]] |
+|--|--|
+| [[index]] in [[K-theory]] | [[Dirac induction]]: index in [[equivariant K-theory]] |
+
 ###### Quantum states and K-theory
  {#QuantumStatesAndKTheory}
 
@@ -1131,10 +1136,9 @@ Hence if $X$ carries a $G$-equivariant [[spin^c structure]] then we have a [[pus
 
 $$
   i_! \;\colon\; K(X//G) \simeq K_G(X) \to K_G(\ast) \simeq K(\ast//G) \simeq Rep(G)   
-  \,.
 $$
 
-Here we used on the left that the [[convolution algebra]] of an [[action groupoid]] $X//G$ is equivalently the corresponding [[crossed product C*-algebra]] (as discussed there), and the [[Green-Julg theorem]] which identifies the [[operator K-theory]] of that with the [[equivariant K-theory]] of $X$. On the right we used the same identification and the fact that hence $K(\ast//G)$ is the [[representation ring]] of the group $G$.
+("[[Dirac induction]]"). Here we used on the left that the [[convolution algebra]] of an [[action groupoid]] $X//G$ is equivalently the corresponding [[crossed product C*-algebra]] (as discussed there), and the [[Green-Julg theorem]] which identifies the [[operator K-theory]] of that with the [[equivariant K-theory]] of $X$. On the right we used the same identification and the fact that hence $K(\ast//G)$ is the [[representation ring]] of the group $G$.
 
 So the motivic quantization 
 
@@ -1156,7 +1160,40 @@ By the [above](#GeometricQuantizationOfSymplecticManifolds) discussion of the mo
 
 $\,$
 
-Let $\mathfrak{g}$ be a Lie algebra. Write $\mathfrak{g}^\ast$ for its dual vector space regarded as a [[Poisson manifold]] by its canonical [[Lie-Poisson structure]]. The corresponding [[symplectic groupoid]] is the [[action groupoid]] $\mathfrak{g}^\ast //G$ for the [[coadjoint action]]. 
+Let $\mathfrak{g}$ be a Lie algebra. Write $\mathfrak{g}^\ast$ for its dual vector space regarded as a [[Poisson manifold]] by its canonical [[Lie-Poisson structure]]. 
+
+The crucial fact that drives the following discussion is the following.
+
++-- {: .num_prop}
+###### Proposition
+
+The [[symplectic groupoid]] of the [[Lie-Poisson structure|Lie-Poisson manifold]] $\mathfrak{g}^\ast$ is the [[action groupoid]] $\mathfrak{g}^\ast //G$ for the [[coadjoint action]]
+
+$$
+  SymplGrpd(\mathfrak{g}^\ast) \simeq \mathfrak{g}^\ast//G
+  \,.
+$$
+
+=--
+
+([Bursztyn-Crainic, example 4.3](symplectic+groupoid#BursztynCrainic))
+
++-- {: .num_remark}
+###### Remark
+
+The manifold of [[morphisms]] of $(\mathfrak{g}^\ast//G)$ in the standard presentation is $\mathfrak{g}^\ast \times G$, which by left translation is naturally identified with the [[cotangent bundle]] of $G$:
+
+$$
+  (\mathfrak{g}^\ast//G)_1
+    = 
+  \mathfrak{g}^\ast 
+   \simeq
+  T^\ast G
+  \,.
+$$
+
+=--
+
 
 The canonical [[prequantum 2-bundle]]
 
