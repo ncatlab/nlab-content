@@ -1237,7 +1237,7 @@ $$
   i_! \colon K_G(\mathcal{O}_\lambda) \to R(G)
 $$
 
-to the [[representation ring]] of $G$, which sends the prequantum bundle + Hamiltonian action $\xi$ to the $G$-representation $i_! \xi$. This is the cohomological formulation of the [[orbit method]] for a fixed orbit. 
+to the [[representation ring]] of $G$, which sends the prequantum bundle + Hamiltonian action $\xi$ to the $G$-representation $i_! \xi$. This is known as _[[Dirac induction]]_. It is the cohomological formulation of the [[orbit method]] for a fixed orbit. 
 
 On the other hand the motivic quantization horizontally of the bottom correspondence of [[2d Chern-Simons theories]] in the above diagram, which is
 
@@ -1245,17 +1245,47 @@ $$
   \array{
   \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G
    }
-  \,,
+  \,.
 $$
 
-yields a quantum map
-
-(...)
+About this, ([FHT II, (1.27), theorem 1.28](#FHT)) says the following.
 
 
-Comparison shows that this is precisely the construction ([Freed-Hopkins-Teleman, part II (1.26)](#FHT)).
++-- {: .num_prop}
+###### Proposition
 
-(...)
+For $G$ a [[compact Lie group]] with [[Lie algebra]] $\mathfrak{g}^\ast$, the [[push-forward in generalized cohomology|push-forward]] in compactly supported [[twisted K-theory|twisted]] $G$-[[equivariant K-theory]] to the point (the $G$-equivariant [[index]]) produces the [[Thom isomorphism]]
+
+$$
+  ind_{\mathfrak{g}^\ast} 
+    \;\colon\; 
+  K_G^{\sigma + dim G}(\mathfrak{g}^\ast)_{cpt} 
+   \stackrel{\simeq}{\to} 
+  K_G^0(\ast) \simeq Rep(G)
+  \,.
+$$
+
+Moreover, for $i \colon \mathcal{O} \hookrightarrow \mathfrak{g}^\ast$ a regular [[coadjoint orbit]], [[push-forward in generalized cohomology|push-forward]] involves a [[twisted K-theory|twist]] $\sigma$ of the form
+
+$$
+  Rep(G) \simeq K_G^0(\ast)
+  \stackrel{ind_{\mathcal{O}}}{\leftarrow}
+  K_G^{\sigma(\mathcal{O}) + dim(\mathcal{O})}(\mathcal{O})
+  \stackrel{i_!}{\to}
+  K_G^{\sigma + dim G}(\mathfrak{g}^\ast)_{cpt}
+$$
+
+and 
+
+1. $i_!$ is surjective 
+
+1. $ind_{\mathcal{O}} = ind_{\mathfrak{g}^\ast} \circ i_!$.
+
+=--
+
+
+
+
 
 
 
