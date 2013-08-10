@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,3 +43,17 @@ $$
 ### Relation to the character ring
 
 If $G$ is a [[finite group]] and we tensor $R(G)$ with the complex numbers, it becomes isomorphic to the **[[character ring]]** of $G$: that is, the ring of complex-valued functions on $G$ that are constant on each conjugacy class.  Such functions are called **[[class function]]s**.
+
+### Relation to twisted K-theory
+
+The representation ring of a [[compact Lie group]] is equivalent to the $G$-[[equivarint K-theory]] of the point.
+
+$$
+  Rep(G) \simeq K_G(\ast)
+  \,.
+$$
+
+The construction of representations by [[index]]-constructions of $G$-equivariant [[Dirac operators]] ([[push-forward in generalized cohomology|push-forward]] in $G$-[[equivariant K-theory]] to the point) is called _[[Dirac induction]]_.
+
+[[!redirects representation rings]]
+
