@@ -59,11 +59,15 @@ Basic introductory accounts include
 
 Further developments are in
 
-* Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:hep-th/new](http://arxiv.org/list/hep-th/new))
+* [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions
+Ashoke Sen_ ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
+
+* Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:1304.4926](http://arxiv.org/abs/1304.4926))
+
 
 A related controversial article that spawned a lot of discussion is
 
-* Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
+* Ahmed Almheiri, [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
   
 ### Interpretation in string theory
 
