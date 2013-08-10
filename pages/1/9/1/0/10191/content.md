@@ -26,9 +26,9 @@ $$
   \,.
 $$
 
-Accordingly the construction of an [[index]] ([[push-forward in generalized cohomology|push-forward]] to the point) in equivariant K-theory is a way of producing $G$-[[representations]] from [[equivariant vector bundles]]. This method is also called _Dirac induction_. 
+Accordingly the construction of an [[index]] ([[push-forward in generalized cohomology|push-forward]] to the point) in equivariant K-theory is a way of producing $G$-[[representations]] from [[equivariant vector bundles]]. Specifically with $K \hookrightarrow G$ a suitable subgroup for the push-forward from $K$-equivariant to $G$-equivariant K-theory/representations, this method is also called _Dirac induction_ since it is analogous to the construction of _[[induced representations]]_.
 
-Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, this is a K-theoretic formulation of the [[orbit method]].
+Applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, Dirac induction is a [[K-theory|K-theoretic]] formulation of the [[orbit method]].
 
 ## Properties
 
@@ -67,7 +67,7 @@ and
 
 =--
 
-This is ([FHT II, (1.27), theorem 1.28](#FHT)). For more background see at _[[orbit method]]_.
+This is ([FHT II, (1.27), theorem 1.28](#FHT)). Related results are in ([Hochs 12, section 2.2](#Hochs12)). For more background see at _[[orbit method]]_.
 
 
 
@@ -86,3 +86,5 @@ An inverse to Dirac induction, hence a construction of good equivariant vector b
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, section 1 of _[[Loop Groups and Twisted K-Theory]]_
  {#FHT}
 
+* [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
+ {#Hochs12}
