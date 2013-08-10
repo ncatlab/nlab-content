@@ -68,6 +68,22 @@ $$
 
 This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Atiyah-Segal completion theorem]] says that the map identifies $K(B G)$ as the completion of $R(G)$ at the [[ideal]] of [[virtual representations]] of rank 0.
 
+
+### Relation to representation theory
+ {#RelationToRepresentationTheory}
+
+The $G$-equivariant $K$-theory of the point is the [[representation ring]] of the group $G$:
+
+$$
+  K_G(\ast) \simeq Rep(G)
+  \,.
+$$
+
+Accordingly the construction of an [[index]] ([[push-forward in generalized cohomology|push-forward]] to the point) in equivariant K-theory is a way of producing $G$-[[representations]] from [[equivariant vector bundles]]. This method is also called _[[Dirac induction]]_. 
+
+Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, this is a K-theoretic formulation of the [[orbit method]].
+
+
 ## Examples
 
 The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the [[representation ring]] of $G$.
