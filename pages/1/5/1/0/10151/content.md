@@ -1,7 +1,7 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
+# Contents
+* automatic table of contents goes here
+{: toc}
 
 ## Definitions 
 
@@ -31,7 +31,7 @@ T A & \underset{\eta B}{\to} & T B
 is a pullback for every monomorphism $i$ in $\mathcal{C}$. 
 =-- 
 
-A monad $(T, m, u)$ on a category with pullbacks is _taut_ if $T$ is a taut functor and $m, u$ are taut transformations. 
+A [[monad]] $(T, m, u)$ on a category with pullbacks is _taut_ if $T$ is a taut functor and $m, u$ are taut transformations. 
 
 
 ## Examples 
