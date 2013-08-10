@@ -225,7 +225,7 @@ Lecture notes include
 
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
 
-* Stefan Hollands, [arXiv:0802.2198](http://arxiv.org/abs/0802.2198)
+* [[Stefan Hollands]], ([arXiv:0802.2198](http://arxiv.org/abs/0802.2198))
 
 The relation of locally constant factorization algebras to higher order [[Hochschild homology]] is in 
 
