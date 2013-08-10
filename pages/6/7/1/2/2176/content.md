@@ -1,3 +1,3 @@
-The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction).
+The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Differential_Logic_:_Introduction).
 
 [[!redirects Differential Logic]]
