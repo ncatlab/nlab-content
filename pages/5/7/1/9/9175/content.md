@@ -40,6 +40,8 @@ There is a canonical projection $\oversline{\rho} \;\colon\; V//G \to \mathbf{B}
 
 * [[action groupoid]]
 
+* [[local quotient stack]]
+
 * [[Borel construction]]
 
 * [[(infinity,1)-colimit]], [[infinity-action]]
