@@ -212,6 +212,10 @@ $$f_\beta(\gamma) = f_{\beta'}(\gamma');$$
 we counteracted this by using the pair $(\beta, \gamma)$ which was least in its equivalence class with respect to [[lexicographic order]]. 
 =-- 
 
+## Fundamental sequences and the Bachmann-Howard ordinal 
+
+### Fast-growing functions on $\mathbb{N}$ 
+
 ## Recursive ordinals 
 
 Of course, having reached $\Gamma_0$ as the least fixed point of $x \mapsto f_x(1)$, there is nothing stopping one from starting all over again with a new Veblen hierarchy, defining $g_0(x) = f_x(1)$ and defining $g_\alpha$ analogously to how we defined $f_\alpha$. 
