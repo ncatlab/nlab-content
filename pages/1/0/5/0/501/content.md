@@ -114,6 +114,7 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[finite object]]
 
+* [[countable ordinal]]
 
 
 [[!redirects finite set]]
