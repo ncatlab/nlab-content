@@ -79,3 +79,7 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 [[!redirects classifying infinity-stack]]
 [[!redirects moduli infinity-stacks]]
 [[!redirects classifying infinity-stacks]]
+
+[[!redirects moduli 2-stack]]
+[[!redirects moduli 2-stacks]]
+
