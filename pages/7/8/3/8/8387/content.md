@@ -45,3 +45,6 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 [[!redirects computing]]
 
+[[!redirects computability theory]]
+[[!redirects computability theories]]
+
