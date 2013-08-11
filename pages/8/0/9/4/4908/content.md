@@ -9,3 +9,4 @@
 category: people
 
 [[!redirects Jiri Adamek]]
+[[!redirects Adamek]] 
