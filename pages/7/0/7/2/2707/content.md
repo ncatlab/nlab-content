@@ -200,6 +200,9 @@ Motivic structures show up in [[quantum field theory]], for instance
 
 * the [[motivic Galois group|motivic]] [[cosmic Galois group]] in [[renormalization]].
 
+The [[path integral as a pull-push transform|pull-push quantization]] in [[Gromov-Witten theory]] is naturally understood as a "[[motivic quantization]]" in terms of [[Chow motives]] of [[Deligne-Mumford stacks]] ([Behrend-Manin 95](#BehrendManin95)).
+
+
 ### Relation to KK-theory
 
 See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutative topology](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
@@ -338,6 +341,21 @@ For a collection of literature see also paragraph 1.5 in
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
 
 See also at _[[motivic multiple zeta values]]_.
+
+That the [[path integral as a pull-push transform|pull-push quantization]] in [[Gromov-Witten theory]] is naturally understood as a "[[motivic quantization]]" in terms of [[Chow motives]] of [[Deligne-Mumford stacks]] was suggested in
+
+* [[Kai Behrend]], [[Yuri Manin]], _Stacks of Stable Maps and Gromov-Witten Invariants_ ([arXiv:alg-geom/9506023](http://arxiv.org/abs/alg-geom/9506023))
+ {#BehrendManin95}
+
+Further investigation of these stacky Chow motives then appears in 
+
+* [[Bertrand Toën]], _On motives for Deligne-Mumford stacks_, International Mathematics Research Notices 2000, 17 (2000) 909-928 ([arXiv:math/0006160](http://arxiv.org/abs/math/0006160), [web](http://hal.archives-ouvertes.fr/hal-00773027), [pdf](http://hal.archives-ouvertes.fr/docs/00/77/30/27/PDF/motdm.pdf))
+ {#Toen00}
+
+* Utsav Choudhury, _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
+
+
+
 
 category: algebraic geometry
 [[!redirects motif]]
