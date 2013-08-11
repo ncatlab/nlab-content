@@ -58,8 +58,12 @@ And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 An exposition of GW theory as a [[TCFT]] is at
 
-* A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
+* [[AJ Tolland]], _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
  {#Tolland}
+
+The origin of Gromov-Witten theory in and relation to [[string theory]] and other [[physics]] motivation is recalled and surveyed in 
+
+* Daniel Grunberg, _Gromov-Witten Theory and Threshold Corrections_ ([arXiv:hep-th/0605087](http://arxiv.org/abs/hep-th/0605087))
 
 ### As a TCFT
 
@@ -124,6 +128,20 @@ A review with further pointers is in
 
 * Dan Abramovich, _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
 
+
+### In terms of motives
+
+That the [[path integral as a pull-push transform|pull-push quantization]] of Gromov-Witten theory is naturally understood as a "[[motivic quantization]]" in terms of [[Chow motives]] of [[Deligne-Mumford stacks]] was suggested in
+
+* [[Kai Behrend]], [[Yuri Manin]], _Stacks of Stable Maps and Gromov-Witten Invariants_ ([arXiv:alg-geom/9506023](http://arxiv.org/abs/alg-geom/9506023))
+ {#BehrendManin95}
+
+Further investigation of these stacky Chow motives then appears in 
+
+* [[Bertrand Toën]], _On motives for Deligne-Mumford stacks_, International Mathematics Research Notices 2000, 17 (2000) 909-928 ([arXiv:math/0006160](http://arxiv.org/abs/math/0006160), [web](http://hal.archives-ouvertes.fr/hal-00773027), [pdf](http://hal.archives-ouvertes.fr/docs/00/77/30/27/PDF/motdm.pdf))
+ {#Toen00}
+
+* Utsav Choudhury, _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
 
 
 
