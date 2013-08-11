@@ -288,6 +288,24 @@ The fact that _perturbatively_ [[perturbative string theory]] is a [[UV-completi
 
 (...)
 
+### How does string theory involve homotopy theory, higher geometry and higher category theory?
+ {#HowDoesStringTheoryInvolveHomotopyTheory}
+
+
+Most of the major frameworks of theoretical physics go along with a certain field of [[mathematics]] that naturally formalizes them. For instance [[classical mechanics]] today is understood as being described by the mathematics of _[[symplectic geometry]]_, Einstein [[gravity]] is described by _[[differential geometry]]_ and [[gauge theory]] by what is called _[[Chern-Weil theory]]_. It turns out that [[string theory]] involves all these physical and mathematical ingredients, but in a "higher dimensional" way. This "higher dimensional mathematics" is known as _[[homotopy theory]]_ and _[[higher category theory]]_, its geometric incarnation as _[[higher geometry]]_ or _[[derived geometry]]_.
+
+At the heart of it, this increase in "mathematical dimension" is simply a reflection of the fact that a [[string]] [[worldsheet]] is one [[dimension]] higher than a [[particle]] [[worldline]]. This has to do with a general fact not just of [[string theory]] but of [[quantum field theory]]: the mathematical formulation of a _[[local field theory]]_ of [[dimension]] $n$ is naturally captured by a higher dimensional mathematical structures known as an _[[n-categories]]_. (The precise formulation of this is a theorem known as the _[[cobordism hypothesis]]_.) For instance where in [[quantum mechanics]] one has a 1-[[category]] of [[spaces of states]], in string theory one has a [[2-category]] of [[2-modules]]. 
+
+But string theory is really about the _[[second quantization]]_ of these 2-dimensional [[worldsheet]] field theories, and it turns out that under this passage other [[worldvolume]] theories of all kinds of dimensions appear, too: the various "[[branes]]". Accordingly, [[string theory]] involves [[n-categories]] for various values of $n$.
+
+Much of this relation of [[string theory]] to [[higher category theory]] was unclear when string theory developed in the late 20th century. In fact also the theory of [[n-categories]] did not really exist yet, just a vague feeling that such a theory ought to exist. What was prevalent in string theory then was a feeling that _some_ kind of new mathematics would be necessary to capture the nature of the theory.
+
+> Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. ([[Edward Witten]], [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf))
+
+For the moment, see at **[[higher category theory and physics]]** for more.
+
+(...)
+
 
 ## Further expositions, introductions and lectures
 
