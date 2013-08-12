@@ -70,7 +70,11 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 * [[fixed point]]
 
+* [[constant function]]
+
 * [[empty function]]
+
+* [[partial recursive function]]
 
 * [[functor]]
 
