@@ -3607,6 +3607,8 @@ We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lin
 
 * [[higher prequantum geometry]]
 
+* [[quantization]] of prequantum field theory is naturally formulated in terms of _[[motivic quantization]]_
+
 ## References
 
 The idea of formulating local prequantum field theory by spans in a slice over a "space of phases" in [[higher geometry]] has been expressed in the unpublished note
