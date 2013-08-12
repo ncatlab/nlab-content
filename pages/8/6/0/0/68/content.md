@@ -36,13 +36,21 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 ## Properties
 
+### Other descriptions
+
 A differentible stack is in particular an object in the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] that is 
 
 * [[1-truncated]] 
 
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete</a>.
 
-It is however more special than that. The general 1-truncated concrete [[smooth ∞-groupoid]]s are [[internal groupoid]]s in [[diffeological space]]s.
+It is however more special than that. The general 1-truncated concrete [[smooth ∞-groupoid]]s are [[internal groupoid]]s in [[diffeological spaces]].
+
+### Mapping stacks
+
+For $X$, $Y$ two differentiable stacks, there is the [[mapping stack]] $[X,Y]$, which a priory is only a [[smooth stack]]. It should be true that a sufficient condition for this itself to be a [[Frechet manifold|Frechet]]-differentiable stack is that $X$ has an [[atlas]] by a [[compact topological space|compact]] [[smooth manifold]]. 
+
+(See also [[manifold structure of mapping spaces]].)
 
 
 ## Related concept
