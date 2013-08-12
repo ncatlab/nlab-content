@@ -46,7 +46,7 @@ and then
 
 Let $S$ be a fixed [[Noetherian scheme|Noetherian base scheme]], and let $Sm/S$ be the category of [[smooth schemes]] of finite type over $S$.
 
-+-- {: .num_defn}
++-- {: .num_defn #MotivicHomotopyCategory}
 ###### Definition
 The motivic homotopy category $\mathrm{H}(S)$ over $S$ is the [[homotopy localization]] of the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the [[Nisnevich site]] $Sm/S$ equipped with the [[interval object]] $\mathbb{A}^1$. Objects of $\mathrm{H}(S)$ are called _motivic spaces_.
 =--
@@ -109,16 +109,17 @@ becomes [[(∞,1)-pushout|homotopy cocartesian]] in the [[Nisnevich site|Nisnevi
 ## The stable motivic homotopy category 
  {#StableCategory}
 
-+-- {: .num_defn}
++-- {: .num_defn #StableMotivicHomotopyCategory}
 ###### Definition
-The stable motivic homotopy category $SH(S)$ over $S$ is the [[inverse limit]] of the tower of (∞,1)-categories
+
+The _stable motivic homotopy category_ $SH(S)$ over $S$ is the [[inverse limit]] of the tower of (∞,1)-categories
 
 $$ \dots \stackrel{\Omega_T}{\to} \mathrm{H}_*(S) \stackrel{\Omega_T}{\to} \mathrm{H}_*(S) \stackrel{\Omega_T}{\to} \mathrm{H}_*(S),$$
 
-where $\Omega_T {:=}Hom(T, -)$. An object of the stable motivic homotopy category is called a _motivic spectrum_ (or _$T$-spectrum_).
+where $H(S)$ is the ordinary motivic homotopy category from def. \ref{MotivicHomotopyCategory}, and where $\Omega_T {:=}Hom(T, -)$. An object of the stable motivic homotopy category is called a _motivic [[spectrum]]_ (or _$T$-spectrum_).
 =--
 
-Thus, a motivic spectrum $E$ is a sequence of pointed motivic spaces $(E_0,E_1,E_2\dots)$ together with equivalences
+Thus, a motivic spectrum $E$ is a sequence of pointed motivic spaces $(E_0,E_1,E_2\dots)$ together with [[equivalences]]
 
 $$ \Omega_T E_{i+1}\simeq E_i. $$
 
@@ -357,7 +358,7 @@ Let $k$ be a [[perfect field]]. If $X$ is a smooth affine $k$-scheme, Morel prov
 
 $$ Vect_n(X) \cong [X,BGL_n], $$
 
-where $[-,-]$ denote homotopy classes of maps in $\mathrm{H}(k)$. The classical problem of determining whether a rank $n$ vector bundle splits off a trivial line bundle is thus equivalent to determining whether the classifying map $X\to BGL_n$ lifts to $BGL_{n-1}$ in $\mathrm{H}(k)$. If the Nisnevich [[cohomological dimension]] of $X$ is at most $n$, we can use [[obstruction theory]] together with the [[fiber sequence]]
+where $[-,-]$ denote homotopy classes of maps in the motivic homotopy category $\mathrm{H}(k)$, def. \ref{MotivicHomotopyCategory}. The classical problem of determining whether a [[rank]] $n$ [[vector bundle]] splits off a trivial [[line bundle]] is thus equivalent to determining whether the classifying map $X\to BGL_n$ lifts to $BGL_{n-1}$ in $\mathrm{H}(k)$. If the Nisnevich [[cohomological dimension]] of $X$ is at most $n$, we can use [[obstruction theory]] together with the [[fiber sequence]]
 
 $$ \mathbb{A}^n-0 \to BGL_{n-1} \to BGL_n $$
 
