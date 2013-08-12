@@ -1,3 +1,38 @@
-A subset $S$ of the set of [[natural numbers]] $\mathbb{N}$ is _recursive_ if there is a total recursive or [[partial recursive function|computable function]] $f: \mathbb{N} \to \mathbf{2} = \{0, 1\}$ such that $S = f^{-1}(1)$. Recursive subsets are a proper subclass of the class of _recursively enumerable_ sets, which are domains of [[partial recursive functions]] $f: \mathbb{N} \to \mathbb{N}$. 
 
-Recursive sets form a Boolean subalgebra of $P(\mathbb{N})$ (whereas recursively enumerable subsets do not form a Boolean subalgebra). 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[subset]] $S$ of the set of [[natural numbers]] $\mathbb{N}$ is _recursive_ if there is a total recursive or [[partial recursive function|computable function]] $f: \mathbb{N} \to \mathbf{2} = \{0, 1\}$ such that $S = f^{-1}(1)$. Recursive subsets are a proper subclass of the class of _recursively enumerable_ sets, which are domains of [[partial recursive functions]] $f: \mathbb{N} \to \mathbb{N}$. 
+
+## Properties
+
+Recursive sets form a [[Boolean algebra|Boolean subalgebra]] of the [[power set]] algebra $P(\mathbb{N})$ (whereas recursively enumerable subsets do not form a Boolean subalgebra). 
+
+## Related concepts
+
+* [[definable set]], [[constructible set]]
+
+
+
+[[!redirects recursive subsets]]
