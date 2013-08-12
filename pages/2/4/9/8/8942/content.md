@@ -32,9 +32,18 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 * Eric Bergshoeff, Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
 
+A proposal for a descriotion of the M9 as an [[schreiber:infinity-Wees-Zumino-Witten theory|higher WZW theory]] is in
+
 * Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_ ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
 
+Discussin of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[tachyon condensation]] is in
+
+* Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](http://arxiv.org/abs/hep-th/0001170))
+
+See also
+
 * P.S. Howe, A. Kaya, E. Sezgin, P. Sundell, _Codimension One Branes_ ([arXiv:hep-th/0001169](http://arxiv.org/abs/hep-th/0001169))
+
 
 * Takeshi Sato, _On M-9-branes and their dimensional reductions_ ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
 
