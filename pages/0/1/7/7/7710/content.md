@@ -64,6 +64,8 @@ One can also study [[ind-object]]s and [[pro-object]]s in the category of defina
 
 * [[constructible set]]
 
+* [[recursive subset]]
+
 * [[definable groupoid]]
 
 
