@@ -154,7 +154,7 @@ $$
 This is due to ([ChasSullivan](#ChasSullivan)).
 
 
-## In terms of TQFTs
+## String operations as operators in a topological quantum field theory
  {#InTermsOfTQFTs}
 
 The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to an [[HQFT]] (with due care on some technical subtleties). 
@@ -167,12 +167,8 @@ $$
 
 given by the [[FQFT]] corresponding to the $\sigma$-modelon these state spaces, acting on these state spaces.
 
+$\,,$
 
-### Closed string TQFT
-
-(...)
-
-### Open closed string TQFT
 
 Let $X$ be an [[orientation|oriented]] [[compact space|compact]] [[manifold]] of dimension $d$.
  
@@ -188,7 +184,15 @@ structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[br
 
 =--
 
-For a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement is conjectured. The detailed proof for the general statement is in ([Kupers 11](#Kupers)).
+For [[closed strings]] this is discussed in ([Cohen-Godin 03](#CohenGodin03), [Tamanoi 07](#Tamanoi07)). 
+For [[open strings]] on  a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement for arbitrary branes is conjectured. A detailed proof of this general statement is in ([Kupers 11](#Kupers)). 
+
++-- {: .num_remark }
+###### Remark
+
+These constructions work by regarding the [[mapping spaces]] from 2-dimensional [[cobordisms]] with maps to the base space as [[correspondences]] and then applying pull-push (pullback followed by [[push-forward in generalized cohomology|push-forward in cohomology]]/[[Umkehr maps]]) to these. Hence these quantum field theory realizations of string topology may be thought of as arising from a [[quantization]] process  of the form _[[path integral as a pull-push transform]]/[[motivic quantization]]_.
+
+=--
 
 ## Related concepts
 
@@ -222,7 +226,8 @@ the string product was realized as genuine pull-push (in terms of dual [[fiber i
 The interpretation of closed string topology as an [[HQFT]] is discussed in
 
 * [[Ralph Cohen]], [[Veronique Godin]], 
-  _[[A Polarized View of String Topology]]_
+  _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
+ {#CohenGodin03}
 
 * Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  {#Tamanoi07}
