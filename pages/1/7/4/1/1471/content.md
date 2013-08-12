@@ -101,17 +101,27 @@ By the [[Yoneda lemma]], $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if
 
 ## References
 
+Foundations are in
 
 * [[Behrang Noohi]]
 
   * _[Foundations of Topological Stacks I](http://arxiv.org/abs/math.AG/0503247)_
 
   * _[Homotopy types of topological stacks](http://front.math.ucdavis.edu/0808.3799)_
-
-  * _[Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373)_
 {#Noohi}
 
 * Metzler, _Topological and smooth stacks_ ([arXiv:math/0306176](http://arxiv.org/abs/math/0306176))
+
+* [[David Carchedi]], _Categorical properties of topological and differentiable stacks_, PhD thesis 2001 ([pdf](http://people.mpim-bonn.mpg.de/carchedi/Thesis_David_Carchedi.pdf))
+
+* [[David Carchedi]], _Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks_ ([arXiv:0907.3925](http://arxiv.org/abs/0907.3925))
+
+The [[mapping stacks]] of [[topological stacks]] are discussed in 
+
+* [[Behrang Noohi]], _Mapping stacks of topological stacks_ ([arXiv:0809.2373](http://arxiv.org/abs/0809.2373))
+ {#Noohi08}
+
+See also
 
 * [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ ([arXiv](http://front.math.ucdavis.edu/0712.3857))
 
