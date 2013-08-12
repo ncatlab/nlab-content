@@ -85,6 +85,8 @@ Recall that the universal property for $\mathbb{N}$ states that for data $g_0\co
 
 ## Related concepts
 
+* [[partial recursive function]], [[recursive subset]]
+
 Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive structure]]. 
 
 
