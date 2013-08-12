@@ -31,3 +31,7 @@
 and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
 [[!redirects 2d SCFTs]]
+
+[[!redirects 2d super conformal field theory]]
+[[!redirects 2d super conformal field theories]]
+
