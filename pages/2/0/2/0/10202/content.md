@@ -1,6 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Deduction and induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-A **partial recursive function** is a partial function which can be defined by an algorithm or computer program (e.g., a Turing machine), taking finitely many natural numbers as inputs, and which on input either runs forever, or eventually halts and returns a natural number as output. 
+A **partial recursive function** is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a Turing machine), taking finitely many [[natural numbers]] as inputs, and which on input either runs forever, or eventually halts and returns a natural number as output. 
 
 This idea as described is vague until it is circumscribed by a specific notion of computer program (Turing machines, register machines, abaci, etc.). There is a standard article of faith called the "Church-Turing thesis", identifying functions on natural numbers that are algorithmically computable with those that are computable using a Turing machine (or some variant class of machines that is Turing complete). 
 
@@ -10,17 +33,17 @@ A purely mathematical definition of the intended class of functions is given bel
 
 +-- {: .num_defn} 
 ###### Definition 
-A _partial recursive function_ is a [[partial function]] from $\mathbb{N}^k$ to $\mathbb{N}$ (where $\mathbb{N}$ is the set of [[natural numbers]] and $k \geq 0$ is finite) that belongs to the smallest class $\mathcal{C}$ of partial functions that 
+A _partial recursive function_ is a [[partial function]] from $\mathbb{N}^k$ to $\mathbb{N}$ (where $\mathbb{N}$ is the [[set]] of [[natural numbers]] and $k \geq 0$ is finite) that belongs to the smallest [[class]] $\mathcal{C}$ of partial functions that 
 
-* includes all constant functions $1 \to \mathbb{N}$; 
+* includes all [[constant functions]] $1 \to \mathbb{N}$; 
 
-* includes all projection maps $\pi_i: \mathbb{N}^k \to \mathbb{N}$, $i = 1, \ldots, k$; 
+* includes all [[projection]] maps $\pi_i: \mathbb{N}^k \to \mathbb{N}$, $i = 1, \ldots, k$; 
 
 * includes the successor function $s: \mathbb{N} \to \mathbb{N}$; 
 
-* is closed under composition: if $f_1: \mathbb{N}^{k_1} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k_n} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g(f_1, \ldots, f_n): \mathbb{N}^{k_1 + \ldots + k_n} \to \mathbb{N}$; 
+* is closed under [[composition]]: if $f_1: \mathbb{N}^{k_1} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k_n} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g(f_1, \ldots, f_n): \mathbb{N}^{k_1 + \ldots + k_n} \to \mathbb{N}$; 
 
-* is closed under primitive recursion: if $g: \mathbb{N}^k \to \mathbb{N}$ and $h: \mathbb{N}^{k+2} \to \mathbb{N}$ belong to $\mathcal{C}$, then the function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ defined recursively by the equations (for $y \in \mathbb{N}$ and $\mathbf{x} \in \mathbb{N}^k$) 
+* is closed under primitive [[recursion]]: if $g: \mathbb{N}^k \to \mathbb{N}$ and $h: \mathbb{N}^{k+2} \to \mathbb{N}$ belong to $\mathcal{C}$, then the function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ defined recursively by the equations (for $y \in \mathbb{N}$ and $\mathbf{x} \in \mathbb{N}^k$) 
 $$f(0, \mathbf{x}) = g(\mathbf{x})$$ 
 $$\,$$
 $$f(y+1, \mathbf{x}) = h(y, f(y, \mathbf{x}), \mathbf{x})$$ 
@@ -29,3 +52,10 @@ also belongs to $\mathcal{C}$;
 * is closed under minimization: given any _total_ function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ belonging to $\mathcal{C}$, the partial function $g: \mathbb{N}^k \to \mathbb{N}$, defined by $g(\mathbf{x}) = c$ iff $f(c, \mathbf{x}) = 0$ and $f(d, \mathbf{x}) \gt 0$ whenever $0 \leq d \leq c-1$, also belongs to $\mathcal{C}$. 
 
 =-- 
+
+## Related concepts
+
+* [[recursive subset]]
+
+
+[[!redirects partial recursive functions]]
