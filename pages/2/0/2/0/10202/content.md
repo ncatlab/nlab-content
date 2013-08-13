@@ -54,9 +54,81 @@ also belongs to $\mathcal{C}$;
 =-- 
 
 
++-- {: .num_defn} 
+###### Definition 
+A _primitive recursive function_ is a function that belongs to the smallest class of functions of the form $\mathbb{N}^k \to \mathbb{N}$ that contains constants, projection maps, the successor map, is closed under composition, and is closed under primitive recursion. 
+=-- 
+
+Clearly the primitive recursive functions are a subclass of partial recursive functions. Notice that primitive recursive functions are not merely partial functions, but actual (*total*) functions. 
+
+Both the class of partial recursive functions and the class of primitive recursive functions yield [[Lawvere theories]], where a morphism $k \to 1$ of the Lawvere theory is a function $\mathbb{N}^k \to \mathbb{N}$ belonging to the class. 
+
++-- {: .num_defn} 
+###### Definition 
+A _recursive relation_ (or what is more usual nowadays, a *computable relation*) is a subset of $\mathbb{N}^k$ whose characteristic function $\chi: \mathbb{N}^k \to \{0, 1\}$ is recursive. Similarly, a primitive recursive relation is a relation whose characteristic function is primitive recursive. 
+=-- 
+
+
 ## Properties
 
-There exist recursive [[bijections]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$; since partial recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.)
+We may build up a stock of functions and relations that are primitive recursive as follows. (All closure properties mentioned will clearly also apply to partial recursive functions and relations.) 
+
+1. Addition, multiplication, and exponentiation on $\mathbb{N}$. The factorial function $n \mapsto n!$ is primitive recursive. Binomial coefficients. 
+
+1. The predecessor function $Pred: \mathbb{N} \to \mathbb{N}$, defined by the recursion $Pred(0) = 0$, $Pred(n+1) = n$. 
+
+1. *Truncated subtraction*, where $x \stackrel{\cdot}{-} y = x - y$ if $x \geq y$, else $0$, is primitive recursive. It is defined by the recursion $x \stackrel{\cdot}{-} 0 = x$, $x \stackrel{\cdot}{-} (y+1) = Pred(x \stackrel{\cdot}{-} y)$. 
+
+1. The distance function ${|x-y|} = (x \stackrel{\cdot}{-} y) + (y \stackrel{\cdot}{-} x)$. The function $\alpha(x) = 1 \stackrel{\cdot}{-} x$; this is the characteristic function of the unary relation or predicate "equals zero". So "equals zero" is a computable relation. So is "doesn't equal zero", since this has characteristic function $\alpha(\alpha(x))$. 
+
+1. Therefore the equality relation ${|x-y|} = 0$ is a computable relation. So is $x \lt y$, being the relation "$y \stackrel{\cdot}{-} x$ doesn't equal zero". 
+
+1. Similarly, if $R$ is a primitive recursive relation (so that its characteristic function $\chi_R$ is primitive recursive), then so is its negation $\neg R$, since $\chi_{\neg R} = \alpha(\chi_R)$. If $P$, $Q$ are primitive recursive relations, so is $P \wedge Q$, since $\chi_{P \wedge Q} = \chi_P \cdot \chi_Q$. Hence Boolean combinations of primitive recursive relations are primitive recursive. 
+
+1. If $f(x, y, \mathbf{z})$ is primitive recursive, so is 
+$$g(y, \mathbf{z}) \coloneqq \sum_{x=0}^{y-1} f(x, y, \mathbf{z})$$ 
+and similarly with the sum replaced by a product. It follows that primitive recursive predicates are closed under _bounded quantification_; e.g., if $R(x, y, \mathbf{z})$ is primitive recursive, then so is 
+$$Q(y, \mathbf{z}) = \forall_{0 \leq x \lt y} R(x, y, \mathbf{z}) \coloneqq \bigwedge_{x=0}^{y-1} R(x, y, \mathbf{z})$$ 
+since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x, y, \mathbf{z})$. 
+
+1. (Bounded least number operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation, then the function $f(y, \mathbf{z})$ defined to be "least $x$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
+$$f(y, \mathbf{z}) = [\sum_{x=0}^{y-1} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{y-1} \chi_{\neg R}(x, y, \mathbf{z}).$$  
+
+
+(To be continued.) 
+
+There exist primitive recursive mutually inverse [[bijections]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$; since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.) 
+
+For instance, the map $\mathbb{N}^2 \to \mathbb{N}$ defined by (to be continued). 
+
+
+## The Ackermann function 
+
++-- {: .num_defn} 
+###### Definition 
+For each $n$, we define a function $A_n: \mathbb{N} \to \mathbb{N}$ by 
+
+* $A_0(m) = 2 m$; 
+
+* $A_{n+1}(m) = (A_n)^m(1)$ 
+
+where $f^m$ denotes the composition of $m$ copies of $f$. The **Ackermann function** $A: \mathbb{N} \to \mathbb{N}$ is defined by $A(m) = A_m(m)$. 
+=-- 
+
+We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. (The key is that while 
+
+It is easy to show that $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, we can show that $A_{n+1}$ is primitive recursive: first $A_{n+1}(0) = 1$, and then $A_{n+1}(m+1) = A_n (A_{n+1}(m))$. Thus, letting $g$ be the constant or 0-ary function with value $1$, and letting $h$ be the binary function $A_n \circ \pi_2: \mathbb{N}^2 \to \mathbb{N}$ which is primitive recursive by supposition, $A_{n+1}$ is the function $f$ asserted to exist in the primitive recursion axiom. 
+
+By induction one may easily show $A_n(1) = 2$ for all $n$ and $A_n(2) = 4$ for all $n$. We have $A_{n+1}(3) = A_n(A_n(A_n(1))) = A_n(A_n(2)) = A_n(4)$ for all $n$. The function $A_1$ gives powers of $2$, the function $A_2$ gives tetrations of $2$, and it gets crazy from there. 
+
+Some routine inductions establish the following facts: 
+
+1. For all $n$, the function $A_n$ is strictly increasing, and with the sole exception of $A_0(0) = 0$, we have $m \lt A_n(m)$ for all $m$, i.e. $A_n$ is strictly inflationary in arguments $m \gt 0$. 
+
+
+
+
+
 
 
 ## Related concepts
