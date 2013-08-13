@@ -29,3 +29,5 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 * [[ordinary homology]]
 
+* [[twisted ordinary cohomology]]
+
