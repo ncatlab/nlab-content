@@ -21,7 +21,7 @@
 
 ## Idea
 
-Universal bundles -- or [[mapping cocylinder]]s -- are intermediate steps in the computation of [[homotopy fibers]], dual to the that way [[mapping cone]] are intermedite steps in the computation of [[homotopy cofibers]].
+Universal bundles -- or [[mapping cocylinder]]s -- are intermediate steps in the computation of [[homotopy fibers]], dual to the that way [[mapping cone]] are intermediate steps in the computation of [[homotopy cofibers]].
 
 It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullbacks]] of the [[point]] -- or, if things are not [[groupoid]]al, [[comma objects]].
 
