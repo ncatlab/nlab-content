@@ -1,4 +1,4 @@
-The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Information_%3D_Comprehension_%C3%97_Extension#Commentary_Note_1).
+The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Information_%3D_Comprehension_%C3%97_Extension).
 
 [[!redirects ICE]]
 [[!redirects PLOI]]
