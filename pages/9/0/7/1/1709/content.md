@@ -524,6 +524,8 @@ Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-tw
 
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
 
+* [[twisted ordinary cohomology]], [[twisted K-theory]], [[twisted tmf]]
+
 ## References 
 
 ### General
