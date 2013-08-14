@@ -27,6 +27,10 @@ $$\alpha^{-1} = \frac1{{\|\alpha\|}^2} \widebar{\alpha}.$$
 
 In this way $\mathbb{H}$ is a normed division algebra. 
 
+## Modules and bimodules
+
+We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as $\mathbb{H}$ is not commutative, if we want to talk about tensor products of modules, we need to consider [[bimodules]]. This also means that ordinary [[linear algebra]] as is used over a field is not quite the same when dealing with quaternions. For instance, one needs to distinguish between _left_ and _right_ [[eigenvalues]] of [[matrices]] in $M_n(\mathbb{H})$ (using the left and right module structures on $\mathbb{H}^n$ respectively), and only left eigenvalues relate to the [[spectrum]] of the associated linear operator
+
 
 ## References
 
