@@ -16,17 +16,18 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Definition
 
-For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]]. This is naturally a [[Lie group]]
-
+For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]]. This is naturally a [[Lie group]].
 This is canonically isomorphic to the group of $n \times n$ orthogonal [[matrices]].
 
-The analog for complex Hilbert spaces is the [[unitary group]], or more generally see [[orthogonal group of an inner product space]].
+More generally there is a notion of _[[orthogonal group of an inner product space]]_.
+
+The analog for complex Hilbert spaces is the [[unitary group]].
 
 
 ## Whitehead tower and higher orientation structures
