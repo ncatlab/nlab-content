@@ -311,7 +311,10 @@ and this find the usual expression of the [[curvature]] of a connection as the s
 
 ## Related concepts
 
+* [[flat section]]
+
 [[!include gauge field - table]]
+
 
 
 ## References
