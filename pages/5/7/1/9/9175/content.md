@@ -31,7 +31,7 @@ This is the geometric version of the notion of _[[action groupoid]]_ .
 
 For $V = *$ the [[terminal object]], one writes $\mathbf{B}G \coloneqq *//G$.  This is the [[moduli stack]] for $G$-[[principal bundles]]. It is also the trivial _$G$-[[gerbe]]_.
 
-There is a canonical projection $\oversline{\rho} \;\colon\; V//G \to \mathbf{B}G$. This is the [[universal associated infinity-bundle|universal rho-associated bundle]].
+There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G$. This is the [[universal associated infinity-bundle|universal rho-associated bundle]].
 
 
 ## Related concepts
