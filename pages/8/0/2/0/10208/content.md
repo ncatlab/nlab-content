@@ -66,15 +66,19 @@ $$
 $$
 the latter equality using that $A^{-1} = A^\dagger$. We need to check that this is indeed a map to $T_{A^\dagger}$ and that it is an isomorphism. 
 
-We calculate
+Since
+$$
+   (A c_A(X))^\dagger = A c_I(A^\dagger X)^\dagger A^\dagger,
+$$
+if we show that $c_I(A^\dagger X)^\dagger = - c_I(A^\dagger X)$ we are done. Let $Z = X^\dagger A$, which is again in $O(n,\mathbb{K})$. Then
 $$
 \begin{aligned}
-   (A c_A(X))^\dagger & = A c_I(A^\dagger X)^\dagger A^\dagger\\
-    & = A c_I(X^\dagger A) A^\dagger
+    c_I(Z)^\dagger & = \left( (I - Z)(I + Z)^{-1} \right)^\dagger\\
+    & = \left( (I - Z)Z^\dagger Z^{\dagger -1}(I + Z)^{-1} \right)^\dagger\\
+    & = \left( -(I - Z^\dagger)(I + Z^\dagger)^{-1} \right)^\dagger \\
+    & = -(I + Z)^{-1}(I - Z)
 \end{aligned}
 $$
-so if we show that $c_I(X^\dagger A) = - c_I(A^\dagger X)$ we are done.
-
 (tbc...)
 
 
