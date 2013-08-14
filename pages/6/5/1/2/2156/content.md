@@ -62,6 +62,15 @@ Negative (semi)definite inner products behave very much like positive (semi)defi
 
 The study of positive definite inner product spaces (hence essentially of all semidefinite inner product spaces over ordered fields) is essentially the study of [[Hilbert spaces]].  (For Hilbert spaces, one usually uses a [[topological field]], typically $\mathbb{C}$, and requires a completeness condition, but this does not effect the algebraic properties much.)  The study of indefinite inner product spaces is very different; see the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Krein_space) on [[Krein space]]s for some of it.
 
+## Examples
+
+* [[Euclidean space]];
+
+* [[Hilbert spaces]] (over $\mathbb{C}$), for example $\mathbb{C}^n$;
+
+* Finite-dimensional modules over $\mathbb{H}$, the [[quaternions]].
+
+
 
 [[!redirects inner product]]
 [[!redirects inner products]]
