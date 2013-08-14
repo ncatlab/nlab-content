@@ -25,6 +25,8 @@ $$
   \,.
 $$
 
+The symplectic group should not be confused with the [[compact symplectic group]] $Sp(n)$, which is the [[maximal compact subgroup]] of the _complex_ symplectic group $Sp(2n,\mathbb{C})$.
+
 ## Properties
 
 ### Maximal compact subgroup
