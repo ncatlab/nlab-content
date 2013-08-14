@@ -17,7 +17,7 @@ and extended by $\mathbb{R}$-linearity to all of $\mathbb{H}$. The norm on $\mat
 
 $${\|\alpha\|}^2 = \alpha \widebar{\alpha}$$ 
 
-where given an $\mathbb{R}$-[[linear combination]] $\alpha = a 1 + b i + c j + d k$, we define $\widebar{\alpha} \coloneqq a 1 - b i - c j - d k$. A simple calculation yields 
+where given an $\mathbb{R}$-[[linear combination]] $\alpha = a 1 + b i + c j + d k$, we define the _conjugate_ $\widebar{\alpha} \coloneqq a 1 - b i - c j - d k$. A simple calculation yields 
 
 $${\|\alpha\|}^2 = a^2 + b^2 + c^2 + d^2$$ 
 
@@ -29,7 +29,9 @@ In this way $\mathbb{H}$ is a normed division algebra.
 
 ## Modules and bimodules
 
-We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as $\mathbb{H}$ is not commutative, if we want to talk about tensor products of modules, we need to consider [[bimodules]]. This also means that ordinary [[linear algebra]] as is used over a field is not quite the same when dealing with quaternions. For instance, one needs to distinguish between _left_ and _right_ [[eigenvalues]] of [[matrices]] in $M_n(\mathbb{H})$ (using the left and right module structures on $\mathbb{H}^n$ respectively), and only left eigenvalues relate to the [[spectrum]] of the associated linear operator
+We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as $\mathbb{H}$ is not commutative, if we want to talk about tensor products of modules, we need to consider [[bimodules]]. This also means that ordinary [[linear algebra]] as is used over a field is not quite the same when dealing with quaternions. For instance, one needs to distinguish between _left_ and _right_ [[eigenvalues]] of [[matrices]] in $M_n(\mathbb{H})$ (using the left and right module structures on $\mathbb{H}^n$ respectively), and only left eigenvalues relate to the [[spectrum]] of the associated linear operator.
+
+Using the conjugation operation one can define an inner product $\langle q,p\rangle := \overline{q} p$ on $\mathbb{H}^n$ so that the corresponding [[orthogonal group of an inner product space|orthogonal group]] is the [[compact symplectic group]].
 
 
 ## References
