@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+## Definition
+
+The *compact symplectic group* is the [[simply-connected]], maximal [[compact]] real [[Lie group]] $Sp(n)$ sitting inside the complex [[symplectic group]] $Sp(2n,\mathbb{C})$. It can also be seen as the [[orthogonal group of an inner product space|othogonal group]] of $\mathbb{H}^n$. It should not be confused with the [[symplectic group]] $Sp(2n,\mathbb{R})$, which is not simply-connected.
+
+## Examples
+
+* The group $Sp(1)$ is isomorphic to $SU(2)$ and also to the [[spin group]] $Spin(3)$. Its underlying manifold is the 3-[[sphere]].
+
+* $Sp(2)$ is isomorphic to $Spin(5)$.
