@@ -26,7 +26,7 @@ For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isome
 
 This is canonically isomorphic to the group of $n \times n$ orthogonal [[matrices]].
 
-The analog for complex Hilbert spaces is the [[unitary group]].
+The analog for complex Hilbert spaces is the [[unitary group]], or more generally see [[orthogonal group of an inner product space]].
 
 
 ## Whitehead tower and higher orientation structures
