@@ -65,6 +65,19 @@ By the universal property, the natural numbers object is unique up to [[isomorph
 
 Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). What this amounts to is demanding that $(\mathbb{N}, z, s)$ not only be a natural numbers object (in the above, unparametrized sense) in $E$, but that also, for each object $A$, this is preserved by the cofree coalgebra functor into the [[Kleisli category]] of the [[comonad]] $X \mapsto A \times X$ (which may be thought of as the category of maps parametrized by $A$). (Put another way, the finite product structure of $E$ gives rise to a canonical [[self-indexing]], and we are demanding the existence of an (unparametrized) NNO within this [[indexed category]], rather than just within the base $E$).
 
+To be explicit: 
+
++-- {: .num_defn} 
+###### Definition 
+In a category with finite products, a _parametrized natural numbers object_ is an object $N$ together with maps $z: 1 \to N$, $s: N \to N$ such that given any objects $A$, $X$ and maps $f: A \to X$, $g: X \to X$, there is a unique map $\phi_{f, g}: A \times N \to X$ making the following diagram commute: 
+
+$$\array{
+A & \stackrel{\langle z \circ !, 1_A\rangle}{\to} & N \times A & \stackrel{s \times 1_A}{\leftarrow} & N \times A \\
+ & \mathllap{f} \searrow & \downarrow \mathrlap{\phi_{f, g}} & & \downarrow \mathrlap{\phi_{f, g}} \\
+ & & X & \underset{g}{\leftarrow} & X
+}$$ 
+=--
+
 The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
 
 
