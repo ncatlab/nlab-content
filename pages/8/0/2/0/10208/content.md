@@ -8,9 +8,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Given an [[inner product space]] $V = (V,\langle-,-\rangle)$, the *orthogonal group* of $V$ is the subgroup of the [[general linear group]] $GL(V)$ which leaves invariant the inner product.
+Given an [[inner product space]] $V = (V,\langle-,-\rangle)$, the *[[orthogonal group]]* of $V$ is the subgroup of the [[general linear group]] $GL(V)$ which leaves invariant the inner product.
 
 ## Definition
 
