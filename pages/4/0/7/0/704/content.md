@@ -31,9 +31,10 @@ for more on this.
 
 ## Related concepts
 
+* [[local section]], [[global section]]
+
 * [[flat section]]
 
-* [[local section]]
 
 [[!redirects sections]]
 [[!redirects cross section]]
