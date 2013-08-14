@@ -333,7 +333,19 @@ of such [[spaces]].
 
 See the corresponding [references below](#ReferencesInTermsOfCorrespondences).
 
-Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. See [below](#AsAnAnalogOfMotives).
+Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. See [below](#AsAnAnalogOfMotives). For more on this see also the pointers at at _[[motivic quantization]]_.
+
+(...)
+
+* category of equivariant correspondences equipped with cocycle: $\hat F_{\mathcal{G}}^\ast$ (theorem 2.26);
+
+* specifically for K-theory cocycles: $\widehat {KK}_{\mathcal{G}}^\ast$  (section 4, page 27)
+
+* pull-push from correspondences to KK in proof of theorem 4.2, bottom of p. 27
+
+(...)
+
+
 
 ### As an analog of motives in noncommutative topology
  {#AsAnAnalogOfMotives}
