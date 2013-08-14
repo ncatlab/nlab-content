@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
+#### Higher geometry
 +--{: .hide}
-[[!include category theory - contents]]
+[[!include higher geometry - contents]]
 =--
 #### Topology
 +--{: .hide}
