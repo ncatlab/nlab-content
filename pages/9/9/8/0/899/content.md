@@ -147,6 +147,8 @@ A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/
 
   * [[compact topological group]]
 
+  * [[amenable topological group]]
+
   * [[maximal compact subgroup]]
 
   * [[loop group]]
