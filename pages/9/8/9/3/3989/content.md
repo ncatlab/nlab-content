@@ -2,4 +2,4 @@ _under construction_
 
 ## Idea
 
-Just as a [[topological space]] $(X,T)$ consists of a set $X$ and a [[topology]] $T$ on $X$, a [[diffeological space]] $(X,D)$ consists of a set $X$ and a _diffeology_ $D$ on $X$.
+Just as a [[topological space]] $(X,\mathcal{T}\;)$ consists of a set $X$ and a [[topology]] $\mathcal{T}$ on $X$, a [[diffeological space]] $(X,\mathcal{D}\,)$ consists of a set $X$ and a _diffeology_ $\mathcal{D}$ on $X$.
