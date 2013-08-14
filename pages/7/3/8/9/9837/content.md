@@ -122,7 +122,7 @@ on [[operator K-theory]] and [[KK-theory]].
 
 ### 22. Axiomatic K-theory
 
-(...)
+* [[bootstrap category]]
 
 ### 23. Universal coefficient theorems and K&#252;nneth theorems
 
