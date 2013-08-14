@@ -9,6 +9,8 @@ An __inner product space__ is a [[vector space]] $V$ equipped with a (conjugate)
 
 One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity or definiteness. On the other hand, it is very common to assume, although perhaps not universally assumed, that the form is _nondegenerate_; see also [[bilinear form]]. 
 
+The group of automorphisms of an inner product space is the [[orthogonal group of an inner product space]].
+
 
 ## Definitions
 
