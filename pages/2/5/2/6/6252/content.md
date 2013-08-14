@@ -30,7 +30,7 @@ $x\mapsto (Ax|y)$ is bounded on $dom(A)$.
 
 The graph $\Gamma_A\subset H\oplus H$ satisfies $\Gamma_{A^*} = \tau(\Gamma_A)^\perp$ where $\perp$ denotes the orthogonal complement and $\tau$ denotes the transposition of the direct summands changing the sign of one of the factors, i.e. $x\oplus y\mapsto -y\oplus x$. An unbounded operator $A$ is __closed__ if $\Gamma_A$ is closed subspace of $H\oplus H$. An operator $B$ is a closure of an operator $A$ if $\Gamma_B$ is a closure of operator $\Gamma_A$. It is said that $B$ is an extension of $A$ and one writes $B\supset A$ if $\Gamma_B\supset \Gamma_A$. The closure of an unbounded operator does not need to exist. 
 
-For any unbounded operator $A$ with a dense $dom(A)\susbet H$, if the adjoint operator $A^*$ exists, $A^*$ is closed, and if $(A^*)^*$ exists then it coincides with a closure of $A$.
+For any unbounded operator $A$ with a dense $dom(A)\subset H$, if the adjoint operator $A^*$ exists, $A^*$ is closed, and if $(A^*)^*$ exists then it coincides with a closure of $A$.
 
 An [[unbounded operator]] $A : H\to H$ on a Hilbert space $H$ is __self-adjoint__ if
 
