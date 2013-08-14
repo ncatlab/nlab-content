@@ -28,6 +28,12 @@ Providence RI, 1982. AMS.
 
 * [[Paul Baum]], R. Douglas. _Index theory, bordism, and K-homology_, Contemp. Math. 10: 1-31 1982.
 
+The proof that these geometric cycles indeed model all of [[K-homology]] is due to 
+
+* [[Paul Baum]], [[Nigel Higson]], [[Thomas Schick]], _On the Equivalence of Geometric and Analytic K-Homology_ ([arXiv:math/0701484](http://arxiv.org/abs/math/0701484))
+
+* Jeff Raven, _An equivariant bivariant Chern character_, PhD Thesis 
+
 A generalization to geometric (co)-cocycles for [[KK-theory]] is in section 3 of 
 
 * [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
