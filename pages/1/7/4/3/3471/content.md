@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _global sections_ of a [[bundle]] are simply its [[section]]s. When bundles are replaced by their [[sheaves]] of local sections, then forming global sections corresponds to the [[direct image]] operation on sheaves with respect to the morphism to the [[terminal object|terminal]] [[site]]. This definition generalizes to objects in a general [[topos]] and [[(∞,1)-topos]].
+The _global sections_ of a [[bundle]] are simply its [[sections]]. When bundles are replaced by their [[sheaves]] of [[local sections]], then forming global sections corresponds to the [[direct image]] operation on sheaves with respect to the morphism to the [[terminal object|terminal]] [[site]]. This definition generalizes to objects in a general [[topos]] and [[(∞,1)-topos]].
 
 
 ## Definition
@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-The adjective 'global' here is used to distinguish from a **local section**: a *generalised* section over some subspace $i : U \hookrightarrow B$ which is a section of the map to $U$ 
+The adjective 'global' here is used to distinguish from a **[[local section]]**: a *generalised* section over some subspace $i : U \hookrightarrow B$ which is a section of the map to $U$ 
 
 $$
   i^* E := E|_U \to U
@@ -72,7 +72,7 @@ for the **set of global sections** over $U$ (or $\Gamma(U,E)$ or similar).
 
 ### Of sheaves on topological spaces
 
-Every [[sheaf]] $A \in Sh(X) = Sh(Op(X))$ on (the [[site]] that is given by the [[category of open subsets]] of) a [[topological space]] $X$ is the sheaf of _local sections_  of its [[etale space]] [[bundle]] $E \to X$ in that
+Every [[sheaf]] $A \in Sh(X) = Sh(Op(X))$ on (the [[site]] that is given by the [[category of open subsets]] of) a [[topological space]] $X$ is the sheaf of _[[local sections]]_  of its [[etale space]] [[bundle]] $E \to X$ in that
 
 $$
   A : U \mapsto \Gamma_U(E)
@@ -181,6 +181,8 @@ If the [[(∞,1)-topos]] is a [[locally contractible (∞,1)-topos]] then this i
 The composite [[(∞,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (∞,1)-topos|shape of]] $\mathbf{H}$.
 
 ## Related concepts
+
+* [[local section]], [[flat section]]
 
 * [[abelian sheaf cohomology]]
 
