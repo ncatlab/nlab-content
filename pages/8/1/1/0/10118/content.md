@@ -5,7 +5,7 @@
 
 ## Idea
 
-Given a [[space]] $X$ and a [[group]] $G$, a $G$-[[flat connection]] or $G$-[[local system]] is a map $X \to \flat \mathbf{B}G$, or equivalently a map $\Pi(X) \to \mathbf{B}G$. A _moduli space of flat connections_ is a [[moduli space]] of such structure.
+Given a [[space]] $X$ and a [[group]] $G$, a $G$-[[flat connection]] or $G$-[[local system]] is a map $X \to \flat \mathbf{B}G$, or equivalently a map $\Pi(X) \to \mathbf{B}G$. A _moduli space of flat connections_ is a [[moduli space]]/[[moduli stack]] of such structure.
 
 ## Examples
 
@@ -20,3 +20,6 @@ The [[Narasimhan–Seshadri theorem]] asserts that the moduli space of [[flat co
 * [[moduli space of connections]]
 
 [[!redirects moduli spaces of flat connections]]
+
+[[!redirects moduli stack of flat connections]]
+[[!redirects moduli stacks of flat connections]]
