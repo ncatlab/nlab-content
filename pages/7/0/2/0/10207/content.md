@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -63,3 +78,6 @@ This is due to ([AD-Renault 00](#AD-Renault00)), recalled for instance as ([ANS 
 
 [[!redirects amenable group]]
 [[!redirects amenable groups]]
+
+[[!redirects amenable Lie groupoid]]
+[[!redirects amenable Lie groupoids]]
