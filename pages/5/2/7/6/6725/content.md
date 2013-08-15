@@ -36,6 +36,7 @@ on the [[supergravity C-field]] becomes the condition for the [[Green-Schwarz me
 ## Properties
 
 ### Boundary conditions
+ {#BoundaryConditions}
 
 The [[supergravity C-field]] $\hat G_4$ is supposed to vanish, and _differentially_ vanish at the boundary in the HW model, meaning that also the local connection 3-form $C_3$ vanishes there. The argument is roughly as follows (similar for as in [Falkowski, section 3.1](#Falkowski)).
 
