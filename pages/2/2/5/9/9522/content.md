@@ -44,6 +44,7 @@ Every commutative C*-algebra is a [[nuclear C*-algebra]].
 
 * [[poset of commutative subalgebras]]
 
+* [[KK-bootstrap category]]
 
 [[!redirects commutative C-star-algebra]]
 [[!redirects commutative C-star-algebras]]
