@@ -32,7 +32,7 @@ A purely mathematical definition of the intended class of functions is given bel
 
 ## Definition 
 
-+-- {: .num_defn} 
++-- {: .num_defn #recursive} 
 ###### Definition 
 A _partial recursive function_ is a [[partial function]] from $\mathbb{N}^k$ to $\mathbb{N}$ (where $\mathbb{N}$ is the [[set]] of [[natural numbers]] and $k \geq 0$ is finite) that belongs to the smallest [[class]] $\mathcal{C}$ of partial functions that 
 
@@ -42,7 +42,7 @@ A _partial recursive function_ is a [[partial function]] from $\mathbb{N}^k$ to 
 
 * includes the successor function $s: \mathbb{N} \to \mathbb{N}$; 
 
-* is closed under [[composition]]: if $f_1: \mathbb{N}^{k_1} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k_n} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g \circ (f_1, \ldots, f_n): \mathbb{N}^{k_1 + \ldots + k_n} \to \mathbb{N}$; 
+* is closed under [[composition]]: if $f_1: \mathbb{N}^{k} \to \mathbb{N}, \ldots, f_n: \mathbb{N}^{k} \to \mathbb{N}$ and $g: \mathbb{N}^n \to \mathbb{N}$ belong to $\mathcal{C}$, then so does $g \circ (f_1, \ldots, f_n): \mathbb{N}^{k} \to \mathbb{N}$; 
 
 * is closed under primitive [[recursion]]: if $g: \mathbb{N}^k \to \mathbb{N}$ and $h: \mathbb{N}^{k+2} \to \mathbb{N}$ belong to $\mathcal{C}$, then the function $f: \mathbb{N}^{k+1} \to \mathbb{N}$ defined recursively by the equations (for $y \in \mathbb{N}$ and $\mathbf{x} \in \mathbb{N}^k$) 
 $$f(0, \mathbf{x}) = g(\mathbf{x})$$ 
@@ -81,36 +81,35 @@ We may build up a stock of functions and relations that are primitive recursive 
 
 1. The distance function ${|x-y|} = (x \stackrel{\cdot}{-} y) + (y \stackrel{\cdot}{-} x)$. The function $\alpha(x) = 1 \stackrel{\cdot}{-} x$; this is the characteristic function of the unary relation or predicate "equals zero". So "equals zero" is a computable relation. So is "doesn't equal zero", since this has characteristic function $\alpha(\alpha(x))$. 
 
-1. Therefore the equality relation ${|x-y|} = 0$ is a computable relation. So is $x \lt y$, being the relation "$y \stackrel{\cdot}{-} x$ doesn't equal zero". 
+1. Therefore the equality relation ${|x-y|} = 0$ is a primitive recursive relation. So is $x \lt y$, being the relation "$y \stackrel{\cdot}{-} x$ doesn't equal zero". If $f$ is a (primitive) recursive function, then its graph defined by the relation $y = f(x)$ is a (primitive) recursive relation. 
 
 1. Similarly, if $R$ is a primitive recursive relation (so that its characteristic function $\chi_R$ is primitive recursive), then so is its negation $\neg R$, since $\chi_{\neg R} = \alpha(\chi_R)$. If $P$, $Q$ are primitive recursive relations, so is $P \wedge Q$, since $\chi_{P \wedge Q} = \chi_P \cdot \chi_Q$. Hence Boolean combinations of primitive recursive relations are primitive recursive. 
 
-1. If $f(x, y, \mathbf{z})$ is primitive recursive, so is 
-$$g(y, \mathbf{z}) \coloneqq \sum_{x=0}^{y-1} f(x, y, \mathbf{z})$$ 
-and similarly with the sum replaced by a product. It follows that primitive recursive predicates are closed under _bounded quantification_; e.g., if $R(x, y, \mathbf{z})$ is primitive recursive, then so is 
+1. If $f(x, y, \mathbf{z})$ and $h(y)$ are primitive recursive, so is 
+$$g(y, \mathbf{z}) \coloneqq \sum_{x=0}^{h(y)} f(x, y, \mathbf{z})$$ 
+and similarly with the sum replaced by a product. It follows that primitive recursive predicates are closed under _bounded quantification_; e.g., if $R(x, y, \mathbf{z})$ is a primitive recursive predicate and $h$ is a primitive recursive function, then the predicate $Q$ defined by  
 $$Q(y, \mathbf{z}) = \forall_{0 \leq x \lt y} R(x, y, \mathbf{z}) \coloneqq \bigwedge_{x=0}^{y-1} R(x, y, \mathbf{z})$$ 
-since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x, y, \mathbf{z})$. 
+is primitive recursive since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x, y, \mathbf{z})$. 
 
-1. (Bounded least choice operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation, then the function $f(y, \mathbf{z})$ defined to be "the least $x \lt y$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
-$$f(y, \mathbf{z}) = [\sum_{x=0}^{y-1} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{y-1} \chi_{\neg R}(x, y, \mathbf{z}).$$ 
-This principle can be extended: if $g, h$ are primitive recursive, then we can similarly define $f(y, \mathbf{z})$ to be "the least $x \lt g(y)$ such that $R(x, y, \mathbf{z}$ if such $x$ exists, else $h(y)$". 
+1. (Bounded least choice operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation and $h$ is a primitive recursive function, then the function $f(y, \mathbf{z})$ defined to be "the least $x \leq h(y)$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
+$$f(y, \mathbf{z}) = [\sum_{x=0}^{h(y)} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{h(y)} \chi_{\neg R}(x, y, \mathbf{z}).$$ 
 
 1. There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. The function $f$ can be taken to be 
 $$f: (m, n) \mapsto \binom{m+n+1}{2} + n$$ 
 and the function $g$ can be described as taking $m$ to the pair 
-$$(a \stackrel{\bullet}{-} (y+2), m - \binom{a \stackrel{\bullet}{-} 1}{2})$$ 
-where $a$ is the least element such that $\binom{a}{2} \gt m$. By the aforementioned properties, this $g$ is manifestly primitive recursive. 
+$$(a \stackrel{\cdot}{-} (y+2), m - \binom{a \stackrel{\cdot}{-} 1}{2})$$ 
+where $a$ is the least element less than $m+2$ such that $\binom{a}{2} \gt m$. By the aforementioned properties, this $g$ is manifestly primitive recursive. 
 
 As a consequence, there exist primitive recursive [[isomorphisms]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$. Since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.) 
 
 +-- {: .num_remark} 
 ###### Remark 
-It is not true however that the forgetful functor $Th(PrimRec) \to Set$ reflects isomorphisms, i.e., it is not true that every primitive recursive bijection possesses a primitive recursive inverse. See example \ref{inverse} below, or see an example given on MathOverflow by [Joel David Hamkins](#JDH). 
+To show that $\mathbb{N}^2 \cong \mathbb{N}$ in the category of primitive recursive functions, it is not enough just to exhibit a primitive recursive bijection $f: \mathbb{N}^2 \to \mathbb{N}$, because it is not true that every primitive recursive bijection possesses a primitive recursive inverse. In other words, it is not true that the forgetful functor $Th(PrimRec) \to Set$ reflects isomorphisms. See example \ref{inverse} below. 
 =-- 
 
 +-- {: .num_remark} 
 ###### Remark 
-The preceding remark also indicates that it is not always true that if a graph of a function is a primitive recursive relation, then the function itself is primitive recursive. (For example, the graph of the Ackermann function is a primitive recursive relation.) However, we do have a sample theorem as follows. 
+Similarly, it is not always true that if a graph of a function is a primitive recursive relation, then the function itself is primitive recursive. (For example, the graph of the Ackermann function is a primitive recursive relation.) However, we do have a sample theorem as follows. 
 =-- 
 
 +-- {: .num_theorem} 
@@ -120,13 +119,31 @@ If a graph of a function $f$ is a primitive recursive relation, and if $f \leq g
 
 The proof can be roughly expressed as follows: if $R(x, y)$ is the functional computable relation, then let $f(x)$ be the least $y \leq g(x)$ such that $R(x, y)$. The bounded least choice property shows that $f(x)$ is primitive recursive. 
 
-The point hovering in the background is that there are some computable functions which grow faster (in fact, much much much faster) than any primitive recursive function. This underscores the important role of the minimization axiom for partial recursive functions, which allows unboundedly large searches to take place. More on this later. 
+The point hovering in the background is that there are some computable functions which grow faster (in fact, much much much faster) than any primitive recursive function. This underscores the important role of the minimization axiom for partial recursive functions, which allows unboundedly large searches to take place. Indeed, we have the following crucial fact: 
 
-However, it is good to have some idea of the scope of primitive recursive functions and what they can compute. Some examples: 
++-- {: .num_theorem #graph} 
+###### Theorem 
+If $R \subseteq{N}^2$ is a graph of a function $f$ and is a recursive relation, then $f$ is a (total) recursive function. (The converse holds by one of the properties listed above.) 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+According to the minimization axiom in Definition \ref{recursive}, given that $\chi_R: \mathbb{N}^2 \to \{0, 1\}$ is a recursive function, the function that takes $x$ to the least $y \in \mathbb{N}$ such that $1 - \chi_R(x, y) = 0$ is also recursive. But this function is simply $f$. This completes the proof. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+The inverse of a recursive bijection $f$ is also recursive. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The graph of $f$ is a recursive relation, and so is the opposite graph, which is the graph of the function $f^{-1}$. Apply the preceding theorem. 
+=-- 
+
+Before passing on to general recursive functions, it is good to have some idea of the scope of primitive recursive functions. Some examples: 
 
 * The function $f(n) = p_n$, the $n^{th}$ prime, is primitive recursive. 
-
-(to be continued) 
 
 
 ## The Ackermann function 
@@ -144,17 +161,105 @@ where $f^m$ denotes the composition of $m$ copies of $f$. The **Ackermann functi
 
 We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. (The key is that while 
 
-It is easy to show that $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, we can show that $A_{n+1}$ is primitive recursive: first $A_{n+1}(0) = 1$, and then $A_{n+1}(m+1) = A_n (A_{n+1}(m))$. Thus, letting $g$ be the constant or 0-ary function with value $1$, and letting $h$ be the binary function $A_n \circ \pi_2: \mathbb{N}^2 \to \mathbb{N}$ which is primitive recursive by supposition, $A_{n+1}$ is the function $f$ asserted to exist in the primitive recursion axiom. 
+It is easy to show that $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, $A_{n+1}$ is also primitive recursive because it satisfies the recursion $A_{n+1}(0) = 1$, $A_{n+1}(m+1) = A_n (A_{n+1}(m))$. 
 
-By induction one may easily show $A_n(1) = 2$ for all $n$ and $A_n(2) = 4$ for all $n$. We have $A_{n+1}(3) = A_n(A_n(A_n(1))) = A_n(A_n(2)) = A_n(4)$ for all $n$. The function $A_1$ gives powers of $2$, the function $A_2$ gives tetrations of $2$, and it gets crazy from there. 
+By induction one may easily show $A_n(1) = 2$ for all $n$ and $A_n(2) = 4$ for all $n$. We have $A_{n+1}(3) = A_n(A_n(A_n(1))) = A_n(A_n(2)) = A_n(4)$ for all $n$. The function $A_1$ gives $n^{th}$ powers of $2$, the function $A_2$ gives tetrations (iterated exponentials stacked $n$ high) of $2$, the function $A_3$ gives iterated tetrations, and so on. 
 
 Some routine inductions establish the following facts: 
 
-1. For all $n$, the function $A_n$ is strictly increasing, and with the sole exception of $A_0(0) = 0$, we have $m \lt A_n(m)$ for all $m$, i.e. $A_n$ is strictly inflationary in arguments $m \gt 0$. 
+* For all $n$, the function $A_n$ is strictly increasing, and with the sole exception of $A_0(0) = 0$, we have $m \lt A_n(m)$ for all $m$, i.e. $A_n$ is strictly inflationary in arguments $m \gt 0$. We also have $n \lt A_n(3)$ for all $n$. 
 
++-- {: .num_lemma} 
+###### Lemma 
+If $f: \mathbb{N}^k \to \mathbb{N}$ is primitive recursive, then there exists $n$ such that $f(x_1, \ldots, x_k) \leq A_n(\max \{3, x_1, \ldots, x_k\})$ for all $x_1, \ldots, x_k$. (We say $f$ is _dominated_ by $A_n$, for short.) 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+In the case where $f$ is constant with value $m$, take $n=m$. For $f$ the successor, use $n = 0$. For each projection $\pi_i: \mathbb{N}^k \to \mathbb{N}$, again use $n = 0$: 
 
+$$x_i = \pi_i(x_1, \ldots, x_k) \leq A_0(\max \{3, x_1, \ldots, x_k\}).$$ 
 
+Now proceed by induction on the construction of primitive recursive functions. Given that $f: \mathbb{N}^k$ is dominated by $A_n$ and $g_1, \ldots, g_k: \mathbb{N}^m \to \mathbb{N}$ are dominated by $A_{n+1}$, we calculate that $h = f \circ (g_1, \ldots, g_k): \mathbb{N}^m \to \mathbb{N}$ is dominated by $A_{n+2}$: 
+
+$$\array{
+h(x_1, \ldots, x_m) & = & f(g_1(x_1, \ldots, x_m), \ldots, g_k(x_1, \ldots, x_m)) \\ 
+ & \leq & A_n(\max \{3, g_1(x_1, \dots, x_m), \ldots, g_k(x_1, \ldots, x_m)\}) \\ 
+ & \leq & A_n(A_{n+1}(\max\{3, x_1, \ldots, x_m\})) \\ 
+ & = & A_{n+1}(\max\{3, x_1, \ldots, x_m\} + 1) \\ 
+ & \leq & A_{n+2}(\max\{3, x_1, \ldots, x_m\}). 
+}$$ 
+
+And given that $g: \mathbb{N}^k \to \mathbb{N}$ is dominated by $A_{n+1}$ and $h: \mathbb{N}^{k+2} \to \mathbb{N}$ is dominated by $A_n$, if we define $f: \mathbb{N}^{k+1} \to \mathbb{N}$ by recursion by $f(0, x_1, \ldots, x_k) = g(x_1, \ldots, x_k)$ and $f(y+1, x_1, \ldots, x_k) = h(y, f(y, x_1, \ldots, x_k), x_1, \ldots, x_k)$, we calculate that $f$ is dominated by $A_{n+3}$, in two steps. First we claim 
+
+$$f(y, x_1, \ldots, x_k) \leq A_{n+1}(y + \max\{3, x_1, \ldots, x_k\}).$$ 
+
+Indeed, this is true by assumption for $y=0$. And then 
+
+$$\array{
+f(y+1, x_1, \ldots, x_k) & = & h(y, f(y, x_1, \ldots, x_k), x_1, \ldots, x_k) \\ 
+ & \leq & A_n(\max\{3, y, f(y, x_1, \ldots, x_k), x_1, \ldots, x_k)\}) \\ 
+ & \leq & A_n(\max\{3, y, A_{n+1}(y + \max\{3, x_1, \ldots, x_k\}), x_1, \ldots, x_k\}) \\ 
+ & \leq & A_n(A_{n+1}(y + \max\{3, x_1, \ldots, x_k\})) \\ 
+ & = & A_{n+1}(y+1+\max\{3, x_1, \ldots, x_k\})
+}$$ 
+
+which justifies the claim. Finally, we have 
+
+$$\array{
+f(y, x_1, \ldots, x_k) & \leq & A_{n+1}(y + \max\{3, x_1, \ldots, x_k\}) \\ 
+ & \leq & A_{n+1}(2\max\{3, y, x_1, \ldots, x_k\}) \\ 
+ & \leq & A_{n+1}(A_{n+2}(\max\{3, y, x_1, \ldots, x_k\})) \\ 
+ & = & A_{n+2}(\max\{3, y, x_1, \ldots, x_k\} + 1) \\ 
+ & \leq & A_{n+3}(\max\{y, x_1, \ldots, x_k\})
+}$$ 
+
+so that $f$ is dominated by $A_{n+3}$. This completes the proof. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+The Ackermann function is not primitive recursive. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+If it were recursive, then so would be the function $\phi: x \mapsto A_x(x) + 1$. In that case, $\phi$ is dominated by $A_n$ for some $n \geq 3$. We then arrive at the contradiction 
+
+$$A_n(n) + 1 = \phi(n) \leq A_n(\max\{3, n\}) = A_n(n).$$ 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+The _graph_ of the Ackermann function _is_ a primitive recursive relation. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The rough idea is to let $z$ bound the search for solutions $(x, y)$ to $A_x(y) = z$. For $x, y \gt 0$ we have $A_x(y) = A_{x-1}(A_x(y-1)) = A_x(y')$ where $y' \coloneqq A_x(y-1)$. We have $y' \lt A_{x-1}(y') = z$. Starting with $y_0 = y \lt z$, iterate this procedure so that 
+
+$$z = A_x(y_0) = A_{x-1}(y_1) = A_{x-2}(y_2) = \ldots = A_0(y_x) = 2 y_x$$ 
+
+with each $y_i$ less than $z$. (Explicitly, the iteration is $y_{i+1} \coloneqq A_{x-i}(y_i - 1)$.) 
+
+Thus, after disposing of some trivial low number cases, WLOG we may take $z \gt 4$, where the ternary predicate 
+
+$$(z \gt 4) \wedge (A_x(y) = z)$$ 
+
+is equivalent to 
+
+$$(x \gt 0) \wedge (y \gt 2) \wedge (x \lt z) \wedge \exists_{y_0, y_1, \ldots y_x \lt z} (y = y_0) \wedge (\forall_{i \lt x} y_{i+1} = A_{x-i}(y_i - 1)) \wedge (2 y_x = z)$$ 
+
+where the quantifications are manifestly bounded by $z$. This shows that the ternary predicate $A_x(y) = z$ is primitive recursive. 
+
+From this it follows that relation $A_x(x) = z$ is also primitive recursive, as claimed. 
+=-- 
+
+Combining this result with theorem \ref{graph}, we have 
+
++-- {: .num_corollary} 
+The Ackermann function $A$ is recursive. 
+=-- 
 
 
 
