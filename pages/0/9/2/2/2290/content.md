@@ -247,3 +247,10 @@ Construction of elliptic cohomology / [[tmf]] by [[FQFT]] is discussed at _[[(2,
 
 * [[Nora Ganter]], _The elliptic Weyl character formula_, [arxiv/1206.0528](http://arxiv.org/abs/1206.0528)
 [[!redirects elliptic cohomology theory]]
+
+Discussion of generalization to higher [[chromatic homotopy theory]] is discussed in
+
+* [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
+
+* [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology II_, Homology, Homotopy and Applications, vol. 10(1), 2008, pp.1{36 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high2.pdf), [pdf slides](http://www.math.rochester.edu/people/faculty/doug/mypapers/halifax.pdf))
+
