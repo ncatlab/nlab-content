@@ -235,6 +235,7 @@ See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for the discussion 
 * [[higher orientifold]]
 
 ## References
+ {#References}
 
 A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]], is in
 
@@ -271,6 +272,10 @@ A formulation of some of the relevant aspects of orientifolds in terms of the  [
 More on this in section 3.3.10 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bundles replaced by the [[circle n-bundle with connection|circle 3-bundles]] of the [[supergravity C-field]] is discussed towards the end of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
 [[!redirects orientifolds]]
 
