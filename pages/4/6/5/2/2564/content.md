@@ -1,1 +1,1 @@
-The material previously on this page referred to [MyWikiBiz](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Semiotic_Information).
+The material previously on this page referred to [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Semiotic_Information).
