@@ -9,6 +9,8 @@
 
 * [[diffeological space]], [[Chen space]]
 
+* [[Chen connection]]
+
 [[!redirects Kuo Chen]]
 
 category: people
