@@ -178,7 +178,7 @@ The manifest interpretation of this as a [[Lie 3-algebra]] and the supergravity 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[The brane bouquet]]_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet]]_
 
 A systematic study of the super-[[Lie algebra cohomology]] involved is in
 
