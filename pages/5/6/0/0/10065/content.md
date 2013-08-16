@@ -7,6 +7,8 @@
 
 ## Related entries
 
+* [[iterated integral]]
+
 * [[diffeological space]], [[Chen space]]
 
 * [[Chen connection]]
