@@ -23,7 +23,7 @@ In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axi
 
 In elementary terms, CoSHEP states 
 
-+-- {: .num_axiom}
++-- {: .num_defn}
 ###### Axiom (CoSHEP)
 
 For every [[set]] $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]].
@@ -46,7 +46,7 @@ takes [[epimorphism|epis]] to epis. This is the same as saying: given an epi $p:
 
 Accordingly, in a [[topos]] the CoSHEP axiom says equivalently
 
-+-- {: .num_axiom}
++-- {: .num_defn}
 ###### Axiom (CoSHEP)
 
 Every object has a [[projective presentation]]. Hence: There are [enough projectives](projective+object#EnoughProjectives).
@@ -156,7 +156,7 @@ Every [[presheaf topos]] $Set^{C^{op}}$ has enough projectives, since any coprod
 +-- {: .num_example #counter} 
 ###### Counterexample
 
-However, not every presheaf topos validates internal PAx, even though every presheaf topos validates external PAx. As an example, let $C$ be the category where $Ob(C)$ is the disjoint sum $\mathbb{N} \cup \{a, b\}$, and preordered by taking the reflexive transitive closure of relations $n \leq n+1$, $n \leq a$, $n \leq b$. The claim is that neither $C(-, a)$, nor any presheaf $P$ that maps epimorphically onto $C(-, a)$, can be internally projective. Indeed, consider the presheaf $F$ defined by $F(a) = F(b) = \emptyset$ and $F(n) = (-\infty, -n]$, with $F(n+1 \to n)$ the evident inclusion. Let $G$ be the support of $F$, so that we have an epi $e \colon F \to G$. Then it may be shown that for any $P$ covering $C(-, a)$, the set $F^P(b)$ is empty and the set $G^P(b)$ is nonempty, so that the map $e^P \colon F^P \to G^P$ cannot be epic. 
+However, not every presheaf topos validates internal PAx, even though every presheaf topos validates external PAx. As an example, let $C$ be the category where $Ob(C)$ is the disjoint sum $\mathbb{N} \cup \{a, b\}$, and preordered by taking the reflexive transitive closure of relations $n \leq n+1$, $n \leq a$, $n \leq b$. The claim is that neither $C(-, a)$, nor any presheaf $P$ that maps epimorphically onto $C(-, a)$, can be internally projective. Indeed, consider the presheaf $F$ defined by $F(a) = F(b) = \emptyset$ and $F(n) = [n,\infty)$, with $F(n+1 \to n)$ the evident inclusion. Let $G$ be the support of $F$, so that we have an epi $e \colon F \to G$. Then it may be shown that for any $P$ covering $C(-, a)$, the set $F^P(b)$ is empty and the set $G^P(b)$ is nonempty, so that the map $e^P \colon F^P \to G^P$ cannot be epic. 
 =-- 
 
 +-- {: .num_example}
