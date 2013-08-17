@@ -9,6 +9,8 @@ For $E \to X$ a [[bundle]], (often taken to be a [[fiber bundle]] or at least ty
 
 The assignment of local sections of some $E \to X$ to all admissible $U \to X$ is the ([[presheaf|pre]]-)[[sheaf]] of local sections assigned to a bundle.
 
+In a [[finitely complete category|finitely complete]] [[site]] $(S,J)$ the assignment $X \mapsto \{p\colon Y \to X | p $ admits local sections over a $J$-cover $\}$ is a [[singleton pretopology]] on $S$.
+
 ## Related concepts
 
 * [[global section]]
