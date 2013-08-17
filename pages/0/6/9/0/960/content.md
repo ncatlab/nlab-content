@@ -46,3 +46,15 @@ If finite [[product]]s in $C$ preserve finite colimits, then the smash product i
 The most common case when $C$ is a category of [[topological spaces]].  In that case, the [[natural transformation|natural]] [[continuous function|map]] $A\wedge (B\wedge C)\to (A\wedge B)\wedge C$ is a [[homeomorphism]] provided $C$ is a [[locally compact Hausdorff space]]. Thus if both $A$ and $C$ are locally compact Hausdorff, then we have the [[associativity]] $A\wedge(B\wedge C)\cong (A\wedge B)\wedge C$. 
 
 Associativity fails in general for the category [[Top]] of all topological spaces; however, it is satisfied for pointed objects in any [[convenient category of topological spaces]], since such a category is cartesian closed.  In particular, the smash product is associative for pointed [[compactly generated spaces]].
+
+### Of spectra
+
+See at _[[symmetric smash product of spectra]]_.
+
+## References
+
+On commutativity of smashing with [[homotopy limits]]:
+
+* [[Wolfgang Lueck]], Holger Reich, Marco Varisco, _Commuting homotopy limits and smash products_, K-Theory, 30 (2): 137--165, 2003 ([arXiv:math/0302116](http://arxiv.org/abs/math/0302116))
+
+[[!redirects smash products]]
