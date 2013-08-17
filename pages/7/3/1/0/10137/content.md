@@ -53,7 +53,7 @@ Followups include
 
 > Here is an observation about how the idea in that section might be formalized. (Due to discussion among Domenico Fiorenza, Hisham Sati, and Urs Schreiber). 
 
-The [[moduli stack]] $\mathbf{B}\mathbb{Z}_n$ of "discrete [[gauge fields]]" for [[gauge group]] $\mathbb{Z}_n$ with $n \in \mathbb{N} $ may be realized as the following [[homotopy fiber]] of smooth moduli stacks of [[circle n-bundle with connection|circle connections]]
+The [[moduli stack]] $\mathbf{B}\mathbb{Z}_n$ of "discrete [[gauge fields]]" for [[gauge group]] $\mathbb{Z}_n := \mathbb{Z}/n\mathbb{Z}$ with $n \in \mathbb{N} $ may be realized as the following [[homotopy fiber]] of smooth moduli stacks of [[circle n-bundle with connection|circle connections]]
 
 $$
   \array{
@@ -76,7 +76,7 @@ This data is what motivates the discussion in the article.
 The [[electric-magnetic duality]] may be formulate as a "differential higher [[Pontryagin duality]]"
 
 $$
-  \mathbf{B}^2 \hat \mathbb{Z}_n \simeq [\mathbf{B}\mathbb{Z}_p, \mathbf{B}^3 U(1)_{conn}]
+  \mathbf{B}^2 \hat \mathbb{Z}_n \simeq [\mathbf{B}\mathbb{Z}_n, \mathbf{B}^3 U(1)_{conn}]
   \,,
 $$
 
