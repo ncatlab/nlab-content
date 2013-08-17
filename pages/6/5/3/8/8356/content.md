@@ -34,7 +34,7 @@ This is otherwise known as _[[propositions as types]]_ and _[[proofs as programs
 
 * A. Troelstra, _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
 
-* Wouter Pieter Stekelenburg, _Wouter Pieter Stekelenburg_ ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
+* Wouter Pieter Stekelenburg, _Realizability Categories_ ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
 
 
 Links to many papers on realizability and related topics may be found [here](http://www.staff.science.uu.nl/~ooste110/realizability.html).
