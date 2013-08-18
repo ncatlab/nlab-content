@@ -31,6 +31,8 @@
   * [[axiom of small violations of choice]]
   * [[axiom of weakly initial sets of covers]]
 
+* [[Whitehead's principle]]
+
 * [[large cardinal axioms]]:
   * [[axiom of infinity]]
   * [[axiom of universes]]
