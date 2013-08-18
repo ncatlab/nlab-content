@@ -160,6 +160,8 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].
 
 * [[n-connected object of an (∞,1)-category]]
 
+* [[n-types cover]]
+
 ## References
 
 Section 7.7 of 
