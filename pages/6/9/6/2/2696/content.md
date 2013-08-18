@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
 =--
 =--
 
@@ -55,9 +59,9 @@ For instance the hypercomplete $(\infty,1)$-topos [[Top]] is presented by the mo
 
 ## In homotopy type theory
 
-Since [[homotopy type theory]] admits models in [[(∞,1)-toposes]] (and in particular in non-hypercomplete ones), Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory.  From this perspective, the truth of Whitehead's theorem is a foundational axiom that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]] --- we call it **Whitehead's principle** (not to be confused with [[Whitehead's problem]], another statement that is independent of the usual axioms of set theory).
+Since [[homotopy type theory]] admits models in [[(∞,1)-toposes]] (and in particular in non-hypercomplete ones), Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory.  From this perspective, the truth of Whitehead's theorem is a [[foundational axiom]] that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]] --- we call it **Whitehead's principle** (not to be confused with [[Whitehead's problem]], another statement that is independent of the usual axioms of set theory).
 
-Whitehead's principle does hold, however, for maps between $n$-types for any finite $n$; this is provable in homotopy type theory by induction on $n$.
+Whitehead's principle does hold, however, for maps between [[homotopy n-types]] for any finite $n$; this is provable in homotopy type theory by [[induction]] on $n$.
 
 
 ## References
