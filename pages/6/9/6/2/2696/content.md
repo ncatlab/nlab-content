@@ -52,6 +52,14 @@ The [[∞-stack]] [[(∞,1)-topos]]es in which the Whitehead theorem does hold a
 
 For instance the hypercomplete $(\infty,1)$-topos [[Top]] is presented by the model structure on simplicial presheaves on the point, namely the [[model structure on simplicial sets]].
 
+
+## In homotopy type theory
+
+Since [[homotopy type theory]] admits models in [[(∞,1)-toposes]] (and in particular in non-hypercomplete ones), Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory.  From this perspective, the truth of Whitehead's theorem is a foundational axiom that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]] --- we call it **Whitehead's principle** (not to be confused with [[Whitehead's problem]], another statement that is independent of the usual axioms of set theory).
+
+Whitehead's principle does hold, however, for maps between $n$-types for any finite $n$; this is provable in homotopy type theory by induction on $n$.
+
+
 ## References
 
 The $(\infty,1)$-topos version is in section 6.5 of
@@ -62,4 +70,8 @@ A formalization in [[homotopy type theory]] written in [[Agda]] is in
 
 * [[Dan Licata]], _[Whitehead.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Whitehead.agda)_
 
+category: foundational axiom
+
 [[!redirects Whitehead's theorem]]
+[[!redirects Whitehead's principle]]
+[[!redirects Whitehead principle]]
