@@ -105,7 +105,7 @@ The earliest reference where the gauge term in the standard string [[action func
 
 The later article
 
-* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math.3:819,1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
 argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cohomology using [[quantum anomaly]]-cancellation arguments.
 
