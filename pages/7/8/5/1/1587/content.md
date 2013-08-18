@@ -76,6 +76,7 @@ via a [[tensor product]] or [[weighted colimit]] construction, namely the one th
 
 $$\Pi_1(B)^{op} \to Cov/B$$ 
 
+
 that sends each object $b$ of $\Pi_1(B)$ to a universal covering space $\tilde{B}_b$ over the path-component of $b$. 
 
 We now spell out the details. 
@@ -389,7 +390,19 @@ This indeed is then the usual construction of the universal covering space in te
 
 
 
-## Reference
+## References
+
+An account using the concept of covering morphism of groupoids is given in Chapter 11 of the book 
+
+* [[Ronnie Brown]], [Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html)
+
+The advantage of this approach is that a _map_ of spaces is modelled by a _morphism_ of groupoids, and this has expository advantages. For example, if $X$ is a space and $p: G \to \pi_1 X $ is a covering morphism of groupoids, we ask how to topologise $Ob(G)$ so that it could become a covering space of $X$. This leads to explicit conditions on $X$ which are dependent on the morphism $p$. 
+
+Some of the problems of generalising covering spaces to deal with  wild spaces are dealt with in:
+
+* Jeremy Brazas, _Semicoverings_, Homology, Homotopy and Applications, 14 (2012), No. 1, 33-63. 
+
+Thus semicoverings satisfy the "2 out of three rule". I.e,, if $f=gh$ and two of $f,g,h$ are semicoverings , then so is the third. This is not true for covering maps. 
 
 
 An account of the traditional way to think of the construction of the universal covering space is 
@@ -400,4 +413,3 @@ An account of the traditional way to think of the construction of the universal 
 [[!redirects covering spaces]]
 [[!redirects wrapping space]]
 [[!redirects wrapping spaces]]
-
