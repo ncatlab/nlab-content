@@ -77,6 +77,18 @@ It is conjectured (see for instance [Joyal, 2011](#Joyal)) that
 
 For a short introduction to a simplicial model of homotopy type theory see [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]].
 
+
+### New Axioms
+
+As a foundation for mathematics whose basic objects are higher groupoids, homotopy type theory makes visible new foundational axioms.  Most of these axioms are true as statements about classical $\infty$-groupoids, but may be false in "nonclassical" models of homotopy type theory such as [[(∞,1)-toposes]].
+
+* [[Whitehead's principle]].
+
+* [[sets cover]], and more generally [[n-types cover]].
+
+* Several variants of the [[axiom of choice]].
+
+
 ## Machine implementation
 
 An important aspect of HoTT is the fact that the [[intensional type theory|intensional]] [[Martin-Löf type theory]] on which it is built has a computational implementation in proof assistants like [[Coq]] and [[Agda]].
