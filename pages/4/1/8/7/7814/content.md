@@ -21,3 +21,4 @@ support = [[n-truncated object in an (infinity,1)-category|(-1)-truncation]]
 
 * [[compactly supported cohomology]]
 
+* [[split support]]
