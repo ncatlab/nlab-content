@@ -43,11 +43,13 @@ Since not all supports split in homotopy type theory, it is interesting to consi
 
 It is shown in [(KECA)](#KECA) that a type in homotopy type theory has split support if and only if it admits a [[steady function|steady]] endomap.  Thus, it has merely split support if and only if it merely admits a steady endomap.
 
-However, it is not necessarily true for an endomap $f:A\to A$ that the type $steady(f) \coloneqq \prod_{(x,y:A)} (f x = f y)$ has split support, or even *merely* split support.  In fact:
+Some general classes of types can be shown *not* to have split support, at least not uniformly, by arguments similar to the one which shows that not all types have split support.  For instance, the identity type $x=_A y$ has split support for all $x,y:A$ if and only if $A$ is an [[h-set]]; this is proven in [(KECA)](#KECA), and the "only if" direction is also a special case of Theorem 7.2.2 of [[the HoTT book]].
+
+Similarly, we have:
 
 +-- {: .un_theorem}
 ###### Theorem
-If ${\Vert steady(f)\Vert} \to steady(f)$ for every $f:A+A\to A+A$, then $A$ is an [[h-set]].
+If the type $steady(f)\coloneqq \prod_{(x,y:A+A)} (f x = f y)$ has split support for every endomap $f:A+A\to A+A$, then $A$ is an [[h-set]].
 =--
 +-- {: .proof}
 ###### Proof
@@ -58,6 +60,8 @@ $$steady(f) =  ( (A\times A) \to ((a=a) \times (a=b) \times (b=a) \times (b=b)) 
 Since $\Vert a=b\Vert$, we have $\Vert steady(f)\Vert$.  Thus, by assumption, $steady(f)$; hence $a=b$.
 =--
 
+In particular, not all types of the form $steady(f)$ have split support.  Thus, "steadiness" is not as well-behaved a notion as being quasi-invertible.
+
 
 ## References
 
@@ -65,8 +69,9 @@ Since $\Vert a=b\Vert$, we have $\Vert steady(f)\Vert$.  Thus, by assumption, $s
 *Manuscripta Math.*, 38(3):325{332, 1982.
  {#FourmanScedrov}
 
-* [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf)
+* [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf).  In this paper, types with split support are called "h-stable".
  {#KECA}
 
 [[!redirects split supports]]
 [[!redirects supports split]]
+[[!redirects h-stable type]]
