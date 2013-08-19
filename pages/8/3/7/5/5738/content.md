@@ -1,2 +1,5 @@
 
-The canonical bracket on [[polyvector field]]s.
+
+The canonical bracket on [[polyvector field]]s. See there for more.
+
+[[!redirects Schouten-Nijenhuis bracket]]
