@@ -341,7 +341,7 @@ More on dual objects in KK is in
 
 Discussion of the [[twisted Umkehr map]] and the [[Freed-Witten-Kapustin anomaly]] in this context is in
 
-* [[Joost Nuiten]], Master thesis, 2013
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
  {#Nuiten13}
 
 
