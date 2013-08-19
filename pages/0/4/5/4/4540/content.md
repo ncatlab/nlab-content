@@ -379,6 +379,8 @@ A recognition principle for [[homotopy fibers]] of $L_\infty$-homomorphisms appe
 [[!redirects L-∞ algebra cohomology]]
 [[!redirects Lie ∞-algebra cohomology]]
 
+[[!redirects L-infinity algebra cohomology]]
+
 [[!redirects ∞-Lie algebra cocycle]]
 [[!redirects L-∞-algebra cocycle]]
 [[!redirects L-∞ algebra cocycle]]
