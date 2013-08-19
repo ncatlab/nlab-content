@@ -1,4 +1,4 @@
-The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Hypostatic_abstraction).
+The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Hypostatic_abstraction).
 
 [[!redirects hypostasis]]
 [[!redirects hypostases]]
