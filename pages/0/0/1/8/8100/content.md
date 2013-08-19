@@ -167,7 +167,7 @@ Lecture notes along these lines are in _[Lagrangians and Action functionals -- 3
 
 The [[KK-theory]]-description of the FEK anomaly used above is discussed in 
 
-* [[Joost Nuiten]], Master thesis, 2013
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
  {#Nuiten}
 
 
