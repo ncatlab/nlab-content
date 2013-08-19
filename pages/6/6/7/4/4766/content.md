@@ -1,23 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -36,9 +35,9 @@ $$
 
 Let $\mathbf{T}$ be the [[category]] defined as follows:
 
-* [[Objects]] are defined by triples of data $t \coloneqq (n,t_+,t_-)$, which are [[partition]]s of the sets $\{i\}_{1\leq i\leq n}$ for $n\geq 0$ into two disjoint subsets $t_+$ and $t_-$. (The corresponding zigzag diagram has nodes $t_0, \ldots, t_n$, and the arrow between $t_{i-1}$ and $t_i$ points forward to $t_i$ if $i \in t_+$, and backward if $i \in t_-$.) 
+* An [[object]] is given by a triple of data $t \coloneqq (n,t_+,t_-)$, which is a [[partition]] of the [[poset]] $\{i \;|\; 1\leq i\leq n\}$ for some [[natural number]] $n \geq 0$ into two [[subset]] parts $t_+$ and $t_-$. (The corresponding diagram as above has nodes $t_0, \ldots, t_n$, and the arrow between $t_{i-1}$ and $t_i$ points forward to $t_i$ if $i \in t_+$, and backward if $i \in t_-$.) 
 
-* [[Morphisms]] are [[monotone maps]] preserving the partitions.  
+* A [[morphism]] is a [[monotone map]] preserving the partitions.
 
 We will call $\mathbf{T}$ the __zigzag category__, or the __category of zigzag types__.
 
@@ -49,6 +48,14 @@ Also, notice that we have cleverly hidden the [[empty set]] among the objects.  
 
 Such zig-zag [[diagram]]s serve to model morphisms in an [[(∞,1)-category]] in terms of a presentation by a [[category with weak equivalences]]. See [[simplicial localization of a homotopical category]].
 
+
+[[!redirects zigzag category]]
 [[!redirects zigzag categories]]
 [[!redirects zig-zag category]]
 [[!redirects zig-zag categories]]
+[[!redirects category of zigzag types]]
+[[!redirects categories of zigzag types]]
+[[!redirects category of zig-zag types]]
+[[!redirects categories of zig-zag types]]
+[[!redirects zigzag type]]
+[[!redirects zigzag types]]
