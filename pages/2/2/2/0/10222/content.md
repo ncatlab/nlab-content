@@ -1,0 +1,47 @@
+
+# Partitions
+* table of contents
+{: toc}
+
+## Idea
+
+A _partition_ is any of various ways of dividing a mathematical object into _parts_ that (in some sense) cover the object while being mutually disjoint.
+
+
+## Definitions
+
+Some or all of the following definitions may well be special cases of a general concept, but I don\'t know a general definition.
+
+
+### Of sets
+
+Given a [[set]] $S$, a __partition__ of $S$ is a collection $\pi$ of [[inhabited subsets]] of $S$ such that
+*  For $A, B \in \pi$, if $A \cap B$ is inhabited, then $A = B$;
+*  The [[union]] $\bigcup \pi$ is all of $S$ (the [[improper subset]]).
+
+A partition $\pi$ __refines__ a partition $\rho$ (of the same set) if every set in $\pi$ is contained in some set in $\rho$:
+$$ \forall A \in \pi,\; \exists B \in \rho,\; A \subseteq B .$$
+Refinement is a [[partial order]] on the class of partitions of $S$.
+
+Partitions of $S$ are in [[bijective correspondence]] with [[equivalence relations]] on $S$; a partition is precisely a collection of [[equivalence classes]].  Refinement corresponds to implication between relations.
+
+
+### Of numbers
+
+Given a [[natural number]] $n$, a __composition__ of $n$ is a [[list]] of positive natural numbers whose sum is $n$, and a __partition__ of $n$ is an unordered list, or [[multiset]], or such numbers.  (That is, different compositions define the same partition if the compositions differ only by order.)  A partition may also be defined as a [[monotone function|monotone]] composition.
+
+Every [[natural number]] $n$ corresponds to a [[finite set]] $[n]$, and every partition of $[n]$ (as defined above) gives a partition of $n$, but different partitions of $[n]$ may give the same partition of $n$.  Conversely, a composition of $n$ defines a partition of $[n]$, but not every partition of $[n]$ arises in this way.
+
+More precisely, we have the following, where $\rightarrowtail$ indicates an [[injection]] and $\twoheadrightarrow$ indicates a [[surjection]]:
+$$ Comp(n) \rightarrowtail Part([n]) \twoheadrightarrow Part(n) ;$$
+the [[composite]] of this is also a surjection, which is [[split surjection|split]] by the definition of a partition as a monotone composition.
+
+The __partition function__ $p$ gives the number of partitions of $n$ as a [[function]] of $n$; this is [OEIS A000041](https://oeis.org/A000041).  Its (ordinary) [[generating function]] is
+$$ \sum_{n=0}^\infty p(n) x^n = \prod_{k=1}^\infty (1 - x^k)^{-1} .$$
+Partitions are often described using [[Young diagram]]s.
+
+One may also speak of __multiplicative__ compositions and partitions of $n$ for positive $n$ (where the above are _additive_), also called (ordered and unordered) __factorizations__; these are (ordered and unordered) lists of natural numbers greater than $1$ whose product is $n$.  This immediately generalizes to other [[monoids]] (or [[semigroups]], leaving out the [[empty list]]).
+
+
+[[!redirects partition]]
+[[!redirects partitions]]
