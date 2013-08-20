@@ -32,6 +32,8 @@ See also [[constant morphism]].
 
 * [[local system]]
 
+* [[steady function]]
+
 
 [[!redirects constant function]]
 [[!redirects constant functions]]
