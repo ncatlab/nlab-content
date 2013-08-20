@@ -13,6 +13,8 @@ The Kontsevich formality theorem implies that every [[Poisson manifold]] has a c
 
 ## Related entries
 
+* [[graph complex]]
+
 * [[deformation quantization]], [[Grothendieck-Teichmüller group]]
 
 * [Hochschild cohomology -- Differential calculus](Hochschild+cohomology#DifferentialCalculus).
