@@ -76,3 +76,5 @@ Vol. 296, No. 1 (Jul., 1986), pp. 151-166
 [[!redirects Atiyah duality]]
 [[!redirects S-dual]]
 [[!redirects S-duality]]
+
+[[!redirects Alexander-Whitehead-Atiyah duality]]]
