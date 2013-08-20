@@ -93,6 +93,8 @@ provided the Hamiltonian is time-independent.
 
 * [[Hamiltonian form]]
 
+* [[propagator]]
+
 [[!include geometric quantization extensions - table]]
 
 
