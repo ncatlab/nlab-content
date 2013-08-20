@@ -55,6 +55,10 @@ Graph complex controls the universal $L_\infty$-deformations of the space of pol
 
 There are generalizations for $d$-algebras (algebras over little disc operad in higher dimension). The cohomological graph complex is then the case for $d=2$. There is also a "directed" version. On the other hand, graph complex 
 
+## Related concepts
+
+* [[Kontsevich formality]]
+
 ## Literature
 
 Cf. also [[Rozansky-Witten theory]], [[formal noncommutative symplectic geometry]] 
