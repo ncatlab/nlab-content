@@ -270,6 +270,8 @@ For more on this see
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[propagator]]
+
   * [[quantum measurement]]
 
   * [[EPR paradox]]
