@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+## Idea
+
+In [[quantum physics]] and in the [[Schrödinger picture]], the term _propagator_ refers to the [[linear map]] between [[spaces of quantum states]] ([[wave functions]]) which describes how these [[states]] change in [[time]] ([[spacetime]]), hence how the corresponding [[quantum system]] _propagates_.
+
+In [[quantum mechanics]] the time [[propagator]] is give by the [[parallel transport]] along the [[worldline]] given by the [[Hamiltonian]] (energy) [[quantum operator]].
+
+Similarly, in [[perturbation theory]] the term _propagator_ usually refers to the [[kinetic action|kinetic]] [[action functional]]/[[Lagrangian]].
+
+[[!redirects propagators]]
+
+[[!redirects propagator]]
+[[!redirects propagators]]
