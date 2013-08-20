@@ -87,8 +87,13 @@ The refinement of this statement to a [[Quillen equivalence]] is due to
  {#SchwedeShipley}
 
 
-[[!redirects (∞,1)-category of (∞,1)-modules]]
+[[!redirects (∞,1)-categories of (∞,1)-modules]]
+
+[[!redirects (∞,1)-category of ∞-modules]]
+[[!redirects (∞,1)-categories of ∞-modules]]
 [[!redirects (infinity,1)-category of (infinity,1)-modules]]
 [[!redirects (infinity,1)-categories of (infinity,1)-modules]]
 
+
 [[!redirects (∞,1)Mod]]
+
