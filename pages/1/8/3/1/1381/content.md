@@ -122,6 +122,8 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
 * [[symmetric monoidal category]], **symmetric monoidal $(\infty,1)$-category**, [[symmetric monoidal (∞,n)-category]]
 
+* [[tensor (∞,1)-category]]
+
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 
