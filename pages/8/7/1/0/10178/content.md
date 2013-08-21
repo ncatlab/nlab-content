@@ -259,7 +259,7 @@ But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or sim
 ### 2. Local prequantum field theory
  {#ExpositionLocalPrequantumFieldTheory}
 
-First we consider [[local prequantum field theory]]. See also ([Nuiten 13, section 2](#Nuiten13)).
+First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2](#Nuiten13)).
 
 $\,$
 
@@ -502,7 +502,7 @@ $$
 ### 3. Linearization in generalized cohomology
  {#ExpositionLinearizationInGeneralizedCohomology}
 
-We now survey the linearization step. See also ([Nuiten 13, section 3](#Nuiten13)).
+We now survey the linearization step. See ([Nuiten 13, section 3](#Nuiten13)).
 
 $\,$
 
@@ -594,7 +594,7 @@ $$
 ### 3. Cohomological quantization
  {#ExpositionCohomologicalQuantization}
 
-We now survey the cohomological quantization step. See also ([Nuiten 13, section 4](#Nuiten13)).
+We now survey the cohomological quantization step. See ([Nuiten 13, section 4](#Nuiten13)).
 
 $\,$
 
@@ -626,11 +626,11 @@ $$
   f^! 
    \;\colon\;
   V_2
-   \stackrel{\simeq}{\to} 
+   \stackrel{\;\simeq\;}{\to} 
   V_2^\ast
-   \stackrel{f^\ast}{\to}
+   \stackrel{\; f^\ast \;}{\to}
   V_1^\ast
-    \stackrel{\simeq}{\to}
+    \stackrel{\; \simeq \;}{\to}
   V_1
   \,.
 $$
@@ -699,71 +699,103 @@ $$
   \,.
 $$
 
-given a morphism of $E$-module bundles
+Consider now a morphism 
 
 $$
   \array{
     X && \stackrel{f}{\to} && Y
     \\
-    & {}_{\mathllap{f^\ast \chi}}\searrow   
-    &\swArrow_\simeq& 
-    \swarrow_{\mathrlap{\chi}}
+    & {}_{\mathllap{f^\ast \chi}}\searrow &\swArrow& \swarrow_{\mathrlap{\chi}}
     \\
-    && E Mod
+    && E Mod 
   }
 $$
 
-we want to form the _fiberwise_ [[dual objects]] and [[dual morphisms]].
+along which we want to integrate, which $\chi$ invertible, $(\chi^\vee)^\vee \simeq \chi$.
 
-Now it is unnecessarily restrictive that the whole bundles $\chi$ and $f^\ast \chi$ are self-[[dual objects]]. It is sufficient that we find _other_ bundles which are _fiberwise duals_.
+Observe that we have the pair of [[adjoint triples]] of left/right [[Kan extensions]] and [[colimits]]/[[limits]]
 
-This means that an [[orientation in generalized cohomology|orientation]] in $\chi$-[[twisted cohomology]] is a choice of 
-
-1. a possibly different $E$-module bundle $(X \stackrel{\beta}{\to} E Mod)$;
-
-1. a choice of equivalence
-
-$$
-  \left(X \stackrel{\beta}{\to}\right)^\ast 
-    \simeq 
-   \left( X \stackrel{\chi}{\to} E Mod \right)
+$$  
+  \array{
+    X &\stackrel{f}{\to}& Y &\stackrel{p}{\to}& \ast
+    \\
+    \\
+    Func(X, E Mod)
+     &\stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\to}}}
+     &
+    Func(Y, E Mod)
+     &\stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^\ast}{\leftarrow}}{\underset{p_\ast}{\to}}}
+    &
+    E Mod
+  }
   \,.
 $$
 
-Since the class of these bundles is the twist, this means that 
+Notice that $f^\ast$ preserves duals, but $f_!$ may not. 
 
-_Under fiber integration in [[twisted cohomology]], the twist may change._
-
-Notice that grading in cohomology is just one incarnation of twist. Hence the fact that the twist changes under duality was already seen above in the ordinary case of [[Poincaré duality]] in [[ordinary cohomology]].
-
+If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ and an [[equivalence]]
 
 $$
-  
+  PD 
+   \;\colon \;
+  \left( f_! f^\ast \chi^\vee
+  \right)^\vee
+  \simeq
+  f_!\left(
+    f^\ast \chi - \beta
+  \right)
+  \,.
 $$
+ 
+
+Then the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]]
+
+$$
+  f_! f^\ast \chi^\vee \to  \chi^\vee
+$$
+
+induces the [[dual morphism]]
+
+$$
+  \chi 
+    \longrightarrow
+  \left(f_! f^\ast \chi^\vee \right)^\vee 
+    \underoverset{\simeq}{PD}{\longrightarrow}
+  f_!\left(
+    f^\ast \chi - \beta
+  \right)
+$$
+
+and under $\left[ p_! \left( - \right), (-) \right]$ this becomes
+
+$$
+  \left[p_! f_! \left(f^\ast \chi - \beta\right), E\right]
+  \longrightarrow
+  \left[p_! \chi , E\right]
+$$
+
+which is 
+
+$$
+  E^{\bullet + f^\ast \chi - \beta}(X)
+  \longrightarrow
+  E^{\bullet + \chi}(Y)
+  \,.
+$$
+
+This we call the [[twisted Umkehr map]] of $f$ induced by the orientation $PD$.
+
+
+Notice that
+
+* Under fiber integration in [[twisted cohomology]], the twist may change.
+
+* Grading in cohomology is just one incarnation of twist. Hence the fact that the twist changes under duality was already seen above in the ordinary case of [[Poincaré duality]] in [[ordinary cohomology]]. 
+
+* For the special case that $X$ is a [[manifold]], [[Atiyah duality]] identifies the dual cohomology spectrum with the [[Thom space]] cohomology spectrum. Then a choice of orientation amounts to a choice of [[Thom isomorphism]], as traditionally considered.
+
 
 (...)
-
-
-
-
-$$
-  \xymatrix{
-    && \mathbf{Fields}
-    \\
-    & \swarrow && \searrow
-    \\
-    \mathbf{Fields}_{\mathrm{in}}
-     && 
-     && 
-    \mathbf{Fields}_{\mathrm{out}}
-    \\
-    & \searrow && \swarrow
-    \\
-    && 
-  }
-$$
-
-
 
 
 
@@ -771,7 +803,7 @@ $$
 ### 4. Examples
  {#ExpositionExamples}
 
-Here we survey some examples of cohomological quantization. See also ([Nuiten 13, section 5](#Nuiten13)).
+Here we survey some examples of cohomological quantization. See ([Nuiten 13, section 5](#Nuiten13)).
 
 (...)
 
