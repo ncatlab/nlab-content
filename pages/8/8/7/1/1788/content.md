@@ -19,7 +19,7 @@ $$
   }
 $$
 
-along which we want to integrate, with $\chi$ invertible $(\chi^\vee)^\vee \simeq \chi$.
+along which we want to integrate, with $\chi$ invertible in $Func(Y, E Mod)$: $\left(\chi^\vee\right)^\vee \simeq \chi$.
 
 Observe that we have the pair of [[adjoint triples]] of left/right [[Kan extensions]] and [[colimits]]/[[limits]]
 
@@ -41,7 +41,7 @@ $$
 
 Notice that $f^\ast$ preserves duals, but $f_!$ may not. 
 
-If $f_! f^\ast \chi^\vee$ is a [[dualizable object]],  say that a *choice of orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ and an [[equivalence]]
+If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of twisted orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ together with a choice of a [[equivalence]] (if such exists) of the form
 
 $$
   PD 
@@ -50,10 +50,12 @@ $$
   \right)^\vee
   \simeq
   f_!\left(
-    f^\ast \chi - \beta
+    f^\ast \chi + \beta
   \right)
-  \,.
+  \,,
 $$
+
+hence a choice of correction of $f_!$ preserving the duality of $f^\ast \chi$.
  
 
 Then the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]]
@@ -70,14 +72,14 @@ $$
   \left(f_! f^\ast \chi^\vee \right)^\vee 
     \underoverset{\simeq}{PD}{\longrightarrow}
   f_!\left(
-    f^\ast \chi - \beta
+    f^\ast \chi + \beta
   \right)
 $$
 
-and under $\left[ p_! \left( - \right), (-) \right]$ this becomes
+and under $\left[ p_! \left( - \right), E \right]$ this becomes
 
 $$
-  \left[p_! f_! \left(f^\ast \chi - \beta\right), E\right]
+  \left[p_! f_! \left(f^\ast \chi + \beta\right), E\right]
   \longrightarrow
   \left[p_! \chi , E\right]
 $$
@@ -85,19 +87,15 @@ $$
 which is 
 
 $$
-  E^{\bullet + f^\ast \chi - \beta}(X)
+  \int_f
+  \;\colon \;
+  E^{\bullet + f^\ast \chi + \beta}(X)
   \longrightarrow
   E^{\bullet + \chi}(Y)
   \,.
 $$
 
-This we call the [[Umkehr map]] of $f$ induced by the orientation $PD$.
-
-
-
-
-
-
+This we call the _[[twisted Umkehr map]] of $f$_ or _twisted [[fiber integration in generalized cohomology|fiber integration]] along $f$_ induced by $(\beta, PD)$. If $\beta = 0$ then we call $PD$ an _[[orientation in generalized cohomology|orientation]]_ of $f$ in $\chi$-twisted cohomology.
 
 
 ***
