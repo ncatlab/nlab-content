@@ -9,6 +9,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -18,7 +21,17 @@ In [[quantum mechanics]] the time [[propagator]] is give by the [[parallel trans
 
 Similarly, in [[perturbation theory]] the term _propagator_ usually refers to the [[kinetic action|kinetic]] [[action functional]]/[[Lagrangian]].
 
-[[!redirects propagators]]
+## Related concepts
+
+* [[path integral]]
+
+* [[Hamiltonian]]
+
+
+
+[[!redirects quantum propagators]]
 
 [[!redirects propagator]]
 [[!redirects propagators]]
+
+
