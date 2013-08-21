@@ -177,16 +177,25 @@ But motivic quantization is not bound to deal with supersymmetric field theories
 
 ## Expositional summary
 
-We give here a leisurely exposition of the main ideas of motivic quantization of local prequantum field theory. For more details skip ahead to _[General theory](#GeneralTheory).
+We give here a leisurely exposition of the main ideas of motivic quantization of local prequantum field theory. We follow ([Nuiten 13](#Nuiten13)) in outline.  For more details see there and/or skip ahead to _[General theory](#GeneralTheory).
+
+1. _[Introduction](#ExpositionIntroduction)_
 
 1. _[Local prequantum field theory](ExpositionLocalPrequantumFieldTheory)_
 
-1. _[Cohomological quantization](#ExpositionCohomologicalQuantization)_
+1. _[Linearization in generalized cohomology](#ExpositionLinearizationInGeneralizedCohomology)_
+
+1. _[Quantization by pull-push](#ExpositionCohomologicalQuantization)_
 
 1. _[Examples](#ExpositionExamples)_
 
-### 1. Local prequantum field theory
- {#ExpositionLocalPrequantumFieldTheory}
+### 1. Introduction 
+  {#ExpositionIntroduction}
+
+Some words of context. See ([Nuiten 13, section 1](#Nuiten13)).
+
+$\,$
+
 
 By the [[cobordism hypothesis]] a [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT]] [[local field theory]] is a [[monoidal (∞,n)-functor]]
 
@@ -196,7 +205,7 @@ $$
 
 from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]].
 
-Here for actial [[quantum theory|quantum]] (as opposed to [[prequantum field theory|prequatum]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]] $R Mod$ for some [[commutative ring|commutative]] [[ground ring]] $R$ ordinarily the [[complex numbers]].
+Here for actual [[quantum theory|quantum]] (as opposed to [[prequantum field theory|prequatum]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]] $R Mod$ for some [[commutative ring|commutative]] [[ground ring]] $R$ ordinarily the [[complex numbers]].
 
 Here in [[homotopy theory]] we choose, more generally, a ground [[E-∞ ring]] $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
 
@@ -236,7 +245,24 @@ $$
 
 The linearity of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[states]] may be added and possibly additively cancel. This is _[[quantum interference]]_, the hallmark of [[quantum physics]].
 
-But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of monoidal $Z$ as above is still much more general than what a physicist would typically call quantum field theory.
+But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of monoidal $Z$ as above is still much more general than what a physicist would typically call quantum field theory. The quantum field theories actually of interest both in nature and in theory arise via a process of [[quantization]] from geometric data given by a [[local prequantum field theory]]: a [[local action functional]]/[[local Lagrangian]].
+
+| [[local prequantum field theory]]  | -- [[quantization]]$\longrightarrow$ | [[local quantum field theory]] |
+|---|---|---|
+| [[higher geometry]] | --[[motives]]$\longrightarrow$ | [[higher linear algebra]] |
+| [[higher prequantum bundle|higher prequantum]] [[(∞,1)-module bundle]] | --[[sections]]$\longrightarrow$ | [[∞-module]] of [[quantum states]] |
+| [[correspondences]] | --[[path integral as a pull-push transform|pull-push transform]]$\longrightarrow$ | [[linear maps]]  |
+| [[field (physics)|field]] [[trajectories]] | --[[path integral]]$\longrightarrow$ | [[quantum propagators]] |
+
+
+
+### 2. Local prequantum field theory
+ {#ExpositionLocalPrequantumFieldTheory}
+
+First we consider [[local prequantum field theory]]. See also ([Nuiten 13, section 2](#Nuiten13)).
+
+$\,$
+
 
 Because most quantum field theories of interested both in nature and in theory are very special examples of this general definition, in that: 
 
@@ -473,84 +499,29 @@ $$
 $$
 
 
-### 2. Cohomological quantization
- {#ExpositionCohomologicalQuantization}
+### 3. Linearization in generalized cohomology
+ {#ExpositionLinearizationInGeneralizedCohomology}
 
-So to quantize a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to
+We now survey the linearization step. See also ([Nuiten 13, section 3](#Nuiten13)).
 
-1. choose a linearization, given by 
+$\,$
 
-   1. a choice of ground [[E-∞ ring]] $E$ (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
-
-   1. a choice of [[∞-group]] homomorphism
-
-      $$
-        \mathbf{B}^{n-1}U(1) \to GL_1(E)
-      $$
-
-      from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$ (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]])
-
-1. [[fiber integration in generalized cohomology|integrate]] $\exp(i S ) \,d\mu$ over $\mathbf{Fields}$ in $E$-modules (playing the role of the [[path integral]] in plain [[quantum mechanics]]).
-
-While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic ide is that
-
-**Cohomological integration**
-
-1. _Fiber integration of $E$-modules along a map is forming the [[dual morphisms]]_ of pulling back $E$-modules.
-
-1. The choice of _measure_ against which one integrates is the choice of identification of [[dual objects]].
-
-The basic example to think of is integration in [[ordinary cohomology]] via [[Poincaré duality]]:
-
-For $R$ a [[commutative ring]], write $E = H R$ for its [[Eilenberg-MacLane spectrum]]. Then for $X$ a manifold, the [[mapping spectrum]] 
-
-$$
-  H R^\bullet(X)
-  \coloneqq
-  [X,H R]
-$$
-
-is the [[ordinary cohomology]] of $X$, its dual the [[ordinary homology]], with [[coefficients]] in $R$.
-
-For $X$ a [[closed manifold]], [[Poincaré duality]] asserts that  $H R^\bullet(X) \in H R Mod$ is essentially a self-[[dual object]], except for a shift in degree: a choice of [[orientation]] of $X$ induces an [[equivalence]]
-
-$$
-  H R^\bullet\left(X\right)
-    \underoverset{\sim}{PD_X}{\to} 
-  \left( 
-   H R^{\bullet+ dim(X)}\left(X\right)\right)^\ast 
-  \simeq
-  H R_{\bullet + dim(X)}\left(X\right)
-  \,.
-$$
-
-Using this, for $f \colon X \to Y$ a map of [[closed manifolds]] of [[dimension]] $d$, a compatible choice of [[orientation]] of both $X$ and $Y$ induces from the canonical push-forward map $f_\ast$ on homology the [[Umkehr map]]/push-forward map on cohomology, by the composition
-
-$$
-  f^!
-  = 
-  \int_f
-    \;\colon\;
-  H R^\bullet(X)
-   \underoverset{\simeq}{PD_X}{\to}
-  H R_{\bullet + dim(X)}(X)
-   \stackrel{f_\ast}{\to}
-  H R_{\bullet + dim(X)}(Y)
-   \underoverset{\simeq}{PD_Y^{-1}}{\to}
-  H R^{n-(dim(X)-dim(Y))}(Y)
-  \,.
-$$
-
-This is ordinary [[integration]]: if $R = \mathbb{R}$ is the ring of [[real numbers]] and $X$ and $Y$ are [[smooth manifolds]], then $H \mathbb{R}^\bullet(X)$ is modeled by [[differential forms]] on $X$, $PD_X$ is given by a choice of [[volume form]] and $f^! = \int_{f}$ is ordinary [[integration of differential forms]]. 
-
-This elegant general abstract description of [[integration]] in [[tensor (∞,1)-category]] seems to have the only defect that instead of an actual self-[[dual object|duality]], there is that shift in degree.
-
-This, too, hower, is nicely explained as one passes to [[twisted cohomology]], where everything becomes nice.
-
-(...)
+So before actually quantizing a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to choose linear [[coefficients]], given by 
 
 
-Then for $\exp(i S)$ the composite
+1. a choice of ground [[E-∞ ring]] $E$ (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
+
+1. a choice of [[∞-group]] homomorphism
+
+   $$
+     \mathbf{B}^{n-1}U(1) \to GL_1(E)
+   $$
+
+   from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$ (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]])
+
+
+
+Then given $\exp(i S)$, form the composite
 
 $$
   \chi
@@ -568,22 +539,86 @@ $$
   E Mod
 $$
 
-exhibits an [[(∞,1)-module bundle]] bundle, which is in fact an $E$-line bundle.
+exhibits an [[(∞,1)-module bundle]], which is in fact an $E$-line bundle. This is the [[associated ∞-bundle]] version of the [[higher prequantum bundle]].
 
-(...) 
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in}
+     && \swArrow_\xi &&
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{\chi_{in}}}\searrow
+    &&
+    \swarrow_{\mathrlap{\chi_{out}}}
+    \\
+    && E Mod
+  }
+  \;\;\;
+  \coloneqq
+  \;\;\;
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in}
+     && \swArrow_\xi &&
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{\exp(i S_{in})}}\searrow
+    &&
+    \swarrow_{\mathrlap{\exp(i S_{out})}}
+    \\
+    && \mathbf{B}^n U(1)
+    \\
+    && \downarrow
+    \\
+    && B GL_1(E)
+    \\
+    && \downarrow
+    \\
+    && Pic(E)
+    \\
+    && \downarrow
+    \\
+    && E Mod
+  }
+$$
 
-Give a [[monoidal category]] $\mathcal{C}^\otimes$ and given a [[morphism]]
+
+
+### 3. Cohomological quantization
+ {#ExpositionCohomologicalQuantization}
+
+We now survey the cohomological quantization step. See also ([Nuiten 13, section 4](#Nuiten13)).
+
+$\,$
+
+We discuss how to [[fiber integration in generalized cohomology|integrate]] $\exp(i S ) \,d\mu$ over $\mathbf{Fields}$ in $E$-modules (this playing the role of the [[path integral]] in plain [[quantum mechanics]]).
+
+While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic ide is that
+
+_Cohomological integration_
+
+1. _Fiber integration of $E$-modules along a map is forming the [[dual morphisms]]_ of pulling back $E$-modules.
+
+1. The choice of _measure_ against which one integrates is the choice of identification of [[dual objects]].
+
+More in detail, given a [[monoidal category]] $\mathcal{C}^\otimes$ and given a [[morphism]]
 
 $$
   f \;\colon\; V_1 \to V_2
 $$
 
-an _[[Umkehr map]]_ is just 
+in $\mathcal{C}$, an _[[Umkehr map]]/[[Gysin map]]/[[fiber integration]]/[[push-forward in generalized cohomology|push-forward]]_ is just
 
-* the [[dual morphism]] $f^\ast \colon V_2^\ast \to V_1^\ast$
+* forming the [[dual morphism]] $f^\ast \colon V_2^\ast \to V_1^\ast$;
 
-* such that [[equivalences]] $V_i^\ast \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]])
-
+* such that [[equivalences]] $V_i^\ast \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]]).
 
 This allows in total to have a morphism between the same objects, but in the opposite direction
 
@@ -600,9 +635,69 @@ $$
   \,.
 $$
 
-That this is also the mechanism of [[fiber integration in generalized cohomology]] is almost explicit in the literature ([[Alexander-Whitehead-Atiyah duality]]), if maybe not fully clearly so. The statement is discussed explicitly in ([Nuiten 13, section 4](#Nuiten13)).
+That this is also the mechanism of [[fiber integration in generalized cohomology]] is almost explicit in the literature ([[Alexander-Whitehead-Atiyah duality]]), if maybe not fully clearly so. The statement is discussed explicitly in ([Nuiten 13, section 4.1](#Nuiten13)).
 
-Since we are dealing with $E$-[[(∞,1)-module bundles]], we are interested in the parameterized/fiberwise version of this statement:
+First, the basic example to keep in mind of is integration in [[ordinary cohomology]]. Write $E = H R = H \mathbb{C}$ for the [[Eilenberg-MacLane spectrum]] of the [[complex numbers]]. Then for $X$ a manifold, the [[mapping spectrum]] 
+
+$$
+  H R^\bullet(X)
+  \coloneqq
+  [X,H R]
+$$
+
+is the [[ordinary cohomology]] of $X$, its dual the [[ordinary homology]], with [[coefficients]] in $R$.
+
+For $X$ a [[closed manifold]], [[Poincaré duality]] asserts that  $H R^\bullet(X) \in H R Mod$ is essentially a self-[[dual object]], except for a shift in degree: a choice of [[orientation]] of $X$ induces an [[equivalence]]
+
+$$
+  H R^\bullet\left(X\right)
+    \underoverset{\simeq}{\;\; PD_X\;\;}{\to} 
+  \left( 
+   H R^{\bullet+ dim(X)}\left(X\right)\right)^\ast 
+  \simeq
+  H R_{\bullet + dim(X)}\left(X\right)
+  \,.
+$$
+
+Using this, for $f \colon X \to Y$ a map of [[closed manifolds]] of [[dimension]] $d$, a compatible choice of [[orientation]] of both $X$ and $Y$ induces from the canonical push-forward map $f_\ast$ on homology the [[Umkehr map]]/push-forward map on cohomology, by the composition
+
+$$
+  f^!
+  = 
+  \int_f
+    \;\colon\;
+  H R^\bullet(X)
+   \underoverset{\simeq}{\;PD_X\;}{\to}
+  H R_{\bullet + dim(X)}(X)
+   \stackrel{\; f_\ast \;}{\to}
+  H R_{\bullet + dim(X)}(Y)
+   \underoverset{\simeq}{\;PD_Y^{-1}\;}{\to}
+  H R^{n-(dim(X)-dim(Y))}(Y)
+  \,.
+$$
+
+This is ordinary [[integration]]: if $X$ and $Y$ are [[smooth manifolds]], then $H \mathbb{R}^\bullet(X)$ is modeled by [[differential forms]] on $X$, $PD_X$ is given by a choice of [[volume form]] and $f^! = \int_{f}$ is ordinary [[integration of differential forms]]. 
+
+The shift in degree here seems to break the simple pattern, but in fact this is not so if only we realize that since we are working over spaces $X$, we should use a _relative/fiberwise_ point of view and regard not duality in $E Mod$ itself, but in the functor categories $Func(X, E Mod)$, which is fiberwise duality in $E Mod$.
+
+Accordingly, given an $E$-[[(∞,1)-module bundle]]
+
+$$
+  \chi \;\colon \;  X \to E Mod
+$$
+
+we form not just the mapping space $E^\bullet(X) = [X, E]$ as above, but form the space of [[sections]] of this bundle, which we write:
+
+$$
+  E^{\bullet + \chi}(X) \coloneqq \Gamma_X(\chi)
+$$
+
+Here for $X$ a [[discrete ∞-groupoid]]
+
+$$
+  \Gamma_X(\chi) \coloneqq [\underset{\to}{\lim} \chi, E]
+  \,.
+$$
 
 given a morphism of $E$-module bundles
 
@@ -639,14 +734,44 @@ Since the class of these bundles is the twist, this means that
 
 _Under fiber integration in [[twisted cohomology]], the twist may change._
 
-This is actually well familiar in the special case of degree-0 twists, which are just the _grading_ on the [[cohomology theory]]: fiber integration decreases the degree by the relative dimension of the spaces.
+Notice that grading in cohomology is just one incarnation of twist. Hence the fact that the twist changes under duality was already seen above in the ordinary case of [[Poincaré duality]] in [[ordinary cohomology]].
+
+
+$$
+  
+$$
 
 (...)
 
 
 
-### 3. Examples
+
+$$
+  \xymatrix{
+    && \mathbf{Fields}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{\mathrm{in}}
+     && 
+     && 
+    \mathbf{Fields}_{\mathrm{out}}
+    \\
+    & \searrow && \swarrow
+    \\
+    && 
+  }
+$$
+
+
+
+
+
+
+### 4. Examples
  {#ExpositionExamples}
+
+Here we survey some examples of cohomological quantization. See also ([Nuiten 13, section 5](#Nuiten13)).
 
 (...)
 
