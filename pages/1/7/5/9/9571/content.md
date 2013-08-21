@@ -9,6 +9,10 @@ The _Grothendieck-Teichm&#252;ller tower_ construction involves [[moduli spaces]
 
 ## Properties
 
+### Relation to Drinfeld associators
+
+The GT group acts freely on the set of [[Drinfeld associators]].
+
 ### Relation to the motivic Galois group
 
 The Grothendieck-Teichm&#252;ller group is supposed to be a [[quotient]] of the [[motivic Galois group]]. This is a conjecture due to ([Drinfeld 91](#Drinfeld91)). 
