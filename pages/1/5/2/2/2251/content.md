@@ -1,4 +1,4 @@
-The material previously on this page may be found at [PlanetMath](http://planetmath.org/encyclopedia/SemioticEquivalenceRelation.html).
+The material previously on this page may be found at [PlanetMath](http://planetmath.org/sites/default/files/texpdf/40370.pdf).
 
 [[!redirects semiotic congruence]]
 [[!redirects semiotic congruences]]
