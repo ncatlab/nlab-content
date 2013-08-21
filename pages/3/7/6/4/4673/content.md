@@ -19,6 +19,8 @@ If one is interested in tensor products as well, then one gets a generalization 
 
 * [[linear map]], [[linear equation]]
 
+* [[higher linear algebra]]
+
 ## References
 
 * wikipedia [linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)
