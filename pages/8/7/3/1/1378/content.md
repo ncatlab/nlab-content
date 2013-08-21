@@ -148,6 +148,8 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 
 ## Related concepts
 
+* [[higher linear algebra]]
+
 [[!include Isbell duality - table]]
 
 
