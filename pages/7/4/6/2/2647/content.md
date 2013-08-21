@@ -33,6 +33,8 @@ It may mean:
 
 * [[fusion category]]
 
+* [[tensor (∞,1)-category]]
+
 ## References
 
 
