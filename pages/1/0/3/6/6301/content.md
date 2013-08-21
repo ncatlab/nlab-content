@@ -13,6 +13,13 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A basic characteristic of [[physics]] in the context of [[special relativity]] and [[general relativity]] is that causal influences on a [[Lorentzian manifold]] [[spacetime]] propagate in [[timelike]] or [[lightlike]] directions but not [[spacelike]].
 
 The fact that any two spacelike-separated regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or **Einstein causality**.
@@ -21,9 +28,27 @@ The fact that any two spacelike-separated regions of spacetime thus behave like 
 
 For a formalization of this idea see for instance
 
-* [[local net of observables]].
+
+* [[local quantum field theory]]
+
+* [[local prequantum field theory]]
+
+* [[local net of observables]]
+
+
+## Related concepts
+
+* [[spacetime]]
+
 
 
 [[!redirects causal locality]]
+
 [[!redirects Einstein causality]]
 [[!redirects Einstein-causality]]
+
+[[!redirects Einstein locality]]
+[[!redirects Einstein-locality]]
+
+[[!redirects microlocality]]
+[[!redirects microcausality]]
