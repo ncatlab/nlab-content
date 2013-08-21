@@ -32,12 +32,15 @@ where $L_4$ is the fourth [[Drinfeld-Kohno Lie algebra]] and $c=-a-b$.
 +-- {: .num_remark}
 ###### Remark
 
-The set of "0-associators" is the so-called [[Grothendieck-Teichmueller group]].
+The set of "0-associators" is the what is called the _[[Grothendieck-Teichmueller group]]_. This acts freely on the set of Drinfeld associators.
 
 =--
 
 ## Relations with braided monoidal categories
+
 These [[equations]] are modelled on the defining [[axioms]] of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some [[Lie algebra|Lie algebraic]] data.
+
+Drinfeld associators are also used to construct [[quasi Hopf algebras]]. 
 
 +-- {: .num_theorem}
 ###### Theorem
