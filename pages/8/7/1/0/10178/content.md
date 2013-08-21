@@ -197,26 +197,35 @@ Some words of context. See ([Nuiten 13, section 1](#Nuiten13)).
 $\,$
 
 
-By the [[cobordism hypothesis]] a [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT]] [[local field theory]] is a [[monoidal (∞,n)-functor]]
+A [[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect QFT|defect]] _[[local field theory]]_ is a [[monoidal (∞,n)-functor]]
 
 $$
   Z \;\colon\; Bord_n^\otimes \to \mathcal{C}^\otimes
 $$
 
-from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]].
+from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]], to _some_ [[symmetric monoidal (∞,n)-category]].
 
-Here for actual [[quantum theory|quantum]] (as opposed to [[prequantum field theory|prequatum]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]] $R Mod$ for some [[commutative ring|commutative]] [[ground ring]] $R$ ordinarily the [[complex numbers]].
+The point of this [[axiom]] is that the [[higher category theory|higher categorical]] [[(∞,n)-functor|(∞,n)-functoriality]] of $Z$ is what encodes the _[[local quantum field theory|locality]]_ of the [[field theory]]. This in turn encodes a fundamental property of the fundamental physics of the [[observable universe]] called _[[causal locality]]_ : (spacelike-)separated regions of [[spacetime]]/[[worldvolume]] behave like [[independent subsystems]].
 
-Here in [[homotopy theory]] we choose, more generally, a ground [[E-∞ ring]] $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
+| [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |
+|---|---
+| [[gauge principle]] | [[homotopy theory]]  |
+| [[causal locality]] | [[higher category theory]] |
 
-A decent choice for $\mathcal{C}^\otimes$ is then $\mathcal{C}^\otimes = E Mod^{\Box^n}$, the [[symmetric monoidal (∞,n)-category]] of $n$-dimensional [[cubes]] in $E Mod$. 
+The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
+
+In particular, for actual _[[quantum theory|quantum]]_ (as opposed to [[prequantum field theory|prequatum]] or [[classical field theory|classical]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _linear_ [[tensor category|tensor]] [[category of modules]], $R Mod^\otimes$, for some [[commutative ring|commutative]] [[ground ring]] $R$ (which in ordinary [[quantum mechanics]] is the [[complex numbers]]).
+
+Here in [[higher category theory]]/[[homotopy theory]] we choose, more generally, a ground _[[E-∞ ring|commutative ∞-ring]]_ $E$. This comes with its [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category of ∞-modules]] $E Mod^\otimes$.
+
+A decent choice for $\mathcal{C}^\otimes$ is then $\mathcal{C}^\otimes = E Mod^{\Box^n}$, the [[symmetric monoidal (∞,n)-category]] of $n$-dimensional [[cubes]] in $E Mod$. With this used as the codomain the the definition of $Z$
 
 $$
   Z \; \colon \;
   Bord_n^\otimes \to (E Mod^{\Box^n})^\otimes
 $$
 
-This assigns [[propagator]] [[linear maps]] between [[spaces of quantum states]]. 
+the [[field theory]] assigns [[quantum propagator]] [[linear maps]] between [[spaces of quantum states]] to pieces of [[spacetime]]/[[worldvolume]]:
 
 $$
   \left(
@@ -243,16 +252,20 @@ $$
   \,.
 $$
 
-The linearity of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[states]] may be added and possibly additively cancel. This is _[[quantum interference]]_, the hallmark of [[quantum physics]].
+The [[abelian category|linearity]] of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[quantum states]] may be added and possibly may additively cancel. This cancellation is _[[quantum interference]]_, the very hallmark of [[quantum physics]].
 
-But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of monoidal $Z$ as above is still much more general than what a physicist would typically call quantum field theory. The quantum field theories actually of interest both in nature and in theory arise via a process of [[quantization]] from geometric data given by a [[local prequantum field theory]]: a [[local action functional]]/[[local Lagrangian]].
+But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or similar, the notion of $Z$ as above is still much more general than the field theories typically of interest in nature and theory. The quantum field theories actually of interest both in nature and in theory have the special property that they arise via a process of _[[quantization]]_ from [[higher geometry|higher geometric data]] given by a [[local prequantum field theory]]: a [[local action functional]]/[[local Lagrangian]] on a [[moduli space]] of [[field (physics)|fields]].
+
+This is the process to be indicated in the following:
 
 | [[local prequantum field theory]]  | -- [[quantization]]$\longrightarrow$ | [[local quantum field theory]] |
 |---|---|---|
 | [[higher geometry]] | --[[motives]]$\longrightarrow$ | [[higher linear algebra]] |
-| [[higher prequantum bundle|higher prequantum]] [[(∞,1)-module bundle]] | --[[sections]]$\longrightarrow$ | [[∞-module]] of [[quantum states]] |
-| [[correspondences]] | --[[path integral as a pull-push transform|pull-push transform]]$\longrightarrow$ | [[linear maps]]  |
+| [[higher prequantum line bundle]] | --space of [[sections]]$\longrightarrow$ | [[∞-module]] of [[quantum states]] |
+| [[section]], [[wavefunction]] |   | [[quantum state]] |
+| [[correspondences]], [[integral kernels]] | --[[path integral as a pull-push transform|pull-push transform]]$\longrightarrow$ | [[linear maps]]  |
 | [[field (physics)|field]] [[trajectories]] | --[[path integral]]$\longrightarrow$ | [[quantum propagators]] |
+
 
 
 
