@@ -373,6 +373,10 @@ A recognition principle for [[homotopy fibers]] of $L_\infty$-homomorphisms appe
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
  {#FiorenzaRogersSchreiber13}
 
+Discussion of extensions of [[super L-∞ algebras]] based on the [[super Poincare Lie algebra]] is in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
 
 [[!redirects ∞-Lie algebra cohomology]]
 [[!redirects L-∞-algebra cohomology]]
@@ -405,8 +409,14 @@ A recognition principle for [[homotopy fibers]] of $L_\infty$-homomorphisms appe
 
 [[!redirects L-∞ cocycle]]
 [[!redirects L-∞ cocycles]]
+[[!redirects L-infinity cocycle]]
+[[!redirects L-infinity cocycles]]
+
+
 [[!redirects L-∞ extension]]
 [[!redirects L-∞ extensions]]
+[[!redirects L-infinity extension]]
+[[!redirects L-infinity extensions]]
 
 [[!redirects Lie algebroid cohomology]]
 [[!redirects Lie algebroid cocycle]]
@@ -419,3 +429,8 @@ A recognition principle for [[homotopy fibers]] of $L_\infty$-homomorphisms appe
 
 [[!redirects ∞-Lie algebroid cohomology]]
 [[!redirects infinity-Lie algebroid cohomology]]
+
+
+
+
+
