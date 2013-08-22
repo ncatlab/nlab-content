@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc} 
@@ -35,6 +51,7 @@ for more on this.
 
 * [[flat section]]
 
+* [[space of sections]]
 
 [[!redirects sections]]
 [[!redirects cross section]]
