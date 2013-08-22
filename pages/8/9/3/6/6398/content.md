@@ -59,6 +59,8 @@ There are several different incarnations of the superstring.
 
 ## References
 
+### General
+
 The relationship between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
 
 * Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B
@@ -70,5 +72,12 @@ Volume 178, Issues 2-3, 2 October 1986, Pages 207-210
 This involves the relation between the [[octonion]] algebra an [[spinor]]s in 2+8 dimensions (see also [[division algebra and supersymmetry]]):
 
 * H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
+
+### As higher super-GS-WZW type $\sigma$-models
+
+Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
 
 [[!redirects superstrings]]
