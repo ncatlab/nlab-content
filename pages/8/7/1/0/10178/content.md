@@ -420,7 +420,7 @@ $$
     }
   \right)
   \;\;
-    \stackrel{\;\;\;\;\;\;}{\xmapsto}
+    \stackrel{\;\;\;\;\;\;}{\mapsto}
   \;\;
   \left(
     \array{
@@ -430,43 +430,39 @@ $$
       && 
       \searrow^{\mathrlap{(-)|_{out}}}
       \\
-      [\Pi(\Sigma_{in})]
+      [\Pi(\Sigma_{in}), \mathbf{Fields}]
       && 
       &&
-      [\Pi(\Sigma_{out})]
+      [\Pi(\Sigma_{out}), \mathbf{Fields}]
     }
   \right)
   \,.
 $$
 
-Now a [[local action functional]] on the given $\mathbf{Fields}$ is a map
+In this way the [[moduli ∞-stack]] $\mathbf{Fields}$ of [[field (physics)|field]] encodes the _[[kinematics]]_ of a [[local prequantum field theory]]. 
+
+Next we define the _[[dynamics]]_ by defining a [[local action functional]] which assigns to each [[trajectory]] a [[probability amplitude]] for that trajectory to be "physically realized".
+
+Traditionally, in non-localized [[prequantum field theory]], an (exponentiated) [[action functional]] is a map of the form $\mathbf{Fields}_{traj} \longrightarrow U(1)$. For instance for $\mathbf{Fields}_{traj} \coloneqq [S^1, X]$ the smooth [[loop space]] of a [[manifold]] $X$ that is equipped with a $U(1)$-[[principal connection]] $\nabla$ (an [[electromagnetic field]]), then the [[holonomy]] [[functional]] $hol_\nabla \colon [S^1, X] \to U(1)$ is the [[interaction]] term for the [[charged particle]] [[sigma model]] [[field theory]] on $X$.
+
+To see how this is axiomatized in _[[local field theory|local]]_ [[field theory]], notice that there is a [[homotopy fiber product]] diagram of the form
 
 $$
   \array{
-    \mathbf{Fields}
-    \\
-    \downarrow^{\mathrlap{\exp(i S)}}
-    \\
-    \mathbf{B}^n U(1)_{conn}
+   && U(1)
+   \\
+   & \swarrow && \searrow
+   \\
+   \ast && \swArrow_\simeq && \ast
+   \\
+   {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+   \\
+   && \mathbf{B}U(1)
   }
   \,.
 $$
 
-Notice that in this localized [[higher prequantum geometry]] formulation, the notion of localized action functional coincides with the notion of [[local Lagrangian]] and also coincides with this notion of [[higher prequantum bundle]] -- by _[[transgression]]_ to lower [[codimension]]
-
-* the [[transgression]] of $\exp(i S)$ to [[codimension]] 0 is the traditional [[action functional]] $[\Sigma_n, \mathbf{Fields}] \to U(1)$. 
-
-* the [[transgression]] of $\exp(i S)$ to [[codimension]] is the the traditional (off-shell) [[prequantum circle bundle]] $[\Sigma_{n-1}, \mathbf{Fields}] \to \mathbf{B}U(1)_{conn}$.
-
-Therefore the _category of local action functionals_ is  the [[slice (∞,1)-topos]]
-
-$$
-  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
-$$
-
-And therefore the category $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of correspondences in the slice contains trajectories equipped with action functionals.
-
-By the "[[holographic principle]] of [[homotopy theory]]" (if you wish), this induces action functionals of lower degree in higher dimension: let $\Sigma$ be a [[closed manifold]], then
+in $\mathbf{H}$, which exhibts the [[circle group]] (as a [[Lie group]]!) as the [[loop sapce object]] of the [[moduli stack]] of $U(1)$-[[principal bundles]]: $U(1)\simeq \Omega \mathbf{B}U(1)$. By the [[universal property]] of the [[homotopy fiber]], maps $\mathbf{Fields}_{traj} \longrightarrow U(1)$ are therefore equivalent to [[diagrams]] of the form
 
 $$
   \array{
@@ -474,15 +470,15 @@ $$
     \\
     & \swarrow && \searrow 
     \\
-    \mathbf{Fields}_{\emptyset}
+    \mathbf{Fields}_{in}
     && 
      \swArrow 
     &&
-    \mathbf{Fields}_{\emptyset}
+    \mathbf{Fields}_{out}
     \\
-    & {}_{\mathllap{1}}\searrow && \swarrow_{\mathrlap{1}}
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
     \\
-    && \mathbf{B}^n U(1)
+    && \mathbf{B} U(1)
   }
   \;\;\;\;\;
   \simeq
@@ -498,14 +494,77 @@ $$
     &\rightarrow&
     \ast
     \\
-    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    & {}_{\mathllap{0}}\searrow &\swArrow& \swarrow_{\mathrlap{0}}
     \\
-    && \mathbf{B}^n U(1)
+    && \mathbf{B} U(1)
   }
   \,.
 $$
 
-So in top dimension these are the traditional [[action functionals]] with values in the [[circle group]] $U(1)$.
+More generally, for $[I,X]$ the smooth [[path space]] of $X$, the [[interaction]] term of the [[charge particle]] is not in general a $U(1)$-valued [[function]] on $X$, but is a [[section]] of the $U(1)$-[[principal bundle]] $\chi(\nabla) \colon X \to \mathbf{B}U(1)$ which underlies $\nabla$. This means that it is a diagram of this form:
+
+$$
+  \array{
+    && [I,X]
+    \\
+    & {}^{(-)|_0}\swarrow && \searrow^{(-)|_1}
+    \\
+    X && \swArrow_{\exp(i S)} && X
+    \\
+    & {}_{\mathllap{\chi(\nabla)}}\searrow && \swarrow_{\mathrlap{\chi(\nabla)}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+
+Here it makes sense to think of the original [[background gauge field]] $\nabla \colom X \to \mathbf{B}U(1)_{conn}$ itself as a "higher incarnation" or "local incarnation" of the action functional on pathe _de-[[transgression|transgressed]]_ from [[path space]] back to the manifold itself.
+
+There in general we say that a _[[local action functional]]_ for a [[local prequantum field theory]] of [[dimension]] $n$ with field content $\mathbf{Fields} \in \mathbf{H}$ is a map of the form
+
+$$
+  \array{
+    \mathbf{Fields}
+    \\
+    \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    \mathbf{B}^n U(1)_{conn}
+  }
+  \,,
+$$
+
+hence is a [[circle n-bundle with connection]] on the universal [[moduli ∞-stack]] $\mathbf{Fields}$.
+
+OIne finds that in this localized [[higher prequantum geometry]] formulation, the notion of localized action functional coincides with the notion of _[[local Lagrangian]]_ and also coincides with this notion of _[[higher prequantum bundle]]_ -- by _[[transgression]]_ to lower [[codimension]]:
+
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] 0 is the traditional [[action functional]] $[\Sigma_n, \mathbf{Fields}] \to U(1)$. 
+
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] is the the traditional (off-shell) [[prequantum circle bundle]] $[\Sigma_{n-1}, \mathbf{Fields}] \to \mathbf{B}U(1)_{conn}$.
+
+Therefore just as the [[(∞,1)-topos]] $\mathbf{H}$ itself is the home of [[moduli ∞-stacks]] of [[field (physics)|fields]] ([[kinematics]]) so the collection of all [[local action functionls]] on such moduli $\infty$-stacks ([[dynamoics]]) forms the [[slice (∞,1)-topos]]
+
+$$
+  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
+$$
+
+whose [[objects]] are maps $\left[\array{\mathbf{Fields}} \\ \downarrow^{\mathrlap{\\exp(i S)}} \\ \mathbf{B}^n U(1)_{conn}\right]$ and whose [[morphisms]] are [[diagrams]] of the form
+
+$$
+  \array{
+    \mathbf{Fields}_1
+     && \longrightarrow &&
+    \mathbf{Fields}_2
+    \\
+    & \searrow &\swArrow_\simeq& \swarrow
+    \\
+    && \mathbf{B}^{n} U(1)_{conn}
+  }
+$$
+
+in $\mathbf{H}$.
+
+Therefore the category $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of correspondences in the slice contains trajectories equipped with action functionals.
+
 
 In conclusion, a [[local action functional]] $\exp(i S)$ on a species $\mathbf{Fields}$ of [[field (physics)|physical fields]] a is lift $\exp(i S)$ in
 
@@ -524,6 +583,15 @@ $$
 
 This diagram defines a _[[local prequantum field theory]]_ ([[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect field theory|defects]]).
 
+
+
+
+### 3. Linearization in generalized cohomology
+ {#ExpositionLinearizationInGeneralizedCohomology}
+
+We now survey the linearization step. See ([Nuiten 13, section 3](#Nuiten13)).
+
+$\,$
 
 What we need now for [[quantization]] is a [[path integral]]
 map that adds up the values of the [[action functional]] over the space of trajectories, a functor of the form
@@ -597,13 +665,6 @@ $$
   \,.
 $$
 
-
-### 3. Linearization in generalized cohomology
- {#ExpositionLinearizationInGeneralizedCohomology}
-
-We now survey the linearization step. See ([Nuiten 13, section 3](#Nuiten13)).
-
-$\,$
 
 So before actually quantizing a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to choose linear [[coefficients]], given by 
 
