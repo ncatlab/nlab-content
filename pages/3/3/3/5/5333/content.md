@@ -62,7 +62,7 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
 * [[11-dimensional supergravity]]
 
-  * [[Hořava-Witten theory]]
+  * [[Ho?ava-Witten theory]]
 
   * [[M-theory]]
 
@@ -93,6 +93,13 @@ A textbook introduction is
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+### As higher super-GS-WZW type $\sigma$-models
+
+Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
 
 
 ### Compactifications
