@@ -25,7 +25,7 @@ A central aspect of [[quantum field theory]] usually desired or demanded or expe
 
 * phenomena of large scale [[spacetime]]/[[worldvolume]] are entirely determined by phenomena on smaller scales;
 
-* (space-line) separated regions of [[spacetime]] behave like [independent subsystems](quantum+mechanics#Subsystems) ([[causal locality]]).
+* (space-like) separated regions of [[spacetime]] behave like [independent subsystems](quantum+mechanics#Subsystems) ([[causal locality]]).
 
 In some [[effective quantum field theories]] locality may be violated, if fundamental local processes are averaged out to a single non-local macroscopic process, but for _fundamental_ physics of the [[observable universe]] it is thought to hold.
 
@@ -41,7 +41,7 @@ Locality is formalized in the two main axiomatizations of quantum field theory a
 
   Often in the literature the term "local quantum field theory" is meant to refer specifically to these [[AQFT]] axioms (some authors use the tersm synonymously, dating from a time when this was the only axiomatization of quantum field theory considered.)
 
-* In [[FQFT]] locality is encoded in the [[functor]]-property of the functor on the [[category of cobordisms]]: being a functor means that the assignment to a cobordism $\Sigma$ is obtained by composing the assignments to any decompoisition of $\Sigma$ into small cobordims. In particular in _[[extended quantum field theory]]_ (now also sometimes called "fully localized" QFT) this is [[(infinity,n)-functor|n-functorial]] meaning that this gluing condtion holds in all dimensions and in all directions.
+* In [[FQFT]] locality is encoded in the [[functor]]-property of the functor on the [[category of cobordisms]]: being a functor means that the assignment to a cobordism $\Sigma$ is obtained by composing the assignments to any decomposition of $\Sigma$ into small cobordisms. In particular, in _[[extended quantum field theory]]_ (now also sometimes called "fully localized" QFT) this is [[(infinity,n)-functor|n-functorial]] meaning that this gluing condition holds in all dimensions and in all directions.
 
 ### Formalization in pre-quantum field theory
 
