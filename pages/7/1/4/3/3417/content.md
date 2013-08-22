@@ -49,7 +49,7 @@ makes it a model for the [[(∞,1)-category of (∞,1)-categories]].
 
 Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work by Dwyer-Kan on [[simplicial localization]]. 
 
-**Propositon** A [[Quillen equivalence]] $C \stackrel{\leftarrow}{\to} D$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
+**Proposition** A [[Quillen equivalence]] $C \stackrel{\leftarrow}{\to} D$ between [[model categories]] induces a Dwyer-Kan-equivalence $L C \leftrightarrow L D$ between their [[simplicial localization]]s.
 
 **Proposition** The category [[SSet Cat]] of [[small category|small]] [[simplicially enriched categories]] carries the structure of a [[model category]] with
 
