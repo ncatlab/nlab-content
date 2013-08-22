@@ -157,7 +157,7 @@ $$
     \\
     X && \swArrow_{\exp(i S)} && X
     \\
-    & {}_{\mathllap{\chi(\nabla)}}\searrow && \swarrow_{\mathrlap{\chi_\nabla}}
+    & {}_{\mathllap{\chi(\nabla)}}\searrow && \swarrow_{\mathrlap{\chi(\nabla)}}
     \\
     && \mathbf{B}U(1)
   }
