@@ -279,27 +279,71 @@ First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2]
 $\,$
 
 
-Because most quantum field theories of interested both in nature and in theory are very special examples of this general definition, in that: 
+The notion of [[field (physics)|field]] in [[physics]] is often said to be [[axiom|axiomatized]] as a [[section]] of a [[fiber bundle]] over [[spacetime]]/[[worldvolume]] whose [[fibers]] are [[manifolds]] -- called the [[field bundle]]. This is [[true]] for simple instances of [[scalar fields]] and [[sigma-model]] fields. 
 
-* they arise via a process of [[quantization]] from [[higher differential geometry|higher differential geometric data]] in terms of [[spaces]] of [[field (physics)|field configurations]] equipped with [[action functionals]].
+But it is [[false]] for [[gauge fields]] as in [[electromagnetism]] or [[Yang-Mills theory]] (and is ever more false for [[higher gauge fields]], such as the [[B-field]] in [[type II supergravity]] orin the [[6d (2,0)-superconformal QFT]]):
 
-In order to capture this, we take $\mathbf{H}$ be a suitable ambient category of [[spaces]] of [[field (physics)|fields]]. (Following a suggestion of [[William Lawvere]], we call these suitable cateories _[[cohesive (∞,1)-toposes]]_.)
+for $G$ a [[Lie group]] regarded as a [[gauge group]], a $G$-[[gauge field]] on $X$ is a [[section]] of a kind of bundle whose fiber is the universal [[moduli stack]] $\mathbf{B}G_{conn}$ of $G$-[[principal connections]] $\nabla$. The underlying [[instanton sector]] $\mathbf{c}(\nabla)$ of the [[gauge field]] is still a section of a bundle whose typical fiber is the [[moduli stack]] $\mathbf{B}G$ of $G$, locally on a [[cover]] $U \to X$ one has:
 
-For instance 
+$$
+  \array{
+     && \mathbf{B}G_{conn}
+     \\
+     & {}^{\mathllap{\nabla|_U}}\nearrow & \downarrow
+     \\
+     U &\stackrel{\mathbf{c}(\nabla|_U)}{\to}&
+     \mathbf{B}G
+  }
+  \,.
+$$
 
-* for $\mathbf{Fields} = X \in \mathbf{H}$ a [[manifold]], this is a space of [[sigma-model]] [[field (physics)|fields]], 
+Here $\mathbf{B}G$ is not a [[smooth manifold]], but a [[smooth groupoid]] (a [[geometric stack]]), and a $(\mathbf{B}G)$-fiber bundle is a _[[fiber ∞-bundle|fiber 2-bundle]]_, called a _$G$-[[gerbe]]_ over $X$, which itself is a [[connected object in an (∞,1)-category|connected]] [[stack]] of [[groupoids]] over $X$.
 
-* or for $\mathbf{Fields} = \mathbf{B}G_{conn}$ a [[moduli stack]] of [[principal connections]], this is a space of [[gauge fields]]. 
+Here the [[groupoid]]-nature of $\mathbf{B}G$ is a precise reflection of the [[gauge principle]] governing the [[gauge field]].
 
-Let $Corr_n(\mathbf{H})$ be $n$-fold [[correspondences]] in $\mathbf{C}$. A [[morphism]] here is a space of [[trajectories]] $\mathbf{Fields}_{trajectories}$ of fields, together with projections to the incoming and the outgoing fields
+Similarly, an abelian [[higher gauge field|n-form gauge field]] (e.g. the [[B-field]], the [[supergravity C-field]]) is locally given by maps into a [[moduli infinity-stack|moduli n-stack]] $\mathbf{B}^n U(1)_{conn}$ of [[circle n-bundles with connection]], which is a [[smooth ∞-groupoid|smooth n-groupoid]]. A [[field bundle]] for these is hence a $U(1)$-[[infinity-gerbe|n-gerbe]].
+
+(All this is true in the complete [[non-perturbative field theory|non-perturbative]] description of [[field theory]]. Often, however, field theory is discussed only in the approximation [[perturbation theory]], where all spaces are linearized by their [[infinitesimal object|infinitesimal]] approximation. Since the [[Lie differentiation]] of a [[smooth ∞-stack|smooth higher stack]] is precisely an [[L-∞ algebra]]/[[L-∞ algebroid]], and since these may be modeled on [[chain complexes]], it follows that in [[perturbation theory]] (only) one may generally assume (mostly) that fields are indeed sections of an ordinary [[field bundle]].)
+
+So in order to formalize [[non-perturbative field theory|non-perturbative]] [[local prequantum field theory]] one needs to pair [[geometry]] with [[homotopy theory]]. Such a combination is called an _[[(∞,1)-topos]]_ of [[∞-stacks]]/[[geometric ∞-groupoids]]:
+
+* [[geometry]] +  [[homotopy theory]] = [[(∞,1)-topos|∞-topos]]
+
+* [[space]] + [[higher gauge theory|higher]] [[gauge transformations]] = [[geometric ∞-groupoid]]/[[∞-stack]] .
+
+We consider now $\mathbf{H}$ to be a suitable such [[(∞,1)-topos]]. The example to keep in mind is
+
+$\mathbf{H} =$ [[SmoothSuper∞Grpd]] $\coloneqq Sh_\infty(SuperManifolds) = L_{lhe} Func(Supermanifolds^{op}, KanComplexes)$
+
+which is the context of [[higher differential geometry]] for the description of [[boson|bosonic]] [[field (physics)|fields]] and of higher [[supergeometry]] (for the descrition of [[fermion]] [[field (physics)|fields]]).
+
+More generally, for constructing the [[moduli ∞-stacks]] of [[higher gauge fields]] we need an [[(∞,1)-topos]] $\mathbf{H}$ that satisfies an axiom called _[[differential cohesion|differential]] [[cohesion]]_.
+
+Given such $\mathbf{H}$, every object in it serves as a _[[moduli ∞-stack]]_ of [[field (physics)|fields]], so we write here $\mathbf{Fields} \in \mathbf{H}$. This means that if $X \in \mathbf{H}$ is regarded as [[spacetime]]/[[worldvolume]], then 
+
+* a [[field (physics)|field]] on $X$ is a map
+
+  $$
+    \phi \;\colon\; X \longrightarrow \mathbf{Fields}
+  $$
+
+  in $\mathbf{H}$, 
+
+* a [[gauge transformation]] of such fields is a [[homotopy]] betwen two such maps, 
+
+* and a [[higher gauge transformation]] is a [[higher homotopy]] between those.
+
+With physical fields in hand, next we need to axiomatize [[trajectories]] of such fields.
+
+Now a space of [[trajectories]] of fields is itself a space of fields, together with projections to the incoming and the outgoing fields configurations, hence a [[span]]-shaped [[diagram]] of the form
 
 $$
   \array{
     && \mathbf{Fields}_{\mathrm{trajectories}}
     \\
-    &   \stackrel{}{\swarrow}
+    &   {}^{\mathllap{(-)|_{in}}}\stackrel{}{\swarrow}
     &&
-    \searrow
+    \searrow^{\mathrlap{(-)_{out}}}
     \\
     \mathbf{Fields}_{in}
      && &&
@@ -308,19 +352,23 @@ $$
   \,.
 $$
 
+We say that this is _[[correspondence]]_ (or in fact a _higher [[relation]]_) between $\mathbf{Fields}_{in}$ and $\mathbf{Fields}_{out}$.
+
 For instance for 
 
 $$
-  \left(
-  \partial_{in} \Sigma
-  \coprod
-  \partial_{out} \Sigma
-  \right)
-  \hookrightarrow
-  \Sigma
+  \array{
+    && \Sigma
+    \\
+    & \nearrow && \nwarrow
+    \\
+    \Sigma_{in}
+    && &&
+    \Sig,a_{out}
+  }
 $$
 
-a [[cobordism]] and $\mathbf{Fields}$ a [[moduli stack]] of fields as above, then forming [[mapping spaces]] yields the correspondence
+a [[cobordism]] with incoming and outgoing [[boundary]] [[manifolds]], as indicated, and for $\mathbf{Fields}$ a given [[moduli stack]] of [[field (physics)|fields]] as above, then forming [[mapping spaces]] yields the correspondence
 
 $$
   \array{
@@ -334,32 +382,62 @@ $$
   }
 $$
 
-which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$.
+which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$. 
+
+For example, if here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field, then this descrive a bunch of [[brane]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
 
 
-Therefore a [[monoidal (∞,n)-functor]]
+Write then $Corr_n(\mathbf{H})^\otimes$ be the [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,n)-category of n-fold correspondences]] of this form. 
 
-$$
-  \array{
-    Bord_n^\otimes
-    \\
-    & {}_{\mathllap{\mathbf{Fields}}}\searrow 
-    \\
-    && 
-    Corr_n(\mathbf{H})^\otimes
-  }
-$$
+One finds that: 
 
-defines _field content_ for a [[field theory]]. By the [[cobordism hypothesis]] (and since _every_ object in $Corr_n(\mathbf{H})$ is a [[fully dualizable object]]) this is just equivalent to the choice of [[moduli stack]] $\mathbf{Fields} \in \mathbf{H}$.
-Given this, the above functor sends a [[cobordism]] $\Sigma$ to 
+* _every_ object of $\mathbf{H}$ is self-[[fully dualizable object|fully dualizable]] in $Corr_n(\mathbf{H})^\otimes$;
+
+* the [[higher trace]] $tr_{\Pi(\Sigma)}(\mathbf{Fields})$ of [[shape]] $\Pi(\Sigma)$ of this [[fully dualizable object]] is the [[moduli ∞-stack]] of [[flat modality|flat]] fields on $\Sigma$, the _[[phase space]]_ of fields (for fields of [[∞-Chern-Simons theory]]-type at least).
+
+This means, by the [[cobordism hypothesis]],  that a choice of [[moduli ∞-stack]] $\mathbf{Fields} \in \mathbf{H}$ is equivalently a choice of [[monoidal (∞,n)-functor]]
 
 $$
-  \mathbf{Fields}(\Sigma)
-  \simeq
-  [\Pi(\Sigma), \mathbf{Fields}]
+  \mathbf{Fields}
+  \;\colon\;
+  Bord_n^\otimes
+    \longrightarrow
+  Corr_n(\mathbf{H})^\otimes
 $$
 
-the "[[phase space]]" of "flat fields" on $\Sigma$.
+which sends [[cobordisms]] to the the [[correspondences]] between in- and out-going flat field configurations over the boundary, given by flat [[trajectories]] over the cobordism:
+
+$$
+  \left(
+    \array{
+      && \Sigma
+      \\
+      & \nearrow && \nwarrow
+      \\
+      \Sigma_{in}
+      && &&
+      \Sigma_{out}
+    }
+  \right)
+  \;\;
+    \stackrel{\;\;\;\;\;\;}{\xmapsto}
+  \;\;
+  \left(
+    \array{
+      && [\Pi(\Sigma), \mathbf{Fields}]
+      \\
+      & {}^{\mathllap{(-)|_{in}}}\swarrow 
+      && 
+      \searrow^{\mathrlap{(-)|_{out}}}
+      \\
+      [\Pi(\Sigma_{in})]
+      && 
+      &&
+      [\Pi(\Sigma_{out})]
+    }
+  \right)
+  \,.
+$$
 
 Now a [[local action functional]] on the given $\mathbf{Fields}$ is a map
 
