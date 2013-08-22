@@ -4,7 +4,37 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-
+$$
+  \left(
+    \array{
+      && \Sigma
+      \\
+      & \nearrow && \nwarrow
+      \\
+      \Sigma_{in}
+      && &&
+      \Sigma_{out}
+    }
+  \right)
+  \;\;
+    \stackrel{\;\;\;\;\;\;}{\mapsto}
+  \;\;
+  \left(
+    \array{
+      && [\Pi(\Sigma), \mathbf{Fields}]
+      \\
+      & {}^{\mathllap{(-)|_{in}}}\swarrow 
+      && 
+      \searrow^{\mathrlap{(-)|_{out}}}
+      \\
+      [\Pi(\Sigma_{in}), \mathbf{Fields}]
+      && 
+      &&
+      [\Pi(\Sigma_{out}), \mathbf{Fields}]
+    }
+  \right)
+  \,.
+$$
 
 
 Consider now a morphism 
