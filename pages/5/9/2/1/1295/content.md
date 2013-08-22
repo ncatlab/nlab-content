@@ -82,7 +82,7 @@ $$
   \mathcal{C}
 $$
 
-sends [[bundle]]s $P \to X$ to their object of [[section]]s 
+sends [[bundle]]s $P \to X$ to their [[space of sections|object of sections]]. 
 
 $$
   \prod_{x \in X} P_x
