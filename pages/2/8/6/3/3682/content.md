@@ -184,7 +184,7 @@ The analogous statement here is that all homotopy limits are determined by homot
 +-- {: .num_prop}
 ###### Proposition
 
-Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* F$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
+Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* F$ exhibits $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
 
 $$  
   \eta_a : A(a,G(-)) \to  A(a, f_* F(-))
@@ -345,6 +345,10 @@ For instance section A.3.3 of
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
+
+General background theory is discussed in
+
+* [[Jean-Marc Cordier]] and [[Tim Porter]], _Homotopy Coherent Category Theory_, Trans. Amer. Math. Soc. 349 (1997) 1-54.
 
 
 
