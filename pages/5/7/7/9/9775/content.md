@@ -58,3 +58,8 @@ The [[type IIB supergravity]] Lie 2-algebra and its [[D-brane]]-[[Green-Schwarz 
 * Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_,  JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](http://arxiv.org/abs/hep-th/9909143))
  {#Sakaguchi99}
 
+The formulation in [[super L-infinity algebra]] theory is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
+
