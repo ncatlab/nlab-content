@@ -72,7 +72,7 @@ in particular of the total system.
 
 1. **causal locality**
 
-   If two regions of [[spacetime]] are [[spacelike]] separated, then there can be no influence between them whatsoever. Not only do the field excitations in one of the two regions not _directly_ influence those in the other region (as per item 1), but they do not even influence _indirectly_ : no [[waves]] of excitations (for instance [[electromagnetic waves]]: [[light]]) can run from one region to a spacelike separated region. Therefore the two [[subsystems]] constituted by these two regions accordording to the first point are even _[[independent subsystems]]_ .
+   If two regions of [[spacetime]] are [[spacelike]] separated, then there can be no influence between them whatsoever. Not only do the field excitations in one of the two regions not _directly_ influence those in the other region (as per item 1), but they do not even influence _indirectly_ : no [[waves]] of excitations (for instance [[electromagnetic waves]]: [[light]]) can run from one region to a spacelike separated region. Therefore the two [[subsystems]] constituted by these two regions accordording to the first point are even _[[independent subsystems]]_ . This is called _[[causal locality]]_.
 
    The formalization of "two [[independent subsystems]]" in [[quantum mechanics]] is: two subalgebras that _commute_ with each other inside the larger [[C-star algebra]]. (And usually one adds: and such that the algebra they generate in the larger algebra is [[isomorphic]] to their [[tensor product]].)
 
