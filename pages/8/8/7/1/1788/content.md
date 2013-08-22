@@ -4,40 +4,15 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-$$
-  \array{
-    && \mathbf{Fields}_{traj}
-    \\
-    & {}^{i_{in}}\swarrow && \searrow^{\mathrlap{i_{out}}}
-    \\
-    \mathbf{Fields}_{in}
-     & & \swArrow_{\simeq}  & &
-    \mathbf{Fields}_{out}
-    \\
-    & {}_{\mathllap{\chi_{in}}}\searrow
-    &&
-    \swarrow_{\mathrlap{\chi_{out}}}
-    \\
-    && E Mod
-    \\
-    \,
-    \\
-    \,
-    \\
-   E_{\bullet + \chi_{in}}(\mathbf{Fields}_{in})
-    & \stackrel{(i_{in})_\ast}{\longleftarrow}&
-   \array{
-   E_{\bullet + i_{in}^\ast\chi_{in}}(\mathbf{Fields}_{traj})
-    \\
-    \simeq 
-    \\
-   E_{\bullet + i_{out}^\ast\chi_{out}}(\mathbf{Fields}_{traj})
-    }
-    & \stackrel{(i_{out})^\ast}{\longrightarrow}&
-   E_{\bullet + \chi_{out}}(\mathbf{Fields}_{out})
-  }
-  \,.
-$$
+
+
+
+
+|  |  | [[perturbation theory]] | [[non-perturbative field theory]] |
+|--|--|--|--|
+| [[quantum mechanics]] |  | [[formal deformation quantization]] |  [[geometric quantization]]  |
+| [[quantum field theory]] |  | [[BV quantization]] to [[factorization algebra]] | [[motivic quantization]] to [[FQFT]]  |
+
 
 ***
 
