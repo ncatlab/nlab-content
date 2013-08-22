@@ -4,7 +4,10 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-
+| [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |  experimental bound on violation |
+|---|---|--|
+| [[gauge principle]] | [[homotopy theory]]  |  no violation  |
+| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-15}cm$ ([Grigoriev 79](causal+locality#Microcausality)) |
 
 
 
