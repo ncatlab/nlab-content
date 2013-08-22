@@ -123,7 +123,7 @@ $$
 
 By  the [[AdS3-CFT2 and CS-WZW correspondence]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
 
-### D-branes
+### D-branes for the WZW model
  {#DBranes}
 
 The characterization of [[D-brane]] [[submanifolds]] for the [[open string]] WZW model on a [[Lie group]] $G$ comes from two consistency conditions:
@@ -181,9 +181,9 @@ for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally in
 
 * [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_, Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([web](http://inspirehep.net/record/257658?ln=de))
 
-* [[Giovanni Felder]] , [[Krzysztof Gawędzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
+* [[Giovanni Felder]] , [[Krzysztof Gaw?dzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
 
-* [[Krzysztof Gawędzki]], _Topological actions in two-dimensional quantum field theories_. In: Nonperturbative quantum field theory. 'tHooft, G. et al. (eds.). London: Plenum Press 1988
+* [[Krzysztof Gaw?dzki]], _Topological actions in two-dimensional quantum field theories_. In: Nonperturbative quantum field theory. 'tHooft, G. et al. (eds.). London: Plenum Press 1988
 
 as the [[surface holonomy]] of a [[circle 2-bundle with connection]]. See also the references at _[[B-field]]_ and at _[[Freed-Witten anomaly cancellation]]_.
 
@@ -214,7 +214,7 @@ See also
 
 * [[Krzysztof Gawedzki]], Rafal Suszek, [[Konrad Waldorf]], _Global gauge anomalies in two-dimensional bosonic sigma models_ ([arXiv:1003.4154](http://arxiv.org/abs/1003.4154))
 
-* Paul de Fromont, [[Krzysztof Gawȩdzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
+* Paul de Fromont, [[Krzysztof Gaw?dzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
 
 ### Relation to gerbes and Chern-Simons theory
  {#ReferencesRelationToGerbesAndCS}
@@ -243,7 +243,7 @@ See also Section 2.3.18 and section 4.7 of
 
 * [[Terry Gannon]], _Partition Functions for Heterotic WZW Conformal Field Theories_, Nucl.Phys. B402 (1993) 729-753 ([arXiv:hep-th/9209042](http://arxiv.org/abs/hep-th/9209042))
 
-### D-branes
+### D-branes for the WZW model
  {#ReferencesDBranes}
 
 A characterization of [[D-branes]] in the WZW model as those [[conjugacy classes]] that in addition satisfy an integrality ([[Bohr-Sommerfeld quantization|Bohr-Sommerfeld]]-type) condition missed in other parts of the literature is stated in 
@@ -269,11 +269,16 @@ The image in [[K-theory]] of these [[Chan-Paton gauge fields]] over conjugacy cl
 * [[Eckhard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
 
 
+
 ### Relation to extended TQFT
 
 Relation to [[extended TQFT]] is discussed in 
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
+
+The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] (and other [[branes]] of [[string theory]]/[[M-theory]]) as WZW-models (and [[schreiber:∞-Wess-Zumino-Witten theory|∞-WZW models]]) on ([[super L-∞ algebra]] [[L-∞ extensions]] of) the [[super translation group]] is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
 
 
 ## Discussion
