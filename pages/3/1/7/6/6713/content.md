@@ -241,6 +241,13 @@ More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
+### As higher super-GS-WZW type $\sigma$-models
+
+Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
+
 ### KK-theoretic description and D-brane charge
 
 The idea that the physics of D-branes is described by [[K-theory]] originates in 
