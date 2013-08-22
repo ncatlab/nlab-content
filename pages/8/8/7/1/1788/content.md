@@ -5,128 +5,39 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 $$
-  \left(
-    \array{
-      && \Sigma
-      \\
-      & \nearrow && \nwarrow
-      \\
-      \Sigma_{in}
-      && &&
-      \Sigma_{out}
-    }
-  \right)
-  \;\;
-    \stackrel{\;\;\;\;\;\;}{\mapsto}
-  \;\;
-  \left(
-    \array{
-      && [\Pi(\Sigma), \mathbf{Fields}]
-      \\
-      & {}^{\mathllap{(-)|_{in}}}\swarrow 
-      && 
-      \searrow^{\mathrlap{(-)|_{out}}}
-      \\
-      [\Pi(\Sigma_{in}), \mathbf{Fields}]
-      && 
-      &&
-      [\Pi(\Sigma_{out}), \mathbf{Fields}]
-    }
-  \right)
-  \,.
-$$
-
-
-Consider now a morphism 
-
-$$
   \array{
-    X && \stackrel{f}{\to} && Y
+    && \mathbf{Fields}_{traj}
     \\
-    & {}_{\mathllap{f^\ast \chi}}\searrow &\swArrow& \swarrow_{\mathrlap{\chi}}
+    & {}^{i_{in}}\swarrow && \searrow^{\mathrlap{i_{out}}}
     \\
-    && E Mod 
-  }
-$$
-
-along which we want to integrate, with $\chi$ invertible in $Func(Y, E Mod)$: $\left(\chi^\vee\right)^\vee \simeq \chi$.
-
-Observe that we have the pair of [[adjoint triples]] of left/right [[Kan extensions]] and [[colimits]]/[[limits]]
-
-$$  
-  \array{
-    X &\stackrel{f}{\to}& Y &\stackrel{p}{\to}& \ast
+    \mathbf{Fields}_{in}
+     & & \swArrow_{\simeq}  & &
+    \mathbf{Fields}_{out}
     \\
+    & {}_{\mathllap{\chi_{in}}}\searrow
+    &&
+    \swarrow_{\mathrlap{\chi_{out}}}
     \\
-    Func(X, E Mod)
-     &\stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\to}}}
-     &
-    Func(Y, E Mod)
-     &\stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^\ast}{\leftarrow}}{\underset{p_\ast}{\to}}}
-    &
-    E Mod
+    && E Mod
+    \\
+    \,
+    \\
+    \,
+    \\
+   E_{\bullet + \chi_{in}}(\mathbf{Fields}_{in})
+    & \stackrel{(i_{in})_\ast}{\longleftarrow}&
+   \array{
+   E_{\bullet + i_{in}^\ast\chi_{in}}(\mathbf{Fields}_{traj})
+    \\
+    \simeq 
+    \\
+   E_{\bullet + i_{out}^\ast\chi_{out}}(\mathbf{Fields}_{traj})
+    }
+    & \stackrel{(i_{out})^\ast}{\longrightarrow}&
+   E_{\bullet + \chi_{out}}(\mathbf{Fields}_{out})
   }
   \,.
 $$
-
-Notice that $f^\ast$ preserves duals, but $f_!$ may not. 
-
-If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of twisted orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ together with a choice of a [[equivalence]] (if such exists) of the form
-
-$$
-  PD 
-   \;\colon \;
-  \left( f_! f^\ast \chi^\vee
-  \right)^\vee
-  \simeq
-  f_!\left(
-    f^\ast \chi + \beta
-  \right)
-  \,,
-$$
-
-hence a choice of correction of $f_!$ preserving the duality of $f^\ast \chi$.
- 
-
-Then the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]]
-
-$$
-  f_! f^\ast \chi^\vee \to  \chi^\vee
-$$
-
-induces the [[dual morphism]]
-
-$$
-  \chi 
-    \longrightarrow
-  \left(f_! f^\ast \chi^\vee \right)^\vee 
-    \underoverset{\simeq}{PD}{\longrightarrow}
-  f_!\left(
-    f^\ast \chi + \beta
-  \right)
-$$
-
-and under $\left[ p_! \left( - \right), E \right]$ this becomes
-
-$$
-  \left[p_! f_! \left(f^\ast \chi + \beta\right), E\right]
-  \longrightarrow
-  \left[p_! \chi , E\right]
-$$
-
-which is 
-
-$$
-  \int_f
-  \;\colon \;
-  E^{\bullet + f^\ast \chi + \beta}(X)
-  \longrightarrow
-  E^{\bullet + \chi}(Y)
-  \,.
-$$
-
-This we call the _[[twisted Umkehr map]] of $f$_ or _twisted [[fiber integration in generalized cohomology|fiber integration]] along $f$_ induced by $(\beta, PD)$. If $\beta = 0$ then we call $PD$ an _[[orientation in generalized cohomology|orientation]]_ of $f$ in $\chi$-twisted cohomology.
-
 
 ***
 
