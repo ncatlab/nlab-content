@@ -5,11 +5,27 @@
 
 ## Idea
 
+### Original version for associative algebras
+
 The **formality theorem** by [[Maxim Kontsevich]] (arXiv 1997) states that there is an [[L-∞-algebra]] [[quasi-isomorphism]] from the [[dg-Lie algebra]] of [[polyvector field]]s (with zero differential and [[Schouten-Nijenhuis bracket]]) to the [[dg-Lie algebra]] of the shifted [[Hochschild cohomology|Hochschild cochain complex]] (with Hochschild differential and Gerstenhaber bracket), whose first Taylor coefficient is the [[Hochschild-Kostant-Rosenberg theorem|HKR]] quasi-isomorphism.
 
 Tamarkin alternatively proves the formality of the [[little disks operad]] (see also Kontsevich 1999) and proves that it implies the Kontsevich formality. 
 
-The Kontsevich formality theorem implies that every [[Poisson manifold]] has a canonical [[deformation quantization]].
+The Kontsevich formality theorem implies that every [[Poisson manifold]] has a [[deformation quantization]], unique up to an element in the freely-acting piece of the [[automorphism infinity-group]] of the [[E1-operad]]. This is the [[Grothendieck-Teichmüller group]] (see there for more).
+
+### General version for higher $E_n$-algebras
+
+More generally, a result of Kontsevich and Tamarkin (...) says that over a [[field]] of [[characteristic]] 0 the canonical functor
+
+$$
+  E_n Algbras \stackrel{\simeq}{\longrightarrow} P_n Algebras
+$$
+
+from [[E-n algebras]] to [[Poisson n-algebras]] is an [[equivalence]] (since $P_n$ is the [[homology]] of $E_n$, this says that _The $E_n$" operad is formal_ over a field of characteristic 0. 
+
+But of course the [[automorphism infinity-group]] of both $E_n$ and $P_n$ acts on both sides and makes the space of all possible such equivalences a [[torsor]] over this group. A $P_n$ algebra may be thought of as encoding a [[prequantum field theory]] of higher dimension, of sors, and so formality says that the [[deformation quantization]] of [[factorization algebras]] always exists and that the choices are being acted on by the corresponding higher analog of the [[Grothendieck-Teichmüller group]].
+
+
 
 ## Related entries
 
