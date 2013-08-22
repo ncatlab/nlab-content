@@ -74,11 +74,23 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## References
 
+### General
+
 Actions for the NS5-brane are discussed in
 
 * Igor Bandos, Alexei Nurmagambetov, Dmitri Sorokin, _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
 
 * Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
+
+### As higher super-GS-WZW type $\sigma$-models
+
+Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
+### Relation to the M5-brane
+
+Most of the following references are more on the [[M5-brane]].
 
 The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
