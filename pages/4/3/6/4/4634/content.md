@@ -103,6 +103,23 @@ $$
 
 ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10), theorem 9.36)
 
+### Relation to correspondences equipped with cocycles
+ {#RelationToCorrespondences}
+
+By ([Blumberg-Gepner-Tabuada 10, theorem 9.36](#BlumbergGepnerTabuada10)), the morphisms of noncommutative motives from $\mathcal{A}$ to $\mathcal{B}$ for $\mathcal{B}$ suitably dualizable/compact are given by 
+
+$$
+  Maps(\mathcal{U}_{loc}(\mathcal{B}), \mathcal{U}_{loc}(\mathcal{A}))
+  \simeq
+   \mathbb{K}(\mathcal{B}^{op}\otimes\mathcal{A})
+  \,,
+$$
+
+hence by the [[non-connective algebraic K-theory]] of the [[Deligne tensor product]] of the two categories. 
+
+Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by definition in [[noncommutative algebraic geometry]]), this are $\mathbb{K}$-cocycles on the product correspondence space.
+
+(...)
 
 ### Inclusion of Chow motives
 
@@ -215,3 +232,6 @@ category: algebraic geometry, noncommutative geometry
 
 [[!redirects (infinity,1)-categories of noncommutative motives]]
 [[!redirects (∞,1)-categories of noncommutative motives]]
+
+[[!redirects non-commutative motive]]
+[[!redirects non-commutative motives]]
