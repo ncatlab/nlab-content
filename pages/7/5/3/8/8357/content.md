@@ -1,5 +1,18 @@
 
+## Properties
+
+Resolution about $10^{-20}m \simeq 10 TeV$ ad currently reached $\simeq 7 TeV$  (e.g. [Mazumdar, slide 7](#Mazumdar))
+
+
+## Related entries
+
+* [[standard model of particle physics]]
+
+* [[Higgs boson]]
 
 ## References
 
 * Wikipedia, _[CERN](http://en.wikipedia.org/wiki/CERN)_
+
+* KajariMazumdar, _Essentials of the LHC_ ([pdf](http://www.tifr.res.in/~mazumdar/talks/glbrg2.pdf))
+ {#Mazumdar}
