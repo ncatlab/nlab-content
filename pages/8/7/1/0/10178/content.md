@@ -84,7 +84,7 @@ $$
   \array{
     && \mathbf{Trajectories}
     \\
-    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    & {}^{\mathllap{i_{in}}}\swarrow && \searrow^{\mathrlap{i_{out}}}
     \\
     \mathbf{Fields}_{in}
     && \swArrow_{\xi} &&
@@ -218,7 +218,7 @@ The point of this [[axiom]] is that the [[higher category theory|higher categori
 | [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |  experimental bound on violation |
 |---|---|--|
 | [[gauge principle]] | [[homotopy theory]]  |     |
-| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-17}m$ ([Grigoriev 79](causal+locality#Microcausality)), $\leq 10^{-20}m$ ([[LHC]]) |
+| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-17}m$ ([Grigoriev 79](causal+locality#Microcausality)), $\lessapprox 10^{-20}m \simeq 7 TeV$ ([[LHC]]) |
 
 
 The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
@@ -400,7 +400,7 @@ which exhibits field configurations on $\Sigma$ as trajectories along which fiel
 
 In the example that here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describe a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
 
-Speicfying the example further, suppose that $\Sigma$ is an $n$-[[sphere]] with $(k+1)$ disjoint $n$-[[balls]] marked,  regarded as a [[cobordism]]
+Specifying the example further, suppose that $\Sigma$ is an $n$-[[sphere]] with $(k+1)$ disjoint $n$-[[balls]] marked,  regarded as a [[cobordism]]
 
 $$
   \array{
@@ -485,7 +485,7 @@ $$
   \,.
 $$
 
-In this way the [[moduli ∞-stack]] $\mathbf{Fields}$ of [[field (physics)|field]] encodes the _[[kinematics]]_ of a [[local prequantum field theory]]. 
+In this way the [[moduli ∞-stack]] $\mathbf{Fields}$ of [[field (physics)|fields]] encodes the _[[kinematics]]_ of a [[local prequantum field theory]]. 
 
 Next we define the _[[dynamics]]_ by defining a [[local action functional]] which assigns to each [[trajectory]] a [[probability amplitude]] for that trajectory to be "physically realized".
 
@@ -616,7 +616,7 @@ $$
 
 in $\mathbf{H}$. 
 
-The [[automorphism ∞-groups]] in this [[(∞,1)-topos]] of [[local action functionals]] are precisely the [[quantomorphism ∞-groups]] (infinitesimally the [[Poisson L-∞ algebras]]), conaining the [[Heisenberg ∞-groups]] (infinitesimally the [[Heisenberg L-∞ algebras]]) of local [[prequantum observables]].
+The [[automorphism ∞-groups]] in this [[(∞,1)-topos]] of [[local action functionals]] are precisely the [[quantomorphism ∞-groups]] (infinitesimally the [[Poisson L-∞ algebras]]), conaining the [[Heisenberg ∞-groups]] (infinitesimally the [[Heisenberg L-∞ algebras]]) of local [[prequantum observables]] ([Fiorenza-Rogers-Schreiber 13a](FiorenzaRogersSchreiber13a)). Equivalently, they are [[∞-groups]] of [[conserved currents]].
 
 The [[(∞,1)-category]] $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of [[correspondences]] in the slice contains trajectories equipped with action functionals.
 
@@ -643,7 +643,7 @@ If $Bord_n^\otimes$ is generated precisely from one boundary brane of top [[codi
 
 $$
   \array{
-    && \mathbf{Fields}_{bdr}
+    && \mathbf{Fields}_{boundary}
     \\
     & \swarrow && \searrow
     \\
@@ -656,7 +656,7 @@ $$
   \,.
 $$
 
-Such a diagram is equivalently a [[twisted differential c-structure|twisted chi-structure]] and such structures appear all over the place in [[local prequantum field theory]], see for instance the lecture notes at _[[twisted smooth cohomology in string theory]]_
+Such a diagram is equivalently a [[twisted differential c-structure|twisted chi-structure]] and such structures appear all over the place in [[local prequantum field theory]] (e.g. [Fiorenza-Satus-Schreiber 09](#FSS09), [Fiorenza-Sati-Schreiber 12](FSS12)) see for instance the lecture notes at _[[twisted smooth cohomology in string theory]]_
 
 
 
