@@ -15,15 +15,54 @@
 
 ## Idea
 
-A _relation_ is the extension of a [[predicate]].  That is, if you have a statement whose [[truth value]] may depend on some variables, then you get a relation that consists of those instantiations of the variables that make the statement true.  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
+The notion of  _relation_ is the extension of the notion of  _[[predicate]]_.  That is, if you have a statement whose [[truth value]] may depend on some [[variables]], then you get a relation that consists of those instantiations of the variables that make the statement [[true]].  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
 
 
 ## Definitions
 
 ### General case
+ {#DefinitionGeneralCase}
 
-Given a [[family of sets|family]] $(A_i)_{i: I}$ of [[set]]s, a **relation** on that family is a [[subset]] of the [[cartesian product]] $\prod_{i: I} A_i$.  Equivalently, a **relation** is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth value]]s (because $\TV$ is the [[subobject classifier]] in [[Set]]).
++-- {: .num_defn }
+###### Defintion
 
+Given a [[family of sets|family]] $(A_i)_{i: I}$ of [[sets]], a **relation** on that family is a [[subset]] $R$ of the [[cartesian product]] $\prod_{i: I} A_i$.  
+
+Equivalently, this is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth values]] (because $\TV$ is the [[subobject classifier]] in [[Set]]).
+
+Also equivalently, this is a [[monomorphism]] in/[[subobject]] of the [[cartesian product]]
+
+$$
+  R \hookrightarrow \prod_{i \colon I} A_i
+  \,.
+$$
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+For $I$ the 2-element set (a _binary relation_) this is in particular a binary [[correspondence]]
+
+$$
+  \array{
+     && R
+     \\
+     & \swarrow && \searrow
+     \\
+    A_1 && && A_1
+  }
+  \,.
+$$
+
+Hence relations are precisely the [[(-1)-truncated]] [[correspondences]].
+
+This identification induces a natural notion of [[composition]] of relations from the composition in the [[category of correspondences]], see below at _[The 2-poset of binary relations](#The2PosetOfBinaryRelations)_.
+
+Formulated this way, the notion of relation generalizes to [[categories]] other than [[Set]] and to [[higher category theory]]. For more on this see at _[Generalizations](#Generalization)_ below.
+
+=--
 
 ### Special cases
 
@@ -93,21 +132,38 @@ Combinations of the above properties of binary relations produce:
 
 
 ### The $2$-poset of binary relations
+ {#The2PosetOfBinaryRelations}
 
 Binary relations form a $2$-[[2-category|category]] (in fact a $2$-[[2-poset|poset]]) [[Rel]], which is the basic example of an [[allegory]].
 
-The objects are [[set]]s, the morphisms from $A$ to $B$ are the binary relations on $A$ and $B$, and there is a $2$-morphism from $R$ to $S$ (both from $A$ to $B$) if $R$ implies $S$ (that is, when $(a,b) \in R$, then $(a,b) \in S$).
+The [[objects]] are [[sets]], the [[morphisms]] from $A$ to $B$ are the binary relations on $A$ and $B$, and there is a [[2-morphism]] from $R$ to $S$ (both from $A$ to $B$) if $R$ implies $S$ (that is, when $(a,b) \in R$, then $(a,b) \in S$).
 
-The interesting definition is composition:  If $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$, then the composite (written $S \circ R$ or $R;S$) from $A$ to $C$ is defined as follows:
+The interesting definition is [[composition]] 
+
++-- {: .num_defn #CompositionOfRelations}
+###### Defintion
+
+If $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$, then their _composite relation_  -- written $S \circ R$ or $R;S$ -- from $A$ to $C$ is defined as follows:
 $$(a,c) \in R;S \;\Leftrightarrow\; \exists b: B,\; (a,b) \in R \;\wedge\; (b,c) \in S.$$
+
 The identity morphism is given by [[equality]].
 
-The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$; most of them make sense in any allegory.  Irreflexive and asymmetric relations are most useful if the allegory\'s [[hom-object|hom-poset]]s have [[bottom]] elements, and linear relations require this.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[composition]] operation of relation from def. \ref{CompositionOfRelations} is induced by the composition of the underlying [[correspondences]], followed by [[(-1)-truncated|(-1)-truncation]].
+
+=--
+
+The special properties of the kinds of binary relations listed earlier can all be described in terms internal to [[Rel]]; most of them make sense in any [[allegory]].  Irreflexive and asymmetric relations are most useful if the allegory\'s [[hom-object|hom-poset]]s have [[bottom]] elements, and linear relations require this.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
 
 As a [[function]] may be seen as a functional, entire relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]] (in fact a [[replete subcategory|replete]] and locally [[full subcategory|full]] sub-$2$-category).
 
 
 ## Generalisation
+ {#Generalization}
 
 Most of the preceding makes sense in any [[category]] with enough [[products]]; giving rise to [[internal relation|internal relations]], for instance _[[congruences]]_ in the case of internal equivalence relations. 
 
