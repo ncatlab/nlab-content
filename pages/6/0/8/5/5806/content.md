@@ -1,3 +1,4 @@
+[[!redirects (infinity,n)-category of spans]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -192,6 +193,8 @@ $$
 * [[symplectic category]]
 
 * [[span trace]]
+
+* [[relations]], [[bicategory of relations]]
 
 ## References
 
