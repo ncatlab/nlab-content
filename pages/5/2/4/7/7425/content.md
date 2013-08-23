@@ -70,7 +70,7 @@ For $p \in \mathbb{N}$ a [[prime number]], we write
 +-- {: .num_prop}
 ###### Proposition/Definition
 
-For each [[prime number|prime integer]] $p$ there exists a sequence of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]], hence of [[E-infinity ring]] [[spectra]] 
+For each [[prime number|prime integer]] $p$ there exists a sequence of [[multiplicative cohomology theory|multiplicative]] [[generalized cohomology theories|generalized cohomology]]/[[generalized homology theories|homology theories]], hence of [[A-infinity ring]] [[spectra]] 
 
 $$
   \{K(n)\}_{n \in \mathbb{N}}
@@ -97,7 +97,7 @@ These are called the _Morava K-theories_.
 
 =--
 
-Due to the third point one may regard $K(n)$ as a [[E-∞ field]] among the [[E-infinity rings]]. See [below](#AsInfinityFields).
+Due to the third point one may regard $K(n)$ as a [[∞-field]] among the [[A-infinity rings]]. See [below](#AsInfinityFields).
 
 ## Properties
 
@@ -106,7 +106,7 @@ Due to the third point one may regard $K(n)$ as a [[E-∞ field]] among the [[E-
 +-- {: .num_prop}
 ###### Proposition
 
-For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[E-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[A-∞ ring]] which is
+For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[A-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[A-∞ ring]] which is
 
 1. [[complex oriented cohomology theory|complex oriented]];
 
@@ -145,7 +145,7 @@ For $p = 2$ it is however _not_ an [[E-∞ ring]]. Nevertheless, for many spaces
 +-- {: .num_prop}
 ###### Proposition
 
-If $E$ is an [[E-∞ field]] then $E \otimes K(n) \neq 0$ and $E$ admits the structure of a $K(n)$-[[module spectrum|module]].
+If $E$ is an [[∞-field]] then $E \otimes K(n) \neq 0$ and $E$ admits the structure of a $K(n)$-[[module spectrum|module]].
 
 =--
 
@@ -154,7 +154,7 @@ This appears for instance as ([Lurie, lecture 24, prop. 9, remark 13](#LurieLect
 +-- {: .num_remark}
 ###### Remark
 
-This means that the Morava $E_\infty$-rings $K(n)$ are essentially the only [[E-∞ fields]] in the [[stable homotopy category]].
+This means that the Morava $A_\infty$-rings $K(n)$ are essentially the only [[∞-fields]] in the [[stable homotopy category]].
 
 =--
 
