@@ -40,8 +40,3 @@ Definition 3 in lecture 24 of
 [[!redirects ∞-fields]]
 
 
-[[!redirects E-∞ field]]
-[[!redirects E-∞ fields]]
-
-[[!redirects E-infinity field]]
-[[!redirects E-infinity fields]]
