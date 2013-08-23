@@ -51,7 +51,9 @@ From ([Grigor'ev 197x](#Grigoriev)):
 
 > The violation of the microcausality condition would make it necessary to radically alter the method of describing physical processes and to reject the dynamic description used in modern theories, in which the state of a physical system at a given moment of time (the effect) is determined by the states of the system at preceding times (the cause).
 
-(Notice that $10^{-15}$[[cm]]$ = 10^{-2}$[[fm]] and that the (charge) [[radius]] of the [[proton]] is about 0.8 [[fm]]. So the bound cited by ([Grigor'ev 197x](#Grigoriev)) in the above quote is about 1/100 the diameter of a proton).
+Notice that $10^{-15}$[[cm]] $ = 10^{-17}m  = 10^{-2}$[[fm]] and that the (charge) [[radius]] of the [[proton]] is about 0.8 [[fm]]. So the bound cited by ([Grigor'ev 197x](#Grigoriev)) in the above quote is about 1/100 the diameter of a proton.
+
+It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolution of particle accelerators at that time. More recently, the [[LHC]] (see there) probes scales $\simeq 10^{-20}m$.
 
 ## Related concepts
 
