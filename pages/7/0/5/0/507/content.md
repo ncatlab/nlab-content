@@ -232,6 +232,12 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[Giraud's theorem]]
 
+#### B3.4 Colimits in Top
+
+* [[Topos]]
+
+* The paragraph before B3.4.8 refers to A4.1.13, but should probably refer instead to A4.1.15.
+
 ## C Toposes as Spaces
 
 ### C1 Sheaves on a locale
@@ -323,6 +329,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[local geometric morphism]]
 
 * [[local topos]]
+
+* Example C3.6.15(e) says that $(E/l(M))_{ce}$ is equivalent to $Set$, but the referred-to paper "Local maps of toposes" seems to say that it should be equivalent to $E$ instead.
 
 ## D Toposes as theories
 
@@ -432,6 +440,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### D4.5 Axioms of choice and Booleanness
 
 * [[axiom of choice]]
+* [[internally projective object]] --- note that Lemma 4.5.3(iii) in the Elephant is not quite strong enough to imply (i) and (ii).
 * [[excluded middle]]
 
 #### D4.7 Real numbers in a topos
