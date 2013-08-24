@@ -18,8 +18,9 @@
 
 ## Idea
 
-Frequently one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
+In the category of 'spaces', many invariants are homotopy invariants, so as well as giving a functor on the category of spaces taking values, say, in the category of Abelian groups, it also induces one on the 'homotopy category', that is the category of spaces and homotopy classes of maps between them.  This 'homotopy category' construction can be viewed as a general construction on categories having a congruence relation on their hom-sets, and hence as a sort of way of extracting an interesting and hopefully more tractable, category from a 'higher category' of some sort, perhaps a 2-category or more generally an $(\infty,1)$-category. The relationship between the higher category, the basic category, say of spaces, and this 'homotopy category' is simple, but needs looking at from the nPOV.
 
+Quite often one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
 Standard examples include the categories [[SimpSet]] of [[simplicial set]]s (or [[Top]] of [[topological space]]s) and $Ch(Ab)$ of [[chain complex]]es of [[abelian group]]s. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
 
 The most important information that is lost by forgetting the higher morphisms of a higher category is that about which 1-morphisms are, while not [[isomorphism]]s, invertible up to higher cells, i.e. [[equivalence]]s. 
@@ -27,16 +28,23 @@ The most important information that is lost by forgetting the higher morphisms o
 To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] (restricted to sufficiently nice objects, such as compactly generated weakly Hausdorff topological spaces) these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homotopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
 
 
-Now, given just the truncated 1-category $C$ but equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a category $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
+Now a slightly different viewpoint comes in that interacts neatly with this one of 'dividing out by 1-morphisms'.  Suppose we are given just the truncated 1-category $C$, but now equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a category $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
 $C$ to isomorphisms in $Ho(C)$.
 
-In good situations, one may also find an $(\infty,1)$-category $\hat C$ corresponding to $C$, and the notions of homotopy category $Ho(C)$ and $Ho(\hat C)$ coincide. 
+In good situations, one may also find an $(\infty,1)$-category $\hat C$ corresponding to $C$, and the notions of homotopy category $Ho(C)$ and $Ho(\hat C)$ then coincide. 
 
-This is in particular the case when $C$ is equipped with the structure of a combinatorial [[simplicial model category]] and $\hat C$ is the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by $C$ with its model structure. (For instance [[Higher Topos Theory|HTT, remark A.3.1.8]]).
+This is, in particular, the case when $C$ is equipped with the structure of a combinatorial [[simplicial model category]] and $\hat C$ is the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by $C$ with its model structure. (For instance [[Higher Topos Theory|HTT, remark A.3.1.8]]).
+
+ We thus have several interrelated notions of homotopy category, which in most useful contexts more or less coincide.  Because of that, the term tends to be used widely, and the context then determines the exact definition to apply. We will give some of the most common ones, selected for their use in other entries.
+
+##Definition (for a simplicially enriched category)
+
+Given a simplicially enriched category $C$, we can form for each pair of objects, $x,y$, of objects of $C$, the set, $\pi_0C(x,y)$, of connected components of the 'function space' $C(x,y)$.  As $\pi_0$ preserves finite limits, this gives a category, denoted $\pi_0(C)$.  As 1-simplices in $C(x,y)$ can be often interpreted as being homotopies, this category $\pi_0(C)$ is often called the _homotopy category of $C$_, and then the notation $Ho(C)$ may be used.  
 
 
+This notions is closely related to the next, by using, say the [[hammock localisation]] of Dwyer and Kan, as then $\pi_0$ of that simplicially enriched category, coincides with the following.
 
-## Definition
+## Definition (of a category with weak equivalences)
 
 Given a [[category with weak equivalences]] (such as a [[model category]]), its __homotopy category__ $Ho(C)$ is -- if it exists -- the [[category]] which is universal with the property that there is a [[functor]]
 
@@ -67,12 +75,6 @@ $$
 
 
 The second condition implies that the functor $F_Q$ in the first condition is unique up to unique isomorphism.
-
-+-- {: .query}
-**Harry:**  I think there should be a little more discussion of the classical case (i.e. pointed topological spaces).  There's a functor taking this category to its homotopy category in the following way: It sends $Hom((X,x_0),(Y,y_0))$ to $[(X,x_0);(Y,y_0)]$.  However, the is a little more to it, so to speak, because I _think_ we can describe $[(X,x_0);(Y,y_0)]$ as a coequalizer of $Hom(-\times I,-)$=>$Hom(-,-)$, which gives us the appropriate idea fof "modulo homotopy". This is at least how it works if the second coordinate is fixed.  However, since it is a bifunctor, I'm not sure if I need to be more careful/not of taking colimits.  To be precise, this takes place in the category of bipointed topological spaces (because we want to attach X at two points to the interval (this is how we get the two arrows).  I'd appreciate it if someone would clarify this for me (so I could write up the section [classical definition]). 
-
-  [[Tim Porter|Tim]] Do you mean $Hom(-\times I,-)$=>$Hom(-,-)$, which make sense and is one otf the usual ways of defining this. (You can find this in Kamps and Porter's book for example (I would say that wouldn't I! but the royalties are really measily, and when there has been conversion of currencies followed by tax, etc... !)) I don't think you need bipointed spaces, but you do need to be more careful about the product, if you are working in pointed spaces.
-=--
 
 
 ## Properties
