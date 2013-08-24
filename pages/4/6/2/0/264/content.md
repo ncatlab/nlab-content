@@ -18,7 +18,7 @@
 
 ## Idea
 
-In the category of 'spaces', many invariants are homotopy invariants, so as well as giving a functor on the category of spaces taking values, say, in the category of Abelian groups, it also induces one on the 'homotopy category', that is the category of spaces and homotopy classes of maps between them.  This 'homotopy category' construction can be viewed as a general construction on categories having a congruence relation on their hom-sets, and hence as a sort of way of extracting an interesting and hopefully more tractable, category from a 'higher category' of some sort, perhaps a 2-category or more generally an $(\infty,1)$-category. The relationship between the higher category, the basic category, say of spaces, and this 'homotopy category' is simple, but needs looking at from the nPOV.
+In the category of 'spaces', by 'invariants' we often mean 'homotopy invariants', so as well as giving a functor on the category of spaces taking values, say, in the category of Abelian groups, such an invariant also induces one on the 'homotopy category', that is the category of spaces and homotopy classes of maps between them.  This 'homotopy category' construction can be viewed as a general construction on categories having a congruence relation on their hom-sets, and hence as a sort of way of extracting an interesting and hopefully more tractable, category from a 'higher category' of some sort, perhaps a 2-category or more generally an $(\infty,1)$-category. The relationship between the higher category, the basic category, say of spaces, and this 'homotopy category' is simple, but needs looking at from the nPOV.
 
 Quite often one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
 Standard examples include the categories [[SimpSet]] of [[simplicial set]]s (or [[Top]] of [[topological space]]s) and $Ch(Ab)$ of [[chain complex]]es of [[abelian group]]s. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
@@ -44,7 +44,7 @@ Given a simplicially enriched category $C$, we can form for each pair of objects
 
 This notions is closely related to the next, by using, say the [[hammock localisation]] of Dwyer and Kan, as then $\pi_0$ of that simplicially enriched category, coincides with the following.
 
-## Definition (of a category with weak equivalences)
+## Definition (for a category with weak equivalences)
 
 Given a [[category with weak equivalences]] (such as a [[model category]]), its __homotopy category__ $Ho(C)$ is -- if it exists -- the [[category]] which is universal with the property that there is a [[functor]]
 
