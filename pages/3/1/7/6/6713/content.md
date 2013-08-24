@@ -296,7 +296,11 @@ More on this, with more explicit relation to [[noncommutative motives]], is in
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
 
-* [[FFRS-formalism]].
+* [[FFRS-formalism
+
+### Branes within branes
+
+* [[Michael Douglas]], _Branes within Branes_ ([arXiv:hep-th/9512077](http://arxiv.org/abs/hep-th/9512077))
 
 ### For topological strings
 
