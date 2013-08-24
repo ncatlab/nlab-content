@@ -1,3 +1,4 @@
+[[!redirects correspondence]]
 [[!redirects span]]
 
 > This entry is about the notion of spans/correspondences which generalizes that of _[[relations]]_. For spans in [[vector spaces]] or [[modules]], see _[[linear span]]_.
