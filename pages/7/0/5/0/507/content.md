@@ -280,6 +280,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
   * [[standard site]]
 
+* Lemma 2.1.7 is incorrect as stated: one should assume that $A$ is a sheaf for a (sifted) coverage. See [here](http://math.stackexchange.com/a/358709) for details.
+
 #### C2.2 The topos of sheaves
 
 * [[sheaf]]
@@ -291,6 +293,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
   * [[Giraud's theorem]]
 
 * [[dense sub-site]]
+
+* The statement that the induced coverage inherits closure properties requires assumptions on either the coverage or the subcategory. See the discussion [here](http://nforum.mathforge.org/discussion/3693/induced-coverage/).
 
 #### C2.3 Morphisms of sites
 
