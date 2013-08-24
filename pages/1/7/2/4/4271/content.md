@@ -89,6 +89,8 @@ See [[pure state]].
 
     * [[state in AQFT and operator algebra]]
 
+  * [[ground state]]
+
 * [[observable]]
 
   * [[algebra of observables]]
