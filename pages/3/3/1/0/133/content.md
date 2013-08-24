@@ -15,11 +15,11 @@
 
 ## Statement
 
-In its modern category-theoretic form, the _axiom of choice_ for a given [[category]] $C$ is the following statement:
+The __axiom of choice__ is the following statement:
 
-* _Every [[epimorphism]] in $C$ [[split epimorphism|splits]]._
+* _Every [[surjection]] in the category [[Set]] of [[sets]] [[split epimorphism|splits]]._
 
-This means: for every [[epimorphism]] $f\colon A \to B$ there is a morphism $\sigma\colon B \to A$ (a [[section]]), such that
+This means: for every [[surjection]] $f\colon A \to B$ of sets, there is a function $\sigma\colon B \to A$ (a [[section]]), such that
 $$
   (B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B) 
   =
@@ -27,24 +27,32 @@ $$
   \,.
 $$
 
-### Variations
+Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
 
-* If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)
-
-* More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may be taken to say that any [[cover]] $U\to X$ admits a section.  Obviously this refers only to singleton covers, but if $C$ is [[extensive category|superextensive]] then any covering family $(p_i\colon U_i \to X)_i$ can be replaced by a singleton cover $\coprod_u U_i \to X$.
-
-* When working in a category that has an [[internal logic]], we may want to "internalize" the axiom of choice by asserting, not that every epimorphism has a section, but that the statement "every epimorphism has a section" is true in the internal logic.  This is a weaker statement, but often it is the more relevant one.
+When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
 
-## Remarks
+## In other categories
 
-* If $C =$ [[Set]] then this reproduces the axiom of choice in its traditional form: an epimorphism $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]]. The existence of a section is equivalent to a choice of one element in each set of this family.
+More generally, we may consider analogous statements in [[categories]] $C$ other than $Set$.
 
-* Formulated in terms of sections, the _axiom of choice_ may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
+### External form
 
-* When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
+We say that $C$ satisfies the **external axiom of choice** if every epimorphism in $C$ splits.
 
-* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, such as (in order of increasing strength) [[countable choice]], [[dependent choice]], and [[COSHEP]], are often (if not usually) accepted by constructivists.
+In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
+
+If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)  In $Set$ (and in any [[topos]]), all of these notions of epimorphism are the same.
+
+More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may be taken to say that any [[cover]] $U\to X$ admits a section.  Obviously this refers only to singleton covers, but if $C$ is [[extensive category|superextensive]] then any covering family $(p_i\colon U_i \to X)_i$ can be replaced by a singleton cover $\coprod_u U_i \to X$.
+
+### Internal form
+
+However, When working in a category that has an [[internal logic]], we may want to "internalize" the axiom of choice by asserting, not that every epimorphism has a section, but that the statement "every epimorphism has a section" is true in the internal logic (or more precisely the [[stack semantics]]).  An equivalent statement is that every object is [[internally projective object|internally projective].  We call this the **internal axiom of choice**.
+
+This is generally a weaker statement: a [[topos]] satisfies the external AC if and only if it satisfies the internal AC and also (the external form of) [[supports split]].   Often, however, this is the more relevant notion to consider.
+
+If a topos $C$ satisfies IAC, then so do all of its [[slice categories]], although this may not be obvious.  See [this answer](http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262).
 
 
 ## Equivalents 
@@ -56,11 +64,13 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
 * That [[Set]] is equivalent to its own [[free exact completion]].
 * That there exists a [[group]] structure on every [[inhabited set]] (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
+* That every [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]] functor between [[strict categories]] is a strong [[equivalence of categories]].
+* That the [[nonabelian cohomology]] $H^1(X;G)$ is trivial for every set $X$ and every [[group]] $G$ (see [this post](http://golem.ph.utexas.edu/category/2013/07/cohomology_detects_failures_of.html).
 
 
 ## Variants
 
-There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.
+There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.  In particular, the full axiom of choice is generally rejected in [[constructive mathematics]], whereas some of these weaker forms of choice may be accepted, such as (in order of increasing strength) [[countable choice]], [[dependent choice]], and [[COSHEP]].
 
 * Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]] (UF), or equivalently the *Boolean prime ideal theorem*.
 
