@@ -253,9 +253,21 @@ No. On the contrary, the [[perturbation series]] of any interesting QFT is suppo
 
 So the non-convergence of the string perturbation series is just as it should be in QFT: a [[perturbation series]] in quantum field theory is generally an _[[asymptotic series]]_, meaning that it diverges but every finite truncation of it produces a [[sum]] that approximates the "actual" value (the actual [[correlation functions]]) in a controled way (as explained at _[[asymptotic expansion]]_.)
 
-The important property of the [[string scattering amplitudes]] is rather that they (plausibly) come out _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization.
+The important property of the [[string scattering amplitudes]] is rather that they (plausibly) come out _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization (see also at _[How do strings model massive particles?](#HowDoStringsModelMassiveParticles)_).
 
 So the convergence/divergence of the string perturbation theory is of the same kind as for instance in the [[QCD]] that appears in the [[standard model of particle physics]]. For more on this phenomenon see at [perturbation theory -- divergence/convergence](perturbation+theory#DivergenceConvergence) and especially see also the [references there](perturbation+theory#ReferencesDivergenceConvergence) and see at _[[non-perturbative effect]]_.
+
+### How do strings model massive particles?
+ {#HowDoStringsModelMassiveParticles}
+
+In [[string phenomenology]], each [[fundamental particle]] species corresponds to a different excitation mode of one single species of [[fundamental string]]. However, a subtle aspect to keep in mind here is that all fundamental particles are fundamentally _massless_ and receive a -- comparatively low -- mass only via a [[Higgs mechanism]]. 
+
+In [[string phenomenology]] therefore all [[fundamental particles]] correspond to _[[ground state]]_ excitations of strings. Indeed, the ground state excitiations of [[superstring]] are massless (while that of the [[bosonic string]] in fact has negative mass squared and hence models a [[tachyon]] particle). This is a nontrivial statement due to the nature of [[quantum harmonic oscillators]] and follows from a careful analysis of quantum effects. 
+
+For instance, in simple situations the [[gauge field]] particles of spin 1, such as the [[photon]], are modeled by the ground state excitations of the [[open string]]. Due to quantum effects even the ground state oscillates a little, and the orientation of this oscillation accounts for the polarization degrees of freedom of the photon.
+
+Every excited mode of a string however corresponds to a particle of comparatively huge mass, not meant to be close to any particle mass ever observed. So the infinite tower of higher string excitations is not meant to be directly observable in [[string phenomenology]]. Nevertheless, these massive particles have a crucial role to play: their appearance as _[[virtual particles]]_ in [[string scattering amplitudes]] is what renders these [[probability amplitudes]] loopwise finite: they are the counterterms that exhibit perturbative string theory as a [[renormalization|renormalized]] perturbation theory. See also the discussion at _[Isn't it fatal that the string perturbation series does not converge?](#NonConvergenceOfPerturbationSeries)_.
+
 
 
 ### How is string theory related to the theory of gravity?
