@@ -96,6 +96,10 @@ For more see
 
 ## Properties
 
+### As a background for Green-Schwarz $\sigma$-models
+
+The [[equations of motion]] of those theories of supergravity which qualify as [[target spaces]] for [[Green-Schwarz action functional]] [[sigma models]] (e.g. 10d [[heterotic supergravity]] for the [[heterotic string]] and 10d [[type II supergravity]] for the [[type II string]]) are supposed to be equivalent to those $\sigma$-models being well defined (the [[WZW-model]] term being well defined, hence $\kappa$-symmetry being in effect). See at _[Green-Schwarz action -- References -- Supergravity equations of motion](Green-Schwarz+action+functional#ReferencesSupergravityBackgroundEquationsOfMotion)_ for pointers.
+
 ### Scalar moduli spaces and $U$-duality
  {#UDuality}
 
