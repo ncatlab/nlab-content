@@ -44,7 +44,7 @@ All morphisms in the following are morphisms of [[simplicial set]]s.
 
 ### Trivial fibration
 
-A **trivial fibration** (trivial [[Kan fibration]]) is a morphism that has the [[right lifting property]] with respect to all boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$.
+A **trivial fibration** (trivial [[Kan fibration]]) is a morphism that has the [[right lifting property]] with respect to the boundary inclusions $\partial \Delta[n] \hookrightarrow \Delta[n], n \geq 1$.
 
 ### Kan fibration
 
