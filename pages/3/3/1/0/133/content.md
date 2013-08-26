@@ -44,7 +44,8 @@ In this form, the axiom of choice may look less mysterious than in its original 
 
 If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)  In $Set$ (and in any [[topos]]), all of these notions of epimorphism are the same.
 
-More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may be taken to say that any [[cover]] $U\to X$ admits a section.  Obviously this refers only to singleton covers, but if $C$ is [[extensive category|superextensive]] then any covering family $(p_i\colon U_i \to X)_i$ can be replaced by a singleton cover $\coprod_u U_i \to X$.
+More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may be taken to say that any [[cover]] $U\to X$ admits a section.  Obviously this refers only to singleton covers, but if $C$ is [[superextensive site|superextensive]] then any covering family $(p_i\colon U_i \to X)_i$ can be replaced by a singleton cover $\coprod_u U_i \to X$.
+
 
 ### Internal form
 
