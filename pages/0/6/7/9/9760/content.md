@@ -10,7 +10,7 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 | 9 | |   |   |  | $\ast$  |  |   |   |   |   | 
 | 8 | |   |   | $\ast$ |   |  |   |   |   |   | 
 | 7 | |   | [[topological M2-brane|M2]]${}_{top}$  |  |   |  |   |   |   |   |    
-| 6 | |  [[little string|F1]]${}_{little}$  |  | $\ast$ |   |  |   |   |   |   | 
+| 6 | |  [[little string|F1]]${}_{little}$  |  | [[3-brane in 6d|*]] |   |  |   |   |   |   | 
 | 5 | |  | $\ast$   | |   |  |   |   |   |   | 
 | 4 | | $\ast$  | $\ast$   | |   |  |   |   |   |   |   
 | 3 | | $\ast$  |  | |   |  |   |   |   |   |
