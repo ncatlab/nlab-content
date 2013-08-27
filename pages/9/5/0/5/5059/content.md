@@ -477,6 +477,7 @@ and in section 2.2 of
 
 * [[Igor Bandos]], Carlos Meliveo, _Three form potential in (special) minimal supergravity superspace and supermembrane supercurrent_ ([arXiv:1107.3232](arxiv.org/abs/1107.3232))
 
+All this is actually subsumed by imposing the [[Bianchi identities]] of the corresponding [[supergravity Lie 3-algebra]] etc. in "rheonomic parameterization", see at _[[D'Auria-Fré formulation of supergravity]]_.
 
 ### Symmetries
 
