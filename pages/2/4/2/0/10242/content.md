@@ -1,0 +1,6 @@
+
+**manifest [[supersymmetry]] for [[brane]] [[sigma-models]]**:
+
+| manifest [[worldvolume]] supersymmetry |  manifest target+worldvolume supersymmetry | manifest [[target space]] supersymmetry |
+|---|---|---|
+| [[NSR action functional]] | [[superembedding approach]] | [[Green-Schwarz action functional]] |
