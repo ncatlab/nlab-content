@@ -83,7 +83,7 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 +-- {: .num_remark}
 ###### Remark
 
-The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] is discussed in ([GepnerSnaith 08](#GepnerSnaith08)).
+The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] as [[motivic spectra]] is discussed in ([GepnerSnaith 08](#GepnerSnaith08)).
 
 =--
 
@@ -103,7 +103,7 @@ Another proof due to [[Mike Hopkins]] is in
 
 * [[Akhil Mathew]], _Snaith's construction of complex K-theory_, ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
 
-A version for [[algebraic K-theory]] is discussed in 
+A version for [[motivic spectra]] [[algebraic K-theory]] is discussed in 
 
 * [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817))
  {#GepnerSnaith08}
