@@ -46,6 +46,10 @@ An introduction is in
 
 The _[[topological membrane]]_ is made explicit in 
 
+* Ling Bao, Viktor Bengtsson, [[Martin Cederwall]], [[Bengt Nilsson]], _Membranes for Topological M-Theory_ ([arXiv:hep-th/0507077](http://arxiv.org/abs/hep-th/0507077))
+ {#BaoBengtssonCederwallNillson05}
+
+
 * Giulio Bonelli, Alessandro Tanzini, [[Maxim Zabzine]], _On topological M-theory_ ([arXiv:hep-th/0509175](http://arxiv.org/abs/hep-th/0509175))
 
 
