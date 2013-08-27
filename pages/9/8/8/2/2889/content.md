@@ -174,6 +174,8 @@ More details are in &#167;4 of
 * [[motivic homotopy theory]]
 * [[motivic chromatic homotopy theory|chromatic motivic homotopy theory]]
 
+* [[motivic spectrum]]
+
 
 ## Further references
 
