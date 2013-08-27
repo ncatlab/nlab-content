@@ -320,7 +320,7 @@ For more references on this perspective see [below](#ReferencesWZWTerm).
 
 That the GS-action functionals is consistent on all backgrounds that satisfy the relevant [[supergravity]] [[equations of motion]] was shown in 
 
-* E. Bergshoeff, E. Sezgin, [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986).
+* [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986).
 
 A standard textbook reference is appendix 4.A of volume 1 of
 
@@ -424,7 +424,7 @@ These cohomologival arguments also appear in what is called the "ectoplasm" meth
 
 The connection is made in 
 
-* P.S. Howe, O. Raetzel, E. Sezgin, _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
+* P.S. Howe, O. Raetzel, [[Ergin Sezgin]], _On Brane Actions and Superembeddings_, JHEP 9808 (1998) 011 ([arXiv:hep-th/9804051](http://arxiv.org/abs/hep-th/9804051))
 
 
 The other brane scan, listing consistent asymptotic AdS geometries is due to 
@@ -443,7 +443,7 @@ The consistentcy of the Green-Schwarz action functional for the superstring in a
 
 That the [[heterotic supergravity]] equations of motion are sufficient for the 3-form super field strength $H$ to be closed was first argued in
 
-* [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192
+* [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192 ([spire](http://inspirehep.net/record/164253?ln=de))
  {#Nilsson81}
 
 and the computation there was highlighted and a little simplified in 
@@ -465,7 +465,17 @@ That the supergravity equations of motion of the background are not just suffici
 
 That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in
 
-* E. Bergshoeff, E. Sezgin, [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
+* [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+
+These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backroundin terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strenght has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
+
+The role of the 4-form here is also amplified around (2.29) in 
+
+* [[Igor Bandos]], Carlos Meliveo, _Supermembrane interaction with dynamical D=4 N=1 supergravity. Superfield Lagrangian description and spacetime equations of motion_ ([arXiv:arXiv:1205.5885](http://arxiv.org/abs/arXiv:1205.5885))
+
+and in section 2.2 of 
+
+* [[Igor Bandos]], Carlos Meliveo, _Three form potential in (special) minimal supergravity superspace and supermembrane supercurrent_ ([arXiv:1107.3232](arxiv.org/abs/1107.3232))
 
 
 ### Symmetries
@@ -499,7 +509,7 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 
 Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [[M5-brane]] is in 
 
-* C.S. Chu, E. Sezgin, _M-Fivebrane from the Open Supermembrane_,  JHEP 9712 (1997) 001 ([arXiv:hep-th/9710223](http://arxiv.org/abs/hep-th/9710223))
+* C.S. Chu, [[Ergin Sezgin]], _M-Fivebrane from the Open Supermembrane_,  JHEP 9712 (1997) 001 ([arXiv:hep-th/9710223](http://arxiv.org/abs/hep-th/9710223))
 
 * Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys.Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
 
