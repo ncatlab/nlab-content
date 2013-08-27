@@ -26,7 +26,7 @@ Note that this composition is unique by the axioms of category theory. If we ins
 In [[enriched category theory]], for $V$ a [[monoidal category]] the composition operation on a $V$-[[enriched category]] $C$ is for each triple $(x,y,z)$ of [[object]]s of $C$ a [[morphism]]
 
 $$
-  \circ_{x,y,z} : C(x,y) \otimes C(y,x) \to C(x,z)
+  \circ_{x,y,z} : C(x,y) \otimes C(y,z) \to C(x,z)
 $$
 
 
