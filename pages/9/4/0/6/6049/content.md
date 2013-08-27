@@ -34,6 +34,9 @@ Similarly, the "black" NS5-brane is characterizes by mass, [[B-field]] charge an
 
 ## Properties
 
+### Relation to little string theory
+
+By the [[brane scan]], on the [[worldvolume]] of an NS5-brane propagates a [[superstring]]. This is called the _[[little string]]_, see there for mor.
 
 ### Relation to Khovanov homology
 
