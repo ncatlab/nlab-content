@@ -502,5 +502,3 @@ Discussion related to [[étale homotopy]] is in
 [[!redirects stable motivic homotopy category]]
 [[!redirects motivic space]]
 [[!redirects motivic spaces]]
-[[!redirects motivic spectrum]]
-[[!redirects motivic spectra]]
