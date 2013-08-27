@@ -187,7 +187,7 @@ In [Cos06](http://arxiv.org/abs/math/0605647) is constructed from the geometric 
      \,.
    $$
 
-So this construxts a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in [Wit1995](http://arxiv.org/abs/hep-th/9207094) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
+So this construxts a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in ([Witten 92](#Witten92)) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
 
 Similarly the effective background QFT of the [[B-model]] topological string can be identified. This is known as _[[Kodeira-Spencer gravity]]_ or as _[[BCOV theory]]_.
 
@@ -240,6 +240,8 @@ formalizing at least aspects of the observations in
 
 * [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
  {#Witten92}
+
+* P.A. Grassi, G. Policastro, _Super-Chern-Simons Theory as Superstring Theory_ ([arXiv:hep-th/0412272](http://arxiv.org/abs/hep-th/0412272))
 
 Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]] is in 
 
