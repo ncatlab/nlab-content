@@ -112,6 +112,10 @@ and for [[motivic cohomology]] in
 
 * [[Markus Spitzweck]], [[Paul Arne Østvær]], _The Bott inverted infinite projective space is homotopy algebraic K-theory_ ([pdf](http://folk.uio.no/paularne/bott.pdf))
 
+Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] are discussed in 
+
+* [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
+
 
 [[!redirects Snaith's theorem]]
 
