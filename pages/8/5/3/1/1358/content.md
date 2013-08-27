@@ -77,7 +77,7 @@ If $F : E \to E'$ is a DG functor between two pretriangulated DG categories, the
 
 * $F$ commutes with translation and preserves cones;
 * the induced functor $H^0(F)$ is a [[triangulated category|triangulated functor]] on the [[homotopy category|homotopy categories]];
-* $F$ is a quasi-equivalence if and only if $H^0(F)$ is a triangulated equivalence.
+* $F$ is a [[quasi-equivalence of DG categories|quasi-equivalence]] if and only if $H^0(F)$ is a triangulated equivalence.
 =--
 
 
