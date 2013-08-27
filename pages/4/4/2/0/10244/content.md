@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A formulation of super-$p$-[[brane]] [[sigma-models]] via maps from a [[worldvolume]] [[supermanifold]] to a [[target space]] [[supermanifold]].
+
+## Related concepts
+
+[[!include worldvolume-target supersymmetry of brane sigma-models]]
+
+## References
+
+Reviews include
+
+* [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
