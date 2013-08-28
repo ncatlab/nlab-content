@@ -1,16 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
 A **division algebra** is a possibly [[non-associative algebra]] $A$, typically over a field $k$, with the property that $a b = 0$ implies either $a = 0$ or $b = 0$ (or $a b \ne 0$ whenever $a, b \ne 0$).  If $A$ is finite-dimensional (over a [[field]]), this is equivalent to assuming that for any nonzero $a \in A$, the operations of left multiplication and right multiplication by $a$ are [[inverse|invertible]].  If furthermore $A$ is also [[associative unital algebra|associative and unital]], this is also equivalent to the existence, for each nonzero $a \in A$, of an element $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.   However, it is easy to construct *nonassociative* unital finite-dimensional algebras over $\mathbb{R}$ (the field of [[real numbers]]) such that either:
 
 * $A$ is not a division algebra but for each nonzero $a \in A$ there exists $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.
 
 * $A$ is a division algebra but there exists nonzero $a \in A$ for which there is no $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.
 
-For details see:
+## Related concepts
 
-* John Baez, The octonions, section 1.1: Preliminaries,
+For applications to [[physics]], the most interesting division algebras are probably the [[normed division algebras]]: the [[real numbers]], [[complex numbers]], [[quaternion|quaternions]] and [[octonion|octonions]].  These have important relations to [[division algebras and supersymmetry|supersymmetry]].
+
+[[!include exceptional spinors and division algebras -- table]]
+
+See at _[[division algebra and supersymmetry]]_.
+
+## References
+
+* [[John Baez]], The octonions, section 1.1: Preliminaries,
 _Bull. Amer. Math. Soc._ **39** (2002), 145-205.   ([web](http://www.ams.org/journals/bull/2002-39-02/S0273-0979-01-00934-X/home.html))
 ([website version](http://math.ucr.edu/home/baez/octonions/node2.html))
 
-For applications to physics, the most interesting division algebras are probably the [[normed division algebras]]: the [[real numbers]], [[complex numbers]], [[quaternion|quaternions]] and [[octonion|octonions]].  These have important relations to [[division algebras and supersymmetry|supersymmetry]].
+
 
 
 [[!redirects division algebra]]
