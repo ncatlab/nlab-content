@@ -317,6 +317,7 @@ course is also immediately checked explicitly.
 
   * [[over topos]]
 
+* [[slice 2-category]]
 
 * [[over (∞,1)-category]],
 
