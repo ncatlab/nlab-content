@@ -48,8 +48,10 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
   * [[holographic entanglement entropy]]
 
 ## References
+ {#References}
 
 ### General
+ {#ReferencesGeneral}
 
 Basic introductory accounts include
 
@@ -57,7 +59,16 @@ Basic introductory accounts include
 
 * [[Jacob Bekenstein]], _[Bekenstein-Hawking entropy](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy)_, (2008), Scholarpedia, 3(10):7375
 
-Further developments are in
+A more general discussion which identifies thermodynamic properties of all [[horizons]] appearing on gravity (not just [[black hole]] horizons) was given in 
+
+* [[Ted Jacobson]], _Thermodynamics of Spacetime: The Einstein Equation of State_, Phys.Rev.Lett.75:1260-1263, 1995 ([arXiv:gr-qc/9504004](http://arxiv.org/abs/gr-qc/9504004))
+ {#Jacobson95}
+
+This article showed that under some assumptions the [[Einstein equations]] can even be _derived_ from identifying gravitational horizon area with [[entropy]] and them imposing laws of [[thermodynamics]]. 
+
+(Later authors tried to argue that derivations like this show that gravity is not a fundamental force of nature such as [[electromagnetism]] or the [[strong nuclear force]], but rather an [[entropic force]] that arises only from more fundamental forces in a [[thermodynamic limit]]. This however remains at best unclear.)
+
+Further developments on black hole entropy are in
 
 * [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions
 Ashoke Sen_ ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
