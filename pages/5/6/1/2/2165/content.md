@@ -69,6 +69,11 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 * [[contour integration]]
 
+* [[complex geometry]]
+
+[[!include exceptional spinors and division algebras -- table]]
+
+
 ## References
 
 * [[Tom Leinster]], _Objects of categories as complex numbers_, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
