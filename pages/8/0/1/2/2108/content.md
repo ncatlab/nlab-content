@@ -397,7 +397,7 @@ What before in the quantization prescription [by polarization](#Polarizations) a
 =--
 
 
-##### Quantum state spaces as index of $Spin^c$-Dirac operator
+##### Quantum state spaces as index of the $Spin^c$-Dirac operator
  {#AsIndexOfSpinCDiracOperator}
 
 Finally we come to the true definition of geometric quantization, the most general and at the same time most natural one which contains the above as special cases. 
