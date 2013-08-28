@@ -1,0 +1,12 @@
+
+
+## Related concepts
+
+* [[real structure]], [[complex structure]]
+
+## References
+
+* Wikipedia, _[Quaternionic structure](http://en.wikipedia.org/wiki/Quaternionic_structure)_
+
+[[!redirects quaternionic structures]]
+
