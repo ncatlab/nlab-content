@@ -1,14 +1,12 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Group Theory
+### Context
+#### Representation theory
 +-- {: .hide}
-[[!include group theory - contents]]
+[[!include representation theory - contents]]
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -19,6 +17,49 @@
 
 A [[representation]] of the [[spin group]].
 
+## Properties
+ {#Properties}
+
+### Complex representations
+
+Complex representations of the [[spin group]] follow a mod-2 [[Bott periodicity]].
+
+In even $d = 2n$ there are two inequivalent complex-linear [[irreducible representations]] of $Spin(d-1,1)$, each of complex [[dimension]] $2^{d/2-1}$, called the two _chiral_ representations, or the two _Weyl spinor_ representations.
+
+For instance for $d = 10$ one often writes these as $\mathbf{16}$ and $\overline{\mathbf{16}}$. 
+
+The [[direct sum]] of the two chiral representation is called the _Dirac spinor_ representation, for instance $\mathbf{16} + \overline{\mathbf{16}}$.
+
+In odd $d = 2n+1$ there is a single complex [[irreducible representation]] of complex [[dimension]] $2^{(2-1)/2}$. For instance for $d = 11$ one often writes this as $\mathbf{32}$. This is called the _Dirac spinor_ representation in this odd dimension.
+
+For $d = 2n$, if $\{\Gamma^1, \cdots, \Gamma^n\}$ denote the generators of the [[Clifford algebra]] $Cl_{d-1,1}$ then there is the _chirality operator_
+
+$$
+  \Gamma^{d+1} \coloneqq \Gamma^1 \cdot \Gamma^2 \cdots \Gamma^d
+$$
+
+on the Dirac representation, whose [[eigenspaces]] induce its decomposition into the two chiral summands. 
+
+The unique irreducible Dirac representation in the odd dimension $d+1$ is, as a complex vector space, the sum of the two chiral representations in dimension $d$, with the Clifford algebra represented by $\Gamma^1$ through $\Gamma^d$ acting diagonally on the two chiral representations, and the chirality operator $\Gamma^{d+1}$ in dimension $d$ acting on their sum, now being the representation of the $(d+1)$st Clifford algebra generator.
+
+
+
+### Real and quaternionic representations
+
+One may ask in which dimensions $d$ the above complex representation admit a [[real structure]] or a [[quaternionic structure]].
+
+Real spinor representations are also called _Majorana_ representations. 
+
+The above irreducible complex representations admit a [[real structure]] for $d = 1,2,3 \, mod \, 8$. 
+
+Therefore in dimension $d = 2 \, mod \, 8$ there exist _Majorana-Weyl spinor_ representations.
+
+The above irreducible complex representations admit a [[quaternionic structure]] for $d = 5,6,7 \, mod \, 8$. 
+
+
+
+
+
 ## Related entries
 
 * [[spinor]], [[spinor bundle]]
@@ -28,6 +69,10 @@ A [[representation]] of the [[spin group]].
 ## References
 
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
+
+For [[Lorentzian manifold|Lorentzian]] signatuie, Lecture 3 of 
+
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 [[!redirects spin representations]]
 
