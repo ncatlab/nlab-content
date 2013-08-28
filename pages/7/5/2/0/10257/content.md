@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Bott periodicity_ is the name of a peridicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnation of it include the following:
+
+* the complex [[topological K-theory]] groups have a degree-2 periodicity: $K^{\bullet + 2}(X) = K^\bullet(X)$. Real K-theory has a period 8 periodicity like this. There is an element of degree 2 multiplication by which induces this [[isomorphism]] in complex K-theory, the _[[Bott element]]_.
+
+* the complex [[Clifford algebras]] repeat -- up to _[[Morita equivalence]]_ -- with period 2, $Cl_{n}(\mathbb{C}) \simeq_{Morita} Cl_{n+2}(\mathbb{C})$. The real Clifford algebras analogously have period 8, $Cl_n(\mathbb{R}) \simeq_{Morita} Cl_{n+8}(\mathbb{R})$.
+
+
+* the basic properties of complex [[spinor representations]] are the same for $Spin(d-1,1)$ and $Spin(d+2-1,1)$. Those of the real spinor representations repeat with period 8.
+
+
+## Related concepts
+
+* [[periodic cohomology theory]]
+
+* [[supersymmetry and division algebras]].
+
+[[!redirects Bott periodicities]]
+
+
+---
+Boas Erez suggested recovering the Bott periodicity apparent in Borel's work on zeta values, via the homotopical methods of D and C.
+
+nLab page on [[nlab:Bott periodicity]]
