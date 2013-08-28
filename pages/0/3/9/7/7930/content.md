@@ -64,6 +64,8 @@ The above irreducible complex representations admit a [[quaternionic structure]]
 
 * [[spinor]], [[spinor bundle]]
 
+* [[unitary representation of the super Poincaré group]]
+
 * [[metaplectic representation]]
 
 ## References
@@ -78,3 +80,26 @@ For [[Lorentzian manifold|Lorentzian]] signatuie, Lecture 3 of
 
 [[!redirects spinor representation]]
 [[!redirects spinor representations]]
+
+[[!redirects Weyl spinor]]
+[[!redirects Weyl spinors]]
+[[!redireczts Weyl representation]]
+[[!redireczts Weyl representations]]
+
+[[!redirects Dirac spinor]]
+[[!redirects Dirac spinors]]
+[[!redireczts Dirac representation]]
+[[!redireczts Dirac representations]]
+
+[[!redirects Majorana spinor]]
+[[!redirects Majorana spinors]]
+[[!redireczts Majorana representation]]
+[[!redireczts Majorana representations]]
+
+[[!redirects Majorana-Weyl spinor]]
+[[!redirects Majorana-Weyl spinors]]
+[[!redireczts Majorana-Weyl representation]]
+[[!redireczts Majorana-Weyl representations]]
+
+
+
