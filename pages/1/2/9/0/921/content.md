@@ -174,6 +174,9 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[real numbers object]]
 
+[[!include exceptional spinors and division algebras -- table]]
+
+
 ## References
 
 See the references at _[[analysis]]_.
