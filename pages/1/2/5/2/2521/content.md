@@ -40,6 +40,9 @@ Some historically influential general considerations are in
 
 * [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn 1984
 
+Introductory lecture notes include
+
+* [[Dan Freed]], _[[Five lectures on supersymmetry]]_
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
