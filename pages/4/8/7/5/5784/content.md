@@ -56,6 +56,10 @@ $$
 
 of [[super ∞-groupoid]]s. See there for more details.
 
+### Relation to super-translations and super-Minkowski spacetime
+
+A [[super translation Lie algebra]] and hence [[super Minkowski spacetime]], is a [[Lie algebra extension]] of a superpoint, with the latter regarded as an abelian [[super Lie algebra]]. See at _[[super translation Lie algebra]]_ for more on this.
+
 ## Related concepts
 
 * [[infinitesimally thickened point]]
