@@ -163,6 +163,9 @@ Texbook references include
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
 
+* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+
+
 A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in the collection
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
