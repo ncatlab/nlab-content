@@ -222,6 +222,6 @@ The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \
 {#BaezCrans}
 
 
-
-
 [[!redirects Lie algebra cocycle]]
+[[!redirects Lie algebra cocycles]]
+
