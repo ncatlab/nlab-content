@@ -26,6 +26,8 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 ## Related concepts
 
+* [[spin representation]]
+
 * [[supersymmetry]]
 
 * [[Wigner classification]]
@@ -38,9 +40,11 @@ An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is call
 
 ## References
 
-A survey with precise details is
+Reviews and lecture notes include
 
 * V. Varadarajan, _Unitary representations of super Lie groups_ ([pdf](http://www.math.ucla.edu/~vsv/urtr.pdf))
+
+* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
 
 The analogous discussion generalized to [[parasupersymmetry]] is in
 
