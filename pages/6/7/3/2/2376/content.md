@@ -44,6 +44,8 @@ In nuclei there are also effective forces which are not of vector but of [[tenso
 
 * [[matter]]
 
+* [[entropic force]]
+
 [[!redirects force]]
 [[!redirects forces]]
 
