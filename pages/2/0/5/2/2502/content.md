@@ -173,7 +173,7 @@ for discussion in the view of the [[brane scan]] and [[schreiber:The brane bouqu
 
 A comprehensive account and classification of the polyvector extensions of the super Poincar&#233; Lie algebras is in
 
-* D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, A. Van Proeyen, _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
+* D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
  {#ACDP}
 
 
