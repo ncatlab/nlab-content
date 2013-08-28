@@ -27,6 +27,9 @@ The [[automorphism group]] of the octonions is [[G2]].
 
 * [[associative 3-form]]
 
+[[!include exceptional spinors and division algebras -- table]]
+
+
 ## References
 
 A survey is
