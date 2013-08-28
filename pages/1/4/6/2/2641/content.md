@@ -127,3 +127,8 @@ A survey is for instance in section I.3.1
 [[!redirects unitary representations of the Poincare group]]
 [[!redirects unitary representation of the Poincaré group]]
 [[!redirects unitary representations of the Poincaré group]]
+
+[[!redirects irreducible representation of the Poincare group]]
+[[!redirects irreducible representation of the Poincaré group]]
+[[!redirects irreducible representations of the Poincare group]]
+[[!redirects irreducible representations of the Poincaré group]]
