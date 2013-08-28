@@ -25,6 +25,8 @@ The _super Poincar&#233; group_ is the [[Lie integration]] in [[supergeometry]] 
 
 * [[Poincaré group]]
 
+* [[R-symmetry group]]
+
 * [[super Poincaré Lie algebra]]
 
 * [[super translation algebra]]
