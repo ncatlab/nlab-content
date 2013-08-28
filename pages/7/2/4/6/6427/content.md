@@ -29,12 +29,18 @@ The _super Poincar&#233; group_ is the [[Lie integration]] in [[supergeometry]] 
 
 * [[super translation algebra]]
 
-* [[unitary representation of the super Poincaré group]]
+* [[unitary representation of the super Poincaré group]], [[spin representation]]
 
 [[!include table of orthogonal groups and related]]
 
 
 ## References
+
+Lecture 3 of 
+
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_.
+
+Also
 
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
