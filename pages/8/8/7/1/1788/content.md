@@ -4,10 +4,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-* [pdf](http://physics.indiana.edu/~sg/p622/qft_S35-39.pdf)
-
-
-* [pdf](http://www.staff.science.uu.nl/~wit00103/ftip/Ch7.pdf)
+* [pdf](http://www.fis.puc.cl/~jalfaro/supergravity/II-Supergravity30-48.pdf)
 
 ***
 
