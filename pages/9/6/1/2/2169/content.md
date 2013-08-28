@@ -49,9 +49,9 @@ However, these algebras do all have some useful algebraic properties; in particu
 A __normed field__ is a commutative normed division algebra; it follows from the preceding that the only normed fields are $\mathbb{R}$ and $\mathbb{C}$.
 
 
-## Applications
+## Related concepts
 
-### To supersymmetry
+[[!include exceptional spinors and division algebras -- table]]
 
 see [[division algebra and supersymmetry]]
 
