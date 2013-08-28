@@ -43,6 +43,9 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[quantum anomaly|fermion anomaly]]
 
+## References
+
+* [[Daniel Freed]], _Lecture 1 of [[Five lectures on supersymmetry]]_
 
 [[!redirects fermions]]
 
