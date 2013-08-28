@@ -161,7 +161,7 @@ Texbook references include
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
 
-* [[Daniel Freed]], _Five lectures on supersymmetry_ AMS (1999)
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
 
 A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in the collection
 
