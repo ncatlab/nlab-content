@@ -38,7 +38,7 @@ $$
 
 where $\bar Osp(d+1|N)$ is...
 
-The _[[super-translation group]]_.
+The _[[super-translation group]]_. See there for more details.
 
 ## Properties
 
