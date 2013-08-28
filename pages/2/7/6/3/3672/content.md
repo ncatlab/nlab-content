@@ -67,3 +67,7 @@ The relation of the division algebras to ordinary (Lie algebraic) extensions of 
 * Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
 
 [[!redirects division algebras and supersymmetry]]
+
+[[!redirects supersymmetry and division algebra]]
+[[!redirects supersymmetry and division algebras]]
+
