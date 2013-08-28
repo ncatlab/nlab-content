@@ -155,6 +155,10 @@ The seminal analysis of the semi-realistic KK-reductions is in
 * [[Edward Witten]], _Search for a realistic Kaluza-Klein theory_ , Nuclear Physics B Volume 186, Issue 3, 10 August 1981, Pages 412-428 
 {#Witten}
 
+A brief discussion aimed at mathematicians of the KK-reduction of [[gauge fields]] is in 
+
+* [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_.
+
 A textbook discussion in the context of [[supergravity]] is in 
 
 * [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
@@ -192,6 +196,10 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 
 [[!redirects KK-reduction]]
 [[!redirects KK-reductions]]
+
+[[!redirects KK reduction]]
+[[!redirects KK reductions]]
+
 
 [[!redirects KK-compactification]]
 [[!redirects KK-compactifications]]
