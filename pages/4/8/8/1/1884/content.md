@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
@@ -432,6 +436,9 @@ Introductions are in
  {#Friedlander}
 
 * [[Max Karoubi]], _K-theory: an introduction_ 
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
 
 A textbook account of topological K-theory with an eye towards [[operator K-theory]] is section 1 of
 
