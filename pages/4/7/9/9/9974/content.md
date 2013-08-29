@@ -177,7 +177,8 @@ It follows that
 +-- {: .num_prop }
 ###### Proposition
 
-The [[homotopy groups]] of the [[geometric realization]] of $2\mathbf{sLine}$ is
+The [[homotopy groups]] of the [[geometric realization]] 
+${\vert 2\mathbf{sLine} \vert}$ of $2\mathbf{sLine}$ are
 
 | | ${\vert 2\mathbf{sLine}_{\mathbb{C}} \vert}$ | ${\vert 2\mathbf{sLine}_{\mathbb{R}} \vert}$ |
 |--|--|--|
@@ -316,7 +317,7 @@ $$
 $$
 
 
-See at _[∞-Group of units -- Augmented definition](#infinity-group+of+units#AugmentedDefinition)_.
+See at _[∞-Group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_.
 
 By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have an [[equivalence]]
 
