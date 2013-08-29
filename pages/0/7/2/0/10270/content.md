@@ -1,0 +1,45 @@
+
+
+**[[spin geometry]]**, **[[string geometry]]**, **[[fivebrane geometry]]** ...
+
+## Ingredients
+
+* [[supergeometry]]
+
+* [[higher differential geometry]]
+
+
+## Spin geometry
+
+[[spin geometry]]
+
+* [[spin group]], [[spin^c group]]
+
+* [[spin representation]], 
+
+  * [[spinor]], [[fermion]]
+
+  * [[charge conjugation matrix]], [[Fierz identity]]
+
+* [[spin structure]], [[spin^c structure]]
+
+* [[spinor bundle]]
+
+* [[Dirac operator]]
+
+  * [[index theory]], [[K-theory]]
+
+## String geometry
+
+[[string geometry]]
+
+* [[string 2-group]], [[string^c 2-group]]
+
+* [[string structure]], [[string^c structure]]
+
+## Fivebrane geometry
+
+* [[fivebrane 6-group]]
+
+* [[fivebrane structure]]
+
