@@ -5,6 +5,14 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 =--
 =--
 
