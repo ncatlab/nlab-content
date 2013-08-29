@@ -9,9 +9,13 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Higher geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
