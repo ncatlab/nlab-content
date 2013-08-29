@@ -757,3 +757,6 @@ A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras 
 [[!redirects model structures for L-∞ algebras]]
 [[!redirects model structures for L-infinity algebras]]
 
+[[!redirects homotopy theory of L-∞ algebras]]
+[[!redirects homotopy theory of L-infinity algebras]]
+
