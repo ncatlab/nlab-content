@@ -66,6 +66,10 @@ A more general discussion which identifies thermodynamic properties of all [[hor
 
 This article showed that under some assumptions the [[Einstein equations]] can even be _derived_ from identifying gravitational horizon area with [[entropy]] and them imposing laws of [[thermodynamics]]. 
 
+For more comments and more references on this observation see 
+
+* [[Thanu Padmanabhan]], _Thermodynamical Aspects of Gravity: New insights_, Rep. Prog. Phys. 73 (2010) 046901 ([arXiv:0911.5004](http://arxiv.org/abs/0911.5004))
+
 (Later authors tried to argue that derivations like this show that gravity is not a fundamental force of nature such as [[electromagnetism]] or the [[strong nuclear force]], but rather an [[entropic force]] that arises only from more fundamental forces in a [[thermodynamic limit]]. This however remains at best unclear.)
 
 Further developments on black hole entropy are in
