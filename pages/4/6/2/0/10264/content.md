@@ -28,4 +28,8 @@ The matrix component yoga used in physics is summarized for instance in section 
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
+and in
+
+* [[Joseph Polchinski]], volume II, appendix B of  _[[String theory]]_
+
 [[!redirects charge conjugation matrices]]
