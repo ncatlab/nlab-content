@@ -53,6 +53,10 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[Einstein manifold]]
 
+* [[super spacetime]]
+
+  * [[super Minkowski spacetime]]
+
 ## Related concepts
 
 * [[gravity]], [[cosmology]]
