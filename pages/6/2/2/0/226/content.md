@@ -1,7 +1,12 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
