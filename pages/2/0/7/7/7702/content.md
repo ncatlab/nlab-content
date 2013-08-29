@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 The [[index]] of a [[Dirac operator]].
@@ -18,6 +37,10 @@ The [[index]] of a [[Dirac operator]].
 * [[Atiyah-Singer index theorem]]
 
 ## References
+
+Chapter III of 
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 Introductions include
 
