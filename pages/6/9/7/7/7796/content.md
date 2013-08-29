@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
