@@ -347,3 +347,6 @@ Would someone translate the Topological term for an aging algebraic topologist? 
 
 [[!redirects Wess-Zumino-Witten theory]]
 
+[[!redirects WZW term]]
+[[!redirects WZW terms]]
+
