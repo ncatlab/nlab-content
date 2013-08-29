@@ -3,9 +3,15 @@
 
 ***
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
