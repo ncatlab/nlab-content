@@ -1,8 +1,13 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### Higher Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -169,7 +174,7 @@ Another extension of $SO$ is the [[spin^c group]].
 
 A standard textbook reference is
 
-* H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 See also
 
