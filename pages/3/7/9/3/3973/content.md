@@ -7,6 +7,11 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+
 =--
 =--
 
