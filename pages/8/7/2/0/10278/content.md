@@ -1,0 +1,4 @@
+
+* [Maths Genealogy page](http://genealogy.math.ndsu.nodak.edu/id.php?id=113277)
+
+category: people
