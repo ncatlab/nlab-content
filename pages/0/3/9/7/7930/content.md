@@ -30,9 +30,9 @@ Complex representations of the [[spin group]] follow a mod-2 [[Bott periodicity]
 
 In even $d = 2n$ there are two inequivalent complex-linear [[irreducible representations]] of $Spin(d-1,1)$, each of complex [[dimension]] $2^{d/2-1}$, called the two _chiral_ representations, or the two _Weyl spinor_ representations.
 
-For instance for $d = 10$ one often writes these as $\mathbf{16}$ and $\overline{\mathbf{16}}$. 
+For instance for $d = 10$ one often writes these as $\mathbf{16}$ and $\mathbf{16}^\prime$. 
 
-The [[direct sum]] of the two chiral representation is called the _Dirac spinor_ representation, for instance $\mathbf{16} + \overline{\mathbf{16}}$.
+The [[direct sum]] of the two chiral representation is called the _Dirac spinor_ representation, for instance $\mathbf{16} + \mathbf{16}^\prime$.
 
 In odd $d = 2n+1$ there is a single complex [[irreducible representation]] of complex [[dimension]] $2^{(2-1)/2}$. For instance for $d = 11$ one often writes this as $\mathbf{32}$. This is called the _Dirac spinor_ representation in this odd dimension.
 
@@ -92,6 +92,8 @@ For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[super
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+
+* [[Joseph Polchinski]], part II, appendix B of _String theory_, Cambridge monographs on mathematical physics
 
 [[!redirects spin representations]]
 
