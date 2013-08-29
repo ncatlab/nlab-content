@@ -91,7 +91,9 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
 
 ### General
 
-A canonical textbook source is
+Textbook accounts include
+
+* [[Joseph Polchinski]], _[[String theory]]_, volume II, section 10
 
 * [[Eric D'Hoker]], _String theory -- lecture 7: Free superstrings_ , in part 3 of
 
