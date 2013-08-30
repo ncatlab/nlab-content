@@ -9,3 +9,5 @@ See:
 
 
 [[!redirects generator: disambiguation]]
+
+[[!redirects generators]]
