@@ -138,7 +138,7 @@ A weak 3-group structure on $G \to \mathbf{E}G$ for $G$ a [[strict 2-group]] is 
 
 The [[simplicial group]] structure on $G \to \mathbf{E}G$ for $G$ a general [[simplicial group]] is stated explicitly in
 
-* [[David Roberts]], _The universal simplicial bundle is a simplicial group_, ([arXiv:1204.4886](http://arxiv.org/abs/1204.4886))  
+* [[David Roberts]], _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
   {#RobertsUniversal}
 
 A general abstract construction of this simplicial group structure is discussed in
