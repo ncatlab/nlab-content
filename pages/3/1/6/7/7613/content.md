@@ -49,6 +49,8 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 * [[M2-brane]], [[M5-brane]]
 
+* [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]], [[M-theory super Lie algebra]]
+
 * [[Hořava-Witten theory]], [[M9-brane]]
 
 * [[G2-MSSM]], [[M-theory on G2-manifolds]]
