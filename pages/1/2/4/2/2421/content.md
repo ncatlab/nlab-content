@@ -167,7 +167,7 @@ The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclid
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
 
 
-* [[Veeravalli Varadarajan]], section 7.1 of _Supersymmetry for mathematicians: An introduction_
+* [[Veeravalli Varadarajan]], section 7.1 of _[[Supersymmetry for mathematicians]]: An introduction_
 
 
 [[!redirects supergroups]]
