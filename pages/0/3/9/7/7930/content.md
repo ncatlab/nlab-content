@@ -198,7 +198,7 @@ $$
 for odd $d$ and $S$ the unique [[irreducible representation]], and
 
 $$
-  \Gamma \;\colon\; S^{\pm} \otimes S^{\mo} \longrightarrow \mathbb{C}
+  \Gamma \;\colon\; S^{\pm} \otimes S^{\mp} \longrightarrow \mathbb{C}
 $$
 
 for even $d$ and $S^\pm$ the two inequivalent [[irreducible representations]].
