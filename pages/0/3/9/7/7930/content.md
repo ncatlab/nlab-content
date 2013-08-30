@@ -48,7 +48,7 @@ For instance for $d = 10$ one often writes these as $\mathbf{16}$ and $\mathbf{1
 
 The [[direct sum]] of the two chiral representation is called the _Dirac spinor_ representation, for instance $\mathbf{16} + \mathbf{16}^\prime$.
 
-In odd $d = 2n+1$ there is a single complex [[irreducible representation]] of complex [[dimension]] $2^{(2-1)/2}$. For instance for $d = 11$ one often writes this as $\mathbf{32}$. This is called the _Dirac spinor_ representation in this odd dimension.
+In odd $d = 2n+1$ there is a single complex [[irreducible representation]] of complex [[dimension]] $2^{(d-1)/2}$. For instance for $d = 11$ one often writes this as $\mathbf{32}$. This is called the _Dirac spinor_ representation in this odd dimension.
 
 For $d = 2n$, if $\{\Gamma^1, \cdots, \Gamma^n\}$ denote the generators of the [[Clifford algebra]] $Cl_{d-1,1}$ then there is the _chirality operator_
 
