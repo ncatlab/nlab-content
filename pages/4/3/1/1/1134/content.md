@@ -151,7 +151,7 @@ The first statement is a direct extension of the classical fact that the contrav
  {#ModeledOnGrassmannAlgebra}
 
 We discuss a desription of supermanifolds that goes back to 
-([deWitt](#deWitt)) and ([Rogers](#Rogers)).
+([DeWitt 92](#DeWitt92)) and ([Rogers](#Rogers)).
 
 (...)
 
@@ -234,7 +234,7 @@ def. \ref{SupermanifoldOverSuperpoint} are
 
 =--
 
-This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a discussion of the relation to the [deWitt-definition](#ModeledOnGrassmannAlgebra).
+This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a discussion of the relation to the [DeWitt-definition](#ModeledOnGrassmannAlgebra).
 
 
 ## Related concepts
@@ -317,8 +317,8 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### As manifolds modeld on Grassmann algebras
 
-* Bryce de Witt, _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1984, 1992
-{#deWitt}
+* [[Bryce DeWitt]], _Supermanifolds_, Cambridge Monographs on Mathematical Physics, 1992
+  {#DeWitt92}
 
 * Alice Rogers
  {#Rogers}
