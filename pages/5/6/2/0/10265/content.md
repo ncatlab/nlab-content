@@ -10,4 +10,6 @@ A **locus** is a $(\infty, 1)$-category $C$ such that the $(\infty, 1)$-category
 
 ##Examples
 
-The $(\infty, 1)$-category of [[pointed object|pointed types]] is a locus, since families of it are a presheaf $(\infty, 1)$-category (the $(\infty, 1)$-category of retractions).  Similarly, the $(\infty, 1)$-category of [[prespectra]] is a locus.  And the $(\infty, 1)$-category of spectra is a left exact localization of the $(\infty, 1)$-category of prespectra.  Hence [[spectra]] form a locus, so [[parametrized spectra]] are a $(\infty, 1)$-topos.
+The $(\infty, 1)$-category of [[pointed object|pointed types]] is a locus, since families of it are a presheaf $(\infty, 1)$-category (the $(\infty, 1)$-category of [[retractions]] or of [[diagrams]] on the [[walking]] map-equipped-with-a-[[section]]).  
+
+Similarly, the $(\infty, 1)$-category of [[prespectra]] is a locus.  And the $(\infty, 1)$-category of spectra is a left exact localization of the $(\infty, 1)$-category of prespectra.  Hence [[spectra]] form a locus, so [[parametrized spectra]] form an $(\infty, 1)$-topos.
