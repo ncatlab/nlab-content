@@ -159,7 +159,7 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 Texbook references include
 
-* V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
+* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
 
