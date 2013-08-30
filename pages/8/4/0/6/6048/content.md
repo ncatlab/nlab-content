@@ -48,6 +48,8 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 
 * [[topological membrane]]
 
+* [[supergravity Lie 3-algebra]], [[M-theory super Lie algebra]]
+
 [[!include table of branes]]
 
 ## References
