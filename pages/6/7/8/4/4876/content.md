@@ -350,3 +350,6 @@ Would someone translate the Topological term for an aging algebraic topologist? 
 [[!redirects WZW term]]
 [[!redirects WZW terms]]
 
+[[!redirects WZW gerbe]]
+[[!redirects WZW gerbes]]
+
