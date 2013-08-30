@@ -11,6 +11,14 @@ A [[spacetime]] in [[supergeometry]], used in some formulations of [[supergravit
 
 * [[super Minkowski spacetime]]
 
+## References
+
+Section 7.4 of
+
+* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+ {#Varadarajan04}
+
+
 [[!redirects super spacetimes]]
 
 [[!redirects super-spacetime]]
