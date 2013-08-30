@@ -192,7 +192,7 @@ In order to pass from [[supergeometry]] to [[higher supergeometry]], we proceed 
 
 Above we already mentioned that ordinary [[supergeometry]] takes place in the [[topos]] $Sh(SuperPoints)$ of "super sets". In order to model [[super ∞-groupoids]] we hence naturally pass to the [[(∞,1)-topos]] over the [[site]] of [[superpoints]]. In order to equip these with [[smooth structure]] such as to yield [[smooth super ∞-groupoids]] we form the [[(∞,1)-sheaf (∞,1)-topos]]
 
-[[SmoothSuper∞Grpd]] $\coloneqq Sh_\intfty\left(\left\{\mathbb{R}^{p|q}\right\}_{p,q \in \mathbb{N}}\right) \simeq Sh_\infty\left(SuperManifolds\right)$
+[[SmoothSuper∞Grpd]] $\coloneqq Sh_\infty\left(\left\{\mathbb{R}^{p|q}\right\}_{p,q \in \mathbb{N}}\right) \simeq Sh_\infty\left(SuperManifolds\right)$
 
 over [[supermanifolds]] (see for instance [FSS 13a](#FSS13a)). 
 
