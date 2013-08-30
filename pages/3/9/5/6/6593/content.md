@@ -109,6 +109,8 @@ Since the formula looks the same for all $S$, one often just writes it without m
 
 ## Related concepts
 
+* [[translation Lie algebra]]
+
 * [[super Minkowski spacetime]]
 
 * [[super Poincaré group]]
