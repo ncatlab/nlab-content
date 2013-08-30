@@ -29,7 +29,7 @@ An **$\mathcal{S}$-indexed topos** $\mathbb{E}$ is an $\mathcal{S}$-[[indexed ca
 
 * for each morphism $x : I \to J$ in $\mathcal{S}$ the corresponding transition functor $x^* : \mathbb{E}^J \to \mathbb{E}^I$ is a [[logical morphism]].
 
-An **$\mathcal{S}$-indexed geometric morphism** is a $\mathcal{S}$-nindexed [[adjunction]] $(f^* \dashv f_*)$ between $\mathcal{S}$-indexed toposes, such that $f^*$ is left exact. 
+An **$\mathcal{S}$-indexed geometric morphism** is an $\mathcal{S}$-indexed [[adjunction]] $(f^* \dashv f_*)$ between $\mathcal{S}$-indexed toposes, such that $f^*$ is left exact. 
 
 This yields a [[2-category]] $Topos_{\mathcal{S}}$ of $\mathcal{S}$-indexed toposes.
 
