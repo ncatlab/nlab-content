@@ -100,7 +100,7 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 ## Examples
 
-* [[line Lie algebra]]
+* [[translation Lie algebra]], [[line Lie algebra]]
 
 * [[general linear Lie algebra]]
 
