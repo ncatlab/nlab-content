@@ -9,6 +9,10 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 ## Related concepts
 
+* [[circle group]]
+
+* [[translation Lie algebra]]
+
 * [[super translation group]]
 
 * [[rotation group]]
@@ -16,3 +20,6 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 * [[Galileo group]], [[Poincare group]]
 
 [[!redirects translation groups]]
+
+[[!redirects translation Lie group]]
+[[!redirects translation Lie groups]]
