@@ -23,7 +23,6 @@ A _paradox_ is an example of reasoning that seems perfectly valid on first sight
 
 Either sentence alone seems perfectly reasonable, and could meaningfully be said in another context; but together they form a paradox.  It is not just that the sentences contradict each other (in which case one or both might simply be false); but the *existence* of the sentences contradicts the assumption that they are meaningful at all (at least using [[classical logic]]).
 
-
 ## Examples
 
 ### From logic and foundations
@@ -42,6 +41,8 @@ In [[physics]]:
 * [[hole paradox]]
 
 * [[EPR paradox]]
+
+* [[ultraviolet catastrophe]]
 
 
 [[!redirects paradox]]
