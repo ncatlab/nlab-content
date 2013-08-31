@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[equation of motion]] as expressed in [[Hamiltonian mechanics]].
+
+
+## References
+
+* Richard Fitzpatrick, _Newtonian Dynamics -- [Hamilton's equaitons](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node91.html)_
+
+[[!redirects Hamilton's equation]]
+
+[[!redirects Hamilton equation]]
