@@ -27,6 +27,8 @@ The [[automorphism group]] of the octonions is [[G2]].
 
 * [[associative 3-form]]
 
+* [[Cayley plane]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
