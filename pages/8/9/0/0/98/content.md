@@ -147,12 +147,12 @@ For $\mathfrak{a}$ a [[Lie algebroid]] given as
 
 * with anchor map $\rho : E \to T X$ 
 
-* and bracket $[-,-] : \Gamma(E)\wedge_{C^\infty(X)} \Gamma(E) \to \Gamma(E)$ 
+* and bracket $[-,-] \;\colon\; \Gamma(E)\wedge_{\mathbb{R}} \Gamma(E) \to \Gamma(E)$ 
 
 the corresponding Chevalley-Eilenberg algebra is
 
 $$
-  CE(\mathfrak{a}) := (\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d)
+  CE(\mathfrak{a}) := \left(\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d\right)
   \,,
 $$
 
