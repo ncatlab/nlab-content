@@ -24,6 +24,8 @@ For small string coupling its [[worldvolume]] theory is [[super Yang-Mills theor
 
 ## Related concepts
 
+* [[3-brane in 6d]]
+
 [[!include table of branes]]
 
 [[!redirects D3-branes]]
