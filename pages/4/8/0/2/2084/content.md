@@ -28,11 +28,11 @@ $$
 where $\tau=\tau_{H,H}:H\otimes H\to H\otimes H$ and
 
 $$
-(\Delta\otimes id)\Delta(R)=R_{13} R_{23}
+(\Delta\otimes id)(R)=R_{13} R_{23}
 $$
 
 $$
-(id\otimes\Delta)\Delta(R)=R_{13} R_{12}
+(id\otimes\Delta)(R)=R_{13} R_{12}
 $$
 
 An invertible element $R$ satisfying these 3 properties is called the __universal $R$-element__. As a corollary 
