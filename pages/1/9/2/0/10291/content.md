@@ -1,0 +1,3 @@
+* [[Valery Lunts]], _Categorical resolution of singularities_, J. Algebra __323__ (2010), no. 10, 2977-3003
+* A. Kuznetsov, V. Lunts, Categorical resolutions of irrational singularities, [arXiv:1212.6170](http://arxiv.org/abs/1212.6170)
+* [[Alexander I. Efimov]], _Homotopy finiteness of some DG categories from algebraic geometry_, [arxiv/1308.0135](http://arxiv.org/abs/1308.0135) 
