@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[6d (2,0)-superconformal QFT]] admits a [[soliton]] solution which is a [[string]] charged under the [[self-dual higher gauge field|self-dual]] [[B-field]]. Externally this is the boundary of the [[M2-brane]] ending on the [[M5-brane]].
+
+## Related concepts
+
+* [[3-brane in 6d]]
+
+[[!include table of branes]]
+
+
+## References
+
+* P.S. Howe, [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl.Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014))
+
+[[!redirects self-dual strings]]
