@@ -16,10 +16,10 @@ In a [[finitely complete category|finitely complete]] [[site]] $(S,J)$ the assig
 
 * [[global section]]
 
-* [[flat section]]
+* [[flat section]] 
+
+* [[partial section]]
 
 
 [[!redirects local section]]
 [[!redirects local sections]]
-[[!redirects partial section]]
-[[!redirects partial sections]]
