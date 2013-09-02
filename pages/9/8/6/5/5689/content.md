@@ -29,6 +29,9 @@ __Be&#301;linson-Bernstein localization theorem__
 * H. Hecht, D. Mili&#269;i&#263;, W. Schmid, J. A. Wolf, _Localization and standard modules for real semisimple Lie groups, I: The Duality Theorem_
 Zbl 0699.22022, [MR910203](http://www.ams.org/mathscinet-getitem?mr=910203), _II: Applications_, 
 
+* Hendrik Orem, Lecture notes: The Beilinson-Bernstein Localization
+Theorem, [pdf](www.ma.utexas.edu/users/horem/bb-notes.pdf&#8206;)
+
 [[!redirects Beĭlinson-Bernstein localization]]
 [[!redirects Beĭlinson-Bernstein localization theorem]]
 [[!redirects Beilinson-Bernstein localization theorem]]
