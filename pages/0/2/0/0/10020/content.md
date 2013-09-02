@@ -33,6 +33,8 @@ For instance the [[FRS formalism]] _constructs_ all [[rational conformal field t
 
 Later the [[AdS-CFT correspondence]] came to be understood as a canonical or default implementation of the [[holographic principle]]. Here the [[bulk field theory]] is a theory of [[3d quantum gravity]] which is very much like traditional [[Chern-Simons theory]] but may slightly differ from it. The relation between $AdS_3/CFT_2$-correspondence and the earlier CS/WZW correspondence is discussed in ([Gukov-Martinec-Moore-Strominger 04](#GukovMartinecMooreStrominger04)).
 
+But notice that also plain [[Chern-Simons theory]] is a [[string theory]], but of [[topological strings]]. For more on this see at _[[TCFT]]_ the section _[Worldsheet and effective background theories](TCFT#ActionFunctionals)_.
+
 A general argument that for all of the [[AdS-CFT correspondence]] the [[conformal blocks]] on the CFT-side are given just by the [[higher dimensional Chern-Simons theory]]-sector inside the dual [[gravity]] theory is in ([Witten98](#Witten98)). This applies notably to the duality between [[7-dimensional Chern-Simons theory]] and the conformal blocks in the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]].
 
 
