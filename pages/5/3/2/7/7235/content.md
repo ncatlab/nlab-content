@@ -1,10 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
+###Context###
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
