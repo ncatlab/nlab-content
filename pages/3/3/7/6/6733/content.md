@@ -28,6 +28,13 @@ This [[worldvolume]] theory involves [[self-dual higher gauge theory]] of the [[
 
 For instance in the proposal of ([SSW11](#SSW11)) one sees in equation (2.1) _almost_ the data of an $\mathfrak{aut}(\mathfrak{g})$-[[2-groupoid of Lie 2-algebra valued forms|Lie 2-algebra valued forms]].
 
+### Branes inside the M5
+
+The M5-brane admits two solitonic excitations ($p$-branes within branes)
+
+* $p = 1$: the [[self-dual string]]
+
+* $p = 3$: the [[3-brane in 6d]] (see there for more)
 
 ### Dimensional reduction
 
