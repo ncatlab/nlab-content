@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Cayley plane_ is the [[projective plane]] over the [[octonions]].
+
+## References
+
+* Wikipedia, _[Cayley plane](http://en.wikipedia.org/wiki/Cayley_plane)_
+
+[[!redirects Cayley planes]]
