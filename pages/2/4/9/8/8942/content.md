@@ -42,7 +42,7 @@ Discussin of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[
 
 See also
 
-* P.S. Howe, A. Kaya, E. Sezgin, P. Sundell, _Codimension One Branes_ ([arXiv:hep-th/0001169](http://arxiv.org/abs/hep-th/0001169))
+* [[Paul Howe]], A. Kaya, [[Ergin Sezgin]], P. Sundell, _Codimension One Branes_ ([arXiv:hep-th/0001169](http://arxiv.org/abs/hep-th/0001169))
 
 
 * Takeshi Sato, _On M-9-branes and their dimensional reductions_ ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
