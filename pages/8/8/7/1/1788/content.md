@@ -5,7 +5,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-[pdf](http://igitur-archive.library.uu.nl/student-theses/2012-1005-200507/J%20Lamers%20maths%20thesis.pdf)
+[pdf](http://cds.cern.ch/record/274288/files/th-7539-94.pdf)
 
 
 ***
