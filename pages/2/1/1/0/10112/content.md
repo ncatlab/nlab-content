@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Fields and quanta
++-- {: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. 
+In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. For instance a [[pion]].
 
 ## Related concepts
 
