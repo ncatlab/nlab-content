@@ -27,11 +27,11 @@
 * [[neutrino]]
 
 
-**[[baryons]]** ([[bound states]] of the above [[quarks]])
+**[[hadron]]** ([[bound states]] of the above [[quarks]])
 
-* [[mesons]]
+* [[meson]]
 
-* [[hadrons]]
+* [[baryon]]
 
   * [[proton]]
 
@@ -52,6 +52,8 @@
 * [[gluino]]
 
 **Exotica**
+
+* [[preon]]
 
 * [[axion]], [[dilaton]]
 
