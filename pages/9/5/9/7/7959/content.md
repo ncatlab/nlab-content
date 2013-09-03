@@ -194,6 +194,10 @@ The issue of [[moduli stabilization]] in these kinds of models is discussed in
 
 * Lara B. Anderson, James Gray, Andre Lukas, Burt Ovrut, _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
 
+List of models are discussed in 
+
+* Yang-Hui He, Seung-Joo Lee, Andre Lukas, Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
+
 #### Type II models
  {#ReferencesTypeIIModels}
 
