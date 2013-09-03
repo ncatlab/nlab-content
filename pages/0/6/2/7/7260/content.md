@@ -24,6 +24,8 @@
 
 ## Related entries
 
+* [[experimental observation]]
+
 * [[cosmology]], 
 
   * [[standard model of cosmology]], 
