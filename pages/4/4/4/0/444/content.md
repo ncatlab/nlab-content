@@ -313,10 +313,7 @@ $$
 
 (even unique fillers, due to the above).
 
-It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[∞-groupoid]].
-
-
-
+It suggests the sense that  a Kan complex  models an [[∞-groupoid]]. The possible lack of uniqueness of fillers in general gives the 'weakness' needed, whilst the lack of a [[coskeletal]] property requirement means that the homotopy type it represents has enough generality, not being constrained to be a 1-type.
 
 +-- {: .num_prop}
 ###### Proposition
