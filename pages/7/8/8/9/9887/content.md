@@ -19,6 +19,10 @@
 
 ## Idea
 
+## Statement
+
+### Preliminaries
+
 For $A$ an [[abelian ∞-group]] write $E \coloneqq \mathbb{S}[A] = \Sigma^\infty_+ A$ for its [[∞-group E-∞ ring]]. 
 
 +-- {: .num_defn}
@@ -57,7 +61,7 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 
 
 
-**Snaith's theorem** asserts that 
+### Snaith's theorem for the complex K-theory spectrum $KU$
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -80,12 +84,51 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
  
 ([Snaith 79](#Snaith79))
 
+### Snaith's theorem for algebraic K-theory
+
 +-- {: .num_remark}
 ###### Remark
 
 The analog of this result for the periodic [[algebraic cobordism spectrum]] and [[algebraic K-theory]] as [[motivic spectra]] is discussed in ([GepnerSnaith 08](#GepnerSnaith08)).
 
 =--
+
+### Snaith-like theorem for Morava $E$-theories
+ {#ForMoravaETheory}
+
+Write $\Gamma_n$ for the [[Honda formal group]]. The [[automorphism group]] $Aut(\Gamma_n)$ induces for each prime $p$ a canonical [[determinant]] morphism
+
+$$
+  det \;\colon\; \mathbb{G}_n \longrightarrow \mathbb{Z}_p^\times
+$$
+
+from the [[Morava stabilizer group]] $\mathbb{G}_n \coloneqq Gal(\mathbb{F}_{p^n}/\mathbb{F}_p) \ltimes Aut(\Gamma_n)$.
+
+Write 
+
+$$
+  S \mathbb{G} \coloneqq ker(det)
+$$
+
+for the [[kernel]]. This naturally [[infinity-action|acts]] on the [[Morava E-theory]] spectrum $E_n$. Write $E^{S\mathbb{G}_n}$ for the corresponding [[homotopy fixed point]] [[spectrum]]. ([Westerland 12, 1.1](#Westerland12)).
+
+Write $L_{K(n)} \mathbb{S}[B^{n+1} \mathbb{Z}_p]$ for the $K(n)$-localization of the [[∞-group ∞-ring]] of the [[n-group|(n+1)-group]] $B^n \mathbb{Z}_p$.
+
++-- {: .num_theorem}
+###### Theorem
+
+There is a [[generalized element]] $\rho_n$ of the [[E-∞ ring]] $L_{K(n)} \mathbb{S}[B^{n+1} \mathbb{Z}_p]$ such that localization at that element yields the [[Morava E-theory]] spectrum $S\mathbb{G}_n$[[homotopy fixed points]]:
+
+$$
+  L_{K(n)} \mathbb{S}[B^{n+1} \mathbb{Z}_p] [\rho_n^{-1}]
+  \stackrel{\simeq}{\longrightarrow}
+  E_n^{S\mathbb{G}_n}
+  \,.
+$$
+
+=--
+
+([Westerland 12, theorem 1.2](#Westerland12))
 
 ## References
 
@@ -115,6 +158,7 @@ and for [[motivic cohomology]] in
 Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] are discussed in 
 
 * [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
+ {#Westerland12}
 
 
 [[!redirects Snaith's theorem]]
