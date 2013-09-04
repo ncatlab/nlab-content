@@ -1,0 +1,7 @@
+
+
+## References
+
+* [[Jacob Lurie]], _Morava Stabilizer Groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf)), lecture 19 in _Chromatic Homotopy Theory_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
+
+[[!redirects Morava stabilizer groups]]
