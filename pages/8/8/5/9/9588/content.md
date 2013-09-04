@@ -72,4 +72,4 @@ A [[Snaith theorem]]-line characterization of Morava E-theory is given in
 * [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
  {#Westerland12}
 
-
+[[!redirects Morava E-theories]]
