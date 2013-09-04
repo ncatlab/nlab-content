@@ -15,7 +15,18 @@
 
 ## Idea
 
-A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic manifolds]] given by a [[Lagrangian submanifold]] of their [[product]].
+A _Lagrangian correspondence_ is a [[correspondence]] between two [[symplectic manifolds]] given by a [[Lagrangian submanifold]] of their [[product]]. These are supposed to form the [[morphisms]] of a [[category]] called the _[[symplectic category]]_.
+
+When [[symplectic geometry]] is used to model [[mechanics]] in [[physics]], then a [[symplectic manifold]] $(X,\omega)$ encodes the [[phase space]] of a [[mechanical system]] and a [[symplectomorphism]] 
+
+$$
+  \phi \;\colon\; (X_1,\omega_1) \to (X_2, \omega_2)
+$$ 
+
+encodes a process undergone by this system, for instance the time evolution induced by a [[Hamiltonian vector field]]. 
+
+Now the [[graph]] of a [[symplectomorphism]] $\phi$ is a [[Lagrangian submanifold]] of the [[Cartesian product]] space $X_1 \times X_2$ regarded as a [[symplectic manifold]] with symplectic form $p_1^\ast \omega_1 - p_2^\ast \omega_2$. In other words, a symplectomorphism $\phi$ as above constitutes a [[Lagrangian correspondence]] between $(X_1,\omega_1)$ and $(X_2, \omega_2)$. See for instance ([Cattaneo-Mnev-Reshetikhin 12](#CattaneoMnevReshetikhin12)) for a review.
+
 
 ## Definition
  {#Definition}
@@ -136,4 +147,12 @@ If here $(i_1, i_2) \colon Z \to X \times Y$ is a manifold maximal with the prop
 
 * [[cosmic Galois group]]
 
+## References
+
+The way that Lagrangian correspondences encode [[symplectomorphisms]] and hence evolution in [[mechanics]] is reviewed (and put in the broader context of [[BV-BRST formalism]]) in 
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
+ {#CattaneoMnevReshetikhin12}
+
+ 
 [[!redirects Lagrangian correspondences]]
