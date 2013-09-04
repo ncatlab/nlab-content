@@ -27,9 +27,8 @@ Spin geometry also plays a central role in supersymmetric quantum field theory s
 
 ## Related concepts
 
-* [[spin group]]
+* [[spin group]]. [[spin representation]], [[spinor]], [[spin]]
 
-* [[spinor]]
 
 * [[Fierz identity]]
 
