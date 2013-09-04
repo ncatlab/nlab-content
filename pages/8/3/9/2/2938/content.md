@@ -71,7 +71,7 @@ $$
 Moreover, dually, there is an isomorphism of Hochschild cohomology with wedge products of derivations:
 
 $$
-  \wedge^\bullet_k Der_k(A,A) \simeq HH^\bullet(A,A)
+  \wedge^\bullet_A Der_k(A,A) \simeq HH^\bullet(A,A)
   \,.
 $$
 
