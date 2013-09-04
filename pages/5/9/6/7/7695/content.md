@@ -4,7 +4,7 @@ Non-archimedean geometry is geometry over [[non-archimedean field]]s. While the 
 
 * [[Berkovich analytic space]]s, which take prime spectra together with an extension of the abolsute value to the residue field 
 * Huber's [[adic space]]s which take into account also valuations of higher rank 
-* Fujiwara-Kato approach which takes a limit over all formal models; this has spirit of [[birational geometry]]  
+* Fujiwara-Kato's approach ('rigid geometry') which takes a limit over all formal models; this has spirit of [[birational geometry]]  
 * [[global analytic geometry]]. 
 
 ### Literature
@@ -14,6 +14,8 @@ For literature on specific approaches see the $n$Lab entries [[Berkovich analyti
 * Brian Conrad, _Several approaches to non-archimedean geometry_, lectures at Arizona winter school 2007, [pdf](http://www.wstein.org/swc/aws/07/ConradNotes11Mar.pdf)
 
 * Kiran S. Kedlaya, _Reified valuations and (re)adic spectra _, [arxiv/1309.0574](http://arxiv.org/abs/1309.0574)
+
+* Kazuhiro Fujiwara, Fumiharu Kato, _Foundations of Rigid Geometry I_, [arxiv/1308.4734](http://arxiv.org/abs/1308.4734)
 
 category: geometry
 [[!redirects non-Archimedean analytic geometry]]
