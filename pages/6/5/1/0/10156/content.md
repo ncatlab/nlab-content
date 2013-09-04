@@ -819,7 +819,13 @@ $$
 
 
 =--
+## Related concepts
 
+* [[quantization of the 2-sphere]]
+
+  * **geometric quantization of the 2-sphere**
+
+  * [[deformation quantization of the 2-sphere]]
 
 
 ## References
