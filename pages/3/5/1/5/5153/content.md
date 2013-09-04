@@ -75,7 +75,10 @@ See also
 
   * [[algebra over an operad]], **algebra over an (∞,1)-operad**, [[model structure on algebras over an operad]]
 
-    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad
+
+    * [[rectification]]
+
 
 
 ## References
