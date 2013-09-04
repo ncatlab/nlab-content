@@ -25,3 +25,5 @@
 * [[particle physics]], [[standard model of particle physics]]
 
 [[!redirects fundamental particles]]
+
+[[!redirects elementary particles]]
