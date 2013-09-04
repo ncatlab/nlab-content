@@ -29,6 +29,10 @@ _$C^\ast$-algebraic deformation quantization_ or _strict deformation quantizatio
 
 Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a suitable [[convolution algebra]] of suitably [[polarization|polarized]] sections over a [[Lie groupoid]] that [[Lie integration|Lie integrates]] a [[Poisson Lie algebroid]] which encodes the original [[Poisson bracket]] to be quantized.
 
+## Examples
+
+* [[deformation quantization of the 2-sphere]]
+
 ## Related concepts
 
 * [[geometric quantization of symplectic groupoids]]
