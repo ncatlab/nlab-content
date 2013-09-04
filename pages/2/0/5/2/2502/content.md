@@ -210,13 +210,15 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 ## Related concepts
 
-* [[super Poincaré group]]
+* [[super Poincaré group]], [[supersymmetry]]
+
+* [[division algebra and supersymmetry]]
 
 * [[R-symmetry]]
 
 * [[super translation algebra]]
 
-* [[supersymmetry]], [[Green-Schwarz action functional]]
+* [[Green-Schwarz action functional]], [[brane scan]]
 
 
 ## References
