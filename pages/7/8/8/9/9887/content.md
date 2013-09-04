@@ -19,6 +19,19 @@
 
 ## Idea
 
+The original theorem by Snaith ([Snaith 79](#Snaith79)) identifies the [[complex K-theory spectrum]] [[KU]] simply as the localization of the [[∞-group ∞-ring]] $\mathbb{S}[B U(1)]$ of the [[circle 2-group]] at the [[Bott element]] $\beta$:
+
+$$
+  KU \simeq \mathbb{S}[B U(1)][\beta^{-1}]
+  \,.
+$$
+
+Later more instances of such characterizations of familiar [[E-∞ rings]] have been given: 
+
+* in ([Gepner-Snaith 08](#GepnerSnaith08)) the analogous statement for [[algebraic K-theory]] is formulated in terms of [[motivic spectra]];
+
+* in ([Westerland 12](#Westerland12)) the tower of [[Morava E-theories]] (or some [[homotopy fixed point]] [[spectra]] of these) is shown to be localizations of the [[∞-group ∞-rings]] of $B^{n+1} \mathbb{Z}_p$, for all $n \in \mathbb{N}$.
+
 ## Statement
 
 ### Preliminaries
@@ -107,7 +120,7 @@ from the [[Morava stabilizer group]] $\mathbb{G}_n \coloneqq Gal(\mathbb{F}_{p^n
 Write 
 
 $$
-  S \mathbb{G} \coloneqq ker(det)
+  S \mathbb{G}_n \coloneqq ker(det)
 $$
 
 for the [[kernel]]. This naturally [[infinity-action|acts]] on the [[Morava E-theory]] spectrum $E_n$. Write $E^{S\mathbb{G}_n}$ for the corresponding [[homotopy fixed point]] [[spectrum]]. ([Westerland 12, 1.1](#Westerland12)).
