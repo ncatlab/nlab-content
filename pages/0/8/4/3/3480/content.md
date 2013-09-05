@@ -515,6 +515,10 @@ Tannaka duality in the context of [[(∞,1)-category theory]] is discussed in
 
 * [[James Wallbridge]], _Higher Tannaka duality_, PhD thesis, Adelaide/Toulouse (2011) ([Adelaide University repository](http://digital.library.adelaide.edu.au/dspace/bitstream/2440/69436/1/02whole.pdf), [arXiv:1204.5787](http://arxiv.org/abs/1204.5787))
 
+Tannaka duality for dg-categories is studied in
+
+* J.P.Pridham, _Tannaka duality for enhanced triangulated categories_, [arxiv/1309.0637](http://arxiv.org/abs/1309.0637)
+
 mathOverflow: [does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories](http://mathoverflow.net/questions/30453/does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories)
 
 [[!redirects Tannaka reconstruction]]
