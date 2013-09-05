@@ -350,7 +350,7 @@ In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simpli
 
 This is fully formally the prescription of how to think of a Kan complex as an $\infty$-groupoid: the Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible:
 
-* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms ihn the omega-category of shape the $k$th [[oriental]] $O(k)$;
+* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms in the omega-category of shape the $k$th [[oriental]] $O(k)$;
 
 * the [[horn]]-filler conditions satisfied by these cells is precisely a reflection of the fact that
 
