@@ -256,5 +256,9 @@ A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is
 [[!redirects higher correspondence]]
 [[!redirects higher correspondences]]
 
+[[!redirects higher category of correspondences]]
+[[!redirects higher categories of correspondences]]
 
 [[!redirects Span]]
+
+
