@@ -1,3 +1,8 @@
+
+# Dual gebras
+* table of contents
+{: toc}
+
 ## What is this entry about
 
 Following Serre, [[gebra]] is a common term for [[associative algebra]]s and coassociative [[coalgebra]]s (also called cogebras), and sometimes more involved variants and combinations, like [[bialgebra]]s (also, more properly, called bigebras) and (co)rings. 
@@ -111,9 +116,10 @@ Related $n$Lab entries: [[dual]], [[Heisenberg double]], [[gebra]]
 
 Quite detailed treatment of duality of gebras is in
 
-* Sorin D&#259;sc&#259;lescu, Constantin N&#259;st&#259;sescu, \u0053 Serban Raianu, _Hopf algebras: an introduction_, Marcel & Dekker 2000
+* Sorin D&#259;sc&#259;lescu, Constantin N&#259;st&#259;sescu, Serban Raianu, _Hopf algebras: an introduction_, Marcel & Dekker 2000
 * Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
 * Shahn Majid, _Foundations of quantum group theory_, Cambridge Univ. Press
 
-[[!redirects dual gebras]]
 
+[[!redirects dual gebra]]
+[[!redirects dual gebras]]
