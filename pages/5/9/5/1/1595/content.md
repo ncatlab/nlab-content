@@ -15,7 +15,7 @@
 
 ## Statement
 
-The **Freudenthal suspension theorem** (Hans Freudenthal, 1937) is the following theorem about [[homotopy group]]s of [[spheres]]:
+The **Freudenthal suspension theorem** ([[Hans Freudenthal]], 1937) is the following theorem about [[homotopy group]]s of [[spheres]]:
 
 The [[suspension]] homomorphism $\sigma :\pi_{n+k}(S^n)\to \pi_{n+k+l}(S^{n+l})$ is an [[isomorphism]] for $n\gt k+1$. 
 
