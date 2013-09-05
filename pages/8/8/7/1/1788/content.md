@@ -5,8 +5,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-[pdf](http://www.ias.edu/files/pdfs/publications/letter-2013-summer.pdf
-)
+[pdf](http://bajnok.web.elte.hu/korea.pdf)
 
 
 ***
