@@ -229,3 +229,6 @@ Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
 [[!redirects category of correspondences]]
 [[!redirects categories of correspondences]]
+
+[[!redirects correspondence space]]
+[[!redirects correspondence spaces]]
