@@ -135,7 +135,7 @@ The [[Reedy model structure]] on $sSet^{\Delta}$ is discussed in  Chapter X of
 
 The [[model structure on functors|injective model structure]] is discussed in
 
-* [[Rick Jardine]], _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
+* [[Rick Jardine]], _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp5.pdf))
  {#Jardine}
 
 Totalization of cosimplicial strict [[2-groupoids]] is considered in 
