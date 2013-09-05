@@ -95,7 +95,7 @@ $$ b^i(b_j) = \delta^i_j $$
 (the [[Kronecker delta]]).
 =--
 
-Since $B$ is a basis of $V$, this formula defines $b^i$ for each index $I$, so $B^*$ exists; but in general there is no reason why $B^*$ should be a basis of $V^*$.  However, if $V$ has [[finite set|finite]] [[dimension]] or is a [[Hilbert space]], then $B^*$ is indeed a basis of $V^*$.
+Since $B$ is a basis of $V$, this formula defines $b^i$ for each index $I$, so $B^*$ exists; but in general there is no reason why $B^*$ should be a basis of $V^*$.  However, if $V$ has [[finite set|finite]] [[dimension]], then $B^*$ is a basis of $V^*$. If $V$ is a [[Hilbert space]], and $B$ is a basis of $V$ in the Hilbert space sense (i.e., $B$ is a linearly independent set whose span is topologically dense in $V$), then also $B^*$ is a basis of the dual Hilbert space $V^*$. 
 
 
 ## Double duals
