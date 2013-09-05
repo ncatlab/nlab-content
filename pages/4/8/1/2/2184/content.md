@@ -1,4 +1,8 @@
 
+> This page is about the notion in [[combinatorics]]. For other notions of the same name see at _[[graph of a function]]_ and _[[graph of a functor]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
