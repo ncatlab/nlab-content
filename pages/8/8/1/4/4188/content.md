@@ -91,6 +91,8 @@ $$
 
 If here $(i_1, i_2) \colon Z \to X \times Y$ is a manifold maximal with the property of fitting into the above diagram, then this is a Lagrangian correspondence.
 
+From this is naturally induced the notion of a _[[prequantized Lagrangian correspondence]]_. See there for more details.
+
 =--
 
 
@@ -142,6 +144,8 @@ If here $(i_1, i_2) \colon Z \to X \times Y$ is a manifold maximal with the prop
 * [[symplectic dual pair]]
 
 * [[Weinstein symplectic category]]
+
+* [[prequantized Lagrangian correspondence]]
 
 * [[Lagrangian correspondences and category-valued TFT]]
 
