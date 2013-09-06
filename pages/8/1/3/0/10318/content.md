@@ -244,7 +244,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #PrequantizationIsLiftThroughCurvatureBaseChange}
 ###### Remark
 
 In the [[topos]] of [[smooth spaces]], or rather in the [[(2,1)-topos]] $\mathbf{H}$ of [[smooth groupoids]], this means that a [[prequantization]] is a lift $\nabla$ in the [[diagram]]
@@ -261,6 +261,8 @@ $$
 $$
 
 where $\mathbf{B}U(1)_{conn}$ is the [[moduli stack]] of [[circle n-bundle with connection|circle bundle with connection]]. For details on this see at _[[geometry of physics]]_ the section _[Smooth homotopy types](geometry+of+physics#SmoothnGroupoids)_.
+
+More abstractly we hence find that a [[prequantization]] is a lift of a symplectic manifold regard as an object of the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$ through the [[base change]]/[[dependent sum]] map induced by the universal [[curvature]] map $F_{(-)} \;\colon\;\mathbf{B}U(1)_{conn} \longrightarrow \Omega^2_{cl}$ to the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$.
 
 =--
 
@@ -475,7 +477,7 @@ $$
 
 =--
 
-### The Heisenberg group and the Poisson bracket from equivalence correspondences
+### The Heisenberg group and the Poisson bracket from prequantized Lagrangian equivalences
 
 Above we have interpreted [[maps]] $f \colon X \to Y$ as [[correspondences]]
 between $X$ and $Y$ by taking the [[correspondence space]] to be the 
@@ -505,7 +507,7 @@ $$
 
 Consider now those correspondences which are [[equivalences]] ([[isomorphisms]])
 in the [[category of correspondences]] $Corr_1(\mathbf{H})$. If we forget
-the [[smoot structure]] on everything and consider just correspondences
+the [[smooth structure]] on everything and consider just correspondences
 of the underlying [[sets]], hence $Corr_1(Set)$, then it is easy to see
 that under the [[cardinality]] map correspondences are given by [[matrices]]
 with [[cardinality]] entries and [[composition]] of correspondence 
@@ -515,11 +517,51 @@ Therefor for a correspondence to be an equivalence-transformation it has
 to be of the form above, induced by a direct [[map]], which in 
 addition is an [[equivalence]] $f \colon X \stackrel{\simeq}{\longrightarrow} Y$.
 
++-- {: .num_prop}
+###### Proposition
+
+Let $(X,\omega)$ be a [[symplectic manifold]] and choose any 
+[[prequantization]] $(L,\nabla)$, thought of, via remark \ref{PrequantizationIsLiftThroughCurvatureBaseChange}, as an object in the [[slice (infinity,1)-topos|slice (2,1)-topos]],
+$\nabla \in \mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. Then
+
+* the [[automorphism group]] of $\nabla$ in the [[category of correspondences]] $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is what is called the _[[quantomorphism group]]_;
+
+* its [[Lie algebra]] is the [[Poisson bracket]] Lie algebra of $(X,\omega)$.
+
+=--
+
+See ([hgp 13](#FiorenzaRogersSchreiber13a))
+
+For some reason, the [[quantomorphism group]] which is the [[Lie integration]] of the [[Poisson bracket]] is less famous than the [[Heisenberg group]] that sits inside it:
+
++-- {: .num_remark}
+###### Remark
+
+Suppose that $(X,\omega)$ itself has the structure of a [[group]] (for instance if $(X,\omega)$ is a [[symplectic vector space]] such as $(\mathbb{R}^{2n}, \sum_i p_i \mathbf{d}q^i)$ ), then the [[subgroup]] of the [[quantomorphism group]] whose underlying [[diffeomorphisms]] are given by the action of $X$ is the _[[Heisenberg group]]_ of $X$.
+
+=--
+
+### Hamiltonian actions and moment maps are actions by prequantized Lagranian correspondences
+
+For $G$ a [[Lie group]], a [[Hamiltonian action]] of $G$ on $(X,\omega)$ is equivalently an action by prequantized Lagrangian correspondences, hence a group [[homomorphism]]
+
+$$
+  G \longrightarrow \mathbf{Aut}_\nabla(Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}}))
+  \,.
+$$
+
+The [[Lie differentiation]] of this is the corresponding [[moment map]].
+
+See ([hgp 13](#FiorenzaRogersSchreiber13a))
+
 
 
 ## References
 
 As far as it is not covered by traditional material, the above discussion is taken from
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+ {#FiorenzaRogersSchreiber13a}
 
 * [[Joost Nuiten]], [[Urs Schreiber]], _[[schreiber:Local prequantum field theory]]_
 
