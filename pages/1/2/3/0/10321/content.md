@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $f \colon X \to \mathbb{A}$ a [[function]], its _zero locus_ i the [[preimage]] $f^{-1}(0)$ of [[zero]].
+
+## Related concepts
+
+* [[critical locus]]
+
+[[!redirects zero loci]]
