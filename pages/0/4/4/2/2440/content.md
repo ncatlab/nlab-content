@@ -100,8 +100,10 @@ Another useful survey is
 
 * M. Scheunert, _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
 
+A useful PhD thesis covering Lie superalgebras and superalgebras more generally is 
+
+* D. Westra, _Superrings and supergroups_ ([pdf][http://www.mat.univie.ac.at/~michor/westra_diss.pdf])
 
 
 [[!redirects Lie superalgebra]]
 [[!redirects super Lie algebras]]
-
