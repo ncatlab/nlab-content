@@ -908,8 +908,14 @@ See at _[[theta function]]_.
 ### Quantization of Chern-Simons theory
 
 The [[geometric quantization]] of [[Chern-Simons theory]]
-leads to invariants for 3-[[manifolds]]. 
-A detailed discussion is in ([Witten 89](#Witten)).
+leads to invariants for 3-[[manifolds]].([Witten 89](#Witten)).
+
+See at _[[quantization of Chern-Simons theory]]_ for more.
+
+### Quantization in Gromov-Witten theory
+
+Geometric quantization appears in [[Gromov-Witten theory]].
+See ([Clader-Priddis-Shoemaker 13](#CladerPriddisShoemaker13)).
 
 ### Quantization of the bosonic string $\sigma$-model
 
@@ -1078,6 +1084,11 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 Discussion of geometric quantization of [[self-dual higher gauge theory]] is in 
 
 * Samuel Monnier, _Geometric quantization and the metric dependence of the self-dual field theory_ ([arXiv:1011.5890](http://arxiv.org/abs/1011.5890))
+
+Discussion in the context of [[Gromov-Witten theory]]:
+
+* Emily Clader, Nathan Priddis, Mark Shoemaker, _Geometric Quantization with Applications to Gromov-Witten Theory_ ([arXiv:1309.1150](http://arxiv.org/abs/1309.1150))
+ {#CladerPriddisShoemaker13}
 
 ### Relation to deformation quantization
  {#ReferencesRelationToDeformation}
