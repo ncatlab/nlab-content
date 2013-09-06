@@ -3886,7 +3886,7 @@ A clear picture of [[fiber integration]] in [[twisted cohomology]] is developed 
 
 A proposal to axiomatize [[perturbative field theory|perturbative]] [[prequantum field theory]] by functors from [[cobordisms]] to a [[symplectic category]] of [[symplectic manifolds]] and [[Lagrangian correspondences]] is in 
 
-* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239), [pdf slides](http://users.uoa.gr/~iandroul/GAP%202012%20WEBPAGE/GAP2012_Cattaneo.pdf))
  {#CattaneoMnevReshetikhin12}
 
 
