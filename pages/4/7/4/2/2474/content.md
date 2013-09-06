@@ -243,6 +243,8 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[C*-coalgebra]], [[Hopf C*-algebra]]
 
+* [[continuous field of C*-algebras]]
+
 * [[homotopical structure on C*-algebras]]
 
   * [[asymptotic C*-homomorphism]], [[l.m.c.-C*-algebra]]
