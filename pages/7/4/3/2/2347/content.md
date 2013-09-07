@@ -242,13 +242,11 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 Classical textbooks include
 
-* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_
+* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Graduate texts in Mathematics 60 (1978)
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
 * Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
-
-Discussion aimed at mathematicians includes
 
 * [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf))
 
