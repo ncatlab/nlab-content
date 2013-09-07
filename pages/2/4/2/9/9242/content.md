@@ -17,6 +17,8 @@
 
 In [[physics]] the part of the [[action functional]] of a [[theory (physics)|theory]] which describes the [[dynamics]] of  [[free fields]] without [[interaction]] is called the _kinetic action_.
 
+The [[Legendre transform]] of the kinetic action is the _[[kinetic energy]]_.
+
 ## Related concepts
 
 [[!include action (physics) - table]]
