@@ -49,3 +49,6 @@ discusses how to extract notions of particles from a [[local net of observables]
 
 
 [[!redirects particles]]
+
+[[!redirects quantum]]
+[[!redirects quanta]]
