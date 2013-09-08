@@ -66,6 +66,8 @@ is the corresponding [[local action functional]].
 
 * traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into [[local prequantum field theory]] by the notion of [[prequantized Lagrangian correspondences]]
 
+[[!include Hamiltonian and Lagrangian -- table]]
+
 
 ## References
 
