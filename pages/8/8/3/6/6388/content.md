@@ -35,6 +35,15 @@ $$
   \,.
 $$
 
+## Related concept
+
+* [[equations of motion]]
+
+  * [[Newton's laws of motion]]
+
+  * [[Hamilton's equations]]
+
+
 ## References
 
 A general discssion is for instance in section 11 of 
