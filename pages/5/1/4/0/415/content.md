@@ -104,6 +104,9 @@ Section 3.7 of
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
+Section 6.5 of
+
+* Francis Borceux, _Handbook of categorical algebra, vol. 2_
 
 [[!redirects copowers]]
 
