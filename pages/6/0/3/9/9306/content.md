@@ -99,6 +99,8 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 ## Related concepts
 
+* [[moduli problem]]
+
 * [[synthetic differential geometry]]
 
 * [[synthetic differential ∞-groupoid]]
