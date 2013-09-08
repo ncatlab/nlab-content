@@ -21,19 +21,41 @@
 
 ## Idea
 
-Here we discuss the notion of _prequantized Lagrangian correspondences_ and how it serves to embed traditonal [[Hamiltonian mechanics]] and [[Lagrangian mechanics]] into the general context of [[local prequantum field theory]] and its [[motivic quantization]].
+Here we discuss the notion of _prequantized Lagrangian correspondences_ and how it serves to embed traditonal [[classical mechanics]] in its formulation as [[Hamiltonian mechanics]] and [[Lagrangian mechanics]] into the general context of [[local prequantum field theory]] and its [[motivic quantization]].
 
-A traditional notion is that of a plain _[[Lagrangian correspondence]]_, which is a [[Lagrangian submanifold]] of the [[Cartesian product]] of a [[symplectic manifold]] and another one, with opposite [[symplectic structure]]. As discussed there, plain [[Lagrangian correspondences]] serve to encode [[symplectomorphisms]] -- hence transfomations between [[phase spaces]] in [[physics]] -- via [[correspondences]] of [[symplectic manifolds]].
+A traditional notion is that of a plain _[[Lagrangian correspondence]]_, which is a [[Lagrangian submanifold]] of the [[Cartesian product]] of a [[symplectic manifold]] and another one, with opposite [[symplectic structure]]. As discussed there, plain [[Lagrangian correspondences]] naturally generalize [[symplectomorphisms]] -- hence transfomations between [[phase spaces]] in [[physics]] -- via [[correspondences]] of [[symplectic manifolds]].
 
 But in [[prequantum field theory]] proper, and in particular with an eye towards [[geometric quantization]], one considers the [[prequantization]] of these symplectic manifolds by lifting them to [[prequantum circle bundles]] with [[principal connection]]. The notion of _prequantized Lagrangian correspondence_ is the refinement of that of plain [[Lagrangian correspondence]] which does properly respect and reflect this [[prequantization]] information: a prequantized Lagrangian correspondence is a [[Lagrangian subspace]] as before, but now equipped with an explicit [[gauge transformation]] between the pullbacks of the two [[prequantum circle bundles]] to the correspondence space.
 
-We discuss below how the concept of prequantized Lagrangian correspondences neatly unifies  "[[classical mechanics]]" formulated in terms of [[symplectic geometry]] of [[phase space]] with [[Hamiltonian flows]] on them with the [[Hamilton-Jacobi equation]] for such flows. 
+We discuss below how the concept of prequantized Lagrangian correspondences neatly induces and unifies ingredients and aspects of [[classical mechanics]], notably the [[Hamiltonian mechanics]] of [[symplectic manifolds]] and the [[Lagrangian mechanics]] of [[action functionals]] associated to it via the [[Legendre transform]]. Specifically, below in _[The classical action prequantizes Hamiltonian correspondences](#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences)_ we see that prequantized Lagrangian correspondences are [[diagrams]] which schematically express this data as follows:
 
-Then we show how also the notion of prequantized Lagrangian correspondence is -- still naturally in the context of [[local prequantum field theory]] -- further refined from the context of [[symplectic manifolds]] to that of [[Poisson manifolds]]. Specifically, this is obtained by realizing that prequantized Lagrangian correspondences are really naturally to be regarded as correspondences-of-correspondences in a [[higher category of correspondences|2-category of correspondences]], where now the new lower-order correspondences are instead [[boundary field theories]] for a [[2d Chern-Simons theory]] (a non-perturbative [[Poisson sigma-model]]).  
+$$
+  \array{
+    && {{space\,of} \atop {trajectories}}
+    \\
+    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
+    \\
+    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
+    \\
+    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
+    && 
+    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
+    \\
+    && {{2-group} \atop {of\,phases}}
+  }
+  \,.
+$$
+
+This describes a [[diagram]] in what is called the [[slice topos]] of [[smooth spaces]] over the [[moduli stack]] of [[prequantum circle bundles]]. Once formulated this way, there is an evident refinement to [[moduli infinity-stack|higher moduli stacks]] of [[prequantum n-bundles]].
+
+For $n = 2$ we show how the notion of prequantized Lagrangian correspondence is -- still naturally in the context of [[local prequantum field theory]] -- further refined from the context of [[symplectic manifolds]] to that of [[Poisson manifolds]]. Specifically, this is obtained by realizing that prequantized Lagrangian correspondences are really naturally to be regarded as correspondences-of-correspondences in a [[higher category of correspondences|2-category of correspondences]], where now the new lower-order correspondences are instead [[boundary field theories]] for a [[2d Chern-Simons theory]] (a non-perturbative [[Poisson sigma-model]]).  
 
 ## Classical mechanics by prequantized Lagrangian correspondences
 
+The following is effectively a derivation of and introduction to [[classical mechanics]] by studying [[correspondences]] in what is called (and we explain this) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _prequantized Lagrangian correspondences_ and the reader looking for these should skip ahead to the section _[Hamiltonian trajectories and prequantized Lagrangian correspondences](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
+
 ### Phase spaces and symplectic manifolds
+ {#PhaseSpaceAndSymplecticManifolds}
 
 Given a [[physical system]], one says that its _[[phase space]]_ is the
 space of its possible ("classical") histories or _[[trajectories]]_. 
@@ -198,22 +220,15 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
 
-In [[physics]] [[symplectomorphisms]] are traditionally known as _[[canonical transformations]]_. Or more precisely, a _canonical transformation_ is a [[symplectomorphism]] of the special kind called a _[[Hamiltonian symplectomorphism]]_. This we come to below after [[prequantization]].
-
-=--
-
-
-The above formulation of pre-symplectic manifolds as maps into a moduli space of closed 2-forms yields the following formulation of symplectomorphisms,  which is very simple in itself, 
+The above formulation of pre-symplectic manifolds as maps into a [[moduli space]] of closed [[differential 2-forms]] yields the following formulation of symplectomorphisms,  which is very simple in itself, 
 but contains in it the seed of an important phenomenon:
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-A [[symplectomorphism]] $f \colon (X_1, \omega_2) \longrightarrow (X_2, \omega_2)$ as above is equivalently a [[commuting diagram]] in $\mathbf{H}$ of the form
+A [[symplectomorphism]] $f \colon (X_1, \omega_2) \longrightarrow (X_2, \omega_2)$ as above is, under the identification of prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace}, equivalently a [[commuting diagram]] in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -228,7 +243,7 @@ $$
 
 =--
 
-Situations like this are naturally interpreted in the _[[slice topos]]_:
+Situations like this are naturally interpreted in a _[[slice topos]]_:
 
 +-- {: .num_defn}
 ###### Definition
@@ -236,7 +251,7 @@ Situations like this are naturally interpreted in the _[[slice topos]]_:
 For $A \in \mathbf{H}$ any [[smooth space]],
   the _[[slice topos]]_  $\mathbf{H}_{/A}$ is the [[category]] whose
   [[objects]] are objects $X \in \mathbf{H}$ equipped with [[maps]]
-  $X \to A$, and whose [[morphisms]] are [[commuting diagrams]]] in $\mathbf{H}$
+  $X \to A$, and whose [[morphisms]] are [[commuting diagrams]] in $\mathbf{H}$
   of the form
   $$
     \array{
@@ -244,14 +259,13 @@ For $A \in \mathbf{H}$ any [[smooth space]],
       \\
       & \searrow && \swarrow
       \\
-      && \mathbf{Omega}^2_{cl}
+      && A
     }
   $$
 
 =--
 
-Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symplectic manifolds
-  and symplectomorphisms betwen them, then we have the following.
+Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symplectic manifolds and symplectomorphisms betwen them, then we have the following.
 
 
 +-- {: .num_prop}
@@ -331,7 +345,7 @@ This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] 
 =--
 
 
-### Hamiltonian correspondences
+### Hamiltonian evolution and Hamiltonian correspondences
 
 An important class of [[symplectomorphisms]] are the [[Hamiltonian symplectomorphisms]] from a [[symplectic manifold]] to itself, those which are the [[flow]] of a [[Hamiltonian vector field]] on $(X,\omega)$ induced by a [[Hamiltonian function]] 
 
@@ -538,7 +552,8 @@ $$
 $$
 
 
-### Prequantized Lagrangian correspondences
+### The classical action, the Legendre transform and Prequantized Lagrangian correspondences
+ {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
 
 But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifold]], but between their _prequantizations_. To these we turn now.
 
@@ -594,7 +609,7 @@ $$
     \\
     X_1 &\stackrel{\nabla_1}{\longrightarrow}& \mathbf{B}U(1)_{conn} &\stackrel{\nabla_2}{\longleftarrow}& X_2
     \\
-    & {}_{\mathllap{\nabla_1}}\searrow && \swarrow_{\mathrlap{\nabla_2}}
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
     \\
    && \Omega^2_{cl}
   }
@@ -603,6 +618,24 @@ $$
 hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}$.
 
 =--
+
+In the case that $X_1$ and $X_2$ have the same [[dimension]], this is equivalent to a morphism
+
+$$
+  \array{
+    X_1 &&\stackrel{\phi}{\longrightarrow}&& X_2
+    \\
+    & {}_{\mathllap{\nabla_1}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla_2}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+hence a morphism in the slice $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. This has been discussed in detail in ([hgp 13](#FiorenzaRogersSchreiber13a)).
+
+One finds that [[infinitesimal object|infinitesimally]] such morphism are given by a [[Hamiltonian]] and its [[Legendre transform]] (...)
+
+[[!include Hamiltonian and Lagrangian -- table]]
 
 ### The classical action functional prequantizes Hamiltonian correspondences
  {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
@@ -775,7 +808,7 @@ $$
   \array{
     && {{space\,of} \atop {trajectories}}
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
     \\
     phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
     \\
