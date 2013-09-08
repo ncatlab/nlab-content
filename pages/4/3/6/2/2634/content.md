@@ -87,6 +87,9 @@ provided the Hamiltonian is time-independent.
 
 ## Related concepts
 
+[[!include Hamiltonian and Lagrangian -- table]]
+
+
 * [[Hamilton's equations]]
 
 * [[quantum operator]]
