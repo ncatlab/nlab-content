@@ -4,12 +4,12 @@ C\triangleright \mu_A = \mu_A\circ(\triangleright \otimes \triangleright)\circ (
 $$
 and
 $$
-\triangleright \circ (C\otimes \eta) = \eta\circ r_C\circ (\epsilon\otimes \mathbd{1}): C\otimes \mathbf{1}\to A.
+\triangleright \circ (C\otimes \eta) = \eta\circ r_C\circ (\epsilon\otimes \mathbf{1}): C\otimes \mathbf{1}\to A.
 $$
 In Sweedler notation, we also write $c\triangleright (ab) = 
 \sum (c_{(1)}\triangleright a)(c_{(2)}\triangleright b)$ and
 $c\triangleright 1_A = \epsilon(c) 1_A$.
-A [[Hopf action]] is a special case of measuring which is also an action of a <em> bimonoid </em> where $B=(C,\mu_C)$. Measurings are used e.g. do define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]]. For measurings and module algebras see
+A [[Hopf action]] is a special case of measuring which is also an action of a <em> bimonoid </em> where $B=(C,\mu_C)$. Measurings are used to define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]] (of an algebra by a bialgebra). For measurings and module algebras see
 
 * S. Montgomery, Hopf algebras and their actions on rings, CBMS 82, AMS 1993.
 
