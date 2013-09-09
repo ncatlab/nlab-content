@@ -143,7 +143,7 @@ By prop. \ref{NaturalTrafoMapsToHomotopy} it follows that we have a [[homotopy e
 +-- {: .num_defn }
 ###### Definition
 
-For $C$ a [[category]], let $\nabla C$ be the [[poset]] of simplices in $N C$, ordered by inclusion. Its [[nerve]] is also called the [[barycentric subdivision]] of the nerve of $C$.
+For $C$ a [[category]], let $\nabla C$ be the [[poset]] of simplices in $N C$, ordered by inclusion.
 
 =--
 
