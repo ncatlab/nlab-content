@@ -21,9 +21,9 @@
 
 ## Idea
 
-Here we discuss the notion of _prequantized Lagrangian correspondences_ and how it serves to embed traditonal [[classical mechanics]] in its formulation as [[Hamiltonian mechanics]] and [[Lagrangian mechanics]] into the general context of [[local prequantum field theory]] and its [[motivic quantization]].
+Here we discuss the notion of _prequantized Lagrangian correspondences_ and how it serves to embed traditional [[classical mechanics]] in its formulation as [[Hamiltonian mechanics]] and [[Lagrangian mechanics]] into the general context of [[local prequantum field theory]] and its [[motivic quantization]].
 
-A traditional notion is that of a plain _[[Lagrangian correspondence]]_, which is a [[Lagrangian submanifold]] of the [[Cartesian product]] of a [[symplectic manifold]] and another one, with opposite [[symplectic structure]]. As discussed there, plain [[Lagrangian correspondences]] naturally generalize [[symplectomorphisms]] -- hence transfomations between [[phase spaces]] in [[physics]] -- via [[correspondences]] of [[symplectic manifolds]].
+A traditional notion is that of a plain _[[Lagrangian correspondence]]_, which is a [[Lagrangian submanifold]] of the [[Cartesian product]] of a [[symplectic manifold]] and another one, with opposite [[symplectic structure]]. As discussed there, plain [[Lagrangian correspondences]] naturally generalize [[symplectomorphisms]] -- hence transformations between [[phase spaces]] in [[physics]] -- via [[correspondences]] of [[symplectic manifolds]].
 
 But in [[prequantum field theory]] proper, and in particular with an eye towards [[geometric quantization]], one considers the [[prequantization]] of these symplectic manifolds by lifting them to [[prequantum circle bundles]] with [[principal connection]]. The notion of _prequantized Lagrangian correspondence_ is the refinement of that of plain [[Lagrangian correspondence]] which does properly respect and reflect this [[prequantization]] information: a prequantized Lagrangian correspondence is a [[Lagrangian subspace]] as before, but now equipped with an explicit [[gauge transformation]] between the pullbacks of the two [[prequantum circle bundles]] to the correspondence space.
 
@@ -52,7 +52,7 @@ For $n = 2$ we show how the notion of prequantized Lagrangian correspondence is 
 
 ## Classical mechanics by prequantized Lagrangian correspondences
 
-The following is effectively a derivation of and introduction to [[classical mechanics]] by studying [[correspondences]] in what is called (and we explain this) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _prequantized Lagrangian correspondences_ and the reader looking for these should skip ahead to the section _[Hamiltonian trajectories and prequantized Lagrangian correspondences](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
+The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _prequantized Lagrangian correspondences_ and the reader looking for these should skip ahead to the section _[Hamiltonian trajectories and prequantized Lagrangian correspondences](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
 
 ### Phase spaces and symplectic manifolds
  {#PhaseSpaceAndSymplecticManifolds}
@@ -99,7 +99,7 @@ such that
 
 1. this assignment respects composition of smooth functions;
 
-1. this assignment respect the [[covering]] of [[Cartesian spaces]] by [[open disks]]: for every [[good open cover]] $\{\mathbb{R}^n \simeq U_i \hookrightarrow \mathbb{R}^n\}_i$, the set $X(\mathbb{R}^n)$ of smooth functions out of $\mathbb{R}^n$ into $X$ is in natural bijection with the set $\left\{ (\phi_i)_i \in \prod_i X(U_i) \;|\;  \forall_{i,j}\; \phi_i|_{U_{i} \cap U_j}   = \phi_j|_{U_{i} \cap U_j} \right\}$ of tuples of smooth functions out of the patches of the cover which agree on all intersections of two patches.
+1. this assignment respects the [[covering]] of [[Cartesian spaces]] by [[open disks]]: for every [[good open cover]] $\{\mathbb{R}^n \simeq U_i \hookrightarrow \mathbb{R}^n\}_i$, the set $X(\mathbb{R}^n)$ of smooth functions out of $\mathbb{R}^n$ into $X$ is in natural bijection with the set $\left\{ (\phi_i)_i \in \prod_i X(U_i) \;|\;  \forall_{i,j}\; \phi_i|_{U_{i} \cap U_j}   = \phi_j|_{U_{i} \cap U_j} \right\}$ of tuples of smooth functions out of the patches of the cover which agree on all intersections of two patches.
 
 =--
 
@@ -281,7 +281,7 @@ Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symple
      \mathbf{H}_{/\mathbf{\Omega}^2_{\mathrm{cl}}}
   $$
   of pre-symplectic manifolds with symplectomorphisms between them into 
-  the slice topos of smooth spaces over the smootu moduli space of
+  the slice topos of smooth spaces over the smooth moduli space of
   closed differential 2-forms.
 
 =--
@@ -378,7 +378,7 @@ in that
 
 1. every point in the space corresponds uniquely to a [[trajectory]] of parameter time length $t$ characterized as satisfying the [[equations of motion]] as given by [[Hamilton's equations]] for $H$;
 
-1. the two projection maps to $X$ send a trajectory to its inital and to its final configuration, respectively.
+1. the two projection maps to $X$ send a trajectory to its initial and to its final configuration, respectively.
 
 =--
 
@@ -474,7 +474,7 @@ $$
   \,.
 $$
 For this to be well defined, one only needs that the equation
-$g_{i j} + g_{j k} = g_{i k}$ holds modulo addtion of an integral
+$g_{i j} + g_{j k} = g_{i k}$ holds modulo addition of an integral
 multiple of $h = 2\pi \hbar$, which is _[[Planck's constant]]_. 
 If this is the case, then one says that the data 
 $(\{\theta_i\}, \{g_{i j}\})$ defines 
@@ -555,7 +555,7 @@ $$
 ### The classical action, the Legendre transform and Prequantized Lagrangian correspondences
  {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
 
-But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifold]], but between their _prequantizations_. To these we turn now.
+But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifolds]], but between their _prequantizations_. To these we turn now.
 
 +-- {: .num_defn}
 ###### Definition
@@ -615,7 +615,7 @@ $$
   }
 $$
 
-hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}$.
+hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$.
 
 =--
 
@@ -642,12 +642,12 @@ One finds that [[infinitesimal object|infinitesimally]] such morphism are given 
 
 The natural question now is which Hamiltonian correspondences may be prequantized and what the corresponding prequantum data is. The following proposition shows that the prequantization of the Hamiltonian correspondence given by a [[Hamiltonian]] $H$ is given by the exponentiated [[action functional]] associated with $H$, namely the exponentiated integral over its [[Lagrangian]] $L$, which is its [[Legendre transform]] $L = p \frac{\partial H}{\partial p} - H$.
 
-Of course all the ingredients in the statement and in the proof od the following proposition are classical. But the notion of prequantized Lagrangian correspondence serves to neatly unify these ingredients and give them a natural place in the context of [[local prequantum field theory]] which later naturally leads to the formulation of [[higher prequantum geometry|higher]] [[local prequantum field theory]] and its [[motivic quantization]].
+Of course all the ingredients in the statement and in the proof of the following proposition are classical. But the notion of prequantized Lagrangian correspondence serves to neatly unify these ingredients and give them a natural place in the context of [[local prequantum field theory]] which later naturally leads to the formulation of [[higher prequantum geometry|higher]] [[local prequantum field theory]] and its [[motivic quantization]].
 
 +-- {: .num_prop #HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction}
 ###### Proposition
 
-Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbd{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
 
 $$
   \array{   
@@ -828,7 +828,7 @@ $$
 Above we have interpreted [[maps]] $f \colon X \to Y$ as [[correspondences]]
 between $X$ and $Y$ by taking the [[correspondence space]] to be the 
 [[graph of a function|graph]] of $f$. There is also another natural way
-to regard maps as correspontences: we may simply take $X$ as the correspondence
+to regard maps as correspondences: we may simply take $X$ as the correspondence
 space, take the left map out of it to be the identity and the right map 
 to be $f$ itself:
 
@@ -859,7 +859,7 @@ that under the [[cardinality]] map correspondences are given by [[matrices]]
 with [[cardinality]] entries and [[composition]] of correspondence 
 by [[fiber product]] induces [[matrix multiplication]]. 
 
-Therefor for a correspondence to be an equivalence-transformation it has
+Therefore for a correspondence to be an equivalence-transformation it has
 to be of the form above, induced by a direct [[map]], which in 
 addition is an [[equivalence]] $f \colon X \stackrel{\simeq}{\longrightarrow} Y$.
 
