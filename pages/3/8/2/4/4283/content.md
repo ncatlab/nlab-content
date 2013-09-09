@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -20,7 +25,11 @@ Superselection theory is about identifying superselection sectors in [[quantum f
 
 There are two complementary viewpoints about superselection sectors: 
 
-In the Wick-Wightman-Wigner picture (reference see below) all possible [[state]]s of a system form one big [[Hilbert space]], superselection sectors are subspaces of this Hilbert space, and no measurement, that is no [[observable]], can map a state in one superselection sector to another. Further, superpositions of states in different sectors do not exist in physical reality. An example would be a superposition of a state containing one electron with a state containing two electons.
+In the picture of ([Wick-Wigner-Wightman 52](#WickWignerWightman52)) all possible [[states]] of a system form one big [[Hilbert space]] and  superselection sectors are subspaces of this Hilbert space, and no measurement, that is no [[observable]], can map a state in one superselection sector to another. Further, [[superpositions]] of states in different sectors do not exist in physical reality. 
+
+Hence, mathematically: superselection sectors are [[irreducible representations]] of a given [[algebra of observables]] inside the [[space of quantum states]].
+
+An example would be a superposition of a state containing one electron with a state containing two electons.
 
 In the [[AQFT]] approach to [[quantum field theory]] the observables of the theory are selfadjoint elements of a [[C-star algebra]]. A concrete physical system is a [[state]] of this algebra, which is accompanied via the [[GNS construction]] with a representation of the algebra. A superselection sector from this viewpoint is an equivalence class of unitarily equivalent representations, see [[representation of a C-star algebra]]. 
 
@@ -44,13 +53,16 @@ Example:
 
 For the Wick--Wightman--Wigner picture of superselection sectors see
 
-* Wick, Wigner, Wightman: _The intrinsic parity of elementary particles_ (Phys. Rev. 88, 101-105, 1952)
+* [[Gian-Carlo Wick]], [[Eugene Wigner]], [[Arthur Wightman]], _The intrinsic parity of elementary particles_ Phys. Rev. 88, 101-105, 1952 ([pdf](http://dieumsnh.qfb.umich.mx/archivoshistoricosmq/ModernaHist/Wick.pdf))
+ {#WickWignerWightman52}
 
-A brief survey of that is in [section 2.3](http://iopscience.iop.org/0034-4885/38/7/001/pdf/0034-4885_38_7_001.pdf#page=781)
+A brief survey of that is in [section 2.3](http://iopscience.iop.org/0034-4885/38/7/001/pdf/0034-4885_38_7_001.pdf#page=781) of
 
 * R. F. Streater, _Outline of axiomatic relativistic quantum field theory_ ([pdf](http://iopscience.iop.org/0034-4885/38/7/001/pdf/0034-4885_38_7_001.pdf))
 
 See also [[AQFT]], [[QFT]] and [[Haag-Kastler axioms]].
+
+* [[Klaas Landsman]], _Quantization and superselection sectors II. Dirac Monopole and Aharonov-Bohm effect_, Review in mathematical physics volume 2, No 1 (1990) ([pdf](http://www.math.ru.nl/~landsman/landsman2.pdf))
 
 
 
