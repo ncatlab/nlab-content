@@ -1,0 +1,6 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gian-Carlo_Wick)
+
+category: people
+
