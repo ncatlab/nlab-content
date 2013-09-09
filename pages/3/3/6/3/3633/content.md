@@ -15,7 +15,7 @@
 
 ## Idea
 
-Wick rotation is a method in [[physics]] for finding a solution to a problem in [[Minkowski spacetime]] from the solution to a related problem in [[Euclidean space]].  It is motivated by the observation that the Minkowski metric (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the [[time]] components of either are allowed to have imaginary values.
+What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a solution to a problem in [[Minkowski spacetime]] from the solution to a related problem in [[Euclidean space]].  It is motivated by the observation that the Minkowski metric (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the [[time]] components of either are allowed to have imaginary values.
 
 Specifically, in [[quantum field theory]] Wick rotation is a method for identifying QFT [[partition functions]] with [[expectation values]] of a corresponding system of [[statistical mechanics]]. 
 
