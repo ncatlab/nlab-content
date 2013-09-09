@@ -91,6 +91,8 @@ An exposition of the relation to [[S-duality]] and [[electro-magnetic duality]] 
 
 Further discussion is also in 
 
+* Tamas Hausel, _Global topology of the Hitchin system_ ([arXiv:1102.1717](http://arxiv.org/abs/1102.1717), [pdf slides](http://geom.epfl.ch/files/content/sites/geom/files/Calgary0312.pdf))
+
 * Kevin Setter, _Topological quantum field theory and the geometric Langlands correspondence_. Dissertation (Ph.D.), California Institute of Technology 2013 ([web](http://resolver.caltech.edu/CaltechTHESIS:09192012-150137728))
 
 Discussion from the point of view of [[M-theory]] is in 
