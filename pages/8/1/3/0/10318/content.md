@@ -71,7 +71,7 @@ that describe it, is subject to [[constraints]], then the full [[phase space]] i
 
 
 
-+-- {: .num_example}
++-- {: .num_example #CanonicalR2PhaseSpace}
 ###### Example
 
 The [[sigma-model]] describing the propagation of a [[particle]] on the [[real line]] $\mathbb{R}$ has as [[phase space]] the [[plane]] $\mathbb{R}^2 = T^\ast \mathbb{R}$ and as [[symplectic form]] its canonical [[volume form]]. Traditionally the two canonical [[coordinate functions]] on this phase space are denoted $q,p \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ (called the "[[canonical coordinate]]" and the "[[canonical momentum]]", respectively), and in terms of these the symplectic form in this example is $\omega = \mathbf{d} q \wedge \mathbf{d} p$.
@@ -268,7 +268,7 @@ For $A \in \mathbf{H}$ any [[smooth space]],
 Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symplectic manifolds and symplectomorphisms betwen them, then we have the following.
 
 
-+-- {: .num_prop}
++-- {: .num_prop #SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}
 ###### Proposition
 
 
@@ -287,6 +287,7 @@ Hence if we write $\mathrm{SymplManifold}$ for the category of smooth pre-symple
 =--
 
 ### Trajectories and Lagrangian correspondences
+ {#TrajectoriesAndLagrangianCorrespondences}
 
 A [[symplectomorphism]] clearly puts two [[symplectic manifolds]] "in _[[relation]]_" to each other. But it does so also in the formal sense of [[relations]] in mathematics. Recall:
 
@@ -340,19 +341,33 @@ $$
   \,.
 $$
 
-Since we are going to think of $f$ as a kind of "physical process", it is useful to think of the [[smooth space]] $graph(f)$ here as the _space of [[trajectories]]_ of that process. To make this clearer, notice that we may equivalently rewrite every [[relation]] $R \hookrightarrow X \times Y$ as a [[diagram]] of the form
+Since we are going to think of $f$ as a kind of "physical process", it is useful to think of the [[smooth space]] $graph(f)$ here as the _space of [[trajectories]]_ of that process. To make this clearer, notice that we may equivalently rewrite every [[relation]] $R \hookrightarrow X \times Y$ as a [[diagram]] of the following form:
 
 $$
   \array{
      && R
       \\
-     & {}^{\athllap{i_X}}\swarrow && \searrow^{\mathrlap{i_Y}}
+     & {}^{\mathllap{i_X}}\swarrow && \searrow^{\mathrlap{i_Y}}
+    \\
+    X && && Y
+  }
+  \;\;
+  = 
+  \;\;
+  \array{
+     && R
+     \\
+     && \downarrow
+     \\
+     && X \times Y
+      \\
+     & {}^{\mathllap{p_X}}\swarrow && \searrow^{\mathrlap{p_Y}}
     \\
     X && && Y
   }
 $$
 
-exhibiting the fact that every [[element]] $(x \sim y) \in R$ defines an element $x = i_X(x \sim y) \in X$ and an element $y = i_Y(x \sim y) \in Y$. 
+reflecting the fact that every [[element]] $(x \sim y) \in R$ defines an element $x = i_X(x \sim y) \in X$ and an element $y = i_Y(x \sim y) \in Y$. 
 
 Then if we think of $R = graph(f)$ we may read the relation as "there is a trajectory from an incoming configuration $x_1$ to an outgoing configuration $x_2$"
 
@@ -367,7 +382,7 @@ $$
   \,.
 $$
 
-Notice here that the defining property of a relation as a [[subset]]/[[subobject]] translates into the property of [[classical physics]] that there is _at most one trajectory_ from some incoming configuration $x_1$ to some outgoing trajectory $x_2$ (for a fixed parameter time interval at least, we will make this relation precise in the next section when we genuinely consider Hamiltonian correspondences).
+Notice here that the defining property of a relation as a [[subset]]/[[subobject]] translates into the property of [[classical physics]] that there is _at most one trajectory_ from some incoming configuration $x_1$ to some outgoing trajectory $x_2$ (for a fixed parameter time interval at least, we will formulate this precisely in the next section when we genuinely consider Hamiltonian correspondences).
 
 In a more general context one could consider there to be several such trajectories, and even a whole smooth space of such trajectories between given incoming and outgoing configurations. Each such trajectory would "relate" $x_1$ to $x_2$, but each in a possible different way. We can also say that each trajectory makes $x_1$ _correspond_ to $x_2$ in a different way, and that is the mathematical term usually used:
 
@@ -380,7 +395,7 @@ $$
   \array{
      && Z
      \\
-     & \searrow && \searrow
+     & \swarrow && \searrow
     \\
     X && && Y
   }
@@ -405,14 +420,20 @@ $$
   \array{
     && X
     \\
-    & {}^{\mathlla{id}}\swarrow && \searrow^{\mathrlap{f}}
+    & {}^{\mathllap{id}}\swarrow && \searrow^{\mathrlap{f}}
     \\
     X && && Y
   }
   \,.
 $$
 
-It is clear that this correspondence with correspondence space $X$ should be regarded as being equivalent to the one with correspondence space $graph(f)$. We may formalize this equivalence by noting that it is exhibited by the existence of the following [[commuting diagram]]
+It is clear that this correspondence with correspondence space $X$ should be regarded as being equivalent to the one with correspondence space $graph(f)$. We may formalize this equivalence by noting 
+
++-- {: .num_remark #EquivalenceOfCorrespndencesInducedByFunction}
+###### Remark
+
+Given an [[function]] $f \colon X \longrightarrow Y$
+we have the [[commuting diagram]]
 
 $$
   \array{
@@ -426,14 +447,50 @@ $$
     \\
     && graph(f)
   }
-  \,.
 $$
+
+exhibiting an [[equivalence]] of the [[correspondence]] at
+the top with that at the bottom.
+
+=--
 
 A diagram like this we call an _[[equivalence]] or [[correspondences]]_.
 
-The notion of correspondence makes sense (in particular) in every [[topos]]. In particular also in the [[slice toposes]] of a given ambient topos. 
+If we have correspondences from $X$ to $Y$ and then from $Y$ to $X$, we may [[composition|compose]] them by forming the [[fiber product]] over their adjacent legs
+
+$$
+  \array{  
+     && && Z_1 \underset{Y}{\times} Z_2
+     \\
+      && & \swarrow && \searrow
+      \\
+      && Z_1 && && Z_2
+      \\
+     & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    X && && Y && && Z
+  }
+  \,.
+$$ 
+
+In total this yields a [[(2,1)-category]] of correspondences
+
+$$
+  Corr(\mathbf{H}) \in (2,1)Cat
+$$
+
+(...)
+
+So the notion of correspondence makes sense (in particular) in every [[topos]]. In particular also in the [[slice toposes]] of a given ambient topos. 
 
 To see how this is useful in the present context, notice the following basic observation:
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow$ is called a _[[Lagrangian submanifold]]_ of $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -458,13 +515,29 @@ be the induced [[correspondence]]. If $\omega_1$ and $\omega_2$ are [[symplectic
 
 =--
 
-Traditionally one considers now the [[Cartesian product]] [[manifold]] $X_1 \times X_2$ itself as a [[symplectic manifold]] equipped with the [[pullback of differential forms|pullback]] symplectic form
+To capture this phenomenon, one traditionally sets:
+
++-- {: .num_defn}
+###### Definition
+
+For $(X_1,\omega_1)$ and $(X_2,\omega_2)$ two [[symplectic manifolds]] (not necessarily of the same [[dimension]]), a [[Lagrangian correspondence]] between them is a [[correspondence]] of the underlying [[manifolds]]
 
 $$
-  (X_1 \times X_2 , \; p_1^\ast \omega_1 - p_2^\ast \omega_2)
+  \array{
+     && R
+     \\
+     && \downarrow
+     \\
+     & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+     \\
+    X_1 && && X_2
+  }
 $$
 
-and observes then that the [[diffeomorphism]] $f$ being a [[symplectomorphism]] is equivalent to its [[graph of a function|graph]] being a [[Lagrangian submanifold]] of this product symplectic manifold. In that case the above [[correspondence]] is called a _[[Lagrangian correspondence]]_ between $(X_1, \omega_1)$ and $(X_2, \omega_2)$.
+such that the [[correspondence space]] $R \hookrightarrow X_1 \times X_2$ is a [[Lagrangian submanifold]] of $(X_1 \times X_2 , p_1^\ast \omega_1 - p_2^\ast \omega_2)$.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -475,9 +548,9 @@ $$
   \array{
     && graph(f)
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
     \\
-    X_1 && && X_2
+    X_1 && \swArrow_= && X_2
     \\
     & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
     \\
@@ -486,10 +559,41 @@ $$
   \,.
 $$
 
+Because the commutativity of this diagram says precisely that on $graph(f)$ we have
+
+$$
+  p_1^\ast \omega_1 = p_2^\ast \omega_2
+$$
+
+hence 
+
+$$
+  p_1^\ast \omega_1 - p_2^\ast \omega_2 = 0
+  \,.
+$$
+
 This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$.
 
 =--
 
+Therefore we have:
+
++-- {: .num_prop}
+###### Proposition
+
+For $(X_1, \omega_2)$ and $(X_2, \omega_2)$ two [[symplectic manifolds]], there is a [[full subcategory|full embedding]]
+
+$$
+  LagrangianCorrespondences\left(\left(X_1,\omega_1\right), \left(X_2, \omega_2\right)\right)
+  \hookrightarrow
+  Corr\left(\mathbf{H}_{/\mathbf{\Omega}^2_{cl}}\right)\left(\left(X_1,\omega_1\right), \left(X_2, \omega_2\right)\right)
+$$
+
+of the Lagrangian correspondences into the space of correspondences between the two manifolds as objects in the [[slice topos]] over the universal moduli space of closed differential 2-forms.
+
+=--
+
+The co-image of this inclusion are those correspondences which are "isotropic" and not-necessarily even subspaces.
 
 ### Hamiltonian (time evolution) trajectories and Hamiltonian correspondences
 
@@ -530,7 +634,6 @@ in that
 
 +-- {: .num_remark}
 ###### Remark
-
 
 Forming Hamiltonian correspondences consitutes a [[functor]] from 1-dimensional [[cobordisms]] with [[Riemannian structure]] to the [[category of correspondences]] in the [[slice topos]]:
 
@@ -579,7 +682,7 @@ $$
 $$
 Given a path $\gamma : [0,1] \to X$ in phase space, its 
 _[[kinetic action]]_ $S_{\mathrm{kin}}$ 
-is supposed to be the integral of $\mathcal{L}_{\mathrm{kin}}$
+is supposed to be the integral of $L_{\mathrm{kin}}$
 along this trajectory. In order to make sense of this with the
 above locally defined kinetic Lagrangians,
 there are to be functions $g_{i j} \in C^\infty(U_i \cap U_j, \mathbb{R})$
@@ -603,7 +706,7 @@ $\theta_i$ to using $\theta_j$.
 
 However, requiring this condition on triple overlaps as an equation between
 $\mathbb{R}$-valued functions makes the local patch structure trivial: if this
-holds then one can find a single $\theta \in \Omega^1(X)$ and
+is possible then one can in fact already find a single $\theta \in \Omega^1(X)$ and
 functions $h_i \in C^\infty(U_i, \mathbb{R})$ such that 
 $\theta_i = \theta|_{U_i} + \mathbf{d}h_i$. This has the
 superficially pleasant effect that the the action is 
@@ -611,17 +714,23 @@ simply the integral against this globally defined 1-form,
 $S_{\mathrm{kin}} = \int_{[0,1]} \gamma^\ast L_{\mathrm{kin}}$, but it also
 means that the pre-symplectic form $\omega$ is exact, which is 
 not the case in many important examples.
+(In more abstract terms what this is saying is that every 
+$(\mathbb{R},+)$-[[principal bundle]] over a manifolds is trivializable.)
 
-On the other hand, what really matters in physics is not the action functional
+On the other hand, what really matters in [[physics]] is not the [[action functional]]
 $S_{\mathrm{kin}} \in \mathbb{R}$ itself, 
 but the _exponentiated_ action 
+
 $$
-  \exp( \tfrac{i}{\hbar} S ) \in \mathbb{R}/(2\pi \hbar)\mathbb{Z}
-  \,.
+  \exp\left( \tfrac{i}{\hbar} S \right) \in \mathbb{R}/(2\pi \hbar)\cdot\mathbb{Z}
 $$
+
+which takes values in the [[quotient]] of the additive group of [[real numbers]] by integral multiples of [[Planck's constant]] $2\pi \hbar$.
+
+
 For this to be well defined, one only needs that the equation
 $g_{i j} + g_{j k} = g_{i k}$ holds modulo addition of an integral
-multiple of $h = 2\pi \hbar$, which is _[[Planck's constant]]_. 
+multiple of [[Planck's constant]] $h = 2\pi \hbar$. 
 If this is the case, then one says that the data 
 $(\{\theta_i\}, \{g_{i j}\})$ defines 
 equivalently
@@ -677,6 +786,8 @@ $$
 is equivalently a prequantum structure, and a homotopy between two 
 such maps is equivalently a gauge transformation between those.
 
+There is a universal [[curvature]] map
+
 $$
   F
   \;\colon\;
@@ -685,7 +796,25 @@ $$
    \mathbf{\Omega}^2_{\mathrm{cl}}
 $$
 
-A prequantization of $(X,\omega)$ is hence a lift $\nabla$ in
+Which is such that for $\nabla \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ a $U(1)$-[[principal connection]], the composite
+
+$$
+  F_\nabla \;\colon\;
+  X 
+    \stackrel{\nabla}{\longrightarrow}
+  \mathbf{B}U(1)_{conn}
+    \stackrel{F_{(-)}}{\longrightarrow}
+  \mathbf{\Omega}^2_{cl}
+$$
+
+is its [[curvature]] 2-form. Therefore:
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[presymplectic manifold]] $(X,\omega)$, regarded equivalently as an object $(X \stackrel{\omega}{\longrightarrow} \mathbf{\Omega}^2_{cl}) \in \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ by prop. \ref{SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}, then a
+**[[prequantization]]** of $(X,\omega)$ is a choice of lift $\nabla$ in
+
 $$
   \array{
     X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
@@ -694,11 +823,44 @@ $$
     \\
     && \mathbf{\Omega}^2_{cl}
   }
+$$
+
+hence a lift through the [[functor]] ([[base change]]/[[dependent sum]] along the universal [[curvature]] map)
+
+$$
+  \underset{F_{(-)}}{\sum}
+   \;\colon\;
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+   \longrightarrow
+  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
   \,.
 $$
 
+=--
 
-### The classical action, the Legendre transform and Prequantized Lagrangian correspondences
+
++-- {: .num_example #StandardPrequantizationOfStandardR2PhaseSpace}
+###### Example
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
+of example \ref{CanonicalR2PhaseSpace}. Since $\mathbb{R}^2$ is a [[contractible topological space]] we consider the trivial [[covering]] ($\mathbb{R}^2$ covering itself) since this is already a [[good covering]] in this case. Then all the $\{g_{i j}\}$ are trivial and the data of a [[prequantization]] consists simply of a choise of 1-form $\theta \in \Omega^1(\mathbb{R}^2)$ such that 
+
+$$
+  \mathbf{d}\theta = \mathbf{d}q \wedge \mathbf{d}p
+  \,.
+$$
+
+A standard such choice is 
+
+$$
+  \theta = - p \wedge \mathbf{d}q
+  \,.
+$$
+
+=--
+
+
+### The classical action, the Legendre transform and Hamiltonian flows
  {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
 
 But the reason to consider [[Hamiltonian symplectomorphisms]] instead of general [[symplectomorphisms]] is really because these give [[homomorphisms]] not just between plain [[symplectic manifolds]], but between their _prequantizations_. To these we turn now.
@@ -738,34 +900,8 @@ More abstractly we hence find that a [[prequantization]] is a lift of a symplect
 
 =--
 
-Then for two prequantized symplectic manifolds, it is now clear what a _prequantized correspondence_ between them is: 
 
-+-- {: .num_defn}
-###### Definition
-
-
-A _prequantization_ of a [[Lagrangian correspondence]] $Y \colon (X_1,\omega) \to (X_2,\omega_2)$
-is a [[diagram]] in $\mathbf{H}$ of the form
-
-$$
-  \array{
-    && Y
-    \\
-    & \swarrow &\swArrow& \searrow
-    \\
-    X_1 &\stackrel{\nabla_1}{\longrightarrow}& \mathbf{B}U(1)_{conn} &\stackrel{\nabla_2}{\longleftarrow}& X_2
-    \\
-    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
-    \\
-   && \Omega^2_{cl}
-  }
-$$
-
-hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$.
-
-=--
-
-In the case that $X_1$ and $X_2$ have the same [[dimension]], this is equivalent to a morphism
+Consider a morphism
 
 $$
   \array{
@@ -779,31 +915,23 @@ $$
 
 hence a morphism in the slice $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. This has been discussed in detail in ([hgp 13](#FiorenzaRogersSchreiber13a)).
 
-One finds that [[infinitesimal object|infinitesimally]] such morphism are given by a [[Hamiltonian]] and its [[Legendre transform]] (...)
+One finds that [[infinitesimal object|infinitesimally]] such morphism are given by a [[Hamiltonian]] and its [[Legendre transform]]. 
 
-[[!include Hamiltonian and Lagrangian -- table]]
-
-### The classical action functional prequantizes Hamiltonian correspondences
- {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
-
-The natural question now is which Hamiltonian correspondences may be prequantized and what the corresponding prequantum data is. The following proposition shows that the prequantization of the Hamiltonian correspondence given by a [[Hamiltonian]] $H$ is given by the exponentiated [[action functional]] associated with $H$, namely the exponentiated integral over its [[Lagrangian]] $L$, which is its [[Legendre transform]] $L = p \frac{\partial H}{\partial p} - H$.
-
-Of course all the ingredients in the statement and in the proof of the following proposition are classical. But the notion of prequantized Lagrangian correspondence serves to neatly unify these ingredients and give them a natural place in the context of [[local prequantum field theory]] which later naturally leads to the formulation of [[higher prequantum geometry|higher]] [[local prequantum field theory]] and its [[motivic quantization]].
-
-+-- {: .num_prop #HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction}
++-- {: .num_prop #HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}
 ###### Proposition
 
-Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
+of example \ref{CanonicalR2PhaseSpace} equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$ from example \ref{StandardPrequantizationOfStandardR2PhaseSpace}. 
+Then for $H \colon \mathbb{R}^2 \longrightarrow \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Hamiltonian symplectomorphism]] 
+$\exp(t \{H,-\})$ from $\mathbf{H}$ to the [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ 
+is given by
 
 $$
-  \array{   
-    && graph\left( \exp(t \{H,-\}) \right)
+  \array{       
+    X && \stackrel{\exp(t \{H,-\})}{\longrightarrow} && X
     \\
-    & \swarrow && \searrow
-    \\
-    X && \swArrow_{\exp( i S_t  )} && X
-    \\
-    & {}_{\mathllap{\omega_1}} \searrow && \swarrow_{\mathrlap{\omega_2}}
+    & {}_{\mathllap{\omega_1}} \searrow 
+    & \swArrow_{\exp( i S_t  )} & \swarrow_{\mathrlap{\omega_2}}
     \\
     && \mathbf{B}U(1)_{conn}
   }
@@ -830,9 +958,12 @@ $$
   \;\colon\;
   Bord_1^{Riem} 
     \longrightarrow 
-  Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
   \,.
 $$
+
+Conversely, a symplectomorphism, being a morphism in $\mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ is a [[Hamiltonian symplectomorphism]] precisely if it admits such a lift 
+to $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$.
 
 =--
 
@@ -943,31 +1074,51 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark }
 ###### Remark
 
-In summary,  prop. \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
-and remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}
-say that a prequantized Lagrangian correspondence is conceptually of the following form
+Proposition \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
+says that the slice topos $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$
+unifies [[classical mechanics]] in its two incarnations as
+[[Hamiltonian mechanics]] and as [[Lagrangian mechanics]]. A morphism 
+here is a diagram in $\mathbf{H}$ of the form
 
 $$
   \array{
-    && {{space\,of} \atop {trajectories}}
+    X && \stackrel{}{\longrightarrow} && Y
     \\
-    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
+    & \searrow &\swArrow& \swarrow
     \\
-    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
-    \\
-    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
-    && 
-    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
-    \\
-    && {{2-group} \atop {of\,phases}}
+    && \mathbf{B}U(1)_{conn}
   }
-  \,.
 $$
 
+and which may be regarded as having two components: the top horizontal [[1-morphism]]
+as well as the [[homotopy]]/[[2-morphism]] filling the slice. 
+Given a smooth [[flow]] of these, the horizontal morphism is the [[flow]]
+of a [[Hamiltonian vector field]] for some [[Hamiltonian]] function $H$, 
+and the 2-morphism is a $U(1)$-[[gauge transformation]] given (locally) by 
+a $U(1)$-valued function which is the exponentiated [[action functional]]
+that is the integral of the [[Lagrangian]] $L$ which is the [[Legendre transform]]
+of $H$.
+
+So in a sense the [[prequantization]] lift through the [[base change]]/[[dependent sum]]
+along the universal [[curvature]] map
+
+$$
+  underset{F_{(-)}}{\sum}
+   \;\colon\;
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+  \longrightarrow
+  \mathbf{H}_{\mathbf{\Omega}^2_{cl}}
+$$
+
+is the [[Legendre transform]] which connects [[Hamiltonian mechanics]] with [[Lagrangian mechanics]].
+
+[[!include Hamiltonian and Lagrangian -- table]]
+
 =--
+
 
 ### The Heisenberg group and the Poisson bracket from prequantized Lagrangian equivalences
 
@@ -1033,7 +1184,7 @@ Suppose that $(X,\omega)$ itself has the structure of a [[group]] (for instance 
 
 =--
 
-### Hamiltonian actions and moment maps are actions by prequantized Lagranian correspondences
+### Hamiltonian actions and moment maps are actions by prequantized Lagrangian equivalences
 
 For $G$ a [[Lie group]], a [[Hamiltonian action]] of $G$ on $(X,\omega)$ is equivalently an action by prequantized Lagrangian correspondences, hence a group [[homomorphism]]
 
@@ -1045,6 +1196,131 @@ $$
 The [[Lie differentiation]] of this is the corresponding [[moment map]].
 
 See ([hgp 13](#FiorenzaRogersSchreiber13a))
+
+
+
+### The classical action functional prequantizes Hamiltonian correspondences
+ {#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences}
+
+Then for two prequantized symplectic manifolds, it is now clear what a _prequantized correspondence_ between them is: 
+
++-- {: .num_defn #PrequantizedLagrangianCorrespondence}
+###### Definition
+
+
+A _prequantization_ of a [[Lagrangian correspondence]] $Y \colon (X_1,\omega) \to (X_2,\omega_2)$
+is a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    && Y
+    \\
+    & \swarrow &\swArrow& \searrow
+    \\
+    X_1 &\stackrel{\nabla_1}{\longrightarrow}& \mathbf{B}U(1)_{conn} &\stackrel{\nabla_2}{\longleftarrow}& X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+   && \Omega^2_{cl}
+  }
+$$
+
+hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$.
+
+=--
+
+
+For completing the general picture, it is useful to restate the 
+discussion in _[The classical action functional, the Legendre transform and Hamiltonian flows](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_, now in terms of [[correspondence]]:
+
+
+
+The natural question is which Hamiltonian correspondences, remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}, may be prequantized, 
+def. \ref{#PrequantizedLagrangianCorrespondence}, 
+and what the corresponding prequantum data is. The following proposition shows that the prequantization of the Hamiltonian correspondence given by a [[Hamiltonian]] $H$ is given by the exponentiated [[action functional]] associated with $H$, namely the exponentiated integral over its [[Lagrangian]] $L$, which is its [[Legendre transform]] $L = p \frac{\partial H}{\partial p} - H$.
+
+
++-- {: .num_prop #HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction}
+###### Proposition
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ equipped with its canonical [[prequantization]] by $\theta = p \mathbf{d}q$. Then for $H \colon \mathbb{R}^2 \to \mathbb{R}$ a [[Hamiltonian]], and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Lagrangian correspondence]] $\exp(t \{H,-\})$ to a prequantized Lagrangian correspondence is given by
+
+$$
+  \array{   
+    && graph\left( \exp(t \{H,-\}) \right)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && \swArrow_{\exp( i S_t  )} && X
+    \\
+    & {}_{\mathllap{\omega_1}} \searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,,
+$$
+
+where 
+
+* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[action functional]] of the classical [[trajectories]] induced by $H$,
+
+* which is the [[integral]] $S_t = \int_{0}^t L \, d t$ of the [[Lagrangian]] $L \,d t$ induced by $H$,
+
+* which is the [[Legendre transform]]
+
+  $$
+    L \coloneqq p \frac{\partial H}{\partial p} - H \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+    \,. 
+  $$
+
+In particular, this induces a [[functor]]
+
+$$
+  \exp(i S)
+  \;\colon\;
+  Bord_1^{Riem} 
+    \longrightarrow 
+  Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the equivalence of correspondences of remark \ref{EquivalenceOfCorrespndencesInducedByFunction}
+this is a re-statement of prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}.
+
+=--
+
+
+
++-- {: .num_remark}
+###### Remark
+
+In summary,  prop. \ref{HamiltonianCorrespondenceIsPrequantizedByTheExponentiatedAction} 
+and remark \ref{HamiltonianCorrespondencesAreSpacesOfTrajectories}
+say that a prequantized Lagrangian correspondence is conceptually of the following form
+
+$$
+  \array{
+    && {{space\,of} \atop {trajectories}}
+    \\
+    & {}^{\mathllap{{initial}\atop {values}}}\swarrow && \searrow^{\mathrlap{{Hamiltonian} \atop {evolution}}}
+    \\
+    phase\,space_{in} && \swArrow_{{action} \atop {functional}} && phase \,space_{out}
+    \\
+    & {}_{\mathllap{{prequantum}\atop {bundle}_{in}}}\searrow 
+    && 
+    \swarrow_{\mathrlap{{prequantum} \atop {bundle}_{out}}}
+    \\
+    && {{2-group} \atop {of\,phases}}
+  }
+  \,.
+$$
+
+=--
 
 
 
