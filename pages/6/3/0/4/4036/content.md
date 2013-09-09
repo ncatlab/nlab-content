@@ -89,7 +89,7 @@ The same holds true for [[subcategories]] such as
 +-- {: .proof}
 ###### Proof
 
-It is suficcient to check this in $Para$.
+It is sufficient to check this in $Para$.
 We need to check that for $\{U_i \to U\}$ a good open cover and $f : V \to U$ any morphism, we get commuting squares
 
 $$  
