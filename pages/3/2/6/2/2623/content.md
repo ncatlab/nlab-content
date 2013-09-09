@@ -178,6 +178,10 @@ As a payoff, he obtains a very transparent way to prove the generalization of **
 In the context of [[BV theory|BRST-BV quantization]] these statements are subsumed, he says, by the structure encoded in the Hopf ideal which corresponds to imposing the BV-master equation.  See also ([Suijlekom](#Suijlekom)).
 
 
+### Lattice renormalization
+
+* [[lattice renormalization]]
+
 ### Of theories in BV-CS form
  {#OfTheoriesInBVForm}
 
