@@ -52,7 +52,7 @@ For $n = 2$ we show how the notion of prequantized Lagrangian correspondence is 
 
 ## Classical mechanics by prequantized Lagrangian correspondences
 
-The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _prequantized Lagrangian correspondences_ and the reader looking for these should skip ahead to the section _[Hamiltonian trajectories and prequantized Lagrangian correspondences](#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
+The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _prequantized Lagrangian correspondence_ and the reader looking for just these should skip ahead to the section _[The classical action functional prequantizes Lagrangian correspondences](#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
 
 ### Phase spaces and symplectic manifolds
  {#PhaseSpaceAndSymplecticManifolds}
@@ -245,7 +245,7 @@ $$
 
 Situations like this are naturally interpreted in a _[[slice topos]]_:
 
-+-- {: .num_defn}
++-- {: .num_defn #TheSliceTopos}
 ###### Definition
 
 For $A \in \mathbf{H}$ any [[smooth space]],
@@ -454,34 +454,84 @@ the top with that at the bottom.
 
 =--
 
-A diagram like this we call an _[[equivalence]] or [[correspondences]]_.
-
-If we have correspondences from $X$ to $Y$ and then from $Y$ to $X$, we may [[composition|compose]] them by forming the [[fiber product]] over their adjacent legs
+A diagram like this we call an _[[equivalence]] or [[correspondences]]_. Correspondences between $X$ any $Y$ with such equivalences between them form a _[[groupoid]]_. (See at _[[geometry of physics]]_ the section _[Essence of gauge theory: Groupoids and basic homotopy 1-type theory](geometry%20of%20physics#GroupoidsAndBasicHomotopy1TypeTheory)_ for more on this.) Hence we write
 
 $$
+  Corr\left(\mathbf{H}\right)(X,Y) \in Grpd
+  \,.
+$$
+
+Moreover, if we think of correspondences as modelling spaces of [[trajectories]], then it is clear that their should be a notion of [[composition]]:
+
+$$
+  \left(
+  \array{    
+    && Y_1 &&&& Y_2
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    X_1 && && X_2 && && X_3 
+  }
+  \right)
+  \;\;\;\;
+  \mapsto 
+  \;\;\;\;
+  \left(
+  \array{    
+    && Y_1 \circ_{X_2} Y_2 
+    \\
+    & \swarrow && \searrow 
+    \\
+    X_1 && && X_3 
+  }
+  \right)
+  \,.
+$$
+
+Heuristically, the composite space of trajectories $Y_1 \circ_{X_2} Y_2$ should consist precisely of those pairs of trajectories $( f, g ) \in Y_1  \times Y_2$ such that the endpoint of $f$ is the starting point of $g$. The space with this property is precisely the _[[fiber product]]_ of $Y_1$ with $Y_2$ over $X_2$, denoted $Y_1 \underset{X_2}{\times} Y_2$ (also called the [[pullback]] of $Y_2 \longrightarrow X_2$ along $Y_1 \longrightarrow X_2$ and then abbreviated $(pb)$):
+
+
+$$
+  \left(
+  \array{    
+    && Y_1 \circ_{X_2} Y_2 
+    \\
+    & \swarrow && \searrow 
+    \\
+    X_1 && && X_3 
+  }
+  \right)
+  \;\;\;
+  =
+  \;\;\;
+  \left(
   \array{  
      && && Z_1 \underset{Y}{\times} Z_2
      \\
       && & \swarrow && \searrow
       \\
-      && Z_1 && && Z_2
+      && Z_1 && (pb) && Z_2
       \\
      & \swarrow && \searrow && \swarrow && \searrow
     \\
     X && && Y && && Z
   }
+  \right)
   \,.
 $$ 
 
-In total this yields a [[(2,1)-category]] of correspondences
+Hence given a [[topos]] $\mathbf{H}$, [[correspondences]] between its objects form a [[category]] which [[composition]] the [[fiber product]] operation, where however the collection of [[morphisms]] between any two objects is not just a [[set]], but is a [[groupoid]] (the groupoid of correspondences between two given objects and [[equivalences]] between them).
+
+One says that correspondences form a _[[(2,1)-category]]_ 
 
 $$
   Corr(\mathbf{H}) \in (2,1)Cat
+  \,.
 $$
 
-(...)
+But for most purposes here, the reader unwilling to enter [[higher category theory]] can, to good approximation, pretend that correspondences form an ordinary [[category]].
 
-So the notion of correspondence makes sense (in particular) in every [[topos]]. In particular also in the [[slice toposes]] of a given ambient topos. 
+One reason for formalizing this notion of correspondences so much in the present context that it is useful now to apply it not just to the ambient [[topos]] $\mathbf{H}$ of [[smooth spaces]], but also to its [[slice topos]] $\mathbf{H}_{/\mathbf{\Omega}_{cl}^2}$ over the universal [[moduli space]] of closed [[differential 2-forms]].
 
 To see how this is useful in the present context, notice the following basic observation:
 
@@ -572,7 +622,7 @@ $$
   \,.
 $$
 
-This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$.
+This in turn is equivalent to being a [[correspondence]] in the [[slice topos]] $\mathbf{H}_{/\Omega^2_{cl}}$, def. \ref{TheSliceTopos}, under the identification of prop. \ref{SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}.
 
 =--
 
@@ -593,7 +643,7 @@ of the Lagrangian correspondences into the space of correspondences between the 
 
 =--
 
-The co-image of this inclusion are those correspondences which are "isotropic" and not-necessarily even subspaces.
+(The co-image of this inclusion are those correspondences which are "isotropic" and not-necessarily even subspaces.)
 
 ### Hamiltonian (time evolution) trajectories and Hamiltonian correspondences
 
@@ -669,68 +719,108 @@ $$
 
 ### The kinetic action, pre-quantization and differential cohomology
 
-Given a pre-symplectic form $\omega \in \Omega^2_{\mathrm{cl}}(X) $, 
-by the [[Poincare lemma]] there is a good cover $\{U_i \hookrightarrow X\}_i$
-and smooth 1-forms $\theta_i \in \Omega^1(U_i)$ such that 
-$\mathbf{d}\theta_i = \omega_{|U_i}$. Physically such a 1-form is 
-(up to a factor of 2) a choice
-of _[[kinetic energy]] density_ called a _[[kinetic Lagrangian]]_ 
-$L_{\mathrm{kin}}$:
+To naturally see why there would be any [[Hamiltonian]]
+associated to a (to some) [[symplectomorphism]] in the first place, 
+we step back and consider _local trivializations_ or _local potentials_
+for [[symplectic forms]]. Doing so turns out to give rise to what
+in physics is called the [[kinetic action]], what in 
+the context of [[geometric quantization]] is called [[prequantization]]
+and what in [[mathematics]] is called lifting to _[[differential cohomology]]_. All these concepts arise directly from the following simple consideration.
+
+Given a [[pre-symplectic form]] $\omega \in \Omega^2_{\mathrm{cl}}(X) $, 
+by the [[Poincaré lemma]] there is a [[good open cover]] $\{U_i \hookrightarrow X\}_i$
+such that one can find smooth [[differential 1-forms]] $\theta_i \in \Omega^1(U_i)$ such that these are local trivializations/potentials
+for the [[symplectic form]] on each patch $U_i$ of the cover:
+
+$$
+  \mathbf{d}\theta_i = \omega_{|U_i}
+  \,.
+$$
+
+Physically such a 1-form is (up to a factor of 2) a choice 
+of _[[kinetic energy]] [[density]]_ called a _[[kinetic Lagrangian]]_ 
+$L_{\mathrm{kin}}$ (below in example \ref{StandardPrequantizationOfStandardR2PhaseSpace} we connect this statement to a maybe more familiar formla): 
+
 $$
   \theta_i = 2 L_{\mathrm{kin}, i}
   \,.
 $$
+
++-- {: .num_example #StandardPrequantizationOfStandardR2PhaseSpace}
+###### Example
+
+Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
+of example \ref{CanonicalR2PhaseSpace}. Since $\mathbb{R}^2$ is a [[contractible topological space]] we consider the trivial [[covering]] ($\mathbb{R}^2$ covering itself) since this is already a [[good covering]] in this case. Then all the $\{g_{i j}\}$ are trivial and the data of a [[prequantization]] consists simply of a choise of 1-form $\theta \in \Omega^1(\mathbb{R}^2)$ such that 
+
+$$
+  \mathbf{d}\theta = \mathbf{d}q \wedge \mathbf{d}p
+  \,.
+$$
+
+A standard such choice is 
+
+$$
+  \theta = - p \wedge \mathbf{d}q
+  \,.
+$$
+
+Then given a [[trajectory]] $\gamma \colon [0,1] \longrightarrow X$ which satisfies [[Hamilton's equation]] for a standard [[kinetic energy]] term, then $p (\mathbf{d})q(\dot\gamma)$ is this [[kinetic energy]] of the [[particle]] which traces out this [[trajectory]].
+
+=--
+
 Given a path $\gamma : [0,1] \to X$ in phase space, its 
 _[[kinetic action]]_ $S_{\mathrm{kin}}$ 
 is supposed to be the integral of $L_{\mathrm{kin}}$
-along this trajectory. In order to make sense of this with the
-above locally defined kinetic Lagrangians,
-there are to be functions $g_{i j} \in C^\infty(U_i \cap U_j, \mathbb{R})$
-such that
+along this trajectory. In order to make sense of this in the generality where there is no globally defined $\theta$,
+there need to be functions $g_{i j} \in C^\infty(U_i \cap U_j, \mathbb{R})$ for each double intersection of patches of the cover,
+such that these the local $\theta$'s differ on these double
+intersection only by the total [[derivative]] 
+([[de Rham cohomology|de Rham]] [[differential]] $\mathbf{d}$ ) of these functions:
+
 $$
   \theta_j|_{U_j} - \theta_i|_{U_i} = \mathbf{d}g_{i j}
   \,.
 $$
-If on triple intersections these functions satisfy
+
+One then finds (from the theory of [[Cech cohomology]]) that if on triple intersections these functions satisfy
+
 $$
   g_{ij} + g_{j k} = g_{i k}
 $$
+
 then there is a well defined action functional
+
 $$
   S_{\mathrm{kin}}(\gamma) \in \mathbb{R}
 $$
+
 obtained by dividing $\gamma$ into small pieces that each map to a single
 patch $U_i$, integrating $\theta_i$ along this piece, and adding the 
 contribution of $g_{i j}$ at the point where one switches from using
-$\theta_i$ to using $\theta_j$.
+$\theta_i$ to using $\theta_j$. Technically this is called the [[holonomy]] or [[parallel transport]] of the $(\mathbb{R},+)$-[[principal connection]] which is defined by the data $(\{\theta_i\}, \{g_{i j}\} )$.
 
-However, requiring this condition on triple overlaps as an equation between
-$\mathbb{R}$-valued functions makes the local patch structure trivial: if this
-is possible then one can in fact already find a single $\theta \in \Omega^1(X)$ and
-functions $h_i \in C^\infty(U_i, \mathbb{R})$ such that 
-$\theta_i = \theta|_{U_i} + \mathbf{d}h_i$. This has the
-superficially pleasant effect that the the action is 
+However, requiring this condition on triple overlaps as an equation between $\mathbb{R}$-valued functions makes the local patch structure trivial: if this is possible then one can in fact already find a single $\theta \in \Omega^1(X)$ and functions $h_i \in C^\infty(U_i, \mathbb{R})$ such that  $\theta_i = \theta|_{U_i} + \mathbf{d}h_i$. This has the superficially pleasant effect that the the action is 
 simply the integral against this globally defined 1-form, 
-$S_{\mathrm{kin}} = \int_{[0,1]} \gamma^\ast L_{\mathrm{kin}}$, but it also
-means that the pre-symplectic form $\omega$ is exact, which is 
+$S_{\mathrm{kin}} = \int_{[0,1]} \gamma^\ast L_{\mathrm{kin}}$, but it also means that the pre-symplectic form $\omega$ is exact, which is 
 not the case in many important examples.
 (In more abstract terms what this is saying is that every 
 $(\mathbb{R},+)$-[[principal bundle]] over a manifolds is trivializable.)
 
-On the other hand, what really matters in [[physics]] is not the [[action functional]]
+On the other hand, what really matters in [[prequantum field theory|prequantum]] [[physics]] is not the [[action functional]]
 $S_{\mathrm{kin}} \in \mathbb{R}$ itself, 
 but the _exponentiated_ action 
 
 $$
   \exp\left( \tfrac{i}{\hbar} S \right) \in \mathbb{R}/(2\pi \hbar)\cdot\mathbb{Z}
+  \,,
 $$
 
-which takes values in the [[quotient]] of the additive group of [[real numbers]] by integral multiples of [[Planck's constant]] $2\pi \hbar$.
+which takes values in the [[quotient]] of the additive group of [[real numbers]] by [[integer|integral]] multiples of [[Planck's constant]] $2\pi \hbar$.
 
 
 For this to be well defined, one only needs that the equation
-$g_{i j} + g_{j k} = g_{i k}$ holds modulo addition of an integral
-multiple of [[Planck's constant]] $h = 2\pi \hbar$. 
+$g_{i j} + g_{j k} = g_{i k}$ on triple intersection holds modulo addition of an integral multiple of [[Planck's constant]] $h = 2\pi \hbar$. 
+
 If this is the case, then one says that the data 
 $(\{\theta_i\}, \{g_{i j}\})$ defines 
 equivalently
@@ -748,6 +838,8 @@ given mechanical system (for instance as the integrand of a
 [[path integral]]),
 the [[prequantization]] of a symplectic manifold is indeed precisely
 the data necessary before quantization.
+
+
 
 Therefore, in the spirit of the above discussion of pre-symplectic structures,
 we would like to refine the smooth moduli space of closed 
@@ -773,20 +865,34 @@ is similar to an _[[orbifold]]_: it has points which are connected by
 gauge equivalences: there is a _[[groupoid]]_ of pre-quantum structures
 on a manifold $X$. 
 
-Write then $\mathbf{B}U(1)_{\mathrm{conn}}$
-for the moduli space of prequantizations. This is characterized by the fact that 
-a map
+In just the same way then that above we found a [[smooth space|smooth]] [[moduli space]] $\mathbf{\Omega}^2_{cl}$ of closed differential 2-forms, one can find a [[smooth groupoid]] (for more on this see at _[[geometry of physics]]_ the section _[Smooth homotopy types](geometry%20of%20physics#SmoothnGroupoids)_ ), which we denote 
 
 $$
-    X 
-      \longrightarrow
-   \mathbf{B}U(1)_{\mathrm{conn}}
+  \mathbf{B}U(1)_{\mathrm{conn}}
+  \in 
+  \mathbf{H}
 $$
 
-is equivalently a prequantum structure, and a homotopy between two 
-such maps is equivalently a gauge transformation between those.
+and which is _characterized_ as follows, and this is all that we here need to know about this object:
 
-There is a universal [[curvature]] map
+1. For $X$ a [[smooth manifold]], maps $X \longrightarrow \mathbf{B}U(1)_{conn}$ are equivalent to the above prequantum data $(\{\theta_i\}, \{g_{i j}\})$ on $X$;
+
+1. for $\nabla_1, \nabla_2 \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ two such maps, [[homotopies]] 
+
+   $$
+     \array{
+       & \nearrow \searrow
+       \\
+       X & \Downarrow & \mathbf{B}U(1)_{conn}
+       \\
+       & \searrow \nearrow
+     }
+   $$
+
+   between these are equivalent to the above [[gauge transformations]] $(\{h_i\})$ between this data.
+
+
+The only other fact we need is that there is a universal [[curvature]] map
 
 $$
   F
@@ -796,7 +902,7 @@ $$
    \mathbf{\Omega}^2_{\mathrm{cl}}
 $$
 
-Which is such that for $\nabla \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ a $U(1)$-[[principal connection]], the composite
+which is such that for $\nabla \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ a $U(1)$-[[principal connection]], the composite
 
 $$
   F_\nabla \;\colon\;
@@ -807,7 +913,9 @@ $$
   \mathbf{\Omega}^2_{cl}
 $$
 
-is its [[curvature]] 2-form. Therefore:
+is its [[curvature]] 2-form. Hence this is the map that sends $(\{\theta_i\}, \{g_{i j}\})$ to $\omega$ with $\omega|_{U_i} = \mathbf{d}\theta_i$.
+
+Therefore:
 
 +-- {: .num_defn }
 ###### Definition
@@ -839,25 +947,6 @@ $$
 =--
 
 
-+-- {: .num_example #StandardPrequantizationOfStandardR2PhaseSpace}
-###### Example
-
-Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
-of example \ref{CanonicalR2PhaseSpace}. Since $\mathbb{R}^2$ is a [[contractible topological space]] we consider the trivial [[covering]] ($\mathbb{R}^2$ covering itself) since this is already a [[good covering]] in this case. Then all the $\{g_{i j}\}$ are trivial and the data of a [[prequantization]] consists simply of a choise of 1-form $\theta \in \Omega^1(\mathbb{R}^2)$ such that 
-
-$$
-  \mathbf{d}\theta = \mathbf{d}q \wedge \mathbf{d}p
-  \,.
-$$
-
-A standard such choice is 
-
-$$
-  \theta = - p \wedge \mathbf{d}q
-  \,.
-$$
-
-=--
 
 
 ### The classical action, the Legendre transform and Hamiltonian flows
