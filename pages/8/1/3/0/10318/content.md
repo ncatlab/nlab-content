@@ -1195,11 +1195,11 @@ So in a sense the [[prequantization]] lift through the [[base change]]/[[depende
 along the universal [[curvature]] map
 
 $$
-  underset{F_{(-)}}{\sum}
+  \underset{F_{(-)}}{\sum}
    \;\colon\;
   \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
   \longrightarrow
-  \mathbf{H}_{\mathbf{\Omega}^2_{cl}}
+  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
 $$
 
 is the [[Legendre transform]] which connects [[Hamiltonian mechanics]] with [[Lagrangian mechanics]].
