@@ -1,0 +1,5 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jo%C3%ABl_Scherk)
+
+category: people
