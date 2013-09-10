@@ -21,12 +21,17 @@
 
 ## Idea
 
-The [[action functional]] of [[gravity]] was originally conceived as a [[functional]] on the space of [[pseudo-Riemannian metric]]s of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] -- essentially the [[Levi-Civita connection]]. This is known as the **first order formalism** or the **Palatini formalism**. The [[field strength]] of gravity -- the [[Riemann tensor]] -- is the [[curvature]] of [[Levi-Civita connection]]. Typically this is referred to a [[spin connection]] in this context.
+The [[action functional]] of [[gravity]] was originally conceived as a [[functional]] on the space of [[pseudo-Riemannian metrics]] of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- essentially the [[Levi-Civita connection]] -- subject to the constraint that the component in the [[translation Lie algebra]] defines a [[vielbein field]]. Mathematically this means that the [[field (physics)|field]] of [[gravity]] is modeled as a _[[Cartan connection]]_ for the [[Lorentz group]] inside the [[Poincaré group]]. In [[physics]] this is known as the **first order formalism** or the **Palatini formalism** for gravity. 
 
-The first order formalism is also the formalism in which [[supergravity]] has to be formulated. 
+The [[field strength]] of gravity -- the [[Riemann tensor]] -- is the [[curvature]] of [[Levi-Civita connection]]. Typically this is referred to a [[spin connection]] in this context.
+
+Promoting this perspective form the [[Poincaré group]] to the [[super Poincaré group]] yields _[[supergravity]]_. Promoting it further to the [[L-infinity algebra cohomology|Lie n-algebra]] extensions of the [[super Poincaré group]] (from the [[brane scan]]/[[schreiber:The brane bouquet|brane bouquet]]) yields [[type II supergravity]], [[heterotic supergravity]] and [[11-dimensional supergravity]] in [[higher Cartan geometry]]-formulation ([[D'Auria-Fré formulation of supergravity]]).
+
+[[!include local and global geometry - table]]
 
 ## Related concepts 
 
+* [[Lorentzian geometry]]
 
 * [[supergravity]]
 
