@@ -247,6 +247,15 @@ For more on this see
 
 * [[quantum mechanics in terms of †-compact categories]].
 
+## Applications of quantum mechanics
+
+Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an accurate description of reality whenever the characteristic scale is sufficiently small. For instance
+
+* In [[chemistry]] ("quantum chemistry") the properties of [[atoms]] and [[molecules]] are derived from quantum mechanics.
+
+* In [[solid state physics]] the properties of [[metals]] etc. are described by quantum mechanics of electron gases.
+
+* In [[particle physics]] of course, [[quantum field theory]] is the appropriate description.
 
 ## Examples
 
