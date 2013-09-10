@@ -21,6 +21,10 @@
 
 The (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
 
+## Related concepts
+
+* [[asymptotic freedom]]
+
 ## References
 
 The idea is indicated in
