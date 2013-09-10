@@ -39,6 +39,8 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
 * gravitational entropy
 
+  * [[black hole radiation]]
+
   * **Bekenstein-Hawking entropy**
 
   * [[generalized second law of thermodynamics]]
