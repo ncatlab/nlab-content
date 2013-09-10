@@ -29,11 +29,7 @@ A suitable notion of sub-2-group is a [[faithful functor|faithful]], but not nec
 
 ## Related concepts
 
- local model                |   global geometry
-----------------------------|----------------------------
- [[Klein geometry]]         |   [[Cartan geometry]]
- _Klein 2-geometry_         |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+[[!include local and global geometry - table]]
 
 
 ## Discussion
