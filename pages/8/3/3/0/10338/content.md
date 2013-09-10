@@ -1,0 +1,12 @@
+
+## Related concepts
+
+* [[black hole entropy]]
+
+## References
+
+In [[AQFT]]:
+
+* [[Klaus Fredenhagen]], [[Rudolf Haag]], _On The Derivation Of Hawking Radiation Associated With The Formation Of A Black Hole_, Commun. Math. Phys. 127 (1990) 273.
+
+[[!redirects Hawking raditation]]
