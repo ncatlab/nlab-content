@@ -81,3 +81,10 @@ One can read the [[D'Auria-Fre formulation of supergravity]] as saying that high
 
 
 [[!redirects Cartan 2-geometry]]
+
+[[!redirects ∞-Cartan connection]]
+[[!redirects ∞-Cartan connections]]
+
+[[!redirects higher Cartan connection]]
+[[!redirects higher Cartan connections]]
+
