@@ -13,6 +13,17 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+## Properties
+
+A [[topological field theory|topological]] [[FQFT]]-formulation of Donaldson theory is supposed to be given as a [[functor]] from a suitable [[symplectic category]] of [[symplectic manifolds]] with [[Lagrangian correspondences]] between them which sends a [[symplectic manifold]] to its [[Fukaya category]]. For more on this see at _[[Lagrangian correspondences and category-valued TFT]]_.
 
 ## Related concepts
 
