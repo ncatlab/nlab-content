@@ -3640,7 +3640,7 @@ the structure of such [[domain walls]]/defects/[[branes]] are analyzed in the pr
 
 The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its codimension-1 [[schreiber:∞-Wess-Zumino-Witten theory]] and codimension 2-[[Wilson line]]-theory in this fashion, in an ambient [[cohesive (∞,1)-topos]] is discussed in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+* [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
  {#hCSlpQFT}
 
 Much of the content of this entry here are, or arose as, lecture notes for
