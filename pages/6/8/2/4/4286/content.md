@@ -57,9 +57,11 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ## Related concepts
 
+
+
 * [[Kerr spacetime]]
 
-* [[Bekenstein-Hawking entropy]]
+* [[Bekenstein-Hawking entropy]], [[black hole radiation]]
 
 * [[generalized second law of thermodynamics]]
 
