@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Sheldon_Lee_Glashow)
+
+## Related $n$Lab entries
+
+* [[quantum field theory]]
+
+category: people
