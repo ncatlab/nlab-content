@@ -1,0 +1,11 @@
+
+
+## Related concepts
+
+* [[asymptotic freedom]]
+
+## References
+
+* Wikipedia, _[Landau pole](http://en.wikipedia.org/wiki/Landau_pole)_
+
+[[!redirects Landau poles]]
