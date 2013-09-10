@@ -538,7 +538,7 @@ To see how this is useful in the present context, notice the following basic obs
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow$ is called a _[[Lagrangian submanifold]]_ if $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
+Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow X$ is called a _[[Lagrangian submanifold]]_ if $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
 
 =--
 
@@ -1331,7 +1331,7 @@ $$
   }
 $$
 
-in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$ such that under
+in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$ such that under the [[base change]]/[[dependent sum]] [[functor]] along the universal [[curvature]]
 
 $$
   \underset{F_{(-)}}{\sum}
