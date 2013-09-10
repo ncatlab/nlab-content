@@ -1019,8 +1019,8 @@ $$
   \array{       
     X && \stackrel{\exp(t \{H,-\})}{\longrightarrow} && X
     \\
-    & {}_{\mathllap{\omega_1}} \searrow 
-    & \swArrow_{\exp( i S_t  )} & \swarrow_{\mathrlap{\omega_2}}
+    & {}_{\mathllap{\theta}} \searrow 
+    & \swArrow_{\exp( i S_t  )} & \swarrow_{\mathrlap{\theta}}
     \\
     && \mathbf{B}U(1)_{conn}
   }
