@@ -49,6 +49,8 @@ Introductions and surveys include
 
 * [[Christian Bär]], N. Ginaux, [[Frank Pfäffle]], _I. Lorentzian geometry_ ([pdf](http://www.mathematik.hu-berlin.de/~baum/vortrag1.pdf))
 
+* Graciela Birman, Katsumi Nomizu, _Trigonometry in Lorentzian geometry_, The American Mathematical Monthly Vol. 91, No. 9 (Nov., 1984), pp. 543-549 ([JSTOR](http://www.jstor.org/stable/2323737))
+
 See also
 
 * Geometry Group Berlin, _[Lorentzian geometry](http://www3.math.tu-berlin.de/geometrie/lorentz/)_
