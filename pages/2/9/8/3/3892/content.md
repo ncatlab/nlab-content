@@ -42,11 +42,7 @@ A **Klein geometry** is a pair $(G, H)$ where $G$ is a
 
 ## Related concepts
 
- local model                |   global geometry
-----------------------------|----------------------------
- _Klein geometry_           |   [[Cartan geometry]]
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+[[!include local and global geometry - table]]
 
 
 ## References
