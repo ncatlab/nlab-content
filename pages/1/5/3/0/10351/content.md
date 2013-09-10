@@ -1,0 +1,14 @@
+
+
+## Related concepts
+
+* [[Yang-Mills theory]]
+
+* [[confinement]]
+
+* [[Landau pole]]
+
+## References
+
+* Wikipedia, _[Asymptotic freedom](http://en.wikipedia.org/wiki/Asymptotic_freedom)_
+
