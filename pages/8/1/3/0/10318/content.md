@@ -1314,9 +1314,70 @@ $$
   }
 $$
 
-hence a correspondence in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$.
+hence a correspondence 
+
+$$
+  \array{
+    && Y
+    \\
+    & \swarrow && \searrow
+    \\
+    X_1 && \swArrow && X_2
+    \\
+    & {}_{\nabla_1}\searrow && \swarrow_{\mathrlap{\nabla_2}}
+    \\
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+in the [[slice (infinity,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B} U(1)_{conn}}$ such that under
+
+$$
+  \underset{F_{(-)}}{\sum}
+  \;\colon\;
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}} \longrightarrow 
+  \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}
+$$
+
+it maps to the given Lagrangian correspondence.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+This means in words that a prequantized Lagrangian correspondence is a [[prequantization]] of the in- and out-going [[symplectic manifolds]] together with a choice of [[equivalence]]/[[gauge transformation]]
+between the two [[prequantum circle bundles]] pulled back to the 
+[[correspondences]] space.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By [[duality]], a prequantized Lagragian correspondence is equivalently a [[diagram]] of the form
+
+$$
+  \array{
+    && Y
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && X_1 \times X_2
+    \\
+    & \searrow && \swarrow_{\mathrlap{\nabla_2- \nabla}}
+    \\
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+hence a trivialization of the produce of one prequantum bundle with the negative (the inverse under tensor product) of the other, on the correspondence space.
+
+
+=--
+
 
 
 For completing the general picture, it is useful to restate the 
