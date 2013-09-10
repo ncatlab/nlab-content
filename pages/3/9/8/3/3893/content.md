@@ -27,11 +27,7 @@ See [[Cartan connection]].
 
 ## Related concepts
 
- local model                |   global geometry
-----------------------------|----------------------------
- [[Klein geometry]]         |   _Cartan geometry_
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+[[!include local and global geometry - table]]
 
 
 * [[Cartan connection]]
