@@ -232,6 +232,8 @@ Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
 
   * [[Lorentzian manifold]]
 
+    * [[Lorentzian geometry]]
+
     * [[spacetime]]
 
   * [[globally hyperbolic Lorentzian manifold]]
