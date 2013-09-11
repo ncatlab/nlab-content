@@ -23,11 +23,18 @@
 
 ## Idea
 
-The analog of [[Poincaré duality]] in [[derived category|derived]] [[abelian sheaf|abelian]] [[sheaf and topos theory]].
-
-Verdier duality on a [[morphism]] $f$ in a [[derived category]] of [[abelian sheaves]] is the existence of a [[derived functor|derived]] [[left adjoint]] $\mathbb{L}f^!$ to the operation $\mathbb{R}f_!$ of [[direct image with compact support]].
-
+What is called _Verdier duality_  is the refinement of [[Poincaré duality]] from [[ordinary cohomology]] to [[abelian sheaf cohomology]]. 
 The Grothendieck [[six operations]] formalism is a formalization of aspects of Verider duality.
+
+com
+In general abstract formulation one says that a locally compact [[site]] $X$ (e.g. a [[locally compact topological space]]) _satisfies Verdier duality_ if there exists a [[derived functor|derived]] [[left adjoint]] $\mathbb{L}p^!$ to the operation $\mathbb{R}p_!$ of [[direct image with compact support]] for the terminal map $X \to \ast$. More generally, in the relative situation, for $f \colon X \to Y$ a map, Verdier duality of $f$ means that $\mathbb{R}f_!$ has a derived left adjoint.
+
+
+
+If this is the case, then one has the _[[dualizing object]]_ $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra left adjoint of the [[ground ring]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object]] $V^\vee \coloneqq [V,\omega]$. The analog of [[Poincaré duality]] is then the statement that the [[abelian sheaf cohomology]] with [[coefficients]] in $V$ is dual to the abelian sheaf cohomology with [[compact support]] with coefficients in $V^\vee$.
+
+Concretely if $X$ is a [[manifold]], then $\omega$ is the sheaf of [[densities]] and if $V$ is a complex of (sections of) [[vector bundles]], then $V^\vee$ is the _densitized linear dual_.
+
 
 ## Related concepts
 
