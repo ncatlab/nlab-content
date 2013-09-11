@@ -54,6 +54,8 @@ A **free field theory** ([[local quantum field theory|local]], [[Lagrangian]]) i
 
   * of degree -1
 
+(See also at _[[Verdier duality]]_.)
+
 Write $\mathcal{E}_c \coloneqq \Gamma_{cp}(E)$ for the space of [[sections]] of the [[field bundle]] of [[compact support]]. Write
 
 $$
