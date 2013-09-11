@@ -40,7 +40,7 @@ In [[physics]]:
 
 * [[hole paradox]]
 
-* [[EPR paradox]]
+* [[Einstein-Podolsky-Rosen paradox]]
 
 * [[ultraviolet catastrophe]]
 
