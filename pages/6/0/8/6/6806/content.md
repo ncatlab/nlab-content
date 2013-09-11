@@ -21,6 +21,13 @@ The [[D-brane]] of [[dimension]] $0+1$ in [[type IIA string theory]].
 
 The [[worldline]] theory of a collection of D0-branes is supposed to be described by the [[BFSS matrix model]].
 
+## Properties
+
+### Nonperturbative dynamics and M-theory
+
+One aspect of the [[M-theory]] conjecture is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
+
+
 ## Related concepts
 
 [[!include table of branes]]
@@ -30,7 +37,16 @@ The [[worldline]] theory of a collection of D0-branes is supposed to be describe
 
 The worldline theory of interacting D0-branes is discussed in 
 
-* [[Tom Banks]], W. Fischler, S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)).
+* [[Tom Banks]], W. Fischler, S.H. Shenker, [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_, Phys.Rev.D55:5112-5128,1997 ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+ {#BanksFischlerShenkerSusskind97}
+
+* [[Joseph Polchinski]], _M-Theory and the Light Cone_,  	Prog.Theor.Phys.Suppl.134:158-170,1999 ([arXiv:hep-th/9903165](http://arxiv.org/abs/hep-th/9903165))
+ {#Polchinski99}
+
+Discussion via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] is in section 4.2 of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+ {#FSS13}
 
 
 [[!redirects D0-branes]]
