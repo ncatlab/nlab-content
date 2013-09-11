@@ -19,7 +19,7 @@ The  generalization of [[symplectic reduction]] from [[symplectic manifolds]] to
 
 ## Related concepts
 
-* [[gauge reduction]], [[symplectic reduction]]
+* [[gauge reduction]], [[symplectic reduction]], [[Poisson reduction]], [[BV-BRST formalism]]
 
 ## References
 
