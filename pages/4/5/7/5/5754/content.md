@@ -52,7 +52,7 @@ Here $EL(S)$ generates a Poisson ideal and dividing that
 out reproduces the original symplectic bracket.
 
 Now observe (Khavkine 1) that $EL(S)$ provides
-a foliation of part of history space by [[symplectic leaves]].
+a foliation of history space by [[symplectic leaves]].
 Because under the replacement $EL(S) \mapsto EL(S) - const$
 the above still goes through. Observe also (Khavkine 2)
 that $EL(S) - const = 0$ is the equations of motion 
