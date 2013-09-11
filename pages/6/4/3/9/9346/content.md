@@ -38,7 +38,7 @@ What is called _[[perturbative string theory]]_ is a variant of _[[perturbation 
 
 One way that the latter is defined is as a means to compute [[n-point functions]] in QFT as a [[formal power series]] [[sum|summing]] over labelled [[graphs]] (called _[[Feynman diagrams]]_) of the [[correlators]] of a 1-dimensional [[QFT]] defined on these graphs (the _[[worldline]] [[theory]]_ of the [[particles]]/[[virtual particles]] whose [[scattering amplitude]] (the _[[S-matrix]]_) is expressed by the [[n-point function]]). As a variant of this, the _[[string perturbation series]]_ is defined to be a similar series, but instead of over 1-dimensional graphs now over 2-dimensional [[surfaces]] ("[[worldsheet|worldsheets]]") and instead of summing correlators of a 1d QFT, summing correlators of a 2-dimensional QFT, specifically a [[2d CFT]].
 
-The premise of _[[perturbative string theory]]_ as a [[theory (physics)|theory]] about the [[observable universe|observable world]] is that fundamental scattering processes such as observed in [[particle accelerator]] experiments and which are to good approximation described by the [[Feynman diagram|Feynman]] [[perturbation series]] (the [[S-matrix]]) of the [[standard model of particle physics]] are more accurately described by such a [[string perturbation series]].
+The premise of _[[perturbative string theory]]_ as a [[theory (physics)|theory]] about the [[observable universe|observable world]] is that fundamental scattering processes such as observed in [[particle accelerator]] [[experiments]] and which are to good approximation described by the [[Feynman diagram|Feynman]] [[perturbation series]] (the [[S-matrix]]) of the [[standard model of particle physics]] are more accurately described by such a [[string perturbation series]].
 
 More conceptually, the premise is that 
 
@@ -54,6 +54,30 @@ This situation is analogous to the following simple setup: the theory of [[smoot
 There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown.
 
 Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
+
+### Why is string theory controversial?
+
+As a [[theory (physics)|theory]] of the [[observable universe]] that is supposed to checked by [[experiment]] which predicts that all [[fundamental particles]] of the [[standard model of particle physics]] are secretly, if one probes at high enough [[energy]], excitations of [[superstrings]], string theory is an unproven hypothesis.  
+
+Current particle accelerator technology (notably the [[LHC]]) are about 15 orders of magnitude (hence far, far) away from the energy scale at which these strings would manifest themselves _directly_. 
+
+However, _in principle_ and _possibly_ there are indirect effects of string theory that would be probe-able with current [[experiment]]. Notably one standard scenario is that string theory is realized in a [[Kaluza-Klein compactification]] [[model (physics)|model]] and if so, then the properties of the [[fiber]] [[space]] (traditionally but not necessarily taken to be a [[Calabi-Yau manifold]]) on which the KK-reduction takes place determines the species and masses and interactions of the [[fundamental particles]] that we do see in [[experiments]]. Since the [[standard model of particle physics]] is pretty baroque in its field content, the hope here would be that a choice of fiber space could _explain_ for instance that there are three generations of particles, if not even explain their couplings and masses.
+
+For decades there has been the more or less implicit idea that the number of choices of the fiber spaces is small. That would mean -- or would have meant -- that string theory can make predictions not just as [[quantum field theory]] does, namely about particle scattering _given_ the nature of the particles, but even about that nature itself, hence that it could, in the extreme case, for instance _predict the mass_ of the elementary particles. 
+
+Notice that if so, this would be quite remarkable. For all we know, the interaction terms and masses of the fundamental particles could be just as coincidental as the number of planets in our solar system, and their distance from the sun (both of which were once speculated to follow from first principles of mathematics, which of course they do not). 
+
+While there was never any real indication that such a prediction would be possible, later the idea became wide-spread that it seems indeed rather unlikely. If so, then we are back to the first point, namely 15 orders of magnitude and hence impractically far away from testing string theory directly.
+
+Then there are two possible standpoints, and they account for the controversy:
+
+1. If you want to learn right now about the fine detail of the [[standard model of particle physics]] and just that, for instance if you are a genuine particle physicist, then string theory may give you exactly no useful information whatsoever and all time spent on it is plain wasted. The frustration over the fact that there has been the claim that string theory may directly help with [[GUT]] building and other standard model physics and that none of this turns to work out is responsible for much of the criticism. And, by all accounts, rightly so.
+
+1. If however you feel more generally theoretically inclinded, say because you are a theoretical physicists wondering about the possibilities of [[quantum field theory]] in general, or if you are even a mathematician, happy to handle theories that are not supposed  have direct relation to [[experiment]], then the situation may be very different. 
+
+String theory might be right as an assumption about the fundamental nature of the observable universe, and might at the same time still be entirely useless for experimentally based particle physics in the present age. In that case, if you are interest in experimental particle physics you should not expect much help in your lifetime. But if you are a theoretical physicist or a mathematician interested in broader conceptual questions, then it may be unwise to ignore the theory.
+
+
 
 
 ### Does string theory make predictions? How?
