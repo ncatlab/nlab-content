@@ -17,7 +17,7 @@
 
 The _extension of scalars_ of a [[module]] along a [[homomorphism]] of [[rings]] is the [[Isbell duality|algebraic dual]] of what geometrically is the [[pullback]] of [[bundles]] along a map of their base spaces (with respect to the discussion at _[modules - as generalized vector bundles](http://ncatlab.org/nlab/show/module#RelationToVectorBundlesInIntroduction)_).
 
-Explicitly, extension of scalars along a [[ring]] [[homomorphism]] $f : S \to R$ is the operation on $R$-[[modules]] given by forming the [[tensor product of modules]] with $R$ regarded as an $S$-module via $f$.
+Explicitly, extension of scalars along a [[ring]] [[homomorphism]] $f : R \to S$ is the operation on $R$-[[modules]] given by forming the [[tensor product of modules]] with $S$ regarded as an $R$-module via $f$.
 
 There are similar functors for  [[bimodules]] and in some other categories. 
 
