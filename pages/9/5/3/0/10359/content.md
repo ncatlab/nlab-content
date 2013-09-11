@@ -1,0 +1,245 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[symplectic manifold]] $(X,\omega)$ and given a [[Hamiltonian]] [[function]] $H \colon X \longrightarrow \mathbb{R}$, there is a Poisson bracket on the functions on the [[smooth space|smooth]] [[path space]] $[I,X]$  -- the "space of histories" or "space of [[trajectories]]" -- for $I = [0,1]$ the closed [[interval]], which is such that its [[symplectic leaves]] are each a copy of $X$, but regarded as the space of initial conditions for evolution with respect to $H$ with a [[source]] term added.
+
+This was first obersved for the [[Peierls bracket]] of [[local prequantum field theory]] in ([Marolf 93, section II](#Marolf93)), but the construction there is not specific to the [[Peierls bracket]]. That the construction provides a [[foliation]] of trajectory space by [[symplectic leaves]] labeled by [[sources]] was pointed out by ([Khavkine 13](#Khavkine13))
+
+## On paths in a symplectic manifold
+
+> under construction
+
+### The trajectory space of a symplectic manifold
+
+Let $(X,\omega)$ be a [[symplectic manifold]]. We write 
+
+$$
+  \{-,-\} \;\colon\; C^\infty(X)\otimes C^\infty(X) \longrightarrow C^\infty(X)
+$$
+
+for the [[Poisson bracket]] induced by the [[symplectic form]] $\omega$, hence by the [[Poisson bivector]] $\pi \coloneqq \omega^{-1}$.
+
+For notational simplicity we will restrict attention to the special case that 
+
+$$
+  X = \mathbb{R}^2 \simeq T^\ast \mathbb{R}
+$$ 
+
+with canonical [[coordinates]] 
+
+$$
+  q,p \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$ 
+
+and symplectic form 
+
+$$
+  \omega = \mathbf{d}q \wedge \mathbf{d}p
+  \,.
+$$ 
+
+The general case of the following discussion is a straightforward generalization of this that is just notationally more inconvenient. (In fact most physics sources, such as ([Marolf 93](#Marolf93)), argue essentially just for the case $X = \mathbb{R}^{2 n}$ and $\omega = \underoverset{i = 1}{n}{\sum} \mathbf{d}q^i \wedge \mathbf{d}p_i$ and take the technicalities of generalizing to infinite-dimensionality and of globalizing this for granted.) 
+
+Write $I \coloneqq [0,1]$ for the standard [[interval]] regarded as a [[smooth manifold]] [[manifold with boundary|with boundary]]. The [[mapping space]] 
+
+$$
+  P X \coloneqq [I, X]
+$$
+
+canonically exists as a [[smooth space]], but since $I$ is [[compact topological space|compact]] this structure canonically refines to that of a [[Fréchet manifold]] (see at _[[manifold structure of mapping spaces]]_).
+
+Among the [[smooth functions]] on $P X$ are the [[evaluation maps]] 
+
+$$
+  ev \;\colon\; P X \times I = [I,X] \times I \stackrel{}{\longrightarrow} X
+$$
+
+whose components we denote, as usual, for $t \in I$ by
+
+$$
+  q(t) \coloneqq q \circ ev_t \;\colon\; P X \longrightarrow \mathbb{R}
+$$
+
+and
+
+$$
+  p(t) \coloneqq p \circ ev_t \;\colon\; P X \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Generally for $f \colon X \to \mathbb{R}$ any [[smooth function]], we write $f(t) \coloneqq f \circ ev_t \in C^\infty(P X)$. This defines an embedding
+
+$$
+  C^\infty(X) \times I \hookrightarrow C^\infty(P X)
+  \,.
+$$
+
+Similarly we have 
+
+$$
+  \dot q(t) \;\colon\; P X \longrightarrow \mathbb{R}
+$$
+
+and
+
+$$
+  \dot q(t) \;\colon\; P X \longrightarrow \mathbb{R}
+$$
+
+obtained by [[differentiation]] of $t \mapsto q(t)$ and $t \mapsto p(t)$.
+
+### Hamiltonian evolution
+
+Let now 
+
+$$
+  H \;\colon\; X \longrightarrow \mathbb{R}
+$$ 
+
+be a [[smooth function]], to be regarded as a [[Hamiltonian]]. For $t \in I$ write 
+
+$$
+  H(t) 
+  \;\colon\;
+  P X \times \{t\}
+  \stackrel{ev}{\longrightarrow}
+  X 
+  \stackrel{H}{\longrightarrow}
+  \mathbb{R}
+$$
+
+for its extension to trajectory space. 
+
+Define then the [[Euler-Lagrange equation|Euler-Lagrange density]] induced by $H$ to be the functions
+
+$$
+  EL(t)
+  \;\colon\;
+  P X
+  \longrightarrow 
+  \mathbb{R}^2
+$$
+
+with components
+
+$$
+  EL(t)
+  = 
+  \left(
+    \array{
+      \dot q(t) - \frac{\partial H}{\partial p}(t)
+      \\
+      \dot p(t) + \frac{\partial H}{\partial p}(t)
+    }
+  \right)
+  \,.
+$$
+
+
+The [[trajectories]] $\gamma \colon I \to X$ on which $EL(t)$ vanishes for all $t \in I$ are equivalently those 
+
+* for which the [[tangent vector]] $\dot \gamma \in T_{\gamma}X$ is a [[Hamiltonian vector field|Hamiltonian vector]] for $H$;
+
+* which satisfy [[Hamilton's equations]] [[equations of motion|of motion]] for $H$.
+
+Since the [[differential equations]] $EL = 0$ have a unique solution for given initial data $(q(0), p(0))$, the evaluation map
+
+$$
+  \left\{
+    \gamma \in P X | \forall_{t \in I}\; EL_\gamma(t) = 0 
+  \right\}
+  \stackrel{\gamma \mapsto \gamma(0)}{\longrightarrow}
+  X
+$$
+
+is an [[equivalence]] (an [[isomorphism]] of [[smooth spaces]]).
+
+
+### The off-shell Poisson bracket
+
+We may need to assume now that $H$ is a [[polynomial]] in $q$ and $p$.
+
+Define a [[bilinear function]]
+
+$$
+  \{-,-\}
+  \;\colon\;
+  C^\infty(P X) \otimes C^\infty(P X)
+  \longrightarrow C^\infty(P X)
+$$
+
+as follows. First define it restricted along the embedding $C^\infty(X)\times I \hookrightarrow P X$ as the unique function which is a [[derivation]] in both arguments and a solution to the [[differential equations]]
+
+$$
+  \frac{\partial}{\partial t_2}
+  \left\{f(t_1), q(t_2)\right\}
+  =
+  \left\{
+    f(t_1), \frac{\partial H}{\partial p}(t_2)
+  \right\}
+$$
+
+$$
+  \frac{\partial}{\partial t_2}
+  \left\{f(t_1), p(t_2)\right\}
+  =
+  -
+  \left\{
+    f(t_1), \frac{\partial H}{\partial q}(t_2)
+  \right\}
+$$
+
+subject to the initial conditions
+
+$$
+  \{f(t), q(t)\} = \{f,q\}
+$$
+
+$$
+  \{f(t), p(t)\} = \{f,p\}
+$$
+
+for all $t \in I$, where on the right we have the original [[Poisson bracket]] on $X$.
+
+Then extend $\{-,-\}$ as a [[derivation]] in both arguments to ... the evident (dense?) subspace of $P X$.
+
+One checks that the bracket thus defined is a [[Lie bracket]] and indeed a [[Poisson bracket]]. (...)
+
+
+### The symplectic leaves
+
+By construction of the off-shell Poisson bracket, the
+[[Euler-Lagrange equation|Euler-Lagrange function]] $EL$
+generate a Poisson-ideal. 
+
+The same is true for $EL + J$, for $J \in \mathbb{R}$ any constant. This corresponds to adding to the [[Hamiltonian]] $H$ a [[source]] term
+
+$$
+  H \mapsto H + J q
+  \,.
+$$
+
+
+## References
+
+* [[Don Marolf]],  _Poisson Brackets on the Space of Histories_ Annals of Physics Volume 236, Issue 2, December 1994, Pages 374-391 ([arXiv:hep-th/9308141](http://arxiv.org/abs/hep-th/9308141))
+  {#Marolf93}
+
+* [[Igor Khavkine]], personal communication
+  {#Khavkine13}
+
+[[!redirects off-shell Poisson brackets]]
