@@ -47,6 +47,8 @@ This appears for instance as ([Moerdijk-Reyes, theorem I.1.3](#MoerdijkReyes)).
 
 * the [[Tietze extension theorem]]
 
+* the [[Whitney extension theorem]]
+
 * the [[Steenrod-Wockel approximation theorem]]
 
 
