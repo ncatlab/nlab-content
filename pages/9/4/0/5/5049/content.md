@@ -125,13 +125,14 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 
 * the [[Tietze extension theorem]]
 
+* the [[Whitney extension theorem]]
+
 
 
 
 ## References
 
-* [[Christoph Wockel]], _A Generalisation of Steenrod's Approximation Theorem_ Archivum mathematicum, Volume 45  No. 2 (2009) ([arXiv:0610252](http://arxiv.org/abs/math/0610252))
+* [[Christoph Wockel]], _A Generalisation of Steenrod's Approximation Theorem_, Archivum mathematicum, Volume 45  No. 2 (2009) ([arXiv:0610252](http://arxiv.org/abs/math/0610252))
 {#Wockel}
-
 
 [[!redirects Steenrod approximation theorem]]
