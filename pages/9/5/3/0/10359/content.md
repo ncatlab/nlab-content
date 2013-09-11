@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
 =--
 =--
 
@@ -15,13 +19,13 @@
 
 ## Idea
 
-Given a [[symplectic manifold]] $(X,\omega)$ and given a [[Hamiltonian]] [[function]] $H \colon X \longrightarrow \mathbb{R}$, there is a Poisson bracket on the functions on the [[smooth space|smooth]] [[path space]] $[I,X]$  -- the "space of histories" or "space of [[trajectories]]" -- for $I = [0,1]$ the closed [[interval]], which is such that its [[symplectic leaves]] are each a copy of $X$, but regarded as the space of initial conditions for evolution with respect to $H$ with a [[source]] term added.
+Given a [[symplectic manifold]] $(X,\omega)$ and given a [[Hamiltonian]] [[function]] $H \colon X \longrightarrow \mathbb{R}$, there is a [[Poisson bracket]] on an [[algebra of functions]] on the [[smooth space|smooth]] [[path space]] $[I,X]$  -- the "space of histories" or "space of [[trajectories]]" -- for $I = [0,1]$ the closed [[interval]], which is such that its [[symplectic leaves]] are each a copy of $X$, but regarded as the space of initial conditions for evolution with respect to $H$ with a [[source]] term added.
 
-This was first obersved for the [[Peierls bracket]] of [[local prequantum field theory]] in ([Marolf 93, section II](#Marolf93)), but the construction there is not specific to the [[Peierls bracket]]. That the construction provides a [[foliation]] of trajectory space by [[symplectic leaves]] labeled by [[sources]] was pointed out by ([Khavkine 13](#Khavkine13))
+The first statement was first observed for the [[Peierls bracket]] of [[local prequantum field theory]] in ([Marolf 93, section II](#Marolf93)), but the construction there is not specific to the [[Peierls bracket]]. That the construction provides a [[foliation]] of trajectory space by [[symplectic leaves]] labeled by [[sources]] was pointed out by ([Khavkine 13](#Khavkine13))
 
 ## On paths in a symplectic manifold
 
-> under construction
+We describe here the off-shell Poisson bracket in the context of [[mechanics]], hence for [[mechanical systems]] with [[finite set|finite]]-[[dimension|dimensional]] [[phase space]]. The basic idea is that sketched in ([Marolf 93, section II](#Marolf93)), but we try to make it precise. Then we similarly look into the [[foliation]] by [[symplectic leaves]] as suggested by ([Khavkine 13](#Khavkine13)).
 
 ### The trajectory space of a symplectic manifold
 
@@ -52,7 +56,7 @@ $$
   \,.
 $$ 
 
-The general case of the following discussion is a straightforward generalization of this that is just notationally more inconvenient. (In fact most physics sources, such as ([Marolf 93](#Marolf93)), argue essentially just for the case $X = \mathbb{R}^{2 n}$ and $\omega = \underoverset{i = 1}{n}{\sum} \mathbf{d}q^i \wedge \mathbf{d}p_i$ and take the technicalities of generalizing to infinite-dimensionality and of globalizing this for granted.) 
+The general case of the following discussion is a straightforward generalization of this, which is just notationally more inconvenient. 
 
 Write $I \coloneqq [0,1]$ for the standard [[interval]] regarded as a [[smooth manifold]] [[manifold with boundary|with boundary]]. The [[mapping space]] 
 
@@ -60,7 +64,7 @@ $$
   P X \coloneqq [I, X]
 $$
 
-canonically exists as a [[smooth space]], but since $I$ is [[compact topological space|compact]] this structure canonically refines to that of a [[Fréchet manifold]] (see at _[[manifold structure of mapping spaces]]_).
+canonically exists as a [[smooth space]], but since $I$ is [[compact topological space|compact]] this structure canonically refines to that of a [[Fréchet manifold]] (see at _[[manifold structure of mapping spaces]]_). This implies that there is a good notion of [[tangent space]] $T P X$. The task now is to construct a certain [[Poisson bivector]] as a [[section]] $\pi \in \Gamma^{\wedge 2}(T P X)$.
 
 Among the [[smooth functions]] on $P X$ are the [[evaluation maps]] 
 
@@ -170,19 +174,34 @@ is an [[equivalence]] (an [[isomorphism]] of [[smooth spaces]]).
 
 
 ### The off-shell Poisson bracket
+ {#TheOffShellPoissonBracketOnSpaceOfPathsInSymplecticManifold}
 
-We may need to assume now that $H$ is a [[polynomial]] in $q$ and $p$.
+Write 
+
+$$
+  Poly(P X) \hookrightarrow C^\infty(P X)
+$$
+
+for the [[subalgebra]] of [[smooth functions]] on [[path space]] which are
+
+* [[polynomials]] 
+
+* of [[integrals]] over $I$
+
+* of the smooth functions in the image of $C^\infty(X) \times I \hookrightarrow C^\infty(P X)$
+
+* and all their [[derivatives]] along $I$.
 
 Define a [[bilinear function]]
 
 $$
   \{-,-\}
   \;\colon\;
-  C^\infty(P X) \otimes C^\infty(P X)
-  \longrightarrow C^\infty(P X)
+  Poly(P X) \otimes Poly(P X)
+  \longrightarrow Poly(P X)
 $$
 
-as follows. First define it restricted along the embedding $C^\infty(X)\times I \hookrightarrow P X$ as the unique function which is a [[derivation]] in both arguments and a solution to the [[differential equations]]
+as the unique function which is a [[derivation]] in both arguments and moreover is a solution to the [[differential equations]]
 
 $$
   \frac{\partial}{\partial t_2}
@@ -215,23 +234,40 @@ $$
 
 for all $t \in I$, where on the right we have the original [[Poisson bracket]] on $X$.
 
-Then extend $\{-,-\}$ as a [[derivation]] in both arguments to ... the evident (dense?) subspace of $P X$.
+This bracket directly inherits skew-symmetry and the [[Jacobi identity]] from the [[Poisson bracket]] of $(X, \omega)$, hence equips the [[vector space]] $Poly(P X)$ with the structure of a [[Lie bracket]]. Since it is by construction also a [[derivation]] of  $Poly(P X)$ as an [[associative algebra]], we have that 
 
-One checks that the bracket thus defined is a [[Lie bracket]] and indeed a [[Poisson bracket]]. (...)
+$$
+  \left(
+    Poly\left(P X\right),
+    \;
+    \left\{
+      -,-
+    \right\}
+  \right)
+  \;\;\;
+  \in P_1 Alg
+$$
+
+is a [[Poisson algebra]]. This is the "off-shell Poisson algebra" on the space of [[trajectories]] in $(X,\omega)$.
 
 
 ### The symplectic leaves
 
-By construction of the off-shell Poisson bracket, the
+Observe that by construction of the off-shell Poisson bracket, 
+specifically by the [[differential equations]] defining it, the
 [[Euler-Lagrange equation|Euler-Lagrange function]] $EL$
-generate a Poisson-ideal. 
+generate a [[Poisson reduction|Poisson ideal]]. 
 
-The same is true for $EL + J$, for $J \in \mathbb{R}$ any constant. This corresponds to adding to the [[Hamiltonian]] $H$ a [[source]] term
+The same is true for $EL + J$, for $J \in C^\infty(I)$ any function of the (time) parameter. If we allow ourselves to consider time-dependent [[Hamiltonians]], then this corresponds to adding to the [[Hamiltonian]] $H$ a [[source]] term
 
 $$
   H \mapsto H + J q
   \,.
 $$
+
+In the simple context of the above discussion we can still restrict attion to fully constant $J \in \mathbb{R}$ and find a foliation of parts of the off-shell Poisson geometry by symplectic leaves.
+
+(...)
 
 
 ## References
