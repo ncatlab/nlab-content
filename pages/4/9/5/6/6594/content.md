@@ -31,8 +31,6 @@ As Cartan geometry is a special case of the theory of [[principal connections]],
 
 ## Definition
 
-> Here is an evident proposal. Needs to be refined somewhat.
-
 
 Let $\mathfrak{h} \to \mathfrak{g}$ be a morphism of [[L-∞ algebra]]s. Write $i : \mathbf{B}H \to \mathbf{B}G$ for a [[Lie integration]] to a morphism of [[smooth ∞-groups]]. 
 Notice that this defines a [[higher Klein geometry]]
