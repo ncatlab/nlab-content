@@ -21,6 +21,8 @@ S          & \hookrightarrow & Y
 
 ## Related concepts
 
+* [[level set]], [[zero locus]]
+
 * [[image]], [[coimage]]
 
 For a generalisation to [[sheaf|sheaves]], see [[inverse image]].
