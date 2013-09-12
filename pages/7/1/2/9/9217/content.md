@@ -26,3 +26,5 @@ $$
 * L. Vitagliano, _Hamilton-Jacobi diffieties_, [arxiv/1104.0162](http://arxiv.org/abs/1104.0162)
 
 [[!redirects Hamilton-Jacobi equations]]
+
+[[!redirects Hamilton-Jacobi theory]]
