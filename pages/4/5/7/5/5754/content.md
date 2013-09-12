@@ -97,7 +97,11 @@ A mathematically clean account of the (on- and off-shell) Peierls bracket (for [
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_,  	Commun.Math.Phys. 243 (2003) 275-314 ([arXiv:hep-th/0211242](http://arxiv.org/abs/hep-th/0211242))
   {#DuetschFredenhagen03}
 
-for use in the [[renormalization]] program of [[perturbative quantum field theory|perturbative Algebraic Quantum Field Theory]] (pAQFT) on flat and [[AQFT on curved spacetimes|on curved spacetimes]].
+and in section 2 of
+
+* Ferdinand Brennecke, [[Michael Dütsch]], _Removal of violations of the Master Ward Identity in perturbative QFT_, Rev.Math.Phys.20:119-172,2008 ([arXiv:0705.3160](http://arxiv-web3.library.cornell.edu/abs/0705.3160))
+
+there with an eye towards the [[renormalization]] program of [[perturbative quantum field theory|perturbative Algebraic Quantum Field Theory]] (pAQFT) on flat and [[AQFT on curved spacetimes|on curved spacetimes]].
 
 * [[Michael Dütsch]] and [[Klaus Fredenhagen]], _Causal perturbation theory in terms of retarded products, and a proof of the action Ward identity_, Rev. Math. Phys. 16 (2004) 1291-1348 ([arXiv:hep-th/0403213](http://arxiv.org/abs/hep-th/0403213))
   {#DuetschFredenhagen04}
