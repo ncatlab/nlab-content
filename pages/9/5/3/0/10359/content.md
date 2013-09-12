@@ -111,22 +111,35 @@ obtained by [[differentiation]] of $t \mapsto q(t)$ and $t \mapsto p(t)$.
 Let now 
 
 $$
-  H \;\colon\; X \longrightarrow \mathbb{R}
+  H \;\colon\; X \times I \longrightarrow \mathbb{R}
 $$ 
 
-be a [[smooth function]], to be regarded as a [[Hamiltonian]]. For $t \in I$ write 
+be a [[smooth function]], to be regarded as a time-dependent [[Hamiltonian]]. This induces a time-dependent function on trajectory space, which we denote by the same symbol
+
+$$
+  H
+  \;\colon\;
+  P X \times I
+   \stackrel{(ev,id)}{\longrightarrow}
+  X \times X
+   \stackrel{H}{\longrightarrow}
+  \mathbb{R}
+  \,.
+$$
+
+Hence for $t \in I$ we write
 
 $$
   H(t) 
   \;\colon\;
   P X \times \{t\}
-  \stackrel{ev}{\longrightarrow}
-  X 
+  \stackrel{(ev, id)}{\longrightarrow}
+  X \times \{t\}
   \stackrel{H}{\longrightarrow}
   \mathbb{R}
 $$
 
-for its extension to trajectory space. 
+for the function that assigns to a trajectors $(q(-),p(-)) \colon I \longrightarrow X$ its [[energy]] at (time) parameter value $t$.
 
 Define then the [[Euler-Lagrange equation|Euler-Lagrange density]] induced by $H$ to be the functions
 
@@ -258,25 +271,29 @@ specifically by the [[differential equations]] defining it, the
 [[Euler-Lagrange equation|Euler-Lagrange function]] $EL$
 generate a [[Poisson reduction|Poisson ideal]]. 
 
-The same is true for $EL + J$, for $J \in C^\infty(I)$ any function of the (time) parameter. If we allow ourselves to consider time-dependent [[Hamiltonians]], then this corresponds to adding to the [[Hamiltonian]] $H$ a [[source]] term
+The same is true for $EL + J$, for $J \in C^\infty(I)$ any function of the (time) parameter. This corresponds to adding to the time-dependent [[Hamiltonian]] $H$ a [[source]] term $J q$
 
 $$
   H \mapsto H + J q
   \,.
 $$
 
-In the simple context of the above discussion we can still restrict attion to fully constant $J \in \mathbb{R}$ and find a foliation of parts of the off-shell Poisson geometry by symplectic leaves.
-
-(...)
+Hence $J \in C^\infty(I)$ labels the [[leaves]] of a [[foliation]] of of the off-shell Poisson geometry by [[symplectic leaves]].
 
 
 ## References
 
+The off-shell extension of the [[Peierls bracket]] is observed in section II of
+
 * [[Don Marolf]],  _Poisson Brackets on the Space of Histories_ Annals of Physics Volume 236, Issue 2, December 1994, Pages 374-391 ([arXiv:hep-th/9308141](http://arxiv.org/abs/hep-th/9308141))
   {#Marolf93}
 
+The observation that the off-shell bracket has a symplectic foliation by the level sets of the Euler-Lagrange functions appears on the top of p. 4 of
+
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Pedro Ribeiro]], _Algebraic Structure of Classical Field Theory I: Kinematics and Linearized Dynamics for Real Scalar Fields_ ([arXiv:1209.2148](http://arxiv.org/abs/1209.2148))
   {#BrunettiFredenhagenRibeiro12}
+
+All this and the interpretation of the resulting symplectoc foliation as a foliation by source terms has been highlighted by
 
 * [[Igor Khavkine]], personal communication
   {#Khavkine13}
