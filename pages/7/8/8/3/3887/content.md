@@ -7,15 +7,14 @@
 
 In a [[conformal field theory]] the conditions on [[correlators]] can be divided into two steps
 
-1. for a fixed [[cobordism]] the correlators need to depend in a certain way on the choice of [[conformal structure]];
+1. for a fixed [[cobordism]] the correlators need to depend in a certain way on the choice of [[conformal structure]], they need to satisfy the [[Ward identities]] (e.g. [Gawedzki 99, around p. 30](#Gawedzki99));
 
 1. the correlators need to glue correctly underly composition of cobordisms.
 
 The spaces of functionals that satisfy the first of these conditions are called _conformal blocks_ . The second condition is called the [[sewing constraint]] on conformal blocks.
 
-So conformal blocks are something like "precorrelators" or "potential correlators" of a [[CFT]].
+So conformal blocks are something like "precorrelators" or "potential correlators" of a [[CFT]]. 
 
-More explicitly, conformal blocks are functionals satisfying the conformal [[Ward identities]], see ([Gawedzki 99, around p. 30](#Gawedzki99)).
 
 ## Properties
 
