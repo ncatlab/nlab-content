@@ -33,10 +33,22 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in a super [[∞-Lie algebra]] such as the [[supergravity Lie 3-algebra]] or the [[supergravity Lie 6-algebra]].
+The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
 
-For background see [[∞-Chern-Weil theory introduction]].
+This proceeds in generalization of how [[Einstein gravity]] in [[first order formulation of gravity]] is equivalently the [[Cartan geometry]] for the inclusion of the [[Lorentz group]] inside the [[Poincare group]]: a [[field (physics)|field]] configuration of the field of [[gravity]] is equivalently a [[Cartan connection]] for this [[subgroup]] inclusion. 
+
+Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]] is equivalently the [[Cartan geometry]] of the inclusion of the [[Lorentz group]] into the [[super Poincaré group]].
+
+What D'Auria-Fr&#233; implicitly observe is (not in this [[homotopy theory|homotopy theoretic]] language though, that was pointed out in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]].
+
+
+
+[[!include local and global geometry - table]]
+
+
+For more background on [[principal ∞-connections]] see also at _[[∞-Chern-Weil theory introduction]]_.
 
 ### History
 
@@ -727,7 +739,8 @@ This fails to sit in the shifted generators by the terms coming from the transla
 the expected term $r^c \wedge r^c \wedge r^c$.
 
 
-## References {#References}
+## References 
+ {#References}
 
 
 The original articles that introduced th D'Auria-Fr&#233;-formalism are
@@ -748,9 +761,11 @@ At the time of this writing the book is out of print and unavailable from booksh
 
 The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]]s is in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+ {#SSS}
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ 2013 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+ {#FSS}
 
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
