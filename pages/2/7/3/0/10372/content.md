@@ -1,0 +1,3 @@
+* wikipedia [enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra)
+
+category: operator algebras, noncommutative geometry, analysis
