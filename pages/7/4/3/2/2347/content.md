@@ -25,7 +25,7 @@ For a theoretical classical mechanics one often starts with a concrete system of
 
 A terminological and scope discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
 
-## Formalisms
+## Traditional formulation
 
 The fundamental distinction is between open and closed mechanical systems. Open systems have exchange of energy with the rest of universe, that is with the energy sources or sinks which are not described by the mechanical system: for example the energy can be absorbed through forces from external bodies not belonging to the system but accounted in terms of such forces, or the energy can be lost by heating (described by friction force and alike). Closed systems are conservative in energetic sense. The terminology open/closed is wider than conservative/nonconservative, as it pertains also to statistical and quantum systems. 
 
@@ -216,6 +216,13 @@ def. \ref{ClassMechSys}, a **[[quantization]]** of it is -- if it exists --
 Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-algebras such that $A = A_1$, then we call the clasical system $A_0$ its (or rather: a)**[[classical limit]]**.
 
 =--
+
+## Formulation in higher geometry by local prequantum field theory
+
+Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechanics]], [[Hamilton-Jacobi theory]]) is naturally understood as a special case of -- and in fact as deriving from -- [[local prequantum field theory]] formulated in the [[higher differential geometry]] over $\mathbf{B}U(1)_{conn}$. This is discussed in some detail at
+
+* _[[prequantized Lagrangian correspondence]]_.
+
 
 ## Particular classical systems
 
