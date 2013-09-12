@@ -171,6 +171,8 @@ The [[exceptional Lie groups]] incude
 
 * [[conjugacy class]], [[Cartan-Dirac structure on a Lie group]]
 
+* [[Weyl group]]
+
 * [[Inönü-Wigner group contraction]]
 
 * [[infinite-dimensional Lie group]]
