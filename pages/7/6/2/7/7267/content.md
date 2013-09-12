@@ -45,4 +45,8 @@ The relation to [[quantum physics|quantum]] [[physics]] ([[WZW model]]) is highl
 
 * Louise Dolan, _The Beacon of Kac-Moody symmetry for physics_, Notices of the AMS 1995 ([pdf](http://www.ams.org/notices/199512/dolan.pdf))
 
+[[!redirects affine Lie algebras]]
+
 [[!redirects affine Kac-Moody Lie algebra]]
+[[!redirects affine Kac-Moody Lie algebras]]
+
