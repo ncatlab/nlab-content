@@ -121,6 +121,10 @@ In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-
 
 * [[Kostant Souriau extension]]
 
+## Related concepts
+
+* [[central extension]], [[central charge]]
+
 [[!redirects Lie algebra extensions]]
 
 [[!redirects extension of Lie algebras]]
