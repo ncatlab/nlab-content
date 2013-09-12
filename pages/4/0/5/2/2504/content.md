@@ -111,7 +111,7 @@ etc.
 
 =--
 
-This observation appears in ([Castellani05, section 3.1](#Castellani05)). 
+This observation appears implicitly in ([Castellani05, section 3.1](#Castellani05)), see ([FSS 13](#FSS13)). 
 
 
 +-- {: .proof}
@@ -161,6 +161,8 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 [[supergravity Lie 6-algebra]] $\to$ **supergravity Lie 3-algebra** $\to$ [[super Poincaré Lie algebra]]
 
+* [[extended supersymmetry]]
+
 * [[type II supergravity Lie 2-algebra]]
 
 ## References
@@ -179,6 +181,7 @@ The manifest interpretation of this as a [[Lie 3-algebra]] and the supergravity 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ {#FSS13}
 
 A systematic study of the super-[[Lie algebra cohomology]] involved is in
 
