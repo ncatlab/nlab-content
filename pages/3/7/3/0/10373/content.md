@@ -1,9 +1,6 @@
 Let $C$ be some category of modules or bimodules (say over a ring, algebra, operator algebra). Then an object $M\subset N$ is an __essential submodule__ of $N$ (or, we say that $N$ is an essential extension of $M$) if $M$ has nonzero intersection (pullback in more abstract situations) with any nonzero subobject of $N$. 
 
-In particular, one applies this terminology to ideals, i.e. submodules (or in 2-sided case subbimodules) of a ring, algebra or operator algebra itself. Hence we talk about __essential ideals__. In the case of extensions, 
-one can consider extensions of algebras,  
-where essential still refers to non-intersection 
-with submodules rather than subalgebras. 
+In particular, one applies this terminology to ideals, i.e. submodules (or in 2-sided case subbimodules) of a ring, algebra or operator algebra itself. Hence we talk about __essential ideals__. In the case of extensions, one can consider extensions of algebras, where essential still refers to non-intersection with submodules rather than subalgebras. 
 
 category: algebra, operator algebras
 
@@ -11,3 +8,5 @@ category: algebra, operator algebras
 [[!redirects essential ideals]]
 [[!redirects essential extension]]
 [[!redirects essential extensions]]
+[[!redirects essential embedding]]
+[[!redirects essential embeddings]]
