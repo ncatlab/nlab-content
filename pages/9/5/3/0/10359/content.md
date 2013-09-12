@@ -21,7 +21,7 @@
 
 Given a [[symplectic manifold]] $(X,\omega)$ and given a [[Hamiltonian]] [[function]] $H \colon X \longrightarrow \mathbb{R}$, there is a [[Poisson bracket]] on an [[algebra of functions]] on the [[smooth space|smooth]] [[path space]] $[I,X]$  -- the "space of histories" or "space of [[trajectories]]" -- for $I = [0,1]$ the closed [[interval]], which is such that its [[symplectic leaves]] are each a copy of $X$, but regarded as the space of initial conditions for evolution with respect to $H$ with a [[source]] term added.
 
-The first statement was first observed for the [[Peierls bracket]] of [[local prequantum field theory]] in ([Marolf 93, section II](#Marolf93)), but the construction there is not specific to the [[Peierls bracket]]. That the construction provides a [[foliation]] of trajectory space by [[symplectic leaves]] labeled by [[sources]] was pointed out by ([Khavkine 13](#Khavkine13))
+The first statement was first observed for the [[Peierls bracket]] of [[local prequantum field theory]] in ([Marolf 93, section II](#Marolf93)), but the construction there is not specific to the [[Peierls bracket]]. That the construction provides a [[foliation]] of trajectory space by [[symplectic leaves]] labeled by [[level sets]] of the [[Euler-Lagrange equation|Euler-Lagrange function]] was explicitly pointed out at ([Brunetti-Fredenhagen-Ribeiro 12, top of p. 4](#BrunettiFredenhagenRibeiro12)). (Again for the [[Peierls bracket]], but the statement holds more generally.) These references and that this means a symplectic foliation by [[source]] terms was highlighted out by ([Khavkine 13](#Khavkine13)).
 
 ## On paths in a symplectic manifold
 
@@ -274,6 +274,9 @@ In the simple context of the above discussion we can still restrict attion to fu
 
 * [[Don Marolf]],  _Poisson Brackets on the Space of Histories_ Annals of Physics Volume 236, Issue 2, December 1994, Pages 374-391 ([arXiv:hep-th/9308141](http://arxiv.org/abs/hep-th/9308141))
   {#Marolf93}
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Pedro Ribeiro]], _Algebraic Structure of Classical Field Theory I: Kinematics and Linearized Dynamics for Real Scalar Fields_ ([arXiv:1209.2148](http://arxiv.org/abs/1209.2148))
+  {#BrunettiFredenhagenRibeiro12}
 
 * [[Igor Khavkine]], personal communication
   {#Khavkine13}
