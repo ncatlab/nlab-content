@@ -639,6 +639,11 @@ If $\mathbf{Fields}$ is a [[moduli ∞-stack]] of [[gauge fields]] for some [[sm
 
 (...)
 
+### Classical mechanics as prequantum field theory
+
+Traditional [[classical mechanics]] ([[Hamiltonian mechanics]], [[Lagrangian mechanics]], [[Hamilton-Jacobi theory]]) is naturally understood as a special case of -- and in fact as deriving from -- local prequantum field theory over $\mathbf{B}U(1)_{conn}$. This is discussed in some detail at
+
+* _[[prequantized Lagrangian correspondence]]_.
 
 ### Higher Dijkgraaf-Witten local prequantum field theory
  {#HigherDijkgraafWittenLocalPrequantumFieldTheory}
