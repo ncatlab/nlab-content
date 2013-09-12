@@ -1,0 +1,35 @@
+
+# Localizable measures
+* table of contents
+{: toc}
+
+## Idea
+
+Many of the important theorems of [[measure theory]] fail to hold in full generality.  (See below Often these theorems are stated for [[sigma-finite measures]], but they do hold a bit more generally than that.  In fact, they hold for _localizable_ measures, and this fact *characterizes* the localizable measures.
+
+
+## Definition
+
+Let $\mu$ be a [[positive measure]] on an [[abstract set]] $X$.  (That is, certain [[subsets]] of $X$, forming a $\sigma$-[[sigma-algebra|algebra]], are [[measurable set|measurable]] by $\mu$, and $\mu$ maps these sets to the space $[0,\infty]$ of [[upper real numbers]] in a [[monotone function|monotone]] and [[countably additive measure|countably additive]] way.)
+
+Given two measurable subsets $E$ and $F$, $E$ __essentially contains__ $F$ if the set
+$$ \{ x\colon X \;|\; x \in F \;\Rightarrow\; x \in E \} $$
+is [[full set|full]]; or equivalently (using [[excluded middle]]) if $F \setminus E$ is [[null set|null]].
+
+Then $\mu$ is __localizable__ if the following conditions all apply:
+
+*  Semifiniteness:  Every measurable set $E$ with positive measure essentially contains a measurable set with finite positive measure.  (We may strengthen 'essentially contains' to 'contains' in this clause.)
+*  Essential suprema:  Given any collection $\mathcal{C}$ of measurable sets, there is a measurable set $E$ such that:
+
+   *  $E$ essentially contains each element of $\mathcal{C}$; and
+   *  Given any measurable set $F$ that essentially contains every element of $\mathcal{C}$, $F$ essentially contains $E$.
+
+   (This set $E$ is essentially unique, in that it essentially contains and is essentially contained in any other set with the same property; we call $E$ [[the]] __essential supremum__ of $\mathcal{C}$.)
+
+If we generalize to [[measures]] taking place in some space more general than $[0,\infty]$, then as long as a measure $\mu$ has an [[absolute value]] ${|\mu|}$ that takes values in $[0,\infty]$, then $\mu$ is __localizable__ if ${|\mu|}$ is.
+
+
+[[!redirects localizable measure]]
+[[!redirects localizable measures]]
+[[!redirects localisable measure]]
+[[!redirects localizable measures]]
