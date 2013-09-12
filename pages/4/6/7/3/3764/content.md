@@ -45,12 +45,14 @@ _and this needs to be finished.  I don't have the head for this right now._
 
 ## Applications
 
-The GNS construction is a central ingredient that translates between the [[Heisenberg picture]] and the [[Schrödinger pircture]] of [[quantum mechnanics]]: the [[AQFT]] and the [[FQFT]] picture of [[quantum field theory]]. In the former one considers $C^\ast$-[[algebras of observables]], in the lattes [[spaces of states]]. Given a $C^\ast$-algebra of observables, the corresponding space of state can be taken to be that given by the GNS construction.
+The GNS construction is a central ingredient that translates between the [[Heisenberg picture]] and the [[Schrödinger picture]] of [[quantum mechanics]]: the [[AQFT]] and the [[FQFT]] picture of [[quantum field theory]]. In the former one considers $C^\ast$-[[algebras of observables]], in the latter the [[spaces of states]]. Given a $C^\ast$-algebra of observables, the corresponding space of state can be taken to be that given by the GNS construction.
 
+category: operator algebras
 [[!redirects Gelfand-Naimark-Segal construction]]
 [[!redirects Gelfand–Naimark–Segal construction]]
 [[!redirects Gelfand--Naimark--Segal construction]]
 [[!redirects GNS construction]]
 [[!redirects GNS-construction]]
-
+[[!redirects GNS representation]]
+[[!redirects GNS-representation]]
 [[!redirects GNS theorem]]
