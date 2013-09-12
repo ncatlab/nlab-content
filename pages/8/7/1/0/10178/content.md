@@ -3380,7 +3380,18 @@ and
 
 
 
+##### Poisson holography 
+ {#PoissonHolography}
 
+The [[trajectory]] space of any [[mechanical system]] carries a natural [[Poisson bracket]]: the "[[off-shell Poisson bracket]]". When one considers this as the [[boundary field theory]] of the corresponding Poisson [[2d Chern-Simons theory]] as above, then one finds the following relation:
+
+the [[field (physics)|fields]] of the 2d [[bulk field theory]] are the [[sources]] of the 1d mechanical system. This relation is one of the characteristic properties of what is called the _[[holographic principle]]_.
+
+More discussion of this formalization of the [[holographic principle]] is at 
+
+* _[off-shell Poisson bracket -- boundary field theory interpretation](off-shell+Poisson+bracket#BoundaryFieldTheoryInterpretation)_
+
+* _[holographic principle -- Poisson holography](holographic+principle#PoissonHolography)_
 
 
 #### The charged particle at the boundary of the open superstring
