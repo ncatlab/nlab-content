@@ -1596,6 +1596,10 @@ But examples of fundamental importance include for instance
 
 * [[central extension of groupoids]]
 
+* [[Lie algebra extension]]
+
+* [[central charge]]
+
 
 
 ## References
