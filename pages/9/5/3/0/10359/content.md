@@ -271,14 +271,122 @@ specifically by the [[differential equations]] defining it, the
 [[Euler-Lagrange equation|Euler-Lagrange function]] $EL$
 generate a [[Poisson reduction|Poisson ideal]]. 
 
-The same is true for $EL + J$, for $J \in C^\infty(I)$ any function of the (time) parameter. This corresponds to adding to the time-dependent [[Hamiltonian]] $H$ a [[source]] term $J q$
+For instance 
 
 $$
-  H \mapsto H + J q
+ \left(
+  \array{
+  \frac{\partial}{\partial t_2}
+  \left\{f(t_1), q(t_2)\right\}
+  &=&
+  \left\{
+    f(t_1), \frac{\partial H}{\partial p}(t_2)
+  \right\}
+  \\
+  \frac{\partial}{\partial t_2}
+  \left\{f(t_1), p(t_2)\right\}
+  &=&
+  -
+  \left\{
+    f(t_1), \frac{\partial H}{\partial q}(t_2)
+  \right\}
+  }
+  \right)
+  \;\;\;
+  \Leftrightarrow
+  \;\;\;
+  \left(
+    \left\{
+      f(t_1), \;
+      EL(t)
+    \right\}
+    =  
+    0
+  \right)
   \,.
 $$
 
-Hence $J \in C^\infty(I)$ labels the [[leaves]] of a [[foliation]] of of the off-shell Poisson geometry by [[symplectic leaves]].
+Moreover, since $\{EL(t) = 0\}$ are  [[equations of motion]] the [[Poisson reduction]] defined by this Poisson idea is the subspace of those [[trajectories]] which are solutions of [[Hamilton's equations]], hence the "on-shell trajectories".
+
+As remarked above, the initial value map canonically identifies this on-shell trajectory space with the original [[phase space]] manifold $X$. Moreover, by the very construction of the off-shell Poisson bracket as being the original Poisson bracket at equal times, hence in particular at time $t = 0$, it follows that restricted to the [[zero locus]] $EL = 0$ the off-shell Poisson bracket becomes [[symplectic manifold|symplectic]].
+
+All this clearly remains true with the function $EL$ replaced by the function $EL - J$, for  $J \in C^\infty(I)$ any function of the (time) parameter (since $\{J,-\} = 0$). Any such choice of $J$ hence defines a symplectic subspace 
+
+$$
+  \left\{
+    \gamma \in P X
+    \;|\;
+    \forall_{t \in I}\; EL_\gamma(t) = J
+  \right\}
+$$
+
+of the off-shell Poisson structure on trajectory space. Hence $\left(O X, \left\{-,-\right\}\right)$ has a [[foliation]] by [[symplectic leaves]] with the [[leaf space]] being the [[smooth space]] $C^\infty(I)$ of [[smooth functions]] on the interval. 
+
+Notice that changing $EL \mapsto EL - J$ corresponds changing the time-dependent [[Hamiltonian]] $H$ as
+
+$$
+  H \mapsto H - J q
+  \,.
+$$
+
+Such a term linear in the [[canonical coordinates]] (the [[field (physics)|fields]]) is a _[[source]] term_. (The [[action functionals]] with such [[source]] terms added serve as [[integrands]] of [[generating functions]] for [[correlators]] in [[statistical mechanics]] and in [[quantum mechanics]].)
+
+### Boundary field theory interpretation
+ {#BoundaryFieldTheoryInterpretation}
+
+Hence in conclusion we find the following statement:
+
+The [[trajectory]] space (history space) of a [[mechanical system]] carries a natural [[Poisson manifold|Poisson structure]] whose [[symplectic leaves]] are the subspaces of those trajectories which satisfy the [[equations of motion]] with a fixed [[source]] term and hence whose symplectic [[leaf space]] is the space of possible sources. 
+ 
+Notice what becomes of this statement as we consider the the [[2d Chern-Simons theory]] induced by the off-shell Poisson bracket (the [[non-perturbative field theory|non-pertrbative]] [[Poisson sigma-model]]) whose [[moduli stack]] of [[field (physics)|fields]] is the [[symplectic groupoid]] $SG\left(P X, \left\{-,-\right\}\right)$ induced by the Poisson structure. 
+
+By the discussion at [[motivic quantization]] in the section _[The Poisson manifold at the boundary of the 2d Chern-Simons theory](motivic%20quantization#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_, the Poisson space $\left(P X, \left\{-,-\right\}\right)$ defines a  [[boundary field theory]] (in the sense of [[local prequantum field theory]]) for this [[2d Chern-Simons theory]], exhibited by a boundary [[correspondence]] of the form
+
+$$
+  \array{
+    && P X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{\xi} && SG\left(P X, \left\{-,-\right\}\right)
+    \\
+    & \searrow && \swarrow_{\mathrlap{\chi}}
+    \\
+    && \mathbf{B}^2 U(1)
+    \\
+    && \downarrow^{\mathrlap{\rho}}
+    \\
+    && KU Mod
+  }
+  \,.
+$$
+
+Notice that the [[symplectic groupoid]] is a version of the [[symplectic leaf|symplectic]] [[leaf space]] of the given [[Poisson manifold]] (its [[0-truncation]] is exactly the leaf space). Hence in the case of the off-shell Poisson bracket, the [[symplectic groupoid]] is the space of _[[sources]]_ of a mechanical system. At the same time it is the [[moduli space]] of [[field (physics)|fields]] of the [[2d Chern-Simons theory]] of which the mechanical system is the [[boundary field theory]].
+Hence the [[field (physics)|fields]] of the [[bulk field theory]] are identified with the [[sources]] of the [[boundary field theory]]. Hence conceptually the above boundary correspondence diagram is of the following form
+
+$$
+  \array{
+    && Fields
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_{} && Sources
+    \\
+    & \searrow && \swarrow_{\mathrlap{}}
+    \\
+    && Phases
+  }
+  \,.
+$$
+
+
+Such a relation 
+
+|  [[bulk field theory]]  |  [[boundary field theory]]  |
+|---|----|
+| [[field (physics)|field]] | [[source]] |
+
+between bulk fields and boundary sources is the characteristic feature of what is called the _[[holographic principle]]_ in its realization as the [[AdS-CFT correspondence]].
 
 
 ## References
