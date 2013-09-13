@@ -85,6 +85,8 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 
 ## Related concepts
 
+* [[conserved current]]
+
 * [[Hamiltonian action]]
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
@@ -119,12 +121,15 @@ and in
 
 * Rudolf Schmid, _Infinite-dimensional Lie groups with applications to mathematical physics_
 
-The description in terms of automorphism in the slice $\infty$-topos over the moduli stack of (higher) connections is in section 4.4.17 of
+The description in terms of automorphism in the slice $\infty$-topos over the moduli stack of (higher) connections is in
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+
+and in section 4.4.17 of
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
  {#Sch}
 
-and at _[[schreiber:∞-geometric prequantization]]_.
 
 
 
