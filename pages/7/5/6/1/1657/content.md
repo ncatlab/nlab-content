@@ -76,8 +76,8 @@ From now on, we drop (2); the next step is to generalise the [[target]] of $\mu$
 *  Use $[0,\infty]$ (instead of $[0,1]$) for a __positive measure__.
 *  Use $]-\infty,\infty]$ for a __signed measure__.
 *  Use $\mathbf{C}$ for a __complex-valued measure__.
-*  Use an arbitrary [[topological vector space]] $V$ for a __$V$-valued measure__.
-*  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of countable sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
+*  Use an arbitrary [[topological vector space]] $V$ for a __vector-valued measure__.
+*  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of infinitary sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
 
 Some futher terms:
 *  We can combine conditions; for example a __finite positive measure__ takes values in $[0,\infty[$.
@@ -197,15 +197,15 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 ## Examples
 
-* [[Haar measure]], [[Borel measure]], [[Radon measure]], [[spectral measure]]
+* [[Haar measure]], [[Borel measure]], [[Radon measure]], [[spectral measure]], [[Wiener measure]]
 
-* [[Wiener measure]]
 
 ## Related concepts
 
-* The [[locale]]-version of the notion of measurable space is the notion of _[[measurable locale]]_.
+* The pointless version of the notion of measurable space is the notion of _[[measurable locale]]_.
 
 * In the context of [[fiber integration]] in [[generalized cohomology]], the analog of a measure is an [[orientation in generalized cohomology]].
+
 
 category: analysis
 
@@ -224,6 +224,8 @@ category: analysis
 [[!redirects complex-valued measures]]
 [[!redirects valued measure]]
 [[!redirects valued measures]]
+[[!redirects vector-valued measure]]
+[[!redirects vector-valued measures]]
 [[!redirects V-valued measure]]
 [[!redirects V-valued measures]]
 
