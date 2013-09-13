@@ -1,0 +1,28 @@
+
+Given a [[poset]] (or [[proset]]) $P$, its __opposite__ (or __dual__, __inverse__, __converse__, __reverse__, etc), denoted $P^{op}$ (among other ways), is the poset (or proset) with the same [[underlying set]], with $x \leq y$ in $P^op$ iff $y \leq x$ (equivalently, $x \geq y$) in the original $P$.  This is a special case of both an [[opposite relation]] and an [[opposite category]].
+
+
+[[!redirects opposite poset]]
+[[!redirects opposite posets]]
+[[!redirects opposite proset]]
+[[!redirects opposite prosets]]
+
+[[!redirects dual poset]]
+[[!redirects dual posets]]
+[[!redirects dual proset]]
+[[!redirects dual prosets]]
+
+[[!redirects inverse poset]]
+[[!redirects inverse posets]]
+[[!redirects inverse proset]]
+[[!redirects inverse posets]]
+
+[[!redirects converse poset]]
+[[!redirects converse posets]]
+[[!redirects converse proset]]
+[[!redirects converse posets]]
+
+[[!redirects reverse poset]]
+[[!redirects reverse posets]]
+[[!redirects reverse proset]]
+[[!redirects reverse prosets]]
