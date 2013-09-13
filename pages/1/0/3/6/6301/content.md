@@ -91,3 +91,5 @@ It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolutio
 
 [[!redirects microlocality]]
 [[!redirects microcausality]]
+
+[[!redirects locality]]
