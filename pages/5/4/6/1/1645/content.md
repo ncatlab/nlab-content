@@ -133,6 +133,9 @@ see at _[[Diaconescu-Moore-Witten anomaly]]_
 
 For the moment see [[Liouville cocycle]].
 
+## Related concepts
+
+* [[classical anomaly]]
 
 
 ## References
