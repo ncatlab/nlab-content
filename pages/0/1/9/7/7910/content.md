@@ -87,7 +87,7 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 
 * [[conserved current]]
 
-* [[Hamiltonian action]]
+* [[Hamiltonian action]], [[classical anomaly]]
 
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
