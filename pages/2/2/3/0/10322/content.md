@@ -24,7 +24,7 @@
 
 ## Idea
 
-In [[physics]] and specifically in [[Hamiltonian mechanics]] what is called a _canonical transformation_ is an [[equivalence]] or at least a [[homomorphism]] of [[phase spaces]].
+In [[physics]] and specifically in [[Hamiltonian mechanics]] what is called a _canonical transformation_ is an [[equivalence]] or at least a [[homomorphism]] of [[phase spaces]]. The term is to be read as short for "transformation of [[canonical coordinates]]".
 
 Since phase spaces are mathematically identified with [[symplectic manifolds]], canonical transformations are [[symplectomorphisms]]. In fact, the notion as used in physics is a bit more general, and subsumes also certain [[Lagrangian correspondences]] between symplectic manifolds $(X_{1,2}, \omega_{1,2})$. The "generating functions" for canonical transformations as used in the physics literture correspond to functions on the [[correspondence space]] $(X_1 \times X_2, p_1^\ast \omega_1 - p_2^\ast \omega_2)$. ([Weinstein 83](#Weinstein83))
 
@@ -37,3 +37,6 @@ printing.
   {#Weinstein83}
 
 [[!redirects canonical transformations]]
+
+[[!redirects canonical coordinate transformation]]
+[[!redirects canonical coordinate transformations]]
