@@ -33,7 +33,7 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 ## Classical mechanics 
 
-* [[Vladimir Arnold]], *Mathematical methods of classical mechanics*, Springer (1989).
+* [[Vladimir Arnold]], *[[Mathematical methods of classical mechanics]]*, Springer (1989).
 
 * [[Michael Spivak]], *Physics for Mathematicians, Mechanics I*, xvi + 733 pages, Publish or Perish 2010 [contents](http://olivier.thill.perso.neuf.fr/books/bospphma.htm), [amazon](http://www.amazon.com/Physics-Mathematicians-Mechanics-Michael-Spivak/dp/0914098322); _Elementary mechanics from a mathematician's viewpoint_, [pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf)
 
