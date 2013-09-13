@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Physics
@@ -13,15 +13,16 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-What is called _Lorentzian geometry_ is the [[geometry]] of _[[Minkowski spacetime]]_, hence essentially of a [[Euclidean space]], but equipped not with the standard Euclidean [[Riemannian metric]] of [[signature]] $(+,+, \cdots, +)$ (which yields [[Euclidean geometry]]) but with the [[pseudo-Riemannian metric]] of [[signature]] $(-,+,+, \cdots, +)$. This is in particular the context of the [[theory (physics)|theory]] of [[physics]] called "[[theory of special relativity]]", and it is _locally_ the context of the "[[theory of general relativity]]".
+__Lorentzian geometry__ is the [[geometry]] of _[[Minkowski spacetime]]_, hence essentially of a [[Euclidean space]], but equipped not with the standard Euclidean [[Riemannian metric]] of [[signature]] $(+,+,+,\ldots,+)$ (which yields [[Euclidean geometry]]) but with the [[pseudo-Riemannian metric]] of [[signature]] $(-,+,+,\ldots,+)$. This is in particular the context of the [[theory (physics)|theory]] of [[physics]] called "[[theory of special relativity]]", and it is _locally_ the context of the "[[theory of general relativity]]".
+
+Note that while Lorentzian geometry is analogous to [[Euclidean geometry]] (as [[Minkowski space]] is analogous to a [[Euclidean space]]), a [[Lorentzian manifold]] is analogous to a [[Riemannian manifold]].  Thus, one might use 'Lorentzian geometry' analogously to [[Riemannian geometry]] (and insist on __Minkowski geometry__ for our topic here), but usually one skips all the way to [[pseudo-Riemannian geometry]] (which studies [[pseudo-Riemannian manifolds]], including both Riemannian and Lorentzian manifolds).
+
 
 ## Lorentzian Cartan geometry and first order gravity
 
@@ -55,3 +56,12 @@ See also
 
 * Geometry Group Berlin, _[Lorentzian geometry](http://www3.math.tu-berlin.de/geometrie/lorentz/)_
 
+
+[[!redirects Lorentzian geometry]]
+[[!redirects Lorentzian geometries]]
+[[!redirects Lorentz geometry]]
+[[!redirects Lorentz geometries]]
+[[!redirects Minkowski geometry]]
+[[!redirects Minkowski geometries]]
+[[!redirects Minkowskian geometry]]
+[[!redirects Minkowskian geometries]]
