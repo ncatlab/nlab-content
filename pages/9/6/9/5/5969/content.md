@@ -209,6 +209,12 @@ The relation of conserved currents to [[moment maps]] in [[symplectic geometry]]
 * Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
  {#Fan}
 
+### Higher conserved currents
+
+Higher conserved currents are discussed for instance in
+
+* [[Glenn Barnich]], [[Friedemann Brandt]], _Covariant theory of asymptotic symmetries, conservation laws and central charges_,  	Nucl.Phys.B633:3-82, 2002 ([arXiv:hep-th/0111246](http://arxiv.org/abs/hep-th/0111246))
+
 ### In higher prequantum theory
 
 In the context of [[higher prequantum geometry]] conserved currents of the [[WZW model]] and in [[schreiber:∞-Wess-Zumino-Witten theory]] are briefly indicated on the last page of
