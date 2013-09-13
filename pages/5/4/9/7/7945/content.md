@@ -90,6 +90,8 @@ By ([Atiyah-Bott](#AtiyahBott)), the action of a Lie algebra on a symplectic man
 
 * [[Guillemin-Sternberg geometric quantization conjecture]]
 
+* [[projective representation|projective]] Hamiltonian action: [[classical anomaly]]
+
 ## References
 
 A comprehensive account is in (see around section 2.1)
