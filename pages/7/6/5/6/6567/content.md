@@ -43,7 +43,7 @@ A discussion from the more general perspective of [[Hamiltonian dynamics on Lie 
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ 
 
-* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Springer 1989 (section 28)
+* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Springer 1989 (section 28)
 
 * [[Landau-Lifschitz]], vol.1, Mechanics
 
