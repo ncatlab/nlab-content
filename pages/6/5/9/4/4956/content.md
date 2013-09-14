@@ -321,6 +321,8 @@ $$
 
 * [[partial differentiation]]
 
+* [[Fermat theory]]
+
 * [[pullback of differential forms]]
 
 * [[tangent space]], [[tangent bundle]]
