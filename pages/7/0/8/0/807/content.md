@@ -119,7 +119,7 @@ where $\eta$ and $\varepsilon$ are the [[unit of an adjunction|unit]] and counit
 
 * In the category of chain complexes over a ring $R$, an object is dualizable if it is finitely generated overall, and projective in each degree.  Its dual is then given by $(X^*)_n = Hom_R(X_{-n},R)$.  The unit $\eta$ picks out $\sum x \otimes x^*$, where $\{x\}$ encompasses a basis for each $X_n$ and $\{x^*\}$ is the dual basis.
 
-  The symmetry isomorphism $X \otimes Y \xrightarrow{\cong} Y \otimes X$ introduces a sign $x\otimes y \mapsto (-1)^{|y|} y\otimes x$, so that when we then evaluate, we get a contribution of $1$ for each $x$ of even degree and $-1$ for each $x$ of odd degree.  Thus we recover reproduces Def. \ref{EulerCharOfChainComplexPointset}.  Note that the unit object is $R$ itself in degree zero, so that we see $\chi(X)$ only as an element of $R$ (so, for instance, the Euler characteristic in this sense of a rank-$p$ free $(\mathbb{Z}/p)$-module is zero.
+  The symmetry isomorphism $X \otimes Y \xrightarrow{\cong} Y \otimes X$ introduces a sign $x\otimes y \mapsto (-1)^{|y|} y\otimes x$, so that when we then evaluate, we get a contribution of $1$ for each $x$ of even degree and $-1$ for each $x$ of odd degree.  Thus we recover Def. \ref{EulerCharOfChainComplexPointset}.  Note that the unit object is $R$ itself in degree zero, so that we see $\chi(X)$ only as an element of $R$ (so, for instance, the Euler characteristic in this sense of a rank-$p$ free $(\mathbb{Z}/p)$-module is zero.
 
 * In the [[derived category]] of chain complexes over $R$, an object is dualizable if it is quasi-isomorphic to one of the form above.  A similar argument shows that its Euler characteristic is then computed as in Def. \ref{EulerCharOfChainComplex}.
 
