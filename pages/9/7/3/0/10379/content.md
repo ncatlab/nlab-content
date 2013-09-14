@@ -1,0 +1,30 @@
+
+##Idea##
+
+
+The simplest cases of Chu spaces can be thought of simply  as matrices over a set $\Sigma$, that is, a rectangular array whose 
+entries are drawn from $\Sigma$. The case most usually considered is $\Sigma = \{0,1\}$, and special cases of this then correspond to many relational structures. In fact, such a 'dyadic' Chu space is just another way of representing a relation from the set of labels for the rows, to that of the label of columns of the matrix.
+
+###Note
+ 
+The definition we will give here is just an ultra-special case of that given in [[Chu construction]].
+
+##Definition
+
+A _(dyadic or two valued) Chu space_ $\mathcal{P}$ is a triple $(P_o, \models_P, P_a)$, where $P_o$ is a set of _objects_, and $P_a$ is a set of _attributes_.  The _satisfaction_ relation $\models_P$ is a subset of $P_o\times P_a$.
+
+
+The terminology used here is motivated by the link with [[formal concept analysis]].  Alternative terminologies include (from Pratt's [Coimbra notes](http://boole.stanford.edu/pub/coimbra.pdf)) $P_o$ is a set of  *points* constituting the *carrier*, whilst $P_a$ is the set of *states*, which  constitutes the *cocarrier*. 
+
+##Linked concepts
+
+* [[formal concept analysis]]
+
+* [[topological system]] (as in the book of [[Steve Vickers]] 'Topology via Logic').
+
+##References
+
+* [[Vaughan Pratt]], [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
+
+* [[Guo-Qiang Zhang]]  _[Chu spaces, concept lattices, and domains](http://newton.eecs.cwru.edu/papers/chu-concepts-entcs.pdf)_ in Brookes, S., Panangaden, P., eds.: Electronic Notes in Theoretical Computer Science. Volume 83., (2004) 
+
