@@ -62,6 +62,8 @@ Many physical fields are related to tensor fields, but few are genuinely tensor 
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[field (physics)]]
 
 * [[extended phase space]]
