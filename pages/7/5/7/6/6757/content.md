@@ -86,6 +86,8 @@ $$
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[circle bundle]], [[circle n-bundle with connection]]
 
 * [[prequantum circle n-bundle]]
