@@ -25,6 +25,9 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 * [[G2-MSSM]]
 
+* [[supersymmetry and Calabi-Yau manifolds]]
+  
+
 ## References
 
 The original articles are
