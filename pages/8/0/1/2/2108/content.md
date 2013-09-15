@@ -925,6 +925,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[prequantum geometry]]
 
 * [[reductions deformations resolutions in physics]]
