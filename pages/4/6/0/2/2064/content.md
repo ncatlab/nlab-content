@@ -92,7 +92,13 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 ## Related concepts
 
+* [[bundle]]
+
 * **fiber bundle** / [[fiber ∞-bundle]]
+
+  * [[associated bundle]]
+
+  * [[vector bundle]]
 
   * [[fiber bundles in physics]]
 
@@ -104,9 +110,7 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
-* [[vector bundle]]
-
-* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
+* [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 ## Literature
 
