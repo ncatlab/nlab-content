@@ -61,6 +61,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 * [[Lie theory]]
 
+* [[fiber bundles in physics]]
+
 * some modern subfields of differential geometry include:
 
   * [[symplectic geometry]], 
