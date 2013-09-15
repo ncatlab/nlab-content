@@ -29,7 +29,7 @@ It is closely related to the [[de Donder-Weyl formalism]] of [[variational calcu
 
 ### From the $n$POV
 
-We comment a bit on how to, presumeably, think of multisymplectic geometry 
+We comment a bit on how to, presumably, think of multisymplectic geometry 
 from the [[nPOV]], in the context of [[higher geometric quantization]]. Readers may want to skip ahead to traditional technical discussion at _[Extended phase space](#extended phase space)_.
 
 +-- {: .standout}
@@ -214,6 +214,7 @@ $$
 Ordinary point particle mechanics on $X$ describes trajectories $\mathbb{R} \to X$ in $X$, with parameter space $\Sigma = \mathbb{R}$ the real line, thought of as the abstract **worldline** of the particle.
 
 * parameter space: $\Sigma = \mathbb{R}$, the **worldline**;
+
 
 * target space: $X$, some [[manifold]] -- **spacetime**;
 
