@@ -321,7 +321,7 @@ $$
 
 * [[partial differentiation]]
 
-* [[Fermat theory]]
+* [[Hadamard lemma]], [[Fermat theory]]
 
 * [[pullback of differential forms]]
 
