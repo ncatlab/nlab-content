@@ -31,17 +31,16 @@ A solution to the bosonic [[Einstein equations]] of ordinary [[gravity]] -- some
 
 Accordingly, a configuration that solves the [[supergravity]] [[Euler-Lagrange equations]] is a _[[global supersymmetry]]_ if it has a [[Killing spinor]]: a [[covariantly constant spinor]].
 
-Here the notion of [[covariant derivative]] includes the usual [[Levi-Civita connection]], but also in general [[torsion]] components and contributions from other [[background gauge fields]] such as a [[Kalb-Ramond field]] and the [[RR-field]]s in [[type II string theory|type II supergravity]] or [[heterotic string theory|heterotic supergravity]].
+(Here the notion of [[covariant derivative]] includes the usual [[Levi-Civita connection]], but also in general [[torsion]] components and contributions from other [[background gauge fields]] such as a [[Kalb-Ramond field]] and the [[RR-field]]s in [[type II string theory|type II supergravity]] or [[heterotic string theory|heterotic supergravity]].)
 
-Of particular interest to phenomenologists around the turn of the millenium (but maybe less so today with new experimental evidence) has been in solutions of spacetime manifolds of the form $M^4 \times Y^6$ for $M^4$ the locally observed [[Minkowski spacetime]] (that plays a role as the background for all available particle accelerator experiments) and a small closed 6-dimensional [[Riemannian manifold]] $Y^6$. 
+Of particular interest to phenomenologists around the turn of the millenium (but maybe less so today with new experimental evidence) has been in [[KK-compactification]] solutions of [[spacetime]] manifolds of the form $M^4 \times Y^6$ for $M^4$ the locally observed [[Minkowski spacetime]] (that plays a role as the background for all available particle accelerator experiments) and a small [[closed manifold|closed]] 6-dimensional [[Riemannian manifold]] $Y^6$. 
 
-In the absence of further fields besides gravity, the condition that such a configuration has precisely one [[Killing spinor]] and hence precisely one [[global supersymmetry]] turns out to tbe precisely that $Y^6$ is a [[Calabi-Yau manifold]]. This is where all the interest into these manifolds in [[string theory]] comes from. (Notice though that nothing in the theory itself demands such a compactification. It is only the phenomenological assumption of the factorized spacetime compactification together with $N = 1$ supersymmetry that does so).
+In the absence of further fields besides gravity, the condition that such a configuration has precisely one [[Killing spinor]] and hence precisely one [[global supersymmetry]] turns out to tbe precisely that $Y^6$ is a [[Calabi-Yau manifold]]. One such remaining global supersymmetry in the lowe energy [[effective field theory]] in 4-dimensions is or was believed to be of relevance in [[phenomenology]], see for instance the supersymmetric _[[MSSM]]_ extension of the [[standard model of particle physics]]. This is where all the interest into these Calaboi-Yau manifolds in [[string theory]] comes from. (Notice though that nothing in the theory itself demands such a compactification. It is only the phenomenological assumption of the factorized spacetime compactification together with $N = 1$ supersymmetry that does so).
 
-More generally, in the presence of other [[background gauge field]]s, the Calabi-Yau condition here is deformed. One also speaks of [[generalized Calabi-Yau space]]s. (For instance ([GMPT05](#GMPT))).
+More generally, in the presence of other [[background gauge fields]], the Calabi-Yau condition here is deformed. One also speaks of [[generalized Calabi-Yau space]]s. (For instance ([GMPT05](#GMPT))).
 
-## Details
+Alternatively, if one starts the [[KK-compactification]] not from 10-dimensional [[string theory]] but from [[11-dimensional supergravity]]/[[M-theory]], then the condition for the [[KK-compactification]] to preserved precisely one global supersymmetry is that it be on a [[G2-manifold]]. For more on this see at _[[M-theory on G2-manifolds]]_.
 
-(...)
 
 ## Related concepts
 
