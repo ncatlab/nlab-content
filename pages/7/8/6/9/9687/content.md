@@ -21,19 +21,30 @@
 
 The (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
 
+## Formalizations
+
+### In $N=2$ supersymmetric Yang-Mills theory
+
+While confinement in plain [[Yang-Mills theory]] is still waiting for mathematical formalization and [[proof]] (see [Jaffe-Witten](#JaffeWitten)), there is a variant of [[Yang-Mills theory]] with more [[symmetry]] where the phenomenon has been demonstrated, namely in [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 94](#SeibergWitten94)).
+
 ## Related concepts
 
 * [[asymptotic freedom]]
 
 ## References
 
+### General 
+
 The idea is indicated in
 
 * Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
 
+### In Yang-Mills theory
+
 A formulation of confinement as an open problem of mathematical physics, together with many references, is in 
 
 * [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
+ {#JaffeWitten}
 
 Other technical reviews include
 
@@ -48,6 +59,17 @@ The relation to [[QCD instantons]]/[[monopole|monopoles]] in the [[QCD vacuum]] 
 For further developments see
 
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
+
+### In super-Yang-Mills theory and under AdS/CFT correspondence
+
+Confinement in [[N=2 D=4 super Yang-Mills theory]] was observed in 
+
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
+  {#SeibergWitten94}
+
+Reviews include
+
+* Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
 
 Discussion in the context of the [[AdS-CFT correspondence]] is in
 
