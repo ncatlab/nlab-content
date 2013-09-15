@@ -38,6 +38,14 @@ A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds suc
 +-- {: .num_example}
 ###### Example
 
+Every manifold admits the _trivial Poisson structure_ for which the [[Poisson bracket]] simply vanishes on all elements.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
 Every [[symplectic manifold]] carries a natural Poisson structure; however, such Poisson manifolds are very special. It is a basic theorem that Poisson structures on a manifold are equivalent to the smooth [[foliation]]s of the underlying manifold such that each leaf is a symplectic manifold.
 
 =--
