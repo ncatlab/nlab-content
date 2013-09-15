@@ -689,6 +689,14 @@ Here are some slides from talks:
 
 * [[Krzysztof Gawedzki]], _Wess-Zumino-Witten and Chern-Simons theories for non-simply connected Lie groups_ ([pdf](http://dftuz.unizar.es/ftzar/activities/highenergy09_talks/gawedzki.pdf))
 
+The full Chern-Simons circle 3-connection on the full [[moduli stack]] of $G$-[[principal connections]] $\mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$ was then constructed in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Phyiscs, Volume 16 Issue 1 (2012) ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735))
+
+Exposition of this and further developments are in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+
 [[!redirects Chern-Simons bundle 2-gerbe]]
 
 [[!redirects Chern-Simons circle 3-bundle with connection]]
