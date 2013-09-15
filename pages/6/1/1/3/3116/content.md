@@ -17,7 +17,7 @@
 
 A 'Fermat theory' is a [[Lawvere theory]] that extends the usual theory of [[commutative rings]] by permitting [[differentiation]].  
 
-The term _Fermat theory_ seems to have been introduced in ([Kock 09](#Kock09)) based on ([Dubuc-Kock 84](#DubucKock84)).  But as the name suggests, it has its roots in an old observation of [[Fermat]].  Namely: if $f : \mathbb{R} \to \mathbb{R}$ is a [[polynomial]] function, then
+The term _Fermat theory_ seems to have been introduced in ([Kock 09](#Kock09)) based on ([Dubuc-Kock 84](#DubucKock84)).  But as the name suggests, it has its roots in an old observation of [[Fermat]].  Namely: if $f \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}$ is a [[polynomial]] function, then
 
 $$f (x+y) = f(x) + y \tilde{f}(x,y) $$
 
@@ -31,13 +31,13 @@ $$\tilde{f}(x,0) = f'(x)$$
 
 So, the function $\tilde{f}$ knows about the [[derivative]] of $f$!  (This can be done for polynomials over any [[commutative ring]], although Fermat wasn\'t working in that generality.)
 
-[[Jacques Hadamard]] generalized this observation from a polynomial function $f$ to a [[continuously differentiable function]] $f$, where now $\tilde{f}$ is unique if required to be [[continuous map|continuous]].  (For a merely [[differentiable function]] $f$, require $\tilde{f}$ to be continuous in $y$ alone.)  The function $\tilde{f}$ is thus called a [[Hadamard quotient]].  If $\tilde{f}$ is to be the same class of function as $f$, then we need [[smooth functions]], and that will be our motivating context from now on.
+Later [[Jacques Hadamard]] generalized this observation from a polynomial function $f$ to a [[continuously differentiable function]] $f$, where now $\tilde{f}$ is unique if required to be [[continuous map|continuous]].  This is the statement the _[[Hadamard lemma]]_. (For a merely [[differentiable function]] $f$, require $\tilde{f}$ to be continuous in $y$ alone.)  The function $\tilde{f}$ is thus called a [[Hadamard quotient]].  If $\tilde{f}$ is to be the same class of function as $f$, then we need [[smooth functions]], and that will be our motivating context from now on.
 
 If we take $\tilde{f}(x,0) = f'(x)$ as a _definition_ of the derivative, we can derive many of the basic rules for derivatives from the formula
 
 $$f(x+y) = f(x) + y \tilde{f}(x,y) $$
 
-using just algebra --- no limits!  As an exercise, the reader should check these rules:
+using just algebra --- no [[limit of a sequence|limits]]!  As an exercise, the reader should check these rules:
 
 $$(f + g)' = f' + g'$$
 
@@ -50,7 +50,7 @@ These ideas continue to work if $f$ is a smooth function from $\mathbb{R}^n$ to 
 
 ## Definition
 
-The above observations suggest defining the following kind of [[Lawvere theory]].  A **Fermat theory** is an extension of the algebraic theory of [[commutative rings]], such that for any $(n+1)$-ary operation $f$ there is a unique $(n+2)$-ary operation $\tilde{f}$ such that
+The above observations suggest defining the following kind of [[Lawvere theory]].  A **Fermat theory** is an extension of the [[algebraic theory]] of [[commutative rings]], such that for any $(n+1)$-ary operation $f$ there is a unique $(n+2)$-ary operation $\tilde{f}$ such that
 
 $$ f(x + y, \vec{z}) =
 f(x, \vec{z}) + y \tilde{f}(x,y,\vec{z})$$
