@@ -55,7 +55,27 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 ## Related concepts
 
-* [[equivariant bundle]]
+* **bundle**, [[display map]]
+
+* **fiber bundle** / [[fiber ∞-bundle]]
+
+  * [[associated bundle]]
+
+  * [[vector bundle]]
+
+  * [[equivariant bundle]]
+
+  * [[fiber bundles in physics]]
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
+* [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 ## References
 
