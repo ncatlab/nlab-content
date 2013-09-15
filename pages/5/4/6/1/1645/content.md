@@ -137,6 +137,7 @@ For the moment see [[Liouville cocycle]].
 
 * [[classical anomaly]]
 
+* [[fiber bundles in physics]]
 
 ## References
 
