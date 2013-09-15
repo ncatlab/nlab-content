@@ -2623,7 +2623,7 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
   [[gauge field]]
 
-  [[fiber bundle in physics]]
+  [[fiber bundles in physics]]
 
 * [[BV-BRST formalism]]
 
