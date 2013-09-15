@@ -94,6 +94,8 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
 * **fiber bundle** / [[fiber ∞-bundle]]
 
+  * [[fiber bundles in physics]]
+
 * [[principal bundle]] / [[torsor]] / **associated bundle**
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
