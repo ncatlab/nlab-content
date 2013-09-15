@@ -27,6 +27,11 @@ The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimens
 
 A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94))
 
+### Confinement
+
+While [[confinement]] in plain [[Yang-Mills theory]] is still waiting for mathematical formalization and [[proof]] (see [Jaffe-Witten](confinement#JaffeWitten)), N=2 D=4 super Yang-Mills theory is has been obsrved in ([Seiberg-Witten 94](#SeibergWitten94)).
+
+
 ### Reduction to $D = 3$ super Yang-Mills
 
 By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$ families of $N = 2, D = 4$ SYM theories interpolate to [[N=4 D=3 super Yang-Mills theory]]. ([Seiberg-Witten 96](#SeibergWitten96)).
@@ -71,7 +76,19 @@ The dimensional reduction to $D = 3$ was first considered in
 * [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
  {#SeibergWitten96}
 
+The [[confinement]]-phenomenon was observed in 
+
+* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
+  {#SeibergWitten94}
+
+Reviews of that include
+
+* Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
+
+
 For references on [[wall crossing]] of [[BPS states]] see the references given there.
+
+
 
 ### Introductions and surveys
  {#Surveys}
