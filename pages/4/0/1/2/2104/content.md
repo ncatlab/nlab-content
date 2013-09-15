@@ -243,6 +243,8 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
   * [[quantization via the A-model]]
 
+* [[fiber bundles in physics]]
+
 * [[motivic quantization]]
 
 * [[perturbation theory]]
