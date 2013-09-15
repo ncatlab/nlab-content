@@ -44,3 +44,8 @@ Given a $G$-[[representation]] $V$ and a $G$-principal connection, it induces a 
 [[!include higher Atiyah groupoid - table]]
 
 [[!redirects principal connections]]
+
+[[!redirects connection on a principal bundle]]
+
+[[!redirects connections on principal bundles]]
+
