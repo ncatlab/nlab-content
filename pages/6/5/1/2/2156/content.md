@@ -40,7 +40,7 @@ An __inner product space__ is simply a vector space equipped with an inner produ
 
 We define a function ${\|{-}\|^2}\colon V \to k$ by ${\|x\|^2} = \langle x, x \rangle$; this is called the __norm__ of $x$.  As the notation suggests, it is common to take the norm of $x$ to be the square root of this expression in contexts where that makes sense, but for us ${\|{-}\|^2}$ is an atomic symbol.  Note that the norm of $x$ is __real__ in that it equals its own conjugate, by (4).  Notice that (by 1), ${\|x\|^2} = 0$ if $x = 0$; this observation motivates some conditions on the inner product:
 
-*  The inner product is __definite__ if the converse holds: $x = 0$ if $\{|x\|^2} = 0$.  (In [[classical mathematics]], we may equivalently say that $\{|x\|^2} \ne 0$ if $x \ne 0$; in [[constructive mathematics]], when $k$ and $V$ have compatible [[inequality relations]], then this is a different condition that is also sometimes studied.)
+*  The inner product is __definite__ if the converse holds: $x = 0$ if ${\|x\|^2} = 0$.  (In [[classical mathematics]], we may equivalently say that ${\|x\|^2} \ne 0$ if $x \ne 0$; in [[constructive mathematics]], when $k$ and $V$ have compatible [[inequality relations]], then this is a different condition that is also sometimes studied.)
 *  More generally, the inner product is __semidefinite__ if the [[subset]] $\{ x \;|\; {\|x\|^2} = 0 \}$ is closed under addition (hence is a [[linear subspace|subspace]]).
 *  On the other hand, the inner product is __indefinite__ if there are $x$ and $y$ with ${\|x\|^2} = 0$ and ${\|y\|^2} = 0$ but ${\|x + y\|^2} \ne 0$.
 
@@ -50,9 +50,9 @@ Semidefinite inner products behave very much like definite ones; you can mod out
 Now suppose that $k$ is equipped with a [[partial order]].  (Note the [[complex numbers]] are standardly so equipped, with $a \leq b$ iff $b - a$ is a nonnegative real.)  Then we can consider other conditions on the inner product:
 
 *  The inner product is __positive semidefinite__, or simply __positive__, if ${\|x\|^2} \geq 0$ always.
-*  The inner product is __positive definite__ if it is both positive and definite, in other words if ${|x|^2} \gt 0$ whenever $x \ne 0$.
+*  The inner product is __positive definite__ if it is both positive and definite, in other words if ${\|x\|^2} \gt 0$ whenever $x \ne 0$.
 *  The inner product is __negative semidefinite__, or simply __negative__, if ${\|x\|^2} \leq 0$ always.
-*  The inner product is __negative definite__ if it is both positive and definite, in other words if ${|x|^2} \lt 0$ whenever $x \ne 0$.
+*  The inner product is __negative definite__ if it is both positive and definite, in other words if ${\|x\|^2} \lt 0$ whenever $x \ne 0$.
 
 In this case, we have these theorems:
 
