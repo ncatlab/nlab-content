@@ -44,6 +44,8 @@ This $\widehat G$ is the [[Heisenberg group]] of the given $G$-action (See also 
 
 * [[quantum anomaly]]
 
+* [[fiber bundles in physics]]
+
 ## References
 
 A textbook discussion of the concept is (without the terminology yet) is in appendix 5.A of 
