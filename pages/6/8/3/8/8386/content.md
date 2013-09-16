@@ -61,7 +61,13 @@ $$ first : \prod_{A:Type} A\times A \to A$$
 
 However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[ML]].
 
+## Related concepts
+
+* [[logical relations]]
+
 
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
 [[!redirects parametric polymorphism]]
+
+[[!redirects parametricity]]
