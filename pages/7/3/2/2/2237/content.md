@@ -174,11 +174,14 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 ## Related concepts
 
-* [[equivariance]]
+* [[equivariance]], [[equivariant structure]]
 
-* [[equivariant bundle]], [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
+* [[equivariant bundle]], [[equivariant connection]] 
+
+* [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
 
   * [[Baum-Connes conjecture]], [[Green-Julg theorem]], [[Atiyah-Segal completion theorem]]
+
 
 ## References
 
