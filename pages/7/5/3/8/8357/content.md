@@ -1,4 +1,12 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Description
+
+An [[experiment]] in [[particle physics]] measuring the details of the [[standard model of particle physics]]. Detected the [[Higgs boson]].
+
 ## Properties
 
 Resolution about $10^{-20}m \simeq 10 TeV$ ad currently reached $\simeq 7 TeV$  (e.g. [Mazumdar, slide 7](#Mazumdar))
@@ -14,5 +22,7 @@ Resolution about $10^{-20}m \simeq 10 TeV$ ad currently reached $\simeq 7 TeV$  
 
 * Wikipedia, _[CERN](http://en.wikipedia.org/wiki/CERN)_
 
-* KajariMazumdar, _Essentials of the LHC_ ([pdf](http://www.tifr.res.in/~mazumdar/talks/glbrg2.pdf))
+* Kajari Mazumdar, _Essentials of the LHC_ ([pdf](http://www.tifr.res.in/~mazumdar/talks/glbrg2.pdf))
  {#Mazumdar}
+
+* [[John Ellis]], _Summary of the Nobel Symposium on LHC Results_ ([arXiv:1309.3549](http://arxiv.org/abs/1309.3549))
