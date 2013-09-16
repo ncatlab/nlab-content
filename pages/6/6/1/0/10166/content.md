@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,6 +21,8 @@ For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a $G$-_equiva
 ## Related concepts
 
 * [[equivariant cohomology]]
+
+* [[equivariant connection]]
 
 * [[equivariant K-theory]]
 
