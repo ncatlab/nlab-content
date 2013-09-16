@@ -25,6 +25,8 @@ In constrast, in _[[symplectic reduction]]_ one takes the quotient of a pre-spec
 
 [[!include symplectic reduction - table]]
 
+* [[quantization commutes with reduction]]
+
 ## References
 
 Around page 11 of
