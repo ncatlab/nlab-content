@@ -37,6 +37,12 @@ The original article ([Guillemin-Sternberg 82](#GuilleminSternberg82)) proved th
 
 For the more powerful and more flexible [[geometric quantization by push-forward]], the corresponding statement is widely known as the _Guillemin-Sternberg conjecture_.  Since its formulation, this, too, has been proven in fair generality, see the [References](#References) below.
 
+## Related concepts
+
+[[!include symplectic reduction - table]]
+
+* [[BV-BRST formalism]]
+
 ## References
  {#References}
 
