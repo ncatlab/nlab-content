@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
 =--
 =--
 
@@ -16,6 +20,9 @@
 ## Idea
 
 The  generalization of [[symplectic reduction]] from [[symplectic manifolds]] to [[presymplectic manifolds]].
+
+[[!include symplectic reduction - table]]
+
 
 ## Related concepts
 
