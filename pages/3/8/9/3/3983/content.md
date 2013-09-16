@@ -10,7 +10,7 @@
 Although the definition of a [[Frölicher space]] does not use a topology, it is topological in flavour and there are many topological concepts that can be defined for Fr&#246;licher spaces.  In other pages, we have used the notion of a Hausdorff Fr&#246;licher space and have used a vague notion of a topology on the functions on a Fr&#246;licher space.  In this page, we shall investigate the connections between the theory of Fr&#246;licher spaces and topological spaces a little more consistently.
 
 There are two different ways of thinking of topological notions on Fr&#246;licher spaces.
-One says that there is a functor (actually two functors) from the category of F&#246;licher space to the category of topological spaces so we can say that a Fr&#246;licher space has topological property $P$ if the corresponding topological space has it.
+One says that there is a functor (actually two functors) from the category of Fr&#246;licher space to the category of topological spaces so we can say that a Fr&#246;licher space has topological property $P$ if the corresponding topological space has it.
 The other approach says that we can directly define a property for Fr&#246;licher spaces that is _analogous_ to a topological property.
 We then might hope for a theorem saying that a Fr&#246;licher space with property $P$ defines a topological space with the corresponding property $P$.
 However, this would definitely be a theorem.
@@ -184,7 +184,7 @@ The Fr&#246;licher structure on $Y$ is defined by setting $F_Y$ to be the set of
 The smooth curves are then defined by the saturation condition.
 It is automatic from this definition that any smooth curve in $X$ projects down to a smooth curve in $Y$ which explains why this family of functions on $Y$ is also saturated and hence we have a Fr&#246;licher space structure on $Y$.
 
-To show that $Y$ is Hausdorff, we merely observe that by slight abuse of notation, $F_X = F_Y$ so if $x,y \in X$ are such that $\phi(\overline{x}) = \phi(\overline{y})$ for all $\phi \in F_Y$ then $\phi(x) = \phi(y)$ for all $\phi \in F_X$, whence $overline{x} = \overline{y}$ in $Y$.
+To show that $Y$ is Hausdorff, we merely observe that by slight abuse of notation, $F_X = F_Y$ so if $x,y \in X$ are such that $\phi(\overline{x}) = \phi(\overline{y})$ for all $\phi \in F_Y$ then $\phi(x) = \phi(y)$ for all $\phi \in F_X$, whence $\overline{x} = \overline{y}$ in $Y$.
 
 That this is a quotient is straightforward.
 Any smooth map $g : X \to Z$ which factors through $Y$ _as a set_ must also do so as a Fr&#246;licher space.
