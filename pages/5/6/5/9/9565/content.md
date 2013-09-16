@@ -39,9 +39,12 @@ For the more powerful and more flexible [[geometric quantization by push-forward
 
 ## Related concepts
 
+* [[symplectic reduction]], [[presymplectic reduction]] ([[gauge reduction]]), [[Poisson reduction]], [[BV-BRST formalism]]
+
+* [[equivariant cohomology]]
+
 [[!include symplectic reduction - table]]
 
-* [[BV-BRST formalism]]
 
 ## References
  {#References}
@@ -59,7 +62,11 @@ A survey is in
 
 * [[Michèle Vergne]], _Quantification g&#233;om&#233;trique et r&#180;&#233;duction symplectique, S&#233;minaire Bourbaki, Vol. 2000/2001. Ast&#233;risque No. 282 (2002), Exp. No. 888, viii, 249&#8211;278.
 
-The generalization to non-compact groups acting on non-compact spaces (but with compact quaotients) by passing to [[KK-theory]] and defining the push-forward by the Baum-Connes [[analytic assembly map]] was proposed in 
+Discussion for [[Kähler polarizations]] of mildly singular phase spaces is in 
+
+* [[Johannes Huebschmann]], _K&#228;hler quantization and reduction_, J. reine angew. Math. 591 (2006), 75-109 ([arXiv:math/0207166](http://arxiv.org/abs/math/0207166))
+
+The generalization to non-compact groups acting on non-compact spaces (but with compact quotients, hence "co-compactly") by passing to [[KK-theory]] and defining the push-forward by the Baum-Connes [[analytic assembly map]] was proposed in 
 
 * [[Klaas Landsman]] _Functorial quantization and the Guillemin-Sternberg conjecture_. In S. Ali, G. Emch, A. Odzijewicz, M. Schlichenmaier, and S. Woronowicz (eds.), _Twenty years of Bialowieza: a mathematical anthology_, pages 23&#8211;45, Singapore, 2005. World Scientific. ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
 
