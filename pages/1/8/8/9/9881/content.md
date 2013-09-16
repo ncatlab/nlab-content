@@ -168,6 +168,12 @@ Discussion of 2-loop amplitudes from holomorphy arguments is in
 
 For more references see, for the moment, at _[[string theory results applied elsewhere]]_.
 
+### More
+
+On point-particle limit via [[tropical geometry]]
+
+* Piotr Tourkine, _Tropical Amplitudes_ ([arXiv:1309.3551](http://arxiv.org/abs/1309.3551))
+
 [[!redirects string scattering amplitudes]]
 
 [[!redirects string scatt]]
