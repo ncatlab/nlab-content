@@ -5,7 +5,7 @@
 
 ## Idea
 
-Equivariance is compatibility with a [[group]] [[action]].
+Equivariance is compatibility with a [[group]] [[action]]. See at _[[equivariant structure]]_.
 
 ## Related concepts
 
