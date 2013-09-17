@@ -546,6 +546,11 @@ The following particular type theories are important enough to (potentially) hav
 ## References
  {#References}
 
+Original articles include
+
+* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+
 Surveys and introductions include
 
 * Herman Geuvers, _Introduction to type theory_, Lecture notes 2008  ([pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf))
