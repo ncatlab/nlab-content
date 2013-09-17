@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,6 +37,8 @@ hence which are [[flow lines]] of the [[flow]] induced by the [[Hamiltonian vect
 
   * [[prequantized Lagrangian correspondence]]
 
+* [[differential equation]]
+
 * [[equations of motion]]
 
   * [[Newton's laws of motion]]
@@ -37,3 +54,5 @@ hence which are [[flow lines]] of the [[flow]] induced by the [[Hamiltonian vect
 [[!redirects Hamilton's equation]]
 
 [[!redirects Hamilton equation]]
+[[!redirects Hamilton equations]]
+
