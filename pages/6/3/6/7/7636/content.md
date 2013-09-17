@@ -349,7 +349,7 @@ The [[equivalence of categories]] between [[locally cartesian closed categories]
 
 following a statement earlier conjectured in 
 
-* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118.
+* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
 The problem with strict substitution compared to weak pullback in this argument was discussed and fixed in 
 
