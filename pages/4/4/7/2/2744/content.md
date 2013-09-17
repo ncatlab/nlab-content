@@ -64,7 +64,7 @@ as a description of [[classical field theory]].
 
 Recall that that an ordinary [[phase space]] of a [[physical system]] is a [[symplectic manifold]] whose points correspond to the _[[states]]_ of the system. The **extended phase space** of an $n$-dimensional quantum field theory is a multisymplectic space whose points correspond to pairs consisting of
 
-* a point in the field theorie's parameter space -- an "event";
+* a point in the field theory's parameter space -- an "event";
 
 * a state of the theory "at that event".
 
@@ -76,43 +76,82 @@ Consider [[classical field theory]] over a **parameter space** $\Sigma$. From th
 
 We assume that a **[[field (physics)|field configuration]]** on $\Sigma$ is a [[section]]  $\phi : \Sigma \to E$ of some prescribed [[bundle]] $E \to \Sigma$: the _[[field bundle]]_. 
 
-**Example.** For instance an $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $\Sigma$ are given by maps 
++-- {: .num_example}
+###### Example
+
+For instance an $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $\Sigma$ are given by maps 
 
 $$
-  \phi : \Sigma \to X
+  \phi : \Sigma \longrightarrow X
 $$ 
 
 into some prescribed **[[target space]]** $X$. This is the case where $E = \Sigma \times X$ is a **trivial [[bundle]]**.
 
-**Remark.** Beware of the standard source of confusion here when correlating this formalism with actual physics: the physical [[spacetime]] that we inhabit may be given either by $\Sigma$ or by $X$:
+=--
+
++-- {: .num_remark}
+###### Remark 
+
+Beware of the standard source of confusion here when correlating this formalism with actual physics: the physical [[spacetime]] that we inhabit may be given either by $\Sigma$ or by $X$:
 
 * in the description of the [[quantum mechanics]] of objects propagating _in_ our physical [[spacetime]], subject to [[forces]] exerted by fixed 
 [[background gauge fields]] (such as electrons propagating in our particle accelerator, subject to the electromagnetic field in the accelerator tube), physical spacetime is identifid with target space $X$, while $\Sigma$ is the **worldvolume** of the object that propagates through $X$. The _field configurations_ on $\Sigma$ are really the maps $\Sigma \to X$ that determine how the object sits in spacetime.
 
 * in quantum mechanics of fields on spacetime, such as the quantized electromagnetic field in a laser, it is $\Sigma$ which represents physical spacetime, and $X$ is some abstract space, for instance a smooth version of the [[classifying space]] $\mathcal{B}U(1)$, so that a field configuration $\Sigma \to X$ encodes a [[line bundle]] [[connection on a bundle|with connection]] that encodes a configuration of the [[electromagnetic field]].
 
-
-**Definition.** The **configuration space** of the system is the space of all field configurations, hence the space $\Gamma_\Sigma(E)$ of [[section]]s of the [[bundle]] $E$.
-
-In the $\sigma$-model example this is some incarnation of the mapping space $[\Sigma,X]$.
-
-**Remark.** Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
-
-**Definition.** In the **non-covariant** approach one would try to consider the a [[cotangent bundle]] of the configuration space $\Gamma(E)$ as _phase space_ . Contrary to that, in the **covariant approach** one considers the much smaller space $E$ instead. This is then called the **covariant configuration space** or **covariant configuration bundle**.
+=--
 
 
-**Definition** Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration space bundle $E \to \Sigma$. Its fiber over $s \in \Sigma$ are equivalence classses of [[germ]]s of [[section]]s at $x$, where two germs are identified if their first derivatives coincide. 
++-- {: .num_defn}
+###### Definition
 
+The **configuration space** of the system is the space of all field configurations, hence the space $\Gamma_\Sigma(E)$ of [[sections]] of the [[bundle]] $E$.
+
+=--
+
+In the [[sigma-model]] example this is some incarnation of the 
+[[mapping space]] $[\Sigma,X]$.
+
+
+
++-- {: .num_remark}
+###### Remark
+
+Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the **non-covariant** approach one would try to consider the a [[cotangent bundle]] of the configuration space $\Gamma(E)$ as _phase space_ . Contrary to that, in the **covariant approach** one considers the much smaller space $E$ instead. This is then called the **covariant configuration space** or **covariant configuration bundle**.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+
+Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration space bundle $E \to \Sigma$. Its [[fiber]] over $s \in \Sigma$ are equivalence classses of [[germs]] of [[sections]] at $x$, where two germs are identified if their first derivatives coincide. 
+
+=--
 
 ### Covariant phase space
 
 
-**Definition** The **covariant phase space** is the multisymplectic manifold 
++-- {: .num_defn}
+###### Definition
 
-* whose underlying manifold is the **dual jet bundle** 
-  $(J^1 E)^* \to E$ -- the [[vector bundle]] 
-  over covariant configuration space $E$ whose 
-  fiber at $e \in E_s$ is the set of affine maps 
+Given a [[spacetime]]/[[worldvolume]] $\Sigma$ and a [[field bundle]] $E \to \Sigma$, the **extended covariant phase space** is the multisymplectic manifold 
+
+* whose underlying manifold is the **dual first jet bundle** 
+  
+  $$
+    (J^1 E)^* \to E
+    \,,
+  $$ 
+
+  hence the [[vector bundle]] over covariant configuration space $E$ whose fiber at $e \in E_s$ is the set of affine maps 
 
   $$
     J_e^1 E \to \Lambda_s^{n+1} \Sigma
@@ -129,10 +168,11 @@ In the $\sigma$-model example this is some incarnation of the mapping space $[\S
 
   where $\alpha$ is the canonical $(n+1)$-form
 
-Given $\pi : E \to \Sigma$, with $\mathrm{dim} \Sigma =n+1$, the dual jet bundle $(J^1 E)^*$ is isomorphic to a particular vector sub-bundle of the $n+1$-form bundle $\Lambda^{n+1}T^{*}E$. 
+=--
+
+Given $\pi \colon E \to \Sigma$, with $\mathrm{dim} \Sigma =n+1$, the dual jet bundle $(J^1 E)^*$ is isomorphic to a particular vector sub-bundle of the $n+1$-form bundle $\Lambda^{n+1}T^{*}E$. 
 Given a point $y \in E$, a tangent vector $v \in T_{y} E$ 
-is said to be **vertical** if $d \pi(v) = 0$.  
-Define $\Lambda^{n+1}_{1}T^{*}E$ to be the subbundle of the $n+1$-form bundle $\Lambda^{n+1} T^{*} E$ whose fiber at $y \in E$ 
+is said to be **[[vertical tangent vector|vertical]]** if $d \pi(v) = 0$.   Define $\Lambda^{n+1}_{1}T^{*}E$ to be the subbundle of the $n+1$-form bundle $\Lambda^{n+1} T^{*} E$ whose fiber at $y \in E$ 
 consists of all $\beta \in \Lambda^{n+1} T^{*}_{y} E$ such that
 $$          \iota_{v_1}\iota_{v_2} \beta =0   $$
 for all vertical vectors $v_1,v_2 \in T_{y}E$.
