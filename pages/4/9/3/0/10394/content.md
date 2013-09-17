@@ -19,9 +19,8 @@ A _Hamiltonian $n$-vector field_ is the $n$-dimensional analog of a [[Hamiltonia
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #ExtendedHamiltonEquations}
 ###### Definition
-
 
 Let $X$ be a [[smooth manifold]] equipped with a degree $(n+1)$ [[differential form]] $\omega \in \Omega^{n+1}(X)$ for $n \in \mathbb{N}$, with the pair $(X,\omega)$ regarded as a [[multisymplectic manifold]]/[[n-plectic manifold]].
 
@@ -37,7 +36,95 @@ $$
 
 =--
 
-Here on the left 
+## Interpretation in higher geometry
+
++-- {: .num_remark #nExtendedHamiltonEquationAsLInfinityRelation}
+###### Remark
+
+By the discussion at [[n-plectic geometry]], a (pre-)[[n-plectic manifold]] $(X,\omega)$ induces a [[Poisson bracket Lie n-algebra]] $\mathfrak{pois}(X,\omega)$, give as follows:
+
+* in in possitive degree $k$ it has the degree $(n-k)$-[[differential forms]] on $X$
+
+* in degree 0 it has pairs $(v,A)$ of [[Hamiltonian n-forms]] $A$ with their [[Hamiltonian vector fields]] $v$ (such that $\mathbf{d}A = \iota_v \omega$)
+
+and
+
+* whose [[L-infinity algebra|n-ary Lie bracket]] for $n \geq 2$ is non-trivial only on $n$-tuples of degree-0 elements, where it is given by
+
+  $$
+    [(v_1, A_1), \cdots, (v_n,A_n)]
+    =
+    \pm
+    \iota_{v_n}\cdots \iota_{v_1} \omega
+    \;\;\;
+    \in
+    \Omega^1(X)    
+    \,,
+  $$
+
+* and whose unary Lie bracket is given by the [[de Rham differential]].
+
+This means that the $n$-extended Hamilton equation of def. \ref{ExtendedHamiltonEquations} read in terms of the [[Poisson bracket Lie n-algebra]] equivalently thus ([hgp 13, remark 2.5.10](#hgp13))
+
+$$
+  [v_1, \cdots, v_n] = [H]
+  \,.
+$$
+
+=--
+
+We can further interpret this in [[local prequantum field theory]] as follows:
+
++-- {: .num_remark }
+###### Remark
+
+By ([hgp 13](#hgp13)) the [[Poisson bracket Lie n-algebra]] is the [[Lie differentiation]] of the smooth [[automorphism n-group]]
+of any [[prequantization]] of $(X,\omega)$ by a  [[prequantum n-bundle]] $\nabla$:
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}^n U(1)_{conn}
+    \\
+    & {}_{\mathllap{\omega}}\searrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \mathbf{\Omega}^n_{cl}
+  }
+$$
+
+regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$ of that [[cohesive (∞,1)-topos]] $\mathbf{H}$ of [[smooth ∞-groupoids]], hence of the [[quantomorphism n-group]])
+
+$$
+  QuantMorph(X,\nabla) = \mathbf{Aut}_{\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}}(\nabla)
+  \,.
+$$
+
+
+In terms of this [[Lie integration|Lie integrated]] perspective, remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} says that $H$-Hamitlonian $n$-vector fields are the infinitesimal [[n-morphisms]] in $\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)^{\Box_n}$ whose faces carry trivial labels.
+
+Here for instance for $n = 2$ a [[2-morphism]] in $\left(\mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}\right)^{\Box_2}$ looks, "viewed from the top", like a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    X && \stackrel{}{\longrightarrow} && X
+    \\
+    & {}_{\mathllap{\nabla}}\searrow && \swarrow_{\mathrlap{\nabla}}
+    \\
+    \downarrow && \mathbf{B}^2 U(1)_{conn} && \downarrow
+    \\
+    &  {}^{\mathllap{\nabla}}\nearrow && \nwarrow^{\mathrlap{\nabla}}
+    \\
+    X && \underset{}{\longrightarrow} && X
+  }
+$$
+
+with a big 3-[[homotopy]] filling this pyramid.
+
+The equation of remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} is the [[Maurer-Cartan equation]] exhibiting an infinitesimal such situation.
+
+(...)
+
+=--
+
 
 ## Related concepts
 
@@ -45,6 +132,17 @@ Here on the left
 
 
 ## References
+
+The specific condition of def. \ref{ExtendedHamiltonEquations} appears as equation (4) in 
+
+* [[Frédéric Hélein]], _Hamiltonian formalisms for multidimensional calculus of variations and perturbation theory_ ([arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036))
+  {#Helein02}
+
+Remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} appears in remark 2.5.10 of 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  {#hgp13}
+
 
 [[!redirects Hamiltonian n-vector fields]]
 
