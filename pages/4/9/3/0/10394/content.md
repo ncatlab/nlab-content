@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Hamiltonian $n$-vector field_ is the $n$-dimensional analog of a [[Hamiltonian vector field]] as one passes from [[symplectic geometry]] to [[multisymplectic geometry]]/[[n-plectic geometry]]. Roughly, the [[transgression]] of a Hamiltonian $n$-vector field to [[mapping spaces]] out of an $(n-1)$-manifold yields an ordinary [[Hamiltonian vector field]].
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+
+Let $X$ be a [[smooth manifold]] equipped with a degree $(n+1)$ [[differential form]] $\omega \in \Omega^{n+1}(X)$ for $n \in \mathbb{N}$, with the pair $(X,\omega)$ regarded as a [[multisymplectic manifold]]/[[n-plectic manifold]].
+
+
+Let moreover $H \;\colon\; X \longrightarrow \mathbb{R}$ be a [[smooth function]], to be regarded as an extended [[Hamiltonian function]], hence a [[de Donder-Weyl Hamiltonian]].
+
+Then a _Hamiltonian $n$-vector field_ on $X$ is an $n$-[[multivector field]] $\mathbf{v} \in \Gamma(\wedge^{n} T X)$ satisfying the analog of [[Hamilton's equations]], namely the [[differential equation]] of [[differential 1-forms]] on $X$
+
+$$
+  \iota_{\mathbf{v}} \omega = \mathbf{d} H 
+  \,.
+$$
+
+=--
+
+Here on the left 
+
+## Related concepts
+
+* [[de Donder-Weyl formalism]]
+
+
+## References
+
+[[!redirects Hamiltonian n-vector fields]]
+
+[[!redirects Hamiltonian multivector field]]
+[[!redirects Hamiltonian multivector fields]]
+
+[[!redirects Hamiltonian multi-vector field]]
+[[!redirects Hamiltonian multi-vector fields]]
