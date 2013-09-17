@@ -9,21 +9,22 @@
 =--
 =--
 
-This entry is about the book
+This entry collects hyperlinks related to the textbook
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_.
+* [[Saunders MacLane]], [[Ieke Moerdijk]], 
 
-For more information on "sheaves in geometry and logic" see for instance
+  _Sheaves in Geometry and Logic_
 
-* [[sheaf and topos theory]]
+  Springer Verlag, 1992
 
-* [[sheaf]]
+on [[sheaf and topos theory]] and its application in [[categorical logic]].
 
-* [[topos]]
 
-For a similar link list with considerable overlap see
+For a similar link lists see also
 
-* [[Categories and Sheaves]]
+* _[[Categories and Sheaves]]_
+
+* _[[Sketches of an Elephant]]_
 
 
 # Content #
