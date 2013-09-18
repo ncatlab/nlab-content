@@ -1,0 +1,30 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]], then a [[differential form]] on $P$ is _horizontal_ if it vanishes on [[vertical vector fields]].
+
+## Related concepts
+
+* [[variational bicomplex]]
+
+[[!redirects horizontal differential forms]]
+
+[[!redirects horizontal form]]
+[[!redirects horizontal forms]]
+
