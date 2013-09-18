@@ -1,4 +1,8 @@
 
 * [wikipedia entry](http://de.wikipedia.org/wiki/Jerrold_Marsden)
 
+## Related entries
+
+* [[Marsden-Weinstein reduction]] ([[symplectic reduction]])
+
 category: people
