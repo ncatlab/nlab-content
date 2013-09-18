@@ -135,6 +135,8 @@ See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more
 
   * [[smooth loop space]]
 
+* [[caloron correspondence]]
+
 * [[suspension object]]
 
   * [[suspension]]
