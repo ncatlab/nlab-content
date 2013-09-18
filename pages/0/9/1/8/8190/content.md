@@ -79,6 +79,8 @@ the critical field configurations are precisely those whose top-degree multi-tan
 
 Reviews include
 
+* Wikipedia, _[De Donder-Weyl theory](http://en.wikipedia.org/wiki/De_Donder%E2%80%93Weyl_theory)_
+
 * Narciso Rom&#225;n-Roy, _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100 ([journal](http://www.emis.de/journals/SIGMA/2009/100/), [arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022)) 
 
 * [[Frédéric Hélein]], _Hamiltonian formalisms for
