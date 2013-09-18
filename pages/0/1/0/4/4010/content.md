@@ -63,7 +63,11 @@ $$
 ...
 
 ## Properties ##
-...
+
+### Decomposition into phase and amplitude
+
+
+
 
 ## Examples ##
 ...
