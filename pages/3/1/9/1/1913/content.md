@@ -265,6 +265,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[de Rham cohomology]]
 
+* [[horizontal differential form]]
+
 ## References
 
 A standard reference is
