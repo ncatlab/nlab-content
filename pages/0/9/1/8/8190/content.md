@@ -77,6 +77,16 @@ the critical field configurations are precisely those whose top-degree multi-tan
 
 ## References
 
+Maybe the first example of what is now called De Donder-Weyl theory appeared in 
+
+* [[Constantin Carathéodory]], _&#220;ber die Extremalen und geod&#228;tischen Felder in der Variationsrechnung der mehrfachen Integrale_, Acta Sci. Math. (Szeged) 4 (1929) 193-216
+
+Then Weyl and de Donder independently published 
+
+* [[Hermann Weyl]], _Geodesic fields in the calculus of variations_, Ann. Math. (2) 36 (1935) 607-629.
+
+* [[Théophile de Donder]], _Th&#233;orie invariante du calcul des variations_, Nuov. &#233;d, Gauthiers&#8211;Villars, Paris 1935
+
 Reviews include
 
 * Wikipedia, _[De Donder-Weyl theory](http://en.wikipedia.org/wiki/De_Donder%E2%80%93Weyl_theory)_
