@@ -548,7 +548,7 @@ This discussion so far concerns field theories of first order, i.e. where the La
 
 A comprehensive source on covariant field theory with plenty of further references is
 
-* Mark J. Gotay, James Isenberg, Jerrold E. Marsden, Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
+* Mark J. Gotay, James Isenberg, [[Jerrold Marsden]], Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
 
 Much of the material in the [section on covariant field theory](#extended phase space) is based on this.
 
