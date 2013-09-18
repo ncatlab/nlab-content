@@ -31,10 +31,10 @@ More precisely: a stationary [[semiclassical state]] of a [[particle]] propagati
 
 $$
   \psi \colon (x,t) \mapsto \exp(i S(x)/\hbar) a(x) \exp(-i \omega t)
-  \,.
+  \,,
 $$
 
-The [[de Rham differential]] of the **[[complex phase]]-function** 
+where $S$ and $A$ are real-valued functions. The [[de Rham differential]] of the **[[complex phase]]-function** 
 
 $$
   S\;\colon\; X \to \mathbb{R}
