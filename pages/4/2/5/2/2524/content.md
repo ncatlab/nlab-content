@@ -35,28 +35,43 @@ For continuum systems satisfying reasonable locality, Lagrangians can be express
 
 ## Definition
 
-For $X$ a ([[spacetime]]) [[smooth manifold]] of [[dimension]] $n$ and $E \to X$ a field [[bundle]] with [[jet bundle]] $j_\infty E \to X$ let $\Omega^{\bullet, \bullet}(j_\infty E)$ be the corresponding [[variational bicomplex]].
+For $X$ a ([[spacetime]]/[[worldvolume]]) [[smooth manifold]] of [[dimension]] $n$, let $E \to X$ be a [[vector bundle]],
+to serve as the _[[field bundle]]_ for the $n$-dimensional [[field theory]] Lagrangian to be defined.
 
-A **Lagrangian** on $E$ is an element
+Denote the [[jet bundle]] by $j_\infty E \to X$ and write $\Omega^{\bullet, \bullet}(j_\infty E)$ be the corresponding [[variational bicomplex]].
+
++-- {: .num_defn}
+###### Definition
+
+A **local Lagrangian** on [[field (physics)|fields]] given by the [[field bundle]] $E \to X$ is given by an element
 
 $$
   L \in \Omega^{n,0}(j_\infty E)
+  \,,
 $$
 
-regarded as a [[differential form]]-valued [[functional]] on the space of [[section]]s:
+hence a [[horizontal differential form]] of degree $n$ on the [[jet bundle]] of $E$.
+
+The local Lagrangian itself is the [[pullback of differential forms|pullback]] of this along the [[jet prolongation]] map
+$j_\infty \colon \Gamma_X(E) \longrightarrow \Gamma(j_\infty E)$,
+hence the [[differential form]]-valued [[functional]] on the 
+[[space of sections]] of $E$ given by
 
 $$
-  L : (\phi \in \Gamma(E)) \mapsto L(j_\infty \phi)
+  L : (\phi \in \Gamma(E)) \mapsto L(j_\infty \phi) \in \Omega^n(X)
   \,.
 $$
 
-The [[integral]]
+The [[integral]] (for [[compact topological space|compact]] $X$)
 
 $$
-  \int_X L(j_\infty(-)) : \Gamma(\phi) \to \mathbb{R}
+  \int_X L(j_\infty(-)) \;\colon\; 
+  \Gamma(E) \longrightarrow \mathbb{R}
 $$
 
 is the corresponding [[local action functional]].
+
+=--
 
 ## Related concepts
 
