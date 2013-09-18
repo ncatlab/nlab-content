@@ -41,9 +41,9 @@ $$
 +-- {: .num_remark #nExtendedHamiltonEquationAsLInfinityRelation}
 ###### Remark
 
-By the discussion at [[n-plectic geometry]], a (pre-)[[n-plectic manifold]] $(X,\omega)$ induces a [[Poisson bracket Lie n-algebra]] $\mathfrak{pois}(X,\omega)$, give as follows:
+By the discussion at [[n-plectic geometry]], a (pre-)[[n-plectic manifold]] $(X,\omega)$ induces a [[Poisson bracket Lie n-algebra]] $\mathfrak{pois}(X,\omega)$, given as follows:
 
-* in in possitive degree $k$ it has the degree $(n-k)$-[[differential forms]] on $X$
+* in possitive degree $k$ it has the degree $(n-k)$-[[differential forms]] on $X$
 
 * in degree 0 it has pairs $(v,A)$ of [[Hamiltonian n-forms]] $A$ with their [[Hamiltonian vector fields]] $v$ (such that $\mathbf{d}A = \iota_v \omega$)
 
@@ -64,7 +64,7 @@ and
 
 * and whose unary Lie bracket is given by the [[de Rham differential]].
 
-This means that the $n$-extended Hamilton equation of def. \ref{ExtendedHamiltonEquations} read in terms of the [[Poisson bracket Lie n-algebra]] equivalently thus ([hgp 13, remark 2.5.10](#hgp13))
+This means that the $n$-extended Hamilton equation of def. \ref{ExtendedHamiltonEquations} reads in terms of the [[Poisson bracket Lie n-algebra]] equivalently thus ([hgp 13, remark 2.5.10](#hgp13)):
 
 $$
   [v_1, \cdots, v_n] = [H]
@@ -121,7 +121,38 @@ with a big 3-[[homotopy]] filling this pyramid.
 
 The equation of remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} is the [[Maurer-Cartan equation]] exhibiting an infinitesimal such situation.
 
-(...)
+More in detai: the [[Lie integration]] of $\mathfrak{pois}(X,\omgea)$ is a [[simplicial object]] which in simplicial degree $n$ has as elements the [[Maurer-Cartan elements]] of $\Omega^\bullet(\Sigma_n)\otimes \mathfrak{pois}(X,\omgea)$, where $\Sigma_n = \Delta^n$ is the $n$-dimensional [[simplex]], regarded as a [[smooth manifold]] (with boundaries and corners).
+
+Write then $\mathbf{d}\sigma^i$ for the canonical [[basis]] of 1-forms on $\Sigma_n$, then consider an element in there is of the form
+
+$$
+  A 
+  = 
+  \mathbf{d}\sigma^i \otimes v_i
+  + 
+  vol \otimes H
+ \,.
+$$
+
+This satisfying the [[Maurer-Cartan equation]]
+
+$$
+  \mathbf{d}A + [A] +  [A \wedge A] + [A\wedge A \wedge A] + \cdots = 0
+$$
+
+then is equivalent to
+
+$$
+  [\mathbf{d}\sigma^1 \otimes v_1 \wedge \cdots \wedge \mathbf{d}\sigma^1 \otimes v_1]
+  + 
+  \underbrace{
+    \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^n
+  }_{= vol}
+  \otimes [H]
+  = 0
+$$
+
+which is again the de Donder-Weyl-Hamilton equation of motion.
 
 =--
 
