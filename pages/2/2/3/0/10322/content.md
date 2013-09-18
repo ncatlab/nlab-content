@@ -30,6 +30,12 @@ Since phase spaces are mathematically identified with [[symplectic manifolds]], 
 
 ## References
 
+The standard definition, interpreted in [[symplectic geometry]] appears for instance on p. 206 of
+
+* [[Vladimir Arnold]], _[[Mathematical methods of classical mechanics]]_
+
+Discussion of generating functions starts on p. 266 there.
+
 The formalization in terms of [[Lagrangian correspondences]] is discussed on p. 5 of
 
 * [[Alan Weinstein]], _Lectures on Symplectic Manifolds_, volume 29 of CBMS Regional Conf. Series in Math. Amer. Math. Soc., 1983. third 
