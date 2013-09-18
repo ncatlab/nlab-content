@@ -141,7 +141,7 @@ Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration
 +-- {: .num_defn #DualFirstJetBundle}
 ###### Definition
 
-Given a [[vector bundle]] $E \to \Sigma$, the **dual first jet bundle** $(J_1 E)^\ast \to \Sigma$ is the [[vector bundle]] whose [[fiber]] at $e \in E_s$ is the set of [[affine maps]]
+Given a [[vector bundle]] $E \to \Sigma$ over a [[smooth manifold]] of [[dimension]] $dim(\Sigma)  = n+1$, the **dual first jet bundle** $(J_1 E)^\ast \to \Sigma$ is the [[vector bundle]] whose [[fiber]] at $e \in E_s$ is the set of [[affine maps]]
 
 $$
   J_e^1 E \longrightarrow \Lambda_s^{n+1} \Sigma
@@ -302,11 +302,11 @@ $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$, as desired.
 =--
 
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_remark}
+###### Remark
 
 In practice it is better to use the [[pullback of differential forms|pulled back]] [[volume form]] $\pi^* \vol$ as a substitute for the coordinate-dependent $n+1$-form $\mathbf{d}q^1 \wedge \cdots \wedge \mathbf{d}q^{n+1}$ on $E$.  This gives another [[basis]] of
-sections of $\Lambda_1^{n+1} T^* E$, which by abuse of notation we call
+sections of $\Lambda_1^{n+1} T^* E$, whose elements we write suggestively 
 
 $$  
   dQ \coloneqq \pi^* \vol   
@@ -323,16 +323,19 @@ $$
   \,.
 $$
 
-Corresponding to this basis there are
-local coordinates $P$ and $P^i_a$ on $\Lambda_1^{n+1} T^* E$, which combined with the coordinates $q^i$ and $u^a$ pulled back from $E$ give a local coordinate system on $\Lambda_1^{n+1} T^* E$.  
+Corresponding to this [[basis]] then there are
+local [[coordinates]] $P$ and $P^i_a$ on $\Lambda_1^{n+1} T^* E$, which combined with the coordinates $q^i$ and $u^a$ pulled back from $E$ give a local coordinate system on $\Lambda_1^{n+1} T^* E$.  
 
 In these [[coordinates]] the canonical $n+1$-form on $(J^1 E)^* \cong \Lambda_1^{n+1} T^* E$ is:
+
 $$
-          \alpha = P dQ + P^i_a dQ_i^a, 
+  \alpha = P \wedge dQ + P^i_a \wedge dQ_i^a, 
 $$
+
 and the $n+2$ [[multisymplectic form]] is
+
 $$ 
-\omega = \mathbf{d}P \wedge dQ + \mathbf{d}P^i_a \wedge dQ_i^a.
+  \omega = \mathbf{d}P \wedge dQ + \mathbf{d}P^i_a \wedge dQ_i^a.
 $$
 
 =--
