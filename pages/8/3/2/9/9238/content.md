@@ -23,7 +23,15 @@ A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called
 
 ## Definition
 
-### Kinematics and dynamics in BV formalism
+### In covariant phase space geometry/multisymplectic geometry
+
+
+For discussion of free field theory in [[covariant phase space]]-formulation/[[multisymplectic geometry]] for the moment see at _[multisymplectic geometry -- Examples -- Free field theory](multisymplectic%20geometry#FreeFieldTheory)_.
+
+
+### In BV-formalism
+
+#### Kinematics and dynamics
 
 In the formalization of [[perturbation theory]] via [[BV-quantization]] as in ([Costello-Gwilliam](#CostelloGwilliam)), a free field theory is given by a [[BV-complex]] that arises from the following data.
 
@@ -162,7 +170,7 @@ $$
 
 [[!include action (physics) - table]]
 
-### The classical observables
+#### The classical observables
  {#TheClassicalObservables}
 
 
@@ -198,7 +206,7 @@ in ([Gwilliam](#Gwilliam)), this is def. 5.3.6.
 
 
 
-### The quantum observables
+#### The quantum observables
  {#TheQuantumObservables}
 
 There is a canonical [[BV-quantization]] of the [above classical observable](#TheClassicalObservables) of a free field theory
