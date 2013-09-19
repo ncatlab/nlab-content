@@ -45,9 +45,9 @@ There are two main routes to the construction of the covariant phase space,
 ### (S) Via pre-symplectic structures
  {#ViaSymplecticStructure}
 
-We describe the canonical [[presymplectic structure]] on the covariant phase space of a [[local action functional]]. The _covariant phase space_ is defined as the space of critical points of an action functional or, equivalently, the space of solutions of its [[Euler-Lagrange equation]]s, also known as the _shell_. The shell is naturally embedded as a subset of the space of all field configurations. Terminology is as in the discussion at [[variational bicomplex]].
+We describe the canonical [[presymplectic structure]] on the covariant phase space of a [[local action functional]]. The _covariant phase space_ is defined as the space of critical points of an action functional or, equivalently, the space of solutions of its [[Euler-Lagrange equation]]s, also known as the _shell_. The shell is naturally embedded as a subset of the space of all field configurations. Below, terminology and notation are as in the discussion at [[variational bicomplex]].
 
-Let $E \to X$ be a smooth [[fiber bundle]] over [[spacetime]] $X$ and $J(E)$ the corresponding [[jet bundle]]. The [[local action functional]]
+Let $E \to X$ be a smooth [[fiber bundle]] over an $n$-dimensional [[spacetime]] $X$ and $j_\infty E$ the corresponding [[jet bundle]]. The total [[de Rham differential]] on $j_\infty E$ decomposes, $\mathbf{d} = d + \delta$, into the anti-commuting horizontal and vertical differentials, $d$ and $\delta$. The [[local action functional]]
 
 $$
   S : \Gamma(E) \to \mathbb{R}
@@ -56,7 +56,7 @@ $$
 is by definition given by a [[Lagrangian]]
 
 $$
-  L : \Gamma(J(E)) \to \Omega^{dim X}(X)
+  L : \Gamma(j_\infty E) \to \Omega^{n}(X)
 $$
 
 as
@@ -66,23 +66,18 @@ $$
   \,.
 $$
 
-The [[variational calculus|variation]] of $S$ is
+The [[variational calculus|variation]] of the action $S$ can be written in terms of the vertical differential:
 
 $$
-  \begin{aligned}
-    \delta S (\phi) 
-     &= 
-    \int_X \delta L(j_\infty(\phi))
-    \\
-     &= 
-    \int_X EL(\phi) \delta \phi 
-      + 
-     \int_X d_{dR} \theta(\phi)
-    \,,
-  \end{aligned}
+  \delta S (\phi) = \int_X (\delta L)(j_\infty(\phi)) \,,
+$$
+where the first $\delta$ the variational differential (as interpreted in the [bicomplex definition](variational+bicomplex#BicomplexDefinition)) and the second $\delta$ is the vertical differential. Thus, for the purposes of variational calculus, we can concentrate purely on the vertical differential of the Lagrangian, which canonically decomposes as follows:
+
+$$
+  \delta L = EL(\phi)\delta\phi - d \theta(\phi) \,,
 $$
 
-where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(1,dim X)$ and $\theta$ is a degree-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $dim X$ or $(dim X - 1)$-spacetime form degrees). 
+where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$, and where $EL(\phi)\delta\phi$ is a degree-$(n,1)$ and $\theta$ is a degree-$(n-1,1)$ element in the [[variational bicomplex]] (one variational form degree and, respectively, $n$ or $(n-1)$-spacetime form degrees).
 
 +-- {: .num_remark #CanonicalThetaDensityInLocalCoordinates}
 ###### Remark 
@@ -104,30 +99,29 @@ If $L = L_{kin} + L_{pot}$ is the sum of a standard [[kinetic Lagrangian]] for a
 =--
 
 
-The above definition of $EL$ and $\theta$ in terms of $\delta S$ yields the following identity upon taking another exterior variational derivative of both sides
+The above definition of $EL$ and $\theta$ in terms of $\delta L$ yields the following identity upon taking another exterior variational derivative of both sides
 
 $$
-  \delta(\delta S(\phi)) = 0
-  = \int_X \left[
-    \delta(EL(\phi)) \wedge \delta\phi
-    + d_{dR} \delta \theta(\phi) \right]
-  \, ,
+  \delta(\delta L) = 0
+  = \delta(EL(\phi)) \wedge \delta\phi
+    + d \delta \theta(\phi)
+  \,,
 $$
 
-where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. The above wedge product is between variational forms. This implies that the presymplectic current density, $\omega(\phi) = \delta(\theta(\phi))$, is de Rham-closed on shell:
+where the first term on the right clearly vanishes when pulled back to the shell, $EL(\phi)=0$ on $X$. The above wedge product between variational forms is inherited from the wedge product on $\Omega^\bullet(j_\infty E)$. This implies that the presymplectic current density, $\omega(\phi) = \delta(\theta(\phi))$, is horizontally closed on shell:
 
 $$
 \begin{aligned}
-  d_{dR} \iota^* \omega(\phi)
-  &= d_{dR} \iota^* (\delta \theta(\phi)) \\
-  &= \iota^* d_{dR} (\delta \theta(\phi)) \\
+  d \iota^* \omega(\phi)
+  &= d \iota^* (\delta \theta(\phi)) \\
+  &= \iota^* d (\delta \theta(\phi)) \\
   &= -\iota^* \delta(EL(\phi)) \wedge \delta\phi \\
   &= 0
   \, ,
 \end{aligned}
 $$
 
-where $\iota$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s  (the shell) into the space of all field configurations. The reason is that $\iota^* \delta(EL(\phi)) = 0$ for each $x\in X$, since the functions $EL(\phi)$ are all constant (in fact $0$) on solutions.
+where $\iota: \mathcal{S}_L \to \Gamma(E)$ is the embedding of the solutions of the [[Euler-Lagrange equation]]s  (the shell) into the space of all field configurations. The reason is that $\iota^* \delta(EL(\phi)) = 0$ for each $x\in X$, since the functions $EL(\phi)$ are all constant (in fact $0$) on solutions.
 
 The variational 1-form on the space of field configurations
 
@@ -142,7 +136,7 @@ $$
   = \int_{X|_{in}} \omega(\phi)
 $$
 
-on the space of field configurations. Since $\omega(\phi)$ is de Rham-closed on shell, the the pullback of the presymplectic form $\iota^* \Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
+on the space of field configurations. Since $\omega(\phi)$ is horizontally closed on shell, the the pullback of the presymplectic form $\iota^* \Omega$ is independent of the choice of the surface $X|_{in}$ (provided the choice is restricted to a single homology class of surfaces).
 
 +-- {: .un_claim}
 ###### Claim
@@ -166,12 +160,12 @@ given a [[presymplectic form]] on the locus of solutions of a system of [[partia
 
 We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
 
-Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is de Rham conserved on solutions:
+Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is horizontally conserved on solutions:
 
 $$
-  d_{dR}  \iota^* \omega(\phi) = \iota^* d_{dR} \omega(\phi) = 0
+  d  \iota^* \omega(\phi) = \iota^* d \omega(\phi) = 0
   \quad \implies \quad
-  d_{dR} \omega(\phi) = P(\phi) \lambda(\phi) + \delta(P(\phi)) \wedge \mu(\phi)
+  d \omega(\phi) = P(\phi) \lambda(\phi) + \delta(P(\phi)) \wedge \mu(\phi)
     = P(\phi) (\lambda(\phi) - \delta\mu(\phi)) + \delta (P(\phi)\mu(\phi))
   \, ,
 $$
@@ -182,11 +176,11 @@ On the other hand, the variational closure of $\omega(\phi)$ also implies the ex
 
 $$
 \begin{aligned}
-  \delta(d_{dR} \theta(\phi))
-    &= - d_{dR}(\delta\theta(\phi)) \\
-    &= - d_{dR} \omega(\phi) \\
+  \delta(d \theta(\phi))
+    &= - d(\delta\theta(\phi)) \\
+    &= - d \omega(\phi) \\
     &= - \delta[P(\phi)(\lambda'(\phi)+\mu(\phi))] \\
-  \implies d_{dR}\theta(\phi) - \delta L(\phi)
+  \implies d\theta(\phi) - \delta L(\phi)
     &= -P(\phi)\lambda''(\phi)
   \, ,
 \end{aligned}
@@ -195,7 +189,7 @@ $$
 where $\lambda''(\phi)$ is a degree-$(1,dim X)$ form and $L(\phi)$ is a Lagrangian degree-$(0,dim X)$ form. Rearranging the last equality as
 
 $$
-  \delta L(\phi) = P(\phi)\lambda''(\phi) + d_{dR}\theta(\phi) \, ,
+  \delta L(\phi) = P(\phi)\lambda''(\phi) + d\theta(\phi) \, ,
 $$
 we conclude that the [[Euler-Lagrange equation]]s of $L(\phi)$ are satisfied on solutions of $P(\phi)=0$, since $EL(\phi)\delta\phi = P(\phi)\lambda''(\phi)$.
 
@@ -219,10 +213,10 @@ We want to make the following
 +-- {: .un_claim}
 ###### Claim
 
-Given a [[local action functional]] on a space of fields over a spacetime $X$. Let $d_{BV}$ denote the [[differential]] of the [[BV-BRST complex]] and let $d_{dR}$ denote the horizontal de Rham differential on $X$. Then
+Given a [[local action functional]] on a space of fields over a spacetime $X$. Let $d_{BV}$ denote the [[differential]] of the [[BV-BRST complex]] and let $d$ denote the horizontal de Rham differential on $X$. Then
 
 $$
-  d_{BV} \int_\Sigma \Omega = \int_X d_{dR} \omega
+  d_{BV} \int_\Sigma \Omega = \int_X d \omega
   \,.
 $$
 
@@ -313,7 +307,7 @@ $$
 where $EL \in \Omega^{dim X, 1}_{loc, BV}(X \times \mathrm{Conf}_{BV})$ is the [[Euler-Lagrange equation|Euler-Lagrange density]] as in [Zuckerman, p. 267](#Zuckerman). By equation g) there, this is
 
 $$
-  \cdots = - \int_X d_{dR} \omega
+  \cdots = - \int_X d \omega
   \,.
 $$
 
