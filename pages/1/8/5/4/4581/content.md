@@ -19,20 +19,20 @@
 
 ## Idea
 
-For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variarional bicomplex** is essentially the [[de Rham complex]] of $j_\infty E$ with [[differential forms]] bigraded by [[horizontal differential form|horizontal]] degree (with respect to $X$) and vertical degree (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
+For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variarional bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(j_\infty E),\mathbf{d})$ of $j_\infty E$ with [[differential forms]] $\Omega^n(j_\infty E) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
 
 $$
-  D = d + \delta
+  \mathbf{d} = d + \delta
   \,,
 $$
 
-where $d$ is the [[de Rham differential]] on $X$ and $\delta$ is the variational differential.
+where $\mathbf{d}$ is the [[de Rham differential]] on $j_\infty E$, $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
 
 Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formalized in terms of the variational bicomplex. For instance 
 
 * a field configuration is a [[section]] of $E$;
 
-* a [[Lagrangian]] is an element $L \in \Omega^{n,0}(j_\infty E)$;
+* a [[Lagrangian]] is an element $L \in \Omega^{n,0}(E)$;
 
 * a [[local action functional]] is a map
 
@@ -50,7 +50,7 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
 * the [[Euler-Lagrange equation]] is 
 
   $$
-    E(L) := \delta L mod im(d) = 0
+    E(L) := \delta L \mod im d = 0
   $$
 
 * the [[covariant phase space]] is the locus 
@@ -61,12 +61,16 @@ Much of [[classical mechanics]] and [[classical field theory]] on $X$ is formali
    \}
   $$
 
-* a [[conserved current]] is an element in $\Omega^{n-1,0}(j_\infty E)$ that is $d$-closed on covariant phase space;
+* a [[conserved current]] is an element $\eta\in \Omega^{n-1,0}(E)$ that is  horizontally closed on the covariant phase space
+
+  $$
+    d \eta = 0 \mod E(L)
+  $$
 
 * a [[symmetry]] is a vertical vector field $v$ such that
   
   $$
-    v(L) = 0 mod im(d)
+    v(L) = 0 \mod im d
   $$
 
 * [[Noether's theorem]] asserts that every [[symmetry]] induces a [[conserved current]].
@@ -122,11 +126,11 @@ $$
 for the [[cochain complex]] of smooth differential forms on the [[product]] $X \times \Gamma(E)$, bigraded with respect to the differentials on the two factors
 
 $$
-  D := d + \delta
+  \mathbf{d} {{:}=} d + \delta
   \,,
 $$
 
-where the first $d = d_{dR}$ is the [[de Rham differential]] on $X$.
+where the $\mathbf{d}$, $d$ and $\delta$, are the [[de Rham differential]]s of $X\times\Gamm(E)$, $X$ and $\Gamma(E)$, respectively.
 
 
 +-- {: .num_defn }
@@ -159,7 +163,7 @@ The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([
 ### The fundamental variational formula
 
 +-- {: .num_defn }
-###### Definition
+###### Definition {#BicomplexDefinition}
 
 A **source form** is an element $\alpha$ in $\Omega^{n,1}_{loc}$ such that
 
@@ -180,7 +184,7 @@ Let $L \in \Omega^{n,0}_{loc}$.
 Then there is a unique source form $E(L) $ such that
 
 $$
-  \delta L = E(L) + d \Theta
+  \delta L = E(L) - d \Theta
   \,.
 $$
 
@@ -219,7 +223,7 @@ $$
 By prop. \ref{VariationOfLagrangian} have
 
 $$
-  d \Omega = \delta E(L)
+  d \Omega = -\delta E(L)
   \,.
 $$
 
@@ -304,7 +308,7 @@ Let $L \in \Omega^{n,0}_{loc}$.
 A vertical vector fields $v \in T_v E \subset T_v j_\infty E$ is a **[[symmetry]]** if
 
 $$
-  v(L) = 0 mod im(d)
+  v(L) = 0 \mod im d
   \,.
 $$
 
@@ -357,7 +361,7 @@ An introduction is in
 
 * Victor Kac, _An explicit construction of the complex of variational calculus and Lie conformal algebra cohomology_, talk at Algebraic Lie Theory, Newton Institute 2009, [video](http://sms.cam.ac.uk/media/538761)
 
-A generalization to [[multisymplectic geometry]] is discussed in
+An application to [[multisymplectic geometry]] is discussed in
 
 * Thomas Bridges, Peter Hydon, Jeffrey Lawson, _Multisymplectic structures and the variational bicomplex_  ([pdf](http://personal.maths.surrey.ac.uk/st/T.Bridges/PAPERS/MPCPS-Paper-09024.pdf))
 
