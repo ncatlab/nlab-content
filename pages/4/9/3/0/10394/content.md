@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Symplectic geometry
-+--{: .hide}
++-- {: .hide}
 [[!include symplectic geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -176,7 +176,9 @@ Remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} appears in remark 2.5.
   {#hgp13}
 
 
+[[!redirects Hamiltonian n-vector field]]
 [[!redirects Hamiltonian n-vector fields]]
+[[!redirects Hamiltonian n-vecotr field]]
 
 [[!redirects Hamiltonian multivector field]]
 [[!redirects Hamiltonian multivector fields]]
