@@ -62,7 +62,7 @@ Symplectic geometry is also involved in [[geometric optics]], [[geometric quanti
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, Amer. Math. Soc. 1977 [free online](http://www.ams.org/online_bks/surv14)
 
-* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * J.J. Duistermaat, _Fourier integral operators_, Progress in Mathematics, Birkh&#228;user 1995 (and many other references at [[microlocal analysis]]).
 
