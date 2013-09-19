@@ -46,11 +46,11 @@ $$
 together with natural [[isomorphism]]s
 
 $$
-  Hom_E(C \otimes D, E)
+  Hom_E(c \otimes d, e)
   \simeq
-  Hom_C(D, hom_l(C,E))
+  Hom_C(d, hom_l(c,e))
   \simeq
-  Hom_D(C, hom_r(D,E))
+  Hom_D(c, hom_r(d,e))
   \,.
 $$
 
