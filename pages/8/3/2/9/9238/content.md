@@ -25,8 +25,102 @@ A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called
 
 ### In covariant phase space geometry/multisymplectic geometry
 
+We describe free field theory in the language of [[covariant phase spaces]] of [[local Lagrangians]] and their [[multisymplectic geometry]].
 
-For discussion of free field theory in [[covariant phase space]]-formulation/[[multisymplectic geometry]] for the moment see at _[multisymplectic geometry -- Examples -- Free field theory](multisymplectic%20geometry#FreeFieldTheory)_.
+Let $\Sigma = (\mathbb{R}^{d-1;1}, \eta)$ be [[Minkowski spacetime]].
+Write the canonical [[coordinates]] as
+
+$$
+  \sigma^i \;\colon\; \Sigma \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Let $(X,g)$ be a [[vector space]] $X$ equipped with a [[bilinear form]] $g$ that makes it a [[Riemannian manifold]]. Write its canonical coordinates as
+
+$$
+  \phi^a \;\colon\; X \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Let then $X \times \Sigma \to \Sigma$ be the [[field bundle]].
+Its first [[jet bundle]] then has canonical coordinates
+
+$$
+  \{ \sigma^i \}, \{\phi^a\}, \{\phi^a_{,i}\} \;\colon\; j_\infty^1(\Sigma \times X) \longrightarrow X
+  \,.
+$$
+
++-- {: .num_defn #FreeFieldLocalLagrangian}
+###### Definition
+
+
+The [[local Lagrangian]] for [[free field theory]] with this [[field bundle]] is
+
+$$
+  L  
+   \coloneqq
+  \left(
+     \frac{1}{2} g^{i j} \eta_{a b} \phi^a_{,i} \phi^a_{,j}
+  \right)
+  \wedge
+  \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[canonical momentum]]-densities  for the free field local Lagrangian of def. \ref{FreeFieldLocalLagrangian} are
+
+$$
+  \begin{aligned}
+    p_a^i \wedge \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d
+      & \coloneqq 
+    \frac{\partial}{\partial u^a_i} L
+    \\
+      & =
+    \left(
+       g^{i j} \eta_{a b} \phi^a_{,j}
+    \right)
+    \wedge
+    \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^d    
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+So the boundary term $\theta$ in [[variational calculus]], 
+(see [this remark](covariant+phase+space#CanonicalThetaDensityInLocalCoordinates) at _[[covariant phase space]]_ ) is
+
+$$
+  \begin{aligned}
+    \mathbf{d}u^a 
+     \wedge
+    \iota_{\partial_i}
+    \left(
+      \frac{\partial}{\partial \phi^a_{,i}}L 
+    \right)
+     & =  
+    p^i_a \wedge (\iota_{\partial_{\sigma^i}} vol) \wedge \mathbf{d}u^a
+    \\
+    & =  p^i_a \wedge dq_i^a
+    \,,
+  \end{aligned}
+$$
+
+where in the last line we adopted the notation of [this remark](#multisymplectic+geometry#CanonicalFormInGoodCoordinates) at _[[multisymplectic geometry]]_.
+
+This shows that the canonical [[multisymplectic form]]
+is the "covariant symplectic potential current density" 
+which is induced by the free field Lagrangian.
+
+=--
+
 
 
 ### In BV-formalism
