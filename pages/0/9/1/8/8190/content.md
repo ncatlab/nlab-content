@@ -44,11 +44,12 @@ as the first-order system of "covariant" [[Hamilton equations]]
 $$
   \partial_\mu \phi^i
     =
-  - \frac{\delta H}{\delta \pi_i^\mu} 
+   \frac{\delta H}{\delta \pi_i^\mu} 
   \,,
   \;\;\;\;
   \partial_\mu \pi^\mu_i
    =
+  -
   \frac{\delta H}{ \delta \phi^i} 
   \,.
 $$
