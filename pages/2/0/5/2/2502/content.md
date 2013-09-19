@@ -58,7 +58,7 @@ $$
   \,,
 $$
 
-where the [[Lie bracket]] of elements in $\mazthfrak{so}(d-1,1)$ with those in $S$ is the given [[action]], the Lie bracket of elements of $\mathbb{R}^{d-1,1}$ with those on $S$ is trivial, and the Lie bracket of two elements $s_1, s_2 \in S$ is given by $\Gamma$:
+where the [[Lie bracket]] of elements in $\mathfrak{so}(d-1,1)$ with those in $S$ is the given [[action]], the Lie bracket of elements of $\mathbb{R}^{d-1,1}$ with those on $S$ is trivial, and the Lie bracket of two elements $s_1, s_2 \in S$ is given by $\Gamma$:
 
 $$
   [s_1,s_2] \coloneqq \Gamma(s_1,s_2)
