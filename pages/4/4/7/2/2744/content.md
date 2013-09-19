@@ -431,6 +431,7 @@ This shows that the canonical [[multisymplectic form]]
 is the "covariant symplectic potential current density" 
 which is induced by the free field Lagrangian.
 
+See also ([Forger Romero 04, section 3.2](#ForgerRomero)).
 
 #### Bosonic particle propagating on a manifold
 
@@ -747,7 +748,7 @@ Higher order [[moment map]]s are considered in
 
 The relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods is discussed in 
 
-* [[Michael Forger]], S. Romero, _Covariant Poisson Brackets in Geometric Field Theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
+* [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson Brackets in Geometric Field Theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
  {#ForgerRomero}
 
 
