@@ -27,7 +27,7 @@ The corresponding [[super Lie group]] is the [[super Euclidean group]] (except f
 ## Definition
  {#Definition}
 
-Let $d \in \mathbb{N}$ and consider [[Minkowski spacetime]] $\mathbb{R} {d-1,1}$. For $Spin(d-1,1)$ the corresponding [[spin group]], let 
+Let $d \in \mathbb{N}$ and consider [[Minkowski spacetime]] $\mathbb{R} ^{d-1,1}$ of [[dimension]] $d$. For $Spin(d-1,1)$ the corresponding [[spin group]], let 
 
 $$
   S \in Rep(Spin(d-1,1))
@@ -43,7 +43,7 @@ which is
 
 1. symmetric:
 
-1. $Spin(V)$ equivariant (a [[homomorphism]] of [[spin representations]]).
+1. $Spin(V)$ [[equivariance|equivariant]] (a [[homomorphism]] of [[spin representations]]).
 
 For a classification of spin representations with this property see at _[[spin representations]]_ the sections _[real irreducible spin representations in Lorentz signature](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_ and _[super Poincar&#233; brackets](spin+representation#SuperPoincareBrackets)_.
 
