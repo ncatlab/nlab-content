@@ -31,6 +31,8 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * V. Tarasov, A. Varchenko, _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp.
 
+* Ian G. Macdonald, _Hypergeometric functions I_, 1987, reprinted in [arxiv/1309.4568](http://arxiv.org/abs/1309.4568)
+
 Online entries/resources on hypergeometric function:
 
 * at Wolframworld: [hypergeometric function](http://mathworld.wolfram.com/HypergeometricFunction.html), [confluent hypergeometric functon of the first kind](http://mathworld.wolfram.com/ConfluentHypergeometricFunctionoftheFirstKind.html), [confluent hypergeometric functon of the second kind](http://mathworld.wolfram.com/ConfluentHypergeometricFunctionoftheSecondKind.html), [generalized hypergeometric function](http://mathworld.wolfram.com/GeneralizedHypergeometricFunction.html), [$q$-hypergeometric function](http://mathworld.wolfram.com/q-HypergeometricFunction.html), [regularized hypergeometric function](http://mathworld.wolfram.com/RegularizedHypergeometricFunction.html)
