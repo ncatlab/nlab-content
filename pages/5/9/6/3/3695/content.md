@@ -64,8 +64,8 @@ Painlev&#233; transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](htt
 
 * D. G. Babbitt, V. S. Varadarajan, _Local moduli for meromorphic differential equations_,  Bull. Amer. Math. Soc. (N.S.) __12__, N. 1 (1985), 95-98.
 
-* P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf); _Geometry and braiding of Stokes data; fission and wild character varieties_, [arXiv:1111.6228](http://arxiv.org/abs/1111.6228)
-
+* P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf); _Geometry and braiding of Stokes data; fission and wild character varieties_, [arXiv:1111.6228](http://arxiv.org/abs/1111.6228); P. P. Boalch, _Stokes matrices, Poisson Lie groups and Frobenius manifolds_, 
+Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/mathscinet-getitem?mr=1869848) [doi](http://dx.doi.org/10.1007/s002220100170)
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
 * Kiran S. Kedlaya, _Good formal structures for flat meromorphic connections, I: Surfaces_, Duke Math. J. __154__, n. 2 (2010), 343-418, [MR2682186](http://www.ams.org/mathscinet-getitem?mr=2682186), [euclid](http://projecteuclid.org/euclid.dmj/1281963652) 
