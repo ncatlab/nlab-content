@@ -329,7 +329,8 @@ Basic lecture notes include
 
 A comprehensive exposition of both the Lagrangian and the Hamiltonian version of the theorem is in 
 
-* [[Jeremy Butterfield]], _On symmetry and conserved quantities in classical mechanics_ (2006) ([[ButterfieldNoether.pdf:file]])
+* [[Jeremy Butterfield]], _On symmetry and conserved quantities in classical mechanics_, in _Physical Theory and its Interpretation_,
+The Western Ontario Series in Philosophy of Science Volume 72, 2006, pp 43-100(2006) ([[ButterfieldNoether.pdf:file]])
  {#Butterfield06}
 
 A textbook account is in 
