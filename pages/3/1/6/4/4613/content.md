@@ -75,3 +75,6 @@ The special meaning in the context of [[Chern-Weil theory]] in [[differential ge
 
 [[!redirects secondary characteristic form]]
 [[!redirects secondary characteristic forms]]
+
+[[!redirects secondary invariant]]
+[[!redirects secondary invariants]]
