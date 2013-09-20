@@ -52,7 +52,7 @@ The two common extreme choices are
 
 * the  **global injective** model structure has as **cofibrations** the _objectwise_ cofibrations with respect to the standard [[model structure on simplicial sets]] (i.e. the [[monomorphism]]s).
 
-The other class of morphisms (cofibrations / fibrations) is in each case fixed by the correspinding [[weak factorization system|lifting property]].
+The other class of morphisms (cofibrations / fibrations) is in each case fixed by the corresponding [[weak factorization system|lifting property]].
 
 
 
@@ -71,7 +71,8 @@ The global projective model structure is originally due to
 
 The fact that the global injective model structure yields a proper simplicial cofibrantly generated model category is originally due to 
 
-* [[Alex Heller]] _Universal Homotopy Theories_ ([hopf](http://hopf.math.purdue.edu/pub/hopf.html))
+* [[Alex Heller]] _Homotopy Theories_, no. 383, Memoirs Amer. 
+Math. Soc., Amer. Math. Soc., 1988.
 
 The fact that the global projective structure yields a proper simplicial cellular model category is due to Hirschhorn-Bousfield-Kan-Quillen
 
