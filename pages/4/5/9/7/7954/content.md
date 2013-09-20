@@ -49,7 +49,7 @@ Reviews include
 
 Textbook accounts include
 
-* [[Bertram Kostant]], [[Shlomo Sternberg]], _Symplectic reduction, BRS cohomology and infinite-dimensional Clifford algebras_, Annals of Physics __176__:1 (15 May 1987) pp. 49&#8211;113 [MR893479](http://www.ams.org/mathscinet-getitem?mr=893479) [doi](http://dx.doi.org/10.1016/0003-4916(87)90178-3)
+* [[Bertram Kostant]], [[Shlomo Sternberg]], _Symplectic reduction, BRS cohomology and infinite-dimensional Clifford algebras_, Annals of Physics __176__:1 (15 May 1987) pp. 49&#8211;113 [MR893479](http://www.ams.org/mathscinet-getitem?mr=893479) <a href="http://dx.doi.org/10.1016/0003-4916(87)90178-3">doi</a>
 
 [[!redirects symplectic reductions]]
 
