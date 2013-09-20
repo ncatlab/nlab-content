@@ -40,6 +40,8 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[boson]], **fermion**, [[anyon]]
 
+* [[Pauli exclusion principle]], [[fermion sea]]
+
 * [[spin-statistics theorem]]
 
 * [[spinors in Yang-Mills theory]]
