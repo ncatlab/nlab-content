@@ -37,7 +37,7 @@ In more illustrative language this means that a simplicial presheaf on $S$ can b
 
 * Notice that most definitions of $\infty$-[[infinity-category|category]] the $\infty$-category is itself defined to the a [[simplicial set]] with extra structure (in a [[geometric definition of higher category]]) or gives rise to a simplicial set under taking its [[nerve]] (in an [[algebraic definition of higher category]]). So most notions of presheaves of higher categories will naturally induce presheaves of simplicial sets.
 
-* In particular, regarding a [[group]]s $G$ as one object categories $\mathbf{B}G$ and then taking the nerve $N(\mathbf{B}G) \in \Simp\Set$ of these (the "classifying simplicial set of the group whose [[geometric realization]] is the [[classifying space]] $\mathcal{B}G$), which is clearly a functorial operation, turns any presheaf with values in groups into a simplicial presheaf.
+* In particular, regarding a [[group]] $G$ as  a one object category $\mathbf{B}G$ and then taking the nerve $N(\mathbf{B}G) \in \Simp\Set$ of these (the "classifying simplicial set of the group whose [[geometric realization]] is the [[classifying space]] $\mathcal{B}G$), which is clearly a functorial operation, turns any presheaf with values in groups into a simplicial presheaf.
 
 ## Remarks ##
 
