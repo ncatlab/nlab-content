@@ -28,11 +28,14 @@ The [[probability amplitude]] for a process of [[scattering]] of [[fundamental p
 
 * [[on-shell recursion]], [[planar limit]]
 
+* [[amplituhedron]]
+
 * [[KLT relations]]
 
 * [[string theory results applied elsewhere]]
 
 * [[string scattering amplitude]]
+
 
 ## References
 
