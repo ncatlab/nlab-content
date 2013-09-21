@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The __amplituhedron__ is a geometric body in the positive Grassmanian (which is an infinite dimensional space related to the study of the phenomenon of [[total positivity]]) which appears in a formulation of a specific QFT, namely the N=4 supersymmetric Yang-Mills. This is related to the methods related to the study of motivic content in the amplitudes related to Feynman diagrams; however this eventually lead to nonperturbative calculations.
+The __amplituhedron__ is a geometric object in a [[positive Grassmanian]] (which is an infinite dimensional space related to the study of the phenomenon of [[total positivity]]) which appears in a formulation of a specific [[QFT]], namely the [[N=4 D=4 super Yang-Mills theory]]. It is related to methods motivic content in the [[scattering amplitudes]] related to Feynman diagrams; however this eventually lead to nonperturbative calculations.
 
 ## References
 
