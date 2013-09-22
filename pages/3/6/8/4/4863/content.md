@@ -93,7 +93,7 @@ This is the infinitesimal form of a [[gauge transformation]]: an [[isomorphism]]
 
 Moreover, all this of course remains true if the [[Cartesian product|product]] $X \times F$ -- which we may think of as the trivial $F$-[[fiber bundle]] over $X$ -- is generalized to any [[associated bundle]] $E \to X$ with [[fiber]] $F$, associated to a $G$-[[principal bundle]] $P \to X$ (hence such that $E = P \times_G F$), in which case the above decomposition of the metric applies locally.
 
-Then one finds that the KK-mechanics indeed not only reproduces [[gauge fields]] and their correct [[dynamics]] from pure [[gravity]] in higher dimensions, but also the [[forces]] which they excert on test particles. For instance the rajectory of a [[charged particle]] subject to the [[Lorentz force]] excerted by an [[electromagnetic field]] in $d$-dimensional [[spacetime]] is in fact a [[geodesic]] in the field of pure [[gravity]] of the total space of the corresponding KK-un-compactified [[circle principal bundle]]. See ([Bleecker 13](#Bleecker13)) or ([Bartlett 14](#Bartlett14)) for a pedagogical discussion of this effect.
+Then one finds that the KK-mechanics indeed not only reproduces [[gauge fields]] and their correct [[dynamics]] from pure [[gravity]] in higher dimensions, but also the [[forces]] which they excert on test particles. For instance the rajectory of a [[charged particle]] subject to the [[Lorentz force]] excerted by an [[electromagnetic field]] in $d$-dimensional [[spacetime]] is in fact a [[geodesic]] in the field of pure [[gravity]] of the total space of the corresponding KK-un-compactified [[circle principal bundle]]. See ([Bleecker 81](#Bleecker81)) or ([Bartlett 13](#Bartlett13)) for a pedagogical discussion of this effect.
 
 A [[pseudo-Riemannian manifold]] of this form $\left(E, g^KK_{E}\right)$ for fixed _[[moduli]]_ $g_F$ is called a **Kaluza-Klein compactification** of the [[spacetime]] $E$. One also speaks of the effective spacetime $X$ as being obtained by **dimensional reduction** from the spacetime $E$.
 
@@ -241,12 +241,13 @@ A formalization of Kaluza-Klein compactification in [[perturbation theory]] form
 
 A textbook account of the geometry behind the [[Lorentz force]] in the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in the introduction of chapter 1 and in chapters 9 and 10 of:
 
-* David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. {#Bleecker13}
+* David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
+  {#Bleecker81}
 
 An expository talk of the above material from Bleecker can be found in this talk:
 
 * [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
- {#Bartlett14}
+ {#Bartlett13}
 
 [[!redirects Kaluza-Klein theory]]
 
