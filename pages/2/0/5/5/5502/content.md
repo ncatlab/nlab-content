@@ -23,7 +23,7 @@ With a list of compatibility conditions between these (for instance ([Cisinski-D
 
 These consistency conditions include the following:
 
-1. The addjunctions are functorial, hence form [[2-functors]] $f \mapsto f_*$, $f \mapsto f_!$:
+1. The adjunctions are functorial, hence form [[2-functors]] $f \mapsto f_*$, $f \mapsto f_!$:
 
 1. There is a [[natural transformation]]  $f_! \to f_*$ which is a [[natural equivalence]] when $f$ is a [[proper map]]. 
 
