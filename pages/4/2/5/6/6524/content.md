@@ -55,7 +55,14 @@ Accordingly also the [[curvature]] 2-form has two components:
 
 In [[supergeometry]] a metric structure is given by a connection with values in the [[super Poincaré Lie algebra]]. The corresponding notion of torsion has an extra contribution from [[spinor]] fields: the [[super torsion]].
 
+See also
+
+* [[integrability of G-structures]]
+
 ## Related concepts
 
 * [[first-order formulation of gravity]]
+
+[[!include local and global geometry - table]]
+
 
