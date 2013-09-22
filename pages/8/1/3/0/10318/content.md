@@ -1134,7 +1134,7 @@ $$
   \begin{aligned}
     \theta_\epsilon - \theta 
      & = 
-    p_\epsilon \, \mathbf{d} q \epsilon - p \mathbf{d} q
+    p_\epsilon \, \mathbf{d} q_\epsilon - p \mathbf{d} q
      \\
       & =
     \left(p - \frac{\partial H}{\partial q} \epsilon \right)
