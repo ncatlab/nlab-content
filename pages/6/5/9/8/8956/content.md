@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -22,8 +21,7 @@ $$
   \cdots \to X_2 \stackrel{\partial}{\to} X_1 \stackrel{\partial}{\to} X_0 \stackrel{\partial}{\to} X_{-1} \stackrel{\partial}{\to} X_{-2} \stackrel{\partial}{\to} \cdots   
 $$
 
-
-is called _[[connective]]_ if it has no nontrivial [[homology groups]] in negative degree. Often one means more strictly that it is connective if it is concentrated in non-negative degree, hence if $X_{-n} \simeq 0$ for all $n \geq 1$, hence if it is of the form
+is called _connective_ if it has no nontrivial [[homology groups]] in negative degree. Often one means more strictly that it is connective if it is concentrated in non-negative degree, hence if $X_{-n} \simeq 0$ for all $n \geq 1$, hence if it is of the form
 
 $$
   \cdots \to X_2 \stackrel{\partial}{\to} X_1 \stackrel{\partial}{\to} X_0 \stackrel{\partial}{\to} 0 \stackrel{\partial}{\to} 0 \stackrel{\partial}{\to} \cdots   
@@ -65,6 +63,5 @@ The [[Dold-Kan correspondence]] asserts that connective chain complexes of [[abe
 * [[perfect chain complex]]
 
 
-
+[[!redirects connective chain complex]]
 [[!redirects connective chain complexes]]
-
