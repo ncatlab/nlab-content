@@ -40,6 +40,12 @@ When it was realized that fundamental physics is governed by [[quantum field the
 
 ## References
 
+Texbook references include
+
+* S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960
+
+For more see the references at _[[multisymplectic geometry]]_.
+
 A discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]] is in
 
 * [[Robert Helling]], _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
