@@ -33,15 +33,15 @@ That sound better. Maybe somebody can expand on that here...
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-# Canonical morphisms
+# Core-natural transformations
 * table of contents
 {: toc}
 
@@ -119,6 +119,7 @@ An analogous notion for higher functors makes a prominent appearance in [[Chris 
 * [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
 See [[holographic principle of higher category theory]] for more on that.
+
 
 [[!redirects canonical map]]
 [[!redirects canonical maps]]
