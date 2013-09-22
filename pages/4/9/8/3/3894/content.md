@@ -85,6 +85,10 @@ Specifically, when $X$ is a [[smooth manifold]] of [[dimension]] $n$, the [[tang
 
 =--
 
+### Integrability
+
+For the moment see at _[[integrability of G-structures]]_.
+
 ## Properties
 
 ### Relation to special holonomy
@@ -156,6 +160,8 @@ See the list at [[tiwsted differential c-structure]].
 ## Related concepts
 
 * [[special holonomy]]
+
+* [[integrability of G-structures]]
 
 ## References
 
