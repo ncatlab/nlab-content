@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Model category theory
-+--{: .hide}
++-- {: .hide}
 [[!include model category theory - contents]]
 =--
 #### 2-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## The canonical model structure on $Cat$
 
@@ -97,5 +96,10 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 * [[canonical model structure on Operad]]
 
+
+[[!redirects canonical model structure on Cat]]
+[[!redirects canonical model structure on categories]]
 [[!redirects natural model structure on Cat]]
+[[!redirects natural model structure on categories]]
 [[!redirects folk model structure on Cat]]
+[[!redirects folk model structure on categories]]
