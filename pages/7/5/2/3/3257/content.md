@@ -1,36 +1,4 @@
 
-> This page is about a variant of the notion of [[natural transformation]] in [[category theory]]. For the notion of _canonical transformation_ in [[Hamiltonian mechanics]] see at [[canonical transformation]], [[symplectomorphism]], [[Lagrangian correspondence]].
-
-+-- {: .query}
-
- [[Urs Schreiber]]: I am hereby flagging this page as problematic. See [this nForum discussion](http://nforum.mathforge.org/discussion/5268/canonicalness-and-constructivism/?Focus=41759#Comment_41759) for more.
-
-The proposed formalization of "canonical" below has the following problems:
-
-1. nobody, not even the person who originally suggested it, ever used that in practice;
-
-1. it does not actually capture much at all about the colloquial use of "canonical" (see below for a proposal of what a proper formalization would involve);
-
-1. the only almost-application mentioned at the bottom of the entry, which is about morphisms of QFTs, has nothing of the "canonical" flavor to it at all (on the contrary!), and the curious notion discussed there actually becomes natural if one instead considers QFTs with boundaries, as formalized on the last pages of Lurie's "classification of TFT" article
-
-In short, I find this entry is a sophisticated way to cause unnecessary confusion.
-
-Here is what I think any formalization of "canonical" _should_ achieve: one says in colloquial mathematical writing that an element is _canonical_ if it is in some way (for instance in a "generic" way) the only one that can _explicitly be constructed_, in the actual sense of [[constructive mathematics]].
-
-For instance, for any given [[set]], there "exist" lots of [[functions]] $X \longrightarrow X$, but without any further information on $X$ there is precisely only one which we can actually _name_ or _construct_, namely the [[identity]] function. And indeed, this is commonly called the _canonical element_ in $Hom(X,X)$.
-
-Any attempt at formalizing the word "canonical" should reproduce something like this.
-
-Apparently [[Neil Ghani]] suggested a formalization: canonical elements are those that are given by [[parametric polymorphism]]/[[logical relations]].
-
-That sound better. Maybe somebody can expand on that here...
-
-
-
-
-=--
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -51,7 +19,7 @@ A *canonical morphism* is a [[morphism]] which is equivariant under an [[automor
 
 This usage of the word 'canonical' is due to [[Jim Dolan]].  In general, this term is often used in mathematics to mean that the result of a construction may be specified using only the data at hand, without making arbitrary choices.  The idea behind using the word here is, roughly, that only canonical morphisms may be specified (in the situations in which they appear) without [[evil]].  (Both avoiding arbitrary choices and avoiding evil are related to avoiding the [[axiom of choice]], but that does not seem to be directly relevant.)  However, there are certainly also uses of 'canonical' in mathematics that do not fall under this definition.
 
-Arguably, 'natural' would be a better term for this intuition, but canonical morphisms are more general than the natural transformations that appear in the same contexts, so that word is taken.  Another possible term is 'core-natural' or 'groupoid-natural', since (as will be seen below) canonical morphisms may be interpreted as natural transformations between functors restricted to the [[core]] (underlying [[groupoid]]) of a given category.  The terms 'basis/coordinate--free/invariant' and 'generally covariant' also capture the same intuition, although these tend to be restricted to certain disciplines (linear algebra, geometry, physics).
+Arguably, 'natural' would be a better term for this intuition, but canonical morphisms are more general than the natural transformations that appear in the same contexts, so that word is taken.  Another possible term is 'core-natural' or 'groupoid-natural', since (as will be seen below) canonical morphisms may be interpreted as natural transformations between functors restricted to the [[core]] (underlying [[groupoid]]) of a given category.  The terms 'basis/coordinate--free/invariant' and 'generally covariant' also capture the same intuition, although these tend to be restricted to certain disciplines (linear algebra, geometry, physics); see also [[principle of equivalence]], [[definable set]] (in [[model theory]]), and [[parametric polymorphism]] (in [[type theory]]).
 
 
 ## Definitions
@@ -110,15 +78,17 @@ The examples above are all of canonical *isomorphisms*.  However, we can adjust 
 
 ## References
 
-* A 1993 [Usenet thread](http://groups.google.com/group/sci.math/browse_frm/thread/9f5ca96dc1a95ada/47a1bb21f6566547) may be the first public introduction of the contrast between 'natural' and 'canonical' by [[Jim Dolan]] (posting as 'Robert Scott'); see particularly posts 9&10.
-
-* A 2010 [MathOverflow question](http://mathoverflow.net/questions/19644/what-is-the-definition-of-canonical) about the meaning of 'canonical', with many different answers, including this one.
-
 An analogous notion for higher functors makes a prominent appearance in [[Chris Schommer-Pries]]'s work on [[FQFT]] with defects/[[bi-brane]]s. See _slide 81_ (the penultimate page) of:
 
 * [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
 See [[holographic principle of higher category theory]] for more on that.
+
+On the terminology 'canonical', see:
+
+* A 1993 [Usenet thread](http://groups.google.com/group/sci.math/browse_frm/thread/9f5ca96dc1a95ada/47a1bb21f6566547) may be the first public introduction of the contrast between 'natural' and 'canonical' by [[Jim Dolan]] (posting as 'Robert Scott'); see particularly posts 9&10.
+
+* A 2010 [MathOverflow question](http://mathoverflow.net/questions/19644/what-is-the-definition-of-canonical) about the meaning of 'canonical', with many different answers, including this one.
 
 
 [[!redirects canonical map]]
