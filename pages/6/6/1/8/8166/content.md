@@ -53,6 +53,8 @@ It is generally understood that models are approximations to reality. The prover
 
 ## Related concepts
 
+* [[mathematical physics]]
+
 * [[naturalness]]
 
 * [[landscape of string theory vacua]]
