@@ -170,6 +170,11 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 * Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
 {#Anderson}
 
+See also
+
+* Arne Lorenz, _Jet Groupoids, Natural Bundles
+and the Vessiot Equivalence Method_, Thesis
+
 
 [[!redirects jet bundles]]
 
