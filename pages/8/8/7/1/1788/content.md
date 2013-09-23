@@ -6,7 +6,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 No sand in this box.
 
-[pdf](http://www.calpoly.edu/~kmorriso/Research/Yang-Mills.pdf)
+[pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf)
 
 ***
 
