@@ -14,7 +14,7 @@ A well-generated [[triangulated category]] is a strengthening of the notion of [
 
 Let $T$ be a [[triangulated category]] with arbitrary [[coproducts]]. Then $T$ is **well-generated** in the sense of Neeman if and only if there exists a [[set]] $S_0$ of [[objects]] satisfying:
 
-1. an object $X$ of $T$ is [[zero object|zero]] if [S,X]=0 for all $S\in S_0$;
+1. an object $X$ of $T$ is [[zero object|zero]] if $[S,X]=0$ for all $S\in S_0$;
 
 1. for every set of maps $X_i\to Y_i$ in $T$, the induced map $[S,\coprod_I X_i]\to[S,\coprod_I Y_i]$ is surjective for all $S\in S_0$ whenever $[S,X_i]\to[S,Y_i]$ is surjective for all $i$ and all $S\in S_0$. 
 
