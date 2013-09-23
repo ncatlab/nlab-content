@@ -72,3 +72,6 @@ The third Law expresses an invariance under the [[equations of motion]] under th
 [[!redirects Newton's third law]]
 [[!redirects Newton's third law of motion]]
 [[!redirects Newton's third law of motion]]
+
+[[!redirects Newton's laws of physics]]
+[[!redirects Newton's laws of mechanics]]
