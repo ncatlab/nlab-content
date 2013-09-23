@@ -29,6 +29,26 @@ In the famous list of [[Hilbert's problems]], the [[Hilbert's sixth problem|sixt
 
 More recently, one also sometimes uses a less familiar term **physical mathematics** for the study of mathematical constructions inspired by models of theoretical physics; thus the final aim may be more mathematical (say finding a new topological invariant using physical intuition) than in the mathematical physics. However there is no clean boundary and to some extent the two notions are interchangeable.
 
+## Attitudes towards mathematics
+
+It is quite possible to work on physical theories while viewing mathematics merely as a tool to facilitate calculation. However, some of the greatest names of mathematical physics have sought a more profound role for it in the belief that very deep mathematical ideas are required to describe nature. For instance, [[Paul Dirac]] expresses such a view here
+
+>It seems to be one of the fundamental features of nature that fundamental physical laws are described in terms of a mathematical theory of great beauty and power, needing quite a high standard of mathematics for one to understand it. You may wonder: Why is nature constructed along these lines? One can only answer that our present knowledge seems to show that nature is so constructed. We simply have to accept it. One could perhaps describe the situation by saying that God is a mathematician of a very high order, and He used very advanced mathematics in constructing the universe. (Paul Dirac, *The Evolution of the Physicist's Picture of Nature*, Scientific American 1963)
+
+This view led to Dirac to advocate the following as a methodology
+
+>The trend of mathematics and physics towards unification provides the physicist with a powerful new method of research into the foundations of his subject, a method which has not yet been applied successfully, but which I feel confident will prove its value in the future. The method is to begin by choosing that branch of mathematics which one thinks will form the basis of the new theory. One should be influenced very much in this choice by considerations of mathematical beauty. It would probably be a good thing also to give a preference to those branches of mathematics that have an interesting group of transformations underlying them, since transformations play an important role in modern physical theory, both relativity and quantum theory seeming to show that transformations are of more fundamental importance than equations. Having decided on the branch of mathematics, one should proceed to develop it along suitable lines, at the same time looking for that way in which it appears to lend itself naturally to physical interpretation. ([The Relation between Mathematics and Physics](http://www.damtp.cam.ac.uk/events/strings02/dirac/speach.html))
+
+[[Hermann Weyl]] helped develop many of the ingredients of modern mathematical physics, as [[Michael Atiyah]] explains  
+
+>The past 25 years have seen the rise of gauge theories&#8211;Kaluza-Klein models of high dimensions, string theories, and now M-theory, as physicists grapple with the challenge of combining all the basic forces of nature into one all embracing theory. This requires sophisticated mathematics involving Lie groups, manifolds, differential operators, all of which are part of Weyl's inheritance. There is no doubt that he would have been an enthusiastic supporter and admirer of this fusion of mathematics and physics. No other mathematician could claim to have initiated more of the theories that are now being explored. His vision has stood the test of time. (Michael Atiyah, *Hermann Weyl: 1885-1955*)
+
+
+>[Weyl's] contemporaries are long since gone and only a few personal reminiscences survive. On the other hand the passage of time makes it easier to assess the long-term significance of Weyl's work, to see how his ideas have influenced his successors and helped to shape mathematics and physics in the second half of the twentieth century. In fact, the last fifty years have seen a remarkable blossoming of just those areas that Weyl initiated. In retrospect one might almost say that he defined the agenda and provided the proper framework for what followed. He made fundamental contributions to most branches of mathematics, and he also took a serious interest in theoretical physics. (Michael Atiyah, *Hermann Weyl: 1885-1955*)
+
+The version of this belief in the necessity of deep mathematics for physics to be found at the $n$Lab is, naturally enough, that higher categories, and in particular cohesive $(\infty, 1)$-toposes, are required. In this regard, see [[higher category theory and physics]], [[geometry of physics]] and [differential cohomology in a cohesive topos](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects).
+
+
 ## References and links
 
 See the related, but disputable notion of [[applied mathematics]]. 
