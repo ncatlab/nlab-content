@@ -146,7 +146,7 @@ The similar axiomatization involving the weaker structure of a [[calculus of fra
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
-An standard account of the modern form of [[simplicial homotopy theory]] is in
+A standard account of the modern form of [[simplicial homotopy theory]] is in
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
 
