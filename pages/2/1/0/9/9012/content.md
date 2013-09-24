@@ -25,7 +25,7 @@ For $(\mathcal{C}, \otimes)$ a [[monoidal category]], the [[full subcategory]] o
 
 ### Relation to Picard group
 
-The [[decategorification]] of the Picard 2-group, hence the [[group]] of connected components is the ordinray [[Picard group]] $Pic(\mathcal{C}, \otimes)$.
+The [[decategorification]] of the Picard 2-group, hence the [[group]] of connected components is the ordinary [[Picard group]] $Pic(\mathcal{C}, \otimes)$.
 
 $$
   Pic(\mathcal{C}, \otimes) \simeq \pi_0 PIC(\mathcal{C}, \otimes)
