@@ -137,11 +137,19 @@ This theme has been taken up more recently by Baues, using a type of abstract ho
 
 ## References ##
 
+The original axiomatization of homotopy theory by [[model categories]] is due to
+
+* [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics 43, Berlin, New York, 1967
+
+Similar axiomatizations involving the weaker structure of a [[calculus of fractions]] are due to
+
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
+An standard account of the modern form of [[simplicial homotopy theory]] is in
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
 
+See also
 
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
