@@ -12,14 +12,14 @@ A monotone function is a [[functor]] between [[preordered sets]].
 
 Let $S$ and $T$ be preordered sets, that is [[sets]] equipped with a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] binary [[relation]] $\leq$.  (By convention, the same symbol is used for both sets, even technically it is not the same relation.)
 
-Then a __monotone (increasing)__, __isotone__, or __weakly increasing__ function $f$ from $S$ to $T$ is a [[function]] from the set $S$ to the set $T$ that preserves $\leq$:
+Then a [[function]] $f$ from $S$ to $T$ is __monotone (increasing)__, __isotone__, __weakly increasing__, or __order-preserving__ if it preserves $\leq$:
 $$ x \leq y \;\Rightarrow\; f(x) \leq f(y) $$
 for all $x, y$ in $S$.
 
 A __strictly increasing__ function is a weakly increasing function that is also [[injective function|injective]], at least if $S$ and $T$ are [[partial order|partially ordered]].  Between arbitrary preordered sets, however, it is probably better to accept as strictly increasing any weakly increasing function that is weakly injective in that $x \leq y$ whenever $f(x) = f(y)$; such a function must be injective if $S$ is a partial order (since $y \leq x$ will also follow) but not necessarily in general.
 
-+--{: .query}
-_[[Mike Shulman]]_: Is that really the right definition?  I think of "strictly increasing" as meaning that $x\lt y$ implies $f(x)\lt f(y)$, which is equivalent to the above for linear orders but weaker for partial orders.  But I don't have much experience with strictly increasing functions between non-linear orders, so maybe that is the right definition for partial orders.
++-- {: .query}
+_[[Mike Shulman]]_: Is that really the right definition?  I think of "strictly increasing" as meaning that $x \lt y$ implies $f(x) \lt f(y)$, which is equivalent to the above for linear orders but weaker for partial orders.  But I don't have much experience with strictly increasing functions between non-linear orders, so maybe that is the right definition for partial orders.
 
 However, I don't think it is the right definition for preorders; among other things, it's not invariant under equivalence of categories.  It seems to me that what you really want to say is that it is [[pseudomonic functor|pseudomonic]] as a functor (whereas my weaker definition would become the statement that it is [[conservative functor|conservative]] as a functor.)
 
@@ -32,7 +32,7 @@ It occurs to me that, in the absence of the axiom of choice, one ought to accept
 I don't know a whole lot about convergence and nets, but I don't remember seeing strictly increasing functions used there; I look forward to seeing what you find.  Does HAF use the poset version for any application that makes clear why this is a good definition?  Of course, monomorphisms of posets may quite naturally something to be interested in, but the question is why they should be called "strictly increasing."
 =--
 
-An __antitone__, __weakly decreasing__, or __monotone decreasing__ function $f$ from $S$ to $T$ is a [[function]] from the set $S$ to the set $T$ that reverses $\leq$:
+A function $f$ is __monotone decreasing__, __antitone__, __weakly decreasing__, or __order-reversing__ if it reverses $\leq$:
 $$ x \leq y \;\Rightarrow\; f(y) \leq f(x) $$
 for all $x, y$ in $S$.
 
@@ -60,13 +60,45 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects monotone functions]]
 [[!redirects monotone map]]
 [[!redirects monotone maps]]
+[[!redirects monotone-increasing function]]
+[[!redirects monotone-increasing functions]]
+[[!redirects monotone increasing function]]
+[[!redirects monotone increasing functions]]
 [[!redirects increasing function]]
 [[!redirects increasing functions]]
-
+[[!redirects weakly increasing function]]
+[[!redirects weakly increasing functions]]
+[[!redirects weakly-increasing function]]
+[[!redirects weakly-increasing functions]]
 [[!redirects isotone function]]
 [[!redirects isotone functions]]
+[[!redirects order-preserving function]]
+[[!redirects order-preserving functions]]
+[[!redirects order preserving function]]
+[[!redirects order preserving functions]]
 
-[[!redirects antitione function]]
-[[!redirects antitione functions]]
+[[!redirects monotone-decreasing function]]
+[[!redirects monotone-decreasing functions]]
+[[!redirects monotone decreasing function]]
+[[!redirects monotone decreasing functions]]
 [[!redirects decreasing function]]
 [[!redirects decreasing functions]]
+[[!redirects weakly decreasing function]]
+[[!redirects weakly decreasing functions]]
+[[!redirects weakly-decreasing function]]
+[[!redirects weakly-decreasing functions]]
+[[!redirects antitone function]]
+[[!redirects antitone functions]]
+[[!redirects order-reversing function]]
+[[!redirects order-reversing functions]]
+[[!redirects order reversing function]]
+[[!redirects order reversing functions]]
+
+[[!redirects strictly increasing function]]
+[[!redirects strictly increasing functions]]
+[[!redirects strictly-increasing function]]
+[[!redirects strictly-increasing functions]]
+[[!redirects strictly decreasing function]]
+[[!redirects strictly decreasing functions]]
+[[!redirects strictly-decreasing function]]
+[[!redirects strictly-decreasing functions]]
