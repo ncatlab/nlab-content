@@ -16,13 +16,18 @@
 
 ## Idea
 
-Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_: a sequence of [[monomorphisms]]
+Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_. A descending filtration a sequence of [[monomorphisms]] of the form
 
 $$
    \cdots \hookrightarrow X_{(n)}\hookrightarrow \cdots \hookrightarrow X_{(2)}  
   \hookrightarrow X_{(1)}
   \hookrightarrow X_{(0)} =: X
-  \,.
+  \,
+$$
+and an ascending filtration of the form
+$$
+  X_{(0)} \hookrightarrow X_{(1)}\hookrightarrow X_{(2)}\cdots \hookrightarrow X_{(3)}  
+  \hookrightarrow \subset X.
 $$
 
 There are variants in which the sequence may be infinite 'to the right'  or may be bounded or stationary in some way to the left. In situations where quotients make sense, extra conditions on the quotients $X_{(n)}/X_{(n+1)}$, are often imposed; see [[associated graded object]]. 
