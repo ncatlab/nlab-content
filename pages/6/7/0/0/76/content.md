@@ -135,19 +135,29 @@ This theme has been taken up more recently by Baues, using a type of abstract ho
 * [[topology]]
 * [[weak equivalence]]
 
-## References ##
+## References 
+ {#References}
 
 The original axiomatization of homotopy theory by [[model categories]] is due to
 
 * [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics 43, Berlin, New York, 1967
 
-Similar axiomatizations involving the weaker structure of a [[calculus of fractions]] are due to
+The similar axiomatization involving the weaker structure of a [[calculus of fractions]] is due to
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
 An standard account of the modern form of [[simplicial homotopy theory]] is in
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
+
+Formulation of abstract homotopy theory as the theory of [[(∞,1)-toposes]] is due to 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+and the formalization of this in the [[internal logic|internal language]] of [[homotopy type theory]] is due to
+
+* Univalent Foundations Project, _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+
 
 See also
 
@@ -157,9 +167,9 @@ See also
 
 * [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
 
-* W. Dwyer, P .Hirschhorn, D. Kan, J. Smith, _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
+* [[William Dwyer]], P .Hirschhorn, [[Daniel Kan]], [[Jeff Smith]], _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
 
-* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+* K. H. Kamps and [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
 * [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
 
