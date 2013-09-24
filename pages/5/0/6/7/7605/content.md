@@ -39,9 +39,18 @@ A 1-[[category]] whose [[internal logic]] can interpret this needs to
 
 ## References
 
-Around def. 2.5 of 
+A discussion of [[categorical semantics]] of [[homotopy type theory]] in a type-theoretic model category appears around def. 2.5 of 
 
 * [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+
+An exposition is in 
+
+* [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](http://www.math.ias.edu/~mshulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
+
+
+Similar conisderations (using the term "typos" for something similar to a type-theoretic model category) are presented in
+
+* [[André Joyal]], _What is categorical type theory_, various talks in 2013, ([pdf](http://www.math.uwaterloo.ca/~asl2013/Slides/Joyal.pdf))
 
 [[!redirects presentation of homotopy type theory]]
 [[!redirects categorical semantics of homotopy type theory]]
