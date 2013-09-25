@@ -25,11 +25,6 @@ We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a
 
 ## Properties
 
-### Internal logic
-
-The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). For more on this see _[[relation between type theory and category theory]]_.
-
-See also _[[internal logic of an (∞,1)-topos]]_.
 
 ### Presentations
  {#Presentations}
@@ -73,6 +68,26 @@ Comparing the third and the fifth item in prop. \ref{Presentations}
 notice that the projective and the injective [[model structure on simplicial presheaves]] are [[Quillen equivalence|Quillen equivalent]] (as discussed at _[[model structure on functors]]_.)
 
 =--
+
+### Internal logic and homotopy type theory
+ {#InternalLogic}
+
++-- {: .num_remark }
+###### Remark
+
+Prop. \ref{Presentations} says in particular that every presentable and locally cartesian closed $(\infinity,1)$-category has a presentation by a [[type-theoretic model category]]. As discussed there, such provides the [[categorical semantics]] for [[homotopy type theory]] (without, possibly, the [[univalence]] [[axiom]]).
+
+Therefore prop. \ref{Presentations} says in particular that "Every presentable locally cartesian closed $(\infinity,1)$-category interprets homotopy type theory."
+
+This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which should in addition satisfy [[univalence]]). See also at _[[internal logic of an (∞,1)-topos]]_.
+
+
+=--
+
+It seems that [[Chris Kapulkin]] is close to establishing an actual [[equivalence]], in a suitable sense, between homotopy type theories (without possibly univalence) and presentable locally Cartesian closed $(\infty,1)$-Categories, in higher analogy of the [[relation between type theory and category theory ]] (see there for more).
+
+The [[internal logic]] of (presentable) locally cartesian closed $(\infty,1)$-categories was explicitly conjectured in ([Joyal 2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). 
+
 
 
 
