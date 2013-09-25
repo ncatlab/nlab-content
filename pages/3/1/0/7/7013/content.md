@@ -46,11 +46,6 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 1. $C$ admits a presentation by a [[right proper model category|right proper]] [[Cisinski model category]].
 1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a [[right proper model category|right proper]] [[Bousfield localization of model categories|left Bousfield localization]] of an [[model structure on simplicial presheaves|injective model category of simplicial presheaves]].
 
-+-- {: .query}
-I have a question here. The third condition says that $C$ admits a presentation as a left Bousefield localization of a category of simplicial presheaves with the projective model structure. The fifth conditions claims this for a category of simplical presheaves with the injective model structure. How can that be?
-
-Answer (Dylan W.): I believe the injective and projective model structures on simplicial presheaves are Quillen equivalent.
-=--
 
 =--
 +-- {: .proof}
@@ -70,6 +65,16 @@ Further equivalent characterizations of locally cartesian closed $(\infty,1)$-ca
 ([Lurie, prop. 6.1.1.4, lemma 6.1.3.3](#Lurie))
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+Cpmparing the third and the fifth item in prop. \ref{Presentations}
+notice that the projective and the injective [[model structure on simplicial presheaves]] are [[Quillen equivalence|Quillen equivalent]] (as discussed at _[[model structure on functors]]_.)
+
+=--
+
+
 
 ## Related concepts
 
@@ -92,6 +97,10 @@ Discussion in the context of [[homotopy type theory]] is in
 
 * [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
  {#Joyal}
+
+Cisinki's argument that every locally Cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]] is mentioned in print in
+
+* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_ ([arXiv:1307.6248](http://arxiv.org/abs/1307.6248))
 
 A discussion of object classifiers, univalent families, and model category presentations is in
 
