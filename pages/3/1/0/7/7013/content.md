@@ -69,7 +69,7 @@ Further equivalent characterizations of locally cartesian closed $(\infty,1)$-ca
 +-- {: .num_remark }
 ###### Remark
 
-Cpmparing the third and the fifth item in prop. \ref{Presentations}
+Comparing the third and the fifth item in prop. \ref{Presentations}
 notice that the projective and the injective [[model structure on simplicial presheaves]] are [[Quillen equivalence|Quillen equivalent]] (as discussed at _[[model structure on functors]]_.)
 
 =--
