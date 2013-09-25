@@ -36,7 +36,7 @@ The _monoid axiom_ is an extra condition on a [[monoidal model category]] that h
 +-- {: .num_defn}
 ###### Definition
 
-We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushout]]s of [[tensor product]]s of acyclic fibrations with any object is a weak equivalence.
+We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushout]]s of [[tensor product]]s of acyclic cofibrations with any object is a weak equivalence.
 
 =--
 
