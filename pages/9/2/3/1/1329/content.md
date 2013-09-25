@@ -37,7 +37,7 @@ This may be read as saying that the [[Whitehead theorem]] is valid in the [[(∞
 
 ## Examples
 
-* The $(\infty,1)$-category defined by the Joyal-jardine [[local model structure on simplicial presheaves]] with weak equivalences those morphisms that induce isomorphisms on homotopy sheaves is the hypercompletion of the [[localization]] of simplicial presheaves at ordinary covers. For more details see [[descent for simplicial presheaves]].
+* The $(\infty,1)$-category defined by the Joyal-Jardine [[local model structure on simplicial presheaves]] with weak equivalences those morphisms that induce isomorphisms on homotopy sheaves is the hypercompletion of the [[localization]] of simplicial presheaves at ordinary covers. For more details see [[descent for simplicial presheaves]].
 
 ## Related concepts
 
