@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 #### Idempotents
@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -34,3 +34,10 @@ The notion of projector is the special case of that of [[idempotent]] [[morphism
 ## Related concepts
 
 * [[projection]]
+
+
+[[!redirects projector]]
+[[!redirects projectors]]
+
+[[!redirects projection operator]]
+[[!redirects projection operators]]
