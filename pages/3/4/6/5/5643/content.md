@@ -21,7 +21,7 @@
 
 ## Idea
 
-The notion of _smooth super $\infty$-groupoid_ is the combination of of _[[super ∞-groupoid]]_ and _[[smooth ∞-groupoid]]_. The [[cohesive (∞,1)-topos]] of smooth super-$\infty$-groupoids is a context that realizes [[higher geometry|higher]] [[supergeometry]].
+The notion of _smooth super $\infty$-groupoid_ or _smooth super [[geometric homotopy type]]_ is the combination of of _[[super ∞-groupoid]]_ and _[[smooth ∞-groupoid]]_. The [[cohesive (∞,1)-topos]] of smooth super-$\infty$-groupoids is a context that realizes [[higher geometry|higher]] [[supergeometry]].
 
 Smooth super $\infty$-groupoids include
 [[supermanifolds]], [[super Lie groups]] and their [[deloopings]] etc. Under [[Lie differentiation]] these map to [[super L-∞ algebras]].
@@ -199,3 +199,6 @@ A discussion of smooth super $\infty$-groupoids is in section 3.5 of
 
 [[!redirects SuperSmooth∞Grpd]]
 [[!redirects SmoothSuper∞Grpd]]
+
+[[!redirects smooth super homotopy type]]
+[[!redirects smooth super homotopy types]]
