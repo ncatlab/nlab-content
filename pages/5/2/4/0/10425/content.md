@@ -17,6 +17,6 @@ _Geometric type theory_ refers to the [[type theory]] extension of [[geometric l
 
 The term appears as such in 
 
-* [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf&#8206;))
+* [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
 [[!redirects geometric type theories]]
