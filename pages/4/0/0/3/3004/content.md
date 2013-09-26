@@ -169,6 +169,23 @@ deducible from it in [[constructive mathematics]].
 
 * [[geometric homotopy type theory]]
 
+## References
+
+Standard textbook accounts include 
+
+* [[Peter Johnstone]], section D1.1 of _[[Sketches of an Elephant]]_
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+Discussion in the context of [[computer science]] is in
+
+* [[Steve Vickers]], _Geometric logic in computer science_ ([pdf](www.cs.bham.ac.uk/~sjv/GLiCS.pdf&#8206;))
+
+Discussion with an eye towards [[geometric type theory]] is in 
+
+* [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
+
+
 
 [[!redirects geometric theory]]
 [[!redirects geometric theories]]
