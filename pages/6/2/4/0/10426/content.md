@@ -46,3 +46,6 @@ In terms of [[axioms]] a geometric homotopy type theory should be something like
 
 [[!redirects geometric homotopy type theories]]
 
+[[!redirects geometric homotopy type]]
+[[!redirects geometric homotopy types]]
+
