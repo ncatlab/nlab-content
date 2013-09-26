@@ -529,6 +529,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[modal type theory]]
 
+  * [[geometric type theory]]
+
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
   * [[Bishop set]], [[predicative topos]]
