@@ -73,6 +73,10 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[model structure for homotopy types]]
 
+* [[geometric homotopy type]]
+
+* [[cohesive homotopy type]]
+
 [[!include homotopy n-types - table]]
 
 [[!include notions of type]]
