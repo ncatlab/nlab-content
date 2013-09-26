@@ -22,7 +22,7 @@
 
 ## Idea
 
-The notion of **$(\infty,1)$-sheaf** is the analog in [[(∞,1)-category]] theory of the notion of [[sheaf]] in ordinary [[category theory]].
+The notion of **$(\infty,1)$-sheaf** (or _[[∞-stack]]_ or _[[geometric homotopy type]]_) is the analog in [[(∞,1)-category]] theory of the notion of [[sheaf]] ([[geometric type]]) in ordinary [[category theory]].
 
 See [[(∞,1)-category of (∞,1)-sheaves]] for more.
 
