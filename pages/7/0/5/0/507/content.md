@@ -470,7 +470,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[finite object]]
 
 
-## E Homtopy and Cohomology
+## E Homotopy and Cohomology
 
 ### E1 Homotopy theory for toposes
 
