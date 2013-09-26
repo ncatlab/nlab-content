@@ -22,7 +22,7 @@ The notion of *geometric theory* has many different incarnations.  A few are:
 
 * A geometric theory is a [[first-order logic|first order]] [[theory]] whose axioms can be written solely in terms of the [[logical connective|connectives]] $\top$ ([[truth]]), $\wedge$ (finite [[logical conjunction|conjunction]]), $\bot$ ([[falsity]]), $\bigvee$ (possibly infinitary [[disjunction]]), and $\exists$ ([[existential quantification]]).
 
-* A geometric theory is a syntactic description of a [[Grothendieck topos]].
+* A geometric theory is a [[syntax|syntactic]] description of a [[Grothendieck topos]].
 
 The equivalence of these statements involves some serious proofs, including [[Giraud's theorem]] characterizing Grothendieck topoi.
 
@@ -163,6 +163,9 @@ $T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has 
 * [[Barr's theorem]] says, that if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also
 deducible from it in [[constructive mathematics]]. 
 
+## Related concepts
+
+* [[homotopy type theory]]+[[univalence]]+[[higher inductive types]]
 
 
 [[!redirects geometric theory]]
