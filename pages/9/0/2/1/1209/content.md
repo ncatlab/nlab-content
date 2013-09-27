@@ -14,7 +14,12 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea 
+
+Bimonoid is a monoid and comonoid in compatible way. The 
+compatibility is easy to formulate in symmetric monoidal categories and much harder in nonsymmetric setup. 
+
+## Definition in symmetric monoidal categories
 
 In a [[symmetric monoidal category]], a __bimonoid__ (or __bimonoid object__) is an object $B$ equipped with a structure of a [[monoid]] and a [[comonoid]] which are compatible in one of two equivalent ways: the comultiplication and the counit are morphisms of monoids or the multiplication and the unit are morphisms of comonoids.  The symmetry of the monoidal structure is involved in the definition of the tensor product $B\otimes B$ as monoids and as comonoids.
 
@@ -60,6 +65,7 @@ Szlach&#225;nyi uses earlier analysis of
 
 * P. Schauenburg, _Bialgebras over noncommutative rings, and a structure theorem for Hopf bimodules_, Applied Categorical Structures __6__, 193-222 (1998) [doi](http://dx.doi.org/10.1023/A:1008608028634)
 
+* H.E. Porst, _On categories of monoids, comonoids and bimonoids_, Quaest. Math. __31__ (2008) 127-139 [MR2010d:18010](http://www.ams.org/mathscinet-getitem?mr=2529129) [doi](http://dx.doi.org/10.2989/QM.2008.31.2.2.474) 
 
 For a dual version see 
 
@@ -71,9 +77,9 @@ There is also a more subtle notion also called Hopf monad in
 
 In some of these generalized cases, one does not have a good notion of of antipode, so that the difference between bimonoids and Hopf monoids has to be stated in different terms.  A similar case is in the case of [[Hopf algebroid]]s over a noncommutative base:
 
-* [[Brian Day]], [[Ross Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics, 129, 1 (1997) 99--157 
+* [[Brian Day]], [[Ross Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Math. __129__, 1 (1997) 99--157 
 
-* [[Gabi Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806); _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005; [math.QA/0301169](http://arxiv.org/abs/math.QA/0301169)
+* [[Gabi Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806); _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lec. Notes in Pure and Appl. Math. __239__, Dekker, New York 2005; [math.QA/0301169](http://arxiv.org/abs/math.QA/0301169)
 
 
 [[!redirects bimonoid]]
