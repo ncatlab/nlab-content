@@ -11,8 +11,7 @@
 
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -196,9 +195,9 @@ which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$.
 
 ### Subdivision and fibrant replacement 
 
-Jardine constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical
+[[Rick Jardine]] constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical
 set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
-See [this](http://www.math.uwo.ca/~jardine/papers/preprints/cubical2.pdf). for details. There is a natural sequence of maps of cubical sets
+See [Jardine's lecture notes](#JardineLecture). for details. There is a natural sequence of maps of cubical sets
 
 
 $$
@@ -218,7 +217,7 @@ Let $Ex^\infty X$ be the union of the latter maps (similar to simplicial $Ex^\in
 **question**: Is $Ex^\infty X$  a fibrant cubical set for any cubical set $X$?. 
 
 Recall that a cubical set is fibrant if any
-cubical horn has a filler (similar to [[simplicial set]]: any [[Kan complex|Kan fibrant]] simplicial set has [[horn]] fillers). See also [Cisinski's book](http://www-math.univ-paris13.fr/%7Ecisinski/ast.pdf) or [Jardine's lectures on cubical sets](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) for definitions.
+cubical horn has a filler (similar to [[simplicial set]]: any [[Kan complex|Kan fibrant]] simplicial set has [[horn]] fillers). See also [Cisinski's book](http://www-math.univ-paris13.fr/%7Ecisinski/ast.pdf) or [Jardine's lectures on cubical sets](#JardineLecture) for definitions.
 
 
 The first question is probably not true in general, but if we consider cubical sets with [[connection on a cubical set|connections]] in the sense of Brown-Higgins (we
@@ -228,7 +227,7 @@ defined similarly. The question is whether $Ex^\infty X$ with $X$ a cubical set 
 
 ### Model category structure
 
-There is a [[model structure on cubical sets]] with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]], which models [[infinity-groupoid]]s.
+There is a [[model structure on cubical sets]] with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]] ([Jardine 02](#Jardine02)), which models [[homotopy types]]/[[infinity-groupoids]]. 
 
 ## Background
 
@@ -271,12 +270,14 @@ Cubical methods are a key feature in using higher homotopy groupoids to prove ho
 
 ## References
 
-Section 2 of
+General introductions of the cube category and of cubical sets are in 
 
-* [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+* [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) 
+ {#JardineLecture}
 
-gives a general discussion of the cube category and of cubical sets. 
-The **cubical identities** satisfied by a cubical set are given in proposition 2.8 on p. 9.
+* [[Sjoerd Crans]], section 2 of _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+
+The **cubical identities** satisfied by a cubical set are given there in proposition 2.8 on p. 9.
 
 
 Cubical [[singular homology]] is discussed in
@@ -284,12 +285,22 @@ Cubical [[singular homology]] is discussed in
 * Massey, W. S.,   _Singular homology theory_, _Graduate Texts in
   Mathematics_, Volume~70. Springer-Verlag, New York (1980).
 
-Model structures on cubical sets are discussed in 
 
-* Jardine, _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
-{#Jardine}
+An axiomatization of cubical sets in [[extensional type theory|extensional]] [[type theory]] is in 
 
-* Maltsiniotis, G. La cat\'egorie cubique avec connexions est une cat\'egorie   test stricte. Homology, Homotopy Appl. 11~(2) (2009) 309--326.
+* [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf))
+  {#CoquandHuber}
+
+The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
+
+* [[Rick Jardine]], _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
+ {#Jardine02}
+
+
+
+The [[strict test category]] nature of cubical sets with connection is discussed in
+
+* [[Georges Maltsiniotis]], _La cat&#233;gorie cubique avec connexions est une cat&#233;gorie test stricte_. Homology, Homotopy Appl. 11~(2) (2009) 309--326.
 
 There is also the old work
 
