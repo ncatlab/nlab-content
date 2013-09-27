@@ -94,6 +94,16 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
 * [[type of types]]
 
+## References
+
+### General
+
+(...)
+
+### In type theory
+
+* [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
+
 [[!redirects universe]]
 [[!redirects universes]]
 [[!redirects universe > history]]
