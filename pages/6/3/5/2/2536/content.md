@@ -25,7 +25,7 @@ $$
   x \circ y \coloneqq \frac{1}{2}(x y + y x) 
 $$
 
-makes $(A, \circ)$ a Jordan algebra. It is this relation that originally motivated the notion in discussion of [[quantum mechanics]], for the symmetrizued product and hence the Jordan algebra structure of the [[algebra of observables]] of a [[quantum mechanics|quantum mechanical]] system is what remains when one ignores the otherwise all-important [[commutators]] and hence the [[Hamiltonian]] flows on observables.
+makes $(A, \circ)$ a Jordan algebra. It is this relation that originally motivated the notion in discussion of [[quantum mechanics]], for the symmetrized product and hence the Jordan algebra structure of the [[algebra of observables]] of a [[quantum mechanics|quantum mechanical]] system is what remains when one ignores the otherwise all-important [[commutators]] and hence the [[Hamiltonian]] flows on observables.
 
 But later Jordan algebras have been studied largely for their own sake. 
 
@@ -142,9 +142,7 @@ In 1983, Zelmanov drastically generalized the result of Jordan, von Neumann and 
 
 The formalism of Jordan algebras seems rather removed from the
 actual practice of [[physics]], because in quantum theory we hardly ever take two observables $a$ and $b$ and form their Jordan product
-${1\over 2}(a b + b a)$.  As hinted in the previous section, it is
-
-better to think of this operation as derived from the process of _squaring_ an observable, which is something we actually do.  But
+${1\over 2}(a b + b a)$.  As hinted in the previous section, it is better to think of this operation as derived from the process of _squaring_ an observable, which is something we actually do.  But
 still, one must ask: can we see the classification of finite-dimensional formally real Jordan algebras, and thus the special role of [[normed division algebras]], as arising from some [[axioms]] more closely  tied to [[quantum theory]] as physicists usually practice it?
 
 One answer involves the Koecher--Vinberg classification of  self-dual homogeneous [[convex cone]]s. 
