@@ -10,13 +10,12 @@
 
 ##History
 
-The term *coordination* itself, or rather the German *Zuordnung*, is due to Moritz Schlick who proposed a simple set-theoretic mapping between terms of a mathematically defined physical theory and given elements of sensation. Hans Reichenbach, by contrast, argued that the act of coordination was no mere mapping, but itself played a constitutive role in defining objects of knowledge.
+The term *coordination* is a translation of the German *Zuordnung*. The latter has a long history of use with mathematics as something like [[function]]. Its use in philosophy stretches back to [[Hermann von Helmholtz]]'s *Zeichentheorie*, and was taken up later by a number of philosophers, especially by those, such as Ernst Cassirer, trying to understand the implications for epistemology of the profound transformations which took place in mathematics and physics at the turn of the nineteenth century.
 
->The difficulty concerning coordinative definitions is similar to that concerning elementary facts: the physical thing that is coordinated is not an immediate perceptual experience but must be constructed from such experience by means of an interpretation. If I establish the coordinative definition "a light ray is a straight line," then the coordinated physical thing, the light ray, is a construction going beyond perception. (, p. 8)
+In his *Allgemeine Erkenntnislehre* (1918), Moritz Schlick relies heavily on the notion of coordination, proposing that it should be understood as a simple set-theoretic mapping between the system of implicitly defined terms of a physical theory and some system of given objects or elements of sensation. A few years later, Hans Reichenbach, by contrast, argued that the act of coordination was no mere mapping between existing systems, but itself played a constitutive role in defining the objects of knowledge themselves.
 
+>The difficulty concerning coordinative definitions is similar to that concerning elementary facts: the physical thing that is coordinated is not an immediate perceptual experience but must be constructed from such experience by means of an interpretation. If I establish the coordinative definition "a light ray is a straight line," then the coordinated physical thing, the light ray, is a construction going beyond perception. (1924, p. 8)
 
-
- 
 A central issue between these accounts is that the more you press on the constitutive function of coordinating principles, the more it seems that the entities referred to by physics owe their characteristics to our conceptual framing rather than to how things are in themselves.
 
 ##Bohrification
@@ -25,5 +24,8 @@ Something to do with Bohr toposes...
 
 ##References
 
-Hans Reichenbach (1969). Axiomatization of the Theory of Relativity. Berkeley: University of California Press. Original German edition published in 1924.
+* Hans Reichenbach (1969). Axiomatization of the Theory of Relativity. Berkeley: University of California Press. Original German edition published in 1924.
 
+* Thomas Ryckman, Conditio sine qua non? Zuordnung in the Early Epistemologies of Cassirer and Schlick, Synthese Vol. 88, No. 1 (Jul., 1991), pp. 57-95
+
+* Moritz Schlick, Allgemeine Erkenntnislehre, 1918
