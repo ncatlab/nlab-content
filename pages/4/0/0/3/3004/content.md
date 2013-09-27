@@ -179,7 +179,7 @@ Standard textbook accounts include
 
 Discussion in the context of [[computer science]] is in
 
-* [[Steve Vickers]], _Geometric logic in computer science_ ([pdf] (http://www.cs.bham.ac.uk/~sjv/GLiCS.pdf&#8206;))
+* [[Steve Vickers]], _Geometric logic in computer science_ ([pdf] (http://www.cs.bham.ac.uk/~sjv/GLiCS.pdf))
 
 Discussion with an eye towards [[geometric type theory]] is in 
 
