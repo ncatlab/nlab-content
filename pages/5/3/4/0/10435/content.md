@@ -1,0 +1,61 @@
+
+# End compactification
+* table of contents
+{: toc}
+
+## Idea
+
+Whereas the [[one-point compactification]] of a (sufficiently [[nice topological space|nice]]) [[topological space]] adjoins only a single [[point at infinity]], the end compactification adjoins one point for each [[connected component]] of infinity.
+
+
+## Definition
+
+The definition was originally given only for sufficiently [[nice topological space|nice]] topological spaces (the [[hemicompact space|hemicompact]] ones).  The general definition is a bit more complicated.  We will give three versions.
+
+
+### For hemicompact spaces only
+
+Let $X$ be a [[topological space]], and suppose that $X$ is [[hemicompact space|hemicompact]]; this means that there exists an [[infinite sequence]] $n \mapsto K_n$ of [[compact subspaces]] of $X$ with $K_n \subseteq K_{n+1}$ such that every compact subspace of $X$ is contained in at least one (hence in almost all) of the $K_i$.
+
+Consider the [[connected components]] of the [[complements]] $X \setminus K_i$.  An __end__ of $X$ is an infinite sequence that chooses one such connected component for each $i$.  Remarkably, the set of ends is independent of the sequence $K$ chosen (up to [[natural bijection]]).
+
+The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e = (U_1,U_2,\ldots)$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $U_i \subseteq V$ for some (hence almost every) $i$.
+
+
+### Abstract
+
+Let $X$ be a [[topological space]], and consider the [[poset]] $Comp(X)$ of [[compact subspaces]] of $X$, ordered by [[inclusion]].  For each compact subspace $K$, consider its [[complement]] $X \setminus K$, and consider the [[set]] $\Pi_0(X \setminus K)$ of its [[connected components]].  For each inclusion $K \hookrightarrow K'$, we have a [[function]] $\Pi_0(X \setminus K') \to \Pi_0(X \setminus K)$.  This defines a [[contravariant functor]] from $Comp(X)$ to [[Set]]; its [[limit]] is the __set of ends__ of $X$.
+
+For the [[topological structure|topology]], each compact subspace $K$ defines a topological space $K \uplus \Pi_0(X \setminus K)$; here, the points of $\Pi_0(K \setminus K)$ are all [[isolated point|isolated]].  For each inclusion $K \hookrightarrow K'$, we have a [[continuous map]] $K' \uplus \Pi_0(X \setminus K') \to K \uplus \Pi_0(X \setminus K)$.  This defines a [[contravariant functor]] from $Comp(X)$ to [[Top]]; its [[limit]] is the __end compactification__ of $X$.
+
+
+### Concrete
+
+Let $X$ be a [[topological space]].  An __end__ of $X$ assigns, to each [[compact subspace]] $K$ of $X$, a [[connected component]] of its [[complement]] $X \setminus K$.  The __end compactification__ of $X$ has, as its [[underlying set]], the [[disjoint union]] of the underlying set of $X$ and the set of ends.  Its [[topological structure|topology]] is generated (from a [[topological base|base]]) by the topology of $X$ and, for each end $e\colon K \mapsto e_K$, the [[open sets]] $V \cup \{e\}$ whenever $V$ is open in $X$ and $U_K \subseteq V$ for some compact subspace $K$.
+
+
+## Examples
+
+A [[compact space]] has no ends, hence is its own end compactification.  The converse (that a space with no ends must be compact) seems to require the [[axiom of choice]] (although [[excluded middle]] and [[dependent choice]] suffice for hemicompact spaces).
+
+The end compactification of the [[real line]] is the [[extended real number]] line segment; the ends are $\infty$ and $-\infty$.  But the [[complex plane]] has only one end; its end compactification is the [[Riemann sphere]] (the same as its [[one-point compactification]]).
+
+
+## Applications
+
+Ends are important in [[proper homotopy theory]].
+
+
+## References
+
+*  [Wikipedia](https://en.wikipedia.org/wiki/End_%28topology%29)
+
+
+[[!redirects end compactification]]
+[[!redirects end compactifications]]
+
+[[!redirects topological end]]
+[[!redirects topological ends]]
+[[!redirects end of a topological space]]
+[[!redirects ends of a topological space]]
+[[!redirects ends of topological spaces]]
