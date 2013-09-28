@@ -1,15 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
-#Contents#
+
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea of some problems
 
@@ -23,7 +25,8 @@ Suppose $M$ is a _smooth_ [[manifold]] with boundary, $\partial M$, then $M\setm
 Its potential importance of proper homotopy, 
 for example for physical applications, comes from the fact that the phenomena it studies include the limiting behaviour of the system.
 
-##Intuitions
+
+## Intuitions
 
 The basic hypothesis will be that $X$ will be a [[connected space|connected and locally connected]] compact [[Hausdorff space]]. It will usually be **$\sigma$-compact**, i.e., there will be an increasing sequence, $\{K_n\}$, of compact subspaces with each $K_n$ in the interior of $K_{n+1}$ and such that 
 
@@ -34,9 +37,9 @@ These spaces will most often than not be locally finite [[simplicial complex]]es
 We will  be interested in the [[homotopy]] of such spaces 'out towards its ends' 
 
 
-###Ends###
+### Ends
 
-To illustrate the idea of the ends of a space $X$, we note that naively $\mathbb{R}$ has two ends, $\infty$ and $-\infty$, whilst $\mathbb{R}^2$ has only one as it is $S^2\setminus \{\infty\}$, (but that is vague!).
+To illustrate the idea of the [[end of a topological space|ends]] of a space $X$, we note that naively $\mathbb{R}$ has two ends, $\infty$ and $-\infty$, whilst $\mathbb{R}^2$ has only one as it is $S^2\setminus \{\infty\}$, (but that is vague!).
 
 More exactly, consider the system of spaces
 
@@ -47,34 +50,41 @@ This is an inverse system or [[pro-object]] in the category of spaces. Applying 
 $$e(X) = lim \pi_0\varepsilon(X),$$
 the _set of ends_ of $X$. In general, $e(X)$ would be given the [[inverse limit topology]], to preserve more of the information coming from its construction.  This space is the _space of (Freudenthal) ends of $X$_. It is a [[profinite space]].
 
-####Examples####
+#### Examples
+
 * Let $X_8$ be the figure eight space, the one-point union of two circles, and let $X$ be its universal cover.  This is an infinite 'thorn bush'. It has infinitely many ends and 
 $$e(X) \cong 2^{\aleph_0}.$$
 
 * Let $M$ be a compact manifold and $X = M\setminus \partial M$, then
 $e(X) \cong \pi_0(\partial M)$.
 
-###Proper maps###
+
+### Proper maps
+
 The assignment sending $X$ to $e(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
 The problem is that continuity is really about inverse images (inverse image of open is open), but the inverse image mapping does not preserve compactness  (as in the example!).
-+--{: .un_defn}
-######Definition (recall)######
++-- {: .un_defn}
+###### Definition (recall)
 A map $f:X\to Y$ is a [[proper map]] if for each subset $K$ compact in $Y$ then $f^{-1}(K)$ is compact in $X$.
 =--
-###End spaces continued###
+
+### End spaces continued
+
 If $f:X\to Y$ is proper, then it induces a pro-morphism
 $$\varepsilon(f) : \varepsilon(X)\to \varepsilon(Y)$$
 and hence a _continuous map of the end spaces
 $$e(f):e(X)\to e(Y),$$
 and $e$ becomes a functor from some category $Proper$ of spaces and proper maps to $Stone$, the category of [[profinite space]]s / [[Stone space]]s.
 
-###Proper homotopy###
-+-- {: .un_proposition}
+
+### Proper homotopy
+
++-- {: .un_prop}
 ###### Proposition
 
 For any space $X$, the natural inclusions of $X$ into $X \times I$, $e_i(x) = (x,i)$, $i = 0,1$ together with the projection maps from $X\times I$ to $X$, are proper maps.
 =--
-+-- {: .un_corollary}
++-- {: .un_cor}
 ###### Corollary
 The category $Proper$ has a [[cylinder functor]].
 =--
@@ -82,13 +92,15 @@ The category $Proper$ has a [[cylinder functor]].
 We call the corresponding notion of homotopy, 'proper homotopy'.
 We get a 'Proper category' and an associated 'proper homotopy category', which we will denote $Ho(Proper)$. If we are restricting to $\sigma$-compact spaces we may write $Proper_\sigma$, and so on.
 
-###Germs at $\infty$###
+
+### Germs at $\infty$
+
 Although a proper map $f: X\to Y$ will induce a continuous $\varepsilon(f)$, on the end spaces, it is clear that $f$ does not need to be defined on the whole of $X$ for this to work, as $\varepsilon$ encodes behaviour 'out towards $\infty$'.  This leads to the notion of a 'germ at $\infty$'.
 
 Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $X\setminus A$ is compact. 
 Note that a cofinal inclusion is proper and induces an isomorphism $\varepsilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
 +--{: .un_defn}
-######Definition###### 
+###### Definition
 This category is called the _proper category at $\infty$_.
 =--
 Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right fractions]], so any morphism from $X$ to $Y$ in $Proper_\infty$ can be represented by a diagram 
@@ -102,13 +114,18 @@ represent the same germ if $f^\prime | A = f^{\prime\prime}|A$ for some cofinal 
 
 There is also a homotopy category $Ho(Proper_\infty)$
 
-+--{.query}
++-- {: .query}
 The end space $e(X)$ is a Stone space so is $Max(R)$ for some Boolean algebra $R$ (Stone duality) In the 1960s someone (Goldman?) looked at a ring, $R$, of 'almost continuous functions' from $X$ to $\mathbb{Z}/2\mathbb{Z}$, that gave the right $e(X)$.  Can this idea help integrate better the ideas of proper homotopy etc. with modern methods of algebraic geometry?
 =--
-##Proper analogues of the fundamental group.##
+
+
+## Proper analogues of the fundamental group
+
 The end space behaves a bit like a $\pi_0$ and usually spaces will have many ends, so are not 'connected at infinity'.  If we try to do a fundamental group or groupoid analogue, this means life will get more complicated.  We will try with the assumption of a space having a single end for simplicity!  We will also assume $X$ is $\sigma$-compact.
 
-###First attempt###
+
+### First attempt
+
 We could try defining $\pi_1(\varepsilon(X))$ as a progroup, then taking its limit.  For this we would take $\{K_n\}$ an exhausting increasing sequence of compact subsets and setting $U_i = X\setminus K_i$, pick a base point $x_i$ in each $U_i$, and we will get groups $\pi_1(U_i,x_i)$.  We however need induced homomorphisms $\pi_1(U_{i+1},x_{i+1})\to \pi_1(U_i,x_i)$, and for this we have to choose an arc in $U_i$ from $x_{i+1}$ to $x_i$.  We can combine these to get a _base ray_, rather than a _base point_,  that is, we need a proper map, $\alpha : [0,\infty)\to X$.  With that we do get an inverse sequence of groups, but there are problems.  What is the dependence of the inverse system on the choice of $\alpha$?
 
 <svg
@@ -266,11 +283,11 @@ The space has just one 'end' but you can choose different ways of going from $\p
 This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This phenomenon is linked to the fact that $\pi_1(\varepsilon(X))$ does not satisfy the [[Mittag-Leffler condition]] for either choice of the base rays.
 
 
-###Waldhausen Boundary###
+### Waldhausen boundary
 
 If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = Proper(X\times \Delta^n,Y)$, which acts as if it was the _singular complex of the mythical space of proper maps from $X$ to $Y$_.
-+--{: .un_defn}
-######Definition######
++-- {: .un_defn}
+###### Definition
 The **Waldhausen boundary** of $X$ is the simplicial set $\mathbb{P}([0,\infty),X)$.
 =--
 There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
@@ -279,18 +296,23 @@ There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
 
 *  When $X$ has a single end and  $\pi_0(\varepsilon(X))$ is [[Mittag-Leffler condition|Mittag-Leffler]], then $\pi_0(\mathbb{P}([0,\infty),X))$, is a single point, i.e. all possible base rays are properly homotopic.
 
-###Second attempt###
+
+### Second attempt
+
 Even if we  did not have the above difficulty with the limit groups, we would still have the problem that, as the limit functor is not exact, the resulting limiting homotopy groups would not be that well behaved.  There would not be  any general long exact sequence results (just as with [[Čech homology]]). There is at least one possible replacement for those limiting homotopy groups, but first we note that it is not appropriate to base any such things at a point, rather we should be using a base ray as was discussed above.
 
 One fairly obvious attempt to define a 'fundamental group' for $X$, based at a proper ray $\alpha: [0,\infty) \to X$, would be to note that $\alpha$ gives $\mathbb{P}([0,\infty),X)$ a base point so we could look at  $\pi_1(\mathbb{P}([0,\infty),X),\alpha)$ and more generally at $\pi_n(\mathbb{P}([0,\infty),X),\alpha)$, and we will denote these groups by $\underline{\underline{\pi}}_n(X,\alpha)$.
 
 There are variants 'at infinity' of both the Waldhausen boundary and these groups, otained using germs instead of proper maps. These will be denoted with a $\infty$ as a super- or suffix on the above notation.
 
-###Brown-Grossman homotopy groups###
+
+### Brown&#8211;Grossman homotopy groups
+
 (Once over lightly here, more details at [[Brown-Grossman homotopy group]].)
 In fact there is another different way of looking at these groups, which has a more geometric feel to it. Historically these groups were not the first successful attempt.  This was due to Ed Brown and uses strings of spheres.  These are examples of [[spherical objects]] and the resulting 'groups' (better thought of as '$\Pi_\mathcal{A}$-[[spherical object and Pi(A)-algebra|algebras]]') have a rich structure.  They are discussed at [[Brown-Grossman homotopy group]]s.  They do link with the above homotopy groups of the Waldhausen boundary, which are called the [[Steenrod homotopy group]]s, (for reasons that will be explained there). 
 
-##References##
+
+## References
 
 Survey article:
 
@@ -307,4 +329,9 @@ Lecture Notes:
 
 *   [[D. A. Edwards]] and H. M. Hastings, _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
 
+
+[[!redirects proper homotopy theory]]
 [[!redirects Proper Homotopy Theory]]
+
+[[!redirects proper homotopy]]
+[[!redirects proper homotopies]]
