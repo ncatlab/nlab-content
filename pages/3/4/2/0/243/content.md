@@ -1,28 +1,30 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Enriched category theory
-+--{: .hide}
++-- {: .hide}
 [[!include enriched category theory contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
+
+## Disambiguation
+
+This articles is about ends (and coends) in [[category theory]].  For ends in [[topology]], see [[end compactification]].
+
 
 ## Idea
 
@@ -522,6 +524,8 @@ The standard reference is
 
   * the end of general $V$-enriched functors in terms of weighted limits is in section 3.10 .
 
+
+[[!redirects end]]
 [[!redirects ends]]
 [[!redirects coend]]
 [[!redirects coends]]
