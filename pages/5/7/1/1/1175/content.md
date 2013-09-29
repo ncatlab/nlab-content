@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -283,6 +282,8 @@ To be done...
 
 
 ## Related concepts
+
+* [[enveloping von Neumann algebra]]
 
 * [[von Neumann algebra factor]]
 
