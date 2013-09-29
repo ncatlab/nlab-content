@@ -1,6 +1,3 @@
-
-> to be merged with [[geometric Langlands program]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,6 +20,8 @@
 
 ## Idea
 
+The _geometric Langlands program_ is the analogue of the [[Langlands program]] with [[number fields]] replaced by [[function fields]]. 
+
 The conjectured _geometric Langlands correspondence_ asserts that for $G$ a  [[reductive group]] there is an equivalence of [[derived categories]] of [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over a given curve, and [[quasi-coherent sheaves]] on the moduli space of ${}^L G$-[[local system]]s 
 
 $$
@@ -41,11 +40,20 @@ This equivalence is a certain limit of the more general [[quantum geometric Lang
 
 The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is supposed to exhibit geometric Langlands duality as a special case of [[S-duality]]. 
 
+[[!include gauge theory from AdS-CFT -- table]]
+
+
 ### Relation to T-duality
 
 In some cases the passage between a Lie group and its [[Langlands dual group]] can be understood as a special case of [[T-duality]]. ([Daenzer-vanErp](#DaenzerErp))
 
 ## Related concepts
+
+* [[Hitchin fibration]]
+
+* [[topologically twisted D=4 super Yang-Mills theory]]
+
+[[duality in physics]], [[duality in string theory]]
 
 * [[S-duality]]
 
@@ -69,11 +77,33 @@ A classical survey is
 
 * [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
+Collections of resources are here;
+
+* [[David Ben-Zvi]], Geometric Langlands -- Lectures and Resources ([web](http://www.math.utexas.edu/users/benzvi/Langlands.html))
+
+* geometric Laglands [page](http://www.math.uchicago.edu/~mitya/langlands)
+
 Notes on two introductory lecture talks are here:
 
 * [Pantev on Langlands I](http://golem.ph.utexas.edu/string/archives/000806.html)
 
   [Pantev on Langlands II](http://golem.ph.utexas.edu/string/archives/000807.html)
+
+
+See also
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _Quantization of the Hitchin system and Hecke eigensheaves_, draft, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
+* Gerard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
+* Ng&#244; B&#7843;o Ch&#226;u, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](http://arxiv4.library.cornell.edu/abs/0806.4566)
+* James Arthur, _The Work of Ng&#244; B&#7843;o Ch&#226;u_, Proc. ICM Hyderabad 2010, [pdf](http://www.icm2010.org.in/wp-content/icmfiles/laudaions/fields2.pdf)
+* lecture notes on an introductory talk by [[Tony Pantev]]: [Pantev on Langlands I](http://golem.ph.utexas.edu/string/archives/000806.html), [Pantev on Langlands II](http://golem.ph.utexas.edu/string/archives/000807.html)
+* [[Edward Frenkel]], _Langlands correspondence for loop groups_, [description](http://math.berkeley.edu/~frenkel/NEWBOOK), [pdf](http://math.berkeley.edu/~frenkel/loop.pdf)
+* E. Frenkel, _Overview of the links between the Langlands program and 4D super Yang--Mills theory_, KITP talk 2010, [video page](http://online.kitp.ucsb.edu/online/duallang_m10/frenkel), notes [pdf](http://online.kitp.ucsb.edu/online/duallang_m10/frenkel/pdf/Frenkel_LanglandsQFT_KITP.pdf)
+* E. Frenkel, a Bourbaki exposition, [pdf](http://math.berkeley.edu/~frenkel/BOOK/bourbaki.pdf)
+* E. Frenkel, _Langlands duality for representations of quantum groups_, [arxiv/0809.4453](http://arxiv.org/abs/0809.4453)
+
+
+
 
 ### Interpretation in string theory
  {#ReferencesInterpretationInStringTheory}
@@ -107,3 +137,9 @@ A relation to [[T-duality]] (of the group manifolds!) is discussed in
 
 
 [[!redirects geometric Langlands duality]]
+
+[[!redirects geometric Langlands program]]
+
+[[!redirects geometric Langlands theory]]
+[[!redirects geometric Langlands duality]]
+[[!redirects geometric Langlands]]
