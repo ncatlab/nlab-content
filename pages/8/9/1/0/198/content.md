@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -80,7 +79,11 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 * [[adjoint representation]], [[coadjoint representation]]
 
+* [[induced representation]], [[coinduced representation]]
+
 * [[Lie algebra representation]]
+
+* [[Galois representation]]
 
 ## Related concepts
 
