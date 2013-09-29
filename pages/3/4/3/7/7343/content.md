@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -161,3 +160,5 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 
 [[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
+
+[[!redirects N=2 D=4 sYM]]
