@@ -23,7 +23,8 @@
 ## Idea
  {#Idea}
 
-A _Bohr topos_ (a notion going back to ideas of ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham)) and further developed e.g. in ([Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09))) is a [[topos]] associated with any [[quantum mechanical system]] which is such that the [[observables]] and [[states]] of the physical system are more or less naturally encoded in the [[internal logic]] of the topos. One might think of a Bohr topos as (part of) a formalization of the "[[coordination]]" of the [[physical theory]] of [[quantum mechanics]], providing a formalized prescription of how to map the theory to [[propositions]] about ([[experiment|experimental]]) [[observables]] of the system. The [[internal logic]] of Bohr toposes has been argued (e.g. [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09)) to be a better formal context for such considerations than the old [[quantum logic]] going back to [[von Neumann]].
+
+A _Bohr topos_ (a notion going back to ideas of ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham)) and further expored in ([Isham-D&#246;ring 07](IshamDoering07)) and ([Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09))) is a [[topos]] associated with any [[quantum mechanical system]] which is such that the [[observables]] and [[states]] of the physical system are more or less naturally encoded in the [[internal logic]] of the topos. One might think of a Bohr topos as (part of) a formalization of the "[[coordination]]" of the [[physical theory]] of [[quantum mechanics]], providing a formalized prescription of how to map the theory to [[propositions]] about ([[experiment|experimental]]) [[observables]] of the system. The [[internal logic]] of Bohr toposes has been argued (e.g. [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09)) to be a better formal context for such considerations than the old [[quantum logic]] going back to [[von Neumann]].
 
 The notion of _Bohr topos_ is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics (e.g. [Scheibe 73](#Scheibe)) it is supposed to formalize.
 
@@ -1039,6 +1040,9 @@ The generalization of Bohrification from [[quantum mechanics]] to [[quantum fiel
 The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos over the [[poset of commutative subalgebras]] (there taken to be [[presheaves]] instead of [[copresheaves]]) is due to
 
 * [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_, _I. quantum states as generalized valuations_, Internat. J. Theoret. Phys. 37(11):2669--2733, 1998, [MR2000c:81027](http://www.ams.org/mathscinet-getitem?mr=1669557), [doi](http://dx.doi.org/10.1023/A:1026680806775); _II. conceptual aspects and classical analogues_ Int. J. of Theor. Phys. 38(3):827--859, 1999, [MR2000f:81012](http://www.ams.org/mathscinet-getitem?mr=1697983), [doi](http://dx.doi.org/10.1023/A:1026652817988); _III. Von Neumann algebras as the base category_, Int. J. of Theor. Phys. 39(6):1413--1436, 2000, [arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020), [MR2001k:81016](http://www.ams.org/mathscinet-getitem?mr=1788498),[doi](http://dx.doi.org/10.1023/A:1003667607842); _IV. Interval valuations_, Internat. J. Theoret. Phys. __41__ (2002), no. 4, 613&#8211;639, [MR2003g:81009](http://www.ams.org/mathscinet-getitem?mr=1902067), [doi](http://dx.doi.org/10.1023/A:1015276209768) {#ButterfieldHamiltonIsham}
+
+* [[Andreas Döring]], [[Chris Isham]], _A Topos Foundation for Theories of Physics_  ([arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060), [arXiv:quant-ph/0703062](http://arxiv.org/abs/quant-ph/0703062), [arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066))
+  {#IshamDoering07}
 
 Disucssion of aspects of the process of [[quantization]] in terms of Bohr toposes is in 
 
