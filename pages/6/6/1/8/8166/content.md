@@ -1,4 +1,3 @@
-
 > This entry is about the notion in [[physics]]. For the notion of _model_ in [[logic]] see at _[[model (logic)]]_.
 
 ***
@@ -52,6 +51,8 @@ It is generally understood that models are approximations to reality. The prover
 * [[standard model of cosmology]]
 
 ## Related concepts
+
+* [[theory (physics)]], [[experiment]], [[coordination]]
 
 * [[mathematical physics]]
 
