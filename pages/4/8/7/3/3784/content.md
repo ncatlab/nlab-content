@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -23,7 +22,9 @@
 
 ### General
 
-A **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
+A _spacetime_ is a [[manifold]] that models [[space]] and [[time]] in [[physics]].
+
+This is formalized by saying that a **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
 
 In the context of classical [[general relativity]] a **spacetime** is usually in addition assumed to be connected and four-dimensional.
 
@@ -59,12 +60,15 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 ## Related concepts
 
+* [[general covariance]]
+
 * [[gravity]], [[cosmology]]
 
 * [[particle physics]], [[matter]], [[sigma-model]]
 
 * [[force]], [[gauge theory]]
 
+* [[mass]]
 
 [[!redirects space-time]]
 [[!redirects space time]]
