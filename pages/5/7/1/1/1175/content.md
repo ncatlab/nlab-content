@@ -65,17 +65,17 @@ For completeness, we give both the modern abstract and historical concrete defin
 We build on the concepts of [[Banach space]] and (abstract) $C^*$-[[C-star-algebra|algebra]].  In this definition, a Banach space is a [[complex number|complex]] Banach space and a [[morphism]] of Banach spaces is a [[short linear map]] (a complex-linear map of norm at most $1$); a $C^*$-algebra is a complex unital $C^*$-algebra, and a morphism of $C^*$-algebras is a unital $*$-homomorphism (which is necessarily also a short linear map).  Note in particular that an [[isomorphism]] of either must be an [[isometry]].
 
 Given a Banach space $A$, a __[[predual]]__ of $A$ is a Banach space $V$ whose [[dual Banach space]] $V^*$ is isomorphic to $A$:
-$$ V^* \overset{i}\to A .$$
-Similarly, given a morphism $f\colon A \to B$, a __predual__ of $f$ is a morphism $t\colon W \to V$ whose dual is isomorphic to $f$:
+$$ V^* \overset{i}\to A $$
+(or more properly, equipped with such an isomorphism $i$).  Similarly, given a morphism $f\colon A \to B$ (properly, with $A$ and $B$ so equipped), a __predual__ of $f$ is a morphism $t\colon W \to V$ whose dual is isomorphic to $f$:
 $$ \array {
    V^*                      & \overset{i}\to  & A \\
    \mathllap{t^*}\downarrow &                 & \downarrow\mathrlap{f} \\
    W^*                      & \underset{j}\to & B
 } .$$
 
-With these preliminaries, a __$W^*$-algebra__ is a $C^*$-algebra that admits a predual, and a $W^*$-[[homomorphism]] is a $C^*$-homomorphism that admits a predual.  In this way, the [[category]] of $W^*$-algebras becomes a [[subcategory]] of the category of $C^*$-algebras.
+With these preliminaries, a __$W^*$-algebra__ is a $C^*$-algebra that admits a predual (or more properly, equipped with one), and a $W^*$-[[homomorphism]] is a $C^*$-homomorphism that admits a predual.  In this way, the [[category]] of $W^*$-algebras becomes a [[subcategory]] of the category of $C^*$-algebras.
 
-It is a theorem (see [below](#preduals)) that the predual of a $W^*$-algebra or $W^*$-homomorphism is essentially unique; we speak of [[the]] predual of $A$, write it $A_*$, and identify $A$ with $(A_*)^*$ (and similarly for morphisms).
+It is a theorem (see [below](#preduals)) that the predual of a $W^*$-algebra or $W^*$-homomorphism is essentially unique; we speak of [[the]] predual of $A$, write it $A_*$, and identify $A$ with $(A_*)^*$ (and similarly for morphisms).  (So in fact we don\'t need the word 'equipped'; being a $W^*$-algebra is an [[extra property]], not an [[extra structure]], on a $C^*$-algebra.)
 
 In all of the above, one may write 'von Neumann' in place of '$W^*$&#8209;'.
 
