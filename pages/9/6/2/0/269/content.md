@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -296,7 +295,12 @@ The [[homotopy theory]] / [[model category]] structure on cubical sets is discus
 * [[Rick Jardine]], _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
  {#Jardine02}
 
+The fact that the [[exponential object]] of two fibrant cubical sets is again fibrant follows from remark 8.4.33 in 
 
+* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+ {#Cisinski06}
+
+in the context of [[Cisinski model structures]].
 
 The [[strict test category]] nature of cubical sets with connection is discussed in
 
