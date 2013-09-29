@@ -1,3 +1,21 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 
 # Enveloping von Neumann algebras
 * table of contents
@@ -5,7 +23,7 @@
 
 ## Definitions
 
-Let $A$ be a $C^*$-[[C-star algebra|algebra]].  We may define its enveloping von Neumann algebra in a few different but equivalent ways.
+Let $A$ be a $C^*$-[[C-star algebra|algebra]].  We may define its _enveloping [[von Neumann algebra]]_ in a few different but equivalent ways.
 
 +-- {: .num_defn #adjunction}
 ###### Definition
