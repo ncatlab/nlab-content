@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Blakers-Massey theorem_ in [[homotopy theory]] states that for $f_1$ and $f_2$ two maps out of the same [[codomain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from the [[codomain]] into the [[homotopy pullback]] of their [[homotopy pushout]]
+The _Blakers-Massey theorem_ in [[homotopy theory]] states that for $f_1$ and $f_2$ two [[maps]] out of the same [[codomain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from the [[codomain]] into the [[homotopy pullback]] of their [[homotopy pushout]]
 
 $$
   \array{
@@ -32,7 +32,7 @@ $$
   }
 $$
 
-is $(n_1 + n_2 - 1)$-connective.
+is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
 In the original statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for [[homotopy types]]/[[∞-groupoids]] &#180;but the statement holds true in all [[(∞,1)-toposes]] (Rezk) and in fact in [[homotopy type theory]] ([Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), hence also for "[[geometric homotopy types]]".
 
