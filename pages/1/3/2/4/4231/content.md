@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -1553,6 +1552,7 @@ We can use this to prove that a [[locally presentable (∞,1)-category]] is [[lo
 
 
 ## References
+ {#References}
 
 The original articles are
 
