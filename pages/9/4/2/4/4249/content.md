@@ -1,4 +1,3 @@
-
 # Mass
 * table of contents
 {: toc}
@@ -49,6 +48,11 @@ the statement of nonrelativistic __conservation of mass__.
 
 Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\mathbf{p}|} \leq E$.  For [[tachyon]]s, where this is violated, the mass becomes an [[imaginary number]].  For this reason, it may make more sense to work with $m^2$ (which is always real) than with $m$ itself.  We also implicitly assume that $E \gt 0$; for [[exotic particle]]s in which $E \lt 0$, it is convenient also to take $m \lt 0$.  (In this case, of course, it is *not* sufficient to work only with $m^2$.)
 
+## Related entries
+
+* [[space]], [[time]]
+
+* [[spacetime]]
 
 [[!redirects mass]]
 [[!redirects masses]]
