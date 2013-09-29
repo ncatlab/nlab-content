@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -103,7 +102,7 @@ The [[classical field theory]] of [[gravity]] is a physical theory which asserts
 
 ## Related concepts
 
-* [[model (physics)]]
+* [[model (physics)]], [[experiment]], [[coordination]]
 
 * [[mathematical physics]]
 
