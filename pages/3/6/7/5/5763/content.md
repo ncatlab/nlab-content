@@ -23,6 +23,12 @@
 ## Idea
  {#Idea}
 
+A _Bohr topos_ (a notion going back to ideas of ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham))) is a [[topos]] associated with any [[quantum mechanical system]] which is such that the [[observables]] and [[states]] of the physical system are more or less naturally encoded in the [[internal logic]] of the topos. One might think of a Bohr topos as (part of) a formalization of the "[[coordination]]" of the [[physical theory]] of [[quantum mechanics]], providing a formalized prescription of how to map the theory to [[propositions]] about ([[experiment|experimental]]) [[observables]] of the system.
+
+The notion of _Bohr topos_ is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics (e.g. [Scheibe 73](#Scheibe)) it is supposed to formalize.
+
+Sometimes in the literature the discussion of Bohr toposes is referred to as "the topos-theoretic formulation of physics", but actually Bohr toposes currently formalize but one aspect [[quantum mechanics]], namely "the quantum mechanical [[phase space]]" in the form of the [[quantum observables]] and the [[quantum states]]. The plain Bohr topos does not even enocode any [[dynamics]], though in the spirit of [[AQFT]] a certain presheaf of Bohr toposes on [[spacetime]] does encode dynamics ([Nuiten 11](#Nuiten11)).
+
 ### Brief
  {#IdeaInBrief}
 
