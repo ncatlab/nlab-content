@@ -4,3 +4,4 @@ David Edwards is an American mathematician working at the University of Georgia,
 * [webpage](http://www.math.uga.edu/~davide)
 
 [[!redirects D.A. Edwards]]
+[[!redirects D. A. Edwards]]
