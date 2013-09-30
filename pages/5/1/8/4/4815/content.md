@@ -41,7 +41,7 @@ $$
 
 In this context those solutions to the [[Euler-Lagrange equation]]s are of interest in which $\lambda(\phi)$ happens to be exactly or approximately constant. Many such models of not-really-constant-but-effectively-constant terms proportional to the volume are being proposed and considered in attempts to explain observed or speculated dynamics of the cosmos.
 
-See in particular at [[FRW model]] for the role of the cosmologicsl constant in homogeneous and isotropic models as in the [[standard model of cosmology]].
+See in particular at [[FRW model]] for the role of the cosmological constant in homogeneous and isotropic models as in the [[standard model of cosmology]]. In that context the cosmological constant is also called the _dark energy_ (density), which makes up about 70% of the energy density of the [[observable universe]] (the rest being [[dark matter]]) and a comparatively little bit of [[baryon|baryonic]] [[matter]].
 
 ## Related concepts
 
@@ -61,3 +61,6 @@ See in particular at [[FRW model]] for the role of the cosmologicsl constant in 
 A good review is in 
 
 * Stefanus Nobbenhuis, _The cosmological constant problem -- an inspiration for new physics_ PhD thesis (2006) ([web](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/) [pdf](http://igitur-archive.library.uu.nl/dissertations/2006-0615-200938/c1.pdf))
+
+[[!redirects dark energy]]
+
