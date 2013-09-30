@@ -37,6 +37,10 @@ A __boson__ is a [[particle]]/[[quantum field]] that obeys [[Bose-Einstein stati
 
 * [[spin-statistics theorem]]
 
+* [[Bose-Einstein condensate]]
+
+  * [[boson star]]
+
 [[!redirects boson]]
 [[!redirects bosons]]
 
