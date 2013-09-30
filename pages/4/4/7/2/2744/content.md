@@ -751,6 +751,8 @@ The relation of multisymplectic formalism to [[covariant phase space]] and [[var
 * [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson Brackets in Geometric Field Theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
  {#ForgerRomero}
 
+* [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
+
 
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
 
@@ -777,4 +779,3 @@ Kanatchikov's formalism was used by S.P. Hrabak to propose a multisymplectic ref
 
 [[!redirects multisymplectic manifold]]
 [[!redirects multisymplectic manifolds]]
-
