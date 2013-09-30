@@ -29,9 +29,9 @@ For example, to connect [[Einstein's equations]] about the [[curvature]] of [[sp
 
 The term *coordination* is a translation of the German *Zuordnung*. The latter has a long history of use with [[mathematics]] as something like [[function]]. Its use in [[philosophy]] stretches back to [[Hermann von Helmholtz]]'s *Zeichentheorie*, and was taken up later by a number of philosophers, especially by those, such as Ernst Cassirer, trying to understand the implications for epistemology of the profound transformations which took place in mathematics and physics at the turn of the nineteenth century ([[special relativity]], [[general relativity]], [[quantum mechanics]]).
 
-In his *Allgemeine Erkenntnislehre* (1918), Moritz Schlick relies heavily on the notion of coordination, proposing that it should be understood as a simple [[set theory|set-theoretic]] [[mapping]] between the system of implicitly defined terms of a physical theory and some system of given objects or elements of sensation. A few years later, Hans Reichenbach, by contrast, argued that the act of coordination was no mere mapping between existing systems, but itself played a constitutive role in defining the objects of knowledge themselves.
+In his *Allgemeine Erkenntnislehre* (1918), Moritz Schlick ([Schlick18](#Schlick18}) relies heavily on the notion of coordination, proposing that it should be understood as a simple [[set theory|set-theoretic]] [[mapping]] between the system of implicitly defined terms of a physical theory and some system of given objects or elements of sensation. A few years later, Hans Reichenbach, by contrast, argued that the act of coordination was no mere mapping between existing systems, but itself played a constitutive role in defining the objects of knowledge themselves.
 
->The difficulty concerning coordinative definitions is similar to that concerning elementary facts: the physical thing that is coordinated is not an immediate perceptual experience but must be constructed from such experience by means of an interpretation. If I establish the coordinative definition "a light ray is a straight line", then the coordinated physical thing, the light ray, is a construction going beyond perception. (1924, p. 8)
+>The difficulty concerning coordinative definitions is similar to that concerning elementary facts: the physical thing that is coordinated is not an immediate perceptual experience but must be constructed from such experience by means of an interpretation. If I establish the coordinative definition "a light ray is a straight line", then the coordinated physical thing, the light ray, is a construction going beyond perception. ([1924](#Reichenbach24), p. 8)
 
 A central issue between these accounts is that the more you press on the constitutive function of coordinating principles, the more it seems that the entities referred to by physics owe their characteristics to our conceptual framing rather than to how things are in themselves.
 
@@ -48,17 +48,21 @@ The idea of _[[Bohr toposes]]_ might be regarded as an attempt to formalize coor
 
 Coordination is different from -- in fact somewhat orthogonal to -- [[interpretation of quantum mechanics]]. For instance a coordination in [[quantum mechanics]] involves relating [[self-adjoint operators]] to certain [[experiments]]. Given this coordination, the theory assigns [[expectation values]] for the outcomes of the experiment, but it does not necessarily offer an "interpretation why" these propbabilities are predicted.
 
-On the other hand, it might be that a good formulation of the coordination process makes the need/desire for interpretations diminish. This was argued by ([Tanona 10](#Tanona10)).
+On the other hand, it might be that a good formulation of the coordination process makes the need/desire for interpretations diminish. This was argued by ([Tanona 10](#Tanona10))
 
+>...the characterization of collapse as a separate physical process is misguided because the phenomenon which collapse is supposed to address concerns not an actual process within quantum mechanical theory but rather the coordination between empirical measurements and representations of quantum systems. Until we first get clear on this relationship, it is premature to propose new processes to account for features of that relationship.
 
 
 ##References
 
 * Hans Reichenbach (1969). _Axiomatization of the Theory of Relativity_. Berkeley: University of California Press. Original German edition published in 1924.
+  {#Reichenbach24}
 
-* Thomas Ryckman, _Conditio sine qua non? Zuordnung in the Early Epistemologies of Cassirer and Schlick_, Synthese Vol. 88, No. 1 (Jul., 1991), pp. 57-95
+* Thomas Ryckman (1991), _Conditio sine qua non? Zuordnung in the Early Epistemologies of Cassirer and Schlick_, Synthese 88(1), pp. 57-95.
+  {#Ryckman91}
 
-* Moritz Schlick, _Allgemeine Erkenntnislehre_, 1918
+* Moritz Schlick (1918), _Allgemeine Erkenntnislehre_.
+  {#Schlick18}
 
-* [[Scott Tanona]], _Theory, coordination, and empirical meaning in modern physics_, in Michael Friedman, Mary Domski and Michael Dickson (eds.), _Discourse on a New Method: Reinvigorating the Marriage of History and Philosophy of Science_. Open Court (2010)
+* [[Scott Tanona]], _Theory, coordination, and empirical meaning in modern physics_, in Mary Domski and Michael Dickson (eds.), _Discourse on a New Method: Reinvigorating the Marriage of History and Philosophy of Science_. Open Court (2010), pp. 423-454.
   {#Tanona10}
