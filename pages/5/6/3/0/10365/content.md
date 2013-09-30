@@ -1,7 +1,15 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A [[condensate]] of [[bosons]]
+
+## Related concepts
+
+* [[boson star]]
 
 
 ## References
