@@ -14,9 +14,11 @@ This limit is sometimes appearing in its own right, but sometimes it is just con
 * E. Br&#233;zin, S.R. Wadia, eds. _The Large N Expansion in Quantum Field Theory and Statistical Physics_, a book collection of reprinted historical articles, [gBooks](http://books.google.com/books?id=4TbOUqWBf-IC)
 * Yuri Makeenko, _Methods of contemporary gauge theory_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)
 * M. Bershadsky, Z. Kakushadze, C. Vafa, _String expansion as large N expansion of gauge theories_, Nucl.Phys. B523 (1998) 59-72[hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>
-* G.T. Horowitz, H. Ooguri, Spectrum of large N gauge theory from supergravity, hep-th/9802116.
+* G.T. Horowitz, H. Ooguri, Spectrum of large N gauge theory from supergravity, hep-th/9802116
+* Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
 * wikipedia [1/N expansion](http://en.wikipedia.org/wiki/1/N_expansion)
 
+category: physics
 
 [[!redirects large N limit]]
 [[!redirects large N limits]]
