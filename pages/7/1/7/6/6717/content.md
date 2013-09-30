@@ -19,7 +19,7 @@
 
 There is, up to [[isomorphism]], a unique simple [[group]] of [[order of a group|order]] 2:
 
-it has two elements $(1,\sigma)$, where $\sigm \cdot \sigma = 1$.
+it has two elements $(1,\sigma)$, where $\sigma \cdot \sigma = 1$.
 
 
 This is usually denoted $\mathbb{Z}_2$ or $\mathbb{Z}/2\mathbb{Z}$, because it is the [[cokernel]] (the [[quotient]] by the [[image]] of) the  homomorphism
