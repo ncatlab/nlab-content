@@ -52,6 +52,10 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 ## References
 
+Fermions are named after [[Enrico Fermi]].
+
+For accounts in [[mathematical physics]] see for instance
+
 * [[Daniel Freed]], _Lecture 1 of [[Five lectures on supersymmetry]]_
 
 [[!redirects fermions]]
