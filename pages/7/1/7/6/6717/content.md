@@ -36,3 +36,5 @@ on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special cas
 
 * [[Stiefel-Whitney class]]
 
+
+[[!redirects group of order two]]
