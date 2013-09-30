@@ -20,9 +20,11 @@
 
 ## Idea
 
-A [[4d TQFT]] obtained by a "topological twist" from 4d [[super Yang-Mills theory]]. Its [[S-duality]] is supposed to encode, as a special case, [[geometric Langlands duality]].
+The _Kapustin-Witten TQFT_ is the [[4d TQFT]] obtained by  [[topologically twisted super Yang-Mills theory|topological twisting]] from  [[N=4 D=4 super Yang-Mills theory]]. Its [[S-duality]] is supposed to encode, as a special case, [[geometric Langlands duality]].
 
 Upon [[Kaluza-Klein mechanism|compactification]] down to 2d it reproduces, at certain parameters, the [[A-model]] and the [[B-model]].
+
+[[!include gauge theory from AdS-CFT -- table]]
 
 ## Related concepts
 
