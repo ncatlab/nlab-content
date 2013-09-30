@@ -29,9 +29,9 @@ The history of the prediction of the neutrino is interesting and may (or may not
 
 Before 1930 [[experiments]] detected an apparent violation of the [[conservation law]] for [[energy]] in processes of [[beta decay]]. 
 
-Back then [[Niels Bohr]] proposed that, therefore, appearently the fundamental [[conservation laws]] in [[physics]] may be violated and possibly only hold [[probability theory|statistically]] over many quantum mechanical processes, but possibly not microscopically.
+Back then [[Niels Bohr]] proposed that, therefore, apparently the fundamental [[conservation laws]] in [[physics]] may be violated and possibly only hold [[probability theory|statistically]] over many quantum mechanical processes, but possibly not microscopically.
 
-Opposed to this was the suggestion by [[Wolfgang Pauli]], who insisted that the [[conservation laws]] ought to hold true, and that therefore there must be an undetected new [[fundamental particle]] created in [[beta decay]], which does carry the apparently missing [[energy]].
+Opposed to this was the suggestion by [[Wolfgang Pauli]], who insisted that the [[conservation laws]] ought to hold true, and that therefore there must be an undetected new [[fundamental particle]] created in [[beta decay]], which carries the apparently missing [[energy]].
 
 Pauli with his argument and suggestion turned out to be right. The missing particle -- called the _neutrino_ by [[Enrico Fermi]] in 1933 -- was finally directly detected in 1956, hence 26 years after its proposal.
 
@@ -48,13 +48,13 @@ Today Pauli is widely acknowledged for holding up the conservation laws against 
 
 > Pauli's belief in the absolute credibility of symmetry principles led him to defend conservation laws even when at that time the empirical evidence was doubtful. His prediction of the neutrino is a great example.
 
-But on the other hand, it seems that Pauli's respect for the conservation laws was not informed my Noether's theorem, but rested more on an intuitive feeling, for in ([AP 06, p.5](#AP06)) Pauli is quoted as late as 1953 thus:
+But on the other hand, it seems that Pauli's respect for the conservation laws was not informed by Noether's theorem, but rested rather on an intuitive feeling, for in ([AP 06, p.5](#AP06)) Pauli is quoted as late as 1953 thus:
 
 > I am very much in favour of the general principle to bring empirical conservation laws and invariance properties in connection with mathematical groups of transformations of the laws of nature.
 
-While this does support the correct answer, this seems to be a rather weak way of stating it, given that Noether's theorem establishes this "connection" as a theorem, and already back in 1915.
+While this does support the correct answer, it seems to be a rather weak way of stating it, given that Noether's theorem establishes this "connection" as a theorem, already back in 1915.
 
-Similarly, in ([AP 06, p. 6](#AP06)) Pauli is quoted as reacting to Bohr's propsal by saying:
+Similarly, in ([AP 06, p. 6](#AP06)) Pauli is quoted as reacting to Bohr's proposal by saying:
 
 > I am myself fairly convinced $[...]$ that Bohr with his corresponding deliberations concerning a violation of energy conservation is entirely on the wrong track! $[...]$ The idea of a violation of the conservation of energy in &#946;-decay is and remains, in my opinion, cheap and very clumsy philosophy.
 
