@@ -22,6 +22,7 @@
 ![scale graphics](http://www.learner.org/courses/physics/visual/img_half/length_scale.jpg)
 
 
+
 ## Related entries
 
 * [[experimental observation]]
@@ -45,4 +46,3 @@
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
 * American Museum of Natural History, _Mind Explosion_ ([video](http://www.youtube.com/watch?v=PkNTzStmdJk))
-
