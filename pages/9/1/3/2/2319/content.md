@@ -35,8 +35,158 @@ $$
 Spin structures derive their name from the fact that their existence on a space $X$ make the [[quantum anomaly]] for spinning particles propagating on $X$ vanish. See there.
 
 ## Definition
+ {#Definition}
 
-For $X$ a [[manifold]], the [[groupoid]]/[[homotopy n-type|homotopy 1-type]] $Spin(X)$ of **spin structures** over $X$ is the [[homotopy fiber]] in [[∞Grpd]] $\simeq$ [[Top]]  of the second [[Stiefel-Whitney class]]
+Let $n \in \mathbb{N}$, write
+
+$$
+  \mathbb{Z}_2 \to Spin(n) \to SO(n)
+$$
+
+for the [[spin group]] [[group extension]] of the [[special orthogonal group]] in [[dimension]] $n$. (All of the following also applies verbatim for [[Lorentzian signature]]).
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  \widetilde{SO(n)} \coloneqq [\mathbb{Z}_2 \to Spin(n)]
+$$ 
+
+for the [[crossed module]] of [[smooth groups]] induced by the [[spin group|spin]] [[group extension]]. Write
+
+$$
+  \mathbf{B}\mathbb{Z}_2 \coloneqq [\mathbb{Z}_2 \to 1]
+$$
+
+for the [[crossed module]] given by shifting up the [[group of order two]] in degree. Finally write
+
+$$
+  \array{
+    \widetilde{SO(n)}
+    \\
+    \downarrow
+    \\
+    SO(n)
+  }
+$$
+
+for the canonical morphism of [[crossed modules]] which is the [[terminal object|terminal]] morphism in degree-1 and the defining projection in degree 0, and write
+
+$$
+  \tilde{\mathbf{w}}_2
+  \;\colon\;
+  \widetilde{SO(n)}
+  = 
+  [\mathbb{Z}_2 \to Spin(n)]
+  \longrightarrow
+  [\mathbb{Z}_2 \to 1]
+  = 
+  \mathbf{B}\mathbb{Z}_2
+$$
+
+for the canonical morphism of [[crossed modules]] which is the identity in degree 1 and the [[terminal object|terminal]] map in degree 0.
+
+=--
+
++-- {: .num_prop #SmoothSWMap}
+###### Proposition
+
+In the [[span]]/[[zig-zag]]
+
+$$
+  \array{
+      \widetilde{SO(n)} &\stackrel{\tilde{\mathbf{w}_2}}{\longrightarrow}&
+       \mathbf{B}\mathbb{Z}_2
+       \\
+       \downarrow^{\mathrlap{\simeq}}
+       \\
+       SO(n)
+  }
+$$
+
+the left leg is a [[weak equivalence]] of [[smooth groupoids]] (under the identification of [[crossed modules]] with [[strict 2-groups]]). Under [[delooping]] it presents a morphism of [[smooth 2-groupoids]] of the form
+
+$$
+  \mathbf{w}_2 \;\colon\; \mathbf{B}SO(n) \longrightarrow \mathbf{B}^2 \mathbb{Z}_2
+$$
+
+from the universal [[moduli stack]] of smooth $SO(n)$-[[principal bundles]] to that of $\mathbf{B}\mathbb{Z}_2$-[[principal 2-bundles]] ($\mathbb{Z}_2$-[[bundle gerbes]]). The [[homotopy fiber]] of this map in [[Smooth∞Grpd]] is $\mathbf{B}Spin(n)$, for the [[spin group]] regarded as a [[smooth group]].
+Under [[geometric realization of cohesive ∞-groupoids]] ${\vert - \vert} \colon Smooth\infty Grpd \longrightarrow \infty Grpd$ this maps ti the universal [[second Stiefel-Whitney class]]
+
+$$
+  {\vert \mathbf{w}_2\vert}
+  \simeq
+  w_2
+  \;\colon\;
+  B SO(n) \longrightarrow K(\mathbb{Z}_2,2)
+  \,.
+$$
+
+=--
+
+This is discussed in ([dcct, section 5.1](#dcct)).
+
++-- {: .proof}
+###### Proof 
+
+One checks that the [[homotopy fiber]] of $\mathbf{w}_2$ in [[Smooth∞Grpd]] is $\mathbf{B}Spin(n)$, for $Spin(n)$ the [[spin group]] regarded as a [[smooth group]], for instance by using the techniques for computing [[homotopy pullbacks]] as discussed there. Moreover, by the general discussion at _[[smooth ∞-groupoid -- structures]]_ this homotopy fiber is preseved under [[geometric realization of cohesive ∞-groupoids]] so that the homotopy fiber of ${\vert \mathbf{w}_2 \vert}$ is the [[classifying space]] $B Spin(n)$. Since $\mathbb{K}(\mathbb{Z}_2,2)$ is [[connected]], this characterizes ${\vert \mathbf{w}_2 \vert}$ as $w_2$.
+
+=--
+
++-- {: .num_remark #TangentBundleModulatingMap}
+###### Remark
+
+Given a [[smooth manifold]] $X$ with an [[orientation]], its oriented [[tangent bundle]] is modulated by a map 
+
+$$
+  \tau_X \colon X \longrightarrow \mathbf{B}SO(n)
+  \,.
+$$
+
+Postcomposition with $\mathbf{w}_2$ from prop. \ref{SmoothSWMap} gives a map in [[Smooth∞Grpd]] of the form
+
+$$
+  \mathbf{w}_2(\tau_X)
+  \;\colon\;
+  X \stackrel{\tau_X}{\longrightarrow}
+  \mathbf{B}SO(n)
+  \stackrel{\mathbf{w}_2}{\longrightarrow}
+  \mathbf{B}^2 \mathbb{Z}_2
+  \,.
+$$
+
+This modulates a $\mathbf{B}\mathbb{Z}_2$-[[principal 2-bundle]] on $X$, also called a $\mathbb{Z}_2$-[[bundle gerbe]]. By construction (the [[universal property]] of the [[homotopy fiber]]) this is the [[obstruction]] to the existence of a lift $\hat g$ in 
+
+$$
+  \array{
+    && \mathbf{B} Spin(n)
+    \\
+    & {}^{\hat g}\nearrow & \downarrow
+    \\
+    X &\stackrel{\tau_x}{\to}&
+    \mathbf{B} S O(n)
+    &\stackrel{\mathbf{w}_2}{\longrightarrow}&
+    \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
+$$
+
+Such a lift is a choice of _spin structure_ on $X$. Therefore as [[bundle gerbes]], this $\mathbf{w}_2(\tau_X)$ is also called a _[[lifting bundle gerbe]]_.
+
+=--
+
+
+
+From the perspective of lifting bundle gerbes, spin structures are discussed in ([Murray-Singer 03](#MurraySinger03)).
+
+
++-- {: .num_defn }
+###### Definition
+
+
+For $X$ a [[manifold]], the [[groupoid]]/[[homotopy n-type|homotopy 1-type]] $Spin(X)$ of **spin structures** over $X$ is the [[homotopy fiber]] in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]]  of the second [[Stiefel-Whitney class]]
 
 $$
   \array{
@@ -52,6 +202,32 @@ $$
 Here an [[object]] $s \in Spin(X)$ over an $SO$-[[principal bundle]] $\eta(s)$ on $X$ is called a **spin structure on $\eta(s)$** ($SO$ is the [[special orthogonal group]]).
 
 For $\eta(s)$ the $SO$-principal bundle for which the [[tangent bundle]] $T X$ is the canonically [[associated bundle]], one says that a spin-structure on $\eta(s)$ is a **spin structure on the manifold** $X$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+From the smooth geometric perspective on spin structures of remark \ref{TangentBundleModulatingMap} one may also start with an [[affine connection]] on the [[tangent bundle]] given, principally, by an $SO(n)$-[[principal connection]] which in turn is modulated by a map $\nabla$ in
+
+$$
+  \array{
+     && \mathbf{B} SO(n)_{conn}
+     \\
+     & {}^{\mathllap{\nabla}}\nearrow &  \downarrow
+     \\
+     X &\stackrel{\tau_X}{\longrightarrow}& \mathbf{B} SO(n)
+  }
+  \,.
+$$
+
+But since $\mathbb{Z}_2$ is a [[discrete group]], there is no non-flat $\mathbf{B}\mathbb{Z}_2$-[[principal 2-connection]] and hence no non-trivial "differential refinement" of $\mathbf{w}_2$.
+
+Beware that sometimes in the [[physics]] literature an $SO(n)$-[[principal connection]] is already called a "[[spin connection]]" (due to the fact that often in physics only local data is connsidered, and locally there is no difference between $Spin(n)$-principal connections and $SO(n)$-principal connections, up to equivalence.)
+
+
+=--
+
 
 
 ## Properties
@@ -354,18 +530,26 @@ where each "hook" is a [[fiber sequence]].
 
 Standard texbooks include 
 
-chapter II of 
-
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II of _[[Spin geometry]]_, Princeton University Press (1989)
 
 * [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
  {#Friedrich97}
-
 
 A discussion of the full [[groupoid]] of spin structures is in 
 
 * [[Johannes Ebert]], _Characteristic classes of spin surface bundles:
 Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
+
+Discussion of lifting bundle gerbes for spin structures is in
+
+* [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_ ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
+  {#MurraySinger03}
+
+Discussion of spin structures in terms of smooth moduli stacks as above is in
+
+* [[Urs Schreiber]], section 5.1 of _[[schreiber:differential cohomology in a cohesive topos]]_.
+  {#dcct}
+
 
 Discussion of spin structures on surfaces is in
 
