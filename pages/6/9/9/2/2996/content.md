@@ -60,7 +60,7 @@ There is an [[equivalence of (∞,1)-categories]] between pointed connected [[A-
 
 $A_\infty$-spaces were introduced by [[Jim Stasheff]] as a refinement of an [[H-group]] taking into account higher [[coherence|coherences]].
 
-* [[Jim Stasheff]], _Homotopy associative H-spaces I_, _II_, Trans. Amer. Math. Soc. 108 (1963), 275--312
+* [[Jim Stasheff]], _Homotopy associative H-spaces I_, _II_, Trans. Amer. Math. Soc. __108__ (1963), 275--312 [MR158400](http://www.ams.org/mathscinet-getitem?mr=158400)
 
 
 
