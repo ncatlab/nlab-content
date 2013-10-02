@@ -20,13 +20,26 @@
 
 ## Idea
 
-A [[stack]] $A$ is called a **moduli stack** for certain [[structure]]s, if for any other object $X$ the [[groupoid]] of [[morphism]]s $X \to A$ is [[equivalence of categories|equivalent]] to the groupoid of these kinds of structures on $X$.
+A [[stack]] $A$ is called a **moduli stack** for certain [[structures]], if for any other object $X$ the [[groupoid]] of [[morphisms]] $X \to A$ into $A$ is [[equivalence of categories|equivalent]] to the groupoid of these kinds of structures on $X$.
 
-This is in contrast to the notion of _[[moduli space]]_, which is only about equivalence classes of structures and loses the information about the [[automorphism]] groups of these structures.
+This is in contrast to the notion of _[[moduli space]]_, which is only about [[equivalence classes]] of structures and loses the information about the [[gauge equivalences]]/ [[automorphism]] groups of these structures.
 
-There is an evident generalization of the concept of moduli stacks further up in [[higher topos theory]], to **moduli $\infty$-stacks**.
+There is an evident generalization of the concept of moduli stacks in the more general context of [[higher topos theory]], to **[[moduli ∞-stacks]]**.
 
-Notice, however, that every stack is the moduli stack of _something_ . 
+Notice that every stack is the moduli stack of _something_ and in fact in general of different things at the same time (see below). So to some extent saying "moduli stack" is redundant. It is usually used to indicate, roughly, that there are some [[spaces]]/[[stacks]] that one is working on/over, and then there are apart from this stacks, the moduli stacks, that one is mapping _into_. 
+
+This distinction however easily disappears. For instance a historically famous moduli stack is the [[moduli stack of elliptic curves]] which started out as an object used to classify [[bundles]] of elliptic curves over other spaces. Later in the study of [[elliptic cohomology]] and [[tmf]] the "moduli stack" of elliptic curves came to be regarded as an space interesting in itself for the geometry _on_ it, specifically since this is naturally a [[derived algebraic geometry]].
+
+Analogous comments apply to other moduli stacks. For instance for $G$ a [[topological group]], the moduli stack $\mathbf{B}G \simeq \ast //G$ for topological $G$-[[principal bundles]] is itself interesting for its own geometry. Notably it is the base stack of the [[universal principal bundle]] which as such may be equipped with [[differential geometry]] such as a [[connection on a bundle]] etc.
+
+Generally, what one needs for a stack to classify bundles in this way is a _universal bundle_ over it, for then what the stack _modulates_ are precisely the [[pullbacks]] of this universal bundle. A stack with a prescribed universal bundle over it may be regarded as a stack equipped with an [[atlas]].
+
+In conclusion then "moduli stack" pretty much means "stack" or more precisely "stack with specified universal bundle over it or [[atlas]] into it", with the implicit implication that we say "moduli stack" to indicate that we care about pulling back that atlas/bundle along maps into the stack.
+
+(Compare this to how one says "[[presheaf]]" for what is really just a [[functor]] in order to indicate a certain attitude, namely that one will be interested in asking which presheaves are [[sheaves]].)
+
+
+
 
 ## Examples
 
@@ -85,3 +98,5 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 [[!redirects moduli 2-stack]]
 [[!redirects moduli 2-stacks]]
 
+[[!redirects higher moduli stack]]
+[[!redirects higher moduli stacks]]
