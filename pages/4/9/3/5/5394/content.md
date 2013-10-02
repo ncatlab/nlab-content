@@ -120,14 +120,15 @@ $$
   \mathcal{T}_A := [ComSub(A),Set]
 $$ 
 
-for the [[presheaf topos]] on $ComSub(A)^{op}$. 
+for the [[presheaf topos]] on $ComSub(A)^{op}$. This is alse called the _[[Bohr topos]]_.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This opposite order on commutative subalgebras may be seen as the information order from [[Kripke semantics]]: a larger subalgebra contains more information. In this light the presheaf topos on $ComSub(A)$, as used by [DoeringIsham](#DoeringIsham) and co-workers, may be seen as the co-Kripke model. This model give the so-called coarse-graining semantics of physics.
+This opposite order on commutative subalgebras may be seen as the information order from [[Kripke semantics]]: a larger subalgebra contains more information. In this light the presheaf topos on $ComSub(A)$, as used by ([D&#246;ring-Isham 07](#DoeringIsham)) and co-workers, may be seen as the co-Kripke model. This model is also referred to as the _coarse-graining semantics_ of quantum mechanics. See also at _[[spectral presheaf]]_.
+
 
 =--
 
