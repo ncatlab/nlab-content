@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
@@ -960,21 +964,21 @@ $$
 
 This appears as ([Nuiten, def. 17](#Nuiten)).
 
-### Locality and descent
 
 Assume that a net of observables $A : Op(X) \to C^\ast Alg_{inc}$
-satisfies the [[split property]]. Then it is [[local net|local]] precisely if the corresponding presheaf of Bohr toposes
+satisfies the [[split property]]. Then it is [[local net|strongly local]] precisely if the corresponding presheaf of Bohr toposes
 $Bohr(A) : Op(X)^{op} \stackrel{A}{\to} C^\ast Alg_{inc} \stackrel{Bohr}{\to} C^\ast Top$ satisfies _spatial_ [[descent]] by [[local geometric morphism]]s (meaning that for every spatial hyperslice $\Sigma \subset X$ the induced presheaf $Bohr(A)|_\Sigma : Op(\Sigma)^{op} \to C^\ast Top$ satisfies [[descent]] by [[local geometric morphism]]s.)
 
 (...)
 
 This appears as ([Nuiten, theorem 4.2](#Nuiten)).
 
-(...)
 
-### Boundary field theories and descent
+## Contravariant functors on open subsets
 
-([Nuiten, section 4.3](#Nuiten))
+Above is discussed the notion of Bohr topos given by [[covariant functors]] on the [[poset of commutative subalgebras]] of a [[C*-algebra]]. The fact that the functors here are covariant is related to the fact that the algebra itself naturally exists inside the presheaf topos.
+
+Alternatively one can explore the situation for [[contravariant functors]] on the [[poset of commutative subalgebras]] ([Isham-D&#246;ring 07](#IshamDoering07)).  The resulting [[presheaf topos]] then does not directly contain the given $C^\ast$-algebra, but by [[Gelfand duality]], does directly contain an internal [[locale]] which is its [[Gelfand spectrum]]. This is called the "[[spectral presheaf]]". 
 
 
 ## References
