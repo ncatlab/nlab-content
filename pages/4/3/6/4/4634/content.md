@@ -211,6 +211,11 @@ Also the lectures notes:
 * [[Marco Robalo]], _Noncommutative motives and K-theory_, talk at [Higher Categories and Topological Quantum Field Theories,
 Vienna, 2013](http://www.mat.univie.ac.at/~favero/Workshops/Higher.html), [notes](http://www.mat.univie.ac.at/~favero/Workshops/here/NotesRobalo.pdf)
 
+Discussion of how the [[derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] Chow motive is in 
+
+* [[Adeel Khan]], _Perfect correspondences and Chow motives_, Thesis 2013 ([pdf](http://www.preschema.com/documents/masters.pdf))
+
+
 category: algebraic geometry, noncommutative geometry
 
 [[!redirects noncommutative motif]]
