@@ -307,7 +307,12 @@ A discussion in the general sense of [[fiber integration]] in [[generalized (Eil
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
  {#HopkinsSinger}
 
-Explicit formulas for fiber integration of cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] are given in
+and around prop. 2.1 (in the context of [[Chern-Simons theory]]) in
+
+* [[Daniel Freed]], _Classical Chern-Simons theory_ II. Special issue for S. S. Chern. Houston J. Math.
+28 (2002), no. 2, 293&#8211;310.
+
+Explicit formulas for fiber integration of _cocycles_ in [[Cech cohomology|Cech]]-[[Deligne cohomology]] are given in
 
 * [[Kiyonori Gomi]] and Yuji Terashima, _A Fiber Integration Formula for the Smooth Deligne Cohomology_ International Mathematics Research Notices
 2000, No. 13 ([pdf](http://imrn.oxfordjournals.org/content/2000/13/699.full.pdf))
@@ -324,6 +329,16 @@ and
 See also
 
 * [[Johan Dupont]], Rune Ljungmann, _Integration of simplicial forms and Deligne cohomology_ Math. Scand. 97 (2005), 11&#8211;39 ([pdf](http://www.mscand.dk/article.php?id=897))
+
+
+The observation that the construction in [Gomi-Terashima](#GomiTerashima) induces refines to [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|higher moduli stacks]] is discussed in
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
+
+for the case without boundary and for the general case in 
+
+* [[Urs Schreiber]] et al. _[[schreiber:Local prequantum field theory]]_. 
+
 
 
 [[!redirects differential Thom class]]
