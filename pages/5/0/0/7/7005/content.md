@@ -214,9 +214,20 @@ See ([Shulman 12](#Shulman12), [UF 13](UF13))
 
 ## Properties
 
+### Relation to function extensionality
+
 The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
+
+### Canonicity
+ {#Canonicity}
+
+It is currently open whether the univalence axiom is "computationally effective" in that it enjoys [[canonicity]]. 
+
+But for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]) [[canonicity]] has been show in ([Shulman 12, section 13](#Shulman12)). This uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively induceing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize one needs a sufficiently strict [[global sections]] functor with values in [[infinity-groupoids]].
+
+Another approach to solving canonicity is to build a model for [[homotopy type theory]] inside [[extensional type theory]] to then induce canonicity from the latter to the former. In this direction goes the work of ([Coquand-Huber 13](#CoquandHuber13)) which models univalent homtopy type theory in [[constructive mathematics|constructive]] [[cubical sets]].
 
 ## Related concepts
 
@@ -260,8 +271,14 @@ A guided walk through the formal proof that univalence implies [[functional exte
 
 A discussion of univalence in [[categories of presheaves]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
 
-* [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+* [[Michael Shulman]], _Univalence for inverse diagrams, oplax limits, and gluing, and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
  {#Shulman12}
+
+This discusses [[canonicity]] of univalence in its section 13. Another approach to showing canonicity is in 
+
+* [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf))
+  {#CoquandHuber13}
+
 
 On the issue of strict pullback of the univalent universe see
 
