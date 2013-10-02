@@ -242,7 +242,8 @@ Other classic references, now available online, include:
 
 * [[Pierre Gabriel]], _[[Des Catégories Abéliennes]]_
 
-* [[Peter Freyd]], _[Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html)_, originally published by Harper and Row, New York, 1964.
+* [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
+  {#Freyd64}
 
 Textbook discussion is also in 
 
@@ -272,4 +273,3 @@ See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/
 
 
 [[!redirects abelian categories]]
-
