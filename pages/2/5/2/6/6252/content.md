@@ -48,6 +48,9 @@ For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean c
 
 * [[self-adjoint extension]]
 
+* [[quantum observable]], [[daseinisation]]
+
+* [[positive operator]]
 
 ## References
 
