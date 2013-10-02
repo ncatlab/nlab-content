@@ -80,13 +80,23 @@ Notice the similarity (but superficial difference: $sSet$/$Sp$-enrichment locali
 
 Moreover, by [Schwede-Shipley 03](#SchwedeShipley03) theorems, 3.1.1, 3.3.3, 3.8.2 stable model categories equivalent (by [[zig-zags]] of [[Quillen equivalences]]) to categories of [[module spectra]] over some [[ring spectrum]]. If that is an [[Eilenberg-MacLane spectrum]], then this identifies the corresponding stable model categories with the [[model structure on unbounded chain complexes]].
 
+### Relation to stable $\infty$-categories
+
+Stabilization of model categories is a model for the abstractly defined [[stabilization]] in [[(infinity,1)-category theory]] ([Robalo 12, prop. 4.15](#Robalo12)).
 
 ## References
+
+The standard accounts are
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
  {#SchwedeShipley}
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003) 103-153
  {#SchwedeShipley03}
+
+Discussion of the notion of stable model categories with the abstract notion of [[stabilization]] in [[(infinity,1)-category theory]] is in section 4.2 (prop. 4.15) of
+
+* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
+  {#Robalo12}
 
 [[!redirects stable model categories]]
