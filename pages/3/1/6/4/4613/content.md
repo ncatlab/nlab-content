@@ -37,6 +37,39 @@ But the precise meaning of the term _secondary characteristic class_ varies a li
 
 1. Using refined [[Chern-Weil theory]] the notions of [[curvature characteristic form]]s and their [[Chern-Simons form]]s are unified into the notion of cocycles in [[ordinary differential cohomology]]. The notion of [[Cheeger-Simons differential character]] was introduced to describe this unification, and it is has become tradition to call these differential characters themselves _secondary characteristic classes_ independently of whether the corresponding ordinary [[characteristic class]]/[[curvature characteristic form]] vanishes or not (for instance ([DupontKamber](#Kamber), [Karlsson](#Karlsson)). More descriptively, this case is maybe better referred to as a _[[differential characteristic class]]_ . See there for more details.
 
+## Higher order invariants and boundary field theory
+ {#HigherOrderInvariantsAndBoundaryFieldTheory}
+
+The statement that secondary invariants are indeed secondary to primary invariants can be formalized in the language of [[prequantum field theory|prequantum]] [[boundary field theory]] by saying that (higher) [[topological Yang-Mills theory]] (which is controled by differential [[Chern classes]]) has as [[boundary field theory]] ([[higher dimensional Chern-Simons theory|higher]]) [[Chern-Simons theory]]. 
+
+As explained at _[[boundary field theory]]_, this statement is reflected by the existence of a universal [[correspondence]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)}$, where $\mathbf{H}$ is [[Smooth∞Grpd]], $\flat$ is the [[flat modality]] and $\mathbf{B}^{n+1}U(1)$ is the [[circle n-group|circle (n+2)-group]]:
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow &\downarrow^\nabla& \searrow^{\mathrlap{F_{(\nabla)}}}
+    \\
+    \ast &\leftarrow& \mathbf{B}^n U(1)_{conn} &\stackrel{F_{(-)}}{\to}& \Omega^{n+1}_{cl}
+    \\
+    & \searrow &\swArrow& \swarrow_{\mathrlap{}}
+    \\
+    && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,,
+$$
+
+where the bottom right map is the canonical one in the context of [[differential cohesion]], the outer diagram is any specified one and the factorization through the
+
+This exhibits a secondary invariant $\nabla$ (a [[cocycle]] in [[ordinary differential cohomology]]) of degree (n+1) as a boundary condition for the theory of closed characteristic forms.
+
+In this picture, one obtains further "higher order invariants" by successively further [[transgression|transgrssing]] and forming higher order boundaries. 
+
+If we view here, as we may $\nabla$ as the [[local Lagrangian]] of an [[schreiber:infinity-Chern-Simons theory]], then the ternary invariants are _[[WZW terms]]_; the quaternary invariants are _[[Wilson loop]]_ terms.
+([lpqft](#lpqft))
+
+
+
 ## Related concepts
 
 * [[Chern-Simons invariant]]
@@ -68,6 +101,19 @@ The special meaning in the context of [[Chern-Weil theory]] in [[differential ge
 * Michelle Karlsson, _Characteristic classes and bounded cohomology_ ([pdf](http://www.math.ethz.ch/u/burger/karlsson.pdf))
 {#Karlsson}
 
+Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills]] prequantum field theory is in
+
+* [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
+  {#lpqft}
+
+Specifically the secondary Chern-Simons and quternary WZW invariants in this context are discussed in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.)
+_Mathematical Aspects of Quantum Field Theories_, Springer 2014
+
+and the ternary WZW invariant in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 
 [[!redirects secondary characteristic class]]
