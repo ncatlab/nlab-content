@@ -52,6 +52,7 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[antilinear map]]
 
+* [[self-adjoint operator]], [[positive operator]]
 
 [[!redirects linear map]]
 [[!redirects linear maps]]
