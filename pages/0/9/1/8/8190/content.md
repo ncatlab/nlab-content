@@ -107,3 +107,9 @@ For more see the references at _[[multisymplectic geometry]]_.
 [[!redirects de Donder-Weyl hamiltonian]]
 [[!redirects de Donder-Weyl Hamiltonian]]
 
+[[!redirects Hamilton-de Donder-Weyl equation]]
+[[!redirects Hamilton-de Donder-Weyl equations]]
+
+[[!redirects de Donder-Weyl equation]]
+[[!redirects de Donder-Weyl equations]]
+
