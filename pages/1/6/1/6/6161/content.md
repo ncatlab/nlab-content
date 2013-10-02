@@ -353,7 +353,7 @@ Using this in the above statements of the K&#252;nneth theorem yields directly t
 
 The original articles are
 
-* H. K&#252;nneth, _&#220;ber die Bettische Zahlen einer Produktmannigfaltigkeit_ Math. Ann. , 90 (1923) pp. 65&#8211;85
+* H. K&#252;nneth, _&#220;ber die Bettischen Zahlen einer Produktmannigfaltigkeit_ Math. Ann. , 90 (1923) pp. 65&#8211;85
 
 * H. K&#252;nneth, _&#220;ber die Torsionszahlen von Produktmannigfaltigkeiten_ Math. Ann. , 91 (1924) pp. 125&#8211;134
 
@@ -363,7 +363,7 @@ Lecture notes include
 
 Section [3.B](http://www.math.cornell.edu/~hatcher/AT/ATch3.4.pdf) of 
 
-* [[Alan Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+* [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
  {#Hatcher}
 
 Section 4.2 in 
