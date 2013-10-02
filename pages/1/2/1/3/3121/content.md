@@ -94,6 +94,10 @@ $$
 
 This is definition 8.1, 8.2 in [StabCat](http://arxiv.org/abs/math/0608228)
 
+### Construction in terms of stable model categories
+ {#ConstructionInTermsOfStableModelCategories}
+
+Given a presentation of an [[(∞,1)-category]] by a [[model category]], there is a notion of stabilization of this model category to a [[stable model category]]. That this in turn presents the abstractly defined stabilization of the corresponding [[(∞,1)-category]] is due to ([Robalo 12, prop. 4.14](#Robalo12)).
 
 ## Properties
 
@@ -119,10 +123,16 @@ has a [[left adjoint]]
 [[!include k-monoidal table]]
 
 ## References
+ {#References}
 
-Section 1.4 of 
+A general discussion in the context of [[(∞,1)-category theory]] is in section 1.4 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Discussion of the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) is in section 4.2 of
+
+* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
+  {#Robalo12}
 
 
 [[!redirects stabilizations]]
