@@ -137,6 +137,7 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 * [[Hamiltonian operator]]
 
+* [[self-adjoint operator]], [[daseinisation]]
 
 ## References
 
