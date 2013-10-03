@@ -152,11 +152,9 @@ In this diagram now
 
 ## References
 
-> Lots of references to go here
-
 * [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 ([pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf))
-
-* Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, ([arXiv:1107.1179](http://arxiv.org/abs/1107.1179))
+* Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_, [pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)
+* Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [arXiv:1107.1179](http://arxiv.org/abs/1107.1179)
 
 
 [[!redirects differential equation]]
