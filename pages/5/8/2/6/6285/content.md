@@ -28,12 +28,17 @@ is linear and in fact a (anti-)[[unitary operator]] (up to a phase) if only the 
 In [[quantum mechanics]] every symmetric operation needs to be a norm-preserving bijection from a [[Hilbert space]] of [[state]]s to itself. Hence Wigner's theorem asserts that in quantum mechanics symmetries are presented by [[unitary operator]]s (or more rarely [[anti-unitary operator]]s, as for example [[time reversal]]).
 
 
-### Related concepts
+## Related theorems
+
+Other theorems on the foundations of [[quantum mechanics]] include:
 
 * [[Gleason's theorem]]
 
 * [[Kochen-Specker theorem]]
 
+* [[Alfsen-Shultz theorem]]
+
+* [[Harding-Döring-Hamhalter theorem]]
 
 ## References
  
