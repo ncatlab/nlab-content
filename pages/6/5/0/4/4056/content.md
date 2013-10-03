@@ -19,11 +19,13 @@
 
 ## Idea
 
-The classical _Gleason theorem_ says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
+### General
 
-In other words: every [[quasi-state]] is already a state $(if dim(H) \gt 2)$.
+The classical _Gleason theorem_ says that a [[state]] on the [[C*-algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal [[projections]] $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
 
-It is possible to extend the theorem to certain types of [[von Neumann algebras]] (e.g. obviously factors of type $I_2$ have to be excluded).
+In other words: every [[quasi-state]] is already a state if  $dim(H) \gt 2$.
+
+It is possible to extend the theorem to certain types of [[von Neumann algebras]] (e.g. obviously [[von Neumann algebra factor|factors]] of type $I_2$ have to be excluded).
 
 
 ### Implications for Quantum Logic
@@ -31,14 +33,10 @@ It is possible to extend the theorem to certain types of [[von Neumann algebras]
 Roughly, Gleason's theorem says that "a quantum state is completely determined by only knowing the answers to all of the possible yes/no questions".
 
 
-## Abstract
-
-...
-
 
 ## Definitions
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 Let $\rho: \mathcal{P} \to [0, 1]$ such that for every finite family $\{ P_1, ..., P_n: P_i \in \mathcal{P} \}$ of pairwise orthogonal projections we have $\rho(\sum_{i=1}^n P_i) = \sum_{i=1}^n \rho(P_i) $, then $\rho$ is a **finitely additive measure** on $\mathcal{P}$.
 
@@ -50,7 +48,7 @@ If the family is not finite, but countable, then $\rho$ is a **sigma-finite meas
 
 ### Classical Gleason's Theorem
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If $dim(\mathcal{H}) \neq 2$ then each finitely additive measure on $\mathcal{P}$ can be uniquely extended to a state on $\mathcal{B}(\mathcal{H})$. Conversly the restriction of every state to $\mathcal{P}$ is a finitley additive measure on $\mathcal{P}$.
 
@@ -65,7 +63,7 @@ The same holds for sigma-finite measures and [[normal state|normal states]]: Eve
 
 ### Gleason\'s Theorem for POVMs
 
-In [[quantum information theory]], one often considers positive operator-valued measures ([[POVM]]s) instead of [[Hermitian operator]]s as [[observables]].  While a Hermitian operator is given by a family of [[projection operator]]s $P_i$ such that $\sum_i P_i = 1$, a POVM is given more generally by any family of positive-semidefinite operators $E_i$ such that $\sum_i E_i = 1$.
+In [[quantum information theory]], one often considers positive operator-valued measures ([[POVM]]s) instead of [[Hermitian operators]] as [[observables]].  While a Hermitian operator is given by a family of [[projection operator]]s $P_i$ such that $\sum_i P_i = 1$, a POVM is given more generally by any family of positive-semidefinite operators $E_i$ such that $\sum_i E_i = 1$.
 
 In the analog of Gleason's Theorem for POVMs, therefore, we start with $\rho\colon \mathcal{E} \to [0,1]$, where $\mathcal{E}$ is the space of all positive-semidefinite operators.  Then if $\sum_i \rho(E_i) = 1$ whenever $\rho(\sum_i E_i) = 1$, the theorem states that $\rho$ has a unique extension to a mixed [[quantum state]].
 
@@ -110,18 +108,22 @@ f(u) =
 $$
 This probability measure will in general not extend to a state.
 
-## Related theorem
+## Related theorems
+
+Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[Kochen-Specker theorem]]
 
 * [[Wigner theorem]]
 
+* [[Harding-Döring-Hamhalter theorem]]
 
 ## References
 
 Gleason's original paper outlining the theorem is
 
-* A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+* A.M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
+  {#Gleason57}
 
 A standard textbook exposition of the theorem and its meaning is 
 
