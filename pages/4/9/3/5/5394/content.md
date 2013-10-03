@@ -89,21 +89,21 @@ there is a [[von Neumann algebra factor]] $A$ with no algebra isomorphism to its
 
 Let $A, B$ be [[von Neumann algebra]]s without a type $I_2$-[[von Neumann algebra factor]]-summand and let $ComSub(A)$, $ComSub(B)$ be their posets of [[commutative C-star-algebra|commutative]] sub-von Neumann algebras. 
 
-Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of [[poset]]s comes from a unique Jordan algebra isomorphism $A_J \to B_J$. 
+Then every [[isomorphism]] $ComSub(A) \to ComSub(B)$ of [[poset]]s comes from a unique [[Jordan algebra]] isomorphism $A_J \to B_J$. 
 
 =--
 
-This is the theorem in ([HardingD&#246;ring](#HardingDoering)).
+This is the theorem in ([Harding-D&#246;ring](#HardingDoering)).
 
 There is a generalization of this theorem to more general [[C-star algebras]] in ([Hamhalter](#Hamhalter)).
+
+For more on this see at _[[Harding-Döring-Hamhalter theorem]]_.
 
 +-- {: .num_remark}
 ###### Remark
 
-Compare this to the [[Alfsen-Shultz theorem]], which says that
- two $C^*$-algebras have the 
-same [[state on an operator algebra|states]] precisely if they
-are Jordan-isomorphic.
+This is related to the [[Alfsen-Shultz theorem]], which says that two $C^*$-algebras have the 
+same [[state on an operator algebra|states]] precisely if they are Jordan-isomorphic.
 
 =--
 
@@ -227,5 +227,6 @@ for $A$ a [[von Neumann algebra]] and more generally for $A$ a [[C*-algebra]] in
 * [[Jan Hamhalter]], _Isomorphisms of ordered structures of abelian $C^\ast$-subalgebras of $C^\ast$-algebras_, J. Math. Anal. Appl. 383 (2011) 391&#8211;399 ([journal](dx.doi.org/10.1016/j.jmaa.2011.05.035))
  {#Hamhalter}
 
+See at _[[Harding-Döring-Hamhalter theorem]]_.
 
 [[!redirects semilattice of commutative subalgebras]]
