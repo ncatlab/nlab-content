@@ -83,6 +83,9 @@ $$
 The behaviour of [[quantum channel]]s and _completely positive maps_ has an elegant categorical description in terms of $\dagger$-compact categories. See ([Selinger](#SelingerPositive) and [Coecke](#CoeckePositive)).
 
 
+## Related concepts
+
+* [[order-theoretic structure in quantum mechanics]]
 
 ## References
  {#References}
