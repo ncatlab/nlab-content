@@ -247,7 +247,7 @@ For more on this see
 
 * [[quantum mechanics in terms of †-compact categories]].
 
-## Foundations theorems of quantum mechanics
+## Foundational theorems of quantum mechanics
 
 The following circle of [[theorems]]
 
