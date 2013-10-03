@@ -262,7 +262,7 @@ The following circle of [[theorems]]
 
 * [[Harding-Döring-Hamhalter theorem]]
 
-all revolve around the phenomenon that the "[[phase space]]" in quantum mechanics and hence the [[space of quantum states]] are all determined by the [[Jordan algebra]] structure on the [[algebra of observables]], which in turn is determined by the [[poset of commutative subalgebras]] of the algebra of observables.
+all revolve around the phenomenon that the "[[phase space]]" in quantum mechanics and hence the [[space of quantum states]] are all determined by the [[Jordan algebra]] structure on the [[algebra of observables]], which in turn is determined by the [[poset of commutative subalgebras]] of the algebra of observables. See at _[[order-theoretic structure in quantum mechanics]]_ for more on this.
 
 There is also 
 
