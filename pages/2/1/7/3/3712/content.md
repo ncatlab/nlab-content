@@ -29,7 +29,7 @@ The condition of flatness is usually expressed via the [[Maurer-Cartan equation]
 
 ## Properties
 
-### Riemann-Hilbert correspndence
+### Riemann-Hilbert correspondence
  {#RiemannHilbertCorrespondence}
 
 That flat connections are equivalently [[representations]] of the [[fundamental groupoid]] of the base space/[[local systems]] is known as the _[[Riemann-Hilbert correspondence]]_.
@@ -42,7 +42,13 @@ In geometry one says instead of flat connection, **integrable connection**. The 
 
 The condition of flatness is usually expressed via the [[Maurer-Cartan equation]], which is in integrable systems theory often called *zero curvature equation*. For example, the Lax equations can always be written in the form of the zero curvature equation. 
 
-### Over a Riemann surface: Narasimhan&#8211;Seshadri theorem
+### Over a Riemann surface
+
+#### Existence
+
+In ([Milnor](#Milnor)) it is shown that a [[vector bundle]] over a [[surface]] of [[genus]] $g$ admit flat connections iff its [[Euler class]] is less than $g$ by an [[absolute value]] (see also Wood, Bundles with totally disconnected structure group). [Sullivan](#Sullivan) gives a refinement.
+
+#### Narasimhan&#8211;Seshadri theorem
 
 The _[[Narasimhan?Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
 
@@ -61,6 +67,15 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 * [[flat ∞-connection]]
 
 * [[flat section]]
+
+## References
+
+* [[John Milnor]], _On the existence of a connection with curvature zero, Comm. Math. Helv. v 32
+  {#Milnor}
+
+* [[Dennis Sullivan]], _A generalization of Milnor's inequality_ Comm. Math. Helv. v. 51
+  {#Sullivan}
+
 
 [[!redirects integrable connection]]
 
