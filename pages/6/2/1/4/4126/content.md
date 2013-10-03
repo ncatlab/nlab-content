@@ -167,7 +167,8 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 The original article is
 
-* [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf).
+* [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics 17, 59&#8211;87 (1967), ([pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf))
+  {#KochenSpecker67}
 
 The sheaf-theoretic interpretation of the theorem was proposed in
 
