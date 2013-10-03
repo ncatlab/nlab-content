@@ -13,9 +13,20 @@ $$
 
 for $v \in H$ is positive.
 
+More generally:
+
++-- {: .un_def}
+###### Definition
+An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [[self-adjoint operator|self-adjoint]] and its [[spectrum of an operator|spectrum]] is contained in $[0, \infinity)$. 
+
+=--
+
+
 ## Related concepts
 
 * [[self-adjoint operator]]
+
+* [[state on an operator algebra]]
 
 * [[quantum operation]]
 
