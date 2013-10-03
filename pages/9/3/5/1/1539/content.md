@@ -55,7 +55,7 @@ Equivalently, in addition to finite limits and colimits and local cartesian clos
 ###### Definition/Proposition
 
 
-Every [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of presheaves]] over a [[site]] $C$ on the [[separated presheaves]]  is a quasitopos.  A category equivalent to such a separated presheaf category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  
+The [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of presheaves]] over a [[site]] $C$, consisting of the [[separated presheaves]] on $C$, is a quasitopos.  A category equivalent to such a separated presheaf category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  
 
 =--
 
@@ -179,19 +179,25 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
   * The category of [[diffeological space|diffeological spaces]]. 
 
-  * The category of sets equipped with a reflexive [[relation]]. 
+* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
 
-  * The category of sets equipped with a symmetric relation. 
+  * The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]). 
 
-  * The category of sets equipped with a reflexive symmetric relation. 
+  * The category of sets equipped with a [[relation]] (as presheaves on 
+    $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
+    a truncation of the [[globular category]]). 
+
+  * The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
+
+  * The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
+
+  * The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). 
 
 * The category of [[bornological set|bornological sets]]. 
 
-* The category of [[monomorphisms]] between sets (morphisms being commutative squares) is a Grothendieck quasitopos of $\neg \neg$-separated objects in the topos $Set^\to$ of presheaves on the [[interval category]]. 
-
 * The category of assemblies of a [[partial combinatory algebra]]. 
 
-* As a super-large example, the category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the category of compact Hausdorff spaces with the finite covering topology. 
+* The category of Spanier's [[quasi-topological space|quasi-topological spaces]], the category of concrete sheaves on the site consisting of compact Hausdorff spaces with the finite covering topology. See [Dubuc-Espanol](#DE). 
 
 ## Related concept
 
@@ -223,6 +229,7 @@ Quasi-toposes of [[concrete sheaves]] are considered in
 * [[Eduardo Dubuc]], _Concrete quasitopoi_ , Lecture Notes in Math. 753 (1979), 239&#8211;254
 
 * [[Eduardo Dubuc]], L. Espanol, _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727))
+{#DE} 
 
 A review is in
 
