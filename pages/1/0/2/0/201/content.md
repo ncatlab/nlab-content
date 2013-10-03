@@ -189,7 +189,7 @@ is a [[bimonoidal category]] (and can be made a [[bipermutative category]]).
 +-- {: .num_remark }
 ###### Remark
 
-A [[monoid]] [[internalization|internal to]] $(Ab, \otimes, \mathbb{Z})$ is equivalrntly a [[ring]]. 
+A [[monoid]] [[internalization|internal to]] $(Ab, \otimes, \mathbb{Z})$ is equivalently a [[ring]]. 
 
 =--
 
