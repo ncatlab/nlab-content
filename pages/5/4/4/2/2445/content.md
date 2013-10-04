@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
@@ -63,9 +67,9 @@ Let $M$ be a projective $R$-module of finite [[rank]], and let $q$ be nondegener
 
 The **Clifford group** $\Gamma_{M,q}(R)$ is the subgroup of elements $x$ for which twisted conjugation stabilizes the submodule $M \subset Cl(M,q)$.  Here, twisted conjugation is defined by $y \mapsto xy\alpha(x)^{-1}$, where $\alpha$ is the automorphism of $CL(M,q)$ induced by the $-1$ map on $M$.  Since twisted conjugation by $M$-stabilizing elements amounts to reflection $y \mapsto y - 2\frac{(x,y)}{q(x)}x$, there is a canonical map $\Gamma_{M,q}(R) \to O(M,q)$, and the Clifford group is in fact a central extension of the orthogonal group by $R^\times$.
 
-The Clifford group is made of homogeneous elements in the $\mathbb{Z}/2\mathbb{Z}$-grading, and the subgroup of even elements is a normal subgroup of index two.  One also has a spinor norm $Q: \Gamma_{M,q}(R) \to R^\times$ on the Clifford group, defined by $Q(x) = x^tx$, where $x \mapsto x^t$ is the anti-involution of the Clifford algebra defined by opposite multiplication in the tensor algebra.
+The Clifford group is made of homogeneous elements in the $\mathbb{Z}/2\mathbb{Z}$-grading, and the subgroup of even elements is a normal subgroup of index two.  One also has a [[spinor]] norm $Q: \Gamma_{M,q}(R) \to R^\times$ on the Clifford group, defined by $Q(x) = x^tx$, where $x \mapsto x^t$ is the anti-involution of the Clifford algebra defined by opposite multiplication in the tensor algebra.
 
-The [[Pin group]] $Pin_{M,q}(R)$ is the group elements of the Clifford group with spinor norm 1.  The [[Spin group]] $Spin_{M,q}(R)$ is the group of elements in the even subgroup of the Clifford group with spinor norm 1.
+The [[Pin group]] $Pin_{M,q}(R)$ is the group elements of the Clifford group with [[spinor]] norm 1.  The [[Spin group]] $Spin_{M,q}(R)$ is the group of elements in the even subgroup of the Clifford group with [[spinor]] norm 1.
 
 The restriction of the map $\Gamma_{M,q}(R) \to O(M,q)$ to the Pin group may not be surjective, but it is for positive definite real vector spaces.  The kernel is the group $\mu_2(R)$ of elements of $R$ that square to 1.  Similarly, the [[Spin group]] has a map to the special orthogonal group with kernel $\mu_2(R)$, but it may not be surjective in general.
 
@@ -73,7 +77,7 @@ One can use base change to define the groups given above as functors on commutat
 
 ## Spinors
 
-For nondegenerate quadratic forms on real vector spaces, spinors are distinguished linear representations of [[Spin group]]s that are not pulled back from the corresponding special orthogonal groups.  In other words, the central element $-1$ acts nontrivially.  They can be realized as restrictions of representations of the even parts of Clifford algebras.  Since even parts of Clifford algebras are (up to complexification) the sum of one or two matrix rings, their representation theory is quite simple.
+For nondegenerate [[quadratic forms]] on real vector spaces, [[spinors]]/[[spin representations]] are distinguished linear representations of [[Spin groups]] that are not pulled back from the corresponding special orthogonal groups.  In other words, the central element $-1$ acts nontrivially.  They can be realized as restrictions of representations of the even parts of Clifford algebras.  Since even parts of Clifford algebras are (up to complexification) the sum of one or two matrix rings, their representation theory is quite simple.
 
 The specific nature of spinor representations possible depends on the signature of the vector space modulo 8.  This is a manifestation of Bott periodicity.  One always has a Dirac spinor - the fundamental (spin) representation of the complexified Clifford algebra.  In even dimensions, this splits into two Weyl spinors (called half-spin representations).  One may also have real representations called Majorana spinors, and these may decompose into Majorana-Weyl spinors.
 
@@ -99,9 +103,12 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 
 * [[Clifford module]]
 
+* [[Fierz identity]]
+
 * [[spin geometry]], [[spin group]]
 
 * [[2-Clifford algebra]]
+
 
 
 
