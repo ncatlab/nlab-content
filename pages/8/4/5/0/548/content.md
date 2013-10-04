@@ -357,6 +357,12 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 ## References 
 
+2-groups were introduced, under the name _gr_-categories, in 
+
+* [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973) ([web](http://www.math.rwth-aachen.de/~kuenzer/sinh.html)),
+
+supervised by [[Grothendieck]].
+
 Exposition and discussion of 2-groups as special [[monoidal categories]] is in 
 
 *  [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_ ([arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)).
