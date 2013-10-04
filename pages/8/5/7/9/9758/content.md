@@ -22,7 +22,8 @@
 ## Idea
 
 What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. The [[coefficients]] of this Fierz decomposition are effectively the spinorial [[Clebsch-Gordan coefficients]].
-In practice the Fierz identities are mostly used  for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
+
+In practice the Fierz identities are mostly relevant for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
 
 ## Definition
 
@@ -58,7 +59,7 @@ $$
 
 where $c_p \in \mathbb{R}$ is some [[coefficient]], expressing the [[endomorphism]] of pairing with $\psi_2$ and then spitting out $\psi_1$ as a [[linear combination]] of the [[endomorphisms]] $\Gamma^{a_1 \cdots a_p}$.
 
-This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_. The coefficients $c_p$ are effectively given by spinorial [[Clebsch-Gordan coefficients]], see [below](#CEElementsInSupersymmetryAlgebra) for more on this.
+This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_. The coefficients $c_p$ are effectively given by spinorial [[Clebsch-Gordan coefficients]], see [below](#AsSpinorialClebschGordanCoefficients) for more on this.
 
 Often this is expressed after acting with the endomorphisms on a third chosen [[spinor]] $\psi_3$, in which case the Fierz identity reads
 
@@ -87,7 +88,7 @@ $$
   \right) 
 $$
 
-by applying the idenity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the middle.
+by applying the identity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the middle.
 
 ### For Chevalley-Eilenberg elements of supersymmetry algebras
  {#CEElementsInSupersymmetryAlgebra}
@@ -95,39 +96,93 @@ by applying the idenity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the mi
 Let $S$ be a suitable real [[spinor representation]]
 which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] ("[[super Minkowski spacetime]]") $\mathbb{R}^{d-1,1; S}$. 
 
-The corresponding [[Chevalley-Eilenberg algebra]] is generated from the [[vielbein]]("[[graviton]]") generators $e^a \in CE^{(1,even)}$ and the "[[gravitino]]" generators $\psi^\alpha \in CE^{(1,odd)}$.
+The corresponding [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1;S})$ is generated from the [[vielbein]] ("[[graviton]]") generators 
 
-In terms of these the Fierz identities are [[equations]] in the [[Chevalley-Eilenberg algebra]] of the form
+$$
+  e^a \in CE^{(1,even)}(\mathbb{R}^{d-1,1;S})
+$$ 
+
+and the "[[gravitino]]" generators 
+
+$$
+  \psi^\alpha \in CE^{(1,odd)}(\mathbb{R}^{d-1,1;S})
+$$
+
+where the index ${}^a$ labels a chosen [[basis]] of $V$ and the index ${}^\alpha$ a chosen basis of $S$.
+
+Now the Fierz identities are [[equations]] in the [[Chevalley-Eilenberg algebra]] of the form
 
 $$
   \psi \wedge \overline{\psi}
   = 
-  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+  \sum_p c_p  
+   \left(
+     \overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma \psi
+   \right)
+   \,
    \Gamma_{a_1 \cdots a_p}
 $$
 
-or rather with all indices shown
+or rather, with all indices shown
 
 $$
   \psi^\alpha \wedge \overline{\psi}_\beta
   = 
-  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+  \sum_p c_p  
+   \left(
+     \overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma \psi
+   \right)
+   \,
    \Gamma_{a_1 \cdots a_p}{}^{\alpha}{}_\beta
+  \;\;\;\;
+  \in CE^{(2,even)}(\mathbb{R}^{d-1,1;S})
   \,.
 $$
 
-Now applying this to CE-elements of the form $\Gamma_{a_1 \cdots a_{k}}$
-gives the Fierz identities in the form
+
+### As spinorial Clebsch-Gordan coefficients
+ {#AsSpinorialClebschGordanCoefficients}
+
+On the left of the above equation we have a [[tensor product]] [[spin representation]] which decomposes on the right into a sum. This means that we are dealing with [[Clebsch-Gordan coefficients|Clebsch-Gordan decomposition]] of the tensor product representation into a [[direct sum]] of [[irreducible representations]].
+
+(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b)) 
+
+To project out the irreps one may contract with 
+CE-elements parameterized in the form 
 
 $$
-  \psi \wedge \left\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi
+  \Gamma_{a_1 \cdots a_{k}} \psi
+  \in
+  CE^{(1,odd)}(\mathbb{R}^{d-1,1;S})
+  \,.
+$$
+
+This gives the Fierz identities in the form
+
+$$
+  \psi \wedge 
+   \left(\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi\right)
+   = 
+  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
+   \wedge \Gamma_{a_1 \cdots a_p}\psi
+  \,,
+$$
+
+which with indices shown is
+
+$$
+  \psi^\alpha \wedge 
+   \left(\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi\right)
   = 
   \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
-   \Gamma_{a_1 \cdots a_p}
+   \wedge \left(\Gamma_{a_1 \cdots a_p}\psi\right)^\alpha
+  \;\;\;
+  \in CE^{(3,odd)}(\mathbb{R}^{d-1,1;S})
+  \,.
 $$
 
 
-
+### For computation of supersymmetric cohomology
 
 A degree $(2,p)$-element of its [[Chevalley-Eilenberg algebra]] which is [[Lorentz group|Lorentz]] invariant is of the form
 
@@ -175,13 +230,15 @@ The Fierz identities that give the vanishing of trilinear and of quadratic terms
 
 * [[John Huerta]], _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
-The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]) have been discussed (and apparently even pioneered(?)) in 
+The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]) have been discussed  in 
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], E. Maina, [[Tullio Regge]], _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([spire](inspirehep.net/record/167640?ln=eninspirehep.net/record/167640?ln=en))
+  {#DAuriaFreMainaRegge82}
 
 The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed 
 
-* [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl.Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+* [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+  {#DAuriaFre82a}
 
 and in appendix C of 
 
@@ -190,6 +247,7 @@ and in appendix C of
 The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) are tabulated on pages 12, 13 of 
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+ {#DAuriaFre82b}
 
 
 [[!redirects Fierz identities]]
