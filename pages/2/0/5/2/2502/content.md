@@ -107,7 +107,7 @@ $$
 $$
 
 $$
-  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \wedge \Gamma_{a b} \psi
   \,.
 $$
 
@@ -117,7 +117,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-Removing all terms involving $\omega$ here yields the [[Chevalley-Eilenberg algebra]] of the [[super translation algebra]] $\mathbbf{R}^{D;N}$.
+Removing all terms involving $\omega$ here yields the [[Chevalley-Eilenberg algebra]] of the [[super translation algebra]] $\mathbb{R}^{D;N}$.
 
 =--
 
@@ -180,6 +180,8 @@ The following theorem has been stated at various placed in the physics literatur
   for spinors $\Psi, \Phi \in \mathcal{S}$ and vectors $\mathcal{A}, \mathcal{B} \in \mathcal{V}$, with the commutator taken in the Clifford algebra.
 
 The 4-cocycle in $d = 11$ is the one that induces the [[supergravity Lie 3-algebra]].
+
+All these cocycles are controled by the relevant [[Fierz identities]].
 
 ### Extensions 
 
