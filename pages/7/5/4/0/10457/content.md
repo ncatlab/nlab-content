@@ -1,6 +1,6 @@
 
 
-> The following surveys how basic [[theorems]] about the standard foundation of [[quantum mechanics]] imply an accurate [[geometry|geometric]] incarnation of the "[[phase space]] in [[quantum mechanics]]" by an [[order theory|order-theoretic structure]] that combines with an [[algebra|algebraic]] structure to a [[ringed topos]], the "[[Bohr topos]]". While the notion of [[Bohr topos]] has been _motivated_ by the [[Kochen-Specker theorem]], the point here is to highlight that taking into account further theorems about the standard foundations of [[quantum mechanics]], the notion effectively follows automatically and provides an accurate and useful description of the geometry of "quantum phase space" also in [[quantum field theory]].
+> The following surveys how basic [[theorems]] about the standard foundation of [[quantum mechanics]] imply an accurate [[geometry|geometric]] incarnation of the "[[phase space]] in [[quantum mechanics]]" by an [[order theory|order-theoretic structure]] that combines with an [[algebra|algebraic]] structure to a [[ringed topos]], the "[[Bohr topos]]". While the notion of [[Bohr topos]] has been _motivated_ by the [[Kochen-Specker theorem]], the point here is to highlight that taking into account further theorems about the standard foundations of [[quantum mechanics]], the notion effectively follows automatically and provides an accurate and useful description of the geometry of "quantum phase space" also in [[quantum field theory]] formulated in the style of [[AQFT]].
 
 ***
 
@@ -24,7 +24,8 @@
 {:toc}
 
 
-## Idea
+## The quantum phase space as a Jordan-geometry given by a ringed topos
+  {#QuantumPhaseSpaceAsJordanGeometry}
 
 
 
@@ -76,7 +77,60 @@ Such "Bohrification of local nets of observables" were analyzed in ([Nuiten 12](
 
 Be that as it may, notice that generally local systems of [[ringed toposes]] are to be expected to naturally encode [[quantum field theory]] on general grounds: the modern [[AQFT]]-style formulation of [[classical field theory]]/[[prequantum field theory]] via [[factorization algebras]] or similar assigns to subsets of [[spacetime]] the [[derived critical locus]] of local [[field (physics)|fields]] extremizing the given [[local action functional]], hence the [[derived geometry|derived space]] of solutions to the [[Euler-Lagrange equations]] of motion: the [[covariant phase space]] (pre-quantum). In [[physics]] this [[derived critical locus]] is modeled explicitly as a [[BV-BRST formalism|BV-complex]], but when realized in the full technical beauty of [[derived geometry]] it is in fact a [[structured (infinity,1)-topos|higher ringed topos]], as explained by [[Jacob Lurie]]. In view of this incarnation of [[classical field theory]] in [[AQFT]]-perspective as a net of [[structured (infinity,1)-topos|higher ringed topos]], it seems rather natural that under [[quantization]] it remains a net of ringed toposes, sending ringed toposes incarnating classical [[covariant phase spaces]] to ringed toposes incarnating their quantized version as quantum phase spaces.
 
+## Relation to the traditional non-commutative geometry
+ {#RelationToTheNonCommutativePhaseSpace}
+
+In the above we highlighted that by [the fundamental theorems](#ListOfTheoremsInvoked) on the foundations of [[quantum mechanics]] -- going back to insights of [[Pascual Jordan]] way back in 1930 and formally affirmed by more recent results by Alfsen-Shultz and Harding-D&#246;ring -- it follows that, accurately speaking, quantum phase space is not really an object in [[noncommutative geometry]], but rather in a kind of _non-associative_ "Jordan geometry" which is naturally captured by the [[ringed topos|ringed]] [[Bohr topos]] over the [[poset of commutative subalgebras]].
+
+This observation indeed puts doubt on the long and widely held believe that the quantum phase space is an object in [[noncommutative geometry]], a believe that in fact motivated much of the development of [[noncommutative geometry]] in the first place.
+
+But that this is not really true was "well known" all along: it is pointed out for instance in the foundational text ([Bates-Weinstein 97](#BatesWeinstein97)) on [[geometric quantization]]. On page 80 there is highlighted how given a classical [[phase space]] represented by a [[Poisson manifold]] $(X, \{-,-\})$, hence of a [[manifold]] that carries 
+
+1. a commutative algebra of classical observables 
+
+1. equipped with a compatible non-commutative [[Lie bracket]] $\{-,-\}$ (the [[Poisson bracket]])
+
+the [[quantization]] of this data is to be thought of as applying to these two items separately: 
+
+1. a non-associative but commutative [[Jordan algebra]] structure of quantum observables is the [[deformation quantization]] of the commutative algebra structure of classical observables;
+
+
+1. a non-commutative [[Lie bracket]] structure is the deformation quantization of the Poisson bracket
+
+and that if the quantization of both items is given by a single [[C*-algebra]] structure, then the non-associative commutative Jordan algebra structure is the one induced by the anticommutator
+
+$$
+  A \circ B = \tfrac{1}{2}(A B + B A)
+$$
+
+while the non-commutative algebra structure is that given by the commutator
+
+$$
+  [A,B] = \tfrac{1}{2}(A B - B A)
+$$
+
+See also at _[Jordan algebra -- Origin in quantum physics](Jordan+algebra#OriginInQuantumPhysics)_.
+
+To understand that this makes good sense notice that this decomposition is that into [[kinematics]] and [[dynamics]] of [[quantum mechanics]]:
+
+1. [[kinematics]] --- the construction of the [[quantum observables]] and of the [[space of quantum states]] alone indeed does _not_ involve the associative product of the [[C*-algebra]];
+
+1. [[dynamics]]  ---  the commutator [[Lie bracket]] structure is used to impose quantum [[Hamiltonian flows]] $\exp([A,-])$, hence (time) propagation along the [[trajectories]] generated by the observables $A$.
+
+But then observe in addition that when we pass from [[quantum mechanics]] to [[quantum field theory]] axiomatized as [[AQFT]], then in fact time propagation is no longer implemented by [[inner automorphisms]] of the form $\exp([A,-])$. Indeed it is impossible for any realistic [[physical system]] with infinitely many degrees of freedom (such as a [[field (physics)|field]]) to have time evolution given by an [[inner automorphism]]. That this does work for [[quantum mechanics]] is really an artifact of the degenerate case of finitely many degrees of freedom considered there.
+
+Instead, in [[AQFT]] the [[spacetime]]-evolution of the quantum fields is all encoded in the transition functions of the [[local net of observables]]. By the [above](#QuantumPhaseSpaceAsJordanGeometry) discussion, this is however accurately speaking not actually a net of [[C*-algebras]], but a net of [[Jordan algebra]], hence a net of [[Bohr toposes]]. This way the need for the non-commutative algebraic structure disappears and only the non-associative commutative [[Jordan algebra]] structure remains.
+
+In this context it may be noteworthy to recall what is a well-kept secret: despite much work on [[AQFT]] with the traditional [[Haag-Kastler axioms]] that demand to assign [[C*-algebras]] to regions of spacetime, there is to date not a single non-[[free field theory|free field]] example in [[spacetime]] [[dimension]] greater than 3 of these axioms. (There are plenty of interesting example in dimension 2, though, see at _[[conformal net]]_ and pointers given there.)
+
+On the other hand, more recently the variant of the [[AQFT]] axioms known as _[[factorization algebras]]_ has been shown to admit plenty of interesting examples of [[quantum field theory]]. Comparison of the axioms is not straightforward and should be taken with a grain of salt, but it is maybe noteworthy that a [[factorization algebra]] is indeed a net that assigns to a region of spacetime _not_ an algebra structure. The algebra structure there is instead all encoded into the way that spacetime regions are included into each other.
+
+
+
 ## List of theorems invoked
+ {#ListOfTheoremsInvoked}
+
+For reference, the following lists that theorems about the standard foundations of quantum mechanics that are being referred to [above](QuantumPhaseSpaceAsJordanGeometry):
 
 * [[Gleason's theorem]]
 
@@ -117,6 +171,9 @@ hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
 
 * [[Erik Alfsen]], H. Hanche-Olsen, [[Frederic Shultz]], _State spaces of $C^\ast$-algebras_, Acta Math., 144 (1980), 267-305.
   {#AlfsenHOShultz80}
+
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_  American Mathematical Society in the Berkeley Mathematics Lecture Notes series, 1997 ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
+  {#BatesWeinstein97}
 
 * [[Jeremy Butterfield]], [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem: I. Quantum States as Generalized Valuations_ ([arXiv:quant-ph/9803055](http://arxiv.org/abs/quant-ph/9803055))
   {#IshamButterfield98}
