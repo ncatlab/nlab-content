@@ -1,11 +1,19 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -237,7 +245,7 @@ A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$.
 
 ## References 
 
-In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (internally defined manifolds with an infinitesimal thickening to all orderes) is described in
+In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (internally defined manifolds with an infinitesimal thickening to all orderes) is described (with the simplicial structure not made explicit) in
 
 section I.18 of 
 
@@ -247,7 +255,11 @@ and in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(k-Alg^{op})$ of [[algebraic geometry]], i.e. on [[affine scheme]]s is worked out in detail in 
+Discussion of this that does make the simplicial structure explicit and relates it to the [[Dold-Kan correspondence]] is in 
+
+* Herman Stel, _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras ? with applications to ∞-Lie theory]]_.
+
+The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(k-Alg^{op})$ of [[algebraic geometry]], i.e. on [[affine schemes]] is worked out in detail in 
 
 * [[Larry Breen]], [[William Messing]], _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
 
@@ -266,8 +278,6 @@ There is also
 
 * Kumpera, Spencer, _Lie Equations_ , Annals of Math. Studies 73 (1973)
 
-
-### In nonstandard analysis 
 
 There is also a version of the infinitesimal singular simplicial context in the context of [[nonstandard analysis]]. See
 
