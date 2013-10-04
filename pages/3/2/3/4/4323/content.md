@@ -539,11 +539,14 @@ Discussion of Thom spectra from the point of view of [[(∞,1)-module bundles]] 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
 
-which is briefly reviewed in
+which is reviewed in
 
 * [[Dylan Wilson]], _Thom spectra from the $\infty$ point of view_, 2013 ([pdf](http://www.math.northwestern.edu/~bwill/thom/DWthom4.pdf)) 
  {#Wilson13}
 
+and in the context of [[motivic quantization]] via [[fiber integration in generalized cohomology|pushforward]] in [[twisted cohomology|twisted]] [[generalized cohomology]] in section 3.1 of 
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis 2013
 
 ### As dual objects in the stable homotopy category
 
