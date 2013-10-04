@@ -98,9 +98,19 @@ and earlier hints in
 * [[Edward Witten]], _Chern-Simons gauge theory as a string theory_, The Floer memorial volume, 637&#8211;678, Progr. Math. __133__, Birkh&#228;user 1995, [arXiv/hep-th/9207094](http://arxiv.org/abs/hep-th/9207094), [MR97j:57052](http://www.ams.org/mathscinet-getitem?mr=1362846)
 {#Wittem92}
 
+Lecture notes on this and its relation to the [[Jones polynomial]] are in
+
+* [[Edward Witten]], _A New Look At The Jones Polynomial of a Knot_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnJonesPolynomial2013.pdf:file]])
+
+* [[Edward Witten]], _Khovanov Homology And Gauge Theory_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnKhovanovHomology2013.pdf:file]])
+
+
 See also 
 
 * [[Edward Witten]], _Khovanov homology and gauge theory_, [arxiv/1108.3103](http://arxiv.org/abs/1108.3103)
+
+* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ {#Witten11}
 
 Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
 
