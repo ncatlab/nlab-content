@@ -137,7 +137,15 @@ The Fierz identities that give the vanishing of trilinear and of quadratic terms
 
 * [[John Huerta]], _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
-The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed in appendix C of 
+The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]) have been discussed (and apparently even pioneered(?)) in 
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], E. Maina, [[Tullio Regge]], _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([spire](inspirehep.net/record/167640?ln=eninspirehep.net/record/167640?ln=en))
+
+The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed 
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl.Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+
+and in appendix C of 
 
 * [[José Figueroa-O'Farrill]], Emily Hackett-Jones, George Moutsopoulos, _The Killing superalgebra of ten-dimensional supergravity backgrounds_, Class.Quant.Grav.24:3291-3308,2007 ([arXiv:hep-th/0703192](http://arxiv.org/abs/hep-th/0703192))
 
