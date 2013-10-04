@@ -7,9 +7,9 @@
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
-#### Super-Geometry
-+--{: .hide}
-[[!include supergeometry - contents]]
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
 =--
 =--
 =--
@@ -19,12 +19,16 @@
 * table of contents
 {:toc}
 
+## Idea
+
+What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. In practice the Fierz identities are mostly used  for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
+
 ## Definition
 
-Given an [[irreducible representation|irreducible]] [[spinor representation]] $S$ equipped with a [spinor metric](spin+representation#SpinorMetric), what are called _Fierz identities_ are the [[equations]] that express the composite [[isomorphism]]
+Given an [[irreducible representation|irreducible]] [[spinor representation]] $S$ of the [[spin group]] $Spin(V)$ and equipped with a [spinor metric](spin+representation#SpinorMetric), what are called _Fierz identities_ are the [[equations]] that express the composite [[isomorphism]]
 
 $$
-  S \otimes S \simeq S \otimes S^\ast \simeq End(S) \simeq Cl(S)
+  S \otimes S \simeq S \otimes S^\ast \simeq End(S) \simeq Cl(V)
 $$
 
 where 
@@ -55,7 +59,7 @@ where $c_p \in \mathbb{R}$ is some [[coefficient]], expressing the [[endomorphis
 
 This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_.
 
-Sometimes this is moreover expressed after acting with the endomorphisms on a third chosen [[spinor]] $\psi_3$, in which case the Fierz identity reads
+Often this is expressed after acting with the endomorphisms on a third chosen [[spinor]] $\psi_3$, in which case the Fierz identity reads
 
 $$
   \left(\overline{\psi}_2 \psi_3\right) \psi_1  
@@ -123,6 +127,7 @@ These computations control the existence of [[Green-Schwarz action functionals]]
 
 ## References
 
+
 Traditional accounts of Fierz identities include
 
 
@@ -136,7 +141,7 @@ The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and
 
 * [[José Figueroa-O'Farrill]], Emily Hackett-Jones, George Moutsopoulos, _The Killing superalgebra of ten-dimensional supergravity backgrounds_, Class.Quant.Grav.24:3291-3308,2007 ([arXiv:hep-th/0703192](http://arxiv.org/abs/hep-th/0703192))
 
-The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) are tabulated in pages 12, 13 of 
+The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) are tabulated on pages 12, 13 of 
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
 
