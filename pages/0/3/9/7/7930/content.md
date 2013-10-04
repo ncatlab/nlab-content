@@ -142,6 +142,7 @@ These appear notably in the following applications:
 * for $p \geq 2$ higher spin bilinears $S \otimes S \longrightarrow \wedge^p V$ appear in further [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions).
 
 #### $p = 0$ -- spinor metric
+  {#SpinorMetric}
 
 We discuss spinor bilinear pairings to scalars.
 
@@ -189,7 +190,7 @@ $$
   C^T = - \epsilon C
 $$
 
-with $\epsilon \in \{-1,1\}$ give in [[dimension]] $d$ by the following table
+with $\epsilon \in \{-1,1\}$ given in [[dimension]] $d$ by the following table
 
 | $d \, mod \, 8$ | $C$ |
 |--|--|
@@ -266,6 +267,7 @@ for even $d$ and $S^\pm$ the two inequivalent [[irreducible representations]].
 
 This is ([Varadarajan 04, theorem 6.6.3](#Varadrajan04)).
 
+
 ##### Over the real numbers (for Majorana spinors)
 
 +-- {: .num_prop #BispinorialPairingToAVectorOverTheReals}
@@ -293,14 +295,17 @@ This is ([Varadarajan 04, theorem 6.5.10](#Varadrajan04)).
 For more see ([Varadarajan 04, section 6.7](#Varadrajan04)).
 
 
+##### Pairing to a vector in terms of the charge conjugation matrix
+ {#PairingToVectorByChargeConjugationMatrix}
+
 +-- {: .num_remark}
 ###### Remark
 
-In terms of a [[matrix]] representation with respect to a chose
+In terms of a [[matrix]] representation with respect to a chosen
 [[basis]] as in remark \ref{ChargeConjugationMatrix} the 
 pairing of prop. \ref{BispinorialPairingToAVectorOverTheReals}
 is given by the matrices $\Gamma^a = \{(\Gamma^a)^\alpha{}_\beta\}$
-that represent the [[Clifford algebra]] by raising and lowering indices with the [[charge conjugation matrix]] (e.g [Freed 99 (3.5)](#Freed99)).
+that represent the [[Clifford algebra]] by raising and lowering indices with the [[charge conjugation matrix]] of remark \ref{ChargeConjugationMatrix} (e.g [Freed 99 (3.5)](#Freed99)).
 
 In such a notation if $\phi = (\phi^\alpha)$ denotes the component-vector of a spinor, then the result of "lowering its index" is given by acting with the metric in form of the [[charge conjugation matrix]]. The result is traditionally denoted
 
@@ -436,5 +441,4 @@ and for the traditional component notation used in physics see
 [[!redirects Majorana-Weyl spinors]]
 [[!redirects Majorana-Weyl representation]]
 [[!redirects Majorana-Weyl representations]]
-
 
