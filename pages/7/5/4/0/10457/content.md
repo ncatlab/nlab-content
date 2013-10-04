@@ -82,7 +82,7 @@ Be that as it may, notice that generally local systems of [[ringed toposes]] are
 
 In the above we highlighted that by [the fundamental theorems](#ListOfTheoremsInvoked) on the foundations of [[quantum mechanics]] -- going back to insights of [[Pascual Jordan]] way back in 1930 and formally affirmed by more recent results by Alfsen-Shultz and Harding-D&#246;ring -- it follows that, accurately speaking, quantum phase space is not really an object in [[noncommutative geometry]], but rather in a kind of _non-associative_ "Jordan geometry" which is naturally captured by the [[ringed topos|ringed]] [[Bohr topos]] over the [[poset of commutative subalgebras]].
 
-This observation indeed puts doubt on the long and widely held believe that the quantum phase space is an object in [[noncommutative geometry]], a believe that in fact motivated much of the development of [[noncommutative geometry]] in the first place.
+This observation indeed puts doubt on the long and widely held believe that the quantum phase space is an object in [[noncommutative geometry]], a belief that in fact motivated much of the development of [[noncommutative geometry]] in the first place.
 
 But that this is not really true was "well known" all along: it is pointed out for instance in the foundational text ([Bates-Weinstein 97](#BatesWeinstein97)) on [[geometric quantization]]. On page 80 there is highlighted how given a classical [[phase space]] represented by a [[Poisson manifold]] $(X, \{-,-\})$, hence of a [[manifold]] that carries 
 
