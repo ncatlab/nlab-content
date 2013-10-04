@@ -1,4 +1,11 @@
-* website: [personal](http://www.facebook.com/people/Hisham-Sati/664774609), [institute](http://www.mathematics.pitt.edu/people/HishamSati.php)
+
+Hisham Sati ([website](http://www.mathematics.pitt.edu/person/hisham-sati)) is working on [[non-perturbative effects|non-perturbative]] phenomena  in [[string theory]]/[[M-theory]] using tools of [[cohomology]], [[homotopy theory]], [[algebraic topology]] and [[higher category theory]]. His thesis advisor was [[Michael Duff]].
+
+Hisham Sati is assistant professor in the Mathematics Department at Pittsburgh University.
+
+From his [website](http://www.mathematics.pitt.edu/person/hisham-sati):
+
+> My research is interdisciplinary and lies in the intersection of [[differential geometry]], [[algebraic topology]], and [[mathematical physics|mathematical/theoretical physics]]. I am mainly interested in geometric and topological structures arising from [[quantum field theory|quantum (topological) field theory]], [[string theory]], and [[M-theory]].  This includes [[orientation in generalized cohomology|orientations]] with respect to [[generalized cohomology theories]], and corresponding description via [[higher geometry|higher geometric]], [[topology|topological]], and [[category theory|categorical]] notions of [[bundles]].
 
 ## Selected publications
 
@@ -9,6 +16,8 @@
   part _II: Twisted $String$ and $String^c$ structures_, J. Australian Math. Soc. 90 (2011), 93-108 ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419)); 
 
   part _III: Twisted higher structures_, Int. J. Geom. Meth. Mod. Phys. 8 (2011), 1097-1116 ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
+
+on [[cohomology]] and [[twisted cohomology]] structures in [[string theory]]/[[M-theory]]. See also _[[twisted smooth cohomology in string theory]]_.
 
 * [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
  {#SatiKriz04}
@@ -24,5 +33,26 @@ On [[F4]] and [[Cayley plane]]-[[fiber bundles]] in [[M-theory]]:
 On mathematical foundations of [[quantum field theory]] and [[perturbation theory|perturbative]] [[string theory]]:
 
 * H.S., [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
+
+
+* H. S., [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+
+* H. S. , [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ Communications in Mathematical Physics  October 2012, Volume 315, Issue 1, pp 169-213
+([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+
+* H. S. , [[Urs Schreiber]], [[Jim Stasheff]] _[[schreiber:Fivebrane structures]]_ Rev. Math. Phys.21:1197-1240 (2009) ([arXiv:0805.0564](http://arxiv.org/abs/0805.0564))
+
+* [[Domenico Fiorenza]], H. S., [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_ ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
+
+* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
+
+* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_ Journal of Geometry and Physics
+Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
+
+* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]],  _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580)) in  Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_  Springer 2014
+
+* [[Domenico Fiorenza]], H. S., [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
+* H. S., _Framed M-branes, corners, and topological invariants_ ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
 
 category: people
