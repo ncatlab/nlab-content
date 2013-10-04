@@ -20,7 +20,25 @@
 
 ## Idea
 
-The _Blakers-Massey theorem_ in [[homotopy theory]] states that for $f_1$ and $f_2$ two [[maps]] out of the same [[codomain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from the [[codomain]] into the [[homotopy pullback]] of their [[homotopy pushout]]
+The _Blakers-Massey theorem_ in the [[homotopy theory]] of spaces is concerned with describing algebraically the first obstruction to excision for relative homotopy groups. This obstruction is measured by triad homotopy groups $\pi_m(X:A,B)$ for a pointed space $X$ with two subspaces $A,B$ each containing the base point. Here the group structure is defined for $m \geq 3$ and is abelian for $m \geq 4$. There is an exact sequence 
+
+$$\cdots \to \pi_{n+1}(X;A,B) \to \pi_n (A, A \cap B) \to^{\epsilon} \pi_n( X,B) \to \pi_n(X;A,B) \to \cdots  $$
+where $\epsilon$ is the excision map. The main result of Blakers and Massey is as follows:
+
+**Theorem** _Suppose the triad **X** $ =(X;A,B)$ is such that: (i) the interiors of $A,B$ cover $X$; (ii) that $A,B$ and $C=A \cap B$ are connected; (iii) that $C$ is simply connected; (iv) and that $(A,C)$ is $(m-1)$-connected and $(B,C)$ is $(n-1)$-connected, $m,n \geq 3$. Then **X**$=(X;A,B)$ is $(m+n-2)$-connected and if $C$ is simply connected then the morphism given by the generalised Whitehead product
+$$ \pi_{m}(A,C) \otimes \pi_{n}(B,C) \to \pi_{m+n-1}(X;A,B)$$
+_is an isomorphism_. 
+
+Notice that since the tensor product is zero if one of its factors is zero, this result also gives criteria for the excision morphism $\epsilon$ to be an isomorphism in a certain range of dimensions. For this reason the excision consequences of that sequence are  also  called the _excision theorem of Blakers and Massey_ and have been given quite separate proofs for example in Hatcher, and in tom Dieck. The  first non zero triad homotopy group is also called the _critical group_.
+
+The natural question is what happens if the conditions  that $m,n \geq 3$ and $C$ simply connected are weakened.   For example in the case $m=n=2$  we have the additional structure that the morphisms $\pi_2(A,C) \to \pi_1(C), \pi_2(B,C) \to \pi_1(C)$ are crossed modules, and so the required relative homotopy groups are in general nonabelian. If $m \geq 3 ,n \geq 3$ then $\pi_m(A,C), \pi_n(B,C)$ are still $\pi_1(C)$-modules.
+
+
+The extension to the non simply connected case was given by Brown and Loday; one simply replaces the usual tensor product by the nonabelian tensor product of groups which act on each other and on themselves by conjugation. This result is a special case of Seifert-van Kampen Theorem for $n$-cubes of spaces. Notice that the assumption (i) of the theorem is reminiscent of such a type of theorem. The useful fact is that one gets such a theorem for a certain kind of _structured space_ which allows for the development of algebraic structures which have structures in a range of dimensions.
+
+Thus one of the intuitions is that the Blakers-Massey Theorem, and hence also the FST,  is of the Seifert-van Kampen type, since we are assuming that $X$ is the union of the interiors of $A,B$. 
+
+Other statements of the connectivity part of the theorem are that for $f_1$ and $f_2$ two [[maps]] out of the same [[codomain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from the [[codomain]] into the [[homotopy pullback]] of their [[homotopy pushout]]
 
 $$
   \array{
@@ -34,23 +52,45 @@ $$
 
 is $(n_1 + n_2 - 1)$-[[n-connected morphism|connective]].
 
-In the original statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for [[homotopy types]]/[[∞-groupoids]] &#180;but the statement holds true in all [[(∞,1)-toposes]] (Rezk) and in fact in [[homotopy type theory]] ([Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), hence also for "[[geometric homotopy types]]".
+In the original connectivity statement of the theorem ([Blakers-Massey 51](#BlakersMassey51)) this was considered for the [[homotopy theory]] of [[topological spaces]], hence for [[homotopy types]]/[[∞-groupoids]] &#180;but the statement holds true in all [[(∞,1)-toposes]] (Rezk) and in fact in [[homotopy type theory]] ([Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)), hence also for "[[geometric homotopy types]]".
 
 For the special case that $Y_1 \simeq Y_2 \simeq \ast$ are point contractible, the Blakers-Massey theorem reduces to the [[Freudenthal suspension theorem]].
 
 
 ## References
 
-The original statement of the theorem is due to 
+The connectivity  statement of the theorem is in  
 
 * A. L. Blakers, W. Massey, _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
   {#BlakersMassey51}
 
-It appears for instance as theorem 4.23 in the textbook
+and the algebraic statement and proof is in 
+
+* Blakers, A. L. and Massey, W. S., _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
+
+The generalisation is Theorem 4.3 in: 
+
+*R. Brown and J.-L. Loday, Homotopical excision, and Hurewicz
+theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
+(3) 54 (1987) 176-192.
+
+which relies essentially on the paper 
+
+* R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of
+spaces,  _Topology_ 26 (1987) 311-334, 
+
+for the van Kampen Theorem and for the nonabelian tensor product of groups. 
+
+
+The connectivity statement appears for instance as Theorem 4.23 in the textbook
 
 * [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
-The general version of the theorem in [[homotopy type theory]] (and thus in [[(infinity,1)-topos theory]]) is formalized in HoTT-[[Agda]] in
+and as Theorem 6.4.1 of 
+
+*tom Dieck, T.,  _Algebraic Topology_, EMS Textbooks in Mathematics, (2008). 
+
+The general version of the connectivity theorem in [[homotopy type theory]] (and thus in [[(infinity,1)-topos theory]]) is formalized in HoTT-[[Agda]] in
 
 * [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]], _[BlakersMassey.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/BlakersMassey.agda)_
   {#LumsdaineFinsterLicata13}
