@@ -1,5 +1,24 @@
 
+Michael Duff is professor of theoretical physics at Imperial College London. He made foundational contributions to [[string theory]] and [[M-theory]].
+
+* [personal webpage](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=m.duff&_adf.ctrl-state=6bq6bx4cv_3&_afrRedirect=2848555508000)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Duff)
+
+Among his former students is [[Hisham Sati]].
+
+## selected publications
+
+The [[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by the  [[Green-Schwarz action functional]] was highlighted in
+
+* Michael Duff, _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+{#Duff}
+
+The term "[[M-theory]]" was introduced somewhere around
+
+* Michael Duff, _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+
+
 
 category: people
 
