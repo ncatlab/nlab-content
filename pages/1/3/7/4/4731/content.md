@@ -167,9 +167,13 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 ### General
 
-Connections on 2-bundles with vanishing 2-form curvature defined in terms of their [[higher parallel transport]] are discussed in
+Connections on 2-bundles with vanishing 2-form curvature and arbitrary 3-form curvature are defined in terms of their [[higher parallel transport]] are discussed in
 
-* [[Urs Schreiber]],  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_, Theory and Applications of Categories, Vol. 28, 2013, No. 17, pp 476-540. ([TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+* [[Urs Schreiber]],  [[Konrad Waldorf]], 
+
+  _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+
+  _Connections on non-abelian gerbes and their holonomy_, Theory and Applications of Categories, Vol. 28, 2013, No. 17, pp 476-540. ([TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html), [arXiv:0808.1923](http://arxiv.org/abs/0808.1923), <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 
 expanding on
 
