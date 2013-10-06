@@ -54,12 +54,21 @@ The data of a system of supersymmetric quantum mechanics may also be formalized 
 ## References
  {#References}
 
+### Relation to Morse theory
+ {#ReferencesRelationToMorseTheory}
+
 Supersymmetric quantum mechanics gained attention with the work
 
-* [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492))
+* [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire](http://inspirehep.net/record/176416?ln=de))
 
 which showed that [[Morse theory]] may be equivalently interpreted as the study of [[supersymmetry|supersymmetric]] [[vacua]] in supersymmetric quantum mechanics, and 
 which was part of what gained Witten the [Fields medal 1990](http://159.226.47.99:8080/general/prize/medal/1990.htm). In this article a certain family of deformations of [[superparticles]] on a [[Riemannian manifold]] are considered and the supersymmetric ground states are shown to be given by the [[Morse theory]] of the deformation function. 
+
+Reviews include
+
+* Rohit Jain, _Supersymmetric Schr&#246;dinger operators with applications to Morse theory_ ([pdf](http://www.ma.utexas.edu/users/rjain/SUSY.pdf))
+
+* [[Gábor Pete]], section 2 of _Morse theory_, lecture notes 1999-2001   ([pdf](http://www.math.bme.hu/~gabor/morse.pdf))
 
 This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly at the end of 
 
@@ -68,6 +77,10 @@ This deformed supersymmetric quantum mechanics arises as the point-particle limi
 The relationon between the 2d [[SCFT]] describing the [[type II superstring]] and this deformed supersymmetric quantum mechanics on loop space has been further explored in 
 
 * [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058,2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
+
+
+### Relation to index theory
+ {#ReferencesRelationToIndexTheory}
 
 The relation of the [[partition function]] of supersymmetric quantum mechanics to [[index theory]] was suggested in unpublished work of [[Edward Witten]] and formulated in
 
