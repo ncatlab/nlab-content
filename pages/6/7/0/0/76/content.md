@@ -86,7 +86,7 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * [[simplicial homotopy theory]]
 
-* [[equivariant homotopy theory]]
+* [[equivariant homotopy theory]], [[global equivariant homotopy theory]]
 
 * [[chromatic homotopy theory]]
 
