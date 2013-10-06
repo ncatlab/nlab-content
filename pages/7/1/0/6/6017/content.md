@@ -23,9 +23,16 @@
 
 ## Idea
 
-A _Yetter model_ is a [[4d TQFT]] [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
+The _Yetter model_ or _Crane-Yetter model_ is a [[4d TQFT]] [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
 
 Together with the [[Dijkgraaf-Witten theory|Dijkgraaf-Witten model]] these form the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>. It is hence also an example of a [[4d Chern-Simons theory]].
+
+## Properties
+
+### Relation to Turaev-Viro model on the boundary
+
+The [[3d TQFT]] [[Turaev-Viro model]] is a [[boundary field theory]] of the Yetter model ([Barrett&Garci-Islas&Martins 04, theorem 2](#BarrettGarciIslasMartins04)). Related discussion is in [[Freed]] "[[4-3-2 8-7-6]]".
+
 
 
 ## Definition
@@ -84,6 +91,9 @@ The effect of having a nontrivial [[group cohomology|group 4-cocycle]] was consi
  {#Mackay} .
 
 
+* [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
+  {#BarrettGarciIslasMartins04}
+
 The reinterpretation of the "state sum" equation used in the above publications as giving [[homomorphisms]] of [[simplicial sets]]/[[topological spaces]] is given in
 
 * [[Tim Porter]], _Interpretations of Yetter's notion of $G$-coloring : simplicial fibre bundles and non-abelian cohomology_,  Journal of Knot Theory and its Ramifications 5 (1996) 687-720, 
@@ -99,5 +109,7 @@ See also
 
 which has some remarks about higher (2-)group cocycles towards the end.
 
+[[!redirects Yetter models]]
 
 [[!redirects Crane-Yetter model]]
+[[!redirects Crane-Yetter models]]
