@@ -74,6 +74,11 @@ which are consequences of the definition(s) given earlier.
 
 * (popular) Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
+* [Wikipedia page](http://en.wikipedia.org/wiki/Racks_and_quandles)
+
+* [[Colin Rourke]] and  [[Roger Fenn]], (1992). _Racks and links in codimension 2_. J. Knot Theory and Its Ramifications 1 (4): 343&#8211;406. 
+
+
 * Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html). link not working!
 
 * J. Scott Carter, _A survey of quandle ideas_, [arxiv](http://arxiv.org/abs/1002.4429).
@@ -84,7 +89,7 @@ which are consequences of the definition(s) given earlier.
 
 The last reference makes it clear that racks are algebras of a [[Lawvere theory]], so that racks may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).
 
-* Nicol&#225;s Andruskiewitsch, Mat&#305;&#769;as Gra&#241;ab, _From racks to pointed Hopf algebras_, Adv. Math. __178__(2):177--243 (2003) [math.QA/0202084](http://arxiv.org/abs/math/0202084) (<a href="http://dx.doi.org/10.1016/S0001-8708(02)00071-3">doi</a>)
+* Nicol&#225;s Andruskiewitsch, Mati&#225;s Gra&#241;ab, _From racks to pointed Hopf algebras_, Adv. Math. __178__(2):177--243 (2003) [math.QA/0202084](http://arxiv.org/abs/math/0202084) (<a href="http://dx.doi.org/10.1016/S0001-8708(02)00071-3">doi</a>)
 
 A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie racks has been proposed in
 
