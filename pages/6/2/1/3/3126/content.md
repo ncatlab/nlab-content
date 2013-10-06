@@ -372,7 +372,7 @@ The statement then follows with the "[stable Giraud theorem](stable%20%28infinit
 +-- {: .num_prop}
 ###### Proposition
 
-The tangent $(\infty,1)$-category $T \inftyGrpd$ is itself 
+The tangent $(\infty,1)$-category $T \infty Grpd$ is itself 
 an [[(∞,1)-topos]].
 
 =--
