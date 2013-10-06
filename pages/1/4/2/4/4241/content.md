@@ -84,6 +84,8 @@ which are consequences of the definition(s) given earlier.
 
 The last reference makes it clear that racks are algebras of a [[Lawvere theory]], so that racks may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).
 
+* Nicol&#225;s Andruskiewitsch, Mat&#305;&#769;as Gra&#241;ab, _From racks to pointed Hopf algebras_, Adv. Math. __178__(2):177--243 (2003) [math.QA/0202084](http://arxiv.org/abs/math/0202084) (<a href="http://dx.doi.org/10.1016/S0001-8708(02)00071-3">doi</a>)
+
 A generalization of [[Lie integration]] to conjectural Leibniz groups has been conjectured by [[J-L. Loday]]. A local version via local Lie racks has been proposed in
 
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
