@@ -43,6 +43,8 @@ The restriction to the unit sphere in $\mathbb{R}^{n+1}$ of a generic quadratic 
 
 ## References
 
+### General
+
 * [[Raoul Bott]], _[Morse theory indomitable](http://archive.numdam.org/article/PMIHES_1988__68__99_0.pdf)_, _Publications Math&#233;matiques de L'IH&#201;S_, 1988, Volume 68, Number 1, Pages 99-114.
 
 * [[Raoul Bott]], [Lectures on Morse Theory, Old and New](http://www.ams.org/journals/bull/1982-07-02/S0273-0979-1982-15038-8/),  Bull. Amer. Math. Soc. 7 (1982), 331-358.
@@ -60,6 +62,14 @@ The restriction to the unit sphere in $\mathbb{R}^{n+1}$ of a generic quadratic 
 
 * [[M. M. Postnikov]], &#1042;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1102; &#1052;&#1086;&#1088;&#1089;&#1072; &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;, 1971
 
+### Relation to supersymmetric quantum mechanics
+
 The relation to [[supersymmetric quantum mechanics]] is due to 
 
 * [[Edward Witten]], _Supersymmetry and morse theory_ ([Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.jdg/1214437492))
+
+Reviews include
+
+* [[Gábor Pete]], section 2 of _Morse theory_, lecture notes 1999-2001   ([pdf](http://www.math.bme.hu/~gabor/morse.pdf))
+
+
