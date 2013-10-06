@@ -8,7 +8,7 @@
 =--
 #### Higher spin geometry
 +-- {: .hide}
-[[!include higher spin geometry - contents]]
+[[!include higher spin geometry -# P contents]]
 =--
 =--
 =--
@@ -41,6 +41,47 @@ If $M$ is a projective $R$-module of rank $d$, then independently of $q$, the Cl
 If $R$ is the ring of smooth functions on a pseudo-Riemannian manifold $X$, and $M$ is the $R$-module of sections of the tangent bundle, then the metric endows $M$ with a quadratic structure, and one can form the Clifford algebra of the tangent bundle.  
 
 ## Properties
+
+### Classification
+ {#Classification}
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $V$ be the [[vector space]] over the [[complex numbers]]
+of complex [[dimension]] $d$, equipped with non-degenerate
+[[bilinear form]], unique up to [[isomorphism]]. The Clifford algebra 
+
+$$
+  Cl_{d}(\mathbb{C}) \coloneqq Cl(V)
+$$ 
+
+is  [[isomorphism|isomorphic]], as a complex [[associative algebra]]
+to a  [[matrix algebra]] as follows:
+
+$$
+  Cl_d(\mathbb{C})
+  \simeq
+  \left\{
+    \array{
+       Mat_{2^{\tfrac{d}{2}}}(\mathbb{C}) & for \, d \, even
+       \\
+       Mat_{2^{\tfrac{d-1}{2}}}(\mathbb{C}) \oplus Mat_{2^{\tfrac{d-1}{2}}}(\mathbb{C}) 
+       & for \, d \, odd
+    }
+  \right.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is one of the incarnations of [[Bott periodicity]].
+
+=--
+
 
 ### As a superalgebra
 
