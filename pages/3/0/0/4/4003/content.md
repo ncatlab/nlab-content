@@ -1,4 +1,16 @@
 
+> This entry is about a notion in [[category theory]]. For a different notion of the same name in ([[stable homotopy theory|stable]]) [[homotopy theory]] see at _[[Goodwillie calculus]]_. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Polynomial functors
 * table of contents
 {: toc}
