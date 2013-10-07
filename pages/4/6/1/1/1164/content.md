@@ -38,6 +38,11 @@ Of course, like any category, it has a [[skeleton]], but as usually defined it i
 
 More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Or}_F\,G \subset \mathrm{Or}\,G$ whose objects are those $G/H$ for which $H\in F$.
 
+
+##Variants
+
+Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\mathrm{Or}\, G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
+
 ## Properties
 
 ### Relation to Mackey functors
@@ -59,3 +64,11 @@ See at _[[global equivariant homotopy theory]]_.
 ## Related concepts
 
 * _[[global equivariant stable homotopy theory]]_.
+
+
+##References
+
+A very general setting for the use of orbit categories is described in
+
+* [[W. G. Dwyer]] and [[D. M. Kan]], _Singular functors and realization functors_ , Nederl. Akad. Wetensch. Indag. Math., 87, (1984), 147 &#8211; 153. 
+
