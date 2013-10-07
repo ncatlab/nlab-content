@@ -253,6 +253,188 @@ Below in _[WZW n-bundles](#WZWnBundle)_ we discuss how this construction general
 
 ([FSS 13b](#FSS13b))
 
+### Introduction
+
+A [[classical field theory]]/[[prequantum field theory]]
+is traditionally defined by an [[action functional]]: given a [[smooth space]] $\mathbf{Fields}_{traj}$ "of [[trajectories]]" of a given [[physical system]], then the [[action functional]] is a [[smooth function]]
+
+$$
+  \array{
+    \mathbf{Fields}_{traj}
+    \\
+    \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    U(1)
+  }
+$$
+
+to the [[circle group]]. The idea of producing a [[quantum field theory]] from this is to 
+
+1. choose a linearization in the form of the group [[homomorphism]] 
+$U(1) \longrightarrow GL_1(\mathbb{C})$ to the [[group of units]] of the complex numbers, 
+
+1. choose a [[measure]] $d\mu$ on $\mathbf{Fields}_{traj}$ 
+
+and then declare that 
+
+$$
+  \underset{\phi \in \mathbf{Fields}_{traj}}{\int} \exp(i S(\phi))\, d\mu \in \mathbb{C}
+$$ 
+
+is the [[partition function]] of the theory a kind of [[expectation value]] with [[probabilities]] replaced by [[probability amplitudes]].
+
+In order to make sense of this, it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[circle group]]-[[principal bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
+
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow &\downarrow^{\mathrla&#246;p{\exp(i S)}}& \searrow
+    \\
+    \ast &\leftarrow& U(1) &\rightarrow& \ast
+    \\
+    & {}_{\mathllap{0}}\searrow &(pb)& \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+
+For instance for $X$ a [[smooth manifold]] ("[[spacetime]]") and $\nabla \;\colon\; X \longrightarrow \mathbf{B}U(1)_{conn}$ a [[circle group]]-[[principal connection]] ("[[electromagnetic field]] on [[spacetime]]") then for [[trajectories]] in $X$ of shape the [[circle]], the canonical [[action functional]] ("[[Lorentz force]] gauge [[interaction]]") is the [[holonomy]] [[functional]]
+
+$$
+  \exp(i S_{Lor})
+  \coloneqq
+  \exp(i \int_{S^1} [S^1, \nabla])
+  \;\colon\;
+  [S^1, X]
+  \stackrel{[S^1, X]}{\longrightarrow}
+  [S^1, \mathbf{B}U(1)_{conn}]
+  \stackrel{\exp(i \int_{S^1})}{\longrightarrow}
+  U(1)
+  \,.
+$$
+
+But more generally, if the [[trajectories]] have a [[boundary]], hence if they are of the shape of an [[interval]] $I \coloneqq [0,1]$, then the [[holonomy]] functional on [[smooth loop space]] $[S^1, X]$ generalizes to the [[parallel transport]] on the [[path space]] $[I,X]$ and there it is no longer a function, but exists only as a [[homotopy]] of the form
+
+$$
+  \array{
+    && [I,X]
+    \\
+    & {}^{(-)|_0}\swarrow && \searrow^{\mathrlap{(-)|_1}}
+    \\
+    X && \swArrow_{\exp(i \int_{I}[I,\nabla])} && X
+    \\
+    & {}_{\mathllap{\chi_\nabla}}\searrow && \swarrow_{\mathrlap{\chi_\nabla}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+ 
+Notice that this is a "local" description of the action functional: the data that determines it is the boundary
+
+$$
+  \array{
+    X
+    \\
+    \downarrow^{\mathrlap{\nabla}}
+    \\
+    \mathbf{B}U(1)_{conn}
+  }
+$$
+
+and from this the rest is induced by [[transgression]]. 
+
+A related class of examples are [[prequantized Lagrangian correspondences]]: Let 
+
+$$
+  \array{
+     X
+     \\
+     \downarrow^{\mathrlap{\omega}}
+     \\
+     \mathbf{\Omega}^2
+  }
+$$
+
+be a [[symplectic manifold]]. Then a [[symplectomorphism]] is a [[correspondence]] of the form
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && && X
+    \\
+    & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}}
+    \\
+    && \mathbf{\Omega}^2
+  }
+  \,.
+$$
+
+A [[prequantization]] of $(X,\omega)$ is a lift $\nabla$ in
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
+    \\
+    & \searrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \mathbf{\Omega}^2
+  }
+$$
+
+and so a [[prequantized Lagrangian correspondence]] is
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && \swArrow && X
+    \\
+    & _{\mathllap{\nabla}}\searrow && \swarrow_{\mathrlap{\nabla}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,.
+$$
+
+To conceptualize all this, write
+
+$$
+  \mathbf{H} \coloneqq SmoothGrpd \coloneqq
+  Func(SmoothMfd^{op}, Grpd)[\{stalkwise\;equivalences\}^{-1}]
+$$
+
+for the [[homotopy theory]] obtained from the [[category]] of [[groupoid]]-valued [[presheaves]] on the [[category]] of all [[smooth manifolds]] by universally turning [[stalk|stalkwise]] [[equivalences of groupoids]] into genuine [[homotopy equivalences]] ("[[simplicial localization]]").
+
+This is the [[(2,1)-topos]] of [[smooth groupoids]]/smooth ([[moduli stacks|moduli]]) [[stacks]].
+
+Write $Corr_1(\mathbf{H})$ for the [[(2,1)-category]] of [[correspondences]] in $\mathbf{H}$. Write $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ for the [[slice (infinity,1)-topos|slice]] [[(2,1)-topos]] over the smooth [[moduli stack]] of [[circle n-bundles with connection|circle bundles with connection]]. Then the abovve diagrams are morphisms in $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$.
+
+**Proposition** The [[automorphism group]] of $\nabla \in Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is the [[quantomorphism group]] of $(X,\omega)$, hence the [[smooth group]] which is the [[Lie integration]] of the [[Poisson bracket]] [[Lie algebra]] of $(X,\omega)$.
+
+(...)
+
 ### WZW $n$-bundles
  {#WZWnBundle}
 
@@ -479,6 +661,5 @@ Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-t
 
 * [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
  {#Witten12}
-
 
 
