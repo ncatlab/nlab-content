@@ -25,7 +25,7 @@
 
 _Elmendorf's theorem_  states that for $G$ a [[topological group]], then the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
 
-More in detail, for $G$ a [[topological group]], write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]]. Say that a [[continuous map]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** such that for any [[closed subspace|closed subgroup]] $H \hookrightarrow G$, the induced function on $H$-[[fixed point]] spaces $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
+More in detail, for $G$ a [[topological group]], write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]]. Say that a [[continuous map]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for any [[closed subspace|closed subgroup]] $H \hookrightarrow G$, the induced function on $H$-[[fixed point]] spaces $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
 
 $$
   Top^G[\{weak\,G-homotopy\;equivalences\}^{-1}]
@@ -65,8 +65,22 @@ $$
 
 ## References
 
-See for instance
+The orginal proof is due to 
+
+* [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 
+277(1):275&#8211;284, 1983.
+
+which considered all closed subgroups of $G$. The generalization of the proof to other choices of families of subgroups is due to
+
+* [[Peter May]], _Equivariant homotopy and cohomology theory_ With contributions by M. Cole, G. Comezaa, S. Costenoble, A. D. Elmendorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. Number 91 in CBMS Regional Conference Series in
+Mathematics. Published for the Conference Board of the Mathematical Sciences, Washington, DC; by the American Mathematical Society, Providence, RI, 1996
+
+For futher discussion see for instance
 
 * Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
+
+A generalization to [[orbispaces]] is discussed in 
+
+* [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
 [[!redirects Elmendorf theorem]]
