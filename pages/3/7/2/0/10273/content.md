@@ -275,7 +275,7 @@ $U(1) \longrightarrow GL_1(\mathbb{C})$ to the [[group of units]] of the complex
 
 1. choose a [[measure]] $d\mu$ on $\mathbf{Fields}_{traj}$ 
 
-and then declare that 
+and then declare that the [[integral]] ("[[path integral]]")
 
 $$
   \underset{\phi \in \mathbf{Fields}_{traj}}{\int} \exp(i S(\phi))\, d\mu \in \mathbb{C}
@@ -303,7 +303,7 @@ $$
   \array{
     && \mathbf{Fields}_{traj}
     \\
-    & \swarrow &\downarrow^{\mathrla&#246;p{\exp(i S)}}& \searrow
+    & \swarrow &\downarrow^{\mathrlap{\exp(i S)}}& \searrow
     \\
     \ast &\leftarrow& U(1) &\rightarrow& \ast
     \\
@@ -324,7 +324,7 @@ $$
   [S^1, X]
   \stackrel{[S^1, X]}{\longrightarrow}
   [S^1, \mathbf{B}U(1)_{conn}]
-  \stackrel{\exp(i \int_{S^1})}{\longrightarrow}
+  \stackrel{\exp(i \int_{S^1}(-))}{\longrightarrow}
   U(1)
   \,.
 $$
@@ -372,7 +372,7 @@ $$
   }
 $$
 
-be a [[symplectic manifold]]. Then a [[symplectomorphism]] is a [[correspondence]] of the form
+be a [[symplectic manifold]]. Then a [[symplectomorphism]] $f \;\colon\; X \longrightarrow X$ is a [[correspondence]] of the form
 
 $$
   \array{
@@ -429,11 +429,323 @@ for the [[homotopy theory]] obtained from the [[category]] of [[groupoid]]-value
 
 This is the [[(2,1)-topos]] of [[smooth groupoids]]/smooth ([[moduli stacks|moduli]]) [[stacks]].
 
-Write $Corr_1(\mathbf{H})$ for the [[(2,1)-category]] of [[correspondences]] in $\mathbf{H}$. Write $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ for the [[slice (infinity,1)-topos|slice]] [[(2,1)-topos]] over the smooth [[moduli stack]] of [[circle n-bundles with connection|circle bundles with connection]]. Then the abovve diagrams are morphisms in $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$.
+Write 
 
-**Proposition** The [[automorphism group]] of $\nabla \in Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is the [[quantomorphism group]] of $(X,\omega)$, hence the [[smooth group]] which is the [[Lie integration]] of the [[Poisson bracket]] [[Lie algebra]] of $(X,\omega)$.
+$$
+  Corr_1(\mathbf{H})
+  \in 
+  (2,1)Cat
+$$ 
 
-(...)
+for the [[(2,1)-category]] of [[correspondences]] in $\mathbf{H}$. Write $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ for the [[slice (infinity,1)-topos|slice]] [[(2,1)-topos]] over the smooth [[moduli stack]] of [[circle n-bundles with connection|circle bundles with connection]]. Then the abovve diagrams are morphisms in $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$.
+
++-- {: .num_prop}
+###### Proposition 
+
+The [[automorphism group]] of $\nabla \in Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is the [[quantomorphism group]] of $(X,\omega)$, hence the [[smooth group]] which is the [[Lie integration]] of the [[Poisson bracket]] [[Lie algebra]] of $(X,\omega)$.
+
+A [[concrete object|concrete]] smooth 1-parameter subgroup
+
+$$
+  \mathbf{B}\mathbb{R} \longrightarrow
+  \mathbf{B}\mathbf{Aut}_{/\mathbf{B}U(1)_{conn}}(\nabla)
+  \hookrightarrow
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+$$
+
+is equivalently a choice $H \in C^\infty(X)$ of a smooth function and sends
+
+$$
+  t
+  \;\;
+   \mapsto
+  \;\;
+  \array{
+    X &&\stackrel{\exp(t \{H,-\})}{\lonmgrightarrow}&& X
+    \\
+    & {}_{\mathllap{\nabla}}\searrow &\swArrow_{\mathrlap{\exp(i S_t)}}& \swarrow_{\mathrlap{\nabla}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,,
+$$
+
+where
+
+1. $\exp(t \{H,-\})$ is the [[Hamiltonian flow]] induced by $H$;
+
+1. $S_t = \int_0^t L$ is the [[Hamilton-Jacobi theory|Hamilton-Jacobi]] [[action functional]], the [[integral]] of the [[Lagrangian]] of $H$, hence of its [[Legendre transform]].  
+
+=--
+
+
+(see [Schreiber 13](#SchreiberClassical)).
+
+It is now clear how to pass from this to [[local prequantum field theory]] of higher dimension.
+
+Let now more generally
+
+$$
+  \mathbf{H} \coloneqq 
+  Smooth\infty Grpd
+  \coloneqq
+  Func(SuperMfd^{op}, KanCplx)[\{stalkwise\;homotopy\;equivalences\}^{-1}]
+$$
+
+be the [[homotopy theory]] obtained from the [[category]] of [[Kan complex]]-valued [[presheaves]] on the category of all [[supermanifolds]] by universally turning [[stalk|stalkwise]] [[homotopy equivalences]] into actual [[homotopy equivalences]].
+
+We say that this is the [[(∞,1)-topos]] of _[[smooth super ∞-groupoids]]_/_[[supergeometry|supergeometric]] [[moduli ∞-stacks]]_.
+
+Let 
+
+$$
+  Corr_n(\mathbf{H}) \in (\infty,n)Cat
+$$
+
+be the [[(∞,n)-category]] of $n$-fold [[correspondences]] in $\mathbf{H}$. This is a [[symmetric monoidal (∞,n)-category]] under the objectwise [[Cartesian product]] in $\mathbf{H}$.
+
+
+
+[[Smooth∞Grpd]] has the special property that it is [[cohesive (∞,1)-topos|cohesive]] in that it is equipped with an [[adjoint quadruple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \mathbf{H}
+  \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+which induce an [[adjoint triple]] of [[idempotent monad|idempotent]] [[(∞,1)-monads]]/comonds
+
+$$
+  \left(
+    \Pi \dashv \flat \dashv \sharp
+  \right)
+  \;\colon\;
+  \mathbf{H} 
+  \longrightarrow
+  \mathbf{H}
+$$
+
+called
+
+* [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] .
+
+Here the [[shape modality]] $\Pi$ sends a [[simplicial manifold]] to the [[homotopy type]] of the [[geometric realization of simplicial topological spaces|fat geometric realization]] of the underlying [[simplicial topological space]], hence in particular sends a [[smooth manifold]] to its [[homotopy type]].
+ 
+Write $Bord_n$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed n-dimensional cobordisms]].
+
++-- {: .num_prop}
+###### Proposition 
+
+A [[monoidal (∞,n)-functor]] 
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  Bord_n
+  \longrightarrow
+  Corr_n(\mathbf{H})
+$$
+
+is equivalently a choice of object $\mathbf{Fields} \in \mathbf{H}$. It sends a [[cobordism]] $\Sigma$ to the [[internal hom]] of its [[shape]] into the [[higher moduli stack]] $\mathbf{Fields}$:
+
+
+$$
+  \left(
+    \array{
+      && \Sigma
+      \\
+      & \nearrow && \nwarrow
+      \\
+      \Sigma_{in}
+      && &&
+      \Sigma_{out}
+    }
+  \right)
+  \;\;
+   \mapsto
+  \;\;
+  \left(
+    \array{
+       && [\Pi\Sigma, \mathbf{Fields}]
+       \\
+       & {}^{(-)|_{\Sigma_{in}}}\swarrow
+       &&
+       \searrow^{(-)|_{\Sigma_{out}}}
+       \\
+       [\Pi(\Sigma_{in}), \mathbf{Fields}]
+       && &&
+       [\Pi(\Sigma_{out}), \mathbf{Fields}]
+    }
+  \right)
+  \,.
+$$
+
+=--
+
+([lpqft](#lpqft))
+
+
++-- {: .num_prop}
+###### Proposition 
+
+Under the [[Dold-Kan correspondence]] 
+
+$$
+  DK \colon ChainComplexes \stackrel{\simeq}{\longrightarrow}
+  SimplicialAbelianGroups
+  \stackrel{forget}{\longrightarrow}
+  KanComplexes
+$$
+
+we have for all $n \in \mathbb{N}$
+
+$$
+  \flat \mathbf{B}^{n+1}U(1)
+   \simeq
+  DK
+  \left(
+    \underline{U}(1)
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^1 
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^2
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \cdots  
+   \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^{n+1}_{cl}   
+  \right)
+  \,.
+$$
+
+=--
+
+Let 
+
+$$
+  \mathbf{Omega}^{n+1}
+  \longrightarrow
+  \flat \mathbf{B}^{n+1}U(1)
+$$
+
+the induced canonical inclusion.
+
++-- {: .num_prop}
+###### Proposition 
+
+[[monoidal (∞,n)-functors]]
+
+$$
+  \array{
+     Bord_n
+     &\stackrel{\exp(i S)}{\longrightarrow}&
+     Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+     \\
+     & {}_{\mathbf{Fields}} \searrow & \downarrow
+     \\
+     && Corr_n(\mathbf{H})
+  }
+$$
+
+are equivalent to objects
+
+$$
+  \left(
+  \array{
+    \mathbf{Fields}
+    \\
+     \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    \flat \mathbf{B}^{n+1}U(1)
+  }
+  \right)
+  \;\;\;
+    \in
+  \;\;\;
+  \mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)}
+  \hookrightarrow
+  Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+  \,.
+$$
+
+This sends the dual point to $\exp(- i S)$
+and sends the $k$-[[sphere]] to the [[transgression]]
+of $\exp(i S)$ to the mapping space $[S^k , \mathbf{Fields}]$.
+
+=--
+
+([lpqft](#lpqft))
+
+Observe that by the [[cobordism hypothesis]] $Bord_n$ is the [[free construction|free]] [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects]] generated from a single object $\ast$. 
+
+$$
+  Bord_n \simeq FreeSMwD(\{\ast\})
+  \,.
+$$
+
+Let then
+
+$$
+  Bord_n^{\partial} \coloneqq FreeSMwD(\{\emptyset \longrightarrow \ast\})
+$$
+
+the free [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects]] generated from a single object $\ast$ and a single [[morphism]] $\emptyset \longrightarrow \ast$ from the [[tensor unit]] to the generating object. By the [[boundary field theory]]/[[defect field theory|defect]] version of the [[cobordism hypothesis]], this is equivalently the [[(∞,n)-category of cobordisms]] with possibly a [[boundary]] component of [[codimension]] $(n-1)$.
+
+Hence a [[boundary field theory]] is
+
+$$
+  \array{
+     Bord_n^\partial
+     &\stackrel{\exp(i S)}{\longrightarrow}&
+     Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+     \\
+     & {}_{\mathbf{Fields}^\partial} \searrow & \downarrow
+     \\
+     && Corr_n(\mathbf{H})
+  }
+$$
+
++-- {: .num_remark}
+###### Remark
+
+A [[boundary field theory]] as above is equivalently a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    && \mathbf{Fields}_{bdr}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \mathbf{Fields}
+    \\
+    & \searrow && \swarrow_{\mathrlap{\exp(i S)}}
+    \\
+    && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The universal boundary condition for
+
+$$
+  \exp(i S) \colon \mathbf{\Omega}^{n+1} \longrightarrow 
+   \flat \mathbf{B}^{n+1}U(1)
+$$
+
+is the [[higher moduli stack]]
+$\mathbf{B}^n U(1)_{conn}$ of [[circle n-bundle with connection]],
+hence a general boundary condition for this 
+higher [[topological Yang-Mills theory]] is a
+[[schreiber:∞-Chern-Simons theory]]].
+
+
+=--
+
 
 ### WZW $n$-bundles
  {#WZWnBundle}
@@ -652,6 +964,12 @@ Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-t
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
   {#S}
 
+* [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+  {#SchreiberClassical}
+
+* [[Urs Schreiber]] et al. _[[schreiber:Local prequantum field theory]]_
+  {#lpqft}
+
 * [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
   {#SchweigertWaldorf07}
 
@@ -661,5 +979,3 @@ Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-t
 
 * [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
  {#Witten12}
-
-
