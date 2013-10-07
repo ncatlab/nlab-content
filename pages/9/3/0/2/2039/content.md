@@ -12,19 +12,6 @@
 =--
 =--
 =--
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
-=--
-#### Representation theory
-+-- {: .hide}
-[[!include representation theory - contents]]
-=--
-=--
-=--
 
 
 
