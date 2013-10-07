@@ -22,19 +22,22 @@
 
 ## Idea
 
-The usual [[cohomology]] for $G$-spaces is the [[equivariant cohomology]] $H^*_G(X)$ (in classical case just the cohomology of the Borel construction $E G\times_G X$, sometimes called in this context the homotopy orbit space). 
+The immediate notion of  [[cohomology]] of [[topological spaces]] which are equipped with a $G$-[[action]] for some [[topological group]] $G$ (often: "$G$-spaces", for short) is the ordinary [[equivariant cohomology]] 
+$H^*_G(X) \coloneqq H^\bullet(X//G)$ of the [[Borel construction]]/[[homotopy quotient]] of $X$ by $G$. 
 
-Bredon cohomology is another cohomology of $G$-spaces, defined with the help of the [[orbit category]] and its usual coefficients are presheaves of abelian groups on the [[orbit category]]. 
+In contrast to this, _Bredon cohomology_ is another notion of cohomology of $G$-spaces, defined via the [[orbit category]] $Orb_G$ of $G$: its [[coefficients]] are [[presheaves]] (of [[abelian groups]]) on the [[orbit category]]. 
 
-Where ordinary cohomology has as coefficient objects abelian groups, Bredon cohomology has as coefficients [[functor]]s 
+Hence where ordinary cohomology has as coefficient objects abelian groups, Bredon cohomology has as coefficients [[functors]] 
 
 $$
-  O(G) \to Ab
+  Orb_G^{op} \to Ab
 $$
 
 from the [[orbit category]] of $G$ into [[Ab]].
 
-More details are for the moment at [[equivariant cohomology]] in the section [Bredon equivariant cohomology](http://ncatlab.org/nlab/show/equivariant+cohomology#Bredon).
+More details are for the moment at [[equivariant cohomology]] in the section [Bredon equivariant cohomology](equivariant+cohomology#Bredon).
+
+For a more general abstract characterization of Bredon cohomology see at _[[global equivariant homotopy theory]]_.
 
 ## Related concepts
 
