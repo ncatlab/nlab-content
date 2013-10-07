@@ -40,6 +40,8 @@ More details are for the moment at [[equivariant cohomology]] in the section [Br
 
 * [[equivariant cohomology]]
 
+* [[Elmendorf's theorem]]
+
 * [[global equivariant homotopy theory]]
 
 * [[global equivariant stable homotopy theory]]
