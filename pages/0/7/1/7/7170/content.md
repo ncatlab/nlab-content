@@ -53,7 +53,7 @@ $$
   H^k(X,\mathbb{Z}_2)
 $$ 
 
-is defined to be the class that "represents" $Sq^k(-)$ under the cup product, in the sense that for all $x \in H^l(X, \mathbb{Z}_2)$ we have
+is defined to be the class that "represents" $Sq^k(-)$ under the cup product, in the sense that for all $x \in H^{n-k}(X, \mathbb{Z}_2)$ where $n$ is the dimension of $X$, we have
 
 $$
   Sq^k(x) = \nu_k \cup x
@@ -110,7 +110,7 @@ This is discussed in [Hopkins-Singer, page 101](#HopkinsSinger).
 +-- {: .num_corollary #DivisibilityOfCupSquare}
 ###### Corollary
 
-For $G \in H^4(X, \mathbb{Z})$ any integral 4-class, the expression
+Suppose $X$ is 8 dimensional. Then, for $G \in H^4(X, \mathbb{Z})$ any integral 4-class, the expression
 
 $$
   G \cup G - G \cup \frac{1}{2}p_1 \in H^4(X, \mathbb{Z})
