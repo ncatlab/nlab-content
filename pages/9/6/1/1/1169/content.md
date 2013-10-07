@@ -66,7 +66,7 @@ A Reedy category in which $R_-$ contains only identities is called a [[direct ca
 
 Any ordinal is of course a direct category, and so is the subcategory $R_+$ of any Reedy category considered as a category in its own right.  This amounts to "discarding the degeneracies" in a shape category.  In some examples there are no degeneracies to begin with, such as the category of [[opetopes]]; thus these are naturally direct categories.
 
-### Generalized Reedy category 
+### Generalized Reedy categories
 
 One problem with the notion of Reedy category is that it is [[evil]]: it is not invariant under [[equivalence of categories]].  It's not hard to see that any Reedy category is necessarily [[skeletal category|skeletal]].  In fact, it's even worse: no Reedy category can have _any_ [[identity|nonidentity]] [[isomorphisms]]!  This is problematic for many $\Delta$-like categories such as the [[category of cycles]], Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The concept of 
 
@@ -78,9 +78,13 @@ due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.  There i
 
 The notion of [[elegant Reedy category]], introduced by [[Julie Bergner]] and [[Charles Rezk]], is a *restriction* of the notion which captures the property that the Reedy model structure and injective model structure coincide.  Several important Reedy categories are elegant, such as the $\Delta$ and $\Theta$.
 
-### Enriched Reedy category 
+### Enriched Reedy categories
 
 There is also a generalization of the notion of Reedy category to the context of [[enriched category theory]]: this is an [[enriched Reedy category]].
+
+### Reedy categories with fibrant constants.
+
+If $R$ is a [[direct category]], then for any [[model category]] $M$ the colimit functor $\colim_R \colon M^R \to M$ is a [[Quillen adjunction|left Quillen functor]]. However, there are non-direct Reedy categories with the same property, they are called [[Reedy category with fibrant constants|Reedy categories with fibrant constants]].
 
 ## References
 
