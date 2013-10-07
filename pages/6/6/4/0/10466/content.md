@@ -28,6 +28,10 @@ What is called _global equivariant homotopy theory_ is a variant of [[equivarian
 
 Sometimes this is referred to just as "global homotopy theory", leaving the equivariance implicit. There is also a [[stabilization|stable]] version involving [[spectra]] equipped with [[infinity-actions]], see at _[[global equivariant stable homotopy theory]]_.
 
+More precisles, the _global equivariant homotopy category_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] on the global [[orbit category]] $Orb$, regarded as an [[(∞,1)-category]].
+
+Here $Orb$ has a [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
+
 ## Related concepts
 
 * [[global equivariant stable homotopy theory]]
@@ -39,3 +43,5 @@ Global unstable equivariant homotopy theory is discussed in chapter I of
 * [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
 
 [[!redirects global homotopy theory]]
+
+[[!redirects global equivariant homotopy category]]
