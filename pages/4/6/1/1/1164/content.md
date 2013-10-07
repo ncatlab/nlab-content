@@ -12,20 +12,32 @@ Given a [[topological group]] $G$ the __orbit category__ $\mathrm{Or}\, G$ (deno
 
 * and whose morphisms are $G$-equivariant maps.  
 
-It is a [[small category|small]] [[enriched category|topologically enriched]] category (though of course if $G$ is a discrete group, the enrichment of $\mathrm{Or}\, G$ is likewise discrete).  
+This is a [[small category|small]] [[enriched category|topologically enriched]] category (though of course if $G$ is a discrete group, the enrichment of $\mathrm{Or}\, G$ is likewise discrete).  
 
 Of course, like any category, it has a [[skeleton]], but as usually defined it is not itself skeletal, since there can exist distinct subgroups $H$ and $K$ such that $G/H\cong G/K$.
 
+**Warning** This should not be confused with the situation where a group $G$ acts on a groupoid $\Gamma$ so that one obtains the  [[orbit groupoid]].   
+
+
 More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Or}_F\,G \subset \mathrm{Or}\,G$ whose objects are those $G/H$ for which $H\in F$.
 
-## Applications
+## Properties
+
+### Relation to Mackey functors
 
 Orbit categories are used often in the treatment of [[Mackey functor]]s from the theory of [[locally compact group]]s and in the definition of [[Bredon cohomology]]. 
 
-It appears in [[equivariant stable homotopy theory]], where the $H$-fixed [[homotopy group]]s of a space form a [[presheaf]] on the [[homotopy category]] of the orbit category (e.g. [page 8, 9 here](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf#page=8)).
+### Relation to Bredon equivariant cohomology
 
-See also at _[[global equivariant stable homotopy theory]]_.
+It appears in [[equivariant stable homotopy theory]], where the $H$-fixed [[homotopy groups]] of a space form a [[presheaf]] on the [[homotopy category]] of the orbit category (e.g. [page 8, 9 here](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf#page=8)).
 
-## Warning 
+### Relation to $G$-spaces and Elmendorf's theorem
 
-This should not be confused with the situation where a group $G$ acts on a groupoid $\Gamma$ so that one obtains the  [[orbit groupoid]].   
+[[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
+
+
+
+## Related concepts
+
+* _[[global equivariant stable homotopy theory]]_.
+
