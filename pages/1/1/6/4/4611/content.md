@@ -65,7 +65,7 @@ More explicitly this means that:
 +-- {: .num_prop}
 ###### Proposition
 
-A category is sifted if for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
+An [[inhabited set|inhabited]] [[small category]] is sifted if for every pair of objects $d_1,d_2\in D$, the category $Cospan_D(d_1,d_2)$ of [[cospans]] from $d_1$ to $d_2$ is [[connected category|connected]].
 
 =--
 
