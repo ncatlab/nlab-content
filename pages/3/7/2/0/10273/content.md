@@ -13,7 +13,7 @@
 =--
 =--
 
-> This page contains, or is going to contain, notes to go with a seminar of the [String Geometry Network](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=home) in October 2013. At least until then this page is *under construction*. 
+> This page contains, or is going to contain, notes to go with a seminar of the [String Geometry Network meeting in October 2013](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=events). 
 
 #Contents#
 * table of contents
@@ -210,48 +210,13 @@ with [[coefficients]] in non-abelian de Rham hypercohomology. Since the ordinary
 
 
 
-## **6)** Super WZW gerbes / $n$-bundles
+## **6)** Super Wess-Zumino-Witten gerbes / $n$-connections
  {#SuperWZWBundles}
 
-### Summary
 
-The earliest and the only rigorously understood example of the [[holographic principle]] is the [[AdS3-CFT2 and CS-WZW correspondence]] between the [[WZW model]] on a [[Lie group]] $G$ and 3d $G$-[[Chern-Simons theory]].
+We discuss how to construct [[circle n-bundles with connection]] ("bundle (n-1)-gerbes") on [[super Lie groups]] and on [[smooth super ∞-groupoid|super ∞-groups]] which generalize the familiar [[WZW model|Wess-Zumino-Witten term]] that serves as the [[action functional]] for the [[sigma-model]] that describes a [[string]]  propagating on a [[Lie group]]. Following the "[[holographic principle]]" we construct these [[schreiber:∞-Wess-Zumino-Witten theory|∞-Wess-Zumino-Witten theories]] as [[boundary field theories]] for [[schreiber:∞-Chern-Simons theories]] (which in turn are realized as [[boundary field theories]] for higher [[topological Yang-Mills theories]]).
 
-In ([Witten 98](7d+Chern-Simons+theory#Witten98)) it is argued that all examples of the [[AdS-CFT duality]] are governed by the [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] terms in the [[supergravity]] [[Lagrangian]] on one side of the correspondence, hence that the corresponding [[conformal field theories] are higher dimensional analogs of the traditional [[WZW model]]: that they are "[[schreiber:∞-Wess-Zumino-Witten theory]]"-type models.
-
-In particular for [[AdS7-CFT6]] this means that the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] [[worldvolume]] should be a 6d-dimensional WZW model holographically related to the [[7d Chern-Simons theory]] which appears when [[11-dimensional supergravity]] is [[KK-reduction|KK-reduced]] on a 4-[[sphere]]:
-
-| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]]$\rightarrow$ | [[schreiber:∞-Wess-Zumino-Witten theory]] |
-|---|---|---|
-| 3d [[Chern-Simons theory]] |  | 2d [[Wess-Zumino-Witten model]] |
-| [[7d Chern-Simons theory]] from [[11-dimensional supergravity]] |  | [[6d (2,0)-superconformal QFT]] on [[M5-brane]] |
-
-In ([Witten 96](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#WittenI)) this is argued, by [[geometric quantization]] after [[transgression]] to [[codimension]] 1, for the _bosonic and abelian_  contribution in [[7d Chern-Simons theory]]. (The subtle [[theta characteristic]] involved was later formalized in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]].) 
-
-
-In order to formalize this in generality, one needs a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]?
-
-Observe that the ordinary [[WZW term]] 
-
-$$
-  \mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^2 U(1)_{conn}
-$$
-
-on a [[compact Lie group]] is characterized (e.g. [Schweigert-Waldorf 07](#SchweigertWaldorf07)) by the corresponding [[universal Chern-Simons circle 3-connection]]
-
-$$
-  \mathcal{L}_{CS} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 U(1)_{conn}
-$$
-
-by two pieces (the two ingredients in the [[homotopy fiber product]]-definition of [[ordinary differential cohomology]]):
-
-1. the [[curvature]] of $\mathcal{L}_{WZW}$ is the value of the [[Chern-Simons form]] on the canonical [[Maurer-Cartan form]] on $G$;
-
-1. the [[Dixmier-Douady class]] $\chi(\mathcal{L}_{WZW})$ is the [[looping]] of the class of the Chern-Simons circle 3-bundle.
-
-Below in _[WZW n-bundles](#WZWnBundle)_ we discuss how this construction generalized to [[higher differential geometry]] in general, and to [[higher supergeometry]] in particular. Then in _[The brane bouquet of higher super WZW terms](#TheBraneBouquet)_ we discuss a class of examples of this construction arising from the tower of [[super L-∞ algebra|super]] [[L-∞ algebra cohomology|L-∞ extensions]] of [[super Minkowski spacetime]].
-
-([FSS 13b](#FSS13b))
+Finally we apply this general construction of supergeometric [[schreiber:∞-Wess-Zumino-Witten theory|∞-Wess-Zumino-Witten theories]] to the exceptional [[super L-∞ algebra]] [[extended supersymmetry]] algebras and thus find the [[non-perturbative field theory|non-pertrubative]] formulation of the $p$-[[brane]] [[sigma-models]] in [[string theory]]/[[M-theory]] which constitute the [[brane scan]]/[[schreiber:The brane bouquet]].
 
 ### Introduction
 
@@ -283,7 +248,7 @@ $$
 
 is the [[partition function]] of the theory a kind of [[expectation value]] with [[probabilities]] replaced by [[probability amplitudes]].
 
-In order to make sense of this, it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[circle group]]-[[principal bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
+In order to make sense of this (for a full discussion of "[[motivic quantization]]" in this sense see ([Nuiten 13](#Nuiten13)), here we concentrate on the [[prequantum field theory|pre-quantum aspects]]), it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[circle group]]-[[principal bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
 
 $$
   \array{
@@ -307,12 +272,14 @@ $$
     \\
     \ast &\leftarrow& U(1) &\rightarrow& \ast
     \\
-    & {}_{\mathllap{0}}\searrow &(pb)& \swarrow_{\mathrlap{0}}
+    & {}_{\mathllap{0}}\searrow &{}^{(pb)}& \swarrow_{\mathrlap{0}}
     \\
     && \mathbf{B}U(1)
   }
-  \,.
+  \,,
 $$
+
+where on the right we used the [[universal property]] of the [[homotopy pullback]] [[diagram]] which exhibits the smooth [[circle group]] $U(1)$ as the [[loop space object]] of $\mathbf{B}U(1)$.
 
 For instance for $X$ a [[smooth manifold]] ("[[spacetime]]") and $\nabla \;\colon\; X \longrightarrow \mathbf{B}U(1)_{conn}$ a [[circle group]]-[[principal connection]] ("[[electromagnetic field]] on [[spacetime]]") then for [[trajectories]] in $X$ of shape the [[circle]], the canonical [[action functional]] ("[[Lorentz force]] gauge [[interaction]]") is the [[holonomy]] [[functional]]
 
@@ -460,13 +427,15 @@ $$
   \;\;
    \mapsto
   \;\;
+  \left(
   \array{
-    X &&\stackrel{\exp(t \{H,-\})}{\lonmgrightarrow}&& X
+    X &&\stackrel{\exp(t \{H,-\})}{\longrightarrow}&& X
     \\
     & {}_{\mathllap{\nabla}}\searrow &\swArrow_{\mathrlap{\exp(i S_t)}}& \swarrow_{\mathrlap{\nabla}}
     \\
     && \mathbf{B}U(1)_{conn}
   }
+  \right)
   \,,
 $$
 
@@ -514,7 +483,7 @@ $$
   \infty Grpd
 $$
 
-which induce an [[adjoint triple]] of [[idempotent monad|idempotent]] [[(∞,1)-monads]]/comonds
+which induce an [[adjoint triple]] of [[idempotent monad|idempotent]] [[(∞,1)-monads]]/comonads
 
 $$
   \left(
@@ -526,9 +495,9 @@ $$
   \mathbf{H}
 $$
 
-called
+with $\Pi$ [[Cartesian product|product]]-preserving, called
 
-* [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] .
+* _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dashv$ _[[sharp modality]]_ .
 
 Here the [[shape modality]] $\Pi$ sends a [[simplicial manifold]] to the [[homotopy type]] of the [[geometric realization of simplicial topological spaces|fat geometric realization]] of the underlying [[simplicial topological space]], hence in particular sends a [[smooth manifold]] to its [[homotopy type]].
  
@@ -598,7 +567,7 @@ $$
   KanComplexes
 $$
 
-we have for all $n \in \mathbb{N}$
+we have for all $n \in \mathbb{N}$ an [[equivalence]]
 
 $$
   \flat \mathbf{B}^{n+1}U(1)
@@ -615,20 +584,40 @@ $$
    \stackrel{\mathbf{d}}{\longrightarrow}
     \mathbf{\Omega}^{n+1}_{cl}   
   \right)
-  \,.
 $$
+
+in $\mathbf{H}$.
 
 =--
 
-Let 
++-- {: .num_example #tYM}
+###### Example
+
+Consider the induced canonical inclusion
 
 $$
-  \mathbf{Omega}^{n+1}
+  \mathbf{\Omega}^{n+1}
   \longrightarrow
   \flat \mathbf{B}^{n+1}U(1)
+  \,.
 $$
 
-the induced canonical inclusion.
+By the above we may regard this as an [[action functional]] for an $(n+1)$-dimensional [[prequantum field theory]] with [[moduli stack]] of [[field (physics)|fields]] being $\mathbf{\Omega}^{n+1}_{cl}$. As such we denote it
+
+$$
+  \array{
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+     \\
+     \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,,
+$$
+
+where the subscript is supposed to refer to "universal higher [[topological Yang-Mills theory]]".
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition 
@@ -675,6 +664,36 @@ of $\exp(i S)$ to the mapping space $[S^k , \mathbf{Fields}]$.
 =--
 
 ([lpqft](#lpqft))
+
++-- {: .num_example}
+###### Example
+
+Consider the induced canonical inclusion
+
+$$
+  \mathbf{\Omega}^{n+1}
+  \longrightarrow
+  \flat \mathbf{B}^{n+1}U(1)
+  \,.
+$$
+
+By the above we may regard this as an [[action functional]] for an $(n+1)$-dimensional [[prequantum field theory]] with [[moduli stack]] of [[field (physics)|fields]] being $\mathbf{\Omega}^{n+1}_{cl}$. As such we denote it
+
+$$
+  \array{
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+     \\
+     \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,,
+$$
+
+where the subscript is supposed to refer to "universal higher [[topological Yang-Mills theory]]".
+
+=--
+
 
 Observe that by the [[cobordism hypothesis]] $Bord_n$ is the [[free construction|free]] [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects]] generated from a single object $\ast$. 
 
@@ -730,14 +749,8 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The universal boundary condition for
-
-$$
-  \exp(i S) \colon \mathbf{\Omega}^{n+1} \longrightarrow 
-   \flat \mathbf{B}^{n+1}U(1)
-$$
-
-is the [[higher moduli stack]]
+The _universal_ [[boundary field theory|boundary condition]] for
+the universal higher topological Yang-Mills theory of example \ref{tYM} is the [[higher moduli stack]]
 $\mathbf{B}^n U(1)_{conn}$ of [[circle n-bundle with connection]],
 hence a general boundary condition for this 
 higher [[topological Yang-Mills theory]] is a
@@ -746,9 +759,61 @@ higher [[topological Yang-Mills theory]] is a
 
 =--
 
+The [[schreiber:∞-Wess-Zumino-Witten theory]] that we are after are boundaries of these boundary field theories, hence "corner field theories" ([Sati 11](#Sati11), [lpqft](#lpqft)) of the higher universal topological Yang-Mills theory. This we turn to now.
+
+
++-- {: .num_remark}
+###### Remark
+
+
+The earliest and the only rigorously understood example of the [[holographic principle]] is the [[AdS3-CFT2 and CS-WZW correspondence]] between the [[WZW model]] on a [[Lie group]] $G$ and 3d $G$-[[Chern-Simons theory]].
+
+In ([Witten 98](7d+Chern-Simons+theory#Witten98)) it is argued that all examples of the [[AdS-CFT duality]] are governed by the [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] terms in the [[supergravity]] [[Lagrangian]] on one side of the correspondence, hence that the corresponding [[conformal field theories] are higher dimensional analogs of the traditional [[WZW model]]: that they are "[[schreiber:∞-Wess-Zumino-Witten theory]]"-type models.
+
+In particular for [[AdS7-CFT6]] this means that the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] [[worldvolume]] should be a 6d-dimensional WZW model holographically related to the [[7d Chern-Simons theory]] which appears when [[11-dimensional supergravity]] is [[KK-reduction|KK-reduced]] on a 4-[[sphere]]:
+
+| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]]$\rightarrow$ | [[schreiber:∞-Wess-Zumino-Witten theory]] |
+|---|---|---|
+| 3d [[Chern-Simons theory]] |  | 2d [[Wess-Zumino-Witten model]] |
+| [[7d Chern-Simons theory]] from [[11-dimensional supergravity]] |  | [[6d (2,0)-superconformal QFT]] on [[M5-brane]] |
+
+In ([Witten 96](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#WittenI)) this is argued, by [[geometric quantization]] after [[transgression]] to [[codimension]] 1, for the _bosonic and abelian_  contribution in [[7d Chern-Simons theory]]. (The subtle [[theta characteristic]] involved was later formalized in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]].) 
+
+In order to formalize this in generality, one needs a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]? This we are dealing with now.
+
+
+=--
+
 
 ### WZW $n$-bundles
  {#WZWnBundle}
+
++-- {: .num_remark}
+###### Remark
+
+Observe that the ordinary [[WZW term]] 
+
+$$
+  \mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^2 U(1)_{conn}
+$$
+
+on a [[compact Lie group]] is characterized (e.g. [Schweigert-Waldorf 07](#SchweigertWaldorf07)) in terms of  the corresponding [[universal Chern-Simons circle 3-connection]]
+
+$$
+  \mathcal{L}_{CS} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 U(1)_{conn}
+$$
+
+by two pieces (the two ingredients in the [[homotopy fiber product]]-definition of [[ordinary differential cohomology]]):
+
+1. the [[curvature]] of $\mathcal{L}_{WZW}$ is the value of the [[Chern-Simons form]] on the canonical [[Maurer-Cartan form]] on $G$;
+
+1. the [[Dixmier-Douady class]] $\chi(\mathcal{L}_{WZW})$ is the [[looping]] of the class of the Chern-Simons circle 3-bundle.
+
+=--
+
+We discuss now how this construction generalizes to [[higher differential geometry]] in general, and to [[higher supergeometry]] in particular. Then in _[The brane bouquet of higher super WZW terms](#TheBraneBouquet)_ we discuss a class of examples of this construction arising from the tower of [[super L-∞ algebra|super]] [[L-∞ algebra cohomology|L-∞ extensions]] of [[super Minkowski spacetime]]. ([FSS 13b](#FSS13b))
+
+
 
 Let 
 
@@ -955,8 +1020,14 @@ Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-t
   _Part II -- Presentations_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
   {#NSS12}
 
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, Thesis 2013
+  {#Nuiten13}
+
 * [[Joseph Polchinski]], _[[String theory|String theory volume II: Superstring theory and beyond]]_, Cambridge Monographs on Mathematical Physics (2001)
   {#Polchinski01}
+
+* [[Hisham Sati]], _Corners in M-theory_, J. Phys. A44:255402, 2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
+  {#Sati11}
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections|L ∞-algebra connections and applications to String- and Chern-Simons n-transport]]_, in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480)) 
  {#SSS09}
