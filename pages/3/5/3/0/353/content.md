@@ -87,11 +87,7 @@ Someone should add some more references!
 
 * [[Ieke Moerdijk|Moerdijk]] and [[Ittay Weiss|Weiss]]'s definition uses yet another way of formalizing "iterated weak enrichment," using [[dendroidal sets]] and [[quasi-operad]]s.
 
-* [[Andre Joyal|Joyal]]'s definition: An $n$-category is an $n$-[[cellular set]] satisfying horn-filling conditions.  This definition can do $\omega$ by using $\omega$-cellular sets instead of $n$-cellular sets, and it can do $(\infty,1)$ by requiring different horn-filling conditions on $n$-cellular sets.  The notion of [[(∞,1)-category]] one obtains in this way is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].  Perhaps this definition doesn't quite work in general, however.
-
-  +--{: .query}
-  [[Mike Shulman]]: The information that it may not quite work was given to me third-hand, with no details.  I have my own suspicions about what the reasons might be, but not time to write them down right now.
-  =--
+* [[Andre Joyal|Joyal]]'s definition: An $n$-category is an $n$-[[cellular set]] satisfying horn-filling conditions.  This definition can do $\omega$ by using $\omega$-cellular sets instead of $n$-cellular sets, and it can do $(\infty,n)$ by requiring different horn-filling conditions on $n$-cellular sets.  The notion of [[(∞,1)-category]] one obtains in this way is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].  For $n\gt 1$, however, the obvious "horn-filling conditions" are not quite right; [[Dimitri Ara]] has shown how to correct them (albeit not very explicitly), obtaining a definition he calls an [[n-quasicategory]], which form a model category Quillen equivalent to Rezk's definition (below).
 
 * [[Clark Barwick|Barwick]]'s definition (popularized by [[Jacob Lurie|Lurie]] in solving the Baez--Dolan [[cobordism hypothesis]]): an $(\infty,n)$-category is an $n$-fold [[simplicial object|simplicial]] [[topological space]] satisfying completeness and the [[Segal condition]].  See [[n-fold complete Segal space]].  An $n$-category is again defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  It is not clear whether this definition can do $\omega$.  An $(\infty,1)$-category with this definition is also the same as a [[complete Segal space]].
 
