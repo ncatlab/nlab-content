@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $\Theta_n$ the $n$-truncation of the [[Theta-category]], an _$n$-[[cellular set]]_, hence a [[presheaf]] on $\Theta_n$, may be viewed as a collection of [[n-morphisms]] of an "$n$-graph" underlying an [[(∞,n)-category]]. The _model structure on cellular sets_ ([Ara](#Ara)) models $(\infty,n)$-categories this way.
+For $\Theta_n$ the $n$-truncation of the [[Theta-category]], an _$n$-[[cellular set]]_, hence a [[presheaf]] on $\Theta_n$, may be viewed as a collection of [[n-morphisms]] of an "$n$-graph" underlying an [[(∞,n)-category]]. The _model structure on cellular sets_ ([Ara](#Ara)) models $(\infty,n)$-categories this way. This model is referred to as _[[n-quasicategories]]_.
 
 ## Definition
 
