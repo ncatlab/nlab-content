@@ -27,6 +27,8 @@ Parts of this appear separately elsewhere, for instance
 
 * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
+  (see also at _[[signs in supergeometry]]_)
+
 on fundamental [[supergeometry]] needed for describing [[fermion]] [[particles]] (and [[superstrings]]). See also
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS 1999
