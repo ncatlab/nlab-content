@@ -220,7 +220,11 @@ $$
 
 ### Presheaves on superpoints
 
-Write $Superpoint$ for the [[category]] of [[superpoints]], the [[opposite category]] of that of real finitely-generated [[Grassmann algebras]]. We list the terms with crucial signs that appear when regarding [[superalgebra]] as algebra [[internalization|internal]] to the [[presheaf topos]] over [[superpoints]] (see at _[[super infinity-groupoid]]_ for background).
+Write $Superpoint$ for the [[category]] of [[superpoints]], the [[opposite category]] of that of real finitely-generated [[Grassmann algebras]]. 
+
+We list the terms with crucial signs that appear when regarding [[superalgebra]] as algebra [[internalization|internal]] to the [[presheaf topos]] over [[superpoints]] (see at _[[super infinity-groupoid]]_ for background).
+
+#### Super Lie algebras
 
 Given a [[super Lie algebra]] $\mathfrak{g}$, for each [[superpoint]] $\mathbb{R}^{0|q}$ write
 
@@ -323,7 +327,37 @@ $$
   \,.
 $$
 
+#### Chevalley-Eilenberg algebra
 
+Given a [[super Lie algebra]] $\mathfrak{g}$ as above, 
+the [[tensor product]] $\mathfrak{g}\otimes C^\infty(\mathbb{R}^{0|1})$ is the [[free construction|free]] $C^\infty(\mathbb{R}^{0|q})$-[[module]] generated from the [[super vector space]] underlying $\mathfrak{g}$.
+
+(...)
+
+$$
+  CE_{C^\infty(\mathbb{R}^{0|q})}( \mathfrak{g}(C^\infty(\mathbb{R}^{0|q}) )_{even}
+  \,.
+$$
+
+(...)
+
+$$
+  (\psi^{\alpha_1} \epsilon^1) 
+  \wedge
+  (\psi^{\alpha_2} \epsilon^2)
+  =
+  -  
+  (\psi^{\alpha_2} \epsilon^2) 
+  \wedge
+  (\psi^{\alpha_1} \epsilon^1)
+  = 
+  \psi^{\alpha_1}
+    \wedge 
+  \psi^{\alpha^2}
+  \epsilon^1 \epsilon^2
+$$
+
+(...)
 ## References
 
 
