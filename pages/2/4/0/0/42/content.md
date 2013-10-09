@@ -27,7 +27,7 @@ There are different ways to define a [[volume form|differential volume element]]
 
 ### No top-degree forms in supergeometry 
 
-In supergeometry the notion of _top-degree form_ does not in general make sense, since there are no top-degree wedge powers of "[[superdifferential form|odd 1-forms]]": if for instance $\theta_1$ and $\theta_2$ are odd functions on some supermanifold and $d \theta_1$ and $d \theta_2$ are their differential 1-forms, then the wedge product of these is symmetric in that
+In supergeometry the notion of _top-degree form_ does not in general make sense, since there are no top-degree wedge powers of "[[superdifferential form|odd 1-forms]]": if for instance $\theta_1$ and $\theta_2$ are odd functions on some [[super Cartesian space]] $\mathbb{R}^{p|q}$ and $d \theta_1$ and $d \theta_2$ are their [[differential 1-forms]], then the wedge product of these is symmetric in that
 
 $$
   d\theta_1 \wedge d \theta_2 = + 
@@ -35,7 +35,7 @@ $$
   \,.
 $$
 
-Notice the plus sign on the right, which is the product of one minus sign for interchanging $\theta_1$ and $\theta_2$, and another minus sign for interchanging the two differentials.
+Notice the plus sign on the right, which is the product of one minus sign for interchanging $\theta_1$ and $\theta_2$, and another minus sign for interchanging the two differentials. See at _[[signs in supergeometry]]_ for more on this.
 
 Accordingly, the wedge product of the differential of an odd function $\theta$ with itself does not in general vanish:
 
