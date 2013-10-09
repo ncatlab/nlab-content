@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _superpoint_ is an [[infinitesimally thickened point]] whose infinitesimal extension is _odd_ in the sense of [[supergeometry]].
+A _superpoint_ is an [[infinitesimally thickened point]] whose infinitesimal extension is _odd_ in the sense of [[supergeometry]]. A [[super Cartesian space]] of vanishing ordinary [[dimension]].
 
 ## Definition
 
