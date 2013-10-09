@@ -148,15 +148,21 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[naturalness]]
 
-* [[supergeometry]]
+* [[supergeometry]], [[superalgebra]]
+  
+  * [[supermanifold]]
+
+  * [[super Lie algebra]]
+
+  * [[integration over supermanifolds]]
 
 * [[unitary representation of the super Poincaré group]]
 
 * [[extended supersymmetry]]
 
-* [[supersymmetry and Calabi-Yau manifolds]]
+* [[supergravity]], [[superstring theory]]
 
-* [[supermanifold]], [[supergravity]], [[superstring theory]]
+  * [[supersymmetry and Calabi-Yau manifolds]]
 
 * [[MSSM]]
 
@@ -188,7 +194,7 @@ The appendix there,
 
 * _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf))
 
-means to sort out various sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]].
+means to sort out various sign issues of relevance in [[supergeometry]] and supsersymmetric [[quantum field theory]] (see at _[[signs in supergeometry]]_.)
 
 See also
 
