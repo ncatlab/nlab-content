@@ -26,7 +26,7 @@
 
 ## Idea
 
-A [[super spacetime]] which is an analog in [[supergeometry]] of ordinary [[Minkowski spacetime]].
+Super-Minkowski spacetime is a [[super spacetime]] which is an analog in [[supergeometry]] of ordinary [[Minkowski spacetime]]. It is a [[super Cartesian space]] whose odd coordinates form a real [[spinor representation]].
 
 ## Definition 
 
@@ -44,6 +44,127 @@ where $\bar Osp(d+1|N)$ is...
 The _[[super-translation group]]_. See there for more details.
 
 ## Properties
+
+### Canonical coordinates
+
+We briefly review some basics of the canonical [[coordinates]] and the super [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] and [[super Minkowski space]] (see also at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_).
+
+By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{siso}(D-1,1)$ by its CE-algebra $CE(\mathfrak{siso}(D-1,1))$ "of [[left-invariant 1-forms]]" on its group manifold.
+
++-- {: .num_defn #CEAlgebraOfSuperPoincare}
+###### Definition
+
+The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+with the differential defined by
+
+$$
+  d_{CE} \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+$$
+  d_{CE} e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+$$
+  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+Removing the terms involving $\omega$ here this is the [[super translation algebra]].
+
+=--
+
+In this way the super-Poincar&#233; Lie algebra and its extensions is usefully discussed for instance in ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and in ([Azc&#225;rraga-Townsend 89](AzcarragaTownsend89), [CAIB 99](#CAIB99)). In much of the literature instead the following equivalent notation is popular, which more explicitly involves the [[coordinates]] on [[super Minkowski space]].
+
++-- {: .num_remark }
+###### Remark
+
+The abstract generators in def. \ref{CEAlgebraOfSuperPoincare} are identified with [[left invariant 1-forms]] on the [[super-translation group]] (= [[super Minkowski space]]) as follows.
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the identification is 
+
+* $\psi^\alpha = d \theta^\alpha$.
+
+* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
+
+Notice that this then gives the above formula for the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
+
+$$ 
+  \begin{aligned}
+    d e^a & = d (d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
+    \\
+    & = \frac{i}{2} d \overline{\theta}\Gamma^a d \theta
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+The term $\frac{i}{2}\bar \psi \Gamma^a \psi$ is sometimes called the *supertorsion* of the supervielbein $e$, because the defining equation
+
+$$
+  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{siso})$ which have "all indices contracted". 
+
+Notably we have 
+
+$$
+  d \left( 
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+  \right)
+  \propto
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+  \,.
+$$
+
+This remaining operation "$e \mapsto \Psi^2$" of the differential acting on Loretz scalars is sometimes denoted "$t_0$", e.g. in ([Bossard-Howe-Stelle 09, equation (8)](#BossardHoweStelle09)).
+
+This relation is what govers all of the exceptional super Lie algebra cocycles that appear as WZW terms for the Green-Schwarz action below: for some combinations of $(D,p)$ a [[Fierz identity]] implies that the term
+
+$$
+  \left(
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}
+  \right)
+  \wedge
+  \left(
+    \overline{\Psi} \wedge \Gamma_{a_p} \Psi
+  \right)
+$$
+
+vanishes identically, and hence in these dimensions the term
+
+$$
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+$$
+
+is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
+
+=--
+
 
 ### Cohomology and super $p$-branes
 
