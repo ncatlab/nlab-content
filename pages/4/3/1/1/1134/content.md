@@ -65,6 +65,12 @@ With the obvious morphisms of [[ringed space]] this forms the [[category]] [[SDi
 
 ### Examples
 
+* [[super Cartesian space]]
+
+  * [[superpoint]]
+
+    * [[odd line]]
+
 +-- {: .num_example }
 ###### Example
 
