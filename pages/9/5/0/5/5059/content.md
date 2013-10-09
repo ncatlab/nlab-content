@@ -43,7 +43,7 @@ These action functionals were first considered in ([Green-Schwarz 84](#GreenSchw
 ### Supercoordinates
  {#Supercoordinates}
 
-We briefly review some basics of the canonical [[coordinates]] and the super [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] and [[super Minkowski space]], which are referred to below ([Azc&#225;rraga-Townsend 89](#AzcarragaTownsend89)).
+We briefly review some basics of the canonical [[coordinates]] and the super [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] and [[super Minkowski space]], which are referred to below (see for instance [Azc&#225;rraga-Townsend 89](#AzcarragaTownsend89), and see at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_.).
 
 By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{siso}(D-1,1)$ by its CE-algebra $CE(\mathfrak{siso}(D-1,1))$ "of [[left-invariant 1-forms]]" on its group manifold.
 
