@@ -73,7 +73,7 @@ One often writes $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of mor
 +-- {: .num_defn #SemiFunctor}
 ###### Definition
 
-For $\mathcal{C}, \mathcal{D}$ two semicategories, a [[semi-functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is a pair of [[functions]] $F_0 \colon \mathcla{C}_0 \to \mathcal{D}_0$, $F_1 \colon \mathcla{C}_1 \to \mathcal{D}_1$ that respects all the given [[structure]] in the obvious way.
+For $\mathcal{C}, \mathcal{D}$ two semicategories, a [[semi-functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is a pair of [[functions]] $F_0 \colon \mathcal{C}_0 \to \mathcal{D}_0$, $F_1 \colon \mathcal{C}_1 \to \mathcal{D}_1$ that respects all the given [[structure]] in the obvious way.
 
 Write $SemiCat$ for the ([[large category|large]]) [[category]] whose objects are semicategories, and whose morphisms are semifunctors.
 
