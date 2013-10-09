@@ -50,10 +50,10 @@ Then we introduce [[higher supergeometry]] in terms of [[super stacks]]/[[smooth
 ### Summary
 
 Where ordinary [[differential geometry]] is modeled on the [[Cartesian spaces]] $\mathbb{R}^d$ with [[smooth functions]] between them,
-[[supergeometry]] is modeled on the cartesian superspaces that are denoted $\mathbb{R}^{p|q}$, for $p,q \in \mathbb{N}$, where the _[[superpoints]]_ $\mathbb{R}^{0|q}$ are characterized by the fact that their [[function algebra]] is a [[Grassmann algebra]] on $q$ [[generators]]. A _[[supermanifold]]_ of [[dimension]] $(p|q)$ is a [[space]] locally modeled on $\mathbb{R}^{p|q}$.
+[[supergeometry]] is modeled on the [[super Cartesian spaces]] that are denoted $\mathbb{R}^{p|q}$, for $p,q \in \mathbb{N}$, where the _[[superpoints]]_ $\mathbb{R}^{0|q}$ are characterized by the fact that their [[function algebra]] is a [[Grassmann algebra]] on $q$ [[generators]]. A _[[supermanifold]]_ of [[dimension]] $(p|q)$ is a [[space]] locally modeled on $\mathbb{R}^{p|q}$.
 
 Introductions to traditional discussion of supermanifolds include 
-([Varadarajan 04, chapter 4](#Varadarajan04), [Hohnhold-Stolz-Teichner 11](#HohnholdStolzTeichner11)). A more detailed discussion with an eye to serious applications to [[super Riemann surfaces]] and with an emphasis on [[integration over supermanifolds]] is in ([Witten 12](#Witten12)).
+([Varadarajan 04, chapter 4](#Varadarajan04), [Hohnhold-Stolz-Teichner 11](#HohnholdStolzTeichner11)). A more detailed discussion with an eye to serious applications to [[super Riemann surfaces]] and with an emphasis on [[integration over supermanifolds]] is in ([Witten 12](#Witten12)). See also at _[[signs in supergeometry]]_.
 
 In some accounts of [[supergeometry]], going back to the influential textbook [DeWitt 92](#supermanifold#DeWitt), one fixes once and for all an infinite-dimensional [[Grassmann algebra]] to model the idea that one can arbitrarily probe any [[supermanifold]] by [[superpoints]]. 
 
