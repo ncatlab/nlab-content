@@ -125,7 +125,9 @@ In dimension 4 the analog statement fails due to the existence of [[exotic smoot
 See [[CartSp]].
 
 
+## Related concepts
 
+* [[super Cartesian space]]
 
 
 
