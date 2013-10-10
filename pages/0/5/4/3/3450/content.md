@@ -68,6 +68,8 @@ For details see [[groupoid object in an (∞,1)-category]].
 
   * [[Eilenberg-MacLane object]], [[∞-gerbe]]
 
+  * [[∞-group cohomology]]
+
   * [[∞-group extension]]
 
   * [[augmented ∞-group]]
