@@ -95,6 +95,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 1.4.2 Spectrum objects
 
+* [[excisive (∞,1)-functor]]
+
 * [[spectrum object]]
 
 #### 1.4.3 The $\infty$-category of spectra
@@ -291,13 +293,21 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
-## 7. Algebra in stable homotopy theory
+## 7. The calculus of functors
+
+* [[Goodwillie caclulus]]
+
+### 7.1 The calculus of functors
+
+* [[n-excisive (∞,1)-functor]]
+
+## 8. Algebra in stable homotopy theory
 
 * [[stable homotopy category]]
 
 * [[stable homotopy theory]]
 
-### 7.1 Structured ring spectra
+### 8.1 Structured ring spectra
 
 * [[ring spectrum]]
 
@@ -307,9 +317,9 @@ The following is (or will eventually be) a linked list of keywords.
 
 * stable [[monoidal Dold-Kan correspondence]]
 
-### 7.2 Properties of rings and modules
+### 8.2 Properties of rings and modules
 
-### 7.3 The cotangent complex formalism
+### 8.3 The cotangent complex formalism
 
 * [[tangent (∞,1)-category]]
 
@@ -317,13 +327,13 @@ The following is (or will eventually be) a linked list of keywords.
 
   * [[tangent complex]]
 
-### 7.4 Deformation theory
+### 8.4 Deformation theory
 
 
 * [[deformation theory]]
 
 
-### 7.5 &#201;tale morphisms
+### 8.5 &#201;tale morphisms
 
 * [[etale morphism]]
 
