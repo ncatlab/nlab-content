@@ -85,3 +85,6 @@ A brief introduction is in chapter 23, section 7
 [[!redirects first fractional Pontryagin class]]
 [[!redirects second fractional Pontryagin class]]
 
+[[!redirects fractional first Pontryagin class]]
+[[!redirects fractional second Pontryagin class]]
+
