@@ -17,8 +17,8 @@
 
 **Symmetry Protected Trivial order (SPT order)** (also known as **Symmetry Protected Topological order**) is a new kind of order in zero-temperature [[solid state physics|states of matter]] that have a [[symmetry]] and a finite energy gap. The SPT order has the following defining properties:
 
-(a) distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a [[phase transition]], if the deformation preserves the symmetry.
-(b) however, they all can be smoothly deformed into the same trivial product state without a phase transition, if the symmetry is broken during the deformation.
+1. distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a [[phase transition]], if the deformation preserves the symmetry.
+1. however, they all can be smoothly deformed into the same trivial product state without a phase transition, if the symmetry is broken during the deformation.
 
 Using the notion of quantum entanglement, we can say that SPT states are short-range [[entanglement|entangled states]] with a symmetry. 
 
@@ -28,9 +28,9 @@ The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT
 
 ## Group cohomology theory for SPT phases
 
-Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.
+Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$. It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
 
-It was also shown that the fermionic SPT orders are described by group super-cohomology theory. So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
+So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
 
 ## Relation between SPT order and topological order
 
