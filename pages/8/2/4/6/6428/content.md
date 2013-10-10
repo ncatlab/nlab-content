@@ -169,3 +169,5 @@ points out that for symmetric systems with a symmetric ground state, already a t
 
 [[!redirects broken symmetry]]
 [[!redirects broken symmetries]]
+
+[[!redirects symmetry breaking]]
