@@ -295,7 +295,7 @@ The following is (or will eventually be) a linked list of keywords.
 
 ## 7. The calculus of functors
 
-* [[Goodwillie caclulus]]
+* [[Goodwillie calculus]]
 
 ### 7.1 The calculus of functors
 
