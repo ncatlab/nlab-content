@@ -18,7 +18,7 @@ The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT
 
 ## Group cohomology theory for SPT phases
 
-Rencently, it was shown that the bosonic SPT orders are described by group cohomology theory: d+1D SPT states with symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.
+Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.
 
 It was also shown that the fermionic SPT orders are described by group super-cohomology theory. So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
 
