@@ -366,6 +366,8 @@ In the terminology of [[orientifold]]/[[Jandl gerbe]]s the more general objects 
 
 * [[principal ∞-bundle]] / [[associated ∞-bundle]]  / **$\infty$-gerbe**.
 
+  * [[Super Gerbes]]
+
 
 Notice that the notion of [[bundle gerbe]] and [[bundle 2-gerbe]] etc. is not unrelated, but is _a priori_ a rather different notion.
 
