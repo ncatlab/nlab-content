@@ -94,3 +94,9 @@ Section 1.4.2 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects spectrum objects]]
+
+[[!redirects prespectrum object]]
+[[!redirects prespectrum objects]]
+
+[[!redirects pre-spectrum object]]
+[[!redirects pre-spectrum objects]]
