@@ -235,6 +235,79 @@ where
 * $N$ is an $A$-[[∞-module over an ∞-algebra over an (∞,1)-operad|module]].
 
 
+### Tangent $\infty$-topos of an $\infty$-topos
+
+In ([Joyal 08](#Joyal08)) is an argument which should show that for 
+$\mathbf{H}$ an [[(∞,1)-topos]] then also the tangent $(\infty,1)$-category $T \mathbf{H}$ is an [[(∞,1)-topos]].
+
+The argument proceeds along the following lines.
+
+Let $seq$ be the [[diagram]] category
+
+$$
+  seq 
+  \coloneqq
+  \left\{
+    \array{
+    && \vdots && \vdots
+    \\
+    && \downarrow && 
+    \\
+    \cdots &\to& x_{n-1} &\stackrel{p_{n-1}}{\longrightarrow}& \ast
+    \\
+    &&{}^{\mathllap{p_{n-1}}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_n}}
+    \\
+    &&\ast &\underset{i_n}{\longrightarrow}& x_n &\stackrel{p_n}{\longrightarrow}& \ast
+    \\
+    && && {}^{\mathllap{p_n}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_{n+1}}}
+    \\
+    && && \ast &\stackrel{i_{n+1}}{\longrightarrow}& x_{n+1} &\to& \cdots
+    \\
+     && && && \downarrow
+     \\
+     && && && \vdots
+    }
+  \right\}
+  \,.
+$$
+
+Given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
+
+$$
+  X_\bullet \;\colon\; seq \longrightarrow \mathbf{H}
+$$
+
+is equivalently 
+
+1. a choice of [[object]] $B \in \mathbf{H}$
+
+1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;
+
+1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
+
+This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. The [[(∞,1)-presheaf (∞,1)-topos]] $\mathbf{H}^{seq}$ is hence the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
+
+A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow}X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
+
+$$
+  T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}
+$$
+
+on the genuine [[spectrum objects]] is the tangent $(\infty,1)$-category.
+
+One observes that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction. Since these filtered colimits commute with [[finite (∞,1)-limits]], it follows that spectrum objects are a left [[exact (∞,1)-functor|exact]] [[reflective sub-(∞,1)-category]] 
+
+$$
+  T \mathbf{H} \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
+  \,.
+$$
+
+But this means that $T \mathbf{H}$ is an [[(infinity,1)-topos]].
+
+(...)
+
+
+
 ## Cotangent complex
  {#CotangentComplex}
 
@@ -561,6 +634,7 @@ $$
 $$
 
 The morphism in question is the postcomposition of this with pullback/restriction of the [[(∞,1)-Grothendieck construction]] along the [[reflective sub-(∞,1)-category|reflective inclusion]] (by assumption on $\mathbf{H}$) $Disc \;\colon\; \infty Grpd \longrightarrow \mathbf{H}$
+
 
 $$
   T \mathbf{H} 
