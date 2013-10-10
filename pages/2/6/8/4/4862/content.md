@@ -1,12 +1,13 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
@@ -45,7 +46,7 @@ The two most common definitions of the circle are:
 1. It is the subspace of $\mathbb{C}$ consisting of those numbers of length $1$:
 
    $$
-   U(1) \coloneqq \{z \in \mathbb{C} : |z| = 1\}
+   U(1) \coloneqq \{z \in \mathbb{C} : {|z|} = 1\}
    $$
 
    (of course, $\mathbb{C}$ can be identified with $\mathbb{R}^2$ and an equivalent formulation of this definition given; also, to emphasise the reason for the notation $U(1)$, $\mathbb{C}$ can be replaced by $\mathbb{C}^* = GL_1(\mathbb{C})$)
