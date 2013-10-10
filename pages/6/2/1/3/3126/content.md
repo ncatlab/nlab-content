@@ -236,13 +236,14 @@ where
 
 
 ### Tangent $\infty$-topos of an $\infty$-topos
+ {#TangentTopos}
 
 In ([Joyal 08](#Joyal08)) is an argument which should show that for 
 $\mathbf{H}$ an [[(∞,1)-topos]] then also the tangent $(\infty,1)$-category $T \mathbf{H}$ is an [[(∞,1)-topos]].
 
 The argument proceeds along the following lines.
 
-Let $seq$ be the [[diagram]] category
+Let $seq$ be the [[diagram]] category (following [Joyal 08, section 35.35](#Joyal08))
 
 $$
   seq 
@@ -255,11 +256,11 @@ $$
     \\
     \cdots &\to& x_{n-1} &\stackrel{p_{n-1}}{\longrightarrow}& \ast
     \\
-    &&{}^{\mathllap{p_{n-1}}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_n}}
+    &&{}^{\mathllap{p_{n-1}}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_n}} & \searrow^{\mathrm{id}}
     \\
     &&\ast &\underset{i_n}{\longrightarrow}& x_n &\stackrel{p_n}{\longrightarrow}& \ast
     \\
-    && && {}^{\mathllap{p_n}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_{n+1}}}
+    && &{}_{\mathllap{id}}\searrow& {}^{\mathllap{p_n}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_{n+1}}}
     \\
     && && \ast &\stackrel{i_{n+1}}{\longrightarrow}& x_{n+1} &\to& \cdots
     \\
@@ -283,11 +284,19 @@ is equivalently
 
 1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;
 
-1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
+1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega_B X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
 
-This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. The [[(∞,1)-presheaf (∞,1)-topos]] $\mathbf{H}^{seq}$ is hence the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
+This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. The [[(∞,1)-presheaf (∞,1)-topos]] 
 
-A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow}X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
+$$
+  \mathbf{H}^{seq}
+  \coloneqq
+  Func(seq, \mathbf{H})
+$$ 
+
+is hence the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
+
+A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow} \Omega_B X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
 
 $$
   T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}
@@ -295,17 +304,79 @@ $$
 
 on the genuine [[spectrum objects]] is the tangent $(\infty,1)$-category.
 
-One observes that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction. Since these filtered colimits commute with [[finite (∞,1)-limits]], it follows that spectrum objects are a left [[exact (∞,1)-functor|exact]] [[reflective sub-(∞,1)-category]] 
+One observes ([Joyal 08, section 35.1](#Joyal08)) that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction. Since these filtered colimits commute with [[finite (∞,1)-limits]], it follows that spectrum objects are a left [[exact (∞,1)-functor|exact]] [[reflective sub-(∞,1)-category]] 
 
 $$
-  T \mathbf{H} \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
+  T \mathbf{H} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
   \,.
 $$
 
-But this means that $T \mathbf{H}$ is an [[(infinity,1)-topos]].
+But this means, by the discussion at _[[(∞,1)-topos]]_,  that $T \mathbf{H}$ is an [[(∞,1)-topos]].
 
-(...)
+Now assume that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]:
 
+$$
+  \mathbf{H}
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+  \,.
+$$
+
+Since [[(∞,1)-limits]] and [[(∞,1)-colimits]] in an [[(∞,1)-presheaf (∞,1)-topos]] are computed objectwise, this [[adjoint quadruple]] immediately prolongs to $\mathbf{H}^{seq}$
+
+$$
+  \mathbf{H}^{seq}
+    \stackrel{\overset{\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  \infty Grpd^{seq}
+  \,.
+$$
+
+Moreover, all three [[right adjoints]] preserves the [[(∞,1)-pullbacks]] involved in the characterization of [[spectrum objects]] and hence restrict to $T \mathbf{H}$
+
+$$
+  T\mathbf{H}
+    \stackrel{}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  T\infty Grpd
+  \,.
+$$
+
+But then we have a further [[left adjoint]] given as the composite
+
+$$
+  T\mathbf{H}
+  \hookrightarrow
+  \mathbf{H}^{seq}
+   \stackrel{\overset{\Pi^{seq}}{\longrightarrow}}{\underset{Disc^{seq}}{\leftarrow}}
+  \infty Grpd^{seq}
+   \stackrel{\overset{L}{\longrightarrow}}{\underset{}{\leftarrow}}
+  T \infty Grpd
+  \,.
+$$
+
+Again since $L$ is a [[left exact (∞,1)-functor]] this composite $L \Pi$ preserves finite [[(∞,1)-products]].
+
+So it should follow in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]]:
+
+$$
+  \array{
+    T \mathbf{H}
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  &
+  T \infty Grpd
+  \\
+  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  && 
+  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  \\
+    \mathbf{H}
+    &
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  &
+  \infty Grpd
+  }
+  \,.
+$$
 
 
 ## Cotangent complex
