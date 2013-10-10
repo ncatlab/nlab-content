@@ -19,7 +19,16 @@
 
 ## Idea
 
-The _Turaev-Viro model_ is a [[3d TQFT]] construction induced from a [[modular tensor category]]. It is something like the "norm square" of the [[Reshetikhin-Turaev construction]] on $\mathcal{C}$.
+The _Turaev-Viro model_ is a [[3d TQFT]] construction induced from a [[spherical category]]/[[fusion category]] $\mathcal{C}$. 
+
+If $\mathcal{C}$ is moreover a [[modular tensor category]] then there exists also the [[Reshetikhin-Turaev construction]] [[3d TQFT]]. In this case the
+Turaev-Viro model is something like the "norm square" of the [[Reshetikhin-Turaev construction]] on $\mathcal{C}$.
+
+For $G$ a [[finite group]] and $\mathcal{C} = Vect_G$ the [[category]] of $G$-[[graded vector spaces]] the Turaev-Viro model describes the $G$-[[Dijkgraaf-Witten theory]], also the [[Levin-Wen model]].
+
+See for instance the introduction of ([Kirillov-Balsam 10](#KirillovBalson10)) for a review.
+
+
 
 ## Properties
 
@@ -45,7 +54,8 @@ MR1191386 (94d:57044
 
 Refinement of the construction to an [[extended TQFT]] is in 
 
-* Alexander Kirillov Jr., Benjamin Balsam, _Turaev-Viro invariants as an extended TQFT_
+* [[Alexander Kirillov]] Jr., Benjamin Balsam, _Turaev-Viro invariants as an extended TQFT_ ([arXiv:1004.1533](http://arxiv.org/abs/1004.1533))
+  {#KirillovBalsam10}
 
 Discussion that relates the [[geometric quantization]] of $G$-[[Chern-Simons theory]] to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
