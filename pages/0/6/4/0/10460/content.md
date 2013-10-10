@@ -1,11 +1,12 @@
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Walker-Zhang model_ is a [[model (in theoretical physics)]] which is a [[4d TQFT]] analog of the [[Levin-Wen model]] [[3d TQFT]]. It should be closedly related to the [[Yetter model]]. It is speculated to have some application to [[topological insulators]] in [[solid state physics]].
+The _Walker-Wang model_ is a [[model (in theoretical physics)]] which is a [[4d TQFT]] analog of the [[Levin-Wen model]] [[3d TQFT]]. It should be closely related to the [[Yetter model]]. It is speculated to have some application to [[topological insulators]] in [[solid state physics]].
 
 ## References
 
