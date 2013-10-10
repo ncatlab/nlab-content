@@ -843,6 +843,8 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 * [[Lie group cohomology]] 
 
+  * [[∞-group cohomology]]
+
   * [[∞-Lie groupoid cohomology]]
 
 
