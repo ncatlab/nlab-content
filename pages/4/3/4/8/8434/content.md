@@ -19,7 +19,7 @@ The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomen
 
 ## Related concepts
 
-The [[4d TQFT]] analog of the Levin-Wen model is the [[Walker-Zhang model]].
+The [[4d TQFT]] analog of the Levin-Wen model is the [[Walker-Wang model]].
 
 ## References
 
