@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 # Symmetry-protected trivial order
 * table of contents
 {: toc}
@@ -39,11 +49,11 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 
 #### Early discovery articles
 
-* Zheng-Cheng Gu, Xiao-Gang Wen, Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order , Phys. Rev. B80, 155131 (2009); 
+* Zheng-Cheng Gu, [[Xiao-Gang Wen]], Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order , Phys. Rev. B80, 155131 (2009); 
 * Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, Symmetry protection of topological order in one-dimensional quantum spin systems , Phys. Rev. B85, 075125 (2012).
-* Xie Chen, Zheng-Xin Liu, Xiao-Gang Wen, 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
-* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, Symmetry protected topological orders and the group cohomology of their symmetry group, Phys. Rev. B 87, 155114 (2013)
-* Zheng-Cheng Gu, Xiao-Gang Wen, [Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory](http://arxiv.org/abs/1201.2648)
+* Xie Chen, Zheng-Xin Liu, [[Xiao-Gang Wen]], 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
+* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], Symmetry protected topological orders and the group cohomology of their symmetry group, Phys. Rev. B 87, 155114 (2013)
+* Zheng-Cheng Gu, [[Xiao-Gang Wen]], [Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory](http://arxiv.org/abs/1201.2648)
 
 #### Other articles
 
