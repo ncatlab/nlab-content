@@ -5,16 +5,16 @@
 
 ## Idea
 
-**Symmetry Protected Trivial order (SPT order)** (also known as **Symmetry Protected Topological order**) is a new kind of order in zero-temperature states of matter that have a symmetry and a finite energy gap. The SPT order has the following defining properties:
+**Symmetry Protected Trivial order (SPT order)** (also known as **Symmetry Protected Topological order**) is a new kind of order in zero-temperature [[solid state physics|states of matter]] that have a [[symmetry]] and a finite energy gap. The SPT order has the following defining properties:
 
-(a) distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a phase transition, if the deformation preserves the symmetry.
+(a) distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a [[phase transition]], if the deformation preserves the symmetry.
 (b) however, they all can be smoothly deformed into the same trivial product state without a phase transition, if the symmetry is broken during the deformation.
 
-Using the notion of quantum entanglement, we can say that SPT states are short-range entangled states with a symmetry. 
+Using the notion of quantum entanglement, we can say that SPT states are short-range [[entanglement|entangled states]] with a symmetry. 
 
 ## Examples of SPT order
 
-The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT phase protected by SO(3) spin rotation symmetry. Another example of SPT order is the topological insulator of non-interacting fermions, a SPT phase protected by U(1) and time reversal symmetry.
+The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT phase protected by the $SO(3)$ spin [[rotation group]] symmetry. Another example of SPT order is the [[topological insulator]] of non-interacting fermions, a SPT phase protected by U(1) and time reversal symmetry.
 
 ## Group cohomology theory for SPT phases
 
