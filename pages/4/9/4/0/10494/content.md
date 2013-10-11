@@ -65,10 +65,114 @@ $$
   \,.
 $$
 
+### Stable homotopy types
 
-### Cohomology
+In a tangent cohesive $\infty$-topos $T \mathbf{H}$ all the [[homotopy types]] in $T_\ast \mathbf{H} \hookrightarrow T\mathbf{H}$ are [[stable homotopy types]].
 
-Where the [[(∞,1)-categorical hom-space]] in a general [[(∞,1)-topos]] constitute a notion of [[cohomology]], those of a [[tangent (∞,1)-topos]] specifically constitute [[twisted generalized cohomology]].
+
+### Cohomology -- Twisted bivariant generalized geometric cohomology theory
+ {#Cohomology}
+
+Where the [[(∞,1)-categorical hom-space]] in a general [[(∞,1)-topos]] constitute a notion of [[cohomology]], those of a [[tangent (∞,1)-topos]] specifically constitute [[twisted generalized cohomology]], in fact [[twisted bivariant cohomology]].
+
+For consider a [[spectrum object]] $E \in T_\ast \mathbf{H}$ and write $GL_1(E) \in Grp(\mathbf{H})$ for its [[∞-group of units]]. Then the [[∞-action]] of this on $E$ is (by the discussion there) exhibited by an object 
+
+$$
+  \left[
+   \array{
+     E//GL_1(E)
+     \\
+     \downarrow
+     \\
+     \mathbf{B}GL_1(E)
+   }
+  \right]
+  \;\;\;
+   \in
+  \;\;\;
+  T_{\mathbf{B}GL_1(E)}\mathbf{H} \hookrightarrow T\mathbf{H}
+  \,.
+$$
+
+Now for any object $X \in \mathbf{H}$ regarded as the object 
+
+$$
+  \left[
+   \array{
+     E \times X
+     \\
+     \downarrow
+     \\
+     X
+   }
+  \right]
+  \;\;\;
+   \in
+  \;\;\;
+  T_{X}\mathbf{H} \hookrightarrow T\mathbf{H}
+$$
+
+then morphisms in $T \mathbf{H}$ from the latter to the former
+
+$$
+    \left[
+   \array{
+     E \times X
+     \\
+     \downarrow
+     \\
+     X
+   }
+  \right]
+  \longrightarrow
+  \left[
+   \array{
+     E//GL_1(E)
+     \\
+     \downarrow
+     \\
+     \mathbf{B}GL_1(E)
+   }
+  \right]
+$$
+
+are equivalently
+
+1. a choice of [[twisted cohomology|twist of E-cohomology]] $\chi \;\colon \; X  \longrightarrow \mathbf{B}GL_1(E)$;
+
+1. an element in the $\chi$-twisted $E$-cohomology of $X$, hence  $c \in E^{\bullet}(X,E)$.
+
+In particular the [[internal hom]]
+
+$$
+  \left[
+    \left[
+   \array{
+     E \times X
+     \\
+     \downarrow
+     \\
+     X
+   }
+  \right]
+  \;,\;
+  \left[
+   \array{
+     E//GL_1(E)
+     \\
+     \downarrow
+     \\
+     \mathbf{B}GL_1(E)
+   }
+  \right]
+  \right]
+  \;\;
+  \in
+  T_{[X,\mathbf{B}GL_1(E)]} \mathbf{H}
+$$
+
+is the [[twisted cohomology]]-[[spectrum]] [[graded object|graded]] by the type of twists.
+
 
 ### Cohesive and differential refinement
  {#CohesiveAndDifferentialRefinement}
@@ -84,7 +188,7 @@ $$
   \array{
     A &\stackrel{}{\longrightarrow}& A/\flat A
     \\
-    \downarrow &(pb)& \downarrow
+    \downarrow &{}^{(pb)}& \downarrow
     \\
     \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
   }
@@ -94,7 +198,7 @@ $$
 
 =--
 
-This was observed in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
+This was observed in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)). It is an incarnation of a [[fracture theorem]].
 
 +-- {: .proof}
 ###### Proof 
@@ -121,7 +225,26 @@ where both rows are [[homotopy fiber sequences]]. By [[cohesive (infinity,1)-top
 
 This means that in stable cohesion every cohesive stable homotopy type is in controled sense a cohesive extension/refinement of its [[geometric realization of cohesive infinity-groupoids|geometric realization]] [[discrete infinity-groupoid|geometrically discrete]] ("bare") stable [[homotopy type]] by the non-[[discrete object|discrete]] part of its cohesive structure;
 
-In particular, often $A/\flat A$ may be identified with differential cycle data and then this exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkel13)).
+In particular, $A/\flat A$ may be identified with differential cycle data. Indeed, by stability and cohesion it is the [flat de Rham coefficient object](structures in a cohesive infinity-topos#deRhamCohomology)
+
+
+$$
+  A/\flat A = \flat_{dR}\Sigma A
+$$
+
+of the [[suspension]] of $A$. So
+
+$$
+  \array{
+    A &\stackrel{\theta_A}{\longrightarrow}& \flat_{dR}\Sigma A
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+$$
+
+exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkel13)).
 
 =--
 
@@ -131,6 +254,10 @@ In particular, often $A/\flat A$ may be identified with differential cycle data 
 * [[twisted generalized cohomology]]
 
 ## References
+
+The idea of forming $T_\ast \mathbf{H}$ as a home for nontrivial [[stable homotopy types]] was originally suggested by [[Joyal]], see the references at _[[tangent (infinity,1)-topos]]_.
+
+Discussion of [[differential cohomology]] in $T_\ast Smooth \infty Grpd \simeq Stab(Smooth \infty Grpd)$ is in
 
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], to appear
   {#BunkeNikolausVoelkl13}
@@ -144,3 +271,5 @@ In particular, often $A/\flat A$ may be identified with differential cycle data 
 [[!redirects cohesive stable homotopy type theory]]
 
 [[!redirects tangent cohesion]]
+
+[[!redirects stable cohesion]]
