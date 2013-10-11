@@ -13,6 +13,8 @@
 * table of contents
 {: toc}
 
+This entry has some overlap with [[topological state of matter]], however unlike it, it does not include [[symmetry protected trivial order]].
+
 ## Idea
 
 Topological order is an order in quantum [[solid state physics|phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
@@ -33,7 +35,7 @@ involves  [[tensor category]], or more precisely [[n-category]], for topological
 
 ## Literature
 
-Related entries: [[TQFT]], [[quantum computing]], [[quantum Hall effect]], [[topological order]],[[modular tensor category]], [[entanglement]]
+Related entries: [[topological state of matter]], [[TQFT]], [[quantum computing]], [[quantum Hall effect]], [[modular tensor category]], [[entanglement]]
 
 #### Reviews
 
