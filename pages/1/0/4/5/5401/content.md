@@ -36,6 +36,7 @@ Entries discussing aspects of _cohesion_ include the following
 
 * [[smooth super ∞-groupoid|supergeometric cohesion]]
 
+* [[tangent cohesive (∞,1)-topos|stable cohesion]]
 
 
 category: adjective
