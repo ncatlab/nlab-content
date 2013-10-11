@@ -353,6 +353,7 @@ Other notions related to $\infty$-Lie algebroid cohomology include
 
 * [[invariant polynomial]]
 
+* [[signs in supergeometry]]
 
 ## References
 
