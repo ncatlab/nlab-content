@@ -11,7 +11,7 @@ The topological insulator in 2D exhibiting a quantum spin Hall effect has been f
 * B. Andrei Bernevig, Taylor L. Hughes, Shou-Cheng Zhang, _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science __314__, n. 5806, pp. 1757-1761, Dec 2006 [doi](http://dx.doi.org/10.1126/science.1133734)
 * Y. L. Chen et al. _Experimental Realization of a Three-Dimensional Topological Insulator, $Bi_2 Te_3$_, Science __325__, no. 5937 pp. 178-181, July 2009, [doi](http://dx.doi.org/10.1126/science.1173034)
 
-(In fact, none of the above materials have spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes those materials non trivial.)
+(In fact, none of the above materials have quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes those materials non trivial.)
 
 category: physics
 [[!redirects topological insulator]]
