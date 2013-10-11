@@ -229,6 +229,8 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 
 * [[modal homotopy type theory]]
 
+* [[stable homotopy type]]
+
 * [[differential homotopy type theory]]
 
 ## References
