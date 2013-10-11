@@ -19,12 +19,12 @@ This entry has some overlap with [[topological state of matter]], however unlike
 
 Topological order is an order in quantum [[solid state physics|phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
 and low energy (ie at macroscopic level), topological order is 
-defined by [[topological degeneracy]] of the ground states and the [[non-Abelian geometric phases]] obtained by deforming the degenerate ground states. The low energy effective theory of a
+defined by [topological degeneracy](http://en.wikipedia.org/wiki/Topological_degeneracy) of the ground states and the [non-Abelian geometric phases](http://ngs-11.physics.buffalo.edu/rashba/p2111_1.pdf) obtained by deforming the degenerate ground states. The low energy effective theory of a
 topologically ordered state is
  a [[topological quantum field theory]]. It has many universal properties that are (by definition) invariant under any small smooth deformations of space-time (or any small deformation of Hamiltonian). The excitations in a topologically ordered state typically have fractional or non-Abelian statistics (for most topological orders in 2+1D).
-At microscopic level, topological order corresponds to patterns of [[long-range entanglement]] in the ground state defined by the [[local unitary transformations]].
+At microscopic level, topological order corresponds to patterns of [long-range entanglement](http://arxiv.org/abs/1004.3835) in the ground state defined by the [local unitary transformations](http://arxiv.org/abs/1004.3835).
 
-Examples: [[quantum Hall effect]], [[non-Abelian quantum Hall state]], [[chiral spin liquid]], [[Z2 spin liquid]]
+Examples: [[quantum Hall effect]], [non-Abelian quantum Hall state](http://en.wikipedia.org/wiki/Anyon#Non-abelian_anyons), [chiral spin liquid](http://en.wikipedia.org/wiki/Topological_order#Chiral_spin_states), [Z2 spin liquid](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states)
 
 * applications in [[topological quantum computing]], study of [[entanglement]], classification of gapped quantum phases, etc. 
 
