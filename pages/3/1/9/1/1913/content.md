@@ -263,9 +263,15 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[integration of differential forms]]
 
-* [[de Rham cohomology]]
-
 * [[horizontal differential form]]
+
+* [[differential form on a supermanifold]]
+
+* [[Kähler differential form]]
+
+* [[de Rham complex]], [[de Rham cohomology]]
+
+* [[differential cohomology]]
 
 ## References
 
@@ -376,4 +382,3 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects differential 4-forms]]
 [[!redirects smooth differential 4-form]]
 [[!redirects smooth differential 4-forms]]
-
