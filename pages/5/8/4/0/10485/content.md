@@ -20,8 +20,9 @@
 1. distinct SPT states with a given symmetry cannot be smoothly deformed into each other without a [[phase transition]], if the deformation preserves the symmetry.
 1. however, they all can be smoothly deformed into the same trivial product state without a phase transition, if the symmetry is broken during the deformation.
 
-Using the notion of [[topological order]], we can say that SPT states are states with trivial [[topological order]] and a symmetry.
 Using the notion of quantum entanglement, we can say that SPT states are short-range [[entanglement|entangled states]] with a symmetry.  
+Using the notion of [[topological order]], we can say that SPT states are symmetric states with trivial [[topological order]].
+
 
 ## Examples of SPT order
 
@@ -29,13 +30,13 @@ The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT
 
 ## Group cohomology theory for SPT phases
 
-Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with on-site symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$. It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
+Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: **d+1D SPT states with on-site symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.** It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
 
 So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
 
 ## SPT phases in free fermion systems
 
-Free fermion system can also have non-trivial SPT phases, such as topological insulators and topological superconductors. Those free fermion SPT phases are classified by K-theory.
+Free fermion system can also have non-trivial SPT phases, such as [[topological insulator]]s and topological superconductors. Those free fermion SPT phases are classified by K-theory.
 
 ## Literature
 
