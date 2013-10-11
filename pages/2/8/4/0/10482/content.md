@@ -22,7 +22,9 @@ Discussion of [[superalgebra]] and [[supergeometry]] involves, by definition, cr
 ### Differential forms on supermanifolds
  {#DifferentialFormsOnSupermanifolds}
 
-We discuss the sign rules for the [[de Rham complex]] of [[differential forms]] on a [[supermanifold]]. (See also [Deligne-Freed 99, section 6](#DeligneFreed99))
+We discuss the sign rules for the [[de Rham complex]] of [[differential forms]] on a [[supermanifold]]. 
+
+Here and in all of the following we adopt the perpective that [[homological algebra]] in [[superalgebra]] is concerned with the study of [[chain complexes]] [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]]. This means that there are two contributions to the sign when exchanging two terms, one from the cohomological grading, one from the super-grading. This is "the sign rule" also used in  ([Deligne-Freed 99, section 6](#DeligneFreed99)). There is however also a different sign rule use in the literature. spring
 
 For $p,q \in \mathbb{N}$, let $\mathbb{R}^{p|q}$ the [[super Cartesian space]] of [[dimension]] $(p|q)$. This is the [[supermanifold]] defined by the fact that its [[algebra of functions]] is freely generated, as a [[smooth superalgebra]] by even-graded [[coordinate]]-functions $\langle \{x^a\}_{1}^p$ and odd-graded coordinate function $\{ \theta^\alpha\}_{\alpha= 1}^q$
 
@@ -174,7 +176,9 @@ $$
 
 ### Cohomology of super Minkowski spacetime
 
-We discuss the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]], regarded as a [[super translation Lie algebra]], equivalently as the [[quotient]] of the [[quotient]] of the 
+The above signs rules for [[differential forms on supermanifolds]] directly translate to the signs rule for [[super Lie algebra]] [[Lie algebra cohomology]], by the identification of elements in the [[Chevalley-Eilenberg algebra]] with the [[left invariant differential forms]] on the corresponding [[super Lie group]].
+
+We discuss now the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]], regarded as a [[super translation Lie algebra]], equivalently as the [[quotient]] of the [[quotient]] of the 
 [[super Poincaré Lie algebra]] by the [[Lorentz Lie algebra]].
 
 This is the sub-algebra of the [above](#DifferentialFormsOnSupermanifolds) de Rham complex of the [[left invariant differential forms]]:
@@ -358,6 +362,112 @@ $$
 $$
 
 (...)
+
+### The super odd sign convention
+
+In all of the above we used the sign rule induced by setting up all mathematical concepts [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] or [[internalization|internal]] the [[topos]] over [[superpoints]].
+
+There is another sign convention in the literature, for instance in ([](#Fuchs)). In this convention one considers the map
+
+$$
+  (()+())_{mod\, 2}
+  \;\colon\;
+  \mathbb{Z} \times \mathbb{Z}_2
+  \longrightarrow
+  \mathbb{Z}_2
+$$
+
+to induce a single $\mathbb{Z}_2$-grading and then lets all signs be induced by that. 
+
+This can motivated from regarding the $\mathbb{Z}_2$-graded [[de Rham complex]] of a [[supermanifold]] as the [[algebra of functions]] on its odd-shifted tangent bundle
+
+$$
+  \Omega^\bullet(X) \simeq_{\mathbb{Z}_2} C^\infty(T[1]X)
+  \,.
+$$
+
+In this convention a term such as $\mathbf{d}\theta^\alpha$ of bidegree $(1,1)$ has single degree $0$ and hence _commutes with every other term_.
+
+### Differential forms on a supermanifold in the super odd convention
+ {#DifferentialFormsInSuperOddConvention}
+
+In this other convention the signs in the [[de Rham complex]] of the [[super Cartesian space]] $\mathbb{R}^{p|q}$ are induced as follows:
+
+
+$$
+  x^{a_1} x^{a_2} = + x^{a_2} x^{a_1}
+$$
+
+$$
+  x^a \theta^\alpha = + \theta^\alpha x^a
+$$
+
+$$
+  \theta^{\alpha_1} \theta^{\alpha_2}
+  =
+  +
+  \theta^{\alpha_2} \theta^{\alpha_1}
+$$
+
+
+$$
+  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
+$$
+
+
+$$
+  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
+$$
+
+$$
+  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
+   = 
+   + (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
+$$
+
+$$
+  \mathbf{d}x^{a_1}
+  \wedge
+  \mathbf{d} x^{a_2}
+  =
+  -
+  \mathbf{d} x^{a_2}
+  \wedge
+  \mathbf{d} x^{a_1}
+$$
+
+
+$$
+  \mathbf{d}x^a
+  \wedge
+  \mathbf{d} \theta^{\alpha}
+  =
+  +
+  \mathbf{d}\theta^{\alpha}
+  \wedge
+  \mathbf{d} x^a
+$$
+
+$$
+  \mathbf{d}\theta^{\alpha_1}
+  \wedge
+  \mathbf{d} \theta^{\alpha_2}
+  =
+  +
+  \mathbf{d}\theta^{\alpha_2}
+  \wedge
+  \mathbf{d} \theta^{\alpha_1}
+$$
+
+### Equivalence of super Lie algebra cohomology in both conventions
+
+The different choice of signs in the de Rham complex
+[above](#DifferentialFormsInSuperOddConvention) affects those
+of any super-[[Chevalley-Eilenberg algebra]], by the identification of elements in the CE-algebra with [[left invariant differential forms]] on the supegroup.
+
+We show that as [[chain complexes]] the two CE-algebras are [[quasi-isomorphism|quasi-isomorphic]] and hence do have the same [[cochain cohomology]], hence that the definition of super-[[Lie algebra cohomology]] is not affected by the different perspective on signs.
+
+
 ## References
 
 
