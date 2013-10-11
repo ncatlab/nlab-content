@@ -13,7 +13,7 @@
 * table of contents
 {: toc}
 
-This entry has some overlap with [[topological state of matter]], however unlike it, it does not include [[symmetry protected trivial order]].
+This entry has some overlap with [[topological state of matter]], however unlike that entry, this entry does not include [[symmetry protected trivial order]], since [[symmetry protected trivial order]] contain no topological order by definition.
 
 ## Idea
 
@@ -58,6 +58,7 @@ Int. J. Mod. Phys. B7, 4227 (1993).
 * [[Xiao-Gang Wen]], _Mean Field Theory of Spin Liquid States with Finite Energy Gap and Topological orders_, Phys. Rev. B 44 2664 (1991). (on $Z_2$ topological order)
 * [[Xiao-Gang Wen]], [Non-Abelian Statistics in the FQH states](http://dao.mit.edu/~wen/pub/nab.pdf)
 Phys. Rev. Lett. 66, 802 (1991). 
+* Moore, Gregory; Read, Nicholas . _Nonabelions in the fractional quantum hall effect_  Nuclear Physics B 360 (2&#8211;3): 362 (1991).
 * [[Xiao-Gang Wen]] and Yong-Shi Wu, [_Chiral operator product algebra hidden in certain FQH states_](http://dao.mit.edu/~wen/pub/nabdw.pdf)
 Nucl. Phys. B419, 455 (1994). 
 * Alexei Yu. Kitaev, _Fault-tolerant quantum computation by anyons_, Annals of Physics __303__:1, January 2003; _Anyons in an exactly solved model and beyond_, Annals of Physics __321__:1, January 2006
@@ -80,7 +81,6 @@ Nucl. Phys. B419, 455 (1994).
 
 * seminar in Koeln [Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)
 * Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
-* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874) (This is about trivial topological order with symmetry, or [[symmetry protected trivial order]])
 
 * CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
 
