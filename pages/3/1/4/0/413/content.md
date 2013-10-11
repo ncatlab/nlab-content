@@ -1,3 +1,4 @@
+[[!redirects superdifferential form]]
 <div class="rightHandSide toc">
 [[!include supergeometry - contents]]
 </div>
