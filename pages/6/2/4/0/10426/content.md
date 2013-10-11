@@ -45,6 +45,9 @@ Traditionally the [[types]] in geometric homotopy type theory, hence the _geomet
 
 * [[directed homotopy type theory]]
 
+* [[stable homotopy type]]
+
+
 [[!redirects geometric homotopy type theories]]
 
 [[!redirects geometric homotopy type]]
