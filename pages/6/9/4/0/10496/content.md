@@ -46,9 +46,9 @@ Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond
 
 #### Early discovery articles
 
-* [[Xiao-Gang Wen]], _Vacuum Degeneracy of Chiral Spin State in Compactified Spaces_, Phys. Rev. B, 40, 7387 (1989), 
-* [[Xiao-Gang Wen]], _Topological Orders in Rigid States_, Int. J. Mod. Phys. B4, 239 (1990)
-* [[Xiao-Gang Wen]] and Qian Niu,  _Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_, Phys. Rev. B41, 9377 (1990)
+* [[Xiao-Gang Wen]], [_Vacuum Degeneracy of Chiral Spin State in Compactified Spaces_](http://dao.mit.edu/~wen/pub/dgn.pdf), Phys. Rev. B, 40, 7387 (1989), 
+* [[Xiao-Gang Wen]], [_Topological Orders in Rigid States_](http://dao.mit.edu/~wen/pub/topo.pdf), Int. J. Mod. Phys. B4, 239 (1990)
+* [[Xiao-Gang Wen]] and Qian Niu,  [_Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_](http://dao.mit.edu/~wen/pub/topWN.pdf), Phys. Rev. B41, 9377 (1990)
 * E. Keski-Vakkuri and [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
 Int. J. Mod. Phys. B7, 4227 (1993). 
 
