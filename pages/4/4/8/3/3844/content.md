@@ -244,6 +244,10 @@ A discussion of [[E-∞ algebra]]-structures in terms of $(\infty,1)$-algebraic 
 * [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
 {#Cranch}
 
+See also
+
+* [MO discussion](http://mathoverflow.net/questions/118500/what-is-a-simplicial-commutative-ring-from-the-point-of-view-of-homotopy-theory)
+
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
 [[!redirects (∞,1)-algebraic theories]]
