@@ -14,14 +14,12 @@
 
 ## Idea
 
- A phase of matter which is, at long distance
-and low energy, described by a [[topological quantum field theory]]; typically invariant under small smooth deformations of space-time. The ground state is typically degenerate (for reasonably nontrivial theories).
+We include here a phase of matter which is, at long distance
+and low energy, described by a [[topological quantum field theory]] (invariant under small smooth deformations of space-time) as well as the phases related to [[symmetry protected trivial order]]s. For the first see [[topological order]]. The ground state is typically degenerate (for reasonably nontrivial theories).
 
-Examples: [[quantum Hall effect]], [[topological insulator]], [[quantum spin Hall effect]]
+Examples of topological states of matter: [[quantum Hall effect]], [[topological insulator]], [[quantum spin Hall effect]]
 
 * applications in [[graphene]], [[topological quantum computing]], study of [[entanglement]] etc. 
-
-Warning: some (but not all) of the above correspond to what is technically called [[topological order]]
 
 Involves study of symmetry breaking, tensor categories, K-theory classification
 
