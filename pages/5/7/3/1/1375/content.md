@@ -126,6 +126,8 @@ For $C = Top$, $Stab(C)$ is the $(\infty,1)$-category version of the classical s
 
 [[!include k-monoidal table]]
 
+* [[stable homotopy type]]
+
 ## References
 
 section 8 of
