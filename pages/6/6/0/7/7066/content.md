@@ -1,21 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometric quantization
-+--{: .hide}
++-- {: .hide}
 [[!include geometric quantization - contents]]
 =--
 #### Symplectic geometry
-+--{: .hide}
++-- {: .hide}
 [[!include symplectic geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
+## Disambiguation
+
+This is polarization of [[phase space]] (or any [[symplectic manifold]]) into [[canonical coordinates]] and [[canonical momenta]]. Distinguish the _[[polarization identity]]_ (such as in an [[inner product space]] or a [[Jordan algebra]]) or _[[wave polarization]]_ (such as polarized [[light]]).
 
 ## Idea
 
