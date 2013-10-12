@@ -40,7 +40,7 @@ In general, being steady may be regarded as an "incoherent approximation" to con
 
 ## Steady endomaps
 
-While an arbitrary steady function is not very coherent, a steady endofunction $f:A\to A$ has some extra degree of "coherence", as witnessed by the following results of [(KECA)](#KECA).
+While an arbitrary steady function is not very coherent, a steady [[endofunction]] $f:A\to A$ has some extra degree of "coherence", as witnessed by the following results of [(KECA)](#KECA).
 
 +-- {: .un_lemma}
 ###### Lemma
