@@ -239,3 +239,5 @@ For the applications of derived categories in [[algebraic geometry]], see
 * [[Andrei Caldararu]], _Derived categories of coherent sheaves: a skimming_.  Lecture notes from _Algebraic Geometry: Presentations by Young Researchers_ in Snowbird, Utah, July 2004.  Available on [arXiv](http://arxiv.org/abs/math/0501094).
 
 [[!redirects derived categories]]
+[[!redirects bounded derived category]]
+[[!redirects bounded derived categories]]
