@@ -1,17 +1,34 @@
 
-There are different meanings of _operator_:
+# Operators
+* table of contents
+{: toc}
 
-* In [[functional analysis]], an operator is a [[linear operator]], or more generally (by abstraction) an element of any [[operator algebra]].
+## Disambiguation
 
-* In [[higher type theory]], an operator is a [[function]] from a [[function set]] to itself:
-  $$ O\colon Y^X \to Y^X , \quad O \in (Y^X)^{Y^X} = Y^{X \times Y^X} .$$
-
-* More?
-
-The connection between these two may be found in the origins of the term 'functional analysis'; if $H$ is a [[vector space]] whose elements are functions ($H \subseteq Y^X$, more particularly $H \subseteq \mathbb{R}^{\mathbb{R}}$), then a linear operator on $H$ (an operator in the first sense) is a [[partial function|partially defined]] operator in the second sense.
+This is about operators in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For operators in the sense of [[functional analysis]], see _[[linear operator]]_.  For the relation between these, see under Examples below.
 
 
-category: disambiguation
+## Definition
+
+In a [[type theory]] with [[function types]], given a [[type]] $X$, an __operator__ of base type $X$ is a [[term]] of type $(X^X)^{X^X}$ aka $(X \to X) \to (X \to X)$.  This should be distinguished from a [[functional]], which is a term of type $X^{X^X}$ aka $(X \to X) \to X$, and a [[endofunction|function]], which (in this context) is a term of type $X^X$ aka $X \to X$.
+
+More generally, any term whose type has the form $(A^B)^{C^D}$ aka $(D \to C) \to (B \to A)$ may be called an operator, although usually not if any of these types is very trivial (since any type has this form, up to equivalence, if $B,C,D \coloneqq 1$).
+
+Although one typically interprets type theory within [[set theory]] so that operations between types become [[functions]], one may also use [[partial functions]], which is necessary for the connection to [[linear operators]] in [[functional analysis]].
+
+
+## Examples
+
+The [[Church numeral]]s are operators in the (possibly typed) [[lambda-calculus]]:
+
+* $0 \coloneqq (f \mapsto (x \mapsto x))$,
+* $1 \coloneqq (f \mapsto (x \mapsto f x))$,
+* $2 \coloneqq (f \mapsto (x \mapsto f f x))$,
+* etc.
+
+
+If we interpret $X$ as the [[real line]], then $X^X$ consists of real-valued maps of a real variable, which form a [[vector space]].  The [[partial function|partially defined]] [[linear maps]] from $X^X$ to itself are the original [[linear operators]].  In [[functional analysis]], we now replace $X^X$ with an arbitrary [[topological vector space]] $V$ (originally but no longer necessarily taken to be a [[vector subspace|subspace]] of $X^X$) and consider partial linear maps from $V$ to itself instead; so these linear operators are actually functions (meaning [[endofunctions]]) in a type-theoretic sense.  In [[operator theory]], we go further and replace $V^V$ with an arbitrary [[operator algebra]] (originally but no longer necessarily taken to be a [[subalgebra]] of $V^V$); so these operators are unstructured terms in a type-theoretic sense.
+
 
 [[!redirects operator]]
 [[!redirects operators]]
