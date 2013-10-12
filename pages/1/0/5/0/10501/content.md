@@ -40,16 +40,17 @@ of [[triangulated categories]].
 
 See [(SGA 6, Exp. I)](#SGA6).
 
-## Facts
+## Derived equivalence
 
-The bounded derived category of coherent sheaves $D^b(Coh(O_X))$ is an important invariant of $X$.  
+The bounded derived category of coherent sheaves $D^b(Coh(O_X))$ is usually called simply the **derived category of $X$** and denoted $D(X)$.  It is an important invariant of $X$, which has been studied extensively by [[Mukai]], [[Bondal]]-[[Orlov]], and others.  There are several geometrically interesting examples of non-isomorphic [[varieties]] $X$ and $Y$ with $D(X) \simeq D(Y)$; for example, the derived category of an [[abelian variety]] $X$ is equivalent to the derived category of its dual $\hat{X}$.  In such cases one often says that $X$ and $Y$ are **derived equivalent**.  However, the derived category is not a weak invariant of $X$, indeed in some cases it is as strong as isomorphism; see [[Bondal-Orlov reconstruction theorem]].  In fact, the construction $X \mapsto D(X)$ seems to lose just enough information so that derived equivalence becomes a geometrically interesting invariant.  See 
 
-+-- {: .num_theorem}
-###### Theorem
-Let $X$ and $Y$ be [[smooth scheme|smooth]] [[projective scheme|projective]] [[varieties]] over a [[field]] $K$.  Suppose that the [[canonical sheaf]] of $X$ is [[ample]] or anti-ample.  Then if there is a triangulated equivalence $D^b(Coh(O_X)) \simeq D^b(Coh(O_Y))$, then $X$ is isomorphic to $Y$.
-=--
+## Derived categories and cohomology
 
-See [[Bondal-Orlov reconstruction theorem]].
+Let $X$ be a smooth projective variety over a field $K$.  [[Orlov]] has proved that the derived category $D(X)$ determines the [[Chow motive]] $M(X)$ up to [[Tate twists]].  See [(Orlov, 2005)](#Orlov2005).
+
+## Derived categories and additive invariants
+
+Let $X$ be a smooth projective variety over a field $K$.  The derived category $D(X)$ determines the [[noncommutative Chow motive]] $NM(X)$ up to isomorphism.  In particular, it determines all [[additive invariants]] like [[K-theory]] and [[Hochschild homology]].  See [(Yusufzai)](#Yusufzai).
 
 ## References
 
@@ -60,6 +61,25 @@ For the [[model structure]] on $Mod(O_X)$, see [[model structure on chain comple
 
 * [[Denis-Charles Cisinski]], F. D&#233;glise, _Local and stable homologial algebra in Grothendieck abelian categories_, Homology, Homotopy and Applications, vol. 11 (1) (2009)  ([url](http://www.intlpress.com/HHA/v11/n1/a11/))
 {#CisinskiDeglise}
+
+### Bounded derived category of coherent sheaves
+
+For a summary of the results of [[Bondal]]-[[Orlov]], see
+
+* [[Aleksei Bondal]], [[Dmitri Orlov]], _Derived categories of coherent sheaves_, [arXiv](http://arxiv.org/abs/math/0206295).
+
+For a detailed survey, see
+
+* [[Dmitri Orlov]], _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys, 58 (2003), 3, 89-172, [translation](http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf).
+
+On the relationship between derived categories and Chow motives, see
+
+* [[Dmitri Orlov]], _Derived categories of coherent sheaves and motives_.
+[math.AG/0512620](http://arxiv.org/abs/math/0512620)
+
+For some discussion of the above result and the relationship between derived categories and [[additive invariants]] see
+
+* [[Adeel Khan Yusufzai]], _Perfect correspondences and Chow motives_, master's thesis, 2013.  [arXiv](http://arxiv.org/abs/1310.0249).
 
 ### Triangulated category of perfect complexes
 
@@ -73,3 +93,4 @@ For the [[model structure]] on $Mod(O_X)$, see [[model structure on chain comple
 
 [[!redirects triangulated category of sheaves]]
 [[!redirects triangulated category of perfect complexes]]
+[[!redirects bounded derived category of coherent sheaves]]
