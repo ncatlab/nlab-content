@@ -3,6 +3,7 @@ __Alexei Bondal__ (&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1081; &#1048;&#10
 * [data at ras](http://www.mi.ras.ru/staff/bondal_e.html)
 * math genealogy [page](http://genealogy.math.ndsu.nodak.edu/id.php?id=85435)
 * [[Bondal-Orlov reconstruction theorem]]
+* [[triangulated categories of sheaves]]
 
 category: people
 
