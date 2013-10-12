@@ -51,7 +51,7 @@ Similarly, we have:
 
 +-- {: .un_theorem}
 ###### Theorem
-If the type $steady(f)\coloneqq \prod_{(x,y:A+A)} (f x = f y)$ has split support for every endomap $f:A+A\to A+A$, then $A$ is an [[h-set]].
+If the type $steady(f)\coloneqq \prod_{(x,y:A+A)} (f x = f y)$ has split support for every [[endomap]] $f:A+A\to A+A$, then $A$ is an [[h-set]].
 =--
 +-- {: .proof}
 ###### Proof
