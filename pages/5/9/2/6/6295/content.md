@@ -34,7 +34,11 @@ A __JLB algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$
 * Jordan derivation: $x \bullet (y \circ z) = (x \bullet y) \circ z + x \circ (y \bullet z)$;
 * the associator identity: $(x \circ y) \circ z - x \circ (y \circ z) = ((x \bullet z) \bullet y)$;
 * the $C^*$ identity: ${\|x \circ x\|} = {\|x\|^2}$;
-* ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
+* positivity: ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
+
+This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity.  However, Halvorson claims to construct an equivalence between real JLB-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces $r = 1$, and then shortness of the Lie product follows.
+
+Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
 
 
 ## References
@@ -43,6 +47,7 @@ A careful definition is in section 1.1 of
 
 * [[Hans Halvorson]], _Maximal Beable Subalgebras of
 Quantum-Mechanical Observables_ ([pdf](http://philsci-archive.pitt.edu/65/1/beables.pdf))
+  {#Halvorson1999}
 
 A brief remark is on p. 80 of
 
@@ -50,12 +55,24 @@ A brief remark is on p. 80 of
  {#BatesWeinstein}
 
 
-
+[[!redirects Jordan-Lie-Banach algebra]]
 [[!redirects Jordan-Lie-Banach algebras]]
+[[!redirects Jordan–Lie–Banach algebra]]
+[[!redirects Jordan–Lie–Banach algebras]]
+[[!redirects Jordan--Lie--Banach algebra]]
+[[!redirects Jordan--Lie--Banach algebras]]
 [[!redirects JLB algebra]]
 [[!redirects JLB algebras]]
+[[!redirects JLB-algebra]]
+[[!redirects JLB-algebras]]
 
 [[!redirects Jordan-Lie algebra]]
 [[!redirects Jordan-Lie algebras]]
+[[!redirects Jordan–Lie algebra]]
+[[!redirects Jordan–Lie algebras]]
+[[!redirects Jordan--Lie algebra]]
+[[!redirects Jordan--Lie algebras]]
 [[!redirects JL algebra]]
 [[!redirects JL algebras]]
+[[!redirects JL-algebra]]
+[[!redirects JL-algebras]]
