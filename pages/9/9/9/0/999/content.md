@@ -132,6 +132,7 @@ One has to be careful about the following variations of the theme of compactness
 (Some of these subtleties are resolved by noticing that there is a hierarchy of notions of compact objects that are secretly different but partly go by the same name. Some discussion of this is currently at _[[compact topos]]_, but more detailed discussion should eventually be somewhere...)
 
 ### Compactness in additive categories 
+  {#CompactnessInAdditiveCategories}
 
 When $C$ is an [[additive category]] (often a [[triangulated category]]), an object $x$ in $C$ is called **compact** if for every set $S$ of objects of $C$ such that the coproduct $\coprod_{s\in S} s$ exists, the canonical map
 $$
