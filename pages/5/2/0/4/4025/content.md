@@ -1,67 +1,28 @@
 
-# Contents
-* table of content
+# Functionals
+* table of contents
 {: toc}
 
-## Idea
+## Disambiguation
 
-The term _functional_ is used in two meanings: 
-
-* either a $k$-valued, usually linear, [[function]] on a $k$-[[vector space]] (or [[module]]), where $k$ is a [[field]] (or any [[rig]]); 
-
-  discussed below in _[In linear algebra and functional analysis](#Linear)_
-
-* or a suitably well behave [[function]] on some [[mapping space]], for instance a [[path space]] or the like
-
-  discussed below in _[Nonlinear functionals](#Nonlinear)_.
-
-Of course the two meanings may overlap.
-
-Physicists and engineers usually speak of _functions_ if the argument is a [[variable]] of [[type]] the [[real numbers]] or [[complex numbers]]; but speak of a _functional_ if the type is a [[mapping space]].
-
-Some special cases include
-
-* in linear [[functional analysis]] one most often studies continuous _linear_ functionals: linear [[function]]s on [[topological vector space]]s. This includes for instance [[distribution]]s.
-
-* in [[variational calculus]] one studies functions on spaces of [[sections]] of [[jet bundles]]. For example, they appear in [[physics]] as [[action functionals]].
- 
-* various discretised versions are interesting in finite geometries as well as numerical analysis
+This is about functionals in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For functionals in the sense of [[functional analysis]], see [[linear functional]]. For the relation between these, see under Examples below.
 
 
-## In linear algebra and functional analysis
- {#Linear}
+## Definition
 
-### Definition
+In a [[type theory]] with [[function types]], given a [[type]] $X$, a __functional__ of base type $X$ is a [[term]] of type $X^{X^X}$ aka $(X \to X) \to X$.  This should be distinguished from (on the one hand) an [[operator]], which is a term of type $(X^X)^{X^X}$ aka $(X \to X) \to (X \to X)$, and (on the other hand) a [[endofunction|function]], which (in this context) is a term of type $X^X$ aka $X \to X$.
 
-A **functional** is a [[function]] $V \to k$ from a [[vector space]] to the [[ground field]] $k$.  A __linear functional__ is a [[linear map|linear]] such function, that is a [[morphism]] $V \to k$ in $k$-[[Vect]].  In the case that $V$ is a [[topological vector space]], a __continuous linear functional__ is a [[continuous map|continuous]] such map (and so a morphism in the category [[TVS]]).  When $V$ is a [[Banach space]], we speak of __[[bounded operator|bounded]] linear functionals__, which are the same as the continuous ones.
+More generally, any term whose type has the form $A^{B^C}$ aka $(C \to B) \to A$ may be called a functional, although usually not if any of these types is very trivial (since any type has this form, up to equivalence, if $B,C \coloneqq 1$).
 
-
-### Remarks
-
-In a sense, linear functionals are co-probes for vector spaces. If the vector space $V$ in question has finite [[dimension]] and is equipped with a [[basis]], then all linear functionals are [[linear combinations]] of the [[coordinate projection]]s. These projections are known as the _[[dual basis]]_.
-
-In infinite-dimensional [[topological vector spaces]], the notion of dual basis breaks down once spaces more general than [[Hilbert spaces]] are considered. But for [[locally convex spaces]], the [[Hahn–Banach theorem]] ensures the existence of 'enough' continuous linear functionals.  Among non-LCSes, however, there are examples such that the only continuous linear functional is the constant map onto $0 \in k$.
+Although one typically interprets type theory within [[set theory]] so that operations between types become [[functions]], one may also use [[partial functions]], which is necessary for many of the examples below.
 
 
-## Nonlinear functionals
- {#Nonlinear}
+## Examples
 
-See 
+In [[variational calculus]] one studies functions on spaces of [[sections]] of [[jet bundles]] or other [[mapping spaces]].  For example, they appear in [[physics]] as [[action functionals]].  See [[covariant phase space]] and [[path integral]] for other functionals in physics.
 
-* [[variational calculus]]
-
-* [[action functional]]
-
-* [[covariant phase space]], [[path integral]]
+If we interpret $X$ as the [[real line]], then $X^X$ consists of real-valued maps of a real variable, which form a [[vector space]].  The [[linear maps]] from $X^X$ to $X$ are the original [[linear functionals]].  In [[functional analysis]], we now replace $X^X$ with an arbitrary [[topological vector space]] $V$ (originally but no longer necessarily taken to be a [[vector subspace|subspace]] of $X^X$) and consider linear maps from $V$ to $X$ instead; so these linear functionals are actually unstructured operations in a type-theoretic sense.
 
 
 [[!redirects functional]]
 [[!redirects functionals]]
-
-[[!redirects linear functional]]
-[[!redirects linear functionals]]
-
-[[!redirects continuous linear functional]]
-[[!redirects continuous linear functionals]]
-[[!redirects bounded linear functional]]
-[[!redirects bounded linear functionals]]
