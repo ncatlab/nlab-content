@@ -3,7 +3,15 @@
 * [math-net.ru](http://www.mathnet.ru/php/person.phtml?&personid=11896&option_lang=eng) page 
 * personal page at Russian Academy: [orlov](http://www.mi.ras.ru/~orlov)
 
-Orlov is one of the pioneers of the modern emerging categorical framework which unites the commutative and [[noncommutative algebraic geometry]], via the study of [[enhanced triangulated categories]] of [[quasicoherent sheaves]]. 
+Orlov is one of the pioneers of the modern emerging categorical framework which unites the commutative and [[noncommutative algebraic geometry]], via the study of [[enhanced triangulated categories]] of [[quasicoherent sheaves]].
+
+## Related
+
+* [[triangulated categories of sheaves]]
+* [[enhanced triangulated categories]]
+* [[Bondal-Orlov reconstruction theorem]]
+
+## Publications
 
 * D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
