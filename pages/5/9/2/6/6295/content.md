@@ -1,29 +1,40 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Quantum physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A _Jordan-Lie-Banach algebra_ (or _JLB-algebra_ for short) is a [[topology|topological]] [[algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _JLB-algebra_ is a _nonassociative Poisson algebra_ with topology.
 
 JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often that outcome is regarded to be a non-commutative but associative [[C-star-algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the Lie bracket the [[commutator]]. There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra.
+
+
+## Definition
+
+A __JLB algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$ equipped with two [[short linear operator|short]] [[bilinear operators]] $(-)\circ(-)$ and $(-)\bullet(-)$, called the _Jordan product_ and the _Lie product_, satisfying the following identities:
+
+* Jordan commutativity: $x \circ y = y \circ x$;
+* Lie anticommutativity: $x \bullet x = 0$, or equivalently (given bilinearity) $x \bullet y = -y \bullet x$;
+* the Jacobi identity (Lie self-derivation): $x \bullet (y \bullet z) = (x \bullet y) \bullet z + y \bullet (x \bullet z)$, or equivalently (given anticommutativity) $x \bullet (y \bullet z) + y \bullet (z \bullet x) + z \bullet (x \bullet y) = 0$;
+* Jordan derivation: $x \bullet (y \circ z) = (x \bullet y) \circ z + x \circ (y \bullet z)$;
+* the associator identity: $(x \circ y) \circ z - x \circ (y \circ z) = ((x \bullet z) \bullet y)$;
+* the $C^*$ identity: ${\|x \circ x\|} = {\|x\|^2}$;
+* ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
 
 
 ## References
