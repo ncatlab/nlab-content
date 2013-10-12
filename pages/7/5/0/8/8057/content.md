@@ -9,12 +9,9 @@
 =--
 =--
 
-
-
 # Fixed-point combinators
 * table of contents
 {: toc}
-
 
 ## Idea 
 
@@ -47,7 +44,7 @@ one generally calls the function being defined inside of its own body.  This is 
       }
     }
 
-and then "closes the loop" by applying the fixed-point combinator.  That is, we [[currying|curry]] `genfact` to view it as an endofunction of `nat -> nat` (a "functional") and then construct its fixed point, 
+and then "closes the loop" by applying the fixed-point combinator.  That is, we [[currying|curry]] `genfact` to view it as an [[endofunction]] of `nat -> nat` (an [[operator]]) and then construct its fixed point, 
 
 $$ fact = Y(genfact). $$
 
