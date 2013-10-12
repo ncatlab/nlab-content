@@ -36,9 +36,7 @@ See [[states]].
 
 ## Related concepts
 
-* [[operator]]
-
-* [[linear operator]]
+* [[operator]], [[linear operator]]
 
 * [[bounded linear operator]] / [[unbounded linear operator]]
 
