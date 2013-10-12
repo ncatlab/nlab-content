@@ -120,3 +120,5 @@ The monoidal model structure on $\mathcal{E}^{\mathbf{B}G}$ is discussed for ins
 [[!redirects monoidal model categories]]
 [[!redirects monoidal model structure]]
 [[!redirects monoidal model structures]]
+[[!redirects symmetric monoidal model structure]]
+[[!redirects symmetric monoidal model category]]
