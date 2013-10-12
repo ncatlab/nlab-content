@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
 A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ is called **perfect** if it [[quasi-isomorphism|quasi-isomorphic]] to
 
@@ -23,7 +23,16 @@ A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ i
 
 * and [[finitely generated modules]].
 
-## Perfect complexes of sheaves of modules
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+Let $A$ be a [[commutative ring]] and let $D(A)$ denote the [[derived category]] of $A$-[[modules]].  A [[chain complex]] $M_\bullet$ of $A$-modules is perfect if and only if it is a [[compact object#CompactnessInAdditiveCategories|compact object]] of $D(A)$.
+=--
+
+See [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
+
+## Perfect complexes on a ringed space
 
 Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] $F$ of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
 
