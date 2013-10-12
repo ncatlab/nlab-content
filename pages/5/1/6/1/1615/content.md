@@ -76,7 +76,7 @@ The [[local quantum field theory|locality]] [[axiom]] encodes the the physical p
 +-- {: .num_remark}
 ###### Remark
 
-Many _auxiliary_ [[operators]] in [[quantum field theory]] do _not_ satisfy causal locality: for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
+Many _auxiliary_ [[linear operator|operators]] in [[quantum field theory]] do _not_ satisfy causal locality: for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
 
 =--
 
