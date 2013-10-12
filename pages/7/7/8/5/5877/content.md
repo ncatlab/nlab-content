@@ -44,7 +44,7 @@ In fact, in older literature the [[filtered category|filtered diagrams]] of spac
 
 ### In linear algebra
 
-In [[linear algebra]] an [[idempotent]] linear [[operator]] $P:V\to V$ is called a projection onto its [[image]]. See at _[[projector]]_. 
+In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called a projection onto its [[image]]. See at _[[projector]]_. 
 
   In [[functional analysis]], one sometimes requires additionally that this idempotent is in fact [[self-adjoint operator|self-adjoint]]; or one can use the slightly different terminology _[[projection operator]]_. 
 
