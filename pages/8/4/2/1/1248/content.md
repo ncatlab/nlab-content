@@ -14,7 +14,7 @@ Cantor\'s theorem should not be confused with the Cantor--Schroeder--Bernstein t
 
 ## History
 
-Prior to Cantor, people tended to think of infinity (whether they believed in it or not) as an absolute concept: all infinities are equivalent.  It had been noticed (by [[Galileo Galilei|Galileo]], for example) that it\'s possible to give an [[infinite set]] a self-[[injection]] that is not a [[surjection]]; for example, the inclusion of the even integers into the integers by doubling.  Thus here are two infinities ---the infinity $E$ of even integers and the infinity $N$ of all integers--- that are actually equivalent, even though at first glance it would appear that $E$ is smaller.
+Prior to Cantor, people tended to think of infinity (whether they believed in it or not) as an absolute concept: all infinities are equivalent.  It had been noticed (by [[Galileo Galilei|Galileo]], for example) that it\'s possible to give an [[infinite set]] a [[self-function|self]]-[[injection]] that is not a [[surjection]]; for example, the inclusion of the even integers into the integers by doubling.  Thus here are two infinities ---the infinity $E$ of even integers and the infinity $N$ of all integers--- that are actually equivalent, even though at first glance it would appear that $E$ is smaller.
 
 Cantor showed that such an equivalence *fails* with the [[real numbers]] $R$: no map from $N$ to $R$ can be surjective (so that $R$ is [[uncountable set|uncountable]]).  His first argument was ad hoc, but he then generalised this with the _diagonal argument_ to show that no map from any set $S$ to its [[power set]] $\mathcal{P}S$ could be surjective.  (This covered the uncountability of $R$, since Cantor found a [[bijection]] between $R$ and $\mathcal{P}N$.)  As there is an obvious injective map (the [[singleton]] map) from $S$ to $\mathcal{P}S$, Cantor concluded that the cardinality of the one is strictly smaller than the cardinality of the other.
 
@@ -47,7 +47,7 @@ so $g(a)$ is a fixed point of $n$.
 
 The presence of the diagonal map $\Delta_S$ here explains why this proof is called the _diagonal argument_.  (This explanation is anachronistic but morally correct.) Lawvere's proof also explains (in fact generalizes) the $Y$&#8209; or [[fixed-point combinator]] in [[untyped lambda-calculus]], where $Y(n)$ is a fixed-point for any term $n$. 
 
-It immediately follows (even constructively) that if $V$ has a self-mapping with no fixed point, then no map from $S$ to $S \to V$ can be a surjection.  In fact, we have something slightly stronger than (but classically equivalent to) the failure of $f$ to be a surjection: there actually exists an element $g$ of $S \to V$ that is not equal to any value in the range of $f$.  (If $V$ has an [[apartness relation]], then you can get an even stronger result for a correspondingly stronger hypothesis on $n$, but that doesn\'t apply to the versions below.)
+It immediately follows (even constructively) that if $V$ has a [[self-mapping]] with no fixed point, then no map from $S$ to $S \to V$ can be a surjection.  In fact, we have something slightly stronger than (but classically equivalent to) the failure of $f$ to be a surjection: there actually exists an element $g$ of $S \to V$ that is not equal to any value in the range of $f$.  (If $V$ has an [[apartness relation]], then you can get an even stronger result for a correspondingly stronger hypothesis on $n$, but that doesn\'t apply to the versions below.)
 
 +-- {: .num_theorem #cantor}
 ###### Theorem
