@@ -40,6 +40,13 @@ That is, we may recover $m$ from $Q$ (in any of these ways).  Regardless of the 
 We can go the other direction: given a quadratic operator $Q$, if $2$ is invertible, then any polarization identity defines a symmetric bilinear operator $m$; these all agree if $Q$ obeys the parallelogram law, and then $Q$ may be recovered from this $m$ once more.
 
 
+## Examples
+
+This is best known in the case of bilinear and quadratic *forms*, where $W$ is the [[ground ring]] $R$.  Here, $m$ is an [[inner product]], making $V$ into an [[inner product space]], and $Q$ is (the square of) the norm, making $V$ into a [[normed space]].
+
+This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative, although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]]; although the Jordan identity is simpler to express in terms of the multiplication operator (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operator.
+
+
 [[!redirects polarization identity]]
 [[!redirects polarization identities]]
 [[!redirects polarisation identity]]
