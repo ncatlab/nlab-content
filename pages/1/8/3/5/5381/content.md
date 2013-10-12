@@ -34,29 +34,17 @@ See [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
 
 ## Perfect complexes on a ringed space
 
-Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] $F$ of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
+Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
 
-Let $D(X)$ be the [[derived category]] of $\mathcal{O}_X$-modules.  The [[full subcategory]] $D(X)_perf \subset D(X)$ of perfect complexes is [[triangulated category|triangulated]], and stable under derived inverse image and derived tensor product.  Further there is an inclusion
-  $$D(X)_perf \subset D(X)_coh$$
-where $D(X)_coh \subset D(X)$ is the full subcategory of complexes with [[coherent sheaf|coherent]] [[cohomology]].  When $X$ is [[regular scheme|regular]], there is further an equality $D(X)_perf = D(X)_coh$.  Since the latter is equivalent to the the [[derived category of coherent sheaves]], there is an equivalence
-$$D(X)_perf \stackrel{\sim}{\to} D(Coh(X))$$
-when $X$ is [[regular scheme|regular]].
+Let $D(Mod(\mathcal{O}_X))$ be the [[derived category]] of $\mathcal{O}_X$-modules.  Let $Pf(X) \subset D(Mod(\mathcal{O}_X))$ denote the [[full subcategory]] of perfect complexes.
+This is a [[triangulated category|triangulated subcategory]], see [[triangulated categories of sheaves]].
 
 ## References
 
-For perfect complexes of sheaves see
-
-* [[SGA]] VI, Exp. I.
-
-* [[Luc Illusie]]. _Le complexe cotangent I et II_, Lecture Notes in Math. 239, 283, Springer-Verlag, Berlin (1971,1972).
-
-* [[R. Thomason]], T. Trobaugh. _Higher algebraic K-theory of schemes and of derived categories_. The Grothendieck Festschrift, Vol. III Birkh&#168;auser, Boston (1990), 247-436.
-
-* [[Andre Hirschowitz]], [[Carlos Simpson]].  _Descente pour les n-champs_, [arXiv:math/9807049](http://arxiv.org/abs/math/9807049)
-
-* [[Stacks Project]], [tag 08CL](http://stacks.math.columbia.edu/tag/08CL)
+For perfect complexes of sheaves see the references at [[triangulated categories of sheaves]].
 
 [[!redirects perfect complex]]
 
 [[!redirects perfect complexes]]
 [[!redirects perfect chain complexes]]
+[[!redirects perfect complex of sheaves]]
