@@ -131,12 +131,12 @@ From this we can completely classify all complex Clifford algebras, i.e. $Cl(V,Q
 ###### Theorem
 If $V$ is a complex vector space with $\dim(V) = 2m$, then $\mathbb{C}l(V) \cong End(S)$ for $\dim(S) = 2^{m-1}|2^{m-1}$ as graded algebras. 
 
-If $V$ is a complex vector space with $\dim(V) = 2m+1$, then $\mathbb{C}l(V) \cong \mathbb{C}l(V)^+ \otimes D$, where $D = \mathbb{C}[\epsilon]$ with $\epsilon^2 = 1$. Moreover, $\mathbb{C}l(V)^+ \cong End(S_0)$ where $\dim(S_0) = 2^m$.
+If $V$ is a complex vector space with $\dim(V) = 2m+1$, then $\mathbb{C}l(V) \cong \mathbb{C}l(V)^+ \otimes D$, where $D = \mathbb{C}[\epsilon] \cong \mathbb{C}l(\mathbb{C}^1)$ with $\epsilon^2 = 1$. Moreover, $\mathbb{C}l(V)^+ \cong End(S_0)$ where $\dim(S_0) = 2^m$.
 =-- 
 
 +-- {: .proof}
 ###### Proof
-We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ defines an isomorphism.
+We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ defines an isomorphism of [[superalgebras]]. By induction we then have $\mathbb{C}l(\mathbb{C}^{2m}) \cong \mathbb{C}l(\mathbb{C}^{2m-2}) \otimes \mathbb{C}l(\mathbb{C}^{2})$.
 =--
 
 (...)
