@@ -39,7 +39,7 @@ and then form
 
 1. a [[Hilbert space]] of [[states]] as the space of [[sections]] of the [[associated bundle|associated]] [[line bundle]] which depend only on the "coordinates" (not on the "momenta");
 
-1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- an [[operator]] on this Hilbert space.
+1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- a [[linear operator]] on this Hilbert space.
 
 ### History and variants
 
