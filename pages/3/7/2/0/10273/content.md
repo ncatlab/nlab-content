@@ -134,6 +134,11 @@ If $V$ is a complex vector space with $\dim(V) = 2m$, then $\mathbb{C}l(V) \cong
 If $V$ is a complex vector space with $\dim(V) = 2m+1$, then $\mathbb{C}l(V) \cong \mathbb{C}l(V)^+ \otimes D$, where $D = \mathbb{C}[\epsilon]$ with $\epsilon^2 = 1$. Moreover, $\mathbb{C}l(V)^+ \cong End(S_0)$ where $\dim(S_0) = 2^m$.
 =-- 
 
++-- {: .proof}
+###### Proof
+We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$ defines an isomorphism.
+=--
+
 (...)
 
 ### Summary
@@ -203,6 +208,7 @@ This allows to form the [[super Poincaré Lie algebra]] in each of these cases. 
 
 ## **4)** Super Poincar&#233; group and super Minkowski spacetime
  {#SuperMinkowskiSpacetime}
+
 
 ### Summary
 
