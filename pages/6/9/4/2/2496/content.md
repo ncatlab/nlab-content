@@ -15,11 +15,9 @@
 
 ## Idea
 
-A _higher-order logic_ is any [[logic]] which features _higher-order predicates_, which are [[predicates]] of predicates or of operations.  
+A _higher-order logic_ is any [[logic]] which features _higher-order predicates_, which are [[predicates]] of predicates or of operations.  If we think of a predicate as a [[function]] to [[truth values]], then a higher-order predicate is a function on a [[power set]] or a [[function set]].
 
-If we think of a predicate as a [[function]] to [[truth values]], then a higher-order predicate is a function on a [[power set]] or a [[function set]].
-
-Higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
+[[type theory|Typed]] higher-order logic may be called higher-order type theory.  Typed higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
 
 
 ## Related concepts
@@ -35,6 +33,10 @@ Higher-order [[intuitionistic logic]] is often identified with the [[internal lo
 
 [[!redirects higher-order logic]]
 [[!redirects higher order logic]]
+
+[[!redirects higher-order type theory]]
+[[!redirects higher order type theory]]
+
 [[!redirects higher-order proposition]]
 [[!redirects higher-order propositions]]
 [[!redirects higher order proposition]]
