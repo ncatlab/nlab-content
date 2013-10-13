@@ -19,9 +19,9 @@
 
 ## Idea
 
-In [[physics]] the dynamics of a system may be encoded by a [[functional]] -- called the **action functional** on its [[configuration space]]:
+In [[physics]] the [[dynamics]] of a [[physical system]] may be encoded by a [[nonlinear functional]] -- called the **action functional** -- on its [[configuration space]]:
 
-* in [[classical mechanics]] and [[classical field theory]] -- by the **action principle** or **principle of least action** -- the extrema of the action functional -- obtained by [[variational calculus]] and given by [[Euler-Lagrange equation]]s -- encode the physically observable configurations  ;
+* in [[classical mechanics]] and [[classical field theory]] -- by the **action principle** or **[[principle of least action]]** -- the extrema of the action functional -- obtained by [[variational calculus]] and given by [[Euler-Lagrange equation]]s -- encode the physically observable configurations  ;
 
 * in [[quantum mechanics]] and [[quantum field theory]] the evolution of the [[quantum state]]s is encoded by the integral -- the [[path integral]] -- of the exponentiated action functional over the space of field configurations.
 
