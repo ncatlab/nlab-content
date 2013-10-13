@@ -20,7 +20,7 @@
 
 ##Idea##
 
-The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf of abelian groups]] / [[abelian sheaf]] $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor.
+The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf of abelian groups]] / [[abelian sheaf]] $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor, the [[derived direct image]] functor.
 
 But by embedding sheaves with values in abelian groups as special cases of [[simplicial presheaf|simplicial sheaves]] into the more general context of [[(∞,1)-sheaves|∞-groupoid-valued sheaves]] via the [[Dold-Kan correspondence]] and thus the abelian sheaf cohomology into the more general context of the intrinsic [[nonabelian cohomology]] of an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(C)$, this definition becomes equivalent to a special case of the general notion of [[nonabelian cohomology]] defined simply as the set of homotopy classes of maps
 
@@ -256,6 +256,8 @@ $$
   * [[model structure on chain complexes]]
 
   * [[resolutions]]: [[soft sheaf]], [[fine sheaf]], [[flabby sheaf]]
+
+  * [[triangulated category of sheaves]]
 
   * [[Verdier duality]]
 
