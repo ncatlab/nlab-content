@@ -30,7 +30,11 @@ A tool of major importance in stable homotopy theory and its application to [[hi
 
 ## Related concepts
 
+* [[homotopy theory]], [[homotopy type theory]]
+
 * [[S-theory]]
+
+* [[parameterized homotopy theory]]
 
 * [[cohesive stable homotopy theory]]
 
