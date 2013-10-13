@@ -30,32 +30,41 @@ This $T \mathbf{H}$ is the $\infty$-topos of [[parameterized spectra]] in $\math
 ## Properties
 
 ### Stable extension of cohesion
+ {#StableExtensionOfCohesion}
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]].
 
 By the discussion at
-_[tangent ∞-category -- Examples -- Of an ∞-topos](tangent+%28infinity%2C1%29-category#TangentTopos)_):
-
+_[tangent ∞-category -- Examples -- Of an ∞-topos](tangent+%28infinity%2C1%29-category#TangentTopos)_ the tangent $\infty$-topos $T \mathbf{H}$ constitutes an [[extension]] of $\mathbf{H}$ by its [[stabilization]] $Stab(\mathbf{H})$:
+ 
 $$
   \array{
-    Stab(\mathbf{H})
+    && Stab(\mathbf{H})
     &
     \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
     &
-    Stab(\infty Grpd)
+    Stab(\infty Grpd) \simeq Spectra
     \\
-    \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    && \simeq && \simeq
     \\
+    && T_\ast \mathbf{H} && T_\ast \infty Grpd
+    \\
+    && \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    \\
+    \mathbf{H}
+    &\stackrel{\overset{d}{\longrightarrow}}{\underset{\Omega^\infty \circ tot}{\leftarrow}}&
     T \mathbf{H}
     &
     \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
   &
   T \infty Grpd
   \\
-  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  &&
+  {}^{\mathllap{base}}\downarrow \uparrow^{\mathrlap{0}} 
   && 
-  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  {}^{\mathllap{base}}\downarrow \uparrow^{\mathrlap{0}} 
   \\
+  &&
     \mathbf{H}
     &
     \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
@@ -64,6 +73,18 @@ $$
   }
   \,.
 $$
+
+Here
+
+* $\Omega^\infty \circ tot \;\colon\; T \mathbf{H} \longrightarrow \mathbf{H}$ assigns the _total space_ of a spectrum bundle;
+
+  its [[left adjoint]] is the [tangent complex functor](tangent+%28infinity%2C1%29-category#CotangentComplex);
+
+* $base \;\colon\; T \mathbf{H} \longrightarrow \mathbf{H}$ assigns the _base space_ of a spectrum bundle;
+
+  its [[left adjoint]] produces the 0-bundle.
+
+
 
 ### Stable homotopy types
 
