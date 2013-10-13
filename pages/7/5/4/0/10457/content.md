@@ -109,7 +109,7 @@ $$
   [A,B] = \tfrac{1}{2}(A B - B A)
 $$
 
-See also at _[Jordan algebra -- Origin in quantum physics](Jordan+algebra#OriginInQuantumPhysics)_.
+See also at _[Jordan algebra -- Origin in quantum physics](Jordan+algebra#OriginInQuantumPhysics)_. This splitting of the notion of quantization into a Lie-algebraic and a Jordan algebraic aspect is formalized in the notion of _[[Jordan-Lie-Banach algebra]]_.
 
 To understand that this makes good sense notice that this decomposition is that into [[kinematics]] and [[dynamics]] of [[quantum mechanics]]:
 
