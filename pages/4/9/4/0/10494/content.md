@@ -99,7 +99,7 @@ Where the [[(∞,1)-categorical hom-space]] in a general [[(∞,1)-topos]] const
 For consider a [[spectrum object]] $E \in T_\ast \mathbf{H}$ and write $GL_1(E) \in Grp(\mathbf{H})$ for its [[∞-group of units]]. Then the [[∞-action]] of this on $E$ is (by the discussion there) exhibited by an object 
 
 $$
-  \left[
+  \left(
    \array{
      E//GL_1(E)
      \\
@@ -107,7 +107,7 @@ $$
      \\
      \mathbf{B}GL_1(E)
    }
-  \right]
+  \right)
   \;\;\;
    \in
   \;\;\;
@@ -115,10 +115,19 @@ $$
   \,.
 $$
 
-Now for any object $X \in \mathbf{H}$ regarded as the object 
+More generally, for $Pic(E) \in \mathbf{H}$ the [[Picard ∞-groupoid]] of $E$ there is the universal [[(∞,1)-line bundle]]
 
 $$
-  \left[
+  (\widehat{Pic(E)} \to Pic(E)) \in T \mathbf{H}
+  \,.
+$$
+
+Now for any object $X \in \mathbf{H}$ we have
+
+$$
+  X \times E
+  \simeq
+  \left(
    \array{
      E \times X
      \\
@@ -126,17 +135,18 @@ $$
      \\
      X
    }
-  \right]
+  \right)
   \;\;\;
    \in
   \;\;\;
   T_{X}\mathbf{H} \hookrightarrow T\mathbf{H}
+  \,,
 $$
 
 then morphisms in $T \mathbf{H}$ from the latter to the former
 
 $$
-    \left[
+    \left(
    \array{
      E \times X
      \\
@@ -144,9 +154,9 @@ $$
      \\
      X
    }
-  \right]
+  \right)
   \longrightarrow
-  \left[
+  \left(
    \array{
      E//GL_1(E)
      \\
@@ -154,7 +164,7 @@ $$
      \\
      \mathbf{B}GL_1(E)
    }
-  \right]
+  \right)
 $$
 
 are equivalently
@@ -163,37 +173,72 @@ are equivalently
 
 1. an element in the $\chi$-twisted $E$-cohomology of $X$, hence  $c \in E^{\bullet}(X,E)$.
 
-In particular the [[internal hom]] (with respect to the relative [[smash product]]...)
+If we consider the [[internal hom]] then we can use just $X$ instead of $X \times E$:
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in \mathbf{H} \stackrel{0}{\hookrightarrow} T \mathbf{H}$ a [[geometric homotopy type]] and $E \in Stab(\mathbf{H}) \simew T_\ast \mathbf{H} \hookrightarrow T \mathbf{H}$ a [[spectrum object]], then the [[internal hom]]/[[mapping stack]]
 
 $$
-  \left[
-    \left[
-   \array{
-     E \times X
-     \\
-     \downarrow
-     \\
-     X
-   }
-  \right]
-  \;,\;
-  \left[
-   \array{
-     E//GL_1(E)
-     \\
-     \downarrow
-     \\
-     \mathbf{B}GL_1(E)
-   }
-  \right]
-  \right]
-  \;\;
-  \in
-  T_{[X,\mathbf{B}GL_1(E)]} \mathbf{H}
+  [X,E]_{T \mathbf{H}} \in T \mathbf{H}
 $$
 
-is the [[twisted cohomology]]-[[spectrum]] [[graded object|graded]] by the type of twists.
+(with respect to the Cartesian [[closed monoidal (∞,1)-category]] structure on the [[(∞,1)-topos]] is equivalently the [[mapping spectrum]]
 
+$$
+  [\Sigma X, E]_{Stab(\mathbf{H})} \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}
+  \,,
+$$
+
+in that 
+
+$$
+  [X,E]_{T \mathbf{H}} \simeq [\Sigma^\infty X,E]_{Stab(\mathbf{H})}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Notice that as an object of $T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}$, the object $X$ is the constant [[(∞,1)-presheaf]] on $seq$. By the formula for the [[internal hom]] in an [[(∞,1)-category of (∞,1)-presheaves]] we have
+
+$$
+  [X,E]_\bullet \simeq \mathbf{H}^{seq}(X \times \bullet, E)
+  \,.
+$$
+
+But since $X$ is constant the object $X \times \bullet$ is for each object of $seq$ the [[representable functor|presheaf represented]] by that object. Therefore by the [[(∞,1)-Yoneda lemma]] it follows that
+
+$$
+  [X,E]_\bullet \simeq [X,E_\bullet]
+  \,.
+$$
+
+This is manifestly the same formula as for the [[mapping spectrum]] out of $\Sigma^\infty X$.
+
+=--
+
+By the same kind of argument we have the following more general statement.
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in \mathbf{H} \stackrel{0}{\hookrightarrow} T \mathbf{H}$ a [[geometric homotopy type]], for $E \in E_\infty(\mathbf{H})$ an [[E-∞ ring]]  with $(\widehat{Pic(E)} \to Pic(E)) \hookrightarrow T \mathbf{H}$ its universal [[(∞,1)-line bundle]] over its [[Picard ∞-groupoid]], then the [[internal hom]]/[[mapping stack]]
+
+$$
+  [X,\widehat{Pic(E)}]_{T \mathbf{H}} \in T \mathbf{H}
+$$
+
+is the object whose
+
+* base homotopy type is the [[E-∞ ring]] $[X, Pic(E)]$ of $E$-[[twisted cohomology|twist]] on $X$;
+
+* whose [[spectrum bundle]] is the collection of $\chi$-[[twisted cohomology|twisted E-cohomology spectra]] for all twists $\chi$.
+
+=--
 
 ### Cohesive and differential refinement
  {#CohesiveAndDifferentialRefinement}
@@ -202,7 +247,7 @@ Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \ma
 
 +-- {: .num_prop}
 ###### Proposition
-
+&lt;
 For every $A \in T_\ast \mathbf{H}$ the [[natural transformation|naturality square]] 
 
 $$
