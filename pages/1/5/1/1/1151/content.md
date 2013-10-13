@@ -321,11 +321,7 @@ $H^\bullet(X,A)$ form a graded [[ring]], the **cohomology ring** of $X$ with coe
 
 #### Twisted cohomology
 
-Given $A \in \mathbf{H}$ an object and $k : A \to B$ cocycle on $A$, classifying its [[homotopy fiber]] $C \to A$, the $A$-cohomology with specified $B$-[[characteristic class]] $[k]$ is $k$-**twisted $C$-cohomology.
-
-For the moment see
-
-* [[twisted cohomology]]
+What is called _[[twisted cohomology]]_ is just the intrinsic cohomology of [[slice toposes]]. In particular if all possible twisting groups are allowed at once, and once considers twisted [[generalized cohomology theories]] then this is the intrinsic cohomology of [[tangent (∞,1)-toposes]].
 
 
 
