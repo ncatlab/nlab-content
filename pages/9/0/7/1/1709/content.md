@@ -225,7 +225,7 @@ Let  ${*} \to B$ be a [[pointed object]]. Then
    in $\mathbf{H}$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $([*],f)$-twisted cohomology with trivial twisting cocycle is equivalent to the ordinary [[cohomology]] with coefficients in the [[homotopy fiber]] $A$ of $f$:
@@ -282,7 +282,7 @@ $$
   H_{[c]}(X,A)
 $$
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 The cohomology fibration sequence $\mathbf{H}(X,A) \to \mathbf{H}(X,\hat B) {\to} \mathbf{H}(X,B)$ can be seen as an **obstruction problem** in cohomology:
 
@@ -441,12 +441,12 @@ Read the other way round it says:
 * $A$-cocycles are precisely those $G$-twisted $A$-cocycles whose twist vanishes.
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Since the associated bundle $P \times_G A$ is in general no longer itself a spectrum, twisted cohomology is not an example of [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg?Steenrod cohomology]]. 
 
-To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that twisted cohomology should instead be formalized in terms of _parameterized homotopy theory_, where one thinks of $P \times_G A$ as a parameterized family of spectra. 
+To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that twisted cohomology should instead be formalized in terms of _[[parameterized homotopy theory]]_, where one thinks of $P \times_G A$ as a [[parameterized spectrum|parameterized family of spectra]]. 
 
 =--
 
