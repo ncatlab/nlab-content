@@ -54,6 +54,8 @@ See there for more.
 
 ## Related concepts
 
+* [[nonlinear functional]]
+
 * [[orthogonal structure]]
 
 * [[integration over infinite-dimensional manifolds]]
