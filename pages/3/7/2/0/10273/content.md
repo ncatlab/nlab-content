@@ -187,6 +187,7 @@ This result explains the $8$-fold periodicity found in real Clifford algebras as
 |$3$|$M_N(\mathbb{H}) \oplus M_N(\mathbb{H})$|$2^{(d-3)/2}$|
 |$7$|$M_N(\mathbb{R}) \oplus M_N(\mathbb{R})$|$2^{(d-1)/2}$|
 
+
 ### Spin group, spin representations and invariant forms
 With this background about Clifford algebras at hand, we can finally define the [[spin group]]:
 +-- {: .un_defn}
@@ -195,18 +196,45 @@ Let $(V,Q)$ be a quadratic vector space. The *[[spin group]]* $Spin(V,Q)$ is def
 \[
 	Spin(V,Q) = \left\{ v_1\,\dots\,v_{2k} | Q(v_i) = \pm 1 \forall i \right\} \subset Cl(V,Q)^+
 \]
-The irreducible representations of $Spin(V,Q)$ that arise from simple $Cl(V,Q)^+$-modules are called *spin representations*.
+The [[irreducible]] [[representations]] of $Spin(V,Q)$ that arise from simple $Cl(V,Q)^+$-modules are called *[[spin representations]]*.
 =-- 
 
 Note that this definition of the [[spin group]] differs from the one given in [Varadarajan 04, Proposition 5.4.8](#Varadarajan04), but agrees with the one from [Lawson-Michelsohn 89, page 18](#LawsonMichelsohn89). More precisely, the former is the connected component of the identity of the latter, i.e. for $V = \mathbb{R}^{p|q}$ we have
 \[
-	Spin(p,q)^0 = = \left\{ v_1\,\dots\,v_{2k}w_1\,\dots\,w_{2l} | Q(v_i) = 1, Q(w_j) = -1 \forall i,j \right\}
+	Spin(p,q)^0 = \left\{ v_1\,\dots\,v_{2k}w_1\,\dots\,w_{2l} | Q(v_i) = 1, Q(w_j) = -1 \forall i,j \right\}
 \]
-If $\min(p,q) = 1$, then $SO(p,q)$ and $Spin(p,q)$ have two connected components and $Spin(p,q)$ is a double cover in the sense that
+$Spin(p,q)$ is a double cover of $SO(p,q)$ in the sense that
 \[
-	0 \to \Z/2\Z \to Spin(p,q) \to SO(p,q) \to 1
+	0 \to \mathbb{Z}/2\mathbb{Z} \to Spin(p,q) \to SO(p,q) \to 1
 \]
-is exact.
+is exact ([Lawson-Michelsohn 89, Theorem 2.10](#LawsonMichelsohn89)). If $\min(p,q) = 1$ and $\max(p,q) \geq 3$, then $SO(p,q)$ and $Spin(p,q)$ have two connected components and the above restricts to a double cover of $SO(p,q)^0$ by $Spin(p,q)^0$. Hidden in the above definition is the statement that simple $Cl(V,Q)^+$-modules yield *irreducible* [[representations]] when restricted to the group $Spin(V,Q)$.
+
+We have $Cl(r,s)^+ \cong Cl(r,s-1)$ as ungraded algebras. Therefore we can read off the spin representations from the above classification table. Consider for example the group $Spin(3,1) \subset Cl(3,1)^+ \cong Cl(3,0) \cong M_2(\mathbb{C})$. This has *two* simple modules as a real algebra, $\mathbb{C}^2$ and its conjugate. 
+
+#### Invariant forms and Super Lie Algebras
+The symmetries of $d$-dimensional [[Minkowski space]] $\mathbb{R}^{d-1|1}$ are given by the [[Poincaré group]], which has the [[Lie algebra]]
+\[
+	\mathfrak{g}_0 = \mathbb{R}^{d-1|d} \ltimes \mathfrak{so}(d-1,1)
+\]
+To get the [[super Poincaré algebra]] from this, we would like to extend it by an odd part $\mathfrak{g}_1$ given by a spin representation $S$. In general, a [[super Lie algebra]] can be obtained from the following data:
+
+* an ordinary [[Lie algebra]] $(\mathfrak{g}_0, [\,\cdot\,, \,\cdot\,])$, 
+* a $\mathfrak{g}_0$-module $\mathfrak{g}_1$,
+* a symmetric $\mathfrak{g}_0$-module map $\kappa \colon \mathfrak{g}_1 \otimes \mathfrak{g}_1 \to \mathfrak{g}_0$ such that $a \cdot \kappa(a,a) = 0$ for all $a \in \mathfrak{g}_1$, where the dot denotes the action of $\mathfrak{g}_0$ on $\mathfrak{g}_1$. 
+
+We know what $\mathfrak{g}_0$ and $\mathfrak{g}_1$ should be in our case. Note that $\mathfrak{so}(d-1,1) = \mathfrak{spin}(d-1,1)$, therefore $\mathfrak{g}_0$ acts on $S$ (where the translations act trivially). Therefore we need to concentrate on invariant symmetric forms $\kappa$. 
+
+One way to easily satisfy the last condition for $\kappa$ is to just look at those symmetric forms that take values in the translation part of $\mathfrak{g}_0$, i.e. the underlying vector space $\mathbb{R}^{d-1|1}$. More generally, we will summarize below the results about the existence of symmetric bilinear forms $S \otimes S \to \Lambda V$ for a quadratic vector space $(V,Q)$ and an irreducible [[spin representation]] $S$ of $Spin(V,Q)$. 
+
+We will again spell out the case of complex vector spaces in more detail and just state the results in the real case. Since we would like to use duality results to classify invariant vector-valued forms, we first need to think about scalar-valued ones. Surprisingly enough, their existence in the *complex* case shows an $8$-fold periodicity, depending on the dimension $d$ of the underlying *complex vector space* $V$:
+
+| $d$ mod $8$ | type of invariant scalar form |
+|--|--|
+|$0$| symmetric forms on $S^{+}$ and on $S^{-}$ |
+|$1,7$| symmetric form on $S$ |
+|$2,6$| $S^+$ dual to $S^-$ |
+|$3,5$| skew-symmetric form on $S$ |
+|$4$| skew-symmetric form on $S^{+}$ and on $S^{-}$ |
 
 (...)
 
@@ -307,6 +335,7 @@ $$
 $$
 
 Good mathematical discussion of this construction is in  ([Deligne-Freed 99, section 1.1](#DeligneFreed99), [Freed 99, lecture 3](#Freed99), [Varadarajan 04, chapter 7](#Varadarajan04)). A decent summary of the standard component expressions of this construction as used in [[physics]] is in ([Polchinski 01, volume II, appendix B](#Polchinski01)).
+
 
 
 Since the [[special orthogonal Lie algebra]] $\mathfrak{so}(d-1,1)$ is [[normal sub Lie algebra|normal]] in $\mathfrak{iso}(d-1,1)$, this exhibits [[super Minkowski spacetime]] itself as a [[super Lie algebra]], namely the [[super translation Lie algebra]] over itself. 
@@ -915,6 +944,7 @@ In particular for [[AdS7-CFT6]] this means that the [[6d (2,0)-superconformal QF
 | [[7d Chern-Simons theory]] from [[11-dimensional supergravity]] |  | [[6d (2,0)-superconformal QFT]] on [[M5-brane]] |
 
 In ([Witten 96](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#WittenI)) this is argued, by [[geometric quantization]] after [[transgression]] to [[codimension]] 1, for the _bosonic and abelian_  contribution in [[7d Chern-Simons theory]]. (The subtle [[theta characteristic]] involved was later formalized in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]].) 
+
 
 In order to formalize this in generality, one needs a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]? This we are dealing with now.
 
