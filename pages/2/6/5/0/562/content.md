@@ -240,6 +240,8 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 *  Notes by Streicher: "Fibred Categories &#224; l&#224; Jean B&#233;nabou" are available online  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
 
+* R. Brown and R. Sivera, Algebraic colimit calculations in homotopy theory using fibred and cofibred categories, _Theory and Applications of Categories_, 22 (2009) 222-251.
+
 * "Categorical logic and type theory" by B. Jacobs
 
 * The Wikipedia entry on [Fibred category](http://en.wikipedia.org/wiki/Fibred_category) is okay, and contains a number of other references.
