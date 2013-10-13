@@ -256,6 +256,8 @@ This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $
 
 ## Related concepts
 
+* [[derived inverse image]]
+
 * [[exceptional inverse image]]
 
 ## References
