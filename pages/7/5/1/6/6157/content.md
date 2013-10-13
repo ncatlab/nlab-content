@@ -30,7 +30,7 @@
 
 ## Idea
 
-The notion of an _$(\infty,1)$-vector bundle_ is a [[categorification]] of the notion of a [[vector bundle]], where [[field]]s and [[ring]]s are replaced by [[∞-ring]]s.
+The notion of an _$(\infty,1)$-vector bundle_ is a [[categorification]]/[[homotopy theory|homotopification]] of the notion of a [[vector bundle]], where [[fields]] and [[rings]] are replaced by [[∞-rings]]; a central notion in [[parameterized stable homotopy theory]].
 
 Recall that for $k$ a [[field]], a [[vector space]] is a $k$-[[module]], and a [[vector bundle]] over a [[space]] $X$ is classified by a morphism 
 $\alpha : X \to k$[[Mod]] with $k$[[Mod]] regarded as an object in the relevant [[topos]]. For instance for _discrete_ or _flat_ vector bundles $k Mod$ is the [[category]] [[Vect]] of vector spaces.
