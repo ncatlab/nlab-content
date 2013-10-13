@@ -3,3 +3,5 @@
 ## See also
 
 * [[SGA]]
+
+[[!redirects SGA VI]]
