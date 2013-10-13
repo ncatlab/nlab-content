@@ -139,16 +139,46 @@ If $V$ is a complex vector space with $\dim(V) = 2m+1$, then $\mathbb{C}l(V) \co
 We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ defines an isomorphism of [[superalgebras]]. By induction we then have $\mathbb{C}l(\mathbb{C}^{2m}) \cong \mathbb{C}l(\mathbb{C}^{2m-2}) \otimes \mathbb{C}l(\mathbb{C}^{2})$. The odd dimensional case is similar.
 =--
 
+
 From the above theorem we deduce that $\mathbb{C}l(V)$ has exactly two (graded) simple modules $S$ and $\Pi S$ ($S$ with the reversed grading) in the even-dimensional case and exactly one graded simple module $S = S_0 \otimes D$ in case the dimension is odd. 
 
-The classification of Clifford algebras is a little more intricate in the case of real vector spaces. Here we can without loss of generality assume that $V$ is the [[super vector space]] $\mathbb{R}^{s|t}$. The structure of the real Clifford algebras is dictated by the [[super Brauer group]].
+The classification of Clifford algebras is a little more intricate in the case of real vector spaces. Here we can without loss of generality assume that $V$ is the [[super vector space]] $\mathbb{R}^{s|t}$. The structure of the real Clifford algebras is dictated by the super Brauer group.
 
 +-- {: .un_defn}
 ###### Definition
-A [[superalgebra]] is called a *[[super division algebra]]* if all nonzero homogeneous elements are invertible. A real [[superalgebra]] $A$ is called *central simple* if $A \otimes \mathbb{C} \cong M_{s|t}(\mathbb{C})$ or $A \otimes \mathbb{C} \cong M_n(\mathbb{C}) \otimes D$ (with $D$ as above) as superalgebras. We will write *CS superalgebra* for short. 
+A [[superalgebra]] is called a *super division algebra* if all nonzero homogeneous elements are invertible. A real [[superalgebra]] $A$ is called *central simple* if $A \otimes_{\mathbb{R}} \mathbb{C} \cong M_{s|t}(\mathbb{C})$ or $A \otimes_{\mathbb{R}} \mathbb{C} \cong M_n(\mathbb{C}) \otimes_{\mathbb{C}} D$ (with $D$ as above) as superalgebras. We will write *CS superalgebra* for short. 
 =-- 
 
-There are a lot of different characterizations of CS [[superalgebras]], see for example [Varadarajan 04, Theorem 6.2.5](#Varadarajan04). For example, each CS [[superalgebra]] over a field $k$ of characteristic $0$ is isomorphic to $M_{s|t}(k) \otimes K$ for some [[super division algebra]] $K$ over $k$ such that its [[supercenter]] is $k$. 
+
+The classification of Clifford algebras is a little more intricate in the case of real vector spaces. Here we can without loss of generality assume that $V$ is the [[super vector space]] $\mathbb{R}^{s|t}$. The structure of the real Clifford algebras is dictated by the super Brauer group.
+
++-- {: .un_defn}
+###### Definition
+A [[superalgebra]] is called a *super division algebra* if all nonzero homogeneous elements are invertible. A real [[superalgebra]] $A$ is called *central simple* if $A \otimes_{\mathbb{R}} \mathbb{C} \cong M_{s|t}(\mathbb{C})$ or $A \otimes_{\mathbb{R}} \mathbb{C} \cong M_n(\mathbb{C}) \otimes_{\mathbb{C}} D$ (with $D$ as above) as superalgebras. We will write *CS superalgebra* for short. 
+=-- 
+
+There are a lot of different characterizations of CS [[superalgebras]], see [Varadarajan 04, Theorem 6.2.5](#Varadarajan04). For example, each CS [[superalgebra]] over a field $k$ of characteristic $0$ is isomorphic to $M_{s|t}(k) \otimes K$ for some super division algebra $K$ over $k$ such that its supercenter is $k$. 
+
++-- {: .un_defn}
+###### Definition
+Two CS [[superalgebras]] $A_1$ and $A_2$ are called *similar* if their associated super division algebras are isomorphic, i.e. if $A_i \cong M_{s_i|t_i}(k) \otimes K$ for some super division algebra $K$ over $k$. The monoid of similarity classes of CS [[superalgebras]] *$sBr(k)$* with respect to the graded tensor product $\otimes_k$ turns out to be a group and is called the *super Brauer group* of $k$.
+=-- 
+
+The following is proven in [Varadarajan 04, Theorem 6.4.1](#Varadarajan04).
++-- {: .num_theorem}
+###### Theorem
+The super Brauer group $sBr(\mathbb{R})$ is isomorphic to $\mathbb{Z}/8\mathbb{Z}$. Let $D_{\mathbb{R}}=\mathbb{R}[\epsilon]$ be the [[superalgebra]] with $\epsilon$ odd and $\epsilon^2 = 1$. If $(V,Q)$ is a quadratic vector space, then $[Cl(V,Q)] = [D_{\mathbb{R}}]^{sign(Q)}$. 
+=-- 
+
+This result explains the $8$-fold periodicity found in real Clifford algebras as can be seen from the following table in which $V= \mathbb{R}^{s|t}$ with dimension $d = s+t$:
+
+| $(t-s)$ mod $8$ | $Cl(s,t)$ | $N$ |
+|--|--|--|
+|$0,6$|$M_N(\mathbb{R})$|$2^{d/2}$|
+|$2,4$|$M_N(\mathbb{H})$|$2^{(d-2)/2}$|
+|$1,5$|$M_N(\mathbb{C})$|$2^{(d-1)/2}$|
+|$3$|$M_N(\mathbb{H}) \oplus M_N(\mathbb{H})$|$2^{(d-3)/2}$|
+|$7$|$M_N(\mathbb{R}) \oplus M_N(\mathbb{R})$|$2^{(d-1)/2}$|
 
 (...)
 
@@ -177,6 +207,7 @@ which is
 In ([Varadarajan 04, section 6.6](#Varadarajan04)) these bilinear pairings are classified in full generality, for arbitrary [[spacetime]] [[signature of a quadratic form|signature]]. However it turns out that for [[Minkowski spacetime|Minkowski]] [[signature of a quadratic form|signature]] all _real_ spinor representations ("[[Majorana representations]]") carry an essentially unique such pairing and at the same time are the representations relevant in most applications. Therefore we concentrate [below](#ClassificationAndPropertiesOfMajoranaRepresentations) on the classification and properties of [[Majorana representations]] of the Lorentzian [[spin groups]] $Spin(d-1,1)$.
 
 ### Classification and properties of Majorana representations
+
  {#ClassificationAndPropertiesOfMajoranaRepresentations}
 
 The following table lists the irreducible real representations of $Spin(V)$ ([Freed 99, page 48](#Freed99)).
@@ -526,6 +557,7 @@ where
 It is now clear how to pass from this to [[local prequantum field theory]] of higher dimension.
 
 Let now more generally
+
 
 $$
   \mathbf{H} \coloneqq 
@@ -988,6 +1020,7 @@ Say that the [[periods]] of $\mu$ are all values in $\mathbb{R}$ obtained by [[i
 ###### Definition
 
 Under [[truncated|truncation]] the universal [[Lie integration]] above descents to an $(n+1)$-[[∞-group cohomology|∞-group cocycle]] with [[coefficients]] in $\mathbb{R}/\Gamma_{\mu}$:
+
 
 $$
   \array{
