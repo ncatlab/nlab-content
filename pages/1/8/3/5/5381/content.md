@@ -27,7 +27,7 @@ A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ i
 
 +-- {: .num_prop}
 ###### Proposition
-Let $A$ be a [[commutative ring]] and let $D(A)$ denote the [[derived category]] of $A$-[[modules]].  A [[chain complex]] $M_\bullet$ of $A$-modules is perfect if and only if it is a [[compact object#CompactnessInAdditiveCategories|compact object]] of $D(A)$.
+Let $A$ be a [[commutative ring]] and let $D(A)$ denote the [[derived category]] of $A$-[[modules]].  A [[chain complex]] $M_\bullet$ of $A$-modules is perfect if and only if it is a [compact object](compact+object#CompactnessInAdditiveCategories) of $D(A)$.
 =--
 
 See [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
