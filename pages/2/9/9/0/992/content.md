@@ -285,6 +285,8 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 ## Related concepts
 
+* [[additive (∞,1)-category]]
+
 * [[Stab(∞,1)Cat]]
 
 * [[stable homotopy theory]]
