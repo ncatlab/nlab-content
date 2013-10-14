@@ -1,31 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Variational calculus
-+--{: .hide}
++-- {: .hide}
 [[!include variational calculus - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-**Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of nonlinear [[functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping space]]s. 
+**Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of [[nonlinear functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping space]]s. 
 
 Specifically, it studies the _critical points_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
 
