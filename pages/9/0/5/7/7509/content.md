@@ -119,3 +119,16 @@ Under [[categorical semantics]], a dependent type $x\colon A \vdash B(x)\colon T
 
 [[!redirects dependent sum type]]
 [[!redirects dependent sum types]]
+
+[[!redirects ∞-type]]
+[[!redirects ∞-types]]
+
+[[!redirects ? type]]
+[[!redirects ? types]]
+
+
+[[!redirects Sigma type]]
+[[!redirects Sigma types]]
+
+[[!redirects Sigma-type]]
+[[!redirects Sigma-types]]
