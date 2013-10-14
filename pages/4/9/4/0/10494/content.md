@@ -247,7 +247,7 @@ Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \ma
 
 +-- {: .num_prop}
 ###### Proposition
-&lt;
+
 For every $A \in T_\ast \mathbf{H}$ the [[natural transformation|naturality square]] 
 
 $$
@@ -310,7 +310,25 @@ $$
   }
 $$
 
-exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkel13)).
+exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
+
+It follows by the discussion at [[schreiber:differential cohomology in a cohesive topos]] that the further differential refinement $\widehat{A}$ of $A$ should be given by a further [[homotopy pullback]]
+
+$$
+  \array{
+    \widehat{A} &\longrightarrow& \Omega^1(-,Lie(A))
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    A &\stackrel{\theta_A}{\longrightarrow}& \flat_{dR}\Sigma A
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+  \,.
+$$
+
 
 =--
 
