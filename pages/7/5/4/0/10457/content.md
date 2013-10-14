@@ -48,7 +48,7 @@ Indeed, by combining the [[Alfsen-Shultz theorem]] with the [[Harding-Döring-Ha
 
 
 
-Therefore there is an intrinsic [[order theory|order theoretic]] aspect in the standard foundations of [[quantum mechanics]]. But it is not _just_ order theory, for it is the [[poset]] structure of inclusions alone that matters in the Jordan-Alfsen-Shultz-Harding-D&#246;ring-Hamhalter theorem, but that poset structure together with the actual [[commutative C*-algebra]] structure of each [[classical context]]. 
+Therefore there is an intrinsic [[order theory|order theoretic]] aspect in the standard foundations of [[quantum mechanics]]. But it is not _just_ order theory, for it is not the [[poset]] structure of inclusions alone that matters in the Jordan-Alfsen-Shultz-Harding-D&#246;ring-Hamhalter theorem, but that poset structure together with the actual [[commutative C*-algebra]] structure of each [[classical context]]. 
 
 
 There is an elegant way to combine these two aspects: a system of [[commutative ring|commutative algebras]] together with the [[order]] of their inclusions is equivalently a single [[algebra object]] [[internalization|internal to]] the [[sheaf topos]] over the [[poset]]. With some basics of [[topos theory]] in hand this is a trivial statement, but in view of the above it is worthwhile to make explicit: the Jordan-Alfsen-Shultz-Harding-D&#246;ring-Hamhalter theorem ([Harding-D&#246;ring 10](#HardingDoering10), [Hamhalter 11](#Hamhalter11)) says that the collection of [[quantum observables]] in [[quantum mechanics]] is accurately formalized by a single [[commutative C*-algebra]] [[internalization|internal]] to a [[sheaf topos]] over a [[poset]].
