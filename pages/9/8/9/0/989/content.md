@@ -60,6 +60,10 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 * [[noncommutative algebra]]
 
+* [[nonassociative algebra]]
+
+* [[power-associative algebra]]
+
 * [[augmented algebra]]
 
 * [[unitisation of C*-algebras]]
