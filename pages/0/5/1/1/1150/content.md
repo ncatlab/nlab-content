@@ -65,6 +65,8 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
   * [[equivariant bundle]]
 
+  * [[bundle of spectra]]
+
   * [[fiber bundles in physics]]
 
 * [[principal bundle]] / [[torsor]] / [[associated bundle]]
