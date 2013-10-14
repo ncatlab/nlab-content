@@ -106,6 +106,10 @@ The same principle applies to other types, particularly [[dependent sum types]] 
 [[!redirects eta-expansion]]
 [[!redirects ∞-expansion]]
 
+[[!redirects eta rule]]
+[[!redirects eta-rule]]
+[[!redirects ∞-rule]]
+
 [[!redirects eta equivalent]]
 [[!redirects eta-equivalent]]
 [[!redirects ∞-equivalent]]
