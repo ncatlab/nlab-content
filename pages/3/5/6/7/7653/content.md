@@ -1,10 +1,9 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindestalx="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 #### String theory
@@ -3694,7 +3693,7 @@ $$
 
 where on the right we used the [[universal property]] of the [[homotopy pullback]] [[diagram]] which exhibits the smooth [[circle group]] $U(1)$ as the [[loop space object]] of $\mathbf{B}U(1)$.
 
-For instance for $X$ a [[smooth manifold]] ("[[spacetime]]") and $\nabla \;\colon\; X \longrightarrow \mathbf{B}U(1)_{conn}$ a [[circle group]]-[[principal connection]] ("[[electromagnetic field]] on [[spacetime]]") then for [[trajectories]] in $X$ of shape the [[circle]], the canonical [[action functional]] ("[[Lorentz force]] gauge [[interaction]]") is the [[holonomy]] [[functional]]
+For instance for $X$ a [[smooth manifold]] ("[[spacetime]]") and $\nabla \;\colon\; X \longrightarrow \mathbf{B}U(1)_{conn}$ a [[circle group]]-[[principal connection]] ("[[electromagnetic field]] on [[spacetime]]") then for [[trajectories]] in $X$ of shape the [[circle]], the canonical [[action functional]] ("[[Lorentz force]] gauge [[interaction]]") is the [[holonomy]] [[nonlinear functional|functional]]
 
 $$
   \exp(i S_{Lor})
