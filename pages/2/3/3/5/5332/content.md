@@ -272,4 +272,8 @@ in section 4.2.
 [[!redirects twisted differential fivebrane structure]]
 [[!redirects twisted differential fivebrane structures]]
 
+[[!redirects twisted differential Fivebrane structure]]
+[[!redirects twisted differential Fivebrane structures]]
+
+
 [[!redirects smooth second fractional Pontryagin class]]
