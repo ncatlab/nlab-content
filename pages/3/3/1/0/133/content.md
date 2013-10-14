@@ -176,3 +176,6 @@ category: foundational axiom
 [[!redirects axiom of infinity-choice]]
 [[!redirects axiom of n-choice]]
 [[!redirects axiom of k-connected choice]]
+
+[[!redirects type-theoretic axiom of choice]]
+[[!redirects type theoretic axiom of choice]]
