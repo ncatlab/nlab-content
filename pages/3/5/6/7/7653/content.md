@@ -13,7 +13,6 @@
 =--
 =--
 
-Rez
 This entry contains lecture notes on 
 
 * [**A)**](#Examples) [[twisted cohomology|twisted]] smooth [[cohomology]] structures appearing in [[string theory]]/[[M-theory]];
@@ -2980,6 +2979,7 @@ Therefore it is natural to ask: _What is an [[(∞,1)-topos]] to be like whose i
 
 And the answer we find is: it is to be the [[tangent (∞,1)-topos]] $T \mathbf{H}$ of a [[cohesive (∞,1)-topos]] $\mathbf{H}$.
   
+For more on this see at _[[tangent cohesion]]_.
 
 ### Cohesive contexts for equivariant differential twisted cohomology
 
@@ -3038,7 +3038,7 @@ $$
 There it was shown that this serves to construct and characterize the [[twisted differential string structures]] and [[twisted differential Fivebrane structures]] in ([[dual heterotic string theory|dual]]) [[heterotic string theory]].
 
 A comprehensive theory of ([[twisted cohomology|twisted]] [[equivariant cohomology|equivariant]]) [[differential cohomology]] formulated by just this [[axiom]] of "[[cohesion]]" was then laid out in the thesis ([Schreiber 11](#Schreiber)). Parts of this appear in various articles, such as ([Fiorenza-Schreiber-Rogers 13](FiorenzaRogersSchreiber13)). 
-See ([Schreiber Synthetic 13](#SchreiberSynthetic)) for fairly comprehensive survey.
+See ([Schreiber Synthetic 13](#SchrThis ieiberSynthetic)) for a fairly comprehensive survey.
 
 Notice that such [[cohesion]] is a very special property of some [[(∞,1)-toposes]], not a generic property. In particular the existence of $\Pi$ means that $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos]] and a [[globally ∞-connected (∞,1)-topos]], and the existence of $coDisc$ means that it is a [[local (∞,1)-topos]].
 
@@ -3213,7 +3213,7 @@ This in turn is compatible with $\Omega$ in that
 $$
   \theta \circ \Omega \simeq \Omega \circ \theta
   \;\colon\;
-  \rho \longrightarrow \rho \circ \rho = \rho^2
+  \Omega \longrightarrow \Omega \circ \Omega = \Omega^2
   \,.
 $$
 
@@ -3261,7 +3261,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-We may think of the [[tangent ∞-topos]] $T \mathbf{H}$ as being an [[extension]] of $\mathbf{H}$ by its [[stabilization]] $Stab(\mathbf{H}) \simeq T_\ast \mathbf{H}$:
+We may think of the [[tangent (∞,1)-topos]] $T \mathbf{H}$ as being an [[extension]] of $\mathbf{H}$ by its [[stabilization]] $Stab(\mathbf{H}) \simeq T_\ast \mathbf{H}$:
 
 $$
   \array{
@@ -4469,6 +4469,7 @@ $$
   \exp(i S) \, d\mu
   \;\colon\;
   Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+
   \to
   \left(
    E Mod^{\Box^n}
