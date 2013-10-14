@@ -64,6 +64,10 @@ The beta reduction rules then say that if we first apply a constructor $(a,b)$, 
 [[!redirects beta-conversion]]
 [[!redirects ∞-conversion]]
 
+[[!redirects beta rule]]
+[[!redirects beta-rule]]
+[[!redirects ∞-rule]]
+
 [[!redirects beta equivalent]]
 [[!redirects beta-equivalent]]
 [[!redirects ∞-equivalent]]
