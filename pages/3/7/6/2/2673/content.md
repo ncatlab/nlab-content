@@ -1,27 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Gravity
-+--{: .hide}
++-- {: .hide}
 [[!include gravity contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The [[action functional]] of [[gravity]] was originally conceived as a [[functional]] on the space of [[pseudo-Riemannian metrics]] of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- essentially the [[Levi-Civita connection]] -- subject to the constraint that the component in the [[translation Lie algebra]] defines a [[vielbein field]]. Mathematically this means that the [[field (physics)|field]] of [[gravity]] is modeled as a _[[Cartan connection]]_ for the [[Lorentz group]] inside the [[Poincaré group]]. In [[physics]] this is known as the **first order formalism** or the **Palatini formalism** for gravity. 
+The [[action functional]] of [[gravity]] was originally conceived as a [[nonlinear functional|functional]] on the space of [[pseudo-Riemannian metrics]] of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincaré Lie algebra]] -- essentially the [[Levi-Civita connection]] -- subject to the constraint that the component in the [[translation Lie algebra]] defines a [[vielbein field]]. Mathematically this means that the [[field (physics)|field]] of [[gravity]] is modeled as a _[[Cartan connection]]_ for the [[Lorentz group]] inside the [[Poincaré group]]. In [[physics]] this is known as the **first order formalism** or the **Palatini formalism** for gravity. 
 
 The [[field strength]] of gravity -- the [[Riemann tensor]] -- is the [[curvature]] of [[Levi-Civita connection]]. Typically this is referred to a [[spin connection]] in this context.
 
