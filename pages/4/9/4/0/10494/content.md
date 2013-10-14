@@ -261,27 +261,40 @@ In full generality we may formulate the [[internal hom]] [[mapping space]] in $T
 For 
 
 $$
-  (a \colon A) \;\vdash\; E(a) \colon Spectra(\mathbf{H})
+  (a \colon A) \;\vdash\; E_a \colon Spectra(\mathbf{H})
 $$
 
 and
 
 $$
-  (b \colon B) \;\vdash\; F(b) \colon Spectra(\mathbf{H})
+  (b \colon B) \;\vdash\; F_b \colon Spectra(\mathbf{H})
 $$
 
-two [[spectrum bundle]] [[dependent types]] over base [[homotopy types]], $A,B \colon \mathbf{H}$, respectively, then the [[function type]] $(E \to F) \colon T\mathbf{H}$ between them (regarded as [[homotopy types]] in of $T \mathbf{H}$) is
+two [[spectrum bundle]] [[dependent types]] over base [[homotopy types]], $A,B \colon \mathbf{H}$, respectively, then the [[function type]] $(E \to F) \colon T\mathbf{H}$ between them (regarded as [[homotopy types]] in $T \mathbf{H}$) is
 
 $$
-  \chi \colon (A \to B); \sigma \colon \underset{a \colon A}{\prod} SpMap(E_a,F_{f(a)})
+  \chi \colon (A \to B); \sigma \colon \underset{a \colon A}{\prod} SpMap(E_a,F_{\chi(a)})
   \;\vdash\;
-  \underset{a \colon A}{\prod} F_{f(a)}
+  \underset{a \colon A}{\prod} F_{\chi(a)}
   \,.
 $$
 
 =--
++-- {: .proof}
+###### Proof
+Let $(x:X)\vdash M_x : Spectra$ be another spectrum bundle.  The cartesian product $M\times E$ in $T \mathbf{H}$ is then $(x:X),(a:A) \vdash M_x \oplus E_a$, with $\oplus$ also the coproduct, since spectra are stable and hence additive.  We compute the mapping space $T\mathbf{H}(M\times E,F)$ as follows:
+$$
+\begin{aligned}
+  \sum_{(\phi:X\times A \to B)} \prod_{((x,a):X\times A)} SpMap(M_x\oplus E_a,F_{\phi(x,a)})
+  &=& \sum_{(\phi:X \to A \to B)} \prod_{(x:X)} \prod_{(a:A)} SpMap(E_a,F_{\phi(x,a)}) \times SpMap(M_x,F_{\phi(x,a)})\\
+  &=& \prod_{(x:X)} \sum_{(\chi:A \to B)} \left(\prod_{(a:A)} SpMap(E_a,F_{\chi(a)})\right) \times \left( \prod_{(a:A)} SpMap(M_x,F_{\chi(a)}) \right)\\
+  &=& \prod_{(x:X)} \sum_{\psi : \sum_{(\chi:A \to B)} \prod_{(a:A)} SpMap(E_a,F_{\chi(a)})} SpMap\left(M_x, \prod_{(a:A)} F_{pr_1(\psi)(a)}\right)\\
+  &=& \sum_{\rho : X \to \sum_{(\chi:A \to B)} \prod_{(a:A)} SpMap(E_a,F_{\chi(a)})} \prod_{(x:A)} SpMap\left(M_x, \prod_{(a:A)} F_{pr_1(\rho(x))(a)}\right)
+\end{aligned}
+$$
+In the first line, we [[currying|curry]] $\phi$, apply the [[induction principle]] for dependent maps out of $X\times A$, and also apply the universal property of the coproduct $M_x \oplus E_a$.  In the second line, we apply the universal property for mapping into $\Sigma$-types (the "type-theoretic axiom of choice") and also that for dependent functions into a product.  In the third line we apply the associativity of $\Sigma$-types, and also the universal property for mapping into the $\prod$ of spectra.  Finally, in the fourth line, we apply the type-theoretic axiom of choice again in the other direction.  The resulting type is the mapping space from $M$ to the claimed function type $(E\to F)$ defined above.  (See also [this discussion](http://nforum.mathforge.org/discussion/5321/parameterized-cohesive-spectra/?Focus=42394#Comment_42394).)
+=--
 
-(thanks to [this discussion](http://nforum.mathforge.org/discussion/5321/parameterized-cohesive-spectra/?Focus=42394#Comment_42394))
 
 +-- {: .num_example}
 ###### Example
