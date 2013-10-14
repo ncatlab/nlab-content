@@ -282,7 +282,7 @@ $$
 =--
 +-- {: .proof}
 ###### Proof
-Let $(x:X)\vdash M_x : Spectra$ be another spectrum bundle.  The cartesian product $M\times E$ in $T \mathbf{H}$ is then $(x:X),(a:A) \vdash M_x \oplus E_a$, with $\oplus$ also the coproduct, since spectra are stable and hence additive.  We compute the mapping space $T\mathbf{H}(M\times E,F)$ as follows:
+Let $(x:X)\vdash M_x : Spectra$ be another [[spectrum bundle]].  The [[cartesian product]] $M\times E$ in $T \mathbf{H}$ is then $(x:X),(a:A) \vdash M_x \oplus E_a$, with $\oplus$ also the [[coproduct]] (hence the [[direct sum]]), since [[spectra]] are [[stable (infinity,1)-category|stable]] and hence [[additive (infinity,1)-category|additive]].  We compute the [[mapping space]] $T\mathbf{H}(M\times E,F)$ as follows:
 $$
 \begin{aligned}
   \sum_{(\phi:X\times A \to B)} \prod_{((x,a):X\times A)} SpMap(M_x\oplus E_a,F_{\phi(x,a)})
@@ -292,7 +292,7 @@ $$
   &=& \sum_{\rho : X \to \sum_{(\chi:A \to B)} \prod_{(a:A)} SpMap(E_a,F_{\chi(a)})} \prod_{(x:A)} SpMap\left(M_x, \prod_{(a:A)} F_{pr_1(\rho(x))(a)}\right)
 \end{aligned}
 $$
-In the first line, we [[currying|curry]] $\phi$, apply the [[induction principle]] for dependent maps out of $X\times A$, and also apply the universal property of the coproduct $M_x \oplus E_a$.  In the second line, we apply the universal property for mapping into $\Sigma$-types (the "type-theoretic axiom of choice") and also that for dependent functions into a product.  In the third line we apply the associativity of $\Sigma$-types, and also the universal property for mapping into the $\prod$ of spectra.  Finally, in the fourth line, we apply the type-theoretic axiom of choice again in the other direction.  The resulting type is the mapping space from $M$ to the claimed function type $(E\to F)$ defined above.  (See also [this discussion](http://nforum.mathforge.org/discussion/5321/parameterized-cohesive-spectra/?Focus=42394#Comment_42394).)
+In the first line, we [[currying|curry]] $\phi$, apply the [[induction principle]] for [[dependent type|dependent]] maps out of $X\times A$, and also apply the [[universal property]] of the [[coproduct]] $M_x \oplus E_a$.  In the second line, we apply the [[universal property]] for mapping into [[∞-types]] (the "[[type-theoretic axiom of choice]]") and also that for dependent functions into a [[Cartesian product|product]].  In the third line we apply the associativity of [[∞-types]], and also the [[universal property]] for mapping into the [[dependent product]] $\prod$ of [[spectra]].  Finally, in the fourth line, we apply the [[type-theoretic axiom of choice]] again in the other direction.  The resulting [[type]] is the [[mapping space]] from $M$ to the claimed [[function type]] $(E\to F)$ defined above.  (See also [this discussion](http://nforum.mathforge.org/discussion/5321/parameterized-cohesive-spectra/?Focus=42394#Comment_42394).)
 =--
 
 
