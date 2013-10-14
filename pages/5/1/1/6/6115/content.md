@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,6 +10,10 @@
 #### Stable Homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
 =--
 #### Cohomology
 +--{: .hide}
@@ -64,3 +67,9 @@ See also the references at [[(∞,1)-module bundle]].
 
 [[!redirects parameterized spectrum]]
 [[!redirects parameterized spectra]]
+
+[[!redirects spectrum bundle]]
+[[!redirects spectrum bundles]]
+
+[[!redirects bundle of spectra]]
+[[!redirects bundles of spectra]]
