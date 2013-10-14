@@ -19,9 +19,9 @@
 
 ## Idea
 
-A _Jordan-Lie-Banach algebra_ (or _JLB-algebra_ for short) is a [[topological vector space|topological]] [[nonassociative algebra|algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _JLB-algebra_ is a _nonassociative Poisson algebra_ with topology.
+A _Jordan--Lie--Banach algebra_ (or _$JLB$-algebra_ for short) is a [[topological vector space|topological]] [[nonassociative algebra|algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _$JLB$-algebra_ is a _nonassociative Poisson algebra_ with [[topological structure|topology]].
 
-JLB-algebras are the outcome of [[quantization]] of [[Poisson algebras]]. In traditional [[strict deformation quantization]] that outcome is regarded to be a non-commutative but associative [[C-star-algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the [[Lie bracket]] the [[commutator]] (times $-\mathrm{i}/2$). There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra. For more on this separation of the Lie-algebra and the Jordan algebra aspect of quantization see at _[[order-theoretic structure in quantum mechanics]]_.
+JLB-algebras are the outcome of [[quantization]] of [[Poisson algebras]]. In traditional [[strict deformation quantization]] that outcome is regarded to be a non-commutative but associative [[C-star-algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the [[Lie bracket|Lie product]] the [[commutator]] (times $\mathrm{i}/2$). There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra. For more on this separation of the Lie-algebra and the Jordan algebra aspect of quantization see at _[[order-theoretic structure in quantum mechanics]]_.
 
 
 ## Definition
@@ -36,7 +36,7 @@ A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$
 * the $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$ (compare the $B^*$-identity or $C^*$-identity of a $C^*$-[[C-star-algebra|algebra]]);
 * positivity: ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
 
-This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity.  However, Halvorson claims to construct an equivalence between real JLB-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces a short Lie product that satisfies $r = 1$.
+This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity (second version).  However, Halvorson claims to construct an equivalence between real $JLB$-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces a short Lie product that satisfies $r = 1$.
 
 Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
 
@@ -51,7 +51,7 @@ Specifically, starting with a JLB-algebra $A$, we write $A \oplus A$ formally as
 * addition: $(a + \mathrm{i} b) + (c + \mathrm{i} d) \coloneqq (a + c) + \mathrm{i} (b + d)$,
 * opposite: $-(a + \mathrm{i} b) \coloneqq (-a) + \mathrm{i} (-b)$,
 * zero: $0 \coloneqq 0 + \mathrm{i} 0$,
-* scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$,
+* scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$ (for $x + \mathrm{i} y$ a [[complex number]]),
 * involution: $(a + \mathrm{i} b)^* \coloneqq a + \mathrm{i} (-b)$,
 * multiplication: $(a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + a \bullet d + b \bullet c - b \circ d) + \mathrm{i} (-a \bullet c + a \circ d + b \circ c + b \bullet d)$.
 
@@ -65,14 +65,14 @@ Conversely, starting with a $C^*$-algebra $A$, we form the subspace $sa(A) = \{x
 * Jordan product: $a \circ b \coloneqq \frac{1}{2} a b + \frac{1}{2} b a$,
 * Lie product: $a \bullet b \coloneqq \frac{1}{2} \mathrm{i} a b - \frac{1}{2} \mathrm{i} b a$.
 
-If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product.
+If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product (so $1$ is also defined by restriction).
 
-This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact (I hope!) form an [[equivalence of categories|equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$.
+This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact (I hope!) form an [[equivalence of categories|adjoint equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$ equivalent to $C^* Alg$.
 
 
 ## References
 
-A careful definition is in section 1.1 of 
+A definition is in section 1.1 of 
 
 * [[Hans Halvorson]], _Maximal Beable Subalgebras of
 Quantum-Mechanical Observables_ ([pdf](http://philsci-archive.pitt.edu/65/1/beables.pdf))
