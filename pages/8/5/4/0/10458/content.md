@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[quantum mechanics]], given an [[algebra of quantum observables]], as _classical context_ is a [[poset of commutative subalgebras|commutative subalgebra]].
+In [[quantum mechanics]], given an [[algebra of quantum observables]], a _classical context_ is a [[poset of commutative subalgebras|commutative subalgebra]].
 
 The [[quantum observables]] in such a commutative subalgebra may all be [[measurement|measured]] simultaneously without the [[uncertainty principle]] of [[quantum mechanics]] interfering, hence they may be measured as [[observables]] in [[classical mechanics]].
 
