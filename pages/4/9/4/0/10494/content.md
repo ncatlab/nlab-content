@@ -122,14 +122,14 @@ $$
   \,.
 $$
 
-Now for any object $X \in \mathbf{H}$ we have
+Now for any object $X \in \mathbf{H}$ we have the trivial [[sphere spectrum]] [[spectrum bundle]] over $X$
 
 $$
-  X \times E
+  X \times \mathbb{S}
   \simeq
   \left(
    \array{
-     E \times X
+     X \times \mathbb{S}
      \\
      \downarrow
      \\
@@ -140,7 +140,7 @@ $$
    \in
   \;\;\;
   T_{X}\mathbf{H} \hookrightarrow T\mathbf{H}
-  \,,
+  \,.
 $$
 
 then morphisms in $T \mathbf{H}$ from the latter to the former
@@ -148,7 +148,7 @@ then morphisms in $T \mathbf{H}$ from the latter to the former
 $$
     \left(
    \array{
-     E \times X
+     X \times \mathbb{S}
      \\
      \downarrow
      \\
@@ -167,15 +167,28 @@ $$
   \right)
 $$
 
-are equivalently
+are equivalently [[homotopy]] [[commuting diagrams]] of the form
 
-1. a choice of [[twisted cohomology|twist of E-cohomology]] $\chi \;\colon \; X  \longrightarrow \mathbf{B}GL_1(E)$;
 
-1. an element in the $\chi$-twisted $E$-cohomology of $X$, hence  $c \in E^{\bullet}(X,E)$.
+$$
+  \array{
+    X \times \mathbb{S} &\stackrel{\sigma}{\longrightarrow}& E//GL_1(E)
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\chi}{\longrightarrow}& \mathbf{B}GL_1(E)
+  }
+$$
 
-If we consider the [[internal hom]] then we can use just $X$ instead of $X \times E$:
+and hence
 
-+-- {: .num_prop}
+1. a choice of [[twisted cohomology|twist of E-cohomology]] $\chi \;\colon \; X  \longrightarrow \mathbf{B}GL_1(E)$, modulating a $GL_1(E)$-[[principal ∞-bundle]];
+
+1. an element in the $\chi$-twisted $E$-cohomology of $X$, $\sigma \in E^{\bullet + \chi}(X,E)$, hence a [[section]] of the [[associated ∞-bundle|associated]] [[(∞,1)-line bundle]].
+
+If we consider the [[internal hom]] instead of the external [[(∞,1)-categorical hom space]] then things work even more nicely and we can use just $X$ instead of $X \times \mathbb{S}$:
+
++-- {: .num_prop #MappingSpectrumOutOfUnstableTypeAsCartesianInternalHom}
 ###### Proposition
 
 For $X \in \mathbf{H} \stackrel{0}{\hookrightarrow} T \mathbf{H}$ a [[geometric homotopy type]] and $E \in Stab(\mathbf{H}) \simeq T_\ast \mathbf{H} \hookrightarrow T \mathbf{H}$ a [[spectrum object]], then the [[internal hom]]/[[mapping stack]]
@@ -221,7 +234,7 @@ This is manifestly the same formula as for the [[mapping spectrum]] out of $\Sig
 
 =--
 
-By the same kind of argument we have the following more general statement.
+Similar kind of arguments give the following more general statement.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -239,6 +252,65 @@ is the object whose
 * whose [[spectrum bundle]] is the collection of $\chi$-[[twisted cohomology|twisted E-cohomology spectra]] for all twists $\chi$.
 
 =--
+
+In full generality we may formulate the [[internal hom]] [[mapping space]] in $T \mathbf{H}$ in [[homotopy type theory]] notation as follows.
+
++-- {: .num_prop #InternalHomGeneral}
+###### Proposition
+
+For 
+
+$$
+  (a \colon A) \;\vdash\; E(a) \colon Spectra(\mathbf{H})
+$$
+
+and
+
+$$
+  (b \colon B) \;\vdash\; F(b) \colon Spectra(\mathbf{H})
+$$
+
+two [[spectrum bundle]] [[dependent types]] over base [[homotopy types]], $A,B \colon \mathbf{H}$, respectively, then the [[function type]] $(E \to F) \colon T\mathbf{H}$ between them (regarded as [[homotopy types]] in of $T \mathbf{H}$) is
+
+$$
+  \chi \colon (A \to B); \sigma \colon \underset{a \colon A}{\prod} SpMap(E_a,F_{f(a)})
+  \;\vdash\;
+  \underset{a \colon A}{\prod} F_{f(a)}
+  \,.
+$$
+
+=--
+
+(thanks to [this discussion](http://nforum.mathforge.org/discussion/5321/parameterized-cohesive-spectra/?Focus=42394#Comment_42394))
+
++-- {: .num_example}
+###### Example
+
+We have the following special cases of prop. \ref{InternalHomGeneral}.
+
+1. If $E_a = 0$ for all $a \colon A$, and if $B = \ast$, then the function type is
+
+   $$
+     \vdash \; \underset{a \colon A}{\prod} F
+   $$
+
+   which reproduces the [[mapping spectrum]] $SpMap(\Sigma^\infty A, F)$ from prop. \ref{MappingSpectrumOutOfUnstableTypeAsCartesianInternalHom}.
+
+1. If $A = B = \ast$ then then the mapping type is 
+
+   $$
+     \sigma \colon SpMap(E,F) \;\vdash \; F \colon Spectra
+   $$
+
+1. If $E_a = 0$ for all $a \colon A$ and $F_b = 0$ for all $b \colon B$ then the mapping type is 
+
+   $$
+     \chi \colon (A \to B)\;\vdash \; 0 \colon Spectra
+     \,.
+   $$
+
+=--
+
 
 ### Cohesive and differential refinement
  {#CohesiveAndDifferentialRefinement}
@@ -298,7 +370,7 @@ $$
   A/\flat A = \flat_{dR}\Sigma A
 $$
 
-of the [[suspension]] of $A$. So
+of the [[suspension]] of $A$, and the map to this quotient is thus the [[Maurer-Cartan form]] $\theta_A$. So
 
 $$
   \array{
@@ -310,7 +382,7 @@ $$
   }
 $$
 
-exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
+exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$.
 
 It follows by the discussion at [[schreiber:differential cohomology in a cohesive topos]] that the further differential refinement $\widehat{A}$ of $A$ should be given by a further [[homotopy pullback]]
 
