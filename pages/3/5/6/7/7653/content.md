@@ -1,8 +1,7 @@
 
-> This page originates in notes prepared along with a [lecture series](#SchreiberLect). 
 
 +-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
++-- {: .toc .clickDown tabindestalx="0"}
 ###Context###
 #### Cohomology
 +--{: .hide}
@@ -15,13 +14,40 @@
 =--
 =--
 
+Rez
+This entry contains lecture notes on 
+
+* [**A)**](#Examples) [[twisted cohomology|twisted]] smooth [[cohomology]] structures appearing in [[string theory]]/[[M-theory]];
+
+* [**B)**](#LocalPrequantumFieldTheory) the corresponding [[sigma model]] [[local prequantum field theory]]
+
+formulated in [[cohesion|cohesive]] [[higher differential geometry]].
 
 
 #Contents#
 * table of contents
 {:toc}
 
-## Idea
+
+
+
+## **A)** Examples of twisted smooth cohomology in string theory
+ {#Examples}
+
+> This section originates in notes prepared along with a lecture series ([Schreiber ESI 2012](#SchreiberLect)) at the Erwin-Schr&#246;dinger institute in 2012.
+
+This section discusses four classes of examples of twisted smooth cohomology in string theory
+
+1. _[Geometric structure (generalized, exceptional)](#VielbeinFields)_
+
+1. _[Spin-, String-, and Fivebrane structure](#SpinStringFivebraneStructures)
+
+1. _[$Spin^c$-, $String^c$-, $Fivebrane^c$-structure](#TwistedK)_
+
+1. _[Higher orientifold structure](#HigherOrientifold)_ 
+
+
+### Idea
 
 The [[background gauge fields]] on [[spacetime]] appearing in [[string theory]] are mathematically described by [[cocycles]] in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] refinements of [[smooth infinity-groupoid|smooth]] [[cohomology]]. A famous example is the [[twisted K-theory]] that describes the [[B-field]]-twisted [[Yang-Mills fields]] over [[D-branes]] in [[type II string theory]]. But there are many more classes of examples of twisted / smooth / differential cohomology appearing throughout string theory.
 
@@ -52,9 +78,7 @@ There are various further examples. As an outlook we indicate aspects of
 * IV) _[Higher orientifold structure](#HigherOrientifold)_.
 
 
-
-
-## Overview: The Table of Twists
+### Overview: The Table of Twists
  {#TableOfTwists} 
 
 The following sections discuss classes of examples of [[twisted differential c-structures|twisted smooth structures]] in [[string theory]]. All these examples are governed by the the same general pattern of [[twisted cohomology]] refined to [[smooth infinity-groupoid|smooth cohomology]] (a gentle explanation/example follows [in a moment](#VielbeinFields), for formal details see further [below](#TwistedCohomology)). They are specified by a _universal local coefficient bundle_
@@ -134,18 +158,6 @@ The following table lists examples of such local coefficient bundles and tabulat
 | | $\array{ \mathbf{B}^3 U(1) &\to& \mathbf{B}Aut(\mathbf{B}^2 U(1)) \\ && \downarrow \\ && \mathbf{B}\mathbb{Z}_2 }$ | [[double cover]] |  | | [[Ho?ava-Witten theory|Ho?ava-Witten orientifold]] | 
  
 
-## Examples
- {#Examples}
-
-This section discusses four classes of examples of twisted smooth cohomology in string theory
-
-1. _[Geometric structure (generalized, exceptional)](#VielbeinFields)_
-
-1. _[Spin-, String-, and Fivebrane structure](#SpinStringFivebraneStructures)
-
-1. _[$Spin^c$-, $String^c$-, $Fivebrane^c$-structure](#TwistedK)_
-
-1. _[Higher orientifold structure](#HigherOrientifold)_ 
 
 ### **I)** Geometric structure (generalized, exceptional)
  {#VielbeinFields}
@@ -262,7 +274,7 @@ $$
 
 where
 
-* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
+* the left morphism is [[stalk]]-wisse (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
 
 * the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
 
@@ -2784,6 +2796,7 @@ $$
   \,,
 $$
 
+
 given in $\mathbf{H}$ by a diagram
 
 $$
@@ -2946,7 +2959,1240 @@ Examples and further details are discussed in [Schreiber, section 4](#Schreiber)
 * (...)
 
 
-## Outlook: geometric quantization of twisted fields
+
+## **B)** Local boundary prequantum field theory from twisted smooth cohomology
+  {#LocalPrequantumFieldTheory}
+
+> This section originates in some talk notes ([Schreiber, Twists 2013](#SchreiberTwists2013)).
+
+We indicate now how the twisted smooth cohomology data as in the examples above induces and in fact corresponds to data for [[prequantum field theory]] [[sigma-models]] _localized_ (in the sense of the [[cobordism hypothesis]]) to [[local prequantum field theory]] ([lpqft](#lpqft)).
+
+In order to formalize this accurately, we first talk a bit more about the relevant [[cohesion]], [[differential cohesion]] and [[tangent cohesion]].
+
+### Cohesive contexts for equivariant differential twisted cohomology
+
+After the discovery of the role of [[topological K-theory]] in [[D-brane]] phenomena in [[string theory]], the observation that more generally [[M-theory]] involves various other [[twisted cohomology]] theories such as [[tmf]] and [[Morava K-theory]], has notably been highlighted by [[Hisham Sati]], surveyed in ([Sati 10](#Sati10)).
+
+The suggestion that the right context for formulating the smooth and differential refinement of these twisted cohomology theories is the [[(∞,1)-topos]] We
+
+$$
+  \begin{aligned}
+  \mathbf{H} 
+    &= 
+   Sh_\infty(SmthMfd) 
+   \\
+    & \simeq 
+  Funct(SmoothMfd^{op}, KanCplx)[\{stalkwise\;homotopy\;equivalences\}^{-1}]
+  \end{aligned}
+$$
+
+of [[∞-stacks]] over the [[site]] of [[smooth manifolds]] (the result of universally turning [[stalk|stalkwise]] [[homotopy equivalences]] on [[simplicial presheaf|presheaves of]] [[Kan complexes]] into actual [[homotopy equivalences]]) is due to ([Schreiber 09](#Schreiber09)). 
+
+A full formalization of the classification of [[principal ∞-bundles]] in such [[(∞,1)-topos]], and their classification by [[nonabelian cohomology]] was later given in ([Nikolaus-Schreiber-Stevenson 12](#NSS)).
+There it is shown that for $G \in Grp(\mathbf{H})$ an [[∞-group]] of twists, the corresponding [[twisted cohomology]] is the plain cohomology of the [[slice (∞,1)-topos]]
+
+$$
+  \mathbf{H}_{/\mathbf{B}G}  \;\; \in (\infty,1)Topos
+  \,.
+$$ 
+
+Precisely, for $\rho \in \mathbf{H}_{\mathbf{B}G}$ a $G$-[[∞-action]] on some $V$ incarnated as its universal [[associated ∞-bundle]] (the [[local coefficient ∞-bundle]]) and for $\chi \colon X \longrightarrow \mathbf{B}G$ a twist, then the $\chi$-[[twisted cohomology]] with [[local coefficients]] in $V$ is
+
+$$
+  \mathbf{H}_{\mathbf{B}G}(\chi_X,\rho)
+  =
+  \left\{
+    \array{
+      X && \stackrel{\phi}{\longrightarrow} && V//G
+      \\
+      & {}_{\mathllap{\chi}}\searrow && \swarrow_{\mathrlap{\rho}}
+      \\
+      && \mathbf{B}G
+    }
+  \right\}
+  \,.
+$$
+
+The observation that for the [[differential cohomology]]-refinement of this [[twisted cohomology|twisted]] geometric cohomology it is the [[adjoint quadruple]] of [[(∞,1)-functors]] between $\mathbf{H}$ to the [[base (∞,1)-topos]] ("[[cohesion]]")
+
+$$
+  \mathbf{H}
+   \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+(with [[discrete object|Disc]] and [[codiscrete object|coDisc]] [[full and faithful (∞,1)-functors]] and the [[fundamental infinity-groupoid of a locally infinity-connected (infinity,1)-topos|fundamental ∞-groupoid]]/[[geometric realization of cohesive homotopy types|geometric realization]] $\Pi$ [[finite (∞,1)-limit|finite product]]-preserving) which governs all the theory was observed first in ([Sati-Schreiber-Stasheff 09 (11)](SatiSchreiberStasheff09))
+
+There it was shown that this serves to construct and characterize the [[twisted differential string structures]] and [[twisted differential Fivebrane structures]] in ([[dual heterotic string theory|dual]]) [[heterotic string theory]].
+
+A comprehensive theory of ([[twisted cohomology|twisted]] [[equivariant cohomology|equivariant]]) [[differential cohomology]] formulated by just this [[axiom]] of "[[cohesion]]" was then laid out in the thesis ([Schreiber 11](#Schreiber)). Parts of this appear in various articles, such as ([Fiorenza-Schreiber-Rogers 13](FiorenzaRogersSchreiber13)). 
+See ([Schreiber Synthetic 13](#SchreiberSynthetic)) for fairly comprehensive survey.
+
+Notice that such [[cohesion]] is a very special property of some [[(∞,1)-toposes]], not a generic property. In particular the existence of $\Pi$ means that $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos]] and a [[globally ∞-connected (∞,1)-topos]], and the existence of $coDisc$ means that it is a [[local (∞,1)-topos]].
+
+Examples of [[cohesion|cohesive]] [[higher geometry]] established and discussed in ([Schreiber 11](#Schreiber)) include
+
+* [[Euclidean topological ∞-groupoids]] $Sh_\infty(TopMfd)$ is cohesive
+
+* [[smooth ∞-groupoids]] $Sh_\infty(SmoothMfd)$ is cohesive
+
+* [[super ∞-groupoids]] $Sh_\infty(SuperPoints)$ is cohesive;
+
+* [[smooth super ∞-groupoids]] $Sh_\infty(SuperMfd)$ is cohesive over [[super ∞-groupoids]];
+
+* [[synthetic differential ∞-groupoids]] $Sh_\infty(FormalMfds)$ is even "[[differential cohesion|differentially cohesive]]", which allows to [[axiom|axiomatize]] also the notions of _[[manifold]]_, _[[jet bundle]]_ etc.;
+
+* [[synthetic differential super ∞-groupoids]] $Sh_\infty(FormalSuperMfds)$ is [[differential cohesion|differentially cohesive]] over [[super ∞-groupoids]].
+
+Clearly these examples are all of a similar kind (modeled on variants of [[manifolds]]). There are also some [[diagram]] categories which are usefully cohesive, for instance
+
+* [[simplicial objects]] $\mathbf{H}^{\Delta^{op}}$ is cohesive over $\mathbf{H}$ (here $\Pi$ is [[geometric realization]] of simplicial objects in the [[(∞,1)-topos]] $\mathbf{H}$).
+
+In October 2013 [[Charles Rezk]] announced a new kind of cohesion, namely:
+
+* [[global equivariant homotopy theory]] $Sh_\infty(Orb)$ (hence [[(∞,1)-presheaves]] on the global [[orbit category]]) is cohesive (here $\Gamma$ produces [[homotopy quotients]] and $\Pi$ produces topological [[quotients]] of [[topological groups]] acting on [[topological spaces]]).
+
+But of course a central feature desireable for [[cohomology theory]] is [[stabilization]] of cohesion/cohesive [[spectrum objects]].
+
+In ([Bunke-Nikolaus-V&#246;lkl 13 (14?)](tangent+cohesion#BunkeNikolausVoelkl13)) is considered the [[stabilization]] of [[smooth ∞-groupoids|smooth cohesion]], hence the [[stable (∞,1)-category]] $Stab(Sh_\infty(SmthMfd))$ of [[spectrum object]] in [[smooth ∞-groupoids]], which carries an analogous [[adjoint quadruple]] over the [[(∞,1)-category of spectra]] $Stab(\infty Grpd) \simeq Spectra$
+
+$$
+  Stab(Sh_\infty(SmthMfd))
+  \stackrel{\overset{\Pi^{stab}}{\longrightarrow}}{\stackrel{\overset{Disc^{stab}}{\leftarrow}}{\stackrel{\overset{\Gamma^{stab}}{\longrightarrow}}{\underset{coDisc^{stab}}{\leftarrow}}}}
+  Spectra
+  \,.
+$$
+
+But this stable aspect is unified with the unstable cohesion by the notion of "[[tangent cohesion]]". This we turn to now.
+
+
+### Cohesive contexts for stable twisted cohomology
+
+
+We first discuss generally how the [[tangent (∞,1)-category]] $T \mathbf{H}$ of an [[(∞,1)-topos]] $\mathbf{H}$ is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]] ([Joyal 08](#Joyal08)). Then we observe that $T \mathbf{H}$ is [[cohesion|cohesive]] if $\mathbf{H}$ is and is in fact an [[extension]] of the latter by its [[stabilization]].
+ a choice 
+
+
+#### Tangent $\infty$-topos
+
++-- {: .num_defn}
+###### Definition
+
+Let $seq$ be the [[diagram]] category as follows:
+
+$$
+  seq 
+  \coloneqq
+  \left\{
+    \array{
+    && \vdots && \vdots
+    \\
+    && \downarrow && 
+    \\
+    \cdots &\to& x_{n-1} &\stackrel{p_{n-1}}{\longrightarrow}& \ast
+    \\
+    &&{}^{\mathllap{p_{n-1}}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_n}} & \searrow^{\mathrm{id}}
+    \\
+    &&\ast &\underset{i_n}{\longrightarrow}& x_n &\stackrel{p_n}{\longrightarrow}& \ast
+    \\
+    && &{}_{\mathllap{id}}\searrow& {}^{\mathllap{p_n}}\downarrow &\swArrow& \downarrow^{\mathrlap{i_{n+1}}}
+    \\
+    && && \ast &\stackrel{i_{n+1}}{\longrightarrow}& x_{n+1} &\to& \cdots
+    \\
+     && && && \downarrow
+     \\
+     && && && \vdots
+    }
+  \right\}_{n \in \mathbb{Z}}
+  \,.
+$$
+
+=--
+
+([Joyal 08, section 35.5](#Joyal08))
+
++-- {: .num_remark}
+###### Remark
+
+Given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
+
+$$
+  X_\bullet \;\colon\; seq \longrightarrow \mathbf{H}
+$$
+
+is equivalently 
+
+1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast in seq$]);
+
+1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;a choi
+
+1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega_B X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
+
+This is a [[prespectrum object]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/B}$. 
+
+A [[natural transformation]] 
+$f \;\colon \;X_\bullet \to Y_\bullet$ between two such functors with components
+
+$$
+  \left\{
+  \array{
+    X_n &\stackrel{f_n}{\longrightarrow}& Y_n
+    \\
+    \downarrow^{\mathrlap{p_n^X}} && \downarrow^{\mathrlap{p_n^Y}}
+    \\
+    B_1 &\stackrel{f_b}{\longrightarrow}& B_2
+  }
+  \right\}
+$$
+
+is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow f_b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $f_b$.
+
+
+Therefore the [[(∞,1)-presheaf (∞,1)-topos]] 
+
+$$
+  \mathbf{H}^{seq}
+  \coloneqq
+  Func(seq, \mathbf{H})
+$$ 
+
+is the [[codomain fibration]] of $\mathbf{H}$ with "fiberwise pre-stabilization".
+
+A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow} \Omega_B X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
+
+$$
+  T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}
+$$
+
+on the genuine [[spectrum objects]] is therefore the "fiberwise [[stabilization]]" of the [[codomain fibration]], hence the tangent $(\infty,1)$-category.
+
+=--
+
++-- {: .num_lemma #SpectrificationLemma}
+###### Lemma
+**(spectrification is left exact reflective)**
+
+The inclusion of [[spectrum objects]] into $\mathbf{H}$  is [[left exact (infinity,1)-functor|left]] [[reflective sub-(infinity,1)-category|reflective]], hence it has a [[left adjoint]] [[(∞,1)-functor]] $L$ which preserves [[finite (∞,1)-limits]].
+
+$$
+  T \mathbf{H}
+  \stackrel{\overset{L_{lex}}{\leftarrow}}{\hookrightarrow}
+  \mathbf{H}^{seq}
+  \,.
+$$
+
+
+=--
+
+([Joyal 08, section 35.1](#Joyal08))
+
++-- {: .proof}
+###### Proof 
+
+Forming degreewise [[loop space objects]] constitutes an [[(∞,1)-functor]] $\Omega \colon \mathbf{H}^{seq} \longrightarrow \mathbf{H}^{seq}$ and by definition of $seq$ this comes with a [[natural transformation]] out of the identity
+
+$$
+  \theta \;\colon\; id \longrightarrow \Omega
+  \,.
+$$
+
+This in turn is compatible with $\Omega$ in that
+
+$$
+  \theta \circ \Omega \simeq \Omega \circ \theta
+  \;\colon\;
+  \rho \longrightarrow \rho \circ \rho = \rho^2
+  \,.
+$$
+
+Consider then a sufficiently deep [[transfinite composition]] $\rho^{tf}$. By the [[small object argument]] available in the [[presentable (∞,1)-category]] $\mathbf{H}$ this stabilizes, and hence provides a [[reflective sub-(infinity,1)-category|reflection]] $L \;\colon\; \mathbf{H}^{seq} \longrightarrow T \mathbf{H}$.
+
+Since [[transfinite composition]] is a [[filtered (∞,1)-colimit]] and since in an [[(∞,1)-topos]] these commute with [[finite (∞,1)-limits]], it follows that spectrum objects are an [[exact (∞,1)-functor|left exact]] [[reflective sub-(∞,1)-category]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] over the [[base (∞,1)-topos]] $\infty Grpd$, its [[tangent (∞,1)-category]] $T \mathbf{H}$ is an [[(∞,1)-topos]] over the base $T \infty Grpd$ (and hence in particular also over $\infty Grpd$ itself).
+
+=--
+
+([Joyal 08, section 35.5](#Joyal08))
+
++-- {: .proof}
+###### Proof 
+
+By the the spectrification lemma \ref{SpectrificationLemma} 
+$T \mathbf{H}$ has a [[geometric embedding]] into the [[(∞,1)-presheaf (∞,1)-topos]] $\mathbf{H}^{seq}$, and this implies that it is an [[(∞,1)-topos]] (by the discussion there).
+
+Moreover, since both [[adjoint (∞,1)-functor]] in the [[global section geometric morphism]] $\mathbf{H} \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}} \infty Grpd$ preserve [[finite (∞,1)-limits]] they preserve [[spectrum objects]] and hence their immediate [[(∞,1)-presheaf]] prolongation immediately restricts to the inclusion of spectrum objects
+
+$$
+  \array{
+    T \mathbf{H} &\stackrel{\overset{T \Delta}{\leftarrow}}{\underset{T \Gamma}{\longrightarrow}}&
+   T \infty Grpd
+   \\
+   \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+   \\
+   \mathbf{H}
+    &
+    \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}
+    &
+   \infty Grpd
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We may think of the [[tangent ∞-topos]] $T \mathbf{H}$ as being an [[extension]] of $\mathbf{H}$ by its [[stabilization]] $Stab(\mathbf{H}) \simeq T_\ast \mathbf{H}$:
+
+$$
+  \array{
+    Stab(\mathbf{H}) &\stackrel{\overset{Stab(\Delta)}{\leftarrow}}{\underset{Stab(\Gamma)}{\longrightarrow}}&
+    Spectra
+    \\
+    \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    \\
+    T\mathbf{H} &\stackrel{\overset{T\Delta}{\leftarrow}}{\underset{T\Gamma}{\longrightarrow}}&
+    T \infty Grpd
+    \\
+    \downarrow^{\mathrlap{base}} && \downarrow^{\mathrlap{base}}
+    \\
+    \mathbf{H} &\stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}&
+    \infty Grpd
+  }
+  \,.
+$$
+
+Crucial for the internal interpretation in [[homotopy type theory]] is that the [[homotopy types]] in $T_\ast \mathbf{H} \hookrightarrow T \mathbf{H}$ are [[stable homotopy types]].
+
+=--
+
+#### Tangent cohesive homotopy theory
+
+
+Now consider the case that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] over [[∞Grpd]], 
+in that there is an [[adjoint quadruple]]
+
+$$
+  \mathbf{H}
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+with $Disc, coDisc$ being [[full and faithful (∞,1)-functors]] and $\Pi$ preserving finite [[(∞,1)-products]].
+
+Since [[(∞,1)-limits]] and [[(∞,1)-colimits]] in an [[(∞,1)-presheaf (∞,1)-topos]] are computed objectwise, this [[adjoint quadruple]] immediately prolongs to $\mathbf{H}^{seq}$
+
+$$
+  \mathbf{H}^{seq}
+    \stackrel{\overset{\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  \infty Grpd^{seq}
+  \,.
+$$
+
+Moreover, all three [[right adjoints]] preserves the [[(∞,1)-pullbacks]] involved in the characterization of [[spectrum objects]] and hence restrict to $T \mathbf{H}$
+
+$$
+  T\mathbf{H}
+    \stackrel{}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  T\infty Grpd
+  \,.
+$$
+
+But then we have a further [[left adjoint]] given as the composite
+
+$$
+  T\mathbf{H}
+  \hookrightarrow
+  \mathbf{H}^{seq}
+   \stackrel{\overset{\Pi^{seq}}{\longrightarrow}}{\underset{Disc^{seq}}{\leftarrow}}
+  \infty Grpd^{seq}
+   \stackrel{\overset{L}{\longrightarrow}}{\underset{}{\leftarrow}}
+  T \infty Grpd
+  \,.
+$$
+
+Again since $L$ is a [[left exact (∞,1)-functor]] this composite $L \Pi$ preserves finite [[(∞,1)-products]].
+
+So it follows in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]], which is an [[extension]] of the cohesion of the $\infty$-topos $\mathbf{H}$ over $\infty Grpd$ by the cohesion of the stable $\infty$-category $Stab(\mathbf{H})$ over $Stab(\infty Grpd) \simeq Spec$:
+
+
+$$
+  \array{
+    && Stab(\mathbf{H})
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+    &
+    Stab(\infty Grpd) \simeq Spectra
+    \\
+    && \simeq && \simeq
+    \\
+    && T_\ast \mathbf{H} && T_\ast \infty Grpd
+    \\
+    && \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    \\
+    \mathbf{H}
+    &\stackrel{\overset{d}{\longrightarrow}}{\underset{\Omega^\infty \circ tot}{\leftarrow}}&
+    T \mathbf{H}
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  &
+  T \infty Grpd
+  \\
+  &&
+  {}^{\mathllap{base}}\downarrow \uparrow^{\mathrlap{0}} 
+  && 
+  {}^{\mathllap{base}}\downarrow \uparrow^{\mathrlap{0}} 
+  \\
+  &&
+    \mathbf{H}
+    &
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  &
+  \infty Grpd
+  }
+  \,.
+$$
+
+Here
+
+* $\Omega^\infty \circ tot \;\colon\; T \mathbf{H} \longrightarrow \mathbf{H}$ assigns the _total space_ of a spectrum bundle;
+
+  its [[left adjoint]] is the [tangent complex functor](tangent+%28infinity%2C1%29-category#CotangentComplex);
+
+* $base \;\colon\; T \mathbf{H} \longrightarrow \mathbf{H}$ assigns the _base space_ of a spectrum bundle;
+
+  its [[left adjoint]] produces the 0-bundle.
+
+
+
+Where the [[(∞,1)-categorical hom-space]] in a general [[(∞,1)-topos]] constitute a notion of [[cohomology]], those of a [[tangent (∞,1)-topos]] specifically constitute [[twisted generalized cohomology]], in fact [[twisted bivariant cohomology]].
+
+For consider a [[spectrum object]] $E \in T_\ast \mathbf{H}$ and write $GL_1(E) \in Grp(\mathbf{H})$ for its [[∞-group of units]]. Then the [[∞-action]] of this on $E$ is (by the discussion there) exhibited by an object 
+
+$$
+  \left(
+   \array{
+     E//GL_1(E)
+     \\
+     \downarrow
+     \\
+     \mathbf{B}GL_1(E)
+   }
+  \right)
+  \;\;\;
+   \in
+  \;\;\;
+  T_{\mathbf{B}GL_1(E)}\mathbf{H} \hookrightarrow T\mathbf{H}
+  \,.
+$$
+
+More generally, for $Pic(E) \in \mathbf{H}$ the [[Picard ∞-groupoid]] of $E$ there is the universal [[(∞,1)-line bundle]]
+
+$$
+  (\widehat{Pic(E)} \to Pic(E)) \in T \mathbf{H}
+  \,.
+$$
+
+Now for any object $X \in \mathbf{H}$ we have
+
+$$
+  X \times E
+  \simeq
+  \left(
+   \array{
+     E \times X
+     \\
+     \downarrow
+     \\
+     X
+   }
+  \right)
+  \;\;\;
+   \in
+  \;\;\;
+  T_{X}\mathbf{H} \hookrightarrow T\mathbf{H}
+  \,,
+$$
+
+then morphisms in $T \mathbf{H}$ from the latter to the former
+
+$$
+    \left(
+   \array{
+     E \times X
+     \\
+     \downarrow
+     \\
+     X
+   }
+  \right)
+  \longrightarrow
+  \left(
+   \array{
+     E//GL_1(E)
+     \\
+     \downarrow
+     \\
+     \mathbf{B}GL_1(E)
+   }
+  \right)
+$$
+
+are equivalently
+
+1. a choice of [[twisted cohomology|twist of E-cohomology]] $\chi \;\colon \; X  \longrightarrow \mathbf{B}GL_1(E)$;
+
+1. an element in the $\chi$-twisted $E$-cohomology of $X$, hence  $c \in E^{\bullet}(X,E)$.
+
+If we consider the [[internal hom]] then we can use just $X$ instead of $X \times E$:
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in \mathbf{H} \stackrel{0}{\hookrightarrow} T \mathbf{H}$ a [[geometric homotopy type]] and $E \in Stab(\mathbf{H}) \simeq T_\ast \mathbf{H} \hookrightarrow T \mathbf{H}$ a [[spectrum object]], then the [[internal hom]]/[[mapping stack]]
+
+$$
+  [X,E]_{T \mathbf{H}} \in T \mathbf{H}
+$$
+
+(with respect to the Cartesian [[closed monoidal (∞,1)-category]] structure on the [[(∞,1)-topos]] is equivalently the [[mapping spectrum]]
+
+$$
+  [\Sigma^\infty X, E]_{Stab(\mathbf{H})} \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}
+  \,,
+$$
+
+in that 
+
+$$
+  [X,E]_{T \mathbf{H}} \simeq [\Sigma^\infty X,E]_{Stab(\mathbf{H})}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Notice that as an object of $T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}$, the object $X$ is the constant [[(∞,1)-presheaf]] on $seq$. By the formula for the [[internal hom]] in an [[(∞,1)-category of (∞,1)-presheaves]] we have
+
+$$
+  [X,E]_\bullet \simeq \mathbf{H}^{seq}(X \times \bullet, E)
+  \,.
+$$
+
+But since $X$ is constant the object $X \times \bullet$ is for each object of $seq$ the [[representable functor|presheaf represented]] by that object. Therefore by the [[(∞,1)-Yoneda lemma]] it follows that
+
+$$
+  [X,E]_\bullet \simeq [X,E_\bullet]
+  \,.
+$$
+
+This is manifestly the same formula as for the [[mapping spectrum]] out of $\Sigma^\infty X$.
+
+=--
+
+By the same kind of argument we have the following more general statement.
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in \mathbf{H} \stackrel{0}{\hookrightarrow} T \mathbf{H}$ a [[geometric homotopy type]], for $E \in E_\infty(\mathbf{H})$ an [[E-∞ ring]]  with $(\widehat{Pic(E)} \to Pic(E)) \hookrightarrow T \mathbf{H}$ its universal [[(∞,1)-line bundle]] over its [[Picard ∞-groupoid]], then the [[internal hom]]/[[mapping stack]]
+
+$$
+  [X,\widehat{Pic(E)}]_{T \mathbf{H}} \in T \mathbf{H}
+$$
+
+is the object whose
+
+* base homotopy type is the [[E-∞ ring]] $[X, Pic(E)]$ of $E$-[[twisted cohomology|twist]] on $X$;
+
+* whose [[spectrum bundle]] is the collection of $\chi$-[[twisted cohomology|twisted E-cohomology spectra]] for all twists $\chi$.
+
+=--
+
+
+
+#### Cohesive and differential refinement in tangent cohesion
+ {#CohesiveAndDifferentialRefinement}
+
+
+Let $T\mathbf{H}$ be a tangent cohesive $(\infty,1)$-topos and write $T_\ast \mathbf{H}$ for the [[stable (∞,1)-category]] of [[spectrum objects]] inside it.
+
++-- {: .num_prop}
+###### Proposition
+
+For every $A \in T_\ast \mathbf{H}$ the [[natural transformation|naturality square]] 
+
+$$
+  \array{
+    A &\stackrel{}{\longrightarrow}& A/\flat A
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+$$
+
+(of the [[shape modality]] applied to the [[homotopy cofiber]] of the [[counit of a comonad|counit]] of the [[flat modality]]) is an [[(∞,1)-pullback]] square.
+
+=--
+
+This was observed in ([Bunke-Nikolaus-V&#246;lkl 13](tangent+cohesion#BunkeNikolausVoelkl13)). It is an incarnation of a [[fracture theorem]].
+
++-- {: .proof}
+###### Proof 
+
+By [[cohesive (infinity,1)-topos|cohesion]] and [[stable (infinity,1)-category|stability]] we have the diagram
+
+$$
+  \array{
+    \flat A &\longrightarrow & A &\stackrel{}{\longrightarrow}& A/\flat A
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow && \downarrow
+    \\
+    \Pi(\flat A) &\longrightarrow& \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+$$
+
+where both rows are [[homotopy fiber sequences]]. By [[cohesive (infinity,1)-topos|cohesion]] the left vertical map is an [[equivalence in an (infinity,1)-category|equivalence]]. The claim now follows with the [homotopy fiber characterization](homotopy+pullback#HomotopyFiberCharacterization) of [[homotopy pullbacks]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+This means that in stable cohesion every cohesive stable homotopy type is in controled sense a cohesive extension/refinement of its [[geometric realization of cohesive infinity-groupoids|geometric realization]] [[discrete infinity-groupoid|geometrically discrete]] ("bare") stable [[homotopy type]] by the non-[[discrete object|discrete]] part of its cohesive structure;
+
+In particular, $A/\flat A$ may be identified with differential cycle data. Indeed, by stability and cohesion it is the [flat de Rham coefficient object](cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology)
+
+
+$$
+  A/\flat A = \flat_{dR}\Sigma A
+$$
+
+of the [[suspension]] of $A$. So
+
+$$
+  \array{
+    A &\stackrel{\theta_A}{\longrightarrow}& \flat_{dR}\Sigma A
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+$$
+
+exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized cohomology theory]] $\Pi(A)$ ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
+
+It follows by the discussion at [[schreiber:differential cohomology in a cohesive topos]] that the further differential refinement $\widehat{A}$ of $A$ should be given by a further [[homotopy pullback]]
+
+$$
+  \array{
+    \widehat{A} &\longrightarrow& \Omega^1(-,Lie(A))
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    A &\stackrel{\theta_A}{\longrightarrow}& \flat_{dR}\Sigma A
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    \Pi(A) &\stackrel{}{\longrightarrow}& \Pi(A/\flat A)
+  }
+  \,.
+$$
+
+
+=--
+
+
+
+### Local prequantum field theory
+
+We describe the formulation of [[local prequantum field theory]] in a [[cohesive (∞,1)-topos]] $\mathbf{H}$ ([lpqft](#lpqft)).
+
+
+A [[classical field theory]]/[[prequantum field theory]]
+is traditionally defined by an [[action functional]]: given a [[smooth space]] $\mathbf{Fields}_{traj}$ "of [[trajectories]]" of a given [[physical system]], then the [[action functional]] is a [[smooth function]]
+
+$$
+  \array{
+    \mathbf{Fields}_{traj}
+    \\
+    \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    U(1)
+  }
+$$
+
+to the [[circle group]]. The idea of producing a [[quantum field theory]] from this is to 
+
+1. choose a linearization in the form of the group [[homomorphism]] 
+$U(1) \longrightarrow GL_1(\mathbb{C})$ to the [[group of units]] of the complex numbers, 
+
+1. choose a [[measure]] $d\mu$ on $\mathbf{Fields}_{traj}$ 
+
+and then declare that the [[integral]] ("[[path integral]]")
+
+$$
+  \underset{\phi \in \mathbf{Fields}_{traj}}{\int} \exp(i S(\phi))\, d\mu \in \mathbb{C}
+$$ 
+
+is the [[partition function]] of the theory a kind of [[expectation value]] with [[probabilities]] replaced by [[probability amplitudes]].
+
+In order to make sense of this (for a full discussion of "[[motivic quantization]]" in this sense see ([Nuiten 13](#Nuiten13)), here we concentrate on the [[prequantum field theory|pre-quantum aspects]]), it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[circle group]]-[[principal bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
+
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow &\downarrow^{\mathrlap{\exp(i S)}}& \searrow
+    \\
+    \ast &\leftarrow& U(1) &\rightarrow& \ast
+    \\
+    & {}_{\mathllap{0}}\searrow &{}^{(pb)}& \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,,
+$$
+
+where on the right we used the [[universal property]] of the [[homotopy pullback]] [[diagram]] which exhibits the smooth [[circle group]] $U(1)$ as the [[loop space object]] of $\mathbf{B}U(1)$.
+
+For instance for $X$ a [[smooth manifold]] ("[[spacetime]]") and $\nabla \;\colon\; X \longrightarrow \mathbf{B}U(1)_{conn}$ a [[circle group]]-[[principal connection]] ("[[electromagnetic field]] on [[spacetime]]") then for [[trajectories]] in $X$ of shape the [[circle]], the canonical [[action functional]] ("[[Lorentz force]] gauge [[interaction]]") is the [[holonomy]] [[functional]]
+
+$$
+  \exp(i S_{Lor})
+  \coloneqq
+  \exp(i \int_{S^1} [S^1, \nabla])
+  \;\colon\;
+  [S^1, X]
+  \stackrel{[S^1, X]}{\longrightarrow}
+  [S^1, \mathbf{B}U(1)_{conn}]
+  \stackrel{\exp(i \int_{S^1}(-))}{\longrightarrow}
+  U(1)
+  \,.
+$$
+
+But more generally, if the [[trajectories]] have a [[boundary]], hence if they are of the shape of an [[interval]] $I \coloneqq [0,1]$, then the [[holonomy]] functional on [[smooth loop space]] $[S^1, X]$ generalizes to the [[parallel transport]] on the [[path space]] $[I,X]$ and there it is no longer a function, but exists only as a [[homotopy]] of the form
+
+$$
+  \array{
+    && [I,X]
+    \\
+    & {}^{(-)|_0}\swarrow && \searrow^{\mathrlap{(-)|_1}}
+    \\
+    X && \swArrow_{\exp(i \int_{I}[I,\nabla])} && X
+    \\
+    & {}_{\mathllap{\chi_\nabla}}\searrow && \swarrow_{\mathrlap{\chi_\nabla}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+ 
+Notice that this is a "local" description of the action functional: the data that determines it is the boundary
+
+$$
+  \array{
+    X
+    \\
+    \downarrow^{\mathrlap{\nabla}}
+    \\
+    \mathbf{B}U(1)_{conn}
+  }
+$$
+
+and from this the rest is induced by [[transgression]]. 
+
+A related class of examples are [[prequantized Lagrangian correspondences]]: Let 
+
+$$
+  \array{
+     X
+     \\
+     \downarrow^{\mathrlap{\omega}}
+     \\
+     \mathbf{\Omega}^2
+  }
+$$
+
+be a [[symplectic manifold]]. Then a [[symplectomorphism]] $f \;\colon\; X \longrightarrow X$ is a [[correspondence]] of the form
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && && X
+    \\
+    & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}}
+    \\
+    && \mathbf{\Omega}^2
+  }
+  \,.
+$$
+
+A [[prequantization]] of $(X,\omega)$ is a lift $\nabla$ in
+
+$$
+  \array{
+    X &\stackrel{\nabla}{\longrightarrow}& \mathbf{B}U(1)_{conn}
+    \\
+    & \searrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \mathbf{\Omega}^2
+  }
+$$
+
+and so a [[prequantized Lagrangian correspondence]] is
+
+$$
+  \array{
+    && graph(f)
+    \\
+    & \swarrow && \searrow
+    \\
+    X && \swArrow && X
+    \\
+    & _{\mathllap{\nabla}}\searrow && \swarrow_{\mathrlap{\nabla}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,.
+$$
+
+To conceptualize all this, write
+
+$$
+  \mathbf{H} \coloneqq SmoothGrpd \coloneqq
+  Func(SmoothMfd^{op}, Grpd)[\{stalkwise\;equivalences\}^{-1}]
+$$
+
+for the [[homotopy theory]] obtained from the [[category]] of [[groupoid]]-valued [[presheaves]] on the [[category]] of all [[smooth manifolds]] by universally turning [[stalk|stalkwise]] [[equivalences of groupoids]] into genuine [[homotopy equivalences]] ("[[simplicial localization]]").
+
+This is the [[(2,1)-topos]] of [[smooth groupoids]]/smooth ([[moduli stacks|moduli]]) [[stacks]].
+
+Write 
+
+$$
+  Corr_1(\mathbf{H})
+  \in 
+  (2,1)Cat
+$$ 
+
+for the [[(2,1)-category]] of [[correspondences]] in $\mathbf{H}$. Write $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ for the [[slice (infinity,1)-topos|slice]] [[(2,1)-topos]] over the smooth [[moduli stack]] of [[circle n-bundles with connection|circle bundles with connection]]. Then the abovve diagrams are morphisms in $Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$.
+
++-- {: .num_prop}
+###### Proposition 
+
+The [[automorphism group]] of $\nabla \in Corr_1(\mathbf{H}_{/\mathbf{B}U(1)_{conn}})$ is the [[quantomorphism group]] of $(X,\omega)$, hence the [[smooth group]] which is the [[Lie integration]] of the [[Poisson bracket]] [[Lie algebra]] of $(X,\omega)$.
+
+A [[concrete object|concrete]] smooth 1-parameter subgroup
+
+$$
+  \mathbf{B}\mathbb{R} \longrightarrow
+  \mathbf{B}\mathbf{Aut}_{/\mathbf{B}U(1)_{conn}}(\nabla)
+  \hookrightarrow
+  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+$$
+
+is equivalently a choice $H \in C^\infty(X)$ of a smooth function and sends
+
+$$
+  t
+  \;\;
+   \mapsto
+  \;\;
+  \left(
+  \array{
+    X &&\stackrel{\exp(t \{H,-\})}{\longrightarrow}&& X
+    \\
+    & {}_{\mathllap{\nabla}}\searrow &\swArrow_{\mathrlap{\exp(i S_t)}}& \swarrow_{\mathrlap{\nabla}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \right)
+  \,,
+$$
+
+where
+
+1. $\exp(t \{H,-\})$ is the [[Hamiltonian flow]] induced by $H$;
+
+1. $S_t = \int_0^t L$ is the [[Hamilton-Jacobi theory|Hamilton-Jacobi]] [[action functional]], the [[integral]] of the [[Lagrangian]] of $H$, hence of its [[Legendre transform]].  
+
+=--
+
+
+(see [Schreiber 13](#SchreiberClassical)).
+
+It is now clear how to pass from this to [[local prequantum field theory]] of higher dimension.
+
+Let now more generally
+
+
+
+$$
+  \mathbf{H} \coloneqq 
+  Smooth\infty Grpd
+  \coloneqq
+  Func(SuperMfd^{op}, KanCplx)[\{stalkwise\;homotopy\;equivalences\}^{-1}]
+$$
+
+be the [[homotopy theory]] obtained from the [[category]] of [[Kan complex]]-valued [[presheaves]] on the category of all [[supermanifolds]] by universally turning [[stalk|stalkwise]] [[homotopy equivalences]] into actual [[homotopy equivalences]].
+
+We say that this is the [[(∞,1)-topos]] of _[[smooth super ∞-groupoids]]_/_[[supergeometry|supergeometric]] [[moduli ∞-stacks]]_.
+
+Let 
+
+$$
+  Corr_n(\mathbf{H}) \in (\infty,n)Cat
+$$
+
+be the [[(∞,n)-category]] of $n$-fold [[correspondences]] in $\mathbf{H}$. This is a [[symmetric monoidal (∞,n)-category]] under the objectwise [[Cartesian product]] in $\mathbf{H}$.
+
+
+
+[[Smooth∞Grpd]] has the special property that it is [[cohesive (∞,1)-topos|cohesive]] in that it is equipped with an [[adjoint quadruple]] of [[adjoint (∞,1)-functors]]
+
+$$
+  \mathbf{H}
+  \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  \infty Grpd
+$$
+
+which induce an [[adjoint triple]] of [[idempotent monad|idempotent]] [[(∞,1)-monads]]/comonads
+
+
+$$
+  \left(
+    \Pi \dashv \flat \dashv \sharp
+  \right)
+  \;\colon\;
+  \mathbf{H} 
+  \longrightarrow
+  \mathbf{H}
+$$
+
+with $\Pi$ [[Cartesian product|product]]-preserving, called
+
+* _[[shape modality]]_ $\dashv$ _[[flat modality]]_ $\dashv$ _[[sharp modality]]_ .
+
+Here the [[shape modality]] $\Pi$ sends a [[simplicial manifold]] to the [[homotopy type]] of the [[geometric realization of simplicial topological spaces|fat geometric realization]] of the underlying [[simplicial topological space]], hence in particular sends a [[smooth manifold]] to its [[homotopy type]].
+ 
+Write $Bord_n$ for the [[(∞,n)-category of cobordisms|(∞,n)-category of framed n-dimensional cobordisms]].
+
++-- {: .num_prop}
+###### Proposition 
+
+A [[monoidal (∞,n)-functor]] 
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  Bord_n
+  \longrightarrow
+  Corr_n(\mathbf{H})
+$$
+
+is equivalently a choice of object $\mathbf{Fields} \in \mathbf{H}$. It sends a [[cobordism]] $\Sigma$ to the [[internal hom]] of its [[shape]] into the [[higher moduli stack]] $\mathbf{Fields}$:
+
+
+$$
+  \left(
+    \array{
+      && \Sigma
+      \\
+      & \nearrow && \nwarrow
+      \\
+      \Sigma_{in}
+      && &&
+      \Sigma_{out}
+    }
+  \right)
+  \;\;
+   \mapsto
+  \;\;
+  \left(
+    \array{
+       && [\Pi\Sigma, \mathbf{Fields}]
+       \\
+       & {}^{(-)|_{\Sigma_{in}}}\swarrow
+       &&
+       \searrow^{(-)|_{\Sigma_{out}}}
+       \\
+       [\Pi(\Sigma_{in}), \mathbf{Fields}]
+       && &&
+       [\Pi(\Sigma_{out}), \mathbf{Fields}]
+    }
+  \right)
+  \,.
+$$
+
+=--
+
+([lpqft](#lpqft))
+
+
++-- {: .num_prop}
+###### Proposition 
+
+Under the [[Dold-Kan correspondence]] 
+
+$$
+  DK \colon ChainComplexes \stackrel{\simeq}{\longrightarrow}
+  SimplicialAbelianGroups
+  \stackrel{forget}{\longrightarrow}
+  KanComplexes
+$$
+
+
+we have for all $n \in \mathbb{N}$ an [[equivalence]]
+
+$$
+  \flat \mathbf{B}^{n+1}U(1)
+   \simeq
+  DK
+  \left(
+    \underline{U}(1)
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^1 
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^2
+    \stackrel{\mathbf{d}}{\longrightarrow}
+    \cdots  
+   \stackrel{\mathbf{d}}{\longrightarrow}
+    \mathbf{\Omega}^{n+1}_{cl}   
+  \right)
+$$
+
+in $\mathbf{H}$.
+
+=--
+
++-- {: .num_example #tYM}
+###### Example
+
+Consider the induced canonical inclusion
+
+$$
+  \mathbf{\Omega}^{n+1}
+  \longrightarrow
+  \flat \mathbf{B}^{n+1}U(1)
+  \,.
+$$
+
+By the above we may regard this as an [[action functional]] for an $(n+1)$-dimensional [[prequantum field theory]] with [[moduli stack]] of [[field (physics)|fields]] being $\mathbf{\Omega}^{n+1}_{cl}$. As such we denote it
+
+$$
+  \array{
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+     \\
+     \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,,
+$$
+
+where the subscript is supposed to refer to "universal higher [[topological Yang-Mills theory]]".
+
+=--
+
++-- {: .num_prop}
+###### Proposition 
+
+[[monoidal (∞,n)-functors]]
+
+$$
+  \array{
+     Bord_n
+     &\stackrel{\exp(i S)}{\longrightarrow}&
+     Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+     \\
+     & {}_{\mathbf{Fields}} \searrow & \downarrow
+     \\
+     && Corr_n(\mathbf{H})
+  }
+$$
+
+are equivalent to objects
+
+$$
+  \left(
+  \array{
+    \mathbf{Fields}
+    \\
+     \downarrow^{\mathrlap{\exp(i S)}}
+    \\
+    \flat \mathbf{B}^{n+1}U(1)
+  }
+  \right)
+  \;\;\;
+    \in
+  \;\;\;
+  \mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)}
+  \hookrightarrow
+  Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+  \,.
+$$
+
+This sends the dual point to $\exp(- i S)$
+and sends the $k$-[[sphere]] to the [[transgression]]
+of $\exp(i S)$ to the mapping space $[S^k , \mathbf{Fields}]$.
+
+=--
+
+([lpqft](#lpqft))
+
++-- {: .num_example}
+###### Example
+
+Consider the induced canonical inclusion
+
+$$
+  \mathbf{\Omega}^{n+1}
+  \longrightarrow
+  \flat \mathbf{B}^{n+1}U(1)
+  \,.
+$$
+
+By the above we may regard this as an [[action functional]] for an $(n+1)$-dimensional [[prequantum field theory]] with [[moduli stack]] of [[field (physics)|fields]] being $\mathbf{\Omega}^{n+1}_{cl}$. As such we denote it
+
+$$
+  \array{
+     \mathbf{\Omega}^{n+1}_{cl}
+     \\
+     \downarrow^{\mathrlap{\exp(i S_{tYM})}}
+     \\
+     \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,,
+$$
+
+where the subscript is supposed to refer to "universal higher [[topological Yang-Mills theory]]".
+
+=--
+
+
+Observe that by the [[cobordism hypothesis]] $Bord_n$ is the [[free construction|free]] [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects]] generated from a single object $\ast$. 
+
+$$
+  Bord_n \simeq FreeSMwD(\{\ast\})
+  \,.
+$$
+
+Let then
+
+$$
+  Bord_n^{\partial} \coloneqq FreeSMwD(\{\emptyset \longrightarrow \ast\})
+$$
+
+the free [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects]] generated from a single object $\ast$ and a single [[morphism]] $\emptyset \longrightarrow \ast$ from the [[tensor unit]] to the generating object. By the [[boundary field theory]]/[[defect field theory|defect]] version of the [[cobordism hypothesis]], this is equivalently the [[(∞,n)-category of cobordisms]] with possibly a [[boundary]] component of [[codimension]] $(n-1)$.
+
+Hence a [[boundary field theory]] is
+
+$$
+  \array{
+     Bord_n^\partial
+     &\stackrel{\exp(i S)}{\longrightarrow}&
+     Corr_n(\mathbf{H}_{/\flat \mathbf{B}^{n+1}U(1)})
+     \\
+     & {}_{\mathbf{Fields}^\partial} \searrow & \downarrow
+     \\
+     && Corr_n(\mathbf{H})
+  }
+$$
+
++-- {: .num_remark}
+###### Remark
+
+A [[boundary field theory]] as above is equivalently a [[diagram]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    && \mathbf{Fields}_{bdr}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \mathbf{Fields}
+    \\
+    & \searrow && \swarrow_{\mathrlap{\exp(i S)}}
+    \\
+    && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The _universal_ [[boundary field theory|boundary condition]] for
+the universal higher topological Yang-Mills theory of example \ref{tYM} is the [[higher moduli stack]]
+$\mathbf{B}^n U(1)_{conn}$ of [[circle n-bundle with connection]],
+hence a general boundary condition for this 
+higher [[topological Yang-Mills theory]] is a
+[[schreiber:∞-Chern-Simons theory]]].
+
+
+
+=--
+
+The [[schreiber:∞-Wess-Zumino-Witten theory]] that we are after are boundaries of these boundary field theories, hence "corner field theories" ([Sati 11](#Sati11), [lpqft](#lpqft)) of the higher universal topological Yang-Mills theory. This we turn to now.
+
+
++-- {: .num_remark}
+###### Remark
+
+
+The earliest and the only rigorously understood example of the [[holographic principle]] is the [[AdS3-CFT2 and CS-WZW correspondence]] between the [[WZW model]] on a [[Lie group]] $G$ and 3d $G$-[[Chern-Simons theory]].
+
+In ([Witten 98](7d+Chern-Simons+theory#Witten98)) it is argued that all examples of the [[AdS-CFT duality]] are governed by the [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] terms in the [[supergravity]] [[Lagrangian]] on one side of the correspondence, hence that the corresponding [[conformal field theories] are higher dimensional analogs of the traditional [[WZW model]]: that they are "[[schreiber:∞-Wess-Zumino-Witten theory]]"-type models.
+
+In particular for [[AdS7-CFT6]] this means that the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] [[worldvolume]] should be a 6d-dimensional WZW model holographically related to the [[7d Chern-Simons theory]] which appears when [[11-dimensional supergravity]] is [[KK-reduction|KK-reduced]] on a 4-[[sphere]]:
+
+| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]]$\rightarrow$ | [[schreiber:∞-Wess-Zumino-Witten theory]] |
+|---|---|---|
+| 3d [[Chern-Simons theory]] |  | 2d [[Wess-Zumino-Witten model]] |
+| [[7d Chern-Simons theory]] from [[11-dimensional supergravity]] |  | [[6d (2,0)-superconformal QFT]] on [[M5-brane]] |
+
+In ([Witten 96](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#WittenI)) this is argued, by [[geometric quantization]] after [[transgression]] to [[codimension]] 1, for the _bosonic and abelian_  contribution in [[7d Chern-Simons theory]]. (The subtle [[theta characteristic]] involved was later formalized in [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]].) 
+
+
+In order to formalize this in generality, one needs a general formalization of [[holography]] for [[local prequantum field theory]] as these. How are [[schreiber:∞-Wess-Zumino-Witten theory]]-models higher holographic boundaries of [[schreiber:∞-Chern-Simons theory]]? This we are dealing with at _[[Super Gerbes]]_.
+
+
+=--
+
+
+
+### Motivic quantization of twisted fields
 
 So far we have considered [[configuration spaces]] of fields, refined to [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]]. The next step is to consider aspects of the [[quantization]] of these fields, at least as an [[effective quantum field theory]] (the full [[string theory]] being the corresponding [[UV-completion]]).
 
@@ -2956,7 +4202,507 @@ For instance the [[supergravity C-field]], after [[Kaluza-Klein mechanism|compac
 
 The [[geometric quantization]] of these higher CS theories yields canonical [[states]] in codimension 1, which by [[AdS-CFT]] are interpreted as parts of the [[partition function]] of [[self-dual higher gauge fields]].
 
-(...)
+
+This is described at _[[motivic quantization]]_ ([Nuiten 13](#Nuiten2013)).
+
+#### Linearization by twisted $E$-cohomology spectra
+
+
+Before actually quantizing a [[local prequantum field theory]] $\left[ \array{ \mathbf{Fields} \\ \downarrow^{\mathrlap{\exp(i S)}} \\ \mathbf{B}^n U(1)_{conn}}\right]$ as above, we choose linear [[coefficients]], given by 
+
+
+1. a choice of ground [[E-∞ ring]] $E$ 
+
+   (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
+
+1. a choice of [[∞-group]] homomorphism
+
+   $$
+     \rho \;\colon\; \mathbf{B}^{n-1}U(1) \longrightarrow GL_1(E)
+   $$
+
+
+   from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$, hence an [[∞-representation]] of the [[circle n-group]] on $E$ 
+
+   (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]]).
+
+
+Then for $X \longrightarrow \mathbf{B}^n U(1)$ modulating a [[circle n-bundle with connection|circle n-bundle]] on $X$, the composite
+
+$$
+  X
+   \longrightarrow
+  \mathbf{B}^n U(1)
+    \stackrel{\rho}{\longrightarrow}
+  B GL_1(E)
+    \longrightarrow
+  E Mod
+$$
+
+modulates the [[associated ∞-bundle]], which is an $E$-[[(∞,1)-module bundle]].
+
+
+Specifically, given the [[higher prequantum bundle]] $\exp(i S) \;\colon\; \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}$ as above, the composite
+
+$$
+  \chi
+   \;
+   \colon
+   \;
+  \mathbf{Fields}
+    \stackrel{\exp(i S)}{\longrightarrow}
+  \mathbf{B}^n U(1)
+    \stackrel{\rho}{\longrightarrow}
+  \mathbf{B} GL_1(E)
+    \stackrel{}{\longrightarrow}
+  Pic(E)
+    \longrightarrow
+  E Mod
+$$
+
+modulates the associated _[[higher prequantum line bundle|higher prequantum E-line bundle]]_.
+
+A [[section]] of $\chi$ is a _higher [[wavefunction]]_, hence a _higher [[quantum state]]_.
+
+(At this point this looks un-[[polarization|polarized]], but in fact we will see in the next section that the notion of [[polarization]] in [[higher prequantum geometry]] is automatic, but appears in a [[holography|holographic]]/[[boundary field theory|boundary field theory]] way in [[codimension]] $(n-1)$ instead here in codimension $n$.)
+
+Accordingly, the [[space of sections]] of $\chi$ is the higher [[space of quantum states]] in [[codimension]] 0. 
+
+If $X$ is a [[discrete ∞-groupoid]] then the space of sections has a particularly nice description, on which we focus for a bit:
+
+The space of co-sections is the [[(∞,1)-colimit]]
+
+$$
+  E_{\bullet + \chi}(X) 
+  \; \coloneqq\;
+  \underset{\to}{\lim}
+  \chi
+  \;
+  \in E Mod
+  \,.
+$$
+
+This is also known as the _$\chi$-twisted $E$-[[Thom spectrum]]_ of $X$ ([Ando-Blumberg-Gepner 10](#ABG)).
+
+* a map $E \to E_{\bullet + \chi}(X)$ is a [[cycle]] in $\chi$-[[twisted cohomology|twisted]] $E$-[[generalized homology]] of $X$;
+
+* a map $E_{\bullet + \chi}(X) \to E$ is a [[cocycle]] in $\chi$-[[twisted cohomology|twisted]] $E$-[[generalized cohomology]] of $X$
+
+  Hence we write
+
+  $$
+    E^{\bullet + \chi}\left(X\right)
+    \coloneqq
+    \left[
+      E_{\bullet + \chi}\left(X\right),
+      \,
+      E
+    \right]
+    \,.
+  $$
+
+Generally, for $\chi_i \colon X_i \to E Mod$ two $E$-[[(∞,1)-module bundles]] over two spaces, a map
+
+$$
+  E_{\bullet + \chi_1}(X_1)
+  \longrightarrow
+  E_{\bullet + \chi_2}(X_2)
+$$
+
+is a [[cocycle]] in $(\chi_1, \chi_2)$-[[twisted cohomology|twisted]] [[bivariant cohomology|bivariant]] $E$-[[cohomology]].
+
+Now given a [[local action functional]] on a space of [[trajectories]], hence a [[correspondence]] as above, this induces an [[integral kernel]] for linear maps between sections of [[higher prequantum line bundles]]:
+
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in}
+     && \swArrow_{\rho(\xi)} &&
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{\chi_{in}}}\searrow
+    &&
+    \swarrow_{\mathrlap{\chi_{out}}}
+    \\
+    && E Mod
+  }
+  \;\;\;
+  \coloneqq
+  \;\;\;
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in}
+     && \swArrow_\xi &&
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{\exp(i S_{in})}}\searrow
+    &&
+    \swarrow_{\mathrlap{\exp(i S_{out})}}
+    \\
+    && \mathbf{B}^n U(1)
+    \\
+    && \downarrow
+    \\
+    && B GL_1(E)
+    \\
+    && \downarrow
+    \\
+    && Pic(E)
+    \\
+    && \downarrow
+    \\
+    && E Mod
+  }
+$$
+
+This is the [[integral kernel]] induced by the action functional, and acting on spaces of sections of the [[higher prequantum line bundle]].
+
+The [[linear map]] induced by these higher [[integral kernels]] is to be the _[[quantum propagator]]_. This we come to in the next section.
+
+Notice that forming co-sections constitutes an [[(∞,1)-functor]]
+
+$$
+  E_{\bullet + (-)}(-)
+  \;\colon\;
+  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
+  \longrightarrow
+    E Mod
+  \,.
+$$
+
+Therefore forming co-sections sends an [[integral kernel]] as above to a [[correspondence]] of $E$-[[(∞,1)-modules]]:
+
+$$
+  \array{
+    && \mathbf{Fields}_{traj}
+    \\
+    & {}^{i_{in}}\swarrow && \searrow^{\mathrlap{i_{out}}}
+    \\
+    \mathbf{Fields}_{in}
+     & & \swArrow_{\simeq}  & &
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{\chi_{in}}}\searrow
+    &&
+    \swarrow_{\mathrlap{\chi_{out}}}
+    \\
+    && E Mod
+    \\
+    \,
+    \\
+    \,
+    \\
+   E_{\bullet + \chi_{in}}(\mathbf{Fields}_{in})
+    & \stackrel{(i_{in})_\ast}{\longleftarrow}&
+   \array{
+   E_{\bullet + i_{in}^\ast\chi_{in}}(\mathbf{Fields}_{traj})
+    \\
+    \simeq 
+    \\
+   E_{\bullet + i_{out}^\ast\chi_{out}}(\mathbf{Fields}_{traj})
+    }
+    & \stackrel{(i_{out})^\ast}{\longrightarrow}&
+   E_{\bullet + \chi_{out}}(\mathbf{Fields}_{out})
+  }
+  \,.
+$$
+
+
+The actual [[quantization]]/[[path integral as a pull-push transform]] map now consists in forming [[dual morphism]] in $E Mod$ such as to turn one of the projections of such a correspondence arround a produce a [[quantum propagator]]
+
+$$
+  E^{\bullet + \chi_{in}}(\mathbf{Fields}_{in})
+    \longrightarrow
+  E^{\bullet + \chi_{out}}(\mathbf{Fields}_{out})
+$$
+
+that maps the incoming [[quantum states]]/[[wavefunctions]] to the outgoing ones.
+
+
+#### Cohomological quantization by pull-push
+ {#ExpositionCohomologicalQuantization}
+
+
+What we need now for [[quantization]] is a [[path integral]]
+map that adds up the values of the [[action functional]] over the space of trajectories, a functor of the form
+
+$$
+  \int (-)
+  \;\;
+   \colon
+  \;\;
+   Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+   (E Mod^{\Box^n})^\otimes
+$$
+
+As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure". This case has been considered in ([Freed-Hopkins-Lurie-Teleman 09](#FreedHopkinsLurieTeleman09), [Morton 10](#Morton10)).
+
+In the general case the path integral requires that we _choose_ a suitable [[measure]]/[[orientation]] on the spaces of fields. 
+We see below what this means, for the moment we just write 
+
+$$
+  Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes
+$$ 
+
+(i.e. with an ${(-)}^{or}$-superscript) as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. Then we may consider lifts of the action functional to _measure-valued_ action functionals
+
+$$
+  \exp(i S) \, d\mu
+  \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to
+  \left(
+   E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+A [[path integral]] is then to be a monoidal functor of the form
+
+$$
+  \int(-) \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+  \left(
+    E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+This we discuss now below. Once we have such a [[path integral]] functor, the [[quantization]] 
+process is its [[composition]] with the given [[prequantum field theory]] $\exp(i S) \, d \mu$ to obtain the genuine quantized [[quantum field theory]]:
+
+$$
+  \array{
+    \underset{\phi \in \mathbf{Fields}}{\int} 
+     \exp(i S(\phi)) \, d \mu(\phi)
+    &
+    \colon
+    &
+    Bord_n^\otimes
+     &\stackrel{\exp(i S)\, d\mu}{\to}& 
+    Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+    &\stackrel{\int (-) }{\to}&
+    \left(
+     E Mod^{\Box^n}
+    \right)^\otimes
+    \\
+    && & {}_{\mathllap{Fields}}\searrow & \downarrow
+    \\
+    && && Corr_n\left(\mathbf{H}\right)^\otimes
+  }
+  \,.
+$$
+
+
+We realize this now by [[fiber integration in generalized cohomology]].
+
+While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic idea is that
+
+_Cohomological integration_
+
+1. _Fiber integration of $E$-modules along a map is forming the [[dual morphisms]]_ of pulling back $E$-modules.
+
+1. The choice of _measure_ against which one integrates is the choice of identification of [[dual objects]].
+
+More in detail, given a [[monoidal category]] $\mathcal{C}^\otimes$ and given a [[morphism]]
+
+$$
+  f \;\colon\; V_1 \to V_2
+$$
+
+in $\mathcal{C}$, an _[[fiber integration]]/[[push-forward in generalized cohomology|push-forward]]/[[index|index map]]_ is just
+
+* forming the [[dual morphism]] $f^\vee \colon V_2^\vee \to V_1^\vee$;
+
+* such that [[equivalences]] $V_i^\vee \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]]).
+
+This allows in total to have a morphism between the same objects, but in the opposite direction
+
+$$
+  f^! 
+   \;\colon\;
+  V_2
+   \stackrel{\;\simeq\;}{\to} 
+  V_2^\vee
+   \stackrel{\; f^\vee \;}{\to}
+  V_1^\vee
+    \stackrel{\; \simeq \;}{\to}
+  V_1
+  \,.
+$$
+
+That this is also the mechanism of [[fiber integration in generalized cohomology]] is almost explicit in the literature ([[Alexander-Whitehead-Atiyah duality]]), if maybe not fully clearly so. The statement is discussed explicitly in ([Nuiten 13, section 4.1](#Nuiten13)).
+
+First, the basic example to keep in mind of is integration in [[ordinary cohomology]]. Write $E = H R = H \mathbb{C}$ for the [[Eilenberg-MacLane spectrum]] of the [[complex numbers]]. Then for $X$ a manifold, the [[mapping spectrum]] 
+
+$$
+  H R^\bullet(X)
+  \coloneqq
+  [X,H R]
+$$
+
+is the [[ordinary cohomology]] of $X$, its dual the [[ordinary homology]], with [[coefficients]] in $R$.
+
+For $X$ a [[closed manifold]], [[Poincaré duality]] asserts that  $H R^\bullet(X) \in H R Mod$ is essentially a self-[[dual object]], except for a shift in degree: a choice of [[orientation]] of $X$ induces an [[equivalence]]
+
+$$
+  H R^\bullet\left(X\right)
+    \underoverset{\simeq}{\;\; PD_X\;\;}{\to} 
+  \left( 
+   H R^{\bullet+ dim(X)}\left(X\right)\right)^\vee
+  \simeq
+  H R_{\bullet + dim(X)}\left(X\right)
+  \,.
+$$
+
+Using this, for $f \colon X \to Y$ a map of [[closed manifolds]] of [[dimension]] $d$, a compatible choice of [[orientation]] of both $X$ and $Y$ induces from the canonical push-forward map $f_\ast$ on homology the [[Umkehr map]]/push-forward map on cohomology, by the composition
+
+$$
+  f^!
+  = 
+  \int_f
+    \;\colon\;
+  H R^\bullet(X)
+   \underoverset{\simeq}{\;PD_X\;}{\to}
+  H R_{\bullet + dim(X)}(X)
+   \stackrel{\; f_\ast \;}{\to}
+  H R_{\bullet + dim(X)}(Y)
+   \underoverset{\simeq}{\;PD_Y^{-1}\;}{\to}
+  H R^{n-(dim(X)-dim(Y))}(Y)
+  \,.
+$$
+
+This is ordinary [[integration]]: if $X$ and $Y$ are [[smooth manifolds]], then $H \mathbb{R}^\bullet(X)$ is modeled by [[differential forms]] on $X$, $PD_X$ is given by a choice of [[volume form]] and $f^! = \int_{f}$ is ordinary [[integration of differential forms]]. 
+
+The shift in degree here seems to somewhat break the simple pattern. In fact this is not so, if only we realize that since we are working over spaces $X$, we should use a _relative/fiberwise_ point of view and regard not duality in $E Mod$ itself, but in the functor categories $Func(X, E Mod)$, which is fiberwise duality in $E Mod$.
+
+Accordingly, given an $E$-[[(∞,1)-module bundle]]
+
+$$
+  \chi \;\colon \;  X \to E Mod
+$$
+
+we form not just the mapping space $E^\bullet(X) = [X, E]$ as above, but form the space of [[sections]] of this bundle, which we write:
+
+$$
+  E^{\bullet + \chi}(X) \coloneqq \Gamma_X(\chi)
+$$
+
+Here for $X$ a [[discrete ∞-groupoid]]
+
+$$
+  \Gamma_X(\chi) \coloneqq [\underset{\to}{\lim} \chi, E]
+  \,.
+$$
+
+Consider now a morphism 
+
+$$
+  \array{
+    X && \stackrel{f}{\to} && Y
+    \\
+    & {}_{\mathllap{f^\ast \chi}}\searrow &\swArrow& \swarrow_{\mathrlap{\chi}}
+    \\
+    && E Mod 
+  }
+$$
+
+along which we want to integrate, whith $\chi$ invertible in $Func(Y, E Mod)$: $\left(\chi^\vee\right)^\vee \simeq \chi$.
+ $\left(\chi^\vee\right)^\vee \simeq \chi$.
+
+Observe that we have the pair of [[adjoint triples]] of left/right [[Kan extensions]] and [[colimits]]/[[limits]]
+
+$$  
+  \array{
+    X &\stackrel{f}{\to}& Y &\stackrel{p}{\to}& \ast
+    \\
+    \\
+    Func(X, E Mod)
+     &\stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\to}}}
+     &
+    Func(Y, E Mod)
+     &\stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^\ast}{\leftarrow}}{\underset{p_\ast}{\to}}}
+    &
+    E Mod
+  }
+  \,.
+$$
+
+Notice that $f^\ast$ preserves duals, but $f_!$ may not. 
+
+If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of twisted orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ together with a choice of a [[equivalence]] (if such exists) of the form
+
+$$
+  PD 
+   \;\colon \;
+  \left( f_! f^\ast \chi^\vee
+  \right)^\vee
+  \simeq
+  f_!\left(
+    f^\ast \chi + \beta
+  \right)
+  \,,
+$$
+
+hence a choice of correction of $f_!$ preserving the duality of $f^\ast \chi$.
+ 
+
+Then the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]]
+
+$$
+  f_! f^\ast \chi^\vee \to  \chi^\vee
+$$
+
+induces the [[dual morphism]]
+
+$$
+  \chi 
+    \longrightarrow
+  \left(f_! f^\ast \chi^\vee \right)^\vee 
+    \underoverset{\simeq}{PD}{\longrightarrow}
+  f_!\left(
+    f^\ast \chi + \beta
+  \right)
+$$
+
+and under $\left[ p_! \left( - \right), E \right]$ this becomes
+
+$$
+  \left[p_! f_! \left(f^\ast \chi + \beta\right), E\right]
+  \longrightarrow
+  \left[p_! \chi , E\right]
+$$
+
+which is 
+
+$$
+  \int_f
+  \;\colon \;
+  E^{\bullet + f^\ast \chi + \beta}(X)
+  \longrightarrow
+  E^{\bullet + \chi}(Y)
+  \,.
+$$
+
+This we may call the the _[[twisted cohomology|twisted]] [[fiber integration in generalized cohomology|fiber integration]] along $f$_ in $E$-[[cohomology]], or the _twisted $E$-[[index]] map_ of $f$_, induced by $(\beta, PD)$. If $\beta = 0$ then we call $PD$ an _[[orientation in generalized cohomology|orientation]]_ of $f$ in $\chi$-twisted cohomology.
+
+
+Notice that
+
+* Under fiber integration in [[twisted cohomology]], the twist may change.
+
+* Grading in cohomology is just one incarnation of twist. Hence the fact that the twist changes under duality was already seen above in the ordinary case of [[Poincaré duality]] in [[ordinary cohomology]]. 
+
+* For the special case that $X$ is a [[manifold]], [[Atiyah duality]] identifies the dual cohomology spectrum with the [[Thom space]] cohomology spectrum. Then a choice of orientation amounts to a choice of [[Thom isomorphism]], as traditionally considered.
+
 
 
 
@@ -2968,7 +4714,7 @@ We survey here some key aspects of a general theory of geometric twisted differe
 
 $\,$
 
-We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] of _[[homotopy type theory|homotopy-type theory]]_, [[categorical semantics|interpreted]] in _[[(∞,1)-toposes]]_. This provides a nicely natural and expressive language for the purpose of twisted smooth cohomology in string theory. 
+We base the formulation of [[physics]]/[[string theory]] on the [[foundations]] of _[[homotopy type theory|homotopy type theory]]_, [[categorical semantics|interpreted]] in _[[(∞,1)-toposes]]_. This provides a nicely natural and expressive language for the purpose of twisted smooth cohomology in string theory. 
 
 The following table indicates the hierarchy of [[axioms]] that we invoke, the fragments of [[theory]] that can be [[categorical semantics|interpreted]] with these and the [[models]] that we need. Essentially all of the above discussion works in the model [[Smooth∞Grpd]]. A more encompassing treatment uses [[supergeometry]] and works in the model [[SmoothSuper∞Grpd]].
 
@@ -2984,7 +4730,7 @@ The following table indicates the hierarchy of [[axioms]] that we invoke, the fr
 
 
 
-### Homotopy-type theory
+### Homotopy type theory
 
 
 Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], hence equivalently an _[[∞-groupoid]]_. More generally, we think of parameterized homotopy types -- of _[[∞-stacks]]_ or _[[(∞,1)-sheaves]]_ -- as _geometric homotopy types_. The collection of such forms an _[[(∞,1)-topos]]_ $\mathbf{H}$. One regards [[(∞,1)-topos theory]] as part of [[homotopy theory]], and, more specifically, the [[internal language]] of $\mathbf{H}$ is a _[[homotopy type theory|homotopy-type theory]]_.
@@ -3006,6 +4752,7 @@ $$
   Grp(\mathbf{H})
    \stackrel{\overset{\Omega}{\leftarrow}}{\underoverset{\mathbf{B}}{\simeq}{\to}}
   \mathbf{H}_{\geq 1}^{*/}
+
 $$
 
 between group objects and [[pointed object|pointed]] 
@@ -3142,7 +4889,7 @@ The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
 +-- {: .num_remark }
 ###### Remark
 
-In the [[syntax]] of [[homotopy type theory]] the type of twisted cocycles is
+In the [[syntax]] of the [[theory]] the [[type]] of twisted cocycles is
 
 $$
   [\phi, \mathbf{c}]
@@ -3209,9 +4956,12 @@ $$
 (...)
 
 
-### Cohesive homotopy-type theory
+### Cohesive homotopy type theory
 
 In general the [[geometry]] encoded by an [[(∞,1)-topos]] can be exotic. Two extra axioms ensure that it is modeled locally on $\infty$-connected geometrical archetypes, such as for instance on _[[open disks]]_ for [[Euclidean-topological ∞-groupoid|Euclidean-topological geometry]] and _smooth open disks_ for [[smooth ∞-groupoid|smooth geometry]]. Following [[Bill Lawvere|Lawvere]], we call this refinement _[[cohesive homotopy type theory]]_ [[categorical semantics|interpreted]] in _[[cohesive (∞,1)-toposes]]_.
+
+
+
 
 
 #### Geometric realization 
@@ -3303,6 +5053,7 @@ An entry with discussion of and list of examples of twisted differential structu
 The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]], who has pointed out the appearance of various twisted structures in string theory, notably in the series of articles
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arXiv:1007.5419](http://arxiv/1007.5419)); part _III: Twisted higher structures_ ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
+  {#Sati10}
 
 The notion of [[twisted cohomology]] by sections of twisting coeffcient $\infty$-bundles used here is similar to that in 
 
@@ -3335,6 +5086,12 @@ A precise mathematical formulation of the proposal made there is given in
 
 in terms of [[quadratic refinement]] of [[secondary intersection pairing]] via [[differential integral Wu structures]]. This also lays the mathematical foundation of much of [[differential cohomology]].
 
+The suggestion that it is the [[∞-stack (∞,1)-topos]] over the [[site]] of [[smooth manifolds]] which is the right context for studying the twisted differential smooth cohomology in string theory was made in 
+
+* [[Urs Schreiber]], _[[schreiber:Background fields in twisted differential nonabelian cohomology]]_, talk at _[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]_
+ {#Schreiber09}
+
+
 The smooth $\infty$-stack refinements of these structures, as discussed above, have been developed in articles including the following
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ 
@@ -3343,8 +5100,8 @@ The smooth $\infty$-stack refinements of these structures, as discussed above, h
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],_[[schreiber:Fivebrane structures]]_
  {#SSSb}
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_
- {#SSSc}
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, October 2012, Volume 315, Issue 1, pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+ {#SatiSchreiberStasheff09}
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
  {#FSSa}
@@ -3358,19 +5115,40 @@ The smooth $\infty$-stack refinements of these structures, as discussed above, h
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
  {#FSSd}
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248), [arXiv:1207.0249](#http://arxiv.org/abs/1207.0249))
  {#NSS}
+
+* [[Domenico Fiorenza]] [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  {#FiorenzaRogersSchreiber13}
+
+
+* [[Urs Schreiber]] et. al., _[[schreiber:Local prequantum field theory]]_
+  {#lpqft}
+
+* [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+  {#SchreiberClassical}
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, Master thesis Utrecht 2013
+  {#Nuiten2013}
+
+* [[Urs Schreiber]], _[[schreiber:Synthetic Quantum Field Theory]]_
+  {#SchreiberSynthetic}
+
 
 A general theory of such smooth homotopy-types is laid out in 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Habilitation thesis, Hamburg 2011
  {#Schreiber}
 
+The observation of the [[tangent (infinity,1)-topos]] is due to 
+
+* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  {#Joyal08}
 
 
 $\,$
 
-This page here originates in notes for an introductory lecture:
+Section A) above originates in notes for an introductory lecture:
 
 * [[Urs Schreiber]], _[Twisted differential structures in string theory](http://maths-old.anu.edu.au/esi/2012/program.html#Schreiber)_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
  {#SchreiberLect}
@@ -3386,3 +5164,8 @@ Later, some special cases of the general notion of twisted fields considered [ab
  {#FreedTeleman}
 
 as discussed above in the section _[Relative fields](#RelativeFields)_ .
+
+Section B) originates in notes for a talk 
+
+* [[Urs Schreiber]], _[[schreiber:Local prequantum field theory|Local prequantum boundary field theory]]_, talk at _[Twists, generalised cohomology and applications](http://wwwmath.uni-muenster.de/sfb/sfb878/2013/twists.html)_, 2013
+  {#SchreiberTwists2013}
