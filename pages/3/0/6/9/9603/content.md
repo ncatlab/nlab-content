@@ -1,6 +1,7 @@
-#Contents#
+
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -22,8 +23,7 @@ Every element in a Moufang loop has a multiplicative inverse; a priori there are
 
 Since right and left multiplication give isomorphisms of the underlying set, one can 'divide' by any element of the Moufang loop, on the right or on the left (recall we are not assuming commutativity). Thus one can define a Moufang loop as a set together with a multiplication as above, together with right and left division operations $/, \backslash \colon Q\times Q \to Q$, again satisfying the Moufang identities. Thus Moufang loops are algebras for a [[Lawvere theory]], and thus can be defined [[internalization|internal]] to any category with [[finite products]].
 
-Moufang loops are _power associative_, in that any bracketing of a string consisting of copies of the same element multiply to a unique element. In fact, more is true, in that any two elements generate a genuine group.
-
+Moufang loops are _[[power-associative algebra|power-associative]]_, in that any bracketing of a string consisting of copies of the same element multiply to a unique element. In fact, more is true, in that any two elements generate a genuine group; that is, Moufang loops are _[[alternative algebra|alternative]]_.
 
 
 ## Examples
@@ -49,4 +49,6 @@ Tim Hsu, _Explicit constructions of code loops as centrally twisted products_
 Math. Proc. Cambridge Philos. Soc. 128 (2000), no. 2, 223&#8211;232. ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X))
 {#Hsu}
 
+
+[[!redirects Moufang loop]]
 [[!redirects Moufang loops]]
