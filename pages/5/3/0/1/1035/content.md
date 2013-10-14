@@ -94,6 +94,11 @@ The coincidence of products with biproducts does _not_ extend to infinite produc
 
 =--
 
+## Related concepts
+
+* [[abelian category]]
+
+* [[additive (∞,1)-category]]
 
 ## References
 
