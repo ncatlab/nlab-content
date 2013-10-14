@@ -2967,7 +2967,20 @@ Examples and further details are discussed in [Schreiber, section 4](#Schreiber)
 
 We indicate now how the twisted smooth cohomology data as in the examples above induces and in fact corresponds to data for [[prequantum field theory]] [[sigma-models]] _localized_ (in the sense of the [[cobordism hypothesis]]) to [[local prequantum field theory]] ([lpqft](#lpqft)).
 
-In order to formalize this accurately, we first talk a bit more about the relevant [[cohesion]], [[differential cohesion]] and [[tangent cohesion]].
+In order to formalize this accurately, we first talk a bit more about the relevant [[cohesion]], [[differential cohesion]] and [[tangent cohesion]]. The way to understand this is as follows:
+
+In full generality, [[cohomology]] (see there for details) is what is given by the [[(∞,1)-categorical hom-spaces]] in some [[∞-topos]]: for $X,A \in \mathbf{H}$ any two [[objects]], then
+
+$$
+  H(X,A) \coloneqq \pi_0 \mathbf{H}(X,A) 
+$$
+
+is the [[cohomology]] of $X$ with [[coefficients]] in $A$.
+
+Therefore it is natural to ask: _What is an [[(∞,1)-topos]] to be like whose intrinsic [[cohomology]] is [[equivariant cohomology|equivariant]] [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|stable]] [[differential cohomology]]?_
+
+And the answer we find is: it is to be the [[tangent (∞,1)-topos]] $T \mathbf{H}$ of a [[cohesive (∞,1)-topos]] $\mathbf{H}$.
+  
 
 ### Cohesive contexts for equivariant differential twisted cohomology
 
@@ -4989,6 +5002,7 @@ $$
 this identifies with [[geometric realization]] of geometric homotopy types / [[∞-stacks]].
 
 We say that a lift of a [[diagram]] in [[∞Grpd]] through $\Pi$ is a **geometric refinement** of the diagram.
+
 
 
 #### Differential cohomology
