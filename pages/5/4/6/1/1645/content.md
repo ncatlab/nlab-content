@@ -1,23 +1,21 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Differential cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include differential cohomology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -32,7 +30,7 @@ There are at least two things that are called _quantum anomalies_ in the context
 ### Anomalous action functional 
  {#AnomalousActionFunctional}
 
-There are two major kinds of [[action functional]]s that may be anomalous in that they are not actually [[function]]s/[[functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
+There are two major kinds of [[action functional]]s that may be anomalous in that they are not actually [[function]]s/[[nonlinear functional|functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
 
 * theories with fermions (see e.g. [[spinors in Yang-Mills theory]])
 
