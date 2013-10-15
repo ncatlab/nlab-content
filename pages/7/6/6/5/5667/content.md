@@ -354,6 +354,14 @@ To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutat
 
 Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[pure motives]], see the rferences below: _[In terms of correspondences](#ReferencesInTermsOfCorrespondences). A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
 
+A universal [[functor]] from KK-theory to [[noncommutative motives]]
+
+$$
+  KK \longrightarrow NCC_{dg}
+$$
+
+was given in ([Mahanta 13](#Mahanta13)). This sends a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] over (the [[unitalization]] of) its underlying [[associative algebra]].
+
 ### Equivariant KK-theory
  {#EquivariantKKTheory}
 
@@ -1011,7 +1019,13 @@ For a collection of literature see also paragraph 1.5 in
 
 (in the context of [[noncommutative motives]]).
 
-* [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+In
+
+*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+ {#Mahanta13}
+
+it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
+
 
 
 
