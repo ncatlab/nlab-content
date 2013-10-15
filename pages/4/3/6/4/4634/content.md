@@ -121,9 +121,19 @@ Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by 
 
 (...)
 
-### Inclusion of Chow motives
+### Relation to Chow motives
 
 The relation between ordinary [[Chow motives]] and noncommutative Chow motives is recalled as theorem 4.6 in ([Tabuada 11](#Tabuada11)). For more see [Tabuada 11 ChowNCG](#Tabuada11Chow)
+
+### Relation to KK-theory
+
+Noncommutative motives receive a universal functor from [[KK-theory]]
+
+$$
+  KK \longrightarrow NCC_{dg}
+$$
+
+which is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] over (the [[unitalization]] of) its underlying [[associative algebra]] ([Mahanta 13](#Mahanta13)).
 
 ## Related concepts
 
@@ -214,6 +224,13 @@ Vienna, 2013](http://www.mat.univie.ac.at/~favero/Workshops/Higher.html), [notes
 Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] Chow motive is in 
 
 * [[Adeel Khan]], _Perfect correspondences and Chow motives_, Thesis 2013 ([pdf](http://www.preschema.com/documents/masters.pdf))
+
+In
+
+*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+ {#Mahanta13}
+
+it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
 
 
 category: algebraic geometry, noncommutative geometry
