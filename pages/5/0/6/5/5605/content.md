@@ -150,6 +150,12 @@ to the [[commutative operad]] (which has $Comm(n) = *$ for all $n \in \mathbb{N}
 
 (...)
 
+## Related concepts
+
+* [[E-infinity algebra]]
+
+* [[(2,1)-algebraic theory of E-infinity algebras]]
+
 ## References
 
 As a [[simplicial operad]], the Barratt-Eccles operad was introduced in 
