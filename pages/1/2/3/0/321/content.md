@@ -178,6 +178,8 @@ Correspondences may be seen as generlaizations of [[relations]]. A relation is a
 
 * Cospans of homomorphisms of [[C*-algebras]] represent morphisms in [[KK-theory]] (by Cuntz' result).
 
+* Correspondences of [[flag manifolds]] play a role as [[twistor correspondences]].
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
