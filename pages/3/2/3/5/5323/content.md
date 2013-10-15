@@ -24,7 +24,7 @@ The [[(∞,1)-algebraic theory]] whose [[∞-algebra over an (∞,1)-algebraic t
 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let 
@@ -59,7 +59,7 @@ be the [[(2,1)-category]] of [[span]]s of [[finite set]]s:
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The [[homotopy category of an (infinity,1)-category|homotopy category]] of $2Comm$ is the category $Comm$ that is the [[Lawvere theory]] of commutative [[monoid]]s.
@@ -84,7 +84,7 @@ One checks that under this identification composition of morphisms corresponds t
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 For instance the spans
@@ -139,7 +139,7 @@ $$
 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 Let $Comm$ be the ordinary [[Lawvere theory]] of commutative monoids. There is a forgetful 2-functor
@@ -156,7 +156,7 @@ This exhibits $2Comm$ as being like $Comm$ but with some additional auto-2-morph
 This is discussed in ([Cranch, beginning of section 5.2](#Cranch)).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $(\infty,1)$-category $2Comm$ has finite [[product]]s. The products of objects $A, B$ in $2Comm$ is their [[coproduct]] $A \coprod B$ in [[FinSet]].
@@ -166,7 +166,7 @@ The $(\infty,1)$-category $2Comm$ has finite [[product]]s. The products of objec
 This appears as ([Cranch, prop. 4.7](#Cranch)).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 An [[(∞,1)-category]] with [[(∞,1)-limit|(∞,1)-product]] is naturally an algebra over the $(2,1)$-theory $2Comm$.
@@ -175,7 +175,7 @@ An [[(∞,1)-category]] with [[(∞,1)-limit|(∞,1)-product]] is naturally an a
 
 This appears as ([Cranch, theorem 4.26](#Cranch)).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 An algebra over the $(2,1)$-theory $2Comm$ in [[(∞,1)Cat]] is
@@ -185,7 +185,7 @@ a [[symmetric monoidal (∞,1)-category]].
 
 This appears as ([Cranch, theorem 5.3](#Cranch)).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 There is a $(2,1)$-algebraic theory $E_\infty$ whose algebras
