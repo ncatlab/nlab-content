@@ -22,14 +22,13 @@ arise from an implicit treatment of members of the species as equivalent in term
 
 ## Formalization
 
-The notion of a "generalized the" can formalized and treated uniformly in [[homotopy type theory]]. Here one can define an [[natural deduction|introduction rule]] for *the* as follows:
+The notion of a "generalized the" can be formalized and treated uniformly in [[homotopy type theory]]. Here one can define an [[natural deduction|introduction rule]] for *the* as follows:
 
 $$
   (A:Type),(t:IsContr(A)) \vdash (the(A,t):A).
 $$
 
-Here the [[term]] $t$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$.
-
+Here the [[term]] $t$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$. Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we could say that $t$ is *the* witness for the contractibility of the type $A$, which may explain why we do not generally mention it.
 
 [[!redirects the]]
 [[!redirects generalised the]]
