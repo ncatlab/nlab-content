@@ -136,6 +136,17 @@ $$
 This is really a special case of the previous class of examples, as $\Omega^\bullet(X)$ equipped with the [[deRham complex|deRham differential]] is the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]]. 
 
 
+## References
+
+Discussion of Grassmann algebras [[internalization|internal]] to any [[symmetric monoidal category]] is on p. 165 of
+
+* [[Pierre Deligne]], _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
+  (1990)
+  {#Deligne90}
+
+
+See also at _[[signs in supergeometry]]_.
+
 [[!redirects exterior algebra]]
 [[!redirects exterior algebras]]
 [[!redirects Grassmann algebra]]
