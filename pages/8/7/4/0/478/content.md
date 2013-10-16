@@ -13,12 +13,6 @@ Thus, for instance, we speak (assuming that any exists) of "the" [[terminal obje
 
 In [[higher category theory]], we extend this usage to objects that are characterized uniquely up to unique coherent [[equivalence]].  Of course, by "unique equivalence" we mean "unique up to 2-equivalence," and so on.  A more [[homotopy theory|homotopy-theoretic]] way to say this is that _the space ($\infty$-[[infinity-groupoid|groupoid]]) of all such objects is [[contractible space|contractible]]_.
 
-Perhaps uses of 'the' as in
-
->The Duck-billed Platypus is a primitive mammal that lives in Australia,
-
-arise from an implicit treatment of members of the species as equivalent in terms of their characteristics, so that the type of the species is contractible.
-
 
 ## Formalization
 
