@@ -297,9 +297,9 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 ## Related concepts
 
-* [[type of propositions]], [[subobject classifier]]
+* [[type of propositions]], [[subobject classifier]], [[partial map classifier]]
 
-* [[type of types]]
+* [[type of types]], [[univalence]]
 
 ## References
 
