@@ -12,7 +12,7 @@ In [[propositional logic]], the __exclusive disjunction__ (also called __exclusi
 
 The __exclusive disjunction__ of $p$ and $q$, written $p &#8891; q$ (and a host of other ways), may be defined in any of these forms:
 1.  $\neg(p \Leftrightarrow q)$,
-2.  $(p \vee q) \wedge \neg(p \wedge q)$,
+2.  $(p \vee q) \wedge (\neg p \vee \neg q)$,
 3.  $(p \wedge \neg{q}) \vee (\neg{p} \wedge q)$.
 
 These are all equivalent in [[classical logic]].  In [[intuitionistic logic]], (2,3) are equivalent but (1) is weaker; (2,3) give the usual meaning in [[constructive mathematics]].
