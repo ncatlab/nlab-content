@@ -156,6 +156,8 @@ In summary, the [[D-brane]] [[submanifolds]] in a Lie group which induce an [[op
 
 * [[gauged WZW model]]
 
+* [[parameterized WZW model]]
+
 * [[higher dimensional WZW model]]
 
 * [[Green-Schwarz action functional]]
@@ -296,9 +298,6 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
 
 
-## Discussion
-
-Would someone translate the Topological term for an aging algebraic topologist? B^3U(1) aka K(Z,3) or is it 4? sub conn denotes the classifying space for bundles with connection? The morphism from G to B^2 is strict or up to homotopy?
 
 
 [[!redirects WZW model]]
