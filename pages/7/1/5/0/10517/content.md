@@ -1,0 +1,24 @@
+# Partial map classifier
+
+* table of contents
+{: toc}
+
+## Idea
+
+A *partial map classifier* of an [[object]] $B$ in a [[category]] $\mathcal{CA}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
+
+## Definition
+
+Let $\mathcal{C}$ be a category with [[pullbacks]].  Recall that a **partial map** $A \rightharpoonup B$ in $\mathcal{C}$ is a [[span]] $A \leftarrow D \to B$ in which the map $D\to A$ is a [[monomorphism]].  The subobject $D \hookrightarrow A$ is called the [[domain]] of the partial map.  Two partial maps are considered *equal* if they are related by an isomorphism of spans; in this way we obtain a [[set]] of partial maps $Par_{\mathcal{C}}(A,B)$.
+
+We can compose a partial map $A\rightharpoonup B$ with a map $B\to B'$ in an obvious way.  We can also compose it with a map $A'\to A$ by pulling back the mono $D\hookrightarrow A$ to $A'$.  In this way $Par_{\mathcal{C}}(-,-)$ becomes a [[profunctor]] from $\mathcal{C}$ to itself.  (In fact, it is the hom-set of another category with the same objects as $\mathcal{C}$.)
+
+A **partial map classifier** for $B$ is an object $B_\bot$ together with an isomorphism
+$$ \mathcal{C}(A,B_\bot) \cong Par_{\mathcal{C}}(A,B) $$
+natural in $A$.  By the [[Yoneda lemma]] this means there is a universal partial map $B_\bot \rightharpoonup B$.
+
+## Constructions
+
+In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]], we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.
+
+Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined as the set of [[subsingleton]] subsets of $B$.  The universal partial map $B_\bot \rightharpoonup B$ has domain the set of singleton subsets of $B$, on which it is an isomorphism.  Note that this construction is not [[predicative mathematics|predicative]].
