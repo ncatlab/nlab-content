@@ -36,6 +36,47 @@ So for $A \in \mathcal{C}$ any [[object]] the [[cohomology]] of any other object
 |--|--|
 | [[homotopy types]] of [[mapping spaces]] | [[homotopy types]] of spaces of [[sections]] |
 
+Given an $\infty$-topos $\mathbf{H}$, then also its arrow $\infty$-category $\mathbf{H}^I$ is an $\infty$-topos, over $\infty Grpd^I$ and it also sits over $\mathbf{H}$ by the [[codomain fibration]], constituting an "[[extension]]" of $\mathbf{H}$ by itself:
+
+$$
+  \array{
+    \mathbf{H}
+    \\
+    \downarrow^{\mathrlap{incl}}
+    \\
+    \mathbf{H}^I
+    \\
+   \downarrow^{\mathrlap{cod}}
+     \\
+    \mathbf{H}
+  }
+  \,.
+$$
+
+The intrinsic cohomology of $\mathbf{H}^I$ under this fibration is [[nonabelian cohomology|nonabelian]] twisted cohomology as discussed in some detail in _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_.
+
+Notice that "stable cohomology", which is traditionally called [[generalized (Eilenberg-Steenrod) cohomology]] may be thought of as the lowest order [[Goodwillie calculus|Goodwillie]] approximation to [[nonabelian cohomology]]: where a cocycle in nonabelian cohomology is a map to any [[homotopy type]], a cocycle in [[generalized (Eilenberg-Steenrod) cohomology]] is a map into a [[stable homotopy type]].
+
+In this sense the [[tangent (infinity,1)-topos]] $T \mathbf{H}$ is the lowest order linear approximation to the [[codomain fibration]]
+
+$$
+  \array{
+    \Stab(\mathbf{H})
+    \\
+    \downarrow^{\mathrlap{incl}}
+    \\
+    T\mathbf{H}
+    \\
+   \downarrow^{\mathrlap{cod}}
+     \\
+    \mathbf{H}
+  }
+  \,.
+$$
+
+Higher-order approximations should involve a notion of higher-order forms of the tangent (∞,1)-topos, in parallel with the relationship between the [[jet bundles]] and [[tangent bundle]] of a manifold. It is clear that whatever we may say in detail about the $k$th-jet $\infty$-topos $J^k \mathbf{H}$, its intrinsic cohomology is a version of twisted cohomology which is in between [[nonabelian cohomology]] and stable i.e. [[generalized (Eilenberg-Steenrod) cohomology]].
+
+It seems that a layered analysis of nonabelian cohomology this way in higher homotopy theory should eventually be rather important, even if it hasn't received any attention at all yet. It seems plausible that a generalization of [[Chern-Weil theory]] which approximates classes of [[principal infinity-bundles]] not just by [[universal characteristic classes]] in [[ordinary cohomology]] and hence in stable cohomology, but that one wants to consider the whole Goodwillie Taylor tower of approximations to it.
 
 ## Definition
  {#Definition}
