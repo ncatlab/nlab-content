@@ -272,7 +272,7 @@ The popularity of the term was notably pushed by [[Toby Bartels]], who considere
 
 A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into account is
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363), [submitted and improved version](http://ncatlab.org/davidroberts/files/DRoberts_anafunctors.pdf)
+* [[David Roberts]], * _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
 See also
 
