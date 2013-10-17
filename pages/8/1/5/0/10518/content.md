@@ -58,6 +58,7 @@ on the total space $X$ of this bundle. This hence yields what one may think of a
 
 ## Definition
 
+
 ### Higher WZW models and their Heisenberg $n$-groups
 
 Given an ambient [[differential cohesion|differentially]] [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an [[∞-group]] $G \in Grp(\mathbf{H})$, then (the [[interaction]] part of) an $n$-dimensional [[schreiber:∞-Wess-Zumino-Witten theory]] [[sigma-model]] over $G$ is determined ([Fiorenz-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) by a [[circle n-bundle with connection]] on $G$, hence by a morphism
@@ -83,8 +84,111 @@ By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group
 
 
 ### Globalization from a Heisenberg-structure
+ {#GlobalizationFromAHeisenbergStructure}
 
-(...)
+
++-- {: .num_prop }
+###### Proposition
+
+Given $\mathcal{L}_{WZW} \;\colon\; G \longrightarrow \mathbf{B}^n U(1)_{conn}$ in $\mathbf{H}$ then a [[Heisenberg n-group]] [[cocycle]] $\hat g \;\colon\; B \longrightarrow \mathbf{B}Heis(\mathcal{L}_{WZW})$ on some base object $B \in \mathbf{H}$ induces a $G$-[[fiber ∞-bundle]] $X \to B$ equipped with a [[circle n-bundle with connection]] $\mathcal{L}^X_{WZW}$ which restricts on each [[fiber]] to $\mathcal{L}_{WZW}$:
+
+$$
+  \array{
+     \mathcal{L}_{WZW} \colon & G &\longrightarrow& X &\stackrel{\mathcal{L}^X_{WZW}}{\longrightarrow}& \mathbf{B}^n U(1)_{conn}
+     \\
+     & && \downarrow
+     \\
+     & & g \colon & B &\stackrel{\hat g}{\longrightarrow}& \mathbf{B}Heis(\mathcal{L}_{WZW}) &\longrightarrow& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[base change]] ([[context extension]] $\dashv$ [[dependent product]])-[[(∞,1)-adjunction]] the map
+
+$$
+  B \longrightarrow \mathbf{B}Heis(\mathcal{L}_{WZW}) \hookrightarrow \underset{\mathbf{B}^n U(1)_{conn}}{\prod} \mathbf{B}\mathbf{Aut}(\mathcal{L}_{WZW})
+$$
+
+in $\mathbf{H}$ corresponds to a map of the form
+
+$$
+  B \times \mathbf{B}^n U(1)_{conn} \longrightarrow \mathbf{B}\mathbf{Aut}(\mathcal{L}_{WZW})
+$$
+
+in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$. This modulates a $\mathcal{L}_{WZW}$-[[fiber ∞-bundle]] by [[homotopy pullback]] of the universal [[associated ∞-bundles]]:
+
+$$
+  \array{
+     \mathcal{L}_{WZW} &\longrightarrow& E &\longrightarrow& \mathcal{L}_{WZW}//\mathbf{Aut}(\mathcal{L}_{WZW})
+     \\
+     && \downarrow &{}^{(pb)}& \downarrow
+     \\
+     && B \times \mathbf{B}^n U(1)_{conn} &\stackrel{}{\longrightarrow}& \mathbf{B} \mathbf{Aut}(\mathcal{L}_{WZW})
+  }
+$$
+
+in $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$.
+
+Now observe that [[dependent sum]] 
+
+$$
+  \underset{\mathbf{B}^n U(1)_{conn}}{\sum}
+  \;\colon\;
+  \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
+  \longrightarrow
+   \mathbf{H}
+$$
+
+preserves [[homotopy fiber products]]. This is because by [this discussion](limit%20in%20a%20quasi-category#InOvercategories) the [[(∞,1)-limit]] over a [[cospan]] [[diagram]] of shape $\longrightarrow \leftarrow$ in $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$ is computed as the [[(∞,1)-limit]] over the induced [[diagram]] of shape 
+
+$$
+  \array{
+     &\longrightarrow& & \leftarrow
+     \\
+     & \searrow & \downarrow & \swarrow
+  }
+$$ 
+
+in $\mathbf{H}$, and because inclusion of the [[cospan]] diagram $\longrightarrow \leftarrow$ into this is [[final (infinity,1)-functor|final]]. Therefore the above induces for each point $b \in B$ a [[homotopy pullback]] diagram in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    G &\longrightarrow& \underset{\mathbf{B}^n U(1)_{conn}}{\sum} E
+    \\
+    {}^{\mathllap{\mathcal{L}_{WZW}}}\downarrow &{}^{(pb)}& \downarrow
+    \\
+    \mathbf{B}^n U(1)_{conn} &\stackrel{(b,Id)}{\longrightarrow}& B \times \mathbf{B}^n U(1)_{conn}
+  }
+  \,.
+$$
+
+Moreover, by the same argument [[dependent sum]] preserves [[1-epimorphisms]] and hence [[covers]] so that we find that there is a [[cover]] $p \;\colon\; U \longrightarrow B$ such that the $\infty$-bundle
+
+$$
+  X \coloneqq \underset{\mathbf{B}^n U(1)_{conn}}{\sum} E
+$$
+
+is equivalent over $U$ to the trivial $G$-[[fiber ∞-bundle]] $U \times G$: over 
+
+$$
+  \array{
+    U \times G &\longrightarrow& X
+    \\
+    {}^{\mathllap{(Id,\mathcal{L}_{WZW}})}\downarrow &{}^{(pb)}& \downarrow
+    \\
+    U \times \mathbf{B}^n U(1)_{conn} &\stackrel{(p,Id)}{\longrightarrow}& B \times \mathbf{B}^n U(1)_{conn}
+  }
+  \,.
+$$
+
+This exhibits $E \to B$ as a $G$-[[fiber ∞-bundle]] with the claimed property.
+
+=--
 
 ### Parameterized WZW models
 
@@ -222,6 +326,7 @@ The discussion of the relevant [[Heisenberg n-group]] theory is in
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_, 2013 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
   {#FiorenzaRogersSchreiber13}
+
 
 General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 
