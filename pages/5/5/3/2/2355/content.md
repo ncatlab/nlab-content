@@ -511,3 +511,6 @@ Section 5.2 in
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
 [[!redirects adjoint (∞,1)-functors]]
+
+[[!redirects (∞,1)-adjunction]]
+[[!redirects (∞,1)-adjunctions]]
