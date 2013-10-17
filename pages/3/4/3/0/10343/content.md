@@ -1,6 +1,3 @@
-[[!redirects extended super Minkowski  spacetime]]
-[[!redirects extended superspacetime]]
-[[!redirects extended superspacetime]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -46,9 +43,16 @@ Discussion in the language of the  [[D'Auria-Fre formulation of supergravity]] (
 
 Discussion that makes the [[super L-infinity algebra]] [[homotopy theory]] underlying this manifest is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The brane bouquet]]_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:The brane bouquet]]_, 2013
 
 [[!redirects extended super-spacetime]]
 
 [[!redirects extended super spacetime]]
 [[!redirects extended super spacetimes]]
+
+[[!redirects extended Minkowski super spacetime]]
+[[!redirects extended Minkowski super spacetimes]]
+
+[[!redirects extended super Minkowski  spacetime]]
+[[!redirects extended superspacetime]]
+[[!redirects extended superspacetime]]
