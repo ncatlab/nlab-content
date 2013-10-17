@@ -53,6 +53,8 @@ I only know the general definition in some rather limited cases:
 Let $V$ be a $W^*$-[[W-star-algebra|algebra]], and let $V_*$ be its [[predual]].  Recall that $V$ is the space of [[continuous map|continuous]] [[linear maps]] from $V_*$ to the [[base field]].  The __extended positive cone__ $\bar{V}^+$ of $V$ is the space of lower [[semicontinuous map|semicontinuous]] linear maps from the positive cone $V_*^+$ of $V_*$ to the space $\bar{\mathbb{R}}^+ = [0,\infty]$ of [[extended real number|extended]] positive [[real numbers]].
 =--
 
+The extended positive real numbers are really showing up in their guise as the nonnegative [[lower real numbers]] (the appropriate targets for a lower semicontinuous map), and the extended positive cone is really a generalisation of the nonnegative upper reals.  In particular, the extended positive cone of $\mathbb{R}$ itself is $[0,\infty]$.
+
 This doesn\'t include the motivating example, but the following generalisation does:
 
 +-- {: .num_defn}
