@@ -178,19 +178,13 @@ $$
 
 (For [[branes]] on which other branes may end, such as the [[D-branes]] and the [[M5-brane]], here [[super Minkowski spacetime]] is replaced by a [[extended Minkowski super spacetime]], as discussed in ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13))).
 
-Now in this case where the [[infinity-group]] in question is linear, we have the 0-[[section]]
-
-$$
-  \sigma_0 \;\colon\; X \longrightarrow T X
-$$
-
-embedding [[super spacetime]] into its [[tangent bundle]]. This allows to pull-back the parameterized WZW model on the [[tangent bundle]] to obtain one on [[spacetime]]
+Now (...)
 
 $$
   \mathcal{L}^{X}_{WZW^{brane}}
   \;\colon\;
   X \stackrel{\sigma_0}{\longrightarrow}
-  T X
+  T^\ast X \otimes \mathbb{R}^{d-1,1;N}
    \stackrel{\mathcal{L}^{T X}_{WZW^{brane}}}{\longrightarrow}
  \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
   \,.
