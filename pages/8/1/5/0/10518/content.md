@@ -56,7 +56,9 @@ $$
 
 on the total space $X$ of this bundle. This hence yields what one may think of as a coherent collection of [[WZW models]] _parameterized_ over base space $B$.
 
-## Details
+## Definition
+
+### Higher WZW models and their Heisenberg $n$-groups
 
 Given an ambient [[differential cohesion|differentially]] [[cohesive (∞,1)-topos]] $\mathbf{H}$ and an [[∞-group]] $G \in Grp(\mathbf{H})$, then (the [[interaction]] part of) an $n$-dimensional [[schreiber:∞-Wess-Zumino-Witten theory]] [[sigma-model]] over $G$ is determined ([Fiorenz-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) by a [[circle n-bundle with connection]] on $G$, hence by a morphism
 
@@ -77,7 +79,16 @@ $$
 
 of $\mathcal{L}_{WZW}$ regarded as an object of the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^n ((1)_{conn}}$ (the full [[∞-group]] on the right is the [[quantomorphism n-group]]).
 
-By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group]] is (for connected $\Pi(X)$, without restriction of generality) a $\mathbf{B}^{n-1}U(1)$-[[∞-group extension]] of $G$, and by construction it is precisely such that a lift of a $G$-[[cocycle]] $B \longrightarrow \mathbf{B}G$ modulating a $G$-[[principal ∞-bundle]] $X \to B$ to a $Heis(\mathcal{L}_{WZW})$ cocycle
+By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group]] is (for connected $\Pi(X)$, without restriction of generality) a $\mathbf{B}^{n-1}U(1)$-[[∞-group extension]] of $G$, 
+
+
+### Globalization from a Heisenberg-structure
+
+(...)
+
+### Parameterized WZW models
+
+By the abive the [[Heisenberg n-group]] is precisely such that a lift of a $G$-[[cocycle]] $B \longrightarrow \mathbf{B}G$ modulating a $G$-[[principal ∞-bundle]] $X \to B$ to a $Heis(\mathcal{L}_{WZW})$ cocycle
 
 $$
   \array{
@@ -220,6 +231,12 @@ General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 [[!redirects parameterized WZW models]]
 [[!redirects parameterized Wess-Zumino-Witten model]]
 [[!redirects parameterized Wess-Zumino-Witten models]]
+
+[[!redirects parametrized WZW model]]
+[[!redirects parametrized WZW models]]
+[[!redirects parametrized Wess-Zumino-Witten model]]
+[[!redirects parametrized Wess-Zumino-Witten models]]
+
 
 [[!redirects fibered WZW model]]
 [[!redirects fibered WZW models]]
