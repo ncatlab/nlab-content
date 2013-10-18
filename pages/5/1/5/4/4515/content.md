@@ -45,6 +45,7 @@ Introduction to Kontsevich's quantization theorem_, [pdf](www.math.jussieu.fr/~k
 * Damien Calaque, Carlo A. Rossi, _Lectures on Duflo isomorphisms in Lie algebra and complex geometry_, European Math. Soc. 2011 [MPI pdf](http://people.mpim-bonn.mpg.de/crossi/LectETHbook.pdf)
 * [[Vladimir Hinich]], _Tamarkin's proof of Kontsevich's formality theorem_, [math.QA/0003052](http://arxiv.org/abs/math/0003052)
 * Vasily Dolgushev, _All coefficients entering Kontsevich's formality quasi-isomorphism can be replaced by rational numbers_, [arxiv/1306.6733](http://arxiv.org/abs/1306.6733)
+* [[Damien Calaque]], Thomas Willwacher, _Triviality of the higher Formality Theorem_, [arxiv/1310.4605](http://arxiv.org/abs/1310.4605)
 
 In agreement with Tsygan's philosophy of noncommutative differential calculus and its relations to braces algebra, Willwacher extends the Kontsevich formality to a homotopy braces morphism and to a $G_\infty$-morphism in
 
