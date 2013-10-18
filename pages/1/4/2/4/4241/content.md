@@ -95,5 +95,10 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
 _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
+
+There are also crossed modules for racks:
+
+* Alissa S. Crans, Friedrich Wagemann, _Crossed modules of rack_, [arxiv/1310.4705](http://arxiv.org/abs/1310.4705)
+
 [[!redirects rack]]
 [[!redirects racks]]
