@@ -135,6 +135,10 @@ $$
 
 which is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] over (the [[unitalization]] of) its underlying [[associative algebra]] ([Mahanta 13](#Mahanta13)).
 
+## Applications
+
+* [[Tabuada]] has used noncommutative motives to compute the [[cyclic homology]] of [[twisted projective homogeneous varieties]].  Also, he showed that the noncommutative motive of such a variety is trivial if and only if the [[Brauer class|Brauer classes]] of the associated [[central simple algebras]] are trivial.  See ([Tabuada 13](#Tabuada13Twisted)).
+
 ## Related concepts
 
 * [[bivariant cohomology]], [[bivariant algebraic K-theory]]
@@ -232,6 +236,8 @@ In
 
 it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
 
+* [[Goncalo Tabuada]], _Additive invariants of toric and twisted projective homogeneous varieties via noncommutative motives_, ([arXiv](http://arxiv.org/abs/1310.4063)).
+ {#Tabuada13Twisted}
 
 category: algebraic geometry, noncommutative geometry
 
