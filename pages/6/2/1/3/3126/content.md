@@ -355,9 +355,9 @@ $$
 
 is equivalently 
 
-1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast in seq$]);
+1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast \in seq$]);
 
-1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;a choi
+1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;
 
 1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega_B X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
 
