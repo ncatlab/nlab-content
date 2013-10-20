@@ -68,6 +68,8 @@ For [[analytic space]]s
 
 * [[Hodge-de Rham spectral sequence]]
 
+* [[chiral de Rham complex]]
+
 ## References
 
 ### In differential geometry
