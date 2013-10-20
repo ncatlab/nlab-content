@@ -8,7 +8,7 @@
 
 A crossed square in the Guin-Valery Loday specification has quite a few axioms, many more than those for a crossed module. Does that mean that crossed $n$-cubes will be defined with a very large number of axioms (perhaps dependent on $n$)? No (unless you think that 11 is large!)
 
-Finally a particular example of a [[crossed square] is given by a group with two [[normal subgroup]]s, and their intersection together with the commutator map.  It would be appropriate if a group together with $n$ normal subgroups, all the  intersections and all the commutator maps, formed an example of a crossed $n$-cube.  It does.  The axioms below govern the $h$-maps, by using analogues of the relationships between commutator maps in such a $n$-cube of inclusions of intersections.
+Finally a particular example of a [[crossed square]] is given by a group with two [[normal subgroup]]s, and their intersection together with the commutator map.  It would be appropriate if a group together with $n$ normal subgroups, all the  intersections and all the commutator maps, formed an example of a crossed $n$-cube.  It does.  The axioms below govern the $h$-maps, by using analogues of the relationships between commutator maps in such a $n$-cube of inclusions of intersections.
 
 The result (definition due to Graham Ellis and Richard Steiner, reference below) is a set of 11 axioms. That is all, and these objects model all homotopy $(n+1)$-[[homotopy n-type|types]].
 
@@ -67,7 +67,7 @@ whole structure, despite its apparent complications. The equivalence of categori
 # Algebraic example#
 Let us put a bit of flesh on the example given in the introduction.  Suppose that  $G$ is a group and $N_1, N_2, .., N_n$ are $n$-[[normal subgroup]]s of $G$ (there may be repeats).
 
-Now define for $A \subseteq  \langle n \rangle$, $M_A = \bigcap\{N_i\mid i \in A\}$, and for $A\in M_A$, $b\in M_B$, $h(a,b) = [a,b]$, the [[commutator]] of $a$ and $b$ in $G$.  The result is a crossed $n$-cube (sometimes called the _inclusion crossed $n$-cube_ determined by the normal $n$-ad of subgroups.
+Now define for $A \subseteq  \langle n \rangle$, $M_A = \bigcap\{N_i\mid i \in A\}$, and for $A\in M_A$, $b\in M_B$, $h(a,b) = [a,b]$, the [[commutator]] of $a$ and $b$ in $G$.  The result is a crossed $n$-cube (sometimes called the _inclusion crossed $n$-cube_ determined by the normal $n$-ad of subgroups).
 
 
 #Simplicial example#
