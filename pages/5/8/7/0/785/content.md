@@ -269,6 +269,7 @@ The _global_ projective [[model structure on simplicial presheaves]] is [[right 
 ### In homotopy type theory
  {#ConstructionInHomotopyTypeTheory}
 
+
 If we unwind the [[categorical semantics]] of the [above definition](#InHomotopyTypeTheory) 
 
 $$
@@ -279,6 +280,9 @@ of the homotopy pullback in [[homotopy type theory]], we re-obtain the
 [above prescription](#ConstructionsGeneral) for how to construct homotopy pullbacks.
 
 So let the ambient category be a suitable [[type-theoretic model category]].
+
++-- {: .num_example}
+###### Example
 
 The type $ a : A, b : B \vdash (f(a) = g(b))$ is obtained by [[substitution]] from the [[identity type]] of $C$. By the discussion there, the [[categorical semantics]] of substitution is given by [[pullback]] of the fibrations that interpret the [[dependent types]], and so this is interpreted as the pullback $[a : A, b : B \vdash (f(a) = g(b))] \coloneqq (f,g)^* C^I$ of the [[path space object]] of $C$:
 
@@ -314,6 +318,38 @@ $$
 Forming the [[dependent sum]] over $a : A, b : B$ is simply interpreted as regarding the resulting object $(f,g)^* C^I$ as an object in $\mathcal{C} \simeq \mathcal{C}_{/*}$ instead of as an object in the [[slice category]] $\mathcal{C}_{/ A \times B}$.
 
 Since by assumption on the categorical interpretation of a type, all objects here are fibrant, this coincides with the expression of the homotopy pullback from corollary \ref{HomotopyPullbackByFactorizationLemma} above.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Specifically, let $f \colon A \longrightarrow B$ be a [[function]], then the [[categorical semantics]] for the expression
+
+$$
+  \underset{b \colon B}{\sum} fib(f,b)
+  =
+  \underset{b \colon B}{\sum} \underset{a \colon A}{\sum} (f(a) = b)
+$$
+
+is the canonical [[fibration]] replacement of $f$ as it appears notably in the [[factorization lemma]]
+
+$$
+  \array{
+    A \times_B B^I &\longrightarrow& B^I
+    \\
+    \downarrow && \downarrow
+    \\
+    A \times B
+    &\stackrel{(f, Id)}{\longrightarrow}&
+    B \times B
+  }
+  \,.
+$$
+
+=--
+
 
 ## Properties
 
