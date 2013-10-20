@@ -41,7 +41,7 @@ The third Law expresses an invariance under the [[equations of motion]] under th
 
 * [[equations of motion]]
 
-  * [[Hamilton's equations]]
+  * [[Hamilton's equations]], [[de Donder-Weyl-Hamilton equation]]
 
   * [[Einstein's equations]]
 
