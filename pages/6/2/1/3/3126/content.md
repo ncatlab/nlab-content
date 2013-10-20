@@ -300,7 +300,9 @@ where $(\Sigma^\infty_C \dashv \Omega^\infty_C)$ is the fiberwise [[stabilizatio
 
 
 
-We discuss how the tangent $\infty$-category of an [[(∞,1)-topos]] is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]] ([Joyal 08](#Joyal08)).
+We discuss how the tangent $\infty$-category of an [[(∞,1)-topos]] is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]].
+
+In terms of [[Omega-spectrum]] [[spectrum objects]] this is due to ([Joyal 08](#Joyal08)). In terms of [[excisive functors]] this is due to [[Charles Rezk]], see at _[n-Excisive functor -- Properties -- n-Excisive reflection](n-excisive+%28?%2C1%29-functor#nExcisiveApproximation)_.
 
 
 #### General
@@ -478,6 +480,15 @@ $$
 $$
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+This statement also follows from the general theory of [[excisive functors]], and in this form it is due to [[Charles Rezk]]. See at _[n-Excisive functor -- Properties -- n-Excisive reflection](n-excisive+%28?%2C1%29-functor#nExcisiveApproximation)_ for the above fact and its generalization to "[[Goodwillie calculus|Goodwillie]] [[jet bundles]]".
+
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -887,6 +898,17 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 
 =--
 
+## Related concepts
+
+* [[differentiable (∞,1)-category]]
+
+* [[Goodwillie calculus]]
+
+* [[jet (∞,1)-category]]
+
+* [[tangent cohesion]]
+
+* [[deformation theory]]
 
 ## References
 
