@@ -141,6 +141,8 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 [[!include infinitesimal and local - table]]
 
+* in [[homotopy theory]]/[[Goodwillie calculus]]: [[jet (∞,1)-category]]
+
 ## References
 
 The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
