@@ -443,7 +443,9 @@ $$
 
 This is [Jardine, theorem 29, corollary 30](#Jardine).
 
-### For $cat^n$ groups
+### For $cat^n$ groups and $n+1$-fold groupoids
+
+Loday's notion of a [[cat-n-group]] corresponds to the connected version of an $n+1$-fold groupoid.  We will restrict our discussion to that connected case.
 
 +-- {: .num_theorem}
 ###### Theorem
