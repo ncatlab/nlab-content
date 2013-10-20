@@ -53,13 +53,12 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 
   * [[Newton's laws of motion]]
 
-  * [[Hamilton's equations]]
+  * [[Hamilton's equations]], [[de Donder-Weyl-Hamilton equation]]
 
   * [[Einstein's equations]]
 
 * [[variational calculus]]
 
-* [[de Donder-Weyl formalism]]
 
 ## References
 
