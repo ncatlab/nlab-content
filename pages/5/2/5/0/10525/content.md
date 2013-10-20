@@ -5,11 +5,31 @@
 
 ## Idea
 
-A $JB$-algebra is what fills in the following [[analogy]]:
+A Jordan--Banach algebra is what fills in the following [[analogy]]:
 
 +-- {: .standout}
-[[associative algebra]] $:$ [[Jordan algebra]] $::$ [[Banach algebra]] $:$ $JB$-algebra
+[[associative algebra]] $:$ [[Jordan algebra]] $::$ [[Banach algebra]] $:$ Jordan--Banach algebra
 =--
+
+Just as a Jordan algebra that happens to be associative is the same thing as an associative algebra that happens to be [[commutative algebra|commutative]], the analogous result holds for Jordan--Banach algebras.
+
+A $JB$-algebra is a Jordan--Banach algebra that satisfies some additional properties analogous to the additional properties satisfied by a $C^*$-[[C-star algebra|algebra]].  However, the analogy above cannot be extended; instead we have the following analogy:
+
++-- {: .standout}
+associative $*$-[[star-algebra|algebra]] $:$ Jordan algebra $::$ Banach $*$-algebra $:$ Jordan--Banach algebra $::$ $C^*$-algebra $:$ $JB$-algebra $::$ [[von Neumann algebra]] $:$ $JBW$-algebra
+=--
+
+Now, an associative algebra on the right is the same thing as a commutative algebra on the left whose [[involution]] $*$ is trivial.
+
+One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-algebras have analogues already for $JB$-algebras.
+
+Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra.  Then even *without* assuming associativity or commutativity, an item on the left below (over the [[complex numbers]]) is the same thing as an item on the right below (over the [[real numbers]]), up to [[equivalence of categories]]:
+
++-- {: .standout}
+associative $*$-algebra $:$ [[Jordan–Lie algebra]] $::$ Banach $*$-algebra $:$ Jordan--Lie--Banach algebra $::$ $C^*$-algebra $:$ $JLB$-algebra $::$ von Neumann algebra $:$ $JLBW$-algebra
+=--
+
+This is discussed (at least one line) at [[JLB-algebra]].
 
 
 ## References
@@ -23,6 +43,13 @@ and most of that appears to be from
 * Harald Hanche-Olsen and Erling St&#248;rmer (1984), _Jordan operator algebras_, Monographs and Studies in Mathematics 21 (Pitman); [web](http://www.math.ntnu.no/~hanche/joa/),
 
 which I have only begun to read.
+
+
+## Related pages
+
+* [[Jordan algebra]]
+* **$JB$-algebra**
+* [[JLB-algebra]]
 
 
 [[!redirects JB-algebra]]
