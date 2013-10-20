@@ -302,7 +302,7 @@ where $(\Sigma^\infty_C \dashv \Omega^\infty_C)$ is the fiberwise [[stabilizatio
 
 We discuss how the tangent $\infty$-category of an [[(∞,1)-topos]] is itself an [[(∞,1)-topos]] over the tangent $\infty$-category of the original [[base (∞,1)-topos]].
 
-In terms of [[Omega-spectrum]] [[spectrum objects]] this is due to ([Joyal 08](#Joyal08)). In terms of [[excisive functors]] this is due to [[Charles Rezk]], see at _[n-Excisive functor -- Properties -- n-Excisive reflection](n-excisive+%28?%2C1%29-functor#nExcisiveApproximation)_.
+In terms of [[Omega-spectrum]] [[spectrum objects]] this is due to ([Joyal 08](#Joyal08)) joint with [[Georg Biedermann]]. In terms of [[excisive functors]] this is due to observations by [[Georg Biedermann]], [[Charles Rezk]] and [[Jacob Lurie]], see at _[n-Excisive functor -- Properties -- n-Excisive reflection](n-excisive+%28?%2C1%29-functor#nExcisiveApproximation)_.
 
 
 #### General
