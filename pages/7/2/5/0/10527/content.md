@@ -54,6 +54,14 @@ Every [[(∞,1)-topos]] is a differentiable $(\infty,1)$-category.
 
 By [[Goodwillie calculus]], [[(∞,1)-functors]] to differentiable $(\infty,1)$-categories have [[n-excisive approximations]]/[[Taylor towers]].
 
+## Related concepts
+
+* [[tangent (∞,1)-category]]
+
+* [[jet (∞,1)-category]]
+
+* [[Goodwillie calculus]]
+
 ## References
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
