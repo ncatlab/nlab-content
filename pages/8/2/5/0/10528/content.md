@@ -10,6 +10,13 @@ Given a [[differentiable (∞,1)-category]] $\mathcal{C}$, then the [[(∞,1)-ca
 
 In particular for $n = 1$ this is the [[tangent (∞,1)-category]] of $\mathcal{C}$.
 
+## Properties
+
+### Jet toposes
+ {#JetToposes}
+
+By the discussion at _[n-excisive functor -- Properties -- n-Excisive approximation](n-excisive+%28?%2C1%29-functor#nExcisiveApproximation)_, for $\mathbf{H}$ an [[(∞,1)-topos]] also its $n$th jet $(\infty,1)$-category $J^n \mathbf{H}$ is an $(\infty,1)$-topos, for all $n \in \mathbb{N}$. For $n = 1$ this is the [[tangent (∞,1)-topos]] $J^1 \mathbf{H} = T \mathbf{H}$ (see also at _[[tangent cohesion]]_).
+
 ## References
 
 Section 7.1 of 
@@ -17,4 +24,3 @@ Section 7.1 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects jet (∞,1)-categories]]
-
