@@ -292,9 +292,11 @@ For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ fr
 
 ## Related concepts
 
-* [[excisive (∞,1)-functor]]
+* [[excisive (∞,1)-functor]], [[n-excisive (∞,1)-functor]]
 
-* [[n-excisive (∞,1)-functor]]
+* [[Taylor tower]]
+
+* [[tangent (∞,1)-category]], [[tangent cohesion]]
 
 ## References
 
