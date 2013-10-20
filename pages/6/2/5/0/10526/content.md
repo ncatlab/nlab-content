@@ -16,7 +16,7 @@
 
 ## Idea
 
-In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-functor]] is its stagewise approximation by [[n-excisive (∞,1)-functors]] which is analogous to the approximation of a [[smooth function]] by its [[Taylor series]].
+In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-functor]] to a [[differentiable (∞,1)-category]] is its stagewise approximation by [[n-excisive (∞,1)-functors]] which is analogous to the approximation of a [[smooth function]] by its [[Taylor series]].
 
 ## References
 
