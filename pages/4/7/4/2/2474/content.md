@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,8 +20,6 @@
 =--
 =--
 =--
-
-
 
 # Contents
 * table of contents
@@ -222,7 +221,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[von Neumann algebra]], [[enveloping von Neumann algebra]]
 
-* [[Jordan-Lie-Banach algebra]]
+* [[JB-algebra]], [[JLB-algebra]]
 
 * [[dense subalgebra]], [[F-star-algebra]]
 
