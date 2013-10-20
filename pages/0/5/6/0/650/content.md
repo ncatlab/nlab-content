@@ -27,7 +27,7 @@ Just as [[cat-1-group]]s (i) give models for connected [[homotopy 2-type]]s, (ii
 A _$cat^n$-group_ is a strict [[n-fold category]] [[internal category|internal]] to [[Grp]]. 
 
 
-Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are [[endomorphism]]s and there is corresponding notion of cat^n$-groupoid.
+Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are [[endomorphism]]s and there is corresponding notion of cat$^n$-groupoid.
 
 As with the cases $n=1$ and 2, there is a neat purely group theoretic definition of these objects.
 
@@ -89,6 +89,10 @@ See also [[crossed n-cube]] for an alternative description.
 
 It is not so clear how to construct a homotopical functor from $n$-cubes of _non pointed spaces_, and what should be the receiving category. 
 =--
+##Related concepts
+
+* [[crossed n-cube]]
+
 
 ## References
 
