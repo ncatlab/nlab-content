@@ -41,7 +41,7 @@ $$
 
   * [[Newton's laws of motion]]
 
-  * [[Hamilton's equations]]
+  * [[Hamilton's equations]], [[de Donder-Weyl-Hamilton equation]]
 
 
 ## References
