@@ -29,7 +29,7 @@ By the discussion at _[[cohomology]]_, plain cohomology is the study of
 
 and maybe fully generally in any [[(∞,1)-category]] $\mathcal{C}$ whatsoever.
 
-So for $A \in \mathcal{C}$ any [[object]] the [[cohomology]] of any other object $X$ with [[coefficients]] in $A$ is the [[mapping space]] $\mathcal{C}(X,A)$. Notice that this is equivalently the [[homotopy type]] of [[sections]] $\mathcal{C}_{/X}(X, X \times A)$ of the trivial $A$-[[fiber ∞-bundle]] over $X$. The idea of _twisted cohomology_ then is to consider general $A$-[[fiber ∞-bundles]] $\chi$ over $X$ and take the $\chi$-twisted cohomology of $X$ to the the type of [[sections]] of this.
+So for $A \in \mathcal{C}$ any [[object]] the [[cohomology]] of any other object $X$ with [[coefficients]] in $A$ is the [[mapping space]] $\mathcal{C}(X,A)$. Notice that this is equivalently the [[homotopy type]] of [[sections]] $\mathcal{C}_{/X}(X, X \times A)$ of the trivial $A$-[[fiber ∞-bundle]] over $X$. The idea of _twisted cohomology_ then is to consider general $A$-[[fiber ∞-bundles]] $\chi$ over $X$ and take the $\chi$-twisted cohomology of $X$ to the type of [[sections]] of this.
 
 
 | [[cohomology]] | twisted cohomology |
