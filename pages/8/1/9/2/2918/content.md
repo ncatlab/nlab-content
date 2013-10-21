@@ -1,5 +1,19 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 # The Legendre transformation
 * table of contents
 {: toc}
@@ -19,6 +33,13 @@ In many dimensions, hybrid versions are possible. When the physics of the system
 
 See also [wikipedia:Legendre transformation](http://ncatlab.org/nlab/edit/Legendre+transformation) and [wikipedia:Legendre-Fenchel transformation](http://en.wikipedia.org/wiki/Legendre-Fenchel_transformation); the two wikipedia articles have much detail in certain specific approaches and cases, but also miss some of the basic ones to be balanced. 
 
+### Via prequantized Lagrangian correspondences
+
+See at _[[prequantized Lagrangian correspondence]]_.
+
+### In multisymplectic geometry
+
+See at _[multisymplectic geometry -- de Donder-Weyl-hamilton equations of motion](multisymplectic+geometry#DonderWeylHamiltonFieldEquations)_.
 
 ## Related concepts
 
