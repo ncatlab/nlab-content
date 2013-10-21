@@ -153,7 +153,7 @@ from the first [[jet bundle|jets]] at $e$ to the degree-$(n+1)$ [[differential f
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #ExtendedCovariantPhaseSpace}
 ###### Definition
 
 Given a [[spacetime]]/[[worldvolume]] $\Sigma$ and a [[field bundle]] $E \to \Sigma$, the **extended covariant phase space** is the multisymplectic manifold 
@@ -341,8 +341,11 @@ $$
 
 =--
 
-### De Donder-Weyl-Hamilton field equations 
 
+### De Donder-Weyl-Hamilton field equations 
+ {#DonderWeylHamiltonFieldEquations}
+
+We discuss the [[Euler-Lagrange equations of motion]] of a [[local field theory]] expressed in multisymplectic geoemtry via [[de Donder-Weyl formalism]].
 
 
 +-- {: .num_defn #LocalLagrangian}
@@ -358,7 +361,7 @@ on the first [[jet bundle]] of $E$ with values in [[densities]]/[[volume forms]]
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #LegendreTransform}
 ###### Definition
 
 Given a [[local Lagrangian]], def. \ref{LocalLagrangian},
@@ -369,14 +372,69 @@ $$
   J^1 E \longrightarrow (J^1 E)^\ast
 $$
 
-from first jets to the affine dual jet bundle, def. \ref{DualFirstJetBundle}, which sends $\mathbf{L}$
+from first [[jets]] to the affine dual jet bundle, def. \ref{DualFirstJetBundle}, which sends $\mathbf{L}$
 to its first-order [[Taylor series]].
 
 =--
 
-([Forger-Romero 04, section 2.5](#ForgerRomero04)).
+This definition was proposed in ([Forger-Romero 04, section 2.5](#ForgerRomero04)).
 
-Now (...)
++-- {: .num_prop #LegendreTransformInLocalCoordinates}
+###### Proposition
+
+In terms of the local [[coordinates]] of remark \ref{CanonicalFormInGoodCoordinates} the Legendre transform of def. \ref{LegendreTransform} is the function with [[coordinates]]
+
+$$
+  P^i_a = \frac{\partial \mathbf{L}}{\partial q^a_{, i}}
+$$
+
+and 
+
+$$
+  P = \mathbf{L} - \frac{\partial \mathbf{L}}{\partial q^a_{,i}}q^a_{,i}
+  \,.
+$$
+
+=--
+
+([Forger-Romero 04, section 2.5 (41)](#ForgerRomero04)).
+
+
++-- {: .num_remark}
+###### Remark
+
+The second term in prop. \ref{LegendreTransformInLocalCoordinates} is what is traditionally called the Legendre transform in multisymplectic geometry/[[de Donder-Weyl formalism]]. Def. \ref{LegendreTransform} may be regarded as explaining the conceptual role of this expression, in particular in view of the following proposition.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[local Lagrangian]] $\mathbf{L}$, the [[pullback of differential forms|pullback]] $\omega_{\mathbf{L}}$ of the canonical [[n-plectic form|pre-n-plectic form]] $\omega$, def. \ref{ExtendedCovariantPhaseSpace}, along the [[Legendre transform]] $\mathbb{F}\mathbf{L}$, def. \ref{LegendreTransform}, to the first [[jet bundle]] is the sum of the [[Euler-Lagrange equation]] $EL_{\mathbf{L}}$ and the canonical symplectic form $\mathbf{d}_v \theta_{\mathbf{L}}$ from [[covariant phase space]] formalism:
+
+$$
+  \begin{aligned}
+    \omega_{\mathbf{L}}
+    & \coloneqq 
+    \mathbb{F}\mathbf{L}^\ast \omega 
+    \\
+    & = 
+    EL_{\mathbf{L}} + \mathbf{d}_v \theta_{\mathbf{L}}
+  \end{aligned}
+  \,.
+$$
+
+It follows that
+
+1. $(\iota_{v_n} \cdots \iota_{v_1})  \omega_{\mathbf{L}} = 0$ is the [[Euler-Lagrange equation of motion]] in [[de Donder-Weyl formalism|de Donder-Weyl-Hamilton]]-form;
+
+1. for any [[Cauchy surface]] $\Sigma_{n-1}$, the [[transgression]] 
+   $\omega_\Sigma \coloneqq \int_{\Sigma_{n-1}}\omega_{\mathbf{L}}$ is the canonical pre-symplectic form on [[phase space]] (as discussed there).
+
+=--
+
+This statement is essentially the content of ([Forger-Romero 04, equation (54) and theorem 1](#ForgerRomero04)). In the above form in terms of [[variational bicomplex]] notions this statement has been amplified by [[Igor Khavkine]].
+
 
 
 ### Examples
@@ -676,6 +734,7 @@ Not much is known about the interpretation of Poisson forms of form degree betwe
 The Hamiltonian, infinite dimensional formulation of [[classical field theory]] requires the choice of a spacelike hypersurface ("Cauchy surface") [12] which manifestly breaks the general covariance of the theory at hand. For $(n-1)$-forms, the above mentioned new bracket reduces to the Peierls-deWitt bracket after integration over the spacelike hypersurface [13]. With the choice of a hypersurface, a constraint analysis [14] _&#224; la_ Dirac [15,16] can be performed [17]. Again, the necessary breaking of general covariance raises the need for an alternative formulation of all this [18]; first attempts have been made to carry out a [[Marsden-Weinstein reduction]] [19] for multisymplectic manifolds with symmetries [20]. However, not very much is known about how to quantize a multisymplectic geometry, see [21] for an approach using a path integral.
 
 This discussion so far concerns field theories of first order, i.e. where the Lagrangian depends on the fields and their first derivatives. Higher order theories can be reduced to first order ones for the price of introducing auxiliary fields. A direct treatment would involve higher order jet bundles [22]. A definition of the covariant Legendre transform and the multiphase space has been given for this case [3].
+
 
 ## References
 
