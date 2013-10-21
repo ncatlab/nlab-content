@@ -75,7 +75,7 @@ Shortness of the multiplication follows from the $B$-identity (via the [[polariz
 The $JB$-algebra $A$ is a __$JBW$-algebra__ if it is unital and if its [[underlying]] Banach space has a [[predual]] $A_*$.
 =--
 
-See [[von Neumann algebra]] for motivation of the predual.
+See [[von Neumann algebra]] for motivation of the predual.  (Is it unique?  Should be!)
 
 
 ## Properties
