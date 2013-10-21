@@ -440,6 +440,7 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 [[!redirects ?LieGrpd]]
 
 [[!redirects Lie-infinity groupoid]]
+[[!redirects Lie ∞-groupoids]]
 
 [[!redirects ∞-Lie groupoid cohomology]]
 [[!redirects infinity-Lie groupoid cohomology]]
