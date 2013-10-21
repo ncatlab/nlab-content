@@ -5,31 +5,20 @@
 
 ## Idea
 
-A Jordan--Banach algebra is what fills in the following [[analogy]]:
+Jordan--Banach algebras, $JB$-algebras, and the like fill out the following grand [[analogy]]:
 
-+-- {: .standout}
-[[associative algebra]] $:$ [[Jordan algebra]] $::$ [[Banach algebra]] $:$ Jordan--Banach algebra
-=--
+| | | | |
+|-|-|-|-|
+| [[associative algebra]] | associative $*$-[[star-algebra|algebra]] | [[Jordan algebra]] | [[Jordan–Lie algebra]] |
+| [[Banach algebra]] | Banach $*$-algebra | Jordan--Banach algebra | [[Jordan–Lie–Banach algebra]] |
+| | $C^*$-[[C-star-algebra|algebra]] | $JB$-algebra | $JLB$-[[JLB-algebra|algebra]] |
+| | [[von Neumann algebra]] | $JBW$-algebra | $JLBW$-algebra |
 
-Just as a Jordan algebra that happens to be associative is the same thing as an associative algebra that happens to be [[commutative algebra|commutative]], the analogous result holds for Jordan--Banach algebras.
+Just as a [[Jordan algebra]] that happens to be associative is the same thing as an [[associative algebra]] that happens to be [[commutative algebra|commutative]], the analogous result holds in the next row.  Similarly, an associative Jordan algebra is the same thing as a commutative $*$-[[star-algebra|algebra]] whose [[involution]] $*$ is trivial; this extends to all rows.
 
-A $JB$-algebra is a Jordan--Banach algebra that satisfies some additional properties analogous to the additional properties satisfied by a $C^*$-[[C-star algebra|algebra]].  However, the analogy above cannot be extended; instead we have the following analogy:
+One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-[[C-star-algebra|algebras]] have analogues already for $JB$-algebras. Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra; then even *without* assuming associativity or commutativity, a [[Jordan–Lie algebra]] over the [[real numbers]] is the same thing as an associative $*$-algebra over the [[complex numbers]], up to [[equivalence of categories]], and this extends to lower rows.
 
-+-- {: .standout}
-associative $*$-[[star-algebra|algebra]] $:$ Jordan algebra $::$ Banach $*$-algebra $:$ Jordan--Banach algebra $::$ $C^*$-algebra $:$ $JB$-algebra $::$ [[von Neumann algebra]] $:$ $JBW$-algebra
-=--
-
-Now, an associative algebra on the right is the same thing as a commutative algebra on the left whose [[involution]] $*$ is trivial.
-
-One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-algebras have analogues already for $JB$-algebras.
-
-Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra.  Then even *without* assuming associativity or commutativity, an item on the left below (over the [[complex numbers]]) is the same thing as an item on the right below (over the [[real numbers]]), up to [[equivalence of categories]]:
-
-+-- {: .standout}
-associative $*$-algebra $:$ [[Jordan–Lie algebra]] $::$ Banach $*$-algebra $:$ Jordan--Lie--Banach algebra $::$ $C^*$-algebra $:$ $JLB$-algebra $::$ von Neumann algebra $:$ $JLBW$-algebra
-=--
-
-This is discussed (at least one line) at [[JLB-algebra]].
+The rightmost column is discussed at [[JLB-algebra]]; here we discuss the next-to-rightmost column (assuming the top row as known).  I also think that something might be done with the bottom half of the left column, but not here.
 
 
 ## Definitions
