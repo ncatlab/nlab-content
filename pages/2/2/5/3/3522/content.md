@@ -292,7 +292,7 @@ For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ fr
 
 ## Related concepts
 
-* [[differentiable (∞,1)-category]]
+* [[Goodwillie-differentiable (∞,1)-category]]
 
 * [[excisive (∞,1)-functor]], [[n-excisive (∞,1)-functor]]
 
