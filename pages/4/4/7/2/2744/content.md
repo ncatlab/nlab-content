@@ -141,7 +141,8 @@ Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration
 +-- {: .num_defn #DualFirstJetBundle}
 ###### Definition
 
-Given a [[vector bundle]] $E \to \Sigma$ over a [[smooth manifold]] of [[dimension]] $dim(\Sigma)  = n+1$, the **dual first jet bundle** $(J_1 E)^\ast \to \Sigma$ is the [[vector bundle]] whose [[fiber]] at $e \in E_s$ is the set of [[affine maps]]
+Given a [[vector bundle]] $E \to \Sigma$ over a [[smooth manifold]] of [[dimension]] $dim(\Sigma)  = n+1$, the **affine dual first jet bundle**
+(or often just **dual first jet bundle** for short)  $(J_1 E)^\ast \to \Sigma$ is the [[vector bundle]] whose [[fiber]] at $e \in E_s$ is the set of [[affine maps]]
 
 $$
   J_e^1 E \longrightarrow \Lambda_s^{n+1} \Sigma
@@ -340,6 +341,44 @@ $$
 
 =--
 
+### De Donder-Weyl-Hamilton field equations 
+
+
+
++-- {: .num_defn #LocalLagrangian}
+###### Definition
+
+Given a [[field bundle]] $E \to \Sigma$ as above, a (first order) [[local Lagrangian]] is a [[smooth function]]
+
+$$
+  \mathbf{L} \;\colon\; J^1 E \longrightarrow \wedge^n T^\ast \Sigma
+$$
+
+on the first [[jet bundle]] of $E$ with values in [[densities]]/[[volume forms]]. Equivalently this is a degree $(n,0)$-form on the jet bundle, in terms of [[variational bicomplex]] grading.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[local Lagrangian]], def. \ref{LocalLagrangian},
+its **local [[Legendre transform]]** is the [[smooth function]]
+
+$$
+  \mathbb{F}\mathbf{L} \;\colon\; 
+  J^1 E \longrightarrow (J^1 E)^\ast
+$$
+
+from first jets to the affine dual jet bundle, def. \ref{DualFirstJetBundle}, which sends $\mathbf{L}$
+to its first-order [[Taylor series]].
+
+=--
+
+([Forger-Romero 04, section 2.5](#ForgerRomero04)).
+
+Now (...)
+
+
 ### Examples
 
 #### Free field theory
@@ -431,7 +470,7 @@ This shows that the canonical [[multisymplectic form]]
 is the "covariant symplectic potential current density" 
 which is induced by the free field Lagrangian.
 
-See also ([Forger Romero 04, section 3.2](#ForgerRomero)).
+See also ([Forger Romero 04, section 3.2](#ForgerRomero04)).
 
 #### Bosonic particle propagating on a manifold
 
@@ -749,7 +788,7 @@ Higher order [[moment map]]s are considered in
 The relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods is discussed in 
 
 * [[Michael Forger]], [[Sandro Romero]], _Covariant Poisson Brackets in Geometric Field Theory._, Commun. Math. Phys. 256 (2005) 375-410, ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
- {#ForgerRomero}
+ {#ForgerRomero04}
 
 * [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
 
@@ -768,7 +807,7 @@ Kanatchikov's "algebra of observables" is what he calls a "higher-order Gerstenh
 
 * [[Michael Forger]], C. Paufler, and H. Roemer, _The Poisson Bracket for Poisson Forms in Multisymplectic Field Theory_ , ([arXiv:math-ph/0202043](http://arxiv.org/abs/math-ph/0202043v1))
 
-and ([Forger-Romero](#ForgerRomero)) above. 
+and ([Forger-Romero 04](#ForgerRomero04)) above. 
 
 Kanatchikov's formalism was used by S.P. Hrabak to propose a multisymplectic refinement of [[BV-BRST formalism]]. See there for more details.
 
