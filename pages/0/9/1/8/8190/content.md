@@ -236,7 +236,7 @@ $$
   \mathbf{d}\phi^i \wedge \mathbf{d}\phi^\mu_a
   \iota_{\partial_{\sigma^\mu}} vol_\Sigma
   + 
-  vol_\Sigma \wedge \mathbf{d}e
+  \mathbf{d}e \wedge vol_\Sigma 
   \,.
 $$
 
