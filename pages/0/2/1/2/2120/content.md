@@ -69,6 +69,12 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 
 * [[equicontinuous function]]
 
+* [[analytic function]]
+
+* [[smooth function]]
+
+* [[convex function]]
+
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
 [[!redirects continuous function]]
