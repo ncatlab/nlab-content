@@ -20,7 +20,7 @@
 
 ## Idea
 
-Paramaterized ([[stable homotopy theory|stable]]) [[homotopy theory]] is ([[stable homotopy theory|stable]]) [[homotopy theory]] of [[bundles]] of [[homotopy types]]/[[stable homotopy types]] over a given base space.
+Parameterized ([[stable homotopy theory|stable]]) [[homotopy theory]] is ([[stable homotopy theory|stable]]) [[homotopy theory]] of [[bundles]] of [[homotopy types]]/[[stable homotopy types]] over a given base space.
 
 For formalizations see at
 
