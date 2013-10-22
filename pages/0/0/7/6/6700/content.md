@@ -23,4 +23,9 @@ To get an actual collection of correlators one has to choose from each space of 
 
 * [[Bojko Bakalov]], [[Alexander Kirillov]], _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
+A generalization of the modular functors is in
+
+* Igor Kriz, Luhang Lai, _On the definition and K-theory realization of a modular functor_, [arxiv/1310.5174](http://arxiv.org/abs/1310.5174)
+ 
+
 [[!redirects modular functors]]
