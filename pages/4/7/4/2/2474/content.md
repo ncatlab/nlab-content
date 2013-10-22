@@ -11,7 +11,7 @@
 [[!include AQFT and operator algebra contents]]
 =--
 #### Noncommutative geometry
-+--{: .hide}
++-- {: .hide}
 [[!include noncommutative geometry - contents]]
 =--
 #### Index theory
@@ -46,6 +46,12 @@ A [[homomorphism]] of $C^\ast$-algebras is a map that preserves all this structu
 
 $C^\ast$-algebras with these homomorphisms form a [[category]] [[C*Alg]].
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Often one sees the definition without the clause (which should be in the definition of Banach $*$-algebra) that the involution is an [[isometry]] (so that ${\|A^*\|} = {\|A\|}$, which is key for the equivalence of the $B^*$ and $C^*$ identities).  This follows easily from the $B^*$-identity, while it follows from the $C^*$-identity after some difficulty.
 =--
 
 +-- {: .num_remark}
@@ -87,7 +93,7 @@ It is immediate that concrete $C^*$-algebras correspond precisely to [[faithful 
 +-- {: .num_remark}
 ###### Remark
 
-The original definition of the term '$C^*$-algebra' was in fact the concrete notion; the 'C' stood for 'closed'.  Furthermore, the original term for the abstract notion was '$B^*$-algebra'.  However, we now usually interpret '$C^*$-algebra' abstractly.  (Compare '$W^*$-algebra' and '[[von Neumann algebra]]'.)
+The original definition of the term '$C^*$-algebra' was in fact the concrete notion; the 'C' stood for 'closed'.  Furthermore, the original term for the abstract notion was '$B^*$-algebra' (where the 'B' stood for 'Banach').  However, we now usually interpret '$C^*$-algebra' abstractly.  (Compare '$W^*$-algebra' and '[[von Neumann algebra]]'.)
 
 =--
 
