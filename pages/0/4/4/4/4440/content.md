@@ -27,9 +27,17 @@
 
 ## Idea
 
-The notion of _2-sheaf_ -- traditionally often: _[[stack]]_, but see there for caveats -- is the generalization of the notion of [[sheaf]] to the [[higher category theory]] of [[2-categories]]/[[bicategories]]. 
-
+The notion of _2-sheaf_ is the generalization of the notion of [[sheaf]] to the [[higher category theory]] of [[2-categories]]/[[bicategories]]. 
 A 2-category of 2-sheaves forms a [[2-topos]].
+
++-- {: .num_remark }
+###### Remark on terminology
+
+A _2-sheaf_ is a higher sheaf of [[categories]]. More restrictive than this is a higher sheaf with values in [[groupoids]], which would be a _[[(2,1)-sheaf]]_. Both these notions are often referred to as **[[stack]]**, or sometimes "stack of groupoids" and "stack of categories" for definiteness. But moreover, traditionally a [[stack]] (in either flavor) is considered only over a [[1-site]], whereas it makes sense to consider [[(2,1)-sheaves]] more generally over [[(2,1)-sites]] and 2-sheaves over [[2-sites]].
+
+Therefore, saying "2-sheaf" serves to indicate the full generality of the notion of higher sheaves in [[2-category theory]], as opposed to various special cases of this general notion which have traditionally been considered.
+
+=--
 
 ## Definition
 
