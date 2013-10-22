@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the context of [[Goodwillie calculus]], an [[(∞,1)-category]] is called _Goodwillie-differentiable_ if [[(∞,1)-functors]] to it admit "derivatives" in the form of [[n-excisive approximations]]. Note that this concept is not related to that of [[Lie (∞,1)-groupoids]].
+In the context of [[Goodwillie calculus]], an [[(∞,1)-category]] is called _Goodwillie-differentiable_ if [[(∞,1)-functors]] to it admit "derivatives" in the form of [[n-excisive approximations]]. Note that this concept is not related to that of [[Lie ∞-groupoids]].
 
 ## Definition
 
