@@ -108,7 +108,7 @@ $$
   }
 $$
 
-is a [[(∞,1)-pullback]] diagram in $C$. Here, by a partition $S \cup S'$ of $[n]$ that share precisely one vertex $s$, we mean two subsets of $\{0,1,\ldots,n\}$ whose union is $\{0,1,\ldots,n\}$ and whose intersection is the singleton $\{s\}$. The linear order on $[n]$ then restricts to the linear order on $S$ and $S'$. 
+is a [[(∞,1)-pullback]] diagram in $C$. Here, by a partition $S \cup S'$ of $[n]$ that share precisely one vertex $s$, we mean two subsets $S$ and $S'$ of $\{0,1,\ldots,n\}$ whose union is $\{0,1,\ldots,n\}$ and whose intersection is the singleton $\{s\}$. The linear order on $[n]$ then restricts to the linear order on $S$ and $S'$. 
 
 The $(\infty,1)$-category of groupoid objects in $C$ is the full [[sub-(∞,1)-category]] 
 
