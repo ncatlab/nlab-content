@@ -150,7 +150,7 @@ If moreover for all objects $U$ of $C$ we have that $C(*,U)$ is [[inhabited set|
 
 Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the full [[sub-(∞,1)-category]] of the $(\infty,1)$-topos on the $n$-[[truncated]] objects and since the definition of cohesive $(n,1)$-topos is compatible with such truncation, it follows that
 
-+-- {: .num_corollary}
++-- {: .num_cor}
 ###### Corollary
 
 Let $C$ be an $\infty$-cohesive site. Then for all $n \in \mathbb{N}$ the [[(n,1)-topos]] $Sh_{(n,1)}(C)$ is cohesive. 
