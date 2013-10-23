@@ -317,6 +317,14 @@ Discrete cohesion is the topic of section 3.1 of
 where much of the above material is taken from.
 
 
+[[!redirects geometrically discrete infinity-groupoids]]
+
+[[!redirects geometrically discrete ∞-groupoid]]
+[[!redirects geometrically discrete ∞-groupoids]]
+
+
+[[!redirects discrete infinity-groupoid]]
+
 [[!redirects discrete ∞-groupoid]]
 
 [[!redirects discrete ∞-groupoids]]
