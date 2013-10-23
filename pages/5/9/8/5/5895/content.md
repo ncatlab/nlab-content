@@ -29,7 +29,7 @@ For $\mathcal{E}$ a [[topos]], an **internal site** in $\mathcal{E}$ is an [[int
 =--
 
 
-Spelled out in components, this means the following (as in ([Johnstone](#Johnstone)), we shall only define _sifted_ coverages). First, we define the subobject $Sv(\mathbb{C}) \hookrightarrow PC_1$ of _sieves_, where a subobject $S \hookrightarrow C_1$ is a sieve if the composite
+Spelled out in components, this means the following (as in ([Johnstone](#Johnstone)), we shall only define _sifted_ coverages). First, we define the [[subobject]] $Sv(\mathbb{C}) \hookrightarrow PC_1$ of _[[sieves]]_, where a subobject $S \hookrightarrow C_1$ is a sieve if the composite
 $$
 S\times_{C_0} C_1 \to C_1\times_{C_0} C_1 \to C_1
 $$
@@ -107,8 +107,8 @@ is the delooping gorupoid of the [[semidirect product]] group of the $G$-action 
 
 Generally we have
 
-+-- {: .num_note}
-###### Note
++-- {: .num_remark}
+###### Remark
 
 The category $\mathcal{C} \rtimes \mathbb{D}$ from def. \ref{TheExternalizedSite} is described as follows:
 
