@@ -968,9 +968,14 @@ This section is at
 
 * [[cohesive (∞,1)-topos -- structures]]
 
+## Types of cohesion
 
-##  Infinitesimal cohesion   
-  {#InfinitesimalCohesion}
+### Infinitesimal cohesion
+
+* [[infinitesimal cohesion]]
+
+###  Differential cohesion   
+  {#DifferentialCohesion}
 
 We discuss [[extra structure]] on a cohesive $(\infty,1)$-topos
 that encodes a refinement of the corresponding notion of cohesion to 
@@ -982,19 +987,19 @@ $\mathbf{H}$.
 
 This section is at
 
-* [[cohesive (∞,1)-topos -- infinitesimal cohesion]]
+* [[differential cohesive (∞,1)-topos]]
 
-## Locally ringed cohesion
+### Locally ringed cohesion
 
 Every cohesive $(\infty,1)$-topos $\mathbf{H}$ equipped with 
-[infinitesimal cohesion](#InfinitesimalCohesion) comes canonically equipped with a notion of [[formally étale morphism]]s (as discussed there). Combined with the canonical interpretation of $\mathbf{H}$ as the [[classifying topos]] of a [[theory]] of [[local algebra|local T-algebra]]s, this caninically induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)-toposes]] with cohesive structure, generalizing the notion of [[locally ringed space]]s and [[locally ringed topos]]es.
+[differential cohesion](#DifferentialCohesion) comes canonically equipped with a notion of [[formally étale morphism]]s (as discussed there). Combined with the canonical interpretation of $\mathbf{H}$ as the [[classifying topos]] of a [[theory]] of [[local algebra|local T-algebra]]s, this caninically induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)-toposes]] with cohesive structure, generalizing the notion of [[locally ringed space]]s and [[locally ringed topos]]es.
 
 This section is at 
 
 * [[cohesive (∞,1)-topos -- structure ∞-sheaves]].
 
 
-## Examples 
+## Examples of cohesive $\infty$-toposes
  {#Examples}
 
 We list examples of cohesive $(\infty,1)$-toposes,
@@ -1102,7 +1107,7 @@ Here $\mathbf{H}^{\Delta^{op}}$ is also the [[classifying topos]] for [[linear i
 For more see at _[[simplicial object in an (∞,1)-category]]_.
 
 
-### Stable cohesion: cohesive tangent $\infty$-toposes
+#### Bundles of cohesive spectra
 
 The [[tangent (∞,1)-category]] $T\mathbf{H}$
 to a cohesive $\infty$-topos is itself cohesive, 
