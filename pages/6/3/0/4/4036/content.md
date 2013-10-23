@@ -15,27 +15,53 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Definition
 
-A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X$ is called a **good cover** -- or **good open cover** if it is
 
-1. an [[open cover]]
++-- {: .num_defn #GoodOpenCover }
+###### Definition
 
-1. such that all the $U_i$ and all their nonempty finite intersections are [[contractible]].
+A [[cover]] $\{U_i \to X\}$ of a [[topological space]] $X$ is called a **good cover** -- or **good open cover** if it is
+
+1. an [[open cover]];
+
+1. such that all the $U_i$ and all their nonempty finite intersections are [[contractible topological spaces]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
 
 
+For $X$ a [[topological manifold]] one often needs that the non-empty finite intersections are [[homeomorphism|homeomorphic]] to an [[open ball]] and for   [[smooth manifolds]] often one needs that the finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an [[open ball]].
+
+In the literature this is traditionally glossed over, but it is in fact a subtle point, see the discussion at [[open ball]] and see below at _[Existence on paracompact manifolds](#ExistenceOnParacompactManifolds)_. 
+
+=--
+
+Therefore it makes sense to explicitly say:
+
++-- {: .num_defn #DifferentiablyGoodOpenCover}
+###### Definition
+
+Given a [[smooth manifold]] $X$ a _differentiably good open cover_ is a good open cover one all whose finite non-empty intersections are in fact [[diffeomorphism|diffeomorphic]] to an [[open ball]], hence to a [[Cartesian space]].
+
+=--
 
 
 ## Properties {#Properties}
  
-+-- {: .un_prop }
+### Exsistence on paracompact manifold
+ {#ExistenceOnParacompactManifolds}
+
++-- {: .num_prop }
 ###### Proposition
 
-Every [[paracompact manifold]] admits a good open cover.
+Every [[paracompact manifold]] admits a good open cover, def. \ref{GoodOpenCover}.
 
 =--
 
@@ -46,17 +72,17 @@ Every paracompact manifold admits a [[Riemannian metric]], and for any point in 
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 It is apparently a folk theorem that every geodesically convex neighbourhood in a Riemannian manfifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
-Every [[paracompact manifold]] of [[dimension]] $d$ admits an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
+Every [[paracompact manifold]] of [[dimension]] $d$ admits a differentiably good open cover, def. \ref{DifferentiablyGoodOpenCover}, hence an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
 
 =--
 
@@ -72,16 +98,18 @@ So we have that every finite non-empty intersection of the $U_p$ is diffeomorphi
 
 =--
 
-+-- {: .un_cor }
+### Coverages of good open covers
+
++-- {: .num_cor }
 ###### Corollary
 
-The [[category]] $Para$ paracompact manifolds admits a [[coverage]] whose covering families are good open covers.
+The [[category]] $ParaMfd$ of paracompact manifolds admits a [[coverage]] whose covering families are good open covers.
 
 The same holds true for [[subcategories]] such as
 
-* [[Diff]] -- paracompact [[smooth manifold]]s;
+* [[Diff]] -- paracompact [[smooth manifolds]];
 
-* [[CartSp]] -- [[Cartesian space]]s.
+* [[CartSp]] -- [[Cartesian spaces]].
 
 
 =--
@@ -113,12 +141,13 @@ Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good 
 =--
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Every [[CW complex]] admits a good open cover. 
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -163,7 +192,7 @@ These sets $V_\alpha$ together with $int(D^{n+1})$ form a good open cover of $Y$
 
 The following [[nPOV]] perspective on good open covers gives a useful general "explanation" for their relevance, which also explains the role of good covers in [[Cech cohomology]] generally and [[abelian sheaf cohomology]]  in particular.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $sPSh(CartSp)_{proj}$ be the category of [[simplicial presheaves]] on the category [[CartSp]] equipped with the projective [[model structure on simplicial presheaves]].
@@ -215,3 +244,6 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 [[!redirects good covering]]
 [[!redirects good coverings]]
+
+[[!redirects differentiably good open cover]]
+[[!redirects differentiably good open covers]]
