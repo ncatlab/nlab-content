@@ -49,6 +49,7 @@ where $\Lambda_q$ is (the underlying set of) the [[Grassmann algebra]] on $q$ ge
 +-- {: .num_defn}
 ###### Definition
 
+
 Write $sCartSp$ for the [[internal site]] in $SuperSet \hookrightarrow$ [[Super∞Grpd]] whose
 
 * [[objects]] are the [[super Cartesian spaces]] $\mathbb{R}^{p|q}$;
@@ -87,16 +88,22 @@ $$
 
 ## Properties
 
-**Claim**
+### Cohesion over smooth $\infty$-groupoids and over super $\infty$-groupoids
+
+
++-- {: .num_lemma}
+###### Lemma
 
 We have that 
 
 $$
   Smooth Super\infty Grpd
   \simeq
-  Sh_{(\infty,1)}(CartSp_{smooth} \times SuperPoint, \infty Grpd)
+  Sh_{(\infty,1)}(CartSp_{smooth} \ltimes SuperPoint, \infty Grpd)
   \,.
 $$
+
+=--
 
 By the discussion of externalization at [[internal site]].
 
@@ -108,9 +115,9 @@ over [[Super∞Grpd]].
 
 $$
   Smooth Super \infty Grpd
-   \stackrel{\overset{\Pi_{Super}}{\to}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\to}}{\underset{coDisc_{super}}{\leftarrow}}}}
+   \stackrel{\overset{\Pi_{Super}}{\longrightarrow}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\longrightarrow}}{\underset{coDisc_{super}}{\leftarrow}}}}
   Super \infty Grpd
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+   \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
   \infty Grpd
  \,.
 $$
@@ -122,7 +129,7 @@ In fact we have a [[commutative diagram]] of [[cohesive (∞,1)-topos]]es
 $$
   \array{
      Smooth Super \infty Grpd 
-   &\stackrel{\overset{\Pi_{Super}}{\to}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\to}}{\underset{coDisc_{super}}{\leftarrow}}}}
+   &\stackrel{\overset{\Pi_{Super}}{\longrightarrow}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\longrightarrow}}{\underset{coDisc_{super}}{\leftarrow}}}}
    &
    Super \infty Grpd
      \\
@@ -130,10 +137,12 @@ $$
      \\
      Smooth \infty Grpd 
     &
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+   \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
     & \infty Grpd
   }
 $$
+
+The right vertical adjoints exhibit [[infinitesimal cohesion]].
 
 ## Structures 
 
