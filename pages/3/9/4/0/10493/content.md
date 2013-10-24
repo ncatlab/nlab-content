@@ -149,6 +149,11 @@ A discussion in the general abstract context of [[(∞,1)-category theory]] is i
 * [[Jacob Lurie]], _[[Higher Algebra]]_
   {#HigherAlg}
 
+A [[model category]] presentation of $\infty$-categories of $n$-excisive functors is given in 
+
+* [[Georg Biedermann]], Boris Chorny, Oliver R&#246;ndigs, _Calculus of functors and model categories_, Advances in Mathematics 214 (2007) 92-115 ([arXiv:math/0601221](http://arxiv.org/abs/math/0601221))
+
+* [[Georg Biedermann]], Oliver R&#246;ndigs, _Calculus of functors and model categories II_ ([arXiv:1305.2834v2](http://arxiv.org/abs/1305.2834v2))
 
 [[!redirects n-excisive (∞,1)-functors]]
 
