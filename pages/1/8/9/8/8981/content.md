@@ -24,7 +24,7 @@ On a [[local topos]] $\mathbf{H}$ acts a [[monad]] $\sharp$ corresponding to the
 
 * The [[codiscrete objects]] in a local topos are the [[modal types]] for the sharp modality.
 
-* The [[discrete object]] in a local topos are the [[modal types]] for the [[flat modality]].
+* The [[discrete objects]] in a local topos are the [[modal types]] for the [[flat modality]].
 
 ## Related concepts
 
