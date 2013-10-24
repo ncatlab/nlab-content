@@ -14,16 +14,18 @@ In any case, to well-spirited people who believe they do applied mathematics we 
 
 * [[mathematical physics]],
 
-which is important for us. Unfortunately, in the departments of the applied mathematics world, there is not really any interest in the foundations of [[quantum field theory]] (and siblings like [[superstring theory]], [[statistical field theory]], [[quantum gravity]], ...) which is our central interest in mathematical physics. We have stubs for some other areas intersecting with traditional "applied mathematics" but not much:
+which is important for us. Unfortunately, in the departments of the applied mathematics world, there is not really any interest in the foundations of [[quantum field theory]] (and siblings like [[superstring theory]], [[statistical field theory]], [[quantum gravity]], ...) which is our central interest in mathematical physics. We have stubs for some other areas intersecting with traditional "applied mathematics" but not many:
 
 * [[hydrodynamics]]
 * [[finite element method]]
 * [[regular differential operator]]
 * [[homological algebra in finite element method]]
+* [[Runge-Kutta method]]
+* [[symplectic integrator]]
 
 Wikipedia: [applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics)
 
-
+category: applications
 [[!redirects applied math]]
 [[!redirects applied maths]]
 [[!redirects applied mathematics]]
