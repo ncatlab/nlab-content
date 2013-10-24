@@ -31,4 +31,5 @@ In specific contexts, like real Lie groups, there are specifical versions like [
 * Dragan Mili&#269;i&#263;, Pavle Pand&#382;i&#263;, _Equivariant derived categories, Zuckerman functors and localization_,  from  Geometry and Representation Theory of real and p-adic Lie Groups , J. Tirao, D. Vogan, J.A. Wolf, editors, Progress in Mathematics __158__, Birkh&#228;user, Boston, 1997, 209-242, [pdf](http://www.math.utah.edu/~milicic/Eprints/cordoba.pdf)
 * Toshiyuki Kobayashi, _Branching problems of Zuckerman derived functor modules_, [arxiv/1104.4399](http://arxiv.org/abs/1104.4399)
 * [[Gregg Zuckerman|Greg J. Zuckerman]], _Construction of representations via derived functors_, unpublished lecture series, Institute for Advanced Study, 1978.
+* Jia-jun Ma, _Derived functor modules, dual pairs and $U(\mathfrak{g})^K$-actions_, [arxiv/1310.6378](http://arxiv.org/abs/1310.6378)
 
