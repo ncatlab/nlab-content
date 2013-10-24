@@ -59,6 +59,8 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 * Brugalle Erwan, Markwig Hannah, _Deformation of tropical Hirzebruch surfaces and enumerative geometry_, [arxiv/1303.1340](http://arxiv.org/abs/1303.1340)
 * Qingchun Ren, Steven V Sam, Bernd Sturmfels, _Tropicalization of classical moduli spaces_, [arxiv/1303.1132](http://arxiv.org/abs/1303.1132)
 
+* Martin Ulirsch, _Functorial tropicalization of logarithmic schemes: The case of constant coefficients_, [arxiv/1310.6269](http://arxiv.org/abs/1310.6269)
+
 An alternative algebraic framework for tropical mathematics (not based on semirings), "more compatible with valuation theory" has been proposed in
 
 * Zur Izhakian, Manfred Knebusch, Louis Rowen, _Algebraic structures of tropical mathematics_, [arxiv/1305.3906](http://arxiv.org/abs/1305.3906) 
