@@ -18,7 +18,7 @@ In engineering it is rather standard to use the 4th order Runge-Kutta difference
 
 * Robert McLachlan, Klas Modin, Olivier Verdier, _Collective Lie--Poisson integrators on $\mathbb{R}^{3}$_, [arxiv/1307.2387](http://arxiv.org/abs/1307.2387)
 
-> We develop Lie--Poisson integrators for general Hamiltonian systems on $\mathbb{R}^{3}$ equipped with the rigid body bracket. The method uses symplectic realisation of $\mathbb{R}^{3}$ on $T^{*}\mathbb{R}^{2}$ and application of __symplectic Runge--Kutta schemes__. As a side product, we obtain simple symplectic integrators for general Hamiltonian systems on the sphere $S^{2}$.
+> We develop Lie--Poisson integrators for general Hamiltonian systems on $\mathbb{R}^{3}$ equipped with the rigid body bracket. The method uses symplectic realisation of $\mathbb{R}^{3}$ on $T^{*}\mathbb{R}^{2}$ and application of __symplectic Runge--Kutta schemes__. As a side product, we obtain simple [[symplectic integrator]]s for general Hamiltonian systems on the sphere $S^{2}$.
 
 [[!redirects Runge-Kutta approximation scheme]]
 
