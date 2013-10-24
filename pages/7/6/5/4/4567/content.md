@@ -22,5 +22,9 @@ Selecta Mathematica __1__:1, 1--19 (1995) [doi](http://dx.doi.org/10.1007/BF0161
 
 * Frank Wilczek, Alfred Shapere, _Geometric phases in physics_, World Scientific, 1989
 * M. O. Katanaev, _On geometric interpretation of the Berry phase_, Rus. Phys. J. 54(2012)1082--1092, Izv. VUZov. Fizika 10(2011) 26--35 [arxiv/1212.1782](http://arxiv.org/abs/1212.1782)
+
+* Maxim Braverman, _The Berry phase and the phase of the determinant_, [arxiv/1310.6332](http://arxiv.org/abs/1310.6332)
+
+category: physics
 [[!redirects Berry phase]] 
 [[!redirects Berry's geometric phase]]
