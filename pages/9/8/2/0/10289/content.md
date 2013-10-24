@@ -45,6 +45,8 @@ hence which are [[flow lines]] of the [[flow]] induced by the [[Hamiltonian vect
 
   * Hamilton's equations, [[de Donder-Weyl-Hamilton equation]]
 
+    * [[symplectic integrator]]
+
   * [[Einstein's equations]]
 
 ## References
