@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a globally and [[locally ∞-connected (∞,1)-topos]], the extra [[left adjoint]] of the [[inverse image]] of the [[global sections]] [[geometric morphism]] to a [[higher modality]] which sends an object to something like its [[geometric realization]]. We call this the _[[shape]] modalits_, in particular in the context of [[cohesion]].
+In a globally and [[locally ∞-connected (∞,1)-topos]], the extra [[left adjoint]] of the [[inverse image]] of the [[global sections]] [[geometric morphism]] to a [[higher modality]] which sends an object to something like its [[geometric realization]]. We call this the _[[shape]] modality_, in particular in the context of [[cohesion]].
 
 Generally, given an [[(∞,1)-topos]] $\mathbf{H}$ (or just a 1-[[topos]]) equipped with an [[idempotent monad]] $\mathbf{\Pi} \colon \mathbf{H} \to \mathbf{H}$ (a [[modal type theory|(higher) modality]]/[[closure operator]]) which preserves [[(∞,1)-pullbacks]] over objects in its [[essential image]], one may call a [[morphism]] $f \colon X \to Y$ in $\mathbf{H}$ _$\mathbf{\Pi}$-closed_ if the [[unit of an adjunction|unit]]-diagram
 
