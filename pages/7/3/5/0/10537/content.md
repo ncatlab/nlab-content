@@ -19,7 +19,10 @@
 
 ## Idea
 
-A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive neighbourhood".
+A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive neighbourhood". By the discussion at _[[cohesive topos]]_ ([here](cohesive%20topos#FurtherAxioms)) the formal version of this statement  is that the [[shape modality]] $&#643;$ (which sends a [[cohesive homotopy type]] to its "pieces") and the [[flat modality]] $\flat$ (which sends a [[cohesive homotopy type]] to its "points") are [[natural equivalence|naturally equivalent]], which implies that in particular the canonical [[natural transformation]] $\flat \longrightarrow &#643;$ is an [[equivalence]].
+
+(There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "quality type".)
+
 
 ## Definition
 
@@ -33,7 +36,10 @@ $$
 
 Equivalently this means that the [[left adjoint]] to the [[inverse image]] inclusion of the [[base (∞,1)-topos]] is equivalent to the [[global section]] [[direct image]]. 
 
-(In ([Lawvere 07, def. 1](#Lawvere07)) this situation is referred to as a "quality type".)
+
+## Properties
+
+(...)
 
 
 
