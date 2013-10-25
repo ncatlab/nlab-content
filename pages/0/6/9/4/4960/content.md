@@ -229,9 +229,26 @@ Observe then finally that since $f^\ast$ is a [[full and faithful functor|full a
 
 =--
 
+
 Below in [Further axioms](#FurtherAxioms) we discuss further axioms that one may want to impose on the points-to-pieces transform.
 
 Below in [Properties -- Adjoint quadruples](#AdjointQuadruples) we discuss further properties of the points-top-pieces transformation
+
++-- {: .num_example }
+###### Example
+
+In [[infinitesimal cohesion]] the points-to-pieces-transform, def. \ref{TransformationFromPointsToPieces}, is required to be an [[equivalence]].
+
+=--
+
++-- {: .num_example }
+###### Example
+
+In [[tangent cohesion]] the points-to-pieces transform, def. \ref{TransformationFromPointsToPieces}, is part of the canonical [differential cohomology diagram](tangent+cohesion#TheDifferentialDiagram).
+
+=--
+
+
 
 
 ### Further axioms
@@ -359,7 +376,11 @@ For a long list of further structures that are canonically present in a cohesive
 
 * [[cohesive (∞,1)-topos -- structures]]
 
-* [[cohesive (∞,1)-topos -- infinitesimal cohesion]] .
+For more structure available with a few more axioms see at 
+
+* [[differential cohesion]]
+
+* [[tangent cohesion]].
 
 ### Adjoint quadruples and points-to-pieces
   {#AdjointQuadruples}
