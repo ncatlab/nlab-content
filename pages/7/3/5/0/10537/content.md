@@ -19,31 +19,32 @@
 
 ## Idea
 
-A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive neighbourhood". By the discussion at _[[cohesive topos]]_ ([here](cohesive%20topos#FurtherAxioms)) the formal version of this statement  is that the [[shape modality]] $&#643;$ (which sends a [[cohesive homotopy type]] to its "pieces") and the [[flat modality]] $\flat$ (which sends a [[cohesive homotopy type]] to its "points") are [[natural equivalence|naturally equivalent]], which implies that in particular the canonical [[natural transformation]] $\flat \longrightarrow &#643;$ is an [[equivalence]].
+A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive piece". 
 
 (There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "quality type".)
 
 
 ## Definition
 
-A [[cohesive (∞,1)-topos]] $\mathbf{H}$ with its [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] denoted $(\Pi \dashv \flat \dashv \sharp))$
-is _infinitesimal cohesive_ if
++-- {: .num_remark #InfinitesimalCohesion}
+###### Remark
+
+A [[cohesive (∞,1)-topos]] $\mathbf{H}$ with its [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] denoted $&#643; \dashv \flat \dashv \sharp$ is _infinitesimal cohesive_ if the canonical [points-to-pieces transform](cohesive+topos#CanonicalComparison) is an [[equivalence]]
 
 $$
-  \Pi \simeq \flat \simeq \sharp
+  \flat \stackrel{\simeq}{\longrightarrow} &#643;
   \,.
 $$
 
-Equivalently this means that the [[left adjoint]] to the [[inverse image]] inclusion of the [[base (∞,1)-topos]] is equivalent to the [[global section]] [[direct image]]. 
 
 
-## Properties
-
-(...)
-
+=--
 
 
 ## Examples
+
+
+Given an [[(∞,1)-site]] with a [[zero object]], then the [[(∞,1)-presheaf (∞,1)-topos]] over it is infinitesimally cohesive. This class of examples contains the following ones.
 
 ### Super $\infty$-groupoids
 
