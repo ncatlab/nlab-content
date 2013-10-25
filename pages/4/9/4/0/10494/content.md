@@ -467,7 +467,7 @@ and by [[cohesion]] the bottom horizontal morphism is an [[equivalence in an (in
 
 =--
 
-Combining these two statements yields the following.
+Combining these two statements yields the following ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)).
 
 +-- {: .num_cor #TheDifferentialDiagram}
 ###### Corollary
@@ -477,27 +477,34 @@ every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf
 
 $$
   \array{
-    &&  \Pi_{dR} \Sigma^{-1} A && \longrightarrow && \flat_{dR}\Sigma A
+    &&  \Pi_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
     \\
-    & \nearrow & & \searrow & & \nearrow && \searrow
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
     \\
-    \flat (\Pi_{dR} \Sigma^{-1}A )&& && A && && \Pi(\flat_{dR}\Sigma A)
+    \flat \Pi_{dR} \Omega A  && && A && && \Pi \flat_{dR}\Sigma A
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\Pi \theta_A}}
     \\
     && \flat A && \longrightarrow && \Pi A
   }
   \,,
 $$
 
-where the two diagonals ar [[fiber sequences]].
+where the two squares are [[homotopy pullback]] squares and the two diagonals are the [[fiber sequences]] of the [[Maurer-Cartan form]] $\theta_A$ and its dual.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]]. Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
+The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiagram} are the canonical [points-to-pieces transform](cohesive%20topos#CanonicalComparison).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]], see for instance ([Bunke 12, prop. 4.57](http://arxiv.org/abs/1208.3961)). Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
 "[[schreiber:differential cohomology in a cohesive topos]]" .
 
 =--
