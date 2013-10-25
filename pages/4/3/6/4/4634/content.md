@@ -188,10 +188,10 @@ Mathematica 147 (2011), 1281&#8211;1320 ([arXiv:0903.3717](http://arxiv.org/abs/
 
 and a further lift of this to [[(∞,1)-category theory]] is in
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
+* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
  {#BlumbergGepnerTabuada10}
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_ ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
+* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_,  Advances in Mathematics ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
 See also
 
