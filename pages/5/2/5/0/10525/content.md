@@ -59,7 +59,8 @@ The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it satisfies these ident
 * positivity: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
 =--
 
-Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras; the same goes for the norm of $1$ in the unital case.  (Compare the analogous results for $C^*$-[[C-star-algebra|algebras]].)
+Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras; the same goes for the norm of $1$ in the unital case.  (Compare the analogous results for $C^*$-[[C-star-algebra|algebras]].)  Conversely, given shortness of multiplication (or even of squaring), these two identities may be combined into the single inequality
+$$ {\|x\|}^2 \leq {\|x \circ x + y \circ y\|} .$$
 
 +-- {: .num_defn}
 ###### Definition
@@ -81,20 +82,30 @@ The [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint opera
 
 ## Properties
 
-Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.
+$JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.  They are generally proved in the analogous ways.  Some properties are different, however.
+
+An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[local compactum]] (which is a [[compactum]] iff the algebra is unital, and then every continuous map vanished at infinity).
+
+Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power-associative]], so each element $x$ generates an associative [[subalgebra]] and hence a local compactum $Spec(x)$; in a unital $JB$-algebra, each element generates an associative unital subalgebra and hence a compactum (which we will also write $Spec(x)$).  Any [[continuous map]] $f\colon Spec(x) \to \mathbb{R}$ therefore defines an element $f(x)$ of $A$.  More generally, any associative subalgebra $X$ generates a (local) compactum $Spec(X)$, its [[spectrum]], and any continuous map on $Spec(X)$ defines an element of $A$ (in fact belonging to $X$).  Thus we have a [[functional calculus]] on $JB$-algebras.  In a $JBW$-algebra, we may instead interpret the spectrum as a [[localizable measure space]], with $X$ identified as the algebra of [[essentially bounded function|essentially bounded]] [[measurable functions]] (modulo [[almost equality]]) on the spectrum, so that the functional calculus extends to measurable functions.
 
 
 ## References
 
-Most of what appears here is from
+Basic stuff is at
 
 * [Jordan operator algebra](https://en.wikipedia.org/wiki/Jordan_operator_algebra) on the English Wikipedia;
 
 and most of that appears to be from
 
-* Harald Hanche-Olsen and Erling St&#248;rmer (1984), _Jordan operator algebras_, Monographs and Studies in Mathematics 21 (Pitman); [web](http://www.math.ntnu.no/~hanche/joa/),
+* Harald Hanche-Olsen and Erling St&#248;rmer (1984); _Jordan operator algebras_; Monographs and Studies in Mathematics 21 (Pitman); [web](http://www.math.ntnu.no/~hanche/joa/),
 
 which I have only begun to read.
+
+There is also
+
+* Harald Upmeier (1987); _Jordan Algebras in Analysis, Operator Theory, and Quantum Mechanics_; CBMS Regional Conference Series in Mathematics 67 (AMS),
+
+of which a lot is already on pages 1--4 (the only ones that Google Books would show me).
 
 
 ## Related pages
