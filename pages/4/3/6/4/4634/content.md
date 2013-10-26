@@ -21,7 +21,7 @@ A second approach is due to [[Bertrand Toën]], [[Michel Vaquié]], [[Gabriele V
 
 There is another approach by [[Arne Ostvaer]].
 
-In [[noncommutative geometry]] a la [[Alain Connes]], Connes and [[Matilde Marcolli]] have also introduced some motivic ideas. Marcolli also has most recent collaboration with Tabuada on the algebraic side.
+In [[noncommutative geometry]] &#224; la [[Alain Connes]], Connes and [[Matilde Marcolli]] have also introduced some motivic ideas. Marcolli also has a  recent collaboration with Tabuada on the algebraic side, see her [[Matilde Marcolli|webpage]].
 
 ## Definition 
  {#Definition}
