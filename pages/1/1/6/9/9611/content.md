@@ -24,13 +24,10 @@ Parker's code loop was used by [[John Conway]] to construct the [[Monster group]
 
 ## References
 
-Robert Griess, _Code loops_, J. Algebra 100 (1986), no. 1, 224&#8211;234. doi:10.1016/0021-8693(86)90075-X
+* Robert Griess, _Code loops_, J. Algebra __100__ (1986), no. 1, 224&#8211;234. &lt;http://dx.doi.org/10.1016/0021-8693(86)90075-X>
 {#Griess}
 
-Tim Hsu, _Explicit constructions of code loops as centrally twisted products_
-Math. Proc. Cambridge Philos. Soc. 128 (2000), no. 2, 223&#8211;232. ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X))
-{#Hsu}
+* Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. 128 (2000), no. 2, 223&#8211;232 ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X));
+{#Hsu} _Class 2 Moufang loops, small Frattini Moufang loops, and code loops_, [math.GR/9611214](http://arxiv.org/abs/math/9611214)
 
-
-[[!redirects code loop]]
 [[!redirects code loops]]
