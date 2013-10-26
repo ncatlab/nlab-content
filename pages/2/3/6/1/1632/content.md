@@ -21,16 +21,16 @@ The explicit description in terms of $m$ is of course earlier; but the abstract 
 ## Examples
 
 * A standard associative example is $L^1(\mathbb{R})$ with [[Lebesgue measure]], where the multiplication is taken to be [[convolution]]. (This lacks a unit for the multiplication, since there is no $L^1$ function $e$ that represents the [[Dirac functional]] $f \mapsto f(0)$, via
-$$ f(0) = \int_{-\infty}^{\infty} e(x) f(x) \mathrm{d}x ,$$ 
+$$ f(0) = \int_{-\infty}^{\infty} e(x) f(x) \,\mathrm{d}x ,$$ 
 on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this example in straightforward fashion, replacing $\mathbb{R}$ by any [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] $G$, and $\mu$ by a [[Haar measure]] on $G$; the algebra is unital if and only if $G$ is [[compact space|compact]].
 
-* For *any* [[measure space]] $X$, $L^{\infty}(X)$ is a [[commutative ring|commutative]] unital associative Banach algebra (in fact a unital $C^*$-[[C-star-algebra|algebra]], in fact a [[von Neumann algebra]]) with respect to pointwise multiplication.
+* For *any* [[measure space]] $X$, $L^{\infty}(X)$ is a [[commutative ring|commutative]] unital associative Banach algebra (in fact a unital $C^*$-[[C-star-algebra|algebra]], in fact a [[von Neumann algebra]] if $X$ is [[localizable measure space|localizable]]) with respect to pointwise multiplication.
 
 * If $A$ is a Banach space, the [[internal hom]] $hom(A, A)$ is a unital Banach algebra (by [[general abstract nonsense]]).
 
 * Any $C^*$-[[C-star algebra|algebra]] (and thus every [[von Neumann algebra]]) is in particular a Banach algebra.
 
-* The [[normed division algebras]] are (possibly nonassiociative) Banach [[division algebras]] over $\mathbb{R}$.
+* The [[normed division algebras]] are (possibly nonassociative) Banach [[division algebras]] over $\mathbb{R}$.
 
 * The only Banach division algebra over $\mathbb{C}$ is $\mathbb{C}$ itself, by the [[Gel'fand–Mazur theorem]].
 
