@@ -44,7 +44,7 @@ $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$
 
 Such Jordan algebras are called __special__ Jordan algebras; all others are called __exceptional__.
 
-Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **Albert algebra** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
+Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **[[Albert algebra]]** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
 
 
 ## Formally real Jordan algebras and their origin in quantum physics 
@@ -126,7 +126,7 @@ with the product $a \circ b = {1\over 2}(a b + b a)$, where $n \le 3$.
 
 Here we say a square matrix with entries in the $\ast$-algebra $A$ is **hermitian** if it equals its conjugate transpose.   (Note that $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$ and $\mathbb{O}$ are all $\ast$-algebras.)   
 
-Because the octonions are an [[alternative algebra]] but not associative, we cannot go beyond $3 \times 3$ matrices and still get a Jordan algebra.  The $1 \times 1$ self-adjoint octonionic matrices are just the real numbers, and the $2 \times 2$ ones are isomorphic to the spin factor $\mathbb{R}^9 \oplus \mathbb{R}$.   The $3 \times 3$ self-adjoint octonionic matrices form the Albert algebra.
+Because the octonions are an [[alternative algebra]] but not associative, we cannot go beyond $3 \times 3$ matrices and still get a Jordan algebra.  The $1 \times 1$ self-adjoint octonionic matrices are just the real numbers, and the $2 \times 2$ ones are isomorphic to the spin factor $\mathbb{R}^9 \oplus \mathbb{R}$.   The $3 \times 3$ self-adjoint octonionic matrices form the [[Albert algebra]].
 
 Jordan algebras in the fifth family are called **spin
 factors**.   This family has some overlaps with the others.  Most notably:
