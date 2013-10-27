@@ -14,7 +14,7 @@
 
 ## Idea
 
-A concordance between [[cocycle]]s in [[cohomology]] is a relation similar to but different from a coboundary.
+A concordance between [[cocycle]]s in [[cohomology]] is a relation similar to but different from a plain [[coboundary]], it is a "coboundary after [[geometric realization]]".
 
 A concordance is a left [[homotopy]] in an [[(∞,1)-topos]] with respect to a _topological_ [[interval object]], not with respect to the _[[interval category|categorical interval]]_ .
 
@@ -53,3 +53,5 @@ $$
 * For $A = VectrBund(-)$ the difference between concordance of [[vectorial bundles]] and isomorphism of vectorial bundles plays a crucial rule in the construction of [[K-theory]] from this model.
 
 * The notions of coboundary and concordance exist in every [[cohesive (∞,1)-topos]].
+
+[[!redirects concordances]]
