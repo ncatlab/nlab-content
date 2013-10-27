@@ -49,6 +49,10 @@ from ([EPSBOI](#EPSBOI))*:
 
 Remark: A proposal for a formalization of _[[being]]_ and _[[becoming]]_ is later given by [[Bill Lawvere]] in terms of the notion of _[[cohesive topos]]_, see at _[[Some Thoughts on the Future of Category Theory]]_.
 
+## Related entries
+
+* [[being]], [[becoming]]
+
 ## References
 
 
@@ -56,3 +60,5 @@ Remark: A proposal for a formalization of _[[being]]_ and _[[becoming]]_ is late
 
   [Encyclopedia of the Philosophical Sciences in Basic Outline, Part I: Science of Logic](http://ndpr.nd.edu/news/24778-encyclopedia-of-the-philosophical-sciences-in-basic-outline-part-i-science-of-logic/)
  {#EPSBOI}
+
+* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
