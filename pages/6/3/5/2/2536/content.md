@@ -90,7 +90,7 @@ This perspective on deformation quantization making the role of Jordan algebras 
 
 The symmetrized product $(-) \circ (-)$ is not associative, in general, but it is power-associative: any way of parenthesizing a product of copies of the same observable $x$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra $J$ satisfying
 $$  x_1^2 + \cdots + x_n^2 = 0 \quad \implies \quad x_1 = \cdots = x_n = 0  $$
-for all $n$.  The last condition gives $J$ a partial ordering: if we write $x \le y$ when the element $y - x$ is a sum of squares, it says that 
+for all $n$.  The last condition (as in any [[formally real algebra]]) gives $J$ a partial ordering: if we write $x \le y$ when the element $y - x$ is a sum of squares, it says that 
 $$x \le y \; \& \; y \le x \quad \implies \quad x = y\,.$$
 So, in a formally real Jordan algebra we can reasonably talk about one observable being 'greater' than another.
 
