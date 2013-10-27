@@ -1,24 +1,35 @@
-### Definition
+
+# Formally real fields
+* table of contents
+{: toc}
+
+## Definition
 
 A [[field]] $k$ is *formally real* if one of the following equivalent conditions is satisfied:
 
-* There exists an [[total order]] on $k$ which makes $k$ into an [[ordered field]].
+* $k$ is a [[formally real ring]].
 
-* $-1$ is not a sum of squares in $k$.
+* $-1$ is not a sum of squares in $k$ (a special case of the previous condition).
+
+* There exists an [[linear order]] on $k$ which makes $k$ into an [[ordered field]].
 
 * The [[Witt group]] of $k$ is not torsion.
 
-Due to the last property, formally real fields play a special r&#244;le in the theory of [[Witt groups]] and in related fields such as [[motivic homotopy theory]].
+Due to the last property, formally real fields play a special r&#244;le in the theory of [[Witt groups]] and in related fields of study such as [[motivic homotopy theory]].
 
-A formally real field which does not have any proper formally real algebraic extension is a [[real closed field]]; such a field admits a unique ordering.
+A formally real field which is the only formally real [[algebraic extension]] of itself is a [[real closed field]]; such a field admits a unique ordering.
 
-### Examples
 
-* The field of [[real numbers]] is formally real, and even a [[real closed field]]
+## Examples
 
-* The field $\mathbb{Q}$ of rational numbers is formally real
+* The field of [[real numbers]] is formally real, and even a [[real closed field]].
 
-* Finite fields and algebraically closed fields are never formally real
+* The field $\mathbb{Q}$ of [[rational numbers]] is formally real but not real closed.
+
+* [[finite field|Finite fields]] (or more generally fields of nonzero [[characteristic]]) and [[algebraically closed fields]] (such as the fields of [[complex numbers]] and [[algebraic numbers]]) are never formally real.
+
 
 category: algebra
+
+[[!redirects formally real field]]
 [[!redirects formally real fields]]
