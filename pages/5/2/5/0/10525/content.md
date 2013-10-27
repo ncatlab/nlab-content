@@ -7,18 +7,18 @@
 
 Jordan--Banach algebras, $JB$-algebras, and the like fill out the following grand [[analogy]]:
 
-| | | | |
-|-|-|-|-|
-| [[associative algebra]] | associative $*$-[[star-algebra|algebra]] | [[Jordan algebra]] | [[Jordan–Lie algebra]] |
-| [[Banach algebra]] | Banach $*$-algebra | Jordan--Banach algebra | [[Jordan–Lie–Banach algebra]] |
-| | $C^*$-[[C-star-algebra|algebra]] | $JB$-algebra | $JLB$-[[JLB-algebra|algebra]] |
-| | [[von Neumann algebra]] | $JBW$-algebra | $JLBW$-algebra |
+| | | |
+|-|-|-|
+| [[associative algebra|associative]] $*$-[[star-algebra|algebra]] | [[Jordan algebra]] | [[Jordan–Lie algebra]] |
+| associative [[Banach algebra|Banach]] $*$-algebra | Jordan--Banach algebra | [[Jordan–Lie–Banach algebra]] |
+| $C^*$-[[C-star-algebra|algebra]] | $JB$-algebra | $JLB$-[[JLB-algebra|algebra]] |
+| [[von Neumann algebra]] | $JBW$-algebra | $JLBW$-algebra |
 
-Just as a [[Jordan algebra]] that happens to be associative is the same thing as an [[associative algebra]] that happens to be [[commutative algebra|commutative]], the analogous result holds in the next row.  Similarly, an associative Jordan algebra is the same thing as a commutative $*$-[[star-algebra|algebra]] whose [[involution]] $*$ is trivial; this extends to all rows.
+Just as a [[Jordan algebra]] that happens to be associative is the same thing as an [[associative algebra|associative]] $*$-[[star-algebra|algebra]] with trivial [[involution]] (aka simply an associative algebra) that happens to be [[commutative algebra|commutative]], the analogous result holds in the lower rows.
 
 One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-[[C-star-algebra|algebras]] have analogues already for $JB$-algebras. Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra; then even *without* assuming associativity or commutativity, a [[Jordan–Lie algebra]] over the [[real numbers]] is the same thing as an associative $*$-algebra over the [[complex numbers]], up to [[equivalence of categories]], and this extends to lower rows.
 
-The rightmost column is discussed at [[JLB-algebra]]; here we discuss the next-to-rightmost column (assuming the top row as known).  I also think that something might be done with the bottom half of the left column, but not here.
+The right column is discussed at [[JLB-algebra]]; here we discuss the next-to-rightmost column (assuming the top row and left column as known).
 
 
 ## Definitions
@@ -81,25 +81,29 @@ To get the right notion of [[isomorphism]], the [[morphisms]] in the [[category]
 +-- {: .num_defn}
 ###### Definition
 
-Given a $JB$-algebra $A$ and a [[Hilbert space]] $H$, a __[[representation]]__ $\pi$ of $A$ on $H$ is a homomorphism from $A$ to the algebra of [[Hermitian operators]] on $H$ (which is a $JB$-algebra, in fact a $JBW$-algebra).  Such a representation is __[[faithful representation|faithful]]__ if it\'s an [[injective function]].
+Given a Jordan--Banach algebra $A$ and a [[Hilbert space]] $H$, a __[[representation]]__ $\pi$ of $A$ on $H$ is a homomorphism from $A$ to the algebra of [[Hermitian operators]] on $H$ (which is a $JB$-algebra, in fact a $JBW$-algebra, under the symmetrized product, as described in the examples).  Such a representation is __[[faithful representation|faithful]]__ if it\'s an [[injective function]].
 =--
 
-Recall that a Jordan algebra is __[[special Jordan algebra|special]]__ if it has a faithful representation on 
+Again, we should really look only at the short representations (which is automatic for a $JB$-algebra) and look especially at the unital representations of a unital Jordan--Banach algebra.
+
+Recall that a Jordan algebra is __[[special Jordan algebra|special]]__ if it has a faithful representation on a [[vector space]] (which follows if it has any injective homomorphism to the Jordanization of any associative algebra).
 
 +-- {: .num_defn}
 ###### Definition
 
-A __$JC$-algebra__ is $JB$-algebra that is special in an appropriate $JB$-sense: it has a faithful representation on a Hilbert space.  A __$JW$-algebra__ is a $JBW$-algebra that\'s also a $JC$-algebra.
+A __$JC$-algebra__ is $JB$-algebra that has a faithful representation on a Hilbert space.  A __$JW$-algebra__ is a $JBW$-algebra that\'s also a $JC$-algebra.
 =--
 
-This is probably unfortunate terminology (compare '$B^*$-algebra' vs '$C^*$-algebra' and '$W^*$-algebra' vs 'von Neumann algebra'); it would probably be better just to call such $JB$-algebras __special__ (but somebody might think that this just means that the underlying Jordan algebra is special, which is weaker).  We do need some term, however; unlike with $C^*$-algebras, not every $JB$-algebra (and not even every $JBW$-algebra) is a $JC$-algebra (or even special in the purely algebraic sense).
+This follows if the $JB$-algebra has any injective homomorphism to the algebra of [[Hermitian operators]] in any $C^*$-algebra, by the theorem that every abstract $C^*$-algebra may be made concrete.  But this theorem does *not* itself have an analogue for $JB$-algebras; the [[Albert algebra]] $\mathfrak{h}_3(\mathbb{O})$ is a $JB$-algebra (even a $JBW$-algebra) that is not a $JC$-algebra.
+
+This is probably unfortunate terminology (compare '$B^*$-algebra' vs '$C^*$-algebra' and '$W^*$-algebra' vs 'von Neumann algebra'); it would probably be better just to call such $JB$-algebras __special__ (but somebody might think that this just means that the underlying Jordan algebra is special, which is weaker).  We do need some term, however, thanks to the Albert algebra.
 
 
 ## Examples
 
 The main example of a $JB$-algebra is the algebra of [[self-adjoint operators]] in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].  In particular, the algebra of Hermitian operators on a [[Hilbert space]] is a $JBW$-algebra, in fact a $JW$-algebra.  Still more particularly, the [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint operators on the zero Hilbert space) is a $JW$-algebra (although it won\'t fit definitions by authors who require ${\|1\|} = 1$).
 
-Every $JB$-algebra is [[formally real algebra|formally real]]; conversely, all of the formally real Jordan algebras in [[finite-dimensional space|finite dimensions]] are $JBW$-algebras, and all of the special ones are $JW$-algebras.  This leaves the [[Albert algebra]] $H_3(O)$ as the basic example of a $JBW$-algebra that is not a $JW$-algebra; in fact, every finite-dimensional counterexample to the (false) conjecture that every $JB$-algebra is a $JW$-algebra has the Albert algebra as a [[direct summand]].  (See [Jordan algebra#frc](Jordan+algebra#frc) for the classification of the finite-dimensional formally real Jordan algebras.)
+Every $JB$-algebra is [[formally real algebra|formally real]]; conversely, all of the formally real Jordan algebras in [[finite-dimensional space|finite dimensions]] are $JBW$-algebras, and all of the special ones are $JW$-algebras.  This leaves the [[Albert algebra]] $\mathfrak{h}_3(O)$ as the basic example of a $JBW$-algebra that is not a $JW$-algebra.  (See [Jordan algebra#frc](Jordan+algebra#frc) for the classification of the finite-dimensional formally real Jordan algebras.)
 
 
 ## Properties
