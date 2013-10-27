@@ -32,7 +32,7 @@ See specific versions:
 
 * [[ILH manifold]]
 
-* [[Frechet manifold]]
+* [[Fréchet manifold]]
 
 * [[convenient manifold]]
 
@@ -43,14 +43,14 @@ See specific versions:
 
 * [[infinite-dimensional Lie group]]
 
-## Properties
 
-### Embedding into convenient toposes
+## Properties: Embedding into convenient toposes
 
 Various types of smooth manifolds embed into the
 [[quasi-toposes]] of [[diffeological spaces]]
 and hence the [[topos]] of [[smooth spaces]].
 See there for more.
+
 
 ## Related concepts
 
@@ -60,12 +60,14 @@ See there for more.
 
 * [[integration over infinite-dimensional manifolds]]
 
+
 ## References
 
 ### General
 
 * [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
  {#KM}
+
 
 ### Integration
 
@@ -84,7 +86,7 @@ Vol. 124, No. 1 (Jul., 1966), pp. 148-157 ([JSTOR]( http://www.jstor.org/stable/
 [[!redirects infinite-dimensional manifold]]
 [[!redirects infinite-dimensional manifolds]]
 
-[[!redirects infinite dimensional smooth manifolds]]
+[[!redirects infinite dimensional smooth manifold]]
 [[!redirects infinite dimensional smooth manifolds]]
 [[!redirects infinite-dimensional smooth manifold]]
 [[!redirects infinite-dimensional smooth manifolds]]
