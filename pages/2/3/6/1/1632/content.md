@@ -15,8 +15,11 @@ where $a \cdot b$ (or just $a b$) means $m(a, b)$.
 
 In the unital case, we should also require ${\|1\|} \leq 1$, although some authors leave this out.  Other authors require ${\|1\|} = 1$, which is too strong, since it rules out the [[trivial ring|trivial algebra]].  (However, ${\|1\|} = 1$ follows from ${\|1\|} \leq 1$ and the existence of any element $a \ne 0$).  One can of course always formally adjoin a unit $e$ with ${\|e\|} = 1$, forming the Banach algebra $A \oplus \langle{e}\rangle$ (using the $l^1$-[[l-1-direct sum|direct sum]]).
 
-The explicit description in terms of $m$ is of course earlier; but the abstract description as an internal monoid makes clear the correct definition of [[Banach coalgebra]]: a [[comonoid]] in the same monoidal category.
+The explicit description in terms of $m$ is of course earlier; but the abstract description as an internal monoid makes clear the most natural definition of [[Banach coalgebra]]: a [[comonoid]] in the same monoidal category.
 
++-- {: .query}
+YC: An earlier version of this entry said that "the correct" definition of Banach coalgebra is as a comonoid in the usual monoidal category of Banach spaces and [[short linear operators]]. I would prefer that this be amended, with similar wording as what I've chosen, since experience has shown that the most fruitful candidates for "Banach spaces with coalgebraic structure" are NOT comonoids in this sense. One should instead only require a comultiplication which takes values in something like the injective tensor product, or if you are working with Cstar objects, in something like the spatial tensor product. Does anyone object to my rewording?
+=--
 
 ## Examples
 
@@ -35,6 +38,11 @@ on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this
 * The only Banach division algebra over $\mathbb{C}$ is $\mathbb{C}$ itself, by the [[Gel'fand–Mazur theorem]].
 
 * A $JB$-[[JB-algebra|algebra]] (or more generally a [[Jordan–Banach algebra]]) is a nonassociative (but commutative) kind of Banach algebra.  (The commutative associative Banach algebras also count as Jordan--Banach algebras.)
+
+* If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to different but canonical ways of extending monoidal structure through a monad that isn't necessarily a [[strong monad]].
++-- {: .query}
+YC: Have I used the jargon correctly? I think this is something to do with [[tensorial strength]]s for the bidual functor on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators).
+=--
 
 
 ## References
