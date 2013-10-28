@@ -17,6 +17,10 @@
 
 In [[cohomology]] of [[topological spaces]]/[[homotopy types]], the _suspension isomorphism_ identifies the degree-$n$ cohomology of a space $X$ with the degree-$(n+1)$ cohomology of its [[suspension]].
 
+## Related concepts
+
+* [[Steenrod square]]
+
 ## References
 
 For instance p. 19 in 
