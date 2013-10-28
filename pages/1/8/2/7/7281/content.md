@@ -32,3 +32,6 @@ The [[basis theorem]] asserts that, with the [[axiom of choice]], every vector s
 [[!redirects Hamel basis]]
 [[!redirects Hamel bases]]
 [[!redirects Hamel basises]]
+
+[[!redirects linear basis]]
+[[!redirects linear bases]]
