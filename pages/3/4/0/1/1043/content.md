@@ -53,3 +53,4 @@ Some or all of these have analogs in [[higher category theory]], notably in [[2-
 [[!redirects universal properties]]
 [[!redirects universal mapping property]]
 [[!redirects universal mapping properties]]
+[[!redirects universal]]
