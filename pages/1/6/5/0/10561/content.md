@@ -10,10 +10,11 @@ The notion is introduced in
 Important clarifications are introduced in 
 
 * [[Kenneth Kunen]], _Quasigroups, loops and associative laws_, J. Algebra __185__ (1) (1996), pp. 194&#8211;204 [doi](http://dx.doi.org/10.1006/jabr.1996.0321) (for all  identities of Bol-Moufang type); _Moufang quasigroups_, J. Algebra __183__:1 (1996) 231&#8211;234 [doi](http://dx.doi.org/10.1006/jabr.1996.0216) (the question of loop vs. quasigroup in presence of Moufang identities)
+* A. Pavl&#367;, A. Van&#382;urov&#225;, _On identities of Bol-Moufang type_,  Bul. Acad. &#350;tiin&#355;e Repub. Mold. Mat., 2005, no. 3, 88&#8211;100 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=basm&paperid=139&what=fullt&option_lang=rus)	
 
 A systematic exposition is also in
 
-* Vladimir Volenec, _Grupoidi, kvazigrupe i petlje_ (in Croatian), Zagreb, &#352;kolska knjiga, 1982
+* Vladimir Volenec, _Grupoidi, kvazigrupe i petlje_ (book in Croatian), Zagreb, &#352;kolska knjiga, 1982
 
 category: algebra
 [[!redirects identities of Bol-Moufang type]]
