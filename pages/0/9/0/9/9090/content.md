@@ -1,3 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[derived category]] of a category [[quasi-coherent sheaves]].
+
+## Related concepts
+
+* [[derived category]]
+* [[coherent sheaves]]
+* [[Bondal-Orlov reconstruction theorem]]
+* [[Fourier-Mukai transform]]
+* [[triangulated categories of sheaves]]
+
+## Referece
+
 * [[Alexei Bondal|A. I. Bondal]], D. O. Orlov, _Derived categories of coherent sheaves_, Proc. Internat. Congress of Mathematicians vol. II 46--54 (Beijing, 2002) 
 [djvu:134K](http://www.mathunion.org/ICM/ICM2002.2/Main/icm2002.2.0047.0056.ocr.djvu) [pdf:881K](http://www.mathunion.org/ICM/ICM2002.2/Main/icm2002.2.0047.0056.ocr.pdf)
 
@@ -12,11 +31,6 @@
 * L.Katzarkov, M.Kontsevich, T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
 {#KatzarkovKontsevichPantev}
 
-## See also
-
-* [[derived category]]
-* [[coherent sheaves]]
-* [[Bondal-Orlov reconstruction theorem]]
 
 [[!redirects derived categories of coherent sheaves]]
 [[!redirects derived category of quasi-coherent sheaves]]
