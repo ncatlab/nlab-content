@@ -585,6 +585,8 @@ higher versions
 
 * [[module category]]
 
+* [[semisimple category]]
+
 * [[distributivity for monoidal structures]]
 
   * [[duoidal category]], [[bimonoidal category]]
