@@ -47,6 +47,14 @@ $$
 
 The coadjoint orbits are the [[symplectic leaves]] of that structure; hence each orbit is a [[symplectic manifold]].
 
+## Related concepts
+
+* [[orbit method]]
+
+* [[flag variety]], [[coset space]]
+
+* [[Schubert calculus]]
+
 ## References
 
 * B. C., _The Structure of the Space of Coadjoint Orbits of an Exponential Solvable Lie Group_, ransactions of the American Mathematical Society
