@@ -20,7 +20,7 @@
 
 ## Definition
 
-The **singular cohomology** of a [[topological space]] $X$ is the [[cohomology]] in [[∞Grpd]] of its [[fundamental ∞-groupoid]] $\Pi(X)$:
+The **singular cohomology** (also **Betti cohomology**) of a [[topological space]] $X$ is the [[cohomology]] in [[∞Grpd]] of its [[fundamental ∞-groupoid]] $\Pi(X)$:
 
 for $\mathcal{B}^n \mathbb{Z} \in \infty Grpd$ the [[Eilenberg-MacLane object]] with the group $\mathbb{Z}$ in degree $n$, the degree $n$-singular cohomology of $X$ is
 
@@ -141,6 +141,8 @@ A previous version of this entry led to the following discussion, which later le
 
 * [[∞-groupoid]].
 
+
+[[!redirects Betti cohomology]]
 
 [[!redirects singular chain complex]]
 [[!redirects singular chain]]
