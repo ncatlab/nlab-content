@@ -17,6 +17,8 @@ A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \
 
 * $((u v)w)v = u(v(w v))$
 
+One may consider the weaker analogous structure without unit $e$, the Moufang quasigroup, but the Moufang identities, by a result of [[Kenneth Kunen]] imply that the quasigroup is a loop.
+
 ## Properties
 
 Every element in a Moufang loop has a multiplicative inverse; a priori there are only left and right inverses, but these coincide by the Moufang identities.
@@ -36,19 +38,14 @@ Moufang loops are _[[power-associative algebra|power-associative]]_, in that any
 
 * There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. This Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$, see ([Hsu](#Hsu)). This is a special case of a [[code loop]], which is a specific sort of Moufang loop.
 
-See the [English Wikipedia page](http://en.wikipedia.org/wiki/Moufang_loop) for more examples.
-
-## Related concepts
-
-* [[composition algebra]]
-* [[quasigroup]]
-
 ## References
 
-Tim Hsu, _Explicit constructions of code loops as centrally twisted products_
-Math. Proc. Cambridge Philos. Soc. 128 (2000), no. 2, 223&#8211;232. ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X))
+Related concepts in $n$Lab: [[quasigroup]], [[Bol loop]], [[composition algebra]]
+
+* Wikipedia: [Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)
+* Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. __128__ (2000), no. 2, 223&#8211;232 ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X))
 {#Hsu}
+* [[Kenneth Kunen]], _Moufang quasigroups_, J. Algebra __183__:1 (1996) 231&#8211;234 [doi](http://dx.doi.org/10.1006/jabr.1996.0216)
 
-
-[[!redirects Moufang loop]]
 [[!redirects Moufang loops]]
+[[!redirects Moufang quasigroup]]
