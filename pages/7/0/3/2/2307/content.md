@@ -76,7 +76,9 @@ $$
 
 ## Related concepts
 
-* [[algebraic cobordism spectrum]]
+* [[algebraic cobordism]], [[algebraic cobordism spectrum]]
+
+
 
 ## References
 
