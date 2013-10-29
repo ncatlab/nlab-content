@@ -111,6 +111,7 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 ## Literature
 
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
+* [[Kenneth Kunen]], _Quasigroups, loops, and associative laws_, J. Algebra __185__ (1) (1996), pp. 194&#8211;204
 
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
