@@ -1,7 +1,11 @@
-Identities of Bol-Moufang type are 60 4-th order identities for a binary algebraic operation which include left and right Bol identities and the three Moufang identities. The identities follow from associativity but are weaker than associativity; in the case of loops some of them do imply associativity. 
+**Identities of Bol-Moufang type** are 60 fourth-order identities for a binary algebraic operation which include left and right _Bol identities_ and the three _Moufang identities_. The identities follow from associativity but are strictly weaker than associativity; in the case of [[loops]] some of them do imply associativity. 
 
-4 general elements $x,y,z,w$ in the fixed order can be bracketed in 5 ways: $(xy)(zw), x((yz)w), (x(yz))w, ((xy)z)w, x(y(zw))$. If the two of the 4 elements are the same (hence we have $a,a,b,c$ than we can order them in 6 ways such that $b$ and $c$ are in fixed order. Bol-Moufang identities are obtained that we take general elements $a,a,b,c$ with $b$ before $c$ (for definiteness) and form 4 th order monomial in any bracketing and equate it with different bracketing. 
-For example, $(ab)(ac) = a((ba)c)$. We can do this in 5 choose 2 times 6 ways, hence 60 ways. Requiring different sets among Bol-Moufang identities in a quasigroup or in a loop one gets some interesting classes of quasigroups and loops, for example, [[Bol loop]]s, [[Moufang loop]]s and some others. 
+Four general elements $x,y,z,w$ in the fixed order can be bracketed in five ways: 
+\[
+(xy)(zw), x((yz)w), (x(yz))w, ((xy)z)w, x(y(zw)).
+\] 
+If the two of the four elements are the same (hence we have $a,a,b,c$ than we can order them in six ways such that $b$ and $c$ are in fixed order. Bol-Moufang identities are obtained when we take general elements $a,a,b,c$ with $b$ before $c$ (for definiteness) and form a fourth-order monomial in any bracketing and equate it with a monomial with a different bracketing, 
+for example $(ab)(ac) = a((ba)c)$. We can do this in $\binom{5}{2} \times 6= 60$ ways. Requiring different sets among Bol-Moufang identities in a [[quasigroup]] or in a loop one gets some interesting classes of quasigroups and loops, for example, [[Bol loop]]s, [[Moufang loop]]s and some others. 
 
 The notion is introduced in 
 
