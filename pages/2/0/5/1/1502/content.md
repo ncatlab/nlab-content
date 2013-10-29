@@ -1,9 +1,24 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -12,33 +27,11 @@ A _semisimple category_ is a category in which each object is a [[direct sum]] o
 
 ## Definition
 
-An [[abelian category]] is called **semisimple** if every object is a direct sum of finitely many [[simple objects]].  See [[semisimple abelian category]].
+An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of finitely many [[simple objects]].  See [[semisimple abelian category]].
 
 Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
-*  it has finite [[biproduct]]s (usually called '[[direct sum]]s'),
-*  [[split idempotent|idempotents split]] (so we say that it 'has [[subobject]]s' or, perhaps better, 'has [[retract]]s'), and
-
-   +-- {: .query}
-
-   What does it mean to 'have subobjects'?  (I assume that the 'direct sums' are [[biproduct]]s.)  ---Toby
-
-   have subobjects = idempotents split and yes, finite biproducts. Simple objects are ones in which End(X) = k. 
-
-   [[Urs Schreiber|Urs]]: shouldn't we say something like: a category is semisimple if each object is a direct sum of finitely many simple objects?
-
-   [[Bruce Bartlett|Bruce]]: Urs, you're right, and that's indeed the way one morally thinks about it, but it's a less canonical way of proceeding. We ask ourselves: given a linear category with direct sums and subobjects, and a chosen maximal collection $\{X_i\}$ of nonisomorphic simple objects, how can we check if its semisimple? In the one way, we have to check whether a certain canonically defined map is an isomorphism. In the other way, we have to check if each object $V$ can be expressed as a direct sum of the $X_i$'s. Actually finding such a decomposition would be a noncanonical operation. So your shorter more snappy definition would force an auditor to perform an evil thing if he actually wanted to check it :-) It's that old thing about "only that part of a representation which behaves like an irreducible $\rho$ is canonical, the actual break-down of that rep into direct sums of $\rho$'s is noncanonical". That is, what is canonical is $Hom(V, X_i)$ and not $V = \bigoplus_i n_i X_i$.
-
-   Also, if we just had "a category is semisimple if each object is a direct sum of finitely many simple objects" without the conditions on direct sums and subobjects then we could have someone who nastily removes, say, all three-dimensional vector spaces from $Vect$. It would still satisfy "each object is a direct sum of finitely many simple objects" but it shouldnt be regarded as a semisimple category since there are "holes".
-
-   [[Urs Schreiber|Urs]]: okay, so "each object is finite sum of simples" is the _right idea_, while the _right defintion_ is a bit different. I have accoridngly now created a section "Idea" with the former statement. (Every entry should start with a section "Idea"!) See if you like this. Otherwise, feel free to adjust.
-
-   But in any case, it would be nice to have a discussion on how the "right definition" _implies_ that every object is isomorphic to a finite direct sum of representables.
-
-   __[[Chris Schommer-Pries]]__: Shouldn't you require that for simples, End(X,X) is a simple algebra, not necessarily the ground field? For example the category of H-modules where H is the quaternion algebra over the reals. Shouldn't this be semi-simple?
-
-   [[Christopher Douglas|Chris]]: It is not standard to assume the direct sum decomposition is finite in defining a semisimple category.  For instance, the category of all vector spaces is semisimple.  What's written here at present looks like a definition of semisimple for categories where it has already been assumed that every object has finite length.
-
-   =--
+*  it has finite [[biproducts]] (usually called '[[direct sums]]'),
+*  [[split idempotent|idempotents split]] (so we say that it 'has [[subobjects]]' or, perhaps better, 'has [[retract]]s'), and
 
 *  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
    \[
@@ -73,7 +66,7 @@ This says precisely that $V$ has been expressed as a direct sum of the $X_i$.
 
 ## Remarks
 
-* The above definition definition of semisimple monoidal linear category (taken from the reference of M&uuml;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
+* The above definition definition of semisimple monoidal linear category (taken from the reference of M&#252;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
 
 * For a category to be semisimple, it needs to have a certain directional symmetry in its hom-sets, namely that $Hom(V, W)$ must at least have the same dimension as$Hom(W,V)$. This is the easiest way to check if a category will _fail_ to be semisimple. For instance, the category $Rep(A)$ of [[representations]] of an algebra $A$ will rarely be semisimple, precisely because there is no relation between $Hom(V, W)$ and $Hom(W,V)$ in general. Again, this can be traced back to the original algebra $A$ not having any 'symmetry' like the inverse operation in a group. 
 
@@ -95,8 +88,6 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 ## References
 
-* M. M&uuml;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](http://arxiv.org/math.CT/9812040). 
+* M. M&#252;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](http://arxiv.org/math.CT/9812040). 
 
-
-
-
+There is related discussion on the $n$Forum [here](http://nforum.mathforge.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783).
