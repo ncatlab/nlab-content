@@ -5,10 +5,16 @@ __Runge-Kutta approximation schemes__ are a family of difference schemes used fo
 In engineering it is rather standard to use the 4th order Runge-Kutta difference schemes. General overview is at 
 
 * wikipedia [Runge-Kutta methods](http://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods)
+* J.C. Butcher, _Coefficients for the study of Runge-Kutta integration processes_, J. Austral. Math. Soc. __3__ (1963), 185-201
 
 ### For stochastic ODE-s:
 
 * wikipedia [Runge&#8211;Kutta method (SDE)](http://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_method_%28SDE%29)
+
+### Relation to algebraic problems and renormalization
+
+* Ch. Brouder, _Runge-Kutta methods and renormalization_,
+Europ. Phys. J. C12 (2000) 512&#8211;534.
 
 ### Connections to symplectic geometry
 
