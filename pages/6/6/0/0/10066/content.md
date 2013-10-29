@@ -92,6 +92,8 @@ The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the
 
 * [[Baum-Connes conjecture]], [[Green-Julg theorem]], [[Atiyah-Segal completion theorem]]
 
+* [[equivariant elliptic cohomology]]
+
 ## References
  {#References}
 
