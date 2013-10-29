@@ -70,12 +70,21 @@ and
 This is ([FHT II, (1.27), theorem 1.28](#FHT)). Related results are in ([Hochs 12, section 2.2](#Hochs12)). For more background see at _[[orbit method]]_.
 
 
+## Related concepts
+
+* [[Schubert calculus]]
 
 ## References
 
 The idea of Dirac induction goes back to [[Raoul Bott]]'s formulation in the 1960s of [[index theory]] in the [[equivariant cohomology|equivariant]] context.
 
 * [[Raoul Bott]], _The index theorem for homogeneous differential operators_, In: _Differential and combinatorial topology_ (A symposium in honor of Marston Morse), 1965, Princeton Univ. Press, Princeton, NJ, 167&#8211;186
+ {#Bott65}
+
+* [[Michael Atiyah]], [[Raoul Bott]], _A Lefschetz fixed point formula for
+elliptic complexes. II_. Applications. Ann. of Math. (2), 88:451&#8211;
+491, 1968.
+ {#AtiyahBott68}
 
 A generalization to [[super Lie groups]] is discussed in 
 
@@ -88,3 +97,9 @@ An inverse to Dirac induction, hence a construction of good equivariant vector b
 
 * [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
  {#Hochs12}
+
+The analog of Dirac induction for K-theory replaced by [[elliptic cohomology]] is discussed in 
+
+* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+
+[[!redirects Dirac inductions]]
