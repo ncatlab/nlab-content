@@ -145,11 +145,6 @@ of which a lot is already on pages 1--4 (the only ones that Google Books would s
 * [[JLB-algebra]]
 
 
-[[!redirects JB-algebra]]
-[[!redirects JB-algebras]]
-[[!redirects JB algebra]]
-[[!redirects JB algebras]]
-
 [[!redirects Jordan Banach algebra]]
 [[!redirects Jordan Banach algebras]]
 [[!redirects Jordan-Banach algebra]]
@@ -158,3 +153,13 @@ of which a lot is already on pages 1--4 (the only ones that Google Books would s
 [[!redirects Jordan–Banach algebras]]
 [[!redirects Jordan--Banach algebra]]
 [[!redirects Jordan--Banach algebras]]
+
+[[!redirects JB-algebra]]
+[[!redirects JB-algebras]]
+[[!redirects JB algebra]]
+[[!redirects JB algebras]]
+
+[[!redirects JBW-algebra]]
+[[!redirects JBW-algebras]]
+[[!redirects JBW algebra]]
+[[!redirects JBW algebras]]
