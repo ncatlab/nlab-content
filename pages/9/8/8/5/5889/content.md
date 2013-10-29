@@ -37,6 +37,10 @@ Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry
 
 * [[conjugacy class]]
 
+* [[Grassmannian]], [[flag variety]]
+
+* [[Schubert calculus]]
+
 [[!redirects homogeneous spaces]]
 [[!redirects coset space]]
 [[!redirects coset spaces]]
