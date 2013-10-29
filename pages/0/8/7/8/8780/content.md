@@ -15,17 +15,78 @@
 
 
 
-#Contents#
+#Schubert calculus#
 * table of contents
 {:toc}
 
-## Schubert cells and Schubert calculus
+## Idea
 
 Schubert calculus is a formal calculus in [[enumerative geometry]], which geometrically reduces to the combinatorics and [[intersection theory]] of so-called __Schubert cells__ in [[Grassmannians]]. 
 
 Schubert calculus is concerned with the [[ring]] structure on the [[cohomology]] of [[flag varieties]] and [[Schubert varieties]]. Traditionally this is considered for [[ordinary cohomology]] (see [References -- traditional](#ReferencesTraditional)) later also for [[generalized cohomology theories]] (see [References -- In generalized cohomology](#ReferencesInGeneralizedCohomology)), notably in [[complex oriented cohomology theory]] such as [[K-theory]], [[elliptic cohomology]] and [[algebraic cobordism]].
 
 The rigorous foundations of Schubert calculus is the content of 15th of [[Hilbert's problems]].
+
+## Details
+
+### Flag varieties and Schubert varieties
+
+The basic data to be fixed is a sequence of inclusions
+
+$$
+  T \subset B \subset G
+$$
+
+where
+
+* $G$ is a [[connected topological space|connected]] [[complex geometry|complex]] [[reductive group|reductive]] [[algebraic group]]
+
+* $B$ is a [[Borel subgroup]]
+
+* $T$ is a [[maximal torus]].
+
+This induces
+
+* the [[Weyl group]] $W_0 = N(T)/T$;
+
+* the [[character lattice]] $\mathfrak{h}_{\mathbb{Z}}^\ast = Hom(T, \mathbb{C}^\times)$;
+
+* the [[cocharacter lattice]] $\mathfrak{h}_{\mathbb{C}} = Hom(\mathbb{C}^\times, T)$.
+
+* a _[[standard parabolic subgroup]]_ of $G$ is a subgroup $P_J$ including $B$ such that $G/P$ is a [[projective variety]];
+
+   [[parabolic subgroup]] is one [[conjugation|conjugate]] to the standard parabolic subgroup.
+
+* the [[flag variety]] $G/B$;
+
+* the _[[partial flag varieties]]_ $G/P_J$
+
+* the [[Bruhat decomposition]] is the [[coproduct]] decomposition
+
+  $$
+    G = \underset{w \in W_0}{\coprod} B w B
+  $$
+
+  $$
+    G =  \underset{u \in W^J}{\coprod} B u P_j
+  $$
+
+  with 
+
+  * $W_J \coloneqq \{v \in W_0 | v T  \subset P_J\}$
+
+  * $W^J \coloneqq \{coset\; representatives\; u \; of \; cosets \; in W_0/W_J\}$
+
+* into the [[Schubert varieties]]
+
+  $$
+    X_W = \overline{B w B} \subset G/B
+  $$
+
+  $$
+    X_u^J = \overline{B u P_J} \subset G/P_J
+    \,.
+  $$
 
 ## Related concepts
 
