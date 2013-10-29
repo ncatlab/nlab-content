@@ -56,7 +56,7 @@ The idea here is that just as a vector space can be regarded as a [[module]] ove
 
 In fact, Kapranov and Voevodsky defined a **Kapranov--Voevodsky $2$-vector space** as an abelian $\Vect$-module category equivalent to $\Vect^n$ for some $n$.
 
-While this definition makes a lot of sense, its main shortcomings of this definition are twofold:
+While this definition makes a lot of sense, its main shortcomings are twofold:
 
 * It does not give an abstract characterization of 2-vector spaces. That is, it is hardly different to simply defining a 2-vector space as a category equivalent to $Vect^n$.
 
@@ -163,7 +163,7 @@ The relevance of module categories as models for 2-vector spaces was apparently 
 * V. Ostrik, _Module Categories, weak Hopf Algebras and Modular Invariants_ ([arXiv](http://arxiv.org/abs/math.QA/0111139), [blog](http://golem.ph.utexas.edu/string/archives/000717.html))
 
 
-## 2-Modules as modules ove a 2-ring
+## 2-Modules as modules over a 2-ring
 
 One can go further and derive the identification of 2-modules and 2-linear maps with algebras and bimodules from a more fundamental notion of modules over [[2-rings]]. For the moment see there at
 _[2-ring -- Compatibly monoidal presentable categories](2-rig#CompatiblyMonoidalPresentableCategories)_ for more details.
