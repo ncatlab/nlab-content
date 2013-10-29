@@ -228,11 +228,13 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 ### Equivariant elliptic cohomology and loop group representations
 
 The analog of the [[orbit method]] with [[equivariant K-theory]]
-replaced by [[equivariant cohomology|equivariant]] elliptic cohomology yields (aspects of) the [[representation theory]] of [[loop groups]]. ([Ganter 12](#Ganter12))
+replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[representation theory]] of [[loop groups]]. ([Ganter 12](#Ganter12))
 
 ## Related concepts
 
 * [[elliptic genus]]
+
+* [[equivariant elliptic cohomology]]
 
 * [[sigma-orientation]]
 
@@ -252,8 +254,12 @@ Construction of elliptic cohomology / [[tmf]] by [[FQFT]] is discussed at _[[(2,
 
 * [[Pokman Cheung]], _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
-* [[Nora Ganter]], _The elliptic Weyl character formula_, [arxiv/1206.0528](http://arxiv.org/abs/1206.0528)
-[[!redirects elliptic cohomology theory]]
+Discussion of [[equivariant elliptic cohomology]] and the relation to [[loop group]] [[representation theory]] is in 
+
+* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ {#Ganter12}
+
+
 
 Discussion of generalization to higher [[chromatic homotopy theory]] is discussed in
 
@@ -261,8 +267,13 @@ Discussion of generalization to higher [[chromatic homotopy theory]] is discusse
 
 * [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology II_, Homology, Homotopy and Applications, vol. 10(1), 2008, pp.1{36 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high2.pdf), [pdf slides](http://www.math.rochester.edu/people/faculty/doug/mypapers/halifax.pdf))
 
-Discussion related to [[loop group]] [[representation theory]] is in
+[[!redirects elliptic cohomologies]]
 
-* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
- {#Ganter12}
+[[!redirects elliptic cohomology theory]]
+[[!redirects elliptic cohomology theories]]
+
+[[!redirects elliptic generalized cohomology theory]]
+[[!redirects elliptic generalized cohomology theories]]
+
+
 
