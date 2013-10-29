@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,7 +24,8 @@ The _Fourier-Mukai transform_ is a [[categorification|categorified]] [[integral 
 ## Definition
 
 Let $X$ and $Y$ be [[schemes]] over a [[field]] $K$.
-Let $E \in D(QCoh(O_{X \times Y}))$ be an object in the [[triangulated categories of sheaves|derived category of quasi-coherent sheaves]].
+Let $E \in D(QCoh(O_{X \times Y}))$ be an object in the [[triangulated categories of sheaves|derived category of quasi-coherent sheaves]] over their [[product]]. (This is a [[correspondence]] between $X$ and $Y$ equipped with a [[chain complex]] $E$ of [[quasi-coherent sheaves]]).
+
 The functor $\Phi(E) : D(QCoh(O_X)) \to D(QCoh(O_Y))$ defined by
   \[ F \mapsto \mathbf{R}q_*(\mathbf{L}p^*(F) \otimes^{\mathbf{L}} E), \]
 where $p$ and $q$ are the [[projections]] from $X \times Y$ onto $X$ and $Y$, respectively, is called the **Fourier-Mukai transform of $E$**, or the **Fourier-Mukai functor induced by $E$**.
@@ -21,7 +36,7 @@ When $F : D(QCoh(O_X)) \to D(QCoh(O_Y))$ is isomorphic to $\Phi(E)$ for some $E 
 
 The key fact is as follows
 
-+-- {: .num_thm}
++-- {: .num_theorem}
 ###### Theorem ([[Orlov]])
 Let $X$ and $Y$ be smooth projective [[varieties]] over a [[field]] $K$.  Let $F : D(X) \to D(Y)$ be a [[triangulated functor|triangulated]] [[fully faithful functor]].  Then $F$ is represented by some object $E \in D(X \times Y)$ which is unique up to isomorphism.
 =--
