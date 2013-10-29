@@ -39,11 +39,13 @@ on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this
 
 * A $JB$-[[JB-algebra|algebra]] (or more generally a [[Jordan–Banach algebra]]) is a nonassociative (but commutative) kind of Banach algebra.  (The commutative associative Banach algebras also count as Jordan--Banach algebras.)
 
-* If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to different but canonical ways of extending monoidal structure through a monad that isn't necessarily a [[strong monad]].
-+-- {: .query}
-YC: Have I used the jargon correctly? I think this is something to do with [[tensorial strength]]s for the bidual functor on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators).
-=--
 
+### Arens products
+If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to the left and right [[tensorial strength]]s for the bidual monad on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators). Algebras where the two Arens products coincide are said to be Arens regular: since $B(H)$, the algebra of bounded linear operators on a Hilbert space $H$, has this property, so do all its closed subalgebras, in particular all $C^*$-[[C-star algebra|algebra]]s.
+
+
+### An example of a 'nonunital' Banach algebra that has an identity element
+Let $C_n$ be a cyclic group of order $n\geq 2$ and look at the Banach algebra (in the "strict" sense of a monoid object in $Ban$) that is obtained by equipping the Banach space $\ell^1(C_n)$ with the natural convolution product: $\delta_x * \delta_y = \delta_{x+y}$. There is a "short" homomorphism from $\ell^1(C_n)$ into the ground field which is just the unique linear extension of the group homomorphism $C_n \to \{1\}$ (by the free property of the $\ell^1$-functor) and we let $J$ be the kernel of this homomorphism. ($J$ is the so-called "augmentation ideal".) Now $J$ is a semigroup object in ${\rm Ban}$ and as an algebra it has an identity element $p$, but a calculation/hindsight shows that $\delta_e-p$ must be the constant function $C_n \to \{1/n\}$, so that $p$ has norm $(1-1/n)+(n-1)/n = 2-2/n$.
 
 ## References
 
