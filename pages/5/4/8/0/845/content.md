@@ -19,10 +19,10 @@ $$
     \array{
       Mor_C(a,b) & \text{ if  } a,b \in C
       \\
-      Mor_{C'}(a,b) & \text{ if  } a,b \in C'\\
-      \emptyset & \text{ if  }  a \in C', b \in C;
+      Mor_{C'}(a,b) & \text{ if }\;\; a,b \in C'\\
+      \emptyset & \text{ if  }\;\;  a \in C', b \in C;
       \\
-      \mathrm{pt} & \text{ if  }  a \in C, b \in C';
+      \mathrm{pt} & \text{ if  } \;\; a \in C, b \in C';
     }
   \right.
 $$
