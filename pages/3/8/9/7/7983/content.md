@@ -42,4 +42,6 @@ Regarding the Lie group as the [[target space]] of the [[WZW model]], the conjug
 
 * [[coset space]]
 
+* [[character]]
+
 [[!redirects conjugacy classes]]
