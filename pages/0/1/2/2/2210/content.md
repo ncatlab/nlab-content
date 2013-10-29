@@ -259,6 +259,8 @@ Discussion of this that does make the simplicial structure explicit and relates 
 
 * Herman Stel, _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras ? with applications to ∞-Lie theory]]_.
 
+* Herman Stel, _Cosimplicial C-infinity rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
+
 The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(k-Alg^{op})$ of [[algebraic geometry]], i.e. on [[affine schemes]] is worked out in detail in 
 
 * [[Larry Breen]], [[William Messing]], _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
