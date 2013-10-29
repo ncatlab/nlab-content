@@ -83,7 +83,7 @@ $$
 
 where in the second step the total derivative was introduced via the [[product rule]] of [[differentiation]] $f (\nabla g) = -(\nabla f) g + \nabla (f g)$.
 
-From this law for the variation of the Lagrangian, one derives both the [[Euler-Lagrange equation|Equler-Lagrange]] [[equations of motion]] as well as Noether's theorem by making different assumptions and setting different terms to zero:
+From this law for the variation of the Lagrangian, one derives both the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] as well as Noether's theorem by making different assumptions and setting different terms to zero:
 
 1. Demanding that the variation $\delta \phi$ vanishes on some [[boundary]] of [[spacetime]] implies that the rightmost term in the above equation disappears in the variation $\delta S = \delta \int L$ of the [[action functional]] (by the [[Stokes theorem]]) and hence demanding that $\delta S = 0$ under variation that vanishes on the boundary is equivalent to demanding the [[Euler-Lagrange equation]]
 
