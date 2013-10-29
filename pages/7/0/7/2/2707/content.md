@@ -217,7 +217,7 @@ The [[path integral as a pull-push transform|pull-push quantization]] in [[Gromo
 See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutative topology](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
 
 
-## Related entries
+## Related concepts
 
 * [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]], [[Chow motive]]
 
@@ -234,6 +234,8 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 * [[motivic function]]
 
 * [[motivic Donaldson-Thomas invariant]]
+
+* [[Fourier-Mukai transform]]
 
 * See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
 
