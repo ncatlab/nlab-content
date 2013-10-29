@@ -16,5 +16,6 @@ Nonetheless it can be instructive to ponder these concepts, and there are some n
 
 * wikipedia [magma](http://en.wikipedia.org/wiki/Magma_%28algebra%29), [&#216;ystein Ore](http://en.wikipedia.org/wiki/%C3%98ystein_Ore), [Nicolas Bourbaki](http://en.wikipedia.org/wiki/Nicolas_Bourbaki)
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
+* Hala Orlik Pflugfelder, _Historical notes on loop theory_, Comment. Math. Univ. Carolin. __41__,2 (2000) 359&#8211;370 [pdf](http://www.emis.de/journals/CMUC/pdf/cmuc0002/pflug.pdf)
 
 category: algebra
