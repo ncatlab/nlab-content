@@ -180,6 +180,8 @@ Correspondences may be seen as generlaizations of [[relations]]. A relation is a
 
 * Correspondences of [[flag manifolds]] play a role as [[twistor correspondences]].
 
+* The [[Fourier-Mukai transform]] is a pull-push operation through correspondences equipped with objects in a cocycle given by an object in a [[derived category of quasi-coherent sheaves]].
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
