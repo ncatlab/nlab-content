@@ -32,6 +32,7 @@ See [[Cartan connection]].
 
 * [[Cartan connection]]
 
+* [[parabolic geometry]]
 
 ## References
 
