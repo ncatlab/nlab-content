@@ -79,3 +79,6 @@ An introduction to projective spaces over the theory of ordinary commutative rin
 * Miles Reid, _Graded rings and varieties in weighted projective space_ ([pdf](http://www.warwick.ac.uk/~masda/surf/more/grad.pdf))
 
 [[!redirects projective spaces]]
+
+[[!redirects complex projective space]]
+[[!redirects complex projective spaces]]
