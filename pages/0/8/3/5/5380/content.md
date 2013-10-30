@@ -62,7 +62,7 @@ The proof is spelled out at [[affine line]].
 
 #### Over the real and complex numbers
 
-(...)
+* $\mathbb{C}P^1$ is the [[Riemann sphere]]
 
 ## Related concepts
 
