@@ -274,7 +274,9 @@ Theorem 3.2 there is proven using classical results which are collected in
 
 * [[Peter May]], _What precisely are $E_\infty$-ring spaces and $E_\infty$-ring spectra?_, Geometry and Topology Monographs 16 (2009) 215&#8211;282 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Final1.pdf))
 
+A survey of the situation in [[(∞,1)-category theory]] is also in section 3.1 of 
 
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
 A construction in terms of a [[model structure on spectra]] is in
 
@@ -330,5 +332,4 @@ The $\infty$-group of units of [[Morava K-theory]] is discussed in
 
 [[!redirects group infinity-ring]]
 [[!redirects group infinity-rings]]
-
 
