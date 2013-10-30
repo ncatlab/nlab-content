@@ -1,5 +1,20 @@
 
-This page means to provide non-technical motivation for the notion of _[[cohesion]]_ as in formalized in the notions
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+=--
+=--
+
+
+This page is meant to provide non-technical motivation for the notion of _[[cohesion]]_ as in formalized in the notions
 
 * _[[cohesive topos]]_, 
 
