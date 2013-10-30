@@ -11,6 +11,8 @@ A conformal mapping is a mapping which preserves angles infinitesimally. A _conf
 
 * [[CFT]]
 
+* [[twistor space]]
+
 ## References
 
 * David Gu, _Conformal structure_, slides ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
@@ -18,3 +20,6 @@ A conformal mapping is a mapping which preserves angles infinitesimally. A _conf
 
 
 [[!redirects conformal structures]]
+
+[[!redirects conformal geometry]]
+[[!redirects conformal geometries]]
