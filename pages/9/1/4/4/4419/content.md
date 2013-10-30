@@ -1,5 +1,11 @@
 
-__Gabriel-Rosenberg reconstruction theorem__: an [[algebraic scheme]] can be reconstructed up to an isomorphism from the abelian category of quasicoherent sheaves over that scheme. If a scheme is quasicompact quasiseparated, then $X$ is the 'geometric center' of the category of quasicoherent sheaves $Qcoh_X$.  The geometric center is a construction obtained as a composition of two functors: first Rosenberg's [[spectrum of an abelian category]] as a topological space with a stack of local categories and then a certain construction of a center, which will yield a topological space with a sheaf of local commutative unital rings. 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The __Gabriel-Rosenberg reconstruction theorem__ says: an [[algebraic scheme]] can be reconstructed up to an isomorphism from the abelian category of quasicoherent sheaves over that scheme. If a scheme is quasicompact quasiseparated, then $X$ is the 'geometric center' of the category of quasicoherent sheaves $Qcoh_X$.  The geometric center is a construction obtained as a composition of two functors: first Rosenberg's [[spectrum of an abelian category]] as a topological space with a stack of local categories and then a certain construction of a center, which will yield a topological space with a sheaf of local commutative unital rings. 
 
 ## History and versions
 
@@ -21,10 +27,10 @@ A [[moduli]]-theoretic proof, and an extension to [[algebraic spaces]], has been
 
 * A. L.  Rosenberg, _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
-* [[Martin Brandenburg]], _Rosenberg's reconstruction theorem (after Gabber)_, 2013, [arXiv](http://arxiv.org/abs/1310.5978).
+* [[Martin Brandenburg]], _Rosenberg's reconstruction theorem (after Gabber)_, 2013, ([arXiv:1310.5978](http://arxiv.org/abs/1310.5978)).
  {#Brandenburg13}
 
-* John Calabrese, Michael Groechenig.  _Moduli problems in abelian categories and the reconstruction theorem._  2013.  [arXiv](http://arxiv.org/abs/1310.6600).
+* John Calabrese, Michael Groechenig.  _Moduli problems in abelian categories and the reconstruction theorem._  2013.  ([arXiv:1310.6600](http://arxiv.org/abs/1310.6600)).
  {#CalabreseGroechenig13}
 
 * related MO question: [what is the center of QCohX](http://mathoverflow.net/questions/41789/what-is-the-center-of-qcohx)
