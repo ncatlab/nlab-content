@@ -23,7 +23,15 @@
 
 ## Idea
 
-A [[genus]] in [[elliptic cohomology]].
+An _elliptic genus_  is a [[genus]] in [[elliptic cohomology]].
+
+## Properties
+
+### Relation to partition functions of superstring
+
+The [[partition function]] of a [[type II superstring]] as a function depending on the [[modulus]] of the [[worldsheet]] [[elliptic curve]] yields an elliptic genus ([Witten 87](#Witten87)). (The analog for the [[heterotic string]] is hence called the _[[Witten genus]]_ with values in the "universal elliptic cohomology" theory, [[tmf]]).
+
+For equivariant/gauged string [[sigma-models]] the elliptic genus should take values in [[equivariant elliptic cohomology]], see at _[gauged WZW mode -- Partition function in elliptic cohomology](gauged+WZW+model#PartitionFunctionInEllipticCohomology)_.
 
 
 ## Related concepts
@@ -31,6 +39,8 @@ A [[genus]] in [[elliptic cohomology]].
 * [[elliptic cohomology]]
 
 * [[Witten genus]]
+
+* [[equivariant elliptic genus]]
 
 [[!include genera and partition functions - table]]
 
@@ -48,6 +58,7 @@ The relation of this to [[elliptic cohomology]] was understood in
 The interpretation of the elliptic genus/[[Witten genus]] as the [[partition function]] of the [[type II superstring]]/[[heterotic string]] is due to 
 
 * [[Edward Witten]], _Elliptic genera and quantum field theory_, Comm. Math. Phys. Volume 109, Number 4 (1987), 525-536.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1104117076))
+  {#Witten87}
 
 Similar elliptic genera of $N=2$ $d = 2$ field theories and [[Landau-Ginzburg models]] are discussed in 
 
