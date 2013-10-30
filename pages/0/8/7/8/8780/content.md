@@ -88,6 +88,61 @@ This induces
     \,.
   $$
 
+### Correspondences, pull-push and Schubert classes
+  {#Correspondences}
+
+From the above data one obtains [[homomorphisms]] of spaces with 
+$G$-[[action]] forming [[correspondences]] ("generalized [[twistor correspondence]]")
+
+$$
+  \array{
+    && G/B
+    \\
+    & {}^{\mathllap{p_1}}\swarrow && \searrow^{\mathrlap{p_2}}
+    \\
+    G/P_1
+    &&
+    &&
+    G/P_2
+  }
+  \,.
+$$
+
+e.g. ([Ganter-Ram 12, p.4](#GanterRam12))
+
+For [[fiber integration]] $(p_i)_!$ in [[generalized cohomology theories]] along these maps see ([Ganter-Ram 12, 4.1](#GanterRam12))
+
+Similarly, let
+
+$$
+  \sigma_w \;\colon\; X_w \hookrightarrow G/B
+$$
+
+be the inclusion of the [[Schubert varieties]], then push-forward of the unit classes allong these inclusions defined _Schubert classes_
+
+$$
+  [X_w] \coloneqq (\sigma_w)_!(w)
+$$ 
+
+([Ganter-Ram 12, 5](#GanterRam12))
+
+For [[equivariant K-theory]] this is discussed in ([Ganter 12, 8.2](#Ganter12)). For [[equivariant elliptic cohomology]] in ([Ganter 12, 8.3](#Ganter12))
+
+### Schubert products
+ {#SchubertProducts}
+
+With Schubert classes $[X_w]$ defines as above in a [[multiplicative cohomology theory]], the _Schubert product formula_ is
+
+$$
+  [X_u][X_v]
+  =
+  \underset{w \in W_0}{\sum} c^w_{u v} [X_w]
+$$
+
+for some [[coefficients]] $\{c^w_{u v}\}$, to be determined.
+
+([Ganter-Ram 12, 6](#GanterRam12))
+
 ## Related concepts
 
 * [[Dirac induction]]
@@ -116,8 +171,7 @@ and generalized cohomology_. Trans. Amer. Math. Soc.,
 317(2):799&#8211;811, 1990
  {#BresslerEvens90}
 
-* [[Paul Bressler]], Sam Evens, _Schubert calculus in complex cobordism_
-Trans. Amer. Math. Soc., 331(2):799&#8211;813, 1992
+* [[Paul Bressler]], Sam Evens, _Schubert calculus in complex cobordism_ Trans. Amer. Math. Soc., 331(2):799&#8211;813, 1992
 
 * Baptiste Calm&#232;s, Victor Petrov,  Kirill Zainoulline, _Invariants,
 torsion indices and oriented cohomology of complete flags_
@@ -126,10 +180,16 @@ May 200 ([web](http://front.math.ucdavis.edu/0905.1341))
 * Jens Hornbostel, Valentina Kiritchenko, _Schubert calculus for
 algebraic cobordism_. J. Reine Angew. Math., 656:59&#8211;85, 2011
 
-* [[Nora Ganter]], [[Arun Ram]], _Generalized Schubert calculus_, [arxiv/1212.5742](http://arxiv.org/abs/1212.5742)
+* [[Nora Ganter]], [[Arun Ram]], _Generalized Schubert calculus_, ([arxiv/1212.5742](http://arxiv.org/abs/1212.5742))
+  {#GanterRam12}
 
+* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ {#Ganter12}
 
 [[!redirects Hilbert's 15th problem]]
 
+
+[[!redirects Schubert class]]
+[[!redirects Schubert classes]]
 
 category: combinatorics, algebraic geometry
