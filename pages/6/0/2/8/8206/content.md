@@ -34,3 +34,6 @@ A certain [[B-model]] [[string theory]] whose [[target space]] is [[twistor spac
 
 * [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun.Math.Phys.252:189-258,2004 ([arXiv:hep-th/0312171](http://de.arxiv.org/abs/hep-th/0312171))
 
+Surveys include
+
+* David Skinner, _The geometry of scattering amplitudes_, talk notes, November 2009 ([pdf](http://research.physics.unc.edu/string/transparencies/trans_20091112.pdf))
