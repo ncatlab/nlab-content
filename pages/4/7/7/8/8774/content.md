@@ -154,9 +154,10 @@ $$
   \,.
 $$
 
-### Of the BV-complex
 
-(...)
+### Via the Penrose-Ward twistor transform
+
+Solutions to the [[equations of motion]] of self-dual Yang-Mills theory are naturally produced by seding cohomology classes on [[twistor space]] through the [[Penrose-Ward twistor transform]]. See there for more details.
 
 ## Related concepts
 
