@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -62,11 +61,11 @@ $$
 
 ### Finite groups
 
-+-- {: .num_theorem}
-###### Theorem
++-- {: .num_cor}
+###### Corollary
 **(Lagrange's theorem)**
 
-If$G$ is a [[finite group]], then the index of any subgroup is the quotient
+If $G$ is a [[finite group]], then the index of any subgroup is the quotient
 
 $$
   {\vert G : H\vert} = \frac{{\vert G\vert}}{\vert H\vert}
