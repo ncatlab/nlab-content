@@ -450,6 +450,12 @@ The notion of _bundle gerbe_ as such was introduced in
 
 * [[Michael Murray]], _Bundle gerbes_ ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
 
+Early texts also include
+
+* [[David Chatterjee]], _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
+
+(notice that the title here suppresses one "e" intentionally).
+
 A general picture of bundle $n$-gerbes (with connection) as [[circle n-bundle with connection|circle (n+1)-bundles with connection]] classified by [[Deligne cohomology]] is in 
 
 * Pawel Gajer, _Geometry of Deligne cohomology_ Invent. Math., 127(1):155--207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
