@@ -96,7 +96,7 @@ and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is 
 * [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
   {#Cap01}
 
-More on applications to [[quantum field theory]] is in 
+More on traditional applications to [[quantum field theory]] is in 
 
 * R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990.
   {#WardWells90}
@@ -105,6 +105,10 @@ The relation of twistor geometry to [[MHV amplitudes]] in 4d [[Yang-Mills theory
 
 * [[Edward Witten]], _Perturbative Gauge Theory As A String Theory In Twistor Space_, Commun. Math. Phys. 252:189-258, 2004 ([arXiv:hep-th/0312171](http://arxiv.org/abs/hep-th/0312171))
   {#Witten03}
+
+Surveys of the resulting modern application of twistors in field theory include
+
+* David Skinner, _The geometry of scattering amplitudes_, talk notes, November 2009 ([pdf](http://research.physics.unc.edu/string/transparencies/trans_20091112.pdf))
 
 The application of twistor methods to the [[6d (2,0)-superconformal QFT]] is discussed for instance in 
 
@@ -123,3 +127,18 @@ See also
 
 [[!redirects twistor correspondence]]
 [[!redirects twistor correspondences]]
+
+[[!redirects Penrose transform]]
+[[!redirects Penrose transforms]]
+
+[[!redirects Penrose transformation]]
+[[!redirects Penrose transformations]]
+
+
+[[!redirects Penrose twistor transform]]
+[[!redirects Penrose twistor transforms]]
+
+[[!redirects Penrose twistor transformation]]
+[[!redirects Penrose twistor transformations]]
+
+
