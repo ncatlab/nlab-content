@@ -100,3 +100,5 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 
 [[!redirects higher moduli stack]]
 [[!redirects higher moduli stacks]]
+
+[[!redirects modulus]]
