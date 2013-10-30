@@ -105,6 +105,13 @@ This condition had originally been seen as a [[anomaly cancellation]]-condition 
 Now by [[schreiber:∞-Wess-Zumino-Witten theory]], the corresponding WZW model has as target the [[smooth groupoid]] $\tilde G//H$ such that maps into it are locally a map $g$ into $G$ together with 1-form potentials $A^a$ for the $F^a$, and the WZW term is locally a 2-form built from $d g$ and $A^a$ such that its curvature 3-form is $\tilde H$. This is the **gauged WZW model** ([Witten 92, (A.16)](#Witten92)).
 
 
+## Properties
+
+### Partition function in (equivariant) elliptic cohomology
+ {#PartitionFunctionInEllipticCohomology}
+
+The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is considered in ([Henningsonn 94, (8)](#Henningson94)). When done properly this should give elements in [[equivariant elliptic cohomology]], hence an [[equivariant elliptic genus]].
+
 ## Related concepts
 
 * [[coset WZW model]]
@@ -149,5 +156,10 @@ See also
 * Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_,  	Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
 
 * [[Elias Kiritsis]], _Duality in gauged WZW models_ ([pdf](http://hep.physics.uoc.gr/~kiritsis/papers2/dual.pdf))
+
+The [[partition function]]/[[elliptic genus]] of the SU(2)/U(1) gauged WZW model is considered in 
+
+* [[Måns Henningson]], _N=2 gauged WZW models and the elliptic genus_, Nucl.Phys. B413 (1994) 73-83 ([arXiv:hep-th/9307040](http://arxiv.org/abs/hep-th/9307040))
+ {#Henningson94}
 
 [[!redirects gauged Wess-Zumino-Witten model]]
