@@ -1,6 +1,6 @@
 The **algebraic cobordism spectrum** $MGL_S$ (over $S$) is a spectrum in the [[motivic homotopy theory|stable motivic homotopy category]] $SH(S)$.  It was defined by [[Voevodsky]] in analogy with [[Quillen]]'s [[complex cobordism spectrum]] $MU$.
 
-See [here](motivic+homotopy+theory#algebraic_cobordism_60).
+See at _[motivic homotopy theory -- algebraic cobordism](motivic+homotopy+theory#AlgebraicCobordism)_ for more.
 
 $MGL$ was used by [[Voevodsky]] in his proof of the [[Bloch-Kato conjecture]].
 
