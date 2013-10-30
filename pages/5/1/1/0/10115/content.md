@@ -17,9 +17,13 @@
 
 The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is called the _[[Riemann sphere]]_.
 
+As such this is [[complex projective space]] $\mathbb{C}P^1$.
+
 ## Related concepts
 
 * [[geometric quantization of the 2-sphere]].
+
+* [[celestial sphere]]
 
 ## References
 
@@ -27,3 +31,4 @@ The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is calle
 
 
 
+[[!redirects Riemann spheres]]
