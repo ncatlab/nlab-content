@@ -98,6 +98,8 @@ where
 
 ## References
 
+### General
+
 The notion originates in 
 
 * [[Roger Penrose]], _Twistor algebra_,  Journal of Mathematical Physics 8 (2): 345&#8211;366, (1967) 
@@ -118,6 +120,13 @@ Introductions and surveys include
 
 * Liana David, _The Penrose transform and its applications_, 2001 ([pdf](http://www.maths.ed.ac.uk/pg/thesis/david.pdf))
 
+See also 
+
+* Wikipedia, _[Twistor theory](http://en.wikipedia.org/wiki/Twistor_theory)_
+
+
+### Relation to geometric representation theory and parabolic geometry
+
 A discussion in the general context of [[geometric representation theory]] is in
 
 * R. J. Baston, M. G. Eastwood, _The Penrose Transform Its Interaction with Representation Theory_ Oxford Science Publications, Clarendon Press, 1989 
@@ -127,6 +136,8 @@ and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is 
 
 * [[Andreas Cap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
   {#Cap01}
+
+### Application to quantum field theory
 
 More on traditional applications to [[quantum field theory]] is in 
 
@@ -142,15 +153,18 @@ Surveys of the resulting modern application of twistors in field theory include
 
 * David Skinner, _The geometry of scattering amplitudes_, talk notes, November 2009 ([pdf](http://research.physics.unc.edu/string/transparencies/trans_20091112.pdf))
 
+### Application to the 6d self-dual 2-form field
+
+A general discussion of the Penrose-Ward-type transform applied to [[circle 2-bundles]] on twistor space is in 
+
+* [[David Chatterjee]], sections 4 and 8 of _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
+
 The application of twistor methods to the [[6d (2,0)-superconformal QFT]] is discussed for instance in 
 
 * L. J. Mason, R. A. Reid-Edwards, A. Taghavi-Chabert, _Conformal Field Theories in Six-Dimensional Twistor Space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
  {#MREIC11}
 
 
-See also 
-
-* Wikipedia, _[Twistor theory](http://en.wikipedia.org/wiki/Twistor_theory)_
 
 [[!redirects twistor theory]]
 
