@@ -4,6 +4,9 @@
 
 ## Related entries
 
+* [[parabolic geometry]]
+
 * [[twistor space]]
+
 
 category: people
