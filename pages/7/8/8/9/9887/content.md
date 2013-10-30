@@ -159,6 +159,10 @@ Another proof due to [[Mike Hopkins]] is in
 
 * [[Akhil Mathew]], _Snaith's construction of complex K-theory_, ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
 
+Discussion of the [[E-∞ ring]] structure involved is around theorem 3.1 of  
+
+* [[Jacob Lurie]],  _[[A Survey of Elliptic Cohomology]]_
+
 A version for [[motivic spectra]] [[algebraic K-theory]] is discussed in 
 
 * [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817))
@@ -175,4 +179,3 @@ Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] a
 
 
 [[!redirects Snaith's theorem]]
-
