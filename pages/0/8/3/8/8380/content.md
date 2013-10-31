@@ -80,7 +80,7 @@ Here the morphism $T(g)$ in the middle of the last line makes use of the fact th
 
 The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being a _[[strong monad]]_.
 
-
+When monads are defined in Haskell, the Kleisli composition (called 'bind') is defined in Haskell. So monads in Haskell are always enriched monads, according to the self-enrichment defined by the function type in Haskell.
 
 ## Examples
 
