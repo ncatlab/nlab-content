@@ -5,15 +5,24 @@
 
 ## Idea
 
-Many fields of mathematics have their own versions of zeta function: arithmetic and [[algebraic geometry]], dynamical systems, graphs, operator theory. So this entry will take a lot of time to write. The most well-known example is of course the Riemann zeta function.
+Many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]]. So this entry will take a lot of time to write. The most well-known example is of course the _Riemann zeta function_.
 
-There are several articles trying to attach zeta functions attached to triangulated categories (and stable model categories...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for motives. 
+There are several articles trying to attach zeta functions attached to [[triangulated categories]] (and [[stable model categories]]...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for [[motives]]. 
+
+## Related concepts
+
+* [[multiple zeta values]], [[motivic multiple zeta values]], [[motivic integration]], [[motive]]
+
+* [[Weil conjecture]]
+
+* [[Riemann hypothesis]]
+
+* there are attempts to understand the Riemann zeta function as the spectrum of a [[Hamiltonian]] of a [[quantum mechanical system]]. See at _[[Riemann hypothesis and physics]]_.
 
 ## References
 
-* $n$Lab related pages: [[multiple zeta values]], [[motivic multiple zeta values]], [[motivic integration]], [[motive]]
 
-### Zeta functions in algebraic geometry
+### In algebraic geometry
 
 * [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_, Ast&#233;risque __228__:4 (1995) 121--163, and preprint MPIM1992-50 [pdf](http://www.mpim-bonn.mpg.de/preblob/4793)
 
