@@ -17,6 +17,10 @@
 
 There are attempts/speculations/proposals to use [[p-adic numbers]] in place of [[real numbers]] in the description of [[physics]].
 
+## Related entries
+
+* [[number theory and physics]]
+
 ## References
 
 ### Textbooks
