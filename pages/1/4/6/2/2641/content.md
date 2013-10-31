@@ -71,7 +71,6 @@ Relevant topics in a full account will include
 * [[Mackey theory]]
 
 
-Much lies ahead... 
 
 ## Tentative notes, to be expanded on... 
 
@@ -103,9 +102,13 @@ Fact that Poincar&#233; group is a semidirect product.
 
 * [[Wigner classification]]
 
+* [[twistor]]
+
 * [[unitary representation of the super Poincaré group]]
 
 * [[Doplicher-Roberts reconstruction theorem]]
+
+
 
 ## References
 
