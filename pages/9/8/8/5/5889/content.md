@@ -37,6 +37,8 @@ Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry
 
 * [[conjugacy class]]
 
+* [[orbit category]]
+
 * [[Grassmannian]], [[flag variety]]
 
 * [[Schubert calculus]]
