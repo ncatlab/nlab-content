@@ -18,6 +18,83 @@
 
 The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], the higher [[chromatic homotopy theory|chromatic]] analogue of [[equivariant K-theory]].
 
+## Definition 
+
+Let $G$ be a [[compact Lie group]]. Write $T \hookrightarrow G$ for its [[maximal torus]] and $W$ for its [[Weyl group]].
+
+Write $Orb(G)$ for the [[orbit category]] of $G$.
+
+We have a [[full sub-(∞,1)-category]]
+
+$$
+  \infty Grpd_G
+  \hookrightarrow
+  PSh_\infty(Orb(G))
+  \,.
+$$
+
+
+Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. Let this elliptic curve be equipped with an _orientation_ in the sense of a non-degenerate [[∞-group]] homomorphism
+
+$$
+  B U(1) \longrightarrow A(Spec E)
+  \,.
+$$
+
+Write 
+
+$$
+  A_G \coloneqq \left[\left[T,\mathbb{T}\right],A\right]/W
+  \;\;
+  \in Sch_{/Spec E}
+$$
+
+for the [[derived scheme]] formed from the [[character group]] of the [[maximal torus]] mapped into the given [[elliptic curve]].
+
+
+
+Then there is an [[essential geometric morphism]]
+
+$$
+  PSh_\infty(Orb(G))
+  \stackrel{\overset{(-)\otimes_G A}{\longrightarrow}}{\stackrel{\overset{}{\leftarrow}}{\underset{}{\longrightarrow}}}
+  Sh_\infty(Aff_E)_{/A_G}
+$$
+
+from the [[(∞,1)-topos]] of $G$-[[∞-actions]] to the [[slice (∞,1)-topos]] over $A_G$. 
+
+([Gepner 05, theorem 3](#Gepner05))
+
+Let 
+
+$$
+  \mathcal{O}
+  \;\colon\;
+  Sh_\infty(Aff_E)
+  \longrightarrow
+  Aff_E 
+  \simeq
+  E Alg^{op}
+$$ 
+
+be the [[left adjoint]] to the [[(∞,1)-Yoneda embedding]] as discussed at _[[function algebras on ∞-stacks]]_.
+
+Then the composite
+
+$$
+  L Top_G
+  \hookrightarrow
+  PSh_\infty(Orb(G))
+   \stackrel{(-)\otimes_G A}{\longrightarrow}
+  Sh_\infty(Aff_E)_{/A_G}
+  \stackrel{\mathcal{O}}{\longrightarrow}
+  E Alg^{op}
+$$
+
+takes a space with $G$-[[∞-action]] to its $G$-equivariant elliptic cohomology spectrum.
+
+([Gepner 05, theorem 4](#Gepner05))
+
 ## Related concepts
 
 * [[equivariant elliptic genus]]
