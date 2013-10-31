@@ -35,6 +35,8 @@ For $f = id$ the [[identity]] map, the Lefschetz trace reduces to the _[[Euler c
 
 * [[Reidemeister trace]]
 
+* [[Weil conjecture]]
+
 ##References
 
 * Online Springer Enc. of Math. ([[eom]]): [Lefschetz number](http://eom.springer.de/l/l057990.htm) (Rudyak), [Lefschetz formula](http://eom.springer.de/L/l057980.htm) (Iskovskikh)
@@ -52,3 +54,4 @@ For $f = id$ the [[identity]] map, the Lefschetz trace reduces to the _[[Euler c
 [[!redirects Lefschetz formula]]
 [[!redirects Lefschetz numbers]]
 
+[[!redirects Lefschetz fixed point theorem]]
