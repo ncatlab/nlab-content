@@ -7,8 +7,14 @@
 
 The [[moduli stack]] of [[elliptic curves]].
 
-For the moment see [[A Survey of Elliptic Cohomology - elliptic curves]] for more.
+For the moment see _[[A Survey of Elliptic Cohomology - elliptic curves]]_ for more.
 
+
+## Related concepts
+
+* [[modular form]]
+
+* [[elliptic cohomology]]
 
 ## References
 
