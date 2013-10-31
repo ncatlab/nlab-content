@@ -173,14 +173,11 @@ Much algebraic insight to algebaric structures in CFT is in unfinished notes
 
 ### Category of vertex operator algebras
 
-* [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_ ([pdf](The duality between vertex operator algebras and coalgebras, modules and comodules))
+* [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_, [pdf](http://www.faculty.sfasu.edu/hubbardke/duality.pdf)
 
 ### Relation to sporadic groups
 
-* [[John Duncan]], _Vertex operator algebras and sporadic groups_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0811/0811.1306v1.pdf))
-
-
-* [[John Duncan]], _Moonshine for Rudvalis's sporadic group I_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0609/0609449v2.pdf))
+* [[John Duncan]], _Vertex operator algebras and sporadic groups_, [pdf](http://arxiv.org/PS_cache/arxiv/pdf/0811/0811.1306v1.pdf); _Moonshine for Rudvalis's sporadic group I_, [pdf](http://arxiv.org/PS_cache/math/pdf/0609/0609449v2.pdf)
 
 ### Deformations
 
@@ -193,6 +190,8 @@ Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.o
 
 * [what-is-the-motivation-for-a-vertex-algebra](http://mathoverflow.net/questions/53988/what-is-the-motivation-for-a-vertex-algebra) - a MathOverflow discussion on the motivation 
 * [The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas)
+* Yi-Zhi Huang, _Meromorphic open-string vertex algebras_, J. Math. Phys. __54__, 051702 (2013) [doi](http://dx.doi.org/10.1063/1.4806686)    
+
 [[!redirects vertex algebra]]
 [[!redirects vertex algebras]]
 [[!redirects vertex operator algebras]]
