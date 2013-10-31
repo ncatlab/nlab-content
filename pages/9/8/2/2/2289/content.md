@@ -104,10 +104,11 @@ The central theorem is
 
 Here is the table of contents of the Survey reproduced. Behind the links are linked keyword lists for relevant terms.
 
-* automatic table of contents goes here
+* table of content
 {:toc}
 
-#Summary {#Summary}
+## Summary 
+ {#Summary}
 
 The text starts with showing or recalling that 
 
@@ -120,7 +121,7 @@ is best understood in terms of global sections of the structure sheaf of functio
 
 Then it uses this [[higher topos theory|higher topos theoretic]] [[derived algebraic geometry]] perspective to analyze further properties of [[elliptic cohomology]] theories, in particular their refinements to [[equivariant cohomology]].
 
-## gluing all elliptic cohomology theories to the tmf spectrum {#gluingallellipticcohomologytheoriestothetmfspectrum}
+### Gluing all elliptic cohomology theories to the tmf spectrum {#gluingallellipticcohomologytheoriestothetmfspectrum}
 
 The triple of [[generalized (Eilenberg-Steenrod) cohomology]] theories
 
@@ -215,7 +216,7 @@ As indicated, this problem does turn out to have a solution: [[Paul Goerss|Goers
 
 Accordingly, one can then obtain the [[tmf]] spectrum as the [[homotopy limit]] of this sheaf of [[E-∞ ring]]s $O_{M^{der}}$. Recall from the discussion at [[limit in a quasi-category]] that such a homotopy limit computes global sections. It is an $\infty$-version of computing sections in a [[Grothendieck construction]], really, as described there.
 
-## interpretation in terms of higher topos theory {#interpretationintermsofhighertopostheory}
+### Interpretation in terms of higher topos theory {#interpretationintermsofhighertopostheory}
 
 What is noteworthy about the above construction is that, as the notation above suggests, sheaves of [[E-infinity ring]]s generalize sheaves of rings as thery are familiar from the theory of [[ringed space]]s, where they are called **structure sheaves**.
 
@@ -228,12 +229,13 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 * [[equivariant elliptic cohomology]]
 
 
-# Contents {#Contents}
+## Contents 
+ {#Contents}
 
 
-## 1. Elliptic Cohomology {#EllipticCohomology}
+### 1. Elliptic Cohomology {#EllipticCohomology}
 
-### 1.1 Cohomology Theories {#CohomologyTheories}
+#### 1.1 Cohomology Theories {#CohomologyTheories}
 
 
 * [[cohomology]]
@@ -252,11 +254,11 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 * [[topological modular form]]
 
-### 1.2 Formal Groups from Cohomology Theories {#FormalgroupsFromCohomologyTheories} 
+#### 1.2 Formal Groups from Cohomology Theories {#FormalgroupsFromCohomologyTheories} 
 
 * [[formal group]]
 
-### 1.3 Elliptic Cohomology {#EllipticCohomology}
+#### 1.3 Elliptic Cohomology {#EllipticCohomology}
 
 * [[elliptic curve]]
 
@@ -265,7 +267,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 * [[E-∞ ring]]
 
 
-## 2 Derived Algebraic geometry {#DerivedAlgebraicCohomology}
+### 2 Derived Algebraic geometry {#DerivedAlgebraicCohomology}
 
 * [[derived algebraic geometry]]
 
@@ -275,7 +277,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 
 
-### 2.1 $E_\infty$ rings
+#### 2.1 $E_\infty$ rings
 
 * [[commutative algebra in an (∞,1)-category]]
 
@@ -283,66 +285,73 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 * [[commutative ring spectrum]]
 
-### 2.2 Derived Schemes
+#### 2.2 Derived Schemes
 
 * [[structured (∞,1)-topos]]
 
 * [[derived scheme]]
 
-## 3 Derived Group Schemes and Orientations
+### 3 Derived Group Schemes and Orientations
 
 * [[group scheme]]
 
-### 3.1 Orientations of the Multiplicative Group
+#### 3.1 Orientations of the Multiplicative Group
 
-### 3.2 Orientations of the Additive Group
+#### 3.2 Orientations of the Additive Group
 
-### 3.3 The Geometry of Preorientations
+#### 3.3 The Geometry of Preorientations
 
-### 3.4 Equivariant $A$-Cohomology for Abelian Groups
+#### 3.4 Equivariant $A$-Cohomology for Abelian Groups
 
-### 3.5 The Nonabelian Case
+#### 3.5 The Nonabelian Case
 
-## 4 Oriented Elliptic Curves
+### 4 Oriented Elliptic Curves
 
-### 4.1 Construction of the Moduli Stack
+#### 4.1 Construction of the Moduli Stack
 
-### 4.2 The Proof of Theorem 4.4: The Local Case
+#### 4.2 The Proof of Theorem 4.4: The Local Case
 
-### 4.3 Elliptic Cohomology near $\infty$
+#### 4.3 Elliptic Cohomology near $\infty$
 
-## 5 Applications
+### 5 Applications
 
 
-### 5.1 2-Equivariant Elliptic Cohomology
+#### 5.1 2-Equivariant Elliptic Cohomology
 
 * [[equivariant elliptic cohomology]]
 
-### 5.2 Loop Group Representations
+#### 5.2 Loop Group Representations
 
 * [[loop group]]
 
-### 5.3 String Orientation
+#### 5.3 String Orientation
 
 * [[string structure]]
 
-### 5.4 Higher Equivariance
+* [[sigma-orientation]]
+
+#### 5.4 Higher Equivariance
 
 
-### 5.5 Elliptic Cohomology and Geometry
+#### 5.5 Elliptic Cohomology and Geometry
 
 
-# further references {#furtherreferences}
+## Further references 
+ {#furtherreferences}
 
-Lots of literature on [[modular form]]s is collected at.
+Lots of literature on [[modular form]]s is collected at
 
 * [[Nora Ganter]], [Topological modular forms literature list](http://www.math.uiuc.edu/~ganter/talbot/index.html)
 
 An introduction to and survey of the [[Goerss-Hopkins-Miller-Lurie theorem]] is in
-
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller, and Lurie)_ S&#233;minaire BOURBAKI Mars 2009 61&#232;me ann&#233;e, 2008-2009, no 1005(2009)([arXiv](http://arxiv.org/abs/0910.5130))
 
 which has grown out of
 
 * [[Topological Algebraic Geometry - A Workshop]].
+
+A good bit of details is in
+
+* [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, 1999 ([pdf](http://www.ms.unimelb.edu.au/~nganter/talbot/gepner.thesisformat.pdf))
+
