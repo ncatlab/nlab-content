@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Twistor space_ in the orginal sense of ([Penrose 67](#Penrose67)) is a [[complex manifold]] whose [[complex geometry]] is usefully related to the [[conformal geometry]] of ([[one-point compactification|compactified]] [[complexification|complexified]]) 4-dimensional [[Minkowski spacetime]]. The _Penrose transform_ from twistor space to this [[spacetime]] yields powerful computational tools for studying certain [[quantum field theories]], in particular 4d [[Yang-Mills theory]]. Notably it sends [[ordinary cohomology]] classes on twistor space to [[self-dual Yang-Mills theory|self-dual Yang-Mills fields]] on spacetime ([Ward 77](#Ward77), [Ward-Wells 90](#WardWells90)). Morever, when twistor space is taken as a [[target space]] for [[twistor string theory]], then it serves to compute the [[MHV amplitudes]] in [[super Yang-Mills theory]] ([Witten 03](#Witten03)).
+_Twistor space_ in the original sense of ([Penrose 67](#Penrose67)) is a [[complex manifold]] whose [[complex geometry]] is usefully related to the [[conformal geometry]] of ([[one-point compactification|compactified]] [[complexification|complexified]]) 4-dimensional [[Minkowski spacetime]]. The _Penrose transform_ from twistor space to this [[spacetime]] yields powerful computational tools for studying certain [[quantum field theories]], in particular 4d [[Yang-Mills theory]]. Notably it sends [[ordinary cohomology]] classes on twistor space to [[self-dual Yang-Mills theory|self-dual Yang-Mills fields]] on spacetime ([Ward 77](#Ward77), [Ward-Wells 90](#WardWells90)). Morever, when twistor space is taken as a [[target space]] for [[twistor string theory]], then it serves to compute the [[MHV amplitudes]] in [[super Yang-Mills theory]] ([Witten 03](#Witten03)).
 
 This _Penrose transform_ is exhibited by a [[correspondence]] of [[coset spaces]]/[[flag varieties]]/[[Grassmannians]] which is a special case of general such [[correspondences]] as they are studied in [[Schubert calculus]], [[geometric representation theory]], [[parabolic geometry]]. Therefore one can consider "generalized twistors" to be elements of certain [[flag varieties]] and "generalized Penrose transforms" to be those induced by the relevant [[correspondences]]. ([Baston-Eastwood 89](#BastonEastwood89), [Cap 01](#Cap01)). 
 
@@ -39,7 +39,7 @@ $$
 
 given by the [[projections]] onto the two [[coset spaces]]/[[flag varieties]] and a _Penrose transform_ is an [[integral transform]]/pull-[[fiber integration|push]] $(p_1)_! \circ (p_1)^\ast$ through this correspondence.
 
-In particular there are higher twistor spaces corresponding to higher dimensional [[Minkowski spacetimes]] which are useful for disucssion higher dimensional [[quantum field theory]], notably there are twistor spaces for 6-dimensional spacetime useful for the study of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]] ([MREIC 11](#MREIC11)) with its [[self-dual higher gauge field]], the [[B-field]] .
+In particular there are higher twistor spaces corresponding to higher dimensional [[Minkowski spacetimes]] which are useful for describing higher dimensional [[quantum field theory]], notably there are twistor spaces for 6-dimensional spacetime useful for the study of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]] ([MREIC 11](#MREIC11)) with its [[self-dual higher gauge field]], the [[B-field]] .
 
 The original _twistor correspondence_ ([Penrose 67](#Penrose67)) is the [[correspondence]]
 
@@ -253,7 +253,7 @@ $$
   \,.
 $$
 
-The image of this under modding out a global complex facto is a Penrose's _twistor_
+The image of this under modding out by a global complex factor is a Penrose _twistor_
 
 $$
   Z \in \mathbb{C}P^3
@@ -263,7 +263,7 @@ $$
 an element of the 3-dimensional [[complex projective space]].
 
 
-Given such a pair, conversely it defines a point in Monkowski spacetime.
+Given such a pair, conversely it defines a point in Minkowski spacetime.
 
 
 ### 4d Klein correspondence
@@ -363,7 +363,7 @@ Surveys of the resulting modern application of twistors in field theory include
 ### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
 
-A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the descriptuion of the [[6d (2,0)-superconformal QFT]]) is in 
+A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the description of the [[6d (2,0)-superconformal QFT]]) is in 
 
 * [[David Chatterjee]], sections 4 and 8 of _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
 
