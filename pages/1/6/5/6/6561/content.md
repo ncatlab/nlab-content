@@ -41,8 +41,11 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 
 The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann surface]] yields as [[worldvolume]] [[theory (physics)|theory]] [[N=2 D=4 super Yang-Mills theory]]. See at _[N=2 D=4 SYM -- Construction by compactification of 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
-
 The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
+
+### Twistor space description
+
+Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can be obtained as images of degree-2 cohomology classes under the [[Penrose-Ward twistor transform]]. Since the 6d QFT on the [[M5-brane]] contains a 2-form [[self-dual higher gauge field]] it seems natural to expect that it can be described by a higher analogy of the twistor transform. For references exploring this idea see at _[twistor space -- References -- Application to the self-dual 2-form field in 6d](twistor+space#ReferencesApplicationToSelfDual2FormField)_.
 
 ## Related entries
 
