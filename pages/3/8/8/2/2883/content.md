@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -49,6 +49,7 @@ the &#233;tale cohomology groups with values in the [[multiplicative group]] $\m
 
 * [[étale (∞,1)-site]]
 
+* [[Weil conjecture]]
 
 ## References
 
