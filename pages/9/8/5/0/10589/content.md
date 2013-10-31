@@ -5,16 +5,17 @@
 
 ## Idea
 
-The _Weil conjectures_ are a sequence of [[conjectures]] about the properties of the number of points of [[algebraic varieties]] $X$ over [[finite fields]] $\mathbb{F}_p$, hence the number of [[homomorphisms]]
+The _Weil conjectures_ are a sequence of [[conjectures]] about counting the number of points of [[algebraic varieties]] $X$ over [[finite fields]]; $\mathbb{F}_p$ and extensions thereof. That is, the number of [[homomorphisms]]
 
 $$
-  Spec \mathbb{F}_p \longrightarrow X
-  \,.
+  Spec \mathbb{F}_{p^n} \longrightarrow X
+  \,
 $$
+for fixed $p$ but all $n \geq 1$.
 
-Effectively the conjecture says that the [[generating function]] for the number of points -- the [[zeta function]] -- for all $p$ is a [[rational function]] with some nice properties.
+Effectively the conjecture says that the [[generating function]] for the number of points as $n$ varies -- the [[zeta function]] -- is a [[rational function]] with some nice properties.
 
-It was realized that the all except one of the conjectures (the [[Riemann hypothesis]]) would follow formally from the existence of a suitable [[cohomology theory]] on [[algebraic varieties]] which behaves in essential aspects like [[ordinary cohomology]] of [[topological spaces]] and which in particular satisfies a [[Lefschetz fixed point theorem]], a [[Weil cohomology theory]].
+It was realized that the all except one of the conjectures (the [[Riemann hypothesis]]) would follow formally from the existence of a suitable [[cohomology theory]] on [[algebraic varieties]] which behaves in essential aspects like [[ordinary cohomology]] of [[topological spaces]] and which in particular satisfies a [[Lefschetz fixed point theorem]] - what is now called a [[Weil cohomology theory]].
 
 Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory is [[étale cohomology]] of [[schemes]].
 
@@ -25,7 +26,7 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 ## References
 
-* [[Sophie Morel]] _The Weil conjectures, from Abel to Deligne_  ([IAS video](http://video.ias.edu/members/2013/1014-SophieMorel))
+* [[Sophie Morel]] _The Weil conjectures, from Abel to Deligne_  ([IAS video](http://video.ias.edu/members/2013/1014-SophieMorel)). Note that the title was chosen as a joke by Morel; she clarifies that there is no known connection between Abel and the Weil conjectures.
 
 * Wikipedia, _[Weil conjectures](http://en.wikipedia.org/wiki/Weil_conjectures)_
 
