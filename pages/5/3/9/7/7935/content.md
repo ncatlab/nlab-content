@@ -13,7 +13,7 @@
   * [[symplectic infinity-groupoid]]
 
 
-## Prequantum field theiry
+## Prequantum field theory
 
 * [[prequantum field theory]]
 
@@ -30,7 +30,6 @@
   * [[Poisson algebra]], [[Hamiltonian vector field]]
 
 ## Geometric quantization
-
 
 * [[polarization]]
 
@@ -50,6 +49,8 @@
 
   * [[geometric quantization of non-integral forms]]
 
+  * [[motivic quantization]]
+
 * [[space of states (in geometric quantization)|space of states]]
 
   * [[coherent state (in geometric quantization)|coherent state]]
@@ -57,10 +58,12 @@
 * [[quantum operator (in geometric quantization)|quantum operator]]
 
 
-## Theorems
-
-* [[orbit method]]
+## Applications
 
 * [[Borel-Weil theorem]], [[Borel-Weil-Bott theorem]]
+
+  * [[orbit method]]
+
+  * [[Schubert calculus]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/geometric+quantization+-+contents)</div>
