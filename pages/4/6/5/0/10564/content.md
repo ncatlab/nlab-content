@@ -22,25 +22,7 @@ The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], t
 
 Let $G$ be a [[compact Lie group]]. Write $T \hookrightarrow G$ for its [[maximal torus]] and $W$ for its [[Weyl group]].
 
-Write $Orb(G)$ for the [[orbit category]] of $G$.
-
-We have a [[full sub-(∞,1)-category]]
-
-$$
-  L Top_G
-  \hookrightarrow
-  PSh_\infty(Orb(G))
-  \,.
-$$
-
-
-Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. Let this elliptic curve be equipped with an _orientation_ in the sense of a non-degenerate [[∞-group]] homomorphism
-
-$$
-  B U(1) \longrightarrow A(Spec E)
-  \,.
-$$
-
+Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. 
 Write 
 
 $$
@@ -50,7 +32,26 @@ $$
 $$
 
 for the [[derived scheme]] formed from the [[character group]] of the [[maximal torus]] mapped into the given [[elliptic curve]].
+This is the [[moduli space|moduli scheme]] of [[stable bundle|semistable]] $G$-[[principal bundles]] over the dual elliptic curve $A^\vee$ ([Ginzburg-Kapranov-Vasserot 95, (1.4.5)](#GinzburgKapranovVasserot95)). 
+Notice that by the [[Narasimhan?Seshadri theorem]] the similar construction over $Spec \mathbb{C}$ gives equivalently a [[moduli space of flat connections]].
 
+
+Write $Orb(G)$ for the [[orbit category]] of $G$.
+We have a [[full sub-(∞,1)-category]]
+
+$$
+  L Top_G
+  \hookrightarrow
+  PSh_\infty(Orb(G))
+$$
+
+of [[topological spaces]] equipped with $G$-[[action]] ($G$-CW complexes).
+
+Let the [[global points]] of the [[elliptic curve]] $A$ over $Spec E$ be equipped with an _orientation_ in the sense of a non-degenerate [[∞-group]] homomorphism of the form
+
+$$
+  B U(1) \longrightarrow A(Spec E)
+$$
 
 
 Then there is an [[essential geometric morphism]]
@@ -101,7 +102,7 @@ takes a space with $G$-[[∞-action]] to its $G$-equivariant elliptic cohomology
 
 ## References
 
-## General
+### General
 
 In
 
