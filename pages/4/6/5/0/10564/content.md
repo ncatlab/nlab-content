@@ -24,12 +24,29 @@ The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], t
 
 ## References
 
+## General
+
+In
+
+* [[Victor Ginzburg]], [[Mikhail Kapranov]], Eric Vasserot, _Elliptic Algebras and Equivariant Elliptic Cohomology_ ([arXiv:q-alg/9505012](http://arxiv.org/abs/q-alg/9505012))
+ {#GinzburgKapranovVasserot95}
+
+a set of axioms was proposed that an equivariant elliptic cohomology theory should satisfy. See also
+
+* Ioanid Rosu, _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](http://arxiv.org/abs/math/9912089))
+
+In 
+
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, PhD thesis, University of Illinois at Urbana-Champaign, 2005.
+ {#Gepner05}
+
+the proposal of [Ginzburg-Kapranov-Vasserot 95](#GinzburgKapranovVasserot95) was formalized in terms of [[geometric morphisms]] of [[(infinity,1)-toposes]].
+
+See also
 
 * [[Jacob Lurie]], section 5.1 of _[[A Survey of Elliptic Cohomology]]_
  {#Lurie}
 
-* Ioanid Rosu, _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](http://arxiv.org/abs/math/9912089))
 
 ### Relation to loop group representations
 
@@ -48,10 +65,8 @@ elliptic cohomology_ . Geom. Topol., 7:91&#8211;153,
 * [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
 Mathematical Society 352, 2000, pp. 5619-5666.
 
-and was then further refined in section 5.2 of ([Lurie](#Lurie)) and in
+and was then further refined in section 5.2 of ([Lurie](#Lurie)) and in ([Gepner 05](#Gepner05)).
 
-* [[David Gepner]], _Homotopy topoi and equivariant elliptic cohomology_
-PhD thesis, University of Illinois at Urbana-Champaign, 2005. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.113.2632) [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.113.2632&rep=rep1&type=pdf))
 
 More is in 
 
