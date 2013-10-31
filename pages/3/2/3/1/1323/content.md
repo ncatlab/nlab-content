@@ -23,7 +23,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[category]] $C$  with finite [[products]] $(-)\times(-)$ and [[coproducts]] $(-)plus(-)$ is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
+A [[category]] $C$  with finite [[products]] $(-)\times(-)$ and [[coproducts]] $(-) + (-)$ is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
 $$ X\times Y + X\times Z \to X\times (Y+Z)$$
 is an isomorphism.  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.
 
