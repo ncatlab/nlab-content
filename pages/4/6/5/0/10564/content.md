@@ -24,6 +24,8 @@ The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], t
 
 ## References
 
+* [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, PhD thesis, University of Illinois at Urbana-Champaign, 2005.
+
 * [[Jacob Lurie]], section 5.1 of _[[A Survey of Elliptic Cohomology]]_
  {#Lurie}
 
