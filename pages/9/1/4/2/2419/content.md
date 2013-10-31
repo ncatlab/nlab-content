@@ -6,7 +6,7 @@
 
 ## Idea
 
-A _modular form_ is a [[holomorphic function]] on the [[upper half plane]] that satisfies certain transformation properties.
+A _modular form_ is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation properties.
 
 Modular forms appear as
 
@@ -14,8 +14,14 @@ Modular forms appear as
  
 * as the [[partition functions]] of certain 2-dimensional [[quantum field theories]].
 
+## Definition
 
-**definition** An **(integral) [[modular form]]** of weight $w$ is a [[holomorphic function]] on the [[upper half plane]]
+### In components
+
++-- {: .num_defn}
+###### Definition
+
+An **(integral) [[modular form]]** of weight $w$ is a [[holomorphic function]] on the [[upper half-plane]]
 
 $$
   f : (\mathbb{R}^2)_+ \hookrightarrow \mathbb{C}
@@ -31,7 +37,7 @@ such that
      f(A(\tau)) = (c \tau + d)^w f(\tau)
    $$
 
-   **note** take $A = \left( \array{1 & 1 \\ 0& 1}\right)$ then we get that $f(\tau + 1) = f(\tau)$
+   (notice that for $A = \left( \array{1 & 1 \\ 0& 1}\right)$ then  $f(\tau + 1) = f(\tau)$)
 
 1. $f$ has at worst a pole at $\{0\}$ (for _weak_ modular forms this condition is relaxed)
 
@@ -40,7 +46,17 @@ such that
 
 1. **integrality** $\tilde f(q) = \sum_{k = -N}^\infty a_k \cdot q^k$ then $a_k \in \mathbb{Z}$
 
-by this definition, modular forms are not really functions on the upper half plane, but function on a [[moduli space]] of [[torus|tori]]. 
+=--
+
+### Abstractly
+
+More abstractly, for $\mathcal{M}_{ell}$ the [[moduli stack of elliptic curves]] and $A \to \mathcal{M}_{ell}$ the corresponding universal bundle, write $\Omega^1_{A/S}$ for the [[line bundle]] of fiberwise [[Kähler differential forms]]. Write $e$ for the 0-[[section]] of this line bundle. Then
+
+$$
+  \omega \coloneqq e^\ast \Omega^1_{A/S}
+$$ 
+
+is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
 
 ## Related concepts
 
@@ -71,6 +87,5 @@ by this definition, modular forms are not really functions on the upper half pla
 [[!redirects modular functions]]
 [[!redirects integral modular functions]]
 [[!redirects weak integral modular forms]]
-
 
 
