@@ -126,6 +126,8 @@ One realization of this kind of idea is the notion of [[combinatorial spectrum]]
 
 * [[K-theory spectrum]]
 
+* [[elliptic spectrum]]
+
 * [[tmf]]
 
 * [[Thom spectrum]], [[complex cobordism spectrum]]
