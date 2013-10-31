@@ -96,7 +96,7 @@ $$
   \,.
 $$
 
-Under this identification a chiral [[spinor]] $\kappa$ is represented just by a pair of [[complex numbers]] $\xi, \eta \in \mathbb{C}$ and one write
+Under this identification a chiral [[spinor]] $\kappa$ is represented just by a pair of [[complex numbers]] $\xi, \eta \in \mathbb{C}$ and one may write the spinor as 
 
 $$
   \left(
@@ -110,6 +110,8 @@ $$
      \eta
     }
   \right)
+  \in
+  \;\; \mathbb{C}^2
   \,.
 $$
 
@@ -143,6 +145,8 @@ $$
          x^1 - i x^2 & x^0 - x^3
       }
     \right)
+  \;\;
+  \in Mat_{2}(\mathbb{C})
   \end{aligned}
   \,,
 $$
@@ -199,7 +203,7 @@ $$
 
 which is the first sign that [[self-dual Yang-Mills theory]] has a simpler expression in terms of such spinorial coordinates.
 
-Now for the description of an [[elementary particle]] one assigns the [[momentum]] 4-vector $(p^i)$ and its [[angular momentum]] [[tensor]] $(M^{i j})$. A **twistor** is effectively a pair of spinorial coordinates expression this data for _massless_ and _chiral_ particles.
+Now characterizing an [[elementary particle]] is (by the discussion at _[[unitary representation of the Poincaré group]]_) the [[momentum]] 4-vector $(p^i)$ and its [[angular momentum]] [[tensor]] $(M^{i j})$. A **twistor** is effectively a pair of spinorial coordinates expression this data for _massless_ and _chiral_ particles.
 
 Here chiral means this: from combining the [[momentum]] and [[angular momentum]] one obtains the  [[Pauli-Lubanski vector]]
 
@@ -243,14 +247,38 @@ $$
   \left(
     (\omega^\alpha), (\pi_\beta)
   \right)
+  \;\;
   \in 
-  \mathbb{C}P^3
+  \mathbb{C}^4
+  \,.
 $$
 
-modulo a global rescaling, hence by quadruples of complex numbers modulo global rescaling, hence by elements in the [[complex projective space]] $\mathbb{C}P^3$.
+The image of this under modding out a global complex facto is a Penrose's _twistor_
 
-These elements are Penrose's _twistors_.
+$$
+  Z \in \mathbb{C}P^3
+  \,,
+$$
 
+an element of the 3-dimensional [[complex projective space]].
+
+
+Given such a pair, conversely it defines a point in Monkowski spacetime.
+
+
+### 4d Klein correspondence
+
+
+A twistor $(\omega^\alpha, \pi_\beta)$ determines a complex [[plane]] in complexified [[Minkowski spacetime]] whose points $(x^i)$ are characterized by the [[equation]]
+
+$$
+  \omega^\alpha = x^{\alpha \beta} \pi_\beta
+  \,.
+$$
+
+These planes are [[lightlike]].
+
+This assignment is called the _Klein correspondence_.
 
 
 
@@ -293,7 +321,7 @@ Introductions and surveys include
 
 * Paul Bair, _Introduction to twistors_ ([pdf](http://www.math.jussieu.fr/~helein/encyclopaedia/baird-twistors.pdf))
 
-* S. A. Huggett, K. P. Tod, _An introduction to twistor theory_, Cambridge University Press (1985)
+* S. A. Huggett, K. P. Todd, _An introduction to twistor theory_, Cambridge University Press (1985)
 
 * Liana David, _The Penrose transform and its applications_, 2001 ([pdf](http://www.maths.ed.ac.uk/pg/thesis/david.pdf))
 
