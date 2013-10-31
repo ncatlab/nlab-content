@@ -36,6 +36,7 @@ This is the [[moduli space|moduli scheme]] of [[stable bundle|semistable]] $G$-[
 Notice that by the [[Narasimhan?Seshadri theorem]] the similar construction over $Spec \mathbb{C}$ gives equivalently a [[moduli space of flat connections]].
 
 
+Wtite $L Top_G$ for the collection of [[G-CW complexes]].
 Write $Orb(G)$ for the [[orbit category]] of $G$.
 We have a [[full sub-(∞,1)-category]]
 
@@ -43,9 +44,8 @@ $$
   L Top_G
   \hookrightarrow
   PSh_\infty(Orb(G))
+  \,.
 $$
-
-of [[topological spaces]] equipped with $G$-[[action]] ($G$-CW complexes).
 
 Let the [[global points]] of the [[elliptic curve]] $A$ over $Spec E$ be equipped with an _orientation_ in the sense of a non-degenerate [[∞-group]] homomorphism of the form
 
