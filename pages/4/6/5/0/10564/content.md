@@ -27,7 +27,7 @@ Write $Orb(G)$ for the [[orbit category]] of $G$.
 We have a [[full sub-(∞,1)-category]]
 
 $$
-  \infty Grpd_G
+  L Top_G
   \hookrightarrow
   PSh_\infty(Orb(G))
   \,.
@@ -61,7 +61,7 @@ $$
   Sh_\infty(Aff_E)_{/A_G}
 $$
 
-from the [[(∞,1)-topos]] of $G$-[[∞-actions]] to the [[slice (∞,1)-topos]] over $A_G$. 
+from the [[(∞,1)-category]] of $G$-[[actions]] to the [[slice (∞,1)-topos]] over $A_G$. 
 
 ([Gepner 05, theorem 3](#Gepner05))
 
