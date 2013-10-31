@@ -13,9 +13,10 @@ An **$n$-Lie algebra** is defined to be an algebraic structure which
 
 * _but_ without necessarily the grading underlying an $L_\infty$-algebra, and in particular without the requirement that $D_n$ be of homogeneous degree $-1$ in any grading.
 
-Therefore, any "$n$-Lie algebras" that appear in the literature are **not** examples of $L_\infty$-algebras.
+Therefore, any "$n$-Lie algebras" that appear in the literature are **not** examples of _[[Lie n-algebras]]_, hence of  _[[L-∞ algebras]]_.
+(So in particular $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoids]] via the usual [[Lie theory]]. )
 
-So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of [[Nambu mechanics|Nambu brackets]]. 
+Instead, at least certain "3-Lie algebras" can be understood as encoding structure in [[Lie 2-algebras]] equipped with a binary [[invariant polynomial]] ([Saemann-Ritter 13, section 2.5](#SaemannRitter13)).
 
 
 ## References
@@ -41,6 +42,7 @@ The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists 
 
 which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.de/~ahoop08/klose.pdf). 
 
+
 See the blog entry
 
 * [Lie 3-Algebras on the Membrane](http://golem.ph.utexas.edu/category/2008/11/linfinity_algebras_on_the_memb.html)
@@ -54,5 +56,16 @@ for discussion about the relation to proper $L_\infty$-algebraic formalism.
 Further re-inventions of the concept of $n$-Lie algebras in this context are appearing. For instance in 
 
 * Tamar Friedman, _Orbifold singularities, the LATKe, and Yang-Mills with Matter_ ([arXiv](http://arxiv.org/abs/0806.0024))
+
+A sensible interpretation of $3$-Lie algebras as expressible in  [[Lie 2-algebras]] equipped with a binary [[invariant polynomial]] is in section 2.5 of
+
+* Patricia Ritter, [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+  {#SaemannRitter13}
+
+based on 
+
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], Elena M&#233;ndez-Escobar, Patricia Ritter, _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+
+
 
 [[!redirects n-Lie algebras]]
