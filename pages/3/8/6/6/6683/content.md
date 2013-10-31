@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _ABJM model_ is 3-dimensional [[Chern-Simons theory]] coupled to matter, which is supposed to describe aspects of [[M2-brane]] dynamics.
+The _ABJM model_ is 3-dimensional [[Chern-Simons theory]] coupled to [[matter fields]], which is supposed to describe aspects of [[M2-brane]] dynamics.
 
 
 
