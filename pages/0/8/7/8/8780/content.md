@@ -145,7 +145,11 @@ for some [[coefficients]] $\{c^w_{u v}\}$, to be determined.
 
 ## Related concepts
 
-* [[Dirac induction]]
+* [[Borel-Weil-Bott theorem]]
+
+  * [[orbit method]]
+
+  * [[Dirac induction]]
 
 * [[twistor space]]
 
@@ -191,5 +195,7 @@ algebraic cobordism_. J. Reine Angew. Math., 656:59&#8211;85, 2011
 
 [[!redirects Schubert class]]
 [[!redirects Schubert classes]]
+
+[[!redirects generalized Schubert calculus]]
 
 category: combinatorics, algebraic geometry
