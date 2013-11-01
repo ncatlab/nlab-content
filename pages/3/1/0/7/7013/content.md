@@ -24,6 +24,7 @@ We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a
 * Every (Grothendieck) [[(∞,1)-topos]] is locally cartesian closed.  This follows from the [[universal colimit|universality of colimits]] and the [[adjoint functor theorem]].
 
 ## Properties
+ {#Properties}
 
 
 ### Presentations
