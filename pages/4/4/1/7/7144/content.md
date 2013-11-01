@@ -158,6 +158,13 @@ $$
 characterizes the [[higher Klein geometry]] induced by $f\colon Y \to X$.
 
 
+## Related concepts
+
+* [[normalizer subgroup]]
+
+* [[centralizer subgroup]]
+
+
 [[!redirects stabilizer group]]
 [[!redirects stabilizer groups]]
 [[!redirects stabiliser group]]
