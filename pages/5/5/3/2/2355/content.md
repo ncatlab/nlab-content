@@ -508,6 +508,10 @@ Section 5.2 in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
  {#Lurie}
 
+A study of adjoint functors between [[quasi-categories]] is given in
+
+* [[Emily Riehl]], [[Dominic Verity]] _The 2-category theory of quasi-categories_ ([arXiv](http://arxiv.org/abs/1306.5144)), _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv](http://arxiv.org/abs/1310.8279))
+
 [[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
 [[!redirects adjoint (∞,1)-functors]]
