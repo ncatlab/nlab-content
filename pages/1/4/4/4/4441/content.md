@@ -23,7 +23,7 @@ $$
   Topos(Sh(X),[\mathbf{B}G, Set]) \simeq G Tors(X)
 $$
 
-between the [[geometric morphism]]s form the [[sheaf topos]] over $X$ to the category of [[permutation representation]]s of $G$ and the category of $G$-[[torsor]]s on $X$.
+between the [[geometric morphism]]s from the [[sheaf topos]] over $X$ to the category of [[permutation representation]]s of $G$ and the category of $G$-[[torsor]]s on $X$.
 
 ## Statement
 
@@ -42,7 +42,7 @@ $$
   FlatFunc(C, \mathcal{E}) \hookrightarrow [C, \mathcal{E}]
 $$
 
-for the [[full subcategory]] of the [[functor category]] on the [[internally flat functor]].
+for the [[full subcategory]] of the [[functor category]] on the [[internally flat functors]].
 
 +-- {: .num_theorem}
 ###### Theorem
