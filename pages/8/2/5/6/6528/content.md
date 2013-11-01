@@ -276,6 +276,17 @@ Monographs with the standard material include
 
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 
+Yang-Mills instantons on spaces other than just spheres are explicitly discussed in 
+
+* [[Gabor Kunstatter]], _Yang-mills theory in a multiply connected three space_, Mathematical Problems in Theoretical Physics: Proceedings of the VIth International Conference on Mathematical Physics Berlin (West), August 11-20,1981. Editor: R. Schrader, R. Seiler, D. A. Uhlenbrock, Lecture Notes in Physics, vol. 153, p.118-122 ([web](http://adsabs.harvard.edu/abs/1982LNP...153..118K))
+
+based on 
+
+* [[Chris Isham]] [[Gabor Kunstatter]], Phys. Letts. v.102B, p.417, 1981.
+
+* [[Chris Isham]] [[Gabor Kunstatter]], J. Math. Phys. v.23, p.1668, 1982.
+
+
 In 
 
 * Henrique N. S&aacute; Earp, _Instantons on $G_2$&#8722;manifolds_ PhD thesis (2009) ([pdf](http://www.ime.unicamp.br/~hqsaearp/index_files/HENRIQUE_SA_EARP_THESIS_UPDATED.PDF))
