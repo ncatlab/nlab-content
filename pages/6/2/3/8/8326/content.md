@@ -49,6 +49,49 @@ from ([EPSBOI](#EPSBOI))*:
 
 Remark: A proposal for a formalization of _[[being]]_ and _[[becoming]]_ is later given by [[Bill Lawvere]] in terms of the notion of _[[cohesive topos]]_, see at _[[Some Thoughts on the Future of Category Theory]]_.
 
+### On cohesion / attraction
+
+* 395 Attraction is in this way the moment of continuity in quantity.
+
+attraction $\simeq$ [[cohesion]]
+
+
+### On discreteness and continuum
+
+* 397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
+
+continuous object $X$ possesses moment 
+of [[discrete object|discreteness]]= [[flat modality]] $\flat X$
+
+* 398 Quantity is the unity of these moments of continuity and discreteness,
+
+the [[flat modality]] [[counit of a comonad|co-unit]]:
+
+$$
+  quantity
+  \;\colon\;
+  \array{ 
+    \flat X &\longrightarrow& X
+    \\
+    discreteness && continuity
+  } 
+$$
+
+Notice that we may regard a [[morphism]] as the collection of its [[homotopy fibers]] and that the homotopy fiber of $\flat X \to X$ is the [de Rham coefficient object](cohesive+(infinity,1)-topos+--+structures#deRhamCohomology) $\flat_{dR} X$.
+
+* 400 Mathematics, on the other hand, rejects a metaphysics which would make time consist of points of time; space in general &#8212; or in the first place the line &#8212; consist of points of space; the plane, of lines; and total space of planes. It allows no validity to such discontinuous ones. Even though, for instance, in determining the magnitude of a plane, it represents it as the sum of infinitely many lines, this discreteness counts only as a momentary representation, and the sublation of the discreteness is already implied in the infinite plurality of the lines, since the space which they are supposed to constitute is after all bounded.
+
+The [[continuum]].
+
+
+> Diese Antinomie besteht allein, darin da&#223; die Diskretion eben so sehr als die Kontinuit&#228;t behauptet werden mu&#223;. Die einseitige Behauptung der Diskretion giebt das unendliche oder absolute Getheiltseyn, somit ein Untheilbares zum Princip; die einseitige Behauptung der Kontinuit&#228;t dagegen die unendliche Theilbarkeit.
+
+
+### On space, time, matter
+
+* 432 Space, time, matter, and so forth are continuous magnitudes 
+
+
 ### On identity
 
 On [[identity]].
@@ -56,6 +99,8 @@ On [[identity]].
 * **903** All things are different; or: there are no two things like each other.
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
+
+
 
 ## Related entries
 
