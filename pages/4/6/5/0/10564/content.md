@@ -23,6 +23,10 @@ The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], t
 Let $G$ be a [[compact Lie group]]. Write $T \hookrightarrow G$ for its [[maximal torus]] and $W$ for its [[Weyl group]].
 
 Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. 
+
++-- {: .num_defn}
+###### Definition
+
 Write 
 
 $$
@@ -32,12 +36,27 @@ $$
 $$
 
 for the [[derived scheme]] formed from the [[character group]] of the [[maximal torus]] mapped into the given [[elliptic curve]].
-This is the [[moduli space|moduli scheme]] of [[stable bundle|semistable]] $G$-[[principal bundles]] over the dual elliptic curve $A^\vee$ ([Ginzburg-Kapranov-Vasserot 95, (1.4.5)](#GinzburgKapranovVasserot95)). 
-Notice that by the [[Narasimhan?Seshadri theorem]] the similar construction over $Spec \mathbb{C}$ gives equivalently a [[moduli space of flat connections]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This $A_G$ is the [[moduli space|moduli scheme]] of [[stable bundle|semistable]] $G$-[[principal bundles]] over the dual elliptic curve $A^\vee$ ([Ginzburg-Kapranov-Vasserot 95, (1.4.5)](#GinzburgKapranovVasserot95)). 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For geometry over the [[complex numbers]] and  $A = \mathbb{C}/\tau$ a 2-[[torus]], the scheme $A_G$ is the [[moduli space of flat connections]] on $A$, by the discussion at _[moduli space of connections -- flat connections over a torus](moduli+space+of+connections#FlatConnectionsOverATorus)_.
+
+=--
 
 
 Wtite $L Top_G$ for the collection of [[G-CW complexes]].
 Write $Orb(G)$ for the [[orbit category]] of $G$.
+
 We have a [[equivalence of (∞,1)-categories]]
 
 $$
@@ -54,7 +73,10 @@ $$
 $$
 
 
-Then there is an [[essential geometric morphism]]
++-- {: .num_prop}
+###### Proposition
+
+Induced form this (...) is an [[essential geometric morphism]]
 
 $$
   PSh_\infty(Orb(G))
@@ -64,7 +86,12 @@ $$
 
 to the [[slice (∞,1)-topos]] over $A_G$. 
 
+=--
+
 ([Gepner 05, theorem 3](#Gepner05))
+
++-- {: .num_defn}
+###### Definition
 
 Let 
 
@@ -80,7 +107,12 @@ $$
 
 be the [[left adjoint]] to the [[(∞,1)-Yoneda embedding]] as discussed at _[[function algebras on ∞-stacks]]_.
 
-Then the composite
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The composite
 
 $$
   L Top_G
@@ -92,7 +124,9 @@ $$
   E Alg^{op}
 $$
 
-takes a space with $G$-[[∞-action]] to its $G$-equivariant elliptic cohomology spectrum.
+takes a space with $G$-[[action]] to its $G$-equivariant elliptic cohomology spectrum.
+
+=--
 
 ([Gepner 05, theorem 4](#Gepner05))
 
