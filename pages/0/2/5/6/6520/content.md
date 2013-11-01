@@ -48,11 +48,22 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 ## References
  {#References}
 
-See also literature at [[Yang-Mills instanton]].
 * [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
 * Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
+
+See also literature at [[Yang-Mills instanton]].
+
+Yang-Mills instantons on spaces other than just spheres are explicitly discussed in 
+
+* [[Gabor Kunstatter]], _Yang-mills theory in a multiply connected three space_, Mathematical Problems in Theoretical Physics: Proceedings of the VIth International Conference on Mathematical Physics Berlin (West), August 11-20,1981. Editor: R. Schrader, R. Seiler, D. A. Uhlenbrock, Lecture Notes in Physics, vol. 153, p.118-122 ([web](http://adsabs.harvard.edu/abs/1982LNP...153..118K))
+
+based on 
+
+* [[Chris Isham]] [[Gabor Kunstatter]], Phys. Letts. v.102B, p.417, 1981.
+
+* [[Chris Isham]] [[Gabor Kunstatter]], J. Math. Phys. v.23, p.1668, 1982.
 
 A generalization is discussed in 
 
