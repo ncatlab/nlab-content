@@ -230,6 +230,8 @@ For more see [[counterexamples in algebra]].
 
     * [[torsion subgroup]]
 
+    * [[stabilizer]],  [[centralizer]], [[normalizer]]
+
   * [[isogeny]]
 
   * [[coset]], [[coset space]]
