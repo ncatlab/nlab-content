@@ -47,3 +47,6 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 [[!redirects automorphisms]]
 [[!redirects automorphism group]]
 [[!redirects automorphism groups]]
+
+[[!redirects group of automorphisms]]
+[[!redirects groups of automorphisms]]
