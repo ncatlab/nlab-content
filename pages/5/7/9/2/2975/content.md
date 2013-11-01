@@ -19,7 +19,7 @@ On the other hand a universal oriented motivic cohomology theory is not the alge
 
 ## References
 
-### Introductions
+### Introductory
 
 The original announcements:
 
@@ -35,13 +35,17 @@ Short surveys:
 
 * [[Marc Levine]], _Algebraic cobordism_, Proceedings of the ICM, Beijing 2002, vol. 2, 57--66, [math.KT/0304206](http://arxiv.org/abs/math/0304206)
 
+Lecture notes:
+
+* [[Marc Levine]], _Three lectures on algebraic cobordism_, University of Western Ontario Mathematics Department, 2005, [Lecture I](http://www.uni-due.de/~bm0032/publ/CobordismLec1LS.pdf), [Lecture II](http://www.uni-due.de/~bm0032/publ/CobordismLec2LS.pdf), [Lecture III](http://www.uni-due.de/~bm0032/publ/CobordismLec4LS.pdf).
+
 An [[Oberwolfach]] workshop:
 
 * M. Levine, F. Morel, Oberwolfach Arbeitsgemeinschaft mit aktuellem Thema, April 2005 [report](http://www.ems-ph.org/journals/show_abstract.php?issn=1660-8933&vol=2&iss=2&rank=2), [notes](http://www.ems-ph.org/journals/show_pdf.php?issn=1660-8933&vol=2&iss=2&rank=2)
 
 ### Further work
 
-An alternative and equivalent definition was given in
+An equivalent and simpler construction was given in
 
 * M. Levine, R. Pandharipande, _Algebraic cobordism revisited_, [math.AG/0605196](http://arxiv.org/abs/math/0605196)
 
