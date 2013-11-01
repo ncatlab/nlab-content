@@ -38,11 +38,11 @@ Notice that by the [[Narasimhan?Seshadri theorem]] the similar construction over
 
 Wtite $L Top_G$ for the collection of [[G-CW complexes]].
 Write $Orb(G)$ for the [[orbit category]] of $G$.
-We have a [[full sub-(∞,1)-category]]
+We have a [[equivalence of (∞,1)-categories]]
 
 $$
   L Top_G
-  \hookrightarrow
+  \stackrel{\simeq}{\longrightarrow}
   PSh_\infty(Orb(G))
   \,.
 $$
@@ -62,7 +62,7 @@ $$
   Sh_\infty(Aff_E)_{/A_G}
 $$
 
-from the [[(∞,1)-category]] of $G$-[[actions]] to the [[slice (∞,1)-topos]] over $A_G$. 
+to the [[slice (∞,1)-topos]] over $A_G$. 
 
 ([Gepner 05, theorem 3](#Gepner05))
 
