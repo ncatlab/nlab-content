@@ -11,19 +11,29 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 ## my position {#myposition}
 
-I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathematical physics for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and have a postdoc position in Prof. [[Ieke Moerdijk]]'s group since 2009, first in Utrecht and then the group moved to Nijmegen in 2012.
+I have my PhD in theoretical [[physics]]. Have been a postdoc in [[mathematics|maths]] and [[mathematical physics]] for four years at Hamburg University. Was based for a bit at <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and have a postdoc position in Prof. [[Ieke Moerdijk]]'s group since 2009, first in Utrecht and then the group moved to Nijmegen in 2012.
 
 ## my research {#myresearch}
 
-My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With [[Hisham Sati]] I am currently producing a book that should give a good sense of modern insights into the general abstract structure of the world:
+My research is about mathematical model building in theoretical physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
-* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
 
-This is the kind of stuff that I am thinking about.
+I have also written a technical book about this question:
 
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, teaching and other activity is
+* _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
 
-* [[schreiber:HomePage|my personal web within the nLab]]
+See the exposition at 
+
+* _[[schreiber:Synthetic Quantum Field Theory|Synthetic quantum field theory]]_.
+
+This is the kind of stuff that I am working on.
+
+## students, teaching and other activity
+
+A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, students, teaching and other activity is here:
+
+* _[[schreiber:HomePage|my personal web within the nLab]]_.
 
 ## copyright statement
  {#CopyrightStatement}
