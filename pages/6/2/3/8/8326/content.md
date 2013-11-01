@@ -49,6 +49,14 @@ from ([EPSBOI](#EPSBOI))*:
 
 Remark: A proposal for a formalization of _[[being]]_ and _[[becoming]]_ is later given by [[Bill Lawvere]] in terms of the notion of _[[cohesive topos]]_, see at _[[Some Thoughts on the Future of Category Theory]]_.
 
+### On identity
+
+On [[identity]].
+
+* **903** All things are different; or: there are no two things like each other.
+
+Reminiscent of [[identity types]] in [[intensional type theory]].
+
 ## Related entries
 
 * [[being]], [[becoming]]
