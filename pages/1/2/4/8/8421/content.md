@@ -196,3 +196,6 @@ The standard rules for type-formation, term introduction/elimination and computa
 [[!redirects computation rules]]
 [[!redirects conversion rule]]
 [[!redirects conversion rules]]
+
+[[!redirects term constructor]]
+[[!redirects term constructors]]
