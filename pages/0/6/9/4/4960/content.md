@@ -1417,18 +1417,18 @@ and
 
 The axioms for a cohesive topos originate in
 
-* [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+* [[William Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 {#LawvereCatsOfSpaces}
 
 where however the term "cohesive topos" was not yet used. 
 
 This appears maybe first in
 
-* [[Bill Lawvere]] _Cohesive toposes and Cantor's "lauter Einsen"_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+* [[William Lawvere]] _Cohesive toposes and Cantor's "lauter Einsen"_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
 
 Under the name _categories of cohesion_ a formal axiomatization is given in
 
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* [[William Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
  {#LawvereAxiomatic}
 
 (This does demand the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".)
@@ -1437,7 +1437,7 @@ This builds on a series of precursors of attempts to identify axiomatics for [[g
 
 In
 
-* [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ [[Como]] (1990)
+* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ [[Como]] (1990)
 
 the term _category of Being_ is used for a notion resembling that of a cohesive topos (with an [[adjoint quadruple]] but not considering _pieces have points_ or _discrete objects are concrete_). Behaviour of objects with respect to the extra left adjoined is interpreted in terms of properties of _Becoming_. The terminology here is probably inspired from
 
@@ -1445,25 +1445,25 @@ the term _category of Being_ is used for a notion resembling that of a cohesive 
 
 In 
 
-* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
+* [[William Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
 
 a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities") as covariant and contravariant functors out of a distributive category are considered.
 
 The left and right adjoint to the global section functor as a means to identify discrete spaces and codiscrete space is mentioned
 
-* [[Bill Lawvere]] _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* [[William Lawvere]] _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
 on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
 The precise term _cohesive topos_ apparently first appeared publically in the lecture 
 
-* [[Bill Lawvere]], _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ Como (2008)
+* [[William Lawvere]], _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ Como (2008)
 
 Notes for these lectures are in [this pdf](http://comocategoryarchive.com/People/Lawvere/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf), made available on [[Bob Walters]]'s _[Como Category Theory Archive](http://comocategoryarchive.com/)_.
 
 The notion of "cohesion" was explored earlier in
 
-* [[Bill Lawvere]] _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
+* [[William Lawvere]] _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
 
 where (on p. 9) it is suggested that "almost any" [[extensive category]]  may be called a "species of cohesion".
 
