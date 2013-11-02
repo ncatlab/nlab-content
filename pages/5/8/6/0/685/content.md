@@ -120,6 +120,11 @@ Note that lax pullbacks are _not_ the same as [[comma objects]].  In general com
 
 A **lax colimit** in $K$ is, of course, a lax limit in $K^{op}$.  Thus, it is a representing object for lax natural transformations $J \to K(F-,L)$.  There is a subtlety here, however, because in the case $J=\Delta 1$, a lax natural transformation $\Delta 1 \to K(F-,L)$ is the same as an *oplax* natural transformation $F \to \Delta L$.  Thus, it is easy to mistakenly say "lax colimit" when one really means "oplax colimit" and vice versa.
 
++-- {: .un_remark}
+###### Remark
+With this in mind, one might be tempted to switch the meanings of "lax colimit" and "oplax colimit", but there is a good reason not to.  Recall that a lax $J$-weighted limit is the same as an ordinary $Q_l(J)$-weighted limit.  Standard terminology in enriched category theory is that a $W$-weighted colimit in an enriched category $K$ is the same as a $W$-weighted limit in $K^{op}$, and indeed in that generality there is no other option.  Thus, a lax $J$-weighted colimit in $K$ should be an ordinary $Q_l(J)$-weighted colimit in $K$, hence a $Q_l(J)$-weighted limit in $K^{op}$, and thus a lax $J$-weighted limit in $K^{op}$.
+=--
+
 Here are some examples of lax and oplax colimits:
 
 * A [[Kleisli object]] is a lax colimit of a [[monad]], regarded as a diagram in a 2-category.
