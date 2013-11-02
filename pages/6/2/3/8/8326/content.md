@@ -18,8 +18,7 @@ This page collects resources related to
 
   _Wissenschaft der Logik_
 
-  ([web version](http://www.marxists.org/reference/archive/hegel/works/hl/), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
-
+  ([English web version](http://www.marxists.org/reference/archive/hegel/works/hl/), [German web version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
 on [[logic]].
 
@@ -39,11 +38,11 @@ The following extracts some paragraphs from the text, with comments. The numeber
 
 ## Book one: The Doctrine of being
 
-### First section: Determinateness
+### First section: Determinateness (Quality)
 
+#### First chapter
 
-
-#### On being and becoming
+##### A. Being
  {#OnBeingAndBecoming}
 
 
@@ -53,18 +52,69 @@ The following extracts some paragraphs from the text, with comments. The numeber
 
 * 88 Conversely, nothing, as this immediate, self-same category, is likewise the same as being. The truth of being as well as of nothing is therefore the unity of both; this unity is [[becoming]].
 
+##### B. Nothing
 
-### Second section. The magnitude
+##### C. Becoming
 
-#### Third chapter. Being-in-itself
+###### 1. Unity of Being and Nothing
 
-##### C Repulsion and attraction
+###### 2. Moments of Becoming
+
+###### 3. Sublating of Becoming
+
+#### Second chapter. Determinate Being (Dasein)
+
+##### A. Dasein as such
+
+###### a. Dasein &#252;berhaupt
+
+###### b. Qualit&#228;t
+
+###### c. Etwas
+
+##### B. Die Endlichkeit
+
+##### C. Die Unendlichkeit
+
+#### Third chapter. Das F&#252;rsichsein
+
+##### A. Das F&#252;rsichsein als solches
+
+##### B. Eins und Vieles.
+
+###### a. Das Eins an ihm selbst
+
+###### b. Das Eins und das Leere
+
+###### c. Viele Eins. Repulsion
+
+See also [Lawvere's Cohesive toposes and Lauter Einsen ](#LawvereLauterEinsen))
+
+##### C. Repulsion und Attraktion
+
+###### a. Ausschli&#223;en des Eins.
+
+###### b. Das Eine Eins der Attraktion
+
+###### c. Die Beziehung der Repulsion und der Attraktion
+
+###### Remark: The Kantian Construction of Matter from the Forces of Attraction and Repulsion
+
 
 * 374 Kant, as we know, constructed matter from the forces of attraction and repulsion, or at least he has, to use his own words, set up the metaphysical elements of this construction.
 
 Not about actual [[forces]] in [[matter]] so much as about what makes the points in the [[continuum]] both stay apart (repulsion) and at the same time hang together (attraction/cohesion).
 
-##### On attraction / cohesion 
+
+
+### Second section. The magnitude
+
+#### First chapter. Die Quantit&#228;t / The quantity
+
+##### A. Die reine Quantit&#228;t
+
+
+###### On attraction / cohesion 
 
 * 395 Attraction is in this way the moment of continuity in quantity.
 
@@ -73,7 +123,7 @@ attraction is what holds stuff together, hence this is the idea of [[cohesion]]
 if $X$ has continuity then the [[shape modality]] $\int X$ is the result of letting things collaps under their cohesion/attraction
 
 
-##### On discreteness and repulsion
+###### On discreteness and repulsion
 
 * 397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
 
@@ -107,7 +157,10 @@ $$
   }
 $$
 
-##### On the continuum
+
+##### B. Kontinuirliche und diskrete
+
+###### On the continuum
 
 * 400 Mathematics, on the other hand, rejects a metaphysics which would make time consist of points of time; space in general &#8212; or in the first place the line &#8212; consist of points of space; the plane, of lines; and total space of planes. It allows no validity to such discontinuous ones. Even though, for instance, in determining the magnitude of a plane, it represents it as the sum of infinitely many lines, this discreteness counts only as a momentary representation, and the sublation of the discreteness is already implied in the infinite plurality of the lines, since the space which they are supposed to constitute is after all bounded.
 
@@ -117,9 +170,20 @@ The [[continuum]].
 > Diese Antinomie besteht allein, darin da&#223; die Diskretion eben so sehr als die Kontinuit&#228;t behauptet werden mu&#223;. Die einseitige Behauptung der Diskretion giebt das unendliche oder absolute Getheiltseyn, somit ein Untheilbares zum Princip; die einseitige Behauptung der Kontinuit&#228;t dagegen die unendliche Theilbarkeit.
 
 
-##### On space, time, matter
+###### On space, time, matter
 
 * 432 Space, time, matter, and so forth are continuous magnitudes 
+
+
+
+
+##### C. Begrenzung der Quantit&#228;t 
+
+#### Second chapter. Quantum
+
+
+
+
 
 ## Book two: The doctrine of essence
 
@@ -148,3 +212,6 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
  {#EPSBOI}
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
+
+* [[william Lawvere]], _[Cohesive toposes and Cantor's 'Lauter Einsen'](http://philmat.oxfordjournals.org/content/2/1/5.abstract)_
+  {#LawvereLauterEinsen}
