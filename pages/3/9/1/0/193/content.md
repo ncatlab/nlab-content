@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -23,7 +23,10 @@ There are two archetypical examples:
 
 *  If $A$ is a [[monoidal category]] and $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of $A$ (the [[delooping]] of $A$), so that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[dualizable object|dual objects]] in a $A$.
 
-*  If $\mathcal{C}$ is the $2$-category [[Cat]], so that the morphisms in $\mathcal{C}$ are [[functors]], then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[adjoint functors]].
+*  If $\mathcal{C}$ is the $2$-category [[Cat]], so that the morphisms in $\mathcal{C}$ are [[functors]], then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of _[[adjoint functors]]_.
+
+
+### General
 
 The notion of adjunction may usefully be thought of as a weakened version of the notion of [[equivalence]] in a [[2-category]]: a morphism in an adjunction need not be invertible, but it has in some sense _a left inverse from below_ and _a right inverse from above_. If the morphism in an adjunction does happen to be a genuine equivalence, then we speak of the adjunction being an [[adjoint equivalence]].
 
@@ -90,6 +93,8 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
 
 
 ## Definition
+
+### Direct definition
 
 An __adjunction__ in a [[2-category]] is a pair of [[objects]] $C,D$ together with [[morphisms]] $L: C \to D$, $R : D \to C$ and [[2-morphisms]] $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
 
@@ -171,10 +176,6 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 
 
-
-## Properties
-
-
 ## Examples
 
 
@@ -184,6 +185,16 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 * For $\mathcal{C}$ a [[2-groupoid]], an adjunction in $\mathcal{C}$ is an
   [[adjoint equivalence]].
+
+## Related concepts
+
+* [[left adjoint]], [[right adjoint]]
+
+* [[adjunct]]
+
+* [[adjoint triple]], [[adjoint quadruple]]
+
+* [[adjoint cylinder]]
 
 
 ## References
