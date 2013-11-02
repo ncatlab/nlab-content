@@ -5,7 +5,7 @@
 
 ## Definitions
 
-A __binary operation__ on a [[set]] $S$ is a [[function]] from $S \times S$ to $S$.  A __magma__ is a set equipped with a binary operation on it. A magma is __unital__ if it has a [[identity element|neutral element]] $1$. Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). The [[Eckmann-Hilton argument]] holds for unital magma structures: two compatible ones on a set must be equal and commutative.
+A __binary operation__ on a [[set]] $S$ is a [[function]] from $S \times S$ to $S$.  A __magma__ (binary algebraic structure) is a set equipped with a binary operation on it. A magma is __unital__ if it has a [[identity element|neutral element]] $1$. Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). The [[Eckmann-Hilton argument]] holds for unital magma structures: two compatible ones on a set must be equal and commutative.
 
 The term 'magma' is from [[Bourbaki]] and intends to suggest the fluidity of the concept; special cases include [[semigroup]]s, [[quasigroup]]s, [[group]]s, and so on.  The term 'groupoid' is also used, but here that word means [[groupoid|something else]] (see also related discussion at [[historical notes on quasigroups]]).
 
@@ -25,7 +25,7 @@ category: algebra
 [[!redirects binary operation]]
 [[!redirects binary operations]]
 
-[[!redirects magma]]
+[[!redirects binary algebraic structure]]
 [[!redirects magmas]]
 
 [[!redirects magma object]]
