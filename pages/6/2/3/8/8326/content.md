@@ -52,7 +52,7 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
 "... there is no proposition of Heraclitus which I have not adopted in my logic."
 
 
-### Opposites and unity
+### Formalization of dialectics
  {#OppositesAndUnity}
 
 Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis.
@@ -77,6 +77,28 @@ $$
 for any [[type]] $X$.
 
 Several examples of this appear below.
+
+Notice that indeed a fair bit of structure follows from maps of this form.
+
+For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotmy $\int \dashv \flat$,
+we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28∞%2C1%29-topos#CohesiveAndDifferentialRefinement)
+
+$$
+  \array{
+    &&  \int_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
+    \\
+    \flat \int_{dR} \Omega A  && && A && && \int \flat_{dR}\Sigma A
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\int \theta_A}}
+    \\
+    && \flat A && \longrightarrow && \int A
+  }
+  \,,
+$$
+
+
 
 
 ## Book one: The Doctrine of being
@@ -296,7 +318,7 @@ $$
 $$
 
 
-##### B. Kontinuirliche und diskrete
+##### B. Kontinuirliche und diskrete Gr&#246;&#223;e.
 
 ###### On the continuum
 
@@ -339,14 +361,58 @@ The [[continuum]].
 
 ##### Chapter 2 The Essentialities or Determination of Reflection
 
+###### $\;\;$ Remark $A = A$
+
+* &#167;863 Thus the essential category of identity is enunciated in the proposition: everything is identical with itself, A = A.
+
+The reflector(!) [[term constructor]] in an [[identity type]]. This is more explicit below at _[Identity](#Identity)_.
+
 ###### A Identity
+ {#Identity}
+
+* &#167;869 Essence is therefore simple identity with self.
+
+* &#167;869 This identity-with-self is the immediacy of reflection.
+
+The reflector(!) [[term constructor]] in an [[identity type]].  Below this is called te _[First original law of thought](#FirstOriginalLawOfThought)_.
+
+###### $\;\;$ Remark 1: Abstract identity
+
+###### $\;\;$ Remark 2: First original law of thought
+ {#FirstOriginalLawOfThought}
+
+* &#167;875 In this remark, I will consider in more detail identity as the law of identity which is usually adduced as the first law of thought.
+
+  This proposition in its positive expression $A = A$ is, in the first instance, nothing more than the expression of an empty tautology. 
+
+The reflector [[term constructor]] in an [[identity type]].
 
 ###### B Difference
+
+###### $\;\;$ (a) Absolute difference
+
+###### $\;\;$ (b) Diversity
+
+###### $\;\;$ Remark: The Law of Diversity
 
 
 * &#167;903 All things are different; or: there are no two things like each other.
 
 Reminiscent of [[identity types]] in [[intensional type theory]].
+
+###### C Contradiction
+
+* &#167;903 When all the conditions of a fact are present, it enters into Existence.
+
+
+* &#167;1035 The fact emerges from the ground. It is not grounded or posited by it in such a manner that ground remains as a substrate; on the contrary, the positing is the movement of the ground outwards to itself and its simple vanishing.
+
+  $[..]$
+
+  This immediacy that is mediated by ground and condition and is self-identical through the sublating of mediation, is Existence.
+
+[[term introduction]] in [[natural deduction]]
+
 
 
 ### Third section. The measure.
