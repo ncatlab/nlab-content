@@ -8,9 +8,14 @@ Abelian groups, given by [[Bruck-Toyoda theorem]].
 Every transpose (conjugate, in the sense of associated ternary relation) conditions to mediality is also the mediality condition.
 An old term for mediality is also entropy condition/property ("entropic quasigroups").
 
+* Maciej Niebrzydowski, J&#243;zef H Przytycki, _Entropic magmas, their homology and related invariants of links and graphs_, Algebraic & Geometric Topology __13__ (2013) 3223&#8211;3243 [doi](http://dx.doi.org/10.2140/agt.2013.13.3223)
+
 category: algebra
 
 [[!redirects medial law]]
 [[!redirects medial quasigroup]]
 [[!redirects medial loop]]
 [[!redirects medial magma]]
+[[!redirects entropic magma]]
+[[!redirects entropic quasigroup]]
+[[!redirects entropic loop]]
