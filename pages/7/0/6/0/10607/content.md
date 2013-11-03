@@ -56,7 +56,7 @@ $$
 
 which is the composite of the [[counit of a comonad|counit of the comodality]] and the [[unit of a monad|unit of the modality]].
 
-One can consider longer sequences of such adjoints of co/modalities, but the longer they get, the less likely they are to be non-trivial. The longest that still has good nontrivial models seems to be [[adjoint triples]] of modalities. Of these there is them similarly either the form
+One can consider longer sequences of such adjoints of co/modalities, but the longer they get, the less likely they are to be non-trivial. The longest that still has good nontrivial models seems to be [[adjoint triples]] of modalities. Of these there is then similarly either the form
 
 $$
   modality \dashv comodality \dashv modality
