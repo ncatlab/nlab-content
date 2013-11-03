@@ -25,6 +25,18 @@ Formalized as an [[idempotent monad]]/[[comonad]]. Also _[[closure operator]]_, 
 
 Gives the name to _[[modal logic]]_, _[[modal type theory]]_.
 
+## Examples
+
+* [[double negation modality]]
+
+* [[n-truncation modality]]
+
+* [[unit type]] modality, [[empty type]] co-modality
+
+* [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
+
+* [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]
+
 ## Related concepts
 
 * [[adjoint modality]]
@@ -33,6 +45,8 @@ Gives the name to _[[modal logic]]_, _[[modal type theory]]_.
 
 * [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
  {#Shulman}
+
+* [[Mike Shulman]], _[All modalities are Higher Inductive Types](http://homotopytypetheory.org/2012/11/19/all-modalities-are-hits/)_
 
 * [[Georg Hegel]], _[[Science of Logic]]_, 1812
  {#Hegel12}
