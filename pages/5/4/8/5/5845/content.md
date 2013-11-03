@@ -132,6 +132,8 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 
 ### Special cases
 
+* If one of the two [[adjoint pairs]] induced form an adjoint triple involves identities, then the other exhibits an _[[adjoint cylinder]]_ / _[[unity of opposites]]_.
+
 * An adjoint triple $F\dashv G\dashv H$ is **Frobenius** if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
 
 * An *[[affine morphism]]* is an adjoint triple of functors in which the middle term is [[conservative functor|conservative]]. For example, any [[affine morphism of schemes]] induce an affine triples of functors among the categories of [[quasicoherent module]]s.
