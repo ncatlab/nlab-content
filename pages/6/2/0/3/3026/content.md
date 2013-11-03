@@ -70,6 +70,47 @@ Via this presentation of the $n$-sphere the canonical [[action]] of the [[orthog
 
 This construction presents the [[J-homomorphism]] in [[stable homotopy theory]] and is encoded for instance in the definition of [[orthogonal spectra]].
 
+Slightly more generally, for $V$ any real [[vector space]] of [[dimension]] $n$ one has $S^n \simeq (V)^\ast$. In this context and in view of the previous case, one usually writes
+
+$$
+  S^V \coloneqq (V)^\ast
+$$
+
+for the $n$-[[sphere]] obtained as the one-point compactification of the vector space $V$.
+
++-- {: .num_prop }
+###### Proposition
+
+For $V,W \in Vect_{\mathbb{R}}$ two real [[vector spaces]], there is a [[natural transformation|natural]] [[homeomorphism]]
+
+$$
+  S^V \wedge S^W \simeq S^{V\oplus W}
+$$
+
+between the [[smash product]] of their one-point compactifications and the one-point compactification of the [[direct sum]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In particular, it follows directly from this that the [[suspension]] $\Sigma(-) \simeq S^1 \wedge (-)$ of the $n$-spehere is the $(n+1)$-sphere, up to [[homeomorphism]]:
+
+$$
+  \begin{aligned}
+    \Sigma S^n 
+    & \simeq S^{\mathbb{R}^1} \wedge S^{\mathbb{R}^n}
+    \\
+    & \simeq S^{\mathbb{R}^1 \oplus \mathbb{R}^n}
+    \\
+    & \simeq S^{\mathbb{R}^{n+1}}
+    \\
+    & \simeq S^{n+1}
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 ## Related concepts
