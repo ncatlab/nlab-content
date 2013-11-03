@@ -25,7 +25,7 @@ YC: An earlier version of this entry said that "the correct" definition of Banac
 
 * A standard associative example is $L^1(\mathbb{R})$ with [[Lebesgue measure]], where the multiplication is taken to be [[convolution]]. (This lacks a unit for the multiplication, since there is no $L^1$ function $e$ that represents the [[Dirac functional]] $f \mapsto f(0)$, via
 $$ f(0) = \int_{-\infty}^{\infty} e(x) f(x) \,\mathrm{d}x ,$$ 
-on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this example in straightforward fashion, replacing $\mathbb{R}$ by any [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] $G$, and $\mu$ by a [[Haar measure]] on $G$; the algebra is unital if and only if $G$ is [[compact space|compact]].
+on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this example in straightforward fashion, replacing $\mathbb{R}$ by any [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] $G$, and $\mu$ by a [[Haar measure]] on $G$; the algebra is unital if and only if $G$ is discrete.
 
 * For *any* [[measure space]] $X$, $L^{\infty}(X)$ is a [[commutative ring|commutative]] unital associative Banach algebra (in fact a unital $C^*$-[[C-star-algebra|algebra]], in fact a [[von Neumann algebra]] if $X$ is [[localizable measure space|localizable]]) with respect to pointwise multiplication.
 
@@ -40,8 +40,14 @@ on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this
 * A $JB$-[[JB-algebra|algebra]] (or more generally a [[Jordan–Banach algebra]]) is a nonassociative (but commutative) kind of Banach algebra.  (The commutative associative Banach algebras also count as Jordan--Banach algebras.)
 
 
-### Arens products
-If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to the left and right [[tensorial strength]]s for the bidual monad on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators).
+### An example of a 'nonunital' Banach algebra that has an identity element
+Let $C_n$ be a cyclic group of order $n\geq 2$ and look at the Banach algebra (in the "strict" sense of a monoid object in $Ban$) that is obtained by equipping the Banach space $\ell^1(C_n)$ with the natural convolution product: $\delta_x * \delta_y = \delta_{x+y}$. There is a "short" homomorphism from $\ell^1(C_n)$ into the ground field which is just the unique linear extension of the group homomorphism $C_n \to \{1\}$ (by the free property of the $\ell^1$-functor) and we let $J$ be the kernel of this homomorphism. ($J$ is the so-called "augmentation ideal".) Now $J$ is a semigroup object in $Ban$ and as an algebra it has an identity element $p$, but a calculation/hindsight shows that $\delta_e-p$ must be the constant function $C_n \to \{1/n\}$, so that $p$ has norm $(1-1/n)+(n-1)/n = 2-2/n$.
+
+## Arens products
+If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to the left and right [[tensorial strength]]s for the bidual monad on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators). They are named for Richard Arens, who has a 1955 paper which studies this construction in a more general setting . One can see Arens's "phyla" -- with hindsight and Whig history -- as a precursor of symmetric closed monoidal categories.
+
+[Link to talk by F. E. J. Linton on Arens products](http://tlvp.net/~fej.math.wes/CMS-June2010/Arens01.htm)
+
 
 #### Arens regularity
 Algebras where the two Arens products coincide are said to be Arens regular: since $B(H)$, the algebra of bounded linear operators on a Hilbert space $H$, has this property, so do all its closed subalgebras, in particular all $C^*$-[[C-star algebra|algebra]]s.
@@ -53,8 +59,6 @@ I suspect that here I mean something like a strict monomorphism in the category 
 =--
 However, this is not a characterization of Arens regularity; Young also observed that for any locally compact group $G$ one may build a reflexive Banach space $E$ and construct an injective homomorphism of topological algebras $L^1(G)\to B(E)$ which has closed range.
 
-### An example of a 'nonunital' Banach algebra that has an identity element
-Let $C_n$ be a cyclic group of order $n\geq 2$ and look at the Banach algebra (in the "strict" sense of a monoid object in $Ban$) that is obtained by equipping the Banach space $\ell^1(C_n)$ with the natural convolution product: $\delta_x * \delta_y = \delta_{x+y}$. There is a "short" homomorphism from $\ell^1(C_n)$ into the ground field which is just the unique linear extension of the group homomorphism $C_n \to \{1\}$ (by the free property of the $\ell^1$-functor) and we let $J$ be the kernel of this homomorphism. ($J$ is the so-called "augmentation ideal".) Now $J$ is a semigroup object in $Ban$ and as an algebra it has an identity element $p$, but a calculation/hindsight shows that $\delta_e-p$ must be the constant function $C_n \to \{1/n\}$, so that $p$ has norm $(1-1/n)+(n-1)/n = 2-2/n$.
 
 ## References
 
@@ -66,6 +70,9 @@ Let $C_n$ be a cyclic group of order $n\geq 2$ and look at the Banach algebra (i
 
 * Richard V. Kadison, John R. Ringrose, _Fundamentals of the theory of operator algebras_
 
+* F. F. Bonsall, J. Duncan, _Complete normed algebras_
+
+* T. W. Palmer, _Banach Algebras and the General Theory of \* -Algebras_
 
 category: analysis
 
