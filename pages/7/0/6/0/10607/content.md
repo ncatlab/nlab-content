@@ -73,7 +73,7 @@ $$
 
 which are constant on the [[initial object]]/[[terminal object]], respectively.
 
-the induced unity transformation is
+The induced unity transformation is
 
 $$
   \array{
@@ -84,11 +84,11 @@ $$
 hence the unique factorization of the unique function $\emptyset \longrightarrow \ast$ through any other [[type]].
 
 
-Looking through [Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812) one might call $\emptyset$ "nothing", call $\ast$ "being" and then call this unity of opposites "becoming". In particular in &#167;174 it says
+Looking through ([Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812)) one might call $\emptyset$ "nothing", call $\ast$ "being" and then call this unity of opposites "becoming". In particular in &#167;174 it says
 
 > there is nothing which is not an intermediate state between being and nothing
 
-which seems to be well-captured by the above formalization.
+which seems to be well-captured by the above unity transformation.
 
 
 ### Continuuum : repulsion $\dashv$ cohesion
@@ -109,7 +109,7 @@ $$
   }
 $$
 
-Looking through [Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812) one might call $\flat$ "repulsion", call $\int$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]".
+Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $\int$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
 
 
 ### Menge : discreteness $\dashv$ codiscreteness
