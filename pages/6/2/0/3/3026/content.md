@@ -54,6 +54,23 @@ $X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note t
 
 $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]].
 
+## Examples
+
+### Spheres
+ {#ExamplesSpheres}
+
+For $n \in \mathbb{N}$ the $n$-[[sphere]] (as a [[topological space]]) is the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$
+
+$$
+  S^n \simeq (\mathbb{R}^n)^\ast
+  \,.
+$$
+
+Via this presentation of the $n$-sphere the canonical [[action]] of the [[orthogonal group]] $O(N)$ on $\mathbb{R}^n$ induces an action of $O(n)$ on $S^n$, which preserves the basepoint (the "point at infinity").
+
+This construction presents the [[J-homomorphism]] in [[stable homotopy theory]] and is encoded for instance in the definition of [[orthogonal spectra]].
+
+
 
 ## Related concepts
 
