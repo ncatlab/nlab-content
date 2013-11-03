@@ -52,7 +52,7 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
 "... there is no proposition of Heraclitus which I have not adopted in my logic."
 
 
-### Formalization of dialectics
+### Formalization of Unity of Opposites
  {#OppositesAndUnity}
 
 Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis.
@@ -99,6 +99,25 @@ $$
   \,,
 $$
 
+### Formalization dictionary
+
+We find the following rough dictionary between Hegel's informal terms and formalization in [[homotopy type theory]]
+
+| Hegel's logic |  type theory |
+|-----|------|
+| moment | [[modality]] |
+| unity of opposites |  [[adjoint modality]] |
+| ground | [[antecedent]] |
+| entering into existence | [[term introduction]] |
+| immediacy of reflection | reflector term in [[identity type]] |
+| all things are different | [[intensional identity]] |
+| being, One  | [[unit type]] |
+| nothing | [[empty type]] |
+| becoming | [[adjoint cylinder]] $\emptyset \dashv \ast$ |
+| moment of repulsion | [[flat modality]] $\flat$ |
+| moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
+| continuum | [[adjoint cylinder]] $\int \dashv \flat$ |
+
 
 
 
@@ -138,7 +157,7 @@ The [[empty type]] $\emptyset$.
 
 * &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
-According to the formalization of such unity of opposites as
+According to the formalization of such [[unity of opposites]] as
 [above](#OppositesAndUnity) we might think of this as the
 universal factorization
 
@@ -162,7 +181,11 @@ Indeed, later it says:
 
 ###### $\;\;$ Remark 1
 
-###### $\;\;$ Remark 2
+###### $\;\;$ Remark 2: Defectiveness of the Expression "Unity, Identity of Being and Nothing"
+
+* &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothng are distinct moments; becoming only is, in so, in so far as they are distinguished.
+
+In view of the above it seems that "moment" is well translated with _[[modality]]_.
 
 ###### $\;\;$ Remark 3
 
@@ -247,7 +270,7 @@ $$
 
 where the [[diagram]] $I$ that the colimit is over is $I = &#643; \ast$ itself.
 
-For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Einsen ](#LawvereLauterEinsen))_. On p. 6 there is suggested that the unity of opposites "all elements of a set are indistinguishable and yet distinct" is captured by the fact that both
+For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Einsen ](#LawvereLauterEinsen))_. On p. 6 there is suggested that the [[unity of opposites]] "all elements of a set are indistinguishable and yet distinct" is captured by the fact that both
 
 $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 
