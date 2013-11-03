@@ -124,6 +124,13 @@ We find the following rough dictionary between Hegel's informal terms and formal
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
 
+Notice that the above involves the first two stages in the tower
+of [[n-truncation modalities]]:
+
+| $n$ | [[n-truncation modality]] |
+|--|--|
+| -2 | [[unit type]] modality |
+| -1 | [[double negation modality]] |
 
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
