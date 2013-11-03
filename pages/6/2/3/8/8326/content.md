@@ -18,7 +18,9 @@ This page collects resources related to
 
   _Wissenschaft der Logik_ ( _Science of Logic_)
 
-  Volume 1, _The objective logic_
+  Volume 1, _The Objective Logic_, Part I: The Doctrine of Being; Part II: The Doctrine of Essence.
+
+  Volume 2, _The Subjective Logic_, The Doctrine of the Notion
 
   1812, 1831
 
@@ -26,6 +28,8 @@ This page collects resources related to
  [German hyperlinked version](http://hegel.logik.2.abcphil.de), [German raw text version](http://www.gutenberg.org/cache/epub/6729/pg6729.html), [Wikipedia entry](http://en.wikipedia.org/wiki/Science_of_Logic))
 
 on, not quite _[[logic]]_ in the usual sense, but more something like _[[logos]]_ in the old sense of [[Heraclitus]] (e.g. ([Heidegger 58](#Heidegger58))).
+
+Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
 
 #Contents#
 * table of contents
@@ -82,7 +86,7 @@ Several examples of this appear below.
 
 Notice that indeed a fair bit of structure follows from maps of this form.
 
-For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotmy $\int \dashv \flat$,
+For instance for the [points-to-pieces transform](cohesive%20topos#CanonicalComparison) induced by the [[shape modality]] $\dashv$ [[flat modality]] dichotomy $\int \dashv \flat$,
 we have, as discussed at [tangent cohesion -- Cohesive and differential refinement](#tangent+cohesive+%28∞%2C1%29-topos#CohesiveAndDifferentialRefinement)
 
 $$
@@ -152,6 +156,7 @@ of [[n-truncation modalities]]:
 
 #### First chapter
 
+From The Shorter Logic:
 * &#167;86 Pure [[being]] constitutes the beginning, because it is pure thought as well as the undetermined, simple immediate, and the first beginning cannot be anything mediated and further determined.
 
 * &#167;87 Now this pure being is a pure abstraction and thus the absolutely negative which, when likewise taken immediately, is nothing.
