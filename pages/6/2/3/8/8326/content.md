@@ -113,13 +113,16 @@ We find the following rough dictionary between Hegel's informal terms and formal
 | entering into existence | [[term introduction]] |
 | immediacy of reflection | reflector term in [[identity type]] |
 | all things are different | [[intensional identity]] |
-| being, One  | [[unit type]] |
+| being, One  | ([[context]] of) [[unit type]] |
+| moment of two negations | [[double negation modality]] |
 | nothing | [[empty type]] |
 | becoming | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
 | moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
 | continuum | [[adjoint modality]] $\int \dashv \flat$ |
-
+| moment of discreteness | [[flat modality]] $\flat$ |
+| moment of continuity | [[sharp modality]] $\sharp$ |
+| quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
 
 
 
@@ -227,7 +230,19 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 ###### b. Qualit&#228;t
 
-###### c. Etwas
+###### c. Etwas / Something
+ {#Etwas}
+
+* &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present [als seiend], belonging to the sphere of determinate being. Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
+
+* &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
+
+* &#167;211 Something is the negation of the negation in the form of being;
+
+* &#167; 212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
+
+[[double negation modality]].
+
 
 ##### B. Die Endlichkeit
 
@@ -236,6 +251,19 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 #### Third chapter. Das F&#252;rsichsein
 
 ##### A. Das F&#252;rsichsein als solches
+
+###### a. Dasein und F&#252;rsichsein
+
+###### b. Sein-f&#252;r-Eines
+
+###### c. Eins
+
+* &#167;329 The moments which constitute the Notion of the one as a being-for-self fall asunder in the development. They are: (1) negation in general, (2) two negations, (3) two that are therefore the same, (4) sheer opposites, (5) self-relation, identity as such, (6) relation which is negative and yet to its own self.
+
+If we translate "moment" as [[modality]] then here the 
+[[double negation modality]] comes to mind.
+
+Notice that the [[empty type]] and the [[unit type]] are the [[modal types]] for the [[double negation modality]].
 
 ##### B. Eins und Vieles.
 
@@ -302,8 +330,24 @@ Not about actual [[forces]] in [[matter]] so much as about what makes the points
 
 #### First chapter. Die Quantit&#228;t / The quantity
 
-##### A. Die reine Quantit&#228;t
+##### A. Die reine Quantit&#228;t / Pure quantity
+ {#PureQuantity}
 
+
+* &#167;398 Quantity is the unity of these moments of continuity and discreteness
+
+By [[unity of opposites]] and since the [[flat modality]] matches the "moment of discreteness" this is the duality with the [[sharp modality]]
+
+$$
+  \array{
+    \flat X &\longrightarrow& X &\longrightarrow& \sharp X
+    \\
+    {moment\;of \atop discreteness}
+    && 
+    &&
+    {moment\;of \atop continuity}
+  }
+$$
 
 ###### On attraction / cohesion 
 
@@ -315,6 +359,7 @@ if $X$ has continuity then the [[shape modality]] $\int X$ is the result of lett
 
 
 ###### On discreteness and repulsion
+ {#OnDiscretenessAndRepulsion}
 
 * &#167;397 In continuity, therefore, magnitude immediately possesses the moment of discreteness &#8212; repulsion, as now a moment in quantity. 
 
@@ -323,28 +368,33 @@ of [[discrete object|discreteness]]= [[flat modality]] $\flat X$
 
 * &#167;398 Quantity is the unity of these moments of continuity and discreteness,
 
-the [[flat modality]] [[counit of a comonad|co-unit]]:
+
+By the formalization of [[unity of opposites]] this must mean that 
+"moment of continuity" is the [[right adjoint]] [[modality]] to the [[flat modality]].  This is the [[sharp modality]] $\sharp$. Therefore their [[unity of opposites]] is
 
 $$
   quantity
-  \;\colon\;
+    \;\colon\;
   \array{ 
-    \flat X &\longrightarrow& X
-    \\
-    {moment\;of \atop discreteness} && continuity
+     \flat X &\longrightarrow& X &\longrightarrow& \sharp X
+      \\
+      \\
+      {moment\;of \atop discreteness}
+      &&
+      &&
+      {moment\;of \atop continuity}  
   } 
 $$
 
-We may regard a [[morphism]] as the collection of its [[homotopy fibers]] and that the homotopy fiber of $\flat X \to X$ is the [de Rham coefficient object](cohesive+(infinity,1)-topos+--+structures#deRhamCohomology) $\flat_{dR} X$.
+Notice that by[[Lawvere]]'s _[Cohesive Toposes and Cantor's "lauter Einsen"](#LawvereLauterEinsen)_ precisely this [[unity of opposites]] is that characteristic of [[cardinality]] (Mengen/Kardinalen).
 
-
-so 
+we also have
 
 $$
   \array{
     \flat X &\longrightarrow& X &\longrightarrow& \int X
     \\
-    repulsion && continuity && attraction
+    repulsion &&  && { attraction/ \atop cohesion } 
   }
 $$
 
@@ -375,8 +425,10 @@ The [[continuum]].
 
 ### Third section. The measure.
 
+* &#167;699 Abstractly expressed, in measure quality and quantity are united
 
 
+* &#167;703 The observation here made extends generally to those systems of pantheism which have been partially developed by thought. The first is being, the one, substance, the infinite, essence; in contrast to this abstraction the second, namely, all determinateness in general, what is only finite, accidental, perishable, non-essential, etc. can equally abstractly be grouped together; and this is what usually happens as the next step in quite formal thinking. But the connection of this second with the first is so evident that one cannot avoid grasping it as also in a unity with the latter;
 
 ## **Book two** Die Lehre vom Wesen / The doctrine of essence 
 
