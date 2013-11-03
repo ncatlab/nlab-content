@@ -33,7 +33,24 @@ $$
   \Sigma X \simeq S^1 \wedge X
 $$
 
+## Properties
+
+### Relation to suspension
+
 For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
+
+## Example
+
+### Spheres
+
+Up to [[homeomorphism]], the reduced suspension of the $n$-[[sphere]] is the $(n+1)$-sphere
+
+$$
+  \Sigma S^n \simeq S^{n+1}
+  \,.
+$$
+
+See at _[one-point compactification -- Examples -- Spheres](one-point+compactification#ExamplesSpheres)_ for details.
 
 
 ## Related concepts
