@@ -26,10 +26,17 @@ The notion was suggested in ([Lawvere 94, p. 11](#Lawvere94)) (and in view of [L
 
 In ([Lawvere 94](#Lawvere94)) an _adjoint cylinder_ is defined to be an [[adjoint triple]] such that the induced [[adjoint pair]] on one of the two sides consists of [[identity]] functors.
 
-This means equivalently that the other [[adjoint pair]] consists of an [[idempotent monad|idempotent]] [[monad]]/[[comonad]]
+This means equivalently that the other [[adjoint pair]] consists of an [[idempotent monad|idempotent]] [[monad]] and [[comonad]], either of the form
 
 $$
-  U \;\colon\; \mathbf{L} \dashv \mathbf{R}
+  U \;\colon\; modality \dashv comodality
+  \,,
+$$
+
+or in the form
+
+$$
+  U \;\colon\; comodality \dashv modality
   \,,
 $$
 
@@ -41,13 +48,27 @@ $$
   U X 
   \;\colon\;
   \array{
-    \mathbf{L} X &\longrightarrow& X &\longrightarrow& \mathbf{R}X
+    comodal X &\longrightarrow& X &\longrightarrow& modal X
     \\
     opposite\;1 && unity && opposite\;2
   }
 $$
 
-which is the composite of the $\mathbf{L}$-[[counit of a comonad|counit]] and the $\mathbf{R}$-[[unit of a monad|unit]] (or the other way around).
+which is the composite of the [[counit of a comonad|counit of the comodality]] and the [[unit of a monad|unit of the modality]].
+
+One can consider longer sequences of such adjoints of co/modalities, but the longer they get, the less likely they are to be non-trivial. The longest that still has good nontrivial models seems to be [[adjoint triples]] of modalities. Of these there is them similarly either the form
+
+$$
+  modality \dashv comodality \dash modality
+$$
+
+(the "Yin triple") as for instance in the definition of _[[cohesion]]_ and
+
+$$
+  comodality \dashv modality \dash comodality
+$$
+
+(the "Yang triple") as for instance in the definition of _[[differential cohesion]]_.
 
 ## Examples
 
@@ -113,7 +134,7 @@ $$
 Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $\int$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
 
 
-### Menge : discreteness $\dashv$ codiscreteness
+### Quantity : discreteness $\dashv$ continuity
  {#Mengen}
 
 The other adjoint cylinder in a [[cohesive topos]] is that given by
@@ -129,14 +150,27 @@ Capturing [[discrete objects]]/[[codiscrete objects]].
 The corresponding unity transformation
 
 $$
-  \flat X \longrightarrow X \longrightarrow \sharp X
+    \flat X \longrightarrow X \longrightarrow \sharp X
 $$
 
-According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality that in a [[set]] all [[elements]] are distinct and yet indistinguishable, an apparent [[paradox]] that may be traced back to [[Georg Cantor]].  (Which is also somewhere in Hegel, need to find the paragraph number...)
+According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality that in a [[set]] all [[elements]] are distinct and yet indistinguishable, an apparent [[paradox]] that may be traced back to [[Georg Cantor]].  
 
-### Continuum sets
+Looking through Hegel's [[Science of Logic]] at _[On discreteness and repulsion](#Science+of+Logic#OnDiscretenessAndRepulsion)_ one can see that matches with what Hegel calls
 
-The combination of the above two examples of [Continuum](#ContinuumRepulsionCohesion) and [Mengen](#Mengen) is an [[adjoint triple]] of [[modalities]]
+> (par 398) Quantity is the unity of these moments of continuity and discreteness
+
+$$
+  \array{
+    \flat X &\longrightarrow& X &\longrightarrow& \sharp X
+    \\
+    {moment\;of \atop discreteness} && && {moment\;of \atop continuity}
+  }
+$$
+
+
+### Cohesive sets
+
+The combination of the above two examples of [Continuum](#ContinuumRepulsionCohesion) and [Quantity](#Mengen) is an [[adjoint triple]] of [[modalities]]
 
 $$
   \int \;\dashv\; \flat \;\dashv\; \sharp
