@@ -20,7 +20,7 @@ The notion of [[adjunction]] as such expresses a [[duality]]. The stronger notio
 
 The notion was suggested in ([Lawvere 94, p. 11](#Lawvere94)) (and in view of [Lawvere 91](#Lawvere91)) to capture the phenomena of "Unity and Identity of Opposites" as they appear informally in [[Georg Hegel]]'s _[[Science of Logic]]_. 
 
-(One might therefore say the notion was suggested to capture the idea of "dialectic", though there is some debate as to wether Hegel's  somewhat mythical "creation out of [[paradox]]" should really go by this term, see [this Wikipeda entry](#Wikipedia) ).
+(One might therefore say the notion is meant to capture the idea of "dialectic", though there is some debate as to wether Hegel's  somewhat mythical "creation out of [[paradox]]" should really go by this term, see [this Wikipeda entry](#Wikipedia) ).
 
 ## Definition
 
@@ -35,7 +35,7 @@ $$
 
 hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_).
 
-Given any such, we may say that that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
+Given any such, we may say that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
 
 $$
   U X 
@@ -47,7 +47,7 @@ $$
   }
 $$
 
-which is the composite of the $\mathbf{L}$-[[counit of a comonad|counit]] and the $\mathbf{R}$-[[unit of a monad|monad]] (or the other way around).
+which is the composite of the $\mathbf{L}$-[[counit of a comonad|counit]] and the $\mathbf{R}$-[[unit of a monad|unit]] (or the other way around).
 
 ## Examples
 
@@ -84,7 +84,7 @@ $$
 hence the unique factorization of the unique function $\emptyset \longrightarrow \ast$ through any other [[type]].
 
 
-Looking through ([Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812)) one might call $\emptyset$ "nothing", call $\ast$ "being" and then call this unity of opposites "becoming". In particular in &#167;174 it says
+Looking through ([Hegel 1812, vol 1, book 1, section 1, chapter 1](#Hegel1812)) one might call $\emptyset$ "nothing", call $\ast$ "being" and then call this unity of opposites "becoming". In particular in &#167;174 of _[[Science of Logic]]_ it says
 
 > there is nothing which is not an intermediate state between being and nothing
 
@@ -92,6 +92,7 @@ which seems to be well-captured by the above unity transformation.
 
 
 ### Continuuum : repulsion $\dashv$ cohesion
+ {#ContinuumRepulsionCohesion}
 
 For $\mathbf{H}$ a [[cohesive topos]]/[[cohesive (∞,1)-topos]]
 the [[shape modality]] $\dashv$ [[flat modality]] constitute an adjoint cylinder
@@ -113,6 +114,7 @@ Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) 
 
 
 ### Menge : discreteness $\dashv$ codiscreteness
+ {#Mengen}
 
 The other adjoint cylinder in a [[cohesive topos]] is that given by
 [[flat modality]] $\dashv$ [[sharp modality]]
@@ -132,6 +134,17 @@ $$
 
 According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality that in a [[set]] all [[elements]] are distinct and yet indistinguishable, an apparent [[paradox]] that may be traced back to [[Georg Cantor]].  (Which is also somewhere in Hegel, need to find the paragraph number...)
 
+### Continuum sets
+
+The combination of the above two examples of [Continuum](#ContinuumRepulsionCohesion) and [Mengen](#Mengen) is an [[adjoint triple]] of [[modalities]]
+
+$$
+  \int \;\dashv\; \flat \;\dashv\; \shape
+$$
+
+[[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
+
+characteristic of a [[cohesive topos]].
 
 ## References
 
@@ -159,3 +172,7 @@ According to ([Lawvere 94, p. 6](#Lawvere94)) this unity captures the duality th
 [[!redirects opposites]]
 
 [[!redirects unity of opposites]]
+[[!redirects unity and identity of opposites]]
+
+[[!redirects dialectic]]
+[[!redirects dialectics]]
