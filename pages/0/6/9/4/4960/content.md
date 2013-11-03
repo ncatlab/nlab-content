@@ -1424,7 +1424,7 @@ where however the term "cohesive topos" was not yet used.
 
 This appears maybe first in
 
-* [[William Lawvere]] _Cohesive toposes and Cantor's "lauter Einsen"_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+* [[William Lawvere]] _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
 
 Under the name _categories of cohesion_ a formal axiomatization is given in
 
