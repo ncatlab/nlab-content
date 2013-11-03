@@ -102,11 +102,12 @@ $$
 
 ### Formalization dictionary
 
-We find the following rough dictionary between Hegel's informal terms and formalization in [[homotopy type theory]]
+We may suggest the following rough dictionary between Hegel's informal terms and formalization in [[homotopy type theory]]
 
-| Hegel's logic |  type theory |
+| Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
 |-----|------|
 | quality | $\sim$ [[type]] |
+| determinate being of quality $X$ | $\vdash X \colon Type$ |
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
 | ground | [[antecedent]] |
@@ -114,7 +115,6 @@ We find the following rough dictionary between Hegel's informal terms and formal
 | immediacy of reflection | reflector term in [[identity type]] |
 | all things are different | [[intensional identity]] |
 | being, One  | ([[context]] of) [[unit type]] |
-| moment of two negations | [[double negation modality]] |
 | nothing | [[empty type]] |
 | becoming | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
@@ -123,6 +123,9 @@ We find the following rough dictionary between Hegel's informal terms and formal
 | moment of discreteness | [[flat modality]] $\flat$ |
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
+| vanishing of infinitesimals | [[reduction modality]] |
+| moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
+| something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
 
 Notice that the above involves the first two stages in the tower
 of [[n-truncation modalities]]:
@@ -130,7 +133,7 @@ of [[n-truncation modalities]]:
 | $n$ | [[n-truncation modality]] |
 |--|--|
 | -2 | [[unit type]] modality |
-| -1 | [[double negation modality]] |
+| -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
 
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
@@ -171,6 +174,7 @@ The [[empty type]] $\emptyset$.
 
 
 ##### C. Becoming
+ {#Becoming}
 
 * &#167;134 Pure Being and pure nothing are, therefore, the same. What is the truth is neither being nor nothing, but that being &#8212; does not pass over but has passed over &#8212; into nothing, and nothing into being. But it is equally true that they are not undistinguished from each other, that, on the contrary, they are not the same, that they are absolutely distinct, and yet that they are unseparated and inseparable and that each immediately vanishes in its opposite. Their truth is therefore, this movement of the immediate vanishing of the one into the other: becoming, a movement in which both are distinguished, but by a difference which has equally immediately resolved itself.
 
@@ -194,6 +198,18 @@ Indeed, later it says:
 
 * &#167;174 there is nothing which is not an intermediate state between being and nothing.
 
+Also, [below](#SomethingAndAnOther) it says
+
+* &#167;222 Being and nothing in their unity, which is determinate being
+
+and "determinate being" / Dasein seems to be well interpreted with types expressed as
+
+$$
+  \vdash X \colon Type
+  \,.
+$$
+
+
 ###### 1. Unity of Being and Nothing
 
 ###### $\;\;$ Remark 1
@@ -208,9 +224,15 @@ In view of the above it seems that "moment" is well translated with _[[modality]
 
 ###### $\;\;$ Remark 4
 
+* &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
+
+* &#167;174 The foregoing dialectic is the same, too, as that which understanding employs the notion of infinitesimal magnitudes, given by higher analysis. A more detailed treatment of this notion will be given later. These magnitudes have been defined as such that they are in their vanishing, not before their vanishing, for then they are finite magnitudes, or after their vanishing, for then they are nothing. 
+
+Vanishing of [[infinitesimal objects]] is expressed by the [[reduction modality]] $Red$.
+
 * &#167;174 there is nothing which is not an intermediate state between being and nothing.
 
-The universal factorization
+The universal factorization for [[unity of opposites]] of the [[empty type]] $\dashv$ [[unit type]] [[adjoint modality]]
 
 $$
   \array{
@@ -231,11 +253,28 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 #### Second chapter. Determinate Being (Dasein)
 
-##### A. Dasein as such
+* &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality.
 
-###### a. Dasein &#252;berhaupt
+##### A. Dasein as such / Determinate being as such
 
-###### b. Qualit&#228;t
+###### a. Dasein &#252;berhaupt / Determinant being in general
+
+* &#167;191 From becoming there issues determinate being, which is the simple oneness of being and nothing.
+
+Above we saw that _becoming_ is formalized by the universal [[unity of opposites]] of $\emptyset \dashv \ast$, exhibiting any [[type]] $X$
+
+$$
+  \emptyset \longrightarrow X \longrightarrow \ast
+  \,.
+$$
+
+So determinate being/Dasein is that of [[types]].
+
+
+
+###### b. Qualit&#228;t / Quality
+
+* &#167;196 Determinateness thus isolated by itself in the form of being is quality 
 
 ###### c. Etwas / Something
  {#Etwas}
@@ -248,10 +287,20 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 * &#167; 212 This mediation with itself which something is in itself, taken only as negation of the negation, has no concrete determinations for its sides; it thus collapses into the simple oneness which is being.
 
-[[double negation modality]].
+
+Here "double negation" is plausibly matched with the [[double negation modality]].
+
+Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] there is _something_ of this type if the type is [[inhabited]]. But [[classical logic|classically]] this is expressed by by its [[double negation modality]]. Hence: there is something of some quality/type if that is a double-negation [[modal type]].
 
 
-##### B. Die Endlichkeit
+##### B. Die Endlichkeit / Finitude.
+
+###### a. Etwas und ein Anderes. / Something and an Other
+ {#SomethingAndAnOther}
+
+* &#167;222 Being and nothing in their unity, which is determinate being
+
+Notice that [above](#Becoming) this unity is called _becoming_.
 
 ##### C. Die Unendlichkeit
 
@@ -330,6 +379,7 @@ $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 * &#167;374 Kant, as we know, constructed matter from the forces of attraction and repulsion, or at least he has, to use his own words, set up the metaphysical elements of this construction.
 
 Not about actual [[forces]] in [[matter]] so much as about what makes the points in the [[continuum]] both stay apart (repulsion) and at the same time hang together (attraction/cohesion).
+
 
 
 
