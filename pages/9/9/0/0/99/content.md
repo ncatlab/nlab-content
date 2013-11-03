@@ -1,6 +1,6 @@
 
 
-> There are two different concepts called _Weil algebra_. This entry is about the notion of Weil algebra in [[Lie theory]]. For the other notion see [[infinitesimally thickened point]].
+> There are two different concepts called _Weil algebra_. This entry is about the notion of Weil algebra in [[Lie theory]]. For the notion in [[infinitesimal object|infinitesimal]] geometry see [[infinitesimally thickened point]]/[[Artin algebra]].
 
 ***
 
@@ -816,3 +816,5 @@ Weil algebra for [[L-infinity algebra]]s and their role in defining [[invariant 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
 {#SSSI}
 
+
+[[!redirects Weil algebras]]
