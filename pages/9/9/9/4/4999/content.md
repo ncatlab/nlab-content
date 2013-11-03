@@ -228,6 +228,10 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 * [[modal hyperdoctrine]]
 
+* [[modal operator]]
+
+* [[adjoint modality]]
+
 * [[modal type theory]]
 
 * [[algebraic model for modal logic]]
@@ -284,7 +288,3 @@ Formalization of modalities ([[higher modalities]]) in [[homotopy type theory]] 
 
 [[!redirects modal logic]]
 [[!redirects modal logics]]
-[[!redirects modality]]
-[[!redirects modalities]]
-[[!redirects modal operator]]
-[[!redirects modal operators]]
