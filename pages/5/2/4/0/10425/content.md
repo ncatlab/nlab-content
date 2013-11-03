@@ -34,6 +34,8 @@ The [[types]] in geometric type theory are hence _geometric types_, with [[seman
 
 * [[geometric homotopy type theory]]
 
+* [[synthetic geometry]]
+
 ## References
 
 The term appears as such in 
