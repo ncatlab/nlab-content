@@ -8,4 +8,8 @@ the stable [[orthogonal group]]
 
 * [[stable unitary group]]
 
+* [[J-homomorphism]]
+
 * [[topological K-theory]]
+
+[[!redirects stable orthogonal groups]]
