@@ -113,10 +113,10 @@ We find the following rough dictionary between Hegel's informal terms and formal
 | all things are different | [[intensional identity]] |
 | being, One  | [[unit type]] |
 | nothing | [[empty type]] |
-| becoming | [[adjoint cylinder]] $\emptyset \dashv \ast$ |
+| becoming | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
 | moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
-| continuum | [[adjoint cylinder]] $\int \dashv \flat$ |
+| continuum | [[adjoint modality]] $\int \dashv \flat$ |
 
 
 
