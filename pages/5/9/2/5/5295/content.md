@@ -57,5 +57,9 @@ In intuitionistic mathematics, already [[set theory]] behaves a lot like [[topol
 Although intuitionstic mathematics does not accept all [[function sets]] (much less [[power sets]]), it seems to allow for both [[induction|inductive]] and [[coinduction|coinductive]] structures; see [a Caf&#233; comment](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020731).
 
 
+## Related concepts
+
+* [[intuitionistic type theory]]
+
 [[!redirects intuitionistic mathematics]]
 [[!redirects intuitionism]]
