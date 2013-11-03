@@ -155,9 +155,15 @@ This is discussed at
 
 * [[differential geometry]]
 
+* [[synthetic geometry]]
+
 * [[derived differential geometry]]
 
 * [[D-geometry]]
+
+* [[differential cohesion]]
+
+  * [[synthetic differential infinity-groupoid]]
 
 ## References
 {#References}
