@@ -159,6 +159,8 @@ For example the [[natural numbers object]] $\mathbf{N} \simeq \Delta \mathbb{N}$
 
 * [[codiscrete space]], [[Freyd cover]]
 
+* [[adjoint cylinder]]
+
 [[!include cohesion - table]]
 
 ## References
