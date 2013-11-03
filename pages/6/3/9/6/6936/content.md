@@ -80,6 +80,7 @@ Using this construction, one can define a (cofibration, trivial fibration) [[wea
 
 ### Truncation
 
+
     Inductive is_inhab (A : Type) : Type :=
     | inhab : A -> is_inhab A
     | inhab_path : forall (x y: is_inhab A), x == y.
@@ -93,6 +94,8 @@ Similarly, we have the [[0-truncated|0-truncation]] into [[h-sets]]:
     | pi0_axiomK : forall (l : Circle -> pi0 X), refl (l base) == map l loop.
 
 We can similarly define $n$-truncation for any $n$, and we should be able to define it inductively for all $n$ at once as well.
+
+See at _[[n-truncation modality]]_.
 
 ### Pushouts
 
