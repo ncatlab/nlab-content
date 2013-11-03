@@ -13,14 +13,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,1)-category|n-truncation]] is a [[modality]] (in [[homotopy type theory]]).
+
 
 ## Properties
 
@@ -28,11 +28,13 @@ For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,
 
 $(-2)$-truncation is the [[unit type]] modality (constant on the unit type).
 
-(-1)-truncation is given by _[[bracket types]]_. [[classical logic|Classically]] by the [[double negation modality]].
+$(-1)$-truncation is given by _[[bracket types]]_. [[classical logic|Classically]], this is the same as the [[double negation modality]]; in general, the bracket type ${\|A\|_{-1}}$ only entails the double negation $\neg(\neg{A})$.
 
-### Relation to higher inductive type
+
+### Relation to higher inductive types
 
 $n$-truncation is given by a [[higher inductive type]].
+
 
 ## Related concepts
 
@@ -48,6 +50,8 @@ $n$-truncation is given by a [[higher inductive type]].
 
 * [[Guillaume Brunerie]], _[Truncations and higher inductive types](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/)_.
 
+
+[[!redirects n-truncation modality]]
 [[!redirects n-truncation modalities]]
 
 [[!redirects truncation modality]]
