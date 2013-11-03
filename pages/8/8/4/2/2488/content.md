@@ -688,11 +688,15 @@ hence (-1)-truncated, precisely if $X$ is $0$-truncated (an [[h-set]]).
 
 ## Related concepts
 
+* [[n-truncation modality]]
+
 * **$n$-truncated morphism** / [[n-connected]] morphism
 
 * [[n-groupoid]], [[homotopy n-type]]
 
 * [[model structure for homotopy n-types]]
+
+
 
 [[!include homotopy n-types - table]]
 
