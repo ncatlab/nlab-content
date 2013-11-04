@@ -54,7 +54,7 @@ Let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched categor
 
 Write $[\mathcal{C}^{op}, \mathcal{V}]$ and $[\mathcal{C}, \mathcal{V}]$ for the [[enriched functor categories]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a $V$-[[adjunction]]
@@ -83,7 +83,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called **Isbell self-dual** .
@@ -127,7 +127,12 @@ $$
 
 =--
 
-Notice that apart from writing out or hiding the ends, the only step that is not a definition is precisely the middle one, where we used that $\mathcal{V}$ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]].
++-- {: .num_remark}
+###### Remark
+
+Here apart from writing out or hiding the ends, the only step that is not a definition is precisely the middle one, where we used that $\mathcal{V}$ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]].
+
+=--
 
 The following proof does not use ends and needs instead slightly more preparation, but has then the advantage that its structure goes through also in great generality in [[higher category theory]].
 {#ProofB}
@@ -249,7 +254,7 @@ The pattern of this proof has the advantage that it goes through in great genera
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 An object $X$ or $A$ is **Isbell-self-dual** if 
@@ -261,7 +266,7 @@ An object $X$ or $A$ is **Isbell-self-dual** if
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Under certain circumstances, Isbell duality can be extended to large $\mathcal{V}$-enriched categories $C$. For example, if $C$ has a small generating ssubcategory $S$ and a small cogenerating subcategory $T$, then for each $F: C^{op} \to \mathcal{V}$ and $G: C \to \mathcal{V}$, one may construct $\mathcal{O}(F)$ and $Spec(G)$ objectwise as appropriate subobjects in $\mathcal{V}$: 
@@ -280,7 +285,7 @@ $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal
 
 Choose any [[class]] $L$ of [[limit]]s in $C$ and write $[C,\mathcal{V}]_\times \subset [C,\mathcal{V}]$ for the [[full subcategory]] consisting of those functors preserving these limits. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $(\mathcal{O} \dashv Spec)$-adjunction does descend to this inclusion, in that we have an adjunction
@@ -320,7 +325,7 @@ $$
 
 ### Isbell self-dual objects
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 All [[representable functor|representables]] are Isbell self-dual.
@@ -396,7 +401,7 @@ $$
 
 for the [[Yoneda embedding]]. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Call 
@@ -409,7 +414,7 @@ the **$T$-line object**.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 For all $X \in [C^{op}, \mathcal{V}]$ we have
@@ -463,7 +468,7 @@ be a [[small category|small]] [[full subcategory]] of $T$-algebras, containing a
 
 Then the original construction of $\mathcal{O} \dashv Spec$ no longer makes sense, but that in terms of the line object still does
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Set
@@ -540,13 +545,17 @@ Formulated in terms of [[derived stack]]s over the [[(∞,1)-category]] of [[dg-
 
 ### Function $T$-algebras on $\infty$-stacks
 
-for the moment see [[function algebras on ∞-stacks]]
+for the moment see at _[[function algebras on ∞-stacks]]_.
 
 ### Function 2-algebras on algebraic stacks
 
 see [[Tannaka duality for geometric stacks]]
 
 ## Related concepts
+
+* [[function algebra]]
+
+* [[function algebras on ∞-stacks]]
 
 [[!include Isbell duality - table]]
 
