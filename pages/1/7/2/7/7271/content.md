@@ -8,6 +8,12 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 * [Mathematics Genealogy Project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=24507)
 
+## Related entries
+
+* [[Adams spectral sequence]]
+
+* [[Adams-Novikov spectral sequence]]
+
 category: people
 
 [[!redirects John Adams]]
