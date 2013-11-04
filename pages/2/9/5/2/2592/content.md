@@ -96,6 +96,8 @@ on $X$.
 
 ## Related concepts
 
+* [[stable orthogonal group]]
+
  $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
 
 [[!include table of orthogonal groups and related]]
