@@ -222,17 +222,17 @@ $$
 
 ###### 1. Unity of Being and Nothing
 
-###### $\;\;$ Remark 1
+###### $\;\;$ Remark 1 The opposition  of being and nothing in ordinary thinking
 
 ###### $\;\;$ Remark 2: Defectiveness of the Expression "Unity, Identity of Being and Nothing"
 
-* &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothng are distinct moments; becoming only is, in so, in so far as they are distinguished.
+* &#167;152  But the third in which being and nothing subsist must also present itself here, and it has done so; it is becoming. In this being and nothing are distinct moments; becoming only is, in so far as they are distinguished.
 
 In view of the above it seems that "moment" is well translated with _[[modality]]_.
 
-###### $\;\;$ Remark 3
+###### $\;\;$ Remark 3 The isolating of these abstractions
 
-###### $\;\;$ Remark 4
+###### $\;\;$ Remark 4 Incomprehensibility of the beginning
 
 * &#167;171 It is impossible for anything to begin, either in so far as it is, or in so far as it is not; for in so far as it is, it is not just beginning, and in so far as it is not, then also it does not begin. If the world, or anything, is supposed to have begun, then it must have begun in nothing, but in nothing &#8212; or nothing &#8212; is no beginning; for a beginning includes within itself a being, but nothing does not contain any being. Nothing is only nothing. In a ground, a cause, and so on, if nothing is so determined, there is contained an affirmation, a being. For the same reason, too, something cannot cease to be; for then being would have to contain nothing, but being is only being, not the contrary of itself.
 
@@ -582,7 +582,7 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
   [Encyclopedia of the Philosophical Sciences in Basic Outline, Part I: Science of Logic](http://ndpr.nd.edu/news/24778-encyclopedia-of-the-philosophical-sciences-in-basic-outline-part-i-science-of-logic/)
  {#EPSBOI}
 
-* [[Martin Heidegger]], _Hegel and the Greeks_, From Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
+* [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
   {#Heidegger58}
 
 
