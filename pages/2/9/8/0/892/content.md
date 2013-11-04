@@ -22,6 +22,7 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 * the collection of [[subobjects]] of $X$ in the [[topos]] [[Set]].
 
+* the [[slice category]] $Inj/S$, where [[Inj]] is the [[wide subcategory]] of [[Set]] with morphisms restricted to [[injection|injections]]. This is similar to the subobject definition but is more unpacked. $Inj/S$ has objects that are injections to $S$ and morphisms that are commuting triangles of injections.
 
 ## Foundational status
 
