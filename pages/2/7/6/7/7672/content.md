@@ -26,7 +26,6 @@ $$
 $$
 
 from the [[homotopy groups]] of (the [[topological space]] underlying) the [[orthogonal group]] to the [[homotopy groups of spheres]].
-
 This refines to a morphism of [[∞-groups]]
 
 $$
@@ -36,7 +35,13 @@ $$
 from the [[stable orthogonal group]] (regarded as a [[group object in an (∞,1)-category|group object]] in $L_{whe} Top \simeq$ [[∞Grpd]])
 to the [[∞-group of units]] of the [[sphere spectrum]], regarded as an [[E-∞ ring spectrum]].
 
-By postcomposition with the [[delooping]] of the J-homomorphism  $B J \;\colon\; B O \to B GL_1(\mathbb{S}) $, the $J$-homomorphism sends real [[vector bundles]] to [[sphere spectrum]]-bundles, namely [[(∞,1)-line bundles]] with typical [[fiber]] $\mathbb{S}$. See at _[[Thom space]]_ for more on this.
+By postcomposition with the [[delooping]] of the J-homomorphism  
+
+$$
+  B J \;\colon\; B O \to B GL_1(\mathbb{S}) 
+$$ 
+
+it sends real [[vector bundles]] to [[sphere spectrum]]-bundles, namely [[(∞,1)-line bundles]] with typical [[fiber]] $\mathbb{S}$. See also at _[[Thom space]]_ for more on this.
 
 ## Definition
 
@@ -143,7 +148,7 @@ Because all groups appearing here and in the following are [[cyclic groups]], we
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #AdamsQuillenTheorem}
 ###### Theorem
 
 The [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ are the [[direct sum]] of the ([[cyclic group|cyclic]]) [[image]] of the J-homomorphism, def. \ref{JHom}, and the [[kernel]] of the [[Adams e-invariant]].
@@ -158,6 +163,21 @@ Moreover,
 
 =--
 
+The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71)). That it is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). The theorem is recalled for instance as ([Ravenel, theorem 1.1.13](#Ravenel)).
+
++-- {: .num_remark}
+###### Remark
+
+The order of $J(\pi_{4k-1} O)$ in theorem \ref{AdamsQuillenTheorem} 
+is for low $k$ given by the following table
+
+| k | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| $\vert J(\pi_{4k-1}(O))\vert$ | 24 | 240 | 504 | 480 | 264 | 65,520 | 24 | 16,320 | 28,728 | 13,200 |
+
+=--
+
+See for instance ([Ravenel, p. 5](#Ravenel)).
 
 ## Related concepts
 
@@ -176,6 +196,14 @@ The analysis of its image is due to
 
 * [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971)
  {#Quillen71}
+
+* [[Robert Switzer]], _Algebraic topology&#8211;homotopy and homology_, Springer-Verlag, New York, 1975.
+ {#Switzer75}
+
+This is reviewed for instance in 
+
+* [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+ {#Ravenel}
 
 Lecture notes include
 
