@@ -49,7 +49,7 @@ is an [[adjoint modality]].
 
 ## Examples
 
-* If $C$ is small, then the presheaf category $[C^{op},Set]$ is totally distributive.
+* If $C$ is a [[small category]], then its [[presheaf category]] $[C^{op},Set]$ is totally distributive.
 
 * If $\mathcal{K}$ is totally distributive and $\mathcal{L}\subseteq \mathcal{K}$ is a full [[subcategory]] that is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]], then $\mathcal{L}$ is totally distributive.
 
