@@ -143,14 +143,14 @@ Because all groups appearing here and in the following are [[cyclic groups]], we
 
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_theorem}
+###### Theorem
 
 The [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ are the [[direct sum]] of the ([[cyclic group|cyclic]]) [[image]] of the J-homomorphism, def. \ref{JHom}, and the [[kernel]] of the [[Adams e-invariant]].
 
 Moreover,
 
-* for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ the J-homomorphism is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
+* for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
 
 * for $n = 3\; mod\; 8$ and $n = 7 \; mod \; 8$ hence for $n = 4 k -1$, the [[order of a group|order]] of the image is equal to the [[denominator]] of $B_{2k}/4k$, where $B_{2k}$ is the [[Bernoulli number]]
 
