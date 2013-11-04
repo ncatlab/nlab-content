@@ -31,6 +31,12 @@ on, not quite _[[logic]]_ in the usual sense, but more something like _[[logos]]
 
 Note that Hegel included an abbreviated version of _The Science of Logic_ as the first part of _The Encyclopedia of the Philosophical Sciences_, followed there by _The Philosophy of Nature_ and _The Philosophy of Mind_. This first part is often referred to as the _Shorter Logic_. 
 
+* _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992).
+
+  [Encyclopedia of the Philosophical Sciences in Basic Outline, Part I: Science of Logic](http://ndpr.nd.edu/news/24778-encyclopedia-of-the-philosophical-sciences-in-basic-outline-part-i-science-of-logic/)
+ {#EPSBOI}
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -56,12 +62,15 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
 
 "... there is no proposition of Heraclitus which I have not adopted in my logic."
 
+### Triads of Opposites and their Unity
+
+Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis. The whole text is structured by triads of chapters each with triads of sections, etc. see [Inwood 83, p. 263](#Inwood1983) for a diagram.
+
 
 ### Formalization of Unity of Opposites
  {#OppositesAndUnity}
 
-Hegel famously invokes opposite to the extent of [[paradoxes]], as sources for new phenomena via their synthesis.
-On p. 11 of _[Cohesive toposes and Cantor's Lauter Einsen](#LawvereLauterEinsen)_ [[William Lawvere]] proposes that generally such is captured by [[adjoint pairs]] of [[idempotent]] [[monads]]/[[comonads]] ("[[adjoint cylinders]]"), such as
+On p. 11 of _[Cohesive toposes and Cantor's Lauter Einsen](#LawvereLauterEinsen)_ [[William Lawvere]] proposes that these _triads_ of [[unity of opposites]] are captured by [[adjoint pairs]] of [[idempotent]] [[monads]]/[[comonads]] ("[[adjoint cylinders]]"), such as
 
 $\flat \dashv \sharp$
 
@@ -577,14 +586,16 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 
 ## References
 
-* _Enzyklop&#228;die der philosophischen Wissenschaften im Grundrisse_ (1830) W. Bonsiepen und H.-C. Lucas (eds.) in _Gesammelte Werke_, Rheinisch-Westf&#228;lischen Akademie der Wissenschaften, and xx. Hamburg: Felix Meiner, 1992 ( Bonsiepen/Lucas 1992).
 
-  [Encyclopedia of the Philosophical Sciences in Basic Outline, Part I: Science of Logic](http://ndpr.nd.edu/news/24778-encyclopedia-of-the-philosophical-sciences-in-basic-outline-part-i-science-of-logic/)
- {#EPSBOI}
+Comments on Hegel's text are for instance in 
 
 * [[Martin Heidegger]], _Hegel and the Greeks_, Conference of the Academy of Sciences at Heidelberg, July 26, 1958 ([web](http://www.morec.com/hegelgre.htm))
   {#Heidegger58}
 
+* Inwood, _Hegel_, 1983
+ {#Inwood1983}
+
+Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have been put forward by [[William Lawvere]] in several places, for instance in
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
  {#LawvereComo}
