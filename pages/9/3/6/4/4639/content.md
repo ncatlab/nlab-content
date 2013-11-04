@@ -136,8 +136,11 @@ For $R$ a [[ring]] and $H^n_{et}(-,-)$ the [[etale cohomology]], $\mathbb{G}_m$ 
 
 ### Related concepts
 
+* [[function algebra]]
+
 * [[formal multiplicative group]]
 
+* [[affine modality]]
 
 ### References
 
