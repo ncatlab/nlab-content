@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _infinitesimal flat modality_ is the [[right adjoint]] to the [[infinitesimal shape modality]]. 
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _infinitesimal flat modality_ is the [[right adjoint]] in an [[adjoint modality]] with the [[infinitesimal shape modality]]. 
 
 ## Definition
 
