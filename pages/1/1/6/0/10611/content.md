@@ -32,6 +32,8 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 
 ## Examples
 
+* [[local modality]]
+
 * [[double negation modality]]
 
 * [[n-truncation modality]]
@@ -41,6 +43,8 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 * [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 * [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]
+
+* [[affine modality]]
 
 ## Related concepts
 
