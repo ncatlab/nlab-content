@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _reduction modality_ characterizes [[reduced objects]].
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _reduction modality_ characterizes [[reduced objects]]. It forms itself the [[left adjoint]] in an [[adjoint modality]] with the [[infinitesimal shape modality]].
 
 ## Definition
 
