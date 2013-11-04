@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -237,7 +237,7 @@ $$
 
 This is ([ABGHR, theorem 2.10](#ABGHR)).
 
-This definition does subsume the [above](ForSphereBundles) definition of Thom spectra for sphere  bundles (hence also that for vector bundles):
+This definition does subsume the [above](ForSphereBundles) definition of Thom spectra for [[sphere bundles]] (hence also that for [[vector bundles]], by removing their [[zero section]]):
 
 +-- {: .num_prop}
 ###### Proposition
