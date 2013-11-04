@@ -83,6 +83,8 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
+  * [[spherical fibration]]
+
 ## References
 
 A useful collection of introductory notes to fiber bundles, vector bundles and fiber bundles with connection is at 
