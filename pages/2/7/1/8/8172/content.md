@@ -19,7 +19,9 @@
 
 ## Idea
 
-A class of [[spectral sequences]] in [[stable homotopy theory]].
+The _Adams spectral sequence_ is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It is a variant of the [[Serre spectral sequence]] obtained by restricting attention to the stable range of [[cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$.
+
+The Adams spectral sequence is further refined by the _[[Adams-Novikov spectral sequence]]_ by replacing [[ordinary cohomology]] modulo $p$ by [[complex cobordism cohomology theory]].
 
 ## Definition
 
@@ -54,11 +56,31 @@ $$
 
 The Adams spectral sequence computes the [[kernels]] of the morphisms on [[homotopy groups]] of this map. ([Lurie 10, theorem 2](#Lurie10))
 
+## Properties
+
+### Relation to Steenrod algebra
+
+The $E_2$-page of the Adams spectral sequence for the $p$-component of 
+$\pi_{n+k}(S^n)$  is the [[Steenrod algebra]] (for given prime $p$).
+
 ## Related concepts
+
+* [[Adams-Novikov spectral sequence]]
 
 * [[Steenrod algebra]]
 
 ## References
+
+The original article is
+
+* [[John Adams]], _On the structure and applications of the Steenrod algebra_, Comm. Math. Helv. 32 (1958),
+180&#8211;214.
+
+
+Reviews are in
+
+* [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, page 8 of chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+
 
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
