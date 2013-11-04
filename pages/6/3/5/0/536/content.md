@@ -339,6 +339,8 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * **algebraic theory** / [[Lawvere theory]] / [[2-Lawvere theory]] /  [[(∞,1)-algebraic theory]]
 
+  * [[algebraic side effect]]
+
 * [[generalized algebraic theory]]
 
 * [[globular theory]]
