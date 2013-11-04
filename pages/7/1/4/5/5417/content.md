@@ -1,6 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 For $E \to X$ [[vector bundle]], its **zero section** is the [[section]] $X \to E$ that sends every point to the 0-vector over it.
+
+## Properties
+
+A vector bundle minus its zero-section is a [[spherical fibration]].
+
+## Related concepts
+
+* [[Thom space]], [[Thom spectrum]]
 
 [[!redirects zero-section]]
 
