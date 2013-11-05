@@ -1,4 +1,7 @@
 
+> This article is on the mathematical concept of atom as used in the theory of [[preorder|preorders]], and related mathematical notions. For other uses, see [[atom (disambiguation)]].
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,7 +16,6 @@
 * table of contents
 {: toc}
 
-(This article is on the mathematical concept of atom as used in the theory of [[preorder|preorders]], and related mathematical notions. For other uses, see [[atom (disambiguation)]].)  
 
 ## Idea
 
