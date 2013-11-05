@@ -1,4 +1,7 @@
 
+{:formalization: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
 > under construction
 
 +-- {: .rightHandSide}
@@ -141,6 +144,9 @@ The following table lists proposals for possible such identifications. The conte
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
 | vanishing of infinitesimals | [[reduction modality]] |
+| being-for-self | [[reduction modality]] $Red$ |
+| being-for-one | [[infinitesimal shape modality]] $\int_{inf}$ |
+| ideality | [[adjoint modality]] $Red \dashv \int_{inf}$ | 
 | moment of two negations | [[double negation modality]] $\not \not$, more generally: [[bracket type]]/[[n-truncation modality|(-1)-truncation modality]] |
 | something | [[n-truncation modality|(-1)-truncation modality]], classically [[double negation modality]] |
 | measure | [de Rham coefficients](structures+in+a+cohesive+infinity-topos#deRhamCohomology) $\flat_{dR} A = fib(\flat A \to A)$ (?) |
@@ -337,6 +343,8 @@ Notice that [above](#Becoming) this unity is called _becoming_.
 
 ###### c. Eins
 
+* &#167;328 Being-for-self is the simple unity of itself and its moment, being-for-one.
+
 * &#167;329 The moments which constitute the Notion of the one as a being-for-self fall asunder in the development. They are: (1) negation in general, (2) two negations, (3) two that are therefore the same, (4) sheer opposites, (5) self-relation, identity as such, (6) relation which is negative and yet to its own self.
 
 If we translate "moment" as [[modality]] then here the 
@@ -349,6 +357,8 @@ Notice that the [[empty type]] and the [[unit type]] are the [[modal types]] for
 ###### a. Das Eins an ihm selbst
 
 ###### b. Das Eins und das Leere / The One and the Void
+
+* &#167;335 The one is the void as the abstract relation of the negation to itself. 
 
 ###### $\;\;$ Remark: Atomism
  {#Atomism}
@@ -371,7 +381,9 @@ $\ast \simeq \not \emptyset$.
 
 * &#167;343 This repulsion as thus the positing of many ones but through the one itself, is the one's own coming-forth-from-itself but to such outside it as are themselves only ones. This is repulsion according to its Notion, repulsion in itself. The second repulsion is different from it, it is what is immediately suggested to external reflection: repulsion not as the generation of ones, but only as the mutual repelling of ones presupposed as already present. 
 
-Suppose we have a [[shape modality]] $\int$ but without the assumption that it preserves finite product types. (This is what the term "[[shape of an (infinity,1)-topos|shape]]" really refers to).
+
+To see a formalization of "the one repels itself from itsel",
+suppose we have a [[shape modality]] $\int$ but without the assumption that it preserves finite product types. (This is what the term "[[shape of an (infinity,1)-topos|shape]]" really refers to).
 
 Then given just the [[empty type]] $\emptyset$ and the [[unit type]] $\ast$, there is one new [[type]] to be formed (since necessarily $\int \emptyset \simeq \emptyset$) and this is
 
@@ -400,6 +412,63 @@ $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
   The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self. 
 
   It does, however, go beyond mere indifferent plurality; the atoms become further determined in regard to one another even though, strictly speaking, this involves an inconsistency; whereas, on the contrary, in that indifferent independence of the monads, plurality remains as a fixed fundamental determination, so that the connection between them falls only in the monad of monads, or in the philosopher who contemplates them.
+
+To summarize, in &#167;322 we get a clear prescription:
+
+> To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
+
+So we are to find an [[adjoint modality]] that expresses 
+
+$$
+  Ideality \;\colon\; BeingForSelf \dashv BeingForOne
+$$
+
+(or possibly the other way around).
+
+The complaint about Leibniz in &#167;348, makes pretty clear what this is about:
+
+> The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self.
+
+Here "atoms" really refers to the decomposition of the continuum into points (atoms of space) because in &#167;337 it says:
+
+> The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
+
+But "The one" (The unit) with its repulsion of many we claimed before is well modeled by what $\flat$ produces, the underlying points, the atoms of space.
+
+So in conclusion the statement here is that it is a defect of both the ancients as well as of Leibniz to consider atoms/monads/points which have no way to look outside of themselves into interaction with others, that instead one needs to characterized atoms/monads/points by the above adjoint modality which expresses _Ideality_.
+
+In conclusion, _Eins_ ("The One"/"The Unit") is a notion of atom which is similar to what the ancients and Leibniz called atom/monad, only that it improves on that by keeping an additional "moment" which the ancients and Leibniz forgot to retain. 
+
+Now in [[William Lawvere]]'s _[Toposes of Laws of Motion](#LawvereMotion)_  "atom" is proposed to refer to, essentially, [[infinitesimally thickened points]]. Indeed, the "infinitesimal thickening" of the point has  something to do with the point "coming out of itself"and interacting with other points. 
+
+So possibly the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinitesimal shape modality]] captures some of this well.
+
+Here is a cartoon of an [[infinitesimally thickened point]] with its infinitesimal antennas reaching out to test what's going on around
+
+$$
+  \array{
+      -- \bullet -- 
+  }
+$$
+
+and here is the [[reduced object|reduced point]], all by itself/for itself
+
+$$
+  \array{
+      \bullet
+  }
+  \,.
+$$
+
+Notice that in [[superalgebra]] one says "[[soul]]" for these "antennas" and "[[body]]" for what remains. Therefore it seems plausible to conclude that the formalization of the [[unity of opposites]]
+
+$$
+  Ideality \;\colon\; BeingForSelf \dashv BeingForOne
+$$
+
+is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinitesimal shape modality]]. The "Ideality" of infinitesimal extension gives the Eins, the atom-of-space, its dual character of containing a reduced point for-itself and at the same time an infinitesimal thickening that extends beyond that.
+
+
 
 ##### C. Repulsion und Attraktion
 
@@ -619,3 +688,6 @@ Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have
 
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
   {#LawvereLauterEinsen}
+
+* _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+ {#LawvereMotion}
