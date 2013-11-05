@@ -44,3 +44,6 @@ The _[[Oka-Grauert principle]] states that for any [[Stein manifold]] $X$ the ho
 
 [[!redirects Stein space]]
 [[!redirects Stein spaces]]
+
+[[!redirects Stein domain]]
+[[!redirects Stein domains]]
