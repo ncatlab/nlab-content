@@ -6,4 +6,6 @@ _Atom_ may refer to one of the following:
 
 * In set theory, there are theories (for example [[ZFA]]) which admit [[urelements]], which are also called atoms.
 
-* In physics, a basic unit of matter that represents a chemical element or one of its isotopes, consisting of a central nucleus of protons and neutrons and a "cloud" of electrons surrounding it. See [[atom (physics)]]. 
+* In [[physics]], a basic unit of [[matter]] that represents a chemical element or one of its isotopes, consisting of a central [[nucleus]] of [[protons]] and [[neutrons]] and a "cloud" of [[electrons surrounding}} it. See [[atom (physics)]]. 
+
+* In [[Georg Hegel]], _[[Science of Logic]]_ [Atomism](Science+Of+Logic#Atomism)
