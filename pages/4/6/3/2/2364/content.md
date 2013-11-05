@@ -17,7 +17,7 @@ The point of Lazard-exactness is that if $f$ is Lazard exact (i.e. if the corres
 #Definition#
 
 **Landweber criterion**  Let $f(x,y)$ be a [[formal group law]] and $p$ a prime,
-$v_i$ the coefficient of $x^{p^i}$ in $[p]_f(x)=x+_f\cdots+_fx$.
+$v_i$ the coefficient of $x^{p^i}$ in $[p]_f(x)=x+_f\cdots+_f x$.
 If $v_0,\ldots,v_i$ form a regular sequence for all $p$ and $i$ then $f(x,y)$ is Lazard exact and hence gives a 
 [[cohomology theory]] via the the formula above.
 
@@ -40,10 +40,3 @@ Hence we know that $K^*(X)=MP^*(X)\otimes_{MP(\bullet)} \mathbb{Z}$ is a cohomol
 
 [[!redirects Landweber exactness criterion]]
 [[!redirects Landweber criterion]]
-
----
-&lt;http://mathoverflow.net/questions/97682/a-homotopyish-landweber-exact-functor-theorem>
-
-&lt;http://ncatlab.org/nlab/show/Landweber+exactness>
-
-nLab page on [[nlab:Landweber exactness]]
