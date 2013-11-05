@@ -75,6 +75,8 @@ If this power series [[convergence|converges]] to $f$, then we say that $f$ is _
 
 * [[asymptotic series]]
 
+* [[Tate algebra]]
+
 ## References
 
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in section 4 of
