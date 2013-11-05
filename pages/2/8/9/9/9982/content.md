@@ -1,6 +1,6 @@
 
 
-* [webpage](http://www.hcm.uni-bonn.de/people/phd-students/profile/karol-szumio-1/)
+* [webpage](http://www.math.uni-bonn.de/people/szumilo/)
 
 category: people
 
