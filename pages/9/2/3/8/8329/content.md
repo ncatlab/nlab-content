@@ -17,7 +17,11 @@
 
 ## Idea
 
-According to _[[Science of Logic]]_ the [[unity of opposites]] of [[nothing]] and [[being]].
+According to _[[Science of Logic]]_ the [[unity of opposites]] of [[nothing]] and [[being]]. The reverse is _[[ceasing]]_. The unity of both is [[Dasein]]
+
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
 ## Related concepts
 
@@ -29,3 +33,5 @@ According to _[[Science of Logic]]_ the [[unity of opposites]] of [[nothing]] an
 
 * [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
 
+[[!redirects Werden]]
+[[!redirects werden]]
