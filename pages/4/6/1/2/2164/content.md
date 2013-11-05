@@ -868,7 +868,7 @@ of the fact that they are supposed to be objects of a
 It was from this insight that [[synthetic differential geometry]] was
 eventually developed. 
 
-* Lawvere, _Outline of synthetic differential geometry_,
+* [[William Lawvere]], _Outline of synthetic differential geometry_,
 ([web](http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html))
 
 This is a classical case of [[general abstract nonsense]] used to
@@ -880,6 +880,14 @@ objects $D$, $D_k$, $D_k(n)$ is in section 1.2 of
 * Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 ### Atomic spaces 
+
+The proposal to call objects $D$ such that $[D,-]$ has an [[amazing right adjoint]] "atomic objects" is due to 
+
+* [[William Lawvere]], _Toposes of Laws of Motion_
+
+and repeated in 
+
+* [[William Lawvere]], _Open problems in topos theory_ ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
 
 Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
