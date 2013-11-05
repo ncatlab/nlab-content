@@ -18,9 +18,10 @@
 
 According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[nothing]].
 
-## Related concepts
 
-* [[becoming]]
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
 ## References
 
@@ -28,3 +29,5 @@ According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[not
 
 * [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
 
+[[!redirects Sein]]
+[[!redirects sein]]
