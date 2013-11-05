@@ -1,7 +1,7 @@
 
 The term "logos" is used
 
-* by [[Heraclitus]] for something that later was discussed in [[Hegel]]'s _[[Science of Logic]]_.
+* by [[Heraclitus]] for _[[logos (in philosophy)]]_, something that later was discussed as "logic" in [[Hegel]]'s _[[Science of Logic]]_.
 
 * in [Freyd-Scedrov](#FreydScedrov) as a synonym for _[[Heyting category]]_;
 
