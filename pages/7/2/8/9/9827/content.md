@@ -8,3 +8,5 @@
 * Wikipedia, _[Weil cohomology theory](http://en.wikipedia.org/wiki/Weil_cohomology_theory)_
 
 [[!redirects Weil cohomology theories]]
+
+[[!redirects Weil cohomology]]
