@@ -1,12 +1,19 @@
-### Calculus
 
-In various areas of mathematics there are some standard objects and operations on them and often reasonings and rules of those are expressed in symbolic (typically) sequences which are usually viewed as acts of calculations. Calculus would be then a set of rules for those calculations. There are for example [[propositional calculus]], [[sequent calculus]], [[deduction calculus]] in logics, the [[lambda calculus]] in type theory, the probabilistic calculus, the [[matrix calculus]], [[Schubert calculus]], the [[Goodwillie calculus]] in homotopy theory, [[calculus of fractions]] in localization theory, and many calculi in analysis like [[functional calculus]], [[variational calculus]], [[umbral calculus]] etc. 
+#Contents#
+* table of contents
+{:toc}
 
-In anglosaxon university courses, one says "calculus" for the standard basic course in differential and integral calculi; the name is abbreviation for the older common and less ambiguous term infinitesimal calculus. From the point of view of research mathematics this is the (usually nonrigorous) introduction into the subject properly called mathematical analysis or simply [[analysis]]. Thus, while the term calculus has a standard meaning in anglosaxon university system, within research mathematics "calculus" is rather ambiguous and overloaded term. 
+## Calculus
 
-### Formal calculus
+In various areas of [[mathematics]] there are some standard objects and operations on them and often reasonings and rules of those are expressed in symbolic (typically) sequences which are usually viewed as acts of calculations. Calculus would be then a set of rules for those calculations. There are for example [[propositional calculus]], [[sequent calculus]], [[deduction calculus]] in logics, the [[lambda calculus]] in [[type theory]], the probabilistic calculus, the [[matrix calculus]], [[Schubert calculus]], famously [[differential calculus]], and various variants in [[analysis]] like [[functional calculus]], [[variational calculus]], [[umbral calculus]] etc.. A version of differential calculus in [[homotopy theory]] is [[Goodwillie calculus]], 
+Then there is [[calculus of fractions]] in [[localization]] theory.
 
-The problem with ambiguity of calculus extends somewhat to "formal calculus". The name is sometimes used for symbolic logical systems where the deducibility is given by syntactic rules, hence "formal". 
+
+In anglosaxon university courses, one says "calculus" for the standard basic course in [[differential calculus]] and [[integral calculus]]; the name is abbreviation for the older common and less ambiguous term infinitesimal calculus. From the point of view of research mathematics this is the (usually nonrigorous) introduction into the subject properly called mathematical analysis or simply [[analysis]]. Thus, while the term calculus has a standard meaning in anglosaxon university system, within research mathematics "calculus" is rather ambiguous and overloaded term. 
+
+## Formal calculus
+
+The problem with the ambiguity of the term _calculus_ extends somewhat to "formal calculus". The name is sometimes used for symbolic logical systems where the deducibility is given by syntactic rules, hence "formal". 
 
 More often the term "formal" pertains to various calculi which are akin to infinitesimal calculus, but without the 
 analytic tools like limiting procedure, but rather applying 
