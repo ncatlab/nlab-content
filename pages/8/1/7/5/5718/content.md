@@ -25,7 +25,7 @@ For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in
 
 ### General abstract
 
-We discuss a general abstract definition of jet bundles.
+We discuss a [[general abstract]] definition of jet bundles.
 
 Let 
 
@@ -34,12 +34,12 @@ Let
 * equipped with [[infinitesimal cohesion]] 
 
   $$
-    \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Pi_{inf}}{\leftarrow}}{\stackrel{\overset{}{\to}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
+    \mathbf{H} \stackrel{\hookrightarrow}{\stackrel{\overset{\Pi_{inf}}{\leftarrow}}{\stackrel{\overset{}{\longrightarrow}}{\underset{}{\leftarrow}}}} \mathbf{H}_{th}
   $$ 
 
 * and equipped with an [[(∞,2)-sheaf]] 
 
-  [[Mod]] $\mathbf{H}^{op} \to $ [[Stab(∞,1)Cat]] 
+  [[Mod]]  $ \colon \; \mathbf{H}^{op} \to $ [[Stab(∞,1)Cat]] 
 
   of [[quasicoherent (∞,1)-sheaves]]s.
 
@@ -76,6 +76,21 @@ Its [[direct image]] we call the _jet bundle [[(∞,1)-functor]]_ .
 
 In the context of [[D-scheme]]s this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). See ([Paugam, section 2.3](#Paugam)) for a review.
 There this is expressed dually in terms of algebras in [[D-module]]s. We indicate how the translation works
+
++-- {: .num_remark}
+###### Remark
+
+In terms of [[differential homotopy type theory]] this means that
+forming "jet types" of [[dependent types]] over $X$ is the 
+[[dependent product]] operation along the unit of the [[infinitesimal shape modality]] 
+
+$$
+  jet(E) \coloneqq \underset{X \to \Pi_{inf}X}{\prod} E
+  \,.
+$$
+
+=--
+
 
 
 +-- {: .num_defn}
@@ -182,3 +197,6 @@ and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.
 
 [[!redirects jet]]
 [[!redirects jets]]
+
+[[!redirects jet type]]
+[[!redirects jet types]]
