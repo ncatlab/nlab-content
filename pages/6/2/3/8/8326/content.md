@@ -56,7 +56,9 @@ The following extracts some paragraphs from the text, with comments on how to po
 
 The paragraph numbers refer to the numbers as given in the English translation at _[Hegel-by-hypertext](http://www.marxists.org/reference/archive/hegel/index.htm)_ _[Hegel's science of logic](http://www.marxists.org/reference/archive/hegel/works/hl/)_.
 
-### Heraclitus and the notion of Becoming
+Before we get to the content, here some remarks.
+
+### Heraclitus and the Logos of Becoming
  {#Heraclitus}
 
 Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
@@ -134,9 +136,9 @@ The following table lists proposals for possible such identifications. The conte
 | entering into existence | [[term introduction]] |
 | immediacy of reflection | reflector term in [[identity type]] |
 | all things are different | [[intensional identity]] |
-| being, One  | ([[context]] of) [[unit type]] |
-| nothing | [[empty type]] |
-| becoming | [[adjoint modality]]  $\emptyset \dashv \ast$ |
+| [[being]], One  | ([[context]] of) [[unit type]] |
+| [[nothing]] | [[empty type]] |
+| [[becoming]] | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
 | moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
 | continuum | [[adjoint modality]] $\int \dashv \flat$ |
@@ -158,6 +160,18 @@ of [[n-truncation modalities]]:
 |--|--|
 | -2 | [[unit type]] modality |
 | -1 | [[n-truncation modality|(-1)-truncation modality]], [[classical logic|classically]] [[double negation modality]] |
+
+### On the translation of the terms
+
+The orginal German is at times maybe more evocative than the established English translations 
+
+* "f&#252;r sich sein", which standard sources translate as "being-for-self", really means to be alone and undisturbed. One says: "Ich gehe jetzt in mein B&#252;ro, ich muss mal f&#252;r mich sein um mich zu konzentrieren." (I'll retreat to my office to be alone and undisturbed.)
+
+* "f&#252;r eins sein" which Hegel uses, is not proper German and probably wasn't even at his time, but it is clearly meant to rhyme with "f&#252;r sich sein", and the similar phrase that does exist is "f&#252;r einander sein", which means: to be available for others.
+
+* "Dasein", which in the standard translations appears as "determinate being" is really much more immediate "being there", "existing". "Wann sollen wir da sein?" means "When are we supposed to be there?" In more formal speach "das Dasein" means "existence" as in "Ach, das Dasein ist doch zwecklos."
+
+(...)
 
 
 ## **Book one** Die Lehre vom Sein / The Doctrine of Being
@@ -183,6 +197,7 @@ From The Shorter Logic:
  {#OnBeingAndBecoming}
 
 * &#167;132 Being, pure being, [...] it has no diversity within itself nor any with a reference outwards.
+
 
 
 This is the _[[unit type]]_ $\ast$. 
@@ -272,17 +287,68 @@ of the factorization of the unique [[function]] from the [[empty type]] to the [
 
 
 
-###### 2. Moments of Becoming
+###### 2. Momente des Wedrens / Moments of Becoming
+
+* &#167;176 Becoming is the unseparatedness of being and nothing, not the unity which abstracts from being and nothing; but as the unity of being and nothing it is this determinate unity in which there is both being and nothing. But in so far as being and nothing, each unseparated from its other, is, each is not. They are therefore in this unity but only as vanishing, sublated moments. They sink from their initially imagined self-subsistence to the status of moments, which are still distinct but at the same time are sublated.
+
+* &#167;177 Grasped as thus distinguished, each moment is in this distinguishedness as a unity with the other. Becoming therefore contains being and nothing as two such unities, each of which is itself a unity of being and nothing; the one is being as immediate and as relation to nothing, and the other is nothing as immediate and as relation to being; the determinations are of unequal values in these unities.
+
+
+An archetypical description of the [[unity of opposites]]. Here:
+
+[[becoming]] : [[nothing]] $\dashv$ [[being]] 
+
+$\;\;\;$ [[empty type]] $\dashv$ [[unit type]]
+
+
+* &#167;178 Becoming is in this way in a double determination. In one of them, nothing is immediate, that is, the determination starts from nothing which relates itself to being, or in other words changes into it; in the other, being is immediate, that is, the determination starts from being which changes into nothing: the former is coming-to-be and the latter is ceasing-to-be.
+ 
+$\;\;$ [[nothing]] $\dashv$ [[being]]  : [[ceasing]]
+
+
 
 ###### 3. Sublating of Becoming
 
-#### Second chapter. Determinate Being (Dasein)
+* &#167;180 The resultant equilibrium of coming-to-be and ceasing-to-be is in the first place becoming itself. But this equally settles into a stable unity. Being and nothing are in this unity only as vanishing moments; yet becoming as such is only through their distinguishedness. Their vanishing, therefore, is the vanishing of becoming or the vanishing of the vanishing itself. Becoming is an unstable unrest which settles into a stable result.
+
+* &#167;181 This could also be expressed thus: becoming is the vanishing of being in nothing and of nothing in being and the vanishing of being and nothing generally; but at the same time it rests on the distinction between them. It is therefore inherently self-contradictory, because the determinations it unites within itself are opposed to each other; but such a union destroys itself.
+
+* &#167;182 This result is the vanishedness of becoming, but it is not nothing; as such it would only be a relapse into one of the already sublated determinations, not the resultant of nothing and being. It is the unity of being and nothing which has settled into a stable oneness. But this stable oneness is being, yet no longer as a determination on its own but as a determination of the whole.
+
+* &#167;183 Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
+
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[Werden]] : | [[Nichts]] | $\;\;\;\dashv$ | [[Sein]] | : [[Vergehen]] |
+
+$\,$
+
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
+
+
+
+* &#167;187 The more precise meaning and expression which being and nothing receive, now that they are moments, is to be ascertained from the consideration of determinate being as the unity in which they are preserved. Being is being, and nothing is nothing, only in their contradistinction from each other; but in their truth, in their unity, they have vanished as these determinations and are now something else. Being and nothing are the same; but just because they are the same they are no longer being and nothing, but now have a different significance. In becoming they were coming-to-be and ceasing-to-be; in determinate being, a differently determined unity, they are again differently determined moments. This unity now remains their base from which they do not again emerge in the abstract significance of being and nothing.
+
+moment $\leftrightarrow$ [[modality]]
+
+#### Second chapter. Deasein / Determinate Being 
 
 * &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality.
 
 ##### A. Dasein as such / Determinate being as such
 
+*  &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality. Through its quality, something is determined as opposed to an other, as alterable and finite; and as negatively determined not only against an other but also in its own self. This its negation as at first opposed to the finite something is the infinite; the abstract opposition in which these determinations appear resolves itself into the infinity which is free from the opposition, into being-for-self.
+
+The first sentence here is made up by the translator, in the original it says:
+
+* Daseyn ist bestimmtes Seyn;
+
+
+
 ###### a. Dasein &#252;berhaupt / Determinant being in general
+
 
 * &#167;191 From becoming there issues determinate being, which is the simple oneness of being and nothing.
 
@@ -295,16 +361,27 @@ $$
 
 So determinate being/Dasein is that of [[types]].
 
+&#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears, therefore, as a first, as a starting-point for the ensuing development. It is first of all in the one-sided determination of being; the other determination, nothing, will likewise display itself and in contrast to it.
 
 
 ###### b. Qualit&#228;t / Quality
 
 * &#167;196 Determinateness thus isolated by itself in the form of being is quality 
 
+[[type]]
+
 ###### c. Etwas / Something
  {#Etwas}
 
-* &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present [als seiend], belonging to the sphere of determinate being. Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
+* &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present [als seiend], belonging to the sphere of determinate being. 
+
+  Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
+
+[[Dasein]], quality, [[type]], something
+
+* &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+
+* &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
 
 * &#167;210 Something is the first negation of negation, as simple self-relation in the form of being.
 
@@ -323,15 +400,58 @@ Concerning "something": if $X$ is a [[type]], then by [[propositions-as-types]] 
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
+* &#167;221  Being-for-other and being-in-itself constitute the two moments of the something.
+
+something : Being-for-other $\dashv$ being-in-itself
+
 * &#167;222 Being and nothing in their unity, which is determinate being
 
-Notice that [above](#Becoming) this unity is called _becoming_.
+Notice that [above](#Becoming) this [[unity of opposites|unity]] is called _[[becoming]]_.
 
 ##### C. Die Unendlichkeit
 
 #### Third chapter. Das F&#252;rsichsein / Being for self
 
+* &#167;319 Being-for-self is first, immediately a being-for-self &#8212; the One.
+
+  Secondly, the One passes into a plurality of ones &#8212; repulsion &#8212; and this otherness of the ones is sublated in their ideality &#8212; attraction.
+
+  Thirdly, we have the alternating determination of repulsion and attraction in which they collapse into equilibrium, and quality, which in being-for-self reached its climax, passes over into quantity.
+
+Here we have a second-order unity of opposites: quantity itself is
+
+quantity : discreteness $\dashv$ continuity
+
+and by the above we take the 
+
+continuum : repulsion $\dashv$ attraction 
+
+to be quality, then we get from the [[adjoint triple]] 
+
+[[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
+
+the duality of dualities
+
+$$
+  \array{
+    & attraction && repulsion
+    \\
+    quality : & \int &\dashv& \flat
+    \\
+    & \bot && \bot
+    \\
+    quantity : & \flat &\dashv& \sharp
+    \\
+    & discreteness && continuity
+  }
+$$
+
+
+
+
 ##### A. Das F&#252;rsichsein als solches / Being-for-self as such
+
+
 
 ###### a. Dasein und F&#252;rsichsein / Determinate being and Being-for-self
 
@@ -365,6 +485,8 @@ Notice that the [[empty type]] and the [[unit type]] are the [[modal types]] for
 
 * &#167;337 The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
 
+Eins: [[atom]], [[infinitesimally thickened point]]
+
 ###### c. Viele Eins. Repulsion. / Many ones. Repulsion.
 
 * &#167;340 The one and the void constitute the first stage of the determinate being of being-for-self. Each of these moments has negation for its determination and is at the same time posited as a determinate being; according to the former determination the one and the void are the relation of negation to negation as of an other to its other: the one is negation in the determination of being, and the void is negation in the determination of non-being.
@@ -382,7 +504,7 @@ $\ast \simeq \not \emptyset$.
 * &#167;343 This repulsion as thus the positing of many ones but through the one itself, is the one's own coming-forth-from-itself but to such outside it as are themselves only ones. This is repulsion according to its Notion, repulsion in itself. The second repulsion is different from it, it is what is immediately suggested to external reflection: repulsion not as the generation of ones, but only as the mutual repelling of ones presupposed as already present. 
 
 
-To see a formalization of "the one repels itself from itsel",
+To see a formalization of "the one repels itself from itself",
 suppose we have a [[shape modality]] $\int$ but without the assumption that it preserves finite product types. (This is what the term "[[shape of an (infinity,1)-topos|shape]]" really refers to).
 
 Then given just the [[empty type]] $\emptyset$ and the [[unit type]] $\ast$, there is one new [[type]] to be formed (since necessarily $\int \emptyset \simeq \emptyset$) and this is
