@@ -78,6 +78,8 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 
 * [[series]], [[asymptotic series]]
 
+* [[analytic geometry]]
+
 [[!include infinitesimal and local - table]]
 
 * analogue in ([[stable homotopy theory|stable]]) [[homotopy theory]]/[[Goodwillie calculus]]: _[[Taylor tower]]_
@@ -87,3 +89,8 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 [[!redirects Mac Laurin series]]
 [[!redirects MacLaurin series]]
 [[!redirects Maclaurin series]]
+
+[[!redirects Taylor expansion]]
+[[!redirects Taylor expansions]]
+
+
