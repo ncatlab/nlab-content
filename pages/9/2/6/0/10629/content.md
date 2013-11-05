@@ -17,6 +17,10 @@
 
 According to _[[Science of Logic]]_, the [[unity of opposites|opposite]] of [[being]].
 
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
+
 ## Related concepts
 
 * [[empty type]], [[empty set]]
@@ -24,3 +28,5 @@ According to _[[Science of Logic]]_, the [[unity of opposites|opposite]] of [[be
 * [[vacuum]]
 
 [[!redirects nothingness]]
+
+[[!redirects Nichts]]
