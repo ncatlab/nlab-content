@@ -323,13 +323,17 @@ Notice that [above](#Becoming) this unity is called _becoming_.
 
 ##### C. Die Unendlichkeit
 
-#### Third chapter. Das F&#252;rsichsein
+#### Third chapter. Das F&#252;rsichsein / Being for self
 
-##### A. Das F&#252;rsichsein als solches
+##### A. Das F&#252;rsichsein als solches / Being-for-self as such
 
-###### a. Dasein und F&#252;rsichsein
+###### a. Dasein und F&#252;rsichsein / Determinate being and Being-for-self
 
-###### b. Sein-f&#252;r-Eines
+* &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
+
+###### b. Sein-f&#252;r-Eines / Being-for-one
+
+* &#167;322 To be 'for self' and to be 'for one' are therefore not different meanings of ideality, but are essential, inseparable moments of it.
 
 ###### c. Eins
 
@@ -344,7 +348,12 @@ Notice that the [[empty type]] and the [[unit type]] are the [[modal types]] for
 
 ###### a. Das Eins an ihm selbst
 
-###### b. Das Eins und das Leere
+###### b. Das Eins und das Leere / The One and the Void
+
+###### $\;\;$ Remark: Atomism
+ {#Atomism}
+
+* &#167;337 The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
 
 ###### c. Viele Eins. Repulsion. / Many ones. Repulsion.
 
@@ -383,6 +392,14 @@ where the [[diagram]] $I$ that the colimit is over is $I = &#643; \ast$ itself.
 For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Einsen ](#LawvereLauterEinsen))_. On p. 6 there is suggested that the [[unity of opposites]] "all elements of a set are indistinguishable and yet distinct" is captured by the fact that both
 
 $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
+
+###### $\;\;$ Remark: The Monad of Leibniz
+
+* &#167;348 We have previously referred to the Leibnizian idealism. We may add here that this idealism which started from the ideating monad, which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
+
+  The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self. 
+
+  It does, however, go beyond mere indifferent plurality; the atoms become further determined in regard to one another even though, strictly speaking, this involves an inconsistency; whereas, on the contrary, in that indifferent independence of the monads, plurality remains as a fixed fundamental determination, so that the connection between them falls only in the monad of monads, or in the philosopher who contemplates them.
 
 ##### C. Repulsion und Attraktion
 
