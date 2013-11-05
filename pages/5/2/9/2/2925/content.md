@@ -1,12 +1,13 @@
+
 # The intermediate value theorem
 * tic
 {: toc}
 
 ## Idea
 
-The intermediate value theorem (IVT) is a fundamental principle of analysis which allows one to find a desired value by interpolation.  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge which is [just right](http://secure.wikimedia.org/wikipedia/en/wiki/The_Story_of_the_Three_Bears).
+The intermediate value theorem (IVT) is a fundamental principle of [[analysis]] which allows one to find a desired value by [[interpolation]].  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge which is [just right](https://en.wikipedia.org/wiki/The_Story_of_the_Three_Bears).
 
-The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate $\pi$.
+The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|π]].
 
 As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
 
@@ -19,7 +20,7 @@ I\'ve decided that I don\'t really like how I\'ve been writing this, and I\'m wo
 
 +-- {: .num_theorem #classical}
 ###### Theorem
-(classical IVT)
+(classical IVT, assuming [[excluded middle]])
 
 Let $f\colon [0,1] \to \mathbb{R}$ be a [[continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
@@ -33,7 +34,7 @@ Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly con
 
 +-- {: .num_theorem #hypothesis}
 ###### Theorem
-(constructive IVT with strengthened hypothesis)
+(constructive IVT with strengthened hypothesis, assuming [[weak countable choice]])
 
 Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
@@ -74,7 +75,7 @@ This is the _bisection algorithm_ in [[numerical analysis]].  Note that this alg
 +-- {: .proof}
 ###### Proof of Theorem \ref{hypothesis}&#8288;
 
-Suppose that $f$ satisfies the additional hypothesis.
+Suppose that $f$ satisfies the additional hypothesis (and assume [[weak countable choice]]).
 
 ...
 =--
@@ -82,7 +83,13 @@ Suppose that $f$ satisfies the additional hypothesis.
 +-- {: .proof}
 ###### Proof of Theorem \ref{classical}&#8288;
 
-By way of contradiction, suppose that ${|f(c)|} \gt 0$ for every $c$ in $[0,1]$.  Then the extra hypothesis of Theorem \ref{hypothesis} is certainly satisfied, so there exists some $c$ such that $f(c) = 0$ after all.  (Constructively, this is enough to show that the classical theorem has no counterexample.)
+By way of contradiction (applying the [[double negation]] law of [[classical logic]]), suppose that ${|f(c)|} \gt 0$ for every $c$ in $[0,1]$.  Then the extra hypothesis of Theorem \ref{hypothesis} is certainly satisfied, so there exists some $c$ such that $f(c) = 0$ after all.  (Constructively, this is enough to show that the classical theorem has no counterexample.)
 =--
 
 Of course, we can also prove Theorems \ref{classical} and \ref{hypothesis} directly by modifying the proof of Theorem \ref{conclusion} appropriately.
+
+
+[[!redirects intermediate value theorem]]
+[[!redirects intermediate value theorems]]
+[[!redirects Intermediate Value Theorem]]
+[[!redirects IVT]]
