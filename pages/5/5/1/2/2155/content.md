@@ -129,6 +129,9 @@ See [[CartSp]].
 
 * [[super Cartesian space]]
 
+* [[polydisk]]
+
+* [[affine space]]
 
 
 ## References
