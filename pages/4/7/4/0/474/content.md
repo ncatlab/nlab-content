@@ -34,7 +34,9 @@ See Caf&#233; [discussion] (http://golem.ph.utexas.edu/category/2006/11/this_wee
 
 ### For simplicial sets
 
-The [[left adjoint]] of the [[nerve]] functor $N:Cat \to SSet$, which takes a [[simplicial set]] to a category, is sometimes called the *fundamental category* functor.  One notation for it is $\tau_1$.  If $X$ is a [[quasicategory]], then its fundamental category is equivalent to its [[homotopy category of an (infinity,1)-category|homotopy category]].
+The [[left adjoint]] of the [[nerve]] functor $N:Cat \to SSet$, which takes a [[simplicial set]] to a category, is sometimes called the *fundamental category* functor.  One notation for it is $\tau_1$.  Explicitly, for a simplicial set $X$, $\tau_1(X)$ is the [[category]] [[free category|freely generated]] by the [[directed graph]] whose [[vertices]] are 0-[[simplices]] of $X$ and whose [[edges]] are 1-[[simplices]] (the source and target are defined by the [[face maps]]), modulo the relations $s^0(x) \sim id_x$ for $x \in X_0$ and $d^1(x) \sim d^0(x) \circ d^2(x)$ for $x \in X_2$.  Here $s^i$ and $d^i$ denote the [[degeneracy map|degeneracy]] and [[face maps]], respectively.
+
+If $X$ is a [[quasicategory]], then its fundamental category is equivalent to its [[homotopy category of an (infinity,1)-category|homotopy category]].
 
 $$
   \array{
@@ -59,5 +61,7 @@ $$
 ## References
 
 * [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ ([pdf](http://www.dima.unige.it/~grandis/DAT.Intro.pdf))
+
+* [[Andre Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, 2008, [citeseerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.187.2533)
 
 [[!redirects fundamental categories]]
