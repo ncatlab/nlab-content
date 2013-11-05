@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+## Idea
+
+According to _[[Science of Logic]]_ &#167;183:
+
+> Das Werden so &#220;bergehen in die Einheit des Seyns und Nichts, welche als seyend ist, oder die Gestalt der einseitigen unmittelbaren Einheit dieser Momente hat, ist das Daseyn.
+
+hence:
+
+> Becoming, as this transition into the unity of being and nothing, a unity which is in the form of being or has the form of the onesided immediate unity of these moments, is determinate being.
+
+part of the following [[unity of opposites]]
+
+| |  | [[Dasein]] | |  |
+|--|--|--|--|--|
+| [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
+
+
+[[!redirects determinate being]]
+
+[[!redirects dasein]]
+
+[[!redirects Daseyn]]
+[[!redirects daseyn]]
