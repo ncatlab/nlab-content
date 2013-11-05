@@ -28,7 +28,7 @@ The notion of ringed topos makes sense for the theory of rings replaced by any [
 +-- {: .num_defn}
 ###### Definition
 
-A **ringed topos** $(\mathcal{X}, \mathcal{O}_X)$ is 
+A **ringed topos** $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is 
 
 * a [[topos]] $\mathcal{X}$ 
 
