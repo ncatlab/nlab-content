@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A notion in [[philosophy]], originally  described by [[Heraclitus]] such ([WL](#WikipediaLogos)):
+
+> all things come to pass in accordance with the Logos
+
+About this remarked [[Georg Hegel]] ([cit](#http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
+
+> Heraclitus is the one who first declared the nature of the infinite and first grasped nature as in itself infinite, that is, its essence as process. The origin of philosophy is to be dated from Heraclitus. His is the persistent Idea that is the same in all philosophers up to the present day, as it was the Idea of Plato and Aristotle."
+
+> ...there is no proposition of Heraclitus which I have not adopted in my logic.
+
+Here "my logic" refers to what Hegel lays out in _[[Science of Logic]]_, where indeed "logic" is used more like what Heraclitus' _Logos_ seems to refer to, rather than [[mathematical logic]].
+
+## References
+
+* Wikipedia, _[Heraclitus -- Logos](http://en.wikipedia.org/wiki/Heraclitus#Logos)_
+ {#WikipediaLogos}
+
+* [[Georg Hegel]], _[[Science of Logic]]_
