@@ -25,7 +25,7 @@ In a context of [[synthetic differential geometry]]/[[differential cohesion]] th
 
 ## Definition
 
-A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
+A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]] forming two pairs of [[adjoint modalities]]
 
 $$
   Red \dashv &#643;_{inf} \dashv \flat_{inf}
@@ -35,6 +35,13 @@ $$
 where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
 
 Here $\flat_{inf}$ is the **infinitesimal flat modality**. 
+
+## Properties
+
+### Relation to crystalline cohomology
+
+For $A$ a [[geometric homotopy type]], $\flat_{inf} A $ is the [[coefficient]]
+for [[crystalline cohomology]] with [[coefficients]] in $A$. See there for more.
 
 ## Related concepts
 
