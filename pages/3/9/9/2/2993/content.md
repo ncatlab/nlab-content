@@ -104,7 +104,9 @@ The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational funct
 
 * [[tensor algebra]]
 
-* [[affine line]]
+* [[affine line]], [[affine space]]
+
+* [[Tate algebra]], [[polydisk]]
 
 
 [[!redirects polynomial]]
