@@ -135,6 +135,9 @@ $$
 
 This is really a special case of the previous class of examples, as $\Omega^\bullet(X)$ equipped with the [[deRham complex|deRham differential]] is the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]]. 
 
+## Related concepts
+
+* [[body]]/[[soul]]
 
 ## References
 
