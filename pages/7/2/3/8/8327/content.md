@@ -3,11 +3,14 @@
 
 * [[ontology]]
 
+  * [[logos (in philosophy)|logos]], _[[Science of Logic]]_
+
   * [[being]], [[becoming]]
 
-### Of logic
+### Schools
 
-[[Science of Logic]]
+* [[objective idealism]]
+
 
 ### Of mathematics
 
