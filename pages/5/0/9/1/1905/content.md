@@ -14,5 +14,7 @@ Dunkl operators appear in the theory of [Caloger-Moser systems](http://www.schol
 * Yu. Berest, P. Etingof, V. Ginzburg, Finite-dimensional representations of
 rational Cherednik algebras. Int. Math. Res. Not. 2003, no. 19, 1053-1088.
 * C. Dunkl, E. Opdam, _Dunkl operators for complex reflection groups_, Proc. London Math. Soc. __86__ (2003), 70--108.
+* A.N. Sergeev, A.P. Veselov, _Dunkl operators at infinity and Calogero-Moser systems_, [arxiv/1311.0853](http://arxiv.org/abs/1311.0853)
+ 
 
 Dunkl operators are named after [Charles Dunkl](http://people.virginia.edu/~cfd5z/).
