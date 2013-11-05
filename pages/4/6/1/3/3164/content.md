@@ -1,4 +1,28 @@
-Arithmetic geometry is a branch of [[algebraic geometry]] studying [[scheme]]s (usually of finite type) over the [[spectrum (geometry)|spectrum]] $Spec \mathbb{Z}$ of [[ring]] of integers for number theoretic purposes; usually one complements this with some data "at infinite prime" leading to a more modern notion of an **arithmetic scheme** (cf. [[Arakelov geometry]]). 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (usually of finite type) over the [[spectrum (geometry)|spectrum]] $Spec \mathbb{Z}$ of the [[ring]] of [[integers]], for [[number theory|number theoretic]] purposes; usually one complements this with some data "at the prime at infinity" leading to a more modern notion of an **arithmetic scheme** (cf. [[Arakelov geometry]]). 
+
+## Related concepts
+
+* [[analytic geometry]]
+
+## References
 
 * wikipedia: [glossary of arithmetic and Diophantine geometry](http://en.wikipedia.org/wiki/Glossary_of_arithmetic_and_Diophantine_geometry), [Arakelov geometry](http://en.wikipedia.org/wiki/Arakelov_theory)
 
