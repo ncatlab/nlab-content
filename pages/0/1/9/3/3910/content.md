@@ -25,6 +25,11 @@ In [[number theory]], one generalises integers to [[algebraic integers]], an ins
 
 The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a generic word for 'numbers'.  (Compare [[Richard Dedekind|Dedekind]]\'s use of that word in the title of his famous book on the [[foundations]] of [[real numbers]].)
 
+## Related concepts
+
+* [[geometry]] modeled on the formal dual of the ring of integers is [[arithmetic geometry]]
+
+* [[natural number]], [[rational number]], [[real number]]
 
 ## References
 
