@@ -37,10 +37,23 @@ where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] a
 
 Here $&#643;_{inf}$ is the **infinitesimal shape modality**. The [[reflective subcategory]] that it defines is that of [[coreduced objects]].
 
+## Properties
+
+### Relation to de Rham spaces
+
+For $X$ a [[geometric homotopy type]], the result of applying the infinitesimal shape modality yields a type $&#643;_{inf} X$ which has the interpretation of the [[de Rham space]] of $X$. See there for more.
+
+### Relation to jet bundles
+
+For $E$ a [[dependent type]] on $X$, its [[dependent product]] along the [[unit of a monad|unti]] of the infinitesimal shape modality has the interpretation of the [[jet type]] $j(E)$. See there for more.
+
+### Relation to crystalline cohomology
+
+The [[cohomology]] of $&#643;_{inf} X$ has the interpretation of [[crystalline cohomology]] of $X$. See there for more.
+
 ## Related concepts
 
 
 [[!include cohesion - table]]
-
 
 
