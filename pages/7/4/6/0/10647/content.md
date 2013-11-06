@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[curvature]] [[differential 2-form]] with values in scalars obtained from the [[Riemann curvature]] of a [[Riemannian manifold]].
+
+## Related concepts
+
+* [[Einstein-Hilbert action]]
+
+* [[Einstein equations of motion]]
+
+* [[Einstein manifold]]
+
+## References
+
+* Wikipedia, _[Ricci curvature](http://en.wikipedia.org/wiki/Ricci_curvature)_
+
+[[!redirects Ricci curvatures]]
+
+[[!redirects Ricci tensor]]
+[[!redirects Ricci tensors]]
