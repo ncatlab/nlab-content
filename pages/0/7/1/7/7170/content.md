@@ -67,24 +67,24 @@ $$
 
 ### Relation to Stiefel-Whitney classes
 
-The [[Stiefel-Whitney class]] $w_k$ is the [[Steenrod square]] of the Wu class $\nu_k$.
+The total [[Stiefel-Whitney class]] $w$ is the [[Steenrod square]] of the total Wu class $\nu$.
 
 $$
-  w_k = Sq(\nu_k)
+  w = Sq^2(\nu)
   \,.
 $$
 
-One finds the first few Wu classes as [[polynomials]] in the Stiefel-Whitney classes as follows
+Solving this for the components of $\nu$ in terms of the components of $w$, one finds the first few Wu classes as [[polynomials]] in the Stiefel-Whitney classes as follows
 
-* $v_1 = w_1$;
+* $\nu_1 = w_1$;
 
-* $v_2 = w_2 + w_1^2$
+* $\nu_2 = w_2 + w_1^2$
 
-* $v_3 = w_1 w_2$
+* $\nu_3 = w_1 w_2$
 
-* $v_4 = w_4 + w_3 w_1 + w_2^2 + w_1^4$
+* $\nu_4 = w_4 + w_3 w_1 + w_2^2 + w_1^4$
 
-* $v_5 = w_4 w_1 + w_3 w_1^2 + w_2^2 w_1 + w_2 w_1^3$ 
+* $\nu_5 = w_4 w_1 + w_3 w_1^2 + w_2^2 w_1 + w_2 w_1^3$ 
 
 ...
 
@@ -107,7 +107,7 @@ Let $X$ be an [[orientation|oriented]] [[manifold]] $T X : X \to  B SO(n)$ with 
 
 This is discussed in [Hopkins-Singer, page 101](#HopkinsSinger).
 
-+-- {: .num_corollary #DivisibilityOfCupSquare}
++-- {: .num_cor #DivisibilityOfCupSquare}
 ###### Corollary
 
 Suppose $X$ is 8 dimensional. Then, for $G \in H^4(X, \mathbb{Z})$ any integral 4-class, the expression
