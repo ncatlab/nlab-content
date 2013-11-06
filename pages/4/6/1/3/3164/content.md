@@ -20,6 +20,8 @@ Arithmetic geometry is a branch of [[algebraic geometry]] studying [[schemes]] (
 
 ## Related concepts
 
+* [[arithmetic scheme]]
+
 * [[analytic geometry]]
 
 ## References
