@@ -278,6 +278,9 @@ the proposal of [Ginzburg-Kapranov-Vasserot 95](#GinzburgKapranovVasserot95) was
 
 See also
 
+* [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics, Vol. 123, No. 4, Aug., 2001 ([JSTOR](http://www.jstor.org/stable/25099077))
+
+
 * [[Jacob Lurie]], section 5.1 of _[[A Survey of Elliptic Cohomology]]_
  {#Lurie}
 
