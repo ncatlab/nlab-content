@@ -30,14 +30,28 @@ Entries discussing aspects of _cohesion_ include the following
 
 * [[discrete ∞-groupoids|discrete cohesion]]
 
+* [[tangent cohesive (∞,1)-topos|stable cohesion]]
+
 * [[Euclidean-topological ∞-groupoids|continuous cohesions]]
 
 * [[smooth ∞-groupoid|smooth cohesion]]
 
+* [[synthetic differential ∞-groupoid|synthetic differential cohesion]]
+
 * [[smooth super ∞-groupoid|supergeometric cohesion]]
 
-* [[tangent cohesive (∞,1)-topos|stable cohesion]]
 
+**Apppications**
+
+* [differential calculus in cohesion](differential+calculus#InCohesiveHomotopyTheory)
+
+* [[schreiber:differential cohomology in a cohesive topos|differential cohomology]]
+
+* [[∞-Chern-Weil theory introduction]]
+
+* [[local prequantum field theory]]
+
+* [[motivic quantization]]
 
 category: adjective
 
