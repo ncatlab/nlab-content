@@ -1,0 +1,66 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $G$ be a [[compact Lie group]] and write $L G$ for its _[[loop group]]_. See there for details and notation.
+
+Write 
+
+$$
+  t_\theta \colon L G \to L G
+$$
+
+for the [[automorphism]] which rotates loops by an [[angle]] $\theta$. 
+
+The corresponding [[semidirect product group]] we write $S^1 \rtimes L G$
+
++-- {: .num_defn }
+###### Definition
+
+Let $V$ be a [[topological vector space]]. A linear representation
+
+$$
+  S^1 \to Aut(V)
+$$
+
+of the [[circle group]] is called **positive** if $\exp(i \theta)$ acts by $\exp(i A \theta)$ where $A \in End(V)$ is a [[linear operator]] with positive [[spectrum of an operator|spectrum]].
+
+A linear [[representation]] 
+
+$$
+  \rho : L G \to Aut(V)
+$$
+
+is said to have **positive energy** or to be a [[positive energy representation]]** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
+
+=--
+
+## Related concepts
+
+* [[quantization of loop groups]]
+
+* [[conformal block]]
+
+* [[equivariant elliptic cohomology]]
+
+* [[Loop Groups and Twisted K-Theory]]
+
+
+## References
+
+The standard textbook on loop groups is
+
+* Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+  {#PressleySegal}
+
+A review talk is 
+
+* [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
+ {#Segal}
+
+
+
+[[!redirects positive energy representations]]
