@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _flat resoltion lemma_ in [[homological algebra]] say that the [[Tor]]-[[derived functor]], which a-priori is defined via [[projective resolutions]], may also be computed via [[resolution]] by [[flat modules]].
+The _flat resolution lemma_ in [[homological algebra]] say that the [[Tor]]-[[derived functor]], which a-priori is defined via [[projective resolutions]], may also be computed via [[resolution]] by [[flat modules]].
 
 ## References
 
