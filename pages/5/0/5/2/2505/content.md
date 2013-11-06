@@ -75,7 +75,8 @@ Next:
 
 **Remark**  The third definition is the one that is easiest to generalize. For our simple purposes, though, the second one will be the most convenient.
 
-From the second definition it follows that to study the [[moduli space]] of [[elliptic curve]]s it suffices to study the [[moduli space]] of [[lattice]]s in $\mathbb{C}$.
+From the second definition it follows that to study the 
+[[moduli space of elliptic curves]] it suffices to study the [[moduli space]] of [[lattice]]s in $\mathbb{C}$.
 
 **Definition** A **[[framed elliptic curve]]** is an [[elliptic curve]] $(X,P)$ (in the sense of the first definition above) together with an ordered basis $(a,b)$ of $H_1(X, \mathbb{Z})$ with $(a \cdot b) = 1 $
 
