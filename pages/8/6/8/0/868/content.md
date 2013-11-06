@@ -60,3 +60,6 @@ For more, including why linear orders are more often useful in constructive math
 [[!redirects totally ordered set]]
 [[!redirects totally ordered sets]]
 [[!redirects total ordering]]
+
+[[!redirects ordering]]
+[[!redirects orderings]]
