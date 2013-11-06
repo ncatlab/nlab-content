@@ -29,10 +29,14 @@
 
 ## Idea
 
-The _string 2-group_ is a [[smooth ∞-groupoid|smooth 2-group]]-refinement of the [[topological group]] called the [[string group]].
+The _string 2-group_ is a [[smooth ∞-groupoid|smooth 2-group]]-refinement of the [[topological group]] called the [[string group]]. It is the [[∞-group extension]] induced by the smooth/stacky version of the [[first fractional Pontryagin class]]/[[second Chern class]].
 
 
 ## Definition
+
+A string 2-group extension $String(G)$ is defined for every [[simple Lie group|simple]] [[simply connected topological space|simply connected]] [[compact Lie group]] $G$, such as the [[spin group]] $G = Spin(n)$ or the [[special unitary group]] $G = SU(n)$ (for non-low $n$).
+
+Since [[string structures]] arise predominantly as higher analogs of [[spin structures]], the default choice is $G = Spin$ and in that case one usually just writes $String = String(Spin)$, for short. 
 
 Recall first that the [[string group]] in [[Top]] is one step in the [[Whitehead tower]] of the [[orthogonal group]].
 
