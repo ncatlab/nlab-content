@@ -50,12 +50,12 @@ $$
 
 see [[exterior differential system]] for details
 
-## In terms synthetic differential equations
+## In terms of synthetic differential geometry
   {#InSynthDiff}
 
 A perspective on differential equations from the [[nPOV]] of [[synthetic differential geometry]] is given in 
 
-* [[Bill Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+* [[William Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
   (on the description of [[differential equation]]s in terms of synthetic differential geometry)
 
@@ -141,6 +141,8 @@ In this diagram now
 
 
 ## Related concepts
+
+* [[differentiation]], [[differential calculus]]
 
 * [[ordinary differential equation]]
 
