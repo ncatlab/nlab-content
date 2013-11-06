@@ -108,28 +108,12 @@ computed in the [[category of modules|category of A-modules]] for $A$ the Steenr
 
 * [[José Ádem]], _The iteration of the Steenrod squares in algebraic topology_ , Proceedings of the National Academy of Sciences of the United States of America 38: 720&#8211;726 (1952)
  {#Adem52}
-.
+
+* [online Adem relation calculator](http://math.berkeley.edu/~aaron/adem/)
+
 [[!redirects Steenrod algebras]]
 
 [[!redirects Adem relation]]
 [[!redirects Ádem relation]]
 [[!redirects Adem relations]]
 [[!redirects Ádem relations]]
----
-H. R. Margolis, Spectra and the Steenrod algebra North-Holland Mathematical Library 29, North-Holland Publishing Co., Amsterdam, 1983.
-
-For a construction and the characterization of Steenrod square, see the brief article of Culbertson in the Friedman scans folder.
-
-Some original notes of Steenrod, see Steenrod.pdf in the Friedman scans folder.
-
-Many articles in Geom. Topol. Monogr. 11 (2007), available online, I think all articles on arxiv.
-
-LNM0168 The Steenrod algebra and its applications
-
-Voevodsky comment during a talk in Muenster: Regarding the Morel-Hopkins iso. They probably prove it using the computation of the Steenrod alg, so restriction on char. I think it should be proven using geometric argument similar to Levine zero-slice paper. Then one could go the other way around, and use this iso to compute the Steenrod algebra without any char/torsion restrictions, e.g. $p=l$ ok.
-
-&lt;http://mathoverflow.net/questions/55833/singular-complex-cohomology-ring-steenrod-operations>
-
-&lt;http://mathoverflow.net/questions/1094/commutativity-in-k-theory-and-cohomology>
-
-nLab page on [[nlab:Steenrod algebra]]
