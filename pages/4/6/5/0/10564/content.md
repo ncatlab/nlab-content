@@ -24,7 +24,7 @@ Let $G$ be a [[compact Lie group]]. Write $T \hookrightarrow G$ for its [[maxima
 
 Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. 
 
-+-- {: .num_defn}
++-- {: .num_defn #TheModuliSpace}
 ###### Definition
 
 Write 
@@ -46,7 +46,7 @@ This $A_G$ is the [[moduli space|moduli scheme]] of [[stable bundle|semistable]]
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #ModuliSpaceOfFlatConnections}
 ###### Remark
 
 For geometry over the [[complex numbers]] and  $A = \mathbb{C}/\tau$ a 2-[[torus]], the scheme $A_G$ is the [[moduli space of flat connections]] on $A$, by the discussion at _[moduli space of connections -- flat connections over a torus](moduli+space+of+connections#FlatConnectionsOverATorus)_.
@@ -129,6 +129,128 @@ takes a space with $G$-[[action]] to its $G$-equivariant elliptic cohomology spe
 =--
 
 ([Gepner 05, theorem 4](#Gepner05))
+
+## Properties
+ {#Properties}
+
+### Relation to conformal blocks of the WZW model
+ {#RelationToConformalBlocks}
+
+
+For $G$ a compact, simple and simply connected Lie group,
+consider the [[string 2-group]] [[∞-group extension]]
+
+$$
+  \array{
+    \mathbf{B}^2 U(1) &\to& \mathbf{B}String
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+The corresponding [[higher moduli stacks]] of [[flat ∞-connections]] on an [[elliptic curve]] $T$ form the [[∞-group extension]]
+
+$$
+  \array{
+    [\Pi(T),\mathbf{B}^2 U(1)] &\to& [\Pi(T),\mathbf{B}String]
+    \\
+    && \downarrow
+    \\
+    && [\Pi(T), \mathbf{B}G]
+  }
+  \,.
+$$
+
+Now passing to the [[0-truncation]] turns the bottom piece into the [[moduli space of flat connections]] on the torus, which is $A_G$, def. \ref{TheModuliSpace}, remark \ref{ModuliSpaceOfFlatConnections}.
+
+By the discussion at [smooth higher holonomy](smooth+infinity-groupoid#StrucChernSimons) the 0-truncation of the top left piece is $U(1)$, so under 0-truncation we should get a $U(1)$-[[principal bundle]]
+
+$$
+  \array{
+    U(1) &\longrightarrow& \tau_0 [\Pi(T),\mathbf{B}String]
+    \\
+    && \downarrow
+    \\
+    && A_G
+  }
+  \,.
+$$
+
+This state of affairs is hinted at in ([Lurie, section 5.1](#Lurie)).
+
+More in detail, notice that the [[string 2-group]] extension is modulated by a map
+
+$$
+  \mathbf{c} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 U(1)_{conn}
+$$
+
+and the above circle-bundle is modulated by the [[transgression]] of that 
+
+$$
+  \exp\left(
+    \tfrac{i}{\hbar}
+    \int_{T} \mathbf{c}
+  \right)
+  \;\colon\;
+  [T, \mathbf{B}G_{conn}]
+   \stackrel{[T,\mathbf{c}]}{\longrightarrow}
+  [T, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{\exp(\tfrac{i}{\hbar} (-) )}{\longrightarrow}
+  \mathbf{B}U(1)_{conn}
+  \,.
+$$
+
+(By the discussion at [[schreiber:differential cohomology in a cohesive topos|dcct]].)
+
+By the general discussion at [[quantization of Chern-Simons theory]] and the [[holography|holograpic]] [[AdS3-CFT2 and CS-WZW correspondence|CS-WZW correspondence]], the space of [[sections]] of this line bundle is the space of [[conformal blocks]] of the [[Wess-Zumino-Witten model]] on $T$. 
+
+(This statement also appears as ([Lurie, remark 5.2](#Lurie))). 
+
+
+### Relation to loop group representations
+ {#RelationToLoopGroupRepresentations}
+
+When restricting the above general construction
+to the [[Tate curve]], then the confromal blocks become
+[[loop group representations]].
+
+In terms of differential geometry [[schreiber:differential cohomology in a cohesive topos|dcct]] consider the map
+
+$$
+  G \longrightarrow [S^1, \mathbf{B}G_{conn}]
+$$
+
+which locally sends a group elemnent $g$ to the constant [[principal connection]] on the circle with $g$ as its [[holonomy]].
+
+This induces an inclusion
+
+$$
+  [S^1, G]
+    \hookrightarrow
+  [S^1, [S^1, \mathbf{B}G_{conn}]]
+    \simeq
+  [T, \mathbf{B}G_{conn}]
+$$ 
+
+and pulling the above WZW circle bundle back along this inclusion
+yields the bundle on the [[loop group]] which is the [[prequantum bundle]]
+whose [[geometric quantization]] yields the [[loop group representations]]
+of [[positive energy representations|positive energy]].
+
+Algebraically, this corresponds to evaluating equivariant elliptic cohomology on the [[Tate curve]], this is ([Lurie, theorem 5.1](#Lurie)).
+
++-- {: .num_remark}
+###### Remark
+
+In the full [[derived algebraic geometry]] the space of sections of the line
+bundle on the moduli space has the structure of a $K((q))$-[[∞-module]], hence of an actual [[spectrum]] ([Lurie, below remark 5.4](#Lurie)).
+
+=--
+
+(...)
 
 ## Related concepts
 
