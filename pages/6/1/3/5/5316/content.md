@@ -225,6 +225,25 @@ over the [[integers]].
 
 This is the [[moduli stack]] of elliptic curves.
 
+### Compactified moduli stack
+
+Consider the complex analytic parameteritation over the [[annulus]]
+
+$$
+  \{q \in \mathbb{C} | 0 \lt {\vert q \vert} \lt 1 \}
+$$
+
+of elliptic curves
+
+$$
+  E_q \coloneqq \mathbb{C}/q^{\mathbb{Z}}
+  \,.
+$$
+
+This has an extension to the origin, where $E_0$ is a nodal curve. Algebraically, in a [[formal neighbourhood]] of the origin, hence over $Spec \mathbb{Z}[ [q] ]$, this is the [[Tate curve]].
+
+e.g. ([Lurie, section 4.3](#Lurie)).
+
 ## Properties
 
 ### Cohomology
@@ -277,5 +296,6 @@ An introduction is for instance in
 * [[Andre Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf)) in _Topological modular forms_ Talbot workshop 2007 ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/)) 
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+ {#Lurie}
 
 [[!redirects moduli space of elliptic curves]]
