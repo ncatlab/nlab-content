@@ -57,6 +57,11 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
  {#Nohara}
 
 
+Relation to [[conformal blocks]]:
+
+* Arnaud Beauville, Yves Laszlo, _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
+ {#BeauvilleLaszlo93}
+
 [[!redirects theta functions]]
 [[!redirects theta-function]]
 [[!redirects theta-functions]]
