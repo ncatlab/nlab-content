@@ -37,6 +37,9 @@ But notice that also plain [[Chern-Simons theory]] is a [[string theory]], but o
 
 A general argument that for all of the [[AdS-CFT correspondence]] the [[conformal blocks]] on the CFT-side are given just by the [[higher dimensional Chern-Simons theory]]-sector inside the dual [[gravity]] theory is in ([Witten98](#Witten98)). This applies notably to the duality between [[7-dimensional Chern-Simons theory]] and the conformal blocks in the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]].
 
+## Related concepts
+
+* [[quantization of Chern-Simons theory]]/[[quantization of loop groups]]
 
 
 ## References
