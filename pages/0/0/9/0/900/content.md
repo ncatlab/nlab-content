@@ -30,7 +30,10 @@ The [[objects]] of the [[category]] $pro$-$C$ are [[diagrams]] $F:D\to C$ where 
 
 \[pro\text{-}C(F,G) = lim_{e\in E} colim_{d\in D} C(F d, G e)\]
 
-The [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. Cofiltered limits there are [[thread]]s and filtered colimits are [[germs]] (classes of equivalences). Thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
+The [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. 
+
+
+Cofiltered limits in [[Set]] are [[thread]]s and filtered colimits are [[germs]] (classes of equivalences), thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
 $s = (germ_e(s))_{e\in E}$ which can be more concretely written as $([s_{d_e,e}])_e$; thus $[s_{d_e,e}]\in colim_{d\in D} C(F d, G e)$ where $s_{d_e,e}\in C(F d_e, G e)$ is some representative of the class; there is at least one $d_e$ for each $e$; if the domain $E$ is infinite, we seem to need an axiom of choice in general to find a function $e\mapsto d_e$ which will choose one representative in each class $germ_e(s)$. Thus $s$ is given by the (equivalence class) of the following data
 
 * function $e\mapsto d_e$ 
@@ -82,7 +85,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 *  [[Michael Artin]] and [[Barry Mazur]], _&#201;tale homotopy theory_, 1969, No. 100 in Lecture 
 Notes in Maths., Springer-Verlag, Berlin.
 
-* [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (It is a reprint of the 1989 edition without amendments.)
+* [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
