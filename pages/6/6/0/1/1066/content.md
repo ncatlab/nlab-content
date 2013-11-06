@@ -90,17 +90,9 @@ Similar, but more complicated, definitions work for [[complete Segal space]]s an
 
 ##For quasi-categories ##
 
-For [[quasi-category|quasi-categories]], one can write down a definition similar to those of $sSet$-enriched categories, but there is also the following direct construction: 
+For [[quasi-category|quasi-categories]], one can write down a definition similar to those of $sSet$-enriched categories.
 
-the [[nerve|simplicial nerve]] functor $N :$ [[Cat]] $\to$ [[sSet]] has a [[adjoint functor|left adjoint]]
-
-$$
- h : sSet \to Cat
- \,,
-$$
-
-and the homotopy category of a quasi-category $C$ (a [[simplicial set]] with extra [[stuff, structure, property|properties]]) is its image $h C$ under this functor.
-
+Viewing $C$ as a [[simplicial set]], the homotopy category $hC$ can also be described as its [[fundamental category]] $\tau_1(C)$, i.e. the image of $C$ by the [[left adjoint]] $\tau_1 : SSet \to Cat$ of the [[nerve]] functor $N$.
 
 ## References
 
