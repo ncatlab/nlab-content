@@ -412,7 +412,7 @@ The above then says that
 
 Remembering that the &#268;ech cohomology is the colimit over refinement of covers over cohomology classes defined this way, one sees the standard
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 &#268;ech cohomology with coefficients in $\mathbf{B}G$
@@ -513,6 +513,7 @@ this is the nonabelian cohomology classifying
 
 
 ## Abelian &#268;ech cohomology ##
+ {#AbelianCechCohomology}
 
 In much of the literature _&#268;ech cohomology_ denotes exclusively the abelian case, which we now describe.
 
@@ -530,7 +531,7 @@ The following structure arises,
 when one computes &#268;ech cohomology in this context,
 as shown below.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### &#268;ech complex
 
 Let $\{U_i \to X\}$ be a collection of open subsets
@@ -615,7 +616,7 @@ Here the relation on the right is the
 complex $A_\bullet$ to simplices .
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition (abelian &#268;ech cohomology)
 
 Let $A_\bullet$ be a sheaf with values in $Ch_+$
@@ -811,7 +812,7 @@ $$
 
 from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem 
 
 If $X$ is a [[paracompact space]] the canonical morphism
@@ -844,7 +845,7 @@ $$
 
 from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem 
 
 Let $A$ be a complex of sheaves on $X$ concentrated
