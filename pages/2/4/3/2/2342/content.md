@@ -17,10 +17,57 @@ Probably should pass through Riemann and Weierstrass, to explain "elliptic".
 
 ## Definition 
 
+### Over a general ring
 
-**Definition** An **elliptic curve** over a commutative [[ring]] $R$ is a [[group object]] in the [[category]] of [[scheme]]s over $R$ that is a relative 1-dimensional, , [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
++-- {: .num_defn #EllipticCurve}
+###### Definition
 
-This implies that it has [[genus]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group object]] in the [[category]] of [[scheme]]s over $R$ that is a relative 1-dimensional, , [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This implies that an elliptic curva has [[genus]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+
+=--
+
+### Over the complex numbers
+
++-- {: .num_prop #CharacterizationOverC}
+###### Proposition
+
+An [[elliptic curve]], def. \ref{EllipticCurve}, over the [[complex numbers]] $\mathbb{C}$ is equivalently
+
+* a [[Riemann surface]] $X$ of [[genus]] 1 with a fixed point $P \in X$
+
+* a quotient $\mathbb{C}/\Lambda$ where $\Lambda$ is a [[lattice]] in $\mathbb{C}$;
+
+* a compact complex [[Lie group]] of dimension 1.
+
+* a [[smooth scheme|smooth]] [[algebraic curve]] of degree 3 in $\mathcal{P}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+From the second definition it follows that to study the 
+[[moduli space of elliptic curves]] it suffices to study the [[moduli space]] of [[lattices]] in $\mathbb{C}$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A **[[framed elliptic curve]]** is an elliptic curve $(X,P)$ in the sense of the first item in prop. \ref{CharacterizationOverC}, together with an [[ordering|ordered]] [[basis]] $(a,b)$ of $H_1(X, \mathbb{Z})$ with $(a \cdot b) = 1 $
+
+A **framed lattice** in $\mathbb{C}$ is a lattice $\Lambda$ together with an ordered basis $(\lambda_1, \lambda_2)$ of $\Lambda$ such that $Im(\lambda_2/\lambda_1) \gt 0$.
+
+=--
+
+## Properties
 
 ### Group law 
 
@@ -35,7 +82,11 @@ we get a [[ringed space]] $(\hat E, \hat O_{E,0})$
 
 
 
-**example** if $R$ is a [[field]] $k$, then the [[structure sheaf]] $\hat O_{E,0} \simeq k[ [z] ]$
++-- {: .num_example}
+###### Example
+
+
+If $R$ is a [[field]] $k$, then the [[structure sheaf]] $\hat O_{E,0} \simeq k[ [z] ]$
 
 then 
 
@@ -48,9 +99,12 @@ $$
   k[[x,y]]
 $$
 
+=--
 
++-- {: .num_example}
+###### Example
 
-**example** **(Jacobi quartics)**
+**(Jacobi quartics)**
 
 $$
   y^2 = 1- 2 \delta x^2 + \epsilon x^4
@@ -68,9 +122,11 @@ $$
 
 if $\Delta := \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
 
-If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ (additive or multiplicative formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+=--
 
-## Relation to elliptic cohomology 
+If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ ([[additive group|additive]] or [[multiplicative group|multiplicative]] formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+
+### Relation to elliptic cohomology 
 
 Elliptic curves, via their [[formal group law]]s, give the name to [[elliptic cohomology]] theories.
 
