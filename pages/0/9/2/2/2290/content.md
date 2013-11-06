@@ -236,6 +236,8 @@ replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[repres
 
 * [[elliptic genus]], [[equivariant elliptic genus]]
 
+* [[elliptic Chern character]]
+
 * [[equivariant elliptic cohomology]]
 
 * [[sigma-orientation]]
