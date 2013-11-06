@@ -103,11 +103,13 @@ $$
   \rho : L G \to Aut(V)
 $$
 
-is said to have **positive energy** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
+is said to have **positive energy** or to be a **[[positive energy representation]]** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
 
 =--
 
 #### By geometric quantization (looped orbit method)
+
+We discuss the [[quantization of loop groups]] in the sense of [[geometric quantization]] of their canonical [[prequantum bundle]].
 
 Let $G$ be a [[compact Lie group]].
 Let $T \hookrightarrow G$ be the inclusion of a [[maximal torus]]. There is a [[fiber sequence]]
