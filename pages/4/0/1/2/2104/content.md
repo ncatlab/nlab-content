@@ -222,6 +222,8 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
 * [[quantization of Chern-Simons theory]]
 
+* [[quantization of loop groups]]
+
 
 ## Related entries
 
