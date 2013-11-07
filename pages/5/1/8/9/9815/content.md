@@ -40,4 +40,9 @@ So far there is no realisation of such a category, but there are proposals by [[
 
 * [[Marc Levine]], _Mixed Motives_, Handbook of K-theory ([pdf](http://www.uni-due.de/~bm0032/publ/MixMotKHB.pdf))
 
+Section 8.3 of 
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_  ([pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf))
+
+
 [[!redirects mixed motives]]
