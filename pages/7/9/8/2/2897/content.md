@@ -47,6 +47,11 @@ More details on this (and a good review of periods in the first place) is in
 
 * Annette Huber, Stefan M&#252;ller-Stach, _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
 
+and briefly in section 8.5 of 
+
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 See also
 
 * A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
