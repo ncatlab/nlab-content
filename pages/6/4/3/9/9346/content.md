@@ -389,7 +389,16 @@ Other entries on the $n$Lab with related lecture notes, expositions and introduc
 
 * [[geometry of physics]]
 
+* [[fiber bundles in physics]]
+
 * [[twisted smooth cohomology in string theory]]
+
+* [[motivation for higher differential geometry]]
+
+* [[higher category theory and physics]]
+
+* [[motives in physics]]
+
 
 ## References
 
