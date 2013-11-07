@@ -44,12 +44,12 @@ Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the
 ### Multiplicative group
  {#MultiplicativeGroup}
 
-The [multiplicative group object](http://ncatlab.org/nlab/show/affine%20line#MultiplicativeGroup) in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
+The [[multiplicative group]] object in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
 
 * whose underlying affine scheme is
 
   $$
-    (\mathbb{A}^1 - \{0\}) := Spec k[t,t^{-1}]
+    (\mathbb{A}^1 - \{0\}) := Spec \left(k[t,t^{-1}]\right)
     \,,
   $$
 
@@ -82,9 +82,30 @@ The [multiplicative group object](http://ncatlab.org/nlab/show/affine%20line#Mul
     \,.
   $$
 
-### Additive group
+Therefore for $R$ any [[ring]] a morphism
 
-The [additive group object](http://ncatlab.org/nlab/show/line+object#AdditiveGroupObject) in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** -- is the [[group scheme]] denoted $\mathbb{G}_a$  
+$$
+  Spec R \longrightarrow \mathbb{G}_m
+$$
+
+is equivalently a ring homomorphism
+
+$$
+  R \leftarrow k[t,t^{-1}]
+$$
+
+which is equivalently a choice of multiplicatively invertible element in $R$. Therefore
+
+$$
+  Hom(Spec R , \mathbb{G}_m) \simeq R^\times = GL_1(R)
+$$
+
+is the [[group of units]] of $R$.
+
+### Additive group
+ {#AdditiveGroup}
+
+The [[additive group]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** -- is the [[group scheme]] denoted $\mathbb{G}_a$  
 
 * whose underlying object is $\mathbb{A}^1$ itself;
 
