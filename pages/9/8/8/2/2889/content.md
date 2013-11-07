@@ -176,6 +176,7 @@ More details are in &#167;4 of
 
 * [[motivic spectrum]]
 
+* [[motives in physics]]
 
 ## Further references
 
