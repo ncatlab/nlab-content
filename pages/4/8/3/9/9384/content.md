@@ -412,5 +412,14 @@ See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric q
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher prequantum geometry]]_
 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive infinity-topos]]_
+
+
+
+[[!redirects higher prequantization]]
+[[!redirects higher prequantizations]]
+
+[[!redirects higher pre-quantization]]
+[[!redirects higher pre-quantizations]]
 
 
