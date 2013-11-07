@@ -368,6 +368,8 @@ The action of a [[motivic Galois group]] ("[[cosmic Galois group]]") on the spac
 * [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
  {#Kontsevich99}
 
+See also at _[[motives in physics]]_.
+
 [[!redirects deformation quantizations]]
 
 [[!redirects algebraic deformation quantization]]
