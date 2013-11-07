@@ -116,7 +116,9 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## Related concepts
 
-* [[Beilinson regulator]]
+* [[regulator]], [[Beilinson regulator]]
+
+* [[Grothendieck-Riemann-Roch theorem]]
 
 * [[higher chromatic Chern character]]
 
