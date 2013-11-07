@@ -15,7 +15,9 @@
 
 ## Idea
 
-A [[moduli space]] of ([[flat connection|flat]]) [[connections on bundles]] over some prescribed [[space]].
+A [[moduli space]] of [[connections on bundles]] over some prescribed [[space]].
+
+Often one considers [[flat connections]] only, see at _[[moduli space of flat connections]]_.
 
 ## Properties
 
@@ -39,17 +41,24 @@ The moduli space of $G$ [[flat connections]] on a 2-dimensional [[torus]] $A \si
 first, the [[moduli stack]] of flat connections is
 
 $$
-  [\Pi(A), \mathbf{B}G] \simeq Hom_{Grp}(\mathbb{Z} \times \mathbb{Z}, G)//_{ad} G
+  \begin{aligned}
+    [\Pi(A), \mathbf{B}G] 
+    & \simeq [B [A, S^1], \mathbf{B}G]
+    \\
+    & \simeq Hom_{Grp}(\mathbb{Z} \times \mathbb{Z}, G)//_{ad} G
+  \end{aligned}
 $$
 
-Here a single flat connection is just a choice of pair of of two commuting elements in $G$, and $G$ acts on that by [[conjugation]]. Now any two commuting elements can be taken to sit in a [[maximal torus]] $T \hookrightarrow G$, and up to [[conjugation]] we can take this to be one fixed maximal torus. This means that the moduli space is actually
+(see also the discussion at _[characters and fundamental groups of tori](http://ncatlab.org/nlab/show/group+character#CharactersAndFundamentalGroupsOfTori)_).
+
+Here a single [[flat connection]] is just a choice of pair of of two commuting elements in $G$, and $G$ acts on that by [[conjugation]]. Now any two commuting elements can be taken to sit in a [[maximal torus]] $T \hookrightarrow G$, and up to [[conjugation]] we can take this to be one fixed maximal torus. This means that the moduli space is actually
 
 $$
   \pi_0 \left(
-    Hom_{Grp}(\mathbb{Z} \times \mathbb{Z}, G)//_{ad} G
+    Hom_{Grp}([A,S^1], G)//_{ad} G
   \right)
   \simeq
-  Hom_{Grp}(\mathbb{Z} \times \mathbb{Z}, T)/W
+  Hom_{Grp}([A, S^1], T)/W
   \,,
 $$
 
@@ -62,7 +71,7 @@ $$
   \,.
 $$
 
-where $[T,S^1]$ is the [[character group]] of the maximal torus.
+where now $[T,S^1]$ is the [[character group]] of the [[maximal torus]].
 
 In this form the moduli space of flat connections appears prominently for instance in the discussion of [[equivariant elliptic cohomology]].
 
@@ -70,6 +79,8 @@ In this form the moduli space of flat connections appears prominently for instan
 ## Related concepts
 
 * [[Tamagawa numbers]]
+
+* [[Hitchin connection]]
 
 ## References
 
