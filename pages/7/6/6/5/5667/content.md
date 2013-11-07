@@ -996,6 +996,8 @@ The general analogy between KK-cocycles and [[motives]] is noted explicitly in
 * [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  {#ConnesConsaniMarcolli05}
 
+* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 and also very briefly in ([Meyer 06](#Meyer06)).  
 
 A relation between [[motivic cohomology]] and bivariant [[algebraic K-theory]] is discussed in 
@@ -1026,7 +1028,7 @@ In
 
 it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
 
-
+See also at _[[motivic quantization]]_ and _[[motives in physics]]_.
 
 
 
