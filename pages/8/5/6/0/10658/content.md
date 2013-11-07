@@ -27,10 +27,14 @@
 
 ### Via perturbative algebraic deformation quantization
 
-In the first case one observes that [[formal deformation quantization]] of $n$-dimensional [[prequantum field theory]] amounts to choosing an inverse [[equivalence]] to the [[formality]] map from [[En-algebras]] to [[Pn-algebras]], this is explained at _[deformation quantization -- relation to motivic Galois group](deformation+quantization#MotivicGaloisGroup)_. 
+In the first case one observes that [[formal deformation quantization]] of $n$-dimensional [[prequantum field theory]] amounts to choosing an inverse [[equivalence]] to the [[formality]] map from [[En-algebras]] to [[Pn-algebras]], this is explained at _[Motivic Galois group action on the space of quantizations](deformation+quantization#MotivicGaloisGroup)_. 
 
-The [[automorphism infinity-group]] of either side therefore naturally [[infinity-action|acts]] on the space of formal deformation quantization choices obtained this way and one shows (conjectured by Kontsevich, recently proven by Dolgushev) that the connected component group of this is the 
-[[Grothendieck-Teichmüller group]], a [[quotient]] of the [[motivic Galois group]]. Related to this in some way is Connes "[[cosmic Galois group]]acting on the space of [[renormalization|renormalizations]] of [[perturbative quantum field theory]]. According to Kontsevich, this explains the role of motivc structures in [[correlation functions]] in perturbative field theory, see at _[Motivic Galois group action on the space of quantizations](http://ncatlab.org/nlab/show/deformation+quantization#MotivicGaloisGroup)_. See the appearance in [[scattering amplitudes]] of [[motivic multiple zeta values]] [here](motivic+multiple+zeta+values#ReferencesScattering).
+The [[automorphism infinity-group]] of either side therefore naturally [[infinity-action|acts]] on the space of formal deformation quantization choices obtained this way and one shows (conjectured by [[Maxim Kontsevich]] ([Kontsevich 99](#Kontsevich99)), recently proven by Dolgushev) that the connected component group of this is the 
+[[Grothendieck-Teichmüller group]], a [[quotient]] of the [[motivic Galois group]]. 
+Related to this in some way is [[Alain Connes]]' "[[cosmic Galois group]]" [[action|acting]] on the space of [[renormalization|renormalizations]] of [[perturbative quantum field theory]]. 
+
+According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] in [[perturbative field theory]], see the references at _[[motivic multiple zeta values]] _[[motivic L-function]]_.
+
 
 ### Via non-perturbative geometric quantization
 
@@ -49,8 +53,18 @@ We list references
 ### On motivic structures in perturbative quantum field theory
  {#ReferencesPerturbativeAlgebraic}
 
+The action of a [[motivic Galois group]] ("[[cosmic Galois group]]") on the space of choices in [[deformation quantization]] was first observed/conjectured in 
+
+* [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
+ {#Kontsevich99}
+
+A survey of this and similar motivic phenomena in physics is in the appendix of
+
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
 
+See also the lecture
+
+* [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827))
 
 ### On motivic structures in non-perturbative local quantum field theory
  {#ReferencesNonPerturbativeGeometric}
@@ -236,6 +250,8 @@ A proposal to axiomatize [[perturbative field theory|perturbative]] [[prequantum
 * [[motivation for higher differential geometry]]
 
 * [[higher category theory and physics]]
+
+* [[string theory FAQ]]
 
 
 [[!redirects motivic cohomology in physics]]
