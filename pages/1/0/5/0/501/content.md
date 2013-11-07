@@ -114,6 +114,8 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[finite object]]
 
+* the [[cardinality]] of a finite set is a [[finite number]]
+
 * [[countable ordinal]]
 
 
