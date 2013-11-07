@@ -436,3 +436,5 @@ $$
 ## Related concepts
 
 * [[path integral as a pull-push transform]]
+
+* [[pure motives]], [[motives in physics]], [[motivic quantization]]
