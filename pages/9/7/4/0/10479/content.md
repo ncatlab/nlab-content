@@ -35,6 +35,12 @@ of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in
 
 It is observed in this context that the [[Beilinson regulator]] in [[algebraic K-theory]] is naturally understood as a [[Chern character]] in this perspective of [[differential cohomology]] ([Bunke-Tamme 12](#BunkeTamme12)), which helps with studying it.
 
+## Definition
+
+There is a refinement of the [[Beilinson regulator]] to a smoothly parameterized version $\mathbf{K}$ of [[algebraic K-theory]].
+
+Differential algebraic K-theory is the [[homotopy pullback]] of that along a suitable inclusion of cycles. ([Bunke-Tamme 13, def. 3.1](#BunkeTamme13))
+
 ## Applications
 
 * differential refinement of [[Becker-Gottlieb transfer]] and its image under [[Borel regulators]]. See at _[[transfer index conjecture]]_.
@@ -51,6 +57,7 @@ It is observed in this context that the [[Beilinson regulator]] in [[algebraic K
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
 * [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_ ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421))
+ {#BunkeTamme13}
 
 [[!redirects differential algebraic K-theory]]
 
