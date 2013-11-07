@@ -17,19 +17,21 @@
 
 ## Definition
 
-### Character on a group
-
 There are many notions of a character for an algebraic structure, often topologized. 
 
-A character on the [[group]] $G$ is a [[homomorphism]] into the [[group of units]] of the [[ground field]]. Regarding that the codomain is abelian, the collection of characters is itself an abelian group under the pointwise multiplication, this is called the **[[character lattice]]**
+### Character on a group
+
+A character on the [[group]] $G$ is a [[homomorphism]] into the [[group of units]] of the [[ground field]]. Regarding that the codomain is abelian, the collection of characters is itself an [[abelian group]] under the pointwise multiplication, this is called the **[[character lattice]]**
 
 $$
-  Hom(G,k^\times)
+  Hom(G,k^\times) 
 $$
 
-of the group. (Similarly the **cocharacter lattice** is $Hom(k^\times, G)$).
+of the group. Similarly the **cocharacter lattice** is $Hom(k^\times, G)$.
 
-For [[topological groups]] one considers continuous characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
+For more see at [[group character]].
+
+For [[topological groups]] one considers [[continuous map|continuous]] characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
 ### Character of a representation
@@ -89,21 +91,6 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 [[!redirects character]]
 [[!redirects characters]]
-
-[[!redirects group character]]
-[[!redirects group characters]]
-
-[[!redirects character lattice]]
-[[!redirects character lattices]]
-
-[[!redirects cocharacter lattice]]
-[[!redirects cocharacter lattices]]
-
-[[!redirects co-character lattice]]
-[[!redirects co-character lattices]]
-
-[[!redirects character group]]
-[[!redirects character groups]]
 
 
 [[!redirects character ring]]
