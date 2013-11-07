@@ -38,6 +38,12 @@ $$
 
 where...
 
+## Related concepts
+
+* [[push-forward in generalized cohomology]]
+
+* [[transfer index conjecture]] for [[Becker-Gottlieb transfer]]
+
 ## References
 
 The formulation in terms of [[topological K-theory]] is due to
