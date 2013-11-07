@@ -115,3 +115,6 @@ For general discusison of the relation to [[E-n algebas]] see
 [[!redirects Poisson 2-algebras]]
 [[!redirects Poisson 3-algebras]]
 
+
+[[!redirects Pn-algebra]]
+[[!redirects Pn-algebras]]
