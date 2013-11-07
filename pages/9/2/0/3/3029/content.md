@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _group extension_ of a [[group]] $G$ by a group $A$ is third group $\hat G$ that sits in an [[fiber sequence]] $A \to \hat G \to G$.
+A _group extension_ of a [[group]] $G$ by a group $A$ is third group $\hat G$ that sits in a [[short exact sequence]], that can usefully be thought of as a [[fiber sequence]], $A \to \hat G \to G$.
 
 
 ## Definition
