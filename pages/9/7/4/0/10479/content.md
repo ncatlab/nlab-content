@@ -35,6 +35,10 @@ of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in
 
 It is observed in this context that the [[Beilinson regulator]] in [[algebraic K-theory]] is naturally understood as a [[Chern character]] in this perspective of [[differential cohomology]] ([Bunke-Tamme 12](#BunkeTamme12)), which helps with studying it.
 
+## Applications
+
+* differential refinement of [[Becker-Gottlieb transfer]] and its image under [[Borel regulators]]. See at _[[transfer index conjecture]]_.
+
 ## Related concepts
 
 * [[differential K-theory]]
