@@ -16,7 +16,7 @@
 
 ## Idea
 
-_2-Plectic geometry_ is the higher generalization of [[symplectic geometry]], the special case of [[n-plectic geometry]] ([[multisymplectic geometry]]) for $n = 2$.
+_2-Plectic geometry_ is the higher generalization of [[symplectic geometry]], the special case of  [[n-plectic geometry]] ([[multisymplectic geometry]]) for $n = 2$. This is the input for [[higher prequantum geometry]] in degree 2.
 
 As symplectic geometry naturally describes [[classical mechanics]] and, via [[geometric quantization]], [[quantum mechanics]], hence 1-dimensional [[quantum field theory]], so 2-plectic geometry naturally describes 2-dimensional [[classical field theory]] and, via its [[higher geometric quantization]], 2-dimensional [[QFT]].
 
