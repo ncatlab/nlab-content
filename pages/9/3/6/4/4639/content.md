@@ -1,4 +1,6 @@
 
+> This entry discusses line objects, their multiplicative groups and additive groups in generality. For the traditional notions see at _[[affine line]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -112,9 +114,9 @@ This is called the **multiplicative group** of the line object, often denoted $\
 
   * $\mathbb{A}_T = \mathbb{A}_R$ is what is the _[[affine line]]_ over $R$;
 
-  * $\mathbb{G}_m$ is the standard [[multiplicative group]];
+  * $\mathbb{G}_m$ is the standard [algebraic multiplicative group](affine+line#MultiplicativeGroup);
 
-  * $\mathbb{G}_a$ is the standard [[additive group]].
+  * $\mathbb{G}_a$ is the standard [algebraic additive group](affine+line#AdditiveGroup).
 
 * For $T \coloneqq Smooth \coloneqq$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
 
