@@ -113,6 +113,8 @@ Much else to be discussed...
 
 * **vector bundle**, [[holomorphic vector bundle]]
 
+  * [[module bundle]]
+
   * [[direct sum of vector bundles]]
  
   * [[connection on a vector bundle]]
