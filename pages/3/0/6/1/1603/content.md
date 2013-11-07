@@ -17,7 +17,7 @@
 
 ## Idea
 
-Quasigroup is a binary algebraic structure in which every equation of the form $a\cdot x = b$ or of the form $y\cdot a = b$ has a unique solution for $x$, resp. $y$. The notion of _quasigroup_ is a generalization of the notion of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_.
+Quasigroup is a binary algebraic structure in which every equation of the form $a\cdot x = b$ or of the form $y\cdot a = b$ has a unique solution for $x$, resp. $y$. The notion of _quasigroup_ is a generalization of the notion of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_ (French _la boucle_, Russian &#1083;&#1091;&#1087;&#1072;).
 
 Note that, in the absence of associativity, it is not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
@@ -48,6 +48,7 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 *  $(x y) / y = x$,
 *  $x \backslash (x y) = y$.
 =--
+Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
 In any case:
@@ -114,6 +115,8 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
 * [[Kenneth Kunen]], _Quasigroups, loops, and associative laws_, J. Algebra __185__ (1) (1996), pp. 194&#8211;204
 * P&#233;ter T. Nagy, Karl Strambach, _Loops as invariant sections in groups, and their geometry_, Canad. J. Math. __46__(1994), 1027-1056 [doi](http://dx.doi.org/10.4153/CJM-1994-059-8)
+* Momo Bangoura, _Big&#232;bres quasi-Lie et boucles de Lie_,  Bull. Belg. Math. Soc. Simon Stevin __16__:4 (2009), 593-616 [euclid](http://projecteuclid.org/euclid.bbms/1257776236) [arXiv:math.SG/0607662 ](http://arxiv.org/abs/math/0607662); _Quasi-big&#232;bres de Lie et cohomologie d'alg&#232;bre de Lie_, [arxiv/1006.0677](http://arxiv.org/abs/1006.0677) 
+* Lev Vasil&#697;evich Sabinin, _Smooth quasigroups and loops: forty-five years of incredible growth_, Commentationes Mathematicae Universitatis Carolinae __41__ (2000), No. 2, 377--400 [cdml](http://dml.cz/dmlcz/119171) [pdf](http://dml.cz/dmlcz/119171)
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
 [[!redirects loop (algebra)]]
