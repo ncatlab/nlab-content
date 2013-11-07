@@ -19,9 +19,32 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 For $R$ a [[ring]], its _group of units_, denoted $R^\times$ or $GL_1(R)$, is the [[group]] whose elements are the elements of $R$ that are invertible under the product, and whose group operation is the multiplication in $R$.
 
+=--
+
 ## Properties
+
+### Relation to the multiplicative group
+
++-- {: .num_prop}
+###### Proposition
+
+The group of units of $R$ is equivalently the collection of [[morphisms]]
+from $Spec R$ into the [[group of units]] $\mathbb{G}_m$
+
+$$
+  GL_1(R) = R^\times \simeq Hom(Spec R, \mathbb{G}_m)
+  \,.
+$$
+
+=--
+
+
+### Relation to the group ring
 
 +-- {: .num_remark}
 ###### Remark
