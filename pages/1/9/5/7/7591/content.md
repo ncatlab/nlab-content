@@ -54,6 +54,20 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In terms of [[derived algebraic geometry]] one has that 
+
+$$
+  GL_1(A) \simeq \mathbb{G}_m(A) = Hom(Spec A, \mathbb{G}_m)
+$$
+
+is the [[mapping space]] from $Spec A$ into the [[multiplicative group]].
+This point of view is adopted for instance in ([Lurie, p. 20](#Lurie)).
+
+=--
+
 ### Augmented definition
  {#AugmentedDefinition}
 
@@ -269,6 +283,11 @@ A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR08}
+
+Remarks alluding to this are also on p. 20 of 
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+  {#Lurie}
 
 Theorem 3.2 there is proven using classical results which are collected in
 
