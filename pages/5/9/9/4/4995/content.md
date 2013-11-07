@@ -1185,10 +1185,12 @@ From this one obtains the following list of examples of cohesive $(\infty,1)$-to
 
 * [[smooth ∞-groupoid]]
 
+#### Synthetic differential $\infty$-groupoids
+
 * [[synthetic differential ∞-groupoid]]
 
 
-#### Super $\infty$-groupoids
+#### Smooth Super $\infty$-groupoids
 
 * [[super ∞-groupoid]]
 
@@ -1196,6 +1198,20 @@ From this one obtains the following list of examples of cohesive $(\infty,1)$-to
 
 * [[synthetic differential super ∞-groupoid]]
 
+
+#### Smooth $\infty$-groupoids over algebraic $\infty$-stacks
+
+One can consider the [[tangent (∞,1)-topos]] of the [[cohesive (∞,1)-topos]]
+
+$$
+  Sh_\infty\left(SmthMfd, Sh_\infty\left(Sch_{\mathbb{Z}}\right)\right)
+  \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  Sh_\infty(Sch_{\mathbb{Z}})
+$$
+
+of [[∞-stacks]] on the [[site]] of [[smooth manifolds]] with values in turn in [[∞-stack]] over a [[site]] of [[arithmetic schemes]], hence by [[smooth ∞-groupoids]] but over a [[base (∞,1)-topos]] of algebraic [[∞-stacks]].
+
+This leads to [[differential algebraic K-theory]]. See there for details.
 
 ## Applications
 
