@@ -1574,6 +1574,8 @@ But examples of fundamental importance include for instance
 * etc.
 
 
+* [[universal central extension]]
+
 ## Related concepts
 
 * [[group cohomology]]
