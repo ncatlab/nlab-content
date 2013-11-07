@@ -22,7 +22,7 @@
 
 ## Definition
 
-Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$ to the [[circle group]]. The __Pontrjagin dual group__ $\widehat{A}$ is the commutative group of all characters of $G$ with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the topology of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
+Let $A$ be a [[abelian group|commutative]] ([[Hausdorff space|Hausdorff]]) [[topological group]]. A (continuous) *[[group character]]* of $A$ is any continuous homomorphism $\chi: A\to S^1$ to the [[circle group]]. The __Pontrjagin dual group__ $\widehat{A}$ is the commutative group of all characters of $G$ with pointwise multiplication (that is multiplication induced by multiplication in the [[circle group]], the multiplication of norm-$1$ complex numbers in $S^1\subset\mathbb{C}$) and with the topology of [[uniform convergence]] on each [[compact space|compact]] $K\subset A$ (this is equivalent to the [[compact-open topology]]). 
 
 For example, the Pontrjagin dual of the additive group of [[integer]]s $\mathbb{Z}$ is the circle group $S^1$, and conversely, $\mathbb{Z}$ is the Pontrjagin dual of $S^1$. This pairing of dual topological groups, given by $(n,z) \mapsto z^n$, is related to the subject of [[Fourier series]]. In general, the dual of a [[discrete space|discrete]] group is a [[compact space|compact]] group and conversely. The group $\hat{\mathbb{R}}$ is isomorphic again to $\mathbb{R}$ (the additive group of [[real numbers]]), with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$; similarly, $\hat{\mathbb{R}^n}$ is isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.
 
@@ -33,15 +33,15 @@ For example, the Pontrjagin dual of the additive group of [[integer]]s $\mathbb{
 For every [[locally compact space|locally compact]] (Hausdorff) topological abelian group $A$, the natural function $A \mapsto \widehat{\widehat{A}}$ from $A$ into the Pontrjagin dual of the Pontrjagin dual of $A$, assigning to every $g\in A$ the continuous character $f_g$ given by $f_g(\chi)=\chi(g)$, is an [[isomorphism]] of topological groups (that is, a group isomorphism that is also a [[homeomorphism]]). 
 =--
 
-Thus, the functor 
+Thus, the [[functor]]
 
 $$LocCompAb^{op} \to LocCompAb: G \to \widehat{G}$$ 
 
-is an equivalence, in fact an [[adjoint equivalence]] whose unit 
+is an [[equivalence of categories]], in fact an [[adjoint equivalence]] whose [[unit of an adjunction|unit]] is
 
 $$A \to \widehat{\widehat{A}}: g \mapsto f_g$$ 
 
-and whose counit (the same arrow read in the opposite category) are isomorphisms. This contravariant self-equivalence restricts to equivalences 
+and whose [[counit of an adjunction|counit]] (the same arrow read in the opposite category) are [[isomorphisms]]. This contravariant self-equivalence restricts to equivalences 
 
 $$Ab^{op} \to CompAb$$
 
