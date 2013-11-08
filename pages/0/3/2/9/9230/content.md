@@ -46,9 +46,21 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 ### General
 
-For traditional accounts see at 
+For geenral accounts see at 
+
+* [[Alain Connes]], [[Matilde Marcolli]], section 3 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
 * Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
+
+
+### In terms of motivic structures
+ {#ReferencesInTermsOfMotivicStructures}
+
+In terms of [[motives]] (see also _[[motives in physics]]_)
+
+* [[Spencer Bloch]], [[Helene Esnault]], [[Dirk Kreimer]], _On motives associated to graph polynomials, ([pdf](http://preprints.ihes.fr/2013/P/P-13-24.pdf))
+
+* [[Spencer Bloch]], Pierre Vanhove, The elliptic dilogarithm for the sunset graph, IHES preprint P-13-24, pdf
 
 ### In homological BV-quantization
   {#ReferencesInHomologicalBVQuantization}
