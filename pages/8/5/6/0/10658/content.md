@@ -69,7 +69,8 @@ and more is in
 
 See also the lecture
 
-* [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827))
+* [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827)); S. Bloch, H. Esnault, D. Kreimer, _On motives associated to graph polynomials_ [pdf](http://www.math.uchicago.edu/~bloch/graphpoly050928b.pdf); Spencer Bloch, Pierre Vanhove, _The elliptic dilogarithm for the sunset graph_, IHES preprint P-13-24, [pdf](http://preprints.ihes.fr/2013/P/P-13-24.pdf)
+* Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S, &lt;http://pagesperso.ihes.fr/~vanhove/QFT2012> (has online videos of talks) 
 
 ### On motivic structures in non-perturbative local quantum field theory
  {#ReferencesNonPerturbativeGeometric}
@@ -91,17 +92,16 @@ The formulation of [[geometric quantization]] as an [[index]] map in [[K-theory]
 
 The proposal that the natural [[domain]] for geometric quantization are [[Lagrangian correspondences]] is due to 
 
-* [[Lars Hörmander]], _Fourier Integral Operators I._,
-Acta Math. 127 (1971)
+* [[Lars Hörmander]], _Fourier Integral Operators I._, Acta Math. __127__ (1971)
  {#Hoermander71}
 
-* [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. 6 (1971)
- {#Weinstein71}
+* [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. __6__ (1971) {#Weinstein71}
+
+In [[semiclassical quantization]] the precursor to this are works of Maslov in 1960s (which are quite related to Hoermander's and Sato's work).
 
 With the recognition of [[supersymmetric quantum mechanics]] in the 1980s, [[index theory]] (hence [[push-forward in generalized cohomology]] to the point) was understood to be about [[partition functions]] of systems of [[supersymmetric quantum mechanics]] in 
 
-* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
- {#AlvarezGaume83}
+* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. __90__:2 (1983) 161-173, [euclid](http://projecteuclid.org/euclid.cmp/1103940278) {#AlvarezGaume83}
 
 * [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
  {#Getzler83}
@@ -115,11 +115,7 @@ In higher analogy to this but much more subtly, the [[partition function]] of th
 
 The general perspective of the [[path integral as a pull-push transform]] was originally laid out, somewhat implicitly, in
 
-* [[Daniel Freed]]
-
-  * _Quantum groups from path integrals_ ([arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025))
-
-  * _Higher algebraic structures and quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
+* [[Daniel Freed]], _Quantum groups from path integrals_, [arXiv:q-alg/9501025](http://xxx.lanl.gov/abs/q-alg/9501025); _Higher algebraic structures and quantization_, [arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115)
 
 and then fully explicitly in
 
@@ -127,8 +123,7 @@ and then fully explicitly in
 
 Discussion along these lines of a pull-push quantization over [[KU]] of a 2-dimensional [[Chern-Simons theory]]-like [[gauge theory]] is in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
- {#FreedHopkinsTeleman07}
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent orientation of moduli spaces_, [arXiv:0711.1909](http://arxiv.org/abs/0711.1909) {#FreedHopkinsTeleman07}
 
 More in detail a functorial quantization of suitable correspondences of smooth manifolds to [[KK-theory]] by pull-push has been given in ([Connes-Skandalis 84](#ConnesSkandalis84)) and the generalization of that to [[equivariant K-theory]] (hence to [[groupoid K-theory]] of [[action groupoids]]) is in
 
@@ -233,8 +228,7 @@ An unpublished predecessor note on quantization of correspondences of moduli sta
 Quantization of [[correspondences]] of [[perfect ∞-stacks]] by pull-push of [[stable (∞,1)-categories]] of [[quasicoherent sheaves]] is discussed in
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]],
-_[[geometric function theory|Integral Transforms and Drinfeld Centers in Derived Algebraic
-Geometry]]_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966,
+_[[geometric function theory|Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry]]_, J. Amer. Math. Soc. __23__ (2010), no. 4, 909-966,
 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
 Linearization of [[higher correspondences]] of [[discrete ∞-groupoids]] as the quantizaton of [[∞-Dijkgraaf-Witten theories]] is indicated in section 3 and 8 of 
@@ -257,9 +251,6 @@ A proposal to axiomatize [[perturbative field theory|perturbative]] [[prequantum
  {#CattaneoMnevReshetikhin12}
 
 
-
-
-
 ## Related entries
 
 * [[geometry of physics]]
@@ -274,5 +265,5 @@ A proposal to axiomatize [[perturbative field theory|perturbative]] [[prequantum
 
 * [[string theory FAQ]]
 
-
+[[!redirects motives and physics]]
 [[!redirects motivic cohomology in physics]]
