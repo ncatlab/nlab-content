@@ -78,6 +78,11 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 * [[Albert Schwarz]], _Semiclassical approximation in [[Batalin-Vilkovisky quantization|Batalin-Vilkovisky formalism]]_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246). 
 * A. Laptev, I.M. Sigal, _Global Fourier integral operators and semiclassical asymptotics_, Review of Math. Physics, __12__:5 (2000) 749--766 [pdf](http://www.math.kth.se/~laptev/Research/Papers/LSig.pdf)
 * Maurice A. de Gosson, _Symplectic geometry, Wigner-Weyl-Moyal calculus, and quantum mechanics in phase space_, 385 pp. [pdf](http://opus.kobv.de/ubp/volltexte/2009/3021/pdf/2006_06.pdf)
+* Semyon Dyatlov, _Semiclassical Lagrangian distributions_, [pdf](http://math.mit.edu/~dyatlov/files/2012/hlagrangians.pdf); _Hoermander&#8211;Kashiwara and Maslov indices_, [pdf](http://math.berkeley.edu/~dyatlov/files/2009/maslov.pdf)
+
+Relation to quantum [[integrable system]]s is in a series of works of V&#361; Ng&#7885;c, e.g.
+
+* San V&#361; Ng&#7885;c, _Bohr-Sommerfeld conditions for integrable systems with critical manifolds of focus-focus type_, Preprint Institut Fourier 433, 1998 15 [pdf](http://perso.univ-rennes1.fr/san.vu-ngoc/articles/focus-tout.pdf); _Quantum monodromy in integrable systems_,  Comm. Math. Phys. 203 (1999), no. 2, 465&#8211;479 [doi](http://dx.doi.org/10.1007/s002200050621)
 
 For large N-limit compared to semiclassical expansion see
 
