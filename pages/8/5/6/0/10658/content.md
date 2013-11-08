@@ -33,7 +33,7 @@ The [[automorphism infinity-group]] of either side therefore naturally [[infinit
 [[Grothendieck-Teichmüller group]], a [[quotient]] of the [[motivic Galois group]]. 
 Related to this in some way is [[Alain Connes]]' "[[cosmic Galois group]]" [[action|acting]] on the space of [[renormalization|renormalizations]] of [[perturbative quantum field theory]]. 
 
-According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] in [[perturbative field theory]], see the references at _[[motivic multiple zeta values]] _[[motivic L-function]]_.
+According to Kontsevich, this explains the role of motivc [[periods]] in [[correlation functions]] and hence in [[scattering amplitudes]] (see also at _[[amplituhedron]]_) in [[perturbative field theory]], see the motive-related references at _[[Feynman diagram]]_, at _[[motivic multiple zeta values]] _[[motivic L-function]]_.
 
 
 ### Via non-perturbative geometric quantization
@@ -62,15 +62,19 @@ A survey of this and similar motivic phenomena in physics is in the appendix of
 
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
 
-and more is in
+A detailed review of the motivic [[cosmic Galois group]] [[action]] on the space of [[renormalization]] procedures is in section 7 of
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
-
-See also the lecture
+Discussion of motivic structure in [[periods]] in [[scattering amplitudes]] is also the lecture
 
 * [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827)); S. Bloch, H. Esnault, D. Kreimer, _On motives associated to graph polynomials_ [pdf](http://www.math.uchicago.edu/~bloch/graphpoly050928b.pdf); Spencer Bloch, Pierre Vanhove, _The elliptic dilogarithm for the sunset graph_, IHES preprint P-13-24, [pdf](http://preprints.ihes.fr/2013/P/P-13-24.pdf)
 * Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S, &lt;http://pagesperso.ihes.fr/~vanhove/QFT2012> (has online videos of talks) 
+
+See also the material linked at
+
+* Conference Amplitudes and Periods, Dec 3-7, 2012, IH&#201;S ([web](http://pagesperso.ihes.fr/~vanhove/QFT2012))
+
 
 ### On motivic structures in non-perturbative local quantum field theory
  {#ReferencesNonPerturbativeGeometric}
@@ -97,7 +101,7 @@ The proposal that the natural [[domain]] for geometric quantization are [[Lagran
 
 * [[Alan Weinstein]], _Symplectic manifolds and their lagrangian submanifolds_, Advances in Math. __6__ (1971) {#Weinstein71}
 
-In [[semiclassical quantization]] the precursor to this are works of Maslov in 1960s (which are quite related to Hoermander's and Sato's work).
+In [[semiclassical quantization]] the precursor to this are works of [[Maslov]] in 1960s (which are quite related to Hoermander's and Sato's work).
 
 With the recognition of [[supersymmetric quantum mechanics]] in the 1980s, [[index theory]] (hence [[push-forward in generalized cohomology]] to the point) was understood to be about [[partition functions]] of systems of [[supersymmetric quantum mechanics]] in 
 
