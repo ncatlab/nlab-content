@@ -144,7 +144,7 @@ The following are some remarks on how to possibly realize this and at the same t
 
 So let $G$ be a simple, simply connected [[compact Lie group]].
 
-Regard $\mathbf{B}G$ in [[Smooth?Grd|]] = $Sh_\infty(SmthMfd)$. Then by the discussion at [[Lie group cohomology]] we have
+Regard $\mathbf{B}G$ in [[Smooth∞Grpd]] = $Sh_\infty(SmthMfd)$. Then by the discussion at [[Lie group cohomology]] we have
 
 $$
   \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}\mathbb{C}^\times)
@@ -167,7 +167,7 @@ $$
   }
 $$ 
 
-This cocycle has a [[differential cohomology]]-refinement to the [[universal Chern-Simons 3-conenction]]
+This cocycle has a [[differential cohomology]]-refinement to the [[universal Chern-Simons 3-connection]]
 
 $$
   k \mathbf{L} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 \mathbb{C}^\times_{conn}
@@ -188,7 +188,7 @@ $$
   \mathbf{B}\mathbb{C}^\times_{conn}
 $$ 
 
-which now defines a [[circle-bundle with connection]] on the [[moduli stack of connections]] on $E$.  We can restrict to the [[moduli stack of flat connection]], the [[phase space]] of $G$-[[Chern-Simons theory]]. This is the [[Hitchin connection]].
+which now defines a $\mathbb{C}^\times$ [[bundle with connection]] on the [[moduli stack of connections]] on $E$.  We can restrict to the [[moduli stack of flat connections]], the [[phase space]] of $G$-[[Chern-Simons theory]]. This is the [[Hitchin connection]].
 
 Consider then a collection of tori $E$ parameterized trivially over some parameter space $B$. 
 
@@ -200,7 +200,7 @@ $$
 Then the above yields
 
 $$
-  [(\shape E) \times B, \mathbf{B}G]
+  [(\Pi E) \times B, \mathbf{B}G]
    \stackrel{}{\longrightarrow}
   \mathbf{B}[B,\mathbb{C}]^\times
 $$
@@ -209,7 +209,61 @@ hence yields a $[B,\mathbb{C}^\times]$-bundle over the [[moduli space]] of $B$-c
 
 Now we want to consider this for the case that $B$ is a space in [[spectral geometry]].
 
-To that end, pass to the larger spring 
+To that end, pass to the larger [[(∞,1)-topos]] of [[smooth E-∞ groupoids]] over the [[complex numbers]].
+
+Let $\mathbb{G}_m$ there denote the object which to a pair consisting of a [[smooth manifold]] $U$ and an [[E-∞ ring]] $R$ assigns
+
+$$
+  \mathbb{G}_m \;\colon\; (U, R) \mapsto GL_1(R) \otimes C^\infty(U,\mathbb{C}^\times) 
+$$ 
+
+hence the [[tensor product]] of the [[∞-group of units]] of $R$ with the underlying [[abelian group]] of [[smooth functions]] on $X$ with values in $\mathbb{C}^\times$. 
+
+Let then $A \in CAlg_\infty$ be an [[E-∞ ring]], and take now $B = Spec(A)$. Write 
+
+$$
+  E \to Spec(A)
+$$
+
+for a $B$-collection of [[tori]], now taken to be an [[elliptic curve]] over $Spec(A)$.
+
+Since for a [[torus]] its [[fundamental group]] is [[isomorphic]] to its [[character group]] (via the canonical non-degenrarate [[bilinear form]] on both), we take the [[fundamental groupoid]] $\Pi(E)$ now to be
+
+$$
+  \mathbf{B}[E, \mathbb{G}_m]
+  \,.
+$$
+
+Then since $\mathbb{C}^\times = \mathbb{G}_m$ is the [[multiplicative group]] in this context, we have now (and there is a subtlety here...) that maps 
+
+$$
+  Spec(A) \longrightarrow \mathbb{G}_m
+$$
+
+are equivalently elements in the [[∞-group of units]] of $A$. So we should get an $A$-[[(∞,1)-module bundle]] modulated by
+
+$$
+  \chi
+   \colon
+  [ \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G ]
+  \longrightarrow
+  \mathbf{B}GL_1(A)
+  \,.
+$$
+
+Forming its space of co-sections yields, by the discussion at [[Thom spectrum]], the $\chi$-[[twisted cohomology|twisted]] A-[[cohomology]] [[spectrum]]
+
+$$
+  A^\chi([ \mathbf{B}[E,\mathbb{G}_m], \mathbf{B}G ])
+  \,.
+$$
+
+And that should be the $G$-"equivariant" elliptic cohomology of the point. Actually the [[motivic quantization]] of $G$-[[Chern-Simons theory]].
+
+(...)
+
+
+
 
 
 
