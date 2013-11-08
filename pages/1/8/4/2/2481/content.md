@@ -3,7 +3,9 @@ This entry is about the article:
 * [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
 
 
-This studies the theory of [[generalized scheme]]s whose [[structure sheaf]] takes values in [[E-infinity ring]]-spectra.
+This studies the theory of [[generalized scheme]] whose [[structure sheaf]] takes values in [[E-∞ ring]]-spectra. Hence [[structured (∞,1)-toposes]] in [[E-∞ geometry]].
+
+See at _[[E-∞ scheme]]_.
 
 
 See also 
