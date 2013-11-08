@@ -70,11 +70,11 @@ Sometimes, but not always getting rid of limitations coming from 1-categorical t
 Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]], derived algebraic geometry uses [[higher algebra]]. Where ordinary algebraic geometry uses [[scheme]]s modeled on [[commutative ring]]s, derived algebraic geometry uses [[structured (∞,1)-topos]]es modeled on [[E-∞ ring]]s  and noncommutative derived algebraic geometry models on A-infinity rings, but no topos theory is developed there. 
 
 
-#Definitions#
+## Definitions
 
 For the [[derived noncommutative geometry]] see there. 
 
-## structured $(\infty,1)$-toposes ##
+### structured $(\infty,1)$-toposes ##
 
 In [Lurie, Structured spaces](#LurieStructured) a definition of [[derived algebraic scheme]] and [[derived Deligne-Mumford stack]] is given in the wider context of [[generalized scheme]]s realized as locally affine [[structured (∞,1)-topos]]es.
 
@@ -87,19 +87,25 @@ This definition is based on the observation that it is a deficiency of the ordin
 
 =--
 
-# Applications #
+## Applications 
 
-##Homological mirror symmetry##
+### Homological mirror symmetry
 
 [[Gromov-Witten invariant]]s and homological mirror symmetry is one of the main motivations and statements of the [[derived noncommutative algebraic geometry]] via $A_\infty$-categories, see there for references. It also lead to the study of derived moduli spaces ([Kontsevich, Enumeration 1994](#KontsevichEnum)) developed later by Kapranov, To&#235;n, Lurie and others. 
 
-## Elliptic cohomology ##
+### Elliptic cohomology ##
 
 More recent big success of derived algebraic geometry locally modeled on $E_\infty$-rings was [[elliptic cohomology]] and the construction and study of the [[tmf]] [[spectrum]] as a certain derived moduli  "of derived elliptic curves". This construction of moduli space is based on earlier Lurie result (not available in full) in which Lurie has proved an analogue of the Artin's representability theorem from the algebraic geometry of Grothendieck school. For more on that see
 
 * [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
 
-# References #
+## Related concepts
+
+* [[E-∞ geometry]]
+
+* [[higher differential geometry]]
+
+## References 
 
 A prediction of derived moduli spaces is spelled out (in a bit different language) in
 
@@ -145,7 +151,7 @@ A general theory of [[derived geometry]] is developed in
 * [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]] 
 {#LurieStructured}
 
-and specialized to geometry over $E_\infty$-rings in
+and specialized to geometry over $E_\infty$-rings -- [[E-∞ geoometry]] -- in
 
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
