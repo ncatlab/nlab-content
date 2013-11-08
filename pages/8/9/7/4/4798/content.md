@@ -93,6 +93,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[higher gauge transformation]]
 
+* [[Haag?Lopuszanski?Sohnius theorem]] on symmetries of an [[S-matrix]]
+
 * [[spontaneously broken symmetry]]
 
 * [[principle of equivalence]]
@@ -120,5 +122,4 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 [[!redirects gauge equivalence]]
 [[!redirects gauge equivalences]]
-
 
