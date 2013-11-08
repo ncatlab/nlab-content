@@ -9,7 +9,7 @@ The Coleman theorem says that the only possible [[symmetry]] [[Lie algebra]] of 
 
 (This applies to fundamental [[local symmetry]] of the [[S-matrix]], not to [[global symmetry]] after [[spontaneous symmetry breaking]].)
 
-The Haag&#8211;Lopuszanski&#8211;Sohnius theorem makes the analogous statement for [[super Lie algebras]]: the only possible [[super Lie algebra]] symmetry of an [[S-matrix]] is a [[direct sum]]of the [[super Poincare Lie algebra]] ("[[supersymmetry]]") and another super Lie algebra.
+The Haag&#8211;Lopuszanski&#8211;Sohnius theorem makes the analogous statement for [[super Lie algebras]]: the only possible [[super Lie algebra]] symmetry of an [[S-matrix]] is a [[direct sum]] of the [[super Poincare Lie algebra]] ("[[supersymmetry]]") and another super Lie algebra.
 
 Notice that the [[super Poincare Lie algebra]] itself does mix the plain bosonic [[Poincare Lie algebra]] symmetry with a kind of "internal" symmetry, see also at [[extended supersymmetry]].
 
