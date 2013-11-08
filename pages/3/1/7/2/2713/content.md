@@ -116,6 +116,8 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 
 ## Related concepts
 
+* [[spectral geometry]]
+
 * [[KK-theory]]
 
 * [[spectral action]]
