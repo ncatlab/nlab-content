@@ -17,6 +17,8 @@ For the moment see at _[regulator -- Becker-Gottlieb transfer](Beilinson+regulat
 
 ## References
 
+* [[eom]], _[Becker-Gottlieb transfer](http://www.encyclopediaofmath.org/index.php/Becker-Gottlieb_transfer)_
+
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
  {#BunkeGepner13}
 
