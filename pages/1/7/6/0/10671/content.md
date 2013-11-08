@@ -42,7 +42,7 @@ $$
   \mathbb{G}_m = \mathbb{C}^\times
 $$
 
-naturally carries both the structire of an object in [[smooth ∞-groupoids]] and in [[E-∞ geometry]], which may be compined to the structure of a smooth $E_\infty$-groupoid.
+naturally carries both the structure of an object in [[smooth ∞-groupoids]] and in [[E-∞ geometry]], which may be combined to the structure of a smooth $E_\infty$-groupoid.
 
 For $U \in SmthMfd$ and $A \in CRing_\infty(\mathbb{C})$ let $\mathbb{G}_m \in \mathbf{H}$ be given by
 
