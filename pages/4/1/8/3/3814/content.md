@@ -100,6 +100,10 @@ There are various other variations, too.
 
 ## References
 
+A general review is in 
+
+* [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
 
 * [[domenicofiorenza:The standard model]]
