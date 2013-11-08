@@ -35,9 +35,16 @@ From [this physics.SE comment](http://physics.stackexchange.com/a/15164/5603) by
 
 > Building on this result, Weinberg became convinced that the only real solution to the S-matrix was a field theory of some particles with spin. He still says this every once in a while, but it is dead wrong. The most charitable interpretation is that every S-matrix has a field theory limit, where all but a finite number of particles decouple, but this is not true either (consider little string theory). String theory exists, and there are non-field theoretic S-matrices, namely all the ones in string theory, including little string theory in (5+1)d, which is non-gravitational.
 
+## Properties
+
+### Possible symmetries
+
+see at _[[Haag–Lopuszanski–Sohnius theorem]]_
+
+
 ## Related concepts
 
-See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of signa-models</a>_ 
+See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_ 
 
 * [[scattering amplitude]], [[string scattering amplitude]]
 
