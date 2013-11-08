@@ -20,6 +20,8 @@ The [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], t
 
 ## Definition 
 
+### 1-Equivariant elliptic cohomology
+
 Let $G$ be a [[compact Lie group]]. Write $T \hookrightarrow G$ for its [[maximal torus]] and $W$ for its [[Weyl group]].
 
 Let $E \in CRing_\infty$ be an [[elliptic spectrum|elliptic]] [[E-∞ ring]] [[spectrum]] with [[elliptic curve]] $A \to Spec E$. 
@@ -129,6 +131,87 @@ takes a space with $G$-[[action]] to its $G$-equivariant elliptic cohomology spe
 =--
 
 ([Gepner 05, theorem 4](#Gepner05))
+
+
+### 2-Equivariant elliptic cohomology
+
+> under construction, tentative
+
+In ([Lurie, section 5.1](#Lurie)) is a vague mentioning of a more general perspective, where one evaluates elliptic cohomology not just on [[action groupoids]] of a [[group]], such as $B G$ but also on [[homotopy quotients]] of [[2-groups]], such as notably the [[string 2-group]], and how that gives a more conceptual picture. 
+
+The following are some remarks on how to possibly realize this and at the same time refine it to geometric cohomology ([[differential cohomology]]). Tentative. Handle with care.
+
+
+So let $G$ be a simple, simply connected [[compact Lie group]].
+
+Regard $\mathbf{B}G$ in [[Smooth?Grd|]] = $Sh_\infty(SmthMfd)$. Then by the discussion at [[Lie group cohomology]] we have
+
+$$
+  \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}\mathbb{C}^\times)
+  \simeq
+  H(B G, K(\mathbb{Z},4))
+  \simeq
+  \mathbb{Z}
+  \,.
+$$
+
+The [[∞-group extension]] classified by $k \in \mathbb{Z} \in \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}\mathbb{C}^\times)$ is the [[string 2-group]] at level $k$
+
+$$
+  \array{
+    \mathbf{B}\mathbb{C}^\times &\longrightarrow& \mathbf{B}String_k(G)
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G &\stackrel{k\mathbf{c}}{\longrightarrow}& \mathbf{B}^3 \mathbb{C}^\times
+  }
+$$ 
+
+This cocycle has a [[differential cohomology]]-refinement to the [[universal Chern-Simons 3-conenction]]
+
+$$
+  k \mathbf{L} \;\colon\; \mathbf{B}G_{conn} \longrightarrow \mathbf{B}^3 \mathbb{C}^\times_{conn}
+$$
+
+Now given a [[torus]] $E = T^2$, regarded, for the moment, as a [[smooth manifold]], we have the [[transgression]] of the definition cocycle
+
+$$
+  \exp\left(
+    \tfrac{i}{\hbar}
+    \int_{E} k \mathbf{L}
+  \right)
+  \;\colon\;
+  [E, \mathbf{B}G_{conn}]
+   \stackrel{[E, k \mathbf{c}]}{\longrightarrow}
+  [E, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{\exp\left(\tfrac{i}{\hbar} \int_{E}(-)\right)}{\longrightarrow}
+  \mathbf{B}\mathbb{C}^\times_{conn}
+$$ 
+
+which now defines a [[circle-bundle with connection]] on the [[moduli stack of connections]] on $E$.  We can restrict to the [[moduli stack of flat connection]], the [[phase space]] of $G$-[[Chern-Simons theory]]. This is the [[Hitchin connection]].
+
+Consider then a collection of tori $E$ parameterized trivially over some parameter space $B$. 
+
+$$
+  E \times B \to B
+  \,.
+$$
+
+Then the above yields
+
+$$
+  [(\shape E) \times B, \mathbf{B}G]
+   \stackrel{}{\longrightarrow}
+  \mathbf{B}[B,\mathbb{C}]^\times
+$$
+
+hence yields a $[B,\mathbb{C}^\times]$-bundle over the [[moduli space]] of $B$-collections of flat connections on $E$.
+
+Now we want to consider this for the case that $B$ is a space in [[spectral geometry]].
+
+To that end, pass to the larger spring 
+
+
 
 ## Properties
  {#Properties}
