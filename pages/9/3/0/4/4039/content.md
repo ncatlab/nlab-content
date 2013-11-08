@@ -298,13 +298,14 @@ Fundamental texts of variational calculus include
 
 * Olga Krupkov&#225;, _The geometry of ordinary variational equations_, Springer 1997, 251 p.
 
-* Robert Hermann, _Some differential-geometric aspects of the Lagrange variational problem_, Illinois J. Math. __6__, 1962, 634&#8211;673, [MR145457](http://www.ams.org/mathscinet-getitem?mr=145457),[euclid](http://projecteuclid.org/euclid.ijm/1255632711)
-* Robert Hermann, _Differential geometry and the calculus of variations_, Acad. Press 1968
+* Robert Hermann, _Some differential-geometric aspects of the Lagrange variational problem_, Illinois J. Math. __6__, 1962, 634&#8211;673 [MR145457](http://www.ams.org/mathscinet-getitem?mr=145457) [euclid](http://projecteuclid.org/euclid.ijm/1255632711); 
+_Differential geometry and the calculus of variations_, Acad. Press 1968
 * J. Jost, X. Li-Jost, _Calculus of variations_, CUP 1998
 * [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
  {#Zuckerman}
 
 Examples: [[Jürgen Jost]], _Variational problems from physics and geometry_, [pdf](http://www.mis.mpg.de/fileadmin/jjost/variational_problems_from_physics_and_geometry.pdf)
+* J. J. Duistermaat, _On the Morse index in variational calculus_, Adv. Math. __21__ (1976), 2, 173--195 [pdf](http://www.maths.ed.ac.uk/~aar/papers/duistermaat.pdf).
 
 Some new results are in   
 
@@ -351,7 +352,7 @@ For variational calculus in [[nonstandard analysis]] see survey
 
 * V&#237;tor Neves, _Nonstandard calculus of variations, a survey_, [pdf](http://www2.mat.ua.pt/vneves/nsa/CalcVar-vitor6.pdf)
 
+category: analysis, physics
 [[!redirects calculus of variations]]
-
 [[!redirects variational derivative]]
 [[!redirects variational derivatives]]
