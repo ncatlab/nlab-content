@@ -217,7 +217,7 @@ Further examples:
 ## Properties
  {#Properties}
 
-### Cartesian closure
+### In a cartesian closed category
  {#CartesianClosure}
 
 If the ambient (finitely complete) category $\mathbf{E}$ is a [[cartesian closed category]], then the category $Cat(\mathbf{E})$ of categories internal to $\mathbf{E}$ is also cartesian closed. This was [proved](#BastianiEhresmann_69) [twice](#BastianiEhresmann_72) by [[Ehresmann|Charles]] and [[Andree Ehresmann|Andrée]] (under her maiden name Bastiani) Ehresmann using generalised sketches, or may be proven directly as follows (see also [Johnstone, remark after B2.3.15](#Johnstone)): 
@@ -274,10 +274,25 @@ as a functor $\Delta_3^{op} \to \mathbf{E}$ in the argument $m$ (for each fixed 
 Note that the displayed statement is a proposition in the language of finitely complete categories (i.e., in finitary essentially algebraic logic). Since hom-functors $\mathbf{E}(e, -) \colon \mathbf{E} \to Set$ jointly preserve and reflect the validity of such propositions, it suffices to prove it for the case where $\mathbf{E} = Set$. But this is classical elementary category theory; it says precisely that if $C$ is a small (ordinary) category, then the usual functor categories $C^{\mathbf{2}}$, $C^{\mathbf{3}}$ are equivalently described by exponentials of (truncated) simplicial sets. This completes the proof. 
 =-- 
 
+### In a topos
+ {#InATopos}
+
+If the ambient category is a [[topos]], then with the right kind of notion of internal functor, the internal groupoids form the corresponding [[(2,1)-topos]] of [[groupoid]]-valued stacks and the internal categories form the corresponding [[2-topos]] of [[category]]-valued stacks/[[2-sheaves]].
+
+For the precise statement see at _[2-topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)_
+
 
 ## Related concepts
 
 * [[weak equivalence of internal categories]]
+
+* [2-Topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)
+
+  * [[2-sheaf]]
+
+  * [[2-congruence]]
+
+
 * [[internal site]]
 * [[internal logic]]
 * [[enriched category]]
