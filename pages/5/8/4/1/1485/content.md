@@ -63,7 +63,7 @@ Let $G$ be a pseudogroup on $X$.
 +-- {: .num_defn #Chart}
 ###### Definition
 
-A $G$-**[[chart]]** on a [[topological space]] $M$ is an [[open subset]] $U$ of $M$ together with an embedding
+A $G$-**[[chart]]** on a [[topological space]] $M$ is an [[open subset]] $U$ of $M$ together with an open embedding
 $$
   \phi: U \to X\,.
 $$
@@ -86,7 +86,7 @@ A $G$-**atlas** on a [[topological space]] $M$ is a family of compatible charts 
 +-- {: .num_defn}
 ###### Definition
 
-A $G$-**manifold** is a [[topological space]] equipped with a $G$-atlas, def. \ref{Atlas}.
+A $G$-**manifold** is a [[topological space]] equipped with a $G$-atlas (definition \ref{Atlas}).
 
 =--
 
