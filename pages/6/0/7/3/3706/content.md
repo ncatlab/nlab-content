@@ -18,7 +18,7 @@
 A _Lagrangian submanifold_ of a [[symplectic manifold]] is a submanifold which is a maximal [[isotropic submanifold]], hence a [[submanifold]] on which the [[symplectic form]] vanishes, and which is maximal with this property.
 
 
-In the archetypical example of an even dimensional [[Cartesian space]] $X = \mathbb{R}^{2n}$ equipped with its canonical symplectic form  $\omega = \sum_{i = 1}^n d q_i \wedge d p^i$, standard Lagrangian submanifolds are the submanifolds $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$ of fixed values of the $\{q_i\}_{i = 1}^n$ [[coorsinates]]. Indeed _locally_, every Lagrangian submanifold looks like this. 
+In the archetypical example of an even dimensional [[Cartesian space]] $X = \mathbb{R}^{2n}$ equipped with its canonical symplectic form  $\omega = \sum_{i = 1}^n d q_i \wedge d p^i$, standard Lagrangian submanifolds are the submanifolds $\mathbb{R}^n \hookrightarrow \mathbb{R}^{2n}$ of fixed values of the $\{q_i\}_{i = 1}^n$ [[coordinates]]. Indeed _locally_, every Lagrangian submanifold looks like this. 
 
 Lagrangian submanifolds are of central importance in [[symplectic geometry]] where they constitute [[leaves]] of [[real polarizations]] and are closely related to [[quantum states]]: 
 
@@ -171,7 +171,9 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 ## Related concepts
 
-* [[Lagrangian correspondence]]
+* [[Lagrangian correspondence]], [[prequantized Lagrangian correspondence]]
+
+* [[Lagrangian cobordism]]
 
 * [[Lagrangian subspace]]
 
