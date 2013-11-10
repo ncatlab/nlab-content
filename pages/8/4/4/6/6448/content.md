@@ -16,7 +16,7 @@
 
 ## Idea
 
-A Tychonoff space is a [[subspace]] of a [[compactum]].  By default, one usually means a Tychonoff [[topological space]], although there exist (even [[classical mathematics|classically]]) additional Tychonoff [[locales]].
+A _Tychonoff space_ is a [[subspace]] of a [[compactum]].  By default, one usually means a Tychonoff [[topological space]], although there exist (even [[classical mathematics|classically]]) additional Tychonoff [[locales]].
 
 
 ## Definitions
@@ -55,8 +55,18 @@ As is usual with the [[separation axioms]], some authors while conflate the mean
 
 *  Every completely regular space is [[regular space|regular]].
 
-*  The natural map from a Tychonoff space to its [[Stone-Cech compactification]] (the unit of the [[adjunction]]) really is a [[compactification]] (the inclusion of a [[dense subspace]] into a [[compact space]]).  Conversely, any [[subspace]] of a [[compact Hausdorff space]] must be Tychonoff.
+*  The [[natural transformation|natural map]] from a Tychonoff space to its [[Stone-Cech compactification]] (the [[unit of an adjunction|unit of the adjunction]]) really is a [[compactification]]  in that it is the inclusion of a [[dense subspace]] into a [[compact space]].  Conversely, any [[subspace]] of a [[compact Hausdorff space]] must be Tychonoff.
 
+
+## Examples
+
+* Every [[metric space]] is Tychonoff.
+
+* Every [[topological manifold]] is Tychonoff.
+
+* Every [[topological group]] is Tychonoff.
+
+* Every [[CW-complex]] is Tychonoff.
 
 [[!redirects completely regular space]]
 [[!redirects completely regular spaces]]
