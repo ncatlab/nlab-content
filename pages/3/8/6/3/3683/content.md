@@ -16,7 +16,7 @@
 
 ## Overview
 
-To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to quantum mechanics is the restriction of this deformation to just first order (or some finite order) in $\hbar$.
+To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to [[quantization]]/[[quantum mechanics]] is the restriction of this deformation to just first order (or some finite order) in $\hbar$.
 
 [[!include classical-to-quantum notions - table]]
 
@@ -33,7 +33,7 @@ For the formalization of this method in [[symplectic geometry]]/[[geometric quan
 This [[WKB method]] makes sense for a more general class of 
 [[wave equations]]. For instance in [[wave mechanics|wave]] [[optics]] this yields the short-[[wavelength]] limit of the [[geometrical optics]] approximation. Here $S$ is called the **[[eikonal]]**. 
 
-Multidimensional generalization of the [[WKB method]] appear to be rather nontrivial; they have been pioneered by V. Maslov who introduced a topological invariant to remove ambiguities of the naive version of the method, called the _[[Maslov index]]_.
+Multidimensional generalization of the [[WKB method]] appear to be rather nontrivial; they have been pioneered by [[Victor Maslov]] who introduced a topological invariant to remove ambiguities of the naive version of the method, called the _[[Maslov index]]_.
 
 ## Related phenomena
 
@@ -55,11 +55,11 @@ In the theory of radiation there is a different meaning of semiclassical treatme
 
 * Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
-* V. P. Maslov, _Stationary-phase method for Feynman's continual integral_, Theoret. and Math. Phys., 2:1 (1970), 21&#8211;25; Russian original: &#1058;&#1052;&#1060;, 2:1 (1970), 30&#8211;35 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=tmf&paperid=3986&what=fullt&option_lang=rus).
+* [[Victor Maslov]], _Stationary-phase method for Feynman's continual integral_, Theoret. and Math. Phys., 2:1 (1970), 21&#8211;25; Russian original: &#1058;&#1052;&#1060;, 2:1 (1970), 30&#8211;35 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=tmf&paperid=3986&what=fullt&option_lang=rus).
 
-* V. P. Maslov, _Theory of perturbations and asymptotic methods_ (Russian), Izdat. Moskov. Gos. Univ. 1965.
+* [[Victor Maslov]], _Theory of perturbations and asymptotic methods_ (Russian), Izdat. Moskov. Gos. Univ. 1965.
 
-* V. I. Arnol'd, _Characteristic class entering in quantization conditions_, Funct. Anal. its Appl. 1967, 1:1, 1&#8211;13, [doi](http://dx.doi.org/10.1007/BF01075861) (&#1042;. &#1048;. &#1040;&#1088;&#1085;&#1086;&#1083;&#1100;&#1076;, "&#1054; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1077;, &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1084; &#1074; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;", &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1:1 (1967), 1&#8211;14, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2802&what=fullt&option_lang=rus)) 
+* [[Vladimir Arnold]], _Characteristic class entering in quantization conditions_, Funct. Anal. its Appl. 1967, 1:1, 1&#8211;13, [doi](http://dx.doi.org/10.1007/BF01075861) (&#1042;. &#1048;. &#1040;&#1088;&#1085;&#1086;&#1083;&#1100;&#1076;, "&#1054; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1077;, &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1084; &#1074; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;", &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1:1 (1967), 1&#8211;14, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2802&what=fullt&option_lang=rus)) 
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, AMS 1977, [online](http://www.ams.org/online_bks/surv14);  _Semi-classical analysis_, 499 pages, [pdf](http://www-math.mit.edu/~vwg/semistart.pdf)
 
@@ -67,13 +67,13 @@ In the theory of radiation there is a different meaning of semiclassical treatme
 and the canonical operator method_, Nauka, Moscow, 1978. 
 (in Russian). English transl.: _Lagrangian manifolds and the Maslov operator_, Springer, Berlin, 1990.
 
-* Richard J. Szabo, _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (early version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
+* [[Richard Szabo]], _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (early version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
-* M. F. Atiyah, _Circular symmetry and stationary phase approximation_, Asterisque __131__ (1985) 43--59
+* [[Michael Atiyah]], _Circular symmetry and stationary phase approximation_, Asterisque __131__ (1985) 43--59
 
-* N. Berline, [[Ezra Getzler]], M. Vergne, _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
+* [[Nicole Berline]], [[Ezra Getzler]],  [[Michèle Vergne]], _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
 
-* Albert Schwarz, Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
+* [[Albert Schwarz]], Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
 
 * [[Albert Schwarz]], _Semiclassical approximation in [[Batalin-Vilkovisky quantization|Batalin-Vilkovisky formalism]]_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246). 
 * A. Laptev, I.M. Sigal, _Global Fourier integral operators and semiclassical asymptotics_, Review of Math. Physics, __12__:5 (2000) 749--766 [pdf](http://www.math.kth.se/~laptev/Research/Papers/LSig.pdf)
@@ -100,4 +100,4 @@ For the semiclassical method in [[superstring theory]] see
 [[!redirects semiclassical expansion]]
 [[!redirects semiclassical analysis]][[!redirects semi-classical analysis]]
 
-[[!redirects semicalssical quantization]]
+[[!redirects semiclassical quantization]]
