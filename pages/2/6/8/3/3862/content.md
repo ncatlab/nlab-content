@@ -155,7 +155,7 @@ The Quillen's determinant line bundle is defined in general on the whole $Fred(H
 
 ### Pfaffian line bundle
 
-In dimens&#238;on $8^k+2$ for $k \in \mathbb{N}$ the determinant line bundle has a canon&#238;cal square root line bundle, the [[Pfaffian line bundle]].
+In dimens&#238;on $8k+2$ for $k \in \mathbb{N}$ the determinant line bundle has a canon&#238;cal square root line bundle, the [[Pfaffian line bundle]].
 
 ### From fermionic path integrals
 
