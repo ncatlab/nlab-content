@@ -20,11 +20,45 @@ For $V$ a [[symplectic vector space]], its __Lagrangian Grassmannian__ $LGrass(V
 
 ## Properties
 
+### As a coset space
+
 The group of [[symplectomorphism]]s of $V$ naturally acts on $LGrass(V)$.
 
 The unitary group $U_J(V)$ associated to any fixed compatible [[complex structure]] $J$ on $V$ [[transitive action|acts transitively]] on $LGrass(V)$.  In fact, $LGrass(V)$ is [[diffeomorphism|diffeomorphic]] to the [[coset space]] $U(n)/O(n)$ of the [[unitary group]] by the [[orthogonal group]], where $n$ is the complex [[dimension]] of $(V,J)$ (so the real dimension of $V$ is $2n$).
 
-The [[Maslov index|universal Maslov index]] is the only [[homotopy invariant]] of [[loops]] in $LGrass(V)$.
+### Cohomology and Maslov index
+
+The first [[ordinary cohomology]] of the stable Lagrangian Grassmannian with [[integer]] [[coefficients]] is isomorphic to the [[integers]]
+
+$$
+  H^1(LGrass, \mathbb{Z}) 
+  \simeq
+  \mathbb{Z}
+  \,.
+$$
+
+[[generalized the|The]] generator of this [[cohomology group]] is called the _[[Maslov index|universal Maslov index]]_
+
+$$
+  u \in H^1(LGrass, \mathbb{Z})
+  \,.
+$$
+
+Given a [[Lagrangian submanifold]] $Y \hookrightarrow X$ of a [[symplectic manifold]] $(X,\omega)$, its [[tangent bundle]] is [[classifying space|classified]] by a function
+
+$$
+  i \;\colon\; Y \to LGrass
+  \,.
+$$
+
+The [[Maslov index]] of $Y$ is the universal Maslov index pulled back along this map
+
+$$
+  i^\ast u \in H^1(Y,\mathbb{Z})
+  \,.
+$$
+
+
 
   
 ## Related concepts
@@ -40,7 +74,7 @@ The [[Maslov index|universal Maslov index]] is the only [[homotopy invariant]] o
 
 ## References
 
-* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * [[Andrew Ranicki]], _The Maslov Index_ ([pdf](http://www.maths.ed.ac.uk/~aar/maslovnotes.pdf))
 
