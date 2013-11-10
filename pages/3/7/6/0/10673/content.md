@@ -1,6 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-In functional analysis and related areas of mathematics stereotype spaces are topological vector spaces defined by a special variant of reflexivity condition. They form a class of spaces with a series of remarkable properties, in particular, this class is very wide (for instance, it contains all Fr&#233;chet spaces and thus, all Banach spaces), it consists of spaces satisfying a natural condition of completeness, and it forms a closed monoidal category with the standard analytical tools for constructing new spaces, like taking closed subspace, quotient space, projective and injective limits, the space of operators, tensor products, etc.
+In [[functional analysis]] and related areas of mathematics _stereotype spaces_ are [[topological vector spaces]] defined by a special variant of reflexivity condition. They form a class of spaces with a series of remarkable properties, in particular, this class is very wide (for instance, it contains all [[Fréchet spaces]] and thus, all [[Banach spaces]]), it consists of spaces satisfying a natural condition of completeness, and it forms a [[closed monoidal category]] with the standard analytical tools for constructing new spaces, like taking closed subspace, quotient space, projective and injective limits, the space of operators, tensor products, etc.
 
 * From Wikipedia: [Stereotype space](https://en.wikipedia.org/wiki/Stereotype_space) 
 
