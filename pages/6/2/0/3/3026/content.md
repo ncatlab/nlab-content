@@ -119,7 +119,13 @@ $$
 
 * [[compactification]] 
 
+  * [[Stone-Cech compactification]]
+
   * [[end compactification]]
+
+  * [[Bohr compactification]]
+
+  * [[Kaluza-Klein compactification]]
 
 
 ## References
