@@ -113,9 +113,9 @@ The [[Chern character]] is a natural characteristic class with values in real co
 * [[level (Chern-Simons theory)]]
 
 
-### Of subspaces
+### Of Lagrangian submanifolds
 
-* [[Maslov index]]
+A characteristic class of [[Lagrangian submanifolds]] is the _[[Maslov index]]_.
 
 ### Classes in the sense of Fuks
 
