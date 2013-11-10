@@ -4,7 +4,8 @@ Gelfand and Kolmogorov proved in 1939 that a compact Hausdorff topological space
 
 Buchstaber and Rees have extended this to all [[symmetric power]]s $Sym_n(X)$ using their notion of the Frobenius $n$&#8208;homomorphisms.
 
-* Victor M. Buchstaber, [[Elmer G. Rees]], Russian Math. Surveys, 59(1(355)):125&#8211;145, 2004; _Frobenius n-homomorphisms, transfers and branched coverings_, Math. Proc. Cambr. Phil. Soc. 2007, arXiv:math.RA/0608120 .
+* Victor M. Buchstaber, [[Elmer G. Rees]], _The Gelfand map and symmetric products_, Selecta Math. 8 (2002), no. 4, 523&#8211;535; ...,
+Russian Math. Surveys __59__ (1(355)):125&#8211;145, 2004; _Frobenius n-homomorphisms, transfers and branched coverings_, Math. Proc. Cambr. Phil. Soc. 2007, arXiv:math.RA/0608120 .
 
 * I. M. Gel'fand, A. N. Kolmogorov. Dokl. Akad. Nauk SSSR __22__: 11&#8211;15, 1939.
 
