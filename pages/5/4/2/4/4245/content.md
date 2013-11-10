@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### $(\infty,1)$-Category theory
++-- {: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Stable Homotopy theory
++-- {: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -52,3 +71,10 @@ See also
 * [[Paul Seidel]], _Fukaya categories and Picard-Lefschetz theory_.
 
 A beginners introduction is given by Denis Auroux, see [link](http://arxiv.org/abs/1301.7056), a text (available as ArXiv  1301.7056), based on a series of lectures given at a Summer School on Contact and Symplectic Topology at Universit&#233; de Nantes in June 2011.
+
+Discussion of the relation to [[Lagrangian cobordism]] is in
+
+* [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_ ([arXiv:1109.4835](http://arxiv.org/abs/1109.4835))
+  {#NadlerTannaka11}
+
+[[!redirects Fukaya categories]]
