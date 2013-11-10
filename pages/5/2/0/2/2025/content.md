@@ -186,7 +186,7 @@ The square commutes by naturality of $prin$, and commutativity of the triangle s
 
 +-- {: .num_theorem #free} 
 ###### Theorem 
-For any set $S$, the function $prin_S: S \to \beta S$ is [[universal property|universal]] among functions from $S$ to compact Hausdorff spaces. Hence the functor $F: Set \to CH$ that takes $S$ to the compact Hausdorff space $\beta S$ is left adjoint to the forgetful functor $CH \to Set$. 
+For any set $S$, the function $prin_S: S \to \beta S$ is [[universal property|universal]] among functions from $S$ to compact Hausdorff spaces. Hence the functor $F: Set \to CH$ that takes $S$ to the compact Hausdorff space $\beta S$ is [[left adjoint]] to the forgetful functor $CH \to Set$. 
 =-- 
 
 +-- {: .proof} 
@@ -243,7 +243,7 @@ The forgetful functor $U: CH \to Set$ is monadic.
 
 +-- {: .proof} 
 ###### Proof 
-By theorem \ref{free}, $U$ has a left adjoint. Since [[bijection|bijective]] continuous maps between compact Hausdorff spaces are homeomorphisms, we have that $U$ reflects isomorphisms. Finally, suppose $(f, g)$ is a $U$-split pair of morphisms $X \to Y$ in $CH$; let $h: Y \to Z$ be their coequalizer in $Top$, given by a suitable quotient space. Being a quotient of a compact space, $Z$ is compact. Since $CH$ is a full subcategory of $Top$, the map $h$ is a coequalizer in $CH$ once we prove the following claim:  
+By theorem \ref{free}, $U$ has a [[left adjoint]]. Since [[bijection|bijective]] continuous maps between compact Hausdorff spaces are homeomorphisms, we have that $U$ reflects isomorphisms. Finally, suppose $(f, g)$ is a $U$-split pair of morphisms $X \to Y$ in $CH$; let $h: Y \to Z$ be their coequalizer in $Top$, given by a suitable quotient space. Being a quotient of a compact space, $Z$ is compact. Since $CH$ is a full subcategory of $Top$, the map $h$ is a coequalizer in $CH$ once we prove the following claim:  
 
 * **Claim:** $Z$ is Hausdorff. 
 
@@ -263,12 +263,13 @@ On the other hand, it is the monadic definition that gives an [[algebraic catego
 
 
 ## Stone--&#268;ech compactification
+ {#StoneCechCompactification}
 
 By general nonsense, every $\beta S$, regarded as a free $\beta$-algebra, is a compactum, and the functor 
 
 $$\beta: Set \to Comp$$ 
 
-is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __Stone--&#268;ech compactification__ functor (N.B.: for many authors, Stone-&#268;ech compactification refers to the restriction of this functor to [[Tychonoff space]]s $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]]). 
+is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __[[Stone--∞ech compactification]]__ functor (N.B.: for many authors, Stone-&#268;ech compactification refers to the restriction of this functor to [[Tychonoff spaces]] $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]]). 
 
 A classical construction of the Stone-&#268;ech compactification starts with the unit [[interval]] $I =[0, 1]$ and proceeds to the [[codensity monad]] induced from the functor 
 
@@ -285,7 +286,7 @@ The proof is essentially [[Urysohn's lemma]]; see also related discussion at [[T
 
 +-- {: .num_theorem} 
 ###### Theorem 
-The natural map $i_X: X \to \bar{X}$ is universal among maps from $X$ to compact Hausdorff spaces, thus giving a left adjoint $Top \to Comp$ to the (fully faithful) forgetful functor $U: Comp \to Top$. 
+The natural map $i_X: X \to \bar{X}$ is universal among maps from $X$ to compact Hausdorff spaces, thus giving a [[left adjoint]] $Top \to Comp$ to the (fully faithful) forgetful functor $U: Comp \to Top$. 
 =-- 
 
 +-- {: .proof} 
@@ -324,7 +325,7 @@ The category $Comp$ of compact Hausdorff spaces and continuous maps is
 
 * a cototal category (because it is complete, well-powered, and has a [[cogenerator]] given by the unit interval $I = [0, 1]$). 
 
-From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a topos; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
+From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a [[topos]]; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
 
 ## Related concepts
 
@@ -339,15 +340,3 @@ From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning
 [[!redirects compact Hausdorff topological spaces]]
 [[!redirects compact regular locale]]
 [[!redirects compact regular locales]]
-[[!redirects Stone-∞ech compactification]]
-[[!redirects Stone-Cech compactification]]
-[[!redirects Stone?ech compactification]]
-[[!redirects StoneCech compactification]]
-[[!redirects Stone--∞ech compactification]]
-[[!redirects Stone--Cech compactification]]
-[[!redirects Stone-∞ech compactifications]]
-[[!redirects Stone-Cech compactifications]]
-[[!redirects Stone?ech compactifications]]
-[[!redirects StoneCech compactifications]]
-[[!redirects Stone--∞ech compactifications]]
-[[!redirects Stone--Cech compactifications]]
