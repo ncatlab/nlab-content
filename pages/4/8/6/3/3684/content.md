@@ -24,27 +24,86 @@
 
 ## Overview
 
-Consider a [[symplectic manifold]] representing say a [[phase space]] of a [[physics|physical theory]] of [[dimension]] $2n$. 
+Consider a [[symplectic manifold]] (representing say a [[phase space]] of a [[physical system]]) of [[dimension]] $2n$  . 
 
-Recall that a [[Lagrangean submanifold]] is a smooth [[submanifold]] of dimension $n$ whose [[tangent spaces]] at all points are [[Lagrangean subspaces]] , i.e. maximal [[isotropic subspaces]] with respect to the [[symplectic form]]. Lagrangean submanifold describes the phase of short-wave oscillations. 
+Recall that a [[Lagrangean submanifold]] is a smooth [[submanifold]] of dimension $n$ whose [[tangent spaces]] at all points are [[Lagrangean subspaces]], i.e. maximal [[isotropic subspaces]] with respect to the [[symplectic form]]. Lagrangean submanifold describes the phase of short-wave oscillations. 
 
-The _Maslov index_ is an invariant of a smooth path in a Lagrangean submanifold. The existence of such an invariant is related to the universal Maslov index which is a generator of the first [[integral cohomology]] of the [[Lagrangian Grassmanian|Langrangean Grassmanian]] (the space of $n$-dimensional Lagrangean subspaces in $\mathbb{R}^{2n}$. 
+The _Maslov index_ is an invariant of a smooth path in a [[Lagrangean submanifold]]. 
 
-The Maslov index can be reinterpreted as a [[characteristic class]] of theories of Lagrangean and Legendrean [[cobordisms]]. 
+The Maslov index can be reinterpreted as a [[characteristic class]] of theories of [[Lagrangian cobordism|Lagrangian and Legendrean cobordism]]. 
+
+
+## Definition
+
+### As a universal characteristic class
+
+The first [[ordinary cohomology]] of the stable [[Lagrangian Grassmannian]] with [[integer]] [[coefficients]] is isomorphic to the [[integers]]
+
+$$
+  H^1(LGrass, \mathbb{Z}) 
+  \simeq
+  \mathbb{Z}
+  \,.
+$$
+
+[[generalized the|The]] generator of this [[cohomology group]] is called the _universal Maslov index_
+
+$$
+  u \in H^1(LGrass, \mathbb{Z})
+  \,.
+$$
+
+Since $LGrass$ is a [[classifying space]] for [[tangent bundles]] of [[Lagrangian submanifolds]], this is a [[universal characteristic class]] for Lagrangian submanifolds.
+
+Specifically, given a [[Lagrangian submanifold]] $Y \hookrightarrow X$ of a [[symplectic manifold]] $(X,\omega)$, its [[tangent bundle]] is [[classifying space|classified]] by a function
+
+$$
+  i \;\colon\; Y \to LGrass
+  \,.
+$$
+
+The _Maslov index of $Y$ is the universal Maslov index pulled back along this map
+
+$$
+  i^\ast u \in H^1(Y,\mathbb{Z})
+  \,.
+$$
+
+
 
 ## References and links
 
-* S. Bates, A. Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+The index first appears maybe in 
 
-* G. Lion, M. Vergne, _The Weil representation, Maslov index and theta series_, Progress in Math. __6__, Birkh&#228;user 1980 (Rus. transl. Mir 1983).
+* [[Victor Maslov]], _Th&#233;orie des perturbations et m&#233;thodes asymptotiques_. 1972
 
-* A. Weinstein, _The Maslov gerbe_, Lett. Math. Phys. __69__, 1-3, July, 2004, [doi](http://dx.doi.org/10.1007/s11005-004-0342-2). 
+Its cohomological interpretation as a [[universal characteristic class]] was explained in
 
-* Jean Leray, _Lagrangian analysis and quantum mechanics. A mathematical structure related to asymptotic expansions and the Maslov index_, (trans. from French), MIT Press 1981. xvii+271 pp. 
+* [[Vladimir Arnold]], _Characteristic class entering in quantization conditions_, Funct. Anal. its Appl. 1967, 1:1, 1&#8211;13, [doi](http://dx.doi.org/10.1007/BF01075861) (&#1042;. &#1048;. &#1040;&#1088;&#1085;&#1086;&#1083;&#1100;&#1076;, "&#1054; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1077;, &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1084; &#1074; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;", &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1:1 (1967), 1&#8211;14, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2802&what=fullt&option_lang=rus)) 
+
+A review in the context of [[geometric quantization]] (Maslov correction) is in 
+
+* Sean Bates, [[Alan Weinstein]], section 4.2 of _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+
+The interpretation of the Maslov index as a quadratic space is due to 
+
+* T. Thomas. _The Maslov index as a quadratic space_. Math. Res. Lett. 13 no. 6 (2006), 985&#8211;999
+
+and this definition and basic examples are briefly collected in
+
+* [[Andrew Ranicki]], _The Maslov Index_, seminar notes 2010/11 ([pdf](http://www.maths.ed.ac.uk/~aar/maslovnotes.pdf))
+
+
+See also
+
+* G. Lion, [[Michele Vergne]], _The Weil representation, Maslov index and theta series_, Progress in Math. __6__, Birkh&#228;user 1980 (Rus. transl. Mir 1983).
+
+* [[Alan Weinstein]], _The Maslov gerbe_, Lett. Math. Phys. __69__, 1-3, July, 2004, [doi](http://dx.doi.org/10.1007/s11005-004-0342-2). ([arXiv:0312274](http://arxiv.org/abs/math/0312274))
+
+* [[Jean Leray]], _Lagrangian analysis and quantum mechanics. A mathematical structure related to asymptotic expansions and the Maslov index_, (trans. from French), MIT Press 1981. xvii+271 pp. 
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, AMS 1977, [online](http://www.ams.org/online_bks/surv14);   _Semi-classical analysis_, 499 pages, [pdf](http://www-math.mit.edu/~vwg/semistart.pdf) 
 
-* V. I. Arnol'd, _Characteristic class entering in quantization conditions_, Funct. Anal. its Appl. 1967, 1:1, 1&#8211;13, [doi](http://dx.doi.org/10.1007/BF01075861) (&#1042;. &#1048;. &#1040;&#1088;&#1085;&#1086;&#1083;&#1100;&#1076;, "&#1054; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1077;, &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1084; &#1074; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;", &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1:1 (1967), 1&#8211;14, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2802&what=fullt&option_lang=rus)) 
 
 * J. J. Duistermaat, _On the Morse index in variational calculus_, Adv. Math. __21__ (1976), 2, 173--195, [pdf](http://www.maths.ed.ac.uk/~aar/papers/duistermaat.pdf). 
 
@@ -67,7 +126,10 @@ London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990.
 
 * K. Furutani, _Fredholm&#8211;Lagrangian&#8211;Grassmannian and the Maslov index_, J. Geom. Phys. __51__, 3, July 2004, 269--331, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.04.001)
 
-* Many links are at Ranicki's [Maslov index seminar](http://www.maths.ed.ac.uk/~aar/maslov.htm) page. 
+* Many links are at [[Andrew Ranicki]]'s [Maslov index seminar](http://www.maths.ed.ac.uk/~aar/maslov.htm) page. 
+
 * Paolo Piccione, Daniel Victor Tausk, _A student's guide to symplectic spaces, Grassmannians and Maslov index_, IMPA 2011, [pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf)
+
+
 
 [[!redirects Maslov class]]
