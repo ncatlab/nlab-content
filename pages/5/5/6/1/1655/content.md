@@ -70,12 +70,15 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 * [[sequence space]]
 
+* [[stereotype space]]
+
 
 ## References
 
 [Wikipedia](http://en.wikipedia.org/wiki/Topological_vector_space) already has many nice references.
 
 category: analysis
+
 [[!redirects topological vector space]]
 [[!redirects topological vector spaces]]
 [[!redirects TVS]]
