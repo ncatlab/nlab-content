@@ -270,6 +270,10 @@ This is reviewed for instance in
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
  {#Ravenel}
 
+see there also theorem 3.4.16.
+
+Other revies include
+
 * [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
 
 See also 
