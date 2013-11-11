@@ -44,6 +44,8 @@ Dually in [[non-commutative topology]] the one-point compactification correspond
 
 ## Properties
 
+### General
+
 $X^*$ is [[compact space|compact]].
 
 The evident inclusion $X \to X^*$ is an [[open map|open]] [[embedding]].
@@ -53,6 +55,10 @@ The one-point compactification is [[universal property|universal]] among all com
 $X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
 
 $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]].
+
+### Functoriality
+
+The operation of one-point compactification is not a [[functor]] on the whole [[category]] of [[topological spaces]]. But it does extend to a [[functor]] on [[topological spaces]] with [[proper maps]] between them.
 
 ## Examples
 
