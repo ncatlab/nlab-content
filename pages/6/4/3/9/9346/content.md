@@ -108,7 +108,7 @@ The situation is actually better in that in principle the choice of model in str
 
 Notice that there is no a priori reason in [[quantum field theory]] that of all of the huge space of possible field theories (all [[local Lagrangians]]) the one that describes our world is a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] coupled to [[gravity]] -- an "[[Einstein-Yang-Mills-Dirac-Higgs theory]]". This is not a prediction of QFT but a theoretical assumption based on experimental observation, and only after this assumption is made, and only after a few dozen further parameters are fixed by hand, does the standard model of particle physics start to make any predictions at all. On  the other hand, string theory does predict this general form of action functionals: the [[effective field theories]] obtained in string theory are generally [[gauge theories]] coupled to [[gravity]]. This fact is what originally led to the strong interest in string theory.
 
-Nevertheless, in spite of this higher predictivity of string theory in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
+Nevertheless, in spite of this higher predictivity of string theory in principle, in practice it has not yet led to much insight that would actually affect particle physics models in practice.
 
 #### Aside: How do physical theories generally make predictions, anyway?
  {#AsideHowDoPhysicalTheorieyGenerallyMakePredictionsAnyway}
