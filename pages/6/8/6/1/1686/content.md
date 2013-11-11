@@ -536,7 +536,10 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Adams spectral sequence]] in [[stable homotopy theory]]
 
-* [[Adams–Novikov spectral sequence]], a generalization to [[extraordinary cohomology theories]];
+* [[Adams–Novikov spectral sequence]], converging to [[homotopy groups]] of [[connective spectra]]
+
+*  [[chromatic spectral sequence]] for calculating the initial terms of the [[Adams–Novikov spectral sequence]]
+
 
 * [[Atiyah–Hirzebruch spectral sequence]] of an [[extraordinary cohomology theory]];
 
@@ -557,7 +560,6 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
  
 * [[change of rings spectral sequences]] for calculating [[Tor]] and [[Ext]] groups of modules
 
-*  [[Chromatic spectral sequence]] for calculating the initial terms of the [[Adams–Novikov spectral sequence]]
 
 * [[Connes spectral sequences]] converging to the [[cyclic homology]] of an algebra
 
