@@ -14,12 +14,12 @@ adelaide dot edu dot au
 
 ## Papers ##
 
-* _A relative topological fundamental groupoid_, in preparation (NB this will replace _A bigroupoid's topology_, below)
+* _A relative topological fundamental groupoid_, in preparation (NB this will replace _A bigroupoid's topology_, below).
 
 * _Mapping groupoids of Lie groupoids and the bundle 
-gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo, in preparation.
+gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
-* _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
+* _WISC may fail in the category of sets_, [draft](https://www.dropbox.com/s/2y7y3d3cqvpll3r/WPT_not_WISC.pdf) (not for circulation, this will change).
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
 
@@ -41,7 +41,9 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo,
 
 ## Talks ##
 
-* _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013 ([slides in WriteLaTeX](https://www.writelatex.com/read/tsbybtssscbg))
+* _An explicit string bundle_, [Algebra/Geometry/Topology seminar](http://www.ms.unimelb.edu.au/research/seminars.php?id=1653) University of Melbourne, 22 November 2013.
+
+* _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013 ([slides in WriteLaTeX](https://www.writelatex.com/read/tsbybtssscbg)).
 
 * _Proper class forcing_, [CT2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
 
@@ -51,13 +53,13 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo,
 
 * _On the Baas-Dundas-Rognes approach to 2-vector bundles_, Strings Journal Club, University of Adelaide. 19 February 2013.
 
-* _Elliptic cohomology - first steps_, Strings Journal Club, University of Adelaide. 9 October 2012
+* _Elliptic cohomology - first steps_, Strings Journal Club, University of Adelaide. 9 October 2012.
 
 * _[Sheaf cohomology via abelian categories]()_, Strings Journal Club, University of Adelaide. 4 September 2012.
 
 * _Introduction to 2-groups_, Strings Journal Club, University of Adelaide. 5 May 2012.
 
-* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011
+* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011.
 
 * _Functorial 2-connected covers_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 21 May 2010.
 
