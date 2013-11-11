@@ -83,7 +83,9 @@ The &#193;dam relations precisely generate the [[ideal]] of relations among the 
 
 ### Hopf algebra structure
 
-The Steenrod algebra for mod $p$ coefficients is a [[Hopf algebra]] over $\mathbb{F}_p$
+The Steenrod algebra for mod $p$ coefficients is a [[Hopf algebra]] over $\mathbb{F}_p$ which is graded commutative and non-co-commutative.
+
+This is due to ([Milnor 58](#Milnor58)). A review is in [Ravenel, ch. 3, section 1](#Ravenel).
 
 ### Relation to Adams spectral sequence
 
@@ -108,8 +110,21 @@ computed in the [[category of modules|category of A-modules]] for $A$ the Steenr
 
 ## References
 
+Original articles include
+
+
 * [[José Ádem]], _The iteration of the Steenrod squares in algebraic topology_ , Proceedings of the National Academy of Sciences of the United States of America 38: 720&#8211;726 (1952)
  {#Adem52}
+
+* [[John Milnor]], _The Steenrod algebra and its dual_, Ann. of Math. 67 (1958), 150&#8211;171.
+ {#Milnor58}
+
+Reviews include
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+ {#Ravenel}
+
+See also
 
 * [online Adem relation calculator](http://math.berkeley.edu/~aaron/adem/)
 
