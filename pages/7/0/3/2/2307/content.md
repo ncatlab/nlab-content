@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,9 +20,20 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
-_Cobordism cohomology theory_, denoted $M O$ for _oriented cobordism cohomology_ , $M U$ for _complex cobordism cohomology_  etc, is the [[generalized (Eilenberg-Steenrod) cohomology]] theory represented by the [[Thom spectrum]].
+### Homology groups
+
+For $X$ a [[manifold]], the [[group]] $MU_\ast(X)$ is the group of equivalence classes of maps $\Sigma \to X$ from manifolds $\Sigma$ with [[complex structure]] on the stable [[normal bundle]], modulo suitable complex [[cobordisms]].
+
+e.g ([Ravenel chapter 1, section 2](#Ravenel))
+
+(...)
+
+### As represented by a spectrum
+
+_Cobordism cohomology theory_, denoted $M O$ for _oriented cobordism cohomology_ , $M U$ for _complex cobordism cohomology_  etc, is the [[generalized (Eilenberg-Steenrod) cohomology]] theory represented by the universal [[Thom spectrum]].
 
 This spectrum, also denoted $M U$
 is the [[spectrum]] is in degree $2 n$ given by the [[Thom space]] of the [[vector bundle]] that is  [[associated bundle|associated]] by the defining [[representation]] of the [[unitary group]] $U(n)$ on $\mathbb{C}^n$ to the [[generalized universal bundle|universtal]] $U(n)$-[[principal bundle]]:
@@ -65,6 +78,20 @@ The refinement of cobordism cohomology theory to [[differential cohomology]] is 
 
 ## Properties
 
+### Complex bordism ring
+
+The complex [[cobordism ring]] is the graded [[polynomial]] [[ring]]
+
+$$
+  MU_\ast(pt) \simeq \mathbb{Z}[x_1, x_2, \cdots]
+  \,,
+$$
+
+where the generator $x_i$ is in degree $2 i$.
+
+e.g ([Ravenel theorem 1.2.18](#Ravenel))
+
+
 ### Snaith's theorem
 
 [[Snaith's theorem]] asserts that the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
@@ -84,7 +111,9 @@ $$
 ## References
 
 Textbooks accounts include
-* [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+ {#Ravenel}
 
 with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], and
 
