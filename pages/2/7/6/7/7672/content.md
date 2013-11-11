@@ -47,6 +47,9 @@ sends real [[vector bundles]] to [[sphere bundles]], namely to [[(∞,1)-line bu
 
 ### On groups
 
++-- {: .num_defn #SphereAsCompactification}
+###### Definition
+
 For $n \in \mathbb{N}$ regard the $n$-[[sphere]] (as a [[topological space]]) as the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$
 
 $$
@@ -54,12 +57,28 @@ $$
   \,.
 $$
 
+=--
+
 +-- {: .num_remark #ActionOfOrthogonalOnSphere}
 ###### Remark
 
-Via this presentation the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] of $O(n)$ on $S^n$ (by [[continuous maps]]) which preserves the base point (the "point at infinity").
+Since the process of [[one-point compactification]] is a [[functor]] on [[proper maps]], hence on [[homeomorphisms]], via def. \ref{SphereAsCompactification} the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] 
+
+$$
+  O(n) \times S^1 \longrightarrow S^n
+$$
+
+(by [[continuous maps]]) which preserves the base point (the "point at infinity").
 
 =--
+
+For definiteness we distinguish in the following notationally between 
+
+1. the $n$-[[sphere]] $S^n \in Top$ regarded as a [[topological space]]
+
+1. its [[homotopy type]] $\Pi(S^n) \in L_{whe} Top \simeq$ [[∞Grpd]] given by its [[fundamental ∞-groupoid]];
+
+Similarly we write $\Pi(O(n))$ for the [[homotopy type]] of the [[orthogonal group]], regarded as a [[group object in an (∞,1)-category]] in [[∞Grpd]].
 
 +-- {: .num_defn #AutoequivalencesOfnSphere}
 ###### Definition
@@ -67,7 +86,7 @@ Via this presentation the $n$-sphere inherits from the canonical [[action]] of t
 For $n \in \mathbb{N}$ write $H(n)$ for the [[automorphism ∞-group]] of homotopy self-equivalences $S^n \longrightarrow S^n$, hence
 
 $$
-  H(n) \coloneqq Aut_{\infty Grpd^{\ast/}}(S^n)
+  H(n) \coloneqq Aut_{\infty Grpd^{\ast/}}(\Pi(S^n))
   \,.
 $$
 
@@ -83,12 +102,17 @@ The [[∞-group]] $H(n)$, def. \ref{AutoequivalencesOfnSphere}, constitutes the 
 +-- {: .num_defn #OrthogonalActionOnSphereOnHomotopyGroups}
 ###### Definition
 
-For $n \in \mathbb{N}$ the action of $O(n)$ on $S^n$
-of remark \ref{ActionOfOrthogonalOnSphere} induces a canonical
-homomorphism
+By the presentation of [[∞Grpd]] by the [[model structure on topological spaces]], for $n \in \mathbb{N}$ the action of $O(n)$ on $S^n$
+of remark \ref{ActionOfOrthogonalOnSphere}, which equivalently is a homomorphism of [[topological groups]]
 
 $$
-  O(n) \longrightarrow Aut_{\infty Grpd^{\ast/}}(S^n)
+  O(n) \longrightarrow Aut_{Top}(S^n)
+$$
+
+induces a canonical homomorphism of [[∞-groups]]
+
+$$
+  \Pi(O(n)) \longrightarrow Aut_{\infty Grpd^{\ast/}}(\Pi(S^n))
   \,.
 $$
 
