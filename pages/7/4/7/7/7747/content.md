@@ -84,19 +84,32 @@ obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at
 
 The $n$-[[spheres]] that admit a framing are precisely only
 
+* the 0-sphere $S^0 = \ast \coprod \ast$, the unit [[real numbers]]
+
 * the 1-sphere $S^1$, the [[circle]] underlying the [[circle group]] (the unit [[complex numbers]]);
 
 * the 3-sphere $S^3$, underlying the [[special unitary group]] $SU(2)$, is isomorphic to the unit [[quaternions]];
 
-* the 7-sphere $S^7$, which underlies a [[Moufang loop]] internal to [[Diff]], namely the unit [[octonions]].
+* the 7-sphere $S^7$, which underlies a [[Moufang loop]] internal to [[Diff]], namely the unit [[octonions]],
+
+where the algebras appearing are precisely the four [[normed division algebras]].
 
 =--
+
+This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence]].
 
 ## Related concepts
 
 * [[2-framing]]
 
 ## References
+
+The theorem about the parallizablitiy of spheres is due to
+
+* [[John Adams]], _On the Non-Existence of Elements of Hopf Invariant One_ Bull. Amer. Math. Soc. 64, 279-282, 1958, Ann. Math. 72, 20-104, 1960.
+ {#Adams58}
+
+See also 
 
 * [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
 
@@ -112,3 +125,6 @@ The $n$-[[spheres]] that admit a framing are precisely only
 
 [[!redirects framing]]
 [[!redirects framings]]
+
+[[!redirects parallelizable sphere]]
+[[!redirects parallelizable spheres]]
