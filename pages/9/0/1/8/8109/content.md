@@ -116,9 +116,9 @@ Random useful discussion is in
 
 Discussion of generalization [[elliptic cohomology]] to higher chromatic homotopy theory is discussed in
 
-* [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
+* [[Doug Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
 
-* [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology II_, Homology, Homotopy and Applications, vol. 10(1), 2008, pp.1{36 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high2.pdf), [pdf slides](http://www.math.rochester.edu/people/faculty/doug/mypapers/halifax.pdf))
+* [[Doug Ravenel]], _Toward higher chromatic analogs of elliptic cohomology II_, Homology, Homotopy and Applications, vol. 10(1), 2008, pp.1-36 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high2.pdf), [pdf slides](http://www.math.rochester.edu/people/faculty/doug/mypapers/halifax.pdf))
 
 
 [[!redirects chromatic level]]
