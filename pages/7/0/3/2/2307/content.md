@@ -92,6 +92,18 @@ where the generator $x_i$ is in degree $2 i$.
 e.g ([Ravenel theorem 1.2.18](#Ravenel))
 
 
+### Homotopy groups 
+
+The [[homotopy groups]] of the [[Thom spectrum]] $MU$ form the [[ring]]
+
+$$
+  \pi_\bullet(MU) \simeq \mathbb{Z}[x_1, x_2, \cdots]
+$$
+
+with the generator $x_i$ in degree $2i$.
+
+This is due to ([Milnor 60](#Milnor60), [Novikov 60](#Novikov60), [Novikov 62](#Novikov62)). A review is in ([Ravenel, ch. 3, theorem 3.1.5](#Ravenel)).
+
 ### Snaith's theorem
 
 [[Snaith's theorem]] asserts that the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
@@ -109,6 +121,17 @@ $$
 
 
 ## References
+
+Original articles include
+
+* [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521.
+ {#Milnor60}
+
+* [[Sergei Novikov]], _Some problems in the topology of manifolds connected with the theory of Thom spaces_, Dokl. Akad. Nauk. SSSR. 132 (1960), 1031&#8211;1034 (Russian).
+ {#Novikov60}
+
+* [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sb. (N.S.) 57 (99) (1962), 407&#8211;442.
+ {#Novikov62}
 
 Textbooks accounts include
 
