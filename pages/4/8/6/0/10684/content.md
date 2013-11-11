@@ -100,9 +100,13 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Adams spectral sequence]]
 
-### 2. The Adams spectral sequence based on a generalized homology theory
+* [[Eilenberg-MacLane spectrum]], [[ordinary cohomology]]
 
 * [[Adams resolution]]
+
+
+### 2. The Adams spectral sequence based on a generalized homology theory
+
 
 ## Chapter 3. The Classical Adams Spectral Sequence
 
