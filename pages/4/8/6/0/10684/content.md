@@ -96,11 +96,23 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Chapter 2. Setting up the Adams Spectral sequence
 
+### 1. The classical Adams spectral sequence
+
+* [[Adams spectral sequence]]
+
+### 2. The Adams spectral sequence based on a generalized homology theory
+
+* [[Adams resolution]]
+
 ## Chapter 3. The Classical Adams Spectral Sequence
 
 ## Chapter 4. $B P$-Theory and the Adams-Novikov Spectral Sequence 
 
 ## Chapter 5. The Chromatic Spectral Sequence
+
+### 3. $Ext(M^1)$ and the $J$-Homomorphism
+
+* [[J-homomorphism]]
 
 ## Chapter 6. Morava Stabilizer Algebras 
 
