@@ -76,5 +76,10 @@ The modern concept over the noncommutative base is discovered in two formally di
 * [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 
+Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
+
+* [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+
 category: algebra
 [[!redirects Hopf algebroids]]
