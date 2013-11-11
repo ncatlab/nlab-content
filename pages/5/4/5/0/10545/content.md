@@ -104,6 +104,8 @@ computed in the [[category of modules|category of A-modules]] for $A$ the Steenr
 
 * [[Pi-algebra]]
 
+* [[Adams resolution]], [[Adams spectral sequence]], [[Adams-Novikov spectral sequence]]
+
 ## References
 
 * [[José Ádem]], _The iteration of the Steenrod squares in algebraic topology_ , Proceedings of the National Academy of Sciences of the United States of America 38: 720&#8211;726 (1952)
