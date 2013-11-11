@@ -14,8 +14,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -74,6 +72,6 @@ is a [[Quillen bifunctor]].
 
 ## References
 
-Bertrand Guillou, J.P. May, enriched model categories and diagram categories, [arXiv:1110.3567v1](http://arxiv.org/abs/1110.3567)
+* Bertrand Guillou, [[Peter May]], _Enriched model categories and diagram categories_ ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567))
 
 [[!redirects enriched model categories]]
