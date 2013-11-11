@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -83,7 +83,7 @@ On topological spaces, this model structure has
 
 For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to subcatgeories of [[nice topological spaces]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Write
@@ -94,7 +94,7 @@ Write
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a [[model category]] structure $kTop_{Quillen}$ on $kTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $kTop \hookrightarrow Top$. And this inclusion is the [[left adjoint]] in a [[Quillen equivalence]]
@@ -110,7 +110,7 @@ $$
 This appears for instance as ([Hovey, theorem 2.4.23](#Hovey))
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a [[model category]] structure $CGTop_{Quillen}$ on $CGTop$ in which a morphism is a cofibration, fibration or weak equivalence, respectively, precisely if it is so under the inclusion $CGTop \hookrightarrow Top$. And this inclusion is the [[right adjoint]] in a [[Quillen equivalence]]
@@ -125,15 +125,23 @@ $$
 
 Notice that $Top_{Quillen}$ is _not_ a [[monoidal model category]], because $Top$ itself is not ([[cartesian closed category|cartesian]]) [[closed monoidal category|closed]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
-
 
 Both $kTop_{Quillen}$ and $CGTop_{Quillen}$ are [[symmetric monoidal category|symmetric]] [[monoidal model categories]].
 
 =--
 
 This appears as ([Hovey, prop. 4.2.11](#Hovey)).
+
++-- {: .num_prop}
+###### Proposition
+
+In fact $CGTo_{Quillen}$ is a [[cartesian closed model category]].
+(see e.g [Berger-Moerdijk 03](#BergerMoerdijk03))
+
+=--
+
 
 ### Relation between $Top_{Quillen}$ and $sSet_{Quillen}$
 
@@ -183,6 +191,8 @@ Standard textbooks references include
 
 * Hirschhorn _Model categories and their localizations_.
 
+* [[Kate Ponto]], [[Peter May]], section 17 of _More concise algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
+
 For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 
 * [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972)
@@ -191,7 +201,10 @@ For the "mixed" or "m-" model structure:
 
 * Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006) [doi](http://dx.doi.org/10.1016/j.topol.2005.02.004).
 
+The generalization to the [[model structure on topological operads]] is due to 
 
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_, Comment. Math. Helv. Vol. 78 (2003), no. 4 ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
+ {#BergerMoerdijk03}
 
 
 [[!redirects model category of topological spaces]]
