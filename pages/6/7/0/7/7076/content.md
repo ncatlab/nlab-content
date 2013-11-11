@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _cartesian closed model category_ is a [[cartesian closed category]] that is equipped with the structure of a [[monoidal model category]] in a compatible way.
+A _cartesian closed model category_ is a [[cartesian closed category]] that is equipped with the structure of a [[monoidal model category]] in a compatible way, which combines the axioms for a [[monoidal model category]] and an [[enriched model category]].
 
 ## Definition
 
@@ -25,10 +25,12 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 
 * (Unit axiom). The [[terminal object]] is cofibrant.
 
-## References
 
-* Rezk, Charles (2010). _A cartesian presentation of weak $n$-categories_. [arXiv:0901.3602](http://arxiv.org/abs/0901.3602).
-* Simpson, Carlos (2012). _Homotopy theory of higher categories_.
+## Examples
+
+* the standard [[model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]] is cartesian closed
+
+* the standard [[model structure on simplicial sets]] is cartesian closed. 
 
 ## Related concepts
 
@@ -40,4 +42,10 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 
 * [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
+
+## References
+
+* [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_. (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+
+* [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
 
