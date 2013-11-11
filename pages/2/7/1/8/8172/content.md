@@ -48,7 +48,7 @@ $$
   R \coloneqq H \mathbb{F}_p
 $$
 
-for the [[Eilenberg-MacLane spectrum]] of the [[field]] $\mathbb{F}_p$. The [[A-infinity algebra]] structure on this induced an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]
+for the [[Eilenberg-MacLane spectrum]] of the [[field]] $\mathbb{F}_p$. The [[A-∞ algebra]] structure on this induces an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]
 
 $$
   \overline{R}^\bullet \;\colon\; k \mapsto R^{\otimes k}
@@ -113,9 +113,9 @@ Reviews are in
 
 * R. Bruner, _An Adams spectral sequence primer_ ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
-* [[Jacob Lurie]], _The Adams Spectral Sequence_, 2010 ([pdf] (http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
+* [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 8, _The Adams Spectral Sequence_, 2010 ([pdf] (http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
   {#Lurie10}
 
-* [[Jacob Lurie]], _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
+* [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 9, _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
 
 [[!redirects Adams spectral sequences]]
