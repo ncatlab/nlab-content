@@ -88,7 +88,11 @@ Introductions and surveys include
 
 * Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www.math.uchicago.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
 
-* Doug Ravenal, _Complex cobordism and stable homotopy groups of spheres_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+
+A tabulation of stable homotopy groups of spheres is in 
+
+* [[Doug Ravenel]], Appendix 3 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA3.pdf))
 
 Discussion of the [[image]] of the [[J-homomorphism]] is due to
 
@@ -108,7 +112,6 @@ See also
 * Wikipedia, _[Homotopy groups of spheres](http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres)_
 
 * MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
-
 
 
 
