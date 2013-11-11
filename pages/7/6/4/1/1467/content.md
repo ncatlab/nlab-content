@@ -116,6 +116,12 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 * [[paracompact topological space]], [[strongly compact topological space]]
 
+* [[compactification]]
+
+  * [[one-point compactification]]
+
+  * [[Stone-Cech compactification]]
+
 * [[closed manifold]]
 
 * [[compact topos]]
@@ -140,3 +146,6 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 [[!redirects compact subset]]
 [[!redirects compact subsets]]
 [[!redirects compact]]
+
+[[!redirects compact set]]
+[[!redirects compact sets]]
