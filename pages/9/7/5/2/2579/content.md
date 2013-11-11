@@ -30,6 +30,9 @@ $$
 
 A **morphism of group schemes** $f:G\to H$ is a morphism of schemes that is a group homomorphism on any choice of values of points. This is more easily stated by saying that a morphism of group schemes must be a [[natural transformation]] between the [[functor of points]]; i.e. $f$ is required to be a natural transformation of functors with values in the category $Grp$ of groups (instead of with values in Set); an equivalent way to state this is that $f$ needs to satisfy $f m=m(f\times f)$ if $m:G\times G\to G$ denotes the group law on $G$.
 
+This construction generalizes to [[ind-object|ind-schemes]] (as for example [[formal scheme|formal schemes]]) to that of a [[formal group scheme]].
+
+
 ## Overview
 
 Let $k$ be some base field. We start with the **constant group scheme** $E_k$ defined by some classical group $E$ which gives in every component just the group $E$. Next we visit the notion of **&#233;tale group scheme**. This is not itself constant but becomes so by scalar extension to the separable closure $k_sep$ of $k$. The importance of &#233;tale affine is that the category of them is equivalent to that of [[nLab:Galois module|Galois modules]] by $E\mapsto E \otimes_k k_sep=\cup_{K/k \,sep\,fin} E(K)$
@@ -78,9 +81,7 @@ $$\sum_{i\gt 0} a_{-i} V^i + a_0 + \sum_{i\gt 0} a_i F^i$$
 
 (...)
 
-## Generalizations
 
-This construction generalizes to [[ind-object|ind-schemes]] (as for example [[formal scheme|formal schemes]]) to that of a [[formal group scheme]].
 
 ## Examples
 
@@ -116,14 +117,18 @@ This construction generalizes to [[ind-object|ind-schemes]] (as for example [[fo
 * Every [[algebraic group]] is in particular a group scheme.
 
 
-## Cartier duality
+
+## Properties
+
+
+### Cartier duality
 (main article: [[Cartier duality]])
 
 Suppose now that $G$ is a finite flat commutative group scheme (over $X$). The __Cartier dual__ of $G$ is given by the functor $G^D(S)=Hom (G\otimes S, \mathbb{G}_m \otimes S)$. The Hom is taken in the category of group schemes over $S$.
 
 For example, $\alpha_p^D\simeq \alpha_p$.
 
-## Dieudonn&#233; module
+### Dieudonn&#233; module
 (main article: [[Dieudonné module]])
 
 There are certain correspondences ([Theorem Acu](#thmAcu)--[Theorem Fftc](#thmFftc)) between certain categories of group schemes and certain categories of Dieudonn&#233; modules.
@@ -198,6 +203,13 @@ where we recall that how the colimit of the hom space can be multiplied by the g
 ([III.9](#Demazure), $Fftc\simeq \hat D_k Mod_{fin.len.quot}$)
 
 =--
+
+## Related concepts
+
+* [[abelian group scheme]]
+
+* [[dual abelian group scheme]]
+
 ## References
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
