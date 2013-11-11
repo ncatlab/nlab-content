@@ -146,3 +146,6 @@ See also
 [[!redirects complex bordism]]
 
 [[!redirects cobordism homology theory]]
+
+[[!redirects complex cobordism cohomology]]
+[[!redirects complex cobordism cohomology theory]]
