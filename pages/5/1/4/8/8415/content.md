@@ -39,6 +39,57 @@ This is roughly the case in most __compactifications in physics__. In most cases
 
 Then one requires that the compactified fiber is finite but small compared to some reference scale (or even viewed in a limit when the Riemannian volume tends to zero), see at _[[Kaluza-Klein mechanism]]_. Often one does not even consider a noncompact case to start with but by compactification in physics means only passing to the limit of small (Riemannian volume of) fibers. 
 
+## Definition
+
++-- {: .num_defn #Compactification}
+###### Definition
+
+A _compactification_ of a [[topoligical space]] $X$
+is a [[compact topological space|compact]] [[Hausdorff topological space]]
+$Y$ equipped with an [[embedding]] $X \hookrightarrow Y$
+such that the [[closure]] of $X$ in $Y$ is the compact space:
+$\overline{X} = Y$.
+
+An [[equivalence]] of two compactifications $Y_1$, $Y_2$ of $X$
+is a [[homeomorphism]] $h \;\colon\; Y_1 \longrightarrow Y_2$
+that preserves the inclusion of $X$.
+
+=--
+
+## Properties
+
+
+
+### Uniqueness
+
+In some sense the [[one-point compactification]] is the smallest 
+possible compactification, while the [[Stone-Cech compactification]]
+is the largest. The following gives conditions that
+all notions of compactification agree.
+
++-- {: .num_prop #UniqueCompactificationOfAlmostCompactSpaces}
+###### Proposition
+
+For $X$ a [[Tychonoff space]] the following are equivalent:
+
+1. There is a unique (up to equivalence) compactification, def. \ref{Compactification}. 
+
+1. $X$ is already [[compact topological space|compact]] or its [[Stone-Cech compactification]] $\beta X$ adds a single point $\vert \beta X \backslash X\vert = 1$.
+
+1. If two [[closed subsets]] of $X$ are completeley separated, then one of them is a [[compactum]].
+
+=--
+
+One place where this appears is ([Hewitt 47](#Hewitt47)).
+
++-- {: .num_remark}
+###### Remark
+
+The topological spaces satisfying the conditions of
+prop. \ref{UniqueCompactificationOfAlmostCompactSpaces}
+are also called [[almost compact topological spaces]].
+
+=--
 
 ## Examples 
 
@@ -60,7 +111,11 @@ Then one requires that the compactified fiber is finite but small compared to so
 
 * [[Kaluza-Klein compactification]]
 
+  * [[Freund-Rubin compactification]]
 
+## References
 
+* Edwin Hewitt, _Certain generalizations of the Weierstrass approximation theorem_,  Duke Math. J. Volume 14, Number 2 (1947), 419-427. ([Euclid](http://projecteuclid.org/euclid.dmj/1077474139))
+  {#Hewitt47}
 [[!redirects compactification]]
 [[!redirects compactifications]]
