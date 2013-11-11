@@ -613,6 +613,8 @@ BPHZ renormalization was introduced in particular in
 
 A review is in
 
+* G. Peter Lepage, _What is Renormalization?_, talk 1989 ([arXiv:hep-ph/0506330](http://arxiv.org/abs/hep-ph/0506330))
+
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
 
 ### In BV formalism
