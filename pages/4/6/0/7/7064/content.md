@@ -33,7 +33,29 @@ The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
 | $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ | $\cdots$ |
 
 
-## Characteristic maps
+## Properties
+
+### Basic properties
+
+The [[Serre finiteness theorem]]
+
++-- {: .num_theorem }
+###### Theorem
+
+The [[homotopy group]] $\pi_{n+k}(S^k)$ is a [[finite group]] for $k \gt 0$ except when $n = 2m$ and $k = 2m -1$ in which case
+
+$$
+  \pi_{4m -1 }(S^{2m}) \simeq \mathbb{Z} \oplus F_m
+$$
+
+for $F_m$ a [[finite group]].
+
+=--
+
+([Serre 53](#Serre53))
+
+
+
 
 ### J-homomorphism and Adams e-invariant
 
@@ -93,6 +115,12 @@ Introductions and surveys include
 A tabulation of stable homotopy groups of spheres is in 
 
 * [[Doug Ravenel]], Appendix 3 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA3.pdf))
+
+Original articles on basic properties include
+
+* [[Jean-Pierre Serre]] _ Groupes d'homotopie et classes de groupes abelien_, Ann. of Math. 58 (1953), 258&#8211;294.
+ {#Serre53}
+
 
 Discussion of the [[image]] of the [[J-homomorphism]] is due to
 
