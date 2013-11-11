@@ -30,6 +30,8 @@ $$
 
 which sends a general [[topological space]] to a [[compact topological spaces|compact]] [[Hausdorff topological space]], called its _Stone-&#268;ech compactification_. This hence exhibits $Top_{CHaus}$ as a [[reflective subcategory]] of all of $Top$.
 
+The Stone-Cech compactification is in general "very large", even for "ordinary" non-compact spaces such as the [[real line]].
+
 For more details see at _[compactum -- Stone-&#268;ech compactification](compactum#StoneCechCompactification)_
 
 ## Properties
@@ -61,6 +63,8 @@ of the compactification [[adjunction]] $(\beta \dashv U)$ is an [[embedding]] pr
 Lecture notes include
 
 * Tarun Chitra, _The Stone-Cech Compactification_ 2009 [pdf](httP://www.math.cornell.edu/~riley/Teaching/Topology2009/essays/chitra.pdf)
+
+* Brian Bockelman, _Functional Analysis Notes, [The Stone-Cech compactification](http://www.math.unl.edu/~s-bbockel1/929/node16.html)_
 
 See also
 
