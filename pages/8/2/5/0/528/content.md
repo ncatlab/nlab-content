@@ -101,12 +101,20 @@ The axiom that must be satisfied by the antipode looks like a $k$-linear version
 Just as an [[algebra]] is a [[monoid]] in [[Vect]] and a [[bialgebra]] is a [[bimonoid]] in $Vect$, a Hopf algebra is a [[Hopf monoid]] in $Vect$.
 
 
-## Caution: convention in topology
++-- {: .num_remark}
+###### Remark
+**Caution: convention in topology**
 
 In [[algebraic topology]], it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the [[ground field]] (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
 
+=--
 
-## Hopf algebras versus groups
+
+
+
+## Properties
+
+### Relation to Hopf groups
 
 Note that the definition of Hopf algebra (or, really, of [[Hopf monoid]]) is [[duality|self-dual]]: a Hopf monoid in a symmetric monoidal category $V$ is the same as a Hopf monoid in $V^{op}$ (i.e. a "Hopf comonoid").  Thus we can view a Hopf algebra as "like a group" in two different ways, depending on whether the group multiplication corresponds to the multiplication or the comultiplication of the Hopf algebra.  The formal connections between Hopf monoids and group objects are:
 
@@ -138,7 +146,6 @@ Mike, can you do something with these notes that I took at some point as a grad 
 >Given a (compact) Lie group $G$ and the complex (real?) field $K$, then the algebraic function ring $Anal(G)$ is a cocommutative Hopf algebra, with $M(f_0,f_1)(g) = f_0(g) f_1(g)$, $I(g) = 1$, $D(f)(g,h) = f(g h)$, $E(f) = f(1)$, and the nifty Hopf antipodal operator $S(f)(g) = f(g^{-1})$.  Notice that the algebra operations $M,I$ depend only on $Anal Man|G|$.
 =--
 
-## Properties
 
 ###  The theorem of Hopf modules 
 
@@ -164,6 +171,14 @@ By the discussion at [[n-vector space]] this allows to identify Hopf algebras wi
 (For instance ([FHLT, p. 27](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups))).
 
 More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally by [[sesquiunital sesquialgebras]].
+
+
+## Examples
+
+* [[group algebra]]
+
+* [[Steenrod algebra]]
+
 
 ## Related concepts
 
@@ -199,7 +214,7 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
-* John Milnor, J. Moore, _The structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264.
+* [[John Milnor]], [[John Moore]], _The structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264.
 
 * Susan Montgomery, _Hopf algebras and their action on rings_, AMS 1994, 240p.
 
@@ -218,6 +233,10 @@ and discussed in detail in
 
 * T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](http://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf;jsessionid=C0D15EADBDC35E93D95D2DD090411004?sequence=1))
  {#Bakke}
+
+Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
+
+* [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 [[!redirects antipode]]
 [[!redirects Hopf algebras]]
