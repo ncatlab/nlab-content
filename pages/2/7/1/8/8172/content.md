@@ -36,6 +36,8 @@ $$
 
 where $A$ is the [[Steenrod algebra]]. 
 
+This is built via an [[Adams resolution]].
+
 This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1](#Ravenel)).
 
 ### Via cosimplicial spectra 
