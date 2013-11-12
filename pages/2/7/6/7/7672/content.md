@@ -43,6 +43,8 @@ $$
 
 sends real [[vector bundles]] to [[sphere bundles]], namely to [[(∞,1)-line bundles]] with typical [[fiber]] the [[sphere spectrum]] $\mathbb{S}$. See also at _[[Thom space]]_ for more on this.
 
+The description of the image of the $J$-homomorphism in the [[stable homotopy groups of spheres]] was an important precursor to the development of [[chromatic homotopy theory]], which is used to explain the periodicities seen in the image of the J-homomorphism (see also [Lurie 10, remark 8](#Lurie)). See also at _[[periodicity theorem]]_.
+
 ## Definition
 
 ### On groups
@@ -180,8 +182,7 @@ the **J-homomorphism**.
 
 ### Delooped: On classifying spaces and K-theory classes
 
-
-spring
+(...)
 
 $$
   KO^0(X) \longrightarrow Sph(X)
@@ -189,10 +190,15 @@ $$
 
 [[topological K-theory]] to [[spherical fibrations]]
 
+(...)
+
 ## Properties
 
 ### Image of the J-homomorphism
  {#Image}
+
+#### Traditional formulation
+ {#ImageOfJTradtionalFormulation}
 
 The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _Adams conjecture_) and then proven in ([Quillen 71](#Quillen71)).
 
@@ -243,6 +249,83 @@ is for low $k$ given by the following table
 =--
 
 See for instance ([Ravenel, p. 5](#Ravenel)).
+
+#### Formulation in chromatic homotopy theory
+ {#ImageOfJInChromotopy}
+
+In terms of [[chromatic homotopy theory]] the nature of the image of the J-homomorphism can be formulated more succinctly as follows.
+
+
+Write $E(1)$ for the first [[Morava E-theory]] [[spectrum]] at given [[prime number]] $p$. Write
+$L_{E(1)}\mathbb{S}$ for the [[Bousfield localization of spectra]] of the [[sphere spectrum]] at $E(1)$.
+
++-- {: .num_theorem }
+###### Theorem
+
+The [[homotopy groups]] of the $E(1)$-localized sphere spectrum are
+
+$$
+  \pi_n L_{E(1)} \mathbb{S}
+  \simeq
+  \left\{
+    \array{
+      \mathbb{Z} & if\; n = 0
+       \\
+       \mathbb{Q}_p/\mathbb{Z}_p & if\; n= -2
+       \\
+       \mathbb{Z}/p^{k+1}\mathbb{Z} & if\; n+1 = (p-1)p^k m \;with\; m \neq 0\;mod\;p
+        \\
+        0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+This appears as ([Lurie 10, theorem 6](#Lurie))
+
+
++-- {: .num_defn }
+###### Definition
+
+Write $\mathbb{S}_p$ for the [[p-localization]] of the [[sphere spectrum]].
+For $n \in \mathbb{Z}$, write $im(J)_n$ for the [[image]] of the $p$-localized J-homomorphism 
+
+$$
+  J \;\colon\; \pi_n(O) \longrightarrow \pi_n(\mathbb{S}) \longrightarrow \pi_n(\mathbb{S}_{(p)})
+  \,.
+$$
+
+=--
+
++-- {: .num_theorem }
+###### Theorem
+
+For $n \in \mathbb{N}$, the further [[Bousfield localization]] at [[Morava E-theory|Morava E(1)-theory]]  $\mathbb{S}_{(p)} \longrightarrow L_{E(1)}\mathbb{S}$ induces a [[isomorphism]]
+
+$$
+  im(J)_n \stackrel{\simeq}{\longrightarrow} \pi_n (L_{E(1)} \mathbb{S})
+$$
+
+between the image of the $J$-homomorphism and the $E(1)$-local [[stable homotopy groups of spheres]].
+
+=--
+
+In this form this appears as ([Lurie 10, theorem 7](#Lurie))
+
++-- {: .num_cor }
+###### Corollary
+
+The $E(1)$-[[Bousfield localization of spectra|localization map]] is surjective on non-negative homotopy groups:
+
+$$
+  \pi_n(\mathbb{S}_{(p)}) \longrightarrow \pi_n(L_{E(1)} \mathbb{S})
+  \,.
+$$
+
+=--
+
 
 ## Related concepts
 
@@ -303,3 +386,6 @@ Discussion in the modern perspective of [[higher algebra]] is for instance in
 
 [[!redirects Adams conjecture]]
 [[!redirects Adams' conjecture]]
+
+[[!redirects image of J]]
+[[!redirects image of the J-homomorphism]]
