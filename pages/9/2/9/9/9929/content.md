@@ -149,14 +149,23 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 * [[orientation in generalized cohomology]]
 
+* [[complex cobordism cohomology theory]]
+
+* [[Landweber exact functor theorem]]
+
+* [[chromatic homotopy theory]]
 
 ## References
 
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
-Lecture 4 and 6 in 
 
-* [[Jacob Lurie]], _Chromatic homotopy theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+
+  Lecture 4 _Complex-oriented cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
+
+  Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+
  {#LurieLecture}
 
 [[!redirects complex oriented cohomology theories]]
