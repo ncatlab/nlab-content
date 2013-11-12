@@ -114,6 +114,10 @@ There is also another example due to Heller, which fais to be representable for 
 * [blog post](http://golem.ph.utexas.edu/category/2012/08/brown_representability.html)
 
 
+## Related concepts
+
+* [[Landweber exact functor theorem]]
+
 ## References
 
 The original theorem was proven in
@@ -124,15 +128,22 @@ The categorical generalization was proven in
 
 * [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965)
 
-The model-categorical version, with applications to [[∞-stack]]s -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
+The model-categorical version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
 
-* Jardine, _[[JardineBrownrep.pdf:file]]_ 
+* [[Rick Jardine]], _[[JardineBrownrep.pdf:file]]_ 
 
 Warning: this is probably implicitly about [[reduced cohomology theory]], as the functors considered always assign the trivial result to the [[terminal object]] (the [[point]] in the usual examples).
 
 The counterexamples to nonconnected and unpointed Brown representability are from
 
 * [[Peter Freyd]] and [[Alex Heller]], _Splitting homotopy idempotents. II._ J. Pure Appl. Algebra 89 (1993), no. 1-2, 93&#8211;106.
+
+A review in the context of [[chromatic homotopy theory]] is in 
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
+ {#Lurie}
+
+
 
 [[!redirects Brown representability]]
 
