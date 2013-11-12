@@ -8,8 +8,6 @@
 
 A _stratification_ of a [[set]] or other object is some kind of decomposition into _strata_ that are [[order|ordered]] by inclusion.
 
-See also _[[filtered object]]_.
-
 ## Related concepts
 
 * [[filtered object]]
