@@ -129,6 +129,19 @@ The axiomatic definition appears in
 * [[Norman Steenrod]], [[David Epstein]], _Cohomology operations_, Annals of mathematics studies, Princeton University Press (1962)
  {#SteenrodEpstein}
 
+Lecture notes on Steenrod squares and the [[Steenrod algebra]] include
+
+* [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
+
+  Lecture 2 _Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture2.pdf))
+
+  Lecture 3 _Basic properties of Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture3.pdf))
+
+  Lecture 4 _The Adem relations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture4.pdf))
+
+  Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
+
+
 See also
 
 * [[Wen-Tsun Wu]], _Sur les puissances de Steenrod_, Colloque de Topologie de Strasbourg, IX, La Biblioth&#232;que Nationale et Universitaire de Strasbourg, (1952)
