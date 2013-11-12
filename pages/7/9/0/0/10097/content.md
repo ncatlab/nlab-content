@@ -31,6 +31,8 @@ A conjecture in [[chromatic homotopy theory]] about the nature of the [[algebrai
 
 * [[BDR 2-vector bundle]]
 
+[[!include chromatic tower examples - table]]
+
 ## References
 
 The conjecture as such is stated in
@@ -54,4 +56,3 @@ See also
 
 [[!redirects red shift conjecture]]
 [[!redirects redshift conjecture]]
-
