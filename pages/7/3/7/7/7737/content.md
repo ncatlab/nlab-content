@@ -25,9 +25,13 @@ Among them are
 
 * [[stratifolds]], [[orbifolds]], ...
 
+## Examples
+
+* the [[moduli stack of formal groups]] has a natural stratification by [[height of a formal group|height of formal groups]].
+
 ## Related concepts
 
-Maybe one can assign a [[fundamental category]] to a stratified space.
+* Maybe one can assign a [[fundamental category]] to a stratified space.
 
 * [[stratification]]
 
@@ -72,3 +76,6 @@ Discussion of the [[fundamental category]] of a (Whitney&#8209;)stratified space
 
 [[!redirects stratified space]]
 [[!redirects stratified spaces]]
+
+[[!redirects stratum]]
+[[!redirects strata]]
