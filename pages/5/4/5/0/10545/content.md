@@ -147,17 +147,31 @@ Original articles include
 * [[John Milnor]], _The Steenrod algebra and its dual_, Ann. of Math. 67 (1958), 150&#8211;171.
  {#Milnor58}
 
-A textbook account is in 
 
-* Harvey Margolis, _Spectra and the Steenrod algebra_, 1983 North-Holland 
-
-The general algebraic approach is laid out in 
+The general algebraic approach was laid out in 
 
 * [[Peter May]], _A general algebraic approach to Steenrod operations_, in _The Steenrod Algebra and its Applications_ (Proc. Conf. to Celebrate N. E. Steenrod's Sixtieth Birthday, Battelle Memorial Inst., Columbus, Ohio, 1970), Lecture Notes in Mathematics, Vol. 168, Springer, Berlin, 1970, pp. 153&#8211;231. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/Algebraic.pdf))
  {#May70}
 
 * R. R. Bruner, , [[Peter May]], J. E. McClure, M. Steinberger, 
 _$H_\infty$ ring spectra and their applications_, Lecture Notes in Math., Springer-Verlag, Berlin,
+
+Textbook accounts include
+
+* Harvey Margolis, _Spectra and the Steenrod algebra_, 1983 North-Holland 
+
+Lecture notes include
+
+* [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
+
+  Lecture 2 _Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture2.pdf))
+
+  Lecture 3 _Basic properties of Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture3.pdf))
+
+  Lecture 4 _The Adem relations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture4.pdf))
+
+  Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
+
 
 Reviews include
 
