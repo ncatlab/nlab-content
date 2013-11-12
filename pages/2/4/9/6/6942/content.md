@@ -66,6 +66,14 @@ This is discussed in some detail at _[[principal bundle]]_.
 
 The statement immediately generalizes to higher degrees and to other notions of ([[higher geometry|higher]]) [[geometry]]. This is discussed at _[[principal ∞-bundle]]_.
 
+### Of flat connections
+
+* [[moduli stack of flat connections]]
+
+### Of formal groups
+
+* [[moduli stack of formal groups]]
+
 ### Of elliptic curves
 
 A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of elliptic curves]]_ for more on this.
