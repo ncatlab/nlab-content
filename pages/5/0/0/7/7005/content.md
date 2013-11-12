@@ -299,6 +299,9 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 
 * Bruno Barras, [[Thierry Coquand]], Simon Huber, _A Generalization of Takeuti-Gandy Interpretation_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
 
+* [[Thierry Coquand]] (with Marc Bezem and Simon Huber), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
+ {#Coquand13}
+
 
 
 
