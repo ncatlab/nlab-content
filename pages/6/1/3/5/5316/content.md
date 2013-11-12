@@ -289,6 +289,8 @@ $$
 
 * [[elliptic cohomology]]
 
+* [[moduli stack of formal groups]]
+
 ## References
 
 An introduction is for instance in
