@@ -35,6 +35,12 @@ to the _$E$-local spectrum_ $L_E X$, with the property that for $Y$ any $E$-acyc
 
 For $E = H \mathbb{Z}_p$ the [[Eilenberg-MacLane spectrum]] of the [[cyclic group]] $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ for some [[prime number]] $p$, this $E$-localization is _[[p-localization]]_. (see for instance [Lurie 10, Examples 7 and 8](#LurieLecture))
 
+## Examples
+
+* [[p-localization]]
+
+* [[telescopic localization]]
+
 ## References
 
 The original article is
