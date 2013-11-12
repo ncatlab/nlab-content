@@ -31,7 +31,7 @@ An &#233;tale map between [[topological spaces]] is a  [[local homeomorphism]]; 
 
 ### Between smooth manifolds
 
-An &#233;tale map between [[smooth spaces]] is a  [[local diffeomorphisms]], a special case of a [[local homeomorphism]].
+An &#233;tale map between [[smooth spaces]] is a  [[local diffeomorphisms]], which is in particular a [[local homeomorphism]] on the underlying [[topological spaces]].
 
 ### Between schemes (affine schemes / rings)
 
