@@ -607,15 +607,23 @@ Review of renormalization and specifically of the Hopf algebra description of th
 ### Traditional physics accounts
  {#General}
 
+Reviews include
+
+* G. Peter Lepage, _What is Renormalization?_, talk 1989 ([arXiv:hep-ph/0506330](http://arxiv.org/abs/hep-ph/0506330))
+
+* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ {#Weinberg09}
+
+(in the context of [[effective field theory]])
+
+* [[R. E. Borcherds]], _Renormalization and quantum field theory_, ([arxiv/1008.0129](http://arxiv.org/abs/1008.0129))
+
+Original articles:
+
 BPHZ renormalization was introduced in particular in
 
 * K. Hepp.: _Th&#233;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
 
-A review is in
-
-* G. Peter Lepage, _What is Renormalization?_, talk 1989 ([arXiv:hep-ph/0506330](http://arxiv.org/abs/hep-ph/0506330))
-
-* [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
 
 ### In BV formalism
  {#ReferencesInBVFormalism}
