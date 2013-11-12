@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+
+For $p$ a [[prime number]], a **$p$-local** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
+
+* admit the [[structure]] of [[modules]] over the $p$-[[localization of a ring|localized ring]] of [[integers]]  $\mathbb{Z}[p^{-1}]$;
+
+equivalently:
+
+* are such that the [[tensor product]] with the $p$-[[cyclic group]] vanishes: $\pi_\bullet(X) \otimes \mathbb{Z}/p\mathbb{Z} \simeq 0$.
+
+The _$p$-localization_ is the [[localization]] that makes the $p$-local homotopy types/spectra be the [[local objects]]. 
+
+Specifically for [[spectra]] this is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_p$ for the [[cyclic group]].
+
+## References
+
+* Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+
+[[!redirects p-localizations]]
+
+[[!redirects p-local]]
+[[!redirects p-locally]]
+
+[[!redirects p-local spectrum]]
+[[!redirects p-local spectra]]
+
+[[!redirects p-local space]]
+[[!redirects p-local spaces]]
