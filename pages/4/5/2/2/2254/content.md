@@ -81,6 +81,8 @@ For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
 * [[Morava stabilizer group]]
 
+* [[Landweber exact functor theorem]]
+
 * [[chromatic homotopy theory]]
 
 * [[Lie algebra]], [[Lie group]]
