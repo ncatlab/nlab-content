@@ -21,16 +21,17 @@ min(2x, 2y, 0)$, and this is a piecewise linear curve.
 
 Textbook accounts/lecture notes include
 
-*  [[ Diane Maclagan]] and [[Bernd Sturmfels]] _Introduction to Tropical Geometry_, [draft book](http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook.pdf)
+*  [[Diane Maclagan]], [[Bernd Sturmfels]] _Introduction to tropical geometry_, [draft book](http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook.pdf)
 
 * [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page](http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf)
 
 * G. Mikhalkin, _Tropical geometry_, book, early draft, [scribd](http://www.scribd.com/doc/47771116/Tropical-geometry-Grigory-Mikhalkin); _Tropical geometry and its applications_, Proc. Intern. Congr. Math.,
 V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](http://www.mathunion.org/ICM/ICM2006.2/Main/icm2006.2.0827.0852.ocr.djvu) [pdf](http://www.mathunion.org/ICM/ICM2006.2/Main/icm2006.2.0827.0852.ocr.pdf)
 
-* [[ Diane Maclagan]], [AARMS Tropical Geometry](http://homepages.warwick.ac.uk/staff/D.Maclagan/AARMS/AARMSTropical.pdf):lecture notes from a four week graduate summer school on Tropical Geometry held at the University of New Brunswick in July/August 2008 under the auspices of the Atlantic Association for Research in the Mathematical Sciences (AARMS).
+* [[Diane Maclagan]], [AARMS Tropical Geometry](http://homepages.warwick.ac.uk/staff/D.Maclagan/AARMS/AARMSTropical.pdf):lecture notes from a four week graduate summer school on Tropical Geometry held at the University of New Brunswick in July/August 2008 under the auspices of the Atlantic Association for Research in the Mathematical Sciences (AARMS).
 
 * MSRI introductory workshop on tropical geometry [page](http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm483), Aug 24-28, 2009 (with videos of the lectures)
+* Erwan Brugall&#233;, Kristin Shaw, _A bit of tropical geometry _, [arxiv/1311.2360](http://arxiv.org/abs/1311.2360)
 
 ### Collections of articles
 
