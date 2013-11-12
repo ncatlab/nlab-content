@@ -250,6 +250,8 @@ See for instance ([Ravenel, p. 5](#Ravenel)).
 
 ## References
 
+### General
+
 The J-homomorphism was introduced in 
 
 * [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942), ([JSTOR](http://www.jstor.org/stable/1968956)).
@@ -287,6 +289,15 @@ Lecture notes include
 Discussion in the modern perspective of [[higher algebra]] is for instance in 
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
+### The image of the J-homomorphism
+
+* [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
+ {#Lurie}
+
+
+* [[Mark Mahowald]], _The Image of J in the EHP Sequence_, Annals of Mathematics   Second Series, Vol. 116, No. ([JSTOR](http://www.jstor.org/stable/2007048))
+
 
 [[!redirects J-homomorphisms]]
 
