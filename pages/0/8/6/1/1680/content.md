@@ -22,7 +22,9 @@ For $A$ an [[abelian group]], the _Eilenberg-Mac Lane spectrum_ $H A$ is the [[s
 
 By default $A$ is taken to be the [[integers]] and hence "the Eilenberg-MacLane spectrum" is $H \mathbb{Z}$, representing [[integral cohomology]].
 
-## As a symmetric monoidal $\infty$-groupoid.
+## Properties
+
+### As a symmetric monoidal $\infty$-groupoid.
 
 As a [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoid]] the _Eilenberg--Mac Lane_ [[spectrum]] is the [[abelian group]] of [[integers]] (under addition)
 
@@ -76,6 +78,12 @@ $$
 $$
 
 its name.
+
+
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
+
 
 ## Related concepts
 
