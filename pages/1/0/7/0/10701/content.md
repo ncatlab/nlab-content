@@ -27,6 +27,10 @@ This page collects links related to the lecture notes
 
 on [[chromatic homotopy theory]].
 
+See also _[[A Survey of Elliptic Cohomology]]_.
+
+**Lectures**
+
 * Lecture 1 _Introduction_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture1.pdf))
 
 * Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
@@ -152,7 +156,7 @@ on [[chromatic homotopy theory]].
 
 ## Lecture 16 _The Landweber exact functor theorem_ 
 
-* [[Landweber exact fucntor theorem]]
+* [[Landweber exact functor theorem]]
 
 ## Lecture 17 _Phanton maps_ 
 
@@ -160,7 +164,9 @@ on [[chromatic homotopy theory]].
 
 ## Lecture 18 _Even periodic cohomology theories_ 
 
-* [[even periodic cohomology theory]]
+* [[periodic cohomology theory]]
+
+* [[periodic ring spectrum]]
 
 ## Lecture 19 _Morava stabilizer groups_ 
 
@@ -171,6 +177,8 @@ on [[chromatic homotopy theory]].
 * [[Bousfield localization]]
 
 * [[Bousfield localization of spectra]]
+
+* [[p-localization]]
 
 ## Lecture 21 _Lubin-Tate theory_
 
@@ -231,21 +239,9 @@ on [[chromatic homotopy theory]].
 
 * [[Adams operation]]
 
-category: reference
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 category: reference
+
+
+
