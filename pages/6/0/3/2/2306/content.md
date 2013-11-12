@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 The _Lazard_ [[ring]] is 
 
@@ -6,17 +11,17 @@ The _Lazard_ [[ring]] is
 
 and at the same time
 
-* the universal coefficient ring for [[formal group law]]s.
+* the universal [[coefficient]] [[ring]] for [[formal group laws]].
 
-#Details#
+## Details
 
 The _Lazard ring_ can be presented as by generators $a_{i j}$ with $i,j \in \mathbb{N}$
 
 $$
-  L = \mathbb{Z}[a_{i j}] / (relations 1-3 below)
+  L = \mathbb{Z}[a_{i j}] / (relations\;1,2,3\;below)
 $$
 
-and relatins as follows
+and relations as follows
 
 1. $a_{i j} = a_{j i}$
 
@@ -49,7 +54,7 @@ $$
 for any $n\in\mathbb{Z}$.
 This construction could however break the left exactness condition. However, $E$ built this way will be left exact if the ring morphism $M P({*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
 
-#related entries#
+## Related entries
 
 for some context see 
 
@@ -57,6 +62,11 @@ for some context see
 
 or this [blog entry](http://math.ucr.edu/home/baez/week150.html)
 
-# References:
+## References
 
-[[Daniel Quillen]]: [On the formal group laws of unoriented and complex cobordism theory](http://projecteuclid.org/euclid.bams/1183530915), Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298. 
+* [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298.  ([Euclid](http://projecteuclid.org/euclid.bams/1183530915))
+
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
+
+[[!redirects Lazard's theorem]]
