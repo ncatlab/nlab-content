@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _contact manifold_ is a [[smooth manifold]] $P$ of odd [[dimension]] $2n+1$ which is equipped with a [[differential form|differential 1-form]] $A$ that is non-degenrate in the sense that the [[wedge product]] $A \wedge (d_{dR} A)^{\wedge^n}$ does not vanish.
+A _contact manifold_ is a [[smooth manifold]] $P$ of odd [[dimension]] $2n+1$ which is equipped with a [[differential form|differential 1-form]] $A$ that is non-degenerate in the sense that the [[wedge product]] $A \wedge (d_{dR} A)^{\wedge^n}$ does not vanish.
 
 The special case of [[closed manifold|closed]] _regular_ contact manifolds $(P,A)$ are essentially equivalent to the total spaces of [[circle bundles]] $P \to X$ over an $2n$-dimensional manifold equipped with a [[connection on a bundle|connection]] such that $A$ is the corresponding [[Ehresmann connection]] 1-form on the total space ([BoothbyWang (1958)](#BoothbyWang)). 
 
@@ -49,8 +49,8 @@ This is due to ([Boothby-Wang 58](#BoothbyWang)). The proof is recalled (and com
 > The following is taken from ([Lin](#Lin)).
 
 Originating in [[Hamiltonian mechanics]] and [[geometric optics]], contact geometry caught geometers' attention much earlier. In 1953, [[Shiing-shen Chern]] showed that the structure group of a contact manifold $M^{2n+1}$ can be reduced to the [[unitary group]] $U(n)$ and therefore all
-of its odd [[characteristic classes]] vanish. Since all the characteristic classes of a closed, orientable 3-manifold vanish, Chern posed the question of whether such a manifold always admits a contact structure and whehter there are non-isomorphic contact structures on
-one manifold in 1966.
+of its odd [[characteristic classes]] vanish. Since all the characteristic classes of a closed, orientable 3-manifold vanish, Chern in 1966 posed the questions of whether such a manifold always admits a contact structure and whether there are non-isomorphic contact structures on
+one manifold.
 
 One of the milestones in the study of contact geometry is Bennequin's proof of the existence of exotic contact structures (i. e., contact structures not isomorphic to the standard one) on $\mathbb{R}^3$. Bennequin recognized that the induced singular [[foliation]] on a [[surface]] [[embedding|embedded]] in a contact 3-manifold plays a crucial role for the classication of contact structures. This role was further explored in the work of Eliashberg, who distinguished two classes of contact structures in dimension 3, overtwisted and tight, and gave a homotopy classication for overtwisted contact structures on 3-manifolds. Eliashberg also proved that on $\mathbb{R}^3$ and $S^3$, the standard contact structure is the only tight contact structure.
 
