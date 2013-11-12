@@ -1,4 +1,7 @@
 
+> This entry is about &#233;tale morphisms between [[schemes]]. The term _[[étale map]]_ is preferred in the context of [[topology]] and [[differential geometry]], see [[étalé space]] for the topological version. 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,20 +16,32 @@
 =--
 =--
 
-This entry is about &#233;tale morphisms between [[schemes]]. The term _[[étale map]]_ is preferred in the context of [[topology]] and [[differential geometry]], see [[étalé space]] for the topological version. 
 
 #Contents#
 * table of contents
 {:toc}
 
 
+## Idea
+
+The notion of _&#233;tale morphism of schemes_ is the realization of the general notion of [[étale morphism]] for maps between [[schemes]], hence it captures roughly the idea of a map of schemes which is a [[local homeomorphism]]/[[local diffeomorphism]].
+
+A central use of &#233;tale morphisms of schemes is that they appear as [[coverings]] in the [[Grothendieck topology]] of the [[étale site]]. The [[abelian sheaf cohomology]] with respect to these &#233;tale covers of schemes is accordingly called _[[étale cohomology]]_.
+
+
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn #EquivalentConditionsForEtale}
 ###### Definition
 
-A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equivalent conditions hold
+A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equivalent conditions hold:
+
+1. it is
+
+   1. [[smooth morphism of schemes|smooth]] 
+
+   1. [[unramified morphism|unramified]] 
 
 1. it is
 
@@ -50,17 +65,24 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 
 (A number of other equivalent definitions are listed at [wikipedia](http://en.wikipedia.org/wiki/Etale_morphism).)  
 
-
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-Jointly surjective collection of &#233;tale morphisms $\{U_i \to X\}$ is called an [[étale cover]].
+A jointly surjective collection of &#233;tale morphisms $\{U_i \to X\}$ is called an [[étale cover]].
 
 =--
 
-There is a weaker notion of a [[formally étale morphism]]. 
 
-+-- {: .un_defn}
++-- {: .num_remark}
+###### Remark
+
+Most of the pairs of conditions in def. \ref{EquivalentConditionsForEtale} can be read as constraining the fiber of the morphism to be first suitably surjective/[[bundle]]-like ([[smooth morphism of schemes|smooth]], [[flat morphism|flat]]) and second suitably locally injective ([[unramified]]).
+
+Specifically the first condition has an [[infinitesimal object|infinitesimal anlog]]: a [[formally étale morphism]] is a [[formally smooth morphism|formally smooth]] and [[formally unramified morphism]]. These notions also have an interpretation in [[synthetic differential geometry]] and there they correspond to the statement that a [[local diffeomorphism]] is a [[submersion]] which is also an [[immersion of smooth manifolds]].
+
+=--
+
++-- {: .num_defn}
 ###### Definition
 
 A morphism is **[[formally étale morphism]]** if it is 
@@ -71,11 +93,12 @@ A morphism is **[[formally étale morphism]]** if it is
 
 =--
 
-+-- {: .un_defn}
-###### Definition
++-- {: .num_remark}
+###### Remark
 
 These are sheaf-like properties, which can be formalized in the language of [[Q-categories]] ([[monopresheaf]] and [[epipresheaf]] properties on the $Q$-category of nilpotent thickenings). 
 
+See at _[[differential cohesion]]_ and at _[[infinitesimal shape modality]]_.
 =--
 
 ## Properties
@@ -93,7 +116,7 @@ These are sheaf-like properties, which can be formalized in the language of [[Q-
 
 ### Classes of examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $k$ be a [[field]]. A morphism of [[scheme]]s $Y \to Spec k$ is &#233;tale precisely if $Y$ is a [[coproduct]] $Y \simeq \coprod_i Spec k_i$ for each $k_i$ a finite and separable [[field extension]] of $k$.
@@ -102,7 +125,7 @@ Let $k$ be a [[field]]. A morphism of [[scheme]]s $Y \to Spec k$ is &#233;tale p
 
 This appears for instance as [de Jong, prop. 3.1 i)](#deJong). 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Such &#233;tale morphisms are classified by the classical [[Galois theory]] of field extensions.
@@ -110,7 +133,7 @@ Such &#233;tale morphisms are classified by the classical [[Galois theory]] of f
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[ring]] homomorphism $A \to B$ is &#233;tale precisely if  $B \simeq R[x_1, \cdots, x_n]/(f_1, \cdots, f_n)$ where 
@@ -134,7 +157,7 @@ This proposition seems to be wrong for 2 reasons; first, A,B,R,S are 2 many symb
 
 ### As locally constant sheaves {#AsLocallyConstantSheaves}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[sheaf]] $F$ on a scheme $X$ corresponds to an &#233;tale morphism $Y \to X$ precisely if there is an [[étale cover]] $\{U_i \to X\}$ such that each restriction
