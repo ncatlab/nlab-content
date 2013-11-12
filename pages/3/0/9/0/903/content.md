@@ -221,6 +221,16 @@ The standard example is that where $B = S^n$ is the $n$-[[sphere]]. This natural
 As opposed to [[cohomology]] where people are used to talking about [[generalized cohomology]], "homotopy" usually just means this ordinary homotopy for $B = S^n$.
 
 
+## Related concepts
+
+* [[weak homotopy equivalence]]
+
+* [[p-localization]]
+
+* [[Goodwillie calculus]]
+
+* [[homotopy groups in an (infinity,1)-topos]]
+
 ## References
 
 ### General
