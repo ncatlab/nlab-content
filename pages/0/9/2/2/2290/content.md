@@ -230,6 +230,12 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 The analog of the [[orbit method]] with [[equivariant K-theory]]
 replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[representation theory]] of [[loop groups]]. ([Ganter 12](#Ganter12))
 
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
+
+
+
 ## Related concepts
 
 * [[elliptic spectrum]]
