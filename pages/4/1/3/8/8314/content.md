@@ -82,6 +82,8 @@ See at _[[finite abelian group]]_ for details.
 
 * [[group of order 2]]
 
+* [[p-localization]]
+
 [[!redirects cyclic group]]
 [[!redirects cyclic groups]]
 
