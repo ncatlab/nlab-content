@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -395,12 +395,19 @@ Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-the
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
+
+
 ### Relation to algebraic K-theory
  {#RelationToAlgebraicKTheory}
 
 The topological K-theory over a space $X$ is not
 identical with the _[[algebraic K-theory]]_ of the
 ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)).
+
+
 
 
 ## Related concepts
