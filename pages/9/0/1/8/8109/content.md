@@ -100,7 +100,7 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
  {#LurieLectures}
 
 * [[Doug Ravenel]], _Toward higher chromatic analogs
