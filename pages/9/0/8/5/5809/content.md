@@ -40,7 +40,9 @@ $$
 
 * [[Bockstein homomorphism]]
 
-* [[Steenrod squares]]
+* [[Steenrod squares]] are the stable cohomology endo-operations on [[ordinary cohomology]]
+
+* [[Adams operations]] are the endo-cohomology operations on [[K-theory]]
 
 * [[cup product]]
 
