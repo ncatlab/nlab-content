@@ -169,6 +169,10 @@ See also [[localization of a simplicial model category]].
 
   * [[Bousfield localization of model categories]]
 
+    * [[Bousfield localization of spectra]]
+
+    * [[p-localization]]
+
 ## References
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
