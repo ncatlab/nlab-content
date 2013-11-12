@@ -60,7 +60,7 @@ The equivalence of the conditions on [[tangent space]] with the conditions on [[
 
 ### Abstract characterization
 
-The [[category]] [[SmoothMfd]] of [[smooth manifold]]s may naturally be thought of as sitting inside the more general context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This is canonically equipped with a notion of [[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]] exhibited by its inclusion into [[SynthDiff∞Grpd]]. This implies that there is an intrinsic notion of [[formally étale morphism]]s of smooth $\infty$-groupoids in general and of smooth manifolds in particular
+The [[category]] [[SmoothMfd]] of [[smooth manifold]]s may naturally be thought of as sitting inside the more general context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This is canonically equipped with a notion of [[differential cohesion]] exhibited by its inclusion into [[SynthDiff∞Grpd]]. This implies that there is an intrinsic notion of [[formally étale morphism]]s of smooth $\infty$-groupoids in general and of smooth manifolds in particular
 
 +-- {: .num_prop}
 ###### Proposition
