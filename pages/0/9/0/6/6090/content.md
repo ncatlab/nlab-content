@@ -35,6 +35,12 @@ From [this physics.SE comment](http://physics.stackexchange.com/a/15164/5603) by
 
 > Building on this result, Weinberg became convinced that the only real solution to the S-matrix was a field theory of some particles with spin. He still says this every once in a while, but it is dead wrong. The most charitable interpretation is that every S-matrix has a field theory limit, where all but a finite number of particles decouple, but this is not true either (consider little string theory). String theory exists, and there are non-field theoretic S-matrices, namely all the ones in string theory, including little string theory in (5+1)d, which is non-gravitational.
 
+From ([Weinberg 09, p. 11](#Weinberg09)):
+
+> I offered this in my 1979 paper as what Arthur Wightman would call a [[folk theorem]]: "if one writes down the most general possible [[Lagrangian]], including all terms consistent with assumed [[symmetry]] principles, and then calculates [[scattering amplitudes|matrix elements]] with this Lagrangian to any given order of [[perturbation theory]], the result will simply be the most general possible S-matrix consistent with perturbative unitarity, analyticity, [[cluster decomposition]], and the assumed symmetry properties." 
+
+> There was an interesting irony in this. I had been at Berkeley from 1959 to 1966, when [[Geoffrey Chew]] and his collaborators were elaborating a program for calculating S-matrix elements for strong interaction processes by the use of unitarity, analyticity, and Lorentz invariance, without reference to [[quantum field theory]]. I found it an attractive philosophy, because it relied only on a minimum of principles, all well established. Unfortunately, the S-matrix theorists were never able to develop a reliable method of calculation, so I worked instead on other things, including [[current algebra]]. Now in 1979 I realized that the assumptions of S-matrix theory, supplemented by chiral invariance, were indeed all that are needed at low energy, but the most convenient way of implementing these assumptions in actual calculations was by good old quantum field theory, which the S-matrix theorists had hoped to supplant.
+
 ## Properties
 
 ### Possible symmetries
@@ -55,6 +61,10 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 * Wikipedia, _[S-matrix](http://en.wikipedia.org/wiki/S-matrix#History)_
 
 * Wikipedia, _[S-matrix theory](http://en.wikipedia.org/wiki/S-matrix_theory)_
+
+* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ {#Weinberg09}
+
 
 [[!redirects S-matrices]]
 
