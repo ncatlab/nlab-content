@@ -108,7 +108,7 @@ The [[big topos]] $Sh(CartSp)$ is a [[cohesive topos]] of [[generalized smooth s
 
 The representables themselves should evidently be locally representable and canonically have the structure of $CartSp$-structured toposes.
 
-Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos] 
+Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos]] 
 
 $$
   (\mathcal{X}, \mathcal{O}_{\mathcal{X}})
