@@ -22,8 +22,13 @@
 
 The _neutrino_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]].
 
+## Neutrino masses
 
-## History
+On neutrino [[masses]] and the [[standard model of particle physics]] as an [[effective field theory]]:
+
+> I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
+
+## History and prediction
 
 The history of the prediction of the neutrino is interesting and may (or may not) contain some general lessons for theoretical physics/[[mathematical physics]].
 
@@ -73,5 +78,10 @@ A discussion of Pauli's thoughts leading him to the prediction of the neutrino i
 
 * Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
   {#AP06}
+
+Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
+
+* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ {#Weinberg09}
 
 [[!redirects neutrinos]]
