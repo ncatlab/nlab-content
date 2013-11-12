@@ -99,9 +99,7 @@ For instance ([Lurie 10, lecture 12, example 16](#Lurie10)).
 
 ## References
 
-Lecture 12 of
-
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_, Lecture series (2010) ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series (2010) ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 12 _Heights and formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
  {#Lurie10}
 
 
