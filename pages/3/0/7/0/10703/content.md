@@ -44,6 +44,9 @@ The periodicity theorem says:
 
 Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$ periodicity map. ([Lurie 10, theorem 4](#Lurie10))
 
+## Related concepts
+
+* [[telescopic localization]]
 
 ## References
 
