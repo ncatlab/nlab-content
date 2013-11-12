@@ -144,10 +144,15 @@ with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], 
  {#Rudyak98}
 
 
-Lecture notes include lecture 5 in 
+Lecture notes include 
 
-* [[Jacob Lurie]], _Chromatic Homotopy Theory_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
 
+  Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+
+  Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+
+  Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
 For further context see also the discussion at
 
@@ -172,3 +177,5 @@ See also
 
 [[!redirects complex cobordism cohomology]]
 [[!redirects complex cobordism cohomology theory]]
+
+[[!redirects MU]]
