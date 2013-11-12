@@ -166,7 +166,8 @@ See ([Lurie, lecture 24, remark 13](#LurieLecture))
 
 The layers in the [[chromatic homotopy theory|chromatic tower]] capture periodic phenomena in [[stable homotopy theory]], corresponding to the Morava K-theory $E_\infty$-fields.
 
-(...)
+[[!include chromatic tower examples - table]]
+
 
 ### Relation to Bousfield lattice
 
