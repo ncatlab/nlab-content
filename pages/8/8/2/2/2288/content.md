@@ -40,6 +40,7 @@ A tool of major importance in stable homotopy theory and its application to [[hi
 
 * [[noncommutative stable homotopy theory]]
 
+* [[chromatic homotopy theory]]
  
 
 When the spaces and spectra in question carry an [[infinity-action]] of a [[group]] $G$ the theory refines to 
