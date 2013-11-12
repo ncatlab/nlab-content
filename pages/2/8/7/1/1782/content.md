@@ -87,6 +87,15 @@ $$K_i(C)=\pi_i(\mathcal{K}(C)).$$
 
 The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying space]] of the Quillen $Q$-construction applied to $C$. The $Q$-construction has been refined to more sophisticated [[delooping]] methods by Waldhausen, Karoubi and others.
 
+## Properties
+
+### Red-shift conjecture
+
+* [[red-shift conjecture]]
+
+[[!include chromatic tower examples - table]]
+
+
 ## Related concepts
 
 * [[Beilinson regulator]]
