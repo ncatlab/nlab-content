@@ -18,6 +18,10 @@
 
 In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-functor]] to a [[Goodwillie-differentiable (∞,1)-category]] is its stagewise approximation by [[n-excisive (∞,1)-functors]] which is analogous to the approximation of a [[smooth function]] by its [[Taylor series]].
 
+## Related concepts
+
+* [[Postnikov tower]], [[chromatic tower]]
+
 ## References
 
 * [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
