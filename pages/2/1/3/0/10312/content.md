@@ -9,9 +9,15 @@ The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stra
 
 Write $\overline{\mathbb{F}}_{\mathrm{p}}$ for the [[algebraic closure]] of $\mathbb{F}_p$.
 
-The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $Spec (\overline{\mathbb{F}}_{\mathrm{p}})// \mathbb{G}$, where the [[group]] $\mathbb{G} = Aut(\overline{\mathbb{F}}_{\mathrm{p}}, f)$ is the _Morava stabilizer group_, for $f$ the unique formal group law of height $n$. 
+The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $Spec (\overline{\mathbb{F}}_{\mathrm{p}})// \mathbb{G}$, where the [[group]] $\mathbb{G}$ is the [[automorphism group]]  over $\mathbb{F}_p$ of the unique formal group law $f$ of [[height of a formal group|height]] $n$, 
 
-This is ([Lurie 10, lect. 19, prop. 1](#LurieLect19)) See also the beginning of [Lurie 10, lect 21](#LurieLect21).
+$$
+  \mathbb{G} \coloneqq Aut(\overline{\mathbb{F}}_{\mathrm{p}}, f)
+$$ 
+
+This is called the _Morava stabilizer group_. Essentioally its [[group algebra]] ([[Hopf algebra]]) is called the _Morava stabilizer algebra_.
+
+This is discussed around ([Lurie 10, lect. 19, prop. 1](#LurieLect19)), see also the beginning of [Lurie 10, lect 21](#LurieLect21), and in ([Ravenel, chapt. 6](#RavenelCh6)).
 
 The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 
@@ -23,4 +29,10 @@ The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 * [[Jacob Lurie]], _Lubin-Tate Theory _ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf)), lecture 21 in  _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
  {#LurieLect21}
 
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, Chapter 6 _Morava stabilizer algebra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel6.pdf)) 
+ {#RavenelCh6}
+
 [[!redirects Morava stabilizer groups]]
+
+[[!redirects Morava stabilizer algebra]]
+[[!redirects Morava stabilizer algebras]]
