@@ -39,11 +39,11 @@ $f_i: S_{i}^{n-1} \to X_{n-1}$ is a continuous map, often called an _attaching m
 
 A relative CW-complex $(X, A)$ is defined as above, except $X_{-1} = A$ is allowed to be any space.
 
-A _finite CW-complex_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
+A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
 
 Formally this means that (relative) CW-complexes are (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[model structure on topological spaces]].
 
-Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for algebraic topology.
+Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for [[algebraic topology]].
 
 
 ## Properties
