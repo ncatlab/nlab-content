@@ -32,16 +32,34 @@ There is another deep notion of periods in [[number theory]] and a more specific
 Periods appear in a number of situations in classical algebraic geometry. Specific matrices of periods are defined and important in the theory of algebraic functions, [[Hodge theory]] for algebraic cycles, the study of actions of [[motivic Galois group]]s, etc. They come as generalizations of "periods of Riemann surfaces" from 19th century. 
 
 
-### References
+## References
+
+### In number theory
  {#ReferencesInNumberTheory}
 
 A general introduction to and discussion of algebraic periods is in 
 
 * [[Maxim Kontsevich]], [[Don Zagier]], _Periods_ ([pdf](http://193.51.104.7/~maxim/TEXTS/Periods.pdf))
 
-Discussion of periods as appearing in the [[deformation quantization]] of [[free field theories]] and their relation to the [[cosmic Galois group]] originates in
+See also
+
+* A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
+
+* mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
+
+
+
+### In perturbative quantum field theory
+
+Discussion of [[motives in physics]] via periods as appearing in the [[deformation quantization]] of [[free field theories]], hence in [[correlators]]/[[scattering amplitudes]], and their relation to the [[cosmic Galois group]] originates in
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
+
+A detailed review is in 
+
+* Dan Li, _Periods And Motives: Applications In
+Mathematical Physics_, Thesis 2012 ([pdf](http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=6885&context=etd)).
+
 
 More details on this (and a good review of periods in the first place) is in
 
@@ -51,12 +69,6 @@ and briefly in section 8.5 of
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
-
-See also
-
-* A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
-
-* mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
-
+For more see at _[[motives in physics]]_.
 
 [[!redirects periods]]
