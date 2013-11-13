@@ -196,10 +196,43 @@ The "heterodox" generalizes to arbitrary [[Dedekind domain|Dedekind domains]] wi
 
 ## Properties
 
-### The co-free Lambda ring -- ring Witt vecttor
+### Free and co-free $\Lambda$-rings -- Symmetric function and Witt vectors
+ {#FreeAndCofreeLambdaRings}
 
-The [[right adjoint]] to the [[forgetful functor]]
-from $\Lambda$-rings to [[commutative rings]] is the construction of the ring of [[Witt vectors]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[forgetful functor]]
+$U \;\colon\; \Lambda Ring \longrightarrow CRing$
+from $\Lambda$-rings to [[commutative rings]] has 
+
+* a [[left adjoint]], given by forming the ring $Symm$ of [[symmetric functions]];
+
+* a [[right adjoint]] given by forming the [[ring of Witt vectors]] $W$.
+
+$$
+  (Symm \dashv U \dashv W)
+  \;\colon\;
+  \Lambda Ring
+   \stackrel{\overset{Symm}{\leftarrow}}{\stackrel{\overset{U}{\longrightarrow}}{\underset{W}{\leftarrow}}}
+  CRing
+  \,.
+$$
+
+Hence 
+
+* [[rings of Witt vectors]] are the _[[co-free functors|co-free]] Lambda-rings;
+
+* rings of [[symmetric functions]] are the [[free construction|free]] Lambda-rings.
+
+=--
+
+This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)). 
+
+
+
+
 
 ## Related concepts
 
@@ -216,11 +249,14 @@ from $\Lambda$-rings to [[commutative rings]] is the construction of the ring of
 
 ## References
 
-* John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 
 * Hazewinkel, formal groups and applications
 
-* [[Hazewinkel, Witt vectors]], [pdf](http://arxiv.org/abs/0804.3888).{#Hazewinkel}
+* [[Michael Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+  {#Hazewinkel08}
+
+* John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
+
 
 * John R. Hopkins, _Universal polynomials in lambda-rings and the K-theory of the infinite loop space $tmf$_, thesis, [pdf](http://dspace.mit.edu/bitstream/handle/1721.1/34544/71011847.pdf?sequence=1)
   {#Hopkins}
