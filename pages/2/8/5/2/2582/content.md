@@ -254,6 +254,10 @@ $$
 
 where each "hook" is a [[fiber sequence]].
 
+Via the [[J-homomorphism]] this corresponds to the [[stable homotopy groups of spheres]]:
+
+[[!include image of J -- table]]
+
 ## Whitehead tower in general $(\infty,1)$-toposes
 
 While a notion of [[Postnikov tower in an (∞,1)-category]] depends on the _categorical_ [[homotopy groups in an (∞,1)-topos|homotopy groups in an (∞,1)-category]], the notion of Whitehead tower makes good sense with respect to the _geometric_ homotopy groups. 
