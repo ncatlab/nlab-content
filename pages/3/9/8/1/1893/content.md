@@ -252,7 +252,7 @@ This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)).
 
 * Hazewinkel, formal groups and applications
 
-* [[Michael Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+* [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
   {#Hazewinkel08}
 
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
