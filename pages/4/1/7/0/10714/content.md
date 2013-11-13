@@ -1,10 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Statement
 
+
+### A
 
 For $X$ a [[homotopy type]]/[[spectrum]] and for all $n$, there is a [[homotopy pullback]]
 
@@ -22,6 +38,10 @@ $$
 where $L_{K(n)}$ denotes the [[Bousfield localization of spectra]] at $n$th [[Morava K-theory]] and similarly $L_{E(n)}$ denotes localization at [[Morava E-theory]].
 
 ([Lurie 10, lect 23, theorem 4](#LurieLecture23))
+
+This implies that for understanding the [[chromatic tower]] of any [[spectrum]] $X$, it is in principle sufficient to understand all its "chromatic pieces" $L_{K(n)} X$. This is the subject of [[chromatic homotopy theory]].
+
+### B
 
 
 Let $E$ be a [[ring spectrum]] and $X$ an arbitrary [[spectrum]]. Suppose that there exists an [[integer]] $s \geq 1$ such that, for every [[finite spectrum]] $F$, the $E$-based [[Adams spectral sequence]] for $X \otimes F$ has $E^{p,q}_s$ for $p \geq s$.
