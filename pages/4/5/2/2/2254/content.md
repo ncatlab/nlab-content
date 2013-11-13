@@ -69,6 +69,8 @@ For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
 * [[formal multiplicative group]]
 
+* [[Lubin-Tate formal group]]
+
 * [[Artin-Mazur formal group]]
 
 * [[Honda formal group]]
