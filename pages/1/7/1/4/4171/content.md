@@ -427,6 +427,11 @@ Discussion in the more general context of [[higher differential geometry]]/[[ext
 
 See also the references at [[multisymplectic geometry]] and [[n-symplectic manifold]].
 
+A [[higher differential geometry]]-generalization of [[contact geometry]] in line with [[multisymplectic geometry]]/$n$-plectic geometry is discussed in 
+
+* Luca Vitagliano, _L-infinity Algebras From Multicontact Geometry_ ([arXiv.1311.2751](http://arxiv.org/abs/1311.2751))
+
+
 ### Applications
 
 Some more references on application, on top of those mentioned in the articles [above](#ReferencesGeneral).
