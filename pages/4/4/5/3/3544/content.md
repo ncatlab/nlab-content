@@ -5,6 +5,8 @@
 
 * [[model category]], [[model structure on topological spaces]]
 
+* [[Quillen's theorems]]
+
 * [[algebraic K-theory]]
 
 * [[quasi-free algebra]]
@@ -12,6 +14,10 @@
 * [[cotangent complex]]
 
 * and much much more....
+
+## References
+
+(...)
 
 * Daniel Quillen, _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
