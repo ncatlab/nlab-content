@@ -11,16 +11,22 @@
 
 ## Idea
 
-A [[Witt vector]] is an infinite sequence of elements of a [[commutative ring]] $k$. There is a unique [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every natural number $i$. If the characteristic of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
+Rings of _Witt vectors_ are the [[co-free functor|co-free]] [[Lambda-rings]].
 
-A [[Witt vector|p-adic Witt vector]] is an infinite sequence of elements af a commutative ring of pime [[characteristic]] $p$. There exists a ring structure whose construction parallels that in characteristic $0$ except that only [[Witt polynomials]]  $w_{p^l}$ whose index is a power of $p$ are taken.
+In components, a _Witt vector is an infinite sequence of elements of a given [[commutative ring]] $k$. There is a [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every [[natural number]] $i$. If the [[characteristic]] of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
 
-A Witt ring is in particular a [[Lambda-ring]] and the assignment $W:k\mapsto W(k)$ of a commutative ring to its Witt ring is a [[functor]] which has a left adjoint ''forgetting the $\lambda$-structure''. More over $W$ is representable by [[symmetric function|Symm]], the ring of symmetric functions which is a [[Hopf algebra]] and consequently $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
+A [[Witt vector|p-adic Witt vector]] is an infinite sequence of elements af a commutative ring of [[prime]] [[characteristic]] $p$. There exists a ring structure whose construction parallels that in characteristic $0$ except that only [[Witt polynomials]]  $w_{p^l}$ whose index is a power of $p$ are taken.
 
-The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of prime characteristic $p$ to a commutative ring $W(A)$ of characteristic 0. Since this construction is functorial, it can be applied to the structure sheaf of an algebraic variety.
-In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of power series and a ring of power series over a field is always a discrete valuation ring.
+More abstractly, the ring of Witt vectors carries the structure of a [[Lambda-ring]] and the construction $W \colon k\mapsto W(k)$ of the Witt ring $W(k)$ on a [[commutative ring]] $k$ is [[right adjoint]] to the [[forgetful functor]] from [[Lambda-rings]] to [[commutative rings]]. Hence rings of Witt vectors are the _[[co-free functor|co-free]] [[Lambda-rings]]_.
+
+Moreover $W(-)$ is [[representable functor|representable]] by [[symmetric function|Symm]], the ring of [[symmetric functions]] which is a [[Hopf algebra]] and consequently $W$ is a [[group scheme]]. This is explained at [[Lambda-ring]].
+
+The construction of Witt vectors gives a functorial way to lift a commutative ring $A$ of [[prime]] [[characteristic]] $p$ to a commutative ring $W(A)$ of [[characteristic]] 0. Since this construction is functorial, it can be applied to the [[structure sheaf]] of an [[algebraic variety]].
+In interesting special cases the resulting ring $W(A)$ has even more desirable properties: If $A$ is a [[perfect field]] then $W(A)$ is a [[discrete-valuation ring|discrete valuation]]. This is partly due to the fact that the construction of $W(A)$ involves a ring of [[power series]] and a ring of power series over a field is always a discrete valuation ring.
 
 There is a generalization to [[non-commutative Witt vectors]], however these only carry a group- but no ring structure.
+
+The [[Lubin-Tate ring]] in [[Lubin-Tate theory]] is a [[polynomial ring]] on a ring of Witt vectors and this way Witt vectors control much of [[chromatic homotopy theory]].
 
 ## Motivation
 
@@ -34,39 +40,47 @@ $$\Phi_n:W(F_p)\to \mathbb{Z}_p$$
 
 of groups.
 
+
+
 ## Definition
+ {#Definituion}
+
+We first give the
+
+* [Explicit definition in components](#DefinitionInComponents)
+
+and then discuss the
+
+* [Universal characterization](DefinitionUniversalCharacterization)
+
+### In components
+ {#DefinitionInComponents}
+
+#### The ring structure
 
 +-- {: .num_defn}
-###### Definition and Theorem
-Let $k$ be a commutaive ring.
+###### Definition
 
-If the characteristic of $k$ is $0$ then the Witt ring $W(k)$ of $k$ is defined defined by the addition
+Let $k$ be a [[commutative ring]].
+
+If the [[characteristic]] of $k$ is $0$ then the Witt ring $W(k)$ of $k$ is defined defined by the addition
 
 $$(a_1, a_2, \ldots, )+(b_1, b_2, \ldots) :=(\Sigma_1(a_1,b_1), \Sigma_2(a_1,a_2,b_1,b_2), \ldots)$$
 
 and the multiplication
 
-
 $$(a_1, a_2, \ldots )\cdot (b_1, b_2, \ldots ) :=(\Pi_1(a_1,b_1), \Pi_2(a_1,a_2,b_1,b_2), \ldots )$$
 
 If $k$ is of prime characteristic $p$ we index the defining formulas by $p^1,p^2,p^3,\dots$ instead of $1,2,3,\dots$.
 
-Here the $\Sigma_i$ (described below) are called *addition polynomials* and the $\Pi_i$ (described below) are called *multiplication polynomials*
+Here the $\Sigma_i$  are called *addition polynomials* and the $\Pi_i$  are called *multiplication polynomials*, these are described [below](#AdditionAndMultiplicationPolynomials).
 
-The assignment $W:k\mapsto W(k)$ is a functor. This functor is the unique endofunctor $W:CRing \to CRing$ such that all Witt polynomials
-
-$$w_n:\begin{cases}
-W(A)\to A
-\\
-a\mapsto w_n(a)
-\end{cases}$$
-
-are morphisms of rings. In fact this unicity indicates that $W$ has a left adjoint. 
 =--
 
-### The Witt polynomials{#Witt polynomials}, the $\Sigma_i$, the $\Pi_i$, phantom components
 
-let $x_1, x_2, \ldots $ be a collection of [[indeterminate]]s. We can define an infinite collection of [[polynomial]]s in $\mathbb{Z}[x_1, x_2, \ldots ]$ using the following formulas:
+#### The Witt polynomials{#Witt polynomials}, the $\Sigma_i$, the $\Pi_i$, phantom components
+
+let $x_1, x_2, \ldots $ be a collection of [[variables]]. We can define an infinite collection of [[polynomial]]s in $\mathbb{Z}[x_1, x_2, \ldots ]$ using the following formulas:
 
 $w_1(X)=x_1$
 
@@ -88,6 +102,7 @@ In short we'll notate this $\phi(w_n(X),w_n(Y))=w_n(\Phi(X,Y))$. The first thing
 $x_1=w_1$, and $x_2=\frac{1}{2}w_2+\frac{1}{2}w_1^2$, etc. so we can plug these in to get the existence of such polynomials with coefficients in $\mathbb{Q}$. It is a fairly tedious lemma to prove that the coefficients $\Phi_i$ are actually in $\mathbb{Z}$, so we won't detract from the construction right now to prove it.
 
 #### The addition- and multiplication polynomials
+ {#AdditionAndMultiplicationPolynomials}
 
 
 Define yet another set of polynomials $\Sigma_i$, $\Pi_i$ and $\iota_i$ by the following properties:
@@ -96,39 +111,122 @@ $w_n(\Sigma)=w_n(X)+w_n(Y)$, $w_n(\Pi)=w_n(X)w_n(Y)$ and $w_n(\iota)=-w_n(X)$.
 
 We now can construct $W(A)$, the ring of generalized Witt vectors over $A$. Define $W(A)$ to be the set of all infinite sequences $(a_1, a_2, \ldots)$ with entries in $A$. Then we define addition and multiplication by $(a_1, a_2, \ldots, )+(b_1, b_2, \ldots)=(\Sigma_1(a_1,b_1), \Sigma_2(a_1,a_2,b_1,b_2), \ldots)$ and $(a_1, a_2, \ldots )\cdot (b_1, b_2, \ldots )=(\Pi_1(a_1,b_1), \Pi_2(a_1,a_2,b_1,b_2), \ldots )$.
 
+
+### Universal characterization
+ {#DefinitionUniversalCharacterization}
+
+
++-- {: .num_theorem}
+###### Theorem
+
+The assignment 
+
+$$
+  W
+  \;\colon\;
+  k\mapsto W(k)
+$$ 
+
+is a [[functor]]
+
+$$
+  W \;\colon\; CRing \longrightarrow \Lambda Ring
+$$
+
+
+from the [[category]] of [[commutative rings]] to that of [[Lambda-rings]].
+
+
+Composed with the [[forgetful functor]] 
+
+$$
+  U \;\colon\;
+  \Lambda Ring \longrightarrow CRing
+$$
+
+this is the unique [[endofunctor]] $W \;\colon\; CRing \longrightarrow CRing$ such that all [[Witt polynomials]]
+
+$$
+  w_n
+  :
+  \begin{cases}
+    W(A)\to A
+   \\
+    a\mapsto w_n(a)
+  \end{cases}
+$$
+
+are [[homomorphisms]] of [[rings]]. 
+
+=--
+
 +-- {: .proof}
-###### Proof of the theorem
+###### Proof
 
 There is a nice trick to prove that $W(A)$ is a ring when $A$ is a $\mathbb{Q}$-algebra. Just define $\psi: W(A)\to A^\mathbb{N}$ by $(a_1, a_2, \ldots) \mapsto (w_1(a), w_2(a), \ldots)$. This is a [[bijection]] and the addition and multiplication is taken to component-wise addition and multiplication, so since this is the standard ring structure we know $W(A)$ is a ring. Also, $w(0,0,\ldots)=(0,0,\ldots)$, so $(0,0,\ldots)$ is the additive identity, $W(1,0,0,\ldots)=(1,1,1,\ldots)$ which shows $(1,0,0,\ldots)$ is the multiplicative identity, and $w(\iota_1(a), \iota_2(a), \ldots)=(-a_1, -a_2, \ldots)$, so we see $(\iota_1(a), \iota_2(a), \ldots)$ is the additive inverse.
 
 We can actually get this idea to work for any characteristic $0$ ring by considering the embedding $A\to A\otimes\mathbb{Q}$. We have an induced injective map $W(A)\to W(A\otimes\mathbb{Q})$. The addition and multiplication is defined by polynomials over $\mathbb{Z}$, so these operations are preserved upon tensoring with $\mathbb{Q}$. We just proved above that $W(A\otimes\mathbb{Q})$ is a ring, so since $(0,0,\ldots)\mapsto (0,0,\ldots)$ and $(1,0,0,\ldots)\mapsto (1,0,0,\ldots)$ and the map preserves inverses we get that the image of the embedding $W(A)\to W(A\otimes \mathbb{Q})$ is a subring and hence $W(A)$ is a ring.
 
 Lastly, we need to prove this for positive [[characteristic]] rings. Choose a characteristic $0$ ring that surjects onto $A$, say $B\to A$. Then since the induced map again preserves everything and $W(B)\to W(A)$ is [[surjective]], the image is a ring and hence $W(A)$ is a ring. 
+
 =--
 
-## Operations on the p-adic Witt vectors
++-- {: .num_prop}
+###### Proposition
+
+The construction of the ring of Witt vectors $W(k)$ on a given [[commutative ring]] $k$ is the [[right adjoint]] to the [[forgetful functor]] $U$ from [[Lambda-rings]] to [[commutative rings]]
+
+$$
+  (U \dashv W)
+  \;\colon\;
+  CRing
+  \stackrel{\overset{U}{\leftarrow}}{\underset{W}{\longrightarrow}}
+  \Lambda Ring
+  \,.
+$$
+
+Hence rings of Witt-vectors are the _[[co-free functors|co-free]] [[Lambda-rings]]_.
+
+=--
+
+This statement appears in ([Hazewinkel 08, p. 87, p. 97](#Hazewinkel08)). 
+
++-- {: .num_remark}
+###### Remark
+
+On the other hand, the [[free construction|free]] [[Lambda-ring]] (on one generator) (hence the [[left adjoint]] construction to the [[forgetful functor]]) is the ring of [[symmetric functions]].
+
+=--
+
+This statement appears in ([Hazewinkel 08, p. 98](#Hazewinkel08)). 
+
+
+
+## Properties
+
+### Operations on the p-adic Witt vectors
 
 On untruncated $p$-adic Witt vectors there are two operations, the [[Frobenius morphism]] and the [[Verschiebung morphism]] satisfying relations ([Lemma 1](#FVrelations)) being constitutive for the definition of the [[Dieudonné ring]]: In fact the Dieudonn&#233; ring is generated by two objects satisfying these relations.
 
 Also the $n$-truncations of a Witt ring are rings since by definition the ring operations (addition and multiplication) of the first $n$ components only involve the first $n$ components. We have $W\simeq lim_n W_n$ and the projection map $W(A)\to W_n(A)$ is a [[ring homomorphism]]. We also have operations on the truncated Witt rings.
 
-### The shift map
+#### The shift map
 
 For $W(k)$ as for every $k$-scheme we have the [[Verschiebung morphism]]. It  is defined to be the adjoint operation to the [[Frobenius morphism]]. For $W(k)$ the Verschiebung morphism coincides with the shift $(a_0, a_1,\dots)\mapsto (0, a_0, a_1,\dots)$
 
 For the truncated Witt rings and the shift operation $V:W_n(k)\to W_{n+1}(k)$ the Verschiebung morphism equals the $VR=RV$ where $R$ is the restriction map.
 
-### The restriction map
+#### The restriction map
 
 The restriction map $R: W_{n+1}(A)\to W_n(A)$ is given by $(a_0, \ldots, a_n)\mapsto (a_0, \ldots, a_{n-1})$. 
 
-### The Frobenius morphism
+#### The Frobenius morphism
 
 The Frobenius endomorphism $F: W_n(A)\to W_n(A)$ is given by $(a_0, \ldots , a_{n-1})\mapsto (a_0^p, \ldots, a_{n-1}^p)$. This is also a ring map, but only because of our necessary assumption that $A$ is of characteristic $p$.
 
 Just by brute force checking on elements we see a few relations between these operations, namely that $V(x)y=V(x F(R(y)))$ and $RVF=FRV=RFV=p$ the multiplication by $p$ map.
 
-## Duality of finite Witt groups
+### Duality of finite Witt groups
 
 
 For a $k$-ring $R$ let $W^\prime(R)$ denote the [[ideal]] in $W(R)$ consisting of sequences $x=(x_n)_n$ of nilpotent elements in $W(R)$ such that $x_n=0$ for large $n$.
@@ -237,6 +335,8 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * $W_{p^\infty}(\mathbb{F}_{p^n})$ is the unique [[unramified extension]] of $\mathbb{Z}_p$ of degree $n$.
 
+* the [[Lubin-Tate ring]] in [[Lubin-Tate theory]]  is a [[power series]] ring over a [[Witt ring]] and this way Witt rings govern much of [[chromatic homotopy theory]].
+
 ## Related Concepts
 
 * [[Witt Cohomology]]
@@ -251,19 +351,23 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 ### Original texts and classical surveys
 
-* Michel [[Demazure, lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups){#Demazure}
+* Michel Demazure, _[[Demazure, lectures on p-divisible groups|lectures on p-divisible groups]]_ ([web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups))
+  {#Demazure}
 
 * Ernst Witt, Zyklische K&#246;rper und Algebren der Characteristik p vom Grad $p^n$. Struktur diskret bewerteter perfekter K&#246;rper mit vollkommenem Restklassenk&#246;rper der Charakteristik $p^n$, [web](http://www.digizeitschriften.de/main/dms/img/?IDDOC=504725)
 
 ### Modern surveys
 
-* Michiel Hazewinkel, Formal Groups and Applications, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
+* [[Michael Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+  {#Hazewinkel08}
 
-* [[Hazewinkel, Witt vectors]], [pdf](http://arxiv.org/abs/0804.3888).{#Hazewinkel}
+* [[Michael Hazewinkel]], _Formal Groups and Applications_, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
 
-* Joseph Rabinoff, the theory of Witt vectors, [pdf](http://math.stanford.edu/~rabinoff/misc/witt.pdf)
 
-* Richard Pink, finite group schemes, [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink}
+* Joseph Rabinoff, _The theory of Witt vectors_ ([pdf](http://math.stanford.edu/~rabinoff/misc/witt.pdf))
+
+* [[Richard Pink]], finite group schemes, [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink}
+
 
 
 ### Further development of the theory
@@ -276,6 +380,9 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
+[[!redirects rings of Witt vectors]]
+[[!redirects rings of Witt-vectors]]
+
 
 [[!redirects Witt ring]]
 [[!redirects Witt polynomial]]
@@ -284,3 +391,6 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 [[!redirects Witt vector]]
 [[!redirects Witt vectors]]
 [[!redirects ring of Witt vectors]]
+
+[[!redirects big-Witt-vectors functor]]
+
