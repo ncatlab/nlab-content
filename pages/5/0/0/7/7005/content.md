@@ -223,13 +223,15 @@ A commented version of a formal proof of this fact can be found in ([Bauer-Lumsd
 ### Canonicity
  {#Canonicity}
 
-It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]) [[canonicity]] has been show in ([Shulman 12, section 13](#Shulman12)), hence that in univalent homotopy 1-type theory every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
+It is currently open whether the univalence axiom enjoys [[canonicity]] in general, but for the special case of [[1-truncated]] homotopy types ([[groupoids]]) (and two nested univalent [[universes]] and [[function extensionality]]), a "homotopical" sort of [[canonicity]] has been shown in ([Shulman 12, section 13](#Shulman12).  Thus, in univalent homotopy 1-type theory with two universes, every [[term]] of [[type]] of the [[natural numbers]] is [[propositional equality|propositionally equal]] to a [[numeral]].
 
-(Notice that [[canonicity]] here does not yet imply [[computational effectiveness]] which would mean also an [[algorithm]] to extract that [[numeral]] from the given [[term]]).
+The construction in ([Shulman 12, section 13](#Shulman12)) uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize to untruncated univalent type theory, one seems to need a sufficiently strict [[global sections]] functor with values in some model for [[infinity-groupoids]].
 
-The construction in ([Shulman 12, section 13](#Shulman12)) uses [[Artin gluing]] of a suitable [[type-theoretic model category|type-theoretic fibration category]] with the [[category]] [[Set]] and [[Grpd]], respectively, effectively inducing canonicity from these categories. By ([Shulman 12, remark 13.13](#Shulman12)) for this construction to generalize one needs a sufficiently strict [[global sections]] functor with values in [[infinity-groupoids]].
+Notice that this sort of [[canonicity]] does not yet imply [[computational effectiveness]], which would require also an [[algorithm]] to extract that [[numeral]] from the given [[term]].  There may be such an algorithm, but so far attempts to extract one from the proof (or to give a constructive version of the proof, which would imply the existence of an algorithm) have not succeeded.
 
-Another approach to solving canonicity is to build a model for [[homotopy type theory]] inside [[extensional type theory]] to then induce canonicity from the latter to the former. In this direction goes the work of ([Coquand-Huber 13](#CoquandHuber13)) which models univalent homtopy type theory in [[constructive mathematics|constructive]] [[cubical sets]].
+It is also a *propositional* canonicity, as opposed to the [[judgmental equality|judgmental]] canonicity which many traditional type theories enjoy.  Another approach to canonicity for 1-truncated univalence can be found in ([Harper-Licata](#HarperLicata)), which involves modifying the type theory by adding more judgmental equalities, resulting in a judgmental canonicity.  However, no algorithm for computing canonical forms has yet been given for this approach either.
+
+Another approach to solving canonicity is to build a model for [[homotopy type theory]] inside a theory which is known to be constructive, such as ordinary (univalence-free) [[intensional type theory]].  Then one could induce canonicity, with an algorithm, from the latter to the former.  This is the direction of the work of ([Coquand-Huber 13](#CoquandHuber13)), which models univalent homotopy type theory in [[constructive mathematics|constructive]] [[cubical sets]], or the truncated form in constructive truncated [[simplicial sets]].  One might also try to construct the Hoffman-Streicher groupoid model in a constructive framework; Awodey and Bauer have done some work in this direction with an impredicative universe of [[h-sets]].
 
 ## Related concepts
 
@@ -292,6 +294,7 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 * [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
 
 * [[Robert Harper]], [[Daniel Licata]], _Canonicity for 2-dimensional type theory_ (2011) ([pdf](http://www.cs.cmu.edu/~rwh/papers/2dtt-can/paper.pdf))
+ {#HarperLicata}
 
 * [[Daniel Licata]] _The computational interpretation of HoTT (in 2D)_, talk at [[UF-IAS-2012]]  ([video](http://video.ias.edu/stream&ref=1674))
 
