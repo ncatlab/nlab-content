@@ -837,9 +837,13 @@ A [[higher category theory|higher categorial]] interpretation of [[2-plectic geo
 * [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
 
 
-Higher order [[moment map]]s are considered in
+Higher order [[moment maps]] are considered in
 
 * Thomas Bruun Madsen, Andrew Swann, _Closed forms and multi-moment maps_ ([arXiv:1110.6541](http://arxiv.org/abs/1110.6541))
+
+A [[higher differential geometry]]-generalization of [[contact geometry]] in line with multisymplectic geometry/[[n-plectic geometry]] is discussed in 
+
+* Luca Vitagliano, _L-infinity Algebras From Multicontact Geometry_ ([arXiv.1311.2751](http://arxiv.org/abs/1311.2751))
  
 
 ### Relation to covariant phase space formalism
@@ -850,6 +854,7 @@ The relation of multisymplectic formalism to [[covariant phase space]] and [[var
  {#ForgerRomero04}
 
 * [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian Formalisms of Classical Field Theories_, SIGMA 5 (2009), 100, 25 pages ([arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022))
+
 
 
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
