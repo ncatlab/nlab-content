@@ -55,11 +55,6 @@ Discussion of [[motives in physics]] via periods as appearing in the [[deformati
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
 
-A detailed review is in 
-
-* Dan Li, _Periods And Motives: Applications In
-Mathematical Physics_, Thesis 2012 ([pdf](http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=6885&context=etd)).
-
 
 More details on this (and a good review of periods in the first place) is in
 
