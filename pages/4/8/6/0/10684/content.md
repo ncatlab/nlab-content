@@ -129,6 +129,10 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Chapter 4. $B P$-Theory and the Adams-Novikov Spectral Sequence 
 
+### 1. Quillen's theorem and the structure of $BP_\bullet(BP)$
+
+* [[Quillen's theorem on MU]]
+
 ## Chapter 5. The Chromatic Spectral Sequence
 
 ### 3. $Ext(M^1)$ and the $J$-Homomorphism
