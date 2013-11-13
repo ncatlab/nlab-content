@@ -96,7 +96,73 @@ It is via this relation that the physical "principle of equivalence" relates to 
 
 We discuss here that general covariance in field theory has a natural formalization in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
-### Introduction 
+### Informal introduction
+ {#InformalIntroduction}
+ 
+Let $\Sigma$ be a [[smooth manifold]] to be thought of as [[spacetime]].
+
+Then the central idea of _general covariance_ is that for
+
+$$
+  i_1 \;\colon\; U \hookrightarrow \Sigma
+$$
+
+and 
+
+$$
+  i_2 \;\colon\; U \hookrightarrow \Sigma
+$$
+
+two [[subsets]]/[[submanifolds]], they should be regarded as [[equivalence|equivalent]] if there is a [[diffeomorphism]] $\phi \;\colon\; \Sigma \stackrel{}{\longrightarrow} \Sigma$ which takes one to the other, hence such that 
+$i_2 = \phi^\ast i_1 \coloneqq\phi \circ i_1 $.
+
+That this statement can be puzzling if one thinks of the case $U = \ast$ as being just a single point is the content of the historical "[[hole argument]] [[paradox]]". 
+
+But with just a little bit of formalization the apparent paradox is resolved, because the above evidently just says that the "[[moduli space]]" for "subsets of spacetime" is not the manifold $\Sigma$ itself, but is rather a "[[moduli stack]]" namely the [[quotient stack]] $\Sigma //Diff(\Sigma)$ of $\Sigma$ by the [[action]] of the [[diffeomorphism group]].
+
+Indeed, the technical term "[[quotient stack]]" is precisely defined by the condition the condition that for $U$ of the shape of a [[disk]]/[[coordinate chart]], then two maps
+
+$$
+  i \;\colon\; U \hookrightarrow \Sigma \longrightarrow \Sigma//Diff(\sigma)
+$$
+
+to it are equivalent if (and only if) there is a diffeomorphism relating them, as above. 
+
+So if in a generally covariant field theory spacetime is not actually the manifold $\Sigma$, but rather the quotient stack $\Sigma//Diff(\Sigma)$, then also a [[field (physics)|field]] in this generally covariant field theory should be a field on that quotient stack, not on $\Sigma$ itself.
+
+For $\mathbf{Fields}$ a [[moduli space]]/[[moduli stack]] of [[field (physics)|fields]], in a non-generally covariant field theory a field configuratin is simply a map
+
+$$
+  \Phi \;\colon\; \Sigma \longrightarrow \mathbf{Fields}
+$$
+
+and accordingly the [[configuration space|space of all field configurations]] is the [[mapping space]] $[\Sigma, \mathbf{Fields}]$.
+
+From this it is clear that for a generally covariant field theory we are instead to declare that the space of field configurations is
+
+$$
+  [\Sigma//Diff(\Sigma), \;\mathbf{Fields}]
+  \,.
+$$
+
+And it is at this point that the formalism of [[homotopy type theory]]/[[(infinity,1)-topos theory|higher topos theory]] works a little wonder for us. Namely the formalism allows us to prove, and this is what is discussed below, that
+
+$$
+  [\Sigma//Diff(\Sigma),\; \mathbf{Fields}]
+  \simeq
+  [\Sigma,\; \mathbf{Fields}]//Diff(\Sigma)
+  \,.
+$$
+
+In words the right hand side is the time-honored answer: two fields _on_ a spacetime manifold $\Sigma$ which are such that one goes over into the other when pulled back along a diffeomorphism are [[gauge equivalence|gauge equivalent]]. This is the statement of general covariance, derived here, formally, from just the condition that any two shapes _in_ spacetime are to be equivalent if related by a diffeomorphism.
+
+Here to read the above equivalence as a theorem, we have to read the left hand side, as it should, be "in the context of $Diff(\Sigma)$-actions". Such [[context]]-dependence is precisely what _[[dependent type theory|dependent]]_ [[homotopy type theory]] takes care of, and this is what the following technical statement deals with.
+
+
+
+
+
+### Introduction in terms of type theory
 
 A basic idea of traditional [[dependent type theory]] is of course that [[types]] $A$ may appear _in [[context]]_ of other types $\Gamma$. The traditional interpretation of such a dependent type
 
@@ -687,4 +753,3 @@ Background and context for the above formalization of [[classical field theory|c
  {#SchreiberShulman}
 
 See also _[[higher category theory and physics]]_.
-
