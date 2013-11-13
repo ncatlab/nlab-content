@@ -4,7 +4,7 @@ The editor ([[Andrew Ranicki]]) of the redistribution of his 1970 notes wrote:
 
 The notes had a major influence on the development of both algebraic and geometric topology, pioneering 
 
-*  the localization and completion of spaces in homotopy theory, including p-local, profinite and rational homotopy theory, leading to the solution of the Adams conjecture on the relationship between vector bundles and spherical fibrations, 
+*  the localization and completion of spaces in homotopy theory, including p-local, profinite and rational homotopy theory, leading to the solution of the [[Adams conjecture]] on the relationship between vector bundles and spherical fibrations, 
 
 * the formulation of the 'Sullivan conjecture' on the contractibility of the space of maps from the classifying space of a finite group 
 to a finite dimensional CW complex, 
