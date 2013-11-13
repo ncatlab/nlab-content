@@ -31,6 +31,10 @@ or if we instead write down the [[order of a group|order]]:
 |-----|---|---|---|---|---|---|---|---|
 | ${\vert\pi_n(O)\vert}$ | 2 | 2 | 1 | $\infty$ | 1 | 1 | 1 | $\infty$ |
 
+Via the [[J-homomorphism]] this is related to the [[stable homotopy groups of spheres]]:
+
+[[!include image of J -- table]]
+
 
 ## Related concepts
 
