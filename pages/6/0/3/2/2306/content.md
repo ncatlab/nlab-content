@@ -7,13 +7,15 @@
 
 The _Lazard_ [[ring]] is 
 
-* the [[cohomology ring]] that the [[complex cobordism cohomology theory]] assigns to the point;
-
-and at the same time
-
 * the universal [[coefficient]] [[ring]] for [[formal group laws]].
 
-## Details
+and by [[Quillen's theorem on MU|Quillen's theorem]] also
+
+* the [[cohomology ring]] that the [[complex cobordism cohomology theory]] assigns to the point.
+
+
+
+## Definition
 
 The _Lazard ring_ can be presented as by generators $a_{i j}$ with $i,j \in \mathbb{N}$
 
@@ -38,10 +40,34 @@ $$
 in two variables with coefficients in the Lazard ring.
 
 
+## Properties
+
+### As classifying ring for formal group laws
+
 For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
 
+### Lazard's theorem
 
-We now describe Quillen's theorem on how the Lazard ring is the cohomlogy ring of peridodic complex cobrdism theory over the point.
+[[Lazard's theorem]] states:
+
++-- {: .num_theorem}
+###### Theorem
+
+The Lazard ring is [[isomorphism|isomorphic]] to a [[graded ring|graded]] [[polynomial ring]]
+
+$$
+  L \simeq \mathbb{Z}[t_1, t_2, \cdots]
+$$
+
+with the [[variable]] $t_i$ in degree $2 i$.
+
+=--
+
+(e.g. [Lurie lect 2, theorem 4](#LurieLect2))
+
+### As the complex cobordism cohomology ring
+
+By [[Quillen's theorem on MU]] the Lazard ring is the [[cohomology ring]] of [[complex cobordism cohomology theory]].
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -50,6 +76,9 @@ Let $M P $ denote the peridodic [[complex cobordism cohomology theory]]. Its [[c
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
 This can be used to make a cohomology theory out of a [[formal group law]] $(R,f(x,y))$. Namely, one can use the classifying map $M P({*}) \to R$
 to build the [[tensor product]] 
 
@@ -57,7 +86,9 @@ $$
   E^n(X) := M P^n(X) \otimes_{M P({*})} R,
 $$ 
 for any $n\in\mathbb{Z}$.
-This construction could however break the left exactness condition. However, $E$ built this way will be left exact if the ring morphism $M P({*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
+This construction could however break the left exactness condition. However, $E$ built this way will be left exact if the ring morphism $M P({*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger). See at _[[Landweber exact functor theorem]]_.
+
+=--
 
 ## Related entries
 
@@ -71,5 +102,7 @@ This construction could however break the left exactness condition. However, $E$
 
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
+ {#LurieLect2}
 
-[[!redirects Lazard's theorem]]
+[[!redirects Lazard's ring]]
+
