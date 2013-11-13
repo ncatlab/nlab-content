@@ -4,8 +4,12 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 =--
 
 ***
-
-
+$$
+\begin{aligned}
+r &= \sqrt{\sum_{i} g(\ell_{i}, \ell_{i})} \\
+\kappa &= g(\xi, \xi)
+\end{aligned}
+$$
 
 [[compact object#CompactnessInAdditiveCategories]]
 
