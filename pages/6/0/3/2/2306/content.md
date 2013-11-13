@@ -43,7 +43,12 @@ For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is 
 
 We now describe Quillen's theorem on how the Lazard ring is the cohomlogy ring of peridodic complex cobrdism theory over the point.
 
-**Theorem (Quillen)** Let $M P $ denote the peridodic [[complex cobordism cohomology theory]]. Its [[cohomology ring]] $M P(*)$ over the point together with its [[formal group law]] is naturally isomorphic to the universal Lazard ring with its formal group law $(L,\ell)$.
++-- {: .num_theorem}
+###### Theorem
+
+Let $M P $ denote the peridodic [[complex cobordism cohomology theory]]. Its [[cohomology ring]] $M P(*)$ over the point together with its [[formal group law]] is naturally isomorphic to the universal Lazard ring with its formal group law $(L,\ell)$.
+
+=--
 
 This can be used to make a cohomology theory out of a [[formal group law]] $(R,f(x,y))$. Namely, one can use the classifying map $M P({*}) \to R$
 to build the [[tensor product]] 
