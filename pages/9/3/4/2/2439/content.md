@@ -68,7 +68,12 @@ This suggests (as hinted at in ([Kapranov 13](#Kapranov13))) that in full genera
 But notice that this is canonically so for every [[E-∞ ring]], see at _[∞-group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_. This would mean: In [[higher geometry]]/[[higher algebra]] supergeometry/superalgebra is intrinsic, canonically given. 
 
 
-Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological structures related to M-branes]]_, we can derive the terminology in the above table as indicated now. 
+Using this together with [[Hisham Sati|Sati]]'s _[[Geometric and topological structures related to M-branes]]_ and the [[image of the J-homomorphism]]
+
+[[!include image of J -- table]]
+
+
+we can derive the terminology in the above table as indicated now. 
 
 > The following uses the notions of _[[motivic quantization]]_ as indicated there, to be expanded.
 
