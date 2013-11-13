@@ -331,11 +331,17 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 ## Examples
 
+### Basic examples
+
 * $W_{p^\infty}(\mathbb{F}_p)\simeq \mathbb{Z}_p$ the $p$-adic integers.
 
 * $W_{p^\infty}(\mathbb{F}_{p^n})$ is the unique [[unramified extension]] of $\mathbb{Z}_p$ of degree $n$.
 
-* the [[Lubin-Tate ring]] in [[Lubin-Tate theory]]  is a [[power series]] ring over a [[Witt ring]] and this way Witt rings govern much of [[chromatic homotopy theory]].
+### Lubin-Tate ring
+
+The [[Lubin-Tate ring]] in [[Lubin-Tate theory]]  is a [[power series]] ring over a [[Witt ring]] and this way Witt rings govern much of [[chromatic homotopy theory]].
+
+As an Abelian group $W(A)$ is isomorphic to the group of curves in the one-dimensional [[multiplicative group|multiplicative formal group]]. In this way there is a Witt-vector-like Abelian-group-valued functor associated to every one-dimensional formal group. For special cases, such as the Lubin&#8211;Tate formal groups, this gives rise to ring-valued functors called ramified Witt vectors. ([eom](#eom))
 
 ## Related Concepts
 
@@ -351,17 +357,34 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 ### Original texts and classical surveys
 
-* Michel Demazure, _[[Demazure, lectures on p-divisible groups|lectures on p-divisible groups]]_ ([web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups))
+witt vectors were introduced in
+
+* [[Ernst Witt]], _Zyklische K&#246;rper und Algebren der Characteristik $p$ vom Grad $p^n$. Struktur diskret bewerteter perfekter K&#246;rper mit vollkommenem Restklassenk&#246;rper der Charakteristik $p^n$_, J. Reine Angew. Math. , 176 (1936) pp. 126&#8211;140, ([web](http://www.digizeitschriften.de/main/dms/img/?IDDOC=504725))
+
+In the context of [[formal group laws]] they were used in 
+
+* [[Jean Dieudonné]], _Groupes de Lie et hyperalg&#232;bres de Lie sur un corps de charact&#233;ristique $p \gt 0$  VII" Math. Ann. , 134 (1957) pp. 114&#8211;133
+
+See also
+
+* [[Michiel Hazewinkel]], _Twisted Lubin-Tate formal group laws, ramified Witt vectors and (ramified) Artin-Hasse exponentials_, Transactions of the AMS (1980)
+
+Surveys incluce
+
+* [[eom]], _[Witt vector](http://www.encyclopediaofmath.org/index.php/Witt_vector)_
+ {#eom}
+
+
+* Michel Demazure, _[[Demazure, lectures on p-divisible groups|Lectures on p-divisible groups]]_ ([web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups))
   {#Demazure}
 
-* Ernst Witt, Zyklische K&#246;rper und Algebren der Characteristik p vom Grad $p^n$. Struktur diskret bewerteter perfekter K&#246;rper mit vollkommenem Restklassenk&#246;rper der Charakteristik $p^n$, [web](http://www.digizeitschriften.de/main/dms/img/?IDDOC=504725)
 
 ### Modern surveys
 
-* [[Michael Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+* [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
   {#Hazewinkel08}
 
-* [[Michael Hazewinkel]], _Formal Groups and Applications_, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
+* [[Michiel Hazewinkel]], _Formal Groups and Applications_, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
 
 
 * Joseph Rabinoff, _The theory of Witt vectors_ ([pdf](http://math.stanford.edu/~rabinoff/misc/witt.pdf))
@@ -393,4 +416,3 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 [[!redirects ring of Witt vectors]]
 
 [[!redirects big-Witt-vectors functor]]
-
