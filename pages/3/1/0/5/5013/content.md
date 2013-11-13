@@ -54,6 +54,14 @@ On the other hand, any finite simplicial complex $X$ is homotopy equivalent to i
 
 * [[pseudocircle]]
 
+## Related concepts
+
+* [[finite set]], [[finite number]]
+
+* [[finite CW-complex]]
+
+* [[finite spectrum]]
+
 ## References
 
 A survey is in 
