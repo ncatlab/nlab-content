@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statement
+
+Write $MU$ for the [[E-∞ ring]] [[spectrum]] of [[complex cobordism cohomology theory]]. Since this is a [[complex oriented cohomology theory]], by [[Lazard's theorem]] there is associated a [[formal group law]] classified by a [[ring]] homomorphism of the form
+
+$$
+  L \longrightarrow \pi_\bullet(MU)
+$$
+
+from the [[Lazard ring]] $L$.
+
++-- {: .num_theorem}
+###### Theorem
+
+This canonical homomorphism is an [[isomorphism]] 
+
+$$
+  L \stackrel{\simeq}{\longrightarrow} \pi_\bullet(MU)
+  \,.
+$$
+
+=--
+
+This is due to [Quillen 69](#Quillen69)
+
+## Related theorems
+
+* [[Lazard's theorem]]
+
+* [[Landweber exact functor theorem]]
+
+
+## References
+
+The original proof is due to 
+
+* [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. 75 (1969), 1293&#8211;1298.
+ {#Quillen69}
+
+
+Reviews and lecture notes include
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 4 _$B P$-Theory and the Adams-Novikov spectral sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf))
+
+* [[Jacob Lurie]], _[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf)) 
+ {#LurieLect7}
+
+* [[Jacob Lurie]], _[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 9 _The Adams spectral sequence for MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
+ {#LurieLect9}
+
+[[!redirects Quillen's theorem about MU]]
