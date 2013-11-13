@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-### Homotopy theory
+### Relation to Whitehead tower of orthogonal group
 
 The spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
 
@@ -94,6 +94,11 @@ $$
   }
   \,.
 $$
+
+Via the [[J-homomorphism]] this is related to the [[stable homotopy groups of spheres]]:
+
+[[!include image of J -- table]]
+
 
 ### Exceptional isomorphisms
  {#ExceptionalIsomorphisms}
