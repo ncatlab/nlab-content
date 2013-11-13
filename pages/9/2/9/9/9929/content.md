@@ -130,7 +130,7 @@ $MU^\ast$ is the _[[Lazard ring]]_.
 
 =--
 
-(Quillen)
+This is [[Quillen's theorem about MU]]
 
 +-- {: .num_prop}
 ###### Proposition
