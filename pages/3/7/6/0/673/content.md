@@ -19,7 +19,7 @@ adelaide dot edu dot au
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
-* _WISC may fail in the category of sets_, [draft](https://www.dropbox.com/s/2y7y3d3cqvpll3r/WPT_not_WISC.pdf) (not for circulation, this will change).
+* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
 
