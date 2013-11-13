@@ -101,7 +101,7 @@ A morphism $X \to Y$ is [[0-truncated]] precisely if it is a [[faithful functor]
 
 A morphism $X \to Y$ is [[0-connected]] precisely if it is a [[full functor]] and an [[essentially surjective functor]].
 
-Therefore on homotopy 1-trypes the 0-connected/0-truncated factorization system is the [[(eso+full, faithful) factorization system]].
+Therefore on homotopy 1-types the 0-connected/0-truncated factorization system is the [[(eso+full, faithful) factorization system]].
 
 ## References
 
