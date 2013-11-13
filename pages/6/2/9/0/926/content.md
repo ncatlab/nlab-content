@@ -507,6 +507,8 @@ The traditional case of Postnikov towers in [[Top]] is a special case of this mo
 
 * [[k-ary factorization system]]
 
+* [[chromatic tower]], [[Taylor tower]]
+
 ## References
 
 A standard textbook reference is section 8 of 
