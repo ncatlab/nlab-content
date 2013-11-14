@@ -112,7 +112,7 @@ For each of the [[normed division algebra|normed division algebras]] over $\math
 
 $$A = \mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O},$$ 
 
-there is a corresponding Hopf fibration. The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. These gives spheres of dimension 1, 3, 7, and 15 respectively. The base space of the fibration is projective 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is a map 
+there is a corresponding Hopf fibration of [[Hopf invariant one]]. The total space of the fibration is the space of pairs $(\alpha, \beta) \in A^2$ of unit norm: ${|\alpha|}^2 + {|\beta|}^2 = 1$. These gives spheres of dimension 1, 3, 7, and 15 respectively. The base space of the fibration is [[projective space|projective]] 1-space $\mathbb{P}^1(A)$, giving spheres of dimension 1, 2, 4, and 8, respectively. In each case, the Hopf fibration is a map 
 
 $$S^{2^n - 1} \to S^{2^{n-1}}$$ 
 
@@ -122,16 +122,22 @@ $$S^{2^n - 1} \to S^{2^{n-1}}$$
 
 ### Magnetic monopoles 
 
-When line bundles are regarded as models for the topological structure underlying the [[electromagnetic field]] the Hopf fibration is often called "the magnetic monopole". We may think of the $S^2$ homotopically as being the 3-dimensional [[Cartesian space]] with origin removed $\mathbb{R}^3 - \{0\}$ and think of this as being 3-dimensional physical space with a unit point [[magnetic charge]] at the origin removed. The corresponding [[electromagnetic field]] away from the origin is given by a [[connection on a bundle|connection]] on the corresponding Hopf fibration bundle.
+When [[line bundles]] are regarded as models for the topological structure underlying the [[electromagnetic field]] the Hopf fibration is often called "the [[magnetic monopole]]". We may think of the $S^2$ homotopically as being the 3-dimensional [[Cartesian space]] with origin removed $\mathbb{R}^3 - \{0\}$ and think of this as being 3-dimensional physical space with a unit point [[magnetic charge]] at the origin removed. The corresponding [[electromagnetic field]] away from the origin is given by a [[connection on a bundle|connection]] on the corresponding Hopf fibration bundle.
 
 ### K-theory
 
-In complex [[K-theory]], the Hopf fibration represents a class $H$ which generates the ring $K_U(S^2)$, and satisfying the relation $H^2 = 2 \cdot H - 1$, or $(H-1)^2 = 0$. A succinct formulation of [[Bott periodicity]] for complex K-theory is that for a space $X$ whose homotopy type is that if a CW-complex, we have 
+In complex [[K-theory]], the Hopf fibration represents a class $H$ which generates the [[cohomology ring]] $K_U(S^2)$, and satisfying the relation $H^2 = 2 \cdot H - 1$, or $(H-1)^2 = 0$. (So in particular $H$ has an [[inverse]] $H^{-1} = 2- H $, see at [[Bott generator]].) 
+
+A succinct formulation of [[Bott periodicity]] for [[complex K-theory]] is that for a space $X$ whose [[homotopy type]] is that of a [[CW-complex]], we have 
 
 $$K(S^2 \times X) \cong K(S^2) \otimes K(X)$$ 
 
-It would be interesting to see whether this can be proved by internalizing the (classically easy) calculation for $K(S^2)$ to the topos of sheaves over $X$. 
+(It would be interesting to see whether this can be proved by internalizing the (classically easy) calculation for $K(S^2)$ to the topos of sheaves over $X$.)
 
-The Hopf fibrations over other normed division algebras also figure in the more complicated case of real K-theory $K_O$: they can be used to provide generators for the non-zero homotopy groups $\pi_n(B O)$, which are periodic of period 8 (not coincidentally, 8 is the dimension of the largest normed division algebra $\mathbb{O}$). [To be followed up on.] 
+The Hopf fibrations over other [[normed division algebras]] also figure in the more complicated case of [[real K-theory]] $K_O$: they can be used to provide generators for the non-zero [[homotopy groups]] $\pi_n(B O)$ for the [[classifying space]] of the [[stable orthogonal group]], which are periodic of period 8 (not coincidentally, 8 is the dimension of the largest normed division algebra $\mathbb{O}$). [To be followed up on.] 
+
+## Related concepts
+
+* [[Hopf invariant one]]
 
 [[!redirects Hopf fibrations]]
