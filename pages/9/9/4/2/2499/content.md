@@ -351,7 +351,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The condition that all [[curvature characteristic form]]s descent to $U$ in that $A$ completes to a diagram
+The condition that all [[curvature characteristic form]]s descend to $U$ in that $A$ completes to a diagram
 
 $$
   \array{
@@ -759,7 +759,7 @@ The standard textbook monograph on [[supergravity]] in general and this formalis
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
-The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential formss]] is in
+The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]] is in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
  {#SSS}
