@@ -74,7 +74,11 @@ Discussion of motivic structure in [[periods]] in [[scattering amplitudes]] is a
 
 See also the material linked at
 
-* Conference Amplitudes and Periods, Dec 3-7, 2012, IH&#201;S ([web](http://pagesperso.ihes.fr/~vanhove/QFT2012))
+* Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S ([web](http://pagesperso.ihes.fr/~vanhove/QFT2012))
+
+More recent developments on motivic structures in [[scattering amplitudes]] include for instance
+
+* John Golden, Alexander B. Goncharov, Marcus Spradlin, Cristian Vergu, Anastasia Volovich, _Motivic Amplitudes and Cluster Coordinates_ ([arXiv:1305.1617](http://arxiv.org/abs/1305.1617))
 
 
 ### On motivic structures in non-perturbative local quantum field theory
