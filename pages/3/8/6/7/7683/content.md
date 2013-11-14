@@ -80,14 +80,14 @@ lecture notes include
 
 * [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/Lecture11.pdf)
 
-GHeneralization beyond finite group schemes is  discussed in 
+Generalization beyond finite group schemes is  discussed in 
 
 * Amelia &#193;lvarez S&#225;nchez, Carlos Sancho de Salas, Pedro Sancho de Salas, _Functorial Cartier duality ([arXiv:0709.3735](http://arxiv.org/abs/0709.3735))
 
 
 and in 
 
-* D. Arinkin, appendix in [[Ron Donagi]], [[Tony Pantev]], _Torus fibrations, gerbes, and duality_, ([arXiv:math/0306213](http://arxiv.org/abs/math/0306213))
+* [[Dima Arinkin]], appendix in [[Ron Donagi]], [[Tony Pantev]], _Torus fibrations, gerbes, and duality_, ([arXiv:math/0306213](http://arxiv.org/abs/math/0306213))
 
 
 [[!redirects Cartier dual]]
