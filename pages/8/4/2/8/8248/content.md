@@ -29,7 +29,7 @@ _Exact couples_ are a tool for constructing [[spectral sequences]].
 Given an [[abelian category]] $\mathcal{C}$, an **[[exact couple]]** in $\mathcal{C}$ is a cyclic [[exact sequence]] of three [[morphisms]] among two [[objects]] of the form
 
 $$ 
-  \cdots \to E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to} \cdots 
+  \cdots \stackrel{k}{\to} E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to} \cdots 
   \,.
 $$
 
@@ -84,7 +84,7 @@ $$
   \cdots
 $$
 
-induces an exact couple by takeing $E$ and $D$ to be the bigraded abelian groups
+gives an exact couple by taking $E$ and $D$ to be the bigraded abelian groups
 
 $$
   D \coloneqq \pi_\bullet(X_\bullet)
@@ -95,9 +95,12 @@ $$
   \,.
 $$
 
-(...)
+and taking $\phi$ and $k$ to be given by the [[functor|functoriality]] of the [[homotopy groups]] $\pi_{\bullet}$ and finally taking $j$ to be given by the [[connecting homomorphism]]. 
+
+For instance the [[Adams spectral sequence]] arises from an exact couple this way.
 
 =--
+
 
 
 ### Spectral sequences from exact couples
@@ -105,15 +108,15 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-The [[spectral sequences]] induced by an exact couple is the one built by by the  following two-step process:
+The [[spectral sequences]] induced by an exact couple is the one built by repeating the  following two-step process:
 
-*  first, the composite $d=k j \colon E\to E$ is nilpotent: $d^2=0$
+*  first, observe that the composite $d=k j \colon E\to E$ is nilpotent: $d^2=0$
 
 *  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general nonsense
 $$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
 is again an exact couple, called the _derived exact couple_.
 
-The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction.
+The sequence of complexes $(E,d),(E',d'),\dots$ obtained this way is then a [[spectral sequence]], by construction. This is the spectral sequence induced by the exact couple.
 
 =--
 
@@ -150,10 +153,12 @@ An early paper is:
 
 *  [[W. S. Massey]], _[Exact Couples in Algebraic Topology (Parts I and II)](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf), Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 
  
-
-Section 5.9 of
+A standard textbook account is section 5.9 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+A review with an eye towards application to the [[Adams spectral sequence]] is in 
+
+* [[Doug Ravenel]], chapter 2, section 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 [[!redirects exact couples]]
