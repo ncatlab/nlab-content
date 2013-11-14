@@ -27,7 +27,7 @@ An $n$-[[cube]] in $\mathcal{C}$, hence an [[(∞,1)-functor]] $\Box^n \longrigh
 +-- {: .num_defn #Cartesian}
 ###### Definition
 
-An $n$-[[cube]] in $\mathcal{D}$, hence an [[(∞,1)-functor]] $\Box^n \longrightarrow \mathcal{C}$, is called _homotopy cartesian_ or just _cartesian_, if its "first" object exhibits a [[homotopy limit]]-[[cone]] over the remaining objects.
+An $n$-[[cube]] in $\mathcal{D}$, hence an [[(∞,1)-functor]] $\Box^n \longrightarrow \mathcal{D}$, is called _homotopy cartesian_ or just _cartesian_, if its "first" object exhibits a [[homotopy limit]]-[[cone]] over the remaining objects.
 
 =--
 
