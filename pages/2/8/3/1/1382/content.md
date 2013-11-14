@@ -43,7 +43,7 @@ $E_\infty$-rings are the analoge in [[higher algebra]] of the commutative [[ring
 
 ## References
 
-e.g.
+* [[Peter May]] with contributions by [[Frank Quinn]], Nigel Ray and Jorgen Tornehave, _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
