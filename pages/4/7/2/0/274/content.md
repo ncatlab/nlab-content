@@ -41,7 +41,7 @@ A **Segal category** is
 
 * such that $X_0$ is a [[discrete object|discrete]] (= constant) simplicial set;
 
-* and such that the morphisms
+* and such that the [[Segal maps]]
 
   $$ 
     X^{Sp[k] \hookrightarrow \Delta[k]}
