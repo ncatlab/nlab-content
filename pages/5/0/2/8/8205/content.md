@@ -138,15 +138,20 @@ Discussion of [[confinement]] in the context of the [[AdS-CFT correspondence]] i
 #### Scattering amplitudes
  {#GravityScattetingAmplitudes}
 
+
 * [[open/closed string duality]] in [[string scattering amplitudes]] allows to compute [[gravity]] [[scattering amplitudes]] in terms of [[Yang-Mills theory]] scattering amplitudes: the _[[KLT relations]]_
 
   * [[Zvi Bern]], _[Perturbative Quantum Gravity and its Relation to Gauge Theory](http://relativity.livingreviews.org/open?pubNo=lrr-2002-5&page=articlesu5.html)_, Living Reviews in Relativity 
 
-* [[KLT relations]] ued for instance to demonstrate:
+* more on this string-organizatioon of [[graviton]] [[scattering]] amplitudes is in
+
+  David C. Dunbar, Paul S. Norridge, _Calculation of Graviton Scattering Amplitudes using String-Based Methods_, Nucl.Phys. B433 (1995) 181-208 ([arXiv:hep-th/9408014](http://arxiv.org/abs/hep-th/9408014))
+
+
+* [[KLT relations]] used for instance to demonstrate:
 
   * multi-loop finiteness of [[N=8 d=4 supergravity]]
 
-(...)
 
 #### Black hole entropy
 
