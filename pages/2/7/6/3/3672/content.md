@@ -40,6 +40,10 @@ This is based on the fact that in certain dimensions, [[spin group]] [[represent
 
 The structure of the [[normed division algebra]]s governs the existence of the _[[brane scan]]_ and the super-[[∞-Lie algebras]] such as the [[supergravity Lie 3-algebra]]. By the [[D'Auria-Fre formulation of supergravity]] the [[∞-Lie algebra valued forms]] with values in these constitute the field content of (11-dimensional) [[supergravity]].
 
+## Related concepts
+
+* [[Hopf invariant one]]
+
 ## References
 
 The relation was apparently first made explicit in 
