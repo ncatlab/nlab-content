@@ -201,7 +201,7 @@ $$
 #### Traditional formulation
  {#ImageOfJTradtionalFormulation}
 
-The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _Adams conjecture_) and then proven in ([Quillen 71](#Quillen71)).
+The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _Adams conjecture_) and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -247,7 +247,7 @@ Moreover,
 
 =--
 
-The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71)). That it is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). The theorem is recalled for instance as ([Ravenel, theorem 1.1.13](#Ravenel)).
+The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). That it is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). The statement of the theorem is recalled for instance as ([Ravenel, chapter 1, theorem 1.1.13](#RavenelCh1)). The proof is surveyed in ([Ravenel, chapter 5, section 3](#RavenelChapter5)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -261,7 +261,7 @@ is for low $k$ given by the following table
 
 =--
 
-See for instance ([Ravenel, p. 5](#Ravenel)).
+See for instance ([Ravenel, Chapt. 1,  p. 5](#RavenelCh1)).
 
 
 +-- {: .num_remark}
@@ -357,13 +357,32 @@ $$
 
 ## References
 
+
 ### General
 
 The J-homomorphism was introduced in 
 
 * [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942), ([JSTOR](http://www.jstor.org/stable/1968956)).
 
-The analysis of its image is due to 
+Lecture notes include
+
+* [[Akhil Mathew]], _Notes on the J-homomorphism_ ([pdf](http://people.fas.harvard.edu/~amathew/j.pdf))
+
+Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
+The complex J-homomorphism is discussed in 
+
+* [[Victor Snaith]], _The complex J-homomorphism_, Proc. London Math. Soc. (1977) s3-34 (2): 269-302 ([journal](http://plms.oxfordjournals.org/content/s3-34/2/269.full.pdf+html))
+
+* [[Victor Snaith]], _Infinite loop maps and the complex $J$-homomorphism_, Bull. Amer. Math. Soc. Volume 82, Number 3 (1976), 508-510. ([Euclid](http://projecteuclid.org/euclid.bams/1183537922))
+
+
+### The image of J
+
+
+The analysis of the image of $J$ is due to 
 
 * [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963)
 
@@ -377,39 +396,40 @@ The analysis of its image is due to
 * [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971)
  {#Quillen71}
 
+* [[Dennis Sullivan]], _Genetics of homotopy theory and the Adams conjecture_, Ann. of Math. 100 (1974), 1&#8211;79.
+ {#Sullivan74}
+
 * [[Robert Switzer]], _Algebraic topology&#8211;homotopy and homology_, Springer-Verlag, New York, 1975.
  {#Switzer75}
 
-This is reviewed for instance in 
+The statement of the theorem about the characterization of the image is reviewed in 
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
- {#Ravenel}
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 1, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+ {#RavenelCh1}
 
-see there also theorem 3.4.16.
+see there also around theorem 3.4.16.
 
-Other revies include
+The details of the proof are surveyed in 
 
-* [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 5, _The chromatic spectral sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel5.pdf))
+ {#RavenelChapter5}
 
-See also 
 
-* [[Victor Snaith]], _Infinite loop maps and the complex $J$-homomorphism_, Bull. Amer. Math. Soc. Volume 82, Number 3 (1976), 508-510. ([Euclid](http://projecteuclid.org/euclid.bams/1183537922))
-
-Lecture notes include
-
-* [[Akhil Mathew]], _Notes on the J-homomorphism_ ([pdf](http://people.fas.harvard.edu/~amathew/j.pdf))
-
-Discussion in the modern perspective of [[higher algebra]] is for instance in 
-
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
-
-### The image of the J-homomorphism
+Discussion from the point of view of [[chromatic homotopy theory]] is in 
 
 * [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
  {#Lurie}
 
+Other reviews include
 
 * [[Mark Mahowald]], _The Image of J in the EHP Sequence_, Annals of Mathematics   Second Series, Vol. 116, No. ([JSTOR](http://www.jstor.org/stable/2007048))
+
+* [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
+
+
+
+
+
 
 
 [[!redirects J-homomorphisms]]
