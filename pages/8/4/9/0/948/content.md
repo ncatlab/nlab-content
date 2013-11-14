@@ -122,10 +122,6 @@ The distinction between object language and metalanguage exists even in [[classi
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
-* [[type theory]]
-
-* [[setoid]]
-
 *  [[anafunctor]] (classically equivalent to a [[functor]])
 *  [[apartness relation]] (classically complementary to an [[equivalence relation]])
 *  [[comparison]] (classically complementary to a [[transitive relation]])
@@ -143,6 +139,7 @@ Some of these are also useful internally or even classically.
 Topics relevant to the foundations of constructive mathematics:
 
 *  [[axiom of choice]]
+*  [[Bishop set]]
 *  [[centipede mathematics]]
 *  [[choice object]]
 *  [[COSHEP]]
@@ -158,6 +155,7 @@ Topics relevant to the foundations of constructive mathematics:
 *  [[set theory]]
 *  [[topos]]
 *  [[truth value]]
+*  [[type theory]]
 
 
 Other articles with content relating to constructive mathematics:
@@ -186,7 +184,7 @@ Other articles with content relating to constructive mathematics:
 *  [[pure set]]
 *  [[real number]]
 *  [[sequence]]
-*  [[Set]], [[Bishop set]]
+*  [[Set]]
 *  [[Sierpinski space]]
 *  [[simple object]]
 *  [[sober space]]
@@ -204,19 +202,16 @@ In principle, every article could explain how it applies to constructive mathema
 
 ## References
 
-The original articles include
-
-*  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
-
-Expositions and introductions include
+Gentle introductions include
 
 * [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer))
 
 * [[Fred Richman]], _Interview with a constructive mathematician_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
 
+
 Other references include the following.
 
-
+*  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
 
 *  [[Douglas Bridges]], [[Fred Richman]], and [[Peter Schuster]] (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://www.math.fau.edu/Richman/HTML/DOCS.HTM).
 
@@ -230,15 +225,10 @@ Other references include the following.
 
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
+
 Most books on [[topos theory]] include some discussion of toposes\' [[internal logic|internal]] constructive logic.  One good reference is:
 
 *  [[Peter Johnstone]] (2003). _[[Elephant|Sketches of an elephant]]_. Part D (in volume 2).
-
-
-
-This discussion originally took place at [[apartness relation]]:
-
-
 
 
 [[!redirects constructive]]
