@@ -118,7 +118,14 @@ This is [[Quillen's theorem on MU]].
 (e.g [Lurie 10, lect. 7, theorem 1](#LurieLect7))
 
 
-### Universal orientation
+### On itself: Hopf algebroid structure on dual Steenrod algebra
+
+Moreover, the dual $MU$-[[Steenrod algebra]] $MU_\bullet(MU)$
+forms a [[Hopf algebroid]] over the [[Lazard ring]]. 
+This is the content of the _[[Landweber-Novikov theorem]]_.
+
+### Universal complex orientation
+ {#UniversalComplexOrientation}
 
 For $E$ an [[E-infinity ring]] there is a [[bijection]] between [[complex oriented cohomology theory|complex orientation]] of $E$ and [[E-infinity ring]] maps of the form
 
@@ -127,7 +134,7 @@ $$
   \,.
 $$
 
-(e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6))
+(e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
 
 ### Nilpotence theorem
@@ -142,6 +149,11 @@ $$
   PMU \simeq \mathbb{S}[B U][\beta^{-1}]
   \,.
 $$
+
+### $p$-Localization and Brown-Peterson spectrum
+
+The [[p-localization]] of $MU$ decomoses into the 
+[[Brown-Peterson spectra]].
 
 ## Related concepts
 
