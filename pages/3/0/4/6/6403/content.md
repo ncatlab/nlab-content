@@ -34,6 +34,8 @@ Similarly a _[[Killing vector]]_ is a covariantly constant [[vector field]].
 
 * [[Killing-Yano tensor]]
 
+* [[supersymmetry and Calabi-Yau manifolds]]
+
 ## References
 
 A discussion with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
