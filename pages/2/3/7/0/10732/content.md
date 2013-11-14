@@ -28,6 +28,8 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 * [[Landweber exact functor theorem]]
 
+* [[Landweber-Novikov theorem]]
+
 ## References
 
 Reviews are in 
