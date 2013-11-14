@@ -75,6 +75,7 @@ The scattering amplitudes in [[twistor string theory]] induce the MHV amplitudes
  {#References}
 
 ### On finiteness
+ {#ReferencesOnFiniteness}
 
 Here is a commented list of references on the degreewise [finiteness of string scattering amplitudes](#Finiteness).
 
