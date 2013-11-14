@@ -45,7 +45,3 @@ A standard textbook reference is chapter 11 of
 {#May}
 
 [[!redirects simplicial topological spaces]]
-
-[[!redirects simplicial space]]
-[[!redirects simplicial spaces]]
-
