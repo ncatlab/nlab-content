@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Bott periodicity_ is the name of a peridicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnation of it include the following:
+_Bott periodicity_ is the name of a periodicity phenomenon that appears throughout [[spin geometry]], [[supersymmetry]] and [[K-theory]]. Incarnation of it include the following:
 
 * the complex [[topological K-theory]] groups have a degree-2 periodicity: $K^{\bullet + 2}(X) = K^\bullet(X)$. Real K-theory has a period 8 periodicity like this. There is an element of degree 2 multiplication by which induces this [[isomorphism]] in complex K-theory, the _[[Bott element]]_.
 
@@ -17,14 +17,13 @@ _Bott periodicity_ is the name of a peridicity phenomenon that appears throughou
 
 ## Related concepts
 
+* [[Hopf fibration]]
+
 * [[periodic cohomology theory]]
 
 * [[supersymmetry and division algebras]].
 
 [[!redirects Bott periodicities]]
 
-
----
-Boas Erez suggested recovering the Bott periodicity apparent in Borel's work on zeta values, via the homotopical methods of D and C.
-
-nLab page on [[nlab:Bott periodicity]]
+[[!redirects Bott generator]]
+[[!redirects Bott generators]]
