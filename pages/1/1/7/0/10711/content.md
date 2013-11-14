@@ -5,4 +5,6 @@
 
 * [[Brown representability theorem]]
 
+* [[Brown-Peterson spectrum]]
+
 category: people
