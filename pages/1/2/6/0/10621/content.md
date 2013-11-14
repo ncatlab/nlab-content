@@ -7,4 +7,6 @@
 
 * [[Novikov conjecture]]
 
+* [[Landweber-Novikov theorem]]
+
 category: people
