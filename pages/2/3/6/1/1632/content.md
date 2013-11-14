@@ -25,7 +25,7 @@ YC: An earlier version of this entry said that "the correct" definition of Banac
 
 * A standard associative example is $L^1(\mathbb{R})$ with [[Lebesgue measure]], where the multiplication is taken to be [[convolution]]. (This lacks a unit for the multiplication, since there is no $L^1$ function $e$ that represents the [[Dirac functional]] $f \mapsto f(0)$, via
 $$ f(0) = \int_{-\infty}^{\infty} e(x) f(x) \,\mathrm{d}x ,$$ 
-on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this example in straightforward fashion, replacing $\mathbb{R}$ by any [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] $G$, and $\mu$ by a [[Haar measure]] on $G$; the algebra is unital if and only if $G$ is discrete.
+on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this example in straightforward fashion, replacing $\mathbb{R}$ by any [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological group]] $G$, and Lebesgue measure by a [[Haar measure]] on $G$; the algebra is unital if and only if $G$ is [[discrete space|discrete]].
 
 * For *any* [[measure space]] $X$, $L^{\infty}(X)$ is a [[commutative ring|commutative]] unital associative Banach algebra (in fact a unital $C^*$-[[C-star-algebra|algebra]], in fact a [[von Neumann algebra]] if $X$ is [[localizable measure space|localizable]]) with respect to pointwise multiplication.
 
