@@ -89,6 +89,10 @@ An useful review of the central definitions and theorems about the cobordism rin
 
 * [[Gerald Höhn]], _Komplexe elliptische Geschlechter und $S^1$-&#228;quivariante Kobordismustheorie_ (german) ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
+A historical review in the context of [[complex cobordism cohomology theory]]/[[Brown-Peterson theory]] is in 
+
+* [[Doug Ravenel]], chapter 4, section 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_
+
 A discussion of its relation to the Thom spectrum and the [[(∞,n)-category of cobordisms]] for $n = \infty$ is in
 
 * [[John Francis]], _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
