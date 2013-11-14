@@ -1,6 +1,10 @@
-[[!redirects p-typical formal group laws]]
 
+## Properties
 
+### Relation to Brown-Peterson spectrum
+
+$p$-Typical formal groups are related to the [[Brown-Peterson spectrum]] as ordinary [[formal groups]] are related to [[MU]].
+ 
 ## Related concepts
 
 * [[formal group law]]
@@ -12,3 +16,15 @@
 Section 19 of
 
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+Appendix 2 of 
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+
+[[!redirects p-typical formal group laws]]
+
+[[!redirects p-typical formal group]]
+[[!redirects p-typical formal group]]
+
+[[!redirects p-typical formal group]]
+[[!redirects p-typical formal groups]]
