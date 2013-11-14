@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
@@ -15,12 +15,11 @@
 [[!include philosophy - contents]]
 =--
 #### Cohesive Toposes
-+--{: .hide}
++-- {: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
-
 
 This page collects material related to the article
 
@@ -38,8 +37,13 @@ This seems to match well with [[Hegel]]'s _[Pure quantity](Science+of+Logic#Pure
 
 Notice that where the English translations of [[Hegel]]'s _[[Science of Logic]]_ say "the One", the original has "Das Eins", which might just as well be translated with "The Unit". In view of this and looking through Hegel's piece on discreteness and repulsion, it seems clear that Hegel's "Einsen" is precisely Cantor's "Einsen" as recalled by Lawvere. Namely: copies of the [[unit type]].
 
-Notice that the German "lauter" is pretty much the English "lots of". When you say "A lot a" as in the slang "A lot a stuff" or else say "lauter" with a Bavarian accent, it comes out pretty much alike, and possibly that's not a coincidence but the witness of a joint historical root.
+Notice that the German "lauter" is pretty much the English "lots of". When you say "A lot o\'" as in the slang "A lot o\' stuff" or else say "lauter" with a Bavarian accent, it comes out pretty much alike.
+
 
 category: reference
 
+[[!redirects Cohesive Toposes and Cantor's "lauter Einsen"]]
+[[!redirects Cohesive Toposes and Cantor's "lauter Einsen"]]
+[[!redirects Cohesive Toposes and Cantor's "lauter Einsen"]]
+[[!redirects Cohesive Toposes and Cantor's lauter Einsen]]
 [[!redirects Cohesive Toposes and Cantor's lauter Einsen]]
