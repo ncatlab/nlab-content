@@ -20,9 +20,17 @@ The [[probability amplitude]] for a process of [[scattering]] of [[fundamental p
 
 ## Related concepts
 
+* [[scattering]]
+
 * [[quantum field theory]]
 
-* [[S-matrix]]
+* [[S-matrix]], [[n-point function]], [[correlator]]
+
+* [[Feynman diagram]]
+
+* [[perturbation theory]]
+
+* [[abstract scattering theory]]
 
 * [[cluster decomposition]]
 
@@ -37,6 +45,9 @@ The [[probability amplitude]] for a process of [[scattering]] of [[fundamental p
 * [[string theory results applied elsewhere]]
 
 * [[string scattering amplitude]]
+
+* [[motives in physics]]
+
 
 
 ## References
@@ -64,17 +75,13 @@ In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] 
 
 For more see at _[[string scattering amplitude]]_.
 
+### Motivic structure
 
-## Related concepts
+Motivic structures in scattering amplitudes (see at _[[motives in physics]]_) are discussed for instance in 
 
-* [[scattering]]
+* John Golden, Alexander B. Goncharov, Marcus Spradlin, Cristian Vergu, Anastasia Volovich, _Motivic Amplitudes and Cluster Coordinates_ ([arXiv:1305.1617](http://arxiv.org/abs/1305.1617))
 
-* [[S-matrix]], [[n-point function]], [[correlator]]
 
-* [[Feynman diagram]]
-
-* [[perturbation theory]]
-
-* [[abstract scattering theory]]
+See also the references at _[[period]]_.
 
 [[!redirects scattering amplitudes]]
