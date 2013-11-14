@@ -32,3 +32,6 @@ As such this is [[complex projective space]] $\mathbb{C}P^1$.
 
 
 [[!redirects Riemann spheres]]
+
+[[!redirects stereographic projection]]
+[[!redirects stereographic projections]]
