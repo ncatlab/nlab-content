@@ -17,6 +17,10 @@ Grouplike $E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there
 
 [[!include k-monoidal table]]
 
+## References
+
+* [[Peter May]] with contributions by [[Frank Quinn]], Nigel Ray and Jorgen Tornehave, _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
+
 
 [[!redirects E-∞ space]]
 
