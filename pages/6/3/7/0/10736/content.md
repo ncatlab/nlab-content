@@ -1,4 +1,16 @@
-Segal maps, named after [[Graeme Segal]], were studied by [[Charles Rezk]].  They are used to define [[Segal categories]] and [[complete Segal spaces]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Segal maps, named after [[Graeme Segal]], appear in the definition of the _[[Segal conditions]]_ on a [[simplicial object]].
+
+In the context of [[higher category theory]] they 
+were used by [[Charles Rezk]] to define [[Segal categories]] and [[complete Segal spaces]].
+
+## Definition
 
 Let $X$ be a [[bisimplicial set]].  Assume for simplicity that $X$ is [[fibrant]] with respect to the [[Reedy model structure]] on the [[functor category]] $[\Delta^{op}, SSet]$.  The **$n$-th Segal map** of $X$ is the canonical [[morphism]] of [[simplicial sets]]
   $$ X_n \to (X_1)^{\times_{X_0} (n)} = X_1 \times_{X_0} \cdots \times_{X_0} X_1. $$
