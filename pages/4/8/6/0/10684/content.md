@@ -98,13 +98,19 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ### 1. The classical Adams spectral sequence
 
+* [[exact couple]]
+
+* [[spectral sequence]]
+
+* [[Adams resolution]]
+
 * [[Adams spectral sequence]]
 
 * [[Eilenberg-MacLane spectrum]], [[ordinary cohomology]]
 
-* [[Adams resolution]]
-
 * [[inverse limit]]
+
+* [[p-completion]]
 
 ### 2. The Adams spectral sequence based on a generalized homology theory
 
