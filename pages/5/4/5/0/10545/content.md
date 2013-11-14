@@ -136,6 +136,7 @@ and $E$-[[generalized homology]] refines to a functor to left $E_\bullet(E)$-[[c
 
 ([Ravenel, chapter 2, prop. 2.2.8](#Ravenel))
 
+For instance if $E = $ [[MU]] then by [[Quillen's theorem on MU]] $\pi_\bullet(MU) \simeq L$ is the [[Lazard ring]] and the Hopf algebroid $(\pi_\bullet(MU), MU_\bullet(MU))$ is described by the [[Landweber-Novikov theorem]].
 
 ### Relation to Adams spectral sequence
 
