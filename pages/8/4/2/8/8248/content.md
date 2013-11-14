@@ -22,21 +22,100 @@ _Exact couples_ are a tool for constructing [[spectral sequences]].
 
 ### Exact couples
 
-An **[[exact couple]]** is an [[exact sequence]] of three [[morphisms]] among two [[objects]]
++-- {: .num_defn}
+###### Definition
 
-$$ E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to}. $$
+
+Given an [[abelian category]] $\mathcal{C}$, an **[[exact couple]]** in $\mathcal{C}$ is a cyclic [[exact sequence]] of three [[morphisms]] among two [[objects]] of the form
+
+$$ 
+  \cdots \to E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{\to} \cdots 
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This being cyclic, it is usually depeicted as a triangle
+
+$$
+  \array{
+    D && \stackrel{\varphi}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{j}}\nwarrow && \swarrow_{\mathrlap{k}}
+    \\
+    && 
+    E
+  }
+$$
+
+=--
+
+The archetypical example from which this and the following definition draw their meaning is the following.
+
+
++-- {: .num_example}
+###### Example
+
+Let $X$ be a [[topological space]] or [[chain complex]] or [[spectrum]] or similar, and assume that it is equipped with a resolution of the form
+
+$$
+  \array{
+    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
+    \\
+    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
+    \\
+    K_0 && K_1 && K_2 && K_3
+  }
+$$
+
+where each hook is a [[fiber sequence]]. Then the induced [[long exact sequence]] on [[homotopy groups]]
+
+$$
+  \cdots
+  \pi_\bullet(X_{s+1}) 
+  \longrightarrow
+  \pi_\bullet(X_s)
+  \longrightarrow
+  \pi_\bullet(K_s)
+  \longrightarrow
+  \cdots
+$$
+
+induces an exact couple by takeing $E$ and $D$ to be the bigraded abelian groups
+
+$$
+  D \coloneqq \pi_\bullet(X_\bullet)
+$$
+
+$$
+  E \coloneqq \pi_\bullet(K_\bullet)
+  \,.
+$$
+
+(...)
+
+=--
 
 
 ### Spectral sequences from exact couples
 
-These construct [[spectral sequences]] by a two-step process:
++-- {: .num_defn}
+###### Definition
 
-*  first, the composite $d=kj:E\to E$ is nilpotent: $d^2=0$
+The [[spectral sequences]] induced by an exact couple is the one built by by the  following two-step process:
+
+*  first, the composite $d=k j \colon E\to E$ is nilpotent: $d^2=0$
+
 *  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general nonsense
 $$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
-is again an exact couple.
+is again an exact couple, called the _derived exact couple_.
 
 The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction.
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
