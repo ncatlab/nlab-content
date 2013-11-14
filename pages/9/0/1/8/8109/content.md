@@ -68,13 +68,17 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[complex oriented cohomology theory]]
 
-* [[complex cobordism cohomology theory]]
+* [[complex cobordism cohomology theory]], [[MU]]
 
   * [[Lazard's theorem]]
 
   * [[Quillen's theorem on MU]]
 
   * [[Landweber exact functor theorem]]
+
+  * [[Landweber-Novikov theorem]]
+
+  * [[Brown-Peterson spectrum]]
 
 * [[formal group law]]
 
@@ -106,7 +110,7 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[telescopic complexity]], [[telescopic localization]]
 
-* [[red-shift conjecture]]
+* [[algebraic K-theory]], [[red-shift conjecture]]
 
 * [[J-homomorphism]]
 
