@@ -44,6 +44,7 @@ and in no other dimension, except possibly in $d = 126$ (a case that is still op
 
 [[!include quadratic invariants - table]]
 
+* [[Hopf invariant]], [[Hopf invariant one]]
 
 ## References
 
@@ -56,7 +57,4 @@ and in no other dimension, except possibly in $d = 126$ (a case that is still op
 
 [[!redirects Kervaire invariants]]
 
----
-&lt;http://mathoverflow.net/questions/33250/references-general-idea-of-kervaire-invariant-problem>
-
-nLab page on [[nlab:Kervaire invariant]]
+[[!redirects Kervaire inavariant one]]
