@@ -155,7 +155,7 @@ Topics relevant to the foundations of constructive mathematics:
 *  [[set theory]]
 *  [[topos]]
 *  [[truth value]]
-*  [[type theory]]
+*  [[type theory]], [[homotopy type theory]]
 
 
 Other articles with content relating to constructive mathematics:
