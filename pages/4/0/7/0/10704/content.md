@@ -41,6 +41,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 ## Related concepts
 
+* [[p-completion]]
+
 * [[finite spectrum]]
 
 ## References
