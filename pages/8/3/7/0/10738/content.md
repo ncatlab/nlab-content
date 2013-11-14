@@ -43,6 +43,8 @@ $$
   \,.
 $$
 
+The analog for [[BP]] is the [[Adams-Quillen theorem]].
+
 ## Related theorems
 
 * [[Lazard's theorem]]
