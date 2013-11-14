@@ -52,6 +52,8 @@ For $\Gamma$ a suitable Hopf algebroid and $N_1, N_2$
 two [[comodules]], then the co[[Tor]] groups $CoTor_\Gamma(N_1, N_2)$
 form a _[[Steenrod algebra]]_. See there for details and citations.
 
+For [[MU]] this is the content of the [[Landweber-Novikov theorem]].
+
 ## Examples
 
 ### Scalar extension Hopf algebroids
