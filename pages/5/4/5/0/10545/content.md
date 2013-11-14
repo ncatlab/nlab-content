@@ -29,8 +29,9 @@ $$
   H\mathbb{F}_p^\ast(H \mathbb{F}_p)
   \simeq
   [H \mathbb{F}_p,H \mathbb{F}_p]
-  \,.
 $$
+
+of the [[generalized cohomology theory]] applied to itself (the [[cohomology operations]]).
 
 Dually there is the _dual Steenrod algebra_
 
@@ -39,8 +40,10 @@ $$
   H\mathbb{F}_\ast(H \mathbb{F}_p)
   \simeq
   H \mathbb{F}_p \wedge H \mathbb{F}_p
-  \,.
 $$
+
+given by applying this as a [[generalized homology theory]] to self.
+
 
 
 ### General
@@ -108,11 +111,31 @@ The &#193;dam relations precisely generate the [[ideal]] of relations among the 
 =--
 
 
-### Hopf algebra structure
+### Hopf algebroid structure
+ {#HopfAlgebraStructure}
 
 The Steenrod algebra for mod $p$ coefficients is a [[Hopf algebra]] over $\mathbb{F}_p$ which is graded commutative and non-co-commutative.
 
 This is due to ([Milnor 58](#Milnor58)). A review is in [Ravenel, ch. 3, section 1](#Ravenel).
+
+
+More generally, assume that a [[spectrum]] $E$ satisfies
+some assumptions ([Ravenel, chapter 2, assumption 2.2.5](#Ravenel)
+
+then $E_\bullet(E)$ is
+
+* a [[bimodule]] over $\pi_\bullet(E)$
+
+* an [[algebra]] and a [[coalgebra]] over $\pi_\bullet(E)$
+
+such that
+
+$(\pi_\bullet(E), E_\bullet(E))$ is a [[Hopf algebroid]]
+
+and $E$-[[generalized homology]] refines to a functor to left $E_\bullet(E)$-[[comodules]].
+
+([Ravenel, chapter 2, prop. 2.2.8](#Ravenel))
+
 
 ### Relation to Adams spectral sequence
 
