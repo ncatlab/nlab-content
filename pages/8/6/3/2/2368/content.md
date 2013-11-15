@@ -23,13 +23,15 @@
 
 ## Idea
 
-In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- called $A_\infty$-[[A-∞-ring|rings]] -- and [[commutative monoid in an (infinity,1)-category|commutative monoid objects]] -- called $E_\infty$-[[E-∞-ring|rings]]. These monoid objects satisfy associativity, uniticity and, in the $E_\infty$-case, commutativity up to coherent higher homotopies. 
+In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- called $A_\infty$-[[A-∞-ring|rings]] -- and [[commutative monoid in an (infinity,1)-category|commutative monoid objects]] -- called $E_\infty$-[[E-∞-ring|rings]]. These monoid objects satisfy associativity, uniticity and, in the $E_\infty$-case, commutativity up to [[coherence|coherent]] [[higher homotopies]]. 
 
-For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity ring]]s as ordinary [[monoid]]s and [[E-infinity ring]]s as ordinary [[commutative monoid]]s in a suitable [[category]].
+For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity rings]] as ordinary [[monoids]] and [[E-infinity rings]] as ordinary [[commutative monoids]] in a suitable ordinary [[category]].
+
+Historically, this had been desired but out of reach for a long time. When the relevant [[highly structure ring spectra]] were finally found, the relief was substantial and led to terminology such as "[[brave new algebra]]".
 
 ## Prehistory
 
-As a first step one wants a [[model category]] $\mathcal{S}$ of spectra that [[presentable (infinity,1)-category|presents]] the full [[(infinity,1)-category]] of [[spectrum|spectra]]. This allows to model the notion of equivalence of spectra and of [[homotopy|homotopies]] between maps of spectra.  Several such model categories 
+As a first step one wants a [[model category of spectra]] $\mathcal{S}$ that [[presentable (infinity,1)-category|presents]] the full [[(infinity,1)-category of spectra]]. This allows to model the notion of [[equivalence]] of spectra and of [[homotopies]] between maps of spectra.  Several such model categories 
 have been known for a long time; all are Quillen equivalent and their common [[homotopy category]] is called "the" [[stable homotopy category]] $Ho \mathcal{S}$.
 
 It was also known that the stable homotopy category $Ho \mathcal{S}$ is a [[symmetric monoidal category]], via a "derived [[smash product of spectra]]."  Ordinary (commutative) [[monoid]]s in $Ho \mathcal{S}$ were called (commutative) **[[ring spectrum|ring spectra]]**.  While their product has associativity and uniticity up to homotopy, these homotopies are not specified and not required to satisfy higher coherence laws up to higher homotopies themselves.
@@ -59,7 +61,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 ### Symmetric spectra
 
-...
+* [[symmetric spectrum]]
 
 ### Orthogonal spectra
 
@@ -68,6 +70,15 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 ## Related concepts
 
 * [[mapping spectrum]]
+
+[[model structure on spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
 
 ## References
 
@@ -87,11 +98,11 @@ the model structure were later worked out and written up in
 
 A survey of the general theory, also of its history, is
 
-* A. Elmendorf, [[Igor Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* A. Elmendorf, [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 The definition of $S$-modules and their theory can be found in 
 
-* A. Elmendorf, [[Igor Kriz]], M. Mandell, [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
+* A. Elmendorf, [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
 
 A textbook account of the theory of symmetric spectra is  
 
