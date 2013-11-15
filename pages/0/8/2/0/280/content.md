@@ -107,6 +107,8 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
   * [[diagonal action]]
 
+* [[coaction]]
+
 * [[representation]], [[∞-representation]]
 
 * [[module]], [[∞-module]]
