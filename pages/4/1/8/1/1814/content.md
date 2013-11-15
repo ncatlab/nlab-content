@@ -33,7 +33,13 @@ The $n$-simplices of this are just _[[singular simplex|singular n-simplices]]_ g
 
 ## Properties
 
+### Relation to geometric realization
+
 Together with its [[adjoint functor|adjoint]] -- [[geometric realization]] $|-| : sSet \to Top$ -- the functor $Sing : Top \to sSet$ is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]] that is sometimes called the [[homotopy hypothesis]]-theorem.
+
+### Relation to ordinary (co)homology
+
+Forming from the singular simplicial complex $Sing(X)$ first the free [[simplicial abelian group]] $\mathbb{Z}[Sing(X)]$ and then under the [[Dold-Kan correspondence]] the correspondin [[normalized chain complex]] yields this [[chain complex]] which computes the [[singular homology]] of $X$. 
 
 ## Related concepts
 
