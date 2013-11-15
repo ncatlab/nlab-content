@@ -22,6 +22,8 @@
 
 The _Adams-Novikov spectral sequence_ is a class of [[spectral sequences]] which converge to and hence are used to compute [[homotopy groups]] of [[connective spectra]],  hence in particular the [[stable homotopy groups of spheres]]. It refines the _[[Adams spectral sequence]]_ by replacing [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$ by[[complex cobordism cohomology theory]]. 
 
+More generally for $E$ any suitable [[E-infinity ring]] there is an Adams-Novikov-type spectral sequence involving $E$-[[generalized cohomology]]/[[generalized homology]]. This fully general notion is often again just referred to as the _$E$-[[Adams spectral sequence]]_. Accordingly, see there for more.
+
 ## Properties
 
 ### Relation to Brown-Peterson spectrum
