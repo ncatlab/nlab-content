@@ -33,6 +33,7 @@ Related books are
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_
 
+* [[Chris Isham]], _[[Modern Differential Geometry for Physicists]]_
 
 #Contents#
 * table of contents
