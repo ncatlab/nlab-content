@@ -79,7 +79,11 @@ all other faces of type $\Gamma_j^\alpha  y$  or $\varepsilon_j y$ . So this mak
 Cubical complexes with this, and other, structures  have  also
 been considered by Evrard.
 
+The first appearance of this notion in dimension $2$ was in the paper by Brown and Spencer listed below, and used to obtain an equivalence between crossed modules and edge symmetric double groupoids with connection. 
+
 Such connections on cubical sets were introduced in 1981 by Brown and Higgins in order to obtain the equivalence of their "cubical [[∞-groupoids]]" with [[crossed complexes]]. They are also essential to allow the notion of "commutative $n$-shell" in such a structure. 
+
+
 
 
 ## Properties
@@ -90,7 +94,7 @@ The ordinary [[cube category]] is a _[[test category]]_. This means that bare [[
 
 But the category of cubes _with connection_  is even a _[[strict test category]]_ ([Maltsiniotis, 2008](#Maltsiniotis)). This means that under [[geometric realization]] (see the discussion at [[homotopy hypothesis]]) the [[cartesian product]] of cubical sets with connection is sent to the correct product [[homotopy type]].
 
-The lack of this property for cubical sets without connection was one of the original reasons reasons for abandoning Kan's initial cubical approach to combinatorial [[homotopy theory]] in favour of the simplicial approach. The implications of this new result have yet to be thought through. 
+The lack of this property for cubical sets without connection was one of the original reasons reasons for abandoning Kan's initial cubical approach to combinatorial [[homotopy theory]] in favour of the simplicial approach; the implications of this new result have yet to be thought through. Another reason was that cubical groups were in general not Kan complexes; however cubical groups with connection are Kan complexes. See the paper by Tonks listed below. 
 
 ## Examples
 
@@ -120,9 +124,16 @@ The first hint of such a general structure came in the paper by Brown and Spence
 
 * Brown, R.  and  Higgins, P.J., "On the algebra of cubes", _J. Pure Appl.  Algebra_ 21 (1981) 233--260.
 
-* F. Al-Agl, R. Brown and R. Steiner, "Multiple categories: the equivalence between a globular and cubical approach", _Advances in Mathematics_, 170, (2002), 71--118.
+* F. Al-Agl, R. Brown and R. Steiner, "Multiple categories: the equivalence between a globular and cubical approach", _Advances in Mathematics_, 170 (2002), 71--118.
 
 * M. Grandis and L. Mauri, "Cubical sets and their site",  _Theory Applic. Categories_, 11 (2003) 185--201.
+
+*  P.J. Higgins,
+"Thin elements and commutative shells in cubical  $\omega$-categories", _Theory Appl. Categ._ 14 (2005) 60--74. 
+
+The statement that cubical groups with connections are Kan complexes is due to 
+
+* A. Tonks,  "Cubical groups which are Kan", _J. Pure Appl. Algebra_, 81 (1992) 83--87.
 
 The statement that cubes with connection form a [[strict test category]] is due to 
 
