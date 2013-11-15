@@ -25,19 +25,35 @@ A [[model category]] structure on a category of [[spectra]] presents a [[stable 
 
 Many such model structures model spectrum objects as _[[symmetric spectra]]_. See there for more details.
 
+Typically and naturally, a model structure on spectra forms a [[stable model category]].
+
+## Examples
+
+Among the model structures with a [[symmetric monoidal smash product of spectra]] ("highly structured spectra") are
+
+* [[model structure on symmetric spectra]]
+
+* [[model structure on orthogonal spectra]]
+
+* [[model structure on S-modules]]
+
 ## Related concepts
 
 * [[model structure on presheaves of spectra]]
 
 * [[model structure for dendroidal left fibrations]]
 
+* [[higher algebra]], [[brave new algebra]], [[higher linear algebra]]
+
+* [[stable (infinity,1)-category]]
+
 ## References
 
-A discussion of model structures on spectra in general ambiend model categories (general spectrum objects) is in
+A discussion of model structures on spectra in general ambient model categories (general spectrum objects) is in
 
 * [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
+ {#Hovey00}
 
 
-[[!redirects model structure on symmetric spectrum objects]]
-
-[[!redirects model structure on symmetric spectra]]
+[[!redirects model category of spectra]]
+[[!redirects model structures of spectra]]
