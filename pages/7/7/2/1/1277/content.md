@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _comodule_ is to a [[comonoid]] as a [[module]] is to a [[monoid]]
+A _comodule_ is to a [[comonoid]] as a [[module]] is to a [[monoid]]. Where a [[module]] is equipped with an [[action]], a comodule is dually equipped with a _coaction_.
 
 ## Definition
 
@@ -32,6 +32,9 @@ a __left $C$-coaction__ is
 
 In some monoidal categories, e.g. of (super)[[vector space]]s, and of [[Hilbert space]]s, one often says (left/right) [[corepresentation]] instead of (left/right) coaction. 
 
+## Examples
+
+* [[Hopf algebra]], [[Hopf algebroid]]
 
 [[!redirects comodules]]
 [[!redirects co-module]]
