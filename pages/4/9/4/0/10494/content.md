@@ -540,7 +540,7 @@ The above discussion of geometric twisted generalized cohomology as cohomology i
 
 Discussion in a comprehensive context of cohesion is in section 4.2.3 of 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 [[!redirects cohesive tangent (∞,1)-topos]]
 
