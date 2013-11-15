@@ -60,13 +60,53 @@ For [[MU]] this is the content of the [[Landweber-Novikov theorem]].
 
 Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. 
 
-### Generalized Steenrod algebra
+### Generalized dual Steenrod algebra
+ {#GeneralizedDualSteenrodAlgebra}
 
 For $E$ a suitable [[E-infinity ring]] [[spectrum]], its [[homotopy groups]]
 $\pi_\bullet(E)$ and [[generalized homology]] $E_\bullet(E)$
 form a Hopf algebroid of [[spectra]], the dual $E$-[[Steenrod algebra]].
 (These examples have also been called [[brave new Hopf algebroids]].)
 See at _[Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)_.
+
+The general statement is this:
+
++-- {: .num_lemma #SelfHomologyIsModuleOverCohomologyRing}
+###### Lemma
+
+Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
+The self-[[generalized homology]] $A^R_\bullet(A)$ 
+is naturally a [[module]] over the [[cohomology ring]] $A_\bullet$
+via applying the [[homotopy groups]] $\infty$-functor $\pi_\bullet$ 
+to the canonical inclusion
+
+$$
+  A \stackrel{\simeq}{\rightarrow}
+  A \underset{R}{\wedge} R
+  \stackrel{}{\rightarrow}
+  A \underset{R}{\wedge} A
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
+If the the $A_\bullet$-[[module]] $A^R_\bullet(A)$ of 
+lemma \ref{SelfHomologyIsModuleOverCohomologyRing} is a [[flat module]],
+then 
+
+1. $(A_\bullet, A_\bullet(A))$ is a [[Hopf algebroid]] over $R_\bulllet$;
+
+1. $A^R_\bullet(X)$ is a left $A^R_\bullet(A)$-module for every $R$-[[∞-module]] $X$.
+
+=--
+
+This is due to ([Baker-Lazarev 01](#BakerLazarev01)), further discussed  in ([Baker-Jeanneret 02](#BakerJeanneret02)) (there expressed in terms of the presentation by [[commutative monoids]] in [[symmetric spectra]]). 
+A review is also in ([Ravenel, chapter 2, prop. 2.2.8](#Ravenel)).
+
 
 
 
@@ -95,16 +135,24 @@ The modern concept over the noncommutative base is discovered in two formally di
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
 * [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 * G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](http://arxiv.org/abs/math.QA/0305136)
-* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
+* [[T. Brzezi?ski]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 
 Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
 
 * [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
-### In homotopy theory
+### In stable homotopy theory and generalized cohomology
 
-* [pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf)
+* [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
+ {#BakerLazarev01}
+
+* [[Andrew Baker]] and Alain Jeanneret, _Brave new Hopf algebroids and extensions of $MU$-algebras_, Homology Homotopy Appl. Volume 4, Number 1 (2002), 163-173. ([Euclid](http://projecteuclid.org/euclid.hha/1139840059))
+ {#BakerJeanneret02}
+
+A review is in 
+
+* [[Doug Ravenel]], chapter 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 category: algebra
 [[!redirects Hopf algebroids]]
