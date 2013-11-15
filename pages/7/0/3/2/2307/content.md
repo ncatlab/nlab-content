@@ -164,6 +164,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## References
 
+### General
+
 Original articles include
 
 * [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521.
@@ -188,10 +190,10 @@ with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], 
 
 Lecture notes include 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 5 _Complex bordism_ 
+([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 6 _MU and complex orientations_ ([pdf]
-(http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf)) 
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf)) 
  {#LurieLect6}
  
 
@@ -206,6 +208,9 @@ See also
 
 * [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
+### Higher algebra over $MU$
+
+* [[Neil Strickland]], _Products on $MU$-modules_ ([pdf](http://hopf.math.purdue.edu/Strickland/mult.pdf))
 
 
 [[!redirects complex cobordism spectrum]]
