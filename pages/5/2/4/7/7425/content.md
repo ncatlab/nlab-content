@@ -145,6 +145,15 @@ With the exception of the extreme case of $n=0$, the fields $K(n)$ do not admit 
 
 (e.g. [Lurie 10, lecture 22, warning 6](#LurieLecture))
 
++-- {: .num_remark}
+###### Remark
+
+However, regarded as an [[A-∞ algebra]] over some $\widehat {E(n)}$ completion of [[Morava E-theory]], which itself if an [[E-∞ ring]] over the [[sphere spectrum]], $K(n)$ does become $E_\infty$.
+
+See ([Baker, 2.3](#Baker)).
+
+=--
+
 ### As $A_\infty$-fields
  {#AsInfinityFields}
 
@@ -278,6 +287,17 @@ In
   Lecture 24 _Uniqueness of Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture24.pdf))
 
 the explicit definition via [[formal group laws]] is in lecture 22 and the abstract characterization in lecture 24.
+
+The $E_\infty$-algebra structure over $\widehat{E(n)}$ is comment on in 
+
+* [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
+ {#Baker}
+
+based on 
+
+* [[Neil Strickland]], _Products on $MU$-modules_, Trans. Amer. Math. Soc. 351 (1999), 2569-2606.
+ {#Strickland99}
+
 
 The [[orientation in generalized cohomology|orientation]] of [[integral Morava K-theory]] is discussed in
 
