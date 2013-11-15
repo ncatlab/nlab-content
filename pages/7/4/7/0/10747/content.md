@@ -1,0 +1,52 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _symmetric spectrum_ serves as a model for the general notion of [[spectrum]] and is given by a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
+
+The category of symmetric spectra has the crucial property that it admits a [[symmetric monoidal smash product of spectra]].
+
+## Related concepts
+
+[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+
+* **symmetric spectrum**, [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
+## References
+
+The orginal article is
+
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208.
+
+
+Brief reviews include
+
+* [[Alexander Kupers]], _Symmetric spectra_ ([pdf](http://ncatlab.org/nlab/files/SymmetricSpectra.pdf))
+
+A comprehensive textbook account is in 
+
+* [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+
+[[!redirects symmetric spectra]]
