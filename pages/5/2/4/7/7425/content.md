@@ -145,14 +145,6 @@ With the exception of the extreme case of $n=0$, the fields $K(n)$ do not admit 
 
 (e.g. [Lurie 10, lecture 22, warning 6](#LurieLecture))
 
-+-- {: .num_remark}
-###### Remark
-
-However, regarded as an [[A-∞ algebra]] over some $\widehat {E(n)}$ completion of [[Morava E-theory]], which itself if an [[E-∞ ring]] over the [[sphere spectrum]], $K(n)$ does become $E_\infty$.
-
-See ([Baker, 2.3](#Baker)).
-
-=--
 
 ### As $A_\infty$-fields
  {#AsInfinityFields}
