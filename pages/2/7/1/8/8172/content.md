@@ -94,7 +94,16 @@ In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). For the traditio
 ### Relation to Steenrod algebra
 
 The $E_2$-page of the Adams spectral sequence for the $p$-component of 
-$\pi_{n+k}(S^n)$  is the [[Steenrod algebra]] (for given prime $p$).
+$\pi_{n+k}(S^n)$  is the ordinary [[Steenrod algebra]] (for given prime $p$).
+
+More generally, For $R$ an [[E-infinity ring]] such that its dual $R$-[[Steenrod algebra]] in the form of the self-[[homology]] $R_\bullet(R)$ is a [[Hopf algebroid]] over $R_\bullet = \pi_\bullet(R)$ (see at [Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)), then the $E^2$-term of the $E$-Adams spectral sequence is an [[Ext]] of $E_\bullet(E)$-[[comodules]]
+
+$$
+  E^2 \simeq Ext_{R_\bullet(R)}(R_\bullet, R_\bullet(X))
+  \,.
+$$
+
+See the [references below](#ReferencesHopfAlgebroidStructure).
 
 ## Related concepts
 
@@ -105,6 +114,8 @@ $\pi_{n+k}(S^n)$  is the [[Steenrod algebra]] (for given prime $p$).
 * [[Steenrod algebra]]
 
 ## References
+
+### General
 
 The original article is
 
@@ -131,5 +142,23 @@ Reviews are in
   {#Lurie10}
 
 * [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 9, _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
+
+### Hopf algebroid $Ext$-structure on $E^2$
+ {#ReferencesHopfAlgebroidStructure}
+
+
+* [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
+ {#Baker}
+
+* [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:http://arxiv.org/abs/math/0105079](http://arxiv.org/abs/math/0105079))
+ {#BakerLazarev01}
+
+* [[Andrew Baker]] and Alain Jeanneret, _Brave new Hopf algebroids and extensions of $MU$-algebras_, Homology Homotopy Appl. Volume 4, Number 1 (2002), 163-173. ([Euclid](http://projecteuclid.org/euclid.hha/1139840059))
+ {#BakerJeanneret02}
+
+* [[Mark Hovey]], _Homotopy theory of comodules over a Hopf algebroid_ ([arXiv:math/0301229](http://arxiv.org/abs/math/0301229)) 
+ {#Hovey03}
+ 
+
 
 [[!redirects Adams spectral sequences]]
