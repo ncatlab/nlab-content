@@ -530,7 +530,7 @@ and see the further references at _[[tangent (infinity,1)-topos]]_.
 
 Discussion of [[differential cohomology]] in $T_\ast Smooth \infty Grpd \simeq Stab(Smooth \infty Grpd)$ is in
 
-* [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], to appear
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
   {#BunkeNikolausVoelkl13}
 
 The above discussion of geometric twisted generalized cohomology as cohomology in the tangent cohesive $\infty$-topos was presented in
