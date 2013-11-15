@@ -107,6 +107,8 @@ An introduction with an eye towards applications in [[physics]], specifically to
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
+* [[Chris Isham]], _[[Modern Differential Geometry for Physicists]]_
+
 A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]] is in 
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
@@ -116,6 +118,10 @@ See also
 * Sigmundur Gudmundsson, _An Introduction to Riemannian Geometry_ ([pdf](http://www.maths.lth.se/matematiklu/personal/sigma/Riemann.pdf))
 
 * Wikipedia, _[differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)_
+
+### Higher
+
+See at _[[higher differential geometry]]_.
 
 ### Derived
 
