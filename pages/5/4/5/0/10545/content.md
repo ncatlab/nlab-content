@@ -163,8 +163,41 @@ then
 
 =--
 
-This is due to ([Baker-Lazarev 01](#BakerLazarev01)), further discussed  in ([Baker-Jeanneret 02](#BakerJeanneret02)) (there expressed in terms of the presentation by [[commutative monoids]] in [[symmetric spectra]]). 
+This is due to ([Baker-Lazarev 01](#BakerLazarev01)), further discussed  in ([Baker-Jeanneret 02](#BakerJeanneret02)) (there expressed in terms of the presentation by [[highly structured ring spectra]]). 
 A review is also in ([Ravenel, chapter 2, prop. 2.2.8](#Ravenel)).
+
++-- {: .proof}
+###### Proof sketch
+
+Using the arguments of ([Adams 74](#Adams74), [Ravenel 86](#Ravenel86)).
+
+The [[flat module|flatness]] condition implies that there is an [[equivalence]]
+
+$$
+  \pi_\bullet\left(
+    A \underset{R}{\wedge} A \underset{R}{\wedge} X
+  \right)
+  \stackrel{\simeq}{\longrightarrow}
+  A_\bullet^R(A) \underset{A_\bullet}{\otimes} A_\bullet^R(X)
+  \,.
+$$
+
+Combining this with the map in lemma \ref{SelfHomologyIsModuleOverCohomologyRing}
+yields the [[coaction]] 
+
+$$
+  A_\bullet^R(X)
+  \longrightarrow
+  \pi_\bullet\left(
+    A \underset{R}{\wedge} A \underset{R}{\wedge} X
+  \right)
+  \stackrel{\simeq}{\longrightarrow}
+  A_\bullet^R(A) \underset{A_\bullet}{\otimes} A_\bullet^R(X)
+  \,.
+$$
+
+
+=--
 
 
 These (dual) $E$-Steenrod algebra Hopf algebroids have also been called "[[brave new algebra|brave new Hopf algebroids]]" ([Baker](#Baker),  [Baker-Jeanneret 02](#BakerJeanneret02))
@@ -247,6 +280,8 @@ Original articles include
 * [[John Milnor]], _The Steenrod algebra and its dual_, Ann. of Math. 67 (1958), 150&#8211;171.
  {#Milnor58}
 
+* [[John Adams]], _Stable Homotopy and Generalised Homology_, University of Chicago Press (1974).
+ {#Adams74}
 
 The general algebraic approach was laid out in 
 
@@ -275,7 +310,7 @@ Lecture notes include
 
 Reviews include
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ Academic Press 1986
  {#Ravenel}
 
 (appendix 1, section 5 reviews the abstract algebraic definition).
