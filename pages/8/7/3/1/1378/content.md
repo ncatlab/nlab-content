@@ -23,6 +23,8 @@
 
 The notion of _higher algebra_ or _[[homotopical algebra]]_ refers to generalizations of [[algebra]] in the context of [[homotopy theory]] and more general of [[higher category theory]].
 
+### General
+
 Ordinary [[algebra]] concerns itself in particular with structures such as [[associative algebra]]s, which are [[monoid]]s [[internalization|internal to]] [[monoidal category|monoidal categories]]:
 
 * a [[monoid]] [[internalization|internal to]] [[Set]] is just an ordinary [[monoid]];
@@ -44,7 +46,7 @@ A central motivating example for - or special case of the study of higher algebr
 
 * monoids internal to the [[stable (infinity,1)-category of spectra]] -- called [[commutative ring spectrum|commutative ring spectra]]
 
-The "higher algebra" embodied by [[commutative ring spectrum|commutative ring spectra]] has been called **brave new algebra** by F. Waldhausen.
+The "higher algebra" embodied by [[commutative ring spectrum|commutative ring spectra]] has been called **[[brave new algebra]]** by F. Waldhausen.
 
 More generally, [[algebra]] is partially about [[algebraic theories]], about [[monads]] and about [[operads]]. All these have higher analogs in higher algebra.
 
@@ -165,9 +167,6 @@ A comprehensive development of the theory is in
 
   * _[[Deformation Theory]]_
 
-A introductory survey is in 
-
-* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
 
 
 See also 
