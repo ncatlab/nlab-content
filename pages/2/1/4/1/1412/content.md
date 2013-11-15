@@ -428,6 +428,8 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 ## Related entries
 
+* [[fiber bundles in physics]]
+
 * [[motivation for cohesion]]
 
 * [[motivation for higher differential geometry]]
