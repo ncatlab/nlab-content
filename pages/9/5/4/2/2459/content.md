@@ -23,4 +23,7 @@ Let $C$ be a $k$-[[coalgebra]], $\chi$ a [[group-like element]], that is, an ele
 
 * [[homotopy coinvariant functor]]
 
+[[!include homotopy type representation theory -- table]]
+
+
 [[!redirects coinvariants]]
