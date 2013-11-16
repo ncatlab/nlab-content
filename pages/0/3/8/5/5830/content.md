@@ -106,6 +106,10 @@ As a foundation for mathematics whose basic objects are higher groupoids, homoto
 
 * Several variants of the [[axiom of choice]].
 
+### Relation to representation theory
+
+[[!include homotopy type representation theory -- table]]
+
 
 ## Machine implementation
 
