@@ -107,7 +107,7 @@ is $n$-truncated in [[∞Grpd]].
 =--
 
 By the [characterization of homotopy fiber of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats)
-this is equivalent to saying that $F$ is $k$-truncated when it is so regarded as an
+this is equivalent to saying that $f$ is $k$-truncated when it is so regarded as an
 object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$.
 
 ### In terms of categorical homotopy groups 
