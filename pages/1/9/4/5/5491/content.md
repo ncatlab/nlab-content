@@ -302,6 +302,8 @@ hence of possibly "non-linear" $\infty$-representations. (See at _[[∞-action]]
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
+[[!include homotopy type representation theory -- table]]
+
 ## References
 
 2-representations of [[2-groups]] and [[Lie 2-group]]s such as the [[string 2-group]] on [[2-vector space]]s are disscussed in
