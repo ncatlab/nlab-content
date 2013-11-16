@@ -18,6 +18,58 @@
 {:toc}
 
 
+## Idea
+
+_Representation theory_ is concerned with the study of [[algebra|algebraic]] [[structures]] via their [[representations]], This concerns notably [[groups]], directly or in their incarnation as [[group algebras]], [[Hopf algebras]] or [[Lie algebras]], and usually concerns [[linear algebra|linear]] [[representations]], hence [[modules]] of these structures. But more generally representation theory also studies [[representations]]/[[modules]]/[[actions]] of generalizations of such structures, such as [[coalgebras]] via their [[comodules]] etc.
+
+See also at _[[geometric representation theory]]_.
+
+## In homotopy type theory
+
+The fundamental of representation theory have a particular natural formulation in 
+[[homotopy theory]] and in fact in [[homotopy type theory]], which also 
+refines it from the study of [[representations]] of [[groups]] to that of    
+[[∞-representations]] of [[∞-groups]]. This includes both [[discrete ∞-groups]] as well as [[geometric homotopy types]] such as [[smooth ∞-groups]], the higher analog of [[Lie groups]].
+
+The key observation to this translation is that 
+
+1. an [[∞-group]] $G$ is equivalently given by its [[delooping]] $\mathbf{B}G$ regarded with its canonical [[pointed object|point]] (see at [[looping and delooping]]), hence the universal $G$-[[principal ∞-bundle]] 
+
+   $$
+     \array{
+        G &\longrightarrow& \ast
+        \\
+        && \downarrow
+        \\
+        && \mathbf{B}G
+     }
+   $$
+
+1. an [[∞-action]] $\rho$ of $G$ on any [[geometric homotopy type]] $V$ is equivalently given by a [[homotopy fiber sequence]] of the form
+
+   $$
+     \array{
+        V &\stackrel{}{\longrightarrow}& V//_\rho G
+        \\
+        && \downarrow
+        \\
+        && \mathbf{B}G
+     }
+     \,,
+   $$
+
+   hence by a $V$-[[fiber ∞-bundle]] over $\mathbf{B}G$ which is the $\rho$-[[associated ∞-bundle]] to the universal $G$-[[principal ∞-bundle]] (see at _[[∞-action]]_ for more on this).
+
+Under this identification, the representation theory of $G$ is equivalently 
+
+* the [[homotopy theory]] in the [[slice (∞,1)-topos]] over $\mathbf{B}G$;
+
+* the [[homotopy type theory]] in the [[context]] of/[[dependent type theory|dependent on]] $\mathbf{B}G$. 
+
+More in detail, this yields the following identifications:
+
+[[!include homotopy type representation theory -- table]]
+
 ## Related entries
 
 * [[representation]], [[action]], [[module]]
@@ -46,7 +98,7 @@
 
 * [[geometric representation theory]]
   
-  * [[Borel-Weil theorem]], [[Beĭlinson-Bernstein localization]]
+  * [[Borel-Weil theorem]], [[Be?linson-Bernstein localization]]
   * [[D-module]], [[perverse sheaf]], [[BBDG decomposition theorem]]
   * [[Kazhdan-Lusztig theory]]
   * [[Dirac induction]]
@@ -72,8 +124,6 @@ A list of texts on representation theory is maintained at
 The relation to [[number theory]] and the [[Langlands program]] is discussed in 
 
 * [[Robert Langlands]], _Representation theory: Its rise and its role in number theory_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.207.3303))
-
-
 
 
 
