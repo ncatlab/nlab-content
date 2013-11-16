@@ -13,6 +13,9 @@ Given a [[cocycle]] $\mathbf{B}G \longrightarrow \mathbf{B}^{n+1} A$ in the $\in
 
 * [[∞-Lie groupoid cohomology]]
 
+## Related concepts
+
+[[!include homotopy type representation theory -- table]]
 
 
 [[!redirects infinity-group cohomology]]
