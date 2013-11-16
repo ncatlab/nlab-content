@@ -744,6 +744,8 @@ For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]]
 
 * [[group cohomology]]
 
+[[!include homotopy type representation theory -- table]]
+
 
 ## References
 
