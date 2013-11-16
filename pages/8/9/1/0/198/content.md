@@ -77,6 +77,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 ## Examples
 
+* [[trivial representation]]
+
 * [[adjoint representation]], [[coadjoint representation]]
 
 * [[induced representation]], [[coinduced representation]]
@@ -105,6 +107,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 
 * [[character]]
+
+[[!include homotopy type representation theory -- table]]
 
 
 [[!redirects representation]]
