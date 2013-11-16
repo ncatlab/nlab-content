@@ -14,10 +14,10 @@ A _$\lambda$-ring_ is a [[commutative ring]] which is in addition equipped with 
 
 ### Motivation from representation theory
 
-Typicall yone can form [[direct sums]] of [[representations]] of some [[algebra|algebraic]] [[structure]].  The [[decategorification]] to [[isomorphism classes]] of such [[representations]] then  inherits the structure of a [[commutative monoid]]. But nobody likes commutative monoids: we all have an urge to subtract.  So, we throw in formal negatives and get an [[abelian group]] --- the _[[Grothendieck group]]_.
+Typically one can form [[direct sums]] of [[representations]] of some [[algebra|algebraic]] [[structure]].  The [[decategorification]] to [[isomorphism classes]] of such [[representations]] then  inherits the structure of a [[commutative monoid]]. But nobody likes commutative monoids: we all have an urge to subtract.  So, we throw in formal negatives and get an [[abelian group]] --- the _[[Grothendieck group]]_.
 
 In many situations, we can also take [[tensor product|tensor products]] of representations.  Then the Grothendieck group becomes something better than an abelian group.  It becomes a [[ring]]: the [[representation ring]]. 
-Morover, in many situations we can also take [[exterior power|exterior]] and [[symmetric power|symmetric]] powers of representations;  indeed, we can often apply any [[Young diagram]] to a representation and get a new representation. Then the [[representation ring]] becomes something better than a ring: it becomes a _$\lambda$-ring_.
+Moreover, in many situations we can also take [[exterior power|exterior]] and [[symmetric power|symmetric]] powers of representations;  indeed, we can often apply any [[Young diagram]] to a representation and get a new representation. Then the [[representation ring]] becomes something better than a ring: it becomes a _$\lambda$-ring_.
 
 More generally, the [[Grothendieck group]] of a [[monoidal category|monoidal]] [[abelian category]] is always a ring, called a [[Grothendieck ring]].   If we start with a [[braided monoidal category|braided monoidal]] abelian category, this ring is commutative.   But if we start with a [[symmetric monoidal category|symmetric monoidal]] abelian category, we get a $\lambda$-ring.   
 
