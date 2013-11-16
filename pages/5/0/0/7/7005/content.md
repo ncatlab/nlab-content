@@ -305,15 +305,13 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 * [[Thierry Coquand]] (with Marc Bezem and Simon Huber), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
  {#Coquand13}
 
-
-
-
-
-
-
-Univalence is claimed to be established in all [[(infinity,1)-toposes]], their presentations by [[type-theoretic model categories]] as well as further cases of [[locally cartesian closed (infinity,1)-categories]] in
+A study of the semantic side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
 * [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
+
+This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
+
+* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
 
 For more references see _[[homotopy type theory]]_.
 
