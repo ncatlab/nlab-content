@@ -114,6 +114,7 @@ The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[
 [[!redirects Eilenberg--MacLane space]]
 [[!redirects Eilenberg?MacLane space]]
 [[!redirects Eilenberg-Mac Lane space]]
+[[!redirects Eilenberg - Mac Lane space]]
 [[!redirects Eilenberg--Mac Lane space]]
 [[!redirects Eilenberg?Mac Lane space]]
 [[!redirects Eilenberg-MacLane spaces]]
