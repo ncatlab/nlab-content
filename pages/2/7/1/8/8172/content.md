@@ -167,6 +167,53 @@ $$
 
 where the diagonal maps are the images of the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one.
 
+The idea now is to compute the [[homotopy groups]] of $X$ from the decomposed information in this diagram as follows:
+
+* by construction the homotopy groups $\pi_\bullet(K_s)$ are known;
+
+* so we identify an element $\sigma \in \pi_\bullet(X)$ from each element $f_s(\sigma_s) \in \pi_\bullet(K_s)$ which is in the image of an element $\sigma_s \in \pi_\bullet(X_s)$ of the map 
+
+  $$
+    \pi_\bullet(X_s) \to \pi_\bullet(K_s)
+    \;
+  $$
+
+* by [[exact sequence|exactness]], an element in this image is in the [[kernel]] of
+
+  $$
+   \array{
+      \pi_\bullet(X_{s+1})
+      \\
+      & \nwarrow
+      \\
+      && \pi_\bullet(K_s)
+   }
+   \,
+  $$
+
+  hence that its image $\kappa_{s+1}$ along this map vanishes,
+  and hence in particular that it is in the kernel of
+
+  $$
+   \array{
+      \pi_\bullet(X_{s+1})
+      &
+       \stackrel{
+         \pi_\bullet(f_{s+1})
+       }{
+         \longrightarrow
+       }
+      &
+      \pi_\bullet(K_{s+1})
+      \\
+      & \nwarrow
+      \\
+       && \pi_\bullet(K_s)
+   }
+   \,;
+  $$
+
+* if indeed $\pi_\bullet(f_{s+1})(\kappa_{s+1}) = 0$ then again by [[exact sequence|exactness]] it came from an element $\sigma_{n+2} \in \pi_\bullet(X_{n+2})$.
 
 
 ## Definition
