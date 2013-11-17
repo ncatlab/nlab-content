@@ -103,12 +103,12 @@ for any map $f: a \to b$ and predicates $q \in \hom(a, c)$, $r \in \hom(b, c)$.
 Meanwhile, recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
 
 +-- {: .un_prop}
-######Proposition{#FL to FR}
+###### Proposition{#FL to FR}
 Frobenius reciprocity holds in each hyperdoctrine $\hom_B(i-, c)$ associated with a bicategory of relations. 
 =-- 
 
 +-- {: .proof}
-######Proof (sketch)
+###### Proof (sketch)
 One first proves that a bicategory of relations is a compact closed bicategory in which each object $b$ is self-dual. The unit here is given by 
 
 $$\eta_b = (1 \stackrel{\varepsilon^\dagger}{\to} b \stackrel{\delta}{\to} b \otimes b)$$ 
@@ -129,12 +129,12 @@ but in fact this is just a special case of the more general modular law, which h
 Thus, in this instance, _Frobenius reciprocity follows from the Frobenius laws_. 
 
 +-- {: .un_prop} 
-######Proposition{#FR to FL}
+###### Proposition{#FR to FL}
 In a locally posetal cartesian bicategory, the Frobenius laws follow from Frobenius reciprocity. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 Again, Frobenius reciprocity in a (locally posetal) cartesian bicategory $B$ means that for any map $f: a \to b$ and any two relations $q \in B(a, c)$, $r \in B(b, c)$, the canonical inclusion 
 $$(q \wedge r f)f^\dagger \leq q f^\dagger \wedge r$$ 
 is an equality. One (and therefore both) of the Frobenius laws will follow by taking the following choices for $f$, $q$, and $r$: 
