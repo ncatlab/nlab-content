@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
@@ -100,9 +100,11 @@ Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most fam
 
 ## Generalizations
 
-The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
+The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in $L_{whe}$[[Top]]. See at _[[Eilenberg-MacLane object]]_.
 
 ## Related concepts
+
+* [[generalized Eilenberg-MacLane space]]
 
 * [[Kan-Thurston theorem]]
 
