@@ -27,6 +27,148 @@ Working with the Adams spectral sequence tends to be fairly involved, as is clea
 
 A neat conceptual picture of what happens in the Adams spectral sequence has emerged long after its conception with the arrival of [[higher algebra]] in [[stable (infinity,1)-category|stable infinity-category theory]]. A nice, brief, illuminating modern (and funny) account of this is in ([Wilson 13](#Wilson13)), further details are in ([Lurie 10](#Lurie10)).
 
+
+## Motivation from Hurewicz theorem and Serre's spectral sequence
+ {#MotivationFromHurewiczTheoremAndSerreSpectralSequence}
+
+The Adams spectral sequence may be motivated from the strategy to 
+compute [[homotopy groups]] from [[cohomology groups]] by subsequently applying the [[Hurewicz theorem]] to compute the lowest-degree non-trivial homotopy group from the corresponding [[cohomology group]], then co-killing that by forming its [[homotopy fiber]], finally applying the [[Serre spectral sequence]] to  identify the next lowest non-trivial cohomology group of that fiber, and then iterating this process. The Adams spectral sequence arises when in this kind of strategy instead of co-killing only the lowest lying [[cohomology group]], one at a time, one co-kills _all_ nontrivial cohomology groups, then forms the corresponding [[homotopy fiber]] and so on.
+
+This was apparently historically the way that [[John Adams]] indeed proceeded from [[Jean-Pierre Serre]]'s approach and this is still a good motivation for the whoe construction, a nice exposition is in  ([Wilson 13, 1.1](#Wilson13)).
+
+We now say this again in more detail.
+
+Given $n \in \mathbb{N}$, consider the probem of computing the [[homotopy groups]] $\pi_k(S^n) \;mod \;2$ of the $n$-[[sphere]] $S^n$. For $k \leq n$ this is clear: first for $k \}lt n$ they all vanish, and second for $k = n$ we have, by the very nature of [[Eilenberg-MacLane spaces]] $K(\mathbb{Z}_2, n)$, that the [[ordinary cohomology]] is
+
+$$
+  H^n(S^n, \mathbb{Z}_2) \simeq [S^n, K(\mathbb{Z}_2,n)] \simeq \pi_n(K(\mathbb{Z}_2,n)) \simeq \mathbb{Z}_2
+$$
+
+so that by the [[Hurewicz theorem]] it follows that also
+
+$$
+  \pi_n(S^n) \;mod\;2 \;\simeq \mathbb{Z}_2
+  \,.
+$$
+
+The [[Hurewicz theorem]] does not say anything beyong the first non-vanishing cohomology group, but so to apply it again we can move up one step in the [[Whitehead tower]] of $S^n$ and hence consider the [[homotopy fiber]]
+
+$$
+  \array{
+     F_1
+     \\
+     \downarrow
+     \\
+     S^n &\stackrel{c_1}{\longrightarrow}& K(\mathbb{Z}_2,n)
+  }
+$$
+
+of the generator $[c_1] = 1 \in \pi_n(S^n) \simeq \mathbb{Z}_2$.
+
+To apply the [[Hurewicz theorem]] to that fiber we need to know its lowest non-trivial [[cohomology group]] again, and this is computed via the [[Serre spectral sequence]] applied to this [[fiber sequence]]. 
+
+From here on the process repeats, and one moves higher through the [[Whitehead tower]] of $S^n$
+
+
+$$
+  \array{
+     \vdots
+     \\
+     \downarrow
+     \\
+     F_1 &\stackrel{c_2}{\longrightarrow}& K(\mathbb{Z}_2, n+1)
+     \\
+     \downarrow
+     \\
+     S^n &\stackrel{c_1}{\longrightarrow}& K(\mathbb{Z}_2,n)
+  }
+  \,.
+$$
+
+The Adams spectral sequence arises from this strategy by co-killing not just the first non-trivial [[cohomology group]] at each stage, but _all_ nontrivial cohomology groups at a given stage.
+
+This is done in [[stable homotopy theory]], so let now $X$ be a [[spectrum]] (for instance the [[sphere spectrum]] $X = \mathbb{S}$ if we still with the computation of the [[stable homotopy groups of spheres]]). Write $H \mathbb{F}_2$ for the [[Eilenberg-MacLane spectrum]] for [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}_2$, so that an element in [[cohomology]]
+
+$$
+  [c] \in H^n(X) 
+$$
+
+is represented by the [[homotopy class]] of a [[homomorphism]] of [[spectra]] of the form
+
+$$
+  c \;\colon\;  X \longrightarrow \Sigma^n H\mathbb{F}_2
+$$
+
+(a [[cocycle]]), where "$\Sigma$" denotes [[suspension]], as usual.
+
+If $X$ is a [[finite spectrum]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
+
+$$
+  f_0 \coloneqq (c_i)_I \;\; X \longrightarrow K_0 \coloneqq \wedge_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
+$$
+
+into a [[generalized Eilenberg-MacLane spectrum]]. As before, this map classifies its [[homotopy fiber]]
+
+$$
+  \array{
+    F_1
+    \\
+    \downarrow
+    \\
+     X &\stackrel{f_0}{\longrightarrow}& K_0
+  }
+$$
+
+which may be thought of as encoding all information about $X$ beyond its [[cohomology groups]]. Iterating this process gives the corresponding analog of the [[Whitehead tower]], called the _[[Adams resolution]]_ of $X$:
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow
+    \\
+    F_2 &\stackrel{f_2}{\longrightarrow}& K_2
+    \\
+    \downarrow
+    \\
+    F_1 &\stackrel{f_1}{\longrightarrow}& K_1
+    \\
+    \downarrow
+    \\
+     X &\stackrel{f_0}{\longrightarrow}& K_0
+  }
+  \,.
+$$
+
+The Adams spectral sequence is that induced by the [[exact couple]] obtained by applying $\pi_\bullet$ to this [[Adams resolution]].
+
+We now say this more in detail.
+
+The [[long exact sequences of homotopy groups]] for all the [[homotopy fibers]] in this diagram arrange into a diagram of the form
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow & \nwarrow
+    \\
+    \pi_\bullet(F_2) &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& \pi_\bullet(K_2)
+    \\
+    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_2)}}
+    \\
+    \pi_\bullet(F_1) &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& \pi_\bullet(K_1)
+    \\
+    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_1)}}
+    \\
+    \pi_\bullet(X) &\stackrel{\pi_\bullet(f_0)}{\longrightarrow}& \pi_\bullet(K_0)
+  }
+  \,,
+$$
+
+where the diagonal maps are the images of the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one.
+
+
+
 ## Definition
 
 ### Traditional
