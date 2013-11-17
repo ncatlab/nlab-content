@@ -374,7 +374,7 @@ and appears in the [[Adams spectral sequence]].
 
 Sweedler corings are named after [[Moss Sweedler]].
 
-[[!redirects Sweddler corings]]
+[[!redirects Sweedler corings]]
 [[!redirects Sweedler's coring]]
 [[!redirects Sweedler's corings]]
 
