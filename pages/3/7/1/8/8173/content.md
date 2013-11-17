@@ -70,3 +70,5 @@ Reviews include for instance
 * [[Jacob Lurie]], _Localizations and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture30.pdf))
 
 [[!redirects Adams-Novikov spectral sequence]]
+
+[[!redirects Adams-Novikov spectral sequences]]
