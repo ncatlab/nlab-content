@@ -223,6 +223,8 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 
 ## Definition
 
+> under construction
+
 ### Traditional
 
 Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
@@ -284,6 +286,182 @@ $$
 The Adams spectral sequence computes the [[kernels]] of the morphisms on [[homotopy groups]] of this map. 
 
 In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). For the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
+
+## Definition 
+
+### Spectral sequences for homotopy groups of filtered objects
+
+Let $\mathcal{C}$ be a [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category]] such as the [[stable (∞,1)-category of spectra]].
+
++-- {: .num_defn #GeneralizedFilteredObject}
+###### Definition
+
+A _generalized [[filtered object]]_ in $\mathcal{C}$ is
+simply a sequential diagram $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
+
+$$
+  \cdots
+  X_{n+1} \to X_n \to X_{n-1} \to \cdots
+  \,.
+$$
+
+Or rather, the object being filtered is the [[homotopy limit]]
+
+$$
+  X \coloneqq \underset{\leftarrow}{\lim}_n X_n
+$$
+
+and the sequential diagram exhibits the filtering.
+
+=--
+
++-- {: .num_defn #ExactCoupleForFilteredObject}
+###### Definition
+
+For a generalized filtered object $X_\bullet$, def. \ref{GeneralizedFilteredObject}, write 
+
+$$
+  F_n \coloneqq fib(X_n \to X_{n+1})
+$$
+
+for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$ and define an [[exact couple]]
+
+$$
+  \array{
+    && \pi_\bullet(F_\bullet)
+    \\
+    & \swarrow && \nwarrow
+    \\
+    \pi_\bullet(X_\bullet)
+    && 
+       \stackrel{}{\longrightarrow}
+    && 
+    \pi_\bullet(X_\bullet)
+  }
+$$
+
+where the maps are given by the [[long exact sequence of homotopy groups]].
+
+=--
+
++-- {: .num_prop #FiltrationSpectralSequence}
+###### Proposition
+
+If $X_n \simeq 0$ for $n \ggt 0$ and Mittag-Lefler conditions are satisfied (...) then the [[spectral sequence]] induced by the [[exact couple]]
+of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
+
+$$
+  E^{p,q}_1
+  =
+  \pi_{p+q} F_{p-1}
+  \Rightarrow
+  \pi_{p+q} (\underset{\leftarrow}{\lim} X_\bullet) 
+$$
+
+=--
+
+This is due to...
+
+
+### Homotopy groups of totalizations filtered by coskeleta
+ {#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta}
+
++-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
+###### Definition
+
+Given an [[cosimplicial object]] 
+
+$$
+  Y \;\colon\; \Delta  \longrightarrow \mathcal{C}
+$$
+
+its [[totalization]] $Tot Y \simeq \underset{\leftarrow}{\lim}_n Y_n$
+is filtered, def. \ref{GeneralizedFilteredObject} by the 
+totalizations of its [[coskeleton|coskeleta]]
+
+$$
+  Tot Y 
+  \to 
+  \cdots 
+  \to 
+  Tot (cosk_2 Y) 
+  \to
+  Tot (cosk_1 Y) 
+  \to
+  Tot (cosk_0 Y) 
+  \to 0
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The filtration spectral sequence, prop. \ref{FiltrationSpectralSequence},
+applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, has as $E_2$-term the [[cohomology groups]] of the [[Moore complex]] associated with the cosimplicial objecz
+
+$$
+  E_2^{p,q}
+  = 
+  H^p(\pi_q(Tot (cosk_\bullet(Y))))
+  \Rightarrow
+  \pi_{p-q} Tot(Y)
+  \,.
+$$
+
+
+=--
+
+This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
+
+### Canonical cosimplicial resolution of $E_\infty$-algebras
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $S$ be an [[E-∞ ring]] and let $R$ be an [[E-∞ algebra]] over $S$, hence an [[E-∞ ring]] equipped with a [[homomorphism]]
+
+$$
+  S \longrightarrow R
+  \,.
+$$
+
+The _canonical [[cosimplicial object]]_ 
+associated to this (the _[[Sweedler coring]]_) is 
+
+$$
+  R^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
+  \,.
+$$
+
+More generally, for $X$ an $S$-[[∞-module]], the canonical [[cosimplicial object]] is
+
+$$
+  R^{\wedge^{\bullet+1}_S}\wedge_S X \;\colon\; \Delta \to \mathcal{C}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $E$ is such that the self-[[generalized homology]] 
+$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then 
+
+$$
+  \pi_\bullet
+  \left(
+  \right)
+$$
+
+=--
+
+
+
+### The $E$-Adams spectral sequence
 
 ## Properties
 
@@ -363,14 +541,16 @@ A nice review from the modern point of view of [[higher algebra]] is in
 Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  {#Wilson13}
 
-More along these lines is in
+More review along these lines is in
 
 * [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 8, _The Adams Spectral Sequence_, 2010 ([pdf] (http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
   {#Lurie10}
 
 * [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 9, _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
 
+based on 
 
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 
 
