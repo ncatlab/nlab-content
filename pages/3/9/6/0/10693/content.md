@@ -19,8 +19,62 @@
 
 ## Idea
 
-For $p$ a [[prime number]] and $X$ a [[topological space]], 
-an _Adams resolution_ is a [[free resolution]] of the [[cohomology ring]] $H^\bullet(X,\mathbb{Z}_p)$ by a [[chain complex]] of [[free modules]] over the [[Steenrod algebra]] $A_p$. Specifically it is such a resolution of the form
+For $X$ a [[spectrum]] and $E^\bullet$ a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[spectrum]] $E$, then an _$E$-Adams resolution_ of $X$ is a [[diagram]] of the form
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow
+    \\
+    F_2 &\stackrel{f_2}{\longrightarrow}& K_2
+    \\
+    \downarrow
+    \\
+    F_1 &\stackrel{f_1}{\longrightarrow}& K_1
+    \\
+    \downarrow
+    \\
+     X &\stackrel{f_0}{\longrightarrow}& K_0
+  }
+$$
+
+where 
+
+* each $K_i$ is a [[smash product]] of [[suspensions]] of $E$;
+
+* each $F_{n+1} \to F_n \to K_n$ is a [[homotopy fiber sequence]];
+
+* each $f_n$ is a surjection on [[cohomology]].
+
+The original and default case is that where $E = H \mathbb{F}_p$ is an [[Eilenberg-MacLane spectrum]] with mod $p$ [[coefficients]], in which case $E^\bullet$ is [[ordinary cohomology]] with these coefficients.
+In this case the $K_i$ are [[generalized Eilenberg-MacLane spectra]].
+
+The [[long exact sequences of homotopy groups]] for all the [[homotopy fibers]] in this diagram arrange into a diagram of the form
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow & \nwarrow
+    \\
+    \pi_\bullet(F_2) &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& \pi_\bullet(K_2)
+    \\
+    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_2)}}
+    \\
+    \pi_\bullet(F_1) &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& \pi_\bullet(K_1)
+    \\
+    \downarrow & \nwarrow^{\mathrlap{\pi_\bullet(\partial_1)}}
+    \\
+    \pi_\bullet(X) &\stackrel{\pi_\bullet(f_0)}{\longrightarrow}& \pi_\bullet(K_0)
+  }
+  \,,
+$$
+
+where the diagonal maps are the images of the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one. This is an (unrolled) [[exact couple]]. The corresponding [[spectral sequence]] is the [[Adams spectral sequence]] induced by the given Adams resolution.
+
+In the case of $E = H \mathbb{F}_p$, applying [[cohomology]] $H^\bullet(-, \mathbb{F}_p)$ to the original diagram
+yields  a [[free resolution]] of the [[cohomology ring]] $H^\bullet(X,\mathbb{Z}_p)$ by a [[chain complex]] of [[free modules]] over the [[Steenrod algebra]] $A_p$. 
 
 $$
   \array{
@@ -34,8 +88,6 @@ $$
    &\leftarrow&  \cdots  
   }
 $$
-
-where each $K_i$ is a wedge product/[[smash product]] of [[suspensions]] of $E = H \mathbb{Z}/(p)$, the mod $p$ [[Eilenberg-MacLane spectrum]].
 
 The computaton of the [[cohomology]] of $X$ by means of this resolution is given by the [[Adams spectral sequence]].
 
