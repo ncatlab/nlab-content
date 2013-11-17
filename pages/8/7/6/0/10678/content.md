@@ -5,10 +5,9 @@
 
 ## Idea
 
-The [[homotopy theory]] analog of an [[invariant]].
+One says that for instance a [[functor]] on [[spaces]] (e.g. some [[cohomology]]) is "homotopy invariant" if  it does not distinguish between a space $X$ and the space $X \times I$, where $I$ is an [[interval]].
 
-An object invariant under [[homotopy]] or up to coherent [[homotopy]] under an [[infinity-action]].
-
+The term _homotopy invarianr_ may also refer to the refinement of [[invariants]] to [[homotopy theory]], hence to [[homotopy fixed points]].
 
 
 ## Related concepts
