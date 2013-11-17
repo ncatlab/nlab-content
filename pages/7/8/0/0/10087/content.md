@@ -61,6 +61,13 @@ to be the [[Grothendieck group]] of stable fiberwise equivalence classes of sphe
 
 (...)
 
+## Properties
+
+### Adams conjecture
+
+The [[Adams conjecture]] (a theorem) characterizes certain spherical fibrations in the image of the [[J-homomorphism]] as trivial.
+
+
 ## Related concepts
 
 * [[sphere spectrum]]
