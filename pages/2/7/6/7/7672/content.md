@@ -201,7 +201,7 @@ $$
 #### Traditional formulation
  {#ImageOfJTradtionalFormulation}
 
-The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _Adams conjecture_) and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
+The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _[[Adams conjecture]]_) and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -407,8 +407,9 @@ The analysis of the image of $J$ is due to
 * [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968)
  {#Adams66}
 
-* [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971)
+* [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Quillen.pdf))
  {#Quillen71}
+
 
 * [[Dennis Sullivan]], _Genetics of homotopy theory and the Adams conjecture_, Ann. of Math. 100 (1974), 1&#8211;79.
  {#Sullivan74}
@@ -461,8 +462,6 @@ image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit
 
 [[!redirects J-homomorphisms]]
 
-[[!redirects Adams conjecture]]
-[[!redirects Adams' conjecture]]
 
 [[!redirects image of J]]
 [[!redirects image of J-homomorphism]]
