@@ -336,7 +336,7 @@ between the image of the $J$-homomorphism and the $E(1)$-local [[stable homotopy
 
 =--
 
-In this form this appears as ([Lurie 10, theorem 7](#Lurie))
+In this form this appears as ([Lurie 10, theorem 7](#Lurie)). See also ([Behrens 13, section 1](#Behrens13)).
 
 +-- {: .num_cor }
 ###### Corollary
@@ -347,6 +347,16 @@ $$
   \pi_n(\mathbb{S}_{(p)}) \longrightarrow \pi_n(L_{E(1)} \mathbb{S})
   \,.
 $$
+
+=--
+
+
+For review see also ([Lorman 13](#Lorman13)). That $J$ factors through $L_{K(1)}\mathbb{S}$ is in ([Lorman 13, p. 4](#Lorman13))
+
++-- {: .num_remark }
+###### Remark
+
+Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sphere spectrum]].
 
 =--
 
@@ -419,16 +429,29 @@ The details of the proof are surveyed in
  {#RavenelChapter5}
 
 
-Discussion from the point of view of [[chromatic homotopy theory]] is in 
-
-* [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
- {#Lurie}
-
 Other reviews include
 
 * [[Mark Mahowald]], _The Image of J in the EHP Sequence_, Annals of Mathematics   Second Series, Vol. 116, No. ([JSTOR](http://www.jstor.org/stable/2007048))
 
 * [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
+
+
+Discussion from the point of view of [[chromatic homotopy theory]] is in 
+
+* [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
+ {#Lurie}
+
+* [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
+ {#Behrens13}
+
+* Ben Knudsen, _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
+ {#Knudsen13}
+
+
+* [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
+image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
+ {#Lorman13}
+
 
 
 
