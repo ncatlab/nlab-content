@@ -39,6 +39,10 @@ where each $K_i$ is a wedge product/[[smash product]] of [[suspensions]] of $E =
 
 The computaton of the [[cohomology]] of $X$ by means of this resolution is given by the [[Adams spectral sequence]].
 
+## Related concepts
+
+* [[Whitehead tower]]
+
 ## References
 
 Around Chapter 2, def. 2.1.3 of 
