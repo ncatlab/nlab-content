@@ -158,8 +158,14 @@ $$
 $$
 
 
+## Properties
 
-## Descent in terms of coring comodules
+### Relation to ring extensions
+
+Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] Sweedler corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
+
+
+### Descent in terms of coring comodules
  {#DescentIntermsOfCoringModules}
 
 Given a morphism $f : R \to S$ with corresponding Sweedler coring $(C = S \otimes_R S,\Delta,\epsilon)$ as above, the category of [[descent]] data $\mathrm{Desc}(S/R)$ for the categories of right modules along $k$-algebra extension $R\to S$  is precisely the category of right $C$-[[comodule]]s.
@@ -171,7 +177,7 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 * $\sum_i m_i s_i = m$.
 
 
-### In terms of (co)monadic descent {#ComonadicDescent}
+#### In terms of (co)monadic descent {#ComonadicDescent}
 
 This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou?Roubaud theorem]]). We spell this out in detail:
 
@@ -199,7 +205,7 @@ compatible with the monad action. This is precisely a comodule over the Sweedler
 
 
 
-### Geometric interpretation {#GeomInterpretationOfDescent}
+#### Geometric interpretation {#GeomInterpretationOfDescent}
 
 Descent for Sweedler corings is a special case of [[monadic descent|comonadic descent]]. We describe this in detail and relate it by duality to the geometrically more intuitive [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
@@ -337,9 +343,12 @@ obtained this way is the co-action morphism from the above algebraic definition.
 The further cocycle condition on $g$ similarly translates into the condition that $\alpha$ really satisfies the [[comodule]] property.
 
 
-## Properties are related to the ones of the ring extension
+### Relation to generalized cohomology and Adams spectral sequence
 
-Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] Sweedler corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
+Applied to [[E-infinity rings]] the Sweedler coring construction
+yields the [[Hopf algebroids]] of dual [[Steenrod algebras]]
+and appears in the [[Adams spectral sequence]].
+
 
 ## Related concepts
 
@@ -367,3 +376,10 @@ Sweedler corings are named after [[Moss Sweedler]].
 [[!redirects Sweddler corings]]
 [[!redirects Sweedler's coring]]
 [[!redirects Sweedler's corings]]
+
+[[!redirects canonical coring]]
+[[!redirects canonical corings]]
+[[!redirects canonical co-ring]]
+[[!redirects canonical co-rings]]
+
+
