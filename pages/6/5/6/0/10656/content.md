@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,7 +27,18 @@ For the moment see at _[regulator -- Becker-Gottlieb transfer](Beilinson+regulat
 
 ## References
 
+The original article is
+
+* J. Becker, D. Gottlieb, _The transfer map and fiber bundles_ Topology , 14 (1975)
+ {#BeckerGottlieb75}
+
+(which also gives a proof of the [[Adams conjecture]]).
+
+Reviews include
+
 * [[eom]], _[Becker-Gottlieb transfer](http://www.encyclopediaofmath.org/index.php/Becker-Gottlieb_transfer)_
+
+Discussion in the context of [[differential algebraic K-theory]] is in
 
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
  {#BunkeGepner13}
