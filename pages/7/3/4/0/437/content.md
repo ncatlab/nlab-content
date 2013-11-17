@@ -123,3 +123,7 @@ From a path space object may be derived [[loop space object]]s.
 [[!redirects path space objects]]
 [[!redirects cocylinder object]]
 [[!redirects cocylinder objects]]
+
+[[!redirects path fibration]]
+[[!redirects path fibrations]]
+
