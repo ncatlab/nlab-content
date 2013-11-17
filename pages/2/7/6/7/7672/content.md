@@ -201,7 +201,10 @@ $$
 #### Traditional formulation
  {#ImageOfJTradtionalFormulation}
 
-The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] was first conjectured in ([Adams 66](#Adams66)) (since called the _[[Adams conjecture]]_) and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
+
+##### Description of the image
+
+The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] derives from a statement that was first conjectured in ([Adams 66](#Adams66)) -- and since called the _[[Adams conjecture]]_ -- and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -271,8 +274,67 @@ Therefore we have in low degree the following situation
 
 [[!include image of J -- table]]
 
-
 =--
+
+##### Characterization via the Adams operations
+
+(...)
+
+Write $\psi^k$ for the $k$th [[Adams operation]] on [[complex K-theory]].
+
+Let $p$ be a [[prime]]. Consider $k$ coprime to $p$.
+
+
+The [[Adams conjecture]] implies that completed at $p$, the 
+J-homomorphism factors through the [[homotopy fiber]] of $1 - \psi^k$.
+
+proof:
+
+We have a homotopy-commuting diagram
+
+$$
+  \array{
+    B U_p &\stackrel{1 - \psi^k}{\longrightarrow}& B U_p
+    \\
+    \downarrow &\swArrow_\simeq& \downarrow
+    \\
+    \ast &\stackrel{0}{\longrightarrow}& B H_p
+  }
+  \,.
+$$
+
+The [[pasting]] composite with the [[homotopy pullback]] that witnesses the [[homotopy fiber]] of $1 - \psi^k$ induces via the [[universal propery]] of the [[loop space object]] a canonical map $fib(1-\psi^k) \longrightarrow H_p$:
+
+$$
+  \array{
+    fib(1-\psi^k) &\longrightarrow& \ast
+    \\
+    \downarrow &&  \downarrow
+    \\
+    B U_p &\stackrel{1 - \psi^k}{\longrightarrow}& B U_p
+    \\
+    \downarrow &\swArrow_\simeq& \downarrow
+    \\
+    \ast &\stackrel{0}{\longrightarrow}& B H_p
+  }
+  \;\;\;
+  \simeq 
+  \;\;\;
+  \array{
+    fib(1-\psi^k) &\longrightarrow& \ast
+    \\
+    \downarrow &&  \downarrow
+    \\
+    H_p &\stackrel{}{\longrightarrow}& \ast
+    \\
+    \downarrow &\swArrow_\simeq& \downarrow
+    \\
+    \ast &\stackrel{0}{\longrightarrow}& B H_p
+  }   
+  \,.
+$$
+
+
 
 #### Formulation in chromatic homotopy theory
  {#ImageOfJInChromotopy}
@@ -398,14 +460,18 @@ A [[p-adic number|p-adic]] J-homomorphism is described in
 
 The analysis of the image of $J$ is due to 
 
-* [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963)
+* [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-I.pdf))
 
-* [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965)
+* [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
 
-* [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965
+* [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf))
 
-* [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968)
+* [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
  {#Adams66}
+
+
+
+
 
 * [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Quillen.pdf))
  {#Quillen71}
