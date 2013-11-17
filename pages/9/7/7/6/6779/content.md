@@ -78,6 +78,10 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 =--
 
+## Related concepts
+
+* The _[[Adams spectral sequence]]_ is a vast generalization of the computation of [[homotopy groups]] from [[cohomology groups]] via the Hurewicz theorem.
+
 ## References
 
 This appears for instance as theorem 4.32 in 
