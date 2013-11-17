@@ -221,11 +221,9 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 
 
 
-## Definition
+## Traditional definition
 
 > under construction
-
-### Traditional
 
 Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
 has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ $\pi_ast(X) \otimes \mathbb{Z}_p$ and whose $E^2$-page is
@@ -252,46 +250,41 @@ The [[long exact sequence]] induced by this give an [[exact couple]] and the Ada
 
 This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1, def. 2.1.8](#Ravenel)).
 
-### Via cosimplicial spectra 
+## Definition in higher algebra
+ {#DefinitionInHigherAlgebra}
 
-Let $p$ be a [[prime number]]. Write
+We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#Lurie)). We follow the nice exposition in ([Wilson 13](#Wilson13)).
 
-$$
-  R \coloneqq H \mathbb{F}_p
-$$
+First we recall
 
-for the [[Eilenberg-MacLane spectrum]] of the [[field]] $\mathbb{F}_p$. The [[A-∞ algebra]] structure on this induces an [[augmentation|augmented]] [[cosimplicial object|cosimplicial]] [[spectrum]]
+* [Spectral sequences computing homotopy groups of filtered objects](#SpectralSequencesForHomotopyGroupsOfFilteredObjects)
 
-$$
-  \overline{R}^\bullet \;\colon\; k \mapsto R^{\otimes k}
-  \,.
-$$
+for the general case of filtered objects in suitable [[stable (∞,1)-categories]]. Then we consider the specialization of that to the
 
-Write $R^\bullet$ for the underlying [[cosimplicial object]] (here and in the following the overline indicates [[augmentation]]).
+* [Homotopy groups of cosimplicial totalizations filtered by coskeleta](#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta).
 
-For $X$ any other [[spectrum]], [[tensor product|tensoring]] induces the (augmented) cosimplicial spectrum
+Finally we consider specifically the examples of such given by
 
-$$
-  \overline{X}^\bullet \coloneqq X \otimes \overline{R}^\bullet
-  \,.
-$$
+* [Canonical cosimplicial resolutions of E-∞ algebras](#CanonicalCosimplicialResolutionOfEInfinityAlgebras).
 
-Now the [[augmentation]] morphism induces a canonical map from $\overline{X}^{-1}$ into the [[totalization]] of $X^\bullet$
+In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and $S$-[[∞-module]] $X$ a [[spectral sequence]] converging to the [[homotopy groups]] of the $E$-[[Bousfield localization of spectra|localization]] of $X$, and this is
 
-$$
-  \overline{X}^{-1} \longrightarrow Tot X^\bullet
-  \,.
-$$
+* [The E-Adams-Novikov spectral sequence](#TheEAdamsSpectralSequence).
 
-The Adams spectral sequence computes the [[kernels]] of the morphisms on [[homotopy groups]] of this map. 
 
-In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). For the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
+### Spectral sequences computing homotopy groups of filtered objects
+ {#SpectralSequencesForHomotopyGroupsOfFilteredObjects}
 
-## Definition 
+Let thoughout $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
 
-### Spectral sequences for homotopy groups of filtered objects
++-- {: .num_example}
+###### Example
 
-Let $\mathcal{C}$ be a [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category]] such as the [[stable (∞,1)-category of spectra]].
+For instance 
+
+* $\mathcal{C} = Spec$  the [[stable (∞,1)-category of spectra]]. 
+
+=--
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -315,6 +308,9 @@ and the sequential diagram exhibits the filtering.
 
 =--
 
+This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
+
+
 +-- {: .num_defn #ExactCoupleForFilteredObject}
 ###### Definition
 
@@ -324,7 +320,7 @@ $$
   F_n \coloneqq fib(X_n \to X_{n+1})
 $$
 
-for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$ and define an [[exact couple]]
+for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$, and define an [[exact couple]]
 
 $$
   \array{
@@ -340,14 +336,26 @@ $$
   }
 $$
 
-where the maps are given by the [[long exact sequence of homotopy groups]].
+where the maps are given by the [[long exact sequences of homotopy groups]]
+
+$$
+  \cdots
+  \to
+  \pi_\bullet(X_{n+1})
+  \to 
+  \pi_\bullet(F_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(F_n) \to \cdots
+$$
 
 =--
+
+We now have the [[spectral sequence of a filtered stable homotopy type]].
 
 +-- {: .num_prop #FiltrationSpectralSequence}
 ###### Proposition
 
-If $X_n \simeq 0$ for $n \ggt 0$ and Mittag-Lefler conditions are satisfied (...) then the [[spectral sequence]] induced by the [[exact couple]]
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
+
+If $\mathcal{C}$ has [[sequential limits]] and if  $X_n \simeq 0$ for all $n \gt n_0$ then the [[spectral sequence]] induced by the [[exact couple]]
 of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
 
 $$
@@ -360,10 +368,12 @@ $$
 
 =--
 
-This is due to...
+This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in [Wilson 13, theorem 1.2.1](#Wilson13).
+
+For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
 
-### Homotopy groups of totalizations filtered by coskeleta
+### Homotopy groups of cosimplicial totalizations filtered by coskeleta
  {#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta}
 
 +-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
@@ -376,7 +386,7 @@ $$
 $$
 
 its [[totalization]] $Tot Y \simeq \underset{\leftarrow}{\lim}_n Y_n$
-is filtered, def. \ref{GeneralizedFilteredObject} by the 
+is filtered, def. \ref{GeneralizedFilteredObject}, by the 
 totalizations of its [[coskeleton|coskeleta]]
 
 $$
@@ -395,11 +405,11 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #E2PageByMooreComplex}
 ###### Proposition
 
 The filtration spectral sequence, prop. \ref{FiltrationSpectralSequence},
-applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, has as $E_2$-term the [[cohomology groups]] of the [[Moore complex]] associated with the cosimplicial objecz
+applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, has as $E_2$-term the [[cohomology groups]] of the [[Moore complex]] associated with the cosimplicial object
 
 $$
   E_2^{p,q}
@@ -415,53 +425,197 @@ $$
 
 This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
 
+
+
 ### Canonical cosimplicial resolution of $E_\infty$-algebras
+ {#CanonicalCosimplicialResolutionOfEInfinityAlgebras}
+
+We discuss now the special case of coskeletally filtered 
+totalizations coming from the canonical cosimplicial objects
+induced from [[E-∞ algebras]] ("[[Sweedler corings]]").
+
+In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
+
 
 
 +-- {: .num_defn}
 ###### Definition
 
-Let $S$ be an [[E-∞ ring]] and let $R$ be an [[E-∞ algebra]] over $S$, hence an [[E-∞ ring]] equipped with a [[homomorphism]]
+Let $S$ be an [[E-∞ ring]] and let $E$ be an [[E-∞ algebra]] over $S$, hence an [[E-∞ ring]] equipped with a [[homomorphism]]
 
 $$
-  S \longrightarrow R
+  S \longrightarrow E
   \,.
 $$
 
 The _canonical [[cosimplicial object]]_ 
-associated to this (the _[[Sweedler coring]]_) is 
+associated to this (the "$\infty$-[[Sweedler coring]]") is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
 
 $$
-  R^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
+  E^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
   \,.
 $$
 
 More generally, for $X$ an $S$-[[∞-module]], the canonical [[cosimplicial object]] is
 
 $$
-  R^{\wedge^{\bullet+1}_S}\wedge_S X \;\colon\; \Delta \to \mathcal{C}
+  E^{\wedge^{\bullet+1}_S}\wedge_S X \;\colon\; \Delta \to \mathcal{C}
   \,.
 $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #FlatnessCondition}
 ###### Proposition
 
 If $E$ is such that the self-[[generalized homology]] 
-$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then 
+$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
 
 $$
   \pi_\bullet
   \left(
+    E^{\wedge^{n+1}_S}
+    \wedge_S 
+    X
   \right)
+  \simeq
+  E_\bullet(E^{\wedge^n_S})
+  \otimes_{E_\bullet}
+  E_\bullet(X)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This makes $(E_\bullet, E_\bullet(E))$ be the [[Hopf algebroid]]
+formed by the  $E$-[[Steenrod algebra]]. See there for more on this.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The condition in prop. \ref{FlatnessCondition} is
+satisfied for 
+
+* $E = H \mathbb{F}_p$ an [[Eilenberg-MacLane spectrum]] with $mod\;p$ [[coefficients]];
+
+* $E = B P$ the [[Brown-Peterson spectrum]];
+
+* $E = MU$ the [[complex cobordism cohomology theory|complec cobordism spectrum]].
+
+It is NOT satisfied for
+
+* $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integer|integers]] [[coefficients]];
+
+* $E = M S U$.
+
+=--
+
++-- {: .num_remark #ExtGroupsByMooreComplex}
+###### Remark
+
+Under good conditions (...), $\pi_\bullet$ of the canonical [[cosimplicial object]] provides a [[resolution]] of [[comodule]] [[tensor product]] and hence computes the [[Ext]]-groups over the [[Hopf algebroid]]:
+
+$$
+  H^p(\pi_q(Tot(cosk_\bullet(E^{\wedge^{\bullet+1}_S } \wedge_S X))))
+  \simeq
+  Ext^p_{E_\bullet(E)}(\Sigma^q E_\bullet, E_\bullet(X))
+  \,.
+$$
+
+(...)
+
+=--
+
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+There is a canonical map
+
+$$
+  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
+
+
+=--
+
+We consider now condition for this morphism to be an [[equivalence]].
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core or $\pi_0(E)$, def. \ref{CoreOfARing} is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \matbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}_n$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X \stackrel{\simeq}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  \,.
 $$
 
 =--
 
 
+([Bousfield 79](#Bousfield79)).
 
-### The $E$-Adams spectral sequence
+
+### The $E$-Adams-Novikov spectral sequence
+ {#TheEAdamsSpectralSequence}
+
+Summing this up yields the general $E$-Adams(-Novikov) spectral sequence
+
++-- {: .num_cor}
+###### Corollary
+
+Let $E$ a [[connective spectrum|connective]] [[E-∞ ring]] 
+that satisfies the conditions of prop. \ref{SufficientConditionsForTotalizationToBeELocalization}. 
+Then by prop. \ref{FiltrationSpectralSequence} and prop. \ref{SufficientConditionsForTotalizationToBeELocalization} there is a strongly convergent multiplicative
+[[spectral sequence]]
+
+$$
+  E^{p,q}_\bullet \Rightarrow \pi_{q-p} L_{c \pi_0 E} X
+$$
+
+converging to the [[homotopy groups]] of the  $ c \pi_0(E)$-[[Bousfield localization of spectra|localization]] of $X$. If moreover the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ is [[flat module|flat]] as a [[module]] over $E_\bullet$, then, by prop. \ref{E2PageByMooreComplex} and remark \ref{ExtGroupsByMooreComplex}, the $E_2$-term of this spectral sequence is given by the [[Ext]]-groups over the $E$-[[Steenrod algebra|Steenrod]] [[Hopf algebra]].
+
+$$
+  E^{p,q}_\bullet
+  =
+  Ext^p_{E_\bullet(E)}(\Sigma^q E_\bullet, E_\bullet X)
+  \,.
+$$
+
+
+=--
+
 
 ## Properties
 
@@ -499,6 +653,11 @@ The original articles are
 
 * [[Sergei Novikov]], _The methods of algebraic topology from the viewpoint of cobordism theories_, Izv. Akad. Nauk. SSSR. Ser. Mat. 31 (1967), 855&#8211;951 (Russian).
  {#Novikov67}
+
+also
+
+* [[Aldridge Bousfield]],  _The localization of spectra with respect to homology_. Topology. Vol. 18, 1979 pp. 257-281
+ {#Bousfield79}
 
 Convergence is nicely treated at the end of
 
@@ -551,6 +710,7 @@ More review along these lines is in
 based on 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 
 
