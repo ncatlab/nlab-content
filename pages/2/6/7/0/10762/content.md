@@ -36,11 +36,11 @@ $$
 with the delooped [[J-homomorphism]].
 This descends to a map from [[topological K-theory]] to [[spherical fibrations]].
 
-Now for $L$ a [[line bundle]] on some $X$ and for non-vanishing $k \in \mathbb{Z}$, [[John Adams]] observed that the [[spherical fibration]] associated with the difference $L^{\otimes^k} - L \in K O(X)$ has the property that some $k$-fold multiple of it has trivial spherical fibration, hence that there is $N \in \mathbb{N}$ for which
+Now for $L$ a [[line bundle]] on some $X$ and for non-vanishing $k \in \mathbb{Z}$, [[John Adams]] observed that the [[spherical fibration]] associated with the difference $L^{\otimes k} - L \in K O(X)$ has the property that some $k$-fold multiple of it has trivial spherical fibration, hence that there is $N \in \mathbb{N}$ for which
 
 $$
   J\left(
-    \oplus^{k^N} (L^{\otimes K} - L)
+    \oplus^{k^N} (L^{\otimes k} - L)
   \right)
   = 0
   \,.
