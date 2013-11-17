@@ -296,7 +296,7 @@ Many special cases of this for various choices of $F$ and $G$ go by special name
 ### Spectral sequence of a filtered complex
  {#SpectralSequenceOfFilteredComplex}
 
-The fundamental example of a spectral sequence, from which essentially all the other examples arise as special cases, is the _[[spectral sequence of a filtered complex]]_. (See there for details).
+The fundamental example of a spectral sequence, from which essentially all the other examples arise as special cases, is the _[[spectral sequence of a filtered complex]]_. (See there for details). Or more generally in [[stable homotopy theory]]: the [[spectral sequence of a filtered stable homotopy type]].
 
 If a [[cochain complex]] $C^\bullet$ is equipped with a [[filtered object|filtration]] $F^\bullet C^\bullet$, there is an induced filtration $F^\bullet H(C)$ of its [[cohomology groups]], according to which levels of the filtration contain representatives for the various cohomology classes.
 
