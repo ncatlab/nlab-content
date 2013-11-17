@@ -223,6 +223,8 @@ For more see [[counterexamples in algebra]].
   * [[discrete group]]
 
     * [[order of a group]]
+  
+      * [[p-primary group]]
 
     * [[finite group]], [[profinite group]]
 
