@@ -62,3 +62,8 @@ Lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 27 _The periodicity theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture27.pdf))
  {#Lurie10}
+
+Quick lecture notes are in 
+
+* Robb Legg, _The periodicity theorem_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-16-Rob-Legg-periodicity.pdf))
+ {#Legg13}
