@@ -53,6 +53,8 @@ A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \t
 * [[continuous category]]
 * [[locally compact locale]]
 
+* Continuous posets can be generalized to [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+
 
 [[!redirects continuous poset]]
 [[!redirects continuous posets]]
