@@ -49,10 +49,10 @@ This is ([Lurie, prop. 5.5.6.18](#Lurie)).
 We write 
 
 $$
-  \mathbf{\tau_{\leq n}} : C \stackrel{\tau_{\leq n}}{\to} C_{\leq n} \hookrightarrow C
+  \mathbf{\tau}_{\leq n} : C \stackrel{\tau_{\leq n}}{\to} C_{\leq n} \hookrightarrow C
 $$
 
-for the corresponding localization. For $X \in C$, we say that $\mathbf{\tau}_{\leq n} C$ is the **$n$-truncation of $C$**. 
+for the corresponding localization. For $X \in C$, we say that $\mathbf{\tau}_{\leq n} X$ is the **$n$-truncation of $X$**. 
 
 The reflector of the reflective embedding provides morphisms
 
