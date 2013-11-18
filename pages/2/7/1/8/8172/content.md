@@ -656,7 +656,7 @@ The original articles are
 
 also
 
-* [[Aldridge Bousfield]],  _The localization of spectra with respect to homology_. Topology. Vol. 18, 1979 pp. 257-281
+* [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
  {#Bousfield79}
 
 Convergence is nicely treated at the end of
