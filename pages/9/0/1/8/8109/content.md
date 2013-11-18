@@ -120,6 +120,10 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 ## References 
  {#References}
 
+A quick idea is given in section 6 of 
+
+* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
+
 Comprehensive lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
