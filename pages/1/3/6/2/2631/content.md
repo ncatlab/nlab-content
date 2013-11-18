@@ -28,3 +28,5 @@ which effectively says to _factor_ the term into two dimensions, apply $f$ to th
 Generating functions often appear as [[partition functions]].
 
 Sometimes we take the *exponents* on $z$ to be in a rig other than the natural numbers.  For example, we might set $z^a \cdot z^b = z^{\max(a,b)}$ and $(z^a)^b = z^{a+b};$ such a system lets us talk about the [[rig of costs|cost]] of operations done in parallel (max) or sequentially (+).  Similarly, we could take the exponents to be [[binary string]]s when considering instantaneous codes, or [[finite field]] elements when considering structures on a finite collection of objects.
+
+[[[!redirects generating functions]]
