@@ -66,7 +66,7 @@ $$
 +-- {: .num_remark #ActionOfOrthogonalOnSphere}
 ###### Remark
 
-Since the process of [[one-point compactification]] is a [[functor]] on [[proper maps]], hence on [[homeomorphisms]], via def. \ref{SphereAsCompactification}, the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] 
+Since the process of [[one-point compactification]] is a [[functor]] on [[proper maps]], hence on [[homeomorphisms]], via def. \ref{SphereAsCompactification} the $n$-sphere inherits from the canonical [[action]] of the [[orthogonal group]] $O(n)$ on $\mathbb{R}^n$ an [[action]] 
 
 $$
   O(n) \times S^n \longrightarrow S^n
@@ -111,6 +111,7 @@ of remark \ref{ActionOfOrthogonalOnSphere}, which by [[cartesian closed category
 
 $$
   O(n) \longrightarrow Aut_{Top^{\ast/}}(S^n)
+  \,,
 $$
 
 induces a homomorphism of [[∞-groups]] of the form
@@ -133,7 +134,7 @@ $$
 +-- {: .num_remark #OrthogonalActionOnSphereOnHomotopyGroups}
 ###### Remark
 
-By construction, the homomorphism of remark \ref{OrthogonalActionOnSphereOnHomotopyGroups} are compatible with  [[suspension]] in that for all $n \in \mathbb{N}$ the [[diagrams]]
+By construction, the homomorphisms of remark \ref{OrthogonalActionOnSphereOnHomotopyGroups} are compatible with  [[suspension]] in that for all $n \in \mathbb{N}$ the [[diagrams]]
 
 $$
   \array{
@@ -183,13 +184,47 @@ the **J-homomorphism**.
 
 ### Delooped: On classifying spaces and K-theory classes
 
-(...)
++-- {: .num_remark #DeloopedJ}
+###### Remark
+
+Since the mas of def. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
+are [[∞-group]] [[homomorphisms]], there exists their [[delooping]]
+
+$$
+  B J \;\colon\; B O \longrightarrow B GL_1(\mathbb{S}) = B H
+  \,.
+$$
+
+=--
+
+Here $GL_1(\mathbb{S})$ is the [[∞-group of units]] of the [[sphere spectrum]].
+
+This map $B J$ is the [[universal characteristic class]] of stable [[vector bundles]] with values in [[spherical fibrations]]:
+
++-- {: .num_defn #SphereBundleOfVectorBundle}
+###### Definition
+
+For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-point compactification]]. This is a [[spherical fibration]]. Write $\mathbb{S}^V$ for the $X$-[[parameterized spectrum]] which is fiberwise the [[suspension spectrum]] of $S^V$.
+
+=--
+
+It is immediate that:
+
++-- {: .num_prop}
+###### Proposition
+
+For $V \to X$ a [[vector bundle]] classified by a map $X \to B O$, 
+the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow}$, def. \ref{DeloopedJ}.
+
+=--
+
+This construction descends to a map
 
 $$
   KO^0(X) \longrightarrow Sph(X)
 $$
 
-[[topological K-theory]] to [[spherical fibrations]]
+from [[topological K-theory]] to [[spherical fibrations]]
 
 (...)
 
@@ -342,6 +377,11 @@ $$
   \,.
 $$
 
+##### The J-spectrum
+
+The [[J-spectrum]] is a [[spectrum]] whose [[homotopy groups]] are close to being the image of the J-homomorphism.
+
+(...)
 
 
 #### Formulation in chromatic homotopy theory
@@ -446,7 +486,11 @@ The J-homomorphism was introduced in
 
 Lecture notes include
 
+* [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
+
 * [[Akhil Mathew]], _Notes on the J-homomorphism_ ([pdf](http://people.fas.harvard.edu/~amathew/j.pdf))
+
+
 
 Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
