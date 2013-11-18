@@ -47,6 +47,6 @@ for $n \in \mathbb{N}$ and for $\Sigma$ the [[suspension]] functor.
 =--
 
 
-[[!redirecte homological functors]]
+[[!redirects homological functors]]
 [[!redirects homological (∞,1)-functor]]
 [[!redirects homological (∞,1)-functors]]
