@@ -209,7 +209,7 @@ Since the [[J-homomorphism]] maps from something well-understood to something ha
 
 ### Explicit description
 
-The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] derives from a statement that was first conjectured in ([Adams 66](#Adams66)) -- and since called the _[[Adams conjecture]]_ -- and then proven in ([Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)).
+The following characterization of the [[image]] of the J-homomorphism on [[homotopy groups]] derives from a statement that was first conjectured in ([Adams 66](Adams+spectrals+sequence#Adams66)) -- and since called the _[[Adams conjecture]]_ -- and then proven in ([Quillen 71](Adams+spectrals+sequence#Quillen71), [Sullivan 74](Adams+spectrals+sequence#Sullivan74)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -255,9 +255,9 @@ Moreover,
 
 =--
 
-The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). 
-Specifically the identification of $J(\pi_{4n-1}(S O))$ is ([Adams 65a, theorem 3.7](#Adams65a) and the diract summand property is ([Adams 66, theorems 1.1-1.6.](#Adams66)).
-That the image is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). 
+The characterization of the image is due to ([Adams 66](Adams+spectrals+sequence#Adams66), [Quillen 71](Adams+spectrals+sequence#Quillen71), [Sullivan 74](Adams+spectrals+sequence#Sullivan74)). 
+Specifically the identification of $J(\pi_{4n-1}(S O))$ is ([Adams 65a, theorem 3.7](Adams+spectrals+sequence#Adams65a) and the diract summand property is ([Adams 66, theorems 1.1-1.6.](Adams+spectrals+sequence#Adams66)).
+That the image is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](Adams+spectrals+sequence#Switzer75)). 
 
 A modern version of the proof, using methods from [[chromatic homotopy theory]], is surveyed in some detail in ([Lorman 13](#Lorman13)).
 
@@ -290,7 +290,7 @@ Therefore we have in low degree the following situation
 
 The following tables show the [[p-primary components]] of the [[stable homotopy groups of spheres]] for low values, the image of J appears as the bottom row. 
 
-Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration. (These tables are taken from ([Hatcher](#Hatcher)), where in turn were they were generated based on ([Ravenel 86](#Ravenel))
+Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration. (These tables are taken from ([Hatcher](homotopy+groups+of+spheres#Hatcher)), where in turn were they were generated based on ([Ravenel 86](#Ravenel))
 
 +-- {: .num_example #TableOfPPrincipalComponentsInHomotopyGroups}
 ###### Example
@@ -1061,7 +1061,7 @@ $$
 =--
 
 
-([Bousfield 79](#Bousfield79)).
+([Bousfield 79](Bousfield+localization+of+spectra#Bousfield79)).
 
 
 ### The $E$-Adams-Novikov spectral sequence
