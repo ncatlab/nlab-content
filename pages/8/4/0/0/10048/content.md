@@ -57,6 +57,10 @@ is an [[adjoint modality]].
 
 By the [[adjoint functor theorem]] for total categories, a total category is totally distributive if and only if the functor $X$ preserves all limits.  Moreover, for any total category, it is possible to define the functor $W:\mathcal{K} \to [\mathcal{K}^{op},Set]$ which ought to be the left adjoint of $X$.  The elements of $W(A)(K)$ are called **waves** from $K$ to $A$ (just because they are usually denoted by wavy arrows), and as in the case of [[continuous categories]] they form an [[idempotent comonad]] on $\mathcal{K}$ in the [[bicategory]] of [[profunctors]].
 
+## Related pages
+
+* Totally distributive categories are "almost" an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+
 ## References
 
 * R. Rosebrugh and R.J. Wood. *An adjoint characterization of the category of sets*. PAMS, Vol. 122, No. 2, 409&#8211;413, 1994.
