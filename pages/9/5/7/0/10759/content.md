@@ -152,7 +152,7 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func(\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq)
+  Func((\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq), \mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
