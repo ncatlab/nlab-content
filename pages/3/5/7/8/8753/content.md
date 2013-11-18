@@ -182,6 +182,10 @@ If $\mathcal{C} = \mathbf{H}$ is an [[(∞,1)-topos]] then $\mathcal{C}^{\Delta^
 
 If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[internal language]] is [[homotopy type theory]], then the internal language of $\mathcal{C}^{\Delta^{op}}$ is that homotopy type theory equipped with the axioms for a [[linear interval]] object. (...)
 
+### Dold-Kan correspondence
+
+* [[infinity-Dold-Kan correspondence]]
+
 ## Examples
 
 ### Internal category objects
