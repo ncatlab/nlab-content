@@ -35,13 +35,131 @@ to the _$E$-local spectrum_ $L_E X$, with the property that for $Y$ any $E$-acyc
 
 For $E = H \mathbb{Z}_p$ the [[Eilenberg-MacLane spectrum]] of the [[cyclic group]] $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ for some [[prime number]] $p$, this $E$-localization is _[[p-localization]]_. (see for instance [Lurie 10, Examples 7 and 8](#LurieLecture))
 
+## Definition
+
++-- {: .num_defn #AcyclicAndLocal}
+###### Definition
+
+Let $E \in Spec$ be a [[spectrum]]. 
+
+Say that another spectrum
+$X \in Spec$ is an **$E$-acyclic spectrum** if the [[smash product]]
+is [[zero object|zero]], $E \wedge X \simeq 0$.
+
+Say that $X$ is an **$E$-local spectrum** if every [[morphism]]
+$Y \longrightarrow X$ out of an $E$-acyclic spectrum $Y$ is homotopic to the [[zero morphism]]. 
+
+Say that a morphism $f \colon X \to Y$ is an **$E$-equivalence** if it becomes an [[equivalence]] after [[smash product]] with $E$.
+
+=--
+
+(e.g. [Lurie, Lecture 20, example 4](#LurieLecture))
+
++-- {: .num_prop #LocalizationCofiber}
+###### Proposition
+
+For $E$ a [[spectrum]], every other spectrum sits in an essentially unique [[homotopy cofiber sequence]]
+
+$$
+  G_E(X) \to X \to L_E(X)
+  \,,
+$$
+
+where $G_E(X)$ is $E$-acyclic, and $L_E(X)$ is $E$-local, def. \ref{AcyclicAndLocal}.
+
+Here $X \to L_E (X)$ is characterized by two properties
+
+1. $L_E(X)$ is $E$-local;
+
+1. $X \to L_E(X)$ is an $E$-equivalence
+
+according to def. \ref{AcyclicAndLocal}.
+
+=--
+
+(e.g. [Lurie, Lecture 20, example 4](#LurieLecture))
+
++-- {: .num_defn}
+###### Definition
+
+Given $E \in Spec$, 
+the [[natural transformation|natural morphisms]] $X \longrightarrow L_E X$
+in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)-category]] called **Bousfield localization** at $E$.
+
+=--
+
+
 ## Examples
 
-* [[p-localization]]
+### General
+
++-- {: .num_example #EModulesAreELocal}
+###### Example
+
+For $E$ an [[E-∞ ring]], every [[∞-module]] $X$ over $E$ is $E$-local, def. \ref{AcyclicAndLocal}.
+
+=--
+
+(e.g. [Lurie, Lecture 20, example 5](#LurieLecture))
+
++-- {: .num_example}
+###### Example
+
+For $E$ an [[E-∞ algebra]] over an [[E-∞ ring]] $S$ and for $X$ an $S$-[[∞-module]], consider the dual [[Cech nerve]] [[cosimplicial object]]
+
+$$
+  E^{\wedge_S^{\bullet+1}}\wedge_S X \;\colon\; \Delta \longrightarrow Spectra
+  \,.
+$$
+
+By example \ref{EModulesAreELocal} each term is $E$-local, so that the map  to the  [[totalization]]
+
+$$
+  X \longrightarrow \underset{\leftarrow}{\lim} E^{\wedge_S^{\bullet+1}} \wedge_S X
+$$
+
+factors through the $E$-localization of $X$
+
+$$
+  X \longrightarrow 
+  L_E X
+  \longrightarrow
+  \underset{\leftarrow}{\lim} E^{\wedge_S^{\bullet+1}} \wedge_S X
+  \,.
+$$
+
+Under suitable condition the second map here is indeed an [[equivalence]], in which case the [[totalization]] of the dual [[Cech nerve]] exhibits the $E$-localization. This happens for instance in the discussion of the [[Adams spectral sequence]], see the examples given there.
+
+=--
+
+### $p$-Localization
+
++-- {: .num_example}
+###### Example
+
+For $p \in \mathbb{N}$ a [[prime number]], let 
+
+$$
+  E \coloneqq H \mathbb{Z}/p\mathbb{Z}
+$$ 
+
+be the corresponding [[Eilenberg-MacLane spectrum]]. Then a spectrum which corresponds to a [[chain complex]] under the [stable Dold-Kan corespondence](module+spectrum#StableDoldKanCorrespondence) is $E$-local, def. \ref{AcyclicAndLocal}, if that chain complex has [[chain homology]] groups being $\mathbb{Z}[p^{-1}]$-modules.
+
+The $E$-localization of a spectrum in this case is called _[[p-localization]]_.
+
+=--
+
+(e.g. [Lurie, Lecture 20, example 8](#LurieLecture))
+
+
+### Telescopic localization
 
 * [[telescopic localization]]
 
-* [chromatic localization](Morava+E-theory#BousfieldLocalizationAndChromaticFiltration)
+### Chromatic localization
+
+* [[chromatic localization]]
+
 
 ## Related concepts
 
