@@ -1,5 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 > This entry explains the [[J-homomorphism]], states how its image is the first ([[chromatic layer|chromatic]]) layer of the [[sphere spectrum]]; and then  motivated by this explains some basic notions of [[chromatic homotopy theory]], notably the origin of the general $E$-[[Adams spectral sequence]].
+
+
 
 #Contents#
 * table of contents
@@ -7,6 +23,8 @@
 
 
 ## **I)** The J-homomorphism
+
+The _[[J-homomorphism]]_ is a map from the [[homotopy groups]] of the [[stable orthogonal group]] (which are completely understood) to the [[stable homotopy groups of spheres]] (which in their totality are hard to compute). 
 
 ### On groups
  {#OnGroups}
@@ -138,7 +156,7 @@ $$
 
 from the [[homotopy groups]] of the [[stable orthogonal group]]
 to the [[stable homotopy groups of spheres]]. This is called
-the **J-homomorphism**.
+the **[[J-homomorphism]]**.
 
 =--
 
@@ -148,7 +166,7 @@ the **J-homomorphism**.
 +-- {: .num_remark #DeloopedJ}
 ###### Remark
 
-Since the mas of def. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
+Since the maps of def. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
 are [[∞-group]] [[homomorphisms]], there exists their [[delooping]]
 
 $$
@@ -158,14 +176,19 @@ $$
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
 Here $GL_1(\mathbb{S})$ is the [[∞-group of units]] of the [[sphere spectrum]].
+
+=--
 
 This map $B J$ is the [[universal characteristic class]] of stable [[vector bundles]] with values in [[spherical fibrations]]:
 
 +-- {: .num_defn #SphereBundleOfVectorBundle}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-point compactification]]. This is a [[spherical fibration]]. Write $\mathbb{S}^V$ for the $X$-[[parameterized spectrum]] which is fiberwise the [[suspension spectrum]] of $S^V$.
+For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-point compactification]]. This is a [[sphere bundle]], a [[spherical fibration]]. Write $\mathbb{S}^V$ for the $X$-[[parameterized spectrum]] which is fiberwise the [[suspension spectrum]] of $S^V$.
 
 =--
 
@@ -175,13 +198,14 @@ It is immediate that:
 ###### Proposition
 
 For $V \to X$ a [[vector bundle]] classified by a map $X \to B O$, 
-the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow}$, def. \ref{DeloopedJ}.
+the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow} B GL_1(\mathbb{S})$, def. \ref{DeloopedJ}.
 
 =--
 
 
 ## **II)** The image of the J-homomorphism
 
+Since the [[J-homomorphism]] maps from something well-understood to something hard to understand, it is of interst to characterize its [[image]], "the [[image of J]]".
 
 ### Explicit description
 
@@ -237,8 +261,8 @@ That the image is a direct summand of the codomain is proven for instance in ([S
 
 A modern version of the proof, using methods from [[chromatic homotopy theory]], is surveyed in some detail in ([Lorman 13](#Lorman13)).
 
-The statement of the theorem is recalled for instance as ([Ravenel, chapter 1, theorem 1.1.13](#RavenelCh1)). 
-Another computation of the image of $J$ is in ([Ravenel, chapter 5, section 3](#RavenelChapter5)).
+The statement of the theorem is recalled for instance as ([Ravenel, chapter 1, theorem 1.1.13](#Ravenel)). 
+Another computation of the image of $J$ is in ([Ravenel, chapter 5, section 3](#Ravenel)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -252,7 +276,7 @@ is for low $k$ given by the following table
 
 =--
 
-See for instance ([Ravenel, Chapt. 1,  p. 5](#RavenelCh1)).
+See for instance ([Ravenel, Chapt. 1,  p. 5](#Ravenel)).
 
 
 +-- {: .num_remark}
@@ -266,10 +290,10 @@ Therefore we have in low degree the following situation
 
 The following tables show the [[p-primary components]] of the [[stable homotopy groups of spheres]] for low values, the image of J appears as the bottom row. 
 
-Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration.
+Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$. The appearance of a string of $k$ connected dots vertically above index $n$ means that there is a [[direct sum|direct summand]] [[primary group]] of [[order of a group|order]] $p^k$. See example \ref{InterpretTable} below for illustration. (These tables are taken from ([Hatcher](#Hatcher)), where in turn were they were generated based on ([Ravenel 86](#Ravenel))
 
-(The tables are taken from ([Hatcher](#Hatcher)), where in turn were they were generated based on ([Ravenel 86](#RavenelCh1)).
-
++-- {: .num_example #TableOfPPrincipalComponentsInHomotopyGroups}
+###### Example
 
 **at $p = 2$**
 
@@ -284,6 +308,8 @@ Here the horizontal index is the degree $n$ of the stable homotopy group $\pi_n$
 
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" />
 
+=--
+
 +-- {: .num_example #InterpretTable}
 ###### Example
 
@@ -297,7 +323,7 @@ The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{24}$ decompos
 
 ### Chromatic formulation
 
-The above tables suggest that the image of the J-homomorphism is 
+The above tables, example \ref{TableOfPPrincipalComponentsInHomotopyGroups}, suggest that the [[image of the J-homomorphism]] is 
 in some sense the "lowest order layer" of the [[stable homotopy groups of spheres]]. This is made precise by the following characterization of the image in [[stable homotopy theory]]. We bluntly state this here and give all the relevant definitions [below](#ELocalStableHomotopyTheory).
 
 $\,$
@@ -319,7 +345,7 @@ $$
        \\
        \mathbb{Q}_p/\mathbb{Z}_p & if\; n= -2
        \\
-       \mathbb{Z}/p^{k+1}\mathbb{Z} & if\; n+1 = (p-1)p^k m \;with\; m \neq 0\;mod\;p
+       \mathbb{Z}_{p^{k+1}} & if\; n+1 = (p-1)p^k m \;with\; m \neq 0\;mod\;p
         \\
         0 & otherwise
     }
@@ -387,10 +413,12 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 ## **III)** $E$-Local stable homotopy theory
  {#ELocalStableHomotopyTheory}
 
+To say what all this means, we recall now [[Bousfield localization of spectra]] and then indicate the tower of localizations at the [[Morava E-theory]] spectra,  the "[[chromatic filtration]]".
 
 ### Bousfield localization of spectra
 
-_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] or else to its presentation by  [[Bousfield localization of model categories|Bousfield localization]] of the [[stable model category]] of [[spectra]]. 
+
+_[[Bousfield localization of spectra]]_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] or else to its presentation by  [[Bousfield localization of model categories|Bousfield localization]] of the [[stable model category]] of [[spectra]]. 
 
 Specifically, for $E \in Spec$ a [[spectrum]], the _Bousfield localization at $E$_ of another [[spectrum]] $X$ is the [[universal property|universal map]]
 
@@ -402,9 +430,10 @@ to the _$E$-local spectrum_ $L_E X$, with the property that for $Y$ any $E$-acyc
 
 For $E = H \mathbb{Z}_p$ the [[Eilenberg-MacLane spectrum]] of the [[cyclic group]] $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ for some [[prime number]] $p$, this $E$-localization is _[[p-localization]]_. (see for instance [Lurie 10, Examples 7 and 8](#LurieLecture))
 
-Example:
++-- {: .num_example}
+###### Example
 
-For $p$ a [[prime number]], a **$p$-local** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
+For $p$ a [[prime number]], a **[[p-local]]** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
 
 * admit the [[structure]] of [[modules]] over the $p$-[[localization of a ring|localized ring]] of [[integers]]  $\mathbb{Z}[p^{-1}]$;
 
@@ -416,6 +445,8 @@ The _$p$-localization_ is the [[localization]] that makes the $p$-local homotopy
 
 Specifically for [[spectra]] this is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_p$ for the [[cyclic group]].
 
+=--
+
 ### Chromatic layers
 
 Choose
@@ -424,13 +455,36 @@ Choose
 
 * $f$ be a [[formal group]] of [[height of a formal group|height]] $n$ over $k$.
 
-Write
+
++-- {: .num_defn}
+###### Definition
+
+Write $W(k)$ for the [[ring of Witt vectors]]. Write 
 
 $$
   R \coloneqq W(k)[ [ v_1, \cdots, v_{n-1} ] ]
 $$
 
-for the [[Lubin-Tate ring]] of $f$, classifying its universal deformation.
+for the ring of [[formal power series]] over this ring, in $n-1$ [[variables]]; called the _[[Lubin-Tate ring]]_.
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[Lubin-Tate formal group]] $\overline{f}$ is the [[universal property|universal]] deformation of $f$ in that for every [[infinitesimal object|infinitesimal thickening]] $A$ of $k$, $\overline{f}$ induces a [[bijection]]
+
+$$
+  Hom_{/k}(R,A) \stackrel{\simeq}{\longrightarrow} Def(A)
+$$
+
+between the $k$-[[associative algebra|algebra]]-[[homomorphisms]] from $R$ into $A$ and the [[deformations]] of $A$.
+
+=--
+
+(e.g. [Lurie 10, lect 21, theorem 5](#LurieLecture))
+
 
 By the discussion there, this is [[Landweber exactness|Landweber exact]], hence defines a [[cohomology theory]]. Therefore by the [[Landweber exact functor theorem]] there is an [[even periodic cohomology theory]] $E(n)^\bullet$ [[Brown representability theorem|represented by]] a [[spectrum]] $E(n)$ with the property that its [[homotopy groups]] are
 
@@ -440,9 +494,9 @@ $$
   W(k)[ [v_1, \cdots, v_{n-1} ] ] [ \beta^{\pm 1} ]
 $$
 
-for $\beta$ of degree 2. This is called alternatively $n$th _Morava E-theory_, or _[[Lubin-Tate theory]]_ or _[[Johnson-Wilson theory]]_.
+for $\beta$ of degree 2. This is called alternatively $n$th _[[Morava E-theory]]_, or _[[Lubin-Tate theory]]_ or _[[Johnson-Wilson theory]]_.
 
-(e.g. [Lurie, lect 22](#LurieLect22))
+(e.g. [Lurie, lect 22](#LurieLecture))
 
 For each [[prime]] $p \in \mathbb{N}$ and for each [[natural number]]  $n \in \mathbb{N}$ there is a [[Bousfield localization of spectra]]
 
@@ -451,7 +505,7 @@ $$
   \,,
 $$
 
-where $E(n)$ is the $n$th [[Morava E-theory]] (for the given [[prime]] $p$). These arrange into the _chromatic tower_ which for each spectrum $X$ is of the form
+where $E(n)$ is the $n$th [[Morava E-theory]] (for the given [[prime]] $p$). These arrange into the _[[chromatic tower]]_ which for each spectrum $X$ is of the form
 
 $$  
   X \to \cdots \to L_n X \to L_{n-1} X \to \cdots \to L_0 X
@@ -464,13 +518,14 @@ $$
   M_n(X) \coloneqq fib(L_{E(n)}X \longrightarrow L_{E(n-1)}(X))
 $$
 
-is called the $n$th _monochromatic layer_ of $X$.
+is called the $n$th _[[monochromatic layer]]_ of $X$.
 
 
 
 ## **IV)** Adams spectral sequence for $E$-local homotopy groups
 
-We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#LurieHigherAlgebra)). We follow the nice exposition in ([Wilson 13](#Wilson13)).
+Summing up the above, we need a means to compute [[homotopy groups]] of $E$-[[Bousfield localization of spectra|localized]] [[spectra]].
+In ([Lurie, Higher Algebra, section 1.2.2](#LurieHigherAlgebra)) is given a general [[spectral sequence of a filtered stable homotopy type]] which computes homotopy groups of [[spectra]], and in ([Lurie 10, lectures 8 and 9](#LurieLecture)) it is discuss that the [[totalization]] of the [[coskeleton]] filtration on the [[nerve]] of an [[E-∞ algebra]] yields the $E$-localization. Taken together this is just what we need... and this is the general _$E$-[[Adams spectral sequence]]_. We follow the nice exposition in ([Wilson 13](#Wilson13)).
 
 First we recall
 
@@ -489,17 +544,30 @@ In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and 
 * [The E-Adams-Novikov spectral sequence](#TheEAdamsSpectralSequence).
 
 
-### Spectral sequences computing homotopy groups of filtered objects
+### Spectral sequences for homotopy groups of filtered spectra
  {#SpectralSequencesForHomotopyGroupsOfFilteredObjects}
 
-Let thoughout $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
+
+Let throughout $\mathcal{C}$ be a [[stable (∞,1)-category]], $\mathcal{A}$ an [[abelian category]], and $\pi \;\colon\; \mathcal{C}\longrightarrow \mathcal{A}$ a [[homological functor]] on $\mathcal{C}$, i.e., a functor that transforms every [[cofiber sequence]]
+
+$$ X\to Y\to Z\to \Sigma X $$
+
+in $\mathcal{C}$ into a long exact sequence
+
+$$ \dots \to \pi(X)\to \pi(Y)\to \pi(Z)\to \pi(\Sigma X) \to \dots $$
+
+in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 
 +-- {: .num_example}
 ###### Example
 
-For instance 
+* $\mathcal{C}$ is arbitrary, $\mathcal{A}$ is the category of [[abelian groups]] and $\pi$ is taking the 0th [[homotopy group]] $\pi_0 \mathcal{C}(S,-)$ of the [[mapping spectrum]] out of some [[object]] $S\in\mathcal{C}$
 
-* $\mathcal{C} = Spec$  the [[stable (∞,1)-category of spectra]]. 
+* $\mathcal{C}$ is equipped with a [[t-structure]], $\mathcal{A}$ is the [[heart of a stable (∞,1)-category|heart]] of the t-structure, and $\pi$ is the canonical functor.
+
+* $\mathcal{C} = D(\mathcal{A})$ is the [[derived category]] of the abelian category $\mathcal{A}$ and $\pi=H_0$ is the degree-0  [[chain homology]] functor.
+
+* Any of the above with $\mathcal{C}$ and $\mathcal{A}$ replaced by their [[opposite categories]].
 
 =--
 
@@ -511,87 +579,279 @@ simply a sequential diagram $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
 
 $$
   \cdots
-  X_{n+1} \to X_n \to X_{n-1} \to \cdots
+  X_{n-1} \to X_n \to X_{n+1} \to \cdots
   \,.
 $$
-
-Or rather, the object being filtered is the [[homotopy limit]]
-
-$$
-  X \coloneqq \underset{\leftarrow}{\lim}_n X_n
-$$
-
-and the sequential diagram exhibits the filtering.
 
 =--
 
 This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
 
+We will take the view that the object being filtered is the [[homotopy limit]]
 
-+-- {: .num_defn #ExactCoupleForFilteredObject}
+$$
+  X \coloneqq \underset{\leftarrow}{\lim}_n X_n.
+$$
+
+We could also consider the sequential diagram as a filtering of its [[homotopy colimit]], but this is really an equivalent point of view since we can replace $\mathcal{C}$ by $\mathcal{C}^{op}$.
+
+
++-- {: .num_defn #ChainComplexInStableInfinityCategory}
 ###### Definition
 
-For a generalized filtered object $X_\bullet$, def. \ref{GeneralizedFilteredObject}, write 
+A $\mathbb{Z}$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
-  F_n \coloneqq fib(X_n \to X_{n+1})
+  F \;\colon\; (\mathbb{Z}, \leq) \times (\mathbb{Z}, \leq) \longrightarrow \mathcal{C}
 $$
 
-for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$, and define an [[exact couple]]
+such that 
 
-$$
-  \array{
-    && \pi_\bullet(F_\bullet)
-    \\
-    & \swarrow && \nwarrow
-    \\
-    \pi_\bullet(X_\bullet)
-    && 
-       \stackrel{}{\longrightarrow}
-    && 
-    \pi_\bullet(X_\bullet)
-  }
-$$
+1. for each $n \in \mathbb{Z}$, $F(n,n) \simeq 0$ is the [[zero object]];
 
-where the maps are given by the [[long exact sequences of homotopy groups]]
+1. for all $i \leq j \leq k$ the induced [[diagram]]
 
-$$
-  \cdots
-  \to
-  \pi_\bullet(X_{n+1})
-  \to 
-  \pi_\bullet(F_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(F_n) \to \cdots
-$$
+   $$
+     \array{
+        F(i,j) &\longrightarrow& F(i,k)
+        \\
+        \downarrow && \downarrow
+        \\
+        F(j,j) &\longrightarrow& F(j,k)
+     }
+   $$
+
+   is a [[homotopy pushout]] square.
 
 =--
 
-We now have the [[spectral sequence of a filtered stable homotopy type]].
+([[Higher Algebra|Higher Algebra, def. 1.2.2.2]])
+
+
++-- {: .num_remark}
+###### Remark
+
+There is a dual notion with [[homotopy pushouts]] replaced by [[homotopy pullbacks]]]. In the following we are freely switching between the two dual pictures...
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Given a chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
+setting
+
+$$
+  C_n \coloneqq \Sigma^{-n} F(n-1,n)
+$$
+
+and defining a [[differential]] induced from the [[connecting homomorphisms]] of the defining [[homotopy cofiber sequences]]
+
+$$
+  F(n-1,n) \to F(n-1, n+1) \to F(n,n+1)
+$$
+
+yields an ordinary [[chain complex]] $C_\bullet$ in the [[homotopy category of an (∞,1)-category|homotopy category]].
+
+=--
+
+([[Higher Algebra|Higher Algebra, remark 1.2.2.3]])
+
+
++-- {: .num_prop #ChainComplexesFromFilteredObjects}
+###### Proposition
+
+Consider the inclusion of [[posets]]
+
+$$
+  (\mathbb{Z}, \leq)
+  \to 
+  (\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+$$
+
+given by
+
+$$
+  n \mapsto (- \infty, n)
+  \,.
+$$
+
+The induced [[(∞,1)-functor]]
+
+$$
+  Func(\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+  \longrightarrow
+  Func((\mathbb{Z}, \leq), \mathcal{C})
+$$
+
+restricts to an [[equivalence of (∞,1)-categories]] on the chain complexes in $\mathcal{C}$, def. \ref{ChainComplexInStableInfinityCategory}.
+
+
+=--
+
+([[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]).
+
++-- {: .num_remark }
+###### Remark
+
+So under the equivalence of prop. \ref{ChainComplexesFromFilteredObjects} a filtered object
+
+$$
+   \cdots \to X_{n+1} \to X_n \to X_{n-1} \to \cdots \to X
+$$
+
+is identified with the chain complex in the sense of def. \ref{ChainComplexInStableInfinityCategory} which assigns [[homotopy cofibers]]
+
+$$
+   \array{
+     X(-\infty,n) &\stackrel{f_n}{\longrightarrow}& X(-\infty,n+1)
+     \\
+     \downarrow && \downarrow
+    \\
+     0 &\longrightarrow& X(n,n+1)
+  }
+  \;\;
+   = 
+  \;\;
+  \array{
+     X_{n} &\stackrel{f_n}{\longrightarrow}& X_{n+1}
+     \\
+     \downarrow && \downarrow
+    \\
+     0 &\longrightarrow& cofib(f_n)
+  }
+  \,.
+$$
+
+(...)
+
+=--
+
+
++-- {: .num_defn }
+###### Definition
+
+Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding complex, according to prop. \ref{ChainComplexesFromFilteredObjects}. 
+
+Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
+
+$$
+  \cdots \to 
+  \pi_n X(i,j) 
+  \to 
+  \pi_n X(i,k)
+  \to 
+  \pi_n X(j,k)
+  \to
+  \pi_{n-1}X(i,j)
+  \to \cdots
+  \,.
+$$
+
+Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object
+
+$$
+  E^{p,q}_r 
+  \coloneqq
+  im
+  \left(
+    \pi_{p+q} X(p-r,p)
+    \to
+    \pi_{p+q} X(p-1, p+r-1)
+  \right)
+  \;\;
+  \in \mathcal{A}
+$$
+
+and define a [[differential]]
+
+$$
+  d_r \;\colon\; E^{p,q}_r \to E^{p-r, q+r-1}
+$$
+
+to be the unique lift if the above [[connecting homomorphisms]] to these [[images]]. 
+
+
+
+=--
+
+
+([[Higher Algebra|Higher Algebra, construction 1.2.2.6]])
+
+This is the _[[spectral sequence of a filtered stable homotopy type]]_.
+
+
++-- {: .num_prop}
+###### Proposition
+
+This is a bigraded [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+
+$$ E_1^{p,q} = \pi_p(F_q), \qquad d_r: E_r^{p,q}\to E_r^{p-1,q-r}. $$
+
+=--
+
+([[Higher Algebra|Higher Algebra, prop. 1.2.2.7]])
+
+If [[sequential limits]] and [[sequential colimits]] exist in $\mathcal{A}$, we can form the limiting term $E_\infty^{*,*}$ of this spectral sequence.
+
+On the other hand, the [[graded object]] $\pi_\bullet (X)$ admits a [[filtered object|filtration]] by
+
+$$ F^q \pi_p (X) = \operatorname{ker}(\pi_p (X)\to \pi_p(X_q)) $$
+
+and we would like to compare $E_\infty^{*,*}$ with the [[associated graded]] of this filtration. We say that 
+
++-- {: .num_defn #WeakAndStrongConvergence}
+###### Definition
+
+The spectral sequence **converges weakly** if there is a canonical isomorphism
+
+$$ E_\infty^{p,q} \cong F^q\pi_p(X)/ F^{q-1}\pi_p(X) $$
+
+for every $p,q\in\mathbb{Z}$. 
+
+We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F^\bullet\pi_p(X)$ is complete on both sides.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The meaning of the word *canonical* in def. \ref{WeakAndStrongConvergence} is somewhat subtle since, in general, there is no map from one side to the other. However, there always exists a canonical *[[relation]]* between the two, and we ask that this relation be an isomorphism (see [Hilton-Stammbach, VIII.7](#HiltonStammbach)).
+
+=--
+
 
 +-- {: .num_prop #FiltrationSpectralSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits [[sequential limits]]. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $X=\underset{\leftarrow}{\lim}_n X_n$ exists. Suppose further that:
 
-If $\mathcal{C}$ has [[sequential limits]] and if  $X_n \simeq 0$ for all $n \gt n_0$ then the [[spectral sequence]] induced by the [[exact couple]]
-of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
+1. For every $n$, the diagram $r\mapsto \operatorname{fib}(X_{n-r}\to X_n)$ has a limit in $\mathcal{C}$ and that limit is preserved by $\pi$.
+2. For every $n$, $\pi_n(X_r)=0$ for $r\gg 0$.
+
+Then the [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in $\mathcal{A}$ converges strongly to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filtered object:
 
 $$
   E^{p,q}_1
   =
-  \pi_{p+q} F_{p-1}
+  \pi_{p} F_{q}
   \Rightarrow
-  \pi_{p+q} (\underset{\leftarrow}{\lim} X_\bullet) 
+  \pi_{p} (\underset{\leftarrow}{\lim} X_\bullet) 
 $$
 
 =--
 
-This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in [Wilson 13, theorem 1.2.1](#Wilson13).
+There is also a dual statement in which limits are replaced by colimits, but it is in fact a special case of the proposition with $\pi$ replaced by $\pi^{op}$. A proof of this proposition (in dual form) is given in ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
 
 For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
 
+
+
 ### Homotopy groups of cosimplicial totalizations filtered by coskeleta
  {#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta}
+
 
 +-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
 ###### Definition
@@ -625,7 +885,7 @@ $$
 +-- {: .num_prop #E2PageByMooreComplex}
 ###### Proposition
 
-The filtration spectral sequence, prop. \ref{FiltrationSpectralSequence},
+The [[spectral sequence of a filtered stable homotopy type|filtration spectral sequence]], prop. \ref{FiltrationSpectralSequence},
 applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, has as $E_2$-term the [[cohomology groups]] of the [[Moore complex]] associated with the cosimplicial object
 
 $$
@@ -649,7 +909,7 @@ This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  (
 
 We discuss now the special case of coskeletally filtered 
 totalizations coming from the canonical cosimplicial objects
-induced from [[E-∞ algebras]] ("[[Sweedler corings]]").
+induced from [[E-∞ algebras]] (dual [[nerves]]/"[[Sweedler corings]]").
 
 In this form this appears as ([Lurie 10, theorem 2](#LurieLecture)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
 
@@ -854,20 +1114,24 @@ Recent surveys of the modern picture are in
 
 * [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
 
-  * [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
+and of relevance for the above discussion are particularly the following contributions there
+
+* [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
  {#Behrens13}
 
 
-  * [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
+* [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
 Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  {#Wilson13}
-  * Ben Knudsen, _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
+
+* Ben Knudsen, _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
  {#Knudsen13}
 
-  * [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
+* [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
 image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
  {#Lorman13}
 
 Loads of details for computations in the Adams spectral sequence are in
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+ {#Ravenel}
