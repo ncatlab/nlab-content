@@ -15,6 +15,9 @@ The universal Lubin-Tate deformation ring of a [[formal group]] of [[height of a
 
 Let $k$ be a [[perfect field]] and fix a [[prime number]] $p$.
 
++-- {: .num_defn}
+###### Definition
+
 Write $W(k)$ for the [[ring of Witt vectors]] and 
 
 $$
@@ -22,6 +25,8 @@ $$
 $$
 
 for the ring of [[formal power series]] over this ring, in $n-1$ [[variables]]; called the _Lubin-Tate ring_.
+
+=--
 
 There is a canonical [[morphism]]
 
@@ -40,14 +45,18 @@ This induces (...) for every [[formal group]] $f$ over $k$ a [[deformation]] $\o
 
 ## Lubin-Tate theorem
 
++-- {: .num_theorem}
+###### Theorem
 
-The _Lubin-Tate theorem_ says that the [[Lubin-Tate formal group]] $\overline{f}$ is the [[universal property|universal]] deformation of $f$ in that for every [[infinitesimal object|infinitesimal thickening]] $A$ of $k$, $\overline{f}$ induces a [[bijection]]
+The [[Lubin-Tate formal group]] $\overline{f}$ is the [[universal property|universal]] deformation of $f$ in that for every [[infinitesimal object|infinitesimal thickening]] $A$ of $k$, $\overline{f}$ induces a [[bijection]]
 
 $$
   Hom_{/k}(R,A) \stackrel{\simeq}{\longrightarrow} Def(A)
 $$
 
 between the $k$-[[associative algebra|algebra]]-[[homomorphisms]] from $R$ into $A$ and the [[deformations]] of $A$.
+
+=--
 
 (e.g. [Lurie 10, lect 21, theorem 5](#LurieLecture))
 
