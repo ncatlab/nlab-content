@@ -43,10 +43,14 @@ Lax-idempotent monads are also called **Kock--Z&#246;berlein** or **KZ** monads.
 
 ### Equivalent conditions
 
++-- {: .num_theorem #AlgebraAdjoint}
+###### Theorem
 A 2-monad $T$ as above is lax-idempotent if and only if for any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\theta_a \colon 1 \Rightarrow \eta A \circ a$ such that $(\theta_a ,1_{1_A})$ are the unit and counit of an [[adjunction]] $a \dashv \eta_A$.
+=--
 
 +-- { .proof}
-**Proof** (Adapted from Kelly--Lack).  The multiplication $\mu_A \colon T^2 A \to T A$ is a $T$-algebra on $T A$, and $\eta_A \colon A \to T A$ is a morphism from the underlying object of $a$ to that of $\mu_A$.  So there is a unique $\bar\eta_A \colon \mu_A \circ T \eta_A = 1_{T A} \Rightarrow \eta_A \circ a$ making $\eta_A$ into a lax $T$-morphism.  Set $\theta_a = \bar\eta_A$.  The [[adjunction|triangle equalities]] then require that:
+###### Proof
+**(Adapted from Kelly--Lack)**.  The multiplication $\mu_A \colon T^2 A \to T A$ is a $T$-algebra on $T A$, and $\eta_A \colon A \to T A$ is a morphism from the underlying object of $a$ to that of $\mu_A$.  So there is a unique $\bar\eta_A \colon \mu_A \circ T \eta_A = 1_{T A} \Rightarrow \eta_A \circ a$ making $\eta_A$ into a lax $T$-morphism.  Set $\theta_a = \bar\eta_A$.  The [[adjunction|triangle equalities]] then require that:
 
   1.  $a \bar\eta_A \colon a \Rightarrow a \circ \eta_A \circ a = a$       is equal to $1_a$.  The composite $a \circ \bar\eta_A$ makes $a \circ \eta_A$ a lax $T$-morphism from $a$ to $a$ (paste $\bar\eta_A$ with the identity square $a \circ \mu_A = a \circ T a$).  But $a \circ \eta_A = 1_A$, and $1_a$ also makes this into a lax $T$-morphism, so by uniqueness $a \bar\eta_A = 1_a$.
 
@@ -69,22 +73,45 @@ Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that:
 
 * There is a modification $e \colon \eta T \to T\eta$ such that $e\eta = 1$ and $\mu e = 1$.
 
+## Algebras
+
+Theorem \ref{AlgebraAdjoint} gives a necessary condition for an object $A$ to admit a $T$-algebra structure, namely that $\eta_A : A \to T A$ admit a left adjoint with identity counit.  In the case of pseudo algebras, this necessary condition is also sufficient.
+
++--{:.num_theorem #PseudoAlgebras}
+###### Theorem
+To give a pseudo $T$-algebra structure on an object $A$ is equivalently to give a left adjoint to $\eta_A : A\to T A$ with invertible counit.
+=--
+
+In particular, an object admits at most one pseudo $T$-algebra structure, up to unique isomorphism.  Thus, $T$-algebra structure is [[property-like structure]].
+
+In many cases it is interesting to consider the pseudo $T$-algebras for which the algebra structure $T A \to A$ has a further left adjoint, forming an [[adjoint triple]].  Algebras of this sort are sometimes called [[continuous algebras]].
+
+
 ## Examples
 
-As mentioned above, the standard examples of lax-idempotent 2-monads are those on $Cat$ whose algebras are categories with all colimits of a specified class.  Dually, there are colax-idempotent 2-monads which adjoin limits of a specified class.
+As mentioned above, the standard examples of lax-idempotent 2-monads are those on $Cat$ whose algebras are categories with all colimits of a specified class.  In this case, the 2-monad is a [[free cocompletion]] operation.  Dually, there are colax-idempotent 2-monads which adjoin limits of a specified class.  A converse is given by ([PowerCattaniWinskel](#PowerCattaniWinskel)), who show that a 2-monad is a monad for free cocompletions if and only if it is lax-idempotent and the unit $\eta$ is dense (plus a coherence condition).
 
-A converse is given by Power _et. al._, who show that a 2-monad is a monad for free cocompletions if and only if it is lax-idempotent and the unit $\eta$ is dense (plus a coherence condition).
-
-An important example of a colax-idempotent monad is the monad on $Cat/B$ that takes $p \colon E \to B$ to the projection $B/p \to p$ out of the [[comma category]].  The algebras for this monad are [[Grothendieck fibrations]] over $B$; see also [[fibration in a 2-category]].  The monad $p \mapsto p/B$ is lax-idempotent, and its algebras are opfibrations.
+Another important example of a colax-idempotent monad is the monad on $Cat/B$ that takes $p \colon E \to B$ to the projection $B/p \to p$ out of the [[comma category]].  The algebras for this monad are [[Grothendieck fibrations]] over $B$; see also [[fibration in a 2-category]].  The monad $p \mapsto p/B$ is lax-idempotent, and its algebras are opfibrations.
 
 This latter is actually a special case of a general situation.  If $T$ is a (2-)monad relative to which one can define [[generalized multicategories]], then often it induces a lax-idempotent 2-monad $\tilde{T}$ on the 2-category of such generalized multicategories (aka "virtual $T$-algebras"), such that (pseudo) $\tilde{T}$-algebras are equivalent to (pseudo) $T$-algebras.  When $T$ is the 2-monad whose algebras are strict 2-functors $B\to Cat$ and whose pseudo algebras are pseudofunctors $B\to Cat$, then a virtual $T$-algebra is a category over $B$, and it is a pseudo $\tilde{T}$-algebra just when it is an opfibration.  Similarly, there is a lax-idempotent 2-monad on the 2-category of [[multicategories]] whose pseudo algebras are [[monoidal categories]], and so on.
 
+## Related concepts
+
+* [[2-monad]]
+* [[stuff, structure, property]]
+* [[property-like structure]]
+* [[continuous algebra]]
+* [[free cocompletion]]
 
 ## References
 
 * [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997.
+
 * Kock, _Monads for which structures are adjoint to units_, JPAA 104:41--59, 1995.
+
 * Power--Cattani--Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000.
+ {#PowerCattaniWinskel}
+
 * Marmolejo--Wood, _Kan extensions and lax idempotent pseudomonads_, [TAC](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html) 26, p. 1--29 (2011)
 
 
