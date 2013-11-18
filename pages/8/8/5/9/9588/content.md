@@ -73,7 +73,7 @@ See at _[Snatih-like theorem for Morava E-theory](Snaith+theorem#ForMoravaETheor
 ### Bousfield localization and chromatic filtration
  {#BousfieldLocalizationAndChromaticFiltration}
 
-The [[Bousfield localization of spectra]] $L_{E(n)}$ at $n$th Morava E-theory behaves on [[complex oriented cohomology theories]] like the restriction to the closed substack
+The [[Bousfield localization of spectra]] $L_{E(n)}$ at $n$th Morava E-theory is called _[[chromatic localization]]. It_ behaves on [[complex oriented cohomology theories]] like the restriction to the closed substack
 
 $$
   \mathcal{M}_{FG}^{\leq n+1}
