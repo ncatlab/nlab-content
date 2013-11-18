@@ -147,6 +147,8 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 * [[generalized (Eilenberg-Steenrod) cohomology theory]]
 
+* [[mutliplicative cohomology theory]]
+
 * [[orientation in generalized cohomology]]
 
 * [[complex cobordism cohomology theory]]
