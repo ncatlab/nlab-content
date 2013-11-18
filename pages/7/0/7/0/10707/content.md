@@ -15,6 +15,9 @@ The moduli stack of formal groups $\mathcal{M}_{FG}$ admits a natural [[stratifi
 
 The [[complex oriented cohomology theories]] associated to these [[formal groups]] by the [[Landweber exact functor theorem]] accordingly also inherit such an integer label, called _[[chromatic filtration]]_. Studying this is the topic of [[chromatic homotopy theory]].
 
+[[!include Lurie spectral sequences -- table]]
+
+
 ### Morava stabilizer group
 
 Write $\overline{\mathbb{F}_{\mathrm{p}}}$ for the [[algebraic closure]] of $\mathbb{F}_p$.
@@ -44,3 +47,5 @@ The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 
 
 [[!redirects moduli stacks of formal groups]]
+
+[[!redirects height filtration]]
