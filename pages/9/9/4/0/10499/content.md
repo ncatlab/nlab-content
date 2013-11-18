@@ -27,4 +27,6 @@ Chapters 7 and 8 of
 
 * [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
+* [[Michael Shulman]], _The Propositional Fracture Theorem_, ([blog post](http://golem.ph.utexas.edu/category/2013/05/the_propositional_fracture_the.html))
+
 [[!redirects fracture theorems]]
