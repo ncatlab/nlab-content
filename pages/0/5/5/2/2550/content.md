@@ -443,7 +443,10 @@ The spectrum $MGL$ was used by Voevodsky in his proof of the [[Bloch-Kato conjec
 * [[motive]]
 * [[motivic cohomology]]
 
+* [[slice spectral sequence]]
+
 * [[B1-homotopy theory]]
+
 * There is an analog of $\mathbb{A}^1$-homotopy theory for other geometries. The extra left adjoint on a [[cohesive (infinity,1)-topos]] may realize the localization at an abstract [[continuum]] [[line object]]. See at _[[cohesion]]_ for more details.
 
 
