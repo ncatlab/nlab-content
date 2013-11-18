@@ -49,6 +49,11 @@ Discussion of the first chromatic layer of the [[sphere spectrum]]
 is due to ([Miller-Ravenel-Wilson 77](#MillerRavenelWilson77)). Review is in ([Knudsen 13](#Knudsen13)). This is the [[image of the J-homomorphism]].
 
 
+## Related concepts
+
+* [[chromatic convergence theorem]]
+
+* [[smash product theorem]]
 
 ## References
 
