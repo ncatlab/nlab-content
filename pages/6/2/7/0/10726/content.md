@@ -59,6 +59,14 @@ $$
 
 (see at [[smash product theorem]]) it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. This is the topic of [[chromatic homotopy theory]].
 
+## Properties
+
+### Chromatic spectral sequence
+
+The [[spectral sequence of a filtered stable homotopy type]] associated with the chromatic tower (regarded as a [[filtered object in an (infinity,1)-category]]) is the _[[chromatic spectral sequence]]_ ([Wilson 13, section 2.1.2](#Wilson13))
+
+[[!include Lurie spectral sequences -- table]]
+
 
 ## Examples
 
@@ -77,5 +85,9 @@ $$
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
 Lecture 29 _Telescopic vs $E_n$-localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture29.pdf))
 
-[[!redirects chromatic towers]]
+* [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
+Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+ {#Wilson13}
 
+
+[[!redirects chromatic towers]]
