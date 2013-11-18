@@ -37,6 +37,8 @@ Note also that if an [[adjoint functor theorem]] applies (such as if $A$ and $T 
 
 * If $T$ is the [[free cocompletion]] monad under coproducts, then continuous algebras are "locally connected" in a sense: the extra left adjoint $A \to T A$ decomposes every object as a coproduct of connected ones.
 
+* If $T$ is a "filter monad" on topological spaces, which can be regarded as a "presheaf category" type construction with topological spaces thought of as [[generalized multicategories]] (specifically, as [[relational beta-modules]]), then continuous $T$-algebras are called "distributive spaces" in ([Hofmann](#Hofmann)).
+
 ## Characterizations
 
 +--{: .num_theorem #Retract}
@@ -74,5 +76,8 @@ This is proven in ([Kock](#Kock)) in the special case when the base 2-category i
 
 * [[Anders Kock]], "Monads for which structures are adjoint to units", JPAA 104 (1992).
  {#Kock}
+
+* [[Dirk Hofmann]], "Duality for distributive spaces".  Theory Appl. Categ. 28 (3) (2013), 66&#8211;122, [web site](http://sweet.ua.pt/dirk/).
+ {#Hofmann}
 
 [[!redirects continuous algebras]]
