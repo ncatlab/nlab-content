@@ -356,6 +356,10 @@ The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{24}$ decompos
 
 (...)
 
+We indicate how the [[Adams conjecture]]/Adams-Quillen-Sullivan theorem serves to identify the image of the J-homomorphism. We follow the modern account as reviewed in ([Lorman 13](#Lorman13)).
+
+(...)
+
 Write $\psi^k$ for the $k$th [[Adams operation]] on [[complex K-theory]].
 
 Let $p$ be a [[prime]]. Consider $k$ coprime to $p$.
@@ -409,6 +413,9 @@ $$
   }   
   \,.
 $$
+
+(...)
+
 
 ##### The J-spectrum
 
