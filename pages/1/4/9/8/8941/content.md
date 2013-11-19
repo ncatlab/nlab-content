@@ -69,5 +69,8 @@ _SAYD modules over Lie-Hopf algebras_, [http://arxiv.org/abs/1108.6101](http://a
 * V. Ulm, _Actions of Hopf algebras in categories of Yetter-Drinfeld modules_, Comm. Alg. __31__:6, 2719-2743
 * D.E. Radford, J. Towber, _Yetter&#8211;Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259&#8211;279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) <a href="http://dx.doi.org/10.1016/0022-4049(93)90114-9">doi</a>
 * Georgia Benkart, Mariana Pereira, Sarah Witherspoon, _Yetter-Drinfeld modules under cocycle twists_, [arxiv/0908.1563](http://arxiv.org/abs/0908.1563)
+* [[Shahn Majid]], Robert Oeckl, _Twisting of quantum differentials and
+the Planck scale Hopf algebra_, Commun. Math. Phys. __205__, 617 &#8211; 655 (1999)
+
 [[!redirects Yetter-Drinfeld module]]
 [[!redirects Yetter-Drinfeld category]]
