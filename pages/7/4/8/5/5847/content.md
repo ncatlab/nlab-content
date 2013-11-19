@@ -23,7 +23,7 @@ A [[space]] $X$ is called **formally &#233;tale** if every [[morphism]] $Y \to X
 (If there exists at least one such infinitesimal extension, it is called a [[formally smooth morphism]]. If there exists at most one such extension, it is called a [[formally unramified morphism]]. The formally &#233;tale morphisms are precisely those that are both formally smooth and formally unramified.)
 
 
-Traditionally this has been considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>. This we discuss in the section 
+Traditionally this has been considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">differential cohesion</a>. This we discuss in the section 
 [General abstract notion](#GeneralAbstractNotion).
 
 ## General abstract notion
@@ -41,7 +41,7 @@ $$
 
 be an [[adjoint triple]] of [[functor]] with $u^*$ a [[full and faithful functor]] that preserves the [[terminal object]]. 
 
-We may think of this as exhibiting <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a> (see there for details, but notice that in the notation used there we have $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$). 
+We may think of this as exhibiting <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">differential cohesion</a> (see there for details, but notice that in the notation used there we have $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$). 
 
 We think of the objects of $\mathbf{H}$ as [[cohesive topos|cohesive space]]s and of the objects of $\mathbf{H}_{th}$ as such cohesive spaces possibly equipped with [[infinitesimal object|infinitesimal extension]]. 
 
@@ -285,7 +285,7 @@ See also the concrete notions of [[formally smooth morphism]] and [[formally unr
 
 ### In differential geometry
 
-The [[category]] [[SmoothMfd]] of [[smooth manifold]]s may naturally be thought of as sitting inside the more general context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This is canonically equipped with a notion of [[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]] exhibited by its inclusion into [[SynthDiff∞Grpd]]. This implies that there is an intrinsic notion of [[formally étale morphism]]s of smooth $\infty$-groupoids in general and of smooth manifolds in particular
+The [[category]] [[SmoothMfd]] of [[smooth manifold]]s may naturally be thought of as sitting inside the more general context of the [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This is canonically equipped with a notion of [[differential cohesion|infinitesimal cohesion]] exhibited by its inclusion into [[SynthDiff∞Grpd]]. This implies that there is an intrinsic notion of [[formally étale morphism]]s of smooth $\infty$-groupoids in general and of smooth manifolds in particular
 
 +-- {: .num_prop}
 ###### Proposition
@@ -295,6 +295,10 @@ A [[smooth function]] is a formally &#233;tale morphism in this sense precisely 
 =--
 
 See <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StructureSheaves">this section</a> for more details.
+
+### In algebraic geometry
+
+* [[formally étale morphism of schemes]]
 
 ### In noncommutative geometry
 
@@ -336,4 +340,3 @@ Formalization and discussion in the context of [[cohesive (∞,1)-toposes]] is i
 
 [[!redirects formally etale map]]
 [[!redirects formally etale maps]]
-
