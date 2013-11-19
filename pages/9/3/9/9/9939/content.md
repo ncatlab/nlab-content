@@ -23,7 +23,9 @@
 
 ## Idea
 
-_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] or else to its presentation by  [[Bousfield localization of model categories|Bousfield localization]] of the [[stable model category]] of [[spectra]]. 
+_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] at the collection of [[morphisms]] which become [[equivalences]] under [[smash product]] with a given [[spectrum]] $E$. Since any such $E$ represents a [[generalized homology theory]], this may also be thought of  _$E$-[[homology localization]]_.
+
+More specifically, if the [[stable (∞,1)-category of spectra]] is [[presentable (infinity,1)-category|presented]] by a ([[stable model category|stable]]) [[model category]], then the [[localization of an (∞,1)-category|∞-categorical localization]] can be presented by the operation of  _[[Bousfield localization of model categories]]_. The original article ([Bousfield 79](#Bousfield79)) essentially considered localization at the level of [[homotopy categories]].
 
 Specifically, for $E \in Spec$ a [[spectrum]], the _Bousfield localization at $E$_ of another [[spectrum]] $X$ is the [[universal property|universal map]]
 
@@ -130,6 +132,8 @@ $$
 
 Under suitable condition the second map here is indeed an [[equivalence]], in which case the [[totalization]] of the dual [[Cech nerve]] exhibits the $E$-localization. This happens for instance in the discussion of the [[Adams spectral sequence]], see the examples given there.
 
+(see also e.g. [Bauer, p. 2](#Bauer))
+
 =--
 
 ### $p$-Localization
@@ -156,6 +160,7 @@ The $E$-localization of a spectrum in this case is called _[[p-localization]]_.
 
 * [[telescopic localization]]
 
+
 ### Chromatic localization
 
 * [[chromatic localization]]
@@ -176,9 +181,18 @@ The original article is
 
 Lecture notes include
 
+* N. Aramian, _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
+
+* [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+ {#Bauer}
+
+Lecture notes in the general context of [[higher algebra]]/[[stable homotopy theory]] include
+
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
  {#LurieLecture}
 
-in section 2.4 of
+See also
+
+section 2.4 of
 
 * Holger Reeker, _On K(1)-local SU-bordism_ ([arXiv:0907.4299](http://arxiv.org/abs/0907.4299))
