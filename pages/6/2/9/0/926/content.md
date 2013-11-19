@@ -560,7 +560,7 @@ reviewed around page 302 in
 
 Discussion for [[homotopy types]] modeled by [[crossed complexes]]/[[strict ∞-groupoids]] is in
 
-* M. Bullejos, E. Faro, and M. A. Garc&#237;a-Munoz, _Postnikov Invariants of Crossed Complexes_, Journal of Algebra Volume 285, Issue 1, 1 March 2005, Pages 238&#8211;291 ([arXiv:math/0409339](arxiv.org/abs/math/0409339)).
+* M. Bullejos, E. Faro, and M. A. Garc&#237;a-Munoz, _Postnikov Invariants of Crossed Complexes_, Journal of Algebra Volume 285, Issue 1, 1 March 2005, Pages 238&#8211;291 ([arXiv:math/0409339](http://arxiv.org/abs/math/0409339)).
  {#BFGM}
 
 and for $n$-[[hypergroupoids]] in the thesis,
