@@ -17,7 +17,7 @@
 
 The [[loop space]] of a [[topological group]] $G$ inherits the structure of a [[group]] under pointwise group multiplication of [[loops]]. This is called a _loop group_ of $G$. 
 
-(Notice that this is a group structure in addition to the [[infinity-group]]-structure of any [[loop space]] under _composition_ of loops).
+(Notice that this is a group structure in addition to the [[infinity-group]]-structure of any [[loop space]] under _composition_ of loops.)
 
 If $G$ is a [[Lie group]], then there is a smooth version of the loop group consisting of [[smooth functions]] $S^1 \to G$. By the discussion at [[manifold structure of mapping spaces]] the collection of such smooth maps is itself an [[infinite-dimensional smooth manifold]] and so the smooth loop group of a Lie group is an [[infinite-dimensional Lie group]]. 
 
