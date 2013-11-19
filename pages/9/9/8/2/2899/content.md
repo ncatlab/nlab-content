@@ -57,7 +57,7 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 
 1. it is
 
-   1. [[formally étale morphism|formally étale]];
+   1. [[formally étale morphism of schemes|formally étale]];
 
    1. [[locally of finite presentation]]
 
