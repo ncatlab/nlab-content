@@ -313,13 +313,14 @@ for every $p,q\in\mathbb{Z}$.
 We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F_\bullet\pi_p(X)$ is complete on both sides, that is:
 
 $$
-\underset{\rightarrow}{\lim}_q \operatorname{ker}(\pi_p (X)\to \pi_p(X_q))
+\underset{\rightarrow}{\lim}_q F_q\pi_p (X)
 \simeq
 \pi_p(X)
 \simeq
-\underset{\leftarrow}{\lim}_q \operatorname{im}(\pi_p (X)\to \pi_p(X_q)).
+\underset{\leftarrow}{\lim}_q F^q\pi_p (X),
 $$
 
+where $F^\bullet$ is the cofiltration.
 
 =--
 
