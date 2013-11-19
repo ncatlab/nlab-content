@@ -179,10 +179,19 @@ In its [[presentable (∞,1)-category|presentation]] as a [[model site]] the &#2
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
 {#ToenVezzosi}.
 
-A discussion in the context of [[structured (∞,1)-topos]]es is in section 4.3 of
+A discussion in the context of [[structured (∞,1)-toposes]] is 
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_
+* [[Jacob Lurie]], section 4.3 of _[[Structured Spaces]]_
 {#Lurie}
+
+* [[Jacob Lurie]], section 3 and 4 of, _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
+
+
+See also
+
+* [[Benjamin Antieau]], [[David Gepner]], _Brauer groups and &#233;tale cohomology in derived algebraic geometry_ ([arXiv:1210.0290](http://arxiv.org/abs/1210.0290))
+ {#AntieauGepner12}
+
 
 [[!redirects étale (∞,1)-site]]
 [[!redirects etale (∞,1)-site]]
