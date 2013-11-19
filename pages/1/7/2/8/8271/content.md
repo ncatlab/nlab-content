@@ -37,7 +37,7 @@ such that
 +-- {: .num_defn }
 ###### Definition
 
-Given a t-strzcture, its _heart_ is the intersection
+Given a t-structure, its _heart_ is the intersection
 
 $$
   \mathcal{D}_{\geq 0} \cap \mathcal{D}_{\leq 0}
@@ -76,17 +76,22 @@ The heart of a stable $(\infty,1)$-category is an [[abelian category]].
 
 If a the heart of a t-structure on a [[stable (∞,1)-category]] with [[sequential limits]] is an [[abelian category]], then the [[spectral sequence of a filtered stable homotopy type]] converges (see there).
 
-
 ## References
 
-For triagulated categories
+Related $n$Lab entries include [[Bridgeland stability]]. 
 
-e.g.
+For triangulated categories
 
-* Arapura, _Triangulated categories and $t$-structures_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf))
+* S. I. Gelfand, [[Yuri Manin]], _Methods of homological algebra_, Nauka 1988, Springer 1998, 2003
 
-* Beilinson, A. , Bernstein, J. and [[Pierre Deligne]], _Faisceaux pervers_ Asterisuqe 100, Volume 1, 1982
+* [[Donu Arapura]], _Triangulated categories and $t$-structures_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/perv2.pdf))
+
+* [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], _Faisceaux pervers_, Asterisque __100__, Volume 1, 1982
  {#BBD82}
+* D. Abramovich, A. Polishchuk, _Sheaves of t-structures and valuative criteria for stable complexes_, J. reine angew. Math. __590__ (2006), 89&#8211;130
+* A. L. Gorodentsev, S. A. Kuleshov, A. N. Rudakov, _t-stabilities and t-structures on triangulated categories_, Izv. Ross. Akad. Nauk Ser. Mat. __68__ (2004), no. 4, 117&#8211;150
+* A. Polishchuk, _Constant families of t-structures on derived categories of coherent sheaves_, Moscow Math. J. __7__ (2007), 109&#8211;134
+* John Collins, [[Alexander Polishchuk]], _Gluing stability conditions_, [arxiv/0902.0323](http://arxiv.org/abs/0902.0323)
 
 For [[stable (∞,1)-categories]]
 
