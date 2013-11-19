@@ -31,7 +31,7 @@ Any [[homological functor]]
 
 $$ \mathcal{C}\to\mathcal{A} $$
 
-from a [[stable (∞,1)-category]] to an [[abelian category]] lifts to a functor
+from a [[stable (∞,1)-category]] to an [[abelian category]] induces a functor
 
 $$ Filt(\mathcal{C}) \to SpSeq(\mathcal{A}) $$
 
@@ -310,7 +310,15 @@ $$ E^\infty_{p,q} \cong F_q\pi_p(X)/ F_{q-1}\pi_p(X) $$
 
 for every $p,q\in\mathbb{Z}$. 
 
-We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F_\bullet\pi_p(X)$ is complete on both sides.
+We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F_\bullet\pi_p(X)$ is complete on both sides, that is:
+
+$$
+\underset{\rightarrow}{\lim}_q \operatorname{ker}(\pi_p (X)\to \pi_p(X_q))
+\simeq
+\pi_p(X)
+\simeq
+\underset{\leftarrow}{\lim}_q \operatorname{im}(\pi_p (X)\to \pi_p(X_q)).
+$$
 
 
 =--
