@@ -33,9 +33,23 @@ spectra.
 
 This may be [[presentable (infinity,1)-category|presented]] by a [[model structure on presheaves of spectra]].
 
+
+
+
+## Examples
+
+* [[generalized étale cohomology]]
+
+* [[differential cohomology]], [[tangent cohesion]]
+
+* [[differential algebraic K-theory]]
+
+
 ## Related concepts
 
 * [[parameterized spectrum]]
+
+
 
 ## References
 
@@ -49,13 +63,19 @@ part II of
 
 A [[model category]] structure of presheaves of spectra akin to the [[model structure on simplicial presheaves]] is discussed in 
 
-* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([pdf](http://cms.math.ca/cjm/v39/cjm1987v39.0733-0747.pdf))
+* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([pdf]
+(http://cms.math.ca/cjm/v39/cjm1987v39.0733-0747.pdf))
+
+Plenty of further discussion is in
+
+* [[Rick Jardine]], _Generalized &#201;tale cohomology theories_, 1997 Progress in mathematics volume 146
+ {#Jardine97} 
+
 
 ### Application to K-theory
 
-section 1.2 of 
 
-* [[Bertrand Toën]], _K-theory and cohomology of algebraic stacks: Riemann-Roch theorems, D-modules and GAGA theorems_ ([arXiv:math/9908097](http://arxiv.org/abs/math/9908097))
+* [[Bertrand Toën]], section 1.2 of _K-theory and cohomology of algebraic stacks: Riemann-Roch theorems, D-modules and GAGA theorems_ ([arXiv:math/9908097](http://arxiv.org/abs/math/9908097))
 
 * Michael Paluch, _Algebraic K-theory and topological spaces_ ([pdf](http://www.math.uiuc.edu/K-theory/0471/alg-top.pdf))
 
@@ -65,4 +85,3 @@ section 1.2 of
 
 [[!redirects presheaf of spectra]]
 [[!redirects presheaves of spectra]]
-
