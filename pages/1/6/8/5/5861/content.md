@@ -1117,7 +1117,7 @@ The $\infty$-category $(\mathbf{H}_{th})_{/X}^{fet}$ is an [[(∞,1)-topos]] and
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{EtalificationIsCoreflection} the inclusion $(\mathbf{H}_{th})_{/X}^{fet} \hookrightarrow (\mathbf{H}_{th})_{/X}$ is [[reflective sub-(infinity,1)-category|reflective]] with reflector given by the $(\mathbf{\Pi}_{inf}-equivalences , \mathbf{Pi}_{inf}-closed)$ factorization system. Since $\mathbf{\Pi}_{inf}$ is a [[right adjoint]] and hence in particular preserves [[(∞,1)-pullbacks]], the $\mathbf{\Pi}_{inf}$-equivalences are stable under pullbacks. By the discussion at _[[stable factorization system]]_ this is the case precisely if the corresponding reflector preserves [[finite (∞,1)-limits]]. Hence the embedding is a [[geometric embedding]] which exhibits a [[sub-(∞,1)-topos]] inclusion.
+By prop. \ref{EtalificationIsCoreflection} the inclusion $(\mathbf{H}_{th})_{/X}^{fet} \hookrightarrow (\mathbf{H}_{th})_{/X}$ is [[reflective sub-(infinity,1)-category|reflective]] with reflector given by the $(\mathbf{\Pi}_{inf}-equivalences , \mathbf{\Pi}_{inf}-closed)$ factorization system. Since $\mathbf{\Pi}_{inf}$ is a [[right adjoint]] and hence in particular preserves [[(∞,1)-pullbacks]], the $\mathbf{\Pi}_{inf}$-equivalences are stable under pullbacks. By the discussion at _[[stable factorization system]]_ this is the case precisely if the corresponding reflector preserves [[finite (∞,1)-limits]]. Hence the embedding is a [[geometric embedding]] which exhibits a [[sub-(∞,1)-topos]] inclusion.
 
 =--
 
@@ -1191,7 +1191,7 @@ $$
     \hookrightarrow 
   (\mathbf{H}_{th})_{/X} 
     \stackrel{\underset{X}{\sum}}{\to}
-  \mathbf{H}
+  \mathbf{H}_{th}
 $$
 
 it preserves [[(∞,1)-limits]]. Therefore this is a [[structure sheaf]] which exhibits $Sh_{\mathbf{H}_{th}}(X)$ as a [[structured (∞,1)-topos]] over $\mathbf{H}_{th}$ regarded as a (large) [[geometry (for structured (∞,1)-toposes)]], with the formally &#233;tale morphisms being the "admissible morphisms".
