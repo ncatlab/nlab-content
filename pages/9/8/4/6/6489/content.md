@@ -57,6 +57,14 @@ A motivating example is the following. Let $X$ be a non-singular, [[algebraic cu
 
 ## References
 
+### Related pre-Bridgeland work
+
+Bridgeland work came out as a way to formalize ideas on $\Pi$-stability in physics works.
+
+* M. R. Douglas, _D-branes, categories and $N=1$
+supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843; 
+_Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
+
 ### General
 
 * [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237); 
