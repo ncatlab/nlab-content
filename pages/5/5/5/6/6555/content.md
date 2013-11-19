@@ -22,7 +22,13 @@
 
 _Ricci flow_ is the [[gradient flow]] of the the [[action functional]] of [[dilaton gravity]]: the [[Einstein-Hilbert action]] coupled to a [[dilaton field]]. 
 
-(Equivalently: it isthe [[renormalization group flow]] of the [[string]] [[sigma-model]] for [[background gauge field|background fields]] containing [[gravity]] and [[dilaton]].)
+(Equivalently: it is the [[renormalization group flow]] of the [[string]] [[sigma-model]] for [[background gauge field|background fields]] containing [[gravity]] and [[dilaton]].)
+
+
+From [Rubinstein-Sinclair](#RubinsteinSinclair):
+
+<img src="http://i.stack.imgur.com/FmUuW.png" alt="" />
+
 
 ## References
 
@@ -40,3 +46,6 @@ A detailed survey is in
 
 * [[Terry Tao]], _Ricci flow as a gradient flow, log-Sobolev inequalities, and Perelman entropy_ ([blog post](http://terrytao.wordpress.com/2008/04/24/285a-lecture-8-ricci-flow-as-a-gradient-flow-log-sobolev-inequalities-and-perelman-entropy/))
 
+
+* J. Hyam Rubinstein and Robert Sinclair. "Visualizing Ricci Flow of Manifolds of Revolution", Experimental Mathematics v. 14 n. 3, pp. 257&#8211;384.
+ {#RubinsteinSinclair}
