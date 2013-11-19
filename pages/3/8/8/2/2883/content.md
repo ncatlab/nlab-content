@@ -17,6 +17,8 @@
 
 _&#201;tale cohomology_ is the [[abelian sheaf cohomology]] for [[sheaf|sheaves]] on the [[étale site]] of a [[scheme]] (which is an analog of the [[category of open subsets]] of a [[topological space]]).
 
+A certain [[inverse limit]] over &#233;tale cohomology groups for different [[coefficients]] yields [[ℓ-adic cohomology]], which is a [[Weil cohomology theory]].
+
 ## History ##
 
 Etale cohomology was conceived by Artin, Deligne, [[Alexander Grothendieck|Grothendieck]] and Verdier in 1963. It was used by Deligne to prove the [[Weil conjecture]]s.
@@ -58,21 +60,33 @@ The classical references include [[SGA]], esp.
 * [[Pierre Deligne]] et al., _Cohomologie &#233;tale_ , Lecture Notes in Mathematics __569__, Springer-Verlag, 1977.
 {#Deligne}
 * [[James Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
-* B. Mazur, _Notes on etale cohomology of number fields_, [pdf](http://modular.math.washington.edu/edu/2010/582e/refs/mazur-notes_on_etale_cohomology_of_number_fields_original.pdf)
+
+* [[Barry Mazur]], _Notes on &#233;tale cohomology of number fields_, [pdf](http://modular.math.washington.edu/edu/2010/582e/refs/mazur-notes_on_etale_cohomology_of_number_fields_original.pdf)
+
 * Thomas H. Geisser, _Weil-etale motivic cohomology_, [K-th archive](http://www.math.illinois.edu/K-theory/0565)
 
 A modern textbook, though largely based on the material in SGA is 
 
 * Lei Fu, _Etale cohomology theory_, Nankai Tracts in Math. __13__, World Sci. 2011; ([toc pdf](http://www.worldscibooks.com/etextbook/7773/7773_toc.pdf); Preface [pdf](http://www.worldscibooks.com/etextbook/7773/7773_preface.pdf); chap. 1 Descent theory [pdf](http://www.worldscibooks.com/etextbook/7773/7773_chap01.pdf)) 
 
-Lecture notes online include 
+A comprehensive set of lecture notes is in
 
-* [[James Milne]], _Lectures on etale cohomology_, [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
-
-* [[Aise Johan de Jong]], _&#201;tale cohomology_, [pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf)
+* [[Aise Johan de Jong]], _&#201;tale cohomology_ 2009, in _[[The Stacks Project]]_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
+
+
+Further lecture notes online include 
+
+* [[James Milne]], _Lectures on &#233;tale cohomology_, [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
+
 
 * Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, [pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf)
 
+Discussion in the context of [[higher topos theory]]/[[higher algebra]] is in 
+
+* [[Benjamin Antieau]], [[David Gepner]], _Brauer groups and &#233;tale cohomology in derived algebraic geometry_ ([arXiv:1210.0290](http://arxiv.org/abs/1210.0290))
+ {#AntieauGepner12}
+
+* [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
 
 [[!redirects étale cohomology]]
