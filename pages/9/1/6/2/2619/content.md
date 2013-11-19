@@ -14,30 +14,52 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimit]]s. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
+Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny** or **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits.
 
 More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
 =--
 
++-- {: .num_remark}
+###### Remark
 
-## Remarks
+Since being an [[epimorphism]] is a "colimit-property" (a morphism is epic iff its [[pushout]] with itself consists of identities), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
 
-* Since being an [[epimorphism]] is a "colimit-property" (a morphism is epic iff its pushout with itself consists of identities), if $e$ is tiny then $E(e,-)$ preserves epimorphisms, which is to say that $e$ is [[projective object|projective]] (with respect to epimorphisms).  This is presumably the origin of the term "small-projective", i.e. the corepresentable functor preserves small colimits instead of just a certain type of finite one.
+=--
 
-* If $E$ is [[cartesian closed category|cartesian closed]] and the inner hom $(-)^e$ has a [[right adjoint]] (and hence preserves all colimits), $e$ is called [[infinitesimal object|atomic]] or [[infinitesimal object|infinitesimal]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide, by the [[adjoint functor theorem]].
++-- {: .num_defn #Atomic} 
+###### Definition
 
+If $E$ is [[cartesian closed category|cartesian closed]] and the 
+[[inner hom]] $(-)^e$ has a [[right adjoint]] (and hence preserves all colimits), $e$ is called **atomic** or [[infinitesimal object|infinitesimal]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $E$ is a [[sheaf topos]], then tiny objects and atomic coincide, by the [[adjoint functor theorem]].
+
+=--
 
 ## Properties
 
 ### General
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of idempotents]] is an [[absolute colimit]] (see also [Kelly, prop. 5.25](#Kelly)).  
 
@@ -46,8 +68,8 @@ Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of 
 ### In presheaf categories
 
 
-+-- {: .num_prop}
-###### Observation
++-- {: .num_example}
+###### Example
 
 In a [[presheaf category]] every [[representable functor|representable]] is a tiny object: 
 
@@ -67,7 +89,7 @@ Thus, in a presheaf category, any [[retract]] of a representable functor is tiny
 +-- {: .num_prop}
 ###### Proposition
 
-The tiny objects in a [[presheaf category]] are precisely the [[retract]]s of [[representable functor]]s.  
+The tiny objects in a [[presheaf category]] are precisely the [[retracts]] of [[representable functor]]s.  
 
 =--
 
@@ -76,16 +98,16 @@ This is for instance ([BorceuxDejean, prop 2](#BorceuxDejean)).
 Thus, if the domain category is [[Cauchy complete category|Cauchy complete]] (has [[split idempotent]]s), then every tiny presheaf is representable; and more generally the Cauchy completion or [[Karoubi envelope]] of a category can be defined to consist of the tiny presheaves on it. See [[Cauchy complete category]] for more on this.
 
 
-In the context of [[topos theory]] we say, for $C$ [[small category]], that an [[adjoint triple]] of [[functor]]s 
+In the context of [[topos theory]] we say, for $C$ [[small category]], that an [[adjoint triple]] of [[functors]] 
 
 $$
   Set \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
   [C,Set]
 $$
 
-is an [[essential geometric morphism]] of [[topos]]es $f : Set \to [C,Set]$; or an **[[point of a topos|essential point]]** of $[C,Set]$.
+is an [[essential geometric morphism]] of [[topos]]es $f : Set \to [C,Set]$; or an **[[point of a topos|essential point]]** of $[C,Set]$. 
 
-By the [[adjoint functor theorem]] this is equivalently simply a single functor $f^* : [C, Set] \to Set$ that preserves all small [[limit]]s and [[colimit]]s. Write
+By the [[adjoint functor theorem]] this is equivalently simply a single functor $f^* : [C, Set] \to Set$ that preserves all small [[limits]] and [[colimits]]. Write
 
 $$
   Topos_{ess}(Set,[C,Set]) 
@@ -151,7 +173,135 @@ The converse inclusion is now immediate by the same arguments: since the objects
 
 =--
 
+### In a local topos
+ {#AtomsInALocalTopos}
+
++-- {: .num_prop #SliceOverAtomicObject}
+###### Proposition
+
+The [[terminal object]] in any [[local topos]] is atomic.
+
+In particular for $\mathbf{H}$ a [[topos]] and $X \in \mathbf{H}$ an object, the [[slice topos]] $\mathbf{H}_{/X}$ is [[local topos|local]] precisely if $X$ is atomic.
+
+=--
+
+This is discuss at [local geometric morphism -- Local over-toposes](local+geometric+morphism#LocalOverTopoes).
+
+
+### In a cohesive topos
+ {#AtomsInACohesiveTopos}
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]]. Write $(\int \dashv \flat \dashv \sharp)$ for its [[adjoint triple]] of [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]].
+Consider the following basic notion from _[[cohesive (∞,1)-topos -- structures]]_.
+
++-- {: .num_defn}
+###### Definition
+
+An [[object]] $X \in \mathbf{H}$ is called _geometrically contractible_ if its [[shape modality|shape]] is [[contractible]], in that $\int X \simeq \ast$.
+
+=--
+
++-- {: .num_prop #InCohesionAtomicObjectIsGeometricallyContractible}
+###### Proposition
+
+Over the [[base (∞,1)-topos]] [[∞Grpd]],
+every atom in a [[cohesive (∞,1)-topos]] is geometrically contractible.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[reflective sub-(∞,1)-category|reflection]] of the [[discrete objects]] it will be sufficient to show that for all [[discrete objects]] $S \in \infty Grpd \hookrightarrow \mathbf{H}$ we have an [[equivalence]]
+
+$$
+  \left[\int X , S\right] \simeq S
+  \,.
+$$
+
+Now notice that, by the discussion at _[∞-tensoring](limit+in+a+quasi-category#Tensoring)_, every [[discrete object]] here is the [[homotopy colimit]] indexed by itself of the [[(∞,1)-functor]] constant on the [[terminal object]]:
+
+$$
+  S \simeq \underset{\rightarrow}{\lim}_S \ast
+  \,. 
+$$
+
+Using this we have
+
+$$
+  \begin{aligned}
+    \left[\int X, S\right]
+    &\simeq
+    \left[
+       X, \flat S
+    \right]
+    \\
+    & \simeq 
+    \left[
+       X, \flat \underset{\rightarrow}{\lim}_S \ast
+    \right]
+    \\
+    & \simeq 
+    \left[
+       X, \underset{\rightarrow}{\lim}_S \flat  \ast
+    \right]
+    \\
+    & \simeq 
+    \underset{\rightarrow}{\lim}_S
+    \left[
+       X, \flat  \ast
+    \right]
+    \\
+    & \simeq 
+    \underset{\rightarrow}{\lim}_S
+    \left[
+       X, \ast
+    \right]
+    \\
+    & \simeq 
+    \underset{\rightarrow}{\lim}_S
+    \ast
+    \\
+    & \simeq 
+    S
+  \end{aligned}
+  \,.
+$$
+
+where we applied, in order of appearance: the $(\int \dashv \flat)$-[[adjunction]], the $\infty$-[[tensoring]], the fact that $\flat$ is also [[left adjoint]] (hence the existence of the [[sharp modality]]), the assumption that $X$ is atomic, then again the fact that $\flat$ is right adjoint, that $\ast$ is the terminal object and finally again the $\infty$-tensoring.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] over [[∞Grpd]] and let $X \in \mathbf{H}$ be an atomic object. Then also the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$ is [[cohesion|cohesive]] over [[∞Grpd]], except that the [[shape modality]] may fail to preserve binary products.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[étale geometric morphism]], the [[slice (∞,1)-topos]] comes with an [[adjoint triple]] of the form
+
+$$
+  \mathbf{H}_{/X}
+   \stackrel{\overset{\sum_X}{\longrightarrow}}{\stackrel{\overset{(-)\times X}{\leftarrow}}{\stackrel{\overset{\prod_X}{\longrightarrow}}{\underset{}{}}}}
+  \mathbf{H}
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{CoDisc}{\leftarrow}}}}
+  \infty Grpd
+  \,.
+$$
+
+The bottom composite $\Gamma\circ \prod_X$
+has an extra right adjoint by prop \ref{SliceOverAtomicObject}. The extra left adjoint $\Pi \circ \sum_X$ preserves the terminal object by prop. \ref{InCohesionAtomicObjectIsGeometricallyContractible}.
+
+
+=--
+
+
 ## Related concepts
+
 
 * [[atom]] (in a [[poset]])
 
