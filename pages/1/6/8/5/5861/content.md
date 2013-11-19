@@ -1252,6 +1252,40 @@ But then by the very nature of $\flat_{dR}\mathbf{B}G$ it follows that the flat 
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+For $X \in \mathbf{H}_{th}$ an object in a differentially cohesive
+$\infty$-topos, then its petit structured $\infty$-topos
+$Sh_{\mathbf{H}_{th}}(X)$, according to def. \ref{TheStructureSheafOfX},
+is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that the composite
+
+$$
+  \infty Grpd \stackrel{Disc}{\longrightarrow} \mathbf{H}_{th}
+   \stackrel{(-) \times X}{\longrightarrow}
+   (\mathbf{H}_{th})_{/X}
+  \stackrel{L}{\lomngrightarrow}
+  Sh_{\mathbf{H}}(X)
+$$
+
+preserves [[(∞,1)-limits]], so that it has a further 
+[[left adjoint]]. Here $L$ is the 
+reflector from prop. \ref{EtalificationIsCoreflection}. 
+Inspection shows that this composite sends an object $A$ to 
+$\mathbf{\Pi}_{ing}(A) \times X \to X$. 
+Since the [[infinitesimal shape modality]] $\mathbf{\Pi}_{inf}$
+is in particular a [[right adjoint]] (with [[left adjoint]] the 
+[[reduction modality]]) the statement follows.
+
+=--
+
 #### Liouville-Poincar&#233; cocycle
  {#PoincareCocycle}
 
@@ -1773,4 +1807,3 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &eacute;tale
 [[!redirects differential cohesive infinity-topos]]
 [[!redirects differential cohesive (infinity,1)-toposes]]
 [[!redirects differential cohesive infinity-toposes]]
-
