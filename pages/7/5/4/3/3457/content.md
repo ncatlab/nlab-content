@@ -59,10 +59,13 @@ An &#233;tale map between [[commutative rings]] is usually called a _[[étale mo
 Zoran: I do not understand this statement. Analytic spaces have a different structure sheaf; in general nilpotent elements are allowed. This is additional structure not present in theory of smooth spaces. 
 =--
 
+### Between toposes
+
+* [[étale geometric morphism]]
 
 ## Axiomatization
 
-The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This idea goes back to lectures by [[André Joyal]] in the 1970. See ([Joyal-Moerdijk 1994](#JoyalMoerdijk)) and ([Dubuc 2000](#Dubuc)).
+The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This idea goes back to lectures by [[André Joyal]] in the 1970s. See ([Joyal-Moerdijk 1994](#JoyalMoerdijk)) and ([Dubuc 2000](#Dubuc)).
 
 ## Related concepts
 
