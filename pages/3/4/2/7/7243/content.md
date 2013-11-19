@@ -44,6 +44,7 @@ The $p$-adic integers have the following properties:
 
 * [[Z-infinity-module]] 
 
+* [[ℓ-adic cohomology]]
 
 [[!redirects p-adic integer]]
 [[!redirects p-adic integers]]
