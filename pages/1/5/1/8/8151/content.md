@@ -22,7 +22,7 @@ The _Leray spectral sequence_ is the special case of the [[Grothendieck spectral
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $X, Y$ be suitable [[sites]] let and $f : X \to Y$ be a [[morphism of sites]].  Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\buller(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+Let $X, Y$ be suitable [[sites]] let and $f : X \to Y$ be a [[morphism of sites]].  Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bullet(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
 
 $$
   \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
