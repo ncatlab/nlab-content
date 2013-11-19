@@ -24,7 +24,7 @@ The analog in the context of [[(∞,1)-topos]] theory of a [[local geometric mor
 
 ## Definition
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 A **local (∞,1)-geometric morphism** $f : \mathbf{H} \to \mathbf{S}$ between [[(∞,1)-topos]]es $\mathbf{H},\mathbf{S}$ is 
@@ -58,7 +58,7 @@ If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] [[(∞,1)-geometric
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 
@@ -73,7 +73,7 @@ If $\mathbf{S} = $ [[∞Grpd]] then the extra condition that $f$ is [[∞-connec
 
 ### Over $\infty Grpd$ {#OverInfGrpd}
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Every local $(\infty,1)$-topos over [[∞Grpd]] has [[homotopy dimension]] $\leq 0$.
@@ -83,7 +83,7 @@ Every local $(\infty,1)$-topos over [[∞Grpd]] has [[homotopy dimension]] $\leq
 See [[homotopy dimension]] for details.
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 If an [[(∞,1)-geometric morphism]] $f : \mathbf{H} \to $ [[∞Grpd]] has an extra [[right adjoint]] $f^!$ to its [[direct image]], then $\mathbf{H}$ is an [[∞-connected (∞,1)-topos]].
@@ -125,7 +125,7 @@ Every local $(\infty,1)$-geometric morphism induces a notion of [[concrete (∞,
 ### Local over-$(\infty,1)$-toposes
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $\mathbf{H}$ be any [[(∞,1)-topos]] (over [[∞Grpd]]) and let $X \in \mathbf{H}$ be an [[object]] that is [[small-projective]]. Then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is local.
