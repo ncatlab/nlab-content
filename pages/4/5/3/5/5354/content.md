@@ -22,12 +22,12 @@
 
 The _&#233;tale site_ of a [[scheme]] is an analog of the [[category of open subsets]] of a [[topological space]]. The corresponding [[cohomology]] is [[étale cohomology]].
 
-The &#233;tale topology has similar cohomological properties to complex [[analytic topology]], and in particular it is much finer for cohomological purposes than the [[Zariski topology]]. 
+The &#233;tale topology has similar cohomological properties as the [[complex analytic geometry|complex analytic topology]], and in particular it is much finer for cohomological purposes than the [[Zariski topology]]. 
 
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $X$ be a [[scheme]]. 
@@ -129,4 +129,3 @@ Lecture notes are
 
 [[!redirects étale topologies]]
 [[!redirects etale topologies]]
-
