@@ -15,17 +15,13 @@
 
 ## Idea ##
 
-_&#201;tale cohomology_ is the [[abelian sheaf cohomology]] for [[sheaf|sheaves]] on the [[étale site]] of a [[scheme]] (which is an analog of the [[category of open subsets]] of a [[topological space]]).
+Traditional _&#233;tale cohomology_ (e.g. [Deligne 77](#Deligne77)) is the [[abelian sheaf cohomology]] for [[sheaf|sheaves]] on the [[étale site]] of a [[scheme]] (which is an analog of the [[category of open subsets]] of a [[topological space]]).
 
 A certain [[inverse limit]] over &#233;tale cohomology groups for different [[coefficients]] yields [[ℓ-adic cohomology]], which is a [[Weil cohomology theory]].
 
-## History ##
+More generally, there is &#233;tale [[generalized cohomology theory]] with [[coefficients]] in [[sheaves of spectra]] on the [[étale site]] ([Jardine 97](#Jardine97)). Still more generally, there is &#233;tale generalized cohomology on the [[étale (∞,1)-site]] ([Antieau-Gepner 12](#AntieauGepner12), [Lurie](#Lurie)).
 
-Etale cohomology was conceived by Artin, Deligne, [[Alexander Grothendieck|Grothendieck]] and Verdier in 1963. It was used by Deligne to prove the [[Weil conjecture]]s.
 
-Some useful remarks on this are in the begining of
-
-* Spencer Bloch, Review of Milne's _&#201;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf); publisher's [book page](http://www.worldscibooks.com/mathematics/7773.html))
 
 ## Details ##
 
@@ -55,10 +51,18 @@ the &#233;tale cohomology groups with values in the [[multiplicative group]] $\m
 
 ## References
 
+&#201;tale cohomology was conceived by [[Artin]], [[Deligne]], [[Alexander Grothendieck|Grothendieck]] and [[Verdier]] in 1963. It was used by Deligne to prove the [[Weil conjectures]].
+
+Some useful remarks on this are in the begining of
+
+* Spencer Bloch, Review of Milne's _&#201;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf); publisher's [book page](http://www.worldscibooks.com/mathematics/7773.html))
+
+
 The classical references include [[SGA]], esp.
 
 * [[Pierre Deligne]] et al., _Cohomologie &#233;tale_ , Lecture Notes in Mathematics __569__, Springer-Verlag, 1977.
-{#Deligne}
+{#Deligne77}
+
 * [[James Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
 
 * [[Barry Mazur]], _Notes on &#233;tale cohomology of number fields_, [pdf](http://modular.math.washington.edu/edu/2010/582e/refs/mazur-notes_on_etale_cohomology_of_number_fields_original.pdf)
@@ -82,11 +86,24 @@ Further lecture notes online include
 
 * Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, [pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf)
 
-Discussion in the context of [[higher topos theory]]/[[higher algebra]] is in 
+Discussion of [[generalized cohomology theory]] on the [[étale site]] but with [[coefficients]] in [[sheaves of spectra]] is in 
+
+* [[Rick Jardine]], _Generalized &#201;tale cohomology theories_, 1997 Progress in mathematics volume 146
+ {#Jardine97}
+
+Discussion of generalized &#233;tale cohomology over the [[étale (∞,1)-site]] (hence in [[higher topos theory]]/[[higher algebra]]) is in 
 
 * [[Benjamin Antieau]], [[David Gepner]], _Brauer groups and &#233;tale cohomology in derived algebraic geometry_ ([arXiv:1210.0290](http://arxiv.org/abs/1210.0290))
  {#AntieauGepner12}
 
 * [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
+  {Lurie}
 
 [[!redirects étale cohomology]]
+
+[[!redirects generalized étale cohomology]]
+[[!redirects generalized étale cohomologies]]
+
+[[!redirects generalized etale cohomology]]
+[[!redirects generalized etale cohomologies]]
+
