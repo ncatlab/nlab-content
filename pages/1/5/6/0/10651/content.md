@@ -166,7 +166,7 @@ higher real analytic torsion_, J. Amer. Math. Soc. 8 (1995), no. 2, 291-363.
 
 See also
 
-* Wikipedia, _[Beilinsol regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
+* Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
 
 [[!redirects Beilinson regulators]]
 
