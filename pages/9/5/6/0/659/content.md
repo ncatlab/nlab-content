@@ -125,6 +125,8 @@ This theme of using two equivalent categories, one for conjecture and proof, the
 
 * [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
+##References
 
+* D. Guin-Walery and [[J.-L. Loday]], 1981, _Obstructions &#224; l'excision en K-th&#233;orie alg&#232;brique_, in Evanston Conference on Algebraic K-theory, 1980, volume 854 of Lecture Notes in Maths., 179 &#8211; 216, Springer.
 
 [[!redirects crossed squares]]
