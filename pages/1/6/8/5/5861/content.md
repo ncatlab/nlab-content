@@ -634,6 +634,7 @@ $$
 =--
 
 +-- {: .proof}
+
 ###### Proof
 
 The canonical morphism is the composite
@@ -642,6 +643,7 @@ $$
   (i_! \to i_*)
   :=
   i_!
+
    \stackrel{\eta i_!}{\to}
   \mathbf{\Pi}_{inf} i_! := i_* i^* i_!
    \stackrel{\simeq}{\to}
@@ -1252,7 +1254,7 @@ But then by the very nature of $\flat_{dR}\mathbf{B}G$ it follows that the flat 
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #StructuredPetitToposesAreLocallyContractible}
 ###### Proposition
 
 For $X \in \mathbf{H}_{th}$ an object in a differentially cohesive
@@ -1271,20 +1273,101 @@ $$
   \infty Grpd \stackrel{Disc}{\longrightarrow} \mathbf{H}_{th}
    \stackrel{(-) \times X}{\longrightarrow}
    (\mathbf{H}_{th})_{/X}
-  \stackrel{L}{\lomngrightarrow}
+  \stackrel{L}{\longrightarrow}
   Sh_{\mathbf{H}}(X)
 $$
 
 preserves [[(∞,1)-limits]], so that it has a further 
 [[left adjoint]]. Here $L$ is the 
 reflector from prop. \ref{EtalificationIsCoreflection}. 
-Inspection shows that this composite sends an object $A$ to 
-$\mathbf{\Pi}_{ing}(A) \times X \to X$. 
-Since the [[infinitesimal shape modality]] $\mathbf{\Pi}_{inf}$
+Inspection shows that this composite sends an object $A \in \infty Grpd$ to 
+$\mathbf{\Pi}_{inf}(Disc(A)) \times X \to X$:
+
+$$
+  \array{
+    \mathbf{\Pi}_{inf}(Disc(A)) \times X
+     &\longrightarrow&
+    \mathbf{\Pi}_{inf}(Disc(A) \times X) & \simeq \mathbf{\Pi}_{inf}(Disc(A)) \times \mathbf{\Pi}_{inf}(X)
+    \\
+    \downarrow &{}^{(pb)}& \downarrow
+    \\
+    X &\longrightarrow& \mathbf{\Pi}_{inf}(X)
+  }
+  \,.
+$$
+
+ 
+By the discussion at [slice (∞,1)-category -- Limits and colimits](slice+infinity-category#LimitsAndColimits) an [[(∞,1)-limit]] in the slice $(\mathbf{H}_{th})_{/X}$ is computed as an [[(∞,1)-limit]] in $\mathbf{H}$ of the [[diagram]] with the slice [[cocone]] adjoined. By [[right adjoint|right adjointness]] of the inclusion $Sh_{\mathbf{H}}(X) \hookrightarrow (\mathbf{H}_{th})_{/X}$ the same is then true for $Sh_{\mathbf{H}}(X) \coloneqq (\mathbf{H}_{th})_{/X}^{et}$.
+
+Now for $A \colon J \to \infty Grpd$ a [[diagram]], it is taken to the diagram $j \mapsto \mathbf{\Pi}_{inf}(Disc(A_j)) \times X \to X$ in $Sh_{\mathbf{H}}(X)$ and so its $\infty$-limit is computed in $\mathbf{H}$ over the diagram locally of the form
+
+$$
+  \array{
+     X \times \mathbf{\Pi}_{inf}(Disc(A_{j}))
+     &&\longrightarrow&&
+     X \times \mathbf{\Pi}_{inf}(Disc(A_{j'}))
+     \\
+     & \searrow && \swarrow
+     \\
+     && X
+  }
+  \simeq
+  \array{
+     X \times \mathbf{\Pi}_{inf}(Disc(A_{j}))
+     &&\longrightarrow&&
+     X \times \mathbf{\Pi}_{inf}(Disc(A_{j'}))
+     \\
+     & \searrow && \swarrow
+     \\
+     && X \times \ast
+  }
+  \,.
+$$
+
+Since $\infty$-limits commute with each other this limit is the product of
+
+1.  $\underset{\leftarrow}{\lim}_j \mathbf{\Pi}_{inf}(Disc(A_j))$ 
+
+1. $\underset{\leftarrow}{\lim}_{J \star \Delta^0} X$ (over the co-coned diagram constant on $X$).
+
+For the first of these, since the [[infinitesimal shape modality]] $\mathbf{\Pi}_{inf}$
 is in particular a [[right adjoint]] (with [[left adjoint]] the 
-[[reduction modality]]) the statement follows.
+[[reduction modality]]), and since $Disc$ is also [[right adjoint]] by [[cohesion]], we have a [[natural equivalence]]
+
+$$
+  \underset{\leftarrow}{\lim}_j \mathbf{\Pi}_{inf}(Disc(A_j))
+  \simeq
+   \mathbf{\Pi}_{inf}(Disc(\underset{\leftarrow}{\lim}_j(A_j)))
+  \,.
+$$
+
+For the second, the $\infty$-limit over an $\infty$-category $J \star \Delta^0$ of a functor constant on $X$ is 
+
+$$
+  \begin{aligned}
+     \underset{\leftarrow}{\lim}_{J \star \Delta^0} X
+     & \simeq
+     \underset{\leftarrow}{\lim}_{J \star \Delta^0} [\ast, X]
+     \\
+     & \simeq
+     [\underset{\rightarrow}{\lim}_{J \star \Delta^0} \ast, X]
+     \\
+     & \simeq
+     [{\vert {J \star \Delta^0}\vert}, X]
+     \\
+     & \simeq 
+     [\ast, X] \simeq X
+  \end{aligned}
+  \,,
+$$
+
+where the last line follows since ${J \star \Delta^0}$
+has a terminal object and hence contractible geometric realization.
+
+In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\times X\circ Disc$.
 
 =--
+
 
 #### Liouville-Poincar&#233; cocycle
  {#PoincareCocycle}
@@ -1642,6 +1725,7 @@ For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [fo
 For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent) and the $(i^* \dashv i_*)$-[[zig-zag identity]].
 
 =--
+
 
 
 +-- {: .num_prop}
