@@ -58,6 +58,9 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 
 * [[profinite space]]
 
+* [[pro-étale morphism of schemes]], [[pro-étale site]]
+
+
 ##Applications
 
 ### &#201;tale homotopy theory. 
