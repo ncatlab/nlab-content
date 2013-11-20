@@ -4,9 +4,20 @@ __Jean-Louis Loday__ (deceased June 2012) was a French mathematician who was, at
 
 * [webpage](http://www-irma.u-strasbg.fr/~loday)
 
-* _Cyclic homology_, Springer
 
+##References
+
+* _Cyclic homology_, Springer.
+
+* [[Jean-Louis Loday]], _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
+ 
+* Jean-Louis Loday, [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/LodayPira1993%28Leibniz%29.pdf)
+
+* Jean-Louis Loday, [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
+
+* D. Guin-Walery and [[J.-L. Loday]], 1981, _Obstructions &#224; l'excision en K-th&#233;orie alg&#232;brique_, in Evanston Conference on Algebraic K-theory, 1980, volume 854 of Lecture Notes in Maths., 179 &#8211; 216, Springer.
 category: people
 
 [[!redirects J-L. Loday]]
 [[!redirects J.-L. Loday]]
+[[!redirects Loday]]
