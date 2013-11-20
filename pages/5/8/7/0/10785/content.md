@@ -23,11 +23,11 @@
 
 A variant of [[étale morphism of schemes]] where the finitess conditions on [[étale morphisms]] are relaxed.
 
-Using in the definition of _[[pro-étale site]]_ and _[[pro-étale cohomology]]_.
+Used in the definition of _[[pro-étale site]]_ and _[[pro-étale cohomology]]_.
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #WeaklyEtale}
 ###### Definition
 
 A [[morphism]] $f \colon X \longrightarrow Y$ of [[schemes]]
@@ -69,9 +69,40 @@ A [[weakly étale morphism]] which is [[locally of finite presentation]] is an [
 
 =--
 
+In fact a weakly &#233;tale morphism is equivalently a [[formally étale morphism]] which is "locally [[pro-object|pro-finitely]] presentable" (dually locally of [[ind-object|ind]]-finite rank) in the following sense
+
++-- {: .num_defn #IndEtale}
+###### Definition
+
+For $A \to B$ a [[homomorphism]] of [[rings]], say that it is an **[[ind-étale morphism]]** if that $A$-[[associative algebra|algebra]] $B$ is a [[filtered colimit]] of $A$-[[étale algebras]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \;\colon\; A \longrightarrow B$ be a [[homomorphism]] of [[rings]].
+
+* If $f$ is ind-&#233;tale, def. \ref{IndEtale}, then it is weakly &#233;tale, def. \ref{WeaklyEtale}.
+
+Almost conversely
+
+* If $f$ is weakly &#233;tale, then there is a [[faithfully flat morphism]] $g \colon B \to C$ which is ind-&#233;tale such that the [[composition|composite]] $g\circ f$ is ind-&#233;tale.
+
+=--
+
+([Bhatt-Scholze 13, theorem 1.3](#BhattScholze13))
+
++-- {: .num_cor}
+###### Corollary
+
+The [[sheaf toposes]] over the [[sites]]  of weak &#233;tale morphisms and of [[pro-étale morphisms of schemes]] into  some base [[scheme]] are [[equivalence of categories|equivalent]], both define the  _[[pro-étale topos]]_ over the _[[pro-étale site]]_.
+
+=--
+
 ## Related concepts
 
-
+[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[pro-étale morphism of schemes|pro-étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
 
 ## References
 
