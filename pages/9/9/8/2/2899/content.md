@@ -65,6 +65,16 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 
 (A number of other equivalent definitions are listed at [wikipedia](http://en.wikipedia.org/wiki/Etale_morphism).)  
 
++-- {: .num_remark}
+###### Remark
+
+Relaxing the finiteness condition in item 4 of \ref{EquivalentConditionsForEtale} yields the notion of _[[weakly étale morphism]]_.
+
+[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
+
+
+=--
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -81,6 +91,7 @@ Most of the pairs of conditions in def. \ref{EquivalentConditionsForEtale} can b
 Specifically the first condition has an [[infinitesimal object|infinitesimal anlog]]: a [[formally étale morphism]] is a [[formally smooth morphism|formally smooth]] and [[formally unramified morphism]]. These notions also have an interpretation in [[synthetic differential geometry]] and there they correspond to the statement that a [[local diffeomorphism]] is a [[submersion]] which is also an [[immersion of smooth manifolds]].
 
 =--
+
 
 +-- {: .num_defn}
 ###### Definition
