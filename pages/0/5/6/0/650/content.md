@@ -98,7 +98,7 @@ It is not so clear how to construct a homotopical functor from $n$-cubes of _non
 
 The original proof of Loday's result is to be found in
 
-* J.-L. Loday, _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
+* [[J.-L. Loday]], _Spaces with finitely many nontrivial homotopy groups_, J. Pure Appl. Alg., 24, (1982), 179--202.
 
 This paper also uses the term n-cat-group, but later use favours the term cat$^n$-group to make it clearer that these were an [[n-fold category]] [[internalization|internal]] to [[Grp]]. There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
 
