@@ -3,7 +3,7 @@
 
 In [[type theory]], $Prop$ denotes the [[type of propositions]]. See there for more details.
 
-## Relaed concepts
+## Related concepts
 
 * [[Type]]
 
