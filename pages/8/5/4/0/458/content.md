@@ -384,6 +384,7 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[topos]]
 
+* [[profinite space]], [[profinite reflection]]
 
 
 ## References 
