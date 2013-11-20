@@ -411,7 +411,21 @@ In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\time
 
 ### As a classifying topos
 
-The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is the [[classifying topos]] for [[strict local rings]].
+The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is the 
+
+
+## Related concepts
+
+* [[étale homotopy]]
+
+* [[étale cohomology]]
+
+
+
+
+
+
+[[classifying topos]] for [[strict local rings]].
 
 [[!redirects etale toposes]]
 [[!redirects etale topoi]]
