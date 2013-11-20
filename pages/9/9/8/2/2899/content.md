@@ -70,7 +70,7 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 
 Relaxing the finiteness condition in item 4 of \ref{EquivalentConditionsForEtale} yields the notion of _[[weakly étale morphism]]_.
 
-[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
+[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[pro-étale morphism of schemes|pro-étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
 
 
 =--
