@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
@@ -12,6 +16,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -41,20 +46,25 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 
 * [[anabelian geometry]]
 
+* [[étale topos]], [[pro-étale topos]]
+
+* [[étale cohomology]]
+
+
 ## References
 
 * [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
   {#ArtinMazur}
 
 
-*  E. M. Friedlander, _Fibrations in &#233;tale homotopy theory [(numdam)](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1973__42_/PMIHES_1973__42__5_0/PMIHES_1973__42__5_0.pdf)_, Publ. Math. 
+* [[Eric Friedlander]], _Fibrations in &#233;tale homotopy theory [(numdam)](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1973__42_/PMIHES_1973__42__5_0/PMIHES_1973__42__5_0.pdf)_, Publ. Math. 
 Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 
 
 * [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
-* [[Tomer Schlank]], [[Alexei Skorobogatov]], _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
+* Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
 
 
 [[!redirects étale homotopy theory]]
@@ -69,3 +79,9 @@ Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 [[!redirects étale fundamental group]]
 [[!redirects étale fundamental groups]]
+
+[[!redirects étale homotopy type]]
+[[!redirects étale homotopy types]]
+
+[[!redirects etale homotopy type]]
+[[!redirects etale homotopy types]]
