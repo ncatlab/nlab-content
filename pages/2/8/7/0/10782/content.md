@@ -26,6 +26,9 @@ $\ell$-Adic cohomology is a [[Weil cohomology theory]]
 
 ## Definition
 
+### Over the &#233;tale site
+ {#OverEtaleSite}
+
 Let $X$ be a (smooth?) [[proper map|proper]] [[variety]] over a field. Fix $\ell$ a [[prime number]] different from the [[characteristic]] of $k$. The $\ell$-adic cohomology is defined to be the [[cohomology theory]] on the [[étale site]] given by the [[inverse limit]] over $n \in \mathbb{N}$
 
 $$
@@ -41,7 +44,12 @@ The key insights into getting finite dimensionality with coefficients in a [[fie
 
 Notice that on the left $\mathbb{G}_{\ell}$ is not an actual sheaf whose actual [[sheaf cohomology]] is being computed instead the expression on the left is defined by the genuine sheaf cohomology groups on the right.
 
+### Over the pro-&#233;tale site
+
+
 This is rectified by passing to [[pro-étale cohomology]]. Here $\mathbb{Q}_{\ell}$ exists as an actual sheaf and its genuine [[abelian sheaf cohomology]] is $\ell$-adic cohomology.
+([Bhatt-Scholze 13, section 6.8](#BhattScholze13))
+
 
 ## Related concepts
 
@@ -64,9 +72,10 @@ Surveys include
 * [[Akhil Mathew]], _$l$-adic cohomology and exponential sums_ ([web](http://amathew.wordpress.com/tag/l-adic-cohomology/))
 
 
-A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohomolohy, the _[[pro-étale site]]_ (locally contractible in some sense) is discussed in 
+A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohomology, the _[[pro-étale site]]_ (locally contractible in some sense) is discussed in 
 
-* Bhargav Bhatt, Peter Scholze, _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+ {#BhattScholze13}
 
 
 [[!redirects l-adic cohomology]]
