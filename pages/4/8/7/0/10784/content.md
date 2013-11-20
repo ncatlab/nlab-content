@@ -24,8 +24,8 @@
 
 ## Idea
 
-The _pro-&#233;tale site_ is a variant of the [[étale site]] where the finitess conditions on the [[fibers]] of [[étale morphisms of schemes|étale morphisms]] is relaxed to a 
-[[pro-object|pro-]]finitenss condition ([[pro-étale morphism of schemes|pro-étale morphisms]])
+The _pro-&#233;tale site_ is a variant of the [[étale site]] where the finiteness conditions on the [[fibers]] of [[étale morphisms of schemes|étale morphisms]] is relaxed to a 
+[[pro-object|pro-]]finiteness condition ([[pro-étale morphism of schemes|pro-étale morphisms]])
 
 The [[sheaf topos]] over the pro-&#233;tale site might by called the _pro-[[étale topos]]_. Its [[abelian sheaf cohomology]] -- _pro &#233;tale cohomology_ -- improves on that of the original [[étale topos]] in that it genuinely contains ([Bhatt-Scholze 13](#BhattScholze13)) the [[Weil cohomology theory]] called [[ℓ-adic cohomology]] (while over the [[étale site]] this is only given by an [[inverse limit]] of [[abelian sheaf cohomology]]).
 
@@ -105,7 +105,7 @@ Since every [[étale morphism of schemes]] is in particular a [[pro-étale morph
 
 $$
   \nu
-  \;\colo\;
+  \;\colon\;
   Sh(X_{proet})
   \longrightarrow
   Sh(X_{et})
