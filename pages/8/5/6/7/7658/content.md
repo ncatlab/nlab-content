@@ -59,6 +59,10 @@ $$
   \,.
 $$
 
+### Spin double cover
+
+* [[spin group]]
+
 ## Related concepts
 
 * [[orientifold]], [[Jandl gerbe]]
