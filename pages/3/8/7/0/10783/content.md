@@ -178,8 +178,7 @@ Formally &#233;tale morphisms of schemes which are in addition [[locally of fini
 
 Relaxing this finiteness condition yields the notion of [[weakly étale morphisms]].
 
-[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
-
+[[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[pro-étale morphism of schemes|pro-étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
 
 ## References
 
