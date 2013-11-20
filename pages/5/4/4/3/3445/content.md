@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -174,6 +174,10 @@ In sufficiently highly locally connected cases, we have:
 A locally constant sheaf / $\infty$-stack is also called a [[local system]].
 
 
+
+## Related concepts
+
+* [[constructible sheaf]]
 
 ## References
 
