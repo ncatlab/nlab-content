@@ -67,6 +67,33 @@ whose [[objects]] are [[weakly étale morphisms]] into $X$ (hence weakly &#233;t
 
 ([Bhatt-Scholze 13, def. 4.1.1](#BhattScholze13))
 
+### Generation by w-contractible rings
+
++-- {: .num_defn #wContractible}
+###### Definition
+
+A [[commutative ring]] $R$ is a **[[w-contractible ring]]** if every [[faithfully flat morphism|faithfully flat]] [[pro-étale morphism]] $Spec A \to Spec R$ has a [[section]].
+
+=--
+
+([Bhatt-Scholze 13, def. 2.4.1](#BhattScholze13))
+
++-- {: .num_prop}
+###### Proposition
+
+For every [[commutative ring]] $R$, there is a a w-contractible $A$, def. \ref{wContractible},
+equipped with a [[faithfully flat morphism|faithfully flat]] [[pro-étale morphism]] $Spec A \to Spec R$.
+
+=--
+
+([Bhatt-Scholze 13, lemma 2.4.9](#BhattScholze13))
+
++-- {: .num_remark}
+###### Remark
+
+So the [[full subcategory]] on the [[w-contractible rings]] forms a [[dense subsite]] of the pro-&#233;tale site, consisting of objects with [[contractible]] pro-[[étale homotopy type]].
+
+=--
 
 ### Relation to the &#233;tale topos
 
@@ -96,6 +123,13 @@ $\nu$ is a [[surjective geometric morphism]] with [[full and faithful functor|fu
 =--
 
 ([Bhatt-Scholze 13, lemma 5.1.2](#BhattScholze13))
+
+## Related concepts
+
+* [[étale homotopy]]
+
+* [[étale cohomology]]
+
 
 ## References
 
