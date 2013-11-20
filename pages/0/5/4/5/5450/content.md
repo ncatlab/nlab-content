@@ -25,10 +25,17 @@
 
 ## Definition
 
-An **&#233;tale topos** is the [[sheaf topos]] over an [[étale site]].
+### General concrete
 
-### General abstract
- {#GeneralAbszrac}
+An **&#233;tale topos** is the [[sheaf topos]] over an [[étale site]], hence over a site whose "open subsets" are [[étale morphisms]] into the base [[space]]. The intrinsic [[cohomology]] of an &#233;tale [[(∞,1)-topos]] is _[[étale cohomology]]_.
+
+More generally there is the pro-&#233;tale topos over a [[pro-étale site]], which is a bit better behaved. In particular the intrinsic [[cohomology]] of a pro-&#233;tale [[(∞,1)-topos]] includes the [[Weil cohomology theory]] [[ℓ-adic cohomology]].
+
+Generally, given that an [[étale morphism of schemes]] is a [[formally étale morphism]] subject to a size constraint on its [[fibers]] -- for an actual [[étale morphism of schemes]] the fibers are [[finite sets]] in the suitable sense (formal duals to [[étale algebras]]) while for a [[pro-étale morphism of schemes]] they are [[pro-objects]] of such fibers --
+in a suitable ambient context ("[[differential cohesion]]") one can drop all finiteness conditions and consider just opens given by [[formally étale morphisms]] as encoded by an [[infinitesimal shape modality]]. This we discuss [below](#GeneralAbstract).
+
+### General abstract 
+ {#GeneralAbstract}
 
 We discuss how in [[differential cohesion]] $\mathbf{H}_{th}$ every object $X$ canonically induces its &#233;tale topos $Sh_{\mathbf{H}_{th}}(X)$.
 
