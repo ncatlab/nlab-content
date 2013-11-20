@@ -27,7 +27,7 @@ Pro &#233;tale morphisms into some [[scheme]] $X$ form the [[pro-étale site]] o
 
 ## References
 
-* Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
  {#BhattScholze13}
 
 
