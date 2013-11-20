@@ -47,7 +47,7 @@ equipped with a [[faithfully flat morphism|faithfully flat]] [[pro-étale morphi
 
 ## References
 
-* Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
  {#BhattScholze13}
 
 [[!redirects w-contractible rings]]
