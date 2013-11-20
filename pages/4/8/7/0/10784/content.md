@@ -136,7 +136,7 @@ $\nu$ is a [[surjective geometric morphism]] with [[full and faithful functor|fu
 
 The pro-&#233;tale topology was suggested by Scholze and then fully developed in
 
-* Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
  {#BhattScholze13}
 
 Some results used in the study of weakly &#233;tale maps appeared earlier in
@@ -144,11 +144,14 @@ Some results used in the study of weakly &#233;tale maps appeared earlier in
 *  [[Ofer Gabber]] and Lorenzo Ramero, _Almost ring theory_, volume 1800 of Lecture Notes in Mathematics. Springer-Verlag, Berlin, 2003. ([arXiv:math/0201175](http://arxiv.org/abs/math/0201175))
  {#GabberRamero03}
 
-
-Reviews include
+A textbook account is in 
 
 * [[The Stacks Project]], [chapter 46](http://stacks.math.columbia.edu/tag/0965) ([pdf](stacks.math.columbia.edu/download/proetale.pdf))
 
+
+Further developments include
+
+* Takashi Suzuki, _Duality for local fields and sheaves on the category of fields_ ([arXiv:1310.4941](http://arxiv.org/abs/1310.4941))
 
 [[!redirects pro-etale site]]
 
