@@ -79,9 +79,12 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 * [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]], [[étale homotopy]]
 
+* [[pro-étale site]]
+
 * [[étale (∞,1)-site]]
 
 [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+
 
 
 ## References
@@ -104,7 +107,7 @@ Lecture notes include
 * [[Aise Johan de Jong]], _&Eacute;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
-A variant, the _pro-&#233;tale site_ (locally contractible in some sense) is discussed in 
+A variant, the _[[pro-étale site]]_ (locally contractible in some sense) is discussed in 
 
 * Bhargav Bhatt, Peter Scholze, _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
 
