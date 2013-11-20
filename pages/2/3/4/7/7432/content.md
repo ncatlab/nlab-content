@@ -1,5 +1,5 @@
 
-> This article is on the mathematical concept of atom as used in the theory of [[preorder|preorders]], and related mathematical notions. For other uses, see [[atom (disambiguation)]].
+> This article is on the mathematical concept of atom as used in the theory of [[preorder|preorders]], and related mathematical notions. For small projective objects in categories see at [[atomic object]]. For still other uses, see [[atom (disambiguation)]].
 
 
 +-- {: .rightHandSide}
