@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### &#201;tale morphisms
++--{: .hide}
+[[!include etale morphisms - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
