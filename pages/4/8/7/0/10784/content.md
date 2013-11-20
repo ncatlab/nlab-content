@@ -24,11 +24,26 @@
 
 ## Idea
 
-A variant of the [[étale site]] where the finitess conditions on [[étale morphisms]] are relaxed.
+A variant of the [[étale site]] where the finitess conditions on the [[fibers]] of [[étale morphisms]] is relaxed to a 
+[[pro-object|pro-]]finitenss condition.
+
+The [[sheaf topos]] over the pro-&#233;tale site might by called the pro-[[étale topos]].
 
 The resulting [[abelian sheaf cohomology]] -- _pro &#233;tale cohomology_ -- has a good relation to [[ℓ-adic cohomology]].
 
 ## Definition
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[scheme]], its _pro &#233;tale site_ $X_{proet}$ is the [[site]]
+whose [[objects]] are [[pro-étale morphisms]] into $X$ and whose [[Grothendieck topology]] is that of the [[fpqc site]].
+
+=--
+
+## Properties
+
+### In terms of weakly &#233;tale maps
 
 +-- {: .num_defn}
 ###### Definition
@@ -55,37 +70,47 @@ whose [[objects]] are [[weakly étale morphisms]] into $X$ (hence weakly &#233;t
 ([Bhatt-Scholze 13, def. 4.1.1](#BhattScholze13))
 
 
-## Properties
+### Relation to the &#233;tale topos
+
+
++-- {: .num_defn}
+###### Definition
+
+Since every [[étale morphism of schemes]] is in particular a [[pro-étale morphism of schemes|pro étale morphism]], there is induced a [[geometric morphism]]
+
+$$
+  \nu
+  \;\colo\;
+  Sh(X_{proet})
+  \longrightarrow
+  Sh(X_{et})
+$$
+
+from the [[pro-étale topos]] to the [[étale topos]] of any [[scheme]] $X$.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[weakly étale morphism]] is a [[formally étale morphism]].
+$\nu$ is a [[surjective geometric morphism]] with [[full and faithful functor|fully faithful]] [[inverse image]]. Hence the ordinary [[étale topos]] is a [[coreflective subcategory|coreflection]] of the pro-&#233;tale topos.
 
 =--
 
-([Gabber-Ramero 03, theorem 2.5.36, prop. 3.2.16](#GabberRamero03) [Bhatt-Scholze 13, prop. 2.3.3. (2)](#BhattScholze13))
-
-
-+-- {: .num_cor}
-###### Corollary
-
-A [[weakly étale morphism]] which is [[locally of finite presentation]] is an [[étale morphism of schemes|étale morphism]].
-
-
-=--
-
+([Bhatt-Scholze 13, lemma 5.1.2](#BhattScholze13))
 
 ## References
 
-*  [[Ofer Gabber]] and Lorenzo Ramero, _Almost ring theory_, volume 1800 of Lecture Notes in Mathematics. Springer-Verlag, Berlin, 2003. ([arXiv:math/0201175](http://arxiv.org/abs/math/0201175))
- {#GabberRamero03}
 
 The pro-&#233;tale topology was suggested by Scholze and then fully developed in
 
 * Bhargav Bhatt, [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
  {#BhattScholze13}
 
+Some results used in the study of weakly &#233;tale maps appeared earlier in
+
+*  [[Ofer Gabber]] and Lorenzo Ramero, _Almost ring theory_, volume 1800 of Lecture Notes in Mathematics. Springer-Verlag, Berlin, 2003. ([arXiv:math/0201175](http://arxiv.org/abs/math/0201175))
+ {#GabberRamero03}
 
 
 Reviews include
@@ -100,3 +125,8 @@ Reviews include
 
 [[!redirects pro-étale cohomology]]
 [[!redirects pro-etale cohomology]]
+
+[[!redirects pro-étale topos]]
+[[!redirects pro-étale toposes]]
+[[!redirects pro-etale topos]]
+[[!redirects pro-etale toposes]]
