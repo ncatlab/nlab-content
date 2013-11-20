@@ -279,3 +279,9 @@ Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stac
 A discussion of the [[?ech cohomology]] description of sheaf cohomology along the above lines is in
 
 * [[Tibor Beke]], _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
+
+[[!redirects chain complex of sheaves]]
+[[!redirects chain complexes of sheaves]]
+
+[[!redirects sheaf of chain complexes]]
+[[!redirects sheaves of chain complexes]]
