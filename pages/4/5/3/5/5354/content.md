@@ -97,12 +97,16 @@ A detailed survey is in chapter 34 of
 
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_
 
-Lecture notes are
+Lecture notes include
 
 * [[James Milne]], _Lectures on etale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
 * [[Aise Johan de Jong]], _&Eacute;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
+
+A variant, the _pro-&#233;tale site_ (locally contractible in some sense) is discussed in 
+
+* Bhargav Bhatt, Peter Scholze, _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
 
 
 
