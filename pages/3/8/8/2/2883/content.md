@@ -51,9 +51,7 @@ the &#233;tale cohomology groups with values in the [[multiplicative group]] $\m
 
 ## References
 
-&#201;tale cohomology was conceived by [[Artin]], [[Deligne]], [[Alexander Grothendieck|Grothendieck]] and [[Verdier]] in 1963. It was used by Deligne to prove the [[Weil conjectures]].
-
-Some useful remarks on this are in the begining of
+&#201;tale cohomology was conceived by [[Artin]], [[Deligne]], [[Alexander Grothendieck|Grothendieck]] and [[Verdier]] in 1963. It was used by Deligne to prove the [[Weil conjectures]]. Some useful remarks on this are in the begining of
 
 * Spencer Bloch, Review of Milne's _&#201;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf); publisher's [book page](http://www.worldscibooks.com/mathematics/7773.html))
 
@@ -75,14 +73,10 @@ A modern textbook, though largely based on the material in SGA is
 
 A comprehensive set of lecture notes is in
 
+* [[James Milne]], _Lectures on &#201;tale cohomology_ ([html](http://www.jmilne.org/math/CourseNotes/lec.html), [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
+
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ 2009, in _[[The Stacks Project]]_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
-
-
-Further lecture notes online include 
-
-* [[James Milne]], _Lectures on &#233;tale cohomology_, [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf)
-
 
 * Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, [pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf)
 
@@ -106,4 +100,3 @@ Discussion of generalized &#233;tale cohomology over the [[étale (∞,1)-site]]
 
 [[!redirects generalized etale cohomology]]
 [[!redirects generalized etale cohomologies]]
-
