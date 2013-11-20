@@ -49,9 +49,12 @@ the &#233;tale cohomology groups with values in the [[multiplicative group]] $\m
 
 * [[étale morphism]], [[étale site]], &#233;tale cohomology
 
-* [[étale (∞,1)-site]]
+* [[étale (∞,1)-site]], [[étale topos]]
+
+* [[étale homotopy]]
 
 * [[Weil conjecture]]
+
 
 ## References
 
