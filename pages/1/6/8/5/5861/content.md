@@ -1001,6 +1001,9 @@ For more see at _[[Lie differentiation]]_.
  {#StructureSheaves}
  {#CotangentBundles}
 
+We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale topos]] $Sh_{\mathbf{H}_{th}}()$.
+
+
 For $X \in \mathbf{H}_{th}$ any object in a differential cohesive $\infty$-topos, we formulate 
 
 1. the [[(∞,1)-topos]] denoted $\mathcal{X}$ or $Sh_\infty(X)$ of [[(∞,1)-sheaves]] over $X$, or rather of formally &#233;tale maps into $X$;
