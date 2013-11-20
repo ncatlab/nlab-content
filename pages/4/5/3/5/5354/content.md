@@ -79,11 +79,14 @@ The [[derived geometry]] of the &#233;tale site is the [[étale (∞,1)-site]]. 
 
 * [[étale morphism]], **&#233;tale site**, [[étale topos]], [[étale cohomology]], [[étale homotopy]]
 
+[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+
 * [[pro-étale site]]
 
 * [[étale (∞,1)-site]]
 
-[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+* [[constructible sheaf]]
+
 
 
 
