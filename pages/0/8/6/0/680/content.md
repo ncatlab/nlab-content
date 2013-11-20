@@ -78,7 +78,7 @@ $$
 that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
 
 $$
-    \Gamma(V : [k]  \mapsto 
+    \Gamma(V) : [k]  \mapsto 
     Hom_{Ch_\bullet^+(Ab)}(N(\mathbb{Z}(\Delta[k])), V)
     \,.
 $$
