@@ -21,7 +21,7 @@ These all in some sense generalize the [[van Kampen theorem]], (SvKT), which onl
 ## For topological spaces {#ForTopSpaces} (The homotopy small simplex theorem.)
 
 
-The general form that this takes is similar to the classical homology small simplex theorem which can be found in many books on homology. This states that given an open cover, $\mathcal{U}$, of a space, $X$, the inclusion of the chain complex of $\mathcal{U}$-small singular simplices into the singular complex of $X$ induces isomorphisms on all homology groups. It is closely related to results on [[excision]] and on the [[Mayer-Vietoris theorem]].  Various homotopy analogues of this result have been given with one of the most recent being that given by Luire (see below). He explicitly relates it to the van Kampen theorem, and it is a similar 'local-to-global' result. 
+The general form that this takes is similar to the classical homology small simplex theorem which can be found in many books on homology. This states that given an open cover, $\mathcal{U}$, of a space, $X$, the inclusion of the chain complex of $\mathcal{U}$-small singular simplices into the singular complex of $X$ induces isomorphisms on all homology groups. It is closely related to results on [[excision]] and on the [[Mayer-Vietoris sequence|Mayer-Vietoris theorem]].  Various homotopy analogues of this result have been given with one of the most recent being that given by Luire (see below). He explicitly relates it to the van Kampen theorem, and it is a similar 'local-to-global' result. 
 
 The experience from the uses of the homology small simplex theorem suggests that it may be most useful when used in conjunction with specific invariants of homotopy types. (Note excision fails for homotopy groups and so one has to be more subtle.) The precise relationship to the other forms of generalised van Kampen theorem has yet to be determined.
 
@@ -33,7 +33,7 @@ The experience from the uses of the homology small simplex theorem suggests that
 Let $X$ be a [[topological space]], write $Op(X)$ for its [[category of open subsets]] and let
 
 $$
-  \chi : C \to Op(C)
+  \chi : C \to Op(X)
 $$
 
 be a [[functor]] out of a [[small category]] $C$ such that
@@ -93,7 +93,7 @@ If the filtered spaces $U^f_*$ are [[connected filtered space]]s for all finite 
 
 ##Generalised SvKT for models of $n$-types (Brown-Loday)
 
-After [[Loday]] had proved that [[cat-n-group|cat$^n$-group]]s modelled all connected [[homotopy $n-1$-type]]s, Brown and Loday investigated generalised forms of the SvKT, in terms of these new invariants. (to be continued)
+After [[Loday]] had proved that [[cat-n-group]]s modelled all connected [[homotopy n-type|homotopy (n+1)-type]]s, Brown and Loday investigated generalised forms of the SvKT, in terms of these new invariants. (to be continued)
 
 
 ## Van Kampen spectral sequence (Artin-Mazur)
@@ -149,13 +149,12 @@ The version for filtered topological spaces and the strict homotopy $\infty$-gro
 
 The Brown-Loday results can be found in 
 
-* R. Brown and J.-L. Loday, _Homotopical excision, and Hurewicz theo- 
-rems for n-cubes of spaces_, Proc. London Math. Soc., (3)54, (1987), 
+* R. Brown and [[J.-L. Loday]], _Homotopical excision, and Hurewicz theorems for n-cubes of spaces_, Proc. London Math. Soc., (3)54, (1987), 
 176 &#8211; 192. 
 
 and 
 
-*  R. Brown and J.-L. Loday, _Van Kampen Theorems for diagrams of 
+*  R. Brown and [[J.-L. Loday]], _Van Kampen Theorems for diagrams of 
 spaces_, Topology, 26, (1987), 311 &#8211; 337. 
 
 The paper of Artin and Mazur is
