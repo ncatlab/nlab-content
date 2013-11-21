@@ -43,6 +43,8 @@ and simplicial profinite spaces are the same thing.
 
 ## Related concepts
 
+* [[extremally disconnected profinite set]]
+
 * [[profinite homotopy type]]
 
 * [[pro-homotopy theory]]
@@ -56,8 +58,11 @@ The primary meaning (as Stone space) is used in sources on profinite groups, for
 
 Discussion of [[homotopy theory]] of pro(finite) [[simplicial sets]] is in 
 
+
 * [[G. Quick]], _Profinite homotopy theory_, Documenta Mathematica, 13, 
 (2008), 585&#8211;612, (Archiv [0803.4082](http://arxiv.org/abs/0803.4082))
+
+* [[Jacob Lurie]], _Profinite spaces_ ([pdf](http://www-math.mit.edu/~lurie/917notes/Lecture26.pdf))
 
 
 [[!redirects Profinite space]]
