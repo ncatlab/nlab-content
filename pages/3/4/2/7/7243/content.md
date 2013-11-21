@@ -96,6 +96,8 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 * [[p-adic geometry]]
 
+* [[p-adic physics]]
+
 ## References
 
 Introductions and surveys include
