@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +31,7 @@ Analogues of the Riemann hypothesis can be considered for many analogues of zeta
 
 ## References
 
+* [[Terence Tao]], _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_
 * Wikipedia, _[Riemann hypothesis](http://en.wikipedia.org/wiki/Riemann_hypothesis)_
 
 
