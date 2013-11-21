@@ -45,6 +45,7 @@ is an extremally disconnected [[profinite set]].
 Part of ([Bhatt-Scholze 13, theorem 1.8](#BhattScholze13))
 
 
+
 ## Examples
 
 +-- {: .num_example}
@@ -56,6 +57,16 @@ its [[Stone-Cech compactification]] is extremally disconnected.
 =--
 
 (e.g. [Bhatt-Scholze 13, example 2.4.6](#BhattScholze13))
+
++-- {: .num_example}
+###### Counter-Example
+
+The [[profinite set]] underlying the [[p-adic integers]], regarded as a [[Stone space]], is _not_ extremally diconnected.
+
+=--
+
+(e.g. [Bhatt-Scholze 13, example 2.4.7](#BhattScholze13))
+
 
 ## References
 
