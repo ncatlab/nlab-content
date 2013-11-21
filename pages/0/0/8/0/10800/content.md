@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. However, it was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation was improved somewhat if the number field is embedded in the cartesian product of its completions at all of its absolute values. With a few additional restrictions, these objects are known as the _[[adeles]]_, and the [[group of units|units]] of this ring are called the _ideles_.
+When considering the adeles and ideles, it is their [[topology]] as much as their algebraic structure that is of interest. Many important results in [[number theory]] translate into simple statements about the topologies of the adeles and ideles. For example, the finiteness of the [[ideal class group]] and the [[Dirichlet unit theorem]] are equivalent to a certain quotient of the ideles being compact and discrete.
+
+([Weston, p. 1](#Weston))
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+The ring of _integral [[adeles]]_ $\mathbb{A}_{\mathbb{Z}}$ is the [[product]]
+of the [[profinite completion of the integers]] $\widehat{\mathbb{Z}}$, with the [[real numbers]]
+
+$$
+  \mathbb{A}_{\mathbb{Z}}
+  \coloneqq
+  \mathbb{R} \times \widehat{\mathbb{Z}}
+  \,.
+$$
+
+(...)
+
+=--
+
+e.g. section 3 [here](http://wiki.epfl.ch/gant/).
+
+
++-- {: .num_defn }
+###### Definition
+
+The [[group of units]] of the ring of adeles is called the _group of ideles_.
+
+=--
+
+
+## References
+
+* _Adeles_ [pdf](http://wiki.epfl.ch/gant/documents/lecture2-cib2011.pdf)
+
+* Pete Clark, _Adeles and Ideles_ ([pdf](http://math.uga.edu/~pete/8410Chapter6.pdf))
+
+* Erwin Dassen , _Adeles & Ideles_ ([pdf](http://www.math.leidenuniv.nl/~astolk/monday/notes/dassen-adeles-ideles.pdf))
+
+
+* Tom Weston, _The idelic approach to number theore_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
+ {#Weston}
+ 
+
+[[!redirects idele]]
+[[!redirects ideles]]
