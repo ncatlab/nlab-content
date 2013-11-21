@@ -41,16 +41,24 @@ and simplicial profinite spaces are the same thing.
 
 * [[profinite reflection]]
 
+## Related concepts
+
+* [[profinite homotopy type]]
+
+* [[pro-homotopy theory]]
+
 ## References
 
-The primary meaning (as Stone space) is used in sources on profinite groups, for which see the entry on such.
+The primary meaning (as Stone space) is used in sources on profinite groups, for which see the entries _[[Stone space]]_, _[[profinite group]]_.
 
-The second of the meanings is used by 
+* Abolfazl Tarizadeh, _On the category of profinite spaces as a reflective subcategory_ ([arXiv:1207.5963](http://arxiv.org/abs/1207.5963)) 
+
+
+Discussion of [[homotopy theory]] of pro(finite) [[simplicial sets]] is in 
 
 * [[G. Quick]], _Profinite homotopy theory_, Documenta Mathematica, 13, 
 (2008), 585&#8211;612, (Archiv [0803.4082](http://arxiv.org/abs/0803.4082))
 
-* Abolfazl Tarizadeh, _On the category of profinite spaces as a reflective subcategory_ ([arXiv:1207.5963](http://arxiv.org/abs/1207.5963)) 
 
 [[!redirects Profinite space]]
 [[!redirects profinite spaces]]
