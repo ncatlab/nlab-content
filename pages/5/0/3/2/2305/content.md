@@ -70,6 +70,8 @@ For [[analytic space]]s
 
 * [[chiral de Rham complex]]
 
+* [[crystalline cohomology]], [[comparison theorem (crystalline cohomology)]]
+
 ## References
 
 ### In differential geometry
