@@ -87,7 +87,12 @@ If $G$ is a profinite or pro-p group, the best replacement for the group algebra
 
 ## References
 
- A recent textbook is
+Introductory lectures include
+
+* [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
+ {#Lenstra}
+
+A recent textbook is
 
 * L. Ribes and P. Zalesskii, 2000, _Profinite groups_, volume 40 of Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge, Springer-Verlag, 
 Berlin. 
