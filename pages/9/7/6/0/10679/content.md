@@ -36,7 +36,8 @@ For more details see at _[compactum -- Stone-&#268;ech compactification](compact
 
 ## Properties
 
-### On Tychonoff spaces
++-- {: .num_prop}
+###### Proposition
 
 The [[unit of an adjunction|unit]] 
 
@@ -46,9 +47,12 @@ $$
 
 of the compactification [[adjunction]] $(\beta \dashv U)$ is an [[embedding]] precisely for $X$ a [[Tychonoff space]].
 
+=--
+
 ## Examples
 
-### On discrete topological spaces
++-- {: .num_example}
+###### Example
 
 The Stone-Cech compactification of a [[discrete topological space]]
 is an [[extremally disconnected topological space]].
@@ -58,6 +62,7 @@ in the [[category]] of [[compact topological space|compact]]
 
 Such spaces appear for instance as connected components of [[w-contractible rings]] as objects in the [[pro-étale site]]. See ([Bhatt-Scholze 13](#BhattScholze13)).
 
+=--
 
 ## Related concepts
 
