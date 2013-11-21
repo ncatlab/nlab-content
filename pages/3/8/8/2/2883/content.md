@@ -35,6 +35,10 @@ The **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ for $A \in Sh(Et(X), Ab)$ of
 
 ## Properties
 
+### Relation to singular cohomology
+
+* [[comparison theorem (étale cohomology)]]
+
 ### With values in the multiplicative group
 
 the &#233;tale cohomology groups with values in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
@@ -58,10 +62,15 @@ the &#233;tale cohomology groups with values in the [[multiplicative group]] $\m
 
 ## References
 
-&#201;tale cohomology was conceived by [[Artin]], [[Deligne]], [[Alexander Grothendieck|Grothendieck]] and [[Verdier]] in 1963. It was used by Deligne to prove the [[Weil conjectures]]. Some useful remarks on this are in the begining of
+### History, motivation and original accounts
 
-* Spencer Bloch, Review of Milne's _&#201;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf); publisher's [book page](http://www.worldscibooks.com/mathematics/7773.html))
+&#201;tale cohomology was conceived by [[Artin]], [[Deligne]], [[Alexander Grothendieck|Grothendieck]] and [[Verdier]] in 1963. It was used by Deligne to prove the [[Weil conjectures]]. Some useful (and also funny) remarks on this are in the beginning of
 
+* [[Spencer Bloch]], Review of Milne's _&#201;tale cohomology_ ([pdf](http://www.ams.org/bull/1981-04-02/S0273-0979-1981-14894-1/S0273-0979-1981-14894-1.pdf); publisher's [book page](http://www.worldscibooks.com/mathematics/7773.html))
+
+See also
+
+* MathOverflow _[&#201;tale cohomology &#8212; Why study it?](http://mathoverflow.net/questions/6070/etale-cohomology-why-study-it)_
 
 The classical references include [[SGA]], esp.
 
@@ -70,9 +79,16 @@ The classical references include [[SGA]], esp.
 
 * [[James Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
 
-* [[Barry Mazur]], _Notes on &#233;tale cohomology of number fields_, [pdf](http://modular.math.washington.edu/edu/2010/582e/refs/mazur-notes_on_etale_cohomology_of_number_fields_original.pdf)
+See also
+
+* [[Barry Mazur]], _Notes on &#233;tale cohomology of number fields_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 6 no. 4 (1973), p. 521-552  ([Numdam](http://www.numdam.org/item?id=ASENS_1973_4_6_4_521_0), [pdf](http://modular.math.washington.edu/edu/2010/582e/refs/mazur-notes_on_etale_cohomology_of_number_fields_original.pdf))
+
+
+
+### Reviews and modern accounts
 
 * Thomas H. Geisser, _Weil-etale motivic cohomology_, [K-th archive](http://www.math.illinois.edu/K-theory/0565)
+
 
 A modern textbook, though largely based on the material in SGA is 
 
