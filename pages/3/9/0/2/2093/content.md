@@ -70,6 +70,8 @@ The Gelfand spectrum is also useful in the context of more general commutative B
 
 ## Related concepts
 
+* [[spectrum (geometry)]]
+
 * [[Isbell duality]]
 
   * [[Gelfand duality]]
