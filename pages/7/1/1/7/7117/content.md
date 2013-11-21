@@ -59,7 +59,11 @@ If $k = \mathbb{C}$, then $\mathbb{A}_k = \mathbb{C}$ is the ordinary [[complex 
 
 ## Related concepts
 
+* [[spectrum (geometry)]]
+
 * [[analytic geometry]], [[analytic space]]
+
+* [[p-adic geometry]]
 
 ## References
 
@@ -92,6 +96,9 @@ and section 1 of
 
 [[!redirects analytic spectra]]
 [[!redirects Berkovich analytic spectrum]]
+[[!redirects Berkovich analytic spectra]]
+
+
 [[!redirects Berkovich spectrum]]
 [[!redirects Berkovich spectra]]
 
