@@ -55,6 +55,7 @@ is called _weakly &#233;tale_ if
 
 =--
 
+
 ([Bhatt-Scholze 13, def. 4.1.1](#BhattScholze13))
 
 +-- {: .num_defn}
@@ -91,7 +92,7 @@ equipped with a [[faithfully flat morphism|faithfully flat]] [[pro-étale morphi
 +-- {: .num_remark}
 ###### Remark
 
-So the [[full subcategory]] on the [[w-contractible rings]] forms a [[dense subsite]] of the pro-&#233;tale site, consisting of objects with [[contractible]] pro-[[étale homotopy type]].
+So the [[full subcategory]] on the [[w-contractible rings]] forms a [[dense subsite]] of the pro-&#233;tale site, consisting of objects with pro-[[étale homotopy type]] a set.
 
 =--
 
@@ -123,6 +124,14 @@ $\nu$ is a [[surjective geometric morphism]] with [[full and faithful functor|fu
 =--
 
 ([Bhatt-Scholze 13, lemma 5.1.2](#BhattScholze13))
+
+
+## Examples
+
+Given a [[field]] $k$ with separable [[algebraic closure]] $\overline{k}$, then the pro-etale site of $Spec(\overline{k})$ is equivalently the category of [[profinite sets]]. ([Bhatt-Scholze 13, example 4.1.10](#BhattScholze13)).
+
+
+
 
 ## Related concepts
 
