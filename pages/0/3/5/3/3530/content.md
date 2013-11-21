@@ -51,8 +51,27 @@ An original account of the definition of the crystalline topos is [section 7, pa
 
 * [[Alexander Grothendieck]], _Crystals and de Rham cohomology of schemes_ , chapter IX in _Dix Exposes sur la cohomologie des schema_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf))
 
+Discussion of this in the modern context of [[higher geometry]]/[[D-geometry]] is in
+
 * [[Jacob Lurie]], Notes on [[crystal|Crystals]] and algebraic D-modules ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
 
+
+
+A [[p-adic cohomology]] for [[varieties]] in [[characteristic]] $p$ it was it was discussed in
+
+* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $g \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
+
+The [[comparison theorem (crystalline cohomology)]] shown there (theorem V2.3.2) shows that the crystalline cohomology over $\mathbb{Z}/p$ is canonically identified with the [[de Rham cohomology]] of a lift to [[p-adic geometry]] if one exists. See also
+
+* [[Pierre Berthelot]], A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
+
+* [[Pierre Berthelot]], A. Ogus, _$F$-Isocrystals and de Rham Cohomology_, I, Invent. math. 72, 1983, pp. 159-199
+
+Discussion of this in terms of [[Cech cohomology]] is in 
+
+* [[Bhargav Bhatt]], [[Aise Johan de Jong]], _Crystalline cohomology and de Rham cohomology_ ([pdf](http://www.math.columbia.edu/~dejong/papers/crystalline-comparison.pdf))
+
+
+See also 
+
 * wikipedia [crystalline cohomology](http://en.wikipedia.org/wiki/Crystalline_cohomology)
-* P. Berthelot, A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
-* P. Berthelot, A. Ogus, _$F$-Isocrystals and de Rham Cohomology_, I, Invent. math. 72, 1983, pp. 159-199
