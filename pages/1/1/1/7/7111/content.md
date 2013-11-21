@@ -123,6 +123,8 @@ for $GL_n$ by Harris&#8211;Taylor uses [[étale cohomology]] on non-archimedean 
 
 * [[non-commutative analytic space]]
 
+* [[p-adic geometry]]
+
 ## References
 
 ### Introductions and reviews
