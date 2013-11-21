@@ -77,7 +77,7 @@ Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that:
 
 Theorem \ref{AlgebraAdjoint} gives a necessary condition for an object $A$ to admit a $T$-algebra structure, namely that $\eta_A : A \to T A$ admit a left adjoint with identity counit.  In the case of pseudo algebras, this necessary condition is also sufficient.
 
-+--{:.num_theorem #PseudoAlgebras}
++--{: .num_theorem #PseudoAlgebras}
 ###### Theorem
 To give a pseudo $T$-algebra structure on an object $A$ is equivalently to give a left adjoint to $\eta_A : A\to T A$ with invertible counit.
 =--
