@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+Some flavor of [[algebraic geometry]], [[arithmetic geometry]], [[analytic geometry]] based on [[p-adic numbers]].
+
+## Examples
+
+* [[adic space]]
+
+* [[Berkovich analytic space]]
+
+## Related concepts
+
+* [[p-adic homotopy]]
+
+* [[p-adic cohomology]]
+
+* [[p-adic physics]]
+
+## References
+
+* Bernard Le Stum, _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
