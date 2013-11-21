@@ -38,14 +38,24 @@ If $S$ is of characteristic 0, then $Cris(X/S)$ coincides with the **infinitesim
 Crystalline cohomology of $X$ is the [[cohomology]] of the [[de Rham space]]
 of $X$. See there for more. 
 
+### Relation to de Rham cohomology
+
+* [[comparison theorem (crystalline cohomology)]]
+
 ### Relation to differential homotopy type theory
 
 In [[differential homotopy type theory]] the [[infinitesimal flat modality]]
 sends [[coefficients]] to coefficients for crystalline cohomology.
 
-## Relateed concepts
+## Related concepts
 
 * [[p-adic cohomology]]
+
+* [[de Rham cohomology]]
+
+* [[Weil cohomology]]
+
+  * [[étale cohomology]]
 
 ## References
 
