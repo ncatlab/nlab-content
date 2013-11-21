@@ -499,7 +499,7 @@ An introductory survey is given in
 
 The original form of the homotopy hypothesis for Kan complexes is due to [[Dan Quillen]]. See the references at _[[model structure on simplicial sets]]_.
 
-The homotopy hypothesis for strict $\omgea$-categories with weak inverses is discussed in
+The homotopy hypothesis for strict $\omega$-categories with weak inverses is discussed in
 
 * [[Mikhail Kapranov]], [[Vladimir Voevodsky]], _$\infty$-groupoids and homotopy types_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 32 no. 1 (1991), p. 29-46 
  {#KapranovVoevodsky}
