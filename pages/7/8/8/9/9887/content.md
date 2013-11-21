@@ -19,7 +19,7 @@
 
 ## Idea
 
-The original theorem by Snaith ([Snaith 79](#Snaith79)) identifies the [[complex K-theory spectrum]] [[KU]] simply as the localization of the [[∞-group ∞-ring]] $\mathbb{S}[B U(1)]$ of the [[circle 2-group]] at the [[Bott element]] $\beta$:
+The original theorem by Snaith ([Snaith 79](#Snaith79)) identifies the [[complex K-theory spectrum]] [[KU]] simply as the localization of the [[∞-group ∞-ring]] $\mathbb{S}[B U(1)]$ of the [[circle 2-group]] away from the [[Bott element]] $\beta$:
 
 $$
   KU \simeq \mathbb{S}[B U(1)][\beta^{-1}]
