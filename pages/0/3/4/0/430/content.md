@@ -129,7 +129,7 @@ The fields of:
 
 * [[graded field]]
 
-* [[E-infinity field]]
+* [[infinity-field]]
 
 ## References
 
