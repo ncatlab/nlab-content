@@ -145,6 +145,14 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[finite topological space]]
 
+* [[discrete topological space]]
+
+* [[codiscrete topological space]]
+
+* [[Alexandroff space]]
+
+* [[spectral topological space]]
+
 * [[CW-complex]]
 
 * [[manifold]]
@@ -156,15 +164,6 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[point]]
 
-
-+-- {: .num_example}
-###### Example
-
-The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets [[nLab:topological base|generated from]]: [[nLab:unions]] of [[open balls]] $D^n subset \mathbb{R}^n$.
-
-=--
-
-
 * [[simplex]]
 
 * [[circle]]
@@ -174,6 +173,14 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 * [[long line]]
 
 ...
+
++-- {: .num_example}
+###### Example
+
+The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets [[nLab:topological base|generated from]]: [[nLab:unions]] of [[open balls]] $D^n \subset \mathbb{R}^n$.
+
+=--
+
 
 ## Related concepts
 
