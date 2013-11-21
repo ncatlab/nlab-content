@@ -1,28 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Profinite groups
 * table of contents
 {: toc}
 
 
-## Definition (categorical form)
+## Definition 
+
+### Categorical form
 
 A **profinite group** is a [[pro-object]] in the category of [[finite group|finite groups]] (thus it might more precisely be called a pro-(finite group)).  
 
-###Commentary
+
++-- {: .num_remark}
+###### Remark
+
 
 This means that it is a [[filtered category|cofiltered]] diagram of finite groups, which is thought of as a "formal limit" but the limit is not actually computed.  In most cases, the limit would not actually exist in the category of finite groups, and while it would exist in the category of all groups, it would be "wrong" category-theoretically: maps between profinite groups are not the same as maps between their honest limits in [[Grp]].
 
 However, because of [[Stone duality]], it turns out that maps between profinite groups _are_ the same as maps between their honest limits in the category of [[topological group|topological groups]], where the finite groups are given the discrete topology.  Thus, the category of profinite groups can alternately be defined as the category of topological groups that are filtered inverse limits of finite groups.  Moreover, the topological groups that arise in this way can be characterized as those which are [[Hausdorff space|Hausdorff]], [[compact space|compact]], and [[totally disconnected space|totally disconnected]], giving a more elementary definition. In other words, their underlying topological spaces are [[profinite space|profinite]].
 
-## Definition (inverse limit form)
+=--
+
+### Inverse limit form
 
 A   __profinite group__ is an inverse limit of a system of finite groups.
 
-###Commentary
++-- {: .num_remark}
+###### Remark
 
 The finite groups are considered as compact discrete topological groups and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology__, hence is, as is said above, a compact Hausdorff, totally disconnected group.
 
 Both ways of looking at profinite groups as useful, as sometimes a concept can be easier to understand in one of the settings. 
 
+=--
 
 ## Examples
 
@@ -53,6 +74,16 @@ Both ways of looking at profinite groups as useful, as sometimes a concept can b
 ## Analogues of the group algebra construction
 
 If $G$ is a profinite or pro-p group, the best replacement for the group algebra of $G$  in this context will be  a [[pseudocompact algebra]].  This is the completed group algebra defined as the inverse limit of the ordinary group algebras $k[G/U]$ as $U$ varies through the open normal subgroups of $G$. Here the coefficient ring $k$ will be chosen itself to be a [[pseudocompact ring]]. As finite rings are pseudocompact, one of the most appropriate choices will be a $k = \mathbb{Z}_p$, the field of $p$ elements; (see the book by Dixon et al, below).
+
+## Related concepts
+
+* [[profinite completion of a group]]
+
+* [[profinite set]]
+
+* [[profinite space]]
+
+* [[pro-etale site]]
 
 ## References
 
