@@ -82,7 +82,15 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 * [[p-adic integer]]
 
-* [[p-adic analytic space]], [[non-commutative analytic space]]
+* [[p-adic geometry]]
+
+  * [[p-adic analytic space]], [[non-commutative analytic space]]
+
+* [[p-adic homotopy]]
+
+* [[p-adic cohomology]]
+
+* [[p-adic physics]]
 
 ## References
  {#References}
