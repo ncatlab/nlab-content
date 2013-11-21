@@ -61,6 +61,12 @@ This is rectified by passing to [[pro-étale cohomology]]. Here $\mathbb{Q}_{\el
 
 * [[p-adic integers]]
 
+* [[p-adic geometry]]
+
+* [[p-adic homotopy]]
+
+* [[p-adic physics]]
+
 ## References
 
 A textbook account is in
@@ -79,3 +85,5 @@ A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohom
 
 
 [[!redirects l-adic cohomology]]
+
+[[!redirects p-adic cohomology]]
