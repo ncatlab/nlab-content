@@ -1,0 +1,70 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A [[topological space]] is called _extremally disconnected_ if the [[closure]] of any [[open subset]] is still an open subset.
+
+=--
+
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem (Gleason)
+
+Extremally disconnected topological spaces are precisely the [[projective objects]] in the [[category]] of [[compact topological space|compact]] [[Hausdorff topological spaces]].
+
+=--
+
+See e.g. ([Bhatt-Scholze 13, below theorem 1.8](BhattScholze13))
+
++-- {: .num_prop}
+###### Proposition
+
+For $R$ a [[w-contractible ring]], the [[profinite set]] $\pi_0(Spec R)$
+is an extremally disconnected [[profinite set]].
+
+=--
+
+Part of ([Bhatt-Scholze 13, theorem 1.8](#BhattScholze13))
+
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+For $S$ any [[set]] regarded as a [[discrete topological space]],
+its [[Stone-Cech compactification]] is extremally disconnected.
+
+=--
+
+(e.g. [Bhatt-Scholze 13, example 2.4.6](#BhattScholze13))
+
+## References
+
+Discussion in the context of the [[pro-etale site]] is in
+
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+ {#BhattScholze13}
+
+[[!redirects extremally disconnected profinite sets]]
+
+[[!redirects extremally disconnected profinite set]]
+
