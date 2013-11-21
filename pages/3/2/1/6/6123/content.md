@@ -61,6 +61,16 @@ between the [[category]] of [[associative algebras]] over $R$ and that of [[grou
 
 =--
 
+## Examples
+
++-- {: .num_example}
+###### Example
+
+The group of units of the [[ring of adeles]] is the [[group of ideles]].
+
+=--
+
+
 ## Related concepts
 
 * **group of units**/[[multiplicative group]], [[Picard group]], [[Brauer group]]
