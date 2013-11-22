@@ -29,6 +29,11 @@ A _complex analytic test space_ is a common vanishing locus of a set of [[holomo
 
 A _smooth_ complex analytic space is locally isomorphic to a [[polydisc]] and hence locally contractible. See also ([Berkovich, p.2](#Berkovich)).
 
+## Related concepts
+
+* [[complex analytic topology]]
+
+* [[comparison theorem (etale cohomology)]]
 
 ## References
 
