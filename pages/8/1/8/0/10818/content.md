@@ -21,7 +21,7 @@ A [[lax-idempotent 2-monad]] generalizes the notion of [[idempotent monad]] to 2
 
 We will need to use all three kinds of composition in the 3-category $2 Cat$.  We write composition along 0-cells (2-categories) with juxtaposition.  We write composition along 1-cells (2-functors) with a dot; this is of course composition along 0-cells *in* a 2-category.  And we write composition along 2-cells (transformations) with $\circ$, which is composition along 1-cells *in* a 2-category.
 
-Let $F : C \rightleftarrows D : G$ be a [[2-adjunction]] with unit $\eta: 1_C \to G F$ and counit $\epsilon: F G \to 1_D$.  It is said to be **lax-idempotent** if one (hence all) of the following equivalent conditions hold.
+Let $F : C \rightleftarrows D : G$ be a [[2-adjunction]] with unit $\eta: 1_C \to G F$ and counit $\epsilon: F G \to 1_D$.  (For simplicity, we will assume it is a strict 2-adjunction, but the same definitions and proofs work in the pseudo case with some equalities replaced by isomorphisms.)  This 2-adjunction is said to be **lax-idempotent** if one (hence all) of the following equivalent conditions hold.
 
 1. The triangle identity $1_F = \epsilon F . F\eta$ is the unit of an adjunction $F\eta \dashv \epsilon F$.
 
@@ -65,7 +65,7 @@ In contrast to that situation, however, the lax-idempotent situation is of inter
 
 ## References
 
-* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*
+* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.  In this book the notion is called a "KZ adjointness" and defined by both (1) *and* (6).
 
 [[!redirects lax-idempotent 2-adjunction]]
 [[!redirects lax-idempotent 2-adjunctions]]
