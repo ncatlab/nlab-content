@@ -327,6 +327,12 @@ Section 4.2 of
  {#May}
 
 
+For [[abelian sheaves]] over the [[etale site]]:
+
+* [[James Milne]], section 8 of _[[Lectures on Étale Cohomology]]_
+
+
 
 [[!redirects injective modules]]
 
+[[!redirects enough injectives]]
