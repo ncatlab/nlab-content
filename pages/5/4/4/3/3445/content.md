@@ -185,6 +185,11 @@ The definition of _locally constant sheaf_ originates in the notion of _covering
 
 * [[SGA]] 4, Expos&#233; IX, 2.0 .
 
+Lecture notes are in
+
+* [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
+
+
 The topos-theoretic definition is reproduced in the context of a discussion of the notion of [[Galois topos]] as definition 5.1.1 in
 
 * [[Eduardo Dubuc]], _On the representation theory of Galois and Atomic Topoi_ ([arXiv:0208222](http://arxiv.org/abs/math/0208222))
