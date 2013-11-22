@@ -1,5 +1,3 @@
-[[!redirects Frobenius endomorphism]]
-[[!redirects Frobenius map]]
 
 #Contents#
 * table of contents
@@ -150,7 +148,9 @@ If $k=\mathbb{F}$ is a finite field we have $X^{(p)}=X$ however $F_X$ will not e
 
 If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\prime}=F_X\otimes_k k^\prime$.
 
+## Related concepts
 
+* [[Weil conjecture]]
 
 ## References
 
@@ -161,3 +161,13 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
+
+* [[James Milne]], section 27 of _[[Lectures on Étale Cohomology]]_
+
+[[!redirects Frobenius morphisms]]
+
+[[!redirects Frobenius endomorphism]]
+[[!redirects Frobenius endomorphisms]]
+
+[[!redirects Frobenius map]]
+[[!redirects Frobenius maps]]
