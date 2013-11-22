@@ -92,7 +92,7 @@ See also
 
 A modern textbook, though largely based on the material in SGA is 
 
-* Lei Fu, _Etale cohomology theory_, Nankai Tracts in Math. __13__, World Sci. 2011; ([toc pdf](http://www.worldscibooks.com/etextbook/7773/7773_toc.pdf); Preface [pdf](http://www.worldscibooks.com/etextbook/7773/7773_preface.pdf); chap. 1 Descent theory [pdf](http://www.worldscibooks.com/etextbook/7773/7773_chap01.pdf)) 
+* Lei Fu, _&#201;tale cohomology theory_, Nankai Tracts in Math. __13__, World Sci. 2011; ([toc pdf](http://www.worldscibooks.com/etextbook/7773/7773_toc.pdf); Preface [pdf](http://www.worldscibooks.com/etextbook/7773/7773_preface.pdf); chap. 1 Descent theory [pdf](http://www.worldscibooks.com/etextbook/7773/7773_chap01.pdf)) 
 
 A comprehensive set of lecture notes is in
 
@@ -101,7 +101,11 @@ A comprehensive set of lecture notes is in
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ 2009, in _[[The Stacks Project]]_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
+See also
+
 * Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, [pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf)
+
+* Edgar Costa, _&#201;tale cohomology_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/686086/1/tese.pdf))
 
 Discussion of [[generalized cohomology theory]] on the [[étale site]] but with [[coefficients]] in [[sheaves of spectra]] is in 
 
@@ -114,7 +118,7 @@ Discussion of generalized &#233;tale cohomology over the [[étale (∞,1)-site]]
  {#AntieauGepner12}
 
 * [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
-  {Lurie}
+  {#Lurie}
 
 [[!redirects étale cohomology]]
 
