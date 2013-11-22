@@ -45,6 +45,11 @@ The [[base change]] formulas for [[cohomology]] for proper and for smooth morphi
 
 See [[proper map of toposes]].
 
+## Related concepts
+
+
+* [[proper base change theorem]]
+
 
 ## References
 
