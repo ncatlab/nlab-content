@@ -20,6 +20,9 @@
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 A [[smooth function]] $f : X \to Y$ between two [[smooth manifold]]s is a **local diffeomorphism** if the following equivalent conditions hold
 
 * $f$ is both a [[submersion]] and an [[immersion]];
@@ -50,7 +53,16 @@ A [[smooth function]] $f : X \to Y$ between two [[smooth manifold]]s is a **loca
        f|_U : U \stackrel{\simeq}{\to}  f(U)
      $$
 
+=--
+
 The equivalence of the conditions on [[tangent space]] with the conditions on [[open subset]]s follows by the [[inverse function theorem]].
+
++-- {: .num_remark}
+###### Remark
+
+An analogous characterization of [[étale morphisms]] between [[affine algebraic varieties]] isgiven by [[tangent cones]]. See there.
+
+=--
 
 ## Properties
 
