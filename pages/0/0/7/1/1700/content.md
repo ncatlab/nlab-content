@@ -408,6 +408,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 * [[categorical Galois theory]], [[Grothendieck's Galois theory]]
 
+* [[Galois cover]]
+
 * [[differential Galois theory]]
 
 * [[Galois cohomology]]
