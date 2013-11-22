@@ -47,6 +47,8 @@ Concretely if $X$ is a [[manifold]], then $\omega$ is the sheaf of [[densities]]
 
 The duality is named after [[Jean-Louis Verdier]].
 
+* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. 9 (1996), 205&#8211;236. ([JSTOR](http://www.jstor.org/stable/2152846))
+
 * Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
 
 * Liviu Niculaescu, _The derived category of sheaves and the Poincar&#233;-Verdier duality_ ([pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf))
