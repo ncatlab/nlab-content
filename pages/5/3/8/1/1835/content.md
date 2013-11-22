@@ -1,9 +1,9 @@
-#Contents#
 
-* automatic table of contents goes here
+#Contents#
+* table of contents
 {: toc}
 
-#Idea#
+## Idea
 
 A _scheme_ is a [[space]] that _locally_ looks like a particularly simple [[ringed space]]: an [[affine scheme]].
 This can be formalised either within the category of [[locally ringed spaces]] or within the category of presheaves of sets on the category of affine schemes $Aff$.
@@ -25,11 +25,11 @@ For instance a smooth [[manifold]] is a ringed space locally isomorphic to a "sm
 The standard concept of scheme in [[algebraic geometry]] is therefore usefully understood as a special case of [[generalized scheme]]s that naturally appear for instance also in [[differential geometry]], in [[synthetic differential geometry]] and many other topics.
 
 
-# Definition #
+## Definition 
 
 Throughout this article, "ring" will mean "commutative ring with unit". 
 
-## As locally ringed spaces ##
+### As locally ringed spaces ##
 
 A __scheme__ is a [[locally ringed space]] $(X, \mathcal{O}_X)$ with an open cover (as locally ringed spaces), by [[affine scheme]]s: the [[ring spectrum|spectra]] $Spec A = (|Spec A|, \mathcal{O}_{Spec A})$ of unital commutative [[ring]]s.
 
@@ -42,7 +42,7 @@ $$
 is _local_ (in that it carries the maximal ideal to the maximal ideal). See [[functor of points]].
 
 
-## As sheaves on $CRing^{op}$
+### As sheaves on $CRing^{op}$
 
 +-- {: .num_defn}
 ###### Definition
@@ -113,7 +113,8 @@ A $k$-functor $X$ is called a $k$_-scheme_ if the following two conditions hold:
 The category of $k$-schemes is closed under finite limits, forming open- and closed subfunctors, and scalar extension. As a subcategory of the category of Zariski sheaves, it is also closed under taking small coproducts. 
 
 =--
-## Translation between the two approaches
+
+### Translation between the two approaches
 
 The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to the category $Aff:=Psh(C Ring^{op})$ of [[presheaf|presheaves]] on the opposite category of commutative rings
 given by
@@ -142,13 +143,15 @@ In [[algebraic geometry]] this is a basic object of study, since the revolution 
 
 [[Jacob Lurie]] argues that underlying locale point of view is better than underlying topological space point of view, see [[schemes as locally affine structured (∞,1)-toposes]].
 
+### Simplicial schemes
 
+* [[simplicial scheme]]
 
-#References#
+## References
 
 Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says scheme for what we call [[separated scheme]].
 
-#### Standard monographs
+### Standard monographs
 
 * Robin Hartshorne, _Algebraic geometry_, Springer
 
@@ -171,7 +174,7 @@ Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says
 
 * [[EGA]], [[FGA explained]]
 
-#### Other references
+### Other references
 
 * Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]  -- at the beginning one fins a quick introduction in the light of its higher categorical generalizations 
