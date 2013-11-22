@@ -246,7 +246,7 @@ In some cases the passage to the [[Langands dual group]] in the [[geometric Lang
 
   * [[differential T-duality]]
 
-* [[T-fold]]
+* [[T-fold]], [[double field theory]]
 
 * [[duality in string theory]]
 
