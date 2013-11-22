@@ -774,6 +774,8 @@ In fact, the history of the development of the theory of principal bundles and [
 
   * [[caloron correspondence]]
 
+  * [[Galois cover]]
+
   * [[bibundle]]
 
   * [[groupoid principal bundle]]
