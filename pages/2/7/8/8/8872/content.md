@@ -68,9 +68,11 @@ is a [[pullback]].
 
 ## References
 
-A review is for instance around def. 1.1.6 of the thesis
+Reviews include
 
-* Edgar Costa, _&#201;tale cohomology_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/686086/1/tese.pdf))
+* [[James Milne]], p. 18 of _[[Lectures on Étale Cohomology]]_
+
+* Edgar Costa, around def. 1.1.6  of _&#201;tale cohomology_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/686086/1/tese.pdf))
   {#Costa}
 
 See also
