@@ -47,7 +47,7 @@ $$
   \sigma : Bord_{(\infty,\infty)} \to R
 $$
 
-from the [[(∞,n)-category of cobordisms]] for $n \to \infty$ to a [[ring spectrum]] $S$. This is equivalently the [[Thom spectrum]] (see at [[cobordism ring]] for more) and so a genus may be thought of as a morphism of [[spectra]]
+from the [[(∞,n)-category of cobordisms]] for $n \to \infty$ to a [[ring spectrum]] $R$. This is equivalently the [[Thom spectrum]] (see at [[cobordism ring]] for more) and so a genus may be thought of as a morphism of [[spectra]]
 
 $$
   \sigma : M O \to R
