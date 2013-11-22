@@ -42,7 +42,11 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[étale morphism of schemes]]
 
-## 3. The &#233;tale fundamental grouo
+* [[tangent cone]]
+
+* [[unramified morphism of schemes]]
+
+## 3. The &#233;tale fundamental group
 
 * [[étale fundamental group]]
 
@@ -50,15 +54,51 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 ## 4. The local ring for the &#233;tale topology
 
+* [[germ]]
+
+* [[local ring]]
+
+* [[locally ringed topological space]]
+
+* [[Henselian ring]]
+
+* [[geometric point]]
+
 ## 5. Sites
 
 * [[site]]
 
+* [[presheaf]]
+
+* [[sheaf]]
+
 ## 6. Sheaves for the &#233;tale topology
 
-+ [[sheaf]]
+* [[Galois cover]]
+
+* [[descent]]
+
+* [[structure sheaf]]
+
+* [[sheaf of coherent modules]] 
+
+* [[stalk]]
+
+* [[skyscraper sheaf]]
+
+* [[locally constant sheaf]]
 
 ## 7. The category of sheaves on $X_{et}$
+
+* [[additive and abelian categories]]
+
+* [[category of presheaves]]
+
+* [[category of sheaves]]
+
+* [[sheafification]]
+
+* [[algebraic space]]
 
 * [[étale topos]]
 
@@ -68,19 +108,39 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[inverse image]]
 
+* [[injective module]]
+
+* [[enough injectives]]
+
 ## 9. Cohomology: Definition and basic properties
 
 * [[cohomology]]
 
 * [[abelian sheaf cohomology]]
 
+* [[left exact functor]]
+
+* [[global section functor]]
+
+* [[derived functor]]
+
+* [[Ext]]
+
+* [[excision]]
+
 ## 10. Cech cohomology
 
 * [[Cech cohomology]]
 
+* [[Grothendieck spectral sequence]]
+
 ## 11. Principal homogeneous spaces and $H^i$
 
-* [[principal homogeneous space]]
+* [[principal homogeneous space]], [[torsor]], [[principal bundle]]
+
+* [[nonabelian cohomology]]
+
+* [[gerbe]]
 
 ## 12. Higher direct images; the Leray spectral sequence
 
@@ -90,7 +150,20 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 ## 13. The Weil-divisor  exact sequence and the cohomology of $\mathbb{G}_m$
 
+* [[Weil divisor]]
+
+* [[function field]]
+
+* [[Brauer group]]
+
 ## 14. The cohomology of curves
+
+* [[Picard group]]
+
+* [[Poincaré duality]]
+
+* [[Hochschild-Serre spectral sequence]]
+
 
 ## 15. Cohomological dimension
 
@@ -110,13 +183,21 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 ## 19. Finiteness theorem; Sheaves of $\mathbb{Z}_l$-modules
 
+* [[ℓ-adic cohomology]]
+
+
 ## 20. The smooth base change theorem
 
-* [[base change]]
+* [[proper base change theorem]]
 
 ## 21. The comparison theorem
 
+* [[complex analytic topology]]
+
+* [[Riemann existence theorem]]
+
 * [[comparison theorem (étale cohomology)]]
+
 
 ## 22. The K&#252;nneth formula
 
@@ -130,6 +211,8 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[Poincaré duality]]
 
+* [[Verdier duality]]
+
 ## 25. Lefschetz fixed-point formula
 
 * [[Lefschetz fixed-point formula]]
@@ -139,6 +222,8 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 * [[Weil conjecture]]
 
 ## 27. Proof of the Weil conjectures, except for the Riemann hypothesis
+
+* [[Frobenius endomorphism]]
 
 ## 28. Preliminary reductions
 
