@@ -68,6 +68,19 @@ A [[morphism]] of [[schemes]] is an **&#233;tale morphism** if the following equ
 +-- {: .num_remark}
 ###### Remark
 
+For morphisms $f \colon X \longrightarrow Y$ between [[algebraic varieties]] over an [[algebraically closed field]] this means that for all points $p \in X$ the induced morphism on [[tangent cones]]
+
+$$
+  T_p X \longrightarrow T_{f(p)} Y
+$$
+
+is an [[isomorphism]]. This is analogous to the corresponding characterization of [[local diffeomorphisms]] of [[smooth manifolds]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 Relaxing the finiteness condition in item 4 of \ref{EquivalentConditionsForEtale} yields the notion of _[[weakly étale morphism]]_.
 
 [[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[pro-étale morphism of schemes|pro-étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
@@ -117,13 +130,53 @@ See at _[[differential cohesion]]_ and at _[[infinitesimal shape modality]]_.
 
 ### Closure properties
 
-* A [[composite]] of &#233;tale morphism is &#233;tale.
++-- {: .num_prop}
+###### Proposition
 
-* The property of being &#233;tale is [[base change|preserved under pullbacks]] along any morphism of schemes. 
+* A [[composite]] of two &#233;tale morphism is itself &#233;tale.
 
-* A smooth map of schemes is &#233;tale iff there is an [[étale cover]] of the base  scheme by [[open subschemes]] such that the pullback of the projection to each of them is an open local isomorphism of [[locally ringed spaces]] (and in particular, the pullback of the projection morphism is an [[étalé space|étale map]] of the corresponding underlying topological spaces). 
+* The [[pullback]] of an &#233;tale morphism is &#233;tale.
 
-  This disjointness picture of &#233;tale covers make them suitable for having nontrivial [[cohomology]] in situations where Zariski covers give vanishing cohomology.
+* If $f_1 \circ f_2$ is &#233;tale and $f_1$ is, then so is $f_2$.
+
+=--
+
+(e.g. [Milne, prop. 2.11](#Milne))
+
++-- {: .proof}
+###### Proof
+
+Use that an &#233;tale morphism is a [[formally étale morphism]] with finite fibers, and that $f \colon X \to Y$ is formally &#233;tale precisely if the [[infinitesimal shape modality]] [[unit of a monad|unit]] [[natural transformation|naturality square]]
+
+$$
+  \array{
+    X &\longrightarrow& \Pi_{inf}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\longrightarrow& \Pi_{inf}(Y)
+  }
+$$
+
+is a [[pullback]] square. Then the three properties to be shown are equivalently the [[pasting law]] for pullback diagrams.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+
+A [[smooth morphism of schemes]] is &#233;tale iff there is an [[étale cover]] of the base  scheme by [[open subschemes]] such that the pullback of the projection to each of them is an open local isomorphism of [[locally ringed spaces]] (and in particular, the pullback of the projection morphism is an [[étalé space|étale map]] of the corresponding underlying topological spaces). 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This disjointness picture of &#233;tale covers make them suitable for having nontrivial [[cohomology]] in situations where Zariski covers give vanishing cohomology.
+
+=--
 
 ### Classes of examples
 
@@ -147,21 +200,11 @@ Such &#233;tale morphisms are classified by the classical [[Galois theory]] of f
 +-- {: .num_prop}
 ###### Proposition
 
-A [[ring]] homomorphism $A \to B$ is &#233;tale precisely if  $B \simeq R[x_1, \cdots, x_n]/(f_1, \cdots, f_n)$ where 
-
-* all the $f_i$ are [[polynomial]]s;
-
-* the [[Jacobian]] $det(\frac{\partial f_i}{\partial x_j})$ is a unit in $S$.
+A [[ring]] homomorphism of [[affine varieties]] $Spec(A) \to Spec(B)$ for $Spec(B)$ non-singular and for $A \simeq B[x_1, \cdots, x_n]/(f_1, \cdots, f_n)$  with [[polynomials]] $f_i$ is &#233;tale precisel if the [[Jacobian]] $det(\frac{\partial f_i}{\partial x_j})$ is invertible.
 
 =--
 
-This appears for instance as [de Jong, prop. 3.1 ii)](#deJong).
-
-+-- {: .standout}
-
-This proposition seems to be wrong for 2 reasons; first, A,B,R,S are 2 many symbols. Second, the statement sounds like "etale iff standard smooth" but only the direction "etale implies standard smooth" is true (and can be found in the stacks project). Since I couldn't find the cited source, I couldn't look into what the statement is supposed to be, originally. -- Konrad
-
-=--
+This appears for instance as ([Milne, prop. 2.1](#Milne)).
 
 
 
@@ -215,6 +258,7 @@ The classical references are
 Lecture notes include
 
 * [[James Milne]], section 2 of _[[Lectures on Étale Cohomology]]_
+ {#Milne}
 
 
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
