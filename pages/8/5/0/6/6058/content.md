@@ -193,7 +193,7 @@ Write $\mathbf{H}_{diff,2}(X, \mathbf{B}^3 U(1))$ for a [[3-groupoid]] whose obj
 
 A 1-groupoid truncation of this idea is the object denoted $\mathcal{H}^p(X)$ in [KahleValentino, A.2](#KahleValentino).
 
-+-- {: .num_defn }
++-- {: .num_remark }
 ###### Remark
 
 In terms of the notion of [[differential function complex]] we should simply set
