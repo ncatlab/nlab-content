@@ -26,6 +26,8 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 ## References
 
+* [[James Milne]], section 26 of _[[Lectures on Étale Cohomology]]_
+
 * [[Sophie Morel]] _The Weil conjectures, from Abel to Deligne_  ([IAS video](http://video.ias.edu/members/2013/1014-SophieMorel)). Note that the title was chosen as a joke by Morel; she clarifies that there is no known connection between Abel and the Weil conjectures.
 
 * Wikipedia, _[Weil conjectures](http://en.wikipedia.org/wiki/Weil_conjectures)_
