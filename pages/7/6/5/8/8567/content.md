@@ -16,7 +16,7 @@ Suppose a scheme $S$ is defined over  a field $k$, so is equipped with a morphis
 +-- {: .num_defn}
 ###### Definition
 
-A **geometric point** $\xi$ in $S$ is a [[morphism]] from $Spec(\overline{k})$ to $S$ where $\overline{k}$ is an [[algebraic closure]] of $k$.
+A **geometric point** $\xi$ in $S$ is a [[morphism]] from the [[spectrum of a commutative ring|spectrum]] $Spec(\overline{k})$ to $S$ where $\overline{k}$ is an [[algebraic closure]]/[[separable closure]] of $k$.
 
 =--
 
@@ -45,5 +45,7 @@ In general the set of geometric points of a scheme is different from the set of 
 * [[EGA]]
 
 * [[SGA1]]
+
+* [[James Milne]], section 4 of _[[Lectures on Étale Cohomology]]_
 
 [[!redirects geometric points]]
