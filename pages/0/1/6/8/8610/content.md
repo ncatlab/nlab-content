@@ -29,19 +29,28 @@ Galois cohomology is studied notably in the context of _[[algebraic number theor
 
 ## Properties
 
+### Relation to &#233;tale cohomology
+
+Galois cohomology of a [[field]] $k$ is essentially the
+[[étale cohomology]] of the [[spectrum of a commutative ring|spectrum]]
+$Spec(k)$.
+
+See also at _[[comparison theorem (étale cohomology)]]_.
+
+
 ### In terms of cohesive homotopy type theory 
  {#InCohesiveHomotopyTypeTheory}
 
 We make some comments on the formulation of Galois cohomology in [[cohesive homotopy type theory]].
 
-As discussed at _[[Galois theory]]_, the [[absolute Galois group]] $G_{Galois}$ of a [[field]] $K$ is the [[fundamental group]] of the [[space]] $X \coloneqq Spec(K)$. Hence its [[delooping]] $\mathbf{B}G_{Galois}$ is the [[fundamental groupoid]]
+As discussed at _[[Galois theory]]_, the [[absolute Galois group]] $G_{Galois}$ of a [[field]] $K$ is the [[fundamental group]] of the [[spectrum of a commutative ring|spectrum]] $X \coloneqq Spec(K)$. Hence its [[delooping]] $\mathbf{B}G_{Galois}$ is the [[fundamental groupoid]]
 
 $$
   \Pi_1(X)  \simeq \mathbf{B}G_{Galois}
   \,.
 $$ 
 
-In [[cohesive homotopy type theory]] there exists the [[fundamental ∞-groupoid]]-construction 
+In [[cohesive homotopy type theory]] there exists the [[fundamental ∞-groupoid]]-construction  -- the [[shape modality]] $\Pi$ --
 
 $$
   X \colon Type \;\vdash \; \Pi(X) \colon Type
