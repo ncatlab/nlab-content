@@ -49,6 +49,10 @@ and it is converging to the [[group cohomology]] $E^n_\infty = H^n(G,A)$.
 
 There is a similar spectral sequence for [[group homology]] obtained as a Grothendieck spectral sequence for the two-stage computation of [[coinvariants]].  
 
+## References
+
+* [[James Milne]], section 14 of _[[Lectures on Étale Cohomology]]_
+
 
 [[!redirects Hochschild–Serre spectral sequence]]
 [[!redirects Hochschild--Serre spectral sequence]]
