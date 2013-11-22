@@ -53,24 +53,36 @@ Even more generally, &#233;tale homotopy give the notion of [[shape of an (∞,1
 
 ## References
 
+Original articles include
+
 * [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
   {#ArtinMazur}
-
 
 * [[Eric Friedlander]], _Fibrations in &#233;tale homotopy theory [(numdam)](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1973__42_/PMIHES_1973__42__5_0/PMIHES_1973__42__5_0.pdf)_, Publ. Math. 
 Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 
+An introduction is in
+
+* Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
+
+
+Lecture notes on the &#233;tale fundamental group are in
+
+* [[James Milne]], section 4 of _[[Lectures on Étale Cohomology]]
+
+
+Generalization to [[simplicial schemes]] is discussed in
 
 * [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
-* Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
 
 
 [[!redirects étale homotopy theory]]
 
 [[!redirects etale homotopy]]
 [[!redirects etale homotopy theory]]
+
 
 [[!redirects etale homotopy group]]
 [[!redirects étale homotopy group]]
@@ -79,6 +91,10 @@ Inst. des Haut. &#201;tudes Scient., 42, (1973), 5 &#8211; 46.
 
 [[!redirects étale fundamental group]]
 [[!redirects étale fundamental groups]]
+[[!redirects etale fundamental group]]
+[[!redirects etale fundamental groups]]
+
+
 
 [[!redirects étale homotopy type]]
 [[!redirects étale homotopy types]]
