@@ -6,7 +6,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **&#233;tale cover** of an algebraic [[scheme]] $X$ is a set 
@@ -20,14 +20,14 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The condition of being locally of finite type is just strengthening the variant of the  notion of &#233;tale: in the case of non-Noetherian schemes Grothendieck requires instead that &#233;tale morphisms be locally of finite presentation; for the purpose of [[étale topology]] locally of finite type is required. 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The [[étale site]] has [[covering]]s given by the &#233;tale covers.
@@ -36,7 +36,7 @@ The [[étale site]] has [[covering]]s given by the &#233;tale covers.
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every &#233;tale cover is a [[cover]] in the [[fpqc topology]].
