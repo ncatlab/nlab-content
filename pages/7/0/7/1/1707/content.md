@@ -164,6 +164,8 @@ $$
 
 =--
 
+[[!include homotopy type representation theory -- table]]
+
 
 
 ### For an ordinary group and abelian coefficients: In terms of homological algebra
