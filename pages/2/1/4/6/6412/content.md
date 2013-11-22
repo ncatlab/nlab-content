@@ -95,10 +95,18 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 ## References
  {#References}
 
+The $p$-adic numbers had been introduced in 
+
+* [[Kurt Hensel]], _&#220;ber eine neue Begr&#252;ndung der Theorie der algebraischen Zahlen_ Jahresbericht der Deutschen Mathematiker-Vereinigung 6 (3): 83&#8211;88. (1897)
 
 A standard reference is
 
 * [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
+
+A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
+
+* &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
+
 
 $p$-adic [[differential equations]] are discussed in 
 
@@ -106,9 +114,6 @@ $p$-adic [[differential equations]] are discussed in
 
 * [[Gilles Cristol]], _Exposants $p$-adiques et solutions dans les couronnes_ ([pdf](http://www.math.jussieu.fr/~christol/exposants.pdf))
 
-A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
-
-* &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
 
 [[p-adic homotopy theory]] is discussed in 
 
