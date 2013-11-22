@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -56,6 +56,10 @@ Gray shows that given a strict 2-adjunction between the 2-comma categories $(F\d
 It appears that in Seely's paper (referenced below) the functor $G$, at least, is also lax.  Lax functors are even harder to incorporate in a 3-category-like structure than lax transformations are; you can't even whisker any sort of transformation by a lax functor.  Moreover, he also seems to say that $\hat\phi$ and $\check\phi$ are both strict in their _first_ coordinate, rather than one in the first and one in the second as seems (to me) to be necessary for a Yoneda restatement.  Hmm.
 =--
 
+## Related concepts
+
+* [[lax-idempotent 2-adjunction]]
+
 ## Sources ##
 
 This idea was introduced in Gray's [[Gray-adjointness-for-2-categories|book]] under the name of _transcendental quasi-adjunction_.
@@ -99,5 +103,7 @@ which when combined with the definition of composition as substitution give you 
 
 The second paragraph was just pointing out an example of how a lax adjunction arises in typed $\lambda$-calculus.  You want types to map to 0-cells and terms to 1-cells as usual, and rewrite relations $t red u$ to map to 2-cells $t\Rightarrow u$.  So the term model will be a strict 2-category with (strict or lax) products, together with $(-\times A)$ lax left adjoint to $[A\to -]$ for all $A$.  Then the first definition of lax adjunction should give you the $\beta$ and $\eta$ rewrites as the counit and unit of each adjunction $\check\phi\dashv\hat\phi$.  As I've said above, I'm still working out the details wrt pseudo versus lax naturality, but this is roughly what you should get.
 =--
+
+
 
 [[!redirects lax 2-adjunctions]]
