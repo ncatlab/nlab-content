@@ -25,6 +25,8 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 ## Related entries
 
+* [[complex analytic topology]]
+
 * [[complex manifold]], [[almost complex manifold]]
 
   [[Kähler manifold]], [[hyper-Kähler manifold]]
