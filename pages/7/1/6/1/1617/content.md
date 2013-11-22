@@ -127,5 +127,8 @@ This kind of example plays a crucial role in the computation of [[abelian sheaf 
 
 [[!include infinitesimal and local - table]]
 
+## References
+
+* [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
 
 [[!redirects stalks]]
