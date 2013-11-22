@@ -30,6 +30,8 @@ An pair of _adjoint 2-functors_ is a [[2-adjunction]] in [[2Cat]].
   
   [[biadjunction]], [[lax 2-adjunction]], [[pseudoadjunction]]
 
+  [[lax-idempotent 2-adjunction]]
+
 * [[adjoint (infinity,1)-functor]]
 
 * [[(∞,n)-category with adjoints]]
