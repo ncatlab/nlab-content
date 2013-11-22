@@ -1,4 +1,10 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A [[field]] $k$ is __algebraically closed__ if every non-constant [[polynomial]] (with one variable and coefficients from $k$) has a root in $k$.  It follows that every polynomial of degree $n$ can be factored uniquely (up to [[permutation]] of the factors) as
 $$ p = c \prod_{i = 1}^n (\mathrm{x} - a_i) ,$$
 where $c$ and the $a_i$ are elements of $k$.
@@ -12,6 +18,14 @@ Without choice, the existence and uniqueness of algebraic closures may fail; see
 *  possibly _[Algebraic closure without choice](http://doi.wiley.com/10.1002/malq.19920380136)_, a paper by somebody that I can\'t read
 *  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/Richman/HTML/DOCS.HTM)_ by [[Fred Richman]]
 
+
+## Related concepts
+
+* [[Galois group]]
+
+* [[separable closure]]
+
+* [[geometric point]]
 
 [[!redirects algebraically closed field]]
 [[!redirects algebraically closed fields]]
