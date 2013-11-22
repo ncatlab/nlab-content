@@ -76,7 +76,9 @@ Generalization to [[simplicial schemes]] is discussed in
 
 * [[Eric Friedlander]], 1982, _&#201;tale homotopy of simplicial schemes_ , volume 104 of Annals of Mathematics Studies , Princeton University Press, Princeton, N.J. 
 
+More on this is in 
 
+* Michael Misamore, _&#201;tale homotopy types and bisimplicial hypercovers_, Homology, Homotopy and Applications, Vol. 15 (2013), No. 1, pp.27-49. ([web](http://www.intlpress.com/HHA/v15/n1/a2/))
 
 [[!redirects étale homotopy theory]]
 
