@@ -44,6 +44,7 @@ For $X \in \mathbf{H}_{th}$ any object in a [[differential cohesion|differential
 
 1. the [[(∞,1)-topos]] denoted $\mathcal{X}$ or $Sh_\infty(X)$ of [[(∞,1)-sheaves]] over $X$, or rather of formally &#233;tale maps into $X$;
 
+
 1. the [[structure (∞,1)-sheaf]] $\mathcal{O}_{X}$ of $X$.
 
 The resulting structure is essentially that discussed ([Lurie, Structured Spaces](#Lurie)) if we regard $\mathbf{H}_{th}$ equipped with its formally &#233;tale morphisms, def. \ref{FormallyEtaleInHTh}, as a ([[large category|large]]) [[geometry for structured (∞,1)-toposes]]. 
@@ -164,6 +165,7 @@ By prop. \ref{EtalificationIsCoreflection} the inclusion $(\mathbf{H}_{th})_{/X}
 
 +-- {: .num_defn #TheStructureSheafOfX}
 ###### Definition
+
 
 For $X \in \mathbf{H}_{th}$ we speak of 
 
@@ -411,7 +413,8 @@ In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\time
 
 ### As a classifying topos
 
-The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is the 
+The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is the [[classifying topos]] for [[strict local rings]].
+
 
 
 ## Related concepts
@@ -420,12 +423,14 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
 
 * [[étale cohomology]]
 
+## References
+
+* [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
 
 
 
 
 
-[[classifying topos]] for [[strict local rings]].
 
 [[!redirects etale toposes]]
 [[!redirects etale topoi]]
