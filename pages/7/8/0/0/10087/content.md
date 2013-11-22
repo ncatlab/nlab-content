@@ -67,6 +67,9 @@ to be the [[Grothendieck group]] of stable fiberwise equivalence classes of sphe
 
 The [[Adams conjecture]] (a theorem) characterizes certain spherical fibrations in the image of the [[J-homomorphism]] as trivial.
 
+### Gysin sequence
+
+The [[long exact sequence in cohomology]] induced by a spherical fibration is called a _[[Gysin sequence]]_.
 
 ## Related concepts
 
