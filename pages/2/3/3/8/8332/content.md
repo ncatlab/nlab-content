@@ -35,18 +35,18 @@ $$
 with the [[differential]] the original one but equipped with a sign:
 
 $$
-  d^{X[1]}_n \coloneqq - d^X_{n-1}
+  d^{C[1]}_n \coloneqq - d^C_{n-1}
   \,.
 $$
 
-Generally for $p \in \mathbb{Z}$ $C[p]$ is the chain complex with
+Generally, for $p \in \mathbb{Z}$, $C[p]$ is the chain complex with
 
 $$
   C[p]_n \coloneqq C_{n-p}
 $$
 
 $$
-  d^{X[p]}_n \coloneqq (-1)^p d^X_{n-p}
+  d^{C[p]}_n \coloneqq (-1)^p d^C_{n-p}
   \,.
 $$
 
