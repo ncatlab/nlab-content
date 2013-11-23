@@ -15,7 +15,7 @@ $$
  \sigma : (-)\times I \to Id_C
  \,.
 $$
-
+Such that $\sigma e_0 = \sigma e_1 = Id_C$.
 
 #Remarks#
 
