@@ -120,17 +120,17 @@ That this statement can be puzzling if one thinks of the case $U = \ast$ as bein
 
 But with just a little bit of formalization the apparent paradox is resolved, because the above evidently just says that the "[[moduli space]]" for "subsets of spacetime" is not the manifold $\Sigma$ itself, but is rather a "[[moduli stack]]" namely the [[quotient stack]] $\Sigma //Diff(\Sigma)$ of $\Sigma$ by the [[action]] of the [[diffeomorphism group]].
 
-Indeed, the technical term "[[quotient stack]]" is precisely defined by the condition the condition that for $U$ of the shape of a [[disk]]/[[coordinate chart]], then two maps
+Indeed, the technical term "[[quotient stack]]" is precisely defined by the condition that for $U$ of the shape of a [[disk]]/[[coordinate chart]], then two maps
 
 $$
-  i \;\colon\; U \hookrightarrow \Sigma \longrightarrow \Sigma//Diff(\sigma)
+  i \;\colon\; U \hookrightarrow \Sigma \longrightarrow \Sigma//Diff(\Sigma)
 $$
 
 to it are equivalent if (and only if) there is a diffeomorphism relating them, as above. 
 
 So if in a generally covariant field theory spacetime is not actually the manifold $\Sigma$, but rather the quotient stack $\Sigma//Diff(\Sigma)$, then also a [[field (physics)|field]] in this generally covariant field theory should be a field on that quotient stack, not on $\Sigma$ itself.
 
-For $\mathbf{Fields}$ a [[moduli space]]/[[moduli stack]] of [[field (physics)|fields]], in a non-generally covariant field theory a field configuratin is simply a map
+For $\mathbf{Fields}$ a [[moduli space]]/[[moduli stack]] of [[field (physics)|fields]], in a non-generally covariant field theory a field configuration is simply a map
 
 $$
   \Phi \;\colon\; \Sigma \longrightarrow \mathbf{Fields}
@@ -154,7 +154,7 @@ $$
   \,.
 $$
 
-In words the right hand side is the time-honored answer: two fields _on_ a spacetime manifold $\Sigma$ which are such that one goes over into the other when pulled back along a diffeomorphism are [[gauge equivalence|gauge equivalent]]. This is the statement of general covariance, derived here, formally, from just the condition that any two shapes _in_ spacetime are to be equivalent if related by a diffeomorphism.
+In words, the right hand side is the time-honored answer: two fields _on_ a spacetime manifold $\Sigma$ which are such that one goes over into the other when pulled back along a diffeomorphism are [[gauge equivalence|gauge equivalent]]. This is the statement of general covariance, derived here, formally, from just the condition that any two shapes _in_ spacetime are to be equivalent if related by a diffeomorphism.
 
 Here to read the above equivalence as a theorem, we have to read the left hand side, as it should, be "in the context of $Diff(\Sigma)$-actions". Such [[context]]-dependence is precisely what _[[dependent type theory|dependent]]_ [[homotopy type theory]] takes care of, and this is what the following technical statement deals with.
 
