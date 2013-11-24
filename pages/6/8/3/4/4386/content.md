@@ -9,6 +9,10 @@ A __torsion group__ is a [[group]] such that ....
 
 Torsion groups and group [[homomorphisms]] form a [[category]] $Tor$; [[abelian group|abelian]] torsion groups and group homomorphisms form a category $Ab Tor$.
 
+## Related concepts
+
+* [[torsion sheaf]]
+
 
 ## References
 
