@@ -11,7 +11,29 @@ As for the big site notion, the _Zariski topology_ is a [[coverage]] on the [[op
 
 ## Definition
 
-For $R$ a commutative [[ring]], write $Spec R \in CRing^{op}$ for its incarnation in the [[opposite category]].
+For $R$ a commutative [[ring]], write $Spec R \in CRing^{op}$ for its [[spectrum of a commutative ring]], hence equivalently for its incarnation in the [[opposite category]].
+
++-- {: .num_defn #StandardOpenImmersion}
+###### Definition
+
+For $S \subset R$ a [[multiplicative subset]], write $R[S^{-1}]$ for the corresponding [[localization of a ring|localization]] and 
+
+$$
+  Spec(R[S^{-1}]) \longrightarrow Spec(R)
+$$
+
+for the dual of the canonical ring homomorphism $R \to R[S^{-1}]$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The maps as in def. \ref{StandardOpenImmersion} are [[open immersion of schemes|open immersion]], called the _standard opens_ of $Spec(R)$.
+
+=--
+
+(e.g. [[The Stacks Project|Stack Project, lemma 10.9.17]]).
 
 +-- {: .num_defn}
 ###### Definition
@@ -104,6 +126,8 @@ Section VIII.6 of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk}
+
+* [[The Stacks Project]], chapter 33 _Topologies on Schemes_
 
 category: algebraic geometry
 [[!redirects Zariski topology]]
