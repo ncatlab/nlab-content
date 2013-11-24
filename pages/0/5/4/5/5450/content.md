@@ -411,6 +411,117 @@ In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\time
 
 ## Properties
 
+### Base change and sheaf cohomology
+ {#BaseChange}
+
++-- {: .num_defn #BaseChangeOnSites}
+###### Definition
+
+For $f \colon X \longrightarrow Y$ a [[homomorphism]] of [[schemes]], there is induced a [[functor]] on the [[categories]] underlying the [[étale site]]
+
+$$
+  f^{-1} \;\colon\; Y_{et} \longrightarrow X_{et}
+$$
+
+given by sending an [[object]] $U_Y \to Y$ to the [[fiber product]]/[[pullback]] along $f$
+
+$$
+  f^{-1} \colon (U_Y \to Y) \mapsto (X \times_Y U_Y \to X)
+  \,. 
+$$
+
+=--
+
++-- {: .num_prop #DirectAndInverseImageAlongMapOfBases}
+###### Proposition
+
+The morphism in def. \ref{BaseChangeOnSites} is a [[morphism of sites]]
+and hence induces a [[geometric morphism]] between the &#233;tale toposes
+
+$$
+  (f^\ast \dashv f_\ast)
+  \;\colon\;
+  Sh(X_{et})
+  \stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}
+  Sh(Y_{et})
+  \,.
+$$
+
+Here the [[direct image]] is given on a [[sheaf]] $\mathcal{F} \in Sh(X_{et})$ by
+
+$$
+  f_\ast \mathcal{F} \;\colon\;  (U_Y \to Y) \mapsto \mathcal{F}(f^{-1}(U_Y)) = \mathcal{F}(X \times_X U_Y)
+$$
+
+while the [[inverse image]] is given on a [[sheaf]] $\mathcal{F} \in Sh_(Y_{et})$ by
+
+$$
+  f^\ast \mathcal{F} \;\colon\; (U_X \to X) \mapsto \underset{\underset{U_X \to f^{-1}(U_Y)}{\longrightarrow}}{\lim} \mathcal{F}(U_Y)
+  \,.
+$$
+
+
+=--
+
+By the discussion at _[morphisms of sites -- Relation to geometric morphisms](morphism+of+sites#RelationToGeometricMorphisms)_.
+See also for instance ([Tamme I 1.4](#Tamme)).
+
+
++-- {: .num_defn}
+###### Definition
+
+For $X_{et}$ an [[étale site]], write $\mathcal{D}(X_{et})$ for the [[derived category]] of the [[abelian category]] $Ab(Sh(X_{et}))$ of [[abelian sheaves]] on $X$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The $q$th [[derived functor]] $R^q f_\ast$ of the [[direct image]] functor of def. \ref{DirectAndInverseImageAlongMapOfBases} sends $\mathcal{F} \in Ab(Sh(X_{et}))$ to the [[sheafification]] of the [[presheaf]]
+
+$$
+  (U_Y \to Y)
+  \mapsto
+  H^q(X \times_Y U_Y, \mathcal{F})
+  \,,
+$$
+
+where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomology group|group]] with [[coefficients]] in the given $\mathcal{F}$.
+
+
+=--
+
+(e.g. [Tamme, II (1.3.4)](#Tamme)).
+
++-- {: .num_remark}
+###### Remark
+
+For $X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z$
+two composable morphisms of [[schemes]], the [[Leray spectral sequence]] exists and is of the form
+
+$$
+  E^{p,q}_2 = R^p g_\ast(R^q f_\ast(\mathcal{F}))
+  \Rightarrow
+  E^{p+q} = R^{p+q}(g f)_\ast(\mathcal{F})
+  \,.
+$$ 
+
+For the special case that $Z = \ast$ this yields
+
+$$
+  E^{p,q}_2 = H^p(U_Y, R^q f_\ast \mathcal{F})
+  \Rightarrow
+  E^{p+q} = H^{p+q}(U_Y \times_Y X , \mathcal{F})
+  \,.
+$$
+
+
+=--
+
+
+
+
+
 ### As a classifying topos
 
 The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is the [[classifying topos]] for [[strict local rings]].
@@ -424,6 +535,9 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
 * [[étale cohomology]]
 
 ## References
+
+* [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
+ {#Tamme}
 
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
 
