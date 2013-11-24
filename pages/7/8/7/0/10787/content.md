@@ -23,6 +23,8 @@ category_ ([pdf](http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10
 
 A list of relevant definitions and facts is at
 
+* [[Günter Tamme]], section II 9.3.2 _[[Introduction to Étale Cohomology]]_
+
 * [[James Milne]], section 17 _[[Lectures on Étale Cohomology]]_
 
 
