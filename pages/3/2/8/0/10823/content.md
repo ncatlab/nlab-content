@@ -28,6 +28,32 @@ on [[étale cohomology]].
 * table of contents
 {:toc}
 
+## Chapter 0 Preliminaries
+
+### 1. Abelian categories
+
+* [[abelian category]]
+
+### 2. Homological algebra in abelian categories
+
+* [[homological algebra]]
+
+#### 2.1 $\delta$-Functors
+
+* [[delta-functor]]
+
+#### 2.2 Derived functors
+
+* [[derived functor]]
+
+#### 2.3 Spectral sequences
+
+* [[spectral sequence]]
+
+* (2.3.5) [[Grothendieck spectral sequence]]
+
+### 3. Inductive limits
+
 ## Chapter I Topologies and sheaves
 
 ### 1. Topologies
@@ -36,15 +62,60 @@ on [[étale cohomology]].
 
 ### 2. Abelian presheaves on topologies
 
+#### 2.1 The category of abelian presheaves
+
 * [[group object]]
+
+#### 2.2 Cech cohomology
+
+#### 2.3 The functors $f^p$ and $f_p$
+
+* [[morphism of sites]]
+
+* [[direct image]], [[inverse image]] (here: on [[presheaves]])
+
 
 ### 3. Abelian sheaves on topologies
 
+#### 3.1 The associated sheaf of a presheaf
+
+* [[sheafification]]
+
+#### 3.2 The category of abelian sheaves
+
 * [[sheaf of abelian groups]]
+
+#### 3.3 Cohomology of abelian sheaves
+
+* [[abelian sheaf cohomology]]
+
+#### 3.4 The spectral sequences for Cech cohomology
+
+* [[Cech cohomology]]
+
+#### 3.5 Flabby sheaves 
 
 * [[flabby sheaf]]
 
+#### 3.6 The functors $f^s$ and $f_s$
+
+* [[morphism of sites]]
+
+* [[direct image]], [[inverse image]]
+
+#### 3.7 The Leray spectral sequence
+
 * [[Leray spectral sequence]]
+
+#### 3.8 Localization
+
+* [[localization]]
+
+#### 3.9 The comparison lemma
+
+#### 3.10 Noetherian topologies
+
+#### 3.11 Commutation of the functors $H^q(U,-)$ with pseudofiltered inductive limits
 
 ## Chapter II &#201;tale Cohomology
 
