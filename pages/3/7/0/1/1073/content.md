@@ -41,6 +41,8 @@ See at _[[projective object]]_ the section _[Existence of enough projectives](pr
 
 * [[abelian sheaf cohomology]]
 
+* an abelian sheaf of [[torsion groups]] is called a _[[torsion sheaf]]_
+
 ## References
 
 A basic textbook introduction begins for instance around Definition 1.5.6 of 
