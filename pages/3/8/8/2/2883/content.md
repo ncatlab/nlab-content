@@ -82,6 +82,28 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 
 * $H^2_{et}(-, \mathbb{G}_m)$: [[Brauer group]];
 
+
+### Relation to Zariski cohomology
+ {#RelationZariskiEtaleCohomology}
+
+For $X$ a [[scheme]], the inclusion
+
+$$
+  \epxilon \;\colon\; X_{Zar} \longrightarrow X_{et}
+$$
+
+of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
+
+$$
+  E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{G})
+  \Rightarrow
+  E^{p+q} = H^{p+q}(X_{et}, \mathcal{F})
+  \,.
+$$
+
+(e.g. [Tamme, II 1.3](#Tamme))
+
+
 ## Related concepts
 
 * [[étale morphism]], [[étale site]], &#233;tale cohomology
@@ -121,6 +143,7 @@ See also
 ### Reviews and modern accounts
 
 * [[Günter Tamme]], _[[Introduction to Étale Cohomology]]_, 1994
+ {#Tamme}
 
 A modern textbook, though largely based on the material in SGA is 
 
