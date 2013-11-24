@@ -195,6 +195,7 @@ We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 
 =--
 
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -474,7 +475,7 @@ For $X_{et}$ an [[étale site]], write $\mathcal{D}(X_{et})$ for the [[derived c
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #}
 ###### Proposition
 
 The $q$th [[derived functor]] $R^q f_\ast$ of the [[direct image]] functor of def. \ref{DirectAndInverseImageAlongMapOfBases} sends $\mathcal{F} \in Ab(Sh(X_{et}))$ to the [[sheafification]] of the [[presheaf]]
@@ -486,27 +487,29 @@ $$
   \,,
 $$
 
-where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomology group|group]] with [[coefficients]] in the given $\mathcal{F}$.
+where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomology group|group]] with [[coefficients]] in the given $\mathcal{F}$ ([[étale cohomology]]).
 
 
 =--
 
-(e.g. [Tamme, II (1.3.4)](#Tamme)).
+By the discussion at _[[direct image]]_ and at _[[abelian sheaf cohomology]]_. See e.g. ([Tamme, II (1.3.4)](#Tamme), [Milne prop. 12.1](#Milne)).
 
 +-- {: .num_remark}
 ###### Remark
 
-For $X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z$
-two composable morphisms of [[schemes]], the [[Leray spectral sequence]] exists and is of the form
+For $O_X \stackrel{f^{-1}}{\leftarrow} O_Y \stackrel{g^{-1}}{\leftarrow} O_Z$
+two composable [[morphisms of sites]], 
+the [[Leray spectral sequence]] for the corresponding [[direct images]] exists and is of the form
 
 $$
-  E^{p,q}_2 = R^p g_\ast(R^q f_\ast(\mathcal{F}))
+  E^{p,q}_2 = R^p f_\ast(R^q g_\ast(\mathcal{F}))
   \Rightarrow
   E^{p+q} = R^{p+q}(g f)_\ast(\mathcal{F})
   \,.
 $$ 
 
-For the special case that $Z = \ast$ this yields
+
+For the special case that $S_Z = \ast$ and $g^{-1}$ includes an [[étale morphism of schemes|étale morphism]] $U_Y \to Y$ this yields
 
 $$
   E^{p,q}_2 = H^p(U_Y, R^q f_\ast \mathcal{F})
@@ -540,6 +543,7 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
  {#Tamme}
 
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
+ {#Milne}
 
 
 
