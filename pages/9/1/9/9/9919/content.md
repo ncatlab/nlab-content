@@ -5,7 +5,7 @@
 
 ## Definition
 
-$TopGrp$ is the he [[category]] whose [[objects]] are [[topological groups]] and whose [[morphisms]] are [[continuous function|continuous]] [[group homomorphisms]] between these.
+$TopGrp$ is the [[category]] whose [[objects]] are [[topological groups]] and whose [[morphisms]] are [[continuous function|continuous]] [[group homomorphisms]] between these.
 
 ## Properties
 
