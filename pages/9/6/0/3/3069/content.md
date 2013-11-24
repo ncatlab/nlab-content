@@ -199,11 +199,13 @@ all of them [[natural isomorphism|natural]] in $c'$.
 
 Originally, the Beck-Chevalley condition was introduced in ([B&#233;nabou-Roubaud, 1970](#BenabouRoubaud)) for [[bifibrations]] over a base category with pullbacks. In *loc.cit.* they call this condition **Chevalley condition** because he introduced it in his 1964 seminar. 
 
+#### Definition
+
 A [[bifibration]] $\mathbf{X} \to \mathbf{B}$ where $\mathbf{B}$ has pullbacks satisfies the **Chevalley condition** iff for every commuting square
 $$\array{ & \overset{\psi^\prime}{\rightarrow} & \\
   \downarrow^{\varphi^\prime} && \downarrow^{\varphi}\\
   & \underset{\psi}{\rightarrow} & }$$
-in $\mathbf{X}$ over a pullback square in the base $\mathbf{B}$ where $\varphi$ is [[caretesian morphism|cartesian]] and $\psi$ is cocartesian it holds that $\varphi^\prime$ is cartesian
+in $\mathbf{X}$ over a pullback square in the base $\mathbf{B}$ where $\varphi$ is [[cartesian morphism|cartesian]] and $\psi$ is cocartesian it holds that $\varphi^\prime$ is cartesian
 iff $\psi^\prime$ is cocartesian. Actually, it suffices
 to postulate one direction because the other one follows.
 The nice thing about this formulation is that there is no
@@ -221,6 +223,11 @@ According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is cruc
 * If $C$ is a [[regular category]] (such as a [[topos]]), the bifibration $Sub(C) \to C$ of [[subobjects]] satisfies the Beck--Chevalley condition at every pullback square.
 
 * The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
+
+### Proper base change in &#233;tale cohomology
+
+For [[coefficients]] of [[torsion group]], [[étale cohomology]]
+satisfies Beck-Chevalley along [[proper morphisms]]. This is the statement of the  _[[proper base change theorem]]_. See there for more details.
 
 ### Grothendieck six operations
 
