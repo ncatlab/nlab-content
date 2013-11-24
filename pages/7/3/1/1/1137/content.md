@@ -135,7 +135,40 @@ where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomol
 
 =--
 
-(e.g. [Tamme, I (3.7.1), II (1.3.4)](#Tamme)).
+(e.g. [Tamme, I (3.7.1), II (1.3.4)](#Tamme), [Milne, 12.1](#Milne)).
+
+
++-- {: .proof}
+###### Proof
+
+We have a [[commuting diagram]]
+
+$$
+  \array{
+    Ab(PSh(X)) &\stackrel{(-)\circ f^{-1}}{\longrightarrow}& Ab(PSh(Y))
+    \\
+    \uparrow^{\mathrlap{inc}} && \downarrow^{L}
+    \\
+    Ab(Sh(X)) &\stackrel{f_\ast}{\longrightarrow}& Ab(Sh(Y))
+  }
+  \,,
+$$
+
+where the right vertical morphism is [[sheafification]]. Because $(-) \circ f^{-1}$ and $L$ are both [[exact functors]] it follows that for $I^\bullet \to \mathcal{F}$ an [[injective resolution]] that
+
+$$
+  \begin{aligned}
+     R^p f_\ast(\mathcal{F})
+     & :\simeq
+     H^p( f_\ast I)
+     \\
+     & = H^p(L I^\bullet(f^{-1}(-)))
+     \\
+     & = L (H^p(I^\bullet)(f^{-1}(-)))
+  \end{aligned}
+$$
+
+=--
 
 
 ## Related concepts
@@ -148,6 +181,10 @@ e.g.
 
 * [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
  {#Tamme}
+
+* [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
+ {#Milne}
+
 
 [[!redirects direct images]]
 [[!redirects direct image functor]]
