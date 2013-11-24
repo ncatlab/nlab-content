@@ -353,7 +353,7 @@ $$
 
 Moreover
 
-1. the edge maps in this spectral sequence are the canonical morphisms
+1. the [[edge maps]] in this spectral sequence are the canonical morphisms
  
    $$
      R^p G (F A) \to R^p (G \circ F)(A)
@@ -593,6 +593,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Leray?Serre spectral sequence]] of a [[fibration]]
 
+
 * [[Lyndon?Hochschild?Serre spectral sequence]] in [[group cohomology]]
 
 * [[May spectral sequence]] for calculating the [[Tor]] or [[Ext]] groups of an algebra
@@ -694,7 +695,9 @@ and we have
 
 =--
 
+## Related concepts
 
+* [[edge morphism]]
 
 
 ## References
