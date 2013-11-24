@@ -71,6 +71,7 @@ For $C$ any site with finite limits, there is canonically a morphism of sites to
 ## Properties
 
 ### Relation to geometric morphisms
+ {#RelationToGeometricMorphisms}
 
 We discuss how morphisms of sites induce [[geometric morphism]]s of the corresponding [[sheaf topos]]es, and conversely.  The reader might want to first have a look at the discussion of <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.
 
