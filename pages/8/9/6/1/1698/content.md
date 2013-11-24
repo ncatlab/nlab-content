@@ -74,7 +74,7 @@ For the corresponding [[Coq]] code  see
 ## Long fibration sequences
 
 A crucial difference between $\infty$-categorical fibration sequences
-and ordinary 1-categorical sequences is that the former are always _long_ : in contrast to the ordinary kernel of a kernel, wich is necessarily trivial, the homotopy kernel of a homotopy kernel is typically far from trivial, but is a [[loop space object]]. Due to that, each fibration sequence extend to the left by as many steps (times 3) as the objects involved have nontrivial [[homotopy group]]s.
+and ordinary 1-categorical sequences is that the former are always _long_ : in contrast to the ordinary kernel of a kernel, which is necessarily trivial, the homotopy kernel of a homotopy kernel is typically far from trivial, but is a [[loop space object]]. Due to that, each fibration sequence extend to the left by as many steps (times 3) as the objects involved have nontrivial [[homotopy group]]s.
 
 
 ### Kernel of a kernel: loop objects
