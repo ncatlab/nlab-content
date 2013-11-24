@@ -35,13 +35,46 @@ The **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ for $A \in Sh(Et(X), Ab)$ of
 
 ## Properties
 
-### Relation to singular cohomology
+### Proper base change theorem
+
+* [[proper base change theorem]]
+
+([Milne, section 17](#Milne))
+
+
+### Comparison theorem: Relation to singular cohomology
 
 * [[comparison theorem (étale cohomology)]]
 
-### With values in the multiplicative group
+([Milne, section 21](#Milne))
 
-the &#233;tale cohomology groups with values in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
+### K&#252;nneth formula
+ {#K&#252;nnethFormula}
+
+([Milne, section 22](#Milne))
+
+### Cycle map
+ {#CycleMap}
+
+([Milne, section 23](#Milne))
+
+### Poincar&#233; duality
+ {#PoincareDuality}
+
+([Milne, section 24](#Milne))
+
+### Lefschetz fixed-point formula
+
+[K&#252;nneth formula](#K&#252;nnethFormula) + [cycle map](#CycleMap) + [Poincar&#233; duality](#PoincareDuality) $\Rightarrow$ [[Lefschetz fixed-point formula]]
+ 
+
+([Milne, section 25](#Milne))
+
+
+
+### With coefficients in the multiplicative group
+
+the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
 
 * $H^0_{et}(-, \mathbb{G}_m)$: [[group of units]];
 
@@ -97,6 +130,7 @@ A modern textbook, though largely based on the material in SGA is
 A comprehensive set of lecture notes is in
 
 * [[James Milne]], _[[Lectures on Étale Cohomology]]_ ([html](http://www.jmilne.org/math/CourseNotes/lec.html), [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
+ {#Milne}
 
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ 2009, in _[[The Stacks Project]]_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
