@@ -86,10 +86,13 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 ### Relation to Zariski cohomology
  {#RelationZariskiEtaleCohomology}
 
++-- {: .num_remark #LerayForInclusionOfZariskiIntoEtale}
+###### Remark
+
 For $X$ a [[scheme]], the inclusion
 
 $$
-  \epxilon \;\colon\; X_{Zar} \longrightarrow X_{et}
+  \epsilon \;\colon\; X_{Zar} \longrightarrow X_{et}
 $$
 
 of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
@@ -101,7 +104,36 @@ $$
   \,.
 $$
 
+=--
+
 (e.g. [Tamme, II 1.3](#Tamme))
+
++-- {: .num_defn }
+###### Definition
+
+For $N$ a [[quasi-coherent sheaf]] of $\mathcal{O}_X$-[[modules]],
+the edge morphism 
+
+$$
+  H^p_{Zar}(X, N)
+  \longrightarrow
+  H^p_{et}(X,N)
+$$
+
+of the [[Leray spectral sequence]] of remark \ref{LerayForInclusionOfZariskiIntoEtale} is an  [[isomorphism]] for all $p$
+
+
+=--
+
+e.g. ([Tamme, II (4.1.2)](#Tamme))
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
 
 
 ## Related concepts
