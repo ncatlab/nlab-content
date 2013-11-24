@@ -114,9 +114,40 @@ It follows that $f_!$ is left exact.
 
 Let $p:X\to {*}$ be the map into the one point space. Then for any $F\in Sh(X)$ the [[abelian sheaf]] $p_!F$ is the [[abelian group]] consisting of sections $s\in \Gamma(X,F)$ such that $supp(s)$ is compact. One writes $\Gamma_c(X,F):= p_! F$ and calls this group a group of sections of $F$ with compact support. If $y\in Y$, then the fiber $(f_! F)_y$ is isomorphic to $\Gamma_c(f^{-1}y,F|_{f^{-1}(y)})$. 
 
+### Derived direct image
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f^{-1} \colon Y \to X$ be a [[morphism of sites]].
+Then the $q$th [[derived functor]] $R^q f_\ast$ of the induced [[direct image]] functor sends $\mathcal{F} \in Ab(Sh(X_{et}))$ to the [[sheafification]] of the [[presheaf]]
+
+$$
+  U_Y
+  \mapsto
+  H^q(f^{-1}(U_Y), \mathcal{F})
+  \,,
+$$
+
+where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomology group|group]] with [[coefficients]] in the given $\mathcal{F}$.
+
+
+=--
+
+(e.g. [Tamme, I (3.7.1), II (1.3.4)](#Tamme)).
+
+
 ## Related concepts
 
 * [[derived direct image]]
+
+## References
+
+e.g.
+
+* [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
+ {#Tamme}
 
 [[!redirects direct images]]
 [[!redirects direct image functor]]
