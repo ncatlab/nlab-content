@@ -37,18 +37,7 @@ An &#233;tale map between [[smooth spaces]] is a  [[local diffeomorphisms]], whi
 
 For an &#233;tale map between [[schemes]] see _[[étale morphism of schemes]]_.
 
-Restricted to [[affine schemes]], this yields, [[Isbell duality|dually]], a notion of &#233;tale morphisms between [[rings]].
-
-
-An &#233;tale map between [[commutative rings]] is usually called a _[[étale morphism]]_ of rings:  a ring homomorphism with the property that, when viewed as a morphism between [[affine schemes]], it is &#233;tale.  See [this comment by Harry Gindi](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=716&page=1#Item_25) for a purely ring-theoretic characterisation.
-
-+-- {: .query}
-
-   Zoran: that is the infinitesimal lifting property for smooth morphisms, need an additional condition in general. 
-
-=--
-
-*  &#201;tale maps between noncommutative [[rings]] have also been considered.
+Restricted to [[affine schemes]], this yields, [[Isbell duality|dually]], a notion of &#233;tale morphisms between [[rings]]. &#201;tale maps between noncommutative [[rings]] have also been considered.
 
 
 ### Between analytic spaces
