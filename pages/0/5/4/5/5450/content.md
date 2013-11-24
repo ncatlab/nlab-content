@@ -193,6 +193,7 @@ for the composite [[(∞,1)-functor]] that sends any $A \in \mathbf{H}_{th}$ to 
 
 We call $\mathcal{O}_X$ the **[[structure sheaf]]** of $X$.
 
+
 =--
 
 
@@ -522,6 +523,17 @@ $$
 =--
 
 
+### Quasi-coherent modules
+ {#QuasiCoherentModules}
+
+For $X$ a [[scheme]] and $N$ a [[quasicoherent module]] over its [[structure sheaf]] $\mathcal{O}_X$, then this induces an [[abelian sheaf]] on the etalse site by
+
+$$
+  N_{et} \;\colon\; (U_X \to X) \mapsto \Gamma(U_Y, N \times_{\mathcal{O}_X \mathcal{O}_{U:X}})
+  \,.
+$$
+
+(e.g. [Tamme, II 3.2.1](#Tamme))
 
 
 
