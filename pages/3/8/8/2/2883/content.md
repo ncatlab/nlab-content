@@ -120,14 +120,11 @@ See also
 
 ### Reviews and modern accounts
 
-* Thomas H. Geisser, _Weil-etale motivic cohomology_, [K-th archive](http://www.math.illinois.edu/K-theory/0565)
-
-
 A modern textbook, though largely based on the material in SGA is 
 
 * Lei Fu, _&#201;tale cohomology theory_, Nankai Tracts in Math. __13__, World Sci. 2011; ([toc pdf](http://www.worldscibooks.com/etextbook/7773/7773_toc.pdf); Preface [pdf](http://www.worldscibooks.com/etextbook/7773/7773_preface.pdf); chap. 1 Descent theory [pdf](http://www.worldscibooks.com/etextbook/7773/7773_chap01.pdf)) 
 
-A comprehensive set of lecture notes is in
+Lecture notes include
 
 * [[James Milne]], _[[Lectures on Étale Cohomology]]_ ([html](http://www.jmilne.org/math/CourseNotes/lec.html), [pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
  {#Milne}
@@ -135,11 +132,19 @@ A comprehensive set of lecture notes is in
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ 2009, in _[[The Stacks Project]]_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong}
 
+* [[Evan Jenkins]], _&#201;tale cohomology seminar_  ([web](http://math.uchicago.edu/~ejenkins/etale/))
+
+* Donu Arapura, _An introduction to &#201;tale cohomology_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/etale.pdf))
+
+* Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, ([pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf))
+
 See also
 
-* Antoine Ducros, _&#201;tale cohomology of schemes and analytic spaces_, [pdf](http://www.math.jussieu.fr/~ducros/Cohetale.pdf)
 
 * Edgar Costa, _&#201;tale cohomology_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/686086/1/tese.pdf))
+
+* Thomas H. Geisser, _Weil-etale motivic cohomology_, [K-th archive](http://www.math.illinois.edu/K-theory/0565)
+
 
 Discussion of [[generalized cohomology theory]] on the [[étale site]] but with [[coefficients]] in [[sheaves of spectra]] is in 
 
