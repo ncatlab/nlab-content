@@ -123,6 +123,10 @@ Accordingly, the morphism $d : \Omega^n(X) \to Z^{n+1}(X)$ is an [[epimorphism]]
 
 This kind of example plays a crucial role in the computation of [[abelian sheaf cohomology]], see the examples listed there.
 
+## Examples
+
+For a [[locally ringed topos]] with [[structure sheaf]] $\mathcal{O}$, the stalk of the [[multiplicative group]] $\mathbb{G}_m$ at a point $x$ is the multiplicative group $\mathcal{O}_x^\times$ in the stalk [[local ring]] of the structure sheaf.  (e.g. [Milne, example 6.13](#Milne))
+
 ## Related concepts
 
 [[!include infinitesimal and local - table]]
@@ -130,5 +134,6 @@ This kind of example plays a crucial role in the computation of [[abelian sheaf 
 ## References
 
 * [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
+ {#Milne}
 
 [[!redirects stalks]]
