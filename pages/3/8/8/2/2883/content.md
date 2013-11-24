@@ -120,9 +120,12 @@ See also
 
 ### Reviews and modern accounts
 
+* [[Günter Tamme]], _[[Introduction to Étale Cohomology]]_, 1994
+
 A modern textbook, though largely based on the material in SGA is 
 
 * Lei Fu, _&#201;tale cohomology theory_, Nankai Tracts in Math. __13__, World Sci. 2011; ([toc pdf](http://www.worldscibooks.com/etextbook/7773/7773_toc.pdf); Preface [pdf](http://www.worldscibooks.com/etextbook/7773/7773_preface.pdf); chap. 1 Descent theory [pdf](http://www.worldscibooks.com/etextbook/7773/7773_chap01.pdf)) 
+
 
 Lecture notes include
 
