@@ -86,6 +86,15 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 ### Relation to Zariski cohomology
  {#RelationZariskiEtaleCohomology}
 
++-- {: .num_remark }
+###### Remark
+
+A [[cover]] in the [[Zariski topology]] on [[schemes]] is an [[open immersion of schemes]] and hence is in particular an [[étale morphism of schemes]]. Hence the [[étale site]] is finer than the [[Zariski site]] and so every &#233;tale [[sheaf]] is a Zarsiki sheaf, but not necessarily conversely. 
+
+=--
+
+
+
 +-- {: .num_remark #LerayForInclusionOfZariskiIntoEtale}
 ###### Remark
 
@@ -98,7 +107,7 @@ $$
 of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
 
 $$
-  E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{G})
+  E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{R})
   \Rightarrow
   E^{p+q} = H^{p+q}(X_{et}, \mathcal{F})
   \,.
@@ -108,11 +117,11 @@ $$
 
 (e.g. [Tamme, II 1.3](#Tamme))
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_prop }
+###### Proposition
 
 For $N$ a [[quasi-coherent sheaf]] of $\mathcal{O}_X$-[[modules]],
-the edge morphism 
+the [[edge morphism]]
 
 $$
   H^p_{Zar}(X, N)
@@ -129,6 +138,26 @@ e.g. ([Tamme, II (4.1.2)](#Tamme))
 
 +-- {: .proof}
 ###### Proof
+
+By the discussion at _[[edge morphism]]_ it suffices to show that 
+
+$$
+  R^q \epsilon_\ast (N) = 0 \;\,,\;\;\; for \;\; p \gt 0
+  \,.
+$$
+
+By the discussion at _[[direct image]]_ (also at _[[abelian sheaf cohomology]]_), $R^q \epsilon_\ast N$ is the [[sheaf]] on the [[Zariski topology]] which is the [[sheafification]] of the [[presheaf]] given by
+
+$$
+  U \mapsto H^q(X_{et}|U, N)
+  \,.
+$$
+
+By locality (...) it suffices to show this for $X$ an [[algebraic variety]].
+
+Let $X_{et}^{a}$ be the [[dense subsite]] of affines, it suffices to show the statement there. 
+
+Observe that $N$ is a [[flabby sheaf]] on $X_{et}^a$.
 
 (...)
 
