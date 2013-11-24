@@ -109,6 +109,8 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 * In constructive mathematics, a [[discrete object|discrete space]] is compact iff its underlying set is [[finite set|Kuratowski-finite]].
 
+* A topological space $X$ is compact precisely if for all topological spaces $Y$ the [[projection]] $X \times Y \to Y$ out of their [[Cartesian product]] is a [[closed map]]. (see e.g. [Milne, section 17](#Milne))
+
 One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
 
 
@@ -128,6 +130,16 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 * [[compactly supported cohomology]]
 
+* [[complete algebraic variety]]
+
+
+
+## References
+
+For [[proper base change theorem]] e.g.
+
+* [[James Milne]], section 17 of _[[Lectures on Étale Cohomology]]_
+ {#Milne}
 
 [[!redirects compact space]]
 [[!redirects compact spaces]]
