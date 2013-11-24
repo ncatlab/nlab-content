@@ -34,9 +34,11 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 * table of contenta
 {:toc}
 
-## 1. Introduction
+## **I** Basic theory
 
-## 2. &#201;tale morphisms
+### 1. Introduction
+
+### 2. &#201;tale morphisms
 
 * [[formally étale morphism]]
 
@@ -46,13 +48,13 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[unramified morphism of schemes]]
 
-## 3. The &#233;tale fundamental group
+### 3. The &#233;tale fundamental group
 
 * [[étale fundamental group]]
 
 * [[étale homotopy type]]
 
-## 4. The local ring for the &#233;tale topology
+### 4. The local ring for the &#233;tale topology
 
 * [[germ]]
 
@@ -64,7 +66,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[geometric point]]
 
-## 5. Sites
+### 5. Sites
 
 * [[site]]
 
@@ -72,7 +74,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[sheaf]]
 
-## 6. Sheaves for the &#233;tale topology
+### 6. Sheaves for the &#233;tale topology
 
 * [[Galois cover]]
 
@@ -88,7 +90,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[locally constant sheaf]]
 
-## 7. The category of sheaves on $X_{et}$
+### 7. The category of sheaves on $X_{et}$
 
 * [[additive and abelian categories]]
 
@@ -102,7 +104,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[étale topos]]
 
-## 8. Direct and inverse image sheaves
+### 8. Direct and inverse image sheaves
 
 * [[direct image]]
 
@@ -112,7 +114,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[enough injectives]]
 
-## 9. Cohomology: Definition and basic properties
+### 9. Cohomology: Definition and basic properties
 
 * [[cohomology]]
 
@@ -128,13 +130,13 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[excision]]
 
-## 10. Cech cohomology
+### 10. Cech cohomology
 
 * [[Cech cohomology]]
 
 * [[Grothendieck spectral sequence]]
 
-## 11. Principal homogeneous spaces and $H^i$
+### 11. Principal homogeneous spaces and $H^i$
 
 * [[principal homogeneous space]], [[torsor]], [[principal bundle]]
 
@@ -142,13 +144,13 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[gerbe]]
 
-## 12. Higher direct images; the Leray spectral sequence
+### 12. Higher direct images; the Leray spectral sequence
 
 * [[derived functor]]
 
 * [[Leray spectral sequence]]
 
-## 13. The Weil-divisor  exact sequence and the cohomology of $\mathbb{G}_m$
+### 13. The Weil-divisor  exact sequence and the cohomology of $\mathbb{G}_m$
 
 * [[Weil divisor]]
 
@@ -156,7 +158,7 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 * [[Brauer group]]
 
-## 14. The cohomology of curves
+### 14. The cohomology of curves
 
 * [[Picard group]]
 
@@ -165,32 +167,32 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 * [[Hochschild-Serre spectral sequence]]
 
 
-## 15. Cohomological dimension
+### 15. Cohomological dimension
 
 * [[cohomological dimension]]
 
-## 16. Purity; the Gysin sequence
+### 16. Purity; the Gysin sequence
 
 * [[Gysin sequence]]
 
-## 17. The proper base change theorem
+### 17. The proper base change theorem
 
 * [[proper base change theorem]]
 
-## 18. Cohomology groups with compact support
+### 18. Cohomology groups with compact support
 
 * [[cohomology with compact support]]
 
-## 19. Finiteness theorem; Sheaves of $\mathbb{Z}_l$-modules
+### 19. Finiteness theorem; Sheaves of $\mathbb{Z}_l$-modules
 
 * [[ℓ-adic cohomology]]
 
 
-## 20. The smooth base change theorem
+### 20. The smooth base change theorem
 
 * [[proper base change theorem]]
 
-## 21. The comparison theorem
+### 21. The comparison theorem
 
 * [[complex analytic topology]]
 
@@ -199,45 +201,47 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 * [[comparison theorem (étale cohomology)]]
 
 
-## 22. The K&#252;nneth formula
+### 22. The K&#252;nneth formula
 
 * [[Künneth theorem]]
 
-## 23. The cycle map; Chern classes
+### 23. The cycle map; Chern classes
 
 * [[Chern class]]
 
-## 24. Poincar&#233; duality
+### 24. Poincar&#233; duality
 
 * [[Poincaré duality]]
 
 * [[Verdier duality]]
 
-## 25. Lefschetz fixed-point formula
+### 25. Lefschetz fixed-point formula
 
 * [[Lefschetz fixed-point formula]]
 
-## 26. The Weil conjecture
+## **II** Proof of the Weil conjectures
+
+### 26. The Weil conjecture
 
 * [[Weil conjecture]]
 
-## 27. Proof of the Weil conjectures, except for the Riemann hypothesis
+### 27. Proof of the Weil conjectures, except for the Riemann hypothesis
 
 * [[Frobenius endomorphism]]
 
-## 28. Preliminary reductions
+### 28. Preliminary reductions
 
-## 29. The Lefschetz fixed point formula for non-constant sheaves
+### 29. The Lefschetz fixed point formula for non-constant sheaves
 
-## 30. The main lemma
+### 30. The main lemma
 
-## 31. The geometry of Lefschetz pencils
+### 31. The geometry of Lefschetz pencils
 
-## 32. The cohomology of Lefschetz pencils
+### 32. The cohomology of Lefschetz pencils
 
-## 33. Completion of the proof of the Weil conjecture
+### 33. Completion of the proof of the Weil conjecture
 
-## 34. The geometry of estimates
+### 34. The geometry of estimates
 
 category: reference
 
