@@ -248,6 +248,17 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 =--
 
++-- {: .num_example }
+###### Example
+
+* [[Artin-Schreier sequence]]
+
+* [[Kummer sequence]]
+
+
+=--
+
+
 ### Classes of examples
 
 * [[long exact sequence of homotopy groups]]
