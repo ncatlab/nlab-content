@@ -42,14 +42,23 @@ Sometimes a smooth algebraic variety may also be called __algebraic manifold__.
 
 An abstract $k$-prevariety in the sense of Serre is a locally ringed space which is locally isomorphic to affine $k$-variety. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\to X$; a prevariety is separated, or an abstract $k$-variety if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
 
+## Properties
 
-## Relation to schemes
+### Relation to schemes
 
 There is an [[equivalence of categories]] between the [[category]] of [[integral schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of (irreducible) algebraic $k$-varieties. 
 
 Of course, given a variety the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
 
 Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes of finite type (where $S$ is not necessarily $Spec\,k$ for $k$ a field); typically they are required to be [[separated scheme|separated]] [[reduced scheme|reduced]] $S$-[[relative scheme|schemes]] [[morphism of finite type|of finite type]].
+
+## Related concepts
+
+* [[geometric point]]
+
+* [[singular point of an algebraic variety]]
+
+* [[complete algebraic variety]]
 
 ## References
 
