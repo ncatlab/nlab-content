@@ -51,4 +51,9 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 ## References
 
+* [[Günter Tamme]], section I 3.7 of _[[Introduction to Étale Cohomology]]_
+
 * [[James Milne]], section 11 of _[[Lectures on Étale Cohomology]]_
+
+[[!redirects Leray spectral sequences]]
+
