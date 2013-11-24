@@ -20,6 +20,8 @@
 
 ##Idea##
 
+### General
+
 The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf of abelian groups]] / [[abelian sheaf]] $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor, the [[derived direct image]] functor.
 
 But by embedding sheaves with values in abelian groups as special cases of [[simplicial presheaf|simplicial sheaves]] into the more general context of [[(∞,1)-sheaves|∞-groupoid-valued sheaves]] via the [[Dold-Kan correspondence]] and thus the abelian sheaf cohomology into the more general context of the intrinsic [[nonabelian cohomology]] of an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(C)$, this definition becomes equivalent to a special case of the general notion of [[nonabelian cohomology]] defined simply as the set of homotopy classes of maps
@@ -57,8 +59,9 @@ In the 1-categorical [[model category|model theoretic models]] these hom-spaces 
 
 This, then, is the definition of sheaf cohomology as usually presented: the cohomology of the complex $R \Gamma(X,A)$.
 
+## Properties
 
-##Brown's theorem: abelian sheaf cohomology as intrinsic (∞,1)-topos cohomology ##
+### As intrinsic (∞,1)-topos cohomology 
 
 
 Under the [[Dold-Kan correspondence]] we have the following
@@ -125,7 +128,7 @@ $$
 
 Historically the development of abelian sheaf cohomology was precisely in reverse order to this derivation from the general $(\infty,1)$-[[(infinity,1)-category|categorical]] [[cohomology]].
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem (K. Brown, 1973)
 
 Let $X$ be a [[topological space]], $F$ a [[sheaf]] on (the [[category of open subsets]] of) $X$ with values in abelian groups, and $\mathbf{B}^n F = K(F,n)$ the image of the complex of abelian sheaves $F[n]$ ($F$ in degree $n$, trivial elsewhere) under the [[Dold-Kan correspondence]] in sheaves with values in [[Kan complex]]es
@@ -233,6 +236,30 @@ $$
 
 =--
 
+### Relation to derived direct images
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f^{-1} \colon Y \to X$ be a [[morphism of sites]].
+Then the $q$th [[derived functor]] $R^q f_\ast$ of the induced [[direct image]] functor sends $\mathcal{F} \in Ab(Sh(X_{et}))$ to the [[sheafification]] of the [[presheaf]]
+
+$$
+  U_Y
+  \mapsto
+  H^q(f^{-1}(U_Y), \mathcal{F})
+  \,,
+$$
+
+where on the right we have the degree $q$ [[abelian sheaf cohomology]] [[cohomology group|group]] with [[coefficients]] in the given $\mathcal{F}$.
+
+
+=--
+
+(e.g. [Tamme, I (3.7.1), II (1.3.4)](#Tamme)).
+
+
 ## Examples
 
 * [[de Rham cohomology]]
@@ -279,6 +306,11 @@ Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stac
 A discussion of the [[?ech cohomology]] description of sheaf cohomology along the above lines is in
 
 * [[Tibor Beke]], _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
+
+See also
+
+* [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
+ {#Tamme}
 
 [[!redirects chain complex of sheaves]]
 [[!redirects chain complexes of sheaves]]
