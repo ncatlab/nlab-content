@@ -230,7 +230,22 @@ A proof is in ([Deligne](#Deligne)).
 
 ## Examples
 
-* A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually to an &#233;tale morphism $Spec L \to Spec K$. These are the morphisms classified by classical [[Galois theory]].
+
++-- {: .num_example}
+###### Example
+
+A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually to an &#233;tale morphism $Spec L \to Spec K$. These are the morphisms classified by classical [[Galois theory]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[open immersion of schemes]] is an &#233;tale morphism of schemes.
+
+=--
+
+(e.g. [[The Stacks Project|Stacks Project, lemma 28.37.9]])
 
 
 
