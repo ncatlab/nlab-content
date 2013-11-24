@@ -405,9 +405,9 @@ The total simplicial set functor goes back to
 
 The diagonal, total d&#233;calage and total simplicial set constructions are discussed in
 
-* [[Antonio Cegarra]], Josu&#233; Remedios, _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
+* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
 
-* [[Antonio Cegarra]], Josu&#233; Remedios, _The behaviour of the $\bar W$-construction on the homotopy theory of bisimplicial sets_, Manuscripta Mathematica, volume 124 (4) Springer (2007)
+* [[Antonio Cegarra]], [[Josué Remedios]], _The behaviour of the $\bar W$-construction on the homotopy theory of bisimplicial sets_, Manuscripta Mathematica, volume 124 (4) Springer (2007)
  {#CegarraRemedios}
 
 * [[Danny Stevenson]], _D&#233;calage and Kan's simplicial loop group functor_ ([arXiv:1112.0474](http://arxiv.org/abs/1112.0474)){#Stevenson}
