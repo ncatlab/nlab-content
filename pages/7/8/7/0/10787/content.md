@@ -23,6 +23,9 @@ category_ ([pdf](http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10
 
 A list of relevant definitions and facts is at
 
+* [[James Milne]], section 17 _[[Lectures on Étale Cohomology]]_
+
+
 * [[The Stacks Project]], _[44.62. Constructible sheaves](http://stacks.math.columbia.edu/tag/05BE)_
 
 and with more on [[chain complexes of sheaves]] and [[abelian sheaf cohomology]] in 
