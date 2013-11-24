@@ -103,7 +103,7 @@ is homotopic to the identity on $\pi(K\times L)$,  whilst the other composite is
 
 ###The Eilenberg - Zilber theorem for simplicial sets
 
-Cegarra and REmedios have proved a version of the EIlenberg -  Zilber theorem for simplicial sets.  This is disccued under the entry n [[bisimplicial set]]s.
+Cegarra and Remedios have proved a version of the Eilenberg -  Zilber theorem for simplicial sets.  This is discussed under the entry on [[bisimplicial set]]s.
 
 ## Applications 
 
