@@ -398,6 +398,7 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 
 
 ### Epi- mono- and isomorphisms
+ {#EpiMonoIsomorphisms}
 
 
 Let $Sh(C)$ be a category of sheaves.
