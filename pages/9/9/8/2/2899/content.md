@@ -242,11 +242,40 @@ A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually 
 ###### Example
 
 Every [[open immersion of schemes]] is an &#233;tale morphism of schemes.
+In particular a standard open inclusion (a [[cover]] in the [[Zariski topology]]) induced by the [[localization of a commutative ring]]
+
+$$
+  Spec(R[S^{-1}]) \longrightarrow Spec(R)
+$$
+
+is &#233;tale.
 
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, lemma 28.37.9]])
 
++-- {: .proof}
+###### Proof
+
+By one of the equivalent characterizations of [[étale morphism]] it is sufficient to check that the map $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ is a [[formally étale morphism]] and locally of finite presentation. 
+
+To see that it is formally &#233;tale we need to check that for every [[commutative ring]] $T$ with [[nilpotent ideal]] $J$ we have a [[pullback]] diagram
+
+$$
+  \array{
+    Hom(R[S^{-1}], T) &\longrightarrow& Hom(R[S^{-1}],T/J)
+    \\
+    \downarrow && \downarrow
+    \\
+    Hom(R, T) &\longrightarrow& Hom(R, T/J)
+  }
+  \,.
+$$
+
+Now by the [[universal property]] of the [[localization of a commutative ring|localization]], a homomorphism $R[S^{-1}] \longrightarrow T$ is a homomorphism $R \longrightarrow T$ which sends all elements in $S \hookrightarrow R$ to invertible elements in $T$. But no element in a [[nilpotent ideal]] can be invertible, Therefore the fiber product of the bottom and right map is the set of maps from $R$ to $T$ such that $S$ is taken to invertibles, which is indeed the top left set.
+
+
+=--
 
 
 
