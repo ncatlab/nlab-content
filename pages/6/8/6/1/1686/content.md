@@ -33,7 +33,7 @@ Being, therefore, an iterative perturbative approximation scheme of bigraded dif
 Traditionally, as in the example of the total complex of a double complex, spectral sequences are considered in the context of [[model structure on chain complexes|model categories of chain complexes]] in some [[abelian category]] for which [[fibrant replacement]] is given by [[injective resolution]] of [[chain complexes]].
 But more generally there is a notion of [[nonabelian cohomology|nonabelian]]/unstable spectral sequences, called **homotopy spectral sequences**.
 
-Despite their name, there is nothing specifically "spectral" about spectral sequences, for none of the technical meanings of the word [[spectrum]]. Together with the concept, this term was introduced by [[Jean Leray]] and has long become standard, but was never really motivated (see p. 5 of [Chow](#Chow)).
+Despite their name, there is nothing specifically "spectral" about spectral sequences, for none of the technical meanings of the word [[spectrum - disambiguation|spectrum]]. Together with the concept, this term was introduced by [[Jean Leray]] and has long become standard, but was never really motivated (see p. 5 of [Chow](#Chow)).
 
 ## Definition
 
@@ -87,7 +87,7 @@ $$
   \,.
 $$
 
-Then one says that
+Then one says equivalently that
 
 1. the [[bigraded object]]
 
@@ -99,7 +99,7 @@ Then one says that
 
    is the **limit term** of the spectral sequence;
 
-*  the spectral sequence **abuts** to $E^\infty$.
+1.  the spectral sequence **abuts** to $E^\infty$.
 
 =--
 
