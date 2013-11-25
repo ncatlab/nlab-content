@@ -375,6 +375,12 @@ and appears in the [[Adams spectral sequence]].
 
 Sweedler corings are named after [[Moss Sweedler]].
 
+A textbook account is in
+
+*  [[Tomasz Brzezinski]], [[Robert Wisbauer]], section 29 of _Corings and Comodules_, Cambridge University Press, London Math. Soc. LN 309 (2003), ([errata pdf](http://www.math.uni-duesseldorf.de/~wisbauer/corinerr.pdf))
+
+Section 29 there discusses the relation to the [[Amitsur complex]] and the [[descent theorem]].
+
 [[!redirects Sweedler corings]]
 [[!redirects Sweedler's coring]]
 [[!redirects Sweedler's corings]]
