@@ -657,7 +657,9 @@ $$
 For $X$ a [[scheme]] and $N$ a [[quasicoherent module]] over its [[structure sheaf]] $\mathcal{O}_X$, then this induces an [[abelian sheaf]] on the [[étale site]] by
 
 $$
-  N_{et} \;\colon\; (U_X \to X) \mapsto \Gamma(U_Y, N \times_{\mathcal{O}_X \mathcal{O}_{U:X}})
+  N_{et} \;\colon\; (U_X \to X) 
+   \mapsto 
+  \Gamma(U_Y, N \otimes_{\mathcal{O}_X} \mathcal{O}_{U_X})
   \,.
 $$
 
