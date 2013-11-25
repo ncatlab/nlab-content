@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Over a [[ring]] of [[characteristic]] a [[prime number]] $p$ it is true that
+
+$$
+  (a+b)^p = a^p + b^p
+  \,,
+$$
+
+because all the non-trivial [[binomial coefficients]] are multiples of $p$-
+
+## References
+
+* Wikipedia, _[Freshman's dream](http://en.wikipedia.org/wiki/Freshman's_dream)_
+
