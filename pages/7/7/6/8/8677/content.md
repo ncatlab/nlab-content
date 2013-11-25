@@ -35,6 +35,39 @@ Adjoining inverses $[S^{-1}]$ is pronounced "localized away from $S$". Inverting
 
 Evidently, this conflicts with more-categorial uses of "localized"; "inverting weak equivalences" is called localization, by obvious analogy, and is written as "localizing at weak equivalences". This is confusing! It's also weird: since a ring is a one-object Ab-enriched category with morphisms "multiply-by", the localization-of-the-category $R$ "at $p$" (or its Ab-enriched version, if saying that is necessary) really means the localization-of-the-ring R "away from p".
 
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+The localization of a [[ring]] $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
+
+$$
+  (r_1, s_1) \sim (r_2, s_2) 
+  \;\;\Leftrightarrow\;\;
+  \exists u \in S
+  \;
+  (r_1 s_2- r_2 s_1) u = 0 \;\in R
+  \,.
+$$
+
+Write $r s^{-1}$ for the [[equivalence class]] of $(r,s)$. On this set, addition and multiplication is defined by
+
+$$
+  r_1 s_1^{-1} + r_2 s_2^{-1} \coloneqq (r_1 s_2 + r_2 s_1) (s_1 s_2)^{-1}
+$$
+
+$$
+  (r_1 s_1^{-1})(r_2 s_2^{-1}) \coloneqq r_1 r_2 (s_1 s_2)^{-1}
+  \,.
+$$
+
+
+=--
+
+(e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
+
+
 ## Related concepts
 
 * [[localization]], 
