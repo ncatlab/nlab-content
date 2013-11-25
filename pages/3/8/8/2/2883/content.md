@@ -27,63 +27,24 @@ More generally, there is &#233;tale [[generalized cohomology theory]] with [[coe
 
 
 
-## Details ##
+## Definition ##
 
-Given a [[scheme]] $X$ of finite type, the small [[étale site]] $Et(X)$ is the [[category]] whose [[object]]s are [[etale morphism|étale morphism]]s $Spec R \to X$ and whose morphisms $(f:Spec R\to X)\to (f':Spec R'\to X)$ are morphisms $\alpha: Spec(R)\to Spec(R')$ of schemes completing triangles: $f'\circ\alpha=f$ (notice that the morphisms between &#233;tale morphisms are automatically &#233;tale). This category naturally carries a [[Grothendieck topology]] that makes it a [[site]].
-
-The **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ for $A \in Sh(Et(X), Ab)$ of $X$ is the [[abelian sheaf cohomology]] with respect to this site.
-
-## Properties
-
-### Proper base change theorem
-
-* [[proper base change theorem]]
-
-([Milne, section 17](#Milne))
++-- {: .num_prop }
+###### Proposition
 
 
-### Comparison theorem: Relation to singular cohomology
+Given a [[scheme]] $X$ of finite type, the small [[étale site]] $X_{et}$ is the [[category]] whose [[objects]] are [[étale morphisms]] $Spec R \to X$ and whose morphisms $(f:Spec R\to X)\to (f':Spec R'\to X)$ are morphisms $\alpha: Spec(R)\to Spec(R')$ of schemes completing triangles: $f'\circ\alpha=f$ (notice that the morphisms between &#233;tale morphisms are automatically &#233;tale). This category naturally carries a [[Grothendieck topology]] that makes it a [[site]], the [[étale site]].
 
-* [[comparison theorem (étale cohomology)]]
+For $A \in Sh(X_{et}, Ab)$ an [[abelian sheaf]] on $X$, the **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ of $X$ with [[coefficients]] in $A$  is the [[abelian sheaf cohomology]] with respect to this site.
 
-([Milne, section 21](#Milne))
+=--
 
-### K&#252;nneth formula
- {#K&#252;nnethFormula}
+## Basic properties
+ {#BasicProperties}
 
-([Milne, section 22](#Milne))
+The following are some basic properties of &#233;tale [[cohomology groups]] for various standard choices of [[coefficients]]. 
 
-### Cycle map
- {#CycleMap}
-
-([Milne, section 23](#Milne))
-
-### Poincar&#233; duality
- {#PoincareDuality}
-
-([Milne, section 24](#Milne))
-
-### Lefschetz fixed-point formula
-
-[K&#252;nneth formula](#K&#252;nnethFormula) + [cycle map](#CycleMap) + [Poincar&#233; duality](#PoincareDuality) $\Rightarrow$ [[Lefschetz fixed-point formula]]
- 
-
-([Milne, section 25](#Milne))
-
-
-
-### With coefficients in the multiplicative group
-
-the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
-
-* $H^0_{et}(-, \mathbb{G}_m)$: [[group of units]];
-
-* $H^1_{et}(-, \mathbb{G}_m)$: [[Picard group]];
-
-* $H^2_{et}(-, \mathbb{G}_m)$: [[Brauer group]];
-
-
-### Relation to Zariski cohomology and with coefficients in coherent modules
+### Relation to Zariski cohomology 
  {#RelationZariskiEtaleCohomology}
 
 +-- {: .num_remark }
@@ -117,6 +78,10 @@ $$
 
 This is originally due to ([[Grothendieck]], [[SGA]] 4 (Chapter VII, p355)). Reviews include ([Tamme, II 1.3](#Tamme)).
 
+
+### With coefficients in coherent modules
+ {#WithCoefficientsInCoherentModules}
+
 +-- {: .num_prop #CohomologyWithCoeffsInCoherentModules}
 ###### Proposition
 
@@ -141,7 +106,7 @@ $$
 
 =--
 
-e.g. ([Tamme, II (4.1.2)](#Tamme))
+This is due to ([[Grothendieck]], [[FGA]] 1). See also for instance ([Tamme, II (4.1.2)](#Tamme)).
 
 +-- {: .proof}
 ###### Proof
@@ -259,6 +224,66 @@ By the same argument all the higher cohomology groups vanish, as claimed.
 
 =--
 
+### With coefficients in the multiplicative group
+
+the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
+
+* $H^0_{et}(-, \mathbb{G}_m)$: [[group of units]];
+
+* $H^1_{et}(-, \mathbb{G}_m)$: [[Picard group]] ([[Hilbert's theorem 90], [Tamme, II 4.3.1](#Tamme));
+
+* $H^2_{et}(-, \mathbb{G}_m)$: [[Brauer group]];
+
+
+### With coefficients in groups of roots of unity
+
+* [[Kummer sequence]] 
+
+([Tamme, II, 4.4](#Tamme))
+
+(...)
+
+## Main theorems
+ {#MainTheorems}
+
+The following are the main theorems characterizing properties of &#233;tale cohomology. Together these theorems imply that &#233;tale cohomology, in its variant as [[l-adic cohomology]], is a [[Weil cohomology theory]].
+
+### Proper base change theorem
+
+* [[proper base change theorem]]
+
+([Milne, section 17](#Milne))
+
+
+### Comparison theorem: Relation to singular cohomology
+
+* [[comparison theorem (étale cohomology)]]
+
+([Milne, section 21](#Milne))
+
+### K&#252;nneth formula
+ {#K&#252;nnethFormula}
+
+([Milne, section 22](#Milne))
+
+### Cycle map
+ {#CycleMap}
+
+([Milne, section 23](#Milne))
+
+### Poincar&#233; duality
+ {#PoincareDuality}
+
+([Milne, section 24](#Milne))
+
+### Lefschetz fixed-point formula
+
+[K&#252;nneth formula](#K&#252;nnethFormula) + [cycle map](#CycleMap) + [Poincar&#233; duality](#PoincareDuality) $\Rightarrow$ [[Lefschetz fixed-point formula]]
+ 
+
+([Milne, section 25](#Milne))
+
+
 
 
 ## Related concepts
@@ -268,6 +293,7 @@ By the same argument all the higher cohomology groups vanish, as claimed.
 * [[étale (∞,1)-site]], [[étale topos]]
 
 * [[étale homotopy]]
+
 
 * [[Weil conjecture]]
 
