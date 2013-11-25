@@ -43,9 +43,21 @@ The [[abelian sheaf cohomology]] of the &#233;tale site is called [[étale cohom
 
 ## Properties
 
+### Cofinal affine covers
+  {#CofinalAffineCovers}
+ 
++-- {: .num_prop}
+###### Proposition
+
+For $X = Spec(A)$ an [[affine scheme]] and $\{Y_i  \to X\}$
+an &#233;tale cover, then there exists a refinement to an &#233;tale cover
+$\{U_i  \to X\}$ such that each $U_i$ is an [[affine scheme]].
+
+=--
+
 ### Cohomology
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[inverse image]] restriction functor $i^* Sh(Sch_{/X,et}, Ab) \to Sh(X_{et}, Ab)$ on the [[categories of sheaves]] with values in [[Ab]]
@@ -56,7 +68,7 @@ The [[inverse image]] restriction functor $i^* Sh(Sch_{/X,et}, Ab) \to Sh(X_{et}
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 For $X$ a [[scheme]] and $F \in Sh(Sch_{/{X,et}}, Ab)$ we have that the [[etale cohomology]] of $X$ with coefficients in $F$ may be computed on the small site:
