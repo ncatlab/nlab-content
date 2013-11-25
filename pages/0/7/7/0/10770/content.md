@@ -1021,7 +1021,8 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This makes $(E_\bullet, E_\bullet(E))$ be the [[Hopf algebroid]]
+This makes $(E_\bullet, E_\bullet(E))$ be 
+the [[commutative Hopf algebroid]]
 formed by the  $E$-[[Steenrod algebra]]. See there for more on this.
 
 =--
@@ -1049,7 +1050,7 @@ It is NOT satisfied for
 +-- {: .num_remark #ExtGroupsByMooreComplex}
 ###### Remark
 
-Under good conditions (...), $\pi_\bullet$ of the canonical [[cosimplicial object]] provides a [[resolution]] of [[comodule]] [[tensor product]] and hence computes the [[Ext]]-groups over the [[Hopf algebroid]]:
+Under good conditions (...), $\pi_\bullet$ of the canonical [[cosimplicial object]] provides a [[resolution]] of [[comodule]] [[tensor product]] and hence computes the [[Ext]]-groups over the [[commutative Hopf algebroid]]:
 
 $$
   H^p(\pi_q(Tot(cosk_\bullet(E^{\wedge^{\bullet+1}_S } \wedge_S X))))
@@ -1135,7 +1136,7 @@ $$
   E^{p,q}_\bullet \Rightarrow \pi_{q-p} L_{c \pi_0 E} X
 $$
 
-converging to the [[homotopy groups]] of the  $ c \pi_0(E)$-[[Bousfield localization of spectra|localization]] of $X$. If moreover the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ is [[flat module|flat]] as a [[module]] over $E_\bullet$, then, by prop. \ref{E2PageByMooreComplex} and remark \ref{ExtGroupsByMooreComplex}, the $E_2$-term of this spectral sequence is given by the [[Ext]]-groups over the $E$-[[Steenrod algebra|Steenrod]] [[Hopf algebroid]].
+converging to the [[homotopy groups]] of the  $ c \pi_0(E)$-[[Bousfield localization of spectra|localization]] of $X$. If moreover the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ is [[flat module|flat]] as a [[module]] over $E_\bullet$, then, by prop. \ref{E2PageByMooreComplex} and remark \ref{ExtGroupsByMooreComplex}, the $E_2$-term of this spectral sequence is given by the [[Ext]]-groups over the $E$-[[Steenrod algebra|Steenrod]] [[commutative Hopf algebroid|Hopf algebroid]].
 
 $$
   E^{p,q}_\bullet
