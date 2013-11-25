@@ -103,10 +103,25 @@ for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced sche
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; Sh(CRing) \longrightarrow Sh(CRing)
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing) \longrightarrow PSh(CRing)
 $$
 
 where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is induced by [[Kan extension]] from the [[adjoint pair]]
+
+$$
+  CRing
+    \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\longrightarrow}}
+  CRing_{red}
+$$
+
+between commutative rings and [[reduced rings]], which is the [[coreflective subcategory|coreflective embedding]] of reduced rings.
 
 =--
 
@@ -434,7 +449,7 @@ $$
   \,,
 $$
 
-where the right vertical morphism is [[sheafification]]. Because $(-) \circ f^{-1}$ and $L$ are both [[exact functors]] it follows that for $I^\bullet \to \mathcal{F}$ an [[injective resolution]] that
+where the right vertical morphism is [[sheafification]]. Because $(-) \circ f^{-1}$ and $L$ are both [[exact functors]] it follows that for $\mathcal{F} \to I^\bullet  $ an [[injective resolution]] that
 
 $$
   \begin{aligned}
@@ -878,4 +893,3 @@ But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]
 
 
 [[!redirects basics of étale cohomology]]
-
