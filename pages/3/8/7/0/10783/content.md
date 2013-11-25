@@ -91,7 +91,7 @@ $$
   Red \;\colon\; CRing \longrightarrow CRing
 $$
 
-for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the maximal [[nilpotent ideal]].
+for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the [[nilradical]].
 
 =--
 
@@ -101,7 +101,7 @@ for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced sche
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; Sh(CRing) \longrightarrow Sh(CRing)
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing) \longrightarrow PSh(CRing)
 $$
 
 where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
