@@ -26,6 +26,17 @@ A morphism of [[affine schemes]] $Spec(B) \to Spec(A)$, hence coming from a [[ri
 * faithfully flat if $f$ exhibits $B$ as a [[faithfully flat module]] over $A$.
 
 
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+A flat morphism $Spec(B) \to Spec(A)$ is faithfully flat if it is an [[epimorphism]].
+
+=--
+
+(e.g [Milne, footnote 18](#Milne))
+
 ## Flat topologies
 
 Given a base scheme $S$, the [[slice category]] $Sch/S$ of [[relative schemes]] over $S$ is equipped with several _flat [[Grothendieck topologies]]_. 
@@ -39,8 +50,14 @@ These are the [[Grothendieck topologies]] in which covers consist of flat morphi
 
 
 ## References
+
 The standard reference is [[EGA IV]]. See also [[flat morphism in derived geometry]]. 
 
+See also 
+
+
+* [[James Milne]], _[[Lectures on Étale Cohomology]]_
+ {#Milne}
 
 [[!redirects flat morphisms]]
 [[!redirects flat topology]]
