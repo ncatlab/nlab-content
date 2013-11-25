@@ -62,6 +62,8 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 * [[nonassociative algebra]]
 
+* [[finitely generated algebra]], [[finitely presented algebra]]
+
 * [[power-associative algebra]]
 
 * [[augmented algebra]]
@@ -71,6 +73,7 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 * [[differential algebra]]
 
 * [[differential graded algebra]], [[A-infinity algebra]]
+
 
 
 
