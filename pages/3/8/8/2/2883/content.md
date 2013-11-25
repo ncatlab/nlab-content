@@ -16,7 +16,7 @@
 #Contents#
 * table of contents
 {:toc}
-
+ffin
 ## Idea ##
 
 Traditional _&#233;tale cohomology_ (e.g. [Deligne 77](#Deligne77)) is the [[abelian sheaf cohomology]] for [[sheaf|sheaves]] on the [[étale site]] of a [[scheme]] -- which is an analog of the [[category of open subsets]] of a [[topological space]] $X$ , or rather the analog of the category of [[étale spaces]] over $X$, with [[finite set|finite]] [[fibers]].
@@ -128,7 +128,7 @@ $$
 hence it is sufficient that this vanishes, or rather, by locality ([[sheafification]]) it suffices to show this vanishes for $X = U = Spec(A)$ an affine [[algebraic variety]].
 
 By the existence of [cofinal affine &#233;tale covers](etale+site#CofinalAffineCovers) the [[full subcategory]] $X_{et}^{a} \hookrightarrow X_{at}$ with the induced [[coverage]] is a [[dense subsite]] of affines. Therefore it suffices to show the statement there. 
-Moreover, by the finitenss condition on [[étale morphisms]]  every cover of $X_{et}^{a}$ may be refined by a finite cover, hence by an affine covering map 
+Moreover, by the finiteness condition on [[étale morphisms]]  every cover of $X_{et}^{a}$ may be refined by a finite cover, hence by an affine covering map 
 
 $$
   Spec(B) \longrightarrow Spec(A)
@@ -150,7 +150,7 @@ $$
 
 known as the [[Amitsur complex]].
 
-Since $A \to B$ is a [[faithfully flat]] it follows by the [[descent theorem]] that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
+Since $A \to B$ is a [[faithfully flat morphism]] it follows by the [[descent theorem]] that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
 
 
 =--
