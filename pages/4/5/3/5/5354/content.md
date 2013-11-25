@@ -109,6 +109,12 @@ The classical references are
 * [[Pierre Deligne]] et al., _Cohomologie &#233;tale_ , Lecture Notes in Mathematics, no. 569, Springer-Verlag, 1977.
 {#Deligne}
 
+
+Textbooks include
+
+* [[Günter Tamme]], _[[Introduction to Étale Cohomology]]_
+
+
 * [[James Milne]], _Etale cohomology_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
 
 A detailed survey is in chapter 34 of
@@ -124,7 +130,7 @@ Lecture notes include
 
 A variant, the _[[pro-étale site]]_ (locally contractible in some sense) is discussed in 
 
-* Bhargav Bhatt, Peter Scholze, _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
+* [[Bhargav Bhatt]], [[Peter Scholze]], _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
 
 
 
