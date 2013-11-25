@@ -431,13 +431,12 @@ in the [[étale site]]
 
 =--
 
-([Tamme, II Lemma (3.1)](#Tamme))
+([Tamme, II Lemma (3.1.1)](#Tamme))
 
 +-- {: .proof}
-###### Proof (Sketch)
+###### Proof (sketch)
 
-Since [[covers]] by standard [[open immersioons of schemes]] in the [[Zariski topology]] are also [[étale morphisms of schemes]] and &#233;tale covers, we may take any &#233;tale cover $\{Y_i \to Y\}$ over $X$, find an Zariski cover $\{U_i \to X\}$ of $X$, pull back the original cover to that and in turn cover the pullbacks themselves by Zariski covers. The result is still a cover and is so by a collection of [[open immersions of schemes]].
-
+Since [[covers]] by standard [[open immersions of schemes]] in the [[Zariski topology]] are also [[étale morphisms of schemes]] and &#233;tale covers, we may take any &#233;tale cover $\{Y_i \to Y\}$ over $X$, find an Zariski cover $\{U_i \to X\}$ of $X$, pull back the original cover to that and in turn cover the pullbacks themselves by Zariski covers. The result is still a cover and is so by a collection of [[open immersions of schemes]].
 Now using compactness assumptions we find finite subcovers of all these covers. This makes their [[disjoint union]] be a single morphisms of affines.
 
 =--
@@ -457,7 +456,15 @@ is a [[sheaf]].
 
 =--
 
-By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers}. (...) See also ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme, II theorem (3.1.2)](#Tamme)).
+This is due to ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme, II theorem (3.1.2)](#Tamme)).
+
++-- {: .proof}
+###### Proof 
+
+By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers} we are reduced to
+showing that the represented presheaf satisfies [[descent]] along collections of open immersions and along surjective maps of affines. For the first this is clear (it is [[Zariski topology]]-descent). The second case is handled by the descent theory in ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3).
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
