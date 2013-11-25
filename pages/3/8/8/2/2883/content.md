@@ -83,7 +83,7 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 * $H^2_{et}(-, \mathbb{G}_m)$: [[Brauer group]];
 
 
-### Relation to Zariski cohomology
+### Relation to Zariski cohomology and with coefficients in coherent modules
  {#RelationZariskiEtaleCohomology}
 
 +-- {: .num_remark }
@@ -117,7 +117,7 @@ $$
 
 This is originally due to ([[Grothendieck]], [[SGA]] 4 (Chapter VII, p355)). Reviews include ([Tamme, II 1.3](#Tamme)).
 
-+-- {: .num_prop }
++-- {: .num_prop #CohomologyWithCoeffsInCoherentModules}
 ###### Proposition
 
 For $N$ a [[quasi-coherent sheaf]] of $\mathcal{O}_X$-[[modules]] and $N_{et}$ the induced &#233;tale sheaf (by the discussion at [&#233;tale topos -- Quasicohetent sheaves](etale+topos#QuasiCoherentModules)),
@@ -186,6 +186,75 @@ $$
 known as the [[Amitsur complex]].
 
 Since $A \to B$ is a [[faithfully flat]] it follows by the [[descent theorem]] that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
+
+
+=--
+
+### With coefficients in a cyclic group
+ {#WithCoefficientsInACyclicGroup}
+
++-- {: .num_prop}
+###### Proposition
+
+If $X = Spec(A)$ is an affine [[reduced scheme]] of [[characteristic]] a [[prime number]] $p$, then its [[étale cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$ is
+
+$$
+  H^q(X, (\mathbb{Z}/p\mathbb{Z})_X)
+  \simeq
+  \left\{
+    \array{
+      A/(F - id)A & if\; q = 1
+      \\
+      0 & if \; q \gt 0
+    }
+  \right.
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the given assumptions, the [[Artin-Schreier sequence]] (see there) induces a [[long exact sequence in cohomology]] of the form
+
+$$
+  \begin{aligned}
+    0 & \to 
+    H^0(X_{et}, \mathbb{Z}/p\mathbb{Z}) \to H^0(X_{et}, \mathcal{O}_X) \stackrel{F-id}{\to} H^0(X_{et}, \mathcal{O}_X)
+   \\
+    & \to
+     H^1(X_{et}, \mathbb{Z}/p\mathbb{Z}) \to H^1(X_{et}, \mathcal{O}_X) \stackrel{F-id}{\to} H^1(X_{et}, \mathcal{O}_X)
+   \\
+    & \to
+     H^2(X_{et}, \mathbb{Z}/p\mathbb{Z}) \to H^2(X_{et}, \mathcal{O}_X) \stackrel{F-id}{\to} H^2(X_{et}, \mathcal{O}_X) \to \cdots
+  \end{aligned}
+  \,,
+$$
+
+where $F(-) = (-)^p$ is the [[Frobenius endomorphism]]. 
+By prop. \ref{CohomologyWithCoeffsInCoherentModules}
+the terms of the form $H^{p \geq 1}(X, \mathcal{O}_X)$ vanish,
+and so from [[exact sequence|exactness]] we find an [[isomorphism]]
+
+$$
+  H^0(X_{et}, \mathcal{O}_X)/(F-id)(H^0(X_{et}, \mathcal{O}_X))
+    \stackrel{\simeq}{\to}
+  H^1(X_{et}, \mathbb{Z}/p\mathbb{Z})
+  \,,
+$$
+
+hence the claimed isomorphism
+
+$$
+  A/(F-id)(A)
+    \stackrel{\simeq}{\to}
+  H^1(X_{et}, \mathbb{Z}/p\mathbb{Z})
+  \,.
+$$
+
+By the same argument all the higher cohomology groups vanish, as claimed.
 
 
 =--
