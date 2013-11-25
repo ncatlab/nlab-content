@@ -23,7 +23,7 @@ A [[homomorphism]] of [[schemes]] $f \colon Y\to X$ is
 
 1. __locally finitely presented__ if it is finitely presented at each $x\in X$. 
 
-1. __finitely presented__ if it is locally finitely presented, quasicompact and quasiseparated.  
+1. __finitely presented__ if it is locally finitely presented, [[quasicompact morphism|quasicompact]] and [[quasiseparated morphism|quasiseparated]].  
 
 1. __essentially finitely presented__ if it is a localization of a finitely presented morphism.  
 
@@ -36,6 +36,8 @@ A standard open $Spec(R[\{s\}^{-1}]) \longrightarrow Spec(R)$ ([[Zariski topolog
 * [[morphism of finite type]]
 
 ## References
+
+* [[The Stacks Project]], section 28.22 _Morphism of finite presentation_
 
 * [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
 
