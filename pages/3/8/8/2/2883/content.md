@@ -107,7 +107,7 @@ $$
 of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
 
 $$
-  E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{R})
+  E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{F})
   \Rightarrow
   E^{p+q} = H^{p+q}(X_{et}, \mathcal{F})
   \,.
@@ -115,21 +115,28 @@ $$
 
 =--
 
-(e.g. [Tamme, II 1.3](#Tamme))
+This is originally due to ([[Grothendieck]], [[SGA]] 4 (Chapter VII, p355)). Reviews include ([Tamme, II 1.3](#Tamme)).
 
 +-- {: .num_prop }
 ###### Proposition
 
-For $N$ a [[quasi-coherent sheaf]] of $\mathcal{O}_X$-[[modules]],
-the [[edge morphism]]
+For $N$ a [[quasi-coherent sheaf]] of $\mathcal{O}_X$-[[modules]] and $N_{et}$ the induced &#233;tale sheaf (by the discussion at [&#233;tale topos -- Quasicohetent sheaves](etale+topos#QuasiCoherentModules)),
+then the [[edge morphism]]
 
 $$
   H^p_{Zar}(X, N)
   \longrightarrow
-  H^p_{et}(X,N)
+  H^p_{et}(X,N_{et})
 $$
 
-of the [[Leray spectral sequence]] of remark \ref{LerayForInclusionOfZariskiIntoEtale} is an  [[isomorphism]] for all $p$
+of the [[Leray spectral sequence]] of remark \ref{LerayForInclusionOfZariskiIntoEtale} is an  [[isomorphism]] for all $p$, itentifying the [[abelian sheaf cohomology]] on the [[Zariski site]] with [[coefficients]] in $N$ with the &#233;tale cohomology with coefficients in $N_{et}$.
+
+Moreover, for $X$ affine we have
+
+$$
+  H^p_{et}(X, N_{et}) \simeq 0
+  \,.
+$$
 
 
 =--
@@ -150,16 +157,36 @@ By the discussion at _[[direct image]]_ (also at _[[abelian sheaf cohomology]]_)
 
 $$
   U \mapsto H^q(X_{et}|U, N)
+  \,,
+$$
+
+hence it is sufficient that this vanishes, or rather, by locality ([[sheafification]]) it suffices to show this vanishes for $X = U = Spec(A)$ an affine [[algebraic variety]].
+
+By the existence of [cofinal affine &#233;tale covers](etale+site#CofinalAffineCovers) the [[full subcategory]] $X_{et}^{a} \hookrightarrow X_{at}$ with the induced [[coverage]] is a [[dense subsite]] of affines. Therefore it suffices to show the statement there. 
+Moreover, by the finitenss condition on [[étale morphisms]]  every cover of $X_{et}^{a}$ may be refined by a finite cover, hence by an affine covering map 
+
+$$
+  Spec(B) \longrightarrow Spec(A)
   \,.
 $$
 
-By locality (...) it suffices to show this for $X$ an [[algebraic variety]].
+It follows (by a discussion such as e.g. at [[Sweedler coring]]) that the corresponding [[Cech cohomology]] complex
 
-Let $X_{et}^{a}$ be the [[dense subsite]] of affines, it suffices to show the statement there. 
+$$
+  N_{et}(Spec(A)) \to C^0(\{Spec(B) \to Spec(A)\}, N_{et}) \to C^1(\{Spec(B) \to Spec(A)\}, N_{et}) \to \cdots
+$$
 
-Observe that $N$ is a [[flabby sheaf]] on $X_{et}^a$.
+is of the form
 
-(...)
+$$
+  0 \to N \to N \otimes_A B \to N \otimes_{A} B \otimes_A B \to \cdots
+  \,.
+$$
+
+known as the [[Amitsur complex]].
+
+Since $A \to B$ is a [[faithfully flat]] it follows by the [[descent theorem]] that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
+
 
 =--
 
@@ -241,6 +268,7 @@ Discussion of [[generalized cohomology theory]] on the [[étale site]] but with 
 Discussion of generalized &#233;tale cohomology over the [[étale (∞,1)-site]] (hence in [[higher topos theory]]/[[higher algebra]]) is in 
 
 * [[Benjamin Antieau]], [[David Gepner]], _Brauer groups and &#233;tale cohomology in derived algebraic geometry_ ([arXiv:1210.0290](http://arxiv.org/abs/1210.0290))
+
  {#AntieauGepner12}
 
 * [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
