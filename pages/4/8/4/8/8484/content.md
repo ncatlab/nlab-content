@@ -40,7 +40,7 @@ The set of "0-associators" is the what is called the _[[Grothendieck-Teichmuelle
 
 These [[equations]] are modelled on the defining [[axioms]] of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some [[Lie algebra|Lie algebraic]] data.
 
-Drinfeld associators are also used to construct [[quasi Hopf algebras]]. 
+Drinfeld associators are also used to construct [[quasi-Hopf algebra|quasi-Hopf algebras]]. 
 
 +-- {: .num_theorem}
 ###### Theorem
