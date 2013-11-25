@@ -257,7 +257,15 @@ is &#233;tale.
 +-- {: .proof}
 ###### Proof
 
-By one of the equivalent characterizations of [[étale morphism]] it is sufficient to check that the map $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ is a [[formally étale morphism]] and locally of finite presentation. 
+By one of the equivalent characterizations of [[étale morphism]] it is sufficient to check that the map $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ is a [[formally étale morphism]] and [[locally of finite presentation]].
+
+The latter is clear, since the very definition of 
+
+$$
+  R[S^{-1}] = R[s_1^{-1}, \cdots, s_n^{-1}](s_1 s_1^{-1} - 1, \cdots , s_n s_n^{-1} - 1)
+$$ 
+
+exhibits a [[finitely presented algebra]] over $R$.
 
 To see that it is formally &#233;tale we need to check that for every [[commutative ring]] $T$ with [[nilpotent ideal]] $J$ we have a [[pullback]] diagram
 
