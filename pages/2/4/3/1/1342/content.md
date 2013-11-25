@@ -532,6 +532,8 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 
     * [[Sweedler coring]]
 
+    * [[Amitsur complex]]
+
     * [[higher monadic descent]]
 
     * [[descent in noncommutative algebraic geometry]]
