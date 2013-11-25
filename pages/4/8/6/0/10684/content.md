@@ -114,7 +114,7 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ### 2. The Adams spectral sequence based on a generalized homology theory
 
-* [[Hopf algebroid]] structure on [[Steenrod algebra]]
+* [[commutative Hopf algebroid]] structure on [[Steenrod algebra]]
 
 ### 3. The smash product pairing and the Generalized connecting homomorphism
 
@@ -206,7 +206,7 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Hopf algebra]]
 
-* [[Hopf algebroid]]
+* [[commutative Hopf algebroid]]
 
 * [[module]], [[comodule]]
 
@@ -231,7 +231,7 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ### 5. Algebraic Steenrod operations
 
-* [[Steenrod algebra]] on co[[Tor]]-groups of [[comodules]] over [[Hopf algebroids]]
+* [[Steenrod algebra]] on co[[Tor]]-groups of [[comodules]] over [[commutative Hopf algebroids]]
 
 ## Appendix 2. Formal Group Laws
 
