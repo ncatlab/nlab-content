@@ -1,18 +1,34 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
 {:toc}
 
+Hopf algebroids have a base and a total algebra (and some other data).
+There are 3 levels of generality: commutative Hopf algebras (classical case, both base
+and the total space are commutative), Hopf algebras with commutative base (studied from late 1980s: Maltsionitis, later Connes' school etc) and genuinely noncommutative case for which see [[Hopf algebroid]] and [[bialgebroid]].
+
 ## Idea
 
-Just as for [[groups]] and their [[Hopf algebras]], there are _two_ ways to assign a Hopf algebroid over a commutative base to a [[groupoid]] $\mathcal{G}_\bullet$: 
+Just as for [[groups]] and their [[Hopf algebras]], there are _two_ ways to assign a __Hopf algebroid over a commutative base algebra__ to a [[groupoid]] $\mathcal{G}_\bullet$: 
 
-1. with **commutative but non-co-commutative total algebra**: Form the [[commutative algebra|commutative]] [[algebras of functions]] $C(\mathcal{G}_1)$ and $C(\mathcal{G}_0)$ and regard the operation induced by the partially defined [[composition]] in $\mathcal{G}_\bullet$ as an in general non-co-commutative [[coalgebra]] structure on $C(\mathcal{G}_1)$ over $C(\mathcal{G}_0)$;
+1. (commutative Hopf algebroids) with **commutative but non-co-commutative total algebra**: Form the [[commutative algebra|commutative]] [[algebras of functions]] $C(\mathcal{G}_1)$ and $C(\mathcal{G}_0)$ and regard the operation induced by the partially defined [[composition]] in $\mathcal{G}_\bullet$ as an in general non-co-commutative [[coalgebra]] structure on $C(\mathcal{G}_1)$ over $C(\mathcal{G}_0)$; the graded 
+commutative case appears in algebraic topology and is classical 
+(Steenrod algebra and other examples);
 
 1. with **non-commutative but co-commutative total algebra**: Form the in general non-commutative [[groupoid convolution algebra]] $C_{conv}(\mathcal{G})$ and regard it as a co-commutative [[coalgebra]] over $C(\mathcal{G}_0)$.
-
-Both of these resulting bialgebra structures can then be further generalized to allow them to be both non-commutative as well as non-co-commutative.
-However in both cases, the base algebra is commutative. For the general case over noncommutative base see general entries [[bialgebroid]]  and [[Hopf algebroid]]
 
 Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[[schemes]], where $k$ is a field, the $k$-algebras of [[global sections]] over the scheme of objects and the scheme of morphisms have an additional structure of a commutative Hopf algebroid. In fact this is an [[dual equivalence|antiequivalence of categories]]. Commutative Hopf algebroids are useful also in a version in [[brave new algebra]] (the work of John Rognes).
 
@@ -98,10 +114,67 @@ In summary this means that (for $G$ a finite group)
 1. if instead we regard $\mathbf{B}G$ as presented as the double groupoid which is degreewise constant as a groupoid, then the corresponding groupoid convolution sesquialgebra is the standard ("dual") [[Hopf algebra]] structure on the commutative pointwise product algebra of functions on $G$.
 
 =--
+## Properties
+
+### Steenrod operations on coTor groups
+
+For $\Gamma$ a suitable commutative Hopf algebroid and $N_1, N_2$
+two $\Gamma$-[[comodules]], then the co[[Tor]] groups $CoTor_\Gamma(N_1, N_2)$
+form a _[[Steenrod algebra]]_. See there for details and citations.
+
+For [[MU]] this is the content of the [[Landweber-Novikov theorem]].
+
+
+### Generalized dual Steenrod algebra
+ {#GeneralizedDualSteenrodAlgebra}
+
+For $E$ a suitable [[E-infinity ring]] [[spectrum]], its [[homotopy groups]]
+$\pi_\bullet(E)$ and [[generalized homology]] $E_\bullet(E)$
+form a Hopf algebroid of [[spectra]], the dual $E$-[[Steenrod algebra]].
+(These examples have also been called [[brave new Hopf algebroids]].)
+See at _[Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)_.
+
+The general statement is this:
+
++-- {: .num_lemma #SelfHomologyIsModuleOverCohomologyRing}
+###### Lemma
+
+Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
+The self-[[generalized homology]] $A^R_\bullet(A)$ 
+is naturally a [[module]] over the [[cohomology ring]] $A_\bullet$
+via applying the [[homotopy groups]] $\infty$-functor $\pi_\bullet$ 
+to the canonical inclusion
+
+$$
+  A \stackrel{\simeq}{\rightarrow}
+  A \underset{R}{\wedge} R
+  \stackrel{}{\rightarrow}
+  A \underset{R}{\wedge} A
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
+If the the $A_\bullet$-[[module]] $A^R_\bullet(A)$ of 
+lemma \ref{SelfHomologyIsModuleOverCohomologyRing} is a [[flat module]],
+then 
+
+1. $(A_\bullet, A_\bullet(A))$ is a [[Hopf algebroid]] over $R_\bulllet$;
+
+1. $A^R_\bullet(X)$ is a left $A^R_\bullet(A)$-module for every $R$-[[∞-module]] $X$.
+
+=--
+
+This is due to ([Baker-Lazarev 01](#BakerLazarev01)), further discussed  in ([Baker-Jeanneret 02](#BakerJeanneret02)) (there expressed in terms of the presentation by [[commutative monoids]] in [[symmetric spectra]]). 
+A review is also in ([Ravenel, chapter 2, prop. 2.2.8](#Ravenel)).
 
 ## References
 
-The commutative version is classical, and there is an extensive literature. Some of the recent works on commutative case, related to homotopy theory and stacks are
+The fully commutative version is classical, and there is an extensive literature. Some of the recent works on commutative case, related to homotopy theory and stacks are
 
 * [[Mark Hovey]], _Homotopy theory of comodules over a Hopf algebroid_, [pdf](http://math.wesleyan.edu/~mhovey/papers/comodule.pdf); _Morita theory of Hopf algebroids_, [pdf](http://math.wesleyan.edu/~mhovey/talks/hopfalgebroids.pdf)
 
@@ -109,14 +182,36 @@ The commutative version is classical, and there is an extensive literature. Some
 
 * Barry Walker, _Hopf algebroids and stacks_  ([pdf](http://www.math.umn.edu/~tlawson/old/stackstalk.pdf))
 
+One can straightforwardly keep the base commutative while having the total algebra noncommutative, and the image of source and target maps are required to commute mutually. This version is due Maltsiniotis; he also generalized this to [[quasi-Hopf algebra|quasi-Hopf]] version:
+
+* [[Georges Maltsiniotis]], _Groupo&#239;des quantiques_, Comptes R
+Rendus Acad. Sci. Paris __314__, pp. 249-252 (1992) [ps](http://people.math.jussieu.fr/~maltsin/ps/GRN-1.PS)
+* G. Maltsiniotis, _Quasi-groupo&#239;des quantiques_ (travail en commun avec A. Brugui&#232;res), C.R. Acad. Sci. Paris __319__, pp. 933-936 (1994) [ps](http://people.math.jussieu.fr/~maltsin/ps/N-QSBIG.PS)
+
+A [[Tannaka duality]]-type theorem relating certain subcategory of
+commutative Hopf algebroids to discrete groupoids is in
+
+* Laiachi EL Kaoutit, _Representative functions on discrete groupoids and duality with Hopf algebroids_, [arxiv/1311.3109](http://arxiv.org/abs/1311.3109)
+
 For the relation to [[groupoid convolution algebras]] see also at _[groupoid convolution algebra -- References -- Convolution Hopf algebroids](category%20algebra#ReferencesConvolutionHopfAlgebroids)_.
 
 * [[Mark Hovey]], _Morita theory for Hopf algebroids and presheaves of groupoids_ ([arXiv:math/0105137](http://arxiv.org/abs/math/0105137))
 
+### In stable homotopy theory and generalized cohomology
+
 The version in [[brave new algebra]]
 
-* A. Baker, A. Jeanneret, _Brave new Hopf algebroids and extensions of $M U$-algebras_, Homology Homotopy Appl. __4__:1 (2002), 163-173, [MR1937961](http://www.ams.org/mathscinet-getitem?mr=1937961), [euclid](http://projecteuclid.org/euclid.hha/1139840059)
+* [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
+ {#BakerLazarev01}
+
+* [[Andrew Baker]], Alain Jeanneret, _Brave new Hopf algebroids and extensions of $MU$-algebras_, Homology Homotopy Appl. __4__:1 (2002), 163-173, [MR1937961](http://www.ams.org/mathscinet-getitem?mr=1937961), [euclid](http://projecteuclid.org/euclid.hha/1139840059)
+ {#BakerJeanneret02}
+
+Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
+
+* [[Doug Ravenel]], chapter 2 and appendix 1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf)
 
 category: algebra
 
 [[!redirects Hopf algebroids over a commutative base]]
+[[!redirects commutative Hopf algebroid]]
