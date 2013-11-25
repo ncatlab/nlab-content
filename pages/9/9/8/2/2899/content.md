@@ -229,6 +229,7 @@ A proof is in ([Deligne](#Deligne)).
 
 
 ## Examples
+ {#Examples}
 
 
 +-- {: .num_example}
@@ -238,7 +239,7 @@ A finite separable [[field extension]] $K \hookrightarrow L$ corresponds dually 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #OpenImmersionIsEtale}
 ###### Example
 
 Every [[open immersion of schemes]] is an &#233;tale morphism of schemes.
