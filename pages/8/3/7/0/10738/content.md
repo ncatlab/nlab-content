@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _Landweber-Novikov theorem_ describes the [[Hopf algebroid]] structure on the dual generalized [[Steenrod algebra]] of the [[complex cobordism cohomology theory]] [[spectrum]] [[MU]].
+The _Landweber-Novikov theorem_ describes the structure of [[Hopf algebroid over a commutative base]] on the dual generalized [[Steenrod algebra]] of the [[complex cobordism cohomology theory]] [[spectrum]] [[MU]].
 
 By [[Quillen's theorem on MU]] we have $\pi_\bullet(MU) \simeq L$, the [[Lazard ring]]. Moreover the dual [[Steenrod algebra]] is 
 
@@ -33,7 +33,7 @@ $$
 
 where on the right we have the [[polynomial ring]] on generators $b_i$ in degree $2i$. 
 
-Here $(L, L B)$ carries a natural structure of a [[Hopf algebroid]] (and apparently this example is what made [[Haynes Miller]] introduce Hopf algebroids in the first place). The Landweber-Novikov theorem asserts that 
+Here $(L, L B)$ carries a natural structure of a [[Hopf algebroid over a commutative base]] (and apparently this example is what made [[Haynes Miller]] introduce Hopf algebroids in the first place). The Landweber-Novikov theorem asserts that 
 this is the [[Hopf algebroid]] structure on the dual [[MU]]-[[Steenrod algebra]] 
 
 $$
