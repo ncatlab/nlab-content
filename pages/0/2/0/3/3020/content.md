@@ -98,9 +98,9 @@ $$E^2_{t,s} \Rightarrow H^s (N, \pi_t \mathbf{O}) .$$
 
 Let $X$ be a (non-derived) Deligne-Mumford stack on $\mathrm{Aff}$ and let $\mathrm{Spec} \; A \to X$ be a faithfully flat cover, then
 $$ \mathrm{Spec} \; A \times_X \mathrm{Spec} \; A = \mathrm{Spec} \; \Gamma,$$
-for some commutative ring $\Gamma$. Via the projection maps (which are both flat) we have a groupoid in $\mathrm{Aff}$, by definition it is a [[Hopf algebroid]] $(A, \Gamma)$.
+for some commutative ring $\Gamma$. Via the projection maps (which are both flat) we have a groupoid in $\mathrm{Aff}$, by definition it is a [[commutative Hopf algebroid]] $(A, \Gamma)$.
 
-Now let $(A,\Gamma)$ be a Hopf algebroid, then the collection of principal bundles form a stack $M_{A,\Gamma}$.  Here a principal bundle is a map of schemes $P \to X$, a $\mathrm{Spec} \; \Gamma$ equivariant map $P \to \mathrm{Spec} \; A$, where the action is given by a map $P \times_{\mathrm{Spec} A} \mathrm{Spec} \; \Gamma \to P$. In this we have an equivalence of 2-categories
+Now let $(A,\Gamma)$ be a commutative Hopf algebroid, then the collection of principal bundles form a stack $M_{A,\Gamma}$.  Here a principal bundle is a map of schemes $P \to X$, a $\mathrm{Spec} \; \Gamma$ equivariant map $P \to \mathrm{Spec} \; A$, where the action is given by a map $P \times_{\mathrm{Spec} A} \mathrm{Spec} \; \Gamma \to P$. In this we have an equivalence of 2-categories
 $$ \{DM \; Stacks\} \simeq \{Hopf \; Algebroids, \; bibundles\} .$$
 and
 $$ \{DM \; stacks \; equipped \; with \; cover\} \simeq \{Hopf \; algebroids, \; functors \; of \; groupoids\}. $$
@@ -131,7 +131,7 @@ $$ H^n ( M_{A,\Gamma} , \mathfrak{I}_N ) = \mathrm{Ext}^n_{A,\Gamma} (A,N) .$$
 To simplify notation we write the above as $H^n (A, \Gamma ; N)$ and if the $N$ is suppressed it is assumed that $N=A$.  In general we compute these Ext groups via the [[cobar complex]].
 
 ###Change of Rings###
-Let $(A,\Gamma)$ be a Hopf algebroid and $f: A \to B$  a ring homomorphism.  Define
+Let $(A,\Gamma)$ be a commutative Hopf algebroid and $f: A \to B$  a ring homomorphism.  Define
 $$ \Gamma_B = B \otimes_A^{d_0} \Gamma \otimes_A^{d_1} B ,$$
 so we have a map of Hopf algebroids $f_* : (A, \Gamma) \to (B, \Gamma_B)$ and of stacks
 $$ f^* : M_{B,\Gamma_B} \to M_{A,\Gamma} .$$
