@@ -413,6 +413,123 @@ In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\time
 
 ## Properties
 
+### Sheaf condition and examples of &#233;tale sheaves
+
++-- {: .num_prop #EtaleDescentDetectedOnOpenImmersionCovers}
+###### Proposition
+
+For $X$ a [[scheme]], and $A \in PSh(X_{et})$ a [[presheaf]],
+for checking the [[sheaf]] condition it is sufficient to 
+check [[descent]] on the following two kinds of [[covers]] 
+in the [[étale site]]
+
+1. jointly surjective collections of [[open immersions of schemes]];
+
+1. single surjective morphisms of [[affine schemes]]
+
+(all over $X$).
+
+=--
+
+([Tamme, II Lemma (3.1)](#Tamme))
+
++-- {: .proof}
+###### Proof (Sketch)
+
+Since [[covers]] by standard [[open immersioons of schemes]] in the [[Zariski topology]] are also [[étale morphisms of schemes]] and &#233;tale covers, we may take any &#233;tale cover $\{Y_i \to Y\}$ over $X$, find an Zariski cover $\{U_i \to X\}$ of $X$, pull back the original cover to that and in turn cover the pullbacks themselves by Zariski covers. The result is still a cover and is so by a collection of [[open immersions of schemes]].
+
+Now using compactness assumptions we find finite subcovers of all these covers. This makes their [[disjoint union]] be a single morphisms of affines.
+
+=--
+
+
+
++-- {: .num_prop #XSchemesRepresentSheaves}
+###### Proposition
+
+For $Z \to X$ any [[scheme]] over a [[scheme]] $X$, the induced [[presheaf]] on the [[étale site]]
+
+$$
+  (U_Y \to X) \mapsto Hom_X(U_Y, Z)
+$$
+
+is a [[sheaf]].
+
+=--
+
+By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers}. (...) See also ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme, II theorem (3.1.2)](#Tamme)).
+
++-- {: .num_remark}
+###### Remark
+
+This map from $X$-schemes to sheaves on $X_{et}$ is not injective, different $X$-schemes may represent the same sheaf on $X_{et}$.
+Unique representatives are given by [[étale morphism of schemes|étale schemess]] over $X$.
+
+=--
+
+(e.g. [Tamme, II theorem 3.1](#Tamme))
+
+We consider some examples of [[sheaves of abelian groups]]
+induced by prop. \ref{XSchemesRepresentSheaves} from  [[group schemes]]
+over $X$.
+
+
++-- {: .num_example}
+###### Example
+
+The [[additive group]] over $X$ is the [[group scheme]]
+
+$$
+  \mathbbf{G}_a  \coloneqq Spec(\mathbb{Z}[t]) \times_{Spec(\mathbb{Z})} X
+  \,.
+$$
+
+By the [[universal property]] of the [[pullback]], the corresponding sheaf $(\mathbb{G}_a)_X$ is given by the assignment
+
+$$
+  \begin{aligned}
+     (\mathbb{G}_a)_X(U_X \to X) & =
+     Hom_X(U_X, Spec(\mathbb{Z}[t]) \times_{Spec(\mathbb{Z})} X)
+     \\
+     & = 
+     Hom(U_X, Spec(\mnathbb{Z}[t]))  
+     \\
+     & = 
+     Hom(\mathbb{Z}[t], \Gamma(U_X, \mathcal{O}_{U_X}))
+     \\ 
+     & = \Gamma(U_X, \mathcal{O}_{U_X})
+  \end{aligned}
+  \,.
+$$
+
+In other words, the sheaf represented by the [[additive group]] is the [[abelian sheaf]] underlying the [[structure sheaf]] of $X$.
+
+=--
+
+Similarly one finds
+
++-- {: .num_example}
+###### Example
+
+The [[multiplicative group]] over $X$
+
+$$
+  \mathbb{G}_m \coloneqq Spec(\mathbb{Z}[t,t^{-1}]) \times_{Spec(\mathbb{Z})} X
+$$
+
+represents the sheaf $(\mathbb{G}_m)_X$ given by 
+
+$$
+  (\mathbb{G}_m)_X(U_X)
+  \mapsto
+  \Gamma(U_X, \mathcal{O}_{U_X})^\times
+  \,.
+$$
+
+=--
+
+(e.g. [Tamme, II, 3](#Tamme))
+
 ### Base change and sheaf cohomology
  {#BaseChange}
 
@@ -592,6 +709,7 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
 [[!redirects etale (∞,1)-toposes]]
 
 [[!redirects étale (infinity,1)-topos]]
+
 [[!redirects etale (infinity,1)-topos]]
 [[!redirects étale (infinity,1)-toposes]]
 [[!redirects etale (infinity,1)-toposes]]
