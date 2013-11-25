@@ -55,32 +55,15 @@ The following gives an explicit description of the localization
 +-- {: .num_defn }
 ###### Definition
 
-The localization of $R$ at a [[multiplicative subset]] $S$ is the [[commutative ring]] whose underlying  [[set]] is the set of [[equivalence classes]] on $R \times S$ under the [[equivalence relation]]
+For $R$ a [[commutative ring]] and $s \in R$ an element, the 
+localization of $R$ at $s$ is
 
 $$
-  (r_1, s_1) \sim (r_2, s_2) 
-  \;\;\Leftrightarrow\;\;
-  \exists u \in S
-  \;
-  (r_1 s_2- r_2 s_1) u = 0 \;\in R
+  A[s^{-1}] = A[X](X s - 1)
   \,.
 $$
-
-Write $r s^{-1}$ for the [[equivalence class]] of $(r,s)$. On this set, addition and multiplication is defined by
-
-$$
-  r_1 s_1^{-1} + r_2 s_2^{-1} \coloneqq (r_1 s_2 + r_2 s_1) (s_1 s_2)^{-1}
-$$
-
-$$
-  (r_1 s_1^{-1})(r_2 s_2^{-1}) \coloneqq r_1 r_2 (s_1 s_2)^{-1}
-  \,.
-$$
-
 
 =--
-
-(e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
 
 +-- {: .num_remark }
 ###### Remark
@@ -100,5 +83,6 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 
 * [[The Stacks Project]], 10.9. _Localization_
 
-[[!redirects localizations of a commutative ring]]
+* Yoshifumi Tsuchimoto, Review of commutative (usual) affine schemes. _[Localization of a commutative ring](http://www.math.kochi-u.ac.jp/docky/bourdoki/NAS/nas002/node4.html)_
 
+[[!redirects localizations of a commutative ring]]
