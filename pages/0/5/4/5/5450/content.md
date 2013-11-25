@@ -414,6 +414,7 @@ In conclusion this shows that $\infty$-limits are preserved by $L \circ (-)\time
 ## Properties
 
 ### Sheaf condition and examples of &#233;tale sheaves
+ {#SheafConditionAndExamples}
 
 +-- {: .num_prop #EtaleDescentDetectedOnOpenImmersionCovers}
 ###### Proposition
@@ -425,13 +426,13 @@ in the [[étale site]]
 
 1. jointly surjective collections of [[open immersions of schemes]];
 
-1. single surjective morphisms of [[affine schemes]]
+1. single surjective/[[étale morphism of schemes|étale]] morphisms between [[affine schemes]]
 
 (all over $X$).
 
 =--
 
-([Tamme, II Lemma (3.1.1)](#Tamme))
+([Tamme, II Lemma (3.1.1)](#Tamme), [Milne, prop. 6.6](#Milne))
 
 +-- {: .proof}
 ###### Proof (sketch)
@@ -440,7 +441,6 @@ Since [[covers]] by standard [[open immersions of schemes]] in the [[Zariski top
 Now using compactness assumptions we find finite subcovers of all these covers. This makes their [[disjoint union]] be a single morphisms of affines.
 
 =--
-
 
 
 +-- {: .num_prop #XSchemesRepresentSheaves}
@@ -456,13 +456,13 @@ is a [[sheaf]].
 
 =--
 
-This is due to ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme, II theorem (3.1.2)](#Tamme)).
+This is due to ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme, II theorem (3.1.2)](#Tamme), [Milne, 6.2](#Milne)).
 
 +-- {: .proof}
 ###### Proof 
 
 By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers} we are reduced to
-showing that the represented presheaf satisfies [[descent]] along collections of open immersions and along surjective maps of affines. For the first this is clear (it is [[Zariski topology]]-descent). The second case is handled by the descent theory in ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3).
+showing that the represented presheaf satisfies [[descent]] along collections of open immersions and along surjective maps of affines. For the first this is clear (it is [[Zariski topology]]-descent). For the second case of a [[faithfully flat]] cover of affines $Spec(B) \to Spec(A)$ it follows with the exactness of the correspomnding [[Amitsur complex]]. See there for details.
 
 =--
 
@@ -487,7 +487,7 @@ over $X$.
 The [[additive group]] over $X$ is the [[group scheme]]
 
 $$
-  \mathbbf{G}_a  \coloneqq Spec(\mathbb{Z}[t]) \times_{Spec(\mathbb{Z})} X
+  \mathbb{G}_a  \coloneqq Spec(\mathbb{Z}[t]) \times_{Spec(\mathbb{Z})} X
   \,.
 $$
 
@@ -499,7 +499,7 @@ $$
      Hom_X(U_X, Spec(\mathbb{Z}[t]) \times_{Spec(\mathbb{Z})} X)
      \\
      & = 
-     Hom(U_X, Spec(\mnathbb{Z}[t]))  
+     Hom(U_X, Spec(\mathbb{Z}[t]))  
      \\
      & = 
      Hom(\mathbb{Z}[t], \Gamma(U_X, \mathcal{O}_{U_X}))
