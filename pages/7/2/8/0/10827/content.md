@@ -18,7 +18,7 @@ This is called the _Kummer sequence_.
 
 ## Related concepts
 
-* [[Kummer sequence]]
+* [[Kummer theory]]
 
 ## References
 
