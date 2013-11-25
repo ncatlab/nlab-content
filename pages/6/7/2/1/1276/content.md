@@ -49,6 +49,14 @@ is an [[exact functor]] (sends [[short exact sequences]] to short exact sequence
 
 =--
 
++-- {: .num_defn #FaithfullyFlatModule}
+###### Definition
+
+A module as above is _faithfully flat_ if it is flat and tensoring in addition _reflects exactness_, hence if the tensored sequence is exact if and only if the original sequence was.
+
+=--
+
+
 +-- {: .num_remark #ImmediateReformulationOfFlatness}
 ###### Remark
 
@@ -371,6 +379,8 @@ then $N$ is a [[free module]].
 
 This is [Matsumara, Theorem 7.10](#Matsumara)
 
+
+
 ## Examples
  {#Examles}
 
@@ -389,6 +399,8 @@ By the general discussion at [[derived functor in homological algebra]], the obs
 =--
 
 ## Related concepts
+
+* [[flat morphism of schemes]]
 
 * [[flat resolution lemma]]
 
@@ -443,3 +455,7 @@ Further resources include
 * MO discussion _[flatness and local freeness](http://mathoverflow.net/questions/33522/flatness-and-local-freeness)_
 
 [[!redirects flat modules]]
+
+[[!redirects faithfully flat module]]
+[[!redirects faithfully flat modules]]
+
