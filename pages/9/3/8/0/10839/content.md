@@ -26,12 +26,12 @@ This page goes through some basics of [[étale cohomology]].
 
 Of the many equivalent characterizations of [[étale morphisms]], here we will have use of the following incarnation
 
-+-- {: .num_defn }
++-- {: .num_defn #EtaleMoprhism}
 ###### Definition
 
 A morphisms of [[schemes]] is an _[[étale morphism of schemes]]_ if it is
 
-1. [[formally étale morphism of schemes|formally étale]] -- defined in a [moment](#ExplicitDefinition);
+1. [[formally étale morphism of schemes|formally étale]] -- recalled in a [moment](#ExplicitDefinition);
 
 1. [[locally of finite presentation]].
 
@@ -44,12 +44,22 @@ The first condition makes an [[étale morphism of schemes]] be like an [[étale 
 
 =--
 
++-- {: .num_defn #EtaleSite}
+###### Definition
+
+For $X$ a [[scheme]], its [[étale site]] has a [[objects]] the [[étale morphisms of schemes]] into $X$, as [[morphisms]] the morphisms of schemes [[over category|over]] $X$, and as [[coverings]] the jointly surjective [[étale morphisms of schemes|étale morphisms]] over $X$.
+
+The [[category of sheaves]] on $X_{et}$ is the _[[étale topos]]_ of $X$. The corresponding [[abelian sheaf cohomology]] is its _[[étale cohomology]]_.
+
+=--
+
+
 The definition of [[formally étale morphisms of schemes|formally étale]] in components goes like this.
 
 +-- {: .num_defn #ExplicitDefinition}
 ###### Definition
 
-A [[morphism]] of [[commutative rings]] $R \hookrightarrow A$
+A [[morphism]] of [[commutative rings]] $R \longrightarrow A$
 is called _[[formally étale morphisms of schemes|formally étale]]_ if for every ring $B$ and for every [[nilpotent ideal]] $I \subset B$ and for every [[commuting diagram]] of the form
 
 $$
@@ -80,7 +90,27 @@ that makes both triangles commute.
 
 (e.g. [Stacks Project 57.9, 57.12](#StackProject))
 
-By [[Isbell duality|formal duality]] and [[sheafification|locality]] this yields a notion of formally &#233;tale morphisms of [[affine varieties]] and of [[schemes]].
++-- {: .num_remark}
+###### Remark
+
+So  [[Isbell duality|duality]] this means that $Spec(A) \to Spec(R)$ is formally &#233;tale if it has the unique [[right lifting property]] against all [[infinitesimal object|infinitesimal extensions]]
+
+$$
+  \array{
+    Spec(B_{red}) &\longrightarrow& Spec(A)
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    Spec(B) &\longrightarrow & Spec(R)
+  }
+  \,.
+$$
+
+
+=--
+
+
+and [[sheafification|locality]] this yields a notion of formally &#233;tale morphisms of [[affine varieties]] and of [[schemes]].
 
 It is useful to realize this equivalently but a bit more naturally as follows.
 
@@ -132,7 +162,7 @@ Here $\int_{inf}$ sends a [[scheme]] to its [[de Rham space]].
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #FormalEtalenessBydeRhamSpace}
 ###### Proposition
 
 A morphism $f \;\colon\; Spec A \to Spec R$ in $CRing^{op} \hookrightarrow Sh(CRing)$ is 
@@ -193,9 +223,9 @@ is &#233;tale.
 +-- {: .proof}
 ###### Proof
 
-By one of the equivalent characterizations of [[étale morphism]] it is sufficient to check that the map $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ is a [[formally étale morphism]] and [[locally of finite presentation]].
+By def. \ref{EtaleMoprhism} we need to check that the map $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ is a [[formally étale morphism]] and [[locally of finite presentation]].
 
-The latter is clear, since the very definition of 
+The latter is clear, since the very definition of [[localization of a commutative ring]]
 
 $$
   R[S^{-1}] = R[s_1^{-1}, \cdots, s_n^{-1}](s_1 s_1^{-1} - 1, \cdots , s_n s_n^{-1} - 1)
@@ -224,15 +254,9 @@ Now by the [[universal property]] of the [[localization of a commutative ring|lo
 
 
 
-### Sheaf condition and examples of &#233;tale sheaves
+### Descent theorem and examples of &#233;tale sheaves
  {#SheafConditionAndExamples}
 
-+-- {: .num_defn #EtaleSite}
-###### Definition
-
-For $X$ a [[scheme]], its [[étale site]] has a [[objects]] the [[étale morphisms of schemes]] into $X$, as [[morphisms]] the morphisms of schemes [[over category|over]] $X$, and as [[coverings]] the jointly surjective [[étale morphisms of schemes|étale morphisms]] over $X$.
-
-=--
 
 +-- {: .num_prop #EtaleDescentDetectedOnOpenImmersionCovers}
 ###### Proposition
@@ -244,7 +268,7 @@ in the [[étale site]]
 
 1. jointly surjective collections of [[open immersions of schemes]];
 
-1. single surjective/[[étale morphism of schemes|étale]] morphisms between [[affine schemes]]
+1. single [[faithfully flat morphisms]] between [[affine schemes]]
 
 (all over $X$).
 
@@ -253,10 +277,137 @@ in the [[étale site]]
 ([Tamme, II Lemma (3.1.1)](#Tamme), [Milne, prop. 6.6](#Milne))
 
 +-- {: .proof}
-###### Proof (sketch)
+###### Proof 
 
-Since [[covers]] by standard [[open immersions of schemes]] in the [[Zariski topology]] are also [[étale morphisms of schemes]] and &#233;tale covers, we may take any &#233;tale cover $\{Y_i \to Y\}$ over $X$, find an Zariski cover $\{U_i \to X\}$ of $X$, pull back the original cover to that and in turn cover the pullbacks themselves by Zariski covers. The result is still a cover and is so by a collection of [[open immersions of schemes]].
-Now using compactness assumptions we find finite subcovers of all these covers. This makes their [[disjoint union]] be a single morphisms of affines.
+Suppose given an arbitrary elate covering $\{X'_i \to X'\}$ over $X$. 
+We will refine it to a more special cover. 
+
+To that end, first choose a cover $\{U'_j \to X'\}$ of $X_i$ by affine [[open immersions of schemes]]. Then pulling back the original cover along that one yields covers
+
+$$
+  \{X'_i \times_{X'} U'_j \to U'_j\}
+$$
+
+of each of the open affines. Now these patches in turn we cover by open affines
+
+$$
+  \{
+    \{U'_{i j k} \to X'_i \times_{X'} U'_j \}
+  \}
+$$
+
+leading to covers
+
+$$
+  \{
+   U'_{i j k} \to U'_j
+  \}
+$$
+
+by open affines. Since $U'_j$, being affine, is a [[quasi-compact scheme]], we may find a finite subcover 
+
+$$
+  \{
+    U'_{j l} \to U'_j
+  \}
+  \,.
+$$
+
+Composed with the original $\{U'_j \to X'\}$ this yields a refinement of the original cover by open affines. 
+
+Hence for checking descent it is sufficient to check it for these two kinds of overs. The latter is by open immersions. For the former, we may factor
+
+$\{U'_{j l} \to U'_j\}$  as a collection of open immersions
+
+$$
+  \{U'_{j i} \to \coprod U'_{j i}\}
+$$
+
+followed by the epimorphism of affines of the form
+
+$$
+  \{
+    \coprod U'_{j i} \to U'_j
+  \}
+  \,.
+$$
+
+Now this is morphism is etale, hence [[flat morphism|flat]], but also surjective. That makes it a [[faithfully flat morphism]].
+
+
+=--
+
+Therefore we are led to consider [[descent]] along [[faithfully flat morphisms]] of affines. For these the _[[descent theorem]]_ says that they are [[effective epimorphisms]]:
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[commutative ring]] $R$ and an $R$-[[associative algebra]] $A$, hence a [[ring]] [[homomorphism]] $f \colon R \longrightarrow A$, the _[[Amitsur complex]]_ is the [[Moore complex]] of the dual [[Cech nerve]] of $Spec(A) \to Spec(R)$, hence the [[chain complex]]
+
+$$
+  0 \to R \stackrel{f}{\to} A \stackrel{1 \otimes id - id \otimes 1}{\longrightarrow} A \otimes_R A \to A \otimes_R A \otimes_R A \to \cdots
+  \,.
+$$
+
+=--
+
+(See also at _[[Sweedler coring]]_ and at _[[commutative Hopf algebroid]]_ for the same or similar constructions.)
+
++-- {: .num_prop #DescentTheorem}
+###### Proposition
+**(descent theorem)**
+
+If $A \to B$ is [[faithfully flat]] then its Amitsur complex is [[exact sequence|exact]].
+
+=--
+
+This is due to ([[Grothendieck]], [[FGA]]1)
+
+The following reproduces the proof in low degree from [Milne, prop. 6.8](#Milne).
+
++-- {: .proof}
+###### Proof 
+
+We show that 
+
+$$
+  0 \to A \stackrel{f}{\longrightarrow} B \stackrel{1 \otimes id - id \otimes 1}{\longrightarrow} B \otimes_A B
+$$ 
+
+is an [[exact sequence]] if $f \colon A \longrightarrow B$ is [[faithfully flat]].
+
+First observe that the statement follows if $A \to B$ admits a [[section]] $s \colon B \to A$. Because then we can define a map 
+
+$$
+  k \colon B \otimes_A B \longrightarrow B
+$$
+
+$$
+  k \;\colon\; b_1 \otimes b_2 \mapsto b \cdot f(s(b)) - b
+  \,.
+$$
+
+This is such that applied to a coboundary it yields
+
+$$
+  k(1 \otimes b - b \otimes 1) = f(s(b)) - b 
+$$
+
+and hence it exhibits every cocycle $b$ as a coboundary $b = f(s(b))$.
+
+So the statement is true for the special morphism 
+
+$$
+  B \to B \otimes_A B
+$$
+
+$$
+  b \mapsto b \otimes 1
+$$
+
+because that has a section given by the multiplication map. 
+
+But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]] of the morphism $f$ with $B$ over $A$. That $A \to B$ is [[faithfully flat]] by assumption, hence that it exhibits $B$ as a [[faithfully flat module]] over $A$ means by definition that the Amitsur complex for $(A \to B)\otimes_A B$ is exact precisely if that for $A \to B$ is exact.
 
 =--
 
@@ -280,7 +431,11 @@ This is due to ([[Grothendieck]], [[SGA]]1 exp. XIII 5.3) A review is in ([Tamme
 ###### Proof 
 
 By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers} we are reduced to
-showing that the represented presheaf satisfies [[descent]] along collections of open immersions and along surjective maps of affines. For the first this is clear (it is [[Zariski topology]]-descent). For the second case of a [[faithfully flat]] cover of affines $Spec(B) \to Spec(A)$ it follows with the exactness of the corresponding [[Amitsur complex]], see [below](#DescentTheorem) for details.
+showing that the represented presheaf satisfies [[descent]] along collections of open immersions and along surjective maps of affines. For the first this is clear (it is [[Zariski topology]]-descent). 
+
+
+
+For the second case of a [[faithfully flat]] cover of affines $Spec(B) \to Spec(A)$ it follows with the exactness of the corresponding [[Amitsur complex]], by the [[descent theorem]], prop. \ref{DescentTheorem}.
 
 =--
 
@@ -327,11 +482,17 @@ $$
   \,.
 $$
 
-In other words, the sheaf represented by the [[additive group]] is the [[abelian sheaf]] underlying the [[structure sheaf]] of $X$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+In other words, the sheaf represented by the [[additive group]] is the [[abelian sheaf]] underlying the [[structure sheaf]] of $X$, and in particular the structure sheaf is indeed an &#233;tale sheaf.
 
 =--
 
-Similarly one finds
+Similarly one finds:
 
 +-- {: .num_example}
 ###### Example
@@ -467,22 +628,22 @@ $$
 
 
 
-+-- {: .num_remark}
++-- {: .num_remark #GrothendieckAndLeraySpectralSequence}
 ###### Remark
 
 For $O_X \stackrel{f^{-1}}{\leftarrow} O_Y \stackrel{g^{-1}}{\leftarrow} O_Z$
 two composable [[morphisms of sites]], 
-the [[Leray spectral sequence]] for the corresponding [[direct images]] exists and is of the form
+the [[Grothendieck spectral sequence]] for the corresponding [[direct images]] is of the form
 
 $$
-  E^{p,q}_2 = R^p f_\ast(R^q g_\ast(\mathcal{F}))
+  E^{p,q}_2 = R^p g_\ast(R^q f_\ast(\mathcal{F}))
   \Rightarrow
   E^{p+q} = R^{p+q}(g f)_\ast(\mathcal{F})
   \,.
 $$ 
 
 
-For the special case that $S_Z = \ast$ and $g^{-1}$ includes an [[étale morphism of schemes|étale morphism]] $U_Y \to Y$ this yields
+For the special case that $S_Z = \ast$ and $g^{-1}$ includes an [[étale morphism of schemes|étale morphism]] $U_Y \to Y$ this yields the [[Leray spectral sequence]]
 
 $$
   E^{p,q}_2 = H^p(U_Y, R^q f_\ast \mathcal{F})
@@ -507,12 +668,12 @@ $$
 ###### Proposition
 
 
-For $X$ a [[scheme]] and $N$ a [[quasicoherent module]] over its [[structure sheaf]] $\mathcal{O}_X$, then this induces an [[abelian sheaf]] on the [[étale site]] by
+For $X$ a [[scheme]] and $N$ a ([[flat module|flat]]) [[quasicoherent module]] over its [[structure sheaf]] $\mathcal{O}_X$, then this induces an [[abelian sheaf]] on the [[étale site]] by
 
 $$
   N_{et} \;\colon\; (U_X \to X) 
    \mapsto 
-  \Gamma(U_Y, N \otimes_{\mathcal{O}_X} \mathcal{O}_{U_X})
+  \Gamma(U_Y, N \otimes_{\mathcal{O}_X} \mathcal{O}_{U_Y})
   \,.
 $$
 
@@ -520,6 +681,17 @@ $$
 
 (e.g. [Tamme, II 3.2.1](#Tamme))
 
++-- {: .proof}
+###### Proof
+
+By prop. \ref{EtaleDescentDetectedOnOpenImmersionCovers}
+it is sufficient to test the [[sheaf]] condition on open affine covers
+and on singleton covers by  faithfully flat morphisms of affines. 
+For the first case we have a sheaf since this is just the sheaf condition in the [[Zariski topology]]. For the second case the corresponding Cech complexes are the [[Amitsur complexes]] of a faithfully flat $A \to B$ [[tensor product|tensored]] with $N$. By the [[descent theorem]], prop. \ref{DescentTheorem} this is exact, hence verifies the sheaf condition.
+
+=--
+
+We consider now the &#233;tale [[abelian sheaf cohomology]] with coefficients in such coherent modules.
 
 +-- {: .num_remark }
 ###### Remark
@@ -539,7 +711,7 @@ $$
   \epsilon \;\colon\; X_{Zar} \longrightarrow X_{et}
 $$
 
-of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]] which computes &#233;tale cohomology in terms of Zarsiki cohomology 
+of the [[Zariski site]] into the [[étale site]] is indeed a [[morphism of sites]]. Hence there is a [[Leray spectral sequence]], remark \ref{GrothendieckAndLeraySpectralSequence}, which computes &#233;tale cohomology in terms of Zarsiki cohomology 
 
 $$
   E^{p,q}_2 = H^p(X_{Zar}, R^q \epsilon^\ast \mathcal{F})
@@ -565,7 +737,7 @@ $$
   H^p_{et}(X,N_{et})
 $$
 
-of the [[Leray spectral sequence]] of remark \ref{LerayForInclusionOfZariskiIntoEtale} is an  [[isomorphism]] for all $p$, itentifying the [[abelian sheaf cohomology]] on the [[Zariski site]] with [[coefficients]] in $N$ with the &#233;tale cohomology with coefficients in $N_{et}$.
+of the [[Leray spectral sequence]] of remark \ref{LerayForInclusionOfZariskiIntoEtale} is an  [[isomorphism]] for all $p$, identifying the [[abelian sheaf cohomology]] on the [[Zariski site]] with [[coefficients]] in $N$ with the &#233;tale cohomology with coefficients in $N_{et}$.
 
 Moreover, for $X$ affine we have
 
@@ -598,7 +770,7 @@ $$
 
 hence it is sufficient that this vanishes, or rather, by locality ([[sheafification]]) it suffices to show this vanishes for $X = U = Spec(A)$ an affine [[algebraic variety]].
 
-By the existence of [cofinal affine &#233;tale covers](etale+site#CofinalAffineCovers) the [[full subcategory]] $X_{et}^{a} \hookrightarrow X_{at}$ with the induced [[coverage]] is a [[dense subsite]] of affines. Therefore it suffices to show the statement there. 
+By the existence of [cofinal affine &#233;tale covers](etale+site#CofinalAffineCovers) the [[full subcategory]] $X_{et}^{a} \hookrightarrow X_{at}$ on the &#233;tale maps with affien domains, equipped with the induced [[coverage]], is a [[dense subsite]]. Therefore it suffices to show the statement there. 
 Moreover, by the finiteness condition on [[étale morphisms]]  every cover of $X_{et}^{a}$ may be refined by a finite cover, hence by an affine covering map 
 
 $$
@@ -621,7 +793,7 @@ $$
 
 known as the _[[Amitsur complex]]_ of $A \to B$, tensored with $N$.
 
-Since $A \to B$ is a [[faithfully flat morphism]], it follows by the [[descent theorem]] (reviewed [below](#DescentTheorem)) that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
+Since $A \to B$ is a [[faithfully flat morphism]], it follows again by the [[descent theorem]], prop. \ref{DescentTheorem}  that this is [[exact sequence|exact]], hence that the cohomology indeed vanishes.
 
 
 =--
@@ -799,88 +971,6 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
  
 ([Milne, section 25](#Milne))
 
-## Appendix
-
-### Descent theorem
- {#DescentTheorem}
-
-+-- {: .num_defn }
-###### Definition
-
-Given a [[commutative ring]] $R$ and an $R$-[[associative algebra]] $A$, hence a [[ring]] [[homomorphism]] $f \colon R \longrightarrow A$, the _[[Amitsur complex]]_ is the [[Moore complex]] of the dual [[Cech nerve]] of $Spec(A) \to Spec(R)$, hence the [[chain complex]]
-
-$$
-  0 \to R \stackrel{f}{\to} A \stackrel{1 \otimes id - id \otimes 1}{\longrightarrow} A \otimes_R A \to A \otimes_R A \otimes_R A \to \cdots
-  \,.
-$$
-
-=--
-
-(See also at _[[Sweedler coring]]_ and at _[[commutative Hopf algebroid]]_ for the same or similar constructions.)
-
-+-- {: .num_theorem }
-###### Theorem
-**(descent theorem)**
-
-If $A \to B$ is [[faithfully flat]] then its Amitsur complex is [[exact sequence|exact]].
-
-=--
-
-This is due to ([[Grothendieck]], [[FGA]]1)
-
-The following reproduces the proof in low degree from [Milne, prop. 6.8](#Milne).
-
-+-- {: .proof}
-###### Proof 
-
-We show that 
-
-$$
-  0 \to A \stackrel{f}{\longrightarrow} B \stackrel{1 \otimes id - id \otimes 1}{\longrightarrow} B \otimes_A B
-$$ 
-
-is an [[exact sequence]] if $f \colon A \longrightarrow B$ is [[faithfully flat]].
-
-First observe that the statement follows if $A \to B$ admits a [[section]] $s \colon B \to A$. Because then we can define a map 
-
-$$
-  k \colon B \otimes_A B \longrightarrow B
-$$
-
-$$
-  k \;\colon\; b_1 \otimes b_2 \mapsto b \cdot f(s(b)) - b
-  \,.
-$$
-
-This is such that applied to a coboundary it yields
-
-$$
-  k(1 \otimes b - b \otimes 1) = f(s(b)) - b 
-$$
-
-and hence it exhibits every cocycle $b$ as a coboundary $b = f(s(b))$.
-
-So the statement is true for the special morphism 
-
-$$
-  B \to B \otimes_A B
-$$
-
-$$
-  b \mapsto b \otimes 1
-$$
-
-because that has a section given by the multiplication map. 
-
-But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]] of the morphism $f$ with $B$ over $A$. That $A \to B$ is [[faithfully flat]] by assumption, hence that it exhibits $B$ as a [[faithfully flat module]] over $A$ means by definition that the Amitsur complex for $(A \to B)\otimes_A B$ is exact precisely if that for $A \to B$ is exact.
-
-=--
-
-
-
-### Leray spectral sequence
-
-* [[Leray spectral sequence]]
 
 
 ## References
