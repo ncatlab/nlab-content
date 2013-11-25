@@ -5,10 +5,6 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-#### Higher geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
-=--
 =--
 =--
 
@@ -25,7 +21,7 @@ A Hopf algebroid is an associative [[bialgebroid]] with an antipode.
 A _Hopf algebroid_ is a (possibly [[noncommutative geometry|noncommutative]]) generalization of a structure which is dual to a [[groupoid]] (equipped with [[atlas]]) in the sense of [[Isbell duality|space-algebra duality]]. This is the concept that generalizes [[Hopf algebras]] with their relation to [[groups]] from groups to groupoids.
 
 More details on the case of the Hopf algebroids 
-associated to groupoids, i.e. the convolution Hopf algebroid and groupoid Hopf algebroid see the entry [[Hopf algebroid over a commutative base]].  
+associated to groupoids, i.e. the convolution Hopf algebroid and groupoid Hopf algebroid, as well as stable homotopy examples like [[Steenrod algebra]], see entry [[Hopf algebroid over a commutative base]].  
 
 
 ## Definition (under construction)
@@ -44,83 +40,20 @@ Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[
 
 There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of [[Hopf algebras]]. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one via [[monoidal bicategory|monoidal bicategories]] due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi has later shown that the two definitions are in fact equivalent.
 
-## Properties
 
-### Steenrod operations on coTor groups
-
-For $\Gamma$ a suitable Hopf algebroid and $N_1, N_2$
-two [[comodules]], then the co[[Tor]] groups $CoTor_\Gamma(N_1, N_2)$
-form a _[[Steenrod algebra]]_. See there for details and citations.
-
-For [[MU]] this is the content of the [[Landweber-Novikov theorem]].
 
 ## Examples
 
 ### Scalar extension Hopf algebroids
 
-Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. 
-
-### Generalized dual Steenrod algebra
- {#GeneralizedDualSteenrodAlgebra}
-
-For $E$ a suitable [[E-infinity ring]] [[spectrum]], its [[homotopy groups]]
-$\pi_\bullet(E)$ and [[generalized homology]] $E_\bullet(E)$
-form a Hopf algebroid of [[spectra]], the dual $E$-[[Steenrod algebra]].
-(These examples have also been called [[brave new Hopf algebroids]].)
-See at _[Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)_.
-
-The general statement is this:
-
-+-- {: .num_lemma #SelfHomologyIsModuleOverCohomologyRing}
-###### Lemma
-
-Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
-The self-[[generalized homology]] $A^R_\bullet(A)$ 
-is naturally a [[module]] over the [[cohomology ring]] $A_\bullet$
-via applying the [[homotopy groups]] $\infty$-functor $\pi_\bullet$ 
-to the canonical inclusion
-
-$$
-  A \stackrel{\simeq}{\rightarrow}
-  A \underset{R}{\wedge} R
-  \stackrel{}{\rightarrow}
-  A \underset{R}{\wedge} A
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $R$ be an [[E-∞ ring]] and let $A$ an [[E-∞ algebra]] over $R$.
-If the the $A_\bullet$-[[module]] $A^R_\bullet(A)$ of 
-lemma \ref{SelfHomologyIsModuleOverCohomologyRing} is a [[flat module]],
-then 
-
-1. $(A_\bullet, A_\bullet(A))$ is a [[Hopf algebroid]] over $R_\bulllet$;
-
-1. $A^R_\bullet(X)$ is a left $A^R_\bullet(A)$-module for every $R$-[[∞-module]] $X$.
-
-=--
-
-This is due to ([Baker-Lazarev 01](#BakerLazarev01)), further discussed  in ([Baker-Jeanneret 02](#BakerJeanneret02)) (there expressed in terms of the presentation by [[commutative monoids]] in [[symmetric spectra]]). 
-A review is also in ([Ravenel, chapter 2, prop. 2.2.8](#Ravenel)).
-
-
+Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. This is a noncommutative generalization (of formal dual of) an [[action groupoid]].
 
 
 ## References
 
 ### General
 
-The commutative version is classical, and there is an extensive literature, see [[Hopf algebroids over a commutative base]]. 
-
-One can straightforwardly keep the base commutative while having the total algebra noncommutative, and the image of source and target maps are required to commute mutually. This version is due Maltsiniotis; he also generalized this to [[quasi-Hopf algebra|quasi-Hopf]] version:
-
-* [[Georges Maltsiniotis]], _Groupo&#239;des quantiques_, Comptes R
-Rendus Acad. Sci. Paris __314__, pp. 249-252 (1992) [ps](http://people.math.jussieu.fr/~maltsin/ps/GRN-1.PS)
-* G. Maltsiniotis, _Quasi-groupo&#239;des quantiques_ (travail en commun avec A. Brugui&#232;res), C.R. Acad. Sci. Paris __319__, pp. 933-936 (1994) [ps](http://people.math.jussieu.fr/~maltsin/ps/N-QSBIG.PS) 
+The commutative version is classical, and there is an extensive literature, see [[Hopf algebroids over a commutative base]].  
 
 Over a noncommutative base ring, there is a nonsymmetric version due J-H. Lu and a similar version is later studied by [[Ping Xu]]
 
@@ -135,24 +68,9 @@ The modern concept over the noncommutative base is discovered in two formally di
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
 * [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 * G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](http://arxiv.org/abs/math.QA/0305136)
-* [[T. Brzezi?ski]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
+* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 
-Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
-
-* [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
-
-### In stable homotopy theory and generalized cohomology
-
-* [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
- {#BakerLazarev01}
-
-* [[Andrew Baker]] and Alain Jeanneret, _Brave new Hopf algebroids and extensions of $MU$-algebras_, Homology Homotopy Appl. Volume 4, Number 1 (2002), 163-173. ([Euclid](http://projecteuclid.org/euclid.hha/1139840059))
- {#BakerJeanneret02}
-
-A review is in 
-
-* [[Doug Ravenel]], chapter 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 category: algebra
 [[!redirects Hopf algebroids]]
