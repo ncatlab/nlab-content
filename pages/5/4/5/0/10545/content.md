@@ -48,11 +48,11 @@ given by applying this as a [[generalized homology theory]] to self.
 
 ### For generalized cohomology
 
-The Steenrod algebra and its standard properties, such as the Adem relations, follow abstractly for the co-[[Tor]] groups of [[comodules]] over any [[Hopf algebroid]].
+The Steenrod algebra and its standard properties, such as the Adem relations, follow abstractly for the co-[[Tor]] groups of [[comodules]] over any [[commutative Hopf algebroid]].
 
 This is due to ([May 70, 11.8](#May70)). A review is in ([Ravenel, appendix 1, theorem A1.5.2](#Ravenel)).
 
-In particular for $R$ a suitable [[E-infinity ring]], its self-[[generalized homology]] $E_\bullet(E)$ form a [[Hopf algebroid]] over $E_\buller$.
+In particular for $R$ a suitable [[E-infinity ring]], its self-[[generalized homology]] $E_\bullet(E)$ form a (graded-)[[commutative Hopf algebroid]] over $E_\buller$.
 
 See at _[Hopf algebroid structure -- For generalized cohomology](#HopfAlgebroidstructureForGeneralized) below._
 
@@ -157,7 +157,7 @@ If the the $A_\bullet$-[[module]] $A^R_\bullet(A)$ of
 lemma \ref{SelfHomologyIsModuleOverCohomologyRing} is a [[flat module]],
 then 
 
-1. $(A_\bullet, A_\bullet(A))$ is a [[Hopf algebroid]] over $R_\bulllet$;
+1. $(A_\bullet, A_\bullet(A))$ is a [[commutative Hopf algebroid]] over $R_\bulllet$;
 
 1. $A^R_\bullet(X)$ is a left $A^R_\bullet(A)$-module for every $R$-[[∞-module]] $X$.
 
@@ -247,7 +247,7 @@ computed in the [[category of modules|category of A-modules]] for $A$ the Steenr
 #### For generalized cohomology
 
 
-More generally, For $R$ an [[E-infinity ring]] such that its dual $R$-[[Steenrod algebra]] in the form of the self-[[homology]] $R_\bullet(R)$ is a [[Hopf algebroid]] over $R_\bullet = \pi_\bullet(R)$ (see at [Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)), then the $E^2$-term of the $E$-Adams spectral sequence is an [[Ext]] of $E_\bullet(E)$-[[comodules]]
+More generally, For $R$ an [[E-infinity ring]] such that its dual $R$-[[Steenrod algebra]] in the form of the self-[[homology]] $R_\bullet(R)$ is a (graded-)[[commutative Hopf algebroid]] over $R_\bullet = \pi_\bullet(R)$ (see at [Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)), then the $E^2$-term of the $E$-Adams spectral sequence is an [[Ext]] of $E_\bullet(E)$-[[comodules]]
 
 $$
   E^2 \simeq Ext_{R_\bullet(R)}(R_\bullet, R_\bullet(X))
@@ -332,11 +332,11 @@ See also
 ### $E_\bullet$-Hopf algebroid structure
  {#ReferencesHopfAlgebroid}
 
-The [[Hopf algebroid]] structure on the dual $E$-Steenrod algebra
-$E_\bullet(E)$ and its relation to the $E^2$-term in the 
+The [[commutative Hopf algebroid]] structure on the dual $E$-Steenrod algebra $E_\bullet(E)$ and 
+its relation to the $E^2$-term in the 
 [[Adams spectral sequence]] is discussed in 
 
-* [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
+* [[Andrew Baker]], _Brave new Hopf algebroids_, [pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf)
  {#Baker}
 
 * [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
