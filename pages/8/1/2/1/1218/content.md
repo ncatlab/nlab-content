@@ -475,6 +475,7 @@ into the [[(∞,1)-topos]] [{[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
 ## References 
+ {#References}
 
 The basic idea of understanding a smooth space as a concrete sheaf on a site of smooth test spaces originates in work of Chen. In 
 
@@ -551,5 +552,8 @@ The largest [[topological space|topology]] on the set which underlies a diffeolo
 
 * [[Dan Christensen|J. Daniel Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
 
-[[!redirects diffeological spaces]]
+Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topological spaces]] is discussed in 
 
+* [[Dan Christensen|J. Daniel Christensen]],  Enxin Wu, _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_ ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+
+[[!redirects diffeological spaces]]
