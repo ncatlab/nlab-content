@@ -4,7 +4,7 @@
 
 In Algebraic Topology, profinite homotopy types are frequently encountered. This is often because of the use of [[profinite completion of homotopy type|profinite completion]]s of homotopy types in an attempt to get more 'accessible' information out of a homotopy type. The theory has applications both in Algebraic Geometry and Algebraic topology. 
 
-One origin of the theory can be found in [[Grothendieck's Galois theory]], in which he defined an [[algebraic fundamental group]] of a scheme using its _finite_ 'covering spaces'.  These correspond to the finite field extensions in the [[Grothendieck's Galois theory|The classical case of fields]], and from that perspective one can ask what the higher profinite homotopy n-types of a scheme should classify.    
+One origin of the theory can be found in [[Grothendieck's Galois theory]], in which he defined an [[algebraic fundamental group]] of a scheme using its _finite_ 'covering spaces'.  These correspond to the finite field extensions in the [[Grothendieck's Galois theory| classical case of fields]], and from that perspective one can ask what the higher profinite homotopy n-types of a scheme should classify.    
 
 In the 1960s Artin and Mazur constructed a functor which associates to
 each locally noetherian scheme $X$ its [[etale homotopy type|étale homotopy type]], $X_{et}$ , an object of
@@ -28,8 +28,8 @@ category of smooth schemes of 'finite type over a field $k$ into a larger catego
 of '$k$-spaces', which carries the structure of a closed model category. The study of these $k$-spaces is linked to [[etale homotopy theory|étale homotopy theory]], see Schmidt, _On the &#233;tale homotopy type of
 Morel-Voevodsky spaces_, and [[Dan Isaksen]], _Etale realization on the $A^1$-homotopy theory of schemes_. Adv. in Math. 184, 37--63 (2004).
 
-* An elegant and well structured theory has been published by [[Gereon Quick]], in order to give a good [[profinite completion]] construction;  (see  G. Quick, _Profinite homotopy theory_, Documenta Mathematica, 13, 
+* A well motivated approach to profinite homotopy theory has been published by [[Gereon Quick]], in order to give a good [[profinite completion]] construction;  (see  G. Quick, _Profinite homotopy theory_, Documenta Mathematica, 13, 
 (2008), 585&#8211;612, (Archiv [0803.4082](http://arxiv.org/abs/0803.4082)) and _Some remarks on profinite completion of spaces_ , Arxiv 
-preprint [arXiv:1104.4659](http://arxiv.org/pdf/1104.4659.pdf). 
+preprint [arXiv:1104.4659](http://arxiv.org/pdf/1104.4659.pdf). The published version of the model category structure does not give enough generators of the fibrations, but this is corrected in a later article.
 
 [[!redirects profinite homotopy theory]]
