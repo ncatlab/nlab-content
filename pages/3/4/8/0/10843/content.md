@@ -19,11 +19,11 @@
 
 An _infinitesimal extension_ of a [[ring]] $R$ is an [[epimorphism]] $\widehat R \to R$ whose [[kernel]] is a [[nilpotent ideal]], hence a nilpotent [[ring extension]].
 
-If already the square of all elements in the kernel is zero, this is also called a _square-zero extension_. See also at _[[tangent category]]_ and at _[[Mod]]_ for more on this.
+If already the product of any two elements in the kernel is zero, this is also called a _square-zero extension_. See also at _[[tangent category]]_ and at _[[Mod]]_ for more on this.
 
 ## Examples
 
-For a [[finitely generated ring]] the projection from a ring to its [[reduced ring]] is an example of a nilpotent extension.
+For a [[Noetherian ring]] $R$ (for instance a [[finitely generated ring]]), the projection from $R$ to its [[reduced ring]] $R_{red}$ is an example of an infinitesimal extension. In general, however, the kernel of $R\to R_{red}$ is not nilpotent.
 
 ## Related concepts
 
