@@ -77,8 +77,11 @@ By [[Isbell duality|formal duality]] and [[sheafification|locality]] this yields
 +-- {: .num_defn }
 ###### Definition
 
-Write [[CRing]]${}_{fin}$ for the [[category]] of [[finitely generated]] [[commutative rings]].
-Write $Sh(CRing)$ for the [[category of sheaves]] ([[presheaves]], [[(infinity,1)-presheaves]]) over $CRing$.
+Write [[CRing]]${}_{fin}$ for the [[category]] of [[finitely generated]] [[commutative rings]]. 
+
+> (Possibly rather needs to be: the category $CRing_{fin}^{nil}$ of [[infinitesimal extensions]].)
+
+Write $Sh(CRing_{fin})$ for the [[category of sheaves]] ([[presheaves]], [[(infinity,1)-presheaves]]) over $CRing_{fin}$.
  
 =--
 
