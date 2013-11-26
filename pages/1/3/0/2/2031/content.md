@@ -32,12 +32,16 @@ These are the _standard opens_ that define the [[Zariski topology]] on [[algebra
 
 ## Related concepts
 
+* [[closed immersion of schemes]]
+
 * [[immersion]], [[open map]]
 
 * [[closed immersion of schemes]]
 
 * [[Zariski topology]]
 
+[[!redirects open immersion]]
+[[!redirects open immersions]]
 
 [[!redirects open immersions of schemes]]
 
