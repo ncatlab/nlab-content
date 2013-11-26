@@ -311,6 +311,9 @@ See ([RosenbergKontsevich, section 5.8](#RosenbergKontsevich))
 [[!include cohesion - table]]
 
 ## References
+ {#References}
+
+
 
 The idea of defining &#233;tale morphisms $f$ as those that get send to a pullback square by a natural transformartion goes back to lectures by [[André Joyal]] in the 1970s.
 
