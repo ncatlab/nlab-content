@@ -1,4 +1,4 @@
-[website](http://www.math.harvard.edu/~gquick/)
+[website](http://wwwmath.uni-muenster.de/u/gquick/)
 
 ##related nLab entries
 
