@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 #### &#201;tale morphisms
 +--{: .hide}
 [[!include etale morphisms - contents]]
@@ -22,9 +26,17 @@ This page goes through some basics of [[étale cohomology]].
 
 ## &#201;tale topos
 
+To every [[scheme]] $X$ is assigned a [[site]] which is a geometric analog of the collection of [[étale spaces]] over a [[topological space]]. This is called the [[étale site]] $X_{et}$ of the scheme. The [[category of sheaves]] on that site is called the [[étale topos]] of the scheme. The intrinsic [[cohomology]] of that [[topos]], hence the [[abelian sheaf cohomology]] over the [[étale site]], is the _[[étale cohomology]]_ of $X$.
+
+This section starts with looking at some basic aspects of the [[étale topos]] as such, the basic definitions and the central [[descent theorem]] for characterizing its [[sheaves]]. The [next section](#EtaleCohomology) then genuinely considers the corresponding [[abelian sheaf cohomology]].
+
+&#201;tale cohomology is traditionally motivated by the route by which it was historically discovered, namely as a fix for technical problems encountered with the [[Zariski topology]]. You can find this historical motivation in all textbooks and lectures, see the _[References](#References)_ below.
+
+But [[étale cohomology]] has a more fundamental _raison d'&#234;tre_ than this. As discussed at _[[étale topos]]_ it is induced in any context in which one has a "[[reduction modality]]". While fundamental, this is actually a simple point of view which leads to a simple characterization of [[étale morphisms]], and this is what we start with now.
+
 ### &#201;tale morphisms
 
-Of the many equivalent characterizations of [[étale morphisms]], here we will have use of the following incarnation
+Of the many equivalent characterizations of [[étale morphisms]], here we will have use of the following incarnation:
 
 +-- {: .num_defn #EtaleMoprhism}
 ###### Definition
@@ -93,7 +105,7 @@ that makes both triangles commute.
 +-- {: .num_remark}
 ###### Remark
 
-So  [[Isbell duality|duality]] this means that $Spec(A) \to Spec(R)$ is formally &#233;tale if it has the unique [[right lifting property]] against all [[infinitesimal object|infinitesimal extensions]]
+So  [[Isbell duality|dually]] this means that $Spec(A) \to Spec(R)$ is formally &#233;tale if it has the unique [[right lifting property]] against all [[infinitesimal object|infinitesimal extensions]]
 
 $$
   \array{
@@ -158,7 +170,7 @@ between commutative rings and [[reduced rings]], which is the [[coreflective sub
 +-- {: .num_remark }
 ###### Remark
 
-Here $\int_{inf}$ sends a [[scheme]] to its [[de Rham space]].
+Here $\int_{inf}$ sends a [[scheme]] to what is called its _[[de Rham space]]_.
 
 =--
 
@@ -199,6 +211,41 @@ $$
 $$
 
 in [[Set]]. Chasing elements through this shows that this is a [[pullback]] precisely if the condition in def. \ref{ExplicitDefinition} holds.
+
+=--
+
+The basic stability property of [[étale morphisms]], which we need in the following, immediately follows from this characterization:
+
++-- {: .num_prop #ClosureForFormallyEtale}
+###### Proposition
+
+For $\stackrel{f}{\to} \stackrel{g}{\to}$ two composable morphisms, then
+
+1. if $f$ and $g$ are both (formally) &#233;tale, then so is their composite $g \circ f$;
+
+1. if $g$ and $ g\circ f$ are (formally) &#233;tale, then so is $f$;
+
+1. the [[pullback]] of a (formally) &#233;tale morphism along any morphism is again (formally) &#233;tale.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With prop. \ref{FormalEtalenessBydeRhamSpace} this is equivalently the 
+statement of the [[pasting law]] for [[pullback]] diagrams.
+
+=--
+
+Apart from that, for the proofs in the following we need the following basic facts 
+
++-- {: .num_prop }
+###### Proposition
+
+* Every etale morphism is a [[flat morphism]].
+
+* Flat morphism between affines $Spec(B) \to Spec(A)$ is [[faithfully flat]] precisely if it is surjective
+
 
 =--
 
@@ -258,6 +305,8 @@ Now by the [[universal property]] of the [[localization of a commutative ring|lo
  {#SheafConditionAndExamples}
 
 
+Since there are "many more" [[étale morphisms of schemes]] than there are [[open immersions of schemes]], a priori the discussion of [[descent]] over the [[étale site]] is more intricate than that in, say, the [[Zariski topology]]. However, the following proposition drastically reduces the types of &#233;tale [[covers]] over which [[descent]] has to be checked in addition to the [[open immersions of schemes|open immersions]]. Then the following [[descent theorem]] effectively solves the descent problem over these remaining covers.
+
 +-- {: .num_prop #EtaleDescentDetectedOnOpenImmersionCovers}
 ###### Proposition
 
@@ -279,8 +328,8 @@ in the [[étale site]]
 +-- {: .proof}
 ###### Proof 
 
-Suppose given an arbitrary elate covering $\{X'_i \to X'\}$ over $X$. 
-We will refine it to a more special cover. 
+Suppose given an arbitrary &#233;tale [[covering]] $\{X'_i \to X'\}$ over $X$. 
+We show how to refine it to a more special cover which itslf is the composition of covers of the form as in the statement. 
 
 To that end, first choose a cover $\{U'_j \to X'\}$ of $X_i$ by affine [[open immersions of schemes]]. Then pulling back the original cover along that one yields covers
 
@@ -288,7 +337,7 @@ $$
   \{X'_i \times_{X'} U'_j \to U'_j\}
 $$
 
-of each of the open affines. Now these patches in turn we cover by open affines
+of each of the open affines. By pullback stability, prop. \ref{ClosureForFormallyEtale}, these are still &#233;tale maps. Now these patches in turn we cover by open affines
 
 $$
   \{
@@ -304,7 +353,11 @@ $$
   \}
 $$
 
-by open affines. Since $U'_j$, being affine, is a [[quasi-compact scheme]], we may find a finite subcover 
+by affines. 
+
+(Notice here crucially that while the $U'_{i j k}$ are affine open immersions in $X'_i \times_{X'} U'_j$, after this composition with an [[étale morphism]] they no longer need to be open immersions in $U'_j$, all we know is that the map is &#233;tale. This is the source of the second condition in the proposition to be shown, as discussed now. )
+
+Since each $U'_j$, being affine, is a [[quasi-compact scheme]], we may find a finite subcover 
 
 $$
   \{
@@ -361,9 +414,7 @@ If $A \to B$ is [[faithfully flat]] then its Amitsur complex is [[exact sequence
 
 =--
 
-This is due to ([[Grothendieck]], [[FGA]]1)
-
-The following reproduces the proof in low degree from [Milne, prop. 6.8](#Milne).
+This is due to ([[Grothendieck]], [[FGA]]1). The following reproduces the proof in low degree following ([Milne, prop. 6.8](#Milne)). 
 
 +-- {: .proof}
 ###### Proof 
@@ -387,13 +438,13 @@ $$
   \,.
 $$
 
-This is such that applied to a coboundary it yields
+This is such that applied to a [[coboundary]] it yields
 
 $$
   k(1 \otimes b - b \otimes 1) = f(s(b)) - b 
 $$
 
-and hence it exhibits every cocycle $b$ as a coboundary $b = f(s(b))$.
+and hence it exhibits every [[cocycle]] $b$ as a coboundary $b = f(s(b))$.
 
 So the statement is true for the special morphism 
 
@@ -407,7 +458,9 @@ $$
 
 because that has a section given by the multiplication map. 
 
-But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]] of the morphism $f$ with $B$ over $A$. That $A \to B$ is [[faithfully flat]] by assumption, hence that it exhibits $B$ as a [[faithfully flat module]] over $A$ means by definition that the Amitsur complex for $(A \to B)\otimes_A B$ is exact precisely if that for $A \to B$ is exact.
+But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]] of the morphism $f$ with $B$ over $A$, hence the [[Amitsur complex]] of this morphism is [[exact sequence|exact]].
+
+Finally, the fact that $A \to B$ is [[faithfully flat]] by assumption, hence that it exhibits $B$ as a [[faithfully flat module]] over $A$, means by definition that the [[Amitsur complex]] for $(A \to B)\otimes_A B$ is exact precisely if that for $A \to B$ is exact.
 
 =--
 
@@ -657,8 +710,18 @@ $$
 
 
 ## &#201;tale cohomology
+ {#EtaleCohomology}
+
+With some basic facts about [[sheaves]] on the [[étale site]] in hand,  we now consider basics of [[abelian sheaf cohomology]] with [[coefficients]] in some such sheaves.
+
+1. [With coefficients in coherent modules](#WithCoefficientsInCoherentModules)
+
+1. [With coefficients in cyclic groups](#WithCoefficientsInACyclicGroup)
+
+1. [With coefficients in the multiplicative group](#WithCoefficientsInTheMultiplicativeGroup)
 
 
+This may serve to give a first idea of the nature of [[étale cohomology]]. An outlook on the deep structurual theorems about [[étale cohomology]] is in the next section [below](#MainTheorems).
 
 ### With coefficients in coherent modules
  {#WithCoefficientsInCoherentModules}
@@ -798,7 +861,7 @@ Since $A \to B$ is a [[faithfully flat morphism]], it follows again by the [[des
 
 =--
 
-### With coefficients in a cyclic group
+### With coefficients in cyclic groups
  {#WithCoefficientsInACyclicGroup}
 
 Let $X$ be a [[reduced scheme|reduced]] [[scheme]] of [[characteristic]] the [[prime number]] $p$, hence such that for all points $x \in X$
@@ -931,6 +994,7 @@ By the same argument all the higher cohomology groups vanish, as claimed.
 =--
 
 ### With coefficients in the multiplicative group
+ {#WithCoefficientsInTheMultiplicativeGroup}
 
 the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative group]] $\mathbb{G}_m$ in the first few degrees go by special names:
 
@@ -945,35 +1009,29 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 ## Outlook: Then main theorems
  {#MainTheorems}
 
+What makes [[étale cohomology]] interesting in a broader context is that is verifies a collection of good structural theorems, which we just list now. In their totality these properties make [[étale cohomology]] (in its incarnation as [[ℓ-adic cohomology]]) qualify as a [[Weil cohomology theory]]. This in turn means that using [[étale cohomology]] one can give a [[proof]] of the [[Weil conjectures]] -- a number of [[conjectures]] about properties of the numbers of points in [[algebraic varieties]], hence of the numbers of solutions to certain [[polynomial]] [[equations]] over certain [[rings]] -- , and this was historically a central motivation for introducing [[étale cohomology]] in the first place.
 
-* [[proper base change theorem]]
+These theorems are
 
-([Milne, section 17](#Milne))
+1. [[proper base change theorem]] ([Milne, section 17](#Milne))
 
-* [[comparison theorem (étale cohomology)]]
+1. [[comparison theorem (étale cohomology)]] ([Milne, section 21](#Milne))
 
-([Milne, section 21](#Milne))
+1. [[Künneth formula]] ([Milne, section 22](#Milne))
 
-* [[Künneth formula]]
+1. cycle map theorem ([Milne, section 23](#Milne))
 
-([Milne, section 22](#Milne))
+1. [[Poincaré duality]] ([Milne, section 24](#Milne))
 
-* cycle map
+Together these imply the central ingredient for a proof of the [[Weil conjectures]], a Lefschetz fixed-point formula
 
-([Milne, section 23](#Milne))
++ [K&#252;nneth formula](#K&#252;nnethFormula) + [cycle map](#CycleMap) + [Poincar&#233; duality](#PoincareDuality) $\Rightarrow$ [[Lefschetz fixed-point formula]] ([Milne, section 25](#Milne))
 
-* [[Poincaré duality]]
-
-([Milne, section 24](#Milne))
-
-
-[K&#252;nneth formula](#K&#252;nnethFormula) + [cycle map](#CycleMap) + [Poincar&#233; duality](#PoincareDuality) $\Rightarrow$ [[Lefschetz fixed-point formula]]
- 
-([Milne, section 25](#Milne))
-
+For more on this see... elsewhere.
 
 
 ## References
+ {#References}
 
 * [[Günter Tamme]], _[[Introduction to Étale Cohomology]]_
  {#Tamme}
@@ -981,5 +1039,7 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 * [[James Milne]], _[[Lectures on Étale Cohomology]]_
  {#Milne}
 
+* [[The Stacks Project]], _&#201;tale cohomology_ ([pdf](http://stacks.math.columbia.edu/download/etale-cohomology.pdf))
+  {#StackProject}
 
 [[!redirects basics of étale cohomology]]
