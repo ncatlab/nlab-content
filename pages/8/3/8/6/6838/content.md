@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,12 +15,13 @@
 
 ## Idea
 
-The notion of _dg-scheme_ is a generalization of the notion of [[scheme]] to [[dg-geometry]].
+A **dg-scheme** is a [[scheme]] together with a [[structure sheaf]] of negatively graded [[dg algebras]].  It is historically a precursor to the notion of [[derived scheme]] in the sense of [[Toen]]-[[Vezzosi]] and [[Lurie]].
 
 ## Related concepts
 
 * [[dg-manifold]]
-
+* [[dg-geometry]]
+* [[derived scheme]]
 * [[generalized scheme]]
 
 ## References
