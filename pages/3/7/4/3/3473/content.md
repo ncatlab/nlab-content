@@ -28,7 +28,7 @@ category of smooth schemes of 'finite type over a field $k$ into a larger catego
 of '$k$-spaces', which carries the structure of a closed model category. The study of these $k$-spaces is linked to [[etale homotopy theory|étale homotopy theory]], see Schmidt, _On the &#233;tale homotopy type of
 Morel-Voevodsky spaces_, and [[Dan Isaksen]], _Etale realization on the $A^1$-homotopy theory of schemes_. Adv. in Math. 184, 37--63 (2004).
 
-* A well motivated approach to profinite homotopy theory has been published by [[Gereon Quick]], in order to give a good [[profinite completion]] construction;  (see  G. Quick, _Profinite homotopy theory_, Documenta Mathematica, 13, 
+* A well motivated approach to profinite homotopy theory has been published by [[Gereon Quick]], in order to give a good [[profinite completion]]  construction for homotopy types;  (see  G. Quick, _Profinite homotopy theory_, Documenta Mathematica, 13, 
 (2008), 585&#8211;612, (Archiv [0803.4082](http://arxiv.org/abs/0803.4082)) and _Some remarks on profinite completion of spaces_ , Arxiv 
 preprint [arXiv:1104.4659](http://arxiv.org/pdf/1104.4659.pdf). The published version of the model category structure does not give enough generators of the fibrations, but this is corrected in a later article.
 
