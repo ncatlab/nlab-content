@@ -43,3 +43,5 @@ Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841.
 
 * [[D. C. Isaksen]], Completions of pro-spaces , Math. Z., 250, (2005), 113 
 &#8211; 143. 
+
+* Qick, _Profinite homotopy theory_[pdf](http://www.math.uiuc.edu/documenta/vol-13/17.pdf)
