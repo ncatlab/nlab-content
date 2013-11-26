@@ -133,10 +133,11 @@ It is useful to realize this equivalently but a bit more naturally as follows.
 Write
 
 $$
-  Red \;\colon\; CRing \longrightarrow CRing
+  Red \;\colon\; CRing_{fin} \longrightarrow CRing_{fin}
 $$
 
-for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the [[nilradical]] (the maximal [[nilpotent ideal]] if $R$ is finitely presented). 
+for the [[functor]] which sends a ([[finitely generated ring|finitely presented]]) [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]], hence to the [[quotient]] $R/I$, where $I$ is the [[nilradical]] (the maximal [[nilpotent ideal]] since $R$ is finitely presented). 
+
 =--
 
 +-- {: .num_prop #DifferentialCohesionModality}
@@ -145,7 +146,7 @@ for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced sche
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing) \longrightarrow PSh(CRing)
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing_{fin}) \longrightarrow PSh(CRing_{fin})
 $$
 
 where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
@@ -158,9 +159,9 @@ where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor
 This is induced by [[Kan extension]] from the [[adjoint pair]]
 
 $$
-  CRing
+  CRing_{fin}
     \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\longrightarrow}}
-  CRing_{red}
+  CRing_{fin,red}
 $$
 
 between commutative rings and [[reduced rings]], which is the [[coreflective subcategory|coreflective embedding]] of reduced rings.
@@ -171,6 +172,16 @@ between commutative rings and [[reduced rings]], which is the [[coreflective sub
 ###### Remark
 
 Here $\int_{inf}$ sends a [[scheme]] to what is called its _[[de Rham space]]_.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+These considerations make sense in the general abstract context of 
+"[[differential cohesion]]" where the [[adjoint triple]] of prop. \ref{DifferentialCohesionModality} would be called:
+
+([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]).
 
 =--
 
@@ -434,7 +445,7 @@ $$
 $$
 
 $$
-  k \;\colon\; b_1 \otimes b_2 \mapsto b \cdot f(s(b)) - b
+  k \;\colon\; b_1 \otimes b_2 \mapsto b_1 \cdot f(s(b_2))
   \,.
 $$
 
