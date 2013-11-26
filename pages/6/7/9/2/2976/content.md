@@ -1,4 +1,4 @@
-**Fabien Morel** is a French [[algebraic geometry|algebraic geometer]] (currently holding professorship at LMU Munich). His work includes the construction
+**Fabien Morel** is a French [[algebraic geometry|algebraic geometer]] (currently a professor at LMU Munich). His work includes the construction
 
 *   of $\mathbb{A}^1$-[[A1-homotopy theory|homotopy theory]] (two variants, one jointly with [[Vladimir Voevodsky]]),
  
