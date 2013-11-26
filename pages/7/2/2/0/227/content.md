@@ -237,9 +237,12 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[affine scheme]], [[affine scheme]], [[spectral topological space]]
 
-* [[nilradical]]
 
-* [[ring extension]]
+* [[ring extension]], 
+ 
+  * [[infinitesimal extension]]
+
+    [[nilradical]], [[reduced ring]], 
 
 * [[near-ring]]
 
