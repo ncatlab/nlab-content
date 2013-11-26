@@ -33,4 +33,9 @@ See also
 
 * MathOverflow: _[Why are profinite topologies important?](http://mathoverflow.net/questions/49483/why-are-profinite-topologies-important)_
 
+See also
+
+* S.B. Niefield, K.I. Rosenthal, _Sheaves of integral domains on stone spaces_, Journal of Pure and Applied Algebra Volume 47, Issue 2, August 1987, Pages 173&#8211;179
+
+
 [[!redirects Stone spaces]]
