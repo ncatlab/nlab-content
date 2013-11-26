@@ -8,12 +8,33 @@ Pro-homotopy theory involves the study of [[model category]] and other abstract 
 
 * In [[etale homotopy theory|étale homotopy theory]] and motivic homotopy.
 
-*  In [[proper homotopy theory]].
+*  In [[proper homotopy theory]]
+
+and is closely related to [[profinite homotopy theory]].
 
 ## Related concepts
 
 * [[profinite space]]
 
+* [[simplicial profinite space]]
+
+The homotopy theory of simplicial profinite spaces has been explored by [[Fabien Morel]] and [[Gereon Quick]]. 
+
+For Morel's theory see
+
+* [[F. Morel]], _Ensembles profinis simpliciaux et interpr&#233;tation g&#233;om&#233;trique du foncteur $T$_, Bull. Soc. Math. France, 124, (1996), 347&#8211;373, 
+
+
+
+A reference to Quick's work is in 
+
+ 
+* G. Quick, _Profinite homotopy theory_[pdf](http://www.math.uiuc.edu/documenta/vol-13/17.pdf)
+
+but a correction to an error in the proof of the main result was included in
+
+* G. Quick,  _Continuous group actions on profinite spaces_, J. Pure Appl. Algebra 215 (2011),
+1024-1039.
 
 ##References
 
@@ -43,5 +64,3 @@ Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841.
 
 * [[D. C. Isaksen]], Completions of pro-spaces , Math. Z., 250, (2005), 113 
 &#8211; 143. 
-
-* Qick, _Profinite homotopy theory_[pdf](http://www.math.uiuc.edu/documenta/vol-13/17.pdf)
