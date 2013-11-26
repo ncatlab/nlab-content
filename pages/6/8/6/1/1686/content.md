@@ -167,7 +167,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, oftne the second page. Then one often uses notation such as
+In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, often the second page. Then one often uses notation such as
 
 $$
   E^2_{p,q} \Rightarrow H_\bullet
