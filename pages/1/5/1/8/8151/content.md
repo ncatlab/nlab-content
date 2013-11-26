@@ -6,6 +6,14 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
@@ -15,7 +23,7 @@
 
 ## Definition
 
-The _Leray spectral sequence_ is the special case of the [[Grothendieck spectral sequence]] for the case where the two [[functors]] being composed are a [[direct image|push-forward]] of [[sheaves of abelian groups]] along a [[continuous map]] $f : X \to Y$ between [[topological spaces]], followed by the push-forward $Y \to *$ to the [[point]] -- the [[global section]] functor. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+The _Leray spectral sequence_ is the special case of the [[Grothendieck spectral sequence]] for the case where the two [[functors]] being composed are a [[direct image|push-forward]] of [[sheaves of abelian groups]] along a [[continuous map]] $f : X \to Y$ between [[topological spaces]] or more generally the [[direct image]] of a [[morphism of sites]], followed by the push-forward $Y \to *$ to the [[point]] -- the [[global section]] functor. This yields a [[spectral sequence]] that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
 
 ## Properties
 
@@ -51,9 +59,19 @@ and hence computes the [[abelian sheaf cohomology]] of $X$ with coefficients in 
 
 ## References
 
+Lecture notes include
+
+* Dan Petersen, _Leray spectral sequence_, November 2010  ([pdf](http://staff.science.uva.nl/~heinloth/StacksSeminar/DanLeray.pdf))
+
+
+Textbook accounts with an eye specifically towards [[étale cohomology]] 
+
+
 * [[Günter Tamme]], section I 3.7 of _[[Introduction to Étale Cohomology]]_
 
 * [[James Milne]], section 11 of _[[Lectures on Étale Cohomology]]_
 
-[[!redirects Leray spectral sequences]]
+&#8206;
 
+
+[[!redirects Leray spectral sequences]]
