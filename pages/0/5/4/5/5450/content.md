@@ -673,12 +673,12 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-A [[cover]] in the [[Zariski topology]] on [[schemes]] is an [[open immersion of schemes]] and hence is in particular an [[étale morphism of schemes]]. Hence the [[étale site]] is finer than the [[Zariski site]] and so every &#233;tale [[sheaf]] is a Zarsiki sheaf, but not necessarily conversely. 
+A [[cover]] in the [[Zariski topology]] on [[schemes]] is an [[open immersion of schemes]] and hence is in particular an [[étale morphism of schemes]]. Hence the [[étale site]] is finer than the [[Zariski site]] and so every &#233;tale [[sheaf]] is a Zariski sheaf, but not necessarily conversely. 
 
 =--
 
 
-For more see at _[&#233;tale cohomology -- Properties -- Relation to Zarsiki cohomology](etale+cohomology#RelationZariskiEtaleCohomology)_.
+For more see at _[&#233;tale cohomology -- Properties -- Relation to Zariski cohomology](etale+cohomology#RelationZariskiEtaleCohomology)_.
 
 ### As a classifying topos
 
