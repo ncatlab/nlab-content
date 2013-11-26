@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _infinitesimal extension_ of a [[ring]] $R$ is an [[epimorphism]] $\widehat R \to R$ whose [[kernel]] is a [[nilpotent ideal]], hence a nilpotent [[ring extension]].
+
+If already the square of all elements in the kernel is zero, this is also called a _square-zero extension_. See also at _[[tangent category]]_ and at _[[Mod]]_ for more on this.
+
+## Examples
+
+For a [[finitely generated ring]] the projection from a ring to its [[reduced ring]] is an example of a nilpotent extension.
+
+## Related concepts
+
+* [[infinitesimal object]], [[infinitesimally thickened point]], [[Artin algebra]]
+
+* [[deformation theory]]
+
+* [[module]], [[tangent category]]
+
+* [[formally étale morphism]]
+
+[[!include infinitesimal and local - table]]
+
+
+## References
+
+A category of infinitesimal extensions regarded as a [[site]] over which to characterize [[formally etale morphisms]] by means of an [[infinitesimal shape modality]] is considered in 
+
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], section 2.6 of _Noncommutative spaces_, preprint MPI-2004-35 ([[KontsevichRosenbergNCSpaces.pdf:file]], [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+ {#KontsevichRosenbergSpaces}
+
+
+Discussion in the context of [[simplicial algebras]] is in
+
+* Mauro Porta, [[Gabriele Vezzosi]], _Infinitesimal and square-zero extensions of simplicial algebras_ ([arXiv:1310.3573](http://arxiv-web3.library.cornell.edu/abs/1310.3573))
+
+Further discussion in the context of [[higher algebra]] is in 
+
+* [[Jacob Lurie]], _[[Deformation Theory]]_
+
+[[!redirects infinitesimal extensions]]
+
+[[!redirects square-0 extension]]
+[[!redirects square-0 extensions]]
+[[!redirects square-zero extension]]
+[[!redirects square-zero extensions]]
+
+[[!redirects square-0 ring extension]]
+[[!redirects square-0 ring extensions]]
+[[!redirects square-zero ring extension]]
+[[!redirects square-zero ring extensions]]
+
+
+[[!redirects infinitesimal ring extension]]
+[[!redirects infinitesimal ring extensions]]
+
+[[!redirects nilpotent ring extension]]
+[[!redirects nilpotent ring extensions]]
+
