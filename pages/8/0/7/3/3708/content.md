@@ -165,7 +165,7 @@ $$
  F: Mod \to T_{CRing}
 $$
 
-that sends an $R$-module $N$ to the square-0-extension ring $R \oplus N \stackrel{p_1}{\to} R$, regarded as an abelian group object in $CRing/R$.
+that sends an $R$-module $N$ to the [[square-0 extension]] ring $R \oplus N \stackrel{p_1}{\to} R$, regarded as an abelian group object in $CRing/R$.
 
 The action on morphisms is given as follows: if $(R_1,N_1)$ and $(R_2,N_2)$ are two objects in [[Mod]], then a morphism between them is a pair $(f : R_1 \to R_2, f_*:N_1 \to f^* N_2)$ consisting of a ring homorphism and a morphism of $R_1$ modules from $N_1$ to $R_1 \otimes_f N_2$; the corresponding morphism of rings $R_1\oplus N_1\to R_2\oplus N_2$ is $(r_1,n_1)\mapsto (f(r_1),f_*(n_2))$. The induced morphism of rings $R_1\oplus N_1\to R_1\times_{R_2}(R_2\oplus N_2)\cong R_1\oplus f^*N_2$ is explicitly given by $(r_1,n_1)\mapsto (r_1,f_*(n_1))$ and is easily checked to be a morphism of abelian group objects over $R_1$.
 
@@ -284,7 +284,7 @@ $$
   \,.
 $$
 
-Now if $R \in SmoothAlg$  and $A$ is an object in $Ab(SmoothAlgebra/R)$ then in particular its underlying ring will be an object in $Ab(Ring/U(R))$. By the [above theorem](#OrdinaryModules) this means that the underlying ring is a square-zero-extension $U(R) \oplus N$ by some $N \in U(R) Mod$.
+Now if $R \in SmoothAlg$  and $A$ is an object in $Ab(SmoothAlgebra/R)$ then in particular its underlying ring will be an object in $Ab(Ring/U(R))$. By the [above theorem](#OrdinaryModules) this means that the underlying ring is a [[square-zero extension]] $U(R) \oplus N$ by some $N \in U(R) Mod$.
 
 So it follows every element of $A(1)$ is of the form $(r, \epsilon)$ with $\epsilon \in N$ and we can always write it as 
 
@@ -311,7 +311,7 @@ $$
   0
 $$
 
-since $\epsilon_i \cdot \epsilon_j = 0$ in the underlying square-0-extension of $A$ and hence also in $A$.
+since $\epsilon_i \cdot \epsilon_j = 0$ in the underlying [[square-0 extension]] of $A$ and hence also in $A$.
 
 In summary this shows that the forgetful functor $U$ is injective on objects. The above formula also directly implies, conversely, that the functor is surjective on objects, hence an isomorphism on objects, and moreover that it is a [[full and faithful functor]].
 
