@@ -38,7 +38,19 @@ $$
 
 =--
 
-(e.g. [Johnstone, prop C 2.2.7](#Johnstone))
+(e.g. [Johnstone, prop C 2.2.7](#Johnstone), [Makkai-Reyes, lemma 1.3.14](#Makkaireyes))
+
+
++-- {: .proof}
+###### Proof
+
+For simplicity, assume $(\mathbb{C}, J)$ is a [[small site|small]] [[subcanonical topology|subcanonical]] [[site]]. The quasi-inverse of the [[Yoneda embedding]] $\mathbf{Sh}(\mathbb{C}, J) \to \mathbf{Sh}(\mathbf{Sh}(\mathbb{C}, J))$ has a very simple description: it is the [[functor]] that sends a [[sheaf]] $F : \mathbf{Sh}(\mathbb{C}, J)^\mathrm{op} \to \mathbf{Set}$ to its restriction along the [[Yoneda embedding]] $\mathbb{C} \to \mathbf{Sh}(\mathbb{C}, J)$.
+
+Indeed, suppose $F : \mathbf{Sh}(\mathbb{C}, J)^\mathrm{op} \to \mathbf{Set}$ is a sheaf. We claim that $F$ is determined up to unique [[isomorphism]] by its restriction along the embedding $\mathbb{C} \to \mathbf{Sh}(\mathbb{C}, J)$. Indeed, let $X : \mathbb{C}^\mathrm{op} \to \mathbf{Set}$ be a $J$-sheaf. Then $X$ is the [[colimit]] of a canonical small [[diagram]] of [[representable functor|representable]] [[sheaves]] on $(\mathbb{C}, J)$ in a canonical way. Consider the colimiting [[cocone]] on $X$: it is a universal [[effective epimorphism|effective epimorphic]] family and is therefore a [[covering]] family in the canonical topology on $\mathbf{Sh}(\mathbb{C}, J)$. Thus, $F (X)$ is indeed determined up to unique isomorphism by the restriction of $F$ to $\mathbb{C}$. We must also show that the restriction is actually a sheaf on $(\mathbb{C}, J)$; but this is true because $J$-covering [[sieves]] in $\mathbb{C}$ become universal effective epimorphic families in $\mathbf{Sh}(\mathbb{C}, J)$.
+
+Thus we obtain a functor $\mathbf{Sh}(\mathbf{Sh}(\mathbb{C}, J)) \to \mathbf{Sh}(\mathbb{C}, J)$ that is left quasi-inverse to the embedding $\mathbf{Sh}(\mathbb{C}, J) \to \mathbf{Sh}(\mathbf{Sh}(\mathbb{C}, J))$, and the argument above shows that it is also a right quasi-inverse.
+
+=--
 
 ## Related concepts
 
@@ -53,6 +65,10 @@ A textbook account in [[topos theory]] is in
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
  {#Johnstone}
 
+* Makkai [[Gonzalo Reyes]], _First Order Categorical Logic_ 
+ {#Makkaireyes}
+
+
 Discussion in the refined context of [[higher topos theory]] is in 
 
 * [[Jacob Lurie]], around prop. 5.5.2.2., remark 6.3.5.17 of _[[Higher Topos Theory]]_
@@ -64,4 +80,3 @@ Discussion in the refined context of [[higher topos theory]] is in
 
 [[!redirects canonical site]]
 [[!redirects canonical sites]]
-
