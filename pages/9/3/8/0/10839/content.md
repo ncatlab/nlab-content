@@ -150,7 +150,7 @@ for the [[full subcategory]] inclusion that regards a ring as the trivial infini
 +-- {: .num_prop #DifferentialCohesionModality}
 ###### Proposition
 
-There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
+There is an [[adjoint triple]] of [[idempotent monad|idempotent]] ([[comonad|co]]-)[[monads]]
 
 $$
   (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh((CRing_{fin}^{ext})^{op}) \longrightarrow PSh((CRing_{fin}^{ext})^{op})
