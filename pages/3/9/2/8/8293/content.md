@@ -66,7 +66,7 @@ In any category:
 
 * If $g \circ f$ is a $\kappa$-pure morphism, then so is $f$.
 
-* If $\kappa' \ge \kappa$, then any $\kappa$-pure morphism is also $\kappa'$-pure.
+* If $\kappa' \le \kappa$, then any $\kappa$-pure morphism is also $\kappa'$-pure.
 
 =--
 
