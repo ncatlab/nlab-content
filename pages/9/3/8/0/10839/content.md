@@ -130,17 +130,20 @@ It is useful to realize this equivalently but a bit more naturally as follows.
 +-- {: .num_defn #ReductionOnRings}
 ###### Definition
 
-Write $CRing_{fin}$ for the [[category]] of [[finitely generated ring|finitely generated]] [[commutative rings]].
-
-> (to do: better category $CRing_{fin}^{nil}$ of [[nilpotent ring extensions]])
-
+Write $CRing_{fin}$ for the [[category]] of [[finitely generated ring|finitely generated]] [[commutative rings]] and write $CRing_{fin}^{ext}$ for the category of [[infinitesimal ring extensions]].
 Write
 
 $$
-  Red \;\colon\; CRing_{fin} \longrightarrow CRing_{fin}
+  Red \;\colon\; CRing_{fin}^{ext} \longrightarrow CRing_{fin}
 $$
 
-for the [[functor]] which sends a ([[finitely generated ring|finitely presented]]) [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]], hence to the [[quotient]] $R/I$, where $I$ is the [[nilradical]] (the maximal [[nilpotent ideal]] since $R$ is finitely presented). 
+for the [[functor]] which sends an [[infinitesimal ring extension]] to the underlying [[commutative ring]] (in the maximal case this sends a commutative ring to its [[reduced ring]], whence the name of the functor), and write
+
+$$
+  i \;\colon\; CRing_{fin} \hookrightarrow CRing_{fin}^{ext}
+$$
+
+for the [[full subcategory]] inclusion that regards a ring as the trivial infinitesimal extension over itself.
 
 =--
 
@@ -150,34 +153,59 @@ for the [[functor]] which sends a ([[finitely generated ring|finitely presented]
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing_{fin}) \longrightarrow PSh(CRing_{fin})
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh((CRing_{fin}^{ext})^{op}) \longrightarrow PSh((CRing_{fin}^{ext})^{op})
 $$
 
-where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
+where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings} (followed by the inclusion).
 
 =--
+
+This statement and the following prop. \ref{FormalEtalenessBydeRhamSpace} is a slight paraphrase of an observation due to ([Kontsevich-Rosenberg 04](Q-category#KontsevichRosenbergSpaces)).
 
 +-- {: .proof}
 ###### Proof
 
-This is induced by [[Kan extension]] from the [[adjoint pair]]
+The  functors from def. \ref{ReductionOnRings} form an 
+[[adjoint pair]] $(Red \dashv i)$ because an extension element
+can only map to an extension element; so for $\widehat R \to R$
+an [[infinitesimal ring extension]] of $R = Red(\widehat R)$, 
+and for $S$ a commutative ring with
+$i(S) = (S \to S)$ its trivial extension, there is a [[natural isomorphism]]
 
 $$
+  Hom_{CRing_{fin}^{ext}}(\widehat R, i(S))
+  \simeq
+  Hom_{CRing_{fin}}(R,S)
+  \,.
+$$
+
+This exhibits $CRing_{fin}$ as a [[reflective subcategory]]
+of $CRing_{fin}^{ext}$.
+
+$$
+  (Red \dashv i)
+   \;\colon\;
   CRing_{fin}
-    \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\longrightarrow}}
-  CRing_{fin,red}
+   \stackrel{\overset{Red}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  CRing_{fin}^{ext}
+  \,.
 $$
 
-between commutative rings and [[reduced rings]], which is the [[coreflective subcategory|coreflective embedding]] of reduced rings.
+Via [[Kan extension]] this [[adjoint pair]] induces an [[adjoint quadruple]] of [[functors]] on [[categories of presheaves]]
+
+$$
+  PSh(CRing_{fin}^{op})
+    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^\ast = Red_!}{\leftarrow}}{\stackrel{\overset{Red^\ast}{\hookrightarrow}}{\underset{Red_\ast}{\leftarrow}}}}
+  PSh((CRing_{fin}^{ext})^{op})
+  \,.
+$$
+
+The [[adjoint triple]] to be shown is obtained from composing these adjoints pairwise.
+
+That $Red$ coincides with the reduction functor on representables is a standard property of [[left Kan extension]] (see [here](Kan+extension#LeftKanOnRepresentables) for details).
 
 =--
 
-+-- {: .num_remark }
-###### Remark
-
-Here $\int_{inf}$ sends a [[scheme]] to what is called its _[[de Rham space]]_.
-
-=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -189,10 +217,12 @@ These considerations make sense in the general abstract context of
 
 =--
 
+Due to the [[full subcategory]] inclusion $i_!$ in the proof of prop. \ref{DifferentialCohesionModality} we may equivalently regard presheaves on $(CRing_{fin})^{op}$ (e.g. [[schemes]]) as presheaves on $(CRing_{fin}^{ext})^{op}$ (e.g. [[formal schemes]]). This is what we do implicitly in the following.
+
 +-- {: .num_prop #FormalEtalenessBydeRhamSpace}
 ###### Proposition
 
-A morphism $f \;\colon\; Spec A \to Spec R$ in $CRing^{op} \hookrightarrow Sh(CRing)$ is 
+A morphism $f \;\colon\; Spec A \to Spec R$ in $CRing_{fin}^{op} \hookrightarrow PSh(CRing_{fin}^{op})$ is 
 formally &#233;tale, def. \ref{ExplicitDefinition}, precisely if it is $\int_{inf}$-[[modal type|modal]] relative $Spec R$, hence if the [[natural transformation|naturality square]] of the [[infinitesimal shape modality]]-[[unit of a monad|unit]] 
 
 $$
@@ -212,7 +242,7 @@ is a [[pullback]] square.
 +-- {: .proof}
 ###### Proof
 
-Evaluated on $B \in CRing$ any object, by the [[Yoneda lemma]] and the $(Red \dashv \int_{inf})$-[[adjunction]], the naturality square becomes
+Evaluated on $I \hookrightarrow R  \to R/I \in CRing_{fin}^{ext}$ any object, by the [[Yoneda lemma]] and the $(Red \dashv \int_{inf})$-[[adjunction]] the naturality square becomes
 
 $$
   \array{
@@ -1021,7 +1051,7 @@ the &#233;tale cohomology groups with [[coefficients]] in the [[multiplicative g
 
 
 
-## Outlook: Then main theorems
+## Outlook: The main theorems
  {#MainTheorems}
 
 What makes [[étale cohomology]] interesting in a broader context is that is verifies a collection of good structural theorems, which we just list now. In their totality these properties make [[étale cohomology]] (in its incarnation as [[ℓ-adic cohomology]]) qualify as a [[Weil cohomology theory]]. This in turn means that using [[étale cohomology]] one can give a [[proof]] of the [[Weil conjectures]] -- a number of [[conjectures]] about properties of the numbers of points in [[algebraic varieties]], hence of the numbers of solutions to certain [[polynomial]] [[equations]] over certain [[rings]] -- , and this was historically a central motivation for introducing [[étale cohomology]] in the first place.
