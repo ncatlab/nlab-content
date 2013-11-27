@@ -55,7 +55,7 @@ This is rectified by passing to [[pro-étale cohomology]]. Here $\mathbb{Q}_{\el
 
 * [[Weil cohomology]]
 
-  * [[étale cohomology]]
+  * [[étale cohomology]], [[basics of étale cohomology]]
 
   * [[pro-étale cohomology]]
 
