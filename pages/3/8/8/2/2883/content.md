@@ -16,7 +16,7 @@
 #Contents#
 * table of contents
 {:toc}
-ffin
+
 ## Idea ##
 
 Traditional _&#233;tale cohomology_ (e.g. [Deligne 77](#Deligne77)) is the [[abelian sheaf cohomology]] for [[sheaf|sheaves]] on the [[étale site]] of a [[scheme]] -- which is an analog of the [[category of open subsets]] of a [[topological space]] $X$ , or rather the analog of the category of [[étale spaces]] over $X$, with [[finite set|finite]] [[fibers]].
@@ -287,6 +287,8 @@ The following are the main theorems characterizing properties of &#233;tale coho
 
 
 ## Related concepts
+
+* [[basics of étale cohomology]]
 
 * [[étale morphism]], [[étale site]], &#233;tale cohomology
 
