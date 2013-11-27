@@ -317,6 +317,10 @@ Lecture notes include
 * [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
 {#deJong} --- link broken, couldn't find another copy online
 
+Discussion of etale morphisms between [[E-infinity rings]]/[[spectral schemes]] is in 
+
+* [[Jacob Lurie]], section 8.5 of _[[Higher Algebra]]_
+
 [[!redirects étale morphism of schemes]]
 
 [[!redirects etale morphisms of schemes]]
