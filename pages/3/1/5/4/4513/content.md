@@ -6,7 +6,7 @@ __Robert Wisbauer__ is an [[algebraist]] at the University of Duesseldorf.
 
 * [[coring]], 
 
-* [[Sweetler coring]], [[Amitsur complex]]
+* [[Sweedler coring]], [[Amitsur complex]]
 
 category: people
 
