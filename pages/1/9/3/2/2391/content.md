@@ -772,7 +772,7 @@ The term _$Q$-category_ originally was short for _almost quotient category_ , pr
 * [[Alexander Rosenberg]], _Q-categories, sheaves and localization_, (in Russian) Seminar on supermanifolds __25__, Leites ed. Stockholms Universitet 1988 (there is a recent partial English translation)
  {#Rosenberg}
 
-The formalism has been recently used (and shortly surveyed) in
+The formalism is used (and briefly surveyed) in
 
 * [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-35 ([[KontsevichRosenbergNCSpaces.pdf:file]], [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
  {#KontsevichRosenbergSpaces}
@@ -792,6 +792,28 @@ The condition that $u_* x \to u_! x$ is an isomorpophism , dual to the condition
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+
 
 
 [[!redirects Q-categories]]
