@@ -1,11 +1,12 @@
 
 F. William Lawvere 
 
-* ([web site](http://www.acsu.buffalo.edu/~wlawvere/))
-
-* [Wikipedia entry]()
+* ([web site](http://www.acsu.buffalo.edu/~wlawvere/), [Wikipedia entry](http://en.wikipedia.org/wiki/William_Lawvere))
 
 is an influential pure [[category theory|category theorist]].
+
+* _An interview with F. William Lawvere_ ([pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf))
+
 
 #Contents#
 * table of contents
@@ -18,16 +19,40 @@ is an influential pure [[category theory|category theorist]].
 Lawvere introduced [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck toposes]] to [[elementary toposes]], revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the foundation [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]].  Building on the he introduced the notion of [[cohesive topos]]. 
 
 
+
 ### Motivation from foundations of physics
  {#MotivationFromFoundationsOfPhysica}
 
-Lawvere's fundamental motivation for most of his work is apparently interest in the [[foundations]] of [[physics]], specifically of ([[classical physics|classical]]) [[continuum mechanics]].
+A central motivation for Lawvere's work is a foundations of [[physics]], specifically of ([[classical physics|classical]]) [[continuum mechanics]].
 
-From the [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere):
+In ([interview, p. 8](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)) he recalls:
 
-> Lawvere studied [[continuum mechanics]] as an undergraduate with [[Clifford Truesdell]]. He learned of [[category theory]] $[...]$ found it a promising framework for simple rigorous [[axioms]] for the physical ideas of Truesdell and [[Walter Noll]]. 
+> I had been a student at Indiana University from 1955 to January 1960. I liked [[experiment|experimental]] [[physics]] but did not appreciate the imprecise reasoning in some theoretical courses. So I decided to study [[mathematics]] first. Truesdell was at the Mathematics Department but he had a great knowledge in Engineering Physics. He took charge of my education there. $[...]$ in 1955 (and subsequently) had advised me on pursuing the study of [[continuum mechanics]] and [[kinetic theory]]. 
+
+> In Summer 1958 I studied [[topological dynamics|Topological Dynamics]] with George Whaples, with the agenda of understanding as much as possible in categorical terms.  $[...]$ Categories would clearly be important for simplifying the foundations of [[continuum physics]]. I concluded that I would make category theory a central line of my study. 
+
+Then in ([interview, p. 11](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)) about the early 1960s:
+
+> I felt a strong need to learn more [[set theory]] and [[logic]] from experts in that field, still of course with the aim of clarifying the foundations of [[category theory]] and of [[physics]].
 
 The title of the early text _[[Toposes of laws of motion]]_, which is often cited as the text introducing [[synthetic differential geometry]], clearly witnesses the origin and motivation of these ideas in [[classical mechanics]].
+
+
+On this, in ([interview, p. 15](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
+
+
+> As an assistant professor in Chicago, in 1967, you taught with Mac Lane a course on [[mechanics|Mechanics]], where you "started to think about the justication of older intuitive methods in geometry"7 You called it "[[synthetic differential geometry]]". How did you arrive at the program of Categorical Dynamics and Synthetic Differential Geometry ?
+
+> From January 1967 to August 1967 I was Assistant Professor at the University of Chicago. Mac Lane and I soon organized to teach a joint course based on Mackey's book "Mathematical Foundations of [[quantum mechanics|Quantum Mechanics]]". 
+
+> So, Mackey, a functional analyst from Harvard mainly concerned with the relationship between quantum mechanics and representation theory, had some relation to category theory.
+
+Then ([interview, p. 16](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
+
+> Back to the origins of Synthetic Dierential Geometry, where did the idea of organizing such a joint course on Mechanics originate ? Apparently, Chandra had suggested that Saunders give some courses relevant to physics, and our joint course was the rst of a sequence. Eventually Mac Lane gave a talk about the [[Hamilton-Jacobi equation]] at the Naval Academy in summer 1970 that was published in the American Mathematical Monthly
+
+
+> $[...]$ I began to apply the Grothendieck topos theory that I had learned from Gabriel to the problem of simplied foundations of continuum mechanics as it had been inspired by Truesdell's teachings, Noll's axiomatizations, and by my 1958 efforts to render categorical the subject of [[topological dynamics]].
 
 A review of this with more comments on more relations to physics is in the introduction to the book collection _[[Categories in Continuum Physics]]_, which is the proceedings of a meeting organized by Lawvere in 1982
 
@@ -78,6 +103,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
 * _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
 
+
   (with first remarks on [[cohesive topos|cohesion]])
 
 * _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
@@ -117,12 +143,15 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
 * _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) -- available online [here](http://conceptualmathematics.wordpress.com/2012/06/04/perugia-notes-prof-f-w-lawvere/)
 
+
   (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
 
 
 * with [[Stephen Shanuel]], _[[Categories in Continuum Physics]]_
 
-Many of these writings are influenced to some extent from [[Georg Hegel]]'s _[[Science of Logic]]_.
+  on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]] and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].
+
+Many of these writings are influenced to some extent by [[Georg Hegel]]'s _[[Science of Logic]]_.
 
 category: people
 
