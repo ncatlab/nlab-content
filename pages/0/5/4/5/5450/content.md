@@ -25,7 +25,16 @@
 
 ## Definition
 
-### General concrete
+In the context of the [[geometry]] of [[schemes]] there is a traditional notion of [[étale morphism of schemes]] and an _&#233;tale topos_ is a [[category of sheaves]] on the [[étale site]] of a [[scheme]], consisting of [[covers]] by such [[étale morphism of schemes|étale morphisms]]. This traditional notion we discuss in 
+
+* [&#201;tale topos of a scheme](#EtaleToposOfAScheme).
+
+More abstractly, given that [[étale morphisms of schemes]] may be characterized as modal morphisms with respect to an [[infinitesimal shape modality]], one can consider &#233;tale toposes in every context of [[differential cohesion]]. This we discuss in 
+
+* [&#201;tale topos of a differentially cohesive object](#GeneralAbstract)
+
+### &#201;tale topos of a scheme
+ {#EtaleToposOfAScheme}
 
 An **&#233;tale topos** is the [[sheaf topos]] over an [[étale site]], hence over a site whose "open subsets" are [[étale morphisms]] into the base [[space]]. The intrinsic [[cohomology]] of an &#233;tale [[(∞,1)-topos]] is _[[étale cohomology]]_.
 
@@ -34,7 +43,7 @@ More generally there is the pro-&#233;tale topos over a [[pro-étale site]], whi
 Generally, given that an [[étale morphism of schemes]] is a [[formally étale morphism]] subject to a size constraint on its [[fibers]] -- for an actual [[étale morphism of schemes]] the fibers are [[finite sets]] in the suitable sense (formal duals to [[étale algebras]]) while for a [[pro-étale morphism of schemes]] they are [[pro-objects]] of such fibers --
 in a suitable ambient context ("[[differential cohesion]]") one can drop all finiteness conditions and consider just opens given by [[formally étale morphisms]] as encoded by an [[infinitesimal shape modality]]. This we discuss [below](#GeneralAbstract).
 
-### General abstract 
+### &#201;tale topos of a differentially cohesive object
  {#GeneralAbstract}
 
 We discuss how in [[differential cohesion]] $\mathbf{H}_{th}$ every object $X$ canonically induces its &#233;tale topos $Sh_{\mathbf{H}_{th}}(X)$.
@@ -119,6 +128,7 @@ $$
 Therefore $(\mathbf{H}_{th})_{/X}^{fet}$, being a reflective subcategory of a [[locally presentable (∞,1)-category]], is (as discussed there) itself locally presentable. Hence by the [[adjoint (∞,1)-functor theorem]] it is now sufficient to show that the inclusion preserves all small [[(∞,1)-colimits]] in order to conclude that it also has a right [[adjoint (∞,1)-functor]]. 
 
 So consider any [[diagram]] [[(∞,1)-functor]] $I \to (\mathbf{H}_{th})_{/X}^{fet}$ out of a [[small (∞,1)-category]]. Since the inclusion of $(\mathbf{H}_{th})_{/X}^{fet}$ is full, it is sufficient to show that the $(\infty,1)$-colimit over this diagram taken in $(\mathbf{H}_{th})_{/X}$ lands again in $(\mathbf{H}_{th})_{/X}^{fet}$ in order to have that $(\infty,1)$-colimits are preserved by the inclusion. Moreover, colimits in a slice of $\mathbf{H}_{th}$ are computed in $\mathbf{H}_{th}$ itself (this is discussed at _[slice category - Colimits](overcategory#LimitsAndColimits)_).
+
 
 Therefore we are reduced to showing that the square
 
@@ -688,11 +698,15 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
 
 ## Related concepts
 
+* [[basics of étale cohomology]]
+
 * [[étale homotopy]]
 
 * [[étale cohomology]]
 
 ## References
+
+### Etale topos of a schemes
 
 * [[Günter Tamme]], section II 1 of _[[Introduction to Étale Cohomology]]_
  {#Tamme}
@@ -700,7 +714,9 @@ The &#233;tale topos over the big &#233;tale site of [[commutative rings]] is th
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
  {#Milne}
 
+### Etale topos of a differentially cohesive object
 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 
 
