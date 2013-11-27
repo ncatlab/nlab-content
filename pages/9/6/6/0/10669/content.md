@@ -14,3 +14,9 @@ The refinement of the notion of [[scheme]] from [[algebraic geometry]] to [[E-âˆ
 * [[Jacob Lurie]], _[[Spectral Schemes]]_.
 
 [[!redirects E-âˆž schemes]]
+
+[[!redirects E-infinity scheme]]
+[[!redirects E-infinity schemes]]
+
+[[!redirects spectral scheme]]
+[[!redirects spectral schemes]]
