@@ -543,6 +543,9 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 * [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
 
 
+## References
+
+* [[Jacob Lurie]], _[[Descent Theorems]]_
 
 [[!redirects descent and codescent]]
 [[!redirects codescent]]
