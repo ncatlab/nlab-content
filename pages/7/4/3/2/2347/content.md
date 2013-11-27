@@ -234,6 +234,8 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 * [[mechanics]], [[Poisson manifold]], [[symplectic manifold]], [[contact manifold]]
 
+* [[continuum mechanics]]
+
 * [[semiclassical approximation]]
 
 * [[classical anomaly]]
