@@ -47,10 +47,28 @@ Concretely if $X$ is a [[manifold]], then $\omega$ is the sheaf of [[densities]]
 
 The duality is named after [[Jean-Louis Verdier]].
 
+Accounts of the traditional notion include
+
 * [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. 9 (1996), 205&#8211;236. ([JSTOR](http://www.jstor.org/stable/2152846))
 
 * Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
 
 * Liviu Niculaescu, _The derived category of sheaves and the Poincar&#233;-Verdier duality_ ([pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf))
+
+* [[Jacob Lurie]], lecture notes on _Verdier duality_ ([pdf](http://www.math.harvard.edu/~lurie/283notes/Lecture17-Verdier.pdf), [pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf))
+
+
+Discussion in the context of [[higher algebra]]/[[higher geometry]] is in 
+
+* Roy Joshua, _Generalised Verdier duality for presheaves of spectra&#8212;I_, Journal of Pure and Applied Algebra Volume 70, Issue 3, 29 March 1991, Pages 273&#8211;289
+
+* [[Jonathan Block]] and [[Andrey Lazarev]], _Homotopy Theory and Generalized Duality for Spectral Sheaves_, IMRN International Mathematics Research Notices
+1996, No. 20 ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockLazarevSpectralSheaves.pdf))
+
+
+* [[Vladimir Drinfeld]], [[Dennis Gaitsgory]], section 5.3 _On some finiteness questions for algebraic stacks_ ([arXiv:1108.5351](http://arxiv.org/abs/1108.5351))
+
+
+
 
 [[!redirects Verdier dualities]]
