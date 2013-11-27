@@ -29,6 +29,7 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 *[[entropy]], [[relative entropy]], [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], [[KMS state]]
 
+* [[intensive and extensive]]
 
 ## References
 
