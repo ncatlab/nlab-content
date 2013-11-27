@@ -71,30 +71,27 @@ that makes both triangles commute.
 By [[Isbell duality|formal duality]] and [[sheafification|locality]] this yields a notion of formally &#233;tale morphisms of [[affine varieties]] and of [[schemes]].
 
 
-### Characterization by reduction/infinitesimal shape/de Rham Space
+### Characterization by reduction/infinitesimal shape
  {#CharacterizationByReductionModality}
 
-+-- {: .num_defn }
-###### Definition
-
-Write [[CRing]]${}_{fin}$ for the [[category]] of [[finitely generated]] [[commutative rings]]. 
-
-> (Possibly rather needs to be: the category $CRing_{fin}^{nil}$ of [[infinitesimal extensions]].)
-
-Write $Sh(CRing_{fin})$ for the [[category of sheaves]] ([[presheaves]], [[(infinity,1)-presheaves]]) over $CRing_{fin}$.
- 
-=--
 
 +-- {: .num_defn #ReductionOnRings}
 ###### Definition
 
+Write $CRing_{fin}$ for the [[category]] of [[finitely generated ring|finitely generated]] [[commutative rings]] and write $CRing_{fin}^{ext}$ for the category of [[infinitesimal ring extensions]].
 Write
 
 $$
-  Red \;\colon\; CRing_{fin} \longrightarrow CRing_{fin}
+  Red \;\colon\; CRing_{fin}^{ext} \longrightarrow CRing_{fin}
 $$
 
-for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, hence its [[quotient]] by its [[nilradical]] $I$.
+for the [[functor]] which sends an [[infinitesimal ring extension]] to the underlying [[commutative ring]] (in the maximal case this sends a commutative ring to its [[reduced ring]], whence the name of the functor), and write
+
+$$
+  i \;\colon\; CRing_{fin} \hookrightarrow CRing_{fin}^{ext}
+$$
+
+for the [[full subcategory]] inclusion that regards a ring as the trivial infinitesimal extension over itself.
 
 =--
 
@@ -104,38 +101,76 @@ for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced sche
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing_{fin}) \longrightarrow PSh(CRing_{fin})
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh((CRing_{fin}^{ext})^{op}) \longrightarrow PSh((CRing_{fin}^{ext})^{op})
 $$
 
-where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
+where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings} (followed by the inclusion).
 
 =--
 
-This is for the most part probably [[folklore]]. It is observed more or less explicitly for instance in the unpublished notes/preprints ([Simpson-Teleman 97](#SimpsonTeleman97), [Kontsevich-Rosenberg 04](#KontsevichRosenberg04)). More discussion of how to extract the above from these references is at _[[Q-category]]_.
+This statement and the following prop. \ref{FormalEtalenessBydeRhamSpace} is a slight paraphrase of an observation due to ([Kontsevich-Rosenberg 04](Q-category#KontsevichRosenbergSpaces)).
+
++-- {: .proof}
+###### Proof
+
+The  functors from def. \ref{ReductionOnRings} form an 
+[[adjoint pair]] $(Red \dashv i)$ because an extension element
+can only map to an extension element; so for $\widehat R \to R$
+an [[infinitesimal ring extension]] of $R = Red(\widehat R)$, 
+and for $S$ a commutative ring with
+$i(S) = (S \to S)$ its trivial extension, there is a [[natural isomorphism]]
+
+$$
+  Hom_{CRing_{fin}^{ext}}(\widehat R, i(S))
+  \simeq
+  Hom_{CRing_{fin}}(R,S)
+  \,.
+$$
+
+This exhibits $CRing_{fin}$ as a [[reflective subcategory]]
+of $CRing_{fin}^{ext}$.
+
+$$
+  (Red \dashv i)
+   \;\colon\;
+  CRing_{fin}
+   \stackrel{\overset{Red}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  CRing_{fin}^{ext}
+  \,.
+$$
+
+Via [[Kan extension]] this [[adjoint pair]] induces an [[adjoint quadruple]] of [[functors]] on [[categories of presheaves]]
+
+$$
+  PSh(CRing_{fin}^{op})
+    \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^\ast = Red_!}{\leftarrow}}{\stackrel{\overset{Red^\ast}{\hookrightarrow}}{\underset{Red_\ast}{\leftarrow}}}}
+  PSh((CRing_{fin}^{ext})^{op})
+  \,.
+$$
+
+The [[adjoint triple]] to be shown is obtained from composing these adjoints pairwise.
+
+That $Red$ coincides with the reduction functor on representables is a standard property of [[left Kan extension]] (see [here](Kan+extension#LeftKanOnRepresentables) for details).
+
+=--
+
 
 +-- {: .num_remark }
 ###### Remark
 
-Here $\int_{inf}$ sends a [[scheme]] to its [[de Rham space]].
+These considerations make sense in the general abstract context of 
+"[[differential cohesion]]" where the [[adjoint triple]] of prop. \ref{DifferentialCohesionModality} would be called:
+
+([[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]]).
 
 =--
 
+Due to the [[full subcategory]] inclusion $i_!$ in the proof of prop. \ref{DifferentialCohesionModality} we may equivalently regard presheaves on $(CRing_{fin})^{op}$ (e.g. [[schemes]]) as presheaves on $(CRing_{fin}^{ext})^{op}$ (e.g. [[formal schemes]]). This is what we do implicitly in the following.
 
-+-- {: .num_remark }
-###### Remark
-
-Since in terms of the [[internal logic|internal]] [[type theory]] of the [[topos]] $Sh(CRing)$ an [[idempotent monad|idempotent]] ([[comonad|co]]-)[[monad]] is a _[[modality]]_, the operators in prop. \ref{DifferentialCohesionModality} may be thought of as (co-)modalities. We may call them, respectively 
-
-[[reduction modality]] $\dashv$ [[infinitesimal shape modality]] $\dashv$ [[infinitesimal flat modality]].
-
-The collection of these we say equips $Sh(CRing)$ with _[[differential cohesion]]_.
-
-=--
-
-+-- {: .num_prop }
++-- {: .num_prop #FormalEtalenessBydeRhamSpace}
 ###### Proposition
 
-A morphism $f \;\colon\; Spec A \to Spec R$ in $CRing^{op} \hookrightarrow Sh(CRing)$ is 
+A morphism $f \;\colon\; Spec A \to Spec R$ in $CRing_{fin}^{op} \hookrightarrow PSh(CRing_{fin}^{op})$ is 
 formally &#233;tale, def. \ref{ExplicitDefinition}, precisely if it is $\int_{inf}$-[[modal type|modal]] relative $Spec R$, hence if the [[natural transformation|naturality square]] of the [[infinitesimal shape modality]]-[[unit of a monad|unit]] 
 
 $$
@@ -155,7 +190,7 @@ is a [[pullback]] square.
 +-- {: .proof}
 ###### Proof
 
-Evaluated on $B \in CRing$ any object, by the [[Yoneda lemma]] and the $(Red \dashv $\int_{inf}$)$-[[adjunction]], the naturality square becomes
+Evaluated on $I \hookrightarrow R  \to R/I \in CRing_{fin}^{ext}$ any object, by the [[Yoneda lemma]] and the $(Red \dashv \int_{inf})$-[[adjunction]] the naturality square becomes
 
 $$
   \array{
@@ -172,6 +207,31 @@ in [[Set]]. Chasing elements through this shows that this is a [[pullback]] prec
 
 =--
 
+The basic stability property of [[étale morphisms]], which we need in the following, immediately follows from this characterization:
+
++-- {: .num_prop #ClosureForFormallyEtale}
+###### Proposition
+
+For $\stackrel{f}{\to} \stackrel{g}{\to}$ two composable morphisms, then
+
+1. if $f$ and $g$ are both (formally) &#233;tale, then so is their composite $g \circ f$;
+
+1. if $g$ and $ g\circ f$ are (formally) &#233;tale, then so is $f$;
+
+1. the [[pullback]] of a (formally) &#233;tale morphism along any morphism is again (formally) &#233;tale.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With prop. \ref{FormalEtalenessBydeRhamSpace} this is equivalently the 
+statement of the [[pasting law]] for [[pullback]] diagrams.
+
+=--
+
+
+
 ## Properties
 
 
@@ -182,6 +242,12 @@ Formally &#233;tale morphisms of schemes which are in addition [[locally of fini
 Relaxing this finiteness condition yields the notion of [[weakly étale morphisms]].
 
 [[étale morphism of schemes|étale morphism]] $\Rightarrow$ [[pro-étale morphism of schemes|pro-étale morphism]] $\Rightarrow$ [[weakly étale morphism of schemes|weakly étale morphism]] $\Rightarrow$ [[formally étale morphism of schemes|formally étale morphism]]
+
+## Related concepts
+
+* [[formally unramified morphism]], [[formally smooth morphisms]]
+
+* [[basics of étale cohomology]]
 
 ## References
 
