@@ -30,6 +30,8 @@ _[[l-adic cohomology]]_ or better _[[pro-étale cohomology]]_.
 
 ## Related concepts
 
+* [[basics of étale cohomology]]
+
 * [[motive]], [[motivic cohomology]]
 
 ## References
