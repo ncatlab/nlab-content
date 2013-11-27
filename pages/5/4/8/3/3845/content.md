@@ -146,5 +146,9 @@ There is also
 
 * [[Michael Makkai]], _Computads and 2 dimensional pasting diagrams_ ([pdf](http://www.math.mcgill.ca/makkai/2dcomputads/2DCOINS1.pdf))
 
+For a cubical approach to multiple compositions and other references see the paper 
+
+*  Philip J. Higgins, Thin elements and commutative shells in cubical omega-categories, Theory and Applications of Categories, Vol. 14, 2005, No. 4, pp 60-74. ([link](http://www.tac.mta.ca/tac/volumes/14/4/14-04abs.html))
+
 [[!redirects pasting diagrams]]
 [[!redirects pasting]]
