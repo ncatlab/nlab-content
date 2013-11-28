@@ -1,5 +1,5 @@
 
-> This page gives an introductory survey to some aspects of the formulation of [[physics]] and [[quantum field theory]] in [[cohesion|cohesive]] [[(infinity,1)-toposes|higher toposes]]. We proceed by recalling aspects of the formulation of physics in [[toposes]] as proposed in ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)) and indicating in each case how this refines to [[(infinity,1)-topos theory|higher topos theory]] and what this gains.
+> This page gives an introductory survey to some aspects of the formulation of [[physics]] and [[quantum field theory]] in [[cohesion|cohesive]] [[(infinity,1)-toposes|higher toposes]]. We proceed by recalling aspects of the formulation of physics in [[toposes]] as proposed in ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)), indicating in each case how this refines to [[(infinity,1)-topos theory|higher topos theory]] and what this gains.
 
 
 +-- {: .rightHandSide}
@@ -24,33 +24,73 @@
 
 ## Introduction and motivation
 
-Legend has it that there was a time when only three people understood general relativity. Whether true and in which sense, the point of the legend is: classical Einstein gravity was once considered enormously subtle and esoteric.
+Urban legend has it that there was a time when only three people understood [[Einstein]]'s [[theory (physics)|theory]] of [[classical field theory|classical]] [[gravity]] -- "[[general relativity]]". 
 
-But one of the three was Hilbert, and he made the mists go away. He gave a clear mathematical axiomatization: classical Einstein gravity is the study of the critical points of the integral of the scalar curvature density functional on the space of pseudo-Riemannian manifolds.
+Whether true or not, one of the three was [[David Hilbert]]. He made sure every beginning student today can understand [[general relativity]] by giving it a clear and precise (= rigorous) formalization in [[mathematics]]:
 
-Riemann made this a general principle: [[Riemann's 6th problem]] asks us to: mathematically axiomatize physics.
+classical Einstein gravity is simply the study of the [[critical points]] of the [[integral]] of the [[scalar curvature]] [[density]] [[action functional|functional]] on the [[moduli space]] of [[pseudo-Riemannian metrics]] on [[spacetime]].
 
-Due to this axiomatic formulation, today every beginning student understands general relativity. Mathematical axiomatization has made it easy. 
+In fact by realizing this mathematical formalization of what Einstein did, he was able to essentially scoop him, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
 
-What has taken the place of the mysterious is instead now [[quantum field theory]]. According to Feynman, "nobody understand quantum mechanics". This is the next item in Hilbert's sixth problem to be solved. 
+To promote this success, in his famous list of [[Hilbert's problems]] in mathematic, [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
 
-[[William Lawvere]] has worked his hole life on the problem of axiomatizin [[classical mechanics|classical]] [[continuum mechanics]].
+Since then a list of such axiomatizations has been found, for instance
 
-We now follow his steps and then improve.
+| [[physics]] | [[mathematics]] |
+|--|--|
+| [[mechanics]] | [[symplectic geometry]] |
+| [[gravity]] | [[Riemannian geometry]] |
+| [[gauge theory]] | [[Chern-Weil theory]] |
+| [[local quantum field theory]] | [[monoidal (∞,n)-category]] theory |
+| $\vdots$ | $\vdots$ |
+
+Two aspects of this list are noteworthy: one the one hand, it contains crown jewels of mathematics, on the other the items appear unrelated and piecemeal.
+
+As a student, [[William Lawvere]] was exposed to the proposal to axiomatize [[thermodynamics]] as what was called "[[rational thermodynamics]]". He realized that a fundamental [[foundation]] of such [[continuum physics]] first of all requires a good foundation of [[differential geometry]] itself. 
+Looking over his life publication record (see [[William Lawvere|here]]) one sees that he pursued the following grand plan
+
+**Plan**
+
+1. lay the [[foundations]] of [[mathematics]] in [[topos theory]] ("[[ETCS]]")
+
+1. lay the foundations of [[geometry]] in [[topos theory]] ([[synthetic differential geometry]], [[cohesion]])
+
+1. lay the foundations of [[classical mechanics|classical]] [[continuum physics]] in [[synthetic differential geometry]] ([[toposes of laws of motion]]).
+
+Lawvere became famous for his groundbreaking contributions to the first two items ([[categorical logic]], [[topos theory|elementary topos theory]], [[algebraic theories]], [[synthetic differential geometry|SDG]]). For some reason the motivation of all this by the third item is not as widely recognized, even thought Lawvere continuously emphasized this third point, see the [list of quotations here](William%20Lawvere#MotivationFromFoundationsOfPhysics)).
+
+Here we are interested in understanding the totality of all three items.
+
+Grandiose as this plan is, we have to note that in the above form it falls short in each item:
+
+1. modern [[mathematics]] is naturally founded not in [[topos theory]]/[[type theory]], but in [[(infinity,1)-topos theory|higher topos theory]]/[[homotopy type theory]].
+
+1. modern [[geometry]] not just about "variable sets" ([[sheaves]]) but is is [[higher geometry]] about "variable [[homotopy types]]",  [[geometric homotopy types]] ([[stacks]]);
+
+1. modern [[physics]] goes beyond [[classical mechanics|classical]] [[continuum physics]]; at high [[energy]] (small distance) classical physics is refined by [[quantum physics]].
+
+
+Therefore what is needed is a foundation of [[high energy physics]] in [[higher differential geometry]] formulated in [[higher topos theory]].
+
+Work in this direction is in ([dcct](#dcct)), a concise survey is in _[[schreiber:Synthetic Quantum Field Theory]]_. 
+
+In the following we illustrate three aspects fo the theory. We close by indicating how this theory serves to solve subtle open problems in modern [[quantum field theory]] and [[string theory]].
 
 
 ## **I)** Mapping spaces in gauge theory and General covariance 
  {#HigherMappingSpaces}
 
-Lawvere's starting point was the observation that central to the formulation of physics is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]].
+One basic point Lawvere emphasized early on is that central to the formulation of [[physics]] is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]]. 
+
+(notice: [[mapping space]] ... space of [[trajectories]] ... [[path integral]])
 
 Indeed, generically a [[physical system]] is determined by 
 
-* a [[space]] $\Sigma$ called [[spacetime]] or [[worldvolume]]
+* a [[space]] $\Sigma$ called _[[spacetime]]_ or _[[worldvolume]]_
 
-* a [[space]] $X$ called [[target space]] or [[field bundle]] etc.
+* a [[space]] $X$ called _[[target space]]_ or _[[field bundle]]_ or _[[moduli space]] of [[field (physics)|fields]]_.
 
-Such that a [[trajectory]] or [[physical field|field configurations]] is a map
+such that a [[trajectory]] or [[physical field|field configurations]] is a map
 
 $$
   \Sigma \longrightarrow X
@@ -67,20 +107,22 @@ $$
   \Sigma = \mathbb{R} \times \Sigma_{d-1}
 $$
 
-into [[space]] and [[time]], then we want that spacetime field configurations
+into [[time]] and [[space]], then we want that spacetime field configurations
 
 $$
   \mathbb{R} \times \Sigma_{d-1} \longrightarrow X
 $$
 
-are the same as trajectories of fields on space
+are equivalently trajectories of fields on space
 
 $$
   \mathbb{R}  \longrightarrow [\Sigma_{d-1}, X]
   \,.
 $$
 
-But acutally in physics one needs a bit more than this. Physics is fundamental governed by [[gauge equivalence]], which means that there is no sense in askking if field consigurations are equal, we must ask if they are [[equivalence|equivalent]].
+This led Lawvere to recognize that physics ([[prequantum field theory|prequantum physics]], to be precise) is to be formulated in a [[cartesian closed category]], such as a [[topos]].
+
+But actually in modern physics one needs a bit more than this. Physics is fundamentally governed by [[gauge equivalence]], which means that there is no sense in askking if field consigurations are equal, we must ask if they are [[equivalence|equivalent]].
 
 A fundamental example of this is Einstein [[general covariance]].
 
@@ -96,9 +138,9 @@ $$
   \phi^\ast s \;\colon\; U \hookrightarrow \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma
 $$
 
-is "the same" region. Stated this way in ordinary [[topos theory]] this is confusing, and historically it was confusing. This is essentially the famous "[[hole paradox]]".
+is "the same" region. Stated this way in ordinary [[topos theory]] this is confusing, and historically it was confusing: is was called the "[[hole paradox]]".
 
-But this is recolved in [[higher topos theory]]. Here a [[space]] $S$ is a [[groupoid]] or [[homotopy type]]. This means that it is not sensible to ask if two maps into it are equal, but between any two maps there is a space of equivalences between them.
+But this is resolved in [[higher topos theory]]. Here a [[space]] $S$ is a [[groupoid]] or [[homotopy type]]. This means that it is not sensible to ask if two maps into it are equal, but between any two maps there is a space of equivalences between them.
 
 For general covariance this means by the above that spacetime is not actually a manifold $\Sigma$, but is actually the [[action groupoid]]/[[quotient stack]]
 
@@ -106,7 +148,9 @@ $$
   \Sigma//Diff(\Sigma)
 $$
 
-This is [[general covariance]]. 
+of $\Sigma$ by its [[diffeomorphism group]] (regarded as a [[diffeological group]]).
+
+This is the formalization of "[[general covariance]]". 
 
 
 But now this means we also need to consider the [[mapping spaces]] in higher topos theory. A basic fact is
@@ -129,7 +173,9 @@ $$
   \,.
 $$
 
-Lawvere also introduced [[categorical logic]] and understood [[dependent product]] $\prod$ and [[dependent sum]] $\sum$ as [[base change]].
+Lawvere also introduced [[categorical logic]] and understood [[dependent product]] $\prod$ and [[dependent sum]] $\sum$ as [[base change]]. In [[(infinity,1)-topos theory|higher topos theory]] this becomes [[representation theory]] as follows:
+
+[[!include homotopy type representation theory -- table]]
 
 Using this we have the mapping space of fields
 
@@ -166,8 +212,11 @@ $$
   \,.
 $$
 
-This is the famous insight of Einstein. Derived by lifting Lawvere's argument about mapping spaces from topos theory to higher topos theory.
+This is the formalization of the famous insight of Einstein. Derived by lifting Lawvere's argument about mapping spaces from topos theory to higher topos theory.
 
+So as a slogan we conclude that in the formalization of [[physics]] in [[(infinity,1)-topos theory|higher topos theory]] we have:
+
+* _[[general covariance]] is homotopy [[coinvariants]]_
 
 
 ## **II)** Toposes of laws of motion and Hamilton-Jacobi-Lagrange mechanics
@@ -265,6 +314,11 @@ the [[moduli space]] of certain 2d field theories satisfying consistency  condit
  {#Lawvere97}
 
 * _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+
+* _[[schreiber:differential cohomology in a cohesive topos]]_ ([1310.7930](http://arxiv.org/abs/1310.7930))
+ {#dcct}
+
+* _[[schreiber:Synthetic Quantum Field Theory]]_
 
 * [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_
 
