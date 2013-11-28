@@ -24,8 +24,16 @@ If we regard Lie groupoids as special cases of [[stack]]s on [[Diff]], then diff
 
 * The [[path groupoid]] of a smooth manifold (and indeed of a diffeological space) $X$ is a diffeological groupoid.
 
+* A pointed connected diffeological groupoid is a _diffeological group_, generalizing the notion of [[Lie group]].
+
+## Related concepts
+
+* [[smooth groupoid]]
 
 [[!redirects diffeological groupoid]]
 [[!redirects diffeological groupoids]]
 [[!redirects diffeological n-groupoid]]
 [[!redirects diffeological n-groupoids]]
+
+[[!redirects diffeological group]]
+[[!redirects diffeological groups]]
