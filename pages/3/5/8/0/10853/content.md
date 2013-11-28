@@ -63,8 +63,9 @@ an object and $Aut(X) \hookrightarrow End(X)$ its [[automorphism]]
 
 From p. 9:
 
-> Likewise, the infinitesimal version of such systems i.e. vector fields or first-order ODE's, will also form a topos as I pointed out in my Chicago lecture. But what about actual dynamical systems in the spirit of [[Galileo]], for example, second-order ODE's? (Of course, the symplectic or Hamiltonian systems that are also much studied do address this question of states of Becoming versus locations of Being, but in a special way which it may not be possible to construe as a topos;
+> Likewise, the infinitesimal version of such systems i.e. vector fields or first-order ODE's, will also form a topos as I pointed out in my Chicago lecture. But what about actual dynamical systems in the spirit of [[Galileo]], for example, second-order ODE's? (Of course, the symplectic or Hamiltonian systems that are also much studied do address this question of states of [[becoming|Becoming]] versus locations of [[being|Being]], but in a special way which it may not be possible to construe as a topos;
 
+This is solved by [[Higher toposes of laws of motion]]
 
 ## Galilean laws of motion
 
