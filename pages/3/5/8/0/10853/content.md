@@ -33,6 +33,11 @@ on the formulation of [[differential equations]]/[[continuum mechanics]] in [[sy
 
 Another early text in this direction is Lawvere's _[[Categorical dynamics]]_. Related texts on the [[foundations]] of [[physics]] in [[topos theory]] include the collection _[[Categories in Continuum Physics]]_.
 
+An open question concerning the characterization of "Toposes of laws of motion" is raised as question 7 "The algebra of time" in
+
+* _Open problems in topos theory_, April 2009 ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+
+
 Entries with related discussion include _[[geometry of physics]]_ and _[[higher category theory and physics]]_.
 
 #Contents#
@@ -43,7 +48,18 @@ Entries with related discussion include _[[geometry of physics]]_ and _[[higher 
 
 ## Laws of motion
 
-[[actions]] of an [[group object]], forming the [[topos]] of [[actions]]
+
+p. 9 
+
+> What, more precisely, do we mean by a 'law'? and how could the laws possibly form a topos as promised in my title? First, note that the usual 'dynamical systems' involving for example the smooth [[actions]] of a [[monoid]], if properly construed, will surely form a [[topos]]
+
+The [[topos]] of [[actions]], [[G-sets]]
+
+Let $R$ be a [[line object]] or similar, hence an [[monoid]] or [[abelian group]] under addition (e.g. the [[continuum]] [[real line]]), then an [[action]] of $R$ on  soem $X \in \mathbf{H}$ is an $R$-parameterized 
+[[flow]]
+
+
+an object and $Aut(X) \hookrightarrow End(X)$ its [[automorphism]]
 
 From p. 9:
 
