@@ -165,6 +165,8 @@ This is discussed at
 
   * [[synthetic differential infinity-groupoid]]
 
+* [[topos of laws of motion]]
+
 ## References
 {#References}
 
