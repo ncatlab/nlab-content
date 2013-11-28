@@ -14,16 +14,16 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Definition#
+## Definition#
 
-[[Bill Lawvere]]'s definition of an _atomic_ [[infinitesimal space]] is as an [[object]] $\Delta$ in a [[topos]] $\mathcal{T}$ such that the [[inner hom]] [[functor]] $(-)^\Delta : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]].
+[[Bill Lawvere]]'s definition of an _atomic_ [[infinitesimal space]] is as an [[object]] $\Delta$ in a [[topos]] $\mathcal{T}$ such that the [[inner hom]] [[functor]] $(-)^\Delta : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (is an [[atomic object]]).
 
 Notice that by definition of [[inner hom]], $(-)^\Delta$ always has a [[left adjoint]]. A [[right adjoint]] can only exist for very particular objects. Therefore the term **amazing right adjoint**
 
-# right adjoints to representable exponentials #
+## Right adjoints to representable exponentials 
 
 Assume $\mathcal{T} = Sh(C)$ is a [[Grothendieck topos]], that the [[Grothendieck topology]] on the [[site]] $C$ is [[subcanonical coverage|subcanonical]]. Let $\Delta \in C \hookrightarrow Sh(C)$ be a [[representable functor|representable object]]. 
 
@@ -42,8 +42,9 @@ The $Y_\Delta$ defined this way is indeed a sheaf, due to the assumption that $(
 
 
 
-#References#
+## References#
 
-appendix 4 of
+* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], appendix 4 of, [[Models for Smooth Infinitesimal Analysis]]
+
