@@ -59,6 +59,7 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
 
 * [[variational calculus]]
 
+* [[topos of laws of motion]]
 
 ## References
 
