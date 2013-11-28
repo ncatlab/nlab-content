@@ -19,7 +19,7 @@
 
 ##  Idea
 
-What is called _rational thermodynamics_ is a proposal ([Truesdell 72](#Truesdell72)) to base the [[physics]] of  [[irreversible theremodynamics]] on a system of [[axioms]] and derive the theory from these formally.
+What is called _rational thermodynamics_ is a proposal ([Truesdell 72](#Truesdell72)) to base the [[physics]] of  [[irreversible thermodynamics]] on a system of [[axioms]] and derive the theory from these formally.
 
 The success of the axioms of rational thermodynamics as a theory of physical phenomena has been subject of debate. But the idea as such that [[continuum physics]] can be and should be given a clear [[axiom|axiomatic]] [[foundation]] seems to have inspired [[William Lawvere]] (see there for more), once an undergraduate student of [[Clifford Truesdell]], to base [[continuum mechanics]] on constructions in [[topos theory]], such as [[synthetic differential geometry]] and [[cohesion]].
 
@@ -32,7 +32,7 @@ Original books include
 
 * [[Clifford Truesdell]], _A first course in rational continuum mechanics_. Pure and Applied Mathematics, Academic Press, New York, San Francisco, London, 1977, xxiii + 280 pp., $23.00 ([review](http://projecteuclid.org/euclid.bams/1183548435))
 
-A survey of [[irreversible theoremodynamics]] is in 
+A survey of [[irreversible thermodynamics]] is in 
 
 * Ivan Vavruch, _Conceptual problems of modern irreversible thermodynamics_, Chem. Listy 96 (2002) ([pdf](http://www.chemicke-listy.cz/docs/full/2002_05_01.pdf))
 
