@@ -143,7 +143,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/87s.pdf))
 
 
-* with [[Stephen Shanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
+* with [[Stephen Schanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
 
   on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].
 
