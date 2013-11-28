@@ -40,6 +40,8 @@ If $E$ is [[cartesian closed category|cartesian closed]] and the
 
 =--
 
+([Lawvere 97](#Lawvere97))
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -319,6 +321,11 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 
 * [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0))
   {#BorceuxDejean}
+
+The term "atomic object" or rather "a.t.o.m" is suggested in 
+
+* [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
+ {#Lawvere97}
 
 
 [[!redirects small-projective object]]
