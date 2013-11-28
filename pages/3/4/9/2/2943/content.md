@@ -49,6 +49,11 @@ See also
 
 * Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
 
+A survey of [[irreversible theoremodynamics]] is in 
+
+* Ivan Vavruch, _Conceptual problems of modern irreversible thermodynamics_, Chem. Listy 96 (2002) ([pdf](http://www.chemicke-listy.cz/docs/full/2002_05_01.pdf))
+
+For more on this see also _[[rational thermodynamics]]_.
 
 ### Generalizations 
 
@@ -65,3 +70,5 @@ ical systems_, Amer. Math. Soc. 2000.
 
 [[!redirects statistical mechanics]]
 [[!redirects statistical physics]]
+
+[[!redirects irreversible thermodynamics]]
