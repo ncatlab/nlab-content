@@ -20,6 +20,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 * [[second order arithmetic]]
 
+* [[Weil conjecture]], [[Fermat's last problem]], [[abc conjecture]]
+
 * [[number theory and physics]]
 
 ## References
