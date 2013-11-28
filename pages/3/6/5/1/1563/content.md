@@ -177,7 +177,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
 * _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
-  (on the description of [[differential equations]] in terms of [[synthetic differential geometry]])
+  (on the description of [[differential equations]] in terms of [[synthetic differential geometry]] and the notion of _[[toposes of laws of motion]]_)
 
 * _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
 
