@@ -1,5 +1,6 @@
 
-> under construction
+> This page gives an introductory survey to some aspects of the formulation of [[physics]] and [[quantum field theory]] in [[cohesion|cohesive]] [[(infinity,1)-toposes|higher toposes]]. We proceed by recalling aspects of the formulation of physics in [[toposes]] as proposed in ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)) and indicating in each case how this refines to [[(infinity,1)-topos theory|higher topos theory]] and what this gains.
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,7 +39,7 @@ What has taken the place of the mysterious is instead now [[quantum field theory
 We now follow his steps and then improve.
 
 
-## Mapping spaces in gauge theory and General covariance 
+## **I)** Mapping spaces in gauge theory and General covariance 
  {#HigherMappingSpaces}
 
 Lawvere's starting point was the observation that central to the formulation of physics is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]].
@@ -169,7 +170,7 @@ This is the famous insight of Einstein. Derived by lifting Lawvere's argument ab
 
 
 
-## Toposes of laws of motion and Hamilton-Jacobi-Lagrange mechanics
+## **II)** Toposes of laws of motion and Hamilton-Jacobi-Lagrange mechanics
 
 
 In ([Lawvere 97](#Lawvere97)) it was observed that [[equations of motion]] in [[physics]] can (almost, see below) be formalized in [[synthetic differential geometry]] as follows.
@@ -219,7 +220,7 @@ is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi
 
 
 
-## Extensive/intensive duality and Cohomological quantization
+## **III)** Extensive/intensive duality and Cohomological quantization
 
 
 ...
@@ -229,19 +230,10 @@ is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi
 ...
 
 
-## Applications -- What is it all good for?
-
-### Non-perturbative quantization of Poisson manifolds 
-
- [[higher geometric quantization of 2d Chern-Simons theory]]
-
-[[symplectic groupoid]] of [[adjoint representation]] is 
+## An application -- What is it all good for?
 
 
-universal [[orbit method]]
-
-
-### Fine-structure of quantum anomaly cancellation in 2d QFT
+Fine-structure of quantum anomaly cancellation in 2d QFT
 
 The first thing to notice is that quantum field theory is
 a subject richer than often realized. 
@@ -250,15 +242,16 @@ perturbation theory to nonperturbative
 
 higher gauge fields in string theory
 
-FDM: background RR+B field cocycle in twisted differential K-theory
+([DFM 09](#DFM09)): background RR+B field cocycle in twisted differential K-theory
 
 was not available
 
-BNV: realizable in stable cohesion.
+[BunkeNikolausV&#246;lkl 13](#BunkeNikolausVoelkl13): realizable in [[tangent cohesion]].
 
 Central for the discussion of 2d QFT. 
+
 The infamous "[[landscape of string theory vacua]]" is essentially
-the moduli space of certain 2d field theories satisfying consistency  conditions like this.
+the [[moduli space]] of certain 2d field theories satisfying consistency  conditions like this.
 
 
 
@@ -266,6 +259,7 @@ the moduli space of certain 2d field theories satisfying consistency  conditions
 
 
 * [[William Lawvere]] _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+ {#Lawvere67}
 
 * [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
  {#Lawvere97}
@@ -274,3 +268,9 @@ the moduli space of certain 2d field theories satisfying consistency  conditions
 
 * [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_
 
+
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+ {#DFM09}
+
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+  {#BunkeNikolausVoelkl13}
