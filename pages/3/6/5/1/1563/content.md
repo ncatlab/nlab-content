@@ -93,7 +93,18 @@ Then ([interview, p. 16](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
 
 A review of this with more comments on more relations to physics is in the introduction to the book collection _[[Categories in Continuum Physics]]_, which is the proceedings of a meeting organized by Lawvere in 1982.
 
-In 2000 in _[[Comments on the development of topos theory]]_ Lawvere writes in the closing section 7 titled "From and to continuum physics":
+In the talk _[[Toposes of laws of motion]]_ in 1997, Lawvere starts with the following remark
+
+> I read somewhere recently that the basic program of infinitesimal [[calculus]], [[continuum mechanics]], and [[differential geometry]] is that all the world can be reconstructed from the [[infinitesimal object|infinitely small]]. One may think this is not possible, but nonetheless it's certainly a program that has been very fruitful over the last 300 years. I think we are now finally in a position to actually make more explicit what that program amounts to.
+
+> $[...]$ I think that on the basis of these developments we can focus on this question of making very explicit how [[continuum physics]] etc. can be built up mathematically from very simple ingredients.
+
+In the same talk, a few lines later after discussion of [[infinitesimally thickened points]] $T$, it says:
+
+> The basic [[spaces]] which are needed for [[functional analysis]] and theories of [[physical fields]] are thus in some sense available in any [[topos]] with a suitable [[object]] $T$.
+
+
+In 2000 in the article_[[Comments on the development of topos theory]]_ Lawvere writes in the closing section 7 titled "From and to continuum physics":
 
 > What was the impetus which demanded the simplification and generalization of [[Grothendieck]]'s concept of [[topos]], if indeed the application to [[logic]] and [[set theory]] were not decisive. $[...]$ My own motivation came from my earlier study of [[physics]]. The [[foundation]] of the [[continuum physics]] of general materials, in the spirit of [[Clifford Truesdell|Truesdell]], [[Walter Noll|Noll]] and others, involves powerful and clear physical ideas, which unfortunately have been submerged under a mathematical apparatus $[...]$. But, as Fichera $[25]$ lamented, all this apparatus gives often a very uncertain fit to the phenomena. The apparatus may well be helpful in the solution of certain problems, but can the problems themselves and the needed axioms be stated in a direct and clear manner? And might this not lead to a simpler, equally rigorous account? These were the questions to which I began to apply the [[topos]] method in my 1967 Chicago lectures $[$ _[[Categorical dynamics]]_ $]$. It was clear that work on the notion of topos itself would be needed to achieve the goal. I had spent 1961-62 with the Berkeley logicians, believing that listening to experts on [[foundations]] might be the road to clarifying foundational questions. 
 
