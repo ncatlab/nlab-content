@@ -20,7 +20,156 @@
 * table of contents
 {:toc}
 
-## Toposes of Hamilton-Jacobi laws of motion
+
+## Introduction and motivation
+
+Legend has it that there was a time when only three people understood general relativity. Whether true and in which sense, the point of the legend is: classical Einstein gravity was once considered enormously subtle and esoteric.
+
+But one of the three was Hilbert, and he made the mists go away. He gave a clear mathematical axiomatization: classical Einstein gravity is the study of the critical points of the integral of the scalar curvature density functional on the space of pseudo-Riemannian manifolds.
+
+Riemann made this a general principle: [[Riemann's 6th problem]] asks us to: mathematically axiomatize physics.
+
+Due to this axiomatic formulation, today every beginning student understands general relativity. Mathematical axiomatization has made it easy. 
+
+What has taken the place of the mysterious is instead now [[quantum field theory]]. According to Feynman, "nobody understand quantum mechanics". This is the next item in Hilbert's sixth problem to be solved. 
+
+[[William Lawvere]] has worked his hole life on the problem of axiomatizin [[classical mechanics|classical]] [[continuum mechanics]].
+
+We now follow his steps and then improve.
+
+
+## Mapping spaces in gauge theory and General covariance 
+ {#HigherMappingSpaces}
+
+Lawvere's starting point was the observation that central to the formulation of physics is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]].
+
+Indeed, generically a [[physical system]] is determined by 
+
+* a [[space]] $\Sigma$ called [[spacetime]] or [[worldvolume]]
+
+* a [[space]] $X$ called [[target space]] or [[field bundle]] etc.
+
+Such that a [[trajectory]] or [[physical field|field configurations]] is a map
+
+$$
+  \Sigma \longrightarrow X
+  \,.
+$$
+
+For instance $\Sigma = \mathbb{R}$ the abstract [[worldline]] and $X$ [[spacetime]], then $\Sigma \to X$ is the [[trajectory]] of a [[particle]] in [[spacetime]].
+
+Hence the [[mapping space]] $[\Sigma,X]$ is the space of all trajectories, [[path space]] the domain of the infamous [[path integral]].
+
+Lawvere observed that this not only needs to exist as a decent "space", it also needs to satisfy the axiom of an [[internal hom]]. Because if we split
+
+$$
+  \Sigma = \mathbb{R} \times \Sigma_{d-1}
+$$
+
+into [[space]] and [[time]], then we want that spacetime field configurations
+
+$$
+  \mathbb{R} \times \Sigma_{d-1} \longrightarrow X
+$$
+
+are the same as trajectories of fields on space
+
+$$
+  \mathbb{R}  \longrightarrow [\Sigma_{d-1}, X]
+  \,.
+$$
+
+But acutally in physics one needs a bit more than this. Physics is fundamental governed by [[gauge equivalence]], which means that there is no sense in askking if field consigurations are equal, we must ask if they are [[equivalence|equivalent]].
+
+A fundamental example of this is Einstein [[general covariance]].
+
+This says that if 
+
+$$
+  s \;\colon\; U \hookrightarrow \Sigma
+$$
+
+is a region in spacetime, and $\phi \colon \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma$ is a [[diffeomorphism]], then
+
+$$
+  \phi^\ast s \;\colon\; U \hookrightarrow \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma
+$$
+
+is "the same" region. Stated this way in ordinary [[topos theory]] this is confusing, and historically it was confusing. This is essentially the famous "[[hole paradox]]".
+
+But this is recolved in [[higher topos theory]]. Here a [[space]] $S$ is a [[groupoid]] or [[homotopy type]]. This means that it is not sensible to ask if two maps into it are equal, but between any two maps there is a space of equivalences between them.
+
+For general covariance this means by the above that spacetime is not actually a manifold $\Sigma$, but is actually the [[action groupoid]]/[[quotient stack]]
+
+$$
+  \Sigma//Diff(\Sigma)
+$$
+
+This is [[general covariance]]. 
+
+
+But now this means we also need to consider the [[mapping spaces]] in higher topos theory. A basic fact is
+
+$$
+  \left(
+  \array{
+    \Sigma &\longrightarrow& \Sigma//Diff(\Sigma)
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}Diff(\Sigma)
+  }
+  \right)
+  \;\;
+  \in
+  \;\;
+  \mathbf{H}_{/\mathbf{B}Diff(\Sigma)}
+  \simeq Diff(\Sigma)Act(\mathbf{H})
+  \,.
+$$
+
+Lawvere also introduced [[categorical logic]] and understood [[dependent product]] $\prod$ and [[dependent sum]] $\sum$ as [[base change]].
+
+Using this we have the mapping space of fields
+
+
+$$
+  \mathbf{B}Diff(\Sigma)
+  \;\;
+   \vdash
+  \;\;
+   \left[
+     \Sigma//Diff(\Sigma)
+     \,,\;
+      X
+   \right]
+$$
+
+and 
+
+Theorem: down in the absolute context 
+
+$$
+   \vdash
+  \;\;
+   \underset{\mathbf{B}Diff(\Sigma)}{\sum}
+   \left[
+     \Sigma//Diff(\Sigma)
+     \,,\;
+      X
+   \right]
+   \;\;
+   \simeq
+   \;\;
+   [\Sigma, X]//Diff(\Sigma)
+  \,.
+$$
+
+This is the famous insight of Einstein. Derived by lifting Lawvere's argument about mapping spaces from topos theory to higher topos theory.
+
+
+
+## Toposes of laws of motion and Hamilton-Jacobi-Lagrange mechanics
 
 
 In ([Lawvere 97](#Lawvere97)) it was observed that [[equations of motion]] in [[physics]] can (almost, see below) be formalized in [[synthetic differential geometry]] as follows.
@@ -68,10 +217,9 @@ is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi
 
 
 
-[[!redirects toposes of laws of motion]]
 
 
-## Quantization by higher intensive/intensive duality
+## Extensive/intensive duality and Cohomological quantization
 
 
 ...
@@ -79,6 +227,39 @@ is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi
 [[intensive and extensive]] becomes [[motivic quantization]]
 
 ...
+
+
+## Applications -- What is it all good for?
+
+### Non-perturbative quantization of Poisson manifolds 
+
+ [[higher geometric quantization of 2d Chern-Simons theory]]
+
+[[symplectic groupoid]] of [[adjoint representation]] is 
+
+
+universal [[orbit method]]
+
+
+### Fine-structure of quantum anomaly cancellation in 2d QFT
+
+The first thing to notice is that quantum field theory is
+a subject richer than often realized. 
+
+perturbation theory to nonperturbative
+
+higher gauge fields in string theory
+
+FDM: background RR+B field cocycle in twisted differential K-theory
+
+was not available
+
+BNV: realizable in stable cohesion.
+
+Central for the discussion of 2d QFT. 
+The infamous "[[landscape of string theory vacua]]" is essentially
+the moduli space of certain 2d field theories satisfying consistency  conditions like this.
+
 
 
 ## References
