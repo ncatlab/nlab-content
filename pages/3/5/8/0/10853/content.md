@@ -31,7 +31,7 @@ This page collects links related to the lecture note
 
 on the formulation of [[differential equations]]/[[continuum mechanics]] in [[synthetic differential geometry]].
 
-Related texts on the [[foundations]] of [[physics]] in [[topos theory]] include the collection _[[Categories in Continuum Physics]]_.
+Another early text in this direction is Lawvere's _[[Categorical dynamics]]_. Related texts on the [[foundations]] of [[physics]] in [[topos theory]] include the collection _[[Categories in Continuum Physics]]_.
 
 Entries with related discussion include _[[geometry of physics]]_ and _[[higher category theory and physics]]_.
 
