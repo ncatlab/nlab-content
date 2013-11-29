@@ -391,8 +391,12 @@ For more see the references at _[[multisymplectic geometry]]_, at _[[n-plectic g
 
 [[!redirects Hamilton-de Donder-Weyl equation]]
 [[!redirects Hamilton-de Donder-Weyl equations]]
+[[!redirects Hamiltoni-De Donder-Weyl equations]]
 
 [[!redirects de Donder-Weyl equation]]
 [[!redirects de Donder-Weyl equations]]
 
 [[!redirects de Donder-Weyl formalism]]
+
+[[!redirects Hamiltoni-de Donder-Weyl equations of motion]]
+[[!redirects Hamiltoni-De Donder-Weyl equations of motion]]
