@@ -38,7 +38,7 @@ An open question concerning the characterization of "Toposes of laws of motion" 
 * _Open problems in topos theory_, April 2009 ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
 
 
-Entries with related discussion include _[[geometry of physics]]_ and _[[higher category theory and physics]]_.
+Entries with related discussion include _[[geometry of physics]]_ and _[[higher category theory and physics]]_. Refinement to [[higher topos theory]] is discussed at _[[Higher toposes of laws of motion]]_.
 
 
 category: reference
