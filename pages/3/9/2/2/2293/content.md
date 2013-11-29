@@ -20,60 +20,44 @@
 
 ## Idea
 
-Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]] (or equivalently when working over a base [[field]] of [[characteristic zero]], [[dg-algebra|commutative dg-rings]]), or [[E-∞ rings]].
+Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]] (or equivalently when working over a base [[field]] of [[characteristic zero]], [[dg-algebra|commutative dg-rings]]), or [[E-∞ rings]].  The former approach has been developed by [[Bertrand Toen]] and [[Gabriele Vezzosi]], and the latter by [[Jacob Lurie]].  Both are known to be equivalent, up to some minor differences.
 
-In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a kind of [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]].  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Hirschowitz]] and [[Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as the next step in this natural progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]], or by the category of [[E-∞ rings]].  Hence a [[derived stack]] over $k$ is a kind of functor
+In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a kind of [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]].  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Carlos Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as the next step in this natural progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]], or by the category of [[E-∞ rings]].  Hence a [[derived stack]] over $k$ is a kind of functor
 
 $$ X : SAlg_k \to SSet. $$
 
-The term _derived algebraic geometry_ sometimes also refers to the study of [[derived categories of coherent sheaves]] on [[varieties]].  This is related to [[noncommutative algebraic geometry]] and to [[derived noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]] or a [[(∞,1)-category|(∞,1)-categorical]] [[DG enhancement|enhancement]].
+The term _derived algebraic geometry_ sometimes also refers to the study of [[derived categories of coherent sheaves]] on [[varieties]] ([[Alexei Bondal]], [[Dmitri Orlov]], ...).  This is related to [[noncommutative algebraic geometry]] and to [[derived noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]] (or [[derived category of quasi-coherent sheaves]]) or a [[stable (∞,1)-category|(∞,1)-categorical]] [[DG enhancement|enhancement]] thereof.
 
 ## Motivation
 
-The subject of  __derived algebraic geometry__ stem from (related)
-attempts to
+There are several motivations for the study of derived algebraic geometry.
 
-1. (cf. [Tabuada](#TabuadaBuenosAires), [Kontsevich, Enumeration 1994](#KontsevichEnum)) to generalize the algebraic geometry allowing the notion of derived [[moduli space]]s (moduli stacks if you wish), which extend or replace the usual [[moduli space]]s. The classical moduli spaces are in some cases their truncations. Locally these moduli spaces should correspond to the deformation theory problem which geometrically 
-realizes the [[cotangent complex]] for the deformation problem; 
-the derived moduli spaces often exhibit smoothness which is lost
-at the truncated level ([[hidden smoothness principle]]).  This should make sense to the virtual fundamental class and virtual dimension to moduli spaces related to GW and Donaldson-Thomas invariants.
+1.  The [[hidden smoothness principle]] of [[Maxim Kontsevich]], which conjectures that in classical [[algebraic geometry]], the non-[[smoothness]] of certain [[moduli spaces]] is a consequence of the fact that they are in fact truncations of [[derived moduli stacks]] (which are [[smooth]]).
 
-1. to correct the intersection theory to a derived version, which would relax special position/transversality requirements and make the (co)homological formulas for intersection multiplicities (cf. [[Serre intersection formula]], [Kontsevich, Enumeration 1994](#KontsevichEnum) 1.4.2) more natural. 
+1.  Universal [[elliptic cohomology]] ([[topological modular forms]]).  See [below](#elliptic_cohomology_29).
 
-1. (for noncommutative flavour) to study the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent sheaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school; more generally a "derived" variety is defined as an $A_\infty$-category with certain good properties (analogues of proper, smooth etc.), Fukaya category of a symplectic manifold gives an example.   
+1.  [[Intersection theory]]: a [[geometric]] interpretation of the [[Serre intersection formula]] for non-[[flat]] [[intersections]].
 
+1.  [[Deformation theory]]: a [[geometric]] interpretation of the [[cotangent complex]].  (In derived algebraic geometry, the [[cotangent complex]] $\mathbf{L}_X$ of $X$ _is_ its [[cotangent space]].
+
+For more detail on the final two points, see [(Vezzosi, 2011)](#VezzosiWhatIs).
+
+## History
+
+The original approach to derived algebraic geometry was via [[dg-schemes]], introduced by [[Maxim Kontsevich]].  Using [[dg-schemes]], [[Ionut Ciocan-Fontanine]] and [[Mikhail Kapranov]] constructed the first [[derived moduli spaces]] (derived [[Hilbert scheme]] and derived [[Quot scheme]]).
+
+[[Bertrand Toen]] and [[Gabriele Vezzosi]] developed [[homotopical algebraic geometry]], which is [[algebraic geometry]] in any [[HAG context]], i.e. over any [[symmetric monoidal model category]] satisfying certain assumptions.  As special cases they recover the [[algebraic geometry]] of [[Grothendieck]] and the [[higher stacks]] of [[Carlos Simpson]], and also develop new theories of [[derived algebraic geometry]], [[complicial algebraic geometry]], and [[brave new algebraic geometry]].
+
+[[Jacob Lurie]] developed a version of derived algebraic geometry which is locally modelled on [[E-∞ rings]].  The derived algebraic geometries of Toen-Vezzosi and of Lurie turn out to be equivalent, up to minor differences.  Their approaches differ in that the former is based on [[homotopy theory]], in the sense that it uses the language of [[model toposes]], while the latter is based on [[higher category theory]] and uses the language of [[structured (∞,1)-topos]]es.
+ 
 ## Terminology "derived" versus "$\infty$-"
 
 The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-category]], so this is higher algebraic geometry in the sense being locally represented by higher algebras. The word stems from the use of "derived" as in [[derived functor]]. This came from the study of derived moduli problem. Namely to parametrize the moduli, one first looks at some space of "cochains" which are candidates for structures to parametrize. then one cuts those which indeed satisfy the axioms ("equations") for the structures. Satisfying these equations is a limit-type construction, hence left exact and one is lead to right derived functors to improve;
 exactness on the right; this leads to use cochain complexes.
 The obtained moduli is too big as there are many isomorphic structures, so one needs to quotient by the automorphisms; this is a colimit type construction hence right exact. The improved quotient is the left derived functor, what is obtained by passing to stacks. 
 
-## Idea of formalisms
-
-Cohomological information of a scheme leads to replacing variety by a stable $(\infty,1)$-category of objects which generalize quasicoherent sheaves. The traditional variant are the enhanced triangulated categories or $A_\infty$-categories. This is usually
-called [[derived noncommutative algebraic geometry]].
-
-The derived moduli spaces are realized by as 
-derived stacks locally representable by commutative dgas. 
-
-## History
-
-### Some history for the derived moduli spaces
-
-On the other hand there is a closely related effort to include sheaves of commutative [[dg-algebra]]s as [[structure sheaf|structure sheaves]] (dg-schemes of Kapranov, Ciocan-Fontaine, and [[Kontsevich]]) and more generally to allow [[higher category theory|higher categorical]] [[structured (infinity,1)-topos|structured spaces]] of algebraic type, generalizing [[algebraic stack]]s, [[scheme]]s and [[algebraic space]]s. This is a [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]] is also called derived algebraic geometry. Notice that in that sense, there is no loss of information in a passage from a scheme to its natural extension to a derived scheme. 
-
-This second school has been, after the original ideas of Deligne, Drinfel'd and Kontsevich advanced by [[Carlos Simpson]] (who introduced also basic prerequisited like algebraic and geometric [[infinity-stack|n-stack]]s), and later [[Bertrand Toen]] and coworkers. One of the main motivations for both variants of derived algebraic geometry is to develop a satisfactory deformation theory and on its basis the theory of [[moduli stack]]s in [[algebraic geometry]] beyond the few examples which work in classical language of algebraic spaces and algebraic 1-stacks. 
-
-Sometimes, but not always getting rid of limitations coming from 1-categorical truncations removes non-smoothness, but the expectations in that directions (hidden smoothness principle) failed in generality expected at the beginning. The construction of the derived moduli spaces relies, similarly to the classical moduli theory in algebraic geometry, on the infinitesimal case -- the [[deformation theory]] (cf. [[cotangent complex]]).
- 
-## relation to higher algebra ##
-
-Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]], derived algebraic geometry uses [[higher algebra]]. Where ordinary algebraic geometry uses [[scheme]]s modeled on [[commutative ring]]s, derived algebraic geometry uses [[structured (∞,1)-topos]]es modeled on [[E-∞ ring]]s  and noncommutative derived algebraic geometry models on A-infinity rings, but no topos theory is developed there. 
-
 
 ## Definitions
-
-For the [[derived noncommutative geometry]] see there. 
 
 ### structured $(\infty,1)$-toposes ##
 
@@ -90,11 +74,7 @@ This definition is based on the observation that it is a deficiency of the ordin
 
 ## Applications 
 
-### Homological mirror symmetry
-
-[[Gromov-Witten invariant]]s and homological mirror symmetry is one of the main motivations and statements of the [[derived noncommutative algebraic geometry]] via $A_\infty$-categories, see there for references. It also lead to the study of derived moduli spaces ([Kontsevich, Enumeration 1994](#KontsevichEnum)) developed later by Kapranov, To&#235;n, Lurie and others. 
-
-### Elliptic cohomology ##
+### Elliptic cohomology
 
 More recent big success of derived algebraic geometry locally modeled on $E_\infty$-rings was [[elliptic cohomology]] and the construction and study of the [[tmf]] [[spectrum]] as a certain derived moduli  "of derived elliptic curves". This construction of moduli space is based on earlier Lurie result (not available in full) in which Lurie has proved an analogue of the Artin's representability theorem from the algebraic geometry of Grothendieck school. For more on that see
 
@@ -102,50 +82,43 @@ More recent big success of derived algebraic geometry locally modeled on $E_\inf
 
 ## Related concepts
 
+* [[homotopical algebraic geometry]]
 * [[E-∞ geometry]]
-
+* [[dg-geometry]]
+* [[brave new algebraic geometry]]
+* [[higher stacks]]
 * [[higher differential geometry]]
+* [[derived category of coherent sheaves]]
+* [[derived noncommutative algebraic geometry]]
 
 ## References 
 
-A prediction of derived moduli spaces is spelled out (in a bit different language) in
+For references on [[dg-schemes]], the historical precursor to [[derived stacks]], see there.
 
-* M. Kontsevich, _Enumeration of rational curves via torus actions_. The moduli space of curves (Texel Island, 1994), 335--368, Progr. Math. __129__, Birkh&#228;user 1995. MR1363062 (97d:14077), [hep-th/9405035](http://arxiv.org/abs/hep-th/9405035).
-{#KontsevichEnum}
+### Approach of To&#235;n-Vezzosi
 
-An early variant, the _[[dg-scheme]]s_, were used to construct some derived moduli spaces for the first time in the works of Kapranov and Ciocan-Fontanine:
+The two main references are
 
-* M. Kapranov, _Injective resolutions of BG and derived moduli spaces of local systems_,  J. Pure Appl. Algebra  155  (2001),  no. 2-3, 167--179; [math/alg-geom/9710027](http://arxiv.org/abs/alg-geom/9710027), MR1801413 (2002b:18017)
- {#Kapranov}
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry I: topos theory_, 2002, [arXiv:math/0207028](http://arxiv.org/abs/math/0207028).
 
-* I. Ciocan-Fontanine, M. Kapranov, _Derived Hilbert scheme_ [math.AG/0005155](http://arxiv.org/abs/math/0005155), _Derived Quot scheme_, [math.AG/9905174](http://arxiv.org/abs/math/9905174)
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
 
-A survey of derived category apsect of the algebraic geometry and related physics (mirror symmetry, Landau-Ginzburg models) is
+In the first volume, they develop the theory of [[stacks]] over [[simplicially enriched sites]] and [[model sites]].  In the second, they develop [[linear algebra|linear]] and [[commutative algebra]] over [[symmetric monoidal model category|symmetric monoidal]] [[model categories]], and then apply the theory of the first volume to develop the theory of [[geometric stacks]] over a [[symmetric monoidal model category|symmetric monoidal]] [[model category]].
 
-* A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, and D-branes_ (Russian. Russian summary) Uspekhi Mat. Nauk 59 (2004), no. 5(359), 101--134; translation in
-Russian Math. Surveys 59 (2004), no. 5, 907--940 
-
-A major case when derived geometry in the first sense gives full information is given by a [[Bondal-Orlov reconstruction theorem|reconstruction theorem of Bondal-Orlov]]:
-
-* A. I. Bondal, D. O. Orlov, _Reconstruction of a variety from the derived category and groups of autoequivalences_, Compos. Math. 125 (2001), 327&#8211;344 [doi:10.1023/A:1002470302976](http://dx.doi.org/10.1023/A:1002470302976)
-
-* A. I. Bondal, D. O. Orlov, _Derived categories of coherent sheaves_, Proc. Internat. Congress of Mathematicians (Beijing, 2002)
-
-The higher stacks and algebraic stacks were pioneered by ideas of Simpson's school. Here is one of the first successes, used later by Toen et al.:
-
-* Andr&#233; Hirschowitz, Carlos Simpson, _Descente pour les n-champs (Descent for n-stacks)_, [math/9807049](http://arxiv.org/abs/math/9807049)
-
-Then the major systematic work is
+In the following lecture notes, they study in detail various [[derived moduli spaces]].
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
 NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [math.AG/0210407](http://arxiv.org/abs/math/0210407).
- {#ToenVezzosi}
+ {#TV-HAG-to-DAG}
 
-A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, lecture notes, 2006, [arXiv:math/0604504](http://arxiv.org/abs/math/0604504).
 
-* [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
-* [[Gonçalo Tabuada]], slides, [pdf](http://math.mit.edu/~tabuada/BuenosAires.pdf) Buenos Aires
-{#TabuadaBuenosAires}
+The following is a short exposition on some of the motivation behind derived algebraic geometry.
+
+* [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](www.ams.org/notices/201107/rtx110700955p.pdf&#8206;).
+{#VezzosiWhatIs}
+
+### Approach of Lurie
 
 A general theory of [[derived geometry]] is developed in 
 
@@ -168,18 +141,3 @@ with the algebraic theory developed in
 A discussion of derived algebraic geometry over [[E-infinity ring]]s is in 
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
- 
-A framework of derived noncommutative algebraic geometry in the language  of $A_\infty$-categories can be found in
-
-* L.Katzarkov, M.Kontsevich, T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
-{#KatzarkovKontsevichPantev}
-
-This formal aspect is supposedly related to the infinitesimal picture of the moduli stacks considered by Toen et al. and it generalizes more classical approaches to the [[deformation theory]] like Illusie's [[cotangent complex]] (cf. also [[perfect obstruction theory]] of Fantechi-Behrend). See also motivic aspects in the entry
-[[noncommutative motive]] and 
-
-* Maxim Kontsevich, Yan Soibelman, _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
-* [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, [arxiv/1108.3787](http://arxiv.org/abs/1108.3787)
-
-* Anatoly Preygel, _Thom-Sebastiani and duality for matrix factorizations_, [arxiv/1101.5834](http://arxiv.org/abs/1101.5834)
-
-* MathOverflow [why-are-derived-categories-natural-places-to-do-deformation-theory](http://mathoverflow.net/questions/111084/why-are-derived-categories-natural-places-to-do-deformation-theory/111365#111365).
