@@ -20,12 +20,13 @@
 
 ## Idea
 
-What has been called _derived algebraic geometry_ by ([Kapranov](#Kapranov)), ([To&#235;n-Vezzosi](#ToenVezzosi)), ([Lurie](#Lurie)) is [[higher geometry]] locally modeled on [[Isbell duality|formal duals]] of commutative [[simplicial rings]], [[dg-algebras]] and generally [[E-∞ rings]], hence the [[derived geometry]] refinement of traditional [[algebraic geometry]].
+Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]] (or equivalently when working over a base [[field]] of [[characteristic zero]], [[dg-algebra|commutative dg-rings]]), or [[E-∞ rings]].
 
-More generally, one may consider a derived version of [[noncommutative algebraic geometry]] represented by [[A-∞ categories]] ([Katzarkov-Kontsevich-Pantev](#KatzarkovKontsevichPantev)). 
+In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a kind of [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]].  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Hirschowitz]] and [[Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as the next step in this natural progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]], or by the category of [[E-∞ rings]].  Hence a [[derived stack]] over $k$ is a kind of functor
 
-Whereas "commutative" derived geometry over [[E-∞ rings]] is well described by [[(∞,1)-topos theory]], this is slightly insuficient for the noncommutative flavor.
+$$ X : SAlg_k \to SSet. $$
 
+The term _derived algebraic geometry_ sometimes also refers to the study of [[derived categories of coherent sheaves]] on [[varieties]].  This is related to [[noncommutative algebraic geometry]] and to [[derived noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]] or a [[(∞,1)-category|(∞,1)-categorical]] [[DG enhancement|enhancement]].
 
 ## Motivation
 
