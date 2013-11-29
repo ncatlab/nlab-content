@@ -1,4 +1,4 @@
-Projection (or: projection-valued) measures are operator-valued [[measures]] of a special type. They appear for example in the theory of reproducing kernel [[Hilbert spaces]], [[coherent states]] and the foundations of [[quantum mechanics]]. A projection measure is used to parametrize a complete family of [[projection operator]]s by subsets of some parameter space.  
+Projection (or: projection-valued) measures are operator-valued [[measures]] of a special type. They appear for example in the theory of [[reproducing kernel]] [[Hilbert spaces]], [[coherent states]] and the foundations of [[quantum mechanics]]. A projection measure is used to parametrize a complete family of [[projection operator]]s by subsets of some parameter space.  
 
 Given a set $X$ and some $\sigma$-algebra $B$ of subsets of $X$, with $X\in B$, and a complex Hilbert space $H$, a map $P: B\to End H$ is called a __projection-(valued) measure__ on $B$ with values in $End H$ if
 
