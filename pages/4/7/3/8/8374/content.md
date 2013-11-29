@@ -13,3 +13,6 @@
 * [[Hilbert space]]
 
 category: people
+
+
+[[!redirects Hilbert]]
