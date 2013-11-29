@@ -1,7 +1,8 @@
 
-> In ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)) is proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page gives an introductory survey of the refinements possible when lifting from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]].
+> In ([Lawvere 67](#Lawvere67), [Lawvere 86](#Lawvere86), [Lawvere 97](#Lawvere79)) was proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page here gives an introductory survey of the refinements possible when lifting this from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]] and of the applications of the resulting formalism to [[quantum field theory]].
 
-> under construction
+> This text originates in a talk at the _[Eighth Scottish Category Theory Seminar](http://homepages.inf.ed.ac.uk/als/SCT/sct131129.html)_. Accordingly, these notes amplify aspects of [[category theory]] and [[topos theory]] and generally stick to a [[William Lawvere|Lawverian]] perspective. 
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,6 +14,10 @@
 #### $(\infty,1)$-Topos Theory
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
@@ -31,9 +36,9 @@ Whether true or not, one of the three was [[David Hilbert]]. He made sure every 
 
 classical Einstein gravity is simply the study of the [[critical points]] of the [[integral]] of the [[scalar curvature]] [[density]] [[action functional|functional]] on the [[moduli space]] of [[pseudo-Riemannian metrics]] on [[spacetime]].
 
-By realizing this mathematical formalization of what [[Einstein]] did, [[Hilbert]] was able to essentially scoop him, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
+By trusting that a fundamental theory of physics should have a fundamental formulation in mathematics, [[Hilbert]] was able to essentially scoop Einstein, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
 
-To promote this success, in his famous list of [[Hilbert's problems]] in mathematics, from 1900, [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
+Hilbert had promoted this general idea before as part of the famous eponymous _[[Hilbert's problems]] in mathematics, from 1900. Here [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
 
 Since then a list of such axiomatizations has been found, for instance
 
@@ -70,7 +75,7 @@ Grandiose as this plan is, we have to note that in the above form it falls short
 1. modern [[physics]] goes beyond [[classical mechanics|classical]] [[continuum physics]]; at high [[energy]] (small distance) classical physics is refined by [[quantum physics]], specifically by [[quantum field theory]].
 
 
-Therefore what is needed is a foundation of [[high energy physics]] in [[higher differential geometry]] formulated in [[higher topos theory]].
+Therefore what is needed is a foundation of  [[high energy physics]]  in [[higher differential geometry]] formulated in [[higher topos theory]].
 
 In the following we illustrate three aspects of such a refined theory, following ([dcct](#dcct), [sythQFT](#syntheticQFT)). We close by indicating how this theory serves to solve subtle open problems in modern [[quantum field theory]] and [[string theory]].
 
@@ -268,20 +273,49 @@ Of course this is not quite yet what is actually used and needed in physics.  On
 
 > But what about actual dynamical systems in the spirit of [[Galileo]], for example, second-order ODE's? (Of course, the [[symplectic geometry|symplectic]] or [[Hamiltonian mechanics|Hamiltonian systems]] that are also much studied do address this question of states of [[becoming|Becoming]] versus locations of [[being|Being]], but in a special way which it may not be possible to construe as a topos;
 
-It turns out that it does exist as a "[[higher topos theory|higher topos]]".
+We observe now (following _[[schreiber:Classical field theory via Cohesive homotopy types]]_) that it does exist as a "[[higher topos theory|higher topos]]".
 
-In _[[schreiber:Classical field theory via Cohesive homotopy types]]_ it is observed that if $\mathbf{H}$ is not just a [[topos]] but an [[(infinity,1)-topos|infnity-topos]], then genuine [[classical mechanics]] governed by [[Hamilton's equations]] and [[Hamilton-Jacobi theory]] arises by actions of $\mathbb{R}$ on objects in the [[slice (infinity,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$, where $\mathbf{B}U(1)_{conn} \in \mathbf{H}$ is the [[moduli stack]] of [[circle group]]-[[principal connections]]. 
+First notice that in [[physics]] a [[phase space]] is not any space $X$, but is a space $X$ equipped with a closed [[differential 2-form]], a "[[presymplectic form]]". Speaking in terms of mapping spaces as above let $\mathbf{\Omega}^2_{cl}$ be the [[moduli space]] of closed 2-forms, then this means that a phase space is really a map
+
+$$
+  \array{
+    X 
+    \\
+    & \searrow
+    \\
+    && \mathbf{\Omega}^2_{cl}
+  }
+$$
+
+In fact this is still not quite the accurate statement. Rather a phase space is a "[[prequantization]]" of such data. This means the following.
+
+The [[circle group]] $S^1$ naturally [[action|acts]] on the space of [[differential 1-forms]] $\mathbf{\Omega}^1$ by 
+
+$$
+ \mathbf{\Omega^1} \times S^1 \longrightarrow \mathbf{\Omega}^1
+$$
+
+$$
+  (A, g) \mapsto A + \mathbf{d}log(g)
+  \,,
+$$
+
+where $\mathbf{d}$ is the [[de Rham differential]]. The resulting [[quotient stack]] we write
+
+$$
+  \mathbf{B}S^1_{conn} = \mathbf{\Omega}^1//S^1
+  \,.
+$$
+
+The [[de Rham differential]]  $\mathbf{d} \;\colon\; \mathbf{\Omega}^1 \longrightarrow \mathbf{\Omega}^2_{cl}$ descends to this quotient to yield a map
+
+$$
+  F_{(-)} \;\colon\; \mathbf{B}S^1_{conn} \longrightarrow \mathbf{\Omega}^2_{cl}
+  \,.
+$$
 
 
-> here goes a brief version of the discussion at _[[prequantized Lagrangian correspondence]]_):
-
-Here $\mathbf{B}U(1)_{conn} \simeq \mathbf{\Omega}^1//U(1)$.
-
-
-A [[presymplectic form]] on some $X$ is $\omega \;\colon\; X \longrightarrow \mathbf{\Omega}^2$
-
-
-A [[prequantization]] is
+A [[prequantization]] of a [[presymplectic form]] is a lift $\nabla$ through this map
 
 $$
   \array{
@@ -291,20 +325,41 @@ $$
     \\
     && \mathbf{\Omega}^2
   }
+  \,.
 $$
 
-We find
+Now suppose $\omega$ is actually a [[symplectic form]]. Then:
+
+**Theorem.** Concrete actions of $\mathbb{R}$ on $(X, \nabla) \in \mathbf{H}_{/\mathbf{B}S^1_{conn}}$ are equivalent to "[[Hamiltonians]]" $H \in [X,\mathbb{R}]$, where under the equivalence an element $t \in \mathbb{R}$ is sent to the slice automorphism
 
 $$
+  \array{       
+    X && \stackrel{\exp(t \{H,-\})}{\longrightarrow} && X
+    \\
+    & {}_{\mathllap{\theta}} \searrow 
+    & \swArrow_{\exp( i S_t  )} & \swarrow_{\mathrlap{\theta}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+  \,,
+$$
+
+where $\exp(t \{H,-\})$ denotes the [[flow]] of [[Hamilton's equations of motion]] induced by $H$ and where $S_t = \int_0^t L \, d t$ is the [[Hamilton-Jacobi action]] given by the [[integration|integral]] of the [[Lagrangian]] $L$ (the [[Legendre transform]] of $H$). 
+
+This statement subsumes the core incredients of [[classical mechanics]]. See at _[[prequantized Lagrangian correspondence]]_ for details.
+
+In conclusion we find that $\mathbb{R}$-[[actions]] in the higher slice topos $\mathbf{H}_{/\mathbf{B}S^1_{conn}}$ over the [[moduli stack]] of [[circle group]]-[[principal connections]] are equivalent to actual [[laws of motion]] in [[classical mechanics]]
+
+$$
+  LawsOfMotion(\mathbf{H})
+  \simeq
   \mathbb{R}Act\left(
-    \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
+    \mathbf{H}_{/\mathbf{B}S^1_{conn}}
   \right)
+  \,.
 $$
 
-is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi [[classical mechanics]]. For more on this see _[[Higher toposes of laws of motion]]_.
-
-
-
+More precisely, this applies to [[laws of motion]] in [[mechanics]]. One obtains more generally the [[Hamilton-de Donder-Weyl equations of motion]] of $n$-dimensional [[local field theory|local]] [[classical field theory]] by replacing $\mathbf{B} S^1_{conn}$ here with $\mathbf{B}^n S^1_{conn}$ ([Schreiber 13](#dcct), [Schreiber 13b](#Schreiber)).
 
 
 
@@ -340,11 +395,7 @@ Viewed this way, this naturally generalizes to the case where $\mathbf{H}$ is in
 
 More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corresponding extensive object is the $\chi$-twisted [[Thom spectrum]] $R_{\bullet + \chi}(X)$ and the intensive object is the $\chi$-[[twisted cohomology]] [[spectrum]] $R^{\bullet + \chi}(X) = [R_{\bullet+ \chi}(X),R]_{R Mod}$. See at _[[motivic quantization]]_ for how this appears in [[physics]].
 
-In particular ordinary [[quantum mechanics]] is recovered by settin 
-
-$R = $ [[KU]].
-
-([Nuiten 13](#Nuiten13))
+In particular ordinary [[quantum mechanics]] is recovered by settin $R = $ [[KU]], the [[complex K-theory]] [[spectrum]] ([Nuiten 13](#Nuiten13)).
 
 The [[monoidal (infinity,1)-category]] $KU Mod$ is the refined ambient home for $Hilb = \mathbb{C} Mod$ (used for [[finite quantum mechanics in terms of dagger-compact categories]]).
 
@@ -352,89 +403,102 @@ The [[monoidal (infinity,1)-category]] $KU Mod$ is the refined ambient home for 
 
 
 
-## An application -- What is it all good for?
+## Application: Cohesion and Superstring anomaly cancellation
 
 
-On first sight, formalization of [[physics]] in ([[higher topos theory|higher]]) [[topos theory]] might seem like a fruitless exercise. But indeed on the contrary, it is hardly possible to understand the deep structure of [[quantum field theory]] without such ([[geometric homotopy theory|geometric]]) [[homotopy theory]].
+On first sight, formalization of [[physics]] in ([[higher topos theory|higher]]) [[topos theory]] might seem like a fruitless exercise. But on the contrary, it is hardly possible to understand the deep structure of [[quantum field theory]] without such ([[geometric homotopy theory|geometric]]) [[homotopy theory]].
 
 We close here by briefly indicating one example problem of recent interest, concerned with  the fine-structure of [[quantum anomaly cancellation]] in 2d [[QFT]].
 
-One reason why the need for geometric homotopy theory in QFT is not mentioned  in the bulk of the QFT literature is that the of the discussion of [[quantum field theory]] is in [[perturbation theory]] (both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
+One reason why the need for geometric homotopy theory in QFT is not mentioned  in the bulk of the QFT literature is that traditionally the bulk of the discussion of [[quantum field theory]] is in [[perturbation theory]] (perturbative both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
 
-Phenomena like [[quantum anomaly cancellation]] are intrinsically phenomena in [[homotopy theory]]/[[(infinity,1)-topos theory]].
+Phenomena that arise from the global structure of a [[moduli]] of [[field (physics)|field]] configurations in [[physics]] are alien to [[perturbation theory]], and hence hostorically they were called _[[quantum anomaly|anomalies]]_.
 
-For instance a famous quantum anomaly in 2-dimensional QFT is the [[Freed-Witten-Kapustin anomaly]]. It roughly implies that the [[RR-field]] is a [[cocycle]] in [[twisted K-theory]] twisted by the [[B-field]] which is a  [[cocycle]] in [[ordinary cohomology]].
+So these are phenomena which are intrinsically phenomena in [[homotopy theory]]/[[(infinity,1)-topos theory]].
 
-But this is not the full story. Actually the [[RR-field]] is a [[cocycle]] in [[twisted cohomology|twisted]] [[differential K-theory]] twisted by the 
+For instance a famous quantum anomaly in 2-dimensional [[QFT]] is the [[Freed-Witten-Kapustin anomaly]]. It is usually read out as follows:
+
+Just as above we saw that the basic example of a quantum field theory on $\Sigma = \mathbb{R}$ descibes the [[dynamics]] of a [[particle]], so the basic example of a quantum field theory on a 2-dimensional $\Sigma$ describes the dynamics of a [[string]]. This naturally feels [[forces]] excerted in particular by two [[background gauge fields]] called the _[[B-field]]_ and the _[[RR-field]]_.
+
+The global nature of these fields is more subtle than for, say, the [[electromagnetic field]], since they are [[higher gauge fields]]. To a first approximation one finds that the [[RR-field]] is a [[cocycle]] in [[twisted K-theory]], where the [[twisted cohomology|twist]] is the [[B-field]] which in turn is a  [[cocycle]] in [[ordinary cohomology]].
+
+But this is not the full story, in the full story these fields are cocycles in [[differential cohomology]]. The [[RR-field]] is a [[cocycle]] in [[twisted cohomology|twisted]] [[differential K-theory]] twisted by the 
 [[B-field]] which is a  [[cocycle]] in [[ordinary differential cohomology]].
 
-[[higher gauge fields]]
-
 In ([DFM 09](#DFM09)) is indicated the rich subtleties in the quantum anomaly consistency conditions on these [[background fields]], assuming that [[twisted differential K-theory]] exists with some properties, but without having constructed it.
-
-This is central for the discussion of 2d QFT. 
 
 The infamous "[[landscape of string theory vacua]]" is essentially
 the [[moduli space]] of certain 2d field theories satisfying consistency  conditions like this.
 
-The central problem in showing the existence of a [[differential cohomology]] theory is to show the "differential cohomology diagram"
+The central problem in showing the existence of a [[differential cohomology]] theory is to show that this cohomology theory sits inside a double square diagram called the "differential cohomology diagram".
 
-Then recently in 
+Now a miracle happens. After developing [[synthetic differential geometry]], Lawvere explored a more fundamental axiomatization of [[differential geometry]], which he called _[[cohesion]]_ ([Lawvere 94](#Lawvere94), [Lawvere 07](#Lawvere07) ) (Earlier: "being and becoming" ([Lawvere 91](#Lawvere91))). Slightly paraphrased, cohesion means that the ambient [[type theory]] is equipped with an [[adjoint triple]] of (co-)[[modalities]]
 
-([BunkeNikolausV&#246;lkl 13](#BunkeNikolausVoelkl13), [Bunke Nikolaus](#BunkeNikolaus)): realizable in [[tangent cohesion]].
+$$
+  \int \;\dashv\; \flat \;\dashv\; \sharp
+$$
 
-this was solved: this diagram exists universally for every object in [[tangent cohesion|stable]] [[cohesive (infinity,1)-topos]]
+called: [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]].
 
-
-
-For $\mathbf{H}$ a [[cohesive (∞,1)-topos]]
-every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}$ sits inside a [[diagram]] of the form
+This has an immediate extension to [[homotopy type theory]] ([[cohesive homotopy type theory]]). But there it has more dramatic consequences. In
+([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that on [[stable homotopy types]] $A$ cohesion implies that the canonical diagram formed from modality units and couunits 
 
 $$
   \array{
-    &&  \Pi_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
+    &&  \int_{dR} \Omega A && \longrightarrow && \flat_{dR}\Sigma A
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_A}} && \searrow
     \\
-    \flat \Pi_{dR} \Omega A  && && A && && \Pi \flat_{dR}\Sigma A
+    \flat \int_{dR} \Omega A  && && A && && \int \flat_{dR}\Sigma A
     \\
-    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\Pi \theta_A}}
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\int \theta_A}}
     \\
-    && \flat A && \longrightarrow && \Pi A
+    && \flat A && \longrightarrow && \int A
   }
   \,,
 $$
 
-where the two squares are [[homotopy pullback]] squares and the two diagonals are the [[fiber sequences]] of the [[Maurer-Cartan form]] $\theta_A$ and its dual.
+is guaranteed to consist of [[homotopy pullback]] squares, by the nature of [[adjoint triples]] of [[modalities]] (See at _[[tangent cohesion]]_ for more on this). 
 
+In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) is is found that this is universally the "differential cohomology diagram" which hence exhibits _every_ [[stable homotopy type]] $A$ in [[cohesive homotopy type theory]] as a [[differential cohomology theory]], hence as the [[moduli stack]] for abelian [[higher gauge fields]] in [[quantum field theory]].  Hence [[cohesive homotopy type theory]] is a universal ambient context for [[differential cohomology]] and hence for [[higher gauge fields]] appearing in [[quantum field theory]] -- whence the title "[[schreiber:differential cohomology in a cohesive topos]]".
 
-The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiagram} are the canonical [points-to-pieces transform](cohesive%20topos#CanonicalComparison).
-
-
+Using this and the [[twisted cohomology]] available in [[tangent cohesion]] ([Bunke-Nikolaus](#BunkeNikolaus)) show the existence of [[twisted differential K-theory]], the way it needs to exist for 2d QFT to be consistent.
 
 
 ## References
 
 
-* [[William Lawvere]] _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+* [[William Lawvere]], _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
  {#Lawvere67}
 
 * [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
  {#Lawvere86}
 
+* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
+ {#Lawvere91}
+
+* [[William Lawvere]] _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+  {#Lawvere94}
+
 
 * [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
  {#Lawvere97}
 
-* _[[schreiber:Classical field theory via Cohesive homotopy types]]_
+* [[William Lawvere]], _Axiomatic cohesion_, Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+ {#Lawvere07}
 
-* _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+ 
+* [[Urs Schreiber]] _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
  {#dcct}
 
-* _[[schreiber:Synthetic Quantum Field Theory]]_
+* [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_ ([arXiv:1311.1172](http://arxiv.org/abs/1311.1172))
+ {#Schreiber13b}
+
+* [[Urs Schreiber]] _[[schreiber:Synthetic Quantum Field Theory]]_
  {#syntheticQFT}
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, 2013
  {#Nuiten13}
 
 
@@ -442,9 +506,8 @@ The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiag
  {#DFM09}
 
 
-
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
   {#BunkeNikolausVoelkl13}
 
-* [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, in preparation
  {#BunkeNikolaus}
