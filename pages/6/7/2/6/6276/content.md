@@ -60,6 +60,12 @@ of strictly positive integers whose sum $s_1 +\ldots+s_{2r} = N$.
 
 Hausdorff series satisfies the symmetry $H(-Y,-X) = -H(X,Y)$.
 
+First few terms of Hausdorff series are
+
+$$
+H(X,Y) = X + Y + \frac{1}{2}[X,Y] + \frac{1}{12}([X,[X,Y]]+[Y,[Y,X]]) + \frac{1}{24}[Y,[X,[Y,X]] + \ldots
+$$
+
 ## Literature
 
 * [[N. Bourbaki]], _Lie groups and algebras_, chapter II
@@ -70,6 +76,7 @@ cf. [[Malcev completion]]
 
 * Anton Alekseev, Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [pdf](http://www.math.jussieu.fr/~torossian/AT1.pdf)
 
+category: algebra
 [[!redirects Baker-Campbell-Hausdorff series]]
 [[!redirects BCH formula]]
 [[!redirects Baker-Campbell-Hausdorff formula]]
