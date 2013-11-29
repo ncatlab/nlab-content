@@ -1,5 +1,5 @@
 
-> In ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)) is proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page gives an introductory survey of the refinements possible when lifting from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]].
+> In ([Lawvere 67](#Lawvere67), [Lawvere 79](#Lawvere79)) is proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page gives an introductory survey of the refinements possible when lifting from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]].
 
 > under construction
 
@@ -27,13 +27,13 @@
 
 Urban legend has it that there was a time when only three people understood [[Einstein]]'s [[theory (physics)|theory]] of [[classical field theory|classical]] [[gravity]] -- "[[general relativity]]". 
 
-Whether true or not, one of the three was [[David Hilbert]]. He made sure every beginning student today can understand [[general relativity]] by giving it a clear and precise (= rigorous) formalization in [[mathematics]]:
+Whether true or not, one of the three was [[David Hilbert]]. He made sure every beginning student today can understand [[general relativity]], he did so by giving it a clear and precise (= rigorous) formalization in [[mathematics]]:
 
 classical Einstein gravity is simply the study of the [[critical points]] of the [[integral]] of the [[scalar curvature]] [[density]] [[action functional|functional]] on the [[moduli space]] of [[pseudo-Riemannian metrics]] on [[spacetime]].
 
-In fact by realizing this mathematical formalization of what Einstein did, he was able to essentially scoop him, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
+By realizing this mathematical formalization of what [[Einstein]] did, [[Hilbert]] was able to essentially scoop him, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
 
-To promote this success, in his famous list of [[Hilbert's problems]] in mathematic, [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
+To promote this success, in his famous list of [[Hilbert's problems]] in mathematics, from 1900, [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
 
 Since then a list of such axiomatizations has been found, for instance
 
@@ -42,15 +42,16 @@ Since then a list of such axiomatizations has been found, for instance
 | [[mechanics]] | [[symplectic geometry]] |
 | [[gravity]] | [[Riemannian geometry]] |
 | [[gauge theory]] | [[Chern-Weil theory]] |
-| [[local quantum field theory]] | [[monoidal (∞,n)-category]] theory |
+| [[quantum mechanics]] | [[operator algebra]] |
+| [[TFT|topological]] [[local quantum field theory]] | [[monoidal (∞,n)-category]] theory |
 | $\vdots$ | $\vdots$ |
 
 Two aspects of this list are noteworthy: one the one hand, it contains crown jewels of mathematics, on the other the items appear unrelated and piecemeal.
 
 As a student, [[William Lawvere]] was exposed to the proposal to axiomatize [[thermodynamics]] as what was called "[[rational thermodynamics]]". He realized that a fundamental [[foundation]] of such [[continuum physics]] first of all requires a good foundation of [[differential geometry]] itself. 
-Looking over his life publication record (see [[William Lawvere|here]]) one sees that he pursued the following grand plan
+Looking over his life publication record (see [[William Lawvere|here]]) one sees that he pursued the following grand plan.
 
-**Plan**
+**Plan.**
 
 1. lay the [[foundations]] of [[mathematics]] in [[topos theory]] ("[[ETCS]]")
 
@@ -58,54 +59,50 @@ Looking over his life publication record (see [[William Lawvere|here]]) one sees
 
 1. lay the foundations of [[classical mechanics|classical]] [[continuum physics]] in [[synthetic differential geometry]] ([[toposes of laws of motion]]).
 
-Lawvere became famous for his groundbreaking contributions to the first two items ([[categorical logic]], [[topos theory|elementary topos theory]], [[algebraic theories]], [[synthetic differential geometry|SDG]]). For some reason the motivation of all this by the third item is not as widely recognized, even thought Lawvere continuously emphasized this third point, see the [list of quotations here](William%20Lawvere#MotivationFromFoundationsOfPhysics)).
+Lawvere became famous for his groundbreaking contributions to the first two items ([[categorical logic]], [[topos theory|elementary topos theory]], [[algebraic theories]], [[synthetic differential geometry|SDG]]). For some reason the motivation of all this by the third item is not as widely recognized, even thought Lawvere continuously emphasized this third point, see the [list of quotations here](William%20Lawvere#MotivationFromFoundationsOfPhysics).
 
-Here we are interested in understanding the totality of all three items.
-
-Grandiose as this plan is, we have to note that in the above form it falls short in each item:
+Grandiose as this plan is, we have to note that in the above form it falls short in each item, by modern standards:
 
 1. modern [[mathematics]] is naturally founded not in [[topos theory]]/[[type theory]], but in [[(infinity,1)-topos theory|higher topos theory]]/[[homotopy type theory]].
 
-1. modern [[geometry]] not just about "variable sets" ([[sheaves]]) but is is [[higher geometry]] about "variable [[homotopy types]]",  [[geometric homotopy types]] ([[stacks]]);
+1. modern [[geometry]] is not just about "variable sets" ([[sheaves]]) but is [[higher geometry]] about "variable [[homotopy types]]",  "[[geometric homotopy types]]", "[[infinity-stack|higher stacks]]";
 
-1. modern [[physics]] goes beyond [[classical mechanics|classical]] [[continuum physics]]; at high [[energy]] (small distance) classical physics is refined by [[quantum physics]].
+1. modern [[physics]] goes beyond [[classical mechanics|classical]] [[continuum physics]]; at high [[energy]] (small distance) classical physics is refined by [[quantum physics]], specifically by [[quantum field theory]].
 
 
 Therefore what is needed is a foundation of [[high energy physics]] in [[higher differential geometry]] formulated in [[higher topos theory]].
 
-Work in this direction is in ([dcct](#dcct)), a concise survey is in _[[schreiber:Synthetic Quantum Field Theory]]_. 
-
-In the following we illustrate three aspects fo the theory. We close by indicating how this theory serves to solve subtle open problems in modern [[quantum field theory]] and [[string theory]].
+In the following we illustrate three aspects of such a refined theory, following ([dcct](#dcct), [sythQFT](#syntheticQFT)). We close by indicating how this theory serves to solve subtle open problems in modern [[quantum field theory]] and [[string theory]].
 
 
 ## **I)** Mapping spaces in gauge theory and General covariance 
  {#HigherMappingSpaces}
 
-One basic point Lawvere emphasized early on is that central to the formulation of [[physics]] is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]]. 
+One basic point emphasized in ([Lawvere 67](#Lawvere67)) is that central to the formulation of [[physics]] is the existence of _[[mapping spaces]]_ which satisfy the [[exponential law]]. 
 
 (notice: [[mapping space]] ... space of [[trajectories]] ... [[path integral]])
 
-Indeed, generically a [[physical system]] is determined by 
+Indeed, generically a [[physical system]] is specified by
 
-* a [[space]] $\Sigma$ called _[[spacetime]]_ or _[[worldvolume]]_
+* a [[space]] $\Sigma$ called _[[spacetime]]_ or _[[worldvolume]]_;
 
 * a [[space]] $X$ called _[[target space]]_ or _[[field bundle]]_ or _[[moduli space]] of [[field (physics)|fields]]_.
 
-such that a [[trajectory]] or [[physical field|field configurations]] is a map
+such that a _[[trajectory]]_ or _history_ of [[physical field|field configurations]] is a [[map]]
 
 $$
   \Sigma \longrightarrow X
   \,.
 $$
 
-For instance $\Sigma = \mathbb{R}$ the abstract [[worldline]] and $X$ [[spacetime]], then $\Sigma \to X$ is the [[trajectory]] of a [[particle]] in [[spacetime]].
+For instance for $\Sigma = \mathbb{R}$ the abstract [[worldline]] and $X$ [[spacetime]], then $\Sigma \to X$ may be taken to be the [[trajectory]] of a [[particle]] in [[spacetime]].
 
-Hence the [[mapping space]] $[\Sigma,X]$ is the space of all trajectories, [[path space]] the domain of the infamous [[path integral]].
+Hence the [[mapping space]] $[\Sigma,X]$ is the space of all [[trajectories]] (the _[[path space]]_, famous as the [[domain]] of the infamous _[[path integral]]_).
 
-Lawvere observed that this not only needs to exist as a decent "space", it also needs to satisfy the axiom of an [[internal hom]]. Because if we split
+Lawvere observed that this not only needs to exist as a decent "space", it also needs to satisfy the axiom of an [[cartesian closed category|cartesian]] [[internal hom]]. Because if we consider a split
 
 $$
-  \Sigma = \mathbb{R} \times \Sigma_{d-1}
+  \Sigma \coloneqq \mathbb{R} \times \Sigma_{d-1}
 $$
 
 into [[time]] and [[space]], then we want that spacetime field configurations
@@ -118,43 +115,51 @@ are equivalently trajectories of fields on space
 
 $$
   \mathbb{R}  \longrightarrow [\Sigma_{d-1}, X]
+$$
+
+and also equivalently a collection of field trajectories for each point of space
+
+$$
+  \Sigma_{d-1}  \longrightarrow [\mathbb{R}, X]
   \,.
 $$
 
+
 This led Lawvere to recognize that physics ([[prequantum field theory|prequantum physics]], to be precise) is to be formulated in a [[cartesian closed category]], such as a [[topos]].
 
-But actually in modern physics one needs a bit more than this. Physics is fundamentally governed by [[gauge equivalence]], which means that there is no sense in askking if field consigurations are equal, we must ask if they are [[equivalence|equivalent]].
+The [[category]] $SmthMfd$ of [[smooth manifolds]] is too small to accomplish this. But the [[category of sheaves]] $Sh(SmthMdf)$ on the [[site]] of smooth manifolds is the canonical improvement. Objects in here include [[smooth manifolds]], also [[diffeological spaces]] and generall [[smooth spaces]]. 
 
-A fundamental example of this is Einstein [[general covariance]].
+Better still, there is the [[category of sheaves]] $Sh(FSmthMfd)$ on the site of  [[formal smooth manifolds]] -- known as the _[[Cahiers topos]]_ . This also contains [[infinitesimal objects]] and indeed interprets the [[axioms]] of [[synthetic differential geometry]]. 
 
-This says that if 
+But actually in modern physics one needs a bit more than this. Physics is fundamentally governed by [[gauge equivalence]], which means that there is no sense in askking if [[field (physics)|field]] configurations are equal, we must ask if they are [[equivalence|equivalent]].
+
+A fundamental example of this is [[Einstein]]'s notion of _[[general covariance]]_. This says that if 
 
 $$
   s \;\colon\; U \hookrightarrow \Sigma
 $$
 
-is a region in spacetime, and $\phi \colon \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma$ is a [[diffeomorphism]], then
+is a region in [[spacetime]], and $\phi \colon \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma$ is a [[diffeomorphism]] acting on spacetime, then the "translated region"
 
 $$
   \phi^\ast s \;\colon\; U \hookrightarrow \Sigma \stackrel{\simeq}{\longrightarrow} \Sigma
 $$
 
-is "the same" region. Stated this way in ordinary [[topos theory]] this is confusing, and historically it was confusing: is was called the "[[hole paradox]]".
+is "the same", for all physical purposes. Stated this way in ordinary [[topos theory]] this is confusing, and historically it was confusing: this confusion is essentially what is known as the "[[hole paradox]]".
 
-But this is resolved in [[higher topos theory]]. Here a [[space]] $S$ is a [[groupoid]] or [[homotopy type]]. This means that it is not sensible to ask if two maps into it are equal, but between any two maps there is a space of equivalences between them.
+This apparent [[paradox]] is resolved in [[higher topos theory]]. Here a [[space]] $S$ has internal symmetries, it is a _[[groupoid]]_, a _[[homotopy type]]_. This means that it is not sensible to ask if two maps into it are equal, but between any two maps there is a space of equivalences between them.
 
-For general covariance this means by the above that spacetime is not actually a manifold $\Sigma$, but is actually the [[action groupoid]]/[[quotient stack]]
+For [[general covariance]] this means by the above that spacetime is not actually the spacetime [[manifold]] $\Sigma$, but is the [[action groupoid]]/[[quotient stack]]
 
 $$
   \Sigma//Diff(\Sigma)
 $$
 
-of $\Sigma$ by its [[diffeomorphism group]] (regarded as a [[diffeological group]]).
+of $\Sigma$ by its [[diffeomorphism group]] (regarded as a [[diffeological group]]). By the very definition of "[[stack]]", this $\Sigma//Diff(\Sigma)$ is the thing which is such that maps $U \longrightarrow \Sigma//Diff(\Sigma)$ into it behave jsut as they should as demanded by general covariance. 
 
-This is the formalization of "[[general covariance]]". 
+This is the formalization of "[[general covariance]]" for regions _inside_ spacetime. The other thing now is general covariance for [[field (physics)|fields]] _on_ spacetime. It turns out that the formalism automatically handles these now:
 
-
-But now this means we also need to consider the [[mapping spaces]] in higher topos theory. A fundamental fact is that for $G \in Grp(\mathbf{H})$ [[group object in an (infinity,1)-category|group object]] then the [[slice (infinity,1)-topos|higher slice topos]] over its [[delooping]] is equivalently the collection of [[infinity-action|G-actions]]
+For notice that the abobve means now that we also need to consider the [[mapping spaces]] refined to  higher topos theory. A fundamental fact is that for $G \in Grp(\mathbf{H})$ [[group object in an (infinity,1)-category|group object]] then the [[slice (infinity,1)-topos|higher slice topos]] over its [[delooping]] is equivalently the collection of [[infinity-action|G-actions]]
 
 $$
   \mathbf{H}_{/\mathbf{B}G} \simeq G Act(\mathbf{H})
@@ -185,7 +190,7 @@ Lawvere also introduced [[categorical logic]] and understood [[dependent product
 
 [[!include homotopy type representation theory -- table]]
 
-Using this we have the mapping space of [[general covariance|covariant]] [[field (physics)|fields]]
+Using this we have the mapping space of [[general covariance|covariant]] [[field (physics)|fields]] formed in the [[context]] of $Diff(\Sigma)$-covariance/[[equivariance]]
 
 
 $$
@@ -200,9 +205,8 @@ $$
    \right]
 $$
 
-and 
 
-Theorem: down in the absolute [[context]]
+**Theorem.** Down in the absolute [[context]], under [[dependent sum]], this is
 
 $$
    \vdash
@@ -220,11 +224,15 @@ $$
   \,.
 $$
 
-This is the formalization of the famous insight of Einstein. Derived by lifting Lawvere's argument about mapping spaces from topos theory to higher topos theory.
+Here $[\Sigma, X]$ is the space of fields on spacetime as one would find it in ordinary topos theory, and $[\Sigma,X]//Diff(\Sigma)$ is its [[homotopy quotient]] by the [[action]] of the [[diffeomorphism group]] by pullback of fields. This is precisely the group of [[gauge equivalences]] on fields in [[general relativity]].
 
-So as a slogan we conclude that in the formalization of [[physics]] in [[(infinity,1)-topos theory|higher topos theory]] we have:
+So we obtain a formalization of the famous insight of [[Einstein]], derived by lifting [[Lawvere]]'s argument about [[mapping spaces]] in [[physics]] from [[topos theory]] to [[higher topos theory]].
+
+In a slogan we may conclude, in view of the above table, that in the formalization of [[physics]] in [[(infinity,1)-topos theory|higher topos theory]] we have:
 
 * _[[general covariance]] is homotopy [[coinvariants]]_
+
+in [[mapping spaces]].
 
 
 ## **II)** Toposes of laws of motion and Hamilton-Jacobi-Lagrange mechanics
@@ -265,6 +273,8 @@ It turns out that it does exist as a "[[higher topos theory|higher topos]]".
 In _[[schreiber:Classical field theory via Cohesive homotopy types]]_ it is observed that if $\mathbf{H}$ to be not just a [[topos]] but an [[(infinity,1)-topos|infnity-topos]], then genuine [[classical mechanics]] governed by [[Hamilton's equations]] and [[Hamilton-Jacobi theory]] arises by actions of $\mathbb{R}$ on objects in the [[slice (infinity,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$, where $\mathbf{B}U(1)_{conn} \in \mathbf{H}$ is the [[moduli stack]] of [[circle group]]-[[principal connections]]. 
 
 
+> here goes a brief version of the discussion at _[[prequantized Lagrangian correspondence]]_):
+
 Here $\mathbf{B}U(1)_{conn} \simeq \mathbf{\Omega}^1//U(1)$.
 
 
@@ -279,11 +289,11 @@ $$
     \\
     & {}_{\mathllap{\omega}}\searrow & \downarrow^{\mathrlap{F_{(-)}}}
     \\
-    \mathbf{\Omega}^2
+    && \mathbf{\Omega}^2
   }
 $$
 
-We find (details at _[[prequantized Lagrangian correspondence]]_):
+We find
 
 $$
   \mathbb{R}Act\left(
@@ -345,9 +355,11 @@ The [[monoidal (infinity,1)-category]] $KU Mod$ is the refined ambient home for 
 ## An application -- What is it all good for?
 
 
-Fine-structure of quantum anomaly cancellation in 2d QFT
+On first sight, formalization of [[physics]] in ([[higher topos theory|higher]]) [[topos theory]] might seem like a fruitless exercise. But indeed on the contrary, it is hardly possible to understand the deep structure of [[quantum field theory]] without such ([[geometric homotopy theory|geometric]]) [[homotopy theory]].
 
-the bulk of the discussion of [[quantum field theory]] is in [[perturbation theory]] (both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
+We close here by briefly indicating one example problem of recent interest, concerned with  the fine-structure of [[quantum anomaly cancellation]] in 2d [[QFT]].
+
+One reason why the need for geometric homotopy theory in QFT is not mentioned  in the bulk of the QFT literature is that the of the discussion of [[quantum field theory]] is in [[perturbation theory]] (both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
 
 Phenomena like [[quantum anomaly cancellation]] are intrinsically phenomena in [[homotopy theory]]/[[(infinity,1)-topos theory]].
 
@@ -371,11 +383,9 @@ Then recently in
 
 ([BunkeNikolausV&#246;lkl 13](#BunkeNikolausVoelkl13), [Bunke Nikolaus](#BunkeNikolaus)): realizable in [[tangent cohesion]].
 
-this was solved: this diagram exists unibversally for every object in [[tangent cohesion|stable]] [[cohesive (infinity,1)-topos]]
+this was solved: this diagram exists universally for every object in [[tangent cohesion|stable]] [[cohesive (infinity,1)-topos]]
 
 
-+-- {: .num_cor #TheDifferentialDiagram}
-###### Corollary
 
 For $\mathbf{H}$ a [[cohesive (∞,1)-topos]]
 every [[stable homotopy type]] $A \in Stab(\mathbf{H}) \hookrightarrow T \mathbf{H}$ sits inside a [[diagram]] of the form
@@ -397,14 +407,9 @@ $$
 
 where the two squares are [[homotopy pullback]] squares and the two diagonals are the [[fiber sequences]] of the [[Maurer-Cartan form]] $\theta_A$ and its dual.
 
-=--
-
-+-- {: .num_remark}
-###### Remark
 
 The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiagram} are the canonical [points-to-pieces transform](cohesive%20topos#CanonicalComparison).
 
-=--
 
 
 
@@ -423,10 +428,11 @@ The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiag
 
 * _[[schreiber:Classical field theory via Cohesive homotopy types]]_
 
-* _[[schreiber:differential cohomology in a cohesive topos]]_ ([1310.7930](http://arxiv.org/abs/1310.7930))
+* _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
  {#dcct}
 
 * _[[schreiber:Synthetic Quantum Field Theory]]_
+ {#syntheticQFT}
 
 * [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_
  {#Nuiten13}
@@ -440,6 +446,5 @@ The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiag
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
   {#BunkeNikolausVoelkl13}
 
-* [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differetial cohomology_
+* [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_
  {#BunkeNikolaus}
-
