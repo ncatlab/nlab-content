@@ -127,11 +127,11 @@ $$
 
 This led Lawvere to recognize that physics ([[prequantum field theory|prequantum physics]], to be precise) is to be formulated in a [[cartesian closed category]], such as a [[topos]].
 
-The [[category]] $SmthMfd$ of [[smooth manifolds]] is too small to accomplish this. But the [[category of sheaves]] $Sh(SmthMdf)$ on the [[site]] of smooth manifolds is the canonical improvement. Objects in here include [[smooth manifolds]], also [[diffeological spaces]] and generall [[smooth spaces]]. 
+The [[category]] $SmthMfd$ of [[smooth manifolds]] is too small to accomplish this. But the [[category of sheaves]] $Sh(SmthMdf)$ on the [[site]] of smooth manifolds is the canonical improvement. Objects in here include [[smooth manifolds]], also [[diffeological spaces]] and general [[smooth spaces]]. 
 
 Better still, there is the [[category of sheaves]] $Sh(FSmthMfd)$ on the site of  [[formal smooth manifolds]] -- known as the _[[Cahiers topos]]_ . This also contains [[infinitesimal objects]] and indeed interprets the [[axioms]] of [[synthetic differential geometry]]. 
 
-But actually in modern physics one needs a bit more than this. Physics is fundamentally governed by [[gauge equivalence]], which means that there is no sense in askking if [[field (physics)|field]] configurations are equal, we must ask if they are [[equivalence|equivalent]].
+But actually in modern physics one needs a bit more than this. Physics is fundamentally governed by [[gauge equivalence]], which means that there is no sense in asking if [[field (physics)|field]] configurations are equal, we must ask if they are [[equivalence|equivalent]].
 
 A fundamental example of this is [[Einstein]]'s notion of _[[general covariance]]_. This says that if 
 
@@ -155,11 +155,11 @@ $$
   \Sigma//Diff(\Sigma)
 $$
 
-of $\Sigma$ by its [[diffeomorphism group]] (regarded as a [[diffeological group]]). By the very definition of "[[stack]]", this $\Sigma//Diff(\Sigma)$ is the thing which is such that maps $U \longrightarrow \Sigma//Diff(\Sigma)$ into it behave jsut as they should as demanded by general covariance. 
+of $\Sigma$ by its [[diffeomorphism group]] (regarded as a [[diffeological group]]). By the very definition of "[[stack]]", this $\Sigma//Diff(\Sigma)$ is the thing which is such that maps $U \longrightarrow \Sigma//Diff(\Sigma)$ into it behave just as they should as demanded by general covariance. 
 
 This is the formalization of "[[general covariance]]" for regions _inside_ spacetime. The other thing now is general covariance for [[field (physics)|fields]] _on_ spacetime. It turns out that the formalism automatically handles these now:
 
-For notice that the abobve means now that we also need to consider the [[mapping spaces]] refined to  higher topos theory. A fundamental fact is that for $G \in Grp(\mathbf{H})$ [[group object in an (infinity,1)-category|group object]] then the [[slice (infinity,1)-topos|higher slice topos]] over its [[delooping]] is equivalently the collection of [[infinity-action|G-actions]]
+For notice that the above means now that we also need to consider the [[mapping spaces]] refined to  higher topos theory. A fundamental fact is that for $G \in Grp(\mathbf{H})$ [[group object in an (infinity,1)-category|group object]] then the [[slice (infinity,1)-topos|higher slice topos]] over its [[delooping]] is equivalently the collection of [[infinity-action|G-actions]]
 
 $$
   \mathbf{H}_{/\mathbf{B}G} \simeq G Act(\mathbf{H})
@@ -262,7 +262,7 @@ $$
 
 of all $\mathbb{R}$-[[actions]] on objects in $\mathbf{H}$. This is again a [[topos]], and hence this is a first version of what one might call a _[[topos of laws of motion]]_.
 
-On the other hand, if we think of $X$ as [[configuration space]], then it is (in the simplest but common case of [[physical systems]]) a [[tangent vector]] in $X$ that determines a [[trajectory]], hence a point in $[D,X]$. There is the canonical projection $[\mathbb{R},X] \longrightarrow [D,X]$ from the smooth [[path space]] to the [[tangent bundle]], which sends each path to its [[tangent vector]]/[[derivative]] at $0 \in \mathbb{R}$. A [[section]] of this map is hence an assignment that sends each tangent vector to a [[trajectory]] which starts out with this tangent. Specifying such a section is hence part of what it means to have [[equations of motion]] in [[physics]]. Accordingly in _[[Toposes of laws of motion]]_ [[Lawvere]] called the collection of such data a Galilian [[topos of laws of motion]].
+On the other hand, if we think of $X$ as [[configuration space]], then it is (in the simplest but common case of [[physical systems]]) a [[tangent vector]] in $X$ that determines a [[trajectory]], hence a point in $[D,X]$. There is the canonical projection $[\mathbb{R},X] \longrightarrow [D,X]$ from the smooth [[path space]] to the [[tangent bundle]], which sends each path to its [[tangent vector]]/[[derivative]] at $0 \in \mathbb{R}$. A [[section]] of this map is hence an assignment that sends each tangent vector to a [[trajectory]] which starts out with this tangent. Specifying such a section is hence part of what it means to have [[equations of motion]] in [[physics]]. Accordingly in _[[Toposes of laws of motion]]_ [[Lawvere]] called the collection of such data a Galilean [[topos of laws of motion]].
 
 Of course this is not quite yet what is actually used and needed in physics.  On p. 9 of ([Lawvere 97](#Lawvere97)) this problem is briefly mentioned:
 
@@ -270,7 +270,7 @@ Of course this is not quite yet what is actually used and needed in physics.  On
 
 It turns out that it does exist as a "[[higher topos theory|higher topos]]".
 
-In _[[schreiber:Classical field theory via Cohesive homotopy types]]_ it is observed that if $\mathbf{H}$ to be not just a [[topos]] but an [[(infinity,1)-topos|infnity-topos]], then genuine [[classical mechanics]] governed by [[Hamilton's equations]] and [[Hamilton-Jacobi theory]] arises by actions of $\mathbb{R}$ on objects in the [[slice (infinity,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$, where $\mathbf{B}U(1)_{conn} \in \mathbf{H}$ is the [[moduli stack]] of [[circle group]]-[[principal connections]]. 
+In _[[schreiber:Classical field theory via Cohesive homotopy types]]_ it is observed that if $\mathbf{H}$ is not just a [[topos]] but an [[(infinity,1)-topos|infnity-topos]], then genuine [[classical mechanics]] governed by [[Hamilton's equations]] and [[Hamilton-Jacobi theory]] arises by actions of $\mathbb{R}$ on objects in the [[slice (infinity,1)-topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$, where $\mathbf{B}U(1)_{conn} \in \mathbf{H}$ is the [[moduli stack]] of [[circle group]]-[[principal connections]]. 
 
 
 > here goes a brief version of the discussion at _[[prequantized Lagrangian correspondence]]_):
