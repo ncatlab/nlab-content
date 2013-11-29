@@ -3,4 +3,4 @@ The [[hidden smoothness principle]] refers to the conjectural picture envisioned
 One of the principal concrete motivations was the idea to give the intrinsic geometric presentation and proof of the [[Serre intersection formula]].
 
 * [[Maxim Kontsevich]], _Enumeration of rational curves via torus actions_, in: The moduli space of curves (Texel Island, 1994), 335&#8211;368, Progr. Math. __129__, Birkh&#228;user 1995. MR1363062 (97d:14077), [hep-th/9405035](http://arxiv.org/abs/hep-th/9405035)
-* [[Clark Barwick]], _Why derived algebraic geometry_, 2007, [pdf](http://www.math.ias.edu/~clarkbar/docs/research200711.pdf)
+* [[Clark Barwick]], _Why derived algebraic geometry_, 2007, [pdf](http://web.archive.org/web/20110125061347/http://www.math.ias.edu/~clarkbar/docs/research200711.pdf)
