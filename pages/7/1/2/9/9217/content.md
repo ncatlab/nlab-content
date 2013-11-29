@@ -41,3 +41,7 @@ $$
 [[!redirects Hamilton-Jacobi equations]]
 
 [[!redirects Hamilton-Jacobi theory]]
+
+[[!redirects Hamilton-Jacobi action]]
+[[!redirects Hamilton-Jacobi actions]]
+
