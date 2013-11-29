@@ -29,6 +29,11 @@ See the [References on applications in quantum mechanics](#ReferencesApplication
 
 ### General
 
+Part VI, "Self-adjoint extension theory of symmetric operators" in 
+
+* [[Konrad Schmüdgen]], _Unbounded self-adjoint operators
+on Hilbert space_, Springer GTM 265
+
 * Guangshenh Wei, Yaolin Jiang, _A characterization of positive self-adjoint extensions and its application to ordinary differential operators_ Proceedings of the American Mathematical Society,  Volume  133, Number 10 ([jstor](http://www.jstor.org/pss/4097913)) ([pdf](http://www.ams.org/journals/proc/2005-133-10/S0002-9939-05-07837-8/S0002-9939-05-07837-8.pdf))
   {#WeiJiang}
 
