@@ -176,11 +176,11 @@ there are also some references listed at
 
 *Standard* approaches start with a [[material set theory]], such as ZFC, whereas the approach here uses [[structural set theory]] as emphasized above.  Since cardinality is isomorphism-invariant, it is easy to interpret the standard material structurally, although the basic definitions will be different.  There does not seem to be a standard account of cardinality from within structural set theory.
 
-A critical discussion of the history of the meaning of Cantors "Kardinalen" see 
+A critical discussion of the history of the meaning of Cantor's "Kardinalen" see 
 
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_,
 
-which argues that Cantor's original meaning of _set_ was more like what today is _[[cohesive]] set_ and that his _Kardinalen_ refer to the _underlyiing set_ (see at _[[flat modality]]_).
+which argues that Cantor's original meaning of _set_ was more like what today is _[[cohesive]] set_ and that his _Kardinalen_ refer to the _underlying set_ (see at _[[flat modality]]_).
 
 
 [[!redirects cardinal number]]
