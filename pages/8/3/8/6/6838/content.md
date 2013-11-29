@@ -57,6 +57,26 @@ discussed above, also induce [[derived stacks]] in the modern sense.
 
 ## References
 
+A prediction of [[derived moduli spaces]] is spelled out (in a bit different language) in
+
+* M. Kontsevich, _Enumeration of rational curves via torus actions_. The moduli space of curves (Texel Island, 1994), 335--368, Progr. Math. __129__, Birkh&#228;user 1995. MR1363062 (97d:14077), [hep-th/9405035](http://arxiv.org/abs/hep-th/9405035).
+{#KontsevichEnum}
+
+The first examples of [[derived moduli spaces]], using dg-schemes, are constructed in
+
+* [[Ionut Ciocan-Fontanine]], [[Mikhail Kapranov]], _Derived Quot
+schemes_, 1999,
+[arXiv:math/9905174](http://arxiv.org/abs/math/9905174).
+{#CiKa1
+
+* [[Ionut Ciocan-Fontanine]], [[Mikhail Kapranov]], _Derived Hilbert
+schemes_, 2000,
+[arXiv:math/0005155](http://arxiv.org/abs/math/0005155).
+{#CiKa2}
+
+* M. Kapranov, _Injective resolutions of BG and derived moduli spaces of local systems_,  J. Pure Appl. Algebra  155  (2001),  no. 2-3, 167--179; [math/alg-geom/9710027](http://arxiv.org/abs/alg-geom/9710027), MR1801413 (2002b:18017)
+ {#Kapranov}
+
 * [[Kai Behrend]], _Differential graded schemes I: prefect resolving
 algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
 
@@ -64,15 +84,6 @@ algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
 Differential Graded Schemes_
 ([arXiv:0212226](http://arxiv.org/abs/math/0212226))
 
-* [[Ionut Ciocan-Fontanine]], [[Mikhail Kapranov]], _Derived Quot
-schemes_, 1999,
-[arXiv:math/9905174](http://arxiv.org/abs/math/9905174).
-{#CiKa1}
-
-* [[Ionut Ciocan-Fontanine]], [[Mikhail Kapranov]], _Derived Hilbert
-schemes_, 2000,
-[arXiv:math/0005155](http://arxiv.org/abs/math/0005155).
-{#CiKa2}
 
 [[!redirects dg-schemes]]
 [[!redirects dg scheme]]
