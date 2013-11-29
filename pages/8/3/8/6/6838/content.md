@@ -23,8 +23,7 @@ developed by [[Mikhail Kapranov]] and [[Ionut Ciocan-Fontanine]].
 
 A **differential graded scheme** (**dg-scheme**) is a [[scheme]] $(X,
 O_X)$ together with a [[sheaf]] $O_X^\bullet$ of nonnegatively graded
-commutative [[dg algebra|differential graded]] $O_X$-[[dg
-algebra|algebras]], such that $O_X \to H^0(O_X^\bullet)$ is
+commutative [[dg-algebra|differential graded]] $O_X$-[[dg-algebra|algebras]], such that $O_X \to H^0(O_X^\bullet)$ is
 [[surjective]].
 
 ## Examples
@@ -47,7 +46,7 @@ Vezzosi]].  It takes values in the [[full subcategory]] of 1-geometric
 derived stacks, but is not known (or expected) to be [[fully
 faithful]].
 
-In particular, the [[dg-schemes]] $RQuot(X, F)$ and $RHilb_h(X)$,
+In particular, the dg-schemes $RQuot(X, F)$ and $RHilb_h(X)$,
 discussed above, also induce [[derived stacks]] in the modern sense.
 
 ## Related concepts
@@ -74,3 +73,9 @@ schemes_, 1999,
 schemes_, 2000,
 [arXiv:math/0005155](http://arxiv.org/abs/math/0005155).
 {#CiKa2}
+
+[[!redirects dg-schemes]]
+[[!redirects dg scheme]]
+[[!redirects dg schemes]]
+[[!redirects differential graded scheme]]
+[[!redirects differential graded schemes]]
