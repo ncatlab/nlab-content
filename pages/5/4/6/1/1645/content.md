@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -30,9 +30,9 @@ There are at least two things that are called _quantum anomalies_ in the context
 ### Anomalous action functional 
  {#AnomalousActionFunctional}
 
-There are two major kinds of [[action functional]]s that may be anomalous in that they are not actually [[function]]s/[[nonlinear functional|functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
+There are two major kinds of [[action functionals]] that may be anomalous in that they are not actually [[function]]s/[[nonlinear functional|functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
 
-* theories with fermions (see e.g. [[spinors in Yang-Mills theory]])
+* theories with fermions (see e.g. [[spinors in Yang-Mills theory]]) whose [[action functional]] is given by a [[Dirac operator]], or else other fields whose action functional is given by a [[Fredholm operator]].
 
 * [[gauge theory|gauge theories]] with higher degree gauge fields ([[differential cohomology|differential cocycles]] of higher degree.) 
 
@@ -41,6 +41,25 @@ There are two major kinds of [[action functional]]s that may be anomalous in tha
 The [[path integral]] for a [[quantum field theory]] with [[fermion]]s can be decomposed into a [[fermionic path integral]] (see there for more details) over the [[fermionic field]]s followed by that over the [[bosonic field]]s. The former, a [[Berezin integral]], is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a [[section]] of some [[line bundle]] called a [[determinant line bundle]] or, in $8k+2$ dimensions, its [[square root]], the [[Pfaffian line bundle]]. 
 
 So to even start making sense of the remaining path integral over the bosonic degree of freedom, this [[determinant line bundle]] or the corresponding [[Pfaffian line bundle]] has to be trivializale. Its non-trivializability is the _fermionic anomaly_ .
+
+More in detail ([Freed 86](#Freed86)), the [[path integral]] over an [[Lagrangian]] of the form $(\overline \phi, D \phi)$ for 
+
+$$
+  D \;\colon\; V \longrightarrow W
+$$
+
+a [[Fredholm operator]] computes the [[determinant]] of that operator. Formally this is a [[section]] of the [[determinant line bundle]] over the remaining [[field (physics)|fields]]
+
+$$
+  (det V)^\ast \otimes (det W)
+  \simeq
+  (det ker D)^\ast \otimes (det coker D)
+  \,,
+$$
+
+where the left hand side makes sense and the equivalence holds for $V$ and $W$ finite dimensional, and where the right hand side is the definition of the expression for general [[Fredholm operators]]. (([Freed 86, 1.](#Freed86)))
+
+In more detail this [[determinant line bundle]] also carries a [[connection]] on a bundle. To make the formal [[path integral]], which is a [[section]] of this bundle, into an actual function, one this bundle with connection needs to be trivializable and trivialized. The [[obstruction]] to this is the anomaly.
 
 
 #### Higher gauge-theoreric anomalies
@@ -109,6 +128,10 @@ in terms of [[differential cohomology]] in general and [[differential string str
 
 * **Fivebrane structure** the worldvolume anomaly for the super-5-brane in [[dual heterotic string theory]] vanishes (essentially) when $X$ has [[Fivebrane structure]]. See there.
 
+#### Gravitational anomaly
+
+* [[gravitational anomaly]]
+
 #### Conformal anomaly of the string
 
 The [[2d CFT]] on the [[worldsheet]] of the [[bosonic string]] (in flat space, without further background fields) has an
@@ -116,6 +139,8 @@ anomaly unless the [[dimension|dimensional]] [[target space]] is $d = 26$.
 
 This is discussed as a condition of trivialization of a bundle in 
 ([Freed 86, section 2](#Freed86)). A brief summary is stated [this comment on MO](http://mathoverflow.net/a/99667/381).
+
+For more see at [[conformal anomaly]] for more.
 
 #### Freed-Witten anomaly
 
@@ -146,6 +171,7 @@ For the moment see [[Liouville cocycle]].
 ### Anomalous action functional
  {#AnomalousActionFunction}
 
+The original articles on anomalous action functionals are
 
 * [[Luis Alvarez-Gaumé]] and [[Edward Witten]], _Gravitational Anomalies_ Nucl. Phys. B234 (1984) 269.
 
@@ -167,6 +193,8 @@ determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176.
 
 * [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants,
 and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163.
+
+and a clear comprehensive account of the situation (topological anomelay, geometric anomaly) is in 
 
 * [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
   {#Freed86}
