@@ -127,7 +127,7 @@ This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 ###### Definition
 
 Given a $\mathbb{Z}$-chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
-define a [[sequential diagram]] in the [[homotopy category of an (infinity,1)-category|homotopy category]] 
+define a [[sequential diagram]] in the ([[triangulated category|triangulated]]) [[homotopy category of an (infinity,1)-category|homotopy category]] 
 
 $$
   C_\bullet
@@ -143,20 +143,20 @@ $$
   C_n \coloneqq \Sigma^{-n} F(n,n+1) \in Ho(\mathcal{C})
 $$
 
-and taken
+and takind
 
 $$
-  d_n \;\colon\; C_n \longrightarrow C_{n-1}
+  d_n \coloneqq \Sigma^n \delta_n \;\colon\; C_n \longrightarrow C_{n-1}
 $$
 
-to be the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
+to be the $n$-fold de-[[suspension]] of the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
 
 $$
   F(n-1,n) \to F(n-1, n+1) \to F(n,n+1)
   \,,
 $$
 
-hence the $n$-fold [[suspension]] of the moprhism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
+hence the $n$-fold def-[[suspension]] of the morphism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
 
 $$
   \array{
@@ -166,8 +166,9 @@ $$
     \\
     0 &\longrightarrow& F(n,n+1) &\stackrel{\delta_n}{\longrightarrow}& \Sigma F(n-1,n)
   }
-  \,.
 $$
+
+where the total outer [[homotopy pushout]] exhibits the [[suspension]] of $F(n-1,n)$, by the [[pasting law]].
 
 
 =--
@@ -175,13 +176,13 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The sequence $C_\bullet$ in def. \ref{ChanComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]] hence in that for all $n \in \mathbb{Z}$ we have
+The sequence $C_\bullet$ in def. \ref{ChanComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]], hence in that for all $n \in \mathbb{Z}$ we have that the composite 
 
 $$
   d_n \circ d_{n+1} = 0
 $$
 
-in $Ho(\mathcal{C})$.
+is the [[zero morphism]] in the [[triangulated category]] $Ho(\mathcal{C})$.
 
 =--
 
@@ -190,7 +191,19 @@ in $Ho(\mathcal{C})$.
 +-- {: .proof}
 ###### Proof
 
-(...)
+$$
+  \array{
+    F(n-2,n-1 )&\longrightarrow & F(n-2,n)
+    \\
+    \downarrow && \downarrow
+    \\
+    F(n-1,n-1) &\longrightarrow & F(n-1,n) &\longrightarrow& F(n-1,n+1) &\to& 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    && 0 &\longrightarrow& F(n,n+1) &\stackrel{\delta_n}{\longrightarrow}& \Sigma F(n-1,n)
+  }
+$$
 
 =--
 
