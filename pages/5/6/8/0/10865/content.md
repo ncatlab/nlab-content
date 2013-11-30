@@ -36,7 +36,7 @@ Whether true or not, one of the three was [[David Hilbert]]. He made sure every 
 
 classical Einstein gravity is simply the study of the [[critical points]] of the [[integral]] of the [[scalar curvature]] [[density]] [[action functional|functional]] on the [[moduli space]] of [[pseudo-Riemannian metrics]] on [[spacetime]].
 
-By trusting that a fundamental theory of physics should have a fundamental formulation in mathematics, [[Hilbert]] was able to essentially scoop Einstein, that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
+By trusting that a fundamental theory of physics should have a fundamental formulation in mathematics, [[Hilbert]] was able to essentially scoop Einstein (see [here](Einstein-Hilbert+action#History) for the history), that's why this functional is now called the _[[Einstein-Hilbert action functional]]_.
 
 Hilbert had promoted this general idea before as part of the famous eponymous _[[Hilbert's problems]] in mathematics, from 1900. Here [[Hilbert's 6th problem]] asks [[mathematics|mathematicians]] generally to find [[axioms]] for [[theory (physics)|theories]] in [[physics]]. 
 
