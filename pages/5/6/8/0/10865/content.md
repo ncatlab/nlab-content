@@ -1,7 +1,7 @@
 
 > In ([Lawvere 67](#Lawvere67), [Lawvere 86](#Lawvere86), [Lawvere 97](#Lawvere79)) was proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page here gives an introductory survey of the refinements possible when lifting this from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]] and of the applications of the resulting formalism to [[quantum field theory]].
 
-> This text originates in a talk at the _[Eighth Scottish Category Theory Seminar](http://homepages.inf.ed.ac.uk/als/SCT/sct131129.html)_. Accordingly, these notes amplify aspects of [[category theory]] and [[topos theory]] and generally stick to a [[William Lawvere|Lawverian]] perspective. 
+> This text originates in a [talk](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#TalkAt8thScottishCategorySeminar) at the _[Eighth Scottish Category Theory Seminar](http://homepages.inf.ed.ac.uk/als/SCT/sct131129.html)_. Accordingly, these notes amplify aspects of [[category theory]] and [[topos theory]] and generally stick to a [[William Lawvere|Lawverian]] perspective. 
 
 
 +-- {: .rightHandSide}
@@ -30,7 +30,7 @@
 
 ## Introduction and motivation
 
-Urban legend has it that there was a time when only three people understood [[Einstein]]'s [[theory (physics)|theory]] of [[classical field theory|classical]] [[gravity]] -- "[[general relativity]]". 
+Urban legend [has it](http://en.wikipedia.org/wiki/History_of_general_relativity#Sir_Arthur_Eddington) that there was a time when only three people understood [[Einstein]]'s [[theory (physics)|theory]] of [[classical field theory|classical]] [[gravity]] -- "[[general relativity]]". 
 
 Whether true or not, one of the three was [[David Hilbert]]. He made sure every beginning student today can understand [[general relativity]], he did so by giving it a clear and precise (= rigorous) formalization in [[mathematics]]:
 
@@ -101,6 +101,8 @@ $$
 $$
 
 For instance for $\Sigma = \mathbb{R}$ the abstract [[worldline]] and $X$ [[spacetime]], then $\Sigma \to X$ may be taken to be the [[trajectory]] of a [[particle]] in [[spacetime]].
+
+(Notice that after [[second quantization]] the roles change. First the domain $\Sigma$ is [[worldvolume]] and the codomain $X$ is [[spacetime]] ("[[sigma-model]])", then after second quantization spacetime $X$ becomes the domain (hence becomes $\Sigma$ in the above).)
 
 Hence the [[mapping space]] $[\Sigma,X]$ is the space of all [[trajectories]] (the _[[path space]]_, famous as the [[domain]] of the infamous _[[path integral]]_).
 
@@ -412,11 +414,11 @@ We close here by briefly indicating one example problem of recent interest, conc
 
 One reason why the need for geometric homotopy theory in QFT is not mentioned  in the bulk of the QFT literature is that traditionally the bulk of the discussion of [[quantum field theory]] is in [[perturbation theory]] (perturbative both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
 
-Phenomena that arise from the global structure of a [[moduli]] of [[field (physics)|field]] configurations in [[physics]] are alien to [[perturbation theory]], and hence hostorically they were called _[[quantum anomaly|anomalies]]_.
+Phenomena that arise from the global structure of a [[moduli]] of [[field (physics)|field]] configurations in [[physics]] are alien to [[perturbation theory]], and hence are _[[quantum anomaly|anomalies]]_. Such an [anomalous action functionals](quantum+anomaly#AnomalousActionFunctional) is something that ought to be a [[function]] $[\Sigma,X] \longrightarrow S^1$ on configuration space, but possibly comes out just as a [[section]] of a [[bundle]] over configuration space (examples include the [[Freed-Witten-Kapustin anomaly]], the [[Green-Schwarz anomaly]], the [[Diaconescu-Moore-Witten anomaly]].)
 
-So these are phenomena which are intrinsically phenomena in [[homotopy theory]]/[[(infinity,1)-topos theory]].
+The anomaly bundles on $[\Sigma,X]$ typically arise as the [[transgression]] of [[principal infinity-bundles|higher bundles]] on the [[moduli space]] of [[field (physics)|fields]] $X$ itself- So these are phenomena which are intrinsically phenomena in [[geometric homotopy theory]]/[[(infinity,1)-topos theory]].
 
-For instance a famous quantum anomaly in 2-dimensional [[QFT]] is the [[Freed-Witten-Kapustin anomaly]]. It is usually read out as follows:
+We consider now specifically a general aspect of what is called the _[[Freed-Witten-Kapustin anomaly]]_. It is usually read out as follows:
 
 Just as above we saw that the basic example of a quantum field theory on $\Sigma = \mathbb{R}$ descibes the [[dynamics]] of a [[particle]], so the basic example of a quantum field theory on a 2-dimensional $\Sigma$ describes the dynamics of a [[string]]. This naturally feels [[forces]] excerted in particular by two [[background gauge fields]] called the _[[B-field]]_ and the _[[RR-field]]_.
 
