@@ -26,6 +26,11 @@ The _principle of least action_ in [[physics]] is a historical precursor of the 
 With the understanding [[quantum mechanics]] the _principle of extremal action_ found an explanation in more fundamental terms as the [[classical limit]] of quantum [[dynamics]]. A simple, though somewhat heuristic, way to see this is via [[path integral]] [[quantization]]: whereas propagation in [[quantum mechanics]] is given by the [[path integral]] by which _every_ trajectory $\phi$ between two prescribed configurations contributes with a [[probability amplitude]] given by the  exponentiated value $\exp(i S(\phi))$ of the [[action functional]] $S$ on this trajectory, at least under some conditions the main contribution to this integral is from trajectories close to the critical points of the action functional. 
 
 
+## Examples
+
+* [[Einstein-Hilbert action]] $&#7838;Rightarrow$ [[Einstein equation of motion]] for [[gravity]]/[[general relativity]]
+
+
 ## References
 
 * Wikipedia, _[Principle of least action](http://en.wikipedia.org/wiki/Principle_of_least_action)_
