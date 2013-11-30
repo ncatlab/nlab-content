@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _K&#228;hler manifolds_ is a [[smooth manifold]] compatibly equipped with 
+A _K&#228;hler manifold_ is a [[smooth manifold]] compatibly equipped with 
 
 1. [[complex structure]];
 
