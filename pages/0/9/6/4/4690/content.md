@@ -79,6 +79,32 @@ Hilbert was following these developments, also hearing Einstein talk about them.
 
 In ([Sauer-Majer, from p. 402](#SauerMajer)) a talk of Hilbert  is reproduced reviewing Einstein's work, from the point of view of Hilbert having known the right answer all along from the variational principle (hence from the axioms). Einstein's struggle (until a few days before the lecture was given!) with finding the right equations of gravity. This comment culminates on ([Sauer-Majer, from p. 405](#SauerMajer)) with the curious remark, paraphrasing just a little: that the fact that Einstein after his "colossal detour" ends up with the same equations of motion as Hilbert already had is a "nice consistency check" ( _sch&#246;ne Gew&#228;hr_ )
 
+p. 402:
+
+> Das von mir aufgestellte Hamiltonsche Prinzip lautet
+
+> $\delta \int \int \int \int I \sqrt{g} \, d x^1 d x^2 d x^3 d x^4 = 0$
+
+(this defines the [[critical point]] of the [[action functional]] being the [[integral]] of the [[Lagrangian]] $I$ over [[spacetime]], i.e the [[principle of extremal action]])
+
+p. 404:
+
+> Indess m&#252;ndet das Schlussresultat der letzten Einsteinschen Untersuchung wieder auf ein Hamiltonsches Prinzip, das dem urspr&#252;nglich von mir aufgestellten gleicht; ja es k&#246;nnte sein, dass diese Einsteinsche Theorie inhaltlich sich mit der von mir urspr&#252;nglich aufgestellten Theorie v&#246;llig deckt.
+
+p. 405: 
+
+> Als Entgelt daf&#252;r k&#246;nnen wir gegenw&#228;rtig als sicher ansehen, dass die oben von mir aufgestellten Gl. gewiss den _Grundstock f&#252;r die Weltgl._ ausmachen. In einer letzten vor wenigen Tagen erschienenen Note gelangt Einstein zu dem Hamiltonschen Prinzip:
+
+> $\delta \int \int \int \int  \{K + \alpha \Phi + \beta \phi\} \sqrt{g} d x^1 d x^2 d x^3 d x^4 = 0$
+
+> $[...]$
+
+> Und wenn auf dem kollossalen Umweg &#252;ber Levi Civita, Weyl, Schouten, Eddington Einst. zu dem Resultat zur&#252;ckgelangt, so liegt darin sicher eine sch&#246;ne Gew&#228;hr.
+
+
+
+
+
 
 In Constance Reid's biography of Hilbert here, it says in Chapter XVII the following
 
@@ -110,7 +136,7 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 ### History
  {#History}
 
-* Sauer, Majer, _David Hilbert's "Lectures on the foundations of physics"_
+* [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
   {#SauerMajer}
 
 [[!redirects Einstein-Hilbert action functional]]
