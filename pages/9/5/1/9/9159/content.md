@@ -28,7 +28,7 @@ With the understanding [[quantum mechanics]] the _principle of extremal action_ 
 
 ## Examples
 
-* [[Einstein-Hilbert action]] $&#7838;Rightarrow$ [[Einstein equation of motion]] for [[gravity]]/[[general relativity]]
+* [[Einstein-Hilbert action]] $\Rightarrow$ [[Einstein equation of motion]] for [[gravity]]/[[general relativity]]
 
 
 ## References
