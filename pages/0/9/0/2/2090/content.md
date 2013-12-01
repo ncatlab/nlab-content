@@ -11,7 +11,7 @@ To be done
 
 [[Steve Awodey]], 2004, [An Answer to Hellman's Question: "Does Category Theory Provide a Foundation for Mathematical Structuralism?"](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf)
 
-[[Ralf Kromer|Ralf Krömer]], 2007, [Tool and Object: A History and Philosophy of Category Theory](http://books.google.co.uk/books?id=nVVsp3_Jw0sC) 
+[[Ralf Kromer|Ralph Krömer]], 2007, [Tool and Object: A History and Philosophy of Category Theory](http://books.google.co.uk/books?id=nVVsp3_Jw0sC) 
 
 [[Colin McLarty]], 2005, [Learning from Questions on Categorical Foundations](http://www.cwru.edu/artsci/phil/PMLearning.pdf)
 
