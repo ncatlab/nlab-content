@@ -163,6 +163,8 @@ This work is used in the third paper to construct and apply a strict cubical hom
 
 The main result of the fourth   paper below is that (strict) cubical omega-categories  with connections are equivalent to strict globular omega-categories. 
 
+For more information, see [[Nonabelian Algebraic Topology]].. 
+
 
 ##References## 
 
