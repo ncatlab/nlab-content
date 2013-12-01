@@ -9,7 +9,7 @@ To be done
 
 [[Jean-Pierre Marquis]], 2008, [From a Geometrical Point of View](http://books.google.co.uk/books?id=bvy0aANuhPYC)
 
-[[Steve Awodey]], 2004, [An Answer to Hellman's Question: "Does Category Theory Prove a Foundation for Mathematical Structuralism?"](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf)
+[[Steve Awodey]], 2004, [An Answer to Hellman's Question: "Does Category Theory Provide a Foundation for Mathematical Structuralism?"](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf)
 
 [[Ralf Kromer|Ralf Krömer]], 2007, [Tool and Object: A History and Philosophy of Category Theory](http://books.google.co.uk/books?id=nVVsp3_Jw0sC) 
 
