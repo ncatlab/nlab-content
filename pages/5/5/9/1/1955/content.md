@@ -474,6 +474,9 @@ The traditional notion of K&#228;hler differentials defines the notion of a modu
 [[!redirects Kahler differentials]]
 [[!redirects Kähler differentials]]
 
+[[!redirects Kaehler differential]]
+[[!redirects Kaehler differentials]]
+
 [[!redirects Kahler differential form]]
 [[!redirects Kahler differential forms]]
 [[!redirects Kähler differential form]]
