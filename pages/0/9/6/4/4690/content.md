@@ -28,7 +28,7 @@ Let $X$ be a [[compact topological space|compact]] [[smooth manifold]] [[manifol
 For $(X,g)$ the structure of a  [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] on $X$, hence for $g$ a (pseudo-)Riemannian metric on $X$, its **vacuum Einstein-Hilbert action** is the number
 
 $$
-  (X,g) \mapsto \int_X R(g) dvol(g)
+  g \;\mapsto\; \int_X R(g) dvol(g)
   \,,
 $$
 
@@ -43,7 +43,7 @@ where
 If the metric is instead encoded in terms of an [[Poincare group]]-[[connection on a bundle|connection]] $\nabla$ (the [[first-order formulation of gravity]]) then (for $dim X = 4$ and assuming for simplicity that the underlying bundle is trivial) this is equivalently
 
 $$
-  (X,\nabla) \mapsto \int_X \langle R \wedge e \wedge e \rangle
+  \nabla \;\mapsto\; \int_X \langle R \wedge e \wedge e \rangle
   \,,
 $$
 
@@ -63,13 +63,14 @@ $$
 
 on the space of (pseudo-)Riemannian metrics on $X$. This is the _Einstein-Hilbert [[action functional]]_.
 
-(More properly the EH-action functional is this function descended to the [[moduli stack]] $Met(X)//Diff(X)$, see at _[[general covariance]]_.)
+This functional is invariant under the [[action]] of [[diffeomorphisms]] on $X$ (e.g. [Bertschinger 02, section 4.2](#Bertschinger02)).
+Therefore more properly the EH-action functional is the function descended to the [[moduli stack]] $Met(X)//Diff(X)$, see at _[[general covariance]]_.
 
 
 More generally, this extends to an [[action functional]] for gravity coupled to "matter" (which in the context of [[general relativity]] conventionally means every other field, for instance the [[electromagnetic field]]) by simply adding the matter action on a given gravitational background
 
 $$
-  (X,g,\phi) \mapsto \int_X (L_{EH}(g) + L_\phi(g)) d vol(g)
+  (g,\phi) \;\mapsto\; \int_X (L_{EH}(g) + L_\phi(g)) d vol(g)
   \,.
 $$
 
@@ -141,6 +142,11 @@ The success of the Einstein-Hilbert [[action principle]] in the formulation of [
 ## References
 
 ### General
+
+Lecture notes include
+
+* Edmund Bertschinger, _Symmetry transformations, the Einstein-Hilbert action, and gauge invariance_ 2002 ([pdf](http://web.mit.edu/edbert/GR/gr5.pdf))
+ {#Bertschinger02}
 
 Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ at
 
