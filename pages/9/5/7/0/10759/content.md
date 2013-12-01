@@ -110,19 +110,39 @@ such that
 
    $$
      \array{
-        F(i,j) &\longrightarrow& F(i,k)
+        & F(i,j) &\longrightarrow& F(i,k)
         \\
-        \downarrow && \downarrow
+        & \downarrow && \downarrow
         \\
-        F(j,j) &\longrightarrow& F(j,k)
+        0 \simeq & F(j,j) &\longrightarrow& F(j,k)
      }
    $$
 
-   is a [[homotopy pullback]] square.
+   is a [[homotopy pushout]] square (hence equivalently, by [[stable (infinity,1)-category|stability]], a [[homotopy pullback]]).
 
 =--
 
 This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
+
++-- {: .num_remark}
+###### Remark
+
+The conditions in def. \ref{ChainComplexInStableInfinityCategory} imply
+by the [[pasting law]] that also all squares
+
+$$
+  \array{
+     F(i,k) &\longrightarrow& F(i,l)
+     \\
+     \downarrow && \downarrow
+     \\
+     F(j,k) &\longrightarrow& F(j,l)
+  }
+$$
+
+for all $i \leq k$ and $k \leq l$  are [[homotopy pushout]] squares.
+
+=--
 
 
 +-- {: .num_defn #ChanComplexInducedFromZComplex}
@@ -146,10 +166,10 @@ $$
   C_n \coloneqq \Sigma^{-n} F(n,n+1) \in Ho(\mathcal{C})
 $$
 
-and takind
+and taking
 
 $$
-  d_n \coloneqq \Sigma^n \delta_n \;\colon\; C_n \longrightarrow C_{n-1}
+  d_n \coloneqq \Sigma^{-n} \delta_n \;\colon\; C_n \longrightarrow C_{n-1}
 $$
 
 to be the $n$-fold de-[[suspension]] of the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
@@ -159,7 +179,7 @@ $$
   \,,
 $$
 
-hence the $n$-fold def-[[suspension]] of the morphism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
+hence the $n$-fold de-[[suspension]] of the morphism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
 
 $$
   \array{
