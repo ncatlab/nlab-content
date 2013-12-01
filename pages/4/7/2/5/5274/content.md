@@ -103,5 +103,6 @@ formulation of quantum mechanics_  Foundations of Physics __32__, No. 6, (2002)
 * S. Wickramasekara, A. Bohm, _Symmetry representations in the rigged Hilbert space formulation of quantum mechanics_, [math-ph/0302018](http://arxiv.org/abs/math-ph/0302018)
 
 [[!redirects Gelfand triple]]
+[[!redirects Gel'fand triple]]
 [[!redirects enriched Hilbert space]]
 [[!redirects equipped Hilbert space]]
