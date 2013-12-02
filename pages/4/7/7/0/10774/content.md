@@ -1,6 +1,7 @@
 
 | [[tower diagram]]/[[filtered object in an (infinity,1)-category|filtering]] | [[spectral sequence of a filtered stable homotopy type]] |
 |--|--|
+| [[filtered chain complex]] | [[spectral sequence of a filtered complex]] |
 | [[Whitehead tower]] | [[Atiyah-Hirzebruch spectral sequence]] |
 | [[chromatic tower]] | [[chromatic spectral sequence]] |
 | [[coskeleton|coskeleta]] of [[Cech nerve]] of [[E-∞ algebra]] | [[Adams spectral sequence]] |
