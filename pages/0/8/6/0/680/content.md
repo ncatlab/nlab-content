@@ -575,6 +575,10 @@ If the coefficient objects come from sheaves of chain complexes along $\Gamma$, 
 
 * [[operadic Dold-Kan correspondence]]
 
+* [[infinity-Dold-Kan correspondence]]
+
+* [[stable Dold-Kan correspondence]]
+
 ## References
 
 
@@ -610,6 +614,10 @@ Remarks about the interpretation in terms of model categories are in
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 {#SchwedeShipley}
 
+Discussion in the generality of [[idempotent complete category|idempotent complete]] [[additive categories]] is in 
+
+* [[Jacob Lurie]], section 1.2.3 of _[[Higher Algebra]]_
+ 
 The relation between [[strict ∞-groupoids]] and [[crossed complexes]] is in
 
 * [[Ronnie Brown|R. Brown]] and P.J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 371--386  ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_4_371_0.pdf))
