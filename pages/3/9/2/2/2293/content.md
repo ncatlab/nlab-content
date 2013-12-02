@@ -115,7 +115,7 @@ NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [
 
 The following is a short exposition on some of the motivation behind derived algebraic geometry.
 
-* [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](www.ams.org/notices/201107/rtx110700955p.pdf&#8206;).
+* [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](http://www.ams.org/notices/201107/rtx110700955p.pdf).
 {#VezzosiWhatIs}
 
 ### Approach of Lurie
