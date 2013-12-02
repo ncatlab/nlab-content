@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,5 +31,12 @@ For $\mathcal{C}$ a [[stable (∞,1)-category]] and $X_\bullet$ a [[simplicial o
 
 ## References
 
+The general theory is developed in 
+
 * [[Jacob Lurie]], section 1.2.4 of _[[Higher Algebra]]_
 
+Quick review is in 
+
+* [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the
+Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+ {#Wilson13}
