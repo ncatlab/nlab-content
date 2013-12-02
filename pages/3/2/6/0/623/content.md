@@ -438,9 +438,13 @@ The discusson of the hypercrossed complex structure on the Moore complex of a ge
 * [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
 {#Carrasco-Cegarra}
 
+[[!redirects Moore complexes]]
+
+
 [[!redirects Moore-complex]]
 
 [[!redirects normalized chains complex]]
 [[!redirects normalized chain complex]]
 
 [[!redirects alternating face map complex]]
+
