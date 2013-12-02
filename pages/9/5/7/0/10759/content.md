@@ -72,27 +72,46 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 ###### Definition
 
 A _[[filtered object in an (∞,1)-category]]_ in $\mathcal{C}$ is
-simply a [[sequential diagram]] $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
+an [[object]] $X \in \mathcal{C}$ together with 
+a [[sequential diagram]] $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
 
 $$
   \cdots
   X_{n-1} \to X_n \to X_{n+1} \to \cdots
-  \,.
 $$
+
+and an [[equivalence in an (infinity,1)-category|equivalence]]
+
+$$
+  X \coloneqq \underset{\rightarrow}{\lim}_n X_n
+$$
+
+between $X$ and the [[homotopy colimit]] of this sequence.
+(The sequence itself is _the filtering on $X$_.)
+
+Dually, a _[[filtered object in an (∞,1)-category|co-filtered object in an (∞,1)-category]]_ in $\mathcal{C}$ is
+an [[object]] $X \in \mathcal{C}$ together with 
+a [[sequential diagram]] $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
+
+$$
+  \cdots
+  X_{n-1} \to X_n \to X_{n+1} \to \cdots
+$$
+
+and an [[equivalence in an (infinity,1)-category|equivalence]]
+
+$$
+  X \coloneqq \underset{\leftarrow}{\lim}_n X_n
+$$
+
+between $X$ and the [[homotopy limit]] of this sequence.
+(The sequence itself is _the co-filtering on $X$_.)
+
 
 =--
 
 This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
-
-We may take the view that the object being filtered by this sequence is the [[homotopy limit]]
-
-$$
-  X \coloneqq \underset{\leftarrow}{\lim}_n X_n.
-$$
-
-Alternatively, we could also consider the sequential diagram as a filtering of its [[homotopy colimit]].
-
-These two points of view are equivalent under replacing $\mathcal{C}$ by its [[opposite category]] $\mathcal{C}^{op}$.
+The notions are equivalent under replacing $\mathcal{C}$ by its [[opposite category]] $\mathcal{C}^{op}$.
 
 
 +-- {: .num_defn #ChainComplexInStableInfinityCategory}
@@ -138,6 +157,7 @@ This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 +-- {: .num_remark}
 ###### Remark
 
+
 The conditions in def. \ref{ChainComplexInStableInfinityCategory} imply
 by the [[pasting law]] that also all squares
 
@@ -160,7 +180,7 @@ for all $i \leq k$ and $k \leq l$  are [[homotopy pushout]] squares.
 ###### Definition
 
 Given a $\mathbb{Z}$-chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
-define a [[sequential diagram]] in the ([[triangulated category|triangulated]]) [[homotopy category of an (infinity,1)-category|homotopy category]] 
+define a [[sequential diagram]] in the ([[triangulated category|triangulated]]) [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$ of $\mathcal{C}$
 
 $$
   C_\bullet
@@ -174,7 +194,7 @@ $$
 by setting
 
 $$
-  C_n \coloneqq \Sigma^{-n} F(n,n+1) \in Ho(\mathcal{C})
+  C_n \coloneqq \Sigma^{-n} F(n-1,n) \in Ho(\mathcal{C})
 $$
 
 and taking
@@ -190,7 +210,7 @@ $$
   \,,
 $$
 
-hence the $n$-fold de-[[suspension]] of the morphism $\delta_n$  in the [[pasting]] of [[homotopy pushouts]]
+hence the $(n+1)$-fold de-[[suspension]] of the morphism $\delta_n$  in the following [[pasting]] of [[homotopy pushouts]]
 
 $$
   \array{
@@ -242,7 +262,36 @@ $$
 $$
 
 where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
-By the [[universal property]] of the pushout applied twice, this induces a factorization
+By the [[universal property]] of the pushout applied to the [[cocone]] given by the defining [[homotopy pushout]] of the [[suspension]]
+
+$$
+  \array{
+     F(n-2,n) &\longrightarrow& 0
+     \\
+     \downarrow && \downarrow
+     \\
+     0 &\longrightarrow& \Sigma F(n-2,n)
+  }
+$$
+
+we obtain maps $F(n-1, n+1) \to \Sigma F(n-2,n)$ and $F(n, n+1) \to \Sigma F(n-2,n)$ fitting into a diagram of the form
+
+$$
+  \array{
+    F(n-1, n+1) && \longrightarrow && 0
+    \\
+    \downarrow  & \searrow && \nearrow & \downarrow
+    \\
+    && \Sigma F(n-2,n)
+    \\
+    \downarrow  & \nearrow && \searrow & \downarrow    
+    \\
+    F(n,n+1) && \underset{\delta_n}{\longrightarrow} && \Sigma F(n-1,n)
+  }
+  \,.
+$$
+
+In particular this is a factorization of $\delta_n$ through $\Sigma F(n-2,n)$:
 
 $$
   \array{
@@ -271,12 +320,14 @@ $$
 and then suspending the result $n$ times yields a diagram that exhibits a null-homotopy
 
 $$
-  \delta_{n-1}  \circ \delta_n \simeq 0
+  d_{n-1}  \circ d_n \simeq 0
 $$
 
 in $\mathcal{C}$.
 
 =--
+
+The following proposition observes that the $\mathbb{Z}$-chain complexes of def. \ref{ChainComplexInStableInfinityCategory} are, despite the explict appearance of square diagrams, equivalently already determined by a [[sequential diagram]].
 
 +-- {: .num_prop #ChainComplexesFromFilteredObjects}
 ###### Proposition
@@ -286,7 +337,7 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
-  (\mathbb{Z}\cup \{-\infty\}, \leq) \times (\mathbb{Z}\cup \{-\infty\}, \leq)
+  (\mathbb{Z}, \leq)^{\Delta[1]}  
 $$
 
 given by
@@ -300,12 +351,12 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func((\mathbb{Z}\cup \{-\infty\}, \leq) \times (\mathbb{Z}\cup \{-\infty\}, \leq), \mathcal{C})
+  Func((\mathbb{Z}\cup \{-\infty\}, \leq)^{\Delta[1]} , \mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
 
-restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category $Gap(\mathbb{Z},\mathcal{C})$ of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
+restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category $Gap(\mathbb{Z},\mathcal{C})$ of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}). The equivalence is given by left and right [[(∞,1)-Kan extension]].
 
 Dually:
 
@@ -314,7 +365,7 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
-  (\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq)
+  (\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}
 $$
 
 given by
@@ -328,7 +379,7 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func((\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq), \mathcal{C})
+  Func((\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]}, \mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
@@ -345,20 +396,34 @@ This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]].
 
 The inverse functor can be described informally as follows: 
 
-given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
+given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by the [[homotopy cofiber]]
 
-$$ X(n, n+r) = \operatorname{cofib}(X_n\to X_{n+r}). $$
+$$ X(n, n+r) = \operatorname{cofib}(X_n\to X_{n+r})$$
+
+making the square
+
+$$
+  \array{
+    & X(-\infty,n) &\longrightarrow& X(-\infty,n+r)
+    \\
+    & \downarrow && \downarrow
+    \\
+    0 \simeq & X(n, n) &\longrightarrow& X(n,n+r)
+  }
+$$
+
+be a [[homotopy pushout]].
 
 Dually:
 
-given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
+given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by the [[homotopy fiber]]
 
 $$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
 
 =--
 
 
-### The spectral sequence
+### The exact couple
 
 
 +-- {: .num_defn #ExactCoupleForFilteredObject}
@@ -398,10 +463,14 @@ $$
 
 =--
 
-This exact couple gives rise in the usual way to a spectral sequence. Explicitly:
+This exact couple gives rise in the usual way to a spectral sequence. 
 
+### The spectral sequence
 
-Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding chain complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
++-- {: .num_remark #LongExactSequencesOfHomotopyGroups}
+###### Remark
+
+Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding $\mathbb{Z}$-complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
 
 Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
 
@@ -418,6 +487,8 @@ $$
   \,.
 $$
 
+=--
+
 +-- {: .num_defn #TheSpectralSequence}
 ###### Definition
 
@@ -431,13 +502,13 @@ $$
     \pi_{p+q} X(p-1, p+r-1)
 $$
 
-in the abelian category $\mathcal{A}$, of the morphism $X((p-r,p) \leq (p-1,p+r-1))$. Moreover, define [[morphisms]]
+in the [[abelian category]] $\mathcal{A}$, of the morphism $X((p-r,p) \leq (p-1,p+r-1))$, so that $E_r^{p,q}$ is the [[image]] of this morphism. Moreover, define [[morphisms]]
 
 $$
   d_r \;\colon\; E_r^{p,q} \to E_r^{p-r, q+r-1}
 $$
 
-to be the restriction of the [[connecting homomorphism]] in the [[long exact sequence of homotopy groups]]
+to be the restriction (the [[image]] on morphisms) of the [[connecting homomorphism]] in the [[long exact sequence of homotopy groups]]
 
 $$
   \array{
@@ -447,7 +518,7 @@ $$
      &\longrightarrow&
      \pi_{p+q} X(p-1, p+r-1)
      \\
-     \downarrow && \downarrow && \downarrow
+     {}^{\mathllap{\delta}}\downarrow && \downarrow^{\mathrlap{d_r}} && \downarrow^{\mathrlap{\delta}}
      \\
      \pi_{p+q-1} X(p-2r, p-r)
      &\longrightarrow&
@@ -457,7 +528,8 @@ $$
   }
 $$
 
-from the above long exact sequence (with $i=p-2r$, $j=p-r$, and $k=p$).
+from the [[long exact sequence of homotopy groups]] of remark \ref{LongExactSequencesOfHomotopyGroups}, for the case  
+$i=p-2r$, $j=p-r$, and $k=p$ on the left and $i = p - r - 1$, $j = p-1$ and $k = p + r -1$ on the right.
 
 
 =--
@@ -471,7 +543,9 @@ $$
   E_1^{p,q} = \pi_{p+q} X(p-1,p) = \pi_{q} C_{p} 
 $$
 
-with $C_p$ on the right according to def. \ref{ChanComplexInducedFromZComplex}.
+where $C_p$ on the right is the $p$th element in the [[chain complex]]
+associated with $X(\bullet,\bullet)$ 
+according to def. \ref{ChanComplexInducedFromZComplex}.
 
 =--
 
@@ -500,7 +574,8 @@ $$
  \pi_{p} X(q,q+r) \to \pi_{p-1} X(q-r, q)
 $$
 
-from the above long exact sequence (with $i=q-r$, $j=q$, and $k=q+r$).
+from the long exact sequence of remark \ref{LongExactSequencesOfHomotopyGroups},  
+for the case  $i=q-r$, $j=q$, and $k=q+r$.
 
 
 =--
