@@ -920,7 +920,7 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 ## Related concepts
 
-* [[spectral sequence of a filtered stable homotopy type]]
+[[!include Lurie spectral sequences -- table]]
 
 ## References
 
