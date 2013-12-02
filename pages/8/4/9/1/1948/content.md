@@ -257,7 +257,13 @@ See also
 * [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
 
 [[!redirects model structures on functors]]
+
 [[!redirects injective model structure]]
 [[!redirects projective model structure]]
+[[!redirects projective model structure on functors]]
+
+[[!redirects projective model structure on functors]]
+
+
 [[!redirects global model structures on functor categories]]
 [[!redirects global model structure on functors]]
