@@ -20,9 +20,15 @@
 
 ## Idea
 
-Each [[filtered object|filtering]] on an [[object]] in a suitable [[stable (∞,1)-category]] (e.g. a [[stable homotopy type]]) induces a [[spectral sequence]] which under suitable conditions computes the [[homotopy groups]] of this object.
+Each [[filtered object|filtering]] on an [[object]] $X$ in a suitable [[stable (∞,1)-category]] $\mathcal{C}$ (a _[[stable homotopy type]]_ $X$) induces a [[spectral sequence]] whose first page consists of the [[homotopy groups]] of the [[homotopy cofibers]] of the filtering and which under suitable conditions converges to the [[homotopy groups]] of the total object $X$.
 
-This is a generalization of the traditional [[spectral sequence of a filtered complex]].
+This is a generalization of the traditional [[spectral sequence of a filtered complex]] to which it reduces for $\mathcal{C} = Ch_\bullet(\mathcal{A})$ an [[(∞,1)-category of chain complexes]] [[presentable (infinity,1)-category|presented]] in the projective [[model structure on chain complexes]].
+
+Moreover, by applying general [[(∞,1)-category theory|(∞,1)-categorical]] notion to naturally arising towers (such as the [[Whitehead tower]], the [[chromatic tower]]) it naturally produces more specialized spectral sequences (such as the [[Atiyah-Hirzebruch spectral sequence]], the [[chromatic spectral sequence]], etc.). Specifically, applied to a [[coskeleton]] tower of a dual [[Cech nerve]] of an [[E-∞ algebra]] $E$ it naturally produces the $E$-[[Adams spectral sequence]]. See the discussion of the _[Examples](#Examples)_ below.
+
+
+
+
 
 The general construction can be summarized as follows:
 
@@ -66,7 +72,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 
 =--
 
-### Filtered objects and their associated chain complexes
+### (Co-)Filtered objects and their (co-)chain complexes
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -114,7 +120,7 @@ This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
 The notions are equivalent under replacing $\mathcal{C}$ by its [[opposite category]] $\mathcal{C}^{op}$.
 
 
-+-- {: .num_remark}
++-- {: .num_remark #FilteredObjectInModelCategory}
 ###### Remark
 
 If $\mathcal{C}$ is [[presentable (infinity,1)-category|presented]] by a 
@@ -484,6 +490,7 @@ This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]].
 
 The inverse functor can be described informally as follows: 
 
+
 given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by taking each entry $X(n,n+r)$ to be given by the [[homotopy cofiber]] of $X_n \to X_{n+r}$
 
 $$ X(n, n+r) = \operatorname{cofib}(X_n\to X_{n+r})$$
@@ -553,7 +560,7 @@ $$
 
 This exact couple gives rise in the usual way to a spectral sequence. 
 
-### The spectral sequence
+### Spectral sequence of a filtered object
 
 +-- {: .num_remark #LongExactSequencesOfHomotopyGroups}
 ###### Remark
@@ -651,58 +658,8 @@ according to def. \ref{ChanComplexInducedFromZComplex}.
 
 ([[Higher Algebra|Higher Algebra, construction 1.2.2.6]])
 
-Another equivalent indexing convention can be useful:
-
-+-- {: .num_defn }
-###### Definition
-
-Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
-
-$$
-    \pi_{p} X(q-r+1,q+1)
-    \twoheadrightarrow
-    E^r_{p,q}
-    \hookrightarrow
-    \pi_{p} X(q, q+r)
-$$
-
-in the abelian category $\mathcal{A}$, and define the [[differential]]
-
-$$
-  d^r \;\colon\; E_{p,q}^r \to E_{p-1, q-r}^r
-$$
-
-to be the restriction of the [[connecting homomorphism]]
-
-$$
- \pi_{p} X(q,q+r) \to \pi_{p-1} X(q-r, q)
-$$
-
-from the long exact sequence of remark \ref{LongExactSequencesOfHomotopyGroups},  
-for the case  $i=q-r$, $j=q$, and $k=q+r$.
 
 
-=--
-
-
-
-
-+-- {: .num_prop}
-###### Proposition
-
-$d^r\circ d^r = 0$ and there are natural (in $X_\bullet$) isomorphisms
-
-$$
-E^{r+1}\cong \operatorname{ker}(d^r)/\operatorname{im}(d^r).
-$$
-
-Thus, $\{E^r_{*,*}\}_{r\geq 1}$ is a bigraded [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
-
-$$ E^1_{p,q} = \pi_p \operatorname{fib}(X_q\to X_{q+1}), \qquad d^r: E^r_{p,q}\to E^r_{p-1,q-r}. $$
-
-=--
-
-Dually:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -724,10 +681,17 @@ $$
   \,.
 $$
 
-Thus, $\{E_r^{*,*}\}_{r\geq 1}$ is a bigraded [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+Thus, $\{E_r^{\bullet,\bullet}\}_{r\geq 1}$ is a homology [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with first page 
 
 $$ 
-  E_1^{p,q} = \pi_{p+q} \operatorname{cofib}(X_p\to X_{p+1}), 
+  \begin{aligned}
+    E_1^{p,q} 
+     &= 
+    \pi_{p+q} \operatorname{cofib}(X_{p-1}\to X_{p})
+    \\
+    & \simeq \pi_q (C_p)
+  \end{aligned}
+  \,.
 $$
 
 =--
@@ -832,7 +796,7 @@ $$
 
 and that $\phi'\circ \phi$ is an [[epimorphism]] and $\psi \circ \phi'$ is a [[monomorphism]]. By the uniqueness of the [[image]] factorization in the [[abelian category]] $\mathcal{A}$, this will prove the proposition.
 
-To see that that $\pi_{p+q} X(p-r-1,p)$ is indeed in the [[kernel]] of $d_r$ consider the [[commuting diagram]]
+To see that $\pi_{p+q} X(p-r-1,p)$ is indeed in the [[kernel]] of $d_r$ consider the [[commuting diagram]]
 
 $$
   \array{
@@ -842,11 +806,10 @@ $$
     \\
     \pi_{p+q} X(p-r, p) &\longrightarrow& \pi_{p+q-1}X(p-2r, p-r)
     \\
+    \downarrow && \downarrow & \searrow
+    \\
     E_r^{p,q} &\stackrel{d_r}{\longrightarrow}& E_r^{p-r, q+r-1}
-    \\
-    && \downarrow & \searrow
-    \\
-    && && \pi_{p+q-1} X(p - r - 1, p-r)
+    && \pi_{p+q-1} X(p - r - 1, p-r)
     \\
     && \downarrow & \swarrow
     \\
@@ -859,13 +822,86 @@ Since the bottom right moprhism is a [[monomorphism]] by construction, the claim
 
 By an dual argument one has that $\pi_{p+q}X(p-1, p+r)$ is in the [[coimage]] of $d_r$. This shows that we indeed have the above sequence of morphisms $\stackrel{\phi}{\to}\stackrel{\phi'}{\to}\stackrel{\psi'}{\to}\stackrel{\psi}{\to}$.
 
-It now only remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].)
+It now remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].)
 
-(..)
-
-
+(...)
 
 
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ admit [[sequential colimits]] and let $X \simeq \underset{\longrightarrow}{\lim}_n X_n$ be a filtered object for filtering with $X_{n \lt 0} \simeq 0$. Then the above spectral sequence converges to the homotopy groups of $X$
+
+$$ 
+    E_1^{p,q} 
+    = 
+    \pi_{p+q} \operatorname{cofib}(X_{p-1}\to X_{p})
+    \simeq \pi_q (C_p)
+    \;\Rightarrow\;
+    \pi_{p+q} X
+  \,.
+$$
+
+=--
+
+
+([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
+
+### Spectral sequence of a cofiltered object
+
+We discuss here the dual notion to the spectral sequence
+of a filtered object above, now for a cofiltered object.
+
+> The following does not just dualize but also change the indexing convention on top of dualization. Needs further discussion/harmonization.
+
+Let $X_\bullet$ be a cofiltered object.
+
++-- {: .num_defn }
+###### Definition
+
+Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
+
+$$
+    \pi_{p} X(q-r+1,q+1)
+    \twoheadrightarrow
+    E^r_{p,q}
+    \hookrightarrow
+    \pi_{p} X(q, q+r)
+$$
+
+in the abelian category $\mathcal{A}$, and define the [[differential]]
+
+$$
+  d^r \;\colon\; E_{p,q}^r \to E_{p-1, q-r}^r
+$$
+
+to be the restriction of the [[connecting homomorphism]]
+
+$$
+ \pi_{p} X(q,q+r) \to \pi_{p-1} X(q-r, q)
+$$
+
+from the long exact sequence of remark \ref{LongExactSequencesOfHomotopyGroups},  
+for the case  $i=q-r$, $j=q$, and $k=q+r$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+$d^r\circ d^r = 0$ and there are natural (in $X_\bullet$) isomorphisms
+
+$$
+E^{r+1}\cong \operatorname{ker}(d^r)/\operatorname{im}(d^r).
+$$
+
+Thus, $\{E^r_{*,*}\}_{r\geq 1}$ is a bigraded [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+
+$$ E^1_{p,q} = \pi_p \operatorname{fib}(X_q\to X_{q+1}), \qquad d^r: E^r_{p,q}\to E^r_{p-1,q-r}. $$
 
 =--
 
@@ -913,6 +949,7 @@ The meaning of the word *canonical* in def. \ref{WeakAndStrongConvergence} is so
 
 Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits [[sequential limits]]. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $\underset{\leftarrow}{\lim} X_\bullet$ exists. Suppose further that:
 
+
 1. For every $n$, the diagram $r\mapsto \operatorname{fib}(X_{n-r}\to X_n)$ has a limit in $\mathcal{C}$ and that limit is preserved by $\pi$.
 2. For every $n$, $\pi_n(X_r)=0$ for $r\gg 0$.
 
@@ -930,10 +967,20 @@ $$
 
 There is also a dual statement in which limits are replaced by colimits, but it is in fact a special case of the proposition with $\pi$ replaced by $\pi^{op}$. A proof of this proposition (in dual form) is given in ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
 
-For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
 ## Examples
+ {#Examples}
 
+
++-- {: .num_example }
+###### Example
+
+For $\mathcal{A}$ a good [[abelian category]] and $\mathcal{C} = Ch_\bullet(\mathcal{A})$ the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$, we recover, by \ref{FilteredObjectInModelCategory},
+the traditional notion of a _[[spectral sequence of a filtered complex]]_.
+
+=--
+
+([[Higher Algebra|Higher Algebra, example 1.2.2.11]]).
 
 +-- {: .num_example }
 ###### Example
@@ -947,9 +994,12 @@ Let $\mathcal{C} = Spec^{op}$ be the opposite (∞,1)-category of spectra, let $
 
 The $E$-based [[Adams spectral sequence]] that approximates homotopy classes of maps between two spectra $X$ and $Y$ using a [[ring spectrum]] $E$ is a special case of the above spectral sequence, with $\mathcal{C}=Spec$, $\pi=[X,-]$, and the filtered object associated with the cosimplicial spectrum $E^{\wedge\bullet+1}\wedge Y$. Bousfield's theorems on the convergence of the Adams spectral sequence can be rephrased as giving sufficient conditions on $X$, $Y$, and $E$ for condition (1) in Proposition \ref{FiltrationSpectralSequence} to hold (see [Bousfield, Theorems 6.6 and 6.10](#Bousfield)).
 
+See _[[J-homomorphism and chromatic homotopy]]_ for an exposition.
+
 =--
 
 [[!include Lurie spectral sequences -- table]]
+
 
 ## References
 
