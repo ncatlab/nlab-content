@@ -182,9 +182,72 @@ If $\mathcal{C} = \mathbf{H}$ is an [[(∞,1)-topos]] then $\mathcal{C}^{\Delta^
 
 If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[internal language]] is [[homotopy type theory]], then the internal language of $\mathcal{C}^{\Delta^{op}}$ is that homotopy type theory equipped with the axioms for a [[linear interval]] object. (...)
 
-### Dold-Kan correspondence
+### Geometric realization and filtering
 
-* [[infinity-Dold-Kan correspondence]]
+The [[geometric realization]] ${\vert X_\bullet \vert}$ of a simplicial object $X_\bullet$  is, if it exists, the [[(∞,1)-colimit]] over the corresponding [[(∞,1)-functor]] $X_\bullet \;\colon\; \Delta^{op} \to \mathcal{C}$. 
+
+$$
+  {\vert X_\bullet \vert}
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_n X_n
+  \,.
+$$
+
+The [[geometric realization]] of the [[simplicial skeleta]] of $X_\bullet$
+
+$$
+  {\vert sk_0 X_\bullet \vert} \to {\vert sk_1 X_\bullet \vert} \to {\vert sk_2 X_\bullet \vert} \to \cdots
+  \,.
+$$
+
+constitutes a [[filtered object in an (infinity,1)-category|filtering]] on the [[geometric realization]] of $X_\bullet$ itself
+
+$$
+  {\vert X_\bullet \vert}
+  \simeq
+  \underset{\longrightarrow}{\lim}_n {\vert sk_n X_\bullet \vert}
+  \,.
+$$
+
+If $\mathcal{C}$ is a [[stable (∞,1)-category]], then the 
+the corresponding [[spectral sequence of a filtered stable homotopy type]] is the [[spectral sequence of a simplicial stable homotopy type]].
+
+### $\infty$-Dold-Kan correspondence
+
+The following statement is the _[[infinity-Dold-Kan correspondence]]_.
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]]. Then the [[(∞,1)-categories]] of non-negatively graded [[sequential diagram|sequences]] in $C$ is [[equivalence of (∞,1)-categories|equivalent]] to the [[(∞,1)-category]] of [[simplicial objects in an (∞,1)-category]] in $\mathcal{C}$
+
+$$
+  Fun(N(\mathbb{Z}_{\geq 0}), C)
+  \simeq
+  Fun(N(\Delta)^{op}, C)  
+  \,.
+$$
+
+Under this equivalence, a [[simplicial object]] $X_\bullet$ is sent to the [[sequential diagram|sequence]] of [[geometric realizations]] ([[(∞,1)-colimits]]) of its [[simplicial skeleta]]
+
+$$
+  {\vert sk_0 X_\bullet \vert} \to {\vert sk_1 X_\bullet \vert} \to {\vert sk_2 X_\bullet \vert} \to \cdots
+  \,.
+$$
+
+This constitutes a [[filtered object in an (infinity,1)-category|filtering]] on the [[geometric realization]] of $X_\bullet$ itself
+
+$$
+  {\vert X_\bullet \vert}
+  \simeq
+  \underset{\longrightarrow}{\lim}_n {\vert sk_n X_\bullet \vert}
+  \,.
+$$
+
+=--
+
+([[Higher Algebra|Higher Algebra, theorem 1.2.4.1]])
+
 
 ## Examples
 
@@ -211,10 +274,14 @@ If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[inte
 
 ## Reference
 
-Section 6.1.2 of 
+Simplicial objects in general [[(∞,1)-categories]] are discussed in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section 6.1.2 of _[[Higher Topos Theory]]_
  {#Lurie}
+
+Simplicial obects in [[stable (∞,1)-categories]] are discussed in
+
+* [[Jacob Lurie]], section 1.2.4 of _[[Higher Algebra]]_
 
 Related discussion is also in
 
