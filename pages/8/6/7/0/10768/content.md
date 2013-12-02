@@ -73,6 +73,10 @@ $$
 
 ([[Higher Algebra|Higher Algebra, remark 1.2.4.3, 1.2.4.4]])
 
+## Applications
+
+* [[J-homomorphism and chromatic homotopy]]
+
 ## Related concepts
 
 * [[spectral sequence of a simplicial stable homotopy type]]
@@ -87,3 +91,5 @@ $$
 later absorbed in
 
 * [[Jacob Lurie]], section 1.2.4 of _[[Higher Algebra]]_
+
+[[!redirects ∞-Dold-Kan correspondence]]
