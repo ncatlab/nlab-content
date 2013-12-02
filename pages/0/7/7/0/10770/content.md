@@ -635,6 +635,7 @@ In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and 
 ### Spectral sequences for homotopy groups of filtered spectra
  {#SpectralSequencesForHomotopyGroupsOfFilteredObjects}
 
+We discuss the [[spectral sequence of a filtered stable homotopy type]].
 
 Let throughout $\mathcal{C}$ be a [[stable (∞,1)-category]], $\mathcal{A}$ an [[abelian category]], and $\pi \;\colon\; \mathcal{C}\longrightarrow \mathcal{A}$ a [[homological functor]] on $\mathcal{C}$, i.e., a functor that transforms every [[cofiber sequence]]
 
@@ -690,7 +691,7 @@ We could also consider the sequential diagram as a filtering of its [[homotopy c
 Let $I$ be a [[linearly ordered set]]. An $I$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
-  F \;\colon\; I \times I \longrightarrow \mathcal{C}
+  F \;\colon\; I^{\Delta[1]} \longrightarrow \mathcal{C}
 $$
 
 such that 
@@ -746,7 +747,7 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
-  (\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq)
+  (\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]} 
 $$
 
 given by
@@ -759,7 +760,7 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func((\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq), \mathcal{C})
+  Func((\mathbb{Z}\cup \{\infty\}, \leq)^{\Delta[1]} , \mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
@@ -912,7 +913,7 @@ Plenty of types of [[spectral sequences]] turn out to be special cases of this g
 
 We discuss now the special case of coskeletally filtered 
 totalizations coming from the canonical cosimplicial objects
-induced from [[E-∞ algebras]] (dual [[Cech nerves]]/"[[Sweedler corings]]").
+induced from [[E-∞ algebras]] (dual [[Cech nerves]]/[[Sweedler corings]]/[[Amitsur complexes]]).
 
 In this form this appears as ([Lurie 10, theorem 2](#LurieLecture)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
 
@@ -920,15 +921,15 @@ In this form this appears as ([Lurie 10, theorem 2](#LurieLecture)). A review is
 +-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
 ###### Definition
 
-Given an [[cosimplicial object]] 
+Given an [[cosimplicial object in an (∞,1)-category]]  with [[(∞,1)-colimits]]
 
 $$
   Y \;\colon\; \Delta  \longrightarrow \mathcal{C}
 $$
 
 its [[totalization]] $Tot Y \simeq \underset{\leftarrow}{\lim}_n Y_n$
-is filtered, def. \ref{GeneralizedFilteredObject}, by the 
-totalizations of its [[coskeleton|coskeleta]]
+is [[filtered object in an (infinity,1)-category|filtered]], def. \ref{GeneralizedFilteredObject}, by the 
+totalizations of its [[coskeleta]]
 
 $$
   Tot Y 
@@ -946,14 +947,23 @@ $$
 
 =--
 
++-- {: .num_defn #SpectralSequenceOfSimplicialStableHomotopyType}
+###### Definition
+
+The [[spectral sequence of a filtered stable homotopy type|filtration spectral sequence]], prop. \ref{FiltrationSpectralSequence},
+applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, we call the _[[spectral sequence of a simplicial stable homotopy type]]_.
+
+=--
+
+([[Higher Algebra|Higher Algebra, prop. 1.2.4.5]])
+
 +-- {: .num_prop #E2PageByMooreComplex}
 ###### Proposition
 
-The [[spectral sequence of a filtered stable homotopy type|filtration spectral sequence]], prop. \ref{FiltrationSpectralSequence},
-applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as in def. \ref{FiltrationOfTotalizationByTotalizationOfCoskeleta}, has as $E_2$-term the [[cohomology groups]] of the [[Moore complex]] associated with the cosimplicial object
+The [[spectral sequence of a simplicial stable homotopy type]] has as first page/$E_1$-term the [[cohomology groups]] of the [[Moore complex]] associated with the [[cosimplicial objects]] of [[homotopy groups]]
 
 $$
-  E_2^{p,q}
+  E_1^{p,q}
   = 
   H^p(\pi_q(Tot (cosk_\bullet(Y))))
   \Rightarrow
@@ -961,10 +971,9 @@ $$
   \,.
 $$
 
-
 =--
 
-This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
+By the discussion at _[[∞-Dold-Kan correspondence]]_ and _[[spectral sequence of a filtered stable homotopy type]]_. This appears as ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  ([Wilson 13, theorem 1.2.4](#Wilson13)).
 
 
 
@@ -980,7 +989,7 @@ $$
 $$
 
 The _canonical [[cosimplicial object]]_ 
-associated to this (the "$\infty$-[[Sweedler coring]]") is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
+associated to this (the $\infty$-[[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]]) is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
 
 $$
   E^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
@@ -1017,6 +1026,8 @@ $$
 $$
 
 =--
+
+Reviewed for instance as ([Wilson 13, prop. 1.3.1](#Wilson13)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -1078,7 +1089,10 @@ from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalizatio
 
 =--
 
-We consider now condition for this morphism to be an [[equivalence]].
+([Lurie 10, lecture 30, prop. 1](LurieLecture))
+
+
+We consider now conditions for this morphism to be an [[equivalence]].
 
 +-- {: .num_defn #CoreOfARing}
 ###### Definition
@@ -1116,7 +1130,7 @@ $$
 =--
 
 
-([Bousfield 79](Bousfield+localization+of+spectra#Bousfield79)).
+([Bousfield 79](Bousfield+localization+of+spectra#Bousfield79), [Lurie 10, lecture 30, prop. 3](LurieLecture), [Lurie 10, lecture 31, ](LurieLecture)).
 
 
 ### The $E$-Adams-Novikov spectral sequence
@@ -1136,7 +1150,7 @@ $$
   E^{p,q}_\bullet \Rightarrow \pi_{q-p} L_{c \pi_0 E} X
 $$
 
-converging to the [[homotopy groups]] of the  $ c \pi_0(E)$-[[Bousfield localization of spectra|localization]] of $X$. If moreover the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ is [[flat module|flat]] as a [[module]] over $E_\bullet$, then, by prop. \ref{E2PageByMooreComplex} and remark \ref{ExtGroupsByMooreComplex}, the $E_2$-term of this spectral sequence is given by the [[Ext]]-groups over the $E$-[[Steenrod algebra|Steenrod]] [[commutative Hopf algebroid|Hopf algebroid]].
+converging to the [[homotopy groups]] of the  $ c \pi_0(E)$-[[Bousfield localization of spectra|localization]] of $X$. If moreover the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ is [[flat module|flat]] as a [[module]] over $E_\bullet$, then, by prop. \ref{E2PageByMooreComplex} and remark \ref{ExtGroupsByMooreComplex}, the $E_1$-term of this spectral sequence is given by the [[Ext]]-groups over the $E$-[[Steenrod algebra|Steenrod]] [[commutative Hopf algebroid|Hopf algebroid]].
 
 $$
   E^{p,q}_\bullet
