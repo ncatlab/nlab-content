@@ -44,6 +44,21 @@ $$
 
 For instance ([Lurie, def. 6.1.2.2](#Lurie)).
 
++-- {: .num_remark}
+###### Remark
+
+For $\mathcal{C}$ a [[1-category]] a simplicial object in $\mathcal{C}$ is a [[simplicial object]] in the traditional sense of [[category theory]].
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+A _cosimplicial object_ in $\mathcal{C}$ is a simplicial object in the [[opposite category]] $\mathcal{C}^{op}$.
+
+=--
+
 ## Properties
 
 ### Powering over simplicial sets
@@ -184,7 +199,7 @@ If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[inte
 
 ### Geometric realization and filtering
 
-The [[geometric realization]] ${\vert X_\bullet \vert}$ of a simplicial object $X_\bullet$  is, if it exists, the [[(∞,1)-colimit]] over the corresponding [[(∞,1)-functor]] $X_\bullet \;\colon\; \Delta^{op} \to \mathcal{C}$. 
+The _[[geometric realization]]_ ${\vert X_\bullet \vert}$ of a simplicial object $X_\bullet$  is, if it exists, the [[(∞,1)-colimit]] over the corresponding [[(∞,1)-functor]] $X_\bullet \;\colon\; \Delta^{op} \to \mathcal{C}$. 
 
 $$
   {\vert X_\bullet \vert}
@@ -192,6 +207,8 @@ $$
   \underset{\longrightarrow}{\lim}_n X_n
   \,.
 $$
+
+Hence the geometric realization of a cosimplicial object $\Delta^{op} \to \mathcal{C}^{op}$ -- called its [[totalization]] -- is the [[(∞,1)-limit]] over $\Delta \to \mathcal{C}$.
 
 The [[geometric realization]] of the [[simplicial skeleta]] of $X_\bullet$
 
@@ -279,17 +296,24 @@ Simplicial objects in general [[(∞,1)-categories]] are discussed in
 * [[Jacob Lurie]], section 6.1.2 of _[[Higher Topos Theory]]_
  {#Lurie}
 
-Simplicial obects in [[stable (∞,1)-categories]] are discussed in
-
-* [[Jacob Lurie]], section 1.2.4 of _[[Higher Algebra]]_
-
 Related discussion is also in
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#LurieGood}
+
+Simplicial obects in [[stable (∞,1)-categories]] are discussed in
+
+* [[Jacob Lurie]], section 1.2.4 of _[[Higher Algebra]]_
 
 
 [[!redirects simplicial objects in an (∞,1)-category]]
 [[!redirects simplicial objects in an (infinity,1)-category]]
 
 [[!redirects simplicial object in an (∞,1)-category]]
+
+[[!redirects cosimplicial object in an (∞,1)-category]]
+[[!redirects cosimplicial objects in an (∞,1)-category]]
+
+[[!redirects cosimplicial object in an (infinity,1)-category]]
+[[!redirects cosimplicial objects in an (infinity,1)-category]]
+
