@@ -212,3 +212,5 @@ A classical article that amplifies the connection of the coskeleton operation to
 [[!redirects coskeleta]]
 [[!redirects skeleta]]
 
+[[!redirects simplicial skeleta]]
+
