@@ -20,14 +20,13 @@
 
 ## Idea
 
-Each [[filtered object|filtering]] on an [[object]] $X$ in a suitable [[stable (∞,1)-category]] $\mathcal{C}$ (a _[[stable homotopy type]]_ $X$) induces a [[spectral sequence]] whose first page consists of the [[homotopy groups]] of the [[homotopy cofibers]] of the filtering and which under suitable conditions converges to the [[homotopy groups]] of the total object $X$.
+Each [[filtered object|filtering]] on an [[object]] $X$ in a suitable [[stable (∞,1)-category]] $\mathcal{C}$ (a _[[stable homotopy type]]_ $X$ such as a [[spectrum object]], in particular possibly a [[chain complex]]) induces a [[spectral sequence]] whose first page consists of the [[homotopy groups]] of the [[homotopy cofibers]] of the filtering and which under suitable conditions converges to the [[homotopy groups]] of the total object $X$.
 
 This is a generalization of the traditional [[spectral sequence of a filtered complex]] to which it reduces for $\mathcal{C} = Ch_\bullet(\mathcal{A})$ an [[(∞,1)-category of chain complexes]] [[presentable (infinity,1)-category|presented]] in the projective [[model structure on chain complexes]].
 
 Moreover, by applying general [[(∞,1)-category theory|(∞,1)-categorical]] notion to naturally arising towers (such as the [[Whitehead tower]], the [[chromatic tower]]) it naturally produces more specialized spectral sequences (such as the [[Atiyah-Hirzebruch spectral sequence]], the [[chromatic spectral sequence]], etc.). Specifically, applied to a [[coskeleton]] tower of a dual [[Cech nerve]] of an [[E-∞ algebra]] $E$ it naturally produces the $E$-[[Adams spectral sequence]]. See the discussion of the _[Examples](#Examples)_ below.
 
-
-
+Therefore in [[(∞,1)-category theory]] one finds a lucky coincidence of historical terminology: _[[spectral sequences]] are essentially [[sequential diagram|sequences]] of [[spectra]]_, when considered on homotopy groups.
 
 
 The general construction can be summarized as follows:
@@ -40,6 +39,7 @@ $$ \mathcal{C}\to\mathcal{A} $$
 from a [[stable (∞,1)-category]] to an [[abelian category]] induces a functor
 
 $$ Filt(\mathcal{C}) \to SpSeq(\mathcal{A}) $$
+
 
 from the stable (∞,1)-category of [[filtered object in an (∞,1)-category|filtered objects]] in $\mathcal{C}$ to the abelian category of bigraded [[spectral sequence|spectral sequences]] in $\mathcal{A}$. 
 =--
@@ -135,9 +135,10 @@ $$
 
 where $X_n^C \in C$ denotes an object in the model category presenting the given object $X_n \in \mathcal{C}$. 
 
-Moreover, in many [[model categories]] that appear in practice the cofibrations are in particular [[monomorphisms]] (for instance, by definition, in all [[Cisinski model structures]]). In these cases then a filtering on an object $X \in \mathcal{C}$ in the abstract sense of [[(∞,1)-categories]] is presented by a [[filtered object]] $X^C \in C$ in the sense of plain [[category theory]].
+Moreover, in many [[model categories]] that appear in practice the cofibrations are in particular [[monomorphisms]], notably in a projective [[model structure on chain complexes]]. In these cases then a filtering on an object $X \in \mathcal{C}$ in the abstract sense of [[(∞,1)-categories]] is presented by a [[filtered object]] $X^C \in C$ in the sense of plain [[category theory]].
 
-The intrisnic definition \ref{GeneralizedFilteredObject} makes manifest however that the [[monomorphism]]-aspect here is just a means of a presentation of the filtering and not an intrinsic aspect of the [[homotopy theory]]. 
+The intrinsic definition \ref{GeneralizedFilteredObject} makes manifest however that the [[monomorphism]]-aspect here is just a means of a presentation of the filtering and not an intrinsic aspect of the [[homotopy theory]]. 
+
  
 =--
 
@@ -205,7 +206,7 @@ for all $i \leq k$ and $k \leq l$  are [[homotopy pushout]] squares.
 =--
 
 
-+-- {: .num_defn #ChanComplexInducedFromZComplex}
++-- {: .num_defn #ChainComplexInducedFromZComplex}
 ###### Definition
 
 Given a $\mathbb{Z}$-chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
@@ -259,7 +260,7 @@ where the total outer [[homotopy pushout]] exhibits the [[suspension]] of $F(n-1
 +-- {: .num_prop #ZComplexInCInducedChainComplexInHoC}
 ###### Proposition
 
-The sequence $C_\bullet$ in def. \ref{ChanComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]], hence in that for all $n \in \mathbb{Z}$ we have that the composite 
+The sequence $C_\bullet$ in def. \ref{ChainComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]], hence in that for all $n \in \mathbb{Z}$ we have that the composite 
 
 $$
   d_n \circ d_{n+1} = 0
@@ -485,7 +486,7 @@ restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (�
 
 This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]. 
 
-+-- {: .num_remark}
++-- {: .num_remark #FromSequencesToZComplexes}
 ###### Remark
 
 The inverse functor can be described informally as follows: 
@@ -518,49 +519,15 @@ $$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
 =--
 
 
-### The exact couple
 
 
-+-- {: .num_defn #ExactCoupleForFilteredObject}
-###### Definition
-
-For a generalized filtered object $X_\bullet$, def. \ref{GeneralizedFilteredObject}, write 
-
-$$
-  K_n \coloneqq fib(X_n \to X_{n+1})
-$$
-
-for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$, and define an [[exact couple]]
-
-$$
-  \array{
-    && \pi_\bullet(K_\bullet)
-    \\
-    & \swarrow && \nwarrow
-    \\
-    \pi_\bullet(X_\bullet)
-    && 
-       \stackrel{}{\longrightarrow}
-    && 
-    \pi_\bullet(X_\bullet)
-  }
-$$
-
-where the maps are given by the long exact sequences
-
-$$
-  \cdots
-  \to
-  \pi_\bullet(X_{n+1})
-  \to 
-  \pi_\bullet(K_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(K_n) \to \cdots
-$$
-
-=--
-
-This exact couple gives rise in the usual way to a spectral sequence. 
 
 ### Spectral sequence of a filtered object
+ {#SpectralSequenceOfAFilteredObject}
+
+We discuss now how in the presence of [[sequential colimits]],
+every [[filtered object in an (infinity,1)-category|filtered object]]
+induces a [[spectral sequence]] which converges to its [[homotopy groups]], equipped with the induced filtering. The discussion for co-filtered objects is formally dual, but also spelled out [below](#SpectralSequenceOfACofilteredObject), for reference.
 
 +-- {: .num_remark #LongExactSequencesOfHomotopyGroups}
 ###### Remark
@@ -631,10 +598,10 @@ in the [[long exact sequence of homotopy groups]] of remark \ref{LongExactSequen
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #FirstPageOfTheSpectralSequence}
 ###### Remark
 
-For $r = 1$ in def. \ref{TheSpectralSequence} we have
+For $r = 1$ def. \ref{TheSpectralSequence} reduces to
 
 $$
   \begin{aligned}
@@ -652,7 +619,7 @@ $$
 
 where $C_p$ is the $p$th element in the [[chain complex]]
 associated with $X(\bullet,\bullet)$ 
-according to def. \ref{ChanComplexInducedFromZComplex}.
+according to def. \ref{ChainComplexInducedFromZComplex}.
 
 =--
 
@@ -661,7 +628,7 @@ according to def. \ref{ChanComplexInducedFromZComplex}.
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #ExistenceOfTheSpectralSequence}
 ###### Proposition
 
 In def. \ref{TheSpectralSequence}
@@ -822,41 +789,221 @@ Since the bottom right moprhism is a [[monomorphism]] by construction, the claim
 
 By an dual argument one has that $\pi_{p+q}X(p-1, p+r)$ is in the [[coimage]] of $d_r$. This shows that we indeed have the above sequence of morphisms $\stackrel{\phi}{\to}\stackrel{\phi'}{\to}\stackrel{\psi'}{\to}\stackrel{\psi}{\to}$.
 
-It now remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].)
-
-(...)
-
+It now remains to show that $\phi$ is an [[epimorphism]] (dually $\psi$ will be a [[monomorphism]].) (...[[Higher Algebra|Higher Algebra, p. 41]]...)
 
 
 =--
 
+We can now consider the convergence of the spectral sequence of prop. \ref{ExistenceOfTheSpectralSequence}. To state that efficiently, first consider the following definition
 
-+-- {: .num_prop }
++-- {: .num_defn #FilteringOnHomotopyGroups}
+###### Definition
+
+Given a [[filtered object in an (∞,1)-category|filtered object]], def. \ref{GeneralizedFilteredObject}, $X \simeq \underset{\longrightarrow}{\lim}_n X_n \in \mathcal{C}$, say that the induced [[filtered object|filtering]] on its [[homotopy groups]] $F^\bullet \pi_\bullet X$ is given by the [[images]] of the homotopy groups of the [[strata]] of $X$
+
+$$
+  F^p \pi_{p+q}X 
+   \coloneqq
+  im\left(
+    \pi_{p+q} X_{p} \to \pi_{p+q} X
+  \right)
+  \,.
+$$
+
+=--
+
+([[Higher Algebra|Higher Algebra, p. 43]])
+
++-- {: .num_prop #ConvergenceOfTheSpectralSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ admit [[sequential colimits]] and let $X \simeq \underset{\longrightarrow}{\lim}_n X_n$ be a filtered object for filtering with $X_{n \lt 0} \simeq 0$. Then the above spectral sequence converges to the homotopy groups of $X$
+Assume that  $\mathcal{C}$ admits all [[sequential colimits]] and let $X \simeq \underset{\longrightarrow}{\lim}_n X_n$ be a [[filtered object in an (∞,1)-category|filtered object]], def. \ref{GeneralizedFilteredObject}, for filtering with $X_{n \lt 0} \simeq 0$. Then the spectral sequence of prop. \ref{ExistenceOfTheSpectralSequence}, converges to the [[homotopy groups]] of $X$
 
 $$ 
+
     E_1^{p,q} 
     = 
     \pi_{p+q} \operatorname{cofib}(X_{p-1}\to X_{p})
     \simeq \pi_q (C_p)
     \;\Rightarrow\;
     \pi_{p+q} X
+  \,,
+$$
+
+where the first page is identified following remark \ref{FirstPageOfTheSpectralSequence}.
+
+In detail, for all $p,q \in \mathbb{Z}$ the [[differentials]] $d_r \colon E_r^{p,q} \to E_r^{p-r, q+r-1}$ vanish for $r \gt p$, and the [[colimit]] (in $\mathcal{A}$)
+
+$$
+  E^{p,q}_\infty \coloneqq \underset{\longrightarrow}{\lim}_{r \gt p} E_r
+$$
+
+is [[isomorphism|isomorphic]] to the [[associated graded object]] of the filtered homotopy groups of def. \ref{FilteringOnHomotopyGroups}:
+
+$$
+  E^{p,q}_\infty \simeq F^p \pi_{p+q}(X) / F^{p-1} \pi_{p+q}(X)
   \,.
 $$
 
 =--
 
+This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). A quick review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
 
-([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
++-- {: .proof}
+###### Proof
+
+The assumption $X_{n \lt 0} \simeq 0$  implies that for $i,j \lt 0$ we have, by remark \ref{FromSequencesToZComplexes},
+
+$$
+  X(i,j) \simeq cofif(X_i \to X_j) \simeq 0 \;\;\;\; for\, i,j \lt 0
+$$
+
+and therefore it follows that $E_r^{p-r,q+r-1}$, being a [[quotient]] of $\pi_{p+q} X(p-2r, p-r)$, vanishes for $r \gt p$.
+
+The same assumption implies that 
+
+$$
+  X(p-r,p) \simeq X(p) \;\;\;\; for\, p \gt r
+$$
+
+and so $E_\infty^{p,q}$ is 
+
+$$
+  E_\infty^{p,q} 
+    \simeq 
+  im\left(
+    \pi_{p+q} X_p \to \pi_{p+q} Y
+  \right)
+$$
+
+for 
+
+$$
+  Y \coloneqq \underset{\longrightarrow}{\lim}_r X(p-1,p+r)
+  \,.
+$$
+
+We need to show that this image is the [[associated graded object]] of the filtered homotopy groups.
+
+To that end, observe then that that [[homotopy fiber sequences]] $X_{p-1} \to X_{p+r} \to X(p-1,p+r)$ for all $r$ give a homotopy fiber sequence under the colimit over $r$ of the form
+
+$$
+  X_{p_1} \to X \to Y
+  \,.
+$$
+
+The corresponding [[long exact sequence of homotopy groups]] 
+truncates on the left to read
+
+$$
+  0 \to F^{p-1} \pi_{p+q}(X) \stackrel{ker(f')}{\hookrightarrow} \pi_{p+q} X \stackrel{f'}{\to} \pi_{p+q}Y
+  \,.
+$$
+
+By construction the morphism $f'$ appearing here factors the morphism $f$ whose image we need to compute as
+
+
+$$
+  \array{
+    && \pi_{p+q}X
+    \\
+    & {}^{\mathllap{g}}\nearrow && \searrow^{\mathrlap{f'}}
+    \\
+    \pi_{p+q} X(p)
+    && 
+      \stackrel{f}{\longrightarrow}
+    &&
+    \pi_{p+q} Y
+  }
+$$
+
+Using these relation we can now express $E_\infty^{p,q} \simeq im(f)$ as:
+
+$$
+  \begin{aligned}
+    E_\infty^{p,q}
+      & \simeq
+    im(f)
+      \\
+      & \simeq
+    im(f'|_{im(g)})
+      \\
+      & \simeq
+    im(f'|_{F^p \pi_{p+q} X})
+      \\
+       & \simeq
+     F^p \pi_{p+q}X/ker(f')
+      \\
+      & \simeq 
+     F^p \pi_{p+q} X/F^{p-1} \pi_{p+q}X
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+While historically the appearances of the root "spectr-" in "[[spectral sequence]]" and in "[[spectrum]]" ([[stable homotopy types]]) are unrelated, 
+prop. \ref{ExistenceOfTheSpectralSequence} and prop. \ref{ConvergenceOfTheSpectralSequence} say that there is a lucky coincidence of terminology: 
+
+_Every sequence of spectra manifests itself on homotopy groups in a spectral sequence_.
+
+Moreover, the discussion below in _[Examples](#Examples)_ shows that also conversely, essentially every spectral sequence that appears in practice comes from a sequence of spectra this way.
+
+(See also the title of ([Wilson 13](#Wilson13))).
+
+=--
+
 
 ### Spectral sequence of a cofiltered object
+ {#SpectralSequenceOfACofilteredObject}
 
 We discuss here the dual notion to the spectral sequence
 of a filtered object above, now for a cofiltered object.
 
 > The following does not just dualize but also change the indexing convention on top of dualization. Needs further discussion/harmonization.
+
++-- {: .num_defn #ExactCoupleForFilteredObject}
+###### Definition
+
+For a cofiltered object $X_\bullet$, def. \ref{GeneralizedFilteredObject}, write 
+
+$$
+  K_n \coloneqq fib(X_n \to X_{n+1})
+$$
+
+for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$, and define an [[exact couple]]
+
+$$
+  \array{
+    && \pi_\bullet(K_\bullet)
+    \\
+    & \swarrow && \nwarrow
+    \\
+    \pi_\bullet(X_\bullet)
+    && 
+       \stackrel{}{\longrightarrow}
+    && 
+    \pi_\bullet(X_\bullet)
+  }
+$$
+
+where the maps are given by the long exact sequences
+
+$$
+  \cdots
+  \to
+  \pi_\bullet(X_{n+1})
+  \to 
+  \pi_\bullet(K_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(K_n) \to \cdots
+$$
+
+=--
+
+This exact couple gives rise in the usual way to a spectral sequence. 
+
 
 Let $X_\bullet$ be a cofiltered object.
 
