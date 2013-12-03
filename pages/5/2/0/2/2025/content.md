@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
-
 
 # Contents 
 * table of contents
@@ -269,9 +268,9 @@ By general nonsense, every $\beta S$, regarded as a free $\beta$-algebra, is a c
 
 $$\beta: Set \to Comp$$ 
 
-is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __[[Stone--∞ech compactification]]__ functor (N.B.: for many authors, Stone-&#268;ech compactification refers to the restriction of this functor to [[Tychonoff spaces]] $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]]). 
+is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __[[Stone–?ech compactification]]__ functor (N.B.: for many authors, Stone--&#268;ech compactification refers to the restriction of this functor to [[Tychonoff spaces]] $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]] so that we have a [[compactification]] in the technical sense).
 
-A classical construction of the Stone-&#268;ech compactification starts with the unit [[interval]] $I =[0, 1]$ and proceeds to the [[codensity monad]] induced from the functor 
+A classical construction of the Stone--&#268;ech compactification starts with the unit [[interval]] $I =[0, 1]$ and proceeds to the [[codensity monad]] induced from the functor 
 
 $$\hom(-, I) \colon Top^{op} \to Set.$$ 
 
@@ -311,7 +310,7 @@ and since $\pi \circ h = f$, we conclude that $f$ factors through $i_X$. And mor
 =-- 
 
 
-We have a similar Stone-&#268;ech compactification functor $Loc \to Comp$; we do not need the ultrafilter principle here if $Comp$ is defined in terms of locales.
+We have a similar Stone--&#268;ech compactification functor $Loc \to Comp$; we do not need the ultrafilter principle here if $Comp$ is defined in terms of locales.
 
 ## Category of compacta 
 
