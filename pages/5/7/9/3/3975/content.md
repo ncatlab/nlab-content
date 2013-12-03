@@ -79,6 +79,9 @@ Together with [[closed natural transformations]], closed categories and closed f
 * If $C$ and $D$ are [[cartesian closed categories]], then any functor $F\colon C\to D$ is automatically colax monoidal, and it is strong (hence also lax) monoidal iff it preserves products.  By the above argument, any product-preserving functor between cartesian closed categories is automatically a lax closed functor.  If it is moreover a *strong* closed functor, we call it a **[[cartesian closed functor]]**. (See also _[[locally cartesian closed functor]]_.)
 
 
+## Related concepts
+
+* [[six operations]]
 
 ## References
 
