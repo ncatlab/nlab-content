@@ -36,13 +36,13 @@ $$
 
 hence an element of the space $Z(\partial \Sigma)$. Under holography, this element is identified with the [[partition function]] of an $n$-dimensional QFT evaluated on the manifold (without boundary) $\partial \Sigma$.
 
-The idea that some systems in physics are governed by other systems "localized at a boundary" in this kind of way was originally suggested by the behaviour of [[black holes]] in [[general relativity]]: their [[black hole entropy]] is proportional to their "surface", as reflected by the [[generalized second law of thermodynamics]]. This made [[Gerard 't Hooft]] suggest a general principle, called the _holographic principle_ , which however remained somewhat vague. ([t'Hooft 93](#tHooft93), [Susskind 94](#Susskind94)).
+The idea that some systems in physics are governed by other systems "localized at a boundary" in this kind of way was originally suggested by the behaviour of [[black holes]] in [[general relativity]]: their [[black hole entropy]] is proportional to their "surface", as reflected by the [[generalized second law of thermodynamics]]. This made [[Gerard 't Hooft]] suggest a general principle, called the _holographic principle_, which however remained somewhat vague ([t'Hooft 93](#tHooft93), [Susskind 94](#Susskind94)).
 
-Later two more precise classes of correspondences were identified, that are regarded now as precise examples of the general idea of the holographic principle:
+Later, two more precise classes of correspondences were identified, that are regarded now as precise examples of the general idea of the holographic principle:
 
 1. Systems of [[Chern-Simons theory]] and [[higher dimensional Chern-Simons theory]] can be shown explicitly to have spaces of states that are canonically identified with correlator spaces of [[CFT]]s ([[conformal block]]s) and [[self-dual higher gauge theory]] on their boundary. 
 
-   (The relation of traditinal 3d [[Chern-Simons theory]] to the 2d [[WZW model]] originates in ([Witten 89](#Witten89)) and hence precedes the proposal of ([t'Hooft 93](#tHooft93), [Susskind 94](#Susskind94)), but this relation was not recognized from this perpsecive earlier).
+   (The relation of traditional 3d [[Chern-Simons theory]] to the 2d [[WZW model]] originates in ([Witten 89](#Witten89)) and hence precedes the proposal of ([t'Hooft 93](#tHooft93), [Susskind 94](#Susskind94)), but this relation was not recognized from this perspective earlier.)
 
 1. Systems of [[quantum gravity]] in various dimensions as given by [[string theory]] on asymptotically [[anti de Sitter spacetime]]s have been checked not in total but in a multitude of special aspects in special cases to be dual to [[supersymmetric]] [[CFT]]s on their asymptotic boundary -- this is called [[AdS/CFT correspondence]].
 
@@ -67,9 +67,9 @@ The general idea is that [[field (physics)|fields]] $\phi$ in the bulk theory ar
 
 The archetypical example is the relation between the [[correlators]] of the [[WZW model]] on a [[Lie group]] $G$ with the [[space of quantum states]] of 3d $G$-[[Chern-Simons theory]], as reviewed for instance on page 30 of ([Gaw&#281;dzki 99](#Gawedzki99)):
 
-a [[correlator]] for the WZW model with source field $A$ has to satisfy a conformal transformation property called a [[Ward identity]]. The space of all suitable functionals satsfying these is the space of [[conformal blocks]]. That space is equivalently identified with the space of [[wave functions]] of Chern-Simons theory depending on the fields $A$, hence the quantum states of the CS theory. 
+a [[correlator]] for the WZW model with source field $A$ has to satisfy a conformal transformation property called a [[Ward identity]]. The space of all suitable functionals satisfying these identities is the space of [[conformal blocks]]. That space is equivalently identified with the space of [[wave functions]] of Chern-Simons theory depending on the fields $A$, hence the quantum states of the CS theory. 
 
-More generally, consider some $n$-dimensional [[FQFT]] $Z_B$ and assume that that [[spaces of states]] that it assigns to any $(n-1)$-dimensional manifold $X$ are of finite [[dimension]] (over some ground field $\mathbb{C}$):
+More generally, consider some $n$-dimensional [[FQFT]] $Z_B$ and assume that the [[spaces of states]] that it assigns to any $(n-1)$-dimensional manifold $X$ are of finite [[dimension]] (over some ground field $\mathbb{C}$):
 
 $$
   dim Z_B(X) \lt \infty
@@ -98,7 +98,7 @@ $$
 
 Stated differently: the vector space $Z_B(\partial \Sigma)$ is the space of all "potential correlators" of $Z_B$ and $\overline{Z_B(\Sigma)}$ is the particular one chosen by the given model. 
 
-If $Z_B$ is really a [[CFT]] one calls a subspace $Bl_B(\Sigma) \subset Z(\partial\Sigma)$ of elements that respect conformal invariance in a certain way the space of _[[conformal block]]s_ and calls the assignment $\Sigma \mapsto Bl_B(\sigma)$ the [[modular functor]] of the model.
+If $Z_B$ is really a [[CFT]] one calls a subspace $Bl_B(\Sigma) \subset Z(\partial\Sigma)$ of elements that respect conformal invariance in a certain way the space of _[[conformal block]]s_ and calls the assignment $\Sigma \mapsto Bl_B(\Sigma)$ the [[modular functor]] of the model.
 
 Notice that by looking at all "potential correlators" this way we are suddenly assigning vector spaces in codimension 0 (on $\Sigma$), even though the axioms of an [[FQFT]] a priori only mention vector spaces (of states) assigned in codimension 1. Given all these spaces of "[[conformal block]]s", the (re)construction of $Z_B$ consists of choosing inside each $Bl_B(\Sigma)$ the actual correlator $\overline{Z_B(\Sigma)}$ (this way of looking at [[TQFT]]s $B$ is actually the way in which [Atiyah]() originally formuated the axioms of [[FQFT]]).
 
@@ -136,9 +136,9 @@ Notice that $Z_A(\Sigma)$ is the space of **[[state]]s** of $A$ over $\Sigma$, w
 
 
 One of the key statements of the holographic principle is that
-[[field (physics)|fields]] of a [[bulk field theory]] correpond to [[sources]] in its [[boundary field theory]].
+[[field (physics)|fields]] of a [[bulk field theory]] correspond to [[sources]] in its [[boundary field theory]].
 
-One setup where this can be made a formal [[theorem]] is for [[2d Chern-Simons theory]] which is a [[non-perturbative field theory|non-perturbative]] [[Poisson sigma-model]]. This theorem is discussed at 
+One set-up where this can be made a formal [[theorem]] is for [[2d Chern-Simons theory]] which is a [[non-perturbative field theory|non-perturbative]] [[Poisson sigma-model]]. This theorem is discussed at 
 
 * _[off-shell Poisson bracket -- boundary field theory interpretation](#BoundaryFieldTheoryInterpretation)_.
 
@@ -162,7 +162,7 @@ Given any [[modular tensor category]] $C$ the [[Reshetikhin-Turaev construction]
 #### Ordinary Chern-Simons theory / WZW-model
  {#OrdinaryCSWZWModel}
 
-For a given [[Lie group]] $G$ Ordinary 3-dimensional $G$-[[Chern-Simons theory]] for a group $G$ is holographically dual to the 2-dimensional [[WZW-model]] describing the [[string]] propagating on $G$.
+For a given [[Lie group]] $G$, ordinary 3-dimensional $G$-[[Chern-Simons theory]] for a group $G$ is holographically dual to the 2-dimensional [[WZW-model]] describing the [[string]] propagating on $G$.
 
 Here is a list with aspects of this correspondence:
 
@@ -311,7 +311,7 @@ Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be t
 
 
 
-### Holographiy of AdS gravity/CFT-type
+### Holography of AdS gravity/CFT-type
 
 
 #### Type II on $AdS_5 \times S^5$ and $d = 4$ super Yang-Mills
