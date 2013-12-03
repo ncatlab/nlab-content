@@ -23,9 +23,12 @@ The construction goes back to and is named afzer
 
 A concise discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
 
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+
+Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
+
 * [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_ ([pdf](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
 
-* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
 
 [[!redirects Wirthmüller contexts]]
 
