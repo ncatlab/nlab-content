@@ -73,6 +73,8 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 * [[Grothendieck duality]], [[Verdier duality]]
 
+* [[Wirthmüller context]]
+
 ## References
 
 A general abstract discussion is in 
