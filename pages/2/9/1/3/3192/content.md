@@ -82,7 +82,7 @@ The subspace $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the spac
 +-- {: .num_prop }
 ###### Proposition
 
-The space $Fred$ of all Fredholm operators is a model for the [[classifying space]] of degree-0 [[topological K-theory]].
+The space $Fred$ of all Fredholm operators on an (infinite dimensional) [[separable Hilbert space]] is a model for the [[classifying space]] of degree-0 [[topological K-theory]].
 
 =--
 
@@ -102,11 +102,11 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ## Related concepts
 
-* [[Fredholm module]]
-
-* [[Dirac operator]], [[K-theory]]
+* 
 
 ## References
+
+Related $n$Lab entries: [[Fredholm module]], [[Fredholm determinant]], [[Dirac operator]], [[K-theory]], [[KK-theory]]
 
 * [wikipedia:Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)
 
