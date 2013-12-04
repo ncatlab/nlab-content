@@ -528,8 +528,9 @@ For a similar argument see Lawvere's  _[Cohesive toposes and Cantor's Lauter Ein
 $\flat X$ as well as $\sharp X$ have the same image under $\flat$.
 
 ###### $\;\;$ Remark: The Monad of Leibniz
+ {#TheMonadOfLeibniz}
 
-* &#167;348 We have previously referred to the Leibnizian idealism. We may add here that this idealism which started from the ideating monad, which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
+* &#167;348 We have previously referred to the [[Gottfried Leibniz|Leibnizian]] idealism. We may add here that this idealism which started from the ideating [[monad (disambiguation)|monad]], which is determined as being for itself, advanced only as far as the repulsion just considered, and indeed only to plurality as such, in which each of the ones is only for its own self and is indifferent to the determinate being and being-for-self of the others; or, in general, for the one, there are no others at all. The monad is, by itself, the entire closed universe; it requires none of the others. But this inner manifoldness which it possesses in its ideational activity in no way affects its character as a being-for-self. The Leibnizian idealism takes up the plurality immediately as something given and does not grasp it as a repulsion of the monads. Consequently, it possesses plurality only on the side of its abstract externality. 
 
   The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self. 
 
@@ -551,7 +552,7 @@ The complaint about Leibniz in &#167;348, makes pretty clear what this is about:
 
 > The atomistic philosophy does not possess the Notion of ideality; it does not grasp the one as an ideal being, that is, as containing within itself the two moments of being-forself and being-for-it, but only as a simple, dry, real being-for-self.
 
-Here "atoms" really refers to the decomposition of the continuum into points (atoms of space) because in &#167;337 it says:
+Here "atoms" really refers to the decomposition of the continuum into points (atoms of space, as in [[monad in nonstandard analysis]]) because in &#167;337 it says:
 
 > The one in this form of determinate being is the stage of the category which made its appearance with the ancients as the atomistic principle, according to which the essence of things is the atom and the void.
 
