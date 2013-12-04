@@ -1,4 +1,7 @@
 
+> In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *coordinate calculations*; it is usually combined with linear algebra taught in a geometric way. Analytic there pertains to the usage of coordinates. 
+Here we use analytic for kinds of [[geometry]] based on study of _[[analytic functions]]_ instead. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,10 +17,7 @@
 * table of contents
 {:toc}
 
-### Disambiguation 
 
-In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *coordinate calculations*; it is usually combined with linear algebra taught in a geometric way. Analytic there pertains to the usage of coordinates. 
-Here we use analytic for kinds of geometry based on study of _analytic_ functions instead. 
 
 ## Idea
 
@@ -110,7 +110,9 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 ## Related concepts
 
-* [[several complex variables]], [[analytic spectrum]], [[analytic space]], [[Stein space]]
+* [[several complex variables]], 
+
+* [[rigid analytic geometry]], [[analytic spectrum]], [[analytic space]], [[Stein space]], [[Berkovich space]]
 
 * [[Oka principle]], [[B1-homotopy theory]]
 
@@ -136,6 +138,12 @@ A gentle and modern introduction to [[complex manifolds]] that starts with an ex
 
 * Hans Grauert, Reinhold Remmert, _Theory of Stein spaces_, Grundlehren der Math. Wissenschaften __236__, Springer 1979, xxi+249 pp.; _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.; _Komplexe R&#228;ume_, Math. Ann. __136__, 1958, 245&#8211;318, [DOI](http://dx.doi.org/10.1007/BF01362011)
 
+Discussion of [[Berkovich space]] analytic geometry as [[algebraic geometry]] in the general sense of [[Bertrand Toën]] and [[Gabriele Vezzosi]] is in 
+
+* Oren Ben-Bassat, Kobi Kremnizer, _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+
 For more see the references at [[rigid analytic geometry]] and at [[analytic space]].
+
+
 
 category: analysis, geometry
