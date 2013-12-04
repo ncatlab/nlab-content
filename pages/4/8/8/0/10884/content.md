@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -41,6 +45,17 @@ on basic properties of [[E-∞ geometry]]
 ## 4. Completions of modules
 
 ## 5. Completions of spectral Deligne-Mumford stacks
+
+### 5.1 Formal completions
+
+### 5.2 Truncations in $QCoh(\mathcal{X}_K^{\wedge})$
+
+### 5.3 The Grothendieck existence theorem
+
+* [[Grothendieck existence theorem]]
+
+### 5.4 Algebraizability of formal stacks
+
 
 ## 6. Relationship with formal moduli problems
 
