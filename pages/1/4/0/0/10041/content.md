@@ -57,10 +57,13 @@ Accounts of the traditional notion include
 
 * [[Jacob Lurie]], lecture notes on _Verdier duality_ ([pdf](http://www.math.harvard.edu/~lurie/283notes/Lecture17-Verdier.pdf), [pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf))
 
+A general abstract formalization is in 
+
+* [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
 Discussion in the context of [[higher algebra]]/[[higher geometry]] is in 
 
-* Roy Joshua, _Generalised Verdier duality for presheaves of spectra&#8212;I_, Journal of Pure and Applied Algebra Volume 70, Issue 3, 29 March 1991, Pages 273&#8211;289
+* [[Roy Joshua]], _Generalised Verdier duality for presheaves of spectra&#8212;I_, Journal of Pure and Applied Algebra Volume 70, Issue 3, 29 March 1991, Pages 273&#8211;289
 
 * [[Jonathan Block]] and [[Andrey Lazarev]], _Homotopy Theory and Generalized Duality for Spectral Sheaves_, IMRN International Mathematics Research Notices
 1996, No. 20 ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockLazarevSpectralSheaves.pdf))
