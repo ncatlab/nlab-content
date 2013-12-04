@@ -61,6 +61,17 @@ $$
 and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism ([May 05](#May05)).
 
 
+## Examples
+
+### In $E_\infty$-geometry
+
+In [[E-∞ geometry]] left adjoints
+
+$$
+  f_! \;\colon\; QCoh(X) \longrightarrow QCo
+$$
+
+to the canonical [[inverse image]] map along a morphism of [[E-∞ geometry|E-∞ algebraic spaces]] is discussed in ([Lurie, prop. 3.3.23](#Lurie)).
 
 ## References
 
@@ -77,6 +88,12 @@ A clear discussion of axioms of [[six operations]] and their consequences, with 
 Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
 
 * [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_ ([pdf](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
+
+Discussion in [[E-∞ geometry]] is in
+
+* [[Jacob Lurie]], section 3.3. of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+ {#Lurie}
+
 
 
 [[!redirects Wirthmüller contexts]]
@@ -96,5 +113,4 @@ Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy 
 
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
-
 
