@@ -13,6 +13,6 @@ In [[category theory]] and [[computer science]] a _monad_ is a [[monoid]] [[acti
 
 * [[monad]] (in [[category theory]]) and [[monad (in computer science)]]
 
-To see this as an "atom" one observes that this is equivalently a [[lax 2-functor]] $\ast \longrightarrow Cat$ from the [[terminal category]] to the [[Cat|2-category of categories]] and hence a "point" in the canonical [[2-topos]].
+To see this as an "atom" one observes that this is equivalently a [[lax 2-functor]] $\ast \longrightarrow Cat$ from the [[terminal category]] to the [[Cat|2-category of categories]] and hence a [[global element|"point"]] in some 2-categorical sense.
 
 category: disambiguation
