@@ -6,7 +6,10 @@ __Gottfried Leibniz__ is responsible for lots of stuff:
 *  [[differentiation under the integral sign]] follows the _Leibniz integral rule_;
 *  [[identity of indiscernibles]] may be called the _Leibniz law_;
 *  a version of [[infinitesimals]] sometimes regarded as a precursor to [[synthetic differential geometry]];
-*  a philosophy involving 'monads', from which we get the names of both the [[monads]] of category theory and the [[infinitesimal neighbourhoods]] of [[nonstandard analysis]].
+
+*  a philosophy involving 'monads', from which we get the names of both the [[monads]] of category theory and the [[infinitesimal neighbourhoods]] of [[nonstandard analysis]], see at _[[monad in nonstandard analysis]]_
+
+   also see in [[Hegel]], _[[Science of Logic]]_ the section _[The monad of Leibniz](Science+of+Logic#TheMonadOfLeibniz)_
 
 
 ## References
