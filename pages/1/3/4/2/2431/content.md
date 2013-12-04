@@ -50,6 +50,8 @@ When the theorem is stated in terms of CW complexes, the second property (taking
 ## Generalizations
 
 ### Categorical Brown representability
+ {#CategoricalBrownRepresentability}
+
 
 Let $C$ be a [[category]] and $C_0$ an [[essentially small category|essentially small]] [[full subcategory]] such that
 
@@ -142,6 +144,11 @@ A review in the context of [[chromatic homotopy theory]] is in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
  {#Lurie}
+
+The relation to [[Grothendieck context|Grothendieck contexts]] ([[six operations]]) is highlighted in 
+
+* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([web](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
+ {#Neeman96}
 
 
 
