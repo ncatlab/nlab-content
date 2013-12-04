@@ -69,6 +69,7 @@ Discussion in the context of [[higher algebra]]/[[higher geometry]] is in
 * [[Vladimir Drinfeld]], [[Dennis Gaitsgory]], section 5.3 _On some finiteness questions for algebraic stacks_ ([arXiv:1108.5351](http://arxiv.org/abs/1108.5351))
 
 
+* [[Jacob Lurie]], section 4.2 of _[[Representability theorems]]_
 
 
 [[!redirects Verdier dualities]]
