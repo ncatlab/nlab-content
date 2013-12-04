@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -36,6 +40,8 @@ Further properties are discussed in
 
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions,
 and the Grothendieck Existence Theorem]]_
+
+* [[Jacob Lurie]], _[[Descent Theorems]]_
 
 * [[Jacob Lurie]], _[[Representability theorems]]_
 
