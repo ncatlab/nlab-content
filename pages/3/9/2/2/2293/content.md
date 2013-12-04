@@ -72,6 +72,12 @@ This definition is based on the observation that it is a deficiency of the ordin
 
 =--
 
+## Relation to derived noncommutative geometry
+
+In [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[triangulated category]] which is smooth and proper in an appropriate sense.  Given a [[scheme]] $X$ of [[finite type]] over a [[field]], it has an associated noncommutative space $Pf(X)$ which is its [[triangulated categories of sheaves|triangulated category of perfect complexes]].  $Pf(X)$ admits a [[generator]] $E$, and is equivalent to the category $Pf(A-Mod)$ of [[perfect]] [[dg-modules]] over the [[dg-algebra]] $A = RHom(E, E)$.
+Hence one may associate to $X$ the [[spectrum]] of this [[dg-algebra]], which is an [[affine]] [[derived scheme]] (when working over [[characteristic zero]]).
+In this way the [[spaces]] of [[derived noncommutative geometry]] that come from commutative [[schemes]] can indeed be viewed as [[derived schemes]].
+
 ## Applications 
 
 ### Elliptic cohomology
