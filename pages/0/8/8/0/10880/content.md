@@ -1,29 +1,78 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal categories]] which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
+A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal categories]] $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
 
-This is a special case of the [[six operations]]. From this perspective the adjoint triple is traditionally written
+This is the variant/special case of the [[yoga of six operations]] with two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ for $f^! \simeq f^\ast$. 
 
 $$
   f_! \dashv (f^! = f^\ast) \dashv f_\ast
+  \;\colon\;
+  \mathcal{X}
+    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^! = f^\ast }{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}}
+  \mathcal{Y}
   \,.
 $$
+
+(The other specialization of the [[six operations]] where $f_\ast \simeq f_!$ is called the _[[Grothendieck context]]_).
+
+Often one is interested in the case that there is an [[object]] $C \in \mathcal{Y}$ and an [[equivalence]]
+
+$$
+  f_\ast 1_{\mathcal{X}} \simeq f_! C
+  \,.
+$$
+
+If this induces a [[natural equivalence]]
+
+There is then a canonincal [[natural transformation]]
+
+$$
+  f_\ast A  \simeq f_!(A \otimes_X C)
+$$
+
+for $A \in \mathcal{X}$, then one says this is a _Wirthm&#252;ller isomorphism_, following ([Wirthmueller 74](#Wirthmueller74)).
+
+Specifically, there always is a canonical [[natural transformation]] 
+
+$$
+  f_\ast A  \longrightarrow f_!(A \otimes_X C)
+$$
+
+and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism ([May 05](#May05)).
+
 
 
 ## References
 
 The construction goes back to and is named afzer
 
-* * Klaus Wirthm&#252;ller, _Equivariant homology and duality_. Manuscripta Math. 11(1974), 373{390.
+* Klaus Wirthm&#252;ller, _Equivariant homology and duality_. Manuscripta Math. 11(1974), 373-390
+ {#Wirthmueller74}
 
-A concise discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
+A clear discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
 
 * H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+ {#May05}
 
 Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
 
@@ -47,7 +96,5 @@ Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy 
 
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
-
-
 
 
