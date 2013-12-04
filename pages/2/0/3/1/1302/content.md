@@ -454,19 +454,20 @@ The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasico
 
 ## References
 
-Quasicoherent sheaves on [[Spectral Schemes]] over [[E-infinity rings]] are discussed in 
+Quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [[E-∞ rings]]) are discussed in 
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
 
 Their [[descent]] properties are discussed in
 
-* [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
+* [[Jacob Lurie]], _[[Descent Theorems]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
 
 and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context is discussed in 
 
-* [[Jacob Lurie]], _Proper morphisms, completions, and the Grothendieck existence theorem_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
+* [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
 
 category: algebraic geometry
+
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
