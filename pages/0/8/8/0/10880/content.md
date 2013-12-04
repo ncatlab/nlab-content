@@ -73,6 +73,14 @@ $$
 
 to the canonical [[inverse image]] map along a morphism of [[E-∞ geometry|E-∞ algebraic spaces]] is discussed in ([Lurie, prop. 3.3.23](#Lurie)).
 
+The existence of [[dualizing modules]] $K$
+
+$$
+  D X = [X,K]
+$$ 
+
+([[Verdier duality]]) is in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
+
 ## References
 
 The construction goes back to and is named afzer
@@ -94,6 +102,7 @@ Discussion in [[E-∞ geometry]] is in
 * [[Jacob Lurie]], section 3.3. of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
  {#Lurie}
 
+* [[Jacob Lurie]], section 4.2 of _[[Representability theorems]]_
 
 
 [[!redirects Wirthmüller contexts]]
