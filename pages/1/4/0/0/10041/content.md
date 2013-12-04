@@ -31,7 +31,7 @@ In general abstract formulation one says that a locally compact [[site]] $X$ (e.
 
 
 
-If this is the case, then one has the _[[dualizing object]]_ $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra left adjoint of the [[ground ring]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object]] $V^\vee \coloneqq [V,\omega]$. The analog of [[Poincaré duality]] is then the statement that the [[abelian sheaf cohomology]] with [[coefficients]] in $V$ is dual to the abelian sheaf cohomology with [[compact support]] with coefficients in $V^\vee$.
+If this is the case, then one has the _[[dualizing object]]_ ([[dualizing module]]) $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra right adjoint of the [[ground ring]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object]] $V^\vee \coloneqq [V,\omega]$. The analog of [[Poincaré duality]] is then the statement that the [[abelian sheaf cohomology]] with [[coefficients]] in $V$ is dual to the abelian sheaf cohomology with [[compact support]] with coefficients in $V^\vee$.
 
 Concretely if $X$ is a [[manifold]], then $\omega$ is the sheaf of [[densities]] and if $V$ is a complex of (sections of) [[vector bundles]], then $V^\vee$ is the _densitized linear dual_.
 
