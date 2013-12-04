@@ -63,6 +63,10 @@ and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism 
 
 ## Examples
 
+### In equivariant stable  homotopy theory
+
+In [[equivariant stable homotopy theory]], see ([May 05b](#May05b)).
+
 ### In $E_\infty$-geometry
 
 In [[E-∞ geometry]] left adjoints
@@ -96,6 +100,7 @@ A clear discussion of axioms of [[six operations]] and their consequences, with 
 Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
 
 * [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_ ([pdf](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
+ {#May05b}
 
 Discussion in [[E-∞ geometry]] is in
 
@@ -122,4 +127,3 @@ Discussion in [[E-∞ geometry]] is in
 
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
-
