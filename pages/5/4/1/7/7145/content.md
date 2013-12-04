@@ -2,7 +2,7 @@
 Various concepts go by the name _monad_.
 
 
-Historically, going back to [[Gottfried Leibniz]], "monad" is used to refer to a kind of "[[atom]] of [[space]]" (see also in [[Science of Logic]] the section _[The Monad of Leibniz](Science%20of%20Logic#TheMonadOfLeibniz)_). In roughly this sense the term is used in 
+Historically, going back to [[Gottfried Leibniz]], "monad" is used to refer to a kind of "[[atom]]", for him a mind-like simple substance. Derived from this is the idea of an "atom of [[space]]" (see also in [[Science of Logic]] the section _[The Monad of Leibniz](Science%20of%20Logic#TheMonadOfLeibniz)_). In roughly this sense the term is used in 
 
 * [[monad in nonstandard analysis]]
 
