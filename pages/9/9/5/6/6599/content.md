@@ -15,7 +15,16 @@
 * table of contents
 {: toc}
 
+## Idea
+
+Given a [[homomorphism]] $f$ of [[schemes]], one says that it satisfies
+_Grothendieck duality_  if the ([[derived functor|derived]]) [[direct image]] functor $f_\ast$ on [[quasicoherent sheaves]] has a (derived) [[right adjoint]] $f^!$. This is [[Verdier duality]] in a "[[Grothendieck context]]" of [[six operations]].
+
+
+
+
 ## Statement
+
 
 Suppose $f\colon X \to Y$ is a [[quasi-compact map|quasi-compact]] and [[quasi-separated map|quasi-separated]] [[morphism]] of [[schemes]]; then the $\Delta$-[[Delta-functor|functor]] $\mathbf{R}f_*\colon D_{qc}(X)\to D(Y)$ has a bounded below [[right adjoint|right]] $\Delta$-[[Delta-adjoint|adjoint]]. In other words, $\mathbf{R}Hom_X(\mathcal{F}, f^\times \mathcal{G})\stackrel{\sim}{\to} \mathbf{R}Hom_Y(\mathbf{R}f_*\mathcal{F}, \mathcal{G})$ is a [[natural isomorphism]].
 
