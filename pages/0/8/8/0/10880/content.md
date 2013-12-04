@@ -22,7 +22,7 @@
 
 A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal categories]] $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
 
-This is the variant/special case of the [[yoga of six operations]] consistign of two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ and the [[tensor product]]/[[internal hom]] [[adjunctions]] $((-)\otimes B \dashv [B,-])$,  specialized to the case that  for $f^! \simeq f^\ast$. 
+This is the variant/special case of the [[yoga of six operations]] consisting of two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ and the [[tensor product]]/[[internal hom]] [[adjunctions]] $((-)\otimes B \dashv [B,-])$,  specialized to the case that  $f^! \simeq f^\ast$:
 
 $$
   f_! \dashv (f^! = f^\ast) \dashv f_\ast
@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-(The other specialization of the [[six operations]] where $f_\ast \simeq f_!$ is called the _[[Grothendieck context]]_).
+(The other specialization of the [[six operations]] to $f_\ast \simeq f_!$ is called the _[[Grothendieck context]]_).
 
 Often one is interested in the case that there is an [[object]] $C \in \mathcal{Y}$ and an [[equivalence]]
 
@@ -44,15 +44,12 @@ $$
 
 If this induces a [[natural equivalence]]
 
-There is then a canonincal [[natural transformation]]
-
 $$
   f_\ast A  \simeq f_!(A \otimes_X C)
 $$
 
 for $A \in \mathcal{X}$, then one says this is a _Wirthm&#252;ller isomorphism_, following ([Wirthmueller 74](#Wirthmueller74)).
-
-Specifically, there always is a canonical [[natural transformation]] 
+In particular there is a canonical [[natural transformation]] 
 
 $$
   f_\ast A  \longrightarrow f_!(A \otimes_X C)
@@ -62,6 +59,7 @@ and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism 
 
 
 ## Properties
+ {#Properties}
 
 ### The comparison maps
 
@@ -165,7 +163,7 @@ when the argument $B \in (\mathcal{Y}, \otimes_Y, 1_Y)$ is a [[dualizable object
 
 ### Comparison of push-forwards and Wirthm&#252;ller isomorphism
 
-+-- {: .num_cor}
++-- {: .num_cor #PushforwardsIntertwinedByDuality}
 ###### Corollary
 
 The functors $f_!$ and $f_\ast$ are intertwined by dualization, in that there is a [[natural equivalence]]
@@ -183,12 +181,10 @@ $$
 This is the special case of the property of $\overline{\gamma}$ in  prop. \ref{ComparisonIsEquivalenceOnDualizables}  for $B = 1_Y$:
 
 $$
-  \overline{\gamma}
-  \;\colon\;
   \mathbb{D}(f_! A)
   =  
   [f_! A, 1_Y]
-   \stackrel{\simeq}{\longrightarrow}
+   \underoverset{\simeq}{\overline{\gamma}}{\longrightarrow}
   f_\ast [A, f^\ast 1_Y]
   \simeq
   f_\ast [A, 1_Y]
@@ -204,7 +200,7 @@ $$
 
 $$
   f_\ast 1_X \simeq \mathbb{D}(f_! 1_X)
-  \..
+  \,.
 $$
 
 =--
@@ -212,10 +208,59 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $\mathbb{D} 1_X \simeq 1_X$.
+By cor. \ref{PushforwardsIntertwinedByDuality}, 
+since $\mathbb{D} 1_X \simeq 1_X$.
 
 =--
 
+
++-- {: .num_prop #AbstractWirthmuellerIso}
+###### Proposition
+**(Wirthm&#252;ller isomorphism)**
+
+If $f_! 1_X$ is a [[dualizable object]] with dual $f_! C$, then there is a [[natural equivalence]]
+
+$$
+  \omega
+   \;\colon\;
+  f_\ast f^\ast A \stackrel{\simeq}{\longrightarrow} f_!((f^\ast A) \otimes C)
+  \,.
+$$
+
+=--
+
+([May 05, prop. 4.13](#May05)).
+
+
++-- {: .num_remark #MonadCommutesWithDualityUpTotwist}
+###### Remark
+
+In particular if there is $D \in \mathcal{Y}$ with
+
+$$
+  \mathbb{D}(f_! f^\ast 1_Y) \simeq f_! f^\ast D
+$$
+
+
+(hence if $C \simeq f^\ast D$ in the notation of prop. \ref{AbstractWirthmuellerIso}) and using that by cor. \ref{PushforwardsIntertwinedByDuality},
+$
+  f_\ast f^\ast  \mathbb{D}B
+  \simeq
+  f_\ast \mathbb{D} f^\ast B
+  \simeq
+  \mathbb{D}(f_! f^\ast B)$
+then prop. \ref{AbstractWirthmuellerIso} gives a natural equivalence of the form
+
+$$
+  \mathbb{D}(f_! f^\ast B)
+    \stackrel{\simeq}{\longrightarrow}
+   f_! f^\ast ((\mathbb{D}B) \otimes D)
+  \,,
+$$
+
+saying that the [[monad]] $f_! f^\ast$ commutes with dualization up to a "twist" given by tensoring with $D$.
+
+=--
 
 
 
@@ -228,13 +273,13 @@ In [[equivariant stable homotopy theory]], see ([May 05b](#May05b)).
 
 ### In $E_\infty$-geometry
 
-In [[E-∞ geometry]] left adjoints
+In [[E-∞ geometry]], left adjoints
 
 $$
-  f_! \;\colon\; QCoh(X) \longrightarrow QCo
+  f_! \;\colon\; QCoh(X) \longrightarrow QCoh(Y)
 $$
 
-to the canonical [[inverse image]] map along a morphism of [[E-∞ geometry|E-∞ algebraic spaces]] is discussed in ([Lurie, prop. 3.3.23](#Lurie)).
+to the canonical [[inverse image]] map along a morphism $f \;\colon\; X \longrightarrow Y$ of [[E-∞ geometry|E-∞ algebraic spaces]] is discussed in ([Lurie, prop. 3.3.23](#Lurie)).
 
 The existence of [[dualizing modules]] $K$
 
@@ -242,7 +287,7 @@ $$
   D X = [X,K]
 $$ 
 
-([[Verdier duality]]) is in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
+is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
 
 ## References
 
