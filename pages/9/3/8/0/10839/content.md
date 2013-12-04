@@ -160,7 +160,7 @@ where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor
 
 =--
 
-This statement and the following prop. \ref{FormalEtalenessBydeRhamSpace} is a slight paraphrase of an observation due to ([Kontsevich-Rosenberg 04](Q-category#KontsevichRosenbergSpaces)).
+This statement and the following prop. \ref{FormalEtalenessBydeRhamSpace} is a slight paraphrase of an observation due to ([Kontsevich-Rosenberg 04](Q-category#KontsevichRosenbergSpaces)). A closely related adjunction appeared in ([Simpson-Teleman 13](de+Rham+space#SimpsonTeleman)) in the discussion of [[de Rham spaces]]. The general abstract situation of "[[differential cohesion]]" has been discussed in ([Schreiber 13](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)).
 
 +-- {: .proof}
 ###### Proof
