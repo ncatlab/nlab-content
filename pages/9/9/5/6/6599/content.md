@@ -41,3 +41,6 @@ Suppose $f\colon X \to Y$ is a [[quasi-compact map|quasi-compact]] and [[quasi-s
 also a file at K-theory archive [THESE.pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf)
 * Amnon Yekutieli, James Zhang, _Rigid dualizing complexes over commutative rings_, Algebr. Represent. Theory __12__ (2009), no. 1, 19&#8211;52, [doi](http://dx.doi.org/10.1007/s10468-008-9102-9)
 * Amnon Yekutieli, _The residue complex of a noncommutative graded algebra_, J. Algebra __186__ (1996), no. 2, 522&#8211;543; _Smooth formal embeddings and the residue complex_, Canad. J. Math. __50__ (1998), no. 4, 863&#8211;896, [MR99i:14004](http://www.ams.org/mathscinet-getitem?mr=1638635); _Rigid dualizing complexes via differential graded algebras (survey)_, in: Triangulated categories, 452&#8211;463, London Math. Soc. Lecture Note Ser. __375__, Cambridge Univ. Press 2010, [MR2011h:18015](http://www.ams.org/mathscinet-getitem?mr=2681716)
+
+* [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
+
