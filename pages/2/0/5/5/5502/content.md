@@ -21,6 +21,7 @@ form _six operations_.
 
 With a list of compatibility conditions between these (for instance ([Cisinski-D&#233;glise 09, p. x](#CisinskiDeglise09)) this is a structure of _Grothendieck's six operations_.
 
+
 These consistency conditions include the following:
 
 1. The adjunctions are functorial, hence form [[2-functors]] $f \mapsto f_*$, $f \mapsto f_!$:
@@ -62,6 +63,8 @@ Morover one imposes a formalization of [[Verdier duality]] with [[dualizing obje
 
 ([Cisinski-D&#233;glise 09, p. xi](#CisinskiDeglise09))
 
+
+
 ## Properties
 
 ### Relation to motivic homotopy theory
@@ -73,7 +76,7 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 * [[Grothendieck duality]], [[Verdier duality]]
 
-* [[Wirthmüller context]]
+* [[Wirthmüller context]], [[Grothendieck context]]
 
 ## References
 
