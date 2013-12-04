@@ -5,6 +5,8 @@
 
 ## Idea
 
+### General
+
 What is known as _(Grothendieck's) six operations_ is a formalization of structure that 
 
 * assigns to every [[morphism]] $f$ of suitable [[spaces]] a ([[derived direct image|derived]])[[direct image]]/([[derived inverse image|derived]])[[inverse image]] [[adjunction]] $(f^\ast \dashv f_*)$;
@@ -64,6 +66,14 @@ Morover one imposes a formalization of [[Verdier duality]] with [[dualizing obje
 ([Cisinski-D&#233;glise 09, p. xi](#CisinskiDeglise09))
 
 
+### Specializations
+
+Often specializations of the general concept play a role:
+
+* if $f^! \simeq f^\ast$: [[Wirthmüller context]]
+
+* if $f_! \simeq f_\ast$: [[Grothendieck context]]
+
 
 ## Properties
 
@@ -76,13 +86,14 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 * [[Grothendieck duality]], [[Verdier duality]]
 
-* [[Wirthmüller context]], [[Grothendieck context]]
 
 ## References
 
-A general abstract discussion is in 
+General abstract discussion is in 
 
 * H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+
+* [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
 The traditional applications are discussed in
 
