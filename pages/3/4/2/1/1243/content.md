@@ -21,9 +21,9 @@ A group is **torsion-free** if there is no such element apart from the neutral e
 
 Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. A **torsion module** is a module whose elements are all torsion. A torsion-free module is a module whose elements are not torsion, other than $0$. 
 
-Torsion and torsion-free classes of objects in an [[abelian category]] were introduced axomatically as a [[torsion theory]] (or torsion pair) in ([Dickson](#Dickson)).
+Torsion and torsion-free classes of objects in an [[abelian category]] were introduced axiomatically as a [[torsion theory]] (or torsion pair) in ([Dickson](#Dickson)).
 
-Notice that there are other, completely independent, concepts reffered to as _[[torsion]]_. See there for more.
+Notice that there are other, completely independent, concepts referred to as _[[torsion]]_. See there for more.
 
 ## Properties
 
