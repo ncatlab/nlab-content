@@ -22,7 +22,7 @@
 
 A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal categories]] $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
 
-This is the variant/special case of the [[yoga of six operations]] with two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ for $f^! \simeq f^\ast$. 
+This is the variant/special case of the [[yoga of six operations]] consistign of two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ and the [[tensor product]]/[[internal hom]] [[adjunctions]] $((-)\otimes B \dashv [B,-])$,  specialized to the case that  for $f^! \simeq f^\ast$. 
 
 $$
   f_! \dashv (f^! = f^\ast) \dashv f_\ast
@@ -61,6 +61,165 @@ $$
 and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism ([May 05](#May05)).
 
 
+## Properties
+
+### The comparison maps
+
++-- {: .num_remark #QuasiMonoidalnessOfLeftAdjoint}
+###### Remark
+
+In a Wirthm&#252;ller context, there is a canonical [[natural transformation]]
+
+$$
+  f_!(A \otimes_X B)
+    \longrightarrow
+  (f_! A) \otimes_Y (f_! B)
+  \,,
+$$
+
+(not necessarily an [[equivalence]]) being the [[adjunct]] of the composite
+
+$$
+  A \otimes_X B
+  \stackrel{}{\longrightarrow}
+  (f^\ast f_! A) \otimes_X (f^\ast f_! B)
+  \stackrel{\simeq}{\longrightarrow}
+  f^\ast ( (f_! A) \otimes_Y (f_! B) )
+  \,,
+$$
+
+where the first morphism is the [[tensor product]] of two copies of the
+[[unit of an adjunction|adjunction unit]] and where the second
+is the [[equivalence]] that exhibits $f^\ast$ as a [[strong monoidal functor]].
+
+
+=--
+
++-- {: .num_defn #ComparisonMaps}
+###### Defininition
+
+Write $\overline {\pi}$ for the [[natural transformation]]
+
+$$
+  \overline{\pi}
+  \;\colon\;
+  f_! ((f^\ast B) \otimes A) 
+  \longrightarrow 
+  B \otimes f_! A
+$$
+
+given as the composite
+
+$$
+  \overline{\pi}
+  \;\colon\;
+  f_! ((f^\ast B) \otimes A) 
+   \stackrel{}{\longrightarrow}
+  (f_! f^\ast B) \otimes_Y (f_! A)
+   \longrightarrow 
+  B \otimes f_! A
+  \,,
+$$
+
+where the first morphism is that of remark \ref{QuasiMonoidalnessOfLeftAdjoint} and where the second 
+is the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]] (tensored with an identity).
+
+Write
+
+$$
+  \overline{\gamma}
+    \;\colon\;
+  [f_! A, B]
+   \longrightarrow
+  f_\ast [A, f^\ast B]
+$$
+
+for the $(f^\ast \dashv f_\ast)$ [[adjunct]] of the [[natural transformation]] given as the composite
+
+$$
+  f^\ast [f_! A, B]
+   \stackrel{\simeq}{\longrightarrow}
+  [f^\ast f_! A, \, f^\ast B]
+   \longrightarrow
+  [A, f^\ast B]  
+  \,,
+$$
+
+where the first map exhibits $f^\ast$ as a [[closed monoidal functor]] and where the second is the $(f_! \dashv f^\ast)$-[[unit of an adjunction|unit]] (under the [[internal hom]]).
+
+=--
+
+see ([May 05, prop. 2.11](#May05))
+
++-- {: .num_prop #ComparisonIsEquivalenceOnDualizables}
+###### Proposition
+
+The comparison maps of def. \ref{ComparisonMaps} are [[equivalences]]
+when the argument $B \in (\mathcal{Y}, \otimes_Y, 1_Y)$ is a [[dualizable object]].
+
+=--
+
+([May 05, prop. 2.8 and prop. 2.11](#May05))
+
+
+
+### Comparison of push-forwards and Wirthm&#252;ller isomorphism
+
++-- {: .num_cor}
+###### Corollary
+
+The functors $f_!$ and $f_\ast$ are intertwined by dualization, in that there is a [[natural equivalence]]
+
+$$
+  \mathbb{D}(f_! A) \simeq f_\ast(\mathbb{D} A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the special case of the property of $\overline{\gamma}$ in  prop. \ref{ComparisonIsEquivalenceOnDualizables}  for $B = 1_Y$:
+
+$$
+  \overline{\gamma}
+  \;\colon\;
+  \mathbb{D}(f_! A)
+  =  
+  [f_! A, 1_Y]
+   \stackrel{\simeq}{\longrightarrow}
+  f_\ast [A, f^\ast 1_Y]
+  \simeq
+  f_\ast [A, 1_Y]
+  =
+  f_\ast \mathbb{D} A
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+$$
+  f_\ast 1_X \simeq \mathbb{D}(f_! 1_X)
+  \..
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $\mathbb{D} 1_X \simeq 1_X$.
+
+=--
+
+
+
+
+
 ## Examples
 
 ### In equivariant stable  homotopy theory
@@ -87,7 +246,7 @@ $$
 
 ## References
 
-The construction goes back to and is named afzer
+The construction goes back to and is named after
 
 * Klaus Wirthm&#252;ller, _Equivariant homology and duality_. Manuscripta Math. 11(1974), 373-390
  {#Wirthmueller74}
