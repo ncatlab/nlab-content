@@ -189,6 +189,11 @@ Relation to [[formal schemes]]:
 * J&#233;r&#244;me Poineau, [MO comment](http://mathoverflow.net/a/138577/381)
 
 
+Discussion of Berkovich analytic geometry as [[algebraic geometry]] in the general sense of [[Bertrand Toën]] and [[Gabriele Vezzosi]] is in 
+
+* Oren Ben-Bassat, Kobi Kremnizer, _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
+
+
 [[!redirects Berkovich analytic space]]
 [[!redirects Berkovich analytic spaces]]
 [[!redirects Berkovich spaces]]
