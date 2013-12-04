@@ -34,6 +34,8 @@ $$
 
 (The other specialization of the [[six operations]] where $f^\ast \simeq f^!$ is called the _[[Wirthmüller context]]_).
 
+The existence of the (derived) right adjoint $f^!$ to $f_\ast$ is what is called _[[Grothendieck duality]]_.
+
 ## Examples
 
 ### Quasicoherent sheaves on schemes
