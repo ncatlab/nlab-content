@@ -18,7 +18,7 @@
 
 Uniform spaces were invented by [[André Weil]], to capture a general notion of [[space]] for which it makes sense to speak of [[uniformly continuous map]]s. Such spaces include (pseudo)[[metric spaces]] and [[topological groups]].
 
-A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \varepsilon$, where $\varepsilon$ is a [[positive number]]. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a [[neighborhood]] of the identity.
+A _uniform structure_ or _uniformity_ on a [[set]] $X$ consists of a collection of global binary [[relations]] $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \varepsilon$, where $\varepsilon$ is a [[positive number]]. For a [[topological group]], we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a [[neighborhood]] of the identity.
 
 
 ## Definitions
