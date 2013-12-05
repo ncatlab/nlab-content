@@ -1,7 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-__Preconditioner__ (matrix) is a matrix which multiplies (from left or from right, thus left and right preconditioners) the matrix of coefficients of a system which discretizes a [[differential equation]] in order to get faster convergence (=smaller condition number) of iterative numerical solution techniques. As a technique, preconditioning is used also for
-optimization algorithms.  
+A __preconditioner__ (matrix) is a [[matrix]] which multiplies (from left or from right, thus left and right preconditioners) the matrix of [[coefficients]] of a system which discretizes a [[differential equation]] in order to get faster [[convergence]] (=smaller condition number) of iterative numerical solution techniques. As a technique, preconditioning is used also for optimization [[algorithms]].  
 
 ## Literature
 
