@@ -17,7 +17,7 @@
 
 This entry provides hyperlinks for central keywords of the text
 
-* [[Jacob Lurie]], _Structured Spaces_ ([arXiv:0905.0459](http://arxiv.org/abs/0905.0459))
+* [[Jacob Lurie]], _Structured Spaces_ ([arXiv:0905.0459](http://arxiv.org/abs/0905.0459), [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
 
 which develops the generalization of the notion of a [[ringed topos]] from [[topos theory]] to [[(∞,1)-topos theory]] and formulates basic notions of [[geometry]] in this context. 
 
@@ -50,4 +50,3 @@ A survey is at [[A Survey of Elliptic Cohomology - the derived moduli stack of d
       * [[derived Deligne-Mumford stack]]
 
     * [[derived smooth manifold]]
-
