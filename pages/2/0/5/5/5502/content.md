@@ -111,5 +111,6 @@ A quick list of the axioms with a  Grothendieck's six operations with an eye tow
 [[!redirects Grothendieck's six operations]]
 [[!redirects Grothendieck\'s six operations]]
 [[!redirects Grothendieck's six operations]]
+[[!redirects Grothendieck six operations]]
 [[!redirects yoga of six functors]]
 [[!redirects yoga of six operations]]
