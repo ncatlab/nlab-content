@@ -149,6 +149,8 @@ For more see [[generalized homology]].
 
 ## Related concepts
 
+* [[effective homology]]
+
 The relation between homology, cohomology and homotopy:
 
 [[!include homotopy-homology-cohomology]]
