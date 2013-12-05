@@ -22,19 +22,24 @@ Where a [[spectral sequence]] consists of [[objects]] and [[morphisms]] in an [[
 
 ## Examples
 
-* [[Bousfield-Kan spectral sequence]]
+The classical and motivating examples of a homotopy spectral sequence is the [[Bousfield-Kan spectral sequence]] which computes [[homotopy groups]] of ] a [[topological space]]/[[simplicial set]]/[[homotopy type]] realized as the [[totalization]] of a [[cosimplicial homotopy type]]. It may be regarded as the unstable analog of the [[Adams spectral sequence]], which computes homotopy groups of certain [[spectra]]. The corresponding [[spectral sequence]] for [[homology groups]] of the totalization of a [[cosimplicial homotopy type]] is the [[Eilenberg-Moore spectral sequence]].
 
 ## References
 
-The [[Bousfield-Kan spectral sequence]] is due to 
+
+The [[Bousfield-Kan spectral sequence]] was introduced and originally studied in
+
+* [[Aldridge Bousfield]], [[Daniel Kan]], _The homotopy spectral sequence of a space with coefficients in a ring_. Topology, 11, pp. 79&#8211;106, 1972.
 
 * [[Aldridge Bousfield]], [[Daniel Kan]], _A second quadrant homotopy spectral sequence_, Transactions of the American Mathematical Society Vol. 177, Mar., 1973 
 
-Further original articles include
+* [[Aldridge Bousfield]], [[Daniel Kan]], _Pairings and products in the homotopy
+spectral sequence_. Transactions of the American Mathematical Society, 177,
+pp. 319&#8211;343, 1973.
 
 * [[Aldridge Bousfield]], _Homotopy Spectral Sequences and Obstructions_, Isr. J. Math. 66 (1989), 54-104.
 
-A textbook account of this work is in 
+An early textbook account of this work is in 
 
 * [[Aldridge Bousfield]], [[Daniel Kan]], _Homotopy limits, completions and localization_, Springer 1972
 
@@ -43,8 +48,12 @@ A general abstract category-theoretic discussion is in
 * [[Marco Grandis]], _Homotopy spectral sequences_ ([arXiv:1007.0632](http://arxiv.org/abs/1007.0632))
 
 
-Lecture notes include
+Lecture notes on the [[Bousfield-Kan spectral sequence]] include
 
 * Bertrand Guillo, _The Bousfield-Kan spectral sequence_ [pdf](http://www.ms.uky.edu/~guillou/BKss.pdf)
+
+Discussion of this using [[effective homology]] includes
+
+* Romero Ibanez, _Efective homology and spectral sequences_, 2007 ([pdf](http://www.unirioja.es/cu/anromero/zgz07.pdf))
 
 [[!redirects homotopy spectral sequences]]
