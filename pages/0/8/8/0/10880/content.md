@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal categories]] $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
+A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ which are connected by an [[adjoint triple]] of [[functors]] such that the middle one is a [[closed monoidal functor]].
 
 This is the variant/special case of the [[yoga of six operations]] consisting of two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ and the [[tensor product]]/[[internal hom]] [[adjunctions]] $((-)\otimes B \dashv [B,-])$,  specialized to the case that  $f^! \simeq f^\ast$:
 
@@ -58,6 +58,33 @@ $$
 and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism ([May 05](#May05)).
 
 
+## Definition
+
++-- {: .num_defn #WirthmullerContext}
+###### Defininition
+
+Let $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ be two [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] and let 
+
+$$
+  f_! \dashv (f^! = f^\ast) \dashv f_\ast
+  \;\colon\;
+  \mathcal{X}
+    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^! = f^\ast }{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}}
+  \mathcal{Y}
+$$
+
+be an [[adjoint triple]] of [[functors]] between them. We call this setup
+
+* a _pre-Wirthm&#252;ller context_ if $f^\ast$ is a [[strong monoidal functor]]:
+
+* a _Wirthm&#252;ller context_ if $f^\ast$ is in addition a [[strong closed functor]], hence a strongly [[closed monoidal functor]].
+
+=--
+
+([May 05, def. 2.12](#May05))
+
+
+
 ## Properties
  {#Properties}
 
@@ -66,7 +93,8 @@ and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism 
 +-- {: .num_remark #QuasiMonoidalnessOfLeftAdjoint}
 ###### Remark
 
-In a Wirthm&#252;ller context, there is a canonical [[natural transformation]]
+In a pre-Wirthm&#252;ller context, def. \ref{WirthmullerContext}, 
+there is a canonical [[natural transformation]]
 
 $$
   f_!(A \otimes_X B)
@@ -96,7 +124,8 @@ is the [[equivalence]] that exhibits $f^\ast$ as a [[strong monoidal functor]].
 +-- {: .num_defn #ComparisonMaps}
 ###### Defininition
 
-Write $\overline {\pi}$ for the [[natural transformation]]
+In a pre-Wirthm&#252;ller context, def. \ref{WirthmullerContext},
+write $\overline {\pi}$ for the [[natural transformation]]
 
 $$
   \overline{\pi}
@@ -122,7 +151,7 @@ $$
 where the first morphism is that of remark \ref{QuasiMonoidalnessOfLeftAdjoint} and where the second 
 is the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]] (tensored with an identity).
 
-Write
+Also write
 
 $$
   \overline{\gamma}
@@ -152,13 +181,61 @@ see ([May 05, prop. 2.11](#May05))
 +-- {: .num_prop #ComparisonIsEquivalenceOnDualizables}
 ###### Proposition
 
-The comparison maps of def. \ref{ComparisonMaps} are [[equivalences]]
+In a pre-Wirthm&#252;ller context, def. \ref{WirthmullerContext}, the comparison maps of def. \ref{ComparisonMaps} are [[equivalences]]
 when the argument $B \in (\mathcal{Y}, \otimes_Y, 1_Y)$ is a [[dualizable object]].
+
+If either of the two happens to be a [[natural equivalence]] (hence an equivalence for all arguments), then so is the other.
 
 =--
 
 ([May 05, prop. 2.8 and prop. 2.11](#May05))
 
++-- {: .num_prop }
+###### Proposition
+
+Precisely if the pre-Wirthm&#252;ller context is a Wirthm&#252;ller context, def. \ref{WirthmullerContext}, are both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have
+by the $(f_! \dashv f^\ast)$-[[adjunction]] and the
+tensor$\dashv$hom-adjunction a [[commuting diagram]] of the form
+
+
+$$
+  \array{
+    \mathcal{Y}(f_! ((f^\ast B) \otimes A),\, C)
+     &
+      \stackrel{
+        \mathcal{Y}(\overline{\pi}(A,B), C)
+      }{
+        \longrightarrow
+     }
+     &
+    \mathcal{Y}(B \otimes f_! A, \, C  )
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+     &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathcal{X}(A, [(f^\ast B), (f^\ast C)])
+    &\stackrel{}{\longrightarrow}&
+    \mathcal{X}(A, f^\ast [B,C])
+  }
+  \,.
+$$
+
+By naturality in $A$ and by the [[Yoneda lemma]] this shows
+that $\overline{\pi}$ is an equivalence precisey if 
+$f^\ast$ is strong closed.
+
+For $\overline{\gamma}$ the same statement follows from this with 
+prop. \ref{ComparisonIsEquivalenceOnDualizables}.
+
+=--
 
 
 ### Comparison of push-forwards and Wirthm&#252;ller isomorphism
@@ -166,7 +243,7 @@ when the argument $B \in (\mathcal{Y}, \otimes_Y, 1_Y)$ is a [[dualizable object
 +-- {: .num_cor #PushforwardsIntertwinedByDuality}
 ###### Corollary
 
-The functors $f_!$ and $f_\ast$ are intertwined by dualization, in that there is a [[natural equivalence]]
+In a pre-Wirthm&#252;ller context, def. \ref{WirthmullerContext}, the functors $f_!$ and $f_\ast$ are intertwined by dualization, in that there is a [[natural equivalence]]
 
 $$
   \mathbb{D}(f_! A) \simeq f_\ast(\mathbb{D} A)
@@ -198,6 +275,8 @@ $$
 +-- {: .num_example}
 ###### Example
 
+In a pre-Wirthm&#252;ller context
+
 $$
   f_\ast 1_X \simeq \mathbb{D}(f_! 1_X)
   \,.
@@ -218,7 +297,7 @@ since $\mathbb{D} 1_X \simeq 1_X$.
 ###### Proposition
 **(Wirthm&#252;ller isomorphism)**
 
-If $f_! 1_X$ is a [[dualizable object]] with dual $f_! C$, then there is a [[natural equivalence]]
+In a Wirthm&#252;ller context, def. \ref{WirthmullerContext} if $f_! 1_X$ is a [[dualizable object]] with dual $f_! C$, then there is a [[natural equivalence]]
 
 $$
   \omega
@@ -307,6 +386,7 @@ Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy 
  {#May05b}
 
 Discussion in [[E-∞ geometry]] is in
+
 
 * [[Jacob Lurie]], section 3.3. of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
  {#Lurie}
