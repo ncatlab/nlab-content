@@ -19,7 +19,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -336,9 +336,9 @@ The notion of [[derivator]] is largely a tool for handling homotopy Kan extensio
 
 ## References
 
-For instance section A.3.3 of 
+General theory of homotopy Kan extensions is discussed in  
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section A.3.3 of _[[Higher Topos Theory]]_
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
@@ -346,9 +346,13 @@ and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monograph
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
 
-General background theory is discussed in
-
 * [[Jean-Marc Cordier]] and [[Tim Porter]], _Homotopy Coherent Category Theory_, Trans. Amer. Math. Soc. 349 (1997) 1-54.
+
+A list of basic properties is in 
+
+* [[Samuel Isaacson]], section 4 of _Exercises on homotopy colimits_ ([pdf](http://math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+
+
 
 
 
