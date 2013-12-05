@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
@@ -376,6 +380,7 @@ $$
 
 to the canonical [[inverse image]] map along a morphism $f \;\colon\; X \longrightarrow Y$ of [[E-∞ geometry|E-∞ algebraic spaces]] is discussed in ([Lurie, prop. 3.3.23](#Lurie)).
 
+
 The existence of [[dualizing modules]] $K$
 
 $$
@@ -383,6 +388,10 @@ $$
 $$ 
 
 is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
+
+## Related concepts
+
+* [[Verdier-Grothendieck context]]
 
 ## References
 
@@ -393,13 +402,17 @@ The construction goes back to and is named after
 
 A clear discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
 
-* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
  {#May05}
 
 Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
 
 * [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_ ([pdf](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
  {#May05b}
+
+More elaboration of the Wirthm&#252;ller context is in 
+
+* Baptiste Calm&#232;s, Jens Hornbostel, section 4 of _Tensor-triangulated categories and dualities_, Theory and Applications of Categories, Vol. 22, 2009, No. 6, pp 136-198 ([TAC](http://www.tac.mta.ca/tac/volumes/22/6/22-06abs.html), [arXiv:0806.0569](http://arxiv.org/abs/0806.0569))
 
 Discussion in [[E-∞ geometry]] is in
 
