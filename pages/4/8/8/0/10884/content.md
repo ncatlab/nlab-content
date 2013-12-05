@@ -26,7 +26,21 @@ on basic properties of [[E-∞ geometry]]
 * table of contents
 {:toc}
 
-## 1. Generalities on spectral algebraic spaces
+## 1. Generalities on spectral Deligne-Mumford stacks/algebraic spaces
+
+### 1.1 Points of spectral Deligne-Mumford stacks
+
+### 1.2 &#201;tale morphisms
+
+* [[étale morphism of schemes]]
+
+### 1.3 Localic spectral Deligne-Mumford stacks
+
+* [[algebraic space]]
+
+### 1.4 Quasi-compactness of spectral Deligne-Mumford stacks
+
+### 1.5 Local properties of spectral Deligne-Mumford stacks
 
 ## 2. Noetherian approximation
 
