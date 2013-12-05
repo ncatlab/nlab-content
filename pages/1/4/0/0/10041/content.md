@@ -26,15 +26,29 @@
 What is called _Verdier duality_  is the refinement of [[Poincaré duality]] from [[ordinary cohomology]] to [[abelian sheaf cohomology]]. 
 The Grothendieck [[six operations]] formalism is a formalization of aspects of Verdier duality.
 
-In general abstract formulation one says that a locally compact [[site]] $X$ (e.g. a [[locally compact topological space]]) _satisfies Verdier duality_ if there exists a [[derived functor|derived]] [[right adjoint]] $\mathbb{L}p^!$ to the operation $\mathbb{R}p_!$ of [[direct image with compact support]] for the terminal map $X \to \ast$. More generally, in the relative situation, for $f \colon X \to Y$ a map, Verdier duality of $f$ means that $\mathbb{R}f_!$ has a derived right adjoint. (If here $X$ is a [[scheme]] and $f_! \simeq f_\ast$ coincides with the [[direct image]] ("[[Grothendieck context]]") then this is called _[[Grothendieck duality]]_ ).
+In general abstract formulation one says that a locally compact [[site]] $X$ (e.g. a [[locally compact topological space]]) _satisfies Verdier duality_ if there exists a [[derived functor|derived]] [[right adjoint]] $\mathbb{L}p^!$ to the operation $\mathbb{R}p_!$ of [[direct image with compact support]] for the terminal map $X \to \ast$. More generally, in the relative situation, for $f \colon X \to Y$ a map, Verdier duality of $f$ means that $\mathbb{R}f_!$ has a derived right adjoint. If here $X$ is a [[scheme]] and $f_! \simeq f_\ast$ coincides with the [[direct image]] ("[[Grothendieck context]]") then this is called _[[Grothendieck duality]]_. Therefore one often speaks of _Verdier-Grothendieck duality_. 
 
 
 
-If this is the case, then one has the _[[dualizing object]]_ ([[dualizing module]]) $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra right adjoint of the [[ground ring]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object]] $V^\vee \coloneqq [V,\omega]$. The analog of [[Poincaré duality]] is then the statement that the [[abelian sheaf cohomology]] with [[coefficients]] in $V$ is dual to the abelian sheaf cohomology with [[compact support]] with coefficients in $V^\vee$.
+If these adjoints exist, then one has the _[[dualizing object]]_ ([[dualizing module]]) $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra right adjoint of the [[unit object]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object in a closed category]] 
+
+$$
+  \mathbb{D}V \coloneqq [V,\omega]
+  \,.
+$$ 
+
+The analog of [[Poincaré duality]] is then the statement that the [[abelian sheaf cohomology]] with [[coefficients]] in $V$ is dual to the abelian sheaf cohomology with [[compact support]] with coefficients in $\mathbb{D}V$.
 
 
+## Implementations
+
+A fairly general class of implementations of Verdier-Grothendieck duality is discussed in ([Joshua, theorem 1.3](#Joshua)).
+
+With assumption ([Joshua, 4.3](#Joshua)) this derives that dualization intertwines the two pushforwards as $\mathbb{D} \circ f_\ast \simeq f_! \circ \mathbb{D}$ ([Joshua, corollary 5.4](#Joshua)).
 
 ## Related concepts
+
+* [[Verdier-Grothendieck context]]
 
 * [[Grothendieck duality]]
 
@@ -48,6 +62,7 @@ The duality is named after [[Jean-Louis Verdier]].
 Accounts of the traditional notion include
 
 * [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. 9 (1996), 205&#8211;236. ([JSTOR](http://www.jstor.org/stable/2152846))
+ {#Neeman96}
 
 * Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
 
@@ -58,6 +73,7 @@ Accounts of the traditional notion include
 A general abstract formalization is in 
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
+ {#Joshua}
 
 Discussion in the context of [[higher algebra]]/[[higher geometry]] is in 
 
