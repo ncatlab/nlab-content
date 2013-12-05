@@ -10,7 +10,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -77,7 +77,7 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
 ### Functor categories
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Let $C$ be a [[complete category|complete]] closed monoidal category and $I$ any [[small category]].  Then the [[functor category]] $[I,C]$ is closed monoidal with the pointwise tensor product, $(F\otimes G)(x) = F(x) \otimes G(x)$.
 =--
@@ -97,9 +97,12 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
+
 * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
 
 * **closed monoidal category** ,  [[closed monoidal (∞,1)-category]]
+
+  * [[closed monoidal functor]]
 
 
 ##References#
