@@ -84,9 +84,11 @@ Morover one imposes a formalization of [[Verdier duality]] with [[dualizing obje
 
 Often specializations of the general concept play a role:
 
-* if $f^! \simeq f^\ast$: [[Wirthmüller context]]
+* [[Wirthmüller context]]: $f^! \simeq f^\ast$ and $f^\ast$ is a strong [[closed monoidal functor]]
 
-* if $f_! \simeq f_\ast$: [[Grothendieck context]]
+* [[Verdier-Grothendieck context]]: the "projection formula" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$
+
+* [[Grothendieck context]]: $f_! \simeq f_\ast$ and the projection formula holds $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$.
 
 
 ## Properties
@@ -105,7 +107,7 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 General abstract discussion is in 
 
-* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
