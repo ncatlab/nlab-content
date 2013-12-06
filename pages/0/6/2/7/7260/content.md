@@ -46,4 +46,4 @@
 
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
-* American Museum of Natural History, _Mind Explosion_ ([video](http://www.youtube.com/watch?v=PkNTzStmdJk))
+* American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
