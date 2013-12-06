@@ -3,7 +3,13 @@
 
 ## Related pages
 
+* [[dualizable object]]
+
+* [[Becker-Gottlieb transfer]]
+
 * [[associated infinity-bundle]]
+
+
 
 category: people
 
