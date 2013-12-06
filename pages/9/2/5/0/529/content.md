@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _group algebra_ of a [[group]] $G$ over a [[ring]] $R$ is the [[associative algebra]] whose elements are [[formal linear combinations]] over $R$ of the elements of $G$ and whose mutliplication is given on these [[basis]] elements by the group operation in $G$. 
+The _group algebra_ of a [[group]] $G$ over a [[ring]] $R$ is the [[associative algebra]] whose elements are [[formal linear combinations]] over $R$ of the elements of $G$ and whose multiplication is given on these [[basis]] elements by the group operation in $G$. 
 
 
 
@@ -129,6 +129,19 @@ The notion of group algebra is a special case of that of a [[groupoid algebra]],
 
 =--
 
+
+###For profinite groups
+
+The completed group ring of a [[profinite group]] is a pseudocompact ring.
+Let $\hat{\mathbb{Z}}$ be the [[profinite completion]] of the ring of integers, $\mathbb{Z}$, then $\hat{\mathbb{Z}}$  is itself a [[pseudocompact ring]] as it is the inverse limit of its _finite_ quotients.  Now let $G$ be a profinite group.
+
+
+The _completed group algebra, $\hat{\mathbb{Z}}[\![G]\!]$, of $G$ over $\hat{\mathbb{Z}}$ is the inverse limit of the ordinary group algebras, $\hat{\mathbb{Z}}[G/U] $, of the finite quotients, $G/U$ (for $U$ in the directed set, $\Omega(G)$, of open normal subgroups of $G$), over $\hat{\mathbb{Z}}$;
+
+$$\hat{\mathbb{Z}}[\![G]\!] = lim_{U\in \Omega(G)} \hat{\mathbb{Z}}[G/U].$$
+
+For $R$ a pseudocompact ring, it is then easy to construct the corresponding pseudo-compact group algebra of $G$ over $R$; see the paper by Brumer.
+
 ### For topological groups
  {#ForTopologicalGroups}
 
@@ -190,19 +203,26 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 * [[augmentation ideal]]
 
+* [[pseudocompact ring]]
+
 * [[∞-group ∞-ring]]
 
 ## References
 
 Lecture notes include
 
-* Kiyoshi Igusa, _algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
+* [[Kiyoshi Igusa]], _Algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
 The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]_) is discussed in
 
-* M. Farber, P. Vogel, _The Cohn locaization if the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+* [[M. Farber]], [[P. Vogel]], _The Cohn localization if the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
 * Davidson, Nicholas, _Modules Over Localized Group Rings for Groups Mapping Onto Free Groups_ (2011). Boise State University Theses and Dissertations. Paper 170. ([web](http://scholarworks.boisestate.edu/td/170/))
+
+For the case of profinite groups, see
+
+* A. Brumer, _Pseudocompact algebras, profinite groups and class formations_,  J. Algebra __4__ (1966) 442-470, [MR202790](http://www.ams.org/mathscinet-getitem?mr=202790), <a href="http://dx.doi.org/10.1016/0021-8693(66)90034-2">doi</a> [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/33410/0000811.pdf?sequence=1)
+
 
 [[!redirects group algebras]]
 
