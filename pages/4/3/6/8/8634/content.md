@@ -72,6 +72,10 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 
 =--
 
+## Examples
+
+* [[Cohn localization]]
+
 ## Related concepts
 
 * [[localization of a module]]
