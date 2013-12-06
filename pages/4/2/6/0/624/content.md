@@ -122,7 +122,9 @@ $$
   \,.
 $$
 
-If $\mathcal{C}$ is a [[compact closed category]] then $\mathbb{D}X$ is also a dual object to $X$ in the above monoidal sense.
+In a [[closed monoidal category]] $\mathbb{D}X$ is also called the _weak dual_ of $X$ (e.g. [Becker-Gottlieb, p. 5](#BeckerGottlieb)). If the induced morphism $X \to \mathbb{D}\mathbb{D}X$ is an [[equivalence]] this weak dual is called a _reflexive weak dual_.
+
+If $\mathcal{C}$ is a [[compact closed category]] then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] dual object to $X$ in the above monoidal sense.
 
 
 ## In a symmetric monoidal $(\infty,n)$-category
@@ -156,9 +158,10 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 ## References
 
-Duals in a monoidal category are a very classical notion. See, for instance,
+Duals in a closed/monoidal category are a very classical notion. See, for instance,
  
-* James C. Becker and Daniel Henry Gottlieb, _A History of Duality in Algebraic Topology_, ([pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf)), from p. 5.
+* [[James Becker]], [[Daniel Gottlieb]], from p. 5. in _A History of Duality in Algebraic Topology_, ([pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf)), 
+ {#BeckerGottlieb}
 
 
 A large number of examples can be found in
