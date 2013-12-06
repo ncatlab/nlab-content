@@ -29,10 +29,12 @@ For the moment see at _[regulator -- Becker-Gottlieb transfer](Beilinson+regulat
 
 The original article is
 
-* J. Becker, D. Gottlieb, _The transfer map and fiber bundles_ Topology , 14 (1975)
+* [[James Becker]], [[Daniel Gottlieb]], _The transfer map and fiber bundles_ Topology , 14 (1975)
  {#BeckerGottlieb75}
 
 (which also gives a proof of the [[Adams conjecture]]).
+
+* [[James Becker]], [[Daniel Gottlieb]], _Vector fields and transfers_ Manuscr. Math. , 72 (1991) pp. 111&#8211;130
 
 Reviews include
 
