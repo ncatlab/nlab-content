@@ -1,6 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -29,7 +47,7 @@ Anyway, to follow what Freyd is saying here a bit: by making choices for each su
 
 The sharp dichotomy which separates "abelianness" from "toposness" is concentrated in the following definition: 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \times X \to X$ be the two product projections. We say $X$ is of **type T** if $\pi_1$ is an isomorphism, and **type A** if $\pi_2$ is an isomorphism.
 =--
@@ -37,6 +55,10 @@ Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \tim
 A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
 
 Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks are included in parentheses. 
+
++-- {: .num_defn}
+###### Definition
+
 
 A category meeting the baseline assumptions above is an **AT category** if the following 8 axioms plus axiom "AE" are satisfied. 
 
@@ -74,18 +96,27 @@ Then $T$ preserves pullbacks.
 
 1. Given a morphism $f\colon X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
 
+=--
+
 This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. From this list alone one can prove that every AT category embeds faithfully in a product of a pretopos and an abelian category. To show that every AT category is _equivalent_ to such a product, Freyd appends the following axiom involving an existential Horn condition: 
 
-* **(AE)** For every object $X$, there is a map $\xi\colon T X \to X$ such that 
++-- {: .num_defn #AxiomAE}
+###### Definition
+**axiom (AE)** 
+
+For every object $X$, there is a map $\xi\colon T X \to X$ such that 
 $$0 \times X \stackrel{\pi_1}{\to} X \stackrel{\xi}{\leftarrow} T X$$ 
 is a coproduct diagram, and the canonical map $X \to T X$ is a retraction of $\xi$.  
+
+=--
+
 
 To bring actual toposes into the picture, Freyd adds some more axioms, but let's first take stock and see what this gives us so far. 
 
 
 ## Basic consequences of the AT axioms
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 For any $X$ the unique map $0 \to X$ is monic. 
 =--
@@ -99,7 +130,7 @@ $$0 \times X \stackrel{! \times 1_X}{\to} 1 \times X \cong X$$
 (which is just the second projection $\pi_2: 0 \times X \to X$) is monic. The unique map $0 \to 0 \times X$ is monic since it has a retraction $\pi_1: 0 \times X \to0$. The result follows. 
 =-- 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Binary coproducts exist. 
 =-- 
@@ -109,7 +140,7 @@ Binary coproducts exist.
 Because we can take the pushout of a pair of monos $0 \to X$, $0 \to Y$. 
 =-- 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Coproducts are disjoint. 
 =-- 
@@ -123,7 +154,7 @@ By axiom 3, the two coprojections $i_X \colon X \to X + Y$, $i_Y \colon Y \to X 
 
 In this section we show that the full subcategory of type A objects forms an abelian category. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma
 An object is of type A if and only if there exists a map to $0$. 
 =-- 
@@ -135,7 +166,7 @@ If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\
 
 From this lemma, it follows that the full subcategory of type A objects in an AT category $C$ is equivalent to the category $C/0$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Hence the category of type A objects is coreflective. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma
 Objects of type A are closed under binary products, finite coproducts, subobjects, and quotient objects (= cokernels of kernel pairs). 
 =-- 
@@ -155,7 +186,7 @@ K & \to & A \\
 
 Cokernels are defined dually, and can be formulated dually as certain pushouts. Since pushouts along monos exist, we can take the cokernel of any mono, and in particular the cokernel of any kernel. 
 
-+--{: .un_lem}
++--{: .num_lemma}
 ###### Lemma
 In the category of type A objects, every mono is the kernel of its cokernel, and every epi is the cokernel of its kernel. 
 =--
@@ -177,7 +208,7 @@ ker(f) & \to & A \\
 is also a pushout, so $f$ is the cokernel of its kernel. 
 =--
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem
 The category of type A objects is an abelian category. 
 =--
@@ -192,7 +223,7 @@ Any category with zero objects, binary products and coproducts, and in which eve
 
 Now we show that the full subcategory of type T objects is a pretopos. It is clear that $0 \times 0 \cong 0$ (since $0 \to 1$ is monic), so $0$ is a type T object. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma
 If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$. Type T objects are characterized by this property. 
 =-- 
@@ -202,7 +233,7 @@ If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$.
 There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. For the second statement, suppose that $X$ has the property that there is exactly one map $A \to X$ for each type A object. Such objects $X$ are closed under products, and $0$ is such an object; therefore $0 \times X$ is such an object. On the other hand, $0 \times X$ is of type A since it projects to $0$. Hence there is at most one morphism $0 \times X \to 0 \times X$, and it follows that $0 \times X \to 0 \to 0 \times X$ is the identity, so that $0 \times X \cong 0$. Thus $X$ is of type T. 
 =-- 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 The initial object $0$ is [[strict initial object|strict]] in the category of type T objects. 
 =--
@@ -212,7 +243,7 @@ The initial object $0$ is [[strict initial object|strict]] in the category of ty
 Given $T$ of type T and $T \to 0$, we know $T$ is type A, and therefore there is exactly one map $T \to T$. Hence $T \to 0 \to T$ is the identity, and of course so is $0 \to T \to 0$. So $T$ is initial. 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects.
 =--
@@ -222,7 +253,7 @@ The full subcategory of objects of type T is closed under products, coproducts, 
 Closure under products and subobjects is immediate from the lemma that characterizes type T objects in terms of maps out of type A objects. Closure under quotients and coproducts follows from axiom 4. 
 =--
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem
 The full subcategory of objects of type T is a pretopos. 
 =--
@@ -261,7 +292,7 @@ $$F = \langle 0 \times {-}, T \rangle\colon C \to C_A \times C_T$$
 
 and now we wish to prove, under a suitable additional axiom (also satisfied by every abelian category and every pretopos), that this is an equivalence. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma
 The functor $F$ is faithful. 
 =-- 
@@ -271,15 +302,20 @@ The functor $F$ is faithful.
 The functor $F$ is left exact and therefore preserves kernels. By axiom 8, $F$ reflects isomorphisms. It follows immediately from these two facts that $F$ is faithful. 
 =--
 
-* **Remark:** With this result, Freyd's "first task" is complete: any AT category may be faithfully represented in a product of a pretopos and an abelian category. 
++-- {: .num_remark}
+###### Remark
 
-At this point we bring in axiom **AE** for its debut appearance. It may be helpful to consider that $T X$ is by definition the cokernel appearing in the exact sequence 
+With this result, Freyd's "first task" is complete: any AT category may be faithfully represented in a product of a pretopos and an abelian category. 
+
+=--
+
+At this point we bring in axiom **AE**, def. \ref{AxiomAE}, for its debut appearance. It may be helpful to consider that $T X$ is by definition the [[cokernel]] appearing in the exact sequence 
 
 $$0 \times X \stackrel{\pi_2}{\to} X \to coker(\pi_2)$$ 
 
 and that axiom AE asserts that this exact sequence splits (with splitting $\xi: coker(\pi_2) \to X$), in such a way that $X$ is the coproduct of the end terms. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 The functor $F$ is full. 
 =--
@@ -294,7 +330,7 @@ f \downarrow & & & & \downarrow g \\
 Since $X = (0 \times X) + T X$, the two obvious arrows $0 \times X \to Y$, $T X \to Y$ combine to give an arrow $(f, g): X \to Y$. It is straightforward to check that $0 \times (f, g) = f$ (because the functor $0 \times -$ kills the type T summands) and that $T(f, g) = g$. 
 =-- 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ###### Theorem
 The functor $F$ is an equivalence. 
 =-- 
