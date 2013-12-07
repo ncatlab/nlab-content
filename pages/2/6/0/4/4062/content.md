@@ -136,6 +136,37 @@ then an [[adjunction]] in $K$ is a pair of [[dual objects]] and the mate-constru
 
 =--
 
++-- {: .num_example}
+###### Example
+
+
+Suppose given a [[commutative square]] (up to [[isomorphism]]) of [[functor]]s:
+$$\array{ & \overset{f^*}{\to} & \\
+  ^{g^*}\downarrow && \downarrow^{k^*}\\
+  & \underset{h^*}{\to} & }$$
+in which $f^*$ and $h^*$ have [[left adjoint]]s $f_!$ and $h_!$, respectively. (The classical example is a [[Wirthmüller context]].)  Then the [[natural isomorphism]] that makes the square commute 
+
+$$
+  k^* f^* \to h^* g^*
+$$
+
+has a mate
+
+$$ 
+  h_! k^* \to g^* f_! 
+$$
+
+defined as the composite
+
+$$ 
+  h_! k^* \overset{\eta}{\to} h_! k^* f^* f_! \overset{\cong}{\to} h_! h^* g^* f_! \overset{\epsilon}{\to} g^* f_!   
+  \,.
+$$
+
+Ones says that the original square satisfies the **[[Beck-Chevalley condition]]** if this mate is an [[equivalence]].
+
+=--
+
 ## Multi-variable mates
 
 There is a version of the mate correspondence that applies to [[two-variable adjunctions]] and $n$-variable adjunctions; see [Cheng-Gurski-Riehl](#CGR).
