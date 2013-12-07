@@ -1,6 +1,6 @@
 #Idea#
 
-A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _[[thin element|thin]]_ in that they are like identies or at least like equivalences in a [[higher category theory|higher category]].
+A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _[[thin element|thin]]_ in that they are like identities or at least like equivalences in a [[higher category theory|higher category]].
 
 The theory of [[simplicial weak ∞-categories]] is based on stratified simplicial sets.
 
@@ -24,7 +24,7 @@ $$
   \,.
 $$ 
 
-The [[category]] of startified simplicial sets and stratified maps between them is usually denoted $Strat$.
+The [[category]] of stratified simplicial sets and stratified maps between them is usually denoted $Strat$.
 
 This category is a [[quasitopos]].  Hence, in particular, it is [[cartesian closed category|cartesian closed]].
 
