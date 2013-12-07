@@ -11,13 +11,13 @@ r &= \sqrt{\sum_{i} g(\ell_{i}, \ell_{i})} \\
 \end{aligned}
 $$
 
-[[compact object#CompactnessInAdditiveCategories]]
+$\underset{\rightarrow}{\lim}_{n} X_n$
+$\varinjlim_n X_n$
+$\varprojlim_i$
 
-[[compact object#CompactnessInAdditiveCategories|compact object]]
-
-[compact object](http://ncatlab.org/nlab/show/compact+object#CompactnessInAdditiveCategories)
-
-[compact object](compact+object#CompactnessInAdditiveCategories)
+$\lim_{\stackrel{\longrightarrow}{n}} X_n$
+$\stackrel{\lim}{\longrightarrow}$
+$\stackrel{\stackrel{\lim}{\longrightarrow}}{n} X_n$
 
 ***
 ## Limit ##
