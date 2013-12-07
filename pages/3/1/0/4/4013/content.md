@@ -154,17 +154,25 @@ By axiom 3, the two coprojections $i_X \colon X \to X + Y$, $i_Y \colon Y \to X 
 
 In this section we show that the full subcategory of type A objects forms an abelian category. 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #tozero}
 ###### Lemma
 An object is of type A if and only if there exists a map to $0$. 
 =-- 
 
 +-- {: .proof}
 ###### Proof
-If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\to} 0$. Conversely, suppose there exists $p: X \to 0$. Note that since $0 \to 1$ is monic, there is at most one map $Y \to 0$ for any object $Y$. It follows quickly that maps $Y \to X$ are in natural bijective correspondence with maps $Y \to X \times 0$, so that $X \cong X \times 0$ by the Yoneda lemma.
+If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\to} 0$. Conversely, suppose there exists $p: X \to 0$. Note that since $0 \to 1$ is monic, there is at most one map $Y \to 0$ for any object $Y$. It follows quickly that maps $Y \to X$ are in natural bijective correspondence with maps $Y \to X \times 0$ by composition with $\pi_1: X \times 0 \to X$, so that $\pi_1$ is an isomorphism by the Yoneda lemma.
 =--
 
-From this lemma, it follows that the full subcategory of type A objects in an AT category $C$ is equivalent to the category $C/0$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Hence the category of type A objects is coreflective. 
++-- {: .num_prop #coreflective} 
+###### Proposition 
+The full subcategory of type A objects is coreflective. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By Lemma \ref{tozero}, the subcategory of type A objects in an AT category $C$ is equivalent to the subcategory $C/0 \hookrightarrow C/1 \simeq C$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Thus the category of type A objects is comonadic. 
+=-- 
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -223,7 +231,7 @@ Any category with zero objects, binary products and coproducts, and in which eve
 
 Now we show that the full subcategory of type T objects is a pretopos. It is clear that $0 \times 0 \cong 0$ (since $0 \to 1$ is monic), so $0$ is a type T object. 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #exactlyone}
 ###### Lemma
 If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$. Type T objects are characterized by this property. 
 =-- 
@@ -233,24 +241,24 @@ If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$.
 There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. For the second statement, suppose that $X$ has the property that there is exactly one map $A \to X$ for each type A object. Such objects $X$ are closed under products, and $0$ is such an object; therefore $0 \times X$ is such an object. On the other hand, $0 \times X$ is of type A since it projects to $0$. Hence there is at most one morphism $0 \times X \to 0 \times X$, and it follows that $0 \times X \to 0 \to 0 \times X$ is the identity, so that $0 \times X \cong 0$. Thus $X$ is of type T. 
 =-- 
 
-+-- {: .num_cor}
++-- {: .num_corollary #strict}
 ###### Corollary
 The initial object $0$ is [[strict initial object|strict]] in the category of type T objects. 
 =--
 
 +-- {: .proof}
 ###### Proof
-Given $T$ of type T and $T \to 0$, we know $T$ is type A, and therefore there is exactly one map $T \to T$. Hence $T \to 0 \to T$ is the identity, and of course so is $0 \to T \to 0$. So $T$ is initial. 
+Given $T$ of type T and $T \to 0$, we know $T$ is type A, and therefore by Lemma \ref{exactlyone} there is exactly one map $T \to T$. Hence $T \to 0 \to T$ is the identity, and of course so is $0 \to T \to 0$. So $T$ is initial. 
 =--
 
-+-- {: .num_cor}
++-- {: .num_corollary #closed}
 ###### Corollary
 The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects.
 =--
 
 +-- {: .proof}
 ###### Proof
-Closure under products and subobjects is immediate from the lemma that characterizes type T objects in terms of maps out of type A objects. Closure under quotients and coproducts follows from axiom 4. 
+Closure under products and subobjects is immediate from Lemma \ref{exactlyone}. Closure under quotients and coproducts follows from axiom 4. 
 =--
 
 +-- {: .num_theorem}
@@ -260,7 +268,7 @@ The full subcategory of objects of type T is a pretopos.
 
 +-- {: .proof}
 ###### Proof
-The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that in the full subcategory of $T$ objects, pushouts along monos are stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
+Corollary \ref{closed} gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that in the full subcategory of $T$ objects, pushouts along monos are stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict by Corollary \ref{strict}. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
 
 
@@ -268,7 +276,7 @@ The previous proposition gives finite completeness, coproducts, and quotients of
 
 In this section we show that every AT category $C$ is the product of the abelian category $C_A$ of type A objects and the pretopos $C_T$ of type T objects. 
 
-Let us first observe that the coreflector 
+Let us first observe that the coreflector (see Proposition \ref{coreflective}) 
 
 $$0 \times {-}\colon C \to C_A$$ 
 
