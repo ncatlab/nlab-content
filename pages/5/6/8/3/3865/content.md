@@ -1,34 +1,35 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### AQFT
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
 This page is about unbounded [[linear operator]]s on [[Hilbert space]]s. For operators on Hilbert spaces, "bounded" and "continuous" are synonymous, so the first question to be answered is: Why consider unbounded, i.e., discontinuous operators in a category that is a [[subcategory]] of [[Top]]? The reason is simple: It is forced upon us both by applications, such as [[quantum mechanics]], and by the fact that simple and useful operators like differentiation are not bounded. Happily, in most applications the operators considered retain some sort of "limit property", namely the property of being "closed". Although that seems to be negligible compared to continuity, it allows the development of a rich and useful theory, and as a consequence there is a tremendous amount of literature devoted to this subject. 
 
 One way of dealing with unbounded operators is via [[affiliated operator]]s, see there.
-  
+
+
 ### Example: differentiation is unbounded
 
 Let $\mathcal{H}$ be the Hilbert space $L^2(\mathbb{R})$, and let $T$ be the differentiation operator defined on the dense subspace of Schwartz functions $f$ by $Tf(x) \coloneqq f'(x)$. One might hope $T$ has a continuous extension to all of $L^2$, but consider the sequence $f_k(x) := \exp(-k|x|)$ for $k \in \mathbb{N}$. Then we have $\frac{\|Tf_k\|}{\|f_k\|} = k$, so $T$ is unbounded. 
 
-Note that the domain of definition of an unbounded operator will generally be given only on a dense subspace, as in this example. 
+Note that the domain of definition of an unbounded operator will generally be given only on a dense subspace, as in this example. Indeed, the existence of unbounded operators defined everywhere (on a Hilbert space) is non-[[constructive mathematics|constructive]], relying on the [[Hahn–Banach theorem]] and refutable in [[dream mathematics]].
+
 
 ## Summary
 
@@ -213,8 +214,13 @@ Nelson's example is taken from the above reference, the original reference is th
 
 * Edward Nelson: _Analytic Vectors_ Ann.Math. 70, p.572-615, 1959
 
+
+[[!redirects unbounded operator]]
 [[!redirects unbounded operators]]
-[[!redirects closable operator]]
-[[!redirects closed operator]]
 [[!redirects unbounded linear operator]]
 [[!redirects unbounded linear operators]]
+
+[[!redirects closable operator]]
+[[!redirects closable operators]]
+[[!redirects closed operator]]
+[[!redirects closed operators]]
