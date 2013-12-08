@@ -45,6 +45,13 @@ This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda
 
 ## References
 
+An original article is
+
 * [[R. Street]], _The formal theory of monads_, J. Pure Appl. Alg. __2__, 149&#8211;168 (1972)
+
+Generalization from [[monads]] to more general [[categories enriched in a bicategory]] (where "Kleisli objects" are then called "collages") is in 
+
+* [[Richard Garner]], [[Michael Shulman]], _Enriched categories as a free cocompletion_ ([arXiv:1301.3191](http://arxiv.org/abs/1301.3191))
+ {#GarnerShulman13}
 
 [[!redirects Kleisli objects]]
