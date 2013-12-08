@@ -136,7 +136,7 @@ The completed group ring of a [[profinite group]] is a pseudocompact ring.
 Let $\hat{\mathbb{Z}}$ be the [[profinite completion]] of the ring of integers, $\mathbb{Z}$, then $\hat{\mathbb{Z}}$  is itself a [[pseudocompact ring]] as it is the inverse limit of its _finite_ quotients.  Now let $G$ be a profinite group.
 
 
-The _completed group algebra, $\hat{\mathbb{Z}}[\![G]\!]$, of $G$ over $\hat{\mathbb{Z}}$ is the inverse limit of the ordinary group algebras, $\hat{\mathbb{Z}}[G/U] $, of the finite quotients, $G/U$ (for $U$ in the directed set, $\Omega(G)$, of open normal subgroups of $G$), over $\hat{\mathbb{Z}}$;
+The _completed group algebra_, $\hat{\mathbb{Z}}[\![G]\!]$, of $G$ over $\hat{\mathbb{Z}}$ is the inverse limit of the ordinary group algebras, $\hat{\mathbb{Z}}[G/U] $, of the finite quotients, $G/U$ (for $U$ in the directed set, $\Omega(G)$, of open normal subgroups of $G$), over $\hat{\mathbb{Z}}$;
 
 $$\hat{\mathbb{Z}}[\![G]\!] = lim_{U\in \Omega(G)} \hat{\mathbb{Z}}[G/U].$$
 
