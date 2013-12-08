@@ -21,7 +21,7 @@
 
 An **associated $\infty$-bundle** $E \to X$ is a [[fiber bundle]] in an [[(∞,1)-topos]] $\mathbf{H}$ with typical fiber $F \in \mathbf{H}$ that is classified by a [[cocycle]] $X \to \mathbf{B}\underline{Aut}(F)$ with coefficients in the [[delooping]] of the [[internalization|internal]] [[automorphism ∞-group]] of $F$.  We say this is _associated to_ the corresponding  $\underline{Aut}(F)$-[[principal ∞-bundle]]. 
 
-More generally there should be notions of accociated $\infty$-bundles whose fibers are objects in an [[(∞,n)-topos]] over $\mathbf{H}$ for some $n \gt 1$.
+More generally there should be notions of associated $\infty$-bundles whose fibers are objects in an [[(∞,n)-topos]] over $\mathbf{H}$ for some $n \gt 1$.
 
 ## Definition
 
