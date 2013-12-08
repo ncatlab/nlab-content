@@ -205,7 +205,7 @@ Related discussion on the behaviour of [[fiber sequences]] under left [[Bousfiel
 
 Similar considerations and results are in 
 
-* Martin Blomgren, Wojciech Chacholski, _On the classification of fibrations_ ([arXiv:1206.4443](http://arxiv.org/abs/1206.4443))
+* Martin Blomgren, [[Wojciech Chacholski]], _On the classification of fibrations_ ([arXiv:1206.4443](http://arxiv.org/abs/1206.4443))
  {#BlomgrenChacholski}
 
 With the advent of [[(∞,1)-topos theory]] all these statements and their generalizations follow from the existence of [[object classifiers]] in an [[(∞,1)-topos]]. For the classical case in [[∞Grpd]] $\simeq$ [[Top]]${}^\circ$ [[sSet]]${}^\circ$ this is discussed in 
