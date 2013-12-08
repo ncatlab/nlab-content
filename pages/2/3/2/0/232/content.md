@@ -145,9 +145,10 @@ $$Set^V \to Set^{X \times X}$$
 
 since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$, at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
 
-### Enrichment in a bicategory {#InBicat}
+### Enrichment in a bicategory 
+ {#InBicat}
 
-Let $B$ be a bicategory, and write $\otimes$ for horizontal (1-cell) composition (written in Leibniz order). A $B$-**enriched category** consists of a set $X$ together with 
+Let $B$ be a [[bicategory]], and write $\otimes$ for horizontal (1-cell) composition (written in Leibniz order). A [[category enriched in a bicategory|category enriched in the bicategory]] $B$ consists of a [[set]] $X$ together with 
 
 * A function $p: X \to B_0$, 
 * A function $\hom: X \times X \to B_1$, satisfying the typing constraint $\hom(x, y): p(x) \to p(y)$, 
