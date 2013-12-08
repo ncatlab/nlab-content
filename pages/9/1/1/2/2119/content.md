@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -33,17 +33,19 @@ where $\mathcal{P}(B)$ is the [[path object|path space]] in [[Top]], the space o
 $u:[0,1]\to B$ in $B$, and where $\mathcal{P}(B)\to B$ is the map sending a path $u$ to its value $u(0)$. 
 The cocylinder can be realized as a subspace of $E\times \mathcal{P}(B)$ consisting of pairs $(e,u)$ where $e\in E$ and $u:[0,1]\to \mathcal{P}(B)$ are such that $\pi(e)=u(0)$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 A __Hurewicz connection__ is any continuous [[section]] 
 $$s:Cocyl(\pi)\to \mathcal{P}(E)$$ 
 of the map $\pi_!:\mathcal{P}(E)\to Cocyl(\pi)$ given by $\pi_!(u)=(u(0),\pi\circ u)$. 
+
 =--
 
 
 ## Characterization of Hurewicz fibrations ##
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 A map $\pi:E\to B$ is a __[[Hurewicz fibration]]__ iff there exists at least one Hurewicz connection for $\pi_!$. 
@@ -75,5 +77,15 @@ Of course there are many other equivalent characterizations of Hurewicz fibratio
 If $\pi:E\to B$ is a [[covering space]] where $B$ is [[Hausdorff space|Hausdorff]], then $\pi_!$ is a [[homeomorphism]]; thus in that case the Hurewicz connection is unique. 
 
 If $\pi$ is a smooth principal bundle equipped with a distribution of horizontal spaces forming an [[Ehresmann connection]], then one can define a corresponding "smooth" Hurewicz connection in the sense that the Ehresmann connection provides a continuous choice of smooth path lifting, with prescribed initial point, of a smooth path in the base. This can be expressed in terms as a continuous section of $\pi_!^{smooth}:\mathcal{P}^{smooth}(E)\to Cocyl^{smooth}(\pi)$ where the subspaces of smooth paths are used. 
+
+## References
+
+The original article is 
+
+* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
+
+A review is for instance in 
+
+* [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
 
 [[!redirects Hurewicz connections]]
