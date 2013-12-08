@@ -315,8 +315,9 @@ So far this is analogous to the generalization from monoidal categories to multi
 
 
 ## Categories enriched in an equipment ##
+ {#CategoriesEnrichedInAnEquipment}
 
-For any equipment $W$ one can define a notion of **$W$-enriched category**.  This consists of
+For any equipment $W$ one can define a notion of **$W$-enriched category**.  (See also at _[[category enriched in a bicategory]]_.) This consists of
 
 * a collection $ob(C)$ of objects,
 * for each object $x$ an *extent* $e(x)$ which is an object of $W$,
