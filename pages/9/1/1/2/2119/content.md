@@ -17,7 +17,7 @@
 
 ## Setup and definition ##
 
-Given a [[continuous map]] $\pi : E\to B$ of [[topological spaces]], one constructs the __[[cocylinder]]__ $Cocyl(\pi)$ as the [[pullback]] 
+Given a [[continuous map]] $\pi : E\to B$ of [[topological spaces]], one constructs the __[[mapping cocylinder]]__ $Cocyl(\pi)$ as the [[pullback]] 
 
 $$
   \array{
