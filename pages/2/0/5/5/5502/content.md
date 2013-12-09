@@ -111,7 +111,12 @@ General abstract discussion is in
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
+
 The traditional applications are discussed in
+
+* [[Joseph Lipman]], _Notes on derived functors and Grothendieck duality_, in _Foundations of Grothendieck Duality for Diagrams of Schemes_,
+Lecture Notes in Math., no. 1960, Springer-Verlag, New York, 2009, 1&#8211;259. ([pdf](http://www.math.purdue.edu/~lipman/Duality.pdf))
+
 
 * Yves Laszlo, Martin Olsson, _The six operations for sheaves on Artin stacks I: Finite Coefficients_ ([arXiv:math/0512097](http://arxiv.org/abs/math/0512097))
 
