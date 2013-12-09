@@ -141,7 +141,7 @@ Also, via this indexed category, $f$ exhibits $\mathcal{C}$ as a [[2-sheaf]] (se
 
 ### Indexed monoidal category
 
-See also _[[indexed monoidal category]]_.
+See also _[[indexed monoidal category]]_, _[[indexed closed monoidal category]]_ and  _[[dependent linear type theory]]_.
 
 ## Properties
 
