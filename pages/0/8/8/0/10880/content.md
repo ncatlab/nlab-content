@@ -39,10 +39,10 @@ $$
 
 (The other specialization of the [[six operations]] to $f_\ast \simeq f_!$ is called the _[[Grothendieck context]]_).
 
-Often one is interested in the case that there is an [[object]] $C \in \mathcal{Y}$ and an [[equivalence]]
+Often one is interested in the case that there is an [[object]] $C \in \mathcal{X}$ and an [[equivalence]]
 
 $$
-  f_\ast 1_{\mathcal{X}} \simeq f_! C
+  f_\ast 1_{X} \simeq f_! C
   \,.
 $$
 
