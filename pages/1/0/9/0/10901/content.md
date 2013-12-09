@@ -39,7 +39,8 @@ Further discussion of linear type theory is for instance in
 
 * _Capter 7, Linear type theory_ [pdf](http://www.cs.cmu.edu/~fp/courses/linear/handouts/lintt.pdf)
 
-
 * Anders Schack-Nielsen, Carsten Sch&#252;rmann, _Linear contextual modal type theory_ [pdf](http://www.itu.dk/~carsten/papers/lcmtt.pdf)
+
+* [pdf](http://ctp.di.fct.unl.pt/~lcaires/papers/dstypes.pdf)
 
 [[!redirects linear type theories]]
