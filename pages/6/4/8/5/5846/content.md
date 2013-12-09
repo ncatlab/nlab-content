@@ -21,11 +21,11 @@
 
 ## Idea
 
-A [[space]] $X$ is called **formally unramified** if every [[morphism]]s $Y \to X$ into it has for every [[infinitesimal object|infinitesimal thickening]] of $Y$ at most one [[infinitesimal object|infinitesimal]] extensions.
+A [[space]] $X$ is called **formally unramified** if every [[morphism]] $Y \to X$ into it has for every [[infinitesimal object|infinitesimal thickening]] of $Y$ at most one [[infinitesimal object|infinitesimal]] extension.
 
-(If all thickening exist it is called a [[formally smooth morphism]]. If the thickening exist uniquely, it is called a [[formally etale morphism]]).
+(If all thickenings exist it is called a [[formally smooth morphism]]. If the thickening exist uniquely, it is called a [[formally etale morphism]].)
 
-Traditionally this has considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>. This we discuss in the section 
+Traditionally this has been considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>. This we discuss in the section 
 [General abstract notion](#GeneralAbstractNotion).
 
 ## General abstract notion
