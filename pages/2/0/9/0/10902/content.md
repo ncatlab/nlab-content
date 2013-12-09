@@ -37,9 +37,9 @@ $$ f_*(u) = \sup\{ v \in O(Y) \,|\, f^*(v) \leq u \}. $$
 +-- {: .num_defn}
 ###### Definition
 
-A geometric morphism $f : \mathcal{F} \to \mathcal{E}$ is _closed_ iff for any object $A \in \mathcal{E}$, the induced locale morphism
+A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is _closed_ iff for any object $A \in \mathcal{E}$, the induced locale morphism
 $$ \mathrm{Sub}_{\mathcal{F}/f^*A}(1) \to \mathrm{Sub}_{\mathcal{E}}(1) $$
-between the spaces of subobjects of the corresponding terminal objects is closed.
+between the spaces of [[subobject|subobjects]] of the corresponding terminal objects is closed.
 =--
 
 +-- {: .num_example}
@@ -47,7 +47,7 @@ between the spaces of subobjects of the corresponding terminal objects is closed
 
 Let $A$ be an object of a topos $\mathcal{E}$. Then the canonical geometric morphism $\mathcal{E}/A \to A$ is closed iff $A$ fulfills the following condition, formulated in the [[internal language]]:
 $$ \mathcal{E} \models \forall U \subseteq A{:} \forall p \in \Omega{:} \quad A \subseteq (U \cup \{ x \in A \,|\, p \}) \quad\Rightarrow\quad (A \subseteq U) \vee p. $$
-Note that this condition is satisfied for any $A$ whatsoever if the internal language of $\mathcal{E}$ is boolean.
+Note that this condition is satisfied for any $A$ whatsoever if the internal language of $\mathcal{E}$ is [[Boolean topos|boolean]].
 =--
 
 +-- {: .num_example}
@@ -59,8 +59,7 @@ Let $f : A \to B$ be a morphism in a topos $\mathcal{E}$. Then the induced geome
 +-- {: .num_remark}
 ###### Remark
 
-A geometric morphism $f : \mathcal{F} \to \mathcal{E}$ is closed iff the locale $f_* \Omega_{\mathcal{F}}$ internal to $\mathcal{E}$ satisfies
-$$ \mathcal{E} \models \ulcorner \mathrm{the locale map $f_* \Omega_{\mathcal{F}} \to 1$ is closed} \urcorner. $$
+A geometric morphism $f : \mathcal{F} \to \mathcal{E}$ is closed iff, in the internal language of $\mathcal{E}$, the unique locale map $f_* \Omega_{\mathcal{F}} \to \mathrm{pt}$ into the one-point space (given by the frame $\Omega_{\mathcal{E}}$) is closed.
 =--
 
 ## Related concepts
@@ -70,6 +69,14 @@ $$ \mathcal{E} \models \ulcorner \mathrm{the locale map $f_* \Omega_{\mathcal{F}
 * [[étale morphism]]
 
 * [[separated morphism]]
+
+## References
+
+Closed maps of locales and toposes are discussed in section C3.2 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
+ {#Johnstone}
+
 
 [[!redirects closed morphisms]]
 
