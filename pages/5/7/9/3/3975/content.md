@@ -116,7 +116,9 @@ An [[adjoint triple]] of functors between [[symmetric monoidal category|symmetri
 
 ## Related concepts
 
-* [[six operations]]
+* [[indexed closed monoidal category]]
+
+* [[six operations]], [[dependent linear type theory]]
 
 ## References
 
