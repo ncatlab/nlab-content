@@ -15,7 +15,7 @@
 
 ## Definition
 
-The __compact symplectic group__ (in $n$ dimensions) is the [[simply-connected]], maximal [[compact]] real [[Lie group]] $Sp(n)$ sitting inside the complex [[symplectic group]] $Sp(2n,\mathbb{C})$. It can also be seen as the [[orthogonal group of an inner product space|othogonal group]] of $\mathbb{H}^n$. It may also be defined as the [[intersection]] of $Sp(2n,\mathbb{C})$ with the [[unitary group]] $\mathrm{U}(2n) = \mathrm{U}(2n,\mathbb{C})$ within the [[general linear group]] $GL(2n,\mathbb{C})$.  It should *not* be confused with the real [[symplectic group]] $Sp(2n,\mathbb{R})$ (which is not simply-connected).
+The __compact symplectic group__ (in $n$ dimensions) is the [[simply-connected]], maximal [[compact]] real [[Lie group]] $Sp(n)$ sitting inside the complex [[symplectic group]] $Sp(2n,\mathbb{C})$. It can also be seen as the [[orthogonal group of an inner product space|orthogonal group]] of $\mathbb{H}^n$. It may also be defined as the [[intersection]] of $Sp(2n,\mathbb{C})$ with the [[unitary group]] $\mathrm{U}(2n) = \mathrm{U}(2n,\mathbb{C})$ within the [[general linear group]] $GL(2n,\mathbb{C})$.  It should *not* be confused with the real [[symplectic group]] $Sp(2n,\mathbb{R})$ (which is not simply-connected).
 
 
 ## Examples
