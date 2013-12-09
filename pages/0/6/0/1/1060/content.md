@@ -80,11 +80,14 @@ The notion is originally due to
 
 * [[Michael Barr]], _$*$-Autonomous Categories_. LNM 752, Springer-Verlag 1979.
 
-The relation to [[linear logic]] was described in 
+The relation to [[linear logic]] was first described in 
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
  {#Seely89}
 
+and a detailed review (also of a fair bit of plain monoidal category theory) is in 
+ 
+* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
 
 
 [[!redirects star-autonomous categories]]
