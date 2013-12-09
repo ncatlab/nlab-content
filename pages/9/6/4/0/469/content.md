@@ -97,12 +97,13 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
-
 * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
 
 * **closed monoidal category** ,  [[closed monoidal (∞,1)-category]]
 
   * [[closed monoidal functor]]
+
+  * [[indexed closed monoidal category]]
 
 
 ##References#
