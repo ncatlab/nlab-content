@@ -105,6 +105,13 @@ Similarly for $B \in \mathcal{Y}$.
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+If all objects in $\mathcal{X}$ and $\mathcal{Y}$ are [[dualizable object|dualizable]], hence if they are [[compact closed categories]], then they are in particular also [[star-autonomous categories]] with [[dualizing object]] the [[tensor unit]]. As such their [[internal logic]] is _[[linear logic]]_ and their [[type theory]] is _[[linear type theory]]_. In terms of this a Wirthm&#252;ller morphism, def. \ref{WirthmullerContext}, is the linear analog of a [[context extension]] morphism in a [[hyperdoctrine]]: it defines a _[[dependent linear type theory]]_. See there for more.
+
+=--
+
 ## Properties
  {#Properties}
 
@@ -395,9 +402,9 @@ $$
 
 the [[inverse image]]/[[context extension]] is a [[cartesian closed functor]] (see there for the proof). Therefore any base change of [[toposes]] constitutes a cartesian Wirthm&#252;ller context.
 
-Concersely, this means that systems of Wirthm&#252;ller contexts are generalizations of [[categorical logic]] ([[hyperdoctrines]]) to non-cartesian contexts. 
+Concersely, this means that systems of Wirthm&#252;ller contexts are generalizations of [[categorical logic]] ([[hyperdoctrines]]) to non-cartesian contexts (see at _[[dependent linear type theory]]_). 
 
-Notice that in a cartesian Wirthm&#252;ller context duality is trivial, in that $\mathbb{D}X \simeq 1$ for all objects $X$. Therefore to the extent that the [[six operation]] yoga involves duality, it is interesting only the more non-cartesian (non-classical) the ambient Wirthm&#252;ller context is.
+Notice that in a cartesian Wirthm&#252;ller context duality is trivial, in that $\mathbb{D}X \simeq 1$ for all objects $X$. Therefore to the extent that the [[six operations]] yoga involves duality, it is interesting only the more non-cartesian (non-classical) the ambient Wirthm&#252;ller context is.
 
 ### Bundles of modules
 
