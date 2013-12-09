@@ -29,12 +29,16 @@ The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\o
 $\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$).  Given any other set $X$ with an element $a: X$ and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
 
 
-## Minima of subsets of natural numbers
+## Properties
+
+### Minima of subsets of natural numbers
 
 In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natural numbers possesses a minimal element. In [[constructive mathematics]], one cannot show this:
 
 +-- {: .num_prop}
-###### Proposition (a Brouwerian counterexample)
+###### Proposition 
+**(a Brouwerian counterexample)**
+
 If any inhabited subset of the natural numbers possesses a minimal element, the [[excluded middle|law of excluded middle]] holds.
 =--
 
