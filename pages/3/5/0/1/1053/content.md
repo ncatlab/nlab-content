@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 ## Idea
 
-**Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  It has a number of interpretations, of which we discuss several below.
+**Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  It is is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89](#Seely)) or [[polycategories]]. 
 
 Linear logic was introduced in [Girard (1987)](#Girard).  Although it is
 usually presented in terms of inference rules, it was
@@ -57,9 +72,6 @@ means roughly that if I am playing three simultaneous games of $P$, $Q$, and $R$
 Linear logic is closely related to notions of [[relevant logic]], which have been studied for much longer.  The goal of relevant logic is to disallow statements like "if pigs can fly, then grass is green" which are true, under the usual logical interpretation of [[implication]], but in which the hypothesis has nothing to do with the conclusion.  Clearly there is a relationship with the "resource semantics": if we want to require that all hypotheses are "used" in a proof then we need to disallow weakening.
 
 
-### Categorical interpretations
-
-To a category theorist, it may be easiest to think of linear logic in terms of [[*-autonomous categories]] or [[polycategories]]; see below.
 
 
 ## Definition
@@ -67,6 +79,7 @@ To a category theorist, it may be easiest to think of linear logic in terms of [
 Linear logic is usually given in terms of [[sequent calculus]].  There is a set of __[[propositions]]__ (although as remarked above, to be thought of more as resources to be acquired than as statements to be proved) which we construct through [[recursion]].  Each pair of [[lists]] of propositions is a __sequent__ (written as usual with '$\vdash$' between the lists), some of which are __valid__; we determine which are valid also through recursion.  Technically, the [[propositional calculus]] of linear logic also requires a set of __propositional variables__ from which to start; this is usually identified with the set of [[natural numbers]] (so the variables are $p_0$, $p_1$, etc), although one can also consider the linear logic $LL(V)$ where $V$ is any initial [[set]] of propositional variables.
 
 Here we define the set of propositions:
+
 
 *  Every propositional variable is a proposition.
 *  For each proposition $A$, there is a proposition $A^\perp$, the __[[negation]]__ of $A$.
@@ -152,11 +165,13 @@ We can even restrict attention to sequents with no term on the left side and one
 The logic described above is full classical linear logic.  There are many important fragments of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), etc.
 
 
-## Categorial formulations
+## Categorial semantics
+
+We discuss the [[categorical semantics]] of linear logic. See also at _[[relation between type theory and category theory]]_.
 
 ### $*$-autonomous categories
 
-One way to explain linear logic to a category theorist is to say that its models are [[*-autonomous categories]] with extra structure (see [Seely, 1989](#Seely)).
+One way to explain linear logic to a category theorist is to say that its models are [[*-autonomous categories]] with extra structure (see [Seely, 1989, prop. 1.5](#Seely)).
 
 Firstly, there is a monoidal '[[tensor product|tensor]]' connective
 $A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
@@ -169,8 +184,8 @@ parallel availability of resources.
 
 The 'additive' connectives $\&$ and $\oplus$, which
 correspond in another way to traditional [[conjunction]] and
-[[disjunction]], are modelled as usual by [[product]]s and
-[[coproduct]]s.  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
+[[disjunction]], are modelled as usual by [[products]] and
+[[coproducts]].  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
 LL recaptures the notion of a resource that can be discarded
 or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$:
@@ -286,22 +301,41 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 ## References
 
-* [[Andreas Blass]],  'A game semantics for linear logic'.  _Annals of Pure and Applied Logic_ 56: 183--220, 1992.
-{#Blass}
+The original article is
 
-*  [[Jean-Yves Girard]],  'Linear logic'.  _Theoretical Computer
-   Science_ 50:1, 1987.  Available in [PDF](http://iml.univ-mrs.fr/~girard/linear.pdf).
-{#Girard}
+*  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
+ {#Girard}
 
-*  [[R. A. G. Seely]],  'Linear logic, $*$-autonomous categories
-   and cofree coalgebras', _Contemporary Mathematics_ 92,
-   1989.  Available in [PostScript](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz).
-{#Seely}
+The [[categorical semantics]] of linear logic in [[star-autonomous categories]] is due to 
 
-* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_.  Monograph freely-available [here](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf), also published in the collection _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009.
+*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ {#Seely}
+
+and reviewed/further discussed in
+
+* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
+
+* Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_ ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
+
+Further discussion of [[linear type theory]] is for instance in
+
+* _Capter 7, Linear type theory_ [pdf](http://www.cs.cmu.edu/~fp/courses/linear/handouts/lintt.pdf)
+
+
+* Anders Schack-Nielsen, Carsten Sch&#252;rmann, _Linear contextual modal type theory_ [pdf](http://www.itu.dk/~carsten/papers/lcmtt.pdf)
+
+
+See also
+
+* [[Andreas Blass]], _A game semantics for linear logic_, _Annals of Pure and Applied Logic_ 56: 183--220, 1992.
+ {#Blass}
+
 
 *  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
 
 
 [[!redirects linear logic]]
 [[!redirects linear logics]]
+
+[[!redirects classical linear logic]]
+[[!redirects classical linear logics]]
