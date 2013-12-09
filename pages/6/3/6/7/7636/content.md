@@ -358,6 +358,13 @@ The equivalence between [[linear logic]] and [[star-autonomous categories]] is d
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
  {#Seely89}
 
+and reviews/further developments are in 
+
+* [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
+
+* Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
+
+
 An [[adjunction]] between the category of [[type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
 
 * [[Joachim Lambek]], P. Scott, _Introduction to higher order categorical logic_, Cambridge University Press (1986) .
