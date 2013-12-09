@@ -58,7 +58,9 @@ The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This ide
 
 ## Related concepts
 
-* [[open map]]
+* [[open morphism]], [[closed morphism]]
+
+* [[separated morphism]]
 
 * [[formally étale morphism]]
 
