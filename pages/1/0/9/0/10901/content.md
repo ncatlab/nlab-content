@@ -20,14 +20,24 @@
 
 ## Idea
 
-The [[linear logic]]-version of [[type theory]].
+_Linear type theory_ is the [[linear logic]]-version of [[type theory]]. By ([Seely89](#Seely89)) this is the [[internal language]] of/has [[categorical semantics]] in [[star-autonomous categories]].
+
+The [[dependent type theory]]-version of linear type theory should be _[[dependent linear type theory]]_.
+
+## Related concepts
+
+* [[modal type theory]]
+
+* [[geometric homotopy type theory]]
+
+* [[stable homotopy type]]
 
 ## References
 
 The [[categorical semantics]] of linear type theory in [[star-autonomous categories]] is due to 
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
- {#Seely}
+ {#Seely89}
 
 and reviewed/further discussed in
 
@@ -41,6 +51,12 @@ Further discussion of linear type theory is for instance in
 
 * Anders Schack-Nielsen, Carsten Sch&#252;rmann, _Linear contextual modal type theory_ [pdf](http://www.itu.dk/~carsten/papers/lcmtt.pdf)
 
-* [pdf](http://ctp.di.fct.unl.pt/~lcaires/papers/dstypes.pdf)
+* Bernardo Toninho, Lu&#237;s Caires, Frank Pfenning, _Dependent Session Types via Intuitionistic Linear Type Theory_ [pdf](http://ctp.di.fct.unl.pt/~lcaires/papers/dstypes.pdf)
 
 [[!redirects linear type theories]]
+
+[[!redirects linear type]]
+[[!redirects linear types]]
+
+[[!redirects linear homotopy type]]
+[[!redirects linear homotopy types]]
