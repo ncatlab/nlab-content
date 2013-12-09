@@ -98,6 +98,11 @@ Further refinement and highlighting of the close relation to the [categorical Br
 * [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([web](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
  {#Neeman96}
 
+Discussion of [[integral transforms]] in Grothendieck contexts is in 
+
+* [[Alexander Polishchuk]], _Kernel algebras and generalized Fourier-Mukai transforms_ ([arXiv:0810.1542](http://arxiv.org/abs/0810.1542))
+ {#Polishchuk}
+
 Generalization to [[E-∞ geometry]] is in 
 
 * [[Jacob Lurie]], section 2.5 of _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
@@ -109,4 +114,3 @@ A clear discussion of axioms of [[six operations]], their specialization to Grot
  {#May05}
 
 [[!redirects Grothendieck contexts]]
-
