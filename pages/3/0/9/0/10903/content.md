@@ -26,10 +26,10 @@ Dependent linear type theory should be a combination of _[[dependent type theory
 Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/[[star-autonomous category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of contexts $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ an [[adjoint triple]] of [[functors]]
 
 $$
-  (f_1 \dashv f^\ast \dashv f_\ast) 
+  (f_! \dashv f^\ast \dashv f_\ast) 
     \;\colon\; 
    \mathcal{C}_{\Gamma_1}
-    \stackrel{\stackrel{f_1}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longrightarrow}}{\underset{f_\ast}{\leftarrow}}}
+    \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longrightarrow}}{\underset{f_\ast}{\leftarrow}}}
     \mathcal{C}_{\Gamma_2}
   \,.
 $$
