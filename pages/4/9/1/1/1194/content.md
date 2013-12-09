@@ -347,7 +347,7 @@ Structural rules say essentially that variables can be substituted, reordered, a
 $$ \frac{ \Gamma, x:A, y:B, \Delta \vdash ?}{ \Gamma, y:B, x:A, \Delta \vdash ?}.$$
 which asserts that variables in the context can be reordered.  (In the presence of dependent types, there is a restriction here that $B$ cannot depend on $x$.)
 
-Some type theories, such as those related to [[linear logic]], omit some of the structural rules, but most of the time the structural rules are taken for granted.
+Some type theories, such as [[linear type theory]] related to [[linear logic]], omit some of the structural rules, but most of the time the structural rules are taken for granted.
 
 ### Type-forming rules
 
@@ -530,6 +530,8 @@ The following particular type theories are important enough to (potentially) hav
   * [[modal type theory]]
 
   * [[geometric type theory]]
+
+  * [[linear type theory]]
 
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
