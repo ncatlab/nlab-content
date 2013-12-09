@@ -380,6 +380,35 @@ saying that the [[comonad]] $f_! f^\ast$ commutes with dualization up to a "twis
 
 ## Examples
 
+### Cartesian Wirthm&#252;ller contexts in toposes
+
+For $\mathbf{H}$ a [[topos]] and $f \colon X \longrightarrow Y$
+any [[morphism]], then in the induced [[base change]] [[etale geometric morphism]]
+
+$$
+  (\sum_f \dashv f^\ast \dashv \prod_f)
+  \;\colon\;
+  \mathbf{H}_{/X}
+  \longrightarrow
+  \mathbf{H}_{/Y}
+$$
+
+the [[inverse image]]/[[context extension]] is a [[cartesian closed functor]] (see there for the proof). Therefor any base change of [[toposes]] constitutes a cartesian Wirthm&#252;ller context.
+
+### Bundles of modules
+
+For $R$ a [[ring]], $R Mod$ its [[category of modules]], there is a [[functor]]
+
+$$
+  [-, R Mod] \;\colon\; Set^{op} \longrightarrow ClMonCat
+$$
+
+which sends a [[set]] $X$ to the [[closed monoidal category]] of $R$-[[modules]] parameterized over $X$. 
+
+This takes values in Wirthm&#252;ller morphisms. ([Shulman 12, example 2.2, 2.17](#Shulman12)).
+
+
+ 
 ### In equivariant stable  homotopy theory
 
 In [[equivariant stable homotopy theory]], see ([May 05b](#May05b)).
@@ -431,6 +460,13 @@ Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy 
 More elaboration of the Wirthm&#252;ller context is in 
 
 * Baptiste Calm&#232;s, Jens Hornbostel, section 4 of _Tensor-triangulated categories and dualities_, Theory and Applications of Categories, Vol. 22, 2009, No. 6, pp 136-198 ([TAC](http://www.tac.mta.ca/tac/volumes/22/6/22-06abs.html), [arXiv:0806.0569](http://arxiv.org/abs/0806.0569))
+
+Wirthm&#252;ller morphisms between bundles of modules is discussed (implicitly) in 
+
+
+* [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+ {#Shulman12}
+
 
 Discussion in [[E-∞ geometry]] is in
 
