@@ -1,0 +1,1 @@
+Just a philosopher. [academia.edu page](https://villanova.academia.edu/JohnBova) 
