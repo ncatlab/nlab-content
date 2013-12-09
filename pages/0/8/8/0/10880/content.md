@@ -393,7 +393,11 @@ $$
   \mathbf{H}_{/Y}
 $$
 
-the [[inverse image]]/[[context extension]] is a [[cartesian closed functor]] (see there for the proof). Therefor any base change of [[toposes]] constitutes a cartesian Wirthm&#252;ller context.
+the [[inverse image]]/[[context extension]] is a [[cartesian closed functor]] (see there for the proof). Therefore any base change of [[toposes]] constitutes a cartesian Wirthm&#252;ller context.
+
+Concersely, this means that systems of Wirthm&#252;ller contexts are generalizations of [[categorical logic]] ([[hyperdoctrines]]) to non-cartesian contexts. 
+
+Notice that in a cartesian Wirthm&#252;ller context duality is trivial, in that $\mathbb{D}X \simeq 1$ for all objects $X$. Therefore to the extent that the [[six operation]] yoga involves duality, it is interesting only the more non-cartesian (non-classical) the ambient Wirthm&#252;ller context is.
 
 ### Bundles of modules
 
