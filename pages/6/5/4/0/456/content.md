@@ -260,7 +260,7 @@ There are various special cases and types of classes of geometric morphisms. For
 
 * [[etale geometric morphism]]
 
-* [[open geometric morphism]]
+* [[open geometric morphism]], [[closed geometric morphism]]
 
 * [[proper geometric morphism]]
 
