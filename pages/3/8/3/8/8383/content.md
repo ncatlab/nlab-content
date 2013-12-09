@@ -28,7 +28,7 @@ defined by $M\boxtimes N = \pi_2^\ast M \otimes_{A\times B} \pi_1^\ast N$.  This
 
 If all the fibers are not just monoidal but [[closed monoidal categories]] and the [[base change]] morphisms are not just strong monoidal but also strong [[closed monoidal functors]] , then the indexed monoidal category is an indexed _closed monoidal category_ ([Shulman 12, theorem 2.14](#Shulman12)).
 
-If in addtion all fibers are [[symmetric monoidal category|symmetric monoidal]] one might also call this a system of [[Wirthmüller contexts]] of [[six operations]]. If furthermore all fibers have all [[dual objects|duals]], then this is also what should be called [[categorical semantics]] for [[dependent linear type theory]].
+If in addition all fibers are [[symmetric monoidal category|symmetric monoidal]] one might also call this a system of [[Wirthmüller contexts]] of [[six operations]]. If furthermore all fibers have all [[dual objects|duals]], then this is also what should be called [[categorical semantics]] for [[dependent linear type theory]].
 
 
 ## Examples
@@ -40,7 +40,7 @@ If in addtion all fibers are [[symmetric monoidal category|symmetric monoidal]] 
 * $S=Grp$ or $TopGrp$, $C^A=$ sets or spaces with an action by $A$
 * The homotopy category of any of the above equipped with a homotopy theory
 
-In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a morphism $f\colon A\to B$ in $S$ all have left adjoints $f_!$.  If these left adjoints satisfy the [[Beck-Chevalley condition]] for all pullback squares in $S$, then the indexed category is traditionally said to have **indexed coproducts**.  For many applications, though, we only need condition for a few pullback squares, which coincidentally (?) happen to be those that are pullbacks in any category with finite products (whether or not it even has all pullbacks).
+In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a morphism $f\colon A\to B$ in $S$ all have left adjoints $f_!$.  If these left adjoints satisfy the [[Beck-Chevalley condition]] for all pullback squares in $S$, then the indexed category is traditionally said to have **indexed coproducts**.  For many applications, though, we only need this condition for a few pullback squares, which coincidentally (?) happen to be those that are pullbacks in any category with finite products (whether or not it even has all pullbacks).
 
 
 
