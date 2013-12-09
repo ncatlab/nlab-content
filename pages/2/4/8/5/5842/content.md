@@ -5,36 +5,57 @@
 
 ## Idea 
 
-Unramified morphism of algebraic [[scheme]]s is a geometric generalization of a notion of an unramified [[field extension]]. The notion of ramification there, in turn is motivated by the branching phenomena in number fields, which in the [[Riemann surface]] picture involve branchings similar to the branching involved in Riemann surfaces over complex numbers. 
+### General
+
+The notion of _unramified morphism_ of algebraic [[schemes]] is a geometric generalization of a notion of an unramified [[field extension]]. The notion of ramification there, in turn is motivated by the branching phenomena in [[number fields]], which in the [[Riemann surface]] picture involve branchings similar to the branching involved in Riemann surfaces over [[complex numbers]]. 
 
 So "unramified" means "not branching". In the context of [[differential geometry]] unramified maps correspond to [[immersions]].
 
-A weaker (infinitesimal) version is the notion of 
-[[formally unramified morphism]]. 
+A weaker (infinitesimal) version is the notion of _[[formally unramified morphism]]_. 
 
 ### Historical remarks
 
 The basic picture is one from the Riemann surfaces: the power $z\mapsto z^n$ has a branching point around $z=0$. Dedekind and Weber in 19th century considered more generally algebraic curves over more general fields, and proposed a generalization of a Riemann surface picture by considering valuations and in this analysis the phenomenon of branching occured again. 
 
 ## Definition
+ {#Definition}
 
-A [[morphism]] $f:X\to Y$ of [[scheme]]s is __unramified__ if it is locally of finite presentation, and if for every point $y\in Y$ the induced morphism 
+
++-- {: .num_defn}
+###### Definition
+
+A [[morphism]] $f \colon X\longrightarrow Y$ of [[schemes]] is __unramified__ if it is [[locally of finite presentation]], and if for every point $y\in Y$ the induced morphism of [[residue fields]]
 $$
 \mathcal{O}_{X,f(y)}/\mathfrak{m}_{f(y)}\to\mathcal{O}_{Y,y}/\mathfrak{m}_{f(y)}\mathcal{O}_{Y,y}
 $$
-is a finite and separable extension of fields.
+is a [[finite number|finite]] and [[separable field extension|separable]] [[extension of fields]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
 
 A morphism $f:X\to Y$ of schemes is __[[formally unramified]]__ if for every [[infinitesimal object|infinitesimal thickenning]]
 $T\to T'$ of schemes over $Y$, the canonical morphism of sheaves of sets over $T$
 $$
-U\mapsto (Scheme/Y)(U,X)
+U\mapsto (Sch_{/Y})(U,X)
 $$
 to
 $$
-U\mapsto (Scheme/Y)(U',X)
+U\mapsto (Sch_{/Y})(U',X)
 $$
-is injective, where $U' = U$ as the open set, but as a scheme it is the open subscheme of the thickening $T'$. In this condition, it is sufficient to consider the
+is injective, where $U' = U$ as the open set, but as a scheme it is the open subscheme of the thickening $T'$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+In this condition, it is sufficient to consider the
 thickennings of  affine $Y$-schemes. Thus $f$ is formally unramified if for each morphism of $Y$-schemes $T\to X$ which has an extension to a morphism $T'\to X$ the extension is unique. 
+
+=--
 
 ## Properties and usage
 
