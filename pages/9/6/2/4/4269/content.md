@@ -11,7 +11,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -60,17 +60,19 @@ This is the [[base change geometric morphism]] for the terminal morphism $X \to 
 
 ### For toposes
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
+
 A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ is called a
 **local homeomorphism of toposes**, or an **&#233;tale geometric morphism**, if it is equivalent to such a projection--- in other words, if it factors by geometric morphisms as $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ for some $X \in \mathbf{H}$ .
+
 =--
 
 ### For structured toposes
 
 If the [[(∞,1)-topos]]es in question are [[structured (∞,1)-toposes]], then this is refined to the following
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A morphism $f : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ of [[structured (∞,1)-topos]]es is an **&#233;tale morphism** if
@@ -114,7 +116,26 @@ This is [[Structured Spaces|StrSp, example 2.3.8]].
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
+###### Proposition
+
+The [[inverse image]] of an &#233;tale geometric morphism is a [[cartesian closed functor]].
+
+=--
+
+See at _[[cartesian closed functor]]_ for proof. 
+
+Therefore
+
++-- {: .num_prop}
+###### Proposition
+
+An &#233;tale geometric morphism is a cartesian [[Wirthmüller context]].
+
+=--
+
+
++-- {: .num_prop}
 ###### Proposition
 **(recognition of &#233;tale geometric morphisms)**
 
@@ -144,7 +165,7 @@ A [[geometric morphism]] $(f^* \dashv f_*) : \mathbf{K} \to \mathbf{H}$ is &#233
 For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(Recovering a topos from its etale overcategory)
 
