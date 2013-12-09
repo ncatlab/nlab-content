@@ -210,7 +210,7 @@ If either of the two happens to be a [[natural equivalence]] (hence an equivalen
 
 ([May 05, prop. 2.8 and prop. 2.11](#May05))
 
-+-- {: .num_prop }
++-- {: .num_prop #InWirthmuellerContextProjectionIsEquivalence}
 ###### Proposition
 
 Precisely if the pre-Wirthm&#252;ller context is a Wirthm&#252;ller context, def. \ref{WirthmullerContext}, are both comparison maps of def. \ref{ComparisonMaps} are natural equivalences.
@@ -254,6 +254,20 @@ $f^\ast$ is strong closed.
 
 For $\overline{\gamma}$ the same statement follows from this with 
 prop. \ref{ComparisonIsEquivalenceOnDualizables}.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+The first [[natural equivalence]] of prop. \ref{InWirthmuellerContextProjectionIsEquivalence} 
+
+$$
+  f_!(f^\ast A \otimes B) \simeq A \otimes f_!(B)
+$$
+
+is often called the *projection formula*. In [[representation theory]] this is also sometimes called *[[Frobenius reciprocity]]*, though mostly that term is used for (just) the existence of the $(f_! \dashv f^\ast)$-[[adjunction]], where in representation theory the [[left adjoint]] $f_!$ forms [[induced representations]].
 
 =--
 
@@ -444,3 +458,6 @@ Discussion in [[E-∞ geometry]] is in
 
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
+
+[[!redirects projection formula]]
+[[!redirects projection formulas]]
