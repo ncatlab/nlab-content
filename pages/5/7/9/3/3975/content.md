@@ -101,6 +101,13 @@ If $C$ and $D$ are [[cartesian closed categories]], then any functor $F\colon C\
 +-- {: .num_example}
 ###### Example
 
+The [[inverse image]] [[base change]] in an [[etale geometric morphism]] between [[toposes]] is a [[cartesian closed functor]] (see there).
+
+=--
+
++-- {: .num_example}
+###### Example
+
 An [[adjoint triple]] of functors between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is a "[[Wirthmüller context]] of [[six operations]]" when the middle functor is closed monoidal. 
 
 =--
