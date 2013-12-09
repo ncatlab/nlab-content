@@ -1,3 +1,4 @@
+[[!redirects open map]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -98,7 +99,11 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 * [[open geometric morphism]]
 
+* [[closed morphism]]
+
 * [[étale map]]
+
+* [[separated morphism]]
 
 ## References
 
