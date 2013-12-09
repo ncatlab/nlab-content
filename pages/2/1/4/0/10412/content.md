@@ -19,6 +19,7 @@ The __amplituhedron__ is a geometric object in a [[positive Grassmanian]] (which
 
 ## References
 
+* Nima Arkani-Hamed, Jaroslav Trnka, _The Amplituhedron_, [arxiv/1312.2007](http://arxiv.org/abs/1312.2007)
 * Nima Arkani-Hamed, Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov|Alexander B. Goncharov]], [[Alexander Postnikov]], Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605)
 * wikipedia: [amplituhedron](http://en.wikipedia.org/wiki/Amplituhedron)
 * Jaroslav Trnka, _The amplituhedron_, [pdf](http://www.staff.science.uu.nl/~tonge105/igst13/Trnka.pdf)
