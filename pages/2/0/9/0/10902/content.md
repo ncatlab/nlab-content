@@ -25,7 +25,7 @@ between the spaces of subobjects of the corresponding terminal objects is closed
 ###### Example
 
 Let $A$ be an object of a topos $\mathcal{E}$. Then the canonical geometric morphism $\mathcal{E}/A \to A$ is closed iff $A$ fulfills the following condition, formulated in the [[internal language]]:
-$$ \mathcal{E} \models \forall U \subseteq A{:} \forall p \in \Omega{:} \quad A \subseteq (U \cup \{ x \in A \,|\, p \}) \quad\Rightarrow\quad (A \supseteq U) \vee p. $$
+$$ \mathcal{E} \models \forall U \subseteq A{:} \forall p \in \Omega{:} \quad A \subseteq (U \cup \{ x \in A \,|\, p \}) \quad\Rightarrow\quad (A \subseteq U) \vee p. $$
 Note that this condition is satisfied for any $A$ whatsoever if the internal language of $\mathcal{E}$ is boolean.
 =--
 
