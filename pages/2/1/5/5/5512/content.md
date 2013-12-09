@@ -33,14 +33,33 @@ The term _Frobenius reciprocity_ has a meaning
 ### In representation theory
  {#InRepresentationTheory}
 
-In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well.
+In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well, on [[characters]].
+
+Specifically for $H \hookrigtharrow G$ an [[subgroup]] inclusion, there is an [[adjunction]]
+
+$$
+  (Ind \dashv Red) \;\colon\;
+  Rep_G
+    \stackrel{\overset{Ind}{\leftarrow}}{\underset{Red}{\longrightarrow}} 
+  Rep_H
+$$
+
+between the [[categories]] of $G$-[[representations]] and $H$-[[representations]], where for $\rho$ an $H$-representation, $Ind(\rho) \in Rep(G)$ is the [[induced representation]].
+
+Sometimes also the _projection formula_
+
+$$
+  Ind(Red(W) \otimes V) \simeq W \otimes Ind(V)
+$$
+
+is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)). See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
 
 ### In category theory
  {#InCategoryTheory}
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
-Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical morphism 
+Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "projection" morphism 
 
 $$
   f_!(C \times f^*B) \to (f_! C) \times B
@@ -58,7 +77,68 @@ This terminology is most commonly used in the following situations:
 
 * When $f^*$ is the [[inverse image]] part of a [[geometric morphism]] between [[(n,1)-topoi]] and $f_!$ is a [[left adjoint]] of it, if the [[adjunction]] $f_!\dashv f^*$ satisfies  Frobenius reciprocity, then the geometric morphism is called [[locally n-connected (n+1,1)-topos|locally (n-1)-connected]].  In particular, if $n=0$ so that we have a [[continuous map]] of [[locales]], then a left adjoint $f_!$ satisfying Frobenius reciprocity makes it an [[open map]], and if $n=1$ so that we have 1-[[topoi]], then it is [[locally connected geometric morphism|locally connected]] (see also _[[open geometric morphism]]_).  This usage of "Frobenius reciprocity" is sometimes also extended to the dual situation of [[proper map]]s of locales and topoi.
 
-## Frobenius laws and Frobenius reciprocity
+### In Wirthm&#252;ller contexts of six-operations yoga
+ {#InWirthmuellerContexts}
+
+Generally, an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$
+between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]
+is called a _[[Wirthmüller context]]_ ([May 05](#May05)) of _[[six operations]]_ yoga, if $f^\ast$ is a strong [[closed monoidal functor]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+
+In a [[Wirthmüller context]], the projection formula/Frobenius reciprocity holds as a [[natural equivalence]]
+
+$$
+  \overline{\pi}
+  \;\colon\;
+  f_!(f^\ast(B)) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
+$$
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have
+by the $(f_! \dashv f^\ast)$-[[adjunction]] and the
+tensor$\dashv$hom-adjunction a [[commuting diagram]] of the form
+
+
+$$
+  \array{
+    \mathcal{Y}(f_! ((f^\ast B) \otimes A),\, C)
+     &
+      \stackrel{
+        \mathcal{Y}(\overline{\pi}(A,B), C)
+      }{
+        \longrightarrow
+     }
+     &
+    \mathcal{Y}(B \otimes f_! A, \, C  )
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+     &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathcal{X}(A, [(f^\ast B), (f^\ast C)])
+    &\stackrel{}{\longrightarrow}&
+    \mathcal{X}(A, f^\ast [B,C])
+  }
+  \,.
+$$
+
+By naturality in $A$ and by the [[Yoneda lemma]] this shows
+that $\overline{\pi}$ is an equivalence precisey if 
+$f^\ast$ is strong closed.
+
+=--
+
+
+## Properties
+
+### Relation to Frobenius laws (in Frobenius algebras)
 
 The name "Frobenius" is sometimes used to refer to other conditions on adjunctions, known as "Frobenius laws". The formal structure of the Frobenius law appears in the notion of [[Frobenius algebra]], in the axiom which relates multiplication to comultiplication, and recurs in another form isolated by Carboni and Walters in their studies of cartesian bicategories and bicategories of relations. Namely, if $\delta \colon 1 \to \otimes \Delta$ denotes the diagonal transformation on a cartesian bicategory (e.g., $Rel$), with right adjoint $\delta^\dagger$, then there is a canonical map 
 
@@ -102,8 +182,9 @@ for any map $f: a \to b$ and predicates $q \in \hom(a, c)$, $r \in \hom(b, c)$.
 
 Meanwhile, recall that a **bicategory of relations** is a (locally posetal) cartesian bicategory in which the Frobenius laws hold. 
 
-+-- {: .num_prop}
-###### Proposition{#FL to FR}
++-- {: .num_prop #FLtoFR}
+###### Proposition
+
 Frobenius reciprocity holds in each hyperdoctrine $\hom_B(i-, c)$ associated with a bicategory of relations. 
 =-- 
 
@@ -128,8 +209,8 @@ but in fact this is just a special case of the more general modular law, which h
 
 Thus, in this instance, _Frobenius reciprocity follows from the Frobenius laws_. 
 
-+-- {: .num_prop} 
-###### Proposition{#FR to FL}
++-- {: .num_prop #FRtoFL} 
+###### Proposition
 In a locally posetal cartesian bicategory, the Frobenius laws follow from Frobenius reciprocity. 
 =-- 
 
@@ -142,6 +223,25 @@ is an equality. One (and therefore both) of the Frobenius laws will follow by ta
 $$f = \delta_x, \qquad q = \varepsilon_{x}^{\dagger} \otimes 1_x, \qquad r = \varepsilon_x \otimes 1_x \otimes \varepsilon_{x}^{\dagger}$$ 
 
 where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \to 1$ is the projection. The remainder of the proof is best exhibited by a string diagram calculation, which is given here: [[Frobenius-reciprocity.pdf:file]]. 
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+Generally, for $\mathbf{H}$ a [[topos]] and $f \;\colon\; X \longrightarrow Y$ any [[morphism]], then the induced [[base change]] [[etale geometric morphism]]
+
+$$
+  (f_! \dashv f^\ast \dashv f_\ast)
+  \;\colon\;
+  \mathbf{H}_{/X}
+  \to 
+  \mathbf{H}_{/Y}
+$$
+
+has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see there) exhibits Frobenius reciprocity.
+
 =--
 
 
@@ -157,11 +257,16 @@ A textbook source is around lemma 1.5.8 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-Manifestations of the Frobenius reciprocity formula, in the sense of [this section](#InCartegoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
+General discussion in the context of projection formulas in [[monoidal categories]] (not necessarily cartesian) is in 
+
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+ {#May05}
+
+Manifestations of the Frobenius reciprocity formula, [in the sense of category theory](#InCartegoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
 
 * Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
 
-MO discussion includes
+Further MO discussion includes
 
 * [Wrong-way Frobenius reciprocity for finite groups representations](http://mathoverflow.net/questions/132272/wrong-way-frobenius-reciprocity-for-finite-groups-representations)
 
