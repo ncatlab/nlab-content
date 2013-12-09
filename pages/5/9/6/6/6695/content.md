@@ -1,24 +1,4 @@
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Topology
-+--{: .hide}
-[[!include topology - contents]]
-=--
-=--
-=--
 
-#Contents#
-* table of contents
-{:toc}
+see _[[closed morphism]]_
 
-## Definition
-
-### For maps between topological spaces
-
-A [[function]]  $f : X \to Y$ between [[topological space]]s  is called __closed__ if the [[image]] of every [[closed set]] in $X$ is also closed in $Y$.
-
-Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[closed subspace|closed set]] in $Y$ is closed in $X$.  For defining closed maps typically one restricts attention to closed [[continuous map]]s, although it also makes sense to speak of closed functions that are not continuous.
-
-See also [[open map]] (from which the above was blatantly adapted).
