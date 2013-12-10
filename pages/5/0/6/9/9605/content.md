@@ -5,6 +5,8 @@
 
 * [[poset of commutative subalgebras]]
 
+* [[matrix calculus]]
+
 category: people
 
 [[!redirects J. Harding]]
