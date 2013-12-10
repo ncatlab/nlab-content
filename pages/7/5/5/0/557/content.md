@@ -1,5 +1,7 @@
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -22,6 +24,10 @@ is called an **algebra** or **model** of $T$ in $C$.  The category of algebras o
 
 * symmetric monoidal functors $F : T \to C$ as objects,
 * [[symmetric monoidal natural transformation|symmetric monoidal natural transformations]] as morphisms.
+
+## Related concepts
+
+* [[polycategory]]
 
 
 ## References ##
