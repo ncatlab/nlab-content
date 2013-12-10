@@ -2,7 +2,7 @@
 |  | [[type theory]] | [[category theory]] |
 |--|--|--|
 |  | [[syntax]] | [[semantics]] |
-|  |  [[natural deduction]] |  [[universal construction]] | 
+|  |  [[natural deduction]] |  [[universal construction]] |
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
 | [[type formation]] | $\frac{\vdash\: X \colon Type \;\;\;\;\; x \colon X \;\vdash\; A(x)\colon Type}{\vdash \; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type}$ | <img src="http://quicklatex.com/cache3/ql_1c81764c5c9e8040d29b987f7bf8d9c4_l3.png"/> |
 | [[term introduction]] | $\frac{x \colon X \;\vdash\; a \colon A(x)}{\vdash (x,a) \colon \sum_{x' \colon X} A\left(x'\right) }$ | <img src="http://quicklatex.com/cache3/ql_b15b695fe91cae98b53d5c8747d06f9c_l3.png"/> |
