@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-In a category $C$ with [[biproducts]], morphisms between finite biproducts are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the objects. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
+In a [[category]] $C$ with [[biproducts]], [[morphisms]] between [[finite product|finite]] biproducts are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the [[objects]]. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
 
 For the special case that $C =$ [[Vect]] this reproduces the standard matrix calculus of linear algebra.
 
@@ -84,11 +95,20 @@ If the category $C$ is in addition a [[dagger category]] with an obvious compati
 
 Here the distinction between upper and lower indices cannot be maintained, although it is still true that repeated indices will be summed in formulas with general applicability.
 
+## Related concepts
+
+* [[integral transform]]
+
 ## References
 
-For instance section 2 of 
+Discussion in the generality of [[monoidal category|monoidal]] [[category theory]] is in
 
-* John Harding, _[[matrixcalculus.pdf:file]]_
+* [[John Harding]], section 2  of _[[matrixcalculus.pdf:file]]_
+
+
+Formalization in terms of [[dependent linear type theory]] is in
+
+* _[[schreiber:Type-semantics for quantization]]_
 
 [[!redirects matrix multiplication]]
 
