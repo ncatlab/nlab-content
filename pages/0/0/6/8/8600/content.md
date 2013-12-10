@@ -7,6 +7,6 @@
 | [[type formation]] | $\frac{\vdash\: X \colon Type \;\;\;\;\; x \colon X \;\vdash\; A(x)\colon Type}{\vdash \; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type}$ | <img src="http://quicklatex.com/cache3/ql_1c81764c5c9e8040d29b987f7bf8d9c4_l3.png"/> |
 | [[term introduction]] | $\frac{x \colon X \;\vdash\; a \colon A(x)}{\vdash (x,a) \colon \sum_{x' \colon X} A\left(x'\right) }$ | <img src="http://quicklatex.com/cache3/ql_b15b695fe91cae98b53d5c8747d06f9c_l3.png"/> |
 | [[term elimination]] | $\frac{\vdash\; t \colon \left(\sum_{x \colon X} A\left(x\right)\right)}{\vdash\; p_1(t) \colon X\;\;\;\;\; \vdash\; p_2(t) \colon A(p_1(t))}$ |  <img src="http://quicklatex.com/cache3/ql_a4014c37f882006d7254a62c72efcd6d_l3.png"/> |
-| [[computation rule]] | $p_1(x,a) = x\;\;\;\; p_2(x,a) = a$ |  <img src="http://quicklatex.com/cache3/ql_00200297324152c6bcf2749f8322c4d9_l3.png"/> | 
+| [[computation rule]] | $p_1(x,a) = x\;\;\;\; p_2(x,a) = a$ |  <img src="http://quicklatex.com/cache3/ql_00200297324152c6bcf2749f8322c4d9_l3.png"/> |
 
 
