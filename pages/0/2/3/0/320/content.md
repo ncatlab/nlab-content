@@ -90,6 +90,8 @@ See also the examples at _[[operad]]_.
 
 * [[multimorphism]]
 
+* [[polycategory]]
+
 * [[fibration of multicategories]]
 
 * [[symmetric multicategory]]
