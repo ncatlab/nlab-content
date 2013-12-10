@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
@@ -19,7 +23,7 @@
 
 ## Idea
 
-An _integral transform_ on [[function]]s is a [[linear map]] between functions on [[space]]s $X$, $Y$ encoded by a function $K$ on the [[product]] space $X \times Y$ and given by a formula of the type
+An _integral transform_ on [[functions]] is a [[linear map]] between functions on [[space]]s $X$, $Y$ encoded by a function $K$ on the [[product]] space $X \times Y$ and given by a formula of the type
 
 $$
   (function\;f\;on\;X) \mapsto
@@ -56,6 +60,13 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 * [[Fourier-Mukai transform]]
 
 * [[Penrose transform]]
+
+## References
+
+Comments on the formalization of integral transforms and [[quantization]] in [[dependent linear type theory]] are at
+
+* _[[schreiber:Type-semantics for quantization]]_ 
+
 
 [[!redirects integral transforms]]
 
