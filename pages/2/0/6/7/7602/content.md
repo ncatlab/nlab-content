@@ -1,6 +1,26 @@
-A **polycategory** is like a [[category]] or a [[multicategory]], but where both the [[domain]] and the [[codomain]] of a morphism can be finite lists of objects rather than single objects.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
-Note that a (multicolored) [[PROP]] can also be described in such a way; what distinguishes a polycategory from a PROP is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A **polycategory** is like a [[category]] or a [[multicategory]], but where both the [[domain]] and the [[codomain]] of a [[morphism]] can be [[finite set|finite]] [[lists]] of [[objects]] rather than just single objects.
+
+## Properties
+
+### Relation to PROPs
+
+A (multicolored) [[PROP]] can also be described as a polycategory; what distinguishes a polycategory from a PROP is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
 
 $$\circ_D \colon Hom(A,B;C,D,E) \times Hom(F,D,G; H) \to Hom(F,A,B,G; C,H,E)$$
 
@@ -8,6 +28,9 @@ but not an operation such as
 
 $$\circ_{B,C} \colon Hom(A; B,C) \times Hom(B,C; D) \to Hom(A,D).$$
 
-Polycategories provide a natural categorical semantics for [[linear logic]].
+### Internal loggic
+
+Polycategories provide a natural [[categorical semantics]] for [[linear logic]].
+
 
 [[!redirects polycategories]]
