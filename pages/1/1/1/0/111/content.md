@@ -152,7 +152,7 @@ The notion of [[indexed category]] captures the idea of woking "over a base" oth
 
 #### Multicategories
 
-There is a rather obvious generalization of the notion of catgeory where one allows a morphism to go from several objects to a single object. This is called a [[multicategory]] or [[operad]].
+There is a rather obvious generalization of the notion of catgeory where one allows a morphism to go from several objects to a single object. This is called a [[multicategory]] or [[operad]]. See also _[[polycategory]]_ and _[[PROP]]_.
 
 #### Higher categories
 
