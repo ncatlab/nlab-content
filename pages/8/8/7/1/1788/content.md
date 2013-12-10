@@ -24,7 +24,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 |  | [[type theory]] | [[category theory]] |
 |--|--|--|
 |  | [[syntax]]                 | [[semantics]] |
-|  |  [[natural deduction]]     |  [[universal construction]] |
+|  |  [[natural deduction]]     |  [[universal construction]] | 
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
 
 
