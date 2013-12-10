@@ -27,7 +27,7 @@
 
 Dependent linear type theory should be a combination of _[[dependent type theory]]_ and _[[linear type theory]]_.
 
-Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of contexts $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ an [[adjoint triple]] of [[functors]]
+Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of [[contexts]] $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ functorially an [[adjoint triple]] of [[functors]]
 
 $$
   (f_! \dashv f^\ast \dashv f_\ast) 
@@ -75,6 +75,9 @@ Discussion of what should be the [[categorical semantics]] of dependent linear t
  {#Shulman12}
 
 
+Comments on the formalization of [[integral transforms]] and [[quantization]] in dependent linear type theory are at
+
+* _[[schreiber:Type-semantics for quantization]]_ 
 
 [[!redirects dependent linear type theories]]
 
