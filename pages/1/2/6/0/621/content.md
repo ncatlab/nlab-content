@@ -148,21 +148,29 @@ and
 
 * [[Max Kelly]] M. L. Laplaza, _Coherence for compact closed categories_  J. Pure Appl. Algebra, 19:193{213, 1980.
 
-A survey is in 
+Surveys include
 
-* [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://arxiv.org/pdf/1107.6032v1.pdf)).
+* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
+
+
+* [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://arxiv.org/pdf/1107.6032v1.pdf)).
+
+Generalization of this to [[indexed monoidal categories]] is in 
+
+* [[Kate Ponto]], [[Mike Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
+
+and to [[bicategories]] in 
+
+* [[Kate Ponto]], [[Mike Shulman]], _Shadows and traces in bicategories_, JHRS, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
 
 Further developments are in
 
 * [[Andre Joyal]], [[Ross Street]], and [[Dominic Verity]], _Traced Monoidal Categories_  
 
-* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
-
 * [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
  {#BenZviNadler13}
 
-
-For partial trace, particularly its application to quantum mechanics, see:
+For the notion of partial trace, particularly its application to [[quantum mechanics]], see:
 
 * Nielsen and Chuang, _Quantum Computation and Quantum Information_
 
