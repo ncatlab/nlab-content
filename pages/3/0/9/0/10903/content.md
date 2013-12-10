@@ -55,6 +55,23 @@ In [[geometry]]/[[topos theory]] such a "linear hyperdoctrine" is known as _[[si
 
 * [[cohesive homotopy type theory]]
 
+## References
+ {#References}
+
+A genuine account of dependent linear type theory is not in the literature at the moment. The closest is maybe this article:
+
+* Iliano Cervesato, [[Frank Pfenning]], _A Linear Logical Framework_, 1996, ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.1152))
+
+Discussion of what should be the [[categorical semantics]] of dependent linear type theory, namely [[indexed closed monoidal categories]], is in 
+
+* [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
+ {#Shulman08}
+
+* [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+ {#Shulman12}
+
+
+
 [[!redirects dependent linear type theories]]
 
 [[!redirects linear dependent type theory]]
