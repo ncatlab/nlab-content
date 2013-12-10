@@ -63,7 +63,7 @@ $$
   S
 $$
 
-between the [[closed monoidal category|closed]] [[symmetric monoidal category]] $\mathcal{C}$ wich interprets the given [[linear type theory]] and a [[cartesian monoidal category]] $S$.
+between the [[closed monoidal category|closed]] [[symmetric monoidal category]] $\mathcal{C}$ which interprets the given [[linear type theory]] and a [[cartesian monoidal category]] $S$.
 
 
 If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; S \longrightarrow \mathcal{C}$ without possibly a [[right adjoint]], then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural fragment_ of [[linear type theory]].
