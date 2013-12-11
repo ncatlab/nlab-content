@@ -1,6 +1,6 @@
 
 
-Given an [[action functional]] with a [[quantum anomaly]], an _anomaly cancellation_ is a modification of this such that the anomaly disappears. Usually this is specifically understood to be the modufication given by adding another action functional which is also anomalous, such that the total anomaly vanishes, hence that both contributions cancel each other.
+Given an [[action functional]] with a [[quantum anomaly]], an _anomaly cancellation_ is a modification of this such that the anomaly disappears. Usually this is specifically understood to be the modification given by adding another action functional which is also anomalous, such that the total anomaly vanishes, hence that both contributions cancel each other.
 
 For more see at _[[quantum anomaly]]_.
 
