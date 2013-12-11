@@ -1,0 +1,61 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given an [[adjoint pair]] of [[functors]] $(f^\ast \dashv f_\ast)$ or $(f_! \dashv f^\ast)$ between two [[monoidal categories]] such that $f^\ast$ is a [[strong monoidal functor]], then the _projection morphism_ is the canonical [[natural transformation]] of the form
+
+$$
+  B \otimes f_\ast A \longrightarrow f_\ast (f^\ast B \otimes A)
+$$
+
+or 
+
+$$
+  f_! (f^\ast B \otimes A) \longrightarrow  B \otimes f_! A 
+$$
+
+respectively. If these morphisms are [[equivalences]] then one often calls them the **projection formula** or the **reciprocity** relation.
+
+## Examples
+
+Examples include the [[six operations]] setup in [[Grothendieck context]] and [[Wirthmüller context]], respectively. In particular in [[representation theory]] and in [[formal logic]] reciprocity is also called _[[Frobenius reciprocity]]_, see there for more.
+
+For more examples see also at MO _[Where do all the projection formulas come from?](http://mathoverflow.net/q/67228/381)_
+
+## Related concepts
+
+* [[monoidal adjunction]]
+
+* [[dependent linear type theory]]
+
+## References
+
+A general abstract account is in 
+
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+ {#May05}
+
+See also 
+
+* MathOverflow, _[Where do all the projection formulas come from?](http://mathoverflow.net/q/67228/381)_
+
+[[!redirects reciprocity]]
+
+[[!redirects projection formulas]]
