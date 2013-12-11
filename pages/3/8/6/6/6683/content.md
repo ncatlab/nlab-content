@@ -32,6 +32,8 @@ Under  [[holographic duality]] supposed to be related to [[11-dimensional superg
 
 * [[BLG model]]
 
+* [[membrane matrix model]]
+
 [[!include table of branes]]
 
 ## References
