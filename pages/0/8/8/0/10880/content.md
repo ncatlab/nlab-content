@@ -274,7 +274,7 @@ $$
   f_!(f^\ast A \otimes B) \simeq A \otimes f_!(B)
 $$
 
-is often called the *projection formula*. In [[representation theory]] this is also sometimes called *[[Frobenius reciprocity]]*, though mostly that term is used for (just) the existence of the $(f_! \dashv f^\ast)$-[[adjunction]], where in representation theory the [[left adjoint]] $f_!$ forms [[induced representations]].
+is often called the *[[projection formula]]*. In [[representation theory]] this is also sometimes called *[[Frobenius reciprocity]]*, though mostly that term is used for (just) the existence of the $(f_! \dashv f^\ast)$-[[adjunction]], where in representation theory the [[left adjoint]] $f_!$ forms [[induced representations]].
 
 =--
 
@@ -506,5 +506,3 @@ Discussion in [[E-∞ geometry]] is in
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
 
-[[!redirects projection formula]]
-[[!redirects projection formulas]]
