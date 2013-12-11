@@ -59,6 +59,10 @@ In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called
   _A projector is a projection followed by an inclusion_.
 
 
+## Related concepts
+
+A different concept of a similar name is _[[projection formula]]_.
+
 [[!redirects projection]]
 [[!redirects projections]]
 
