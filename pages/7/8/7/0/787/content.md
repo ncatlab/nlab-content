@@ -297,6 +297,9 @@ The embedding of the [[Poisson Lie 2-algebra]] of a given [[2-plectic geometry]]
 * [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_, ([arXiv:1001.0040](http://arxiv.org/abs/1001.0040))
  {#Rogers}
 
+This is developed further in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
 See also 
 
