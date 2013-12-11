@@ -3,3 +3,5 @@
 
 
 category: people
+
+[[!redirects José Figueroa-O'Farrill]]
