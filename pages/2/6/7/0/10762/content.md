@@ -81,7 +81,7 @@ The [[proof]] of the Adams conjecture is originally due to
 
 The proof using [[algebraic geometry]] is due to 
 
-* [[Dennis Sullivan]], _Generatics of homotopy theory and the Adams conhecture_, The Annals of Mathematics, Second Series, Vol. 100, No. 1 (Jul., 1974), pp. 1-79 ([JSTOR](http://www.jstor.org/stable/1970841), [pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Sullivan.pdf))
+* [[Dennis Sullivan]], _Genetics of homotopy theory and the Adams conjecture_, The Annals of Mathematics, Second Series, Vol. 100, No. 1 (Jul., 1974), pp. 1-79 ([JSTOR](http://www.jstor.org/stable/1970841), [pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Sullivan.pdf))
 
 Yet another proof via [[Becker-Gottlieb transfer]] is due to 
 
