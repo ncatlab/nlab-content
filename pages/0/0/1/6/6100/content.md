@@ -53,7 +53,7 @@ Let $F : C \to D$ be a [[functor]].
 ###### Theorem
 **(Quillen's theorem A)**
 
-If for all [[object]]s $d \in D$ the geometric realization $\vert F/d\vert$ of the [[comma category]] $F/d$ is [[contractible]] (meaning that $F$ is a "homotopy [[cofinal functor]]", hence a [[cofinal (∞,1)-functor]]), then $\vert f \vert : \vert C \vert \to \vert D \vert  $ is a [[weak homotopy equivalence]].
+If for all [[object]]s $d \in D$ the geometric realization $\vert F/d\vert$ of the [[comma category]] $F/d$ is [[contractible]] (meaning that $F$ is a "homotopy [[cofinal functor]]", hence a [[cofinal (∞,1)-functor]]), then $\vert F \vert : \vert C \vert \to \vert D \vert  $ is a [[weak homotopy equivalence]].
 
 =--
 
