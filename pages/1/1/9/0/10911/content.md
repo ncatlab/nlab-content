@@ -17,7 +17,11 @@
 
 The [[KK-compactification]] of [[D=10 super Yang-Mills theory]] all the way to the point yields a [[theory (physics)|theory]] whose [[field (physics)|fields]] are simply elements of the gauge [[Lie algebra]] $\mathfrak{g}$, hence [[matrices]] for a [[matrix Lie algebra]]. This [[model (physics)|physics]] is called the _IKKT matrix model_.
 
+Alternatively this model can be motivated from a certain regularization of the [[worldsheet]] [[action functional]] of the [[superstring]]. This is how it was originally obtained in ([IKKT 96](#IKKT96)).
+
 It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ for large $N$, this model captures aspects of [[non-perturbative field theory|non-perturbative]] [[type IIB string theory]] (see also at _[[M-theory]]_). Therefore this is also called the _IIB matrix model_ (in contast to the [[BFSS matrix model]] in [[type IIA string theory]]).
+
+Several authors have explored the possibility to lift the derivation of the IKKT model from the [[superstring]] to the [[M2-brane]]. See at _[[membrane matrix model]]_ for more on this.
 
 ## Related concepts
 
@@ -28,6 +32,7 @@ It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ for large $N$, thi
 The original articles are
 
 * N. Ishibashi, H. Kawai, Y. Kitazawa, A. Tsuchiya, _A Large-N Reduced Model as Superstring_, Nucl.Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115))
+ {#IKKT96}
 
 * H. Aoki, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, A. Tsuchiya, _IIB Matrix Model_, Prog.Theor.Phys.Suppl.134:47-83,1999 ([arXiv:hep-th/9908038](http://arxiv.org/abs/hep-th/9908038))
 
@@ -43,7 +48,9 @@ Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[
 
 * Daiji Ennyu, Hiroshi Kawabe, Naohito Nakazawa, _Note on a Closed String Field Theory from Bosonic IIB Matrix Model_, JHEP 0301 (2003) 025 ([arXiv:hep-th/0212044](http://arxiv.org/abs/hep-th/0212044))
 
-Possibilities of generalizing the IKKT model from [[Lie algebras]] to [[Lie 2-algebras]] are explored in 
+
+
+Possibilities of generalizing the IKKT model from [[Lie algebras]] to [[Lie 2-algebras]] in some [[membrane matrix model]] are explored in 
 
 * Patricia Ritter, [[Christian Sämann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
