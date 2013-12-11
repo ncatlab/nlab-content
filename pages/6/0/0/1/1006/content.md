@@ -88,5 +88,5 @@ based on
 
 [[!redirects n-Lie algebras]]
 
-[[!redirects n-Lie algebra]]
-[[!redirects n-Lie algebras]]
+[[!redirects 3-Lie algebra]]
+[[!redirects 3-Lie algebras]]
