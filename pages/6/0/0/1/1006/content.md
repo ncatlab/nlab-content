@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 # $n$-Lie algebras #
 * table of contents
@@ -20,6 +29,8 @@ Instead, at least certain "3-Lie algebras" can be understood as encoding structu
 
 
 ## References
+
+### Original
 
 A discussion of $n$-Lie algebras (without the $L_\infty$-grading) is in
 
