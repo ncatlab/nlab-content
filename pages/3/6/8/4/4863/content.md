@@ -155,6 +155,9 @@ The lift of the [above](#ReductionsOfTypeIISupergravity) reduction of [[type II 
 
 Such KK-compactification of the form _[[M-theory on G2-manifolds]]_ turn out to yield very detailed and at least semi-realistic [[model (physics)|physics]], see for instance the _[[G2-MSSM]]_ [[model (physics)|modle]].
 
+### High codimension compactification of $D=10$ super Yang-Mills
+
+The KK-compactification of [[D=10 super Yang-Mills theory]] to $D=1$ is related to what is called the _[[BFSS matrix model]]_. Compactification even further down to $D = 0$ gives the [[IKKT matrix model]].
 
 ### Cascades of KK-reductions
  {#CascadedOfKKReductionsFromHolographicBoundaries}
