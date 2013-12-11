@@ -100,8 +100,12 @@ and more recently
 
 * [en.wikipedia:Fox derivative](http://en.wikipedia.org/wiki/Fox_derivative)
 
-Connections to double brackets are discussed in
+Connections to double Poisson structures/brackets are discussed in
 
-* Gwenael Massuyeau, Vladimir Turaev, _Quasi-Poisson structures on representation spaces of surfaces_, [arxiv/1205.4898](http://arxiv.org/abs/1205.4898), [irma pdf](http://www-irma.u-strasbg.fr/~massuyea/papers/double_brackets.pdf)
+* Gwenael Massuyeau, [[Vladimir Turaev]], _Quasi-Poisson structures on representation spaces of surfaces_, [arxiv/1205.4898](http://arxiv.org/abs/1205.4898), [irma pdf](http://www-irma.u-strasbg.fr/~massuyea/papers/double_brackets.pdf)
+
+See also 
+
+* Gwenael Massuyeau, Vladimir Turaev, _Fox pairings and generalized Dehn twists_, [arxiv/1109.5248](http://arxiv.org/abs/1109.5248)
 
 [[!redirects Fox derivatives]]
