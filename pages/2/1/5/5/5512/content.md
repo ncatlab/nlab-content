@@ -46,7 +46,7 @@ $$
 
 between the [[categories]] of $G$-[[representations]] and $H$-[[representations]], where for $\rho$ an $H$-representation, $Ind(\rho) \in Rep(G)$ is the [[induced representation]].
 
-Sometimes also the _projection formula_
+Sometimes also the _[[projection formula]]_
 
 $$
   Ind(Red(W) \otimes V) \simeq W \otimes Ind(V)
