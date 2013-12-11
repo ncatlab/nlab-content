@@ -16,7 +16,11 @@
 
 ## Idea
 
-A description of the [[worldline]] dynamics of interacting  [[D0-brane]]s. In the limit of large numbr $N$ of D0 branes supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type II string theory]] (see also at _[[M-theory]]_).
+A description of the [[worldline]] dynamics of interacting  [[D0-brane]]s. In the limit of large numbr $N$ of D0 branes supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type IIA string theory]] (see also at _[[M-theory]]_).
+
+## Related concepts
+
+* [[IKKT matrix model]]
 
 
 ## References
