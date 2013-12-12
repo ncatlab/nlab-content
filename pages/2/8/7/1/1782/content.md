@@ -18,7 +18,7 @@
 
 Algebraic K-theory was initially a body of theory that attempted to generalise parts of linear algebra, notably the theory of dimension of vector spaces, and determinants,to modules over arbitrary rings. It has grown into a well developed tool for studying a wide range of algebraic, geometric and even analytic situations from a variety of points of view. It is thus difficult to give a single *idea* of what the subject is about.  It has a side that looks at the manipulation and [[rewriting]] of the elementary operations of linear algebra, but also a definite infinity category aspect. Its development uses a lot of algebraic topology, particularly homotopy theory, both stable homotopy theory and the more simplicial parts of that area, and more recently has interacted with infinity category theory in various forms.
 
-Some idea of its history is given in [[Algebraic K-theory, a historical perspective]]. A brief summary of the topics that are subsummed under the title of Algebraic K-theory can be gleaned from the list of subtopic pages and sections listed below:
+Some idea of its history is given in [[Algebraic K-theory, a historical perspective]]. A brief summary of the topics that are subsumed under the title of Algebraic K-theory can be gleaned from the list of subtopic pages and sections listed below:
 
 * [[Algebraic K-theory, a historical perspective]] (Whitehead and Grothendieck);
 
@@ -38,9 +38,9 @@ In its simplest initial form _algebraic K-theory_ provides tools for computing t
 
 Types of categories for which a theory of algebraic K-theory exist include notably the notions
 
-* [[Quillen exact category]] 
+* [[Quillen exact category]], 
 
-* [[abelian category]]
+* [[abelian category]],
 
 * [[Waldhausen category]], 
 
