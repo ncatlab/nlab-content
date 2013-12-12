@@ -37,7 +37,8 @@ The relations satisfy the following conditions:
 There are also conditions defining equivalence relations on $\mathcal{C}_0$ and $\mathcal{C}_1$. (The equivalence relation for $\mathcal{C}_2$ is simply equality.) All the relations defined above are required to be invariant under the appropriate equivalence relations (note, however, that their specified values do not need to be invariant). So in particular, the identity relation $\mathcal{C}_1\times \mathcal{C}_2$ and the 1- and 2- composition relations $(\mathcal{C}_2 \times \mathcal{C}_2) \times \mathcal{C}_2$ are functional: any two values of the identity on some 1-cell $x$, or any two values of one of the compositions on some 2-cells $f$ and $g$, must be equal (as elements of $\mathcal{C}_2$.
 * A 2-cell $f$ is said to be an _isomorphism_ (between any of its source-values and any of its target-values) if there are some 2-cell $g$ and 1-cell $x$ such that the 2-composition of $f$ and $g$ is the identity value of $x$. We say that $g$ is an _inverse_ of $f$.
 * Two 1-cells $f$ and $g$ are _isomorphic_ if there is a 2-cell isomorphism $h$ with $f$ as a source value and $g$ as a target value (or equivalently, vice versa). This is the chosen equivalence relation for $\mathcal{C}_1$.
-* ETC. (The isomorphism for $\mathcal{C}_0$ is of course natural equivalence.)
+* A 1-cell $f$ is said to be an _equivalence_ (between any of its source-values and any of its target-values) if there are some 1-cell $g$ and object $x$ such that some composition value of $f$ and $g$ in either direction is isomorphic to an identity value of $x$.
+* Two objects $x$ and $y$ are _equivalent_ if there is a 1-cell equivalence $g$ with $x$ as a source value and $y$ as a target value (or equivalently, vice versa). This is the chosen equivalence relation for $\mathcal{C}_0$.
 
 # Reference #
 
