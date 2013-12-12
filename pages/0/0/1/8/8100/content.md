@@ -22,7 +22,7 @@
 
 The effective bosonic exponentiated [[action functional]] of the [[type II superstring]] [[sigma-model]] for [[open strings]] ending on [[D-branes]] has three factors:
 
-1. the [[higher holonomy]] of the backgroun [[B-field]] over the string 2-dimensional worldsheet;
+1. the [[higher holonomy]] of the background [[B-field]] over the string 2-dimensional worldsheet;
 
 1. the ordinary [[holonomy]] of the [[Chan-Paton bundle]] on the D-brane along the boundary of the string;
 
@@ -32,7 +32,7 @@ Each single contribution is in general not a globally well defined function on t
 
 The non-triviality of this tensor product line bundle (as a line bundle [[connection on a bundle|with connection]]) is the _Freed-Witten-Kapustin [[quantum anomaly]]_. The necessary conditions for this anomaly to vanish, hence for this line bundle to be trivializable, is the _Freed-Witten anomaly cancellation condition_.
 
-More precisely, the naive holonomy of an ordinary Chan-Paton [[principal connection]] would be globally well defined. But in order to cancel the anomaly contribution form the other two factors, one may take the Chan-Paton bundle to be a [[twisted bundle]], the twist being the [[B-field]] restricted to the brane. Then its holonomy becomes anomalous, too, but there are then interesting configurations where the product of all three anomalies cancels. This refined argument has been made precise by Kapustin, and so one should probably speak of the _Freed-Witten-Kapustin anomaly cancellation_.
+More precisely, the naive holonomy of an ordinary Chan-Paton [[principal connection]] would be globally well defined. But in order to cancel the anomaly contribution from the other two factors, one may take the Chan-Paton bundle to be a [[twisted bundle]], the twist being the [[B-field]] restricted to the brane. Then its holonomy becomes anomalous, too, but there are then interesting configurations where the product of all three anomalies cancels. This refined argument has been made precise by Kapustin, and so one should probably speak of the _Freed-Witten-Kapustin anomaly cancellation_.
 
 ## Details
  {#Details}
