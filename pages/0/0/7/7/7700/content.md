@@ -5,7 +5,7 @@
 
 ## Idea
 
-The __adic spaces__ are the basic object in Huber's approach to [[non-archimedean analytic geometry]]. They are built by gluing valuation spectra of certain class opf topological rings. Unlike [[Berkovich analytic spectra]] the points correspond to valuations of arbitrary rank, not only rank one. If a [[Berkovich space]] is cprresponding to a separated rigid space then it can be obtained as the largest Hausdorff quotient of the corresponding adic space.
+The __adic spaces__ are the basic object in Huber's approach to [[non-archimedean analytic geometry]]. They are built by gluing valuation spectra of certain class of topological rings. Unlike [[Berkovich analytic spectra]] the points correspond to valuations of arbitrary rank, not only rank one. If a [[Berkovich space]] is corresponding to a separated rigid space then it can be obtained as the largest Hausdorff quotient of the corresponding adic space.
 
 ## Related concepts
 
