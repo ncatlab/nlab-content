@@ -16,7 +16,7 @@
 
 ## Idea
 
-Any [[dg-category]] $\mathcal{C}$ presents a [[stable (infinity,1)-category]]. One way to construct this is to apply the [[Dold-Kan correspondence]] on each [[hom-object]] to produce an fibrant [[sSet-enriched category]] and then, if desired, form the [[homotopy coherent nerve]] of that to obtain a [[quasi-category]]. 
+Any [[dg-category]] $\mathcal{C}$ presents a [[stable (infinity,1)-category]]. One way to construct this is to apply the [[Dold-Kan correspondence]] on each [[hom-object]] to produce a fibrant [[sSet-enriched category]] and then, if desired, form the [[homotopy coherent nerve]] of that to obtain a [[quasi-category]]. 
 
 On the other hand, the _dg-nerve_ of $\mathcal{C}$ is a more direct construction that directly sends the dg-category to a [[simplicial set]] which is the [[quasi-category]] incarnation of the corresponding [[stable (∞,1)-category]].
 
