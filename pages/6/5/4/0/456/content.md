@@ -64,7 +64,7 @@ of the geometric morphism.
 
 =--
 
-If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : F \to E$, then $f$ is an [[essential geometric morphism]].
+If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : E \to F$, then $f$ is an [[essential geometric morphism]].
 
 +-- {: .num_remark}
 ###### Remark
