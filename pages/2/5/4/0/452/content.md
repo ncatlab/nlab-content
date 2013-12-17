@@ -170,7 +170,7 @@ $\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules)
 preserves certain colimits (see reference below).  
 
 
-This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton. See also [[Nonabelian algebraic topology]]. But the more general result of Brown and Higgins determines also the group $\pi_2(X \cup CA,X,x)$ as a crossed $\pi_1(X,x)$ module, so that Whitehead's result is the case $A$ is a wedge of circles. 
+This last example was one of the first investigated by Whitehead and his proof appears also in a little book by [[Hilton]]; see also [[Nonabelian algebraic topology]], however the more general result of Brown and Higgins determines also the group $\pi_2(X \cup CA,X,x)$ as a crossed $\pi_1(X,x)$ module, and then Whitehead's result is the case with A$ is a wedge of circles. 
 
 
 
@@ -191,7 +191,12 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 * R. Brown, "Groupoids and crossed objects in algebraic topology",  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
 
-* R, Brown and P.J. Higgins, "On the connections between the second relative homotopy groups of some related spaces",  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
+* R.  Brown and P.J. Higgins, "On the connections between the second relative homotopy groups of some related spaces",  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
+* R. Brown, P. J. Higgins, and R. Sivera, _Nonabelian Algebraic Topology: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
 
+* [[Peter J. Hilton]], 1953, _An Introduction to Homotopy Theory_, Cambridge University Press.
+
+*  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
+Amer. Math. Soc., 55 (1949), 453--496.
 [[!redirects crossed modules]]
