@@ -62,12 +62,21 @@ intended to
 
 > bridge the gap between a standard course in quantum field theory and recent fascinating developments in the studies of on-shell scattering amplitudes.
 
+A historical overview of the development of on-shell methods/analytic methods is in 
+
+* [[Lance Dixon]], _Calculuating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ {#Dixon13}
+
 
 ### Analytic methods
 
 * Ruth Britto, _Loop amplitudes in gauge theories: modern analytic approaches_ ([arXiv:1012.4493](http://arxiv.org/abs/1012.4493))
 
-See also at _[[motivic multiple zeta values]]_.
+* [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
+
+* [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+
+See also at _[[string theory results applied elsewhere]]_ and at _[[motivic multiple zeta values]]_.
 
 
 ### In super Yang-Mills theory
