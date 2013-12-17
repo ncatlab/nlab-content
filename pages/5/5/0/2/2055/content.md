@@ -217,6 +217,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss: vizualizing math and math art, building math sculptures)
 
+* [Misapplied Math](http://www.klittlepage.com) (Math (mainly statistics, probability, and stochastic control), data science, and CS)
+
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom writes on Cohomology, homotopy theory, and arithmetic geometry)
 
 * [Musings Mathematical and Otherwise](http://edwardfhughes.wordpress.com) (Edward Hughes - Algebraic Geometry and String Theory)
