@@ -21,6 +21,9 @@ A point of view in [[philosophy]].
 
 (...)
 
+A prominent example is [[Georg Hegel]]'s [[natural philosophy]] as expressed in his _[[Science of Logic]]_. In opposition to this is the school of [[analytic philosophy]].
+
+
 ## Relation to physics
 
 > There are quite a few steps between an empiricist and a Hegelian (or objective idealist). The former's view of scientific [[theory (physics)|theory]] generally is that it's an efficient encoding of the [[observations]] we make of the world, accompanied typically by a wariness about taking the [[theory (physics)|theory]] too seriously, e.g., as to what it says about the unobservable. Observations, on the other hand, are fairly straightforwardly given to us by the world. Science's basic task is to codify them, so that we can predict and sometimes control nature.
