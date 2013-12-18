@@ -26,7 +26,7 @@ There are many articles which are not philosophy, but rather essays on general m
 
 Philosophical interest in [[n-category|n-categories]] may be characterised as belonging to one of two kinds.
 
-* **Metaphysical**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for Bertrand Russell and the analytic philosophers he inspired. 
+* **Metaphysical**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for [[Bertrand Russell]] and the [[analytic philosophy|analytic philosophers]] he inspired. 
 
 * **Illustrative of mathematics as intellectual enquiry**: Such a reconstitution of the fundamental language of [[mathematics]] reveals much about mathematics as a tradition of enquiry stretching back several millennia, for instance, the continued willingness to reconsider basic concepts.
 
@@ -64,6 +64,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
     * [[becoming]] $\colon$ [[nothing]] $\dashv$ [[being]]
    
 * [[objective idealism]]
+
+* [[analytic philosophy]]
 
 * [[philosophy of mathematics]]
 
