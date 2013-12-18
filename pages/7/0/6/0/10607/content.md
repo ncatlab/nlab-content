@@ -242,3 +242,6 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 [[!redirects dialectic]]
 [[!redirects dialectics]]
+
+[[!redirects duality of opposites]]
+[[!redirects dualities of opposites]]
