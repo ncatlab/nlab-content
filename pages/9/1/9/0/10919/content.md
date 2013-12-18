@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A school of [[philosophy]] emphasizing clarity of argument, [[formal logic]], and aiming for strong connections with natural [[sciences]] such as [[physics]]. 
+
+Analytic philosophy to some extent defined itself, via people like [[Bertrand Russel]], in opposition to the [[objective idealism]] of [[Georg Hegel]] as expressed for instance in his _[[Science of Logic]]_. See at _[Perception of Hegel's Naturphilosophie](http://ncatlab.org/nlab/show/Georg+Hegel#PerceptionOfHegelsPhilosophy)_ for more on this.
+
+## References
+
+* Wikipedia, _[Analytic philosophy](http://en.wikipedia.org/wiki/Analytic_philosophy)_
+
