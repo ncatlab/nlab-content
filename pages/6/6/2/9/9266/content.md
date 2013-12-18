@@ -1,5 +1,5 @@
 
-> under construction, notes related to material that will appear here later in detail, see [References](#References).
+> under construction, notes related to material that appears in detail elsewhere, see the [References](#References).
 
 
 +-- {: .rightHandSide}
@@ -757,9 +757,9 @@ In conclusion, up to equivalence the bimodule is $L^2(X)$ regarded as a $C(X)-\m
 ## References
  {#References}
 
-These are notes related to material that will appear in Master thesis of [[Joost Nuiten]] and [[Stefan Bongers]].
+* Stefan Bongers, _[[schreiber:master thesis Bongers|Geometric quantization of symplectic and Poisson manifolds]]_, master thesis, Utrecht 2013
 
-(...)
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, Utrecht 2013
 
 [[!redirects 2d Poisson-Chern-Simons theory]]
 [[!redirects 2d Poisson-Chern-Simons theories]]
