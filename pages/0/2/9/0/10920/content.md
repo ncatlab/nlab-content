@@ -1,0 +1,7 @@
+[[!redirects R. G. Collingwood]]
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/R._G._Collingwood)
+
+category: people
+
+[[!redirects Robin George Collingwood]]
