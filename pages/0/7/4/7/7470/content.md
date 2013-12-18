@@ -62,6 +62,8 @@ Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
+* [[David Gepner]], Rune Haugseng, _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
+
 [[!redirects enriched (∞,1)-category]]
 [[!redirects enriched (∞,1)-categories]]
 
