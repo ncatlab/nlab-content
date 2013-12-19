@@ -105,9 +105,9 @@ This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 7.1.1
 
 For $\mathbf{H}$ an [[(∞,1)-topos]] we have that
 
-* $Exc^0(\mathbf{H}^{\ast/},\mathbf{H}) \simeq \mathbf{H}$ is the collection of constant functors, hence the original [[(∞,1)-topos]] itself;
+* $Exc^0(\infty Grpd^{\ast/},\mathbf{H}) \simeq \mathbf{H}$ is the collection of constant functors, hence the original [[(∞,1)-topos]] itself;
 
-* $Exc^1(\mathbf{H}^{\ast/},\mathbf{H}) \simeq T\mathbf{H}$ is the collection of [[parameterized spectra]] in $\mathbf{H}$, hence the [[tangent (∞,1)-topos]] of $\mathbf{H}$.
+* $Exc^1(\infty Grpd^{\ast/},\mathbf{H}) \simeq T\mathbf{H}$ is the collection of [[parameterized spectra]] in $\mathbf{H}$, hence the [[tangent (∞,1)-topos]] of $\mathbf{H}$.
 
 Hence one might refer to the tower of toposes
 
