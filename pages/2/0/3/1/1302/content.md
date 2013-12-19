@@ -424,24 +424,28 @@ $$
 as a definition of generalized $\infty$-vector bundles on $X$. This general nonsense is considered further at [[schreiber:∞-vector bundle]]. Concrete realizations are discussed at [[quasicoherent ∞-stack]].
 
 
-#### As lifts of the structure sheaf
+#### As extensions of the structure sheaf
+ {#HigherGeometryAsExtensionsOfStructureSheaf}
 
 In ([LurieQC, section 2.2, section 2.3](#LurieQC)) the following definition is given.
 
 Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]]. Let 
 
 $$
-  \mathcal{G}^{mod} \coloneqq T {\mathcal{G}^{op}}^{op}
+  \mathcal{G}^{mod} \coloneqq (T (\mathcal{G}^{op}))_{cpt}^{op}
 $$ 
 
-be the opposite [[tangent (∞,1)-category]] of its [[opposite (∞,1)-category]]. 
+be the opposite of the [[full sub-(∞,1)-category]] on the [[compact objects]] of the [[tangent (∞,1)-category]] of its [[opposite (∞,1)-category]]. 
 
 For instance for [[E-∞ geometry]] we have $\mathcal{G} = CRing_\infty$ is the [[(∞,1)-category]] of [[E-∞ rings]] with [[etale morphisms]] as admissible maps.
+
+([LurieQC, above Notation 2.2.4](#LurieQC))
+
 
 Then the canonical  [[(∞,1)-functor]]
 
 $$
-  \mathcal{G}^{mod} \longrightarrow \mathcal{G}
+  \mathcal{G} \longrightarrow \mathcal{G}^{mod}
 $$
 
 is a morphism of discrete [[geometry (for structured (∞,1)-toposes)|geometries]].
@@ -456,25 +460,24 @@ constitutes a $\mathcal{G}$-[[structure sheaf]] and makes $(\mathcal{X}, \mathca
 
 $$
   \array{
-     \mathcal{G}^{mod}
-     \\
-     \downarrow & \searrow^{\mathrlap{(\mathcal{O}, \mathcal{F})}}
-     \\
-     \mathcal{X} 
-     &\stackrel{\mathcal{O}}{\longrightarrow}& \mathcal{G}
+    \mathcal{G} &\stackrel{\mathcal{O}}{\longrightarrow}& \mathcal{X}
+    \\
+    \downarrow & \nearrow_{\mathrlap{(\mathcal{O}, \mathcal{F})}}
+    \\
+    \mathcal{G}^{mod}
   }
 $$
 
-exhibits a sheaf $\mathcal{F}$ of [[modules]] over $\mathcal{O}$.
+exhibits a sheaf $\mathcal{F}$ of $\mathcal{O}$-[[modules]] on $\mathcal{X}$.
 
 ([LurieQC, notation 2.2.4](#LurieQC))
 
 
-now
+Now if $(\mathcal{X},\mathcal{O})$ is [[locally representable structured (infinity,1)-topos]] then such an $\mathcal{O}$-module $\mathcal{F}$ is _quasi-coherent_ if also $(\mathcal{X}, (\mathcal{O}, \mathcal{F}))$ is locally representable.
 
 ([LurieQC, def. 2.3.6](#LurieQC))
 
-(...)
+
 
 
 
