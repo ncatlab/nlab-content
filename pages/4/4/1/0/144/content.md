@@ -159,7 +159,7 @@ $$
   \,,
 $$
 
-where we used the [[Yoneda lemma]] $[C^{op},V](j(v),j(v)) \simeq V(v,u)$ and the [[co-Yoneda lemma]] $X \simeq \int^{v \in V} j(v) \cdot X(v)$ and the fact that the $V$-enriched hom sends colimits and coends in the first argument to limits and ends.
+where we used the [[Yoneda lemma]] $[C^{op},V](j(v),j(u)) \simeq V(v,u)$ and the [[co-Yoneda lemma]] $X \simeq \int^{v \in V} j(v) \cdot X(v)$ and the fact that the $V$-enriched hom sends colimits and coends in the first argument to limits and ends.
 
 Analogously we find
 
