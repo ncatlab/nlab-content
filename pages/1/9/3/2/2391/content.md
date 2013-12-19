@@ -80,7 +80,7 @@ In other words, $A$ is equipped with an equivalence with a [[coreflective subcat
 A __[[morphism]] of Q-categories__ from 
 $\mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ to $\mathbb{B} : (v^* \dashv v_*) :  \bar B \stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}} B$ is a triple $(\Phi,\bar{\Phi},\phi)$ where $\Phi : A\to B$, $\bar{\Phi}:\bar{A}\to\bar{B}$ are functors and $\phi:\Phi u_*\Rightarrow v_*\bar{\Phi}$ is a [[natural isomorphism]] of functors. The composition is given by
 $$
-(\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi\Phi',\bar{\Phi}\bar{\Phi}', \bar{\Phi}\phi'\circ\phi\Phi')
+(\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi\Phi',\bar{\Phi}\bar{\Phi}',\phi\bar{\Phi}' \circ \Phi\phi')
 $$
 
 A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{\Psi},\psi)$ of [[natural transformation]]s $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
@@ -290,7 +290,7 @@ commutes and $\alpha\star \rho$ denotes the horizontal (= Godement) composition 
 Then one defines composition of morphisms by the formula
 $$
 (f_1, \rho_1,\bar{f_1})\circ(f_2, \rho_2,\bar{f_2})
-\stackrel{def}{=}(f_1\circ f_2, \rho_2\circ\rho_1, \bar{f_1}\circ\bar{f_2}\rho1).
+\stackrel{def}{=}(f_1\circ f_2, \rho_2\circ\rho_1, \bar{f_1}\circ\bar{f_2}\rho_1).
 $$
 
 There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the trivial cone $id_x :x\to x$ and to any morphism the corresponding morphism of trivial cones. Its right adjoint is the morphism $I_C:LC\to C$ defined by sending the cone $\alpha: x\to d$ over a diagram $d:D\to C$ its vertex $x$ and to a cone morphism $(f,\rho,\bar{f})$, the morphism of vertices $f$. Then $I_C\circ Q_C = Id_C$. The identity transformation can be thus taken as the unit of the adjunction. The counit of the adjunction $\epsilon: Q_C\circ I_C \to Id_{LC}$ is constructed as follows: to a cone $\alpha:x\to d$ assign the morphism $(1_x, const, \alpha)$ where $const: D\to C$ is the constant diagram which is the unique diagram from $D = dom(d)$ to the final category $1=\{\star\}$. One can check that these data indeed define an adjoint pair $Q_C\dashv I_C$ of functors. 
