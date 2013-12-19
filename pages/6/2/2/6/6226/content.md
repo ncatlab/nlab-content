@@ -33,7 +33,13 @@ On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in th
 
 ### 2.2 Module geometries
 
+* [[tangent (∞,1)-category]]
+
+* [[geometry (for structured (∞,1)-toposes)]]
+
 ### 2.3 Quasi-coherent sheaves
+
+* [[quasi-coherent sheaf]]
 
 ### 2.4 Quasi-affine spectral Deligne-Mumford stacks
 
