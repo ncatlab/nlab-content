@@ -9,4 +9,6 @@
 
 * [[Russell's paradox]]
 
+* [[analytic philosophy]]
+
 category: people
