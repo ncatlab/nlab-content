@@ -161,7 +161,9 @@ Acad. Press 1985.
 
 * Leob-Wolff (eds.), _Nonstandard analysis for the working mathematician_
 
-* [[Terry Tao]], _Ultraproducts as a Bridge Between Discrete and Continuous Analysis_ ([web](http://terrytao.wordpress.com/2013/12/07/ultraproducts-as-a-bridge-between-discrete-and-continuous-analysis/))
+* [[Terry Tao]], _Ultraproducts as a bridge between discrete and continuous analysis_ ([web](http://terrytao.wordpress.com/2013/12/07/ultraproducts-as-a-bridge-between-discrete-and-continuous-analysis/))
+
+* V. A. Lyubetski&#301;, _&#1054;&#1094;&#1077;&#1085;&#1082;&#1080; &#1080; &#1087;&#1091;&#1095;&#1082;&#1080;. &#1054; &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1093; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1072;&#1093; &#1085;&#1077;&#1089;&#1090;&#1072;&#1085;&#1076;&#1072;&#1088;&#1090;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; _, Uspekhi Mat. Nauk __44__ (1989), no. 4(268), 99--153, 256; translation _Valuations and sheaves. On some questions of non-standard analysis_, in Russian Math. Surveys __44__ (1989), no. 4, 37&#8211;112 [MR1023104](http://www.ams.org/mathscinet-getitem?mr=1023104) [doi](http://dx.doi.org/10.1070/RM1989v044n04ABEH002140) [IOP pdf](http://iopscience.iop.org/0036-0279/44/4/R03/pdf/0036-0279_44_4_R03.pdf) [rus pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=1849&what=fullt&option_lang=rus)
 
 [[!redirects hyperreal]]
 [[!redirects hyperreal number]]
