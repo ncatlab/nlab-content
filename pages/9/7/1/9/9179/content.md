@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -84,4 +83,7 @@ Comments on neutrinos masses as a hint for the [[standard model of particle phys
 * [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
  {#Weinberg09}
 
+
+[[!redirects neutrino]]
 [[!redirects neutrinos]]
+[[!redirects neutriono]]
