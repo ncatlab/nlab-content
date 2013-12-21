@@ -19,7 +19,7 @@
 
 ## Idea
 
-A **$k$-truncated object** in an [[n-category]] is an object which "behaves internally like a $k$-category".  More precisely, since an object of an $n$-category can behave at most like an $(n-1)$-category, a $k$-truncated object behaves like a $max(k,n-1)$-category.  More generally, a **$(k,m)$-truncated object** in an [[(n,r)-category]] is an object which behaves internally like a $max((k,m),(n-1,r-1))$-category.
+A **$k$-truncated object** in an [[n-category]] is an object which "behaves internally like a $k$-category".  More precisely, since an object of an $n$-category can behave at most like an $(n-1)$-category, a $k$-truncated object behaves like a $min(k,n-1)$-category.  More generally, a **$(k,m)$-truncated object** in an [[(n,r)-category]] is an object which behaves internally like a $min((k,m),(n-1,r-1))$-category.
 
 
 ## Definition
