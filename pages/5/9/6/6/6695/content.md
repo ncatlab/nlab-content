@@ -1,4 +1,1 @@
-
-
-see _[[closed morphism]]_
-
+&lt; [[closed map]]
