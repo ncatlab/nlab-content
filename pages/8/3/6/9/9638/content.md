@@ -19,6 +19,8 @@ Specifically, _topological quantum computation_ is (or is meant to be) quantum c
 
 * [[quantum information theory]]
 
+* [[quantum logic]], [[linear logic]]
+
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
 ## References
