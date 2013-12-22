@@ -33,6 +33,8 @@ See at _[[Bohr topos]]_ for more.
 
 * [[qbit]]
 
+* [[linear logic]], [[quantum computing]]
+
 ## Literature
 
 Related entries [[quantum mechanics]], [[Kochen-Specker theorem]], [[Gleason's theorem]], [[quantale]], [[Bohrification]]
