@@ -110,6 +110,7 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 * Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
+* [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://homepages.ulb.ac.be/~rduncan/papers/rduncan-thesis.pdf))
 
 [[!redirects linear type theories]]
 
