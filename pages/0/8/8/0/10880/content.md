@@ -234,7 +234,7 @@ tensor$\dashv$hom-adjunction a [[commuting diagram]] of the form
 
 $$
   \array{
-    \mathcal{Y}(f_! ((f^\ast B) \otimes A),\, C)
+    \mathcal{Y}(B \otimes f_! A, \, C  )
      &
       \stackrel{
         \mathcal{Y}(\overline{\pi}(A,B), C)
@@ -242,15 +242,15 @@ $$
         \longrightarrow
      }
      &
-    \mathcal{Y}(B \otimes f_! A, \, C  )
+    \mathcal{Y}(f_! ((f^\ast B) \otimes A),\, C)
     \\
     \downarrow^{\mathrlap{\simeq}}
      &&
     \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathcal{X}(A, [(f^\ast B), (f^\ast C)])
-    &\stackrel{}{\longrightarrow}&
     \mathcal{X}(A, f^\ast [B,C])
+    &\stackrel{}{\longrightarrow}&
+    \mathcal{X}(A, [(f^\ast B), (f^\ast C)])
   }
   \,.
 $$
