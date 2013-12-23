@@ -112,6 +112,8 @@ See also
 
 * [[UF-IAS-2012]], _[Setoid model of type theory formalized](http://uf-ias-2012.wikispaces.com/Setoid+model+of+type+theory+formalized)_
 
+* [Discussion](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c029271) on categorical aspects of the setoid construction. 
+
 [[!redirects Bishop set]]
 [[!redirects Bishop sets]]
 
