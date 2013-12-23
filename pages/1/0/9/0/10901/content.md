@@ -24,11 +24,33 @@
 
 ## Idea
 
-_Linear type theory_ is the [[linear logic]]-version of [[type theory]]. In the definition of ([Seely 89, prop. 1.5](#Seely89)), following ([Girard 87](#Girard87)), this is the [[internal language]] of/has [[categorical semantics]] in [[star-autonomous categories]]. But more generally _linear type theory_ came to refer to the internal [[type theory]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]]. Indeed, this general notion still faithfully follows the original motivation for the term "linear" as introduced in ([Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
+_Linear type theory_ is the [[linear logic]]-version of [[type theory]]. In the definition of ([Seely 89, prop. 1.5](#Seely89)), following ([Girard 87](#Girard87)), this is the [[internal language]] of/has [[categorical semantics]] in [[star-autonomous categories]]. 
+
+But more generally _linear type theory_ came to refer to the internal [[type theory]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]]. Indeed, this general notion still faithfully follows the original motivation for the term "linear" as introduced in ([Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
 
 The [[dependent type theory]]-version of linear type theory should be _[[dependent linear type theory]]_.
 
 ## Properties
+
+### Categorical semantics
+
+(...)
+
+In [[star-autonomous categories]].
+
+
+
+| Conjunctive operator | [[de Morgan duality]]  | Disjunctive operator |
+| -------------------- | - | -------------------- |
+| $\top$               |   | $0$                  |
+| $1$                  |   | $\bot$               |
+| $\&$                 |   | $\oplus$             |
+| $\otimes$            |   | $\parr$              |
+| $^\bot$              |   | $^\bot$              |
+| $\bigwedge$          |   | $\bigvee$            |
+| $!$                  |   | $?$                  |
+
+(...)
 
 ### The canonical co-modality
 
@@ -64,6 +86,12 @@ The orginal notion of [[linear logic]] was introduced in
 
 *  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
  {#Girard87}
+
+A review is in
+
+* [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
+ {#Girard11}
+
 
 The [[categorical semantics]] of linear type theory in [[star-autonomous categories]] is due to 
 
