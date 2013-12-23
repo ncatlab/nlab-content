@@ -87,6 +87,8 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 * [[order-theoretic structure in quantum mechanics]]
 
+* [[linear logic]], [[linear type theory]], [[quantum logic]], [[quantum computing]]
+
 ## References
  {#References}
 
