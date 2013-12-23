@@ -313,6 +313,13 @@ $$
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+With a Wirthm&#252;ller context regarded as [[dependent linear type theory]] the statement of cor. \ref{PushforwardsIntertwinedByDuality} is an instance of [[de Morgan duality]] $\prod_f \mathbb{D} \simeq \mathbb{D} \sum_f$.
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
@@ -505,4 +512,3 @@ Discussion in [[E-∞ geometry]] is in
 
 [[!redirects Wirthmuller isomorphism]]
 [[!redirects Wirthmuller isomorphisms]]
-
