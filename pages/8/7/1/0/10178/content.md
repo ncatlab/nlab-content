@@ -3903,7 +3903,7 @@ Linearization of [[higher correspondences]] of [[discrete ∞-groupoids]] as the
 
 and in 
 
-* [[Jacob Lurie]], _Finiteness and ambidexterity in $K(n)$-local stable homotopy theory_, talk at Notre Dame Graduate Summer School on Topology and Field Theories and Harvard lecture 2012 ([pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf))
+* [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_, talk at Notre Dame Graduate Summer School on Topology and Field Theories and Harvard lecture 2012 ([pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf))
 
 A clear picture of [[fiber integration]] in [[twisted cohomology]] is developed in 
 
