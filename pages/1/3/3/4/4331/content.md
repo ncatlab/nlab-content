@@ -1,3 +1,5 @@
+[[!redirects C-star-system]]
+[[!redirects C-star-system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,8 +18,9 @@
 
 ## Idea
 
-A $C^*$-system is a [[C-star-algebra]] together with an
-[[action]] of a [[group]] of [[automorphisms]]. In [[quantum mechanics]] as well as in [[AQFT]] the [[observables]] of the theory are [[self-adjoint operator]]s of (a [[local net]] of) [[C-star-algebra]]s, in this context the [[global gauge group]] of the theory is the maximal group of [[unitary operators]] that leave all observables invariant, the algebra and the gauge group form a $C^*$-system.
+A __$C^*$-dynamical system__, or only $C^*$-system
+is a [[C-star-algebra]] continuously [[action|acted]] upon by 
+a [[group]] of $*$-[[automorphisms]]. In [[quantum mechanics]] as well as in [[AQFT]] the [[observables]] of the theory are [[self-adjoint operator]]s of (a [[local net]] of) [[C-star-algebra]]s, in this context the [[global gauge group]] of the theory is the maximal group of [[unitary operators]] that leave all observables invariant, the algebra and the gauge group form a $C^*$-system.
 
 
 ## Definition
@@ -25,7 +28,7 @@ A $C^*$-system is a [[C-star-algebra]] together with an
 +-- {: .un_defn}
 ###### Definition
 
-A **$C^*$-system** $(\mathcal{A}, \alpha_G)$ consists of a $C^*$-algebra $\mathcal{A}$, a [[locally compact space|locally compact]] group $G$ and a [[continuous map|continuous]] [[homomorphism]] $\alpha$ of $G$ into the [[group]] $aut(\mathcal{A})$ of $*$-[[automorphisms]] of $\mathcal{A}$ equipped with the [[topology]] of pointwise convergence.
+A **$C^*$-system** $(\mathcal{A}, \alpha_G)$ consists of a $C^*$-algebra $\mathcal{A}$, a [[locally compact space|locally compact]] group $G$ and a [[continuous map|continuous]] [[homomorphism]] $\alpha$ of $G$ into the [[group]] $aut(\mathcal{A})$  of $*$-[[automorphisms]] of $\mathcal{A}$ equipped with the [[topology]] of pointwise convergence.
 
 =--
 
@@ -64,11 +67,14 @@ The set of invariant states is convex, weak-$*$ closed and weak-$*$ compact.
 
 ## References ##
 
-* [[Hellmut Baumgärtel]], Manfred Wollenberg: _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
+* [[Hellmut Baumgärtel]], Manfred Wollenberg, _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
+* chapter 6 in Gerd Petersen, _Pullback and pushout constructions in $C^\ast$-algebra theory_, J. Funct. Analysis __167__, 243--344 (1999) [pdf](http://www.math.ru.nl/~mueger/ped2.pdf)
 
+category: operator algebras
 [[!redirects C-star-system]]
 [[!redirects C-star-systems]]
 [[!redirects C-star system]]
 [[!redirects C-star systems]]
+[[!redirects C-star dynamical systems]]
 [[!redirects invariant state]]
