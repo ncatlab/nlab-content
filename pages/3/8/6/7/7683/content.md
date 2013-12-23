@@ -89,6 +89,9 @@ and in
 
 * [[Dima Arinkin]], appendix in [[Ron Donagi]], [[Tony Pantev]], _Torus fibrations, gerbes, and duality_, ([arXiv:math/0306213](http://arxiv.org/abs/math/0306213))
 
+Discussion in the context of [[higher algebra]] ([[brave new algebra]]) is in 
+
+* [[Jacob Lurie]], section 5.3 of _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
 [[!redirects Cartier dual]]
 [[!redirects Cartier duals]]
