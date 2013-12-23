@@ -72,6 +72,8 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 ## Related concepts
 
+* [[de Morgan duality]]
+
 * [[unity of opposites]]
 
 * [[duality in physics]]
