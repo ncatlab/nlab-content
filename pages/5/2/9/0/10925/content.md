@@ -1,0 +1,6 @@
+
+## References
+
+* Wikipedia, _[Logic gate](http://en.wikipedia.org/wiki/Logic_gate)_
+
+[[!redirects logic gates]]
