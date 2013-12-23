@@ -24,7 +24,7 @@ on un-twisted [[Wirthmüller isomorphisms]] for [[(infinity,1)-module bundles]] 
 
 The untwisted [[Wirthmüller isomorphism]] is the map $\mu$ in Construction 4.0.7 and then the "norm" map in Remark 4.1.12. The induced [[integration]] map considered in Construction 4.0.7 is also discussed (for the general twisted case) in _[[schreiber:Type-semantics for quantization]]_.
 
-The discussion in the article is apparently motivated as part of what it takes to make precise the discussion of [[quantization]] in sectioons 3 and 8 of 
+The discussion in the article is apparently motivated as part of what it takes to make precise the discussion of [[quantization]] in sections 3 and 8 of 
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ in P. R. Kotiuga (ed.) A celebration of the mathematical legacy of Raoul Bott AMS (2010) ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
 
@@ -48,7 +48,7 @@ The discussion in the article is apparently motivated as part of what it takes t
 
 ### 5.2 The main theorem
 
-### 5.3 Carties duality 
+### 5.3 Cartier duality 
 
 * [[Cartier duality]]
 
