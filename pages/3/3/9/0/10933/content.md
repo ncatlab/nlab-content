@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Garrett_Birkhoff)
+
+## related $n$Lab entries
+
+* [[quantum logic]]
+
+category: people
