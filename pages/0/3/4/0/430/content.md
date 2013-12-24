@@ -3,8 +3,6 @@
 
 ***
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -54,7 +52,7 @@ Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \
 +-- {: .num_defn #heyting}
 ###### Definition
 
-If we interpret 'nonzero' in Definition \ref{classical} as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have [[extra structure]], the apartness relation is a [[extra property|property]] definable from the algebra: $x # y$ iff $x - y$ is invertible.)
+If we interpret 'nonzero' in Definition \ref{classical} as a reference to a [[tight apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have [[extra structure]], the apartness relation is a [[extra property|property]] definable from the algebra: $x # y$ iff $x - y$ is invertible.)
 =--
 
 This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field'.  An advantage is that the (located Dedekind) [[real numbers]] form a Heyting field, although (for example) the (less located) [[MacNeille real number]]s need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
