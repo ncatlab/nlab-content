@@ -12,7 +12,7 @@ An _analytic function_ is a [[function]] that is locally given by a converging [
 
 Let $V$ and $W$ be [[complete space|complete Hausdorff]] [[topological vector spaces]], let $W$ be [[locally convex space|locally convex]], let $c$ be an [[element]] of $V$, and let $(a_0,a_1,a_2,\ldots)$ be an [[infinite sequence]] of [[homogeneous operator]]s from $V$ to $W$ with each $a_k$ of degree $k$.
 
-Given an element $x$ of $V$, consider the [[infinite series]]
+Given an element $c$ of $V$, consider the [[infinite series]]
 
 $$ 
   \sum_k a_k(x - c) 
