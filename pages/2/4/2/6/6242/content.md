@@ -22,13 +22,13 @@
 
 Broadly speaking, _quantum logic_ is meant to be a kind of [[formal logic]] that is to traditional formal logic as [[quantum mechanics]] is to [[classical mechanics]].
 
-The first proposal for such a formalization was ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)), which suggested that given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces, hence that quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces. 
+Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization that was given by ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)). In this proposal given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Brikhoff-vonNeumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as an [[orthocomplemented lattice]]).
 
-This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticized, for its lack of key properties that one would demand of a [[formal logic]]. For instance in ([Girard 11, page xii](#Girard11)) it says:
+This formalization is often understood as being the default meaning of "quantum logic". But the proposal has later been much criticised, for its lack of key properties that one would demand of a [[formal logic]]. For instance in ([Girard 11, page xii](#Girard11)) it says:
 
->  Among the magisterial mistakes of logic, one will first mention [[quantum logic]], whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
+>  Among the magisterial mistakes of logic, one will first mention quantum logic, whose ridiculousness can only be ascribed to a feeling of superiority of the language &#8211; and ideas, even bad, as soon as they take a written form &#8211; over the physical world. Quantum logic is indeed a sort of punishment inflicted on nature, guilty of not yielding to the prejudices of logicians... just like Xerxes had the Hellespont &#8211; which had destroyed a boat bridge &#8211; whipped.
 
-and for more criticisms see ([Girard 11, section 17](#Girard11)).
+For more criticism see ([Girard 11, section 17](#Girard11)).
 
 Therefore later other proposals as to what quantum logic should be have been made, and possibly by "quantum logic" in the general sense one should understand any formal framework which is supposed to be able to _express_ the statements whose [[semantics]] is the totality of all what is verifiable by [[measurement]] in a [[quantum system]].
 
@@ -121,6 +121,7 @@ See also
 * [[Yuri Manin]], _A course in mathematical logic_, Springer 
 
 *  &#1044;.&#1048;. &#1041;&#1083;&#1086;&#1093;&#1080;&#1085;&#1094;&#1077;&#1074;, &#1055;&#1088;&#1080;&#1085;&#1094;&#1080;&#1087;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1086;&#1081; &#1084;&#1077;&#1093;&#1072;&#1085;&#1080;&#1082;&#1080;, 1966, 162 &#1089;.
+
 
 * A. Sudbery, _Quantum mechanics and the particles of nature_, An outline for mathematicians, Camb. Univ. Press 1986
 
