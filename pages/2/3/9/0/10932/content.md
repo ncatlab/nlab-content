@@ -1,37 +1,39 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 An [[lattice]] is _complemented_ if every element has a [[complement]]. It is _orthocomplemented_ if it is equipped with an [[involution]] that sends each element to a complement.
 
+
 ## Examples
 
-* [[Boolean algebra]]
+These are both orthocomplemented:
 
-* Birkhoff-vonNeumann [[quantum logic]]
+* any [[Boolean algebra]], as in [[classical logic]]
+
+* the [[subspaces]] of a [[Hilbert space]], as in Birkhoff--von Neumann [[quantum logic]]
+
 
 ## References
 
 * Wikipedia, _[Complemented lattice](http://en.wikipedia.org/wiki/Complemented_lattice)_
 
+
+[[!redirects orthocomplemented lattice]]
 [[!redirects orthocomplemented lattices]]
 
 [[!redirects complemented lattice]]
 [[!redirects complemented lattices]]
-
-[[!redirects orthocomplemented lattice]]
-
