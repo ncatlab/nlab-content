@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### 2-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -92,6 +91,7 @@ $$
 
 
 ### As string diagrams
+ {#AsStringDiagrams}
 
 In [[string diagrams]], the identities appear as the action of "pulling zigzags straight" (hence the name):
 
