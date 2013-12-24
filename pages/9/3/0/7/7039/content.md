@@ -36,7 +36,7 @@ If $W$ is a vector space over the [[complex numbers]], then we have this very ni
 
 +-- {: .un_theorem}
 ###### Theorem
-A function from $D \subseteq \mathbb{C}$ to $W$ is analytic if and only if it is [[differentiable function|differentiable]].
+A [[differentiable function|differentiable]] function from $D \subseteq \mathbb{C}$ to $W$ is analytic.
 =--
 
 (Differentiability here is in the usual sense, that the difference quotient converges in $W$.)  See [[holomorphic function]] and [[Goursat theorem]].
