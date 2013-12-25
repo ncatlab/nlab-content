@@ -170,7 +170,7 @@ The Boyer-Lindquist block III is vicious, that is for any two events $p, q$ in I
 
 ### Extremal spinning black holes
 
-The maximum angular momentum $J$ of a black hole with mass $M$ is $J = M^2$.
+The maximum [[angular momentum]] $J$ of a black hole with [[mass]] $M$ is $J = M^2$.
 
 One considers the quotient $q \coloneqq J/M^2$. Spinning black holes exist for $q \lt 1$.
 
