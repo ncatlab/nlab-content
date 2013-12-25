@@ -1077,7 +1077,7 @@ $$
 ###### Proof
 
 By the general discussion at _[[reflective factorization system]]_, the reflection is given by sending a morphism $f \colon Y \to X$ to 
-$X \times_{\mathbf{\Pi}_{inf}(X)} \mathbf{\Pi}_{inf}(Y) \to Y$ and the reflection unit is the left horizontal morphism in 
+$X \times_{\mathbf{\Pi}_{inf}(X)} \mathbf{\Pi}_{inf}(Y) \to Y$ and the reflection [[unit of an adjunction|unit]] is the left horizontal morphism in 
 
 $$
   \array{
