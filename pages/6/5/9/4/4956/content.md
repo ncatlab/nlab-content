@@ -55,7 +55,7 @@ $$
 $$
 
 
-Apart from the real line $\mathbb{R}$, the other object involved in our discussion of the basics of differentiation is the first order [[infinitesimal space|infinitesimal line segment]] $D$, a subobject of $\mathbb{R}$. This subobject collects those points of $\mathbb{R}$ that square to zero under the canonical multiplicative structure of $\mathbb{R}$
+Apart from the real line $\mathbb{R}$, the other object involved in our discussion of the basics of differentiation is the first order [[infinitesimal space|infinitesimal line segment]] $D$ (an [[infinitesimally thickened point]]), a [[subobject]] of $\mathbb{R}$. This subobject collects those points of $\mathbb{R}$ that square to zero under the canonical multiplicative structure of $\mathbb{R}$
 
 $$
   D = \{\epsilon \in \mathbb{R} | \epsilon^2 = 0\}
@@ -74,7 +74,7 @@ $$
   }
 $$
 
-Dually, the categorial equivalence $C^\infty$ from $SmoothLoc$ to the [[opposite category]] of [[smooth algebra]]s carries the above pullback square to a [[pushout]] square of [[smooth algebra]]s:
+Dually, the categorial equivalence $C^\infty$ from $SmoothLoc$ to the [[opposite category]] of [[smooth algebra]]s carries the above pullback square to a [[pushout]] square of [[smooth algebras]]:
 
 $$
   \array{
@@ -96,7 +96,7 @@ In fact one can show that the [[pushout]] $C^\infty(D)$ is _generated_ by the co
 
 $$
   \begin{aligned}
-    C^\infty(D) & \simeq C^\infty(\mathbb{R}))/(x^2) 
+    C^\infty(D) & \simeq C^\infty(\mathbb{R})/(x^2) 
     \\
     & \simeq \mathbb{R}[x]/(x^2)
   \end{aligned}
@@ -117,8 +117,10 @@ $$
 ### Functions and differential 1-forms
  {#FunctionsAndForms}
 
+We discussion of [[differential 1-forms]] are functions on the space of infinitesimal paths. For more comprehensive such discussion see ([Stel 13](#Stel13)).
+
 Define the [[smooth locus]] $\mathbb{R}^{(\Delta^1_{inf})}$ as the [[product]] $\mathbb{R} \times D$ of the [[real line]] with the first order [[infinitesimal space|infinitesimal line segment]].
-We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a>). We do so by thinking of a [[generalized element]] of $\mathbb{R}^{(\Delta^1_{inf})}$ in the category $SmoothLoc$, namely a pair $(x, \epsilon) \in \mathbb{R} \times D$, as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
+We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a> ). We do so by thinking of a [[generalized element]] of $\mathbb{R}^{(\Delta^1_{inf})}$ in the category $SmoothLoc$, namely a pair $(x, \epsilon) \in \mathbb{R} \times D$, as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
 
 We say a **smooth [[differential form|differential 1-form]]** on $\mathbb{R}$ is a function (meaning: a [[morphism]] in $SmoothLoc$)
 
@@ -235,7 +237,7 @@ holds in $C^\infty(\mathbb{R}) \otimes (\mathbb{R} \oplus dx \mathbb{R})$ by the
 
 But notice that the expression $x^2 + 2 x dx $ is not a dfifferential 1-form by the above definition, equivalently the function $\tilde f$ does not vanish when restricted to constant infinitesimal paths.
 
-To get such, we form the **differential** or **infinitesimal difference**, the function
+To get such, we form the **[[derivative]]** or **infinitesimal difference**, the function
 
 $$
   \tilde f - f : X^{(\Delta^1_{inf})} \to \mathbb{R}
@@ -275,7 +277,7 @@ $$
   \,.
 $$
 
-The 1-form on the right is the [[differential]] of $f$, usually written
+The 1-form on the right is the [[de Rham differential]] of $f$, usually written
 
 $$
   (d f)(x) = f'(x) dx \in C^\infty(\mathbb{R} \times D)
@@ -297,6 +299,15 @@ $$
 * [[tangent space]], [[tangent bundle]]
 
 * [[jet space]], [[jet bundle]], [[metric jet]]
+
+
+
+## References
+
+Disucssion of differential forms as functions on infinitesimal simplices is in 
+
+* [[Herman Stel]], _Cosimplicial $C^\infty$ rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
+ {#Stel13}
 
 [[!include infinitesimal and local - table]]
 
