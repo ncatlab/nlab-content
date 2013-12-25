@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -15,7 +14,7 @@
 
 ## Idea
 
-The _differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _derivative_ $d f$ of the function.
+_Differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _derivative_ $d f$ of the function.
 
 
 ## Definition
@@ -26,7 +25,7 @@ _Differentiation_ is the [[functor]] $d : Diff \to Diff$ on the [[category]] [[D
 
 * a [[smooth function]] $f : X \to Y$ to its differential $d f : T X \to T Y$:
 
-  if $\gamma : [-1,1] \to X$ is a path in $X$ representing a vector $v \in T_x X$, then $(d f)(v) \in T_{f(x)} Y$ is the vector represented by the path
+  if $\gamma : [-1,1] \to X$ is a path in $X$ that represents a vector $v \in T_x X$, then $(d f)(v) \in T_{f(x)} Y$ is the vector represented by the path
   $[-1,1] \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$. 
 
 In a context $H$ of [[synthetic differential geometry]] the functor $d$ is simply the [[internal hom]] out of the [[infinitesimal space|infinitesimal interval]] $D$
@@ -36,42 +35,34 @@ $$
   \,.
 $$
 
-## Properties
+## Functoriality 
 
-From the above definition the fact that differentiation is indeed functorial is immediate. This functoriality statement is known in the literature as the [[chain rule]] for differentiation.
+The functoriality of differentiation is immediate from the above definition. The property that differentiation is functorial is known in the literature as the [[chain rule]].
 
 
 ## Exposition of differentiation via infintiesimals
  {#ExpositionDifferentiationViaInfinitesimal}
 
 
-We attempt to give an exposition of how to think of differentiation not via taking limits in the sense of [[analysis]], but by working with [[infinitesimal space]]s, as in [[synthetic differential geometry]].
+We attempt to give an exposition of differentiation not via taking limits in the sense of [[analysis]], but rather, by working with [[infinitesimal space]]s as in [[synthetic differential geometry]].
 
 ### Setup
 
-For that purpose we regard objects such as the [[real line]] $\mathbb{R}$ and more generally any [[smooth manifold]] as being objects of a [[Models for Smooth Infinitesimal Analysis|well adapted]] [[smooth topos]] of [[smooth space]]s. But in fact much less will do for most of the discussion: for the basic theory it is sufficient to work in the canonical [[site]] of such a topos: the category $SmoothLoc$ of [[smooth loci]]. This in turn is defined to be the [[opposite category]]
+For that purpose we regard objects such as the [[real line]] $\mathbb{R}$ and more generally any [[smooth manifold]] as being objects of a [[Models for Smooth Infinitesimal Analysis|well adapted]] [[smooth topos]] of [[smooth space]]s. But in fact much less is required for most of the discussion. For the basic theory, it is sufficient to work in the canonical [[site]] of such a topos, namely, the category $SmoothLoc$ of [[smooth loci]]. This site is defined via a categorial equivalence with the [[opposite category]] of the category of [[smooth algebra]]s:
 
 $$
-  SmoothLoc := SmoothAlg^{op}
+  C^\infty: SmoothLoc \stackrel{\sim}{\longrightarrow} SmoothAlg^{op}
 $$
 
-of the category of [[smooth algebra]]s.
 
-Apart from the real line $\mathbb{R} \om SmoothLoc$ itself, the main object of interest for discussing basics of differentiation is the first order [[infinitesimal space|infinitesimal line segment]]
-
-$$
-  D \subset \mathbb{R} 
-  \,.
-$$
-
-This is the collection of points in $\mathbb{R}$, that square to zero under the canonical multiplicative structure of $\mathbb{R}$
+Apart from the real line $\mathbb{R}$, the other object involved in our discussion of the basics of differentiation is the first order [[infinitesimal space|infinitesimal line segment]] $D$, a subobject of $\mathbb{R}$. This subobject collects those points of $\mathbb{R}$ that square to zero under the canonical multiplicative structure of $\mathbb{R}$
 
 $$
   D = \{\epsilon \in \mathbb{R} | \epsilon^2 = 0\}
   \,.
 $$
 
-Of course when interpreted in the usual context of [[Set]] this is just $\{0\}$, but here we are to interpret it in the ambient [[smooth topos]], or equivalently just in our [[site]] $SmoothLoc$ for it: so this means that $D$ is the [[pullback]]
+Although this is just $\{0\}$ when interpreted in the usual context of [[Set]], here we are to interpret this in the ambient [[smooth topos]], or equivalently just in our [[site]] $SmoothLoc$ for it. That is to say, $D$ satisfies a [[pullback]] square in $SmoothLoc$:
 
 $$
   \array{
@@ -83,7 +74,7 @@ $$
   }
 $$
 
-in $SmoothLoc$. By definition of $SmoothLoc$ as the [[opposite category]] of [[smooth algebra]]s this is dually the [[pushout]]
+Dually, the categorial equivalence $C^\infty$ from $SmoothLoc$ to the [[opposite category]] of [[smooth algebra]]s carries the above pullback square to a [[pushout]] square of [[smooth algebra]]s:
 
 $$
   \array{
@@ -97,15 +88,15 @@ $$
   }
 $$
 
-of [[smooth algebra]]s. Here in the bottom and on the right we have the ordinary smooth algebras of [[smooth function]]s on the [[smooth manifold]]s $\mathbb{R}^1 = \mathbb{R}$ and $\mathbb{R}^0 = *$, whereas $C^\infty(D)$ is new notation, suggestive and justified, for whatever the algebra of functions on the object $D$ is, where $D$ is _defined_ by the fact that it has this algebra of functions. The bottom morphism is that which sends a smooth function $f : \mathbb{R} \to \mathbb{R}$ to the function $f((-)^2) : \mathbb{R} \to \mathbb{R}$. If we write $x = Id : \mathbb{R} \to \mathbb{R}$ for the canonical [[coordinate]] function, then this sends $x$ to the function $x^2$.  
+Here along the bottom and on the right are the ordinary smooth algebras of [[smooth function]]s on the [[smooth manifold]]s $\mathbb{R}^1 = \mathbb{R}$ and $\mathbb{R}^0 = *$, whereas $C^\infty(D)$ is new notation, suggestive and justified, for whatever the algebra of functions on the object $D$ is, where $D$ is _defined_ by the fact that it has this algebra of functions. The bottom morphism sends a smooth function $f : \mathbb{R} \to \mathbb{R}$ to the function $f((-)^2) : \mathbb{R} \to \mathbb{R}$. If we write $x = Id : \mathbb{R} \to \mathbb{R}$ for the canonical [[coordinate]] function, then this sends $x$ to the function $x^2$.  
 
-Notice that the commutativity of the pushout diagram means that the image of the squared coordinate function $x^2 \in C^\infty(\mathbb{R})$  is zero, in $C^\infty(D)$ because the former is the image under the bottom morphism of the coordinate function $x$ and that maps under the right vertical morphism to $0 \in C^\infty(*) \simeq \mathbb{R}$.
+Notice that the commutativity of this pushout square means that the image in $C^\infty(D)$ of the squared coordinate function $x^2 \in C^\infty(\mathbb{R})$  is zero. This is  because the former is the image under the bottom morphism of the coordinate function $x$ and that maps under the right vertical morphism to $0 \in C^\infty(*) \simeq \mathbb{R}$.
 
-In fact one shows that the [[pushout]] $C^\infty(D)$ is _generated_ by the coordinate function $x \in C^\infty(R)$ subject to the relation $x^2 = 0$: it is the [[ring of dual numbers]]
+In fact one can show that the [[pushout]] $C^\infty(D)$ is _generated_ by the coordinate function $x \in C^\infty(\mathbb{R}))$ subject to the relation $x^2 = 0$: it is the [[ring of dual numbers]]
 
 $$
   \begin{aligned}
-    C^\infty(D) & \simeq C^\infty(X)/(x^2) 
+    C^\infty(D) & \simeq C^\infty(\mathbb{R}))/(x^2) 
     \\
     & \simeq \mathbb{R}[x]/(x^2)
   \end{aligned}
@@ -114,38 +105,20 @@ $$
 
 (Here in the second step we have used [[Hadamard's lemma]].)
 
-This expresses the intuitive idea that $D$ is such a small neighbourhood of $0$ in $\mathbb{R}$ that while the canonical coordinate function of $\mathbb{R}$ restricted to $D$ is non-vanishing (it would vanish only when restricted entirely to the point 0) it is "so small that its square is always 0". Readers who like this intuitive statement should keep it in mind, as it is accurate and useful, whereas readers who don't like it should stick with the above precise definition, which really says precisely this in the [[internal logic]] of the ambient [[smooth topos]] that we keep alluding to.
+This computation of the smooth algebra $C^\infty(D)$ of smooth functions on $D$ expresses the intuitive idea that $D$ is such a small neighbourhood of $0$ in $\mathbb{R}$ that while the canonical coordinate function of $\mathbb{R}$ restricted to $D$ is non-vanishing (it would vanish only when restricted entirely to the point 0) it is "so small that its square is always 0". Readers who like this intuitive statement should keep it in mind, as it is accurate and useful, whereas readers who do not like it could stick with the above precise definition, which unwinds this slogan in the [[internal logic]] of the ambient [[smooth topos]] that we keep alluding to.
 
 In order to remind us about the infinitesimal nature of the generator $x$ in $C^\infty(D)$ we shall usually call this "$dx$" and write
 
 $$
-  C^\infty(D) = \mathbb{R}[dx]/((dx)^2) = \mathbb{R} \oplus dx \mathbb{R}
-  \,.
-$$
-
-Here are some further useful facts about smooth loci.
-
-We call the [[coproduct]] of [[smooth algebra]]s their [[tensor product]] (classically it is the _smoothly completed_ algebraic tensor product). Then we have for $X, Y \in SmoothLoc$ that
-
-$$
-  C^\infty(X \times Y) \simeq C^\infty(X) \otimes C^\infty(Y)
+  C^\infty(D) = \mathbb{R}[dx]/((dx)^2) \simeq \mathbb{R} \oplus dx \mathbb{R}
   \,.
 $$
 
 ### Functions and differential 1-forms
  {#FunctionsAndForms}
 
-Consider the [[smooth locus]]
-
-$$
-  \mathbb{R}^{(\Delta^1_{inf})} := \mathbb{R} \times D
-  \,,
-$$
-
-which is the [[product]] of the [[real line]] with its first order [[infinitesimal space|infinitesimal 0-neighbourhood]].
-We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a>):
-
-a [[generalized element]] in the category $SmoothLoc$ of this space is a pair $(x, \epsilon) \in \mathbb{R} \times D$, which we think of as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
+Define the [[smooth locus]] $\mathbb{R}^{(\Delta^1_{inf})}$ as the [[product]] $\mathbb{R} \times D$ of the [[real line]] with the first order [[infinitesimal space|infinitesimal line segment]].
+We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a>). We do so by thinking of a [[generalized element]] of $\mathbb{R}^{(\Delta^1_{inf})}$ in the category $SmoothLoc$, namely a pair $(x, \epsilon) \in \mathbb{R} \times D$, as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
 
 We say a **smooth [[differential form|differential 1-form]]** on $\mathbb{R}$ is a function (meaning: a [[morphism]] in $SmoothLoc$)
 
@@ -162,10 +135,18 @@ $$
 
 vanishes, where the first morphism is the inclusion of $\mathbb{R}$ as the constant infinitesimal paths in $\mathbb{R}$, hence $(Id, 0) : \mathbb{R} \to \mathbb{R} \times D$.
 
-Dually, in the [[opposite category]] of [[smooth algebra]]s, this means that a 1-form on the line is a morphism
+
+We call the [[coproduct]] of [[smooth algebra]]s their [[tensor product]] (classically it is the _smoothly completed_ algebraic tensor product). For each smooth loci $X$ and $Y$, we have 
 
 $$
-  C^\infty(\mathrm{R}) \otimes \mathbb{R}[dx]/((dx)^2)
+  C^\infty(X \times Y) \simeq C^\infty(X) \otimes C^\infty(Y)
+  \,.
+$$
+
+Using this property, we can dualize the above definition of a diferential 1-form. Namely, in the [[opposite category]] of [[smooth algebra]]s, a 1-form on the line is a morphism
+
+$$
+  C^\infty(\mathbb{R}) \otimes \mathbb{R}[dx]/((dx)^2)
    \leftarrow
   C^\infty(\mathbb{R})
   : 
@@ -173,19 +154,7 @@ $$
   \,,
 $$
 
-hence an assignment
-
-$$
-  x \mapsto g(x) +  h(x) dx 
-$$
-
-such that $g(x) = 0$. In other words, it is any element in $C^\infty(\mathrm{R}) \otimes \mathbb{R}[dx]/((dx)^2)$ that is proportional to the generator $dx$. We write
-
-$$
-  \omega = h dx  
-$$
-
-with $h \in C^\infty(\mathbb{R})$.
+hence an assignment $ x \mapsto g(x) +  h(x) dx $ such that $g(x) = 0$. In other words, it is any element in $C^\infty(\mathrm{R}) \otimes \mathbb{R}[dx]/((dx)^2)$ that is proportional to the generator $dx$. We write $ \omega = h dx $ with $h \in C^\infty(\mathbb{R})$.
 
 ### Derivatives as infinitesimal differences
 
