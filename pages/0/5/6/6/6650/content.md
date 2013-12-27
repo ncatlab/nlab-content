@@ -75,7 +75,7 @@ Discussion of epimorphisms in toposes is for instance in
 
 Discussion of reflective stable factorization systems in the context of [[(∞,1)-category theory]] (and with an eye towards [[cohesive homotopy type theory]]) is in 
 
-* [[Mike Shulman]], _Axiomatic cohesion in HoTT_ (2011) ([web](http://homotopytypetheory.org/author/mikeshulman/))
+* [[Mike Shulman]], _Axiomatic cohesion in HoTT_ (2011) ([web](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
  {#Shulman}
 
 [[!redirects stable factorization systems]]
