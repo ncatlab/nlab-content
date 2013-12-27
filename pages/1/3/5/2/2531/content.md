@@ -11,7 +11,7 @@
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 # Idea #
@@ -29,7 +29,7 @@ In fact the definition is a bit stronger than that, but the main point in practi
 
 # Definition #
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(microlinear space)**
 
@@ -41,7 +41,7 @@ Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in 
 
 The main point of this definition is the following property.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(fiberwise linearity of tangent bundle)**
 
@@ -114,7 +114,7 @@ One checks that this is indeed unital, associative and distributive. ...
   
 A large class of examples is implied by the following proposition.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(closedness of the collection of microlinear spaces)**
 
@@ -179,7 +179,7 @@ $(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(microlinear loci)**
 
