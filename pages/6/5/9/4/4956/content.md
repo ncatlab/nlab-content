@@ -284,6 +284,34 @@ $$
   \,.
 $$ 
 
+### As a map of tangent bundles
+ {#InfinitesimalDifferentiationAsAMapOfTangentBundles}
+
+Equivalently we may rephrase this differential $d f$ as a morphism of [[tangent bundles]] $d f \colon T \mathbb{R} \longrightarrow T \mathbb{R}$ as follows.
+
+First, by the [[Kock-Lawvere axiom]] of SDG we have the standard fact that $T \mathbb{R} := \mathbb{R}^D \simeq \mathbb{R} \times \mathbb{R}$. Therefore given a function
+
+$$
+  \mathbb{R} \times D \longrightarrow \mathbb{R}
+$$
+
+this is by the [[internal hom]]-[[adjunction]] equivalently a function of the form
+
+$$
+  \mathbb{R} \longrightarrow \mathbb{R}^D = T \mathbb{R}
+  \,.
+$$
+
+The condition on the original function makes this [[adjunct]] be a [[section]] of the [[tangent bundle]] of $\mathbb{R}$. This section is $x \mapsto f'(x)$, hence is the derivative of $f$ regarded as a [[tangent vector]] on $\mathbb{R}$. Moreover, since $\mathbb{R}$ is a [[microlinear space]], this induces by rescaling a function
+
+$$
+   T \mathbb{R} = \mathbb{R} \times \mathbb{R} \longrightarrow T \mathbb{R}
+  \,.
+$$
+
+This is the differential of $f$ regarded as a map of tangent bundles.
+
+
 ## Related concepts
 
 * [[product law]], [[chain rule]]
