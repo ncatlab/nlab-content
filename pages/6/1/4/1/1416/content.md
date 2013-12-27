@@ -280,7 +280,9 @@ One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functo
 
 * [[tensor product of modules]] with a [[flat module]]
 
+## Related concepts
 
+* [[exact (∞,1)-functor]]
 
 ## References
 
@@ -320,6 +322,11 @@ Limits in the category of flat functors are discussed in
 
 * [[Panagis Karazeris]], Ji&#345;&#237; Velebil, _Representability relative to a doctrine_ , Cahiers de Topologie et G&#233;ometrie Diff&#233;rentielle Cat&#233;goriques 50 (2009), 3&#8211;22.
  {#KarazerisVelebil}
+
+
+Discussion of [[left exact functors]] or flat functors in the context of [[(∞,1)-category theory]] is in 
+
+* [[Jacob Lurie]], def. 5.3.2.1 in _[[Higher Topos Theory]]_
 
 
 [[!redirects flat functor]]
