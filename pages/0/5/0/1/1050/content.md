@@ -203,6 +203,11 @@ A detailed discussion of how the property of a functor being exact is related to
 
 * [[Michael Barr]], _Preserving homology_ , Theory and Applications of Categories,  Vol. 16, 2006, No. 7, pp 132-143. ([TAC](http://www.tac.mta.ca/tac/volumes/16/7/16-07abs.html))
 
+Discussion of left exactness (or [[flat functor]]) in the context of [[(∞,1)-category theory]] is in 
+
+* [[Jacob Lurie]], def. 5.3.2.1 in _[[Higher Topos Theory]]_
+
+
 [[!redirects exact functors]]
 
 [[!redirects left exact]]
@@ -216,5 +221,4 @@ A detailed discussion of how the property of a functor being exact is related to
 [[!redirects right exact functors]]
 [[!redirects rex functor]]
 [[!redirects rex functors]]
-
 
