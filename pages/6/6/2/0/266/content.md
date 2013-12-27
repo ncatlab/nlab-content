@@ -644,7 +644,7 @@ $$
   Func(\mathcal{C}, \mathcal{X})
 $$
 
-given by precomposition with [[∞-stackification]]/[[sheafification]] $L$ and by the [[(∞,1)-Yoneda embedding]] $Y$ is a [[full and faithful (∞,1)-functor]]. Moreover, its [[essential image]] consisist of those [[(∞,1)-functors]] $f \colon \mathcal{C} \longrightarrow \mathcal{X}$ which are [[left exact (∞,1)-functor|left exact]] and which preserve covers in that for $\{U_i \to X\}_i$ a [[covering]] in $\mathcal{C}$, then $\coprod_i f(U_i) \to f(X)$ is an [[effective epimorphism]] in $\mathcal{X}$.
+given by precomposition with [[∞-stackification]]/[[sheafification]] $L$ and with the [[(∞,1)-Yoneda embedding]] $Y$ is a [[full and faithful (∞,1)-functor]]. Moreover, its [[essential image]] consisist of those [[(∞,1)-functors]] $f \colon \mathcal{C} \longrightarrow \mathcal{X}$ which are [[left exact (∞,1)-functor|left exact]] and which preserve covers in that for $\{U_i \to X\}_i$ a [[covering]] in $\mathcal{C}$, then $\coprod_i f(U_i) \to f(X)$ is an [[effective epimorphism]] in $\mathcal{X}$.
 
 =--
 
@@ -657,7 +657,7 @@ Prop. \ref{YonedaExtensionOfLeftExact} is a central statement in the theory of [
 
 =--
 
-For more discussion of left exactness properties preserves by left Kan extension see also ([Borceux-Day](#BorceuxDay), [Karazeris-Protsonis](#KarazerisProtsonis)).
+For more discussion of left exactness properties preserved by left Kan extension see also ([Borceux-Day](#BorceuxDay), [Karazeris-Protsonis](#KarazerisProtsonis)).
 
 ### Kan extension along (op)fibration
  {#AlongFibrations}
