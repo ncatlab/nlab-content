@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Anaxagoras)
+
+## related entries
+
+* [[Nous]]
+
+category: people
