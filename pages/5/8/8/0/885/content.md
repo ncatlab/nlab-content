@@ -19,14 +19,14 @@
 
 ## Idea
 
-A __natural number__ is traditionally defined as any of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of this is that then the natural numbers can be identified with the [[cardinal number|cardinalities]] of [[finite sets]], as well as the finite [[ordinal numbers]].  One can distinguish these as the __nonnegative integers__ (with $0$) and the __positive integers__ (without $0$), at least until somebody uses 'positive' in the semidefinite sense.  To a [[set theory|set theorist]], a natural number is essentially the same as an __[[integer]]__, so they often use the shorter word; one can also clarify with __unsigned integer__ (but this doesn\'t help with $0$).
+A __natural number__ is traditionally one of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of doing so is that a natural number can then be identified with the [[cardinal number|cardinalities]] of a [[finite set]], as well as a finite [[ordinal number]].  One can distinguish these as the __nonnegative integers__ (with $0$) and the __positive integers__ (without $0$), at least until somebody uses 'positive' in the semidefinite sense.  To a [[set theory|set theorist]], a natural number is essentially the same as an __[[integer]]__, so they often use the shorter word; one can also clarify with __unsigned integer__ (but this doesn\'t help with $0$).
 
 The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).
 
 
 ## Natural numbers objects
 
-$\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$).  Given any other set $X$ with an element $a: X$ and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
+$\mathbf{N}$ is a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$, a notation used in computer science).  Given a set $X$, an element $a: X$, and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
 
 
 ## Properties
@@ -39,15 +39,15 @@ In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natu
 ###### Proposition 
 **(a Brouwerian counterexample)**
 
-If any inhabited subset of the natural numbers possesses a minimal element, the [[excluded middle|law of excluded middle]] holds.
+If any inhabited subset of the natural numbers possesses a minimal element, then the [[excluded middle|law of excluded middle]] holds.
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $\varphi$ be an arbitrary formula. Then the subset
+Let $\varphi$ be an arbitrary arithmetical formula. Then the subset
 $$ U := \{ n \in \mathbb{N} \,|\, n = 1 \vee \varphi \} \subseteq \mathbb{N} $$
-is inhabited. By assumption, it possesses a minimal element $n_0$. By discreteness of the natural numbers, $n_0 = 0$ or $n_0 \gt 0$. In the first case, $\varphi$ holds. In the second case, $\neg\varphi$ holds.
+is inhabited. By assumption, it possesses a minimal element $n_0$. By discreteness of the natural numbers, either $n_0 = 0$ or $n_0 \gt 0$. In the first case, $\varphi$ holds. In the second case, $\neg\varphi$ holds.
 =--
 
 In this sense, the natural numbers are not complete, and it's fruitful to study their completion: For instance, the global sections of the completed natural numbers object in the [[category of sheaves|sheaf topos]] on a topological space $X$ are in one-to-one correspondence with upper semicontinuous functions $X \to \mathbb{N}$ (details at _[[one-sided real number]]_).
