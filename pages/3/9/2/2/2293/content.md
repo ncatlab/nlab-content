@@ -73,8 +73,15 @@ This definition is based on the observation that it is a deficiency of the ordin
 =--
 
 ## Relation to derived noncommutative geometry
+ {#RelationToDerivedNoncommutativeGeometry}
 
-In [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[triangulated category]] which is smooth and proper in an appropriate sense.  Given a [[scheme]] $X$ of [[finite type]] over a [[field]], it has an associated noncommutative space $Pf(X)$ which is its [[triangulated categories of sheaves|triangulated category of perfect complexes]].  $Pf(X)$ admits a [[generator]] $E$, and is equivalent to the category $Pf(A-Mod)$ of [[perfect]] [[dg-modules]] over the [[dg-algebra]] $A = RHom(E, E)$.
+Under some conditions, [[derived schemes]] $X$ in the sense of ([[Structured Spaces|Lurie, Structured Spaces]]) are faithfully encoded by their [[stable (∞,1)-categories]] $QCoh(X)$ of [[quasicoherent sheaves]]. This is the content of [[Tannaka duality for geometric stacks]], ([[Quasi-Coherent Sheaves and Tannaka Duality Theorems|Lurie, Quasi-Coherent Sheaves and Tannaka Duality Theorems]]). Therefore one can turn this around and declare that a suitable [[stable (∞,1)-category]] $\mathcal{A}$ which is not of the form $QCoh(X)$ for an actual [[derived scheme]] $X$ represents a generalized, "noncommutative" derived scheme. This is much like a [[2-category theory]] or rather [[(∞,2)-category]] theory analog of how in [[algebraic geometry]] the opposite of the category of [[monoids]] (algebras) is regarded as a category of generalized spaces.
+
+Accordingly, one can decide to regard the [[opposite (∞,1)-category]] of suitable (e.g. [[monoidal (∞,1)-category|monoidal]]) [[stable (∞,1)-categories]]  as being a category of "noncommutative derived schemes". This is effectively the perspective on [[noncommutative algebraic geometry]] that [[Maxim Kontsevich]] has been promoting.
+
+Often and traditionally, all this is expressed in tersm of certain presentations for these [[stable (∞,1)-categories]] by [[triangulated category|triangulated]] [[derived categories]].
+
+In this fashion then in [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[triangulated category]] which is smooth and proper in an appropriate sense.  Given a [[scheme]] $X$ of [[finite type]] over a [[field]], it has an associated noncommutative space $Pf(X)$ which is its [[triangulated categories of sheaves|triangulated category of perfect complexes]].  $Pf(X)$ admits a [[generator]] $E$, and is equivalent to the category $Pf(A-Mod)$ of [[perfect]] [[dg-modules]] over the [[dg-algebra]] $A = RHom(E, E)$.
 Hence one may associate to $X$ the [[spectrum]] of this [[dg-algebra]], which is an [[affine]] [[derived scheme]] (when working over [[characteristic zero]]).
 In this way the [[spaces]] of [[derived noncommutative geometry]] that come from commutative [[schemes]] can indeed be viewed as [[derived schemes]].
 
