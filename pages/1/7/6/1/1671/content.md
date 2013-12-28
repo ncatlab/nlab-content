@@ -15,14 +15,12 @@
 
 ## Idea
 
-The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective).
+The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.)
 
 
 ## Definition
 
-More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a [[surjection]].  Then the axiom of countable choice states that $p$ has a [[section]]. (Recall that a section is a right inverse). In fact, there may be many such sections: having the freedom to choose among them is why this is called "choice".
-
-If you phrase the axiom of choice in terms of [[entire relations]], then countable choice states that any entire relation from $\mathbf{N}$ to any other set contains (in the [[2-poset]] [[Rel]]) a [[functional relation|functional]] entire relation.
+More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a [[surjection]].  Then the axiom of countable choice states that $p$ has a [[section]].  If you phrase the axiom of choice in terms of [[entire relations]], then countable choice states that any entire relation from $\mathbf{N}$ to any other set contains (in the [[2-poset]] [[Rel]]) a [[functional relation|functional]] entire relation.
 
 
 ## Variations
