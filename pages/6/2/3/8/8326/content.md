@@ -127,8 +127,6 @@ The following table lists proposals for possible such identifications. The conte
 
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |
 |-----|------|
-| quality | $\sim$ [[type]] |
-| determinate being of quality $X$ | $\vdash X \colon Type$ |
 | moment | [[modality]] |
 | unity of opposites |  [[adjoint modality]] |
 | ground | [[antecedent]] |
@@ -140,7 +138,7 @@ The following table lists proposals for possible such identifications. The conte
 | [[becoming]] | [[adjoint modality]]  $\emptyset \dashv \ast$ |
 | moment of repulsion | [[flat modality]] $\flat$ |
 | moment of attraction | [[cohesion]], [[shape modality]] $\int$ |
-| continuum | [[adjoint modality]] $\int \dashv \flat$ |
+| quality/dasein | [[adjoint modality]] attraction $\dashv$ repulsion = $\int \dashv \flat$ | 
 | moment of discreteness | [[flat modality]] $\flat$ |
 | moment of continuity | [[sharp modality]] $\sharp$ |
 | quantity | [[adjoint modality]] $\flat \dashv \sharp$ |
@@ -367,6 +365,11 @@ moment $\leftrightarrow$ [[modality]]
 
 #### Second chapter. Deasein / Determinate Being 
 
+* {#188} &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
+
+* &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality.
+
+
 * &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality.
 
 ##### A. Dasein as such / Determinate being as such
@@ -465,7 +468,12 @@ $$
   }
 $$
 
+
 #### Third chapter. Das F&#252;rsichsein / Being for self
+
+* {#318} &#167;318 Im F&#252;rsichseyn ist das qualitative Seyn vollendet;
+
+* &#167;318 In being-for-self, qualitative being finds its consummation;
 
 * &#167;319 Being-for-self is first, immediately a being-for-self &#8212; the One.
 
@@ -509,6 +517,8 @@ $$
 
 
 ###### a. Dasein und F&#252;rsichsein / Determinate being and Being-for-self
+
+* {#321} &#167;321 Das F&#252;rsichseyn ist, wie schon erinnert ist, die in das einfache Seyn zusammengesunkene Unendlichkeit; es ist Daseyn, insofern die negative Natur der Unendlichkeit, welche Negation der Negation ist, in der nunmehr gesetzten Form der Unmittelbarkeit des Seyns, nur als Negation &#252;berhaupt, als einfache qualitative Bestimmtheit ist.
 
 * &#167;321 But being, which in such determinateness is determinate being, is also at once distinct from being-for-self, which is only being-for-self in so far as its determinateness is the infinite one above-mentioned; nevertheless, determinate being is at the same time also a moment of being-for-self; for this latter, of course, also contains being charged with negation. Thus the determinateness which in determinate being as such is an other, and a being-for-other, is bent back into the infinite unity of being-for-self, and the moment of determinate being is present in being-for-self as a being-for-one.
 
@@ -682,6 +692,22 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 
 ###### c. Die Beziehung der Repulsion und der Attraktion
 
+
+* &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
+
+* &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
+
+
+* &#167;370 Damit ist die Entwickelung des F&#252;rsichseyns vollendet und zu ihrem Resultate gekommenen.
+
+* &#167;370 With this, the development of being-for-self is completed and has reached its conclusion.
+
+Since _Dasein_ and _F&#252;rsichsein_ both are qualitative being/are quality ([188](#188), [318](#318), [321](#321))  the above gives us the [[unity of opposites]]
+
+$$
+  quality \;\colon\; attraction \dashv repulsion
+$$
+
 ###### Remark: The Kantian Construction of Matter from the Forces of Attraction and Repulsion
 
 
@@ -811,7 +837,7 @@ $$
 
 * &#167;714 A measure taken as a standard in the usual meaning of the word is a quantum which is arbitrarily assumed as the intrinsically determinate unit relatively to an external amount. Such a unit can, it is true, also be in fact an intrinsically determinate unit, like a foot and suchlike original measures; but in so far as it is also used as a standard for other things it is in regard to them only an external measure, not their original measure. Thus the diameter of the earth or the length of a pendulum may be taken, each on its own account, as a specific quantum; but the selection of a particular fraction of the earth's diameter or of the length of the pendulum, as well as the degree of latitude under which the latter is to be taken for use as a standard, is a matter of choice. But for other things such a standard is still more something external. These have further specified the general specific quantum in a particular way and have thereby become particular things. It is therefore foolish to speak of a natural standard of things. Moreover, a universal standard ought only to serve for external comparison; in this most superficial sense in which it is taken as a universal measure it is a matter of complete indifference what is used for this purpose. It ought not to be a fundamental measure in the sense that it forms a scale on which the natural measures of particular things could be represented and from which, by means of a rule, they could be grasped as specifications of a universal measure, i.e. of the measure of their universal body. Without this meaning, however, an absolute measure is interesting and significant only as a common element, and as such is a universal not in itself but only by agreement.
 
-Here _Ma&#223;stab_ is tranlated as "standard". It can also be translated as [[gauge]]. Therefore by ([699](#699)) we have 
+Here _Ma&#223;stab_ is translated as "standard". It can also, maybe better, be translated as "[[gauge]]". Therefore by ([699](#699)) we have 
 
 $$
   \array{
