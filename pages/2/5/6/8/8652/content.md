@@ -34,6 +34,8 @@ For more see at _[[geometry of physics]]_.
 
 ## Related concepts
 
+* [[gauge]]
+
 * [[higher gauge theory]]
 
 * [[higher homotopy]]
