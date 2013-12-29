@@ -88,5 +88,7 @@ General books on modal logics which treat  these logics thoroughly in the genera
 [[!redirects S4(m)]]
 [[!redirects S4 modal logic]]
 
+[[!redirects S4]]
+
 [[!redirects necessity]]
 [[!redirects possibility]]
