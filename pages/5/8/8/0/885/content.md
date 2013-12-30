@@ -70,6 +70,12 @@ Any inhabited subset of the natural numbers does **not not** possess a minimal e
 
 For instance, any finitely generated vector space over a [[field|residue field]] does _not not_ possess a finite basis (pick a minimal generating set, guaranteed to _not not_ exist). Interpreting this in the [[internal language]] of the sheaf topos of a [[reduced scheme]] $X$, one obtains the well-known fact that any $\mathcal{O}_X$-module locally of finite type over $X$ is locally free on a dense open subset.
 
+### Monotone sequences of natural numbers
+
+Classically, any weakly decreasing sequence of natural numbers $(a_n)$ is eventually constant, i.e. admits an index $N$ such that $a_N = a_{N+1} = a_{N+2} = \cdots$. Constructively, one can only prove that there exists an index $N$ such that $a_N = a_{N+1}$ (by induction on $a_0$); the classical principle is equivalent to the [[principle of omniscience|limited principle of omniscience]] for $\mathbb{N}$.
+
+This is relevant to constructive algebra, as this shows that formulating chain conditions needs some care.
+
 ## Related concepts
 
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]], [[p-adic number]]
