@@ -19,7 +19,7 @@
 
 ## Idea
 
-In _cell complex_ is an [[object]] in a [[category]] which is obtained by successively "gluing cells" via [[pushouts]].
+An _cell complex_ is an [[object]] in a [[category]] which is obtained by successively "gluing cells" via [[pushouts]].
 
 ## Definition
 
