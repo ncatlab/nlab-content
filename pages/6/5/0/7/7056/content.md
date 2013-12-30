@@ -27,7 +27,9 @@ $$\array{
 \mathllap{\bot \times 1_X} \downarrow & & \downarrow \mathrlap{v} \\
 \mathbf{2} \times X & \to & s(X),
 }$$
-is a focal point. This construction is in fact the same as generically adding a focal point to $X$. 
+is a focal point. This construction is in fact the same as generically adding a focal point to $X$.
+
+* The [[prime spectrum]] of a ring $A$ has a focal point iff $A$ is a [[local ring]]. In this case, the focal point is given by the unique maximal ideal of $A$.
 
 ## Properties
 
@@ -35,10 +37,19 @@ The [[category of sheaves]] over (the [[site of open subsets]]) of a topological
 
 Every [[topos]] has a [[free construction|free]] "completion" to a "focal space", given by its [[Freyd cover]].
 
+## In locale theory
+
+A [[locale]] $X$ is called **local** if in any covering of $X$ by opens $U_i$, at least one $U_i$ is $X$.
+
+The locale associated to an [[sober space]] is local in this sense if and only if the space possesses a focal point (see [Johnstone, discussion preceding lemma C1.5.6](#Johnstone)). Locale theoretically, this point is then given by the [[frame|frame homomorphism]]
+$$ \mathcal{O}(X) \to \Omega, \quad U \mapsto \{ \star | U = X \}, $$
+where $\Omega$ is the [[frame of opens]] of the [[point]].
+
 ## References
 
-* [[Peter Freyd]], A. Scedrov, _Geometric logic_, (North-Holland, Amsterdam,
+* [[Peter Freyd]], A. Scedrov, _Geometric logic_, (North-Holland, Amsterdam)
  {#FreydScedrov}
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
 
 [[!redirects focal points]]
 
