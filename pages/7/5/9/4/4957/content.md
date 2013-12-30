@@ -481,7 +481,7 @@ hence that the global section functor is simply given by evaluating a presheaf o
 
 Limits and colimit _in_ a presheaf category $[C^{op}, Set]$ are computed objectwise over $C$ (see at _[[limits and colimits by example]]_). Therefore evaluation at any object in $C$ preserves in limits and colimits, and in particular evaluation at the terminal object does. Therefore $\Gamma$ preserves all colimits. Hence by the [[adjoint functor theorem]] it has a further [[right adjoint]] $CoDisc$.
 
-We can compute it explicityl by the  [[Yoneda lemma]] and using the defining Hom-isomorphism of adjoints to be the functor $CoDisc \colon Set \to [C^{op}, Set]$ such that for $S \in Set$ the presheaf $CoDisc(S)$ is given over $U \in C$ by
+We can compute it explicitly by the  [[Yoneda lemma]] and using the defining Hom-isomorphism of adjoints to be the functor $CoDisc \colon Set \to [C^{op}, Set]$ such that for $S \in Set$ the presheaf $CoDisc(S)$ is given over $U \in C$ by
 
 $$
   \begin{aligned}
@@ -513,7 +513,10 @@ The converse to prop. \ref{PresheafToposOverSiteWithTerminal} is true if $C$ is 
 +-- {: .num_example}
 ###### Example
 
-If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]], i.e. a point whose only [[neighborhood]] is the whole space.
+If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]] $x$, i.e. a point whose only [[neighborhood]] is the whole space. In this case, the extra right adjoint $f^! : Set \to Sh(X)$ to the global sections functor $f_* : Sh(X) \to Set$ is given by the functor which computes the stalk at $x$. This can also be given without reference to $x$, by the formula
+$$ \Gamma(U, f^!(M)) = Hom(\{\star|U=X\}, M) \cong
+  \begin{cases} M, & U = X, \\ \{\star\}, & U \neq X, \end{cases} $$
+for sets $M$ and open subsets $U \subseteq X$. 
 
 =--
 
@@ -670,6 +673,7 @@ Let $A$ be a [[commutative ring]] (such as $\mathbb{Z}$ or a [[field]]), let $Sp
   * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
 
   * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
+
 
 * **local topos** / [[local (∞,1)-topos]]
   
