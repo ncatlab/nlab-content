@@ -18,7 +18,7 @@
 
 ## Idea
 
-A *partial map classifier* of an [[object]] $B$ in a [[category]] $\mathcal{CA}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
+A *partial map classifier* of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
 
 ## Definition
 
