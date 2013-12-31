@@ -304,7 +304,7 @@ There this is discussed for for [[(∞,1)-topos]]es, but the statements are verb
 
 The adjunction between toposes and locally presentable categories is discussed in 
 
-* [[Marta Bunge]], Carboni, _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
+* [[Marta Bunge]], [[Aurelio Carboni]], _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
  {#BungeCarboni}
 
 category: category
