@@ -115,6 +115,7 @@ We can also construct a diagram that explicitly shows that the square of the dia
 Here each red triangle has area $\frac{1}{2}$, so along with the light green unit square the total area is $3$.
 
 #Proof using the icosahedron#
+{. #Icosahedron}
 
 Suppose we take **three congruent rectangles**, and assemble them symmetrically so that their _long_ edges are all mutually orthogonal, and their _short_ edges are all mutually orthogonal.  Like this:
 
