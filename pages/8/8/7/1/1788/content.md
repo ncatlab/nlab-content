@@ -28,7 +28,6 @@ $$\underset{\circlearrowleft}{\bullet} \underset{}{\leftrightarrow} \underset{\c
 |  |  [[natural deduction]]     |  [[universal construction]] | 
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
 
-
 ***
 
 category: meta
