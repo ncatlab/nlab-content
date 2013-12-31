@@ -193,7 +193,7 @@ Assume now that $G$ is [[simply connected topological space|simply connected]].
 The [[weight lattice]] $\Gamma_{wt} \subset \mathfrak{t}^* \simeq \mathfrak{t}$ of the Lie group $G$ is [[isomorphism|isomorphic]] to the group of [[group characters]]
 
 $$
-  \Gamma_{wt} \stackrel{\simeq}{\to} Hom_{LieGrp}(G,U(1))
+  \Gamma_{wt} \stackrel{\simeq}{\to} Hom_{LieGrp}(T,U(1))
 $$
 
 where the identification takes $\langle \alpha , -\rangle \in \mathfrak{t}^*$ to $\rho_\alpha \colon T \to U(1)$ given on $t = \exp(\xi)$ for $\xi \in \mathfrak{t}$ by
