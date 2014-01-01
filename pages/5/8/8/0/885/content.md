@@ -21,12 +21,12 @@
 
 A __natural number__ is traditionally one of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of doing so is that a natural number can then be identified with the [[cardinal number|cardinalities]] of a [[finite set]], as well as a finite [[ordinal number]].  One can distinguish these as the __nonnegative integers__ (with $0$) and the __positive integers__ (without $0$), at least until somebody uses 'positive' in the semidefinite sense.  To a [[set theory|set theorist]], a natural number is essentially the same as an __[[integer]]__, so they often use the shorter word; one can also clarify with __unsigned integer__ (but this doesn\'t help with $0$).
 
-The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).
+The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).  At a foundational level, it\'s completely irrelevant whether $0$ counts as a natural number or not; as [[sets]] (and even as [[natural numbers objects]]), the two options are equivalent, so we are really talking about the choice of [[rig]] structure (or [[inclusion map]] into the set of [[integers]], etc).
 
 
 ## Natural numbers objects
 
-$\mathbf{N}$ is a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$, a notation used in computer science) such that, for a set $X$, an element $a: X$, and a [[function]] $s: X \to X$, there exists a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$. This function $f$ is said to be constructed by __primitive recursion__. (Fancier forms of [[recursion]] are also possible.)  
+$\mathbf{N}$ is a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n^+$; in [[computer science]], one often writes $n+$) such that, for a set $X$, an element $a: X$, and a [[function]] $s: X \to X$, there exists a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$. This function $f$ is said to be constructed by __primitive recursion__. (Fancier forms of [[recursion]] are also possible.)  
 
 The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
 
@@ -70,11 +70,13 @@ Any inhabited subset of the natural numbers does **not not** possess a minimal e
 
 For instance, any finitely generated vector space over a [[field|residue field]] does _not not_ possess a finite basis (pick a minimal generating set, guaranteed to _not not_ exist). Interpreting this in the [[internal language]] of the sheaf topos of a [[reduced scheme]] $X$, one obtains the well-known fact that any $\mathcal{O}_X$-module locally of finite type over $X$ is locally free on a dense open subset.
 
-### Monotone sequences of natural numbers
+
+### Decreasing sequences of natural numbers
 
 Classically, any weakly decreasing sequence of natural numbers $(a_n)$ is eventually constant, i.e. admits an index $N$ such that $a_N = a_{N+1} = a_{N+2} = \cdots$. Constructively, one can only prove that there exists an index $N$ such that $a_N = a_{N+1}$ (by induction on $a_0$); the classical principle is equivalent to the [[principle of omniscience|limited principle of omniscience]] for $\mathbb{N}$.
 
 This is relevant to constructive algebra, as this shows that formulating chain conditions needs some care.
+
 
 ## Related concepts
 
@@ -87,6 +89,7 @@ This is relevant to constructive algebra, as this shows that formulating chain c
 * [[numeral]]
 
 * [[countable ordinal]]
+
 
 [[!redirects natural number]]
 [[!redirects natural numbers]]
