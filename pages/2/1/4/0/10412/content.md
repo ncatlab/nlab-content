@@ -47,7 +47,12 @@ For scattering amplitudes via the "amplituhedron" the integrand is discussed in
 and the integration domain in
 
 * [[Nima Arkani-Hamed]], Jaroslav Trnka, _The Amplituhedron_, [arxiv/1312.2007](http://arxiv.org/abs/1312.2007)
- {#ArkaniHameTrnka13}
+ {#ArkaniHameTrnka13}.
+
+Simple aspects of four particle scattering are treated in
+
+* _Into the Amplituhedron_,[arxiv/1312.7878](http://arxiv.org/abs/1312.7878)
+ {#ArkaniHameTrnka13b}.
 
 Earlier lecture notes and announcements include 
 
