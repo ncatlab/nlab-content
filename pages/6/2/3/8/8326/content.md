@@ -336,10 +336,12 @@ $\;\;\;$ [[empty type]] $\dashv$ [[unit type]]
 
 $\;\;\;$ $\emptyset \dashv \ast$
 
-
+This is also the interpretation in ([LawvereComo, p. 11](#LawvereComo)).
 $$
   \emptyset \longrightarrow X \longrightarrow \ast
 $$
+
+
 
 * {#178} &#167;178 Das Werden ist auf diese Weise in gedoppelter Bestimmung; in der einen ist das Nichts als unmittelbar, d. i. sie ist anfangend vom Nichts, das sich auf das Seyn bezieht, das hei&#223;t, in dasselbe &#252;bergeht, in der anderen ist das Seyn als unmittelbar d. i. sie ist anfangend vom Seyn, das in das Nichts &#252;bergeht,&#8212;Entstehen und Vergehen.
 
