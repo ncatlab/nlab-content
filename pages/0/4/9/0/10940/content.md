@@ -1,0 +1,8 @@
+Max Newman was one of the fathers of computer science, working at Manchester on the first electronic programmable computers. 
+
+
+* [wikipedia page](http://en.wikipedia.org/wiki/Max_Newman)
+
+* [The Newmanry](http://en.wikipedia.org/wiki/Max_Newman)
+
+category:people
