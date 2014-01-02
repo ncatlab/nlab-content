@@ -72,10 +72,10 @@ and finally we discuss a list of examples in
 
 ### The motivic aspect
  {#TheMotivicAspect}
-cor
+
 As our title indicates, it may be useful to note the analogy of the structures considered here to structures in [[motivic cohomology]] and in [[six operations]]-yoga. (See also at _[[motives in physics]]_.)
 
-First notice the following heuristicts: Just as the idea of a category of [[motives]] is to constitute a "linearization" or "abelianization" of a category of [[spaces]], so [[quantization]] is a process that sends (non-linear) spaces of field configurations to linear [[spaces of quantum states]]. This linearization by which [[quantum states]] may be added as elements of an [[abelian group]] encodes the [[superposition principle]] and hence [[quantum interference]], the hallmark of [[quantum physics]].
+First notice the following heuristics: Just as the idea of a category of [[motives]] is to constitute a "linearization" or "abelianization" of a category of [[spaces]], so [[quantization]] is a process that sends (non-linear) spaces of field configurations to linear [[spaces of quantum states]]. This linearization by which [[quantum states]] may be added as elements of an [[abelian group]] encodes the [[superposition principle]] and hence [[quantum interference]], the hallmark of [[quantum physics]].
 
 Concretely, a [[correspondence]] 
 
@@ -133,9 +133,9 @@ In view of this, notice that in the context of _[[formal deformation quantizatio
 
 A priori, motivic quantization applies to _[[topological field theory]]_. However, we consider it in the full generality that includes [[boundary field theory]] (field theory with [[branes]]) and generally [[defect field theory]] (field theory with [[domain walls]] of arbitrary codimension). This induces boundary effects which are not purely topological but encode "physical" field theories.
 
-Concretely, for $Z \colon Bord_n(def)^\otimes \to \mathcal{C}^\otimes$ an topological [[local field theory]] which includes a boundary condition encoded by a generator $(\emptyset \stackrel{\partial}{\to} \ast) \in Mor_1(Bord_n(def))$, then crossing with this yields an $(n-1)$-dimensional field theory $Z((-)\times (\partial))$, the corresponding [[boundary field theory]]. This however now depends on choices of [[orientations in generalized cohomology]] that go along with defining a boundary component for $Z$, and these choices constitute geometric data.
+Concretely, for $Z \colon Bord_n(def)^\otimes \to \mathcal{C}^\otimes$ a topological [[local field theory]] which includes a boundary condition encoded by a generator $(\emptyset \stackrel{\partial}{\to} \ast) \in Mor_1(Bord_n(def))$, then crossing with this yields an $(n-1)$-dimensional field theory $Z((-)\times (\partial))$, the corresponding [[boundary field theory]]. This however now depends on choices of [[orientations in generalized cohomology]] that go along with defining a boundary component for $Z$, and these choices constitute geometric data.
 
-For instance for $Z$ 3-dimensional [[Chern-Simons theory]], the relevant choice of orientation is induced by a choice of [[conformal structure]] on the boundary and so the boundary theory is a non-topological [[conformal field theory]]. (For details on this see at _[[AdS3-CFT2 and CS-WZW correspondence]]_.)
+For instance, for $Z$ a 3-dimensional [[Chern-Simons theory]], the relevant choice of orientation is induced by a choice of [[conformal structure]] on the boundary and so the boundary theory is a non-topological [[conformal field theory]]. (For details on this see at _[[AdS3-CFT2 and CS-WZW correspondence]]_.)
 
 In [[physics]] this general kind of relation between $n$-dimensional topological field theories and $(n-1)$-dimensional non-topological field theories on their boundary is has come to be known as the _[[holographic principle]]_.  See there for more background.
 
@@ -150,7 +150,7 @@ In [[physics]] this general kind of relation between $n$-dimensional topological
 ### Anomalies
  {#AnomaliesAndOrientation}
 
-We see that the motivic quantization operation over a [[cohomology theory]] $E$ depends on the existence of and the choice of [[orientation in generalized cohomology|orientation in E-cohomology]]. The conditions that such an orientation exist in the first place turns out to be what in physics are known as the [[quantum anomaly cancellation]] conditions.
+We see that the motivic quantization operation over a [[cohomology theory]] $E$ depends on the existence of, and the choice of, an [[orientation in generalized cohomology|orientation in E-cohomology]]. The conditions that such an orientation exist in the first place turns out to be what in physics are known as the [[quantum anomaly cancellation]] conditions.
 
 | [[theory (physics)|physical theory]] | [[cohomology theory]] |
 |--|--|
@@ -163,7 +163,7 @@ We see that the motivic quantization operation over a [[cohomology theory]] $E$ 
 ### Supersymmetry 
  {#Supersymmetry}
 
-Every since the recognition of [[supersymmetric quantum mechanics]] in the 1980s, it is a familiar fact that [[index theory]] is naturally formulated in terms of [[superalgebra]] and [[supergeometry]]: indices can be identified with [[partition functions]] in [[supersymmetric quantum mechanics]]. Since [[push-forward in generalized cohomology]] is what generalizes the notion of [[index]] to the "relative case", motivic quantization may be thought of as intrinsically based on indices/partition functions. Accordingly one may expect that [[supersymmetry]] plays not just an optional but an intrinsic role. 
+Ever since the recognition of [[supersymmetric quantum mechanics]] in the 1980s, it is a familiar fact that [[index theory]] is naturally formulated in terms of [[superalgebra]] and [[supergeometry]]: indices can be identified with [[partition functions]] in [[supersymmetric quantum mechanics]]. Since [[push-forward in generalized cohomology]] is what generalizes the notion of [[index]] to the "relative case", motivic quantization may be thought of as intrinsically based on indices/partition functions. Accordingly one may expect that [[supersymmetry]] plays not just an optional but an intrinsic role. 
 
 Indeed, one can observe the following seemingly deep relation between supersymmetry and [[higher algebra]]:
 
@@ -177,7 +177,7 @@ Accordingly, it follows that some kind of ("higher") [[supersymmetry]] is intrin
 
 A basic example is given by 2-dimensional motivic quantization over [[KU]]. A canonical smooth refinement of its [[∞-group of units]] is given, up to the 3-coskeleton, by the [[smooth super ∞-groupoid]] of [[super line 2-bundles]] (as discussed there). Accordingly, 2-dimensional local field theories, i.e. _[[string]]_ [[sigma-models]] are naturally refined to _[[superstring]]_ $\sigma$-models. See below the example _[The charged particle at the boundary of the superstring](#ChargedParticleAtBoundaryOfSuperstring)_.
 
-But motivic quantization is not bound to deal with supersymmetric field theories, it is just that the [[phase and phase space in physics|higher phases]] are always naturally super-graded. Notably plain [[quantum mechanics]] encoded by traditional [[symplectic manifolds|symplectic]] or generally [[Poisson manifold|Poisson]] [[phase spaces]] is naturally subsumed. See below the example _[The Poisson manifold at the boundary of 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_.
+But motivic quantization is not restricted to supersymmetric field theories, it is just that the [[phase and phase space in physics|higher phases]] are always naturally super-graded. Notably plain [[quantum mechanics]] encoded by traditional [[symplectic manifolds|symplectic]] or generally [[Poisson manifold|Poisson]] [[phase spaces]] is naturally subsumed. See below the example _[The Poisson manifold at the boundary of 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_.
 
 
 ## Expositional summary
@@ -223,7 +223,7 @@ The point of this [[axiom]] is that the [[higher category theory|higher categori
 
 The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
 
-In particular, for actual _[[quantum theory|quantum]]_ (as opposed to [[prequantum field theory|prequatum]] or [[classical field theory|classical]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _[[additive and abelian categories|linear]]_ [[tensor category|tensor]] [[category of modules]], $R Mod^\otimes$, for some [[commutative ring|commutative]] [[ground ring]] $R$ (which in ordinary [[quantum mechanics]] is the [[complex numbers]]).
+In particular, for actual _[[quantum theory|quantum]]_ (as opposed to [[prequantum field theory|prequantum]] or [[classical field theory|classical]]) [[field theory]], the [[codomain]] $\mathcal{C}$ is to be an [[(∞,n)-category|n-dimensional]] analog of a _[[additive and abelian categories|linear]]_ [[tensor category|tensor]] [[category of modules]], $R Mod^\otimes$, for some [[commutative ring|commutative]] [[ground ring]] $R$ (which in ordinary [[quantum mechanics]] is the [[complex numbers]]).
 
 The [[abelian category|linearity]] of $E Mod$ encodes the [[superposition principle]] of [[quantum physics]], which says that [[quantum states]] may be added and possibly may additively cancel. This cancellation is _[[quantum interference]]_, the very hallmark of [[quantum physics]].
 
@@ -329,7 +329,7 @@ We consider now $\mathbf{H}$ to be a suitable such [[(∞,1)-topos]]. The exampl
 
 $\mathbf{H} =$ [[SmoothSuper∞Grpd]] $\coloneqq Sh_\infty(SuperManifolds) = L_{lhe} Func(Supermanifolds^{op}, KanComplexes)$
 
-which is the context of [[higher differential geometry]] for the description of [[boson|bosonic]] [[field (physics)|fields]] and of higher [[supergeometry]] (for the descrition of [[fermion]] [[field (physics)|fields]]).
+which is the context of [[higher differential geometry]] for the description of [[boson|bosonic]] [[field (physics)|fields]] and of higher [[supergeometry]] (for the description of [[fermion]] [[field (physics)|fields]]).
 
 More generally, for constructing the [[moduli ∞-stacks]] of [[higher gauge fields]] we need an [[(∞,1)-topos]] $\mathbf{H}$ that satisfies an axiom called _[[differential cohesion|differential]] [[cohesion]]_.
 
@@ -398,7 +398,7 @@ $$
 
 which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$. 
 
-In the example that here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describe a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
+In the example here, $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describes a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] of $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
 
 Specifying the example further, suppose that $\Sigma$ is an $n$-[[sphere]] with $(k+1)$ disjoint $n$-[[balls]] marked,  regarded as a [[cobordism]]
 
@@ -415,7 +415,7 @@ $$
   \,,
 $$
 
-then For $\mathbf{Fields}$ some [[sigma-model]] fields this may be taken to encode a diagram where $k$ _open $d$-[[branes]]_ come in, merge, and one comes out. For instance for $d = 1$ and $k = 3$ this is a cobordism that when "viewed in time direction" is an inclusion of three small intervals into one larger intervak
+then For $\mathbf{Fields}$ some [[sigma-model]] fields this may be taken to encode a diagram where $k$ _open $d$-[[branes]]_ come in, merge, and one comes out. For instance for $d = 1$ and $k = 3$ this is a cobordism that when "viewed in time direction" is an inclusion of three small intervals into one larger interval
 
 $$
   \left[
@@ -430,7 +430,7 @@ $$
   \,.
 $$
 
-This are of course the operations in the [[little k-cubes operad]]. Hence [[quantization]] of local boundary prequantum field theory restricted to [[cobordisms]] of this form yields what are called topological or _locally constant_ [[factorization algebras]]. 
+These are of course the operations in the [[little k-cubes operad]]. Hence [[quantization]] of local boundary prequantum field theory restricted to [[cobordisms]] of this form yields what are called topological or _locally constant_ [[factorization algebras]]. 
 
 
 To capture all this functorially, write then $Corr_n(\mathbf{H})^\otimes$ for the [[(∞,n)-category of n-fold correspondences]] whose [[objects]] are those of $\mathbf{H}$ and whose [[morphisms]] are [[correspondences]] between them, as above. This is [[symmetric monoidal (∞,1)-category|symmetric monoidal]] by objectwise [[Cartesian product]] in $\mathbf{H}$. 
