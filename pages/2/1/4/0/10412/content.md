@@ -51,7 +51,7 @@ and the integration domain in
 
 Simple aspects of four particle scattering are treated in
 
-* _Into the Amplituhedron_,[arxiv/1312.7878](http://arxiv.org/abs/1312.7878)
+* [[Nima Arkani-Hamed]], Jaroslav Trnka, _Into the Amplituhedron_, [arxiv/1312.7878](http://arxiv.org/abs/1312.7878)
  {#ArkaniHameTrnka13b}.
 
 Earlier lecture notes and announcements include 
