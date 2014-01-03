@@ -19,7 +19,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -54,6 +54,7 @@ $$f[x,y] = [f(x),f(y)].$$
 ####Examples
 
 a) To any augmented pre-ga $A$, one can associate a pre-gla, denoted $\bar{A}_L$, with underlying gvs $\bar{A}$ and with bracket, the commutator, $[x,y] = xy -(-1)^{|x||y|}yx$ for each pair $(x,y)$ of homogeneous elements.  $\bar{A}_L$ is abelian (i.e. with trivial bracket) if and only if $A$ is graded commutative.
+
 
 b) If $A$ is a pre-cga and $L$ is a pre-gla, the tensor product $A\otimes L$ has a pre-gla structure with bracket
 
@@ -293,6 +294,13 @@ This is in the proof of ([Quillen, theorem. 4.4](#Quillen)).
 
 * **dg-Lie algebra** $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
 
+* [[L-∞ algebra]]
+
+  * [[model structure for L-∞ algebras]]
+
+  * [[sheaf of L-∞ algebras]]
+
+* [[formal moduli problem]], [[deformation theory]]
 
 ## References
 
