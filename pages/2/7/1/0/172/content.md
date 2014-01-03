@@ -163,7 +163,11 @@ $$
 
 * [[2-sheaf]] / [[stack]]
 
-* [[(∞,1)-sheaf]] / **$\infty$-stack**, [[sheaf of spectra]]
+* [[(∞,1)-sheaf]] / **$\infty$-stack**, 
+
+  * [[sheaf of spectra]]
+
+  * [[sheaf of L-∞ algebras]]
 
 * [[(∞,2)-sheaf]]
 
