@@ -412,6 +412,8 @@ The basic [[Coq]]-code libraries that set up [[identity types]] and the resultin
 
 * [https://github.com/HoTT/HoTT/tree/master/theories](https://github.com/HoTT/HoTT/tree/master/theories)
 
+* [[Vladimir Voevodsky]], _Experimental library of univalent formalization of mathematics_ ([arXiv:1401.0053](http://arxiv.org/abs/1401.0053))
+
 A slightly more human readable version is collected as a single pdf in
 
 * _HoTT-Coq code_ ([[HoTT-Coq-code.pdf:file]]) .
