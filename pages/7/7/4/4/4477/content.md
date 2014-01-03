@@ -191,7 +191,9 @@ of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F 
 
 =--
 
-In some cases this can be further strenghened:
+This proposition is often stated more explicitly as the existence of a [[dual basis]], see there. 
+
+In some cases this can be further strengthened:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -281,17 +283,11 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 
 Lecture notes include
 
-section 2.2 of the textbook
-
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
-
-or
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_, section 2.2
 
 * _Projective modules, Presentations and resolutions_ ([pdf](http://livetoad.org/Courses/Documents/8875/Notes/presentations_and_resolutions.pdf))
 
-or
-
-* Thomas Lam, chpater 6 ([pdf](http://www.math.lsa.umich.edu/~tfylam/Math221/6.pdf))
+* Thomas Lam, chapter 6 ([pdf](http://www.math.lsa.umich.edu/~tfylam/Math221/6.pdf))
 
 Original articles include
 
