@@ -101,6 +101,10 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 * [[moduli problem]]
 
+* [[model structure for L-∞ algebras]]
+
+* [[sheaf of L-∞ algebras]]
+
 * [[synthetic differential geometry]]
 
 * [[synthetic differential ∞-groupoid]]
