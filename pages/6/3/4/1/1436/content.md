@@ -41,7 +41,7 @@ Later some versions have been made rigorous, the most well-known being Fuks dual
 
 ## Fuks duality
 
-D. B. Fuks considers the category $End(k Top_*)$ of [[endofunctors]] on the category $k Top_*$ of pointed [[compactly generated space|compactly generated]] Hausdorff spaces. He enriches this category in $k Top_*$ as follows: Let $S,T$ be two endofunctors, then the set $\{S\to T\}$ of isomorphism classes of natural transformations $S\to T$ is equipped with the weakest topology in which all maps $\alpha_X$, $X\in k Top_*$, of taking components $\{S\to T\}\mapsto Map(S(X),T(X))\in kTop_*$ are [[continuous map|continuous]]. Recall that the topology on the set of maps $S(X)\to T(X)$ in $k Top_*$ is obatined by first taking the [[compact-open topology]] and then performing the [[kaonization]] of the space so obtained. 
+D. B. Fuks considers the category $End(k Top_*)$ of [[endofunctors]] on the category $k Top_*$ of pointed [[compactly generated space|compactly generated]] Hausdorff spaces. He enriches this category in $k Top_*$ as follows: Let $S,T$ be two endofunctors, then the set $\{S\to T\}$ of isomorphism classes of natural transformations $S\to T$ is equipped with the weakest topology in which all maps $\alpha_X$, $X\in k Top_*$, of taking components $\{S\to T\}\mapsto Map(S(X),T(X))\in kTop_*$ are [[continuous map|continuous]]. Recall that the topology on the set of maps $S(X)\to T(X)$ in $k Top_*$ is obtained by first taking the [[compact-open topology]] and then performing the [[kaonization]] of the space so obtained. 
 
 Notice that if $[-,A]$ is a [[representable functor]] in the classical homotopy category of $k Top_*$, then for any endofunctors $S$ and $T$ we have 
 
