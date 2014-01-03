@@ -5,7 +5,7 @@
 
 ## Idea
 
-An effective [[force]] appearing in a compelx system in the [[thermodynamic limit]] as a result of the system's [[entropy]] increasing over time.
+An effective [[force]] appearing in a complex system in the [[thermodynamic limit]] as a result of the system's [[entropy]] increasing over time.
 
 ## References
 
