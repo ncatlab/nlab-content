@@ -383,8 +383,9 @@ moment $\leftrightarrow$ [[modality]]
 #### Second chapter. Dasein / Determinate Being 
 
 ##### A. Dasein as such / Determinate being as such
+ {#ExistenceAsSuch}
 
-* &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
+* {#188} &#167;188 Daseyn ist bestimmtes Seyn; seine Bestimmtheit ist seyende Bestimmtheit, Qualit&#228;t.
 
 *  &#167;188 In considering determinate being the emphasis falls on its determinate character; the determinateness is in the form of being, and as such it is quality. Through its quality, something is determined as opposed to an other, as alterable and finite; and as negatively determined not only against an other but also in its own self. This its negation as at first opposed to the finite something is the infinite; the abstract opposition in which these determinations appear resolves itself into the infinity which is free from the opposition, into being-for-self.
 
@@ -396,7 +397,13 @@ Di Giovanni has
 
 * Existence is _determinate_ being;
 
+In any case, by the discussion at _[Becoming](#Becoming)_ we have that "being" is a moment of the adjunction $(\emptyset \dashv \ast)$ and the discussion at _[Relation between repulsion and attraction](#RelationBetweenRepulsionAndAttraction)_ we have that "quality" is the adjunction $(\int \dashv \flat)$. Therefore it seems that
 
+* types have "being" in the presence of $(\emptyset \dashv \ast)$
+
+  * types moreover have "existence"/Dasein in the further presence of $(\int \dashv \flat)$.
+
+For more on this see at _[Remark on reality as opposite to ideality](#RemarkOnRealityAsOppositeToDuality)_.
 
 ###### a. Dasein &#252;berhaupt / Determinant being in general
 
@@ -419,7 +426,6 @@ So determinate being/Dasein is that of [[types]].
 
 * &#167;196 Determinateness thus isolated by itself in the form of being is quality 
 
-[[type]]
 
 ###### c. Etwas / Something
  {#Etwas}
@@ -546,6 +552,7 @@ $$
 
 
 ###### Anmerkung
+ {#RemarkOnRealityAsOppositeToDuality}
 
 * &#167;324 Die Idealit&#228;t kommt zun&#228;chst den aufgehobenen Bestimmungen zu, als unterschieden von dem, worin sie aufgehoben sind, das dagegen als das Reelle genommen werden kann. So aber ist das Ideelle wieder eins der Momente und das Reale das andere; 
 
@@ -566,6 +573,16 @@ $$
 $$
 
 See also at _[The One and the Many](#EinsUndVieles)_.
+
+We might interpret this as follows: the $(\int_{inf} \dashv \flat_{inf})$-adjunction is that which, by the discussion at _[[differential cohesion]]_, makes all types $X$ have an associated [[structured (infinity,1)-topos|structured]] [[étale topos]] $(Sh(X), \mathcal{O}_X)$. In a sense this gives the type $X$ a "reality" as a topos.
+
+Hence in view of the previous disucssion at _[Existence As Such](#ExistenceAsSuch)_ it seems we have the following
+
+* types have "being" in the presence of $(\emptyset \dashv \ast)$
+
+  * types moreover have "existence"/Dasein in the further presence of $(\int \dashv \flat)$.
+
+    * types moreover have "reality" in the further presence of $(\int_{inf} \dashv \flat_{inf})$
 
 ###### c. Eins
 
@@ -709,9 +726,10 @@ is the [[adjoint modality]] given by [[reduction modality]] $\dashv$ [[infinites
 ###### b. Das Eine Eins der Attraktion
 
 ###### c. Die Beziehung der Repulsion und der Attraktion
+ {#RelationBetweenRepulsionAndAttraction}
 
 
-* &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
+* {#369} &#167;369 Die Repulsion daseyender Eins ist die Selbsterhaltung des Eins durch die gegenseitige Abhaltung der andern, so da&#223; 1) die anderen Eins an ihm negirt werden, die&#223; ist die Seite seines Daseyns oder seines Seyns-f&#252;r-Anderes; diese ist aber somit Attraktion, als die Idealit&#228;t der Eins;&#8212;und da&#223; 2) das Eins an sich sey, ohne die Beziehung auf die andere; aber nicht nur ist das Ansich &#252;berhaupt l&#228;ngst in das F&#252;rsichseyn &#252;bergegangen, sondern an sich, seiner Bestimmung nach, ist das Eins jenes Werden zu Vielen.&#8212;Die Attraktion daseyender Eins ist die Idealit&#228;t derselben, und das Setzen des Eins, worin sie somit als Negiren und Hervorbringen des Eins sich selbst aufhebt, als Setzen des Eins das Negative ihrer selbst an ihr, Repulsion ist.
 
 * &#167;369 The repulsion of the determinately existent ones is the self-preservation of the one through the mutual repulsion of the others, so that (1) the other ones are negated in it-this is the side of its determinate being or of its being-for-other; but this is thus attraction as the ideality of the ones; and (2) the one is in itself, without relation to the others; but not only has being-in-itself as such long since passed over into being-for-self, but the one in itself, by its determination, is the aforesaid becoming of many ones. The attraction of the determinately existent ones is their ideality and the positing of the one, in which, accordingly, attraction as a negating and a generating of the one sublates itself, and as a positing of the one is in its own self the negative of itself, repulsion.
 
