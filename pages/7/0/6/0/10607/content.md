@@ -185,7 +185,7 @@ The corresponding unity-transformation is the
 
 $$
   \array{
-    \flat^{inf} X \longrightarrow X \longrightarrow \int X^{inf}
+    \flat^{inf} X \longrightarrow X \longrightarrow \int^{inf} X
   }
 $$
 
