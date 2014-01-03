@@ -954,8 +954,11 @@ Reminiscent of [[identity types]] in [[intensional type theory]].
 * Die Wirklichkeit als selbst unmittelbare Formeinheit des Innern und &#196;u&#223;ern ist damit in der Bestimmung der Unmittelbarkeit gegen die Bestimmung der Reflexion in sich; oder sie ist eine Wirklichkeit gegen eine M&#246;glichkeit. Die Beziehung beider auf einander ist das Dritte, das Wirkliche bestimmt ebenso sehr als in sich reflektirtes Seyn, und dieses zugleich als unmittelbar existirendes. Dieses Dritte ist die Nothwendigkeit.
 
 (..)
+* &#167; 1190 Actuality as itself the _immediate form_ &#8212; unity of inner and outer is thus in the determination of _immediacy_ over against the determination of reflection-into-self; or it is an _actuality as against a possibility_. Their _relation_ to each other is the _third_ term, the actual determined equally as a being reflected into itself, and this at the same time as a being existing immediately. This third term is _necessity_.
 
 * Die Wirklichikeit ist formell, insofern sie als erste Wirklichkeit nur unmittelbare, unreflektirte Wirklichkeit, somit nur in dieser Formbestimmung, aber nicht als Totalit&#228;t der Form ist. Sie ist so weiter nichts als ein Seyn oder Existenz &#252;berhaupt. Aber weil sie wesentlich nicht blo&#223;e unmittelbare Existenz, sondern, als Formeinheit des Ansichseyns oder der Innerlichkeit, und der &#196;u&#223;erlichkeit ist, so enth&#228;lt sie unmittelbar das Ansichseyn oder die M&#246;glichkeit. Was wirklich ist, ist m&#246;glich.
+
+* &#167; 1192 Actuality is formal in so far as, being primary actuality, it is _only immediate_, _unreflected_ actuality, and hence is only in this form-determination but not as the totality of form. As such it is nothing more than a _being or Existence_ in general. But because it is _essentially_ not a mere immediate Existence but exists as form-unity of being-within-self or inwardness and outwardness, it immediately contains the _in-itself or possibility. What is actual is possible._
 
 so 
 
