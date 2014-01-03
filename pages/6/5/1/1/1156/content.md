@@ -66,6 +66,10 @@ Notice however that there is ambiguity in what precisely one may mean by an $\in
 
 * **$(\infty,1)$-sheaf** / [[∞-stack]]
 
+  * [[sheaf of spectra]]
+
+  * [[sheaf of L-∞ algebras]]
+
 * [[(∞,2)-sheaf]]
 
 * [[(∞,n)-sheaf]]
