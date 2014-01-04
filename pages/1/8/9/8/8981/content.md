@@ -16,7 +16,7 @@
 
 ## Definition
 
-On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence equipped with a [[full and faithful (∞,1)-functor|fully faithful]] extra [[right adjoint]] $coDisc$ to the [[global section]] [[geometric morphism]] $(Disc \dashv \Gamma)$,  is induced an  [[idempotent monad]] $\sharp \coloneqq coDisc \circ \Gamma$, a [[modality]] which we call the _sharp modality_. This is itself the [[right adjoint]] in an [[adjoint modality]] with the [[flat modality]] $flat \coloneqq Disc \circ \Gamma$.
+On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence equipped with a [[full and faithful (∞,1)-functor|fully faithful]] extra [[right adjoint]] $coDisc$ to the [[global section]] [[geometric morphism]] $(Disc \dashv \Gamma)$,  is induced an  [[idempotent monad]] $\sharp \coloneqq coDisc \circ \Gamma$, a [[modality]] which we call the _sharp modality_. This is itself the [[right adjoint]] in an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
 
 ## Properties
 
