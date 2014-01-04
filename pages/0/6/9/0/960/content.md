@@ -52,6 +52,8 @@ where $Fun_*(A,B)$ is the set of basepoint-preserving [[functions]] from $A$ to 
 
 This easily generalizes to the smash products of many spaces, but they do not necessarily agree with iterated version: it is not necessary that $A\wedge (B\wedge C) \cong (A\wedge B)\wedge C$.
 
+For more details see at _[Pointed object -- Closed and monoidal structure](pointed+object#ClosedMonoidalStructure)_. See also for instance ([Elmendorf-Mandell 07, construction 4.19](#ElmendorfMandell07)).
+
 ### For general pointed objects
 
 Smash products can be defined for [[pointed objects]] in any [[category]] $C$ with [[finite limit]] and [[colimit]].  
@@ -78,6 +80,12 @@ Associativity fails in general for the category [[Top]] of all topological space
 See at _[[symmetric smash product of spectra]]_.
 
 ## References
+
+On the general definition of smash products via [[closed monoidal category]] structure on [[pointed objects]]
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
+ {#ElmendorfMandell07}
+
 
 On commutativity of smashing with [[homotopy limits]]:
 
