@@ -21,15 +21,19 @@ $$x y = y x.$$
 
 Alternatively, just as a [[monoid]] can be seen as a [[category]] with one object, a commutative monoid can be seen as a [[monoidal category]] with one object and one morphism.
 
+Commutative monoids with [[homomorphisms]] between them form a _[[category of commutative monoids]]_.
+
 ## Examples
 
 * An [[abelian group]] is a commutative monoid that is also a [[group]].
 
-* The natural numbers (together with 0) form a commutative monoid under addition.
+* The [[natural numbers]] (together with 0) form a commutative monoid under addition.
 
 * Every bounded [[semilattice]] is an _idempotent_ commutative monoid, and every idempotent commutative monoid yields a semilattice, (see that entry).
 
 ## Related concepts
+
+* [[category of monoids]]
 
 * [[cocommutative comonoid]]
 
