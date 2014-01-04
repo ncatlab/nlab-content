@@ -216,7 +216,11 @@ The pentagon-decagon-hexagon identity is usually demonstrated by exhibiting a ri
 
 If the length of the common edge of the three polygons is taken to be 1, then their radii are the _reciprocals_ of the edge lengths $P$, $D$ and $H$ of the same polygons if they had radii of 1.  But the altitudes of a right triangle obey a "reciprocal" or "dual" version of the usual Pythagorean theorem:  if the altitudes of a right triangle measured from its two perpendicular sides are $a$ and $b$, and that measured from the hypotenuse is $c$, then it is easily shown that:
 
-$$(1/a)^2 + (1/b)^2 = (1/c)^2$$
+$$\frac{1}{c^2} = \frac{1}{a^2} + \frac{1}{b^2}$$
+
+It follows that the existence of a right triangle with altitudes $a=\frac{1}{D}$, $b=\frac{1}{H}$ and $c=\frac{1}{P}$ implies the pentagon-decagon-hexagon identity:
+
+$$P^2=D^2+H^2$$
 
 [[!include pentagon decagon hexagon identity > agol icosahedron]]
 
