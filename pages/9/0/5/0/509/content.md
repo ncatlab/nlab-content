@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 # Pointed objects
 * table of contents
 {: toc}
@@ -18,17 +32,19 @@ There is an obvious [[forgetful functor]] from $1/C$ to $C$.  If $C$ has finite 
 
 * Pointed $n$-[[n-category|categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].  In particular, a fancy name for a pointed set is a _0-tuply monoidal 0-category_.
 
+## Properties
 
-## Zero objects and pointed categories
+### Zero objects and pointed categories
 
 The category of pointed objects in any category $C$ with a terminal object always has a [[zero object]], i.e. with an object which is both a [[terminal object|terminal]] and [[initial object|initial]]: this is the point itself regarded as a pointed object in the unique way.  A category with a zero object is sometimes called a [[pointed category]] (not to be confused with a pointed object in [[Cat]]).
 
 Conversely, if $C$ has a zero object, then every object is automatically pointed in a unique way, so that $C$ is equivalent to its category of pointed objects.
 
 
-## Closed and monoidal structure
+### Closed and monoidal structure
+ {#ClosedMonoidalStructure}
 
-If $C$ is a [[closed monoidal category]] with finite limits and $X$ and $Y$ are pointed objects in $C$, we can consider their pointed internal-hom (the "object of basepoint-preserving maps"), defined as the pullback
+If $C$ is a [[closed monoidal category]] with finite limits and $X$ and $Y$ are pointed objects in $C$, we can consider their pointed internal-hom (the "object of basepoint-preserving maps"), defined as the [[pullback]]
 $$
 \array{ [X,Y]_* & \rightarrow & 1\\
   \downarrow && \downarrow\\
@@ -40,7 +56,7 @@ $$
   \downarrow && \downarrow\\
   X\otimes Y & \rightarrow & X\wedge Y}
 $$
-with the obvious basepoint.  These constructions make $1/C$ itself a closed monoidal category, which is symmetric if $C$ is.  The unit is $I_+$, where $I$ is the unit for the monoidal structure on $C$.  (The case when $C$ is [[cartesian monoidal category|cartesian]], or at least [[semicartesian monoidal category|semicartesian]], is most common in the literature, but these facts are true in general.  A proof can be found in Lemma 4.20 of [arXiv:0710.0082](http://arxiv.org/abs/0710.0082).)
+with the obvious basepoint.  These constructions make $1/C$ itself a closed monoidal category, which is symmetric if $C$ is.  The unit is $I_+$, where $I$ is the unit for the monoidal structure on $C$.  (The case when $C$ is [[cartesian monoidal category|cartesian]], or at least [[semicartesian monoidal category|semicartesian]], is most common in the literature, but these facts are true in general.  A proof can be found in [Elmendorf-Mandell 07, lemma 4.20](#ElmendorfMandell07)
 
 If $C$ is [[monoidal category|monoidal]] but not closed, the same definition of the smash product makes $1/C$ monoidal as long as the tensor product of $C$ preserves finite colimits in each variable separately.  If not, the smash product can fail to be associative; for instance, the smash product on the ordinary category [[Top]] (without any [[nice category of spaces|niceness conditions]] imposed) is not associative.
 
@@ -49,7 +65,7 @@ This construction is almost always applied only when $C$ is [[cartesian monoidal
 Moreover, if $C$ is a [[monoidal model category]] with cofibrant unit, then $1/C$ is also a monoidal model category, and the adjunction $1/C \rightleftarrows C$ is [[Quillen adjunction|Quillen]].
 
 
-## Kernels and cokernels
+### Kernels and cokernels
 
 For a morphism $f : A \to B$ into an object $B$ equipped with a point $pt \stackrel{pt_B}{\to} B$, its _kernel_ $ker_{pt_B}(f)$ is the pullback
 
@@ -91,6 +107,13 @@ $A \to pt \stackrel{pt_B}{\to} B$.
 
 * [[pointed type]]
 
+* [[smash product]]
+
+
+## References
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
+ {#ElmendorfMandell07}
 
 [[!redirects pointed object]]
 [[!redirects pointed objects]]
