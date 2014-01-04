@@ -29,7 +29,7 @@ I have given a summary in my [private $n$Lab area](http://ncatlab.org/timporter/
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 10 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
 
 
-I am also very interested in directed homotopy theory and the application of ideas form the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science. Some material can be found on those personal pages.
+I am also very interested in directed homotopy theory and the application of ideas from the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science. Some material can be found on those personal pages.
 
 
 
