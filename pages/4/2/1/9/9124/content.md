@@ -30,7 +30,7 @@ $$
   \,,
 $$
 
-where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] adn $&#643;_{inf}$ is an [[idempotent monad]].
+where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
 Here $&#643;_{inf}$ is called the _[[infinitesimal shape modality]]_. 
 
 An [[object]]/[[type]] $X$ is called **formally smooth** if the [[unit of an adjunction|unit]]
@@ -39,7 +39,7 @@ $$
   X \to &#643;_{inf}X
 $$
 
-is a [[1-epimorphism]]. This is equivalent to the essentialy unique morphims $X \to *$ to the [[terminal object]] being a [[formally smooth morphism]].
+is a [[1-epimorphism]]. This is equivalent to the essentially unique morphism $X \to *$ to the [[terminal object]] being a [[formally smooth morphism]].
 
 ## Examples
 
