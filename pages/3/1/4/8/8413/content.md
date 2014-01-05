@@ -23,4 +23,6 @@ Ontology is the branch of [[philosophy]] concerned with [[being]] and [[becoming
 
 * Wikipedia, [Ontology](http://en.wikipedia.org/wiki/Ontology)
 
+* [[Georg Hegel]], _[[Science of Logic]]_
+
 [[!redirects ontologies]]
