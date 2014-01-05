@@ -84,7 +84,7 @@ If $\mathcal{C}$ is an accessible category and $K$ is a [[small category]], then
 
 ([Lurie, prop. 5.4.4.3](#Lurie))
 
-+-- {: .num_prop}
++-- {: .num_prop #StabilityUnderInverseImage}
 ###### Proposition 
 **(preservation of accessibility under inverse images)**
 
