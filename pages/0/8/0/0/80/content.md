@@ -15,7 +15,7 @@
 
 ## Scope
 
-In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain philosophy of mathematics in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
+In philosophical part of $n$Lab we discuss the higher category theory and its repercussions in philosophy. More widely, the future entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
 ## Nonscope
 
@@ -75,6 +75,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * [[analytic philosophy]]
 
 * [[philosophy of mathematics]]
+
+* [[philosophy of physics]]
 
 
 * [[Converging Realities -- Toward a common philosophy of physics and mathematics]]
