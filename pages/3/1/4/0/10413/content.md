@@ -26,7 +26,7 @@ mathematics_
 
   Princeton University Press, 2005
 
-on the [[philosophy]] of [[physics]] and [[mathematics]].
+on the [[philosophy of mathematics]] and the [[philosophy of physics]].
 
 A review by [[David Corfield]] is here: _[pdf](http://www.math.ucr.edu/home/baez/corfield/omnes.pdf)_
 
