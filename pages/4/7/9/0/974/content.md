@@ -347,8 +347,10 @@ This implies that all [[representable functor|representables]] in a [[sheaf topo
 +-- {: .num_theorem #AlgebrasOverAnAccessibleMonad}
 ###### Theorem
 
-If $T$ is an accessible [[monad]] (a monad whose underlying [[functor]] is an [[accessible functor]]) on a locally presentable category $A$, then the category $A^T$ of [[algebras over a monad|algebras over the monad]] is locally presentable. In particular, if $A$ is locally presentable and $i: B \to A$ is a [[reflective subcategory]], then $B$ is locally presentable if $i$ is accessible.  
+If $T$ is an [[accessible monad]] (a [[monad]] whose underlying [[functor]] is an [[accessible functor]]) on a locally presentable category $A$, then the category $A^T$ of [[algebras over a monad|algebras over the monad]] is locally presentable. In particular, if $A$ is locally presentable and $i: B \to A$ is a [[reflective subcategory]], then $B$ is locally presentable if $i$ is accessible.  
 =--
+
+This appears in ([Adamek-Rosicky, 2.78](#AdamekRosicky)).
 
 +-- {: .query} 
 This is actually somewhat subtle and gets into some transfinite combinatorics, from what I can gather. 
