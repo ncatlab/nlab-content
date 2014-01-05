@@ -27,3 +27,6 @@ From ([Hegel, Science of Logic, &#167;85](Science+of+Logic#85)):
 * [[logos (in philosophy)]]
 
 * [[Nous]]
+
+* [[philosophy of physics]]
+
