@@ -25,6 +25,7 @@
 ## Definition
 
 ### For pointed sets
+ {#ForPointedSets}
 
 +-- {: .num_defn}
 ###### Definition
@@ -36,8 +37,8 @@ $$ A \wedge B = \frac{A \times B}{A \vee B} $$
 
 =--
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop}
+###### Proposition
 
 The smash product is the [[tensor product]] in the [[closed monoidal category]] of [[pointed sets]].  
 That is, it is characterized by the existence of [[natural isomorphisms]]
@@ -50,22 +51,61 @@ where $Fun_*(A,B)$ is the set of basepoint-preserving [[functions]] from $A$ to 
 
 =--
 
-This easily generalizes to the smash products of many spaces, but they do not necessarily agree with iterated version: it is not necessary that $A\wedge (B\wedge C) \cong (A\wedge B)\wedge C$.
+This is a special case of the general discussion [below](#ForGeneralPointedObjects).
 
-For more details see at _[Pointed object -- Closed and monoidal structure](pointed+object#ClosedMonoidalStructure)_. See also for instance ([Elmendorf-Mandell 07, construction 4.19](#ElmendorfMandell07)).
 
 ### For general pointed objects
-
-Smash products can be defined for [[pointed objects]] in any [[category]] $C$ with [[finite limit]] and [[colimit]].  
-
-
-For $\mathbf{H}$ a [[topos]], with $\mathbf{H}^{\ast/}$ its category of [[pointed objects]], the smash product is the [[tensor product]] that makes this a [[closed monoidal category]].
+ {#ForGeneralPointedObjects}
 
 
+Let $(\mathcal{C}, \otimes, 1_{\mathcal{C}})$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with ([[finite limit|finite]]) [[limits]] and [[colimits]]. Write $\ast \in \mathcal{C}$ for the [[terminal object]] of $\mathcal{C}$. Write $\mathcal{C}^{\ast/}$ for the category of [[pointed objects]] in $\mathcal{C}$.  
 
-## Properties
++-- {: .num_defn #GeneralSmashProduct}
+###### Definition
 
-If finite [[product]]s in $C$ preserve finite colimits, then the smash product is [[associativity|associative]], and if $C$ is also [[cartesian closed category|cartesian closed]], then it makes the category of pointed objects in $C$ [[closed monoidal category|closed monoidal]].  However, if finite products in $C$ do not preserve finite colimits, the smash product can fail to be associative.
+For $X,Y \in \mathcal{C}^{\ast/}$ two [[pointed objects]] in $\mathcal{C}$, their _smash product_ is given by the following [[pushout]] of [[pushouts]] and [[tensor products]] all formed in $\mathcal{C}$
+
+$$
+  X \wedge Y
+  \coloneqq
+  1_{\mathcal{C}} \underset{(X \otimes \ast)\coprod (Y \otimes \ast)}{\coprod} (X \otimes Y)
+$$
+
+regarded as a pointed object via the induced [[co-projection]] from $\ast$.
+
+=--
+
+In this generality this appears as ([Elmendorf-Mandell 07, construction 4.19](#ElmendorfMandell07)).
+
++-- {: .num_prop}
+###### Proposition
+
+The smash product of def. \ref{GeneralSmashProduct} makes $\mathcal{C}^{\ast/}$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with ([[finite limit|finite]]) [[limits]] and [[colimits]].
+
+=--
+
+A proof appears as ([Elmendorf-Mandell 07, lemma 4.20](#ElmendorfMandell07)). For more of these details see at _[Pointed object -- Closed and monoidal structure](pointed+object#ClosedMonoidalStructure)_. 
+
+
++-- {: .num_remark}
+###### Remark
+
+The formula for the smash product in def. \ref{GeneralSmashProduct} can be considered in any [[category]] $\mathcal{C}$ with [[finite limits]] and [[colimits]], but unless $\mathcal{C}$ is closed symmetric monoidal, it will not have all these properties. 
+
+If finite [[products]] in $C$ preserve finite colimits, then the smash product is [[associativity|associative]], and if $C$ is also [[cartesian closed category|cartesian closed]], then it makes the category of pointed objects in $C$ [[closed monoidal category|closed monoidal]].  However, if finite products in $C$ do not preserve finite colimits, the smash product can fail to be associative.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Examples of closed symmetric monoidal categories $(\mathcal{C}, \otimes 1_{\mathcal{C}})$ include in particular [[toposes]] with their [[cartesian monoidal category|cartesian monoidal structure]]. For the topos $\mathcal{C} = $ [[Set]] the general discussion here reduces to that [above](#ForPointedSets).
+
+=--
+
+
+
 
 ## Examples
 
