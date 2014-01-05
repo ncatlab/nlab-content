@@ -1056,5 +1056,9 @@ Proposals for formalizing some of Hegel's thoughts in [[categorical logic]] have
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
   {#LawvereLauterEinsen}
 
-* _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+* [[William Lawvere]] _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
  {#LawvereMotion}
+
+Related commentary is in 
+
+* [[Andrei Rodin]], section 4.8 of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478))
