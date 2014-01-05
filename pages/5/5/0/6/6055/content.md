@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -40,7 +44,7 @@ Let $\mathcal{E}$ be a [[topos]]. Then
 
     is a [[geometric morphism]].
 
-  * If $T$ is furthermore [[accessible functor|accessible]] and $\mathcal{E}$ is a [[sheaf topos]], then also $T CoAlg(\mathcal{C})$ is a sheaf topos. 
+  * If $T$ is furthermore [[accessible monad|accessible]] and $\mathcal{E}$ is a [[sheaf topos]], then also $T CoAlg(\mathcal{C})$ is a sheaf topos. 
 
   * Even if $T$ is merely [[pullback]]-preserving, the category of coalgebras is a topos. 
 
