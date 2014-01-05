@@ -58,7 +58,7 @@ commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a **monoid** in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
 
-A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This in turn is equivalent to saying that a monad is a [[category enriched in an bicategory]] with a single object and single morphism. Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
+A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This in turn is equivalent to saying that a monad is a [[category enriched in a bicategory]] with a single object and single morphism. Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
 
 We can picture a monad in $K$ as an image of the [[oriental|third oriental]] in $K$. See the remarks at [[monoidal category]].
 
@@ -155,6 +155,8 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 * **monad** [[2-monad]]/[[doctrine]] / [[(∞,1)-monad]]
 
   * [[idempotent monad]], [[strong monad]]
+
+  * [[accessible monad]]
 
   * [[monad (in computer science)]], [[Lawvere-Tierney topology]]
 
