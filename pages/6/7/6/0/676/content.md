@@ -1,5 +1,5 @@
 
-**[[physics]]**, [[mathematical physics]]
+**[[physics]]**, [[mathematical physics]], [[philosophy of physics]]
 
 ## Surveys, textbooks and lecture notes
 
@@ -153,6 +153,7 @@
     * [[phenomenology]]
 
     * [[model (in particle phyiscs)|models]]
+
 
       * [[standard model of particle physics]]
 
