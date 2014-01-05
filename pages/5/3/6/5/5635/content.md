@@ -21,7 +21,7 @@
 
 [[Gromov-Witten theory]] may be understood as providing a product on  formal [[power series]] over certain  [[abelian sheaf cohomology]] groups of [[Kähler manifold]]s $X$. The **quantum cohomology** of $X$ is the resulting [[Frobenius algebra]] structure on these formal power series.
 
-Together with [[Gromov-Witten theory]] quantum sheaf cohomlogy was discovered in and has its geometric roots as part of the data that describes certain 2-[[dimension]]al [[sigma-model]] [[quantum field theories]] with target space $X$.
+Together with [[Gromov-Witten theory]] quantum sheaf cohomlogy was discovered in and has its geometric roots as part of the data that describes certain 2-[[dimension]]al [[sigma-model]] [[quantum field theories]] with [[target space]] $X$.
 
 ## Related concepts
 
