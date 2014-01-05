@@ -28,7 +28,7 @@ but not an operation such as
 
 $$\circ_{B,C} \colon Hom(A; B,C) \times Hom(B,C; D) \to Hom(A,D).$$
 
-### Internal loggic
+### Internal logic
 
 Polycategories provide a natural [[categorical semantics]] for [[linear logic]].
 
