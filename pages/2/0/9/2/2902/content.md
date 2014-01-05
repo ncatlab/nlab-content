@@ -228,11 +228,11 @@ In the diagram above, we have chosen a vertex $V$ of a regular icosahedron with 
 
 A regular hexagon (blue) is constructed with center $V$, with $M_1 M_2$ as one of its edges, lying in the plane of one of the faces of the icosahedron.
 
-A regular pentagon (yellow) is constructed, with its five vertices being the midpoints of the five edges of the icosahedron that are incident on $V$.  The center of this pentagon will lie on the line segment $C V$, and is named $W$ in the diagram.
+A regular pentagon (yellow) is constructed, with its five vertices being the midpoints of the five edges of the icosahedron that are incident on $V$.  The center of this pentagon will lie on the line segment $C V$, and is named $W$ in the diagram.  The plane in which this pentagon lies is orthogonal to $C V$, so the line segment $W M_1$ meets $C V$ in a right angle.
 
 A regular decagon (green) is constructed with center $C$, with $M_1 M_2$ as one of its edges.
 
-Finally, a right triangle (red) is constructed, with vertices $C$, $M_1$ and $V$.  The altitude $C M_1$ of this triangle is the radius of the decagon.  The altitude $V M_1$ is the radius of the hexagon.  And the altitude $W M_1$ is the radius of the pentagon.  From the dual Pythagorean theorem, this establishes the pentagon-decagon-hexagon identity.
+Finally, a right triangle (red) is constructed, with vertices $C$, $M_1$ and $V$.  The angle at $M_1$ is a right angle, because $C M_1$ is a perpendicular bisector of the polyhedron edge of which $M_1$ is the midpoint.  The altitude $C M_1$ of this triangle is the radius of the decagon.  The altitude $V M_1$ is the radius of the hexagon.  And the altitude $W M_1$ is the radius of the pentagon.  From the dual Pythagorean theorem, this establishes the pentagon-decagon-hexagon identity.
 
 Ian Agol's construction can also be applied to any of the other Platonic solids.  This yields the following results:
 
