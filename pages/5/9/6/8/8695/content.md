@@ -30,7 +30,7 @@ $$
   \stackrel{\overset{i_*}{\leftarrow}}{\underset{i^*}{\to}}
   \mathbf{H}
   \stackrel{\overset{i_!}{\leftarrow}}{\underset{i_*}{\to}}
-  \mathbf{H}
+  \mathbf{H}_{th}
   \,.
 $$
 
