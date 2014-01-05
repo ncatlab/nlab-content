@@ -1,0 +1,11 @@
+
+
+* [webpage](http://philomatica.org)
+
+## Some writings
+
+* Andrei Rodin, _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478))
+
+  on [[foundations]] in [[categorical logic]] in view of [[homotopy type theory]] and other modern developments
+
+category: people
