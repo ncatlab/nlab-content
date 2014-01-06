@@ -223,9 +223,17 @@ A standard textbook reference for categorical semantics of logic is section D1.2
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-A discussion of categorical semantics of [[type theory]] is for instance in 
 
-* [[Martin Hofmann]], _Syntax and semantics of dependent types_, Semantics and Logics of Computation (P. Dybjer and A. M. Pitts, eds.), Publications of the Newton Institute, Cambridge University Press, Cambridge, (1997) pp. 79-130.
+The categorical semantics of [[dependent type theory]] in [[locally cartesian closed categories]] is essentially due to
+
+* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  {#Seely}
+
+For more references on this see at _[[relation between category theory and type theory]]_.
+
+Lecture notes on this include for instance.
+
+* [[Martin Hofmann]], _Syntax and semantics of dependent types_, Semantics and Logics of Computation (P. Dybjer and A. M. Pitts, eds.), Publications of the Newton Institute, Cambridge University Press, Cambridge, (1997) pp. 79-130. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985), )
 
 * Roy Crole, _Categories for types_
 
