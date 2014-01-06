@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 # Quantum measurement
 * table of contents
 {: toc}
@@ -12,6 +21,7 @@ Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditio
 
 * [[decoherence]]
 
+* [[interpretation of quantum mechanics]]
 
 ## References
 
