@@ -45,6 +45,8 @@ See [Orlov 2003, 3.2.1](#OrlovSurvey) for a proof.  Though the theorem is stated
 
 It is generally believed that this theorem should be true for _all_ [[triangulated functors]].
 
+## Enhancements
+
 On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[schemes]] that, in the [[homotopy category]] of [[DG categories]], _every_ functor corresponds bijectively to an isomorphism class of objects on $D(X \times Y)$.  See [(Toen 2006)](#Toen2006).
 
 =--
@@ -60,8 +62,6 @@ On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[
 
 * Lutz Hille, Michel van den Bergh, _Fourier-Mukai transforms_ ([arXiv](http://arxiv.org/abs/math/0402043))
 
-* [[Bertrand Toen]], _The homotopy theory of dg-categories and derived Morita theory_, 2006, [arXiv](http://arxiv.org/abs/math/0408337).
-
 * [[Alexei Bondal]], [[Michel van den Bergh]].  _Generators and representability of functors in commutative and noncommutative geometry_, 2002, [arXiv](http://arxiv.org/abs/math/0204218)
  {#BondalBergh2002}
 
@@ -75,6 +75,9 @@ Discussion of [[internal homs]] of [[dg-categories]] in terms of refined Fourier
 
 * Alberto Canonaco, Paolo Stellari, _Internal Homs via extensions of dg functors_ ([arXiv:1312.5619](http://arxiv.org/abs/1312.5619))
 
+For a discussion of Fourier-Mukai transforms in the setting of $(\infty,1)$-enhancements, see
+
+* [[David Ben-Zvi]], David Nadler, Anatoly Preygel.  Integral transforms for coherent sheaves.  [arXiv](http://arxiv.org/abs/1312.7164v1)
 
 [[!redirects Fourier-Mukai transforms]]
 [[!redirects Fourier-Mukai functor]]
