@@ -40,7 +40,7 @@ $$
   \,,
 $$
 
-hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_).
+hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawver 91](#Lawvere91)).
 
 Given any such, we may say that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
 
@@ -211,6 +211,12 @@ characteristic of a [[cohesive topos]].
 
 For $\mathcal{K}$ a [[totally distributive category]]
 it induces on its [[category of presheaves]] an adjoint modality whose [[right adjoint]] is the [[Yoneda embedding]] $Y$ postcomposed with its [[left adjoint]] $X$.
+
+## Related concepts
+
+* [[modal type theory]]
+
+* [[category of being]]
 
 ## References
 
