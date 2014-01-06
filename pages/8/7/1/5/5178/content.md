@@ -118,7 +118,7 @@ If the functor $F$ preserves [[pullback]]s then this induces a morphism $\mathbb
 
 =--
 
-### Index category of a topos over a base topos
+### Indexed category of a topos over a base topos
 
 This situation frequently arises when $\mathcal{S}$ and $\mathcal{C}$ are [[toposes]] and $F := f^*$ is the [[inverse image]] part of a [[geometric morphism]].  
 
@@ -138,6 +138,9 @@ See [[base topos]] for more on this.
 
 Also, via this indexed category, $f$ exhibits $\mathcal{C}$ as a [[2-sheaf]] (see there) over $\mathcal{C}$, with respect to the [[canonical topology]].
 
+### Hyperdoctrine
+
+* [[hyperdoctrine]]
 
 ### Indexed monoidal category
 
