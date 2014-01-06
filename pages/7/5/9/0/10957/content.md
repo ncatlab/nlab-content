@@ -66,7 +66,7 @@ A _category of being_ is a [[category]] with [[initial object]] and [[terminal o
 +-- {: .num_remark}
 ###### Remark
 
-In [[geometry|geometric]] language these are categories equiiped with a notion of [[discrete objects]] and [[codiscrete objects]].
+In [[geometry|geometric]] language these are categories equipped with a notion of [[discrete objects]] and [[codiscrete objects]].
 
 =--
 
