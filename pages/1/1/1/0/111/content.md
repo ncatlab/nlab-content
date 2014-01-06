@@ -1,4 +1,6 @@
 
+> This page is about the concept in [[mathematics]]. For the concept of the same name in [[philosophy]] see at _[[category (philosophy)]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
