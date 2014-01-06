@@ -61,14 +61,24 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 
 * [[Penrose transform]]
 
+## History
+ {#History}
+
+In [[noncommutative algebraic geometry]], one of the most important results is [[Dmitri Orlov]]'s representability theorem (1997) which states that every fully faithful [[triangulated functor]] between the [[derived categories9] of [[coherent sheaves]] on two [[smooth scheme|snooth]] [[projective varieties]] is representable by some "[[integral kernel]]", i.e. a coherent complex on the [[product]].  One would like to remove the "fully faithful" assumption, but this has proved extremely difficult so far.  In the context of [[dg-categories]] the analogous result, discovered by [[Bertrand Toen]] in 2004, does have the clean form one would like it to.  Along with other problems with [[triangulated categories]], this has been one of the motivations for people like [[Maxim Kontsevich]] and [[Goncalo Tabuada]] to start doing [[noncommutative geometry]] with [[pretriangulated dg-categories]] instead of triangulated categories.
+
+On the other hand [[pretriangulated dg-categories]] are known to provide a model for linear [[stable (infinity,1)-categories]].  Using a different model, like [[quasi-categories]], would be more convenient for extending Toen's theorem from (smooth proper) schemes to (smooth proper) [[derived stacks]].  This was done in [Ben-Zvi & Francis & Nadler 08](#BZFN08).  In the followup ([Ben-Ziv & Nadler & Preygel 13](#BZNP13)) the authors have also extended these results to the non-smooth case.
+
+
 ## References
  {#References}
 
 Discussion of integral transforms in [[derived algebraic geometry]] (see also at _[[geometric infinity-function theory]]_) is in
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+  {#BZFN08}
 
 * [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel, _Integral transforms for coherent sheaves_ ([arXiv:1312.7164](http://arxiv.org/abs/1312.7164))
+ {#BZNP13}
 
 Comments on the formalization of integral transforms and [[quantization]] in [[dependent linear type theory]] are at
 
