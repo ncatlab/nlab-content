@@ -52,6 +52,13 @@ On the other hand, it might be that a good formulation of the coordination proce
 
 >...the characterization of collapse as a separate physical process is misguided because the phenomenon which collapse is supposed to address concerns not an actual process within quantum mechanical theory but rather the coordination between empirical measurements and representations of quantum systems. Until we first get clear on this relationship, it is premature to propose new processes to account for features of that relationship.
 
+## Related concepts
+
+* [[experiment]]
+
+* [[theory (physics)]]
+
+* [[interpretation of quantum mechanics]]
 
 ##References
 
