@@ -32,7 +32,7 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 
 ## Examples
 
-* [[local modality]]
+* [[local modality]], [[Lawvere-Tierney topology]]
 
 * [[double negation modality]]
 
