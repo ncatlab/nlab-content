@@ -62,6 +62,13 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 * [[Penrose transform]]
 
 ## References
+ {#References}
+
+Discussion of integral transforms in [[derived algebraic geometry]] (see also at _[[geometric infinity-function theory]]_) is in
+
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+
+* [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel, _Integral transforms for coherent sheaves_ ([arXiv:1312.7164](http://arxiv.org/abs/1312.7164))
 
 Comments on the formalization of integral transforms and [[quantization]] in [[dependent linear type theory]] are at
 
