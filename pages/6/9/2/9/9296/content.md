@@ -17,13 +17,21 @@
 
 ## Idea
 
-The disappearance of quantum [[entanglement]] and [[superposition]] in the limit where small [[quantum mechanical systems]] are coupled to large [[thermal baths]].
+In [[quantum physics]] _decoherence_ refers to the disappearance of quantum [[entanglement]] and [[superposition]] in the limit where small [[quantum mechanical systems]] are coupled to large [[thermal baths]].
+
+This has been argued to resolve (and has been argued not to resolve) the problem with the [[interpretation of quantum mechanics|interpretation]] of [[quantum measurement]].
 
 ## Related concepts
+
+* [[measurement]], [[experiment]]
 
 * [[classical limit]]
 
 * [[density matrix]]
+
+* [[quantum measurement]], [[interpretation of quantum mechanics]]
+
+* [[observable universe]]
 
 ## References
 
