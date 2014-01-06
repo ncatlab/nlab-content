@@ -7,6 +7,8 @@
 
 * _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_
 
+* _[[The Interpretation of Quantum Mechanics]]_
+
 ## Related entries
 
 * [[decoherence]]
