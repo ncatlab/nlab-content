@@ -246,6 +246,14 @@ From the dodecahedron, $T^2=D^2+D_3^2$, for a triangle, decagon, and a 10-pointe
 
 Applying the construction to the Kepler-Poinsot polyhedra, the great dodecahedron and the great icosahedron both yield $P_2^2=H^2+D_3^2$, where $P_2$ is a pentagram.  The small stellated dodecahedron yields the original identity, $P^2=D^2+H^2$, with the locations of the hexagon and decagon swapped compared to the icosahedral construction.  And the great stellated dodecahedron yields $T^2=D^2+D_3^2$, the same identity as the ordinary dodecahedron, with the decagon and the 10-pointed stars changing places.
 
+In general, one of the polygons (the "green" one) is invariant under taking the dual of the polyhedron.  If the faces of the polyhedron are $n$-gons and the vertex figures are $v$-gons, the "yellow" polygon  (whose vertices are all the midpoints of all the edges incident on some vertex of the polyhedron) will be a $v$-gon, with each edge subtending an angle of $\frac{2\pi}{v}$, while the "blue" polygon centred on the vertex will be a $\frac{2n}{n-2}$-gon, where each edge subtends an angle of $\frac{(n-2)\pi}{n} = \pi-\frac{2\pi}{n}$ (the interior angle between the edges of an $n$-gon).
+
+The difference of the squares of the sines of half these angles is:
+
+$$\sin\left(\frac{\pi}{v}\right)^2 - \sin\left(\frac{(n-2)\pi}{2n}\right)^2 = -\cos\left(\pi \left(\frac{1}{n}+\frac{1}{v}\right)\right) \cos\left(\pi \left(\frac{1}{n}-\frac{1}{v}\right)\right)$$
+
+where the RHS is now clearly invariant under an exchange of $n$ and $v$.  This quantity is the squared sine of half the angle subtended by each edge of the "green" polygon.
+
 #References#
 
 * John Baez, [This Week's Finds in Mathematical Physics, Week 283](http://math.ucr.edu/home/baez/week283.html)
