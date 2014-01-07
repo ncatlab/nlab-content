@@ -87,6 +87,8 @@ See at _[[Bohr topos]]_ for more.
 
 * [[quantale]], 
 
+* [[beable]]
+
 * [[Bohr topos]]
 
 ## Literature
