@@ -24,7 +24,7 @@ A _modality_ in [[philosophy]] and formally in [[formal logic]]/[[type theory]] 
 ### In philosophy
  {#IdeaInPhilosophy}
 
-According to ([Kant 1900](#Kant1900)) (see [WP](http://de.wikipedia.org/wiki/Kategorie_(Philosophie))) the four "[[category (philosophy)|categories]]" are 
+According to ([Kant 1900](#Kant1900)) (see [WP](http://de.wikipedia.org/wiki/Kategorie_%28Philosophie%29)) the four "[[category (philosophy)|categories]]" are 
 
 1. Quantity
 
