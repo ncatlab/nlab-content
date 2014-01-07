@@ -20,11 +20,14 @@
 
 ## Idea
 
-Broadly speaking, _quantum logic_ is meant to be a kind of [[formal logic]] that is to traditional formal logic as [[quantum mechanics]] is to [[classical mechanics]]. In its traditional meaning "quantum logic" refers to the [[orthocomplemented lattice]] of closed linear subspaces of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed that the logic of quantum systems is better captured by [[linear logic]] or by the [[internal logic]] of [[Bohr toposes]].
+Broadly speaking, _quantum logic_ is meant to be a kind of [[formal logic]] that is to traditional formal logic as [[quantum mechanics]] is to [[classical mechanics]]: a formal framework which is supposed to be able to _express_ the statements whose [[semantics]] is the totality of all what is verifiable by [[measurement]] in a [[quantum system]] ([[quantum measurement]]).
+
+In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)) "quantum logic" refers specifically to the [[orthocomplemented lattice]] of closed linear subspaces of a [[Hilbert space]] [[space of quantum states|of quantum states]]. Later it was proposed ([Abramsky-Duncan 05](#AbramskyDuncan05), [Girard 11](#Girard11)) that a better was to think of this is via [[linear logic]]. There is also the proposal ([Heunen-Landsman-Spitters 07](#HeunenLandsmanSpitters07)) that quantum logic should be understood as being the [[internal logic]] of [[Bohr toposes]].
+
+In [[quantum computing]] the quantum analog of classical [[logic gates]] are called _quantum logic gates_.
 
 
-
-## History
+## History and Critique
 
 Typically  in the literature the term "quantum logic" is taken to refer very specifically to the first proposal for such a formalization that was given by ([Birkhoff-vonNeumann 1936](#BirkhoffvonNeumann36)). In this proposal given a [[quantum mechanical system]] with a [[Hilbert space]] [[space of states|of states]], the logical [[propositions]] about the system are taken to correspond to (the [[projections]] to) [[closed subspaces]], with [[implication]] given by inclusion of such subspaces.  Hence Brikhoff-vonNeumann quantum logic is given by the [[lattice]] of closed linear subspaces of Hilbert spaces (regarded as an [[orthocomplemented lattice]]).
 
@@ -46,13 +49,11 @@ In ([Girard 11, page xii](#Girard11)) it says:
 
 For more criticism see ([Girard 11, section 17](#Girard11)).
 
-Therefore later other proposals as to what quantum logic should be have been made, and possibly by "quantum logic" in the general sense one should understand any formal framework which is supposed to be able to _express_ the statements whose [[semantics]] is the totality of all what is verifiable by [[measurement]] in a [[quantum system]].
+Girard notably introduced [[linear logic]] and it has been argued that [[linear logic]] and more generally _[[linear type theory]]_ faithfully capture the essence of [[quantum mechanics]] ([Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06), see ([Baez-Stay 09](#BaezStay09)) for an introductory exposition) due to its [[categorical semantics]] in [[symmetric monoidal categories]] such as those used in the desctiption of [[finite quantum mechanics in terms of dagger-compact categories]]. In particular the [[category]] of (finite dimensional) [[Hilbert spaces]] that essentially underlies the Birkhoff-vonNeumann quantum logic interprets [[linear logic]].
 
-In particular it can be argued that flavors of _[[linear logic]]_ and more generally _[[linear type theory]]_ faithfully capture the essence of [[quantum mechanics]] ([Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06), see ([Baez-Stay 09](#BaezStay09)) for an introductory exposition) due to its [[categorical semantics]] in [[symmetric monoidal categories]] such as those used in the desctiption of [[finite quantum mechanics in terms of dagger-compact categories]]. In particular the [[category]] of (finite dimensional) [[Hilbert spaces]] that essentially underlies the Birkhoff-vonNeumann quantum logic interprets [[linear logic]].
+But, observe that the category of (finite dimensional) [[Hilbert spaces]] is a [[symmetric monoidal category]] and so its [[internal logic]] is a flavor of [[linear logic]]. The [[subobjects]] and hence the [[propositions]] in this case correspond to (closed) linear subspaces of these Hilbert spaces. Therefore it would seem that the proposal of linear logic as quantum logic actually subsumes Birkhoff-vonNeuman quantum logic. That seems to make much of the above-listed criticism appear in a different light.
 
-Another candidate for quantum logic has been argued to be the [[internal logic]] of [[Bohr toposes]] .
-
-In [[quantum computing]] the quantum analog of classical [[logic gates]] are called _quantum logic gates_.
+For instance there is a natural notion of [[dependent linear type theory]] and that does yield a [[predicate logic]] with [[quantifiers]]. 
 
 ## Approaches
 
