@@ -28,6 +28,8 @@ In the words of the [Stanford Encyclopedia of Philosophy](#SEP):
 
 ## Related entries
 
+* [[hidden variable theory]]
+
 * [[philosophy of physics]]
 
 * [[quantum measurement]]
