@@ -99,7 +99,8 @@ The [[categorical semantics]] of linear type theory in [[star-autonomous categor
  {#Seely89}
 
 (but see also the first non-syntactic, mathematical categorical model in the same volume)
-* [[ V. de Paiva]], _The Dialectica Categories, _Contemporary Mathematics_,  92, 1989 ([[dePaiva.pdf:file]], (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
+
+* V. de Paiva, _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
 
 and reviewed/further discussed in
 
