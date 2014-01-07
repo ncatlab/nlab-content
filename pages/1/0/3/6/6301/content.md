@@ -78,6 +78,10 @@ It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolutio
 
 * Anthony Duncan, _The Conceptual Framework of Quantum Field Theory -- Dynamics IV: Aspects of locality: clustering, microcausality, and analyticity_, Oxford Scholarship Online ([web](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199573264.001.0001/acprof-9780199573264-chapter-6))
 
+* [[John Bell]], _The theory of local beables_ (1975) ([pdf](http://cds.cern.ch/record/980036/files/197508125.pdf))
+ {#Bell75}
+
+
 * [pdf](http://ptp.oxfordjournals.org/content/52/1/335.full.pdf)
 
 
