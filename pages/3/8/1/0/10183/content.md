@@ -6,3 +6,5 @@ The first observation of the [[spin]] of [[fermions]].
 
 * Wikipedia, _[Stern-Gerlach experiment](http://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)_ .
 
+[[!redirects Stern-Gerlach device]]
+[[!redirects Stern-Gerlach devices]]
