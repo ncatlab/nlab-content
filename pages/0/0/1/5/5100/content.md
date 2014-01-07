@@ -33,6 +33,8 @@ Then an **$S$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[pseudonat
 
 * [[indexed adjoint functor theorem]]
 
+* [[indexed monoidal category]]
+
 ## References
 
 Section B1 of 
