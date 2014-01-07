@@ -313,6 +313,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
     * [[Kochen-Specker theorem]]
 
+  * [[no-cloning theorem]]
+ 
   * [[Born-Oppenheimer approximation]]
 
   * [[supersymmetric quantum mechanics]]
