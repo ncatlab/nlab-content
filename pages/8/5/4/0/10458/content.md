@@ -11,7 +11,9 @@ The [[quantum observables]] in such a commutative subalgebra may all be [[measur
 
 ## Related concepts
 
-* [[order-theoretric structure in quantum mechanics]]
+* [[beable]]
+
+* [[order-theoretic structure in quantum mechanics]]
 
   * [[Gleason's theorem]]
 
