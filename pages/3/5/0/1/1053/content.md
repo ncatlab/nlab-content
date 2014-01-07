@@ -26,6 +26,10 @@ Linear logic was introduced in [Girard (1987)](#Girard).
 Although linear logic is traditionally presented in terms of inference rules, it was apparently discovered by Girard while studying [[coherent
 spaces]].
 
+### Quantum logic
+
+Linear logic and [[linear type theory]] can be argued to be the proper incarnation of _[[quantum logic]]_ (see there for references). In this context the linearity of the logic, hence the absence of [[diagonal]] maps in its [[categorical semantics]] (in non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]]) reflects the _[[no-cloning theorem]]_ of [[quantum physics]].
+
 ### Resource availability
 
 Unlike traditional [[logics]], which deal with the _[[truth]]_ of
