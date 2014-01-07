@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 > Caveat: There is an unrelated notion of "effect of a computation"; that is rather in proximity to the entry [[monad (in computer science)]].
 
 #Contents#
@@ -103,6 +104,12 @@ Discussion of effect algebras in the context of [[categorical logic]] is in
 
 * [[Bart Jacobs]], _New Directions in Categorical Logic, for Classical, Probabilistic and Quantum Logic_, (2012) ([arXiv:1205.3940 ](http://arxiv.org/abs/1205.3940))
  {#Jacobs}
+
+Discussion in the context of [[quantum logic]] is in section 6 of 
+
+* Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
+Giuntini and Francesco Paoli, _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
+  {#CCGP09}
 
 A survey of the use of effect algebras in [[quantum mechanics]] is in 
 
