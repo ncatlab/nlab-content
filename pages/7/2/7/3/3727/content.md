@@ -5,6 +5,8 @@
 
 * [[Dwyer-Kan localization]]
 
+* [[Dwyer-Kan loop groupoid]]
 
 [[!redirects W. G. Dwyer]]
+
 category: people
