@@ -30,6 +30,8 @@ But more generally _linear type theory_ came to refer to the internal [[type the
 
 The [[dependent type theory]]-version of linear type theory should be _[[dependent linear type theory]]_.
 
+Linear (dependent) type theory can be argued to be the proper [[type theory]] for [[quantum logic]]. In this context the linearity of the type theory, hence the absence of [[diagonal maps]] in its [[categorical semantics]], corresponds to the [[no-cloning theorem]] in [[quantum physics]].
+
 ## Properties
 
 ### Categorical semantics
