@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Topos theory_ is the part of [[category theory]] that studies [[categories]] which are [[topos]]es. This includes in particular [[Grothendieck topos]]es, i.e. [[categories of sheaves]].
+_Topos theory_ is the part of [[category theory]] that studies [[categories]] which are [[topos]]es. This includes in particular [[Grothendieck toposes]], i.e. [[categories of sheaves]].
 
 There are always two ways to think of topos theory: as being
 
