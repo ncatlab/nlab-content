@@ -485,7 +485,7 @@ $$
   g \mapsto \eta_x^{-1} \circ u_*(g)
 $$
 
-where $\eta_x : u_* u^*(x) \to x$ is the $x$-component of the $(u^* \dashv u_*)$-[[unit of an adjunction|counit]] (which is an [[isomorphism]] because $u^*$ is a [[full and faithful functor]]).
+where $\eta_x : x \to u_* u^*(x)$ is the $x$-component of the $(u^* \dashv u_*)$-[[unit of an adjunction|counit]] (which is an [[isomorphism]] because $u^*$ is a [[full and faithful functor]]).
 
 
 =--
