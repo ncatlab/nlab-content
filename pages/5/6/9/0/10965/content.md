@@ -15,6 +15,10 @@ Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[cate
 
 (...)
 
+Despite the initial rejection of Hegelian ideas by analytic philosophy, there have recently been increasing signs of a willingness to re-engage with Hegel's writings, in particular on the part of John MacDowell and Robert Brandom (Redding, 2007). One feature of analytic philosophy which needs reconsidering according to Redding is the primacy of first-order predicate logic. 
+
+(...)
+
 ## References
 
 * [[Georg Hegel]], _[[Science of Logic]]_ (1812)
@@ -26,3 +30,5 @@ Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[cate
 * [[Higher toposes of laws of motion]]
 
 * [[schreiber:Type-semantics for quantization]]
+
+* Paul Redding, _Analytic Philosophy and the Return of Hegelian Thought_, Cambridge University Press, 2007 ([review](http://ndpr.nd.edu/news/23465-analytic-philosophy-and-the-return-of-hegelian-thought/) by Willem A. deVries)
