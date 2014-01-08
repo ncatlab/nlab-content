@@ -44,10 +44,16 @@ Actually, there are two slightly different formulations of W-types.
 
 ### W-types in categories
 
-This version of W-types is the most natural for mathematicians used to thinking in terms of [[set theory]] or [[category theory]].  Here we describe a W-type as the [[initial algebra|initial]] [[algebra for an endofunctor]].  The family $\{A_b\}_{b\in B}$ can be thought of as a [[morphism]] $f\colon A\to B$ in some [[category]] $C$ (the [[fiber]] over $b\in B$ being $A_b$), and the [[endofunctor]] in question is the composite
-$$ C \overset{A^*}{\to} C/A \overset{\Pi_f}{\to} C/B \overset{\Sigma_B}{\to} C. $$
-Here $A^*$ is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $C/B$ to $C$).  
-Such a composite is called a [[polynomial endofunctor]].  
+This version of W-types is the most natural for mathematicians used to thinking in terms of [[set theory]] or [[category theory]], the [[categorical semantics]] of W-types:  Here we describe a W-type as the [[initial algebra|initial]] [[algebra for an endofunctor]].  The family $\{A_b\}_{b\in B}$ can be thought of as a [[morphism]] $f\colon A\to B$ in some [[category]] $C$ (the [[fiber]] over $b\in B$ being $A_b$), and the [[endofunctor]] in question is the composite
+
+$$ 
+  C \overset{A^*}{\longrightarrow} C/A \overset{\Pi_f}{\longrightarrow} C/B \overset{\Sigma_B}{\longrightarrow} C
+  \,,
+$$
+
+where $A^*$ is [[context extension]], hence is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $C/B$ to $C$).  
+
+Such a composite is called a _[[polynomial endofunctor]]_.  
 
 This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.  (A non-elementary construction of them is given by the [[transfinite construction of free algebras]].)
 
@@ -132,5 +138,10 @@ Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
  {#AwodeyGambinoSojakova}
+
+More discusison of W-types in [[homotopy type theory]] is in 
+
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
+ {#vdBergMoerdijk13}
 
 [[!redirects W-types]]
