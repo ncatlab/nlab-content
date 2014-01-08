@@ -21,6 +21,9 @@ In [[logic]], a __deduction__ or __derivation__ is a part of a [[proof]], drawin
 
 * [[sequent]]
 
+## Properties
+
+* [[deduction theorem]]
 
 ## Related concepts
 
