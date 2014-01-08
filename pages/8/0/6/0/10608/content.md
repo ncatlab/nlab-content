@@ -31,7 +31,7 @@ on [[adjoint cylinders]] and [[cohesive toposes]].
 
 This is in part motivated from attempts to formalize thoughts appearing in [[Georg Hegel]]'s _[[Science of Logic]]_ on [[unity of opposites]].
 
-Conreteley it is about the [[unity of opposites]] that in a set all elements are "distinct, but indistinguishable". Lawvere argues that this and Cantor's original notion of _[[cardinality]]_ is captured by the [[adjoint modality]] given by [[flat modality]] $\dashv$ [[sharp modality]]. 
+Concretely it is about the [[unity of opposites]] that in a set all elements are "distinct, but indistinguishable". Lawvere argues that this and Cantor's original notion of _[[cardinality]]_ is captured by the [[adjoint modality]] given by [[flat modality]] $\dashv$ [[sharp modality]]. 
 
 This seems to match well with [[Hegel]]'s _[Pure quantity](Science+of+Logic#PureQuantity)_ both informally as well as formally (as discussed there).
 
