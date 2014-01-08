@@ -139,7 +139,7 @@ $$.h_1... h_{n-1} 100000... = .h_1... h_{n-1}011111...$$
 as real numbers. In this way, we produce a unique well-defined interval map $X \to [0, 1]$, so that $[0, 1]$ is the terminal coalgebra. 
 =-- 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remarks 
 (More material can be found at [[coalgebra of the real interval]].) 
 
