@@ -3,9 +3,8 @@
 
 
 **Abstract** While [[analytic philosophy]] famously rejected the
-mystical [[metaphysics]] of [[Hegel]] in favor of clear [[mathematical logic]], recent developments in the [[foundations of
-mathematics]]  via [[homotopy type theory]] offer a way to re-read [[Hegel]] as having useful formal meaning not in [[predicate logic]], but in '[[modal type theory]]'. The essence of this suggestion has been made by [[Lawvere]] in 1991, which however remains largely unnoticed. Here we aim to give a transparent account of this perspective both philosophically as well as [[category theory|category-theoretically]]. We then further expand on
-Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[categorical semantics]] given by [[cohesive (infinity,1)-topos|cohesive higher toposes]]. We discuss how there is a _useful_ formalization of a fair bit of modern fundamental [[physics]], in fact of [[quantum field theory]], to be found here..
+speculative [[metaphysics]] of [[Hegel]] in favor of the analysis of concepts by means of [[mathematical logic]], in particular [[predicate logic]], recent developments in the [[foundations of mathematics]]  via [[homotopy type theory]] offer a way to re-read [[Hegel]] as having useful formal meaning not in predicate logic, but in '[[modal type theory]]'. The essence of this suggestion has been made by [[Lawvere]] in 1991, which however remains largely unnoticed. Here we aim to give a transparent account of this perspective both philosophically as well as [[category theory|category-theoretically]]. We then further expand on
+Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[categorical semantics]] given by [[cohesive (infinity,1)-topos|cohesive higher toposes]]. We discuss how there is a _useful_ formalization of a fair bit of modern fundamental [[physics]], in fact of [[quantum field theory]], to be found here.
 
 
 #Contents#
