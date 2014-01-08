@@ -18,7 +18,7 @@
 
 ## Definition
 
-An __initial [[algebra for an endofunctor|algebra]]__ for an [[endofunctor]] $F$ on a [[category]] $C$ is an [[initial object]] in the category of [[algebra over an endofunctor|algebras]] of $F$.
+An __initial [[algebra for an endofunctor|algebra]]__ for an [[endofunctor]] $F$ on a [[category]] $C$ is an [[initial object]] in the category of [[algebra over an endofunctor|algebras]] of $F$. These play a role in particular as the [[categorical semantics]] for [[inductive types]].
 
 
 ## Properties
