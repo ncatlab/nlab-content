@@ -592,7 +592,7 @@ We say
 
 * an object $x \in A$ is **$\mathbb{A}$-monopresheaf** if $u^* x \to u^! x$ is a [[monomorphism]] in $\bar A$.
 
-* an object $x \in A$ is **$\mathbb{A}$-epipresheaf** if $u^* x \to u^! x$ is an [[epimorphism]] in $\bar A$.
+* an object $x \in A$ is **$\mathbb{A}$-epipresheaf** if $u^* x \to u^! x$ is an [[strict epimorphism]] in $\bar A$.
 
 =--
 
