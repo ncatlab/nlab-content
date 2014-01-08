@@ -20,7 +20,9 @@ One of the clearest expressions of the philosophical role envisaged for Fregean 
 
 In the same chapter Hegel was taken to task for his attempt to widen logic to a form of metaphysics. Much of it appears to Russell to result from muddled thinking, for instance, a failure to distinguish the 'is' of predication from the 'is' of identity.
 
-Despite the initial lengthy rejection of Hegelian ideas by analytic philosophy, there have recently been increasing signs of a willingness to re-engage with Hegel's writings, in particular on the part of John MacDowell and Robert Brandom (Redding, 2007). One feature of analytic philosophy which needs reconsidering according to Redding is the primacy of first-order predicate logic. 
+Despite the initial lengthy rejection of Hegelian ideas by analytic philosophy, there have recently been increasing signs of a willingness to re-engage with Hegel's writings, in particular on the part of John MacDowell and Robert Brandom (Redding, 2007). One feature of analytic philosophy which needs reconsidering according to Redding is the primacy of first-order predicate logic, not that he is promoting an alternative formalisation. 
+
+Taking our lead from Lawvere in seeing common elements between categorical logic and Hegel's logic, and pursuing this connection right up to modal forms of homotopy type theory is therefore certainly a bold project.
 
 (...)
 
