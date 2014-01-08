@@ -41,7 +41,7 @@ $$
   \\
   pt &&\stackrel{\sigma}{\Rightarrow}&& X
   \\
-  & \searrow &&& \swarrow_{g}
+  & \searrow && \swarrow_{g}
   \\
   && 2 Vect
  }
@@ -126,6 +126,13 @@ where $B$ is a [[higher group character|biconjugacy class]] of $G$.
 
 ## Related concepts
 
+* [[motivic quantization]]
+
 [[!include field theory with boundaries and defects - table]]
+
+## References
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_
+
 
 [[!redirects bi-branes]]
