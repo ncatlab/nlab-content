@@ -14,7 +14,7 @@
 
 ## Idea
 
-Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditional conceptual puzzlement also referred to as the _measurement problem_.
+Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditional conceptual puzzlement also referred to as the _measurement problem_, see at _[[interpretation of quantum mechanics]]_.
 
 
 ## Related concepts
@@ -24,6 +24,9 @@ Quantum measurement is [[measurement]] in [[quantum mechanics]]. Due to traditio
 * [[interpretation of quantum mechanics]]
 
 ## References
+
+* [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+ {#Wallace07}
 
 The article
 
