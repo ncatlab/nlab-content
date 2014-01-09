@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _deduction theorem_in [[formal logic]] says (when it holds) that if in some [[logical framework]] there is a [[proof]] by [[deduction]] of some [[proposition]] $B$ from assumptions $A$, then there is also a proof of the [[implication]] $A \to B$.
+The _deduction theorem_ in [[formal logic]] says (when it holds) that if in some [[logical framework]] there is a [[proof]] by [[deduction]] of some [[proposition]] $B$ from assumptions $A$, then there is also a proof of the [[implication]] $A \to B$.
 
 This seems obvious, but there are formal logical system where this fails, for instance in the original Birkhoff-vonNeumann [[quantum logic]].
 
