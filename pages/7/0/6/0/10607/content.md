@@ -26,7 +26,7 @@ The notion was suggested in ([Lawvere 91, p. 7](#Lawvere91), [Lawvere 94, p. 11]
 
 In ([Lawvere 94](#Lawvere94)) an _adjoint cylinder_ is defined to be an [[adjoint triple]] such that the induced [[adjoint pair]] on one of the two sides consists of [[identity]] functors.
 
-This means equivalently that the other [[adjoint pair]] consists of an [[idempotent monad|idempotent]] [[monad]] and [[comonad]], either of the form
+This means equivalently that the other [[adjoint pair]] consists of an [[idempotent monad|idempotent]] [[monad]] and [[comonad]] ([[adjoint monads]]), either of the form
 
 $$
   U \;\colon\; modality \dashv comodality
