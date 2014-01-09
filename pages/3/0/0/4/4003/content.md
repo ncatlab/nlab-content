@@ -20,7 +20,18 @@
 Let $C$ be a [[locally cartesian closed category]].  A **polynomial functor** is specified by the data
 $$ W \overset{f}{\leftarrow} X \overset{g}{\to} Y \overset{h}{\to} Z $$
 in $C$.  The resulting functor is the composite
-$$ C/W \overset{f^*}{\to} C/X \overset{\Pi_g}{\to} C/Y \overset{\Sigma_h}{\to} C/Z. $$
+
+$$ 
+  C/W 
+   \overset{f^*}{\to} 
+  C/X 
+   \overset{\Pi_g}{\to} 
+  C/Y 
+   \overset{\Sigma_h}{\to} 
+  C/Z
+  \,, 
+$$
+
 where $\Pi_g$ and $\Sigma_h$ are the [[dependent product]] and [[dependent sum]] operations, right and left adjoint respectively to [[pullback]] functors $g^*$ and $h^*$.
 
 When $W=Z$, this is a **polynomial endofunctor**.
@@ -31,6 +42,54 @@ The data $f$, $g$, and $h$ which specify a polynomial functor is sometimes refer
 
 If $g$ is an identity, the functor is sometimes called a **linear functor** or a **linear polynomial functor**.  Note that this notion makes sense even if $C$ is not locally cartesian closed; all it needs are [[pullbacks]].  More generally, we can make sense of polynomial functors in any category with pullbacks if we restrict $g$ to be an [[exponentiable morphism]].
 
+
+## Example
+
+### On sets
+ {#ExamplesOnSets}
+
+For $C$ = [[Set]] the polynomial functor induced from a 
+[[function]] $g$
+
+$$
+  \ast \stackrel{}{\leftarrow} X \stackrel{g}{\longrightarrow} Y
+  \stackrel{}{\longrightarrow} \ast
+$$ 
+
+is given by
+
+$$
+  S \mapsto P_f(S) = \coprod_{y \in Y} S^{X_y}
+  \,,
+$$
+
+where $X_y$ is the [[fiber]] of $g$ over $y \in Y$, and where the [[exponential object]] $S^{X_y}$ is the [[function set]] of [[functions]] from the fiber to $S$. The [[cardinality]] of the set on the right is
+
+$$
+  {\vert P_g(S)\vert}
+   = 
+  \sum_{y \in Y} {\vert S\vert}^{\vert X_y\vert}
+$$
+
+and it is in this sense that the concept of polynomial functor is a kind of [[categorification]] of that of [[polynomial]].
+
+On the other hand the dependent polynomial functor associated to
+
+$$
+  A \stackrel{p_1}{\leftarrow} X \stackrel{id}{\longrightarrow} X
+  \stackrel{p_2}{\longrightarrow} B
+$$ 
+
+acts by
+
+$$
+  (S_a)_{a \in A}
+  \mapsto
+  \left(\coprod_{b \in B} S_a \times X_{a b} \right)_{b \in B}
+  \,.
+$$
+
+Under [[cardinality]] this becomes [[matrix multiplication]] acting on [[vectors]] (with entries in the [[natural numbers]]). So in this case the dependent polynomial functor is a linear functor of several variables, an [[integral transform]].
 
 ## The 2-category of polynomial functors
 
