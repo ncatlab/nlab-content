@@ -112,9 +112,9 @@ In [[type theory]], W-types are introduced by giving explicit constructors and d
 The rules for $W$-types in extensional type theory are the following:
 
 (1) $W$-formation rule
-$$\frac{A:Type\; x:A\vdash B(x):Type}{(Wx:A)B(x):Type}$$
+$$\frac{A:Type\; x:A\vdash B(x):Type}{(W x:A)B(x):Type}$$
 
-In the following we will sometimes abbreviate $(Wx:A)B(x)$ by $W$.
+In the following we will sometimes abbreviate $(W x:A)B(x)$ by $W$.
 
 (2) $W$-introduction rule
 $$\frac{a:A\; t:B(a)\to W}{sup(a,t):W}$$
