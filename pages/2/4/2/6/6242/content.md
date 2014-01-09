@@ -208,6 +208,7 @@ The proposal that the [[internal logic]] of [[Bohr toposes]] is a good notion of
 
 * [[Steve Vickers]], slides from Midland Grad. School 2010, quantum topos theory, [web](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010), most relevant part IV: [pdf](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010/slides4.pdf)
 
+* [pdf](http://www.vub.ac.be/CLWF/SS/BethPaper_Final.pdf)
 
 See also
 
@@ -218,7 +219,6 @@ See also
 
 * A. Sudbery, _Quantum mechanics and the particles of nature_, An outline for mathematicians, Camb. Univ. Press 1986
 
-* Stanford Encyclopedia of Philosophy, [quantum mechanics](http://plato.stanford.edu/entries/qm) (abbrev. qm), [qm: Kochen-Specker theorem](http://plato.stanford.edu/entries/kochen-specker), [qm: von Neumann vs. Dirac](http://plato.stanford.edu/entries/qt-nvd), [qm: Bohmian mechanics](http://plato.stanford.edu/entries/qm-bohm), [qm:colapse theories](http://plato.stanford.edu/entries/qm-collapse), [Copenhagen interpretation of qm](http://plato.stanford.edu/entries/qm-copenhagen), [many-world interpretation of qm](http://plato.stanford.edu/entries/qm-manyworlds), [modal-interpretations of qm](http://plato.stanford.edu/entries/qm-modal), [Everett's relative-state formulation of qm](http://plato.stanford.edu/entries/qm-everett)
-
+* Stanford Encyclopedia of Philosophy, [qm: von Neumann vs. Dirac](http://plato.stanford.edu/entries/qt-nvd), 
 
 [[!redirects quantum logics]]
