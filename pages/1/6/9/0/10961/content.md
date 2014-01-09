@@ -32,11 +32,20 @@ The need for and proper nature of such an interpretation may be subtle and is th
 
 ## Examples
 
-(...)
+* SEP: [Copenhagen interpretation of qm](http://plato.stanford.edu/entries/qm-copenhagen)
+
+* SEP: [qm:collapse theories](http://plato.stanford.edu/entries/qm-collapse),
 
 * [[hidden variable theory]]
 
-(...)
+  * [[Bohmian mechanics]] 
+
+* SEP: [many-world interpretation of qm](http://plato.stanford.edu/entries/qm-manyworlds), 
+
+* SEP: [modal-interpretations of qm](http://plato.stanford.edu/entries/qm-modal)
+
+* SEP: [Everett's relative-state formulation of qm](http://plato.stanford.edu/entries/qm-everett)
+
 
 ## Related entries
 
