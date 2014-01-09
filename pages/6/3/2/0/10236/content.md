@@ -1,5 +1,10 @@
 
+## Idea
 
-In a [[mechanical system]], a _ground state_ is a [[state]] of minimal [[energy]].
+In a [[mechanical system]], a _ground state_ is a [[quantum state]] of minimal [[energy]].
+
+## Related concept
+
+* [[excited state]]
 
 [[!redirects ground states]]
