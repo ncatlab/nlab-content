@@ -1,0 +1,10 @@
+
+* [webpage](http://users.ox.ac.uk/~mert0130/)
+
+## Related pages
+
+* [[philosophy of physics]]
+
+* [[interpretation of quantum mechanics]]
+
+category: people
