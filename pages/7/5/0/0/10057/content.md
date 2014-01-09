@@ -70,6 +70,8 @@ This result can be generalized to algebras over any [[Hopf monad]] (in the sense
 
 ## Related concepts
 
+* [[bimonoid]], [[Frobenius monoid]]
+
 * [[Hopf algebra]]
 
 * [[Hopf monoidal category]]
