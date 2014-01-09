@@ -194,7 +194,11 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 * [[monoidal adjunction]]
 
+* [[adjoint monad]]
+
 * [[adjoint triple]], [[adjoint quadruple]]
+
+* [[ambidextrous adjunction]]
 
 * [[adjoint cylinder]]
 
