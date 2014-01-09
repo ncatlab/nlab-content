@@ -20,7 +20,7 @@ This page collects some links related to
 
   also: talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
 
-on un-twisted [[Wirthmüller isomorphisms]] for [[(∞,1)-module bundles|∞-module bundles]] in [[Morava K-theory]]-[[Bousfield localization of spectra|local]] [[stable homotopy theory]] ([[chromatic homotopy theory]]).
+on [[ambidextrous adjunctions]] and their un-twisted [[Wirthmüller isomorphisms]] for [[(∞,1)-module bundles|∞-module bundles]] in [[Morava K-theory]]-[[Bousfield localization of spectra|local]] [[stable homotopy theory]] ([[chromatic homotopy theory]]).
 
 The untwisted [[Wirthmüller isomorphism]] is the map $\mu$ in Construction 4.0.7 and then the "norm" map in Remark 4.1.12. The induced [[integration]] map considered in Construction 4.0.7, Notation 4.1.6 there is also discussed (for the general twisted case) in the note _[[schreiber:Type-semantics for quantization]]_ (see section 4.3 there for details).
 
