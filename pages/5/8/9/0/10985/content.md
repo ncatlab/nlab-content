@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[monoid]] with compatible [[comonoid]] structure.
+
+## Examples
+
+In a linear context: a [[Frobenius algebra]].
+
+In [[endofunctors]]: a [[Frobenius monad]].
+
+## Related concepts
+
+* [[bimonoid]]
+
+* [[Hopf monoid]]
+
+## Related concepts
+
+* [[ambidextrous adjunction]]
+
+* [[Frobenius reciprocity]]
+
+[[!redirects Frobenius monoids]]
+
