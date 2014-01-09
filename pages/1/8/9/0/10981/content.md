@@ -1,0 +1,4 @@
+
+a [[quantum state]] of [[energy]] above the [[ground state]]
+
+[[!redirects excited states]]
