@@ -612,6 +612,10 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[adjoint triple]], [[adjoint quadruple]], [[recollement]]
 
+  * [[ambidextrous adjunction]]
+
+  * [[adjoint monad]]
+
 * [[proadjoint]], [[Hopf adjunction]]
 
 * [[2-adjunction]]
