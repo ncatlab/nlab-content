@@ -120,6 +120,12 @@ $$
 G^k \beta G^s = G^k \beta G^s \circ (G^k \epsilon_l T^l G^s\circ G^k T^l \eta_l G^s) = \rho \circ G^k T^l \eta_l G^s
 $$
 
+## Examples
+
+### Adjoint modalities
+
+An [[adjoint modality]] is an example of a pair of adjoint monads.
+
 ## References
 
 There is a section 3, "adjoint triples" in
@@ -129,6 +135,9 @@ There is a section 3, "adjoint triples" in
 
 where triple is in the sense of [[monad]]. So we say instead a __monad adjoint to a comonad__. Distinguish from the [[adjoint triple]] of functors. 
 
+Discussion in the context of [[ambidextrous adjunctions]] is in 
+
+* [[Aaron Lauda]], _Frobenius algebras and ambidextrous adjunctions_ ([arXiv:math/0502550](http://arxiv.org/abs/math/0502550))
 
 
 [[!redirects adjoint monads]]
