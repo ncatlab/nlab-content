@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Frobenius monad_ is a _[[monad]]_ which as a [[monoid]] in [[endofunctors]] is a [[Frobenius monoid]].
+
+## Examples
+
+The monad induced from an [[ambidextrous adjunction]] is Frobenius.
+
+## Related concepts
+
+* [[Wirthmüller context]]
+
+* [[infinitesimal cohesion]]
+
+## References
+
+* [[Ross Street]], _Frobenius monads and pseudomonoids_, J. Math. Phys. 45.(2004) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+
+
+[[!redirects Frobenius monads]]
