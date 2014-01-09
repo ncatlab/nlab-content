@@ -498,6 +498,8 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 * [[Beck-Chevalley condition]]
 
+* [[ambidextrous adjunction]]
+
 ## References
 
 The construction goes back to and is named after
