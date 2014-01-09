@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$.
+ 
+## Properties
+
+### Frobenius algebra structure
+
+The [[monad]] induced by an ambidextrous adjunction is a [[Frobenius monoid]] object in [[endofunctors]]. (e.g. [Lauda 05, theorem 17](#Lauda05)), hence a [[Frobenius monad]].,
+
+## Examples
+
+A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomorphism]] is an ambidextrous adjunction.
+
+## Related concepts
+
+* [[Wirthmüller context]]
+
+* [[infinitesimal cohesion]]
+
+## References
+
+* [[Ross Street]], _Frobenius monads and pseudomonoids_, J. Math. Phys. 45.(2004) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+
+
+* [[Aaron Lauda]], _Frobenius algebras and ambidextrous adjunctions_ ([arXiv:math/0502550](http://arxiv.org/abs/math/0502550))
+ {#Lauda05}
+
+
+* [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
+[[!redirects ambidextrous adjunctions]]
