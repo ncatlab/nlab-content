@@ -96,6 +96,26 @@ But now observe that the morphism $B \to B \otimes_A B$ is the [[tensor product]
 
 =--
 
+### As a bar construction 
+
+For $\phi \colon B \longrightarrow A$ a [[homomorphism]]
+of suitable [[monoids]], there is the corresponding pull-push [[adjunction]] 
+([[extension of scalars]] $\dashv$ [[restriction of scalars]]) on [[categories of modules]]
+
+
+$$
+  ((- )\otimes_B A \dashv \phi^\ast )
+  \;\colon\;
+   Mod_A
+    \stackrel{\overset{(-)\otimes_B A}{\leftarrow}}{\underset{\phi^\ast}{\longrightarrow}}
+   Mod_B
+  \,.
+$$
+
+The [[bar construction]] of the corresponding [[monad]] -- the [[higher monadic descent|higher]] [[monadic descent]] objects -- is the corresponding Amitsur complex.
+
+(e.g. [Hess 10, section 6](#Hess10))
+
 
 ## References
 
@@ -122,6 +142,10 @@ Discussion from the point of view of [[Sweedler corings]] and a full proof of th
 
 *  [[Tomasz Brzezinski]], [[Robert Wisbauer]], section 29 of _Corings and Comodules_, Cambridge University Press, London Math. Soc. LN 309 (2003), ([errata pdf](http://www.math.uni-duesseldorf.de/~wisbauer/corinerr.pdf))
 
+Disucssion from the point of view of [[higher monadic descent]] is in 
+
+* [[Kathryn Hess]], section 6 of _A general framework for homotopic descent and codescent_ ([arXiv:1001.1556](http://arxiv.org/abs/1001.1556))
+ {#Hess10}
 
 [[!redirects Amitsur complexes]]
 
