@@ -5,7 +5,7 @@ Noncommutative Algebraic Topology &#8211;( noncommutative homotopy theory, conne
 
 * [personal website](http://www.cardiff.ac.uk/maths/subsites/uuyeo/index.html)
 
-* [institute webseite](http://www.cardiff.ac.uk/maths/contactsandpeople/profiles/uuyeo.html)
+* [Cardiff University maths. website](http://www.cardiff.ac.uk/maths/contactsandpeople/profiles/uuyeo.html)
 
 ## Related pages
 
