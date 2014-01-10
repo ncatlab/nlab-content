@@ -29,12 +29,12 @@ One can construct the free monad on a polynomial endofunctor.
 
 ## Reference
 
-A farily comprehensive discussion of the notion is due to
+A fairly comprehensive discussion of the notion is due to
 
 * [[Nicola Gambino]], [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009);  ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931))
  {#GambinoKock09}
 
-The [[homotopy theory]] of [[algebra over a monad|algebras]] over polynomoal monads in in 
+The [[homotopy theory]] of [[algebra over a monad|algebras]] over polynomial monads is in 
 
 * [[Michael Batanin]], [[Clemens Berger]], _Homotopy theory for algebras over polynomial monads_ ([arXiv:1305.0086](http://arxiv.org/abs/1305.0086))
  {#BataninBerger13}
