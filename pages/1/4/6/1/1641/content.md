@@ -104,7 +104,7 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 
 *  More generally, suppose that $D$ has [[products]] or [[coproducts]] (indexed by whichever [[cardinal number|cardinalities]] you may wish to consider).  Then $C$ also has (co)products, lying over the (co)products in $D$, with structures induced by the product projections or coproduct inclusions.
 
-*  More general [[limits]] and [[colimits]] are constructed in a similar way.  We say that $U$ _[[created limit|creates]]_ (co)limits in $C$.
+*  More general [[limits]] and [[colimits]] are constructed in a similar way.  However, it is _not_ typically the case that $U$ _[[created limit|creates]]_ (co)limits in $C$ because creation of a limit requires that every preimage of the limiting cone is limiting. This fails for $U: \mathrm{Top} \to \mathrm{Set}$ since we can coarsen the topology on the limit vertex to obtain a counterexample.
 
 *  If a single algebra $X$ has been given the structure of several spaces, then there are a _[[supremum]]_ structure and an _[[infimum]]_ structure on $X$ induced (as the initial and final structures) by the various incarnations of its [[identity morphism|identity]] homomorphism.  Exploiting this shows how to construct final structures out of initial ones and conversely.
 
