@@ -1,0 +1,5 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Asher_Peres)
+
+category: people
