@@ -7,7 +7,7 @@ One of the founding fathers of [[quantum mechanics]].
 
 * [[Bohr-Sommerfeld quantization]]
 
-* [[Bohrification]]
+* [[Bohr topos]], [[interpretation of quantum mechanics]]
 
 
 category: people
