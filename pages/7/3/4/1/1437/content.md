@@ -1,3 +1,4 @@
+[[!redirects terminal coalgebra of an endofunctor]]
 
 
 +-- {: .rightHandSide}
