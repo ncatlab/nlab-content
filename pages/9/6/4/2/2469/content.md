@@ -26,7 +26,7 @@ This plays a central role when these stacks serve as [[moduli stacks]] for certa
 
 
 ##Virtual Fundamental Classes of Derived Schemes
-Given a locally Noetherian [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, and $\pi_i\mathcal{O}_X = 0$ for $i>>0$, the virtual fundamental class is defined by first constructing a class in $G_0(t_0X)$ (the $K$-theory of coherent sheaves) and then using this to produce an element of the Chow homology of $t_0X$. In our hearts we all know that the fundamental class should be something tautological, just like how the fundamental class of a triangulated manifold in simplicial homology is _the manifold itself_. We can use this idea once we have the following theorem:
+Given a locally Noetherian [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, $\pi_i\mathcal{O}_X$ coherent, and $\pi_i\mathcal{O}_X = 0$ for $i\gg0$, the virtual fundamental class is defined by first constructing a class in $G_0(t_0X)$ (the $K$-theory of coherent sheaves) and then using this to produce an element of the Chow homology of $t_0X$. In our hearts we all know that the fundamental class should be something tautological, just like how the fundamental class of a triangulated manifold in simplicial homology is _the manifold itself_. We can use this idea once we have the following theorem:
 
  +-- {: .num_theorem #Devissage}
  ###### Theorem
