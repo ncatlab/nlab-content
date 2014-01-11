@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* tic
+* table of contents
 {:toc}
 
 
@@ -22,7 +22,46 @@ _Functorial quantum field theory_, one of the two approaches of axiomatizing [[q
 
 ## Idea
 
+### General
+ {#GeneralIdea}
+
 Much work in quantum field theory is based on arguments using the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
+
+Accordingly it is the _[[S-matrix]]_ that is manifestly incarnated in the Atiyah-Segal picture of functorial QFT:
+
+Here a [[quantum field theory]] is given by a [[functor]] 
+
+$$
+ Z \colon Bord_d^S \longrightarrow Vect
+$$
+
+from a suitable [[category of cobordisms]] to a suitable [[category]] of [[vector spaces]].
+
+* To a codimension-1 slice $M_{d-1}$ of space this assigns a vector space $Z(M_{d-1})$ -- the (Hilbert) [[space of quantum states]] over $M_{d-1}$;
+
+* to a [[spacetime]]/[[worldvolume]] manifold $M$ with [[boundaries]] $\partial M$ one assigns the quantum propagator which is the linear map $Z(M) : Z(\partial_{in} M) \to Z(\partial_{out} M)$ that takes incoming states to outgoing states via propagation along the spacetime/worldvolume $M$. This $Z(M)$ is alternatively known as the  the _[[scattering amplitude]]_ or _S-matrix_ for propagation from $\partial_{in}M$ to $\partial_{out}M$ along a process of shape $M$.
+
+Now for genuine [[topological field theories]] all spaces of quantum states are [[finite number|finite]] [[dimension|dimensional]] and hence we can equivalently consider the [[dual vector space]] (using that finite dimensional vector spaces form a [[compact closed category]]). Doing so the propagator map
+
+$$
+  Z(M) : Z(\partial_{in}M) \to Z(\partial_{out}M)
+$$
+
+equivalently becomes a linear map of the form
+
+$$
+  \mathbb{C} \to Z(\partial_{out}M) \otimes Z(\partial_{in}M)^\ast = Z(\partial M)
+  \,.
+$$
+
+Notice that such a linear map from the canonical 1-dimensional complex vector space $\mathbb{C}$ to some other vector space is equivalently just a choice of element in that vector space. It is in this sense that $Z(M)$ is equivalently a vector in $Z(\partial_{out}M) \otimes Z(\partial_{in}M)^\ast = Z(\partial M)$.
+
+In this form in physics the propagator is usually called the _[[correlator]]_ or _[[n-point function]]_ .  
+
+Segal's axioms for [[FQFT]] ([[CFT]] in his case) were originally explicitly about the propagators/S-matrices, while Atiyah formulated it in terms of the correlators this way. Both perspectives go over into each other under duality as above.
+
+Notice that this kind of discussion is not restricted to topological field theory. For instance already plain quantum mechanics is usefully formulated this way, that's the point of [[finite quantum mechanics in terms of dagger-compact categories]].
+
 
 ### Formalization of sewing and locality in terms of functoriality##
 
