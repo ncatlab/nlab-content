@@ -21,18 +21,37 @@
 
 A _coalgebra over an endofunctor_ is like a [[comonad|coalgebra over a comonad]], but without a notion of [[associativity]].
 
+The concept plays a role in [[computer science]] for models of state-based [[computation]] (see also [[monad (in computer science)]]).
+The concept of the [[terminal coalgebra of an endofunctor]] is a way of encoding [[coinductive types]].
 
 ## Definition
 
-For a [[category]] $C$ and [[endofunctor]] $F$, a **[[coalgebra]] of** $F$ is an [[object]] $X$ in $C$ and a map $\alpha: X \to F(X)$. (The object $X$ may be called the __carrier__ of the coalgebra)
++-- {: .num_defn}
+###### Definition
 
-Given two coalgebras $(x, \eta: x \to F x)$, $(y, \theta: y \to F y)$, a coalgebra map is a [[morphism]] $f: x \to y$ which respects the coalgebra structures: 
+For a [[category]] $C$ and [[endofunctor]] $F$, a **[[coalgebra]] of** $F$ is an [[object]] $X$ in $C$ together with a [[morphism]] $\alpha: X \to F(X)$. 
+
+Given two coalgebras $(x, \eta: x \to F x)$, $(y, \theta: y \to F y)$, a coalgebra [[homomorphism]] is a [[morphism]] $f: x \to y$ which respects the coalgebra structures: 
 
 $$\theta \circ f = F(f) \circ \eta$$
 
+=--
+
+(The object $X$ is sometimes called the __carrier__ of the coalgebra.)
+
++-- {: .num_remark}
+###### Remark
+
 The dual concept is an [[algebra for an endofunctor]]. Both [[algebras]] and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for C-C bimodules]].
 
-See also [[terminal coalgebra]].
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $F$ is equipped with the structure of a [[monad]], then a coalgebra for it is equivalently an [[endomorphism]] in the corresponding [[Kleisli category]]. In this case the canonical [[monoidal category]] structure on endomorphisms induces a [[tensor product]] on those coalgebras.
+
+=--
 
 
 ## Examples 
@@ -111,10 +130,14 @@ More information may be found at [[coalgebra of the real interval]].
 * [[Jiri Adamek]], _[Introduction to coalgebras](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html)_ ,
 _Theory and Applications of Categories_, Vol. 14 (2005), No. 8, 157-199.
 
-There are important connections beteen the theory of coalgebras and [[modal logic]], for which see
+There are connections between the theory of coalgebras and [[modal logic]]  for which see
 
-* [[Bart Jacobs]], _[Introduction to Coalgebra. Towards Mathematics of States and Observations.] (http://www.cs.ru.nl/B.Jacobs/CLG/JacobsCoalgebraIntro.pdf)
-Two-thirds of a book in preparation; 
+* [[Bart Jacobs]], _Introduction to Coalgebra. Towards Mathematics of States and Observations_ ([book pdf](http://www.cs.ru.nl/B.Jacobs/CLG/JacobsCoalgebraIntro.pdf), [slides](http://cs.ioc.ee/ewscs/2011/jacobs/jacobs-slides.pdf))
+
+and with [[quantum mechanics]], for which see this and
+
+* [[Samson Abramsky]], _Coalgebras, Chu Spaces, and Representations of Physical Systems_ ([arXiv:0910.3959](http://arxiv.org/abs/0910.3959))
+
 
 Here are two blog discussions of coalgebra theory:
 
