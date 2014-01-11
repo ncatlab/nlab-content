@@ -104,6 +104,13 @@ Another approach to modelling side effects in [[functional programming languages
 
 * [[algebraic side effects]]
 
+[[free monad|Free monads]] in computer science appear in the concepts of 
+
+* [[initial algebra for an endofunctor]]
+
+* [[terminal coalgebra for an endofunctor]]
+
+
 ## References
 
 The original reference for monads as 'notions of computation' is
