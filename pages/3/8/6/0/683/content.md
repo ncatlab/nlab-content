@@ -1037,7 +1037,7 @@ and Homotopical Categories]]_, Mathematical Surveys and Monographs __113__
 
 An introduction is 
 
-* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.brown.edu/~thobel/hocolim.pdf))
+* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://math.uoregon.edu/~ddugger/hocolim.pdf))
  {#Dugger}
 
 A general overview via universal properties is in the 
