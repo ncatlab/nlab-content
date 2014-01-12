@@ -29,6 +29,8 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 * [[programs as proofs]]
 
+* [[computational type theory]]
+
 * [[computational trinitarianism]]
 
 * [[computational consistency]]
