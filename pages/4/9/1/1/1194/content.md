@@ -559,6 +559,9 @@ Original articles include
 
 Surveys and introductions include
 
+* Rober Constable, _The Triumph of Types: Creating a Logic of
+Computational Reality_ ([pdf](http://www.cs.uoregon.edu/research/.../Triumph-of-Types-Extended.pdf))
+
 * Herman Geuvers, _Introduction to type theory_, Lecture notes 2008  ([pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf))
 
 * N. G. de Bruijn, _On the roles of types in mathematics_, Cahier du Centre de Logique (vol 8) ([pdf](http://alexandria.tue.nl/repository/freearticles/597627.pdf))
@@ -635,4 +638,3 @@ Further online resources include
 
 
 [[!redirects type theories]]
-
