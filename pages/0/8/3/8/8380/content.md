@@ -113,6 +113,8 @@ Another approach to modelling side effects in [[functional programming languages
 
 ## References
 
+### General
+
 The original reference for monads as 'notions of computation' is
 
 * [[Eugenio Moggi]], _Notions of computation and monads_ Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
@@ -126,9 +128,18 @@ The specification of monads in [[Haskell]] is at
 
 * [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
 
+Generalization from [[monads]] to [[relative monads]] is discussed in
+
+* [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf))
+
+### In quantum computation
+
 Discussion of aspects of [[quantum computing]] in terms of monads in [[functional programming]] are in 
 
 * [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
+
+* J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
+
 
 [[!redirects monad (in computer science)]]
 [[!redirects monads (in computer science)]]
@@ -138,4 +149,3 @@ Discussion of aspects of [[quantum computing]] in terms of monads in [[functiona
 
 [[!redirects monad in computer science]]
 [[!redirects monads in computer science]]
-
