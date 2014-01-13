@@ -1,7 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 An [[extensional type theory]] [[proof management system]].
+
+The language used is also referred to as _[[computational type theory]]_.
 
 ## References
 
