@@ -353,6 +353,10 @@ A lecture reviewing aspects involved in this equivalence is (see the discussion 
 
 * [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf))
 
+See also 
+
+* Roy Crole, _Deriving category theory from type theory_, Theory and Formal Methods 1993 Workshops in Computing 1993, pp 15-26
+
 The equivalence between [[linear logic]] and [[star-autonomous categories]] is due to
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
