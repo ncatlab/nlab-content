@@ -44,6 +44,10 @@ More in detail, the _Calculus of (co)Inductive Constructions_ is
 
 All of the other standard [[type formation|type formations]] are subsumed by the existence of arbitrary inductive types, notably the _[[empty type]]_, _[[dependent sum types]]_ and _[[identity types]]_ are special inductive types. Specifying these hence makes the calculus of constructions be an [[intensional type theory|intensional]] [[dependent type theory]].
 
+## Related concepts
+
+* [[computational type theory]]
+
 ## References
 
 Original articles include
