@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A standard [[compactification]] of a [[moduli stack of curves]]. See there for more.
+
+## References
+
+* [pdf](http://www.math.harvard.edu/~kochs/DMC.pdf)
+
+[[!redirects Deligne-Mumford compactifications]]
+
