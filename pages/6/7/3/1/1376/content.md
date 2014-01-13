@@ -70,6 +70,10 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 
 [[!redirects monoid in an (∞,1)-category]]
 [[!redirects monoid in an (infinity,1)-category]]
+[[!redirects monoids in an (∞,1)-category]]
+[[!redirects monoids in an (infinity,1)-category]]
+
+
 [[!redirects monoid object in an (∞,1)-category]]
 [[!redirects monoid object in an (infinity,1)-category]]
 [[!redirects monoid in a monoidal (infinity,1)-category]]
