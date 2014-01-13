@@ -142,9 +142,12 @@ Dependent (multivariate) polynomial functors are considered in
 * [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
 {#GK}
 
-Generalization to [[homotopy theory]] is in 
+Generalization to [[homotopy theory]] is discussed in 
 
 * [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
+
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
+ {#vdBergMoerdijk13}
 
 See also
 
