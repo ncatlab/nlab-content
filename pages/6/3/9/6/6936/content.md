@@ -99,7 +99,7 @@ See at _[[n-truncation modality]]_.
 
 ### Pushouts
 
-The ([homotopy) [[homotopy pushout|pushout]] of $f\colon A\to B$ and $g\colon A\to C$:
+The (homotopy) [[homotopy pushout|pushout]] of $f \colon A\to B$ and $g\colon A\to C$:
 
     Inductive hpushout {A B C : Type} (f : A -> B) (g : A -> C) : Type :=
     | inl : B -> hpushout f g
