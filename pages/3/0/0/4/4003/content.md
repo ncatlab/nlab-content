@@ -132,11 +132,21 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 ## References
 
-* [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
-{#GK}
+The relation of plain polynomial functors to [[trees]] is discussed in
 
 * [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874)=
  {#Kock}
+
+Dependent (multivariate) polynomial functors are considered in 
+
+* [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
+{#GK}
+
+Generalization to [[homotopy theory]] is in 
+
+* [[Joachim Kock]], _Data types with symmetries and polynomial functors over groupoids_,  28th Conference on the Mathematical Foundations of Programming Semantics (Bath, June 2012); in Electronic Notes in Theoretical Computer Science.  ([arXiv:1210.0828](http://arxiv.org/abs/1210.0828))
+
+See also
 
 * [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Advances in Mathematics, vol 224, pages 2690--2737, (2010) ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033))
 {#KJBM}
