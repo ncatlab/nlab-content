@@ -323,7 +323,7 @@ This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which shou
 
 =--
 
-For more on this see at _[locally cartesian closed (∞,1)-category]]_ in the section on internal logic.
+For more on this see at _[locally cartesian closed (∞,1)-category](locally+cartesian+closed+%28infinity%2C1%29-category#InternalLogic)_.
 
 
 
