@@ -17,7 +17,8 @@
 
 ## Definition
 
-For the moment see [[(∞,1)-monad]].
+The analog of _[[algebra over a monad]]_ in [[(∞,1)-category theory]].
+For the moment see at _[[(∞,1)-monad]]_.
 
 ## Related concepts
 
@@ -38,3 +39,5 @@ For the moment see [[(∞,1)-monad]].
    * [[model structure on algebras over an operad]]
 
 
+[[!redirects (∞,1)-category of algebras over an (∞,1)-monad]]
+[[!redirects (∞,1)-categories of algebras over an (∞,1)-monad]]
