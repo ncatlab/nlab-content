@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[proof assistant]].
+
+## References
+
+* Wikipedia, _[HOL (proof assistant)](http://en.wikipedia.org/wiki/HOL_(proof_assistant))_
+
+[[!redirects HOL light]]
