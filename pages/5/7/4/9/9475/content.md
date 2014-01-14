@@ -1,4 +1,4 @@
-__Isabelle__ is a proof assistant
+__Isabelle__ is a [[proof assistant]]
 
 * [wikipedia](http://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29)
 * Isabelle [homepage](http://isabelle.in.tum.de)
