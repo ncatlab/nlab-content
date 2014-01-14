@@ -243,7 +243,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[Poincaré duality C*-algebra]]
 
-* [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
+* [[Hilbert C*-module]], [[Hilbert C*-bimodule]], [[amplimorphism]]
 
 * [[C*-category]]
 
