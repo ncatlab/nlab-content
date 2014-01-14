@@ -70,6 +70,8 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
     * [[becoming]] $\colon$ [[nothing]] $\dashv$ [[being]]
    
+* [[Platonism]]
+
 * [[objective idealism]]
 
 * [[analytic philosophy]]
