@@ -114,6 +114,9 @@ Moreover, let $C$ be a [[topos]]. Then
 
 See at _[[topos of algebras over a monad]]_ for details.
 
+## Related concepts
+
+* [[(∞,1)-category of algebras over an (∞,1)-monad]]
 
 ## References
 
@@ -123,7 +126,7 @@ See at _[[topos of algebras over a monad]]_ for details.
 
 Local presentability of EM-categories is discussed on p. 123, 124 of
 
-* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
 The following paper of Melli&#232;s compares the Linton representability condition above with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
@@ -136,10 +139,10 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
  {#RiehlVerity13}
 
 
-[[!redirects Eilenberg–Moore category]]
+[[!redirects Eilenberg?Moore category]]
 [[!redirects Eilenberg--Moore category]]
 [[!redirects Eilenberg-Moore object]]
-[[!redirects Eilenberg–Moore object]]
+[[!redirects Eilenberg?Moore object]]
 [[!redirects Eilenberg--Moore object]]
 [[!redirects Alg(T)]]
 [[!redirects T-Alg]]
