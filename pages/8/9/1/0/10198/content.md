@@ -24,6 +24,8 @@ The [[philosophy]] of [[mathematics]].
 
 ## Related concepts
 
+* [[Platonism]]
+
 * [[philosophy of physics]]
 
 ## References
