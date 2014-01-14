@@ -87,37 +87,44 @@ Recall that a *splitting of an idempotent* $(T,\mu)$ consists of a pair of 1-cel
 
 Now if $(I,R,a,b)$ is a splitting of an idempotemt monad, then $R\dashv I$ are adjoint. And in this case the splitting of an idempotent is equivalently an Eilenberg-Moore object for the monad $(C,T,\eta,\mu)$. In this case $D$ is called an *adjoint retract of $C$*.
 
-(Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249)
 =--
+
+([[Sketches of an Elephant|Johnstone, B 1.1.9, p.248-249]])
+
 
 +-- {: .num_remark}
 ###### Remark
 
 Equivalences (resp. cores) in an allegory are precisely those symmetric idempotents which are idempotent monads (resp. comonads). In an allegory the following statements are equivalent: all symmetric idempotents split, idempotent monads split, idempotent comonads split. A similar statement holds at least for some 2-categories.
 
-(Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249)
 =--
 
-Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249
+([[Sketches of an Elephant|Johnstone, B 1.1.9, p.248-249]])
 
-## Algebras of an idempotent monad 
+## Properties
+
+### Algebras for an idempotent monad and Localization
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $(M, \eta, \mu)$ be an idempotent monad on a category $E$. The following conditions on an object $e$ of $E$ are equivalent: 
+Let $(T, \eta, \mu)$ be an idempotent monad on a category $E$. The following conditions on an object $e$ of $E$ are equivalent: 
 
-1. The object $e$ carries an $M$-algebra structure. 
+1. The object $e$ carries an $T$-[[algebra for a monad|algebra structure]]. 
 
-2. The unit $\eta e\colon e \to M e$ is a split monomorphism. 
+2. The [[unit of a monad|unit]] $\eta e\colon e \to T e$ is a [[split monomorphism]]. 
 
-3. The unit $\eta e$ is an isomorphism. 
+3. The [[unit of a monad|unit]] $\eta e$ is an [[isomorphism]]. 
 
-(It follows from 3. that there is at most one algebra structure on $e$, given by $\xi = (\eta e)^{-1}\colon M e \to e$.) 
+(It follows from 3. that there is at most one algebra structure on $e$, given by $\xi = (\eta e)^{-1}\colon T e \to e$.) 
+
 =-- 
+
+
 
 +-- {: .proof} 
 ###### Proof 
+
 The implication 1. $\Rightarrow$ 2. is immediate. Next, if $\xi\colon M e \to e$ is any retraction of $\eta e$, we have both $\xi \circ \eta e = 1_e$ and 
 $$\array{
 \eta e \circ \xi & = & (M \xi)(\eta M e) & & \text{naturality of}\, \eta \\
@@ -130,20 +137,34 @@ so 2. implies 3. Finally, if $\eta e$ is an isomorphism, put $\xi = (\eta e)^{-1
 $$\xi \circ \mu e = \xi \circ M \xi,$$
 
 follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \circ \eta e$. Thus 3. implies 1. 
+
 =-- 
 
 
-## The associated idempotent monad of a monad
++-- {: .num_remark}
+###### Remark
+
+This means that the [[Eilenberg-Moore category]] of an [[idempotent monad]] is equivalently the [[reflective subcategory]] whose embedding-reflection [[adjunction]] gives the idempotent monad.
+
+=--
+
+See also ([Borceux, volume 2, corollary 4.2.4](#Borceux)).
+
+
+### The associated idempotent monad of a monad
 
 +-- {: .num_theorem}
 ###### Theorem (Fakir) 
-Let $C$ be a complete, well-powered category, and let $M\colon C \to C$ be a monad with unit $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a right adjoint to 
+
+Let $C$ be a complete, [[well-powered category]], and let $M\colon C \to C$ be a [[monad]] with [[unit of a monad|unit]] $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a [[right adjoint]] to the inclusion
 
 $$IdempotentMonad(C) \hookrightarrow Monad(C)$$ 
+
 =-- 
 
 +-- {: .proof} 
 ###### Proof
+
 Given a monad $M$, define a functor $M'$ as the equalizer of $M u$ and $u M$:  
 
 $$M' \hookrightarrow M \stackrel{\overset{u M}{\to}}{\underset{M u}{\to}} M M.$$ 
@@ -164,10 +185,16 @@ $$Monad(C) \to Endo(C)$$
 
 reflects limits (irrespective of size), so $E = E(M)$ acquires a monad structure defined by the limit. Let $\eta\colon 1 \to E$ be the unit and $\mu\colon E E \to E$ the multiplication of $E$. For each $\alpha$, there is a monad map $\pi_\alpha\colon E \to M_\alpha$ defined by the limit projection. 
 
+=--
+
 +-- {: .num_lemma}
 ###### Lemma
 $E$ is idempotent. 
 =--
+
++-- {: .proof} 
+###### Proof
+
 
 For this it suffices to check that $\eta E = E \eta\colon E \to E E$. This may be checked objectwise. So fix an object $c$, and for that particular $c$, choose $\alpha$ so large that $\pi_\alpha (c)\colon E(c) \to M_\alpha(c)$ and $\pi_\alpha E(c)\colon E E(c) \to M_{\alpha} E(c)$ are isomorphisms. In particular, $\pi_\alpha \pi_\alpha(c)\colon E E (c) \to M_\alpha M_\alpha(c)$ is invertible. 
 
@@ -189,32 +216,41 @@ so that $\phi_{\alpha}$ factors uniquely through the inclusion $M_{\alpha + 1} \
 =-- 
 
 
-### Examples 
++-- {: .num_example}
+###### Example
 
-Let $A$ be a commutative ring, and let $f\colon A \to B$ be a flat (commutative) $A$-algebra. Then the forgetful functor 
+Let $A$ be a commutative ring, and let $f\colon A \to B$ be a flat (commutative) $A$-algebra. Then the [[forgetful functor]]
 
 $$f^\ast = Ab^f\colon Ab^B \to Ab^A$$ 
 
-from $B$-modules to $A$-modules has a left exact left adjoint $f_! = B \otimes_A -$. The induced monad $f^\ast f_!$ on the category of $B$-modules preserves equalizers, and so its associated idempotent monad $T$ may be formed by taking the equalizer 
+from $B$-modules to $A$-modules has a [[left exact functor|left exact]] [[left adjoint]] $f_! = B \otimes_A -$. The induced monad $f^\ast f_!$ on the category of $B$-modules preserves [[equalizers]], and so its associated idempotent monad $T$ may be formed by taking the equalizer 
 
-$$T(M) \to B \otimes_A M \stackrel{\overset{f^\ast f_! \eta M}{\to}}{\underset{\eta f^\ast f_! M}{\to}} B \otimes_A B \otimes_A M$$ 
+$$T(M) \to B \otimes_A M \stackrel{\overset{f^\ast f_! \eta M}{\longrightarrow}}{\underset{\eta f^\ast f_! M}{\longrightarrow}} B \otimes_A B \otimes_A M$$ 
+
+=--
+
++-- {: .query}
 
 (To be continued. This example is based on how Joyal and Tierney introduce effective descent for commutative ring homomorphisms, in An Extension of the Galois Theory of Grothendieck. I would like to consult that before going further -- Todd.) 
 
-+-- {: .query}
 [[Mike Shulman]]: How about some examples of monads and their associated idempotent monads?
 
 Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
+
 =--
  
 ## Related concepts
 
-* [[closure operator]]
+* [[reflective subcategory]]
 
+* [[closure operator]], [[modality]]
+
+* [[lax-idempotent 2-monad]]
 
 ## References
 
-* [[Francis Borceux]], _Handbook of categorical algebra_, vol.2, p. 196.
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
+ {#Borceux}
 
 * [[Pierre Gabriel]] and [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
