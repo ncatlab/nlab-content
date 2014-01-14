@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -172,6 +172,7 @@ For more see [[(∞,1)-presheaf]].
 
 It turns out that every $(\infty,1)$-functor $C \to \infty Grpd$ can be **rectified** to an _ordinary ([[sSet]]-[[enriched functor|enriched]]) functor_ with values in [[Kan complex]]es.
 
+
 +-- {: .un_theorem}
 ###### Theorem
 
@@ -212,6 +213,8 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 
   * [[monoidal (∞,1)-functor]]
 
+  * [[adjoint (∞,1)-functor]], [[(∞,1)-monad]]
+
 * [[(∞,n)-functor]]
 
 
@@ -227,5 +230,4 @@ discusses morphisms of [[quasi-category|quasi-categories]].
 [[!redirects (infinity,1)-functors]]
 [[!redirects (∞,1)-functor]]
 [[!redirects (∞,1)-functors]]
-
 
