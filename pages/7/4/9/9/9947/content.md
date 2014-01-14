@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -7,12 +17,14 @@
 
 A _proof assistant_ or _proof management system_ is a kind of [[programming language]] designed to help with [[proofs]] in formalized [[mathematics]].
 
-There are two threads of current development in proof systems: foundational and coverage. The foundational work tries to find the best meta-theory to formalize mathematics. Out of that work first came dependent types ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
+There are two threads of current development in proof systems: foundational and coverage. The foundational work tries to find the best meta-theory to formalize mathematics. Out of that work first came [[dependent type theory|dependent types]] ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
 
-The much larger work has happened for decades building [[Mizar]]'s enormous library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than type theory). Its library is a couple of orders of magnitude larger than anyone else's. Also worth a close look is [[NuPRL]], HOL light and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
+The much larger work has happened for decades building [[Mizar]]'s enormous library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than type theory). Its library is a couple of orders of magnitude larger than anyone else's. Also worth a close look is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
 
 
 ## Examples
+
+* [[NuPRL]], [[Isabelle]], [[HOL]]
 
 * [[Coq]], [[Agda]]
 
