@@ -1,16 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Monadic adjunctions
-* tic
+* table of contents
 {: toc}
 
 
 ## Idea
 
-One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started.  Every monad comes from an adjunction, but only a _monadic adjunction_ comes from a monad.  (To be fair, there are two ways to turn a monad into an adjunction, given by the [[Kleisli category]] and the [[Eilenberg–Moore category]]; we are talking about the latter here.)
+One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started.  Every monad comes from an adjunction, but only a _monadic adjunction_ comes from a monad via a [[monadic functor]].  (To be fair, there are two ways to turn a monad into an adjunction, given by the [[Kleisli category]] and the [[Eilenberg–Moore category]]; we are talking about the latter here.)
 
 
 ## Definition
 
-We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.  They may find [Riehl+Verity, Oct 2013](http://arxiv.org/abs/1310.8279) helpful.
+We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.  See for instance ([Riehl-Verity 13](#RiehlVerity13)).
 
 Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \to D$ and $r: D \to C$ are [[adjoint functors]] with $\ell \dashv r$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $r \circ \ell$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $r \circ \epsilon: T \circ r \to r$ endows $r: D \to C$ with a $T$-algebra structure, hence defines a [[functor]] $k: D \to C^T$.
 
@@ -65,4 +81,16 @@ If anyone can give a nice conceptual explanation of the terms "semantics" and "s
 
 [[Mike Shulman]]: In case anyone is following this, Daniel has come up with what seems to be the right answer to this question; I'm hoping that eventually he will write about it here.
 
+## References
+
+Discussion for [[quasi-categories]] is around definition 6.1.15 and definition 7.1.6 in
+
+* [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
+ {#RiehlVerity13}
+
+
 [[!redirects semantics-structure adjunction]]
+[[!redirects structure-semantics adjunction]]
+
+
+[[!redirects monadic adjunctions]]
