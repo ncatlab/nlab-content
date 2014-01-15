@@ -21,7 +21,7 @@ A fundamental statement in [[stable homotopy theory]]/[[higher algebra]]/[[chrom
 For any [[E-∞ ring]] $E$ the [[homotopy kernel]] of the canonical [[morphism]]
 
 $$
-  \pi_\bullet R \longrightarrow MO_\bullet(R)
+  \pi_\bullet R \longrightarrow MU_\bullet(R)
 $$
 
 to the [[complex cobordism cohomology theory|complex cobordism]] [[generalized homology theory]] of $R$ consists of  [[nilpotent elements]].
