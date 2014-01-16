@@ -1,0 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+## Related entries
+
+* [[objective idealism]]
+
+* [[subjective idealism]]
+
