@@ -1,0 +1,10 @@
+[[!redirects Frege]]
+
+
+## References
+
+* wikipedia, _[Gottlob Frege](http://en.wikipedia.org/wiki/Gottlob_Frege)_
+
+* Metaphysics Research Lab, _[Friedrich Ludiwg Gottlog Frege](http://mally.stanford.edu/frege.html)_
+
+category: people
