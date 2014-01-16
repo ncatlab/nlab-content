@@ -46,7 +46,7 @@ It took a mathematician [[William Lawvere]] to find something formalizable of va
 
 While the [[Vienna Circle]], admirers of Russell, had adopted the [[positivism|positivist]] attitude towards [[metaphysics]], dismissing it as meaningless ([Carnap 32](#Carnap32)), later in the twentieth century there was a resurgence of analytic metaphysics. One important source of this resurgence was the rise of [[modal logic]] as a tool for philosophy, especially due to [[Saul Kripke]] in _Naming and Necessity_. 
  
-It is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in ([Albert 12](#Albert12)). (...) Attempts to re-install a metaphysics are these days undertaken by particle physicists and cosmologists themselves ([Tegmark 07](#Tegmark07)), whose success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
+It is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in ([Albert 12](#Albert12)). (...) Attempts to re-install a metaphysics are these days undertaken by [[particle physics|particle physicists]] and [[cosmology|cosmologists]] themselves ([Tegmark 07](#Tegmark07)), whose success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
 
 (...)
 
@@ -137,7 +137,7 @@ $$
 
 * [[Bertrand Russell]], 'Logic As The Essence Of Philosophy', chap. 2 of _Our Knowledge of the External World_, (1914)
 
-* Hans Reichenbach, 'The Rise of Scientific Philosophy', 1951.
+* [[Hans Reichenbach]], 'The Rise of Scientific Philosophy', 1951.
 
 * [[David Albert]], _On the Origin of Everything_, book review of 
 "A Universe From Nothing", by Lawrence M. Krauss, in the New York Times from March 25, 2012, on page BR20 of the _Sunday Book Review_ ([web](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?))
