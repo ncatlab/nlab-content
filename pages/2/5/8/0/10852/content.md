@@ -15,7 +15,7 @@
 
 This page collects some links related to the book
 
-* [[William Lawvere]], [[Stephen Shanuel]] (eds.),
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.),
 
   _Categories in Continuum Physics_
 
