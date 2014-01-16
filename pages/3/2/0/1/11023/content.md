@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+## Related entries
+
+* [[idealism]]
+
+  * [[objective idealism]]
+
+## References
+
+* Wikipedia, _[Subjective idealism](http://en.wikipedia.org/wiki/Subjective_idealism)_
