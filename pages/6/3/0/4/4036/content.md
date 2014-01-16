@@ -75,7 +75,7 @@ Every paracompact manifold admits a [[Riemannian metric]], and for any point in 
 +-- {: .num_remark }
 ###### Remark
 
-It is apparently a folk theorem that every geodesically convex neighbourhood in a Riemannian manfifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
+It is apparently a folk theorem that every geodesically convex neighbourhood in a Riemannian manifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
 
 =--
 
