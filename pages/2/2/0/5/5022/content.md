@@ -18,7 +18,7 @@ We will start with the simplest case, namely a frame for the basic [modal langua
 A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ a non-empty set and $R$ a binary relation on $W$.
 =--
 
-(This is also called a basic _Kripke frame_.)
+(This is also called a basic _Kripke frame_, after the philosopher and logician [[Saul Kripke]].)
 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.  The relation $R$ is called the _accessibility relation_ so $ R w v$ says '$v$ is accessible from $w$'.
 
