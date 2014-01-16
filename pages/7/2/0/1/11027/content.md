@@ -1,0 +1,6 @@
+
+## References
+
+* Wikipedia, _[Computable function](http://en.wikipedia.org/wiki/Computable_function)_
+
+[[!redirects computable functions]]
