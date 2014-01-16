@@ -2,6 +2,24 @@
 > under construction
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 **Abstract** While [[analytic philosophy]] famously rejected the
 speculative [[metaphysics]] of [[Hegel]] in favor of the analysis of concepts by means of [[mathematical logic]], in particular [[predicate logic]], recent developments in the [[foundations of mathematics]]  via [[homotopy type theory]] offer a way to re-read [[Hegel]] as having useful formal meaning not in [[predicate logic]], but in '[[modal type theory]]'. The essence of this suggestion has been made by [[Lawvere]] [[Some Thoughts on the Future of Category Theory|in 1991]], which however remains largely unnoticed. Here we aim to give a transparent account of this perspective both [[philosophy|philosophically]] as well as [[category theory|category-theoretically]]. We then further expand on Lawvere's formalization of Hegel's "[[Science of Logic]]" in terms of the [[categorical semantics]] given by [[cohesive (infinity,1)-topos|cohesive higher toposes]]. We discuss how there is a _useful_ formalization of a fair bit of modern fundamental [[physics]], in fact of [[local quantum field theory|local]] [[gauge field theory|gauge]] [[quantum field theory]], to be found here.
 
@@ -28,7 +46,7 @@ It took a mathematician [[William Lawvere]] to find something formalizable of va
 
 (...)
 
-While the followers of Russell, the Vienna Circle, had adopted the positivist principle of dispensing with metaphysics, dismissing it as meaningless ([Carnap analytic philosophy removed metaphysics $[$rephrase more precisely$]$ from the body of acceptable philosophy for its lack of intellectually acceptable tools, it is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in [Albert 12](#Albert). (...) Attempts to re-install a metaphysics are these days undertaken by particle physicists and cosmologists themselves ([Tegmark 07](#Tegmark07)), who's success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
+While the followers of Russell, the [[Vienna Circle]], had adopted the [[positivism|positivist]] principle of dispensing with [8metaphysics]], dismissing it as meaningless ([Carnap 32](#Carnap32)), it is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in ([Albert 12](#Albert12)). (...) Attempts to re-install a metaphysics are these days undertaken by particle physicists and cosmologists themselves ([Tegmark 07](#Tegmark07)), who's success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
 
 (...)
 
@@ -44,7 +62,7 @@ Accordingly, the original starting point of analytic philosophy needs to be re-e
 
 ... type theory proper is a formal system for symbol manipulation ... useful for computer encoding, and much more readable than full formalization in, say, ZFC, but still not really what a discussion such as our here would directly work with...
 
-... insead, the [[syntax]] of type theory has [[semantics]] in [[categories]] -- [[categorical semantics]] ... [[relation between category theory and type theory]] -- and this semantic level is what we will be concerned with here
+... instead, the [[syntax]] of type theory has [[semantics]] in [[categories]] -- [[categorical semantics]] ... [[relation between category theory and type theory]] -- and this semantic level is what we will be concerned with here
 
 ... originates with Lawvere's thesis, see also "[[Adjointness in Foundations]]"
 
@@ -121,7 +139,8 @@ $$
 
 * Hans Reichenbach, 'The Rise of Scientific Philosophy', 1951.
 
-* Albert ([web](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?))
+* [[David Albert]], _On the Origin of Everything_, book review of 
+"A Universe From Nothing", by Lawrence M. Krauss, in the New York Times from March 25, 2012, on page BR20 of the _Sunday Book Review_ ([web](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?))
  {#Albert12}
 
 * [[Max Tegmark]], _The mathematical Universe_ ([arXiv:0704.0646](http://arxiv.org/abs/0704.0646))
