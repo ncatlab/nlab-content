@@ -124,7 +124,11 @@ See also at _[[higher category theory and physics]]_ for more on this.
 
 ## Talks, Lecture notes and Publications
 
-(Many of Lawvere's writing don't exist as published articles, but circulate in some form or other. )
+The following is a list of texts by Lawvere, equipped with brief comments and hyperlinks to further material on the $n$Lab. See also the 
+
+* [list of publications on Lawvere's website](http://www.acsu.buffalo.edu/~wlawvere/list.html)
+
+(Various of Lawvere's writing don't exist as published articles, but circulate in some form or other. )
 
 * _Functorial Semantics of algebraic theories_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
