@@ -174,7 +174,7 @@ We discuss the [[categorical semantics]] of linear logic. See also at _[[relatio
 
 ### $*$-autonomous categories
 
-One way to explain linear logic to a category theorist is to say that its models are [[*-autonomous categories]] with extra structure (see [Seely, 1989, prop. 1.5](#Seely)).
+One way to explain linear logic to a category theorist is to say that its models are [[*-autonomous categories]] with extra structure ([Seely, 1989, prop. 1.5](#Seely)). (If the underlying category is a [[suplattice]] then these are commutative [[quantales]], ([Yetter 90](#Yetter90)))
 
 Firstly, there is a monoidal '[[tensor product|tensor]]' connective
 $A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
@@ -318,6 +318,11 @@ The [[categorical semantics]] of linear logic in [[star-autonomous categories]] 
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
  {#Seely}
+
+and for the special case of [[quantales]] in 
+
+* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
+ {#Yetter90}
 
 and reviewed/further discussed in
 
