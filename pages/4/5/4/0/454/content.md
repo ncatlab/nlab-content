@@ -66,6 +66,10 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 * [[complemented lattice]]
 
+* [[semilattice]]
+
+* [[suplattice]]
+
 * [[Hilbert lattice]]
 
 * [[frame]]
