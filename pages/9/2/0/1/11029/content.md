@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.scottaaronson.com)
+
+## Related entries
+
+* [[quantum computation]]
+
+category: people
