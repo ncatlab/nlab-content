@@ -1,10 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
+
 ## Definition
 
-A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices. This means it is a poset having all [[join]]s and an associative, unital tensor product $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).  The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$. 
+A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices. This means it is a poset having all [[joins]] and an associative, unital [[tensor product]] $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).  The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$. 
 
 As a monoid in suplattices, a quantale is essentially the same thing as a 1-object [[quantaloid]], i.e., a 1-object category enriched in suplattices. 
 
@@ -23,7 +40,7 @@ If all three of commutativity, idempotence, and affineness are assumed, they for
 
 The following construction gives a simple means for passing from commutative affine quantales to frames: 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma 
 Let $(Q, \cdot, 1)$ be a commutative affine quantale, and let $Idem(Q)$ be the subposet of elements $x \cdot x = x$. Then $Idem(Q)$ is a frame, where the meet operation is given by multiplication in $Q$. The functor $Idem$ is right adjoint to the forgetful functor from commutative affine quantales to frames. 
 =-- 
@@ -94,6 +111,11 @@ $$d(y, x) = d(x, y)^*$$
 
 This notion can also be expressed in terms of lax morphisms of $*$-quantales; see below. 
 
+## Relation to linear logic
+ {#RelationToLinearLogic}
+
+A commutative quantale is in particular a [[symmetric monoidal category]] (a symmetric monoidal [[(0,1)-category]]). As such it may be thought of as a model for [[linear logic]] in the general sense. Precisely if it has a [[dualizing object]] then it is a [[star-autonomous category]] and hence a model for [[linear logic]] in the original sense. (see e.g. [Yetter 90, page 43](#Yetter90)). Indeed, quantales have been argued to provide models for [[quantum logic]], see there for more.
+
 ## Morphisms of quantales ##
 
 There is a variety of notions of morphism of quantale, just as there is a variety of notions of morphism between closed monoidal categories. All the notions considered here are morphisms between the underlying sup-lattices, in other words preserve arbitrary joins, hence are left adjoints as functors between the underlying categories. 
@@ -107,6 +129,14 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 * An even stronger notion is where the morphisms also strongly preserve the closed structure, i.e., the internal homs or residuations. (An example is to be developed for [[building]]s.) 
 
 * There are corresponding notions of morphisms of $*$-quantales, where in each case morphisms strongly respect the $*$ operations. For instance, the notion of $*$-enriched category over a $*$-monoidal poset $M$ can be equivalently recast as a lax morphism between $*$-quantales, $2^d: 2^M \to 2^{X \times X}.$
+
+## References
+
+Discussion of how quantales serve as a model for [[linear logic]] and [[quantum logic]] is in 
+
+* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
+ {#Yetter90}
+
 
 
 [[!redirects quantale]]
