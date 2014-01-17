@@ -1,3 +1,15 @@
+Rick Blute is a mathematician at the University of Ottawa.  His areas of interest include the relations of category theory with quantum computing and mathematical physics.
+
+ His primary research areas are:
+
+  *  Linear logic, most recently differential linear logic
+* Categorical Logic and proof theory
+* Category theory, especially monoidal categories
+*  Applications of category theory to physics
+
+
+
+see also his
 
 * [webpage](http://aix1.uottawa.ca/~rblute/)
 
