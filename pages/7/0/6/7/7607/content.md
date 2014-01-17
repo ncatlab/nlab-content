@@ -8,6 +8,7 @@
 ## Related entries
 
 * [[linear logic]]
+* [[Geometry of Interaction]]
 
 category: people
 
