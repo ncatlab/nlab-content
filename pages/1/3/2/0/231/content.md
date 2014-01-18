@@ -579,6 +579,8 @@ higher versions
 
 * [[indexed monoidal category]]
 
+* [[traced monoidal category]]
+
 * [[Drinfeld center]]
 
 * [[Picard group]], [[Picard 2-group]]
