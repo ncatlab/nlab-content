@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
@@ -18,10 +22,13 @@
 * table of contents 
 {: toc}
 
+## Idea
+
+For $a$ a [[dualizable object]] in a [[symmetric monoidal category]] $C$ (or more generally an object in a [[traced monoidal category]]), there is a natural notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a [[linear map]] of [[finite number|finite]] [[dimension|dimensional]] [[vector spaces]] in [[linear algebra]] for the case that $C = Vect$.
+
 
 ## Definition
 
-If $a$ is a [[dualizable object]] in a [[symmetric monoidal category]] $C$, there is a notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a linear map of finite dimensional vector spaces for the case that $C = Vect$.
 
 The idea of the trace operation is easily seen in [[string diagram]] notation: essentially one takes the endomorphism 
 $a \stackrel{f}{\to} a$, "bends it around" using the duality and the symmetry and connects its output to its input.
@@ -127,6 +134,8 @@ $$
 where we inserted the normalization factor $\frac{1}{2}$.
 
 ## Related concepts
+
+* [[traced monoidal category]]
 
 * [[Euler characteristic]]
 
