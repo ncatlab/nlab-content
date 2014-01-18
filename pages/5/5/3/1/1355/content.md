@@ -13,8 +13,7 @@ $$
   \,,
 $$
 
-where $X \times Y$ is the [[cartesian product]] of [[simplicial set]]s (hence the standard monoidal structure on [[SSet]]), while $q(t X, t Y)$, the set of thin cells, is ...
-
+where $X \times Y$ is the [[cartesian product]] of [[simplicial set]]s (hence the standard monoidal structure on [[SSet]]), while $q(t X, t Y)$, the set of thin cells, is $tX\times tY$ for the Gray product, and for the lax-Gray product it is enlarged as described in the paper.
 
 
 
