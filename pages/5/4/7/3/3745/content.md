@@ -1,9 +1,15 @@
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 _Under construction._
