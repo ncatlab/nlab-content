@@ -27,7 +27,7 @@
 
 What has been called _Geometry of Interaction_ ([Girard 89](#Girard89)) is a kind of [[semantics]] for [[linear logic]]/[[linear type theory]] that is however different in method from the usual [[categorical semantics]] in [[monoidal categories]]. Instead of interpreting a [[proof]] of linear implication $A\multimap B$ as a [[morphism]] between [[objects]] $A$ and $B$ in a [[monoidal category]] as in [[categorical semantics]], the _Geometry of Interaction_ interprets it as an [[endomorphism]] on the object $A\multimap B$. This has been named _operational semantics_ to contrast with thr traditional _denotational semantics_.
 
-That also the "operational semantics" of GoI has an interpretation in [[category theory]], though, namely in [[traced monoidal categories]] was first suggested in ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) and then developed out in ([Haghverdi 00](#Haghverdi00), [Abramsky-Haghverdi-Scott 02](#AbramskyHaghverdiScott02),[Haghverdi-Scott 05](#HaghverdiScott05)). See ([Shirahata](#Shirahata)) for a good review.
+That also the "operational semantics" of GoI has an interpretation in [[category theory]], though, namely in [[compact closed categories]] induced from [[traced monoidal categories]] was first suggested in ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) and then developed in ([Haghverdi 00](#Haghverdi00), [Abramsky-Haghverdi-Scott 02](#AbramskyHaghverdiScott02),[Haghverdi-Scott 05](#HaghverdiScott05)). See ([Shirahata](#Shirahata)) for a good review.
 
 ## References
 
