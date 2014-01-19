@@ -1,5 +1,9 @@
 
+> under construction
+
 > This entry is about the notion in [[physics]]. For a different (but at least roughly analogous) notion in [[mathematics]]/[[logic]] see at _[[universe]]_.
+
+
 
 ***
 
@@ -44,6 +48,8 @@
 
 ## References
 
+* Wikipediam _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
+
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
 * American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
@@ -51,4 +57,3 @@ A visualization of the big observable structures in the universe, drawn to scale
 A simulation of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
-
