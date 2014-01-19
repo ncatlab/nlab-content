@@ -22,7 +22,7 @@
 
 _Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible. In terms of [[computational trinitarianism]] quantum computation is the computation corresponding to (some kind of) [[quantum logic]].
 
-Specifically, _topological quantum computation_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
+Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
 
 There are arguments that a good formal context for quantum computing is (via [[computational trinitarianism]]) [[linear logic]]/[[linear type theory]] (e.g. [Lago-Faffian 12](#LagoFaffian12)). See also at _[[quantum logic]]_.
 
@@ -87,12 +87,13 @@ Discussion of aspects of quantum computing in terms of [[monad (in computer scie
 
 ### Topological quantum computing
 
-Quantum computation in terms of [[topological quantum field theory]] is discussed in
+[[topological quantum computation]] is discussed in
 
 * [[Michael Freedman]], [[Alexei Kitaev]], Michael J. Larsen, Zhenghan Wang, _Topological Quantum Computation_ ([arXiv:quant-ph/0101025](http://arxiv.org/abs/quant-ph/0101025))
 
 * Zhenghan Wang, _Topologization of electron liquids with Chern-Simons theory and quantum computation_ ([arXiv:cond-mat/0601285](http://arxiv.org/abs/cond-mat/0601285))
 
+* [[Michael Freedman]], Michael Larsen, [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_ ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
 
 category: computer science, physics
 
