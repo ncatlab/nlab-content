@@ -50,6 +50,8 @@ The original references are
 
 Reviews include
 
+* [[Jean-Yves Girard]], Part VI of _[[Lectures on Logic]]_
+
 * Masaru Shirahata, _Geometry of Interaction explained_, ([pdf](http://www.kurims.kyoto-u.ac.jp/~hassei/algi-13/kokyuroku/19_shirahata.pdf))
  {#Shirahata}
 
