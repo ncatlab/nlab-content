@@ -5,4 +5,8 @@
 
 * [[diffeological space]]
 
+
+[[!redirects Patrick Iglesias-Zemmour]]
+[[!redirects piz]]
+
 category: people
