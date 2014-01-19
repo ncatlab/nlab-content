@@ -40,6 +40,19 @@ Consider the two ternary factorizations of $f$ obtained by
 1. First factoring $f$ into an $L_2$-map followed by an $R_2$-map, then factoring the $L_2$-part into an $L_1$-map followed by an $R_1$-map.
 
 Note that both start with an $L_1$ map and end with an $R_2$ map.  By a straightforward exercise in orthogonality, we can get comparison maps in both directions between these two factorizations which make them isomorphic.  Therefore, since the first produces a middle map which is in $L_2$ and the second produces a middle map which is in $R_1$, this middle map must in fact be in $L_2\cap R_1$.  Finally, any other such ternary factorization of $f$ induces an $(L_1,R_1)$ and $(L_2,R_2)$ factorization by composing pairwise, and uniqueness of these two implies uniqueness of the ternary factorization.
+
+More explicitly, if we factor $f$ as 
+
+![1][1]
+
+with $\lambda_i, l_i\in L_i, \rho_j,r_j\in R_j$, then we obtain from the lifting problems
+
+![2][2]
+
+arrows $s,t,a_1,a_2$: now it's easy to see that $s,t\in L_2\cap R_1$, and that $a_i\in L_i\cap R_i= Iso$. 
+
+[1]: http://s28.postimg.org/68d73rvcd/Code_Cogs_Eqn.png
+[2]: http://s10.postimg.org/nxnyvzm4p/Code_Cogs_Eqn_1.png
 =--
 
 Conversely, just as for a binary factorization system, the extra requirement of orthogonality can be deduced from uniqueness of the factorizations, a unique and *functorial* ternary factorization implies that it "splits" into a pair of binary factorization systems, i.e. a ternary factorization system as defined here.  This is remarked on [here](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html#c034162).
@@ -92,7 +105,7 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
 * The notion of [[k-ary factorization system]] is a generalization to factorizations into $k$ morphisms.
 
-* Just as [[strict factorization system]]s can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], so "strict" ternary (and k-ary) factorization systems can be identified with [[iterated distributive law]]s in $Span$.
+* Just as [[strict factorization system]]s can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], so "strict" ternary (and k-ary) factorization systems can be identified with [iterated distributive law](http://arxiv.org/abs/0710.1120)s in $Span$.
 
 
 ## References
