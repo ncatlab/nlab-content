@@ -200,6 +200,10 @@ naturally in $e$.
 
 There is a [[faithful functor]] from monoidal categories to [[multicategories]], given by forming [[representable multicategory|representable multicategories]].
 
+### Internal logic
+
+The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal catgeories are called [[proof nets]].
+
 ## Where the Definition Comes From
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
@@ -625,7 +629,7 @@ Quick surveys of relevant definitions include also
 
 * [[John Baez]], _[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)_
 
-For an elementary introduction to monoidal categories using string diagrams, see:
+For an elementary introduction to monoidal categories using [[string diagrams]], see:
 
 * [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_.
 
