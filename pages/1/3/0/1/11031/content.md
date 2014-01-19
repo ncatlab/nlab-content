@@ -35,12 +35,10 @@ That also the "operational semantics" of GoI has an interpretation in [[category
  {#RelationToQuantumOperations}
 
 
-> under construction
-
 We discuss a relation of the GoI to [[quantum operations]]/[[completely positive maps]] in [[quantum physics]].
 
 
-According to ([Abramsky-Haghverdi-Scott 02, remark 5.8](#AbramskyHaghverdiScott02), [Haghverdi 00b, section 6](#Haghverdi00b)) all the standard and intended interpretations of the GoI take place in those [[compact closec categories]] $Int(\mathcal{C})$ free on a [[traced monoidal category]] $\mathcal{C}$ (as discussed there). In these references therefore the notation $Int(-)$ from ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is changed to $\mathcal{G}(-)$, for "Geometry of Interaction construction" (see [Abramsky-Haghverdi-Scott 02, p. 11](#AbramskyHaghverdiScott02)).
+According to ([Abramsky-Haghverdi-Scott 02, remark 5.8](#AbramskyHaghverdiScott02), [Haghverdi 00b, section 6](#Haghverdi00b)) all the standard and intended interpretations of the GoI take place in those [[compact closed categories]] $Int(\mathcal{C})$ free on a [[traced monoidal category]] $\mathcal{C}$ (as discussed there). In these references therefore the notation $Int(-)$ from ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is changed to $\mathcal{G}(-)$, for "Geometry of Interaction construction" (see [Abramsky-Haghverdi-Scott 02, p. 11](#AbramskyHaghverdiScott02)).
 
 The objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism in $\mathcal{C}$ of the form 
 
