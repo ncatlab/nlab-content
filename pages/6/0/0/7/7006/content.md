@@ -31,7 +31,9 @@ What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theo
 
 * [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed dependent type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
 
-Also chapters 7 and 8 fo
+* [[Michael Warren]], _Directed Type Theory_ ([video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren))
+
+Also chapters 7 and 8 of
 
 * [[Dan Licata]], _Dependently Typed Programming
 with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
