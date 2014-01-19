@@ -161,7 +161,7 @@ and
 
 Their [[principal ∞-bundle]]s and [[geometric realization of simplicial topological spaces|geometric realization]] is discussed in
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsStevenson">web</a>)
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460).
 {#RobertsStevenson}
 
 
