@@ -186,7 +186,7 @@ Extensions of the coherence-theoretic applications of proof nets in Blute's thes
 * [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories, Rutgers 1994
  {#Trimble94}
 
-* [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web (http://www.sciencedirect.com/science/article/pii/002240499500159X)) 
+* [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X)) 
  {#BluteCockettSeelyTrimble96}
 
 Type theory for full linear logic, together with its categorical interpretation, was developed in 
