@@ -162,6 +162,10 @@ Texts on supersymmetric QFT include
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
 
+See also
+
+* [[Tom Banks]], _Modern quantum field theory, A concise introduction_ ([pdf](http://web.phys.ntnu.no/~mika/banks.pdf))
+
 
 [[!redirects QFT]]
 [[!redirects quantum field theories]]
