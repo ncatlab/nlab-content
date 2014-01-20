@@ -11,9 +11,9 @@
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
  [[proof]]                      |   [[generalized element]]                  | [[program]]
- [[cut rule]]                   |   [[composition]]                      |   [[substitution]]
- [[cut elimination]]            |   [[counit]]           |   [[beta reduction]]
- ?                              |   [[unit]]             |   [[eta conversion]]
+ [[cut rule]]                   |   [[composition]]                         |   [[substitution]]
+ [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
+introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
  [[conjunction]]                |   [[product]]                   |  [[product type]]
  [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[internal hom]]                        |  [[function type]]
