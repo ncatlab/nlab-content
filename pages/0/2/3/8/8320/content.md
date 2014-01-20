@@ -7,6 +7,8 @@
 
 In [[logic]], the _contraction rule_ states that any valid [[deduction]] that uses a [[premise]] more than once remains valid using that premise only once.  Along with the [[weakening rule]] and the [[exchange rule]], it is one of the most commonly adopted [[structural rules]].
 
+The contraction rule is not used in all [[logical frameworks]]. For instance in [[linear logic]] it is discarded.
+
 
 ## Statements
 
