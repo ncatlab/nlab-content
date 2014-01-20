@@ -5,12 +5,12 @@ There are two parts of the fundamental theorem of [[differential calculus]]. The
 
 ## First part
 
-+-- 
++-- {: .num_theorem} 
 ###### Theorem 
 A uniformly continuous function $f:[0,1] \to {\mathbb{R}}$ has an antiderivative, namely $x\mapsto \int_{0}^x f(t) \, {\mathrm{d}}t$. 
 =-- 
 
-+-- 
++-- {: .proof} 
 ###### Proof 
 We are to show that $F' = f$ where $F$ is the function given by $F(x)= \int_{0}^x f(t) \, {\mathrm{d}}t$. Suppose $x$ and $y$ are in $[0,1]$. Then $F(y)-F(x) = \int_{x}^y f(t) \, {\mathrm{d}}t$. Hence $ (F(y)-F(x)) - f(x)(y-x) = \int_{x}^y \left( f(t) - f(x)\right) \, {\mathrm{d}}t  $. Thus the inequality
 $$ 
