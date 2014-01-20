@@ -1,10 +1,35 @@
 
 ## Idea
 
-The fundamental theorem of [[differential calculus]].
+There are two parts of the fundamental theorem of [[differential calculus]]. The constructive content of the first part is that a uniformly continuous real-valued function on a closed bounded interval has an antiderivative. The second part is a special case of Stokes' theorem for a closed bounded interval.
+
+## First part
+
++-- 
+###### Theorem 
+A uniformly continuous function $f:[0,1] \to {\mathbb{R}}$ has an antiderivative, namely $x\mapsto \int_{0}^x f(t) \, {\mathrm{d}}t$. 
+=-- 
+
++-- 
+###### Proof 
+We are to show that $F' = f$ where $F$ is the function given by $F(x)= \int_{0}^x f(t) \, {\mathrm{d}}t$. Suppose $x$ and $y$ are in $[0,1]$. Then $F(y)-F(x) = \int_{x}^y f(t) \, {\mathrm{d}}t$. Hence $ (F(y)-F(x)) - f(x)(y-x) = \int_{x}^y \left( f(t) - f(x)\right) \, {\mathrm{d}}t  $. Thus the inequality
+$$ 
+| (F(y)-F(x)) - f(x)(y-x) | \le \int_{x}^y \left| f(t) - f(x)\right| \, {\mathrm{d}}t
+$$
+
+For $\epsilon$ a positive number, the uniformly continuity of $f$ gives a positive number $\delta$ such that $| y - x| \le \delta$ implies $|f(y) - f(x)|\le \epsilon$. For such $x$ and $y$, the above inequality implies that $ | (F(y)-F(x)) - f(x)(y-x) | \le \epsilon | y - x |$. Thus $F'(x) = f(x)$.
+=-- 
+
+## Second part
+
+We deduce the second part from the first part and the law of bounded change.
+
+
 
 ## References
 
 * Wikipedia, _[Fundamental theorem of calculus](http://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus)_
+
+* Mark Bridger and Gabriel Stolzenberg. The American Mathematical Monthly. Vol. 106, No. 7 (Aug. - Sep., 1999), pp. 628-635.
 
 [[!redirects fundamental theorem of differential calculus]]
