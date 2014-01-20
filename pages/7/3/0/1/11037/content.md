@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _cut rule_ in [[sequent calculus]] ([[formal logic]]) is the rule that from [[sequents]] of the form
+
+$$
+  \Gamma \vdash A , \Delta
+$$
+
+and
+
+$$
+  \Pi, A \vdash \Lambda
+$$
+
+the new sequent
+
+$$
+  \Gamma, \Pi \vdash \Delta, \Lambda
+$$
+
+may be [[deduction|deduced]]. 
+
+In the [[categorical semantics]] where each [[sequent]] here is interpreted as a [[morphism]] in a [[category]], the cut rule asserts the existence of [[composition]] of morphisms.
+
+The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s Hauptsatz") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").
+
+## References
+
+* Wikipedia, _[Cut-elimination theorem](http://en.wikipedia.org/wiki/Cut-elimination_theorem)_
+
+
+[[!redirects cut-elimination]]
+[[!redirects cut elimination]]
+
+[[!redirects cut-elimination theorem]]
+[[!redirects cut elimination theorem]]
