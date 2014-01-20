@@ -43,6 +43,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
+* [[superoperator]]
+
 ## References
 
 ### General
