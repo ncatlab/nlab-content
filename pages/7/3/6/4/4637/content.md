@@ -370,16 +370,10 @@ See [[Isbell envelope]].
 
 
 
-## Examples
+## Examples and similar dualities
 
-### Gelfand duality
- {#GelfandDuality}
+Isbell duality is a template for many other [[space]]/[[algebra]]-[[dualities]] in [[mathematics]]. 
 
-[[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
-
-### Serre-Swan theorem
-
-The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[C-star algebra]] are equivalently modules of [[sections]] of [[vector bundles]] over the [Gelfand-dual](#GelfandDuality) topological space.
 
 ### Function $T$-Algebras on presheaves {#FunctionAlgebrasOnPresheaves}
 
@@ -550,6 +544,16 @@ for the moment see at _[[function algebras on ∞-stacks]]_.
 ### Function 2-algebras on algebraic stacks
 
 see [[Tannaka duality for geometric stacks]]
+
+### Gelfand duality
+ {#GelfandDuality}
+
+[[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
+
+### Serre-Swan theorem
+
+The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[C-star algebra]] are equivalently modules of [[sections]] of [[vector bundles]] over the [Gelfand-dual](#GelfandDuality) topological space.
+
 
 ## Related concepts
 
