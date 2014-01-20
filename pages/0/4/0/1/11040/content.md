@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the [[subset]] or [[subtype]] $\{ x \in X | P(x)\}$ of those [[elements]] of $X$ that satisfy $P$.
+In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the [[subset]] or [[subtype]] $\{ x \in X | P(x)\}$ of those [[elements]] of $X$ that satisfy $P$, often called the _extension_ of $P(x)$.
 
 
 ## Definition
@@ -34,13 +34,13 @@ In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some
 This section describes [[Lawvere]]'s formulation ([Lawvere70, p. 12-13](#Lawvere70)) of comprehension in [[hyperdoctrines]].  Compare the [[axiom of separation]] in Zermelo--Frankel [[set theory]].
 
 
-Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $\top_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_! \top_Y$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_ if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.  One might call the object $\{P\}$ associated to a predicate $P$ the _extension_ of $P$.
+Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $\top_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_!{\top_Y}$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
 
-This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$, such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Notice that the latter are in bijection with morphisms $\top_Y \to t^* P$ in $E_Y$, and that these are the same as morphisms $\top_Y \to P$ in the total category $E$ that lie over $t$.
+This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$ such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Lawvere calls the morphism $\{P\} \to X$ the _extension_ of $P$, so that one could say that $E$ satisfies the comprehension schema if the extensions of all predicates exist.
 
 ### Jacobs' reformulation
 
-This leads to an alternative formulation of the definition, given in [Jacobs 99](#Jacobs99). If the fibres $E_X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $\top_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
+Notice that, in the above situation, morphisms $\im t \to P$ in $E_X$ are in bijection with morphisms $\top_Y \to t^* P$ in $E_Y$, and that these are the same as morphisms $\top_Y \to P$ in the total category $E$ that lie over $t$.  This leads to an alternative formulation of the definition, given in [Jacobs 99](#Jacobs99). If the fibres $E_X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $\top_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
 
 The implication from [Lawvere's definition](#LawvereDefinition) to Jacobs's is clear.  Conversely, if a fibration $p \colon E \to B$ satisfies the Jacobs definition, then there is a bijection between morphisms $\top_Y \to P$ in $E$ and morphisms $Y \to \{P\}$ in $B$.  One must then show that the composite of this last with the canonical $\{P\} \to X$ (given by $p$ applied to the counit $\top_{\{P\}} \to P$) is equal to $p$ applied to the morphism $Y \to \{P\}$, thus giving a morphism in $B/X$ of the right sort.  But in fact the morphism $Y \to \{P\}$ is unique with the property that applying $\top$ and composing with the counit gives the morphism $\top_Y \to P$, by the counit's universal property, and applying $p$ to this commuting triangle in $E$ produces the required one in $B$.
 
