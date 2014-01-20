@@ -38,7 +38,7 @@ The [[theory|language]] of SOA consists of two sorts, here denoted $N$ and $P N$
 
 * A binary relation symbol $\in$ of type $N \times P N$. 
 
-The axioms of SOA may be divided into two parts: the first part comprises the "first-order axioms" that deal only with the sort $N$, and defines which is known as _Robinson arithmetic_. The second part comprises induction and comprehension schemes that involve the symbol $\in$. 
+The axioms of SOA may be divided into two parts: the first part comprises the "first-order axioms" that deal only with the sort $N$, and defines which is known as _Robinson arithmetic_. The second part comprises [[induction]] and [[comprehension schemes]] that involve the symbol $\in$. 
 
 
 ### "First-order" axioms 
@@ -74,11 +74,11 @@ For all the formulas in this section, it is tacitly understood that there are un
 
 Note: according to convention, lower-case letters refer to terms of type $N$, and upper-case letters to terms of type $P N$. 
 
-1. Comprehension scheme: for any formula $\varphi$ in the language of SOA with free variables $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
+1. [[comprehension scheme|Comprehension scheme]]: for any [[formula]] $\varphi$ in the language of SOA with [[free variables]] $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
 $$\forall \vec{m} \forall \vec{X} \exists Z \forall n (n\in Z \leftrightarrow \varphi(n))$$ 
 provided that the variable $Z$ does not appear in $\varphi$. 
 
-2. Full induction scheme: for $\varphi$ any formula with a free variable $n$ and possible remaining free variables $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
+2. Full [[induction]] scheme: for $\varphi$ any formula with a free variable $n$ and possible remaining free variables $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
 $$\forall \vec{m} \forall \vec{X} ((\varphi(0) \wedge \forall n (\varphi(n) \rightarrow \varphi(s(n))) \rightarrow \forall n \varphi(n))
 
 The instance in the full induction scheme where $\varphi$ is the formula $n \in X$ is called simply the _induction axiom_. The induction axiom together with the comprehension scheme implies the full induction scheme. 
