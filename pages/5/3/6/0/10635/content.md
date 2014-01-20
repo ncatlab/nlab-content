@@ -1,30 +1,54 @@
-
 ## Idea
 
-There are two parts of the fundamental theorem of [[differential calculus]]. The constructive content of the first part is that a uniformly continuous real-valued function on a closed bounded interval has an antiderivative. The second part is a special case of Stokes' theorem for a closed bounded interval.
+There are two parts of the fundamental theorem of [[differential calculus]]. The constructive content of the first part is that a [[uniformly continuous]] real-valued function on a closed bounded interval has an [[antiderivative]]. The second part is the [[Stokes theorem]] in the case of a closed bounded interval.
 
-## First part
+## Theorem statements
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #ExistAntiderivative} 
 ###### Theorem 
-A uniformly continuous function $f:[0,1] \to {\mathbb{R}}$ has an antiderivative, namely $x\mapsto \int_{0}^x f(t) \, {\mathrm{d}}t$. 
+A uniformly continuous function $f:[0,1] \to {\mathbb{R}}$ has a uniformly differentiable [[antiderivative]], namely $x\mapsto \int_{0}^x f(t) \, {\mathrm{d}}t$. 
+=--
+
++-- {: .num_theorem #StokesForInterval} 
+###### Theorem
+A uniformly differentiable function $f:[0,1] \to {\mathbb{R}}$ satisfies $f(1) - f(0) = \int_0^1 \! f'(t) \, {\mathrm{d}}t$.  
+=-- 
+
+## Proofs
+
+The following exposition is adapted from Bridger-Stolzenberg. 
+
++-- {: .proof} 
+###### Proof 
+**(Proof of theorem \ref{ExistAntiderivative})**. We are to show that $F' = f$ where $F$ is the function given by $F(x)= \int_{0}^x \! f(t) \, {\mathrm{d}}t$. Suppose $x$ and $y$ are in $[0,1]$. Then $F(y)-F(x) = \int_{x}^y f(t) \, {\mathrm{d}}t$. Hence $ (F(y)-F(x)) - f(x)(y-x) = \int_{x}^y \left( f(t) - f(x)\right) \, {\mathrm{d}}t  $. Thus the inequality
+$$ 
+| (F(y)-F(x)) - f(x)(y-x) | \le \int_{x}^y \! \left| f(t) - f(x)\right| \, {\mathrm{d}}t
+$$
+
+For $\epsilon$ a positive number, the uniformly continuity of $f$ gives a positive number $\delta$ such that $| y - x| \le \delta$ implies $|f(y) - f(x)|\le \epsilon$. For such $x$ and $y$, the above inequality implies that $ | (F(y)-F(x)) - f(x)(y-x) | \le \epsilon | y - x |$. Thus $F'(x) = f(x)$ and $F$ is uniformly differentiable.
+=-- 
+
+The following lemma is known as the increasing function theorem. Here "increasing" is used in the weak sense, namely that $x \le y$ implies $f(x) \le f(y)$.
+
++-- {: .num_lemma} 
+###### Lemma 
+A uniformly differentiable function $f:[0,1] \to {\mathbb{R}}$ whose derivative is nonnegative-valued is increasing.
+=-- 
+
++-- {: .num_lemma} 
+###### Lemma 
+A function whose derivative is equal to zero is constant on each interval. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-We are to show that $F' = f$ where $F$ is the function given by $F(x)= \int_{0}^x f(t) \, {\mathrm{d}}t$. Suppose $x$ and $y$ are in $[0,1]$. Then $F(y)-F(x) = \int_{x}^y f(t) \, {\mathrm{d}}t$. Hence $ (F(y)-F(x)) - f(x)(y-x) = \int_{x}^y \left( f(t) - f(x)\right) \, {\mathrm{d}}t  $. Thus the inequality
-$$ 
-| (F(y)-F(x)) - f(x)(y-x) | \le \int_{x}^y \left| f(t) - f(x)\right| \, {\mathrm{d}}t
-$$
-
-For $\epsilon$ a positive number, the uniformly continuity of $f$ gives a positive number $\delta$ such that $| y - x| \le \delta$ implies $|f(y) - f(x)|\le \epsilon$. For such $x$ and $y$, the above inequality implies that $ | (F(y)-F(x)) - f(x)(y-x) | \le \epsilon | y - x |$. Thus $F'(x) = f(x)$.
+It suffices to show that a function $f:[0,1] \to {\mathbb{R}}$ with $f' = 0$ is constant. Since $f' = 0$, both $f$ and $-f$ are uniformly differentiable. Hence we may apply the previous lemma to deduce that $f$ and $-f$ are increasing. Therefore $f$ is constant.
 =-- 
 
-## Second part
-
-We deduce the second part from the first part and the law of bounded change.
-
-
++-- {: .proof} 
+###### Proof 
+**(Proof of theorem \ref{StokesForInterval})**. Define a function $g:[0,1]\to {\mathbb{R}}$ by $g(x) = \int_0^x \! f'(t) \, {\mathrm{d}}t$. The uniform differentiability of $f$ implies that $f'$ is uniformly continuous. Hence we may apply the first part of the fundamental theorem of calculus to deduce that $g$ is uniformly differentiable with $g' = f'$. Since $g(0) = f(0)$, by the above lemma, we have $g = f$. In particular, $g(1) = f(1)$, which is the assertion of this theorem.
+=--
 
 ## References
 
