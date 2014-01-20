@@ -901,6 +901,11 @@ A way to reduce the number of choices in this example of geometric quantization 
 
 For more see _[[geometric quantization of the 2-sphere]]_.
 
+### Tori
+ {#ExamplesTori}
+
+* G. G. Athanasiu, E. G. Floratos, [[Stam Nicolis]], _Holomorphic Quantization on the Torus and Finite Quantum Mechanics_ ([arXiv:hep-th/9509098](http://arxiv.org/abs/hep-th/9509098))
+
 ### Theta functions
 
 See at _[[theta function]]_.
