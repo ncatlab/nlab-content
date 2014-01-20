@@ -32,7 +32,7 @@ Such a map is then called a _quantum operation_. The notion of a quantum operati
 
 ## Definition
 
-We first give the traditional definition in terms of [[linear algebra]] and [[matices]] in 
+We first give the traditional definition in terms of [[linear algebra]] and [[matrices]] in 
 
 * [In terms of matrices](#InTermsOfMatrices)
 
@@ -141,7 +141,7 @@ Reviews and surveys include
 * [[Greg Kuperberg]], section 1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
  {#Kuperberg05}
 
-* Michael Nielsen, Isaac Chuang, section 8.2 of_Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000) ([[NielsenChuangQuantumComputation.pdf:file]])
+* Michael Nielsen, Isaac Chuang, section 8.2 of _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000) ([[NielsenChuangQuantumComputation.pdf:file]])
 
 See also
 
