@@ -52,18 +52,11 @@ It suffices to show that a function $f:[0,1] \to {\mathbb{R}}$ with $f' = 0$ is 
 
 ## In synthetic differential geometry
 
-The fundamental theorem of differential calculus is an axiom of synthetic differential geometry, namely the Integration Axiom.
+The fundamental theorem of differential calculus is an axiom of synthetic differential geometry, namely the Integration axiom.
 
+ **Integration axiom**. A map $f: [0, 1]\to R$ has a unique antiderivative $g:[0,1]\to R$ that satisfies $g(0) = 0$.
 
-+-- {: .num_theorem #ConvMathOfFTC} 
-###### Theorem 
-Suppose that the ring object $R$ has a preordering compatible with its ring structure. Denoting $D$ for the infinitesimal interval, further assume that for any $g: D \to R$, there exists a unique $b\in R$ such that each $d\in D$ satisfies $g(d) = g(0) + db$ (this is Axiom 1 in Kock). Then the following are equivalent.
-1. **Integration axiom**. For $f: [0, 1]\to R$, there exists a unique $g:[0,1]\to R$ such that $g' = f$ and $g(0) = 0$.
-1. **Increasing function theorem**. For $f: [0, 1] \to R$, if $f' \ge 0$, then $f$ is increasing.
-1. **Law of bounded change**. For $f:[0,1] \to R$, if there exists $M_1$ and $M_2$ such that $M_1\le f' \le M_2$, then $M_1 \le f(1) - f(0) \le M_2$. 
-=--
-
-Suppose $f:[0,1] \to R$. The integration axiom gives a unique $g:[0,1] \to R$ such that $g' = f$ and $g(0) = 0$. We thus define the definite integral $\int_0^1 \! f(t) \, {\mathrm{d}}t$ as $g(1)$.
+For a map $f:[0,1] \to R$, its __definite integral__ $\int_0^1 \! f(t) \, {\mathrm{d}}t$ is defined by $g(1)$, where $g$ is that map given in the Integration axiom above. This definition of definite integration in terms of differentiation results in the redundancy of the first part of the fundamental theorem of calculus. The second part is a quick consequence of this Integration axiom.
 
 ## References
 
