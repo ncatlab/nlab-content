@@ -28,7 +28,7 @@ Let $(X,g)$ be a [[Riemannian manifold]] and $C \subset X$ a [[subset]]. We say 
 
 * **geodesically convex** if for any two points in $C$ there exists exactly one minimizing geodesic in $X$ connecting them, and that geodesic arc lies completely in $C$
 
-* **strongly geodesically convex** if for any two points in $C$ there exists exactly one minimizing geodesic in $X$ connecting them, and that geodesic arc lies completely in $C$; and furthermore there exists no nonminimizing geodesic inside $C$ connecting the two points.
+* **strongly geodesically convex** if for any two points in $\overline{C}$ there exists exactly one minimizing geodesic in $X$ connecting them, and that geodesic arc lies completely in $C$, except possibly the endpoints; and furthermore there exists no nonminimizing geodesic inside $C$ connecting the two points.
 
 +-- {: .un_defn}
 ###### Definition
