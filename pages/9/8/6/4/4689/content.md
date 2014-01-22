@@ -76,7 +76,10 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
  
 ## Examples
 
+* [[2d quantum gravity]]
+
 * [[3d quantum gravity]]
+
 
 ## References
 
@@ -108,3 +111,4 @@ One can regard [[gravity]] as an [[effective field theory]] and just quantize in
 In the context of perturbative [[AQFT]]:
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
+
