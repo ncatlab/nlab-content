@@ -29,9 +29,14 @@ and notably
 
 ## References
 
-A survey and problem description in in
+A survey and problem description is in
 
-* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
+* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
+
+A report from 2004
+
+* [[Michael Douglas]], _Report on the Status of the Yang-Mills
+Millenium Prize Problem_ ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
 Notes reviewing more technical details of the problem are in 
 
