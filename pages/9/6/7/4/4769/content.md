@@ -8,8 +8,7 @@
 The exponential [[function]] of classical [[analysis]],
 \[ \label{series} \exp x \coloneqq \sum_{i = 0}^{\infty} \frac{x^i}{i!} ,\]
 is the solution of the [[differential equation]]
-$$ f' = f $$
-with initial value $f(0) = 1$.
+$ f' = f $ with initial value $f(0) = 1$.
 
 This classical function is defined on the [[real line]] (or the [[complex plane]]).  To generalise it to other [[manifolds]], we need two things:
 
@@ -79,7 +78,7 @@ $$\array{
  & = & \exp(x) \cdot \exp(y)
 }$$
 
-An alternative proof begins with the observation that $f = \exp$ is the unique _global_ analytic solution to the system $f' = f$, $f(0) = 1$. It follows that for each $y$, the function $g_1 \colon x \mapsto f(x) f(y)$ is a solution to the system $g' = g$, $g(0) = f(y)$, as is the function $g_2 \colon x \mapsto f(x + y)$. Invoking uniqueness of solutions to ordinary differential equations (see, e.g., [here](http://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem)), we infer that $g_1 = g_2$, or that $f(x + y) = f(x)f(y)$ for all $x, y$. 
+An alternative proof begins with the premise that each solution of the ordinary differential equation $g' = 0$ is locally constant. Suppose $c$ is a complex number. As $\exp' = \exp$, we find that $(\exp(x) \exp(c - x))' = \exp(x) \exp(c - x) + \exp(x) (-\exp(c-x)) = 0$. Hence, by the premise and the connectedness of the domain of $\exp$ (either ${\mathbb{R}}$ or ${\mathbb{C}}$), we obtain $\exp(x)\exp(c - x) = \exp(0)\exp(c)$. The initial condition $\exp(0) = 1$ then yields $\exp(x)\exp(c - x) = \exp(c)$. The result follows by setting $c = x + y$. 
 =-- 
 
 Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, the tangent space to the [[identity element]] $1$.  Then $M$ may be equipped with the canonical left-invariant connection $\Del_l$ or the canonical right-invariant connection $\Del_r$.  It turns out that the natural Riemannian exponential maps on $M$ at $1$ relative to $\Del_l$ and $\Del_r$ are the same; we define this to be the __natural Lie exponential map on $M$ at the identity__, denoted simply $\exp$.  Several nice properties follow:
