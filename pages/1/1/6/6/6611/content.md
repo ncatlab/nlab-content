@@ -46,6 +46,9 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * [[Chern-Simons gravity]]
 
+* [[2d quantum gravity]]
+
+
 ## References
 
 The first correct (complete, i.e. non-[[perturbation theory|perturbative]]) quantization of 3-dimensional gravity, on manifolds of the product form $\Sigma \times \mathbb{R}$ appears in 
