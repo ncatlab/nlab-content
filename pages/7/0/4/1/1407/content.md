@@ -54,7 +54,7 @@ Crucial for the motivation of the idea of string theory is the observation that 
 
 When made explicit this is called the _[[worldline formalism]]_ for computing the quantum field perturbation series. (See there for more details.)
 
-The premise of perturbative string theory is to replace the [[perturbation series]] over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called worldsheets and hence produce an [[S-matrix]] this way. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
+The premise of perturbative string theory is to replace the [[perturbation series]] over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called _[[worldsheets]]_ and hence produce an [[S-matrix]] this way. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
 
 In analogy to the previous case, one thinks of the amplitude assigned this way to a surface as the amplitude for the boundary arcs -- the _string_s -- to interact in the way given by the surface.
 
@@ -116,6 +116,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 * [[sigma-model]], 
 
   * [[CFT]], [[2d CFT]], [[perturbation theory]]
+
+  * [[world sheets for world sheets]]
 
 * [[string scattering amplitude]]
 
