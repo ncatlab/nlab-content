@@ -128,22 +128,22 @@ In view of this, quantization is often understood as a [[retraction|right invers
 [[!include deformation quantization - table]]
 
 
-There have been found some formalizations of a at least some aspects of quantization, notably there is _[[algebraic deformation quantization]]_ and _[[geometric quantization]]_. 
+There have been found some formalizations of at least some aspects of quantization, notably there is _[[algebraic deformation quantization]]_ and _[[geometric quantization]]_. 
 
 [[!include Isbell duality - table]]
 
-In their traditional formulation these formulation are geared towards [[mechanics]] (as opposed to [[field theory]]). Even in that restricted application, it seems that a more comprehensive understandin is still missing
+These traditional formulations are geared towards [[mechanics]] (as opposed to [[field theory]]). Even in that restricted application, it seems that a more comprehensive understanding is still missing
 
 > The goal is to get closer to a systematic theory of [[quantization]].
   
 > ([Gukov-Witten 08, p.4](#GukovWitten08))
 
-In the context of [[field theory]] the conceptual issues become more severe even. For example the class of [[field theories]] called _[[Yang-Mills theory]]_ is a core ingredient in the [[standard model of particle physics]] but the _[[quantization of Yang-Mills theory]]_ (see there for more) poses famous open problems -- of which of course that there isn't yet a comprehensive theory of what this even means is not the least.
+In the context of [[field theory]] the conceptual issues become even more severe. For example the class of [[field theories]] called _[[Yang-Mills theory]]_ is a core ingredient in the [[standard model of particle physics]] but the _[[quantization of Yang-Mills theory]]_ (see there for more) poses famous open problems -- of which of course that there isn't yet a comprehensive theory of what this even means is not the least.
 
 ## Quantization as an index map
  {#QuantizationAsAnIndexMap}
 
-Here we survey aspects of quantization at least in aspects is or at least is similar to an _[[index]]_ map, hence a [[push-forward in generalized cohomology]]. More on this is in ([Nuiten 13](#Nuiten13)) and at _[[motivic quantization]]_.
+Here we survey aspects of quantization which give rise to an _[[index]]_ map or something similar, that is, a [[push-forward in generalized cohomology]]. More on this is in ([Nuiten 13](#Nuiten13)) and at _[[motivic quantization]]_.
 
 The general pattern here is this:
 
