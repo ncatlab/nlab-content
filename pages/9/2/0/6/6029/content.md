@@ -30,7 +30,7 @@ Often, however, QFTs are considered as [[quantizations]] of given [[Lagrangians]
 The fundamental concept of modern [[physics]] is that of [[quantum field theory]] (QFT); the concept of particle is derived from that, and need not make sense in every case. ("That's why it's called 'field theory'.")
 
 
- In the perspective of the [[Schrödinger picture]], a $(d+1)$-dimensional [[QFT]] is given by a [[functor]] $Z$ on a [[category of cobordisms]] between $d$-dimensional [[manifolds]] ("[[FQFT]]"). It is crucial to notice that one such QFT always has **two different interpretations**:
+ In the perspective of the [[Schrödinger picture]], a $(d+1)$-dimensional [[QFT]] is given by a [[functor]] $Z$ on a [[category of cobordisms]] (possibly with [[geometry|geometric]] structure, such as [[pseudo-Riemannian metric]] structure) between $d$-dimensional [[manifolds]] ("[[FQFT]]"). It is crucial to notice that one such QFT always has **two different interpretations**:
 
 1. a [first quantized worldvolume perspective](#FirstQuantizedPerspective);
 
@@ -50,7 +50,7 @@ Given this, one may try to see if this data describes a brane propagating _in_ s
 ### Second quantized perspective 
  {#SecondQuantizedSpacetimePerspective}
 
-On the other hand, we may think of the $d$-dimensional manifolds here themselves already as [[spacetimes]]. In this case the QFT describes [[field (physics)|fields]] on spacetime. In favorable circumstances this can arise from the previous case by a process of [[second quantization]], meaning that these fields may be thought of as [[condensates]] of branes/particles in the previous sense. Conversely one says that these particles are the _quanta_ of the fields that we start with.
+On the other hand, we may think of the $d+1$-dimensional [[cobordisms]] here themselves already as [[spacetimes]]. In this case the QFT describes [[field (physics)|fields]] on spacetime. In favorable circumstances this can arise from the previous case by a process of [[second quantization]], meaning that these fields may be thought of as [[condensates]] of branes/particles in the previous sense. Conversely one says that these particles are the _quanta_ of the fields that we start with.
 
 But generally, given a QFT in this perspective, to extract from it the particle content that it comes from under [[second quantization]] is subtle. One of the common definitions of particle quanta only applies to non [[general covariance|generally-covariant]] [[free field theories]] (e.g. [Haag 92, section VI](#Haag92)). This means that already for quantum field theory on a fixed [[curved spacetime]] there is in general no longer any concept of particle-quanta of the fields. This situation would only become worse were one to think of the given QFT as incorporating also [[quantum gravity]]. The concept of [[field (physics)|field]] here is fundamental, that of particle quanta is not. 
 
@@ -62,7 +62,7 @@ This is indeed so, but of course this mixing only becomes relevant once one real
 
 Indeed, [[perturbative string theory]] is all set up this way: one starts with a 2-dimensional QFT which one thinks of as the first-quantized [[worldsheet]] theory of a [[string]]. But this means that one may start to ask which "particles" propagate "on the worldvolume". Notably the "embedding fields" of the string [[sigma-model]] which describes how its worldsheet sits in [[spacetime]] look, from the perspective of the worldsheet theory, like [[scalar fields]]. Their [[superpartners]] look like [[fermion]] fields. If one considers the string worldsheet before gravitational [[gauge fixing]] then there is also a [[graviton]] on the worldsheet, and so on.
 
-Hence in general one may want to/need to consider an intricate pattern of "branes withing branes"
+Hence in general one may want to/need to consider an intricate pattern of "branes withing branes". For instance the [[worldsheet]] [[gravity]] of the [[string]] may itself arises from quantizing other strings for which that worldsheet is target spacetime ([[world sheets for world sheets|Green 87]]).
 
 ## Examples
 
@@ -83,7 +83,7 @@ Moreover, going further up in [[codimension]], the [[3d TQFT]] may have [[defect
 
 Indeed, these first quantized codim-2-defects/0-branes/1d-particles in [[Chern-Simons theory]] are famous as having "[[Wilson line]] [[worldline theory]]". See at _[orbit method -- Nonabelian charged particle trajectories](orbit%20method#GaugeAndGravityWilsonLoops)_ for details on their incarnation as [[prequantum field theory]]. After [[quantization]] these first quantized 0-branes/1d-particles are famously represented in the [[Reshetikhin-Turaev construction]] as ribbon lines labeled by [[objects]] in a [[modular tensor category]].
 
-In conclusion, given a [[3d TQFT]] regarded as [[quantum gravity]] of 2+1-dimensional [[spacetimes]], it is at best subtle to extract from it particles in the sense of "quanta of the fields of the spacetime field theory", while extracting from it first quantized codim-2 defect 0-[[brane]] particles is a famous step in [[Chern-Simons theory]].
+In conclusion, given a [[3d TQFT]] regarded as [[quantum gravity]] of 2+1-dimensional [[spacetimes]], it is at best subtle to extract from it particles in the sense of "quanta of the fields of the spacetime field theory", while extracting from it first quantized codim-2 [[defect field theory|defect]] 0-[[branes]] is a famous step in [[Chern-Simons theory]].
 
 
 
