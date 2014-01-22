@@ -1,3 +1,4 @@
+
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -5,19 +6,19 @@
 # Tangential Topics of Fr&#246;licher Spaces
 {#tangent}
 
-+-- {: .query}
++-- {: .standout}
 This section is essentially lifted from [Comparative Smootheology](http://arxiv.org/abs/0802.2225) as I intend to remove it from that article and this seems a good place to put it.
 =--
 
-Nearly every construction in differential topology starts with tangent or cotangent bundles.
-As a conclusion of this note, we shall look at how one could define these in the more general setting.
-An advantage of the dual nature of the definition of a smooth structure due to Fr&#246;licher is that just about every definition of a tangent or cotangent vector is possible.
-Essentially, as we have access to both curves and functionals we can consider push-forwards and pull-backs.
+Nearly every construction in differential topology starts with [[tangent bundle|tangent]] or [[cotangent bundles]].
+We shall look at how one could define these in the more general setting.
+An advantage of the dual nature of the definition of a [[Frölicher space]] is that just about every definition of a tangent or cotangent vector is possible.
+Essentially, as we have access to both [[curves]] and [[functionals]] we can consider [[push-forward]]s and [[pull-back]]s.
 
 The ideas in this section can be traced at least as far back as Fr&#246;licher's work in [MR842916](http://www.ams.org/mathscinet-getitem?mr=842916).
 That there are different orders of tangent and cotangent vectors appears in Kriegl and Michor's book [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480), though it doubtless has antecedents.
-However in [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480), only operational tangent vectors have higher orders.
-This is because the context is that of manifolds and so non-trivial higher order kinematic tangent vectors do not appear.
+(However in [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480), only operational tangent vectors have higher orders.
+This is because the context is that of [[manifolds]] and so non-trivial higher order kinematic tangent vectors do not appear.)
 
 Let us start with _kinematic tangent vectors_.
 We start with a notion of what it means for a curve to be flat.
@@ -58,10 +59,10 @@ For Euclidean spaces with their usual structure, all of these tangent sets coinc
 It is obvious that each of these kinematic tangent sets is functorial in Fr&#246;licher spaces.
 
 One would anticipate that in a given application the only two candidates for a kinematic tangent set will be either the full kinematic tangent set or the first kinematic tangent set.
-Note that for a manifold with boundary, the first kinematic tangent set at a point in the boundary is the tangent space of the boundary whereas the full kinematic tangent set is the tangent space of the ambient manifold (including the outward pointing normal).
+Note that for a [[manifold with boundary]], the first kinematic tangent set at a point in the boundary is the tangent space of the boundary whereas the full kinematic tangent set is the tangent space of an ambient manifold (including the outward pointing [[normal vector|normal]]).
 
 We have been careful in writing "tangent _set_" rather than "tangent _space_" so as not to imply any particular structure.
-Reparametrisation of paths easily defines the structure of an $\mathbb{R}$-set on each tangent set but in general one will not be able to add tangent vectors.
+Reparametrisation of paths easily defines the structure of an $(\mathbb{R},+)$-[[G-set|set]] on each tangent set (scalar multiplication) but in general one will not be able to add tangent vectors.
 Nonetheless, some addition may be possible and addition has nice properties when it is defined.
 
 +-- {: mynumdef #TanSum}
@@ -79,7 +80,7 @@ Sums are unique if they exist.
 
 +-- {: myproof}
 ###### Proof
-If $\beta$ and $\gamma$ both represent sums of $u_1, \dotsc, u_k$ then
+If $\beta$ and $\gamma$ both represent sums of $u_1, \cdots, u_k$ then
 \[
 (f \beta)^{(k)} = \sum (f \alpha_i)^{(k)} = (f \gamma)^{(k)}
 \]
@@ -87,7 +88,7 @@ so $\beta$ and $\gamma$ represent the same vector in $T_{x,k} X$.
 =--
 
 The construction of kinematic tangent vectors suggests a similar construction for cotangent vectors.
-As with tangent vectors, we need an auxiliary definition.
+As with tangent vectors, we need an auxiliary definition of flatness.
 
 +-- {: mynumdef #FlatFun}
 ###### Definition
@@ -108,7 +109,7 @@ Again, for convenience we will say that all functionals are $0$-flat.
  for all $c \in \mathcal{C}$ with $c(0) = x$.
 =--
 
-The same discussion for kinematic tangent vectors applies to kinematic cotangent vectors except for the fact that cotangent vectors automatically form vector spaces.
+The same discussion for kinematic tangent vectors applies to kinematic cotangent vectors except for the fact that cotangent vectors automatically form a [[vector space]]; sums are always defined.
 
 +-- {: mynumdef #KinFullCoTan}
 ###### Definition
@@ -163,7 +164,7 @@ This map, however, need not be injective and neither need it map to a spanning s
 
 
 
-One can define two more versions of "cotangent vectors" by taking linear duals of the two versions of tangent vectors (this has to be done with care for the kinematic tangent vectors); however, these definitions may be thought of as one-step removed from the smooth structure itself.
+One can define two more versions of cotangent vectors by taking linear duals of the two versions of tangent vectors (this has to be done with care for the kinematic tangent vectors); however, these definitions may be thought of as one step removed from the smooth structure itself.
 
 
 [[!redirects tangential notions of Frölicher spaces]]
