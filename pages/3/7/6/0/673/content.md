@@ -19,13 +19,13 @@ adelaide dot edu dot au
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
-* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
+* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication January 2014.
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
 
-* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
+* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
 
-* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication.
+* _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication November 2012.
 
 * _On the existence of bibundles_, [Proc. London Math. Soc.](http://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, [journal version](http://plms.oxfordjournals.org/content/105/6/1290), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
