@@ -53,10 +53,10 @@ In components this is
 1. a 1-form $\eta \in \Omega^1(\Sigma, \phi^* T X)$
    with values in the pullback of the [[tangent bundle]] of $X$ along $\phi$.
 
-The [[action functional]] on the [[configuration space]] of all such maps for [[compact space|compact]] $\Sigma$ is defined to be
+The [[action functional]] on the [[configuration space]] of all such connections for [[compact space|compact]] $\Sigma$ is defined to be
 
 $$
-  S : \phi \mapsto 
+  S : (\phi,\eta) \mapsto 
   \int_\Sigma
   \left(
      \langle \eta \wedge d_{dR}\phi\rangle
