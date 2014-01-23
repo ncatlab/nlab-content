@@ -39,7 +39,7 @@ Sometimes it is convenient to proceed otherwise, however, and to give a specific
 
 * The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
 
-  * $\langle a,b : a^3= b^2\rangle$, which displays the fact hat the trefoil is a (2,3)-[[torus knot]]; and
+  * $\langle a,b : a^3= b^2\rangle$, which displays the fact that the trefoil is a (2,3)-[[torus knot]]; and
 
   * $\langle x,y : xyx=yxy\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
 
