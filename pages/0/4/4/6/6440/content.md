@@ -38,9 +38,9 @@ $$
   \,,
 $$
 
-which we take here to be 1-categorical (un-[[extended quantum field theory|extended]]), not to overburden the discussion. . Assume also for simplicity that the corresponding [[target space]] is of the form $X = Y \times \mathbb{R}$, where the second factor is the time-axis. 
+which we take here to be 1-categorical (un-[[extended quantum field theory|extended]]), not to overburden the discussion. Assume also for simplicity that the corresponding [[target space]] is of the form $X = Y \times \mathbb{R}$, where the second factor is the time-axis. 
 
-Using this, we define a space of [[state]]s of a the _second quantization_  to be the _Fock space_
+Using this, we define a space of [[state]]s of the _second quantization_  to be the _Fock space_
 
 $$
   \begin{aligned}
@@ -61,7 +61,7 @@ $$
   \,,
 $$
 
-the free commutative [[tensor algebra]] over the vector space $\mathcal{V}$ of [[state]]s of the given single [[particle]], [[string]] or, generally, [[brane]]. This has a contribution for each equivalence class $[\Sigma_{n-1}]$ of connected shapes $\Sigma_{n-1}$ of this brane. For instance for $n = 1$ there is just the point $\Sigma_0 *$, but for the [[string]] with $n = 2$ there is one contribution from the closed string $\Sigma_1 = S^1$ and one contribution from the open string $\Sigma_1 = [0,1]$; and in turn several contributions of this type if the open string carries boundary [[D-brane]] labels. (In the presence of [[fermion]]s the vector spaces appearing here are [[super vector space]]s and the Fock space construction is the corresponding [[super algebra]] version.)
+the free commutative [[tensor algebra]] over the vector space $\mathcal{V}$ of [[state]]s of the given single [[particle]], [[string]] or, generally, [[brane]]. This has a contribution for each equivalence class $[\Sigma_{n-1}]$ of connected shapes $\Sigma_{n-1}$ of this brane. For instance for $n = 1$ there is just the point $\Sigma_0 = *$, but for the [[string]] with $n = 2$ there is one contribution from the closed string $\Sigma_1 = S^1$ and one contribution from the open string $\Sigma_1 = [0,1]$; and in turn several contributions of this type if the open string carries boundary [[D-brane]] labels. (In the presence of [[fermion]]s the vector spaces appearing here are [[super vector space]]s and the Fock space construction is the corresponding [[super algebra]] version.)
 
 This space of states is that of a quantum theory whose _classical_ field configurations are given by _many_ states of the original quantum $\sigma$-model. We therefore say that the original brane of shape $\Sigma_{n-1}$ is a _quantum_ or a _single excitation_ of the field theory that it induces on target space $X$: where the original $\sigma$-model describes the dynamics of a single brane on $X$, its second quantization describes the dynamics of many and interacting copies of that brane.
 
