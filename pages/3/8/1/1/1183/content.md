@@ -28,17 +28,17 @@
 ## Idea
  {#Idea}
 
-A _$\sigma$-model_ is a particular kind [[physical theory]] of certain [[field (physics)|field]].  The basic data describing a specific $\sigma$-model is some kind of "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of [[field (physics)|fields]]" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]]/[[mapping stack]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
+A _$\sigma$-model_ is a particular kind of [[physical theory]] of certain [[field (physics)|fields]].  The basic data describing a specific $\sigma$-model is some kind of "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of [[field (physics)|fields]]" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]]/[[mapping stack]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
 
 We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \Sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
 
-For $n = 1$ this is an ordinary [[circle bundle]] [[connection on a bundle|with connection]] and models a configuration of the [[electromagnetic field]] on $X$. To distinguish this "field" on $X$ from the fields on $\Sigma$ we speak of a _[[background gauge field]]_. (This remains fixed background data unless and until we pass to _[[second quantization]]_ .) A field configuration $\Sigma \to X$ on $\Sigma$ models a trajectory of a [[charge]]d particle subject to the [[force]]s exerted by this background field.
+For $n = 1$ this is an ordinary [[circle bundle]] [[connection on a bundle|with connection]] and models a configuration of the [[electromagnetic field]] on $X$. To distinguish this "field" on $X$ from the fields on $\Sigma$ we speak of a _[[background gauge field]]_. (This remains fixed background data unless and until we pass to _[[second quantization]]_.) A field configuration $\Sigma \to X$ on $\Sigma$ models a trajectory of a [[charge]]d particle subject to the [[force]]s exerted by this background field.
 
 For $n = 2$, a circle $n$-bundle with connection is a [[circle n-group|circle 2-group]] [[principal 2-bundle]] or equivalently a [[bundle gerbe]] with connection. This models a "higher electromagnetic field", called a [[Kalb-Ramond field]]. Now $\Sigma$ is taken to be 2-dimensional and a map $\Sigma \to X$ models the trajectory of a [[string]] on $X$, subject to forces exerted on it by this higher order field.
 
 This pattern continues. In the next dimension a [[membrane]] with 3-dimensional [[worldvolume]] is charged under a [[circle n-bundle with connection|circle 3-bundle]] with connection, for instance something called the [[supergravity C-field]].
 
-While one can speak of [[principal ∞-bundles|higher bundles]] in full generality and full analogy to ordinary [[principal bundle]]s, it is useful to observe that any circle $n$-bundle is characterized by a classifying map $\alpha : X \to \mathbf{B}^n U(1)$ in our category of [[space]]s, so we can just think about classifying maps instead.  Here $U(1)$ is the [[circle group]], and $\mathbf{B}^n$ denotes its $n$th _[[delooping]]_ ; thus such a map is also a sort of [[cocycle]] in "[[smooth infinity-groupoid|smooth]] $n$th [[cohomology]] of $X$ with coefficients in $U(1)$". The additional data of a _connection_ refines this to a cocycle in _[[ordinary differential cohomology|differential cohomology]]_ of $X$.
+While one can speak of [[principal ∞-bundles|higher bundles]] in full generality and full analogy to ordinary [[principal bundle]]s, it is useful to observe that any circle $n$-bundle is characterized by a classifying map $\alpha : X \to \mathbf{B}^n U(1)$ in our category of [[space]]s, so we can just think about classifying maps instead.  Here $U(1)$ is the [[circle group]], and $\mathbf{B}^n$ denotes its $n$th _[[delooping]]_ ; thus such a map is also a sort of [[cocycle]] in "[[smooth infinity-groupoid|smooth]] $n$th [[cohomology]] of $X$ with coefficients in $U(1)$". The additional data of a _connection_ refines this to a cocycle in the _[[ordinary differential cohomology|differential cohomology]]_ of $X$.
 
 Such connection data $\nabla$ on a circle $n$-bundle defines -- and is defined by -- a notion of [[higher parallel transport]] over $n$-dimensional trajectories: for closed $n$-dimensional $\Sigma$ it defines a map $hol : (\gamma : \Sigma \to X) \mapsto \exp(i \int_\Sigma \gamma^*\nabla) \in U(1)$ that sends trajectories to elements in $U(1)$: the [[holonomy]] of $\nabla$ over $\Sigma$, given by [[integration]] of local data over $\Sigma$. The local data being integrated is called the _[[Lagrangian]]_ of the $\sigma$-model. Its integral is called the [[action functional]]. 
 
@@ -73,7 +73,7 @@ In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with
 ## Exposition of classical sigma-models
  {#ExpositionClassical}
 
-We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models that describe dynamics of [[particle]]s, [[strings]]s and [[brane]]s on geometric [[target space]]s.
+We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models that describe dynamics of [[particles]], [[strings]] and [[branes]] on geometric [[target spaces]].
 
 The content of this section is at
 
