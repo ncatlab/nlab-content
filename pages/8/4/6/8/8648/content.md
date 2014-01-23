@@ -38,3 +38,5 @@ In [[quantum theory]] the [[state]] of a [[physical system]] is given by a [[vec
 [[!redirects quantum superposition]]
 [[!redirects quantum superpositions]]
 
+[[!redirects superposition state]]
+[[!redirects superposition states]]
