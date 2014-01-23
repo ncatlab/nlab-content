@@ -1,4 +1,3 @@
-[[!redirects quantum mechanics in terms of dagger-compact categories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -121,6 +120,7 @@ More basic introductions are in
 * [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
 {#CoeckeIntroducing}
 
+
 * [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
 {#CoeckePractising}
 
@@ -159,4 +159,8 @@ An exposition along these lines is in
 * [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
  {#BaezStay09}
 
+[[!redirects finite quantum mechanics in terms of †-compact categories]]
+
 [[!redirects quantum mechanics in terms of †-compact categories]]
+[[!redirects quantum mechanics in terms of dagger-compact categories]]
+
