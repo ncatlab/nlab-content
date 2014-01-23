@@ -77,17 +77,17 @@ The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite 
 
 The concept was introduced in 
 
-* [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
+* [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
  {#AbramskyCoecke04}
 
 See also:
 
-* [[Peter Selinger]] (2007), Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
+* [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
 ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
 For completeness of finite-dimensional Hilbert spaces:
 
-*  [[Peter Selinger]] (2012), Finite dimensional Hilbert spaces are complete for dagger compact closed categories, [arXiv](http://arxiv.org/abs/1207.6972).
+*  [[Peter Selinger]] (2012), _Finite dimensional Hilbert spaces are complete for dagger compact closed categories_, ([arXiv:1207.6972](http://arxiv.org/abs/1207.6972)).
    {#Selinger2012}
 
 
