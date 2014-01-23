@@ -194,7 +194,7 @@ Ind-categories are discussed in
 
 * Kashiwara-Schapira, [[Categories and Sheaves]], section 6
 
-* Grothendieck et al. SGA4.I.6 [djvu file](http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu)
+* Grothendieck et al. SGA4.I.6 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
 
 * A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960.
 
