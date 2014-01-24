@@ -1,0 +1,1 @@
+A **HAG context** is a setting for [[homotopical algebraic geometry]].
