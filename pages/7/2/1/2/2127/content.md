@@ -83,6 +83,10 @@ Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$.  Then any 
 
 ## Related concepts
 
+* [[cosmall object]], which is just the dual concept, but is interesting in its own right.
+
 * [[object classifier]]
+
+
 
 [[!redirects small objects]]
