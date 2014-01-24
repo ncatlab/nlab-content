@@ -1,0 +1,82 @@
+**Homotopical algebraic geometry** encompasses the [[algebraic geometry]] of [[Grothendieck]] (modelled on [[commutative rings]]), [[derived algebraic geometry]] (modelled on [[simplicial commutative rings]]), [[complicial algebraic geometry]] (modelled on [[unbounded complexes of modules over a commutative ring]]), [[brave new algebraic geometry]] (modelled on [[symmetric spectra]]).
+
+## Definitions
+
+**Homotopical algebraic geometry** is the theory of [[stacks]] in a [[HAG context]], which is roughly a [[symmetric monoidal model category]] $C$ together with a [[model pretopology]] $\tau$ and some class of morphisms $P$ in the [[opposite category]] of $CMon(C)$, the category of [[commutative monoids]] in $M$.  (The morphisms of $P$ are to be thought of roughly as [[smooth]] morphisms.)
+
+Given such a [[HAG context]], we write $Aff(C) = CMon(C)^{op}$ for the [[opposite]] of the [[category]] of [[commutative monoids]] in $C$.
+Then consider the category $Pr(Aff(C), SSet)$ of [[simplicial presheaves]] on $Aff(C)$, with the [[projective model structure]].  Let $h_- : Aff(C) \hookrightarrow Pr(Aff(C), Set) \hookrightarrow Pr(Aff(C), SSet)$ denote the [[composite]] of the usual [[Yoneda embedding]] followed by the objectwise constant embedding.
+
++-- {: .num_defn}
+###### Definition
+The **model structure for prestacks** is the [[left Bousfield localization]] with respect to the class of morphisms $h_s : h_X \to h_Y$ for $s$ a [[weak equivalence]] in $Aff(C)$.  We write $\hat Aff(C)$ for the resulting [[model category]].
+=--
+
+Note that $Ho(\hat Aff(C))$ is identified with the [[full subcategory]] of $Ho(Pr(Aff(C), SSet))$ spanned by [[simplicial presheaves]] $F : Aff(C)^{op} \to \SSet$ which preserve [[weak equivalences]] (where $SSet$ is viewed with the [[model structure on simplicial sets|Quillen model structure]]).
+
++-- {: .num_defn}
+###### Definition
+$PSt(C) = Ho(\hat Aff(C))$ is called the **category of prestacks** on $C$.
+Hence a **prestack** on $C$ is a [[simplicial presheaf]] on $Aff(C)$ that preserves [[weak equivalences]].
+=--
+
+$\hat Aff(C)$ is in fact a [[simplicial model category]] and we will write $\mathbf{R}Map(X,Y)$ for the [[derived mapping spaces]].
+
+Write $A = Aff(C)$ (in fact the following definition is valid for any [[model category]] $A$) and let $\Gamma^* : A \to Cosimp(A)$ be a [[cofibrant replacement functor]], where $Cosimp(A)$ is the category of [[cosimplicial objects]] in $A$ with the [[Reedy model structure]].  Define $\mathbf{h}_- : A \to Pr(A, SSet)$ by mapping $X$ to $\mathbf{h}_X$ which is defined by $\mathbf{h}_X(Y) = Map_{Cosimp(A)}(\Gamma^*(Y), X)$ (viewing $X$ as a constant [[cosimplicial object]]).
+This defines a [[right Quillen functor]] $\mathbf{h}_- : A \to \hat A$.
+
++-- {: .num_defn}
+###### Definition
+The [[right derived functor]] $\mathbf{R}\mathbf{h}_- : Ho(A) \hookrightarrow Ho(\hat A)$ is [[fully faithful]] and is called the **homotopy [[Yoneda embedding]]**.
+=--
+
+Note that it is independent of the choice of $\Gamma^*$.  The **homotopy [[Yoneda lemma]]** can be stated as
+
++-- {: .num_lemma}
+###### Lemma
+For any [[fibrant object]] $F \in \hat A$ and any $X \in A$, one has
+
+$$ \mathbf{R}Map(\mathbf{R}\mathbf{h}_X, F) \simeq \mathbf{R}Map(h_X, F) \simeq F(X) $$
+
+in $Ho(SSet)$.
+=--
+
+Recall that $\tau$ is a [[model pretopology]] on $A = Aff(C)$.  Essentially this is the same as a [[Grothendieck topology|topology]] on the [[homotopy category]] $Ho(Aff(C))$.
+
++-- {: .num_defn}
+###### Definition
+A **homotopy $\tau$-hypercover** on $A$ is a [[morphism]] in $\hat A$ such that ......
+
+The **model structure for stacks** is the [[left Bousfield localization]] of $\hat A$ at the class of homotopy $\tau$-[[hypercovers]].  We write $A^\sim_\tau$ for the resulting model category.
+=--
+
++-- {: .num_defn}
+###### Definition
+$St(C, \tau) = Ho(Aff(C)^\sim_\tau)$ is called the **category of stacks** on the [[model site]] $(C, \tau)$.
+Hence a **stack** on $(C, \tau)$ is a [[fibrant object]] of $Aff(C)^\sim_\tau$, i.e. a [[prestack]] satisfying $\tau$-[[hyperdescent]].
+=--
+
+By the general theory of [[Bousfield localization]], the [[identity functor]]s form a [[Quillen adjunction]] $id : \hat A \rightleftarrows A^\sim : id$ which induces a derived [[adjunction]]
+  $$ \mathbf{a} := \mathbf{L}id : Ho(\hat A) \rightleftarrows Ho(A^\sim_\tau) : \mathbf{R}id =: \mathbf{j}. $$
+The [[functor]] $\mathbf{j}$ is [[fully faithful]] and identifies the category of stacks with the category of prestacks satisfying $\tau$-[[hyperdescent]].  Its left adjoint $\mathbf{a}$ is called the [[associated sheaf]] functor.
+
+The homotopy [[Yoneda embedding]] factors through $\mathbf{R}\mathbf{h} : \Ho(Aff(C)) \hookrightarrow St(C, \tau)$.
+
++-- {: .num_defn}
+###### Definition
+A stack $F \in St(C, \tau)$ is called **representable** if it is in the essential image of $\mathbf{R}\mathbf{h}$.
+=--
+
+For a [[commutative monoid]] $A \in CMon(C)$, we will write $Spec(A)$ for the corresponding object of $Aff(C)$, $\mathbf{Spec}(A) := \mathbf{h}_{\Spec(A)} \in St(C, \tau)$, and $\mathbf{RSpec}(A) := \mathbf{Rh}_{Spec(A)} \in St(C, \tau)$.  By the homotopy [[Yoneda lemma]],
+
+...................
+
+## Examples
+
+* Taking $C = SMod(k)$, the category of [[simplicial modules]] over a [[commutative ring]] $k$, so that $CMon(C) = SAlg(k)$, the category of [[simplicial commutative algebras]] over $k$, together with an extension of [[etale topology]], one gets the theory of [[derived algebraic geometry]] of [[Toen]] and [[Vezzosi]].
+
+## References
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry I: topos theory_, 2002, [arXiv:math/0207028](http://arxiv.org/abs/math/0207028).
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry II: geometric stacks and applications_, 2004, [arXiv:math/0404373](http://arxiv.org/abs/math/0404373).
