@@ -53,6 +53,9 @@ $$
 
 ## Examples
 
+* The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite number|finite]] [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
+
+
 * For $C$ a category with [[finite limits]]  the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
 $ X \stackrel{Id}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See
@@ -60,16 +63,26 @@ See
   * John Baez, _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
 
-## Finite quantum mechanics in terms of $\dagger$-compact categories
+* The finite parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories. For more on this see at _[[finite quantum mechanics in terms of †-compact categories]]_.
 
-The finite parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories.
+## Properties
 
-For more on this see at _[[finite quantum mechanics in terms of †-compact categories]]_.
+### Relation to self-duality
 
+If each [[object]] $X$ of a [[compact closed category]] is equipped with a [[self-duality]] structure $X \simeq X^\ast$, then sending morphisms to their [[dual morphisms]] but with these identifications pre- and postcomposed
 
-## Relation to Hilbert spaces
+$$
+  (-)^\dagger \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+  \mapsto
+  (Y \stackrel{\simeq}{\to} Y^\ast \stackrel{f^\ast}{\longrightarrow} X^\ast \stackrel{\simeq}{\to} X)
+$$
 
-The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite number|finite]] [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
+constitutes a dagger-compact category structure.
+
+See for instance ([Selinger, remark 4.5](#Selinger)).
+
+Applied for instance to the category of finite-dimensional [[inner prduct spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
 
 
 ## References
@@ -86,6 +99,10 @@ The topic was taken up
 ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
 where the alternative terminology "dagger-compact" was proposed, and used for the abstract characterization of [[quantum operations]] ([[completely positive maps]] on [[Bloch regions]] of [[density matrices]]).
+
+The examples induced from [[self-duality]]-structure are discussed abstractly in 
+
+* {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2010 ([[SelingerSelfDual.pdf:file]])
 
 That finite-dimensional Hilbert spaces are "complete for dagger-compactness" s shown in
 
