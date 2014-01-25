@@ -27,7 +27,7 @@ For $A$ an [[associative algebra]] write $A_J$ for its corresponding [[Jordan al
 +-- {: .num_lemma}
 ###### Observation
 
-There exist [[von Neumann algebras]] $A$, $B$ such that there exists a [[Jordan algebra}] isomorphism $A_J \to B_J$ but not an algebra isomorphism $A \to B$.
+There exist [[von Neumann algebras]] $A$, $B$ such that there exists a [[Jordan algebra]] isomorphism $A_J \to B_J$ but not an algebra isomorphism $A \to B$.
 
 =--
 
