@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[logic]], de Morgan duality is a [[duality]] between [[intuitionistic logic]] and dual-intuitionistic [[paraconsistent logic]].  In [[classical logic]] and [[linear logic]], it is a self-duality mediated by [[negation]].  Although it goes back to [[Aristotle]] (at least), its discovery is generally attributed to [[Augustus de Morgan]].
+In [[logic]], de Morgan duality is a [[duality]] between [[intuitionistic logic]] and dual-intuitionistic [[paraconsistent logic]].  In [[classical logic]] and [[linear logic]], it is a [[self-duality]] mediated by [[negation]].  Although it goes back to [[Aristotle]] (at least), its discovery is generally attributed to [[Augustus de Morgan]].
 
 
 ## The dualities
