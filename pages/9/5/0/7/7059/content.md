@@ -249,15 +249,14 @@ The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy co
 
 The corresponding Coq-code library is at 
 
-* [[Mike Shulman]], _[HoTT/Coq/Subcatgeories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
+* [[Mike Shulman]], _[https://github.com/mikeshulman/HoTT/tree/modalities/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/modalities/Coq/Subcategories)_
 
 In the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) formerly known as traditional mathematics, homotopy cohesion is discussed in
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 
 [[!redirects cohesive homotopy type theories]]
 
 [[!redirects cohesive homotopy type]]
 [[!redirects cohesive homotopy types]]
-
