@@ -2,7 +2,7 @@
 
 ## Definitions
 
-**Homotopical algebraic geometry** is the theory of [[stacks]] in a [[HAG context]], which is roughly a [[symmetric monoidal model category]] $C$ together with a [[model pretopology]] $\tau$ and some class of morphisms $P$ in the [[opposite category]] of $CMon(C)$, the category of [[commutative monoids]] in $M$.  (The morphisms of $P$ are to be thought of roughly as [[smooth]] morphisms.)
+**Homotopical algebraic geometry** is the theory of [[geometric stacks]] in a [[HAG context]], which is roughly a [[symmetric monoidal model category]] $C$ together with a [[model pretopology]] $\tau$ and some class of morphisms $P$ in the [[opposite category]] of $CMon(C)$, the category of [[commutative monoids]] in $M$.  (The morphisms of $P$ are to be thought of roughly as [[smooth]] morphisms.)
 
 Given such a [[HAG context]], we write $Aff(C) = CMon(C)^{op}$ for the [[opposite]] of the [[category]] of [[commutative monoids]] in $C$.
 Then consider the category $Pr(Aff(C), SSet)$ of [[simplicial presheaves]] on $Aff(C)$, with the [[projective model structure]].  Let $h_- : Aff(C) \hookrightarrow Pr(Aff(C), Set) \hookrightarrow Pr(Aff(C), SSet)$ denote the [[composite]] of the usual [[Yoneda embedding]] followed by the objectwise constant embedding.
@@ -53,12 +53,12 @@ The **model structure for stacks** is the [[left Bousfield localization]] of $\h
 +-- {: .num_defn}
 ###### Definition
 $St(C, \tau) = Ho(Aff(C)^\sim_\tau)$ is called the **category of stacks** on the [[model site]] $(C, \tau)$.
-Hence a **stack** on $(C, \tau)$ is a [[fibrant object]] of $Aff(C)^\sim_\tau$, i.e. a [[prestack]] satisfying $\tau$-[[hyperdescent]].
+Hence a **stack** on $(C, \tau)$ is a [[fibrant object]] of $Aff(C)^\sim_\tau$, i.e. a [[prestack]] satisfying [[descent]] with respect to $\tau$-[[hypercovers]].
 =--
 
 By the general theory of [[Bousfield localization]], the [[identity functor]]s form a [[Quillen adjunction]] $id : \hat A \rightleftarrows A^\sim : id$ which induces a derived [[adjunction]]
   $$ \mathbf{a} := \mathbf{L}id : Ho(\hat A) \rightleftarrows Ho(A^\sim_\tau) : \mathbf{R}id =: \mathbf{j}. $$
-The [[functor]] $\mathbf{j}$ is [[fully faithful]] and identifies the category of stacks with the category of prestacks satisfying $\tau$-[[hyperdescent]].  Its left adjoint $\mathbf{a}$ is called the [[associated sheaf]] functor.
+The [[functor]] $\mathbf{j}$ is [[fully faithful]] and identifies the category of stacks with the category of prestacks satisfying [[descent]] with respec to $\tau$-[[hypercovers]].  Its left adjoint $\mathbf{a}$ is called the **associated stack** functor.
 
 The homotopy [[Yoneda embedding]] factors through $\mathbf{R}\mathbf{h} : \Ho(Aff(C)) \hookrightarrow St(C, \tau)$.
 
@@ -73,7 +73,7 @@ For a [[commutative monoid]] $A \in CMon(C)$, we will write $Spec(A)$ for the co
 
 ## Examples
 
-* Taking $C = SMod(k)$, the category of [[simplicial modules]] over a [[commutative ring]] $k$, so that $CMon(C) = SAlg(k)$, the category of [[simplicial commutative algebras]] over $k$, together with an extension of [[etale topology]], one gets the theory of [[derived algebraic geometry]] of [[Toen]] and [[Vezzosi]].
+* Taking $C = SMod(k)$, the category of [[simplicial modules]] over a [[commutative ring]] $k$, so that $CMon(C) = SAlg(k)$, the category of [[simplicial commutative algebras]] over $k$, together with an extension of [[etale topology]], one gets the theory of [[derived algebraic geometry]] of [[Bertrand Toen]] and [[Gabriele Vezzosi]].
 
 ## References
 
