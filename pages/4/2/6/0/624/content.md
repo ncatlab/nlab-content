@@ -161,6 +161,18 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 =--
 
+## Related concepts
+
+* [[dualizing object]]
+
+* [[self-dual object]]
+
+* [[fully dualizable object]]
+
+* [[rigid monoidal category]],
+
+* [[star-autonomous category]]
+
 ## References
 
 Duals in a closed/monoidal category are a very classical notion. A history of the basic definitions and applications in [[stable homotopy theory]]/[[higher algebra]] is in
