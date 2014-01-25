@@ -1,0 +1,59 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a [[monoidal category]] a _self-duality_ on a [[dualizable object]] $X$ is a choice of [[equivalence]] $X \simeq X^\ast$ with its [[dual object]].
+
+## Properties
+
+### Relation to $\dagger$-compact structure
+ {#RelationToDaggerCompactStructure}
+
+If each object $X$ of a [[compact closed category]] is equipped with a self-duality structure $X \simeq X^\ast$, then sending morphisms to their [[dual morphisms]] but with these identifications pre- and postcomposed
+
+$$
+  (-)^\dagger \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+  \mapsto
+  (Y \stackrel{\simeq}{\to} Y^\ast \stackrel{f^\ast}{\longrightarrow} X^\ast \stackrel{\simeq}{\to} X)
+$$
+
+constitutes a [[dagger-compact category]] structure.
+
+See for instance ([Selinger, remark 4.5](#Selinger)).
+
+Applied for instance to the category of finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[transposed matrix]]. 
+
+## Related concepts
+
+* [[inner product]]
+
+## References
+
+* {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2012 ([[SelingerSelfDual.pdf:file]])
+ 
+
+* [[Jeff Egger]], _On involutive monoidal categories_, Theory and Applications of Categories, Vol. 25, 2011, No. 14, pp 368-393. ([TAC](http://www.tac.mta.ca/tac/volumes/25/14/25-14abs.html))
+
+[[!redirects self-dual objects]]
+
+[[!redirects self-dual]]
+
+[[!redirects self-duality]]
+[[!redirects self-dualities]]
