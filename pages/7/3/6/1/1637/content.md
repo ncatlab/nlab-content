@@ -49,17 +49,17 @@ Remark: Since in the standard [[model structure on simplicial sets]] every simpl
 
 ##Combinatorial definition##
 
-Given morphisms $f,g,:X\to Y$ of simplicial objects in any category $C$, a __simplicial homotopy__ is a family of morphisms $\eta_n:X_n\to Y_{n+1}$ $n = 0,1,2,\ldots$, such that $d_0 h_0 = f$, $d_{n+1} \eta_n = g$ and
+Given morphisms $f,g,:X\to Y$ of simplicial objects in any category $C$, a __simplicial homotopy__ is a family of morphisms $h_i:X_n\to Y_{n+1}$, $i= 0,\ldots,n$ of $C$, such that $d_0 h_0 = f_n$, $d_{n} h_n = g_n$ and
 
 $$ d_i h_j = \left\lbrace\array{
-\eta_{j-1}d_i, & i\lt j \\
-d_i \eta_{i-1}, &i=j\neq 0\\
-\eta_j d_{i-1}, & i\gt j+1.
+h_{j-1}d_i, & i\lt j \\
+d_i h_{i-1}, &i=j\neq 0\\
+h_j d_{i-1}, & i\gt j+1.
 }\right.$$
 
 $$ s_i h_j = \left\lbrace\array{
-\eta_{j+1} s_i, & i\le j\\
-\eta_j s_{i-1}, & i\gt j.
+h_{j+1} s_i, & i\le j\\
+h_j s_{i-1}, & i\gt j.
 }\right.$$
 
 ##Commentary##
