@@ -538,7 +538,7 @@ Discussion in [[E-∞ geometry]] is in
 
 * [[Jacob Lurie]], section 4.2 of _[[Representability theorems]]_
 
-* [[Michael Hopkins]], [[Jacob Lurie]]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+* [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
  {#HopkinsLurie}
 
 [[!redirects Wirthmüller contexts]]
