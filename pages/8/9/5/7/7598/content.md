@@ -146,7 +146,7 @@ The colimit over such a diagram is a homotopy [[coequalizer]].
 
 Let $\mathcal{C} = $ [[sSet]]${}_{Quillen}$ be the standard [[model structure on simplicial sets]]. Then $[\mathcal{D}, \mathcal{C}]_{proj}$ is the projective [[model structure on simplicial presheaves]]. 
 
-For the following see at _[[model structure on simplicial presheaves]]_ the section _[Cofibrant objects](/model+structure%20on%20simplicial%20presheaves#CofibrantObjects)_ for more details (due to [[Dan Dugger]]).
+For the following see at _[[model structure on simplicial presheaves]]_ the section _[Cofibrant objects](model+structure%20on%20simplicial%20presheaves#CofibrantObjects)_ for more details (due to [[Dan Dugger]]).
 
 
 +-- {: .num_prop}
