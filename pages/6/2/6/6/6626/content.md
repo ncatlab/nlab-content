@@ -69,15 +69,15 @@ If a structural set theory is given by stating axioms for the [[category of sets
 
 [[Lawvere]] gives a definition ([Lawvere70, p. 12-13](#Lawvere70)) of comprehension in [[hyperdoctrines]].
 
-Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $\top_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_!{\top_Y}$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
+Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $T_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_! T_Y$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
 
 This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$ such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Lawvere calls the morphism $\{P\} \to X$ the _[[extension (semantics)|extension]]_ of $P$, so that one could say that $E$ satisfies the comprehension schema if the extensions of all predicates exist.
 
 ### Jacobs' reformulation
 
-Notice that, in the above situation, morphisms $\im t \to P$ in $E_X$ are in bijection with morphisms $\top_Y \to t^* P$ in $E_Y$, and that these are the same as morphisms $\top_Y \to P$ in the total category $E$ that lie over $t$.  This leads to an alternative formulation of the definition, given in [Jacobs 99](#Jacobs99). If the fibres $E_X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $\top_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
+Notice that, in the above situation, morphisms $\im t \to P$ in $E_X$ are in bijection with morphisms $T_Y \to t^* P$ in $E_Y$, and that these are the same as morphisms $T_Y \to P$ in the total category $E$ that lie over $t$.  This leads to an alternative formulation of the definition, given in [Jacobs 99](#Jacobs99). If the fibres $E_X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $T_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
 
-The implication from [Lawvere's definition](#LawvereDefinition) to Jacobs's is clear.  Conversely, if a fibration $p \colon E \to B$ satisfies the Jacobs definition, then there is a bijection between morphisms $\top_Y \to P$ in $E$ and morphisms $Y \to \{P\}$ in $B$.  One must then show that the composite of this last with the canonical $\{P\} \to X$ (given by $p$ applied to the counit $\top_{\{P\}} \to P$) is equal to $p$ applied to the morphism $Y \to \{P\}$, thus giving a morphism in $B/X$ of the right sort.  But in fact the morphism $Y \to \{P\}$ is unique with the property that applying $\top$ and composing with the counit gives the morphism $\top_Y \to P$, by the counit's universal property, and applying $p$ to this commuting triangle in $E$ produces the required one in $B$.
+The implication from [Lawvere's definition](#LawvereDefinition) to Jacobs's is clear.  Conversely, if a fibration $p \colon E \to B$ satisfies the Jacobs definition, then there is a bijection between morphisms $T_Y \to P$ in $E$ and morphisms $Y \to \{P\}$ in $B$.  One must then show that the composite of this last with the canonical $\{P\} \to X$ (given by $p$ applied to the counit $T_{\{P\}} \to P$) is equal to $p$ applied to the morphism $Y \to \{P\}$, thus giving a morphism in $B/X$ of the right sort.  But in fact the morphism $Y \to \{P\}$ is unique with the property that applying the functor $T_{-}$ and composing with the counit gives the morphism $T_Y \to P$, by the counit's universal property, and applying $p$ to this commuting triangle in $E$ produces the required one in $B$.
 
 ### Examples
 
@@ -110,8 +110,8 @@ $$
 This gives rise to an [[orthogonal factorization system]] precisely when each $\eta_t$ is [[orthogonal]] to all subtype inclusions.
 It is shown by [(Carboni et. al., section 2.12)](#Carboni97) that this holds if and only if subtype inclusions are closed under composition.
 
-For the subobject fibration of a regular category, this gives the usual regular-epi--mono factorization system, while for the fibration of presheaves over $Cat$ it gives the factorization of a functor into a final functor followed by a discrete fibration.  (See also [[michaelshulman:comprehensive factorization]].)
-  
+For the subobject fibration of a regular category, this gives the usual ([[regular epimorphism|regular epi]], [[monomorphism|mono]]) factorization system, while for the fibration of presheaves over $Cat$ it gives the factorization of a functor into a [[final functor]] followed by a [[discrete fibration]].  (See also [[michaelshulman:comprehensive factorization]] for a description of the latter as a [[factorization system in a 2-category]].)
+
 
 ## Axiom or axiom scheme?
 
