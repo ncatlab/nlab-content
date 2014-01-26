@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[mathematical logic]], a _theory_ is a formal language used to precisely [[axiom|axiomatize]] a certain class of [[models]].
+In [[mathematical logic]], a _theory_ is a formal [[language]] used to precisely [[axiom|axiomatize]] a certain class of [[models]].
 
 In principle also all other notions of _theory_, such as in the sense of [[physics]] should be special cases of this, but in practice of course there are many systems called "theories" which are not (yet) as fully formalized as in mathematical logic.
 
@@ -239,3 +239,5 @@ In [[Coq]] theories are specified with the
 [[!redirects theories]]
 
 [[!redirects theory (logic)]]
+
+
