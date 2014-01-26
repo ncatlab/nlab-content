@@ -1,0 +1,11 @@
+
+* formal language: [[theory]]
+
+  * [[object language]], [[metalanguage]]
+
+* [[linguistics]]
+
+[[!redirects languages]]
+
+[[!redirects formal language]]
+[[!redirects formal languages]]
