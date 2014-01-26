@@ -1,14 +1,20 @@
-[[!redirects finitely presented group]]
-##Idea
+
+# Finitely presented groups
+* table of contents
+{: toc}
+
+## Idea
 
 A group $G$ is *finitely presentable* if it has a *finite presentation*, i.e., there is a [[group presentation]], $\langle X: R\rangle$, for $G$ with both its set, $X$, of generators and its set, $R$, of relations being finite sets.
 
-###Remark:
++-- {: .un_remark}
+###### Remark
 
 The term 'finitely presented' is often used rather than `finitely presentable', however 'finitely presented' would seem to imply that a given finite presentation was intended, whilst here only the existence of one is required.
+=--
+
 
 ## References
-
 
 Useful elementary or introductory texts, include
 
@@ -17,3 +23,9 @@ Useful elementary or introductory texts, include
 and the earlier:
 
 * D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press.
+
+
+[[!redirects finitely presented group]]
+[[!redirects finitely presented groups]]
+[[!redirects finitely presentable group]]
+[[!redirects finitely presentable groups]]
