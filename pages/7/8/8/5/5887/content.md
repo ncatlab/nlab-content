@@ -51,7 +51,7 @@ $$
   f : X \to Y,\; x : X \; \vdash \; f(x) : Y
 $$
 
-expressing  _[[function application]]_.
+expressing  _[[function application]]_. On [[propositions]] ([[(-1)-truncation|(-1)-truncated]] [[types]]) this is the [[modus ponens]] [[deduction]] rule.
 
 [[!redirects evaluation]]
 [[!redirects evaluation maps]]
