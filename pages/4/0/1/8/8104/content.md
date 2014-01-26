@@ -21,7 +21,7 @@ The determination of the allowable domain for $x$, given $f$, depends a bit on [
 
 ## Syntax versus semantics
 
-In formalized [[logic]] and [[type theory]], $f$, $x$, and $f(x)$ are [[terms]] (or more precisely, [[metavariable|metavariables]] standing for terms), and the process of function application is a rule of term formation.  This is something which belongs to the realm of [[syntax]].
+In formalized [[logic]] and [[type theory]], $f$, $x$, and $f(x)$ are [[terms]] (or more precisely, [[metavariable|metavariables]] standing for terms), and the process of function application is a rule of term formation.  This is something which belongs to the realm of [[syntax]]. On [[propositions]] ([[(-1)-truncation|(-1)-truncated]] types) this is the [[modus ponens]] [[deduction]] rule.
 
 Under a [[denotational semantics|denotational]] [[semantics]], each of these terms denotes a particular object, and we also refer to the object denoted by $f(x)$ as the result of applying the object denoted by $f$ to the object denoted by $x$.  For instance, in a [[material set theory|material set-theoretic]] semantics, $f$ would denote a set of [[ordered pairs]] such that for any $a$, there is at most one $b$ such that $(a,b)\in f$, and $x$ would denote some $a$ such that there *does* exist such a $b$, and $f(x)$ would denote that uniquely specified $b$.  The distinction between the terms $f$, $x$, and $f(x)$ and what they denote is usually (and harmlessly) blurred in ordinary mathematical practice, but when studying logic and type theory formally it becomes important.
 
