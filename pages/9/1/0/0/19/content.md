@@ -378,7 +378,7 @@ The [[foundation]] of category theory in [[homotopy type theory]] (via the notio
 
 * [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
-* [[Tom Leinster]], _[Notes](http://www.maths.gla.ac.uk/~tl/msci) on basic category theory_
+* [[Tom Leinster]], _[Notes](http://www.maths.ed.ac.uk/~tl/msci/) on basic category theory_
 
 * [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)
 
