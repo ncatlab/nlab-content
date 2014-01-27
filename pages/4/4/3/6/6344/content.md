@@ -30,3 +30,5 @@
 [[!redirects elementary particle]]
 [[!redirects elementary particles]]
 
+[[!redirects family of elementary particles]]
+[[!redirects families of elementary particles]]
