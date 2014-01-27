@@ -21,6 +21,8 @@
 
 The _gluon_ is the [[gauge boson]] of the $SU(3)$-[[Yang-Mills field]] in [[QCD]].
 
+A [[vector boson]] in the [[standard model of particle physics]].
+
 ## Related concepts
 
 * [[quark-gluon plasma]]
