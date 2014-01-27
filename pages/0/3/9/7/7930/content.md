@@ -386,6 +386,8 @@ See for instance ([Freed 99, p. 53](#Freed)).
 
 * [[spinor]], [[spinor bundle]]
 
+* [[chiral fermion]]
+
 * [[Fierz identity]]
 
 * [[unitary representation of the super Poincaré group]]
