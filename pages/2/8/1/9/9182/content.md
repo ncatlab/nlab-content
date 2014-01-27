@@ -14,11 +14,17 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-One of the quanta of the [[electroweak field]].
+One of the quanta of the [[electroweak field]], a [[vector boson]] in the [[standard model of particle physics]].
 
 ## Related concepts
+
+* [[charged current]]
 
 * [[electroweak symmetry breaking]], [[Higgs effect]]
 
