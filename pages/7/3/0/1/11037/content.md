@@ -38,16 +38,24 @@ $$
 the new sequent
 
 $$
-  \Gamma, \Pi \vdash \Delta, \Lambda
+  \Pi, \Gamma \vdash \Lambda, \Delta
 $$
 
-may be [[deduction|deduced]]. 
+may be [[deduction|deduced]]. This is often written in the form 
+
+$$\frac{\Gamma \vdash A, \Delta \; \; \; \Pi, A \vdash \Lambda}{\Pi, \Gamma \vdash \Lambda, \Delta} \; cut.$$ 
 
 In the [[categorical semantics]] where each [[sequent]] here is interpreted as a [[morphism]] in a [[category]], the cut rule asserts the existence of [[composition]] of morphisms.
 
-The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s Hauptsatz") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").  While Gentzen\'s original theorem was for a few particular sequent calculi that he was considering, it is true of many other sequent calculi and is generally seen as desirable.  (That said, there are some useful sequent calculi in which it fails.)
+The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s Hauptsatz") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").  While Gentzen\'s original theorem was for a few particular sequent calculi that he was considering, it is true of many other sequent calculi and is generally seen as desirable.  (That said, there are some useful sequent calculi in which it fails.) 
 
-In the analogy between the composition and the cut rule, the analogue of [[identity morphisms]] is the identity rule
+Intuitively, the problem in deciding whether a formula $B$ follows from a formula $A$, i.e., deriving $A \vdash B$, is that there could be very complicated steps in the middle, i.e., in typical mathematical arguments one puts together steps $A \vdash C$ and $C \vdash B$ where $C$ is potentially a complicated or large formula. For an automated theorem prover, the search space for such $C$ is potentially infinite. By establishing a cut-elimination theorem for formal systems, one circumvents this problem, and it is quite typical that cut-free proofs build up complex sequents from less complex sequents (cf. [[subformula property]]), so that one can decide whether a sequent is provable or derivable by following an inductive procedure. 
+
+Cut-elimination is also a key step in deciding whether two proofs of a sequent are the "same" in some suitable sense. In [[type theory]], for instance, the issue is not merely whether $A \vdash B$ is provable or whether the function type $A \multimap B$ is inhabited (has a proof or a term witnessing that fact), but also the nature of the space of such proofs. A cut-elimination result worthy of the name will not merely replace a proof with one which is cut-free, but with a cut-free proof which is _equivalent_ to the original. This idea is used for instance in proving [[coherence theorems]]. 
+
+## Connection to identities 
+
+In the analogy between the composition and the cut rule, the analogue of [[identity morphisms]] (or nullary compositions) is the identity rule
 
 $$
   A \vdash A
@@ -55,7 +63,25 @@ $$
 
 Typically, a cut-elimination algorithm goes hand-in-hand with an algorithm which eliminates the identity rule, or rather which pushes back identities as far as possible, down to identities for basic propositional variables (so for example, $p \wedge q \vdash p \wedge q$ may be proved using $p \vdash p$ and $q \vdash q$, in addition to the rules for $\wedge$, but $p \vdash p$ itself must be adopted as an axiom). 
 
-In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts.  
+In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts. 
+
+## Alternative forms of the cut rule  
+
+In [[linear logic]] (for instance), one sometimes sees sequents written in one-sided form: 
+
+$$\; \vdash \Gamma.$$ 
+
+Here the [[negation]] operator is used to mediate between classical two-sided sequents and one-sided sequents, according to a scheme where a sequent $\Gamma, A \vdash \Delta$ is associated with a sequent $\Gamma \vdash \Delta, \neg A$ (each being derivable from the other). Thus one can contemplate sequents where all formulae have been pushed to the right of the entailment symbol $\vdash$. 
+
+For such one-sided sequents, say in multiplicative linear logic, the cut rule may be expressed in the form 
+
+$$\frac{\vdash \Gamma, \neg A \;\;\; \vdash \Delta, A}{\vdash \Gamma, \Delta} \; cut$$ 
+
+and this rule is 'dual' to one which introduces an identity: 
+
+$$\frac{}{\vdash \neg A, A} \; identity.$$ 
+
+Categorically, the cut rule in this form corresponds to the arrow $\neg A \otimes A \to \bot$ that implements an evaluation, and the identity rule corresponds to an arrow $\top \to \neg A \wp A = A \multimap A$ that names an identity morphism. These two arrows are de Morgan dual to one another. 
 
 
 ## References
