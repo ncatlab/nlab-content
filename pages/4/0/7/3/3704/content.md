@@ -102,6 +102,12 @@ The idea that the natural language of [[quantum mechanics]] and [[quantum comput
 * [[Samson Abramsky]] and [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 {#AbramskyCoecke}
 
+with an expanded version in 
+
+* [[Samson Abramsky]], [[Bob Coecke]], _Categorical quantum mechanics_, in _Handbook of Quantum Logic and Quantum Structures vol II_, Elsevier, 2008 ([arXiv:0808.1023](http://arxiv.org/abs/0808.1023))
+ {#AbramskyCoecke08}
+
+
 A fairly comprehensive account of the underlying theory of [[string diagrams]] is in
 
 * [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
