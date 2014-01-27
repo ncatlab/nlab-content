@@ -1,0 +1,8 @@
+
+* [webpage](http://www.math.cornell.edu/m/People/PhD/2005Aug/slavnov)
+
+## Related entries
+
+* [[quantum logic]], [[linear logic]]
+
+category: people
