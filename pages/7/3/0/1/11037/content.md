@@ -66,11 +66,25 @@ Typically, a cut-elimination algorithm goes hand-in-hand with an algorithm which
 
 In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts. 
 
-More precisely (continuing the example of [[conjunction]]), we prove the identity rule for $A \wedge B$ (given it for $A$ and $B$) by applying the [[elimination rules]] and then the [[introduction rule]]:
+## Examples
 
-$$ \frac { \displaystyle \frac { A \vdash A } { A \wedge B \vdash A } \;\;\; \frac { B \vdash B } { A \wedge B \vdash B} } { A \wedge B \vdash A \wedge B } .$$
+The conversion
 
-Following [[propositions as types]], this turns the trivial [[terms]]-in-context $x\colon A \vdash x\colon A$ and $y\colon B \vdash y\colon B$ into $z\colon A \wedge B \vdash (\pi z, \rho z)\colon A \wedge B$; replacing $z\colon A \wedge B \vdash z\colon A \wedge B$ with this is $\eta$-expansion.
+$$
+\frac{\displaystyle \frac{\Gamma, A \vdash B, \Delta}{\Gamma \vdash A \multimap B,\Delta} \;\;\; \frac{\Pi_1 \vdash A,\Lambda_1 \;\;\; \Pi_2,B \vdash \Lambda_2}{\Pi_2,\Pi_1, A\multimap B \vdash \Lambda_2,\Lambda_1}}{\Pi_2,\Pi_1, \Gamma \vdash \Lambda_2,\Lambda_1, \Delta}
+  \quad\to\quad
+\frac{\displaystyle \frac{\Gamma, A \vdash B, \Delta \;\;\; \Pi_1 \vdash A,\Lambda_1}{\Pi_1,\Gamma \vdash \Lambda_1,B,\Delta} \;\;\; \Pi_2,B \vdash \Lambda_2}{\Pi_2,\Pi_1, \Gamma \vdash \Lambda_2, \Lambda_1,\Delta}
+$$
+
+replaces a single cut on the formula $A \multimap B$ with a pair of cuts on the formulas $A$ and $B$, in the process eliminating the use of the logical rules ${\multimap}R$ and ${\multimap}L$.  Likewise, the conversion
+
+$$A \wedge B \vdash A \wedge B
+\quad\to\quad
+\frac { \displaystyle \frac { A \vdash A } { A \wedge B \vdash A } \;\;\; \frac { B \vdash B } { A \wedge B \vdash B} } { A \wedge B \vdash A \wedge B } $$
+
+reconstructs the identity on $A \wedge B$ from identities on $A$ and on $B$, by first applying the ${\wedge}R$ rule followed by the two ${\wedge}L$ rules (reading the derivation on the right bottom-up).
+
+(Compare these two conversions arising from cut- and identity-elimination to the lambda calculus conversions $(\lambda x.t_1) t_2 \to t_2[t_1/x]$ and $t \to \langle\pi_1t,\pi_2 t\rangle$, i.e., a $\beta$ reduction and an $\eta$ expansion respectively.)
 
 
 ## Alternative forms of the cut rule  
