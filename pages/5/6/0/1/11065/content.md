@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[fermion]] in a chiral [[spin representation]].
+
+## Related entries
+
+* [[standard model of particle physics]]
+
+* [[quantum anomaly]]
+
+[[!redirects chiral fermions]]
+
