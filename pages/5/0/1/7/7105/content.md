@@ -482,7 +482,7 @@ By duality (see [[universal coefficient theorem]]) an analogous statement holds 
 
 An original reference is
 
-* [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307.
+* [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
  {#EckmannHilton}
 
 A more modern review that emphasizes the role of [[fiber sequences]] is in
