@@ -53,6 +53,7 @@ Intuitively, the problem in deciding whether a formula $B$ follows from a formul
 
 Cut-elimination is also a key step in deciding whether two proofs of a sequent are the "same" in some suitable sense. In [[type theory]], for instance, the issue is not merely whether $A \vdash B$ is provable or whether the function type $A \multimap B$ is inhabited (has a proof or a term witnessing that fact), but also the nature of the space of such proofs. A cut-elimination result worthy of the name will not merely replace a proof with one which is cut-free, but with a cut-free proof which is _equivalent_ to the original. This idea is used for instance in proving [[coherence theorems]]. 
 
+
 ## Connection to identities 
 
 In the analogy between the composition and the cut rule, the analogue of [[identity morphisms]] (or nullary compositions) is the identity rule
@@ -64,6 +65,13 @@ $$
 Typically, a cut-elimination algorithm goes hand-in-hand with an algorithm which eliminates the identity rule, or rather which pushes back identities as far as possible, down to identities for basic propositional variables (so for example, $p \wedge q \vdash p \wedge q$ may be proved using $p \vdash p$ and $q \vdash q$, in addition to the rules for $\wedge$, but $p \vdash p$ itself must be adopted as an axiom). 
 
 In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts. 
+
+More precisely (continuing the example of [[conjunction]]), we prove the identity rule for $A \wedge B$ (given it for $A$ and $B$) by applying the [[elimination rules]] and then the [[introduction rule]]:
+
+$$ \frac { \displaystyle \frac { A \vdash A } { A \wedge B \vdash A } \;\;\; \frac { B \vdash B } { A \wedge B \vdash B} } { A \wedge B \vdash A \wedge B } .$$
+
+Following [[propositions as types]], this turns the trivial [[terms]]-in-context $x\colon A \vdash x\colon A$ and $y\colon B \vdash y\colon B$ into $z\colon A \wedge B \vdash (\pi z, \rho z)\colon A \wedge B$; replacing $z\colon A \wedge B \vdash z\colon A \wedge B$ with this is $\eta$-expansion.
+
 
 ## Alternative forms of the cut rule  
 
