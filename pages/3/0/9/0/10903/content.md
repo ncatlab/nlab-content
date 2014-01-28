@@ -95,6 +95,8 @@ $$
   \,.
 $$
 
+(In the typical kind of model this means to assign to a [[space]] $X$ the linear space of [[sections]] of the trivial [[line bundle]] over it.)
+
 One checks that this indeed makes $\Sigma$ be a [[strong monoidal functor]] ([Ponto-Shulman 12, (4.3)](#PontoShulman12)).
 
 
