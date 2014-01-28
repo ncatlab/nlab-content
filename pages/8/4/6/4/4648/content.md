@@ -77,6 +77,12 @@ A classical survey is
 
 * [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172)).
 
+Another set of lecture notes on geometric Langlands and [[nonabelian Hodge theory]] is
+
+* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
+conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
+
+
 Collections of resources are here;
 
 * [[David Ben-Zvi]], Geometric Langlands -- Lectures and Resources ([web](http://www.math.utexas.edu/users/benzvi/Langlands.html))
