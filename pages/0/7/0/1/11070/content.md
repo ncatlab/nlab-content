@@ -1,0 +1,2 @@
+* [[regular ring]]
+* [[regular scheme]]
