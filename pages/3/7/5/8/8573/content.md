@@ -9,6 +9,8 @@ One way to define a _connection_ on a [[vector bundle]] $E \to X$ is as a [[prin
 
 ## Examples
 
+* [[flat vector bundle]]
+
 * [[Bott connection]]
 
 (...)
