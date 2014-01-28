@@ -119,6 +119,8 @@ Much else to be discussed...
  
   * [[connection on a vector bundle]]
 
+  * [[flat vector bundle]]
+
   * [[complex vector bundle]]
 
 * [[2-vector bundle]]
@@ -142,7 +144,7 @@ An exposition with an eye towards [[gauge theory]] is in section 16.1 of
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
-* [[Raoul Bott]], Loring W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
+* [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
 Discussion with an eye towards [[K-theory]] is in
 
