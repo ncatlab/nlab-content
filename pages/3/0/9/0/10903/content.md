@@ -51,7 +51,7 @@ In [[geometry]]/[[topos theory]] such a "linear hyperdoctrine" is known as _[[si
 ### The canonical co-modality
  {#TheCanonicalComodality}
 
-The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$" (and, for better or worse, sometimes pronounced "of course" or... "bang").
+The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the [[!-modality]].
  
 In ([Benton 95](#Benton95), [Bierman 95](#Bierman95))
 it is noticed (reviewed in ([Barber 97, p. 21 (26)](#Barber97))) that a natural [[categorical semantics]] for this modality identifies it with the [[comonad]] that is induced from a [[strong monoidal adjunction]]
@@ -99,6 +99,8 @@ $$
 (In the typical kind of model this means to assign to a [[space]] $X$ the linear space of [[sections]] of the trivial [[line bundle]] over it.)
 
 One checks that this indeed makes $\Sigma$ be a [[strong monoidal functor]] ([Ponto-Shulman 12, (4.3)](#PontoShulman12)).
+
+The condition that this $\Sigma$ (and its relative/dependent versions) has a [[right adjoint]] may also be understood as saying that the dependent linear type theory satisfies the _[[axiom of comprehension]]_. See at _[comprehension -- Examples -- In dependent linear type theory](http://ncatlab.org/nlab/show/axiom+of+separation#ExamplesDependentLinearTypeTheory)_ for more.
 
 
 ## Related concepts
@@ -173,3 +175,4 @@ Comments on the formalization of [[integral transforms]] and [[quantization]] in
 
 [[!redirects dependent linear homotopy type theory]]
 [[!redirects dependent linear homotopy type theories]]
+
