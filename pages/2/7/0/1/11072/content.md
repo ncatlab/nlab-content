@@ -23,3 +23,4 @@ For the moment see at _[dependent linear type theory -- The canonical co-modalit
 
 [[!redirects of course]]
 [[!redirects !]]
+[[!redirects exponential conjunction]]
