@@ -69,9 +69,19 @@ If a structural set theory is given by stating axioms for the [[category of sets
 
 [[Lawvere]] gives a definition ([Lawvere70, p. 12-13](#Lawvere70)) of comprehension in [[hyperdoctrines]].
 
-Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $T_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_! T_Y$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
++-- {: .num_defn #LawvereianComprehension}
+###### Definition
+
+Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $T_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward ([[dependent sum]]) $t_! T_Y$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_, or to satisfy the _comprehension schema_, if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$ such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Lawvere calls the morphism $\{P\} \to X$ the _[[extension (semantics)|extension]]_ of $P$, so that one could say that $E$ satisfies the comprehension schema if the extensions of all predicates exist.
+
+=--
 
 ### Jacobs' reformulation
 
@@ -94,6 +104,26 @@ More generally, the same construction works for the posets of subobjects in any 
 There is a functor $Cat_1^{op} \to CAT_1$, from the [[large category|large]] [[Cat|1-category of categories]] and functors to the '[[very large category|very large]]' 1-category of large categories and functors, that sends a category $C$ to the [[category of presheaves]] $[C^{op}, Set]$  on $C$, and a functor $F \colon C \to D$ to the pullback functor $F^* \colon [D^{op}, Set] \to [C^{op}, Set]$.  These pullback functors have left and right adjoints given by [[Kan extension]].
 
 [Lawvere 70](#Lawvere70) shows that this fibration has comprehension, with the [[extension (semantics)|extension]] of a presheaf given by its [[category of elements]] together with the canonical projection from this to the base category.
+
+#### In dependent linear type theory
+ {#ExamplesDependentLinearTypeTheory}
+
+If the [[hyperdoctrine]] has [[linear type theories]]/[[symmetric monoidal categories]] as fibers, then it is more natural to consider in def. \ref{LawvereianComprehension} not the [[terminal object]] in some fiber (if any) but the [[tensor unit]] (which of course happens to be the terminal object in the case of [[cartesian monoidal category|cartesian monoidal]]) fibers.
+
+In this case then the image functor in def. \ref{LawvereianComprehension} is 
+
+$$
+  \Sigma_X \;\colon\; (Y \stackrel{f}{\to} X) \mapsto \underset{f}{\sum} 1_Y 
+  \,.
+$$
+
+If this has a [[right adjoint]] $R_X$, hence if we have linear comprehension according to def. \ref{LawvereianComprehension}, then the induced [[comonad]]
+
+$$
+  !_X \coloneqq \Sigma_X \circ R_X
+$$
+
+is (the [[dependent type theory|dependent]] version of) the canonical [[categorical semantics|categorical interpretation]] of the [[!-modality]] of [[linear logic]]. See at _[dependent linear type theory --  The canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more.
 
 ### The comprehensive factorization system
 
@@ -123,6 +153,10 @@ Although usually presented as an axiom scheme, in many cases, all instances of s
 Full separation follows from the [[axiom of replacement]] and the principle of [[excluded middle]] (along with the axiom of the [[empty set]]).  Therefore, the axiom is often left out entirely of a description of [[ZFC]] (the usually accepted foundation of mathematics).  In versions of set theory for [[constructive mathematics]], however, we often have replacement but only bounded or limited separation, and in any case separation must be listed explicitly.
 
 ## References
+
+### General
+
+(...)
 
 ### In hyperdoctrines
 
