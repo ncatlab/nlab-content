@@ -22,7 +22,9 @@ The category of mixed motives is supposed to be an [[abelian category|abelian]] 
 
 So far there is no realisation of such a category, but there are proposals by [[Vladimir Voevodsky]] and [[Marc Levine]] of [[triangulated categories]] that behave as its [[derived category]] is expected to.
 
-## Construction of Cisinski-Deglise
+## Voevodsky's mixed motives
+
+Here we construct [[Voevodsky]]'s [[triangulated category]] of mixed motives following [Cisinski-Deglise](#CD).
 
 1.  Let $S$ be a [[regular scheme|regular]] and [[noetherian scheme|noetherian]] base [[scheme]].   Let $Sm_S$ be the category of [[schemes]] [[smooth]] and of [[finite type]] over $S$.  Let $N_S^{tr}$ denote the [[closed symmetric monoidal category]] of [[Nisnevich sheaves with transfer]].  We will write $L_S[X]$ for the [[sheaf]] [[representable|represented]] by $X \in Sm_S$.
 
@@ -55,6 +57,7 @@ So far there is no realisation of such a category, but there are proposals by [[
 * [[Marc Levine]], _Mixed Motives_, Handbook of K-theory ([pdf](http://www.uni-due.de/~bm0032/publ/MixMotKHB.pdf))
 
 * [[Denis-Charles Cisinski]], [[Frédéric Déglise]], _Local and stable homological algebra in Grothendieck abelian categories_, [arXiv](http://arxiv.org/abs/0712.3296).
+{#CD}
 
 Section 8.3 of 
 
