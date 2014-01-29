@@ -103,6 +103,8 @@ Other aspects are treated in
 * [[Andrea Asperti]], [[Guiseppe Longo]], _Categories, types and structures, An Introduction to Category Theory for the working computer scientist_, M.I. T. Press (out of print, but available [online](
 http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).)
 
+[Logical Methods in Computer Science](http://www.lmcs-online.org/ojs/about.php) is an open access journal for papers on Theoretical Computer Science and other areas of Computer Science in which logical methods play a large part.
+
 category: computer science
 
 [[!redirects computer science]]
