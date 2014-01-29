@@ -1,6 +1,6 @@
 The **cellular approximation theorem** states that every [[continuous map]] between [[CW complexes]] (with chosen CW presentations) is [[homotopy|homotopic]] to a [[cellular map]] (a map induced by a map of cell complexes). 
 
-This is a CW analogue of the [[simplicial approximation theorem]] (sometimes also called lemma): that every continuous map between the geometric realizations of [[simplicial sets]] is homotopic to a map induced by a map of simplicial sets. 
+This is a CW analogue of the [[simplicial approximation theorem]] (sometimes also called lemma): that every continuous map between the geometric realizations of [[simplicial sets]] is homotopic to a map induced by a map of simplicial sets (after subdivision?). 
 
 * wikipedia: [cellular approximation](http://en.wikipedia.org/wiki/Cellular_approximation)
 
