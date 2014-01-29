@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of _$n$-plectic form_ is a generalization of the notion of [[symplectic form]] to [[differential forms]] of more than two arguments. This is considered in [[higher symplectic geometry]], specifically: in [[multisymplectic geometry]].
+The notion of _$n$-plectic form_ is a generalization of the notion of [[symplectic form]] to [[differential forms]] of more than two arguments. This is considered in [[higher symplectic geometry]], specifically: in [[n-plectic geometry]]/[[multisymplectic geometry]].
 
 ## Definition
 
@@ -30,17 +30,31 @@ The notion of _$n$-plectic form_ is a generalization of the notion of [[symplect
 For $X$ a [[smooth manifold]] and $n \in \mathbb{N}$, $n \geq 1$, a [[differential form]] $\omega$ on $X$ is **$n$-plectic**
 if 
 
-1. it is an $n$-forms, $\omega \in \Omega^n(X)$;
+1. it is an $(n+1)$-form, $\omega \in \Omega^{n+1}(X)$;
 
 1. it is closed: $d_{dR} \omega = 0$;
 
 1. it is non-degenerate in that the [[contraction]] map
 
    $$
-     \iota_{(-)}\omega : \Gamma(T X) \to \Omega^{n-1}(X)
+     \iota_{(-)}\omega \;\colon\; \Gamma(T X) \to \Omega^{n}(X)
    $$
 
    has trivial [[kernel]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+An 1-plectic form is equivalently a [[symplectic form]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If the last condition is dropped, then by analogy with [[presymplectic forms]] one may speak of a _pre-$n$-plectic_ form. Of course this is just a closed $(n+1)$-form, but as in the presymplectic case, the plectic-terminology indicates that one wants to regard it as input datum for [[higher geometric quantization]]. 
 
 =--
 
@@ -53,7 +67,7 @@ This definition has an evident generalization to the case where also $X$ is allo
 
 ## References
 
-See the references at [[multisymplectic geometry]].
+See the references at _[[n-plectic geometry]]_ and at _[[multisymplectic geometry]]_.
 
 For instance definition 2.1 in 
 
