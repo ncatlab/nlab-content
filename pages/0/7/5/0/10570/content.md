@@ -50,32 +50,33 @@ this induces
 
 * the _[[partial flag varieties]]_ $G/P_J$
 
-* the **Bruhat decomposition** is the [[coproduct]] decomposition
 
-  $$
-    G = \underset{w \in W_0}{\coprod} B w B
-  $$
+A **Bruhat decomposition** is, if it exists, a [[coproduct]] decomposition
 
-  $$
-    G =  \underset{u \in W^J}{\coprod} B u P_j
-  $$
+$$
+  G = \underset{w \in W_0}{\coprod} B w B
+$$
 
-  with 
+$$
+  G =  \underset{u \in W^J}{\coprod} B u P_j
+$$
 
-  * $W_J \coloneqq \{v \in W_0 | v T  \subset P_J\}$
+with 
 
-  * $W^J \coloneqq \{coset\; representatives\; u \; of \; cosets \; in W_0/W_J\}$
+* $W_J \coloneqq \{v \in W_0 | v T  \subset P_J\}$
 
-* into [[Schubert varieties]] 
+* $W^J \coloneqq \{coset\; representatives\; u \; of \; cosets \; in W_0/W_J\}$
 
-  $$
-    X_w = \overline{B w B} \subset G/B
-  $$
+into [[Schubert varieties]] 
 
-  $$
-    X_u^J = \overline{B u P_J} \subset G/P_J
-    \,.
-  $$
+$$
+  X_w = \overline{B w B} \subset G/B
+$$
+
+$$
+  X_u^J = \overline{B u P_J} \subset G/P_J
+  \,.
+$$
 
 
 ## Related concepts
