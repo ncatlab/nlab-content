@@ -15,7 +15,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea 
@@ -203,8 +203,10 @@ Chapters 3,4,5 in
 [[!redirects 2-categorical colimits]]
 [[!redirects 2-categorial colimit]]
 [[!redirects 2-categorial colimits]]
+
 [[!redirects bilimit]]
 [[!redirects bilimits]]
+
 [[!redirects bicolimit]]
 [[!redirects bicolimits]]
 
