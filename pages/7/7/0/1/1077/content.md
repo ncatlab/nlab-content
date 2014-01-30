@@ -1,4 +1,6 @@
 
+> This entry is about [[coproducts]] coinciding with [[products]]. For the notion of biproduct in the sense of [[bicategory]] theory see at [[2-limit]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -6,21 +8,25 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
 
 #Contents#
-* toc
+* table of contents
 {: toc}
 
-# Idea #
+## Idea 
 
 A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way.  Finite biproducts are best known from [[additive category|additive categories]] and their generalisations.
 
 Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
-# Definition #
+## Definition 
 
 Let $C$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (for example, $C$ might have a [[zero object]]).  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
 $$
@@ -49,7 +55,9 @@ The above definition has a straightforward generalization to biproducts of any n
 
 A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
 
-# Semiadditive categories #
+
+
+## Semiadditive categories 
 
 A category $C$ with all finite biproducts is called a **semiadditive category**.  More precisely, this means that $C$ has all finite products and coproducts, that the unique map $0\to 1$ is an isomorphism (hence $C$ has a zero object), and that the canonical maps $c_1 \sqcup c_2 \to c_1 \times c_2$ defined above are isomorphisms.
 
@@ -61,8 +69,9 @@ An [[additive category]], although normally defined through the theory of [[enri
 
 The existence of duals also tends to imply (semi)additivity; see [this paper](http://arxiv.org/abs/math/0604542) and [this MO question](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307).
 
+## Properties
 
-# Biproducts imply enrichment #
+### Biproducts imply enrichment 
 
 A semiadditive category is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoids]] with the usual [[tensor product]], as follows.
 
@@ -77,11 +86,26 @@ If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $
 If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattices]] (and is therefore a kind of [[2-poset]]).
 
 
-# Biproducts as enriched Cauchy colimits #
+### Biproducts as enriched Cauchy colimits 
 
 Conversely, if $C$ is already known to be enriched over abelian monoids, then a binary biproduct may be defined purely diagrammatically as an object $c_1\oplus c_2$ together with injections $n_i:c_i\to c_1\oplus c_2$ and projections $p_i:c_1\oplus c_2 \to c_i$ such that $p_j n_i = \delta_{i j}$ (the [[Kronecker delta]]) and $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$.  It is easy to check that makes $c_1\oplus c_2$ a biproduct, and that any binary biproduct must be of this form.  Similarly, an object $z$ of such a category is a zero object precisely when $1_z= 0_z$, its identity is equal to the zero morphism. It follows that functors enriched over abelian monoids must automatically preserve finite biproducts, so that finite biproducts are a type of [[Cauchy colimit]].  Moreover, any product _or_ coproduct in a category enriched over abelian monoids is actually a biproduct.
 
 For categories enriched over [[suplattices]], this extends to all small biproducts, with the condition $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$ replaced by $\bigvee_{i} n_i p_i = 1_{\bigoplus_i c_i}$.  In particular, the category of suplattices has all small biproducts.
+
+## Examples
+
+Categories with biproducts include:
+
+* [[K(n)-local stable homotopy theory]] ([Hopkins-Lurie 14](#HopkinsLurie14))
+
+## Related concepts
+
+* [[semiadditive (∞,1)-category]]
+
+## References
+
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
+
 
 [[!redirects biproducts]]
 [[!redirects semiadditive category]]
