@@ -51,7 +51,8 @@ A tool of central importance in stable homotopy theory and its application to [[
 * [[noncommutative stable homotopy theory]]
 
 * [[chromatic homotopy theory]]
- 
+
+* [[K(n)-local stable homotopy theory]] 
 
 When the spaces and spectra in question carry an [[infinity-action]] of a [[group]] $G$ the theory refines to 
 
