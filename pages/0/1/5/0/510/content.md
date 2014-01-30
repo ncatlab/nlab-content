@@ -142,7 +142,7 @@ called the $n$th [[suspension]] functor.
 
 8.  **Proposition.**  $Sym(T)$ is a [[commutative]] [[ring object]] in the [[symmetric monoidal category]] $Seq(\Sigma, C)$.
 
-9.  By the previous proposition there is a [[symmetric monoidal structure]] on $Mod_\ell(Sym(T))$ where $X \otimes Y$ is defined as the [[coequalizer]] of the diagram
+9.  By the previous proposition there is a [[symmetric monoidal structure]] on $Mod_\ell(Sym(T))$ where $X \otimes_{Sym(T)} Y$ is defined as the [[coequalizer]] of the diagram
   $$ X \otimes Sym(T) \otimes Y \rightrightarrows X \otimes Y. $$
 
 10.  Note that one has a tautological [[equivalence of categories]]
