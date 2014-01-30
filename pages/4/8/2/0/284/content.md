@@ -262,6 +262,14 @@ See _[[table - models for (∞,1)-categories]]_.
 
 * **(∞,1)-category**, [[internal (∞,1)-category]], [[∞-groupoid]]
 
+  * [[locally cartesian closed (∞,1)-category]]
+
+  * [[(∞,1)-topos]]
+
+  * [[monoidal (∞,1)-category]]
+
+  * [[semiadditive (∞,1)-category]]
+
 * [[(∞,2)-category]]
 
 * [[(∞,n)-category]]
