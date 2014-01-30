@@ -120,7 +120,7 @@ One can define $\Phi$-symmetric $F$-spectra in a category $C$, where $\Phi$ is a
 
 1.  Let $\Phi$ be a [[graded monoid]] in the category of [[groups]].  Explicitly this is the data of [[groups]] $\Phi_n$ for all $n \in \mathbf{N}$ with morphisms $\Phi_m \times \Phi_n \to \Phi_{m+n}$ for all $m,n \ge 0$ (subject to various axioms...).  $\Phi$ will usually be either $\Sigma = (\Sigma_n)_n$, the [[graded monoid]] of [[symmetric groups]], or $1 = (1_n)_n$, the [[graded monoid]] of [[trivial group]]s.
 
-2.  A **$\Phi$-[[symmetric sequence]]** in $C$ is a [[sequence]] of objects $(X_n)_{n \ge 0}$ together with [[actions]] $a_n : \Phi_n \to \Aut_C(X_n)$.  See [[symmetric sequence]] for details.
+2.  A **$\Phi$-[[symmetric sequence]]** in $C$ is a [[sequence]] of objects $(X_n)_{n \ge 0}$ together with [[actions]] $a_n : \Phi_n \to \Aut_C(X_n)$.  We write $Seq(\Phi, C)$ for the category of $\Phi$-[[symmetric sequences]].  See [[symmetric sequence]] for details.
 
 3.  A **$\Phi$-symmetric endofunctor** of $C$ is an [[endofunctor]] $F : C \to C$ together with [[actions]] $\Phi_n \to Aut(F^n)$.  Usually $F$ will be the functor $T \otimes_C -$ induced by [[tensor product]] with some object $T$.
 
@@ -138,7 +138,20 @@ which "evaluates" a symmetric spectrum at its $n$th component.  Assuming that $C
   $$ Sus^n : C \to \Spect_F^\Phi(C) $$
 called the $n$th [[suspension]] functor.
 
-7.  ([[monoidal structure]] when $C$ is [[monoidal]]...)
+7.  Let $T \in C$ be an object and consider the $\Sigma$-[[symmetric sequence]] $Sym(T)$ whose $n$th component is $Sym(T)_n = T^{\otimes n}$ (with the [[actions]] of $\Sigma_n$ by permuting the $n$ factors).
+
+8.  **Proposition.**  $Sym(T)$ is a [[commutative]] [[ring object]] in the [[symmetric monoidal category]] $Seq(\Sigma, C)$.
+
+9.  By the previous proposition there is a [[symmetric monoidal structure]] on $Mod_\ell(Sym(T))$ where $X \otimes Y$ is defined as the [[coequalizer]] of the diagram
+  $$ X \otimes Sym(T) \otimes Y \rightrightarrows X \otimes Y. $$
+
+10.  Note that one has a tautological [[equivalence of categories]]
+  $$ \Spect^\Sigma_T(C) \stackrel{\sim}{\longrightarrow} \Mod_\ell(Sym(T)). $$
+In particular one gets a [[symmetric monoidal structure]] on $Spect^\Sigma_T(C)$.
+
+11.  **Proposition.** One has
+  $$ Sus^p_T(X) \otimes Sus^q_T(Y) \simeq Sus^{p+q}_T(X \otimes Y) $$
+for all $X,Y \in C$.  In particular, $Sus = Sus^0 : C \to \Spect^\Sigma_T(C)$ is a [[symmetric monoidal functor]].
 
 ## Examples 
 
