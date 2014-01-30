@@ -1,4 +1,4 @@
-A __pro-C-star-algebra__ is a [[pro-object]] in the category of [[C-star-algebra]]s. These pro-objects, i.e. formal (inverse) limits can in fact be taken in an ambient category of [[topological algebra|topological]] [[*-algebra]]s.   
+A __pro-C-star-algebra__ is very much like a [[pro-object]] in the category of [[C-star-algebra]]s, but the inverse limits are in fact taken in an ambient category of [[topological algebra|topological]] [[*-algebra]]s.   
 
 * N. C. Phillips, _Inverse limits of $C^\ast$-algebras_, J. Operator Theory 19 (1988) 159--195, [pdf](http://www.theta.ro/jot/archive/1988-019-001/1988-019-001-010.pdf); _Inverse limits of $C^\ast$-algebras_, in: Operator Algebras and Applications: Volume 1, Structure Theory K-theory, Geometry and Topology (London Math. Soc. Lecture Note Series), D. E. Evans, M. Takesaki, eds.
 * Massoud Amini, _Locally compact pro-$C^\ast$-algebras_, [math.OA/0205253](http://arxiv.org/abs/math/0205253)
