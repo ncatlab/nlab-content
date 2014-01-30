@@ -12,6 +12,18 @@ A symmetric sequence is a [[sequence]] of [[objects]] where the $n$th [[object]]
   $$ Seq(\Phi, C) = \sqcup_{n \ge 0} Rep(\Phi_n, C) $$
 In other words a $\Phi$-symmetric sequence is a sequence of objects $(X_n)_{n \ge 0}$ together with [[actions]] $a_n : \Phi_n \to \Aut_C(X_n)$.  When $\Phi = \Sigma$, the [[graded monoid]] of [[symmetric groups]], we say simply "symmetric sequence".
 
+## Symmetric monoidal structure
+
+4.  Let $\alpha : H \to G$ be a [[homomorphism]] of [[groups]] and consider the [[restriction of scalars]] functor
+  $$ \Res^G_H : \Rep(G, C) \to \Rep(H, C) $$
+which is defined in the obvious way.  It admits a left adjoint
+  $$ Ind^G_H : \Rep(H, C) \to \Rep(G, C) $$
+called the _induced representation_ functor.
+
+5.  Suppose now that $C$ has a [[symmetric monoidal structure]].  Assume also that $C$ admits [[coproducts]] and that the functors $X \otimes -$ commute with them (for all $X \in C$).  Then there is an induced [[symmetric monoidal structure]] on $Seq(\Phi, C)$.  Given symmetric sequences $X = (X_n)_n$ and $Y = (Y_n)_n$, we define $X \otimes Y$ as the symmetric sequence which has in the $n$th component
+  $$ (X \otimes Y)_n = \sqcup_{p+q=n} \Ind^{\Phi_n}_{\Phi_p \times \Phi_q} (X_p \otimes Y_q) $$
+where $\Phi_p \times \Phi_q \to \Phi_n$ is the canonical morphism which is part of the [[structure]] of the [[graded monoid]] $\Phi = (\Phi_n)_n$.  The [[unit]] with respect to this [[monoidal structure]] is given by $1 = (1, \emptyset, \emptyset, ...)$.
+
 ## See also
 
 * [[spectra]], [[symmetric spectra]]
