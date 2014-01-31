@@ -52,6 +52,8 @@ The discussion in the article is apparently motivated as part of what it takes t
 
 * [[local system]]
 
+* [[ambidextrous space]]
+
 ### 4.4 Examples
 
 * [[semiadditive (∞,1)-category]]
