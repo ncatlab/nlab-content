@@ -212,6 +212,7 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * [[proximity space]], [[syntopogenous space]]
 
+* [[equicontinuous family of functions]]
 
 ## References
 
