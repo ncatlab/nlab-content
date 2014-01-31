@@ -38,7 +38,7 @@ Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[
 
 ### Noncommutative Hopf algebroids 
 
-There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of [[Hopf algebras]]. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one via [[monoidal bicategory|monoidal bicategories]] due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi has later shown that the two definitions are in fact equivalent.
+There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of [[Hopf algebras]]. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi later showed that the two definitions are in fact equivalent.
 
 
 
@@ -75,11 +75,9 @@ $$ A(b,c) \otimes A(a,S b) \cong A(b,c) \otimes A(a,c) $$
 
 A **Hopf algebroid** is then roughly a bialgebroid with an antipode.  With this definition, a Hopf algebra gives a one-object Hopf algebroid.
 
-A different and more widely used concept was developed independently in 
+A different and more widely used concept was developed independently in these two papers, which appeared on the arXiv within a couple of days of each other:
 
 * [[G. Böhm]], _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math. __239__, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
-
-and
 
 * [[R. Street]] and [[B. Day]], Quantum categories, star autonomy, and quantum groupoids, in "Galois Theory, Hopf Algebras, and Semiabelian Categories", Fields Institute Communications 43 (American Math. Soc. 2004) 187-226; <a href = "http://arxiv.org/abs/math/0301209">arXiv:0301209</a>
 
