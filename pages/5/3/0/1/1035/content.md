@@ -52,11 +52,10 @@ A [[pre-abelian category]] is an additive category which also has [[kernels]] an
 
 =--
 
-+-- {: .num_remarkj }
++-- {: .num_remark }
 ###### Remark
 
-The [[Ab]]-enrichment of an additive category does not have to be given a priori.  Every category with finite [[biproducts]] is automatically 
-[[enriched category|enriched]] over abelian [[monoids]] (as described at [[biproduct]]), so an additive category may be defined as a category with finite biproducts whose [[hom-object|hom-monoids]] happen to be [[groups]].  (The requirement that the hom-monoids be groups can even be stated in elementary terms without discussing enrichment at all, but to do so is not very enlightening.)  Note that the entire $Ab$-enriched structure follows automatically for [[abelian category|abelian categories]].
+The [[Ab]]-enrichment of an additive category does not have to be given a priori.  Every [[semiadditive category]] (a category with finite [[biproducts]]) is automatically  [[enriched category|enriched]] over [[commutative monoids]] (as described at _[[biproduct]]_), so an additive category may be defined as a category with finite biproducts whose [[hom-object|hom-monoids]] happen to be [[groups]].  (The requirement that the hom-monoids be groups can even be stated in elementary terms without discussing enrichment at all, but to do so is not very enlightening.)  Note that the entire $Ab$-enriched structure follows automatically for [[abelian category|abelian categories]].
 
 =--
 
@@ -95,6 +94,8 @@ The coincidence of products with biproducts does _not_ extend to infinite produc
 =--
 
 ## Related concepts
+
+* [[semiadditive category]]
 
 * [[abelian category]]
 
