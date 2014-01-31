@@ -266,9 +266,11 @@ See _[[table - models for (∞,1)-categories]]_.
 
   * [[(∞,1)-topos]]
 
-  * [[monoidal (∞,1)-category]]
+  * [[semiadditive (∞,1)-category]], [[additive (∞,1)-category]]
 
-  * [[semiadditive (∞,1)-category]]
+  * [[stable (∞,1)-category]]
+
+  * [[monoidal (∞,1)-category]]
 
 * [[(∞,2)-category]]
 
