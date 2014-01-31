@@ -78,3 +78,6 @@ For accounts in [[mathematical physics]] see for instance
 
 [[!redirects Fermionic field]]
 [[!redirects Fermionic fields]]
+
+[[!redirects fermionic particle]]
+[[!redirects fermionic particles]]
