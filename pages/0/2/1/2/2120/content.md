@@ -67,7 +67,7 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 
 * [[degree of a continuous function]]
 
-* [[equicontinuous function]]
+* [[equicontinuous family of functions]]
 
 * [[analytic function]]
 
