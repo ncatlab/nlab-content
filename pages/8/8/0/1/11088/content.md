@@ -1,0 +1,13 @@
+
+The word _bilimit_ is used in two unrelated senses:
+
+* In the context of [[bicategory]] theory, _bilimit_ is the relevant notion of categorical [[limit]]. If one adopts the convention that _[[2-categories]]_ are understood in the most general sense and subsume bicategories, then these are just called **[[2-limits]]**. See there for more on this sense of the word.
+
+* It is commen to speak of [[biproducts]] to mean categorical [[products]] that coincide with [[coproducts]]. Since a product is a special kind of [[limit]], this terminology conflicts with the above one. Indeed, some references use "bilimit" to mean [[limits]] that coincide with [[colimits]] (e.g. Selinger 97 ([[SelingerThesis.pdf:file]])). But since limits and colimits are a special case of [[right adjoints]] and [[left adjoints]] this is a special case of an **[[ambidextrous adjunction]]**, which is therefore maybe a preferable termionology (proposed this way in [[Ambidexterity in K(n)-Local Stable Homotopy Theory|Hopkins-Lurie 14]])
+
+
+
+category: disambiguation
+
+[[!redirects bilimit]]
+[[!redirects bilimits]]
