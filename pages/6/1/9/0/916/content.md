@@ -58,9 +58,16 @@ In a [[field]], the multiplicative [[inverse]] is a partial function whose domai
 
 The [[category]] $Set_part$ of sets and partial functions between them is important for understanding computation.  However, one often replaces this with an [[equivalence of categories|equivalent]] category of sets and total functions.
 
-Specifically, replace each set $S$ with the set $S_\bot$ of all [[subset]]s of $S$ with at most one element.  In this context, we identify an element $x$ of $S$ with the subset $\{x\}$ and write the [[empty set|empty]] subset as $\bot$.  Then a partial functon $S \to T$ becomes a total function $S_\bot \to T_\bot$ such that [[inhabited set|inhabited]] subsets of $T$ are assigned only to inhabited subsets of $S$.  Then $Set_part$ is equivalent to the category $Set_\bot$ of such sets and functions.
+Specifically, replace each set $S$ with the set $S_\bot$ of all [[subset]]s of $S$ with at most one element.  In this context, we identify an element $x$ of $S$ with the subset $\{x\}$ and write the [[empty set|empty]] subset as $\bot$.  Then a partial function $S \to T$ becomes a total function $S_\bot \to T_\bot$ such that [[inhabited set|inhabited]] subsets of $T$ are assigned only to inhabited subsets of $S$.  Then $Set_part$ is equivalent to the category $Set_\bot$ of such sets and functions.
 
 Classically, $S_\bot \cong S \amalg \{\bot\}$, although this is not true [[constructive mathematics|constructively]].  Then the category $Set_part$ becomes equivalent to the category $Set_*$ of [[pointed set]]s and total point-preserving functions.  Traditionally, one uses the notation of $Set_\bot$ but (unless one is a constructivist) thinks of this as simply different notation for $Set_*$.
+
++-- {: .query}
+[[Emily Riehl]] I don't understand how I am supposed to think about $Set_\bot$. In particular, $Set_\bot$ is isomorphic to get category of based sets and basepoint preserving functions, which seems both easier to describe and easier to think about. 
+
+Also what is non-constructive about the bijection $S_\bot \cong S \amalg \{\bot\}$?
+
+=--
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
 
