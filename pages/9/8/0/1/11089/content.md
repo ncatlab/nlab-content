@@ -1,0 +1,6 @@
+
+
+## References
+
+* Wikipedia, _[Information](http://en.wikipedia.org/wiki/Information)_
+
