@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -76,7 +76,9 @@ diffeomorphisms, and so forth.
 
 Then, the [[cobordism hypothesis]]-theorem for $Bord^{nc}_2$ becomes
 
-**Theorem** 
++-- {: .num_theorem}
+###### Theorem
+
 Let $C$ be a [[symmetric monoidal (∞,2)-category]]. Then 
 symmetric monoidal [[(∞,2)-functor]]s
 
@@ -87,9 +89,14 @@ $$
 are equivalent to [[Calabi-Yau object]]s $A$ in $C$:
 the functor $Z$ sends the point to $A$.
 
-This is [[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.11]]. One can "unfold" $Bord^{nc}_2$ and the theorem above, obtaining a statement in terms of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]]. Actually it was the unfolded version to be proven first, by [[Kevin Costello]] in [Cos04](http://arxiv.org/abs/math/0412149), in the particular case $C=Ch_\bullet$. We state it below in the general version given by [[Jacob Lurie]] in [[On the Classification of Topological Field Theories|ClassTFT]].
+=--
 
-**Definition**
+This is [[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.11]]. One can "unfold" $Bord^{nc}_2$ and the theorem above, obtaining a statement in terms of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]]. Actually it was the unfolded version to be proven first, ([Costello 04](#Costello04)). 
+
+in the particular case $C=Ch_\bullet$. We state it below in the general version given by [[Jacob Lurie]] in [[On the Classification of Topological Field Theories|ClassTFT]].
+
++-- {: .num_defn}
+###### Definition
 
 Let $\mathcal{OC}$ be the [[(infinity,1)-category]] of open-closed strings, described as follows:
 
@@ -105,17 +112,20 @@ Let $\mathcal{OC}$ be the [[(infinity,1)-category]] of open-closed strings, desc
 Write $\mathcal{O}$ for the full [[sub-(∞,1)-category]] on 
 disjoint unions of intervals (open strings sector).
 
+=--
+
 This is [[On the Classification of Topological Field Theories|ClassTFT, above theorem 4.2.13]].
 
 
 ## Classification
+ {#Classification}
 
 ### With coefficients in chain complexes
 
 The original statement of the classification result for TCFTs 
 concerned symmetric homotopy-monoidal functors $Bord_2^{conf,dg} \to Ch_\bullet$:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 ([[Kevin Costello|Costello]], following [[Maxim Kontsevich|Kontsevich]])
 
@@ -125,17 +135,15 @@ concerned symmetric homotopy-monoidal functors $Bord_2^{conf,dg} \to Ch_\bullet$
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-In [Cos04](http://arxiv.org/abs/math/0412149) this is proven using information about cell decompositions of the moduli space of punctured Riemann surfaces, thus effectively presenting $Bord_2^{conf,dg}$ by generators-and-relations, The then theorem amounts to noticing that representations of these generators and relations define the operations in an $A_\infty$-category with pairing operation.
+In ([Costello 04](#Costello04)) this is proven using information about cell decompositions of the moduli space of punctured Riemann surfaces, thus effectively presenting $Bord_2^{conf,dg}$ by generators-and-relations, The then theorem amounts to noticing that representations of these generators and relations define the operations in an $A_\infty$-category with pairing operation.
 
-=--
 
 ### General version
 
 
-**Theorem**
++-- {: .num_theorem}
+###### Theorem
 
 Let $C$ be a [[symmetric monoidal (∞,1)-category]]. Then 
 symmetric monoidal [[(∞,1)-functor]]s
@@ -148,7 +156,9 @@ $$
 are equivalent to [[Calabi-Yau algebra object]]s $A$ in $C$:
 the functor $Z$ sends the interval $[0,1]$ to $A$.
 
-This is the result of [Cos04](http://arxiv.org/abs/math/0412149)
+=--
+
+This is the result of spring [Cos04](http://arxiv.org/abs/math/0412149)
 reformulated and generalized according to 
 [[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.14]].
 
@@ -214,11 +224,9 @@ and
  
 The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
-* [[Kevin Costello]], 
+* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
 
-  * _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
-
-  * _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
 following conjectures by [[Maxim Kontsevich]], e.g.
 
