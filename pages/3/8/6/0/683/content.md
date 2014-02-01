@@ -1060,7 +1060,7 @@ is given a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.
 
 A nice discussion of the expression of homotopy colimits in terms of coends is in 
 
-* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
+* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
 {#Gambino}.
 
 A collection of examples and exercises is in 
@@ -1089,6 +1089,8 @@ Other references are
 * [[Jacob Lurie]], [[Higher Topos Theory]].  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
 
 * Andre Hirschowitz, [[Carlos Simpson]], [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
+
+* Beatriz Rodriguez Gonzalez, _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
 
 * MathOverflow question: [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
 
