@@ -213,7 +213,7 @@ s
 
   (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 
-* _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_, Proceedings of the first international Conference on algebraic methodology and software technology University of Iowa, may 22-24 1989, Iowa City pp.51-74 ([pdf](http://conceptualmathematics.files.wordpress.com/2013/02/displayofgraphics.pdf) of the complete proceedings volume)
+* _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_, Proceedings of the first international Conference on algebraic methodology and software technology University of Iowa, may 22-24 1989, Iowa City pp.51-74 
 
   (contains the most explicit expression of Hegelian concepts in the context of the presheaf topos on $\Delta _1$ and a footnote on Lawvere's relation to Hegelian idealism)
 
