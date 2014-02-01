@@ -26,18 +26,25 @@
 
 ## Idea 
 
-A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way. Morphisms between finite biproducts are encoded in a [[matrix calculus]].
+A _biproduct_ in a [[category]] $\mathcal{C}$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way. Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
 Finite biproducts are best known from [[additive category|additive categories]]. A category which has biproducts but is not necessarily [[enriched category|enriched]] in [[Ab]], hence not necessatily [[additive category|additive]], is called a _semiadditive category_.
 
 
 ## Definition 
 
-Let $C$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (for example, $C$ might have a [[zero object]]).  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
+Let $\mathcal{C}$ be a [[category]] with [[zero morphisms]]; that is, $C$ is [[enriched category|enriched]] over [[pointed sets]] (for example, $C$ might have a [[zero object]]).  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  
+
++-- {: .num_defn #TheCanonicalComparisonMorphism}
+###### Definition
+
+Write 
+
 $$
-  r : c_1 \sqcup c_2 \to c_1 \times c_2
+  r_{c_1,c_2} : c_1 \sqcup c_2 \to c_1 \times c_2
 $$
-defined by
+
+for the [[morphism]] which is uniquely defined (via the [[universal property]] of [[coproduct]] and [[product]]) by the condition that
 $$
   \left(
     c_i \to c_1 \sqcup c_2 \stackrel{r}{\to} c_1 \times c_2 \to c_j
@@ -45,24 +52,48 @@ $$
   =
   \left\{
     \array{
-      Id_{c_i} & if i = j
+      Id_{c_i} & if \; i = j
       \\
-      0_{i,j} & if i \neq j
+      0_{i,j} & if \; i \neq j
     }
   \right.
   \,
 $$
-where $0_{i,j}$ is the zero morphism from $c_i$ to $c_j$.
 
-If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \times c_2$ and $c_1 \sqcup c_2$ are called [[generalized the|the]] __biproduct__ of $c_1$ and $c_2$.  This object is often denoted $c_1 \oplus c_2$, alluding to the [[direct sum]] (which is often an example).
+where the last and first morphisms are the [[projections]] and [[co-projections]], respectively, and 
+where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$.
 
-The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set indexing these objects might not have [[decidable equality]]).  A [[zero object]] is the biproduct of no objects.
+=--
 
-A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
++-- {: .num_defn #Biproduct}
+###### Definition
+
+If the morphism $r_{c_1,c_2}$ in def. \ref{TheCanonicalComparisonMorphism}, is an [[isomorphism]], then the isomorphic objects $c_1 \times c_2$ and $c_1 \sqcup c_2$ are called [[generalized the|the]] __biproduct__ of $c_1$ and $c_2$.  This object is often denoted $c_1 \oplus c_2$, alluding to the [[direct sum]] (which is often an example).
+
+If $r_{c_1,c_2}$ is an isomorphism for all objects $c_1, c_2 \in \mathcal{C}$ and hence a [[natural isomorphism]] 
+
+$$
+  r \;\colon\; (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-) \times (-)
+$$
+
+then $\mathcal{C}$ is called a [semiadditive category](#SemiadditiveCategories).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Definition \ref{Biproduct} has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set indexing these objects might not have [[decidable equality]]).  
+
+A [[zero object]] is the biproduct of no objects.
+
+=--
+
 
 
 
 ## Semiadditive categories 
+ {#SemiadditiveCategories}
 
 A category $C$ with all finite biproducts is called a **semiadditive category**.  More precisely, this means that $C$ has all finite products and coproducts, that the unique map $0\to 1$ is an isomorphism (hence $C$ has a zero object), and that the canonical maps $c_1 \sqcup c_2 \to c_1 \times c_2$ defined above are isomorphisms.
 
@@ -120,6 +151,9 @@ Categories with biproducts include:
 
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
+
+
+A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
 
 
 [[!redirects biproducts]]
