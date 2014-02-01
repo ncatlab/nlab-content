@@ -77,4 +77,10 @@ Note that unlike the notion of [[Reedy category]], the notion of elegant Reedy c
 
 * [[Julie Bergner]] and [[Charles Rezk]], *Reedy categories and the $\Theta$-construction*, [arXiv:1110.1066](http://arxiv.org/abs/1110.1066)
 
+Elegant Reedy categories are useful to model [[homotopy type theory]].
+
+* [[Mike Shulman]], *Univalence for inverse diagrams and homotopy canonicity* [arXiv:1203.3253](http://arxiv.org/abs/1203.3253)
+
+* Benno van den Berg and Ieke Moerdijk, *W-types in homotopy type theory*, [PDF](http://www.staff.science.uu.nl/~berg0002/papers/WinHoTT.pdf)
+
 [[!redirects elegant Reedy categories]]
