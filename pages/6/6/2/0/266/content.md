@@ -742,6 +742,17 @@ $$
 which is a sheaf, and one can analyze this construction to show that $f^{-1}$ is a left adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
 
 
+### Kan extension in physics
+ {#ExamplesKanExtensionsInPhysics}
+
+We list here some occurences of Kan extensions in [[physics]].
+
+Notice that since, by the above discussion, Kan extensions are ubiquitous in [[category theory]] and are essentially equivalent to other standard [[universal constructions]] such as notably [[colimit|co]]/[[limits]], to the extenent that there is a relation between [[higher category theory and physics|category theory and physics]] at all, it necessarily also involves Kan extensions, in some guise. But here is a list of some example where they appear rather explicitly.
+
+* In [[extended quantum field theory]] on open and closed manifolds, usually the theory "in the bulk" (on closed manifolds) is induced by "extending" that "[[boundary field theory|on the boundary]]", and in good cases this extension is explicitly a ([[homotopy Kan extension|homotopy]])-Kan extension. This is the case notably for [[2d TQFT]] in the form of [[TCFT]] ([Costello 04](TCFT#Costello04)), see at _[TCFT -- Classification](TCFT#Classification)_ for details.
+
+* When [[path integral]] [[quantization]] is formalized in terms of [[fiber integration in generalized cohomology]] (as surveyed at _[[motivic quantization]]_) then the push-forward step, hence the path integral itself, is given by left [[homotopy Kan extension]] of [[parameterized spectrum|parameterized spectra]]. For explicit details see ([[schreiber:master thesis Nuiten|Nuiten 13, section 4.1]]), also ([[schreiber:Homotopy-type semantics for quantization|Schreiber 14, section 6.2]]). By example 6.3 there a special case of this is are the integration formulas via Kan extension in ([[Ambidexterity in K(n)-Local Stable Homotopy Theory|Hopkins-Lurie 14, section 4]]).
+
 
 ## Remark on terminology: pushforward vs. pullback
 
@@ -817,6 +828,7 @@ and chapter 4 of
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, 
  Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in: Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
  {#Kelly}
+
 
 The [[(∞,1)-category theory]] notion is discussed in section 4.3 of
 
