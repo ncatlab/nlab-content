@@ -102,13 +102,17 @@ That [[Einstein gravity]] is not pertrubatively [[renormalization|renormaliable]
 * A. E. M. van de Ven, _Two loop quantum gravity_, Nucl. Phys. B 378 (1992) 309.
 
 ### As an effective field theory
+ {#ReferencesAsAnEffectiveFieldTheory}
 
 One can regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. 
 
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
  {#DonoghueIntroduction}
 
-In the context of perturbative [[AQFT]]:
+In the context of perturbative [[AQFT]] (see the references [here](perturbation+theory#ReferencesInAQFT)) this is discussed in
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
+A brief survey of the relevant issued with more pointers to the literature is in
+
+* [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013_ ([video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
