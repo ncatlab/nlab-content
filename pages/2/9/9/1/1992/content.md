@@ -31,7 +31,7 @@ __[[Lawvere's reconstruction theorem]]__ reconstructs a Lawvere theory $C$ from 
 
 ## Heuristics
 
-Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
+Typically in the proofs of most reconstruction theorems an implicit use of the  Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
 
 
 ##References
