@@ -22,20 +22,31 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in the $C$ is the [[category]] whose
+For $C$ a [[monoidal category]], the **category of [[monoids]]** $Mon(C)$  in the $C$ is the [[category]] whose
 
-* [[object]]s are [[monoid]]s in $C$;
+* [[objects]] are [[monoids]] in $C$;
 
 * [[morphism]]s are morphisms in $C$ of the underlying objects that respect the monoid structure.
 
+Similarly for the **category of [[commutative monoids]]** $CMon(C)$.
+
 =--
 
-## Remarks
 
-* If [[Assoc]] denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
++-- {: .num_remark}
+###### Remark
 
-* Every category of monoids comes with a [[forgetful functor]] $U \colon Mon(C) \to C$ which is [[faithful functor|faithful]] and [[conservative functor|conservative]].  In many cases it is [[monadic functor|monadic]].
+If [[Assoc]] denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Every category of monoids comes with a [[forgetful functor]] $U \colon Mon(C) \to C$ which is [[faithful functor|faithful]] and [[conservative 
+functor|conservative]].  In many cases it is [[monadic functor|monadic]].
+
+=--
 
 ## Properties
 
@@ -329,6 +340,13 @@ This is one good way to remember the difference between *lax* and *colax* monoid
 
 If $C$ is a [[monoidal model category]], then $Mon(C)$ may inherit itself the structure of a [[model category]]. See [[model structure on monoids in a monoidal model category]].
 
+### Enrichment over $CMon$
+
+Some categories are _implicitly_ [[enriched category|]] over commutative monoids, in particular [[semiadditive categories]]. Also [[Ab]]-[[enriched categories]] (and hence in particualr [[abelian categories]]) of course have an underlying $CMon$-enrichment.
+
+## Related concepts
+
+* [[Ab]]
 
 ## References
 
@@ -362,5 +380,8 @@ Discussion of the [[closed monoidal category]] structure on a category of algebr
 [[!redirects categories of monoids]]
 
 [[!redirects category of commutative monoids]]
+
+[[!redirects Mon]]
+[[!redirects CMon]]
 
 category: category
