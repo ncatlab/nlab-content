@@ -46,6 +46,8 @@ The discussion in the article is apparently motivated as part of what it takes t
 
 * [[Beck-Chevalley condition]]
 
+* [[pointwise (∞,1)-Kan extension]]
+
 ### 4.2 Properties of the norm
 
 ### 4.3 Local systems
