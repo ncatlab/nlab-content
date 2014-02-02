@@ -352,6 +352,9 @@ A list of basic properties is in
 
 * [[Samuel Isaacson]], section 4 of _Exercises on homotopy colimits_ ([pdf](http://math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
 
+Pointwise [[homotopy Kan extensions]] are discussed in 
+
+* {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
 
 
 
