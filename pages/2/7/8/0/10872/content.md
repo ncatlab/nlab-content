@@ -10,7 +10,7 @@ The standard [[quantum anomaly]] arising in a 2-dimensional [[sigma-model]], als
 
 ## Details
 
-Discussion as an anomalous action functional is in ([Freed 86, 2.](Freed86)).
+Discussion as an anomalous action functional is in ([Freed 86, 2.](#Freed86)).
 The following summary of this is taken from [this MO answer](http://mathoverflow.net/a/99667/381) by Pavel Safranov.
 
 
