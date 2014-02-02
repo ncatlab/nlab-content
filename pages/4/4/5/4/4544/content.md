@@ -21,3 +21,6 @@ The terminology is used specifically in [[rational homotopy theory]].
 Notably a [[rational space]] is said to be of finite type if all its rational [[homotopy group]]s are finite dimensional [[vector space]]s over the [[rational number]]s.
 
 Accordingly, [[chain complex]] of vector spaces, possibly that generating a [[semifree dga]] is said to be of finite type if it is degreewise finite dimensional.
+
+Beware however that the terminology clashes with the use in [[homotopy theory]], there the concept of _[[finite homotopy type]]_ is crucially different from _[[homotopy type with finite homotopy groups]]_.
+
