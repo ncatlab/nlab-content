@@ -1,0 +1,7 @@
+Given any [[dg-category]], there is an associated [[derived moduli stack]] which parametrizes its [[objects]].  In the case where one considers the [[dg-category]] [[dg-enhancement|enhancing]] the [[triangulated categories of sheaves|derived category]] of a [[smooth scheme|smooth]] [[proper morphism|proper]] [[scheme]] $X$, one gets the **derived stack of perfect complexes**.
+
+In this way one gets a [[functor]] from [[derived noncommutative algebraic geometry|noncommutative spaces]] to [[derived stacks]].
+
+## References
+
+* [[Bertrand Toen]], [[Michel Vaquie]], _Moduli of objects in dg-categories_, 2007, [arXiv:math/0503269](http://arxiv.org/abs/math/0503269).
