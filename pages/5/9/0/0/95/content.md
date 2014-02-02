@@ -41,7 +41,7 @@ $$
 
 where the sum is over [[isomorphism]] classes of [[object]]s of $X$ and $|Aut(x)|$ is the cardinality of the [[automorphism group]] of an object $x$ in $X$. 
 
-If this sum diverges, we say $|X| = \infty$. If the sum converges, we say $X$ is **tame**.
+If this sum diverges, we say $|X| = \infty$. If the sum converges, we say $X$ is **tame**. (See at _[[homotopy type with finite homotopy groups]]_).
 
 ### $\infty$-Groupoid cardinality {#InfingroupoidCardinality}
 
