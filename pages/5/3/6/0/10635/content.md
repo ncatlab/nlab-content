@@ -1,5 +1,7 @@
 
 # The fundamental theorem of calculus
+* table of contents
+{: toc}
 
 ## Idea
 
