@@ -30,7 +30,7 @@ The [[stable homotopy theory]] of [[local spectra]], local with respect to [[Mor
 +-- {: .num_defn #StrictlyTame}
 ###### Definition
 
-Say that an [[∞-groupoid]] is _[[groupoid cardinality|strictly tame]]_ of _of [[finite type]] ([Hopkins-Lurie 14, def. 4.4.1](#HopkinsLurie14)) _ if it has only finitely many nontrivial [[homotopy groups]] each of which is furthermore a [[finite group]].
+Say that an [[∞-groupoid]] is _[[groupoid cardinality|strictly tame]]_ or _of [[finite type]] ([Hopkins-Lurie 14, def. 4.4.1](#HopkinsLurie14)) _ if it has only finitely many nontrivial [[homotopy groups]] each of which is furthermore a [[finite group]].
 
 =--
 
@@ -53,6 +53,7 @@ This is ([Hopkins-Lurie 14, theorem 0.0.2](#HopkinsLurie14)).
 
 +-- {: .num_remark}
 ###### Remark
+
 
 So in particular $K(n)$-local spectra have _[[biproducts]]_, called _[[0-semiadditivity]]_ in ([Hopkins-Lurie 14, prop. 4.4.9](#HopkinsLurie14).
 
