@@ -408,7 +408,11 @@ Pointwise [[homotopy Kan extensions]] are discussed in
 
 * {#Radulescu-Banu06} Andrei Radulescu-Banu, _Cofibrations in Homotopy Theory_ ([arXiv:0610009](http://arxiv.org/abs/math/0610009))
 
-* {#Cisinski09} [[Denis-Charles Cisinski]], _Locally constant functors_, Math. Proc. Camb. Phil. Soc. (2009), 147, 593 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf))
+* {#Cisinski09} [[Denis-Charles Cisinski]], 
+
+  _Images directes cohomologiques dans les cat&#233;gories de mod&#232;les, Ann. Math.Blaise Pascal 10 (2003), 195&#8211;244.
+
+  _Locally constant functors_, Math. Proc. Camb. Phil. Soc. (2009), 147, 593 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf))
 
 
 * {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
