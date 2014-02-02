@@ -79,9 +79,9 @@ Accordingly, one can decide to regard the [[opposite (∞,1)-category]] of suita
 
 Often and traditionally, all this is expressed in terms of certain presentations for these [[stable (∞,1)-categories]] by [[triangulated category|triangulated]] [[derived categories]] or better, [[dg-enhancement|enhancements]] as [[dg-categories]].
 
-In this fashion then in [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[dg-category]] that is smooth and proper in an appropriate sense.  Hence the [[derived moduli stack of objects in a dg-category]] defines a [[functor]] from [[noncommutative spaces]] to [[derived stacks]].  
-
-Given such a space, one may consider the [[derived moduli stack of objects in a dg-category|derived moduli stack parametrizing its objects]].  Hence one has a [[functor]] from [[noncommutative spaces]] to [[derived stacks]].
+In this fashion then in [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[dg-category]] that is smooth and proper in an appropriate sense.  The relation between [[noncommutative algebraic geometry]] and [[derived algebraic geometry]] may then be summed up by the adjunction
+  $$ Pf : \DSt(k)^{op} \rightleftarrows NCSp(k) : \mathcal{M}_- $$
+where $Pf(X)$ denotes the [[dg-category]] of [[perfect complexes]] on the [[derived stack]] $X$, and $\mathcal{M}_\mathcal{C}$ denotes the [[derived moduli stack of objects in a dg-category|derived moduli stack of objects]] in the [[dg-category]] $\mathcal{C}$.  See [[derived moduli stack of objects in a dg-category]] for details.
 
 ## Applications 
 
