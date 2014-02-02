@@ -20,13 +20,11 @@
 
 ## Idea
 
-Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]] (or equivalently when working over a base [[field]] of [[characteristic zero]], [[dg-algebra|commutative dg-rings]]), or [[E-∞ rings]].  The former approach has been developed by [[Bertrand Toen]] and [[Gabriele Vezzosi]], and the latter by [[Jacob Lurie]].  Both are known to be equivalent, up to some minor differences.
+Just as [[algebraic geometry]] is the study of [[spaces]] locally modelled on [[commutative rings]], _derived algebraic geometry_ is the study of [[spaces]] locally modelled on "derived commutative rings", which means either [[simplicial ring|simplicial commutative rings]], or equivalently when working over a base [[field]] of [[characteristic zero]], [[nonpositive|nonpositively]] [[graded]] [[dg-algebra|commutative dg-rings]].  The fundamentals of the subject have been developed by [[Bertrand Toen]] and [[Gabriele Vezzosi]], and by [[Jacob Lurie]].
 
-In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a kind of [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]].  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Carlos Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as the next step in this natural progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]], or by the category of [[E-∞ rings]].  Hence a [[derived stack]] over $k$ is a kind of functor
+In [[Grothendieck]]'s [[functor of points]] approach to the theory of [[schemes]], a [[scheme]] $X$ over a [[field]] $k$ is viewed as a [[functor]] from the [[category]] $CAlg_k$ of commutative $k$-[[commutative algebra|algebras]] to the [[category]] $Set$ of [[sets]], satisfying a [[descent]] condition.  Motivated by [[moduli problems]], people have enlarged the target category to the category $Grpd$ of [[groupoids]], arriving at the notion of a [[stack]].  [[Carlos Simpson]] extended this further by replacing $Grpd$ by the category $SSet$ of [[simplicial sets]], arriving at the notion of [[higher stacks]].  Derived algebraic geometry may be viewed as a further step in this progression, replacing the _source_ category $CAlg_k$ by $SAlg_k$, the category of [[simplicial algebra|simplicial commutative k-algebras]].  This is motivated by classical concerns involving [[intersection theory]] and [[deformation theory]], see below.
 
-$$ X : SAlg_k \to SSet. $$
-
-The term _derived algebraic geometry_ sometimes also refers to the study of [[derived categories of coherent sheaves]] on [[varieties]] ([[Alexei Bondal]], [[Dmitri Orlov]], ...).  This is related to [[noncommutative algebraic geometry]] and to [[derived noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]] (or [[derived category of quasi-coherent sheaves]]) or a [[stable (∞,1)-category|(∞,1)-categorical]] [[DG enhancement|enhancement]] thereof.
+Sometimes the term _derived algebraic geometry_ is also used for the related subject of [[spectral algebraic geometry]], where [[E-infinity rings]] are used instead of [[simplicial rings]].  _Derived algebraic geometry_ may also refer to the study of [[derived categories of coherent sheaves]] on [[varieties]] as studied in [[derived noncommutative algebraic geometry|noncommutative algebraic geometry]], where one replaces a [[scheme]] $X$ by its [[triangulated category of perfect complexes]].
 
 ## Motivation
 
@@ -48,7 +46,7 @@ The original approach to derived algebraic geometry was via [[dg-schemes]], intr
 
 [[Bertrand Toen]] and [[Gabriele Vezzosi]] developed [[homotopical algebraic geometry]], which is [[algebraic geometry]] in any [[HAG context]], i.e. over any [[symmetric monoidal model category]] satisfying certain assumptions.  As special cases they recover the [[algebraic geometry]] of [[Grothendieck]] and the [[higher stacks]] of [[Carlos Simpson]], and also develop new theories of [[derived algebraic geometry]], [[complicial algebraic geometry]], and [[brave new algebraic geometry]].
 
-[[Jacob Lurie]] developed a version of derived algebraic geometry which is locally modelled on [[E-∞ rings]].  The derived algebraic geometries of Toen-Vezzosi and of Lurie turn out to be equivalent, up to minor differences.  Their approaches differ in that the former is based on [[homotopy theory]], in the sense that it uses the language of [[model toposes]], while the latter is based on [[higher category theory]] and uses the language of [[structured (∞,1)-topos]]es.
+In his thesis [[Jacob Lurie]] also developed fundamentals of derived algebraic geometry, using the language of [[structured (infinity,1)-toposes]] where [[Bertrand Toen|Toen]]-[[Gabriele Vezzosi|Vezzosi]] used [[model toposes]].  He also developed a version of derived algebraic geometry which is locally modelled on [[E-∞ rings]], called [[spectral algebraic geometry]].
  
 ## Terminology "derived" versus "$\infty$-"
 
@@ -79,11 +77,11 @@ Under some conditions, [[derived schemes]] $X$ in the sense of ([[Structured Spa
 
 Accordingly, one can decide to regard the [[opposite (∞,1)-category]] of suitable (e.g. [[monoidal (∞,1)-category|monoidal]]) [[stable (∞,1)-categories]]  as being a category of "noncommutative derived schemes". This is effectively the perspective on [[noncommutative algebraic geometry]] that [[Maxim Kontsevich]] has been promoting.
 
-Often and traditionally, all this is expressed in tersm of certain presentations for these [[stable (∞,1)-categories]] by [[triangulated category|triangulated]] [[derived categories]].
+Often and traditionally, all this is expressed in terms of certain presentations for these [[stable (∞,1)-categories]] by [[triangulated category|triangulated]] [[derived categories]] or better, [[dg-enhancement|enhancements]] as [[dg-categories]].
 
-In this fashion then in [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[triangulated category]] which is smooth and proper in an appropriate sense.  Given a [[scheme]] $X$ of [[finite type]] over a [[field]], it has an associated noncommutative space $Pf(X)$ which is its [[triangulated categories of sheaves|triangulated category of perfect complexes]].  $Pf(X)$ admits a [[generator]] $E$, and is equivalent to the category $Pf(A-Mod)$ of [[perfect]] [[dg-modules]] over the [[dg-algebra]] $A = RHom(E, E)$.
-Hence one may associate to $X$ the [[spectrum]] of this [[dg-algebra]], which is an [[affine]] [[derived scheme]] (when working over [[characteristic zero]]).
-In this way the [[spaces]] of [[derived noncommutative geometry]] that come from commutative [[schemes]] can indeed be viewed as [[derived schemes]].
+In this fashion then in [[derived noncommutative algebraic geometry]], a [[space]] is by definition a [[dg-category]] that is smooth and proper in an appropriate sense.  Hence the [[derived moduli stack of objects in a dg-category]] defines a [[functor]] from [[noncommutative spaces]] to [[derived stacks]].  
+
+Given such a space, one may consider the [[derived moduli stack of objects in a dg-category|derived moduli stack parametrizing its objects]].  Hence one has a [[functor]] from [[noncommutative spaces]] to [[derived stacks]].
 
 ## Applications 
 
