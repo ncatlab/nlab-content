@@ -133,3 +133,6 @@ See also
 [[!redirects category of symmetric spectra]]
 [[!redirects monoidal categories of symmetric spectra]]
 [[!redirects categories of symmetric spectra]]
+
+[[!redirects symmetric monoidal category of spectra]]
+[[!redirects symmetric monoidal categories of spectra]]
