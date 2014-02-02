@@ -25,7 +25,7 @@
 
 ## Idea
 
-An [[(∞,1)-category]] is _$n$-semiadditive_ for $n \in \mathbb{N}$ if [[(∞,1)-colimits]] over certain [[diagrams]] coincide with their [[(∞,1)-limits]] (see [Hopkins-Lurie 14, def. 4.4.2](#HopkinsLurie14)). Here for $n=0$ the condition is that [[coproducts]] coincide with [[products]], hence that [[bilimits]] exist.
+An [[(∞,1)-category]] is _$n$-semiadditive_ for $n \in \mathbb{N}$ if [[(∞,1)-colimits]] over certain [[diagrams]] coincide with their [[(∞,1)-limits]] in a canonical way (see [Hopkins-Lurie 14, def. 4.4.2](#HopkinsLurie14)). Here for $n=0$ the condition is that [[coproducts]] coincide with [[products]], hence that [[bilimits]] exist.
 
 So an [[(∞,1)-category]] that happens to be an ordinary [[category]] is 0-semiadditive precisely if it is a [[semiadditive category]] in the traditional sense. Generally, an [[(∞,1)-category]] is 0-semiadditive precisely if its [[homotopy category of an (∞,1)-category|homotopy category]] is [[semiadditive category|semiadditive]] ([Hopkins-Lurie 14, remark 4.4.13](#HopkinsLurie14)).
 
