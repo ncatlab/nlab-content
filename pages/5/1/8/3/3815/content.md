@@ -47,7 +47,9 @@ Given different incarnations of or models for the notion of [[(∞,1)-category]]
 
 #### In terms of quasi-categories
 
-...
+
+([LurieHTT, def. 4.3.2.2, 4.3.3.2](#LurieHTT))
+
 
 #### In terms of Kan-complex enriched categories
 
@@ -55,16 +57,19 @@ see [[homotopy Kan extension]]
 
 #### In terms of simplicial model categories
 
+
 see [[homotopy Kan extension]]
 
 ## Properties
 
-### Pointwise 
+### Pointwise (strong)
  {#Pointwise}
 
-Something like [pointwise]() $(\infty,1)$-Kan extensions is discussed ([Hopkins-Lurie 14, section 4](#HopkinsLurie14)).
+$\infty$-Kan extensions as above are [pointwise/strong](Kan+extension#Pointwise). That is in fact the very content of ([LurieHTT, def. 4.3.2.2, 4.3.3.2](#LurieHTT)).
 
-See also at _[homtopy Kan extension -- Properties -- Pointwise](homotopy+Kan+extension#Pointwise)_.
+### As adjoints to pullbacks
+
+left/right $\infty$-Kan extension is left/right [[adjoint (∞,1)-functor]] to restriction. ([LurieHTT, prop. 4.3.3.7](#LurieHTT))
 
 ## Related concepts
 
@@ -76,11 +81,11 @@ See also at _[homtopy Kan extension -- Properties -- Pointwise](homotopy+Kan+ext
 
 A general concept of $(\infty,1)$-Kan extensions in terms of quasi-categories are discussed in section 4.3 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* {#LurieHTT} [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 For [[simplicially enriched categories]] and [[model categories]] a discussion is in section A.3.3 there.
 
-Pointwise and [[ambidextrous adjunction|ambidextrous]] $\infty$-Kan extensions along maps of [[∞-groupoids]] are discussed in 
+Coinciding left/righ ([[ambidextrous adjunction|ambidextrous]]) $\infty$-Kan extensions along maps of [[∞-groupoids]] are discussed in 
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], section 4 of _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
