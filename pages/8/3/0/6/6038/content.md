@@ -13,6 +13,30 @@
 =--
 =--
 
-The process of [[quantization]] is supposed to assign to a [[classical field theory]] a corresponding [[quantum field theory]]. One tends to imagine that in some cases the resulting QFT can itself be regarded as a classical field theory, roughly, and the process of quantization be applied again. One then speaks of _second quantization_ . 
+#Contents#
+* table of contents
+{:toc}
 
-For more see at _[[sigma model]]_ the section <a href="http://www.ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>.
+## Idea
+
+The process of [[quantization]] is supposed to assign to a [[classical field theory]] ([[prequantum field theory]]) a corresponding [[quantum field theory]]. One tends to imagine that in some cases the resulting QFT can itself be regarded as a classical field theory, roughly, and the process of quantization be applied again. One then speaks of _second quantization_ . 
+
+In its simplest form the _free_ second quantization (in the sense of [[free field theory]], introducing no [[interaction]] between the second quantized quanta) is identified with the _[[Fock space]]_ construction on a given [[space of quantum states]].
+
+For interacting second quantization see at _[[sigma model]]_ the section [Exposition of second quantization of sigma-models](sigma-model#SecondQuantization|).
+
+[[!include second quantization -- table]]
+
+## Properties
+
+### Syntax in linear type theory
+
+In [[linear type theory]], which may be regarded as [[quantum logic]] (by the discussion there), the [[Fock space]] construction may naturally be identified with the [[!-modality]]. See there for more.
+
+## References
+
+* Wikipedia, _[Second quantization](http://en.wikipedia.org/wiki/Second_quantization)_
+
+[[!redirects second quantizations]]
+
+
