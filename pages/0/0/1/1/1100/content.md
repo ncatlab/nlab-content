@@ -384,6 +384,7 @@ and with an intrinsic notion of
 
 In classical topos theory, cohomology and homotopy of a topos $E$ are defined in terms of [[simplicial object]]s in $C$. If $E$ is a [[sheaf topos]] with [[site]] $C$ and [[point of a topos|enough point]]s, then  this classical construction is secretly really a model for the intrinsic cohomology and homotopy in the above sense of the  [[hypercomplete (∞,1)-topos]] of [[∞-stack]]s on $C$.
 
+
 The beginning of a list of all the structures that exist intrinsically in a big $(\infty,1)$-topos is at
 
 * [[cohesive (∞,1)-topos]].
@@ -410,6 +411,10 @@ should be.
   * [[model topos]]
 
   * [[(n,1)-topos]]
+
+  * [[structured (∞,1)-topos]]
+
+  * [[compact topos]], [[coherent (∞,1)-topos]]
 
 * [[category object in an (∞,1)-topos]]
 
