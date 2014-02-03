@@ -26,7 +26,7 @@
 
 _Linear type theory_ is the [[linear logic]]-version of [[type theory]]. In the definition of ([Seely 89, prop. 1.5](#Seely89)), following ([Girard 87](#Girard87)), this is the [[internal language]] of/has [[categorical semantics]] in [[star-autonomous categories]]. 
 
-More generally, the term "linear" (as in *linear type theory*) has over time come to connote [[internal languages|internal]] [[type theories]], and related logical frameworks ([[sequent calculus|sequent calculi]], [[natural deduction]]) that correspond to (usually symmetric) monoidal categories, where particularly the monoidal product is not assumed to be the cartesian product. Indeed, this general notion still faithfully follows the original motivation for the term "linear" as introduced in ([Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]]. 
+More generally, the term "linear" (as in *linear type theory*) has over time come to connote [[internal languages|internal]] [[type theories]], and related logical frameworks ([[sequent calculus|sequent calculi]], [[natural deduction]]) that correspond to (usually symmetric) monoidal categories, where particularly the monoidal product is not assumed to be the cartesian product (reviews include [Blute-Panangaden-Seely 94](#BlutePanangadenSeely94)). Indeed, this general notion still faithfully follows the original motivation for the term "linear" as introduced in ([Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]]. 
 
 In the corresponding logical frameworks, the non-cartesianness means one drops the contraction and weakening rules of inference associated with cartesian structure, but retains the exchange rule corresponding to the symmetry constraint. This general type of "linear logic" takes on many flavors: in addition to the Girard-style language that is naturally interpreted in [[star-autonomous categories]], one has languages for [[closed monoidal category|monoidal biclosed categories]], [[closed monoidal category|symmetric monoidal closed categories]], [[compact closed categories]], and others, collectively representing the "multiplicative" core of linear logic as understood in this general sense. 
 
@@ -185,6 +185,11 @@ Blute's thesis derives coherence theorems for various doctrines of "linear type"
 
 * G.M. Kelly and S. Mac Lane, _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
  {#KM71}
+
+An decent review of some of this is in 
+
+* {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825))
+
 
 Extensions of the coherence-theoretic applications of proof nets in Blute's thesis, to give full solutions to coherence problems, were given in 
 
