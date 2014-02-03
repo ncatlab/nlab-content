@@ -107,6 +107,8 @@ and the Grothendieck Existence Theorem]]_
 
 * [[Jacob Lurie]], _[[Representability Theorems]]_
 
+* [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
+
 Application to [[moduli stack of elliptic curves]]:
 
 * [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
