@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
