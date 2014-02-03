@@ -65,6 +65,7 @@ In this terminology
 
 * a topos _compact of height 0_ is the same as a _strongly compact topos_;
 
+See also ([[Rational and p-adic Homotopy Theory|Lurie XIII, prop. 2.3.9]]).
 
 
 ## Properties
@@ -362,10 +363,14 @@ Discussion of higher compactness conditions in [[(∞,1)-topos theory]] is in se
 
 * [[Jacob Lurie]], _Spectral Schemes_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf))
 
+and in section 2.3 of 
+
+* [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
+
 and for the special case of [[spectral Deligne-Mumford stacks]] in section 1.4 of
 
-* [[Jacob Lurie]], _Quasi-Coherent Sheaves and
-Tannaka Duality Theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VIII.pdf))
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 
 
 [[!redirects proper map of toposes]]
