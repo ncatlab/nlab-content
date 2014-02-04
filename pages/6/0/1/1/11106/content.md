@@ -7,21 +7,22 @@
 [[!include type theory - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-Linear implication is the version of [[implication]]/[[function type]] in [[linear logic]]/[[linear type theory]].
+Linear implication is the most common version of [[implication]]/[[function type]] in [[linear logic]]/[[linear type theory]].
 
 The [[categorical semantics]] of linear implication is as the [[internal hom]] in the [[closed monoidal category]] of [[types]].
+
 
 ## Related concepts
 
