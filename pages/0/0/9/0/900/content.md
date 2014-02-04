@@ -33,7 +33,7 @@ The [[objects]] of the [[category]] $pro$-$C$ are [[diagrams]] $F:D\to C$ where 
 The [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. 
 
 
-Cofiltered limits in [[Set]] are [[thread]]s and filtered colimits are [[germs]] (classes of equivalences), thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
+Cofiltered limits in [[Set]] are given by sets of [[thread]]s and filtered colimits by [[germs]] (classes of equivalences), thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
 $s = (germ_e(s))_{e\in E}$ which can be more concretely written as $([s_{d_e,e}])_e$; thus $[s_{d_e,e}]\in colim_{d\in D} C(F d, G e)$ where $s_{d_e,e}\in C(F d_e, G e)$ is some representative of the class; there is at least one $d_e$ for each $e$; if the domain $E$ is infinite, we seem to need an axiom of choice in general to find a function $e\mapsto d_e$ which will choose one representative in each class $germ_e(s)$. Thus $s$ is given by the (equivalence class) of the following data
 
 * function $e\mapsto d_e$ 
@@ -80,7 +80,8 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 * [[pro-homotopy theory]]
 
 ## References
-*  [[A. Grothendieck]],[Technique de descente ... II](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf)
+*  * A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf).
+
 
 * (SGA4-1) _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. 
 *  [[Michael Artin]] and [[Barry Mazur]], _&#201;tale homotopy theory_, 1969, No. 100 in Lecture 
