@@ -189,14 +189,18 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 
 ## References
+Ind-categories were introduced in 
+
+* Grothendieck et al. SGA4.I.6 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
+
+and the dual notion of [[pro-object]] in 
+
+* A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf).
 
 Ind-categories are discussed in
 
 * Kashiwara-Schapira, [[Categories and Sheaves]], section 6
 
-* Grothendieck et al. SGA4.I.6 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
-
-* A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960.
 
 See also the remarks at the beginning of section 5.3 of
 
