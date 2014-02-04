@@ -558,6 +558,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[function type]]
 
+  * [[implication]], [[linear implication]]
+
 * [[power object]], [[exponential object]]
 
 * [[exponential law for spaces]]
