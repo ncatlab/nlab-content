@@ -1,7 +1,10 @@
-This page is about conjunctions in double (or higher) categories; see [[logical conjunction]] for the meet of truth values.
+> This page is about conjunctions in double (or higher) categories; see [[logical conjunction]] for the meet of truth values.
 
 ***
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
