@@ -102,6 +102,11 @@ One checks that this indeed makes $\Sigma$ be a [[strong monoidal functor]] ([Po
 
 The condition that this $\Sigma$ (and its relative/dependent versions) has a [[right adjoint]] may also be understood as saying that the dependent linear type theory satisfies the _[[axiom of comprehension]]_. See at _[comprehension -- Examples -- In dependent linear type theory](http://ncatlab.org/nlab/show/axiom+of+separation#ExamplesDependentLinearTypeTheory)_ for more.
 
+### Relation to twisted generalized cohomology theory
+
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
+
 
 ## Related concepts
 
@@ -179,3 +184,9 @@ Comments on the formalization of [[integral transforms]] and [[quantization]] in
 [[!redirects linear homotopy type theory]]
 [[!redirects linear homotopy type theories]]
 
+[[!redirects linear homotopy-type theory]]
+[[!redirects linear homotopy-type theories]]
+
+
+[[!redirects dependent linear type]]
+[[!redirects dependent linear types]]
