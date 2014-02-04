@@ -86,6 +86,8 @@ from the category [[Top]] of [[topological space]]s to the category [[Ab]] of ab
 
 * [[bivariant cohomology theory]]
 
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
 ## References 
 
 A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
