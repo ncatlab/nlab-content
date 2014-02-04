@@ -1,5 +1,5 @@
 
-**[[twisted cohomology|twisted]] [[generalized cohomology theory]] is [[categorical semantics|∞-categorical]] [[semantics]] of [[linear homotopy type theory]]**
+**[[twisted cohomology|twisted]] [[generalized cohomology theory]] is [[categorical semantics|∞-categorical]] [[semantics]] of [[linear homotopy type theory]]**:
 
 | [[linear homotopy type theory]] | [[generalized cohomology theory]] | [[quantum theory]] |
 |---------------------------------|-----------------------------------|--------------------|
@@ -11,8 +11,8 @@
 | [[invertible type]]  | [[twisted generalized cohomology|twist]]  |  |
 | [[dependent sum]] | [[generalized homology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|bra]]") |
 | [[dual type|dual]] of [[dependent sum]] | [[generalized cohomology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|ket]]") |
-| [[linear implication]] | [[bivariant cohomology]] |  |
-| [[exponential conjunction]] |  |  [[Fock space]] |
+| [[linear implication]] | [[bivariant cohomology]] | [[quantum operators]] |
+| [[exponential modality]] |  |  [[Fock space]] |
 | [[dependent sum]] over [[finite homotopy type]] | [[Thom spectrum]] |  |
 | [[dualizable object|dualizable]] [[dependent sum]] over [[finite homotopy type]] | [[Atiyah duality]] between [[Thom spectrum]] and [[suspension spectrum]] |  |
 | (twisted) [[self-dual object|self-dual type]] | [[Poincaré duality]] | [[inner product]] |
