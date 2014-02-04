@@ -686,6 +686,10 @@ This, too, goes back all the way to [[BrownAHT]], where in the second part the h
 
 ...
 
+### Twisted generalized bivariant cohomology
+
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
 
 ## Tools for computing cohomology
 
