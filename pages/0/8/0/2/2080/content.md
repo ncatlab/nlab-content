@@ -69,6 +69,9 @@ In [[type theory]]
 
 * [[hypothetical judgement]]
 
+* [[linear implication]]
+
+
 [[!redirects implication]]
 [[!redirects implications]]
 
