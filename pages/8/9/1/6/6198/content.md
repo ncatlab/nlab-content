@@ -24,7 +24,7 @@ In [[physics]] there is the notion of a _physical system_, the totality of all t
 
 * [[quantum mechanical system]]
 
-* [[subsystem]]
+* [[subsystem]], [[composite system]]
 
 ## Examples
 
