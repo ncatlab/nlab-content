@@ -102,6 +102,7 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 * [[Grothendieck duality]], [[Verdier duality]]
 
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 ## References
 
@@ -138,3 +139,5 @@ Six operations in the setup of [[o-minimal structure]]s is discussed in
 [[!redirects Grothendieck six operations]]
 [[!redirects yoga of six functors]]
 [[!redirects yoga of six operations]]
+
+[[!redirects six operation yoga]]
