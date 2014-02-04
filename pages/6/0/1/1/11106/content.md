@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Linear implication is the version of [[implication]]/[[function type]] in [[linear logic]]/[[linear type theory]].
+
+The [[categorical semantics]] of linear implication is as the [[internal hom]] in the [[closed monoidal category]] of [[types]].
+
+## Related concepts
+
+* [[multiplicative conjunction]], [[exponential conjunction]]
+
+* [[function type]]
+
+* [[hypothetical judgement]]
