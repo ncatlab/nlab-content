@@ -35,7 +35,7 @@ More generally, if $p$ and $q$ are any two [[relations]] on the same domain, the
 
 ## Remarks
 
-Conjunction is de Morgan dual to [[disjunction]].
+Conjunction is [[de Morgan duality|de Morgan dual]] to [[disjunction]].
 
 Like any meet, conjunction is an associative operation, so we can take the conjunction of any finite positive whole number of truth values; the conjunction is true if and only if all of the individual truth values are true.  Conjunction also has an [[identity element]], which is the [[truth|true]] truth value.  Some logics allow a notion of infinitary conjunction.  Indexed conjunction is [[universal quantification]].
 
@@ -72,6 +72,9 @@ $$ \begin {gathered}
 
 The rules above are written so as to remain valid in logics without the [[exchange rule]].  In [[linear logic]], the first batch of sequent rules apply to additive conjunction (interpret $p \wedge q$ in these rules as $p \& q$), while the second batch of rules apply to multiplicative conjunction (interpret $p \wedge q$ in those rules as $p \otimes q$).
 
+## Related concepts
+
+* in [[linear logic]]: _[[multiplicative conjunction]]_
 
 [[!redirects logical conjunction]]
 [[!redirects and]]
