@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[linear logic]]/[[linear type theory]] the linear version of [[conjunction]] is called the _multiplicative conjunction_ and usually denoted "$\otimes$".
+
+The [[categorical semantics]] of the multiplicative conjunction is as the [[tensor product]] with respect to a ([[symmetric monoidal category|symmetric]]) [[monoidal category]] structure on the collection of [[types]].
+
+## Related concepts
+
+* [[exponential conjunction]]
+
+* [[linear implication]]
+
+[[!redirects multiplicative conjunctions]]
