@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] given two [[physical system]] their _composite_ is meant to be both systems regarded as a single system, but trivially so, without the two interacting.
+
+In [[classical mechanics]] forming a composite in this sense amounts to taking the [[cartesian product]] of their [[phase spaces]].
+
+In [[quantum mechanics]] forming the comosite amounts to taking the (non-cartesian) [[tensor product]] of the [[spaces of quantum states]].
+
+## Related concepts
+
+* [[subsystem]], [[independent subsystem]]
+
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
+
+[[!redirects composite systems]]
