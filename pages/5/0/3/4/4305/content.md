@@ -56,7 +56,7 @@ Given a [[vector space]] $V$, the $n$-fold [[tensor product]] of this space with
 
 * [[cofree coalgebra]]
 
-* [[Fock space]]
+* [[Fock space]], [[!-modality]]
 
 * [[extended power]]
 
