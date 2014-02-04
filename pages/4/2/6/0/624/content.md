@@ -36,7 +36,7 @@ There are other notions of "dual object", distinct from this one. See for exampl
 
 ### Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #DualizableObject}
 ###### Definition
 
 An object $A$ in a [[monoidal category]] $C$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}C$ corresponding to $C$.  Its adjoint in $\mathbf{B}C$ is called its **dual** in $C$ and often written as $A^*$.
@@ -58,10 +58,18 @@ Of course, in a [[symmetric monoidal category]], there is no difference between 
 
 =--
 
++-- {: .num_defn #InvertibleObject}
+###### Definition
+
+A dualizable object $A$, def. \ref{DualizableObject}, for which the structure unit/counit maps between $A \otimes A^\ast$ and the [[unit object]] are [[isomorphisms]] is called an _[[invertible object]]_.
+
+
+=--
+
 +-- {: .num_defn #RigidAndCompactClosed}
 ###### Definition
 
-If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally [[symmetric monoidal category|symmetric]], it is called a [[compact closed category]].  
+If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If moreover it is [[symmetric monoidal category|symmetric]], it is called a [[compact closed category]].  
 
 =--
 
@@ -223,4 +231,10 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 
 [[!redirects strongly dual object]]
 [[!redirects strongly dual object]]
+
+[[!redirects dual object]]
+[[!redirects dual objects]]
+
+[[!redirects dual type]]
+[[!redirects dual types]]
 
