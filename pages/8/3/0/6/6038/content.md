@@ -23,7 +23,7 @@ The process of [[quantization]] is supposed to assign to a [[classical field the
 
 In its simplest form the _free_ second quantization (in the sense of [[free field theory]], introducing no [[interaction]] between the second quantized quanta) is identified with the _[[Fock space]]_ construction on a given [[space of quantum states]].
 
-For interacting second quantization see at _[[sigma model]]_ the section [Exposition of second quantization of sigma-models](sigma-model#SecondQuantization|).
+For interacting second quantization see _[[sigma-model -- exposition of second quantization of sigma-models]]_.
 
 [[!include second quantization -- table]]
 
