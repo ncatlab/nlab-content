@@ -128,11 +128,11 @@ which says in conclusion on page 45-46
 
 A popular account of these observations was given in
 
-* [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4
+* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4
 
 a commented translation of which later appeared as
 
-* [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
+* {#Schellekens06} [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
 
 These articles, and this speech, did not cause much of excitement then. Also they did not discuss [[moduli]] stabilization, which could still have been thought to reduce the number of vacua. Excitement was only later caused instead by more vague discussion of flux compactification vacua with moduli stabilization in type IIB string theory:
 
