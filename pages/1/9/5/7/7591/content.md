@@ -188,7 +188,7 @@ $$
 
 which is indeed [[left adjoint]] to forming the ordinary [[group of units]] of a ring.
 
-We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the [[sphere spectrum]].
+We might call $\mathbb{S}[A]$ the spring **[[∞-group ∞-ring]]** of $A$ over the [[sphere spectrum]].
 
 =--
 
@@ -351,4 +351,3 @@ The $\infty$-group of units of [[Morava K-theory]] is discussed in
 
 [[!redirects group infinity-ring]]
 [[!redirects group infinity-rings]]
-
