@@ -222,7 +222,7 @@ The following dictionary indicates what the correspondence between the two subje
 
 From a blog [discussion](http://golem.ph.utexas.edu/category/2008/12/smooth_structures_in_ottawa.html#c020698)
 
-Arone and Kankaanrinta in [The Goodwillie tower of the identity is a logarithm](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306) write
+[Arone Kankaanrinta 95](#AroneKankaanrinta95) write
 
 >The Goodwillie tower of the identity...is a tower of functors and natural transformations, which starts with stable homotopy and converges to unstable homotopy. (p. 1)
 
@@ -335,7 +335,7 @@ A [[model category]] presentation for [[n-excisive functors]] is given in
 
 * Gregory Arone and Michael Ching, _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
 
-* Arone and Kankaanrinta in [The Goodwillie tower of the identity is a logarithm](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306)
+* {#AroneKankaanrinta95} Greg Arone, Marja Kankaanrinta,  _The Goodwillie tower of the identity is a logarithm_, 1995 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306))
 
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
