@@ -35,7 +35,7 @@ An [[object]] $S \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ is called a __
 * for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if for every morphism $e\colon S \to X$, $f\circ e = g\circ e$, then $f = g$.
 =--
 
-Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently say that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
+Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
 
 
 More generally:
@@ -48,7 +48,7 @@ A [[family]] $\mathcal{S} = (S_a ;|; a\colon A)$ of [[objects]] of a [[category]
 * for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if $f \circ e = g \circ e$ for every $e \colon S_a \to X$ sourced in the family, then $f = g$.
 =--
 
-Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently say that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(U_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
+Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(U_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
 
 Since repetition is irrelevant in a separating family, we may also speak of a _separating [[class]]_ instead of a separating family.
 
