@@ -21,7 +21,7 @@ A seemingly stronger, but in fact equivalent, characterization follows: $f\colon
 
 Now notice that a map of (associative) rings, possibly noncommutative (and possibly nonunital), induces an [[adjoint triple]] of functors $f^*\dashv f_*\dashv f^!$ among the categories of (say left) modules where $f^*$ is the extension of scalars, $f_*$ the restriction of scalars and $f^!\colon M \mapsto Hom_R(S,M)$ where the latter is an $R$-module via $(r x) (s) = x (s r)$. In particular, $f_*$ is exact. 
 
-In fact, if $f\colon X\to Y$ is a [[quasicompact morphism]] of schemes and $X$ is [[separated scheme|separated]], then $f$ is affine iff it is cohomologically affine, that is, the direct image $f_*$ is exact (Serre's criterium of affiness, cf. EGA II 5.2.2, EGA IV 1.7.17). 
+In fact, if $f\colon X\to Y$ is a [[quasicompact morphism]] of schemes and $X$ is [[separated scheme|separated]], then $f$ is affine iff it is cohomologically affine, that is, the direct image $f_*$ is exact ([[Serre's criterion of affiness]], cf. EGA II 5.2.2, EGA IV 1.7.17). 
 
 An [[affine localization]] is a localization functor among categories of quasicoherent $\mathcal{O}$-modules which is also the inverse image functor of an affine morphism; or an abstraction of this situation.  
 
