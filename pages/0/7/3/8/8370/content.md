@@ -54,7 +54,19 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 ## References
 
-A concise exposition of the relation between the three concepts is 
+In the introduction of 
+
+* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
+ {#Mellies06}
+
+the insight is recalled to have surfaced in the 1970s, with an early appearance in print being the monograph
+
+* [[Joachim Lambek]], [[Phil Scott]], _Introduction to Higher Order Categorical
+Logic_, Cambridge Studies in Advanced Mathematics Vol. 7. Cambridge University Press, 1986.
+
+See also at _[History of categorical semantics of linear type theory](linear+type+theory#HistoryCategoricalSemantics)_ for more on this.
+
+A exposition of the relation between the three concepts is in
 
 * [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  {#Harper}
