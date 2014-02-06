@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A move in transformations of [[Kelly-Mac Lane graphs]].
+
+## References
+
+* [[Todd Trimble]], _Linear logic, bimodules, and full coherence for autonomous categories. PhD thesis, Rutgers University, 1994
+
+[[!redirects Trimble rewirings]]
+
