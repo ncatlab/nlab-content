@@ -5,11 +5,23 @@
 
 ## Idea
 
-A move in transformations of [[Kelly-Mac Lane graphs]]. Kinda, sorta. 
+So-called Trimble rewiring refers to a certain type of transformation on graphs which were introduced in [Trimble's thesis](#TT94), intended to refine [[Kelly-Mac Lane graphs]] or classical proof nets in multiplicative [[linear logic]] so as to capture properties of the [[monoidal category|monoidal unit]] in [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]. These unit-extended proof nets may be interpreted as morphisms in free symmetric monoidal closed categories, and it turns out that two unit-extended proof nets are interpretable as the same morphism if and only if they are "rewiring equivalent". 
+
+Rewirings can be organized into a confluent and strongly normalizing rewrite system, where a rewrite called "directed rewiring". The normal forms of graphs can then be used to state a full coherence theorem, extending the [[coherence theorem]] of [Kelly and Mac Lane](#KM71) for symmetric monoidal closed categories. 
+
+The concept of rewiring equivalence extends to [[weakly distributive category|weakly distributive categories]] and $\ast$-[[star-autonomous category|autonomous]] categories as well, and likewise is used to give [coherence theorems](#BCST96) for these structures. 
 
 ## References
 
-* [[Todd Trimble]], _Linear logic, bimodules, and full coherence for autonomous categories. PhD thesis, Rutgers University, 1994
+* [[Todd Trimble]], _Linear logic, bimodules, and full coherence for autonomous categories. PhD thesis, Rutgers University, 1994 
+ {#TT94} 
+
+* {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
+
+* [[Richard Blute]], Robin Cockett, [[R. A. G. Seely|Robert Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X)) 
+ {#BCST96}
+
+
 
 [[!redirects Trimble rewirings]]
 
