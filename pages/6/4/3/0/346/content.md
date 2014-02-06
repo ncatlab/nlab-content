@@ -100,12 +100,18 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 * [[dual object in a closed category]]
 
+* [[Kelly-Mac Lane graph]]
 
 ## References 
 
 Closed categories were first defined here:
 
 * [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  (Please don\'t put a link to unauthorised copies here, since this may put the nLab, whose servers are located within the United States, at legal liability.  See [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2048).)
+
+Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]] in 
+
+* {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
+
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
