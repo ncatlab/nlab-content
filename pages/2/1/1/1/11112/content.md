@@ -5,7 +5,7 @@
 
 ## Idea
 
-A diagrammatic calculus for [[closed categories]], akin to the [[string diagrams]] for [[monoidal categories]].
+A diagrammatic calculus for [[closed categories]], akin to [[proof nets]] in linear logic and more broadly [[string diagrams]] for [[monoidal categories]].
 
 ## Related concepts
 
@@ -15,11 +15,13 @@ A diagrammatic calculus for [[closed categories]], akin to the [[string diagrams
 
 ## References
 
-The concept was introduced in
+The concept was actually introduced in 
+
+* S.Eilenberg and G.M. Kelly, _A generalization of the functorial calculus_, J. Algebra 3 (1966), 366-375. 
+
+They have come to be known as "Kelly-Mac Lane graphs" principally on account of their application to coherence problems for closed categories in the treatment 
 
 * {#KM71} [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140 ([web](http://www.sciencedirect.com/science/article/pii/0022404971900132)) 
-
-for the [[coherence theorem]] for [[closed categories]].
 
 Reviews include
 
