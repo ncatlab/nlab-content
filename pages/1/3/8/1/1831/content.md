@@ -20,14 +20,15 @@ Cartesian fibrations are one of the types of [[fibrations of quasi-categories]].
 
 A _Cartesian fibration_ of quasi-categories -- or more generally of [[simplicial set]]s -- is a morphism that generalizes the notion of [[Grothendieck fibration]] from [[category theory]] to [[(∞,1)-category theory]], specifically with [[(∞,1)-categories]] incarnated as [[quasi-categories]]:
 
-it is an [[inner fibration]] that lifts also all right _outer_ [[horn]] inclusions whose last edge is a [[cartesian morphism]], and such that there is a sufficient supply of cartesian morphisms.
+it is an [[inner fibration]] that lifts also all right _outer_ [[horn]] inclusions whose last edge is a [[cartesian morphism]], and such that there is a sufficient supply of [[cartesian morphisms]].
 
-If an [[(∞,1)-functor]] $p : C \to D$ if a Cartesian fibration then it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[(∞,1)-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
+An [[inner fibration]] $p : C \to D$ may be thought of as a family of [[(infinity,1)-categories]] $(C_d)_{d \in D}$ which is [[functorial]] in $d$ only in the sense of [[correspondences]].  Then the condition of $p$ being a cartesian fibration ensures that the family is actually [[functorial]].
+More precisely, an [[(∞,1)-functor]] $p : C \to D$ is a Cartesian fibration then it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[(∞,1)-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
 
 This way a Cartesian fibration $p : C \to D$ determines and is determined by an [[(∞,1)-functor]] $D^{op} \to (\infty,1)Cat$ into the
 [[(∞,1)-category of (∞,1)-categories]]. This is the content of the [[(∞,1)-Grothendieck construction]].
 
-Cartesian fibrations over$S$ are the fibrant objects in the [[model structure on marked simplicial over-sets]] over $S$.
+Cartesian fibrations over $S$ are the fibrant objects in the [[model structure on marked simplicial over-sets]] over $S$.
 
 ## Definition 
 
@@ -35,7 +36,7 @@ Cartesian fibrations over$S$ are the fibrant objects in the [[model structure on
 ###### Definition
 
 A morphism $p : X \to Y$ in [[sSet]] is a 
-**Cartesian fibration** if
+**Cartesian fibration** (or **Grothendieck fibration**) if
 
 * it is an [[inner fibration]] 
 
@@ -45,7 +46,7 @@ A morphism $p : X \to Y$ in [[sSet]] is a
   $\hat{f} : \hat{x} \to \hat{y}$ in $X$ lifting $f$ 
   (that is: such that $p(\hat f) = f$)
 
-The morphism is a **cocartesian fibration** (or **Cartesian opfibration**) if the [[opposite quasi-category|opposite]] $p^{op} : X^{op} \to Y^{op}$ is a Cartesian fibation.
+The morphism is a **cocartesian fibration** (or **Cartesian opfibration**, **Grothendieck opfibration**) if the [[opposite quasi-category|opposite]] $p^{op} : X^{op} \to Y^{op}$ is a Cartesian fibration.
 
 =--
 
