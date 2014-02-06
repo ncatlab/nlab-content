@@ -45,7 +45,7 @@ A morphism $p : X \to Y$ in [[sSet]] is a
   $\hat{f} : \hat{x} \to \hat{y}$ in $X$ lifting $f$ 
   (that is: such that $p(\hat f) = f$)
 
-The morphism is a Cartesian **opfibration** if the [[opposite quasi-category|opposite]] $p^{op} : X^{op} \to Y^{op}$ is a Cartesian fibation.
+The morphism is a **cocartesian fibration** (or **Cartesian opfibration**) if the [[opposite quasi-category|opposite]] $p^{op} : X^{op} \to Y^{op}$ is a Cartesian fibation.
 
 =--
 
