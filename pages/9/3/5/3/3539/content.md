@@ -92,6 +92,8 @@ An account of some of the history of (proofs of) coherence theorems is at
 
 * [linear type theory -- History of categorical semantics](linear+type+theory#HistoryCategoricalSemantics) .
 
+See also at _[[Kelly-Mac Lane graph]]_, at _[[proof net]]_ and at _[[Trimble rewiring]]_ for more on the [[syntax|syntactic]] proofs of coherence.
+
 For specific references see at the above sub-entries in the [List of coherence theorems](#ListOfTheorems).
 
 See also
