@@ -105,6 +105,7 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
   * [[indexed closed monoidal category]]
 
+* [[string diagram]], [[Kelly-Mac Lane diagram]]
 
 ##References#
 
