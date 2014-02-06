@@ -108,7 +108,7 @@ which was the first to generalize the principle of [[electromagnetism]] to a [[n
 For modern reviews of the basics see
  
 
-* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
+* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_  ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
 
