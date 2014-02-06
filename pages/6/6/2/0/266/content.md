@@ -518,7 +518,7 @@ Non-pointwise Kan extensions seem to be very rare in practice.  However, the abs
 ### Absolute Kan extensions
   {#AbsoluteKanExtension}
 
-Am _absolute_ Kan extension $Lan_p F$ is one which is [preserved](#Preservation) by all functors $G$ out of the codomain of $f$:
+Am _absolute_ Kan extension $Lan_p F$ is one which is [preserved](#Preservation) by all functors $G$ out of the codomain of $F$:
 \[
 G (Lan_p F) \simeq Lan_p(G F)
 \]
