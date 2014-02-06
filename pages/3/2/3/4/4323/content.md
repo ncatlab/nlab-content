@@ -289,7 +289,7 @@ This is ([Ando-Blumberg-Gepner 10, def. 4.1](#ABG10)), reviewed also as ([Wilson
 +-- {: .num_remark}
 ###### Remark
 
-This is the $R$-[[(∞,1)-module]] of [[sections]] of the [[(∞,1)-module bundle]] classified by $X \stackrel{\chi}{\to} Pic(R) \hookrightarow R Mod$.
+This is the $R$-[[(∞,1)-module]] of [[sections]] of the [[(∞,1)-module bundle]] classified by $X \stackrel{\chi}{\to} Pic(R) \hookrightarrow R Mod$.
 
 By the [[universal property]] of the [[(∞,1)-colimit]] we have for $\underline{R} \colon X \to R Mod$ the trivial $R$-bundle that 
 
