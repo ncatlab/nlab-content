@@ -201,3 +201,5 @@ $$
 [[!redirects loop space objects]]
 [[!redirects loop object]]
 [[!redirects loop objects]]
+[[!redirects loop space functor]]
+[[!redirects loop space functors]]
