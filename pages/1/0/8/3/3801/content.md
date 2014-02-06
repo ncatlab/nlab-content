@@ -217,9 +217,9 @@ The original references include the following:
 
 In 
 
-* [[Ralph Cohen]] and J.D.S. Jones, _A homotopy theoretic realization of string topology_ , Math. Ann. 324
-(2002), no. 4, 773798.
- {#CohenJones}
+* {#CohenJones} [[Ralph Cohen]] and J.D.S. Jones, _A homotopy theoretic realization of string topology_ , Math. Ann. 324
+(2002), no. 4, ([arXiv:0107187](http://arxiv.org/abs/math/0107187))
+ 
 
 the string product was realized as genuine pull-push (in terms of dual [[fiber integration]] via [[Thom isomorphism]]).
 
