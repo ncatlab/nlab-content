@@ -17,7 +17,7 @@ A diagrammatic calculus for [[closed categories]], akin to [[proof nets]] in lin
 
 The concept was actually introduced in 
 
-* S.Eilenberg and G.M. Kelly, _A generalization of the functorial calculus_, J. Algebra 3 (1966), 366-375. 
+* [[Samuel Eilenberg]], [[Max Kelly]], _A generalization of the functorial calculus_, J. Algebra 3 (1966), 366-375. 
 
 They have come to be known as "Kelly-Mac Lane graphs" principally on account of their application to coherence problems for closed categories in the treatment 
 
