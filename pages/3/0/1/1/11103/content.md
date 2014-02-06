@@ -13,7 +13,7 @@
 | [[dual type|dual]] of [[dependent sum]] | [[generalized cohomology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|ket]]") |
 | [[linear implication]] | [[bivariant cohomology]] | [[quantum operators]] |
 | [[exponential modality]] |  |  [[Fock space]] |
-| [[dependent sum]] over [[finite homotopy type]] | [[Thom spectrum]] |  |
+| [[dependent sum]] over [[finite homotopy type]] (of twist) | [[suspension spectrum]] ([[Thom spectrum]]) |  |
 | [[dualizable object|dualizable]] [[dependent sum]] over [[finite homotopy type]] | [[Atiyah duality]] between [[Thom spectrum]] and [[suspension spectrum]] |  |
 | (twisted) [[self-dual object|self-dual type]] | [[Poincaré duality]] | [[inner product]] |
 | [[dependent sum]] coinciding with [[dependent product]] | [[ambidextrous adjunction|ambidexterity]], [[semiadditive (∞,1)-category|semiadditivity]] |  |
