@@ -1,0 +1,12 @@
+A **pointed (infinity,1)-category** is an [[(infinity,1)-category]] that admits a [[zero object]], i.e. an [[object]] ${*}$ which is both [[initial object|initial]] and [[final object|final]].
+
+If $C$ is pointed, then a [[zero object]] ${*}$ is unique up to equivalence.
+
+## See also
+
+* [[pointed category]]
+* [[stable (infinity,1)-category]]
+
+## References
+
+* [[Jacob Lurie]], [[Higher Algebra]], chapter 1.
