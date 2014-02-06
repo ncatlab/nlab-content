@@ -5,7 +5,7 @@
 
 ## Idea
 
-A move in transformations of [[Kelly-Mac Lane graphs]].
+A move in transformations of [[Kelly-Mac Lane graphs]]. Kinda, sorta. 
 
 ## References
 
