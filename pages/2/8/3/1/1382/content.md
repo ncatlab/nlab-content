@@ -46,6 +46,8 @@ In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinar
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
+* [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
+
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
 [[!redirects E-∞-ring]]
