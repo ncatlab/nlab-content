@@ -1,28 +1,29 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Manifolds and cobordisms
-+--{: .hide}
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A **surface** is a [[space]] of [[dimension]] 2.
 
-In [[differential geometry]] this means a 2-dimensional [[smooth manifold]]. 
+In [[differential geometry]] this means a 2-dimensional [[smooth manifold]] or something thereby [[parametrization|parametrized]].
+
 
 ## Related concepts
 
 * [[genus of a surface]]
 
 
+[[!redirects surface]]
 [[!redirects surfaces]]
