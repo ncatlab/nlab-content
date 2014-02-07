@@ -30,4 +30,8 @@ where $\Phi_p \times \Phi_q \to \Phi_n$ is the canonical morphism which is part 
 
 ## References
 
+The last chapter of
+
 * [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique, I_. Ast&#233;risque, Vol. 314 (2008). Soci&#233;t&#233; Math&#233;matique de France. ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF))
+
+[[!redirects symmetric sequences]]
