@@ -27,7 +27,7 @@ Let $f$ be a function from $\mathbb{R}^d$ to $\mathbb{R}$, and assume that the c
 =--
 Here, $\mathbb{R}^d$ is a [[Cartesian space]], and $C^\infty(X,Y)$ is the set of [[smooth maps]] from $X$ to $Y$.
 
-The theorem is quoted with a proof in [Kriegl & Michor 1997](KrieglMichor1997) (Theorem 3.4).
+The theorem is quoted with a proof in [Kriegl & Michor 1997](#KrieglMichor1997) (Theorem 3.4).
 
 
 ## Less than smooth functions
@@ -64,6 +64,14 @@ This does not contradict the well known theorem (often taken as a definition!) t
   {#KrieglMichor1997}
 
 
+[[!redirects Boman's theorem]]
+[[!redirects Boman's Theorem]]
+[[!redirects Boman's theorems]]
+[[!redirects Boman's Theorems]]
+[[!redirects Boman\'s theorem]]
+[[!redirects Boman\'s Theorem]]
+[[!redirects Boman\'s theorems]]
+[[!redirects Boman\'s Theorems]]
 [[!redirects Boman's theorem]]
 [[!redirects Boman's Theorem]]
 [[!redirects Boman's theorems]]
