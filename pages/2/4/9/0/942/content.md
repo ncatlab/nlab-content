@@ -31,7 +31,7 @@ The above topological version of this, with which we started, is obtained by mea
 ###### Remark
 
 
-The inclusion [[functor]] $inc$ from the category, $FinGrps$, of finite groups, into that of groups does not have a [[left adjoint]].  It does have a left *pro-adjoint*, that is to say, it induces a functor on [[procategories]]
+The inclusion [[functor]] $inc$ from the category, $FinGrps$, of finite groups, into that of groups does not have a [[left adjoint]].  It does have a left *pro-adjoint*, that is to say, it induces a functor on [[pro-objects|procategories]]
 
 $$
   pro\!-\!inc : pro\!-\! FinGrps\to pro\!-\Grps
