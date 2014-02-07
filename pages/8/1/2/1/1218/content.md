@@ -1,25 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Cohesive toposes
-+--{: .hide}
++-- {: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
 
-
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -28,6 +26,7 @@ A **diffeological spaces** is a type of [[generalized smooth space]].  As with t
 In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the category of open subsets of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
 
 Diffeological spaces were originally introduced by [[Jean-Marie Souriau]] in the beginning of the 1980s. They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who wrote a [textbook](http://www.ams.org/bookstore-getitem/item=SURV-185) on the subject.
+
 
 ## Definition
 
@@ -562,4 +561,11 @@ Discussion in the context of applications to [[continuum mechanics]] is in
 * [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
 
+[[!redirects diffeological space]]
 [[!redirects diffeological spaces]]
+
+[[!redirects diffeological structure]]
+[[!redirects diffeological structures]]
+
+[[!redirects diffeology]]
+[[!redirects diffeologies]]
