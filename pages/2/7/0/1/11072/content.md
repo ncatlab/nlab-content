@@ -56,6 +56,15 @@ The interpretation of the !-modality as a [[Fock space]] construction is discuss
 
   (in the context of [[finite quantum mechanics in terms of dagger-compact categories]])
 
+The interpretation of $\Omega^\infty \Sigma^\infty_+$ as an exponential in the context of [[Goodwillie calculus]] is due to 
+
+* {#AroneKankaanrinta95} [[Gregory Arone]], Marja Kankaanrinta,  _The Goodwillie tower of the identity is a logarithm_, 1995 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306))
+
+based on
+
+* {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, 1998 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
+
+
 
 [[!redirects of course]]
 [[!redirects !]]
