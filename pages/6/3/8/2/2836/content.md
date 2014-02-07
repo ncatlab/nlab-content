@@ -72,6 +72,8 @@ which "evaluates" a symmetric spectrum at its $n$th component, admits under thes
   $$ Sus^n : C \to \Spect_F^\Phi(C) $$
 called the $n$th **suspension functor**, more commonly denoted $\Sigma_C^{\infty-n}$.
 
+When $C$ is [[symmetric monoidal category|symmetric monoidal]], and in the case $\Phi = \Sigma$ and $F = T \otimes -$ for some object $T$, there is an induced [[symmetric monoidal structure]] on $Spect^\Sigma_T(C)$ as described at [[symmetric monoidal structure on spectrum objects]].
+
 **Proposition.** One has
   $$ Sus^p_T(X) \otimes Sus^q_T(Y) \simeq Sus^{p+q}_T(X \otimes Y) $$
 for all $X,Y \in C$.  In particular, $Sus = Sus^0 : C \to \Spect^\Sigma_T(C)$ is a [[symmetric monoidal functor]].
