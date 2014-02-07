@@ -1,0 +1,14 @@
+
+
+* [webpage](http://pi.math.virginia.edu/~zga2m/)
+
+## Related entries
+
+* [[Goodwillie calculus]]
+
+category: people
+
+
+
+[[!redirects Greg Arone]]
+
