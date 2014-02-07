@@ -204,3 +204,5 @@ More discussion is in
 [[!redirects symmetric monoidal categories]]
 [[!redirects symmetric monoidal structure]]
 [[!redirects symmetric monoidal structures]]
+
+[[!redirects symmetric monoidal]]
