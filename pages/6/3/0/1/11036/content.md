@@ -35,7 +35,7 @@ We begin by describing proof nets for multiplicative linear logic (MLL), which i
 
 Before describing proof nets, we start with Girard's notion of _proof structure_. It is simplest to describe the cut-free version, as this is closely connected with the notion of [[Kelly-Mac Lane graph]], or KM-graph for short. We need just a few preliminaries. 
 
-[[formula|Formulas]] in MLL may be built from an alphabet $\mathbf{T}$ of propositional variables and two constants $\mathbf{1}$, $\bot$ by applying operations $\otimes$ and $\multimap$. The construction of a formula may be displayed as a binary planar tree. 
+[[formula|Formulas]] in MLL may be built from an alphabet $\mathbf{T}$ of propositional variables and two constants $\mathbf{1}$, $\bot$ by applying operations $\otimes$ and $\multimap$. (Negation may be defined by $\neg A \coloneqq A \multimap \bot$, and the multiplicative disjunction by $A \parr B \coloneqq \neg A \multimap B$. To get formulas in MILL, simply drop $\bot$.) The construction of a formula may be displayed as a binary planar tree. 
 
 We consider two-sided sequents $\Gamma = A_1, \ldots, A_m \vdash \Delta = B_1, \ldots, B_n$, wherein the formulas of $\Gamma$ to the left of the turnstyle are called _negative_ and the formulas of $\Delta$ are called _positive_. Subformulas of these formulas acquire signs according to the following rules: 
 
@@ -54,9 +54,9 @@ A (cut-free) _proof structure_ of type $\Gamma \to \Delta$ (in the language of M
 * Edges in binary construction trees of the formulas $A_i, B_j$, oriented according to the following rules: 
 
 $$\array{
- & & (S \otimes T)^- & & \qquad S^+ & & & & T^+ \qquad & & (S \multimap T)^- & & \qquad S^- & & & & T^+ \\ 
- & \swarrow & & \searrow & \qquad & \searrow & & \swarrow & \qquad  & \nearrow & & \searrow & \qquad & \nwarrow & & \swarrow & \\ 
-S^- & & & & T^- \qquad & & (S \otimes T)^+ \qquad S^+ & & & & T^- \qquad & & (S \multimap T)^+
+ & & (S \otimes T)^- & & \qquad S^+ & & & & T^+ & & & & (S \multimap T)^- & & \qquad S^- & & & & T^+ \\ 
+ & \swarrow & & \searrow & \qquad & \searrow & & \swarrow & & & & \nearrow & & \searrow & \qquad & \nwarrow & & \swarrow & \\ 
+S^- & & & & T^- \qquad & & (S \otimes T)^+ & & & S^+ & & & & T^- \qquad & & (S \multimap T)^+
 }$$ 
 =-- 
 
@@ -72,14 +72,20 @@ Proof nets are those proof structures that arise by taking the KM-graphs of morp
 
 More exactly, let $F[\mathbf{T}]$ be the free $\ast$-autonomous category on $\mathbf{T}$ (as discrete category), viewing $\ast$-autonomous categories and functors that preserve $\ast$-autonomous category _strictly_ as a 1-category that is 1-monadic over $Cat$, the category of small categories and functors. Observe that the objects of $F[\mathbf{T}]$ may be identified with MLL formulas. We view the morphisms of $F[\mathbf{T}]$ as representing morphisms that are definable (starting with the datum $\mathbf{T}$). 
 
-As $Struct[\mathbf{T}]$ is $\ast$-autonomous, the obvious inclusion $\mathbf{T} \hookrightarrow Struct[\mathbf{T}]$ induces a unique strict $\ast$-autonomous functor $S: F[\mathbf{T}] \to Struct[\mathbf{T}]$. 
+As $Struct[\mathbf{T}]$ is $\ast$-autonomous, the obvious inclusion $\mathbf{T} \hookrightarrow Struct[\mathbf{T}]$ induces a unique strict $\ast$-autonomous functor $S: F[\mathbf{T}] \to Struct[\mathbf{T}]$, which may be called the _graphical semantics_ funcor. 
 
 +-- {: .num_defn} 
 ###### Definition 
-A **proof net** (in the language of MLL) of type $A \to B$ is a proof structure $\pi$ of that type that is of the form $S(f)$, for some arrow $f: A \to B$ in $F[\mathbf{T}]$. 
+A **proof net** (in the language of MLL) of type $A \to B$ is a proof structure $\pi$ of the form $S(f)$, the graphical semantics of some arrow $f: A \to B$ in $F[\mathbf{T}]$. 
 =-- 
 
-(To be continued.) 
+For a cedent of formulas $\Gamma = A_1, \ldots, A_n$, let $\bigotimes \Gamma$ be the formula $A_1 \otimes \ldots \otimes A_n$ (associated to the left, say, if one is to be persnickety), and let $\parr \Gamma$ be the formula $A_1 \parr \ldots \parr A_n$. Each proof structure $\pi: \Gamma \to \Delta$ determines (and is determined by) a unique proof structure ${|\pi|}: \bigotimes \Gamma \to \parr \Delta$ with the same underlying KM-graph as $\pi$. 
+
+Then, more generally we may define a proof net of type $\Gamma \to \Delta$ to be a proof structure $\pi: \Gamma \to \Delta$ such that ${|\pi|}$ is a proof net according to the definition above. 
+
+Alternatively, we may define proof nets by reference to MLL sequent calculus, as follows. 
+
+#### Nets of sequent deductions 
 
 
 ## References
