@@ -144,4 +144,8 @@ Surveys and reviews include
 
 * Peter Dybjer, _(What I know about) the history of the identity type_ (2006) ([pdf slides](http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf))
 
+A [[string diagram]] calculus for monoidal hyperdoctrines is discussed in
+
+* Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_
+
 [[!redirects hyperdoctrines]]
