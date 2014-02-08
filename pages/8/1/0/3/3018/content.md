@@ -176,6 +176,8 @@ More should go here, but for now see [[compact closed double category]].
 
 ## Related concepts
 
+* [[proof net]]
+
 * [[homotopy]]
 
 * [[transfor]]
