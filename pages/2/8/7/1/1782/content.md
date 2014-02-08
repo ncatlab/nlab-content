@@ -48,6 +48,7 @@ Types of categories for which a theory of algebraic K-theory exist include notab
 
 Concrete examples of interest include for instance
 
+
 * the category of finitely generated [[projective object]]s over a unital $k$-[[associative unital algebra|algebra]], 
 
 * the category of [[coherent sheaf|coherent sheaves]] over a [[noetherian ring|noetherian]] [[scheme]],
@@ -109,6 +110,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 * [[K-theory of a bipermutative category]]
 
 * [[bivariant algebraic K-theory]]
+
+* [[K-motive]]
 
 * [[red-shift conjecture]]
 
