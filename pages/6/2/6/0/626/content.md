@@ -52,7 +52,7 @@ There are many additional structures on monoidal categories, or similar structur
 
 * As explained [here](http://sbseminar.wordpress.com/2007/07/12/the-operadic-periodic-table/), in the presence of certain levels of duality it may be better to work with diagrams on cylinders or spheres rather than in boxes. This relates to [[planar algebras]] and [[canopolis|canopolises]]. 
 
-* A string diagram calculus for [[monoidal fibrations]] can be obtained as a generalization of C.S. Peirce's "existential graphs."  The ideas are essentially contained in [this paper](http://people.cs.uchicago.edu/~brady/beta98.ps) by Brady and Trimble, and was discussed [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html).
+* A string diagram calculus for [[monoidal fibrations]] can be obtained as a generalization of C.S. Peirce's "existential graphs."  The ideas are essentially contained in ([Brady-Trimble 98](#BradyTrimble98)) and developed in ([Ponto-Shulman 12](#PontoShulman12)) , and was discussed [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html).
 
 * String diagrams for [[closed monoidal categories]] (see also at _[[Kelly-Mac Lane graph]]_) are similar to those for [[autonomous categories]], but a bit subtler, involving "boxes" to separate parts of the diagram.  They were used informally [here](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation), but can also be done in essentially the same way as the [[proof net]]s used in [[intuitionistic logic|intuitionistic]] [[linear logic]]; see [this paper](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf).  Proof nets for [[classical mathematics|classical]] [[linear logic]] similarly give string diagrams for [[*-autonomous categories]].
 
@@ -120,13 +120,23 @@ For more on the history of the notion see the bibliography in ([Selinger 09](#Se
 
 ### Details
 
+String diagrams for [[monoidal categories]] are discussed in
+
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.
 
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_, draft available [here](http://www.math.mq.edu.au/~street/GTCII.pdf).
 
 * [[Andre Joyal]] and [[Ross Street]], _Planar diagrams and tensor algebra_, available [here](http://www.math.mq.edu.au/~street/PlanarDiags.pdf).
 
+For [[traced monoidal categories]] in
+
 * [[Andre Joyal]], [[Ross Street]] and [[Dominic Verity|Verity]], _Traced monoidal categories_.
+
+For [[indexed monoidal categories]] in
+
+* {#BradyTrimble98} Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_ (1998)
+
+* {#PontoShulman12} [[Kate Ponto]], [[Michael Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
 
 This article discusses the generalization of string diagrams to one dimension higher:
 
