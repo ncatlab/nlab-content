@@ -97,7 +97,7 @@ A **par switch** (a $\parr$-switch) in a proof structure is a subgraph of one of
 
 $$\array{
  & & (S \otimes T)^- & & & & S^- & & & & T^+ \\ 
- & \swarrow & & \searrow & & & \nwarrow & & \swarrow \\ 
+ & \swarrow & & \searrow & & & & \nwarrow & & \swarrow \\ 
 S^- & & & & T^- & & & & (S \multimap T)^+ & & 
 }$$ 
 
@@ -107,16 +107,48 @@ A **network** of a proof structure $\pi$ is obtained by removing exactly one of 
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Girard, Danos-Regnier)** 
-A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected acyclic graph (when considered as an unoriented graph, forgetting edge orientations). 
+A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected acyclic graph (considered as an unoriented graph, forgetting edge orientations). 
 =-- 
 
-This criterion, thus stated, might appear exponential in complexity, since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity in polynomial time. (To be described) 
+The proof is rather technical, but it is of fundamental importance in the analysis of proof nets. 
+
+The Danos-Regnier criterion, thus stated, might appear exponential in complexity, since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. 
+
+Informally, what one does is draw an arc between the two edges of each par switch (in the manner of secondary school geometry, when one wishes to indicate an angle between two lines), and then applies a series of graph reductions: 
+
+* At each step in the series, any un-arced edge between two distinct nodes may be contracted to a single node; 
+
+* At each step of the series, any configuration consisting of two distinct nodes and a pair of arced edges between them may be contracted to a point, 
+
+* A graph consisting of a single node and no edges reduces to itself. 
+
++-- {: .num_prop} 
+###### Proposition 
+**(Danos-Regnier)** 
+A proof structure is a proof net if and only if any series of graph reductions eventually reduces it to a point. 
+=-- 
 
 ## Unit-extended proof nets 
 
-In his thesis, Trimble introduced a slight refinement of proof structures, designed to take the units $\mathbf{1}$ and $\bot$ more explicitly into account. 
-(To be given) 
+In his thesis, Trimble introduced a refinement of proof structures, designed to take the units $\mathbf{1}$ and $\bot$, particularly their actions and co-actions on other objects, more explicitly into account. 
 
++-- {: .num_defn} 
+###### Definition 
+A **unit-extended proof structure** of type $\Gamma \to \Delta$ is a proof structure $\pi: \Gamma \to \Delta$ together with a function from the set of subformula occurrences of $\mathbf{1}^-$ to the set of subformulas, and a function from the set of subformula occurrences of $\bot^+$ to the set of subformulas. 
+=-- 
+
+Unit-extended proof structures are considered as graphs, by adjoining to $\pi$ an edge $\mathbf{1}^- \to S$ for each subformula occurrence $\mathbf{1}^-$ that maps to $S$ under the first function, and another edge $T \to \bot^+$ for each subformula occurrence $\bot^+$ that maps to $T$ under the second function. This means for instance that for the sequent $\mathbf{1} \vdash \bot$, there is just one unit-extended proof structure of type $\mathbf{1} \to \bot$, and it consists of a _pair_ of edges from $\mathbf{1}^-$ to $\bot^+$. 
+
+To each MLL sequent deduction, one can associate a unit-extended proof structure, or rather a set of proof structures, as follows. (To be described) A **unit-extended proof net** is a unit-extended proof structure that is associated with some MLL sequent deduction. 
+
+The notion of network for unit-extended proof structures is the same as for ordinary proof structures: a network is obtained by removing just one edge from each par-switch. The Danos-Regnier criterion for validity goes through without modification: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A unit-extended proof structure is a unit-extended proof net if and only if each of its networks is an acyclic connected graph (ignoring edge orientations). 
+=-- 
+
+The simplified algorithm for deciding validity, in terms of a series of graph reductions, also goes through for unit-extended proof structures without any modification. 
 
 ## References
 
