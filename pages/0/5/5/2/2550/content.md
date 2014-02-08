@@ -504,7 +504,10 @@ Discussion related to [[étale homotopy]] is in
 [[!redirects A1 homotopy theory]]
 [[!redirects A1-homotopy category]]
 [[!redirects A1 homotopy category]]
+
 [[!redirects stable motivic homotopy theory]]
+[[!redirects motivic stable homotopy theory]]
+
 [[!redirects motivic homotopy category]]
 [[!redirects stable motivic homotopy category]]
 [[!redirects motivic space]]
