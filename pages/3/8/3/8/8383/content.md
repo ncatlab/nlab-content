@@ -64,7 +64,11 @@ Discussion of [[traces]] and of [[dual objects]] in indexed monoidal categories 
 
 * [[Kate Ponto]], [[Mike Shulman]], _Duality and traces in indexed monoidal categories_, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html))
 
-Generalization to [[enriched categrories]] is in
+This also presents a [[string diagram]] calculus for indexed monoidal categories, extending that for monoidal [[hyperdoctrines]] in 
+
+* {#BradyTrimble98} Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_ (1998)
+
+Generalization to [[enriched categories]] is in
 
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
  
