@@ -249,7 +249,7 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 
 A brief exposition is in 
 
-* [[Barry Mazur]], _What is... a Motive?_ ([pdf](http://www.ams.org/notices/200410/what-is.pdf))
+* [[Barry Mazur]], _What is... a Motive?_, Notices of the AMS, volume 51, Number 10, 2004 ([pdf](http://www.ams.org/notices/200410/what-is.pdf))
 
 A review is also in chapter I of
 
