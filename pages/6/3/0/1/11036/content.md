@@ -56,7 +56,7 @@ A (cut-free) _proof structure_ of type $\Gamma \to \Delta$ (in the language of M
 $$\array{
  & & (S \otimes T)^- & & \qquad S^+ & & & & T^+ & & & & (S \multimap T)^- & & \qquad S^- & & & & T^+ \\ 
  & \swarrow & & \searrow & \qquad & \searrow & & \swarrow & & & & \nearrow & & \searrow & \qquad & \nwarrow & & \swarrow & \\ 
-S^- & & & & T^- \qquad & & (S \otimes T)^+ & & & S^+ & & & & T^- \qquad & & (S \multimap T)^+
+S^- & & & & T^- \qquad & & (S \otimes T)^+ & & & S^+ & & & & & T^- \qquad & & (S \multimap T)^+
 }$$ 
 =-- 
 
@@ -68,7 +68,7 @@ In fact this category of proof structures is a $\ast$-autonomous category. As ob
 
 ### Proof nets 
 
-Proof nets are those proof structures that arise by taking the KM-graphs of morphisms that are definable in the language of $\ast$-autonomous categories. 
+Proof nets are those proof structures that arise by taking the KM-graphs of morphisms that are definable in the language of $\ast$-autonomous categories. Or, in the language of Girard, proof nets are those proof structures which are "correct" or "valid" (i.e., derivable from a sequent deduction, in a sense explained below). 
 
 More exactly, let $F[\mathbf{T}]$ be the free $\ast$-autonomous category on $\mathbf{T}$ (as discrete category), viewing $\ast$-autonomous categories and functors that preserve $\ast$-autonomous category _strictly_ as a 1-category that is 1-monadic over $Cat$, the category of small categories and functors. Observe that the objects of $F[\mathbf{T}]$ may be identified with MLL formulas. We view the morphisms of $F[\mathbf{T}]$ as representing morphisms that are definable (starting with the datum $\mathbf{T}$). 
 
@@ -86,6 +86,36 @@ Then, more generally we may define a proof net of type $\Gamma \to \Delta$ to be
 Alternatively, we may define proof nets by reference to MLL sequent calculus, as follows. 
 
 #### Nets of sequent deductions 
+
+## Graphical criterion for validity 
+
+In his original Linear Logic paper, Girard gave an interesting purely graphical criterion for a proof structure to be a proof net (i.e., "valid"), based on his so-called "cyclic trips" and "longtrip criterion". Later this criterion was simplified and improved by Danos and Regnier, who at the same time showed that validity of a proof structure could be decided in polynomial time. We give this criterion below. (**N.B.** this criterion as given by them works for proof structures of type $A \to B$ where there are no subformula occurrences of $\mathbf{1}$ and $\bot$. It may be extended to work for all formulas if we use a more refined notion of proof structure, called a unit-extended proof structure, as described below.) 
+
++-- {: .num_defn} 
+###### Definition 
+A **par switch** (a $\parr$-switch) in a proof structure is a subgraph of one of the two forms 
+
+$$\array{
+ & & (S \otimes T)^- & & & & S^- & & & & T^+ \\ 
+ & \swarrow & & \searrow & & & \nwarrow & & \swarrow \\ 
+S^- & & & & T^- & & & & (S \multimap T)^+ & & 
+}$$ 
+
+A **network** of a proof structure $\pi$ is obtained by removing exactly one of the two edges from each par switch of $\pi$. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Girard, Danos-Regnier)** 
+A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected acyclic graph (when considered as an unoriented graph, forgetting edge orientations). 
+=-- 
+
+This criterion, thus stated, might appear exponential in complexity, since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity in polynomial time. (To be described) 
+
+## Unit-extended proof nets 
+
+In his thesis, Trimble introduced a slight refinement of proof structures, designed to take the units $\mathbf{1}$ and $\bot$ more explicitly into account. 
+(To be given) 
 
 
 ## References
