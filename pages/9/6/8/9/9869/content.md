@@ -20,6 +20,8 @@ A [[bivariant cohomology theory|bivariant]] version of [[algebraic K-theory]].
 
 ## Related concepts
 
+* [[K-motive]]
+
 * [[KK-theory]]
 
 ## References
