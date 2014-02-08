@@ -85,7 +85,34 @@ Then, more generally we may define a proof net of type $\Gamma \to \Delta$ to be
 
 Alternatively, we may define proof nets by reference to MLL sequent calculus, as follows. 
 
-#### Nets of sequent deductions 
+### Nets of sequent deductions 
+
+To each deduction or derivation tree in MLL sequent calculus, one may give an associated proof net. This is by induction; one considers the last step of a deduction $\delta$ whose premises have given derivations $\delta_i: \Gamma_i \to \Delta_i$, which have been given assigned proof nets $N(\delta_i)$, and uses this to assign a net to the full deduction $\delta$. 
+
+We recall the rules for MLL over a list of variable types $\mathbf{T}$, and associated rules for forming nets. The rules for forming nets will sound pretty repetitive! But don't worry; that just means they're really easy. In summary, all we do for each rule besides the axioms is take the disjoint union of the KM-graphs occurring for the (derivations of the) premises, to get the KM-graph of the conclusion. 
+
++-- {: .num_remark} 
+###### Remark 
+By the _[[cut rule|Hauptsatz]]_, i.e., cut-elimination theorem, we omit consideration of the cut rule. It is however interesting to consider the meaning of the cut-elimination algorithm in terms of proof nets; someone who is sufficiently savvy with graphics may wish to include material here. 
+=-- 
+
+1. Axiom $\frac{}{\displaystyle t \vdash t}\; id$, where $t \in \mathbf{T}$. Here the net of the conclusion consists of the KM-graph $t^- \to t^+$. 
+
+1. Structural rule $\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, B, A, \Delta \vdash \Sigma}\; exchange$. Here there is an identification between the sets of subformula occurrences for the premise and conclusion, and under this identification the proof net for $\delta$ is the same as the proof net for $\delta'$. 
+
+1. Unit rules (logical rules for units). There are four of these: 
+* $\frac{}{\displaystyle \; \vdash \mathbf{1}}\; \mathbf{1}_+)$. The KM-graph of the conclusion is empty.  
+* $\frac{}{\displaystyle \bot \vdash \; }\; \bot_{-})$. The KM-graph of the conclusion is empty. 
+* $\frac{\displaystyle \delta': \Gamma, \Delta \vdash \Sigma}{\displaystyle \Gamma, \mathbf{1}, \Delta \vdash \Sigma}\; \mathbf{1}_{-})$. Here there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+* $\frac{\displaystyle \delta': \Gamma \vdash \Delta, \Sigma}{\displaystyle \Gamma \vdash \Delta, \bot, \Sigma}\; \bot_+)$. Here there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+
+1. Logical rules for $\otimes$ and $\multimap$. There are four of these. 
+* $\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, A \otimes B, \Delta \vdash \Sigma}\; \otimes_{-})$. There is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+* $\frac{\displaystyle \delta': \Gamma, A \vdash B, \Delta}{\displaystyle \Gamma \vdash A \multimap B, \Delta}\; \multimap_+)$. There is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+* $\frac{\displaystyle \delta_1: \Gamma \vdash \Delta, A \qquad \delta_2: \Sigma \vdash B, \Omega}{\Gamma, \Sigma \vdash \Delta, A \otimes B, \Omega}\; \otimes_+)$. In this case, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this ientification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
+* $\frac{\displaystyle \delta_1: \Sigma, B \vdash \Omega \qquad \delta_2: \Gamma \vdash A, \Delta \qquad }{\Sigma, A \multimap B, \Gamma \vdash \Omega, \Delta}\; multimap_{-})$. In this case, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this ientification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
+
+
 
 ## Graphical criterion for validity 
 
@@ -101,6 +128,8 @@ $$\array{
 S^- & & & & T^- & & & & (S \multimap T)^+ & & 
 }$$ 
 
+where $(S \otimes T)^-$ or $(S \multimap T)^+$ is a subformula node of the proof structure. (A $\otimes$ switch in a proof structure is similarly a subgraph consisting of a subformula node $(S \otimes T)^+$ or $(S \multimap T)^-$ and its two children in the binary construction tree, and the edges connecting them.) 
+
 A **network** of a proof structure $\pi$ is obtained by removing exactly one of the two edges from each par switch of $\pi$. 
 =-- 
 
@@ -110,9 +139,12 @@ A **network** of a proof structure $\pi$ is obtained by removing exactly one of 
 A proof structure $\pi$ is a proof net if every network of $\pi$ is a connected acyclic graph (considered as an unoriented graph, forgetting edge orientations). 
 =-- 
 
-The proof is rather technical, but it is of fundamental importance in the analysis of proof nets. 
++-- {: .num_remark} 
+###### Remark 
+The proof is quite technical, but it is of fundamental importance in the analysis of proof nets. The method is to "sequentialize" a proof structure that satisfies this graphical criterion (i.e., provide a sequent deduction for it). This is by an inductive procedure which first removes consideration of outer par switches (replacing a proof structure of type $\Gamma, A \otimes B, \Delta \to \Sigma$ by an 'equivalent' structure of type $\Gamma, A, B, \Delta \to \Sigma$, and similarly a proof structure of type $\Gamma \to A \multimap B, \Delta$ by an equivalent one of type $\Gamma, A \to B, \Delta$). Once these have been removed, the hard part is to show there exists an outer $\otimes$ switch with parent $(A \otimes B)^+$ or $(A \multimap B)^-$, such that removal of the parent and edges to its children splits the graph cleanly into two connected components, each of which then satisfies the graphical criterion. The proof of existence is by a tricky combinatorial analysis on graphs. Once this is done, each of the two graph components is sequentializable by the inductive hypothesis, and the induction can then be pushed through. 
+=-- 
 
-The Danos-Regnier criterion, thus stated, might appear exponential in complexity, since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. 
+The Danos-Regnier criterion, stated according to the definition above, might appear exponential in complexity since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. 
 
 Informally, what one does is draw an arc between the two edges of each par switch (in the manner of secondary school geometry, when one wishes to indicate an angle between two lines), and then applies a series of graph reductions: 
 
@@ -125,7 +157,7 @@ Informally, what one does is draw an arc between the two edges of each par switc
 +-- {: .num_prop} 
 ###### Proposition 
 **(Danos-Regnier)** 
-A proof structure is a proof net if and only if any series of graph reductions eventually reduces it to a point. 
+A proof structure is a proof net if and only if any series of graph reductions eventually reduces it to a graph with a single node and no edges. 
 =-- 
 
 ## Unit-extended proof nets 
