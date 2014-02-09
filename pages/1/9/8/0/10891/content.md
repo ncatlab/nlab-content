@@ -24,7 +24,7 @@
 
 ## Idea
 
-The specialization of a context of [[six operations]] $(f_\ast \dashv f^\ast)$, $(f_! \dashv f^!)$ to the case that the "projection formula" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$. ([May 05, def. 2.12](#May05))
+The specialization of a context of [[six operations]] $(f^\ast \dashv f_\ast)$, $(f_! \dashv f^!)$ to the case that the "[[projection formula]]" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$. ([May 05, def. 2.12](#May05))
 
 ## Properties
 
