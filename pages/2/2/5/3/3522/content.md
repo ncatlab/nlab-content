@@ -337,7 +337,7 @@ A [[model category]] presentation for [[n-excisive functors]] is given in
 
 * {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae February 1999, Volume 135, Issue 3, pp 743-788  ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
 
-* {#AroneKankaanrinta95} [[Gregory Arone]], Marja Kankaanrinta,  _The Goodwillie tower of the identity is a logarithm_, 1995 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306))
+* {#AroneKankaanrinta95} [[Gregory Arone]], Marja Kankaanrinta,  _The Goodwillie tower of the identity is a logarithm_, 1995 ([[Arone95.pdf:file]], [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306))
 
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
