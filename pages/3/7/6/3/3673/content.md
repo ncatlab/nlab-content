@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -214,4 +214,15 @@ and on p. 6 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_  ([pdf](http://www.math.uu.nl/publications/preprints/1242.pdf))
 
+The dual notion of transfer, "left induced" instead of "right induced", is discussed in
+
+* Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena Kedziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+
 [[!redirects transferred model structures]]
+
+[[!redirects induced model category]]
+[[!redirects induced model categories]]
+[[!redirects induced model category structure]]
+[[!redirects induced model category structures]]
+[[!redirects induced model structure]]
+[[!redirects induced model structures]]
