@@ -33,7 +33,19 @@ See at _[[module over an algebra over an (∞,1)-operad]]_.
 
 ## Properties
 
-### General
+### Compact modules
+
++-- {: .num_prop}
+###### Propositon
+
+Let $R$ be an [[A-∞ ring]]. The (∞,1)-category of ∞-modules $R Mod$ is a [[compactly generated (∞,1)-category]] and the [[compact object in an (∞,1)-category|compact objects]] coincide with the [[perfect modules]]
+
+=--
+
+([[Higher Algebra|HA, prop. 8.2.5.2]])
+
+
+### Relation to fiberwise stabilization
 
 By the discussion an [[tangent (∞,1)-category]] we may realize $E_\infty$-modules over $R$ as objects in the [[stabilization]] of the [[over-(∞,1)-category]] over $R$:
 
@@ -118,6 +130,8 @@ While the correspondence $(\Sigma^\infty_+ X) \wedge H R \sim C_\bullet(X,R)$ un
   * [[tensor product of ∞-modules]]
 
   * [[(∞,1)-module bundle]]
+
+  * [[perfect module]]
 
 * [[2-module]]
 
