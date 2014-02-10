@@ -97,11 +97,15 @@ Every object of $C$ is a $\kappa$-[[compact object]] of $Ind_\kappa(C)$.
 
 This is [[Higher Topos Theory|HTT, prop. 5.3.5.5]].
 
+This makes an $\infty$-category of ind-objects a [[compactly generated (∞,1)-category]].
+
 ## Related concepts
 
 * [[ind-object]] / **ind-object in an $(\infty,1)$-category**
 
 * [[pro-object]] / [[pro-object in an (∞,1)-category]]
+
+* [[compactly generated (∞,1)-category]]
 
 * [[accessible (∞,1)-category]]
 
