@@ -21,9 +21,10 @@
 
 The notion of _[[finite object]]_ in a [[category]] -- notably in a [[topos]] -- is a generalisation of the notion of [[finite set]] in [[Set|the category of sets]].
 
-As there are already at least five distinct notions of finite set in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a [[topos]].  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
+As there are already at least five distinct notions of [[finite set]] in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a [[topos]].  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
 
-Also beware that the term 'finite object' is also used in a much more general sense to mean a [[compact object]].
+Also beware that in [[category theory]] the term 'finite object' is also used in a much more general sense to mean a _[[compact object]]_. Similar finiteness meaning may also be attributed to [[dualizable objects]] in [[monoidal categories]] and to [[perfect complexes]] (of [[abelian sheaves]]) in [[geometry]].
+
 
 
 ## Definitions
@@ -157,6 +158,8 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 * [[finite homotopy type]], [[finite spectrum]]
 
 * [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
+
+[[!include finite objects -- table]]
 
 ## References
 
