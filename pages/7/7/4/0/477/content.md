@@ -52,6 +52,10 @@ Under the [[relation between category theory and type theory]] products in a cat
 
 ## Related concepts
 
+* [[sum]]
+
+* [[external product]]
+
 * [[product type]]
 
 * [[base change]]
