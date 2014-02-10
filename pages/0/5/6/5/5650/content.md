@@ -361,7 +361,22 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 8.2 Properties of rings and modules
 
+#### 8.2.1 Free resolutions and Spectral Sequences
+
+#### 8.2.2 Flat and projective modules
+
+#### 8.2.3 Injective objects of stable $\infty$-categories
+
+#### 8.2.4 Localization and Ore conditions
+
+#### 8.2.5 Finiteness  properties of rings and modules
+
 * [[perfect module]]
+
+* [[compactly generated (∞,1)-category|compactly generated]] [[stable (∞,1)-category]]
+
+* [[compactly generated triangulated category]]
+
 
 ### 8.3 The cotangent complex formalism
 
