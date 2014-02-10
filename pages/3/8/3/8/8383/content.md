@@ -24,7 +24,7 @@
 
 An **indexed monoidal category** is a kind of [[indexed category]], consisting of a base [[category]] $S$ and a [[pseudofunctor]] $S^{op} \to MonCat$ to the [[2-category]] of [[monoidal categories]] and [[strong monoidal functors]] between them. We write this as $A\mapsto (C^A, \otimes_A, I_A)$.  
 
-By the usual [[Grothendieck construction]], this pseudofunctor can be regarded as a [[fibration]].  And if $S$ has [[finite products]], then the "fiberwise" monoidal structures $\otimes_A$ can also be "Grothendieckified" into an "external product"
+By the usual [[Grothendieck construction]], this pseudofunctor can be regarded as a [[fibration]].  And if $S$ has [[finite products]], then the "fiberwise" monoidal structures $\otimes_A$ can also be "Grothendieckified" into an "[[external tensor product]]"
 $$ \boxtimes\colon C^A \times C^B \to C^{A\times B}$$
 defined by $M\boxtimes N = \pi_2^\ast M \otimes_{A\times B} \pi_1^\ast N$.  This makes the total category of the fibration a [[monoidal category]] and the fibration itself a strong [[monoidal functor]] (where $S$ is regarded as equipped with its [[cartesian monoidal category|cartesian monoidal structure]]); this is called a **[[monoidal fibration]]**.  Moreover, we can recover $\otimes_A$ from $\boxtimes$ via $M\otimes_A N = \Delta_A^\ast (M\boxtimes N)$, so the two structures have the same information. ([Shulman 08](#Shulman08)).
 
@@ -50,6 +50,8 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 
 
 ## Related concepts
+
+* [[external tensor product]]
 
 * [[dependent linear type theory]], [[Wirthmüller context]]
 
