@@ -354,7 +354,7 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 
 [[!include locally presentable categories - table]]
 
-
+* [[compactly generated (infinity,1)-category]]
 
 ## References 
 
