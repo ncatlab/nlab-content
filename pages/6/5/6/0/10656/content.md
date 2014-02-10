@@ -23,7 +23,9 @@ Its compatibility in [[differential algebraic K-theory]] with the differential r
 
 For the moment see at _[regulator -- Becker-Gottlieb transfer](Beilinson+regulator#GottliebTransfer)_ for more.
 
+## Related concepts
 
+* [[sheaf with transfer]]
 
 ## References
 
