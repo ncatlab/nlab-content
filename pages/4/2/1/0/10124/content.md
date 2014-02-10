@@ -23,17 +23,20 @@ For $R \in CRing_\infty$ an [[E-∞ ring]], the [[(∞,1)-modules]] over $R$ wit
 
 ## Properties
 
-### Compact generation
+### Compact generation, dualizable and perfect objects
+ {#CompactGeneration}
 
 +-- {: .num_prop}
 ###### Propositon
 
 Let $R$ be an [[A-∞ ring]]. The (∞,1)-category of ∞-modules $R Mod$ is a [[compactly generated (∞,1)-category]] and the [[compact object in an (∞,1)-category|compact objects]] coincide with the [[perfect modules]]
 
+If $R$ is commutative ([[E-∞ ring|E-∞]]) then the perfect modules (and hence the compact objects) also coincide with the [[dualizable objects]].
+
+
 =--
 
-([[Higher Algebra|HA, prop. 8.2.5.2]])
-
+The first statement is ([[Higher Algebra|HA, prop. 8.2.5.2]]), the second ([[Higher Algebra|HA, prop. 8.2.5.4]]). For [[chain complexes]] this also appears as ([BFN 08, lemma 3.5](#BFN08)).
 
 ### Stable Dold-Kan correspondence
  {#StableDoldKan}
@@ -98,6 +101,9 @@ The refinement of this statement to a [[Quillen equivalence]] is due to
 * [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_ , Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
  {#SchwedeShipley}
 
+Discussion in the context of [[derived algebraic geometry]] includes
+
+* {#BFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], section 3.1 of _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_, J. Amer. Math. Soc. 23 (2010), no. 4, 909-966 ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
 
 [[!redirects (∞,1)-categories of (∞,1)-modules]]
 
@@ -113,4 +119,3 @@ The refinement of this statement to a [[Quillen equivalence]] is due to
 
 
 [[!redirects (∞,1)Mod]]
-
