@@ -63,6 +63,8 @@ See ([Jardine11, page 14](#Jardine)), ([Marty, def 1.7](#Marty)).
 
 * [[compactly generated triangulated category]]
 
+* [[compactly generated (∞,1)-category]]
+
 ## References
 
 Page 88 (14) of 
