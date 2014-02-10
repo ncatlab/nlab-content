@@ -44,13 +44,14 @@ and the modalities contain the three [[unity of opposites|pairs of opposites]]
 
 
 ### In formal logic
+ {#InFormalLogic}
 
-A _modal operator_ or _[[closure operator]]_ $\sharp$ is a map that sends [[types]] $X$ to new types $\sharp X$, satisfying some properties. 
+In [[formal logic]] and [[type theory]] modalities are formalized by
+ _modal operator_ or _[[closure operator]]_ $\sharp$, that send [[propositions]]/[[types]] $X$ to new propositions/types $\sharp X$, satisfying some properties. 
 
-The [[categorical semantics]] of these properties is that $\sharp$ is an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
+Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] yields _[[modal type theory]]_. See there for more details
 
-Equipping plain [[logic]]/[[type theory]] with such modal operators
-turns them into _[[modal logic]]_, _[[modal type theory]]_. See there for more details.
+The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
 
 This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman)).
 
