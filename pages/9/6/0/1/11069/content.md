@@ -50,6 +50,10 @@ where the [[colimits]] are taken over the family of morphisms $L_S[X] \to F$ (re
   $$ \underline{\Hom}_{N_S^{tr}} (F,G) (X) = \Hom_{N_S^{tr}} (F \otimes_S^{tr} L_S[X], G) $$
 for all $X \in \Sm_S$.
 
+## Related concepts
+
+* [[Becker-Gottlieb transfer]]
+
 ## References
 
 * {#Deglise} [[Frédéric Déglise]], _Finite correspondences and transfers over a regular base_, [pdf](http://www.math.uiuc.edu/K-theory/0765/regular_base.pdf).
