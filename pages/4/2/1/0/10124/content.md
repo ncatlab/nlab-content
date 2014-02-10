@@ -23,6 +23,18 @@ For $R \in CRing_\infty$ an [[E-∞ ring]], the [[(∞,1)-modules]] over $R$ wit
 
 ## Properties
 
+### Compact generation
+
++-- {: .num_prop}
+###### Propositon
+
+Let $R$ be an [[A-∞ ring]]. The (∞,1)-category of ∞-modules $R Mod$ is a [[compactly generated (∞,1)-category]] and the [[compact object in an (∞,1)-category|compact objects]] coincide with the [[perfect modules]]
+
+=--
+
+([[Higher Algebra|HA, prop. 8.2.5.2]])
+
+
 ### Stable Dold-Kan correspondence
  {#StableDoldKan}
 
