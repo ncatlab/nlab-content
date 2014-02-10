@@ -7,6 +7,12 @@
 
 For $f \colon X \to \mathbb{A}$ a [[function]], its _zero locus_ i the [[preimage]] $f^{-1}(0)$ of [[zero]], hence the [[level set]] at 0.
 
+## Properties
+
+### Nullstellensatz
+
+Hilbert's [[Nullstellensatz]] (German: "zero locus theorem") characterizes joint zero loci of [[ideals]] of functions in a [[polynomial ring]].
+
 ## Related concepts
 
 * [[critical locus]]
