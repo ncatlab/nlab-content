@@ -238,6 +238,8 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 * [[locally presentable category]]
 
+[[!include finite objects -- table]]
+
 
 ## References {#references}
 
