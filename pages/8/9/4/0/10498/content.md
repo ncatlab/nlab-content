@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[linear algebra]]/[[quadratic forms]]. For the notion in [[symplectic geometry]] see at _[[polarization]]_.
+> This entry is about the notion in [[linear algebra]] relating bilinear and quadratic forms. For the notion in [[symplectic geometry]] see at _[[polarization]]_. For polarization of light, see _[[wave polarization]]_ (if we ever write it).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,9 +11,8 @@
 =--
 =--
 
-
 # The polarization identity
-* table of content
+* table of contents
 {: toc}
 
 ## Idea
@@ -60,7 +59,7 @@ $$ x y = \frac{1}{4} Q(x + y) - \frac{1}{4} Q(x - y) + \frac{1}{4} i Q(x + i y) 
 
 This is best known in the case of bilinear and quadratic *forms*, where $W$ is the [[ground ring]] $R$.  Here, $m$ is an [[inner product]], making $V$ into an [[inner product space]], and $Q$ is (the square of) the norm, making $V$ into a [[normed space]].
 
-This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative, although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]]; although the Jordan identity is simpler to express in terms of the multiplication operator (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operator.
+This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative; although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]].  Although the Jordan identity is simpler to express in terms of the multiplication operator (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operator (since the square of an [[observable]] has a more obvious meaning than the Jordan product of two observables).
 
 
 [[!redirects polarization identity]]
