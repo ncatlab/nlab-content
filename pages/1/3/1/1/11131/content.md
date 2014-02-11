@@ -1,0 +1,29 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Constructive analysis is the incarnation of [[analysis]] in [[constructive mathematics]]. 
+
+In applications in [[computer science]] one uses for instance the _[[completion monad]]_ for _exact_ computations with [[real numbers]] (as opposed to floating point arithmetic). Therefore one also sometimes speaks of _exact analysis_.
+
+## References
+
+The formulation of [[analysis]] in [[constructive mathematics]] was maybe inititated in 
+
+* [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
+ {#Bishop}
+
+together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] via the [[completion monad]] are discussed in 
+
+* R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129{159, 2007.
+
+* R. O'Connor, _Certied exact transcendental real number computation in Coq_, In TPHOLs 2008, LNCS 5170, pages 246--261, 2008.
+
+* R. O'Connor, _Incompleteness and Completeness: Formalizing Logic and Analysis in Type Theory_, PhD thesis, Radboud University Nijmegen, 2009.
+
+* Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
+
+[[!redirects exact analysis]]
