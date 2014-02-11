@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -14,6 +24,9 @@ It is also possible to write a program in some less strongly typed language and 
 
 So far, fully certified programming in the type-theoretic sense is largely an academic endeavor, see for instance ([SpittersKrebbersvdWeegen](#SpittersKrebbersvdWeegen)); the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
 
+## Examples
+
+* The [[completion monad]] has been used to produce code for [[real number]] computations with certified approximation bounds. See at _[[completion monad]]_ for more.
 
 ## References
 
