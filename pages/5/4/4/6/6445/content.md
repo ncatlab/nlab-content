@@ -1,3 +1,7 @@
+# Contents #
+* table of contents 
+{: toc}
+
 ## Idea 
 
 __Matroid__ is one of the basic structures of combinatorics with several different ways of encoding/defining and presenting a general notion of "independence", e.g., linear independence in a vector space, algebraic independence in a field extension. There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
@@ -8,6 +12,10 @@ __Matroid__ is one of the basic structures of combinatorics with several differe
 ###### Definition 
 A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $C: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in C(S \cup\{b\}) \cap \neg C(S)$, then $b \in C(S \cup\{a\}) \cap \neg C(S)$. 
 =-- 
+
+Usually when speaking of matroids, $X$ is taken to be a finite set. A typical example is $X$ some finite subset of a vector space $V$, taking $C(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
+
+Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $C(T) \subset C(S)$ for every strict inclusion $T \subset S$. Again under this definition, $S$ is a _basis_ if $C(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $C(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota speaks of _cryptomorphism_ between these differing presentations. 
 
 ## Mnev's theorem 
 
