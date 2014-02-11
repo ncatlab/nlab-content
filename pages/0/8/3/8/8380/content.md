@@ -85,9 +85,9 @@ When monads are defined in Haskell, the Kleisli composition (called 'bind') is d
 ## Examples
  {#Examples}
 
-* A program with input of type $X$, output of type $Y$ and mutable state $S$ is a function of type $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad.
+* A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
 
-* A number of further monads are *definable* in terms of standard type-forming operations, such as the [[maybe monad]], the [[reader monad]], the [[writer monad]], and the [[state monad]].
+* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[maybe monad]], the [[continuation monad]], the [[reader monad]], the [[writer monad]].
 
 * Other monads may be supplied "axiomatically" by the programming language, such as the [[IO monad]] in [[Haskell]].
 
