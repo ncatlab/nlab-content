@@ -38,7 +38,7 @@ There are many web resources (including wikipedia) for mathematical analysis (th
 ### Constructive analysis
  {#ReferencesConstructiveAnalysis}
 
-The formulation of [[analysis]] in [[constructive mathematics]] was maybe inititated in 
+The formulation of [[analysis]] in [[constructive mathematics]], hence [[constructive analysis]], was maybe inititated in 
 
 * [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
  {#Bishop}
@@ -54,4 +54,3 @@ together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of 
 * Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
 
 [[!redirects mathematical analysis]]
-[[!redirects constructive analysis]]
