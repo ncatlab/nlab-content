@@ -31,9 +31,12 @@ The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category
 
 The [[Kleisli category]] of the maybe monad is the category whose objects are the original objects, and whose morphisms are the [[partial functions]] in the original category.
 
-### Relation to pointed objects
+### EM-category and Relation to pointed objects
+ {#EMCategoryAndRelationToPointedObjects}
 
-The [[algebra over a monad|algebras]] over the maybe monad are [[pointed objects]].
+The [[algebra over a monad|algebras]] over the maybe monad are  [[pointed objects]]. 
+
+Moreover, the maybe monad is a [[monoidal monad]] and (by the discussion at _[[commutative monad]]_, see also ([Seal 12](#Seal12))), so that (in a sufficiently nice category such as a [[topos]]) its [[Eilenberg-Moore category]] of algebras canonically inherits the structure of a [[monoidal category]], and one finds that this is the [[smash product]] of pointed objects.
 
 ### Relation to natural number objects
 
@@ -44,5 +47,10 @@ Regarding just the underlying [[endofunctor]] of the maybe monad, its [[initial 
 * [[state monad]]
 
 * [[continuation monad]]
+
+## References
+
+* {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
+
 
 [[!redirects maybe monads]]
