@@ -21,7 +21,7 @@
 
 The notion of _symmetric spectrum_ serves as a model for the general notion of [[spectrum]] and is given by a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
-The category of symmetric spectra has the crucial property that it admits a [[symmetric monoidal smash product of spectra]].
+The category of symmetric spectra has the crucial property that it admits a [[symmetric monoidal smash product of spectra]] with respect to which [[E-infinity rings]] may be modeled as plain [[commutative monoids]].
 
 ## Related concepts
 
