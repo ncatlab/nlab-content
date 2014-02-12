@@ -26,6 +26,7 @@ An _[[accessible monad]]_ is a [[monad]] on an [[accessible category]] whose und
 ## Properties
 
 ### Category of algebras over an accessible monad
+ {#CategoryOfAlgebras}
 
 +-- {: .num_prop}
 ###### Proposition
