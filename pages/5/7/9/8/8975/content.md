@@ -2,6 +2,8 @@
 
 ## Related concepts
 
+* [[continuation monad]]
+
 * [[programming language]]
 
 * [[functional programming]]
