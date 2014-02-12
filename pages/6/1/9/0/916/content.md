@@ -58,7 +58,7 @@ $$
 
 (The [[subset]] $D \hookrightarrow A$ in the [above](#DefinitionInSets) is identified with the set of all elements that are sent to the point by $\phi$.)  
 
-This in turn is equivalently a morphism in the [[Kleisli category]] of the [[maybe monad]]. Phrased this way, the concept of partial function makes sense in any [[category]] with [[coproducts]] and with a [[terminal object]].
+This in turn is equivalently a morphism in the [[Kleisli category]] of the [[maybe monad]]. Phrased this way, the concept of partial function makes sense in any [[category]] with [[coproducts]] and with a [[terminal object]]. It comes out as intended when the category is an [[extensive category]] (partial functions with complemented domain).
 
 ## Examples
 
