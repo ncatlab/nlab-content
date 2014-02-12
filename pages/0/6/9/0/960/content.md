@@ -105,7 +105,16 @@ Examples of closed symmetric monoidal categories $(\mathcal{C}, \otimes 1_{\math
 
 =--
 
+There is a general abstract way to obtain this smash product monoidal structure:
 
++-- {: .num_prop}
+###### Proposition
+
+The category of [[pointed objects]] is the [[Eilenberg-Moore category]] of [[algebras over a monad]] for the "[[maybe monad]]", $X \mapsto X \coprod \ast$. This being a suitably [[monoidal monad]] it canonically induces a monoidal structure on its EM-category, and that is the smash product.
+
+=--
+
+For more on this see at _[maybe monad -- EM-Category and Relation to pointed objects](maybe+monad#EMCategoryAndRelationToPointedObjects)_.
 
 
 ## Examples
