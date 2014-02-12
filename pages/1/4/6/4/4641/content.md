@@ -111,4 +111,8 @@ for more see [[Lawvere theory]] for the moment
 [[!redirects algebra over an algebraic theory]]
 [[!redirects algebras over an algebraic theory]]
 
+[[!redirects algebra for an algebraic theory]]
+[[!redirects algebras for an algebraic theory]]
+
+
 [[!redirects T-algebra]]
