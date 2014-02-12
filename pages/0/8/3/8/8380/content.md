@@ -85,11 +85,20 @@ When monads are defined in Haskell, the Kleisli composition (called 'bind') is d
 ## Examples
  {#Examples}
 
+Various monads are _definable_ in terms of the the standard type-forming operations ([[product type]], [[function type]], etc.). These include the following.
+
 * A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
 
-* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[maybe monad]], the [[continuation monad]], the [[reader monad]], the [[writer monad]].
+* The [[maybe monad]] is the operation $X \mapsto X \coprod \ast$. The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrigtharrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
 
-* Other monads may be supplied "axiomatically" by the programming language, such as the [[IO monad]] in [[Haskell]].
+* The [[continuation monad]] for a given type $S$ acts by $X \mapsto [[X,S],S]$.
+
+* A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer monad]].
+
+Other monads may be supplied "axiomatically" by the programming language, 
+This includes
+
+* the [[IO monad]] in [[Haskell]].
 
 * The [[completion monad]] may be used, as in [[constructive analysis]], for dealing for instance with [[real numbers]].
 
