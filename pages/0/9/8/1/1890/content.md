@@ -69,6 +69,12 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 * naturalness of unit and product modifications.
 
+## Related concepts
+
+* [[monoidal monad]]
+
+* [[commutative monad]]
+
 
 ## References 
 
