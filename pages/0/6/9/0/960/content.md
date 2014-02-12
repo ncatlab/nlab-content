@@ -1,26 +1,23 @@
 
 > This article is about smash products in [[topology]]/[[homotopy theory]]. For the notion of _Hopf smash product_ see at [[crossed product algebra]]. 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Stable Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include stable homotopy theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Definition
 
@@ -141,4 +138,7 @@ On commutativity of smashing with [[homotopy limits]]:
 
 * [[Wolfgang Lueck]], Holger Reich, Marco Varisco, _Commuting homotopy limits and smash products_, K-Theory, 30 (2): 137--165, 2003 ([arXiv:math/0302116](http://arxiv.org/abs/math/0302116))
 
+
+[[!redirects smash product]]
 [[!redirects smash products]]
+[[!redirects smash produc]]
