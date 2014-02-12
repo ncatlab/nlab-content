@@ -1,0 +1,44 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called the _maybe monad_ is a simple [[monad (in computer science)]] which is used to implement "exceptions" indicating the failure of a computation in terms of [[functional programming]].
+
+On the type system the [[maybe monad]] is the operation $X \mapsto X \coprod \ast$. 
+
+The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
+
+## Properties
+
+> under construction
+
+### Relation to pointed objects
+
+The [[algebra over a monad|algebras]] over the maybe monad are [[pointed objects]].
+
+### Relation to natural number objects
+
+Regarding just the underlying [[endofunctor]] of the maybe monad, its [[initial algebra over an endofunctor]] is a [[natural numbers object]].
+
+## Related concepts
+
+* [[state monad]]
+
+* [[continuation monad]]
+
+[[!redirects maybe monads]]
