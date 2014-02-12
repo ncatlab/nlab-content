@@ -118,9 +118,9 @@ Let $\mathcal{T}$ be  [[topos]] and let $F : \mathcal{T} \to \mathcal{T}$ the fu
 
 $$
   F : X \mapsto * \coprod X
-  \,.
 $$
 
+(hence the functor underlying the "[[maybe monad]]").
 Then an initial algebra over $F$ is precisely a [[natural number object]] $\mathbb{N}$ in $\mathcal{T}$. 
 =--
 
