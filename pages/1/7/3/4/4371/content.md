@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself. This is a [[closure operator]]/[[modality]].
+In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself. This is a [[closure operator]]/[[modality]] and as such a special case of a [[continuation monad]].
 
 
 ## In logic
@@ -153,3 +153,6 @@ Section VI of
 
 [[!redirects double negation modality]]
 [[!redirects double negation modalities]]
+
+[[!redirects double negation monad]]
+[[!redirects double negation monads]]
