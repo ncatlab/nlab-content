@@ -1,0 +1,20 @@
+
+Tomer Schlank is Simons Postdoctoral Fellow working in 
+Arithmetic Geometry, Arithmetic Topology in the Mathematics Department at MIT.
+
+
+
+##Papers and preprints
+
+
+
+* [[I. Barnea]] and T. M. Schlank, 2011, _A Projective Model Structure on 
+Pro Simplicial Sheaves, and the Relative Etale Homotopy Type_, [arXiv:1109.5477](http://arxiv.org/abs/1109.5477)
+
+
+*  [[I. Barnea]] and T. M. Schlank, 2013, _Functorial Factorizations in Pro 
+Categories_, [arXiv:1305.4607](http://arxiv.org/abs/1305.4607). 
+
+* Yonatan Harpaz, Tomer M. Schlank, _Homotopy Obstructions to Rational Points_, [arXiv:1110.0164](http://arxiv.org/abs/1110.0164)
+
+category:people
