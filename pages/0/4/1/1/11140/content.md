@@ -1,3 +1,4 @@
+[[!redirects T. M. Schlank]]
 
 Tomer Schlank is Simons Postdoctoral Fellow working in 
 Arithmetic Geometry, Arithmetic Topology in the Mathematics Department at MIT.
