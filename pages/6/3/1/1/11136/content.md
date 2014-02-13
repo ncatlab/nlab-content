@@ -45,7 +45,7 @@ In particular, in the case of a [[Boolean topos]], the Kleisli category is the c
 
 The [[algebra over a monad|algebras]] over the maybe monad are  [[pointed objects]]. 
 
-Moreover, assuming $\mathbf{C}$ has [[finite products]], the maybe monad on $\mathbf{C}$ is a [[monoidal monad]] on the [[cartesian monoidal category]] $\mathbf{C}$. It follows (by the discussion at _[[commutative monad]]_, see also ([Seal 12](#Seal12))) that its [[Eilenberg-Moore category]] of algebras canonically inherits the structure of a [[monoidal category]], at least under the mild assumption that it has reflexive coequalizers. Note that the maybe monad $T$ preserves reflexive coequalizers, so the monadic functor creates reflexive coequalizers if the base category has them; in this abstract setting the monoidal product on algebras $(X, \alpha: T X \to X)$, $(Y, \beta: T Y \to Y)$ is given explicitly as the coequalizer of $T(\alpha \times \beta): T(T X \times T Y) \to T(X \times Y)$ and 
+Moreover, assuming $\mathbf{C}$ has [[finite products]], the maybe monad on $\mathbf{C}$ is a [[monoidal monad]] on the [[cartesian monoidal category]] $\mathbf{C}$. It follows (by the discussion at _[[commutative monad]]_, see also ([Seal 12](#Seal12))) that its [[Eilenberg-Moore category]] of algebras canonically inherits the structure of a [[monoidal category]], at least under the mild assumption that it has [[reflexive coequalizers]]. Note that the maybe monad $T$ preserves reflexive coequalizers, so the monadic functor [[created limit|creates]] reflexive coequalizers if the base category has them; in this abstract setting the monoidal product on algebras $(X, \alpha: T X \to X)$, $(Y, \beta: T Y \to Y)$ is given explicitly as the [[coequalizer]] of $T(\alpha \times \beta): T(T X \times T Y) \to T(X \times Y)$ and 
 
 $$T(T X \times T Y) \stackrel{T(\phi_{X, Y})}{\to} T T(X \times Y) \stackrel{\mu}{\to} T(X \times Y)$$ 
 
@@ -53,7 +53,7 @@ where $\phi$ is one of the structural constraints on the monoidal monad $T$ and 
 
 +-- {: .num_remark} 
 ###### Remark 
-The smash product as the correct monoidal product can also be deduced in a perhaps more perspicuous manner if we assume more of the base category: that it is cartesian closed, finitely complete, and finitely cocomplete. In that case we construct the internal hom of $T$-algebras, i.e., the internal hom of pointed objects $(Y, \beta: T Y \to Y)$ and $(Z, \gamma: T Z \to Z)$ directly as an equalizer of maps 
+The smash product as the correct monoidal product can also be deduced in a perhaps more perspicuous manner if we assume more of the base category: that it is [[cartesian closed category|cartesian closed]], [[finite limit|finitely complete]], and finitely cocomplete. In that case we construct the [[internal hom]] of $T$-algebras, i.e., the internal hom of pointed objects $(Y, \beta: T Y \to Y)$ and $(Z, \gamma: T Z \to Z)$ directly as an [[equalizer]] of maps 
 
 $$\array{
 Z^Y & \to & T Z^{T Y} \\ 
@@ -61,7 +61,7 @@ Z^Y & \to & T Z^{T Y} \\
  & & Z^{T Y}
 }$$ 
 
-where the top arrow expresses enriched functoriality of $T$ (which in turn is closely related to the [[strong functor|strength]] on $T$). The success of this is guaranteed by the commutativity of the monad (which here takes a particularly simple form, being given by the commutative _monoid_ $\ast$ with respect to coproduct $\coprod$). Then, by taking the monoidal product that is adjoint to the internal hom, one is led to the smash product $(X \wedge Y)_\ast$ all the same: that is, one can read off the smash product from the fact that pointed maps $X_\ast \to \hom_\ast(Y_\ast, Z_\ast)$ should correspond to pointed maps $(X \wedge Y)_\ast \to Z_\ast$. 
+where the top arrow expresses [[enriched functor|enriched functoriality]] of $T$ (which in turn is closely related to the [[strong functor|strength]] on $T$). The success of this is guaranteed by the [[commutative monad|commutativity]] of the monad (which here takes a particularly simple form, being given by the commutative _[[monoid]]_ $\ast$ with respect to coproduct $\coprod$). Then, by taking the monoidal product that is [[adjunct|adjoint]] to the [[internal hom]], one is led to the [[smash product]] $(X \wedge Y)_\ast$ all the same: that is, one can read off the smash product from the fact that pointed maps $X_\ast \to \hom_\ast(Y_\ast, Z_\ast)$ should correspond to pointed maps $(X \wedge Y)_\ast \to Z_\ast$. 
 =-- 
 
 
