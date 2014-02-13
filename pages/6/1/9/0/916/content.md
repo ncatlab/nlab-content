@@ -60,6 +60,7 @@ $$
 
 This in turn is equivalently a morphism in the [[Kleisli category]] of the [[maybe monad]]. Phrased this way, the concept of partial function makes sense in any [[category]] with [[coproducts]] and with a [[terminal object]]. It comes out as intended when the category is an [[extensive category]] (partial functions with complemented domain).
 
+
 ## Examples
 
 In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
@@ -100,6 +101,9 @@ Classically, $S_\bot \cong S \amalg \{\bot\}$, although this is not true [[const
 
 Also what is non-constructive about the bijection $S_\bot \cong S \amalg \{\bot\}$?
 
+Toby writes:  We have the map $S \amalg \{\bot\} \to S_\bot$; map $x$ to $\{x\}$ and $\bot$ to $\emptyset$.  Suppose that this map is surjective.  That\'s fine for some $S$, but suppose that $S$ is inhabited, with an element $a$.  Let $P$ be any proposition, and form the subset $\{x | P\}$ of $S$, defined so that $a \in \{x | P\}$ iff $a = x$ and $P$ is true.  This subset has at most one element, so it is (by hypothesis) in the image of the map $S \amalg \{\bot\} \to S_\bot$.  If its preimage is in $S$, then $P$ is true; if its preimage is in $\{\bot\}$, then $P$ is false.  Since $P$ could be any proposition, [[excluded middle]] follows; this is nonconstructive.
+
+This is all yet different from the category of pointed sets.
 =--
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
