@@ -3,14 +3,18 @@ In papers on SDG one can find phrases of the type "We build our model after the 
 
 I resume the history of the subject: In a series of papers and many lectures given specially in Montreal, Sydney, Oberwolfach and elsewhere, I created and started the development of the subject of models of SDG adapted  for the applications to classical differential geometry.
             
-(1) Sur les Modeles de la Geometrie Differentielle 
-Sinthetyque, Cahiers de Topologie et Geometrie Differentielle Vol. XX-3 
+(1) _Sur les Modeles de la Geometrie Differentielle 
+Sinthetyque_, Cahiers de Topologie et Geometrie Differentielle Vol. XX-3 
 (1979).
- (2) Schemas C-inf (amplified version of [3], with detailed proofs and many examples), "Prepublications de la Universite de Montreal" 80-81 edited by  G. Reyes (1980).
-(3) C-inf Schemes, American Journal of Mathematics, John Hopkins University, Vol. 103-4 (1981).
-(4) Open Covers and Infinitary Operations in C-inf-rings, Cahiers de Topologie et Geometrie Differentielle Vol. XXII-3 (1981).
-(5) Archimedian Local C-inf-rings and Models of SDG (with Marta Bunge), Cahiers de Topologie et Geometrie Differentielle Vol. XXVII-3 (1986).
- (6) Germ representability and Local integration of vector fields in a well adapted model of SDG, Journal of Pure and Applied Algebra Vol. 64 (1990).
+ (2) _Schemas C-inf (amplified version of [3], with detailed proofs and many examples)_, "Prepublications de la Universite de Montreal" 80-81 edited by  G. Reyes (1980).
+(3) _C-inf Schemes_, American Journal of Mathematics, John Hopkins University, Vol. 103-4 (1981).
+(4) _Open Covers and Infinitary Operations in C-inf-rings_, Cahiers de Topologie et Geometrie Differentielle Vol. XXII-3 (1981).
+(5) _Integracion de campos vectoriales y Geometria Diferencial Sintetica_, Proceedings of the VII Sem. Nac. de Mat., FAMAF, Univ. Nac. de Cordoba (1984). 
+(6) _Germ representability and Local integration of vector fields in a well adapted model of SDG_, Aarhus Univ. Math. Inst. preprint series (1985/1986),
+(Journal of Pure and Applied Algebra Vol. 64, 1990).
+(7) _Archimedian Local C-inf-rings and Models of SDG_ (with Marta Bunge), Cahiers de Topologie et Geometrie Differentielle Vol. XXVII-3 (1986).
+(8) _Local concepts in SDG and germ representability_ (with Marta Bunge), in  D. Kueker et al. (ads), Mathematical Logic and Theoretical Computer Science, Lecture Notes in Pure and Applied Mathematics 106, Marcel Dekker (1987)
+ 
             
 A) I introduced the concept, coined the name "well adapted model", and constructed the first ones. I considered the two essential properties:
 
@@ -30,11 +34,12 @@ The topos G is the best known model in order to do applications of SDG to classi
 
 _In their monograph they say (I quote): "As far as terminology is concerned, we have tried to avoid descriptions of the type "the Moerdijk envelop of the Reyes topos", in favor of more informative ones". But the true fact was that the only name that was involved was "Dubuc", since no other new name was being utilized at the time (of course, things as Kock-Lawvere Axiom or Weil algebras were not aimed by this philosophy, and "Moerdijk envelop of the Reyes topos" was an invention to reduce to the ridiculous, the fact of naming things after "Dubuc"._
             
-
 D)  I should mention here that I do not ignore the fact that my work is  acknowledged and referenced in the monograph, but the matter is much more subtle, and nobody can deny the evidence of the following consequence of their maneuvering:
  
 My name, as time passes, and as young people appear, is less and less credited with a subject that I created and developed, namely, models of SDG adapted to classical differential geometry. People talk as if the well adapted models were always there, or start referring to them in a way that lead inexperienced (in the subject)  readers  to believe that these constructions are "M-R way of doing models", as I quoted at the 
 beginning of this note. 
 
-E) This does not do justice to my work, and does not corresponds to the true history of the subject.  As an starting point to remedy it, I request all workers that need to use the topos G, to refer to it as "Dubuc Topos". After all, it is a long tradition in mathematics to associate proper names to important concepts or constructions when it is justified, as I believe it is the case here.     
+E) This does not do justice to my work, and does not corresponds to the true history of the subject.  As an starting point to remedy it, I request all workers that need to use the topos G, to refer to it as "Dubuc Topos". After all, it is a long tradition in mathematics to associate proper names to important concepts or constructions when it is justified, as I believe it is the case here. 
+
+REMARK. Proposition 18 and Theorem 22 of (6) cited above establish that postulate WA2 (II, 3.2, 3.3) of (8) holds in the Dubuc Topos. However, there is a mistake (discovered by M. Makkai) in Lemma 21 of (6) which invalidates the proof. I believe that the result is true but I am not working to fix the proof now. The external statement holds, it is easy and it proved in (5) cited above.
             
