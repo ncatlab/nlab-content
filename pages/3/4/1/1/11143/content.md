@@ -41,5 +41,6 @@ beginning of this note.
 
 E) This does not do justice to my work, and does not corresponds to the true history of the subject.  As an starting point to remedy it, I request all workers that need to use the topos G, to refer to it as "Dubuc Topos". After all, it is a long tradition in mathematics to associate proper names to important concepts or constructions when it is justified, as I believe it is the case here. 
 
-REMARK. Proposition 18 and Theorem 22 of (6) cited above establish that postulate WA2 (II, 3.2, 3.3) of (8) holds in the Dubuc Topos. However, there is a mistake (discovered by M. Makkai) in Lemma 21 of (6) which invalidates the proof. I believe that the result is true but I am not working to fix the proof now. The external statement holds, it is easy and it proved in (5) cited above.
+                              
+**REMARK.**  Proposition 18 and Theorem 22 of (6) cited above establish that postulate WA2 (II, 3.2, 3.3) of (8) holds in the Dubuc Topos. However, there is a mistake (discovered by M. Makkai) in Lemma 21 of (6) which invalidates the proof. I believe that the result is true but I am not working to fix the proof now. The external statement holds, it is easy and it proved in (5) cited above.
             
