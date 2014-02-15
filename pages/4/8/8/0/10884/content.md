@@ -19,6 +19,8 @@ This page collects links related to the article
 * [[Jacob Lurie]],
 
   _Proper Morphisms, Completions, and the Grothendieck Existence Theorem_
+ 
+  ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
 
 on basic properties of [[E-∞ geometry]]
 
@@ -80,4 +82,3 @@ on basic properties of [[E-∞ geometry]]
 * [[Stone duality]]
 
 category: reference
-
