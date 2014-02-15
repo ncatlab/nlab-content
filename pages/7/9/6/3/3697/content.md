@@ -1,6 +1,21 @@
-(Solutions of) holonomic systems of differential equations are formalized in the notion of a holonomic D-module. A [[D-module]] $M$ on a smooth complex analytic variety $X$ of dimension $n$ is **holonomic** if its [[characteristic variety]] is of dimension $n$. It follows that the characteristic variety of a holonomic D-module is conic and [[lagrangian submanifold|lagrangian]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(Solutions of) holonomic systems of [[differential equations]] are formalized in the notion of a _holonomic D-module_. A [[D-module]] $M$ on a smooth complex analytic variety $X$ of dimension $n$ is **holonomic** if its [[characteristic variety]] is of dimension $n$. It follows that the characteristic variety of a holonomic D-module is conic and [[lagrangian submanifold|lagrangian]].
 
 Holonomicity of D-modules is important also in [[geometric representation theory]]. 
+
+## References
+
+Lecture notes include
+
+* [[Joseph Bernstein]], Lecture 2, section 11 of _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
+
+See also
 
 * [[Masaki Kashiwara]], _On the holonomic systems of linear differential equations. II_, Invent. Math. __49__ (1978), no. 2, 121--135, [doi](http://dx.doi.org/10.1007/BF01403082)
 
