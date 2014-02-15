@@ -41,7 +41,7 @@ There are several equivalent ways to define ind-objects.
 ### As diagrams 
 
 One definition is to define the objects of $ind$-$C$ to be diagrams $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|filtered]] category.  
-The idea is to think of these diagrams as being the placeholder for the [[colimit]] over them (possibly non-existent in $C$)
+The idea is to think of these diagrams as being the placeholder for the [[colimit]] over them (possibly non-existent in $C$).
 We identify an ordinary object of $C$ with the corresponding diagram $1\to C$.  To see what the morphisms should be between $F:D\to C$ and $G:E\to C$, we stipulate that
 
 1. The embedding $C\to ind$-$C$ should be [[full and faithful functor|full and faithful]],
