@@ -284,6 +284,8 @@ One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functo
 
 * [[exact (∞,1)-functor]]
 
+* [[ind-object]]
+
 ## References
 
 * [[Francis Borceux]], _Handbook of categorical algebra_ , volume I, _Basic category theory_.  Representable flatness is discussed in chapter 6.
