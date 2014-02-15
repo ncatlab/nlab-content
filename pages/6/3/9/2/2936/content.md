@@ -20,13 +20,15 @@ The convenience of Baire space is attested to by the fact that in [[descriptive 
 
 ## Properties 
 
+Much of the material here is adapted from [Marker](#Marker), who in turn cites the text by Kechris as a main source. 
+
 * A countable product $X = \prod_n X_n$ of Polish spaces is Polish. Indeed, each $X_n$ is metrizable by a complete metric $d_n$ that takes values in $[0, 1]$, and then we may define another such complete metric on $X$ by 
 $$d(f, g) = \sum_n \frac1{2^{n+1}} d_n(f(n), g(n)).$$ 
 The metric topology on $X$ coincides with the product topology. 
 
 In particular, the [[Hilbert cube]] $[0, 1]^\mathbb{N}$ is Polish. 
 
-* A $G_\delta$ subset of a Polish space (under the subspace topology) is a Polish space. 
+* A subspace of a Polish space $X$ is Polish iff it is a [[G-delta set]] of $X$. See [Marker](#Marker), Theorem 1.33. 
 
 ### "Universal" Polish spaces 
 
@@ -35,7 +37,7 @@ In particular, the [[Hilbert cube]] $[0, 1]^\mathbb{N}$ is Polish.
 Any Polish space is homeomorphic to a subspace of the Hilbert cube. 
 =-- 
 
-In fact, this is true of any [[separable space]]. What distinguishes Polish spaces is that all such are homeomorphic to $G_\delta$ subsets of the Hilbert cube (and conversely, every such $G_\delta$ is Polish). 
+In fact, this is true of any [[separable space]]. What distinguishes Polish spaces is that they are, up to homeomorphism, precisely the _$G_\delta$ subsets_ of the Hilbert cube. 
 
 +-- {: .num_lemma #baire} 
 ###### Lemma 
@@ -168,7 +170,7 @@ Any two Polish spaces of the same cardinality are Borel isomorphic.
 It suffices to prove this for uncountable Polish spaces (which have continuum cardinality, as we saw in Corollary \ref{CH}). We show that any such $X$ is Borel isomorphic to Cantor space. By Lemma \ref{subset}, we have an inclusion $i: X \to \mathbf{2}^{\mathbb{N}}$ which maps $X$ Borel isomorphically onto its image, and by Proposition \ref{cantor}, we have an inclusion $j: \mathbf{2}^{\mathbb{N}} \to X$ that maps Cantor space Borel isomorphically (even homeomorphically) onto its image. The rest is just a matter of checking that the 
 proof of the [[Cantor-Schroeder-Bernstein theorem]] applies in this Borel context. 
 
-Indeed, consider the usual back-and-forth argument which introduces descending sequences $X = X_0 \supseteq X_1 \subseteq \ldots$ and $\mathbf{2}^{\mathbb{N}} = Y_0 \supseteq Y_1 \supseteq \ldots$ where $X_{n+1} \coloneqq j(i(X_n))$ and $Y_{n+1} = i(j(Y_n))$. As $i^{-1}$ and $j^{-1}$ are Borel on their domains, it follows that these iterated images are Borel sets, as are the intersections $X_\infty = \bigcap_n X_n$ and $Y_\infty = \bigcap_n Y_n$. Then the map $h: X_0 \to Y_0$ defined by 
+Indeed, consider the usual back-and-forth argument which introduces descending sequences $X = X_0 \supseteq X_1 \supseteq \ldots$ and $\mathbf{2}^{\mathbb{N}} = Y_0 \supseteq Y_1 \supseteq \ldots$ where $X_{n+1} \coloneqq j(i(X_n))$ and $Y_{n+1} = i(j(Y_n))$. As $i^{-1}$ and $j^{-1}$ are Borel on their domains, it follows that these iterated images are Borel sets, as are the intersections $X_\infty = \bigcap_n X_n$ and $Y_\infty = \bigcap_n Y_n$. Then the map $h: X_0 \to Y_0$ defined by 
 
 $$\array{
 h(x) & = & i(x) & if \; x \in X_{2 n} \backslash X_{2 n + 1}\; for\; some\; n,\; or \; x \in X_\infty \\
@@ -180,12 +182,27 @@ is a Borel isomorphism.
 
 For another proof, see theorem 3.1.1 of [Berberian](#Ber). 
 
+
+## Further examples 
+
+* The classical $L^p$-[[Lebesgue space|spaces]] for $p \lt \infty$ are Polish spaces. 
+
+* For a metric space $X$, let $K(X)$ be the set of nonempty [[compact space|compact]] subsets of $X$, equipped with the [[Hausdorff metric]]. If $X$ is a separable complete metric space, then so is $K(X)$. 
+
+* Spaces of [[structure in model theory|structures]] and [[models]] (in the [[model theory]] sense), and spaces of $n$-[[n-type (model theory)|types]] (again in the model theory sense), quite often provide examples of Polish spaces. For example, if $L$ is a countable language (a countable [[signature (in logic)|signature]]), then the collection of possible $L$-structures $M$ on the countable universe $\mathbb{N}$, topologized by taking as basic opens 
+$$U_\phi = \{M \in Struct(L): M \models \phi\}$$ 
+where $\phi$ is a quantifier-free sentence, is a Polish space homeomorphic to the product space 
+$$\prod_{relations\; R} \mathbf{2}^{\mathbb{N}^{arity(R)}} \times \prod_{functions\; f} \mathbb{N}^{\mathbb{N}^{arity(f)}}$$ 
+(taking constants to be functions of arity $0$ in the signature). 
+
 ##References##
 
 * [Blog discussion](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html) 
 
 * David Marker, _Descriptive Set Theory_, UIC Course Notes (Fall 2002) ([pdf](http://homepages.math.uic.edu/~marker/math512/dst.pdf)) 
+{#Marker} 
 
 * S.K. Berberian, _Borel spaces_, ([pdf](https://www.ma.utexas.edu/mp_arc/c/02/02-156.pdf)) 
 {#Ber} 
   
+* A.S. Kechris, _Classical Descriptive Set Theory_ Springer-Verlag (1994). 
