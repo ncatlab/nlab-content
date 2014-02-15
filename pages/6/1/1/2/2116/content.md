@@ -28,7 +28,7 @@ Putting aside the concerns of constructive mathematics, and freely adopting the 
 Two algebraically closed fields $K, K'$ are isomorphic iff they have the same characteristic $p$ (the nonnegative generator of the [[kernel]] of the unique [[ring]] map $\mathbb{Z} \to K$) and the same [[transcendence degree]] (the [[cardinality]] of any maximal set of algebraically independent elements). 
 =-- 
 
-In outline, the proof is simple in structure. The "only if" statement is clear. For the "if" statement, $K$ contains a subring isomorphic to $\mathbb{Z}/(p)[S]$ where $S$ is a transcendence basis, and similarly $K'$ contains a subring isomorphic to $\mathbb{Z}/(p)[S']$. By hypothesis, there is a bijection $f: S \to S'$, which extends uniquely to an isomorphism of [[integral domains]] $\mathbb{Z}/(p)[S] \to \mathbb{Z}/(p)[S']$, which extends uniquely to an isomorphism of their fields of fractions $\mathbb{F}(S) \to \mathbb{F}(S')$. Then $K, K'$ are algebraic closures of these fields, and one applies a theorem that an isomorphism of fields $\mathbb{F}(S) \to \mathbb{F}(S')$ can be extended to an isomorphism $K \to K'$ of their algebraic closures. 
+In outline, the proof is simple in structure. The "only if" statement is clear, provided we allow that transcendence degree is _well-defined_. For the "if" statement, $K$ contains a subring isomorphic to $\mathbb{Z}/(p)[S]$ where $S$ is a transcendence basis, and similarly $K'$ contains a subring isomorphic to $\mathbb{Z}/(p)[S']$. By hypothesis, there is a bijection $f: S \to S'$, which extends uniquely to an isomorphism of [[integral domains]] $\mathbb{Z}/(p)[S] \to \mathbb{Z}/(p)[S']$, which extends uniquely to an isomorphism of their fields of fractions $\mathbb{F}(S) \to \mathbb{F}(S')$. Then $K, K'$ are algebraic closures of these fields, and one applies a theorem that an isomorphism of fields $\mathbb{F}(S) \to \mathbb{F}(S')$ can be extended to an isomorphism $K \to K'$ of their algebraic closures. 
 
 The full details of such a proof carry some themes important in [[model theory]]: 
 
@@ -40,7 +40,19 @@ The full details of such a proof carry some themes important in [[model theory]]
 
 * There are extensions of isomorphisms of independent sets to isomorphisms of their algebraic closures. 
 
-... 
+Perhaps the most subtle in the list is the notion of independence and well-definedness of (transcendence) degree, which notably involves verification of the Steinitz exchange axiom: 
+
++-- {: .num_lemma} 
+###### Lemma 
+Let $K$ be an algebraically closed field, and let $cl: P(K) \to P(K)$ be the operator that takes a subset $S \subseteq K$ to the smallest algebraically closed subfield that contains $S$. Then $cl$ is a [[geometric stability theory|pregeometry]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For the moment, please consult Jacobson, Basic Algebra II, Theorem 8.34. This may be expanded upon a little later. 
+=-- 
+
+Well-definedness of transcendence degree then follows from abstract considerations of pregeometries; see [this result](/nlab/show/matroid#welldefined). 
 
 
 ## Related concepts
