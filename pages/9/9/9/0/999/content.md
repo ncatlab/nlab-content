@@ -236,7 +236,9 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 * [[finitely generated object]]
 
-* [[locally presentable category]]
+* [[locally presentable category]], [[accessible category]]
+
+* [[compactly generated (∞,1)-category]]
 
 [[!include finite objects -- table]]
 
