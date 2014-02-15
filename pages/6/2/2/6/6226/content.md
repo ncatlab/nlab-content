@@ -45,6 +45,8 @@ On [[quasi-coherent sheaves]] and [[Tannaka duality for geometric stacks]] in th
 
 ### 2.5 Pullbacks and pushforwards of quasi-coherent sheaves
 
+* [[scallop decomposition]]
+
 * [[Grothendieck context]] [[six operations]]
 
 ### 2.6 Local properties of quasi-coherent sheaves
