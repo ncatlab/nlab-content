@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 +-- {: .num_defn #InvertibleObject}
@@ -32,6 +36,14 @@ A [[monoidal category]] in which all objects are invertible is called a _[[Picar
 
 In terms of [[linear type theory]] one might speak of _invertible [[types]]_.
 =--
+
+## Related concepts
+
+* [[Picard group]]
+
+* [[line]], [[line object]]
+
+* [[dualizable object]]
 
 [[!redirects invertible object]]
 [[!redirects invertible objects]]
