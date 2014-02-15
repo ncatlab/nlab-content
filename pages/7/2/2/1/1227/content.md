@@ -122,6 +122,11 @@ Section 5.3 and in particular 5.3.3 of
 [[!redirects ind-object (∞,1)-categories]]
 [[!redirects ind-object in an (∞,1)-category]]
 
+[[!redirects ind-objects in an (∞,1)-category]]
+[[!redirects ind-objects in (∞,1)-categories]]
+[[!redirects ind-objects in an (infinity,1)-category]]
+[[!redirects ind-objects in (infinity,1)-categories]]
+
 [[!redirects (∞,1)-category of ind-objects]]
 [[!redirects (infinity,1)-category of ind-objects]]
 [[!redirects (∞,1)-categories of ind-objects]]
