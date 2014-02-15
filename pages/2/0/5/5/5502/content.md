@@ -123,7 +123,11 @@ Lecture Notes in Math., no. 1960, Springer-Verlag, New York, 2009, 1&#8211;259. 
 
 * [[Yoseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescants dans le monde motivique_ PhD thesis, Paris ([pdf](http://www.math.uiuc.edu/K-theory/0761/THESE.pdf))
 
-Discussion for pull-push of [[D-modules]] is in
+Discussion for pull-push of ([[holonomic D-module|holonomic]]) [[D-modules]] is in
+
+* [[Joseph Bernstein]], around p. 18 of _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
+
+reviewed for instance in
 
 * [[Pavel Etingof]], _Formalism of six functors on all (coherent) D-modules_ ([pdf](http://www-math.mit.edu/~etingof/dmodfactsheet.pdf))
 
