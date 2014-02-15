@@ -99,6 +99,7 @@ A retract of a representale $y(c) \in [C^{op}, Set]$ induces an idempotent on $y
 =--
 
 ### In terms of tiny objects
+ {#InTermsOfTinyObjects}
 
 +-- {: .num_prop #CauchyComplIsFullSubcatOnTinyObjects}
 ###### Proposition
@@ -110,6 +111,7 @@ The Cauchy completion $\overline{C}$ is equivalently the [[full subcategory]] of
 This appears for instance as ([BorceuxDejean, prop. 2](#BorceuxDejean)).
 
 ### In terms of absolute colimits
+ {#InTermsOfAbsoluteColimits}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -259,7 +261,7 @@ $$
   \,.
 $$
 
-By assumption this has a further right adjoint $f_!$ and hence preserves all [[colimits]]. By the discussion at [[tiny object]] it follows that $F \in [C,Set]$ is a tiny object. By prop. \ref{CauchyComplIsFullSubcatOnTinyObjects} this means that $F$ belongs to $\overline{C} \subset [C,Set]$.
+By assumption this has a further right adjoint $f_\ast$ and hence preserves all [[colimits]]. By the discussion at [[tiny object]] it follows that $F \in [C,Set]$ is a tiny object. By prop. \ref{CauchyComplIsFullSubcatOnTinyObjects} this means that $F$ belongs to $\overline{C} \subset [C,Set]$.
 
 A morphism $f \Rightarrow g$ between [[geometric morphisms]] $f,g : Set \to [C,Set]$ is a [[geometric transformation]], which is a [[natural transformation]] $f^* \Rightarrow g^*$, hence by the above a natural transformation $[C,Set](F,-) \Rightarrow [C,Set](G,-)$. By the [[Yoneda lemma]] these are in bijection with morphisms $G \to H$ in $[C,Set]$. This gives the full inclusion $Topos_{ess}(Set,[C,Set])^{op} \subset \overline{C}$.
 
@@ -355,6 +357,7 @@ $Cat_{Cauchy} \hookrightarrow Cat$ the adjunction exhibits a coreflective embedd
 
 
 ## In enriched category theory
+ {#InEnrichedCategoryTheory}
 
 We discuss Cauchy completion in $\mathcal{V}$-[[enriched category]] theory, for $\mathcal{V}$ a [[closed category|closed]] [[symmetric monoidal category]] with all [[limits]] and [[colimits]]. The discussion in ordinary category theory [above](InOrdinaryCategoryTheory) is the special case where $\mathcal{V} := $ [[Set]].
 
