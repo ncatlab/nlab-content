@@ -52,6 +52,10 @@ A general abstract account is in
 * H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
  {#May05}
 
+For the [[Grothendieck context]] of [[quasicoherent sheaves]] in [[E-infinity geometry]] the projection formula appears as remark 1.3.14 in 
+
+* [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+
 See also 
 
 * MathOverflow, _[Where do all the projection formulas come from?](http://mathoverflow.net/q/67228/381)_
