@@ -99,7 +99,16 @@ $$
 with $D$ a [[filtered category]].
 =--
 
++-- {: .num_remark}
+###### Remark
+
 The functors $C^{op}\to Set$ belonging to $ind\text{-}C$ under this definition --- those which are filtered colimits of representables --- have an equivalent characterization as the [[flat functors]]: those which "would preserve all finite colimits if $C$ had them".  In particular, if $C$ has finite colimits, then $ind\text{-}C$ consists exactly of the finitely cocontinuous presheaves.
+
+For more equivalent characterizations see at _[accessible category -- Definition](accessible+category#definition)_.
+
+=--
+
+
 
 +-- {: .num_defn}
 ###### Definition
