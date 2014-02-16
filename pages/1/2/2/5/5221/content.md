@@ -55,11 +55,13 @@ Special cases of such [[categorification|categorified]] integral transforms are 
 
 * Standard examples involving genuine [[functional analysis]] are for instance the [[Fourier transform]] or the [[Laplace transform]].
 
-* Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]] is supposed to be a class of examples of an integral kernel.
+* Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]] is supposed to be a class of examples of a (secondary) integral kernel.
 
 * [[Fourier-Mukai transform]]
 
 * [[Penrose transform]]
+
+* [[Harish Chandra transform]]
 
 ## History
  {#History}
