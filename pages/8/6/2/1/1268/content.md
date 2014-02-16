@@ -59,6 +59,20 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 =--
 
+## Properties
+
+### Six operations yoga
+ {#SixOperationsYoga}
+
+Discussion of [[six operations yoga]] for pull-push of ([[holonomic D-module|holonomic]]) D-modules is in ([Bernstein, around p. 18](#Bernstein)). This is  reviewed for instance in ([Etingof](#Etingof), [Ben-Ziv & Nadler 09](#BenZviNadler09)).
+
+### Relation to geometric representation theory
+ {#RelationToGeometricRepresentationTheory}
+
+For the moment see at _[[Harish Chandra transform]]_.
+
+
+
 ## Related concepts
 
 * [[holonomic D-module]]
@@ -73,7 +87,7 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 * [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
 
-* [[Hecke category]], [[Harish Chandra correspondence]]
+* [[Hecke category]], [[Harish Chandra transform]]
 
 ## References 
 
@@ -87,7 +101,7 @@ A comprehensive account is in chapter 2 of
 
 Lecture notes include
 
-* [[Joseph Bernstein]], _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
+* {#Bernstein} [[Joseph Bernstein]], _Algebraic theory of D-modules_ ([[BernsteinDModule.pdf:file]], [ps](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.ps), [dvi](http://www.math.uchicago.edu/~mitya/langlands/Bernstein/Bernstein-dmod.dvi))
 
 * Peter Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf), 
 
@@ -124,7 +138,14 @@ Annales de l'institut Fourier, 43 no. 5 (1993), p. 1597-1618, [article](http://a
 
 * Nero Budur, _On the V-filtration of D-modules_, [math.AG/0409123](http://arxiv.org/abs/math/0409123), in "Geometric methods in algebra and number theory" Proc. 2003 conf. Univ. of Miami, edited by F. Bogomolov, Yu. Tschinkel 
 
-##Blog discussion
+Review of [[six operations yoga]] for D-modules is in
+
+* {#Etingof} [[Pavel Etingof]], _Formalism of six functors on all (coherent) D-modules_ ([pdf](http://www-math.mit.edu/~etingof/dmodfactsheet.pdf))
+
+* {#BenZviNadler09} [[David Ben-Zvi]], [[David Nadler]], section 3 of _The Character Theory of a Complex Group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
+
+
+## Blog discussion
 
 * Secret Blogging Seminar [Musings on D-modules](http://sbseminar.wordpress.com/2007/07/07/musings-on-d-modules/), [Musings on D-modules, part 2](http://sbseminar.wordpress.com/2007/07/14/musings-on-d-modules-part-2/)
 
