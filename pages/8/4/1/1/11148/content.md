@@ -1,0 +1,7 @@
+
+
+## References
+
+* Wikipedia, _[BTZ black hole](http://en.wikipedia.org/wiki/BTZ_black_hole)_
+
+[[!redirects BTZ black holes]]
