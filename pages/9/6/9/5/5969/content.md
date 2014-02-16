@@ -135,10 +135,14 @@ The following discusses conserved currently in the context of [[higher prequantu
 Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]]. For $\mathbf{Fields} \in \mathbf{H}$ a [[moduli ∞-stack]] of [[field (physics)|fields]] a [[local Lagrangian]] for an $n$-dimensional [[prequantum field theory]] is equivalently a [[prequantum n-bundle]] given by a map
 
 $$
-  \mathcal{L} \;\colon\; \mathbf{Fields} \longrightarrow \mathbf{B}^nU(1)_{conn}
+  \mathcal{L} \;\colon\; \mathbf{Fields} \longrightarrow \mathbf{B}^n U(1)_{conn}
 $$
 
+
 to the [[moduli ∞-stack]] of smooth [[circle n-bundles with connection]]. The local connection [[differential n-form]] is the [[local Lagrangian]] itself as in traditional literature, the rest of the data in $\mathcal{L}$ is the [[higher gauge theory|higher]] [[gauge symmetry]] [[equivariance|equivariant]] structure.
+
+
+The following is effectively the direct higher geometric analog of the [Hamiltonian version of Noether's theorem](Noether's+theorem#HamiltonianNoetherTheorem).
 
 ### Symmetries
 
@@ -244,4 +248,3 @@ as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local cu
 
 [[!redirects Noether current algebra]]
 [[!redirects Noether current algebras]]
-
