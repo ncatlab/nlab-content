@@ -29,7 +29,7 @@ While there is no experimental evidence for such higher curvature terms in the t
 
 In view of this, the fact that Chern-Simons action functionals are singled out by their nice formal properties has led to various speculations that possibly the fundamental theory of gravity is secretly a theory of Chern-Simons gravity after all (see the [References](References)). Whether that is true or not, certainly in the general mathematical context of [[schreiber:infinity-Chern-Simons theory]] the study of Chern-Simons gravity is natural and interesting.
 
-**Warning** In parts of the literature the term _Chern-Simons grvaity_  is used for the modificaton of the [[Einstein-Hilbert action]] in  4-dimensions obtained by adding to the standard action the [[Pontryagin class]] term $\int_X \langle R \wedge R\rangle$ for $R$ the [[Riemann curvature]]. This is however not a Chern-Simons action functional in the strict sense of the term.
+**Warning** In parts of the literature the term _Chern-Simons gravity_  is used for the modification of the [[Einstein-Hilbert action]] in  4-dimensions obtained by adding to the standard action the [[Pontryagin class]] term $\int_X \langle R \wedge R\rangle$ for $R$ the [[Riemann curvature]]. This is however not a Chern-Simons action functional in the strict sense of the term.
 
 ### Problems in the non-perturbative regime
  {#ProblemsInTheNonPerturbativeRegime}
