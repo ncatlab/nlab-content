@@ -9,6 +9,13 @@
 
 Holonomicity of D-modules is important also in [[geometric representation theory]]. 
 
+
+## Related concepts
+
+* [[coherent D-module]]
+
+* [[arithmetic D-module]]
+
 ## References
 
 Lecture notes include
