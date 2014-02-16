@@ -630,6 +630,7 @@ $$
 This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there. A closely related example is the following: a functor $\rho:\mathbf{B}G\to {Top}$ is the datum of a toplogical space $X$ equipped with an action of $G$. Then, $colim(\rho)=X/G$ whereas $hocolim(\rho)=\mathbf{E}G\times_G X$, see [[equivariant cohomology]].
 
 #### Homotopy pullback of a subgroup over a group 
+ {#DeloopedSubgroupOverGroup}
 
 The above example generalizes straightforwardly
 to the case where the trivial 
@@ -650,7 +651,7 @@ $$
   \stackrel{\simeq}{\to}  H \backslash\backslash G//H
 $$
 
-where on the right we have the [[action groupoid]] of $H \times H$ acting on $G$ by multiplication from the left (first factor) and the right (second factor).
+where on the right we have the [[action groupoid]] of $H \times H$ acting on $G$ by multiplication from the left (first factor) and the right (second factor). (See for instance at _[[Hecke category]]_ for an application.)
 
 To see this, we again build a fibrant replacement of the pullback diagram. Following the constructions at [[generalized universal bundle]] consider first the groupoid $\mathbf{E}_{\mathbf{B}H}G$ given by the pullback diagram
 
