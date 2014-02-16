@@ -151,3 +151,4 @@ Six operations in the setup of [[o-minimal structure]]s is discussed in
 [[!redirects yoga of six operations]]
 
 [[!redirects six operation yoga]]
+[[!redirects six operations yoga]]
