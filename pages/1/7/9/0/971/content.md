@@ -188,6 +188,9 @@ See also
 * [[Robert Paré]], [[Ji?í Rosický]], _Colimits of accessible categories_ ([arXiv:1110.0767](http://arxiv.org/abs/1110.0767))
  {#Par&#233;Rosick&#253;}
 
+and 
+
+* [[Ji?í Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Ji?í Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
 
 A discussion of [[accessible (∞,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
