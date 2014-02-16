@@ -151,7 +151,9 @@ for some [[coefficients]] $\{c^w_{u v}\}$, to be determined.
 
   * [[Dirac induction]]
 
-* [[twistor space]]
+* [[twistor space]], 
+
+* [[twistor correspondence]], [[horocycle correspondence]], [[Grothendieck-Springer correspondence]] 
 
 ## References
 
