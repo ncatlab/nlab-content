@@ -481,6 +481,9 @@ See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28ph
 [[!redirects vielbeine]]
 [[!redirects vielbeins]]
 
+[[!redirects vierbein]]
+[[!redirects vierbein field]]
+
 
 [[!redirects soldering form]]
 [[!redirects soldering forms]]
