@@ -107,6 +107,8 @@ More in detail, this yields the following identifications:
 
 * [[principal bundle]], [[torsor]], [[vector bundle]], [[Atiyah Lie algebroid]]
 
+* [[character sheaf]], [[Harish Chandra transform]]
+
 * [[geometric function theory]], [[groupoidification]]
 
 * [[Eilenberg-Moore category]], [[algebra over an operad]], [[actegory]], [[crossed module]]
