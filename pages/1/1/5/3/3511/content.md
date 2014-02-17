@@ -107,7 +107,7 @@ This is [[Higher Topos Theory|HTT, section 3.3]].
 +-- {: .un_theorem }
 ###### Theorem
 
-The full subcategory of the [[(∞,1)-category of (∞,1)-categories]] $Func((\infty,1)Cat, (\infty,1)Cat)$ on those [[(∞,1)-functor]]s that are equivalences is equivalent to $\{Id, op\}$: it contains only the identity functor and the one that sends and $(\infty,1)$-category to its [[opposite (infinity,1)-category]].
+The full subcategory of the [[(∞,1)-category of (∞,1)-categories]] $Func((\infty,1)Cat, (\infty,1)Cat)$ on those [[(∞,1)-functor]]s that are equivalences is equivalent to $\{Id, op\}$: it contains only the identity functor and the one that sends an $(\infty,1)$-category to its [[opposite (infinity,1)-category]].
 
 =--
 
