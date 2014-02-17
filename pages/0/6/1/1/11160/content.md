@@ -1,0 +1,8 @@
+
+
+## References
+
+* Wikipedia, _[Discrete geometry](http://en.wikipedia.org/wiki/Discrete_geometry)_
+
+[[!redirects discrete geometry]]
+
