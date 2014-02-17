@@ -133,6 +133,10 @@ The following is a short exposition on some of the motivation behind derived alg
 * [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](http://www.ams.org/notices/201107/rtx110700955p.pdf).
 {#VezzosiWhatIs}
 
+The following is an exposition of the theory of derived schemes modelled on nonpositively graded dg-algebras.
+
+* [[Dennis Gaitsgory]], _Notes on geometric Langlands: stacks_, [pdf](http://www.math.harvard.edu/~gaitsgde/GL/Stackstext.pdf).
+
 ### Approach of Lurie
 
 A general theory of [[derived geometry]] is developed in 
