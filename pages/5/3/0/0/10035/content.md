@@ -64,5 +64,6 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 * [[Kevin Walker]], _On Witten's 3-manifold invariants_ (1991) [pdf](http://tqft.net/other-papers/KevinWalkerTQFTNotes.pdf)
   {#Walker1991}
 
+* {#CarterKauffmanSaito96} [[Scott Carter]], [[Louis Kauffman]], Masahico Saito, _Diagrams, Singularities, and Their Algebraic Interpretations_, in "10th Brazilian Topology Meeting, S. Carlos, July 22 26, 1996 ([pdf](http://homepages.math.uic.edu/~kauffman/cksBrasil.pdf))
 
 [[!redirects 3d TQFTs]]
