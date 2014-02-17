@@ -11,6 +11,8 @@ The _Teichm&#252;ller space_ of a [[surface]] is the [[moduli space of complex s
 
 * [[inter-universal Teichmüller theory]]
 
+* [[quantum Teichmüller theory]]
+
 ## References
 
 * Wikipedia, _[Teichm&#252;ller space](http://en.wikipedia.org/wiki/Teichm%C3%BCller_space)_ 
