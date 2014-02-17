@@ -59,6 +59,11 @@ Original references include
 * [[Louis Crane]], [[Igor Frenkel]], _Four dimensional topological quantum field theory, Hopf categories, and the canonical bases_, J.Math.Phys. 35 (1994) 5136-5154, ([arXiv:hep-th/9405183](http://arxiv.org/abs/hep-th/9405183))
  {#CraneFrenkel}
 
+See also
+
+* {#CarterKauffmanSaito96} [[Scott Carter]], [[Louis Kauffman]], Masahico Saito, _Diagrams, Singularities, and Their Algebraic Interpretations_, in "10th Brazilian Topology Meeting, S. Carlos, July 22 26, 1996 ([pdf](http://homepages.math.uic.edu/~kauffman/cksBrasil.pdf))
+
+
 Many more should eventually go here...
 
 
