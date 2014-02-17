@@ -19,7 +19,7 @@
 
 ## Idea
 
-An [[(∞,n)-category with adjoints]] and a [[dual object]] for every [[object]].
+An [[(∞,n)-category with adjoints]] (see there for more) and a [[dual object]] for every [[object]].
 
 ## Definition
 
@@ -48,7 +48,11 @@ Finally we say that
 This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)).
 
 
+
+
 ## Related concepts
+
+* [[fundamental n-category]]
 
 * [[rigid monoidal category]]
 
