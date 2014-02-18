@@ -1,5 +1,5 @@
 
-* [website](http://www.maths.gla.ac.uk/~dstevenson/)
+* [website](http://www.maths.adelaide.edu.au/people/danny.stevenson)
 
 category: people
 
