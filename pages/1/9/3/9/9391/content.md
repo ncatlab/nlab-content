@@ -21,6 +21,8 @@ $$
 
 The former is left invariant, the latter right invariant.
 
+Note that a normed group is not necessarily a topological group.  [This paper](http://www.maths.lse.ac.uk/Personal/adam/DM656NormedGroups.pdf) discusses the issue.
+
 ## Extension to Groupoids
 
 The definition can be extended to [[groupoids]].
