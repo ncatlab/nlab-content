@@ -63,7 +63,7 @@ $AC_\infty \Leftrightarrow (AC_0$ and sets cover).
 =--
 +-- {: .proof}
 ###### Proof
-This is a theorem inside homotopy type theory, and likewise for its proof.  Clearly $AC_\infty \Rightarrow AC_0$.  Given $X$, we have a map $X\to {\Vert X \Vert}$ which is 0-connected, hence also surjective, and its codomain is a set; thus by $AC_\infty$ it merely has a section.  Any section of a 0-connected map is surjective; thus $X$ is merely covered by $\Vert X\Vert$.  (Note that in this case we have a stronger version of "sets cover" in which the first $\sum$ is outside the truncation.)
+This is a theorem inside homotopy type theory, and likewise for its proof.  Clearly $AC_\infty \Rightarrow AC_0$.  Given $X$, we have a map $X\to {\Vert X \Vert_0}$ which is 0-connected, hence also surjective, and its codomain is a set; thus by $AC_\infty$ it merely has a section.  Any section of a 0-connected map is surjective; thus $X$ is merely covered by $\Vert X\Vert_0$.  (Note that in this case we have a stronger version of "sets cover" in which the first $\sum$ is outside the truncation.)
 
 Conversely, suppose $AC_0$ and sets cover, and let $X\to Z$ be a surjection with codomain a set.  Then there merely exists a set $Y$ and a surjection $Y\to X$, and the composite surjection $Y\to X\to Z$ merely has a section by $AC_0$.  The composite of this section with $Y\to X$ is a section of $X\to Z$.
 =--
