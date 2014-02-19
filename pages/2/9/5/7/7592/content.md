@@ -15,7 +15,7 @@ The **Regular Extension Axiom** is a foundational axiom which asserts the existe
 
 ## References
 
-* [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www.amsta.leeds.ac.uk/Pure/staff/rathjen/REA.pdf)
+* [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www.amsta.leeds.ac.uk/Pure/staff/rathjen/REA.pdf) -- broken link
 
 
 category: foundational axiom
