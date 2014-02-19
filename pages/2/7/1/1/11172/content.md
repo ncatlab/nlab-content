@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+# Plump ordinals
+
+* table of contents
+{: toc}
+
+## Idea
+
+The [[ordinal numbers]] admit two [[inequalities]]: a strict one $\lt$ and a non-strict one $\le$.  When the ordinals are defined in [[material set theory]] in the von Neumann style as "the set of all smaller ordinals", these relations are identified with $\in$ (set [[membership]]) and $\subseteq$ ([[subset|containment]]).  And when ordinals are defined in a structural theory as certain well-ordered sets, the relation $\le$ refers to inclusion as an [[initial subset]] (a [[simulation]]) while $A\lt B$ refers to such an inclusion as the strict slice $\{ y | y \lt x \}$ of some element $x$ of $B$.
+
+In [[classical mathematics]], $\lt$ and $\le$ are definable in terms of each other's negation: $A\lt B$ if and only if $\neg(B\le A)$, and similarly $A\le B$ if and only if $\neg(B\lt A)$.  However, in [[constructive mathematics]] this is no longer true.  This phenomenon is familiar for other ordered structures, such as the [[real numbers]] (for reals $x$ and $y$, we say $x\le y$ if $x-y=0$, and $x\lt y$ if there is a positive rational number $\epsilon$ such that ${|x-y|}\gt \epsilon$).  And in general, there are certain laws we may expect such a pair of inequalities to satisfy, such as:
+
+* $x\le x$.
+* If $x\le y\le z$, then $x\le z$.
+* If $x\lt y$, then $x\le y$.
+* If $x\lt y\lt z$, then $x\lt z$.
+* If $x\lt y\le z$, then $x\lt z$.
+* If $x\le y\lt z$, then $x\lt z$.
+
+For the constructive ordinal numbers, these are all satisfied *except for the last one*.  In fact, it's easy to see that if $x\le y\lt z$ implies $x\lt z$ for all $x,y,z$, then [[excluded middle]] holds: consider $z = 2 = \{0,1\}$ and $y = 1 = \{0\}$ and $x = \{0 | P\}$ for some proposition $P$.
+
+However, Paul Taylor [(Taylor)](#Taylor) realized that this last property can be recovered by essentially "restricting to the subclass of ordinals $z$ for which it holds hereditarily".  These are the *plump ordinals*.
+
+## Definition
+
+An [[ordinal]] $A$ is **plump** if
+
+1. every ordinal $B\lt A$ is plump, and
+2. whenever $C\le B\lt A$ and $C$ is a plump ordinal, then $C\lt A$.
+
+It is not obvious that this definition is sound (i.e. non-circular), but it can be shown to be so based on a well-founded relation (other than $A$ itself).  It does, however, require the existence of [[power sets]], so it is not obviously sensible in [[predicative mathematics]] which denies the existence of those.
+
+## References
+
+* [[Paul Taylor]], *Intuitionistic sets and ordinals*, Journal of Symbolic Logic, 61:705-744, 1996
+ {#Taylor}
