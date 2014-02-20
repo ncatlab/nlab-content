@@ -71,7 +71,7 @@ It is well known that [[extensional type theory|extensional]] [[dependent type t
 
 The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theory have models in certain [[(∞,1)-categories]].  This connection is usually shown by means of a presentation of the $(\infty,1)$-category using a [[weak factorization system]], a [[category of fibrant objects]], a [[model category]], or other similar structure.
 
-It is conjectured (see for instance [Joyal, 2011](#Joyal)) that
+It is conjectured (see for instance [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal)) that
 
 * intensional dependent type theory with dependent sums and products and [[function extensionality]] (a form of homotopy type theory) is an internal language for [[locally cartesian closed (∞,1)-categories]]; and
 
