@@ -674,6 +674,7 @@ Before actually quantizing a [[local prequantum field theory]] $\left[ \array{ \
 
    (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
 
+
 1. a choice of [[∞-group]] homomorphism
 
    $$
@@ -3784,7 +3785,7 @@ The general perspective of the [[path integral as a pull-push transform]] was or
 
 and then fully explicitly in
 
-* [[Daniel Freed]], _Twisted K-theory and the Verlinde ring_, Andrejewski lecture ([pdf slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
+* [[Daniel Freed]], _Twisted K-theory and the Verlinde ring_, Andrejewski lecture ([html slides](http://www.ma.utexas.edu/users/dafr/Andrejewski%20Lectures.html))
 
 Discussion along these lines of a pull-push quantization over [[KU]] of a 2-dimensional [[Chern-Simons theory]]-like [[gauge theory]] is in 
 
