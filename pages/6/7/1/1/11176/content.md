@@ -1,0 +1,9 @@
+## Considering how type theory can be used in quantum computing ##
+
+### WIP ###
+
+
+### Related work ###
+
+ * [A quantum teleportation inspired algorithm produces sentence meaning from word meaning and grammatical structure](http://arxiv.org/abs/1305.0556)
+ * [The logic of quantum mechanics - Take II](http://arxiv.org/abs/1204.3458)
