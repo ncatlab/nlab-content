@@ -75,7 +75,7 @@ See also
 
   * [[algebra over an operad]], **algebra over an (∞,1)-operad**, [[model structure on algebras over an operad]]
 
-    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
     * [[rectification]]
 
@@ -83,7 +83,7 @@ See also
 
 ## References
 
-* Gijs Heuts: [algebras over ∞-operads](http://arxiv.org/pdf/1110.1776.pdf)
+* [[Gijs Heuts]]: [algebras over ∞-operads, Arxiv:math/1110.1776](http://arxiv.org/pdf/1110.1776.pdf)
 
 Model category structures for $\infty$-algebras are discussed in
 
