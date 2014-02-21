@@ -591,6 +591,8 @@ for each value of $p$. The reason that all the connecting maps in the long exact
 
 =--
 
+The presentation of cohomology of $X$ with local coefficients $\mathcal{A}$ as $\pi$-invariant de Rham cohomology of the universal covering space $\tilde{X}$ twisted by the holonomy representation on the stalk $\bar{A}$ is originally due to ([Eilenberg 47](#Eil47)). It is also discussed in Chapter VI of ([Whitehead 78](#Whit78)). The idea to look at the $\pi$-invariant subspace of the twisted de Rham cohomology of the universal covering space scan be found in an answer by [Peter Michor](#MichorMO) on [MathOverlflow](http://mathoverflow.net/).
+
 The above result can be seen as an effective way to compute the sheaf cohomology groups $H^p(X,\mathcal{A})$ since all it requires is the knowledge of the following finite dimensional representations of the fundamental group $\pi = \pi_1(X)$: the deck transformations on the de Rham cohomology $H^k(\tilde{X})$ of the covering space, and the holonomy representation on a typical stalk $\bar{A}$ of the locally constant sheaf $\mathcal{A}$. Obtaining the invariant subspace of their tensor product can then be done using usual representation theory methods, which involve only finite dimensional linear algebra. Unfortunately, it appears that the requirement that $\pi$ is finite is rather important for the argument. It is not entirely clearly how to proceed if, for instance $\pi = \mathbb{Z}$ or is non-abelian and infinite.
 
 ## Related entries
@@ -635,6 +637,17 @@ The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
+
+The presentation of cohomology with local coefficients in terms $\pi_1$-equivariant de Rham cohomology on the universal covering space is discussed in
+
+* S. Eilenberg, _Homology of spaces with operators I_, Trans. Amer. Math. Soc. 6 (1947), 378-417. ([doi](http://dx.doi.org/10.1090/S0002-9947-1947-0021313-4))
+ {#Eil47}
+
+* G. W. Whitehead, Elements of homotopy theory, Springer-Veriag, 1978.
+ {#Whit78}
+
+* [Peter Michor](http://mathoverflow.net/users/26935/peter-michor), [answer](http://mathoverflow.net/a/129246/2622) to MathOverflow question [_de Rham cohomology and flat vector bundles_](http://mathoverflow.net/q/129246), (version: 2013-04-30).
+ {#MichorMO}
 
 
 ### Chronology of literature on twisted cohomology 
