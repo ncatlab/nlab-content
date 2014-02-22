@@ -383,6 +383,8 @@ A textbook account is in
 
 Section 29 there discusses the relation to the [[Amitsur complex]] and the [[descent theorem]].
 
+* MO: [how-is-a-descent-datum-the-same-as-a-comodule-structure](http://mathoverflow.net/questions/150547/how-is-a-descent-datum-the-same-as-a-comodule-structure)
+
 Discussion in the context of ([[higher monadic descent|higher]]) [[monadic descent]] is around example 2.24 of 
 
 * [[Kathryn Hess]], section 6 of _A general framework for homotopic descent and codescent_ ([arXiv:1001.1556](http://arxiv.org/abs/1001.1556))
