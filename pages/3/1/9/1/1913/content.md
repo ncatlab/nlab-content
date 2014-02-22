@@ -273,6 +273,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[differential cohomology]]
 
+* [[absolute differential form]], [[cogerm differential form]]
+
 ## References
 
 A standard reference is
