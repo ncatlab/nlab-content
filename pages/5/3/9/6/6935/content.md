@@ -577,7 +577,7 @@ $$
   \,.
 $$
 
-The [[recursion principle]] says that the [[simplicial identities|degenracy map]] $\sigma_0$ factors through the [[path space object]] of $X_0$ as a lift $\hat \sigma_0$ in the diagram
+The [[recursion principle]] says that the [[simplicial identities|degeneracy map]] $\sigma_0$ factors through the [[path space object]] of $X_0$ as a lift $\hat \sigma_0$ in the diagram
 
 $$
   \array{
