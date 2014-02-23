@@ -27,7 +27,9 @@ For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordin
 
 Original articles include
 
-* [[George Whitehead]], _Generalized homology theories_  (1961)
+* [[George Whitehead]], _Generalized homology theories_  (1961) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gww9.pdf))
+
+
 
 See also
 
