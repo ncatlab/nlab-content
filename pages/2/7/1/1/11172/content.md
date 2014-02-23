@@ -18,9 +18,10 @@
 
 The [[ordinal numbers]] admit two [[inequalities]]: a strict one $\lt$ and a non-strict one $\le$.  When the ordinals are defined in [[material set theory]] in the von Neumann style as "the set of all smaller ordinals", these relations are identified with $\in$ (set [[membership]]) and $\subseteq$ ([[subset|containment]]).  And when ordinals are defined in a structural theory as certain well-ordered sets, the relation $\le$ refers to inclusion as an [[initial subset]] (a [[simulation]]) while $A\lt B$ refers to such an inclusion as the strict slice $\{ y | y \lt x \}$ of some element $x$ of $B$.
 
-In [[classical mathematics]], $\lt$ and $\le$ are definable in terms of each other's negation: $A\lt B$ if and only if $\neg(B\le A)$, and similarly $A\le B$ if and only if $\neg(B\lt A)$.  However, in [[constructive mathematics]] this is no longer true.  This phenomenon is familiar for other ordered structures, such as the [[real numbers]] (for reals $x$ and $y$, we say $x\le y$ if ${|x-y|}\lt \epsilon$ for every positive rational number $\epsilon$, and $x\lt y$ if there is a positive rational number $\epsilon$ such that ${|x-y|}\gt \epsilon$).  And in general, there are certain laws we may expect such a pair of inequalities to satisfy, such as:
+In [[classical mathematics]], $\lt$ and $\le$ are definable in terms of each other's negation: $A\lt B$ if and only if $\neg(B\le A)$, and similarly $A\le B$ if and only if $\neg(B\lt A)$.  However, in [[constructive mathematics]] this is no longer true.  This phenomenon occurs for other ordered structures as well; for instance, for the [[real numbers]].  (For the most commonly used notions of real number, $\le$ is definable as the negation of $\gt$, but not conversely.)   In general, there are certain laws we may expect such a pair of inequalities to satisfy, such as:
 
 * $x\le x$.
+* Not $x \lt x$.
 * If $x\le y\le z$, then $x\le z$.
 * If $x\lt y$, then $x\le y$.
 * If $x\lt y\lt z$, then $x\lt z$.
@@ -42,5 +43,8 @@ It is not obvious that this definition is sound (i.e. non-circular), but it can 
 
 ## References
 
-* [[Paul Taylor]], *Intuitionistic sets and ordinals*, Journal of Symbolic Logic, 61:705-744, 1996
+* [[Paul Taylor]], *Intuitionistic sets and ordinals*, Journal of Symbolic Logic, 61:705-744, 1996, available [here](http://www.paultaylor.eu/ordinals/#intso)
+
+* See also Section 6.7 of [[Paul Taylor]], *Practical Foundations of Mathematics*, [here](http://www.paultaylor.eu/prafm/html/s67.html).
+
  {#Taylor}
