@@ -1,5 +1,3 @@
-Hi! I am currently studying (higher) category theory and _[[functorial quantum field theory]]_, for which the nLab is a very valuable resource. I correct minor mistakes and typos while reading things.
-
 * [webpage](http://perimeterinstitute.ca/personal/tfritz/)
 
 category: people
