@@ -1,16 +1,1 @@
-author: AnonymousCoward
-company: 
-title: object theory
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
-
-:category: S5-slideshow
-
-object theory
-==============
-
-My First Slide
------------------
-
+category: empty
