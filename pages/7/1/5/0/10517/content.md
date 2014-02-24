@@ -9,16 +9,14 @@
 =--
 =--
 
-
-
 # Partial map classifier
-
 * table of contents
 {: toc}
 
 ## Idea
 
 A *partial map classifier* of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
+
 
 ## Definition
 
@@ -29,6 +27,7 @@ We can compose a partial map $A\rightharpoonup B$ with a map $B\to B'$ in an obv
 A **partial map classifier** for $B$ is an object $B_\bot$ together with an isomorphism
 $$ \mathcal{C}(A,B_\bot) \cong Par_{\mathcal{C}}(A,B) $$
 natural in $A$.  By the [[Yoneda lemma]] this means there is a universal partial map $B_\bot \rightharpoonup B$.
+
 
 ## Constructions
 
@@ -42,5 +41,6 @@ Partial map classifiers also exist in every [[elementary topos]], but in the non
 
 Note that neither of these constructions is [[predicative mathematics|predicative]].  The second makes more sense in a [[higher category]] (or in its internal logic such as [[homotopy type theory]]).
 
-[[!redirects partial map classifiers]]
 
+[[!redirects partial map classifier]]
+[[!redirects partial map classifiers]]
