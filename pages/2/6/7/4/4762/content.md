@@ -43,7 +43,7 @@ $$
 
 (The lower dimensional horn fillers of course also exist, but are not in general unique.)
 
-This is due to ([Duskin 79](#Duskin79), [Glenn 82](#Glenn82)). In [Beke 04](#Beke04) these are called _exact $n$-types_ instead. For a review on the definition see ([Pridham 09, section 2](#Pridham09)).
+This is due to ([Duskin 79](#Duskin79), [Glenn 82](#Glenn82)), however their definition does not ask $K$ has lower dimensional horn fillers. In [Beke 04](#Beke04) these are called _exact $n$-types_ instead. For a review on the definition see ([Pridham 09, section 2](#Pridham09)).
 
 Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] and such that the $(n+1)$-horns and $(n+2)$-horns have unique fillers.
 
