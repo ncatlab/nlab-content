@@ -30,7 +30,7 @@ $$
 and
 
 $$
-  g = (g^* \dashv g_*) : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathcal{F}
+  g = (g^* \dashv g_*) : \mathcal{E} \stackrel{\overset{g^*}{\leftarrow}}{\underset{g_*}{\to}} \mathcal{F}
 $$
 
 two [[geometric morphism]]s, a **geometric transformation** 
