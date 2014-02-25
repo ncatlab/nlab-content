@@ -19,7 +19,7 @@
 
 ## Idea
 
-A $C^*$-category can be thought of as a [[horizontal categorification]] of a [[C-star-algebra]]. Equivalently,  a $C^*$-algebra $A$ is thought of as a pointed one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories would be __$C^*$-[[algebroids]]__.
+A $C^*$-category can be thought of as a [[horizontal categorification]] of a $C^*$-[[C-star-algebra|algebra]]. Equivalently,  a $C^*$-algebra $A$ is thought of as a pointed one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories would be __$C^*$-[[algebroids]]__.
 
 
 ## Definition
@@ -51,6 +51,21 @@ Condition (3) above is equivalent to requiring that every arrow of the form $x^*
 The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra|Hopf]] $C^\ast$-algebra (see there for details) is naturally a [[rigid monoidal category|rigid monoidal]] $C^\ast$-category.
 =--
 
++-- {: .num_example}
+###### Example
+
+The category $Hilb$ of Hilbert spaces and bounded linear maps is a $C^*$-category. 
+=--
+
+## Representation Theory
+
+$C^*$-algebras can be represented as algebras of bounded linear operators on some choice of Hilbert space, using the [[Gelfand-Naimark-Segal construction|G.N.S. construction]]. $C^*$-categories have an analogue of the G.N.S. construction that allows them to represented on the category $Hilb$ of Hilbert spaces and bounded linear maps. 
+
++-- {: .num_theorem}
+###### Theorem
+
+For any (small) $C^*$-category $\mathcal{C}$ there exists a faithful $*$-functor $\rho \colon \mathcal{C} \to Hilb$.
+=--
 
 ## Related concepts
 
