@@ -1,0 +1,41 @@
+[[!redirects fell bundle]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A Fell Bundle is a family of [[Banach space|Banach spaces]] that varies continuously over the morphism space of a [[topological groupoid]], where nontrivial morphisms in the groupoid induce a bilinear composition across the fibers. They are a generalization of both [[continuous field of C*-algebras|continuous fields]] of $C^*$-algebras over topological spaces and of $C^*$-algebraic bundles (bundles of $C^*$-algebras over topological groups).
+ 
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A Fell Bundle is a continuous $*$-functor $p \colon \mathcal{C} \to G$ from a $C^*$-[[C-star-category|category]] $\mathcal{C}$ to a topological groupoid $G$.
+
+=--
+
+## References
+
+
