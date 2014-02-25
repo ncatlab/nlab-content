@@ -20,9 +20,9 @@
 
 ## Definition
 
-The dual notion of a [[fiber sequence]]:
+A cofiber sequence is the dual notion to a [[fiber sequence]].
 
-for $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square
+For $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square
 
 $$
   \array{
@@ -40,7 +40,17 @@ in $\mathcal{C}$. We say that $C$ is the [[homotopy cofiber]] of $f$.
 
 ### Presentation
 
-Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$, homotopy cofibers are presented by [[mapping cones]]. See there for more details.
+Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$ (such as a [[model category]]), homotopy cofibers are presented by [[mapping cones]]. See there for more details.
+
+## Examples
+
+In a [[stable (infinity,1)-category]], every [[fiber sequence]] is also a cofiber sequence and conversely.
+
+### Non-examples
+
+In the unstable case, most fiber sequences are not cofiber sequences or conversely.  For instance, if $0\to K\to G\to H \to 0$ is a [[short exact sequence]] of [[groups]], then the corresponding maps of [[classifying spaces]] $\mathbf{B}K \to \mathbf{B}G \to \mathbf{B}H$ always form a [[fiber sequence]], but not generally a cofiber sequence.
+
+For a concrete counterexample, consider the short exact squence $0 \to \mathbb{Z}\xrightarrow{2} \mathbb{Z}\to \mathbb{Z}/2 \to 0 $.  Upon taking classifying spaces this becomes $S^1 \to S^1 \to RP^{\infty}$, in which the first map is a double cover whose cofiber is $RP^2$.
 
 ## Related concepts
 
