@@ -18,20 +18,27 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A $C^*$-category can be thought of as a [[horizontal categorification]] of a [[C-star-algebra]]. Equivalently,  a $C^*$-algebra $A$ is thought of as a pointed one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories would be __$C^*$-[[algebroids]]__.
+
 
 ## Definition
 
 +-- {: .num_defn}
 ###### Definition
 
-A $C^*$-category is a $*$-[[star-category|category]] that has a norm on each [[hom-set|set of arrows]] $Hom(x, y)$ that turns it into a [[Banach space]] with ${\|a^* a\|} = {\|a\|}^2$ for $a \in Hom(x, y)$ and ${\|{b a}\|} \leq {\|b\|} {\|a\|}$ for all arrows $a, b$ that are composable, and for every arrow $a \in Hom(x,y)$ there exists an arrow $b \in Hom(x,x)$ such that $a^\ast a = b^ \ast b$.
+A $C^*$-category is a $*$-[[star-category|category]] enriched in Banach spaces such that: 
+1. Every arrow $a \in Hom(x,y)$ satisfies the $C^*$-identity ${\|a^* a\|} = {\|a\|}^2$. 
+1. Composition satisfies ${\|{b a}\|} \leq {\|b\|} {\|a\|}$ for all composable pairs of arrows $a$ and $b$. 
+1. For every arrow $a \in Hom(x,y)$ there exists an arrow $b \in Hom(x,x)$ such that $a^\ast a = b^ \ast b$.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-A [[C-star-algebra]] $A$ is equivalently a pointed one-object $C^*$-category $\mathbf{B}A$ (the [[delooping]] of $A$).  Accordingly, a more systematic name for $C^*$-categories is a __$C^*$-[[algebroids]]__.
+Condition (3) above is equivalent to requiring that every arrow of the form $x^* x$ is positive in the sense of $C^*$-algebras. Unlike $C^*$-algebras, this does not follow automatically, as can be seen by considering the category with two objects $x,y$ with all morphism sets a copy of $\mathbb{C}$ and with involution defined on $a \in Hom(x,y)$ by $a^* = \overline{a}$ if $x=y$ and $a^* = -\overline{a}$ otherwise.  
 
 =--
 
@@ -63,4 +70,3 @@ The $C^\ast$-[[representation category]] of a weak [[Hopf C-star-algebra]] (see 
 
 [[!redirects C-star category]]
 [[!redirects C-star categories]]
-
