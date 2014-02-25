@@ -47,5 +47,8 @@ Discussion in the context of [[differential algebraic K-theory]] is in
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
  {#BunkeGepner13}
 
+See also
+
+* [[Rune Haugseng]], _The Becker-Gottlieb Transfer Is Functorial_ ([arXiv:1310.6321](http://arxiv.org/abs/1310.6321))
 
 [[!redirects transfer index conjecture]]
