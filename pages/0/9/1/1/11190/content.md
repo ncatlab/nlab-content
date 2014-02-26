@@ -4,6 +4,10 @@ Third or tertiary radical of a (possibly noncommutative) unital ring has been st
 * L. Lesieur, R. Croisot, _Sur les anneaux premiers noeth&#233;riens &#224; gauche_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 3, 76 no. 3 (1959), p. 161-183, [numdam](http://www.numdam.org/numdam-bin/item?id=ASENS_1959_3_76_3_161_0);  _Alg&#232;bre n&#339;th&#233;rienne non commutative_, M&#233;morial des sciences math&#233;matiques, 154 (1963), p. 1-119 [numdam](http://www.numdam.org/numdam-bin/item?id=MSM_1963__154__1_0)
 
 where the tertiary decomposition theory has been introduced.
+
+See also
+
+* Gerhard Michler, _Goldman's primary decomposition and the tertiary decomposition_, J. Algebra __16__, 1970 129&#8211;137 [MR268218](http://www.ams.org/mathscinet-getitem?mr=268218) <a href="http://dx.doi.org/10.1016/0021-8693(70)90045-1">doi</a>
 A generalization of tertiary decomposition theory to a class of [[Grothendieck categories]] is in 
 
 * Nicolae Popescu, _An introduction to Abelian categories with applications to rings and modules_, Acad. Press 1973
