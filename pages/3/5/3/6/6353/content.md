@@ -40,4 +40,10 @@ Further developments are in
 
 * [[Chris Hull]], _Global Aspects of T-Duality, Gauged Sigma Models and T-Folds_ ([arXiv:hep-th/0604178](http://arxiv.org/abs/hep-th/0604178))
 
+A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] described in the nLab entry _[[T-Duality and Differential K-Theory]]_ is given in 
+
+* [[Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
+
+
+
 [[!redirects T-folds]]
