@@ -557,6 +557,8 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 * [[Grothendieck-Riemann-Roch theorem]]
 
+* [[transfer context]], [[sheaf with transfer]], [[Becker-Gottlieb transfer]]
+
 * [[geometric quantization by push-forward]]
 
 * [[twisted Umkehr map]]
