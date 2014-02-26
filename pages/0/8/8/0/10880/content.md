@@ -466,8 +466,12 @@ This takes values in Wirthm&#252;ller morphisms. ([Shulman 12, example 2.2, 2.17
 
 ### Bundles of $\infty$-modules
 
-for [[(infinity,1)-module bundles]]: ([[schreiber:master thesis Nuiten|Nuiten 13]], [Hopkins-Lurie](#HopkinsLurie))
+for [[(infinity,1)-module bundles]]: ([[schreiber:master thesis Nuiten|Nuiten 13]], [Hopkins-Lurie](#HopkinsLurie), [[schreiber:type-semantics for quantization|Schreiber 14]])
  
+### Becker-Gottlieb transfer
+
+A _[[transfer context]]_ is a Wirthm&#252;ller context in which also $f_\ast$ satisfies its [[projection formula]]. In this context there is an abstract concept of _[[Becker-Gottlieb transfer]]_. See there for more.
+
 ### In equivariant stable  homotopy theory
 
 In [[equivariant stable homotopy theory]], see ([May 05b](#May05b)).
