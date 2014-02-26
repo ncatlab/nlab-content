@@ -20,9 +20,9 @@
 
 ## Idea
 
-A _T-fold_ is a [[space]] that locally looks like a [[Riemannian manifold]] but is glued together from these not just by [[diffeomorphism]]s but also by [[T-duality]] transformations.
+A _T-fold_ is a [[space]] that locally looks like a [[Riemannian manifold]] equipped with a [[B-field]], but is glued together from these not just by [[diffeomorphisms]] but also by [[T-duality]] transformations.
 
-The idea is that A T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]]. In the literature sometimes the term _non-geometric backgrounds_ is used for such "generalized geometric" backgrounds.
+The idea is thataA T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]]. In the literature sometimes the term _non-geometric backgrounds_ is used for such "generalized geometric" backgrounds.
 
 ## Related concepts
 
