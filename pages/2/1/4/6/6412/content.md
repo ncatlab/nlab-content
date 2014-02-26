@@ -32,7 +32,7 @@ Regarding that the rings in the system are finite, it is clear that the underlyi
 The kernel of the projection $pr_n: \mathbf{Z}_p\to\mathbf{Z}/p^n\mathbf{Z}$, $x\mapsto x_n$ to the $n$-th component (which is the corresponding projection of the limiting cone) is $p^n\mathbf{Z}_p\subset\mathbf{Z}_p$, i.e. the sequence
 
 $$
-0 \longrightarrow \mathbf{Z}_p\stackrel{p^n}\longrightarrow \mathbf{Z}_p\longrightarrow p^n\mathbf{Z} \longrightarrow 0
+0 \longrightarrow \mathbf{Z}_p\stackrel{p^n}\longrightarrow \mathbf{Z}_p\longrightarrow \mathbf{Z}/p^n\mathbf{Z} \longrightarrow 0
 $$
 
 is an [[exact sequence]] of [[abelian groups]], hence also $\mathbf{Z}_p/p^n\mathbf{Z}_p\cong \mathbf{Z}/p^n\mathbf{Z}$.
