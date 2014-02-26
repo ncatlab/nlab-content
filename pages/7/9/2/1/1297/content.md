@@ -1,6 +1,6 @@
 Given a [[ring]] $R$, for any left [[ideal]] $I\subset R$ and a set $S\subset R$ define 
 $$ (I : S) = \{ r \in R \,|\, r S \subset I \}. $$
-This is clearly a left ideal again. The special case $(I:R)$ is a two-sided ideal, namely the maximal ideal of $R$ contained in $I$. If $r\in R$ then we write $(I:r):=(I:\{r\})$.
+This is clearly a left ideal again. The special case $(I:R)$ is a two-sided ideal, namely the maximal ideal of $R$ contained in $I$. If $r\in R$ then we write $(I:r) := (I:\{r\})$.
 
 A [[filter]] $F$ in the [[lattice]] of left ideals of a ring $R$ is a __uniform filter__ if $I\in F$ implies $(I:r)\in F$ for any $r\in R$.  Equivalently, the [[Gabriel composition of filters]] satisfies $F\subset F\bullet \{R\}$.
 The Gabriel composition of uniform filters is a uniform filter.
