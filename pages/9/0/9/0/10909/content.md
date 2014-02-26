@@ -35,7 +35,7 @@ respectively. If these morphisms are [[equivalences]] then one often calls them 
 
 ## Examples
 
-Examples include the [[six operations]] setup in [[Grothendieck context]] and [[Wirthmüller context]], respectively. In particular in [[representation theory]] and in [[formal logic]] reciprocity is also called _[[Frobenius reciprocity]]_, see there for more.
+Examples include the [[six operations]] setup in [[Grothendieck context]] and [[Wirthmüller context]], respectively (in a [[transfer context]] both pushforward maps satisfy their projection formula). In particular in [[representation theory]] and in [[formal logic]] reciprocity is also called _[[Frobenius reciprocity]]_, see there for more.
 
 For more examples see also at MO _[Where do all the projection formulas come from?](http://mathoverflow.net/q/67228/381)_
 
