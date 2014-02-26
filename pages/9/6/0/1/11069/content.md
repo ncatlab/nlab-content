@@ -52,7 +52,7 @@ for all $X \in \Sm_S$.
 
 ## Related concepts
 
-* [[Becker-Gottlieb transfer]]
+* [[Becker-Gottlieb transfer]], [[transfer context]]
 
 ## References
 
