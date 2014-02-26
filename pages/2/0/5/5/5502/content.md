@@ -84,9 +84,11 @@ Morover one imposes a formalization of [[Verdier duality]] with [[dualizing obje
 
 Often specializations of the general concept play a role:
 
-* [[Wirthmüller context]]: $f^! \simeq f^\ast$ and $f^\ast$ is a strong [[closed monoidal functor]]
+* [[Wirthmüller context]]: $f^! \simeq f^\ast$ and $f^\ast$ is a strong [[closed monoidal functor]] (hence the [[projection formula]] for $f_!$ holds);
 
-* [[Verdier-Grothendieck context]]: the "projection formula" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$
+  * [[transfer context]]: in addition the [[projection formula]] for $f_\ast$ holds;
+
+* [[Verdier-Grothendieck context]]: the "projection formula" $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$ holds naturally in $X,Y$:
 
 * [[Grothendieck context]]: $f_! \simeq f_\ast$ and the projection formula holds $Y \otimes f_! X \simeq f_!(f^\ast Y \otimes X)$.
 
