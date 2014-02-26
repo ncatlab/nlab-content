@@ -181,6 +181,21 @@ $$
   \,.
 $$
 
+In particular the [[looping and delooping|looping]] $TString$ of the [[homotopy fiber]]
+
+$$
+  \array{
+    \mathbf{B}TString &\stackrel{}{\to}& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{B}\mathbb{R}^n/\Lambda \times \mathbf{B} \mathbb{R}^n/\hat \Lambda)
+    &\stackrel{\langle - \cup -\rangle}{\to}&
+    \mathbf{B}^3 U(1))_{conn}
+  }
+$$
+
+has the right to be called the [[T-duality 2-group]] or similar. The [[principal 2-bundles]] for this are [[T-folds]] (see there).
 
 =--
 
