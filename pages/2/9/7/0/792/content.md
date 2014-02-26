@@ -17,26 +17,13 @@
 
 Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples roughly consisting of
 
-* a [[smooth manifold]] $X$
-  : with the structure of a torus-[[principal bundle]] $T^n \to X \to X/T^n$
-  -
-  modelling [[spacetime]]
+* a [[smooth manifold]] $X$ with the structure of a torus-[[principal bundle]] $T^n \to X \to X/T^n$ -- modelling [[spacetime]]
 
-* equipped with a
-  : [[circle n-bundle with connection|circle 2-bundle with connection]]
-  -
-  modelling the [[Kalb-Ramond field]]
+* equipped with a [[circle n-bundle with connection|circle 2-bundle with connection]] -- modelling the [[Kalb-Ramond field]]
 
-* and in [[twisted K-theory]]
-  : refined to elements in [[differential K-theory|differential twisted K-theory]]
-  -
-  modelling the [[RR-field]]
+* and in [[twisted K-theory]] refined to elements in [[differential K-theory|differential twisted K-theory]] -- modelling the [[RR-field]]
   
-
-* and notably equipped with
-  : a (pseudo)[[Riemannian metric]]
-  -
-  modelling the field of [[gravity]].
+* and notably equipped with a (pseudo)[[Riemannian metric]] -- modelling the field of [[gravity]].
 
 The idea of **topological T-duality** is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
 
@@ -77,6 +64,8 @@ of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org
   * **topological T-duality**
 
   * [[differential T-duality]]
+
+  * [[T-duality 2-group]]
 
 ## References
 
