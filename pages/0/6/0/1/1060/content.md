@@ -22,7 +22,7 @@
 
 A _$*$-autonomous category_  is a [[symmetric monoidal
 category|symmetric]] [[closed monoidal category]] $\langle
-C,\otimes, I\rangle$ with a _[[dualizing object]]_: an object
+C,\otimes, I\rangle$ with a _[[dualizing object in a closed category]]_: an object
 $\bot$ such that the canonical morphism
 $$ d_A: A \to (A \multimap \bot) \multimap \bot ,$$
 which is the transpose of the [[evaluation map]]
