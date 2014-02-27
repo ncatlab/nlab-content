@@ -359,6 +359,8 @@ This section is at
 
     * [[smooth 2-group]]
 
+    * [[smooth spectrum]]
+
   * [[synthetic differential ∞-groupoid]]
 
   * [[super ∞-groupoid]]
