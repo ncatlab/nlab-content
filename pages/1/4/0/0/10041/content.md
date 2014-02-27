@@ -30,7 +30,7 @@ In general abstract formulation one says that a locally compact [[site]] $X$ (e.
 
 
 
-If these adjoints exist, then one has the _[[dualizing object]]_ ([[dualizing module]]) $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra right adjoint of the [[unit object]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object in a closed category]] 
+If these adjoints exist, then one has the _[[dualizing object in a closed category]]_ ([[dualizing module]]) $\omega \coloneqq \mathbb{L}p^! k$ (the image under the extra right adjoint of the [[unit object]]) and for every [[abelian sheaf]] $V$ on $X$ can define the [[dual object in a closed category]] 
 
 $$
   \mathbb{D}V \coloneqq [V,\omega]
