@@ -24,6 +24,7 @@
 The [[tangent (∞,1)-category]] $T\mathbf{H}$
 to a [[cohesive (∞,1)-topos]] is itself cohesive: the 
 _tangent cohesive (∞,1)-topos_.
+
 This $T \mathbf{H}$ is the $\infty$-topos of [[parameterized spectra]] in $\mathbf{H}$, hence is the context for cohesive [[stable homotopy theory]].
 
 
@@ -505,7 +506,7 @@ The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiag
 ###### Remark
 
 This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]], see for instance ([Bunke 12, prop. 4.57](http://arxiv.org/abs/1208.3961)). Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
-"[[schreiber:differential cohomology in a cohesive topos]]" .
+"[[schreiber:differential cohomology in a cohesive topos]]" . For more on this see also at _[[smooth spectrum]]_.
 
 =--
 
@@ -514,6 +515,8 @@ This kind of diagram under forming $\pi_0$ has been traditionally known from [[o
 ## Related concepts
 
 * [[sheaf of spectra]]
+
+* [[smooth spectrum]]
 
 * [[twisted generalized cohomology]]
 
@@ -580,3 +583,8 @@ $\,$
 [[!redirects tangent cohesion]]
 
 [[!redirects stable cohesion]]
+
+[[!redirects tangent cohesive ∞-topos]]
+[[!redirects tangent cohesive ∞-toposes]]
+[[!redirects tangent cohesive infinity-topos]]
+[[!redirects tangent cohesive infinity-toposes]]
