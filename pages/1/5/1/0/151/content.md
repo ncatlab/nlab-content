@@ -36,6 +36,9 @@ From the point of view of [[category theory]], there are two fundamental kinds o
 
 ## Examples
 * [[opposite category]]
+
+* [[dual object]], [[dualizing object]], [[dualizing object in a closed category]]
+
 * [[dual space]], [[dual vector space]]
 * the duality between [[space and quantity]]
 * [[Poincaré duality]] for finite dimensional (oriented) closed manifolds
