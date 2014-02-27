@@ -59,7 +59,7 @@ The category $Hilb$ of Hilbert spaces and bounded linear maps is a $C^*$-categor
 
 ## Representation Theory
 
-$C^*$-algebras can be represented as algebras of bounded linear operators on some choice of Hilbert space, using the [[Gelfand-Naimark-Segal construction|G.N.S. construction]]. $C^*$-categories have an analogue of the G.N.S. construction that allows them to represented on the category $Hilb$ of Hilbert spaces and bounded linear maps. 
+$C^*$-algebras can be represented as algebras of bounded linear operators on some choice of Hilbert space, using the [[Gelfand-Naimark-Segal construction|G.N.S. construction]]. $C^*$-categories have an analogue of the G.N.S. construction that allows them to represented on the category $Hilb$ of [[Hilbert space|Hilbert spaces]] and bounded linear maps. 
 
 +-- {: .num_theorem}
 ###### Theorem
