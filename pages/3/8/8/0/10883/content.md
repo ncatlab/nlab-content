@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[dualizing object]] in a context of [[Verdier duality]]/[[six operations]].
+A [[dualizing object in a closed category]] in a context of [[Verdier duality]]/[[six operations]].
 
 ## References
 
