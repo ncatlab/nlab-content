@@ -161,6 +161,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[sheaf of spectra]], [[parametrized spectrum]]
 
+  * [[smooth spectrum]]
+
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
 * [[zero spectrum]]
