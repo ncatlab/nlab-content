@@ -1,4 +1,6 @@
 
+> This entry is about a concept of duality in general [[category theory]]. For the concept of dualizing objects in a [[closed category]] as used in [[homological algebra]] and [[stable homotopy theory]] see at _[[dualizing object in a closed category]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,7 +19,7 @@
 
 ## Idea
 
-A _dualizing object_ is an object $a$ which can be regarded as being an object of two different categories $A$ and $B$, such that the concrete [[duality]] which is induced by homming into that object induces duality adjunctions between $A$ and $B$, schematically:
+A _dualizing object_ is an object $a$ which can be regarded as being an object of two different [[categories]] $A$ and $B$, such that the concrete [[duality]] which is induced by homming into that object induces duality [[adjunctions]] between $A$ and $B$, schematically:
 
 $$
   T : A^{op} \stackrel{Hom_A(-,a)}{\to} B
