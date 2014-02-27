@@ -44,7 +44,7 @@ Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \d
 In the [[stable (infinity,1)-category of spectra]], the [[sphere spectrum]] (which induces [[Spanier-Whitehead duality]] on spectra which are [[dualizable objects]] with respect to the [[smash product of spectra]]) is not a dualizing object, but the [[Anderson spectrum]] $I_{\mathbb{Z}}$ is ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] operation 
 $[-,I_{\mathbb{Z}}]$ that it induces in [[Anderson duality]].
 
-For instance the Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]] is Anderson self-dual ([Stojanoska 12](#Stojanoska12))
+For instance the Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska 12](#Stojanoska12))
 
 ## Related concepts
 
