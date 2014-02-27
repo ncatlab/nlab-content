@@ -195,7 +195,11 @@ See at _[monad -- Relation to adjunctions](monad#RelationToAdjunctionsAndMonadic
 
 * [[left adjoint]], [[right adjoint]]
 
+* [[duality]]
+
 * [[adjunct]]
+
+* [[dual adjunction]], [[Galois connection]]
 
 * [[monoidal adjunction]]
 
