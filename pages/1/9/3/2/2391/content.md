@@ -279,18 +279,18 @@ where the extra [[right adjoint]] is given by precomposition with the domain eva
 
 ### Q-category of cones
 
-Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D\to D'$ is a diagram (= functor), and $\bar{f}:d\to d' \circ\rho$ is a morphism of diagrams (= natural transformation) such that 
+Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D' \to D$ is a diagram (= functor), and $\bar{f}:d \circ\rho \to d'$ is a morphism of diagrams (= natural transformation) such that 
 $$\array{
 x & \stackrel{f}\to & x'\\
-\alpha\downarrow && \downarrow\alpha' \star\rho\\
-d &\stackrel{\bar{f}}\to & d' \circ \rho
+\alpha \star\rho \downarrow && \downarrow\alpha'\\
+d \circ \rho&\stackrel{\bar{f}}\to & d' 
 }$$
-commutes and $\alpha'\star \rho$ denotes the horizontal composition (= [[Godement product]]) of natural transformations. 
+commutes and $\alpha \star \rho$ denotes the horizontal composition (= [[Godement product]]) of natural transformations. 
 
 Then one defines composition of morphisms by the formula
 $$
 (f_1, \rho_1,\bar{f_1})\circ(f_2, \rho_2,\bar{f_2})
-\stackrel{def}{=}(f_1\circ f_2, \rho_1\circ\rho_2, (\bar{f_1} \star \rho_2)\circ\bar{f_2}).
+\stackrel{def}{=}(f_1\circ f_2, \rho_2\circ\rho_1, \bar{f_1} \circ (\bar{f_2} \star \rho_1)).
 $$
 
 There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the trivial cone $id_x :x\to x$ and to any morphism the corresponding morphism of trivial cones. Its right adjoint is the morphism $I_C:LC\to C$ defined by sending the cone $\alpha: x\to d$ over a diagram $d:D\to C$ its vertex $x$ and to a cone morphism $(f,\rho,\bar{f})$, the morphism of vertices $f$. Then $I_C\circ Q_C = Id_C$. The identity transformation can be thus taken as the unit of the adjunction. The counit of the adjunction $\epsilon: Q_C\circ I_C \to Id_{LC}$ is constructed as follows: to a cone $\alpha:x\to d$ assign the morphism $(1_x, const, \alpha)$ where $const: D\to C$ is the constant diagram which is the unique diagram from $D = dom(d)$ to the final category $1=\{\star\}$. One can check that these data indeed define an adjoint pair $Q_C\dashv I_C$ of functors. 
