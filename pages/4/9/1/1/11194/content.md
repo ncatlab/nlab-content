@@ -24,7 +24,7 @@
 
 A _dualizing object_ $D$ in a [[closed category]] $\mathcal{D}$ is an [[object]] such that the [[internal hom]] $[-,D] \colon \mathcal{C} \to \mathcal{C}^{op}$ into it serves as an [[involution|involutive]] [[duality]] operation on $\mathcal{C}$ in that applying it twice yields an [[equivalence of categories]] $[[-,D],D] \colon \mathcal{C} \to \mathcal{C}$.
 
-Typically one assumes $\mathcal{C}$ to be a [[closed monoidal category]] and requires that the [[adjunct]] of the [[evaluation map]] provides a [[natural equivalence]] 
+Typically one assumes $\mathcal{C}$ to be a [[closed monoidal category]] and requires that the [[adjunct]] of the [[evaluation map]] (the [[unit of a monad|unit]] of the [[continuation monad]] of $D$) provides a [[natural equivalence]] 
 
 $$
   id_{\mathcal{C}} \stackrel{\simeq}{\longrightarrow} [[-,D],D]
