@@ -87,7 +87,7 @@ For $(L,R)$ a factorization system in an [[(∞,1)-category]] $\mathcal{C}$, the
 
 =--
 
-This is ([Lurie, prop. 5.2.6.8 (7), (8)](#Lurie)).
+This is ([Lurie, prop. 5.2.8.6 (7), (8)](#Lurie)).
 
 ### Reflection
 
