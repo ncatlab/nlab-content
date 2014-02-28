@@ -22,7 +22,7 @@
 
 ## Idea
 
-In [[quantum mechanics]] a [[self-adjoint operator]] $A$ on the given [[Hilbert space]] such that its [[spectrum of an operator|spectrum]] lies between 0 and 1 is sometimes called an _effect_ or _quantum effect_ (see e.g. ([Ludwig](#Ludwig), ([Kraus](#Kraus))). These operators generalize [[projection operators]] and may be thought of as [[quantum observables]] with "unsharp" or "fuzzy" value. 
+In [[quantum mechanics]] a [[self-adjoint operator]] $A$ on the given [[Hilbert space]] such that its [[spectrum of an operator|spectrum]] lies between 0 and 1 (hence a [[positive operator]] which is $\leq 1$) is sometimes called an _effect_ or _quantum effect_ (see e.g. ([Ludwig](#Ludwig), [Kraus](#Kraus))). These operators generalize [[projection operators]] and may be thought of as [[quantum observables]] with "unsharp" or "fuzzy" value. 
 
 The notion of _effect algebra_ (due to ([Foulis-Bennet 94](#FoulisBennet))) is an abstraction of the structure exhibited by the collection of such effect operators. 
 
@@ -85,6 +85,10 @@ And now comes the eponymous feature: The category $Hilb$ is a [[dagger category]
 
 (5) In a C$^\ast$-algebra the elements between 0 and 1 form an effect algebra with $(1-a)$ as the complement of $a$.
 
+## Related concepts
+
+* [[density matrix]]
+
 ## Reference
 
 Quantum effect operators are discussed for instance in 
@@ -118,3 +122,10 @@ A survey of the use of effect algebras in [[quantum mechanics]] is in
   also appeared as:
 
   _The Mathematical Language of Quantum Theory_, Cambridge University Press (2011)
+
+[[!redirects effect]]
+[[!redirects effects]]
+
+[[!redirects quantum effect]]
+[[!redirects quantum effects]]
+
