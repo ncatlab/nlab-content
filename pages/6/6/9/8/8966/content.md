@@ -3,6 +3,10 @@
 
 * [[realizability topos]]
 
+* [[realizability]]
+
 ## References
 
 * [[Steven Awodey]], [[Andrej Bauer]], _Sheaf toposes for realizability_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stfr.pdf))
+
+[[!redirects realizabilitxy models]]
