@@ -22,12 +22,12 @@
 Originally, the _Ginzburg-Laundau model_ is a [[model (physics)|model]] in [[solid state physics]] for [[superconductivity]].
 
 Roughly this type of model has then been used as models for 2d [[quantum field theory]] in [[string theory]].
-There, a _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension|dimensional]] [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a potential term: given a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]] $(X,g)$, the [[action functional]] of the LG-model is schematically of the form
+There, a _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension|dimensional]] [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a [[potential]] term: given a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]] $(X,g)$, the [[action functional]] of the LG-model is schematically of the form
 
 $$
   S_{LB} : (\phi : \Sigma \to X) \mapsto
   \int_\Sigma \left( \vert \nabla \Phi \vert^2 + \vert (\nabla W)(\phi) \vert^2 
-  + fermionic terms \right) d \mu
+  + fermionic\;terms \right) d \mu
   \,,
 $$
 
@@ -40,11 +40,15 @@ If the [[target space]] $X$ is a [[Fano variety]], the usual [[B-model]] does no
 
 As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi)), the B-branes in the LG-model (at least in a certain class of cases) are not given by [[chain complexes]] of [[coherent sheaves]] as in the [[B-model]], but by _[[twisted complexes]]_ : for these the square of the [[differential]] is in general non-vanishing and identified with the _superpotential_ of the LG-model. 
 
+
 (...)
 
 ## Properties
 
 ### The $\infty$-categories of branes
+
+
+A [[brane]] for a LG model is given by a [[matrix factorization]] of its superpotential.
 
 
 (...) [[curved dg-algebra]]
@@ -98,6 +102,10 @@ The [[derived category]] of [[D-brane]]s in type B LG-models is discussed in
 
 * Andrei Caldararu, Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
  {#CaldararuTu}
+
+A formulation in terms of [[linear logic]] and the [[geometry of interaction]] is in 
+
+* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
 
 ### TCFT formulation
 
