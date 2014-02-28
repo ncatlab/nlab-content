@@ -1,3 +1,5 @@
+
+
 # Matrix factorizations
 * table of contents
 {: toc}
@@ -38,6 +40,12 @@ Inc., Boston, MA, 2009.
 
 * J. Burke, M. E. Walker, _Matrix factorizations over projective schemes_, [arxiv/1110.2918](http://arxiv.org/abs/1110.2918)
 * Matthew Ballard, David Favero, [[Ludmil Katzarkov]], _A category of kernels for graded matrix factorizations and its implications for Hodge theory_, [arxiv/1105.3177](http://arxiv.org/abs/1105.3177)
+
+A formulation in terms of [[linear logic]] and the [[geometry of interactions]] is in
+
+* {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
+
+
 [[!redirects matrix factorization]]
 [[!redirects matrix factorizations]]
 [[!redirects matrix factorisation]]
