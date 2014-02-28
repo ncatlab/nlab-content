@@ -31,6 +31,8 @@ These are both orthocomplemented:
 
 * Wikipedia, _[Complemented lattice](http://en.wikipedia.org/wiki/Complemented_lattice)_
 
+* P. Pt&#225;k and S. Pulmannov&#225;, _Orthomodular structures as quantum logics_, ser. Fundamental theories of physics. Kluwer Academic Publishers,
+1991.
 
 [[!redirects orthocomplemented lattice]]
 [[!redirects orthocomplemented lattices]]
