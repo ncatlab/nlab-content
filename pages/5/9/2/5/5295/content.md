@@ -64,7 +64,10 @@ Although intuitionstic mathematics does not accept all [[function sets]] (much l
 ## Related concepts
 
 * [[constructive mathematics]]
+
 * [[intuitionistic type theory]]
+
+* [[realizability]]
 
 
 [[!redirects intuitionistic mathematics]]
