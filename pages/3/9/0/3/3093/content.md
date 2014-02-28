@@ -45,6 +45,12 @@ Given a [[locale]] $L$, which can also be thought of as a [[frame]], a [[subloca
 
 For Grothendieck topologies, one instead of a subspace has a concept of a [[subsite]]. 
 
+## Related concepts
+
+* [[subobject]]
+
+* [[linear subspace]]
+
 
 [[!redirects subspace]]
 [[!redirects subspaces]]
