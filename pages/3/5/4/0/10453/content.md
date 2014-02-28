@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
 # Contents
 * table of contents
 {: toc}
@@ -29,6 +38,10 @@ Here, 'positive' means positive semidefinite; see at [[inner product]] for the f
 * [[self-adjoint operator]]
 
 * [[state on an operator algebra]]
+
+* [[density matrix]]
+
+* [[quantum effect]]
 
 * [[quantum operation]]
 
