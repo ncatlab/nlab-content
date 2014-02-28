@@ -68,6 +68,15 @@ Note that a density operator, as the representation of the state of a quantum sy
 
 More controversially, two entirely different probabilisitic combinations of state vectors can give rise to the same density operator. [[Roger Penrose]], for one, has argued that this means that that the density operator does not describe mixed states unambiguously. But one can also argue the reverse: that mixed states with the same operator really are the same physical state, since they are observationally indistinguishable.
 
+## Related concepts
+
+* [[quantum state]]
+
+* [[quantum operation]]
+
+* [[quantum computation]]
+
+* [[quantum effect]]
 
 ## References
 
