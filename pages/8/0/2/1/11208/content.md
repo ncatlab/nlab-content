@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The idea of _realizability_ is essentially that of [[constructivism]], [[intuitionistic mathematics]] and the [[propositions as types]] paradigm: for instance constructively a [[proof]] of an [[existential quantification]] $\underset{x\in X}{\exists} \phi(x)$ consists of constructing a specific $x \in X$ and a proof of $\phi(x)$, which "realizes" the truth of the statement, whence the name ([e.g. Vermeeren 09, section 1](#Vermeeren09)).
+The idea of _realizability_ is essentially that of [[constructivism]], [[intuitionistic mathematics]] and the [[propositions as types]] paradigm: for instance constructively a [[proof]] of an [[existential quantification]] $\underset{x\in X}{\exists} \phi(x)$ consists of constructing a specific $x \in X$ and a proof of $\phi(x)$, which "realizes" the truth of the statement, whence the name (e.g. [Streicher 07, section 1](#Streicher07), [Vermeeren 09, section 1](#Vermeeren09)).
 
 
 ## Related entries
@@ -18,7 +29,9 @@ The idea of _realizability_ is essentially that of [[constructivism]], [[intuiti
 
 * [[effective topos]]
 
-* [[Kleene's first algebra]]
+* [[Kleene's first algebra]], [[Kleene's second algebra]]
+
+* [[function realizability]]
 
 * [[computable analysis]]
 
@@ -38,6 +51,12 @@ A modern textbook account is
 
 * {#vanOosten08} [[Jaap van Oosten]], _Realizability: an introduction to its categorical side_, Studies in Logic and the Foundations of Mathematics, vol. 152, Elsevier, 2008
 
+Lecture notes include
+
+* {#Streicher07} [[Thomas Streicher]], _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
+
+
 See also
+
 
 * [[Steven Awodey]], [[Andrej Bauer]], _Sheaf toposes for realizability_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stfr.pdf))
