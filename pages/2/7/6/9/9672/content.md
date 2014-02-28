@@ -36,9 +36,9 @@ Logical relationn have maybe been introduced in
 * J. C. Reynolds, _Types, Abstraction and Parametric Polymorphism_ Information Processing 83(1) (1983), pp. 513-523.
   {#Reynolds83}
 
-A quick review is for instance in
+A quickreview is for instance in
 
-* {#Hermida13} [[Claudio Hermida]], Uday Reddy, E. Robinson, _Logical Relations and Parametricity - A Reynolds Programme for Category Theory and Programming Languages_, Electronic Notes in Theoretical Computer Science (2013) ([pdf](http://www.cs.bham.ac.uk/~udr/papers/logical-relations-and-parametricity.pdf))
+* {#Hermida13} [[Claudio Hermida]], Uday Reddy, E. Robinson, section 2 of _Logical Relations and Parametricity - A Reynolds Programme for Category Theory and Programming Languages_, Electronic Notes in Theoretical Computer Science (2013) ([pdf](http://www.cs.bham.ac.uk/~udr/papers/logical-relations-and-parametricity.pdf))
 
 See also 
 
