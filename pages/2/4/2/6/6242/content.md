@@ -166,6 +166,9 @@ General introductions ans surveys include
 
 * I. Pitowsky, _Quantum probability &#8212; quantum logic_, Springer Lecture Notes in Physics __321__
 
+* P. Pt&#225;k and S. Pulmannov&#225;, _Orthomodular structures as quantum logics_, ser. Fundamental theories of physics. Kluwer Academic Publishers,
+1991.
+
 The original article on quantum logic is
 
 * [[Garrett Birkhoff]], [[John von Neumann]], _The logic of quantum mechanics_, Annals of Mathematics, 37: 823-843 (1936)
