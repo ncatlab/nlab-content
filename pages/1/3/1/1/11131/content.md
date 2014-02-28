@@ -5,7 +5,7 @@
 
 ## Idea
 
-Constructive analysis is the incarnation of [[analysis]] in [[constructive mathematics]]. 
+Constructive analysis is the incarnation of [[analysis]] in [[constructive mathematics]]. Also known as _[[computable analysis]]_ (see there for more).
 
 In applications in [[computer science]] one uses for instance the _[[completion monad]]_ for _exact_ computations with [[real numbers]] (as opposed to floating point arithmetic). Therefore one also sometimes speaks of _exact analysis_.
 
@@ -16,7 +16,16 @@ The formulation of [[analysis]] in [[constructive mathematics]] was maybe initit
 * [[Errett Bishop]], _Foundations of constructive analysis._ McGraw-Hill, (1967)
  {#Bishop}
 
-together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] via the [[completion monad]] are discussed in 
+together with the basic notion of [[Bishop set]]/[[setoid]]. 
+
+A survey is in
+
+* Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Widijk]], _Constructive analysis, types and exact real numbers_, Science
+Mathematical Structures in Computer Science / Volume 17 / Issue 01 / February 2007, pp 3-36 ([publisher](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=851596))
+
+
+
+Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] via the [[completion monad]] are discussed in 
 
 * R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129{159, 2007.
 
