@@ -7,6 +7,10 @@
 
 [[computability]] in [[analysis]], [[constructive analysis]]
 
+## Related concepts
+
+* [[function realizability]]
+
 ## References
 
 A standard textbook is 
