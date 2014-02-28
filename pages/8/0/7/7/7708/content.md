@@ -33,7 +33,7 @@ $$Mod_T \to Struct_{L(T)} \to Set$$
 
 is again faithful. 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remarks 
 Thus, the English word "structure" is used in several slightly differing mathematical senses. 
 
@@ -53,8 +53,9 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 ## Related entries
 
-Evident as the notion of _mathematical structure_ may seem these days, it was at least not made explicit until the middle of the 20th century. Then it was the influence of the _[[Bourbaki]]_-project (see there for more) and then later the development of [[category theory]] which made the notion explicit and finally led to the above formalization.
+* Evident as the notion of _mathematical structure_ may seem these days, it was at least not made explicit until the middle of the 20th century. Then it was the influence of the _[[Bourbaki]]_-project (see there for more) and then later the development of [[category theory]] which made the notion explicit and finally led to the above formalization.
 
+* [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called _[[logical relations]]_
 
 [[!redirects structure]]
 [[!redirects structures]]
