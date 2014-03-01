@@ -65,3 +65,6 @@ See also
 
 
 * [[Steven Awodey]], [[Andrej Bauer]], _Sheaf toposes for realizability_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stfr.pdf))
+
+* Wouter Pieter Stekelenburg, _Realizability Categories_, PhD thesis, Utrecht 2013 ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
+
