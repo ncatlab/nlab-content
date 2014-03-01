@@ -254,3 +254,7 @@ The relation to [[realizability]] and [[computability]] is discussed in
 
 [[!redirects constructivist]]
 [[!redirects constructivism]]
+
+[[!redirects construction]]
+[[!redirects constructions]]
+
