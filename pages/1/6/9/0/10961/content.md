@@ -92,6 +92,8 @@ and continues:
 
 * [[coordination]]
 
+* [[computable quantum physics]]
+
 ## References
 
 ### Historical arguments
