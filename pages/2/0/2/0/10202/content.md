@@ -295,9 +295,13 @@ Then $f(m) \leq 2m + 1$ and the graph of $f$ is primitive recursive, so by Theor
 
 ## References 
 
-Quite a bit of the arrangement and proofs were taken from clear and useful lecture notes of Stephen Simpson, 
+A standard textbook in recursive functions is
 
-* Stephen G. Simpson, Foundations of Mathematics (Lecture Notes), October 1, 2009. ([pdf](http://www.math.psu.edu/simpson/notes/fom.pdf)) 
+* Hartley Rogers, Jr., _Theory of recursive functions and effective computability_, McGraw-Hill, 1967.
+
+Quite a bit of the arrangement and proofs above were taken from clear and useful lecture notes of Stephen Simpson, 
+
+* Stephen G. Simpson, _Foundations of Mathematics_ (Lecture Notes), October 1, 2009. ([pdf](http://www.math.psu.edu/simpson/notes/fom.pdf)) 
 
 Of course, there is always good old Wikipedia: 
 
