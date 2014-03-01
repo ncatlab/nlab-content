@@ -6,9 +6,9 @@
 
 A [[proposition]] is decidable if we know whether it is [[true]] or [[false]].  This has (at least) two interpretations, which we will call 'internal' and 'external' (however, these adjectives are rarely used and must be guessed from the context). 
 
-* [External decidability](#ExternalDecidability): either $p$ or $\not p$ may be [[deduction|deduced]] in the [[metalanguage]];
+* [External decidability](#ExternalDecidability): either $p$ or $\not p$ may be [[deduction|deduced]] in the theory.  This is a statement in the [[metalanguage]].
 
-* [Internal decidability](#InternalDecidability): $p \vee \not p$ may be deduced, hence "$p$ or not $p$" holds in the [[object language]].
+* [Internal decidability](#InternalDecidability): $p \vee \not p$ may be deduced in the theory; in other words "$p$ or not $p$" holds in the [[object language]].
 
 ### Externally decidable propositions in logic
  {#ExternalDecidability}
