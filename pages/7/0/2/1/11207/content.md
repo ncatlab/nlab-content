@@ -25,11 +25,7 @@
 
 ## Related concepts
 
-* [[Type Two Theory of Effectivity]]
-
-* [[computable function (analysis)]]
-
-* [[function realizability]]
+[[!include computable mathematics -- table]]
 
 ## References
 
