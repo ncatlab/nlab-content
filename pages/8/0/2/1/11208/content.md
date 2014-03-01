@@ -19,7 +19,7 @@
 
 ## Idea
 
-The idea of _realizability_ is essentially that of [[constructivism]], [[intuitionistic mathematics]] and the [[propositions as types]] paradigm: for instance constructively a [[proof]] of an [[existential quantification]] $\underset{x\in X}{\exists} \phi(x)$ consists of constructing a specific $x \in X$ and a proof of $\phi(x)$, which "realizes" the truth of the statement, whence the name (e.g. [Streicher 07, section 1](#Streicher07), [Vermeeren 09, section 1](#Vermeeren09)).
+The idea of _realizability_ is essentially that of [[constructivism]], [[intuitionistic mathematics]] and the [[propositions as types]] paradigm: for instance constructively a [[proof]] of an [[existential quantification]] $\underset{x\in X}{\exists} \phi(x)$ consists of constructing a specific $x \in X$ and a proof of $\phi(x)$, which "realizes" the truth of the statement, whence the name (see e.g. [Streicher 07, section 1](#Streicher07), [Vermeeren 09, section 1](#Vermeeren09) for introductions to the rough idea, or ([Bauer 05, page 12 and def. 4.7](#Bauer05)) for an actual definition).
 
 
 ## Related entries
