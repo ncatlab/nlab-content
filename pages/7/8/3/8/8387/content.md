@@ -27,7 +27,7 @@
 
 ## Idea
 
-A [[program]]. A construction of a [[term]] of some [[type]].
+A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[computability theory]].
 
 ## Related concepts
 
@@ -45,6 +45,8 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 * [[quantum computation]]
 
+[[!include computable mathematics -- table]]
+
 ## References
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
@@ -53,6 +55,4 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 [[!redirects computing]]
 
-[[!redirects computability theory]]
-[[!redirects computability theories]]
 
