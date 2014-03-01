@@ -1,0 +1,9 @@
+
+## Related concepts
+
+* [[computability theory]]
+
+## References
+
+* Wikipedia, _[Computational complexity theory](http://en.wikipedia.org/wiki/Computational_complexity_theory)_
+
