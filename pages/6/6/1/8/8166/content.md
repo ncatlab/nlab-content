@@ -54,6 +54,8 @@ It is generally understood that models are approximations to reality. The prover
 
 * [[theory (physics)]], [[experiment]], [[coordination]]
 
+* [[computable physics]]
+
 * [[mathematical physics]]
 
 * [[naturalness]]
