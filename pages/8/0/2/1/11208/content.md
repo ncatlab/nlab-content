@@ -55,6 +55,7 @@ Lecture notes include
 
 * {#Streicher07} [[Thomas Streicher]], _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
 
+* {#Bauer05} [[Andrej Bauer]], _Realizability as the Connection between Computable and Constructive Mathematics_ (2005) ([pdf](http://math.andrej.com/data/c2c.pdf))
 
 See also
 
