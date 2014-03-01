@@ -1,11 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
-## Related concepts
+## Idea
+
+_Computability theory_ studies [[mathematics|mathematical]] entities that may be obtained by actual [[computation]] (instead of by less concrete proofs of existence). As such computability theory is similar to _[[constructive mathematics]]_ and to _[[realizability]]_ (emphasized e.g. in ([Bauer 05](#Bauer05))). Computability theory deals only with computability in principle and disregards the complexity of computation, that is instead the topic of _[[complexity theory]]_.
+
+The key concept in computability theory is that of a _[[computable function]]_, hence of a [[function]] whose output may be determined from its input by an actual [[computation]]. There are two main types of computability, depending on whether one takes the domain and codomain of computable functions to be _finite string_ from a finite alphabet, hence equivalently [[natural numbers]], or _infinite strings_ from a finite interval, hence sequence of natural numbers. 
+
+In the first case -- "type I computability" -- computable functions are [[partial recursive functions]]. In the second -- "type II computability" -- they are [[continuous functions]] on (quotients of) [[Baire space (computability)|Bair space]] (see at _[[computable function (analysis)]]_).
 
 [[!include computable mathematics -- table]]
+
+
 
 ## References
 
@@ -19,3 +37,6 @@ For [[computable analysis]] see
 * {#Weihrauch00} [[Klaus Weihrauch]], _Computable Analysis_ Berlin: Springer, 2000
 
 [[!redirects computable mathematics]]
+
+[[!redirects computability theory]]
+[[!redirects computability theories]]
