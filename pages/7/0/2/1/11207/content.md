@@ -27,11 +27,13 @@
 
 [[!include computable mathematics -- table]]
 
+* [[computable real number]]
+
 ## References
 
 A standard textbook is 
 
-* {#Weihrauch00} [[Klaus Weihrauch]], _Computable Analysis_ Berlin: Springer, 2000
+* {#Weihrauch00} [[Klaus Weihrauch]], _Computable Analysis_,  Springer Berlin (2000)
 
 A survey is in 
 
