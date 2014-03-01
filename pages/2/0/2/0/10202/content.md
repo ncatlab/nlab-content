@@ -23,7 +23,7 @@
 
 ## Idea 
 
-A **partial recursive function** (often "computable function") is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a [[Turing machine]]), taking finitely many [[natural numbers]] as inputs, and which on input may run forever, but otherwise eventually halts and returns a natural number as output. 
+A **partial recursive function** (often "computable function", but see also at _[[computable analysis]]_) is a [[partial function]] which can be [[definition|defined]] by an [[algorithm]] or computer [[program]] (e.g., a [[Turing machine]]), taking finitely many [[natural numbers]] as inputs, and which on input may run forever, but otherwise eventually halts and returns a natural number as output. 
 
 This idea as described is vague until it is circumscribed by a specific notion of computer program (Turing machines, register machines, abaci, etc.). There is a standard article of faith called the "Church--Turing thesis", identifying functions on natural numbers that are algorithmically computable with those that are computable using a Turing machine (or some variant class of machines that is Turing-complete). 
 
