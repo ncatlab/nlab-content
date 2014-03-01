@@ -60,6 +60,8 @@ On the other hand, it might be that a good formulation of the coordination proce
 
 * [[interpretation of quantum mechanics]]
 
+* [[computable physics]]
+
 ##References
 
 * Hans Reichenbach (1969). _Axiomatization of the Theory of Relativity_. Berkeley: University of California Press. Original German edition published in 1924.
