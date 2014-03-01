@@ -291,9 +291,7 @@ Then $f(m) \leq 2m + 1$ and the graph of $f$ is primitive recursive, so by Theor
 
 * [[recursive subset]] 
 
-* [[computability]] 
-
-* [[Type Two Theory of Effectivity]] 
+[[!include computable mathematics -- table]]
 
 ## References 
 
