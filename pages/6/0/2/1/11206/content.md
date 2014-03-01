@@ -5,11 +5,7 @@
 
 ## Related concepts
 
-* [[computable function]], [[partial recursive function]]
-
-[[computable analysis]]:
-
-* [[Type Two Theory of Effectivity]]
+[[!include computable mathematics -- table]]
 
 ## References
 
@@ -22,3 +18,4 @@ For [[computable analysis]] see
 
 * {#Weihrauch00} [[Klaus Weihrauch]], _Computable Analysis_ Berlin: Springer, 2000
 
+[[!redirects computable mathematics]]
