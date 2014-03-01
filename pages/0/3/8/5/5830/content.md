@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Foundations
+#### Constructivism, Realizability, Computability
 +-- {: .hide}
-[[!include foundations - contents]]
+[[!include constructivism - contents]]
 =--
 #### Homotopy theory
 +-- {: .hide}
@@ -17,6 +17,10 @@
 #### $(\infty,1)$-Topos Theory
 +-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
 =--
 =--
 =--
