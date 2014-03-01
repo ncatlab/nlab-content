@@ -36,6 +36,8 @@
 
 ### Computability
 
+* [[computability]]
+
 * [[computation]], [[computational type theory]]
 
 * [[computable function]], [[partial recursive function]]
