@@ -1,0 +1,38 @@
+
+**[[constructive mathematics]]**, **[[realizability]]**, **[[computability]]**
+
+[[intuitionistic mathematics]]
+
+[[propositions as types]], [[proofs as programs]]
+
+
+### Constructive mathematics
+
+
+
+### Realizability
+
+* [[realizability topos]]
+
+* [[realizability model]]
+
+* [[realizability interpretation]]
+
+* [[effective topos]]
+
+* [[Kleene's first algebra]], [[Kleene's second algebra]]
+
+* [[function realizability]]
+
+
+### Computability
+
+* [[computation]]
+
+* [[computable function]], [[partial recursive function]]
+
+* [[computable analysis]], [[constructive analysis]]
+
+  * [[Type Two Theory of Effectivity]]
+
+  * [[computable function (analysis)]]
