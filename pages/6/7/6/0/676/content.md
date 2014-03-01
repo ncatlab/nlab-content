@@ -14,6 +14,8 @@
 
 [[theory (physics)]], [[model (physics)]]
 
+[[experiment]], [[measurement]], [[computable physics]]
+
 * **[[mechanics]]**
 
   * [[mass]], [[charge]], [[momentum]], [[angular momentum]], [[moment of inertia]]
