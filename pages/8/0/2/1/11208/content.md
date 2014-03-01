@@ -32,11 +32,8 @@ The idea of _realizability_ is essentially that of [[constructivism]], [[intuiti
 
 * [[effective topos]]
 
-* [[Kleene's first algebra]], [[Kleene's second algebra]]
+[[!include computable mathematics -- table]]
 
-* [[function realizability]]
-
-* [[computable analysis]]
 
 ## References
 
