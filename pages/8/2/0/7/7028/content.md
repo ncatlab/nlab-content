@@ -32,7 +32,7 @@ We consider the notion of quantum observables in the the context of [[geometric 
 
 Let $(X, \omega)$ be a ([[presymplectic manifold|pre]]-)[[symplectic manifold]], thought of as the [[phase space]] of a [[classical mechanics|physical system]].
 
-Assume that $\omega$ is prequantizabe (integral) and let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
+Assume that $\omega$ is prequantizable (integral) and let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
 [[prequantum bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$, hence with [[curvature]] $F_\nabla = \omega$. Write $\Gamma_X(E)$ for the space of smooth [[sections]] of the [[associated bundle|associated]] [[complex line bundle]]. This is  the _prequantum space of states_.
 
 
