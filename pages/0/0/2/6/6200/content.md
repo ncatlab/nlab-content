@@ -19,7 +19,7 @@ An __irrational (real) number__ is a [[real number]] $x$ such that, given any [[
 
 The [[set]] of irrational numbers (a [[subset]] of the set of real numbers) is variously denoted $\mathbb{I}$, $\mathbb{J}$, or $\mathbb{B}$ (in various fonts).  The $\mathbb{I}$ and $\mathbb{J}$ stand for 'irrational', while the $\mathbb{B}$ stands for 'Baire' (see the next paragraph).  Here we will use $\mathbb{J}$.
 
-We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] of the [[real line]] $\mathbb{R}$.  With this topology, $\mathbb{J}$ is sometimes called __Baire space__; however, one uses a different [[uniform structure]].  This should be distinguished from the sense of [[Baire space]] as a space to which the [[Baire category theorem]] applies.  (However, $\mathbb{J}$ is an example of such a space.)
+We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] of the [[real line]] $\mathbb{R}$.  With this topology, $\mathbb{J}$ is sometimes called __Baire space__; however, one uses a different [[uniform structure]] (see at _[[computable analysis]]_).  This should be distinguished from the sense of [[Baire space]] as a space to which the [[Baire category theorem]] applies.  (However, $\mathbb{J}$ is an example of such a space.)
 
 
 ## History
