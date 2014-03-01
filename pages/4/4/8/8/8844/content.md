@@ -1,5 +1,22 @@
 
-Related $n$Lab entries include [[model theory]], [[structure (model theory)]], [[formula]], [[semantics]]
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[formal logic]] and [[model theory]], _interpretation_ refers to equipping the [[syntax]] of some [[theory]] with a [[semantics]].
+
+Specifically in the context of [[categorical logic]] given a [[theory]] $T$ then an interpretation for it in some [[category]] $\mathcal{C}$ is a [[functor]] $Syn(T) \longrightarrow \mathcal{C}$ from the [[syntactic category]] of $T$ to $\mathcal{C}$ and preserving some relevant structure, such as [[limits]].  (See also at _[[algebraic theory]]_ and _[[algebra over an algebraic theory]]_  for more on this.
+
+## Related entries
+
+* [[formula]]
+
+* [[model theory]], [[structure (model theory)]], 
+
+## References
 
 * wikipedia [interpretation (model theory)](http://en.wikipedia.org/wiki/Interpretation_%28model_theory%29)
+
 * Wilfrid Hodges, _A shorter model theory_, Cambridge Univ. Press 1997 
