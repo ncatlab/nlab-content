@@ -269,5 +269,9 @@ In $\mathcal{T} =$ [[Set]] for every set $S$ we have that $Sub(S)$ is the [[Bool
 More details and examples are spelled out at [[internal logic]].
 
 
+## References
+
+Named after [[Arend Heyting]].
+
 [[!redirects Heyting algebra]]
 [[!redirects Heyting algebras]]
