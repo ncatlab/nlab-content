@@ -26,6 +26,8 @@ In principle, any [[interaction]] between two [[physical systems]] is a __measur
 
 * [[experiment]]
 
+* [[computable physics]]
+
 ## References
 
 * Wikipedia, _[Measurement](http://en.wikipedia.org/wiki/Measurement)_
