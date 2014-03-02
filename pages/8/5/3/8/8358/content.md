@@ -23,7 +23,11 @@
 
 A realizability topos is a [[topos]] which embodies the [[realizability interpretation]] of [[intuitionistic mathematics|intuitionistic]] [[number theory]] (due to Kleene) as part of its [[internal logic]]. Realizability toposes form an important class of toposes that are not [[Grothendieck toposes]], and don't even have a [[geometric morphism]] to [[Set]].
 
-The input datum for forming a realizability topos is a [[partial combinatory algebra]], or PCA. When the PCA is Kleene's first algebra, the resulting topos is called the [[effective topos]]. 
+The input datum for forming a realizability topos is a [[partial combinatory algebra]], or PCA. 
+
+* When the PCA is [[Kleene's first algebra]] $\mathcal{K}_1$, the resulting topos is called the [[effective topos]] $RT(\mathcal{K}_1)$. 
+
+* When the PCA is [[Kleene's second algebra]] $\mathcal{K}_2$ then $RT(\mathcal{K}_2)$ is the [[function realizability topos]].
 
 
 ## Constructions 
@@ -40,7 +44,7 @@ There are a number of approaches toward constructing realizability toposes. One 
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $A$ be a PCA. An ($A$-)**partitioned assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to A$. A **morphism** $X \to Y$ between partitioned assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that $a[x]_X$ is defined for all $x \in X$ and $a[x]_X = [f(x)]_Y$. The category of partitioned assemblies is denoted $Pass_A$. 
+Let $A$ be a [[partial combinatory algebra|PCA]]. An ($A$-)**partitioned assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to A$. A **morphism** $X \to Y$ between partitioned assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that $a[x]_X$ is defined for all $x \in X$ and $a[x]_X = [f(x)]_Y$. The category of partitioned assemblies is denoted $Pass_A$. 
 =-- 
 
 +-- {: .num_prop} 
