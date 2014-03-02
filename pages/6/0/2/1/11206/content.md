@@ -38,6 +38,10 @@ Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g
 
 * [[computable real number]]
 
+* [[computable set]]
+
+* [[persistent homology]]
+
 * [[computable physics]]
 
 ## References
