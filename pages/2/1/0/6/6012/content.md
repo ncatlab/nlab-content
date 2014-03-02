@@ -4,7 +4,7 @@ A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of addit
 
 * $Hom(T,F) = 0$
 
-(in other words $A(X,Y) = 0$ if $X \in Ob T$ and $Y\in Ob F$.
+(in other words, $A(X,Y) = 0$ if $X \in Ob T$ and $Y\in Ob F$).
 
 * $Hom(T,Y) = 0 \Rightarrow Y\in Ob Y$
 
@@ -12,11 +12,13 @@ A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of addit
 
 * for all $X\in Ob A$, there exists $Y\subset X$, $Y\in Ob T$ and $X/Y\in Ob F$
 
-Equivalently, a torsion theory in $A$ is a pair $(T,F)$ of [[strictly full subcategories]] of $A$ such that the first and last conditions in the above list hold. 
+Equivalently, a torsion theory in $A$ is a pair $(T,F)$ of [[strictly full subcategories]] of $A$ such that the first and last conditions in the above list hold. Alternatively, we can require the last condition
+and the following 3: $T\cap F=\emptyset$, $T$ is closed under quotients
+and $F$ under subobjects.  It follows also that $T$ and $F$ are stable under extensions. 
 
 #### Torsion part of an object
 
-If the abelian category satisfies the Gabriel's [[property (sup)]] then for every object $X$ there exist the largest subobject $t(X)\subset X$ called the torsion part of $X$. Under the axiom of choice, $t: X\to t(X)$ can be extended to a functor. 
+If the abelian category satisfies the Gabriel's [[property (sup)]] then for every object $X$ there exist the largest subobject $t(X)\subset X$ which is in $T$ and it is called the torsion part of $X$ (sometimes written as $X_T$). Under the axiom of choice, $t: X\to t(X)$ can be extended to a functor. 
 
 #### Hereditary torsion theories
 
@@ -34,7 +36,13 @@ The basic example of a torsion class is the class of torsion abelian groups with
 
 ## Literature
 
+Comprehensive accounts are in
+
 * Francis Borceux, _Handbook of categorical algebra_, vol. 2
+* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+
+Historically the notion is introduced in
+
 * Spencer E. Dickson, _A torsion theory for Abelian categories_, Trans. Amer. Math. Soc. __121__, No. 1 (Jan., 1966), pp. 223-235, [jstor](http://www.jstor.org/stable/1994341) 
 
 [[!redirects torsion theory]]
