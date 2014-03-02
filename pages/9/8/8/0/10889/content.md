@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,6 +22,9 @@
 
 What is called _effective homology_ is the study of (effective) [[algorithms]] for computing invariants in [[algebraic topology]], such as [[homology groups]] but also [[homotopy groups]].
 
+## Related concepts
+
+* [[persistent homology]]
 
 ## References
 
