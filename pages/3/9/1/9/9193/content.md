@@ -40,8 +40,6 @@ The [[theory (physics)|theory]] in [[physics]] which describes the fundamental p
 
 * [[Einstein-Yang-Mills theory]]
 
-* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
-
 * [[standard model of particle physics]]
 
 * [[standard model of cosmology]]
