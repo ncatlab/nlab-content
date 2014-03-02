@@ -409,7 +409,7 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 ## Examples 
 
-* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\matcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]].
+* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]].
 
 * When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy sequences_.
 
@@ -574,7 +574,7 @@ and we say that $C$ and $\bar{C}$ are **Morita equivalent**.
 
 ### Of prosets
 
-Every ordinary [[poset]] clearly is Cauchy complete, since the only idempotents are the [[identity morphism]]s. The [[internalization]] of this statement requires some extra assumotions:
+Every ordinary [[poset]] clearly is Cauchy complete, since the only idempotents are the [[identity morphism]]s. The [[internalization]] of this statement requires some extra assumptions:
 
 +-- {: .num_prop}
 ###### Proposition
