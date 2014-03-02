@@ -1,0 +1,9 @@
+
+
+## Idea
+
+The effective part of the [[function realizability topos]] $RT(\mathcal{K}_2)$.
+
+## References
+
+* [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_,North-Holland (1965)
