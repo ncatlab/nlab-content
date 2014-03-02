@@ -151,6 +151,8 @@ For more see [[generalized homology]].
 
 * [[effective homology]]
 
+* [[persistent homology]]
+
 The relation between homology, cohomology and homotopy:
 
 [[!include homotopy-homology-cohomology]]
