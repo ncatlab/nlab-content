@@ -48,4 +48,8 @@
 
   * [[computable function (analysis)]]
 
+* [[computable set]]
+
+* [[persistent homology]], [[effective homology]]
+
 * [[computable physics]]
