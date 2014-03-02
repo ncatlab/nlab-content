@@ -22,7 +22,10 @@
 
 In [[Type Two Theory of Effectivity]] for [[computable analysis]] (see [Weihrauch 00](#Weihrauch00)) one considers the following definition:
 
-A _representation_ of a $T_0$-[[topological space]] $X$ is a presentation of it as a [[quotient space]] of a [[subspace]] $B$ of [[irrational number|Baire space]] (the underlying space of [[Kleene's second algebra]]). Such a representation is called _admissible_ if the quotient map $B \to X$ has the [[right lifting property]] against [[continuous functions]] out of other subspaces $B'$ of Baire space.
+A _representation_ of a $T_0$-[[topological space]] $X$ is a presentation of it as a [[quotient space]] of a [[subspace]] $B$ of [[irrational number|Baire space]] (the underlying space of [[Kleene's second algebra]]). See also at _[[effective topological space]]_.
+
+
+Such a representation is called _admissible_ if the quotient map $B \to X$ has the [[right lifting property]] against [[continuous functions]] out of other subspaces $B'$ of Baire space.
 
 Given representations of $X$ and $X'$ in this way, then a [[function]] $f \colon X \to X'$ is called _continuously realizable_ if there exists a [[continuous function]] $\phi \colon B \to B'$ between the corresponding subspaces of Baire space such that the evident [[commuting diagram|diagram commutes]].
 
@@ -36,6 +39,9 @@ Write $AdmRep$ for the [[category]] of admissible representations in this sense,
 
 The category $AdmRep$ above is a [[reflective subcategory]] of the [[function realizability topos]] $RT(\mathcal{K}_2)$ (see [vanOosten 08](#vanOosten08)).
 
+## Examples
+
+Some standard classes of examples (with an eye towards applications in [[computable physics]]) are discussed in [Weihrauch-Zhong 02, def. 2.6](#WeihrauchZhong02)
 ## Related concepts
 
 [[!include computable mathematics -- table]]
@@ -53,3 +59,8 @@ Textbooks include
 
 
 * {#vanOosten08} [[Jaap van Oosten]], _Realizability: an introduction to its categorical side_, Studies in Logic and the Foundations of Mathematics, vol. 152, Elsevier, 2008 ([preface pdf](http://www.staff.science.uu.nl/~ooste110/boekbegin.pdf))
+
+Concrete examples with an eye towards applications in [[computable physics]] are discussed in section 2 of 
+
+* {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
+
