@@ -29,7 +29,7 @@ You may also find me on
 gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [arXiv:1403.????](http://arxiv.org/archive/math). Submitted for publication February 2014.
+  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication February 2014.
 
 * _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication January 2014.
 
