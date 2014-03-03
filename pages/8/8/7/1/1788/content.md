@@ -23,6 +23,13 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 <tr><td markdown="1">*hello* $x_2^3$</td><td>*hello* $x_2^3$</td></tr>
 </table>
 
+***
+
+$$
+  \begin{array}{c}      \cdots &\to& C_3 &\stackrel{\delta}{\to} & C_2      & \stackrel{\delta}{\to} &      C_1 &     \stackrel{\overset{\delta_t}{\to}} {\underset{\delta_s}{\to}} &     C_0     \\
+  & & \downarrow & & \downarrow & & \downarrow^{\rlap{\delta_s}} & & \downarrow^{\rlap{=}}     \\
+ \cdots &\to&     C_0    &\stackrel{=}{\to}&    C_0    &\stackrel{=}{\to}&    C_0    &\stackrel{=}{\to}&    C_0   \end{array}
+$$
 
 
 *** 
