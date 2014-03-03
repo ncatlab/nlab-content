@@ -19,7 +19,9 @@
 
 ## Idea
 
-The _Church-Turing thesis_ says vaguely that what is [[computation|computable]] in the mathematical sense of [[computation]] is precisely what is [[computable physics|physically computable]].
+The _Church-Turing thesis_ is a (mostly informal) statement about the nature of [[computability]]. It roughly asserts that there is, up to equivalence, only one single universal concept of computability.
+
+Slightly more in detail, the (physical) _Church-Turing thesis_ says vaguely that what is [[computation|computable]] in the mathematical sense of [[computation]] is precisely what is "effectively" computable ([[computable physics|physically computable]]).
 
 In interpreting this one has to be careful which concept of [[computation]] is used, there are two different main types:
 
@@ -27,9 +29,11 @@ In interpreting this one has to be careful which concept of [[computation]] is u
 
 Indeed, there are physical processes (described by the [[wave equation]]) which are not type-I computable ([Pour-El et al. 83](#PourEl83)), but they are type-II computable ([Weihrauch-Zhong 01](WeihrauchZhong01), [Weihrauch-Zhong 02](#WeihrauchZhong02), [Weihrauch-Zhong 06](#WeihrauchZhong06)). For more on this see at _[[computable physics]]_.
 
+* The **physical Church-Turing thesis**: What is [[computable physics|physically computable]] is also computable in the mathematical sense of [[computability]].
+
 * The **strong physical Church-Turing thesis**: _Every [[real number]] found by [[experiment]] in the [[observable universe]] is a [[computable real number]]_. 
 
-  This is often phrased as "the universe is a computer" or as "[digitial physics](https://en.wikipedia.org/wiki/Digital_physics)".
+  This strong version is often phrased as "the universe is a computer" or as "[digitial physics](https://en.wikipedia.org/wiki/Digital_physics)".
 
 
 ## Related concepts
