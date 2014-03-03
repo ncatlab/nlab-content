@@ -47,7 +47,7 @@ with the operations
 
 and
 
-*  $m_i {\|\phi|} = {\|\Diamond_i\phi\|} $.
+*  $m_i {\|\phi\|} = {\|\Diamond_i\phi\|} $.
  
 As we assumed that $\Lambda$ was normal, the normality schemata:
 
