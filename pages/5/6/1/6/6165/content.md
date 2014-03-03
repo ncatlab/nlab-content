@@ -3,4 +3,3 @@
 
 category: people
 
-[[!redirects Whitehead]]
