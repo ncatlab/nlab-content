@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -17,7 +17,12 @@ Domain theory can be said to have come into existence with [[Dana Scott]]'s solu
 
 * The problem Scott solved is to faithfully model untyped lambda calculus; in categorical terms, the basic problem is to construct a cartesian closed category with just one object $D$ (or rather, two objects: $D$ and a terminal object $1$), so that $D$ is closed under formation of products and function spaces: $D \cong D \times D$ and $D \cong D \Rightarrow D$. Notice that in the category of sets, the only solution is to take $D \cong 1$, so that all terms are then equal ("algorithmic inconsistency"). This is not a faithful modeling of untyped lambda calculus, which has provably unequal terms. 
 
-In 1969, Dana Scott solved this problem topologically: the terms were interpreted as continuous functions on a suitable space $D$ isomorphic to its own function space. This $D$ is called a _domain_. Decades later, we now know many techniques for constructing such domains as suitable objects in cartesian closed categories, but Scott's basic insight, that computability could be interpreted as continuity, continues to exert a decisive influence today. 
+In 1969, Dana Scott solved this problem topologically: the terms were interpreted as continuous functions on a suitable space $D$ isomorphic to its own function space. This $D$ is called a _domain_. Decades later, we now know many techniques for constructing such domains as suitable objects in cartesian closed categories, but Scott's basic insight, that computability could be interpreted as continuity, 
+continues to exert a decisive influence today. 
+
+## Related concepts
+
+* [[topological domain theory]]
 
 ## References
 
