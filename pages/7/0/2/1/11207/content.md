@@ -29,6 +29,8 @@
 
 * [[computable real number]]
 
+* [[exact real computer arithmetic]]
+
 * [[computable physics]]
 
 ## References
