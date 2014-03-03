@@ -1,0 +1,113 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+=--
+=--
+
+
+
+
+
+#C*-correspondences
+* table of contents
+{:toc}
+
+## Idea
+
+Roughly speaking, a $C^*$-[[C-star-correspondence|correspondence]] between two $C^*$-[[C*-algebra|algebras]] $A$ and $B$ is a generalised $C^*$-[[C*-algebra|homomorphism]] from $A$ to $B$. 
+ 
+##Definition
+{#Definition}
+
++-- {: .num_defn #CstarCorrespondence}
+###### Definition
+
+Let $A$ and $B$ be $C^*$-[[C*-algebra|algebras]]. An $A,B$-correspondence is a pair $(E,\varphi)$ consisting of a right Hilbert $B$-[[Hilbert C*-module|module]] $E$ and a non-degerate $C^*$-homomorphism $\varphi \colon A\to \mathcal{L}_B(E)$; _i.e_., the image $\varphi(A)E$ is dense in $E$ (as Hilbert $B$-modules).
+
+We write 
+
+$$
+A\stackrel{(E,\varphi)}{\to} B,
+$$ 
+or just $A\stackrel{E}{\to}B$, and call this a $C^*$-[[C-star-correspondence|correspondence]].
+
+=--
+
+## Properties
+### Composition of correspondences
+
++-- {: .num_defn #InternalTensorPRoduct}
+###### Definition 
+
+Let $A\stackrel{(E,\varphi)}{\longrightarrow}B$ and $B\stackrel{(F,\psi)}{\longrightarrow}C$ be $C^*$-[[C-star-correspondence|correspondences]]. Then the [[internal tensor product]] $E\otimes_{\psi}F$ is a Hilbert right $C$-[[Hilbert C*-module|module]]. The composition 
+
+$$
+
+A \stackrel{(E,\varphi)\circ(F,\psi)}{\longrightarrow}  C
+
+$$
+
+is defined by the the pair $(E\otimes_{\psi}F,\varphi\otimes \psi)$, where
+
+$$
+\begin{array}{lccc}
+\varphi\otimes\psi \colon & A & \to & \mathcal{L}_C(E\otimes_{\psi}F) \\
+& a & \mapsto & \varphi(a)(\cdot)\otimes_{\psi}\psi(a)(\cdot)
+\end{array}
+$$
+
+=--
+
+
+### Unitary intertwiners 
+
++-- {: .num_defn #UnitaryIntertwiners} 
+###### Definition
+
+Let $A\stackrel{(E,\varphi)}{\longrightarrow}B$ and $A\stackrel{(F,\psi)}{\longrightarrow}B$ be $C^*$-[[C-star-correspondence|correspondences]]. A _unitary intertwiner_ 
+$$
+u\colon E\Rightarrow F
+$$
+is a unitary $u\in \mathcal{L}_B(E,F)$ such that for all $a\in A$ the following diagram commutes
+
+$$
+\array{E & \stackrel{\varphi(a)}{\longrightarrow} & E\\
+ ^u\downarrow && \downarrow^u\\
+F & \stackrel{\psi(a)}{\longrightarrow} & F
+ }
+$$
+=--
+
+## The $2$-category $\mathfrak{Corr}$ 
+
+=--
+
+## References
+
+* [[Alcides Buss]], [[Chenchang Zhu]], [[Ralf Meyer]], _[A higher category approach to twisted actions on $C^*$-algebras](http://arxiv.org/abs/0908.0455)_
+
+Relation to [[KK-theory]]:
+
+* [[El-kaioum Moutuou]], _[Equivariant KK-theory for generalised actions and Thom isomorphism in groupoid twisted K-theory](https://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9179799&fulltextType=RA&fileId=S1865243313000585)_
+
+[[!redirects C*-correspondences]]
+[[!redirects C-star-correspondences]]
+[[!redirects C*-correspondence]]
+[[!redirects C-star-correspondence]]
+  
