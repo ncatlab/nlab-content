@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alfred_North_Whitehead)
+
+category: people
+
+[[!redirects Alfred North Whitehead]]
