@@ -45,28 +45,27 @@ A **crossed complex** ("of groupoids") $C$ is
 
 * together with a sequence of [[skeleton|skeletal]] groupoids $(C_k)_{k = 2}^\infty$ over $C_0$, i.e. of  bundles $C_k = \coprod_{x \in C_0} (C_k)_x$ of groups over $C_0$, [[abelian group|abelian]] for $k \geq 3$,  sitting in a diagram 
 
-  $$
-    \array{
-      \cdots &\to& C_3 &\stackrel{\delta}{\to}& C_2
-      &\stackrel{\delta}{\to}&
-      C_1 &
-     \stackrel{\overset{\delta_t}{\to}}{\underset{\delta_s}
-{\to}} &
-     C_0
-     \\
-     && \downarrow && \downarrow && \downarrow^{\mathrlap{\delta_s}}
-     && \downarrow^{\mathrlap{=}}
-     \\
-    \cdots &\to& 
-    C_0
-    &\stackrel{=}{\to}&
-    C_0
-    &\stackrel{=}{\to}&
-    C_0
-    &\stackrel{=}{\to}&
-    C_0
-    }
-  $$
+$$
+ \begin{array}{c}
+   \cdots &\to& C_3 &\stackrel{\delta}{\to}& C_2
+   &\stackrel{\delta}{\to}&
+   C_1 &
+  \stackrel{\overset{\delta_t}{\to}}{\underset{\delta_s}{\to}} &
+  C_0
+  \\
+  && \downarrow && \downarrow && \downarrow^{\mathrlap{\delta_s}}
+  && \downarrow^{\mathrlap{=}}
+   \\
+ \cdots &\to& 
+ C_0
+ &\stackrel{=}{\to}&
+ C_0
+ &\stackrel{=}{\to}&
+ C_0
+ &\stackrel{=}{\to}&
+  C_0
+ \end{array}
+$$
 
 * together with an [[action]] of $C_1$ on $C_k$ for $k \geq 0$
 
