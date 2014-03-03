@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,4 +26,6 @@ A project for formalization of parts of [[mathematics]] in formal languages supp
 ## Related entries
 
 * [[The QED Project]]
+
+* [[formal proof]]
 
