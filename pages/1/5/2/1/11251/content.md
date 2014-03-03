@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+This page collects links related to the text
+
+* [[Ludwig Wittgenstein]], 
+
+  _Tractatus Logico-Philosophicus_ (1921)
+
+  ([Wikipedia entry](http://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus))
+
+on [[ontology]] and [[formal logic]].
+
+
+## Contents
+
+The book states seven "propositions" (with sub-propositions):
+
+1. The world is everything that is the case.
+
+1. What is the case (a fact) is the existence of states of affairs.
+
+1. A logical picture of facts is a thought.
+
+1. A thought is a proposition with a sense.
+
+1. A proposition is a truth-function of elementary propositions. (An elementary proposition is a truth-function of itself.)
+
+1. The general form of a proposition is the general form of a truth function, ...
+
+1. Whereof one cannot speak, thereof one must be silent.
+
+category: reference
