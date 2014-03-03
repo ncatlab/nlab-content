@@ -213,3 +213,5 @@ and so on.
 ## References
 
 * _The QED Manifesto_ in _Automated Deduction - CADE 12_, Springer-Verlag, Lecture Notes in Artificial Intelligence, Vol. 814, pp. 238-251, 1994. ([web](ftp://mizar.uwb.edu.pl/pub/qed/manifesto))
+
+* [Wikipedia article](http://en.wikipedia.org/wiki/QED_manifesto)
