@@ -19,11 +19,16 @@
 
 ## Idea
 
-A project for the formalization of large parts of [[mathematics]] in formal language supported by [[proof assistants]].
+The _QED project_ was a project -- or at least a manifesto for a project, see [below](TheQED) -- for the formalization of large parts of [[mathematics]] in formal language supported by [[proof assistants]].
 
 * [The QED Project Webpage](http://mizar.org/qed/)
 
+While as a project this seems to have died out around 1996, the idea of the manifesto itself is still pertinent and waiting for its implementation (see also [Wiedijk 07](#Wiedijk07)).
+
+Notice that since then the issues discussed in ([Wiedijk 07](#Wiedijk07)) may appear in a different light in view of developments in [[homotopy type theory]] ("univalent foundations for mathematics").
+
 ## The QED manifesto
+ {#TheQED}
 
 The following is taken literally from _[The QED Manifesto](ftp://mizar.uwb.edu.pl/pub/qed/manifesto)_.
 
@@ -215,3 +220,5 @@ and so on.
 * _The QED Manifesto_ in _Automated Deduction - CADE 12_, Springer-Verlag, Lecture Notes in Artificial Intelligence, Vol. 814, pp. 238-251, 1994. ([web](ftp://mizar.uwb.edu.pl/pub/qed/manifesto))
 
 * [Wikipedia article](http://en.wikipedia.org/wiki/QED_manifesto)
+
+* {#Wiedijk07} [[Freek Wiedijk]], _The QED Manifesto Revisited_, 2007 ([pdf](http://mizar.org/trybulec65/8.pdf))
