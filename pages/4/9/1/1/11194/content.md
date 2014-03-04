@@ -39,6 +39,12 @@ Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \d
 
 ## Examples
 
+### In a cartesian closed category
+
+A [[cartesian closed category]] that has a dualizing object is necessarily just a [[poset]].
+
+(This statement is often known as _[[Joyal]]'s lemma_, recalled for instance in [Abramsky 09](#Abramsky09)).
+
 ### In the category of spectra -- Anderson duality
 
 In the [[stable (infinity,1)-category of spectra]], the [[sphere spectrum]] (which induces [[Spanier-Whitehead duality]] on spectra which are [[dualizable objects]] with respect to the [[smash product of spectra]]) is not a dualizing object, but the [[Anderson spectrum]] $I_{\mathbb{Z}}$ is ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] operation 
@@ -52,11 +58,19 @@ For instance the Anderson dual of [[KU]] is (complex conjugation-equivariantly) 
 
 ## References
 
+General discussion is in 
+
 * [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
+
+Reviews of the general concept and then discussion of [[Anderson duality]] is in
 
 * {#Stojanoska12} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_, Doc. Math. 17 (2012) 271-311 ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 * {#HeardStojanoska14} [[Drew Heard]], [[Vesna Stojanoska]], _K-theory, reality, and duality_ ([arXiv:1401.2581](http://arxiv.org/abs/1401.2581))
+
+Discussion in the context of the [[linear logic]]/[[quantum logic]] of [[quantum physics]] is in 
+
+* {#Abramsky09} [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
 
 
 [[!redirects dualizing objects in a closed category]]
