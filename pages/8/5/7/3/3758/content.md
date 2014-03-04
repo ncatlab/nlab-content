@@ -101,3 +101,6 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 [[!redirects quantum state]]
 [[!redirects quantum states]]
 
+
+[[!redirects mixed quantum state]]
+[[!redirects mixed quantum states]]
