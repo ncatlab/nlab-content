@@ -32,6 +32,11 @@ A kind of [[topological space]] about which one can reason "effectively", hence 
 
 See the references at _[[computable analysis]]_.
 
+Discussion in relation to [[equilogical spaces]] is in
+
+* {#Bauer00} [[Andrej Bauer]], section 4.1.2 _The Realizability Approach to
+Computable Analysis and Topology_, PhD thesis CMU (2000) ([pdf](http://andrej.com/thesis/thesis.pdf))
+
 With an eye twoards application in [[computable physics]] the definition also appears as def. 2.2 in
 
 * {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
