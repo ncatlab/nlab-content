@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Exact real computer arithmetic_ refers to treatment of [[real number]] [[arithmetic]] on [[computers]] to finite (necessarily) but arbitrary precision. This is in contrast with what is called [[floating point arithmetic]] which uses just one fixed finite approximation of the real numbers by [[natural numbers]]. 
+
+Exact real computer arithmetic essentially implements what in mathematical [[computability theory]] is known as the [[Type Two Theory of Effectivity|type-II theory]] (in contrast to the "type-I" theory of [[partial recursive functions]] acting just on [[natural numbers]]). The formal mathematical definition of [[computable function (analysis)]] is the core topic of [[constructive analysis]]/[[exact analysis]].
+
+## Related concepts
+
+* [[topological domain theory]]
+
+## References
+
+Discussion of implementation of exact real computer arithmetic includes
+
+* Peter Potts, Abbas Edalat, _Exact real computer arithmetic_, 1997 [pdf](http://www.doc.ic.ac.uk/research/technicalreports/1997/DTR97-9.pdf)
+
+Discussion relating to [[computability theory]], [[Type Two Theory of Effectivity]] and [[constructive analysis]]/[[computable analysis]] includes
+
+* Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, 2006 ([pdf](http://www.cs.ru.nl/~spitters/editorial.pdf))
+
+* The Haskel Wiki, _[Exact real arithmetic](http://www.haskell.org/haskellwiki/Exact_real_arithmetic)_
+
+A collection of further references is listed at
+
+* _[Exact computation](http://wwwhomes.doc.ic.ac.uk/~ae/exact-computation/)_
+
+[[!redirects exact real arithmetic]]
