@@ -44,6 +44,8 @@ Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g
 
 * [[equilogical space]]
 
+* {[halting theorem]]
+
 * [[persistent homology]]
 
 * [[computable physics]]
