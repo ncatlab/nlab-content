@@ -96,7 +96,10 @@ $$
 
 ## The $2$-category $\mathfrak{Corr}$ 
 
-=--
+
+## Related concepts
+
+* [[Hilbert bimodule]]
 
 ## References
 
