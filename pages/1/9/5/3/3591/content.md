@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 # Equilogical spaces
 * table of contents
 {: toc}
@@ -15,18 +30,21 @@ On the other hand, $Equ$ can be identified with a [[reflective subcategory|refle
 
 Moreover, in this way we can see that the embedding $Top_0 \to Equ$ preserves all existing [[exponential law for spaces|exponentials]], since the embedding $C \to C_{ex/lex}$ does so, and $Equ$ is closed under exponentials in $(Top_0)_{ex/lex}$ and contains the image of $Top_0$.  This embedding also preserves all [[limits]], but it does not in general preserve [[colimits]].
 
+## Related concepts
+
+* [[effective topological space]]
 
 ## References
 
 The concept was originally introduced for [[domain theory]] in [a privately circulated manuscript](#Scott) by [[Dana Scott]].
 
-* "A New Category? Domains, Spaces, and Equivalence Relations", Dana S. Scott
-{#Scott}
+* {#Scott}[[Dana Scott]], _A New Category? Domains, Spaces, and Equivalence Relations_, 
+
 
 An early article on equilogical spaces: 
 
-* "Equilogical Spaces", [[Andrej Bauer]], [[Lars Birkedal]], Dana S. Scott ([ps](http://www.andrej.com/papers/equ-paper.ps))
-{#BBS}
+* {#BBS} [[Andrej Bauer]], [[Lars Birkedal]], [[Dana Scott]], _Equilogical Spaces_, 2001  ([ps](http://www.andrej.com/papers/equ-paper.ps), [[BBSEquilogical.pdf:file]])
+
 
 
 [[!redirects equilogical space]]
