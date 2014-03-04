@@ -48,6 +48,8 @@
 
   * [[computable function (analysis)]]
 
+  * [[exact real computer arithmetic]]
+
 * [[computable set]]
 
 * [[persistent homology]], [[effective homology]]
