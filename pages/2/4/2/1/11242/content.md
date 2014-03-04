@@ -22,6 +22,10 @@
 
 A kind of [[topological space]] about which one can reason "effectively", hence [[constructive mathematics|constructively]]. Used in [[computable analysis]], see at _[[computable function (analysis)]]_.
 
+## Related concepts
+
+* [[equilogical space]]
+
 ## References
 
 * Dieter Spreen, _On effective topological spaces_, The Journal of Symbolic Logic, Vol. 63, No. 1, Mar., 1998  ([JSTOR](http://www.jstor.org/stable/2586596))
