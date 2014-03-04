@@ -1095,6 +1095,11 @@ Other references are
 
 * MathOverflow question: [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
 
+Discussion in the context of the [[(infinity,1)-Grothendieck construction]] is in
+
+* {#HeutsMoerdijk13} [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](http://arxiv.org/abs/1308.0704))
+
+
 ### In homotopy type theory
 
 A formalization of some aspects of homotopy limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
