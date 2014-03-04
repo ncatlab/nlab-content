@@ -1,0 +1,33 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+
+Various [[diagonal arguments]] such as the [[halting theorem]], [[Cantor's theorem]], and [[Gödel]]'s [[incompleteness theorem]] are all instances of the _Lawvere fixed point theorem_, which says that for any [[cartesian closed category]], if there is an [[epimorphism]] from some [[object]] $A$ to the [[exponential object]]/[[internal hom]] from $A$ into some other object $B$
+
+$$
+  A \longrightarrow B^A
+$$
+
+then every [[endomorphism]] $f \colon B \to B$ of $B$ has a [[fixed point]].
+
+## References
+
+The original article is
+
+* [[William Lawvere]], _Diagonal Arguments and Cartesian Closed Categories_, Lecture Notes in Mathematics, 92 (1969), 134-145 ([TAC](http://tac.mta.ca/tac/reprints/articles/15/tr15abs.html))
+
+A review and further development is in
+
+* {#Yanofsky03} [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, ([arXiv:math/0305282](http://arxiv.org/abs/math/0305282))
+
+
+Expositions include
+
+* [[Andrej Bauer]], _On a proof of Cantor's theorem_ ([web](http://math.andrej.com/2007/04/08/on-a-proof-of-cantors-theorem/))
+
+[[!redirects Lawvere fixed point theorem]]
