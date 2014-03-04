@@ -20,10 +20,29 @@
 
 ## Idea
 
-In [[quantum physics]] the _no-cloing theorem_ is the statement that one cannot produce two copies of an arbitrary given [[quantum state]].
+In [[quantum physics]] the _no-cloning theorem_ is the statement that one cannot produce a secod copy of an arbitrary given [[quantum state]] by a quantum physical process.
 
-Formally, when quantum physics is axiomatized by [[quantum logic]] in the guise of [[linear logic]]/[[linear type theory]], this is the very "linearity" of this logic, the absence of a [[diagonal]] map in the [[categorical semantics]] given by non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]].
+More on detai, it says that given a quantum systems with [[Hilbert spaces]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take all states of the form $(\psi, e)$ to $(\psi,\psi)$. (This follows for instance immediately from the fact that such a unitary operator preserves, by definition, the [[inner product]].)
+
+There is generalization of this to [[mixed quantum states]], then called the _no-broadcasting theorem_. Dually, there is also a _no-deleting theorem_.
+
+Formally, when quantum physics is axiomatized by [[quantum logic]] in the guise of [[linear logic]]/[[linear type theory]], the content of "no-cloning" and "no-deleting" is the very "linearity" of this logic, the absence of a [[diagonal]] map and of a [[projection]] map for the non[[cartesian monoidal category|cartesian]] [[tensor product]] in the [[categorical semantics]] given by non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]].
 
 ## References
 
+The original articles are
+
+* [[Dennis Dieks]], _Communication in EPR devices_, Physics Letters A 92, 271-272 (1982)
+
+* [[William Wooters]], [[Wojciech Zurek]], _A single quantum cannot be cloned_, Nature 299, 802-803 (1982)
+
+General reviews include
+
 * Wikipedia, _[No-cloning theorem](http://en.wikipedia.org/wiki/No-cloning_theorem)_
+
+Discussion from the point of view of [[monoidal category]]-theory ([[finite quantum mechanics in terms of dagger-compact categories]]) inclides
+
+* [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
+
+[[!redirects non-broadcasting theorem]]
+[[!redirects no-deleting theorem]]
