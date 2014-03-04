@@ -32,6 +32,8 @@ However, the versions of the theorem stated below are constructively valid, and 
 Given sets $S$ and $V$, suppose that there is a [[surjection]] from $S$ to the [[function set]] $S \to V$ (also written $V^S$).  Then every map $n\colon V \to V$ has a [[fixed point]]; that is, $n(x) = x$ for some $x\colon V$.
 =--
 
+(See also at _[[Lawvere's fixed point theorem]]_.)
+
 +-- {: .proof}
 ###### Proof
 
@@ -113,6 +115,9 @@ This interpretation relies on a good relationship between $\leq$ and $=$ on the 
 
 [[Paul Taylor]] has argued that the essential value of Cantor\'s Theorem is the lemma, implicit in Cantor\'s proof, that [[Bill Lawvere]] isolated as Theorem \ref{lawvere}.  As the main interpretation of Theorem \ref{cantor} is meaningful only in a specific set-theoretic context (particularly, one where the Cantor--Schroeder--Bernstein theorem holds), it may not survive a 'revolution' that overthrows the primacy of that context.  But Lawvere\'s lemma will survive, since it 'does the work' while Cantor\'s theorem 'takes the credit'.  (See [Taylor 2009](#Taylor2009) below for further discussion of 'Lemmas that do the work and Theorems that take the credit'.)
 
+## Related concepts
+
+* [[Lawvere's fixed point theorem]]
 
 ## References
 
