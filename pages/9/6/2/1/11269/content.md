@@ -1,0 +1,23 @@
+[[!redirects diagonal arguments]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Traditional "diagonal arguments" include
+
+* [[Cantor's theorem]]
+
+* [[Gödel]]'s [[incompleteness theorem]]
+
+* [[halting theorem]]
+
+These are all subsumed by the
+
+* [[Lawvere fixed point theorem]]
+
+## References
+
+* Wikipedia, _[Diagonal argument](http://en.wikipedia.org/wiki/Diagonal_argument)_
