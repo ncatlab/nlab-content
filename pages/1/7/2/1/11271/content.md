@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](www.winedt.com/registration.html)
+
+## related $n$Lab entries
+
+* [[no-cloning theorem]]
+
+category: people
