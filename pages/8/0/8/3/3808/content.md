@@ -22,6 +22,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 * [[Weil conjecture]], [[Fermat's last problem]], [[abc conjecture]]
 
+* [[excact real computer arithmetic]]
+
 * [[number theory and physics]]
 
 ## References
