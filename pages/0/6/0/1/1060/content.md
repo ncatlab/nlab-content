@@ -20,6 +20,11 @@
 
 ## Definition ##
 
+There are two useful equivalent formulation of the definition
+
++-- {: .num_defn #DefByDualizingObject}
+###### Definition
+
 A _$*$-autonomous category_  is a [[symmetric monoidal
 category|symmetric]] [[closed monoidal category]] $\langle
 C,\otimes, I\rangle$ with a _[[dualizing object in a closed category]]_: an object
@@ -29,8 +34,49 @@ which is the transpose of the [[evaluation map]]
 $$ ev_{A,\bot}: (A \multimap \bot) \otimes A \to \bot ,$$
 is an [[isomorphism]] for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
 
-Define a functor $(-)^*=(-)\multimap\bot$.  The map $d_A$
-is natural in $A$, so that there is a natural isomorphism
+=--
+
++-- {: .num_defn #DefByDualization}
+###### Definition
+
+A _$*$-autonomous category_  is a [[symmetric monoidal category]] $\mathcal{C}$
+equipped with a [[full and faithful functor|full and faithful]] [[functor]]
+
+$$
+  (-)^\ast \colon \mathcal{C}^{op} \longrightarrow \mathcal{C}
+$$
+
+such that there is a [[natural equivalence]]
+
+$$
+  \mathcal{C}(A \otimes B, C^\ast) \simeq \mathcal{C}(A, (B\otimes C)^\ast)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+These two definitions, def. \ref{DefByDualizingObject}
+and def. \ref{DefByDualization}, are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given def. \ref{DefByDualizingObject}, 
+define the dualization functor as the [[internal hom]] into the [[dualizing object in a closed category|dualizing object]]
+
+$$
+  (-)^ \ast  \coloneqq (-)\multimap\bot
+  \,.
+$$  
+
+Then the morphism $d_A$
+is natural in $A$, so that there is a [[natural isomorphism]]
 $d:1\Rightarrow(-)^{**}$.  We also have
 
 $$\begin{aligned}
@@ -41,15 +87,43 @@ $$\begin{aligned}
 & = \hom(A,(B\otimes C)^*)
 \end{aligned}$$
 
-The functor $(-)^*$, together with these two isomorphisms,
-can be taken as an alternative definition of a
-$*$-autonomous category.  The [[dualizing object]] $\bot$ is then defined as $I^*$.
+This yields the structure of def. \ref{DefByDualization}.
+
+Conversely, given the latter then the [[dualizing object]] $\bot$ is defined as the dual of the [[tensor unit]] $\bot \coloneqq I^*$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A $\ast$-autonomous category in which the [[tensor product]] is compatible with duality in that there is a [[natural isomorphism]]
+
+$$
+  (A \otimes B)^\ast \simeq A^\ast \otimes B^\ast
+$$
+
+is a [[compact closed category]].
+
+Conversely, if the $\ast$-autonomous category is not compact closed, then by this linear " [[de Morgan duality]]" the tensor product induces a second binary operation
+
+$$
+  (A \otimes B)^\perp \equiv A^\perp \parr B^\perp
+  \,.
+$$
+
+Here the notatioon on the right is that used in [[linear logic]], see below at _[Properties -- Internal logic](#InternalLogic)_.
+
+=--
+
+
+
 
 ## Properties
 
 ### Internal logic
+ {#InternalLogic}
 
-The [[internal logic]] of star-autonomous categories is [[classical linear logic]], conversely star-autonomous categories are the [[categorical semantics]] of [[classical linear logic]] ([Seely 89, prop. 1.5](#Seely89)). See also at _[[relation between type theory and category theory]]_.
+The [[internal logic]] of star-autonomous categories is the multiplicative fragment of [[classical linear logic]], conversely star-autonomous categories are the [[categorical semantics]] of [[classical linear logic]] ([Seely 89, prop. 1.5](#Seely89)). See also at _[[relation between type theory and category theory]]_.
 
 ## Examples ##
 
@@ -95,5 +169,4 @@ and a detailed review (also of a fair bit of plain monoidal category theory) is 
 
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
-
 
