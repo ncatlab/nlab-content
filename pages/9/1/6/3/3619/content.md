@@ -94,6 +94,10 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## Related concepts
 
+* [[entanglement entropy]]
+
+* [[holographic entanglement entropy]]
+
 * [[Bell's inequalities]]
 
 * [[superposition]]
@@ -102,9 +106,7 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 * [[superselection sector]]
 
-* [[entanglement entropy]]
-
-* [[holographic entanglement entropy]]
+* [[no-cloning theorem]]
 
 ## References
 
