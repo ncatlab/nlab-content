@@ -36,6 +36,6 @@ Other references
 * [wikipedia](http://en.wikipedia.org/wiki/Schur_function)
 * Stuart Martin, _Schur algebras and representation theory_, Cambridge Univ. Press 1994
 
-For generalizations see [[Jack polynomial]] and [[Macdonald polynomial]]. 
+For generalizations see [[Jack polynomial]], [[Macdonald polynomial]], [[noncommutative Schur function]], [[quasisymmetric Schur function]]. 
 
 [[!redirects Schur polynomial]][[!redirects Schur functions]]
