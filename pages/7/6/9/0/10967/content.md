@@ -6,12 +6,17 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -22,11 +27,28 @@
 
 In [[quantum physics]] the _no-cloning theorem_ is the statement that one cannot produce a secod copy of an arbitrary given [[quantum state]] by a quantum physical process.
 
-More on detai, it says that given a quantum systems with [[Hilbert spaces]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take all states of the form $(\psi, e)$ to $(\psi,\psi)$. (This follows for instance immediately from the fact that such a unitary operator preserves, by definition, the [[inner product]].)
+More in detail, in its original version the statement is that given a quantum system with [[Hilbert space]] $H$ and with a chosen initial pure [[quantum state]] $e \in H$, then there is no [[unitary operator]] on the [[tensor product]] $H \otimes H$ which would take states of the form $(\psi, e)$ to $(\psi,\psi)$. 
 
-There is generalization of this to [[mixed quantum states]], then called the _no-broadcasting theorem_. Dually, there is also a _no-deleting theorem_.
+Of course this cannot exist, because such a map would not even be [[linear map|linear]]. Often the statement is relaxed to observing that if there is a unitary that takes $(\psi,e)$ to $(\psi,\psi)$ and $(\phi,e)$ to $(\phi,\phi)$ for any two states $\phi,\psi \in H$, then either $\phi= \psi$ or $\phi \perp \psi$ (since it follows from unitarity that in this case $\langle\phi | \psi \rangle  = \langle\phi | \psi \rangle^2 $).
 
-Formally, when quantum physics is axiomatized by [[quantum logic]] in the guise of [[linear logic]]/[[linear type theory]], the content of "no-cloning" and "no-deleting" is the very "linearity" of this logic, the absence of a [[diagonal]] map and of a [[projection]] map for the non[[cartesian monoidal category|cartesian]] [[tensor product]] in the [[categorical semantics]] given by non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]].
+There is a  slightly more substantial generalization of this observation to [[mixed quantum states]], then called the _no-broadcasting theorem_. Dually, there is also a _no-deleting theorem_.
+
+Formally, when quantum physics is axiomatized by [[quantum logic]] in the guise of [[linear logic]]/[[linear type theory]], the content of "no-cloning" and "no-deleting" is the very "linearity" of this logic, the absence of a [[diagonal]] map and of a [[projection]] map for the non-[[cartesian monoidal category|cartesian]] [[tensor product]] in the [[categorical semantics]] given by non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal categories]] such as that of Hilbert spaces. See also at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
+
+From this perspective one gets a more interesting statement if one turns this around and asks which conditions are imposed on a [[symmetric monoidal category]] if its [[tensor product]] is assumed to admit a [[diagonal map]] (for "cloning") or [[projection]] maps (for "deleting") or both. These turn out to be very strong conditions. For instance in order for a [[diagonal]] to exist for the tensor product of a [[compact closed category]] implies that every [[endomorphism]] on every [[object]] in the category is a multiple of the [[identity]] ([Abramsky 09](#Abramsky09), in generalization of "[Joyal's lemma](dualizing+object+in+a+closed+category#InACartesianClosedCategory)"). This is clearly false in any category in which one could find interesting quantum mechanics, certainly in that of (finite dimensional) [[Hilbert spaces]].
+
+## Related concepts
+
+* [[quantum superposition]]
+
+* [[entanglement]]
+
+* [[Bell's inequalities]]
+
+* [[Gleason's theorem]]
+
+* [[interpretation of quantum mechanics]]
+
 
 ## References
 
@@ -42,7 +64,7 @@ General reviews include
 
 Discussion from the point of view of [[monoidal category]]-theory ([[finite quantum mechanics in terms of dagger-compact categories]]) inclides
 
-* [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
+* {#Abramsky09} [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
 
 [[!redirects non-broadcasting theorem]]
 [[!redirects no-deleting theorem]]
