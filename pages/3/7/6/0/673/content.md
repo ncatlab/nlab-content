@@ -29,11 +29,11 @@ You may also find me on
 gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication February 2014.
+  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014. Submitted for publication 6 March 2014.
 
-* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication January 2014.
+* _WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication 13 Jan 2014.
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication February 2014.
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication 28 Feb 2014, rejected 29 Feb 2014.
 
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
 
