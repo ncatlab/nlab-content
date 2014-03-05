@@ -112,7 +112,17 @@ There are non-exterior forms for which the integral is parametrization-independe
 
 ## Higher forms
 
-One can define a **cogerm differential $k$-form** to be a function on germs of $k$-dimensional hypersurfaces in $X$.  These include in particular the usual [[differential form|exterior]] differential $k$-forms as well as [[absolute differential form|absolute]] differential $k$-forms.  However, it is unclear whether there is a sensible cogerm differential $\mathrm{d}$ acting on such forms for $k\gt 1$, or whether the exterior derivative or wedge product of exterior forms can be sensibly extended to cogerm ones.
+One can define a **cogerm differential $k$-form** to be a function on germs of $k$-dimensional hypersurfaces in $X$.  These include in particular the usual [[differential form|exterior]] differential $k$-forms as well as [[absolute differential form|absolute]] differential $k$-forms.  And they can be integrated over $k$-dimensional hypersurfaces, by a similar formula as above.
+
+There is a sort of "**exterior differential**" acting from cogerm $k$-forms to cogerm $(k+1)$-forms, which we denote by $(\mathrm{d}\wedge -)$ to avoid confusion with the commutative cogerm differential $\mathrm{d}$.  When $k=1$, the definition is
+
+$$ \langle \mathrm{d}\wedge \omega {|} c \rangle = \lim_{A \to 0} \frac{1}{\Vert A \Vert} \oint_{c(\partial A)} \omega. $$
+
+Here the limit is over some neighborhoods $A$ of $0\in\mathbb{R}^2$ whose areas $\Vert A \Vert$ shrink to zero, and the integral over the boundary is defined as above.  The definition for general $k$ is similar.
+
+However, this limit can only exist if the integral $\oint_{c(\partial A)} \omega$ is invariant under oriented reparametrization of $\partial A$, hence if $\omega$ is "degree-1 homogeneous" as mentioned above.  Moreover, if $\omega$ is an absolute form, then usually there will not be enough cancellation to make the limit above finite (it would be analogous to defining a 1-dimensional "derivative" as $\lim_{h\to 0} \frac{f(x+h)+f(x)}{h}$ rather than $\lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$).  Thus, this "exterior differential" seems barely (if at all) more general than the usual one acting on exterior $k$-forms.
+
+It is unclear whether there is a notion of exterior differential which is significantly more general.  Similarly, it is unclear whether the wedge product of exterior forms can be sensibly extended to cogerm ones, or whether there is a sensible commutative cogerm differential $\mathrm{d}$ acting on cogerm $k$-forms for $k\gt 1$.
 
 
 [[!redirects cogerm differential form]]
