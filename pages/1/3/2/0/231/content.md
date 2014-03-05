@@ -585,6 +585,8 @@ higher versions
 
 * [[traced monoidal category]]
 
+* [[no-cloning theorem]]
+
 * [[Drinfeld center]]
 
 * [[Picard group]], [[Picard 2-group]]
