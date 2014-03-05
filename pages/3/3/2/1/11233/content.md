@@ -1,13 +1,14 @@
-# The Henstock integral
 
+# The Henstock integral
 * table of contents
 {: toc}
 
 ## Idea
 
-The *Henstock integral* (also attributed to Kurzweil, Denjoy, Luzin, and Perron) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions and is better behaved than both the [[Riemann integral]] and the [[Lebesgue integral]].
+The *Henstock integral* (also attributed to Kurzweil, Denjoy, Luzin, and Perron) is a way to define the [[integral]] of a (partial) function $f:\mathbb{R}\to \mathbb{R}$ which applies to more functions than either the [[Riemann integral]] or the [[Lebesgue integral]] and is in some ways better behaved as well.
 
 However, the Lebesgue integral is more commonly used by working mathematicians because it fits more naturally into the general theory of [[measure]], while the Riemann/Darboux integral is more commonly used in introductory calculus courses because its definition is simpler.
+
 
 ## Definition
 
@@ -22,6 +23,9 @@ Finally, we say that $I$ is the **integral** of $f$ on $[a,b]$, written $I = \in
 $$ {| \sum_P f - I |} \lt \epsilon $$
 
 for any $\delta$-fine partition $P$.  If such an $I$ exists, we say that $f$ is (Henstock) **integrable** on $[a,b]$.
+
+If we require a gauge to be a [[constant function]], then we recover the definition of the [[Riemann integral]].
+
 
 ## Properties
 
@@ -39,6 +43,7 @@ If $f$ is differentiable on $[a,b]$, then $f'$ is Henstock integrable on $[a,b]$
 If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a^x f(t) d t$ is differentiable [[almost everywhere]] on $[a,b]$ and $F' = f$.
 =--
 
+
 ### Hake's theorem
 
 +-- {: .un_theorem}
@@ -48,7 +53,24 @@ $$ \int_a^b f(x) d x = \lim_{c\to b^-} \int_a^c f(x) d x $$
 in the strong sense that if either side exists, then so does the other, and they are equal.
 =--
 
-In particular, what is often taken as a *definition* of the [[improper integral|improper]] Riemann integral (of a potentially unbounded function on a finite interval) is actually a *theorem* for Henstock integrals.
+In particular, what is often taken as a *definition* of the [[improper integral|improper]] Riemann integral (of a potentially unbounded function on a finite interval) is actually a *theorem* for Henstock integrals.  (However, we still need improper Henstock integrals to allow $a = -\infty$ or $b = \infty$.)
+
+
+### Recovery of Riemann and Lebesgue integrals
+
++-- {: .query}
+I need to check some of the claims below, but I\'m out of time right now.  They are definitely correct for the proper integrals.  ---Toby
+=--
+
+Recall that $f\colon [a, b] \to \mathbb{R}$ is Riemann integrable iff $f$ is continuous almost everywhere and bounded; in this case, $f$ is also Henstock integrable, and the Riemann integral of $f$ equals its Henstock integral.
+
+More generally, $f$ is improperly Riemann integrable iff $f$ is Henstock integrable and $f$ is locally Riemann integrable at all but finitely many points in $[a, b]$; then the improper Riemann integral of $f$ equals its Henstock integral.
+
+Still more generally, $f\colon \mathbb{R} \to \mathbb{R}$ is improperly Riemann integrable iff $f$ is improperly Henstock integrable (meaning merely that
+$$ \lim_{a \to -\infty, b \to \infty} \int_a^b f(x) \,\mathrm{d}x $$
+exists using Henstock integrals) and locally Riemann integrable except at a set of [[isolated point]]s; then the improper Riemann integral of $f$ equals its improper Henstock integral.
+
+Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ is Lebesgue integrable iff ${|f|}$ is improperly Henstock integrable; then the Lebesgue integral of $f$ equals its improper Henstock integral (which is proper if the [[support]] of $f$ is [[bounded set|bounded]], of course).
 
 
 [[!redirects Henstock integral]]
@@ -59,14 +81,30 @@ In particular, what is often taken as a *definition* of the [[improper integral|
 [[!redirects Kurzweil integrals]]
 [[!redirects Kurzweil integrable function]]
 [[!redirects Kurzweil integrable functions]]
-[[!redirects Kurzweil-Henstock integral]]
-[[!redirects Kurzweil-Henstock integrals]]
-[[!redirects Henstock-Kurzweil integrable function]]
-[[!redirects Henstock-Kurzweil integrable functions]]
 [[!redirects Henstock-Kurzweil integral]]
 [[!redirects Henstock-Kurzweil integrals]]
+[[!redirects Henstock–Kurzweil integral]]
+[[!redirects Henstock–Kurzweil integrals]]
+[[!redirects Henstock--Kurzweil integral]]
+[[!redirects Henstock--Kurzweil integrals]]
+[[!redirects Henstock-Kurzweil integrable function]]
+[[!redirects Henstock-Kurzweil integrable functions]]
+[[!redirects Henstock–Kurzweil integrable function]]
+[[!redirects Henstock–Kurzweil integrable functions]]
+[[!redirects Henstock--Kurzweil integrable function]]
+[[!redirects Henstock--Kurzweil integrable functions]]
+[[!redirects Kurzweil-Henstock integral]]
+[[!redirects Kurzweil-Henstock integrals]]
+[[!redirects Kurzweil–Henstock integral]]
+[[!redirects Kurzweil–Henstock integrals]]
+[[!redirects Kurzweil--Henstock integral]]
+[[!redirects Kurzweil--Henstock integrals]]
 [[!redirects Kurzweil-Henstock integrable function]]
 [[!redirects Kurzweil-Henstock integrable functions]]
+[[!redirects Kurzweil–Henstock integrable function]]
+[[!redirects Kurzweil–Henstock integrable functions]]
+[[!redirects Kurzweil--Henstock integrable function]]
+[[!redirects Kurzweil--Henstock integrable functions]]
 [[!redirects Denjoy integral]]
 [[!redirects Denjoy integrals]]
 [[!redirects Denjoy integrable function]]
