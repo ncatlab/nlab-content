@@ -44,16 +44,22 @@ Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \d
 
 A [[cartesian closed category]] that has a dualizing object is necessarily just a [[preorder]].
 
-(This statement is often known as _[[Joyal]]'s lemma_, recalled for instance in [Abramsky 09](#Abramsky09)). It can be slightly generalized as follows: 
+(This statement is often known as _[[Joyal]]'s lemma_, recalled for instance in [Abramsky 09](#Abramsky09)). It can be slightly strengthened as follows: 
 
 +-- {: .num_prop} 
 ###### Proposition 
-A cartesian closed category $C$ that is self-dual (carries an equivalence $N: C^{op} \to C$) is necessarily a preorder (whose posetal reflection is then a [[Heyting algebra]]). 
+A cartesian closed category $C$ that is self-dual (carries an equivalence $N: C^{op} \to C$) is necessarily a preorder (whose posetal reflection is then a [[Heyting algebra]]). If the self-duality comes from a dualizing object, then the Heyting algebra is a Boolean algebra. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Let $1$ be terminal; then $N(1)$ is an initial object $0$, and similarly $N$ takes finite products to finite coproducts (coproducts are necessary for a Heyting algebra). So all that remains is to show $C$ is a preorder. Let $x, y$ be any two objects. The number of morphisms $x \to y$ is the number of morphisms $1 \to [x, y]$, which is the number of morphisms $N([x, y]) \to N(1) = 0$. But this is at most one since the initial object is strict (if there is any $z \to 0$, then $z$ is a retract of $0 \times z \cong 0$, hence $z \cong 0$; thus there is at most one morphism $z \to 0$). 
+For the first statement, let $1$ be terminal; then $N(1)$ is an initial object $0$, and similarly $N$ takes finite products to finite coproducts (coproducts are necessary for a Heyting algebra). So it remains to show $C$ is a preorder. Let $x, y$ be any two objects. The number of morphisms $x \to y$ is the number of morphisms $1 \to [x, y]$, which is the number of morphisms $N([x, y]) \to N(1) = 0$. But this is at most one since the initial object is strict (if there is any $z \to 0$, then $z$ is a retract of $0 \times z \cong 0$, hence $z \cong 0$; thus there is at most one morphism $z \to 0$). 
+
+The second statement is immediate: if $d$ is the dualizing object, then 
+
+$$d \cong [1, d] = N(1) \cong 0$$ 
+
+so that $N(x) = [x, 0]$ is the negation and the hypothesis becomes the condition that double negation on the Heyting algebra is the identity, i.e., the Heyting algebra is a Boolean algebra. 
 =-- 
 
 ### In the category of spectra -- Anderson duality
