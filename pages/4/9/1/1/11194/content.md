@@ -40,6 +40,7 @@ Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \d
 ## Examples
 
 ### In a cartesian closed category
+ {#InACartesianClosedCategory}
 
 A [[cartesian closed category]] that has a dualizing object is necessarily just a [[poset]].
 
