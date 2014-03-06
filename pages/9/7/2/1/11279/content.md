@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Yoichiro_Nambu)
+
+## Related $n$Lab entries
+
+* [[Nambu bracket]], [[Nambu mechanics]]
+
+category: people
