@@ -40,7 +40,7 @@ Comprehensive accounts are in
 
 * Francis Borceux, _Handbook of categorical algebra_, vol. 2
 * N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
-* Joachim Lambek, _Torsion theories, additive semantics, and rings of quotients_, with app. by H. H. Storrer on torsion theories and dominant dimensions. Lecture Notes in Mathematics __177__, Springer-Verlag 1971, vi+94 pp. [MR284459](http://www.ams.org/mathscinet-getitem?mr=284459)
+* [[Joachim Lambek]], _Torsion theories, additive semantics, and rings of quotients_, with app. by H. H. Storrer on torsion theories and dominant dimensions. Lecture Notes in Mathematics __177__, Springer-Verlag 1971, vi+94 pp. [MR284459](http://www.ams.org/mathscinet-getitem?mr=284459)
  
 Historically the notion is introduced in
 
