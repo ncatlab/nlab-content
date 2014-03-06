@@ -52,7 +52,7 @@ Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[
 
 Possibilities of generalizing the IKKT model from [[Lie algebras]] to [[Lie 2-algebras]] in some [[membrane matrix model]] are explored in 
 
-* Patricia Ritter, [[Christian Sämann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+* [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
 
 [[!redirects IIB matrix model]]
