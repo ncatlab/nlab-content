@@ -87,13 +87,14 @@ Grothendieck categories are mentioned at the end of section 8.3 in
 
 The relation to complexes is in section 14.1.
 
-See also the book 
+See also books
 
 * [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
+* Nicolae Popescu, _An introduction to Abelian categories with applications to rings and modules_, Academic Press 1973
 
 The duality of Grothendieck categories with categories of modules over [[linearly compact ring]]s is discussed in
 
-*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra, 15 (1970), p. 473 --542.
+*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, []()
 
 Discussion of [[model structures on chain complexes]] in Grothendieck abelian categories is in
 
