@@ -1,0 +1,29 @@
+
+# Taylor polynomials
+* table of contents
+{: toc}
+
+## Idea
+
+The Taylor polynomials of a [[differentiable function]] approximate it by [[polynomial]] functions; the various versions of [[Taylor's theorem]] describe how good this approximation is.  The limiting case of this is the [[Taylor series]].
+
+
+## Definition
+
+Let $f$ be a [[partial function]] on a [[cartesian space]] $\mathbb{R}^d$ (or $\mathbb{C}^d$), let $c$ be a [[concrete point|point]] in the [[interior]] of $\dom f$, and suppose that $f$ is [[continuous function|continuous]] at $c$.  Let $k$ be a [[natural number]] (actually we can allow $k \geq -1$), and suppose that $f$ is [[differentiable function|differentiable]] $k$ times at $c$.  (If $k \geq 1$, then this last clause implies already that $f$ is continuous at $c$; over the [[complex numbers]], we only have to require this for $k = 1$ to get all needed derivatives.)  Although not usually included in the definition of differentiability, we must also assume that mixed [[partial derivatives]] of $f$ at $c$ are equal when they have the same order in each variable.  (This is trivial when $f$ is a function of only one variable, automatic for derivatives of order less than $k$, and always true over the complex numbers; it also holds when $f$ is [[continuously differentiable function|continuously differentiable]] $k$ times, but that condition is stronger than we need.)
+
++-- {: .num_defn}
+###### Definition
+
+The __Taylor polynomial__ of $f$ at $c$ with order $k$ is the unique [[polynomial]] in $d$ variables of degree at most $k$ whose derivatives at $c$ match those of $f$ up to order $k$.
+=--
+
+It is straightforward (by differentiating a polynomial [[ansatz]]) to find an explicit formula:
+$$ \sum_{n = 0}^k \frac{f^{(n)}(c) (x-c)^n}{n!} $$
+(in the variable $x$).  We have written this as if $f$ is a function of one variable; but interpret $n$ as a [[multi-index]] whose length $\ell$ satisfies $0 \leq \ell \leq k$, with $f^{(n)}$ the mixed [[partial derivative]] given by that multi-index, $n!$ the [[factorial]] of $\ell$, and $(x-c)^n$ a product of $\ell$ factors of the form $x_i - c_i$ (where $i$ is an index appearing in the multi-index $n$).  Then this works in any cartesian space.  (Note that we include all possible orderings of a multi-index as separate terms; this leads to repeated terms that, when combined, will cancel some of the factors in the factorial.)
+
+In the case of a function of several variables, we can also manage the maximum degrees in the various variables separately, although nobody seems to bother with this.
+
+
+[[!redirects Taylor polynomial]]
+[[!redirects Taylor polynomials]]
