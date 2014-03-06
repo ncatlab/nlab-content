@@ -75,7 +75,7 @@ A exposition of the relation between the three concepts is in
 * {#Harper} [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  
 
-* {#Harper14} [[Robert Harper]], _Computational trinitarianism_, talk, Feb 2014 ([prezi slides](http://prezi.com/fnz-4wzsygiq/computational-trinitarianism/))
+* {#Frumin14} Dan Frumin, _Computational trinitarianism_, Feb 2014 ([prezi slides](http://prezi.com/fnz-4wzsygiq/computational-trinitarianism/))
 
 An exposition with emphasis on [[linear logic]]/[[quantum logic]] and the relation to [[physics]] is in
 
