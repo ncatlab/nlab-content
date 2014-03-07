@@ -11,6 +11,7 @@ The uniform filters of ideals in a ring $R$ bijectively correspond to [[kernel f
 The most important class of uniform filters are [[Gabriel filter]]s.
 
 * Garcia Rom&#225;n, Manuel; M&#225;rquez Hern&#225;ndez, Mercedes; Jara, Pascual; Verschoren, Alain, _Uniform filters_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 40 no. 2 (1999), p. 82-126 [numdam](http://www.numdam.org/item?id=CTGDC_1999__40_2_82_0)
+* Pierre Gabriel, [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __90__ (1962), p. 323-448 [numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0)
 
 category: algebra
 [[!redirects uniform filters]]
