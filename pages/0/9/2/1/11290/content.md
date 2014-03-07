@@ -1,0 +1,12 @@
+A __quasi-abelian category__ is an [[additive category]] admitting
+the kernels and the cokernels which satisfies the following conditions:
+
+(i) the strict epimorphisms are stable by base changes,
+
+(ii) the strict monomorphisms are stable by co-base changes
+
+This is definition 2.1.1 in 
+
+* Masaki Kashiwara, _Equivariant derived category and
+representation of real semisimple Lie groups_, 
+[pdf](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/sd.pdf)
