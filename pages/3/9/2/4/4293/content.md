@@ -5,7 +5,7 @@
 
 ## Idea
 
-The Taylor series of a [[smooth function]] $f$ (at a given point $c$) is a [[formal power series]] (in $x - c$) whose [[partial sum]]s are the [[Taylor polynomial]]s of $f$ (at $c$).  As the Taylor polynomials are approximations of $f$ by [[polynomials]] (up to a given degree), so the Taylor series is an approximation of $f$ by an [[analytic function]] (or at least an [[asymptotic expansion]] that attempts to be this).
+The Taylor series of a [[smooth function]] $f$ (at a given point $c$) is a [[formal power series]] (in $x - c$) whose [[partial sum]]s are the [[Taylor polynomials]] of $f$ (at $c$).  As the Taylor polynomials are approximations of $f$ by [[polynomials]] (up to a given degree), so the Taylor series is an approximation of $f$ by an [[analytic function]] (or at least an [[asymptotic expansion]] that attempts to be this).
 
 See also [[Taylor's theorem]] for error estimates in the convergence of Taylor series.
 
