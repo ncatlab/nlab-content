@@ -414,6 +414,8 @@ Strictification is discussed in
 [[!redirects category-theoretic models of dependent types]]
 [[!redirects split model of type theory]]
 [[!redirects split models of type theory]]
+[[!redirects categorical semantics of dependent types]]
+[[!redirects category-theoretic semantics of dependent types]]
 
 [[!redirects comprehension category]]
 [[!redirects comprehension categories]]
