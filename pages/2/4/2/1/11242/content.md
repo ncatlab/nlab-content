@@ -24,11 +24,15 @@ A kind of [[topological space]] about which one can reason "effectively", hence 
 
 ## Related concepts
 
+* [[formal topology]] Every effective topological space $X$ defines a formal space. If 
+$X$ is `constructively complete', then the formal points of $X$ coincide with its effective points; see [Spreen](Spreen).
 * [[equilogical space]]
 
 ## References
 
 * Dieter Spreen, _On effective topological spaces_, The Journal of Symbolic Logic, Vol. 63, No. 1, Mar., 1998  ([JSTOR](http://www.jstor.org/stable/2586596))
+
+* {#Spreen} Dieter Spreen, Effectively Given Spaces, Domains, and Formal Topology, 2010 [PDF](http://www.uni-siegen.de/fb6/tcs/team/spreen/public/frauenwoerth2010.pdf)
 
 See the references at _[[computable analysis]]_.
 
