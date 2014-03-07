@@ -19,9 +19,9 @@
 
 ## Definition
 
-A _spinor bundle_ on a [[smooth manifold]] with [[spin structure]] is a $\rho$-[[associated bundle]] associated to the [[spin group]]-[[principal bundle]] lifting the [[tangent bundle]], for $\rho : \mathbf{B} Spin \to $ [[Vect]] a [[representation]] of the [[spin group]].
+A _spinor bundle_ on a [[smooth manifold]] with [[spin structure]] is a $\rho$-[[associated bundle]] associated to the [[spin group]]-[[principal bundle]] lifting the [[tangent bundle]], for $\rho : \mathbf{B} Spin \to $ [[Vect]] a [[spin representation]].
 
-A [[section]] of a spinor bundle is called a **spinor**.
+A [[section]] of a spinor bundle is called a **spinor** (a [[fermion]] [[field (physics)|field]])
 
 ## Related concepts
 
