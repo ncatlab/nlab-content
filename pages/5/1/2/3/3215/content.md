@@ -44,3 +44,5 @@ A [[model category]] with a [[site]] structure on its [[homotopy category]] is c
 
 [[!redirects model topology]]
 [[!redirects model pretopology]]
+
+[[!redirects model sites]]
