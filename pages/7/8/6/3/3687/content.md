@@ -76,7 +76,13 @@ A review and status report is in
 
 Other reviews include
 
-* Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009. (very readable!)
+* [[Paul Aspinwall]], [[Tom Bridgeland]], Alastair Craw, [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], Balazs Szendroi, P. Wilson,
+
+  _Dirichlet branes and mirror symmetry_, 
+
+  Clay Mathematics Monogrph Volume 4, Amer. Math. Soc. Clay Math. Institute 2009 
+
+  ([pdf](http://www2.maths.ox.ac.uk/cmi/library/monographs/cmim04.pdf))  (very readable!)
 
 The relation to [[T-duality]] was established in
 
