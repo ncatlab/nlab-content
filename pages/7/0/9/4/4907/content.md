@@ -1,6 +1,11 @@
 
 * [website](http://www.staff.science.uu.nl/~ooste110/)
 
+## some writings
+
+* {#vanOosten08} [[Jaap van Oosten]], _Realizability: an introduction to its categorical side_, Studies in Logic and the Foundations of Mathematics, vol. 152, Elsevier, 2008 ([preface pdf](http://www.staff.science.uu.nl/~ooste110/boekbegin.pdf))
+
+
 ## Related entries
 
 * [[realizability]]
