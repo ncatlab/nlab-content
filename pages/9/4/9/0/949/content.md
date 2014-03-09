@@ -23,7 +23,9 @@ __Predicative mathematics__ is a way of doing [[mathematics]] without allowing i
 
 Informally, a definition is _impredicative_ if it refers to a totality which includes the thing being defined.  For example, the definition of a particular real number $x$ as the least upper bound of a given set $A$ is impredicative, because it characterizes $x$ as a particular element of some set (the upper bounds of $A$) which includes $x$.  Possibly $x$ can be defined in some other way and then proved to be the least upper bound of $A$, but to define it thus by fiat is impredicative.
 
-There are (at least) two broad schools of the [[foundations]] of predicative mathematics that don\'t talk much to each other: one school that uses lower-order forms of [[higher-order logic]] (or the [[set theory]] that this justifies) and [[classical logic]], and a [[constructive mathematics|constructive]] school that uses first-order [[type theory]] (or the set theory that this justifies) and [[intuitionistic logic]].  The common ground is that both schools reject [[power set]]s; other axioms may vary.  Here we tend to think of what predicative mathematics allows [[Set|the category of sets]] to be.
+There are (at least) two broad schools of the [[foundations]] of predicative mathematics that don\'t talk much to each other: one school that uses lower-order forms of [[higher-order logic]] (or the [[set theory]] that this justifies) and [[classical logic]], and a [[constructive mathematics|constructive]] school that uses first-order [[type theory]] (or the set theory that this justifies) and [[intuitionistic logic]].  The common ground is that both schools reject [[power sets]]; other axioms may vary.  Here we tend to think of what predicative mathematics allows [[Set|the category of sets]] to be.
+
+Constructive predicativists sometimes accept principles (such as [[function sets]] and the [[axiom of replacement]]) that classical predicativists must reject because they imply impredicative results using [[excluded middle]].  Such mathematics may be called _weakly predicative_.
 
 
 ## Impredicative axioms
@@ -68,9 +70,14 @@ Of course, function sets can be constructed out of power sets (using *bounded* s
 
 With [[excluded middle]], the set of truth values is easy to achieve, as $\{0,1\}$; in particular, if you have $\mathbf{N}$, then you certainly have $\Omega$.  So the classical school of predicativism rejects function sets.
 
-The constructive school, however, often accepts function sets.  In this school, the sequence above is fine.  Actually, the slightly stronger axiom of [[subset collection]] is adopted by [[Peter Aczel]]\'s $CZF$ and justified by [[Per Martin-Löf]]\'s $ITT$.
+The constructive school, however, often accepts function sets (thus being *weakly* predicative).  In this school, the sequence above is fine.  Actually, the slightly stronger axiom of [[subset collection]] is adopted by [[Peter Aczel]]\'s $CZF$ and justified by [[Per Martin-Löf]]\'s $ITT$.
 
 [[Brouwer]], on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
+
+
+### Excluded middle
+
+Classical predicativists of course accept [[excluded middle]]; otherwise they would be [[constructivism|constructivists]].  But from the perspective of weakly predicative constructive mathematics, excluded middle is impredicative, since it implies power sets (given function sets) and unbounded separation (given replacement).
 
 
 ### Ill-founded structures
@@ -121,9 +128,11 @@ A surprisingly large amount of mathematics can be formalised, using various codi
 
 Constructive mathematics generally requires great care with anything after the middle of the 19th century other than basic [[discrete mathematics]], but requiring it to be predicative does not usually add much difficulty, as long as function sets are allowed.  This even extends to [[category theory]], which is not usually contemplated in the classical approach.  (However, the internal logic of a $\Pi$-$W$-pretopos is certainly not conservative over $PA$; it already proves consistency of the latter.)
 
+
 ## Related concepts
 
 * [[predicative topos]]
+
 
 ## References
 
@@ -141,6 +150,7 @@ Discussion of [[predicative toposes]] is in
 
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
+
 
 ## Discussion
 
@@ -188,6 +198,8 @@ _Mike_: Also, the [[exact category|ex/lex completion]] takes extensive categorie
 
 _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinking about small-colimit completions of toposes, which are examples of ex/lex completions of toposes that are (seemingly) almost never toposes. 
 
+
+[[!redirects weakly predicative mathematics]]
 
 [[!redirects predicative mathematics]]
 [[!redirects predicative logic]]
