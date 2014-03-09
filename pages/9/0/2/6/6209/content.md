@@ -1,5 +1,5 @@
 
-> This entry is about the class of [[topological spaces]] satifiying the Baire category theorem. For the space of irrational numbers underlying _[[Kleene's second algebra]]_ and used in [[computable analysis]], see instead at _[[Baire space (computability)]]_.
+> This entry is about the class of [[topological spaces]] satifiying the Baire category theorem. For *the* Baire space used in computable analysis, descriptive set theory, etc, see instead at _[[Baire space of sequences]]_.
 
 # Baire spaces
 * table of contents
@@ -9,7 +9,7 @@
 
 A Baire space is a [[topological space]] that satisfies the conclusion of the [[Baire category theorem]].
 
-It should not be confused with the [[space of irrational numbers]] (sometimes called 'Baire space' and coincidentally -- or maybe not so coincidentally! i.e., not by complete accident -- an example of a Baire space in our sense). Nor should it be confused with a [[Baire set]] (a [[subset]] somewhat analogous to a [[measurable set]] but defined by a topological property).
+It should not be confused with the [[Baire space of sequences]] (which is an example of a Baire space in our sense but not a prominent one). Nor should it be confused with a [[Baire set]] (a [[subset]] somewhat analogous to a [[measurable set]] but defined by a topological property).
 
 
 ## Definition
@@ -27,7 +27,7 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 *  A _dense_ $G_\delta$ set (i.e. a countable intersection of dense opens) in a Baire space is a Baire space under the subspace topology. See Dan Ma's blog, specifically Theorem 3 [here](https://dantopology.wordpress.com/2012/06/02/a-question-about-the-rational-numbers/). 
 
-*  As mentioned above, the space of [[irrational numbers]], or equivalently of [[infinite sequences]] of [[natural numbers]], is also known as 'Baire space'.  It is a Baire space in the present sense (since it admits a complete metric), but not much should be made of the fact it has the same name.  (It is much more important that Baire space is a [[Polish space]] than that Baire space is a Baire space.  Of course, every Polish space is a Baire space too, so maybe it is important!)
+*  As mentioned above, the space of [[infinite sequences]] of [[natural numbers]], or equivalently (up to topology) the space [[irrational numbers]], is also known as '[[Baire space of sequences|Baire space]]'.  It is a Baire space in the present sense (since it admits a complete metric), but the coincidence of names appears to be just a coincidence.  (It is much more important that Baire space is a [[Polish space]] than that Baire space is a Baire space.  Of course, every Polish space is a Baire space too.)
 
 
 [[!redirects Baire space]]
