@@ -96,5 +96,8 @@ Homological mirror symmetry is one of the main motivations and statements of the
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological mirror symmetry and torus fibrations_, in Symplectic geometry and mirror symmetry (Seoul, 2000),  203--263, World Sci. Publ., River Edge, NJ, 2001. 
 
+* [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv](http://arxiv.org/abs/1402.7364v1).
+
+
 [[!redirects derived noncommutative algebraic geometry]] 
 [[!redirects noncommutative derived algebraic geometry]]
