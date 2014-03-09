@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### Operator algebra
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 #### Index theory
@@ -16,24 +16,19 @@
 =--
 =--
 =--
-
 =--
 =--
 
-
-
-
-
-#C*-correspondences
+# $C^*$-correspondences
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 Roughly speaking, a $C^*$-[[C-star-correspondence|correspondence]] between two $C^*$-[[C*-algebra|algebras]] $A$ and $B$ is a generalised $C^*$-[[C*-algebra|homomorphism]] from $A$ to $B$. 
- 
-##Definition
-{#Definition}
+
+
+## Definition {#Definition}
 
 +-- {: .num_defn #CstarCorrespondence}
 ###### Definition
@@ -46,10 +41,11 @@ $$
 A\stackrel{(E,\varphi)}{\to} B,
 $$ 
 or just $A\stackrel{E}{\to}B$, and call this a $C^*$-[[C-star-correspondence|correspondence]].
-
 =--
 
+
 ## Properties
+
 ### Composition of correspondences
 
 +-- {: .num_defn #InternalTensorPRoduct}
@@ -71,7 +67,6 @@ $$
 & a & \mapsto & \varphi(a)(\cdot)\otimes_{\psi}\psi(a)(\cdot)
 \end{array}
 $$
-
 =--
 
 
@@ -94,12 +89,16 @@ F & \stackrel{\psi(a)}{\longrightarrow} & F
 $$
 =--
 
+
 ## The $2$-category $\mathfrak{Corr}$ 
+
+...
 
 
 ## Related concepts
 
 * [[Hilbert bimodule]]
+
 
 ## References
 
@@ -109,8 +108,8 @@ Relation to [[KK-theory]]:
 
 * [[El-kaioum Moutuou]], _[Equivariant KK-theory for generalised actions and Thom isomorphism in groupoid twisted K-theory](https://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9179799&fulltextType=RA&fileId=S1865243313000585)_
 
-[[!redirects C*-correspondences]]
-[[!redirects C-star-correspondences]]
+
 [[!redirects C*-correspondence]]
+[[!redirects C*-correspondences]]
 [[!redirects C-star-correspondence]]
-  
+[[!redirects C-star-correspondences]]
