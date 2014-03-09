@@ -16,11 +16,17 @@
 
 ## Idea
 
-Under _[[propositions as types]]_ in [[homotopy type theory]], a [[type]] $P$ is called a _mere proposition_ when it is really not _more_ than a [[proposition]], hence when [[isProp]](P) is an [[inhabited type]].
+Under _[[propositions as types]]_ in [[homotopy type theory]], a [[type]] $P$ is called a _mere proposition_ when it is really not _more_ than a [[proposition]], hence when [[isProp]](P) is an [[inhabited type]]. 
+
+This is the same concept as that of _[[h-proposition]]_ as well as that of _[[(-1)-truncated]] [[homotopy type]]_ and _[[(-1)-groupoid]]_ (if these are understood in the general context of [[geometric homotopy types]]). 
+
+The terminology "mere proposition" is meant to better work in informal language in view of the [[propositions as types]] interpretation, where every type $X$ "is" a proposition in a way, or rather represents a proposition, namely the mere proposition which is its (-1)-truncation [[isInhab]](X).
+
 
 ## Related concepts
 
-* [[h-proposition]]
+[[!include homotopy n-types - table]]
+
 
 ## References
 
