@@ -13,19 +13,21 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-_Exact real computer arithmetic_ refers to treatment of [[real number]] [[arithmetic]] on [[computers]] to finite (necessarily) but arbitrary precision. This is in contrast with what is called [[floating point arithmetic]] which uses just one fixed finite approximation of the real numbers by [[natural numbers]]. 
+_Exact real computer arithmetic_ refers to treatment of [[real number]] [[arithmetic]] on [[computation|computers]] to finite (necessarily) but arbitrary precision. This is in contrast with what is called [[floating-point arithmetic]] which uses just one fixed finite approximation of the real numbers by [[natural numbers]]. 
 
 Exact real computer arithmetic essentially implements what in mathematical [[computability theory]] is known as the [[Type Two Theory of Effectivity|type-II theory]] (in contrast to the "type-I" theory of [[partial recursive functions]] acting just on [[natural numbers]]). The formal mathematical definition of [[computable function (analysis)]] is the core topic of [[constructive analysis]]/[[exact analysis]].
+
 
 ## Related concepts
 
 * [[topological domain theory]]
+
 
 ## References
 
@@ -43,4 +45,7 @@ A collection of further references is listed at
 
 * _[Exact computation](http://wwwhomes.doc.ic.ac.uk/~ae/exact-computation/)_
 
+
+[[!redirects exact real computer arithmetic]]
 [[!redirects exact real arithmetic]]
+[[!redirects exact arithmetic]]
