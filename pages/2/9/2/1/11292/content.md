@@ -1,10 +1,11 @@
-# Continuous Truth
+
+# Continuous truth
 * table of contents
 {: toc}
 
 ## Idea
 
-Countinous truth provides a topos semantics for Brouwer's continuity principles in [[intuitionistic mathematics]].  The topos is intuitively the gross topos of sheaves on the some category of spaces.
+Continuous truth provides a [[topos semantics]] for Brouwer's continuity principles in [[intuitionistic mathematics]].  The topos is intuitively the [[gros topos]] of sheaves on some category of spaces.
 
 
 ## References
@@ -14,3 +15,8 @@ Countinous truth provides a topos semantics for Brouwer's continuity principles 
 * van der Hoeven, Moerdijk,: On choice sequences determined by spreads. 
 
 * Xu, Escardo: A constructive model of uniform continuity. 2013 [PDF](http://www.cs.bham.ac.uk/~mhe/papers/xu-escardo.pdf)
+
+
+[[!redirects continuous truth]]
+[[!redirects Continuous truth]]
+[[!redirects Continuous Truth]]
