@@ -32,7 +32,7 @@ However, the versions of the theorem stated below are constructively valid, and 
 Given sets $S$ and $V$, suppose that there is a [[surjection]] from $S$ to the [[function set]] $S \to V$ (also written $V^S$).  Then every map $n\colon V \to V$ has a [[fixed point]]; that is, $n(x) = x$ for some $x\colon V$.
 =--
 
-(See also at _[[Lawvere's fixed point theorem]]_.)
+(This generalizes to _[[Lawvere's fixed point theorem]]_.)
 
 +-- {: .proof}
 ###### Proof
