@@ -1,5 +1,5 @@
 
-> This entry is about the concept in [[computability]]. For another concept of the same name in [[topology]] proper see at _[[Baire space]]_.
+> This entry is about *the* Baire space of sequences of natural numbers. For another concept of the same name in [[topology]] proper, see at _[[Baire space]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,20 +11,21 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In the study of [[computability]], by _Baire space_ is meant the [[topological space]] $\mathbb{N}^{\mathbb{N}}$ of infinite sequences of [[natural numbers]] equipped with the [[product topology]].
+In the study of [[computability]], [[descriptive set theory]], etc, by _Baire space_ is meant the [[topological space]] $\mathbb{N}^{\mathbb{N}}$ of infinite sequences of [[natural numbers]] equipped with the [[product topology]].
 
 This [[continuous functions]] from Baire space to itself serve the role of _computable functions_ in [[computable analysis]]. See at _[[computable function (analysis)]]_.
+
 
 ## Related concepts
 
 [[!include computable mathematics -- table]]
+
 
 ## References
 
@@ -36,3 +37,10 @@ Textbook accounts include
 
 * {#Weihrauch00} [[Klaus Weihrauch]], section 2.3 of _Computable Analysis_ Berlin: Springer, 2000
 
+
+[[!redirects Baire space (computability)]]
+[[!redirects Baire space (set theory)]]
+[[!redirects Baire space (descriptive set theory)]]
+[[!redirects Baire space of sequences]]
+[[!redirects Baire space of irrational numbers]]
+[[!redirects set-theoretic Baire space]]
