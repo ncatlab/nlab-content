@@ -2,3 +2,7 @@
 * [website](http://www.cs.ru.nl/~spitters/)
 
 category: people
+
+
+[[!redirects Bas Spitters]]
+[[!redirects BasSpitters]]
