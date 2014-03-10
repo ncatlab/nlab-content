@@ -173,6 +173,10 @@ Hence stable homotopy theory and homological algebra are both special cases of t
 
 ## Properties
 
+### Enrichment over spectra
+
+Stable $\infty$-categories are naturally [[enriched (∞,1)-categories]] over the [[(∞,1)-category of spectra]] ([Gepner-Haugseng 13](#GepnerHaugseng13)).
+
 ### The homotopy category: triangulated categories
 
 The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a stable $(\infty,1)$-category $C$ -- its [[decategorification]] to an ordinary [[category]] -- is less well behaved than the original stable $(\infty,1)$-category, but remembers a shadow of some of its structure: this shadow is the structure of a [[triangulated category]] on $Ho(C)$
@@ -287,6 +291,7 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 * [[(∞,1)-category of (∞,1)-modules]]
 
+
 * [[Fukaya category]], [[Lagrangian cobordism]]
 
 ## Related concepts
@@ -336,8 +341,9 @@ For discussion of the [[stable model category]] models of stable $\infty$-catego
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
  {#SchwedeShipley}
 
+The enrichment over spectra is made precise in
 
-
+* {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
 [[!redirects stable (infinity,1)-category]]
 [[!redirects stable (infinity, 1)-category]]
