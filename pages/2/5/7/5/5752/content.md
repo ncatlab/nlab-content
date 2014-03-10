@@ -1,5 +1,5 @@
 
 
-* [website](http://www.apmaths.uwo.ca/people/ikhavki.shtml) (outdated)
+* current [website](http://www.science.unitn.it/~khavkine/)
 
 category: people
