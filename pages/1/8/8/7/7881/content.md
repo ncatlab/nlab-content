@@ -15,7 +15,7 @@
 
 ## Idea
 
-The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every set of real numbers is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers ("the [[continuum]]").  It cannot be proven *or* disproven from any of the usual axioms of set theory.
+The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every [[subset]] of [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers ("the [[continuum]]").  It cannot be proven *or* disproven from any of the usual axioms of set theory.
 
 
 ## Statement
@@ -114,7 +114,13 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 
 ## References
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in geometry and logic]]_, VI.2, VI.3
+* Stanford Encyclopedia of Philosophy, _[The Continuum Hypothesis](http://plato.stanford.edu/entries/continuum-hypothesis/)_
+
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], sections VI.2, VI.3 of _[[Sheaves in geometry and logic]]_
+
+
+
 
 * M.C. Fitting, _Intuitionistic logic, model theory and forcing_, North-Holland (1969)
 
