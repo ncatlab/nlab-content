@@ -39,7 +39,7 @@ Another axiom one may require is the converse of (4):
 
 *  _separation_:  $x=y$ if $\{x\}\;\delta\;\{y\}$
 
-In general, we say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delta\;B$, and __apart__ otherwise.  We also write $A \ll B$ if $(X \setminus A)\;\delta\;B$.
+In general, we say that $A$ and $B$ are __proximate__ (or __near__) if $A\;\delta\;B$, and __apart__ otherwise.  We also write $A \ll B$ if not $A\;\delta\;(X \setminus B)$.
 
 A __proximity space__ (or set--set __nearness space__) is a set $X$ equipped with a proximity structure $\delta$.  The proximity structure or proximity space is __separated__ if it satisfies the separation axiom (the converse of 4); note that many authors require this by default.
 
