@@ -44,6 +44,18 @@ A construction that should be a model for this notion in terms of a [[model cate
 
 Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[semi-strict infinity-category|semi-strict]] $\infty$-enrichments given by ordinary $V$-[[enriched categories]] equipped with a notion of weak equivalence that remembers that these are presentations for enriched $(\infty,1)$-categories. See also _[[enriched homotopical category]]_. 
 
+## Examples
+ {#Examples}
+
+A [[stable (∞,1)-category]] is naturally enriched in the [[(∞,1)-category of spectra]].
+
+More generally, for $R$ an [[E-∞ ring]] then an $R$-[[linear (∞,1)-category]] is naturally enriched in $R$-[[∞-modules]]. (This includes the previous case for $R$ the [[sphere spectrum]].)
+
+A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
+
+([Gepner-Haugseng 13](#GepnerHaugseng13))
+
+
 ## Related concepts
 
 * [[Segal category]], [[Segal n-category]]
@@ -62,7 +74,7 @@ Once a model category $V$ for $\mathcal{V}$ has been chosen, one can consider [[
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
-* [[David Gepner]], Rune Haugseng, _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
+* {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
 [[!redirects enriched (∞,1)-category]]
 [[!redirects enriched (∞,1)-categories]]
