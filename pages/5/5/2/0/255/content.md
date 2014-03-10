@@ -202,7 +202,7 @@ Detailed accounts:
 
 * [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
-* [[Francis Borceux|F. Borceux]], _[[Handbook of Categorical Algebra]_,  vol. 2, Ch. 4 "Monads" 
+* [[Francis Borceux|F. Borceux]], _[[Handbook of Categorical Algebra]]_,  vol. 2, Ch. 4 "Monads" 
  {#Borceux}
 
 * [[Ross Street]], _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168 (<a href="http://dx.doi.org/10.1016/0022-4049(72)90019-9">doi</a>)
