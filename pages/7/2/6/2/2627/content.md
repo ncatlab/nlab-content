@@ -172,7 +172,7 @@ $$
   \,.
 $$
 
-The equivalence sends a bimdoule $N$ to the functor given by the [[tensor product]] over $R_1$:
+The equivalence sends a bimodule $N$ to the functor given by the [[tensor product]] over $R_1$:
 
 $$
   (-) \otimes N \;\colon\;
