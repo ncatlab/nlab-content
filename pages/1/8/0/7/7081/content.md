@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,18 +8,15 @@
 =--
 =--
 
-# h-Propositions
+# Mere Propositions
 * table of contents
 {: toc}
 
 ## Idea
 
-In [[homotopy type theory]], the notion of **h-proposition** (or just a **proposition**, if no ambiguity will result) is an internalization of the notion of [[proposition]] / [[(-1)-truncated]] object.
+In [[homotopy type theory]], the notion of **mere proposition** is an internalization of the notion of [[proposition]] / [[(-1)-truncated]] object.  Mere propositions are also called **h-propositions**, types of [[h-level]] $1$, $(-1)$-[[truncated types]], or even just **propositions** if no ambiguity will result.  Semantically, mere propositions correspond to [[(-1)-groupoids]] or more generally [[(-1)-truncated objects]].
 
-h-Propositions are how [[logic]] is embedded into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.
-
-
-h-Propositions are also said to be of **[[h-level]] $1$** or to be **[[mere propositions]]**.
+Mere propositions are one way to embed [[logic]] into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.  For many purposes, this is the "correct" way to embed logic (as opposed to the [[propositions as types]] approach --- for instance, the PAT version of [[excluded middle]] contradicts the [[univalence axiom]], whereas the mere-propositional version does not).
 
 ## Definition
 
@@ -95,11 +91,12 @@ in global context, which has a global element precisely when $isProp(A)\to B$ ha
 
 ## References
 
-[[Coq]]-code for h-propositions is in 
+* [section 3.3](http://planetmath.org/33merepropositions) of [[Homotopy Type Theory -- Univalent Foundations of Mathematics]]
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/HLevel.v)
 
-
+[[!redirects mere propositions]]
+[[!redirects h-proposition]]
 [[!redirects h-propositions]]
 [[!redirects h-prop]]
 [[!redirects h-props]]
