@@ -1,11 +1,23 @@
 
 * [website](http://www.nd.edu/~stolz/)
 
-#related $n$Lab entries#
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Stephan_Stolz)
+
+## some writings
+
+* with [[Peter Teichner]]: 
+
+  * _[[What is an elliptic object?]]_
+
+  * _[Supersymmetric field theories and generalized cohomology](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_
+
+## related $n$Lab entries
+
+* [[Stolz conjecture]]
 
 * [[geometric models for tmf]]
 
-  * with [[Peter Teichner]]: [[What is an elliptic object?]]
+
 
 
 category: people
