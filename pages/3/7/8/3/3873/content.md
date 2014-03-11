@@ -138,6 +138,8 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 * [[Fredholm module]], [[K-homology]], [[KK-theory]]
 
+* [[Lichnerowicz formula]]
+
 ## References
 
 Textbooks include
