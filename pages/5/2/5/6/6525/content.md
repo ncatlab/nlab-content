@@ -66,3 +66,5 @@ To some degree, and with appropriate caveats, one can do analysis and number the
 * John H. Conway, _On Numbers and Games_ ($2^{nd}$ edition), A.K. Peters, Ltd (2001). 
 
 * [[Donald Knuth|Donald E. Knuth]], _Surreal numbers_, Addison-Wesley (1974) 
+
+[[!redirects surreal numbers]] 
