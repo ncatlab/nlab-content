@@ -249,6 +249,8 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 ## Related concepts
 
+* [[enriched monad]]
+
 * [[enriched bicategory]]
 
 * [[enriched (∞,1)-category]]
