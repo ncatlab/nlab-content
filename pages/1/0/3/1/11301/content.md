@@ -1,0 +1,6 @@
+
+In [[Riemannian geometry]] given any [[function]]/[[functional]] on the space of [[Riemannian metrics]] $g$ on some [[manifold]] $X$, then its _large volume limit_ is, if it exists, the [[limit of a sequence|limit]] of the functional evaluated on a sequence $t g$ of metrics as $t \to \infty$. 
+
+This plays a role in particular in the studies of [[sigma-model]] [[quantum field theory]] with [[target space]] $(X,g)$. Here the large volume limit may equivalently be thought of as the limit in which the extension of the [[brane]] described by the $\sigma$-model vanishes. 
+
+[[!redirects large volume limits]]
