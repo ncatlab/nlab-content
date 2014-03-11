@@ -40,6 +40,15 @@ $$
 
 from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _[[sigma-orientation]]_, the [[string orientation of tmf]].
 
+## Properties
+
+### Stolz conjecture
+
+The _[[Stolz conjecture]]_ due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its Witten genus vanishes.
+
+
+
+
 ## Related concepts
 
 * [[elliptic Chern character]]
@@ -108,16 +117,16 @@ and for more on the [[sigma-orientation]] see
 
 * [[Matthew Ando]], _The sigma orientation for analytic circle-equivariant elliptic cohomology_, Geom. Topol. 7 (2003) 91-153 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
 
+* [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
+
 
 Discussion of the relation to [[vertex operator algebras]] is in 
 
 * Chongying Dong, _Elliptic Genus and Vertex Operator Algebras_, ([pdf](http://www.math.jussieu.fr/~ma/mypubli/dlvoaPAMQ05.pdf))
 
-Other references include
+The [[Stolz conjecture]] on the Witten genus is due to
 
-* [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996),
-
-* [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
+* {#Stolz96} [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996),
 
 Constructions of the [[sigma-model]] [[QFT]] that is supposed to give the Witten genus are proposed 
 
