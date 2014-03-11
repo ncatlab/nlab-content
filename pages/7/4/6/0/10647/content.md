@@ -9,11 +9,15 @@ A [[curvature]] [[differential 2-form]] with values in scalars obtained from the
 
 ## Related concepts
 
+* [[scalar curvature]]
+
 * [[Einstein-Hilbert action]]
 
 * [[Einstein equations of motion]]
 
 * [[Einstein manifold]]
+
+
 
 ## References
 
