@@ -75,6 +75,7 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 * [[commutative monad]]
 
+* [[enriched monad]]
 
 ## References 
 
