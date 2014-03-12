@@ -79,4 +79,8 @@ This is for instance the case at least over the point for the [[A-hat genus]] $M
 [[!include genera and partition functions - table]]
 
 
+## References
+
+* Manifold Atlas, _[Genus of a multiplicative series](http://en.wikipedia.org/wiki/Genus_of_a_multiplicative_sequence)_
+
 [[!redirects genera]]
