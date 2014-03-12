@@ -21,7 +21,7 @@
 
 ##Idea 
 
-Persistent homology is a [[homology theory]] adapted to a [[computation|computational]] context. It keeps track of homology classes which stay 'persistent' when the approximate image of a space gets refined to higher resolutions.  
+Persistent homology is a [[homology theory]] adapted to a [[computation|computational]] context, for instance, in analysis of large data serts. It keeps track of homology classes which stay 'persistent' when the approximate image of a space gets refined to higher resolutions.  
 
 
 ## More detail
