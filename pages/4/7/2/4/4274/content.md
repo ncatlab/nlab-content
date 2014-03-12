@@ -25,7 +25,7 @@
 
 The original _Witten genus_ is an [[elliptic genus]] evaluated on the [[Tate curve]], hence a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
 
-Witten obtained this originally as the [[partition function]] of the [[heterotic string]] in the [[perturbation theory]] about constant [[worldsheet]] configurations. This is what the [[Tate curve]] expresses.
+Witten obtained this originally as a [[large volume limit]] of the [[partition function]] of the [[heterotic string]] in the [[perturbation theory]] about constant [[worldsheet]] configurations. This is what the [[Tate curve]] expresses.
 
 The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
 [[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
@@ -87,6 +87,12 @@ Surveys are in
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
 * [[Anand Dessai]], _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+
+Further discussion of the idea of Dirac operators on loop space includes
+
+* C. H. Taubes, _$S^1$-actions and elliptic genera_, Commun. Math. Phys. 122, 455-526 (1989)
+
+* {#Landweber99} [[Gregory Landweber]], _Dirac operators on loop space_ PhD thesis (Harvard 1999) ([pdf](http://math.bard.edu/greg/LoopDirac.pdf))
 
 
 Further discussion of the relation to [[quantum anomalies]] and the [[Green-Schwarz mechanism]] ([[string structure]], [[string^c structure]]) is in 
@@ -161,4 +167,3 @@ For the moment see the references at _[[string^c structure]]_ for more on this.
 
 [[!redirects twisted Witten genus]]
 [[!redirects twisted Witten genera]]
-
