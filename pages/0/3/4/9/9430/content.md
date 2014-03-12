@@ -48,7 +48,9 @@ The idea of *persistent homology* is to look for features that persist for some 
 * Robert J. Adler, Omer Bobrowski, Matthew S. Borman, Eliran Subag, Shmuel Weinberger, _Persistent homology for random fields and complexes_ Institute of Mathematical Statistics Collections __6__:124&#8211;143, 2010 [arxiv/1003.1001](http://arxiv.org/abs/1003.1001)
 * Robert J. Adler, Omer Bobrowski, Shmuel Weinberger, _Crackle: the persistent homology of noise_, [arxiv/1301.1466](http://arxiv.org/abs/1301.1466)
 * Pawe&#322; D&#322;otko, Hubert Wagner, _Computing homology and persistent homology using iterated Morse decomposition_, [arxiv/1210.1429](http://arxiv.org/abs/1210.1429)
-
+* G. Carlsson, V. de Silva, _Zigzag persistence_, [arXiv:0812.0197](http://arxiv.org/abs/0812.0197)
+* G. Carlsson, _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308.
+* Francisco Belch&#237; Guillam&#243;n, Aniceto Murillo Mas, _A-infinity persistence_, [arxiv/1403.2395](http://arxiv.org/abs/1403.2395)
 
 category: topology
 
