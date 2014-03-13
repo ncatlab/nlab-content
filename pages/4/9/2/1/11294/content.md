@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-The [[real number]] conventionally denoted $e$ (a notation credited to Euler) is the base of the natural [[logarithm]]; it is approximately 2.718281828 in decimal notation. 
+The [[real number]] conventionally denoted $e$ (a notation credited to [[Euler]], hence also called the _[[Euler number]]_) is the base of the natural [[logarithm]]; it is approximately 2.718281828 in decimal notation. 
 
 ## Definition 
 
@@ -25,3 +30,5 @@ Equivalently, imagine four ants situated at the corners of a square, and imagine
 * [Wikipedia](http://en.wikipedia.org/wiki/E_%28mathematical_constant%29) 
 
 * Eli Maor, _e: The Story of a Number_, Princeton University Press (1994). ISBN 0-691-05854-7. 
+
+
