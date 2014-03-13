@@ -1,4 +1,6 @@
 
+> under construction and incoherent
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,12 +25,14 @@
 
 ## Idea
 
-The original _Witten genus_ is an [[elliptic genus]] evaluated on the [[Tate curve]], hence a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
+The original _Witten genus_ is a [[genus]] with [[coefficients]] in [[power series]] in one variable.
 
-Witten obtained this originally as a [[large volume limit]] of the [[partition function]] of the [[heterotic string]] in the [[perturbation theory]] about constant [[worldsheet]] configurations. This is what the [[Tate curve]] expresses.
+Witten obtained this ([Witten 87](#Witten87)) as the [[large volume limit]] of the [[partition function]] of the [[heterotic string]], hence in the [[perturbation theory]] about constant [[worldsheet]] configurations. This is what the [[Tate curve]] expresses.
+
+In ([Witten 86](#Witten86)) it is suggested, by regarding the [[superstring]] [[sigma-model]] as [[quantum mechanics]] on the [[smooth loop space]] of its [[target space]], that the Witten genus may be thought of as the $S^1$-equivariant [[A-hat genus]] on loop space, hence the [[index]] of a [[Dirac operator]] on loop space.
+
 
 The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
-[[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
 
 As such it can be understood as the [[partition function]] of an $N=1$ $d=2$ [[sigma-model]] [[SCFT]] ("the [[heterotic string]]"). Formalizations of this construction exist both in [[AQFT]]-type ([Costello](#Costello)) and in [[FQFT]]-type [[quantum field theory]] ([Stolz-Teichner]())
 
@@ -41,6 +45,29 @@ $$
 from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also called the _[[sigma-orientation]]_, the [[string orientation of tmf]].
 
 ## Properties
+
+### Characteristic series
+
+The [[characteristic series]] of the Witten genus as a [[power series]] in $z$ with [[coefficients]] in formalpower series over $\mathbb{Q}$ is
+
+$$
+  \frac{z/2}{sinh(z/2)}
+  \prod_{n \geq 1}
+  \frac{(1-q^n)^2}{(1-q^n e^z)(1-q^n e^{-z})}
+$$
+
+### Integrality and modularity
+
+The Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ on manifolds with [[spin structure]] (by its expression as a power series of [[A-hat genera]] and their integrality on spin manifolds). 
+
+On manifolds with [[string structure]] then its takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
+
+
+$$
+  f(-1/\tau) = (-\tau)^n f(\tau)
+  \,.
+$$
+
 
 ### Stolz conjecture
 
@@ -63,12 +90,10 @@ The _[[Stolz conjecture]]_ due to ([Stolz 96](#Stolz96)) asserts that if $X$ is 
 
 The original reference on the [[string theory|string theoretic]] analytic interpretation of [[elliptic genera]] and on the Witten genus is
 
-* [[Edward Witten]], 
-
-  * _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
+* {#Witten87} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
 
 
-  * _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
+* {#Witten86} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
 
 Rigorous formulations of the relation then appeared in
 
