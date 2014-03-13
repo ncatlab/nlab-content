@@ -9,7 +9,21 @@
 =--
 =--
 
-Similar to the discussion at [[cohomology group]], a [[cohomology]] set $H_*(X,A)$ may have the strcuture of a [[ring]] if the coefficient object $A$ has suitable properties. 
+#Contents#
+* table of contents
+{:toc}
 
-In particular for $\mathbf{H} = $[[Top]], $H_*(X,A)$ is a ring when $A$ is an $E_\infty$-[[E-infinity-ring|ring]].
+## Idea
 
+Similar to the discussion at _[[cohomology group]]_, a [[cohomology]] set $H^\bullet(X,A)$ may have the structure of a [[ring]] if the [[coefficient]] object $A$ suitably does. 
+
+In particular for $\mathbf{H} = L_{whe}$[[Top]], then $H^*(X,A)$ is a ring when $A$ is an $E_\infty$-[[E-infinity-ring|ring]].
+
+## Related concepts
+
+* [[genus]]
+
+[[!redirects cohomology rings]]
+
+[[!redirects homology ring]]
+[[!redirects homology rings]]
