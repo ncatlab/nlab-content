@@ -1,1 +1,12 @@
-[webpage](http://math.berkeley.edu/~aaron/)
+* [webpage](http://math.berkeley.edu/~aaron/)
+
+## some writing
+
+* _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
+
+
+## related entries
+
+* [[tmf]]
+
+category: people
