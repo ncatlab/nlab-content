@@ -124,7 +124,8 @@ $$
 
 whose generators are identified with the cobordism classes of the manifolds which are the complex [[projective spaces]], as indicated.
 
-### Characteristic series and Hirzebruch formula
+### Logarithm and Characteristic series 
+ {#LogarithmAndCharacteristicSeries}
 
 Given a (rational) genus $\phi \colon \Omega^{U,SU}_\bullet\otimes \mathbb{Q} \to R \otimes \mathbb{Q}$ one defines (we follow ([Hopkins 94](#Hopkins94)))
 
@@ -151,7 +152,10 @@ Given a (rational) genus $\phi \colon \Omega^{U,SU}_\bullet\otimes \mathbb{Q} \t
 
    where $c_1 \in H^2(B U(1), \mathbb{Z})$ denotes the universal [[first Chern class]].
 
-Then the central theorem of ([Hirzebruch 66](#Hirzebruch66)) expresses the genus of an arbitrary manifold $X$ via the formula
+### The Hirzebruch formula
+ {#HirzebruchFormula}
+
+The central theorem of ([Hirzebruch 66](#Hirzebruch66)) expresses the genus of an arbitrary manifold $X$ via the formula
 
 $$
   \phi(X)
