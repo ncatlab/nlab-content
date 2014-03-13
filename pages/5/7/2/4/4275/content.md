@@ -174,11 +174,6 @@ $$
   -log_{Todd}(1-x) = \sum_{n \in \mathbb{N}} \frac{x^n}{n}
 $$
 
-### Euler characteristic
-
-The [[Euler characteristic]] $X \mapsto \chi(X)$ is close to being  a genus, but is _not_ [[cobordism]] invariant
-  
-  (this is the [[index]] of the [[Dirac operator]] $D = d + d^\dagger$)
 
 ### Signature genus
 
@@ -200,31 +195,55 @@ $$
 The $\hat A$-genus is an [[integer]] on manifolds with [[spin structure]].
 
 
-### Ochanine elliptic genus 
+### Elliptic genus 
 
-The Ochanin [[elliptic genus]] is that with logarith given by
+An [[elliptic genus]] is one whose logarithm is given by
 
 $$
   log_{ell}(z) = \int_0^z (1-2 \delta t^2 + \epsilon t^4)^{-1/2} d t
 $$
 
+for constants $\delta, \epsilon$ with non-degenerate values $\delta^2 \neq \epsilon$ and $\epsilon = 0$. 
+
+For degenerate choices this reproduces the [[signature genus]] and the [[A-hat genus]] above, see at _[[elliptic genus]]_ for more. For non-degenrate values one may regard $\epsilon$ and $\delta$ as values of [[modular forms]] of the same name and hence regard all elliptic genera together as one single genus with [[coefficients]] in $MF_\bullet(\Gamma_0(2))$. This "universal" elliptic genus us the _[[Witten genus]]_.
+
 ### Witten genus
 
-The  [[Witten genus]] is the genus with characteristic series given by
+The  [[Witten genus]] 
 
 $$
+  w \colon \Omega^{SO}_\bullet \longrightarrow \mathbb{Q}[ [q] ]
+$$
+
+is the genus with [[coefficients]] in
+the [[power series]] ring $\mathbb{Q}[ [ q ] ]$ 
+with characteristic series given by
+
+$$
+  K_w(z)
+  =
   \frac{z/2}{sinh(z/2)}
   \prod_{n \geq 1}
   \frac{(1-q^n)^2}{(1-q^n e^z)(1-q^n e^{-z})}
 $$
 
-The Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ on manifolds with [[spin structure]]. On manifolds with [[string structure]] then its takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
+On [[manifolds]] with [[spin structure]] whe Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ 
 
+On manifolds with [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking vakues in the [[upper half plane]] the Witten genus satisfies
 
 $$
   f(-1/\tau) = (-\tau)^n f(\tau)
   \,.
 $$
+
+### Non-examples 
+
+### Euler characteristic
+
+The [[Euler characteristic]] $X \mapsto \chi(X)$ is close to being  a genus, but is _not_ [[cobordism]] invariant
+  
+  (this is the [[index]] of the [[Dirac operator]] $D = d + d^\dagger$)
+
 
 ## Related concepts
 
