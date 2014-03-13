@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -86,6 +86,7 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 
 ...
 
+[[!redirects decategorifications]]
 
 [[!redirects decategorification]]
 [[!redirects decategorified]]
@@ -94,3 +95,4 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 
 [[!redirects isomorphism class]]
 [[!redirects isomorphism classes]]
+
