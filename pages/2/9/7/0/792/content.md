@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Cohomology
 +--{: .hide}
-[[!include physicscontents]]
+[[!include cohomology - contents]]
 =--
 =--
 =--
@@ -90,6 +94,9 @@ and
 A refined description is in 
 
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], _T-Duality via Gerby Geometry and Reductions_ ([arXiv:1305.6050](http://arxiv.org/abs/1305.6050))
+
+* {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
+
 
 There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
 
