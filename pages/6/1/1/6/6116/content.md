@@ -4,6 +4,8 @@ Leonhard Euler was a major Swiss mathematician of 18th century, working most of 
 
 ## Related entries
 
+* [[Euler number]]
+
 * [[Euler characteristic]], [[Euler beta function]]
 
 category: people
