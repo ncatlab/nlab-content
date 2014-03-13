@@ -15,9 +15,16 @@
 
 ## Idea
 
-The [[standard model of particle physics]] asserts that the fundamental quantum physical fields and [[particles]] are modeled as sections of and connections on a vector bundle that is associated to a $G$-principal bundle, where the [[group]] $G$ is $SU(3) \times SU(2) \times U(1)$ (or perhaps a quotient of this by $Z_6$) and where the [[representation]] of $G$ used to form the associated vector bundle looks fairly ad hoc on first sight.
+The [[standard model of particle physics]] asserts that the fundamental quantum [[field (physics)|physical fields]] and [[particles]] are modeled as [[sections]] of and [[connection on a bundle|connections]] on a [[vector bundle]] that is [[associated bundle|associated]] to a $G$-[[principal bundle]], where the [[Lie group]] $G$ -- called the [[gauge group]] -- is  the [[product]] of ([[special unitary group|special]]) [[unitary groups]] $G = SU(3) \times SU(2) \times U(1)$ (or rather a [[quotient]] of this by $Z_6$) and where the [[representation]] of $G$ used to form the associated vector bundle looks fairly ad hoc on first sight.
 
-A **grand unified theory** in this context is an attempt to realize the standard model as sitting inside a conceptually simpler [[model (in particle physics)|model]], in particular one for which the structure group -- the gauge group -- is a bigger but _simpler_ group $\hat G$, preferably a [[simple group]], which contains $G$ as a subgroup.
+A **grand unified theory** ("GUT" for short) in this context is an attempt to realize the standard model as sitting inside a conceptually simpler [[model (in particle physics)|model]], in particular one for which the [[gauge group]] is a bigger but _simpler_ group $\hat G$, preferably a [[simple group]] in the technical, which contains $G$ as a subgroup. Such a grand unified theory would be [[phenomenology|phenomenologically]] viable if a process of [[spontaneous symmetry breaking]] at some high [[energy]] scale -- the "GUT scale" -- would reduce the model back to the [[standard model of particle physics]] without adding spurious extra effects that would not be in agreement with existing observations in [[experiment]].
+
+The terminology "grand unified" here refers to the fact that such a single simple group "\hat G" would unify the fundamental [[forces]] of [[electromagnetism]], the [[weak nuclear force]] and the [[strong nuclear force]] in a way that generalizes the way in which the [[electroweak field]] already unifies the weak force and electromagnetism, and electromagnetism already unifies, as the word says, electricity and magnetism.
+
+Since no GUT has been fully validated yet, GUTs are [[model (physics)|models]] "beyond the standard model". Often quantum physics "beyond the standard model" is expected to also say something sensible about [[quantum gravity]] and hence unify not just the three gauge forces bot also the fourth known fundamental force, which is [[gravity]]. Models that aim to do all of this would then "unify" the entire content of the [[standard model of particle physics]] plus the [[standard model of cosmology]], hence "everything that is known about fundamental physics" to date. Therefore such theories are then sometimes called a _[[theory of everything]]_. 
+
+(Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
+
 
 ## References 
 
@@ -27,12 +34,12 @@ An original article with an eye towards [[supergravity]] unification is
 
 A survey of arguments for the hypothesis of grand unification with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) is given in 
 
-* [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
- {#Witten02}
+* {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+ 
 
 A good introduction to GUTs for mathematicians is
 
-* [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_ ([arXiv](http://arxiv.org/abs/0904.1556))
+* {#BeazHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_ ([arXiv](http://arxiv.org/abs/0904.1556))
 
 
 
