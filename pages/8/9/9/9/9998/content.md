@@ -10,15 +10,17 @@
 
 * [[super Yang-Mills theory]]
 
-* [[N=2 D=4 super Yang-Mills theory]]
+  * [[N=2 D=4 super Yang-Mills theory]]
 
-* [[N=4 D=3 super Yang-Mills theory]]
+  * [[N=4 D=3 super Yang-Mills theory]]
 
-* [[N=4 D=4 super Yang-Mills theory]] 
+  * [[N=4 D=4 super Yang-Mills theory]] 
 
-* [[D=5 super Yang-Mills theory]]
+  * [[D=5 super Yang-Mills theory]]
 
-* [[topologically twisted D=4 super Yang-Mills theory]]
+  * [[topologically twisted D=4 super Yang-Mills theory]]
+
+* [[geometric engineering of quantum field theories]]
 
 
 ## References
@@ -29,4 +31,4 @@ Construction by [[Kaluza-Klein mechanism|KK-reduction]] of the [[6d (2,0)-superc
 
 For more along these lines see at _[[N=2 D=4 super Yang-Mills theory]]_.
 
-[[!redirecrts N=1 D=4 sYM]]
+[[!redirects N=1 D=4 sYM]]
