@@ -225,7 +225,7 @@ The [[string orientation of tmf]] was given in
 
 Expositions includes
 
-* Aaron Mazel-Gee, _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
+* {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
 
 A course that goes through the construction of tmf and the computation of its homotopy groups is
 
