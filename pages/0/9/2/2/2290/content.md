@@ -100,7 +100,7 @@ These invariants share the following properties:
 
 * $e(X) mod 2, sgn(X), ind(D_X)$ all vanish when $X$ is a boundary, $\exists W : X = \partial W$, which means that $X$ is [[cobordant manifold|cobordant]] to the empty manifold $\emptyset$.
 
-  in other words, these invariants are [[genus|genera]], namey [[ring]] homomorphisms 
+  in other words, these invariants are [[genus|genera]], namely [[ring]] homomorphisms 
 
   $$
     \Omega \to R
@@ -172,7 +172,7 @@ These invariants share the following properties:
 
   **theorem** (Minalta)
 
-  someting analogous for signature genus
+  something analogous for [[signature genus]]
 
   $$
     \array{
