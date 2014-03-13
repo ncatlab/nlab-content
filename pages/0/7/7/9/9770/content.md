@@ -1,13 +1,19 @@
 
+
+
 ## Idea
 
 A [[characteristic class]].
 
 ## Related concepts
 
+* [[genus]]
+
 * [[Grothendieck-Riemann-Roch theorem]]
 
 ## References
+
+named after [[John Arthur Todd]]
 
 * Wikipedia, _[Todd class](http://en.wikipedia.org/wiki/Todd_class)_
 
@@ -16,3 +22,6 @@ Discussion of Todd classes for [[noncommutative topology]]/in [[KK-theory]] is i
 * Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
 
 [[!redirects Todd classes]]
+
+
+[[!redirects Todd genus]]
