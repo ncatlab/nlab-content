@@ -70,8 +70,11 @@ is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular for
 
 ## Links and references
 
-* Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School
-2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
+Lecture notes include
+
+* [[Charles Rezk]], section 10 of [pdf](http://www.math.uiuc.edu/~rezk/512-spr2001-notes.pdf)
+
+* Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
 
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
 
@@ -91,5 +94,4 @@ is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular for
 [[!redirects modular functions]]
 [[!redirects integral modular functions]]
 [[!redirects weak integral modular forms]]
-
 
