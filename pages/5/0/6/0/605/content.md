@@ -77,3 +77,11 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 [[!redirects cobordisms]]
 
 [[!redirects cobordism theory]]
+
+[[!redirects cobordant manifold]]
+[[!redirects cobordant manifolds]]
+
+[[!redirects bordant manifold]]
+[[!redirects bordant manifolds]]
+
+
