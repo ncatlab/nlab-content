@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Nobuo_Yoneda)
+
+## related entries
+
+* [[Yoneda lemma]]
+
+category: people
+
+[[!redirects Yoneda]]
