@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+
+The [[Jacobi theta function]] for special values of its arguments...
+
+## References
+
+* Wikipedia, _[Dedekind eta function](http://en.wikipedia.org/wiki/Dedekind_eta_function)_
+
+[[!redirects Dedekind eta functions]]
+
