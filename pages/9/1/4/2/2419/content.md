@@ -58,6 +58,20 @@ $$
 
 is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
 
+## Properties
+
+### Relation to the elliptic genus
+
+There is a natural isomorphism
+
+$$
+  MF_\bullet(\Gamma_0(2)) \simeq \mathbb{C}[\epsilon, \delta]
+$$
+
+(see at [[elliptic genus]]) for the notation.
+
+([Landweber-Ravenel-Stong 93, theorem 1.5](#LandweberRavenelStong93))
+
 ## Examples
 
 * [[j-invariant]]
@@ -79,6 +93,10 @@ Lecture notes include
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
 
 
+Original discussion in the context of [[elliptic genera]] includes
+
+* {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
 * wikipedia: [modular form](http://en.wikipedia.org/wiki/Modular_form)
 
 [[!redirects modular forms]]
@@ -94,4 +112,3 @@ Lecture notes include
 [[!redirects modular functions]]
 [[!redirects integral modular functions]]
 [[!redirects weak integral modular forms]]
-
