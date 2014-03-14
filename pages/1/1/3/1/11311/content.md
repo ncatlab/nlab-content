@@ -68,6 +68,8 @@ Discussion of Jacobi forms as coefficients of the [[elliptic genus]]/[[Witten ge
 
 * {#Zagier86} [[Don Zagier]], pages 8,9 of _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf))
 
+* [pdf](http://www.cft2011.mathi.uni-heidelberg.de/content/lecture_notes.pdf)
+
 See also
 
 * Wikipedia, _[Jacobi form](http://en.wikipedia.org/wiki/Jacobi_form)_
