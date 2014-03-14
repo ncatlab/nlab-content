@@ -52,7 +52,7 @@ $$
   M U_\ast \longrightarrow R
 $$
 
-respectively. Written this way it is immediate that genera arise naturally as the value on [[homotopy groups]] (the "[[decategorification]]" or "de-homotopication") of homomorphisms of [[E-∞ ring]] [[spectra]] from an actual universal [[Thom spectrum]] to some [[E-∞ ring]] $E$ with [[coefficient]] ring $R$
+respectively. Written this way it is immediate that genera arise naturally as the value on [[homotopy groups]] (the "[[decategorification]]" or "de-homotopification") of homomorphisms of [[E-∞ ring]] [[spectra]] from an actual universal [[Thom spectrum]] to some [[E-∞ ring]] $E$ with [[coefficient]] ring $R$
 
 $$
   M SO \longrightarrow E
@@ -64,6 +64,8 @@ $$
   M U \longrightarrow E
   \,.
 $$
+
+This in turn induces multiplicative morphisms of the [[cohomology theories]] [[Brown representability theorem|represented]] by these spectra (the domain being hence [[cobordism cohomology theory]]), and these multiplicative maps are the "families version" of the given genus/[[index]] ([Hopkins 94, section 3](#Hopkins94)).
 
 Such homomorphisms in turn arise naturally from [[orientation in generalized cohomology|universal orientations in generalized E-cohomology]]. Namely such an orientation is a [[homotopy]] of the form
 
