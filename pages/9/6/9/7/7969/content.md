@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 #### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -28,6 +34,8 @@ Theta functions are naturally thought of as being the [[space of states (in geom
 * [[Jacobi theta function]]
 
 * [[Ramanujan theta function]]
+
+* [[Dedekind eta function]]
 
 ## Related concepts
 
