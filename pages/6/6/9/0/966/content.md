@@ -165,6 +165,15 @@ Let $F : C \to D$ be a functor between [[locally presentable categories]]. Then
 
 This is ([AdamekRosicky, theorem 1.66](#AdamekRosicky)).
 
+
++--{: .query}
+[[Emily Riehl]]: 
+Unless I'm missing something theorem 1.66 only proves the second case: $F$ has a left adjoint iff it is accessible and continuous. This follows from the general adjoint functor theorem and the fact that any accessible functor satisfies the solution set condition.
+
+Am I correct that the first case --- $F$ has a right adjoint iff its cocontinuous --- requires a different argument? Theorem 1.58 (which is hard!) shows that any locally presentable category is co-wellpowered. So the special adjoint functor theorem completes the proof.
+=--
+
+
 Notice the accessibility condition. That this is indeed necessary is
 discussed below in the section [In locally presentable categories](#InLocallyPresentableCategories).
 
