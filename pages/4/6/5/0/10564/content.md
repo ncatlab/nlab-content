@@ -59,7 +59,7 @@ For geometry over the [[complex numbers]] and  $A = \mathbb{C}/\tau$ a 2-[[torus
 Wtite $L Top_G$ for the collection of [[G-CW complexes]].
 Write $Orb(G)$ for the [[orbit category]] of $G$.
 
-We have a [[equivalence of (∞,1)-categories]]
+By [[Elmendorf's theorem]] we have a [[equivalence of (∞,1)-categories]]
 
 $$
   L Top_G
