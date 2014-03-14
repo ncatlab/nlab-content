@@ -98,9 +98,9 @@ By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a
 
 The Witten genus a priori has [[coefficients]] the [[power series]] ring $\mathbb{Q}[ [q] ]$ over the [[rational numbers]].
 
-But in fact, with suitable normalization, it alsways takes values in the subring $MF_\bullet^{\mathbb{Q}}(\Gamma_0(2)) \hookrightarrow \mathbb{Q}[ [q] ]$ of [[modular forms]] for $\Gamma_0(2)\subset SL_2(\mathbb{Z})$ with rational coefficients ([Zagier 86, item d) on page 2](#Zagier86) based on [Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88)), but see also ([Zagier 86, page 6](#Zagier86)).
+But in fact, with suitable normalization, it always takes values in the subring $MF_\bullet^{\mathbb{Q}}(\Gamma_0(2)) \hookrightarrow \mathbb{Q}[ [q] ]$ of [[modular forms]] for $\Gamma_0(2)\subset SL_2(\mathbb{Z})$ with rational coefficients ([Zagier 86, item d) on page 2](#Zagier86) based on [Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88)), but see also ([Zagier 86, page 6](#Zagier86)).
 
-On manifolds with [[spin structure]] the Witten genus has integral coeffcients, hence in the ring $\mathbb{Z}[ [ q ] ]$ ([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91)). 
+On manifolds with [[spin structure]] the Witten genus has integral coeffcients, hence in the ring $\mathbb{Z}[ [ q ] ]$ ([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Landweber 88](#Landweber88)), see also ([Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91)). 
 
 On manifolds with rational [[string structure]] (meaning spin structure and the [[first fractional Pontryagin class]]) is at most torsion, then the Witten genus takes values in actual [[modular forms]] $MF_\bullet$ ([Zagier 86, page 6](#Zagier86)).
 
@@ -129,8 +129,18 @@ The original description of the Witten genus from [[string theory]] is due to
 
 * {#Witten87} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
 
-
 * {#Witten86} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986).
+
+based on insights in
+
+* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+
+* {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
+
+
+
+
 
 Rigorous formulations then appeared in
 
