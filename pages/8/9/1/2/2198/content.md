@@ -18,7 +18,7 @@
 
 In addition to the well-known [[topological spaces]], many other structures can be used to found topological reasoning on sets, including [[uniform spaces]] and _proximity spaces_.  Proximity spaces provide a level of structure in between topologies and uniformities; in fact a proximity is equivalent to an equivalence class of uniformities with the same [[totally bounded space|totally bounded]] reflection.
 
-Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature.  One can clarify with the term _set--set nearness space_.
+Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.
 
 
 ## Definition
