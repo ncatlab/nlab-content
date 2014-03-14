@@ -23,7 +23,7 @@ Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a funct
 For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** morphism is the morphism
 
 $$
-  A \otimes Y \coprod_{A \otimes X} B \otimes Y
+  A \otimes Y \coprod_{A \otimes X} B \otimes X
   \to
   B \otimes Y
 $$
@@ -37,7 +37,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    B \otimes X &\to& B \otimes Y
+    A \otimes Y &\to& B \otimes Y
   }
   \,.
 $$
