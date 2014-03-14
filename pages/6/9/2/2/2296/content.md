@@ -1,6 +1,39 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
 
-# References #
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Om manifolds with rational [[string structure]] the [[Witten genus]] takes values in [[modular forms]]. On manifolds with actual [[string structure]] this refines further to a ring of "topological modular forms". This ring is at the same time the ring of [[homotopy groups]] of an [[E-∞ ring]] spectrum, called _[[tmf]]_.
+
+## Related concepts
+
+* [[modular form]]
+
+* [[Jacobi form]]
+
+##  References 
 
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
 
