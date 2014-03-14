@@ -34,9 +34,13 @@ $$
   \sigma : \Omega_\bullet  \to R
 $$
 
-from a [[cobordism ring]] for [[cobordisms]] with specified structure; typical choices being [[orientation]] or [[stable almost complex structure]]. Often the rationalization of such a morphism is meant, see below at _[Properties -- Rationalization](#Rationalization)_
+from a [[cobordism ring]] for [[cobordisms]] with specified structure; typical choices being [[orientation]] or [[stable complex structure]]. Often the rationalization of such a morphism is meant, see below at _[Properties -- Rationalization](#Rationalization)_.
 
-Since the [[cobordism ring]] is the ring of coefficients of the corresponding universal [[Thom spectrum]], e.g $M U$, $M SO$, so a may also be written as a ring homomorphism of the form
+To emphasize that this is indeed a ring homomorphism and hence in particular respects the multiplicative structure, a genus is sometimes (especially in older literature) synonymously called a _multiplicative genus_.
+
+
+
+Since the [[cobordism ring]] is the ring of coefficients of the corresponding universal [[Thom spectrum]], e.g $M U$, $M SO$, so a genus may also be written as a ring homomorphism of the form
 
 $$
   M SO_\ast \longrightarrow R
