@@ -3,6 +3,6 @@
 
 ## related entries
 
-* [[quantum biology]]
+* [[quantum biology]], [[Roger Penrose]]
 
 category: people
