@@ -94,7 +94,7 @@ In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to in
 
 * [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) [springer](http://link.springer.com/article/10.1023/A%3A1007796409912)
 * Boryana Dimitrova, _Universal Toda brackets of commutative ring spectra_, poster, Bonn 2010, [pdf](http://www.math.uni-bonn.de/people/grk1150/YWT2010/YWT_Dimitrova.pdf) 
-* C. Roitzheim, S. Whitehouse, _Uniqueness of $A_\infty$-structures and Hochschild cohomology_, [arxiv/0909.3222](http://arxiv.org/abs/0909.3222)
+* [[C. Roitzheim]], [[S. Whitehouse]], _Uniqueness of $A_\infty$-structures and Hochschild cohomology_, [arxiv/0909.3222](http://arxiv.org/abs/0909.3222)
 * Steffen Sagave, _Universal Toda brackets of ring spectra_, Trans. Amer. Math. Soc., 360(5):2767-2808, 2008, [math.KT/0611808](http://arxiv.org/abs/math/0611808)
 
 [[!redirects Toda Brackets]]
