@@ -275,7 +275,7 @@ which says roughly that linear maps between [[spaces of quantum states]] are [[u
 
 Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an accurate description of reality whenever the characteristic scale is sufficiently small. For instance
 
-* In [[chemistry]] ("quantum chemistry") the properties of [[atoms]] and [[molecules]] are derived from quantum mechanics.
+* In [[chemistry]] ("[[quantum chemistry]]") the properties of [[atoms]] and [[molecules]] are derived from quantum mechanics.
 
 * In [[solid state physics]] the properties of [[metals]] etc. are described by quantum mechanics of electron gases.
 
@@ -330,6 +330,10 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 * [[quantum field theory]]
 
   * [[FQFT]], [[AQFT]]
+
+* [[quantum chemistry]]
+
+* [[quantum biology]]
 
 ## References
 
