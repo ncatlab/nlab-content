@@ -33,9 +33,9 @@ for all [[complex numbers]] $z$ (as an absolutely [[Cauchy sequence|convergent s
 
 * $\exp(\widebar{z}) = \widebar{\exp(z)}$. 
 
-It follows that for $z = i t$, where $z + \widebar{z} = 0$, we have ${|\exp(i t)|} = 1$. 
+It follows that for $z \in i \mathbb{R}$, where $z + \widebar{z} = 0$, we have ${|\exp(i t)|} = 1$. 
 
-Thus $t \mapsto \exp(i t)$ defines a [[Lie group]] homomorphism $\phi$ from the additive group $\mathbb{R}$ to the multiplicative group $S^1$ of unit complex numbers. It may be checked that this is a local diffeomorphism: a local inverse to $z \mapsto \exp(z) - 1$ is given by 
+Hence $t \mapsto \exp(i t)$ defines a [[Lie group]] homomorphism $\phi$ from the additive group $\mathbb{R}$ to the multiplicative group $S^1$ of unit complex numbers. It may be checked that this is a local diffeomorphism: a local inverse to $z \mapsto \exp(z) - 1$ in a neighborhood of $0$ is given by 
 
 $$z \mapsto \log (1 + z) = z - \frac{z^2}{2} + \frac{z^3}{3} - \ldots$$ 
 
@@ -59,13 +59,13 @@ $$y_n = 2^n \sqrt{2 - x_n}.$$
 
 The statement is that $y_n$ is half the perimeter of the inscribed $2^{n+1}$-gon for $n \geq 1$, so that $y_n$ is an increasing convergent sequence which tends to $\pi$ in the limit. (Compare Vieta's formula below?) 
 
-Archimedes used a similar idea, in effect viewing $2\pi$ as squeezed between the perimeters of inscribed and circumscribed polygons with $3 \cdots 2^n$ sides each (thus starting with a hexagon). By considering $n = 5$, he was eventually led to his famous estimate $3 + \frac{10}{71} \lt \pi \lt 3 + \frac1{7}$. 
+Archimedes used a similar idea, in effect viewing $2\pi$ as squeezed between the perimeters of inscribed and circumscribed polygons with $3 \cdot 2^n$ sides each (starting with a hexagon). By considering $n = 5$, he was eventually led to his famous estimate $3 + \frac{10}{71} \lt \pi \lt 3 + \frac1{7}$. 
 
 ## Other formulas 
 
 * Leibniz formula: $\frac{\pi}{4} = 1 - \frac1{3} + \frac1{5} - \ldots$. Based on the power series for the arctangent 
 $$\arctan(x) = x - \frac{x^3}{3} + \frac{x^5}{5} - \ldots,$$ 
-this series for $\pi/4$ obviously converges slowly, but more sophisticated expressions in terms of the arctangent have better convergence rates, such as the following due to Machin: 
+this series for $\pi/4$ obviously converges slowly, but more sophisticated expressions in terms of the arctangent have better convergence rates, such as the following first observed by Machin: 
 $$\frac{\pi}{4} = 4\arctan(\frac1{5}) - \arctan(\frac1{239})$$ 
 
 * Product formulas: 
@@ -81,7 +81,7 @@ One point is that putting $x = \frac{\pi}{2}$, one can derive another famous for
 
 * * Wallis's formula: 
 $$\frac{\pi}{2} = \lim_{n \to \infty} \frac{2}{1} \cdot \frac{2}{3} \cdot \frac{4}{3} \cdot \frac{4}{5} \cdot \frac{6}{5} \cdot \frac{6}{7} \cdot \ldots \cdot \frac{2 n}{2 n - 1} \cdot \frac{2 n}{2 n + 1}$$ 
-Alternatively, this may be derived from [[Stirling's approximation]] for $n!$, or rather an asymptotic formula which derives from that: 
+Alternatively, this may be derived from [[Stirling's approximation]] for $n!$, or rather starting from an asymptotic formula which follows from Stirling's approximation: 
 $$\binom{2 n}{n} \sim \frac{2^{2 n}}{\sqrt{\pi n}}.$$ 
 
 * Euler series: let $\zeta(s)$ be the Riemann [[zeta function]]. By applying the logarithmic derivative to Euler's product formula above, one may derive the following partial fraction expansion for the cotangent: 
@@ -96,7 +96,7 @@ or, after rearranging,
 $$\pi^{2 k} = (-1)^{k-1} \frac{(2 k)!}{2^{2 k - 1}B_{2 k}}\zeta(2 k)$$ 
 which has as special cases the formulas $\pi^2 = 6\zeta(2)$, $\pi^4 = 90\zeta(4)$, $\pi^6 = 945\zeta(6)$. 
 
-* Continued fractions: the regular [[continued fraction]] expansion of $\pi$ is highly irregular, but several generalized continued fraction expansions listed in [Wikipedia](http://en.wikipedia.org/wiki/Pi#Continued_fractions) include 
+* Continued fractions: the regular [[irrational number|continued fraction]] expansion of $\pi$ is highly irregular, but several generalized continued fraction expansions listed in [Wikipedia](http://en.wikipedia.org/wiki/Pi#Continued_fractions) include 
 $$\pi=\textstyle \frac{4}{1+\textstyle \frac{1^2}{2+\textstyle \frac{3^2}{2+\textstyle \frac{5^2}{2+\textstyle \frac{7^2}{2+\textstyle \frac{9^2}{2+\ddots}}}}}}
 =3+\textstyle \frac{1^2}{6+\textstyle \frac{3^2}{6+\textstyle \frac{5^2}{6+\textstyle \frac{7^2}{6+\textstyle \frac{9^2}{6+\ddots}}}}}
 =\textstyle \cfrac{4}{1+\textstyle \frac{1^2}{3+\textstyle \frac{2^2}{5+\textstyle \frac{3^2}{7+\textstyle \frac{4^2}{9+\ddots}}}}}$$ 
@@ -113,7 +113,7 @@ The transcendence of $\pi$ was finally established by Lindemann in 1882, by adap
 
 +-- {: .num_theorem} 
 ###### Theorem 
-If $\alpha_1, \ldots, \alpha_n$ are algebraic numbers linearly independent over $\mathbb{Q}$, then $\exp(\alpha_1), \ldots, \exp(\alpha_n)$ are _algebraically_ independent over $\mathbb{Q}$ (which is to say that the [[field]] $\mathbb{Q}(\exp(\alpha_1), \ldots, \exp(\alpha_n)$ has [[transcendence degree]] $n$ over $\mathbb{Q}$). 
+If $\alpha_1, \ldots, \alpha_n$ are algebraic numbers linearly independent over $\mathbb{Q}$, then $\exp(\alpha_1), \ldots, \exp(\alpha_n)$ are _algebraically_ independent over $\mathbb{Q}$ (which is to say that the [[field]] $\mathbb{Q}(\exp(\alpha_1), \ldots, \exp(\alpha_n))$ has [[transcendence degree]] $n$ over $\mathbb{Q}$). 
 =-- 
 
 A proof is given in [Wikipedia](http://en.wikipedia.org/wiki/Proof_that_%CF%80_is_transcendental#Proof). It follows that if $\pi$ and therefore $i\pi$ were algebraic, then $\exp(i\pi) = -1$ would be transcendental, which is absurd. 
