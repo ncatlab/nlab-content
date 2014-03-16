@@ -319,7 +319,7 @@ The idea of defining &#233;tale morphisms $f$ as those that get send to a pullba
 
 See the introduction and see section 4 of 
 
-* [[Eduardo Dubuc]], _Axiomatic &#233;tale maps and a theory of spectrum_, Journal of pure and applied algebra,  149 (2000)
+* [[Eduardo Dubuc]], _Axiomatic etal maps and a theory of spectrum_, Journal of pure and applied algebra,  149 (2000)
  {#Dubuc}
 
 The identification of the natural transformation in question with that induced by an [[adjoint triple]] ("[[Q-categories]]") and the relation to _formal_ &eacute;taleness is observed (apparently independently?) in
