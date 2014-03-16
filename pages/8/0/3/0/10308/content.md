@@ -1,3 +1,4 @@
+[[!redirects quantization of Chern-Simons theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
