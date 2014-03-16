@@ -1,0 +1,8 @@
+
+* [linkedin page](http://cn.linkedin.com/pub/jens-fjelstad/3b/22b/6b7)
+
+## related entries
+
+* [[FRS-theory on rational 2d CFT]]
+
+category: people
