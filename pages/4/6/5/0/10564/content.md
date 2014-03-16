@@ -453,5 +453,10 @@ Relation to the [[Witten genus]] [[partition function]] of [[superstrings]] is d
 
 * [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:math/0008192](http://arxiv.org/abs/math/0008192))
 
+and specifically in the context of [[parameterized WZW models]] in 
+
+* [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
+
+
 [[!redirects equivariant elliptic cohomology theory]]
 [[!redirects equivariant elliptic cohomology theories]]
