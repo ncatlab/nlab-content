@@ -58,7 +58,7 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[general covariance]]
 
-* [[Penrose-Hawking theorem]]
+* [[Penrose-Hawking theorem]], [[cosmic censorship hypothesis]]
 
 * [[first order formulation of gravity]]
 
