@@ -1,10 +1,19 @@
 
-a class of relatively simple [[2d CFTs]], such as the [[WZW model]].
+A class of relatively simple [[2d CFTs]], such as the [[WZW model]], characterized by the fact that their spaces of [[conformal blocks]] are finite dimensional
 
-The [[FFRS formalism]] provides a complete classification.
+The [[FRS-theorem on rational 2d CFT]] provides a complete classification.
 
+[[!redirects rational 2d conformal field theories]]
+
+[[!redirects rational conformal field theory]]
 [[!redirects rational conformal field theories]]
+
 [[!redirects rational CFT]]
 [[!redirects rational CFTs]]
+
 [[!redirects RCFT]]
 [[!redirects RCFTs]]
+
+
+[[!redirects rational 2d CFT]]
+[[!redirects rational 2d CFTs]]
