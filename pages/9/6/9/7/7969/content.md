@@ -64,11 +64,15 @@ Further discussion with an emphasis of the origin of theta functions in [[geomet
 * Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  {#Nohara}
 
-
 Relation to [[conformal blocks]]:
 
 * Arnaud Beauville, Yves Laszlo, _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
  {#BeauvilleLaszlo93}
+
+Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
+
+* {#KL95} [[Kefeng Liu]], section 2.4 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
+
 
 [[!redirects theta functions]]
 [[!redirects theta-function]]
