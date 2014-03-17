@@ -114,9 +114,8 @@ $$
 G^F(x) = \int_{y\in \mathcal{C}} \prod_{\mathcal{C}(x,y)} G(y)^{F(y)}.
 $$
 Then we can compute
-<p>
-$$
-\array{
+
+$$\array{
   \mathcal{D}^{\mathcal{C}}\left(H,G^F\right)
   &=& \int_{x\in \mathcal{C}} \mathcal{D}\left(H(x), G^F(x)\right)\\
   &=& \int_{x\in \mathcal{C}} \mathcal{D}\left(H(x), \int_{y\in \mathcal{C}} \prod_{\mathcal{C}(x,y)} G(y)^{F(y)}\right)\\
@@ -125,9 +124,8 @@ $$
   &=&  \int_{y\in \mathcal{C}} \mathcal{D}\left(H(y), G(y)^{F(y)}\right)\\
   &=&  \int_{y\in \mathcal{C}} \mathcal{D}\left(H(y)\times F(y), G(y)\right)\\
   &=& \mathcal{D}^{\mathcal{C}}(H\times F, G).
-}
-$$
-</p>
+}$$
+
 
 Here the antepenultimate step uses the [[co-Yoneda lemma]].  This appears to involve colimits in $\mathcal{D}$ as well, but the existence of these colimits is not actually an extra assumption: the co-Yoneda lemma tells us that $\int^{x\in \mathcal{C}} \sum_{\mathcal{C}(x,y)} H(x)$ _exists and is isomorphic to_ $H(y)$.
 
