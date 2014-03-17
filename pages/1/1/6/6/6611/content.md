@@ -56,6 +56,12 @@ The first correct (complete, i.e. non-[[perturbation theory|perturbative]]) quan
 * [[Edward Witten]], _(2+1)-Dimensional Gravity as an Exactly Soluble System_ Nucl. Phys. B311 (1988) 46. ([web](http://adsabs.harvard.edu/abs/1988NuPhB.311...46W))
  {#Witten88}
 
+A textbook account discussing this and a variety of approaches to quantization of 3d gravity is
+
+* [[Steven Carlip]], _Quantum Gravity in 2+1 Dimensions_, Cambridge Monographs on Mathematical Physics (2003) ([publisher](http://www.cambridge.org/de/academic/subjects/physics/cosmology-relativity-and-gravitation/quantum-gravity-21-dimensions))
+
+see also the further pointers [here on Carlip's webpage](http://www.physics.ucdavis.edu/Text/Carlip.html#2+1).
+
 More recent developments include
 
 * [[Edward Witten]], _Three-dimensional gravity revisited_, (2007) [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
