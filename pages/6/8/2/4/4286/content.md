@@ -62,7 +62,7 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Bekenstein-Hawking entropy]], [[black hole radiation]]
 
-* [[Penrose-Hawking singularity theorem]]
+* [[Penrose-Hawking singularity theorem]], [[cosmic censorship hypothesis]]
 
 * [[generalized second law of thermodynamics]]
 
