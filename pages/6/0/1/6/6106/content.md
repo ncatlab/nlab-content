@@ -171,6 +171,15 @@ Writing $L_{n,\lambda}$ for the corresponding [[complex line bundle]] with level
 
 This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
+
+### Relation to equivariant elliptic cohomology
+ {#RelationToEquivariantEllipticCohomology}
+
+
+Under mild conditions the representation ring of a loop group $L G$ is equivalent to the $G$-[[equivariant elliptic cohomology]] (see there for more) of the point ([Ando 00, theorem 10.10](#Ando00)).
+
+This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives the [[representation ring]] of $G$.
+
 ## Related concepts
 
 * [[Verlinde ring]]
@@ -205,6 +214,10 @@ The relation between [[representations]] of loop groups and [[twisted K-theory]]
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]
 
+The relation between representations of loop groups an [[equivariant elliptic cohomology]] of the point is discussed in
+
+* {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
+Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
 
 [[!redirects loop group]]
 [[!redirects loop groups]]
