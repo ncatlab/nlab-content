@@ -25,9 +25,18 @@
 
 ## References
 
+### General
+
 * Wikipedia, _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
 
 See also the references at _[[cosmic inflation]]_.
 
+### On the primordial B-mode
+
+Reviews include
+
+* [[Matthew Strassler]], _[Getting Ready for the Cosmic News](http://profmattstrassler.com/2014/03/16/getting-ready-for-the-cosmic-news/)_ (March 16, 2014), _[A primer on today's events](http://profmattstrassler.com/2014/03/17/a-primer-on-todays-events/)_  (March 17, 2014)
+
 [[!redirects cosmic microwave background]]
+
 [[!redirects CMB]]
