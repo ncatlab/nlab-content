@@ -1,0 +1,38 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Mizar is a [[proof assistant]] system. It is based on [[Tarski–Grothendieck set theory]] (rather than [[type theory]] as systems such as [[Coq]] or [[Agda]]). Presently Mizar stands out among other proof assistants by the large size of its library of formalized mathematics.
+
+
+## Related systems
+
+* [[NuPRL]], [[Isabelle]], [[HOL]]
+
+* [[Coq]], [[Agda]]
+
+
+## References
+
+* Wikipedia, _[Mizar system](http://www.cs.uwyo.edu/~ruben/itp-2014/)_
+
+* [[Freek Wiedijk]], _[Mizar](http://www.cs.ru.nl/~freek/mizar/)_
+
+
+[[!redirects Mizar system]]
