@@ -74,6 +74,18 @@ For more comments and more references on this observation see
 
 (Later authors tried to argue that derivations like this show that gravity is not a fundamental force of nature such as [[electromagnetism]] or the [[strong nuclear force]], but rather an [[entropic force]] that arises only from more fundamental forces in a [[thermodynamic limit]]. This however remains at best unclear.)
 
+Discussion of black hole entropy from entropy of [[conformal field theory]] associated with the horizon has been given in 
+
+* [[Steve Carlip]], _Entropy from Conformal Field Theory at Killing Horizons_, Class.Quant.Grav.16:3327-3348,1999 ([arXiv:gr-qc/9906126](http://xxx.lanl.gov/abs/gr-qc/9906126))
+
+* [[Steve Carlip]], _Horizon Constraints and Black Hole Entropy_, Class.Quant.Grav.22:1303-1312, 2005 ([arXiv:hep-th/0408123](http://arxiv.org/abs/hep-th/0408123))
+
+and reviewed in
+
+* {#Carlip05} [[Steve Carlip]], _Horizon constraints and black hole entropy_ ([arXiv:gr-qc/0508071](http://arxiv.org/abs/gr-qc/0508071))
+
+* {#Carlip07} [[Steve Carlip]], _Symmetries, Horizons, and Black Hole Entropy_, Gen.Rel.Grav.39:1519-1523,2007; Int.J.Mod.Phys.D17:659-664,2008 ([arXiv:0705.3024](http://arxiv.org/abs/0705.3024))
+
 Further developments on black hole entropy are in
 
 * [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions
