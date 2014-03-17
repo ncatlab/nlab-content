@@ -87,6 +87,8 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 * [[Kac character formula]]
 
+* [[Kac-Weyl character]]
+
 * [[Cheeger-Simons differential character]]
 
 [[!redirects character]]
