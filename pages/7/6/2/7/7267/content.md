@@ -26,6 +26,8 @@ These affine Lie algebras appear in [[quantum field theory]] as the [[current al
 
 ## Related concepts
 
+* [[Kac-Weyl character]]
+
 * [[quantum affine algebra]]
 
 ## References
