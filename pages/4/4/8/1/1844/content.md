@@ -1,17 +1,16 @@
+
 Several numbers are named after [[Euler]].
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Euler's number 
 
 **Euler's number** is the [[irrational number]] typically denoted "[[e]]" and defined by the [[series]]
 
 $$
-  e := \sum_{n \in \mathbb{N}} \frac{1}{n!}
+  e \coloneqq \sum_{n \in \mathbb{N}} \frac{1}{n!}
   \,.
 $$
 
@@ -72,11 +71,13 @@ $$\gamma \coloneqq \lim_{n \to \infty} \sum_{k=1}^n \frac1{k} - \log n$$
 where $\log$ is the natural [[logarithm]]. It arises for example in discussions of the [[Gamma function]]. 
 
 
-
-[[!redirects Euler polynomial]]
+[[!redirects Euler number]]
 [[!redirects Euler numbers]]
-[[!redirects Euler polynomials]]
 [[!redirects Euler's number]]
+[[!redirects Euler's numbers]]
 
 [[!redirects Eulerian number]]
 [[!redirects Eulerian numbers]]
+
+[[!redirects Euler polynomial]]
+[[!redirects Euler polynomials]]
