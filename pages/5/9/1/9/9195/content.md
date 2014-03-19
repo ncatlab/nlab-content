@@ -70,6 +70,8 @@ where
 
 * **Einstein-Yang-Mills-Dirac theory**
 
+  * [[spectral action]]
+
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 [[!include standard model of fundamental physics - table]]
