@@ -86,11 +86,7 @@ Very analogous considerations apply to [[local bases]] for a topology and bases 
 
 ### Bases for uniformities
 
-Uniformities are a little trickier than topologies.
-
-Recall that a [[uniform space|uniformity]] on a [[set]] $X$ is ...
-
-...
+Uniformities are a little trickier than topologies, at least in the case of subbases.  For now, see the page [[uniform space]] for definitions of base and subbase for a uniformity.
 
 
 ### Bases for $\sigma$-algebras
