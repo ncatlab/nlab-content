@@ -26,6 +26,9 @@
 * table of contents
 {: toc}
 
+Hilbert module is an abbreaviation both for a Hilbert $C^\ast$-module (this entry)
+and the analogous notion of a [[Hilbert Q-module]] (see there), where $Q$ is a [[quantale]] (or a [[locale]], in particular).
+
 ## Idea
 
 The notion of _Hilbert $C^\ast$-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a possibly more general [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathbb{C}$, but in $A$, and such that [[complex conjugation]] is replaced by the [[star-algebra|star-operation]] in $A$.
@@ -260,14 +263,15 @@ are [[compact operators]] according to def. \ref{CompactOperator}.
 
 ## References
 
-Section 13 of 
+Hilbert $C^\ast$-modules were introduced by [[Irving Kaplansky]] in
 
-* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
+* Irving Kaplansky, _Modules over operator algebras_, Amer. J. Math. __75__ (1953) 839--853
 
-See also
+Contemporary references are
 
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, section 13
 * wikipedia, _[Hilbert $C^\ast$-module](http://en.wikipedia.org/wiki/Hilbert_C*-module)_
-
+* E. Christopher Lance, _Hilbert $C^\ast$-modules, A toolkit for operator algebraists_,  London Math. Soc. Lec. Note Ser. __210__, Cambridge Univ. Press 1995
 
 [[!redirects Hilbert module]]
 [[!redirects Hilbert modules]]
