@@ -29,7 +29,7 @@ A _category of fibrant objects_ is essentially like a [[model category]] but wit
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **category of fibrant objects** $\mathbf{C}$ is 
@@ -91,7 +91,7 @@ This includes notably all models for categories of [[infinity-groupoid]]s:
 
   * the category of [[strict omega-groupoid]]s using the [[model structure on strict omega-groupoids]]
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 [[nLab:Kan complex|Kan complexes]] form a [[nLab:category of fibrant objects|Brown category of fibrant objects]].
@@ -163,7 +163,7 @@ The point of the axioms of a category of fibrant objects is that when passing fr
  One can get around this by employing a more sophisticated [[model category]] structure as described at [[model structure on simplicial presheaves]], but often it is useful to use a more lightweight solution and consider sheaves with values in $\infty$-groupoids just as a category of fibrant objects, thereby effectively dispensing with the troublesome lifting property (as all mention of cofibrations is dropped):
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition ($\infty$-groupoid valued sheaves)
 
 For $C$ be a [[site]] such that the [[sheaf]] [[topos]]
@@ -231,7 +231,7 @@ for [[smooth infinity-stack]]s.
 
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 $SSh(X)$ with this structure is a category of fibrant objects.
@@ -463,7 +463,7 @@ For any object $B$ in $\mathbf{C}$, let $\mathbf{C}_B^F$ be the category of fibr
 
 There is an obvious [[forgetful functor]] $\mathbf{C}_B^F \to \mathbf{C}$, which induces notions of weak equivalence and fibration in $\mathbf{C}_B^F$.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 With this structure, $\mathbf{C}_B^F$ becomes a category of fibrant objects.
 =--
@@ -509,11 +509,12 @@ in $\mathbf{C}^F_B$.
 ## Properties
 
 ### Simple consequences of the definition 
+ {#SimpleConsequences}
 
 Before looking at more sophisticated constructions, we record the following direct consequences of the definition
 of a category of fibrant objects.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 For every two objects $A_1, A_2 \in \mathbf{C}$,
@@ -545,7 +546,7 @@ $$
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 For every object $B \in \mathbf{C}$ and
@@ -595,7 +596,7 @@ is also a weak equivalence.
 
 A central lemma in the theory of categories of fibrant objects is the following [[factorization lemma]].
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma (factorization lemma)
 
 For every morphism $f : C \to D$ in a category
@@ -632,7 +633,7 @@ with
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remarks
 
 This is the analog of one of the _factorization axioms_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
@@ -667,7 +668,7 @@ this really arises in the wider context of computing
 proof in two steps that are useful in their own right
 and will be taken up in the next section on homotopy limits.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition 
 
 For $f : C \to B$ a morphism in $\mathbf{C}$, we say that 
@@ -748,7 +749,7 @@ old result of Segal
 =--
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The morphism $p_f : \mathbf{E}_f B \to B$ is
@@ -811,7 +812,7 @@ of two fibrations. Therefore it is itself a fibration.
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The morphism $\mathbf{E}_f B \stackrel{\simeq}{\to} C$ 
@@ -902,7 +903,7 @@ weak equivalences are preserved under pullback along fibrations.
 
 This we establish in two lemmas.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 Let 
@@ -944,7 +945,7 @@ Then
 
 =--
 
-+-- {: .un_proof}
++-- {: .num_proof}
 ###### Proof
 
 For $f \in F$ the statement follows from 
@@ -1041,7 +1042,7 @@ is a weak equivalence.
 =--
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The pullback of a weak equivalence along a fibration
@@ -1192,7 +1193,7 @@ equivalence, hence is a weak equivalence.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remarks
 
 [[model category|Model categories]]
@@ -1214,7 +1215,7 @@ Using the existence of [[path object|path space objects]] one can construct spec
 called  _homotopy fiber products_ .
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **homotopy fiber product** 
@@ -1248,7 +1249,7 @@ $$
 
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This essentially says that $A \times_C C^I \times_C B$ is the universal object that makes the diagram
@@ -1351,7 +1352,7 @@ $A \times_C C^I \times_C B  \to A$ is.
  {#Homotopies}
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Two morphism $f,g : A \to B$ in $C(A,B)$
@@ -1408,7 +1409,7 @@ for some [[path object|path space object]] $B^I$ of $I$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 So this says that there is a
@@ -1417,7 +1418,7 @@ both are pulled back to a sufficiently good resolution of
 their domain.
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 For $A,B \in \mathbf{C}$, right homotopy
@@ -1494,7 +1495,7 @@ defines an equivalence relation on [[hom-set]]s
 $\mathbf{C}(A,B)$. For that we need the following to lemmas.
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 Every diagram
@@ -1586,7 +1587,7 @@ it follows that it is also a weak equivalence.
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 
@@ -1642,7 +1643,7 @@ $$
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Right homotopy $f \simeq g$ between morphisms 
@@ -1722,7 +1723,7 @@ We need one more intermediate result
 for seeing that homotopy is an equivalence relation
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 * Every diagram
@@ -1861,7 +1862,7 @@ that $A' \to A$ is a weak equivalence.
 =--
  
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The relation "$f, g \in C(A,B)$ are homotopic",
@@ -1895,7 +1896,7 @@ is an equivalence relation.
 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ a category of fibrant objects the category
@@ -1914,7 +1915,7 @@ $\pi C$ is defined to be the category
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The obvious functor
@@ -1980,7 +1981,7 @@ that the structure of a category of fibrant objects on a
 This implies the following convenient construction
 of the [[homotopy category]] of $C$:
 
-+-- {: .un}
++-- {: .num_theorem}
 ###### Theorem
 
 For $C$ a category of fibrant objects, 
@@ -2036,7 +2037,7 @@ $$
 
 where the first functor is the obvious forgetful functor.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_:
@@ -2075,7 +2076,7 @@ We now provide the missing definitions and then the proof
 of this theorem.
 
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The homotopy categories of $C$ and $\pi C$ coincide:
