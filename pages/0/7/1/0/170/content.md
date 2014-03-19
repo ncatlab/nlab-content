@@ -75,6 +75,12 @@ Details are in
 
 * {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
 
+Analogous detailed discussion based not on the [[vertex operator algebra]] description of local [[CFT]] but on the [[AQFT]] description via [[conformal nets]] is in
+
+* {#CHKL09} Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
+
+where [[2d SCFTs]] are related essentially to [[local nets]] of [[spectral triples]].
+
 
 See also the references at [[geometric model for elliptic cohomology]].
 
