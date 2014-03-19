@@ -409,7 +409,7 @@ $$
   \,.
 $$
 By postcomposition this with the [[nerve]] operation
-we ontain an assignment of [[Kan complex]]es to
+we obtain an assignment of [[Kan complex]]es to
 open subsets:
 
 $$
