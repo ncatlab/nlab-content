@@ -81,15 +81,17 @@ Examples of absolute forms from classical differential geometry include:
 
 *  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].  This literally is the absolute value of the differential of the identity map $z$.
 
-*  More generally, the [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor (in general) $\mathrm{d}\mathbf{x}$ is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on a [[Cartesian space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the norm of such a form to get an absolute $1$-form.
+*  More generally, the [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\mathbf{x}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Neither $\mathrm{d}s$ nor (in general) $\mathrm{d}\mathbf{x}$ is actually the differential of anything, but $\mathrm{d}\mathbf{x}$ is the canonical [[tangent vector|vector]]-valued $1$-form (which, on an [[affine space]], really is the differential of the [[identity map]] $\mathbf{x}$), and we really can use the metric to take the norm of such a form to get an absolute $1$-form.
 
-*  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form, and we can continue into higher dimensions (although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
+*  Similarly, the [[surface area]] element $\mathrm{d}S$ on a Riemannian manifold is an absolute $2$-form, and we can continue into higher dimensions (although the classical [[volume element]] $\mathrm{d}V$ in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).  In principle, we should have $\mathrm{d}S = \mathrm{d}s \wedge \mathrm{d}s / \sqrt{2}$, $\mathrm{d}V = \mathrm{d}s \wedge \mathrm{d}s \wedge \mathrm{d}s / \sqrt{3!}$ etc; but it\'s not clear what this $\wedge$ is in general.
+
 
 ## Related concepts
 
 * exterior [[differential forms]]
 
 * [[cogerm differential forms]] are a more general concept including both.
+
 
 ## References
 
