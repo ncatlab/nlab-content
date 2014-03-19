@@ -5,7 +5,7 @@
 
 ## Idea
 
-[[SCFT]] in [[dimension]] $d = 2$.
+[[SCFT]] in [[dimension]] $d = 2$. For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]] of the [[superstring]].
 
 
 ## Examples
@@ -25,10 +25,23 @@
 
 ## References
 
+### General
+
 * L. Dixon, [[Paul Ginsparg]], and J. Harvey, _$\hat c = 1$ Superconformal field theory_ ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4515.pdf))
  
 * [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
 and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
+
+### Relation to 2-spectral triples
+
+Discussion of 2d SCFTs as a higher analog of [[spectral triples]] ("[[2-spectral triples]]", see there for more) is  in terms of [[vertex operator algebras]] in
+
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+
+and in terms of [[conformal nets]] in
+
+* {#CHKL09} Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
+
 
 [[!redirects 2d SCFTs]]
 
