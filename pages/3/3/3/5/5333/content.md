@@ -46,6 +46,10 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
   * **heterotic string theory**
 
+    * [[2d SCFT]], 
+
+      * [[2-spectral triple]], [[Dirac-Ramond operator]]
+
     * [[2d (2,0)-superconformal QFT]]
 
     * [[Green-Schwarz mechanism]]
@@ -96,6 +100,10 @@ Textbook accounts include
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+### In elliptic cohomology
+
+For more mathematically precise discussion in the context of [[elliptic cohomology]] and the [[Witten genus]] see also the references at _[Witten genus -- Heterotic (twisted) Witten genus, loop group representations and parameterized WZW models](Witten+genus#TwistedWittenGenus)_.
 
 ### As higher super-GS-WZW type $\sigma$-models
 
