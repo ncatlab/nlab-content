@@ -56,6 +56,9 @@ $$ \mathbf{\rho} = \sum_{\alpha} \rho_\alpha {|\psi_{\alpha}\rangle}{\langle\psi
 
 We call the [[matrix]] representation of the density operator, relative to a given [[basis]], the __density matrix__.
 
+## Characterisation
+
+An operator $\rho$ is the density operator associated to some ensemble if and only if it is a positive operator with trace 1.  (Nielsen and Chuang Theorem 2.5, p. 101)
 
 ## Coherence
 
