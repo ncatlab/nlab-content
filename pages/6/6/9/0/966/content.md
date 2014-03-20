@@ -163,19 +163,12 @@ Let $F : C \to D$ be a functor between [[locally presentable categories]]. Then
 
 =--
 
-This is ([AdamekRosicky, theorem 1.66](#AdamekRosicky)).
+The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRosicky, theorem 1.66](#AdamekRosicky)). This is an application of the general adjoint functor theorem: any accessible functor satisfies the solution set condition. The accessibility condition is indeed necessary, as is discussed below in the section [In locally presentable categories](#InLocallyPresentableCategories).
 
+The first statement, characterizing when $F$ has a right adjoint, can be proven using the special adjoint functor theorem: by a non-trivial theorem ([AdamekRosicky, theorem 1.58](#AdamekRosicky)), any locally presentable category is co-wellpowered. 
 
-+--{: .query}
-[[Emily Riehl]]: 
-Unless I'm missing something theorem 1.66 only proves the second case: $F$ has a left adjoint iff it is accessible and continuous. This follows from the general adjoint functor theorem and the fact that any accessible functor satisfies the solution set condition.
+A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally presentable categories can also be constructed directly. If $C$ is locally $\lambda$-presentable and $P_\lambda$ is the subcategory of $\lambda$-small objects, then $C$ is equivalent to the full subcategory of $[P_\lambda^{op},Set]$ of presheaves that preserve $\lambda$-small limits ([AdamekRosicky, theorem 1.46](#AdamekRosicky)). The presheaves in the image of the functor $D \to [P_\lambda^{op},Set]$ defined by $d \mapsto \hom(F-,d)$ preserve $\lambda$-small limits because $F$ is cocontinuous. So this functor factors through the subcategory $C$. The functor $D \to C$ so-constructed is a right adjoint to $F$.
 
-Am I correct that the first case --- $F$ has a right adjoint iff its cocontinuous --- requires a different argument? Theorem 1.58 (which is hard!) shows that any locally presentable category is co-wellpowered. So the special adjoint functor theorem completes the proof.
-=--
-
-
-Notice the accessibility condition. That this is indeed necessary is
-discussed below in the section [In locally presentable categories](#InLocallyPresentableCategories).
 
 ## Examples {#Examples}
 
