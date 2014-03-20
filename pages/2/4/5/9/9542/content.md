@@ -57,7 +57,7 @@ $$
 
 ### Via geometric quantization
 
-The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently as the canonical [[geometric quantization of symplectic groupoids]] of the [[symplectic groupoid]] which is the [[Lie integration]] of the corresponding [[Poisson Lie algebroid]] ((GBV 94)[#GBV], [EH 06](#EH)).
+The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently as the canonical [[geometric quantization of symplectic groupoids]] of the [[symplectic groupoid]] which is the [[Lie integration]] of the corresponding [[Poisson Lie algebroid]] ([GBV 94](#GBV), [EH 06](#EH)).
 
 See at _[geometric quantization of symplectic groupoids -- Examples -- Moyal quantization](geometric+quantization+of+symplectic+groupoids#MoyalQuantizationofPoissonVectorSpace)_ for more. 
 
