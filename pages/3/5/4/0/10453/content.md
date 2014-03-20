@@ -22,6 +22,18 @@ $$
 
 for $v \in H$ is positive.
 
++-- {: .num_prop}
+###### Proposition
+Every positive operator $A$ on a Hilbert space is self-adjoint.
+=--
+
++-- {: .proof}
+###### Proof
+Let $B = \frac{1}{2}(A + A^\dagger)$ and $C = \frac{1}{2}i(A^\dagger - A)$.
+Then $B$ and $C$ are self-adjoint, and $A = B + iC$.  Now, $\langle v, A v \rangle = \langle v, B v \rangle + i \langle v, C v \rangle$ is real for any $v$, so $\langle v, C v \rangle = 0$ for all $v$.  Hence $C = 0$ and $A = B$.
+=--
+
+
 More generally:
 
 +-- {: .un_defn}
