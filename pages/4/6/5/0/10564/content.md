@@ -546,6 +546,10 @@ based on
 
 * {#ESI14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_, talk at ESI Vienna, Feb 2014,  ([handout pdf](https://dl.dropboxusercontent.com/u/12630719/factsheet.pdf))
 
+A proposal for realizing this via [[(2,1)-dimensional Euclidean field theories and tmf]] is in
+
+* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+
 $\,$
 
 $\,$
