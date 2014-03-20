@@ -39,9 +39,11 @@ Under the process of forming [[groupoid convolution algebras]] a good bit of com
 
 ### Connes' noncommutative geometry 
 
-A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. The central ingredients in Connes' noncommutative geometry are
+A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. This is really "spectral" and possibly non-commutative [[Riemannian geomety]], where the metric structure on a possibly noncommutative "[[algebra of functions]]" is encoded by a structure called a _[[spectral triple]]_ (see there for more). 
 
-* the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space; this approach has been occasionally considered earlier e.g. in the book of Semadeni on Banach algebras. 
+The central ingredients in Connes' noncommutative geometry are
+
+* the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-[[algebra of functins|algebra of global functions]] on that space; this approach has been occasionally considered earlier e.g. in the book of Semadeni on Banach algebras. 
 
 * There is a refined, quantized differential calculus where the differential is given by a commutator formula involving a Fredholm operator; the setup in which this is taken place involves cyclic cocycles discovered by Tsygan and Connes.
 
@@ -76,6 +78,9 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[Alain Connes]], _[[Noncommutative Geometry]]_
  {#Connes}
+
+* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
 
 * [[Alain Connes]], _A walk in the non-commutative garden_ ([arXiv:math/0601054](http://arxiv.org/abs/math/0601054))
 
