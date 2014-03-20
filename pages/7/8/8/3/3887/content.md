@@ -25,12 +25,19 @@ The spaces of functionals that satisfy the first of these conditions are called 
 
 So conformal blocks are something like "precorrelators" or "potential correlators" of a [[CFT]]. 
 
+The assignment of spaces of conformal blocks to surfaces and their [[isomorphisms]] under [[diffeomorphisms]] of these surfaces together constitutes the _[[modular functor]]_.
+
 
 ## Properties
 
 ### Holographic correspondence
 
 The conformal blocks at least of the [[WZW model]] are by a [[holographic principle|holographic]] correspondence given by the [[space of quantum states]] of 3d [[Chern-Simons theory]]. See at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
+
+### Relation to equivariant elliptic cohomology
+
+For the $G$-[[WZW model]] the assignment of spaces of conformal blocks, hence by the above equivalently modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a surface|genus-1 surfaces]] ([[elliptic curves]]) is essentially what is encoded in the universal $G$-[[equivariant elliptic cohomology]] (equivariant [[tmf]]). In fact equivariant elliptic cohomology remembers also the [[local prequantum field theory|pre-quantum]] incarnation of the modular functor as a systems of [[prequantum line bundles]] over Chern-Simons [[phase spaces]] (which are [[moduli stacks of flat connections]]) and remembers the [[quantization]]-process from there to the actual [[space of quantum states]] by forming holomorphic [[sections]]. See at _[equivariant elliptic cohomology -- Idea -- Interpretation in Quantum field theory](equivariant+elliptic+cohomology#InterpretationInQuantumFieldTheory)_ for more on this.
+
 
 ## Related concepts
 
