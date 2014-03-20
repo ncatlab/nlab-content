@@ -115,13 +115,19 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[sigma-model]], 
 
-  * [[CFT]], [[2d CFT]], [[perturbation theory]]
+  * [[2d CFT]], [[2d SCFT]], [[2-spectral triple]]
+
+    * [[Dirac-Ramond operator]]
+
+    * [[Witten genus]]
 
     * [[Gepner model]], [[flop transition]]
 
   * [[world sheets for world sheets]]
 
-* [[string scattering amplitude]]
+* [[perturbation theory]]
+
+  * [[string scattering amplitude]], [[S-matrix]]
 
 * [[effective QFT|effective background QFT]]
 
