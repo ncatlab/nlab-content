@@ -17,9 +17,9 @@
 ## Idea
  {#Idea}
 
-Equivariant elliptic cohomology is, or is supposed to be, an [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], the higher [[chromatic homotopy theory|chromatic]] analogue of [[equivariant K-theory]].
+Equivariant elliptic cohomology is, or is supposed to be, an [[equivariant cohomology|equivariant]] version of [[elliptic cohomology]], hence a higher [[chromatic homotopy theory|chromatic]] analogue of [[equivariant K-theory]].
 
-As usual in [[equivariant cohomology]], there is a "naive" version and refinements thereof, and typically it is these refinements that one is really interested in. The usual motivation of these from [[algebraic topology]]/[[homotopy theory]] are indicated below in
+As usual in [[equivariant cohomology]], there is a "naive" version and refinements thereof, and typically it is these refinements that one is really interested in. The traditional motivation of these from [[algebraic topology]]/[[homotopy theory]] are indicated below in
 
 * _[Motivation from algebraic topology](#MotivationFromAlgebraicTopology)_
 
@@ -73,7 +73,14 @@ Now in the special case that $X$ here is the point, then any [[parameterized WZW
 
 Next, by the [[holographic principle]] of the [[AdS3-CFT2 and CS-WZW correspondence|3dCS/2dWZW-correspondence]], the space of conformal blocks of the WZW model on a surface is identified with the [[space of quantum states]] of [[Chern-Simons theory]] over that surface. This in turn, by the general rules of [[geometric quantization]] and specifically by the discussion at _[[quantization of 3d Chern-Simons theory]]_, is the space of holomorphic sections of a [[prequantum line bundle]] over the [[moduli space of flat connections]] ($G$-[[principal connections]]) $M_G$ over the given elliptic curve. And _that_ is indeed what $G$-equivariant elliptic cohomology assigns to the point.
 
-In other words, universal $G$-equivariant elliptic cohomology (meaning: we vary over the [[moduli space of elliptic curves]]), hence _$G$-equivariant [[tmf]]_ of the point, is essentially the [[modular functor]] of [[3d Chern-Simons theory]]. This last statement appears as ([Lurie 09, remark 5.2](#Lurie)). By the above reasoning via ([Ando 07](#Ando07)) and using the [[AdS3-CFT2 and CS-WZW correspondence|3dCS/2dWZW holographic correspondence]] we also have the interpretation of $G$-equivariant tmf (universal $G$-equivariant elliptic cohomology) over a more general space $X$: the space of [[conformal blocks]] of a bundle of [[parameterized WZW models]] over $X$, regarded pointwise as the gauge coupling part of the twisted [[Witten genus]].
+In other words, universal $G$-equivariant elliptic cohomology (meaning: we vary over the [[moduli space of elliptic curves]]), hence _$G$-equivariant [[tmf]]_ of the point, is essentially the [[modular functor]] of [[3d Chern-Simons theory]]. This last statement appears as ([Lurie 09, remark 5.2](#Lurie)). 
+
+But observe that actually it is a bit more: a [[modular functor]] assigns just an abstract vector space to a surface, which however is meant to be obtained by the process of [[quantization]] of [[3d Chern-Simons theory]], explicitly as the space of holomorphic sections of the [[prequantum line bundle]] (over [[phase space]], which here is the [[moduli space of flat connections]] $M_G$ on the given elliptic curve). Equivariant elliptic cohomology/tmf actually remembers this [[quantization]] process and not just the resulting [[space of quantum states]] in that it actually assigns to an [[elliptic curve]] $C$ and suitable [[Lie group]] $G$ that [[prequantum line bundle]] over the [[moduli space of elliptic curves]] (or equivalently its [[sheaf]] of sections). Notice that this [[local prequantum field theory|pre-quantum]] information is criucial for deep aspects in the context of [[3d Chern-Simons theory]] and the 2d [[Wess-Zumino-Witten model]]: the [[holographic principle|holographic relation]] that identifies the latter as the [[boundary field theory]] of the former (explicitly so by the [[FRS-theorem on rational 2d CFT]]) needs as input not just the quantized Chern-Simons [[3d TQFT]], which will assign an "abstract" vector space to a surface, but needs to know how this space arose via [[quantization]] by choosing [[polarizations]] in the form of [[conformal structures]] on the elliptic curves, such as to be actually identified with a space of [[conformal blocks]]. (In the context of the [[Reshetikhin-Turaev construction]] of the Chern-Simons [[3d TQFT]] this information is in a choice of [[equivalence of categories|equivalence]] of the given [[modular tensor category]] with the [[category of representations]] of a rational [[vertex operator algebra]]).
+
+In summary we have as a slogan that: _$G$-Equivariant $tmf$ over the point is essentially an incarnation of the [[local prequantum field theory|pre-quantum]] [[modular functor]]_ of [[3d Chern-Simons theory|3d G-Chern-Simons theory]] over [[genus of a surface|genus]]-1 surfaces/[[elliptic curves]]_ , together with the [[quantization]]-process of that to the actual [[modular functor]]_ .
+
+
+By the above reasoning via ([Ando 07](#Ando07)) and using the [[AdS3-CFT2 and CS-WZW correspondence|3dCS/2dWZW holographic correspondence]] we also have the interpretation of $G$-equivariant tmf (universal $G$-equivariant elliptic cohomology) over a more general space $X$: the space of [[conformal blocks]] of a bundle of [[parameterized WZW models]] over $X$, regarded pointwise as the gauge coupling part of the twisted [[Witten genus]].
 
 Here all the statements on the QFT/string theory side involve a parameter called the "level", which is the [[characteristic class]] of the [[universal Chern-Simons circle 3-bundle]] that is the [[prequantum n-bundle|prequantum 3-bundle]] governing the [[3d Chern-Simons theory]] (whose [[transgression]] to the [[moduli space of flat connections]] is the "theta"-[[prequantum line bundle]] there). On the cohomological side this corresponds to a [[twisted cohomology|twist]] of the cohomology theory.
 
@@ -198,6 +205,7 @@ takes a space with $G$-[[action]] to its $G$-equivariant elliptic cohomology spe
 
 
 ### 2-Equivariant elliptic cohomology
+ {#2EquivariantEllipticCohomology}
 
 > under construction, tentative
 
