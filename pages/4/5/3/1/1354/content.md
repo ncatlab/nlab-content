@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of an _enhanced triangulated category_ is a refinement of that of _[[triangulated category]]_ which remembers more of the full structure of a [[stable (∞,1)-category]].
+The notion of an _enhanced triangulated category_ is a refinement of that of _[[triangulated category]]_ which remembers more of the full structure of a [[stable (∞,1)-category]] (see [Cohn 13](#Cohn13)).
 
 [[triangulated category|Triangulated categories]] are a somewhat rough sort of a [[localization]], and lack some naturally expected properties, for example the functoriality of the [[mapping cones]]. Therefore, it has been a wish since the 1960s to replace or repair them with a more coherent structure. 
 
@@ -60,6 +60,10 @@ category $T$ with that structure is called __enhanced__. According to the new re
 
 the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have essentially unique dg-enhancements. F. Muro has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general setting (unpublished).
 
+
+The relation to [[stable (infinity,1)-categories]] is discussed in
+
+* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
 [[!redirects enhanced triangulated categories]]
 
