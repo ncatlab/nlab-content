@@ -13,7 +13,11 @@
 =--
 =--
  
+#Contents#
+* table of contents
+{:toc}
 
+## Definition
 
 +-- {: .num_defn #PoincareDualitySpace}
 ###### Definition
@@ -33,6 +37,13 @@ If $X$ is moreover a [[CW-complex]] then this it is sometimes called a _[[Poinca
 
 
 See at _[[Poincaré duality]]_ for more.
+
+## References
+
+In the general concext of [[spectral geometry]] ([[spectral triples]]):
+
+* {#Connes95} [[Alain Connes]], page 10 of _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
 
 [[!redirects Poincaré duality spaces]]
 
