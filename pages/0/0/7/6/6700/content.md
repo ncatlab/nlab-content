@@ -15,7 +15,7 @@
 
 ## Idea
 
-The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal blocks]] $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**.
+The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal blocks]] $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**. ([Segal 89](#Segal89), [Segal 04, def. 5.1](#Segal04))
 
 To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraints]], see for instance at _[[FRS-theorem on rational 2d CFT]]_.
 
@@ -29,8 +29,16 @@ The modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a s
 
 ## References
 
-* [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors]], in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol
+Original formulations include
+
+* {#Segal89} [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_, in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol
 1989, pp. 22-37
+
+* {#Segal04} [[Graeme Segal]], _The definition of conformal field theory_, Topology, geometry and quantum field theory London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, (2004), 421-577
+
+* [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112
+
+Lectures and reviews include
 
 * [[Bojko Bakalov]], [[Alexander Kirillov]], _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
