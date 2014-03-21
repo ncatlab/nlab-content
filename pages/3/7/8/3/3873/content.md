@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -140,7 +140,10 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 * [[Lichnerowicz formula]]
 
-* [[Dirac-Ramond operator]]
+* [[Dirac-Ramond operator]], [[Dirac operator on smooth loop space]]
+
+[[!include genera and partition functions - table]]
+
 
 ## References
 
