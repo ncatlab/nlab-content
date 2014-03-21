@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -27,6 +31,10 @@
 
 ## Idea
 
+This page reviews some of the relation between the existence of [[supersymmetry|supersymmetries]] in a [[spacetime]] [[quantum field theory]] which arises as the [[effective quantum field theory]] of some [[string]] [[2d SCFT]], the special geometry of that spacetime (such as [[Calabi-Yau manifold]] structure) as well as increaded [[worldsheet]] supersymmetry of the [[superstring]].
+
+### Target space perspective
+
 A solution to the bosonic [[Einstein equations]] of ordinary [[gravity]] -- some [[Riemannian manifold]] -- has a _global symmetry_ if it has a [[Killing vector]].
 
 Accordingly, a configuration that solves the [[supergravity]] [[Euler-Lagrange equations]] is a _[[global supersymmetry]]_ if it has a [[Killing spinor]]: a [[covariantly constant spinor]].
@@ -41,6 +49,12 @@ More generally, in the presence of other [[background gauge fields]], the Calabi
 
 Alternatively, if one starts the [[KK-compactification]] not from 10-dimensional [[string theory]] but from [[11-dimensional supergravity]]/[[M-theory]], then the condition for the [[KK-compactification]] to preserved precisely one global supersymmetry is that it be on a [[G2-manifold]]. For more on this see at _[[M-theory on G2-manifolds]]_.
 
+### Worldvolume perspective
+ {#WorldvolumePerspective}
+
+On the other hand, the enhanced [[supersymmetry]] of [[target space]] is also reflected in enhanced supersymmetry on the [[worldsheet]] of the string. For instance for the [[heterotic string]] whose worlsheet [[2d SCFT]] apriori has $N=(1,0)$ supersymmetry, the target space theory has $N=1$ supersymmetry precisely if the worldsheet theory's supersymmetry enhanced to $N=(2,0)$. ([BDFF 88](#BDFF88)). For more on this see at _[[2d (2,0)-superconformal QFT]]_.
+
+Similar comments apply to [[type II superstring theory]], where $N=1$ target space supersymmetry enhanced the worldheet symmetry from $N=(1,1)$ to $N=(2,2)$. This is reflected notably in the [[mirror symmetry]] of the targt Calabi-Yau manifolds.
 
 ## Related concepts
 
@@ -54,9 +68,19 @@ Alternatively, if one starts the [[KK-compactification]] not from 10-dimensional
 
 ## References
 
-The original references are
+Original references include
 
 * Candelas, Horowitz, [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
+
+* {#BDFF88} [[Tom Banks]], [[Lance Dixon]], [[Dan Friedan]], [[Emil Martinec]], _Phenomenology and Conformal Field Theory or Can String Theory Predict the Weak Mixing Angle?_, Nucl. Phys. B299 (1988) 613.  ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4377.pdf))
+
+* [[Jacques Distler]], [[Brian Greene]], _Aspects Of $(2,0)$ String Compactifications_, Nucl. Phys. B304 (1988) 
+
+* [[Andrew Strominger]], _Special Geometry_, Comm. Math. Phys. 133 (1990) 163.
+
+* P. Candelas and X. De la Ossa, _Moduli Space of Calabi-Yau Manifolds_, Nucl. Phys. B355 (1991) 455.
+
+* [[Edward Witten]], _Phases of N=2 Theories in Two Dimensions_, Nucl. Phys. B403 (1993) 159 ([arXiv:hep-th/9301042](http://arxiv.org/abs/hep-th/9301042))
 
 and chapters 12 - 16 of
 
@@ -75,4 +99,10 @@ Discussion of generalized Calabi-Yau backgrounds is for instance in
   {#GMPT}
 
 
+
+
+
 [[!redirects supergravity and Calabi-Yau manifolds]]
+
+[[!redirects Calabi-Yau manifolds and supersymmetry]]
+[[!redirects Calabi-Yau manifolds and supersymmetry]]
