@@ -19,7 +19,11 @@
 
 ## Idea
 
-The usual definition of _vertex operator algebra_ (VOA) is long and unenlightening. But due to work by Huang and Kong it is now known that vertex operator algebras are equivalent to certain [[FQFT]]s (see also [[CFT]]):
+Vertex operator algebras (or "vertex algebras", for short) are [[algebras]] with a product-operation parameterized by points in the [[complex plane]]. 
+
+Vertex operator algebras equipped with an [[action]] of the [[Virasoro algebra]] encode the local ([[genus of a surface|genus-0]] behaviour) of [[conformal field theories]]. Here one may think of the [[complex plane]] as the [[Riemann sphere]] and of the $z$-parameterized product operation in the vertex algebras as being the [[n-point function|3-point function]] of the [[2d CFT]] with field insertions at the points 0, $z$ and $\infty$.
+
+The usual definition of _vertex operator algebra_ (VOA) is long and tends to be somewhat unenlightening. But due to ([Huang 91](#Huang)) it is now known that vertex operator algebras have equivalenlty an [[FQFT]]-type characterization which manifestly captures this relation to [[n-point functions]] in the [[2d CFT]]:
 
 There is a [[monoidal category]] or [[operad]] whose [[morphism|morphisms]] are conformal spheres with $n$-punctures marked as incoming and one puncture marked as outgoing (each puncture equipped with a conformally parametrized annular neighborhood). Composition of such spheres is by gluing along punctures. This can be regarded as a category $2Cob_{conf}^0$ of 2-dimensional genus-0 conformal [[cobordism|cobordisms]].
 
@@ -100,15 +104,24 @@ A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up
 
 ## Variants 
 
+* [[Poisson vertex algebra]]
+
 * [[rational vertex operator algebra]]
 
 * [[super vertex operator algebra]]
 
 * [[sheaf of vertex operator algebras]]
 
-## References
+## Related entries
 
-Related $n$Lab entries include [[conformal field theory]], [[Poisson vertex algebra]], [[factorization algebra]], [[affine Lie algebra]]
+* [[affine Lie algebra]]
+
+* [[conformal field theory]], 
+
+* [[factorization algebra]], 
+
+
+## References
 
 ### General
 
@@ -128,12 +141,12 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 
 The original article with the interpretation of vertex operator algebras as holomorphic algebras over the holomorphic punctured sphere operad is
 
-* [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968
+* {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968
 
 A standard textbook summarizing these results is
 
-* [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser 1997, [gbooks](http://books.google.hr/books?isbn=0817638296)
- {#HuangCFT}
+* {#HuangCFT} [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser 1997, [gbooks](http://books.google.hr/books?isbn=0817638296)
+ 
 
 As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. Other operadic approaches are known, e.g. an earlier one in 
 
@@ -143,7 +156,7 @@ and even earlier treatments via coloured [[operads]] and [[generalized multicate
 
 More recently Huang's student [[Liang Kong]] has been developing these results further, generalizing them to open-closed CFTs and to non-chiral, i.e. completely general CFTs. See 
 
-* [[Liang Kong]], _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008), [math.QA/0610293](http://arxiv.org/abs/math/0610293).
+* {#Kong08} [[Liang Kong]], _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008), [math.QA/0610293](http://arxiv.org/abs/math/0610293).
 
 ### As factorization algebras 
 
