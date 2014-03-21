@@ -128,7 +128,7 @@ $$
 
 Physically this result is understood by observing that $\mathcal{D}^{ch}_X$is the sheaf of [[quantum observables]] of the [[topological twist|topologically twisted]] [[2d (2,0)-superconformal QFT]] (see there for more on this) of which the [[Witten genus]] is (the [[large volume limit]] of) the [[partition function]].
 
-As highlighted in ([Cheung 10, p. 2](#Cheung10)), this gives a precise sense in which over a [[complex manifold]] the Witten genus is a stringy analog of the [[Todd genus]]. See ([Cheung 10](#Cheung10)) for a brief review, where furthermore the problem of generalizing of this construction to [[sheaves of vertex operator algebras]] over more general [[string structure]] manifolds is addressed.
+As highlighted in ([Cheung 10, p. 2](#Cheung10)), there is a [[resolution]]  by the [[chiral Dolbeault complex]] which gives a precise sense in which over a [[complex manifold]] the Witten genus is a stringy analog of the [[Todd genus]]. See ([Cheung 10](#Cheung10)) for a brief review, where furthermore the problem of generalizing of this construction to [[sheaves of vertex operator algebras]] over more general [[string structure]] manifolds is addressed.
 
 
 
