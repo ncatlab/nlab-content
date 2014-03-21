@@ -59,6 +59,8 @@ For more on this see at _[TCFT -- Worldsheet and effective background theories](
     * [[Poisson sigma-model]]
 
       * [[A-model]], **B-model**
+     
+      * [[half-twisted model]]
 
     * [[Courant sigma-model]]
 
