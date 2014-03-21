@@ -23,19 +23,32 @@
 
 The traditional definition of a [[Dirac operator]] is formulated for operators acting on [[sections]] of [[spinor bundles]] over [[Riemannian manifolds]], not however directly for bundles over [[infinite dimensional manifolds]].
 
-When the conceptual importance of the [[Dirac-Ramond operator]] in the [[superstring]] [[worldsheet]] [[2d SCFT]] was realized (an operator in a [[super vertex operator algebra]]) via the relation in the [[large volume limit]] of its [[index]] (suitably regarded) to the [[Witten genus]], then it seemed suggestive that it should be possible to regard the Dirac-Ramond operator as an actual Dirac operator on the infinite-dimensional [[smooth loop space]] of the underlying manifold, and regard its $S^1$-equivariant [[index of a Dirac operator]] in some precise sense.
+When the conceptual importance of the [[Dirac-Ramond operator]] in the [[superstring]] [[worldsheet]] [[2d SCFT]] was realized (an operator in a ([[sheaf of vertex operator algebras|sheaf of]]) [[super vertex operator algebra]]) via the relation in the [[large volume limit]] of its [[index]] (suitably regarded) to the [[Witten genus]], then it seemed suggestive that it should be possible to regard the Dirac-Ramond operator as an actual Dirac operator on the infinite-dimensional [[smooth loop space]] of the underlying manifold, and regard its $S^1$-equivariant [[index of a Dirac operator]] in some precise sense.
 
 The definition of Dirac operators on smooth loop spaces is technically tricky, but constructions do exist. It remains however unclear how these constructions relate to the [[Dirac-Ramond operator]] and a rigorous derivation of the [[Witten genus]] as an (equivariant) [[index of a Dirac operator]] along these lines seems to remain open.
 
 
 ## References
 
-...
+Proposals for definitions/constructions of Dirac operators on smooth loop spaces include the following:
+
+* C.H. Taubes, _$S^1$-actions and elliptic genera_, Communications in mathematical physics 122 (1989), no. 3, pages 455-526.
+
+* [[Andrew Stacey]], _The co-Riemannian Structure of Smooth Loop Spaces_ ([arXiv:0809.3108](http://arxiv.org/abs/0809.3108))
+
+* Chris Kottke with [[Richard Melrose]], _A very smooth Dirac operator on loop space_ ([pdf](www.math.uiuc.edu/~palbin/CRM2012/KottkeAbstract.pdf))
+
 
 
 [[!redirects Dirac operator on a smooth loop space]]
 
 [[!redirects Dirac operators on a smooth loop space]]
 
+[[!redirects Dirac operators on smooth loop space]]
+
 [[!redirects Dirac operators on smooth loop spaces]]
 
+
+[[!redirects Dirac operator on loop space]]
+[[!redirects Dirac operators on loop space]]
+[[!redirects Dirac operators on loop spaces]]
