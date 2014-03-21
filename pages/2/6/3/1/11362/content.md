@@ -10,9 +10,9 @@ $$x = a_0 + \frac{b_1}{a_1 + \frac{b_2}{a_2 + \frac{b_3}{a_3 + \cdots}}} $$
 
 with convergence under appropriate conditions. The most commonly used form is where $b_i = 1$ for all $i$; such is called a _regular_ continued fraction. 
 
-Every real number may be uniquely expressed as a finite or infinite regular continued fraction for which all the $a_i$ are integers and $a_i \gt 0$ for $i \gt 0$. The expression is an infinite continued fraction if and only if the real number is [[irrational number|irrational]], so that there is a [[bijection]] 
+Every real number may be uniquely expressed as a finite or infinite regular continued fraction for which all the $a_i$ are [[integers]] and $a_i \gt 0$ for $i \gt 0$. The expression is an infinite continued fraction if and only if the real number is [[irrational number|irrational]], so that there is a [[bijection]] 
 
-$$\mathbb{Z} \times \mathbb{N}_+^{\mathbb{N}_+} \to \{irrationals\}$$ 
+$$\mathbb{Z} \times (\mathbb{N}_+)^{\mathbb{N}_+} \to \{irrationals\}$$ 
 
 $$(a_0; a_1, a_2, \ldots) \mapsto x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}}.$$ 
 
@@ -20,9 +20,9 @@ This is in fact a [[homeomorphism]] if we endow the left side with the [[product
 
 ## Coalgebraic formulation 
 
-We can describe the basic theory of continued fractions for real numbers in terms of dynamics of fractional linear transformations on the real [[projective line]] $\mathbb{P}^1(\mathbb{R})$, with the point at infinity playing a special role. From an nPOV, it is useful to cast this in coalgebraic terms. 
+We can describe the basic theory of continued fractions for real numbers in terms of dynamics of fractional linear transformations on the real [[projective line]] $\mathbb{P}^1(\mathbb{R})$, with the point at infinity playing a special role. From an nPOV, it is useful to cast this in [[coalgebra of an endofunctor|coalgebraic]] terms. 
 
-Let us denote by $\mathbf{R}$ the interval $[1, \infty]$ (considered as a subset of the projective line $\mathbb{P}^1(\mathbb{R})$); if $1 \leq x \lt \infty$, we let $fl(x)$ be the floor (the greatest integer such that $fl(x) \leq x$). We denote the $\mathbb{N}_+$ the set of positive integers (so, excluding $0$). Put $\mathbf{1} = \{\ast\}$, and define a map 
+Let us denote by $\mathbf{R}$ the interval $[1, \infty]$ (considered as a subset of the projective line $\mathbb{P}^1(\mathbb{R})$); if $1 \leq x \lt \infty$, we let $fl(x)$ be the floor (the greatest integer such that $fl(x) \leq x$). We denote by $\mathbb{N}_+$ the set of positive integers (so, excluding $0$). Put $\mathbf{1} = \{\ast\}$, and define a map 
 
 $$\alpha: \mathbf{R} \to \mathbf{1} + \mathbf{R} \times \mathbb{N}_+$$ 
 
@@ -55,9 +55,9 @@ $$x = fl(x) + 1/\tau(x)$$
 and since $\tau^{n-1}(\tau(x)) = \infty$, we have that $\tau(x)$ is rational by inductive hypothesis, and therefore $x$ is also rational. 
 =-- 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #converge} 
 ###### Lemma 
-If $(a_0, a_1, a_2, \ldots) \in \mathbb{N}_+^{\mathbb{N}}$ is any sequence of positive integers, then there is a unique $x \in \mathbf{R}$ such that $a_n = fl(\tau^n(x))$ for all $n \geq 0$. (This $x$ must be irrational by Lemma \ref{rational}.) 
+If $(a_0, a_1, a_2, \ldots) \in (\mathbb{N}_+)^{\mathbb{N}}$ is any sequence of positive integers, then there is a unique $x \in \mathbf{R}$ such that $a_n = fl(\tau^n(x))$ for all $n \geq 0$. (This $x$ must be irrational by Lemma \ref{rational}.) 
 =-- 
 
 +-- {: .proof} 
@@ -121,10 +121,62 @@ so that by induction, ${|p_{2m}/q_{2m} - p_{2m+1}/q_{2m+1}|} \lt \frac1{4^m}$, c
 
 +-- {: .proof} 
 ###### Proof of Theorem 1
-Let $(X, \phi: X \to \mathbf{1} + X \times \mathbb{N}_+)$ be an $F$-coalgebra. An $F$-coalgebra map $\xi: X \to R$ must take $x \in X$ to $\infty$ if $\phi(x) = \ast$. Otherwise $\phi(x) = (x', a_0)$, and in general $x$ generates a behavior stream $x_0 = x, x_1 = x', \ldots$ where $x_0 = x$, $\phi(x_n) = (x_{n+1}, a_n)$. This forces the corecursive definition 
+Let $(X, \phi: X \to \mathbf{1} + X \times \mathbb{N}_+)$ be an $F$-coalgebra. An $F$-coalgebra map $\xi: X \to \mathbf{R}$ must take $x \in X$ to $\infty$ if $\phi(x) = \ast$. Otherwise $\phi(x) = (x', a_0)$, and in general $x$ generates a behavior stream $x_0 = x, x_1 = x', \ldots$ where $x_0 = x$, $\phi(x_n) = (x_{n+1}, a_n)$. This forces the corecursive definition 
 
 $$\xi(x) = a_0 \cdot \xi(x')$$ 
 
 with $\xi(x) = [a_0, a_1, \ldots]$ if the stream continues without end. As all this is forced and evidently defines a coalgebra map, terminality is guaranteed. 
 =-- 
 
+## Topology of infinite continued fractions 
+
+Let $\mathbf{I}$ be the set of irrational elements $x \in \mathbf{R}$. The results above imply that $\mathbf{I}$ equipped with the map 
+
+$$\mathbf{I} \to \mathbf{I} \times \mathbb{N}_+: x \mapsto ((x - fl(x))^{-1}, fl(x))$$ 
+
+is a terminal coalgebra for the functor $- \times \mathbb{N}_+: Set \to Set$, isomorphic to $(\mathbb{N}_+)^{\mathbb{N}}$ under the coalgebra structure 
+
+$$(\mathbb{N}_+)^{\mathbb{N}} \stackrel{(\mathbb{N}_+)^{\langle s, o\rangle}}{\to} (\mathbb{N}_+)^{\mathbb{N} + \mathbf{1}} \cong (\mathbb{N}_+)^\mathbb{N} \times \mathbb{N}_+.$$ 
+
+Endow $\mathbf{I}$ with the subspace topology coming from $\mathbf{R}$ (as one-point compactification of $[1, \infty)$), and $(\mathbb{N}_+)^{\mathbb{N}}$ with the topology of the product of countably many discrete spaces $\mathbb{N}$. 
+
++-- {: .num_lemma} 
+###### Lemma 
+The coalgebra isomorphism $\mathbf{I} \to (\mathbb{N}_+)^{\mathbb{N}}$ is a continuous map. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+It suffices to check that each composite 
+
+$$\mathbf{I} \to (\mathbb{N}_+)^{\mathbb{N}} \stackrel{\pi_n}{\to} \mathbb{N}_+$$ 
+
+is continuous. Following the notation $\tau(x) = (x - fl(x))^{-1}$ above, this composite map is $x \mapsto fl(\tau^n(x))$, so it suffices to check that $fl: \mathbf{I} \to \mathbb{N}_+$ is continuous, or in other words that 
+
+$$\{x \in \mathbf{I}: fl(x) = m\}$$ 
+
+is open for every $m$. This set is clearly open, being the intersection $(m, m+1) \cap \mathbf{I}$ (noting that of course $m \notin \mathbf{I}$!). 
+=-- 
+
++-- {: .num_lemma} 
+###### Lemma 
+The coalgebra isomorphism $\psi: (\mathbb{N}_+)^{\mathbb{N}} \to \mathbf{I}$ is continuous. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+This merely says that for each sequence of positive integers $(a_0, a_1, \ldots)$ and for a given $\epsilon \gt 0$, that there exists $N$ such that 
+${|\psi(a_0, a_1, \ldots) - \psi(b_0, b_1, \ldots)|} \lt \epsilon$ provided 
+$a_i = b_i$ for $i = 0, \ldots, N$. But this just follows the proof of convergence of continued fractions given in the proof of Lemma \ref{converge}. 
+=-- 
+
++-- {: .num_corollary} 
+###### Corollary 
+The coalgebra isomorphism $\psi$ is a homeomorphism. 
+=-- 
+
+## Examples 
+
+## References 
+
+[[!redirects continued fractions]] 
