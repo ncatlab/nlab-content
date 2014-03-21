@@ -507,6 +507,16 @@ $$
 
 
 
+## Examples
+
+### Locally free field theories
+
+Some [[sigma-model]] quantum field theories have the property that they are fee _locally_ on their [[target spaces]]. Under good conditions then [[quantization]] of free field theory locally yields a [[sheaf]] of [[quantum observables]] on [[target space]] from which the full quantization of the field theory may be reconstructed.
+
+A famous example of this is the [[topological twist|topologically twisted]][[2d (2,0)-superconformal QFT]] (see there for more, and see ([Gwilliam, section 6](#{#Gwilliam}) for the description in terms of [[factorization algebras]]).
+
+
+
 ## Related concepts
 
 * [[Gaussian probability distribution]]
@@ -521,11 +531,10 @@ $$
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  {#CostelloGwilliam}
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
- {#Gwilliam}
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ 
 
 [[!redirects free field theories]]
 
 [[!redirects free field]]
 [[!redirects free fields]]
-
