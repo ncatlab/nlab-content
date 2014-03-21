@@ -1004,6 +1004,8 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
 * [[string structure]],  **differential string structure**
 
+  * [[chiral Dolbeault complex]]
+
 * [[fivebrane structure]],
 
 * [[twisted differential c-structure]]
