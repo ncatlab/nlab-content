@@ -34,9 +34,9 @@ Proposals for definitions/constructions of Dirac operators on smooth loop spaces
 
 * C.H. Taubes, _$S^1$-actions and elliptic genera_, Communications in mathematical physics 122 (1989), no. 3, pages 455-526.
 
-* [[Andrew Stacey]], _The co-Riemannian Structure of Smooth Loop Spaces_ ([arXiv:0809.3108](http://arxiv.org/abs/0809.3108))
+* [[Andrew Stacey]], _The co-Riemannian Structure of Smooth Loop Spaces_ ([arXiv:0809.3108](http://arxiv.org/abs/0809.3108)) and _How to Construct a Dirac Operator in Infinite Dimensions_ ([arXiv:0809.3104](http://arxiv.org/abs/0809.3104))
 
-* Chris Kottke with [[Richard Melrose]], _A very smooth Dirac operator on loop space_ ([pdf](www.math.uiuc.edu/~palbin/CRM2012/KottkeAbstract.pdf))
+* Chris Kottke with [[Richard Melrose]], _A very smooth Dirac operator on loop space_ ([pdf](http://www.math.uiuc.edu/~palbin/CRM2012/KottkeAbstract.pdf))
 
 
 
