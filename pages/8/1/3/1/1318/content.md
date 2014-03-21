@@ -212,3 +212,7 @@ $$\varphi^* : H(F(K))\to H(G(K))$$
 
 is an isomorphism.
 =--
+
+## References
+
+  * S. Halperin, _Lectures on minimal models_, M&#233;moires de la S. M. F. 2e s&#233;rie, tome 9-10 (1983), p. 1-261 ([eduml](http://eudml.org/doc/94833), [pdf](http://archive.numdam.org/article/MSMF_1983_2_9-10__1_0.pdf))
