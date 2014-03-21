@@ -26,12 +26,17 @@
 
 The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; the local data of a [[2d SCFT]].
 
+## Examples
+
+* [[chiral differential operators]]
+
 ## Related concepts
 
 * [[super Virasoro algebra]]
 
 ## References
 
+* [[Edward Frenkel]], [[David Ben-Zvi]], _Vertex algebras and algebraic curves_, 2nd Ed., American Mathematical Society, Providence, RI, 2004.
 
 In relation to the [[Witten genus]]:
 
@@ -48,3 +53,9 @@ In relation to the [[Witten genus]]:
 
 [[!redirects vertex operator super-algebra]]
 [[!redirects vertex operator super-algebras]]
+
+[[!redirects super vertex algebra]]
+[[!redirects super vertex algebras]]
+
+[[!redirects vertex super-algebra]]
+[[!redirects vertex super-algebras]]
