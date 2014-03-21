@@ -97,6 +97,10 @@ where on the right $(-)^\ast$ denotes the continuous linear dual.
 
 First noticed in ([Serre](#Serre)).
 
+### Todd genus
+
+By the [[Hirzebruch-Riemann-Roch theorem]] the [[index]] of the Dolbeault operator is the [[Todd genus]].
+
 ### Relation to $Spin^c$-structures
 
 A [[complex manifold]], being in particular an [[almost complex manifold]], carries a canonical [[spin^c structure]]. The corresponding [[Spin^c Dirac operator]] identifies with the Dolbeault operator under the identification of the [[spinor bundle]] with that of [[holomorphic differential forms]]
