@@ -98,6 +98,11 @@ The [[Moonshine]] module over the [[Griess algebra]] admits the structure of a v
 
 A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties.
 
+## Variants 
+
+* [[rational vertex operator algebra]]
+
+* [[super vertex operator algebra]]
 
 ## References
 
