@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The traditional definition of a [[Dirac operator]] is formulated for operators acting on [[sections]] of [[spinor bundles]] over [[Riemannian manifolds]], not however directly for bundles over [[infinite dimensional manifolds]].
+
+When the conceptual importance of the [[Dirac-Ramond operator]] in the [[superstring]] [[worldsheet]] [[2d SCFT]] was realized (an operator in a [[super vertex operator algebra]]) via the relation in the [[large volume limit]] of its [[index]] (suitably regarded) to the [[Witten genus]], then it seemed suggestive that it should be possible to regard the Dirac-Ramond operator as an actual Dirac operator on the infinite-dimensional [[smooth loop space]] of the underlying manifold, and regard its $S^1$-equivariant [[index of a Dirac operator]] in some precise sense.
+
+The definition of Dirac operators on smooth loop spaces is technically tricky, but constructions do exist. It remains however unclear how these constructions relate to the [[Dirac-Ramond operator]] and a rigorous derivation of the [[Witten genus]] as an (equivariant) [[index of a Dirac operator]] along these lines seems to remain open.
+
+
+## References
+
+...
+
+
+[[!redirects Dirac operator on a smooth loop space]]
+
+[[!redirects Dirac operators on a smooth loop space]]
+
+[[!redirects Dirac operators on smooth loop spaces]]
+
