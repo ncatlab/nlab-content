@@ -87,13 +87,15 @@ It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street bega
 
 There is a [[vertical categorification|categorification]] of associahedra discussed in
 
-* [[Stefan Forcey]], _A catgorification of associahedra_ ([web](http://faculty.tnstate.edu/sforcey/ct06.htm))
+* [[Stefan Forcey]], _A categorification of associahedra_ ([web](http://faculty.tnstate.edu/sforcey/ct06.htm))
 
 ## References
 
-The original article that defines associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit is
+The original articles that define associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit are
 
-* [[Jim Stasheff]], _Homotopy associative H-spaces I_, _II_, Trans. Amerk. Math. Soc. 108 (1963), 275--312
+* [[Jim Stasheff]], _Homotopy associativity of H-spaces I_, Trans. Amer. Math. Soc. 108 (1963), 275--312.  ([web](http://www.jstor.org/stable/1993608))
+
+* [[Jim Stasheff]], _Homotopy associativity of H-spaces II_, Trans. Amer. Math. Soc. 108 (1963), 293--312.  ([web](http://www.jstor.org/stable/1993609))
 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
@@ -102,6 +104,7 @@ A textbook discussion (slightly modified) is in section 1.6 of the book
 Further explanations and references are collected at
 
 * [AMS entry on associahedra](http://www.ams.org/featurecolumn/archive/associahedra.html)
+
 * [[Alexander Postnikov]], _Permutohedra, associahedra and beyond_, [math.CO/0507163](http://arxiv.org/abs/math/0507163) [pdf](http://math.mit.edu/~apost/papers/permutohedron.pdf)
 
 category: combinatorics
