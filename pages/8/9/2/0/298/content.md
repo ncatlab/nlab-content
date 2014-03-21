@@ -110,7 +110,7 @@ A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up
 
 * [[super vertex operator algebra]]
 
-* [[sheaf of vertex operator algebras]]
+* [[sheaf of vertex operator algebras]], [[vertex operator algebroid]]
 
 ## Related entries
 
