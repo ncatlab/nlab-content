@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; the local data of a [[2d SCFT]].
+
+## Related concepts
+
+* [[super Virasoro algebra]]
+
+## References
+
+* Hirotaka Tamanoi, _Elliptic Genera and Vertex Operator Super-Algebras_, 1999
+
+[[!redirects super vertex operator algebras]]
+
+[[!redirects vertex operator super-algebra]]
+[[!redirects vertex operator super-algebras]]
