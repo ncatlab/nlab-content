@@ -117,6 +117,22 @@ An elegant formulation of twisted Witten genera (and proof of their rigidity) in
 
 What should be a concrete computation of the twisted Witten genus specifically of an [[E8]]-[[principal bundle]] this was in in ([Harris 12, section 4](#Harris12)).
 
+### As the global character of sheaves of vertex operator algebras
+
+For $U \subset \mathbb{C}$ an [[open subset]] of the [[complex plane]] then the space $\mathcal{D}^{ch}(U)$ of [[chiral differential operators]] on $U$ is naturally a [[super vertex operator algebra]]. For $X$ a [[complex manifold]] such that its [[first Chern class]] and [[second Chern class]] vanish over the [[rational numbers]], then this assignment gives a [[sheaf of vertex operator algebras]] $\mathcal{D}^{ch}_X(-)$ on $X$. Its [[cochain cohomology]] $H^\bullet(\mathcal{D}^{ch}_X)$ is itself a [[super vertex operator algebra]] and its super-[[Kac-Weyl character]] is proportional to the [[Witten genus]] $w(X)$ of $X$:
+
+$$
+  char H^\bullet(\mathcal{D}^{ch}_X)\propto w(X)
+  \,.
+$$
+
+Physically this result is understood by observing that $\mathcal{D}^{ch}_X$is the sheaf of [[quantum observables]] of the [[topological twist|topologically twisted]] [[2d (2,0)-superconformal QFT]] (see there for more on this) of which the [[Witten genus]] is (the [[large volume limit]] of) the [[partition function]].
+
+See ([Cheung 10](#Cheung10)) for a biref review, where furthermore the problem of generalizing of this construction to [[sheaves of vertex operator algebras]] over more general [[string structure]] manifolds is addressed.
+
+
+
+
 ### Stolz conjecture
 
 The _[[Stolz conjecture]]_ due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its Witten genus vanishes.
@@ -260,7 +276,7 @@ in
 
 and for  the [[topological twist|topologically twisted]] [[2d (2,0)-superconformal QFT]] (the [[heterotic string]] with enhanced supersymmetry) via [[sheaves of vertex operator algebras]] in
 
-* Pokman Cheung, _The Witten genus and vertex algebras_ ([arXiv:0811.1418](http://arxiv.org/abs/0811.1418))
+* {#Cheung10} Pokman Cheung, _The Witten genus and vertex algebras_ ([arXiv:0811.1418](http://arxiv.org/abs/0811.1418))
 
 which is based on the detailed construction via [[chiral differential operators]] in 
 
