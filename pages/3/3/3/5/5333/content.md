@@ -29,6 +29,10 @@ An effective [[target space]] [[quantum field theory]] induced from a given hete
 
 Since global $N=1$ supersymmetry for a long time has been considered a promising phenomenological model in high energy physics, this fact has induced a lot of interest in heterotic string background with a Yalabi-Yau factor.
 
+### Enhanced supersymmetry
+
+A priori the [[worldsheet]] [[2d SCFT]] describing the quantum heterotic string has $N=(1,0)$ [[supersymmetry]]. Precisely if the corresponding [[target space]] [[effective field theory]] has $N=1$ supersymmetry does the worldsheet theory enhance to $N=(2,0)$ supersymmetry. See at _[[2d (2,0)-superconformal QFT]]_ and at _[[Calabi-Yau manifolds and supersymmetry]]_ for more on this.
+
 ### Dualities
 
 * For duality with [[F-theory]] see [references below](#DualityWithFTheory).
