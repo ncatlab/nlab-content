@@ -1,9 +1,8 @@
 
-| $d$ | [[partition function]] in $d$-dimensional QFT | [[index]]/[[genus]] in [[cohomology theory]] |
-|--||---|---|
-| 0 |    |  push-forward in [[ordinary cohomology]]: [[integration of differential forms]]  |
-| 1 | [[spinning particle]] | [[K-theory]] [[index]] |
-|   | endpoint of [[2d Poisson-Chern-Simons theory]] string | [[space of quantum states]] of boundary [[phase space]]/[[Poisson manifold]] | 
-|   | endpoint of [[type II superstring]] | [[D-brane charge]] |
-| 2 | [[type II superstring]] | [[elliptic genus]] |
-|   | [[heterotic string]] | [[Witten genus]] |
+| $d$ | [[partition function]] in $d$-dimensional QFT | supercharge  | [[index]]/[[genus]] in [[cohomology theory]] |
+|--|--|---|---|
+| 0 |    |  |  push-forward in [[ordinary cohomology]]: [[integration of differential forms]]  |
+| 1 | [[spinning particle]] | [[Dirac operator]] | [[K-theory]] [[index]] |
+|   | endpoint of [[2d Poisson-Chern-Simons theory]] string | [[Spin^c Dirac operator]] twisted by [[prequantum line bundle]] | [[space of quantum states]] of boundary [[phase space]]/[[Poisson manifold]] | 
+|   | endpoint of [[type II superstring]] | [[Spin^c Dirac operator]] twisted by [[Chan-Paton gauge field]] |  [[D-brane charge]] |
+| 2 | [[superstring]] | [[Dirac-Ramond operator]] | [[elliptic genus]]/[[Witten genus]] |
