@@ -39,6 +39,8 @@ $$
 where...
 
 ## Related concepts
+ 
+* [[Hirzebruch-Riemann-Roch theorem]]
 
 * [[push-forward in generalized cohomology]]
 
