@@ -24,7 +24,9 @@
 
 ## Idea
 
-[[SCFT]] in [[dimension]] $d = 2$. For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]] of the [[superstring]].
+[[SCFT]] in [[dimension]] $d = 2$, locally given by a [[super vertex operator algebra]]. 
+
+For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]] of the [[superstring]].
 
 
 ## Examples
