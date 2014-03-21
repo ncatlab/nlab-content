@@ -73,6 +73,8 @@ For more on this see at _[TCFT -- Worldsheet and effective background theories](
 
       * **A-model**, [[B-model]]
 
+      * [[half-twisted model]]
+
     * [[Courant sigma-model]]
 
       * [[Chern-Simons theory]]
