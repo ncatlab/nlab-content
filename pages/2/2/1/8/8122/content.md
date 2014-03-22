@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Tensor products of Banach spaces
 * table of contents
 {: toc}
@@ -121,23 +120,26 @@ Actually, this would all be simpler if Propostion \ref{topbot} applied to *arbit
 
 Of course, any cross norm $\chi$ on $V$ and $W$ allows us to form the Banach space $V {\displaystyle\hat{\otimes}_\chi} W$, which may reasonably be called a __tensor product__ of $V$ and $W$; that\'s why we care.
 
-## Schmidt Decomposition
 
-The *Schmidt decomposition* is a way of expressing a pure state in the tensor product of two Hilbert spaces in terms of states of the two components:
+## Schmidt decomposition
+
+The __Schmidt decomposition__ is a way of expressing a pure state in the tensor product of two Hilbert spaces in terms of states of the two components:
 
 +-- {: .num_theorem}
 ###### Theorem [Nielsen and Chuang Theorem 2.7](#NielsenChuang)
-Let $A$ and $B$ be finite-dimensional Hilbert spaces.  Let $|\psi\rangle$ be a [[pure state]] of $A \otimes B$.  Then there exist [[orthonormal]] families $\{ |i_A \rangle \}_i$ in $A$ and $\{ |i_B \rangle \}_i$ in $B$, and non-negative real numbers $\lambda_i$, such that
+
+Let $A$ and $B$ be finite-dimensional Hilbert spaces.  Let $|\psi\rangle$ be a [[pure state]] of $A \otimes B$.  Then there exist [[orthonormal family|orthonormal families]] $\{ |i_A \rangle \}_i$ in $A$ and $\{ |i_B \rangle \}_i$ in $B$, and non-negative real numbers $\lambda_i$, such that
 \[ |\psi\rangle = \sum_i \lambda_i |i_A \rangle \otimes |i_B\rangle \]
 and $\sum_i \lambda_i^2 = 1$.
 =--
 
-The numbers $\lambda_i$ are called the *Schmidt co-efficients* of $|\psi\rangle$, and the families $\{ |i_A\rangle \}$ and $\{ |i_B\rangle \}$ the *Schmidt bases* for $A$ and $B$.
+The numbers $\lambda_i$ are called the __Schmidt co-efficients__ of $|\psi\rangle$, and the families $\{ |i_A\rangle \}$ and $\{ |i_B\rangle \}$ the __Schmidt bases__ for $A$ and $B$.
 
 +-- {: .num_defn}
 ###### Definition
-The *Schmidt number* of $|\psi\rangle$ is the number of non-zero Schmidt coefficients of $|\psi\rangle$.
+The __Schmidt number__ of $|\psi\rangle$ is the number of non-zero Schmidt coefficients of $|\psi\rangle$.
 =--
+
 
 ## Foundational issues
 
@@ -184,3 +186,15 @@ Many facts taken from Wikipedia:
 [[!redirects reasonable cross norms]]
 [[!redirects uniform cross norm]]
 [[!redirects uniform cross norms]]
+
+[[!redirects Schmidt decomposition]]
+[[!redirects Schmidt decompositions]]
+[[!redirects Schmidt coefficient]]
+[[!redirects Schmidt coefficients]]
+[[!redirects Schmidt co-efficient]]
+[[!redirects Schmidt co-efficients]]
+[[!redirects Schmidt basis]]
+[[!redirects Schmidt bases]]
+[[!redirects Schmidt basises]]
+[[!redirects Schmidt number]]
+[[!redirects Schmidt numbers]]
