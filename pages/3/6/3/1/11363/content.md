@@ -1,0 +1,20 @@
+## Statement ##
+
+Let $B$ be the unit ball of a separable [[Hilbert space]] over $\mathbb{R}$ or $\mathbb{C}$. Then the scalar product, $\langle \cdot, \cdot \rangle : B \times B \to \mathbb{C}$ has the following special property:
+
++-- {: .num_theorem}
+###### Theorem
+
+There exist sequences $f_n,g_n: B \to \mathbb{C}$ of norm continuous functions, such that
+* $\langle x, y \rangle = \sum_n f_n(x) g_n(y)$ for all $x, y \in B$
+* $\sum_n \sup_B \left| f_n \right| \sup_B \left| g_n \right| &lt; \infty$
+=--
+
+In other words, $\langle \cdot, \cdot \rangle$, as a function of two variables, is an element of the [[tensor product of Banach spaces|projective tensor product]] $C(B) \hat \otimes C(B)$. Its projective tensor norm is known as the Grothendieck's constant. The precise value of this constant is different in the real and complex case, and neither one is known exactly.
+
+
+## References ##
+
+A very nice proof and some applications of this result are discussed in
+
+* Ron Blei, _Analysis in integer and fractional dimensions_
