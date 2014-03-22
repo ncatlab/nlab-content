@@ -50,7 +50,7 @@ $$\underset{\circlearrowleft}{\bullet} \underset{}{\leftrightarrow} \underset{\c
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
 
 ***
-[[?]]
+[[?]] [[Grothendieck inequality]] $&lt;>$
 ***
 
 category: meta
@@ -74,5 +74,5 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects ??? ????]]
 [[!redirects Featured math : Quora]]
