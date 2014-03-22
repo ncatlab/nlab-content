@@ -371,6 +371,10 @@ Witt class.
 
 * [[conformal structure]], [[moduli space of conformal structures]], [[Teichmüller theory]]
 
+* [[conformal transformation]], [[Möbius transformation]]
+
+* [[vertex operator algebra]]
+
 * [[conformal anomaly]]
 
 * [[rational conformal field theory]]
