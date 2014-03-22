@@ -19,6 +19,10 @@ The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is calle
 
 As such this is [[complex projective space]] $\mathbb{C}P^1$.
 
+## Properties
+
+The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from the Riemann sphere to itself are the [[Möbius transformations]].
+
 ## Related concepts
 
 * [[geometric quantization of the 2-sphere]].
