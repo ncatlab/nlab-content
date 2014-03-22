@@ -74,6 +74,8 @@ The proof is spelled out at [[affine line]].
 
 * [[projective geometry]], [[synthetic projective geometry]]
 
+* [[projective linear group]], [[]]
+
 ## References
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
