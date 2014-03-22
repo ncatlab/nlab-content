@@ -53,3 +53,5 @@ See [[center of an ∞-group]].
 [[!redirects centre]]
 [[!redirects centers]]
 [[!redirects centres]]
+
+[[!redirects center of a group]]
