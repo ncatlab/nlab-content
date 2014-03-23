@@ -15,7 +15,7 @@ The two pedagogical books written with Kashiwara:
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Springer
 (this book describes, among other topics, the author's theory of microlocalization of sheaves)
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Springer (2000)
+* Masaki Kashiwara, [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 More on his work can be found on:
 
