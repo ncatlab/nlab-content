@@ -227,6 +227,16 @@ Expositions includes
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
 
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+See also
+
+* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
+
+Details are in  
+
+* [[Mark Behrens]], _Notes on the construction of $tmf$_ ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
+
 A course that goes through the construction of tmf and the computation of its homotopy groups is
 
 *  _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
@@ -239,13 +249,7 @@ A course that goes through the construction of tmf and the computation of its ho
 
    * [[André Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf))     {#HenriquesModuli}
 
-More details are at 
 
-* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
-
-and in the series of lecture notes linked to there.
-
-* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$, hence the [[string orientation of tmf]] is due to 
 
