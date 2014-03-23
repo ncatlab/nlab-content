@@ -1,6 +1,6 @@
-Pierre Schapira is a french mathematician who developped [[algebraic analysis]] as a member of Sato's school, with main collaborator [[Masaki Kashiwara]]. Together, they developped microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+Pierre Schapira is a french mathematician who developed [[algebraic analysis]] as a member of Sato's school, with main collaborator [[Masaki Kashiwara]]. Together, they developed microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
 
-The theory of [[microlocalization]] of (ind)-sheaves was developped in the following works:
+The theory of [[microlocalization]] of (ind)-sheaves was developed in the following works:
 
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
