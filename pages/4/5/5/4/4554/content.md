@@ -253,7 +253,7 @@ By Fact 2, the arrow $p_{0} \circ e$ is a trivial fibration. By one of the axiom
 +-- {: .num_remark}
 ###### Remark
 
-That $r$ is a fibration can be demonstrated in exactly the same as we established that $g$ is a fibration. It is to prove the stronger assertion that $r$ is a trivial fibration that the argument with which we concluded the proof is needed.
+That $r$ is a fibration can be demonstrated in exactly the same way as that $g$ is a fibration. It is to prove the stronger assertion that $r$ is a trivial fibration that the argument with which we concluded the proof is needed.
 
 =--
 
@@ -279,7 +279,7 @@ and the fact that $r$ is a weak equivalence, we have, by one of the axioms for a
 +-- {: .num_cor}
 ###### Corollary
 
-Let $\mathcal{C}$ be a category of fibrant objects. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F : C \to D$ be a functor with the property that for every arrow $f$ of $\mathcal{C}$ which is a trivial fibration, we have that $F(f)$ is a weak equivalence. 
+Let $\mathcal{C}$ be a category of fibrant objects. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F : C \to D$ be a functor with the property that, for every arrow $f$ of $\mathcal{C}$ which is a trivial fibration, we have that $F(f)$ is a weak equivalence. 
 
 Let $w : X \to Y$ be an arrow of $\mathcal{C}$ which is a weak equivalence. Then $F(w)$ is a weak equivalence. 
 =--
