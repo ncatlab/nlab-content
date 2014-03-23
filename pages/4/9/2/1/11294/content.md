@@ -27,6 +27,12 @@ Construct a [[polar coordinates|polar coordinate grid]] (consisting of radial li
 
 Equivalently, imagine four ants situated at the corners of a square, and imagine that at some instant each begins crawling toward its neighbor looking clockwise from above, each at the same speed. The trajectory of each ant is a logarithmic spiral as described above, and the same description of $e$ applies. 
 
+## Related entries
+
+* [[Euler number]]
+
+* [[exponential map]]
+
 
 ## References 
 
