@@ -1,0 +1,11 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/William_S._Massey)
+
+## related $n$Lab entries
+
+* [[Blakers-Massey theorem]]
+
+category: people
+
+[[!redirects William S. Massey]]
+
