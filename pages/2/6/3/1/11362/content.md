@@ -188,7 +188,12 @@ Part of the story of Pell's equation is that an integer solution to $x^2 - D y^2
 
 +-- {: .num_example} 
 ###### Example 
-The quadratic irrational represented by $[1, 1, 1, \ldots]$ is the [[golden ratio]] $\frac1{2}(1 + \sqrt{5}) \approx 1.618\ldots$. Many properties of this constant (as manifested both mathematically and physically) are due to this fact and the fact that of all infinite continued fractions, the convergence rate of its rational approximants is slowest for this number. 
+The quadratic irrational represented by $[1, 1, 1, \ldots]$ is the [[golden ratio]] $\Phi = \frac1{2}(1 + \sqrt{5}) \approx 1.618\ldots$. Many properties of this constant (as manifested both mathematically and physically) are due to this fact and the fact that of all infinite continued fractions, the convergence rate of its rational approximants is slowest for this number. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Were the Pythagoreans the first to do coalgebra? John Baez remarks in [Week 265](http://math.ucr.edu/home/baez/week265.html) that the Pythagoreans were fascinated by pentagrams, and drops hints that they may have been aware of the continued fraction for the golden ratio and also the fact that $\Phi$ is irrational. The Pythagorean pentagram on display in Baez's page clearly indicates an infinite stream of pentagons which can be viewed as a coalgebraic behavior stream. And indeed if $\Phi$ were a rational number $p/q$ with $p, q$ as small as possible, then we would also have $\Phi = q/(p-q)$, with numerator and denominator even smaller, contradiction. This is analogous to one of the famous proofs of irrationality of $\sqrt{2}$: if $\sqrt{2} = p/q$, then also $\sqrt{2} = (2q - p)/(p-q)$, which generates an infinite descending stream of positive numerators and denominators, contradiction. 
 =-- 
 
 +-- {: .num_example} 
@@ -224,6 +229,47 @@ then $\tau$ is an [[ergodic transformation]] with respect to $\mu$, making $(Irr
 =-- 
 
 A proof may be found [here](http://www.mathematik.uni-wuerzburg.de/~christ/nihon.pdf). 
+
+## Rational tangles 
+
+Among the many uses of continued fractions, we mention a quite remarkable one due to John H. Conway. 
+
++-- {: .num_defn} 
+###### Definition 
+A _rational tangle_ is a subspace $T$ of the 3-disk $D^3$ obtained by embedding two arcs 
+
+$$(\alpha_1, \alpha_2): I + I \to D^3,$$ 
+
+with endpoints on the boundary $\partial D^3$, such that the pair of spaces $(D^3, T = \alpha_1(I) + \alpha_2(I))$ is homeomorphic to the pair $(D^2 \times I, \{x, y\} \times I)$, with $x, y \in D^2$ distinct points. Two rational tangles $S, T$ are _isotopic_ if there exists an orientation-preserving homeomorphism $(D^3, S) \to (D^3, T)$ that is the identity on $\partial D^3$. 
+=-- 
+
+Conventionally, rational tangles (or more general 2-tangles) are exhibited by tangle diagrams placed within a disk (with appropriate over- and under-crossings), say a unit disk ${|z|} \leq 1$ in the complex plane, with endpoints situated at primitive $8^{th}$ roots of unity $\exp((2k+1)i\pi/8)$; these endpoints are indicated by their directions NE, NW, SW, SE. There is a trivial 2-tangle with a chord from NE to NW and another from SE to SW; this is denoted $[0]$. Two operations that can be used to generate further 2-tangles are 
+
+* "Turn" (rotate the disk through 90 degrees counterclockwise), 
+
+* "Twist" (insert a "horizontal" twist that interchanges NE and SE, which can be a positive twist or a negative twist depending on convention). 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Conway)** 
+The set of isotopy classes of rational tangles is in bijection with the set of rational elements $q \in \mathbb{Q} \cup \{\infty\}$, in such a way that if $[q]$ is the isotopy class corresponding to $q$, then $[-1/q]$ is the class corresponding to a turn of $[q]$, and $[1+q]$ is the class corresponding to a positive twist of $[q]$. 
+=-- 
+
+In particular, every rational tangle can be brought back to the trivial tangle $[0]$ by a series of (positive) twists and turns, and every rational tangle is isotopic to the tangle obtained by applying a 180 degree counterclockwise turn to it. A very readable account of this result may be found in an article by Kauffman and Lambropoulou, [here](http://arxiv.org/pdf/math/0311499.pdf). 
+
+It should be remarked that the twist and turn operations correspond to group elements in $PSL_2(\mathbb{Z})$: 
+
+$$turn = \left(
+\array{
+0 & 1 \\
+-1 & 0
+}\right), \qquad pos.twist = \left(
+\array{
+1 & 1 \\
+0 & 1
+}\right)$$ 
+
+
 
 ## References 
 
