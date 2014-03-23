@@ -2,7 +2,7 @@
 
 * [homepage](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara), [list of publicatons](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/list.html)
 
-* Masaki Kashiwara, [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2000)
+* Masaki Kashiwara, [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 * P. Shapira, _Masaki Kashiwara and algebraic analysis_, Adv. Studies in Pure Analysis, [arxiv/0810.4875](http://arxiv.org/abs/0810.4875)
 
