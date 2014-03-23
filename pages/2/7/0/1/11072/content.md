@@ -36,6 +36,8 @@ As any [[comonad]], the !-modality may be realized as induced from an [[adjuncti
 
 ## Related concepts
 
+* [[exponential map]]
+
 * [[multiplicative conjunction]]
 
 * [[linear implication]]
