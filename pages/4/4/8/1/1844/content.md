@@ -70,6 +70,11 @@ $$\gamma \coloneqq \lim_{n \to \infty} \sum_{k=1}^n \frac1{k} - \log n$$
 
 where $\log$ is the natural [[logarithm]]. It arises for example in discussions of the [[Gamma function]]. 
 
+## Related concepts
+
+* [[e]]
+
+* [[exponential map]]
 
 [[!redirects Euler number]]
 [[!redirects Euler numbers]]
