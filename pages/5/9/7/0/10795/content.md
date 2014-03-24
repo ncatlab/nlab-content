@@ -7,11 +7,15 @@
 
 ## Idea
 
-Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] whose points are the [[prime ideals]] of $R$ and whose [[topology]] is the [[Zariski topology]] on these prime ideals.
+Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] whose points are the [[prime ideals]] of $R$ and whose [[topology]] is the [[Zariski topology]] on these prime ideals. (The [[prime spectrum]])
 
 ## Related concepts
 
 * [[spectrum (geometry)]]
+
+  * [[prime spectrum]]
+
+* [[prime spectrum of a monoidal stable (∞,1)-category]]
 
 * [[affine scheme]]
 
