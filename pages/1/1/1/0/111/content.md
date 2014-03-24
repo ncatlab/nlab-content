@@ -269,6 +269,8 @@ The definition of categories in the [[foundations]] of [[homotopy type theory]] 
 
 * Benedikt Ahrens, [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
+* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
+
 For more references see [[category theory]].
 
 [[!redirects category]]
