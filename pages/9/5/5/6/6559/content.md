@@ -37,7 +37,7 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[false vacuum]], [[tachyon]]
 
-* [[vacuum expectation value]]
+* [[vacuum expectation value]], [[vacuum fluctuation]]
 
 
 * [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
