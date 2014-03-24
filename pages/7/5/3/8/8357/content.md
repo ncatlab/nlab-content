@@ -9,7 +9,7 @@ An [[experiment]] in [[particle physics]] measuring the details of the [[standar
 
 ## Properties
 
-Resolution about $10^{-20}m \simeq 10 TeV$ ad currently reached $\simeq 7 TeV$  (e.g. [Mazumdar, slide 7](#Mazumdar))
+Resolution about $10^{-20}m \simeq 10$ [[TeV]] ad currently reached $\simeq 7 TeV$  (e.g. [Mazumdar, slide 7](#Mazumdar))
 
 
 ## Related entries
