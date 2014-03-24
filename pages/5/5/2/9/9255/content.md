@@ -11,6 +11,8 @@
 
 * Tomasz Kaczynski, Konstantin Mischaikow and Marian Mrozek, _Computational Homology_, Appl. Math. Sci. Vol. 157, Springer Verlag, NY 2004, [webpage](http://www.springer.com/mathematics/applications/book/978-0-387-40853-8)
 
+* Sergei Matveev, _Algorithmic Topology and Classification of 3-Manifolds_, Second Edition,
+Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, ISBN 978-3-540-45898-2
 
 ## Websites
 
