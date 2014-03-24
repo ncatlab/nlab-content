@@ -7,6 +7,8 @@
 
 In [[physics]], the __energy__ of a [[physical system]] is one of its most basic [[observable]] properties, an [[extensive quantity]] roughly measuring how much stuff is in the system.
 
+In [[experiment]] it is often measured in [[units]] of [[electronvolt]].
+
 The term 'energy' is also used in [[Riemannian geometry]] and [[statistics]] in vague analogy with the concept from physics.
 
 
