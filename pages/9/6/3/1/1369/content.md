@@ -233,7 +233,7 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
-
+* [[prime spectrum of a monoidal stable (∞,1)-category]]
 
 ## References
 
