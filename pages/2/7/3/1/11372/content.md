@@ -1,0 +1,10 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Giordano_Bruno)
+
+## related $n$Lab entries
+
+* [[multiverse]]
+
+category: people
+
