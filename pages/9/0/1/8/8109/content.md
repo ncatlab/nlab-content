@@ -99,6 +99,8 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
   * [[K(n)-local stable homotopy theory]]
 
+  * [[Bousfield-Kuhn functor]]
+
 * [[Morava E-theory]]
 
   * [[Lubin-Tate theory]]
