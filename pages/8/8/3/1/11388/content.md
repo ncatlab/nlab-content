@@ -1,0 +1,7 @@
+[[!redirects Nat Stapleton]]
+
+
+
+* [webpage](http://math.mit.edu/~nstapleton/)
+
+category: people
