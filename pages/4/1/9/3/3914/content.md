@@ -272,6 +272,15 @@ This is called the [[Thom isomorphism]].
 
 The existence of an $H$-orientation is necessary in order to have a notion of [[fiber integration]] in $H$-cohomology.
 
+## Properties
+
+### Relation between Thom classes and trivializations
+
+The relation (equivalence) between choices of [[Thom classes]] and trivializations of [[(∞,1)-line bundles]] is 
+discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
+
+
+ 
 ## Examples
 
 * For $V \to X$ a vector bundle of rank $k$, an ordinary [[orientation]] is a trivialization of the line bundle $\wedge^k V$. This is indeed equivalently a trivialization of $V \wedge H(\mathbb{R})$ of smashing with the [[Eilenberg-MacLane spectrum]].
@@ -297,22 +306,26 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 
 ## References
 
-A comprehesive account is in 
+A comprehesive account (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
 The general abstract story of $E$-orientation of sphere fibrations is discussed in
 
-* [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_ ) ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
+* [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
  {#Hopkins}
 
-with an eye towards constructing the [[string structure]]-orientation of [[tmf]].
+with an eye towards constructing the [[string orientation of tmf]], based on 
+
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 Orientation of vector bundles in $E$-cohomology is discussed for instance in
 
 * [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
 
 [[!redirects Thom class]]
+[[!redirects Thom classes]]
+
 
 [[!redirects orientations in generalized cohomology]]
