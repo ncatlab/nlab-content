@@ -70,6 +70,11 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[supergravity]]
 
+* [[spacetime]]
+
+  * [[black hole]]
+
+  * [[gravitational wave]]
 
 * gravitational entropy
 
