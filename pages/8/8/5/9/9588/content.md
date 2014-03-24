@@ -153,6 +153,11 @@ and more specifically see the lectures
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf]  Lecture 24 _Uniqueness of Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture24.pdf))
 
+also
+
+* _Report of $E$-theory conjectures seminar_ (2013) ([pdf](http://math.berkeley.edu/~ericp/latex/misc/mit-ethy.pdf))
+
+
 Discussion of the $E_\infty$-algebra structure over $B P$ is in
 
 * [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
