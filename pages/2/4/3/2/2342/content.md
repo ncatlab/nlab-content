@@ -33,6 +33,14 @@ This implies that an elliptic curva has [[genus]] 1. (by a direct argument conce
 
 =--
 
++-- {: .num_defn}
+###### Definition
+
+An elliptic curve over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
+
+=--
+
+
 ### Over the complex numbers
 
 +-- {: .num_prop #CharacterizationOverC}
@@ -140,9 +148,16 @@ See also
 
 * [[Tate curve]]
 
-* [[elliptic cohomology]]
-
 * [[Szpiro's conjecture]]
+
+* [[moduli stack of elliptic curves]]
+
+  * [[modular form]], [[Jacobi form]]
+
+  * [[topological modular form]]
+
+* [[elliptic cohomology]], [[tmf]]
+
 
 ## References
 
