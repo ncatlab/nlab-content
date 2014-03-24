@@ -164,7 +164,12 @@ Given a (rational) genus $\phi \colon \Omega^{U,SU}_\bullet\otimes \mathbb{Q} \t
      K_\phi(c_1) \in H^\bullet(B U(1),R \otimes \mathbb{Q})
    $$
 
-   where $c_1 \in H^2(B U(1), \mathbb{Z})$ denotes the universal [[first Chern class]].
+   where $c_1 \in H^2(B U(1), \mathbb{Z})$ denotes the universal [[first Chern class]]; hence its value on a [[direct sum]]  $L_1 \oplus \cdots \oplus L_k$ of [[complex line bundles]] is
+
+   $$
+     \prod_{i} K_\phi(c_1(L_i))
+     \,.
+   $$
 
 #### Definition via orientations in generalized cohomology
  {#HirzebruchSeriesViaOrientationsInGeneralizedCohomology}
@@ -330,7 +335,7 @@ Reviews include
 
 * Wikipedia, _[Genus of a multiplicative series](http://en.wikipedia.org/wiki/Genus_of_a_multiplicative_sequence)_
 
-Discusison in terms of [[orientations in generalized cohomology]] is in
+Discussion in terms of [[orientations in generalized cohomology]] is in
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
