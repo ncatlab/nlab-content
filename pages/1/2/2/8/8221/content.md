@@ -33,6 +33,8 @@ The current model assumes that the energy density of the [[observable universe]]
 
 ## Related concepts
 
+* [[BICEP2]]
+
 * [[standard model of particle physics]]
 
 * [[MOND]]
