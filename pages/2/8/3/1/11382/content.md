@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[physics|physical]] [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ("[[general relativity]]") predicts, via [[Einstein equations|Einstein'sequations of motion]], that [[vacuum]] [[spacetime]] may show a kind of oscillations of the [[field]] of [[gravity]] roughly analogous to [[electromagnetic waves]] in [[electromagnetism]]. (Both kinds of waves are oscillation of the [[field (physics)|field]] itself and do not depend on some "medium" such as a water wave does.) In fact, since the [[force]] of [[gravity]] is reflected in the [[pseudo-Riemannian geometry]] of [[spacetime]], as gravitational wave is a kind of periodic distortion of spacetime geometry itself.
+
+While gravitational waves have not been detected directly (by their nature they interact extremely weakly with any [[experiment|experimental]] equipment), there is excellent indirect evidence for them from the observation of [[binary pulsars]]. Their observed rotational motion loses energy precisely to the extent that [[general relativity]] predicts is being raditated away by gravitational waves.
+
+More recently the [[BICEP2]]-experiment claims to have detected the imprint of a primoridal gravitational wave (a [[vacuum fluctuation]] in the field of gravity during the period of [[cosmic inflation]]) on the polarization of the [[cosmic microwave background]]. This is still not a direct detection, but adds to the excellent indirect evidence for gravitational waves.
+
+
+
+## References
+
+* Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
+
+
+
+
+[[!redirects gravitational wave spacetime]]
+
