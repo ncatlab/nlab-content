@@ -33,6 +33,8 @@ Simple as it is, this model has proven to successfully match the observations th
 
 ### Chaotic inflation
 
+[[chaotic inflation]]
+
 ([Linde 83](#Linde83))
 
 ## Candidates for the inflaton field
@@ -96,6 +98,8 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 * [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
   * Resonaances, _[Planck about inflation](http://resonaances.blogspot.de/2013/04/planck-about-inflation.html)_
+
+* [[BICEP2]]
 
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
