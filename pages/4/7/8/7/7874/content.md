@@ -57,6 +57,9 @@ All this is due to ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [And
 
 * [[sigma-orientation]]
 
+* [[logarithmic cohomology operation]]
+
+
 ## References
 
 The construction of the string orientation and its relation to the Witten genus is due to
