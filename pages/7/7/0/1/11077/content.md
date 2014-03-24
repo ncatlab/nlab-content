@@ -60,6 +60,7 @@ So in particular $K(n)$-local spectra have _[[biproducts]]_, called _[[0-semiadd
 =--
 
 
+
 +-- {: .num_example}
 ###### Example
 
@@ -72,6 +73,8 @@ For $X$ pointed [[connected]], hence $X \simeq B G$ the [[delooping]] of an [[âˆ
 ## Related concepts
 
 * [[chromatic homotopy theory]]
+
+* [[Bousfield-Kuhn functor]]
 
 * [[logarithmic cohomology operation]]
 
