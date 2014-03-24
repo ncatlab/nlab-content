@@ -318,6 +318,9 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 * [[spectral sequence of a filtered stable homotopy type]]
 
+* [[prime spectrum of a monoidal stable (∞,1)-category]]
+
+
 ## References
 
 The abstract [[(∞,1)-category theory|(∞,1)-category theoretical]] notion was introduced and studied in
