@@ -19,6 +19,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[gravity]], [[standard model of particle physics]]
 
+* [[observable universe]]
+
 * [[FRW model]], [[standard model of cosmology]]
 
 * [[big bang]], [[steady state model of cosmology]]
@@ -26,6 +28,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 * [[cosmological constant]],
 
 * [[cosmic inflation]]
+
+  * [[chaotic inflation]], [[multiverse]]
 
 * [[cosmic microwave background radiation]]
 
