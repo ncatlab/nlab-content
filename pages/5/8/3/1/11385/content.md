@@ -1,0 +1,47 @@
+[[!redirects power operations]]
+
+> under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Properties
+
+### Special cases
+
+* on [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
+
+* on an [[infinite loop space]] they are the Kudo-Araki-Dyer-Lashof operations
+
+* in the context of  [[complex K-theory]] they are the [[Adams operations]]
+
+## Related concepts
+
+* [[Adams operation]]
+
+* [[logarithmic cohomology operation]]
+
+## References
+
+A survey is in 
+
+* [[Charles Rezk]], _Power operations in Morava E-theory --  a survey_ (2009) ([pdf](http://www.math.uiuc.edu/~rezk/midwest-2009-power-ops.pdf))
+
+The original articles are
+
+* {#Rezk06} [[Charles Rezk]], _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
+
+* [[Charles Rezk]], _Power operations for Morava E-theory of height 2 at the prime 2_ ([arXiv:0812.1320](http://arxiv.org/abs/0812.1320))
+
+* [[Charles Rezk]], _The congruence criterion for power operations in Morava E-theory_ ([arXiv:0902.2499](http://arxiv.org/abs/0902.2499))
