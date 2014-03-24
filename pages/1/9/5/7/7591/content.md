@@ -281,6 +281,8 @@ One explicit model was given in
 
 A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
+* {#Rezk06} [[Charles Rezk]], section II of _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
+
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR08}
 
