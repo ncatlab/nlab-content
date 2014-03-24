@@ -23,7 +23,7 @@
 
 ## Idea
 
-On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). This and everything on smaller scales is the _observable universe_.
+On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). A [[horizon]] in there and everything on smaller scales is the _observable universe_.
 
 There has never been a reason to assume that beyond this _cosmic horizon_ visible to us today, the cosmos would not extend further. In fact in the simple [[FRW models]] with positive cosmological constant, the [[spacetime]] [[manifold]] is not a [[closed manifold]] and extends indefinitely beyond our observable horizon. This is directly analogous to the ancient mariner who would stand on the deck of his ship and see a few miles of ocean around him. That was the world within his horizon, but there was no telling what lied beyond.
 
