@@ -57,6 +57,10 @@ $$
 
 * [[Steenrod square]]
 
+* [[Steenrod operation]]
+
+* [[power operation]]
+
 ## References
 
 * Wikipedia, _[Adams operation](http://en.wikipedia.org/wiki/Adams_operation)_
