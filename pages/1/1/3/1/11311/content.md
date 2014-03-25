@@ -174,3 +174,5 @@ See also
 * Wikipedia, _[Jacobi form](http://en.wikipedia.org/wiki/Jacobi_form)_
 
 [[!redirects Jacobi forms]]
+
+[[!redirects Jacobi theta-function]]
