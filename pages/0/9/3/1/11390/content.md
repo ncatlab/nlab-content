@@ -1,3 +1,4 @@
+[[!redirects prime spectrum of a monoidal stable (∞,1)-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,9 +21,9 @@
 
 ## Idea
 
-The [[categorification]] of the concept of [[ring]], hence the concept of _[[2-ring]]_ in [[homotopy theory]]/[[(∞,1)-category theory]] may be taken to be that of [[monoidal (∞,1)-category|monoidal]] [[stable (∞,1)-category]].
+The [[categorification]] of the concept of ([[commutative ring|commutative]]) [[ring]], hence the concept of (commutative) _[[2-ring]]_ in [[homotopy theory]]/[[(∞,1)-category theory]] may be taken to be that of ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (∞,1)-category|monoidal]] [[stable (∞,1)-category]].
 
-In analogy to the [[prime spectrum]] of a [[ring]], the prime spectrum of a monoidal stable $(\infty,1)$-category is the collection of [[thick subcategories]] which are [[prime ideals]], in the evident higher sense, under the given [[tensor product]].
+In analogy to the [[prime spectrum]] of a [[commutative ring]], the prime spectrum of a symmetric monoidal stable $(\infty,1)$-category is the collection of [[thick subcategories]] which are [[prime ideals]], in the evident higher sense, under the given [[tensor product]].
 
 ## Examples
 
