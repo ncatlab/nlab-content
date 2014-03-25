@@ -56,10 +56,102 @@ $$
 
 ## Examples
 
+### Jacobi theta-functions
+ {#JacobiThetaFunctions}
+
 The most important example is the [[Jacobi theta function]].
-See for instance ([KL 95, section 2.4](#KL95)) for a review in the context of [[elliptic genera]].
+The four Jacobi theta-functions are (with $q = e^{\pi i \tau}$)
+
+$$
+  \theta(z,\tau) 
+    \coloneqq
+  2 q^{1/4} sin(\pi z)
+  \prod_{j = 1}^{\infty}
+  \left(   
+    \left(
+      1 - q^{2j}
+    \right)
+    \left(
+      1 - e^{2\pi i z} q^{2 j}
+    \right)
+    \left(
+      1 - e^{-2 \pi i z} q^{2 j}
+    \right)
+  \right)
+$$
+
+$$
+  \theta_1(z,\tau) 
+    \coloneqq
+  2 q^{1/4} cos(\pi z)
+  \prod_{j = 1}^{\infty}
+  \left(   
+    \left(
+      1 - q^{2j}
+    \right)
+    \left(
+      1 + e^{2\pi i z} q^{2 j}
+    \right)
+    \left(
+      1 + e^{-2 \pi i z} q^{2 j}
+    \right)
+  \right)
+$$
+
+$$
+  \theta_2(z,\tau) 
+    \coloneqq
+   \;\;\;\;\;\;\;\;\;
+  \prod_{j = 1}^{\infty}
+  \left(   
+    \left(
+      1 - q^{2j}
+    \right)
+    \left(
+      1 - e^{2\pi i z} q^{2 j - 1}
+    \right)
+    \left(
+      1 - e^{-2 \pi i z} q^{2 j - 1}
+    \right)
+  \right)
+$$
+
+$$
+  \theta_3(z,\tau) 
+    \coloneqq
+   \;\;\;\;\;\;\;\;\;
+  \prod_{j = 1}^{\infty}
+  \left(   
+    \left(
+      1 - q^{2j}
+    \right)
+    \left(
+      1 + e^{2\pi i z} q^{2 j - 1}
+    \right)
+    \left(
+      1 + e^{-2 \pi i z} q^{2 j - 1}
+    \right)
+  \right)
+$$
+
+See for instance ([KL 95, section 2.4](#KL95), [Chen-Han-Zhang 10, section 2](#ChenHanZhang10)) for a review in the context of [[elliptic genera]].
 
 As part of this, the [[Kac-Weyl character]] of an integral highest-weight [[loop group representation]] is a Jacobi form ([KL 95, section 2.2](#KL95)).
+
+
+The **Jacobi identity** asserts that these are related by
+
+
+$$
+  \theta'(0,\tau) \coloneqq \frac{\partial}{\partial z}\theta(0,\tau)
+  =
+  \pi \theta_1(0,\tau) \theta_2(0,\tau) \theta_3(0,\tau)
+  \,.
+$$
+
+### Weierstrass function
+
+(...)
 
 ## References
 
@@ -74,6 +166,8 @@ Discussion of Jacobi forms as coefficients of the [[elliptic genus]]/[[Witten ge
 * {#KL95} [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 * {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](http://www.msp.warwick.ac.uk/agt/2008/08-01/agt-2008-08-016s.pdf))
+
+* {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 See also
 
