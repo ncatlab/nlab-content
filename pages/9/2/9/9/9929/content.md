@@ -15,6 +15,9 @@
 {:toc}
 
 ## Definition
+ {#Definition}
+
+### In terms of generalized first Chern classes
 
 +-- {: .num_defn}
 ###### Definition
@@ -39,8 +42,24 @@ $$
 
 Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-[[Chern class]] which to a line bundle $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]]. 
 
+=--
+
+
+### In terms of genera and $E_\infty$ orientations 
+ {#InTermsOfGenera}
+
+Complex orientation in the [above](#Definition) sense is indeed universal [[MU]]-[[orientation in generalized cohomology]]:
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and [[E-∞ ring]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]].
 
 =--
+
+([Lurie, lecture 6, theorem 8](#LurieLecture))
+
+
 
 ## Examples
 
@@ -142,12 +161,11 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 =--
 
 
-
 ## Related concepts
 
 * [[generalized (Eilenberg-Steenrod) cohomology theory]]
 
-* [[mutliplicative cohomology theory]]
+* [[multiplicative cohomology theory]]
 
 * [[orientation in generalized cohomology]]
 
@@ -162,13 +180,13 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
 
   Lecture 4 _Complex-oriented cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
 
   Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
- {#LurieLecture}
+ 
 
 [[!redirects complex oriented cohomology theories]]
 
