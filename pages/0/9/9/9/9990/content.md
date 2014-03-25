@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 #### Index theory
 +-- {: .hide}
 [[!include index theory - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
 =--
 #### String theory
 +-- {: .hide}
@@ -52,7 +52,7 @@ The degenerate case with parameters $\delta = - \frac{1}{8}$ and $\epsilon = 0$ 
 
 ### Universal case: Witten genus
 
-Given an elliptic genus with non-degenerate parameters $\delta, \epsilon \in \mathbb{C}$ (as [above](#Definition)), the [[Jacobi quartic]] [[Riemann surface]] which is given by the [[equation]]
+Given an elliptic genus with non-degenerate parameters $\delta, \epsilon \in \mathbb{C}$ (as [above](#Definition), see also at _[[j-invariant]]_), the [[Jacobi quartic]] [[Riemann surface]] which is given by the [[equation]]
 
 $$
   Y^2 = X^4 - 2 \delta X^2 + \epsilon
