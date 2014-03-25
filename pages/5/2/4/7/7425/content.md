@@ -170,7 +170,7 @@ See ([Lurie, lecture 24, remark 13](#LurieLecture))
 
 ### As the primes in the $\infty$-category of spectra
 
-The Morava K-theories label the [[prime spectrum of a monoidal stable (∞,1)-category]] of the [[(∞,1)-category of spectra]] for [[p-localization|p-local]] and [[finite spectra]] . This is the content of the _[[thick subcategory theorem]]_.
+The Morava K-theories label the [[prime spectrum of a symmetric monoidal stable (∞,1)-category]] of the [[(∞,1)-category of spectra]] for [[p-localization|p-local]] and [[finite spectra]] . This is the content of the _[[thick subcategory theorem]]_.
 
 
 ### Relation to chromatic homotopy theory
