@@ -309,6 +309,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[quantum measurement]]
 
+    * [[positive-operator valued probability measure]]
+
   * [[hidden variable theory]], 
 
     * [[EPR paradox]], [[Bell's inequalities]]
