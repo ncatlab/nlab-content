@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -8,9 +21,35 @@
 
 The _$j$-invariant_ is a [[modular function]] on the [[upper half plane]]. Among other things it characterizes [[isomorphism classes]] of [[elliptic curves]] defined over the [[complex numbers]].
 
+## Definition
+
+With $G_{2k}$ the [[Eisenstein series]] and with
+
+$$
+  g_2 \coloneqq 60 G_4
+$$
+
+$$
+  g_3 \coloneqq 140 G_6
+$$
+
+$$
+  \Delta \coloneqq g_2^3 - 27 g_3^2
+$$
+
+then the j-invariant is
+
+$$
+  j = 1728 \frac{g_2^3}{\Delta}
+  \,.
+$$
+
+
 ## Related concepts
 
 * [[moduli space of elliptic curves]]
+
+* [[elliptic genus]]
 
 ## Referemces
 
