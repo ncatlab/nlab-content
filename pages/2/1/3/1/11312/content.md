@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 #### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
@@ -9,7 +13,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
+
+A [[modular form]].
 
 The [[Jacobi theta function]] for special values of its arguments...
 
