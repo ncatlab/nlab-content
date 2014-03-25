@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Arnold_S._Shapiro)
+
+category: people
