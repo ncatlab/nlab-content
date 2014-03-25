@@ -127,6 +127,7 @@ See [[commutative monoid in a symmetric monoidal (∞,1)-category]].
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
+* [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
 
 ## References
 
@@ -139,6 +140,7 @@ and definition 2.0.0.7 in
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieAlgebra}
 
+
 A concise treatment is also available in
 
 * [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
@@ -146,4 +148,3 @@ A concise treatment is also available in
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
 [[!redirects symmetric monoidal (∞,1)-categories]]
-
