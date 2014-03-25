@@ -297,7 +297,16 @@ discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
 
 * For string orientation of vector bundle the construction is supposed to be given by forming free fermion [[local net]]-bundle. See [[Andre Henriques]]' website.
 
-(...)
+### Atiyah-Bott-Shapiro orientation
+
+* [[Atiyah-Bott-Shapiro orientation]]
+
+#### $Spin$-orientation of $KO$
+
+#### $Spin^c$-orientation of $KU$
+
+
+### Ando-Hopkins-Rezk string orientation of $tmf$
 
 
 ## Related concepts
