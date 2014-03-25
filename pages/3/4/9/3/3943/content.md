@@ -22,7 +22,7 @@ The analog in [[(∞,1)-category]] theory of the/a [[adjoint functor theorem]] i
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $F = C \to D$ be an [[(∞,1)-functor]] between [[locally presentable (∞,1)-categories]] then
+Let $F : C \to D$ be an [[(∞,1)-functor]] between [[locally presentable (∞,1)-categories]] then
 
 1. it has a right [[adjoint (∞,1)-functor]] precisely if it preserves small [[limit in a quasi-category|colimits]];
 
