@@ -5,16 +5,24 @@
 
 ## Motivation
 
+### In Lie theory
+
 In [[Lie theory]], _Bernoulli numbers_ appear as [[coefficients]] 
 in the linear part of the [[Hausdorff series]] (and the [[recursion|recursive]]
 relation for the Dynkin Lie polynomials appearing in the Hausdorff series); this has consequences in [[deformation theory]]. 
 The (determinant of the square root of the) inverse of its generating function appears (for variables in an [[adjoint representation]]) in an expression for the [[Duflo isomorphism]] in Lie theory and in its generalizations in [[knot theory]] etc. 
 
-In [[algebraic topology]] Bernoulli numbers (or equivalently, their [[generating functions]]) appear  in the expression for the [[Todd class]] 
-and as the order of some groups in the [[image of the J-homomorphism]] 
-(cf. [Adams 65, section 2](#Adams65)).
+### In algebraic topology
+
+In [[algebraic topology]]/[[cohomology]] Bernoulli numbers appear as the [[coefficients]] of the [characteristic series](genus#LogarithmAndCharacteristicSeries) of the [[A-hat genus]] (see there), and they (or equivalently, their [[generating functions]]) also appear  in the expression for the [[Todd class]]. 
+
+The Bernoulli numbers are also proportional to the constant terms of the [[Eisenstein series]] and as sich appear in the exponential form of the characteristic series of the [[Witten genus]].
+
+Finally they appear as the [[order of a group|order]] of some groups in the [[image of the J-homomorphism]]  (cf. [Adams 65, section 2](#Adams65)).
 
 They also have applications in analysis ([[Euler-MacLaurin formula]], with applications in numerical analysis).
+
+### Elsewhere
 
 Bernoulli numbers appear also in [[umbral calculus]]. There are generalizations, for example, [[Bernoulli polynomials]]. 
 
@@ -64,5 +72,11 @@ the unknot_, [q-alg/9703025](http://arxiv.org/abs/q-alg/9703025)
 ### Analysis
 
 * [[Terence Tao]]'s blog: [The Euler-Maclaurin formula, Bernoulli numbers, the zeta function, and real-variable analytic continuation](http://terrytao.wordpress.com/2010/04/10/the-euler-maclaurin-formula-bernoulli-numbers-the-zeta-function-and-real-variable-analytic-continuation)
+
+## References
+
+In the context of the [[A-hat genus]] the Benoulli numbers are discussed in section 10.2 of 
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+
 
 [[!redirects Bernoulli numbers]]
