@@ -140,10 +140,10 @@ which [[convergence of a sequence|converges]] [[p-adic numbers|p-adically]].
 
 Here $\theta$ ....
 
-In the special case that $x = 1 + \epsion$ with $\epsilon^2 = 0$ then this reduces to
+In the special case that $x = 1 + \epsilon$ with $\epsilon^2 = 0$ then this reduces to
 
 $$
-  \ell_{1,p}(1+ \epsiolon)= \epsilon - \frac{1}{p}\psi(\epsilon)
+  \ell_{1,p}(1+ \epsilon)= \epsilon - \frac{1}{p}\psi(\epsilon)
    \,.
 $$
 
