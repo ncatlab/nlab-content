@@ -84,19 +84,74 @@ $$
 
 ## Properties
 
+ 
+### Action on cohomology groups
+ {#ActionOnCohomologyGroups}
 
-### Explicit formual in terms of power operations
+For every [[E-∞ ring]] $E$ and spaces $X$, [[prime number]] $p$ and [[natural number]] $n$, the logarith induces a homomorphism of [[cohomology groups]] of the form
+
+$$
+  \ell_{n,p}
+   \;\colon\;
+  (E^0(X))^\times
+    \longrightarrow
+  (L_{K(n)}E)^0(X)
+  \,.
+$$
+
+### Explicit formula in terms of power operations
 
 Under some conditions there is an explicit formula of the logarithmic cohomology operation by a [[series]] of [[power operations]].
 
-([Rezk 06, theorem 1.9](#Rezk06))
 
-...
+Let $E$ be a [[K(n)-local stable homotopy theory|K(1)-local]] [[E-∞ ring]] such that
+
+* the [[kernel]] of $\pi_0 L_{K(1)}\mathbb{S} \longrightarrow \pi_0 E$ contains the [[torsion subgroup]] of $\pi_0 L_{K(1)}\mathbb{S}$.
+
+(This is for instance the case for $L_{K(1)}$[[tmf]]).
+
+Then on a [[finite CW complex]] $X$ the logarithmic cohomology operation from [above](#ActionOnCohomologyGroups)
+
+$$
+  \ell_{1,p}\;\colon\; (E^0(X))^\times \longrightarrow E^0(X)
+$$
+
+is given by the [[series]]
+
+$$
+  \begin{aligned}
+    \ell_{1,p} \colon x 
+     & \mapsto 
+     \left(
+       1 - \frac{1}{p}\psi
+     \right)
+     log(x)
+     \\
+     & = \frac{1}{p} log \frac{x^p}{\psi(x)}
+     \\
+     & = \sum_{k=1}^\infty (-1)^k \frac{p^{k-1}}{k}\left( \frac{\theta(x)}{x^p}\right)^k
+     \\
+   \end{aligned}
+$$
+
+which [[convergence of a sequence|converges]] [[p-adic numbers|p-adically]].
+
+([Rezk 06, theorem 1.9](#Rezk06), see also [Ando-Hopkins-Rezk 10, prop. 4.5](#AndoHopkinsRezk10))
+
+Here $\theta$ ....
+
+In the special case that $x = 1 + \epsion$ with $\epsilon^2 = 0$ then this reduces to
+
+$$
+  \ell_{1,p}(1+ \epsiolon)= \epsilon - \frac{1}{p}\psi(\epsilon)
+   \,.
+$$
+
 
 ### Relation to the string-orientation of $tmf$
 
 
-The abobve expression in terms of power operations may be used to establish the [[string orientation of tmf]] ([Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)).
+The above expression in terms of power operations may be used to establish the [[string orientation of tmf]] ([Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)).
 
 ...
 
