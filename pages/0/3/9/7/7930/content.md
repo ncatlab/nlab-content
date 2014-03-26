@@ -448,3 +448,8 @@ and for the traditional component notation used in physics see
 [[!redirects Majorana-Weyl representation]]
 [[!redirects Majorana-Weyl representations]]
 
+[[!redirects chiral spinor]]
+[[!redirects chiral spinors]]
+[[!redirects chiral spin representation]]
+[[!redirects chiral spin representations]]
+
