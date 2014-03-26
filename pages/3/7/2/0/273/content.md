@@ -219,7 +219,7 @@ For examples and discussion of this see
 
 * [[principal ∞-bundle]], [[∞-gerbe]]
 
-* [[formes tordues]] .
+* [[twisted form|twisted forms]] .
 
 ## References
  {#References}
