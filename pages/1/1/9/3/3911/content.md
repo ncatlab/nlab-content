@@ -660,3 +660,5 @@ Formulation of this in [[linear homotopy-type theory]] is discussed in
 [[!redirects integration in generalized cohomology]]
 
 [[!redirects push-forward in generalized cohomology]]
+[[!redirects pushforward in generalized cohomology]]
+
