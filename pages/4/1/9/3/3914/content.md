@@ -281,8 +281,29 @@ The relation (equivalence) between choices of [[Thom classes]] and trivializatio
 discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
 
 ### Relation to genera
+ {#RelationToGenera}
 
-(...)
+Let $G$ be a [[topological group]] equipped with a [[homomorphism]] to the [[stable orthogonal group]], and write $B G \to B O$ for the corresponding map of [[classifying spaces]]. Write $J \colon B O \longrightarrow B GL_1(\mathbb{S})$ for the [[J-homomorphism]].
+
+For $E$ an [[E-∞ ring]], there is a canonical homomorphism $B GL_1(\mathbb{S}) \to B GL_1(E)$ between the [[deloopings]] of the [[∞-groups of units]]. A trivialization of the total composite
+
+$$
+  B G \to B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to B GL_1(E)
+$$
+
+is a universal $E$-orientation of [[G-structures]]. Under [[(∞,1)-colimit]] in $E Mod$ this induces a homomorphism of $E$-[[∞-modules]]
+
+$$
+  \sigma \;\colon\; M G \to E
+$$
+
+from the universal $G$-[[Thom spectrum]] to $E$. 
+
+If here $G \to GL_1(\mathbb{S})$ is the $\Omega^\infty$-component of a map of [[spectra]] then this $\sigma$ is a homomorphism of [[E-∞ rings]] and in this case there is a [[bijection]] between universal orientations and such $E_\infty$-ring homomorphisms ([Ando-Hopkins-Rezk 10, prop. 2.11](#AndoHopkinsRezk10)).
+
+The latter, on passing to [[homotopy groups]], are [[genera]] on manifolds with [[G-structure]].
+
+
 
  
 ## Examples
