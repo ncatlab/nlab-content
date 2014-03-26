@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see reference below).
+Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the reference Dimov-Tholen below).
 
 ## Examples
 
@@ -71,6 +71,9 @@ Examples appear at
 * [[dualizing complex]], [[dualizing module]]
 
 ## References
+
+* G. D. Dimov, W. Tholen, A Characterization of Representable Dualities,
+Categorical Topology and its Relation to Analysis, Algebra and Combinatorics, Prague, Czechoslovakia 22-27 August 1988, Editors: J. Adamek and S. MacLane, World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357.
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
