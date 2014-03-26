@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the reference Dimov-Tholen below).
+Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see the references Dimov-Tholen below).
 
 ## Examples
 
@@ -72,8 +72,11 @@ Examples appear at
 
 ## References
 
-* G. D. Dimov, W. Tholen, A Characterization of Representable Dualities,
-Categorical Topology and its Relation to Analysis, Algebra and Combinatorics, Prague, Czechoslovakia 22-27 August 1988, Editors: J. Adamek and S. MacLane, World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357.
+* G. D. Dimov, W. Tholen, _A Characterization of Representable Dualities,_
+In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357.
+
+* G. D. Dimov, W. Tholen, _Groups of Dualities,_ Trans. Amer. Math. Soc.,
+336 (2), 901-913, 1993. ([pdf](http://www.ams.org/journals/tran/1993-336-02/S0002-9947-1993-1100693-0/S0002-9947-1993-1100693-0.pdf))
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
