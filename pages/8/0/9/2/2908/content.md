@@ -69,6 +69,7 @@ As special cases of the last item:
 *  A concrete category is finitary monadic if and only if it is the category of algebras for some finitary variety; that is, we have only a small set of finitary operations.
 *  A concrete category is finitary algebraic if and only if it is the category of algebras for some finitary quasivariety.
 
+Also, every algebraic category whose [[forgetful functor]] preserves [[filtered colimits]] is the category of [[models]] for some [[first-order theory]]. The converse is false.
 
 ## Examples
 
