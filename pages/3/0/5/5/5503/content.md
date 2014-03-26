@@ -26,7 +26,7 @@ The two main problems of model theory are
 
 In all memorable examples, the collection of structures for a language will form an interesting [[category]] (see [Beke-Rosicky 11](#BekeRosicky11) for a characterization of these), and the subcollection of those structures verifying a given collection $Th$ of [[propositions]] in the language are an interesting [[subcategory]] again.
 
-Model theory as currently conceived has strong analogies with the classical theory of [[algebraic varieties]] and hence with the part of [[algebraic geometry]] that deals with these. One such analogy is that definable subsets are likened to loci of equations, and another consists of various notions of dimension which can be likened to Krull dimension. One can also say that classical algebraic geometry often provides a testing ground for more general developments in model theory. (For the most part, model theory does not deal however with more global concepts of modern algebraic geometry such as [[sheaves]] or [[schemes]].) 
+Model theory as currently conceived has strong analogies with the classical theory of [[algebraic varieties]] and hence with the part of [[algebraic geometry]] that deals with these. One such analogy is that [[definable subsets]] are likened to [[zero loci]] of [[equations]], and another consists of various notions of [[dimension]] which can be likened to Krull dimension. One can also say that classical algebraic geometry often provides a testing ground for more general developments in model theory. (For the most part, model theory does not deal however with more global concepts of modern algebraic geometry such as [[sheaves]] or [[schemes]].) 
 
 
 ## Examples
