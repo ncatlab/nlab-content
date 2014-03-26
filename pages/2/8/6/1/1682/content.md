@@ -222,10 +222,6 @@ The idea of a [[generalized cohomology theory]] with [[coefficients]] the ring o
 
 * {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
-The [[string orientation of tmf]] was given in
-
-* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
-
 
 Expositions include
 
@@ -233,27 +229,33 @@ Expositions include
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
-* [pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf)
-
 See also
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
-Details are in  
+More details are in  
 
 * [[Mark Behrens]], _Notes on the construction of $tmf$_ ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
 
-A course that goes through the construction of tmf and the computation of its homotopy groups is
+A complete account of the computation of the homotopy groups of $tmf$ (following previous unpublished computations) is in 
+
+* [[Tilman Bauer]], _Computation of the homotopy groups of the spectrum $tmf$_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/eo2ss.pdf))
+
+A survey of how this works is in
+
+* [[Akhil Mathew]], _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
+
+and course notes that go through the construction of tmf and the computation of its homotopy groups are here:
 
 *  _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
 
-   * [[Mike Hopkins]] (talk notes by Michael Hill), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
-    {#Hopkins}
+   * {#Hopkins} [[Mike Hopkins]] (talk notes by Michael Hill), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
+    
 
-   * [[André Henriques]], _The homotopy groups of tmf_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter16/TmfHomotopy.pdf))
-     {#Henriques}
+   * {#Henriques} [[André Henriques]], _The homotopy groups of tmf_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter16/TmfHomotopy.pdf))
+     
 
-   * [[André Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf))     {#HenriquesModuli}
+   * {#HenriquesModuli} [[André Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf))     
 
 
 
@@ -263,8 +265,8 @@ The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$
 
 * [[Michael Hopkins]], _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
-* [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
-  {#AndoHopkinsRezk}
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+
 
 see also remark 1.4 of
 
