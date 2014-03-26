@@ -35,9 +35,16 @@ $$
 
 * [[electric charge]], [[magnetic charge]]
 
+* [[supercharge]]
+
 ## Related concepts
+
+* [[Noether's theorem]]
 
 * [[central charge]]
 
 [[!include gauge field - table]]
 
+
+[[!redirects conserved charge]]
+[[!redirects conserved charges]]
