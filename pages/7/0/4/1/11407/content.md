@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/George_Francis_Rayner_Ellis)
+
+category: people
+
+[[!redirects George Francis Rayner Ellis]]
