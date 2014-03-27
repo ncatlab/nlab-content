@@ -208,16 +208,42 @@ Parts of the above material is taken from a blog discussion between [[Mike Shulm
 
 * blog on [Localization techniques in Equivariant Cohomology](http://www.aimath.org/wiki/localization/index.php/Main_Page)
 
+### In complex oriented generalized cohomology theory
+ {#InComplexOrientedGeneralizedCohomologyTheory}
+
+Equivariant [[complex oriented cohomology theory]] is discussed in the following articles. 
+
+* [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
+
+  (This deals with "naive" Borel-equivariant complex oriented cohomology, but discusses general [[character]] expressions and explicit formulas for equivariant [[Morava K-theory|K(n)]]-cohomology.)
+
+Specifically equivariant [[complex cobordism cohomology]] is discussed in 
+
+* {#tomDiek70} [[Tammo tom Dieck]], _Bordism of $G$-manifolds and integrability theorems, Topology 9 (1970) 345-358
+
+* {#Abrams13a} [[William Abram]], _Equivarisnt complex cobordism_, 2013 ([web](http://deepblue.lib.umich.edu/handle/2027.42/99796), [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99796/abramwc_1.pdf?sequence=1))
+
+* [[William Abram]], [[Igor Kriz]], _The equivariant complex cobordism ring of a finite abelian group_ ([pdf](http://www.math.lsa.umich.edu/~ikriz/cobordism13022-1.pdf))
+
+
+The following articles discuss equivariant [[formal group laws]]:
+
+* [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), ii-451 ([EUCLID](http://projecteuclid.org/euclid.hha/1139840255))
+
+* [[William Abram]], _On the equivariant formal group law of the equivariant complex cobordism ring_, ([arXiv:1309.0722](http://arxiv.org/abs/1309.0722))
+
+  (also [Abrams 13a, section III](#Abrams13a)).
+
+See also the references at _[[equivariant elliptic cohomology]]_.
 
 ### In differential geometry
 
 Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
 
-* Kai Behrend, Ping Xu, Bin Zhang, _Equivariant gerbes over compact simple Lie groups_ ([arXiv](http://arxiv.org/abs/math/0306183v1))
+* [[Kai Behrend]], [[Ping Xu]], Bin Zhang, _Equivariant gerbes over compact simple Lie groups_ ([arXiv](http://arxiv.org/abs/math/0306183v1))
 
 
 [[!redirects Borel cohomology]]
 [[!redirects equivariant spectrum]]
 [[!redirects naive G-spectrum]]
 [[!redirects genuine G-spectrum]]
-
