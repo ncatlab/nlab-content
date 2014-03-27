@@ -1,1 +1,2 @@
+[[!redirects formes tordues]]
 ##Idea## 
