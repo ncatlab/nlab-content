@@ -303,6 +303,10 @@ The standard textbook is
 
 * Univalent Foundations Project, _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+Motivation via practical problems in [[homotopy theory]] and [[higher category theory]] is given in 
+
+* [[Vladimir Voevodsky]], _Univalent foundations_, talk IAS, March 2014 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2014_IAS.pdf))
+
 Introductions to the idea of homotopy type theory include
 
 * [[Steve Awodey]], _Type theory and homotopy_ (2010) ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
