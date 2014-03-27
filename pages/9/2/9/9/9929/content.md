@@ -65,6 +65,7 @@ For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence cl
 
 Examples of complex orientable cohomology theories:
 
+
 +-- {: .num_example }
 ###### Example
 
@@ -187,6 +188,7 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
   Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
  
+See also the references at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_-.
 
 [[!redirects complex oriented cohomology theories]]
 
