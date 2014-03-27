@@ -479,6 +479,7 @@ bundle on the moduli space has the structure of a $K((q))$-[[∞-module]], hence
 
 * [[equivariant elliptic genus]]
 
+
 ## References
 
 ### General
@@ -506,7 +507,7 @@ See also
 
 * {#Lurie} [[Jacob Lurie]], section 5.1 of _[[A Survey of Elliptic Cohomology]]_, in _Algebraic Topology Abel Symposia_ Volume 4, 2009, pp 219-277
  
-
+See also the references at _[equivariant cohomology -- References --  Complex oriented cohomology theories](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_.
 
 ### Relation to loop group representations
 
