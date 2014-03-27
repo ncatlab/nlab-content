@@ -420,7 +420,7 @@ with lecture notes in
 
 * [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
 
-* [[Andre Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2014_IAS.pdf))
+* [[Andre Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
 
 A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
 
