@@ -144,7 +144,7 @@ A general theory of [[derived geometry]] is developed in
 * [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]] 
 {#LurieStructured}
 
-and specialized to geometry over $E_\infty$-rings -- [[E-∞ geoometry]] -- in
+and specialized to geometry over $E_\infty$-rings -- [[E-∞ geometry]] -- in
 
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
