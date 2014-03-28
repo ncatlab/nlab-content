@@ -108,7 +108,8 @@ In fact $K_w$ above is proportional to (the inverse of) the [[Weierstrass sigma-
 
 There are various further ways to equivalently re-express the above in terms of other special [[modular forms]]. Here are some:
 
-#### In terms of loop group characters
+#### In terms of Kac-Weyl characters
+ {#CharacteristicSeriesInTermsOfKacWeylCharacters}
 
 The Witten genus has a close relation to the [[Kac-Weyl character]] of [[loop group representations]].
 
@@ -134,7 +135,7 @@ $$
 
 where on the right we have the [[Jacobi theta-function]] $\theta$ divided by the [[Dedekind eta-function]] $\eta$. 
 
-Comparison shows that in terms of this the exponential series of the Witten genus is equivalently (by the [[splitting principle]] the $k$-fold products are leftimplicit):
+Comparison shows that in terms of this the exponential series of the Witten genus is equivalently (by the [[splitting principle]] the $k$-fold products are left implicit):
 
 $$
   \exp_w = z/K_w = \eta^2 \, \chi(\tilde S_+ - \tilde S_-)
