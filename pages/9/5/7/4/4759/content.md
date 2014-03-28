@@ -78,6 +78,8 @@ $$
 
 ## Related concepts 
 
+* [[Chern root]]
+
 * [[Pontryagin class]]
 
 * [[Stiefel-Whitney class]]
@@ -109,4 +111,5 @@ A brief introduction is in chapter 23, section 7
 [[!redirects Chern classes]]
 
 [[!redirects second Chern class]] 
+
 
