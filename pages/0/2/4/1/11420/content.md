@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A [[completion]] of a [[ring]] to a [[topological ring]]
+
+## Related concepts
+
+* [[Atiyah-Segal completion theorem]]
+
+## References
+
+* Wikipedia, _[Completion (ring theory)](https://en.wikipedia.org/wiki/Completion_(ring_theory))_
+
+[[!redirects completion of rings]]
+[[!redirects completion (ring theory)]]
