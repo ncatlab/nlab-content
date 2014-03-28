@@ -24,7 +24,7 @@ $$
 
 from the [[equivariant K-theory]] of $X$ to the ordinary [[topological K-theory]] of the [[homotopy quotient]] ([[Borel construction]]).
 
-While this map is never an [[isomorphism]] unless $G$ is the trivial group, the _Atiyah-Segal completion theorem_ says that this map exhibits $K(X//G)$ as the completion of the ring $K_G(X)$ at the [[augmentation ideal]] of the [[representation ring]] of $G$.
+While this map is never an [[isomorphism]] unless $G$ is the trivial group, the _Atiyah-Segal completion theorem_ says that this map exhibits $K(X//G)$ as the [[completion of a ring|completion]] of the ring $K_G(X)$ at the [[augmentation ideal]] of the [[representation ring]] of $G$.
 
 ## Related concepts
 
