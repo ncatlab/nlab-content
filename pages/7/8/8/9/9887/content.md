@@ -143,6 +143,10 @@ $$
 
 ([Westerland 12, theorem 1.2](#Westerland12))
 
+## Related concepts
+
+* [[splitting principle]]
+
 ## References
 
 The theorem is due to 
