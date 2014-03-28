@@ -1,17 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -31,7 +31,7 @@ where $\otimes = \times$ is the standard [[cartesian product]] of sets.  This [[
 Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
 
 
-## Definition 
+## Definitions
 
 ### Symmetric closed monoidal category
 
