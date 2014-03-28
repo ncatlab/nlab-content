@@ -23,9 +23,18 @@ A [[modular form]].
 
 The [[Jacobi theta function]] for special values of its arguments...
 
+## Definition
+
+$$
+  \eta(\tau) = q^{1/24} \prod_{n=1}^\infty (1-q^n)
+$$
+
+for $q \coloneqq e^{2\pi i \tau}$.
+
 ## References
 
 * Wikipedia, _[Dedekind eta function](http://en.wikipedia.org/wiki/Dedekind_eta_function)_
 
 [[!redirects Dedekind eta functions]]
 
+[[!redirects Dedekind eta-function]]
