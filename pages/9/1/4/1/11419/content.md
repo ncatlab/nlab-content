@@ -1,0 +1,9 @@
+
+
+## References
+
+* Wikipedia, _[Splitting principle](https://en.wikipedia.org/wiki/Splitting_principle)_
+
+
+
+[[!redirects Chern root]]
