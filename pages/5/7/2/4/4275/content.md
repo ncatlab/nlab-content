@@ -229,8 +229,9 @@ $$
   \phi(X)
   =
   \langle K_\phi(T X), [X] \rangle
-  \,.
 $$
+
+in terms of the Hirzebruch characteristic series $K_\phi$ discussed [above](#LogarithmAndCharacteristicSeries).
 
 ## Examples
 
