@@ -9,7 +9,12 @@
 
 * [[2d (2,0)-superconformal QFT]]
 
+
 category: people
 
+[[!redirects Fyodor Malikov]]
 [[!redirects Fedor Malikov]]
 [[!redirects Fedor Georgievich Malikov]]
+[[!redirects Fëdor Malikov]]
+[[!redirects Фёдор Маликов]]
+[[!redirects Федор Маликов]]
