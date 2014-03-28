@@ -1,2 +1,1 @@
-[[!redirects formes tordues]]
-##Idea## 
+&lt; [[formes tordues]]
