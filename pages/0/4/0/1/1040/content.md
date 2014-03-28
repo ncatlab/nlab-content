@@ -55,7 +55,7 @@ $1\Rightarrow 2$ is trivial.
 $2\Rightarrow 3$ Compositions $\mu\circ T\eta$ and $\mu\circ\eta T$ are always the identity (unit axioms for the monad), and in particular agree; if $\mu$ has all components monic, this implies $T\eta = \eta T$. 
 
 $3\Rightarrow 4$ Compatibility of action and unit is $u \circ \eta_M = id_M$, hence also $T(u)\circ T(\eta_M) = id_{T M}$. If $T\eta = \eta T$ then this 
-implies $id_M = T(u)\circ \eta_{T M} = \eta_M\circ U$, where the naturality of $\eta$ is used in the second equality. Therefore we exhibited $\eta_M$ both as a left and a right inverse of $u$. 
+implies $id_M = T(u)\circ \eta_{T M} = \eta_M\circ u$, where the naturality of $\eta$ is used in the second equality. Therefore we exhibited $\eta_M$ both as a left and a right inverse of $u$. 
 
 $4\Rightarrow 1$ If every action is iso, then the components of multiplication $\mu_M\colon T T M\to T M$ are isos as a special case, namely of the free action on $T M$. 
 
