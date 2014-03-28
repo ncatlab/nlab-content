@@ -1,0 +1,4 @@
+[[!redirects S. B. Niefield]]
+* [Homepage](http://www.math.union.edu/~niefiels/)
+
+category: people
