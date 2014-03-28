@@ -1,9 +1,20 @@
 
+## Related concepts
+
+* [[Snaith's theorem]]
 
 ## References
 
+A good general account is in 
+
+* [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
+
+Other reviews include
+
 * Wikipedia, _[Splitting principle](https://en.wikipedia.org/wiki/Splitting_principle)_
 
+
+* _Notes on the splitting principle_ ([pdf](http://www.math.sunysb.edu/~azinger/mat566/splitting.pdf))
 
 
 [[!redirects Chern root]]
