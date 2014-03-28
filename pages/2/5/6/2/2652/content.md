@@ -38,6 +38,8 @@ Additionally, we tend to use the term 'completion' only for a [[faithful functor
 
 * [[Dedekind completion]] of a [[linear order]] (or sometimes a more general [[preorder]] or [[quasiorder]])
 
+* [[completion of a ring]]
+
 * [[MacNeille completion]] of a [[partially ordered set]]
 
 * [[profinite completion of a group|profinite completion]] of a discrete group 
@@ -123,6 +125,10 @@ However, there are other sorts of completions in mathematics, such as:
 *  'The' [[algebraic closure]] of a [[field]] is unique up to isomorphism, but the isomorphism is not unique.
 *  Every [[model theory|model]] of a [[first-order theory]] may be interpreted as giving a completion of that theory (but not one with a recursively enumerable axiomatisation); every statement that is true in the model is an axiom of the complete theory.  However, this is far from unique.
 *  An [[ultrapower]] of a structure may be viewed as an elementary completion (see [[elementary embedding]]), as described by [[Terry Tao]] in [a blog post](http://terrytao.wordpress.com/2010/11/27/nonstandard-analysis-as-a-completion-of-standard-analysis/).
+
+## Related concepts
+
+* [[completion monad]]
 
 
 [[!redirects completion]]
