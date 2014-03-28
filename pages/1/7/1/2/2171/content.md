@@ -109,7 +109,7 @@ Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n
 
 
 
-(This is a picture of a 3 strand braid.) 
+(This is a picture of a $3$-strand braid.) 
 
 We can transform / 'isotope' these braid diagrams just as we can transform [[knot diagrams]], again using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
 
