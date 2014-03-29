@@ -21,13 +21,33 @@
 
 ## Idea
 
-The Thom spectrum $M O$ is a [[connective spectrum]] whose associated [[infinite loop space]] is the [[classifying space]] for [[cobordism]]:
+The universal real Thom spectrum [[MO]] is a [[connective spectrum]] whose associated [[infinite loop space]] is the [[classifying space]] for [[cobordism]]:
 
 $$
 \Omega^\infty M O \simeq \vert Cob_\infty \vert .
 $$
 
-In particular, $\pi_n M O$ is naturally identified with the set of cobordism classes of closed $n$-manifolds.
+In particular, $\pi_n M O$ is naturally identified with the set of [[cobordism classes]] of [[closed manifold|closed]] $n$-[[manifolds]].
+
+More abstractly, [[MO]] is the [[homotopy colimit]] of the [[J-homomorphism]] in [[Spectra]]
+
+$$
+  M O \simeq \underset{\longrightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
+$$
+
+hence the "total space" of the universal [[spherical fibration]] on the [[classifying space]] $B O$ for (stable) [[real vector bundles]].
+
+Given this, for any [[topological group]] $G$ equipped with a [[homomorphism]] to the [[orthogonal group]] there is a corresponding Thom spectrum
+
+$$
+  M G \simeq \underset{\longrightarrow}{\lim}(B G\to B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
+  \,.
+$$
+
+This is considered particularly for the stages $G$ in the [[Whitehead tower]] of the [[orthogonal group]], where it yields $M$[[Spin group|Spin]], $M$[[String group]], etc. 
+
+All these Thom spectra happen to naturally have the structure of [[E-∞ rings]] and $E_\infty$-ring homomorphisms $M O\to E$ into another $E_\infty$-ring $E$ are equivalently universal [[orientation in generalized cohomology|orientations in E-cohomology]]. On [[homotopy groups]] these are [[genera]] with [[coefficients]] in the underlying ring $\pi_\bullet(E)$.
+
 
 ## Definition
 
