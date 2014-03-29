@@ -38,7 +38,15 @@ In other words, the weight space of a $G$-representation for a weight $\alpha$ i
 
 =--
 
+## Properties
+
+### For connected compact Lie groups
+
+For connected [[compact Lie groups]] the 
+
 ## Related concepts
+
+* [[group character]]
 
 * [[root (in representation theory)]]
 
