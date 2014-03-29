@@ -58,8 +58,12 @@ Clearly there is at most one subgroup $G$ of a given order $n$ in $k^\ast$, whic
 
 +-- {: .num_cor}
 ###### Corollary 
+
 Every finite field has a cyclic multiplicative group. 
+
 =-- 
+
+
 
 ## Related concepts
 
@@ -69,6 +73,7 @@ Every finite field has a cyclic multiplicative group.
 
 * [[Newton's method]]
 
+* [[Chern root]]
 
 [[!redirects root]]
 [[!redirects roots]]
