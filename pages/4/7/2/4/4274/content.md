@@ -87,6 +87,12 @@ The [characteristic series](genus#LogarithmAndCharacteristicSeries) of the Witte
 $$
   \begin{aligned}
     K_w(z)(q)
+    & = 
+    \frac{z}{\exp_w(z)(q)}
+    \\
+    & = 
+    \frac{z}{\sigma_L(z)(q)}
+    \\
     & =
     \frac{z/2}{sinh(z/2)}
     \prod_{n \geq 1}
@@ -94,17 +100,19 @@ $$
       \\
       & = 
       \exp\left(
-        \sum_{k \geq 2} G_k \frac{z^k}{k!}
+        \sum_{k \geq 2} G_k(q) \frac{z^k}{k!}
       \right)
    \end{aligned}
   \,,
 $$
 
-where $G_k$ are the [[Eisenstein series]] ([Zagier 86, equation (14)](#Zagier86), [Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10)).
+where 
+
+* $\sigma_L$ is the [[Weierstrass sigma-function]] (see e.g. [Ando Basterra 00, section 5.1](#AndoBasterra00));
+
+* $G_k$ are the [[Eisenstein series]] ([Zagier 86, equation (14)](#Zagier86), [Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10)).
 
 This is a [[modular form]] with respect to the variable $q$, see also the the discussion below at _[Integrality and modularity](#IntegralityAndModularity)_ . Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
-
-In fact $K_w$ above is proportional to (the inverse of) the [[Weierstrass sigma-function]] (see e.g. [Ando Basterra 00, section 5.1](#AndoBasterra00)).
 
 There are various further ways to equivalently re-express the above in terms of other special [[modular forms]]. Here are some:
 
