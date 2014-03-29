@@ -186,7 +186,7 @@ $$
 
 and so forth, through the  [[Whitehead tower]] of $B O$.
 
-Now, the [[Thom spectrum]] $ M O$ is the sphere bundle over $B O$ associated to the $O$-[[universal principal bundle]]. In generalization of the way that a trivialization of an ordinary $G$-principal bundle $P$ is given by a $G$-equivariant map $P \to G$, one finds that trivializations of the morphism
+Now, the [[Thom spectrum]] [[MO]] is the [[spherical fibration]] over $B O$ [[associated infinity-bundle|associated]] to the $O$-[[universal principal bundle]]. In generalization of the way that a trivialization of an ordinary $G$-principal bundle $P$ is given by a $G$-equivariant map $P \to G$, one finds that trivializations of the morphism
 
 $$
   B O \stackrel{J}{\to} B GL_1(\mathbb{S})
