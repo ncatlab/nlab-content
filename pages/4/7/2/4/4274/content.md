@@ -272,7 +272,9 @@ Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohom
 
 * [[Haynes Miller]], _The elliptic character and the Witten genus_, Contemporary mathematics, volume 96, 1989 ([pdf](http://dedekind.mit.edu/~hrm/papers/ell-char.pdf))
 
+
 ### Relation to Kac-Weyl characters of loop group representations
+ {#ReferencesRelationToKacWeylCharacters}
 
 The close relation of the Witten genus to [[Kac-Weyl characters]] of [[loop group representations]] has been highlighted and an elegant proof of rigidity of the Witten genus in these terms in
 
@@ -288,7 +290,7 @@ and further generalized to more general [[vertex operator algebra]] representati
 
 Review and survey of some of this is in 
 
-* {KL96} [[Kefeng Liu]], _Modular forms and topology_, Proc. of the AMS Conference on the Monster and Related Topics, Contemporary Math. (1996) ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.9779))
+* {#KL96} [[Kefeng Liu]], _Modular forms and topology_, Proc. of the AMS Conference on the Monster and Related Topics, Contemporary Math. (1996) ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.9779))
 
 ### The Stolz conjecture
 
@@ -387,6 +389,10 @@ The twisted Witten genus in the present of [[background gauge field]] hence for 
 * {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 * Jianqing Yu, Bo Liu, _On the Witten Rigidity Theorem for $String^c$ Manifolds_, Pacific Journal of Mathematics 266.2 (2013): 477-508. ([arXiv:1206.5955](http://arxiv.org/abs/1206.5955))
+
+based on formulas from 
+
+* Qingtao Chen, Fei Han, _Elliptic Genera, Transgression and Loop Space Chern-Simons Forms_ ([arXiv:math/0611104](http://arxiv.org/abs/math/0611104))
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
 
