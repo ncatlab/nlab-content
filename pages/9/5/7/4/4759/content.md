@@ -89,7 +89,7 @@ $$
   H^\bullet(B T, \mathbb{Z}) \simeq H^\bullet(B U(1)^n, \mathbb{Z})
 $$
 
-is the [[polynomial ring]] in $n$ [[generators]] (the universal [[first Chern classes]] $c_i$ of each copy of $B U(1)$) which are traditionally now written $x_i$:
+is the [[polynomial ring]] in $n$ [[generators]] (to be thought of as the universal [[first Chern classes]] $c_i$ of each copy of $B U(1)$; equivalently as the [weights](group+character#RelationToChernRootsAndSplittingPrinciple) of the [[group characters]] of $U(n)$) which are traditionally written $x_i$:
 
 $$
   H^\bullet(B U(1)^n, \mathbb{Z})  \simeq \mathbb{Z}[x_1, \cdots, x_n]
