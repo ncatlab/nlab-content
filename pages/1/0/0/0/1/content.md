@@ -49,7 +49,7 @@ For more see
 
 * [[About]].
 
-
+* Wikipedia entry _[nLab](https://en.wikipedia.org/wiki/NLab)_
 
 ## Discussion, Comments, Questions
  {#Discussion}
