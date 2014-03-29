@@ -42,6 +42,8 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
 
   * [[complex line bundle]]
 
+* [[real vector bundle]]
+
 ## References
 
 * Emery Thomas, _Complex structures on real vector bundles_ ([JSTOR]( http://www.jstor.org/stable/2373409))
