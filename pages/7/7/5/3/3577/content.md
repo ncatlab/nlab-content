@@ -93,7 +93,7 @@ $f^* S'$ equals the pullback sieve $f^* S$. So it covers $d$ by the second axiom
 +-- {: .un_proposition}
 ###### Proposition
 
-There is a natural bijection between covering sieves on $c$ in $C$ and equivalence class of [[monomorphism in an (infinity,1)-category|monomorphisms]] $U \to j(C)$ in $PSh(C)$.
+There is a natural bijection between sieves on $c$ in $C$ and equivalence class of [[monomorphism in an (infinity,1)-category|monomorphisms]] $U \to j(C)$ in $PSh(C)$.
 
 =--
 
