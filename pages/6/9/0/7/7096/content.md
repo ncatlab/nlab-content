@@ -32,7 +32,9 @@ $$
 
 ## Related concepts
 
+* [[Chern class]]
+
 * [[Dixmier-Douady class]]
 
-
+[[!redirects first Chern classes]]
 
