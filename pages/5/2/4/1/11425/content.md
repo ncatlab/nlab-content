@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _real vector bundle_ is a [[vector bundle]] of [[real vector spaces]] [[associated bundle|associated]] to an $O(n)$-[[principal bundle]] for $O(n)$ the [[orthogonal group]].
+
+This is in contrast to [[complex vector bundles]].
+
+## Related concepts
+
+* [[KO]], [[MO]]
+
+* [[Pontryagin class]]
+
+[[!redirects real vector bundles]]
+
