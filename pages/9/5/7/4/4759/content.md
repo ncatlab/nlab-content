@@ -46,6 +46,7 @@ For $n \geq 1$ the Chern universal [[characteristic classes]] $c_i \in H^{2i}(B 
 
 =--
 
+
 ## Properties
 
 ### General 
@@ -75,6 +76,50 @@ $$
   $$
 
   See [[determinant line bundle]] for more.
+
+### Splitting principle and Chern roots
+ {#SplittingPrinciple}
+
+
+Under the [[splitting principle]] all Chern classes are determnined by [[first Chern classes]]: 
+
+Write $i \colon T \simeq U(1)^n \hookrightarrow U(n)$ for the [[maximal torus]] inside the [[unitary group]], which is the [[subgroup]] of diagonal unitary matrices. Then 
+
+$$
+  H^\bullet(B T, \mathbb{Z}) \simeq H^\bullet(B U(1)^n, \mathbb{Z})
+$$
+
+is the [[polynomial ring]] in $n$ [[generators]] (the universal [[first Chern classes]] $c_i$ of each copy of $B U(1)$) which are traditionally now written $x_i$:
+
+$$
+  H^\bullet(B U(1)^n, \mathbb{Z})  \simeq \mathbb{Z}[x_1, \cdots, x_n]
+  \,.
+$$
+
+Write 
+
+$$
+  B i \;\colon\; B U(1)^n \to B U(n)
+$$
+
+for the induced map of [[deloopings]]/[[classifying spaces]], then the $k$-universal Chern class $c_k \in H^{2k}(B U(n), \mathbb{Z})$ is uniquely characterized by the fact that its pullbacl to $B U(1)^n$ is the $k$th [[elementary symmetric polynomial]] $\sigma_k$ applied to these first Chern classes:
+
+$$
+ (B i)^\ast (c_k) = \sigma_k(x_1, \cdots, x_n)
+  \,.
+$$
+
+Equivalently, for $c = \sum_{i = 1}^n c_k$ the formal sum of all the Chern classes, and using the fact that the [[elementary symmetric polynomials]] $\sigma_k(x_1, \cdots, k_n)$ are the degree-$k$ piece in $(1+x_1) \cdots (1+x_n)$, this means that
+
+$$
+ (B i)^\ast (c) = (1+x_1) (1+ x_2) \cdots (1+ x_n)
+  \,.
+$$
+
+Since here on the right the first Chern classes $x_i$ appear as the [[roots]] of the Chern polynomial, they are also called **Chern roots**.
+
+See also at _[splitting principle -- Examples -- Complex vector bundles and their Chern roots](splitting+principle#ComplexVectorBundleAndTheirChernRoots)_.
+
 
 ## Related concepts 
 
@@ -112,4 +157,5 @@ A brief introduction is in chapter 23, section 7
 
 [[!redirects second Chern class]] 
 
-
+[[!redirects Chern root]]
+[[!redirects Chern roots]]
