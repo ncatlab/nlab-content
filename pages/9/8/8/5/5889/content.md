@@ -24,7 +24,9 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
 
 ## Examples
 
-A special case of homogeneous spaces are [[coset space]]s arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie group]]s this is also called [[Klein geometry]].
+* A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie group]]s this is also called [[Klein geometry]].
+
+* Specifically for $G$ a [[compact Lie group]] and $T\hookrightarrow G$ a [[maximal torsu]], then the coset $G/T$ play a central role in [[representation theory]] and [[cohomology]], for instance in the [[splitting principle]].
 
 ## Properties
 
