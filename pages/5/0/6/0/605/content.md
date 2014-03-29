@@ -84,4 +84,7 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 [[!redirects bordant manifold]]
 [[!redirects bordant manifolds]]
 
+[[!redirects cobordism class]]
+[[!redirects cobordism classes]]
+
 
