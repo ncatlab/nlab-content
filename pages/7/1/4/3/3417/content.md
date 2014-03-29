@@ -109,6 +109,10 @@ Also
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
 
+Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] sturcture which presents [[(infinity,1)-categories]], see
+
+
+* {#Horel14} Geoffroy Horel, _A model structure on internal categories_ ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
 
 
 [[!redirects model structure on SSet-categories]]
