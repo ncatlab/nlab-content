@@ -97,7 +97,7 @@ Character rings of [[compact Lie groups]] are discussed in
 
 * Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
 
-* Troels Roussauc Johanse, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
+* Troels Roussauc Johansen, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
 
 Discussion in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] is in
 
