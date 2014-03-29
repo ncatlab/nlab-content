@@ -38,4 +38,9 @@ One of the few references that discusses a [[model category]] structure on $Cat^
 
 * [[William Dwyer]], [[Dan Kan]], [[Jeff Smith]], _Homotopy commutative diagrams and their realizations_ Journal of Pure and Applied Algebra 57 (1989) 5-24
 
+A [[model category]] sturcture on $Cat(sSet)$ presenting [[(infinity,1)-categories]] is in 
+
+* {#Horel14} Geoffroy Horel, _A model structure on internal categories_ ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
+
 [[!redirects simplicial objects in Cat]]
+
