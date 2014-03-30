@@ -23,7 +23,7 @@ The _splitting principle_ in [[Chern-Weil theory]]/[[nonabelian cohomology]] is 
 
 ## Statement
 
-Let $G$ be a [[connected topological space|connected]] [[compact Lie group]] and write $U(1)^n \simeq T \stackrel{i}{\hookrightarrow} G$ for its [[maximal torus]].
+Let $G$ be a [[connected topological space|connected]] [[compact Lie group]] and write $U(1)^n \simeq T \stackrel{i}{\hookrightarrow} G$ for a [[maximal torus]].
 
 Let $X$ be a [[connected topological space]] and $P \to X$ a $G$-[[principal bundle]] over $X$ [[classifying space|classified]] by a map $g \colon X \to B G$.
 
