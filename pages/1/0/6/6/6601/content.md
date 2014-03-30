@@ -28,7 +28,7 @@ More generally, for $(E_p, D_p)$ an [[elliptic complex]], its analytical index i
 $$
   ind_{an}(E_p, D_p)
   = 
-  \sum_p (-1)^+ dim ker \Delta_p
+  \sum_p (-1)^+ dim (ker (\Delta_p))
   \,.
 $$
 
