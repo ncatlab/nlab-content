@@ -46,7 +46,7 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 
 2-monads (particularly on [[Cat]]) are also sometimes called _[[doctrines]]_, with the intuition in mind that they are an "algebraic theory" of structure on a category just as a monad (on $Set$) is an [[algebraic theory]] of structure on a set.  However, this use of terminology is arguably at variance with the original intuitive meaning of "doctrine."
 
-### Relation fo strict 2-monads to 1-monads
+### Relation of strict 2-monads to 1-monads
 
 A strict 2-monad $T$ has an underlying [[monad]] $T_0$, such that strict $T$-algebras and strict $T$-morphisms are the same as $T_0$-algebras and $T_0$-morphisms.  (This is a special case of the the general theory of underlying ordinary categories for [[enriched categories]].)  Moreover, if a strict 2-category $A$ admits [[powers]] or [[copowers]] with the [[interval category]], then any monad on its underlying ordinary category $A_0$ has at most one enrichment to a strict 2-monad.  Thus, in this case "being a 2-monad" is a mere [[property]] of a monad; see the "unicity" paper of John Power below.
 
