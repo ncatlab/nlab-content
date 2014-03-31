@@ -64,7 +64,7 @@ on the [[syntactic category]]. This [[functor]]
     \begin{aligned}
     (g \circ f)
     &\coloneqq
-    (Y \stackrel{g}{\to} T(Y)) \circ_{Kleisli} (X \stackrel{f}{\to} T(Y))
+    (Y \stackrel{g}{\to} T(Z)) \circ_{Kleisli} (X \stackrel{f}{\to} T(Y))
     \\
     & \coloneqq
     X \stackrel{f}{\to} T(Y)
