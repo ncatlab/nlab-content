@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include Lie theory - contents]]
+=--=--
+=--
+
 
 #Contents#
 * table of contents
