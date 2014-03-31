@@ -222,6 +222,7 @@ The idea of a [[generalized cohomology theory]] with [[coefficients]] the ring o
 
 * {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
+A central tool that goes into the construction is the [[Goerss-Hopkins-Miller theorem]], see there for references on that.
 
 Expositions include
 
@@ -235,7 +236,7 @@ See also
 
 An actual detailed account of the construction of $tmf$ is in
 
-* [[Mark Behrens]], _Notes on the construction of $tmf$_ ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
+* {#Behrens13} [[Mark Behrens]], _Notes on the construction of $tmf$_, 2013 ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
 
 A complete account of the computation of the homotopy groups of $tmf$ (following previous unpublished computations) is in 
 
