@@ -234,6 +234,8 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 * [[bisimplicial set]]
 
+* [[symmetric set]], [[cyclic set]], [[skew-simplicial set]]
+
 * [[globular set]], [[cubical set]], [[cellular set]], [[dendroidal set]]
 
 
