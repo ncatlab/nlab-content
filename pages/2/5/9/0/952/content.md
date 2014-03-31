@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __symmetric set__ (or __symmetric simplicial set__) is a [[simplicial set]], $X$, equipped with additional _transposition maps_ $t^n_i: X_n \to X_n$ for $i=0,\ldots,n-1$.  These transition maps generate an [[action]] of the [[symmetric group]] $\Sigma_{n+1}$ on $X_n$ and satisfy certain commutation relations with the face and degeneracy maps.  The result is that a symmetric set is a [[presheaf]] of sets on the category [[FinSet]]$_+$ of nonempty [[finite set]]s (or on its [[skeleton]]).
 
 An analogy to keep in mind is
@@ -18,6 +25,10 @@ use both expressions in my writings and every day usage.
 [[Mike Shulman|Mike]]: I see the point.  Also, for instance, a [[symmetric spectrum]] is a particular sort of symmetric space, i.e. a symmetric object in spaces in this sense.  So I'm okay with "symmetric set" as a name for this page.
 =--
 
-See also [[symmetric comonad]]. 
+## Related concepts
+
+* [[symmetric comonad]]
+
+* [[cyclic set]],  [[skew-simplicial set]]
 
 [[!redirects symmetric simplicial set]]
