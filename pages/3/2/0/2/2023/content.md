@@ -35,6 +35,7 @@ $$ [x,y] = \{ z : P \;|\; x \leq z \leq y \} .$$
 
 Thinking of $P$ as a [[category]] and subsets of $P$ as [[full subcategory|subcategories]], $[x,\infty[$ is the [[coslice category]] $(x/P)$, $]{-\infty},x]$ is the [[slice category]] $(P/x)$, and $[x,y]$ is the bislice category $(y/P/x)$.
 
+An interval with distinct [[top]] and [[bottom]] element in a [[total order]] is also called a **linear interval**. (Sometimes this is called a **strict linear interval** and just "linear interval" then refers to the situation where top and bottom may coincide.)
 
 Besides the __closed intervals__ above, we also have the __open intervals__
 
@@ -114,6 +115,8 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 ## Related concepts
 
 * [[interval type]], [[interval object]]
+
+* [[abstract circle]]
 
 [[!redirects intervals]]
 [[!redirects unit interval]]
