@@ -1,4 +1,10 @@
 
 * [webpage](http://math.mit.edu/~mbehrens/)
 
+## related $n$Lab entries
+
+* [[tmf]]
+
+* [[Goerss-Hopkins-Miller theorem]]
+
 category: people
