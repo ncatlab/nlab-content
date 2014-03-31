@@ -50,7 +50,7 @@ Since [[left adjoints]] preserve colimits, the first condition implies the secon
 
 Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]]; thus the fourth condition implies the third.  Since left Quillen functors preserve homotopy colimits, the third condition implies the second.
 
-Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].  An alternative proof can be found in [(Gepner-Kock)](#GepnerKock).
+Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].  An alternative proof can be found in [(Gepner-Kock 12)](#GepnerKock12).
 
 =--
 
@@ -87,7 +87,7 @@ This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which shou
 
 It seems that [[Chris Kapulkin]] is close to establishing an actual [[equivalence]], in a suitable sense, between homotopy type theories (without possibly univalence) and presentable locally Cartesian closed $(\infty,1)$-Categories, in higher analogy of the [[relation between type theory and category theory ]] (see there for more).
 
-The [[internal logic]] of (presentable) locally cartesian closed $(\infty,1)$-categories was explicitly conjectured in ([Joyal 2011](#Joyal)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). 
+The [[internal logic]] of (presentable) locally cartesian closed $(\infty,1)$-categories was explicitly conjectured in ([Joyal 2011](#Joyal11)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). 
 
 
 
@@ -109,19 +109,24 @@ Characterizations of locally cartesial closed $(\infty,1)$-categories (as [[pres
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
-Discussion in the context of [[homotopy type theory]] is in
+Early discussion in the context of [[homotopy type theory]] is in
 
-* [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
- {#Joyal}
+* {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+ 
+where the conjecture is first stated that [[homotopy type theory]] has [[categorical semantics]] in locally Cartesian closed $\infty$-categories.
 
-Cisinki's argument that every locally Cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]] is mentioned in print in
+[[Denis-Charles Cisinski]]'s argument in theorem \ref{Presentations} above that every locally Cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]] is mentioned in print in section 2 
 
-* [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_ ([arXiv:1307.6248](http://arxiv.org/abs/1307.6248))
+* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
-A discussion of object classifiers, univalent families, and model category presentations is in
+which gives a detailed account of the categorical semantics of homotopy type theory in [[type-theoretic model categories]] such as those presenting locally Cartesian closed $\infty$-categories.
 
-* [[David Gepner]], [[Joachim Kock]], "Univalence in locally cartesian closed ∞-categories", [arXiv](http://arxiv.org/abs/1208.1749)
- {#GepnerKock}
+For more on this see also the relevant sections at _[[relation between type theory and category theory]]_.
+
+A discussion of object classifiers, univalent families, and model category presentations is the context of $\infty$-categories (and hence in categorical semantics for what should be homotopy type theory with univalent universes "weakly a la Tarski") appeared also in
+
+* {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], "Univalence in locally cartesian closed ∞-categories", [arXiv](http://arxiv.org/abs/1208.1749)
+ 
 
 
 [[!redirects locally cartesian closed (∞,1)-category]]
