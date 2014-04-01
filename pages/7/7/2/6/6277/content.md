@@ -16,15 +16,24 @@ The (determinant of the square root of the) inverse of its generating function a
 
 In [[algebraic topology]]/[[cohomology]] Bernoulli numbers appear as the [[coefficients]] of the [characteristic series](genus#LogarithmAndCharacteristicSeries) of the [[A-hat genus]] (see there), and they (or equivalently, their [[generating functions]]) also appear  in the expression for the [[Todd class]]. 
 
-The Bernoulli numbers are also proportional to the constant terms of the [[Eisenstein series]] and as sich appear in the exponential form of the characteristic series of the [[Witten genus]].
+The Bernoulli numbers are also proportional to the constant terms of the [[Eisenstein series]] and as such appear in the exponential form of the characteristic series of the [[Witten genus]].
 
 Finally they appear as the [[order of a group|order]] of some groups in the [[image of the J-homomorphism]]  (cf. [Adams 65, section 2](#Adams65)).
 
-They also have applications in analysis ([[Euler-MacLaurin formula]], with applications in numerical analysis).
 
 ### Elsewhere
 
+The [[Riemann zeta-function]] $\zeta$ at negative integral values is proportial to the Bernoulli numbers as
+
+$$
+  \zeta(-n) = - \frac{B_{n+1}}{n+1}
+  \,.
+$$
+
 Bernoulli numbers appear also in [[umbral calculus]]. There are generalizations, for example, [[Bernoulli polynomials]]. 
+
+They also have applications in analysis ([[Euler-MacLaurin formula]], with applications in numerical analysis).
+
 
 ## Definition
 
