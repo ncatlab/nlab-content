@@ -224,7 +224,7 @@ in [[SmoothSuper∞Grpd]]. This observation (formulated in less stacky language)
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #FirstKInvariant}
 ###### Proposition
 
 The first [[k-invariant]] of $\vert 2\mathbf{sLine}\vert$ is the essentially unique nontrivial
@@ -266,7 +266,7 @@ $$
 
 For instance ([Freed 12, 1.42](#Freed12)).
 
-+-- {: .num_prop}
++-- {: .num_prop #SecondKInvariant}
 ###### Proposition
 
 The second [[k-invariant]]
@@ -337,8 +337,7 @@ hitting the Donovan-Karoubi twists of K-theory. This is what in ([Freed-Distler-
 
 Line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orientifolds]] are discussed (even if not quite explicitly in the language of higher bundles) in 
 
-* [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
- {#Freed12}
+* {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
 
 based on the old results about the [[Picard 2-groupoid]] of complex [[super algebras]]
 
