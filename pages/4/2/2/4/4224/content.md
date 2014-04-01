@@ -57,6 +57,8 @@ $$
 
 where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[ind-objects]], "$Pro$" for [[pro-objects]] and ${}^{op}$ for the [[opposite category]] and the [[equivalence of categories|equivalence]] $FinSet^{op} \simeq FinBool$ is that discussed at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
+An extension of the classical Stone duality to the category of Boolean spaces (= zero-dimensional locally compact Hausdorff spaces) and continuous maps (respectively, perfect maps) was obtained by G. D. Dimov (respectively, by H. P. Doctor) (see the references below). 
+
 
 ### Stone spaces and profinite sets
 
@@ -99,6 +101,10 @@ The book
 is all about Stone duality.
 
 * Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
+
+* G. D. Dimov, Some generalizations of the Stone Duality Theorem, Publ. Math. Debrecen 80/3-4 (2012), 255--293.
+
+* H. P. Doctor, The categories of Boolean lattices, Boolean rings and Boolean spaces, Canad. Math. Bulletin 7 (1964), 245--252.
 
 There is a version in model theory, [[Makkai duality]],
 
