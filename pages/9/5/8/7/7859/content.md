@@ -275,6 +275,8 @@ $$
 
 * [[Azumaya algebra]]
 
+* [[Brauer ∞-group]]
+
 
 ## References
 
@@ -320,7 +322,7 @@ Brauer groups of [[superalgebras]] are discussed in
 
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and K-theory with local coefficients_, Publications Math. IHES 38 (1970), 5-25 ([pdf](http://www.math.jussieu.fr/~karoubi/Donavan.K.pdf))
 
-Refinement to [[stable homotopy theory]] is in 
+Refinement to [[stable homotopy theory]] and [[Brauer ∞-groups]] is discussed in 
 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
