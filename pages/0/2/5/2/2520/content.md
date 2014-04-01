@@ -33,21 +33,23 @@ For emphasis the description of dynamics by action functionals is called the **L
 Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with an additive [[continuum]] [[line object]] $\mathbb{A}^1$ (see there). Let $C \in \mathbf{H}$ be the [[configuration space]] of a physical system. Then an **action functional** is a morphism
 
 $$
-  \exp(i S(-)) : C \to \mathbb{A}^1 / \mathbb{Z}
+  \exp(\tfrac{i}{\hbar} S(-)) : C \to \mathbb{A}^1 / \mathbb{Z}
   \,
 $$
+
+(here $\hbar$ refers to [[Planck's constant]]).
 
 If $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">intrinsic differential</a> of the action functional to a morphism
 
 $$
-  \mathbf{d} \exp(i S(-)) : C \to \mathbf{\flat}_{dR}\mathbb{A}^1/\mathbb{Z}
+  \mathbf{d} \exp(\tfrac{i}{\hbar} S(-)) : C \to \mathbf{\flat}_{dR}\mathbb{A}^1/\mathbb{Z}
   \,.
 $$
 
 The [[equation]]
 
 $$  
-  \mathbf{d} \exp(i S(-)) = 0
+  \mathbf{d} \exp(\tfrac{i}{\hbar} S(-)) = 0
 $$
 
 is the [[Euler-Lagrange equation]] of the system. It characterizes the [[critical locus]] of $S$ is the [[covariant phase space]] inside the configuration space: the space of classically realized trajectories/histories of the system. If $\mathbf{H}$ models [[derived geometry]] then this critical locus is presented by a [[BRST-BV complex]].
