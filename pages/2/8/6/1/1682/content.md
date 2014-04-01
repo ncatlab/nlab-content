@@ -109,10 +109,10 @@ Because the sphere spectrum is the [[initial object]] in $E_\infty Ring$.
 The crucial input for the entire construction is the following statement.
 
 
-+-- {: .un_fact}
-###### Fact
++-- {: .num_prop}
+###### Proposition
 
-The formal dual of the [[Thom spectrum]] $M U$ is a [[well-supported object]] in $\mathbf{H}$, in that the morphism 
+The formal dual of the [[complex cobordism cohomology|complex cobordism]] [[Thom spectrum]] $M U$ is a [[well-supported object]] in $\mathbf{H}$, in that the morphism 
 
 $$
   Spec M U \to *
@@ -136,11 +136,11 @@ In order to get a less tautological and more insightful characterization, the st
 
 $$
   \array{
-    Spec tmf \times Spec M U &\to& Spec tmf
+    Spec(tmf) \times Spec(M U) &\to& Spec(tmf)
     \\
     \downarrow && \downarrow
     \\
-    Spec M U &\to& * \simeq Spec \mathbb{S}
+    Spec(M U) &\to& * \simeq Spec(\mathbb{S})
   }
   \,.
 $$
@@ -148,13 +148,13 @@ $$
 The resulting [[Cech nerve]] is a [[groupoid object in an (∞,1)-category]] given by
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec tmf \times Spec M U \times Spec M U \stackrel{\to}{\to} Spec tmf \times Spec M U
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec(tmf) \times Spec(MU) \times Spec(MU) \stackrel{\to}{\to} Spec(tmf) \times Spec(MU)
 $$
 
 which by formal duality is
 
 $$
-  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (tmf \wedge M U \wedge M U) \stackrel{\to}{\to} Spec ( tmf \wedge M U)
+  \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (tmf \wedge MU \wedge MU) \stackrel{\to}{\to} Spec ( tmf \wedge MU)
 $$
 
 where the [[smash product]] $\wedge$ of ring spectral over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
@@ -258,7 +258,9 @@ and course notes that go through the construction of tmf and the computation of 
 
    * {#HenriquesModuli} [[André Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf))     
 
+The non-connective version of this is discussed in
 
+* [[Johan Konter]], _The homotopy groups of the spectrum Tmf_ ([arXiv:1212.3656](http://arxiv.org/abs/1212.3656))
 
 The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$, hence the [[string orientation of tmf]] is due to 
 
