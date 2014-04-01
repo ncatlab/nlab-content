@@ -33,7 +33,9 @@ Among category theorists, it's popular to state the axioms of a structural set t
 
 * Another structural set theory, which is stronger than ETCS (since it includes the axiom of collection by default) and also less closely tied to category theory, is [[SEAR]].
 
-* Generally, set theory set up in [[intuitionistic type theory]] is structural. For instance [[setoids]] in [[extensional type theory]] or [[h-sets]] in [[homotopy type theory]] ([Rijke-Spitter 13](#RijkeSpitter13)). 
+* Set theory set up in [[extensional type theory|extensional]] [[intuitionistic type theory]] via [[setoids]] is structural.  
+
+* Set theory set up via [[h-sets]] in [[homotopy type theory]] is structural ([Rijke-Spitter 13](#RijkeSpitter13)). 
 
 ## Related Pages
 
