@@ -14,19 +14,24 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  
+The **Elementary Theory of the Category of Sets** ([Lawvere 65](#Lawvere65)), or _ETCS_ for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  
 
+More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
+
+Modern mathematics with emphasis on concepts of [[homotopy theory]] would more directly be founded in this spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
+
+Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the [[elementary theory of the 2-category of categories]] (ETCC).
 
 ## Definition
 
 The axioms of ETCS can be summed up in one sentence as:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The [[Set|category of sets]] is [[generalized the|the]] [[topos]] which
@@ -60,7 +65,7 @@ For more details see
 
 ETCS was proposed in 
 
-* [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965), reprinted as [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
+* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511 (1965), reprinted as [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_, Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
 An undergraduate set-theory textbook using it is
 
@@ -80,3 +85,5 @@ Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative math
 
 [[!redirects ETCS]]
 [[!redirects etcs]]
+
+[[!redirects elementary theory of the category of sets]]
