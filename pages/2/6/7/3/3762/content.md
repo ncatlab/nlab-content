@@ -5,7 +5,7 @@
 
 ## Idea
 
-Many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]]. So this entry will take a lot of time to write. The most well-known example is of course the _Riemann zeta function_.
+Many fields of [[mathematics]] have their own versions of _zeta functions_: [[arithmetic geometry]] and [[algebraic geometry]], [[dynamical systems]], [[graphs]], [[operator algebra]]. So this entry will take a lot of time to write. The most well-known example is of course the _[[Riemann zeta function]]_.
 
 There are several articles trying to attach zeta functions attached to [[triangulated categories]] (and [[stable model categories]]...) and study them. Zeta functions express some [[motive|motivic]] information, hence the categorical framework must be natural as it is for [[motives]]. 
 
