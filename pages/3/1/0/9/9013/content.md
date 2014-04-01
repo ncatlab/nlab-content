@@ -25,7 +25,9 @@ For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], its **Picard 3-group** o
 
 * If $(\mathcal{C}, \otimes)$ is a [[sylleptic monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[sylleptic 3-group]]. 
 
-* If $(\mathcal{C}, \otimes)$ is a [[symmetric monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[abelian 3-group]].
+* If $(\mathcal{C}, \otimes)$ is a [[symmetric monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[abelian 3-group]]. 
+
+  In this case this is the [[n-truncated object in an (infinity,1)-category|3-truncation]] of the [[Picard ∞-group]].
 
 
 ## Examples
@@ -55,7 +57,11 @@ A summary of these considerations is in section 12 of
 
 * [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([arXiv:math.CT/0303175](http://arxiv.org/abs/math.CT/0303175))
 
-A more modern account and refinement to [[stable homotopy theory]] is in 
+A refinement to [[stable homotopy theory]] is discussed in 
+
+* {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+
+See also the discussion of higher [[Brauer groups]] in stable homotopy theory (which in turn are a "non-connective delooping"of $Pic(-)$) in 
 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
