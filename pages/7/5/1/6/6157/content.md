@@ -109,7 +109,7 @@ for the [[full sub-(∞,1)-category]] on the _$A$-lines_ : on those $A$-modules 
 
 =--
 
-This appears as ([ABG def. 3.12](#ABG)), ([ABGHR, 7.5](#ABGHR)).
+This appears as ([ABG def. 3.12](#ABG)), ([ABGHR 08, 7.5](#ABGHR08)).
 
 +-- {: .num_defn}
 ###### Definition
@@ -155,7 +155,7 @@ that identifies $A Line$ as the [[delooping]] [[∞-groupoid]] of either of thes
 
 =--
 
-This appears in ([ABG, 3.6](#ABG)) ([p. 10](http://arxiv.org/pdf/1002.3004v2.pdf#page=10)). See also ([ABGHR, section 6](#ABGHR)).
+This appears in ([ABG, 3.6](#ABG)) ([p. 10](http://arxiv.org/pdf/1002.3004v2.pdf#page=10)). See also ([ABGHR 08, section 6](#ABGHR08)).
 
 
 +-- {: .num_remark}
@@ -204,7 +204,7 @@ This is ([ABG, def. 4.1](#ABG)) and ([ABG, p. 15](#ABG)), ([ABG11, remark 10.16]
 +-- {: .num_remark}
 ###### Remark
 
-For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **[[Thom spectrum|Thom A-module]]** of $f$ and written $M f$. 
+For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR 08, def. 7.27, remark 7.28](#ABGHR08)) the **[[Thom spectrum|Thom A-module]]** of $f$ and written $M f$. 
 
 =--
 
@@ -224,7 +224,7 @@ $$
 
 =--
 
-This is ([ABGHR, theorem 4.5](#ABGHR)).
+This is ([ABGHR 08, theorem 4.5](#ABGHR08)).
 
 
 ### Trivializations and orientations
@@ -251,7 +251,7 @@ For $K \to A$ the canonical inclusion and $f : X \to K Line$ a $K$-line bundle, 
 =--
 
 That this encodes the notion of [[orientation in generalized cohomology|orientation in A-cohomology]] is around 
- ([ABGHR, 7.32](#ABGHR)).
+ ([ABGHR 08, 7.32](#ABGHR08)).
 
 
 +-- {: .num_cor #ThomModuleInOrientedCase}
@@ -272,7 +272,7 @@ $$
 
 =--
 
-This appears as ([ABGHR, cor. 7.34](#ABGHR)).
+This appears as ([ABGHR 08, cor. 7.34](#ABGHR08)).
 
 Therefore if $f$ is _not_ trivializable, we may regard its $A$-module of sections as encoding $f$-[[twisted cohomology|twisted A-cohomology]]:
 
@@ -333,7 +333,7 @@ A systematic discussion of discrete $(\infty,1)$-module bundles has a precursor 
 
 (discussing the [[string orientation of tmf]]) and is then discussed in more detail in the triple of articles
 
-* {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  
 
 * {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
@@ -346,6 +346,10 @@ The last of these explains the relation to
 
 * [[Peter May|May]], Sigurdsson, _[[Parametrized Homotopy Theory]]_
  
+A streamlined version of ([ABGHR 08](#ABGHR08)) appears as
+
+* {#ABGHR14} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _An $\infty$-categorical approach to $R$-line bundles, $R$-module Thom spectra, and twisted $R$-homology_ ([arXiv:1403.4325](http://arxiv.org/abs/1403.4325))
+
 Lecture notes on these articles are in 
 
 * Ben Knudsen, Scott Slinker, Paul VanKoughnett, Brian Williams, and [[Dylan Wilson]], _Thom spectra reading course_ ([web](http://www.math.northwestern.edu/~bwill/thom/))
