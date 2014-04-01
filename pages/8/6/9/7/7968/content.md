@@ -13,6 +13,40 @@
 * table of contents
 {:toc}
 
+## Idea
+ {#Idea}
+
+What is called _Planck's constant_ in [[physics]] and specifically in [[quantum physics]] (after [[Max Planck]]) is a [[physical unit]] of 
+"[[action functional|action]]" which sets the scale at which effects of [[quantum physics]] are genuinely important and physics is no longer well approximated by [[classical mechanics]]/[[classical field 
+theory]]. This we discuss below at
+
+* _[As a physical constant](#AsAPhysicalConstant)_
+
+In the [[mathematics|mathematical]] formulation of the [[theory (physics)|theory]], Planck's constant $h$ is the choice of [[unit]] $h \in \mathbb{R}^\times$ in the [[short exact sequence]]  $\mathbb{Z}\stackrel{h\cdot(-)}{\longrightarrow} \mathbb{R} \to U(1)$ 
+which governs the [[prequantization]] lift from real ([[differential cohomology|differential]]) [[cohomology]] to ([[differential cohomology|differential]]) [[integral cohomology]]. The [[integer|integrality]] of $\mathbb{Z}$ here is the very "quantum"-ness of quantum theory, and this is what Planck's constant parameterizes. This we discuss below in
+
+* _[In geometric quantization](#InGeometricQuantization)_.
+
+
+Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $h$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This we discuss below in
+
+* _[In formal deformation quantization](#InFormalDeformationQuantization)_.
+
+
+## As a physical constant 
+ {#AsAPhysicalConstant}
+ 
+Planck's constant $h$ is a quantum of [[action functional|action]]. It may be illustrated in the case of the [[electromagnetic field]] by the fact that each of its [[quanta]] -- a [[photon]] -- carries an [[energy]] $E$ that is fixed by its [[frequency]] (cycles per second) $\nu$ according to the relation $E = h\nu$. Thus, the energy emitted by a [[laser]] beam of fixed frequency $\nu$ is an integer multiple $n h \nu$ of a packet of energy $h\nu$, where $n$ is the number of photons emitted. 
+
+As a fundamental physical constant, $h$ has dimension $(mass)(length)^2(time)^{-1}$. In meter-kilogram-second (MKS) [[physical units|units]], its value is 
+
+$$h \approx 6.62606957 \cdot 10^{-34} m^2 kg / s$$ 
+
+with an uncertainty of up to 29 in the last two digits. 
+
+The reduced Planck constant $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
+
+
 ## In geometric quantization
  {#InGeometricQuantization}
 
@@ -123,23 +157,21 @@ $$
 See at _[[higher geometric quantization]]_ for more on this.
 
 
-## As a physical constant 
 
-Planck's constant $h$ is a quantum of [[action functional|action]]. It may be illustrated in the case of the [[electromagnetic field]] by the fact that each of its [[quanta]] -- a [[photon]] -- carries an [[energy]] $E$ that is fixed by its frequency (cycles per second) $\nu$ according to the relation $E = h\nu$. Thus, the energy emitted by a laser beam of fixed frequency $\nu$ is an integer multiple $n h \nu$ of a packet of energy $h\nu$, where $n$ is the number of photons emitted. 
+## In formal deformation quantization
+ {#InFormalDeformationQuantization}
 
-As a fundamental physical constant, $h$ has dimension $(mass)(length)^2(time)^{-1}$. In meter-kilogram-second (MKS) [[units]], its value is 
+In [[formal deformation quantization]], Planck's constant is that very formal deformation parameter. See there for more.
 
-$$h \approx 6.62606957 \cdot 10^{-34} m^2 kg / s$$ 
-
-with an uncertainty of up to 29 in the last two digits. 
-
-The reduced Planck constant $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
 
 
 ## Related concepts
 
 * [[theory (physics)]]
 
+* [[quantization]]
+
+* [[coupling constant]]
 
 ## References
 
