@@ -227,7 +227,7 @@ isn't locally liftable at $i$ and $\rho$ so it is not a univresal family of unfr
 +-- {: .num_defn}
 ###### Definition
 
-Consider the global [[quotent stack]] [[orbifold]]
+Consider the global [[quotient stack]] [[orbifold]]
 
 $$
   \mathcal{M}_{1,1} := \mathfrak{h}//SL_2(\mathbb{Z})
@@ -298,9 +298,23 @@ $$
 
 =--
 
+### Euler characteristic
+ {#EulerCharacteristic}
+
+The [[orbifold Euler characteristic]] of the moduli space of complex elliptic curves is given by the [[Riemann zeta function]]
+
+$$
+  \chi(\mathcal{M}_{1,1}) = \zeta(-1) = - \frac{1}{12}
+  \,.
+$$
+
+This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) discussed at _[[moduli space of curves]]_. See also the first page here: [[EulerCharacteristicOfSpaceOfCurves.pdf:file]].
+
 ## Related concepts
 
 * [[modular form]]
+
+* [[moduli space of curves]]
 
 * [[elliptic cohomology]]
 
@@ -308,11 +322,24 @@ $$
 
 ## References
 
-An introduction is for instance in
+Introductory lecture notes on the moduli space of elliptic curves over the [[complex numbers]] include
+
+* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+More advanced lecture notes discussing also on curves over other rings introduction are in
 
 * [[Andre Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf)) in _Topological modular forms_ Talbot workshop 2007 ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/)) 
 
-* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
- {#Lurie}
+For more of the general picture in view of [[elliptic cohomology]] and [[tmf]] see also
+
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+ 
+The [[orbifold Euler characteristic]] of the moduli space of curves was originally computed in
+
+* {#ZagierHarer86} [[Don Zagier]], John Harer, _The Euler characteristic of the moduli space of curves_, Inventiones mathematicae (1986) Volume: 85, page 457-486 ([EUDML](https://eudml.org/doc/143377))
+
+Reviews include
+
+* _Mathematical ideas and notions in quantum field theory -- 5. The Euler characteristic of the moduli space of curves_ ([[EulerCharacteristicOfSpaceOfCurves.pdf:file]])
 
 [[!redirects moduli space of elliptic curves]]
