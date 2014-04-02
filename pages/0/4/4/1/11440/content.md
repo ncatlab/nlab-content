@@ -1,0 +1,18 @@
+
+
+* [[Saul Kripke]]
+
+  _Naming and Necessity_
+
+  1980
+
+([Wikipedia entry](https://en.wikipedia.org/wiki/Naming_and_Necessity))
+
+## Related entries
+
+* [[modal logic]]
+
+* [[multiverse]]
+
+
+category: reference
