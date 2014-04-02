@@ -182,21 +182,21 @@ This is a consequence of the following result. Let $\mathcal{C}_{cd, X}$ be the 
 1. There is a canonical isomorphism 
 \[ \operatorname{R} \mathcal{Hom}_{X^2}(\mathcal{O}_X, \mathcal{O}_X) \cong 
 \mathcal{C}_{cd, X} \]
-in the derived category of $\mathcal{O}_X$-modules. 
+in the derived category of $\mathcal{O}_{X^2}$-modules. 
 
-2. There is a canonical quasi-isomorphism of complexes of sheaves 
+2. There is a canonical quasi-isomorphism of complexes of $\mathcal{O}_{X^2}$-modules
 \[  \bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q] \to \mathcal{C}_{cd, X}  . \] 
 
 3. Therefore there is a  canonical isomorphism 
 \[ \operatorname{R} \mathcal{Hom}_{X^2}(\mathcal{O}_X, \mathcal{O}_X) \cong 
 \bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q] \]
-in the derived category of $\mathcal{O}_X$-modules. 
+in the derived category of $\mathcal{O}_{X^2}$-modules. 
 =--
 
 
-The relation to deformation quantization is this: $\mathcal{C}_{cd, X}$ is a shift by $1$ of the sheaf of $\mathcal{D}_{poly, X}$ of polydifferential operators (viewed only as a complex of quasi-coherent $\mathcal{O}_X$-modules). Similarly, 
+The relation to deformation quantization is this: $\mathcal{C}_{cd, X}$ is a shift by $1$ of the sheaf of $\mathcal{D}_{poly, X}$ of polydifferential operators (viewed only as a complex of quasi-coherent $\mathcal{O}_{X^2}$-modules). Similarly, 
 $\bigoplus_q \bigwedge^q (\mathcal{T}_X)[-q]$
-is the shift by $1$ of the sheaf $\mathcal{T}_{poly, X}$ of polyvector fields. Thus item 2 in the theorem above says that there is a canonical $\mathcal{O}_X$-linear quasi-isomorphism 
+is the shift by $1$ of the sheaf $\mathcal{T}_{poly, X}$ of polyvector fields. Thus item 2 in the theorem above says that there is a canonical $\mathcal{O}_{X^2}$-linear quasi-isomorphism 
 \[ \mathcal{T}_{poly, X} \to \mathcal{D}_{poly, X} . \]
 Trying to replicate the global formality theorem of Kontsevich, one would like to upgrade this to an $\mathrm{L}_{\infty}$ quasi-isomorphism. 
 However, it seems that in general this cannot be done directly, but only after a suitable resolution. 
@@ -225,7 +225,7 @@ $\mathbb{k} \otimes_{\mathbb{k}[[\hbar]]} \mathcal{A} \cong \mathcal{O}_X$
 called an augmentation. Likewise an associative deformation of $\mathcal{O}_X$ is a sheaf $\mathcal{A}$ of associative unital (but noncommutative) 
 $\mathbb{k}[[\hbar]]$-algebras on $X$, with an augmentation to $\mathcal{O}_X$.
 
-[Theorem 3](#Yek2) implies:
+[Theorem 4](#Yek2) implies:
 
 +-- {: .num_theorem #Yek3}
 ###### Theorem 
