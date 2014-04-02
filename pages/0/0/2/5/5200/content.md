@@ -70,6 +70,9 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 ## References
 
+* {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
+
+
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
 
 More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
