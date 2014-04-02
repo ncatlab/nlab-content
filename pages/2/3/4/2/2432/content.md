@@ -50,6 +50,8 @@ See [[proper map of toposes]].
 
 * [[proper base change theorem]]
 
+* [[proper homotopy theory]]
+
 
 ## References
 
