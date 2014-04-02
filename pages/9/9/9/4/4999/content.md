@@ -242,6 +242,7 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 * [[coalgebra for an endofunctor]]
 
+* The discussion of "possible worlds" in modal logic is reminiscent of some discussion in the context of the "[[multiverse]]".
 
   
 
