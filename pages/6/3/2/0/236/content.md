@@ -131,7 +131,7 @@ This functor sends the single object of $\mathbf{B}G$ to the set $S$.
 
 ### As a pseudo colimit 
 
-$S//G$ is the [[2-limit|2-colimit]] of $\rho$,
+$S//G$ is the [[2-limit|2-colimit]] of $\rho$, i.e., the [[category of elements]] of $\rho$.
 
 $$
   S//G \simeq colim_{\mathbf{B}G} \rho
