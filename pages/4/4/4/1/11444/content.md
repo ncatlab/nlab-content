@@ -1,0 +1,57 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _$MR$ cohomology theory_ or _real cobordism_ ([Landweber 68](#Landweber68), [Landweber 69](#Landweber69)) is the $\mathbb{Z}_2$-[[equivariant cohomology theory]] version of [[complex cobordism]] $MU$. 
+
+There is an evident [[action]] of $\mathbb{Z}_2$ on [[formal group laws]] given by negation in the formal group, and this lifts to an [[involution|involutive]] [[automorphism]] $MU \stackrel{\simeq}{\to} MU$ of the [[spectrum]] [[MU]]. This induces an $\mathbb{Z}_2$-[[equivariant spectrum]] $M\mathbb{R}$, and real cobordism is the [[cohomology theory]] that it [[Brown representability theorem|represents]].  This is directly analogous to how [[complex K-theory]] [[KU]] gives $\mathbb{Z}_2$-equivariant [[KR-theory]], both are examples of _[[real-oriented cohomology theories]]_.
+
+A modern review in in ([Kriz 01, section 2](#Kriz01)).
+
+
+## Related concepts
+
+* [[real-oriented cohomology theory]]
+
+  * [[KR-theory]]
+
+  * [[BPR-theory]]
+
+
+## References
+
+The definition is originally due to
+
+* {#Landweber67} [[Peter Landweber]], _Fixed point free conjugations on complex manifolds_, Annals of Mathematics 86 (2) (1967) 491}502.
+
+* {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$;, Bulletin of the American Mathematical Society 74 (1968) 271}274.
+
+The [[Adams spectral sequence]] for real cobordism is discussed in
+
+* {#Kriz01} [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the
+Adams}Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+
+
+[[!redirects MR-theory]]
+[[!redirects MR]]
