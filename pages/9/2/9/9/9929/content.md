@@ -164,6 +164,8 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 ## Related concepts
 
+* [[real oriented cohomology theory]]
+
 * [[generalized (Eilenberg-Steenrod) cohomology theory]]
 
 * [[multiplicative cohomology theory]]
