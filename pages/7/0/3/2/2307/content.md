@@ -157,6 +157,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## Related concepts
 
+* [[MR-theory]]
+
 * [[algebraic cobordism]], [[algebraic cobordism spectrum]]
 
 * [[Adams-Novikov spectral sequence]]
