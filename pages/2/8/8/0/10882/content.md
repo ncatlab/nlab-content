@@ -23,7 +23,7 @@ This page collects some links related to the article
 
   ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
 
-of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ geometry]].
+of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ geometry]] ("[[geometric ∞-stacks]]").
 
 ## 1. Cotangent complex
 
