@@ -770,6 +770,11 @@ If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B
 
 * [[carrying]]
 
+#### Cohomology of $\mathbb{Z}/2\mathbb{Z}$
+
+For group cohomology of the [[group of order 2]] $\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$ 
+see at _Groupprops_, _[Group cohomology of cyclic group Z2](http://groupprops.subwiki.org/wiki/Group_cohomology_of_cyclic_group:Z2)_
+
 #### Cohomology of $U(n)$, $O(n)$, etc.
 
 We consider for $G$ a [[topological group]] such as
