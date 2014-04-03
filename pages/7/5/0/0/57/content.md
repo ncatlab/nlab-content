@@ -92,7 +92,7 @@ $$
 This is (up to fine-tuning of the nature of the differential forms on the simplices) the [[Sullivan construction]] of [[rational homotopy theory]] that tuns a dg-algvebra into a simplicial set, applied to the dg-algebra $CE(\mathfrak{a})$.
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 **(spurious homotopy groups)**
 
@@ -119,7 +119,7 @@ We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupo
 
 For discussing smooth families of $d$-paths we need the following technical notion.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $k \in \mathbb{N}$ regard the $k$-[[simplex]] $\Delta^k$ as a [[smooth manifold|smooth]] [[manifold with corners]] in the standard way. We think of this embedded into the [[Cartesian space]] $\mathbb{R}^k$ in the standard way with maximal rotation symmetry about the center of the simplex, and equip $\Delta^k$ with the [[metric space]] structure induced this way.
@@ -143,7 +143,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Note that the dimension of the normal direction to a face depends on the dimension of the face:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
@@ -152,7 +152,7 @@ vertex.
 =--
 
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 * A smooth 0-form (a [[smooth function]]) has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it is constant.
@@ -173,7 +173,7 @@ vertex.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The condition of sitting instants serves to make smooth differential forms not be affected by the boundaries and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
@@ -192,7 +192,7 @@ glue to a single smooth form (with sitting instants) on $\Delta^n$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omega$ is allowed to vary parallel to the boundary, just not perpendicular to it.
@@ -201,7 +201,7 @@ Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does n
 
 For the following definition recall the [[presentable (∞,1)-category|presentation]] of [[smooth ∞-groupoid]]s by the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]]${}_{smooth}$. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathfrak{a}$ an [[L-∞ algebra]] of [[finite type]] with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp_{smooth}^{op} \to sSet$ by
@@ -219,7 +219,7 @@ for all $U \in $ [[CartSp]] and $[n] \in \Delta$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Compared to the integration to [[discrete ∞-groupoid]]s [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $n$-paths in $\mathfrak{g}$.
@@ -233,7 +233,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The objects $\exp(\mathfrak{g})$ are indeed [[Kan complex]]es over each $U \in $ [[CartSp]].
@@ -266,7 +266,7 @@ provides fillers for all [[horn]]s over all $U \in $ [[CartSp]].
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by postcomposing $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
@@ -295,7 +295,7 @@ $$
 
 See <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#LieGroups">Cohesive ∞-groups -- Lie groups</a> for details.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The operation of [[parallel transport]] $P \exp(\int -) : \Omega^1([0,1], \mathfrak{g}) \to G$ yields a weak equivalence (in $[CartSp^{op}, sSet]_{proj}$)
@@ -314,7 +314,7 @@ $$
 
 This follows from the [[Steenrod-Wockel approximation theorem]] and the following observation.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For $X$ a [[simply connected]] [[smooth manifold]] and $x_0 \in X$ a basepoint, there is a canonical [[bijection]]
@@ -359,7 +359,7 @@ Since $G$ is [[simply connected]], these equivalence classes are labeled by the 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 We do not need to fall back to classical [[Lie theory]] to obtain $G$ in the above argument. A detailed discussion of how to find $G$ with its group structure and smooth structure from $d$-paths in $\mathfrak{g}$ is in ([Crainic](#Crainic)).
@@ -371,7 +371,7 @@ We do not need to fall back to classical [[Lie theory]] to obtain $G$ in the abo
 ### Integrating to line/circle Lie $n$-groups {#IntegrationToLineNGroup}
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}, n \geq 1$ write $b^{n-1} \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $n$ and vanishing differential. We may call this the **line Lie $n$-algebra**.
@@ -381,7 +381,7 @@ Write $\mathbf{B}^{n} \mathbb{R}$ for the <a href="http://ncatlab.org/nlab/show/
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
@@ -394,7 +394,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $\infty$-Lie integration of $b^{n-1} \mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n} \mathbb{R}$. 
@@ -537,6 +537,8 @@ This is the [[string Lie 2-group]]. It's construction in terms of integration by
 
 
 ## Related concepts
+
+* [[Kan-fibrant simplicial manifold]]
 
 * [[parallel transport]], [[higher parallel transport]]
 
