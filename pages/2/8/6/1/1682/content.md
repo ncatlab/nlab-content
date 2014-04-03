@@ -96,7 +96,7 @@ The discussion happens in the context of [[derived geometry]] in the [[(∞,1)-t
 The [[terminal object in an (∞,1)-category|terminal object]] in $\mathbf{H}$ is the formal dual of the [[sphere spectrum]]
 
 $$
-  * \simeq Spec \mathbb{S}
+  * \simeq Spec(\mathbb{S})
   \,.
 $$
 
@@ -128,7 +128,7 @@ This means that $Spec M U$ plays the role of a [[cover]] of the point. This allo
 To see this, first notice that the problem of realizing $R = tmf$ or any other ring spectrum as the ring of global sections on something has a _tautological solution_ : almost by definition (see [[generalized scheme]]) there is an $E_\infty$-ring valued [[structure sheaf]] $\mathcal{O}Spec(R)$ on $Spec R$ and its global sections is $R$. So we have in particular
 
 $$
-  tmf \simeq \mathcal{O}Spec tmf
+  tmf \simeq \mathcal{O}(Spec(tmf))
   \,.
 $$ 
 
@@ -157,10 +157,10 @@ $$
   \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (tmf \wedge MU \wedge MU) \stackrel{\to}{\to} Spec ( tmf \wedge MU)
 $$
 
-where the [[smash product]] $\wedge$ of ring spectral over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
+where the [[smash product]] $\wedge$ of ring spectra over the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor product]] operation on function algebras formally dual to forming products of spaces.
 
 
-As a [[groupoid object in an (∞,1)-category|groupoid object]] this is still equivalent to just $Spec tmf$.
+As a [[groupoid object in an (∞,1)-category|groupoid object]] this is still equivalent to just $Spec(tmf)$.
 
 ### Decategorification: the ordinary moduli stack of elliptic curves
 
@@ -184,7 +184,7 @@ $$
   \cdots \stackrel{\to}{\stackrel{\to}{\to}} Spec (\pi_*(M U \wedge M U)) \stackrel{\to}{\to} Spec ( \pi_*(M U))
 $$
 
-which one finds is the moduli stack $\mathcal{M}_{fg}$ of [[formal group law]]s.
+which one finds is the [[moduli stack  of formal group laws]] $\mathcal{M}_{fg}$.
 
 
 
