@@ -253,6 +253,7 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
   * [[Lubin-Tate theory]]
 
 
+
 ## References
 
 Morava K-theory originates in unpublished preprints by [[Jack Morava]] in the early 1970s. 
