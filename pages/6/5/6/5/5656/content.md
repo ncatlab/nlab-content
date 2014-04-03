@@ -41,3 +41,6 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 * [[comparison theorem (étale cohomology)]]
 
+[[!include chromatic tower examples - table]]
+
+[[!redirects ordinary cohomology theory]]
