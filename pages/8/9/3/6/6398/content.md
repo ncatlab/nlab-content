@@ -56,6 +56,8 @@ There are several different incarnations of the superstring.
 
       * [[Gepner model]], [[flop transition]]
 
+    * [[type II superstring]], [[type I superstring]], [[heterotic superstring]]
+
     * [[Freed-Witten anomaly cancellation]]
 
     * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
