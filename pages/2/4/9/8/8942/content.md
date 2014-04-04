@@ -16,7 +16,7 @@
 
 ## Idea
 
-The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _O9-plane_ but is often called the _M9-brane_, even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
+The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_, even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
   
 
 Also, all [[D-branes]] of [[type II string theory]] can be understood as arising from known structures in [[M-theory]] -- except for the [[D8-brane]] [[domain wall]]. Therefore there is a conjecture that apart from the [[M2-brane]] and the [[M5-brane]] there is also an _M9-brane_ generally in [[M-theory]]. But the situation is inconclusive.
