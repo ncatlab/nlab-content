@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -217,7 +216,8 @@ See also
 
 ### Equivariant theory
 
-See at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_
+
+For general discussion of equivariant complex oriented cohomology see at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_
 
 [[!redirects complex cobordism spectrum]]
 [[!redirects periodic complex cobordism spectrum]]
