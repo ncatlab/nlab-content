@@ -259,6 +259,29 @@ This has an extension to the origin, where $E_0$ is a nodal curve. Algebraically
 
 e.g. ([Lurie, section 4.3](#Lurie)).
 
+## Description over general schemes
+ {#DescriptionOverGeneralSchemes}
+
+For $S$ a [[scheme]], a [[cubic curve]] over $S$ is a scheme $p \colon X \to S$ over $S$ equipped with a [[section]] $e \colon S \to X$ and such that [[Zariski topology|Zariski locally]] on $S$, $X$ is given by an [[equation]] in $\mathbb{P}_S^2$ of the form
+
+$$
+  y^2 + a_1 x y = x^3 + a_2 x^2 + a_4 x + a_6
+$$
+
+such that $e \colon S \to X$ is the line at infinity.
+
+Euivalently this says that $p$ is a [[proper morphism|proper]] [[flat morphism]] with a section contained in the [[smooth locus]] whose [[fibers]] are geometrically integral curves of [[arithmetic genus]] one.
+
+Write $\mathcal{M}_{cub}$ for the [[moduli stack]] of such [[cubic curves]]. Then the moduli stack of elliptic curves is the non-vanishing locus of the discriminant  $\Delta \in H^0(\mathcal{M}_{cub}, \omega^{12})$
+
+$$
+  \mathcal{M}_{ell} \hookrightarrow \mathcal{M}_{cub} 
+  \hookrightarrow \mathcal{M}_{FG}.
+$$
+
+(e.g. [Mathew, section 3](#Mathew))
+
+
 ## Properties
 
 ### Cohomology
@@ -310,6 +333,7 @@ $$
 
 This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) discussed at _[[moduli space of curves]]_. See also the first page here: [[EulerCharacteristicOfSpaceOfCurves.pdf:file]].
 
+
 ## Related concepts
 
 * [[modular form]]
@@ -328,7 +352,7 @@ Introductory lecture notes on the moduli space of elliptic curves over the [[com
 
 Lecture notes discussing the moduli space of general elliptic curves (over base [[schemes]]) $S$ include
 
-* [[Akhil Mathew]], section 3 of _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
+* {#Mathew} [[Akhil Mathew]], section 3 of _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
 * [[Andre Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf)) in _Topological modular forms_ Talbot workshop 2007 ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/)) 
 
