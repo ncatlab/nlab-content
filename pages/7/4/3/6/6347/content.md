@@ -47,6 +47,13 @@ For the open [[type II string]] the condition is known as the [[Freed-Witten ano
 
 A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([DFMII](#DFMII)).
 
+### Background fields and orientifolding
+
+
+[[!include string theory and cohomology theory -- table]]
+
+
+
 ### F-theory description
 
 See _[[F-theory]]_.
@@ -170,3 +177,7 @@ A [[holographic principle|holographic]] description of type II by [[higher dimen
 [[!redirects type IIA superstring theory]]
 [[!redirects type IIB superstring theory]]
 
+[[!redirects type IIA superstring]]
+[[!redirects type IIB superstring]]
+[[!redirects type IIA superstrings]]
+[[!redirects type IIB superstrings]]
