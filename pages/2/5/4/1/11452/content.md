@@ -35,7 +35,9 @@ There are three non-equivalent real structures on the [[circle]] $S^1$, usually 
 
 * $S^{0,2}$ for the antipodal involution (rotation by $\pi$).
 
-Accordingly [[real-oriented cohomology theory]] is bigraded modeled on this.
+Accordingly [[real-oriented cohomology theory]] is bigraded in a way modeled on this bigrading.
+
+(This is standard notation, but maybe $S^{1,0}$, $S^{\tfrac{1}{2}, \tfrac{1}{2}}, S^{0,1}$ would be more suggestive. Indeed the quotients in the first and the last case are actually circles, while in the second case it is the semi-circle.)
 
 
 ## Related concepts
