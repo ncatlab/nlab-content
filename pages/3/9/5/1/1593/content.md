@@ -31,6 +31,8 @@ That for the [[superstring]] the B-field is more generally a cocycle with coeffi
 
 ## Related concepts
 
+* [[O-plane]]
+
 * [[type I string theory]]
 
 * [[real-oriented cohomology theory]]
