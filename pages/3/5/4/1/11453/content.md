@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[string theory]] on [[orientifolds]], one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
+
+O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), see ([DMR 13](#DMR13)) for a mathematical account.
+
+## Related concepts
+
+* [[D-brane]]
+
+## References
+
+* {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
+
+* {#DMR13} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
+
+[[!redirects O-planes]]
+
