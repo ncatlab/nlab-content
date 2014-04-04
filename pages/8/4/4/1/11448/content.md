@@ -37,6 +37,11 @@
 
 (...) [[type II string theory]] on [[orientifold]] ...
 
+## Related concepts
+
+[[!include string theory and cohomology theory -- table]]
+
+
 ## References
 
 A comprehensive discussion of the ([[differential cohomology|differential]]) [[cohomology|cohomological]] nature of general type II/type I [[orientifold]] backgrounds is in 
