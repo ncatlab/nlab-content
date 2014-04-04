@@ -18,7 +18,7 @@ A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[g
 
 1. $\Delta^2 = 0$
 
-1. $\Delta( a b) = (\Delta a) b  + (-1)^{\vert a\vert} a \delta b + \{a,b\}$ for all homogenous elements $a, b \in A$
+1. $\Delta( a b) = (\Delta a) b  + (-1)^{\vert a\vert} a \Delta b + \hbar \{a,b\}$ for all homogenous elements $a, b \in A$
 
 =--
 
