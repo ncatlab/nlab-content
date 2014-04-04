@@ -50,4 +50,4 @@ Finally, a third escape that suggests itself would be to look for a notion of al
 
 
 * [[Michael Batanin]], Denis-Charles Cisinski, Mark Weber, _Algebras of higher operads as enriched categories II_
-([arXiv](http://arxiv1.library.cornell.edu/abs/0909.4715))
+([arXiv](http://arxiv.org/abs/0909.4715))
