@@ -8,6 +8,6 @@ procedure_, [pdf](http://faculty.uml.edu/tbeke/knuth.pdf)
 
 * _Simplicial torsors_, Theory and Applications of Categories __9__ (2001), no.3, pp. 43--60 
 
-* _Sheafifiable homotopy model categories_,  Math. Proc. Cambridge Philos. Soc.  __129__  (2000),  no. 3, 447--475. ([math.CT/0102087](http://arxiv1.library.cornell.edu/abs/math/0102087)), _Sheafifiable homotopy model categories. II_, J. Pure Appl. Algebra  __164__  (2001), no. 3, 307--324; ([preprint version](http://faculty.uml.edu/tbeke/right.dvi))
+* _Sheafifiable homotopy model categories_,  Math. Proc. Cambridge Philos. Soc.  __129__  (2000),  no. 3, 447--475. ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087)), _Sheafifiable homotopy model categories. II_, J. Pure Appl. Algebra  __164__  (2001), no. 3, 307--324; ([preprint version](http://faculty.uml.edu/tbeke/right.dvi))
 
 category: people
