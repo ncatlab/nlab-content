@@ -24,9 +24,9 @@
 
 ## Idea
 
-What is called _KR-theory_ ([Atiyah 66](#Atiyah66)) is variant of [[topological K-theory]] on [[spaces]] equipped with a $\mathbb{Z}_2$-[[action]].
+What is called _KR-theory_ ([Atiyah 66](#Atiyah66)) is variant of [[topological K-theory]] on [[spaces]] equipped with a $\mathbb{Z}_2$-[[action]] (by [[homeomorphism]], hence equipped with one [[involution|involutive]] homeomorphism -- a "[[real space]]").
 
-In terms of [[cocycle]] models, classes of KR-theory are represented by [[complex vector bundles]] over $X$ on which the involution on their base space lifts to an _anti-linear_ involution of the total space. Over manifolds with trivial involution these are precisely the [[complexification]] of [[real vector bundles]] and hence over such spaces $KR$-theory reduces to [[KO]]-[[cohomology theory|theory]]. Conversely, over two copies $X \cup X$ lof $X$ equipped with the involution that interchanges the two, $KR$-theory reduces to [[KU]]-[[cohomology theory|theory]]. Finally over $X \times S^1$ with the involution the antipodal identification on the second ([[circle]]) factor , $KR$-theory reduces to the self-conjugate K-theory $KSC$ ([Anderson 64](#Anderson64)).
+In terms of [[cocycle]] models, classes of KR-theory are represented by [[complex vector bundles]] over $X$ on which the involution on their base space lifts to an _anti-linear_ involution of the total space. Over manifolds with trivial involution these are precisely the [[complexification]] of [[real vector bundles]] and hence over such spaces $KR$-theory reduces to [[KO]]-[[cohomology theory|theory]]. Conversely, over two copies $X \cup X$ lof $X$ equipped with the involution that interchanges the two, $KR$-theory reduces to [[KU]]-[[cohomology theory|theory]]. Finally over $X \times S^1$ with the involution the antipodal identification on the second ([[circle]]) factor , $KR$-theory reduces to the self-conjugate [[KSC-theory]] ([Anderson 64](#Anderson64)).
 
 More abstractly, complex conjugation of complex vecgtor bundles induces on the [[complex K-theory]] [[spectrum]] [[KU]] an involutive [[automorphism]]. $KR$ is the corresponding $\mathbb{Z}_2$-[[equivariant spectrum]], and $KR$-theory the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory.  In particular, the [[homotopy fixed point]] of [[KU]] under this automorphism is [[KO]]
 
@@ -60,6 +60,7 @@ Hence $X$ here is equipped with an [[involution]] by a [[diffeomorphism]]. In th
 
 [[!include chromatic tower examples - table]]
 
+[[!include string theory and cohomology theory -- table]]
 
 ## References
 
