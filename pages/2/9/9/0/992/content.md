@@ -186,7 +186,7 @@ The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a 
 * the **distinguished triangles** in $Ho(C)$ are pieces of the [[fibration sequence]]s in $C$.
 
 
-For details see [StabCat, section 3](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0608/0608228v5.pdf#page=6).
+For details see [StabCat, section 3](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=6).
 
 Alternately, one can first pass to a [[stable derivator]], and thence to a triangulated category.  Any suitably complete and cocomplete $(\infty,1)$-category has an underlying [[derivator]], and the underlying derivator of a stable $(\infty,1)$-category is always stable---while the underlying category of any stable derivator is triangulated.  But the derivator retains more useful information about the original stable $(\infty,1)$-category than does its triangulated homotopy category.
 
@@ -341,13 +341,13 @@ A detailed discussion of how $k$-linear [[dg-categories]] present $k$-linear sta
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
-A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
+A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each can be found in these seminar notes:
 
 * {#Schwede} [[Stefan Schwede]], _Enhancements of triangulated categories_, [pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf)
 
 For discussion of the [[stable model category]] models of stable $\infty$-categories see
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
+* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([Hopf pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf)) and ([arXiv:math/0108143](http://arxiv.org/abs/math/0108143))
  {#SchwedeShipley}
 
 The enrichment over spectra is made precise in
