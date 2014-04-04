@@ -191,11 +191,11 @@ The original proof in the literature is apparently the one in section 8 of
 
 * Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
-A review is on [page 9](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf#page=9)
+A review is on [page 9](http://arxiv.org/PS_cache/math/pdf/0604/0604626v2.pdf#page=9)
 
 of
 
-* [[Kathryn Hess]], _Rational homotopy theory: A brief introduction_ ([pdf](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf))
+* [[Kathryn Hess]], _Rational homotopy theory: A brief introduction_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0604/0604626v2.pdf))
 
 =--
 
