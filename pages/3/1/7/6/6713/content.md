@@ -212,6 +212,7 @@ For more general discussion see at _[Freed-Witten anomaly -- Details](Freed-Witt
 
 ## Related concepts
 
+
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
 
 * [[Freed-Witten anomaly cancellation]]
@@ -221,6 +222,8 @@ For more general discussion see at _[Freed-Witten anomaly -- Details](Freed-Witt
 * [[black brane]], [[black hole in string theory]]
 
 * [[K-homology]], [[KK-theory]]
+
+* [[O-plane]], [[KR-theory]]
 
 [[!include table of branes]]
 
