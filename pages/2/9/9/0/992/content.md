@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic TOC goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -343,7 +343,7 @@ A detailed discussion of how $k$-linear [[dg-categories]] present $k$-linear sta
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each can be found in these seminar notes:
 
-* {#Schwede} [[Stefan Schwede]], _Enhancements of triangulated categories_, [pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf)
+* {#Schwede} [[Stefan Schwede]], _Enhancements of triangulated categories_
 
 For discussion of the [[stable model category]] models of stable $\infty$-categories see
 
