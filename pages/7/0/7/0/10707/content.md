@@ -7,6 +7,8 @@
 
 The [[moduli stack]] $\mathcal{M}_{FG}$ of all [[formal groups]].
 
+
+
 ## Properties
 
 ### Chromatic height stratification
@@ -29,6 +31,10 @@ This is ([Lurie 10, lect. 19, prop. 1](#LurieLect19)) See also the beginning of 
 ### Deformation theory
 
 The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
+
+### Relation to moduli of elliptic curves and tori
+
+Inside the moduli stack of formal groups sit, in that order, that of [[cubic curves]], the [[moduli stack of elliptic curves]], the [[moduli stack of tori]].
 
 
 ## Related concepts
