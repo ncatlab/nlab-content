@@ -1,0 +1,17 @@
+
+
+## Related concepts
+
+* [[singularity]]
+
+## References
+
+* Wikipedia, _[Singular point of a curve](https://en.wikipedia.org/wiki/Singular_point_of_a_curve)_
+
+[[!redirects singular points of a curve]]
+[[!redirects singular points of a curves]]
+
+
+[[!redirects nodal singularity]]
+[[!redirects nodal singularities]]
+
