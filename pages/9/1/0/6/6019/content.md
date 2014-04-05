@@ -32,6 +32,10 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 
   * **worldvolume**
 
+    * worldsheet
+  
+      * [[Riemann surface]], [[elliptic curve]]
+
   * [[target space]]
 
   * [[background gauge field]]
