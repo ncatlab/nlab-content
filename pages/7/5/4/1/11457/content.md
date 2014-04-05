@@ -1,0 +1,19 @@
+[[!redirects framed elliptic curves]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Over the [[complex numbers]], a _framed elliptic curve_ is an [[elliptic curve]] equipped with an [[order|ordered]] [[basis]] $\{a,b\}$ of the [[homology]] of the curve such that the [[intersection number]] $a\cdot b$ is 1.
+
+(e.g. [Hain 08, def. 1.13](#Hain08))
+
+## Related concepts
+
+* [[moduli stack of elliptic curves]]
+
+## References
+
+* {#Hain08} Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
