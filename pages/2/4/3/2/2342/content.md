@@ -20,14 +20,13 @@
 
 ## Idea
 
-Classically, an elliptic curve is a connected Riemann surface (a connected compact 1-dimensional complex manifold) of genus 1. The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to elliptic functions (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
+Classically in [[complex geometry]], an _elliptic curve_ is a connected [[Riemann surface]] (a connected compact 1-dimensional [[complex manifold]]) of [[genus of a surface|genus]] 1. The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to [[elliptic functions]] (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
 
-In more modern frameworks, an elliptic curve over a field $k$ may be defined as a complete irreducible non-singular algebraic curve of genus 1 over $k$, or even as a certain type of algebraic group scheme. Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
+In more modern frameworks, an elliptic curve over a [[field]] $k$ may be defined as a complete irreducible non-singular [[algebraic curve]] of [[arithmetic genus]] 1 over $k$, or even as a certain type of algebraic [[group scheme]]. Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
 
+The [[moduli stack of elliptic curves]] inside the [[moduli stack of formal group laws]] plays a central role in [[chromatic homotopy theory]] at [[chromatic level]] 2, where it serves to parameterize [[elliptic cohomology theories]].
 
-### History 
-
-Probably should pass through Riemann and Weierstrass, to explain "elliptic". 
+Elliptic curves over the complex numbers are also interpreted as those [[worldsheets]] in [[string theory]] whose [[correlators]] are the [[superstring]]'s [[partition function]], which is the [[Witten genus]]. Via the [[string orientation of tmf]] this connects to to the role of elliptic curves in [[elliptic cohomology theory]].
 
 
 ## Definition 
@@ -44,7 +43,7 @@ An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group object]] in 
 +-- {: .num_remark}
 ###### Remark
 
-This implies that an elliptic curva has [[genus]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+This implies that an elliptic curva has [[genus|genus of a surface]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
 
 =--
 
@@ -178,9 +177,19 @@ See also
 
 ## References
 
-an introduction to elliptic curves is at
+Introductory lecture notes for elliptic curves over the complex numbers include
 
-* [[A Survey of Elliptic Cohomology - elliptic curves]]
+* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+Classical accounts of the general case include
+
+* [[Pierre Deligne]], _Courbes Elliptiques: Formulaire (d'apres J. Tate)_ ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
+
+* Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
+
+See also
+
+* _[[A Survey of Elliptic Cohomology - elliptic curves]]_
 
 
 [[!redirects elliptic curves]]
