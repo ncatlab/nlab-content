@@ -27,6 +27,8 @@ $$
   \alpha \coloneqq \frac{e^2}{ (4 \pi \epsilon_0) \hbar c} \in \mathbb{R}
 $$
 
-where $e$ is the [[electric charge]] of the [[electron]] expressed in physical units of charge ([[Volt]]), $\hbar$ is [[Planck's constant]] etc. The resulting quotient is then independent of any choices and is hence a [[real number]] characterizing nature independently of any conventions about how to parameterize it.
+where $e$ is the [[electric charge]] of the [[electron]] expressed in physical units of charge (such as [[coulomb]]s), $\hbar$ is [[Planck's constant]] etc. The resulting quotient is then independent of any choices and is hence a [[real number]] characterizing nature independently of any conventions about how to parameterize it.
 
+
+[[!redirects physical unit]]
 [[!redirects physical units]]
