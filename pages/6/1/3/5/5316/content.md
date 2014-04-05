@@ -20,11 +20,29 @@
 
 ## Idea
 
-The [[moduli stack]] of [[elliptic curves]].
+A _moduli stack of elliptic curves_ is a [[moduli stack]] for [[elliptic curves]], hence a [[stack]] $\mathcal{M}_{ell}$ such that for $X$ any other suitable space, the [[groupoid]] of maps $X \to \mathcal{M}_{ell}$ and [[homotopies]] between them is [[equivalence of groupoids|equivalent]] to that of $X$-parameterized [[elliptic curves]] with equivalences between these. (There are some variants of $\mathcal{M}_{ell}$ corresponding to the choice of which singularities and degeneracies of elliptic curves are taken into account.)
 
-For the moment see _[[A Survey of Elliptic Cohomology - elliptic curves]]_ for more.
+This is formalized in [[algebraic geometry]], hence $X$ here is a [[scheme]] over the [[integers]] in general. 
 
-An [[elliptic curve]] $E \to Spec \mathbb{C}$ is determined, up to non-canonical [[isomorphism]], by its [[j-invariant]]
+A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]]. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. This case is considered below in 
+
+* _[Description over the complex numbers](#DescriptionOverTheComplexNumbers)_.
+
+Below that is the
+
+* _[Description over general schemes](#DescriptionOverGeneralSchemes)_.
+ 
+as an [[algebraic stack]] $\mathcal{M}_{ell}$. This is still not the most refined description: by the [[Goerss-Hopkins-Miller theorem]] the assignment to an [[elliptic curve]] of its [[elliptic spectrum]] lifts the ordinary [[structure sheaf]] $\mathcal{O}$ of $\mathcal{M}_{ell}$ to a higher structure sheaf $\mathcal{O}^{top}$ of [[E-∞ rings]] in a way that makes $(\mathcal{M}_{ell}, \mathcal{O}^{op})$ a [[spectral Deligne-Mumford stack]]. The [[global sections]] of this structure sheaf yield the [[spectrum]] [[tmf]] of [[topological modular forms]]:
+
+* _[As a derived scheme in E-infinity geoemtry](#InEInfinityGeometry)_
+
+See also _[[A Survey of Elliptic Cohomology - elliptic curves]]_ for more.
+
+
+## Description over the complex numbers
+ {#DescriptionOverTheComplexNumbers}
+
+An [[elliptic curve]] $E \to Spec(\mathbb{C})$ over the [[complex numbers]] is determined, up to non-canonical [[isomorphism]], by its [[j-invariant]]
 
 $$
   j(E) \in \mathbb{C}
@@ -35,7 +53,6 @@ Here every [[complex number]] appears as a value, and therefore the moduli space
 
 A [[compactification]] of the moduli space is obtained by including also elliptic curves with [[nodal singularity]].
 
-## Description over the complex numbers
 
 ### Upper half plane
 
@@ -62,7 +79,7 @@ where the [[special linear group]] over the [[integers]]
 $$
   SL_2(\mathbb{Z}) = \left\{ \left(\array{a & b \\ c & d }\right)| a d - c d = 1\right\}$$ 
 
-[[action|acts]]  by
+[[action|acts]] as the [[modular group]] by [[Möbius transformations]]
 
 $$
   \tau \mapsto \frac{a \tau + b}{c \tau + d}
@@ -143,7 +160,7 @@ $$
 $$
 
 
-> but see the discussion at [[moduli space]] for a discussion of the statement "it's te automorphisms that prevent the [[moduli space]] from existing"
+> but see the discussion at [[moduli space]] for a discussion of the statement "it's the automorphisms that prevent the [[moduli space]] from existing"
 
 ### Moduli space of framed elliptic curves
 
@@ -333,6 +350,12 @@ $$
 
 This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) discussed at _[[moduli space of curves]]_. See also the first page here: [[EulerCharacteristicOfSpaceOfCurves.pdf:file]].
 
+## As a derived scheme in $E_\infty$-geometry
+ {#InEInfinityGeometry}
+
+(...)  [[Goerss-Hopkins-Miller theorem]] (...)
+
+spring
 
 ## Related concepts
 
@@ -349,6 +372,8 @@ This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) disc
 Introductory lecture notes on the moduli space of elliptic curves over the [[complex numbers]] include
 
 * Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+* {#IntroOrbifolds} section 4 of _Introduction to Orbifolds_ ([[IntroductionToOrbifolds.pdf:file]])
 
 Lecture notes discussing the moduli space of general elliptic curves (over base [[schemes]]) $S$ include
 
