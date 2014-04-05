@@ -22,6 +22,8 @@ An example: [[elliptic curve]].
 
 ## Related concepts
 
+* [[singular point of a curve]]
+
 [[!include infinitesimal and local - table]]
 
 
