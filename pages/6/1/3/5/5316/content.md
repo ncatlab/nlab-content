@@ -365,6 +365,8 @@ spring
 
 * [[elliptic cohomology]]
 
+* [[moduli stack of tori]]
+
 * [[moduli stack of formal groups]]
 
 ## References
