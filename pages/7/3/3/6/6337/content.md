@@ -1,25 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 #### Complex geometry
-+--{: .hide}
++-- {: .hide}
 [[!include complex geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's [[homeomorphism]] class.  It gives the number of handles or `cross caps' that are in a sum decomposition of the surface.
+The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's [[homeomorphism]] class.  It gives the number of handles or 'cross caps' that are in a sum decomposition of the surface.
+
 
 ## Related concepts
 
@@ -31,8 +32,8 @@ The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's
 
 * [[curve]], [[singular point on a curve]]
 
-## References
 
+## References
 
 * Wikipedia, _[Genus](http://en.wikipedia.org/wiki/Genus_%28mathematics%29)_
 
