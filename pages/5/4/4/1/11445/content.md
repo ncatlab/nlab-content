@@ -35,7 +35,7 @@ The original and motivating example is the real version of [[complex K-theory]] 
 
 A modern review is in ([Kriz 01, section 2](#Kriz01)).
 
-Beware the terminological issue expanded on also at _[[KR-theory]]_: real-oriented versions of "complex" cohomology theory, being genuinely $\mathbb{Z}_2$-equivariant, are richer than just the "orthogonal" [[homotopy fixed point]] theory. In particular on $\mathbb{Z}_2$-spaces of the form $X\cup X$ on which $\mathbb{Z}_2$ acts by swapping the two copies, it the real version reduces to the original version on $X$. Hence real-oriented cohomology is a genuine generalization of complex-oriented cohomology. For instance [[KR-theory]] subsumes both [[complex K-theory]] as well as [[KO-theory]] as well as [[self-conjugate K-theory]].
+Beware the terminological issue expanded on also at _[[KR-theory]]_: real-oriented versions of "complex" cohomology theory, being genuinely $\mathbb{Z}_2$-equivariant, are richer than just the "orthogonal" [[homotopy fixed point]] theory. In particular on $\mathbb{Z}_2$-spaces of the form $X\cup X$ on which $\mathbb{Z}_2$ acts by swapping the two copies, it the real version reduces to the original version on $X$. Hence real-oriented cohomology is a genuine generalization of complex-oriented cohomology. For instance [[KR-theory]] subsumes both [[complex K-theory]] as well as [[KO-theory]] as well as [[KSC-theory]].
 
 ## Applications
 
@@ -50,6 +50,8 @@ In [[physics]] ([[string theory]]) where ([[gauge field|gauge]]) [[field (physic
 * [[MR-theory]]
 
 * [[BPR-theory]]
+
+* [[ER-theory]]
 
 ## Related concepts
 
@@ -69,7 +71,7 @@ The definition is originally due to
 Discussion of the [[Adams-Novikov spectral sequence]] in this context is in
 
 * {#Kriz01} [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the
-Adams}Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
 
 [[!redirects real-oriented cohomology theories]]
 
