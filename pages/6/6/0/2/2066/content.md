@@ -165,7 +165,7 @@ The functor that forms idempotent completion is the [[monad]] induced from the [
 
 ### The category of smooth manifolds 
 
-By a "smooth manifold", we mean a finite-dimensional (paracompact, Hausdorff) $C^\infty$ [[manifold]] without boundary. Let $Man$ be the category of smooth manifolds and smooth maps, and let $i: Open \hookrightarrow Man$ be the full subcategory whose objects are open sets in finite-dimensional [[Euclidean spaces]]. 
+By a "smooth manifold", we mean a finite-dimensional (second-countable, Hausdorff) $C^\infty$ [[manifold]] without boundary. Let $Man$ be the category of smooth manifolds and smooth maps, and let $i: Open \hookrightarrow Man$ be the full subcategory whose objects are open sets in finite-dimensional [[Euclidean spaces]]. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -182,10 +182,33 @@ By lemma \ref{def2}, it suffices to prove that
 
 For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
 
-For the second statement, we construct a smooth atlas on $Fix(p)$. Let $x \in Fix(p)$, so that $p(x) = x$ and $p$ induces a linear map $D p{|_x} \colon T_x(p) \to T_x(p)$. 
+For the second statement, assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
 
-TO BE CONTINUED. 
+$$U \stackrel{f}{\to} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\to} \ker\; d p(0).$$ 
 
+Now we make some easy observations: 
+
+1. $Fix(p) \subseteq g^{-1}(0)$. 
+
+1. The map $p: U \to U$ restricts to a map $p: g^{-1}(0) \to g^{-1}(0)$, by idempotence of $p$. 
+
+1. The derivative $d g(0): T_0(U) \to T_0(\ker \; d p(0)) \cong \ker \; d p(0)$ is $\pi$ again since $Id - d p(0)$ is idempotent. Thus $d g(0)$ has full rank ($m$ say), and so the restriction of $g$ to some neighborhood $V$ has $0$ as a regular value, and $g^{-1}(0) \cap V$ is a manifold of dimension $m$ by the [[implicit function theorem]]. The tangent space $T_0(g^{-1}(0) \cap V)$ is canonically identified with $im(d p(0))$. 
+
+1. There are smaller neighborhoods $V'' \subseteq V' \subseteq V$ so that $p$ restricts to maps $p_1, p_2$ as in the following diagram ($i, i', i''$ are inclusion maps, all taking a domain element $x$ to itself): 
+$$\array{
+g^{-1}(0) \cap V'' & \stackrel{i''}{\hookrightarrow} & g^{-1}(0) \\ 
+ _\mathllap{p_2} \downarrow & & \downarrow _\mathrlap{p} \\ 
+g^{-1}(0) \cap V' & \stackrel{i'}{\hookrightarrow} & g^{-1}(0) \\ 
+ _\mathllap{p_1} \downarrow & & \downarrow _\mathrlap{p} \\ 
+g^{-1}(0) \cap V & \stackrel{i}{\hookrightarrow} & g^{-1}(0)
+}$$ 
+and such that $p_1, p_2$ are diffeomorphisms by the [[implicit function theorem|inverse function theorem]] (noting here that $d p_i(0): im(d p(0)) \to im(d p(0))$ is the identity map, by idempotence of $p$). 
+
+1. Letting $q: g^{-1}(0) \cap V' \to g^{-1}(0) \cap V''$ denote the smooth inverse to $p_2$, we calculate $i' = p \circ i'' \circ q$, and 
+$$i p_1 = p i' = p p i''q = p i'' q = i',$$ 
+so that $p_1(x) = x$ for every $x \in V'$. Hence $g^{-1}(0) \cap V' \subseteq Fix(p)$. 
+
+From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
 
 
