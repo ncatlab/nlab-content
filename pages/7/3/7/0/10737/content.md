@@ -2,7 +2,13 @@
 
 ## Related concepts
 
+* [[p-adic integers]]
+
+* [[completion of a ring]]
+
 * [[p-localization]]
+
+* [[p-adic homotopy theory]]
 
 ## References
 
