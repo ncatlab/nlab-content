@@ -30,7 +30,7 @@ $$
 of the [[quotients]] of $R$ by all the powers of this ideal is the completion of $R$ at $I$.
 
 
-## Exanples
+## Examples
 
 * The [[p-adic integers]] are the completion of the ring of [[integers]] at the [[prime ideal]]  $(p) \subset \mathbb{Z}$.
 
