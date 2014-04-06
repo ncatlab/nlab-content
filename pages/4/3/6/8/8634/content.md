@@ -82,6 +82,7 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 
 * [[localization of a ring]], [[localization of a category]]
 
+* [[completion of a ring]]
 
 ## References
 
