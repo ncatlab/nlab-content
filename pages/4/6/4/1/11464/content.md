@@ -1,0 +1,12 @@
+
+This page collects links related to 
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], 
+
+  _Homotopy limits, completions and localizations_, 
+
+  Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+on [[p-localization]] and [[p-completion]] in [[homotopy theory]].
+
+category: reference
