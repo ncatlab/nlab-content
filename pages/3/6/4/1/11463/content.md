@@ -1,7 +1,25 @@
+[[!redirects analytic completion]]
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $A$ a [[commutative ring]] and $p$ a [[prime number]], then there is the  [[topological ring|topological]] [[p-completion]] $A_p^\wedge \coloneqq \underset{\leftarrow}{\lim}_n A/(p^n A)$. The _analytic completion_ is instead the [[quotient]] 
+
+$$
+  A[ [ x ] ]/(x-p)A[ [ x ] ]
+  \,.
+$$
+
+For $A= \mathbb{Z}$ the [[integers]] both constructions agree, up to [[isomorphism]], and yield the [[p-adic integers]]. In general though they are different.
 
 ## References
 
-* [[Charles Rezk]], _Analytic comppletion_ ([pdf](http://www.math.uiuc.edu/~rezk/analytic-paper.pdf))
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+* [[Charles Rezk]], _Analytic completion_ ([pdf](http://www.math.uiuc.edu/~rezk/analytic-paper.pdf))
 
 [[!redirects analytic completions]]
+
