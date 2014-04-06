@@ -1,0 +1,7 @@
+
+
+## References
+
+* [[Charles Rezk]], _Analytic comppletion_ ([pdf](http://www.math.uiuc.edu/~rezk/analytic-paper.pdf))
+
+[[!redirects analytic completions]]
