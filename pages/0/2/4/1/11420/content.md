@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,11 +20,28 @@
 
 ## Idea
 
-A [[completion]] of a [[ring]] to a [[topological ring]]
+A _completionf of a ring_ is a [[completion]] of a [[ring]] to a [[complete metric space|complete]] [[topological ring]].
+
+Specifically, fro $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
+
+$$
+  \widehat R_I \coloneqq \underset{\leftarrow}{\lim} (R/I^n)
+$$
+
+of the [[quotients]] of $R$ by all the powers of this ideal is the completion of $R$ at $I$.
+
+## Exanples
+
+* The [[p-adic integers]] are the completion of the ring of [[integers]] at the [[prime ideal]]  $(p) \subset \mathbb{Z}$.
+
+* [[Atiyah-Segal completion theorem]]
+
 
 ## Related concepts
 
-* [[Atiyah-Segal completion theorem]]
+* [[analytic completion]]
+
+* [[localization of a ring]], [[localization of a commutative ring]]
 
 ## References
 
