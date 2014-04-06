@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -256,6 +256,8 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 
 * [[p-adic homotopy theory]]
 
+* [[fracture theorem]]
+
 ## References
 
 A useful introduction to rational homotopy theory is
@@ -288,3 +290,6 @@ Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ alg
 
 * [[Jacob Lurie]], _Rational and $p$-adic homotopy theory_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
 
+
+[[!redirects rational homotopy type]]
+[[!redirects rational homotopy types]]
