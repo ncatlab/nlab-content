@@ -250,10 +250,11 @@ Finally, to get a a cocommutative dg [[coalgebra]] model for $X$, one uses a sli
 
 One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
 
+## Related concepts
 
-## nPOV
+* from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
 
-from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
+* [[p-adic homotopy theory]]
 
 ## References
 
