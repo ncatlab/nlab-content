@@ -136,7 +136,9 @@ This theme has been taken up more recently by Baues, using a type of abstract ho
 * [[model structure on crossed complexes]]
 * [[model structure on simplicial sets]], [[model structure on dendroidal sets]]
 * [[path object]], [[path groupoid]], [[path n-groupoid]]
-* [[rational homotopy theory]]
+
+* [[rational homotopy theory]], [[p-adic homotopy theory]]
+
 * [[test category]]
 * [[topology]]
 * [[weak equivalence]]
