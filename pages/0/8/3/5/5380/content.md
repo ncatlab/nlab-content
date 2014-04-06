@@ -26,7 +26,7 @@ $$
 
 of the $(n+1)$-fold [[product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
 
-More generally, for $X$ a pointed space with $\mathbb{G}_m$-[[action]], the quotient 
+More generally, for $(X,0)$ a pointed space with (pointed) $\mathbb{G}_m$-[[action]], the quotient 
 
 $$
  \mathbb{P}(X) :=  (X-\{0\})/\mathbb{G}_m
