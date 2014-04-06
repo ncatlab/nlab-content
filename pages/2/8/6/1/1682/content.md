@@ -226,7 +226,7 @@ A central tool that goes into the construction is the [[Goerss-Hopkins-Miller th
 
 Expositions include
 
-* {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf))
+* {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
