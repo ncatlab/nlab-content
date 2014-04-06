@@ -1,29 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Idempotents
 +-- {: .hide}
 [[!include idempotents - contents]]
 =--
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea ##
 
-The _Karoubi envelope_ or _idempotent completion_ of a [[category]] is the [[universal construction|universal]] enlargement of the category with the property that every [[idempotent]] is a [[split idempotent]].  This is the [[Set]]-enriched version of the more general notion of _[[Cauchy completion]]_ of an  [[enriched category]].
+The _Karoubi envelope_ or _idempotent completion_ of a [[category]] is the [[universal construction|universal]] enlargement of the category with the property that every [[idempotent]] is a [[split idempotent]].  This is the [[Set]]-enriched version of the more general notion of _[[Cauchy completion]]_ of an [[enriched category]].
 
 A category in which all idempotents split is called *Karoubi complete* or *Cauchy complete* or *idempotent-complete*.  Thus, the Karoubi envelope is a [[completion]] operation into such categories.
+
 
 ## Definition
  {#Definition}
@@ -165,7 +164,7 @@ The functor that forms idempotent completion is the [[monad]] induced from the [
 
 ### The category of smooth manifolds 
 
-By a "smooth manifold", we mean a finite-dimensional (second-countable, Hausdorff) $C^\infty$ [[manifold]] without boundary. Let $Man$ be the category of smooth manifolds and smooth maps, and let $i: Open \hookrightarrow Man$ be the full subcategory whose objects are open sets in finite-dimensional [[Euclidean spaces]]. 
+Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -280,4 +279,3 @@ The proof that idempotents split in the category of manifolds was adapted from t
 [[!redirects Karoubianization]]
 [[!redirects Karoubianization functor]]
 [[!redirects Karoubinization functor]]
-
