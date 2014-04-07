@@ -38,6 +38,8 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 * [[Frobenius endomorphism]]
 
+* [[Weil conjecture on Tamagawa number]]
+
 ## References
 
 * [[James Milne]], section 26 of _[[Lectures on Étale Cohomology]]_
