@@ -2,7 +2,9 @@
 * [website](http://rwilliamson-mathematics.info/)
 
 * [thesis](http://rwilliamson-mathematics.info/cylindrical_model_structures.pdf)
-## related $n$Lab entries
+## Related $n$Lab entries
+
+* [[cylinder functor]]
 
 * [[homotopy group (of an ∞-stack)]]
 
