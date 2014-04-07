@@ -69,3 +69,7 @@ Related MO-discussion:
 
 [[!redirects arithmetic square]]
 [[!redirects arithmetic squares]]
+
+[[!redirects fracture square]]
+[[!redirects fracture squares]]
+
