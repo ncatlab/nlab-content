@@ -21,9 +21,17 @@
 
 * [[Riemann hypothesis and physics]]
 
+* [[Langlands duality]]
+
 * [[p-adic physics]]
 
 ## References
+
+The relation between [[string theory]] with its [[scattering amplitudes]] on [[Riemann surfaces]] and the theory of [[automorphic forms]] was maybe first highlighted in 
+
+* {#Witten88} [[Edward Witten]], _Quantum field theory, Grassmannians, and algebraic curves_, Comm. Math. Phys. Volume 113, Number 4 (1988), 529-700 ([Euclid](http://projecteuclid.org/euclid.cmp/1104160350))
+
+Reviews include
 
 * [[Matthew Watkins]], _[Number theory and physics archive](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics.htm)_
 
