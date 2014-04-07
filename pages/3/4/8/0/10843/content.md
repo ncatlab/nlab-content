@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
 =--
 =--
 
