@@ -9,7 +9,6 @@
 |   | first [[Morava K-theory]]  | $K(1)$ |  |
 |   | first [[Morava E-theory]]  | $E(1)$ |  |
 | 2 | [[elliptic cohomology]] | $Ell_E$ |   |
-|   | [[tmf]] | [[tmf spectrum]] |  |
 |   | second [[Morava K-theory]] | $K(2)$ |  |
 |   | second [[Morava E-theory]] | $E(2)$ |  |
 |   | [[algebraic K-theory]] of [[KU]] | $K(KU)$ | |
