@@ -107,7 +107,17 @@ There is also a noncommutative analogue due to [[Alain Connes]].
 
 (...)
 
+###For ring spectra in homotopy theory
 
+Randy McCarthy and Vahagn Minasian have also proven an HKR theorem in the setting of [[ring spectra]] which have a certain smoothness property. Explicitly the theorem is 
+
+: For a connective smooth $S$-algebra $A$, the (natural) derivative map $THH(A)\to \Sigma TAQ(A)$ has a section in the category of $A$-modules which induces an equivalence of $A$-algebras 
+$$
+\mathbb{P}_A\Sigma TAQ(A)\simeq THH(A),
+$$ 
+where $\mathbb{P}$ is the free symmetric algebra triple. 
+
+See McCarthy and Minasian, in the references below.
 
 
 ## References
@@ -125,6 +135,10 @@ Standard textbook references include
 A new approach to the generalized HKR isomorphism is proposed in 
 
 * Dima Arinkin, Andrei Caldararu, _When is the self-intersection of a subvariety a fibration?_, [arxiv/1007.1671](http://arxiv.org/abs/1007.1671)
+
+The version of the theorem for smooth $S$-algebras is explained in
+
+* Randy McCarthy, Vahagn Minasian, _HKR Theorem for Smooth $S$-algebras_, [arxiv:math/0306243](http://arxiv.org/pdf/math/0306243v1.pdf)
 
 [[!redirects HKR theorem]]
 [[!redirects HKR]]
