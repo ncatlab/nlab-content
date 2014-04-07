@@ -21,6 +21,9 @@ is open.
 ##Examples
 
 
+##Related ideas 
+
+* [[pseudocompact ring]]
 
 ##References
 
