@@ -1,5 +1,10 @@
 
+## Idea
 
 A [[field]] with finitely many elements. $\mathbb{F}_p$.
+
+## Related concepts
+
+* [[modular arithmetic]]
 
 [[!redirects finite fields]]
