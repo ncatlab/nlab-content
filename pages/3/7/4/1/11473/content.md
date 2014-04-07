@@ -1,0 +1,10 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Helmut_Hasse)
+
+## Related entries
+
+* [[local-global principle]]
+
+category: people
+
