@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,13 +25,14 @@
 
 Formal geometry is a highly overloaded term in mathematics, used in number of conceptually similar ways, usually meaning that we work in setup in which some crucial details of geometry or analysis are not present or satisfied, e.g.
 
-* we work with functions on "manifolds" but the functions do not necessarily converge,
-the geometry is rather based on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]] (or more general ind-schemes). There are also noncommutative versions like [[Kapranov's noncommutative geometry]].
+* we work with functions on "manifolds" but the functions do not necessarily converge, the geometry is rather based on topological algebras of [[formal power series]]; this is the formal geometry of Grothendieck school and the main notion is that of a [[formal scheme]] (or more general ind-schemes). There are also noncommutative versions like [[Kapranov's noncommutative geometry]].
 
 * Gelfand's formal geometry: study infinitedimensional manifolds of [[jet space]]s and related objects coming from usual differential geometry, geometry of formal differential operators, study of related objects from homological algebra, including 
 Gelfand's [[formal manifold]] (homological vector field)
 
 * we talk about neighborhoods,or localizations, morphisms of spaces, but not about spectra and points (a part of noncommutative geometry is done in such style) -- this is sometimes called "pseudogeometry"
+
+* in [[algebraic geometry]]: [[formal spectrum]] of an [[adic noetherian ring]]
 
 ### Gelfand's formal geometry
 
@@ -46,6 +63,10 @@ The $(\mathfrak{A},\mathcal{D})$-systems were partly motivated by the [[calculus
 ## Related concepts
 
 * [[formal dg-algebra]]
+
+* [[formal neighbourhood]]
+
+* [[Hasse local-global principle]]
 
 [[!include infinitesimal and local - table]]
 
