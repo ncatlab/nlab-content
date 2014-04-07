@@ -15,6 +15,8 @@ For an adic noetherian ring $R$ there is a construction of a [[ringed space]], i
 
 * [[completion of a ring]]
 
+* [[linear topological ring]]
+
 ## References
 
 * PlanetMath _[I-adic topology](http://planetmath.org/iadictopology)_
