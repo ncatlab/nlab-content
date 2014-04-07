@@ -15,6 +15,8 @@ Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] wh
 
   * [[prime spectrum]]
 
+  * [[formal spectrum]]
+
 * [[prime spectrum of a monoidal stable (∞,1)-category]]
 
 * [[affine scheme]]
@@ -30,3 +32,6 @@ Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] wh
 [[!redirects spectra of commutative rings]]
 
 [[!redirects spectra of rings]]
+
+[[!redirects prime spectrum of a commutative ring]]
+[[!redirects prime spectra of commutative rings]]
