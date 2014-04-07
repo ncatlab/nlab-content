@@ -241,7 +241,14 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 [[!include table of branes]]
 
 
-### Elliptic genera, elliptic cohomology and tmf
+### Amplitudes
+
+* [[Veneziano amplitude]]
+
+* [[string scattering amplitude]]
+
+
+### Elliptic genera, elliptic cohomology and $tmf$
   {#EllipticGenera}
 
 > A properly developed theory of [[elliptic cohomology]] is likely to shed some light on what string theory really means. ([Witten 87, very last sentence](#Witten87))
