@@ -53,3 +53,6 @@ The formal spectrum of a separated complete topological $I$-adic ring $R$ depend
 * standard references are EGA, Hartshorne
 
 * Luc Illusie, _Grothendieck existence theorem in formal geometry_, in [[FGA explained]] (draft: [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes))
+
+[[!redirects formal spectra]]
+
