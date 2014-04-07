@@ -27,6 +27,10 @@ of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedg
 
 The impact here is that by [[rational homotopy theory]] the rationalization $X_{\mathbb{Q}}$ is typically comparatively easy to understand, and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces "one prime at a time".
 
+Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer, section 2](#Bauer)).
+
+
+
 ## Variants
 
 In an [[tangent cohesive (∞,1)-topos]] every [[stable homotopy type]] is canonically a cohesive/differential extension of its [[geometric realization of a cohesive homotopy type|geometric realization]] by way of a kind of fracture theorem involving the localizations induced by the [[shape modality]] and the [[flat modality]]: 
@@ -47,9 +51,21 @@ See at _[tangent cohesion -- Cohesive and differential refinement](tangent+cohes
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
+* {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
+by [[Andrew Ranicki]].
+
+* {#Bauer} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+
 
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], chapters 7 and 8 of _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
 * [[Michael Shulman]], _The Propositional Fracture Theorem_, ([blog post](http://golem.ph.utexas.edu/category/2013/05/the_propositional_fracture_the.html))
 
+Related MO-discussion:
+
+* _[Fracture squares of Bousfield Localizations of Spectra](http://mathoverflow.net/a/91057/381)_
+
 [[!redirects fracture theorems]]
+
+[[!redirects arithmetic square]]
+[[!redirects arithmetic squares]]
