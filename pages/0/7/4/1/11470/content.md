@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _formal neighbourhood_ is [[neighbourhood]] in [[formal geometry]], hence an "[[infinitesimal space|infinitesimal]] neighbourhood"
+
+## Examples 
+
+* The [[formal spectrum]] of the [[completion of a commutative ring]] in the $I$-[[adic topology]] for a [[maximal ideal]] $I$ is the formal neighbourhood of the point corresponding to that ideal in the [[spectrum of a commutative ring]].
+
+[[!redirects formal neighbourhoods]]
+
