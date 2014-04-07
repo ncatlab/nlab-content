@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include topology - contents]]
 =--
+#### Formal geometry
++-- {: .hide}
+[[!include formal geometry -- contents]]
+=--
 =--
 =--
 
@@ -28,7 +32,7 @@ $$
   \widehat R_I \coloneqq \underset{\leftarrow}{\lim} (R/I^n)
 $$
 
-of the [[quotients]] of $R$ by all the powers of this ideal, $I$,  is the completion of $R$ at $I$.
+of the [[quotients]] of $R$ by all the powers of this ideal, $I$,  is the completion of $R$ at $I$. The [[formal spectrum]] of this completion is interpreted as the [[formal neighbourhood]] of $Spec(R/I)$ inside $Spec(R)$.
 
 
 ## Examples
@@ -54,3 +58,6 @@ of the [[quotients]] of $R$ by all the powers of this ideal, $I$,  is the comple
 [[!redirects completions of a ring]]
 [[!redirects completions of rings]]
 [[!redirects completion (ring theory)]]
+
+[[!redirects completion of a commutative ring]]
+[[!redirects completion of commutative rings]]
