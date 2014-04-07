@@ -22,13 +22,13 @@
 A _completion of a ring_ is a [[completion]] of a [[topological ring]] to a [[complete space|complete]] [[topological ring]], when possible. More generally, 
 one completes a subring of some topological ring within the latter, or takes (what is sometimes equivalent) some limit in a suitable category of topological rings. 
 
-Specifically, for $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
+An important type of example occurs for $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]]. Using the powers of $I$ to define the $I$-adic topology on $R$, then the [[limit]]
 
 $$
   \widehat R_I \coloneqq \underset{\leftarrow}{\lim} (R/I^n)
 $$
 
-of the [[quotients]] of $R$ by all the powers of this ideal is the completion of $R$ at $I$.
+of the [[quotients]] of $R$ by all the powers of this ideal, $I$,  is the completion of $R$ at $I$.
 
 
 ## Examples
