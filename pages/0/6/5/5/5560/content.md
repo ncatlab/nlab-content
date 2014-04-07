@@ -14,6 +14,10 @@ More generally let $R$ be a commutative pseudocompact ring. A complete Hausdorff
 
 1. The completed [[group algebra]]s of [[profinite group]]s are naturally pseudocompact algebras, usually considered over finite fields or the [[profinite completion]] of the ring of integers. 
 
+##Related ideas
+
+* [[linear topological ring]]
+
 ##References
 
 The homological algebra of such rings and the corresponding modules are discussed in
@@ -22,5 +26,5 @@ The homological algebra of such rings and the corresponding modules are discusse
 
 category: algebra
 [[!redirects pseudocompact rings]]
-
+[[!redirects pseudocompact algebra]]
 [[!redirects pseudocompact algebras]]
