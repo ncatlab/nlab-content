@@ -107,3 +107,6 @@ $$
 
 [[!redirects K(n)-local spectrum]]
 [[!redirects K(n)-local spectra]]
+
+[[!redirects K(n)-localization]]
+[[!redirects K(n)-localizations]]
