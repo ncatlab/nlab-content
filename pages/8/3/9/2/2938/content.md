@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]] and -cohomology of certain [[algebras]] with their modules of [[Kähler differentials]] and [[derivations]], respectively.
+The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]] and -cohomology of certain [[algebras]] with their [[modules]] of [[Kähler differentials]] and [[derivations]], respectively.
 
 
 ## Details
@@ -29,10 +29,10 @@ The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]
 
 First notice that we always have the following statement about the situation in degree 1.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
-For a $k$-algebra $R$, its module of [[Kähler differential]]s coincides with its first Hochschild homology
+For a $k$-[[associative algebra|algebra]] $R$, its [[module]] of [[Kähler differential]]s coincides with its first [[Hochschild homology]]
 
 $$
   \Omega(R/k) \simeq H_1(R,R)
