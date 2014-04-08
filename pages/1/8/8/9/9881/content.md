@@ -61,6 +61,10 @@ The [[open/closed string duality]] implies certain relations in string scatterin
 
 The scattering amplitudes in [[twistor string theory]] induce the MHV amplitudes in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]. See at _[[string theory results applied elsewhere]]_ in the section _[Application to QCD -- Scattering amplitudes](string+theory+results+applied+elsewhere#QCDScatteringAmplitudes)_.
 
+### $p$-Adic formulation
+
+The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an equivalent formulation as the inverse product over all [[prime numbers]] $p$ of an amplitude computed not by an integral in the real but in the [[p-adic numbers]]. For other open string amplitudes this holds up to some regularization. This is the topic of _[[p-adic string theory]]_, see there for more details.
+
 ## Examples
 
 * [[Veneziano amplitude]]
