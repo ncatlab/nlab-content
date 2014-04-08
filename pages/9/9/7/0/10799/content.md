@@ -51,6 +51,10 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 =--
 
+## Related concepts
+
+* [[adelic string theory]]
+
 ## References
 
 * _Adeles_ [pdf](http://wiki.epfl.ch/gant/documents/lecture2-cib2011.pdf)
