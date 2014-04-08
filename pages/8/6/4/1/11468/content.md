@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called _$p$-adic string theory_ is the study of a variant of [[scattering amplitudes]] in [[string theory]] where the [[worldsheet]] of the [[string]] is regarded not as a [[Riemann surface]] but as an object in [[p-adic geometry]].
+What is called _$p$-adic string theory_ is the study of a variant of [[scattering amplitudes]] in [[string theory]] (hence [[string scattering amplitudes]]) where the [[worldsheet]] of the [[string]] is regarded not as a [[Riemann surface]] but as an object in [[p-adic geometry]].
 
 ### Open string amplitudes
 
@@ -30,7 +30,7 @@ The main result here is ([Freund-Witten 87](#FreundWitten87)) that the ordinary 
 
 Since the [[Veneziano amplitude]] concerns the [[bosonic string]] [[tachyon]] [[state]], [[p-adic string theory]] has been discussed a lot in the context of [[tachyon condensation]] and [[Sen's conjecture]] ([Cottrell 02](#Cottrell02)).
 
-Traditionally literature on $p$-adic string theory asserts that the generalization of this from the [[open string]] to the [[closed string]] remains unclear, since it is unclear which adic version of the [[complex numbers]] to use. However, in other parts of the literature adic versions of closed strings are common, this we discuss [below](#TopologicalWittenGenus).
+Traditionally literature on $p$-adic string theory asserts that the generalization of this from the [[open string]] to the [[closed string]] remains unclear (e.g [CMZ 89, section 4](#CMZ89), [Cottrell 02, section 5](#Cottrell02)), since it is unclear which adic version of the [[complex numbers]] to use. However, in other parts of the literature adic versions of closed strings are common, this we discuss [below](#TopologicalWittenGenus).
 
 ### Closed string 1-loop vacuum amplitudes (topological Witten genus)
  {#TopologicalWittenGenus}
@@ -73,6 +73,10 @@ That the ordinary [[Veneziano amplitude]] is the inverse product of all its $p$-
 
 * {#FreundWitten87} [[Peter Freund]], [[Edward Witten]], _Adelic string amplitudes_, Phys. Lett. B 199, 191 (1987). ([web record](http://adsabs.harvard.edu/abs/1987PhLB..199..191F))
 
+A detailed discussion of $p$-adic open [[string scattering amplitudes]] is in 
+
+* {#CMZ89} L. Chekhov, A. Mironov, A. Zabrodin, _Multiloop calculations in $p$-adic String theory and Bruhat-Tits Trees_, Comm. Math. Phys. 125, 675-711 (1989) ([Euclid](http://projecteuclid.org/euclid.cmp/1104179635))
+
 A review of this is in 
 
 * L. Brekke and [[Peter Freund]], _$p$-Adic numbers in physics_, Phys. Rep. 233, 1 (1993) ([web record](http://adsabs.harvard.edu/abs/1993PhR...233....1B))
@@ -81,6 +85,54 @@ A review of this is in
 Discussion of [[tachyon condensation]] in $p$-adic string theory includes
 
 * {#Cottrell02} William Cottrell, _$p$-adic Strings and Tachyon Condensation_, 2002 ([pdf](http://jfi.uchicago.edu/~tten/teaching/Phys.291/Cottrell_Freund_2002.pdf))
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 
 [[!redirects adelic string theory]]
