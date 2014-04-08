@@ -196,6 +196,22 @@ We might call $\mathbb{S}[A]$ the spring **[[∞-group ∞-ring]]** of $A$ over 
 
 Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} is a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
 
+### Homotopy groups
+
+The [[homotopy groups]] of $GL_1(E)$ are
+
+$$
+  \pi_n(GL_1(E))
+  = 
+  \left\{
+    \array{
+       \pi_0(E)^\times & |\, n = 0
+       \\
+       \pi_n(E) & | \, n \geq 1
+    }
+  \right.
+$$
+
 ### Cohomology and logarithm
  {#CohomologyAndLogarithm}
 
