@@ -1,3 +1,4 @@
+[[!redirects Rick Jardine]]
 John Frederick Jardine or Rick Jardine is a 
 [[homotopy theory|homotopy theorist]] at the University of Western Ontario in London, Canada. His work on [[model category]] structures [[model structure on simplicial presheaves|on simplicial presheaves]] is fundamental in the subject. His web pages have much course material in [[homotopy theory]], [[topos theory|sheaf theory]] and related subjects. 
 
