@@ -25,6 +25,12 @@ This page collects some links related to the article
 
 of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ geometry]] ("[[geometric ∞-stacks]]").
 
+This provides the main technical ingredient, Proposition 4.1, in _[[A Survey of Elliptic Cohomology]]_, on the [[Goerss-Hopkins-Miller-Lurie theorem]].
+
+#Contents#
+* table of contents
+{:toc}
+
 ## 1. Cotangent complex
 
 ## 2. Properties of moduli functors
