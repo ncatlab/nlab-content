@@ -22,7 +22,7 @@
 
 ### Algebraically
 
-A _spectral triple_ ([Connes-Moscovici 95](#ConnesMoscovici95)) is [[operator algebra|operator algebraic]] data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] with possibly unbounded [[Fredholm operator]] and refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module. As such, spectral triples have close ties to [[algebraic K-theory]] and so also to the [[physics]] described by these (see also at _[[spectral action]]_).
+A _spectral triple_ ([Connes-Moscovici 95](#ConnesMoscovici95)) is [[operator algebra|operator algebraic]] data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] ([Connes 08](#Connes08)) and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] with possibly unbounded [[Fredholm operator]] and refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module. As such, spectral triples have close ties to [[algebraic K-theory]] and so also to the [[physics]] described by these (see also at _[[spectral action]]_).
 
 In a little more detail, a spectral triple consists of
 
@@ -168,9 +168,9 @@ and that of [[spectral action]] in
 
 * [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
 
-The characterization of ordinary [[compact space|compact]] [[smooth manifolds]] in terms of spectral triples is in 
+The characterization of ordinary [[compact space|compact]] [[smooth manifolds]] with [[spin structure]] in terms of spectral triples is in 
 
-* [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
+* {#Connes08} [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
 
 See also
 
