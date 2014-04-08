@@ -435,6 +435,8 @@ If in the above setup we choose $K = sAb = [\Delta^{op}, Ab]$ the category of ab
 
 * [[canonical bundle]]
 
+* [[cotangent complex]], [[André-Quillen homology]], [[topological André-Quillen homology]]
+
 ## References
 
 
