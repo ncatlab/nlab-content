@@ -320,7 +320,7 @@ See also
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
-An actual detailed account of the construction of $tmf$ is in
+An actual detailed account of the construction of $tmf$ (via decomposition by [[arithmetic squares]]) is spelled out in
 
 * {#Behrens13} [[Mark Behrens]], _Notes on the construction of $tmf$_, 2013 ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
 
@@ -362,8 +362,6 @@ The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
-
-
 see also remark 1.4 of
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller and Lurie)_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf)).
@@ -380,9 +378,20 @@ is in section 8 of
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
 
-The self-[[Anderson duality]] of $tmf$ is discussed in
+Topological modular forms with _level $N$-structure_ -- $tmf(N)$ -- is discussed in 
+
+* [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+
+* {#DavisMahowald10} [[Donald Davis]], [[Mark Mahowald]], _Connective versions of $TMF(3)$_ ([arXiv:1005.3752](http://arxiv.org/abs/1005.3752))
+
 
 * {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
+
+
+* [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
+
+The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojanoska11)).
+
 
 
 [[!redirects TMF]]
