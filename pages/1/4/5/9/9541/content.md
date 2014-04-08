@@ -30,6 +30,8 @@ A Fredhom modules defines a class in [[K-homology]], hence in [[KK-theory]].
 
 ## Related concepts
 
+* [[unbounded Fredholm module]] ([[spectral triple]])
+
 * [[K-homology]]
 
 * [[KK-theory]]
