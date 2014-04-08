@@ -43,7 +43,7 @@ For $M$ a [[multicategory]] and $A$ and $B$ [[objects]] in $M$, the **tensor pro
 +-- {: .num_example}
 ###### Example
 
-$M$ is the category [[Ab]] of abelian groups, made into a [[multicategory]] using [[multilinear maps]] as the multimorphisms, then we get the usual [[tensor product of abelian groups.]] That is, $A \otimes B$ is equipped with a universal map from $A \times B$ (as a set) to $C$ such that this map is linear (a group homomorphism) in each argument separately.  This tensor product can also be constructed explicitly by
+$M$ is the category [[Ab]] of abelian groups, made into a [[multicategory]] using [[multilinear maps]] as the multimorphisms, then we get the usual [[tensor product of abelian groups]]. That is, $A \otimes B$ is equipped with a universal map from $A \times B$ (as a set) to $C$ such that this map is linear (a group homomorphism) in each argument separately.  This tensor product can also be constructed explicitly by
 
 1. starting with the cartesian product $A\times B$ in sets,
 1. generating a _free_ abelian group from it, and then
