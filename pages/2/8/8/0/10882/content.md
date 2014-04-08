@@ -27,6 +27,10 @@ of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ g
 
 This provides the main technical ingredient, Proposition 4.1, in _[[A Survey of Elliptic Cohomology]]_, on the [[Goerss-Hopkins-Miller-Lurie theorem]].
 
+More concrete implementations of the main theorem appear in 
+
+* [[Jonathan Pridham]], _Representability of derived stacks_ ([arXiv:1011.2189](http://arxiv.org/abs/1011.2189))
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,6 +54,7 @@ This provides the main technical ingredient, Proposition 4.1, in _[[A Survey of 
 ### 4.3 Existence of dualizing modules
 
 ### 4.4 A linear representability criterion
+
 
 ### 4.5 Existence of cotangent complexes
 
