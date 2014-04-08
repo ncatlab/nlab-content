@@ -565,9 +565,9 @@ See also
 
 * [Grothendieck construction](http://en.wikipedia.org/wiki/Grothendieck_construction) (Wikipedia)
 * [The Grothendieck Construction](http://online.itp.ucsb.edu/online/ktheory/wu/) (UCSB ITP Seminar)
-* [The Homotopy Theory of n-Fold Categories](http://www.math.uchicago.edu/~fiore/1/ThomasonNFoldBeamerSlides.pdf)
+* [The Homotopy Theory of n-Fold Categories](http://www-personal.umd.umich.edu/~tmfiore/1/ThomasonNFoldBeamerSlides.pdf)
 * [Inference System Integration via Logic Morphisms](http://www.kestrel.edu/home/projects/logicware/slides-9806/sld001.htm)
-* [Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)
+* [Category Theory for Computing Science](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
 
 A [[model category]] presentation of the Grothendieck construction is given in 
 
