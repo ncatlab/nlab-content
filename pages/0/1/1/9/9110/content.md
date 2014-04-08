@@ -39,7 +39,7 @@ If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constan
 
 The original article is 
 
-* P. G. Freund, M. A. Rubin, Phys. Lett. B 97, 233 (1980).
+* [[Peter Freund]], M. A. Rubin, Phys. Lett. B 97, 233 (1980).
 
 Discussion of the [[weak G2 holonomy]] on $X_7$ is in 
 
