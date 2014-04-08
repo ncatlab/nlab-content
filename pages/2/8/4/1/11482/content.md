@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The Weierstrass elliptic function parameterizes a [[complex manifold|complex]] [[torus]] as a solution to the [[Weierstrass equation]] for general [[elliptic curves]] when considered over the [[complex numbers]].
+
+See at _[[elliptic curve]]_ for more.
+
+## Related concepts
+
+* [[elliptic curve]]
+
+## References
+
+* Wikipedia, _[Weierstrass's elliptic functions](https://en.wikipedia.org/wiki/Weierstrass's_elliptic_functions)_
+
+[[!redirects Weierstrass elliptic functions]]
+
+[[!redirects Weierstrass elliptic functions]]
+[[!redirects Weierstrass's elliptic functions]]
