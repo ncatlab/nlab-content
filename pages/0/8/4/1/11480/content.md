@@ -1,0 +1,6 @@
+
+## References
+
+* MO discussion [here](http://mathoverflow.net/q/115657/381)
+
+[[!redirects motivic spheres]]
