@@ -22,26 +22,29 @@
 
 ### Algebraically
 
-A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module.
+A _spectral triple_ ([Connes-Moscovici 95](#ConnesMoscovici95)) is [[operator algebra|operator algebraic]] data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] with possibly unbounded [[Fredholm operator]] and refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module. As such, spectral triples have close ties to [[algebraic K-theory]] and so also to the [[physics]] described by these (see also at _[[spectral action]]_).
 
-It consists of
+In a little more detail, a spectral triple consists of
 
 1. a $\mathbb{Z}_2$-graded [[Hilbert space]] $\mathcal{H}$, to be thought of as the space of (square integrable) [[sections]] of the [[spinor bundle]] of $X$;
 
-1. An [[associative algebra]] $A$ with a [[dense subalgebra|dense embedding]] $A \hookrightarrow B(H)$ into the [[C-star-algebra]] of [[bounded operators]] on $H$, to be thought of as the algebra of [[smooth function]]s on $X$;
+1. An [[associative algebra]] $A$ with a [[dense subalgebra|dense embedding]] $A \hookrightarrow B(H)$ into the [[C-star-algebra]] of [[bounded operators]] on $H$, to be thought of as the algebra of [[smooth functions]] on $X$;
 
    These two items encode the [[topology]] and [[smooth structure]].
 
-1. A [[Fredholm operator]] $D$ acting on $\mathcal{H}$, to be thought of as the [[Dirac operator]] acing on the spinors.
+1. A [[Fredholm operator]] $D$ acting on $\mathcal{H}$ and satisfying some conditions, to be thought of as the [[Dirac operator]] acting on the spinors.
 
    This item encodes the [[Riemannian metric]] and possibly a [[connection on a bundle|connection]].
+
+
+(This is, or is a slight variant of, the concept of an unbounded [[Fredholm modules]] (e.g. [Carey-Philips 98](#CareyPhilips98)))
 
 Below we discuss how one may think  of a spectral triple as being precisely the algebraic data of [[supersymmetric quantum mechanics]] defining the worldvolume [[QFT]] of the quantum [[relativistic particle|super particle]] propagating on a Riemannian target space (a [[sigma-model]].) Accordingly this is just the beginning of a pattern. One degree up a [[2-spectral triple]] is algebraic data encoding a Riemannian manifold with [[string structure]].
 
 ### As 1-dimensional FQFTs
  {#As1DimensionalFQFTs}
 
-Here is an **unorthodox way** to state the idea of spectral triple in terms of [[FQFT]], which is in part just the reformulation of the [[quantum mechanics]] motivation that [[Alain Connes]] derived his definition from in the modern light of [[FQFT]], but which more concretely follows work by [[Maxim Kontsevich|Kontsevich]]-[[Yan Soibelman|Soibelman]] and [[Yan Soibelman|Soibelman]] (linked to at [[2-spectral triple]]) which [[Urs Schreiber|methinks]] is the _right_ one. 
+Here is an **unorthodox way** to state the idea of spectral triple in terms of [[FQFT]], which is in part just the reformulation of the [[quantum mechanics]] motivation that [[Alain Connes]] derived his definition from in the modern light of [[FQFT]], but which more concretely follows work by [[Maxim Kontsevich|Kontsevich]]-[[Yan Soibelman|Soibelman]], see  ([Soibelman 11](#Soibelman11)) and see the references at _[[2-spectral triple]]_. 
 
 > (but maybe eventually we should have a traditional idea section and move this here to a subsection on further interpretations)
 
@@ -152,19 +155,26 @@ The standard textbook is
 
 See also 
 
-* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
-
-
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 10 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
 
-The notion of spectral triple and of spectral action was introduced in
+The terminology  of spectral triples was introduced in
+
+* {#ConnesMoscovici95} [[Alain Connes]], [[Henri Moscovici]],  _The Local Index Formula in Noncommutative Geometry_, Geometry and Funct. Analysis 5 (1995) 174-243.
+
+* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
+and that of [[spectral action]] in
 
 * [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
 
 The characterization of ordinary [[compact space|compact]] [[smooth manifolds]] in terms of spectral triples is in 
 
 * [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
+
+See also
+
+* {#CareyPhilips98} [[Alan Carey]], John Phillips, _Fredholm modules and spectral flow_  J. Canadian Math. Soc. **50** (1998) 673-718. ([publisher](https://cms.math.ca/10.4153/CJM-1998-038-x))
 
 Traditionally spectral triples are discussed without specifying their [[homomorphisms]]. Proposals to remedy this such as to obtain a sensible [[category]] of spectral triples include the following
 
@@ -178,13 +188,13 @@ Traditionally spectral triples are discussed without specifying their [[homomorp
 
 A discussion of spectral triples as [[FQFT]] data encoding a [[representation]] of a category of 1-dimensional [[cobordisms]] with [[Riemannian manifold|Riemannian]] structure and vertices is in section 1.4 of 
 
-* [[Yan Soibelman]], _Collapsing Conformal Field Theories, spaces with
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing Conformal Field Theories, spaces with
 non-negative Ricci curvature and
-non-commutative geometry_ in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ .
+non-commutative geometry_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS 2011
 
 A brief indication of some of the central ideas going into this is at
 
-* [[Urs Schreiber]],  [_Spectral triples and graph field theory_](http://golem.ph.utexas.edu/category/2007/06/had_the_pleasure_of_talking.html)
+* [[Urs Schreiber]],  _[Spectral triples and graph field theory](http://golem.ph.utexas.edu/category/2007/06/had_the_pleasure_of_talking.html)_
 
 
 A general introduction to and discussion of spectral triples with an eye on [[quantum mechanics]], [[quantum field theory]] and [[string theory]] is in
@@ -208,9 +218,15 @@ Also
 
 ### von Neumann spectral triples 
 
-One variation uses [[von Neumann algebra]]s instead of [[C-star algebra]]s.
+One variation uses [[von Neumann algebras]] instead of [[C-star algebras]].
 
-* M-T. Benameur, T. Fack, _On von Neumann spectral triples_ ([web](http://adsabs.harvard.edu/abs/2000math.....12233B)) 
+This goes back to ([Carey-Philips 98](#CareyPhilips98)) and 
+
+* Alan L Carey, John Phillips, Fyodor Sukochev, _On unbounded $p$-summable Fredholm modules_ ([arXiv:math/9908091](http://arxiv.org/abs/math/9908091))
+
+See also
+
+* M-T. Benameur, T. Fack,, _Type II non-commutative geometry. I. Dixmier trace in von Neumann algebras_, Advances in Mathematics 199: 29-87, 2006.
 
 * [[Alain Connes]], [[Henri Moscovici]], _Type III and spectral triples_ ([arXiv:math/0609703](http://arxiv.org/abs/math/0609703))
 
@@ -228,3 +244,6 @@ Relation to [[K-theory]] and [[KK-theory]] is discussed in
 
 [[!redirects spectral triples]]
 [[!redirects graph field theory]]
+
+[[!redirects unbounded Fredholm module]]
+[[!redirects unbounded Fredholm modules]]
