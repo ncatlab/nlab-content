@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -194,6 +194,8 @@ Similarly, one can express the descent properties of higher stacks via the usual
 * [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
 
 * **cotangent complex**, [[André-Quillen homology]], [[Hochschild homology]]
+
+* [[topological André-Quillen homology]], [[topological Hochschild homology]]
 
 ## References
 
