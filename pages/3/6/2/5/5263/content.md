@@ -1,4 +1,8 @@
 
 * [website](http://www.math.ohio-state.edu/people/henri)
 
+## related $n$Lab entries
+
+* [[spectral triple]]
+
 category: people
