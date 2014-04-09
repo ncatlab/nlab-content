@@ -1,0 +1,12 @@
+
+
+## Examples
+
+* [[level n subgroup]] of the [[modular group]]
+
+## References
+
+* Wikipediam, _[Congruence subgroup](https://en.wikipedia.org/wiki/Congruence_subgroup)_
+
+[[!redirects congruence subgroups]]
+
