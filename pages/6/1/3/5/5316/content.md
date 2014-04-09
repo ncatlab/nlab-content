@@ -24,7 +24,16 @@ A _moduli stack of elliptic curves_ is a [[moduli stack]] for [[elliptic curves]
 
 This is formalized in [[algebraic geometry]], hence $X$ here is a [[scheme]] over the [[integers]] in general. The moduli stack always has a tautological construction as a "[[sheaf]] of [[groupoids]]" (a [[stack]], whence the name) over the [[site]] of [[affine schemes]], given by sending any $Spec(R)$ to the groupoid of suitable [[elliptic curves]] over $Spec(R)$. For concrete computations it typically helps to know that the moduli stack of elliptic curbes is [[representable functor|represented]] by a [[geometric stack]], [[Isbell duality|dually]] given by a [[Hopf algebroid]]. 
 
-A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]]. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. This case is considered below in 
+The moduli stack $\mathcal{M}_{ell}$ has a [[Deligne-Mumford compactification|compactification]] $\mathcal{M}_{\overline{ell}}$ obtained by adding the [[nodal cubic curve]], and often (but not always) this compactified version is the default meaning of "moduli stack of elliptic curves". Adding also the [[cuspidal cubic curve]] and hence all [[cubic curves]] produces the full moduli stack $\mathcal{M}_{cub}$ of cubic curves, inside which $\mathcal{M}_{ell}$ sits as the locus of non-singular curves.
+
+Since an [[elliptic curve]] is a [[arithmetic genus|genus-1]] [[algebraic curve]] with a marked point (the neutral element of the [[group]] structure), $\mathcal{M}_{ell}$ is equivalently the [[moduli stack of algebraic curves]] for genus $g = 1$ with $n = 1$ punctures, and as such is often equivalently written 
+
+$$
+  \mathcal{M}_{1,1} = \mathcal{M}_{ell}
+  \,.
+$$
+
+A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]], hence of maps $Spec(\mathcal{C}) \to \mathcal{M}_{ell}$. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. This case is considered below in 
 
 * _[Description over the complex numbers](#DescriptionOverTheComplexNumbers)_.
 
@@ -259,7 +268,7 @@ This is the [[moduli stack]] of elliptic curves.
 
 ### Compactified moduli stack
 
-Consider the complex analytic parameteritation over the [[annulus]]
+Consider the complex analytic parameterization over the [[annulus]]
 
 $$
   \{q \in \mathbb{C} | 0 \lt {\vert q \vert} \lt 1 \}
@@ -272,7 +281,8 @@ $$
   \,.
 $$
 
-This has an extension to the origin, where $E_0$ is a nodal curve. Algebraically, in a [[formal neighbourhood]] of the origin, hence over $Spec \mathbb{Z}[ [q] ]$, this is the [[Tate curve]].
+This has an extension to the origin, where $E_0$ is a [[nodal curve]]. Algebraically, in a [[formal neighbourhood]] of the origin, hence over 
+$Spec(\mathbb{Z}[ [q] ])$, this is the [[Tate curve]].
 
 e.g. ([Lurie, section 4.3](#Lurie)).
 
@@ -296,7 +306,9 @@ $$
   \hookrightarrow \mathcal{M}_{FG}.
 $$
 
-(e.g. [Mathew, section 3](#Mathew))
+See at _[[elliptic curve]]_for details. (A textbook account is in [Silverman 09, III](#Silverman09), a review with an  eye towards [[tmf]] is in [Mathew, section 3](#Mathew)).
+
+Two standard versions of [[Hopf algebroids]] representing $\mathcal{M}_{\overline{ell}}$ as a [[geometric stack]] are usefully reviewed in ([Mathew, section 4](#Mathew)).
 
 ## As a derived scheme in $E_\infty$-geometry
  {#InEInfinityGeometry}
@@ -304,10 +316,16 @@ $$
 
 By the [[Goerss-Hopkins-Miller theorem]] the [[structure sheaf]] $\mathcal{O}$ of the moduli stack of elliptic curves lifts to a sheaf $\mathcal{O}^{top}$ of [[E-∞ rings]] which over a given [[elliptic curve]] is the corresponding [[elliptic spectrum]].
  
-By ([[A Survey of Elliptic Cohomology|Lurie (Survey), theorem 4.1]]), this yields a  [[spectral Deligne-Mumford stack]] refinement $(\mathcal{M}_{ell}, \mathcal{O}^{top})$ which is the moduli stack of [[derived elliptic curves]], in that there is a [[natural equivalence]] in [[E-∞ rings]] $A$ of the form
+By ([[A Survey of Elliptic Cohomology|Lurie (Survey), theorem 4.1]]), this yields a  [[spectral Deligne-Mumford stack]] refinement 
 
 $$
-  Hom(Spec(A), (\mathcal{M}_{ell},\mathcal{O}^{top}))
+  \mathcal{M}_{ell}^{der} \coloneqq  (\mathcal{M}_{ell}, \mathcal{O}^{top})
+$$ 
+
+which is the moduli stack of [[derived elliptic curves]], in that there is a [[natural equivalence]] in [[E-∞ rings]] $A$ of the form
+
+$$
+  Hom(Spec(A), \mathcal{M}_{ell}^{der})
   \simeq
   E(A)
   \,,
@@ -316,6 +334,21 @@ $$
 where on the left we have maps of [[structured (∞,1)-toposes]] and on the right the [[∞-groupoid]] of [[derived elliptic curves]] over $A$.
 
 This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
+
+In this derived picture the compactified dericed moduli space is obtained by gluing in the [[spectrum]] of [[Tate K-theory]] $KO[ [q] ] \simeq KU[ [q] ]/\mathbb{Z}_2$ by forming the [[homotopy pushout]]
+
+$$
+  \array{
+    Spec(K((q))) &\longrightarrow& \mathcal{M}_{ell}^{der} 
+    \\
+    \downarrow && \downarrow
+    \\
+    Spec(K[ [q] ]) &\longrightarrow& \mathcal{M}_{\overline{ell}}^{der}
+  }
+  \,.
+$$
+
+([[A Survey of Elliptic Cohomology|Lurie(Survey), p. 33]]). Again, the underlying ordinary [[Deligne-Mumford stack]] is the ordinary $\mathcal{M}_{\overline{\ell}}$.
 
 
 ## Properties
@@ -392,9 +425,12 @@ Introductory lecture notes on the moduli space of elliptic curves over the [[com
 
 * {#IntroOrbifolds} section 4 of _Introduction to Orbifolds_ ([[IntroductionToOrbifolds.pdf:file]])
 
-A standard account of the general case is in 
+Account of the general case include
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves_, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
+
+* {#Silverman09} [[Joseph Silverman]], _The arithmetic of elliptic curves_, second ed., Graduate Texts in Mathematics, vol. 106, Springer, Dordrecht, 2009. MR 2514094 (2010i:11005)
+
 
 Lecture notes/talk notes reviewing this include
 
