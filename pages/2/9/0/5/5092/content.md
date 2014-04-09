@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+
+
 * [[locally presentable category]]
 
 * [[accessible category]]
@@ -11,9 +13,12 @@
 
 * [[Locally Presentable and Accessible Categories]]
 
+* [[quantale]]
+
 [[!redirects Jiri Rosicky]]
 
 [[!redirects J. Rosicky]]
 [[!redirects Jiří Rosicky]]
+[[!redirects J. Rosický]]
 
 category: people
