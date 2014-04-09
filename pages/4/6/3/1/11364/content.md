@@ -104,6 +104,10 @@ $$1 \to \mathbb{Z} \stackrel{1 \mapsto z}{\to} B_3 \stackrel{q}{\to} \Gamma \to 
 
 where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (z-1)/z$, and $\sigma_1\sigma_2\sigma_1$ to $\lambda z. \frac{-1}{z}$. 
 
+## Related concepts
+
+* [[level n subgroup]] ([[congruence subgroup]])
+
 [[!redirects Moebius transformations]]
 [[!redirects moebius transformation]]
 [[!redirects moebius transformations]]
