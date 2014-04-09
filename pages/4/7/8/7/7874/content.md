@@ -81,3 +81,8 @@ which in turn follows the general program outlined in
 An alternative construction using the [[derived algebraic geometry]] of the [[moduli stack of elliptic curves]] is sketched in
 
 * [[Jacob Lurie]], section 5.3 of _[[A Survey of Elliptic Cohomology]]_
+
+[[!redirects String orientation of tmf]]
+
+[[!redirects string-orientation of tmf]]
+[[!redirects String-orientation of tmf]]
