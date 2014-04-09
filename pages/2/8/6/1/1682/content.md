@@ -338,7 +338,7 @@ and course notes that go through the construction of tmf and the computation of 
 
 *  _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
 
-   * {#Hopkins} [[Mike Hopkins]] (talk notes by Michael Hill), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
+   * {#Hopkins} [[Mike Hopkins]] (talk notes by [[Michael Hill]]), _Stacks and complex oriented cohomology theories_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter08/MikesTalk1.pdf))
     
 
    * {#Henriques} [[André Henriques]], _The homotopy groups of tmf_ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter16/TmfHomotopy.pdf))
@@ -389,6 +389,8 @@ Topological modular forms with _level $N$-structure_ -- $tmf(N)$ -- is discussed
 
 
 * [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
+
+* [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
 
 The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojanoska11)).
 
