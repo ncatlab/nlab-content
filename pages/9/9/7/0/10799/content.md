@@ -66,6 +66,10 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 * Tom Weston, _The idelic approach to number theore_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  {#Weston}
 
+[[!redirects rings of adeles]]
 
 [[!redirects adele]]
 [[!redirects adeles]]
+
+[[!redirects adele ring]]
+[[!redirects adele rings]]
