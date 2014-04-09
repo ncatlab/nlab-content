@@ -14,8 +14,7 @@
 
 ## Idea
 
-For $H  \hookrightarrow G$ a [[subgroup]], its _index_ is the number 
-${\vert G: H\vert}$ of $H$-[[cosets]] in $G$.
+For $H  \hookrightarrow G$ a [[subgroup]] inclusion, its _index_ is the number  ${\vert G: H\vert}$ of $H$-[[cosets]] in $G$, hence roughly is the number of copies of $H$ that appear in $G$.
 
 
 ## Definition
@@ -65,7 +64,7 @@ $$
 
 ### Finite groups
 
-The concept of index is meaningful especially for finite groups, i.e. groups internal to $FinSet$. See, for example, its role in the classification of finite simple groups. 
+The concept of index is meaningful especially for finite groups, i.e. groups internal to [[FinSet]]. See, for example, its role in the [[classification of finite simple groups]]. 
 
 Multiplicativity of the index has the following corollary, which is known as **Lagrange's theorem**: If $G$ is a [[finite group]], then the index of any subgroup is the quotient
 
