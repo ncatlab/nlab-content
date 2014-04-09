@@ -5,7 +5,7 @@
 
 ## Idea
 
-A kind of [[singular point in an algebraic variety|singularity]].
+A kind of [[singular point of an algebraic variety|singularity]].
 
 For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
 
@@ -17,3 +17,9 @@ For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal cur
 
 [[!redirects cuspidal curve]]
 [[!redirects cuspidal curves]]
+
+[[!redirects cuspidal cubic curve]]
+[[!redirects cuspidal cubic curves]]
+
+[[!redirects cuspidal cubic]]
+[[!redirects cuspidal cubics]]
