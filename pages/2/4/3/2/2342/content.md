@@ -187,7 +187,7 @@ A solution to the Weierstrass cubic, def. \ref{GeneralWeierstrassCubic}, with mo
 
 ##### Localization at 2 and 3
 
-+-- {: .num_prop}
++-- {: .num_prop #WeierstrassEquationLocalAt2And3}
 ###### Proposition
 
 If $2$ is invertible in $R$ (is a [[unit]] ), and hence generally over the [[localization of a ring|localization]] $R[\frac{1}{2}]$ of $R$ at 2, the general [[Weierstrass equation]], def. \ref{GeneralWeierstrassCubic}, is equivalent, to the equation
@@ -207,10 +207,17 @@ $$
 
 =--
 
+
+### Over the complex numbers
+ {#OverTheComplexNumbers}
+
+
+#### In terms of algebraic geometry
+
 +-- {: .num_remark}
 ###### Remark
 
-Finally if $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to this last equation parameterized by a [[torus]] $z \in \mathbb{C}/\Lambda$ (as discussed in the section [over the complex numbers](#OverTheComplexNumbers)) via the [[Weierstrass elliptic function]] $p$ as
+If the [[ring]] $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to the [[Weierstrass equation]] as in prop. \ref{WeierstrassEquationLocalAt2And3},  parameterized by a [[torus]] $z \in \mathbb{C}/\Lambda$ (as discussed in the section [in terms of complex geometry](#InTermsOfCpomplexGeometry)) via the [[Weierstrass elliptic function]] $p$ as
 $(x = p(z), y = p'(z), )$ in the form
 
 $$
@@ -222,15 +229,17 @@ $$
 
 See e.g. ([Hain 08, section 5](#Hain08)) on how complex elliptic curves are expressed in this algebraic geometric fashion.
 
-### Over the complex numbers
- {#OverTheComplexNumbers}
+
+#### In terms of complex geometry
+ {#InTermsOfCpomplexGeometry}
+
 
 +-- {: .num_prop #CharacterizationOverC}
 ###### Proposition
 
 An [[elliptic curve]], def. \ref{EllipticCurve}, over the [[complex numbers]] $\mathbb{C}$ is equivalently
 
-* a [[Riemann surface]] $X$ of [[genus]] 1 with a fixed point $P \in X$
+* a [[Riemann surface]] $X$ of [[genus]] 1 with a base point $P \in X$ (e.g.[Hain 08, def. 1.1](#Hain08))
 
 * a quotient $\mathbb{C}/\Lambda$ where $\Lambda$ is a [[lattice]] in $\mathbb{C}$;
 
@@ -253,9 +262,15 @@ From the second definition it follows that to study the
 
 A **[[framed elliptic curve]]** is an elliptic curve $(X,P)$ in the sense of the first item in prop. \ref{CharacterizationOverC}, together with an [[ordering|ordered]] [[basis]] $(a,b)$ of $H_1(X, \mathbb{Z})$ with $(a \cdot b) = 1 $
 
+For $n$ a natural number, a **[[level n-structure on an elliptic curve]]** over the complex numbers is similar data but with [[coefficients]] only in the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$.
+
 A **framed lattice** in $\mathbb{C}$ is a lattice $\Lambda$ together with an ordered basis $(\lambda_1, \lambda_2)$ of $\Lambda$ such that $Im(\lambda_2/\lambda_1) \gt 0$.
 
+
 =--
+
+Hence a framed elliptic curve is the quotient of the complex plane by a lattice _together_ with the information on how this quotient was obtained. This is useful for describing the [[moduli stack of elliptic curves]] over the complex numbers.
+
 
 ### Over the rational numbers
  {#OverTheRationalNumbers}
