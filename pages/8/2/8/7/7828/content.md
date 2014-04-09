@@ -132,6 +132,9 @@ This is with motivation from _[[orientifolds]]_, see the references given there 
 
 * {#DMR13} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
+* {#DMR14} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+
+
 Discussion of $KU$ with its $\mathbb{Z}_2$-action as the [[E-∞ ring]]-valued [[structure sheaf]] of the moduli stack of tori is due to 
 
 * {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], appendix of _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
