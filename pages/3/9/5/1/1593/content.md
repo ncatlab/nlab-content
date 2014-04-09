@@ -77,6 +77,9 @@ A detailed list of examples of [[KR-theory]] of orientifolds and their [[T-duali
 
 * {#DMR13} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
+* {#DMR14} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+
+
 A formulation of some of the relevant aspects of (bosonic) orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
 
 * [[Urs Schreiber]],  talk [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
