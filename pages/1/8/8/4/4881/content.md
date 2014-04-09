@@ -19,7 +19,9 @@
 
 ## Definition
 
-The **torus** is the [[manifold]] obtained as the [[quotient]] 
+### In topology and differential geometry
+
+The **torus** is the [[manifold]] (a [[smooth manifold]], hence in particular also a [[topological manifold]]) obtained as the [[quotient]] 
 
 $$
   T := \mathbb{R}^2 / \mathbb{Z}^2
@@ -36,7 +38,31 @@ $$
 
 For $n = 1$ this is the [[circle]].
 
-In this fashion each torus canonically carries the structure of an [[abelian group]], in fact of an abelian [[Lie group]]
+In this fashion each torus canonically carries the structure of an [[abelian group]], in fact of an abelian [[Lie group]]. Notice that regarded as a [[group]] the torus carries a [[pointed object|base point]] (the neutral element). 
+
+### In algebraic geometry
+ {#InAlgebraicGeometry}
+
+According to [[SGA]]3, for $X$ a base [[scheme]] then a 1-dimensional torus (in the sense of tori-as-groups) over it is a [[group scheme]] over $X$ which becomes [[isomorphism|isomorphic]] to the [[multiplicative group]] over $X$ after a [[faithfully flat morphism|faithfully flat]] [[group extension]].
+
+In ([Lawson-Naumann 12, def. A.1](#LawsonNaumann12))  this is called "a form of" the multiplicative group over $X$. 
+
+By ([Lawson-Naumann 12, prop. A.4](#LawsonNaumann12)) the [[moduli stack of 1-dimensional tori]] $\mathcal{M}_{1dtori}$  in this sense is equivalent to the [[delooping]] of the [[group of order two]]:
+
+$$
+  \mathcal{M}_{1dtor}
+  \simeq
+  \mathbf{B}\mathbb{Z}/2\mathbb{Z}
+  \,.
+$$
+
+The single nontrival [[automorphism]] of any 1-dimensional toris here is that induced by the canonical automorphism of the multiplicative group
+
+$$
+  Aut(\mathbb{G}_m) \simeq \mathbb{Z}/2\mathbb{Z}
+$$
+
+given by inversion (by sending any element to its [[inverse]] element).
 
 ## Properties
 
@@ -50,5 +76,10 @@ In this fashion each torus canonically carries the structure of an [[abelian gro
 
 * [[toric variety]]
 
+## References
+
+The [[moduli stack]] of 1-dimensional tori in [[algebraic geometry]] is discussed (as the cusp point inside the [[moduli stack of elliptic curves]]) in
+
+* {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], Appendix A of _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_ ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 [[!redirects tori]]
 
