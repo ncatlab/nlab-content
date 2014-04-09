@@ -22,6 +22,7 @@ $$
   K_0(C) = \{equivalence \,classes\; [c]\; of \,objects \,c \in C\}
 $$
 
+
 naturally inherits the structure of an abelian [[group]] from the [[fibration sequence]]s in $C$:
 
 for 
@@ -190,6 +191,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[topological K-theory]]
 
+* [[Tate K-theory]]
+
 * [[K-orientation]]
 
 * [[algebraic K-theory]]
@@ -219,6 +222,7 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 * [[Morava K-theory]]
 
 * [[L-theory]]
+
 
 * [[twisted K-theory]]
 
