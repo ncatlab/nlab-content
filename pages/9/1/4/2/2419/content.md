@@ -138,6 +138,9 @@ Textbook accounts include
 
 Lecture notes and reviews include
 
+* {#Hain08} Richard Hain, section 4 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+
 * [[Charles Rezk]], section 10 of [pdf](http://www.math.uiuc.edu/~rezk/512-spr2001-notes.pdf)
 
 * Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
