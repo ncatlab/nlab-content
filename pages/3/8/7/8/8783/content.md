@@ -71,6 +71,8 @@ for the [[orbifold Euler characteristic]] of the [[moduli space of elliptic curv
 
 * [[Alastair Hamilton]], _Classes on compactifications of the moduli space of curves through solutions to the quantum master equation_, Lett. Math. Phys. __89__  (2009), no. 2, 115--130.
 
+* _The moduli of curves_ [pdf](http://www2.imperial.ac.uk/~acorti/download/moduli.pdf)
+
 The [[orbifold Euler characteristic]] of the moduli space of curves was originally computed in
 
 * {#ZagierHarer86} [[Don Zagier]], John Harer, _The Euler characteristic of the moduli space of curves_, Inventiones mathematicae (1986) Volume: 85, page 457-486 ([EUDML](https://eudml.org/doc/143377))
